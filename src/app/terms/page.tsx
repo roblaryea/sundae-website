@@ -211,9 +211,9 @@ export default function TermsPage() {
                 <div className="bg-gray-50 p-4 rounded-lg">
                   <p className="text-gray-700">
                     <strong>Sundae, Inc.</strong><br />
-                    Email: <a href="mailto:legal@sundae.ai" className="text-blue-600 hover:underline">legal@sundae.ai</a><br />
-                    Address: 123 Innovation Drive, Suite 400, Wilmington, DE 19801<br />
-                    Phone: +1 (555) 123-4567
+                    Email: <a href="mailto:legal@sundae.io" className="text-blue-600 hover:underline">legal@sundae.io</a><br />
+                    Address: 4601, Burj Al Salam, Trade Center, Dubai, UAE<br />
+                    Phone: +971 (4) 123-4567
                   </p>
                 </div>
               </section>
@@ -251,8 +251,8 @@ export default function TermsPage() {
               <CardContent className="p-6 text-center">
                 <div className="text-3xl mb-4">📧</div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">Email Us</h3>
-                <a href="mailto:legal@sundae.ai" className="text-blue-600 hover:underline">
-                  legal@sundae.ai
+                <a href="mailto:legal@sundae.io" className="text-blue-600 hover:underline">
+                  legal@sundae.io
                 </a>
               </CardContent>
             </Card>
@@ -261,8 +261,8 @@ export default function TermsPage() {
               <CardContent className="p-6 text-center">
                 <div className="text-3xl mb-4">📞</div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">Call Us</h3>
-                <a href="tel:+15551234567" className="text-blue-600 hover:underline">
-                  +1 (555) 123-4567
+                <a href="tel:+97141234567" className="text-blue-600 hover:underline">
+                  +971 (4) 123-4567
                 </a>
               </CardContent>
             </Card>
@@ -272,9 +272,9 @@ export default function TermsPage() {
                 <div className="text-3xl mb-4">📍</div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">Visit Us</h3>
                 <p className="text-gray-600 text-sm">
-                  123 Innovation Drive<br />
-                  Suite 400<br />
-                  Wilmington, DE 19801
+                  4601, Burj Al Salam<br />
+                  Trade Center<br />
+                  Dubai, UAE
                 </p>
               </CardContent>
             </Card>
