@@ -2,7 +2,24 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #111111;
+  /* Sundae Brand Colors - Primary */
+  --deep-blue: #0A1E8C;
+  --electric-blue: #1C47FF;
+  --soft-white: #F7F8FF;
+  --pure-white: #FFFFFF;
+  /* Secondary / UI Neutrals */
+  --graphite-black: #111111;
+  --muted-grey: #79819A;
+  --divider-grey: #E6E8F2;
+  /* Insight Status Colors */
+  --positive: #16A34A;
+  --warning: #F59E0B;
+  --critical: #DC2626;
+  /* Accent Colors */
+  --lavender: #B8C0FF;
+  --coral: #FF6D5A;
+  --aqua: #3CC8E2;
 }
 
 @theme inline {
@@ -10,12 +27,42 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  /* Sundae Brand Colors - Primary */
+  --color-deep-blue: var(--deep-blue);
+  --color-electric-blue: var(--electric-blue);
+  --color-soft-white: var(--soft-white);
+  --color-pure-white: var(--pure-white);
+  /* Secondary / UI Neutrals */
+  --color-graphite-black: var(--graphite-black);
+  --color-muted-grey: var(--muted-grey);
+  --color-divider-grey: var(--divider-grey);
+  /* Insight Status Colors */
+  --color-positive: var(--positive);
+  --color-warning: var(--warning);
+  --color-critical: var(--critical);
+  /* Accent Colors */
+  --color-lavender: var(--lavender);
+  --color-coral: var(--coral);
+  --color-aqua: var(--aqua);
+}
+
+/* Dark mode styles */
+.dark {
+  --background: #111111;
+  --foreground: #F7F8FF;
+  --color-deep-blue: #1C47FF;
+  --color-electric-blue: #3A6BFF;
+  --color-soft-white: #1A1A1A;
+  --color-pure-white: #111111;
+  --color-graphite-black: #F7F8FF;
+  --color-muted-grey: #A0A8C0;
+  --color-divider-grey: #2A2A3A;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #1C2A33;
+    --foreground: #F5EFE6;
   }
 }
 
@@ -23,4 +70,395 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Typography System - Semantic Scale */
+
+/* ===== Hero Headings (Landing pages, Hero sections) ===== */
+.hero-h1 {
+  font-size: 36px;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.hero-h2 {
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+@media (min-width: 768px) {
+  .hero-h1 {
+    font-size: 48px;
+  }
+  
+  .hero-h2 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-h1 {
+    font-size: 56px;
+  }
+  
+  .hero-h2 {
+    font-size: 42px;
+  }
+}
+
+/* ===== Section Headings (Content sections) ===== */
+.section-h2 {
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.section-h3 {
+  font-size: 24px;
+  line-height: 1.3;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+
+.section-h4 {
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .section-h2 {
+    font-size: 36px;
+  }
+  
+  .section-h3 {
+    font-size: 28px;
+  }
+  
+  .section-h4 {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-h2 {
+    font-size: 42px;
+  }
+  
+  .section-h3 {
+    font-size: 32px;
+  }
+  
+  .section-h4 {
+    font-size: 24px;
+  }
+}
+
+/* ===== Body Text (Paragraphs, descriptions) ===== */
+.body-xl {
+  font-size: 20px;
+  line-height: 1.65;
+  font-weight: 400;
+}
+
+.body-lg {
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.body-base {
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.body-sm {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.body-xs {
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .body-xl {
+    font-size: 22px;
+    line-height: 1.7;
+  }
+  
+  .body-lg {
+    font-size: 19px;
+  }
+  
+  .body-base {
+    font-size: 17px;
+  }
+}
+
+/* ===== Legacy Heading Support (for gradual migration) ===== */
+h1, .text-h1 {
+  font-size: 42px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+h2, .text-h2 {
+  font-size: 28px;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+h3, .text-h3 {
+  font-size: 22px;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+h4, .text-h4 {
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  h1, .text-h1 {
+    font-size: 48px;
+  }
+  
+  h2, .text-h2 {
+    font-size: 32px;
+  }
+  
+  h3, .text-h3 {
+    font-size: 24px;
+  }
+  
+  h4, .text-h4 {
+    font-size: 20px;
+  }
+}
+
+/* ===== Base text elements ===== */
+p, .text-base {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.text-lg {
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+/* Improved paragraph spacing */
+p + p {
+  margin-top: 1rem;
+}
+
+/* Card text improvements */
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.card-description {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Button text improvements */
+button, .btn {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+/* CTA link text */
+.cta-link {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* Footer text */
+footer {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+footer a {
+  font-size: 14px;
+}
+
+/* Testimonial text */
+.testimonial-text {
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+/* High contrast text on gradients/colored backgrounds */
+.text-on-gradient {
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure minimum contrast ratios */
+.text-contrast-high {
+  color: #111111;
+}
+
+.dark .text-contrast-high {
+  color: #F7F8FF;
+}
+
+.text-contrast-medium {
+  color: #374151;
+}
+
+.dark .text-contrast-medium {
+  color: #D1D5DB;
+}
+
+.text-contrast-low {
+  color: #6B7280;
+}
+
+.dark .text-contrast-low {
+  color: #9CA3AF;
+}
+
+/* Custom animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Glassmorphism effects */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.glass-dark {
+  background: rgba(17, 17, 17, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Modern gradient backgrounds */
+.gradient-mesh {
+  background: linear-gradient(135deg, #0A1E8C 0%, #1C47FF 50%, #B8C0FF 100%);
+  background-size: 400% 400%;
+  animation: gradientShift 8s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Enhanced animations */
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(28, 71, 255, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(28, 71, 255, 0.6);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.shimmer {
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+.animate-slide-in-up {
+  animation: slideInUp 0.8s ease-out forwards;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2s ease-in-out infinite;
+}
+
+/* Modern card hover effects */
+.card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+/* Text gradient effects */
+.text-gradient {
+  background: linear-gradient(135deg, #0A1E8C, #1C47FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Neon glow for important elements */
+.neon-glow {
+  text-shadow: 0 0 10px currentColor, 0 0 20px currentColor, 0 0 30px currentColor;
 }

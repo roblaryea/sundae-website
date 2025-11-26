@@ -1,0 +1,236 @@
+'use client';
+
+import Link from "next/link";
+import { Button } from "@/components/ui/Button";
+import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/Card";
+import { motion } from "framer-motion";
+
+export default function MarketingTeamsPage() {
+  const challenges = [
+    {
+      title: "Attribution Blind Spots",
+      description: "Struggling to connect marketing spend to actual restaurant performance and revenue impact.",
+      icon: "🎯"
+    },
+    {
+      title: "Fragmented Campaign Data",
+      description: "Marketing data lives in one system, sales data in another—making it impossible to see the full picture.",
+      icon: "📊"
+    },
+    {
+      title: "Generic Insights",
+      description: "National-level metrics don't reveal which locations are responding best to campaigns or why.",
+      icon: "🌍"
+    },
+    {
+      title: "Slow Response Times",
+      description: "By the time you get performance data, the campaign window has already closed.",
+      icon: "⏱️"
+    }
+  ];
+
+  const howSundaeHelps = [
+    {
+      title: "Real-Time Campaign Attribution",
+      description: "Sundae Canvas connects marketing spend to sales lift at every location—see which campaigns are driving revenue in real time.",
+      product: "Sundae Canvas",
+      icon: "📈"
+    },
+    {
+      title: "Location-Level Insights",
+      description: "Sundae Insights shows which locations are responding to campaigns and which need different messaging or channels.",
+      product: "Sundae Insights",
+      icon: "🎯"
+    },
+    {
+      title: "Ask Marketing Questions",
+      description: "Ask Sundae Nexus 'Which locations had the best ROI from our last promo?' or 'What's the average check lift from loyalty members?' and get instant answers.",
+      product: "Sundae Nexus",
+      icon: "💬"
+    },
+    {
+      title: "Benchmark Performance",
+      description: "Sundae Report shows how your marketing-driven metrics compare to industry standards and top performers.",
+      product: "Sundae Report",
+      icon: "📊"
+    }
+  ];
+
+  const outcomes = [
+    {
+      title: "Optimize campaign spend",
+      description: "Identify high-performing locations and channels to allocate budget more effectively",
+      icon: "💰"
+    },
+    {
+      title: "Prove marketing ROI",
+      description: "Connect campaigns directly to revenue impact with location-level attribution",
+      icon: "📈"
+    },
+    {
+      title: "React faster to campaigns",
+      description: "Real-time data lets you adjust campaigns mid-flight based on performance",
+      icon: "⚡"
+    },
+    {
+      title: "Personalize by location",
+      description: "Understand which locations respond to different messages and offers",
+      icon: "🎨"
+    }
+  ];
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50">
+      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className="inline-flex items-center space-x-2 bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm font-medium mb-6"
+            >
+              <span>🎨</span>
+              <span>Marketing Teams</span>
+            </motion.div>
+            
+            <motion.h1
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.1 }}
+              className="text-5xl md:text-6xl font-bold text-gray-900 mb-6"
+            >
+              Marketing Intelligence That Actually Converts
+            </motion.h1>
+            
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed"
+            >
+              Stop guessing at campaign performance. Sundae connects your marketing efforts directly to restaurant sales, giving you real-time attribution, location-level insights, and the data you need to prove ROI—all in one platform.
+            </motion.p>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              className="flex flex-col sm:flex-row gap-4 justify-center"
+            >
+              <Link href="/demo">
+                <Button variant="primary" size="lg" className="animate-pulse-glow">
+                  See Marketing Dashboard
+                </Button>
+              </Link>
+              <Link href="/report">
+                <Button variant="outline" size="lg">
+                  View Campaign Analytics
+                </Button>
+              </Link>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Key Challenges</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Marketing teams struggle to connect campaigns to actual restaurant performance
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {challenges.map((challenge, index) => (
+              <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
+                <CardHeader>
+                  <div className="flex items-start space-x-4">
+                    <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0">
+                      {challenge.icon}
+                    </div>
+                    <div>
+                      <CardTitle className="text-gray-900 mb-2">{challenge.title}</CardTitle>
+                      <CardDescription className="text-gray-600">{challenge.description}</CardDescription>
+                    </div>
+                  </div>
+                </CardHeader>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">How Sundae Helps</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Built for marketing teams who need real attribution and actionable insights
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {howSundaeHelps.map((item, index) => (
+              <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
+                <CardHeader>
+                  <div className="flex items-start space-x-4">
+                    <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0">
+                      {item.icon}
+                    </div>
+                    <div>
+                      <div className="text-xs text-blue-600 font-semibold mb-1">{item.product}</div>
+                      <CardTitle className="text-gray-900 mb-2">{item.title}</CardTitle>
+                      <CardDescription className="text-gray-600">{item.description}</CardDescription>
+                    </div>
+                  </div>
+                </CardHeader>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">What You Can Achieve</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Real outcomes for marketing teams using Sundae
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {outcomes.map((outcome, index) => (
+              <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
+                <CardHeader>
+                  <div className="flex items-start space-x-4">
+                    <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0">
+                      {outcome.icon}
+                    </div>
+                    <div>
+                      <CardTitle className="text-gray-900 mb-2">{outcome.title}</CardTitle>
+                      <CardDescription className="text-gray-600">{outcome.description}</CardDescription>
+                    </div>
+                  </div>
+                </CardHeader>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Drive Measurable Marketing Impact</h2>
+          <p className="text-xl mb-8 opacity-90">
+            See how marketing teams are using Sundae to connect campaigns to revenue, optimize spend, and prove ROI across their restaurant portfolio.
+          </p>
+          <Link href="/demo">
+            <Button variant="primary" size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+              Book a Marketing Team Demo
+            </Button>
+          </Link>
+        </div>
+      </section>
+    </div>
+  );
+}
