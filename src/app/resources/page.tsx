@@ -62,22 +62,22 @@ export default function ResourcesPage() {
 
   const tools = [
     {
-      name: "Restaurant ROI Calculator",
-      description: "Calculate the potential return on investment from implementing decision intelligence.",
-      icon: "🧮",
-      link: "/tools/roi-calculator"
-    },
-    {
-      name: "Labor Cost Analyzer",
-      description: "Analyze your labor costs and identify optimization opportunities.",
+      name: "Labor Cost % Calculator",
+      description: "Calculate your labor cost percentage and see if you're on target compared to industry standards.",
       icon: "👥",
-      link: "/tools/labor-analyzer"
+      link: "/tools/labor-cost"
     },
     {
-      name: "Menu Engineering Tool",
-      description: "Optimize your menu for maximum profitability and customer satisfaction.",
+      name: "Menu Item Margin Calculator",
+      description: "Analyze menu item profitability with margin calculations and pricing recommendations.",
       icon: "🍽️",
-      link: "/tools/menu-engineering"
+      link: "/tools/menu-margin"
+    },
+    {
+      name: "Break-Even Covers Calculator",
+      description: "Calculate how many covers you need to break even based on fixed and variable costs.",
+      icon: "⚖️",
+      link: "/tools/breakeven-covers"
     }
   ];
 
@@ -201,38 +201,21 @@ export default function ResourcesPage() {
         </div>
       </section>
 
-      {/* Tools Section */}
+      {/* Tools Section - CTA to dedicated tools page */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              Free Tools & Calculators
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Interactive tools to help you analyze and optimize your restaurant operations
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {tools.map((tool, index) => (
-              <Card key={index} variant="elevated" className="text-center">
-                <CardHeader>
-                  <div className="text-4xl mb-4">{tool.icon}</div>
-                  <CardTitle className="text-gray-900">{tool.name}</CardTitle>
-                </CardHeader>
-                <CardContent className="space-y-4">
-                  <CardDescription className="text-gray-600">
-                    {tool.description}
-                  </CardDescription>
-                  <Link href={tool.link}>
-                    <Button variant="outline" size="sm" className="w-full">
-                      Use Tool
-                    </Button>
-                  </Link>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
+        <div className="max-w-4xl mx-auto text-center">
+          <div className="text-4xl mb-6">🛠️</div>
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            Free Tools & Calculators
+          </h2>
+          <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+            Try Sundae's free calculators for labor costs, menu margins, benchmark readiness, and more.
+          </p>
+          <Link href="/tools">
+            <Button variant="primary" size="lg">
+              Explore All Tools →
+            </Button>
+          </Link>
         </div>
       </section>
 

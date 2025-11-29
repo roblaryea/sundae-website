@@ -9,8 +9,10 @@ export default function LaborCostCalculator() {
   const [laborCost, setLaborCost] = useState('');
   const [totalSales, setTotalSales] = useState('');
   const [result, setResult] = useState<{ percentage: number; interpretation: string; color: string } | null>(null);
+  const [isCalculating, setIsCalculating] = useState(false);
 
   const calculate = () => {
+    setIsCalculating(true);
     const labor = parseFloat(laborCost);
     const sales = parseFloat(totalSales);
 
@@ -35,7 +37,11 @@ export default function LaborCostCalculator() {
       color = 'text-red-600 dark:text-red-400';
     }
 
-    setResult({ percentage, interpretation, color });
+    // Small delay to show loading state
+    setTimeout(() => {
+      setResult({ percentage, interpretation, color });
+      setIsCalculating(false);
+    }, 300);
   };
 
   return (
@@ -114,8 +120,9 @@ export default function LaborCostCalculator() {
                 variant="primary" 
                 size="lg" 
                 className="w-full"
+                disabled={isCalculating}
               >
-                Calculate Labor Cost %
+                {isCalculating ? 'Calculating...' : 'Calculate Labor Cost %'}
               </Button>
             </CardContent>
           </Card>

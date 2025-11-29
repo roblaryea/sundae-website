@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -28,13 +29,18 @@ export const metadata: Metadata = {
     ],
   },
   manifest: "/site.webmanifest",
-  themeColor: "#0A1E8C",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
     title: "Sundae",
   },
 };
+
+export function generateViewport() {
+  return {
+    themeColor: "#0A1E8C",
+  };
+}
 
 export default function RootLayout({
   children,
@@ -49,6 +55,22 @@ export default function RootLayout({
         <link rel="preload" href="/logos/sundae-wordmark.png" as="image" />
         <link rel="preload" href="/logos/sundae-orb.png" as="image" />
       </head>
+      
+      {/* Google Analytics 4 */}
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA4_ID || 'G-XXXXXXXXXX'}`}
+        strategy="afterInteractive"
+      />
+      <Script id="ga4-init" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '${process.env.NEXT_PUBLIC_GA4_ID || 'G-XXXXXXXXXX'}', {
+            page_path: window.location.pathname,
+          });
+        `}
+      </Script>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Navbar />
         <main className="min-h-screen">

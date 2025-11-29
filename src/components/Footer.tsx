@@ -1,9 +1,14 @@
+'use client';
+
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from './ui/Button';
+import { useCta } from '@/lib/cta';
 
 const Footer = () => {
+  const cta = useCta();
+  
   const productLinks = [
     { name: 'Sundae Report', href: '/report' },
     { name: 'Sundae Nexus', href: '/nexus' },
@@ -44,6 +49,7 @@ const Footer = () => {
     { name: 'Blog', href: '/blog' },
     { name: 'Documentation', href: '/docs' },
     { name: 'Case Studies', href: '/resources' },
+    { name: 'Free Tools & Calculators', href: '/tools' },
   ];
 
   return (
@@ -135,15 +141,24 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Resources Links */}
+          {/* Resources Links - Special tracking for Tools */}
           <div>
             <h3 className="font-bold mb-4 text-white text-[15px] tracking-[0.4px]">Resources</h3>
             <ul className="space-y-3">
               {learnLinks.map((link) => (
                 <li key={link.name}>
-                  <Link href={link.href} className="text-muted-grey hover:text-[#0A1E8C] transition-colors text-[14px] leading-[1.5]">
-                    {link.name}
-                  </Link>
+                  {link.href === '/tools' ? (
+                    <button
+                      onClick={() => cta(link.href, "view_tools_footer", { location: "footer" })}
+                      className="text-muted-grey hover:text-[#0A1E8C] transition-colors text-[14px] leading-[1.5] bg-transparent border-none cursor-pointer p-0 text-left"
+                    >
+                      {link.name}
+                    </button>
+                  ) : (
+                    <Link href={link.href} className="text-muted-grey hover:text-[#0A1E8C] transition-colors text-[14px] leading-[1.5]">
+                      {link.name}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>
@@ -153,7 +168,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="border-t border-divider-grey mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-muted-grey text-[14px]">
-            © 2024 Sundae. All rights reserved.
+            © 2025 Sundae. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link href="/privacy" className="text-muted-grey hover:text-[#0A1E8C] text-[14px] transition-colors leading-[1.5]">

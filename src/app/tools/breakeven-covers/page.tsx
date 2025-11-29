@@ -13,8 +13,10 @@ export default function BreakEvenCalculator() {
     breakEvenCovers: number; 
     contributionMargin: number;
   } | null>(null);
+  const [isCalculating, setIsCalculating] = useState(false);
 
   const calculate = () => {
+    setIsCalculating(true);
     const fixed = parseFloat(fixedCosts);
     const variable = parseFloat(variableCost);
     const price = parseFloat(avgPrice);
@@ -34,7 +36,10 @@ export default function BreakEvenCalculator() {
 
     const breakEvenCovers = Math.ceil(fixed / contributionMargin);
 
-    setResult({ breakEvenCovers, contributionMargin });
+    setTimeout(() => {
+      setResult({ breakEvenCovers, contributionMargin });
+      setIsCalculating(false);
+    }, 300);
   };
 
   return (
@@ -131,8 +136,9 @@ export default function BreakEvenCalculator() {
                 variant="primary" 
                 size="lg" 
                 className="w-full"
+                disabled={isCalculating}
               >
-                Calculate Break-Even Point
+                {isCalculating ? 'Calculating...' : 'Calculate Break-Even Point'}
               </Button>
             </CardContent>
           </Card>
