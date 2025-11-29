@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { motion, useInView } from "framer-motion";
@@ -57,16 +58,50 @@ export default function AboutPage() {
     {
       name: "Robert Laryea",
       role: "Founder & CEO",
-      bio: "Spent 15+ years in multi-unit restaurant operations, managing workforce data across dozens of locations. Built Sundae to eliminate the fragmented data chaos he faced daily — transforming operational guesswork into AI-driven intelligence.",
-      image: "👨‍💼",
-      background: "15+ Years Hospitality Operations • Multi-Unit Management • AI & Decision Intelligence"
+      location: "Dubai",
+      image: "/team/robert-laryea.jpg",
+      bullets: [
+        "20+ years leading consulting and global transformation programs",
+        "Deep F&B operator experience — saw fragmented restaurant data pain first-hand",
+        "Scaled restaurant concepts from zero to $10M+ annual revenue",
+        "Founded Sundae to unify data, market context, and AI into one restaurant operating layer"
+      ]
     },
     {
-      name: "Sheikha Al Mheiri",
-      role: "Co-Founder & COO",
-      bio: "Hospitality veteran with deep expertise in workforce development, international expansion, and operational excellence. Drives Sundae's global strategy to empower restaurant groups with real-time decision intelligence.",
-      image: "👩‍💼",
-      background: "Hospitality Management • Global Expansion Strategy • Operations Excellence"
+      name: "Daanish Siddiqui",
+      role: "Chief Growth Officer",
+      location: "Dubai",
+      image: "/team/daanish-siddiqui.jpg",
+      bullets: [
+        "18+ years turning ideas into $100M+ businesses",
+        "Expert in product, marketing, and go-to-market execution",
+        "5x founder with 2 successful exits",
+        "Specialist in 0→1 category creation and PLG-driven growth"
+      ]
+    },
+    {
+      name: "Alissa Parabani",
+      role: "Head of Product",
+      location: "Toronto",
+      image: "/team/alissa-parabani.jpg",
+      bullets: [
+        "Former Walmart Canada systems engineer",
+        "Translates operator needs into measurable product ROI",
+        "Takes concepts from idea to live product in record time",
+        "Track record: 3 product lines launched, all profitable within 18 months"
+      ]
+    },
+    {
+      name: "Naveed Nadir",
+      role: "Head of Technology",
+      location: "Toronto",
+      image: "/team/naveed-nadir.jpg",
+      bullets: [
+        "Built enterprise SaaS platforms handling 10M+ daily transactions",
+        "Seasoned engineer across automotive and enterprise SaaS",
+        "Expert in building secure, compliant systems at global scale",
+        "World-class SaaS infrastructure and reliability leadership"
+      ]
     }
   ];
 
@@ -256,55 +291,86 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Founders Story Section */}
+      {/* Team Section */}
       <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-50/30 dark:from-gray-900 dark:to-deep-blue/5">
         <div className="max-w-7xl mx-auto">
           <FadeUpSection>
             <div className="text-center mb-16">
-              <h2 className="section-h2 text-gray-900 dark:text-white mb-6">
-                Built by Hospitality Veterans
+              <h2 className="section-h2 text-gray-900 dark:text-white mb-4">
+                The Team Building Restaurant Decision Intelligence
               </h2>
-              <p className="body-xl text-gray-700 dark:text-gray-300 max-w-4xl mx-auto">
-                Sundae was built by operators who spent 15+ years inside the restaurants they now empower — turning real operational challenges into AI-driven solutions.
+              <p className="text-lg text-gray-600 dark:text-gray-400 max-w-4xl mx-auto">
+                Deep experience across restaurants, technology, and data — building Sundae for operators, not just analysts.
               </p>
             </div>
           </FadeUpSection>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
             {leadership.map((member, index) => (
               <FadeUpSection key={member.name} delay={index * 0.1}>
                 <motion.div
-                  whileHover={{ y: -8, scale: 1.02 }}
+                  whileHover={{ y: -8 }}
                   transition={{ duration: 0.3 }}
+                  className="text-center"
                 >
-                  <Card variant="elevated" className="h-full p-8">
-                    <CardHeader>
-                      <div className="flex items-center space-x-5 mb-6">
-                        <div className="text-5xl">{member.image}</div>
-                        <div>
-                          <CardTitle className="text-gray-900 dark:text-white text-2xl mb-1">{member.name}</CardTitle>
-                          <CardDescription className="text-electric-blue dark:text-electric-blue font-semibold text-base">
-                            {member.role}
-                          </CardDescription>
-                        </div>
-                      </div>
-                    </CardHeader>
-                    <CardContent>
-                      <p className="text-gray-700 dark:text-gray-300 mb-6 leading-[1.65] text-base">{member.bio}</p>
-                      <div className="bg-electric-blue/10 dark:bg-electric-blue/20 rounded-xl p-4 border border-electric-blue/20">
-                        <p className="text-sm text-gray-900 dark:text-gray-200 font-medium leading-[1.65]">{member.background}</p>
-                      </div>
-                    </CardContent>
-                  </Card>
+                  <div className="relative w-32 h-32 mx-auto mb-6">
+                    <Image
+                      src={member.image}
+                      alt={member.name}
+                      width={128}
+                      height={128}
+                      className="w-full h-full rounded-full object-cover border-4 border-electric-blue/20"
+                    />
+                  </div>
+                  <h3 className="font-bold text-gray-900 dark:text-white text-xl mb-1">{member.name}</h3>
+                  <p className="text-electric-blue dark:text-electric-blue font-semibold text-sm mb-1">{member.role}</p>
+                  <p className="text-gray-500 dark:text-gray-400 text-sm mb-6">{member.location}</p>
+                  <ul className="text-left space-y-3">
+                    {member.bullets.map((bullet, idx) => (
+                      <li key={idx} className="flex items-start space-x-2 text-sm text-gray-600 dark:text-gray-400">
+                        <span className="text-electric-blue mt-1 flex-shrink-0">•</span>
+                        <span>{bullet}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </motion.div>
               </FadeUpSection>
             ))}
           </div>
+
+          {/* Team Strengths */}
+          <FadeUpSection delay={0.4}>
+            <Card variant="elevated" className="bg-gradient-to-r from-electric-blue/10 to-deep-blue/10 dark:from-electric-blue/20 dark:to-deep-blue/20 border-2 border-electric-blue/20">
+              <CardContent className="p-8">
+                <h3 className="font-bold text-gray-900 dark:text-white text-lg mb-6">Team Strengths</h3>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                  <div className="flex items-center space-x-3">
+                    <div className="w-12 h-12 bg-electric-blue rounded-xl flex items-center justify-center text-white text-2xl flex-shrink-0">
+                      📊
+                    </div>
+                    <p className="text-gray-700 dark:text-gray-300 font-medium">60+ years combined experience across restaurants, tech & data</p>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <div className="w-12 h-12 bg-electric-blue rounded-xl flex items-center justify-center text-white text-2xl flex-shrink-0">
+                      🌍
+                    </div>
+                    <p className="text-gray-700 dark:text-gray-300 font-medium">Dubai + Toronto global presence</p>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <div className="w-12 h-12 bg-electric-blue rounded-xl flex items-center justify-center text-white text-2xl flex-shrink-0">
+                      🚀
+                    </div>
+                    <p className="text-gray-700 dark:text-gray-300 font-medium">Multiple successful exits and scale-ups</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </FadeUpSection>
         </div>
       </section>
 
-      {/* Company Story Section */}
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-white dark:bg-gray-900">
+      {/* Company Story Section - Horizontal Timeline */}
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-white dark:bg-gray-900 overflow-hidden">
         <div className="max-w-7xl mx-auto">
           <FadeUpSection>
             <div className="text-center mb-16">
@@ -317,44 +383,56 @@ export default function AboutPage() {
             </div>
           </FadeUpSection>
 
-          <div className="relative">
-            {/* Timeline */}
-            <div className="space-y-16">
-              {milestones.map((milestone, index) => (
-                <FadeUpSection key={`${milestone.year}-${index}`} delay={index * 0.1}>
-                  <motion.div 
-                    className="flex items-start space-x-8"
-                    whileHover={{ x: 8 }}
+          {/* Desktop: Grid Layout */}
+          <div className="hidden lg:grid lg:grid-cols-4 gap-8 relative">
+            {/* Connecting Line */}
+            <div className="absolute top-12 left-0 right-0 h-1 bg-gradient-to-r from-electric-blue via-deep-blue to-electric-blue" style={{ top: '48px' }} />
+            
+            {milestones.slice(0, 4).map((milestone, index) => (
+              <FadeUpSection key={`${milestone.year}-${index}`} delay={index * 0.1}>
+                <div className="relative">
+                  {/* Node */}
+                  <motion.div
+                    className="w-24 h-24 bg-gradient-to-br from-electric-blue to-deep-blue rounded-full flex items-center justify-center text-white font-bold text-xl shadow-lg mx-auto mb-6 relative z-10 border-4 border-white dark:border-gray-900"
+                    whileHover={{ scale: 1.1, rotate: 5 }}
                     transition={{ duration: 0.3 }}
                   >
-                    <div className="flex-shrink-0">
-                      <motion.div 
-                        className="w-24 h-24 bg-gradient-to-br from-electric-blue to-deep-blue rounded-2xl flex items-center justify-center text-white font-bold text-xl shadow-lg"
-                        whileHover={{ scale: 1.1, rotate: 5 }}
-                        animate={{ 
-                          boxShadow: [
-                            "0 10px 25px -5px rgba(0, 0, 0, 0.1)",
-                            "0 15px 35px -10px rgba(28, 71, 255, 0.3)",
-                            "0 10px 25px -5px rgba(0, 0, 0, 0.1)"
-                          ]
-                        }}
-                        transition={{ 
-                          duration: 2,
-                          repeat: Infinity,
-                          ease: "easeInOut"
-                        }}
-                      >
-                        {milestone.year}
-                      </motion.div>
-                    </div>
-                    <div className="flex-grow pt-2">
-                      <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">{milestone.title}</h3>
-                      <p className="text-gray-600 dark:text-gray-400 text-base leading-[1.65]">{milestone.description}</p>
-                    </div>
+                    {milestone.year}
                   </motion.div>
-                </FadeUpSection>
+                  
+                  {/* Content */}
+                  <div className="text-center">
+                    <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">{milestone.title}</h3>
+                    <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">{milestone.description}</p>
+                  </div>
+                </div>
+              </FadeUpSection>
+            ))}
+          </div>
+
+          {/* Mobile: Horizontal Scroll */}
+          <div className="lg:hidden">
+            <div className="flex gap-6 overflow-x-auto snap-x snap-mandatory pb-8 scrollbar-hide" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+              {milestones.map((milestone, index) => (
+                <motion.div
+                  key={`${milestone.year}-${index}`}
+                  className="flex-shrink-0 w-80 snap-center"
+                  initial={{ opacity: 0, x: 50 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                >
+                  <Card variant="elevated" className="h-full p-6 dark:bg-gray-800">
+                    <div className="w-20 h-20 bg-gradient-to-br from-electric-blue to-deep-blue rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg mb-4">
+                      {milestone.year}
+                    </div>
+                    <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">{milestone.title}</h3>
+                    <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">{milestone.description}</p>
+                  </Card>
+                </motion.div>
               ))}
             </div>
+            <p className="text-center text-sm text-gray-500 dark:text-gray-400 mt-4">← Swipe to explore →</p>
           </div>
         </div>
       </section>

@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
+import { Accordion } from '@/components/ui/Accordion';
 import { motion } from 'framer-motion';
 
 export default function PricingPage() {
@@ -420,60 +421,51 @@ export default function PricingPage() {
       {/* FAQ Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-50/30 dark:from-gray-900 dark:to-deep-blue/5">
         <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="section-h2 text-gray-900 dark:text-white mb-4">
-              Frequently Asked Questions
-            </h2>
-            <p className="body-lg text-gray-700 dark:text-gray-300">
-              Everything you need to know about Sundae pricing
-            </p>
-          </div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
+            <div className="text-center mb-12">
+              <h2 className="section-h2 text-gray-900 dark:text-white mb-4">
+                Frequently Asked Questions
+              </h2>
+              <p className="body-lg text-gray-700 dark:text-gray-300">
+                Everything you need to know about Sundae pricing
+              </p>
+            </div>
 
-          <div className="space-y-4">
-            {[
-              {
-                question: "What happens after the free period?",
-                answer: "After your free period ends, you can choose to continue with Report at $25-50/location/month, upgrade to Core, or discontinue service. No credit card required to start."
-              },
-              {
-                question: "How do you count a location?",
-                answer: "A location is any physical restaurant address where you operate. Multiple brands at the same address count as one location."
-              },
-              {
-                question: "What is included in Core vs Report?",
-                answer: "Report provides benchmarking only. Core includes the full Sundae Intelligence Stack: Nexus AI, Canvas dashboards, Insights engine, Pulse alerts, Scout integrations, and Watchtower market intel."
-              },
-              {
-                question: "Do you offer multi-brand discounts?",
-                answer: "Yes, Enterprise pricing includes volume-based discounts. The more locations, the lower the per-location cost."
-              },
-              {
-                question: "Is my data secure?",
-                answer: "Absolutely. We use bank-level encryption, are SOC 2 Type II compliant, and never share your data with third parties. Your data is always yours."
-              },
-              {
-                question: "Can I switch between plans?",
-                answer: "Yes, you can upgrade or downgrade at any time. Changes take effect immediately and billing is prorated."
-              }
-            ].map((faq, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: index * 0.05 }}
-              >
-                <Card variant="default" className="hover:shadow-lg transition-all">
-                  <CardHeader>
-                    <CardTitle className="text-lg text-gray-900 dark:text-white">{faq.question}</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="body-base text-gray-600 dark:text-gray-400">{faq.answer}</p>
-                  </CardContent>
-                </Card>
-              </motion.div>
-            ))}
-          </div>
+            <Accordion
+              items={[
+                {
+                  title: "What happens after the free period?",
+                  content: "After your free period ends, you can choose to continue with Report at $25-50/location/month, upgrade to Core, or discontinue service. No credit card required to start."
+                },
+                {
+                  title: "How do you count a location?",
+                  content: "A location is any physical restaurant address where you operate. Multiple brands at the same address count as one location."
+                },
+                {
+                  title: "What is included in Core vs Report?",
+                  content: "Report provides benchmarking only. Core includes the full Sundae Intelligence Stack: Nexus AI, Canvas dashboards, Insights engine, Pulse alerts, Scout integrations, and Watchtower market intel."
+                },
+                {
+                  title: "Do you offer multi-brand discounts?",
+                  content: "Yes, Enterprise pricing includes volume-based discounts. The more locations, the lower the per-location cost."
+                },
+                {
+                  title: "Is my data secure?",
+                  content: "Absolutely. We use bank-level encryption, are SOC 2 Type II compliant, and never share your data with third parties. Your data is always yours."
+                },
+                {
+                  title: "Can I switch between plans?",
+                  content: "Yes, you can upgrade or downgrade at any time. Changes take effect immediately and billing is prorated."
+                }
+              ]}
+              defaultOpenIndex={0}
+            />
+          </motion.div>
         </div>
       </section>
 

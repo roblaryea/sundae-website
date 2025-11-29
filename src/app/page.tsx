@@ -41,10 +41,12 @@ export default function Home() {
   const resultsRef = useRef(null);
   const challengesRef = useRef(null);
   const flowRef = useRef(null);
+  const dimensionsRef = useRef(null);
   
   const resultsInView = useInView(resultsRef, { once: true, margin: "-100px" });
   const challengesInView = useInView(challengesRef, { once: true, margin: "-100px" });
   const flowInView = useInView(flowRef, { once: true, margin: "-100px" });
+  const dimensionsInView = useInView(dimensionsRef, { once: true, margin: "-100px" });
 
   const coreProducts = [
     {
@@ -81,45 +83,6 @@ export default function Home() {
     }
   ];
 
-  const intelligenceCapabilities = [
-    {
-      name: "Unified Data Intelligence",
-      description: "Connect POS, labor, cost, and performance data into one intelligent layer across all locations",
-      icon: "🔗",
-      color: "bg-deep-blue"
-    },
-    {
-      name: "Real-time AI Insights", 
-      description: "Get instant alerts and recommendations when metrics deviate from benchmarks or targets",
-      icon: "⚡",
-      color: "bg-electric-blue"
-    },
-    {
-      name: "Benchmarking Engine",
-      description: "Compare performance against similar restaurants in your region and segment",
-      icon: "📊",
-      color: "bg-lavender"
-    },
-    {
-      name: "Predictive Signals",
-      description: "Anticipate issues before they impact your bottom line with AI forecasting and pattern detection",
-      icon: "🔮",
-      color: "bg-coral"
-    },
-    {
-      name: "Multi-unit Visibility",
-      description: "Enterprise-grade dashboards for portfolio-wide decision making across all your locations",
-      icon: "🏢",
-      color: "bg-aqua"
-    },
-    {
-      name: "Anomaly Detection",
-      description: "Automatically identify unusual patterns in sales, labor, and costs across dayparts and locations",
-      icon: "🚨",
-      color: "bg-warning"
-    }
-  ];
-
   const testimonials = [
     {
       name: "Sarah Chen",
@@ -150,7 +113,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50">
-      {/* Enhanced Hero Section */}
+      {/* Enhanced Hero Section with 4D Messaging */}
       <section className="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-br from-blue-50/80 via-purple-50/30 to-blue-50/60">
         <div className="absolute inset-0 gradient-mesh opacity-10"></div>
         
@@ -199,13 +162,13 @@ export default function Home() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="hero-h1 text-gray-900 mb-6">
-              Decision Intelligence for Restaurants
+              See Your Business in 4D
             </h1>
             <p className="body-xl text-gray-600 mb-6 max-w-4xl mx-auto">
-              The AI platform that turns data into action — unify data, benchmark performance, and get instant insights.
+              The Decision Intelligence platform that goes beyond dashboards — unify data, benchmark performance, predict outcomes, and get AI-powered recommendations.
             </p>
             <p className="body-base text-gray-500 mb-8 max-w-3xl mx-auto">
-              Powered by <span className="font-semibold text-blue-600">Sundae Report</span>, <span className="font-semibold text-purple-600">Nexus</span>, <span className="font-semibold text-green-600">Insights</span>, and <span className="font-semibold text-orange-600">Canvas</span> — the decision intelligence stack for restaurants and hospitality.
+              Powered by <span className="font-semibold text-blue-600">Sundae Report</span>, <span className="font-semibold text-purple-600">Nexus</span>, <span className="font-semibold text-green-600">Insights</span>, and <span className="font-semibold text-orange-600">Canvas</span> — the 4D intelligence stack for restaurants and hospitality.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/report">
@@ -213,9 +176,9 @@ export default function Home() {
                   Get Sundae Report (Free)
                 </Button>
               </Link>
-              <Link href="/demo">
+              <Link href="/4d-intelligence">
                 <Button variant="outline" size="lg" className="border-2 border-gray-900 text-gray-900 bg-white hover:bg-gray-900 hover:text-white transition-all duration-300">
-                  Book a Demo
+                  See How 4D Intelligence Works →
                 </Button>
               </Link>
             </div>
@@ -285,18 +248,224 @@ export default function Home() {
         <div className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-lavender/10 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
       </section>
 
+      {/* NEW: The 1D Problem Section */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="section-h2 text-gray-900 mb-4">
+              You're Running Your Business in 1D
+            </h2>
+            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+              Most operators only see their own past numbers—sales vs last week, labor vs last month. That's reactive, inward-looking, and always too late.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[
+              {
+                title: "1D Reports",
+                description: "Sales vs last week, labor vs last month... reactive, inward-looking metrics that tell you what happened but not why or what to do.",
+                icon: "📉",
+                color: "from-gray-500 to-gray-600"
+              },
+              {
+                title: "Too Late",
+                description: "You only see problems at month-end, when they're expensive to fix. No early warnings, no predictive signals.",
+                icon: "⏰",
+                color: "from-red-500 to-red-600"
+              },
+              {
+                title: "No Market Context",
+                description: "No view into competitor pricing, promotions, or shifting demand. You're flying blind against the market.",
+                icon: "🕶️",
+                color: "from-orange-500 to-orange-600"
+              }
+            ].map((problem, index) => (
+              <motion.div
+                key={problem.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                viewport={{ once: true, margin: "-100px" }}
+                whileHover={{ y: -8, transition: { duration: 0.2 } }}
+              >
+                <Card variant="elevated" className="h-full hover:shadow-xl transition-all duration-300">
+                  <CardHeader>
+                    <div className="flex items-start space-x-4 mb-3">
+                      <div className={`w-12 h-12 bg-gradient-to-br ${problem.color} rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0 shadow-lg`}>
+                        {problem.icon}
+                      </div>
+                      <CardTitle className="text-gray-900">{problem.title}</CardTitle>
+                    </div>
+                    <CardDescription className="text-gray-600 leading-relaxed">
+                      {problem.description}
+                    </CardDescription>
+                  </CardHeader>
+                </Card>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* NEW: The 4D Intelligence Model */}
+      <section ref={dimensionsRef} className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="section-h2 text-gray-900 mb-4">
+              Sundae's 4D Intelligence Model
+            </h2>
+            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+              Go beyond 1D reports. Sundae gives you four dimensions of intelligence to understand what happened, what should have happened, how you compare, and what's coming next.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              {
+                dimension: "1D",
+                title: "Internal Actuals",
+                description: "What happened? Sales, labor, covers, voids, waste — your operational history from POS, payroll, and inventory systems.",
+                icon: "📊",
+                color: "from-blue-500 to-blue-600",
+                textColor: "text-blue-600"
+              },
+              {
+                dimension: "2D",
+                title: "Actual vs Plan",
+                description: "What should have happened? Compare actuals to budgets, forecasts, and targets. See variance across locations and periods.",
+                icon: "🎯",
+                color: "from-purple-500 to-purple-600",
+                textColor: "text-purple-600"
+              },
+              {
+                dimension: "3D",
+                title: "Market & Competitors",
+                description: "How do we compare? See your performance vs benchmarks, peer groups, competitor pricing, and category trends.",
+                icon: "🗺️",
+                color: "from-green-500 to-green-600",
+                textColor: "text-green-600"
+              },
+              {
+                dimension: "4D",
+                title: "AI Foresight & Actions",
+                description: "What will happen next, and what should we do? Predictions, alerts, recommendations, and AI-generated action plans.",
+                icon: "🚀",
+                color: "from-orange-500 to-orange-600",
+                textColor: "text-orange-600"
+              }
+            ].map((dim, index) => (
+              <motion.div
+                key={dim.dimension}
+                initial={{ opacity: 0, y: 30 }}
+                animate={dimensionsInView ? { opacity: 1, y: 0 } : {}}
+                transition={{ duration: 0.6, delay: index * 0.15 }}
+                whileHover={{ y: -8, scale: 1.02, transition: { duration: 0.2 } }}
+              >
+                <Card variant="elevated" className="h-full hover:shadow-2xl transition-all duration-300 group">
+                  <CardHeader>
+                    <div className="text-center mb-4">
+                      <div className={`inline-flex w-16 h-16 bg-gradient-to-br ${dim.color} rounded-full items-center justify-center text-white text-3xl mb-3 shadow-lg group-hover:scale-110 transition-transform duration-300`}>
+                        {dim.icon}
+                      </div>
+                      <div className={`text-3xl font-bold ${dim.textColor} mb-2`}>{dim.dimension}</div>
+                      <CardTitle className="text-xl text-gray-900 mb-3">{dim.title}</CardTitle>
+                    </div>
+                    <CardDescription className="text-gray-600 leading-relaxed text-center">
+                      {dim.description}
+                    </CardDescription>
+                  </CardHeader>
+                </Card>
+              </motion.div>
+            ))}
+          </div>
+
+          <div className="text-center mt-12">
+            <Link href="/4d-intelligence">
+              <Button variant="primary" size="lg" className="shadow-lg hover:shadow-xl">
+                Explore the 4D Intelligence Model →
+              </Button>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* How Sundae Plugs Into Your World */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="section-h2 text-gray-900 mb-4">
+              How Sundae Plugs Into Your World
+            </h2>
+            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+              Three steps from fragmented data to 4D intelligence
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {[
+              {
+                step: "1",
+                title: "Connect",
+                description: "Sundae Scout integrates with 25+ systems: POS, labor, payroll, inventory, budgets, reservations, and delivery aggregators.",
+                icon: "🔗",
+                color: "from-blue-500 to-blue-600"
+              },
+              {
+                step: "2",
+                title: "Normalize & Enrich",
+                description: "Clean, standardize, and layer in plan data, benchmarks, weather, events, and competitor intelligence.",
+                icon: "✨",
+                color: "from-purple-500 to-purple-600"
+              },
+              {
+                step: "3",
+                title: "Activate 4D Intelligence",
+                description: "Access unified dashboards, ask natural language questions, get proactive alerts, and receive AI recommendations.",
+                icon: "🚀",
+                color: "from-orange-500 to-orange-600"
+              }
+            ].map((step, index) => (
+              <motion.div
+                key={step.step}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                viewport={{ once: true, margin: "-100px" }}
+                whileHover={{ y: -8, transition: { duration: 0.2 } }}
+              >
+                <Card variant="elevated" className="h-full hover:shadow-xl transition-all duration-300">
+                  <CardHeader>
+                    <div className="text-center mb-4">
+                      <div className={`inline-flex w-16 h-16 bg-gradient-to-br ${step.color} rounded-full items-center justify-center text-white text-3xl mb-3 shadow-lg`}>
+                        {step.icon}
+                      </div>
+                      <div className="text-2xl font-bold text-gray-400 mb-2">Step {step.step}</div>
+                      <CardTitle className="text-xl text-gray-900 mb-3">{step.title}</CardTitle>
+                    </div>
+                    <CardDescription className="text-gray-600 leading-relaxed text-center">
+                      {step.description}
+                    </CardDescription>
+                  </CardHeader>
+                </Card>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Proven Results with Count-Up Animation */}
-      <section ref={resultsRef} className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section ref={resultsRef} className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-4">
             <h2 className="section-h2 text-gray-900 mb-4">
-              Proven Decision Intelligence Results
+              Proven 4D Intelligence Results
             </h2>
             <p className="body-sm text-gray-500 mb-8">
               Based on results from multi-location restaurant groups using Sundae
             </p>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              See how restaurants achieve measurable improvements with Sundae's decision intelligence platform
+              See how restaurants achieve measurable improvements with Sundae's 4D intelligence platform
             </p>
           </div>
           
@@ -306,7 +475,7 @@ export default function Home() {
               return (
                 <motion.div 
                   key={insight.title} 
-                  className="text-center p-6 bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl hover:shadow-lg transition-shadow duration-300"
+                  className="text-center p-6 bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
                   initial={{ opacity: 0, y: 20 }}
                   animate={resultsInView ? { opacity: 1, y: 0 } : {}}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
@@ -324,14 +493,14 @@ export default function Home() {
       </section>
 
       {/* NEW: One Platform, Four Core Products */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
               One Platform, Four Core Products
             </h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Everything you need to move from raw data to confident decisions
+              Everything you need to move from 1D reports to 4D intelligence
             </p>
           </div>
           
@@ -383,193 +552,82 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Sundae Intelligence Capabilities (Moved from Core Modules) */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      {/* NEW: Watchtower Highlight */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-deep-blue to-electric-blue text-white">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
-              Sundae Intelligence Capabilities
-            </h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Under the hood, Sundae combines six powerful capabilities to deliver decision intelligence across your restaurants
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {intelligenceCapabilities.map((capability, index) => (
-              <motion.div
-                key={capability.name}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                viewport={{ once: true, margin: "-100px" }}
-                whileHover={{ y: -8, transition: { duration: 0.2 } }}
-              >
-                <Card variant="elevated" className="h-full hover:shadow-xl transition-all duration-300 group">
-                  <CardHeader>
-                    <div className="flex items-center space-x-4 mb-3">
-                      <div className={`w-12 h-12 ${capability.color} rounded-lg flex items-center justify-center text-white text-xl group-hover:scale-110 transition-transform duration-300`}>
-                        {capability.icon}
-                      </div>
-                      <CardTitle className="text-gray-900 group-hover:text-blue-600 transition-colors duration-300">
-                        {capability.name}
-                      </CardTitle>
-                    </div>
-                    <CardDescription className="text-gray-600 leading-relaxed">
-                      {capability.description}
-                    </CardDescription>
-                  </CardHeader>
-                  <CardContent>
-                    <div className="text-sm text-blue-600 font-medium group-hover:text-blue-700 transition-colors flex items-center">
-                      <span>Learn more</span>
-                      <span className="ml-1">→</span>
-                    </div>
-                  </CardContent>
-                </Card>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Three Critical Challenges with Staggered Animations */}
-      <section ref={challengesRef} className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="section-h2 mb-4">
-              Three Critical Challenges We Solve
-            </h2>
-            <p className="body-xl opacity-90 max-w-3xl mx-auto">
-              Data fragmentation, missed opportunities, and slow decision-making in restaurant operations
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              {
-                problem: "Data Fragmentation",
-                solution: "POS, labor, inventory, and financial data scattered across systems — Sundae unifies them into one intelligence layer.",
-                icon: "🔗",
-                result: "360° visibility across all operational data"
-              },
-              {
-                problem: "Missed Revenue Opportunities",
-                solution: "Hidden patterns in sales, pricing, and customer behavior that cost restaurants thousands monthly.",
-                icon: "💰",
-                result: "$50K+ additional revenue per location annually"
-              },
-              {
-                problem: "Slow Decision-Making",
-                solution: "Waiting for weekly reports while problems grow — get instant alerts and actionable recommendations.",
-                icon: "⚡",
-                result: "From days to minutes for critical decisions"
-              }
-            ].map((item, index) => (
-              <motion.div 
-                key={item.problem} 
-                className="text-center group"
-                initial={{ opacity: 0, y: 30 }}
-                animate={challengesInView ? { opacity: 1, y: 0 } : {}}
-                transition={{ duration: 0.6, delay: index * 0.2 }}
-              >
-                <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center text-2xl mx-auto mb-4 group-hover:bg-white/30 transition-colors duration-300">
-                  {item.icon}
-                </div>
-                <h3 className="font-semibold text-lg mb-3">{item.problem}</h3>
-                <p className="text-sm opacity-90 mb-3 leading-relaxed">{item.solution}</p>
-                <div className="bg-white/10 rounded-lg p-3 group-hover:bg-white/20 transition-colors duration-300">
-                  <p className="text-xs font-medium">{item.result}</p>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* From Data to Decisions with Horizontal Flow */}
-      <section ref={flowRef} className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-4">
-            <h2 className="section-h2 text-gray-900 mb-4">
-              From Data to Decisions in Real-Time
-            </h2>
-            <p className="body-lg text-gray-500 max-w-2xl mx-auto mb-8">
-              How Sundae transforms raw restaurant data into decision-ready intelligence
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 relative">
-            {/* Connection lines on desktop */}
-            <div className="hidden md:block absolute top-10 left-0 right-0 h-0.5 bg-gradient-to-r from-blue-200 via-purple-200 to-orange-200 z-0" style={{ width: '75%', marginLeft: '12.5%' }}></div>
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+            >
+              <div className="text-6xl mb-6">👁️</div>
+              <h2 className="text-4xl font-bold mb-6">
+                Watchtower: Your Market and Competitive Radar
+              </h2>
+              <p className="text-xl mb-8 opacity-90">
+                Most restaurants operate in a vacuum. Watchtower gives you real-time visibility into competitor moves, category trends, and market dynamics.
+              </p>
+              
+              <ul className="space-y-4 mb-8">
+                {[
+                  "Real-time competitor pricing and promotions",
+                  "Territory and category benchmarks",
+                  "Alerts when the market moves and you're exposed"
+                ].map((item, index) => (
+                  <li key={index} className="flex items-start space-x-3">
+                    <span className="text-2xl">✓</span>
+                    <span className="text-lg">{item}</span>
+                  </li>
+                ))}
+              </ul>
+              
+              <Link href="/product/watchtower">
+                <Button variant="secondary" size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+                  Learn More About Watchtower
+                </Button>
+              </Link>
+            </motion.div>
             
-            {[
-              {
-                step: "1",
-                title: "Data Integration",
-                description: "Connect POS, labor, inventory, and financial data into one intelligent layer.",
-                icon: "🔗",
-                color: "from-blue-500 to-blue-600"
-              },
-              {
-                step: "2", 
-                title: "AI Analysis",
-                description: "Machine learning algorithms identify patterns and anomalies in real-time.",
-                icon: "🤖",
-                color: "from-purple-500 to-purple-600"
-              },
-              {
-                step: "3",
-                title: "Benchmarking",
-                description: "Compare performance against similar restaurants and industry standards.",
-                icon: "📊",
-                color: "from-green-500 to-green-600"
-              },
-              {
-                step: "4",
-                title: "Actionable Insights",
-                description: "Get specific recommendations to improve revenue and reduce costs.",
-                icon: "💡",
-                color: "from-orange-500 to-orange-600"
-              }
-            ].map((step, index) => (
-              <motion.div 
-                key={step.title} 
-                className="text-center group relative z-10"
-                initial={{ opacity: 0, scale: 0.8 }}
-                animate={flowInView ? { opacity: 1, scale: 1 } : {}}
-                transition={{ duration: 0.5, delay: index * 0.15 }}
-              >
-                <div className={`w-20 h-20 bg-gradient-to-br ${step.color} rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg relative`}>
-                  {step.icon}
-                  {index < 3 && (
-                    <motion.div 
-                      className="hidden md:block absolute -right-12 top-1/2 transform -translate-y-1/2 text-gray-300"
-                      initial={{ opacity: 0, x: -10 }}
-                      animate={flowInView ? { opacity: 1, x: 0 } : {}}
-                      transition={{ duration: 0.5, delay: index * 0.15 + 0.3 }}
-                    >
-                      →
-                    </motion.div>
-                  )}
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="relative"
+            >
+              <div className="glass rounded-2xl p-8 backdrop-blur-sm border border-white/20">
+                <div className="space-y-6">
+                  {[
+                    { label: "Competitor Pricing", value: "Real-time", trend: "↑" },
+                    { label: "Market Share", value: "+2.3%", trend: "↑" },
+                    { label: "Category Growth", value: "8.5%", trend: "↑" }
+                  ].map((metric, index) => (
+                    <div key={index} className="flex justify-between items-center p-4 bg-white/10 rounded-xl">
+                      <div>
+                        <div className="text-sm opacity-80">{metric.label}</div>
+                        <div className="text-2xl font-bold">{metric.value}</div>
+                      </div>
+                      <div className="text-3xl">{metric.trend}</div>
+                    </div>
+                  ))}
                 </div>
-                <div className="text-2xl font-bold text-gray-400 mb-2">{step.step}</div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors duration-300">{step.title}</h3>
-                <p className="text-gray-600 leading-relaxed">{step.description}</p>
-              </motion.div>
-            ))}
+              </div>
+            </motion.div>
           </div>
         </div>
       </section>
 
       {/* Enhanced Testimonials Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
               Trusted by Hospitality Leaders
             </h2>
             <p className="body-xl text-gray-600">
-              See how operators achieve measurable decision intelligence improvements
+              See how operators achieve measurable results with 4D intelligence
             </p>
           </div>
           
@@ -602,24 +660,23 @@ export default function Home() {
       </section>
 
       {/* Enhanced Final CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-50">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 text-gray-900 mb-6">
-            Ready to Transform Your Restaurant Operations?
+            Ready to Move from 1D to 4D?
           </h2>
           <p className="body-xl text-gray-600 mb-8">
-            Join leading restaurant groups already using Sundae to unify data, 
-            benchmark performance, and make smarter decisions.
+            Join leading restaurant groups already using Sundae to see their business in four dimensions—past, plan, peers, and predictions.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
-            <Link href="/pricing">
+            <Link href="/demo">
               <Button variant="primary" size="lg">
-                Explore Plans & Pricing
+                Book a Demo
               </Button>
             </Link>
-            <Link href="/demo">
+            <Link href="/pricing">
               <Button variant="outline" size="lg">
-                Book a Demo
+                Explore Plans & Pricing
               </Button>
             </Link>
           </div>
