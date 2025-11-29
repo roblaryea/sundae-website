@@ -116,7 +116,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50 overflow-x-hidden">
       {/* Enhanced Hero Section with 4D Messaging */}
-      <section className="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-br from-blue-50/80 via-purple-50/30 to-blue-50/60 max-w-full">
+      <section className="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-br from-blue-50/80 via-purple-50/30 to-blue-50/60">
         <div className="absolute inset-0 gradient-mesh opacity-10"></div>
         
         {/* Animated Floating Orb with Enhanced Glow */}
