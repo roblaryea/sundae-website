@@ -401,32 +401,83 @@ const Navbar = () => {
             </Button>
           </div>
 
-          {/* Mobile menu button */}
+          {/* Mobile menu button - Enhanced visibility */}
           <button
-            className="md:hidden p-2"
+            type="button"
+            className="md:hidden inline-flex items-center justify-center p-2 rounded-lg text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 relative z-50"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            aria-label="Open main menu"
+            aria-label={isMenuOpen ? "Close main menu" : "Open main menu"}
             aria-expanded={isMenuOpen}
             aria-controls="mobile-menu"
           >
-            <div className="w-6 h-6 flex flex-col justify-center items-center">
-              <span className={`bg-deep-slate dark:bg-white block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${
-                isMenuOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'
-              }`}></span>
-              <span className={`bg-deep-slate dark:bg-white block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${
-                isMenuOpen ? 'opacity-0' : 'opacity-100'
-              }`}></span>
-              <span className={`bg-deep-slate dark:bg-white block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${
-                isMenuOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'
-              }`}></span>
-            </div>
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              {isMenuOpen ? (
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              ) : (
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              )}
+            </svg>
           </button>
         </div>
 
-        {/* Mobile Navigation */}
+        {/* Backdrop Overlay */}
         {isMenuOpen && (
-          <div id="mobile-menu" className="md:hidden py-4 border-t border-soft-cream dark:border-deep-slate max-h-[calc(100vh-5rem)] overflow-y-auto bg-white dark:bg-graphite">
-            <div className="flex flex-col space-y-4">
+          <div
+            className="fixed inset-0 z-40 bg-black/40 backdrop-blur-sm md:hidden"
+            onClick={() => setIsMenuOpen(false)}
+            aria-hidden="true"
+          />
+        )}
+
+        {/* Mobile Navigation - Sliding Drawer */}
+        <div
+          id="mobile-menu"
+          className={`fixed inset-y-0 right-0 w-full max-w-sm bg-white dark:bg-graphite shadow-2xl md:hidden z-50 transform transition-transform duration-300 ease-out ${
+            isMenuOpen ? 'translate-x-0' : 'translate-x-full'
+          }`}
+        >
+          {/* Mobile Menu Header with Close Button */}
+          <div className="flex items-center justify-between p-4 border-b border-gray-200 dark:border-deep-slate">
+            <div className="flex items-center">
+              <Image
+                src="/logos/sundae-wordmark.png"
+                alt="Sundae"
+                width={120}
+                height={34}
+                className="h-8 w-auto"
+              />
+            </div>
+            <button
+              type="button"
+              onClick={() => setIsMenuOpen(false)}
+              className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-deep-slate transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600"
+              aria-label="Close navigation menu"
+            >
+              <svg className="w-6 h-6 text-gray-600 dark:text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+
+          {/* Scrollable Menu Content */}
+          <div className="overflow-y-auto h-[calc(100vh-16rem)] py-4">
+            <div className="flex flex-col space-y-4 px-4">
               {/* Product Links */}
               <div>
                 <p className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400 mb-2 px-2 font-bold">Product</p>
@@ -503,34 +554,38 @@ const Navbar = () => {
                   </Link>
                 ))}
               </div>
-              <div className="flex flex-col space-y-2 pt-4 px-2">
-                <DarkModeToggle />
-                <Button 
-                  variant="outline" 
-                  size="sm" 
-                  className="w-full"
-                  onClick={() => {
-                    cta("/sign-in", "sign_in_mobile_nav", { location: "mobile-nav" });
-                    setIsMenuOpen(false);
-                  }}
-                >
-                  Sign In
-                </Button>
-                <Button 
-                  variant="primary" 
-                  size="sm" 
-                  className="w-full"
-                  onClick={() => {
-                    cta("/demo", "book_demo_mobile_nav", { location: "mobile-nav" });
-                    setIsMenuOpen(false);
-                  }}
-                >
-                  Book Demo
-                </Button>
-              </div>
             </div>
           </div>
-        )}
+
+          {/* Mobile Menu Footer with CTAs */}
+          <div className="absolute bottom-0 left-0 right-0 p-4 bg-white dark:bg-graphite border-t border-gray-200 dark:border-deep-slate">
+            <div className="flex flex-col space-y-2">
+              <DarkModeToggle />
+              <Button 
+                variant="outline" 
+                size="sm" 
+                className="w-full"
+                onClick={() => {
+                  cta("/sign-in", "sign_in_mobile_nav", { location: "mobile-nav" });
+                  setIsMenuOpen(false);
+                }}
+              >
+                Sign In
+              </Button>
+              <Button 
+                variant="primary" 
+                size="sm" 
+                className="w-full"
+                onClick={() => {
+                  cta("/demo", "book_demo_mobile_nav", { location: "mobile-nav" });
+                  setIsMenuOpen(false);
+                }}
+              >
+                Book Demo
+              </Button>
+            </div>
+          </div>
+        </div>
       </div>
     </nav>
   );
