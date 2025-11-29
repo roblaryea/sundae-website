@@ -371,13 +371,13 @@ export default function BenchmarkingPage() {
             </div>
             
             {/* Simplified Visual Preview */}
-            <div className="relative">
-              <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-200 relative z-10">
+            <div className="relative w-full max-w-full">
+              <div className="bg-white rounded-2xl p-4 md:p-8 shadow-lg border border-gray-200 relative z-10 w-full">
                 <h3 className="text-lg font-semibold text-gray-900 mb-2 text-center">Here's a sample of the summary you'll receive</h3>
                 <p className="text-sm text-gray-500 mb-6 text-center">Personalized to your restaurant's data</p>
                 <div className="space-y-4">
                   {previewResults.map((result, index) => (
-                    <div key={index} className="flex items-center justify-between p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+                    <div key={index} className="flex items-center justify-between p-3 md:p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors min-w-0">
                       <div className="flex items-center space-x-3 flex-1">
                         <div className={`w-8 h-8 ${result.color} rounded-lg flex items-center justify-center text-white flex-shrink-0`}>
                           {result.icon}

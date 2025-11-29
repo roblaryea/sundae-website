@@ -1,5 +1,7 @@
 'use client';
 
+// Mobile nav overlay: full-viewport scrim + scroll lock, consistent on all pages
+
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Button } from './ui/Button';
@@ -23,16 +25,25 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Lock body scroll when mobile menu is open
+  // Lock body scroll when mobile menu is open - works globally on all pages
   useEffect(() => {
     if (isMenuOpen) {
+      const originalOverflow = document.body.style.overflow;
+      const originalPaddingRight = document.body.style.paddingRight;
+      
+      // Calculate scrollbar width to prevent layout shift
+      const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+      
       document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'unset';
+      if (scrollbarWidth > 0) {
+        document.body.style.paddingRight = `${scrollbarWidth}px`;
+      }
+      
+      return () => {
+        document.body.style.overflow = originalOverflow;
+        document.body.style.paddingRight = originalPaddingRight;
+      };
     }
-    return () => {
-      document.body.style.overflow = 'unset';
-    };
   }, [isMenuOpen]);
 
   // Close mobile menu on ESC key
@@ -436,24 +447,32 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Backdrop Overlay */}
-        {isMenuOpen && (
-          <div
-            className="fixed inset-0 z-40 bg-black/40 backdrop-blur-sm md:hidden"
-            onClick={() => setIsMenuOpen(false)}
-            aria-hidden="true"
-          />
-        )}
+      </div>
 
-        {/* Mobile Navigation - Sliding Drawer */}
+      {/* Mobile Menu Modal - Portal-like fixed container */}
+      {isMenuOpen && (
         <div
-          id="mobile-menu"
-          className={`fixed inset-y-0 right-0 w-full max-w-sm bg-white dark:bg-graphite shadow-2xl md:hidden z-50 transform transition-transform duration-300 ease-out ${
-            isMenuOpen ? 'translate-x-0' : 'translate-x-full'
-          }`}
+          className="fixed inset-0 z-[60] md:hidden"
+          aria-modal="true"
+          role="dialog"
+          aria-label="Mobile navigation"
         >
-          {/* Mobile Menu Header with Close Button */}
-          <div className="flex items-center justify-between p-4 border-b border-gray-200 dark:border-deep-slate">
+          {/* Backdrop Overlay */}
+          <button
+            type="button"
+            className="absolute inset-0 bg-black/40 backdrop-blur-sm"
+            onClick={() => setIsMenuOpen(false)}
+            aria-label="Close navigation"
+          />
+
+          {/* Drawer */}
+          <nav
+            id="mobile-menu"
+            className="absolute inset-y-0 right-0 w-[85%] max-w-sm bg-white dark:bg-graphite shadow-2xl"
+          >
+            <div className="flex h-full flex-col">
+        {/* Mobile Menu Header with Close Button */}
+        <div className="flex items-center justify-between p-4 border-b border-gray-200 dark:border-deep-slate flex-shrink-0">
             <div className="flex items-center">
               <Image
                 src="/logos/sundae-wordmark.png"
@@ -476,7 +495,7 @@ const Navbar = () => {
           </div>
 
           {/* Scrollable Menu Content */}
-          <div className="overflow-y-auto h-[calc(100vh-16rem)] py-4">
+          <div className="flex-1 overflow-y-auto py-4">
             <div className="flex flex-col space-y-4 px-4">
               {/* Product Links */}
               <div>
@@ -558,7 +577,7 @@ const Navbar = () => {
           </div>
 
           {/* Mobile Menu Footer with CTAs */}
-          <div className="absolute bottom-0 left-0 right-0 p-4 bg-white dark:bg-graphite border-t border-gray-200 dark:border-deep-slate">
+          <div className="flex-shrink-0 p-4 bg-white dark:bg-graphite border-t border-gray-200 dark:border-deep-slate">
             <div className="flex flex-col space-y-2">
               <DarkModeToggle />
               <Button 
@@ -585,8 +604,10 @@ const Navbar = () => {
               </Button>
             </div>
           </div>
+            </div>
+          </nav>
         </div>
-      </div>
+      )}
     </nav>
   );
 };
