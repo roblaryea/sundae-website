@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { motion, useInView } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
+import { useCta } from "@/lib/cta";
 
 // Count-up animation hook
 function useCountUp(end: number, duration: number = 2000, isInView: boolean = false) {
@@ -38,6 +39,7 @@ function useCountUp(end: number, duration: number = 2000, isInView: boolean = fa
 }
 
 export default function Home() {
+  const cta = useCta();
   const resultsRef = useRef(null);
   const challengesRef = useRef(null);
   const flowRef = useRef(null);
@@ -171,16 +173,22 @@ export default function Home() {
               Powered by <span className="font-semibold text-blue-600">Sundae Report</span>, <span className="font-semibold text-purple-600">Nexus</span>, <span className="font-semibold text-green-600">Insights</span>, and <span className="font-semibold text-orange-600">Canvas</span> — the 4D intelligence stack for restaurants and hospitality.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/report">
-                <Button variant="primary" size="lg" className="bg-electric-blue text-white hover:bg-deep-blue transition-all duration-300 shadow-lg hover:shadow-xl">
-                  Get Sundae Report (Free)
-                </Button>
-              </Link>
-              <Link href="/4d-intelligence">
-                <Button variant="outline" size="lg" className="border-2 border-gray-900 text-gray-900 bg-white hover:bg-gray-900 hover:text-white transition-all duration-300">
-                  See How 4D Intelligence Works →
-                </Button>
-              </Link>
+              <Button 
+                variant="primary" 
+                size="lg" 
+                className="bg-electric-blue text-white hover:bg-deep-blue transition-all duration-300 shadow-lg hover:shadow-xl"
+                onClick={() => cta("/report", "get_report_hero", { page: "/home" })}
+              >
+                Get Sundae Report (Free)
+              </Button>
+              <Button 
+                variant="outline" 
+                size="lg" 
+                className="border-2 border-gray-900 text-gray-900 bg-white hover:bg-gray-900 hover:text-white transition-all duration-300"
+                onClick={() => cta("/4d-intelligence", "learn_4d_hero", { page: "/home" })}
+              >
+                See How 4D Intelligence Works →
+              </Button>
             </div>
           </motion.div>
         </div>
@@ -381,11 +389,14 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-12">
-            <Link href="/4d-intelligence">
-              <Button variant="primary" size="lg" className="shadow-lg hover:shadow-xl">
-                Explore the 4D Intelligence Model →
-              </Button>
-            </Link>
+            <Button 
+              variant="primary" 
+              size="lg" 
+              className="shadow-lg hover:shadow-xl"
+              onClick={() => cta("/4d-intelligence", "explore_4d_model", { page: "/home", section: "4d-intelligence" })}
+            >
+              Explore the 4D Intelligence Model →
+            </Button>
           </div>
         </div>
       </section>
@@ -506,16 +517,17 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {coreProducts.map((product, index) => (
-              <Link key={product.name} href={product.link}>
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
-                  viewport={{ once: true, margin: "-100px" }}
-                  whileHover={{ y: -8, transition: { duration: 0.2 } }}
-                  className="group"
-                >
-                  <Card variant="elevated" className="h-full hover:shadow-2xl transition-all duration-300 cursor-pointer">
+              <motion.div
+                key={product.name}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                viewport={{ once: true, margin: "-100px" }}
+                whileHover={{ y: -8, transition: { duration: 0.2 } }}
+                className="group cursor-pointer"
+                onClick={() => cta(product.link, `view_${product.name.toLowerCase().replace(/\s+/g, "_")}`, { page: "/home", section: "core-products" })}
+              >
+                <Card variant="elevated" className="h-full hover:shadow-2xl transition-all duration-300">
                     <CardHeader>
                       <div className="flex items-start space-x-4 mb-4">
                         <div className={`w-14 h-14 bg-gradient-to-br ${product.color} rounded-xl flex items-center justify-center text-white text-2xl group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
@@ -546,7 +558,6 @@ export default function Home() {
                     </CardContent>
                   </Card>
                 </motion.div>
-              </Link>
             ))}
           </div>
         </div>
@@ -583,11 +594,14 @@ export default function Home() {
                 ))}
               </ul>
               
-              <Link href="/product/watchtower">
-                <Button variant="secondary" size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
-                  Learn More About Watchtower
-                </Button>
-              </Link>
+              <Button 
+                variant="secondary" 
+                size="lg" 
+                className="bg-white text-blue-600 hover:bg-gray-100"
+                onClick={() => cta("/product/watchtower", "learn_watchtower", { page: "/home", section: "watchtower-highlight" })}
+              >
+                Learn More About Watchtower
+              </Button>
             </motion.div>
             
             <motion.div
@@ -669,22 +683,29 @@ export default function Home() {
             Join leading restaurant groups already using Sundae to see their business in four dimensions—past, plan, peers, and predictions.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
-            <Link href="/demo">
-              <Button variant="primary" size="lg">
-                Book a Demo
-              </Button>
-            </Link>
-            <Link href="/pricing">
-              <Button variant="outline" size="lg">
-                Explore Plans & Pricing
-              </Button>
-            </Link>
+            <Button 
+              variant="primary" 
+              size="lg"
+              onClick={() => cta("/demo", "book_demo_footer_cta", { page: "/home" })}
+            >
+              Book a Demo
+            </Button>
+            <Button 
+              variant="outline" 
+              size="lg"
+              onClick={() => cta("/pricing", "view_pricing_footer_cta", { page: "/home" })}
+            >
+              Explore Plans & Pricing
+            </Button>
           </div>
           <p className="text-sm text-gray-500">
             Or{" "}
-            <Link href="/report" className="text-blue-600 hover:text-blue-700 font-medium underline">
+            <button 
+              onClick={() => cta("/report", "get_report_footer_link", { page: "/home" })}
+              className="text-blue-600 hover:text-blue-700 font-medium underline bg-transparent border-none cursor-pointer"
+            >
               get your free benchmark report first →
-            </Link>
+            </button>
           </p>
         </div>
       </section>

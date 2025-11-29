@@ -5,8 +5,10 @@ import Link from 'next/link';
 import { Button } from './ui/Button';
 import { DarkModeToggle } from './DarkModeToggle';
 import Image from 'next/image';
+import { useCta } from '@/lib/cta';
 
 const Navbar = () => {
+  const cta = useCta();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
@@ -91,6 +93,7 @@ const Navbar = () => {
     { name: 'Blog', href: '/blog' },
     { name: 'Documentation', href: '/docs' },
     { name: 'Case Studies', href: '/resources' },
+    { name: 'Free Tools & Calculators', href: '/tools' },
   ];
 
   return (
@@ -106,8 +109,8 @@ const Navbar = () => {
                 src="/logos/sundae-wordmark.png"
                 alt="Sundae – Decision Intelligence for Restaurants"
                 width={140}
-                height={32}
-                className={`transition-all duration-300 ${
+                height={40}
+                className={`h-10 w-auto transition-all duration-300 ${
                   isLogoHovered ? 'opacity-85' : 'opacity-100'
                 }`}
                 onMouseEnter={() => setIsLogoHovered(true)}
@@ -122,7 +125,7 @@ const Navbar = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-8">
             {/* Product Mega Menu */}
             <div className="relative group">
               <div
@@ -380,22 +383,31 @@ const Navbar = () => {
           </div>
 
           {/* CTA Buttons & Dark Mode Toggle */}
-          <div className="hidden lg:flex items-center space-x-4">
+          <div className="hidden md:flex items-center space-x-4">
             <DarkModeToggle />
-            <Button variant="outline" size="sm">
+            <Button 
+              variant="outline" 
+              size="sm"
+              onClick={() => cta("/sign-in", "sign_in_navbar", { location: "navbar" })}
+            >
               Sign In
             </Button>
-            <Link href="/demo">
-              <Button variant="primary" size="sm">
-                Book Demo
-              </Button>
-            </Link>
+            <Button 
+              variant="primary" 
+              size="sm"
+              onClick={() => cta("/demo", "book_demo_navbar", { location: "navbar" })}
+            >
+              Book Demo
+            </Button>
           </div>
 
           {/* Mobile menu button */}
           <button
-            className="lg:hidden p-2"
+            className="md:hidden p-2"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label="Open main menu"
+            aria-expanded={isMenuOpen}
+            aria-controls="mobile-menu"
           >
             <div className="w-6 h-6 flex flex-col justify-center items-center">
               <span className={`bg-deep-slate dark:bg-white block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${
@@ -413,7 +425,7 @@ const Navbar = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="lg:hidden py-4 border-t border-soft-cream dark:border-deep-slate max-h-[calc(100vh-5rem)] overflow-y-auto bg-white dark:bg-graphite">
+          <div id="mobile-menu" className="md:hidden py-4 border-t border-soft-cream dark:border-deep-slate max-h-[calc(100vh-5rem)] overflow-y-auto bg-white dark:bg-graphite">
             <div className="flex flex-col space-y-4">
               {/* Product Links */}
               <div>
@@ -493,14 +505,28 @@ const Navbar = () => {
               </div>
               <div className="flex flex-col space-y-2 pt-4 px-2">
                 <DarkModeToggle />
-                <Button variant="outline" size="sm" className="w-full">
+                <Button 
+                  variant="outline" 
+                  size="sm" 
+                  className="w-full"
+                  onClick={() => {
+                    cta("/sign-in", "sign_in_mobile_nav", { location: "mobile-nav" });
+                    setIsMenuOpen(false);
+                  }}
+                >
                   Sign In
                 </Button>
-                <Link href="/demo">
-                  <Button variant="primary" size="sm" className="w-full">
-                    Book Demo
-                  </Button>
-                </Link>
+                <Button 
+                  variant="primary" 
+                  size="sm" 
+                  className="w-full"
+                  onClick={() => {
+                    cta("/demo", "book_demo_mobile_nav", { location: "mobile-nav" });
+                    setIsMenuOpen(false);
+                  }}
+                >
+                  Book Demo
+                </Button>
               </div>
             </div>
           </div>

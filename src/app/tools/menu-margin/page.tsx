@@ -15,8 +15,10 @@ export default function MenuMarginCalculator() {
     color: string;
     bgColor: string;
   } | null>(null);
+  const [isCalculating, setIsCalculating] = useState(false);
 
   const calculate = () => {
+    setIsCalculating(true);
     const price = parseFloat(sellingPrice);
     const cost = parseFloat(ingredientCost);
 
@@ -46,7 +48,10 @@ export default function MenuMarginCalculator() {
       bgColor = 'bg-green-50 dark:bg-green-900/20';
     }
 
-    setResult({ grossProfit, marginPercent, interpretation, color, bgColor });
+    setTimeout(() => {
+      setResult({ grossProfit, marginPercent, interpretation, color, bgColor });
+      setIsCalculating(false);
+    }, 300);
   };
 
   return (
@@ -125,8 +130,9 @@ export default function MenuMarginCalculator() {
                 variant="primary" 
                 size="lg" 
                 className="w-full"
+                disabled={isCalculating}
               >
-                Calculate Margin
+                {isCalculating ? 'Calculating...' : 'Calculate Margin'}
               </Button>
             </CardContent>
           </Card>

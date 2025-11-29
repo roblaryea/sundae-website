@@ -15,6 +15,13 @@ export default function ToolsPage() {
       features: ['Labor cost %', 'Target benchmarks', 'Instant analysis']
     },
     {
+      title: 'Labor Variance Analyzer',
+      description: 'Compare actual labor costs against targets and get actionable insights on variance.',
+      icon: '👥',
+      href: '/tools/labor-analyzer',
+      features: ['Variance analysis', 'Target comparison', 'Recommendations']
+    },
+    {
       title: 'Menu Item Margin Calculator',
       description: 'Analyze menu item profitability with margin calculations and pricing recommendations.',
       icon: '📊',
@@ -27,6 +34,20 @@ export default function ToolsPage() {
       icon: '⚖️',
       href: '/tools/breakeven-covers',
       features: ['Break-even point', 'Contribution margin', 'Profitability insights']
+    },
+    {
+      title: 'Benchmark Readiness Assessment',
+      description: 'Evaluate your organization\'s readiness for data-driven benchmarking and performance tracking.',
+      icon: '📋',
+      href: '/tools/benchmark-readiness',
+      features: ['Readiness score', 'Gap analysis', 'Action plan']
+    },
+    {
+      title: 'Multi-Location Uplift Estimator',
+      description: 'Calculate potential revenue impact of operational improvements across multiple locations.',
+      icon: '📈',
+      href: '/tools/multi-location-uplift',
+      features: ['Revenue projection', 'Per-location impact', 'Timeline estimate']
     }
   ];
 
