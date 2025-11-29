@@ -43,8 +43,6 @@ const Footer = () => {
   const learnLinks = [
     { name: 'Blog', href: '/blog' },
     { name: 'Documentation', href: '/docs' },
-    { name: 'API Reference', href: '/api' },
-    { name: 'Benchmarking', href: '/benchmarking' },
     { name: 'Case Studies', href: '/resources' },
   ];
 
@@ -137,9 +135,9 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Learn Links */}
+          {/* Resources Links */}
           <div>
-            <h3 className="font-bold mb-4 text-white text-[15px] tracking-[0.4px]">Learn</h3>
+            <h3 className="font-bold mb-4 text-white text-[15px] tracking-[0.4px]">Resources</h3>
             <ul className="space-y-3">
               {learnLinks.map((link) => (
                 <li key={link.name}>

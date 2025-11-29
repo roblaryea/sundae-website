@@ -5,48 +5,58 @@ import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 
 export default function ResourcesPage() {
-  const resources = [
+  const caseStudies = [
     {
-      category: "Decision Intelligence",
-      title: "The Complete Guide to Restaurant Decision Intelligence",
-      description: "Learn how AI-powered insights can transform your restaurant operations and drive profitability.",
-      icon: "📊",
+      segment: "Multi-Brand Restaurant Group · GCC",
+      challenge: "Labor Cost Variance",
+      description: "35-location restaurant group struggled with 18% labor cost variance across locations with no visibility into root causes or scheduling efficiency.",
+      solution: ["Sundae Canvas for real-time labor dashboards", "Sundae Insights for turnover and scheduling alerts", "Sundae Report for labor benchmarking"],
+      outcomes: [
+        { metric: "Labor cost reduction", value: "5%" },
+        { metric: "Scheduling efficiency", value: "+12%" },
+        { metric: "Decision speed", value: "3x faster" }
+      ],
+      icon: "🏢",
       color: "bg-blue-600"
     },
     {
-      category: "Benchmarking",
-      title: "2024 Restaurant Industry Benchmarks Report",
-      description: "Access the latest performance metrics and benchmarks across different restaurant segments.",
-      icon: "📈",
+      segment: "Global Franchise · 150+ Locations",
+      challenge: "Menu Pricing & Margin Erosion",
+      description: "International franchise operator facing 8% food cost variance across regions with delayed insights on pricing effectiveness and discount abuse.",
+      solution: ["Sundae Nexus for instant pricing analysis", "Sundae Canvas for margin tracking", "Sundae Report for category benchmarks"],
+      outcomes: [
+        { metric: "Margin improvement", value: "+3.2%" },
+        { metric: "Discount abuse detected", value: "Early" },
+        { metric: "Pricing decisions", value: "Real-time" }
+      ],
+      icon: "🌍",
       color: "bg-green-600"
     },
     {
-      category: "Best Practices",
-      title: "5 Ways to Reduce Labor Costs Without Sacrificing Service",
-      description: "Practical strategies for optimizing your labor efficiency while maintaining quality.",
-      icon: "⚡",
+      segment: "Cloud Kitchen Operator · Multi-City",
+      challenge: "Operational Blind Spots",
+      description: "Fast-growing cloud kitchen network with fragmented data across 8 delivery platforms, unable to unify performance metrics or detect vendor issues.",
+      solution: ["Sundae Scout for data integration", "Sundae Insights for delivery performance tracking", "Sundae Canvas for unified dashboards"],
+      outcomes: [
+        { metric: "Data unification", value: "8 platforms" },
+        { metric: "Issue detection", value: "48hrs faster" },
+        { metric: "Revenue optimization", value: "+6%" }
+      ],
+      icon: "🍽️",
       color: "bg-orange-600"
     },
     {
-      category: "Technology",
-      title: "Choosing the Right Restaurant Tech Stack",
-      description: "A comprehensive guide to selecting and integrating restaurant technology solutions.",
-      icon: "🔧",
+      segment: "Enterprise Hospitality Group · Regional",
+      challenge: "Market Positioning",
+      description: "Hospitality operator with limited visibility into competitor pricing, category trends, and market share across 22 locations in competitive markets.",
+      solution: ["Sundae Watchtower for market intelligence", "Sundae Report for competitive benchmarking", "Sundae Nexus for market analysis"],
+      outcomes: [
+        { metric: "Market share growth", value: "+2.3%" },
+        { metric: "Competitive response time", value: "Days → Hours" },
+        { metric: "Pricing optimization", value: "+4%" }
+      ],
+      icon: "📊",
       color: "bg-purple-600"
-    },
-    {
-      category: "Operations",
-      title: "The Ultimate Restaurant Operations Checklist",
-      description: "Essential daily, weekly, and monthly tasks to keep your restaurant running smoothly.",
-      icon: "✅",
-      color: "bg-teal-600"
-    },
-    {
-      category: "Industry Trends",
-      title: "2025 Restaurant Industry Predictions",
-      description: "Key trends and innovations that will shape the restaurant industry in the coming year.",
-      icon: "🔮",
-      color: "bg-indigo-600"
     }
   ];
 
@@ -92,53 +102,101 @@ export default function ResourcesPage() {
                 Get Started with Sundae
               </Button>
             </Link>
-            <Link href="/benchmarking">
+            <Link href="/report">
               <Button variant="outline" size="lg">
-                Free Benchmark Report
+                Get Free Benchmark Report
               </Button>
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Guides & Reports Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      {/* Case Studies Section */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-gray-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              Guides & Reports
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+              Case Studies
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Expert insights and industry research to help you stay ahead
+            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+              See how operators use Sundae to improve performance, margins, and decision-making
+            </p>
+            <p className="text-sm text-gray-500 dark:text-gray-400 mt-4">
+              Representative examples based on real operator challenges; specific client names omitted.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {resources.map((resource, index) => (
-              <Card key={index} variant="elevated" className="hover:scale-105 transition-all duration-300 hover:shadow-lg group">
-                <CardHeader>
-                  <div className="flex items-center space-x-4 mb-4">
-                    <div className={`w-12 h-12 ${resource.color} rounded-lg flex items-center justify-center text-white text-xl group-hover:scale-110 transition-transform duration-300`}>
-                      {resource.icon}
-                    </div>
+          <div className="space-y-12">
+            {caseStudies.map((study, index) => (
+              <Card key={index} variant="elevated" className="hover:shadow-2xl transition-all duration-300 dark:bg-gray-800">
+                <CardContent className="p-8">
+                  <div className="grid md:grid-cols-3 gap-8">
+                    {/* Left: Challenge */}
                     <div>
-                      <div className="text-xs text-blue-600 font-medium uppercase tracking-wide">{resource.category}</div>
-                      <CardTitle className="text-gray-900 group-hover:text-blue-600 transition-colors duration-300">{resource.title}</CardTitle>
+                      <div className="flex items-center space-x-3 mb-4">
+                        <div className={`w-12 h-12 ${study.color} rounded-lg flex items-center justify-center text-white text-xl`}>
+                          {study.icon}
+                        </div>
+                        <div>
+                          <div className="text-xs text-gray-500 dark:text-gray-400 font-medium uppercase">Segment</div>
+                          <div className="font-semibold text-gray-900 dark:text-white">{study.segment}</div>
+                        </div>
+                      </div>
+                      <div className="mb-4">
+                        <div className="text-sm font-bold text-gray-700 dark:text-gray-300 mb-2">Challenge:</div>
+                        <div className="text-lg font-bold text-gray-900 dark:text-white mb-2">{study.challenge}</div>
+                        <p className="text-gray-600 dark:text-gray-400 leading-relaxed">{study.description}</p>
+                      </div>
+                    </div>
+
+                    {/* Middle: Solution */}
+                    <div>
+                      <div className="text-sm font-bold text-gray-700 dark:text-gray-300 mb-3">Sundae Solution:</div>
+                      <ul className="space-y-2">
+                        {study.solution.map((item, idx) => (
+                          <li key={idx} className="flex items-start space-x-2">
+                            <span className="text-blue-600 mt-1">•</span>
+                            <span className="text-gray-700 dark:text-gray-300">{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+
+                    {/* Right: Outcomes */}
+                    <div>
+                      <div className="text-sm font-bold text-gray-700 dark:text-gray-300 mb-3">Outcomes:</div>
+                      <div className="space-y-3">
+                        {study.outcomes.map((outcome, idx) => (
+                          <div key={idx} className="bg-green-50 dark:bg-green-900/20 rounded-lg p-4">
+                            <div className="text-2xl font-bold text-green-600 dark:text-green-400 mb-1">{outcome.value}</div>
+                            <div className="text-sm text-gray-700 dark:text-gray-300">{outcome.metric}</div>
+                          </div>
+                        ))}
+                      </div>
                     </div>
                   </div>
-                </CardHeader>
-                <CardContent className="space-y-4">
-                  <CardDescription className="text-gray-600 leading-relaxed">
-                    {resource.description}
-                  </CardDescription>
-                  <Link href={`/resources/${resource.title.toLowerCase().replace(/\s+/g, '-')}`}>
-                    <Button variant="ghost" size="sm" className="group-hover:text-blue-600 transition-colors duration-300">
-                      Read More →
-                    </Button>
-                  </Link>
                 </CardContent>
               </Card>
             ))}
+          </div>
+
+          {/* Links to Products */}
+          <div className="mt-16 text-center">
+            <p className="text-gray-600 dark:text-gray-400 mb-6">Explore the products used in these case studies:</p>
+            <div className="flex flex-wrap gap-4 justify-center">
+              {[
+                { name: "Sundae Report", href: "/report" },
+                { name: "Sundae Nexus", href: "/nexus" },
+                { name: "Sundae Insights", href: "/insights" },
+                { name: "Sundae Canvas", href: "/canvas" }
+              ].map((product) => (
+                <Link key={product.name} href={product.href}>
+                  <Button variant="outline" size="sm">
+                    {product.name} →
+                  </Button>
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
       </section>

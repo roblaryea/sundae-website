@@ -21,6 +21,29 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // Lock body scroll when mobile menu is open
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [isMenuOpen]);
+
+  // Close mobile menu on ESC key
+  useEffect(() => {
+    const handleEsc = (event: KeyboardEvent) => {
+      if (event.key === 'Escape' && isMenuOpen) {
+        setIsMenuOpen(false);
+      }
+    };
+    window.addEventListener('keydown', handleEsc);
+    return () => window.removeEventListener('keydown', handleEsc);
+  }, [isMenuOpen]);
+
   // Official Sundae Products (4)
   const products = [
     { name: 'Sundae Report', description: 'Benchmarking Engine', href: '/report' },
@@ -28,6 +51,9 @@ const Navbar = () => {
     { name: 'Sundae Insights', description: 'AI Insights & Recommendations', href: '/insights' },
     { name: 'Sundae Canvas', description: 'Visualization Intelligence', href: '/canvas' },
   ];
+
+  // 4D Intelligence Feature
+  const fourDIntelligence = { name: '4D Intelligence', description: 'See Your Business in 4D', href: '/4d-intelligence' };
 
   // Solutions organized by category
   const solutionsSegments = [
@@ -64,8 +90,6 @@ const Navbar = () => {
   const resources = [
     { name: 'Blog', href: '/blog' },
     { name: 'Documentation', href: '/docs' },
-    { name: 'API Reference', href: '/api' },
-    { name: 'Benchmarking', href: '/benchmarking' },
     { name: 'Case Studies', href: '/resources' },
   ];
 
@@ -114,6 +138,20 @@ const Navbar = () => {
                   onMouseEnter={() => setActiveDropdown('product')}
                   onMouseLeave={() => setActiveDropdown(null)}
                 >
+                  {/* 4D Intelligence Feature Highlight */}
+                  <Link
+                    href={fourDIntelligence.href}
+                    className="block p-4 mb-4 rounded-xl bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 transition-all duration-200 shadow-md hover:shadow-lg"
+                    onClick={() => setActiveDropdown(null)}
+                  >
+                    <div className="font-bold text-white text-[16px] mb-1">
+                      {fourDIntelligence.name}
+                    </div>
+                    <div className="text-[14px] text-white/90">
+                      {fourDIntelligence.description}
+                    </div>
+                  </Link>
+
                   <div className="grid grid-cols-2 gap-2">
                     {products.map((product) => (
                       <Link
@@ -375,11 +413,18 @@ const Navbar = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="lg:hidden py-4 border-t border-soft-cream dark:border-deep-slate">
+          <div className="lg:hidden py-4 border-t border-soft-cream dark:border-deep-slate max-h-[calc(100vh-5rem)] overflow-y-auto bg-white dark:bg-graphite">
             <div className="flex flex-col space-y-4">
               {/* Product Links */}
               <div>
                 <p className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400 mb-2 px-2 font-bold">Product</p>
+                <Link 
+                  href={fourDIntelligence.href} 
+                  className="block text-blue-600 dark:text-blue-400 py-2 px-2 text-[15px] font-bold"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  {fourDIntelligence.name} →
+                </Link>
                 {products.map((product) => (
                   <Link 
                     key={product.name}
@@ -407,10 +452,23 @@ const Navbar = () => {
                 ))}
               </div>
               
-              {/* Architecture Link */}
-              <Link href="/architecture" className="text-deep-slate dark:text-white font-medium py-2 px-2 text-[15px]" onClick={() => setIsMenuOpen(false)}>
-                Architecture
-              </Link>
+              {/* Architecture */}
+              <div>
+                <p className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400 mb-2 px-2 font-bold">Architecture</p>
+                <Link href="/architecture" className="block text-blue-600 dark:text-blue-400 py-2 px-2 text-[15px] font-bold" onClick={() => setIsMenuOpen(false)}>
+                  View Architecture Overview →
+                </Link>
+                {[...dataLayer, ...aiLayer, ...intelligenceLayer].map((module) => (
+                  <Link 
+                    key={module.name}
+                    href={module.href} 
+                    className="block text-deep-slate dark:text-white py-2 px-2 text-[15px] font-semibold"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {module.name}
+                  </Link>
+                ))}
+              </div>
               
               <Link href="/pricing" className="text-deep-slate dark:text-white font-medium py-2 px-2 text-[15px]" onClick={() => setIsMenuOpen(false)}>
                 Pricing
@@ -418,10 +476,23 @@ const Navbar = () => {
               <Link href="/about" className="text-deep-slate dark:text-white font-medium py-2 px-2 text-[15px]" onClick={() => setIsMenuOpen(false)}>
                 About
               </Link>
-              <Link href="/resources" className="text-deep-slate dark:text-white font-medium py-2 px-2 text-[15px]" onClick={() => setIsMenuOpen(false)}>
-                Resources
-              </Link>
+              
+              {/* Resources */}
+              <div>
+                <p className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400 mb-2 px-2 font-bold">Resources</p>
+                {resources.map((resource) => (
+                  <Link 
+                    key={resource.name}
+                    href={resource.href} 
+                    className="block text-deep-slate dark:text-white py-2 px-2 text-[15px] font-semibold"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {resource.name}
+                  </Link>
+                ))}
+              </div>
               <div className="flex flex-col space-y-2 pt-4 px-2">
+                <DarkModeToggle />
                 <Button variant="outline" size="sm" className="w-full">
                   Sign In
                 </Button>
