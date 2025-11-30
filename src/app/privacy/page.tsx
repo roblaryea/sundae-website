@@ -49,7 +49,7 @@ export default function PrivacyPage() {
               <section>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Introduction</h2>
                 <p className="text-gray-700 mb-4">
-                  Sundae, Inc. ("Sundae," "we," "us," or "our") is committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our AI-powered decision intelligence platform for restaurants and hospitality businesses.
+                  Sundae.io. ("Sundae," "we," "us," or "our") is committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our AI-powered decision intelligence platform for restaurants and hospitality businesses.
                 </p>
                 <p className="text-gray-700">
                   By using our Services, you agree to the collection and use of information in accordance with this Privacy Policy. This policy applies to all information collected through our website, mobile applications, and any related services.
