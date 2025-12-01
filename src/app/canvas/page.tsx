@@ -4,50 +4,51 @@ import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { motion } from "framer-motion";
+import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 
 export default function CanvasPage() {
-  const capabilities = [
+  const capabilities: { title: string; description: string; icon: SundaeIconName }[] = [
     {
       title: "Auto-Generated Dashboards",
       description: "Canvas detects key metrics and builds visualizations automatically — no configuration required.",
-      icon: "⚡"
+      icon: "speed"
     },
     {
       title: "Interactive Visuals",
       description: "Every chart is interactive, allowing you to drill down, filter, and explore your data.",
-      icon: "🖱️"
+      icon: "canvas"
     },
     {
       title: "Real-Time Updates",
       description: "Dashboards refresh continuously as new data flows in, keeping insights always current.",
-      icon: "🔄"
+      icon: "sync"
     },
     {
       title: "Share & Embed",
       description: "Export, share, or embed dashboards across teams — from finance to operations to marketing.",
-      icon: "📤"
+      icon: "network"
     }
   ];
 
-  const whoItsFor = [
+  const whoItsFor: { icon: SundaeIconName; title: string; description: string }[] = [
     {
-      icon: "👔",
+      icon: "owners",
       title: "Ops Leaders",
       description: "Real-time performance visibility across all locations"
     },
     {
-      icon: "💼",
+      icon: "finance",
       title: "Finance & FP&A",
       description: "Cost analysis and variance tracking at a glance"
     },
     {
-      icon: "📊",
+      icon: "regional",
       title: "Regional Managers",
       description: "Compare location performance side-by-side"
     }
   ];
 
-  const dashboardExamples = [
+  const dashboardExamples: { title: string; description: string; benefits: string[]; metrics: string[]; icon: SundaeIconName; featured: boolean }[] = [
     {
       title: "Executive Overview",
       description: "High-level KPIs for C-suite and ownership.",
@@ -62,7 +63,7 @@ export default function CanvasPage() {
         "Food Cost % by Location",
         "Location Performance Rankings"
       ],
-      icon: "📊",
+      icon: "benchmarking",
       featured: true
     },
     {
@@ -78,7 +79,7 @@ export default function CanvasPage() {
         "Order Accuracy %",
         "Average Service Time"
       ],
-      icon: "⚙️",
+      icon: "forge",
       featured: false
     },
     {
@@ -94,7 +95,7 @@ export default function CanvasPage() {
         "Budget vs Actual by Week",
         "Margin Analysis by Concept"
       ],
-      icon: "💰",
+      icon: "finance",
       featured: false
     },
     {
@@ -110,7 +111,7 @@ export default function CanvasPage() {
         "Campaign ROI by Location",
         "Customer LTV by Segment"
       ],
-      icon: "📈",
+      icon: "growth",
       featured: false
     }
   ];
@@ -326,7 +327,9 @@ export default function CanvasPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {whoItsFor.map((persona, index) => (
               <Card key={index} variant="elevated" className="text-center p-6">
-                <div className="text-4xl mb-3">{persona.icon}</div>
+                <div className="w-12 h-12 mx-auto mb-3 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center">
+                  <SundaeIcon name={persona.icon} size="lg" className="text-white" />
+                </div>
                 <h3 className="font-semibold text-gray-900 mb-2">{persona.title}</h3>
                 <p className="text-sm text-gray-600">{persona.description}</p>
               </Card>
@@ -410,8 +413,8 @@ export default function CanvasPage() {
               <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
                 <CardHeader>
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0">
-                      {capability.icon}
+                    <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center text-white flex-shrink-0">
+                      <SundaeIcon name={capability.icon} size="lg" className="text-white" />
                     </div>
                     <div>
                       <CardTitle className="text-gray-900 mb-2">{capability.title}</CardTitle>
@@ -450,8 +453,8 @@ export default function CanvasPage() {
               >
                 <CardHeader>
                   <div className="flex items-start space-x-4 mb-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0">
-                      {dashboard.icon}
+                    <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center text-white flex-shrink-0">
+                      <SundaeIcon name={dashboard.icon} size="lg" className="text-white" />
                     </div>
                     <div className="flex-1">
                       <CardTitle className="text-gray-900 mb-2">{dashboard.title}</CardTitle>

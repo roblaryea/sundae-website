@@ -4,76 +4,77 @@ import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { motion } from "framer-motion";
+import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 
 export default function InsightsPage() {
-  const signals = [
-    { icon: "🌦️", label: "Weather" },
-    { icon: "🎭", label: "Local Events" },
-    { icon: "🏪", label: "Competitor Moves" },
-    { icon: "🚗", label: "Traffic Shifts" },
-    { icon: "📈", label: "Economic Indicators" },
-    { icon: "🏖️", label: "Tourism Trends" }
+  const signals: { icon: SundaeIconName; label: string }[] = [
+    { icon: "forecasting", label: "Weather" },
+    { icon: "schedule", label: "Local Events" },
+    { icon: "restaurant", label: "Competitor Moves" },
+    { icon: "delivery", label: "Traffic Shifts" },
+    { icon: "growth", label: "Economic Indicators" },
+    { icon: "multiLocation", label: "Tourism Trends" }
   ];
 
-  const capabilities = [
+  const capabilities: { title: string; description: string; icon: SundaeIconName }[] = [
     {
       title: "External Signal Correlation",
       description: "Connect your performance data with weather, events, economic indicators, and market trends.",
-      icon: "🌐"
+      icon: "multiLocation"
     },
     {
       title: "Market & Competitor Benchmarks",
       description: "Understand how you stack up against similar restaurants in your region and segment.",
-      icon: "📊"
+      icon: "benchmarking"
     },
     {
       title: "Risk & Opportunity Detection",
       description: "AI identifies emerging risks and untapped opportunities before they impact your bottom line.",
-      icon: "🎯"
+      icon: "marketing"
     },
     {
       title: "Always-On Monitoring",
       description: "Continuous analysis of internal and external signals, delivering insights as they emerge.",
-      icon: "👁️"
+      icon: "visibility"
     }
   ];
 
-  const whoItsFor = [
+  const whoItsFor: { icon: SundaeIconName; title: string; description: string }[] = [
     {
-      icon: "👔",
+      icon: "owners",
       title: "Ops Leaders",
       description: "Proactive signals before issues become crises"
     },
     {
-      icon: "📈",
+      icon: "finance",
       title: "Finance & FP&A",
       description: "Context behind variance and forecasting accuracy"
     },
     {
-      icon: "🎯",
+      icon: "regional",
       title: "Regional Managers",
       description: "Market-aware decisions for each territory"
     }
   ];
 
-  const howItWorks = [
+  const howItWorks: { step: number; title: string; description: string; icon: SundaeIconName }[] = [
     {
       step: 1,
       title: "Internal data ingestion",
       description: "Sundae connects to your POS, labor, inventory, and operational systems.",
-      icon: "📥"
+      icon: "data"
     },
     {
       step: 2,
       title: "External signal overlay",
       description: "We layer in weather, events, market trends, and economic indicators relevant to your locations.",
-      icon: "🔗"
+      icon: "integration"
     },
     {
       step: 3,
       title: "AI correlation → insights",
       description: "Our AI engine identifies patterns and correlations, delivering actionable insights automatically.",
-      icon: "🤖"
+      icon: "intelligence"
     }
   ];
 
@@ -241,7 +242,9 @@ export default function InsightsPage() {
                   transition={{ duration: 0.3, delay: 0.6 + (index * 0.05) }}
                   className="bg-white rounded-xl p-4 text-center shadow-sm border border-gray-200 hover:shadow-md transition-shadow duration-200"
                 >
-                  <div className="text-3xl mb-2">{signal.icon}</div>
+                  <div className="w-10 h-10 mx-auto mb-2 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center">
+                    <SundaeIcon name={signal.icon} size="md" className="text-white" />
+                  </div>
                   <p className="text-xs font-medium text-gray-700">{signal.label}</p>
                 </motion.div>
               ))}
@@ -285,7 +288,9 @@ export default function InsightsPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {whoItsFor.map((persona, index) => (
               <Card key={index} variant="elevated" className="text-center p-6">
-                <div className="text-4xl mb-3">{persona.icon}</div>
+                <div className="w-12 h-12 mx-auto mb-3 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center">
+                  <SundaeIcon name={persona.icon} size="lg" className="text-white" />
+                </div>
                 <h3 className="font-semibold text-gray-900 mb-2">{persona.title}</h3>
                 <p className="text-sm text-gray-600">{persona.description}</p>
               </Card>
@@ -364,8 +369,8 @@ export default function InsightsPage() {
               <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
                 <CardHeader>
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0">
-                      {capability.icon}
+                    <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center text-white flex-shrink-0">
+                      <SundaeIcon name={capability.icon} size="lg" className="text-white" />
                     </div>
                     <div>
                       <CardTitle className="text-gray-900 mb-2">{capability.title}</CardTitle>
@@ -401,7 +406,9 @@ export default function InsightsPage() {
                     {step.step}
                   </div>
                 </div>
-                <div className="text-3xl mb-4">{step.icon}</div>
+                <div className="w-12 h-12 mx-auto mb-4 bg-gray-100 rounded-lg flex items-center justify-center">
+                  <SundaeIcon name={step.icon} size="lg" className="text-blue-600" />
+                </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">{step.title}</h3>
                 <p className="text-gray-600">{step.description}</p>
               </div>
