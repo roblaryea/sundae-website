@@ -3,16 +3,17 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
+import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 
 export default function CareersPage() {
-  const positions = [
+  const positions: { title: string; department: string; location: string; type: string; description: string; icon: SundaeIconName; color: string }[] = [
     {
       title: "Senior Software Engineer - AI/ML",
       department: "Engineering",
       location: "Dubai, UAE / Remote",
       type: "Full-time",
       description: "Build cutting-edge AI models for restaurant decision intelligence. Work with large-scale data and machine learning algorithms.",
-      icon: "🤖",
+      icon: "intelligence",
       color: "bg-blue-600"
     },
     {
@@ -21,7 +22,7 @@ export default function CareersPage() {
       location: "Toronto, Canada / Remote",
       type: "Full-time",
       description: "Define product strategy for our decision intelligence platform. Work closely with restaurant operators and engineering teams.",
-      icon: "📊",
+      icon: "benchmarking",
       color: "bg-green-600"
     },
     {
@@ -30,7 +31,7 @@ export default function CareersPage() {
       location: "Multiple Locations",
       type: "Full-time",
       description: "Drive adoption of Sundae's decision intelligence platform among enterprise restaurant groups and hospitality companies.",
-      icon: "💼",
+      icon: "owners",
       color: "bg-purple-600"
     },
     {
@@ -39,7 +40,7 @@ export default function CareersPage() {
       location: "Remote",
       type: "Full-time",
       description: "Help restaurant operators maximize value from Sundae's platform. Provide training, support, and strategic guidance.",
-      icon: "🤝",
+      icon: "success",
       color: "bg-orange-600"
     },
     {
@@ -48,7 +49,7 @@ export default function CareersPage() {
       location: "Dubai, UAE / Remote",
       type: "Full-time",
       description: "Develop predictive models and anomaly detection systems for restaurant operations data.",
-      icon: "📈",
+      icon: "growth",
       color: "bg-teal-600"
     },
     {
@@ -57,64 +58,64 @@ export default function CareersPage() {
       location: "Toronto, Canada / Remote",
       type: "Full-time",
       description: "Design intuitive interfaces for our decision intelligence platform. Create beautiful, user-friendly experiences for restaurant operators.",
-      icon: "🎨",
+      icon: "canvas",
       color: "bg-indigo-600"
     }
   ];
 
-  const benefits = [
+  const benefits: { title: string; description: string; icon: SundaeIconName }[] = [
     {
       title: "Competitive Compensation",
       description: "Market-leading salaries plus equity in a fast-growing company.",
-      icon: "💰"
+      icon: "finance"
     },
     {
       title: "Flexible Work",
       description: "Remote-first culture with flexible hours and locations.",
-      icon: "🏠"
+      icon: "multiLocation"
     },
     {
       title: "Health & Wellness",
       description: "Comprehensive health insurance and wellness stipends.",
-      icon: "❤️"
+      icon: "success"
     },
     {
       title: "Learning & Development",
       description: "Annual learning budget and access to cutting-edge tools.",
-      icon: "📚"
+      icon: "insights"
     },
     {
       title: "Global Team",
       description: "Work with talented people across Dubai, Toronto, and remote locations.",
-      icon: "🌍"
+      icon: "multiLocation"
     },
     {
       title: "Impact",
       description: "Help transform the restaurant industry with data-driven intelligence.",
-      icon: "🚀"
+      icon: "growth"
     }
   ];
 
-  const values = [
+  const values: { title: string; description: string; icon: SundaeIconName }[] = [
     {
       title: "Customer First",
       description: "We exist to help restaurant operators succeed with better decisions.",
-      icon: "🎯"
+      icon: "marketing"
     },
     {
       title: "Data-Driven",
       description: "We let data guide our decisions and help our customers do the same.",
-      icon: "📊"
+      icon: "benchmarking"
     },
     {
       title: "Continuous Learning",
       description: "We constantly improve ourselves, our products, and our processes.",
-      icon: "📈"
+      icon: "growth"
     },
     {
       title: "Global Perspective",
       description: "We think globally and build solutions that work across markets.",
-      icon: "🌐"
+      icon: "multiLocation"
     }
   ];
 
@@ -166,8 +167,8 @@ export default function CareersPage() {
               <Card key={index} variant="elevated" className="hover:scale-105 transition-all duration-300 hover:shadow-lg group">
                 <CardHeader>
                   <div className="flex items-center space-x-4 mb-4">
-                    <div className={`w-12 h-12 ${position.color} rounded-lg flex items-center justify-center text-white text-xl group-hover:scale-110 transition-transform duration-300`}>
-                      {position.icon}
+                    <div className={`w-12 h-12 ${position.color} rounded-lg flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-300`}>
+                      <SundaeIcon name={position.icon} size="lg" className="text-white" />
                     </div>
                     <div>
                       <div className="text-xs text-blue-600 font-medium uppercase tracking-wide">{position.department}</div>
@@ -212,7 +213,9 @@ export default function CareersPage() {
             {benefits.map((benefit, index) => (
               <Card key={index} variant="elevated" className="text-center">
                 <CardHeader>
-                  <div className="text-4xl mb-4">{benefit.icon}</div>
+                  <div className="w-12 h-12 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                    <SundaeIcon name={benefit.icon} size="lg" className="text-white" />
+                  </div>
                   <CardTitle className="text-gray-900">{benefit.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -242,7 +245,9 @@ export default function CareersPage() {
             {values.map((value, index) => (
               <Card key={value.title} variant="elevated" className="text-center">
                 <CardHeader>
-                  <div className="text-4xl mb-4">{value.icon}</div>
+                  <div className="w-12 h-12 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                    <SundaeIcon name={value.icon} size="lg" className="text-white" />
+                  </div>
                   <CardTitle className="text-gray-900">{value.title}</CardTitle>
                 </CardHeader>
                 <CardContent>

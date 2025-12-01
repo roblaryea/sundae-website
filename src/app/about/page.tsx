@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { motion, useInView } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
+import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 
 // Counter animation component
 function AnimatedCounter({ end, duration = 2, suffix = "" }: { end: number; duration?: number; suffix?: string }) {
@@ -133,26 +134,26 @@ export default function AboutPage() {
     }
   ];
 
-  const values = [
+  const values: { title: string; description: string; icon: SundaeIconName }[] = [
     {
       title: "Operators First",
       description: "Every feature is designed by people who've managed restaurants, not just built software. We solve real problems because we've lived them.",
-      icon: "👨‍🍳"
+      icon: "owners"
     },
     {
       title: "Data Intelligence First",
       description: "Unified data and AI insights create better operational decisions. We turn fragmented systems into one intelligent layer.",
-      icon: "💡"
+      icon: "insights"
     },
     {
       title: "Real-Time Decisions",
       description: "Instant intelligence should guide every operational move. No more waiting for weekly reports or relying on gut feelings.",
-      icon: "⚡"
+      icon: "speed"
     },
     {
       title: "Raise the Standard",
       description: "We're committed to elevating restaurant decision intelligence globally — setting a new benchmark for the industry.",
-      icon: "⭐"
+      icon: "growth"
     }
   ];
 
@@ -346,20 +347,20 @@ export default function AboutPage() {
                 <h3 className="font-bold text-gray-900 dark:text-white text-lg mb-6">Team Strengths</h3>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   <div className="flex items-center space-x-3">
-                    <div className="w-12 h-12 bg-electric-blue rounded-xl flex items-center justify-center text-white text-2xl flex-shrink-0">
-                      📊
+                    <div className="w-12 h-12 bg-electric-blue rounded-xl flex items-center justify-center text-white flex-shrink-0">
+                      <SundaeIcon name="benchmarking" size="lg" className="text-white" />
                     </div>
                     <p className="text-gray-700 dark:text-gray-300 font-medium">60+ years combined experience across restaurants, tech & data</p>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-12 h-12 bg-electric-blue rounded-xl flex items-center justify-center text-white text-2xl flex-shrink-0">
-                      🌍
+                    <div className="w-12 h-12 bg-electric-blue rounded-xl flex items-center justify-center text-white flex-shrink-0">
+                      <SundaeIcon name="multiLocation" size="lg" className="text-white" />
                     </div>
                     <p className="text-gray-700 dark:text-gray-300 font-medium">Dubai + Toronto global presence</p>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-12 h-12 bg-electric-blue rounded-xl flex items-center justify-center text-white text-2xl flex-shrink-0">
-                      🚀
+                    <div className="w-12 h-12 bg-electric-blue rounded-xl flex items-center justify-center text-white flex-shrink-0">
+                      <SundaeIcon name="growth" size="lg" className="text-white" />
                     </div>
                     <p className="text-gray-700 dark:text-gray-300 font-medium">Multiple successful exits and scale-ups</p>
                   </div>
@@ -462,11 +463,11 @@ export default function AboutPage() {
                   <Card variant="elevated" className="text-center h-full p-8">
                     <CardHeader>
                       <motion.div 
-                        className="text-5xl mb-6"
+                        className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-electric-blue to-deep-blue rounded-xl flex items-center justify-center"
                         whileHover={{ scale: 1.2, rotate: 10 }}
                         transition={{ duration: 0.3 }}
                       >
-                        {value.icon}
+                        <SundaeIcon name={value.icon} size="xl" className="text-white" />
                       </motion.div>
                       <CardTitle className="text-gray-900 dark:text-white text-xl mb-4">{value.title}</CardTitle>
                     </CardHeader>
