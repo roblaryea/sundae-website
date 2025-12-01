@@ -319,6 +319,7 @@ export default function AboutPage() {
                       alt={member.name}
                       width={128}
                       height={128}
+                      loading="lazy"
                       className="w-full h-full rounded-full object-cover border-4 border-electric-blue/20"
                     />
                   </div>
