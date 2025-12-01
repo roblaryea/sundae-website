@@ -3,9 +3,10 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
+import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 
 export default function ResourcesPage() {
-  const caseStudies = [
+  const caseStudies: { segment: string; challenge: string; description: string; solution: string[]; outcomes: { metric: string; value: string }[]; icon: SundaeIconName; color: string }[] = [
     {
       segment: "Multi-Brand Restaurant Group · GCC",
       challenge: "Labor Cost Variance",
@@ -16,7 +17,7 @@ export default function ResourcesPage() {
         { metric: "Scheduling efficiency", value: "+12%" },
         { metric: "Decision speed", value: "3x faster" }
       ],
-      icon: "🏢",
+      icon: "franchise",
       color: "bg-blue-600"
     },
     {
@@ -29,7 +30,7 @@ export default function ResourcesPage() {
         { metric: "Discount abuse detected", value: "Early" },
         { metric: "Pricing decisions", value: "Real-time" }
       ],
-      icon: "🌍",
+      icon: "multiLocation",
       color: "bg-green-600"
     },
     {
@@ -42,7 +43,7 @@ export default function ResourcesPage() {
         { metric: "Issue detection", value: "48hrs faster" },
         { metric: "Revenue optimization", value: "+6%" }
       ],
-      icon: "🍽️",
+      icon: "kitchen",
       color: "bg-orange-600"
     },
     {
@@ -55,28 +56,28 @@ export default function ResourcesPage() {
         { metric: "Competitive response time", value: "Days → Hours" },
         { metric: "Pricing optimization", value: "+4%" }
       ],
-      icon: "📊",
+      icon: "benchmarking",
       color: "bg-purple-600"
     }
   ];
 
-  const tools = [
+  const tools: { name: string; description: string; icon: SundaeIconName; link: string }[] = [
     {
       name: "Labor Cost % Calculator",
       description: "Calculate your labor cost percentage and see if you're on target compared to industry standards.",
-      icon: "👥",
+      icon: "labor",
       link: "/tools/labor-cost"
     },
     {
       name: "Menu Item Margin Calculator",
       description: "Analyze menu item profitability with margin calculations and pricing recommendations.",
-      icon: "🍽️",
+      icon: "menu",
       link: "/tools/menu-margin"
     },
     {
       name: "Break-Even Covers Calculator",
       description: "Calculate how many covers you need to break even based on fixed and variable costs.",
-      icon: "⚖️",
+      icon: "balance",
       link: "/tools/breakeven-covers"
     }
   ];
@@ -134,8 +135,8 @@ export default function ResourcesPage() {
                     {/* Left: Challenge */}
                     <div>
                       <div className="flex items-center space-x-3 mb-4">
-                        <div className={`w-12 h-12 ${study.color} rounded-lg flex items-center justify-center text-white text-xl`}>
-                          {study.icon}
+                        <div className={`w-12 h-12 ${study.color} rounded-lg flex items-center justify-center text-white`}>
+                          <SundaeIcon name={study.icon} size="lg" className="text-white" />
                         </div>
                         <div>
                           <div className="text-xs text-gray-500 dark:text-gray-400 font-medium uppercase">Segment</div>

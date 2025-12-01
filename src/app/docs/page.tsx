@@ -4,13 +4,14 @@ import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { motion } from "framer-motion";
+import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 
 export default function DocumentationPage() {
-  const sections = [
+  const sections: { title: string; description: string; icon: SundaeIconName; color: string; topics: string[] }[] = [
     {
       title: "Getting Started",
       description: "Learn how to onboard to Sundae and connect your data sources",
-      icon: "🚀",
+      icon: "growth",
       color: "bg-blue-600",
       topics: [
         "Creating your Sundae account",
@@ -23,7 +24,7 @@ export default function DocumentationPage() {
     {
       title: "Using Sundae Report",
       description: "Get the most out of free benchmarking and performance reports",
-      icon: "📊",
+      icon: "benchmarking",
       color: "bg-green-600",
       topics: [
         "Uploading your data for benchmarking",
@@ -36,7 +37,7 @@ export default function DocumentationPage() {
     {
       title: "Sundae Nexus Guide",
       description: "Master conversational business intelligence with natural language queries",
-      icon: "💬",
+      icon: "nexus",
       color: "bg-purple-600",
       topics: [
         "Asking questions in plain English",
@@ -49,7 +50,7 @@ export default function DocumentationPage() {
     {
       title: "Sundae Insights",
       description: "Leverage AI-powered alerts and contextual intelligence",
-      icon: "💡",
+      icon: "insights",
       color: "bg-orange-600",
       topics: [
         "Setting up proactive alerts",
@@ -62,7 +63,7 @@ export default function DocumentationPage() {
     {
       title: "Sundae Canvas",
       description: "Build and customize dashboards for every team",
-      icon: "📈",
+      icon: "canvas",
       color: "bg-indigo-600",
       topics: [
         "Creating custom dashboards",
@@ -75,7 +76,7 @@ export default function DocumentationPage() {
     {
       title: "Security & Data Privacy",
       description: "Understand how Sundae protects your data",
-      icon: "🔒",
+      icon: "owners",
       color: "bg-teal-600",
       topics: [
         "Data encryption and security standards",
@@ -138,8 +139,8 @@ export default function DocumentationPage() {
                 <Card variant="elevated" className="h-full hover:shadow-xl transition-all duration-300 group dark:bg-gray-800">
                   <CardHeader>
                     <div className="flex items-center space-x-4 mb-4">
-                      <div className={`w-12 h-12 ${section.color} rounded-lg flex items-center justify-center text-white text-2xl group-hover:scale-110 transition-transform duration-300`}>
-                        {section.icon}
+                      <div className={`w-12 h-12 ${section.color} rounded-lg flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-300`}>
+                        <SundaeIcon name={section.icon} size="lg" className="text-white" />
                       </div>
                       <div>
                         <CardTitle className="text-xl text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">
@@ -184,32 +185,32 @@ export default function DocumentationPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
+            {([
               {
                 step: "1",
                 title: "Connect Data Sources",
                 description: "Link your POS, payroll, inventory, and budget systems to Sundae Scout",
-                icon: "🔗"
+                icon: "integration" as SundaeIconName
               },
               {
                 step: "2",
                 title: "Run Your First Benchmark",
                 description: "Upload data to Sundae Report and see how you compare to similar restaurants",
-                icon: "📊"
+                icon: "benchmarking" as SundaeIconName
               },
               {
                 step: "3",
                 title: "Ask Questions",
                 description: "Use Sundae Nexus to query your data in plain English and get instant answers",
-                icon: "💬"
+                icon: "nexus" as SundaeIconName
               },
               {
                 step: "4",
                 title: "Set Up Alerts",
                 description: "Configure Sundae Insights to monitor key metrics and notify you of anomalies",
-                icon: "🔔"
+                icon: "warning" as SundaeIconName
               }
-            ].map((item, index) => (
+            ]).map((item, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
@@ -219,7 +220,9 @@ export default function DocumentationPage() {
               >
                 <Card variant="elevated" className="text-center h-full dark:bg-gray-800">
                   <CardContent className="p-8">
-                    <div className="text-5xl mb-4">{item.icon}</div>
+                    <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl flex items-center justify-center">
+                      <SundaeIcon name={item.icon} size="xl" className="text-white" />
+                    </div>
                     <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-4">Step {item.step}</div>
                     <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">{item.title}</h3>
                     <p className="text-gray-600 dark:text-gray-400 leading-relaxed">{item.description}</p>
