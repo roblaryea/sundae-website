@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
 import { Accordion } from '@/components/ui/Accordion';
 import { motion } from 'framer-motion';
+import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 
 export default function PricingPage() {
   const [billingCycle, setBillingCycle] = useState<'monthly' | 'annual'>('monthly');
@@ -312,7 +313,7 @@ export default function PricingPage() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
-            {[
+            {([
               {
                 name: "Advanced Market Intelligence",
                 price: "$50/location/month",
@@ -321,7 +322,7 @@ export default function PricingPage() {
                   "Event + weather + macro insights",
                   "Multi-region comparison"
                 ],
-                icon: "🏪"
+                icon: "restaurant" as SundaeIconName
               },
               {
                 name: "Custom AI Development",
@@ -331,7 +332,7 @@ export default function PricingPage() {
                   "Proprietary algorithms",
                   "Dedicated ML engineers"
                 ],
-                icon: "🤖"
+                icon: "intelligence" as SundaeIconName
               },
               {
                 name: "Premium Support",
@@ -341,7 +342,7 @@ export default function PricingPage() {
                   "Faster response times",
                   "Direct Slack channel"
                 ],
-                icon: "🎯"
+                icon: "marketing" as SundaeIconName
               },
               {
                 name: "External Data Licensing",
@@ -351,9 +352,9 @@ export default function PricingPage() {
                   "Early adopter discount",
                   "Custom data delivery"
                 ],
-                icon: "📊"
+                icon: "benchmarking" as SundaeIconName
               }
-            ].map((addon, index) => (
+            ]).map((addon, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
@@ -364,7 +365,9 @@ export default function PricingPage() {
                 <Card variant="elevated" className="h-full hover:shadow-xl transition-all">
                   <CardHeader>
                     <div className="flex items-start justify-between mb-4">
-                      <div className="text-4xl">{addon.icon}</div>
+                      <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center">
+                        <SundaeIcon name={addon.icon} size="lg" className="text-white" />
+                      </div>
                       <div className="text-right">
                         <div className="text-lg font-bold text-electric-blue">{addon.price}</div>
                       </div>
@@ -396,11 +399,11 @@ export default function PricingPage() {
           </p>
           
           <div className="grid md:grid-cols-3 gap-8 mb-12">
-            {[
-              { title: "Custom Integrations", desc: "Connect proprietary systems and data sources", icon: "🔧" },
-              { title: "White-Label Data Solutions", desc: "Branded intelligence for your partners", icon: "🏷️" },
-              { title: "Dedicated Support Teams", desc: "On-call engineers and analysts", icon: "👥" }
-            ].map((feature, index) => (
+            {([
+              { title: "Custom Integrations", desc: "Connect proprietary systems and data sources", icon: "integration" as SundaeIconName },
+              { title: "White-Label Data Solutions", desc: "Branded intelligence for your partners", icon: "document" as SundaeIconName },
+              { title: "Dedicated Support Teams", desc: "On-call engineers and analysts", icon: "support" as SundaeIconName }
+            ]).map((feature, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
@@ -409,7 +412,9 @@ export default function PricingPage() {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="text-center"
               >
-                <div className="text-5xl mb-4">{feature.icon}</div>
+                <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center">
+                  <SundaeIcon name={feature.icon} size="xl" className="text-white" />
+                </div>
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">{feature.title}</h3>
                 <p className="body-base text-gray-600 dark:text-gray-400">{feature.desc}</p>
               </motion.div>
