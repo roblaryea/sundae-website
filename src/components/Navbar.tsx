@@ -26,33 +26,45 @@ const ChevronIcon = ({ isOpen }: { isOpen: boolean }) => (
 // Mobile Accordion Section Component
 interface AccordionSectionProps {
   title: string;
+  id: string;
   isExpanded: boolean;
   onToggle: () => void;
   children: React.ReactNode;
 }
 
-const AccordionSection = ({ title, isExpanded, onToggle, children }: AccordionSectionProps) => (
-  <div className="border-b border-slate-200/70 dark:border-slate-800">
-    <button
-      type="button"
-      onClick={onToggle}
-      className="w-full flex items-center justify-between py-4 px-4 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-blue-500"
-      aria-expanded={isExpanded}
-    >
-      <span className="text-xs font-semibold tracking-[0.08em] uppercase text-slate-500 dark:text-slate-400">
-        {title}
-      </span>
-      <ChevronIcon isOpen={isExpanded} />
-    </button>
-    <div
-      className={`overflow-hidden transition-all duration-200 ease-out ${
-        isExpanded ? 'max-h-[1000px] opacity-100' : 'max-h-0 opacity-0'
-      }`}
-    >
-      <div className="pb-3">{children}</div>
+const AccordionSection = ({ title, id, isExpanded, onToggle, children }: AccordionSectionProps) => {
+  const headerId = `accordion-header-${id}`;
+  const contentId = `accordion-content-${id}`;
+  
+  return (
+    <div className="border-b border-slate-200/70 dark:border-slate-800">
+      <button
+        type="button"
+        id={headerId}
+        onClick={onToggle}
+        className="w-full flex items-center justify-between py-4 px-4 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-blue-500"
+        aria-expanded={isExpanded}
+        aria-controls={contentId}
+      >
+        <span className="text-xs font-semibold tracking-[0.08em] uppercase text-slate-500 dark:text-slate-400">
+          {title}
+        </span>
+        <ChevronIcon isOpen={isExpanded} />
+      </button>
+      <div
+        id={contentId}
+        role="region"
+        aria-labelledby={headerId}
+        className={`overflow-hidden transition-all duration-200 ease-out ${
+          isExpanded ? 'max-h-[1000px] opacity-100' : 'max-h-0 opacity-0'
+        }`}
+        hidden={!isExpanded}
+      >
+        <div className="pb-3">{children}</div>
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 // Mobile Nav Link Component
 interface NavLinkProps {
@@ -622,6 +634,7 @@ const Navbar = () => {
             {/* Product Section */}
             <AccordionSection
               title="Product"
+              id="product"
               isExpanded={expandedSections.product}
               onToggle={() => toggleSection('product')}
             >
@@ -646,6 +659,7 @@ const Navbar = () => {
             {/* Solutions Section */}
             <AccordionSection
               title="Solutions"
+              id="solutions"
               isExpanded={expandedSections.solutions}
               onToggle={() => toggleSection('solutions')}
             >
@@ -672,6 +686,7 @@ const Navbar = () => {
             {/* Architecture Section */}
             <AccordionSection
               title="Architecture"
+              id="architecture"
               isExpanded={expandedSections.architecture}
               onToggle={() => toggleSection('architecture')}
             >
@@ -696,6 +711,7 @@ const Navbar = () => {
             {/* Resources Section */}
             <AccordionSection
               title="Resources"
+              id="resources"
               isExpanded={expandedSections.resources}
               onToggle={() => toggleSection('resources')}
             >
@@ -713,6 +729,7 @@ const Navbar = () => {
             {/* Company Section */}
             <AccordionSection
               title="Company"
+              id="company"
               isExpanded={expandedSections.company}
               onToggle={() => toggleSection('company')}
             >
