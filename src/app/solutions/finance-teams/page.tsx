@@ -100,7 +100,9 @@ export default function FinanceTeamsPage() {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="hero-h1 text-gray-900 mb-6"
             >
-              Financial Intelligence, Finally Unified
+              One Dashboard.
+              <br />
+              <span className="text-gradient">All Your Numbers.</span>
             </motion.h1>
             
             <motion.p
@@ -109,7 +111,7 @@ export default function FinanceTeamsPage() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="body-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed"
             >
-              Stop wrestling with fragmented data. Sundae unifies all your restaurant financial data—P&L, labor, COGS, and more—into one real-time platform, giving you the insights you need to drive profitability without the spreadsheet chaos.
+              P&L, labor, COGS — unified in real-time. Stop chasing spreadsheets. Start driving profitability.
             </motion.p>
 
             <motion.div
@@ -136,9 +138,9 @@ export default function FinanceTeamsPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">Key Challenges</h2>
+            <h2 className="section-h2 text-gray-900 mb-4">The Problems You Know</h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Finance teams face data fragmentation and time-consuming manual processes
+              Fragmented data. Manual reports. Delayed insights.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -164,9 +166,9 @@ export default function FinanceTeamsPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-slate-800/50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">How Sundae Helps</h2>
+            <h2 className="section-h2 text-gray-900 mb-4">How Sundae Changes That</h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Built for finance teams who need accuracy, speed, and unified data
+              Accuracy, speed, and one source of truth
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -193,9 +195,9 @@ export default function FinanceTeamsPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">What You Can Achieve</h2>
+            <h2 className="section-h2 text-gray-900 mb-4">What Changes</h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Real outcomes for finance teams using Sundae
+              Less time on data. More time on strategy.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -220,9 +222,9 @@ export default function FinanceTeamsPage() {
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 mb-6">Transform Your Financial Operations</h2>
+          <h2 className="section-h2 mb-6">Ready to Unify Your Numbers?</h2>
           <p className="body-xl mb-8 opacity-90">
-            See how finance teams are using Sundae to eliminate manual reporting, improve forecast accuracy, and drive profitability across their restaurant portfolio.
+            See how finance teams eliminate manual reporting and drive profitability.
           </p>
           <Link href="/demo">
             <Button variant="primary" size="lg" className="bg-white text-blue-600 hover:bg-gray-100">

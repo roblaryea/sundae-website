@@ -100,7 +100,9 @@ export default function CSuiteExecutivesPage() {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="hero-h1 text-gray-900 mb-6"
             >
-              Strategic Intelligence for Leaders
+              Lead with Clarity.
+              <br />
+              <span className="text-gradient">Not Guesswork.</span>
             </motion.h1>
             
             <motion.p
@@ -109,7 +111,7 @@ export default function CSuiteExecutivesPage() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="body-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed"
             >
-              As a CEO, CFO, or COO, you need more than reports—you need intelligence. Sundae unifies financial, operational, and market data into a single decision intelligence platform, giving you real-time visibility, predictive insights, and the clarity to lead with confidence.
+              Real-time visibility. Predictive insights. One platform that unifies everything you need to make confident decisions at scale.
             </motion.p>
 
             <motion.div
@@ -136,9 +138,9 @@ export default function CSuiteExecutivesPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">Key Challenges</h2>
+            <h2 className="section-h2 text-gray-900 mb-4">The Problems You Know</h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              C-suite executives face unique visibility and strategic decision challenges
+              Silos, stale data, and reactive decision-making
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -164,9 +166,9 @@ export default function CSuiteExecutivesPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-slate-800/50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">How Sundae Helps</h2>
+            <h2 className="section-h2 text-gray-900 mb-4">How Sundae Changes That</h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Decision intelligence built for CEOs, CFOs, and COOs
+              Intelligence built for executive decision-making
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -193,9 +195,9 @@ export default function CSuiteExecutivesPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">What You Can Achieve</h2>
+            <h2 className="section-h2 text-gray-900 mb-4">What Changes</h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Real outcomes for C-suite executives using Sundae
+              Measurable impact on speed, visibility, and growth
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -220,9 +222,9 @@ export default function CSuiteExecutivesPage() {
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 mb-6">Lead With Intelligence</h2>
+          <h2 className="section-h2 mb-6">Ready to Lead Smarter?</h2>
           <p className="body-xl mb-8 opacity-90">
-            Join CEOs, CFOs, and COOs who are using Sundae to make faster, smarter decisions and drive sustainable growth.
+            See how Sundae gives executives the clarity to make confident decisions.
           </p>
           <Link href="/demo">
             <Button variant="primary" size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
