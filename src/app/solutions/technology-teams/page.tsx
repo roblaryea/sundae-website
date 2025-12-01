@@ -100,7 +100,9 @@ export default function TechnologyTeamsPage() {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="hero-h1 text-gray-900 mb-6"
             >
-              Data Infrastructure, Finally Simplified
+              Connect Once.
+              <br />
+              <span className="text-gradient">Access Everything.</span>
             </motion.h1>
             
             <motion.p
@@ -109,7 +111,7 @@ export default function TechnologyTeamsPage() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="body-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed"
             >
-              Stop building and maintaining custom integrations. Sundae provides pre-built connectors, automated data quality, and self-service analytics—letting your team focus on strategic innovation, not data plumbing.
+              Pre-built connectors. Automated data quality. Self-service analytics. Stop plumbing data and start building value.
             </motion.p>
 
             <motion.div
@@ -136,9 +138,9 @@ export default function TechnologyTeamsPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">Key Challenges</h2>
+            <h2 className="section-h2 text-gray-900 mb-4">The Problems You Know</h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Technology teams face integration complexity and data quality nightmares
+              Custom ETL. Data quality issues. Endless report requests.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -164,9 +166,9 @@ export default function TechnologyTeamsPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-slate-800/50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">How Sundae Helps</h2>
+            <h2 className="section-h2 text-gray-900 mb-4">How Sundae Changes That</h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Built for technology teams who need scalable, reliable data infrastructure
+              Scalable infrastructure that works out of the box
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -193,9 +195,9 @@ export default function TechnologyTeamsPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">What You Can Achieve</h2>
+            <h2 className="section-h2 text-gray-900 mb-4">What Changes</h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Real outcomes for technology teams using Sundae
+              Less plumbing. More innovation.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -220,9 +222,9 @@ export default function TechnologyTeamsPage() {
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 mb-6">Build on Reliable Data Infrastructure</h2>
+          <h2 className="section-h2 mb-6">Ready to Simplify Your Stack?</h2>
           <p className="body-xl mb-8 opacity-90">
-            See how technology teams are using Sundae to eliminate integration complexity, improve data quality, and free up time for strategic initiatives.
+            See how technology teams eliminate integration complexity.
           </p>
           <Link href="/demo">
             <Button variant="primary" size="lg" className="bg-white text-blue-600 hover:bg-gray-100">

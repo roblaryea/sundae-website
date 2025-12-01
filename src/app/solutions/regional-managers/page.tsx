@@ -100,7 +100,9 @@ export default function RegionalManagersPage() {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="hero-h1 text-gray-900 mb-6"
             >
-              Lead With Data, Not Guesswork
+              Every Location.
+              <br />
+              <span className="text-gradient">One View.</span>
             </motion.h1>
             
             <motion.p
@@ -109,7 +111,7 @@ export default function RegionalManagersPage() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="body-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed"
             >
-              As a Regional Manager, you're juggling multiple locations, each with its own challenges. Sundae gives you real-time visibility into every site, proactive alerts when issues arise, and the insights you need to coach your teams effectively—all without spending your life on the road.
+              Real-time visibility. Proactive alerts. Data-backed coaching. Manage your region without living on the road.
             </motion.p>
 
             <motion.div
@@ -136,9 +138,9 @@ export default function RegionalManagersPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">Key Challenges</h2>
+            <h2 className="section-h2 text-gray-900 mb-4">The Problems You Know</h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Regional managers face unique visibility and time management challenges
+              Firefighting. Limited visibility. Too much travel.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -164,9 +166,9 @@ export default function RegionalManagersPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-slate-800/50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">How Sundae Helps</h2>
+            <h2 className="section-h2 text-gray-900 mb-4">How Sundae Changes That</h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Built for regional managers who need clarity, not complexity
+              Clarity across every location. Alerts before problems escalate.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -193,9 +195,9 @@ export default function RegionalManagersPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">What You Can Achieve</h2>
+            <h2 className="section-h2 text-gray-900 mb-4">What Changes</h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Real outcomes for regional managers using Sundae
+              Less firefighting. More impact.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -220,9 +222,9 @@ export default function RegionalManagersPage() {
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 mb-6">Manage Smarter, Not Harder</h2>
+          <h2 className="section-h2 mb-6">Ready to Manage Smarter?</h2>
           <p className="body-xl mb-8 opacity-90">
-            See how regional managers are using Sundae to gain visibility, catch issues early, and drive consistent performance across their territories.
+            See how regional managers get visibility across every location.
           </p>
           <Link href="/demo">
             <Button variant="primary" size="lg" className="bg-white text-blue-600 hover:bg-gray-100">

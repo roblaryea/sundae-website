@@ -100,7 +100,9 @@ export default function HRTeamsPage() {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="hero-h1 text-gray-900 mb-6"
             >
-              Workforce Intelligence That Drives Retention
+              Know Your People.
+              <br />
+              <span className="text-gradient">Keep Your People.</span>
             </motion.h1>
             
             <motion.p
@@ -109,7 +111,7 @@ export default function HRTeamsPage() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="body-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed"
             >
-              Stop guessing at turnover causes. Sundae unifies labor, payroll, and performance data—giving you real-time visibility into workforce trends, proactive retention alerts, and the insights you need to build a stronger, more stable team.
+              Turnover alerts. Labor optimization. Workforce insights. See what's happening before it becomes a problem.
             </motion.p>
 
             <motion.div
@@ -136,9 +138,9 @@ export default function HRTeamsPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">Key Challenges</h2>
+            <h2 className="section-h2 text-gray-900 mb-4">The Problems You Know</h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              HR teams struggle with fragmented workforce data and reactive management
+              Turnover blind spots. Scheduling guesswork. Reactive management.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -164,9 +166,9 @@ export default function HRTeamsPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-slate-800/50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">How Sundae Helps</h2>
+            <h2 className="section-h2 text-gray-900 mb-4">How Sundae Changes That</h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Built for HR teams who need data-driven workforce insights
+              Unified workforce data and proactive alerts
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -193,9 +195,9 @@ export default function HRTeamsPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">What You Can Achieve</h2>
+            <h2 className="section-h2 text-gray-900 mb-4">What Changes</h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Real outcomes for HR teams using Sundae
+              Lower turnover. Better staffing. Proactive retention.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -220,9 +222,9 @@ export default function HRTeamsPage() {
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 mb-6">Build a Stronger, More Stable Workforce</h2>
+          <h2 className="section-h2 mb-6">Ready to Reduce Turnover?</h2>
           <p className="body-xl mb-8 opacity-90">
-            See how HR teams are using Sundae to reduce turnover, optimize labor costs, and make data-driven staffing decisions across their restaurant portfolio.
+            See how HR teams catch retention issues early.
           </p>
           <Link href="/demo">
             <Button variant="primary" size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
@@ -234,4 +236,3 @@ export default function HRTeamsPage() {
     </div>
   );
 }
-
