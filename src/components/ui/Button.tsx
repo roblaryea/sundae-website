@@ -19,13 +19,14 @@ export const Button: React.FC<ButtonProps> = ({
   disabled = false,
   type = 'button',
 }) => {
-  const baseStyles = 'inline-flex items-center justify-center font-semibold rounded-lg transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-electric-blue';
+  // Premium Linear/Notion-style button system
+  const baseStyles = 'inline-flex items-center justify-center font-semibold rounded-xl transition-all duration-200 ease-out focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-electric-blue';
   
   const variants = {
-    primary: 'bg-gradient-to-r from-deep-blue to-electric-blue text-white hover:shadow-xl hover:scale-105 shadow-lg hover:from-electric-blue hover:to-deep-blue active:scale-100',
-    secondary: 'bg-gray-900 dark:bg-slate-700 text-white hover:bg-gray-800 dark:hover:bg-slate-600 shadow-md hover:shadow-lg focus:ring-gray-900 dark:focus:ring-slate-600',
-    outline: 'border-2 border-electric-blue text-electric-blue dark:text-blue-400 hover:bg-electric-blue hover:text-white hover:shadow-lg focus:ring-electric-blue',
-    ghost: 'text-gray-700 dark:text-slate-300 hover:bg-gray-100 dark:hover:bg-slate-800 hover:text-gray-900 dark:hover:text-white focus:ring-gray-500',
+    primary: 'bg-gradient-to-r from-deep-blue to-electric-blue text-white shadow-md shadow-electric-blue/25 hover:shadow-lg hover:shadow-electric-blue/30 hover:-translate-y-0.5 active:translate-y-0 active:shadow-md',
+    secondary: 'bg-gray-900 dark:bg-gray-700 text-white shadow-sm hover:bg-gray-800 dark:hover:bg-gray-600 hover:shadow-md hover:-translate-y-0.5 active:translate-y-0',
+    outline: 'border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-200 bg-white/50 dark:bg-gray-800/50 hover:border-electric-blue hover:text-electric-blue dark:hover:border-electric-blue dark:hover:text-electric-blue hover:bg-electric-blue/5 dark:hover:bg-electric-blue/10',
+    ghost: 'text-gray-600 dark:text-gray-300 hover:bg-gray-100/80 dark:hover:bg-gray-800/80 hover:text-gray-900 dark:hover:text-white',
   };
 
   const sizes = {

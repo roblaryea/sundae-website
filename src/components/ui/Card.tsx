@@ -15,23 +15,24 @@ export const Card: React.FC<CardProps> = ({
   padding = 'default',
   hover = false,
 }) => {
-  const baseStyles = 'rounded-xl transition-all duration-300';
+  // Premium Linear/Notion-style card system
+  const baseStyles = 'rounded-2xl transition-all duration-200 ease-out';
   
   const paddingStyles = {
-    compact: 'p-6',
-    default: 'p-8',
-    comfortable: 'p-10',
+    compact: 'p-5',
+    default: 'p-6',
+    comfortable: 'p-8',
   };
   
   const variants = {
-    default: 'bg-white dark:bg-gray-800 shadow-sm border border-gray-100 dark:border-gray-700',
-    elevated: 'bg-white dark:bg-gray-800 shadow-md hover:shadow-xl border border-gray-100 dark:border-gray-700',
-    outlined: 'bg-transparent border-2 border-gray-200 dark:border-gray-700 hover:border-electric-blue dark:hover:border-electric-blue',
-    gradient: 'bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-900 shadow-md border border-blue-100 dark:border-gray-700',
+    default: 'bg-white dark:bg-gray-800/80 shadow-sm border border-gray-200/60 dark:border-gray-700/50 backdrop-blur-sm',
+    elevated: 'bg-white dark:bg-gray-800/90 shadow-lg shadow-gray-200/50 dark:shadow-black/20 border border-gray-100 dark:border-gray-700/50 backdrop-blur-sm',
+    outlined: 'bg-white/50 dark:bg-gray-800/30 border border-gray-200 dark:border-gray-700 hover:border-electric-blue/50 dark:hover:border-electric-blue/50 backdrop-blur-sm',
+    gradient: 'bg-gradient-to-br from-blue-50/80 to-indigo-50/80 dark:from-gray-800/90 dark:to-gray-900/90 shadow-lg shadow-blue-100/30 dark:shadow-black/20 border border-blue-100/50 dark:border-gray-700/50 backdrop-blur-sm',
   };
 
   const hoverStyles = hover
-    ? 'hover:scale-102 hover:shadow-xl cursor-pointer transform'
+    ? 'hover:-translate-y-1 hover:shadow-xl hover:shadow-gray-200/60 dark:hover:shadow-black/30 cursor-pointer'
     : '';
 
   return (
