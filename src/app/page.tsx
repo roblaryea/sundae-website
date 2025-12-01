@@ -173,18 +173,15 @@ export default function Home() {
               </div>
             </div>
             <h1 className="hero-h1 text-gray-900 mb-6">
-              The Future of Restaurant Intelligence
+              See every layer. Know exactly what's happening.
             </h1>
-            <p className="body-xl text-gray-600 mb-4 max-w-4xl mx-auto">
-              Sleek. Clear. Uncompromising. Sundae shows you your entire business in 4D — instantly.
+            <p className="body-xl text-gray-600 dark:text-slate-300 leading-relaxed mb-4 max-w-4xl mx-auto">
+              Your entire operation in 4D — clear, contextual, and always one step ahead.
             </p>
-            <p className="body-lg text-gray-500 mb-4 max-w-3xl mx-auto">
-              All your data streams. One platform. Zero guesswork. Sundae analyzes your operation, benchmarks your performance, predicts what's coming, and tells your team exactly what to do next.
+            <p className="body-lg text-slate-500 dark:text-slate-400 mt-4 mb-8 max-w-3xl mx-auto">
+              Built on <span className="font-semibold text-blue-600">Report</span>, <span className="font-semibold text-purple-600">Nexus</span>, <span className="font-semibold text-green-600">Insights</span>, and <span className="font-semibold text-orange-600">Canvas</span> — the intelligence engine for modern hospitality.
             </p>
-            <p className="body-base text-gray-500 mb-8 max-w-3xl mx-auto">
-              Powered by <span className="font-semibold text-blue-600">Report</span>, <span className="font-semibold text-purple-600">Nexus</span>, <span className="font-semibold text-green-600">Insights</span>, and <span className="font-semibold text-orange-600">Canvas</span> — the complete intelligence stack for modern hospitality.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
+            <div className="flex flex-col sm:flex-row gap-3 justify-center mt-6 mb-6">
               <Button 
                 variant="primary" 
                 size="lg" 
@@ -197,9 +194,9 @@ export default function Home() {
                 variant="outline" 
                 size="lg" 
                 className="border-2 border-gray-900 text-gray-900 bg-white hover:bg-gray-900 hover:text-white transition-all duration-300"
-                onClick={() => cta("/4d-intelligence", "learn_4d_hero", { page: "/home" })}
+                onClick={() => cta("/product", "explore_products_hero", { page: "/home" })}
               >
-                See How It Works →
+                Explore Products
               </Button>
             </div>
             <p className="text-sm text-gray-500">
