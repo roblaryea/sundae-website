@@ -270,26 +270,26 @@ export default function Home() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
+            {([
               {
                 title: "Rearview Mirror Reporting",
                 description: "Basic reports tell you what happened. They don't tell you why it happened, how you compare, or what to do next.",
-                icon: "📉",
+                icon: "decrease" as SundaeIconName,
                 color: "from-gray-500 to-gray-600"
               },
               {
                 title: "Problems Found Too Late",
                 description: "By month-end, the damage is done. No early warnings. No predictive signals. Just expensive surprises.",
-                icon: "⏰",
+                icon: "time" as SundaeIconName,
                 color: "from-red-500 to-red-600"
               },
               {
                 title: "Zero Market Visibility",
                 description: "You can't see competitor pricing, category trends, or demand shifts. You're making decisions in a vacuum.",
-                icon: "🕶️",
+                icon: "visibility" as SundaeIconName,
                 color: "from-orange-500 to-orange-600"
               }
-            ].map((problem, index) => (
+            ]).map((problem, index) => (
               <motion.div
                 key={problem.title}
                 initial={{ opacity: 0, y: 20 }}
@@ -301,8 +301,8 @@ export default function Home() {
                 <Card variant="elevated" className="h-full hover:shadow-xl transition-all duration-300">
                   <CardHeader>
                     <div className="flex items-start space-x-4 mb-3">
-                      <div className={`w-12 h-12 bg-gradient-to-br ${problem.color} rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0 shadow-lg`}>
-                        {problem.icon}
+                      <div className={`w-12 h-12 bg-gradient-to-br ${problem.color} rounded-lg flex items-center justify-center text-white flex-shrink-0 shadow-lg`}>
+                        <SundaeIcon name={problem.icon} size="lg" className="text-white" />
                       </div>
                       <CardTitle className="text-gray-900">{problem.title}</CardTitle>
                     </div>
@@ -330,12 +330,12 @@ export default function Home() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
+            {([
               {
                 dimension: "1D",
                 title: "What Happened",
                 description: "Your operational truth. Sales, labor, covers, voids, waste — unified from POS, payroll, and inventory systems.",
-                icon: "📊",
+                icon: "benchmarking" as SundaeIconName,
                 color: "from-blue-500 to-blue-600",
                 textColor: "text-blue-600"
               },
@@ -343,7 +343,7 @@ export default function Home() {
                 dimension: "2D",
                 title: "Plan vs. Actual",
                 description: "Are you on track? Compare actuals against budgets, forecasts, and targets across every location.",
-                icon: "🎯",
+                icon: "marketing" as SundaeIconName,
                 color: "from-purple-500 to-purple-600",
                 textColor: "text-purple-600"
               },
@@ -351,7 +351,7 @@ export default function Home() {
                 dimension: "3D",
                 title: "Market Context",
                 description: "How do you stack up? Performance vs. benchmarks, peer groups, competitor pricing, and category trends.",
-                icon: "🗺️",
+                icon: "multiLocation" as SundaeIconName,
                 color: "from-green-500 to-green-600",
                 textColor: "text-green-600"
               },
@@ -359,11 +359,11 @@ export default function Home() {
                 dimension: "4D",
                 title: "What's Next",
                 description: "AI-powered foresight. Predictions, proactive alerts, recommendations, and action plans — before problems hit.",
-                icon: "🚀",
+                icon: "growth" as SundaeIconName,
                 color: "from-orange-500 to-orange-600",
                 textColor: "text-orange-600"
               }
-            ].map((dim, index) => (
+            ]).map((dim, index) => (
               <motion.div
                 key={dim.dimension}
                 initial={{ opacity: 0, y: 30 }}
@@ -374,8 +374,8 @@ export default function Home() {
                 <Card variant="elevated" className="h-full hover:shadow-2xl transition-all duration-300 group">
                   <CardHeader>
                     <div className="text-center mb-4">
-                      <div className={`inline-flex w-16 h-16 bg-gradient-to-br ${dim.color} rounded-full items-center justify-center text-white text-3xl mb-3 shadow-lg group-hover:scale-110 transition-transform duration-300`}>
-                        {dim.icon}
+                      <div className={`inline-flex w-16 h-16 bg-gradient-to-br ${dim.color} rounded-full items-center justify-center text-white mb-3 shadow-lg group-hover:scale-110 transition-transform duration-300`}>
+                        <SundaeIcon name={dim.icon} size="xl" className="text-white" />
                       </div>
                       <div className={`text-3xl font-bold ${dim.textColor} mb-2`}>{dim.dimension}</div>
                       <CardTitle className="text-xl text-gray-900 mb-3">{dim.title}</CardTitle>
@@ -415,29 +415,29 @@ export default function Home() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
+            {([
               {
                 step: "1",
                 title: "Connect Your Systems",
                 description: "Plug in your POS, labor, payroll, inventory, budgets, and reservations. We integrate with 25+ platforms.",
-                icon: "🔗",
+                icon: "integration" as SundaeIconName,
                 color: "from-blue-500 to-blue-600"
               },
               {
                 step: "2",
                 title: "We Handle the Rest",
                 description: "Your data is cleaned, standardized, and enriched with benchmarks, market context, and competitive intelligence.",
-                icon: "✨",
+                icon: "aiOs" as SundaeIconName,
                 color: "from-purple-500 to-purple-600"
               },
               {
                 step: "3",
                 title: "Start Making Better Decisions",
                 description: "Access unified dashboards, ask questions in plain English, get proactive alerts, and act on AI recommendations.",
-                icon: "🚀",
+                icon: "growth" as SundaeIconName,
                 color: "from-orange-500 to-orange-600"
               }
-            ].map((step, index) => (
+            ]).map((step, index) => (
               <motion.div
                 key={step.step}
                 initial={{ opacity: 0, y: 20 }}
@@ -449,8 +449,8 @@ export default function Home() {
                 <Card variant="elevated" className="h-full hover:shadow-xl transition-all duration-300">
                   <CardHeader>
                     <div className="text-center mb-4">
-                      <div className={`inline-flex w-16 h-16 bg-gradient-to-br ${step.color} rounded-full items-center justify-center text-white text-3xl mb-3 shadow-lg`}>
-                        {step.icon}
+                      <div className={`inline-flex w-16 h-16 bg-gradient-to-br ${step.color} rounded-full items-center justify-center text-white mb-3 shadow-lg`}>
+                        <SundaeIcon name={step.icon} size="xl" className="text-white" />
                       </div>
                       <div className="text-2xl font-bold text-gray-400 mb-2">Step {step.step}</div>
                       <CardTitle className="text-xl text-gray-900 mb-3">{step.title}</CardTitle>
@@ -574,7 +574,9 @@ export default function Home() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <div className="text-6xl mb-6">👁️</div>
+              <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6">
+                <SundaeIcon name="watchtower" size="xl" className="text-white" />
+              </div>
               <h2 className="text-4xl font-bold mb-6">
                 Watchtower: See the Market Before It Moves
               </h2>
