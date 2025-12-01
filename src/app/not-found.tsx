@@ -47,11 +47,11 @@ export default function NotFound() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
         >
-          <h1 className="text-6xl md:text-8xl font-bold text-gray-900 mb-4">404</h1>
-          <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-4">
+          <h1 className="hero-h1 text-gray-900 mb-4" style={{ fontSize: 'clamp(4rem, 10vw, 8rem)' }}>404</h1>
+          <h2 className="section-h3 text-gray-800 mb-4">
             Looks like this scoop melted
           </h2>
-          <p className="text-lg text-gray-600 mb-8">
+          <p className="body-xl text-gray-600 mb-8">
             Let's get you back to Sundae.
           </p>
           

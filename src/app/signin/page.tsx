@@ -59,7 +59,7 @@ export default function SignInComingSoonPage() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4"
+          className="section-h2 text-gray-900 dark:text-white mb-4"
         >
           Sundae is Almost Ready to Serve
         </motion.h1>
@@ -69,7 +69,7 @@ export default function SignInComingSoonPage() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
-          className="text-lg text-blue-600 dark:text-blue-400 font-medium mb-6"
+          className="body-lg text-blue-600 dark:text-blue-400 font-medium mb-6"
         >
           Your 4D Intelligence platform is baking in the final touches.
         </motion.p>
@@ -96,7 +96,7 @@ export default function SignInComingSoonPage() {
           transition={{ duration: 0.6, delay: 0.5 }}
           className="mb-8"
         >
-          <p className="text-lg font-medium text-gray-700 dark:text-gray-200">
+          <p className="body-lg font-medium text-gray-700 dark:text-gray-200">
             🍨 Good things take time… especially Sundaes.
           </p>
         </motion.div>

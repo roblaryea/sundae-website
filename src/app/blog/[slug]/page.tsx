@@ -46,10 +46,10 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 {formatDate(post.date)}
               </time>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
+            <h1 className="hero-h1 text-gray-900 dark:text-white mb-6">
               {post.title}
             </h1>
-            <p className="text-xl text-gray-600 dark:text-gray-400 leading-relaxed">
+            <p className="body-xl text-gray-600 dark:text-gray-400 leading-relaxed">
               {post.summary}
             </p>
           </header>
@@ -60,7 +60,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               // Check if paragraph is a heading
               if (paragraph.startsWith('## ')) {
                 return (
-                  <h2 key={index} className="text-3xl font-bold text-gray-900 dark:text-white mt-12 mb-6">
+                  <h2 key={index} className="section-h2 text-gray-900 dark:text-white mt-12 mb-6">
                     {paragraph.replace('## ', '')}
                   </h2>
                 );
@@ -69,7 +69,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               // Check if paragraph is a subheading
               if (paragraph.startsWith('### ')) {
                 return (
-                  <h3 key={index} className="text-2xl font-bold text-gray-900 dark:text-white mt-8 mb-4">
+                  <h3 key={index} className="section-h3 text-gray-900 dark:text-white mt-8 mb-4">
                     {paragraph.replace('### ', '')}
                   </h3>
                 );
@@ -87,7 +87,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
               // Regular paragraph
               return (
-                <p key={index} className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
+                <p key={index} className="body-base text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
                   {processedParagraph}
                 </p>
               );
@@ -115,10 +115,10 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       {/* Related CTA */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6">
+          <h2 className="section-h2 mb-6">
             Ready to Transform Your Restaurant Operations?
           </h2>
-          <p className="text-xl mb-8 opacity-90">
+          <p className="body-xl mb-8 opacity-90">
             See how Sundae's decision intelligence platform can help you make smarter, faster decisions.
           </p>
           <Link href="/demo">

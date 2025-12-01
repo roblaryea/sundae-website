@@ -127,10 +127,10 @@ export default function CareersPage() {
             <span>🚀</span>
             <span>Join Our Team</span>
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+          <h1 className="hero-h1 text-gray-900 mb-6">
             Build the Future of Restaurant Intelligence
           </h1>
-          <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-4xl mx-auto">
+          <p className="body-xl text-gray-600 mb-8 max-w-4xl mx-auto">
             Join Sundae in creating the global decision intelligence platform for restaurants. 
             Help operators make smarter, more profitable decisions with AI-powered insights.
           </p>
@@ -153,10 +153,10 @@ export default function CareersPage() {
       <section id="open-positions" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               Current Openings
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
               Help us transform the restaurant industry with data-driven intelligence
             </p>
           </div>
@@ -200,10 +200,10 @@ export default function CareersPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               Why Join Sundae?
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
               We offer more than just a job — we offer a mission to transform an industry
             </p>
           </div>
@@ -230,10 +230,10 @@ export default function CareersPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               Our Values
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
               The principles that guide everything we do at Sundae
             </p>
           </div>
@@ -259,10 +259,10 @@ export default function CareersPage() {
       {/* CTA Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="section-h2 mb-6">
             Ready to Make an Impact?
           </h2>
-          <p className="text-xl mb-8 opacity-90">
+          <p className="body-xl mb-8 opacity-90">
             Join us in building the future of restaurant decision intelligence. 
             Help operators worldwide make smarter, more profitable decisions.
           </p>

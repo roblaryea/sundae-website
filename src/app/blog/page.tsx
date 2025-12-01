@@ -42,10 +42,10 @@ export default function BlogPage() {
               <span>📝</span>
               <span>Sundae Blog</span>
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">
+            <h1 className="hero-h1 text-gray-900 dark:text-white mb-6">
               Restaurant Intelligence Insights
             </h1>
-            <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 max-w-4xl mx-auto">
+            <p className="body-xl text-gray-600 dark:text-gray-300 mb-8 max-w-4xl mx-auto">
               Expert perspectives on decision intelligence, benchmarking, AI, and the future of restaurant operations.
             </p>
           </motion.div>
@@ -124,10 +124,10 @@ export default function BlogPage() {
       {/* Newsletter CTA */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="section-h2 mb-6">
             Never Miss an Update
           </h2>
-          <p className="text-xl mb-8 opacity-90">
+          <p className="body-xl mb-8 opacity-90">
             Get the latest posts on restaurant intelligence, AI, and industry trends delivered to your inbox.
           </p>
           <div className="max-w-md mx-auto">
