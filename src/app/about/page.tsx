@@ -163,14 +163,14 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto text-center">
           <FadeUpSection>
             <h1 className="hero-h1 text-gray-900 dark:text-white mb-8">
-              Building the Global Category of{" "}
-              <span className="text-gradient">Restaurant Decision Intelligence</span>
+              We're Building the Future of{" "}
+              <span className="text-gradient">Restaurant Intelligence</span>
             </h1>
           </FadeUpSection>
           
           <FadeUpSection delay={0.1}>
             <p className="body-xl text-gray-700 dark:text-gray-300 mb-10 max-w-4xl mx-auto">
-              We unify every source of restaurant data into one intelligence layer — empowering operators to make faster, smarter, more confident decisions across every location.
+              One intelligence layer. Every data source. Decisions that drive growth.
             </p>
           </FadeUpSection>
 
@@ -194,7 +194,7 @@ export default function AboutPage() {
                   Our Mission
                 </h2>
                 <p className="body-xl text-gray-700 dark:text-gray-300 mb-10">
-                  Our mission is to unify every layer of restaurant data into one intelligent system, empowering operators to act faster, eliminate guesswork, and unlock profitable growth.
+                  Turn fragmented data into a single source of truth. Replace guesswork with intelligence. Help operators grow faster.
                 </p>
                 
                 <div className="space-y-6">
@@ -297,10 +297,10 @@ export default function AboutPage() {
           <FadeUpSection>
             <div className="text-center mb-16">
               <h2 className="section-h2 text-gray-900 dark:text-white mb-4">
-                The Team Building Restaurant Decision Intelligence
+                Built by Operators. For Operators.
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-400 max-w-4xl mx-auto">
-                Deep experience across restaurants, technology, and data — building Sundae for operators, not just analysts.
+                60+ years of combined experience across restaurants, technology, and data.
               </p>
             </div>
           </FadeUpSection>
@@ -376,10 +376,10 @@ export default function AboutPage() {
           <FadeUpSection>
             <div className="text-center mb-16">
               <h2 className="section-h2 text-gray-900 dark:text-white mb-6">
-                Our Journey
+                The Sundae Journey
               </h2>
               <p className="body-xl text-gray-700 dark:text-gray-300 max-w-4xl mx-auto">
-                From identifying industry pain points to creating a global decision intelligence platform
+                From pain point to platform. From one market to global reach.
               </p>
             </div>
           </FadeUpSection>
@@ -444,10 +444,10 @@ export default function AboutPage() {
           <FadeUpSection>
             <div className="text-center mb-16">
               <h2 className="section-h2 text-gray-900 dark:text-white mb-6">
-                Our Values
+                What We Stand For
               </h2>
               <p className="body-xl text-gray-700 dark:text-gray-300 max-w-4xl mx-auto">
-                The principles that guide everything we build and do
+                Principles that shape every product decision we make
               </p>
             </div>
           </FadeUpSection>
@@ -489,10 +489,10 @@ export default function AboutPage() {
           <FadeUpSection>
             <div className="text-center mb-16">
               <h2 className="section-h2 text-gray-900 dark:text-white mb-6">
-                Global Presence
+                Where We Operate
               </h2>
               <p className="body-xl text-gray-700 dark:text-gray-300 max-w-4xl mx-auto">
-                Sundae powers intelligence for restaurants across 3 continents, with rapid expansion into global hospitality hubs.
+                3 continents. Expanding rapidly into the world's biggest hospitality markets.
               </p>
             </div>
           </FadeUpSection>
@@ -547,10 +547,10 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <FadeUpSection>
             <h2 className="section-h2 text-white mb-8">
-              Join Our Mission
+              Join Us
             </h2>
             <p className="body-xl text-white mb-12 font-medium">
-              Whether you're a restaurant group, partner, or world-class builder — join us in transforming restaurant intelligence for the world.
+              Restaurant group? Partner? Builder? Let's transform the industry together.
             </p>
           </FadeUpSection>
           

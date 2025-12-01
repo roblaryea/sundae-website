@@ -66,10 +66,12 @@ export default function ToolsPage() {
               <span>Free Tools</span>
             </div>
             <h1 className="hero-h1 text-gray-900 dark:text-white mb-6">
-              Restaurant Calculators & Tools
+              Free Calculators for
+              <br />
+              <span className="text-gradient">Smarter Operations</span>
             </h1>
             <p className="body-xl text-gray-600 dark:text-gray-300 mb-8 max-w-4xl mx-auto">
-              Quick calculators to help you make faster, data-backed decisions on labor, menu pricing, and performance.
+              Quick answers on labor, margins, and performance. No signup required.
             </p>
           </motion.div>
         </div>
@@ -125,10 +127,10 @@ export default function ToolsPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 mb-6">
-            Want More Advanced Analytics?
+            Need the Full Picture?
           </h2>
           <p className="body-xl mb-8 opacity-90">
-            These free tools are just the beginning. Sundae's full platform provides real-time intelligence across all your locations.
+            These tools scratch the surface. Sundae gives you real-time intelligence across every location.
           </p>
           <Link href="/demo">
             <Button variant="secondary" size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
