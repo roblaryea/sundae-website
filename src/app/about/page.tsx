@@ -247,7 +247,9 @@ export default function AboutPage() {
             <FadeUpSection delay={0.1}>
               <div className="bg-gradient-to-br from-electric-blue/10 to-lavender/20 dark:from-deep-blue/20 dark:to-electric-blue/10 rounded-3xl p-10 shadow-xl">
                 <div className="text-center mb-8">
-                  <div className="text-6xl mb-6">🎯</div>
+                  <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-electric-blue to-deep-blue rounded-xl flex items-center justify-center">
+                    <SundaeIcon name="marketing" size="xl" className="text-white" />
+                  </div>
                   <h3 className="section-h3 text-gray-900 dark:text-white mb-4">Our Vision</h3>
                   <p className="body-lg text-gray-700 dark:text-gray-300">
                     To redefine how restaurants operate worldwide — with real-time intelligence that replaces guesswork with clarity and transforms data into an operational advantage.

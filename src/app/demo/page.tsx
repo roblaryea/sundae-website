@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
 import { LeadCaptureForm } from '@/components/marketing/LeadCaptureForm';
+import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 
 export default function DemoPage() {
 
@@ -13,7 +14,7 @@ export default function DemoPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
-              <span>🎯</span>
+              <SundaeIcon name="marketing" size="sm" className="text-blue-600" />
               <span>Personalized Demo</span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
@@ -61,30 +62,32 @@ export default function DemoPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
+            {([
               {
                 title: "Live Product Walkthrough",
                 description: "See all 6 AI modules in action with real restaurant data",
-                icon: "🎬",
+                icon: "canvas" as SundaeIconName,
                 details: ["Scout integration demo", "Canvas visualization", "Pulse anomaly detection", "Forge conversational AI"]
               },
               {
                 title: "Custom Use Cases",
                 description: "We'll show you exactly how Sundae solves your specific challenges",
-                icon: "🎯",
+                icon: "marketing" as SundaeIconName,
                 details: ["Your operational pain points", "Relevant success stories", "ROI projections", "Implementation roadmap"]
               },
               {
                 title: "Q&A Session",
                 description: "Get all your questions answered by our restaurant intelligence experts",
-                icon: "💬",
+                icon: "support" as SundaeIconName,
                 details: ["Technical questions", "Pricing and plans", "Integration process", "Support and training"]
               }
-            ].map((benefit, index) => (
+            ]).map((benefit, index) => (
               <Card key={index} variant="elevated">
                 <CardHeader>
                   <div className="text-center mb-4">
-                    <div className="text-4xl mb-3">{benefit.icon}</div>
+                    <div className="w-14 h-14 mx-auto mb-3 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center">
+                      <SundaeIcon name={benefit.icon} size="lg" className="text-white" />
+                    </div>
                     <CardTitle className="text-gray-900">{benefit.title}</CardTitle>
                   </div>
                   <CardDescription className="text-gray-600 text-center">
