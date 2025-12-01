@@ -45,13 +45,12 @@ export default function ScoutPage() {
               <span>Integration Specialist</span>
             </div>
             <h1 className="hero-h1 text-gray-900 dark:text-white">
-              Scout: Universal Data
+              One Connection.
               <br />
-              <span className="text-blue-600 dark:text-electric-blue">Integration Engine</span>
+              <span className="text-blue-600 dark:text-electric-blue">Every System.</span>
             </h1>
             <p className="body-xl text-gray-600 dark:text-slate-300 max-w-3xl mx-auto">
-              Connect every system in your restaurant stack. Scout integrates 25+ data sources 
-              into one unified intelligence layer, eliminating data silos and manual reporting.
+              Scout connects 25+ data sources into one unified layer. No more silos. No more manual exports. Just clean, connected data.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
               <Link href="/demo">
@@ -74,10 +73,10 @@ export default function ScoutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-12">
             <h2 className="section-h2 text-gray-900 dark:text-white">
-              Connect Everything. Miss Nothing.
+              Every System. Zero Silos.
             </h2>
             <p className="body-lg text-gray-600 dark:text-slate-300 max-w-3xl mx-auto">
-              Scout eliminates data silos by connecting all your restaurant systems
+              Your POS, payroll, inventory, and market data — unified in one place
             </p>
           </div>
 
@@ -104,10 +103,10 @@ export default function ScoutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-12">
             <h2 className="section-h2 text-gray-900 dark:text-white">
-              Pre-built Integrations
+              Ready-to-Go Integrations
             </h2>
             <p className="body-lg text-gray-600 dark:text-slate-300 max-w-3xl mx-auto">
-              Connect to the systems you already use in minutes, not months
+              Connect in minutes, not months. We already speak to 25+ platforms.
             </p>
           </div>
 
@@ -134,10 +133,10 @@ export default function ScoutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-12">
             <h2 className="section-h2 text-gray-900 dark:text-white">
-              How Scout Works
+              Three Steps to Unified Data
             </h2>
             <p className="body-lg text-gray-600 dark:text-slate-300 max-w-3xl mx-auto">
-              Simple setup, powerful results
+              Connect. Normalize. Activate.
             </p>
           </div>
 
@@ -175,11 +174,10 @@ export default function ScoutPage() {
       <section className="py-20 bg-gradient-to-r from-blue-600 to-purple-600">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
           <h2 className="section-h2 text-white">
-            Ready to Unify Your Data?
+            Ready to Connect Everything?
           </h2>
           <p className="body-xl text-white/90 max-w-2xl mx-auto">
-            See how Scout can connect your restaurant systems and unlock new insights 
-            in our personalized demo.
+            See your systems unified in one view. Book a Scout demo today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
             <Link href="/demo">

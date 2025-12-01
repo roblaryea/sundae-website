@@ -45,13 +45,12 @@ export default function CanvasPage() {
               <span>Visualization Intelligence</span>
             </div>
             <h1 className="hero-h1 text-gray-900 mb-6">
-              Canvas: Data
+              Dashboards That
               <br />
-              <span className="text-purple-600">Visualization Intelligence</span>
+              <span className="text-purple-600">Actually Get Used</span>
             </h1>
             <p className="body-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Transform complex restaurant data into beautiful, interactive visualizations. 
-              Canvas helps you see patterns, trends, and opportunities that numbers alone can't reveal.
+              One source of truth for every team. Canvas delivers live dashboards for execs, ops, and finance — always current, always aligned.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/demo">
@@ -74,10 +73,10 @@ export default function CanvasPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              See Your Data Differently
+              Built for How Teams Actually Work
             </h2>
             <p className="body-xl text-gray-600 dark:text-slate-300">
-              Canvas turns raw data into actionable visual insights
+              Real-time data. Clear visuals. No waiting for reports.
             </p>
           </div>
 
@@ -106,10 +105,10 @@ export default function CanvasPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              Built for Restaurant Data
+              Ready-Made Views for Every Role
             </h2>
             <p className="body-xl text-gray-600 dark:text-slate-300">
-              Pre-configured visualizations for every aspect of restaurant operations
+              Pre-built dashboards for operations, finance, and executive oversight
             </p>
           </div>
 
@@ -141,11 +140,10 @@ export default function CanvasPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="section-h2 text-gray-900 mb-6">
-                Interactive Demo
+                See It in Action
               </h2>
               <p className="body-xl text-gray-600 mb-8">
-                See how Canvas transforms your restaurant data into beautiful, 
-                interactive visualizations that drive better decisions.
+                Live data. Clear insights. Decisions made faster.
               </p>
               
               <div className="space-y-4">
@@ -205,11 +203,10 @@ export default function CanvasPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 mb-6">
-            Ready to Visualize Your Data?
+            Ready for Dashboards That Work?
           </h2>
           <p className="body-xl mb-8 opacity-90">
-            See how Canvas can transform your restaurant analytics with beautiful, 
-            interactive visualizations in our personalized demo.
+            See your data unified. Book a Canvas demo today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/demo">
