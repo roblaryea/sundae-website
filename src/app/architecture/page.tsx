@@ -5,15 +5,16 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
 import { motion } from 'framer-motion';
+import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 
 export default function ArchitecturePage() {
-  const intelligenceStack = [
+  const intelligenceStack: { title: string; subtitle: string; description: string; color: string; icon: SundaeIconName; size: string; textColor?: string }[] = [
     {
       title: "Decision Intelligence",
       subtitle: "Top Layer",
       description: "Benchmarks, insights, forecasting, automated decisions",
       color: "bg-gradient-to-r from-pink-500 to-rose-500",
-      icon: "🍒",
+      icon: "intelligence",
       size: "large"
     },
     {
@@ -22,7 +23,7 @@ export default function ArchitecturePage() {
       description: "Multi-agent AI, pattern detection, anomaly detection, reasoning",
       color: "bg-gradient-to-r from-gray-50 to-blue-50 dark:from-gray-800 dark:to-blue-900",
       textColor: "text-gray-900 dark:text-white",
-      icon: "✨",
+      icon: "speed",
       size: "large"
     },
     {
@@ -30,7 +31,7 @@ export default function ArchitecturePage() {
       subtitle: "Transformation Layer",
       description: "Cleaning, transformation, metrics logic, enrichment",
       color: "bg-gradient-to-r from-yellow-400 to-amber-400",
-      icon: "⚡",
+      icon: "data",
       size: "medium"
     },
     {
@@ -38,7 +39,7 @@ export default function ArchitecturePage() {
       subtitle: "Unification Layer",
       description: "POS, labor, inventory, reservations, delivery aggregators, raw data unification",
       color: "bg-gradient-to-r from-orange-500 to-amber-600",
-      icon: "🔗",
+      icon: "integration",
       size: "medium"
     },
     {
@@ -46,59 +47,59 @@ export default function ArchitecturePage() {
       subtitle: "Base Layer",
       description: "Secure pipelines, API ingestion, normalization, governance",
       color: "bg-gradient-to-r from-amber-700 to-orange-800",
-      icon: "🏗️",
+      icon: "network",
       size: "base"
     }
   ];
 
-  const modules = [
+  const modules: { name: string; description: string; icon: SundaeIconName; features: string[] }[] = [
     {
       name: "Scout",
       description: "Universal data integration layer connecting 25+ restaurant systems",
-      icon: "🔍",
+      icon: "scout",
       features: ["POS Integration", "Labor Systems", "Inventory", "Real-time Sync"]
     },
     {
       name: "Pulse",
       description: "AI-powered anomaly detection and real-time alert system",
-      icon: "💓",
+      icon: "pulse",
       features: ["Anomaly Detection", "Real-time Alerts", "Pattern Analysis", "Threshold Monitoring"]
     },
     {
       name: "Forge",
       description: "Conversational AI engine for natural language intelligence",
-      icon: "🔨",
+      icon: "forge",
       features: ["Natural Language", "Context Understanding", "Query Engine", "AI Responses"]
     },
     {
       name: "Canvas",
       description: "Dynamic visualization and dashboard intelligence layer",
-      icon: "🎨",
+      icon: "canvas",
       features: ["Real-time Dashboards", "Custom Views", "Visual Analytics", "Interactive Reports"]
     },
     {
       name: "Watchtower",
       description: "Market intelligence and competitive benchmarking engine",
-      icon: "👁️",
+      icon: "watchtower",
       features: ["Market Insights", "Competitor Data", "Trend Analysis", "Geographic Intelligence"]
     }
   ];
 
-  const aiAgents = [
+  const aiAgents: { name: string; description: string; icon: SundaeIconName }[] = [
     {
       name: "Pattern Agents",
       description: "Identify recurring operational patterns, seasonal trends, and hidden correlations across locations",
-      icon: "🔍"
+      icon: "visibility"
     },
     {
       name: "Forecasting Agents",
       description: "Predict sales, labor needs, inventory requirements, and operational demand using ML models",
-      icon: "📈"
+      icon: "forecasting"
     },
     {
       name: "Context Agents",
       description: "Understand operational context, location specifics, and business rules to provide relevant insights",
-      icon: "🧠"
+      icon: "intelligence"
     }
   ];
 
@@ -172,7 +173,7 @@ export default function ArchitecturePage() {
                   }`}>
                     <div className="flex items-start space-x-6">
                       <motion.div 
-                        className="text-5xl flex-shrink-0"
+                        className="w-14 h-14 bg-white/20 rounded-lg flex items-center justify-center flex-shrink-0"
                         animate={{ 
                           scale: [1, 1.1, 1],
                         }}
@@ -182,7 +183,7 @@ export default function ArchitecturePage() {
                           ease: "easeInOut"
                         }}
                       >
-                        {layer.icon}
+                        <SundaeIcon name={layer.icon} size="xl" className={layer.textColor === 'text-gray-900 dark:text-white' ? 'text-blue-600' : 'text-white'} />
                       </motion.div>
                       <div className="flex-grow">
                         <div className={`text-sm font-semibold mb-2 ${layer.textColor === 'text-gray-900 dark:text-white' ? 'text-gray-600 dark:text-gray-400' : 'opacity-90'}`}>
@@ -235,26 +236,26 @@ export default function ArchitecturePage() {
           </motion.div>
 
           <div className="grid md:grid-cols-3 gap-10 max-w-5xl mx-auto">
-            {[
+            {([
               {
                 step: "1",
                 title: "Data Collection",
                 description: "Scout connects to 25+ restaurant systems and external data sources",
-                icon: "🔗"
+                icon: "integration" as SundaeIconName
               },
               {
                 step: "2",
                 title: "AI Processing",
                 description: "Multi-agent AI analyzes data patterns and generates insights",
-                icon: "🤖"
+                icon: "intelligence" as SundaeIconName
               },
               {
                 step: "3",
                 title: "Intelligence Delivery",
                 description: "Actionable recommendations delivered through natural language and visualizations",
-                icon: "💡"
+                icon: "insights" as SundaeIconName
               }
-            ].map((step, index) => (
+            ]).map((step, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
@@ -264,11 +265,11 @@ export default function ArchitecturePage() {
                 className="text-center"
               >
                 <motion.div 
-                  className="w-24 h-24 bg-electric-blue rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-6 shadow-lg"
+                  className="w-24 h-24 bg-electric-blue rounded-2xl flex items-center justify-center text-white mx-auto mb-6 shadow-lg"
                   whileHover={{ scale: 1.1, rotate: 5 }}
                   transition={{ duration: 0.3 }}
                 >
-                  {step.icon}
+                  <SundaeIcon name={step.icon} size="xl" className="text-white" />
                 </motion.div>
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">{step.title}</h3>
                 <p className="text-[16px] text-gray-600 dark:text-gray-400 leading-[1.65]">{step.description}</p>
@@ -307,7 +308,9 @@ export default function ArchitecturePage() {
               >
                 <Card variant="elevated" className="h-full hover:shadow-xl transition-all">
                   <CardHeader>
-                    <div className="text-5xl mb-4 text-center">{agent.icon}</div>
+                    <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center">
+                      <SundaeIcon name={agent.icon} size="xl" className="text-white" />
+                    </div>
                     <CardTitle className="text-center text-xl text-gray-900 dark:text-white mb-4">
                       {agent.name}
                     </CardTitle>
@@ -354,7 +357,9 @@ export default function ArchitecturePage() {
                 <Card variant="elevated" className="h-full hover:shadow-xl transition-all">
                   <CardHeader>
                     <div className="flex items-center space-x-4 mb-4">
-                      <div className="text-4xl">{module.icon}</div>
+                      <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center">
+                        <SundaeIcon name={module.icon} size="lg" className="text-white" />
+                      </div>
                       <CardTitle className="text-2xl text-gray-900 dark:text-white">{module.name}</CardTitle>
                     </div>
                     <CardDescription className="text-[16px] text-gray-600 dark:text-gray-400 leading-[1.65]">
