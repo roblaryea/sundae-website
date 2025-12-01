@@ -88,22 +88,22 @@ export default function Home() {
 
   const testimonials = [
     {
-      name: "Sarah Chen",
-      role: "COO",
-      content: "Sundae's decision intelligence helped us identify a 15% labor cost variance across locations and take immediate action. The ROI was instant.",
-      company: "85 locations"
+      name: "Ahmed Al Mansoori",
+      role: "Operations Director",
+      content: "Sundae helped us uncover a labour variance across our Dubai outlets that we had missed for months. The platform highlighted the issue instantly and recommended the exact fix. Our teams took action the same day.",
+      company: "32 locations across Dubai & Abu Dhabi"
     },
     {
-      name: "Marcus Rodriguez", 
-      role: "Regional Manager",
-      content: "The benchmarking insights showed us our food cost was 8% above similar restaurants. We adjusted pricing and saved $50K in 3 months.",
-      company: "32 locations"
+      name: "Rania Haddad", 
+      role: "Group F&B Controller",
+      content: "The benchmarking insights showed us that our food cost was trending 7% above similar hotel restaurants in the city. We adjusted portions and pricing — and recovered AED 180K within the quarter.",
+      company: "Hospitality Group — UAE"
     },
     {
-      name: "Jennifer Kim",
+      name: "Yousef Al Fadhel",
       role: "CFO",
-      content: "Finally, a platform that turns our data into actionable decisions. We reduced decision-making time from days to minutes.",
-      company: "150+ locations"
+      content: "For the first time, we can see exactly where to intervene — from menu performance to delivery profitability. Sundae turned our raw data into decisions my team could act on immediately.",
+      company: "50+ franchise locations across the GCC"
     }
   ];
 
@@ -866,10 +866,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              Trusted by Operators Who Demand More
+              Trusted by Operators Who Run the Region
             </h2>
             <p className="body-xl text-gray-600">
-              Leaders who've moved from guessing to knowing
+              Leaders across Dubai, Abu Dhabi, and the GCC who've moved from guessing to knowing.
             </p>
           </div>
           
