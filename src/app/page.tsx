@@ -7,6 +7,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { motion, useInView } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
 import { useCta } from "@/lib/cta";
+import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 
 // Count-up animation hook
 function useCountUp(end: number, duration: number = 2000, isInView: boolean = false) {
@@ -50,12 +51,12 @@ export default function Home() {
   const flowInView = useInView(flowRef, { once: true, margin: "-100px" });
   const dimensionsInView = useInView(dimensionsRef, { once: true, margin: "-100px" });
 
-  const coreProducts = [
+  const coreProducts: { name: string; subtitle: string; description: string; icon: SundaeIconName; color: string; link: string }[] = [
     {
       name: "Sundae Report",
       subtitle: "Free benchmarking in minutes",
       description: "See exactly where you stand. Upload your data and get instant comparisons on sales, labor, COGS, and operations against similar restaurants in your market.",
-      icon: "📊",
+      icon: "report",
       color: "from-blue-500 to-blue-600",
       link: "/report"
     },
@@ -63,7 +64,7 @@ export default function Home() {
       name: "Sundae Nexus",
       subtitle: "Ask questions, get answers",
       description: "Skip the spreadsheets. Ask questions like 'Which locations grew fastest last weekend?' and get instant, AI-powered answers with context.",
-      icon: "🚀",
+      icon: "nexus",
       color: "from-purple-500 to-purple-600",
       link: "/nexus"
     },
@@ -71,7 +72,7 @@ export default function Home() {
       name: "Sundae Insights",
       subtitle: "Context that explains the why",
       description: "Understand what's actually driving your numbers. Connect performance to weather, local events, and market shifts — automatically.",
-      icon: "💡",
+      icon: "insights",
       color: "from-green-500 to-green-600",
       link: "/insights"
     },
@@ -79,7 +80,7 @@ export default function Home() {
       name: "Sundae Canvas",
       subtitle: "Dashboards that work for everyone",
       description: "One source of truth. Clear dashboards for execs, ops, and finance — always current, always aligned, always actionable.",
-      icon: "📈",
+      icon: "canvas",
       color: "from-orange-500 to-orange-600",
       link: "/canvas"
     }
@@ -530,8 +531,8 @@ export default function Home() {
                 <Card variant="elevated" className="h-full hover:shadow-2xl transition-all duration-300">
                     <CardHeader>
                       <div className="flex items-start space-x-4 mb-4">
-                        <div className={`w-14 h-14 bg-gradient-to-br ${product.color} rounded-xl flex items-center justify-center text-white text-2xl group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
-                          {product.icon}
+                        <div className={`w-14 h-14 bg-gradient-to-br ${product.color} rounded-xl flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
+                          <SundaeIcon name={product.icon} size="lg" className="text-white" />
                         </div>
                         <div className="flex-1">
                           <CardTitle className="text-xl text-gray-900 group-hover:text-blue-600 transition-colors duration-300">
