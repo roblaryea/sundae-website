@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useRef, useEffect, forwardRef } from "react";
+import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 
 export default function BenchmarkingPage() {
   const [openAccordion, setOpenAccordion] = useState<number | null>(null);
@@ -20,30 +21,30 @@ export default function BenchmarkingPage() {
     }
   }, [openAccordion]);
 
-  const whoItsFor = [
+  const whoItsFor: { icon: SundaeIconName; title: string; description: string }[] = [
     {
-      icon: "👔",
+      icon: "owners",
       title: "Ops Leaders",
       description: "See where you stand vs the market"
     },
     {
-      icon: "💼",
+      icon: "finance",
       title: "Finance & FP&A",
       description: "Benchmark costs and identify opportunities"
     },
     {
-      icon: "📊",
+      icon: "regional",
       title: "Regional Managers",
       description: "Compare location performance objectively"
     }
   ];
 
-  const benchmarkCategories = [
+  const benchmarkCategories: { name: string; description: string; metrics: string[]; icon: SundaeIconName; color: string; footer: string }[] = [
     {
       name: "Sales & Revenue Intelligence",
       description: "Track and benchmark the performance of your core sales engines",
       metrics: ["Net Sales Trend", "Revenue per Sq Ft / Table", "Average Check Size", "Channel Mix Performance", "Daypart Sales Analysis"],
-      icon: "📊",
+      icon: "benchmarking",
       color: "bg-blue-600",
       footer: "See how your sales stack up against similar restaurants."
     },
@@ -51,7 +52,7 @@ export default function BenchmarkingPage() {
       name: "Guest & Demand Patterns",
       description: "Understand guest flow and demand patterns across dayparts",
       metrics: ["Guest Count Trends", "Peak Hour Analysis", "Capacity Utilization", "Table Turn Performance", "Event & Weather Impact"],
-      icon: "👥",
+      icon: "operators",
       color: "bg-purple-600",
       footer: "Understand when and why guests choose you — or your competitors."
     },
@@ -59,7 +60,7 @@ export default function BenchmarkingPage() {
       name: "Labor & Productivity Intelligence",
       description: "Optimize labor efficiency and identify productivity gaps",
       metrics: ["Labor Cost %", "Sales per Labor Hour", "Staff Productivity Score", "Overtime Exposure", "Staffing vs Demand Alignment"],
-      icon: "⚡",
+      icon: "speed",
       color: "bg-orange-600",
       footer: "Identify efficiency gaps and overstaffed or understaffed periods."
     },
@@ -67,7 +68,7 @@ export default function BenchmarkingPage() {
       name: "COGS & Food Efficiency",
       description: "Identify hidden cost drivers and waste variance issues",
       metrics: ["Food Cost %", "Waste & Variance Tracking", "Inventory Turnover", "Menu Margin Analysis", "Category Cost Optimization"],
-      icon: "🍽️",
+      icon: "menu",
       color: "bg-green-600",
       footer: "Spot leakage and uncover hidden cost drivers."
     },
@@ -75,7 +76,7 @@ export default function BenchmarkingPage() {
       name: "Operational Performance",
       description: "Measure operational efficiency against industry standards",
       metrics: ["Order Accuracy Rate", "Speed of Service", "Prep Efficiency", "Service Rhythm Analysis", "Front vs Back-of-House Metrics"],
-      icon: "🎯",
+      icon: "marketing",
       color: "bg-teal-600",
       footer: "Optimize the guest experience from kitchen to table."
     },
@@ -83,7 +84,7 @@ export default function BenchmarkingPage() {
       name: "Financial & Cost Structure",
       description: "Analyze cost structure and profitability vs market benchmarks",
       metrics: ["Rent Efficiency Ratio", "Utility Cost Impact", "Location Profitability", "Cost-to-Sales Analysis", "Overhead Optimization"],
-      icon: "💰",
+      icon: "finance",
       color: "bg-indigo-600",
       footer: "See whether your cost structure is in line with the market."
     },
@@ -91,7 +92,7 @@ export default function BenchmarkingPage() {
       name: "Predictive Signals & AI Alerts",
       description: "Get proactive alerts before issues impact your bottom line",
       metrics: ["Sales Forecast Accuracy", "Labor Demand Prediction", "Anomaly Detection", "Risk Flag Identification", "Data Quality Monitoring"],
-      icon: "🚨",
+      icon: "alerts",
       color: "bg-red-600",
       footer: "Get proactive alerts before issues impact your P&L."
     },
@@ -99,7 +100,7 @@ export default function BenchmarkingPage() {
       name: "Benchmarking & Market Indices",
       description: "Track market position and competitive performance",
       metrics: ["Performance Rank vs Peers", "Segment Benchmark Comparison", "Market Trend Analysis", "Competitive Position Tracking", "Composite Performance Score"],
-      icon: "📈",
+      icon: "growth",
       color: "bg-blue-700",
       footer: "See exactly where you stand in your local and segment market."
     }
@@ -438,7 +439,9 @@ export default function BenchmarkingPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {whoItsFor.map((persona, index) => (
               <Card key={index} variant="elevated" className="text-center p-6">
-                <div className="text-4xl mb-3">{persona.icon}</div>
+                <div className="w-12 h-12 mx-auto mb-3 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center">
+                  <SundaeIcon name={persona.icon} size="lg" className="text-white" />
+                </div>
                 <h3 className="font-semibold text-gray-900 mb-2">{persona.title}</h3>
                 <p className="text-sm text-gray-600">{persona.description}</p>
               </Card>
@@ -464,8 +467,8 @@ export default function BenchmarkingPage() {
               <Card key={category.name} variant="elevated" className="hover:scale-105 transition-all duration-300 hover:shadow-lg group">
                 <CardHeader>
                   <div className="flex items-center space-x-4 mb-4">
-                    <div className={`w-12 h-12 ${category.color} rounded-lg flex items-center justify-center text-white text-xl group-hover:scale-110 transition-transform duration-300`}>
-                      {category.icon}
+                    <div className={`w-12 h-12 ${category.color} rounded-lg flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-300`}>
+                      <SundaeIcon name={category.icon} size="lg" className="text-white" />
                     </div>
                     <div>
                       <CardTitle className="text-gray-900 group-hover:text-blue-600 transition-colors duration-300 text-base">{category.name}</CardTitle>
