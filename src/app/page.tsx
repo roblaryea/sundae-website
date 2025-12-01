@@ -164,16 +164,19 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
+            <p className="text-sm font-medium text-blue-600 mb-4 tracking-wide">
+              See every layer. Miss nothing.
+            </p>
             <h1 className="hero-h1 text-gray-900 mb-6">
-              Turn Data Into Decisions. Automatically.
+              Turn Restaurant Data into Decisions. Automatically.
             </h1>
-            <p className="body-xl text-gray-600 mb-6 max-w-4xl mx-auto">
-              Sundae is the AI-powered Decision Intelligence platform for multi-location restaurants. It connects your POS, labor, inventory, and demand data, spots what actually matters, and tells your team exactly what to do next.
+            <p className="body-xl text-gray-600 mb-4 max-w-4xl mx-auto">
+              Sundae is the AI-powered Decision Intelligence platform for multi-location restaurants.
             </p>
-            <p className="body-base text-gray-500 mb-8 max-w-3xl mx-auto">
-              Powered by <span className="font-semibold text-blue-600">Report</span>, <span className="font-semibold text-purple-600">Nexus</span>, <span className="font-semibold text-green-600">Insights</span>, and <span className="font-semibold text-orange-600">Canvas</span> — the complete intelligence stack for restaurants.
+            <p className="body-lg text-gray-500 mb-8 max-w-3xl mx-auto">
+              It connects your POS, labor, inventory, and demand data, spots what actually matters, and tells your teams exactly what to do next.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
               <Button 
                 variant="primary" 
                 size="lg" 
@@ -191,6 +194,15 @@ export default function Home() {
                 See How It Works →
               </Button>
             </div>
+            <p className="text-sm text-gray-500">
+              Already running reports?{" "}
+              <button 
+                onClick={() => cta("/report", "free_report_hero_link", { page: "/home" })}
+                className="text-blue-600 hover:text-blue-700 font-medium underline bg-transparent border-none cursor-pointer"
+              >
+                Upload your data and get a free Sundae benchmark in minutes.
+              </button>
+            </p>
           </motion.div>
         </div>
         
@@ -303,62 +315,75 @@ export default function Home() {
         </div>
       </section>
 
-      {/* What is Sundae? Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      {/* What is Sundae? - Four Core Products */}
+      <section aria-labelledby="what-is-sundae-heading" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
-              What is Sundae?
+            <p className="text-xs font-semibold tracking-[0.18em] uppercase text-slate-500 mb-4">
+              WHAT IS SUNDAE?
+            </p>
+            <h2 id="what-is-sundae-heading" className="section-h2 text-gray-900 mb-4">
+              One platform. Four core products.
             </h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Sundae is an AI-powered Decision Intelligence platform built for restaurant and hospitality teams. It unifies your POS, labor, inventory, and demand data into one intelligent layer — analyzing every signal, detecting trends and anomalies, and turning noise into clear, actionable guidance your operators can use every day.
+              Everything you need to move from 1D reports to 4D intelligence — in one stack that operators, finance, and data teams can share.
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {([
-              {
-                title: "Connect every system",
-                description: "Bring POS, labor, inventory, and demand data into one trusted source.",
-                icon: "integration" as SundaeIconName,
-                color: "from-blue-500 to-blue-600"
-              },
-              {
-                title: "See what changed — and why",
-                description: "Spot trends, anomalies, and root causes without digging through reports.",
-                icon: "insights" as SundaeIconName,
-                color: "from-purple-500 to-purple-600"
-              },
-              {
-                title: "Know your next move",
-                description: "Get AI-generated recommendations your team can act on immediately.",
-                icon: "growth" as SundaeIconName,
-                color: "from-green-500 to-green-600"
-              }
-            ]).map((pillar, index) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {coreProducts.map((product, index) => (
               <motion.div
-                key={pillar.title}
+                key={product.name}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true, margin: "-100px" }}
                 whileHover={{ y: -8, transition: { duration: 0.2 } }}
+                className="group cursor-pointer"
+                onClick={() => cta(product.link, `view_${product.name.toLowerCase().replace(/\s+/g, "_")}`, { page: "/home", section: "core-products" })}
               >
-                <Card variant="elevated" className="h-full hover:shadow-xl transition-all duration-300">
+                <Card variant="elevated" className="h-full hover:shadow-2xl transition-all duration-300">
                   <CardHeader>
-                    <div className="flex items-start space-x-4 mb-3">
-                      <div className={`w-12 h-12 bg-gradient-to-br ${pillar.color} rounded-lg flex items-center justify-center text-white flex-shrink-0 shadow-lg`}>
-                        <SundaeIcon name={pillar.icon} size="lg" className="text-white" />
+                    <div className="flex items-start space-x-4 mb-4">
+                      <div className={`w-14 h-14 bg-gradient-to-br ${product.color} rounded-xl flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
+                        <SundaeIcon name={product.icon} size="lg" className="text-white" />
                       </div>
-                      <CardTitle className="text-gray-900">{pillar.title}</CardTitle>
+                      <div className="flex-1">
+                        <CardTitle className="text-xl text-gray-900 group-hover:text-blue-600 transition-colors duration-300">
+                          {product.name}
+                        </CardTitle>
+                        <p className="text-sm text-gray-500 font-medium mt-1">{product.subtitle}</p>
+                      </div>
                     </div>
                     <CardDescription className="text-gray-600 leading-relaxed">
-                      {pillar.description}
+                      {product.description}
                     </CardDescription>
                   </CardHeader>
+                  <CardContent>
+                    <div className="flex items-center text-blue-600 font-medium group-hover:text-blue-700 transition-colors">
+                      <span>Learn more</span>
+                      <motion.span
+                        className="ml-2"
+                        animate={{ x: [0, 4, 0] }}
+                        transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+                      >
+                        →
+                      </motion.span>
+                    </div>
+                  </CardContent>
                 </Card>
               </motion.div>
             ))}
+          </div>
+
+          <div className="text-center mt-12">
+            <Button 
+              variant="outline" 
+              size="lg"
+              onClick={() => cta("/product", "explore_products", { page: "/home", section: "core-products" })}
+            >
+              Explore the full product →
+            </Button>
           </div>
         </div>
       </section>
@@ -507,38 +532,49 @@ export default function Home() {
         </div>
       </section>
 
-      {/* How Sundae Plugs Into Your World */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      {/* How Sundae Works - 4 Steps */}
+      <section aria-labelledby="how-it-works-heading" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
-              Get Started in Three Steps
-            </h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              From fragmented data to unified intelligence
+            <p className="text-xs font-semibold tracking-[0.18em] uppercase text-slate-500 mb-4">
+              HOW IT WORKS
             </p>
+            <h2 id="how-it-works-heading" className="section-h2 text-gray-900 mb-4">
+              From raw data to recommended actions in four steps.
+            </h2>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {([
               {
                 step: "1",
-                title: "Connect Your Systems",
-                description: "Plug in your POS, labor, payroll, inventory, budgets, and reservations. We integrate with 25+ platforms.",
+                title: "Connect",
+                subtitle: "Data unification",
+                description: "Plug in POS, workforce, inventory, and external data. Sundae cleans and unifies it behind the scenes.",
                 icon: "integration" as SundaeIconName,
                 color: "from-blue-500 to-blue-600"
               },
               {
                 step: "2",
-                title: "We Handle the Rest",
-                description: "Your data is cleaned, standardized, and enriched with benchmarks, market context, and competitive intelligence.",
-                icon: "aiOs" as SundaeIconName,
+                title: "Understand",
+                subtitle: "Patterns & anomalies",
+                description: "AI agents scan performance, spot outliers, and separate normal noise from issues that actually matter.",
+                icon: "insights" as SundaeIconName,
                 color: "from-purple-500 to-purple-600"
               },
               {
                 step: "3",
-                title: "Start Making Better Decisions",
-                description: "Access unified dashboards, ask questions in plain English, get proactive alerts, and act on AI recommendations.",
+                title: "Decide",
+                subtitle: "Recommendations & playbooks",
+                description: "Sundae suggests specific actions — from staffing changes to menu tweaks — with explainable logic.",
+                icon: "aiOs" as SundaeIconName,
+                color: "from-green-500 to-green-600"
+              },
+              {
+                step: "4",
+                title: "Improve",
+                subtitle: "Feedback & learning",
+                description: "Every decision and outcome makes Sundae smarter, so your playbooks and benchmarks keep getting better.",
                 icon: "growth" as SundaeIconName,
                 color: "from-orange-500 to-orange-600"
               }
@@ -554,19 +590,146 @@ export default function Home() {
                 <Card variant="elevated" className="h-full hover:shadow-xl transition-all duration-300">
                   <CardHeader>
                     <div className="text-center mb-4">
-                      <div className={`inline-flex w-16 h-16 bg-gradient-to-br ${step.color} rounded-full items-center justify-center text-white mb-3 shadow-lg`}>
-                        <SundaeIcon name={step.icon} size="xl" className="text-white" />
+                      <div className={`inline-flex w-14 h-14 bg-gradient-to-br ${step.color} rounded-full items-center justify-center text-white mb-3 shadow-lg`}>
+                        <SundaeIcon name={step.icon} size="lg" className="text-white" />
                       </div>
-                      <div className="text-2xl font-bold text-gray-400 mb-2">Step {step.step}</div>
-                      <CardTitle className="text-xl text-gray-900 mb-3">{step.title}</CardTitle>
+                      <div className="text-lg font-bold text-gray-400 mb-1">Step {step.step}</div>
+                      <CardTitle className="text-lg text-gray-900 mb-1">{step.title}</CardTitle>
+                      <p className="text-sm text-gray-500 font-medium">{step.subtitle}</p>
                     </div>
-                    <CardDescription className="text-gray-600 leading-relaxed text-center">
+                    <CardDescription className="text-gray-600 leading-relaxed text-center text-sm">
                       {step.description}
                     </CardDescription>
                   </CardHeader>
                 </Card>
               </motion.div>
             ))}
+          </div>
+
+          <div className="text-center mt-12">
+            <Button 
+              variant="primary" 
+              size="lg"
+              onClick={() => cta("/demo", "see_sundae_action", { page: "/home", section: "how-it-works" })}
+            >
+              See Sundae in action →
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* Who Sundae is For */}
+      <section aria-labelledby="who-its-for-heading" className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <p className="text-xs font-semibold tracking-[0.18em] uppercase text-slate-500 mb-4">
+              BUILT FOR MODERN RESTAURANT TEAMS
+            </p>
+            <h2 id="who-its-for-heading" className="section-h2 text-gray-900 mb-4">
+              One platform. Different views for every team.
+            </h2>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {([
+              {
+                title: "Operations leaders",
+                description: "See which locations need help this week — and why — without digging through 20 reports.",
+                icon: "multiLocation" as SundaeIconName,
+                color: "from-blue-500 to-blue-600"
+              },
+              {
+                title: "Finance & FP&A",
+                description: "Understand the story behind every variance and model the impact of decisions before you roll them out.",
+                icon: "marketing" as SundaeIconName,
+                color: "from-purple-500 to-purple-600"
+              },
+              {
+                title: "C-suite & owners",
+                description: "Get a simple, unified view of performance across brands, geographies, and partners.",
+                icon: "growth" as SundaeIconName,
+                color: "from-green-500 to-green-600"
+              },
+              {
+                title: "Data & technology teams",
+                description: "Keep clean pipelines, governance, and an opinionated metrics layer — without becoming the bottleneck.",
+                icon: "integration" as SundaeIconName,
+                color: "from-orange-500 to-orange-600"
+              }
+            ]).map((audience, index) => (
+              <motion.div
+                key={audience.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                viewport={{ once: true, margin: "-100px" }}
+                whileHover={{ y: -4, transition: { duration: 0.2 } }}
+              >
+                <div className="flex items-start space-x-4 p-5 bg-white rounded-2xl border border-slate-200/70 shadow-sm hover:shadow-md transition-all duration-300">
+                  <div className={`w-12 h-12 bg-gradient-to-br ${audience.color} rounded-xl flex items-center justify-center text-white flex-shrink-0 shadow-lg`}>
+                    <SundaeIcon name={audience.icon} size="lg" className="text-white" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-gray-900 mb-1">{audience.title}</h3>
+                    <p className="text-sm text-gray-600 leading-relaxed">{audience.description}</p>
+                  </div>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Free Tools Section */}
+      <section aria-labelledby="free-tools-heading" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-12">
+            <p className="text-xs font-semibold tracking-[0.18em] uppercase text-slate-500 mb-4">
+              FREE TOOLS FOR OPERATORS
+            </p>
+            <h2 id="free-tools-heading" className="section-h2 text-gray-900 mb-4">
+              Start with calculators. Grow into the full platform.
+            </h2>
+            <p className="body-lg text-gray-600 max-w-3xl mx-auto">
+              Not ready for a full rollout? Use Sundae's free tools to stress-test your margins and labor plan first.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {([
+              { name: "Labor Cost Calculator", link: "/tools/labor-cost", icon: "benchmarking" as SundaeIconName },
+              { name: "Menu Margin Analyzer", link: "/tools/menu-margin", icon: "insights" as SundaeIconName },
+              { name: "Break-even Covers", link: "/tools/breakeven-covers", icon: "growth" as SundaeIconName }
+            ]).map((tool, index) => (
+              <motion.div
+                key={tool.name}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                viewport={{ once: true, margin: "-100px" }}
+                whileHover={{ y: -4, transition: { duration: 0.2 } }}
+                className="cursor-pointer"
+                onClick={() => cta(tool.link, `view_tool_${tool.name.toLowerCase().replace(/\s+/g, "_")}`, { page: "/home", section: "free-tools" })}
+              >
+                <div className="flex items-center space-x-3 p-4 bg-slate-50 rounded-xl border border-slate-200/70 hover:border-blue-300 hover:bg-blue-50/50 transition-all duration-300">
+                  <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center text-white shadow">
+                    <SundaeIcon name={tool.icon} size="md" className="text-white" />
+                  </div>
+                  <span className="font-medium text-gray-900">{tool.name}</span>
+                  <span className="ml-auto text-blue-600">→</span>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+
+          <div className="text-center mt-10">
+            <Button 
+              variant="outline" 
+              size="lg"
+              onClick={() => cta("/tools", "browse_all_tools", { page: "/home", section: "free-tools" })}
+            >
+              Browse all tools →
+            </Button>
           </div>
         </div>
       </section>
@@ -609,67 +772,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* NEW: One Platform, Four Core Products */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
-              Everything You Need, One Platform
-            </h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Four products. One intelligence layer. Zero data silos.
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {coreProducts.map((product, index) => (
-              <motion.div
-                key={product.name}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                viewport={{ once: true, margin: "-100px" }}
-                whileHover={{ y: -8, transition: { duration: 0.2 } }}
-                className="group cursor-pointer"
-                onClick={() => cta(product.link, `view_${product.name.toLowerCase().replace(/\s+/g, "_")}`, { page: "/home", section: "core-products" })}
-              >
-                <Card variant="elevated" className="h-full hover:shadow-2xl transition-all duration-300">
-                    <CardHeader>
-                      <div className="flex items-start space-x-4 mb-4">
-                        <div className={`w-14 h-14 bg-gradient-to-br ${product.color} rounded-xl flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
-                          <SundaeIcon name={product.icon} size="lg" className="text-white" />
-                        </div>
-                        <div className="flex-1">
-                          <CardTitle className="text-xl text-gray-900 group-hover:text-blue-600 transition-colors duration-300">
-                            {product.name}
-                          </CardTitle>
-                          <p className="text-sm text-gray-500 font-medium mt-1">{product.subtitle}</p>
-                        </div>
-                      </div>
-                      <CardDescription className="text-gray-600 leading-relaxed">
-                        {product.description}
-                      </CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                      <div className="flex items-center text-blue-600 font-medium group-hover:text-blue-700 transition-colors">
-                        <span>See {product.name}</span>
-                        <motion.span
-                          className="ml-2"
-                          animate={{ x: [0, 4, 0] }}
-                          transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
-                        >
-                          →
-                        </motion.span>
-                      </div>
-                    </CardContent>
-                  </Card>
-                </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* NEW: Watchtower Highlight */}
+      {/* Watchtower Highlight */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-deep-blue to-electric-blue text-white">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -781,14 +884,14 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Enhanced Final CTA Section */}
+      {/* Final CTA Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-50">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 text-gray-900 mb-6">
-            Ready to Turn Data Into Decisions?
+            Ready to see your restaurant the way your best operator does?
           </h2>
-          <p className="body-xl text-gray-600 mb-8">
-            Join operators who've moved from reactive reports to AI-powered Decision Intelligence. See past, plan, peers, and predictions — all in one place.
+          <p className="body-lg text-gray-600 mb-8 max-w-3xl mx-auto">
+            Bring your POS and labor data to a 30-minute session. We'll show you exactly where Sundae can surface margin and efficiency opportunities — or point you to quick wins you can implement today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
             <Button 
@@ -801,20 +904,11 @@ export default function Home() {
             <Button 
               variant="outline" 
               size="lg"
-              onClick={() => cta("/pricing", "view_pricing_footer_cta", { page: "/home" })}
+              onClick={() => cta("/report", "get_report_footer_cta", { page: "/home" })}
             >
-              Explore Plans & Pricing
+              Get a Free Sundae Report →
             </Button>
           </div>
-          <p className="text-sm text-gray-500">
-            Or{" "}
-            <button 
-              onClick={() => cta("/report", "get_report_footer_link", { page: "/home" })}
-              className="text-blue-600 hover:text-blue-700 font-medium underline bg-transparent border-none cursor-pointer"
-            >
-              get your free benchmark report first →
-            </button>
-          </p>
         </div>
       </section>
     </div>
