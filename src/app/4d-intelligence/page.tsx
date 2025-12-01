@@ -5,15 +5,16 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
 import { motion } from 'framer-motion';
+import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 
 export default function FourDIntelligencePage() {
-  const dimensions = [
+  const dimensions: { id: string; title: string; subtitle: string; description: string; icon: SundaeIconName; color: string; textColor: string; bgColor: string; examples: string[] }[] = [
     {
       id: "1D",
       title: "Internal Actuals",
       subtitle: "What Happened?",
       description: "This is where most tools stop. Traditional BI platforms show you sales, labor, covers, voids, and waste from your POS, payroll, and inventory systems. But they only tell you what happened in the past—with no context, no comparison, and no prediction.",
-      icon: "📊",
+      icon: "benchmarking",
       color: "from-blue-500 to-blue-600",
       textColor: "text-blue-600",
       bgColor: "bg-blue-50",
@@ -30,7 +31,7 @@ export default function FourDIntelligencePage() {
       title: "Actual vs Plan",
       subtitle: "What Should Have Happened?",
       description: "Layer in your budgets, forecasts, and targets. Now you can see variance—are you ahead or behind plan? This adds planning context, but still no market intelligence or predictive power.",
-      icon: "🎯",
+      icon: "marketing",
       color: "from-purple-500 to-purple-600",
       textColor: "text-purple-600",
       bgColor: "bg-purple-50",
@@ -47,7 +48,7 @@ export default function FourDIntelligencePage() {
       title: "Market & Competitors",
       subtitle: "How Do We Compare?",
       description: "Add benchmarks, peer groups, and competitive intelligence. See how your performance stacks up against similar restaurants in your category and region. Understand market context, not just internal metrics.",
-      icon: "🗺️",
+      icon: "watchtower",
       color: "from-green-500 to-green-600",
       textColor: "text-green-600",
       bgColor: "bg-green-50",
@@ -64,7 +65,7 @@ export default function FourDIntelligencePage() {
       title: "AI Foresight & Actions",
       subtitle: "What Will Happen Next, and What Should We Do?",
       description: "The final dimension: predictions, alerts, and AI-generated recommendations. Sundae's multi-agent AI forecasts outcomes, flags anomalies before they escalate, and tells you exactly what action to take.",
-      icon: "🚀",
+      icon: "forecasting",
       color: "from-orange-500 to-orange-600",
       textColor: "text-orange-600",
       bgColor: "bg-orange-50",
@@ -78,26 +79,26 @@ export default function FourDIntelligencePage() {
     }
   ];
 
-  const businessOutcomes = [
+  const businessOutcomes: { title: string; description: string; icon: SundaeIconName }[] = [
     {
       title: "Higher Margins and Revenue Quality",
       description: "Catch margin erosion early, optimize pricing, and reduce waste before it impacts the P&L.",
-      icon: "💰"
+      icon: "finance"
     },
     {
       title: "Faster, More Confident Decisions",
       description: "No more waiting for monthly reports. Get real-time intelligence and act on issues as they emerge.",
-      icon: "⚡"
+      icon: "speed"
     },
     {
       title: "Less Firefighting, More Proactive Leadership",
       description: "Move from reactive management to strategic planning with predictive signals and early warnings.",
-      icon: "🎯"
+      icon: "marketing"
     },
     {
       title: "Stronger Competitive Position",
       description: "Understand your market context, benchmark against peers, and respond to competitor moves in real-time.",
-      icon: "🏆"
+      icon: "growth"
     }
   ];
 
@@ -237,8 +238,8 @@ export default function FourDIntelligencePage() {
                   <CardContent className="p-8">
                     <div className="grid md:grid-cols-5 gap-8 items-start">
                       <div className="md:col-span-2">
-                        <div className={`inline-flex w-20 h-20 bg-gradient-to-br ${dim.color} rounded-2xl items-center justify-center text-white text-4xl mb-4 shadow-lg`}>
-                          {dim.icon}
+                        <div className={`inline-flex w-20 h-20 bg-gradient-to-br ${dim.color} rounded-2xl items-center justify-center text-white mb-4 shadow-lg`}>
+                          <SundaeIcon name={dim.icon} size="xl" className="text-white" />
                         </div>
                         <div className={`text-4xl font-bold ${dim.textColor} mb-2`}>{dim.id}</div>
                         <h3 className="text-2xl font-bold text-gray-900 mb-3">{dim.title}</h3>
@@ -344,8 +345,8 @@ export default function FourDIntelligencePage() {
                 <Card variant="elevated" className="h-full hover:shadow-xl transition-all duration-300">
                   <CardHeader>
                     <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0 shadow-lg">
-                        {outcome.icon}
+                      <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg flex items-center justify-center text-white flex-shrink-0 shadow-lg">
+                        <SundaeIcon name={outcome.icon} size="lg" className="text-white" />
                       </div>
                       <div>
                         <CardTitle className="text-xl text-gray-900 mb-3">{outcome.title}</CardTitle>

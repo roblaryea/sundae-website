@@ -4,67 +4,68 @@ import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { motion } from "framer-motion";
+import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 
 export default function NexusPage() {
-  const capabilities = [
+  const capabilities: { title: string; description: string; icon: SundaeIconName }[] = [
     {
       title: "Natural Language Questions",
       description: "Ask questions in plain English — no SQL, no technical knowledge required.",
-      icon: "💬"
+      icon: "nexus"
     },
     {
       title: "Unified Data Window",
       description: "Every connected data source accessible from a single conversational interface.",
-      icon: "🔗"
+      icon: "integration"
     },
     {
       title: "Visual Answers",
       description: "Instant charts, tables, and visual summaries generated automatically.",
-      icon: "📊"
+      icon: "benchmarking"
     },
     {
       title: "Conversation Memory",
       description: "Context-aware responses that remember previous questions and build on them.",
-      icon: "🧠"
+      icon: "intelligence"
     }
   ];
 
-  const whoItsFor = [
+  const whoItsFor: { icon: SundaeIconName; title: string; description: string }[] = [
     {
-      icon: "👔",
+      icon: "owners",
       title: "C-Suite Executives",
       description: "Make decisions with live answers, not month-end decks"
     },
     {
-      icon: "📊",
+      icon: "benchmarking",
       title: "Strategy & Planning",
       description: "Test hypotheses instantly without waiting for analysts"
     },
     {
-      icon: "💼",
+      icon: "technology",
       title: "Data & BI Teams",
       description: "Scale insights across teams with self-service AI"
     }
   ];
 
-  const howItWorks = [
+  const howItWorks: { step: number; title: string; description: string; icon: SundaeIconName }[] = [
     {
       step: 1,
       title: "Connect your data",
       description: "Sundae automatically integrates with your POS, labor, inventory, and operational systems.",
-      icon: "🔌"
+      icon: "integration"
     },
     {
       step: 2,
       title: "Ask your question",
       description: "Type or speak naturally — like asking a colleague who knows everything about your business.",
-      icon: "❓"
+      icon: "search"
     },
     {
       step: 3,
       title: "Act on the answer",
       description: "Get instant visual insights with AI-generated context, ready to inform your next decision.",
-      icon: "⚡"
+      icon: "speed"
     }
   ];
 
@@ -313,7 +314,9 @@ export default function NexusPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {whoItsFor.map((persona, index) => (
               <Card key={index} variant="elevated" className="text-center p-6">
-                <div className="text-4xl mb-3">{persona.icon}</div>
+                <div className="w-12 h-12 mx-auto mb-3 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center">
+                  <SundaeIcon name={persona.icon} size="lg" className="text-white" />
+                </div>
                 <h3 className="font-semibold text-gray-900 mb-2">{persona.title}</h3>
                 <p className="text-sm text-gray-600 font-medium">{persona.description}</p>
               </Card>
@@ -339,8 +342,8 @@ export default function NexusPage() {
               <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
                 <CardHeader>
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0">
-                      {capability.icon}
+                    <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center text-white flex-shrink-0">
+                      <SundaeIcon name={capability.icon} size="lg" className="text-white" />
                     </div>
                     <div>
                       <CardTitle className="text-gray-900 mb-2">{capability.title}</CardTitle>
@@ -385,7 +388,9 @@ export default function NexusPage() {
                     {step.step}
                   </div>
                 </div>
-                <div className="text-3xl mb-4">{step.icon}</div>
+                <div className="w-12 h-12 mx-auto mb-4 bg-blue-100 rounded-lg flex items-center justify-center">
+                  <SundaeIcon name={step.icon} size="lg" className="text-blue-600" />
+                </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">{step.title}</h3>
                 <p className="text-gray-600">{step.description}</p>
               </div>
