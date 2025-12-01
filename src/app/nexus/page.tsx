@@ -128,7 +128,7 @@ export default function NexusPage() {
                 transition={{ duration: 0.5, delay: 0.1 }}
                 className="hero-h1 text-gray-900 mb-6"
               >
-                The Fastest Way to Talk to Your Business
+                Ask a Question. Get the Answer.
               </motion.h1>
               
               <motion.p
@@ -137,7 +137,7 @@ export default function NexusPage() {
                 transition={{ duration: 0.5, delay: 0.2 }}
                 className="body-xl text-gray-600 mb-4"
               >
-                Sundae Nexus brings every data source into a single conversational window. Ask about sales, labor, covers, or margins — all in natural language.
+                Skip the dashboards. Ask about sales, labor, covers, or margins in plain English — and get instant answers with context.
               </motion.p>
 
               <motion.p
@@ -146,7 +146,7 @@ export default function NexusPage() {
                 transition={{ duration: 0.5, delay: 0.25 }}
                 className="body-sm text-gray-500 mb-6"
               >
-                Part of Sundae, the first AI decision intelligence platform for restaurants and hospitality.
+                Powered by Sundae's decision intelligence platform.
               </motion.p>
 
               <motion.p
@@ -155,7 +155,7 @@ export default function NexusPage() {
                 transition={{ duration: 0.5, delay: 0.3 }}
                 className="body-base text-blue-700 mb-8 bg-blue-50 p-4 rounded-lg border border-blue-100"
               >
-                <strong>Nexus understands restaurant language</strong> — locations, dayparts, covers, channels, and categories — so you can talk like an operator, not a data analyst.
+                <strong>Nexus speaks restaurant.</strong> Locations, dayparts, covers, channels, categories — talk like an operator, not a data analyst.
               </motion.p>
               
               <motion.div
@@ -165,7 +165,7 @@ export default function NexusPage() {
                 className="body-lg text-gray-600 mb-8"
               >
                 <p className="font-semibold text-gray-900 body-xl">
-                  No dashboards. No SQL. No waiting. Just chat, explore, and decide.
+                  No SQL. No waiting. Just ask, explore, decide.
                 </p>
               </motion.div>
 
@@ -283,7 +283,7 @@ export default function NexusPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
             <p className="text-gray-600 mb-6">
-              Trusted by leading restaurant groups across the Middle East and beyond
+              Trusted by operators who need answers, not reports
             </p>
             <div className="flex flex-wrap justify-center gap-8 text-sm text-gray-500">
               <div className="flex items-center space-x-2">
@@ -307,8 +307,8 @@ export default function NexusPage() {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="section-h3 text-gray-900 mb-2">Who It's For</h2>
-            <p className="text-gray-600">Built for leaders who need answers, not reports</p>
+            <h2 className="section-h3 text-gray-900 mb-2">Built for Decision Makers</h2>
+            <p className="text-gray-600">Get answers in seconds, not spreadsheets in days</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {whoItsFor.map((persona, index) => (
@@ -327,10 +327,10 @@ export default function NexusPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              Nexus Capabilities
+              What Makes Nexus Different
             </h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Everything you need to have a real conversation with your data
+              A real conversation with your data — not another dashboard
             </p>
           </div>
 
@@ -370,10 +370,10 @@ export default function NexusPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              How It Works
+              From Question to Answer in Seconds
             </h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Three simple steps to unlock instant insights
+              Connect your data. Ask your question. Act on the answer.
             </p>
           </div>
 
@@ -399,10 +399,10 @@ export default function NexusPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              Sample Questions
+              Questions You Can Ask Right Now
             </h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Here are the kinds of restaurant questions Nexus answers in seconds
+              Real questions. Instant answers. Zero SQL required.
             </p>
           </div>
 
@@ -438,10 +438,10 @@ export default function NexusPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 mb-6">
-            Start a Conversation With Your Data
+            Ready to Stop Waiting for Reports?
           </h2>
           <p className="body-xl mb-8 opacity-90">
-            Experience the speed and simplicity of Sundae Nexus. Book a demo to see it in action.
+            See how fast you can get answers when you just ask. Book a Nexus demo today.
           </p>
           <Link href="/demo">
             <Button variant="primary" size="lg" className="bg-white text-blue-600 hover:bg-gray-100">

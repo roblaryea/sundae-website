@@ -32,12 +32,12 @@ export default function PricingPage() {
             className="text-center mb-12"
           >
             <h1 className="hero-h1 text-gray-900 dark:text-white mb-6">
-              Simple, Scalable
+              Pricing That Scales
               <br />
-              <span className="text-gradient">Restaurant Intelligence</span>
+              <span className="text-gradient">With Your Business</span>
             </h1>
             <p className="body-lg text-gray-700 dark:text-gray-300 mb-10 max-w-3xl mx-auto">
-              Choose the plan that fits your restaurant group's needs. Transparent, scalable, no hidden fees.
+              Transparent pricing. No hidden fees. Start free, scale as you grow.
             </p>
             
             {/* Billing Toggle */}
@@ -88,7 +88,7 @@ export default function PricingPage() {
                     </div>
                     <CardTitle className="section-h2 text-gray-900 dark:text-white mb-3">Sundae Report</CardTitle>
                     <CardDescription className="body-lg text-gray-700 dark:text-gray-300">
-                      Benchmarking-only intelligence to understand your restaurant's performance
+                      See where you stand. Free benchmarking against similar restaurants.
                     </CardDescription>
                   </div>
                   <div className="text-right">
@@ -159,7 +159,7 @@ export default function PricingPage() {
           <div className="text-center mb-12">
             <h2 className="section-h2 text-gray-900 dark:text-white mb-4">Sundae Core</h2>
             <p className="body-lg text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
-              Full decision intelligence platform for growing restaurant groups
+              The complete decision intelligence platform. Everything you need to run smarter.
             </p>
           </div>
 
@@ -305,9 +305,9 @@ export default function PricingPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-50/30 dark:from-gray-900 dark:to-deep-blue/5">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="section-h2 text-gray-900 dark:text-white mb-4">Add-Ons</h2>
+            <h2 className="section-h2 text-gray-900 dark:text-white mb-4">Power-Ups</h2>
             <p className="body-lg text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
-              Enhance your intelligence with premium features
+              Add capabilities when you need them
             </p>
           </div>
 
@@ -389,10 +389,10 @@ export default function PricingPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-gray-900">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 text-gray-900 dark:text-white mb-6">
-            Custom Solutions
+            Need Something Custom?
           </h2>
           <p className="body-lg text-gray-700 dark:text-gray-300 mb-12">
-            For unique requirements, we offer tailored solutions
+            We build solutions for unique requirements
           </p>
           
           <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -429,10 +429,10 @@ export default function PricingPage() {
           >
             <div className="text-center mb-12">
               <h2 className="section-h2 text-gray-900 dark:text-white mb-4">
-                Frequently Asked Questions
+                Common Questions
               </h2>
               <p className="body-lg text-gray-700 dark:text-gray-300">
-                Everything you need to know about Sundae pricing
+                Clear answers. No fine print.
               </p>
             </div>
 
@@ -484,10 +484,10 @@ export default function PricingPage() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="section-h2 text-white mb-8">
-              Ready to Get Started?
+              Ready to See the Difference?
             </h2>
             <p className="body-lg text-white mb-12 font-medium">
-              Join hundreds of restaurants already using Sundae to make smarter decisions
+              Join operators who've moved from guessing to knowing
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
