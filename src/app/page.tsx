@@ -55,7 +55,7 @@ export default function Home() {
     {
       name: "Sundae Report",
       subtitle: "Free benchmarking in minutes",
-      description: "Know exactly where you stand. Upload your data and get instant, apples-to-apples comparisons across sales, labour, COGS, and operations with similar restaurants in your market.",
+      description: "See exactly where you stand. Upload your data and get instant comparisons on sales, labour, COGS, and operational performance against similar restaurants in your market.",
       icon: "report",
       color: "from-blue-500 to-blue-600",
       link: "/report"
@@ -63,7 +63,7 @@ export default function Home() {
     {
       name: "Sundae Nexus",
       subtitle: "Ask questions, get answers",
-      description: "Skip the spreadsheets. Ask questions like 'Which locations grew fastest last weekend?' and get instant, AI-powered answers — complete with context.",
+      description: "Skip the spreadsheets. Ask questions like 'Which locations grew fastest last weekend?' and get instant, AI-powered answers — with context.",
       icon: "nexus",
       color: "from-purple-500 to-purple-600",
       link: "/nexus"
@@ -71,7 +71,7 @@ export default function Home() {
     {
       name: "Sundae Insights",
       subtitle: "Context that explains the why",
-      description: "See what's really driving your numbers. Insights connects your performance to weather, local events, competitor movement, and market shifts — automatically.",
+      description: "Understand what's actually driving your numbers. Connect performance to weather, local events, and market shifts — automatically.",
       icon: "insights",
       color: "from-green-500 to-green-600",
       link: "/insights"
@@ -79,7 +79,7 @@ export default function Home() {
     {
       name: "Sundae Canvas",
       subtitle: "Dashboards that work for everyone",
-      description: "One source of truth. Clear, aligned dashboards for execs, ops, and finance — always current, always synced, always actionable.",
+      description: "One source of truth. Clear dashboards for execs, ops, and finance — always current, always aligned, always actionable.",
       icon: "canvas",
       color: "from-orange-500 to-orange-600",
       link: "/canvas"
@@ -179,7 +179,7 @@ export default function Home() {
               Sleek. Clear. Uncompromising. Sundae shows you your entire business in 4D — instantly.
             </p>
             <p className="body-lg text-gray-500 mb-4 max-w-3xl mx-auto">
-              All your data streams. One platform. Zero guesswork. Sundae reads your operation, benchmarks your performance, predicts what's coming, and tells you exactly what to do next.
+              All your data streams. One platform. Zero guesswork. Sundae analyzes your operation, benchmarks your performance, predicts what's coming, and tells your team exactly what to do next.
             </p>
             <p className="body-base text-gray-500 mb-8 max-w-3xl mx-auto">
               Powered by <span className="font-semibold text-blue-600">Report</span>, <span className="font-semibold text-purple-600">Nexus</span>, <span className="font-semibold text-green-600">Insights</span>, and <span className="font-semibold text-orange-600">Canvas</span> — the complete intelligence stack for modern hospitality.
@@ -284,11 +284,8 @@ export default function Home() {
             <h2 id="value-prop-heading" className="section-h2 text-gray-900 dark:text-white mb-4">
               Your Restaurant, Finally Understandable
             </h2>
-            <p className="body-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-2">
-              A single source of truth for everything that matters: operations, sales, costs, labour, inventory, guest behaviour, and brand health.
-            </p>
-            <p className="body-base text-gray-500 dark:text-gray-400">
-              Built for leaders who want clarity, not dashboards.
+            <p className="body-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+              A single source of truth for everything that matters — operations, sales, costs, labour, inventory, guest behaviour, and brand health. Built for leaders who want clarity, not dashboards.
             </p>
           </div>
         </div>
@@ -319,7 +316,7 @@ export default function Home() {
             <div className="rounded-2xl border border-slate-200/70 dark:border-slate-800 bg-slate-50/70 dark:bg-slate-900/70 shadow-sm p-4 sm:p-5">
               <h3 className="text-base font-semibold text-slate-900 dark:text-slate-50">AI-Native From Day One</h3>
               <p className="mt-2 text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
-                Built to think like an operator, not a spreadsheet.
+                Built to think like an operator — not a spreadsheet.
               </p>
             </div>
 
@@ -911,7 +908,7 @@ export default function Home() {
             See Sundae in action →
           </h2>
           <p className="body-lg text-gray-600 mb-8 max-w-3xl mx-auto">
-            A 15-minute walkthrough that changes how your team runs the business.
+            A 15-minute walkthrough that changes how you run your business.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
             <Button 
