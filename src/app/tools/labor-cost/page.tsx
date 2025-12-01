@@ -80,37 +80,41 @@ export default function LaborCostCalculator() {
             </CardHeader>
             <CardContent className="space-y-6">
               <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label htmlFor="laborCost" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                   Total Labor Cost
                 </label>
                 <input
                   type="number"
+                  id="laborCost"
                   value={laborCost}
                   onChange={(e) => setLaborCost(e.target.value)}
                   placeholder="e.g., 25000"
+                  aria-describedby="laborCost-hint"
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-electric-blue focus:border-transparent"
                   min="0"
                   step="0.01"
                 />
-                <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
+                <p id="laborCost-hint" className="text-xs text-gray-500 dark:text-gray-400 mt-1">
                   Total wages, benefits, and payroll taxes
                 </p>
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label htmlFor="totalSales" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                   Total Sales
                 </label>
                 <input
                   type="number"
+                  id="totalSales"
                   value={totalSales}
                   onChange={(e) => setTotalSales(e.target.value)}
                   placeholder="e.g., 100000"
+                  aria-describedby="totalSales-hint"
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-electric-blue focus:border-transparent"
                   min="0"
                   step="0.01"
                 />
-                <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
+                <p id="totalSales-hint" className="text-xs text-gray-500 dark:text-gray-400 mt-1">
                   Total revenue for the same period
                 </p>
               </div>
