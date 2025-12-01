@@ -120,9 +120,9 @@ export default function Home() {
       <section className="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-br from-blue-50/80 via-purple-50/30 to-blue-50/60">
         <div className="absolute inset-0 gradient-mesh opacity-10"></div>
         
-        {/* Animated Floating Orb with Enhanced Glow */}
+        {/* Animated Floating Orb with Enhanced Glow - Desktop only, far right */}
         <motion.div
-          className="absolute top-20 right-20 lg:top-32 lg:right-32 z-10 hidden md:block"
+          className="absolute top-24 right-8 xl:top-28 xl:right-16 2xl:right-24 z-10 hidden xl:block pointer-events-none"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ 
             opacity: 1, 
@@ -140,14 +140,14 @@ export default function Home() {
           <motion.div
             animate={{ scale: [1, 1.05, 1] }}
             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-            className="relative"
+            className="relative w-28 h-28 xl:w-32 xl:h-32"
           >
             <Image
               src="/logos/sundae-orb.png"
               alt="Sundae Orb"
-              width={140}
-              height={140}
-              className="drop-shadow-2xl"
+              width={128}
+              height={128}
+              className="drop-shadow-2xl w-full h-full object-contain"
               priority
             />
             <motion.div 
@@ -194,31 +194,31 @@ export default function Home() {
           </motion.div>
         </div>
         
-        {/* Modern Animated Insight Cards with Pill Style */}
+        {/* Modern Animated Insight Cards - Desktop only, positioned to avoid text */}
         <motion.div 
-          className="absolute top-24 left-10 hidden lg:block"
+          className="absolute top-20 left-4 xl:top-24 xl:left-8 2xl:left-12 hidden xl:block pointer-events-none"
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
         >
           <motion.div 
-            className="glass rounded-2xl shadow-xl p-4 border border-white/20 backdrop-blur-sm"
+            className="glass rounded-2xl shadow-xl p-3 border border-white/20 backdrop-blur-sm max-w-[180px]"
             animate={{ y: [0, -8, 0] }}
             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
           >
             <div className="text-xs font-medium text-gray-600 uppercase tracking-wide mb-1">Labor Cost Alert</div>
-            <div className="text-xl font-bold text-critical">+12% vs Benchmark</div>
+            <div className="text-lg font-bold text-critical">+12% vs Benchmark</div>
           </motion.div>
         </motion.div>
         
         <motion.div 
-          className="absolute top-48 right-24 hidden lg:block"
+          className="absolute top-56 right-4 xl:top-64 xl:right-8 2xl:right-12 hidden xl:block pointer-events-none"
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.7 }}
         >
           <motion.div 
-            className="glass rounded-2xl shadow-xl p-4 border border-white/20 backdrop-blur-sm"
+            className="glass rounded-2xl shadow-xl p-3 border border-white/20 backdrop-blur-sm max-w-[180px]"
             animate={{ 
               y: [0, -10, 0],
               boxShadow: ['0 10px 30px rgba(59, 130, 246, 0.2)', '0 15px 40px rgba(59, 130, 246, 0.4)', '0 10px 30px rgba(59, 130, 246, 0.2)']
@@ -229,7 +229,7 @@ export default function Home() {
             }}
           >
             <div className="text-xs font-medium text-gray-600 uppercase tracking-wide mb-1">Sales Trend</div>
-            <div className="text-xl font-bold text-positive flex items-center">
+            <div className="text-lg font-bold text-positive flex items-center">
               <span className="mr-2">↑</span>
               <span>8% This Week</span>
             </div>
@@ -237,18 +237,18 @@ export default function Home() {
         </motion.div>
         
         <motion.div 
-          className="absolute bottom-32 left-1/4 hidden xl:block"
+          className="absolute bottom-24 left-8 xl:bottom-28 xl:left-12 hidden 2xl:block pointer-events-none"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.9 }}
         >
           <motion.div 
-            className="inline-flex items-center space-x-2 bg-electric-blue/90 backdrop-blur-sm text-white px-4 py-2 rounded-full shadow-lg border border-white/20"
+            className="inline-flex items-center space-x-2 bg-electric-blue/90 backdrop-blur-sm text-white px-3 py-2 rounded-full shadow-lg border border-white/20 max-w-[240px]"
             animate={{ y: [0, -6, 0] }}
             transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 2 }}
           >
             <span className="text-sm font-medium">Staffing Optimization</span>
-            <span className="text-lg font-bold">-3 Hours Needed</span>
+            <span className="text-base font-bold">-3 Hours</span>
           </motion.div>
         </motion.div>
         
