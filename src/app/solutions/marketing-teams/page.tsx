@@ -100,7 +100,9 @@ export default function MarketingTeamsPage() {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="hero-h1 text-gray-900 mb-6"
             >
-              Marketing Intelligence That Actually Converts
+              See What's Working.
+              <br />
+              <span className="text-gradient">Cut What's Not.</span>
             </motion.h1>
             
             <motion.p
@@ -109,7 +111,7 @@ export default function MarketingTeamsPage() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="body-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed"
             >
-              Stop guessing at campaign performance. Sundae connects your marketing efforts directly to restaurant sales, giving you real-time attribution, location-level insights, and the data you need to prove ROI—all in one platform.
+              Connect campaigns to revenue. Get location-level attribution. Prove ROI with real data.
             </motion.p>
 
             <motion.div
@@ -136,9 +138,9 @@ export default function MarketingTeamsPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">Key Challenges</h2>
+            <h2 className="section-h2 text-gray-900 mb-4">The Problems You Know</h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Marketing teams struggle to connect campaigns to actual restaurant performance
+              Attribution blind spots. Siloed data. Slow feedback loops.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -164,9 +166,9 @@ export default function MarketingTeamsPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-slate-800/50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">How Sundae Helps</h2>
+            <h2 className="section-h2 text-gray-900 mb-4">How Sundae Changes That</h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Built for marketing teams who need real attribution and actionable insights
+              Real-time attribution and location-level performance
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -193,9 +195,9 @@ export default function MarketingTeamsPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">What You Can Achieve</h2>
+            <h2 className="section-h2 text-gray-900 mb-4">What Changes</h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Real outcomes for marketing teams using Sundae
+              Smarter spend. Faster optimization. Provable ROI.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -220,9 +222,9 @@ export default function MarketingTeamsPage() {
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 mb-6">Drive Measurable Marketing Impact</h2>
+          <h2 className="section-h2 mb-6">Ready to Prove ROI?</h2>
           <p className="body-xl mb-8 opacity-90">
-            See how marketing teams are using Sundae to connect campaigns to revenue, optimize spend, and prove ROI across their restaurant portfolio.
+            See how marketing teams connect campaigns to revenue.
           </p>
           <Link href="/demo">
             <Button variant="primary" size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
