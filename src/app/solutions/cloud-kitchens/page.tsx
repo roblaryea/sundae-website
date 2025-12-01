@@ -1,41 +1,42 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
+import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 
 export default function CloudKitchensPage() {
-  const challenges = [
+  const challenges: { title: string; description: string; icon: SundaeIconName }[] = [
     {
       title: "Multi-Brand Data Complexity",
       description: "Managing data across multiple virtual brands from a single kitchen location.",
-      icon: "📊"
+      icon: "benchmarking"
     },
     {
       title: "Delivery Performance Optimization",
       description: "Understanding delivery metrics and optimizing for multiple delivery platforms.",
-      icon: "🚚"
+      icon: "speed"
     },
     {
       title: "Cost Allocation Across Brands",
       description: "Accurately tracking costs and profitability for each virtual brand.",
-      icon: "💰"
+      icon: "finance"
     }
   ];
 
-  const solutions = [
+  const solutions: { title: string; description: string; icon: SundaeIconName }[] = [
     {
       title: "Multi-Brand Intelligence",
       description: "Separate analytics and insights for each virtual brand operating from your kitchen.",
-      icon: "🔍"
+      icon: "search"
     },
     {
       title: "Delivery Platform Integration",
       description: "Unified view of performance across Uber Eats, DoorDash, Grubhub, and other platforms.",
-      icon: "🔗"
+      icon: "integration"
     },
     {
       title: "Brand-Specific Benchmarking",
       description: "Compare each virtual brand's performance against similar concepts in your market.",
-      icon: "📈"
+      icon: "report"
     }
   ];
 
@@ -87,7 +88,9 @@ export default function CloudKitchensPage() {
             {challenges.map((challenge, index) => (
               <Card key={index} variant="elevated" className="text-center">
                 <CardHeader>
-                  <div className="text-4xl mb-4">{challenge.icon}</div>
+                  <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center">
+                    <SundaeIcon name={challenge.icon} size="xl" className="text-white" />
+                  </div>
                   <CardTitle className="text-gray-900 dark:text-white">{challenge.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -117,7 +120,9 @@ export default function CloudKitchensPage() {
             {solutions.map((solution, index) => (
               <Card key={index} variant="elevated" className="text-center">
                 <CardHeader>
-                  <div className="text-4xl mb-4">{solution.icon}</div>
+                  <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center">
+                    <SundaeIcon name={solution.icon} size="xl" className="text-white" />
+                  </div>
                   <CardTitle className="text-gray-900 dark:text-white">{solution.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -149,21 +154,23 @@ export default function CloudKitchensPage() {
                 {
                   title: "Delivery Platform Analytics",
                   description: "Track performance across Uber Eats, DoorDash, Grubhub, and other platforms in one dashboard.",
-                  icon: "📊"
+                  icon: "canvas" as SundaeIconName
                 },
                 {
                   title: "Virtual Brand Performance",
                   description: "Monitor KPIs for each brand concept operating from your kitchen with separate analytics.",
-                  icon: "🏷️"
+                  icon: "owners" as SundaeIconName
                 },
                 {
                   title: "Delivery Time Optimization",
                   description: "Analyze prep times, delivery times, and customer satisfaction to optimize operations.",
-                  icon: "⏱️"
+                  icon: "time" as SundaeIconName
                 }
               ].map((feature, index) => (
                 <div key={index} className="flex items-start space-x-4">
-                  <div className="text-2xl mt-1">{feature.icon}</div>
+                  <div className="w-10 h-10 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                    <SundaeIcon name={feature.icon} size="md" className="text-white" />
+                  </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">{feature.title}</h3>
                     <p className="text-gray-600 dark:text-slate-300">{feature.description}</p>
@@ -174,7 +181,9 @@ export default function CloudKitchensPage() {
             
             <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8">
               <div className="text-center mb-6">
-                <div className="text-6xl mb-4">📈</div>
+                <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                  <SundaeIcon name="growth" size="xl" className="text-white" />
+                </div>
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Multi-Brand Performance</h3>
               </div>
               

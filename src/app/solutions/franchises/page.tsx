@@ -4,78 +4,79 @@ import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/Card";
 import { motion } from "framer-motion";
+import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 
 export default function FranchisesPage() {
-  const challenges = [
+  const challenges: { title: string; description: string; icon: SundaeIconName }[] = [
     {
       title: "Franchisee Performance Variability",
       description: "Wide performance gaps between franchisees with no clear way to identify and address underperformance early.",
-      icon: "📊"
+      icon: "benchmarking"
     },
     {
       title: "Brand Consistency Challenges",
       description: "Ensuring quality, service standards, and operational compliance across independently owned locations.",
-      icon: "🏷️"
+      icon: "owners"
     },
     {
       title: "Data Fragmentation",
       description: "Each franchisee may use different systems, making network-wide insights nearly impossible.",
-      icon: "🔗"
+      icon: "integration"
     },
     {
       title: "Support & Training Gaps",
       description: "Identifying which franchisees need help and what kind of support will actually move the needle.",
-      icon: "🎯"
+      icon: "marketing"
     }
   ];
 
-  const howSundaeHelps = [
+  const howSundaeHelps: { title: string; description: string; product: string; icon: SundaeIconName }[] = [
     {
       title: "Network-Wide Visibility",
       description: "Sundae Canvas unifies data from all franchisees into one dashboard, giving you real-time visibility into every location's performance.",
       product: "Sundae Canvas",
-      icon: "🌐"
+      icon: "canvas"
     },
     {
       title: "Automated Performance Alerts",
       description: "Sundae Insights flags underperforming franchisees and identifies the specific areas needing attention before issues escalate.",
       product: "Sundae Insights",
-      icon: "🚨"
+      icon: "alerts"
     },
     {
       title: "Benchmarking & Best Practices",
       description: "Sundae Report shows each franchisee how they compare to network leaders, creating healthy competition and clear improvement targets.",
       product: "Sundae Report",
-      icon: "📈"
+      icon: "report"
     },
     {
       title: "Conversational Support",
       description: "Ask Sundae Nexus 'Which franchisees have the highest labor variance?' and get instant answers to guide your support efforts.",
       product: "Sundae Nexus",
-      icon: "💬"
+      icon: "nexus"
     }
   ];
 
-  const outcomes = [
+  const outcomes: { title: string; description: string; icon: SundaeIconName }[] = [
     {
       title: "15-20% improvement in underperforming franchisees",
       description: "Identify issues early and provide targeted support to lift lagging locations",
-      icon: "📈"
+      icon: "growth"
     },
     {
       title: "Better franchisee relationships",
       description: "Use data to have constructive conversations and provide value-added support",
-      icon: "🤝"
+      icon: "support"
     },
     {
       title: "Faster network growth",
       description: "Attract new franchisees by demonstrating your data-driven support system",
-      icon: "🚀"
+      icon: "speed"
     },
     {
       title: "Reduced brand risk",
       description: "Catch compliance and quality issues before they impact your reputation",
-      icon: "🛡️"
+      icon: "success"
     }
   ];
 
@@ -153,8 +154,8 @@ export default function FranchisesPage() {
               <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
                 <CardHeader>
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0">
-                      {challenge.icon}
+                    <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center text-white flex-shrink-0">
+                      <SundaeIcon name={challenge.icon} size="lg" className="text-white" />
                     </div>
                     <div>
                       <CardTitle className="text-gray-900 mb-2">{challenge.title}</CardTitle>
@@ -187,8 +188,8 @@ export default function FranchisesPage() {
               <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
                 <CardHeader>
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0">
-                      {item.icon}
+                    <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center text-white flex-shrink-0">
+                      <SundaeIcon name={item.icon} size="lg" className="text-white" />
                     </div>
                     <div>
                       <div className="text-xs text-blue-600 font-semibold mb-1">{item.product}</div>
@@ -222,8 +223,8 @@ export default function FranchisesPage() {
               <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
                 <CardHeader>
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0">
-                      {outcome.icon}
+                    <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center text-white flex-shrink-0">
+                      <SundaeIcon name={outcome.icon} size="lg" className="text-white" />
                     </div>
                     <div>
                       <CardTitle className="text-gray-900 mb-2">{outcome.title}</CardTitle>

@@ -4,78 +4,79 @@ import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/Card";
 import { motion } from "framer-motion";
+import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 
 export default function RegionalManagersPage() {
-  const challenges = [
+  const challenges: { title: string; description: string; icon: SundaeIconName }[] = [
     {
       title: "Limited Visibility Across Locations",
       description: "You're responsible for multiple sites but lack real-time visibility into what's happening at each one.",
-      icon: "👁️"
+      icon: "watchtower"
     },
     {
       title: "Firefighting Mode",
       description: "Spending more time reacting to problems than preventing them or driving strategic improvements.",
-      icon: "🔥"
+      icon: "alerts"
     },
     {
       title: "Inconsistent Performance",
       description: "Some locations excel while others lag, but you don't have clear data on why or how to fix it.",
-      icon: "📊"
+      icon: "benchmarking"
     },
     {
       title: "Time-Consuming Site Visits",
       description: "Physical visits are the only way to understand what's really happening, leaving little time for strategy.",
-      icon: "🚗"
+      icon: "time"
     }
   ];
 
-  const howSundaeHelps = [
+  const howSundaeHelps: { title: string; description: string; product: string; icon: SundaeIconName }[] = [
     {
       title: "Real-Time Regional Dashboard",
       description: "Sundae Canvas gives you a single view of all your locations—sales, labor, margins, and operations—updated in real time.",
       product: "Sundae Canvas",
-      icon: "📊"
+      icon: "canvas"
     },
     {
       title: "Proactive Alerts",
       description: "Sundae Insights flags issues before they become problems, letting you intervene early and coach more effectively.",
       product: "Sundae Insights",
-      icon: "🚨"
+      icon: "insights"
     },
     {
       title: "Instant Answers",
       description: "Ask Sundae Nexus 'Which locations are trending up this week?' or 'Where is labor variance highest?' and get immediate, data-backed answers.",
       product: "Sundae Nexus",
-      icon: "💬"
+      icon: "nexus"
     },
     {
       title: "Performance Benchmarking",
       description: "Sundae Report shows how each location compares to your regional average and top performers, making coaching conversations data-driven.",
       product: "Sundae Report",
-      icon: "📈"
+      icon: "report"
     }
   ];
 
-  const outcomes = [
+  const outcomes: { title: string; description: string; icon: SundaeIconName }[] = [
     {
       title: "Spend less time firefighting",
       description: "Catch issues early with automated alerts and focus on strategic improvement",
-      icon: "⚡"
+      icon: "speed"
     },
     {
       title: "More effective site visits",
       description: "Arrive with data-backed insights and have more productive conversations with GMs",
-      icon: "🎯"
+      icon: "marketing"
     },
     {
       title: "Lift underperforming locations faster",
       description: "Identify gaps quickly and replicate best practices across your region",
-      icon: "📈"
+      icon: "growth"
     },
     {
       title: "Better work-life balance",
       description: "Manage your region from anywhere with mobile access to all key metrics",
-      icon: "⚖️"
+      icon: "balance"
     }
   ];
 
@@ -148,8 +149,8 @@ export default function RegionalManagersPage() {
               <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
                 <CardHeader>
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0">
-                      {challenge.icon}
+                    <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center text-white flex-shrink-0">
+                      <SundaeIcon name={challenge.icon} size="lg" className="text-white" />
                     </div>
                     <div>
                       <CardTitle className="text-gray-900 mb-2">{challenge.title}</CardTitle>
@@ -176,8 +177,8 @@ export default function RegionalManagersPage() {
               <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
                 <CardHeader>
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0">
-                      {item.icon}
+                    <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center text-white flex-shrink-0">
+                      <SundaeIcon name={item.icon} size="lg" className="text-white" />
                     </div>
                     <div>
                       <div className="text-xs text-blue-600 font-semibold mb-1">{item.product}</div>
@@ -205,8 +206,8 @@ export default function RegionalManagersPage() {
               <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
                 <CardHeader>
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0">
-                      {outcome.icon}
+                    <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center text-white flex-shrink-0">
+                      <SundaeIcon name={outcome.icon} size="lg" className="text-white" />
                     </div>
                     <div>
                       <CardTitle className="text-gray-900 mb-2">{outcome.title}</CardTitle>

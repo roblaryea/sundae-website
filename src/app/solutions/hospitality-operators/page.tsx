@@ -4,78 +4,79 @@ import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/Card";
 import { motion } from "framer-motion";
+import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 
 export default function HospitalityOperatorsPage() {
-  const challenges = [
+  const challenges: { title: string; description: string; icon: SundaeIconName }[] = [
     {
       title: "Complex Multi-Concept Operations",
       description: "Managing restaurants, bars, hotels, and catering under one roof with different metrics and KPIs for each.",
-      icon: "🏨"
+      icon: "multiLocation"
     },
     {
       title: "Seasonality & Demand Fluctuations",
       description: "Revenue swings based on tourism, events, and seasons make forecasting and staffing difficult.",
-      icon: "📊"
+      icon: "benchmarking"
     },
     {
       title: "Guest Experience Consistency",
       description: "Maintaining service quality across multiple touchpoints—dining, room service, events, and more.",
-      icon: "⭐"
+      icon: "success"
     },
     {
       title: "Integrated F&B and Rooms Operations",
       description: "Coordinating between restaurant operations, banquets, and hotel services without unified visibility.",
-      icon: "🔗"
+      icon: "integration"
     }
   ];
 
-  const howSundaeHelps = [
+  const howSundaeHelps: { title: string; description: string; product: string; icon: SundaeIconName }[] = [
     {
       title: "Unified Hospitality Dashboard",
       description: "Sundae Canvas consolidates F&B, rooms, events, and catering into one real-time view of your entire operation.",
       product: "Sundae Canvas",
-      icon: "🎯"
+      icon: "canvas"
     },
     {
       title: "Demand & Event Intelligence",
       description: "Sundae Insights correlates bookings, local events, weather, and tourism data to optimize staffing and inventory ahead of demand spikes.",
       product: "Sundae Insights",
-      icon: "📈"
+      icon: "insights"
     },
     {
       title: "Conversational Operations",
       description: "Ask Sundae Nexus 'What's driving the banquet revenue increase?' or 'Compare F&B performance across properties' for instant answers.",
       product: "Sundae Nexus",
-      icon: "💬"
+      icon: "nexus"
     },
     {
       title: "Hospitality Benchmarking",
       description: "Sundae Report compares your F&B and hospitality metrics against similar properties and market leaders.",
       product: "Sundae Report",
-      icon: "📊"
+      icon: "report"
     }
   ];
 
-  const outcomes = [
+  const outcomes: { title: string; description: string; icon: SundaeIconName }[] = [
     {
       title: "Better demand forecasting",
       description: "Predict high-demand periods and optimize staffing and inventory accordingly",
-      icon: "🎯"
+      icon: "forecasting"
     },
     {
       title: "10-15% improvement in F&B margins",
       description: "Reduce waste and optimize pricing across restaurant, banquet, and room service",
-      icon: "💰"
+      icon: "finance"
     },
     {
       title: "Enhanced guest experience",
       description: "Ensure consistent service quality across all touchpoints with real-time visibility",
-      icon: "⭐"
+      icon: "performance"
     },
     {
       title: "Unified multi-property view",
       description: "Manage multiple hotels or resorts from one intelligence platform",
-      icon: "🏨"
+      icon: "multiLocation"
     }
   ];
 
@@ -148,8 +149,8 @@ export default function HospitalityOperatorsPage() {
               <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
                 <CardHeader>
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0">
-                      {challenge.icon}
+                    <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center text-white flex-shrink-0">
+                      <SundaeIcon name={challenge.icon} size="lg" className="text-white" />
                     </div>
                     <div>
                       <CardTitle className="text-gray-900 mb-2">{challenge.title}</CardTitle>
@@ -176,8 +177,8 @@ export default function HospitalityOperatorsPage() {
               <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
                 <CardHeader>
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0">
-                      {item.icon}
+                    <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center text-white flex-shrink-0">
+                      <SundaeIcon name={item.icon} size="lg" className="text-white" />
                     </div>
                     <div>
                       <div className="text-xs text-blue-600 font-semibold mb-1">{item.product}</div>
@@ -205,8 +206,8 @@ export default function HospitalityOperatorsPage() {
               <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
                 <CardHeader>
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0">
-                      {outcome.icon}
+                    <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center text-white flex-shrink-0">
+                      <SundaeIcon name={outcome.icon} size="lg" className="text-white" />
                     </div>
                     <div>
                       <CardTitle className="text-gray-900 mb-2">{outcome.title}</CardTitle>
