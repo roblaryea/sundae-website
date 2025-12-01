@@ -2,28 +2,29 @@ import React from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
+import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 
 export default function WatchtowerPage() {
-  const features = [
+  const features: { title: string; description: string; icon: SundaeIconName }[] = [
     {
       title: "Market Intelligence",
       description: "Real-time monitoring of competitor pricing, menu changes, and market trends",
-      icon: "🏪"
+      icon: "multiLocation"
     },
     {
       title: "Economic Indicators",
       description: "Track local economic factors that impact restaurant performance",
-      icon: "📈"
+      icon: "growth"
     },
     {
       title: "Consumer Trends",
       description: "Monitor changing consumer preferences and dining behavior patterns",
-      icon: "👥"
+      icon: "owners"
     },
     {
       title: "Competitive Analysis",
       description: "Benchmark your performance against similar restaurants in your market",
-      icon: "⚖️"
+      icon: "balance"
     }
   ];
 
@@ -101,8 +102,8 @@ export default function WatchtowerPage() {
               <Card key={index} variant="elevated">
                 <CardHeader>
                   <div className="flex items-center space-x-4">
-                    <div className="w-12 h-12 bg-indigo-600 rounded-lg flex items-center justify-center text-white text-xl">
-                      {feature.icon}
+                    <div className="w-12 h-12 bg-indigo-600 rounded-lg flex items-center justify-center text-white">
+                      <SundaeIcon name={feature.icon} size="lg" className="text-white" />
                     </div>
                     <CardTitle className="text-gray-900 dark:text-white">{feature.title}</CardTitle>
                   </div>
@@ -275,14 +276,14 @@ export default function WatchtowerPage() {
               
               <div className="space-y-4">
                 {[
-                  { benefit: "Real-time competitor monitoring", icon: "👁️" },
-                  { benefit: "Market trend analysis", icon: "📊" },
-                  { benefit: "Consumer behavior insights", icon: "👥" },
-                  { benefit: "Economic impact assessment", icon: "💰" }
+                  { benefit: "Real-time competitor monitoring", icon: "watchtower" as SundaeIconName },
+                  { benefit: "Market trend analysis", icon: "benchmarking" as SundaeIconName },
+                  { benefit: "Consumer behavior insights", icon: "owners" as SundaeIconName },
+                  { benefit: "Economic impact assessment", icon: "finance" as SundaeIconName }
                 ].map((item, index) => (
                   <div key={index} className="flex items-center space-x-3">
-                    <div className="w-8 h-8 bg-indigo-100 rounded-full flex items-center justify-center text-indigo-600">
-                      {item.icon}
+                    <div className="w-8 h-8 bg-indigo-100 rounded-full flex items-center justify-center">
+                      <SundaeIcon name={item.icon} size="sm" className="text-indigo-600" />
                     </div>
                     <span className="text-gray-900 font-medium">{item.benefit}</span>
                   </div>
@@ -292,7 +293,9 @@ export default function WatchtowerPage() {
             
             <div className="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-8">
               <div className="text-center mb-6">
-                <div className="text-6xl mb-4">🏪</div>
+                <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-indigo-600 to-purple-600 rounded-lg flex items-center justify-center">
+                  <SundaeIcon name="watchtower" size="xl" className="text-white" />
+                </div>
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Market Intelligence Dashboard</h3>
               </div>
               

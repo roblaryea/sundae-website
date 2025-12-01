@@ -2,28 +2,29 @@ import React from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
+import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 
 export default function ForgePage() {
-  const features = [
+  const features: { title: string; description: string; icon: SundaeIconName }[] = [
     {
       title: "Natural Language Queries",
       description: "Ask questions in plain English and get instant insights from your restaurant data",
-      icon: "💬"
+      icon: "nexus"
     },
     {
       title: "Contextual Understanding",
       description: "AI understands restaurant terminology and business context for accurate responses",
-      icon: "🧠"
+      icon: "intelligence"
     },
     {
       title: "Multi-source Integration",
       description: "Pulls insights from all connected systems to provide comprehensive answers",
-      icon: "🔗"
+      icon: "integration"
     },
     {
       title: "Actionable Recommendations",
       description: "Get specific, data-driven recommendations to improve performance",
-      icon: "🎯"
+      icon: "marketing"
     }
   ];
 
@@ -96,8 +97,8 @@ export default function ForgePage() {
               <Card key={index} variant="elevated">
                 <CardHeader>
                   <div className="flex items-center space-x-4">
-                    <div className="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center text-white text-xl">
-                      {feature.icon}
+                    <div className="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center text-white">
+                      <SundaeIcon name={feature.icon} size="lg" className="text-white" />
                     </div>
                     <CardTitle className="text-gray-900 dark:text-white">{feature.title}</CardTitle>
                   </div>
@@ -237,14 +238,14 @@ export default function ForgePage() {
               
               <div className="space-y-4">
                 {[
-                  { benefit: "No technical skills required", icon: "👍" },
-                  { benefit: "Instant answers from all your data", icon: "⚡" },
-                  { benefit: "Natural conversation interface", icon: "💬" },
-                  { benefit: "Actionable recommendations", icon: "🎯" }
+                  { benefit: "No technical skills required", icon: "success" as SundaeIconName },
+                  { benefit: "Instant answers from all your data", icon: "speed" as SundaeIconName },
+                  { benefit: "Natural conversation interface", icon: "nexus" as SundaeIconName },
+                  { benefit: "Actionable recommendations", icon: "marketing" as SundaeIconName }
                 ].map((item, index) => (
                   <div key={index} className="flex items-center space-x-3">
-                    <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center text-green-600">
-                      {item.icon}
+                    <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
+                      <SundaeIcon name={item.icon} size="sm" className="text-green-600" />
                     </div>
                     <span className="text-gray-900 font-medium">{item.benefit}</span>
                   </div>
@@ -254,7 +255,9 @@ export default function ForgePage() {
             
             <div className="bg-white rounded-2xl p-8 shadow-lg">
               <div className="text-center mb-6">
-                <div className="text-6xl mb-4">💬</div>
+                <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-green-600 to-blue-600 rounded-lg flex items-center justify-center">
+                  <SundaeIcon name="forge" size="xl" className="text-white" />
+                </div>
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Forge Chat Interface</h3>
               </div>
               

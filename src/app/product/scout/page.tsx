@@ -2,28 +2,29 @@ import React from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
+import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 
 export default function ScoutPage() {
-  const features = [
+  const features: { title: string; description: string; icon: SundaeIconName }[] = [
     {
       title: "Universal API Integration",
       description: "Connect to 25+ restaurant systems including POS, HRIS, payroll, inventory, and market data sources",
-      icon: "🔗"
+      icon: "integration"
     },
     {
       title: "Real-time Data Sync",
       description: "Continuous synchronization ensures your intelligence layer always has the latest data",
-      icon: "⚡"
+      icon: "speed"
     },
     {
       title: "Data Quality Assurance",
       description: "Automated validation and cleansing to ensure accuracy and consistency across all sources",
-      icon: "✅"
+      icon: "success"
     },
     {
       title: "Scalable Architecture",
       description: "Handles enterprise-scale data volumes with sub-second response times",
-      icon: "📈"
+      icon: "growth"
     }
   ];
 
@@ -84,8 +85,8 @@ export default function ScoutPage() {
             {features.map((feature, index) => (
               <div key={index} className="rounded-2xl border border-gray-200 dark:border-slate-800 dark:border-slate-800 bg-white dark:bg-slate-900 p-6 shadow-sm hover:shadow-md transition">
                 <div className="flex items-start gap-4">
-                  <div className="h-12 w-12 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center text-white text-2xl flex-shrink-0">
-                    {feature.icon}
+                  <div className="h-12 w-12 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center text-white flex-shrink-0">
+                    <SundaeIcon name={feature.icon} size="lg" className="text-white" />
                   </div>
                   <div className="space-y-2">
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{feature.title}</h3>

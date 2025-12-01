@@ -1,28 +1,29 @@
 import React from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
+import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 
 export default function PulsePage() {
-  const features = [
+  const features: { title: string; description: string; icon: SundaeIconName }[] = [
     {
       title: "Real-time Anomaly Detection",
       description: "AI continuously monitors your data and alerts you to unusual patterns or performance deviations",
-      icon: "🚨"
+      icon: "alerts"
     },
     {
       title: "Predictive Alerts",
       description: "Get notified before problems impact your business with early warning systems",
-      icon: "⚠️"
+      icon: "forecasting"
     },
     {
       title: "Root Cause Analysis",
       description: "Understand why anomalies occur with automated investigation and suggested actions",
-      icon: "🔍"
+      icon: "search"
     },
     {
       title: "Smart Thresholds",
       description: "Dynamic baselines that adapt to your business patterns and seasonal variations",
-      icon: "📊"
+      icon: "benchmarking"
     }
   ];
 
@@ -99,8 +100,8 @@ export default function PulsePage() {
             {features.map((feature, index) => (
               <div key={index} className="rounded-2xl border border-gray-200 dark:border-slate-800 dark:border-slate-800 bg-white dark:bg-slate-900 p-6 shadow-sm hover:shadow-md transition">
                 <div className="flex items-start gap-4">
-                  <div className="h-12 w-12 rounded-xl bg-gradient-to-br from-red-500 to-orange-600 flex items-center justify-center text-white text-2xl flex-shrink-0">
-                    {feature.icon}
+                  <div className="h-12 w-12 rounded-xl bg-gradient-to-br from-red-500 to-orange-600 flex items-center justify-center text-white flex-shrink-0">
+                    <SundaeIcon name={feature.icon} size="lg" className="text-white" />
                   </div>
                   <div className="space-y-2">
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{feature.title}</h3>

@@ -1,53 +1,54 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
+import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 
 export default function SundaeReportPage() {
-  const benchmarkCategories = [
+  const benchmarkCategories: { name: string; metrics: string[]; icon: SundaeIconName; color: string }[] = [
     {
       name: "Sales Performance",
       metrics: ["Revenue per Square Foot", "Average Check Size", "Daily Transaction Count", "Peak Hour Analysis"],
-      icon: "💰",
+      icon: "finance",
       color: "bg-green-500"
     },
     {
       name: "Labor Efficiency",
       metrics: ["Labor Cost %", "Sales per Labor Hour", "Staff Productivity", "Overtime Trends"],
-      icon: "👥",
+      icon: "labor",
       color: "bg-blue-500"
     },
     {
       name: "Food Cost Management",
       metrics: ["Food Cost %", "Waste Percentage", "Inventory Turnover", "COGS Analysis"],
-      icon: "🍽️",
+      icon: "decrease",
       color: "bg-orange-500"
     },
     {
       name: "Operational Metrics",
       metrics: ["Table Turn Time", "Order Accuracy", "Customer Satisfaction", "Speed of Service"],
-      icon: "⚡",
+      icon: "speed",
       color: "bg-purple-500"
     }
   ];
 
-  const howItWorks = [
+  const howItWorks: { step: number; title: string; description: string; icon: SundaeIconName }[] = [
     {
       step: 1,
       title: "Upload Your Data",
       description: "Securely connect your POS system or upload sales, labor, and cost data",
-      icon: "📊"
+      icon: "benchmarking"
     },
     {
       step: 2,
       title: "AI Analysis",
       description: "Our algorithms compare your performance against similar restaurants",
-      icon: "🤖"
+      icon: "intelligence"
     },
     {
       step: 3,
       title: "Get Insights",
       description: "Receive actionable recommendations to improve your key metrics",
-      icon: "💡"
+      icon: "insights"
     }
   ];
 
@@ -120,8 +121,8 @@ export default function SundaeReportPage() {
               <Card key={category.name} variant="elevated" className="hover:scale-105 transition-transform duration-300">
                 <CardHeader>
                   <div className="flex items-center space-x-4">
-                    <div className={`w-12 h-12 ${category.color} rounded-lg flex items-center justify-center text-white text-xl`}>
-                      {category.icon}
+                    <div className={`w-12 h-12 ${category.color} rounded-lg flex items-center justify-center text-white`}>
+                      <SundaeIcon name={category.icon} size="lg" className="text-white" />
                     </div>
                     <CardTitle className="text-gray-900 dark:text-white">{category.name}</CardTitle>
                   </div>
@@ -158,8 +159,8 @@ export default function SundaeReportPage() {
             {howItWorks.map((step, index) => (
               <Card key={step.step} variant="elevated" className="text-center">
                 <CardHeader>
-                  <div className="w-16 h-16 bg-deep-blue rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-4">
-                    {step.icon}
+                  <div className="w-16 h-16 bg-deep-blue rounded-full flex items-center justify-center text-white mx-auto mb-4">
+                    <SundaeIcon name={step.icon} size="xl" className="text-white" />
                   </div>
                   <div className="text-sm text-blue-600 font-medium mb-2">Step {step.step}</div>
                   <CardTitle className="text-gray-900 dark:text-white">{step.title}</CardTitle>
@@ -230,17 +231,23 @@ export default function SundaeReportPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div className="text-center">
-              <div className="text-3xl mb-2">🎯</div>
+              <div className="w-12 h-12 mx-auto mb-2 bg-white/20 rounded-lg flex items-center justify-center">
+                <SundaeIcon name="marketing" size="lg" className="text-white" />
+              </div>
               <h3 className="font-semibold mb-2">Identify Opportunities</h3>
               <p className="text-sm opacity-90">Spot areas where you can improve immediately</p>
             </div>
             <div className="text-center">
-              <div className="text-3xl mb-2">📊</div>
+              <div className="w-12 h-12 mx-auto mb-2 bg-white/20 rounded-lg flex items-center justify-center">
+                <SundaeIcon name="benchmarking" size="lg" className="text-white" />
+              </div>
               <h3 className="font-semibold mb-2">Benchmark Performance</h3>
               <p className="text-sm opacity-90">See how you stack up against similar restaurants</p>
             </div>
             <div className="text-center">
-              <div className="text-3xl mb-2">💡</div>
+              <div className="w-12 h-12 mx-auto mb-2 bg-white/20 rounded-lg flex items-center justify-center">
+                <SundaeIcon name="insights" size="lg" className="text-white" />
+              </div>
               <h3 className="font-semibold mb-2">Get Actionable Insights</h3>
               <p className="text-sm opacity-90">Receive specific recommendations to improve</p>
             </div>

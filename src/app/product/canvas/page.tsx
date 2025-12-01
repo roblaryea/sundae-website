@@ -2,28 +2,29 @@ import React from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
+import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 
 export default function CanvasPage() {
-  const features = [
+  const features: { title: string; description: string; icon: SundaeIconName }[] = [
     {
       title: "Interactive Dashboards",
       description: "Drag-and-drop interface to create custom visualizations that tell your data story",
-      icon: "📊"
+      icon: "benchmarking"
     },
     {
       title: "Real-time Updates",
       description: "Live data streaming ensures your visualizations always show the latest metrics",
-      icon: "⚡"
+      icon: "speed"
     },
     {
       title: "Multi-location Views",
       description: "Compare performance across locations with unified dashboards and drill-down capabilities",
-      icon: "🗺️"
+      icon: "multiLocation"
     },
     {
       title: "Predictive Visualizations",
       description: "AI-powered trend lines and forecasting to see what's coming before it happens",
-      icon: "🔮"
+      icon: "forecasting"
     }
   ];
 
@@ -85,8 +86,8 @@ export default function CanvasPage() {
               <Card key={index} variant="elevated">
                 <CardHeader>
                   <div className="flex items-center space-x-4">
-                    <div className="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center text-white text-xl">
-                      {feature.icon}
+                    <div className="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center text-white">
+                      <SundaeIcon name={feature.icon} size="lg" className="text-white" />
                     </div>
                     <CardTitle className="text-gray-900 dark:text-white">{feature.title}</CardTitle>
                   </div>
@@ -148,14 +149,14 @@ export default function CanvasPage() {
               
               <div className="space-y-4">
                 {[
-                  { feature: "Drag-and-drop dashboard builder", icon: "🎯" },
-                  { feature: "Real-time data updates", icon: "⚡" },
-                  { feature: "Multi-location comparisons", icon: "📍" },
-                  { feature: "AI-powered insights", icon: "🤖" }
+                  { feature: "Drag-and-drop dashboard builder", icon: "marketing" as SundaeIconName },
+                  { feature: "Real-time data updates", icon: "speed" as SundaeIconName },
+                  { feature: "Multi-location comparisons", icon: "multiLocation" as SundaeIconName },
+                  { feature: "AI-powered insights", icon: "intelligence" as SundaeIconName }
                 ].map((item, index) => (
                   <div key={index} className="flex items-center space-x-3">
-                    <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center text-purple-600">
-                      {item.icon}
+                    <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center">
+                      <SundaeIcon name={item.icon} size="sm" className="text-purple-600" />
                     </div>
                     <span className="text-gray-900 font-medium">{item.feature}</span>
                   </div>
@@ -165,7 +166,9 @@ export default function CanvasPage() {
             
             <div className="bg-gradient-to-br from-purple-50 to-blue-50 rounded-2xl p-8">
               <div className="text-center mb-6">
-                <div className="text-6xl mb-4">📊</div>
+                <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
+                  <SundaeIcon name="canvas" size="xl" className="text-white" />
+                </div>
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Live Dashboard Preview</h3>
               </div>
               
