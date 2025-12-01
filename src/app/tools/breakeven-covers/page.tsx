@@ -58,7 +58,7 @@ export default function BreakEvenCalculator() {
             <div className="w-20 h-20 bg-gradient-to-br from-electric-blue to-deep-blue rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-6 shadow-lg">
               ⚖️
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+            <h1 className="section-h2 text-gray-900 dark:text-white mb-4">
               Break-Even Covers Calculator
             </h1>
             <p className="text-lg text-gray-600 dark:text-gray-400">

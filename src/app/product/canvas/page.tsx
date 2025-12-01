@@ -44,12 +44,12 @@ export default function CanvasPage() {
               <span>🎨</span>
               <span>Visualization Intelligence</span>
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+            <h1 className="hero-h1 text-gray-900 mb-6">
               Canvas: Data
               <br />
               <span className="text-purple-600">Visualization Intelligence</span>
             </h1>
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+            <p className="body-xl text-gray-600 mb-8 max-w-3xl mx-auto">
               Transform complex restaurant data into beautiful, interactive visualizations. 
               Canvas helps you see patterns, trends, and opportunities that numbers alone can't reveal.
             </p>
@@ -73,10 +73,10 @@ export default function CanvasPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               See Your Data Differently
             </h2>
-            <p className="text-xl text-gray-600">
+            <p className="body-xl text-gray-600">
               Canvas turns raw data into actionable visual insights
             </p>
           </div>
@@ -105,10 +105,10 @@ export default function CanvasPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               Built for Restaurant Data
             </h2>
-            <p className="text-xl text-gray-600">
+            <p className="body-xl text-gray-600">
               Pre-configured visualizations for every aspect of restaurant operations
             </p>
           </div>
@@ -140,10 +140,10 @@ export default function CanvasPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              <h2 className="section-h2 text-gray-900 mb-6">
                 Interactive Demo
               </h2>
-              <p className="text-xl text-gray-600 mb-8">
+              <p className="body-xl text-gray-600 mb-8">
                 See how Canvas transforms your restaurant data into beautiful, 
                 interactive visualizations that drive better decisions.
               </p>
@@ -204,10 +204,10 @@ export default function CanvasPage() {
       {/* CTA Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="section-h2 mb-6">
             Ready to Visualize Your Data?
           </h2>
-          <p className="text-xl mb-8 opacity-90">
+          <p className="body-xl mb-8 opacity-90">
             See how Canvas can transform your restaurant analytics with beautiful, 
             interactive visualizations in our personalized demo.
           </p>

@@ -60,12 +60,12 @@ export default function PulsePage() {
               <span>💓</span>
               <span>Anomaly Detection</span>
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+            <h1 className="hero-h1 text-gray-900 mb-6">
               Pulse: AI-Powered
               <br />
               <span className="text-red-600">Anomaly Detection</span>
             </h1>
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+            <p className="body-xl text-gray-600 mb-8 max-w-3xl mx-auto">
               Never miss what's happening in your business. Pulse continuously monitors your data 
               and alerts you to unusual patterns, performance deviations, and opportunities before they impact your bottom line.
             </p>
@@ -89,10 +89,10 @@ export default function PulsePage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               Catch What Others Miss
             </h2>
-            <p className="text-xl text-gray-600">
+            <p className="body-xl text-gray-600">
               Pulse identifies anomalies that human analysis often overlooks
             </p>
           </div>
@@ -121,10 +121,10 @@ export default function PulsePage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               Detect Every Type of Anomaly
             </h2>
-            <p className="text-xl text-gray-600">
+            <p className="body-xl text-gray-600">
               From sales spikes to staffing issues, Pulse catches them all
             </p>
           </div>
@@ -160,10 +160,10 @@ export default function PulsePage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               How Pulse Works
             </h2>
-            <p className="text-xl text-gray-600">
+            <p className="body-xl text-gray-600">
               Advanced AI that learns your business patterns
             </p>
           </div>
@@ -205,10 +205,10 @@ export default function PulsePage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-red-50 to-orange-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               Smart Alerts That Matter
             </h2>
-            <p className="text-xl text-gray-600">
+            <p className="body-xl text-gray-600">
               Get notified about the anomalies that impact your business most
             </p>
           </div>
@@ -266,10 +266,10 @@ export default function PulsePage() {
       {/* CTA Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-red-600 to-orange-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="section-h2 mb-6">
             Never Miss a Beat
           </h2>
-          <p className="text-xl mb-8 opacity-90">
+          <p className="body-xl mb-8 opacity-90">
             See how Pulse can monitor your restaurant operations 24/7 and alert you 
             to important changes before they impact your business.
           </p>

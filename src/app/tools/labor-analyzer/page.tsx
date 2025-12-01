@@ -53,10 +53,10 @@ export default function LaborAnalyzerPage() {
             <span>👥</span>
             <span>Labor Analyzer</span>
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+          <h1 className="section-h2 text-gray-900 dark:text-white mb-4">
             Labor Cost Variance Analyzer
           </h1>
-          <p className="text-xl text-gray-600 dark:text-gray-300">
+          <p className="body-xl text-gray-600 dark:text-gray-300">
             Compare your actual labor costs against targets and get actionable insights
           </p>
         </div>

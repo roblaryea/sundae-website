@@ -81,7 +81,7 @@ export default function SundaeReportPage() {
             <span>📈</span>
             <span>Free Restaurant Benchmarking</span>
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+          <h1 className="hero-h1 text-gray-900 mb-6">
             Sundae Report
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-4xl mx-auto">
@@ -107,10 +107,10 @@ export default function SundaeReportPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               See How You Compare
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
               Benchmark your restaurant across key performance categories against similar businesses
             </p>
           </div>
@@ -146,10 +146,10 @@ export default function SundaeReportPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               How It Works
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
               Get your free benchmarking report in minutes, not days
             </p>
           </div>
@@ -179,10 +179,10 @@ export default function SundaeReportPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               Sample Insights You'll Get
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
               Real examples of actionable insights from our benchmarking reports
             </p>
           </div>
@@ -221,10 +221,10 @@ export default function SundaeReportPage() {
       {/* Why Free? */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="section-h2 mb-6">
             Why Free?
           </h2>
-          <p className="text-xl mb-8 opacity-90">
+          <p className="body-xl mb-8 opacity-90">
             We believe every restaurant should understand how they're performing. Our free report gives you 
             a taste of the decision intelligence that powers Sundae Core.
           </p>
@@ -251,10 +251,10 @@ export default function SundaeReportPage() {
       {/* CTA Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="section-h2 text-gray-900 mb-6">
             Ready to See Your Benchmarks?
           </h2>
-          <p className="text-xl text-gray-600 mb-8">
+          <p className="body-xl text-gray-600 mb-8">
             Join thousands of restaurant operators who use Sundae Report to understand their performance. 
             No credit card required, no obligations — just insights.
           </p>

@@ -131,10 +131,10 @@ export default function BenchmarkReadinessPage() {
             <span>📊</span>
             <span>Benchmark Readiness</span>
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+          <h1 className="section-h2 text-gray-900 dark:text-white mb-4">
             Benchmark Readiness Assessment
           </h1>
-          <p className="text-xl text-gray-600 dark:text-gray-300">
+          <p className="body-xl text-gray-600 dark:text-gray-300">
             Evaluate your organization's readiness for data-driven benchmarking
           </p>
         </div>

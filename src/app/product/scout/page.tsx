@@ -44,12 +44,12 @@ export default function ScoutPage() {
               <span>🔍</span>
               <span>Integration Specialist</span>
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+            <h1 className="hero-h1 text-gray-900 mb-6">
               Scout: Universal Data
               <br />
               <span className="text-blue-600">Integration Engine</span>
             </h1>
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+            <p className="body-xl text-gray-600 mb-8 max-w-3xl mx-auto">
               Connect every system in your restaurant stack. Scout integrates 25+ data sources 
               into one unified intelligence layer, eliminating data silos and manual reporting.
             </p>
@@ -73,10 +73,10 @@ export default function ScoutPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               Connect Everything. Miss Nothing.
             </h2>
-            <p className="text-xl text-gray-600">
+            <p className="body-xl text-gray-600">
               Scout eliminates data silos by connecting all your restaurant systems
             </p>
           </div>
@@ -105,10 +105,10 @@ export default function ScoutPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               Pre-built Integrations
             </h2>
-            <p className="text-xl text-gray-600">
+            <p className="body-xl text-gray-600">
               Connect to the systems you already use in minutes, not months
             </p>
           </div>
@@ -139,10 +139,10 @@ export default function ScoutPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               How Scout Works
             </h2>
-            <p className="text-xl text-gray-600">
+            <p className="body-xl text-gray-600">
               Simple setup, powerful results
             </p>
           </div>
@@ -183,10 +183,10 @@ export default function ScoutPage() {
       {/* CTA Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="section-h2 mb-6">
             Ready to Unify Your Data?
           </h2>
-          <p className="text-xl mb-8 opacity-90">
+          <p className="body-xl mb-8 opacity-90">
             See how Scout can connect your restaurant systems and unlock new insights 
             in our personalized demo.
           </p>

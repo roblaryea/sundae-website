@@ -64,10 +64,10 @@ export default function MultiLocationUpliftPage() {
             <span>📈</span>
             <span>Multi-Location Uplift</span>
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+          <h1 className="section-h2 text-gray-900 dark:text-white mb-4">
             Multi-Location Revenue Uplift Estimator
           </h1>
-          <p className="text-xl text-gray-600 dark:text-gray-300">
+          <p className="body-xl text-gray-600 dark:text-gray-300">
             Calculate the potential revenue impact of operational improvements across multiple locations
           </p>
         </div>
@@ -138,7 +138,7 @@ export default function MultiLocationUpliftPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-6">
                   <div className="text-sm text-gray-600 dark:text-gray-400 mb-2">Current Annual Revenue</div>
-                  <div className="text-3xl font-bold text-gray-900 dark:text-white">
+                  <div className="section-h3 text-gray-900 dark:text-white">
                     ${(result.totalRevenue / 1000000).toFixed(2)}M
                   </div>
                 </div>

@@ -60,12 +60,12 @@ export default function WatchtowerPage() {
               <span>🏰</span>
               <span>External Market Intelligence</span>
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+            <h1 className="hero-h1 text-gray-900 mb-6">
               Watchtower: External
               <br />
               <span className="text-indigo-600">Market Intelligence</span>
             </h1>
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+            <p className="body-xl text-gray-600 mb-8 max-w-3xl mx-auto">
               See what's happening outside your four walls. Watchtower monitors competitors, 
               market conditions, and consumer trends to give you the external context you need 
               to make smarter strategic decisions.
@@ -90,10 +90,10 @@ export default function WatchtowerPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               See the Bigger Picture
             </h2>
-            <p className="text-xl text-gray-600">
+            <p className="body-xl text-gray-600">
               Understand your market position with external intelligence
             </p>
           </div>
@@ -122,10 +122,10 @@ export default function WatchtowerPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               Comprehensive Market Intelligence
             </h2>
-            <p className="text-xl text-gray-600">
+            <p className="body-xl text-gray-600">
               Monitor every aspect of your external business environment
             </p>
           </div>
@@ -161,10 +161,10 @@ export default function WatchtowerPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               How Watchtower Works
             </h2>
-            <p className="text-xl text-gray-600">
+            <p className="body-xl text-gray-600">
               Advanced intelligence gathering and analysis
             </p>
           </div>
@@ -206,10 +206,10 @@ export default function WatchtowerPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-indigo-50 to-purple-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               Real Market Intelligence Examples
             </h2>
-            <p className="text-xl text-gray-600">
+            <p className="body-xl text-gray-600">
               See the type of insights Watchtower delivers
             </p>
           </div>
@@ -268,10 +268,10 @@ export default function WatchtowerPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              <h2 className="section-h2 text-gray-900 mb-6">
                 See Your Market Clearly
               </h2>
-              <p className="text-xl text-gray-600 mb-8">
+              <p className="body-xl text-gray-600 mb-8">
                 Understand your competitive landscape, market opportunities, and external factors 
                 affecting your business with comprehensive market intelligence.
               </p>
@@ -332,10 +332,10 @@ export default function WatchtowerPage() {
       {/* CTA Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-indigo-600 to-purple-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="section-h2 mb-6">
             See What You're Missing
           </h2>
-          <p className="text-xl mb-8 opacity-90">
+          <p className="body-xl mb-8 opacity-90">
             Discover how Watchtower can provide the external market intelligence 
             you need to stay ahead of competitors and market changes.
           </p>

@@ -55,12 +55,12 @@ export default function ForgePage() {
               <span>⚒️</span>
               <span>Conversational Insights</span>
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+            <h1 className="hero-h1 text-gray-900 mb-6">
               Forge: Conversational
               <br />
               <span className="text-green-600">Business Intelligence</span>
             </h1>
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+            <p className="body-xl text-gray-600 mb-8 max-w-3xl mx-auto">
               Talk to your data like you talk to your team. Ask questions in plain English and get 
               instant, actionable insights from all your restaurant systems. No dashboards required.
             </p>
@@ -84,10 +84,10 @@ export default function ForgePage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               Ask, Don't Analyze
             </h2>
-            <p className="text-xl text-gray-600">
+            <p className="body-xl text-gray-600">
               Get answers from your data using natural conversation
             </p>
           </div>
@@ -116,10 +116,10 @@ export default function ForgePage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               Real Conversations, Real Insights
             </h2>
-            <p className="text-xl text-gray-600">
+            <p className="body-xl text-gray-600">
               See how operators get answers from their data
             </p>
           </div>
@@ -166,10 +166,10 @@ export default function ForgePage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               Questions Forge Can Answer
             </h2>
-            <p className="text-xl text-gray-600">
+            <p className="body-xl text-gray-600">
               From daily operations to strategic planning
             </p>
           </div>
@@ -229,10 +229,10 @@ export default function ForgePage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              <h2 className="section-h2 text-gray-900 mb-6">
                 Try It Yourself
               </h2>
-              <p className="text-xl text-gray-600 mb-8">
+              <p className="body-xl text-gray-600 mb-8">
                 Experience the power of conversational business intelligence. 
                 Ask questions about your restaurant data and get instant, actionable answers.
               </p>
@@ -287,10 +287,10 @@ export default function ForgePage() {
       {/* CTA Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-green-600 to-blue-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="section-h2 mb-6">
             Start Conversing with Your Data
           </h2>
-          <p className="text-xl mb-8 opacity-90">
+          <p className="body-xl mb-8 opacity-90">
             See how Forge can transform the way you interact with your restaurant data. 
             Ask questions, get insights, make better decisions.
           </p>
