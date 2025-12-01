@@ -257,6 +257,52 @@ export default function Home() {
         <div className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-lavender/10 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
       </section>
 
+      {/* Why Sundae. Why Now. Section */}
+      <section aria-labelledby="why-sundae-heading" className="bg-slate-50 dark:bg-slate-900/60">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-14">
+          <div className="text-center">
+            <p className="text-xs font-semibold tracking-[0.18em] uppercase text-slate-500 mb-4">
+              WHY SUNDAE, WHY NOW
+            </p>
+            <h2 id="why-sundae-heading" className="section-h2 text-gray-900 dark:text-white mb-4">
+              Restaurant data is everywhere. Decisions aren't.
+            </h2>
+            <p className="body-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+              Most restaurant groups are drowning in reports and dashboards. Sundae turns raw POS, labor, and demand data into clear, prioritized actions your teams can actually use.
+            </p>
+          </div>
+
+          <div className="mt-8 grid gap-4 sm:gap-6 md:grid-cols-3">
+            {/* Card 1: Signal, not noise */}
+            <div className="rounded-2xl border border-slate-200/70 dark:border-slate-800 bg-white/70 dark:bg-slate-900/70 shadow-sm p-4 sm:p-5">
+              <p className="text-sm font-semibold text-sky-600 dark:text-sky-400">Signal, not noise</p>
+              <h3 className="mt-1 text-base font-semibold text-slate-900 dark:text-slate-50">From dashboards to decisions</h3>
+              <p className="mt-1 text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                Sundae doesn't just surface KPIs. It explains what changed, why it changed, and what actions operators should take this week.
+              </p>
+            </div>
+
+            {/* Card 2: Built with operators */}
+            <div className="rounded-2xl border border-slate-200/70 dark:border-slate-800 bg-white/70 dark:bg-slate-900/70 shadow-sm p-4 sm:p-5">
+              <p className="text-sm font-semibold text-sky-600 dark:text-sky-400">Built with operators</p>
+              <h3 className="mt-1 text-base font-semibold text-slate-900 dark:text-slate-50">Designed around multi-location reality</h3>
+              <p className="mt-1 text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                Connects POS, labor, inventory, and demand data across brands, concepts, and regions so leaders finally see the full picture.
+              </p>
+            </div>
+
+            {/* Card 3: Beyond BI */}
+            <div className="rounded-2xl border border-slate-200/70 dark:border-slate-800 bg-white/70 dark:bg-slate-900/70 shadow-sm p-4 sm:p-5">
+              <p className="text-sm font-semibold text-sky-600 dark:text-sky-400">Beyond BI</p>
+              <h3 className="mt-1 text-base font-semibold text-slate-900 dark:text-slate-50">AI that thinks like your best manager</h3>
+              <p className="mt-1 text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                Our agents monitor your data 24/7, flag anomalies early, and recommend concrete steps — before issues hit your P&L.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* What is Sundae? Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
@@ -313,6 +359,65 @@ export default function Home() {
                 </Card>
               </motion.div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Trust / Social Proof Section */}
+      <section aria-labelledby="trust-heading" className="bg-white dark:bg-slate-950/90 border-y border-slate-100 dark:border-slate-800">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-14">
+          {/* Top row: label + heading */}
+          <div className="text-center">
+            <p className="text-xs font-semibold tracking-[0.18em] uppercase text-slate-500 mb-4">
+              TRUSTED BY MODERN RESTAURANT GROUPS
+            </p>
+            <h2 id="trust-heading" className="section-h2 text-gray-900 dark:text-white mb-4">
+              Operators, finance leaders, and tech teams are rolling Sundae out together.
+            </h2>
+            <p className="body-base text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+              From fast-growing concepts to global hospitality groups, Sundae is becoming the shared decision layer for operations, finance, and data teams.
+            </p>
+          </div>
+
+          {/* Middle row: logos strip */}
+          {/* TODO: Replace placeholder logos with actual customer logos when available */}
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
+            <div className="h-10 w-28 rounded-xl border border-dashed border-slate-200 dark:border-slate-700 flex items-center justify-center text-[11px] font-medium uppercase tracking-wide text-slate-400 dark:text-slate-500 bg-white/60 dark:bg-slate-900/60">
+              Global Hotel Group
+            </div>
+            <div className="h-10 w-28 rounded-xl border border-dashed border-slate-200 dark:border-slate-700 flex items-center justify-center text-[11px] font-medium uppercase tracking-wide text-slate-400 dark:text-slate-500 bg-white/60 dark:bg-slate-900/60">
+              Multi-Brand Operator
+            </div>
+            <div className="h-10 w-28 rounded-xl border border-dashed border-slate-200 dark:border-slate-700 flex items-center justify-center text-[11px] font-medium uppercase tracking-wide text-slate-400 dark:text-slate-500 bg-white/60 dark:bg-slate-900/60">
+              Franchise Platform
+            </div>
+            <div className="h-10 w-32 rounded-xl border border-dashed border-slate-200 dark:border-slate-700 flex items-center justify-center text-[11px] font-medium uppercase tracking-wide text-slate-400 dark:text-slate-500 bg-white/60 dark:bg-slate-900/60">
+              Early Adopter (125+ Sites)
+            </div>
+          </div>
+
+          {/* Bottom row: testimonial + key metric */}
+          <div className="mt-8 flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+            {/* Testimonial */}
+            <div className="max-w-xl">
+              <p className="text-base sm:text-lg font-medium text-slate-900 dark:text-slate-50 leading-relaxed">
+                "Sundae surfaced a margin gap across our lunch dayparts in days. Our teams finally see where to take action, not just where numbers moved."
+              </p>
+              <p className="mt-3 text-sm text-slate-500 dark:text-slate-400">
+                Group CFO, multi-brand restaurant group (name confidential)
+              </p>
+            </div>
+
+            {/* Metric */}
+            <div className="md:text-right">
+              <p className="text-3xl font-semibold text-sky-600 dark:text-sky-400">+9%</p>
+              <p className="mt-1 text-xs font-semibold tracking-[0.18em] uppercase text-slate-500">
+                Margin opportunity detected
+              </p>
+              <p className="mt-1 text-sm text-slate-600 dark:text-slate-300">
+                Example of a real Sundae insight surfaced during early rollouts.
+              </p>
+            </div>
           </div>
         </div>
       </section>
