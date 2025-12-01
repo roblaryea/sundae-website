@@ -4,48 +4,49 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
 import { motion } from 'framer-motion';
+import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 
 export default function ToolsPage() {
-  const tools = [
+  const tools: { title: string; description: string; icon: SundaeIconName; href: string; features: string[] }[] = [
     {
       title: 'Labor Cost % Calculator',
       description: 'Calculate your labor cost percentage and see if you\'re on target compared to industry standards.',
-      icon: '👥',
+      icon: 'labor',
       href: '/tools/labor-cost',
       features: ['Labor cost %', 'Target benchmarks', 'Instant analysis']
     },
     {
       title: 'Labor Variance Analyzer',
       description: 'Compare actual labor costs against targets and get actionable insights on variance.',
-      icon: '👥',
+      icon: 'labor',
       href: '/tools/labor-analyzer',
       features: ['Variance analysis', 'Target comparison', 'Recommendations']
     },
     {
       title: 'Menu Item Margin Calculator',
       description: 'Analyze menu item profitability with margin calculations and pricing recommendations.',
-      icon: '📊',
+      icon: 'menu',
       href: '/tools/menu-margin',
       features: ['Gross profit', 'Margin %', 'Price optimization']
     },
     {
       title: 'Break-Even Covers Calculator',
       description: 'Calculate how many covers you need to break even based on fixed and variable costs.',
-      icon: '⚖️',
+      icon: 'balance',
       href: '/tools/breakeven-covers',
       features: ['Break-even point', 'Contribution margin', 'Profitability insights']
     },
     {
       title: 'Benchmark Readiness Assessment',
       description: 'Evaluate your organization\'s readiness for data-driven benchmarking and performance tracking.',
-      icon: '📋',
+      icon: 'document',
       href: '/tools/benchmark-readiness',
       features: ['Readiness score', 'Gap analysis', 'Action plan']
     },
     {
       title: 'Multi-Location Uplift Estimator',
       description: 'Calculate potential revenue impact of operational improvements across multiple locations.',
-      icon: '📈',
+      icon: 'performance',
       href: '/tools/multi-location-uplift',
       features: ['Revenue projection', 'Per-location impact', 'Timeline estimate']
     }
@@ -91,8 +92,8 @@ export default function ToolsPage() {
               >
                 <Card variant="elevated" className="h-full hover:shadow-xl transition-all duration-300">
                   <CardHeader>
-                    <div className="w-16 h-16 bg-gradient-to-br from-electric-blue to-deep-blue rounded-2xl flex items-center justify-center text-white text-3xl mb-4 shadow-lg">
-                      {tool.icon}
+                    <div className="w-16 h-16 bg-gradient-to-br from-electric-blue to-deep-blue rounded-2xl flex items-center justify-center text-white mb-4 shadow-lg">
+                      <SundaeIcon name={tool.icon} size="xl" className="text-white" />
                     </div>
                     <CardTitle className="text-2xl text-gray-900 dark:text-white mb-3">
                       {tool.title}
