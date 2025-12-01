@@ -165,10 +165,10 @@ export default function Home() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="hero-h1 text-gray-900 mb-6">
-              See Your Business in 4D
+              Turn Data Into Decisions. Automatically.
             </h1>
             <p className="body-xl text-gray-600 mb-6 max-w-4xl mx-auto">
-              Stop guessing. Start knowing. Sundae unifies your data, benchmarks your performance, predicts what's next, and tells you exactly what to do.
+              Sundae is the AI-powered Decision Intelligence platform for multi-location restaurants. It connects your POS, labor, inventory, and demand data, spots what actually matters, and tells your team exactly what to do next.
             </p>
             <p className="body-base text-gray-500 mb-8 max-w-3xl mx-auto">
               Powered by <span className="font-semibold text-blue-600">Report</span>, <span className="font-semibold text-purple-600">Nexus</span>, <span className="font-semibold text-green-600">Insights</span>, and <span className="font-semibold text-orange-600">Canvas</span> — the complete intelligence stack for restaurants.
@@ -178,9 +178,9 @@ export default function Home() {
                 variant="primary" 
                 size="lg" 
                 className="bg-electric-blue text-white hover:bg-deep-blue transition-all duration-300 shadow-lg hover:shadow-xl"
-                onClick={() => cta("/report", "get_report_hero", { page: "/home" })}
+                onClick={() => cta("/demo", "book_demo_hero", { page: "/home" })}
               >
-                Get Sundae Report (Free)
+                Book a Demo
               </Button>
               <Button 
                 variant="outline" 
@@ -188,7 +188,7 @@ export default function Home() {
                 className="border-2 border-gray-900 text-gray-900 bg-white hover:bg-gray-900 hover:text-white transition-all duration-300"
                 onClick={() => cta("/4d-intelligence", "learn_4d_hero", { page: "/home" })}
               >
-                See How 4D Intelligence Works →
+                See How It Works →
               </Button>
             </div>
           </motion.div>
@@ -257,41 +257,41 @@ export default function Home() {
         <div className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-lavender/10 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
       </section>
 
-      {/* NEW: The 1D Problem Section */}
+      {/* What is Sundae? Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              You're Running Your Business in 1D
+              What is Sundae?
             </h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Sales vs. last week. Labor vs. last month. That's how most operators work — reactive, inward-looking, and always a step behind.
+              Sundae is an AI-powered Decision Intelligence platform built for restaurant and hospitality teams. It unifies your POS, labor, inventory, and demand data into one intelligent layer — analyzing every signal, detecting trends and anomalies, and turning noise into clear, actionable guidance your operators can use every day.
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {([
               {
-                title: "Rearview Mirror Reporting",
-                description: "Basic reports tell you what happened. They don't tell you why it happened, how you compare, or what to do next.",
-                icon: "decrease" as SundaeIconName,
-                color: "from-gray-500 to-gray-600"
+                title: "Connect every system",
+                description: "Bring POS, labor, inventory, and demand data into one trusted source.",
+                icon: "integration" as SundaeIconName,
+                color: "from-blue-500 to-blue-600"
               },
               {
-                title: "Problems Found Too Late",
-                description: "By month-end, the damage is done. No early warnings. No predictive signals. Just expensive surprises.",
-                icon: "time" as SundaeIconName,
-                color: "from-red-500 to-red-600"
+                title: "See what changed — and why",
+                description: "Spot trends, anomalies, and root causes without digging through reports.",
+                icon: "insights" as SundaeIconName,
+                color: "from-purple-500 to-purple-600"
               },
               {
-                title: "Zero Market Visibility",
-                description: "You can't see competitor pricing, category trends, or demand shifts. You're making decisions in a vacuum.",
-                icon: "visibility" as SundaeIconName,
-                color: "from-orange-500 to-orange-600"
+                title: "Know your next move",
+                description: "Get AI-generated recommendations your team can act on immediately.",
+                icon: "growth" as SundaeIconName,
+                color: "from-green-500 to-green-600"
               }
-            ]).map((problem, index) => (
+            ]).map((pillar, index) => (
               <motion.div
-                key={problem.title}
+                key={pillar.title}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -301,13 +301,13 @@ export default function Home() {
                 <Card variant="elevated" className="h-full hover:shadow-xl transition-all duration-300">
                   <CardHeader>
                     <div className="flex items-start space-x-4 mb-3">
-                      <div className={`w-12 h-12 bg-gradient-to-br ${problem.color} rounded-lg flex items-center justify-center text-white flex-shrink-0 shadow-lg`}>
-                        <SundaeIcon name={problem.icon} size="lg" className="text-white" />
+                      <div className={`w-12 h-12 bg-gradient-to-br ${pillar.color} rounded-lg flex items-center justify-center text-white flex-shrink-0 shadow-lg`}>
+                        <SundaeIcon name={pillar.icon} size="lg" className="text-white" />
                       </div>
-                      <CardTitle className="text-gray-900">{problem.title}</CardTitle>
+                      <CardTitle className="text-gray-900">{pillar.title}</CardTitle>
                     </div>
                     <CardDescription className="text-gray-600 leading-relaxed">
-                      {problem.description}
+                      {pillar.description}
                     </CardDescription>
                   </CardHeader>
                 </Card>
@@ -317,7 +317,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* NEW: The 4D Intelligence Model */}
+      {/* The 4D Intelligence Model */}
       <section ref={dimensionsRef} className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
@@ -325,7 +325,7 @@ export default function Home() {
               The 4D Intelligence Model
             </h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Four dimensions of intelligence. What happened. What should have happened. How you compare. What's coming next.
+              Four dimensions of Decision Intelligence. What happened. What should have happened. How you compare. What's coming next.
             </p>
           </div>
           
@@ -680,10 +680,10 @@ export default function Home() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-50">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 text-gray-900 mb-6">
-            Ready to See Your Business Clearly?
+            Ready to Turn Data Into Decisions?
           </h2>
           <p className="body-xl text-gray-600 mb-8">
-            Join operators who've moved from reactive reports to proactive intelligence. See past, plan, peers, and predictions — all in one place.
+            Join operators who've moved from reactive reports to AI-powered Decision Intelligence. See past, plan, peers, and predictions — all in one place.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
             <Button 
