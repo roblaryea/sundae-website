@@ -405,20 +405,21 @@ export default function Home() {
           </div>
 
           {/* Middle row: logos strip */}
-          {/* TODO: Replace placeholder logos with actual customer logos when available */}
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
-            <div className="h-10 w-28 rounded-xl border border-dashed border-slate-200 dark:border-slate-700 flex items-center justify-center text-[11px] font-medium uppercase tracking-wide text-slate-400 dark:text-slate-500 bg-white/60 dark:bg-slate-900/60">
-              Global Hotel Group
-            </div>
-            <div className="h-10 w-28 rounded-xl border border-dashed border-slate-200 dark:border-slate-700 flex items-center justify-center text-[11px] font-medium uppercase tracking-wide text-slate-400 dark:text-slate-500 bg-white/60 dark:bg-slate-900/60">
-              Multi-Brand Operator
-            </div>
-            <div className="h-10 w-28 rounded-xl border border-dashed border-slate-200 dark:border-slate-700 flex items-center justify-center text-[11px] font-medium uppercase tracking-wide text-slate-400 dark:text-slate-500 bg-white/60 dark:bg-slate-900/60">
-              Franchise Platform
-            </div>
-            <div className="h-10 w-32 rounded-xl border border-dashed border-slate-200 dark:border-slate-700 flex items-center justify-center text-[11px] font-medium uppercase tracking-wide text-slate-400 dark:text-slate-500 bg-white/60 dark:bg-slate-900/60">
-              Early Adopter (125+ Sites)
-            </div>
+          {/* TODO: Replace placeholder chips with actual customer logos when available */}
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
+            {[
+              'GLOBAL HOTEL GROUP',
+              'MULTI-BRAND OPERATOR',
+              'FRANCHISE PLATFORM',
+              'EARLY ADOPTER (125+ SITES)',
+            ].map(label => (
+              <span
+                key={label}
+                className="rounded-full border border-slate-200 bg-slate-50 px-4 py-2 text-xs font-semibold tracking-wide text-slate-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100"
+              >
+                {label}
+              </span>
+            ))}
           </div>
 
           {/* Bottom row: testimonial + key metric */}
