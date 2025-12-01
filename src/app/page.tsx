@@ -164,9 +164,14 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <p className="text-sm font-medium text-blue-600 mb-4 tracking-wide">
-              See every layer. Miss nothing.
-            </p>
+            <div className="flex justify-center mb-6">
+              <div
+                className="inline-flex items-center gap-2 rounded-full px-4 py-2 bg-gradient-to-r from-[#F25929] via-[#D200FF] to-[#0373FF] text-xs sm:text-sm md:text-base font-semibold text-white shadow-lg shadow-sky-500/25 transition-transform duration-300 hover:scale-[1.02]"
+              >
+                <span className="inline-block h-2 w-2 rounded-full bg-white/90" />
+                <span>See Every Layer. Miss Nothing.</span>
+              </div>
+            </div>
             <h1 className="hero-h1 text-gray-900 mb-6">
               Turn Restaurant Data into Decisions. Automatically.
             </h1>
