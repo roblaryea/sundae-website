@@ -48,7 +48,7 @@ export default function CloudKitchensPage() {
             <span>🏢</span>
             <span>Cloud Kitchen Solutions</span>
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+          <h1 className="hero-h1 text-gray-900 mb-6">
             Decision Intelligence for Cloud Kitchens
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-4xl mx-auto">
@@ -73,10 +73,10 @@ export default function CloudKitchensPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               Cloud Kitchen-Specific Challenges
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
               Unique operational challenges that cloud kitchen operators face
             </p>
           </div>
@@ -103,10 +103,10 @@ export default function CloudKitchensPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               How Sundae Supports Cloud Kitchens
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
               AI-powered solutions designed specifically for virtual restaurant operations
             </p>
           </div>
@@ -133,10 +133,10 @@ export default function CloudKitchensPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               Cloud Kitchen Intelligence Features
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
               Everything you need to optimize your virtual restaurant operations
             </p>
           </div>
@@ -204,10 +204,10 @@ export default function CloudKitchensPage() {
       {/* CTA Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="section-h2 mb-6">
             Ready to Scale Your Virtual Brands?
           </h2>
-          <p className="text-xl mb-8 opacity-90">
+          <p className="body-xl mb-8 opacity-90">
             See how Sundae can help you optimize your cloud kitchen operations 
             with data-driven insights across all your virtual brands.
           </p>

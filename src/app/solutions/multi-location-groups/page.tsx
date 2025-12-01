@@ -99,7 +99,7 @@ export default function MultiLocationGroupsPage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="text-5xl md:text-6xl font-bold text-gray-900 mb-6"
+              className="hero-h1 text-gray-900 mb-6"
             >
               Unify. Optimize. Scale.
             </motion.h1>
@@ -108,7 +108,7 @@ export default function MultiLocationGroupsPage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed"
+              className="body-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed"
             >
               Managing multiple restaurant locations means juggling different systems, inconsistent data, and endless spreadsheets. Sundae unifies every location into a single decision intelligence platform—giving you real-time visibility, AI-powered insights, and the ability to replicate success across your entire portfolio.
             </motion.p>
@@ -138,10 +138,10 @@ export default function MultiLocationGroupsPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               Key Challenges
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
               Running multiple locations creates unique operational and financial challenges
             </p>
           </div>
@@ -172,10 +172,10 @@ export default function MultiLocationGroupsPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               How Sundae Helps
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
               Purpose-built decision intelligence for multi-location restaurant groups
             </p>
           </div>
@@ -207,10 +207,10 @@ export default function MultiLocationGroupsPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               What You Can Achieve
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
               Real outcomes from restaurant groups using Sundae
             </p>
           </div>
@@ -240,10 +240,10 @@ export default function MultiLocationGroupsPage() {
       {/* CTA Band */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="section-h2 mb-6">
             See Sundae in Action
           </h2>
-          <p className="text-xl mb-8 opacity-90">
+          <p className="body-xl mb-8 opacity-90">
             Join multi-location restaurant groups across the Middle East, Europe, and North America who trust Sundae to unify their operations and drive growth.
           </p>
           <Link href="/demo">

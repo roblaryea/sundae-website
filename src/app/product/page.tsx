@@ -101,10 +101,10 @@ export default function ProductPage() {
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-5xl md:text-6xl font-bold text-deep-slate mb-6">
+          <h1 className="hero-h1 text-deep-slate mb-6">
             AI-Powered Restaurant Intelligence
           </h1>
-          <p className="text-xl md:text-2xl text-graphite mb-8 max-w-3xl mx-auto">
+          <p className="body-xl text-graphite mb-8 max-w-3xl mx-auto">
             Six specialized AI agents working together to deliver unprecedented 
             clarity and insights for your restaurant operations.
           </p>
@@ -159,10 +159,10 @@ export default function ProductPage() {
       {/* Integration Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-slate to-graphite text-white">
         <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-8">
+          <h2 className="section-h2 mb-8">
             Connect Everything. Understand Everything.
           </h2>
-          <p className="text-xl mb-12 max-w-3xl mx-auto">
+          <p className="body-xl mb-12 max-w-3xl mx-auto">
             Sundae integrates with your existing restaurant technology stack, 
             creating a unified intelligence layer above your current systems.
           </p>
@@ -196,10 +196,10 @@ export default function ProductPage() {
       {/* CTA Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-deep-slate mb-6">
+          <h2 className="section-h2 text-deep-slate mb-6">
             Experience the Full Sundae Platform
           </h2>
-          <p className="text-xl text-graphite mb-8">
+          <p className="body-xl text-graphite mb-8">
             See how all six AI agents work together to transform your restaurant operations. 
             Book a personalized demo with our team.
           </p>
