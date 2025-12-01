@@ -232,9 +232,10 @@ const Navbar = () => {
                 alt="Sundae – Decision Intelligence for Restaurants"
                 width={140}
                 height={40}
-                className={`h-10 w-auto transition-all duration-300 ${
+                className={`transition-all duration-300 ${
                   isLogoHovered ? 'opacity-85' : 'opacity-100'
                 }`}
+                style={{ height: '40px', width: 'auto' }}
                 onMouseEnter={() => setIsLogoHovered(true)}
                 onMouseLeave={() => setIsLogoHovered(false)}
                 priority
@@ -597,7 +598,7 @@ const Navbar = () => {
               alt="Sundae"
               width={120}
               height={34}
-              className="h-8 w-auto"
+              style={{ height: '32px', width: 'auto' }}
             />
             <button
               type="button"
