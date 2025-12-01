@@ -4,78 +4,79 @@ import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/Card";
 import { motion } from "framer-motion";
+import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 
 export default function HRTeamsPage() {
-  const challenges = [
+  const challenges: { title: string; description: string; icon: SundaeIconName }[] = [
     {
       title: "Workforce Analytics Blind Spots",
       description: "Labor data is trapped in payroll systems, making it impossible to connect staffing decisions to restaurant performance.",
-      icon: "👥"
+      icon: "labor"
     },
     {
       title: "Turnover Crisis",
       description: "High turnover rates but no clear visibility into which locations or roles have the biggest retention issues.",
-      icon: "🔄"
+      icon: "decrease"
     },
     {
       title: "Scheduling Inefficiency",
       description: "Over-staffing hurts margins, under-staffing hurts service—but you lack real-time data to optimize the balance.",
-      icon: "📅"
+      icon: "schedule"
     },
     {
       title: "Compliance & Risk",
       description: "Managing labor compliance across locations is manual and reactive rather than proactive and data-driven.",
-      icon: "⚖️"
+      icon: "balance"
     }
   ];
 
-  const howSundaeHelps = [
+  const howSundaeHelps: { title: string; description: string; product: string; icon: SundaeIconName }[] = [
     {
       title: "Unified Workforce Dashboard",
       description: "Sundae Canvas connects labor, payroll, and performance data—see turnover, productivity, and labor costs by location in real time.",
       product: "Sundae Canvas",
-      icon: "📊"
+      icon: "canvas"
     },
     {
       title: "Proactive Turnover Alerts",
       description: "Sundae Insights flags locations with rising turnover, overtime spikes, or compliance risks before they become crises.",
       product: "Sundae Insights",
-      icon: "🚨"
+      icon: "alerts"
     },
     {
       title: "Ask HR Questions",
       description: "Ask Sundae Nexus 'Which locations have the highest turnover?' or 'What's the average tenure by role?' and get instant, data-backed answers.",
       product: "Sundae Nexus",
-      icon: "💬"
+      icon: "nexus"
     },
     {
       title: "Labor Benchmarking",
       description: "Sundae Report shows how your labor metrics compare to industry standards—helping you set realistic goals and identify best practices.",
       product: "Sundae Report",
-      icon: "📈"
+      icon: "report"
     }
   ];
 
-  const outcomes = [
+  const outcomes: { title: string; description: string; icon: SundaeIconName }[] = [
     {
       title: "Reduce turnover by 20%",
       description: "Identify retention issues early and implement targeted interventions",
-      icon: "⬇️"
+      icon: "decrease"
     },
     {
       title: "Optimize labor costs",
       description: "Balance staffing levels with demand to improve margins without sacrificing service",
-      icon: "💰"
+      icon: "finance"
     },
     {
       title: "Improve compliance",
       description: "Automated monitoring helps you stay ahead of labor law changes and violations",
-      icon: "✅"
+      icon: "success"
     },
     {
       title: "Data-driven staffing",
       description: "Make hiring and scheduling decisions based on real performance data, not gut feel",
-      icon: "📊"
+      icon: "benchmarking"
     }
   ];
 
@@ -148,8 +149,8 @@ export default function HRTeamsPage() {
               <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
                 <CardHeader>
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0">
-                      {challenge.icon}
+                    <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center text-white flex-shrink-0">
+                      <SundaeIcon name={challenge.icon} size="lg" className="text-white" />
                     </div>
                     <div>
                       <CardTitle className="text-gray-900 mb-2">{challenge.title}</CardTitle>
@@ -176,8 +177,8 @@ export default function HRTeamsPage() {
               <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
                 <CardHeader>
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0">
-                      {item.icon}
+                    <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center text-white flex-shrink-0">
+                      <SundaeIcon name={item.icon} size="lg" className="text-white" />
                     </div>
                     <div>
                       <div className="text-xs text-blue-600 font-semibold mb-1">{item.product}</div>
@@ -205,8 +206,8 @@ export default function HRTeamsPage() {
               <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
                 <CardHeader>
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0">
-                      {outcome.icon}
+                    <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center text-white flex-shrink-0">
+                      <SundaeIcon name={outcome.icon} size="lg" className="text-white" />
                     </div>
                     <div>
                       <CardTitle className="text-gray-900 mb-2">{outcome.title}</CardTitle>

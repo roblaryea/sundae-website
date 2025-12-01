@@ -4,78 +4,79 @@ import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/Card";
 import { motion } from "framer-motion";
+import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 
 export default function TechnologyTeamsPage() {
-  const challenges = [
+  const challenges: { title: string; description: string; icon: SundaeIconName }[] = [
     {
       title: "Integration Complexity",
       description: "Managing data pipelines from dozens of restaurant systems with different APIs and data formats.",
-      icon: "🔌"
+      icon: "integration"
     },
     {
       title: "Data Quality Issues",
       description: "Inconsistent data, missing fields, and reconciliation nightmares across POS, payroll, and inventory systems.",
-      icon: "⚠️"
+      icon: "alerts"
     },
     {
       title: "Scalability Demands",
       description: "As the restaurant group grows, data infrastructure struggles to keep pace with increasing complexity.",
-      icon: "📈"
+      icon: "performance"
     },
     {
       title: "Reporting Bottlenecks",
       description: "Every new report request means custom ETL work, taking time away from strategic initiatives.",
-      icon: "⏱️"
+      icon: "time"
     }
   ];
 
-  const howSundaeHelps = [
+  const howSundaeHelps: { title: string; description: string; product: string; icon: SundaeIconName }[] = [
     {
       title: "Pre-Built Integrations",
       description: "Sundae Scout connects to 25+ restaurant systems out of the box—POS, labor, inventory, CRM—with automatic data normalization.",
       product: "Sundae Scout",
-      icon: "🔗"
+      icon: "scout"
     },
     {
       title: "Automated Data Quality",
       description: "Sundae Pulse monitors data pipelines, flags anomalies, and alerts you to integration issues before they impact reporting.",
       product: "Sundae Pulse",
-      icon: "✅"
+      icon: "pulse"
     },
     {
       title: "Self-Service Analytics",
       description: "Sundae Nexus lets business users query data directly with natural language—reducing IT reporting backlog by 75%.",
       product: "Sundae Nexus",
-      icon: "💬"
+      icon: "nexus"
     },
     {
       title: "API-First Architecture",
       description: "Sundae's RESTful API lets you build custom integrations, push data to your warehouse, or embed intelligence into existing tools.",
       product: "Sundae API",
-      icon: "⚙️"
+      icon: "technology"
     }
   ];
 
-  const outcomes = [
+  const outcomes: { title: string; description: string; icon: SundaeIconName }[] = [
     {
       title: "Reduce integration time by 80%",
       description: "Pre-built connectors eliminate months of custom integration work",
-      icon: "⚡"
+      icon: "speed"
     },
     {
       title: "Eliminate reporting bottlenecks",
       description: "Self-service analytics free your team to focus on strategic projects",
-      icon: "🚀"
+      icon: "growth"
     },
     {
       title: "Scale data infrastructure",
       description: "Auto-scaling architecture grows with your restaurant portfolio",
-      icon: "📊"
+      icon: "benchmarking"
     },
     {
       title: "Improve data quality",
       description: "Automated monitoring and validation ensure clean, reliable data",
-      icon: "✅"
+      icon: "success"
     }
   ];
 
@@ -148,8 +149,8 @@ export default function TechnologyTeamsPage() {
               <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
                 <CardHeader>
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0">
-                      {challenge.icon}
+                    <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center text-white flex-shrink-0">
+                      <SundaeIcon name={challenge.icon} size="lg" className="text-white" />
                     </div>
                     <div>
                       <CardTitle className="text-gray-900 mb-2">{challenge.title}</CardTitle>
@@ -176,8 +177,8 @@ export default function TechnologyTeamsPage() {
               <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
                 <CardHeader>
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0">
-                      {item.icon}
+                    <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center text-white flex-shrink-0">
+                      <SundaeIcon name={item.icon} size="lg" className="text-white" />
                     </div>
                     <div>
                       <div className="text-xs text-blue-600 font-semibold mb-1">{item.product}</div>
@@ -205,8 +206,8 @@ export default function TechnologyTeamsPage() {
               <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
                 <CardHeader>
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0">
-                      {outcome.icon}
+                    <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center text-white flex-shrink-0">
+                      <SundaeIcon name={outcome.icon} size="lg" className="text-white" />
                     </div>
                     <div>
                       <CardTitle className="text-gray-900 mb-2">{outcome.title}</CardTitle>
