@@ -100,7 +100,9 @@ export default function HospitalityOperatorsPage() {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="hero-h1 text-gray-900 mb-6"
             >
-              Hospitality Intelligence, Unified
+              Every Touchpoint.
+              <br />
+              <span className="text-gradient">One Platform.</span>
             </motion.h1>
             
             <motion.p
@@ -109,7 +111,7 @@ export default function HospitalityOperatorsPage() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="body-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed"
             >
-              Running hotels, resorts, or multi-concept hospitality groups means managing complex, interconnected operations—from restaurants and banquets to room service and catering. Sundae unifies all your F&B and hospitality data into one decision intelligence platform, giving you the clarity to optimize every guest touchpoint.
+              Restaurants, banquets, room service, catering — unified. Optimize every guest experience with one intelligence platform.
             </motion.p>
 
             <motion.div
@@ -136,9 +138,9 @@ export default function HospitalityOperatorsPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">Key Challenges</h2>
+            <h2 className="section-h2 text-gray-900 mb-4">The Problems You Know</h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Hospitality operations face unique complexity and coordination challenges
+              Multi-concept complexity. Seasonal swings. Disconnected systems.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -164,9 +166,9 @@ export default function HospitalityOperatorsPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-slate-800/50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">How Sundae Helps</h2>
+            <h2 className="section-h2 text-gray-900 mb-4">How Sundae Changes That</h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Built for hospitality groups managing complex, multi-concept operations
+              Unified F&B and rooms visibility. Demand-intelligent staffing.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -193,9 +195,9 @@ export default function HospitalityOperatorsPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">What You Can Achieve</h2>
+            <h2 className="section-h2 text-gray-900 mb-4">What Changes</h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Real outcomes from hospitality groups using Sundae
+              Better forecasting. Higher margins. Consistent guest experience.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -220,9 +222,9 @@ export default function HospitalityOperatorsPage() {
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 mb-6">Elevate Your Hospitality Operations</h2>
+          <h2 className="section-h2 mb-6">Ready to Unify Your Operations?</h2>
           <p className="body-xl mb-8 opacity-90">
-            Join hospitality groups using Sundae to unify F&B and rooms operations, optimize guest experiences, and drive profitability.
+            See how hospitality groups optimize every guest touchpoint.
           </p>
           <Link href="/demo">
             <Button variant="primary" size="lg" className="bg-white text-blue-600 hover:bg-gray-100">

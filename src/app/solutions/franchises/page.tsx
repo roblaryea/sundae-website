@@ -101,7 +101,9 @@ export default function FranchisesPage() {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="hero-h1 text-gray-900 mb-6"
             >
-              Empower Every Franchisee
+              Your Network.
+              <br />
+              <span className="text-gradient">One Dashboard.</span>
             </motion.h1>
             
             <motion.p
@@ -110,7 +112,7 @@ export default function FranchisesPage() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="body-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed"
             >
-              Managing a franchise network means balancing brand consistency with franchisee autonomy. Sundae gives you real-time visibility into every location's performance while empowering franchisees with the insights they need to succeed—creating a win-win relationship built on data, not assumptions.
+              Visibility into every franchisee. Alerts before issues escalate. Data-driven support that actually works.
             </motion.p>
 
             <motion.div
@@ -139,10 +141,10 @@ export default function FranchisesPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              Key Challenges
+              The Problems You Know
             </h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Franchise networks face unique operational and relationship challenges
+              Performance gaps. Fragmented data. Support blind spots.
             </p>
           </div>
 
@@ -173,10 +175,10 @@ export default function FranchisesPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              How Sundae Helps
+              How Sundae Changes That
             </h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Built for franchise networks that want to support, not micromanage
+              Support, not micromanage. Data, not assumptions.
             </p>
           </div>
 
@@ -208,10 +210,10 @@ export default function FranchisesPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              What You Can Achieve
+              What Changes
             </h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Real outcomes from franchise networks using Sundae
+              Better franchisee relationships. Faster network growth.
             </p>
           </div>
 
@@ -241,10 +243,10 @@ export default function FranchisesPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 mb-6">
-            Support Your Network With Data
+            Ready to Support Your Network?
           </h2>
           <p className="body-xl mb-8 opacity-90">
-            Join franchise brands using Sundae to drive consistency, support franchisees, and accelerate network growth.
+            See how franchise brands drive consistency with data.
           </p>
           <Link href="/demo">
             <Button variant="primary" size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
