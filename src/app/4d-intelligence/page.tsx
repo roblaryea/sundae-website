@@ -144,10 +144,10 @@ export default function FourDIntelligencePage() {
               <span>Decision Intelligence</span>
             </div>
             <h1 className="hero-h1 text-gray-900 mb-6">
-              The Sundae <span className="text-gradient">4D Intelligence</span> Engine
+              From Reports to <span className="text-gradient">Real Intelligence</span>
             </h1>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              A new way to see, understand, and run your business—from 1D reports to 4D intelligence
+              Four dimensions of insight. One complete picture of your business.
             </p>
           </motion.div>
         </div>
@@ -158,10 +158,10 @@ export default function FourDIntelligencePage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              Most Restaurant Tools Are Stuck in 1D
+              The Problem with Traditional BI
             </h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              They show you what happened last week or last month. But they can't tell you why, how you compare, or what to do next.
+              Most tools show you what happened. Not why. Not how you compare. Not what to do next.
             </p>
           </div>
 
@@ -216,10 +216,10 @@ export default function FourDIntelligencePage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              Sundae's 4 Dimensions of Intelligence
+              Four Dimensions. One Complete View.
             </h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Each dimension builds on the last, creating a complete picture of your business
+              Each dimension builds on the last. Together, they tell the whole story.
             </p>
           </div>
 
@@ -275,10 +275,10 @@ export default function FourDIntelligencePage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              4D Intelligence in Action
+              What 4D Intelligence Looks Like
             </h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              See how Sundae's AI agents deliver proactive alerts and recommended actions
+              Proactive alerts. Clear recommendations. Actions you can take today.
             </p>
           </div>
 
@@ -325,10 +325,10 @@ export default function FourDIntelligencePage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              Why 4D Intelligence Matters
+              The Impact on Your Business
             </h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Business outcomes that move the needle for restaurant operators
+              Outcomes that actually move the needle
             </p>
           </div>
 
@@ -367,10 +367,10 @@ export default function FourDIntelligencePage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              How Sundae Delivers 4D Intelligence
+              How It Works
             </h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Built on the Sundae Intelligence Stack with AI-powered analysis at every layer
+              AI-powered analysis at every layer of your operations
             </p>
           </div>
 
@@ -422,10 +422,10 @@ export default function FourDIntelligencePage() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="section-h2 mb-6">
-              Ready to See Your Business in 4D?
+              Ready for the Full Picture?
             </h2>
             <p className="body-xl mb-8 opacity-90 leading-relaxed">
-              Book a demo to see 4D Intelligence with your own data—past performance, plan variance, market benchmarks, and AI-powered predictions.
+              See 4D Intelligence with your data. Past, plan, peers, and predictions — all in one view.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/demo">
