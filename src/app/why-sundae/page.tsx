@@ -1,37 +1,38 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
+import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 
 export default function WhySundaePage() {
-  const differentiators = [
+  const differentiators: { title: string; description: string; icon: SundaeIconName; color: string }[] = [
     {
       title: "Horizontal Workforce Intelligence + Vertical Hospitality Expertise",
       description: "Built by operators, for operators. Not generic HR software — industry-specific workforce intelligence.",
-      icon: "🏨",
+      icon: "restaurant",
       color: "bg-blue-600"
     },
     {
       title: "Deep Learning & Certification Engine",
       description: "AI-driven SOP ingestion, auto-generated training programs, dynamic testing, and tiered certifications.",
-      icon: "🎓",
+      icon: "document",
       color: "bg-green-600"
     },
     {
       title: "Enterprise-ready MCP Connectors",
       description: "Unified data fabric with real-time dashboards. POS, HRIS, ERP, payroll, loyalty, procurement integrations.",
-      icon: "🔌",
+      icon: "integration",
       color: "bg-purple-600"
     },
     {
       title: "Three-sided Ecosystem",
       description: "Restaurants run operations, crew builds verified career profiles, service providers access marketplace.",
-      icon: "🌐",
+      icon: "multiLocation",
       color: "bg-orange-600"
     },
     {
       title: "Proven with Global Brands",
       description: "35-brand groups, 500+ hotel restaurants, 125-location franchises, enterprise clients 25-150 units.",
-      icon: "🌍",
+      icon: "franchise",
       color: "bg-teal-600"
     }
   ];
@@ -142,8 +143,8 @@ export default function WhySundaePage() {
               <Card key={item.title} variant="elevated">
                 <CardHeader>
                   <div className="flex items-center space-x-4">
-                    <div className={`w-12 h-12 ${item.color} rounded-lg flex items-center justify-center text-white text-xl`}>
-                      {item.icon}
+                    <div className={`w-12 h-12 ${item.color} rounded-lg flex items-center justify-center text-white`}>
+                      <SundaeIcon name={item.icon} size="lg" className="text-white" />
                     </div>
                     <CardTitle className="text-gray-900 text-lg">{item.title}</CardTitle>
                   </div>
@@ -171,26 +172,26 @@ export default function WhySundaePage() {
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
+            {([
               {
                 title: "Old Way",
                 items: ["Generic HR tools", "Scattered data", "Reactive management", "Manual processes"],
-                icon: "⚠️"
+                icon: "warning" as SundaeIconName
               },
               {
                 title: "The Shift",
                 items: ["Industry-specific needs", "Unified intelligence", "Predictive insights", "Automated workflows"],
-                icon: "🔄"
+                icon: "sync" as SundaeIconName
               },
               {
                 title: "New Way (Sundae)",
                 items: ["Workforce intelligence", "Real-time decisions", "Proactive management", "AI-powered operations"],
-                icon: "🚀"
+                icon: "speed" as SundaeIconName
               }
-            ].map((section, index) => (
+            ]).map((section, index) => (
               <div key={section.title} className="text-center">
-                <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
-                  {section.icon}
+                <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <SundaeIcon name={section.icon} size="xl" className="text-white" />
                 </div>
                 <h3 className="font-semibold text-lg mb-4">{section.title}</h3>
                 <ul className="space-y-2">
@@ -217,15 +218,17 @@ export default function WhySundaePage() {
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
-            {[
-              { metric: "35+", label: "Brand Groups", icon: "🏢" },
-              { metric: "500+", label: "Hotel Restaurants", icon: "🏨" },
-              { metric: "125+", label: "Location Franchises", icon: "🍽️" },
-              { metric: "25-150", label: "Unit Range", icon: "📊" }
-            ].map((stat, index) => (
+            {([
+              { metric: "35+", label: "Brand Groups", icon: "multiLocation" as SundaeIconName },
+              { metric: "500+", label: "Hotel Restaurants", icon: "restaurant" as SundaeIconName },
+              { metric: "125+", label: "Location Franchises", icon: "franchise" as SundaeIconName },
+              { metric: "25-150", label: "Unit Range", icon: "benchmarking" as SundaeIconName }
+            ]).map((stat, index) => (
               <div key={stat.label} className="text-center">
                 <div className="text-4xl font-bold text-blue-600 mb-2">{stat.metric}</div>
-                <div className="text-2xl mb-2">{stat.icon}</div>
+                <div className="w-10 h-10 mx-auto mb-2 bg-blue-100 rounded-lg flex items-center justify-center">
+                  <SundaeIcon name={stat.icon} size="md" className="text-blue-600" />
+                </div>
                 <p className="text-sm text-gray-600 font-medium">{stat.label}</p>
               </div>
             ))}
@@ -267,34 +270,34 @@ export default function WhySundaePage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
+            {([
               {
                 title: "Restaurants",
                 description: "Run operations with unified workforce intelligence",
                 benefits: ["Multi-location management", "Real-time insights", "Standardized training", "Reduced turnover"],
-                icon: "🏢",
+                icon: "multiLocation" as SundaeIconName,
                 color: "bg-blue-600"
               },
               {
                 title: "Crew Members",
                 description: "Build verified career profiles with skills and achievements",
                 benefits: ["Career mobility", "Verified skills", "Professional development", "Industry recognition"],
-                icon: "👥",
+                icon: "support" as SundaeIconName,
                 color: "bg-green-600"
               },
               {
                 title: "Service Providers",
                 description: "Access marketplace and revenue share opportunities",
                 benefits: ["Marketplace access", "Revenue sharing", "Verified partnerships", "Scale opportunities"],
-                icon: "🤝",
+                icon: "network" as SundaeIconName,
                 color: "bg-purple-600"
               }
-            ].map((stakeholder, index) => (
+            ]).map((stakeholder, index) => (
               <Card key={stakeholder.title} variant="elevated">
                 <CardHeader>
                   <div className="text-center">
-                    <div className={`w-16 h-16 ${stakeholder.color} rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-4`}>
-                      {stakeholder.icon}
+                    <div className={`w-16 h-16 ${stakeholder.color} rounded-full flex items-center justify-center text-white mx-auto mb-4`}>
+                      <SundaeIcon name={stakeholder.icon} size="xl" className="text-white" />
                     </div>
                     <CardTitle className="text-gray-900">{stakeholder.title}</CardTitle>
                     <CardDescription className="text-gray-600">
