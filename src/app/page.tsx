@@ -173,10 +173,13 @@ export default function Home() {
               </div>
             </div>
             <h1 className="hero-h1 text-gray-900 mb-6">
-              See every layer. Know exactly what's happening.
+              The Future of Restaurant Intelligence
             </h1>
             <p className="body-xl text-gray-600 dark:text-slate-300 leading-relaxed mb-4 max-w-4xl mx-auto">
-              Your entire operation in 4D — clear, contextual, and always one step ahead.
+              Clear, contextual, AI-powered visibility into your entire operation — instantly.
+            </p>
+            <p className="body-lg text-gray-500 mb-4 max-w-3xl mx-auto">
+              One platform. Zero guesswork. Sundae analyzes performance, predicts what's coming, and tells your team exactly what to do next.
             </p>
             <p className="body-lg text-slate-500 dark:text-slate-400 mt-4 mb-8 max-w-3xl mx-auto">
               Built on <span className="font-semibold text-blue-600">Report</span>, <span className="font-semibold text-purple-600">Nexus</span>, <span className="font-semibold text-green-600">Insights</span>, and <span className="font-semibold text-orange-600">Canvas</span> — the intelligence engine for modern hospitality.
