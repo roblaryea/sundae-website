@@ -70,7 +70,7 @@ export default function CloudKitchensPage() {
       </section>
 
       {/* Challenges Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
@@ -86,10 +86,10 @@ export default function CloudKitchensPage() {
               <Card key={index} variant="elevated" className="text-center">
                 <CardHeader>
                   <div className="text-4xl mb-4">{challenge.icon}</div>
-                  <CardTitle className="text-gray-900">{challenge.title}</CardTitle>
+                  <CardTitle className="text-gray-900 dark:text-white">{challenge.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-gray-600">
+                  <CardDescription className="text-gray-600 dark:text-slate-300">
                     {challenge.description}
                   </CardDescription>
                 </CardContent>
@@ -100,7 +100,7 @@ export default function CloudKitchensPage() {
       </section>
 
       {/* Solutions Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-slate-800/50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
@@ -116,10 +116,10 @@ export default function CloudKitchensPage() {
               <Card key={index} variant="elevated" className="text-center">
                 <CardHeader>
                   <div className="text-4xl mb-4">{solution.icon}</div>
-                  <CardTitle className="text-gray-900">{solution.title}</CardTitle>
+                  <CardTitle className="text-gray-900 dark:text-white">{solution.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-gray-600">
+                  <CardDescription className="text-gray-600 dark:text-slate-300">
                     {solution.description}
                   </CardDescription>
                 </CardContent>
@@ -130,7 +130,7 @@ export default function CloudKitchensPage() {
       </section>
 
       {/* Features Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
@@ -164,7 +164,7 @@ export default function CloudKitchensPage() {
                   <div className="text-2xl mt-1">{feature.icon}</div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">{feature.title}</h3>
-                    <p className="text-gray-600">{feature.description}</p>
+                    <p className="text-gray-600 dark:text-slate-300">{feature.description}</p>
                   </div>
                 </div>
               ))}
@@ -173,7 +173,7 @@ export default function CloudKitchensPage() {
             <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8">
               <div className="text-center mb-6">
                 <div className="text-6xl mb-4">📈</div>
-                <h3 className="text-2xl font-bold text-gray-900">Multi-Brand Performance</h3>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Multi-Brand Performance</h3>
               </div>
               
               <div className="space-y-4">

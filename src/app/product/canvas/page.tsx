@@ -70,13 +70,13 @@ export default function CanvasPage() {
       </section>
 
       {/* Key Features Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
               See Your Data Differently
             </h2>
-            <p className="body-xl text-gray-600">
+            <p className="body-xl text-gray-600 dark:text-slate-300">
               Canvas turns raw data into actionable visual insights
             </p>
           </div>
@@ -89,9 +89,9 @@ export default function CanvasPage() {
                     <div className="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center text-white text-xl">
                       {feature.icon}
                     </div>
-                    <CardTitle className="text-gray-900">{feature.title}</CardTitle>
+                    <CardTitle className="text-gray-900 dark:text-white">{feature.title}</CardTitle>
                   </div>
-                  <CardDescription className="text-gray-600">
+                  <CardDescription className="text-gray-600 dark:text-slate-300">
                     {feature.description}
                   </CardDescription>
                 </CardHeader>
@@ -102,13 +102,13 @@ export default function CanvasPage() {
       </section>
 
       {/* Visualization Types Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-slate-800/50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
               Built for Restaurant Data
             </h2>
-            <p className="body-xl text-gray-600">
+            <p className="body-xl text-gray-600 dark:text-slate-300">
               Pre-configured visualizations for every aspect of restaurant operations
             </p>
           </div>
@@ -117,7 +117,7 @@ export default function CanvasPage() {
             {visualizationTypes.map((category, index) => (
               <Card key={index} variant="elevated">
                 <CardHeader>
-                  <CardTitle className="text-gray-900">{category.type}</CardTitle>
+                  <CardTitle className="text-gray-900 dark:text-white">{category.type}</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <div className="grid grid-cols-2 gap-3">
@@ -136,7 +136,7 @@ export default function CanvasPage() {
       </section>
 
       {/* Demo Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -168,7 +168,7 @@ export default function CanvasPage() {
             <div className="bg-gradient-to-br from-purple-50 to-blue-50 rounded-2xl p-8">
               <div className="text-center mb-6">
                 <div className="text-6xl mb-4">📊</div>
-                <h3 className="text-2xl font-bold text-gray-900">Live Dashboard Preview</h3>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Live Dashboard Preview</h3>
               </div>
               
               <div className="space-y-4">

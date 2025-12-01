@@ -133,7 +133,7 @@ export default function HospitalityOperatorsPage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">Key Challenges</h2>
@@ -151,7 +151,7 @@ export default function HospitalityOperatorsPage() {
                     </div>
                     <div>
                       <CardTitle className="text-gray-900 mb-2">{challenge.title}</CardTitle>
-                      <CardDescription className="text-gray-600">{challenge.description}</CardDescription>
+                      <CardDescription className="text-gray-600 dark:text-slate-300">{challenge.description}</CardDescription>
                     </div>
                   </div>
                 </CardHeader>
@@ -161,7 +161,7 @@ export default function HospitalityOperatorsPage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-slate-800/50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">How Sundae Helps</h2>
@@ -180,7 +180,7 @@ export default function HospitalityOperatorsPage() {
                     <div>
                       <div className="text-xs text-blue-600 font-semibold mb-1">{item.product}</div>
                       <CardTitle className="text-gray-900 mb-2">{item.title}</CardTitle>
-                      <CardDescription className="text-gray-600">{item.description}</CardDescription>
+                      <CardDescription className="text-gray-600 dark:text-slate-300">{item.description}</CardDescription>
                     </div>
                   </div>
                 </CardHeader>
@@ -190,7 +190,7 @@ export default function HospitalityOperatorsPage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">What You Can Achieve</h2>
@@ -208,7 +208,7 @@ export default function HospitalityOperatorsPage() {
                     </div>
                     <div>
                       <CardTitle className="text-gray-900 mb-2">{outcome.title}</CardTitle>
-                      <CardDescription className="text-gray-600">{outcome.description}</CardDescription>
+                      <CardDescription className="text-gray-600 dark:text-slate-300">{outcome.description}</CardDescription>
                     </div>
                   </div>
                 </CardHeader>

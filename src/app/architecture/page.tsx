@@ -430,7 +430,7 @@ export default function ArchitecturePage() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <div className="bg-gradient-to-br from-gray-50 to-blue-50/30 dark:from-gray-800 dark:to-blue-900/10 rounded-2xl p-8 shadow-xl border-2 border-gray-200 dark:border-gray-700">
+              <div className="bg-gradient-to-br from-gray-50 to-blue-50/30 dark:from-gray-800 dark:to-blue-900/10 rounded-2xl p-8 shadow-xl border-2 border-gray-200 dark:border-slate-800 dark:border-gray-700">
                 <div className="text-center mb-6">
                   <div className="text-6xl mb-4">🏆</div>
                   <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Certifications</h3>

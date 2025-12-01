@@ -135,7 +135,7 @@ export default function MultiLocationGroupsPage() {
       </section>
 
       {/* Key Challenges Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
@@ -156,7 +156,7 @@ export default function MultiLocationGroupsPage() {
                     </div>
                     <div>
                       <CardTitle className="text-gray-900 mb-2">{challenge.title}</CardTitle>
-                      <CardDescription className="text-gray-600">
+                      <CardDescription className="text-gray-600 dark:text-slate-300">
                         {challenge.description}
                       </CardDescription>
                     </div>
@@ -169,7 +169,7 @@ export default function MultiLocationGroupsPage() {
       </section>
 
       {/* How Sundae Helps Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-slate-800/50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
@@ -191,7 +191,7 @@ export default function MultiLocationGroupsPage() {
                     <div>
                       <div className="text-xs text-blue-600 font-semibold mb-1">{item.product}</div>
                       <CardTitle className="text-gray-900 mb-2">{item.title}</CardTitle>
-                      <CardDescription className="text-gray-600">
+                      <CardDescription className="text-gray-600 dark:text-slate-300">
                         {item.description}
                       </CardDescription>
                     </div>
@@ -204,7 +204,7 @@ export default function MultiLocationGroupsPage() {
       </section>
 
       {/* Outcomes Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
@@ -225,7 +225,7 @@ export default function MultiLocationGroupsPage() {
                     </div>
                     <div>
                       <CardTitle className="text-gray-900 mb-2">{outcome.title}</CardTitle>
-                      <CardDescription className="text-gray-600">
+                      <CardDescription className="text-gray-600 dark:text-slate-300">
                         {outcome.description}
                       </CardDescription>
                     </div>

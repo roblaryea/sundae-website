@@ -117,7 +117,7 @@ export default function ProductPage() {
       </section>
 
       {/* Product Modules Grid */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {productModules.map((module, index) => (
@@ -194,7 +194,7 @@ export default function ProductPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 text-deep-slate mb-6">
             Experience the Full Sundae Platform

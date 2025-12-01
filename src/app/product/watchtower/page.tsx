@@ -87,13 +87,13 @@ export default function WatchtowerPage() {
       </section>
 
       {/* Key Features Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
               See the Bigger Picture
             </h2>
-            <p className="body-xl text-gray-600">
+            <p className="body-xl text-gray-600 dark:text-slate-300">
               Understand your market position with external intelligence
             </p>
           </div>
@@ -106,9 +106,9 @@ export default function WatchtowerPage() {
                     <div className="w-12 h-12 bg-indigo-600 rounded-lg flex items-center justify-center text-white text-xl">
                       {feature.icon}
                     </div>
-                    <CardTitle className="text-gray-900">{feature.title}</CardTitle>
+                    <CardTitle className="text-gray-900 dark:text-white">{feature.title}</CardTitle>
                   </div>
-                  <CardDescription className="text-gray-600">
+                  <CardDescription className="text-gray-600 dark:text-slate-300">
                     {feature.description}
                   </CardDescription>
                 </CardHeader>
@@ -119,13 +119,13 @@ export default function WatchtowerPage() {
       </section>
 
       {/* Intelligence Types Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-slate-800/50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
               Comprehensive Market Intelligence
             </h2>
-            <p className="body-xl text-gray-600">
+            <p className="body-xl text-gray-600 dark:text-slate-300">
               Monitor every aspect of your external business environment
             </p>
           </div>
@@ -135,7 +135,7 @@ export default function WatchtowerPage() {
               <Card key={index} variant="elevated">
                 <CardHeader>
                   <div className="flex items-center justify-between mb-2">
-                    <CardTitle className="text-gray-900">{category.category}</CardTitle>
+                    <CardTitle className="text-gray-900 dark:text-white">{category.category}</CardTitle>
                     <span className="text-sm bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full">
                       {category.frequency}
                     </span>
@@ -158,13 +158,13 @@ export default function WatchtowerPage() {
       </section>
 
       {/* How It Works Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
               How Watchtower Works
             </h2>
-            <p className="body-xl text-gray-600">
+            <p className="body-xl text-gray-600 dark:text-slate-300">
               Advanced intelligence gathering and analysis
             </p>
           </div>
@@ -195,7 +195,7 @@ export default function WatchtowerPage() {
                   {step.step}
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">{step.title}</h3>
-                <p className="text-gray-600">{step.description}</p>
+                <p className="text-gray-600 dark:text-slate-300">{step.description}</p>
               </div>
             ))}
           </div>
@@ -209,7 +209,7 @@ export default function WatchtowerPage() {
             <h2 className="section-h2 text-gray-900 mb-4">
               Real Market Intelligence Examples
             </h2>
-            <p className="body-xl text-gray-600">
+            <p className="body-xl text-gray-600 dark:text-slate-300">
               See the type of insights Watchtower delivers
             </p>
           </div>
@@ -248,13 +248,13 @@ export default function WatchtowerPage() {
                       {insight.type}
                     </span>
                   </div>
-                  <CardTitle className="text-gray-900">{insight.title}</CardTitle>
+                  <CardTitle className="text-gray-900 dark:text-white">{insight.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 text-sm mb-3">{insight.description}</p>
                   <div className="bg-gray-50 rounded-lg p-3">
                     <p className="text-xs font-medium text-gray-700">Recommended Action:</p>
-                    <p className="text-sm text-gray-900">{insight.action}</p>
+                    <p className="text-sm text-gray-900 dark:text-white">{insight.action}</p>
                   </div>
                 </CardContent>
               </Card>
@@ -264,7 +264,7 @@ export default function WatchtowerPage() {
       </section>
 
       {/* Demo Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -296,7 +296,7 @@ export default function WatchtowerPage() {
             <div className="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-8">
               <div className="text-center mb-6">
                 <div className="text-6xl mb-4">🏪</div>
-                <h3 className="text-2xl font-bold text-gray-900">Market Intelligence Dashboard</h3>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Market Intelligence Dashboard</h3>
               </div>
               
               <div className="space-y-4">

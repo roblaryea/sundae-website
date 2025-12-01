@@ -104,7 +104,7 @@ export default function SundaeReportPage() {
       </section>
 
       {/* Benchmark Categories */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
@@ -123,7 +123,7 @@ export default function SundaeReportPage() {
                     <div className={`w-12 h-12 ${category.color} rounded-lg flex items-center justify-center text-white text-xl`}>
                       {category.icon}
                     </div>
-                    <CardTitle className="text-gray-900">{category.name}</CardTitle>
+                    <CardTitle className="text-gray-900 dark:text-white">{category.name}</CardTitle>
                   </div>
                 </CardHeader>
                 <CardContent>
@@ -143,7 +143,7 @@ export default function SundaeReportPage() {
       </section>
 
       {/* How It Works */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-slate-800/50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
@@ -162,10 +162,10 @@ export default function SundaeReportPage() {
                     {step.icon}
                   </div>
                   <div className="text-sm text-blue-600 font-medium mb-2">Step {step.step}</div>
-                  <CardTitle className="text-gray-900">{step.title}</CardTitle>
+                  <CardTitle className="text-gray-900 dark:text-white">{step.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-gray-600">
+                  <CardDescription className="text-gray-600 dark:text-slate-300">
                     {step.description}
                   </CardDescription>
                 </CardContent>
@@ -176,7 +176,7 @@ export default function SundaeReportPage() {
       </section>
 
       {/* Sample Insights */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
@@ -200,11 +200,11 @@ export default function SundaeReportPage() {
                   <div className="space-y-3">
                     <div>
                       <div className="text-sm font-medium text-gray-700 mb-1">What we found:</div>
-                      <p className="text-gray-600">{insight.insight}</p>
+                      <p className="text-gray-600 dark:text-slate-300">{insight.insight}</p>
                     </div>
                     <div>
                       <div className="text-sm font-medium text-gray-700 mb-1">Recommendation:</div>
-                      <p className="text-gray-600">{insight.recommendation}</p>
+                      <p className="text-gray-600 dark:text-slate-300">{insight.recommendation}</p>
                     </div>
                     <div className="bg-green-50 rounded-lg p-3">
                       <div className="text-sm font-medium text-green-700 mb-1">Potential Impact:</div>
@@ -249,7 +249,7 @@ export default function SundaeReportPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 text-gray-900 mb-6">
             Ready to See Your Benchmarks?

@@ -153,7 +153,7 @@ export default function BenchmarkReadinessPage() {
                   </label>
                   <div className="space-y-2">
                     {q.options.map((option) => (
-                      <label key={option.value} className="flex items-center space-x-3 p-3 border border-gray-200 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 cursor-pointer">
+                      <label key={option.value} className="flex items-center space-x-3 p-3 border border-gray-200 dark:border-slate-800 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 cursor-pointer">
                         <input
                           type="radio"
                           name={q.id}

@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
 
 export default function PulsePage() {
   const features = [
@@ -51,25 +50,25 @@ export default function PulsePage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-red-50">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-red-50 dark:from-graphite-black dark:via-slate-900 dark:to-slate-900">
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <div className="inline-flex items-center space-x-2 bg-red-100 text-red-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
-              <span>💓</span>
+      <section className="py-20 pt-32">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center space-y-6">
+            <div className="inline-flex items-center space-x-2 bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-300 px-4 py-2 rounded-full text-sm font-medium">
+              <span className="text-xl">💓</span>
               <span>Anomaly Detection</span>
             </div>
-            <h1 className="hero-h1 text-gray-900 mb-6">
+            <h1 className="hero-h1 text-gray-900 dark:text-white">
               Pulse: AI-Powered
               <br />
-              <span className="text-red-600">Anomaly Detection</span>
+              <span className="text-red-600 dark:text-red-400">Anomaly Detection</span>
             </h1>
-            <p className="body-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+            <p className="body-xl text-gray-600 dark:text-slate-300 max-w-3xl mx-auto">
               Never miss what's happening in your business. Pulse continuously monitors your data 
               and alerts you to unusual patterns, performance deviations, and opportunities before they impact your bottom line.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
               <Link href="/demo">
                 <Button variant="primary" size="lg">
                   See Pulse in Action
@@ -86,84 +85,78 @@ export default function PulsePage() {
       </section>
 
       {/* Key Features Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
+      <section className="py-20 bg-white dark:bg-slate-900">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center space-y-4 mb-12">
+            <h2 className="section-h2 text-gray-900 dark:text-white">
               Catch What Others Miss
             </h2>
-            <p className="body-xl text-gray-600">
+            <p className="body-lg text-gray-600 dark:text-slate-300 max-w-3xl mx-auto">
               Pulse identifies anomalies that human analysis often overlooks
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {features.map((feature, index) => (
-              <Card key={index} variant="elevated">
-                <CardHeader>
-                  <div className="flex items-center space-x-4">
-                    <div className="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center text-white text-xl">
-                      {feature.icon}
-                    </div>
-                    <CardTitle className="text-gray-900">{feature.title}</CardTitle>
+              <div key={index} className="rounded-2xl border border-gray-200 dark:border-slate-800 dark:border-slate-800 bg-white dark:bg-slate-900 p-6 shadow-sm hover:shadow-md transition">
+                <div className="flex items-start gap-4">
+                  <div className="h-12 w-12 rounded-xl bg-gradient-to-br from-red-500 to-orange-600 flex items-center justify-center text-white text-2xl flex-shrink-0">
+                    {feature.icon}
                   </div>
-                  <CardDescription className="text-gray-600">
-                    {feature.description}
-                  </CardDescription>
-                </CardHeader>
-              </Card>
+                  <div className="space-y-2">
+                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{feature.title}</h3>
+                    <p className="text-gray-600 dark:text-slate-300">{feature.description}</p>
+                  </div>
+                </div>
+              </div>
             ))}
           </div>
         </div>
       </section>
 
       {/* Anomaly Types Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
+      <section className="py-20 bg-gray-50 dark:bg-slate-800/50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center space-y-4 mb-12">
+            <h2 className="section-h2 text-gray-900 dark:text-white">
               Detect Every Type of Anomaly
             </h2>
-            <p className="body-xl text-gray-600">
+            <p className="body-lg text-gray-600 dark:text-slate-300 max-w-3xl mx-auto">
               From sales spikes to staffing issues, Pulse catches them all
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {anomalyTypes.map((category, index) => (
-              <Card key={index} variant="elevated">
-                <CardHeader>
-                  <div className="flex items-center justify-between mb-2">
-                    <CardTitle className="text-gray-900">{category.category}</CardTitle>
-                    <span className="text-sm bg-red-100 text-red-800 px-3 py-1 rounded-full">
-                      {category.impact}
-                    </span>
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <ul className="space-y-2">
-                    {category.examples.map((example, exampleIndex) => (
-                      <li key={exampleIndex} className="flex items-center space-x-2">
-                        <div className="w-2 h-2 bg-red-600 rounded-full"></div>
-                        <span className="text-gray-600 text-sm">{example}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </CardContent>
-              </Card>
+              <div key={index} className="rounded-2xl border border-gray-200 dark:border-slate-800 dark:border-slate-800 bg-white dark:bg-slate-900 p-6 shadow-sm hover:shadow-md transition">
+                <div className="flex items-center justify-between mb-4">
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{category.category}</h3>
+                  <span className="text-sm bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-300 px-3 py-1 rounded-full">
+                    {category.impact}
+                  </span>
+                </div>
+                <ul className="space-y-3">
+                  {category.examples.map((example, exampleIndex) => (
+                    <li key={exampleIndex} className="flex items-center gap-3">
+                      <div className="w-2 h-2 bg-red-600 dark:bg-red-400 rounded-full"></div>
+                      <span className="text-gray-600 dark:text-slate-300 text-sm">{example}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             ))}
           </div>
         </div>
       </section>
 
       {/* How It Works Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
+      <section className="py-20 bg-white dark:bg-slate-900">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center space-y-4 mb-12">
+            <h2 className="section-h2 text-gray-900 dark:text-white">
               How Pulse Works
             </h2>
-            <p className="body-xl text-gray-600">
+            <p className="body-lg text-gray-600 dark:text-slate-300 max-w-3xl mx-auto">
               Advanced AI that learns your business patterns
             </p>
           </div>
@@ -173,28 +166,25 @@ export default function PulsePage() {
               {
                 step: "1",
                 title: "Continuous Monitoring",
-                description: "AI analyzes your data 24/7, learning normal patterns and seasonal variations",
-                icon: "👁️"
+                description: "AI analyzes your data 24/7, learning normal patterns and seasonal variations"
               },
               {
                 step: "2", 
                 title: "Pattern Recognition",
-                description: "Machine learning algorithms detect deviations from expected behavior",
-                icon: "🧠"
+                description: "Machine learning algorithms detect deviations from expected behavior"
               },
               {
                 step: "3",
                 title: "Smart Alerts",
-                description: "Get notified immediately with context, severity, and recommended actions",
-                icon: "📱"
+                description: "Get notified immediately with context, severity, and recommended actions"
               }
             ].map((step, index) => (
-              <div key={index} className="text-center">
-                <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
+              <div key={index} className="text-center space-y-4">
+                <div className="h-16 w-16 bg-gradient-to-br from-red-500 to-orange-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto">
                   {step.step}
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">{step.title}</h3>
-                <p className="text-gray-600">{step.description}</p>
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white">{step.title}</h3>
+                <p className="text-gray-600 dark:text-slate-300">{step.description}</p>
               </div>
             ))}
           </div>
@@ -202,13 +192,13 @@ export default function PulsePage() {
       </section>
 
       {/* Alert Examples Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-red-50 to-orange-50">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
+      <section className="py-20 bg-gradient-to-r from-red-50 to-orange-50 dark:from-slate-800/50 dark:to-slate-800/50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center space-y-4 mb-12">
+            <h2 className="section-h2 text-gray-900 dark:text-white">
               Smart Alerts That Matter
             </h2>
-            <p className="body-xl text-gray-600">
+            <p className="body-lg text-gray-600 dark:text-slate-300 max-w-3xl mx-auto">
               Get notified about the anomalies that impact your business most
             </p>
           </div>
@@ -237,43 +227,39 @@ export default function PulsePage() {
                 urgency: "low"
               }
             ].map((alert, index) => (
-              <Card key={index} variant="default">
-                <CardHeader>
-                  <div className="flex items-center justify-between mb-2">
-                    <span className={`text-sm px-3 py-1 rounded-full ${
-                      alert.urgency === 'high' ? 'bg-red-100 text-red-800' :
-                      alert.urgency === 'medium' ? 'bg-yellow-100 text-yellow-800' :
-                      'bg-green-100 text-green-800'
-                    }`}>
-                      {alert.type}
-                    </span>
-                  </div>
-                  <CardTitle className="text-gray-900">{alert.title}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-600 text-sm mb-3">{alert.description}</p>
-                  <div className="bg-gray-50 rounded-lg p-3">
-                    <p className="text-xs font-medium text-gray-700">Recommended Action:</p>
-                    <p className="text-sm text-gray-900">{alert.action}</p>
-                  </div>
-                </CardContent>
-              </Card>
+              <div key={index} className="rounded-2xl border border-gray-200 dark:border-slate-800 dark:border-slate-800 bg-white dark:bg-slate-900 p-6 shadow-sm hover:shadow-md transition">
+                <div className="flex items-center justify-between mb-4">
+                  <span className={`text-sm px-3 py-1 rounded-full ${
+                    alert.urgency === 'high' ? 'bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-300' :
+                    alert.urgency === 'medium' ? 'bg-yellow-100 dark:bg-yellow-900/30 text-yellow-800 dark:text-yellow-300' :
+                    'bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300'
+                  }`}>
+                    {alert.type}
+                  </span>
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">{alert.title}</h3>
+                <p className="text-gray-600 dark:text-slate-300 text-sm mb-4">{alert.description}</p>
+                <div className="bg-gray-50 dark:bg-slate-800 rounded-lg p-3">
+                  <p className="text-xs font-medium text-gray-700 dark:text-slate-400">Recommended Action:</p>
+                  <p className="text-sm text-gray-900 dark:text-white">{alert.action}</p>
+                </div>
+              </div>
             ))}
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-red-600 to-orange-600 text-white">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 mb-6">
+      <section className="py-20 bg-gradient-to-r from-red-600 to-orange-600">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
+          <h2 className="section-h2 text-white">
             Never Miss a Beat
           </h2>
-          <p className="body-xl mb-8 opacity-90">
+          <p className="body-xl text-white/90 max-w-2xl mx-auto">
             See how Pulse can monitor your restaurant operations 24/7 and alert you 
             to important changes before they impact your business.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
             <Link href="/demo">
               <Button variant="primary" size="lg" className="bg-white text-red-600 hover:bg-gray-100">
                 Book Pulse Demo

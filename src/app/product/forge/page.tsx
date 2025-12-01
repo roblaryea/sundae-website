@@ -81,13 +81,13 @@ export default function ForgePage() {
       </section>
 
       {/* Key Features Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
               Ask, Don't Analyze
             </h2>
-            <p className="body-xl text-gray-600">
+            <p className="body-xl text-gray-600 dark:text-slate-300">
               Get answers from your data using natural conversation
             </p>
           </div>
@@ -100,9 +100,9 @@ export default function ForgePage() {
                     <div className="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center text-white text-xl">
                       {feature.icon}
                     </div>
-                    <CardTitle className="text-gray-900">{feature.title}</CardTitle>
+                    <CardTitle className="text-gray-900 dark:text-white">{feature.title}</CardTitle>
                   </div>
-                  <CardDescription className="text-gray-600">
+                  <CardDescription className="text-gray-600 dark:text-slate-300">
                     {feature.description}
                   </CardDescription>
                 </CardHeader>
@@ -113,13 +113,13 @@ export default function ForgePage() {
       </section>
 
       {/* Conversation Examples Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-slate-800/50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
               Real Conversations, Real Insights
             </h2>
-            <p className="body-xl text-gray-600">
+            <p className="body-xl text-gray-600 dark:text-slate-300">
               See how operators get answers from their data
             </p>
           </div>
@@ -145,13 +145,13 @@ export default function ForgePage() {
                         AI
                       </div>
                       <div className="flex-1 bg-green-50 rounded-lg p-4">
-                        <p className="text-gray-900">{example.response}</p>
+                        <p className="text-gray-900 dark:text-white">{example.response}</p>
                       </div>
                     </div>
                   </div>
                   
                   <div className="bg-gray-50 rounded-lg p-3">
-                    <p className="text-xs text-gray-600">
+                    <p className="text-xs text-gray-600 dark:text-slate-300">
                       <span className="font-medium">Data sources:</span> {example.context}
                     </p>
                   </div>
@@ -163,13 +163,13 @@ export default function ForgePage() {
       </section>
 
       {/* Use Cases Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
               Questions Forge Can Answer
             </h2>
-            <p className="body-xl text-gray-600">
+            <p className="body-xl text-gray-600 dark:text-slate-300">
               From daily operations to strategic planning
             </p>
           </div>
@@ -206,7 +206,7 @@ export default function ForgePage() {
             ].map((category, index) => (
               <Card key={index} variant="default">
                 <CardHeader>
-                  <CardTitle className="text-gray-900">{category.category}</CardTitle>
+                  <CardTitle className="text-gray-900 dark:text-white">{category.category}</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2">
@@ -257,7 +257,7 @@ export default function ForgePage() {
             <div className="bg-white rounded-2xl p-8 shadow-lg">
               <div className="text-center mb-6">
                 <div className="text-6xl mb-4">💬</div>
-                <h3 className="text-2xl font-bold text-gray-900">Forge Chat Interface</h3>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Forge Chat Interface</h3>
               </div>
               
               <div className="space-y-4">
