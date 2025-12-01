@@ -102,14 +102,14 @@ export default function FourDIntelligencePage() {
     }
   ];
 
-  const exampleAlerts = [
+  const exampleAlerts: { type: string; location: string; message: string; severity: string; action: string; icon: SundaeIconName }[] = [
     {
       type: "Labor Cost Alert",
       location: "Downtown Location",
       message: "Labor cost is 12% above benchmark for similar restaurants. Recommended action: Review scheduling efficiency and consider staffing adjustment.",
       severity: "warning",
       action: "Review Schedule",
-      icon: "⚠️"
+      icon: "warning"
     },
     {
       type: "Sales Opportunity",
@@ -117,7 +117,7 @@ export default function FourDIntelligencePage() {
       message: "Sales trending 8% above forecast. Weather and local events suggest continued strong demand. Recommended action: Increase inventory orders.",
       severity: "success",
       action: "Adjust Inventory",
-      icon: "✨"
+      icon: "growth"
     },
     {
       type: "Competitor Alert",
@@ -125,7 +125,7 @@ export default function FourDIntelligencePage() {
       message: "Major competitor launched 20% off promotion. Your traffic is down 5% this week. Recommended action: Consider limited-time offer or targeted marketing.",
       severity: "info",
       action: "Review Promotions",
-      icon: "👁️"
+      icon: "watchtower"
     }
   ];
 
@@ -171,8 +171,8 @@ export default function FourDIntelligencePage() {
               <CardContent className="p-8">
                 <div className="space-y-6">
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gray-500 rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0">
-                      📉
+                    <div className="w-12 h-12 bg-gray-500 rounded-lg flex items-center justify-center text-white flex-shrink-0">
+                      <SundaeIcon name="warning" size="lg" className="text-white" />
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-gray-900 mb-2">Reactive, Not Proactive</h3>
@@ -183,8 +183,8 @@ export default function FourDIntelligencePage() {
                   </div>
                   
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gray-500 rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0">
-                      🕶️
+                    <div className="w-12 h-12 bg-gray-500 rounded-lg flex items-center justify-center text-white flex-shrink-0">
+                      <SundaeIcon name="visibility" size="lg" className="text-white" />
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-gray-900 mb-2">No Market Context</h3>
@@ -195,8 +195,8 @@ export default function FourDIntelligencePage() {
                   </div>
                   
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gray-500 rounded-lg flex items-center justify-center text-white text-2xl flex-shrink-0">
-                      ❓
+                    <div className="w-12 h-12 bg-gray-500 rounded-lg flex items-center justify-center text-white flex-shrink-0">
+                      <SundaeIcon name="document" size="lg" className="text-white" />
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-gray-900 mb-2">No Recommended Actions</h3>
@@ -295,7 +295,17 @@ export default function FourDIntelligencePage() {
                 <Card variant="elevated" className="hover:shadow-xl transition-all duration-300">
                   <CardContent className="p-6">
                     <div className="flex items-start space-x-4">
-                      <div className={`text-4xl mt-1`}>{alert.icon}</div>
+                      <div className={`w-12 h-12 rounded-lg flex items-center justify-center mt-1 ${
+                        alert.severity === 'warning' ? 'bg-yellow-100' :
+                        alert.severity === 'success' ? 'bg-green-100' :
+                        'bg-blue-100'
+                      }`}>
+                        <SundaeIcon name={alert.icon} size="lg" className={
+                          alert.severity === 'warning' ? 'text-yellow-600' :
+                          alert.severity === 'success' ? 'text-green-600' :
+                          'text-blue-600'
+                        } />
+                      </div>
                       <div className="flex-grow">
                         <div className="flex items-center justify-between mb-2">
                           <h3 className="text-xl font-bold text-gray-900">{alert.type}</h3>
@@ -376,23 +386,23 @@ export default function FourDIntelligencePage() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {[
+            {([
               {
                 title: "Unified Data Layer",
                 description: "Scout integrates 25+ systems—POS, labor, inventory, budgets, and external data sources—into one intelligent foundation.",
-                icon: "🔗"
+                icon: "integration" as SundaeIconName
               },
               {
                 title: "Multi-Agent AI Engine",
                 description: "Specialized AI agents analyze patterns, detect anomalies, forecast outcomes, and generate recommendations across all four dimensions.",
-                icon: "🤖"
+                icon: "intelligence" as SundaeIconName
               },
               {
                 title: "Actionable Intelligence",
                 description: "Canvas dashboards, Nexus natural language queries, and proactive alerts deliver insights when and where you need them.",
-                icon: "💡"
+                icon: "insights" as SundaeIconName
               }
-            ].map((item, index) => (
+            ]).map((item, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
@@ -402,7 +412,9 @@ export default function FourDIntelligencePage() {
               >
                 <Card variant="elevated" className="h-full text-center hover:shadow-xl transition-all duration-300">
                   <CardContent className="p-8">
-                    <div className="text-5xl mb-4">{item.icon}</div>
+                    <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center">
+                      <SundaeIcon name={item.icon} size="xl" className="text-white" />
+                    </div>
                     <h3 className="text-xl font-bold text-gray-900 mb-3">{item.title}</h3>
                     <p className="text-gray-600 leading-relaxed">{item.description}</p>
                   </CardContent>
