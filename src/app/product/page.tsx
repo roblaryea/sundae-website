@@ -1,14 +1,15 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
+import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 
 export default function ProductPage() {
-  const productModules = [
+  const productModules: { name: string; description: string; longDescription: string; icon: SundaeIconName; color: string; features: string[] }[] = [
     {
       name: "Scout",
       description: "Integration specialist that connects all your systems",
       longDescription: "Scout seamlessly integrates with 10-25 disconnected restaurant systems including POS, HRIS, CRM, payroll, inventory, and market data sources. It creates a unified data layer that serves as the foundation for intelligent insights.",
-      icon: "🔍",
+      icon: "scout",
       color: "bg-blue-500",
       features: [
         "POS System Integration",
@@ -23,7 +24,7 @@ export default function ProductPage() {
       name: "Canvas", 
       description: "Visualization intelligence for data storytelling",
       longDescription: "Canvas transforms complex restaurant data into compelling visual stories. Create interactive dashboards, custom reports, and data visualizations that make insights accessible to every stakeholder.",
-      icon: "🎨",
+      icon: "canvas",
       color: "bg-purple-500",
       features: [
         "Interactive Dashboards",
@@ -38,7 +39,7 @@ export default function ProductPage() {
       name: "Pulse",
       description: "Anomaly detection for proactive insights",
       longDescription: "Pulse continuously monitors your restaurant operations and alerts you to anomalies before they become problems. From unusual sales patterns to staffing irregularities, Pulse keeps you ahead of issues.",
-      icon: "📊",
+      icon: "pulse",
       color: "bg-red-500",
       features: [
         "Automated Anomaly Detection",
@@ -53,7 +54,7 @@ export default function ProductPage() {
       name: "Forge",
       description: "Conversational insights through natural language",
       longDescription: "Forge brings the power of conversational AI to restaurant analytics. Ask questions in natural language and get instant insights, recommendations, and explanations about your business performance.",
-      icon: "💬",
+      icon: "forge",
       color: "bg-green-500",
       features: [
         "Natural Language Queries",
@@ -68,7 +69,7 @@ export default function ProductPage() {
       name: "Watchtower",
       description: "External market intelligence monitoring",
       longDescription: "Watchtower monitors external market conditions, competitor activity, and industry trends that impact your restaurant. Stay informed about market shifts and opportunities before they affect your business.",
-      icon: "🏰",
+      icon: "watchtower",
       color: "bg-yellow-500",
       features: [
         "Competitor Analysis",
@@ -83,7 +84,7 @@ export default function ProductPage() {
       name: "Sundae Report",
       description: "Real-time market benchmarking engine",
       longDescription: "Sundae Report provides anonymous, real-time benchmarking against similar restaurants in your market. Compare performance metrics, identify opportunities, and validate strategies with industry data.",
-      icon: "📈",
+      icon: "report",
       color: "bg-orange-500",
       features: [
         "Real-time Benchmarking",
@@ -124,7 +125,9 @@ export default function ProductPage() {
               <Card key={module.name} variant="elevated" className="overflow-hidden">
                 <div className={`${module.color} p-6 text-white`}>
                   <div className="flex items-center space-x-4">
-                    <div className="text-3xl">{module.icon}</div>
+                    <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center">
+                      <SundaeIcon name={module.icon} size="lg" className="text-white" />
+                    </div>
                     <div>
                       <h3 className="text-2xl font-bold">{module.name}</h3>
                       <p className="opacity-90">{module.description}</p>
@@ -168,18 +171,20 @@ export default function ProductPage() {
           </p>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
-            {[
-              { name: "POS Systems", icon: "💳" },
-              { name: "HRIS & Payroll", icon: "👥" },
-              { name: "Inventory Mgmt", icon: "📦" },
-              { name: "CRM Platforms", icon: "🎯" },
-              { name: "Market Data", icon: "📊" },
-              { name: "Scheduling", icon: "📅" },
-              { name: "Accounting", icon: "💰" },
-              { name: "Analytics", icon: "📈" }
-            ].map((system) => (
+            {([
+              { name: "POS Systems", icon: "data" as SundaeIconName },
+              { name: "HRIS & Payroll", icon: "labor" as SundaeIconName },
+              { name: "Inventory Mgmt", icon: "menu" as SundaeIconName },
+              { name: "CRM Platforms", icon: "marketing" as SundaeIconName },
+              { name: "Market Data", icon: "benchmarking" as SundaeIconName },
+              { name: "Scheduling", icon: "schedule" as SundaeIconName },
+              { name: "Accounting", icon: "finance" as SundaeIconName },
+              { name: "Analytics", icon: "performance" as SundaeIconName }
+            ]).map((system) => (
               <div key={system.name} className="bg-white/10 rounded-lg p-4 text-center">
-                <div className="text-2xl mb-2">{system.icon}</div>
+                <div className="flex justify-center mb-2">
+                  <SundaeIcon name={system.icon} size="lg" className="text-white" />
+                </div>
                 <p className="font-medium">{system.name}</p>
               </div>
             ))}
