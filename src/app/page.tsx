@@ -53,32 +53,32 @@ export default function Home() {
   const coreProducts = [
     {
       name: "Sundae Report",
-      subtitle: "Free restaurant benchmarking",
-      description: "Upload your data once and see where you stand on sales, labour, COGS, and operations vs similar restaurants in your region.",
+      subtitle: "Free benchmarking in minutes",
+      description: "See exactly where you stand. Upload your data and get instant comparisons on sales, labor, COGS, and operations against similar restaurants in your market.",
       icon: "📊",
       color: "from-blue-500 to-blue-600",
       link: "/report"
     },
     {
       name: "Sundae Nexus",
-      subtitle: "Conversational business intelligence",
-      description: "Ask plain-English questions like 'Which outlets grew the fastest last weekend?' and get instant answers with charts and AI-generated context.",
+      subtitle: "Ask questions, get answers",
+      description: "Skip the spreadsheets. Ask questions like 'Which locations grew fastest last weekend?' and get instant, AI-powered answers with context.",
       icon: "🚀",
       color: "from-purple-500 to-purple-600",
       link: "/nexus"
     },
     {
       name: "Sundae Insights",
-      subtitle: "Real-world context and signals",
-      description: "Connect your performance data to weather, events, and market trends so you can see what's driving each change in your numbers.",
+      subtitle: "Context that explains the why",
+      description: "Understand what's actually driving your numbers. Connect performance to weather, local events, and market shifts — automatically.",
       icon: "💡",
       color: "from-green-500 to-green-600",
       link: "/insights"
     },
     {
       name: "Sundae Canvas",
-      subtitle: "Live dashboards for every team",
-      description: "Turn complex datasets into clear dashboards for execs, operations, and finance — automatically updated as new data flows in.",
+      subtitle: "Dashboards that work for everyone",
+      description: "One source of truth. Clear dashboards for execs, ops, and finance — always current, always aligned, always actionable.",
       icon: "📈",
       color: "from-orange-500 to-orange-600",
       link: "/canvas"
@@ -167,10 +167,10 @@ export default function Home() {
               See Your Business in 4D
             </h1>
             <p className="body-xl text-gray-600 mb-6 max-w-4xl mx-auto">
-              The Decision Intelligence platform that goes beyond dashboards — unify data, benchmark performance, predict outcomes, and get AI-powered recommendations.
+              Stop guessing. Start knowing. Sundae unifies your data, benchmarks your performance, predicts what's next, and tells you exactly what to do.
             </p>
             <p className="body-base text-gray-500 mb-8 max-w-3xl mx-auto">
-              Powered by <span className="font-semibold text-blue-600">Sundae Report</span>, <span className="font-semibold text-purple-600">Nexus</span>, <span className="font-semibold text-green-600">Insights</span>, and <span className="font-semibold text-orange-600">Canvas</span> — the 4D intelligence stack for restaurants and hospitality.
+              Powered by <span className="font-semibold text-blue-600">Report</span>, <span className="font-semibold text-purple-600">Nexus</span>, <span className="font-semibold text-green-600">Insights</span>, and <span className="font-semibold text-orange-600">Canvas</span> — the complete intelligence stack for restaurants.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
@@ -264,27 +264,27 @@ export default function Home() {
               You're Running Your Business in 1D
             </h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Most operators only see their own past numbers—sales vs last week, labor vs last month. That's reactive, inward-looking, and always too late.
+              Sales vs. last week. Labor vs. last month. That's how most operators work — reactive, inward-looking, and always a step behind.
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                title: "1D Reports",
-                description: "Sales vs last week, labor vs last month... reactive, inward-looking metrics that tell you what happened but not why or what to do.",
+                title: "Rearview Mirror Reporting",
+                description: "Basic reports tell you what happened. They don't tell you why it happened, how you compare, or what to do next.",
                 icon: "📉",
                 color: "from-gray-500 to-gray-600"
               },
               {
-                title: "Too Late",
-                description: "You only see problems at month-end, when they're expensive to fix. No early warnings, no predictive signals.",
+                title: "Problems Found Too Late",
+                description: "By month-end, the damage is done. No early warnings. No predictive signals. Just expensive surprises.",
                 icon: "⏰",
                 color: "from-red-500 to-red-600"
               },
               {
-                title: "No Market Context",
-                description: "No view into competitor pricing, promotions, or shifting demand. You're flying blind against the market.",
+                title: "Zero Market Visibility",
+                description: "You can't see competitor pricing, category trends, or demand shifts. You're making decisions in a vacuum.",
                 icon: "🕶️",
                 color: "from-orange-500 to-orange-600"
               }
@@ -321,10 +321,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              Sundae's 4D Intelligence Model
+              The 4D Intelligence Model
             </h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Go beyond 1D reports. Sundae gives you four dimensions of intelligence to understand what happened, what should have happened, how you compare, and what's coming next.
+              Four dimensions of intelligence. What happened. What should have happened. How you compare. What's coming next.
             </p>
           </div>
           
@@ -332,32 +332,32 @@ export default function Home() {
             {[
               {
                 dimension: "1D",
-                title: "Internal Actuals",
-                description: "What happened? Sales, labor, covers, voids, waste — your operational history from POS, payroll, and inventory systems.",
+                title: "What Happened",
+                description: "Your operational truth. Sales, labor, covers, voids, waste — unified from POS, payroll, and inventory systems.",
                 icon: "📊",
                 color: "from-blue-500 to-blue-600",
                 textColor: "text-blue-600"
               },
               {
                 dimension: "2D",
-                title: "Actual vs Plan",
-                description: "What should have happened? Compare actuals to budgets, forecasts, and targets. See variance across locations and periods.",
+                title: "Plan vs. Actual",
+                description: "Are you on track? Compare actuals against budgets, forecasts, and targets across every location.",
                 icon: "🎯",
                 color: "from-purple-500 to-purple-600",
                 textColor: "text-purple-600"
               },
               {
                 dimension: "3D",
-                title: "Market & Competitors",
-                description: "How do we compare? See your performance vs benchmarks, peer groups, competitor pricing, and category trends.",
+                title: "Market Context",
+                description: "How do you stack up? Performance vs. benchmarks, peer groups, competitor pricing, and category trends.",
                 icon: "🗺️",
                 color: "from-green-500 to-green-600",
                 textColor: "text-green-600"
               },
               {
                 dimension: "4D",
-                title: "AI Foresight & Actions",
-                description: "What will happen next, and what should we do? Predictions, alerts, recommendations, and AI-generated action plans.",
+                title: "What's Next",
+                description: "AI-powered foresight. Predictions, proactive alerts, recommendations, and action plans — before problems hit.",
                 icon: "🚀",
                 color: "from-orange-500 to-orange-600",
                 textColor: "text-orange-600"
@@ -406,10 +406,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              How Sundae Plugs Into Your World
+              Get Started in Three Steps
             </h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Three steps from fragmented data to 4D intelligence
+              From fragmented data to unified intelligence
             </p>
           </div>
           
@@ -417,22 +417,22 @@ export default function Home() {
             {[
               {
                 step: "1",
-                title: "Connect",
-                description: "Sundae Scout integrates with 25+ systems: POS, labor, payroll, inventory, budgets, reservations, and delivery aggregators.",
+                title: "Connect Your Systems",
+                description: "Plug in your POS, labor, payroll, inventory, budgets, and reservations. We integrate with 25+ platforms.",
                 icon: "🔗",
                 color: "from-blue-500 to-blue-600"
               },
               {
                 step: "2",
-                title: "Normalize & Enrich",
-                description: "Clean, standardize, and layer in plan data, benchmarks, weather, events, and competitor intelligence.",
+                title: "We Handle the Rest",
+                description: "Your data is cleaned, standardized, and enriched with benchmarks, market context, and competitive intelligence.",
                 icon: "✨",
                 color: "from-purple-500 to-purple-600"
               },
               {
                 step: "3",
-                title: "Activate 4D Intelligence",
-                description: "Access unified dashboards, ask natural language questions, get proactive alerts, and receive AI recommendations.",
+                title: "Start Making Better Decisions",
+                description: "Access unified dashboards, ask questions in plain English, get proactive alerts, and act on AI recommendations.",
                 icon: "🚀",
                 color: "from-orange-500 to-orange-600"
               }
@@ -470,13 +470,13 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-4">
             <h2 className="section-h2 text-gray-900 mb-4">
-              Proven 4D Intelligence Results
+              Real Results from Real Operators
             </h2>
             <p className="body-sm text-gray-500 mb-8">
-              Based on results from multi-location restaurant groups using Sundae
+              Based on results from multi-location restaurant groups
             </p>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              See how restaurants achieve measurable improvements with Sundae's 4D intelligence platform
+              Operators using Sundae see measurable impact within 30 days
             </p>
           </div>
           
@@ -508,10 +508,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              One Platform, Four Core Products
+              Everything You Need, One Platform
             </h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Everything you need to move from 1D reports to 4D intelligence
+              Four products. One intelligence layer. Zero data silos.
             </p>
           </div>
           
@@ -575,10 +575,10 @@ export default function Home() {
             >
               <div className="text-6xl mb-6">👁️</div>
               <h2 className="text-4xl font-bold mb-6">
-                Watchtower: Your Market and Competitive Radar
+                Watchtower: See the Market Before It Moves
               </h2>
               <p className="text-xl mb-8 opacity-90">
-                Most restaurants operate in a vacuum. Watchtower gives you real-time visibility into competitor moves, category trends, and market dynamics.
+                Stop operating in a vacuum. Get real-time visibility into competitor pricing, category trends, and market shifts — before they impact your business.
               </p>
               
               <ul className="space-y-4 mb-8">
@@ -638,10 +638,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              Trusted by Hospitality Leaders
+              Trusted by Operators Who Demand More
             </h2>
             <p className="body-xl text-gray-600">
-              See how operators achieve measurable results with 4D intelligence
+              Leaders who've moved from guessing to knowing
             </p>
           </div>
           
@@ -677,10 +677,10 @@ export default function Home() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-50">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 text-gray-900 mb-6">
-            Ready to Move from 1D to 4D?
+            Ready to See Your Business Clearly?
           </h2>
           <p className="body-xl text-gray-600 mb-8">
-            Join leading restaurant groups already using Sundae to see their business in four dimensions—past, plan, peers, and predictions.
+            Join operators who've moved from reactive reports to proactive intelligence. See past, plan, peers, and predictions — all in one place.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
             <Button 
