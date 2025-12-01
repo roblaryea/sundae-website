@@ -61,14 +61,12 @@ export default function WatchtowerPage() {
               <span>External Market Intelligence</span>
             </div>
             <h1 className="hero-h1 text-gray-900 mb-6">
-              Watchtower: External
+              Know What's Happening
               <br />
-              <span className="text-indigo-600">Market Intelligence</span>
+              <span className="text-indigo-600">Outside Your Walls</span>
             </h1>
             <p className="body-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              See what's happening outside your four walls. Watchtower monitors competitors, 
-              market conditions, and consumer trends to give you the external context you need 
-              to make smarter strategic decisions.
+              Competitors, market shifts, consumer trends. Watchtower watches it all so you can respond before it impacts your business.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/demo">
@@ -91,10 +89,10 @@ export default function WatchtowerPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              See the Bigger Picture
+              Context Changes Everything
             </h2>
             <p className="body-xl text-gray-600 dark:text-slate-300">
-              Understand your market position with external intelligence
+              Your numbers mean more when you know what's happening around you
             </p>
           </div>
 
@@ -123,10 +121,10 @@ export default function WatchtowerPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              Comprehensive Market Intelligence
+              What Watchtower Tracks
             </h2>
             <p className="body-xl text-gray-600 dark:text-slate-300">
-              Monitor every aspect of your external business environment
+              Competitors. Markets. Consumers. All in one view.
             </p>
           </div>
 
@@ -162,10 +160,10 @@ export default function WatchtowerPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              How Watchtower Works
+              Intelligence, Automated
             </h2>
             <p className="body-xl text-gray-600 dark:text-slate-300">
-              Advanced intelligence gathering and analysis
+              We gather and analyze. You get the insights that matter.
             </p>
           </div>
 
@@ -207,10 +205,10 @@ export default function WatchtowerPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              Real Market Intelligence Examples
+              Alerts That Matter
             </h2>
             <p className="body-xl text-gray-600 dark:text-slate-300">
-              See the type of insights Watchtower delivers
+              Real examples of intelligence that drives action
             </p>
           </div>
 
@@ -269,11 +267,10 @@ export default function WatchtowerPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="section-h2 text-gray-900 mb-6">
-                See Your Market Clearly
+                Stay Ahead of the Market
               </h2>
               <p className="body-xl text-gray-600 mb-8">
-                Understand your competitive landscape, market opportunities, and external factors 
-                affecting your business with comprehensive market intelligence.
+                Know what your competitors are doing. Know what your market is doing. Act first.
               </p>
               
               <div className="space-y-4">
@@ -333,11 +330,10 @@ export default function WatchtowerPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-indigo-600 to-purple-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 mb-6">
-            See What You're Missing
+            Ready for Market Intelligence?
           </h2>
           <p className="body-xl mb-8 opacity-90">
-            Discover how Watchtower can provide the external market intelligence 
-            you need to stay ahead of competitors and market changes.
+            See what's happening in your market. Book a Watchtower demo.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/demo">

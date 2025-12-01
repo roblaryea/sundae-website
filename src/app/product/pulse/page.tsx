@@ -60,13 +60,12 @@ export default function PulsePage() {
               <span>Anomaly Detection</span>
             </div>
             <h1 className="hero-h1 text-gray-900 dark:text-white">
-              Pulse: AI-Powered
+              Know Before
               <br />
-              <span className="text-red-600 dark:text-red-400">Anomaly Detection</span>
+              <span className="text-red-600 dark:text-red-400">It Becomes a Problem</span>
             </h1>
             <p className="body-xl text-gray-600 dark:text-slate-300 max-w-3xl mx-auto">
-              Never miss what's happening in your business. Pulse continuously monitors your data 
-              and alerts you to unusual patterns, performance deviations, and opportunities before they impact your bottom line.
+              Pulse watches your data 24/7 and alerts you the moment something looks off. Sales dips, labor spikes, inventory issues — caught early, fixed fast.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
               <Link href="/demo">
@@ -89,10 +88,10 @@ export default function PulsePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-12">
             <h2 className="section-h2 text-gray-900 dark:text-white">
-              Catch What Others Miss
+              Early Detection. Fast Resolution.
             </h2>
             <p className="body-lg text-gray-600 dark:text-slate-300 max-w-3xl mx-auto">
-              Pulse identifies anomalies that human analysis often overlooks
+              The issues you'd find at month-end? Pulse catches them on day one.
             </p>
           </div>
 
@@ -119,10 +118,10 @@ export default function PulsePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-12">
             <h2 className="section-h2 text-gray-900 dark:text-white">
-              Detect Every Type of Anomaly
+              Every Anomaly. Every Category.
             </h2>
             <p className="body-lg text-gray-600 dark:text-slate-300 max-w-3xl mx-auto">
-              From sales spikes to staffing issues, Pulse catches them all
+              Sales, labor, inventory, market — Pulse monitors all of it
             </p>
           </div>
 
@@ -154,10 +153,10 @@ export default function PulsePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-12">
             <h2 className="section-h2 text-gray-900 dark:text-white">
-              How Pulse Works
+              Always Watching. Always Learning.
             </h2>
             <p className="body-lg text-gray-600 dark:text-slate-300 max-w-3xl mx-auto">
-              Advanced AI that learns your business patterns
+              AI that adapts to your patterns and knows when something's wrong
             </p>
           </div>
 
@@ -196,10 +195,10 @@ export default function PulsePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-12">
             <h2 className="section-h2 text-gray-900 dark:text-white">
-              Smart Alerts That Matter
+              Alerts That Drive Action
             </h2>
             <p className="body-lg text-gray-600 dark:text-slate-300 max-w-3xl mx-auto">
-              Get notified about the anomalies that impact your business most
+              Not noise. Real issues with clear next steps.
             </p>
           </div>
 
@@ -253,11 +252,10 @@ export default function PulsePage() {
       <section className="py-20 bg-gradient-to-r from-red-600 to-orange-600">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
           <h2 className="section-h2 text-white">
-            Never Miss a Beat
+            Ready for Proactive Operations?
           </h2>
           <p className="body-xl text-white/90 max-w-2xl mx-auto">
-            See how Pulse can monitor your restaurant operations 24/7 and alert you 
-            to important changes before they impact your business.
+            See how Pulse catches problems before they cost you money.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
             <Link href="/demo">

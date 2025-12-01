@@ -56,13 +56,12 @@ export default function ForgePage() {
               <span>Conversational Insights</span>
             </div>
             <h1 className="hero-h1 text-gray-900 mb-6">
-              Forge: Conversational
+              Your AI.
               <br />
-              <span className="text-green-600">Business Intelligence</span>
+              <span className="text-green-600">Your Way.</span>
             </h1>
             <p className="body-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Talk to your data like you talk to your team. Ask questions in plain English and get 
-              instant, actionable insights from all your restaurant systems. No dashboards required.
+              Forge builds custom AI models trained on your data. Forecasts, recommendations, and automations built specifically for how your business operates.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/demo">
@@ -85,10 +84,10 @@ export default function ForgePage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              Ask, Don't Analyze
+              AI That Knows Your Business
             </h2>
             <p className="body-xl text-gray-600 dark:text-slate-300">
-              Get answers from your data using natural conversation
+              Custom models trained on your patterns, your locations, your operations
             </p>
           </div>
 
@@ -117,10 +116,10 @@ export default function ForgePage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              Real Conversations, Real Insights
+              What Forge Can Build
             </h2>
             <p className="body-xl text-gray-600 dark:text-slate-300">
-              See how operators get answers from their data
+              Custom AI solutions for your specific challenges
             </p>
           </div>
 
@@ -167,10 +166,10 @@ export default function ForgePage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              Questions Forge Can Answer
+              Custom AI Use Cases
             </h2>
             <p className="body-xl text-gray-600 dark:text-slate-300">
-              From daily operations to strategic planning
+              From demand forecasting to automated recommendations
             </p>
           </div>
 
@@ -230,11 +229,10 @@ export default function ForgePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="section-h2 text-gray-900 mb-6">
-                Try It Yourself
+                Built for Your Needs
               </h2>
               <p className="body-xl text-gray-600 mb-8">
-                Experience the power of conversational business intelligence. 
-                Ask questions about your restaurant data and get instant, actionable answers.
+                Tell us the problem. We build the AI solution. Custom models that fit how your business actually works.
               </p>
               
               <div className="space-y-4">
@@ -288,11 +286,10 @@ export default function ForgePage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-green-600 to-blue-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 mb-6">
-            Start Conversing with Your Data
+            Ready for Custom AI?
           </h2>
           <p className="body-xl mb-8 opacity-90">
-            See how Forge can transform the way you interact with your restaurant data. 
-            Ask questions, get insights, make better decisions.
+            Tell us what you need. We'll build the AI to make it happen.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/demo">
