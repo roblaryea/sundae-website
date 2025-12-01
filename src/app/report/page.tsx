@@ -323,13 +323,13 @@ export default function BenchmarkingPage() {
                 <span>Sundae Report</span>
               </div>
               <h1 className="hero-h1 text-gray-900 mb-6">
-                <span className="text-blue-600">Free</span> Restaurant Benchmarking, Powered by Decision Intelligence
+                <span className="text-blue-600">Free</span> Benchmarking That Shows You Where You Really Stand
               </h1>
               <p className="body-xl text-gray-600 mb-4">
-                Compare your performance across sales, labor, COGS, operations, and demand — benchmarked against similar restaurants in your region. <span className="font-semibold">100% free.</span>
+                See how your sales, labor, COGS, and operations compare to similar restaurants in your market. <span className="font-semibold">100% free. Results in minutes.</span>
               </p>
               <p className="text-sm text-gray-500 mb-8">
-                Part of Sundae, the first AI decision intelligence platform for restaurants and hospitality.
+                Your first taste of Sundae — the AI decision intelligence platform built for restaurants.
               </p>
               
               {/* Email Form */}
@@ -408,7 +408,7 @@ export default function BenchmarkingPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
             <p className="text-gray-600 mb-6">
-              Trusted by leading restaurant groups across the Middle East and beyond
+              Trusted by operators who want the truth about their performance
             </p>
             <div className="flex flex-wrap justify-center gap-8 text-sm text-gray-500">
               <div className="flex items-center space-x-2">
@@ -432,8 +432,8 @@ export default function BenchmarkingPage() {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="section-h3 text-gray-900 mb-2">Who It's For</h2>
-            <p className="text-gray-600">Built for operators who need clarity on performance</p>
+            <h2 className="section-h3 text-gray-900 mb-2">Built for Operators Who Need Answers</h2>
+            <p className="text-gray-600">Know where you stand. Know what to fix.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {whoItsFor.map((persona, index) => (
@@ -452,10 +452,10 @@ export default function BenchmarkingPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              See How You Compare
+              The Metrics That Actually Matter
             </h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Benchmark your restaurant across the metrics that matter most
+              Compare your performance across 8 critical categories
             </p>
           </div>
           
@@ -497,10 +497,10 @@ export default function BenchmarkingPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              Sample Insights You'll Get
+              What Your Report Will Reveal
             </h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Real examples of how Sundae turns your benchmarking data into clear, actionable decisions
+              Real insights, specific recommendations, measurable impact
             </p>
           </div>
 
@@ -542,10 +542,10 @@ export default function BenchmarkingPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
-              How It Works
+              Three Steps. Five Minutes. Free.
             </h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Get your free benchmarking report in minutes
+              No sales call. No commitment. Just answers.
             </p>
           </div>
 
@@ -571,10 +571,10 @@ export default function BenchmarkingPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 mb-6">
-            Generate My Free Benchmark Report
+            Ready to See Where You Stand?
           </h2>
           <p className="body-xl mb-8 opacity-90">
-            Every restaurant deserves to know how they're performing. Our free benchmarking gives you a taste of Sundae's Decision Intelligence.
+            Get your free benchmark report and see exactly how your restaurant compares. No strings attached.
           </p>
           <Link href="/demo">
             <Button variant="primary" size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
