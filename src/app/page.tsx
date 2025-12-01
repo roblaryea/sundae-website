@@ -55,7 +55,7 @@ export default function Home() {
     {
       name: "Sundae Report",
       subtitle: "Free benchmarking in minutes",
-      description: "See exactly where you stand. Upload your data and get instant comparisons on sales, labor, COGS, and operations against similar restaurants in your market.",
+      description: "Know exactly where you stand. Upload your data and get instant, apples-to-apples comparisons across sales, labour, COGS, and operations with similar restaurants in your market.",
       icon: "report",
       color: "from-blue-500 to-blue-600",
       link: "/report"
@@ -63,7 +63,7 @@ export default function Home() {
     {
       name: "Sundae Nexus",
       subtitle: "Ask questions, get answers",
-      description: "Skip the spreadsheets. Ask questions like 'Which locations grew fastest last weekend?' and get instant, AI-powered answers with context.",
+      description: "Skip the spreadsheets. Ask questions like 'Which locations grew fastest last weekend?' and get instant, AI-powered answers — complete with context.",
       icon: "nexus",
       color: "from-purple-500 to-purple-600",
       link: "/nexus"
@@ -71,7 +71,7 @@ export default function Home() {
     {
       name: "Sundae Insights",
       subtitle: "Context that explains the why",
-      description: "Understand what's actually driving your numbers. Connect performance to weather, local events, and market shifts — automatically.",
+      description: "See what's really driving your numbers. Insights connects your performance to weather, local events, competitor movement, and market shifts — automatically.",
       icon: "insights",
       color: "from-green-500 to-green-600",
       link: "/insights"
@@ -79,7 +79,7 @@ export default function Home() {
     {
       name: "Sundae Canvas",
       subtitle: "Dashboards that work for everyone",
-      description: "One source of truth. Clear dashboards for execs, ops, and finance — always current, always aligned, always actionable.",
+      description: "One source of truth. Clear, aligned dashboards for execs, ops, and finance — always current, always synced, always actionable.",
       icon: "canvas",
       color: "from-orange-500 to-orange-600",
       link: "/canvas"
@@ -173,13 +173,16 @@ export default function Home() {
               </div>
             </div>
             <h1 className="hero-h1 text-gray-900 mb-6">
-              Turn Restaurant Data into Decisions. Automatically.
+              The Future of Restaurant Intelligence
             </h1>
             <p className="body-xl text-gray-600 mb-4 max-w-4xl mx-auto">
-              Sundae is the AI-powered Decision Intelligence platform for multi-location restaurants.
+              Sleek. Clear. Uncompromising. Sundae shows you your entire business in 4D — instantly.
             </p>
-            <p className="body-lg text-gray-500 mb-8 max-w-3xl mx-auto">
-              It connects your POS, labor, inventory, and demand data, spots what actually matters, and tells your teams exactly what to do next.
+            <p className="body-lg text-gray-500 mb-4 max-w-3xl mx-auto">
+              All your data streams. One platform. Zero guesswork. Sundae reads your operation, benchmarks your performance, predicts what's coming, and tells you exactly what to do next.
+            </p>
+            <p className="body-base text-gray-500 mb-8 max-w-3xl mx-auto">
+              Powered by <span className="font-semibold text-blue-600">Report</span>, <span className="font-semibold text-purple-600">Nexus</span>, <span className="font-semibold text-green-600">Insights</span>, and <span className="font-semibold text-orange-600">Canvas</span> — the complete intelligence stack for modern hospitality.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
               <Button 
@@ -274,46 +277,57 @@ export default function Home() {
         <div className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-lavender/10 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2s'}}></div>
       </section>
 
-      {/* Why Sundae. Why Now. Section */}
-      <section aria-labelledby="why-sundae-heading" className="bg-slate-50 dark:bg-slate-900/60">
+      {/* Sub-Hero / Value Proposition */}
+      <section aria-labelledby="value-prop-heading" className="bg-slate-50 dark:bg-slate-900/60">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-14">
           <div className="text-center">
-            <p className="text-xs font-semibold tracking-[0.18em] uppercase text-slate-500 mb-4">
-              WHY SUNDAE, WHY NOW
-            </p>
-            <h2 id="why-sundae-heading" className="section-h2 text-gray-900 dark:text-white mb-4">
-              Restaurant data is everywhere. Decisions aren't.
+            <h2 id="value-prop-heading" className="section-h2 text-gray-900 dark:text-white mb-4">
+              Your Restaurant, Finally Understandable
             </h2>
-            <p className="body-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Most restaurant groups are drowning in reports and dashboards. Sundae turns raw POS, labor, and demand data into clear, prioritized actions your teams can actually use.
+            <p className="body-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-2">
+              A single source of truth for everything that matters: operations, sales, costs, labour, inventory, guest behaviour, and brand health.
+            </p>
+            <p className="body-base text-gray-500 dark:text-gray-400">
+              Built for leaders who want clarity, not dashboards.
             </p>
           </div>
+        </div>
+      </section>
 
-          <div className="mt-8 grid gap-4 sm:gap-6 md:grid-cols-3">
-            {/* Card 1: Signal, not noise */}
-            <div className="rounded-2xl border border-slate-200/70 dark:border-slate-800 bg-white/70 dark:bg-slate-900/70 shadow-sm p-4 sm:p-5">
-              <p className="text-sm font-semibold text-sky-600 dark:text-sky-400">Signal, not noise</p>
-              <h3 className="mt-1 text-base font-semibold text-slate-900 dark:text-slate-50">From dashboards to decisions</h3>
-              <p className="mt-1 text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
-                Sundae doesn't just surface KPIs. It explains what changed, why it changed, and what actions operators should take this week.
+      {/* Why Sundae Section */}
+      <section aria-labelledby="why-sundae-heading" className="bg-white dark:bg-slate-950/90">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-14">
+          <div className="text-center mb-8">
+            <p className="text-xs font-semibold tracking-[0.18em] uppercase text-slate-500 mb-4">
+              WHY SUNDAE
+            </p>
+            <h2 id="why-sundae-heading" className="section-h2 text-gray-900 dark:text-white">
+              Why Sundae
+            </h2>
+          </div>
+
+          <div className="grid gap-4 sm:gap-6 md:grid-cols-3">
+            {/* Card 1: Clarity */}
+            <div className="rounded-2xl border border-slate-200/70 dark:border-slate-800 bg-slate-50/70 dark:bg-slate-900/70 shadow-sm p-4 sm:p-5">
+              <h3 className="text-base font-semibold text-slate-900 dark:text-slate-50">Clarity You Can Feel</h3>
+              <p className="mt-2 text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                Not charts. Not noise. Just the truth of your business, distilled into direction.
               </p>
             </div>
 
-            {/* Card 2: Built with operators */}
-            <div className="rounded-2xl border border-slate-200/70 dark:border-slate-800 bg-white/70 dark:bg-slate-900/70 shadow-sm p-4 sm:p-5">
-              <p className="text-sm font-semibold text-sky-600 dark:text-sky-400">Built with operators</p>
-              <h3 className="mt-1 text-base font-semibold text-slate-900 dark:text-slate-50">Designed around multi-location reality</h3>
-              <p className="mt-1 text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
-                Connects POS, labor, inventory, and demand data across brands, concepts, and regions so leaders finally see the full picture.
+            {/* Card 2: AI-Native */}
+            <div className="rounded-2xl border border-slate-200/70 dark:border-slate-800 bg-slate-50/70 dark:bg-slate-900/70 shadow-sm p-4 sm:p-5">
+              <h3 className="text-base font-semibold text-slate-900 dark:text-slate-50">AI-Native From Day One</h3>
+              <p className="mt-2 text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                Built to think like an operator, not a spreadsheet.
               </p>
             </div>
 
-            {/* Card 3: Beyond BI */}
-            <div className="rounded-2xl border border-slate-200/70 dark:border-slate-800 bg-white/70 dark:bg-slate-900/70 shadow-sm p-4 sm:p-5">
-              <p className="text-sm font-semibold text-sky-600 dark:text-sky-400">Beyond BI</p>
-              <h3 className="mt-1 text-base font-semibold text-slate-900 dark:text-slate-50">AI that thinks like your best manager</h3>
-              <p className="mt-1 text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
-                Our agents monitor your data 24/7, flag anomalies early, and recommend concrete steps — before issues hit your P&L.
+            {/* Card 3: Unified */}
+            <div className="rounded-2xl border border-slate-200/70 dark:border-slate-800 bg-slate-50/70 dark:bg-slate-900/70 shadow-sm p-4 sm:p-5">
+              <h3 className="text-base font-semibold text-slate-900 dark:text-slate-50">One Platform for the Whole Restaurant</h3>
+              <p className="mt-2 text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                No more scattered systems. No more blind spots.
               </p>
             </div>
           </div>
@@ -894,10 +908,10 @@ export default function Home() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-50">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 text-gray-900 mb-6">
-            Ready to see your restaurant the way your best operator does?
+            See Sundae in action →
           </h2>
           <p className="body-lg text-gray-600 mb-8 max-w-3xl mx-auto">
-            Bring your POS and labor data to a 30-minute session. We'll show you exactly where Sundae can surface margin and efficiency opportunities — or point you to quick wins you can implement today.
+            A 15-minute walkthrough that changes how your team runs the business.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
             <Button 
