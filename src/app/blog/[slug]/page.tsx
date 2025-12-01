@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Script from 'next/script';
 import { Button } from '@/components/ui/Button';
 import { blogPosts } from '@/lib/blogData';
 
@@ -12,10 +13,38 @@ interface BlogPostPageProps {
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const { slug } = await params;
   const post = blogPosts.find(p => p.slug === slug);
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://sundae.ai';
 
   if (!post) {
     notFound();
   }
+
+  // JSON-LD Structured Data for Article
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.title,
+    description: post.summary,
+    datePublished: post.date,
+    dateModified: post.date,
+    author: {
+      '@type': 'Organization',
+      name: 'Sundae Team',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Sundae',
+      logo: {
+        '@type': 'ImageObject',
+        url: `${baseUrl}/logos/sundae-wordmark.png`,
+      },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `${baseUrl}/blog/${post.slug}`,
+    },
+    keywords: (post.tags || []).join(', '),
+  };
 
   const formatDate = (dateStr: string) => {
     const date = new Date(dateStr);
@@ -26,6 +55,12 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const contentParagraphs = post.content.split('\n\n').filter(para => para.trim());
 
   return (
+    <>
+      <Script
+        id="blog-jsonld"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50 dark:from-graphite-black dark:via-gray-900 dark:to-deep-blue/10">
       <article className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
@@ -129,6 +164,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         </div>
       </section>
     </div>
+    </>
   );
 }
 
@@ -143,6 +179,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: BlogPostPageProps) {
   const { slug } = await params;
   const post = blogPosts.find(p => p.slug === slug);
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://sundae.ai';
   
   if (!post) {
     return {
@@ -151,7 +188,23 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
   }
 
   return {
-    title: `${post.title} | Sundae Blog`,
+    title: post.title,
     description: post.summary,
+    keywords: post.tags,
+    authors: [{ name: 'Sundae Team' }],
+    openGraph: {
+      title: post.title,
+      description: post.summary,
+      type: 'article',
+      publishedTime: post.date,
+      authors: ['Sundae Team'],
+      tags: post.tags,
+      url: `${baseUrl}/blog/${post.slug}`,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.summary,
+    },
   };
 }

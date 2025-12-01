@@ -16,8 +16,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sundae – Decision Intelligence for Restaurants",
-  description: "The AI platform that turns data into action — unify POS, labor, cost, and operational data to benchmark performance and get instant insights.",
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://sundae.ai'),
+  title: {
+    default: "Sundae – Decision Intelligence for Restaurants",
+    template: "%s | Sundae",
+  },
+  description: "The AI platform that turns restaurant data into action — unify POS, labor, cost, and operational data to benchmark performance and get instant insights.",
+  keywords: ["restaurant analytics", "decision intelligence", "restaurant benchmarks", "4D intelligence", "restaurant AI", "multi-location restaurants", "F&B analytics"],
+  authors: [{ name: "Sundae Team" }],
+  creator: "Sundae",
+  publisher: "Sundae",
   icons: {
     icon: [
       { url: "/logos/sundae-orb.png", type: "image/png" },
@@ -33,6 +41,37 @@ export const metadata: Metadata = {
     capable: true,
     statusBarStyle: "default",
     title: "Sundae",
+  },
+  openGraph: {
+    type: "website",
+    siteName: "Sundae",
+    title: "Sundae – Decision Intelligence for Restaurants",
+    description: "The AI platform that turns restaurant data into action — unify POS, labor, and operational data to benchmark performance.",
+    images: [
+      {
+        url: "/logos/sundae-og.png",
+        width: 1200,
+        height: 630,
+        alt: "Sundae – Restaurant Decision Intelligence",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sundae – Decision Intelligence for Restaurants",
+    description: "The AI platform that turns restaurant data into action — unify POS, labor, and operational data to benchmark performance.",
+    images: ["/logos/sundae-og.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 };
 
