@@ -396,6 +396,28 @@ html {
   100% { background-position: 0% 50%; }
 }
 
+/* Performance: Reduce motion for accessibility and battery */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  .animate-float,
+  .animate-pulse-glow,
+  .gradient-mesh,
+  .shimmer {
+    animation: none;
+  }
+  
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 /* Enhanced animations */
 @keyframes slideInUp {
   from {
