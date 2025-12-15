@@ -1,8 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
-
+import { randomUUID } from 'crypto';
+import { saveSubmissionUnified, updateSubmissionUnified, getStorageType } from '@/lib/unifiedSubmissionStore';
+import { createClickUpTask } from '@/lib/clickupClient';
 
 // Resilient custom field ID constants with hard-coded fallbacks
-// These ensure custom fields always populate even if env vars fail to load
 const CLICKUP_CF_CTA_LABEL_ID =
   process.env.CLICKUP_CF_CTA_LABEL ?? '36f1fbf8-f073-4f59-b8eb-4c6437a9837d';
 const CLICKUP_CF_SOURCE_PAGE_ID =
@@ -34,22 +35,11 @@ const CLICKUP_FIELD_MESSAGE_ID =
   process.env.CLICKUP_FIELD_MESSAGE ?? '20f58b0c-1c6c-4e3d-b989-5b93efb1ba53';
 
 export async function POST(request: NextRequest) {
-  // Log environment variable status (for debugging)
-  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-  console.log('ENVIRONMENT VARIABLES CHECK');
-  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-  console.log('CLICKUP_API_TOKEN:', process.env.CLICKUP_API_TOKEN ? `${process.env.CLICKUP_API_TOKEN.substring(0, 10)}...` : 'MISSING');
-  console.log('CLICKUP_LIST_ID:', process.env.CLICKUP_LIST_ID || 'MISSING');
-  console.log('CLICKUP_FIELD_FULL_NAME:', process.env.CLICKUP_FIELD_FULL_NAME || 'MISSING');
-  console.log('CLICKUP_FIELD_EMAIL:', process.env.CLICKUP_FIELD_EMAIL || 'MISSING');
-  console.log('CLICKUP_FIELD_COMPANY:', process.env.CLICKUP_FIELD_COMPANY || 'MISSING');
-  console.log('CLICKUP_FIELD_ROLE:', process.env.CLICKUP_FIELD_ROLE || 'MISSING');
-  console.log('CLICKUP_FIELD_PHONE:', process.env.CLICKUP_FIELD_PHONE || 'MISSING');
-  console.log('CLICKUP_FIELD_COUNTRY:', process.env.CLICKUP_FIELD_COUNTRY || 'MISSING');
-  console.log('CLICKUP_FIELD_POS:', process.env.CLICKUP_FIELD_POS || 'MISSING');
-  console.log('CLICKUP_FIELD_LOCATIONS:', process.env.CLICKUP_FIELD_LOCATIONS || 'MISSING');
-  console.log('CLICKUP_FIELD_MESSAGE:', process.env.CLICKUP_FIELD_MESSAGE || 'MISSING');
-  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
+  // Generate unique request ID for tracking
+  const requestId = randomUUID();
+  const startTime = Date.now();
+
+  console.log(`[${requestId}] ===== CTA SUBMISSION START =====`);
 
   try {
     // Parse request body
@@ -84,6 +74,7 @@ export async function POST(request: NextRequest) {
     if (!message?.trim()) missingFields.push('message');
 
     if (missingFields.length > 0) {
+      console.error(`[${requestId}] Validation failed: missing fields`, missingFields);
       return NextResponse.json(
         { 
           success: false, 
@@ -97,6 +88,7 @@ export async function POST(request: NextRequest) {
     // Validate email format
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
+      console.error(`[${requestId}] Validation failed: invalid email`);
       return NextResponse.json(
         { 
           success: false, 
@@ -110,6 +102,7 @@ export async function POST(request: NextRequest) {
     // Validate phone number (must have at least 6 digits)
     const phoneDigits = phone.replace(/[\s\-\(\)]/g, '');
     if (!/\d{6,}/.test(phoneDigits)) {
+      console.error(`[${requestId}] Validation failed: invalid phone`);
       return NextResponse.json(
         { 
           success: false, 
@@ -120,7 +113,32 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Read API credentials from environment
+    console.log(`[${requestId}] Validation passed for ${email}`);
+
+    // STEP 1: Save submission to fallback storage FIRST
+    // This ensures we never lose leads, even if ClickUp fails
+    const submissionData = {
+      name,
+      email,
+      company,
+      role,
+      country,
+      phone,
+      numberOfLocations,
+      primaryPOS,
+      message,
+      ctaLabel,
+      sourcePage,
+      utmSource,
+      utmMedium,
+      utmCampaign,
+    };
+
+    const submission = await saveSubmissionUnified(submissionData, 'pending');
+    console.log(`[${requestId}] Submission saved (${submission.storageType}): ${submission.id}`);
+
+    // STEP 2: Attempt to create ClickUp task
+    // If this fails, user still gets success (we saved the submission)
     const apiToken = process.env.CLICKUP_API_TOKEN;
     const listId = process.env.CLICKUP_LIST_ID;
 
@@ -129,33 +147,22 @@ export async function POST(request: NextRequest) {
       if (!apiToken) missingVars.push('CLICKUP_API_TOKEN');
       if (!listId) missingVars.push('CLICKUP_LIST_ID');
       
-      console.error('Missing ClickUp configuration:', missingVars.join(', '));
-      return NextResponse.json(
-        { 
-          success: false, 
-          error: `Server configuration error: ${missingVars.join(' and ')} is missing. Please check .env.local file.` 
-        },
-        { status: 500 }
+      console.error(`[${requestId}] Missing ClickUp configuration:`, missingVars);
+      
+      // Update submission status
+      await updateSubmissionUnified(
+        submission.id,
+        'failed',
+        undefined,
+        `Missing config: ${missingVars.join(', ')}`
       );
-    }
-    
-    // Log custom field configuration status in development
-    if (process.env.NODE_ENV !== 'production') {
-      console.log('CLICKUP_ENV_STATUS', {
-        hasToken: !!apiToken,
-        hasListId: !!listId,
-      });
-      console.log('Custom Field ID Constants Status (with fallbacks):');
-      console.log({
-        CLICKUP_FIELD_FULL_NAME_ID,
-        CLICKUP_FIELD_EMAIL_ID,
-        CLICKUP_FIELD_COMPANY_ID,
-        CLICKUP_FIELD_ROLE_ID,
-        CLICKUP_FIELD_PHONE_ID,
-        CLICKUP_FIELD_COUNTRY_ID,
-        CLICKUP_FIELD_POS_ID,
-        CLICKUP_FIELD_LOCATIONS_ID,
-        CLICKUP_FIELD_MESSAGE_ID,
+
+      // Still return success to user - we saved the submission!
+      console.log(`[${requestId}] Returning success despite ClickUp config missing`);
+      return NextResponse.json({
+        success: true,
+        message: 'Your request has been received and will be processed shortly.',
+        submissionId: submission.id,
       });
     }
 
@@ -184,20 +191,22 @@ ${message}
 - **UTM Campaign:** ${utmCampaign || 'N/A'}
 
 **Submitted:** ${new Date().toISOString()}
+**Request ID:** ${requestId}
+**Submission ID:** ${submission.id}
     `.trim();
 
     // Prepare ClickUp task payload
+    // NOTE: Do not include 'status' - ClickUp will use list default
+    // Status is only for internal tracking (UnifiedStore/Google Sheets)
     const taskPayload: any = {
       name: `${ctaLabel || 'Website Lead'} – ${name}`,
       description,
-      status: 'to do',
       priority: 3,
     };
 
-    // Build custom fields array using resilient constants with fallbacks
+    // Build custom fields array
     const customFields: { id: string; value: any }[] = [];
     
-    // Lead Information Custom Fields
     if (CLICKUP_FIELD_FULL_NAME_ID && name) {
       customFields.push({ id: CLICKUP_FIELD_FULL_NAME_ID, value: name });
     }
@@ -210,7 +219,6 @@ ${message}
     if (CLICKUP_FIELD_ROLE_ID && role) {
       customFields.push({ id: CLICKUP_FIELD_ROLE_ID, value: role });
     }
-    // Phone: pass directly to text field (no normalization needed)
     if (CLICKUP_FIELD_PHONE_ID && phone) {
       customFields.push({ id: CLICKUP_FIELD_PHONE_ID, value: phone });
     }
@@ -227,7 +235,7 @@ ${message}
       customFields.push({ id: CLICKUP_FIELD_MESSAGE_ID, value: message });
     }
     
-    // Source Tracking Custom Fields (CTA/UTM)
+    // Source tracking fields
     if (CLICKUP_CF_CTA_LABEL_ID && ctaLabel) {
       customFields.push({ id: CLICKUP_CF_CTA_LABEL_ID, value: ctaLabel });
     }
@@ -244,120 +252,78 @@ ${message}
       customFields.push({ id: CLICKUP_CF_UTM_CAMPAIGN_ID, value: utmCampaign });
     }
 
-    // Add custom fields to payload only if we have any
     if (customFields.length > 0) {
       taskPayload.custom_fields = customFields;
     }
 
-    // Log payload before sending (development only)
-    if (process.env.NODE_ENV !== 'production') {
-      console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-      console.log('CLICKUP FINAL TASK PAYLOAD (sanitized):');
-      console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-      console.log('Task Name:', taskPayload.name);
-      console.log('Has Description:', !!taskPayload.description);
-      console.log('Has Custom Fields:', !!taskPayload.custom_fields);
-      console.log('Custom Fields Count:', taskPayload.custom_fields?.length || 0);
-      console.log('Custom Fields Preview:', 
-        (taskPayload.custom_fields || []).map((f: any) => ({
-          id: f.id,
-          value: typeof f.value === 'string' && f.value.length > 30 
-            ? f.value.substring(0, 30) + '...' 
-            : f.value,
-        }))
+    console.log(`[${requestId}] Attempting to create ClickUp task...`);
+
+    // Call ClickUp API with automatic retries
+    const result = await createClickUpTask(apiToken, listId, taskPayload, requestId);
+
+    if (result.success) {
+      // Success! Update submission status
+      await updateSubmissionUnified(
+        submission.id,
+        'success',
+        result.task.id,
+        undefined
       );
-      console.log('API URL:', `https://api.clickup.com/api/v2/list/${listId}/task`);
-      console.log('Has API Token:', !!apiToken);
-      console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
-    }
 
-    // Call ClickUp API
-    try {
-      const url = `https://api.clickup.com/api/v2/list/${listId}/task`;
-      
-      const response = await fetch(url, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': apiToken!,
-        },
-        body: JSON.stringify(taskPayload),
-      });
-
-      const text = await response.text();
-      let json: any = null;
-      try {
-        json = text ? JSON.parse(text) : null;
-      } catch {
-        // non-JSON body, leave json as null
-      }
-
-      if (!response.ok) {
-        if (process.env.NODE_ENV !== 'production') {
-          console.error('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-          console.error('CLICKUP API ERROR:');
-          console.error('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-          console.error('Status:', response.status);
-          console.error('Status Text:', response.statusText);
-          console.error('Response Body:', text);
-          console.error('Parsed JSON:', json);
-          console.error('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
-        }
-
-        return NextResponse.json(
-          {
-            success: false,
-            error: 'CLICKUP_API_ERROR',
-            status: response.status,
-            message: 'Failed to create task in ClickUp',
-            details: process.env.NODE_ENV !== 'production' ? text : undefined,
-          },
-          { status: 500 }
-        );
-      }
-
-      const clickupData = json || {};
-
-      if (process.env.NODE_ENV !== 'production') {
-        console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-        console.log('CLICKUP TASK CREATED SUCCESSFULLY:');
-        console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-        console.log('Task ID:', clickupData.id);
-        console.log('Task Name:', clickupData.name);
-        console.log('Task URL:', clickupData.url);
-        console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
-      }
+      const duration = Date.now() - startTime;
+      console.log(`[${requestId}] ===== SUCCESS (${duration}ms) =====`);
+      console.log(`[${requestId}] ClickUp Task ID: ${result.task.id}`);
+      console.log(`[${requestId}] ClickUp Task URL: ${result.task.url}`);
 
       return NextResponse.json({
         success: true,
-        taskId: clickupData.id,
-        taskUrl: clickupData.url,
+        message: 'Thank you! We have received your request.',
+        submissionId: submission.id,
+        taskId: result.task.id,
+        taskUrl: result.task.url,
       });
-    } catch (err: any) {
-      if (process.env.NODE_ENV !== 'production') {
-        console.error('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-        console.error('CLICKUP REQUEST FAILED:');
-        console.error('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-        console.error('Error Message:', err?.message);
-        console.error('Error Stack:', err?.stack);
-        console.error('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
-      }
+    } else {
+      // ClickUp failed, but we already saved the submission
+      const { error } = result;
+      
+      console.error(`[${requestId}] ClickUp sync failed:`, {
+        type: error.type,
+        message: error.message,
+        retryable: error.retryable,
+      });
 
-      return NextResponse.json(
-        {
-          success: false,
-          error: 'CLICKUP_REQUEST_FAILED',
-          message: 'Failed to create task in ClickUp',
-          details: process.env.NODE_ENV !== 'production' ? err?.message : undefined,
-        },
-        { status: 500 }
+      // Update submission with error details
+      await updateSubmissionUnified(
+        submission.id,
+        'failed',
+        undefined,
+        `${error.type}: ${error.message}`
       );
+
+      const duration = Date.now() - startTime;
+      console.log(`[${requestId}] ===== PARTIAL SUCCESS (${duration}ms) =====`);
+      console.log(`[${requestId}] Submission saved but ClickUp sync failed`);
+      console.log(`[${requestId}] Error type: ${error.type}`);
+
+      // IMPORTANT: Still return success to user!
+      // We saved the submission, admin can manually create ClickUp task later
+      return NextResponse.json({
+        success: true,
+        message: 'Your request has been received and will be processed shortly.',
+        submissionId: submission.id,
+      });
     }
 
-  } catch (error) {
-    console.error('Error processing CTA submission:', error);
+  } catch (error: any) {
+    const duration = Date.now() - startTime;
+    console.error(`[${requestId}] ===== ERROR (${duration}ms) =====`);
+    console.error(`[${requestId}] Unexpected error:`, error);
+
     return NextResponse.json(
-      { success: false, error: 'Internal server error' },
+      { 
+        success: false, 
+        error: 'We encountered an issue processing your request. Please try again or contact support.',
+      },
       { status: 500 }
     );
   }

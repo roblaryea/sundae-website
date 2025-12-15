@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
@@ -9,18 +9,6 @@ import { motion } from 'framer-motion';
 import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 
 export default function PricingPage() {
-  const [billingCycle, setBillingCycle] = useState<'monthly' | 'annual'>('monthly');
-  const [showEnterprisePricing, setShowEnterprisePricing] = useState(false);
-
-  const enterpriseTiers = [
-    { range: "31–100 locations", basePrice: "$75,000/year", perLocation: "$100/location/month" },
-    { range: "101–250 locations", basePrice: "$90,000/year", perLocation: "$80/location/month" },
-    { range: "251–500 locations", basePrice: "$105,000/year", perLocation: "$70/location/month" },
-    { range: "501–1,000 locations", basePrice: "$125,000/year", perLocation: "$60/location/month" },
-    { range: "1,000–2,000 locations", basePrice: "$150,000/year", perLocation: "$50/location/month" },
-    { range: "2,000+ locations", basePrice: "$175,000/year", perLocation: "$35/location/month" }
-  ];
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-soft-white via-pure-white to-blue-50 dark:from-graphite-black dark:via-gray-900 dark:to-deep-blue/10">
       {/* Hero Section */}
@@ -33,39 +21,13 @@ export default function PricingPage() {
             className="text-center mb-12"
           >
             <h1 className="hero-h1 text-gray-900 dark:text-white mb-6">
-              Pricing That Scales
+              Choose Your
               <br />
-              <span className="text-gradient">With Your Business</span>
+              <span className="text-gradient">Intelligence Level</span>
             </h1>
             <p className="body-lg text-gray-700 dark:text-gray-300 mb-10 max-w-3xl mx-auto">
-              Transparent pricing. No hidden fees. Start free, scale as you grow.
+              Start with live dashboards and benchmarking. Upgrade to real-time, AI-driven operational intelligence when you're ready.
             </p>
-            
-            {/* Billing Toggle */}
-            <div className="flex justify-center">
-              <div className="bg-white dark:bg-gray-800 rounded-xl p-1.5 shadow-lg border border-gray-200 dark:border-gray-700">
-                <button
-                  onClick={() => setBillingCycle('monthly')}
-                  className={`px-8 py-3 rounded-lg font-semibold transition-all text-[15px] ${
-                    billingCycle === 'monthly' 
-                      ? 'bg-electric-blue text-white shadow-md' 
-                      : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200'
-                  }`}
-                >
-                  Monthly
-                </button>
-                <button
-                  onClick={() => setBillingCycle('annual')}
-                  className={`px-8 py-3 rounded-lg font-semibold transition-all text-[15px] ${
-                    billingCycle === 'annual' 
-                      ? 'bg-electric-blue text-white shadow-md' 
-                      : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200'
-                  }`}
-                >
-                  Annual
-                </button>
-              </div>
-            </div>
           </motion.div>
         </div>
       </section>
@@ -73,6 +35,13 @@ export default function PricingPage() {
       {/* Sundae Report Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-8">
+            <div className="inline-flex items-center space-x-2 bg-electric-blue/10 text-electric-blue px-6 py-2.5 rounded-full text-base font-semibold">
+              <span>📊</span>
+              <span>Sundae Report</span>
+            </div>
+          </div>
+          
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -83,18 +52,18 @@ export default function PricingPage() {
               <CardHeader className="pb-8">
                 <div className="flex items-start justify-between mb-4">
                   <div>
-                    <div className="inline-flex items-center space-x-2 bg-electric-blue/10 text-electric-blue px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                    <div className="inline-flex items-center space-x-2 bg-green-500/10 text-green-700 dark:text-green-400 px-4 py-2 rounded-full text-sm font-semibold mb-4">
                       <span>🎉</span>
-                      <span>Free for Early Access</span>
+                      <span>Free Early Access</span>
                     </div>
                     <CardTitle className="section-h2 text-gray-900 dark:text-white mb-3">Sundae Report</CardTitle>
                     <CardDescription className="body-lg text-gray-700 dark:text-gray-300">
-                      See where you stand. Free benchmarking against similar restaurants.
+                      Live dashboards, AI insights, and peer benchmarking—all in one place.
                     </CardDescription>
                   </div>
                   <div className="text-right">
-                    <div className="text-5xl font-bold text-electric-blue mb-2">FREE</div>
-                    <div className="text-sm text-gray-600 dark:text-gray-400">Limited time</div>
+                    <div className="text-6xl font-bold text-electric-blue mb-1">FREE</div>
+                    <div className="text-base font-semibold text-gray-600 dark:text-gray-400">Limited Time</div>
                   </div>
                 </div>
               </CardHeader>
@@ -102,32 +71,36 @@ export default function PricingPage() {
               <CardContent>
                 <div className="grid md:grid-cols-2 gap-8">
                   <div>
-                    <div className="bg-green-50 dark:bg-green-900/20 rounded-xl p-6 mb-6 border border-green-200 dark:border-green-800">
-                      <h4 className="font-semibold text-gray-900 dark:text-white text-lg mb-3">🎁 Early Access Offer</h4>
-                      <ul className="space-y-2 body-base text-gray-700 dark:text-gray-300">
-                        <li>✓ Free for first 100 restaurant groups</li>
-                        <li>✓ Free for first 3 months for all new sign-ups</li>
-                      </ul>
-                    </div>
-
-                    <div className="bg-blue-50 dark:bg-blue-900/20 rounded-xl p-6 border border-blue-200 dark:border-blue-800">
-                      <h4 className="font-semibold text-gray-900 dark:text-white text-lg mb-3">After free period:</h4>
-                      <ul className="space-y-2 body-base text-gray-700 dark:text-gray-300">
-                        <li>• <span className="font-semibold">$25/location/month</span> – Standard data</li>
-                        <li>• <span className="font-semibold">$50/location/month</span> – Premium geographic/macro data</li>
+                    <div className="bg-green-50 dark:bg-green-900/20 rounded-xl p-6 border-2 border-green-200 dark:border-green-800">
+                      <h4 className="font-semibold text-gray-900 dark:text-white text-xl mb-4">🎁 Early Access Offer</h4>
+                      <ul className="space-y-3 body-base text-gray-700 dark:text-gray-300">
+                        <li className="flex items-start space-x-2">
+                          <span className="text-green-600 dark:text-green-400 font-bold">✓</span>
+                          <span><strong>Free for first 100 restaurant groups</strong></span>
+                        </li>
+                        <li className="flex items-start space-x-2">
+                          <span className="text-green-600 dark:text-green-400 font-bold">✓</span>
+                          <span><strong>Free for first 3 months</strong> for all new sign-ups</span>
+                        </li>
+                        <li className="flex items-start space-x-2">
+                          <span className="text-green-600 dark:text-green-400 font-bold">✓</span>
+                          <span>No credit card required</span>
+                        </li>
                       </ul>
                     </div>
                   </div>
 
                   <div>
-                    <h4 className="font-semibold text-gray-900 dark:text-white text-lg mb-4">What's Included:</h4>
+                    <h4 className="font-semibold text-gray-900 dark:text-white text-lg mb-4">What You Get:</h4>
                     <ul className="space-y-3">
                       {[
-                        "Sales, labor, COGS benchmarks",
-                        "100+ KPIs tracked and compared",
-                        "Region + segment comparisons",
-                        "PDF summary report",
-                        "Weekly benchmark refreshes",
+                        "Live performance dashboards built from your daily data",
+                        "Comparable period views + target tracking (WoW/MoM/YoY)",
+                        "AI executive summary: what changed, why, and next actions",
+                        "Opportunity & risk flags vs targets + peers",
+                        "Anonymous peer benchmarking (like-for-like)",
+                        "Shareable charts + team collaboration",
+                        "Weekly AI brief + PDF export",
                         "Email support"
                       ].map((feature, index) => (
                         <li key={index} className="flex items-start space-x-3">
@@ -143,9 +116,12 @@ export default function PricingPage() {
 
                     <Link href="/demo" className="block mt-8">
                       <Button variant="primary" size="lg" className="w-full py-4 text-[16px] font-semibold shadow-xl hover:shadow-2xl">
-                        Generate My Free Report
+                        Get Started
                       </Button>
                     </Link>
+                    <p className="text-center text-sm text-gray-600 dark:text-gray-400 mt-3">
+                      Custom onboarding based on your data source
+                    </p>
                   </div>
                 </div>
               </CardContent>
@@ -176,29 +152,23 @@ export default function PricingPage() {
                 <CardHeader className="pb-6">
                   <CardTitle className="section-h3 text-gray-900 dark:text-white mb-3">Core</CardTitle>
                   <CardDescription className="body-base text-gray-600 dark:text-gray-400 mb-6">
-                    For groups with up to 30 locations
+                    Real-time operational intelligence for single operators and growing groups
                   </CardDescription>
-                  
-                  <div className="mb-6">
-                    <div className="text-5xl font-bold text-gray-900 dark:text-white mb-2">
-                      $200
-                    </div>
-                    <div className="body-base text-gray-600 dark:text-gray-400">per location/month</div>
-                  </div>
                 </CardHeader>
                 
                 <CardContent>
                   <h4 className="font-semibold text-gray-900 dark:text-white text-lg mb-4">Everything in Report, plus:</h4>
                   <ul className="space-y-3 mb-8">
                     {[
-                      "Nexus conversational AI",
-                      "Canvas real-time dashboards",
-                      "Insights correlation engine",
-                      "Pulse anomaly detection",
-                      "Scout data integrations",
-                      "Watchtower market intelligence",
-                      "Unlimited users",
-                      "Support & onboarding"
+                      "Real-time dashboards with drill-down analysis",
+                      "Smart targets, alerts, and anomaly detection",
+                      "AI recommendations and action playbooks",
+                      "Team collaboration with task ownership on insights",
+                      "POS and data connector integrations (where available)",
+                      "Scheduled insights and custom exports",
+                      "Conversational AI for data queries",
+                      "Market intelligence and competitor context",
+                      "Unlimited users + priority support"
                     ].map((feature, index) => (
                       <li key={index} className="flex items-start space-x-3">
                         <div className="w-6 h-6 bg-electric-blue rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -216,6 +186,10 @@ export default function PricingPage() {
                       Get Started
                     </Button>
                   </Link>
+                  
+                  <p className="text-center text-sm text-gray-600 dark:text-gray-400 mt-4">
+                    Custom pricing based on your needs
+                  </p>
                 </CardContent>
               </Card>
             </motion.div>
@@ -235,58 +209,34 @@ export default function PricingPage() {
                   </div>
                   <CardTitle className="section-h3 text-gray-900 dark:text-white mb-3">Enterprise</CardTitle>
                   <CardDescription className="body-base text-gray-600 dark:text-gray-400 mb-6">
-                    Flexible pricing for groups with 30+ locations
+                    Enterprise-grade intelligence for multi-location operators—governance, integrations, and control
                   </CardDescription>
-                  
-                  <div className="mb-6">
-                    <div className="section-h4 text-gray-900 dark:text-white mb-2">
-                      Volume-based pricing
-                    </div>
-                    <div className="body-base text-gray-600 dark:text-gray-400">Lower per-location costs at scale</div>
-                  </div>
                 </CardHeader>
                 
                 <CardContent>
-                  {/* Enterprise Pricing Table */}
-                  <div className="bg-white dark:bg-gray-900 rounded-xl border-2 border-gray-200 dark:border-gray-700 overflow-hidden mb-6">
-                    <div className="bg-gray-50 dark:bg-gray-800 px-4 py-3 border-b border-gray-200 dark:border-gray-700">
-                      <div className="grid grid-cols-3 gap-4 font-semibold text-sm text-gray-900 dark:text-white">
-                        <div>Locations</div>
-                        <div>Base Price</div>
-                        <div>Per Location</div>
-                      </div>
-                    </div>
-                    
-                    <div className="divide-y divide-gray-200 dark:divide-gray-700">
-                      {enterpriseTiers.slice(0, showEnterprisePricing ? enterpriseTiers.length : 1).map((tier, index) => (
-                        <div key={index} className="px-4 py-3 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
-                          <div className="grid grid-cols-3 gap-4 text-sm">
-                            <div className="text-gray-900 dark:text-white font-medium">{tier.range}</div>
-                            <div className="text-gray-700 dark:text-gray-300">{tier.basePrice}</div>
-                            <div className="text-electric-blue font-semibold">{tier.perLocation}</div>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                    
-                    {!showEnterprisePricing && (
-                      <button
-                        onClick={() => setShowEnterprisePricing(true)}
-                        className="w-full px-4 py-3 text-center text-electric-blue hover:bg-gray-50 dark:hover:bg-gray-800 font-medium text-sm transition-colors border-t border-gray-200 dark:border-gray-700"
-                      >
-                        See full enterprise pricing →
-                      </button>
-                    )}
-                  </div>
-
                   <div className="mb-6">
                     <h4 className="font-semibold text-gray-900 dark:text-white text-lg mb-4">Everything in Core, plus:</h4>
-                    <ul className="space-y-2 body-base text-gray-700 dark:text-gray-300">
-                      <li>• Dedicated success manager</li>
-                      <li>• Custom integrations</li>
-                      <li>• Advanced security & compliance</li>
-                      <li>• White-label options</li>
-                      <li>• 24/7 priority support</li>
+                    <ul className="space-y-3">
+                      {[
+                        "Multi-location rollups + cross-region/brand benchmarking",
+                        "Role-based access controls and audit trails",
+                        "Advanced data pipelines and custom integrations",
+                        "Custom KPI frameworks and advanced segmentation",
+                        "Enterprise security and compliance features",
+                        "Dedicated success manager and onboarding",
+                        "24/7 priority support with SLA options",
+                        "White-label and partner solutions",
+                        "Flexible contract terms and volume pricing"
+                      ].map((feature, index) => (
+                        <li key={index} className="flex items-start space-x-3">
+                          <div className="w-6 h-6 bg-electric-blue rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                            <svg className="w-3.5 h-3.5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                              <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                            </svg>
+                          </div>
+                          <span className="body-base text-gray-700 dark:text-gray-300">{feature}</span>
+                        </li>
+                      ))}
                     </ul>
                   </div>
                   
@@ -295,6 +245,10 @@ export default function PricingPage() {
                       Contact Sales
                     </Button>
                   </Link>
+                  
+                  <p className="text-center text-sm text-gray-600 dark:text-gray-400 mt-4">
+                    Custom pricing based on your needs
+                  </p>
                 </CardContent>
               </Card>
             </motion.div>
@@ -316,7 +270,7 @@ export default function PricingPage() {
             {([
               {
                 name: "Advanced Market Intelligence",
-                price: "$50/location/month",
+                availability: "Available as an add-on",
                 features: [
                   "Competitor benchmarks",
                   "Event + weather + macro insights",
@@ -326,7 +280,7 @@ export default function PricingPage() {
               },
               {
                 name: "Custom AI Development",
-                price: "Custom pricing",
+                availability: "Included in custom plans",
                 features: [
                   "Bespoke AI models",
                   "Proprietary algorithms",
@@ -336,7 +290,7 @@ export default function PricingPage() {
               },
               {
                 name: "Premium Support",
-                price: "$250/month",
+                availability: "Available as an add-on",
                 features: [
                   "24/7 dedicated support",
                   "Faster response times",
@@ -346,10 +300,10 @@ export default function PricingPage() {
               },
               {
                 name: "External Data Licensing",
-                price: "$500/location (50% off)",
+                availability: "Available as an add-on",
                 features: [
                   "For non-restaurant use cases",
-                  "Early adopter discount",
+                  "Early adopter pricing",
                   "Custom data delivery"
                 ],
                 icon: "benchmarking" as SundaeIconName
@@ -369,7 +323,7 @@ export default function PricingPage() {
                         <SundaeIcon name={addon.icon} size="lg" className="text-white" />
                       </div>
                       <div className="text-right">
-                        <div className="text-lg font-bold text-electric-blue">{addon.price}</div>
+                        <div className="text-sm font-semibold text-electric-blue">{addon.availability}</div>
                       </div>
                     </div>
                     <CardTitle className="text-xl text-gray-900 dark:text-white mb-2">{addon.name}</CardTitle>
@@ -445,27 +399,31 @@ export default function PricingPage() {
               items={[
                 {
                   title: "What happens after the free period?",
-                  content: "After your free period ends, you can choose to continue with Report at $25-50/location/month, upgrade to Core, or discontinue service. No credit card required to start."
+                  content: "When early access ends, we'll recommend the right fit based on your footprint and data depth. Upgrade to Core, move to Enterprise, or pause—no lock-in."
                 },
                 {
                   title: "How do you count a location?",
-                  content: "A location is any physical restaurant address where you operate. Multiple brands at the same address count as one location."
+                  content: "A location is one physical restaurant address. Multiple brands under the same roof still count as one location."
                 },
                 {
-                  title: "What is included in Core vs Report?",
-                  content: "Report provides benchmarking only. Core includes the full Sundae Intelligence Stack: Nexus AI, Canvas dashboards, Insights engine, Pulse alerts, Scout integrations, and Watchtower market intel."
+                  title: "What's included in Sundae Report vs Core?",
+                  content: "Sundae Report gives you live dashboards and peer benchmarks, plus an AI brief that explains what changed and what to do next (based on the data you share). Core unlocks the full intelligence stack: deeper drilldowns, automated insights, alerts, workflows, and integrations."
                 },
                 {
-                  title: "Do you offer multi-brand discounts?",
-                  content: "Yes, Enterprise pricing includes volume-based discounts. The more locations, the lower the per-location cost."
+                  title: "Do you support multi-brand and multi-location groups?",
+                  content: "Yes. Enterprise is built for groups—rollups across brands and regions, governance, permissions, and tailored reporting structures."
                 },
                 {
-                  title: "Is my data secure?",
-                  content: "Absolutely. We use bank-level encryption, are SOC 2 Type II compliant, and never share your data with third parties. Your data is always yours."
+                  title: "Do you offer group packages?",
+                  content: "Yes. We tailor packages around your footprint, brands, data sources, and support needs. Tell us what you're running and we'll recommend the cleanest setup."
                 },
                 {
-                  title: "Can I switch between plans?",
-                  content: "Yes, you can upgrade or downgrade at any time. Changes take effect immediately and billing is prorated."
+                  title: "Is my data private and secure?",
+                  content: "Your data stays yours. We secure data in transit and at rest using industry-standard protections, enforce strict access controls, and use anonymized, aggregated benchmarking where applicable. We can share our security overview and data-processing terms on request."
+                },
+                {
+                  title: "Can I change plans later?",
+                  content: "Absolutely. Many teams start with Report and upgrade as they scale. Switching plans is straightforward—we'll guide you."
                 }
               ]}
               defaultOpenIndex={0}
