@@ -8,6 +8,56 @@
 import { google } from 'googleapis';
 import { randomUUID } from 'crypto';
 
+/**
+ * Normalize a private key string to handle various environment formats
+ * Handles: quoted strings, literal \n sequences, Windows CRLF, extra whitespace
+ */
+function normalizePrivateKey(raw?: string): string {
+  if (!raw) return '';
+  
+  // Remove surrounding quotes if present
+  let normalized = raw.replace(/^["']|["']$/g, '');
+  
+  // Convert literal \n sequences to actual newlines
+  normalized = normalized.replace(/\\n/g, '\n');
+  
+  // Remove \r characters (Windows CRLF)
+  normalized = normalized.replace(/\r/g, '');
+  
+  // Trim whitespace
+  normalized = normalized.trim();
+  
+  return normalized;
+}
+
+/**
+ * Validate private key format
+ */
+function validatePrivateKey(key: string): {
+  isValid: boolean;
+  startsCorrectly: boolean;
+  endsCorrectly: boolean;
+  length: number;
+  error?: string;
+} {
+  const startsCorrectly = key.startsWith('-----BEGIN PRIVATE KEY-----');
+  const endsCorrectly = key.includes('-----END PRIVATE KEY-----');
+  const length = key.length;
+  
+  const isValid = startsCorrectly && endsCorrectly && length > 100;
+  
+  let error: string | undefined;
+  if (!startsCorrectly) {
+    error = 'Private key does not start with -----BEGIN PRIVATE KEY-----';
+  } else if (!endsCorrectly) {
+    error = 'Private key does not end with -----END PRIVATE KEY-----';
+  } else if (length < 100) {
+    error = 'Private key is too short';
+  }
+  
+  return { isValid, startsCorrectly, endsCorrectly, length, error };
+}
+
 export interface SheetSubmission {
   submission_id: string;
   timestamp: string;
@@ -48,10 +98,25 @@ export function isGoogleSheetsEnabled(): boolean {
  */
 async function getSheetsClient() {
   try {
+    // Normalize and validate private key
+    const rawKey = process.env.GOOGLE_PRIVATE_KEY;
+    const privateKey = normalizePrivateKey(rawKey);
+    
+    const validation = validatePrivateKey(privateKey);
+    if (!validation.isValid) {
+      console.error('[GoogleSheets] Private key validation failed:', {
+        startsCorrectly: validation.startsCorrectly,
+        endsCorrectly: validation.endsCorrectly,
+        length: validation.length,
+        error: validation.error,
+      });
+      throw new Error(`Private key malformed: ${validation.error}`);
+    }
+    
     const auth = new google.auth.GoogleAuth({
       credentials: {
         client_email: process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL,
-        private_key: process.env.GOOGLE_PRIVATE_KEY?.replace(/\\n/g, '\n'),
+        private_key: privateKey,
       },
       scopes: ['https://www.googleapis.com/auth/spreadsheets'],
     });
@@ -257,11 +322,33 @@ export async function testGoogleSheetsConnection(): Promise<{
   sheetId?: string;
   rowCount?: number;
   error?: string;
+  debug?: {
+    keyStartsCorrectly?: boolean;
+    keyEndsCorrectly?: boolean;
+    keyLength?: number;
+  };
 }> {
   if (!isGoogleSheetsEnabled()) {
     return {
       ok: false,
       error: 'Google Sheets not configured',
+    };
+  }
+
+  // Validate private key before attempting connection
+  const rawKey = process.env.GOOGLE_PRIVATE_KEY;
+  const privateKey = normalizePrivateKey(rawKey);
+  const validation = validatePrivateKey(privateKey);
+  
+  if (!validation.isValid) {
+    return {
+      ok: false,
+      error: `Google private key malformed: ${validation.error}`,
+      debug: {
+        keyStartsCorrectly: validation.startsCorrectly,
+        keyEndsCorrectly: validation.endsCorrectly,
+        keyLength: validation.length,
+      },
     };
   }
 

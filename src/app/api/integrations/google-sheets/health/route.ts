@@ -1,6 +1,9 @@
 import { NextResponse } from 'next/server';
 import { testGoogleSheetsConnection } from '@/lib/googleSheetsClient';
 
+// Force Node.js runtime (required for Google Auth crypto operations)
+export const runtime = 'nodejs';
+
 // Cache health check results for 60 seconds
 let cachedResult: {
   timestamp: number;
@@ -31,6 +34,7 @@ export async function GET() {
       sheetId: healthCheck.sheetId,
       rowCount: healthCheck.rowCount,
       error: healthCheck.error,
+      debug: healthCheck.debug,
       statusCode: healthCheck.ok ? 200 : 503,
     };
 
