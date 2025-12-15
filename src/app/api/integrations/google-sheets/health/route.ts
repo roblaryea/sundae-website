@@ -1,26 +1,13 @@
 import { NextResponse } from 'next/server';
 import { testGoogleSheetsConnection } from '@/lib/googleSheetsClient';
 
-// Cache health check results for 60 seconds
-let cachedResult: {
-  timestamp: number;
-  response: any;
-} | null = null;
+// Force Node.js runtime (required for Google Auth crypto operations)
+export const runtime = 'nodejs';
 
-const CACHE_TTL_MS = 60 * 1000; // 60 seconds
+// Force dynamic rendering (no caching)
+export const dynamic = 'force-dynamic';
 
 export async function GET() {
-  const now = Date.now();
-
-  // Return cached result if still valid
-  if (cachedResult && (now - cachedResult.timestamp) < CACHE_TTL_MS) {
-    return NextResponse.json({
-      ...cachedResult.response,
-      cached: true,
-      cacheAge: Math.round((now - cachedResult.timestamp) / 1000),
-    });
-  }
-
   // Test Google Sheets connection
   try {
     const healthCheck = await testGoogleSheetsConnection();
@@ -31,17 +18,20 @@ export async function GET() {
       sheetId: healthCheck.sheetId,
       rowCount: healthCheck.rowCount,
       error: healthCheck.error,
+      // Safe debug info (no secrets)
+      debug: healthCheck.debug ? {
+        startsWithBegin: healthCheck.debug.keyStartsCorrectly,
+        hasEnd: healthCheck.debug.keyEndsCorrectly,
+        keyLength: healthCheck.debug.keyLength,
+      } : undefined,
       statusCode: healthCheck.ok ? 200 : 503,
     };
 
-    // Cache the result
-    cachedResult = {
-      timestamp: now,
-      response,
-    };
-
     return NextResponse.json(response, { 
-      status: healthCheck.ok ? 200 : 503 
+      status: healthCheck.ok ? 200 : 503,
+      headers: {
+        'Cache-Control': 'no-store, no-cache, must-revalidate',
+      },
     });
   } catch (error: any) {
     const response = {
@@ -51,12 +41,11 @@ export async function GET() {
       statusCode: 500,
     };
 
-    // Cache the error result
-    cachedResult = {
-      timestamp: now,
-      response,
-    };
-
-    return NextResponse.json(response, { status: 500 });
+    return NextResponse.json(response, { 
+      status: 500,
+      headers: {
+        'Cache-Control': 'no-store, no-cache, must-revalidate',
+      },
+    });
   }
 }
