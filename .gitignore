@@ -33,6 +33,9 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+# submission fallback storage (contains sensitive user data)
+.submissions/
+
 # vercel
 .vercel
 
@@ -44,4 +47,3 @@ node_modules/
 .env
 .DS_Store
 npm-debug.log
-
