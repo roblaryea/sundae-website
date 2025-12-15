@@ -9,25 +9,39 @@ import { google } from 'googleapis';
 import { randomUUID } from 'crypto';
 
 /**
- * Normalize a private key string to handle various environment formats
- * Handles: quoted strings, literal \n sequences, Windows CRLF, extra whitespace
+ * Get private key with robust handling for multiple formats
+ * Prefers GOOGLE_PRIVATE_KEY_B64 (base64 encoded), falls back to GOOGLE_PRIVATE_KEY
  */
-function normalizePrivateKey(raw?: string): string {
-  if (!raw) return '';
+function getPrivateKey(): string {
+  // Prefer base64-encoded key (cleanest format for Vercel)
+  const base64Key = process.env.GOOGLE_PRIVATE_KEY_B64;
+  if (base64Key) {
+    try {
+      // Decode base64 to UTF-8 PEM
+      const decoded = Buffer.from(base64Key, 'base64').toString('utf8');
+      // Remove \r and trim
+      return decoded.replace(/\r/g, '').trim();
+    } catch (error) {
+      console.error('[GoogleSheets] Failed to decode GOOGLE_PRIVATE_KEY_B64:', error);
+      // Fall through to regular key
+    }
+  }
+  
+  // Fallback: normalize regular key
+  const rawKey = process.env.GOOGLE_PRIVATE_KEY;
+  if (!rawKey) return '';
   
   // Remove surrounding quotes if present
-  let normalized = raw.replace(/^["']|["']$/g, '');
+  let normalized = rawKey.replace(/^["']|["']$/g, '');
   
-  // Convert literal \n sequences to actual newlines
+  // Convert literal \\n sequences to actual newlines
   normalized = normalized.replace(/\\n/g, '\n');
   
   // Remove \r characters (Windows CRLF)
   normalized = normalized.replace(/\r/g, '');
   
   // Trim whitespace
-  normalized = normalized.trim();
-  
-  return normalized;
+  return normalized.trim();
 }
 
 /**
@@ -98,9 +112,8 @@ export function isGoogleSheetsEnabled(): boolean {
  */
 async function getSheetsClient() {
   try {
-    // Normalize and validate private key
-    const rawKey = process.env.GOOGLE_PRIVATE_KEY;
-    const privateKey = normalizePrivateKey(rawKey);
+    // Get and validate private key
+    const privateKey = getPrivateKey();
     
     const validation = validatePrivateKey(privateKey);
     if (!validation.isValid) {
@@ -336,8 +349,7 @@ export async function testGoogleSheetsConnection(): Promise<{
   }
 
   // Validate private key before attempting connection
-  const rawKey = process.env.GOOGLE_PRIVATE_KEY;
-  const privateKey = normalizePrivateKey(rawKey);
+  const privateKey = getPrivateKey();
   const validation = validatePrivateKey(privateKey);
   
   if (!validation.isValid) {
