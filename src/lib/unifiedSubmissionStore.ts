@@ -37,7 +37,8 @@ export interface SavedSubmission {
 
 /**
  * Save a submission to the configured storage backend
- * Prefers Google Sheets, falls back to file storage
+ * In production: REQUIRES Google Sheets (no file storage fallback)
+ * In development: Falls back to file storage if Sheets unavailable
  */
 export async function saveSubmissionUnified(
   data: SubmissionData,
@@ -45,6 +46,8 @@ export async function saveSubmissionUnified(
   clickupTaskId?: string,
   clickupError?: string
 ): Promise<SavedSubmission> {
+  const isProduction = process.env.NODE_ENV === 'production' || process.env.VERCEL_ENV === 'production';
+  
   // Try Google Sheets first if enabled
   if (isGoogleSheetsEnabled()) {
     try {
@@ -64,12 +67,27 @@ export async function saveSubmissionUnified(
       };
     } catch (error: any) {
       console.error(`[UnifiedStore] Google Sheets save failed:`, error.message);
-      console.log(`[UnifiedStore] Falling back to file storage...`);
-      // Fall through to file storage
+      
+      // In production, Google Sheets failure is fatal
+      if (isProduction) {
+        console.error(`[UnifiedStore] PRODUCTION: Cannot fall back to file storage`);
+        throw new Error(`Google Sheets not configured or failed: ${error.message}`);
+      }
+      
+      console.log(`[UnifiedStore] DEV: Falling back to file storage...`);
+      // Fall through to file storage (dev only)
     }
+  } else {
+    // Google Sheets not enabled
+    if (isProduction) {
+      console.error(`[UnifiedStore] PRODUCTION: Google Sheets not configured`);
+      throw new Error('Google Sheets storage is not configured. Please contact support.');
+    }
+    
+    console.log(`[UnifiedStore] DEV: Google Sheets not enabled, using file storage`);
   }
 
-  // Fallback to file storage
+  // Fallback to file storage (development only)
   const submission = await saveSubmission(data, clickupSyncStatus, clickupTaskId, clickupError);
   
   console.log(`[UnifiedStore] Saved to file storage: ${submission.id}`);
@@ -90,6 +108,8 @@ export async function updateSubmissionUnified(
   clickupTaskId?: string,
   clickupError?: string
 ): Promise<void> {
+  const isProduction = process.env.NODE_ENV === 'production' || process.env.VERCEL_ENV === 'production';
+  
   // Try Google Sheets first if enabled
   if (isGoogleSheetsEnabled()) {
     try {
@@ -103,12 +123,22 @@ export async function updateSubmissionUnified(
       return;
     } catch (error: any) {
       console.error(`[UnifiedStore] Google Sheets update failed:`, error.message);
-      console.log(`[UnifiedStore] Trying file storage...`);
-      // Fall through to file storage
+      
+      if (isProduction) {
+        console.error(`[UnifiedStore] PRODUCTION: Cannot fall back to file storage for update`);
+        // Don't throw - update failure is not fatal
+        return;
+      }
+      
+      console.log(`[UnifiedStore] DEV: Trying file storage...`);
+      // Fall through to file storage (dev only)
     }
+  } else if (isProduction) {
+    console.error(`[UnifiedStore] PRODUCTION: Google Sheets not configured for update`);
+    return; // Don't throw - update failure is not fatal
   }
 
-  // Fallback to file storage
+  // Fallback to file storage (development only)
   await updateSubmissionStatus(
     submissionId,
     clickupSyncStatus,
