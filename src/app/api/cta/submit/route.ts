@@ -3,6 +3,9 @@ import { randomUUID } from 'crypto';
 import { saveSubmissionUnified, updateSubmissionUnified, getStorageType } from '@/lib/unifiedSubmissionStore';
 import { createClickUpTask } from '@/lib/clickupClient';
 
+// Force Node.js runtime (required for crypto and Google Auth)
+export const runtime = 'nodejs';
+
 // Resilient custom field ID constants with hard-coded fallbacks
 const CLICKUP_CF_CTA_LABEL_ID =
   process.env.CLICKUP_CF_CTA_LABEL ?? '36f1fbf8-f073-4f59-b8eb-4c6437a9837d';
@@ -317,12 +320,27 @@ ${message}
   } catch (error: any) {
     const duration = Date.now() - startTime;
     console.error(`[${requestId}] ===== ERROR (${duration}ms) =====`);
-    console.error(`[${requestId}] Unexpected error:`, error);
+    console.error(`[${requestId}] Error type:`, error.name);
+    console.error(`[${requestId}] Error code:`, error.code);
+    
+    // Determine error type for safe logging
+    let errorCode = 'INTERNAL_ERROR';
+    if (error.message?.includes('not configured')) {
+      errorCode = 'STORAGE_NOT_CONFIGURED';
+    } else if (error.message?.includes('validation')) {
+      errorCode = 'VALIDATION_ERROR';
+    } else if (error.name === 'TypeError') {
+      errorCode = 'TYPE_ERROR';
+    }
+    
+    console.error(`[${requestId}] Error code:`, errorCode);
 
     return NextResponse.json(
       { 
         success: false, 
         error: 'We encountered an issue processing your request. Please try again or contact support.',
+        requestId,
+        code: errorCode,
       },
       { status: 500 }
     );

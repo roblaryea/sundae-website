@@ -8,6 +8,17 @@ export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
 export async function GET() {
+  // Gather safe config info (no secrets)
+  const configInfo = {
+    sheetsEnabled: process.env.GOOGLE_SHEETS_ENABLED === 'true',
+    hasSheetId: !!process.env.GOOGLE_SHEET_ID,
+    hasServiceEmail: !!process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL,
+    hasPrivateKey: !!process.env.GOOGLE_PRIVATE_KEY,
+    hasPrivateKeyB64: !!process.env.GOOGLE_PRIVATE_KEY_B64,
+    nodeEnv: process.env.NODE_ENV,
+    vercelEnv: process.env.VERCEL_ENV,
+  };
+
   // Test Google Sheets connection
   try {
     const healthCheck = await testGoogleSheetsConnection();
@@ -24,6 +35,7 @@ export async function GET() {
         hasEnd: healthCheck.debug.keyEndsCorrectly,
         keyLength: healthCheck.debug.keyLength,
       } : undefined,
+      config: configInfo,
       statusCode: healthCheck.ok ? 200 : 503,
     };
 
@@ -38,6 +50,7 @@ export async function GET() {
       ok: false,
       timestamp: new Date().toISOString(),
       error: 'Health check failed: ' + (error.message || 'Unknown error'),
+      config: configInfo,
       statusCode: 500,
     };
 
