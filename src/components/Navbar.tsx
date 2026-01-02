@@ -9,6 +9,7 @@ import { Button } from './ui/Button';
 import { DarkModeToggle } from './DarkModeToggle';
 import Image from 'next/image';
 import { useCta } from '@/lib/cta';
+import { PRICING_URL } from '@/lib/links';
 
 // Chevron Icon Component
 const ChevronIcon = ({ isOpen }: { isOpen: boolean }) => (
@@ -172,16 +173,13 @@ const Navbar = () => {
     setIsMenuOpen(false);
   }, []);
 
-  // Official Sundae Products (4)
+  // Official Sundae Products (Updated Structure)
   const products = [
-    { name: 'Sundae Report', description: 'Benchmarking Engine', href: '/report' },
-    { name: 'Sundae Nexus', description: 'Decision Intelligence Platform', href: '/nexus' },
-    { name: 'Sundae Insights', description: 'AI Insights & Recommendations', href: '/insights' },
-    { name: 'Sundae Canvas', description: 'Visualization Intelligence', href: '/canvas' },
+    { name: 'Sundae Report', description: 'Historical analysis & benchmarking', href: '/report' },
+    { name: 'Sundae Core', description: 'Real-time operations & predictions', href: '/core' },
+    { name: 'Watchtower', description: 'External market intelligence', href: '/product/watchtower' },
+    { name: 'Modules', description: 'Labor | Inventory | Purchasing | Marketing | Reservations', href: '/modules' },
   ];
-
-  // 4D Intelligence Feature
-  const fourDIntelligence = { name: '4D Intelligence', description: 'See Your Business in 4D', href: '/4d-intelligence' };
 
   // Solutions organized by category
   const solutionsSegments = [
@@ -227,6 +225,7 @@ const Navbar = () => {
     { name: 'Blog', href: '/blog' },
     { name: 'Documentation', href: '/docs' },
     { name: 'Case Studies', href: '/resources' },
+    { name: 'FAQ', href: '/faq' },
     { name: 'Free Tools & Calculators', href: '/tools' },
   ];
 
@@ -261,51 +260,64 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-8">
-            {/* Product Mega Menu */}
+            {/* Products Mega Menu */}
             <div className="relative group">
               <div
                 className="text-[#1A1A1A] dark:text-white hover:text-[#0A1E8C] dark:hover:text-electric-blue transition-colors duration-200 font-medium cursor-pointer text-[15px]"
                 onMouseEnter={() => setActiveDropdown('product')}
               >
-                Product
+                Products
               </div>
               
               {activeDropdown === 'product' && (
                 <div 
-                  className="absolute top-full left-0 mt-2 w-96 bg-white dark:bg-graphite rounded-xl shadow-2xl border border-gray-200 dark:border-deep-slate px-6 py-6 z-50"
+                  className="absolute top-full left-0 mt-2 w-80 bg-white dark:bg-graphite rounded-xl shadow-2xl border border-gray-200 dark:border-deep-slate px-6 py-6 z-50"
                   onMouseEnter={() => setActiveDropdown('product')}
                   onMouseLeave={() => setActiveDropdown(null)}
                 >
-                  {/* 4D Intelligence Feature Highlight */}
-                  <Link
-                    href={fourDIntelligence.href}
-                    className="block p-4 mb-4 rounded-xl bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 transition-all duration-200 shadow-md hover:shadow-lg"
-                    onClick={() => setActiveDropdown(null)}
-                  >
-                    <div className="font-bold text-white text-[16px] mb-1">
-                      {fourDIntelligence.name}
+                  {/* Products Heading */}
+                  <div className="mb-4">
+                    <h3 className="text-[14px] font-bold text-[#595F6F] dark:text-gray-400 uppercase tracking-[0.4px] leading-[1.4] mb-3">
+                      Products
+                    </h3>
+                    <div className="space-y-3">
+                      {products.map((product) => (
+                        <Link
+                          key={product.name}
+                          href={product.href}
+                          className="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-deep-slate transition-colors duration-200"
+                          onClick={() => setActiveDropdown(null)}
+                        >
+                          <div className="font-semibold text-[#0A0A0A] dark:text-white text-[15px] leading-[1.4] mb-1">
+                            {product.name}
+                          </div>
+                          <div className="text-[13px] text-[#6B7280] dark:text-gray-300 leading-[1.5]">
+                            {product.description}
+                          </div>
+                        </Link>
+                      ))}
                     </div>
-                    <div className="text-[14px] text-white/90">
-                      {fourDIntelligence.description}
-                    </div>
-                  </Link>
+                  </div>
 
-                  <div className="grid grid-cols-2 gap-2">
-                    {products.map((product) => (
-                      <Link
-                        key={product.name}
-                        href={product.href}
-                        className="p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-deep-slate transition-colors duration-200"
-                        onClick={() => setActiveDropdown(null)}
-                      >
-                        <div className="font-semibold text-[#0A0A0A] dark:text-white text-[15px] leading-[1.4] mb-1">
-                          {product.name}
-                        </div>
-                        <div className="text-[14px] text-[#6B7280] dark:text-gray-300 leading-[1.5]">
-                          {product.description}
-                        </div>
-                      </Link>
-                    ))}
+                  {/* Separator */}
+                  <div className="border-t border-gray-200 dark:border-deep-slate my-4"></div>
+
+                  {/* Bottom Links */}
+                  <div className="space-y-2">
+                    <Link
+                      href="/report-vs-core"
+                      className="block py-2 px-3 rounded-lg hover:bg-gray-50 dark:hover:bg-deep-slate transition-colors duration-200 text-[14px] font-medium text-[#0A0A0A] dark:text-white"
+                      onClick={() => setActiveDropdown(null)}
+                    >
+                      Compare Options →
+                    </Link>
+                    <Link
+                      href="/report"
+                      className="block py-2 px-3 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors duration-200 text-[14px] font-semibold text-blue-600 dark:text-blue-400"
+                      onClick={() => setActiveDropdown(null)}
+                    >
+                      Start Free →
+                    </Link>
                   </div>
                 </div>
               )}
@@ -477,7 +489,7 @@ const Navbar = () => {
               )}
             </div>
             
-            <a href="https://pricing.sundae.io" className="text-[#1A1A1A] dark:text-white hover:text-[#0A1E8C] dark:hover:text-electric-blue transition-colors duration-200 font-medium text-[15px]">
+            <a href={PRICING_URL} className="text-[#1A1A1A] dark:text-white hover:text-[#0A1E8C] dark:hover:text-electric-blue transition-colors duration-200 font-medium text-[15px]">
               Pricing
             </a>
             
@@ -631,20 +643,13 @@ const Navbar = () => {
 
           {/* Scrollable Menu Content */}
           <div className="flex-1 overflow-y-auto">
-            {/* Product Section */}
+            {/* Products Section */}
             <AccordionSection
-              title="Product"
+              title="Products"
               id="product"
               isExpanded={expandedSections.product}
               onToggle={() => toggleSection('product')}
             >
-              <MobileNavLink
-                href={fourDIntelligence.href}
-                onClick={handleMobileNavClick}
-                isHighlighted
-              >
-                {fourDIntelligence.name} →
-              </MobileNavLink>
               {products.map((product) => (
                 <MobileNavLink
                   key={product.name}
@@ -654,6 +659,20 @@ const Navbar = () => {
                   {product.name}
                 </MobileNavLink>
               ))}
+              <div className="border-t border-slate-200 dark:border-slate-800 my-2 mx-4"></div>
+              <MobileNavLink
+                href="/report-vs-core"
+                onClick={handleMobileNavClick}
+              >
+                Compare Options →
+              </MobileNavLink>
+              <MobileNavLink
+                href="/report"
+                onClick={handleMobileNavClick}
+                isHighlighted
+              >
+                Start Free →
+              </MobileNavLink>
             </AccordionSection>
 
             {/* Solutions Section */}
@@ -734,7 +753,7 @@ const Navbar = () => {
               onToggle={() => toggleSection('company')}
             >
               <a 
-                href="https://pricing.sundae.io" 
+                href={PRICING_URL} 
                 className="block py-2.5 px-4 text-sm font-medium transition-colors duration-150 text-slate-900 dark:text-slate-100 hover:bg-slate-50 dark:hover:bg-slate-800/60"
               >
                 Pricing
@@ -756,7 +775,7 @@ const Navbar = () => {
                 data-cta="sign_in_mobile_nav"
                 data-source="mobile-nav"
               >
-                Sign in
+                Sign In
               </Link>
             </div>
             <Button

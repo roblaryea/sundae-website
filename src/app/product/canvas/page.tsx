@@ -42,7 +42,7 @@ export default function CanvasPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <div className="inline-flex items-center space-x-2 bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
-              <span>🎨</span>
+              <SundaeIcon name="chart" size="md" />
               <span>Visualization Intelligence</span>
             </div>
             <h1 className="hero-h1 text-gray-900 mb-6">

@@ -20,14 +20,14 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     slug: "inside-sundae-canvas",
-    title: "Inside Sundae Canvas: Turning Raw Data Into Clear Dashboards Automatically",
+    title: "Inside Sundae Core: Turning Raw Data Into Clear Dashboards Automatically",
     category: "Product",
     date: "2025-02-28",
-    summary: "Sundae Canvas unifies POS, labor, inventory, and financial data into real-time operational dashboards. Learn how automatic data normalization eliminates manual reporting.",
+    summary: "Sundae Core unifies POS, labor, inventory, and financial data into real-time operational dashboards. Learn how automatic data normalization eliminates manual reporting.",
     readTime: "8 min read",
     content: `## Introduction
 
-Restaurant operators waste 10+ hours per week building reports manually. They export CSV files from POS systems, download payroll data from HR platforms, pull inventory counts from management software, and extract financial data from accounting tools—then spend hours in Excel trying to reconcile formats, fix data errors, and build visualizations. By the time the report is ready, the data is already outdated and the decision moment has passed. **Sundae Canvas eliminates this completely** by automatically unifying every data source into a single, real-time operational dashboard. This is not just another BI tool—it is decision intelligence built specifically for multi-location restaurant operations.
+Restaurant operators waste 10+ hours per week building reports manually. They export CSV files from POS systems, download payroll data from HR platforms, pull inventory counts from management software, and extract financial data from accounting tools—then spend hours in Excel trying to reconcile formats, fix data errors, and build visualizations. By the time the report is ready, the data is already outdated and the decision moment has passed. **Sundae Core eliminates this completely** by automatically unifying every data source into a single, real-time operational dashboard. This is not just another BI tool—it is decision intelligence built specifically for multi-location restaurant operations.
 
 ## Why This Matters for Restaurant Operators
 
@@ -55,13 +55,13 @@ This reactive, manual process creates 1D visibility—you see what happened last
 
 ## How Sundae Changes the Picture
 
-Sundae Canvas automatically unifies every data source into a single operational dashboard providing real-time 4D Intelligence:
+Sundae Core automatically unifies every data source into a single operational dashboard providing real-time 4D Intelligence:
 
 - **Sundae Scout** normalizes data from all sources automatically—no manual field mapping or CSV exports required
-- **Sundae Canvas** visualizes unified data with role-specific dashboards for operators, finance, marketing, and HR
-- **Sundae Insights** monitors dashboards continuously, alerting you to anomalies before they become crises
+- **Sundae Core** visualizes unified data with role-specific dashboards for operators, finance, marketing, and HR
+- **Sundae Core** monitors dashboards continuously, alerting you to anomalies before they become crises
 - **Sundae Watchtower** adds competitive context showing how your metrics compare to market benchmarks
-- **Sundae Nexus** lets you ask questions in plain English: "Why did labor spike at Location 12 last Tuesday?"
+- **Sundae Core** lets you ask questions in plain English: "Why did labor spike at Location 12 last Tuesday?"
 
 The transformation is fundamental: from manual reporting that shows what happened last week, to automated intelligence that shows what's happening right now and what you should do about it.
 
@@ -74,7 +74,7 @@ A 30-location fast-casual group spent 12 hours weekly building labor reports. By
 After implementing Canvas:
 
 - Real-time labor dashboards updated hourly from payroll integration
-- Sundae Insights detected the variance within 24 hours
+- Sundae Core detected the variance within 24 hours
 - Operations team implemented corrective scheduling immediately
 - Result: Prevented $47K in additional labor overruns, saved finance team 10 hours weekly
 
@@ -102,7 +102,7 @@ Canvas unified view:
 
 ## The Measurable Impact
 
-Operators implementing Sundae Canvas typically achieve:
+Operators implementing Sundae Core typically achieve:
 
 - **Time savings**: 10-15 hours weekly reduction in manual reporting
 - **Faster decisions**: Detection and response to issues within 24-48 hours instead of weeks
@@ -144,20 +144,20 @@ The ROI calculation is straightforward: if you save 12 hours weekly at $75/hour 
 
 ## Closing and Call to Action
 
-Sundae Canvas transforms restaurant data from a reporting burden into an operational asset. Instead of wasting time building reports manually, operators get real-time intelligence that shows what's happening now, how it compares to plan and market, and what to do next.
+Sundae Core transforms restaurant data from a reporting burden into an operational asset. Instead of wasting time building reports manually, operators get real-time intelligence that shows what's happening now, how it compares to plan and market, and what to do next.
 
-The difference between reactive reporting and proactive intelligence is measurable: faster decisions, better margins, and more time spent on strategy instead of data archaeology. See Sundae Canvas with your own data—**book a demo** to experience how automated dashboards eliminate manual reporting and unlock better decisions across your portfolio.`
+The difference between reactive reporting and proactive intelligence is measurable: faster decisions, better margins, and more time spent on strategy instead of data archaeology. See Sundae Core with your own data—**book a demo** to experience how automated dashboards eliminate manual reporting and unlock better decisions across your portfolio.`
   },
   {
     slug: "why-nexus-replaces-dashboard-suite",
-    title: "Why Sundae Nexus Replaces Half Your Dashboard Suite",
+    title: "Why Sundae Core Replaces Half Your Dashboard Suite",
     category: "Product",
     date: "2025-08-25",
-    summary: "Most operators use 5+ dashboards to find answers. Sundae Nexus lets you ask questions in plain English and get instant, context-rich responses. No more dashboard hunting.",
+    summary: "Most operators use 5+ dashboards to find answers. Sundae Core lets you ask questions in plain English and get instant, context-rich responses. No more dashboard hunting.",
     readTime: "7 min read",
     content: `## Introduction
 
-The average restaurant operator uses 5-7 different dashboards daily: POS for sales, labor system for scheduling, inventory for COGS, accounting for P&L, guest feedback for satisfaction. Finding a single answer requires figuring out which dashboard has the data, logging in, navigating menus, selecting date ranges, applying filters, and doing the analysis yourself. By the time you have an answer, the decision moment has passed and you have wasted 15 minutes on data archaeology. **Sundae Nexus eliminates this completely** by letting you ask questions in plain English and get instant, context-rich responses with full 4D Intelligence. This is not incremental improvement—it is a fundamental shift from navigating dashboards to conversing with your data.
+The average restaurant operator uses 5-7 different dashboards daily: POS for sales, labor system for scheduling, inventory for COGS, accounting for P&L, guest feedback for satisfaction. Finding a single answer requires figuring out which dashboard has the data, logging in, navigating menus, selecting date ranges, applying filters, and doing the analysis yourself. By the time you have an answer, the decision moment has passed and you have wasted 15 minutes on data archaeology. **Sundae Core eliminates this completely** by letting you ask questions in plain English and get instant, context-rich responses with full 4D Intelligence. This is not incremental improvement—it is a fundamental shift from navigating dashboards to conversing with your data.
 
 ## Why This Matters for Restaurant Operators
 
@@ -194,7 +194,7 @@ This reactive, dashboard-hopping workflow is why most operators default to gut i
 
 ## How Sundae Changes the Picture
 
-Sundae Nexus uses conversational AI to let you ask questions directly and get instant answers with full 4D context:
+Sundae Core uses conversational AI to let you ask questions directly and get instant answers with full 4D context:
 
 **Ask in plain English:**
 
@@ -262,7 +262,7 @@ With Nexus:
 
 ## The Measurable Impact
 
-Operators using Sundae Nexus achieve:
+Operators using Sundae Core achieve:
 
 - **Time savings**: 60-70% reduction in time spent finding answers
 - **Faster decisions**: Average decision cycle reduced from days to hours
@@ -305,7 +305,7 @@ The transformation is measurable: if your operations team saves 5 hours weekly a
 
 The future of restaurant intelligence is conversational, not dashboard-based. Instead of hunting through 7 different systems to find isolated metrics, operators ask questions in plain English and get instant answers with full 4D context and recommended actions.
 
-Sundae Nexus does not just make existing workflows faster—it fundamentally changes how operators interact with their data. The difference between dashboard hunting and conversational intelligence is the difference between reactive analysis and proactive decision-making. **Book a demo** to experience how Nexus replaces half your dashboard suite and transforms data from burden into asset.`
+Sundae Core does not just make existing workflows faster—it fundamentally changes how operators interact with their data. The difference between dashboard hunting and conversational intelligence is the difference between reactive analysis and proactive decision-making. **Book a demo** to experience how Nexus replaces half your dashboard suite and transforms data from burden into asset.`
   },
   {
     slug: "2025-gcc-restaurant-economics",
@@ -348,13 +348,13 @@ Sundae provides unified decision intelligence built specifically for GCC multi-l
 
 **Sundae Report** delivers real-time market benchmarks specific to your concept type, service model, and geography. Instead of generic industry averages, you see how your labor cost compares to fast-casual groups in Dubai Marina, or how your food cost compares to casual dining concepts in Riyadh.
 
-**Sundae Canvas** unifies data from all POS systems, payroll platforms, inventory management, and accounting software—automatically normalizing across currencies, formats, and schemas. One dashboard shows portfolio performance with drill-down to location, daypart, and menu item level.
+**Sundae Core** unifies data from all POS systems, payroll platforms, inventory management, and accounting software—automatically normalizing across currencies, formats, and schemas. One dashboard shows portfolio performance with drill-down to location, daypart, and menu item level.
 
-**Sundae Insights** monitors operations continuously and alerts you to anomalies before they become crises. Labor trending 3 points over plan? Get notified Tuesday so you can adjust scheduling for the weekend, not discover the variance in next Monday's report.
+**Sundae Core** monitors operations continuously and alerts you to anomalies before they become crises. Labor trending 3 points over plan? Get notified Tuesday so you can adjust scheduling for the weekend, not discover the variance in next Monday's report.
 
 **Sundae Watchtower** tracks competitive activity across your markets—new openings, promotional activity, menu changes, pricing adjustments. When your sales decline, you instantly know whether it's your execution or market dynamics.
 
-**Sundae Nexus** lets you ask questions in plain English: "Why is food cost higher in KSA locations?" or "Which locations are most efficient at labor management?" and get instant answers with full 4D Intelligence (Actual vs Plan vs Benchmark vs Prediction).
+**Sundae Core** lets you ask questions in plain English: "Why is food cost higher in KSA locations?" or "Which locations are most efficient at labor management?" and get instant answers with full 4D Intelligence (Actual vs Plan vs Benchmark vs Prediction).
 
 ## Real-World Scenarios
 
@@ -442,14 +442,14 @@ The difference between thriving and merely surviving is measurable: 2-4 points o
   },
   {
     slug: "inside-sundae-insights",
-    title: "Inside Sundae Insights: How Real-Time Intelligence Prevents Problems Before They Happen",
+    title: "Inside Sundae Core: How Real-Time Intelligence Prevents Problems Before They Happen",
     category: "Product",
     date: "2025-10-18",
-    summary: "Sundae Insights monitors your operations 24/7, detecting anomalies and alerting you to issues before they become crises. Learn how proactive intelligence beats reactive reporting.",
+    summary: "Sundae Core monitors your operations 24/7, detecting anomalies and alerting you to issues before they become crises. Learn how proactive intelligence beats reactive reporting.",
     readTime: "7 min read",
     content: `## Introduction
 
-Most restaurant BI tools tell you what happened yesterday or last week. You discover labor variance on Monday from last week's report. You notice food cost creep in the monthly P&L review. You identify guest satisfaction declining when quarterly feedback arrives. By the time you see the problem in a report, you have already lost money, frustrated guests, and missed the window for corrective action. **Sundae Insights flips this model completely.** Instead of waiting for you to check dashboards and discover problems, Insights monitors your operations continuously and alerts you the moment anomalies emerge. This is not reactive reporting—it is proactive intelligence that prevents issues before they become crises.
+Most restaurant BI tools tell you what happened yesterday or last week. You discover labor variance on Monday from last week's report. You notice food cost creep in the monthly P&L review. You identify guest satisfaction declining when quarterly feedback arrives. By the time you see the problem in a report, you have already lost money, frustrated guests, and missed the window for corrective action. **Sundae Core flips this model completely.** Instead of waiting for you to check dashboards and discover problems, Insights monitors your operations continuously and alerts you the moment anomalies emerge. This is not reactive reporting—it is proactive intelligence that prevents issues before they become crises.
 
 ## Why This Matters for Restaurant Operators
 
@@ -487,7 +487,7 @@ The average operator discovers issues 8-12 days after they begin—after thousan
 
 ## How Sundae Changes the Picture
 
-Sundae Insights uses machine learning to monitor every operational metric continuously, detecting anomalies in real-time and alerting you with prescriptive recommendations:
+Sundae Core uses machine learning to monitor every operational metric continuously, detecting anomalies in real-time and alerting you with prescriptive recommendations:
 
 **Continuous Monitoring**: Insights analyzes data every hour, comparing current performance against historical patterns, seasonality, and expected ranges. No human monitoring required.
 
@@ -541,7 +541,7 @@ With Insights:
 
 ## The Measurable Impact
 
-Operators using Sundae Insights achieve:
+Operators using Sundae Core achieve:
 
 - **Earlier detection**: Problems identified within 24-48 hours instead of weeks
 - **Smaller variance**: Issues caught early before significant accumulation
@@ -583,9 +583,9 @@ For a 30-location group, the impact is measurable: if Insights prevents half of 
 
 ## Closing and Call to Action
 
-Sundae Insights transforms restaurant operations from reactive to proactive. Instead of discovering problems weeks after they begin, operators prevent issues before they impact performance. The difference is measurable: earlier detection, smaller variances, and a culture focused on prevention instead of firefighting.
+Sundae Core transforms restaurant operations from reactive to proactive. Instead of discovering problems weeks after they begin, operators prevent issues before they impact performance. The difference is measurable: earlier detection, smaller variances, and a culture focused on prevention instead of firefighting.
 
-The best operators do not wait for monthly reports to reveal problems—they use continuous intelligence to prevent issues before they become crises. **Book a demo** to see how Sundae Insights monitors your operations 24/7 and alerts you to opportunities for improvement before they impact your bottom line.`
+The best operators do not wait for monthly reports to reveal problems—they use continuous intelligence to prevent issues before they become crises. **Book a demo** to see how Sundae Core monitors your operations 24/7 and alerts you to opportunities for improvement before they impact your bottom line.`
   },
   {
     slug: "watchtower-competitive-intelligence",
@@ -759,9 +759,9 @@ Sundae is built as decision intelligence, not business intelligence. Every featu
 
 **Prescriptive Recommendations**: Sundae does not just identify problems—it recommends specific actions based on root cause analysis, what has worked in similar situations, and expected impact.
 
-**Conversational Interface**: Sundae Nexus lets you ask questions in plain English and get instant answers with full context and recommendations. No dashboard navigation or query building required.
+**Conversational Interface**: Sundae Core lets you ask questions in plain English and get instant answers with full context and recommendations. No dashboard navigation or query building required.
 
-**Proactive Alerts**: Sundae Insights monitors continuously and alerts you to issues before they become crises, with prescriptive guidance on response.
+**Proactive Alerts**: Sundae Core monitors continuously and alerts you to issues before they become crises, with prescriptive guidance on response.
 
 **Integrated Intelligence**: All data sources unified in one platform, providing single source of truth for all operational decisions.
 
@@ -1198,11 +1198,11 @@ Sundae provides unified data infrastructure designed specifically for multi-loca
 
 **Automatic normalization**: Sundae Scout connects to all systems and automatically normalizes data across different formats and schemas. No custom integration work required.
 
-**Single source of truth**: Sundae Canvas provides one unified view of operations, eliminating conflicting numbers and manual reconciliation.
+**Single source of truth**: Sundae Core provides one unified view of operations, eliminating conflicting numbers and manual reconciliation.
 
 **Real-time intelligence**: Data flows continuously from all sources, enabling real-time decision-making instead of weekly retrospectives.
 
-**Advanced analytics**: Unified data enables Sundae Insights (anomaly detection), Sundae Forge (predictive modeling), and Sundae Nexus (conversational AI).
+**Advanced analytics**: Unified data enables Sundae Core (anomaly detection), Sundae Core (predictive modeling), and Sundae Core (conversational AI).
 
 **Scalable architecture**: Adding new locations or data sources takes hours, not months. The infrastructure scales from 10 to 100+ locations seamlessly.
 
@@ -1465,11 +1465,11 @@ Result: Variance persists, managers feel frustrated by unclear guidance, and con
 
 Sundae provides the intelligence infrastructure for systematic labor variance management:
 
-**Sundae Insights**: Continuous monitoring detects labor trending off-plan within 24 hours, not 7 days. ML algorithms distinguish meaningful deviations from normal fluctuations.
+**Sundae Core**: Continuous monitoring detects labor trending off-plan within 24 hours, not 7 days. ML algorithms distinguish meaningful deviations from normal fluctuations.
 
-**Sundae Canvas**: Drill-down analysis shows variance by location, daypart, role, and shift—revealing whether the problem is FOH scheduling, BOH productivity, or traffic misalignment.
+**Sundae Core**: Drill-down analysis shows variance by location, daypart, role, and shift—revealing whether the problem is FOH scheduling, BOH productivity, or traffic misalignment.
 
-**Sundae Nexus**: Conversational interface lets you ask "Why is labor high at Location 12?" and get instant 4D analysis (Actual vs Plan vs Benchmark vs Prediction) with root cause diagnosis.
+**Sundae Core**: Conversational interface lets you ask "Why is labor high at Location 12?" and get instant 4D analysis (Actual vs Plan vs Benchmark vs Prediction) with root cause diagnosis.
 
 **Sundae Report**: Benchmarks show how your labor efficiency compares to similar concepts in your markets, providing context for what "good" looks like.
 
@@ -1671,11 +1671,11 @@ Result: Operators promote low-margin items, discontinue profitable slow-movers, 
 
 Sundae provides revenue quality intelligence that transforms menu management:
 
-**Sundae Canvas**: Real-time dashboards show item-level performance across all dimensions—sales volume, food cost %, contribution margin $, labor intensity, and portfolio impact.
+**Sundae Core**: Real-time dashboards show item-level performance across all dimensions—sales volume, food cost %, contribution margin $, labor intensity, and portfolio impact.
 
-**Sundae Insights**: ML algorithms detect mix shifts in real-time, alerting when high-margin items decline or low-margin items spike. Quantifies revenue quality impact: "Mix shift toward appetizers this week reduced portfolio margin 0.8 points, equivalent to $12K."
+**Sundae Core**: ML algorithms detect mix shifts in real-time, alerting when high-margin items decline or low-margin items spike. Quantifies revenue quality impact: "Mix shift toward appetizers this week reduced portfolio margin 0.8 points, equivalent to $12K."
 
-**Sundae Nexus**: Ask "Which menu items drive most profitability?" and get instant analysis with 4D Intelligence showing Actual performance, Plan targets, Benchmark comparisons to similar concepts, Predictions of mix trends.
+**Sundae Core**: Ask "Which menu items drive most profitability?" and get instant analysis with 4D Intelligence showing Actual performance, Plan targets, Benchmark comparisons to similar concepts, Predictions of mix trends.
 
 **Sundae Report**: Benchmarks reveal how your menu mix and margins compare to successful concepts in your markets—are you over-indexed on low-margin categories?
 
@@ -1793,7 +1793,7 @@ For $45M portfolio, 1.5-point margin improvement from better menu management rep
 
 - Identify locations with different guest demographics or traffic patterns
 - Test menu variations or promotional strategies at pilot locations
-- Measure impact using Sundae Canvas location comparison dashboards
+- Measure impact using Sundae Core location comparison dashboards
 - Scale winning strategies systematically
 
 **Step 6: Implement Dynamic Pricing Framework**
@@ -1868,11 +1868,11 @@ Result: 1-2% of revenue leaks out through preventable voids and unmonitored disc
 
 Sundae provides pattern intelligence that transforms void and discount management:
 
-**Sundae Insights**: ML algorithms analyze void and discount patterns across all transactions, detecting anomalies in real-time. "Server 47 at Location 12 voided 8 high-value entrees during Friday PM shift—3× historical average."
+**Sundae Core**: ML algorithms analyze void and discount patterns across all transactions, detecting anomalies in real-time. "Server 47 at Location 12 voided 8 high-value entrees during Friday PM shift—3× historical average."
 
-**Sundae Canvas**: Dashboards show void and discount patterns by location, daypart, server, item, void reason, and discount code—revealing systemic issues that transaction-level data obscures.
+**Sundae Core**: Dashboards show void and discount patterns by location, daypart, server, item, void reason, and discount code—revealing systemic issues that transaction-level data obscures.
 
-**Sundae Nexus**: Ask "Why are voids high at Location 8?" and get instant analysis with 4D Intelligence showing Actual patterns, Plan expectations, Benchmark comparisons to similar locations, Predictions of impact.
+**Sundae Core**: Ask "Why are voids high at Location 8?" and get instant analysis with 4D Intelligence showing Actual patterns, Plan expectations, Benchmark comparisons to similar locations, Predictions of impact.
 
 **Sundae Report**: Benchmarks reveal typical void/discount rates for your concept type and markets, providing context for what's acceptable versus concerning.
 
@@ -2064,13 +2064,13 @@ Result: Manager frustration, inconsistent execution, and missed opportunities to
 
 Sundae provides the metrics infrastructure for effective manager coaching:
 
-**Sundae Canvas**: Manager-specific dashboards showing their location's performance across all key metrics with drill-down to daypart, shift, and role level.
+**Sundae Core**: Manager-specific dashboards showing their location's performance across all key metrics with drill-down to daypart, shift, and role level.
 
 **Sundae Report**: Benchmarks showing how each location compares to similar concepts, providing context for what "good" looks like given location-specific realities.
 
-**Sundae Insights**: Proactive alerts when locations trend off-target, enabling real-time coaching conversations instead of month-end retrospectives.
+**Sundae Core**: Proactive alerts when locations trend off-target, enabling real-time coaching conversations instead of month-end retrospectives.
 
-**Sundae Nexus**: Enables managers to self-serve answers: "Why was my PM labor high Tuesday?" empowering them to identify and correct issues independently.
+**Sundae Core**: Enables managers to self-serve answers: "Why was my PM labor high Tuesday?" empowering them to identify and correct issues independently.
 
 **Best practice identification**: ML algorithms identify what top-performing managers do differently, enabling systematic replication.
 
@@ -2262,13 +2262,13 @@ These failures create AI skepticism among operators who've been burned by overpr
 
 Sundae implements AI that actually works in restaurant operations today:
 
-**Anomaly Detection (Sundae Insights)**: ML models monitor hundreds of metrics continuously, distinguishing genuine operational issues from normal variance. This works because it requires minimal training data and delivers immediate value—no 6-month implementation before seeing results.
+**Anomaly Detection (Sundae Core)**: ML models monitor hundreds of metrics continuously, distinguishing genuine operational issues from normal variance. This works because it requires minimal training data and delivers immediate value—no 6-month implementation before seeing results.
 
 **Pattern Recognition (Void/Discount Analysis)**: ML identifies systematic patterns in voids, discounts, and operational behaviors that humans miss. Works because it analyzes existing POS data without requiring new data collection infrastructure.
 
-**Predictive Analytics (Sundae Forge)**: Forecasts labor needs, food cost trends, and revenue trajectories using actual operational data. Works because models account for promotional impact, seasonality, and market dynamics that simple statistical approaches miss.
+**Predictive Analytics (Sundae Core)**: Forecasts labor needs, food cost trends, and revenue trajectories using actual operational data. Works because models account for promotional impact, seasonality, and market dynamics that simple statistical approaches miss.
 
-**Natural Language Processing (Sundae Nexus)**: Conversational interface that understands restaurant operators' questions and provides contextual answers. Works because it's trained specifically on restaurant operations language, not generic business queries.
+**Natural Language Processing (Sundae Core)**: Conversational interface that understands restaurant operators' questions and provides contextual answers. Works because it's trained specifically on restaurant operations language, not generic business queries.
 
 **Competitive Intelligence (Sundae Watchtower)**: ML monitors competitor pricing, promotions, and market dynamics, quantifying competitive impact. Works because it combines public data with your operational data to generate actionable insights.
 
@@ -2280,7 +2280,7 @@ The difference: Sundae's AI applications deliver measurable value within weeks, 
 
 A 30-location fast-casual group tried three "AI-powered" BI tools before Sundae. Each claimed intelligent alerting but generated dozens of false positives daily—labor "anomalies" that were actually planned catering events, food cost "spikes" that were quarterly menu changes.
 
-With Sundae Insights:
+With Sundae Core:
 
 - ML models learned location-specific operational patterns over 2 weeks
 - Anomaly detection distinguished between planned variance and genuine issues
@@ -2292,7 +2292,7 @@ With Sundae Insights:
 
 A Dubai hospitality group used traditional statistical forecasting for labor scheduling—simple averages based on historical patterns. Forecasts failed during Ramadan, holidays, weather events, and competitive dynamics.
 
-With Sundae Forge ML forecasting:
+With Sundae Core ML forecasting:
 
 - Models incorporate seasonality, day-of-week patterns, holidays, weather, competitive activity, promotional impact
 - Labor forecasts accurate within 5% vs 18% with statistical approaches
@@ -2303,7 +2303,7 @@ With Sundae Forge ML forecasting:
 
 A franchise operator tried generic BI chatbots that couldn't understand restaurant-specific queries. "Why was labor high?" returned generic database queries, not operational insights.
 
-With Sundae Nexus:
+With Sundae Core:
 
 - NLP trained specifically on restaurant operations language
 - Understands context: "Why was labor high?" triggers analysis of scheduling, traffic patterns, productivity, training impact—not just "show me labor data"
@@ -2446,7 +2446,7 @@ Result: Operators accept 15-20% forecasting error as "normal" when machine learn
 
 ## How Sundae Changes the Picture
 
-Sundae Forge uses machine learning to transform forecasting accuracy across all operational dimensions:
+Sundae Core uses machine learning to transform forecasting accuracy across all operational dimensions:
 
 **Multi-Factor Models**: ML algorithms analyze 50+ variables simultaneously—not just historical sales, but weather forecasts, competitive activity, promotional calendars, seasonal patterns, day-of-week effects, holiday impacts, economic indicators, and traffic patterns.
 
@@ -2470,7 +2470,7 @@ A 25-location fast-casual group used historical averages for labor scheduling. M
 
 Actual Tuesday performance: $17,200 revenue (16% forecast error). Understaffed by 8 hours, service speed declined 22%, guest satisfaction dropped, revenue lost.
 
-With Sundae Forge ML forecasting:
+With Sundae Core ML forecasting:
 
 - Analysis incorporated: Tuesday is 1st of month (higher traffic), competitor running promotion (suppressing traffic -8%), weather forecast sunny 28°C (boosting outdoor dining +5%), local event driving area traffic +12%
 - Prediction: $17,400 revenue (85% confidence: $16,800-$18,000)
@@ -2484,7 +2484,7 @@ A Dubai restaurant group struggled with inventory waste, particularly around pro
 
 Challenge: Usage varied 30-40% based on promotional activity, weather, competitive dynamics. Result: Either stockouts (lost revenue) or waste (destroyed margin).
 
-With Sundae Forge predictive inventory:
+With Sundae Core predictive inventory:
 
 - ML models forecast item-level demand 3-7 days ahead based on promotional calendar, weather, competitive activity, historical patterns
 - Dynamic par levels adjust automatically: "Beef demand predicted 22% above average Thursday-Saturday due to competitor plant-based promotion and BBQ weather forecast"
@@ -2497,7 +2497,7 @@ A casual dining chain planned major promotional weekend but lacked confidence in
 
 Problem: Doesn't account for competitive promotions running same weekend, weather forecast, or specific promotion mechanics.
 
-With Sundae Forge scenario modeling:
+With Sundae Core scenario modeling:
 
 - Inputted promotion: 25% off entrees Saturday-Sunday
 - ML model analysis: Historical 25% discount promotions drove 21% traffic lift, but competitor also promoting this weekend (-4% impact), weather forecast excellent (+3% boost to dining)
@@ -2511,7 +2511,7 @@ A QSR franchise evaluating new location needed realistic financial projections. 
 
 Problem: Every location is unique—different trade area, competitive dynamics, traffic patterns.
 
-With Sundae Forge predictive modeling:
+With Sundae Core predictive modeling:
 
 - ML analyzed 40 existing locations to identify success factors: trade area demographics, competitive density, traffic patterns, proximity to anchors
 - New location profile mapped to database: similar demographics to Locations 8 & 15, higher competitive density than average, strong anchor traffic
@@ -2550,7 +2550,7 @@ For 30-location portfolio, improved forecasting accuracy represents $450K-$650K 
 
 **Step 3: Implement ML-Powered Forecasting**
 
-- Connect operational data to Sundae Forge (POS, labor, inventory, financial)
+- Connect operational data to Sundae Core (POS, labor, inventory, financial)
 - Add external data sources (weather, competitive intelligence, economic indicators)
 - Configure predictive models for labor demand, inventory needs, revenue forecasts
 - Train team on interpreting confidence intervals and scenario modeling
@@ -2580,7 +2580,7 @@ For 30-location portfolio, improved forecasting accuracy represents $450K-$650K 
 
 Predictive analytics transforms restaurant forecasting from educated guesswork to data-driven precision. The difference between 18% forecasting error and 6% forecasting error is measurable: 1.5-2 points of labor variance prevented, 40-60% reduction in inventory waste, and confident resource allocation that captures revenue without waste.
 
-Sundae Forge provides ML-powered predictive analytics that actually works in restaurant operations—not theoretical models that fail in production, but proven forecasting that accounts for real operational constraints and delivers accuracy traditional methods cannot achieve. **Book a demo** to experience how predictive analytics transforms forecasting across labor, inventory, promotions, and expansion decisions in your portfolio.`
+Sundae Core provides ML-powered predictive analytics that actually works in restaurant operations—not theoretical models that fail in production, but proven forecasting that accounts for real operational constraints and delivers accuracy traditional methods cannot achieve. **Book a demo** to experience how predictive analytics transforms forecasting across labor, inventory, promotions, and expansion decisions in your portfolio.`
   },
   {
     slug: "ml-labor-forecasting",
@@ -2629,7 +2629,7 @@ Result: Operators accept 12-18% forecasting error as inevitable, leading to chro
 
 ## How Sundae Changes the Picture
 
-Sundae Forge uses machine learning to deliver labor forecasts 3× more accurate than traditional methods:
+Sundae Core uses machine learning to deliver labor forecasts 3× more accurate than traditional methods:
 
 **Multi-Factor Analysis**: ML models analyze 50+ variables simultaneously—historical sales patterns, day-of-week effects, seasonal trends, weather forecasts, local events, promotional calendars (yours and competitors'), holiday impacts, traffic patterns, and economic indicators.
 
@@ -2655,7 +2655,7 @@ A 20-location fast-casual group used historical averages for Tuesday lunch sched
 
 Tuesday forecast: Heavy rain expected. Traditional method: Schedule standard 20 staff.
 
-With Sundae Forge ML:
+With Sundae Core ML:
 
 - Model analyzed 18 months of rain-day patterns: rainy weekday lunches average 18% below dry-day baselines
 - Factored in: Indoor seating only (no patio), nearby office workers more likely to order delivery vs dine-in, traffic patterns shift toward 11:30am-12:30pm window vs spread throughout lunch
@@ -2668,7 +2668,7 @@ With Sundae Forge ML:
 
 A casual dining chain planned promotional weekend (20% off entrees) but struggled to forecast labor needs. Historical promotions showed wildly inconsistent results—some drove 15% traffic lift, others 35%+.
 
-With Sundae Forge ML analysis:
+With Sundae Core ML analysis:
 
 - Model analyzed 24 months of promotional history across 15 locations
 - Identified key variables: discount depth, day-of-week, competitive activity during same period, weather, time of year
@@ -2789,7 +2789,7 @@ For 30-location portfolio with $45M revenue, 1.8-point labor improvement through
 
 Machine learning transforms labor forecasting from reactive guesswork into predictive precision. The difference between 15% forecasting error and 5% error is measurable: 1.5-2 points of labor variance prevented, better service through appropriate staffing, and manager confidence that schedules match actual demand.
 
-Sundae Forge provides ML-powered labor forecasting that accounts for 50+ variables traditional methods ignore—seasonality, weather, events, promotions, competitive dynamics, and traffic patterns—delivering 3× better accuracy within weeks. **Book a demo** to experience how ML labor forecasting prevents variance, improves service, and optimizes every labor dollar across your portfolio.`
+Sundae Core provides ML-powered labor forecasting that accounts for 50+ variables traditional methods ignore—seasonality, weather, events, promotions, competitive dynamics, and traffic patterns—delivering 3× better accuracy within weeks. **Book a demo** to experience how ML labor forecasting prevents variance, improves service, and optimizes every labor dollar across your portfolio.`
   },
   {
     slug: "data-literacy-operators",
@@ -2845,11 +2845,11 @@ These approaches fail because they treat data literacy as one-time knowledge tra
 
 Sundae accelerates data literacy through design choices that make analytics accessible to non-technical operators:
 
-**Conversational Interface (Sundae Nexus)**: Instead of requiring users to navigate complex dashboards and construct queries, Nexus lets managers ask questions in plain English. "Why was labor high at my location yesterday?" This natural interaction teaches analytics through use—managers learn by doing, not studying.
+**Conversational Interface (Sundae Core)**: Instead of requiring users to navigate complex dashboards and construct queries, Nexus lets managers ask questions in plain English. "Why was labor high at my location yesterday?" This natural interaction teaches analytics through use—managers learn by doing, not studying.
 
 **4D Context Everywhere**: Every metric automatically includes four dimensions—Actual (what happened), Plan (are you on track), Benchmark (how do you compare), Prediction (where are you heading). This built-in context teaches managers how to interpret metrics properly without requiring analytics expertise.
 
-**Smart Alerts (Sundae Insights)**: Instead of requiring managers to monitor hundreds of metrics, Insights proactively alerts them to issues requiring attention. This teaches pattern recognition—managers learn which variances matter and which are noise.
+**Smart Alerts (Sundae Core)**: Instead of requiring managers to monitor hundreds of metrics, Insights proactively alerts them to issues requiring attention. This teaches pattern recognition—managers learn which variances matter and which are noise.
 
 **Prescriptive Recommendations**: Sundae doesn't just show problems—it recommends specific actions. This teaches cause-and-effect relationships, building intuition for how operational decisions impact metrics.
 
@@ -3851,7 +3851,7 @@ This siloed approach creates false positives—celebrating improvements in indiv
 
 ## How Sundae Changes the Picture
 
-Sundae Canvas provides multi-dimensional efficiency framework revealing true operational performance:
+Sundae Core provides multi-dimensional efficiency framework revealing true operational performance:
 
 **Labor Productivity**: Not just labor%, but transactions per labor hour, revenue per labor hour, guests served per FTE
 
@@ -4009,7 +4009,7 @@ Calculate current performance across all dimensions:
 - When labor improves, check impact on throughput, satisfaction, revenue
 - When COGS declines, verify guest feedback, traffic trends, mix quality
 - When throughput increases, monitor satisfaction, repeat frequency, labor efficiency
-- Use Sundae Canvas correlation analysis to reveal hidden impacts
+- Use Sundae Core correlation analysis to reveal hidden impacts
 
 **Step 5: Identify True Best Practices**
 
@@ -4058,7 +4058,7 @@ Asset utilization:
 
 Operational efficiency is not a single metric—it's systematic excellence across labor productivity, COGS management, throughput optimization, and asset utilization simultaneously. Top performers achieve 3-5 point margin advantage by excelling across all dimensions, not trading efficiency in one area for inefficiency in another.
 
-The difference between illusory gains and genuine efficiency is measurable: single-metric optimization often creates net negative impact through unintended consequences, while multi-dimensional excellence drives sustainable margin improvement. Sundae Canvas reveals true operational efficiency through multi-dimensional 4D Intelligence—showing whether your improvements are genuine or destroying value elsewhere.
+The difference between illusory gains and genuine efficiency is measurable: single-metric optimization often creates net negative impact through unintended consequences, while multi-dimensional excellence drives sustainable margin improvement. Sundae Core reveals true operational efficiency through multi-dimensional 4D Intelligence—showing whether your improvements are genuine or destroying value elsewhere.
 
 Understanding that your 28% labor is only efficient if throughput, COGS, and asset utilization remain strong transforms decision-making from reactive metric-chasing to proactive systematic optimization. **Book a demo** to see how Sundae's multi-dimensional efficiency framework reveals genuine operational excellence across your portfolio and enables systematic replication of best practices.`
   },
@@ -4112,7 +4112,7 @@ Result: Operators know some locations perform better than others but can't syste
 
 ## How Sundae Changes the Picture
 
-Sundae Canvas provides portfolio benchmarking framework that transforms location comparison:
+Sundae Core provides portfolio benchmarking framework that transforms location comparison:
 
 **Location-by-Location Dashboards**: Every location shown in 4D context—Actual performance, Plan targets, Benchmark comparisons, Predicted trends—enabling instant performance assessment
 
@@ -4272,7 +4272,7 @@ For 30-location operators, systematic portfolio benchmarking typically identifie
 
 **Step 2: Enable Location-by-Location Comparison**
 
-- Use Sundae Canvas for side-by-side location dashboards
+- Use Sundae Core for side-by-side location dashboards
 - Apply 4D Intelligence: show each location's Actual vs Plan vs Benchmark vs Prediction
 - Enable filtering by format, market, concept for appropriate peer comparison
 - Configure drill-down by daypart, role, menu category for root cause analysis
@@ -4322,7 +4322,7 @@ For 30-location operators, systematic portfolio benchmarking typically identifie
 
 Portfolio benchmarking transforms multi-location operations from managing locations in isolation to systematically replicating excellence. The difference between knowing "some locations perform better" and understanding exactly what makes them better is measurable: 2+ point improvement in bottom-quartile locations represents $400K-$600K annual impact for 30-location operators.
 
-Sundae Canvas provides the portfolio intelligence infrastructure that makes systematic excellence replication possible—location-by-location comparison, best practice identification, gap quantification, and replication tracking all in real-time. Understanding that your 27.2% top-quartile labor results from specific, replicable practices transforms operational improvement from art to science.
+Sundae Core provides the portfolio intelligence infrastructure that makes systematic excellence replication possible—location-by-location comparison, best practice identification, gap quantification, and replication tracking all in real-time. Understanding that your 27.2% top-quartile labor results from specific, replicable practices transforms operational improvement from art to science.
 
 **Book a demo** to see how Sundae's portfolio benchmarking framework reveals what your best locations do differently and enables systematic replication of operational excellence across your entire portfolio.`
   }

@@ -33,21 +33,21 @@ export default function MarketingTeamsPage() {
   const howSundaeHelps: { title: string; description: string; product: string; icon: SundaeIconName }[] = [
     {
       title: "Real-Time Campaign Attribution",
-      description: "Sundae Canvas connects marketing spend to sales lift at every location—see which campaigns are driving revenue in real time.",
-      product: "Sundae Canvas",
+      description: "Sundae Core connects marketing spend to sales lift at every location—see which campaigns are driving revenue in real time.",
+      product: "Sundae Core",
       icon: "performance"
     },
     {
       title: "Location-Level Insights",
-      description: "Sundae Insights shows which locations are responding to campaigns and which need different messaging or channels.",
-      product: "Sundae Insights",
+      description: "Sundae Core shows which locations are responding to campaigns and which need different messaging or channels.",
+      product: "Sundae Core",
       icon: "insights"
     },
     {
       title: "Ask Marketing Questions",
-      description: "Ask Sundae Nexus 'Which locations had the best ROI from our last promo?' or 'What's the average check lift from loyalty members?' and get instant answers.",
-      product: "Sundae Nexus",
-      icon: "nexus"
+      description: "Ask Sundae Core 'Which locations had the best ROI from our last promo?' or 'What's the average check lift from loyalty members?' and get instant answers.",
+      product: "Sundae Core",
+      icon: "intelligence"
     },
     {
       title: "Benchmark Performance",
@@ -76,7 +76,7 @@ export default function MarketingTeamsPage() {
     {
       title: "Personalize by location",
       description: "Understand which locations respond to different messages and offers",
-      icon: "canvas"
+      icon: "chart"
     }
   ];
 
@@ -91,7 +91,7 @@ export default function MarketingTeamsPage() {
               transition={{ duration: 0.5 }}
               className="inline-flex items-center space-x-2 bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm font-medium mb-6"
             >
-              <span>🎨</span>
+              <SundaeIcon name="marketing" size="md" />
               <span>Marketing Teams</span>
             </motion.div>
             

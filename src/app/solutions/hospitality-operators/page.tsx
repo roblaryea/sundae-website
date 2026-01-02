@@ -33,21 +33,21 @@ export default function HospitalityOperatorsPage() {
   const howSundaeHelps: { title: string; description: string; product: string; icon: SundaeIconName }[] = [
     {
       title: "Unified Hospitality Dashboard",
-      description: "Sundae Canvas consolidates F&B, rooms, events, and catering into one real-time view of your entire operation.",
-      product: "Sundae Canvas",
-      icon: "canvas"
+      description: "Sundae Core consolidates F&B, rooms, events, and catering into one real-time view of your entire operation.",
+      product: "Sundae Core",
+      icon: "chart"
     },
     {
       title: "Demand & Event Intelligence",
-      description: "Sundae Insights correlates bookings, local events, weather, and tourism data to optimize staffing and inventory ahead of demand spikes.",
-      product: "Sundae Insights",
+      description: "Sundae Core correlates bookings, local events, weather, and tourism data to optimize staffing and inventory ahead of demand spikes.",
+      product: "Sundae Core",
       icon: "insights"
     },
     {
       title: "Conversational Operations",
-      description: "Ask Sundae Nexus 'What's driving the banquet revenue increase?' or 'Compare F&B performance across properties' for instant answers.",
-      product: "Sundae Nexus",
-      icon: "nexus"
+      description: "Ask Sundae Core 'What's driving the banquet revenue increase?' or 'Compare F&B performance across properties' for instant answers.",
+      product: "Sundae Core",
+      icon: "intelligence"
     },
     {
       title: "Hospitality Benchmarking",
@@ -91,7 +91,7 @@ export default function HospitalityOperatorsPage() {
               transition={{ duration: 0.5 }}
               className="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium mb-6"
             >
-              <span>🏨</span>
+              <SundaeIcon name="hotel" size="md" />
               <span>Hospitality Operators</span>
             </motion.div>
             

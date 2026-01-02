@@ -11,7 +11,7 @@ export default function ResourcesPage() {
       segment: "Multi-Brand Restaurant Group · GCC",
       challenge: "Labor Cost Variance",
       description: "35-location restaurant group struggled with 18% labor cost variance across locations with no visibility into root causes or scheduling efficiency.",
-      solution: ["Sundae Canvas for real-time labor dashboards", "Sundae Insights for turnover and scheduling alerts", "Sundae Report for labor benchmarking"],
+      solution: ["Sundae Core for real-time labor dashboards", "Sundae Core for turnover and scheduling alerts", "Sundae Report for labor benchmarking"],
       outcomes: [
         { metric: "Labor cost reduction", value: "5%" },
         { metric: "Scheduling efficiency", value: "+12%" },
@@ -24,7 +24,7 @@ export default function ResourcesPage() {
       segment: "Global Franchise · 150+ Locations",
       challenge: "Menu Pricing & Margin Erosion",
       description: "International franchise operator facing 8% food cost variance across regions with delayed insights on pricing effectiveness and discount abuse.",
-      solution: ["Sundae Nexus for instant pricing analysis", "Sundae Canvas for margin tracking", "Sundae Report for category benchmarks"],
+      solution: ["Sundae Core for instant pricing analysis", "Sundae Core for margin tracking", "Sundae Report for category benchmarks"],
       outcomes: [
         { metric: "Margin improvement", value: "+3.2%" },
         { metric: "Discount abuse detected", value: "Early" },
@@ -37,7 +37,7 @@ export default function ResourcesPage() {
       segment: "Cloud Kitchen Operator · Multi-City",
       challenge: "Operational Blind Spots",
       description: "Fast-growing cloud kitchen network with fragmented data across 8 delivery platforms, unable to unify performance metrics or detect vendor issues.",
-      solution: ["Sundae Scout for data integration", "Sundae Insights for delivery performance tracking", "Sundae Canvas for unified dashboards"],
+      solution: ["Sundae Scout for data integration", "Sundae Core for delivery performance tracking", "Sundae Core for unified dashboards"],
       outcomes: [
         { metric: "Data unification", value: "8 platforms" },
         { metric: "Issue detection", value: "48hrs faster" },
@@ -50,7 +50,7 @@ export default function ResourcesPage() {
       segment: "Enterprise Hospitality Group · Regional",
       challenge: "Market Positioning",
       description: "Hospitality operator with limited visibility into competitor pricing, category trends, and market share across 22 locations in competitive markets.",
-      solution: ["Sundae Watchtower for market intelligence", "Sundae Report for competitive benchmarking", "Sundae Nexus for market analysis"],
+      solution: ["Sundae Watchtower for market intelligence", "Sundae Report for competitive benchmarking", "Sundae Core for market analysis"],
       outcomes: [
         { metric: "Market share growth", value: "+2.3%" },
         { metric: "Competitive response time", value: "Days → Hours" },
@@ -88,7 +88,7 @@ export default function ResourcesPage() {
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
-            <span>📚</span>
+            <SundaeIcon name="document" size="md" />
             <span>Resources & Tools</span>
           </div>
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
@@ -187,9 +187,9 @@ export default function ResourcesPage() {
             <div className="flex flex-wrap gap-4 justify-center">
               {[
                 { name: "Sundae Report", href: "/report" },
-                { name: "Sundae Nexus", href: "/nexus" },
-                { name: "Sundae Insights", href: "/insights" },
-                { name: "Sundae Canvas", href: "/canvas" }
+                { name: "Sundae Core", href: "/nexus" },
+                { name: "Sundae Core", href: "/insights" },
+                { name: "Sundae Core", href: "/canvas" }
               ].map((product) => (
                 <Link key={product.name} href={product.href}>
                   <Button variant="outline" size="sm">

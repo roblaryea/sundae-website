@@ -33,21 +33,21 @@ export default function CSuiteExecutivesPage() {
   const howSundaeHelps: { title: string; description: string; product: string; icon: SundaeIconName }[] = [
     {
       title: "Executive Command Center",
-      description: "Sundae Canvas delivers a real-time executive dashboard with KPIs that matter—revenue, margins, costs, and performance across your entire portfolio.",
-      product: "Sundae Canvas",
-      icon: "canvas"
+      description: "Sundae Core delivers a real-time executive dashboard with KPIs that matter—revenue, margins, costs, and performance across your entire portfolio.",
+      product: "Sundae Core",
+      icon: "chart"
     },
     {
       title: "AI-Powered Strategic Insights",
-      description: "Sundae Insights proactively identifies risks, opportunities, and trends across operations, finance, and market conditions before they impact your bottom line.",
-      product: "Sundae Insights",
+      description: "Sundae Core proactively identifies risks, opportunities, and trends across operations, finance, and market conditions before they impact your bottom line.",
+      product: "Sundae Core",
       icon: "intelligence"
     },
     {
       title: "Instant Strategic Answers",
-      description: "Ask Sundae Nexus 'What's driving margin compression?' or 'Which markets should we expand into?' and get data-backed answers instantly.",
-      product: "Sundae Nexus",
-      icon: "nexus"
+      description: "Ask Sundae Core 'What's driving margin compression?' or 'Which markets should we expand into?' and get data-backed answers instantly.",
+      product: "Sundae Core",
+      icon: "intelligence"
     },
     {
       title: "Competitive Benchmarking",
@@ -91,7 +91,7 @@ export default function CSuiteExecutivesPage() {
               transition={{ duration: 0.5 }}
               className="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium mb-6"
             >
-              <span>👔</span>
+              <SundaeIcon name="owners" size="md" />
               <span>C-Suite Executives</span>
             </motion.div>
             

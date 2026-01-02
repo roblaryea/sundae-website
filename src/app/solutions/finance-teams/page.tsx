@@ -33,21 +33,21 @@ export default function FinanceTeamsPage() {
   const howSundaeHelps: { title: string; description: string; product: string; icon: SundaeIconName }[] = [
     {
       title: "Unified Financial Dashboard",
-      description: "Sundae Canvas consolidates P&L, labor costs, COGS, and key financial metrics into one real-time view—no more spreadsheet juggling.",
-      product: "Sundae Canvas",
+      description: "Sundae Core consolidates P&L, labor costs, COGS, and key financial metrics into one real-time view—no more spreadsheet juggling.",
+      product: "Sundae Core",
       icon: "finance"
     },
     {
       title: "Automated Variance Analysis",
-      description: "Sundae Insights automatically flags budget variances, margin compression, and cost anomalies before they impact the bottom line.",
-      product: "Sundae Insights",
+      description: "Sundae Core automatically flags budget variances, margin compression, and cost anomalies before they impact the bottom line.",
+      product: "Sundae Core",
       icon: "search"
     },
     {
       title: "Instant Financial Queries",
-      description: "Ask Sundae Nexus 'What's driving labor variance this month?' or 'Show me locations with declining margins' and get immediate answers.",
-      product: "Sundae Nexus",
-      icon: "nexus"
+      description: "Ask Sundae Core 'What's driving labor variance this month?' or 'Show me locations with declining margins' and get immediate answers.",
+      product: "Sundae Core",
+      icon: "intelligence"
     },
     {
       title: "Benchmark-Driven Forecasting",
@@ -91,7 +91,7 @@ export default function FinanceTeamsPage() {
               transition={{ duration: 0.5 }}
               className="inline-flex items-center space-x-2 bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium mb-6"
             >
-              <span>💰</span>
+              <SundaeIcon name="finance" size="md" />
               <span>Finance & FP&A Teams</span>
             </motion.div>
             

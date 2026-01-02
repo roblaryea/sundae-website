@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
+import { SundaeIcon } from '@/components/icons';
 
 export default function BenchmarkReadinessPage() {
   const [responses, setResponses] = useState({
@@ -128,7 +129,7 @@ export default function BenchmarkReadinessPage() {
 
         <div className="text-center mb-12">
           <div className="inline-flex items-center space-x-2 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 px-4 py-2 rounded-full text-sm font-medium mb-6">
-            <span>📊</span>
+            <SundaeIcon name="chart" size="md" />
             <span>Benchmark Readiness</span>
           </div>
           <h1 className="hero-h1 text-gray-900 dark:text-white mb-4">

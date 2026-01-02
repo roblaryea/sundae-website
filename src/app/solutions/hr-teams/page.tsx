@@ -33,21 +33,21 @@ export default function HRTeamsPage() {
   const howSundaeHelps: { title: string; description: string; product: string; icon: SundaeIconName }[] = [
     {
       title: "Unified Workforce Dashboard",
-      description: "Sundae Canvas connects labor, payroll, and performance data—see turnover, productivity, and labor costs by location in real time.",
-      product: "Sundae Canvas",
-      icon: "canvas"
+      description: "Sundae Core connects labor, payroll, and performance data—see turnover, productivity, and labor costs by location in real time.",
+      product: "Sundae Core",
+      icon: "chart"
     },
     {
       title: "Proactive Turnover Alerts",
-      description: "Sundae Insights flags locations with rising turnover, overtime spikes, or compliance risks before they become crises.",
-      product: "Sundae Insights",
+      description: "Sundae Core flags locations with rising turnover, overtime spikes, or compliance risks before they become crises.",
+      product: "Sundae Core",
       icon: "alerts"
     },
     {
       title: "Ask HR Questions",
-      description: "Ask Sundae Nexus 'Which locations have the highest turnover?' or 'What's the average tenure by role?' and get instant, data-backed answers.",
-      product: "Sundae Nexus",
-      icon: "nexus"
+      description: "Ask Sundae Core 'Which locations have the highest turnover?' or 'What's the average tenure by role?' and get instant, data-backed answers.",
+      product: "Sundae Core",
+      icon: "intelligence"
     },
     {
       title: "Labor Benchmarking",
@@ -91,7 +91,7 @@ export default function HRTeamsPage() {
               transition={{ duration: 0.5 }}
               className="inline-flex items-center space-x-2 bg-pink-100 text-pink-800 px-4 py-2 rounded-full text-sm font-medium mb-6"
             >
-              <span>👥</span>
+              <SundaeIcon name="labor" size="md" />
               <span>People & HR Teams</span>
             </motion.div>
             

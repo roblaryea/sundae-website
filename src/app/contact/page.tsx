@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
 import { LeadCaptureForm } from '@/components/marketing/LeadCaptureForm';
+import { PRICING_URL } from '@/lib/links';
 
 export default function ContactPage() {
 
@@ -94,9 +95,9 @@ export default function ContactPage() {
                   <Link href="/demo" className="block text-blue-600 hover:text-blue-700">
                     Book a Demo →
                   </Link>
-                  <a href="https://pricing.sundae.io" className="block text-blue-600 hover:text-blue-700">
+                  <a href={PRICING_URL} className="block text-blue-600 hover:text-blue-700">
                     View Pricing →
-            </a>
+                  </a>
                   <Link href="/product/sundae-report" className="block text-blue-600 hover:text-blue-700">
                     Get Free Report →
                   </Link>

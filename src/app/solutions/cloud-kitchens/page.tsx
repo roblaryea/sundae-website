@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
+import { PRICING_URL } from "@/lib/links";
 
 export default function CloudKitchensPage() {
   const challenges: { title: string; description: string; icon: SundaeIconName }[] = [
@@ -46,7 +47,7 @@ export default function CloudKitchensPage() {
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
-            <span>🏢</span>
+            <SundaeIcon name="franchise" size="md" />
             <span>Cloud Kitchen Solutions</span>
           </div>
           <h1 className="hero-h1 text-gray-900 mb-6">
@@ -154,7 +155,7 @@ export default function CloudKitchensPage() {
                 {
                   title: "Delivery Platform Analytics",
                   description: "Track performance across Uber Eats, DoorDash, Grubhub, and other platforms in one dashboard.",
-                  icon: "canvas" as SundaeIconName
+                  icon: "chart" as SundaeIconName
                 },
                 {
                   title: "Virtual Brand Performance",
@@ -227,7 +228,7 @@ export default function CloudKitchensPage() {
                 Schedule Cloud Kitchen Demo
               </Button>
             </Link>
-            <a href="https://pricing.sundae.io">
+            <a href={PRICING_URL}>
               <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
                 View Pricing
               </Button>
