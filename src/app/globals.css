@@ -168,6 +168,127 @@ html.dark body {
   background-color: #374151;
 }
 
+/* ==============================================
+   ENHANCED DARK MODE - Page-Specific Fixes
+   ============================================== */
+
+/* All light gradient backgrounds */
+.dark .bg-gradient-to-br.from-blue-50,
+.dark .bg-gradient-to-br.from-purple-50,
+.dark .bg-gradient-to-br.from-indigo-50,
+.dark .bg-gradient-to-br.from-red-50,
+.dark .bg-gradient-to-br.from-orange-50,
+.dark .bg-gradient-to-br.from-green-50 {
+  background: linear-gradient(to bottom right, #0f172a, #1e293b) !important;
+}
+
+.dark .bg-gradient-to-br.to-blue-50,
+.dark .bg-gradient-to-br.to-purple-50,
+.dark .bg-gradient-to-br.to-indigo-50,
+.dark .bg-gradient-to-br.to-red-50 {
+  --tw-gradient-to: #1e293b !important;
+}
+
+/* Background utility classes */
+.dark .bg-blue-50,
+.dark .bg-purple-50,
+.dark .bg-indigo-50,
+.dark .bg-red-50,
+.dark .bg-orange-50,
+.dark .bg-green-50 {
+  background-color: #1e293b !important;
+}
+
+.dark .bg-blue-50\/80,
+.dark .bg-purple-50\/80,
+.dark .bg-purple-50\/70,
+.dark .bg-purple-50\/50,
+.dark .bg-red-50\/80,
+.dark .bg-red-50\/70,
+.dark .bg-red-50\/60,
+.dark .bg-red-50\/50 {
+  background-color: rgba(30, 41, 59, 0.9) !important;
+}
+
+/* Hero section gradient overrides */
+.dark section[class*="bg-gradient-to-br"][class*="from-blue-50"],
+.dark section[class*="bg-gradient-to-br"][class*="from-purple-50"],
+.dark section[class*="bg-gradient-to-br"][class*="from-red-50"] {
+  background: linear-gradient(to bottom right, #0f172a, #1e293b) !important;
+}
+
+/* Navbar dropdown fixes - ensure text visibility on hover */
+.dark nav [class*="hover:bg-gray-50"]:hover,
+.dark [class*="hover:bg-gray-50"]:hover,
+.dark [class*="hover:bg-slate-50"]:hover {
+  background-color: #334155 !important;
+}
+
+.dark nav .hover\:bg-gray-50:hover,
+.dark nav .hover\:bg-blue-50:hover {
+  background-color: #334155 !important;
+}
+
+/* Dropdown menus */
+.dark nav [class*="bg-white"][class*="rounded-xl"] {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+}
+
+/* All rounded containers with white background */
+.dark .rounded-xl.bg-white,
+.dark .rounded-lg.bg-white,
+.dark [class*="rounded-xl"].bg-white,
+.dark [class*="rounded-lg"].bg-white {
+  background-color: #1e293b !important;
+}
+
+/* Section backgrounds - catch all light backgrounds */
+.dark section.bg-white,
+.dark section[class*="bg-white"],
+.dark section[class*="bg-gray-50"],
+.dark section[class*="bg-slate-50"] {
+  background-color: #0f172a !important;
+}
+
+/* Gradient sections with light colors */
+.dark section[class*="from-gray-50"],
+.dark section[class*="to-blue-50"],
+.dark section[class*="to-purple-50"] {
+  background: linear-gradient(to bottom right, #0f172a, #1e293b) !important;
+}
+
+/* Feature boxes with light backgrounds */
+.dark .p-6.bg-white,
+.dark .p-5.bg-white,
+.dark .p-4.bg-white,
+.dark [class*="p-6"][class*="bg-gray-50"],
+.dark [class*="p-6"][class*="bg-blue-50"],
+.dark [class*="p-6"][class*="bg-purple-50"],
+.dark [class*="p-6"][class*="bg-red-50"] {
+  background-color: #1e293b !important;
+}
+
+/* Specific section fixes */
+.dark div[class*="bg-gradient-to-br"][class*="from-blue-50"] {
+  background: linear-gradient(to bottom right, #1e293b, #334155) !important;
+}
+
+.dark div[class*="bg-gradient-to-br"][class*="from-purple-50"] {
+  background: linear-gradient(to bottom right, #1e293b, #334155) !important;
+}
+
+/* Min-h-screen wrapper fix */
+.dark .min-h-screen[class*="bg-gradient-to-br"] {
+  background: linear-gradient(to bottom right, #0f172a, #1e293b) !important;
+}
+
+/* Card content boxes */
+.dark .bg-gray-50.rounded-lg,
+.dark .bg-gray-50.rounded-xl {
+  background-color: #0f172a !important;
+}
+
 /* Smooth transition for theme changes */
 html {
   transition: background-color 0.3s ease, color 0.3s ease;
