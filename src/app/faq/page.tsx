@@ -101,15 +101,15 @@ export default function FAQPage() {
       faqs: [
         {
           title: "What are modules?",
-          content: "Specialized intelligence add-ons that work with any Report or Core tier:\n\n1. **Labor Intelligence** - Schedule optimization, overtime reduction\n2. **Inventory Intelligence** - Waste tracking, par levels\n3. **Purchasing Intelligence** - Vendor comparison, contract management\n4. **Marketing Intelligence** - Campaign ROI, CAC tracking\n5. **Reservations Intelligence** - Table optimization, no-show prediction"
+          content: "Specialized intelligence add-ons that enhance Core tier with deep operational focus:\n\n1. **Labor Intelligence** - Schedule optimization, overtime reduction\n2. **Inventory Intelligence** - Waste tracking, par levels\n3. **Purchasing Intelligence** - Vendor comparison, contract management\n4. **Marketing Intelligence** - Campaign ROI, CAC tracking\n5. **Reservations Intelligence** - Table optimization, no-show prediction\n\n**Note:** Modules require Core tier (Lite, Pro, or Enterprise). Report tier users should upgrade to Core first."
         },
         {
           title: "Do I need modules?",
-          content: "Modules are optional. Add them only if you want deep focus in specific operational areas. Many operators start with just their tier (Report or Core) and add modules later."
+          content: "Modules are optional enhancements for Core tier users. Add them only if you want deep focus in specific operational areas.\n\n**Path to modules:**\n• If on Report tier → Upgrade to Core first, then add modules\n• If on Core tier → Add modules anytime based on your operational priorities"
         },
         {
-          title: "Can I use modules without Core?",
-          content: "Yes! Modules work with both Report and Core tiers.\n\n• Report + Modules = Historical specialized intelligence\n• Core + Modules = Real-time specialized intelligence"
+          title: "Do I need Core tier for modules?",
+          content: "Yes. Modules require Core tier (Lite, Pro, or Enterprise).\n\n**Why?** Modules integrate with labor, inventory, and other operational systems — this requires real-time data connections that Report tier doesn't support.\n\n• Core Lite + Modules = Specialized intelligence with 4-hour refresh\n• Core Pro + Modules = Specialized intelligence with 2-hour refresh\n• Enterprise + Modules = Real-time specialized intelligence"
         },
         {
           title: "Can I add multiple modules?",
@@ -147,8 +147,8 @@ export default function FAQPage() {
           content: "Yes! Choose:\n• Competitive Intelligence only\n• Event Intelligence only\n• Market Intelligence only\n• Or combine all three"
         },
         {
-          title: "Does Watchtower work with Report tier?",
-          content: "Yes! Watchtower works with both Report and Core tiers. Adds external context to your internal intelligence."
+          title: "Does Watchtower require Core tier?",
+          content: "Yes. Watchtower requires Core tier (Lite, Pro, or Enterprise).\n\n**Why?** Watchtower provides real-time competitive and market intelligence that integrates with your operational data. This real-time integration requires Core tier's data pipeline.\n\nReport tier focuses on historical POS analysis — to add external market context, upgrade to Core."
         }
       ]
     },
