@@ -13,6 +13,7 @@ These icons are **exclusive** to their products. Only use them when the product 
 | **Sundae Report** | `report` | `FileText` | 📄 Document |
 | **Sundae Core** | `core` | `Zap` | ⚡ Lightning bolt |
 | **Watchtower** | `watchtower` | `Castle` | 🏰 Castle/Tower |
+| **Modules** | `modules` | `Boxes` | 📦 Stacked boxes |
 
 ### Implementation Example (React/Lucide)
 

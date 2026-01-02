@@ -53,6 +53,7 @@ import {
   LayoutDashboard,
   Network,
   Castle,
+  Boxes,
   type LucideIcon,
 } from "lucide-react";
 
@@ -71,6 +72,7 @@ export type SundaeIconName =
   | "insights"
   | "report"
   | "core"
+  | "modules"
   | "architecture"
   | "scout"
   | "pulse"
@@ -154,6 +156,7 @@ const iconMap: Record<SundaeIconName, LucideIcon> = {
   insights: BarChart3,
   report: FileText,
   core: Zap,
+  modules: Boxes,
   architecture: GitBranch,
   scout: Link2,
   pulse: Activity,
