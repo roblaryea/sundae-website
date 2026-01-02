@@ -69,10 +69,14 @@ export type SundaeIconName =
   | "nexus"
   | "insights"
   | "report"
+  | "core"
   | "architecture"
   | "scout"
   | "pulse"
   | "forge"
+  | "reservations"
+  | "inventory"
+  | "purchasing"
   // Personas / roles
   | "operators"
   | "finance"
@@ -148,10 +152,14 @@ const iconMap: Record<SundaeIconName, LucideIcon> = {
   nexus: MessageSquare,
   insights: BarChart3,
   report: FileText,
+  core: Activity,
   architecture: GitBranch,
   scout: Link2,
   pulse: Activity,
   forge: Settings2,
+  reservations: Calendar,
+  inventory: Layers,
+  purchasing: Truck,
   // Personas / roles
   operators: Users,
   finance: DollarSign,

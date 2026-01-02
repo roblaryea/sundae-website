@@ -67,7 +67,7 @@ export default function Home() {
       name: "Sundae Core",
       subtitle: "Real-Time Operations & Predictive Intelligence",
       description: "For operators who need to act, not just analyze. Near real-time intelligence with predictive alerts. Know what's happening now, understand why, get recommended actions before problems escalate.",
-      icon: "nexus",
+      icon: "core",
       cardClass: "card--core",
       badge: "MOST POPULAR",
       badgeClass: "badge--popular",
@@ -338,11 +338,11 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
             {([
-              { name: "Labor Intelligence", description: "Schedule optimization, overtime reduction, demand forecasting", icon: "benchmarking" as SundaeIconName },
-              { name: "Inventory Intelligence", description: "Waste tracking, par levels, cost recipes", icon: "insights" as SundaeIconName },
-              { name: "Purchasing Intelligence", description: "Vendor comparison, contracts, supply chain", icon: "marketing" as SundaeIconName },
-              { name: "Marketing Intelligence", description: "Campaign ROI, CAC tracking, channel attribution", icon: "growth" as SundaeIconName },
-              { name: "Reservations Intelligence", description: "Table optimization, no-shows, waitlist management", icon: "multiLocation" as SundaeIconName }
+              { name: "Labor Intelligence", description: "Schedule optimization, overtime reduction, demand forecasting", icon: "labor" as SundaeIconName },
+              { name: "Inventory Intelligence", description: "Waste tracking, par levels, cost recipes", icon: "inventory" as SundaeIconName },
+              { name: "Purchasing Intelligence", description: "Vendor comparison, contracts, supply chain", icon: "purchasing" as SundaeIconName },
+              { name: "Marketing Intelligence", description: "Campaign ROI, CAC tracking, channel attribution", icon: "marketing" as SundaeIconName },
+              { name: "Reservations Intelligence", description: "Table optimization, no-shows, waitlist management", icon: "reservations" as SundaeIconName }
             ]).map((module, index) => (
               <motion.div
                 key={module.name}
@@ -465,7 +465,7 @@ export default function Home() {
                 dimension: "1D",
                 title: "What Happened",
                 description: "Your operational truth. Sales, labor, covers, voids, waste — unified from POS, payroll, and inventory systems.",
-                icon: "benchmarking" as SundaeIconName,
+                icon: "report" as SundaeIconName,
                 color: "from-blue-500 to-blue-600",
                 textColor: "text-blue-600"
               },
@@ -473,7 +473,7 @@ export default function Home() {
                 dimension: "2D",
                 title: "Plan vs. Actual",
                 description: "Are you on track? Compare actuals against budgets, forecasts, and targets across every location.",
-                icon: "marketing" as SundaeIconName,
+                icon: "benchmarking" as SundaeIconName,
                 color: "from-purple-500 to-purple-600",
                 textColor: "text-purple-600"
               },
@@ -481,7 +481,7 @@ export default function Home() {
                 dimension: "3D",
                 title: "Market Context",
                 description: "How do you stack up? Performance vs. benchmarks, peer groups, competitor pricing, and category trends.",
-                icon: "multiLocation" as SundaeIconName,
+                icon: "watchtower" as SundaeIconName,
                 color: "from-green-500 to-green-600",
                 textColor: "text-green-600"
               },
@@ -489,7 +489,7 @@ export default function Home() {
                 dimension: "4D",
                 title: "What's Next",
                 description: "AI-powered foresight. Predictions, proactive alerts, recommendations, and action plans — before problems hit.",
-                icon: "growth" as SundaeIconName,
+                icon: "forecasting" as SundaeIconName,
                 color: "from-orange-500 to-orange-600",
                 textColor: "text-orange-600"
               }
@@ -635,25 +635,25 @@ export default function Home() {
               {
                 title: "Operations leaders",
                 description: "See which locations need help this week — and why — without digging through 20 reports.",
-                icon: "multiLocation" as SundaeIconName,
+                icon: "operators" as SundaeIconName,
                 color: "from-blue-500 to-blue-600"
               },
               {
                 title: "Finance & FP&A",
                 description: "Understand the story behind every variance and model the impact of decisions before you roll them out.",
-                icon: "marketing" as SundaeIconName,
+                icon: "finance" as SundaeIconName,
                 color: "from-purple-500 to-purple-600"
               },
               {
                 title: "C-suite & owners",
                 description: "Get a simple, unified view of performance across brands, geographies, and partners.",
-                icon: "growth" as SundaeIconName,
+                icon: "owners" as SundaeIconName,
                 color: "from-green-500 to-green-600"
               },
               {
                 title: "Data & technology teams",
                 description: "Keep clean pipelines, governance, and an opinionated metrics layer — without becoming the bottleneck.",
-                icon: "integration" as SundaeIconName,
+                icon: "technology" as SundaeIconName,
                 color: "from-orange-500 to-orange-600"
               }
             ]).map((audience, index) => (
