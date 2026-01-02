@@ -33,14 +33,14 @@ export default function FranchisesPage() {
   const howSundaeHelps: { title: string; description: string; product: string; icon: SundaeIconName }[] = [
     {
       title: "Network-Wide Visibility",
-      description: "Sundae Canvas unifies data from all franchisees into one dashboard, giving you real-time visibility into every location's performance.",
-      product: "Sundae Canvas",
-      icon: "canvas"
+      description: "Sundae Core unifies data from all franchisees into one dashboard, giving you real-time visibility into every location's performance.",
+      product: "Sundae Core",
+      icon: "chart"
     },
     {
       title: "Automated Performance Alerts",
-      description: "Sundae Insights flags underperforming franchisees and identifies the specific areas needing attention before issues escalate.",
-      product: "Sundae Insights",
+      description: "Sundae Core flags underperforming franchisees and identifies the specific areas needing attention before issues escalate.",
+      product: "Sundae Core",
       icon: "alerts"
     },
     {
@@ -51,9 +51,9 @@ export default function FranchisesPage() {
     },
     {
       title: "Conversational Support",
-      description: "Ask Sundae Nexus 'Which franchisees have the highest labor variance?' and get instant answers to guide your support efforts.",
-      product: "Sundae Nexus",
-      icon: "nexus"
+      description: "Ask Sundae Core 'Which franchisees have the highest labor variance?' and get instant answers to guide your support efforts.",
+      product: "Sundae Core",
+      icon: "intelligence"
     }
   ];
 
@@ -92,7 +92,7 @@ export default function FranchisesPage() {
               transition={{ duration: 0.5 }}
               className="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium mb-6"
             >
-              <span>🏪</span>
+              <SundaeIcon name="franchise" size="md" />
               <span>Franchises</span>
             </motion.div>
             

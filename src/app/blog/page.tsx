@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { motion } from "framer-motion";
 import { blogPosts, BlogCategory } from "@/lib/blogData";
+import { SundaeIcon } from '@/components/icons';
 
 export default function BlogPage() {
   const [selectedCategory, setSelectedCategory] = useState<BlogCategory | 'All'>('All');
@@ -39,7 +40,7 @@ export default function BlogPage() {
             transition={{ duration: 0.6 }}
           >
             <div className="inline-flex items-center space-x-2 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 px-4 py-2 rounded-full text-sm font-medium mb-6">
-              <span>📝</span>
+              <SundaeIcon name="document" size="md" />
               <span>Sundae Blog</span>
             </div>
             <h1 className="hero-h1 text-gray-900 dark:text-white mb-6">

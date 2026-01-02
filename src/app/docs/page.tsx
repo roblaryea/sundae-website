@@ -35,9 +35,9 @@ export default function DocumentationPage() {
       ]
     },
     {
-      title: "Sundae Nexus Guide",
+      title: "Sundae Core Guide",
       description: "Master conversational business intelligence with natural language queries",
-      icon: "nexus",
+      icon: "intelligence",
       color: "bg-purple-600",
       topics: [
         "Asking questions in plain English",
@@ -48,7 +48,7 @@ export default function DocumentationPage() {
       ]
     },
     {
-      title: "Sundae Insights",
+      title: "Sundae Core",
       description: "Leverage AI-powered alerts and contextual intelligence",
       icon: "insights",
       color: "bg-orange-600",
@@ -61,9 +61,9 @@ export default function DocumentationPage() {
       ]
     },
     {
-      title: "Sundae Canvas",
+      title: "Sundae Core",
       description: "Build and customize dashboards for every team",
-      icon: "canvas",
+      icon: "chart",
       color: "bg-indigo-600",
       topics: [
         "Creating custom dashboards",
@@ -99,7 +99,7 @@ export default function DocumentationPage() {
             transition={{ duration: 0.6 }}
           >
             <div className="inline-flex items-center space-x-2 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 px-4 py-2 rounded-full text-sm font-medium mb-6">
-              <span>📚</span>
+              <SundaeIcon name="learning" size="md" />
               <span>Documentation</span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">
@@ -201,13 +201,13 @@ export default function DocumentationPage() {
               {
                 step: "3",
                 title: "Ask Questions",
-                description: "Use Sundae Nexus to query your data in plain English and get instant answers",
-                icon: "nexus" as SundaeIconName
+                description: "Use Sundae Core to query your data in plain English and get instant answers",
+                icon: "intelligence" as SundaeIconName
               },
               {
                 step: "4",
                 title: "Set Up Alerts",
-                description: "Configure Sundae Insights to monitor key metrics and notify you of anomalies",
+                description: "Configure Sundae Core to monitor key metrics and notify you of anomalies",
                 icon: "warning" as SundaeIconName
               }
             ]).map((item, index) => (

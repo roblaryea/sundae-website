@@ -33,21 +33,21 @@ export default function RegionalManagersPage() {
   const howSundaeHelps: { title: string; description: string; product: string; icon: SundaeIconName }[] = [
     {
       title: "Real-Time Regional Dashboard",
-      description: "Sundae Canvas gives you a single view of all your locations—sales, labor, margins, and operations—updated in real time.",
-      product: "Sundae Canvas",
-      icon: "canvas"
+      description: "Sundae Core gives you a single view of all your locations—sales, labor, margins, and operations—updated in real time.",
+      product: "Sundae Core",
+      icon: "chart"
     },
     {
       title: "Proactive Alerts",
-      description: "Sundae Insights flags issues before they become problems, letting you intervene early and coach more effectively.",
-      product: "Sundae Insights",
+      description: "Sundae Core flags issues before they become problems, letting you intervene early and coach more effectively.",
+      product: "Sundae Core",
       icon: "insights"
     },
     {
       title: "Instant Answers",
-      description: "Ask Sundae Nexus 'Which locations are trending up this week?' or 'Where is labor variance highest?' and get immediate, data-backed answers.",
-      product: "Sundae Nexus",
-      icon: "nexus"
+      description: "Ask Sundae Core 'Which locations are trending up this week?' or 'Where is labor variance highest?' and get immediate, data-backed answers.",
+      product: "Sundae Core",
+      icon: "intelligence"
     },
     {
       title: "Performance Benchmarking",
@@ -91,7 +91,7 @@ export default function RegionalManagersPage() {
               transition={{ duration: 0.5 }}
               className="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium mb-6"
             >
-              <span>👔</span>
+              <SundaeIcon name="executive" size="md" />
               <span>Regional Managers</span>
             </motion.div>
             

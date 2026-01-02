@@ -11,17 +11,10 @@ const Footer = () => {
   
   const productLinks = [
     { name: 'Sundae Report', href: '/report' },
-    { name: 'Sundae Nexus', href: '/nexus' },
-    { name: 'Sundae Insights', href: '/insights' },
-    { name: 'Sundae Canvas', href: '/canvas' },
-  ];
-
-  const architectureLinks = [
-    { name: 'Scout', href: '/product/scout' },
-    { name: 'Pulse', href: '/product/pulse' },
-    { name: 'Forge', href: '/product/forge' },
-    { name: 'Canvas Engine', href: '/product/canvas' },
-    { name: 'Watchtower', href: '/product/watchtower' },
+    { name: 'Sundae Core', href: '/core' },
+    { name: 'Watchtower', href: '/watchtower' },
+    { name: 'Modules', href: '/modules' },
+    { name: 'Pricing Calculator', href: 'https://pricing.sundae.io', external: true },
   ];
 
   const solutionLinks = [
@@ -37,26 +30,28 @@ const Footer = () => {
     { name: 'People & HR Teams', href: '/solutions/hr-teams' },
   ];
 
-  const companyLinks = [
-    { name: 'About', href: '/about' },
-    { name: 'Careers', href: '/careers' },
-    { name: 'Contact', href: '/contact' },
-    { name: 'Demo', href: '/demo' },
-  ];
-
-  const learnLinks = [
+  const resourceLinks = [
     { name: 'Blog', href: '/blog' },
     { name: 'Documentation', href: '/docs' },
     { name: 'Case Studies', href: '/resources' },
-    { name: 'Free Tools & Calculators', href: '/tools' },
+    { name: 'FAQ', href: '/faq' },
+    { name: 'Free Tools', href: '/tools' },
+    { name: 'Getting Started', href: '/getting-started' },
+  ];
+
+  const companyLinks = [
+    { name: 'About', href: '/about' },
+    { name: 'Careers', href: '/careers' },
+    { name: 'Press', href: '/press' },
+    { name: 'Contact', href: '/contact' },
   ];
 
   return (
     <footer className="bg-graphite-black text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10 lg:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-12">
           {/* Brand Section */}
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-1">
             <Link href="/" className="inline-block mb-4">
               <Image
                 src="/logos/sundae-wordmark.png"
@@ -67,9 +62,13 @@ const Footer = () => {
               />
             </Link>
             <p className="text-muted-grey mb-6 max-w-md text-[15px] leading-relaxed">
-              The AI-powered decision intelligence platform for restaurants, unifying every operational, 
-              workforce, and market data source into a single operating layer.
+              Serving restaurants and hospitality operators globally
             </p>
+            <div className="text-muted-grey text-[13px] space-y-1 mb-6">
+              <p>Support: Available in all major timezones</p>
+              <p>Currencies: All currencies supported</p>
+              <p>Languages: English (Additional languages available)</p>
+            </div>
             <div className="flex space-x-4">
               <a href="https://x.com/sundae_io?s=20" target="_blank" rel="noopener noreferrer" className="text-muted-grey hover:text-electric-blue transition-colors">
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -86,41 +85,19 @@ const Footer = () => {
 
           {/* Product Links */}
           <div>
-            <h3 className="font-bold mb-4 text-white text-[15px] tracking-[0.4px]">Product</h3>
+            <h3 className="font-bold mb-4 text-white text-[15px] tracking-[0.4px]">Products</h3>
             <ul className="space-y-3">
               {productLinks.map((link) => (
                 <li key={link.name}>
-                  <Link href={link.href} className="text-muted-grey hover:text-[#0A1E8C] transition-colors text-[14px] leading-[1.5]">
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Architecture Links */}
-          <div>
-            <h3 className="font-bold mb-4 text-white text-[15px] tracking-[0.4px]">Architecture</h3>
-            <ul className="space-y-3">
-              {architectureLinks.map((link) => (
-                <li key={link.name}>
-                  <Link href={link.href} className="text-muted-grey hover:text-[#0A1E8C] transition-colors text-[14px] leading-[1.5]">
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Company Links */}
-          <div>
-            <h3 className="font-bold mb-4 text-white text-[15px] tracking-[0.4px]">Company</h3>
-            <ul className="space-y-3">
-              {companyLinks.map((link) => (
-                <li key={link.name}>
-                  <Link href={link.href} className="text-muted-grey hover:text-[#0A1E8C] transition-colors text-[14px] leading-[1.5]">
-                    {link.name}
-                  </Link>
+                  {link.external ? (
+                    <a href={link.href} target="_blank" rel="noopener noreferrer" className="text-muted-grey hover:text-[#0A1E8C] transition-colors text-[14px] leading-[1.5]">
+                      {link.name}
+                    </a>
+                  ) : (
+                    <Link href={link.href} className="text-muted-grey hover:text-[#0A1E8C] transition-colors text-[14px] leading-[1.5]">
+                      {link.name}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>
@@ -140,11 +117,11 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Resources Links - Special tracking for Tools */}
+          {/* Resources Links */}
           <div>
             <h3 className="font-bold mb-4 text-white text-[15px] tracking-[0.4px]">Resources</h3>
             <ul className="space-y-3">
-              {learnLinks.map((link) => (
+              {resourceLinks.map((link) => (
                 <li key={link.name}>
                   {link.href === '/tools' ? (
                     <button
@@ -162,21 +139,37 @@ const Footer = () => {
               ))}
             </ul>
           </div>
+
+          {/* Company Links */}
+          <div>
+            <h3 className="font-bold mb-4 text-white text-[15px] tracking-[0.4px]">Company</h3>
+            <ul className="space-y-3">
+              {companyLinks.map((link) => (
+                <li key={link.name}>
+                  <Link href={link.href} className="text-muted-grey hover:text-[#0A1E8C] transition-colors text-[14px] leading-[1.5]">
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+              <li>
+                <Link href="/privacy" className="text-muted-grey hover:text-[#0A1E8C] transition-colors text-[14px] leading-[1.5]">
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link href="/terms" className="text-muted-grey hover:text-[#0A1E8C] transition-colors text-[14px] leading-[1.5]">
+                  Terms of Service
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
 
         {/* Bottom Section */}
-        <div className="border-t border-divider-grey mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-muted-grey text-[14px]">
-            © {new Date().getFullYear()} Sundae. All rights reserved.
+        <div className="border-t border-divider-grey mt-12 pt-8">
+          <p className="text-muted-grey text-[14px] text-center">
+            © 2026 Sundae. All rights reserved.
           </p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
-            <Link href="/privacy" className="text-muted-grey hover:text-[#0A1E8C] text-[14px] transition-colors leading-[1.5]">
-              Privacy Policy
-            </Link>
-            <Link href="/terms" className="text-muted-grey hover:text-[#0A1E8C] text-[14px] transition-colors leading-[1.5]">
-              Terms of Service
-            </Link>
-          </div>
         </div>
       </div>
     </footer>

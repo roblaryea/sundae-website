@@ -45,9 +45,9 @@ export default function TechnologyTeamsPage() {
     },
     {
       title: "Self-Service Analytics",
-      description: "Sundae Nexus lets business users query data directly with natural language—reducing IT reporting backlog by 75%.",
-      product: "Sundae Nexus",
-      icon: "nexus"
+      description: "Sundae Core lets business users query data directly with natural language—reducing IT reporting backlog by 75%.",
+      product: "Sundae Core",
+      icon: "intelligence"
     },
     {
       title: "API-First Architecture",
@@ -91,7 +91,7 @@ export default function TechnologyTeamsPage() {
               transition={{ duration: 0.5 }}
               className="inline-flex items-center space-x-2 bg-indigo-100 text-indigo-800 px-4 py-2 rounded-full text-sm font-medium mb-6"
             >
-              <span>💻</span>
+              <SundaeIcon name="technology" size="md" />
               <span>Data & Technology Teams</span>
             </motion.div>
             

@@ -119,7 +119,7 @@ export default function NexusPage() {
                 transition={{ duration: 0.5 }}
                 className="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium mb-6"
               >
-                <span>🚀</span>
+                <SundaeIcon name="growth" size="md" />
                 <span>Sundae Nexus</span>
               </motion.div>
               

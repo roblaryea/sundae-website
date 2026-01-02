@@ -33,21 +33,21 @@ export default function MultiLocationGroupsPage() {
   const howSundaeHelps: { title: string; description: string; product: string; icon: SundaeIconName }[] = [
     {
       title: "Unified Real-Time Dashboard",
-      description: "Sundae Canvas brings all your locations into one view. See sales, labor, margins, and operations across every site in real-time.",
-      product: "Sundae Canvas",
-      icon: "canvas"
+      description: "Sundae Core brings all your locations into one view. See sales, labor, margins, and operations across every site in real-time.",
+      product: "Sundae Core",
+      icon: "chart"
     },
     {
       title: "Instant AI Insights",
-      description: "Sundae Insights automatically flags anomalies, opportunities, and risks across your portfolio before they impact your bottom line.",
-      product: "Sundae Insights",
+      description: "Sundae Core automatically flags anomalies, opportunities, and risks across your portfolio before they impact your bottom line.",
+      product: "Sundae Core",
       icon: "intelligence"
     },
     {
       title: "Conversational Intelligence",
-      description: "Ask Sundae Nexus questions like 'Which locations are underperforming on labor cost?' and get instant answers with context.",
-      product: "Sundae Nexus",
-      icon: "nexus"
+      description: "Ask Sundae Core questions like 'Which locations are underperforming on labor cost?' and get instant answers with context.",
+      product: "Sundae Core",
+      icon: "intelligence"
     },
     {
       title: "Benchmark Performance",
@@ -92,7 +92,7 @@ export default function MultiLocationGroupsPage() {
               transition={{ duration: 0.5 }}
               className="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium mb-6"
             >
-              <span>🏢</span>
+              <SundaeIcon name="building" size="md" />
               <span>Multi-location Groups</span>
             </motion.div>
             

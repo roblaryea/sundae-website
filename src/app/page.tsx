@@ -55,56 +55,48 @@ export default function Home() {
   const coreProducts: { name: string; subtitle: string; description: string; icon: SundaeIconName; color: string; link: string }[] = [
     {
       name: "Sundae Report",
-      subtitle: "Free benchmarking in minutes",
-      description: "See exactly where you stand. Upload your data and get instant comparisons on sales, labour, COGS, and operational performance against similar restaurants in your market.",
+      subtitle: "Historical Analysis & Benchmarking",
+      description: "Start free. Upload your operational data and instantly see where you stand. Compare performance, identify margin opportunities, understand historical patterns. Perfect for testing Sundae and single-location operators.",
       icon: "report",
       color: "from-blue-500 to-blue-600",
       link: "/report"
     },
     {
-      name: "Sundae Nexus",
-      subtitle: "Ask questions, get answers",
-      description: "Skip the spreadsheets. Ask questions like 'Which locations grew fastest last weekend?' and get instant, AI-powered answers — with context.",
+      name: "Sundae Core",
+      subtitle: "Real-Time Operations & Predictive Intelligence",
+      description: "For operators who need to act, not just analyze. Near real-time intelligence with predictive alerts. Know what's happening now, understand why, get recommended actions before problems escalate.",
       icon: "nexus",
       color: "from-purple-500 to-purple-600",
-      link: "/nexus"
+      link: "/core"
     },
     {
-      name: "Sundae Insights",
-      subtitle: "Context that explains the why",
-      description: "Understand what's actually driving your numbers. Connect performance to weather, local events, and market shifts — automatically.",
-      icon: "insights",
+      name: "Watchtower",
+      subtitle: "External Intelligence",
+      description: "See outside your four walls. Real-time visibility into competitor activity, local events, and market shifts. Monitor competitors, predict demand changes, never be caught off guard.",
+      icon: "watchtower",
       color: "from-green-500 to-green-600",
-      link: "/insights"
-    },
-    {
-      name: "Sundae Canvas",
-      subtitle: "Dashboards that work for everyone",
-      description: "One source of truth. Clear dashboards for execs, ops, and finance — always current, always aligned, always actionable.",
-      icon: "canvas",
-      color: "from-orange-500 to-orange-600",
-      link: "/canvas"
+      link: "/watchtower"
     }
   ];
 
   const testimonials = [
     {
-      name: "Ahmed Al Mansoori",
+      name: "",
+      role: "Multi-location restaurant group",
+      content: "We saved $2,400/month by switching to Sundae from our previous analytics platform, and gained critical competitive intelligence through Watchtower. When our main competitor reduced prices by 15% during peak season, we were alerted within hours and adjusted our pricing strategy — retaining an estimated $5,000 in monthly revenue that would have been lost.",
+      company: "Middle East"
+    },
+    {
+      name: "", 
+      role: "Group CFO",
+      content: "Sundae surfaced a margin gap across our lunch dayparts in days. Our teams finally see where to take action, not just where numbers moved. The labor optimization recommendations alone paid for the platform in the first quarter.",
+      company: "Multi-brand operator"
+    },
+    {
+      name: "",
       role: "Operations Director",
-      content: "Sundae helped us uncover a labour variance across our Dubai outlets that we had missed for months. The platform highlighted the issue instantly and recommended the exact fix. Our teams took action the same day.",
-      company: "32 locations across Dubai & Abu Dhabi"
-    },
-    {
-      name: "Rania Haddad", 
-      role: "Group F&B Controller",
-      content: "The benchmarking insights showed us that our food cost was trending 7% above similar hotel restaurants in the city. We adjusted portions and pricing — and recovered AED 180K within the quarter.",
-      company: "Hospitality Group — UAE"
-    },
-    {
-      name: "Yousef Al Fadhel",
-      role: "CFO",
-      content: "For the first time, we can see exactly where to intervene — from menu performance to delivery profitability. Sundae turned our raw data into decisions my team could act on immediately.",
-      company: "50+ franchise locations across the GCC"
+      content: "For the first time, we can see exactly where to intervene — from menu performance to delivery profitability. Sundae turned our raw data into decisions my team could act on immediately. The predictive alerts have prevented several costly overstaffing situations.",
+      company: "30+ locations"
     }
   ];
 
@@ -174,42 +166,40 @@ export default function Home() {
               </div>
             </div>
             <h1 className="hero-h1 text-gray-900 mb-6">
-              The Future of Restaurant Intelligence
+              Decision Intelligence for Restaurants & Hospitality Operations
             </h1>
             <p className="body-xl text-gray-600 dark:text-slate-300 leading-relaxed mb-4 max-w-4xl mx-auto">
               Clear, contextual, AI-powered visibility into your entire operation — instantly.
             </p>
-            <p className="body-lg text-gray-500 mb-4 max-w-3xl mx-auto">
+            <p className="body-lg text-gray-500 mb-8 max-w-3xl mx-auto">
               One platform. Zero guesswork. Sundae analyzes performance, predicts what's coming, and tells your team exactly what to do next.
-            </p>
-            <p className="body-lg text-slate-500 dark:text-slate-400 mt-4 mb-8 max-w-3xl mx-auto">
-              Built on <span className="font-semibold text-blue-600">Report</span>, <span className="font-semibold text-purple-600">Nexus</span>, <span className="font-semibold text-green-600">Insights</span>, and <span className="font-semibold text-orange-600">Canvas</span> — the intelligence engine for modern hospitality.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center mt-6 mb-6">
               <Button 
                 variant="primary" 
                 size="lg" 
                 className="bg-electric-blue text-white hover:bg-deep-blue transition-all duration-300 shadow-lg hover:shadow-xl"
-                onClick={() => cta("/demo", "book_demo_hero", { page: "/home" })}
+                onClick={() => cta("/report", "start_free_report_hero", { page: "/home" })}
               >
-                Book a Demo
+                Start Free with Sundae Report
               </Button>
-              <Button 
-                variant="outline" 
-                size="lg" 
-                className="border-2 border-gray-900 text-gray-900 bg-white hover:bg-gray-900 hover:text-white transition-all duration-300"
-                onClick={() => cta("/product", "explore_products_hero", { page: "/home" })}
-              >
-                Explore Products
-              </Button>
+              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer">
+                <Button 
+                  variant="outline" 
+                  size="lg" 
+                  className="border-2 border-gray-900 text-gray-900 bg-white hover:bg-gray-900 hover:text-white transition-all duration-300"
+                >
+                  See Your Custom Pricing
+                </Button>
+              </a>
             </div>
             <p className="text-sm text-gray-500">
               Already running reports?{" "}
               <button 
-                onClick={() => cta("/report", "free_report_hero_link", { page: "/home" })}
+                onClick={() => cta("/report", "free_benchmark_hero_link", { page: "/home" })}
                 className="text-blue-600 hover:text-blue-700 font-medium underline bg-transparent border-none cursor-pointer"
               >
-                Upload your data and get a free Sundae benchmark in minutes.
+                Upload your data and get instant benchmarking — free, no commitment required.
               </button>
             </p>
           </motion.div>
@@ -340,14 +330,14 @@ export default function Home() {
               WHAT IS SUNDAE?
             </p>
             <h2 id="what-is-sundae-heading" className="section-h2 text-gray-900 mb-4">
-              One platform. Four core products.
+              Three Intelligence Layers. One Decision Platform.
             </h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Everything you need to move from 1D reports to 4D intelligence — in one stack that operators, finance, and data teams can share.
+              Choose the intelligence you need. Add what makes sense. Scale as you grow.
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {coreProducts.map((product, index) => (
               <motion.div
                 key={product.name}
@@ -401,6 +391,72 @@ export default function Home() {
             >
               Explore the full product →
             </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* Modules Section */}
+      <section aria-labelledby="modules-heading" className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <p className="text-xs font-semibold tracking-[0.18em] uppercase text-slate-500 mb-4">
+              SPECIALIZED MODULES
+            </p>
+            <h2 id="modules-heading" className="section-h2 text-gray-900 mb-4">
+              Specialized Modules for Deeper Intelligence
+            </h2>
+            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+              Go beyond core analytics. Add focused modules for your specific challenges. Each module integrates seamlessly with Report or Core.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            {([
+              { name: "Labor Intelligence", description: "Schedule optimization, overtime reduction, demand forecasting", icon: "benchmarking" as SundaeIconName },
+              { name: "Inventory Intelligence", description: "Waste tracking, par levels, cost recipes", icon: "insights" as SundaeIconName },
+              { name: "Purchasing Intelligence", description: "Vendor comparison, contracts, supply chain", icon: "marketing" as SundaeIconName },
+              { name: "Marketing Intelligence", description: "Campaign ROI, CAC tracking, channel attribution", icon: "growth" as SundaeIconName },
+              { name: "Reservations Intelligence", description: "Table optimization, no-shows, waitlist management", icon: "multiLocation" as SundaeIconName }
+            ]).map((module, index) => (
+              <motion.div
+                key={module.name}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                viewport={{ once: true, margin: "-100px" }}
+                whileHover={{ y: -4, transition: { duration: 0.2 } }}
+              >
+                <div className="flex items-start space-x-4 p-5 bg-white rounded-xl border border-slate-200/70 shadow-sm hover:shadow-md transition-all duration-300 h-full">
+                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center text-white flex-shrink-0 shadow-lg">
+                    <SundaeIcon name={module.icon} size="lg" className="text-white" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-gray-900 mb-1">{module.name}</h3>
+                    <p className="text-sm text-gray-600 leading-relaxed">{module.description}</p>
+                  </div>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+
+          <div className="text-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button 
+                variant="primary" 
+                size="lg"
+                onClick={() => cta("/modules", "explore_modules", { page: "/home", section: "modules" })}
+              >
+                Explore All Modules
+              </Button>
+              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer">
+                <Button 
+                  variant="outline" 
+                  size="lg"
+                >
+                  See Module Pricing
+                </Button>
+              </a>
+            </div>
           </div>
         </div>
       </section>

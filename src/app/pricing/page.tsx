@@ -37,7 +37,7 @@ export default function PricingPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-8">
             <div className="inline-flex items-center space-x-2 bg-electric-blue/10 text-electric-blue px-6 py-2.5 rounded-full text-base font-semibold">
-              <span>📊</span>
+              <SundaeIcon name="chart" size="md" />
               <span>Sundae Report</span>
             </div>
           </div>
@@ -53,7 +53,7 @@ export default function PricingPage() {
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <div className="inline-flex items-center space-x-2 bg-green-500/10 text-green-700 dark:text-green-400 px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                      <span>🎉</span>
+                      <SundaeIcon name="celebrate" size="md" />
                       <span>Free Early Access</span>
                     </div>
                     <CardTitle className="section-h2 text-gray-900 dark:text-white mb-3">Sundae Report</CardTitle>

@@ -128,7 +128,7 @@ export default function CanvasPage() {
               transition={{ duration: 0.5 }}
               className="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium mb-6"
             >
-              <span>📊</span>
+              <SundaeIcon name="chart" size="md" />
               <span>Sundae Canvas</span>
             </motion.div>
             

@@ -42,7 +42,16 @@ function AccordionItem({ title, content, isOpen, onClick }: AccordionItemProps) 
             className="overflow-hidden"
           >
             <div className="px-6 pb-5 text-gray-600 dark:text-gray-400 leading-relaxed">
-              {content}
+              {content.split('\n\n').map((paragraph, idx) => (
+                <p key={idx} className={idx > 0 ? 'mt-4' : ''}>
+                  {paragraph.split('\n').map((line, lineIdx) => (
+                    <React.Fragment key={lineIdx}>
+                      {lineIdx > 0 && <br />}
+                      {line}
+                    </React.Fragment>
+                  ))}
+                </p>
+              ))}
             </div>
           </motion.div>
         )}

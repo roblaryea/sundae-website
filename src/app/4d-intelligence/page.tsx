@@ -141,7 +141,7 @@ export default function FourDIntelligencePage() {
             className="text-center mb-12"
           >
             <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
-              <span>🚀</span>
+              <SundaeIcon name="growth" size="md" />
               <span>Decision Intelligence</span>
             </div>
             <h1 className="hero-h1 text-gray-900 mb-6">
