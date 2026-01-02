@@ -52,13 +52,15 @@ export default function Home() {
   const flowInView = useInView(flowRef, { once: true, margin: "-100px" });
   const dimensionsInView = useInView(dimensionsRef, { once: true, margin: "-100px" });
 
-  const coreProducts: { name: string; subtitle: string; description: string; icon: SundaeIconName; color: string; link: string }[] = [
+  const coreProducts: { name: string; subtitle: string; description: string; icon: SundaeIconName; cardClass: string; badge: string; badgeClass: string; link: string }[] = [
     {
       name: "Sundae Report",
       subtitle: "Historical Analysis & Benchmarking",
       description: "Start free. Upload your operational data and instantly see where you stand. Compare performance, identify margin opportunities, understand historical patterns. Perfect for testing Sundae and single-location operators.",
       icon: "report",
-      color: "from-blue-500 to-blue-600",
+      cardClass: "card--report",
+      badge: "FREE FOREVER",
+      badgeClass: "badge--free",
       link: "/report"
     },
     {
@@ -66,7 +68,9 @@ export default function Home() {
       subtitle: "Real-Time Operations & Predictive Intelligence",
       description: "For operators who need to act, not just analyze. Near real-time intelligence with predictive alerts. Know what's happening now, understand why, get recommended actions before problems escalate.",
       icon: "nexus",
-      color: "from-purple-500 to-purple-600",
+      cardClass: "card--core",
+      badge: "MOST POPULAR",
+      badgeClass: "badge--popular",
       link: "/core"
     },
     {
@@ -74,7 +78,9 @@ export default function Home() {
       subtitle: "External Intelligence",
       description: "See outside your four walls. Real-time visibility into competitor activity, local events, and market shifts. Monitor competitors, predict demand changes, never be caught off guard.",
       icon: "watchtower",
-      color: "from-green-500 to-green-600",
+      cardClass: "card--watchtower",
+      badge: "ADD-ON",
+      badgeClass: "badge--addon",
       link: "/watchtower"
     }
   ];
@@ -175,22 +181,11 @@ export default function Home() {
               One platform. Zero guesswork. Sundae analyzes performance, predicts what's coming, and tells your team exactly what to do next.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center mt-6 mb-6">
-              <Button 
-                variant="primary" 
-                size="lg" 
-                className="bg-electric-blue text-white hover:bg-deep-blue transition-all duration-300 shadow-lg hover:shadow-xl"
-                onClick={() => cta("/report", "start_free_report_hero", { page: "/home" })}
-              >
+              <a href="/report" onClick={() => cta("/report", "start_free_report_hero", { page: "/home" })} className="btn-primary btn-lg">
                 Start Free with Sundae Report
-              </Button>
-              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer">
-                <Button 
-                  variant="outline" 
-                  size="lg" 
-                  className="border-2 border-gray-900 text-gray-900 bg-white hover:bg-gray-900 hover:text-white transition-all duration-300"
-                >
-                  See Your Custom Pricing
-                </Button>
+              </a>
+              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer" className="btn-secondary btn-lg">
+                See Your Custom Pricing
               </a>
             </div>
             <p className="text-sm text-gray-500">
@@ -337,7 +332,7 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 card-grid">
             {coreProducts.map((product, index) => (
               <motion.div
                 key={product.name}
@@ -345,40 +340,29 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true, margin: "-100px" }}
-                whileHover={{ y: -8, transition: { duration: 0.2 } }}
                 className="group cursor-pointer"
                 onClick={() => cta(product.link, `view_${product.name.toLowerCase().replace(/\s+/g, "_")}`, { page: "/home", section: "core-products" })}
               >
-                <Card variant="elevated" className="h-full hover:shadow-2xl transition-all duration-300">
-                  <CardHeader>
-                    <div className="flex items-start space-x-4 mb-4">
-                      <div className={`w-14 h-14 bg-gradient-to-br ${product.color} rounded-xl flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
-                        <SundaeIcon name={product.icon} size="lg" className="text-white" />
-                      </div>
-                      <div className="flex-1">
-                        <CardTitle className="text-xl text-gray-900 group-hover:text-blue-600 transition-colors duration-300">
-                          {product.name}
-                        </CardTitle>
-                        <p className="text-sm text-gray-500 font-medium mt-1">{product.subtitle}</p>
-                      </div>
+                <div className={`card ${product.cardClass} h-full`}>
+                  <div className="mb-4">
+                    <div className="product-icon">
+                      <SundaeIcon name={product.icon} size="xl" className="text-white" />
                     </div>
-                    <CardDescription className="text-gray-600 leading-relaxed">
+                    <span className={`badge ${product.badgeClass} inline-block mb-3`}>
+                      {product.badge}
+                    </span>
+                    <h3 className="text-2xl font-bold text-gray-900 mb-2">
+                      {product.name}
+                    </h3>
+                    <p className="text-sm text-gray-500 font-medium mb-4">{product.subtitle}</p>
+                    <p className="text-gray-600 leading-relaxed mb-6">
                       {product.description}
-                    </CardDescription>
-                  </CardHeader>
-                  <CardContent>
-                    <div className="flex items-center text-blue-600 font-medium group-hover:text-blue-700 transition-colors">
-                      <span>Learn more</span>
-                      <motion.span
-                        className="ml-2"
-                        animate={{ x: [0, 4, 0] }}
-                        transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
-                      >
-                        →
-                      </motion.span>
-                    </div>
-                  </CardContent>
-                </Card>
+                    </p>
+                    <a href={product.link} className="btn-link" onClick={(e) => e.stopPropagation()}>
+                      Learn more
+                    </a>
+                  </div>
+                </div>
               </motion.div>
             ))}
           </div>
