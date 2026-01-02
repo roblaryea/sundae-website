@@ -1,5 +1,119 @@
 @import "tailwindcss";
 
+/* ==============================================
+   PHASE 1: CRITICAL ACCESSIBILITY FIXES
+   WCAG 2.1 AA/AAA Compliance
+   ============================================== */
+
+/* Focus Indicators - Keyboard Navigation */
+*:focus-visible {
+  outline: 3px solid #3B82F6;
+  outline-offset: 2px;
+  border-radius: 4px;
+  transition: outline 0.15s ease;
+}
+
+*:focus:not(:focus-visible) {
+  outline: none;
+}
+
+button:focus-visible,
+[role="button"]:focus-visible {
+  outline: 3px solid #3B82F6;
+  outline-offset: 4px;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.2);
+}
+
+a:focus-visible {
+  outline: 2px solid #3B82F6;
+  outline-offset: 2px;
+  background-color: rgba(59, 130, 246, 0.1);
+  border-radius: 2px;
+}
+
+nav a:focus-visible {
+  outline: 2px solid #3B82F6;
+  outline-offset: -2px;
+  background-color: rgba(59, 130, 246, 0.1);
+}
+
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid #3B82F6;
+  outline-offset: 0;
+  border-color: #3B82F6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.card:focus-visible {
+  outline: 3px solid #3B82F6;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.15);
+}
+
+/* WCAG AA Color Contrast Fixes */
+.body-text,
+.card-description,
+.text-body {
+  color: #374151;
+}
+
+.text-small,
+.label-text,
+.metadata-text {
+  color: #4B5563;
+}
+
+.subheading {
+  color: #374151;
+}
+
+.badge-purple {
+  color: #581C87;
+}
+
+.badge-indigo {
+  color: #4338CA;
+}
+
+/* Touch Target Sizes - WCAG 2.1 AAA (44x44px minimum) */
+a, button, input, textarea, select, [role="button"] {
+  min-height: 44px;
+}
+
+nav a {
+  padding: 12px 16px;
+  display: inline-block;
+}
+
+.mobile-nav-close,
+.mobile-nav-toggle {
+  min-width: 48px;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer a {
+  padding: 8px 0;
+  display: inline-block;
+  min-height: 44px;
+  line-height: 28px;
+}
+
+.btn-sm {
+  min-height: 44px;
+  padding: 10px 16px;
+}
+
+.icon-button {
+  min-width: 44px;
+  min-height: 44px;
+  padding: 10px;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #111111;
@@ -20,7 +134,390 @@
   --lavender: #B8C0FF;
   --coral: #FF6D5A;
   --aqua: #3CC8E2;
+  
+  /* ==============================================
+     PHASE 2: PRODUCT COLOR SYSTEM
+     Report = Purple | Core = Blue | Watchtower = Red
+     ============================================== */
+  
+  /* Report - Historical/Analysis */
+  --color-report: #7C3AED;
+  --color-report-light: #F3E8FF;
+  --color-report-dark: #581C87;
+  
+  /* Core - Real-time/Operational */
+  --color-core: #2563EB;
+  --color-core-light: #DBEAFE;
+  --color-core-dark: #1E40AF;
+  
+  /* Watchtower - External/Market */
+  --color-watchtower: #DC2626;
+  --color-watchtower-light: #FEE2E2;
+  --color-watchtower-dark: #991B1B;
+  
+  /* Badge colors */
+  --badge-free: #D1FAE5;
+  --badge-free-text: #065F46;
+  --badge-popular: #FED7AA;
+  --badge-popular-text: #9A3412;
+  --badge-addon: #F3F4F6;
+  --badge-addon-text: #1F2937;
 }
+
+/* Dark mode adjustments for product colors */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-report-light: #581C87;
+    --color-core-light: #1E40AF;
+    --color-watchtower-light: #991B1B;
+  }
+}
+
+/* ==============================================
+   PRODUCT CARD VARIANTS
+   Distinct visual identity for each product
+   ============================================== */
+
+.card {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e5e7eb;
+  transition: all 0.3s ease-out;
+}
+
+.dark .card {
+  background: #1f2937;
+  border-color: #374151;
+}
+
+/* Report Card - Purple/Historical */
+.card--report {
+  border-top: 4px solid var(--color-report);
+}
+
+.card--report:hover {
+  box-shadow: 0 8px 24px rgba(124, 58, 237, 0.15);
+  transform: translateY(-4px);
+}
+
+/* Core Card - Blue/Real-time (PREMIUM/ELEVATED) */
+.card--core {
+  border-top: 4px solid var(--color-core);
+  transform: scale(1.05);
+  z-index: 10;
+  position: relative;
+}
+
+.card--core:hover {
+  box-shadow: 0 12px 32px rgba(37, 99, 235, 0.2);
+  transform: scale(1.05) translateY(-4px);
+}
+
+.card--core::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(135deg, #DBEAFE, #3B82F6);
+  border-radius: inherit;
+  z-index: -1;
+  opacity: 0.1;
+  transition: opacity 0.3s ease;
+}
+
+.card--core:hover::before {
+  opacity: 0.15;
+}
+
+/* Watchtower Card - Red/External */
+.card--watchtower {
+  border-top: 4px solid var(--color-watchtower);
+}
+
+.card--watchtower:hover {
+  box-shadow: 0 8px 24px rgba(220, 38, 38, 0.15);
+  transform: translateY(-4px);
+}
+
+/* Product Icon Containers */
+.product-icon {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.card--report .product-icon {
+  background: linear-gradient(135deg, var(--color-report-light), var(--color-report));
+}
+
+.card--core .product-icon {
+  background: linear-gradient(135deg, var(--color-core-light), var(--color-core));
+}
+
+.card--watchtower .product-icon {
+  background: linear-gradient(135deg, var(--color-watchtower-light), var(--color-watchtower));
+}
+
+.card:hover .product-icon {
+  transform: scale(1.1) rotate(5deg);
+}
+
+/* ==============================================
+   BADGE SYSTEM
+   Free, Popular, Add-on badges
+   ============================================== */
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.badge--free {
+  background: var(--badge-free);
+  color: var(--badge-free-text);
+}
+
+.badge--popular {
+  background: var(--badge-popular);
+  color: var(--badge-popular-text);
+  animation: pulse-subtle 2s ease-in-out infinite;
+}
+
+.badge--addon {
+  background: var(--badge-addon);
+  color: var(--badge-addon-text);
+}
+
+@keyframes pulse-subtle {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.95;
+    transform: scale(1.02);
+  }
+}
+
+/* Product-specific badges */
+.badge--report {
+  background: var(--color-report-light);
+  color: var(--color-report-dark);
+}
+
+.badge--core {
+  background: var(--color-core-light);
+  color: var(--color-core-dark);
+}
+
+.badge--watchtower {
+  background: var(--color-watchtower-light);
+  color: var(--color-watchtower-dark);
+}
+
+/* ==============================================
+   CTA BUTTON HIERARCHY
+   Primary > Secondary > Tertiary > Link
+   ============================================== */
+
+/* PRIMARY CTA - One per page maximum */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  border-radius: 0.75rem;
+  transition: all 0.2s ease-out;
+  background: linear-gradient(to right, #0A1E8C, #3B82F6);
+  color: white;
+  box-shadow: 0 4px 12px rgba(10, 30, 140, 0.25);
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(10, 30, 140, 0.3);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 12px rgba(10, 30, 140, 0.25);
+}
+
+/* SECONDARY CTA - 2-3 per page */
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  transition: all 0.2s ease-out;
+  background: #3B82F6;
+  color: white;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.2);
+  text-decoration: none;
+}
+
+.btn-secondary:hover {
+  background: #2563EB;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.25);
+}
+
+/* TERTIARY CTA - Multiple per page */
+.btn-tertiary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  border: 2px solid #d1d5db;
+  background: white;
+  color: #374151;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+}
+
+.dark .btn-tertiary {
+  border-color: #4b5563;
+  background: #1f2937;
+  color: #e5e7eb;
+}
+
+.btn-tertiary:hover {
+  border-color: #3b82f6;
+  color: #2563eb;
+  background: rgba(59, 130, 246, 0.05);
+}
+
+/* TEXT LINK CTA - Unlimited use */
+.btn-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #2563eb;
+  font-weight: 600;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+}
+
+.dark .btn-link {
+  color: #60a5fa;
+}
+
+.btn-link:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+.dark .btn-link:hover {
+  color: #93c5fd;
+}
+
+.btn-link::after {
+  content: "→";
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.btn-link:hover::after {
+  transform: translateX(4px);
+}
+
+/* Button sizing variants */
+.btn-sm {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+
+.btn-lg {
+  padding: 1.25rem 2.5rem;
+  font-size: 1.25rem;
+}
+
+/* Full width on mobile */
+@media (max-width: 640px) {
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+  }
+}
+
+/* ==============================================
+   PHASE 3: RESPONSIVE SPACING SYSTEM
+   Mobile-first approach
+   ============================================== */
+
+/* Section spacing - responsive */
+.section-hero {
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .section-hero {
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+  }
+}
+
+.section-standard {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .section-standard {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+.section-compact {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .section-compact {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+/* Card grid spacing */
+.card-grid {
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .card-grid {
+    gap: 2rem;
+  }
+}
+
+/* Component spacing */
+.spacing-xs { margin-bottom: 0.5rem; }
+.spacing-sm { margin-bottom: 1rem; }
+.spacing-md { margin-bottom: 1.5rem; }
+.spacing-lg { margin-bottom: 2rem; }
+.spacing-xl { margin-bottom: 3rem; }
 
 @theme inline {
   --color-background: var(--background);
