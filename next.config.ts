@@ -15,6 +15,11 @@ const nextConfig: NextConfig = {
         destination: 'https://pricing.sundae.io/:path*',
         permanent: true, // 308 permanent redirect
       },
+      {
+        source: '/signin',
+        destination: '/sign-in',
+        permanent: true, // 308 permanent redirect - canonicalize auth route
+      },
     ];
   },
 };

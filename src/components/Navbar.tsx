@@ -9,6 +9,7 @@ import { Button } from './ui/Button';
 import { DarkModeToggle } from './DarkModeToggle';
 import Image from 'next/image';
 import { useCta } from '@/lib/cta';
+import { PRICING_URL } from '@/lib/links';
 
 // Chevron Icon Component
 const ChevronIcon = ({ isOpen }: { isOpen: boolean }) => (
@@ -477,7 +478,7 @@ const Navbar = () => {
               )}
             </div>
             
-            <a href="https://pricing.sundae.io" className="text-[#1A1A1A] dark:text-white hover:text-[#0A1E8C] dark:hover:text-electric-blue transition-colors duration-200 font-medium text-[15px]">
+            <a href={PRICING_URL} className="text-[#1A1A1A] dark:text-white hover:text-[#0A1E8C] dark:hover:text-electric-blue transition-colors duration-200 font-medium text-[15px]">
               Pricing
             </a>
             
@@ -734,7 +735,7 @@ const Navbar = () => {
               onToggle={() => toggleSection('company')}
             >
               <a 
-                href="https://pricing.sundae.io" 
+                href={PRICING_URL} 
                 className="block py-2.5 px-4 text-sm font-medium transition-colors duration-150 text-slate-900 dark:text-slate-100 hover:bg-slate-50 dark:hover:bg-slate-800/60"
               >
                 Pricing
@@ -756,7 +757,7 @@ const Navbar = () => {
                 data-cta="sign_in_mobile_nav"
                 data-source="mobile-nav"
               >
-                Sign in
+                Sign In
               </Link>
             </div>
             <Button

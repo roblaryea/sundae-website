@@ -8,6 +8,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
 import { useCta } from "@/lib/cta";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
+import { HEADLINES, CTA_LABELS, VALUE_PROPS } from "@/lib/copy";
 
 // Count-up animation hook
 function useCountUp(end: number, duration: number = 2000, isInView: boolean = false) {

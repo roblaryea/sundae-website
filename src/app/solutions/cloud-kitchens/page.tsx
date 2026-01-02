@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
+import { PRICING_URL } from "@/lib/links";
 
 export default function CloudKitchensPage() {
   const challenges: { title: string; description: string; icon: SundaeIconName }[] = [
@@ -227,7 +228,7 @@ export default function CloudKitchensPage() {
                 Schedule Cloud Kitchen Demo
               </Button>
             </Link>
-            <a href="https://pricing.sundae.io">
+            <a href={PRICING_URL}>
               <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
                 View Pricing
               </Button>

@@ -40,7 +40,6 @@ const Footer = () => {
   const companyLinks = [
     { name: 'About', href: '/about' },
     { name: 'Careers', href: '/careers' },
-    { name: 'Press', href: '/press' },
     { name: 'Contact', href: '/contact' },
     { name: 'Demo', href: '/demo' },
   ];
@@ -69,7 +68,7 @@ const Footer = () => {
             </Link>
             <p className="text-muted-grey mb-6 max-w-md text-[15px] leading-relaxed">
               The AI-powered decision intelligence platform for restaurants, unifying every operational, 
-              workforce, and market data source into a single intelligence layer.
+              workforce, and market data source into a single operating layer.
             </p>
             <div className="flex space-x-4">
               <a href="https://x.com/sundae_io?s=20" target="_blank" rel="noopener noreferrer" className="text-muted-grey hover:text-electric-blue transition-colors">
@@ -168,7 +167,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="border-t border-divider-grey mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-muted-grey text-[14px]">
-            © 2025 Sundae. All rights reserved.
+            © {new Date().getFullYear()} Sundae. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link href="/privacy" className="text-muted-grey hover:text-[#0A1E8C] text-[14px] transition-colors leading-[1.5]">

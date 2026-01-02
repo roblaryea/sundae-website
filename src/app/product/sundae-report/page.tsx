@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
+import { PRICING_URL } from "@/lib/links";
 
 export default function SundaeReportPage() {
   const benchmarkCategories: { name: string; metrics: string[]; icon: SundaeIconName; color: string }[] = [
@@ -271,7 +272,7 @@ export default function SundaeReportPage() {
                 Generate Free Report
               </Button>
             </Link>
-            <a href="https://pricing.sundae.io">
+            <a href={PRICING_URL}>
               <Button variant="outline" size="lg">
                 View Full Pricing
               </Button>
