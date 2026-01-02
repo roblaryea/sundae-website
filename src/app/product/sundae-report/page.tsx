@@ -80,7 +80,7 @@ export default function SundaeReportPage() {
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
-            <SundaeIcon name="trending" size="md" />
+            <SundaeIcon name="performance" size="md" />
             <span>Free Restaurant Benchmarking</span>
           </div>
           <h1 className="hero-h1 text-gray-900 mb-6">
@@ -247,7 +247,7 @@ export default function SundaeReportPage() {
             </div>
             <div className="text-center">
               <div className="w-12 h-12 mx-auto mb-2 bg-white/20 rounded-lg flex items-center justify-center">
-                <SundaeIcon name="insights" size="lg" className="text-white" />
+                <SundaeIcon name="intelligence" size="lg" className="text-white" />
               </div>
               <h3 className="font-semibold mb-2">Get Actionable Insights</h3>
               <p className="text-sm opacity-90">Receive specific recommendations to improve</p>

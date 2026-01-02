@@ -311,7 +311,7 @@ export default function GettingStartedPage() {
             <Card variant="elevated" className="hover:shadow-xl transition-all duration-300">
               <CardHeader>
                 <div className="w-12 h-12 bg-blue-500 rounded-xl flex items-center justify-center mb-4">
-                  <SundaeIcon name="operators" size="lg" className="text-white" />
+                  <SundaeIcon name="labor" size="lg" className="text-white" />
                 </div>
                 <CardTitle className="text-xl text-gray-900 mb-4">1-5 Location Operator</CardTitle>
               </CardHeader>

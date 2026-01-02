@@ -99,7 +99,7 @@ export default function DocumentationPage() {
             transition={{ duration: 0.6 }}
           >
             <div className="inline-flex items-center space-x-2 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 px-4 py-2 rounded-full text-sm font-medium mb-6">
-              <SundaeIcon name="learning" size="md" />
+              <SundaeIcon name="document" size="md" />
               <span>Documentation</span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">

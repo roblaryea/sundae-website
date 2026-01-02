@@ -91,7 +91,7 @@ export default function HRTeamsPage() {
               transition={{ duration: 0.5 }}
               className="inline-flex items-center space-x-2 bg-pink-100 text-pink-800 px-4 py-2 rounded-full text-sm font-medium mb-6"
             >
-              <SundaeIcon name="operators" size="md" />
+              <SundaeIcon name="labor" size="md" />
               <span>People & HR Teams</span>
             </motion.div>
             

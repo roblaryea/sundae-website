@@ -53,7 +53,7 @@ export default function PricingPage() {
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <div className="inline-flex items-center space-x-2 bg-green-500/10 text-green-700 dark:text-green-400 px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                      <SundaeIcon name="celebrate" size="md" />
+                      <SundaeIcon name="success" size="md" />
                       <span>Free Early Access</span>
                     </div>
                     <CardTitle className="section-h2 text-gray-900 dark:text-white mb-3">Sundae Report</CardTitle>

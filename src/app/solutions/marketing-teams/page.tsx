@@ -91,7 +91,7 @@ export default function MarketingTeamsPage() {
               transition={{ duration: 0.5 }}
               className="inline-flex items-center space-x-2 bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm font-medium mb-6"
             >
-              <SundaeIcon name="creative" size="md" />
+              <SundaeIcon name="marketing" size="md" />
               <span>Marketing Teams</span>
             </motion.div>
             

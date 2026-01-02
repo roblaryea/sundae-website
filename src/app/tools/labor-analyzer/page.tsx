@@ -51,7 +51,7 @@ export default function LaborAnalyzerPage() {
 
         <div className="text-center mb-12">
           <div className="inline-flex items-center space-x-2 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 px-4 py-2 rounded-full text-sm font-medium mb-6">
-            <SundaeIcon name="operators" size="md" />
+            <SundaeIcon name="labor" size="md" />
             <span>Labor Analyzer</span>
           </div>
           <h1 className="hero-h1 text-gray-900 dark:text-white mb-4">

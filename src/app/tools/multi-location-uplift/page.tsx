@@ -62,7 +62,7 @@ export default function MultiLocationUpliftPage() {
 
         <div className="text-center mb-12">
           <div className="inline-flex items-center space-x-2 bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 px-4 py-2 rounded-full text-sm font-medium mb-6">
-            <SundaeIcon name="trending" size="md" />
+            <SundaeIcon name="performance" size="md" />
             <span>Multi-Location Uplift</span>
           </div>
           <h1 className="hero-h1 text-gray-900 dark:text-white mb-4">
