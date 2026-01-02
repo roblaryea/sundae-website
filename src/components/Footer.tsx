@@ -6,15 +6,34 @@ import Image from 'next/image';
 import { useCta } from '@/lib/cta';
 import { PRICING_URL } from '@/lib/links';
 
+// SVG Icons for footer info
+const GlobeIcon = () => (
+  <svg className="w-4 h-4 text-muted-grey flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+    <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+  </svg>
+);
+
+const CurrencyIcon = () => (
+  <svg className="w-4 h-4 text-muted-grey flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+    <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z" />
+  </svg>
+);
+
+const LanguageIcon = () => (
+  <svg className="w-4 h-4 text-muted-grey flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+    <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 01-3.827-5.802" />
+  </svg>
+);
+
 const Footer = () => {
   const cta = useCta();
   const currentYear = new Date().getFullYear();
   
   const productLinks = [
-    { name: 'Sundae Report', href: '/report', description: 'Historical analysis & benchmarking' },
-    { name: 'Sundae Core', href: '/core', description: 'Real-time operations & predictions' },
-    { name: 'Watchtower', href: '/product/watchtower', description: 'Market intelligence' },
-    { name: 'Modules', href: '/modules', description: 'Specialized add-ons' },
+    { name: 'Sundae Report', href: '/report' },
+    { name: 'Sundae Core', href: '/core' },
+    { name: 'Watchtower', href: '/product/watchtower' },
+    { name: 'Modules', href: '/modules' },
   ];
 
   const solutionsBySegment = [
@@ -29,8 +48,6 @@ const Footer = () => {
     { name: 'Finance & FP&A', href: '/solutions/finance-teams' },
     { name: 'Marketing Teams', href: '/solutions/marketing-teams' },
     { name: 'C-Suite & Owners', href: '/solutions/c-suite-executives' },
-    { name: 'Data & Technology', href: '/solutions/technology-teams' },
-    { name: 'People & HR', href: '/solutions/hr-teams' },
   ];
 
   const resourceLinks = [
@@ -84,11 +101,11 @@ const Footer = () => {
       </div>
 
       {/* Main Footer Content */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 lg:gap-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-12">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 lg:gap-8">
           {/* Brand Section - spans 2 columns on mobile */}
           <div className="col-span-2 md:col-span-3 lg:col-span-2">
-            <Link href="/" className="inline-block mb-4" aria-label="Sundae - Return to homepage">
+            <Link href="/" className="inline-block mb-3" aria-label="Sundae - Return to homepage">
               <Image
                 src="/logos/sundae-wordmark.png"
                 alt="Sundae"
@@ -97,22 +114,31 @@ const Footer = () => {
                 className="brightness-0 invert"
               />
             </Link>
-            <p className="text-muted-grey mb-4 max-w-xs text-sm leading-relaxed">
+            <p className="text-muted-grey mb-3 max-w-xs text-sm leading-relaxed">
               Decision intelligence for restaurants. Understand performance, predict what&apos;s next, and act with confidence.
             </p>
-            <div className="text-muted-grey text-xs space-y-1 mb-6">
-              <p>🌍 Available globally</p>
-              <p>💳 All currencies supported</p>
-              <p>🗣️ English (more languages coming soon)</p>
+            <div className="text-muted-grey text-xs space-y-1.5 mb-4">
+              <p className="flex items-center gap-2">
+                <GlobeIcon />
+                <span>Available globally</span>
+              </p>
+              <p className="flex items-center gap-2">
+                <CurrencyIcon />
+                <span>All currencies supported</span>
+              </p>
+              <p className="flex items-center gap-2">
+                <LanguageIcon />
+                <span>English (more coming soon)</span>
+              </p>
             </div>
             
             {/* Social Links */}
-            <div className="flex space-x-4">
+            <div className="flex items-center gap-3">
               <a 
                 href="https://x.com/sundae_io" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="text-muted-grey hover:text-electric-blue transition-colors p-2 -m-2"
+                className="text-muted-grey hover:text-electric-blue transition-colors"
                 aria-label="Follow Sundae on X (formerly Twitter)"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -123,7 +149,7 @@ const Footer = () => {
                 href="https://www.linkedin.com/company/managewithsundae" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="text-muted-grey hover:text-electric-blue transition-colors p-2 -m-2"
+                className="text-muted-grey hover:text-electric-blue transition-colors"
                 aria-label="Follow Sundae on LinkedIn"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -135,15 +161,15 @@ const Footer = () => {
 
           {/* Products Column */}
           <div>
-            <h3 className="font-semibold text-white text-sm tracking-wide uppercase mb-4">
+            <h3 className="font-semibold text-white text-sm tracking-wide uppercase mb-3">
               Products
             </h3>
-            <ul className="space-y-3">
+            <ul className="space-y-2">
               {productLinks.map((link) => (
                 <li key={link.name}>
                   <Link 
                     href={link.href} 
-                    className="text-muted-grey hover:text-electric-blue transition-colors text-sm block py-0.5"
+                    className="text-muted-grey hover:text-electric-blue transition-colors text-sm"
                   >
                     {link.name}
                   </Link>
@@ -154,7 +180,7 @@ const Footer = () => {
                   href={PRICING_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-muted-grey hover:text-electric-blue transition-colors text-sm block py-0.5"
+                  className="text-muted-grey hover:text-electric-blue transition-colors text-sm"
                 >
                   Pricing
                 </a>
@@ -164,15 +190,15 @@ const Footer = () => {
 
           {/* Solutions Column */}
           <div>
-            <h3 className="font-semibold text-white text-sm tracking-wide uppercase mb-4">
+            <h3 className="font-semibold text-white text-sm tracking-wide uppercase mb-3">
               Solutions
             </h3>
-            <ul className="space-y-3">
+            <ul className="space-y-2">
               {solutionsBySegment.map((link) => (
                 <li key={link.name}>
                   <Link 
                     href={link.href} 
-                    className="text-muted-grey hover:text-electric-blue transition-colors text-sm block py-0.5"
+                    className="text-muted-grey hover:text-electric-blue transition-colors text-sm"
                   >
                     {link.name}
                   </Link>
@@ -180,15 +206,15 @@ const Footer = () => {
               ))}
             </ul>
             {/* Roles sub-section */}
-            <h4 className="font-semibold text-white/70 text-xs tracking-wide uppercase mt-6 mb-3">
+            <h4 className="font-semibold text-white/70 text-xs tracking-wide uppercase mt-4 mb-2">
               By Role
             </h4>
-            <ul className="space-y-2">
-              {solutionsByRole.slice(0, 4).map((link) => (
+            <ul className="space-y-1.5">
+              {solutionsByRole.map((link) => (
                 <li key={link.name}>
                   <Link 
                     href={link.href} 
-                    className="text-muted-grey hover:text-electric-blue transition-colors text-sm block py-0.5"
+                    className="text-muted-grey hover:text-electric-blue transition-colors text-sm"
                   >
                     {link.name}
                   </Link>
@@ -199,23 +225,23 @@ const Footer = () => {
 
           {/* Resources Column */}
           <div>
-            <h3 className="font-semibold text-white text-sm tracking-wide uppercase mb-4">
+            <h3 className="font-semibold text-white text-sm tracking-wide uppercase mb-3">
               Resources
             </h3>
-            <ul className="space-y-3">
+            <ul className="space-y-2">
               {resourceLinks.map((link) => (
                 <li key={link.name}>
                   {link.tracked ? (
                     <button
                       onClick={() => cta(link.href, "view_tools_footer", { location: "footer" })}
-                      className="text-muted-grey hover:text-electric-blue transition-colors text-sm block py-0.5 bg-transparent border-none cursor-pointer p-0 text-left"
+                      className="text-muted-grey hover:text-electric-blue transition-colors text-sm bg-transparent border-none cursor-pointer p-0 text-left"
                     >
                       {link.name}
                     </button>
                   ) : (
                     <Link 
                       href={link.href} 
-                      className="text-muted-grey hover:text-electric-blue transition-colors text-sm block py-0.5"
+                      className="text-muted-grey hover:text-electric-blue transition-colors text-sm"
                     >
                       {link.name}
                     </Link>
@@ -227,15 +253,15 @@ const Footer = () => {
 
           {/* Company Column */}
           <div>
-            <h3 className="font-semibold text-white text-sm tracking-wide uppercase mb-4">
+            <h3 className="font-semibold text-white text-sm tracking-wide uppercase mb-3">
               Company
             </h3>
-            <ul className="space-y-3">
+            <ul className="space-y-2">
               {companyLinks.map((link) => (
                 <li key={link.name}>
                   <Link 
                     href={link.href} 
-                    className="text-muted-grey hover:text-electric-blue transition-colors text-sm block py-0.5"
+                    className="text-muted-grey hover:text-electric-blue transition-colors text-sm"
                   >
                     {link.name}
                   </Link>
@@ -243,15 +269,15 @@ const Footer = () => {
               ))}
             </ul>
             {/* Legal sub-section */}
-            <h4 className="font-semibold text-white/70 text-xs tracking-wide uppercase mt-6 mb-3">
+            <h4 className="font-semibold text-white/70 text-xs tracking-wide uppercase mt-4 mb-2">
               Legal
             </h4>
-            <ul className="space-y-2">
+            <ul className="space-y-1.5">
               {legalLinks.map((link) => (
                 <li key={link.name}>
                   <Link 
                     href={link.href} 
-                    className="text-muted-grey hover:text-electric-blue transition-colors text-sm block py-0.5"
+                    className="text-muted-grey hover:text-electric-blue transition-colors text-sm"
                   >
                     {link.name}
                   </Link>
@@ -262,8 +288,8 @@ const Footer = () => {
         </div>
 
         {/* Bottom Section */}
-        <div className="border-t border-divider-grey/20 mt-12 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="border-t border-divider-grey/20 mt-10 pt-6">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-3">
             <p className="text-muted-grey text-sm text-center md:text-left">
               © {currentYear} Sundae. All rights reserved.
             </p>
