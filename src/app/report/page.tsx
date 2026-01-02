@@ -180,20 +180,11 @@ export default function ReportProductPage() {
               Start with Report Lite — free forever. No credit card. No commitment. Just upload your POS data and see where you rank.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
-              <Button 
-                variant="primary" 
-                size="lg"
-                onClick={() => cta("/report", "start_free_benchmark", { page: "/report-product" })}
-              >
+              <a href="/report" onClick={() => cta("/report", "start_free_benchmark", { page: "/report-product" })} className="btn-primary btn-lg">
                 Start Free Benchmark
-              </Button>
-              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer">
-                <Button 
-                  variant="outline" 
-                  size="lg"
-                >
-                  See Report Tier Options
-                </Button>
+              </a>
+              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer" className="btn-secondary btn-lg">
+                See Report Tier Options
               </a>
             </div>
           </motion.div>
