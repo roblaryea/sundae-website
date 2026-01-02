@@ -271,11 +271,11 @@ export default function SundaeReportPage() {
                 Generate Free Report
               </Button>
             </Link>
-            <Link href="/pricing">
+            <a href="https://pricing.sundae.io">
               <Button variant="outline" size="lg">
                 View Full Pricing
               </Button>
-            </Link>
+            </a>
           </div>
           <p className="text-sm text-gray-500 mt-6">
             Takes less than 5 minutes • Secure data handling • Results in your inbox
