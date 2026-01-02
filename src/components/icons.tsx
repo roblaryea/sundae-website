@@ -52,6 +52,7 @@ import {
   Truck,
   LayoutDashboard,
   Network,
+  Castle,
   type LucideIcon,
 } from "lucide-react";
 
@@ -147,12 +148,12 @@ const iconMap: Record<SundaeIconName, LucideIcon> = {
   labor: Users,
   menu: Utensils,
   multiLocation: Globe2,
-  watchtower: Radar,
+  watchtower: Castle,
   canvas: MonitorSmartphone,
   nexus: MessageSquare,
   insights: BarChart3,
   report: FileText,
-  core: Activity,
+  core: Zap,
   architecture: GitBranch,
   scout: Link2,
   pulse: Activity,

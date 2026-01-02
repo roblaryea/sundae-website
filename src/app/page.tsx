@@ -465,7 +465,7 @@ export default function Home() {
                 dimension: "1D",
                 title: "What Happened",
                 description: "Your operational truth. Sales, labor, covers, voids, waste — unified from POS, payroll, and inventory systems.",
-                icon: "report" as SundaeIconName,
+                icon: "data" as SundaeIconName,
                 color: "from-blue-500 to-blue-600",
                 textColor: "text-blue-600"
               },
@@ -481,7 +481,7 @@ export default function Home() {
                 dimension: "3D",
                 title: "Market Context",
                 description: "How do you stack up? Performance vs. benchmarks, peer groups, competitor pricing, and category trends.",
-                icon: "watchtower" as SundaeIconName,
+                icon: "multiLocation" as SundaeIconName,
                 color: "from-green-500 to-green-600",
                 textColor: "text-green-600"
               },
