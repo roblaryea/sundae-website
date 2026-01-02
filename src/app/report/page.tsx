@@ -25,7 +25,7 @@ export default function ReportProductPage() {
         "Email support (72hr response)"
       ],
       bestFor: "Testing, proof of concept, single-location cafés",
-      color: "from-blue-500 to-blue-600",
+      color: "from-purple-400 to-purple-600",
       cta: "Start Free",
       link: "/report"
     },
@@ -166,7 +166,7 @@ export default function ReportProductPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 px-5 py-2.5 rounded-full text-base font-semibold mb-6">
+            <div className="inline-flex items-center space-x-2 bg-purple-100 text-purple-800 px-5 py-2.5 rounded-full text-base font-semibold mb-6">
               <SundaeIcon name="report" size="md" />
               <span>Sundae Report</span>
             </div>
@@ -204,21 +204,21 @@ export default function ReportProductPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
-            <div className="text-center p-6 bg-blue-50 rounded-xl">
-              <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-3">
+            <div className="text-center p-6 bg-purple-50 rounded-xl">
+              <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="intelligence" size="lg" className="text-white" />
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Decision Intelligence</h3>
               <p className="text-sm text-gray-600">Not just dashboards. We tell you what the numbers mean and what to do about them.</p>
             </div>
-            <div className="text-center p-6 bg-purple-50 rounded-xl">
-              <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
+            <div className="text-center p-6 bg-purple-50/70 rounded-xl">
+              <div className="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="benchmarking" size="lg" className="text-white" />
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Real Benchmarking</h3>
               <p className="text-sm text-gray-600">Compare against restaurants like yours — not generic industry averages.</p>
             </div>
-            <div className="text-center p-6 bg-green-50 rounded-xl">
+            <div className="text-center p-6 bg-purple-50/50 rounded-xl">
               <div className="text-3xl mb-3">🆓</div>
               <h3 className="font-semibold text-gray-900 mb-2">Start Free</h3>
               <p className="text-sm text-gray-600">Report Lite costs nothing, forever. Prove the value before you pay.</p>

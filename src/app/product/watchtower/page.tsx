@@ -86,16 +86,16 @@ export default function WatchtowerPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-indigo-50">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-red-50">
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-indigo-50/80 via-purple-50/30 to-indigo-50/60">
+      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-red-50/80 via-orange-50/30 to-red-50/60">
         <div className="max-w-7xl mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-flex items-center space-x-2 bg-indigo-100 text-indigo-800 px-5 py-2.5 rounded-full text-base font-semibold mb-6">
+            <div className="inline-flex items-center space-x-2 bg-red-100 text-red-800 px-5 py-2.5 rounded-full text-base font-semibold mb-6">
               <SundaeIcon name="watchtower" size="md" />
               <span>Watchtower</span>
             </div>
@@ -139,22 +139,22 @@ export default function WatchtowerPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
-            <div className="text-center p-6 bg-indigo-50 rounded-xl">
-              <div className="w-12 h-12 bg-indigo-600 rounded-full flex items-center justify-center mx-auto mb-3">
+            <div className="text-center p-6 bg-red-50 rounded-xl">
+              <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="visibility" size="lg" className="text-white" />
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">External Intelligence</h3>
               <p className="text-sm text-gray-600">Most platforms only show you YOUR data. Watchtower shows you THE MARKET.</p>
             </div>
-            <div className="text-center p-6 bg-purple-50 rounded-xl">
-              <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
+            <div className="text-center p-6 bg-red-50/70 rounded-xl">
+              <div className="w-12 h-12 bg-red-500 rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="speed" size="lg" className="text-white" />
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Proactive Not Reactive</h3>
               <p className="text-sm text-gray-600">Get alerts when competitors move. Predict demand shifts. See trends before they hit.</p>
             </div>
-            <div className="text-center p-6 bg-blue-50 rounded-xl">
-              <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-3">
+            <div className="text-center p-6 bg-red-50/50 rounded-xl">
+              <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="intelligence" size="lg" className="text-white" />
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Automated Collection</h3>
@@ -252,21 +252,21 @@ export default function WatchtowerPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             <div className="text-center p-6">
-              <div className="w-16 h-16 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 bg-gradient-to-br from-red-500 to-red-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
                 1
               </div>
               <h3 className="font-semibold text-gray-900 mb-3">Select Competitors</h3>
               <p className="text-gray-600">Choose up to 10 competitors per location that matter most to your business</p>
             </div>
             <div className="text-center p-6">
-              <div className="w-16 h-16 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 bg-gradient-to-br from-red-500 to-red-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
                 2
               </div>
               <h3 className="font-semibold text-gray-900 mb-3">Automated Collection</h3>
               <p className="text-gray-600">Daily monitoring with AI-powered change detection across all competitors</p>
             </div>
             <div className="text-center p-6">
-              <div className="w-16 h-16 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 bg-gradient-to-br from-red-500 to-red-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
                 3
               </div>
               <h3 className="font-semibold text-gray-900 mb-3">Instant Alerts</h3>
@@ -274,23 +274,23 @@ export default function WatchtowerPage() {
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-xl p-8 text-center">
+          <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl p-8 text-center">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Scales Linearly with Your Operation</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
               <div className="bg-white rounded-lg p-6">
-                <div className="text-4xl font-bold text-indigo-600 mb-2">5</div>
+                <div className="text-4xl font-bold text-red-600 mb-2">5</div>
                 <p className="text-gray-600 mb-1">Locations</p>
                 <p className="text-2xl font-semibold text-gray-900">50</p>
                 <p className="text-sm text-gray-500">Competitors Tracked</p>
               </div>
               <div className="bg-white rounded-lg p-6">
-                <div className="text-4xl font-bold text-purple-600 mb-2">20</div>
+                <div className="text-4xl font-bold text-red-500 mb-2">20</div>
                 <p className="text-gray-600 mb-1">Locations</p>
                 <p className="text-2xl font-semibold text-gray-900">200</p>
                 <p className="text-sm text-gray-500">Competitors Tracked</p>
               </div>
               <div className="bg-white rounded-lg p-6">
-                <div className="text-4xl font-bold text-indigo-600 mb-2">50</div>
+                <div className="text-4xl font-bold text-red-600 mb-2">50</div>
                 <p className="text-gray-600 mb-1">Locations</p>
                 <p className="text-2xl font-semibold text-gray-900">500</p>
                 <p className="text-sm text-gray-500">Competitors Tracked</p>
@@ -402,7 +402,7 @@ export default function WatchtowerPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-indigo-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-red-50">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 text-gray-900 mb-6">
             Add External Intelligence to Your Platform

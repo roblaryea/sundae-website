@@ -150,7 +150,7 @@ export default function CoreProductPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-flex items-center space-x-2 bg-purple-100 text-purple-800 px-5 py-2.5 rounded-full text-base font-semibold mb-6">
+            <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 px-5 py-2.5 rounded-full text-base font-semibold mb-6">
               <SundaeIcon name="speed" size="md" />
               <span>Sundae Core</span>
             </div>
