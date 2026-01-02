@@ -164,15 +164,11 @@ export default function CoreProductPage() {
               <strong>Includes everything from Report tier, plus operational speed.</strong> 2-4 hour refresh cycles. Predictive forecasting. Proactive recommendations.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
-              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer">
-                <Button variant="primary" size="lg">
-                  Explore Core Tiers
-                </Button>
+              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer" className="btn-primary btn-lg">
+                Explore Core Tiers
               </a>
-              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline" size="lg">
-                  Calculate Your Savings
-                </Button>
+              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer" className="btn-secondary btn-lg">
+                Calculate Your Savings
               </a>
             </div>
           </motion.div>
