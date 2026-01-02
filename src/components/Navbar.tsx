@@ -477,9 +477,9 @@ const Navbar = () => {
               )}
             </div>
             
-            <Link href="/pricing" className="text-[#1A1A1A] dark:text-white hover:text-[#0A1E8C] dark:hover:text-electric-blue transition-colors duration-200 font-medium text-[15px]">
+            <a href="https://pricing.sundae.io" className="text-[#1A1A1A] dark:text-white hover:text-[#0A1E8C] dark:hover:text-electric-blue transition-colors duration-200 font-medium text-[15px]">
               Pricing
-            </Link>
+            </a>
             
             <Link href="/about" className="text-[#1A1A1A] dark:text-white hover:text-[#0A1E8C] dark:hover:text-electric-blue transition-colors duration-200 font-medium text-[15px]">
               About
@@ -733,9 +733,12 @@ const Navbar = () => {
               isExpanded={expandedSections.company}
               onToggle={() => toggleSection('company')}
             >
-              <MobileNavLink href="/pricing" onClick={handleMobileNavClick}>
+              <a 
+                href="https://pricing.sundae.io" 
+                className="block py-2.5 px-4 text-sm font-medium transition-colors duration-150 text-slate-900 dark:text-slate-100 hover:bg-slate-50 dark:hover:bg-slate-800/60"
+              >
                 Pricing
-              </MobileNavLink>
+              </a>
               <MobileNavLink href="/about" onClick={handleMobileNavClick}>
                 About
               </MobileNavLink>

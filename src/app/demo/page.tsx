@@ -183,11 +183,11 @@ export default function DemoPage() {
                 Book Your Demo
               </Button>
             </Link>
-            <Link href="/pricing">
+            <a href="https://pricing.sundae.io">
               <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
                 View Pricing
               </Button>
-            </Link>
+            </a>
           </div>
           
           <p className="text-sm opacity-75 mt-6">

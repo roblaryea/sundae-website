@@ -94,9 +94,9 @@ export default function ContactPage() {
                   <Link href="/demo" className="block text-blue-600 hover:text-blue-700">
                     Book a Demo →
                   </Link>
-                  <Link href="/pricing" className="block text-blue-600 hover:text-blue-700">
+                  <a href="https://pricing.sundae.io" className="block text-blue-600 hover:text-blue-700">
                     View Pricing →
-                  </Link>
+            </a>
                   <Link href="/product/sundae-report" className="block text-blue-600 hover:text-blue-700">
                     Get Free Report →
                   </Link>

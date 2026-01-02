@@ -227,11 +227,11 @@ export default function CloudKitchensPage() {
                 Schedule Cloud Kitchen Demo
               </Button>
             </Link>
-            <Link href="/pricing">
+            <a href="https://pricing.sundae.io">
               <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
                 View Pricing
               </Button>
-            </Link>
+            </a>
           </div>
         </div>
       </section>
