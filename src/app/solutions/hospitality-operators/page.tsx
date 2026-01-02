@@ -82,14 +82,14 @@ export default function HospitalityOperatorsPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50">
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
+      <section className="solution-hero solution-hero--operator pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-              className="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium mb-6"
+              className="badge badge--operator inline-flex items-center gap-2"
             >
               <SundaeIcon name="hotel" size="md" />
               <span>Hospitality Operators</span>

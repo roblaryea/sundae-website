@@ -82,14 +82,14 @@ export default function MarketingTeamsPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50">
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
+      <section className="solution-hero solution-hero--role pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-              className="inline-flex items-center space-x-2 bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm font-medium mb-6"
+              className="badge badge--role inline-flex items-center gap-2"
             >
               <SundaeIcon name="marketing" size="md" />
               <span>Marketing Teams</span>
