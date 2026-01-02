@@ -82,7 +82,7 @@ export default function FinanceTeamsPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50">
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
+      <section className="solution-hero solution-hero--role pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
             <motion.div

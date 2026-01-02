@@ -12,6 +12,11 @@ export default function CanvasPage() {
       icon: "benchmarking"
     },
     {
+      title: "Natural Language Dashboard Builder",
+      description: "Create custom dashboards using plain English. Just describe what you want to see and our Sundae AI engine builds it for you instantly.",
+      icon: "aiOs"
+    },
+    {
       title: "Real-time Updates",
       description: "Live data streaming ensures your visualizations always show the latest metrics",
       icon: "speed"
@@ -150,9 +155,10 @@ export default function CanvasPage() {
               <div className="space-y-4">
                 {[
                   { feature: "Drag-and-drop dashboard builder", icon: "marketing" as SundaeIconName },
+                  { feature: "Natural language: 'Show me labor cost by location'", icon: "aiOs" as SundaeIconName },
                   { feature: "Real-time data updates", icon: "speed" as SundaeIconName },
                   { feature: "Multi-location comparisons", icon: "multiLocation" as SundaeIconName },
-                  { feature: "AI-powered insights", icon: "intelligence" as SundaeIconName }
+                  { feature: "AI-powered insights & recommendations", icon: "intelligence" as SundaeIconName }
                 ].map((item, index) => (
                   <div key={index} className="flex items-center space-x-3">
                     <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center">

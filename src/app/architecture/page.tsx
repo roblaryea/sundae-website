@@ -52,36 +52,41 @@ export default function ArchitecturePage() {
     }
   ];
 
-  const modules: { name: string; description: string; icon: SundaeIconName; features: string[] }[] = [
+  const modules: { name: string; description: string; icon: SundaeIconName; features: string[]; colorClass: string }[] = [
     {
       name: "Scout",
       description: "Universal data integration layer connecting 25+ restaurant systems",
       icon: "scout",
-      features: ["POS Integration", "Labor Systems", "Inventory", "Real-time Sync"]
+      features: ["POS Integration", "Labor Systems", "Inventory", "Real-time Sync"],
+      colorClass: "component-icon--scout"
     },
     {
       name: "Pulse",
       description: "AI-powered anomaly detection and real-time alert system",
       icon: "pulse",
-      features: ["Anomaly Detection", "Real-time Alerts", "Pattern Analysis", "Threshold Monitoring"]
+      features: ["Anomaly Detection", "Real-time Alerts", "Pattern Analysis", "Threshold Monitoring"],
+      colorClass: "component-icon--pulse"
     },
     {
       name: "Forge",
       description: "Conversational AI engine for natural language intelligence",
       icon: "forge",
-      features: ["Natural Language", "Context Understanding", "Query Engine", "AI Responses"]
+      features: ["Natural Language", "Context Understanding", "Query Engine", "AI Responses"],
+      colorClass: "component-icon--forge"
     },
     {
       name: "Canvas",
       description: "Dynamic visualization and dashboard intelligence layer",
       icon: "canvas",
-      features: ["Real-time Dashboards", "Custom Views", "Visual Analytics", "Interactive Reports"]
+      features: ["Real-time Dashboards", "Custom Views", "Visual Analytics", "Interactive Reports"],
+      colorClass: "component-icon--canvas"
     },
     {
       name: "Watchtower",
       description: "Market intelligence and competitive benchmarking engine",
       icon: "watchtower",
-      features: ["Market Insights", "Competitor Data", "Trend Analysis", "Geographic Intelligence"]
+      features: ["Market Insights", "Competitor Data", "Trend Analysis", "Geographic Intelligence"],
+      colorClass: "bg-gradient-to-br from-red-400 to-red-600"
     }
   ];
 
@@ -357,7 +362,7 @@ export default function ArchitecturePage() {
                 <Card variant="elevated" className="h-full hover:shadow-xl transition-all">
                   <CardHeader>
                     <div className="flex items-center space-x-4 mb-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center">
+                      <div className={`w-12 h-12 ${module.colorClass} rounded-lg flex items-center justify-center`}>
                         <SundaeIcon name={module.icon} size="lg" className="text-white" />
                       </div>
                       <CardTitle className="text-2xl text-gray-900 dark:text-white">{module.name}</CardTitle>

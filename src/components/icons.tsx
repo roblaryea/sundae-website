@@ -52,6 +52,8 @@ import {
   Truck,
   LayoutDashboard,
   Network,
+  Castle,
+  Boxes,
   type LucideIcon,
 } from "lucide-react";
 
@@ -69,10 +71,15 @@ export type SundaeIconName =
   | "nexus"
   | "insights"
   | "report"
+  | "core"
+  | "modules"
   | "architecture"
   | "scout"
   | "pulse"
   | "forge"
+  | "reservations"
+  | "inventory"
+  | "purchasing"
   // Personas / roles
   | "operators"
   | "finance"
@@ -143,15 +150,20 @@ const iconMap: Record<SundaeIconName, LucideIcon> = {
   labor: Users,
   menu: Utensils,
   multiLocation: Globe2,
-  watchtower: Radar,
+  watchtower: Castle,
   canvas: MonitorSmartphone,
   nexus: MessageSquare,
   insights: BarChart3,
   report: FileText,
+  core: Zap,
+  modules: Boxes,
   architecture: GitBranch,
   scout: Link2,
   pulse: Activity,
   forge: Settings2,
+  reservations: Calendar,
+  inventory: Layers,
+  purchasing: Truck,
   // Personas / roles
   operators: Users,
   finance: DollarSign,

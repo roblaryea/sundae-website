@@ -150,7 +150,7 @@ export default function CoreProductPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-flex items-center space-x-2 bg-purple-100 text-purple-800 px-5 py-2.5 rounded-full text-base font-semibold mb-6">
+            <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 px-5 py-2.5 rounded-full text-base font-semibold mb-6">
               <SundaeIcon name="speed" size="md" />
               <span>Sundae Core</span>
             </div>
@@ -164,15 +164,11 @@ export default function CoreProductPage() {
               <strong>Includes everything from Report tier, plus operational speed.</strong> 2-4 hour refresh cycles. Predictive forecasting. Proactive recommendations.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
-              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer">
-                <Button variant="primary" size="lg">
-                  Explore Core Tiers
-                </Button>
+              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer" className="btn-primary btn-lg">
+                Explore Core Tiers
               </a>
-              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline" size="lg">
-                  Calculate Your Savings
-                </Button>
+              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer" className="btn-secondary btn-lg">
+                Calculate Your Savings
               </a>
             </div>
           </motion.div>

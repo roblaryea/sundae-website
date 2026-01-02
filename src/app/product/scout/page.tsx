@@ -48,7 +48,7 @@ export default function ScoutPage() {
             <h1 className="hero-h1 text-gray-900 dark:text-white">
               One Connection.
               <br />
-              <span className="text-blue-600 dark:text-electric-blue">Every System.</span>
+              <span className="text-green-600 dark:text-electric-blue">Every System.</span>
             </h1>
             <p className="body-xl text-gray-600 dark:text-slate-300 max-w-3xl mx-auto">
               Scout connects 25+ data sources into one unified layer. No more silos. No more manual exports. Just clean, connected data.
@@ -182,7 +182,7 @@ export default function ScoutPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
             <Link href="/demo">
-              <Button variant="primary" size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+              <Button variant="primary" size="lg" className="bg-white text-green-600 hover:bg-gray-100">
                 Book Scout Demo
               </Button>
             </Link>

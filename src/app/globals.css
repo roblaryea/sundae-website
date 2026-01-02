@@ -1,5 +1,417 @@
 @import "tailwindcss";
 
+/* ==============================================
+   DARK MODE CONFIGURATION - Tailwind v4
+   ============================================== */
+
+/* Enable class-based dark mode for Tailwind v4 */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ==============================================
+   DARK MODE BASE STYLES
+   ============================================== */
+
+/* Root dark mode styles */
+html.dark {
+  color-scheme: dark;
+}
+
+html.dark body {
+  background-color: #0f172a;
+  color: #e2e8f0;
+}
+
+/* Dark mode backgrounds */
+.dark .bg-white {
+  background-color: #1e293b !important;
+}
+
+.dark .bg-gray-50,
+.dark .bg-slate-50 {
+  background-color: #0f172a !important;
+}
+
+.dark .bg-gray-100 {
+  background-color: #1e293b !important;
+}
+
+/* Dark mode gradients */
+.dark .bg-gradient-to-br.from-gray-50,
+.dark .bg-gradient-to-br.from-white {
+  --tw-gradient-from: #0f172a;
+  --tw-gradient-to: #1e293b;
+}
+
+/* Dark mode text */
+.dark .text-gray-900 {
+  color: #f1f5f9 !important;
+}
+
+.dark .text-gray-800 {
+  color: #e2e8f0 !important;
+}
+
+.dark .text-gray-700 {
+  color: #cbd5e1 !important;
+}
+
+.dark .text-gray-600 {
+  color: #94a3b8 !important;
+}
+
+.dark .text-gray-500 {
+  color: #64748b !important;
+}
+
+/* Dark mode cards */
+.dark .card,
+.dark [class*="rounded-xl"].bg-white,
+.dark [class*="rounded-lg"].bg-white {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+}
+
+.dark .shadow-sm,
+.dark .shadow-md,
+.dark .shadow-lg {
+  --tw-shadow-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Dark mode borders */
+.dark .border-gray-200,
+.dark .border-gray-100 {
+  border-color: #334155 !important;
+}
+
+/* Dark mode navbar */
+.dark nav,
+.dark header {
+  background-color: rgba(15, 23, 42, 0.95) !important;
+  backdrop-filter: blur(12px);
+  border-color: #334155 !important;
+}
+
+/* Dark mode footer */
+.dark footer {
+  background-color: #0f172a !important;
+  border-color: #334155 !important;
+}
+
+/* Dark mode inputs */
+.dark input,
+.dark textarea,
+.dark select {
+  background-color: #1e293b;
+  border-color: #475569;
+  color: #e2e8f0;
+}
+
+.dark input::placeholder,
+.dark textarea::placeholder {
+  color: #64748b;
+}
+
+/* Dark mode buttons - maintain brand colors */
+.dark .btn-primary {
+  background: linear-gradient(135deg, #3B82F6 0%, #1D4ED8 100%);
+}
+
+.dark .btn-secondary {
+  background-color: #3B82F6;
+}
+
+.dark .btn-tertiary {
+  border-color: #475569;
+  color: #e2e8f0;
+}
+
+.dark .btn-tertiary:hover {
+  background-color: #334155;
+}
+
+/* Dark mode badges */
+.dark .badge--free {
+  background-color: #064e3b;
+  color: #6ee7b7;
+}
+
+.dark .badge--popular {
+  background-color: #7c2d12;
+  color: #fdba74;
+}
+
+/* Dark mode FAQ/Accordions */
+.dark .bg-gray-50.rounded-xl,
+.dark [class*="p-6"].bg-gray-50 {
+  background-color: #1e293b !important;
+}
+
+/* Dark mode code/pre blocks */
+.dark pre,
+.dark code {
+  background-color: #0f172a;
+  border-color: #334155;
+}
+
+/* Dark mode focus indicators - maintain visibility */
+.dark *:focus-visible {
+  outline-color: #60a5fa;
+}
+
+/* Dark mode links */
+.dark a:not(.btn-primary):not(.btn-secondary):hover {
+  color: #93c5fd;
+}
+
+/* Dark mode toggle visibility */
+.dark .dark\:bg-gray-700 {
+  background-color: #374151;
+}
+
+/* ==============================================
+   ENHANCED DARK MODE - Page-Specific Fixes
+   ============================================== */
+
+/* All light gradient backgrounds */
+.dark .bg-gradient-to-br.from-blue-50,
+.dark .bg-gradient-to-br.from-purple-50,
+.dark .bg-gradient-to-br.from-indigo-50,
+.dark .bg-gradient-to-br.from-red-50,
+.dark .bg-gradient-to-br.from-orange-50,
+.dark .bg-gradient-to-br.from-green-50 {
+  background: linear-gradient(to bottom right, #0f172a, #1e293b) !important;
+}
+
+.dark .bg-gradient-to-br.to-blue-50,
+.dark .bg-gradient-to-br.to-purple-50,
+.dark .bg-gradient-to-br.to-indigo-50,
+.dark .bg-gradient-to-br.to-red-50 {
+  --tw-gradient-to: #1e293b !important;
+}
+
+/* Background utility classes */
+.dark .bg-blue-50,
+.dark .bg-purple-50,
+.dark .bg-indigo-50,
+.dark .bg-red-50,
+.dark .bg-orange-50,
+.dark .bg-green-50 {
+  background-color: #1e293b !important;
+}
+
+.dark .bg-blue-50\/80,
+.dark .bg-purple-50\/80,
+.dark .bg-purple-50\/70,
+.dark .bg-purple-50\/50,
+.dark .bg-red-50\/80,
+.dark .bg-red-50\/70,
+.dark .bg-red-50\/60,
+.dark .bg-red-50\/50 {
+  background-color: rgba(30, 41, 59, 0.9) !important;
+}
+
+/* Hero section gradient overrides */
+.dark section[class*="bg-gradient-to-br"][class*="from-blue-50"],
+.dark section[class*="bg-gradient-to-br"][class*="from-purple-50"],
+.dark section[class*="bg-gradient-to-br"][class*="from-red-50"] {
+  background: linear-gradient(to bottom right, #0f172a, #1e293b) !important;
+}
+
+/* Navbar dropdown fixes - ensure text visibility on hover */
+.dark nav [class*="hover:bg-gray-50"]:hover,
+.dark [class*="hover:bg-gray-50"]:hover,
+.dark [class*="hover:bg-slate-50"]:hover {
+  background-color: #334155 !important;
+}
+
+.dark nav .hover\:bg-gray-50:hover,
+.dark nav .hover\:bg-blue-50:hover {
+  background-color: #334155 !important;
+}
+
+/* Dropdown menus */
+.dark nav [class*="bg-white"][class*="rounded-xl"] {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+}
+
+/* All rounded containers with white background */
+.dark .rounded-xl.bg-white,
+.dark .rounded-lg.bg-white,
+.dark [class*="rounded-xl"].bg-white,
+.dark [class*="rounded-lg"].bg-white {
+  background-color: #1e293b !important;
+}
+
+/* Section backgrounds - catch all light backgrounds */
+.dark section.bg-white,
+.dark section[class*="bg-white"],
+.dark section[class*="bg-gray-50"],
+.dark section[class*="bg-slate-50"] {
+  background-color: #0f172a !important;
+}
+
+/* Gradient sections with light colors */
+.dark section[class*="from-gray-50"],
+.dark section[class*="to-blue-50"],
+.dark section[class*="to-purple-50"] {
+  background: linear-gradient(to bottom right, #0f172a, #1e293b) !important;
+}
+
+/* Feature boxes with light backgrounds */
+.dark .p-6.bg-white,
+.dark .p-5.bg-white,
+.dark .p-4.bg-white,
+.dark [class*="p-6"][class*="bg-gray-50"],
+.dark [class*="p-6"][class*="bg-blue-50"],
+.dark [class*="p-6"][class*="bg-purple-50"],
+.dark [class*="p-6"][class*="bg-red-50"] {
+  background-color: #1e293b !important;
+}
+
+/* Specific section fixes */
+.dark div[class*="bg-gradient-to-br"][class*="from-blue-50"] {
+  background: linear-gradient(to bottom right, #1e293b, #334155) !important;
+}
+
+.dark div[class*="bg-gradient-to-br"][class*="from-purple-50"] {
+  background: linear-gradient(to bottom right, #1e293b, #334155) !important;
+}
+
+/* Min-h-screen wrapper fix */
+.dark .min-h-screen[class*="bg-gradient-to-br"] {
+  background: linear-gradient(to bottom right, #0f172a, #1e293b) !important;
+}
+
+/* Card content boxes */
+.dark .bg-gray-50.rounded-lg,
+.dark .bg-gray-50.rounded-xl {
+  background-color: #0f172a !important;
+}
+
+/* Smooth transition for theme changes */
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body, .card, nav, footer, input, textarea, select {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* ==============================================
+   PHASE 1: CRITICAL ACCESSIBILITY FIXES
+   WCAG 2.1 AA/AAA Compliance
+   ============================================== */
+
+/* Focus Indicators - Keyboard Navigation */
+*:focus-visible {
+  outline: 3px solid #3B82F6;
+  outline-offset: 2px;
+  border-radius: 4px;
+  transition: outline 0.15s ease;
+}
+
+*:focus:not(:focus-visible) {
+  outline: none;
+}
+
+button:focus-visible,
+[role="button"]:focus-visible {
+  outline: 3px solid #3B82F6;
+  outline-offset: 4px;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.2);
+}
+
+a:focus-visible {
+  outline: 2px solid #3B82F6;
+  outline-offset: 2px;
+  background-color: rgba(59, 130, 246, 0.1);
+  border-radius: 2px;
+}
+
+nav a:focus-visible {
+  outline: 2px solid #3B82F6;
+  outline-offset: -2px;
+  background-color: rgba(59, 130, 246, 0.1);
+}
+
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid #3B82F6;
+  outline-offset: 0;
+  border-color: #3B82F6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.card:focus-visible {
+  outline: 3px solid #3B82F6;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.15);
+}
+
+/* WCAG AA Color Contrast Fixes */
+.body-text,
+.card-description,
+.text-body {
+  color: #374151;
+}
+
+.text-small,
+.label-text,
+.metadata-text {
+  color: #4B5563;
+}
+
+.subheading {
+  color: #374151;
+}
+
+.badge-purple {
+  color: #581C87;
+}
+
+.badge-indigo {
+  color: #4338CA;
+}
+
+/* Touch Target Sizes - WCAG 2.1 AAA (44x44px minimum) */
+a, button, input, textarea, select, [role="button"] {
+  min-height: 44px;
+}
+
+nav a {
+  padding: 12px 16px;
+  display: inline-block;
+}
+
+.mobile-nav-close,
+.mobile-nav-toggle {
+  min-width: 48px;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer a {
+  padding: 8px 0;
+  display: inline-block;
+  min-height: 44px;
+  line-height: 28px;
+}
+
+.btn-sm {
+  min-height: 44px;
+  padding: 10px 16px;
+}
+
+.icon-button {
+  min-width: 44px;
+  min-height: 44px;
+  padding: 10px;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #111111;
@@ -20,7 +432,390 @@
   --lavender: #B8C0FF;
   --coral: #FF6D5A;
   --aqua: #3CC8E2;
+  
+  /* ==============================================
+     PHASE 2: PRODUCT COLOR SYSTEM
+     Report = Purple | Core = Blue | Watchtower = Red
+     ============================================== */
+  
+  /* Report - Historical/Analysis */
+  --color-report: #7C3AED;
+  --color-report-light: #F3E8FF;
+  --color-report-dark: #581C87;
+  
+  /* Core - Real-time/Operational */
+  --color-core: #2563EB;
+  --color-core-light: #DBEAFE;
+  --color-core-dark: #1E40AF;
+  
+  /* Watchtower - External/Market */
+  --color-watchtower: #DC2626;
+  --color-watchtower-light: #FEE2E2;
+  --color-watchtower-dark: #991B1B;
+  
+  /* Badge colors */
+  --badge-free: #D1FAE5;
+  --badge-free-text: #065F46;
+  --badge-popular: #FED7AA;
+  --badge-popular-text: #9A3412;
+  --badge-addon: #F3F4F6;
+  --badge-addon-text: #1F2937;
 }
+
+/* Dark mode adjustments for product colors */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-report-light: #581C87;
+    --color-core-light: #1E40AF;
+    --color-watchtower-light: #991B1B;
+  }
+}
+
+/* ==============================================
+   PRODUCT CARD VARIANTS
+   Distinct visual identity for each product
+   ============================================== */
+
+.card {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e5e7eb;
+  transition: all 0.3s ease-out;
+}
+
+.dark .card {
+  background: #1f2937;
+  border-color: #374151;
+}
+
+/* Report Card - Purple/Historical */
+.card--report {
+  border-top: 4px solid var(--color-report);
+}
+
+.card--report:hover {
+  box-shadow: 0 8px 24px rgba(124, 58, 237, 0.15);
+  transform: translateY(-4px);
+}
+
+/* Core Card - Blue/Real-time (PREMIUM/ELEVATED) */
+.card--core {
+  border-top: 4px solid var(--color-core);
+  transform: scale(1.05);
+  z-index: 10;
+  position: relative;
+}
+
+.card--core:hover {
+  box-shadow: 0 12px 32px rgba(37, 99, 235, 0.2);
+  transform: scale(1.05) translateY(-4px);
+}
+
+.card--core::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(135deg, #DBEAFE, #3B82F6);
+  border-radius: inherit;
+  z-index: -1;
+  opacity: 0.1;
+  transition: opacity 0.3s ease;
+}
+
+.card--core:hover::before {
+  opacity: 0.15;
+}
+
+/* Watchtower Card - Red/External */
+.card--watchtower {
+  border-top: 4px solid var(--color-watchtower);
+}
+
+.card--watchtower:hover {
+  box-shadow: 0 8px 24px rgba(220, 38, 38, 0.15);
+  transform: translateY(-4px);
+}
+
+/* Product Icon Containers */
+.product-icon {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.card--report .product-icon {
+  background: linear-gradient(135deg, var(--color-report-light), var(--color-report));
+}
+
+.card--core .product-icon {
+  background: linear-gradient(135deg, var(--color-core-light), var(--color-core));
+}
+
+.card--watchtower .product-icon {
+  background: linear-gradient(135deg, var(--color-watchtower-light), var(--color-watchtower));
+}
+
+.card:hover .product-icon {
+  transform: scale(1.1) rotate(5deg);
+}
+
+/* ==============================================
+   BADGE SYSTEM
+   Free, Popular, Add-on badges
+   ============================================== */
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.badge--free {
+  background: var(--badge-free);
+  color: var(--badge-free-text);
+}
+
+.badge--popular {
+  background: var(--badge-popular);
+  color: var(--badge-popular-text);
+  animation: pulse-subtle 2s ease-in-out infinite;
+}
+
+.badge--addon {
+  background: var(--badge-addon);
+  color: var(--badge-addon-text);
+}
+
+@keyframes pulse-subtle {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.95;
+    transform: scale(1.02);
+  }
+}
+
+/* Product-specific badges */
+.badge--report {
+  background: var(--color-report-light);
+  color: var(--color-report-dark);
+}
+
+.badge--core {
+  background: var(--color-core-light);
+  color: var(--color-core-dark);
+}
+
+.badge--watchtower {
+  background: var(--color-watchtower-light);
+  color: var(--color-watchtower-dark);
+}
+
+/* ==============================================
+   CTA BUTTON HIERARCHY
+   Primary > Secondary > Tertiary > Link
+   ============================================== */
+
+/* PRIMARY CTA - One per page maximum */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  border-radius: 0.75rem;
+  transition: all 0.2s ease-out;
+  background: linear-gradient(to right, #0A1E8C, #3B82F6);
+  color: white;
+  box-shadow: 0 4px 12px rgba(10, 30, 140, 0.25);
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(10, 30, 140, 0.3);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 12px rgba(10, 30, 140, 0.25);
+}
+
+/* SECONDARY CTA - 2-3 per page */
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  transition: all 0.2s ease-out;
+  background: #3B82F6;
+  color: white;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.2);
+  text-decoration: none;
+}
+
+.btn-secondary:hover {
+  background: #2563EB;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.25);
+}
+
+/* TERTIARY CTA - Multiple per page */
+.btn-tertiary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  border: 2px solid #d1d5db;
+  background: white;
+  color: #374151;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+}
+
+.dark .btn-tertiary {
+  border-color: #4b5563;
+  background: #1f2937;
+  color: #e5e7eb;
+}
+
+.btn-tertiary:hover {
+  border-color: #3b82f6;
+  color: #2563eb;
+  background: rgba(59, 130, 246, 0.05);
+}
+
+/* TEXT LINK CTA - Unlimited use */
+.btn-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #2563eb;
+  font-weight: 600;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+}
+
+.dark .btn-link {
+  color: #60a5fa;
+}
+
+.btn-link:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+.dark .btn-link:hover {
+  color: #93c5fd;
+}
+
+.btn-link::after {
+  content: "→";
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.btn-link:hover::after {
+  transform: translateX(4px);
+}
+
+/* Button sizing variants */
+.btn-sm {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+
+.btn-lg {
+  padding: 1.25rem 2.5rem;
+  font-size: 1.25rem;
+}
+
+/* Full width on mobile */
+@media (max-width: 640px) {
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+  }
+}
+
+/* ==============================================
+   PHASE 3: RESPONSIVE SPACING SYSTEM
+   Mobile-first approach
+   ============================================== */
+
+/* Section spacing - responsive */
+.section-hero {
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .section-hero {
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+  }
+}
+
+.section-standard {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .section-standard {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+.section-compact {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .section-compact {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+/* Card grid spacing */
+.card-grid {
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .card-grid {
+    gap: 2rem;
+  }
+}
+
+/* Component spacing */
+.spacing-xs { margin-bottom: 0.5rem; }
+.spacing-sm { margin-bottom: 1rem; }
+.spacing-md { margin-bottom: 1.5rem; }
+.spacing-lg { margin-bottom: 2rem; }
+.spacing-xl { margin-bottom: 3rem; }
 
 @theme inline {
   --color-background: var(--background);
@@ -483,4 +1278,289 @@ html {
 /* Neon glow for important elements */
 .neon-glow {
   text-shadow: 0 0 10px currentColor, 0 0 20px currentColor, 0 0 30px currentColor;
+}
+
+/* ==============================================
+   PHASE 2A: SOLUTION PAGE BADGES
+   Operator-focused (Blue) vs Role-focused (Purple)
+   ============================================== */
+
+/* Operator-focused solutions (Business types) */
+.badge--operator {
+  background: #DBEAFE; /* blue-100 */
+  color: #1E40AF;      /* blue-800 */
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.75rem;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+}
+
+.dark .badge--operator {
+  background: #1E40AF;
+  color: #DBEAFE;
+}
+
+/* Role-focused solutions (Job functions) */
+.badge--role {
+  background: #F3E8FF; /* purple-100 */
+  color: #581C87;      /* purple-900 */
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.75rem;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+}
+
+.dark .badge--role {
+  background: #581C87;
+  color: #F3E8FF;
+}
+
+/* Solution hero sections */
+.solution-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.solution-hero--operator {
+  background: linear-gradient(135deg, #EFF6FF 0%, #3B82F6 100%);
+}
+
+.solution-hero--role {
+  background: linear-gradient(135deg, #FAF5FF 0%, #8B5CF6 100%);
+}
+
+.dark .solution-hero--operator {
+  background: linear-gradient(135deg, #1E3A8A 0%, #1E40AF 100%);
+}
+
+.dark .solution-hero--role {
+  background: linear-gradient(135deg, #4C1D95 0%, #6D28D9 100%);
+}
+
+/* ==============================================
+   PHASE 2B: ARCHITECTURE COMPONENT COLORS
+   Each layer has unique identity
+   ============================================== */
+
+:root {
+  /* Scout - Data collection - Green */
+  --color-scout: #10B981;
+  --color-scout-light: #D1FAE5;
+  --color-scout-dark: #065F46;
+  
+  /* Pulse - AI processing - Purple */
+  --color-pulse: #8B5CF6;
+  --color-pulse-light: #F3E8FF;
+  --color-pulse-dark: #581C87;
+  
+  /* Forge - Intelligence engine - Orange */
+  --color-forge: #F97316;
+  --color-forge-light: #FED7AA;
+  --color-forge-dark: #9A3412;
+  
+  /* Canvas - Visualization - Blue */
+  --color-canvas: #3B82F6;
+  --color-canvas-light: #DBEAFE;
+  --color-canvas-dark: #1E40AF;
+}
+
+/* Component icon styles */
+.component-icon {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.component-icon--scout {
+  background: linear-gradient(135deg, var(--color-scout-light), var(--color-scout));
+}
+
+.component-icon--pulse {
+  background: linear-gradient(135deg, var(--color-pulse-light), var(--color-pulse));
+}
+
+.component-icon--forge {
+  background: linear-gradient(135deg, var(--color-forge-light), var(--color-forge));
+}
+
+.component-icon--canvas {
+  background: linear-gradient(135deg, var(--color-canvas-light), var(--color-canvas));
+}
+
+.component-icon:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+
+/* Component hero sections */
+.component-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.component-hero--scout {
+  background: linear-gradient(135deg, var(--color-scout-light), var(--color-scout));
+}
+
+.component-hero--pulse {
+  background: linear-gradient(135deg, var(--color-pulse-light), var(--color-pulse));
+}
+
+.component-hero--forge {
+  background: linear-gradient(135deg, var(--color-forge-light), var(--color-forge));
+}
+
+.component-hero--canvas {
+  background: linear-gradient(135deg, var(--color-canvas-light), var(--color-canvas));
+}
+
+/* Architecture badge */
+.badge--architecture {
+  background: #F3F4F6;
+  color: #1F2937;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.75rem;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+}
+
+.dark .badge--architecture {
+  background: #374151;
+  color: #F3F4F6;
+}
+
+/* Architecture diagram interactivity */
+.architecture-diagram .layer {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.architecture-diagram .layer:hover,
+.architecture-diagram .layer:focus {
+  transform: scale(1.05);
+  filter: drop-shadow(0 4px 12px rgba(0,0,0,0.15));
+}
+
+.architecture-diagram .layer:focus {
+  outline: 3px solid #3B82F6;
+  outline-offset: 4px;
+}
+
+/* ==============================================
+   PHASE 2C: FAQ ACCORDION STYLES
+   ============================================== */
+
+.faq-item {
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.dark .faq-item {
+  background: #1f2937;
+  border-color: #374151;
+}
+
+.faq-item:hover {
+  border-color: #3b82f6;
+}
+
+.faq-item[open] {
+  border-color: #3b82f6;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.1);
+}
+
+.faq-question {
+  padding: 1.25rem 1.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  user-select: none;
+  min-height: 60px;
+}
+
+.faq-question::-webkit-details-marker {
+  display: none;
+}
+
+.faq-question:hover {
+  background: #f9fafb;
+}
+
+.dark .faq-question:hover {
+  background: #374151;
+}
+
+.faq-icon {
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+  margin-left: 1rem;
+}
+
+.faq-item[open] .faq-icon {
+  transform: rotate(180deg);
+}
+
+.faq-answer {
+  padding: 0 1.5rem 1.25rem 1.5rem;
+  color: #4b5563;
+  line-height: 1.7;
+}
+
+.dark .faq-answer {
+  color: #9ca3af;
+}
+
+/* Category chips for FAQ filter */
+.category-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: white;
+  border: 1px solid #e5e7eb;
+  color: #374151;
+  min-height: 44px;
+}
+
+.dark .category-chip {
+  background: #1f2937;
+  border-color: #374151;
+  color: #e5e7eb;
+}
+
+.category-chip:hover {
+  border-color: #3b82f6;
+  color: #3b82f6;
+}
+
+.category-chip--active {
+  background: #3b82f6;
+  border-color: #3b82f6;
+  color: white;
+}
+
+.dark .category-chip--active {
+  background: #3b82f6;
+  color: white;
 }
