@@ -1279,3 +1279,288 @@ html {
 .neon-glow {
   text-shadow: 0 0 10px currentColor, 0 0 20px currentColor, 0 0 30px currentColor;
 }
+
+/* ==============================================
+   PHASE 2A: SOLUTION PAGE BADGES
+   Operator-focused (Blue) vs Role-focused (Purple)
+   ============================================== */
+
+/* Operator-focused solutions (Business types) */
+.badge--operator {
+  background: #DBEAFE; /* blue-100 */
+  color: #1E40AF;      /* blue-800 */
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.75rem;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+}
+
+.dark .badge--operator {
+  background: #1E40AF;
+  color: #DBEAFE;
+}
+
+/* Role-focused solutions (Job functions) */
+.badge--role {
+  background: #F3E8FF; /* purple-100 */
+  color: #581C87;      /* purple-900 */
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.75rem;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+}
+
+.dark .badge--role {
+  background: #581C87;
+  color: #F3E8FF;
+}
+
+/* Solution hero sections */
+.solution-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.solution-hero--operator {
+  background: linear-gradient(135deg, #EFF6FF 0%, #3B82F6 100%);
+}
+
+.solution-hero--role {
+  background: linear-gradient(135deg, #FAF5FF 0%, #8B5CF6 100%);
+}
+
+.dark .solution-hero--operator {
+  background: linear-gradient(135deg, #1E3A8A 0%, #1E40AF 100%);
+}
+
+.dark .solution-hero--role {
+  background: linear-gradient(135deg, #4C1D95 0%, #6D28D9 100%);
+}
+
+/* ==============================================
+   PHASE 2B: ARCHITECTURE COMPONENT COLORS
+   Each layer has unique identity
+   ============================================== */
+
+:root {
+  /* Scout - Data collection - Green */
+  --color-scout: #10B981;
+  --color-scout-light: #D1FAE5;
+  --color-scout-dark: #065F46;
+  
+  /* Pulse - AI processing - Purple */
+  --color-pulse: #8B5CF6;
+  --color-pulse-light: #F3E8FF;
+  --color-pulse-dark: #581C87;
+  
+  /* Forge - Intelligence engine - Orange */
+  --color-forge: #F97316;
+  --color-forge-light: #FED7AA;
+  --color-forge-dark: #9A3412;
+  
+  /* Canvas - Visualization - Blue */
+  --color-canvas: #3B82F6;
+  --color-canvas-light: #DBEAFE;
+  --color-canvas-dark: #1E40AF;
+}
+
+/* Component icon styles */
+.component-icon {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.component-icon--scout {
+  background: linear-gradient(135deg, var(--color-scout-light), var(--color-scout));
+}
+
+.component-icon--pulse {
+  background: linear-gradient(135deg, var(--color-pulse-light), var(--color-pulse));
+}
+
+.component-icon--forge {
+  background: linear-gradient(135deg, var(--color-forge-light), var(--color-forge));
+}
+
+.component-icon--canvas {
+  background: linear-gradient(135deg, var(--color-canvas-light), var(--color-canvas));
+}
+
+.component-icon:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+
+/* Component hero sections */
+.component-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.component-hero--scout {
+  background: linear-gradient(135deg, var(--color-scout-light), var(--color-scout));
+}
+
+.component-hero--pulse {
+  background: linear-gradient(135deg, var(--color-pulse-light), var(--color-pulse));
+}
+
+.component-hero--forge {
+  background: linear-gradient(135deg, var(--color-forge-light), var(--color-forge));
+}
+
+.component-hero--canvas {
+  background: linear-gradient(135deg, var(--color-canvas-light), var(--color-canvas));
+}
+
+/* Architecture badge */
+.badge--architecture {
+  background: #F3F4F6;
+  color: #1F2937;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.75rem;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+}
+
+.dark .badge--architecture {
+  background: #374151;
+  color: #F3F4F6;
+}
+
+/* Architecture diagram interactivity */
+.architecture-diagram .layer {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.architecture-diagram .layer:hover,
+.architecture-diagram .layer:focus {
+  transform: scale(1.05);
+  filter: drop-shadow(0 4px 12px rgba(0,0,0,0.15));
+}
+
+.architecture-diagram .layer:focus {
+  outline: 3px solid #3B82F6;
+  outline-offset: 4px;
+}
+
+/* ==============================================
+   PHASE 2C: FAQ ACCORDION STYLES
+   ============================================== */
+
+.faq-item {
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.dark .faq-item {
+  background: #1f2937;
+  border-color: #374151;
+}
+
+.faq-item:hover {
+  border-color: #3b82f6;
+}
+
+.faq-item[open] {
+  border-color: #3b82f6;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.1);
+}
+
+.faq-question {
+  padding: 1.25rem 1.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  user-select: none;
+  min-height: 60px;
+}
+
+.faq-question::-webkit-details-marker {
+  display: none;
+}
+
+.faq-question:hover {
+  background: #f9fafb;
+}
+
+.dark .faq-question:hover {
+  background: #374151;
+}
+
+.faq-icon {
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+  margin-left: 1rem;
+}
+
+.faq-item[open] .faq-icon {
+  transform: rotate(180deg);
+}
+
+.faq-answer {
+  padding: 0 1.5rem 1.25rem 1.5rem;
+  color: #4b5563;
+  line-height: 1.7;
+}
+
+.dark .faq-answer {
+  color: #9ca3af;
+}
+
+/* Category chips for FAQ filter */
+.category-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: white;
+  border: 1px solid #e5e7eb;
+  color: #374151;
+  min-height: 44px;
+}
+
+.dark .category-chip {
+  background: #1f2937;
+  border-color: #374151;
+  color: #e5e7eb;
+}
+
+.category-chip:hover {
+  border-color: #3b82f6;
+  color: #3b82f6;
+}
+
+.category-chip--active {
+  background: #3b82f6;
+  border-color: #3b82f6;
+  color: white;
+}
+
+.dark .category-chip--active {
+  background: #3b82f6;
+  color: white;
+}
