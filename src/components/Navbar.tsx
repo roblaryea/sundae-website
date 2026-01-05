@@ -43,7 +43,7 @@ const AccordionSection = ({ title, id, isExpanded, onToggle, children }: Accordi
         type="button"
         id={headerId}
         onClick={onToggle}
-        className="w-full flex items-center justify-between py-4 px-4 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-blue-500"
+        className="w-full flex items-center justify-between py-3 px-4 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-blue-500"
         aria-expanded={isExpanded}
         aria-controls={contentId}
       >
@@ -52,16 +52,20 @@ const AccordionSection = ({ title, id, isExpanded, onToggle, children }: Accordi
         </span>
         <ChevronIcon isOpen={isExpanded} />
       </button>
+      {/* Grid-based expand/collapse for smooth animation without clipping */}
       <div
         id={contentId}
         role="region"
         aria-labelledby={headerId}
-        className={`overflow-hidden transition-all duration-200 ease-out ${
-          isExpanded ? 'max-h-[1000px] opacity-100' : 'max-h-0 opacity-0'
-        }`}
-        hidden={!isExpanded}
+        className="grid transition-all duration-200 ease-out"
+        style={{
+          gridTemplateRows: isExpanded ? '1fr' : '0fr',
+        }}
+        aria-hidden={!isExpanded}
       >
-        <div className="pb-3">{children}</div>
+        <div className="overflow-hidden">
+          <div className="pb-2">{children}</div>
+        </div>
       </div>
     </div>
   );
@@ -552,15 +556,17 @@ const Navbar = () => {
             </Button>
           </div>
 
-          {/* Mobile menu button - Enhanced visibility */}
-          <button
-            type="button"
-            className="lg:hidden inline-flex items-center justify-center p-2 rounded-lg text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 relative z-50"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-            aria-expanded={isMenuOpen}
-            aria-controls="mobile-menu"
-          >
+          {/* Mobile: Dark Mode Toggle + Menu Button */}
+          <div className="lg:hidden flex items-center gap-2">
+            <DarkModeToggle />
+            <button
+              type="button"
+              className="inline-flex items-center justify-center p-2 rounded-lg text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 relative z-50"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+              aria-expanded={isMenuOpen}
+              aria-controls="mobile-menu"
+            >
             <svg
               className="w-6 h-6"
               fill="none"
@@ -585,6 +591,7 @@ const Navbar = () => {
               )}
             </svg>
           </button>
+          </div>
         </div>
       </div>
 
@@ -641,8 +648,11 @@ const Navbar = () => {
             </button>
           </div>
 
-          {/* Scrollable Menu Content */}
-          <div className="flex-1 overflow-y-auto">
+          {/* Scrollable Menu Content - iOS momentum scrolling */}
+          <div 
+            className="flex-1 overflow-y-auto overscroll-contain"
+            style={{ WebkitOverflowScrolling: 'touch' }}
+          >
             {/* Products Section */}
             <AccordionSection
               title="Products"
@@ -765,32 +775,31 @@ const Navbar = () => {
           </div>
 
           {/* Sticky Bottom CTA Bar */}
-          <div className="flex-shrink-0 sticky bottom-0 bg-white/90 dark:bg-slate-900/90 backdrop-blur border-t border-slate-200/70 dark:border-slate-800 px-4 py-4">
-            <div className="flex items-center justify-between mb-3">
-              <DarkModeToggle />
+          <div className="flex-shrink-0 sticky bottom-0 bg-white/90 dark:bg-slate-900/90 backdrop-blur border-t border-slate-200/70 dark:border-slate-800 px-4 py-3">
+            <div className="flex gap-3">
               <Link
                 href="/sign-in"
                 onClick={handleMobileNavClick}
-                className="text-sm font-medium text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors"
+                className="flex-1 py-2.5 px-4 text-center text-sm font-medium border border-slate-300 dark:border-slate-700 rounded-lg text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
                 data-cta="sign_in_mobile_nav"
                 data-source="mobile-nav"
               >
                 Sign In
               </Link>
+              <Button
+                variant="primary"
+                size="sm"
+                className="flex-1"
+                onClick={() => {
+                  cta("/demo", "book_demo_mobile_nav", { location: "mobile-nav" });
+                  setIsMenuOpen(false);
+                }}
+                data-cta="book_demo_mobile_nav"
+                data-source="mobile-nav"
+              >
+                Book a Demo
+              </Button>
             </div>
-            <Button
-              variant="primary"
-              size="sm"
-              className="w-full"
-              onClick={() => {
-                cta("/demo", "book_demo_mobile_nav", { location: "mobile-nav" });
-                setIsMenuOpen(false);
-              }}
-              data-cta="book_demo_mobile_nav"
-              data-source="mobile-nav"
-            >
-              Book a Demo
-            </Button>
           </div>
         </nav>
       </div>
