@@ -151,7 +151,7 @@ export default function CoreProductPage() {
             transition={{ duration: 0.8 }}
           >
             <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 px-5 py-2.5 rounded-full text-base font-semibold mb-6">
-              <SundaeIcon name="speed" size="md" />
+              <SundaeIcon name="core" size="md" />
               <span>Sundae Core</span>
             </div>
             <h1 className="hero-h1 text-gray-900 mb-6">
