@@ -102,14 +102,18 @@ html.dark body {
 }
 
 /* Dark mode navbar content - explicit text colors */
+/* Note: Do NOT apply opacity/visibility to nav div - it breaks mobile menu hide state */
 .dark nav a,
-.dark nav button,
+.dark nav button:not([aria-expanded]),
 .dark nav span,
-.dark nav div,
 .dark nav p {
   color: #ffffff !important;
+}
+
+/* Only apply visibility to text elements, not containers */
+.dark nav > div > div > a,
+.dark nav > div > div > button {
   visibility: visible !important;
-  opacity: 1 !important;
 }
 
 /* Ensure hamburger menu icon is visible in dark mode */
