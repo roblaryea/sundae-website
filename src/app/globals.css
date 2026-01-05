@@ -83,12 +83,58 @@ html.dark body {
   border-color: #334155 !important;
 }
 
-/* Dark mode navbar */
+/* Dark mode navbar - ensure highest stacking context */
 .dark nav,
 .dark header {
   background-color: rgba(15, 23, 42, 0.95) !important;
   backdrop-filter: blur(12px);
   border-color: #334155 !important;
+  color: #ffffff !important;
+  z-index: 9999 !important;
+  position: relative !important;
+}
+
+/* Fixed navbar specific - ensure visibility */
+.dark nav[class*="fixed"],
+.dark header[class*="fixed"] {
+  position: fixed !important;
+  z-index: 9999 !important;
+}
+
+/* Dark mode navbar content - explicit text colors */
+.dark nav a,
+.dark nav button,
+.dark nav span,
+.dark nav div,
+.dark nav p {
+  color: #ffffff !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Ensure hamburger menu icon is visible in dark mode */
+.dark nav svg {
+  stroke: #ffffff !important;
+  color: #ffffff !important;
+  fill: none !important;
+  visibility: visible !important;
+}
+
+/* Ensure logo is visible in dark mode via filter */
+.dark nav img[alt*="Sundae"],
+.dark nav img[src*="sundae"],
+.dark nav img {
+  filter: invert(1) hue-rotate(180deg) !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Dark mode toggle button background for visibility */
+.dark nav button[aria-label*="dark"],
+.dark nav button[aria-label*="menu"],
+.dark nav button {
+  color: #ffffff !important;
+  visibility: visible !important;
 }
 
 /* Dark mode footer */
