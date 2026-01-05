@@ -234,10 +234,10 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+    <nav className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-300 backdrop-blur-sm border-b ${
       isScrolled 
-        ? 'bg-white/95 dark:bg-graphite/95 backdrop-blur-sm shadow-lg' 
-        : 'bg-transparent dark:bg-graphite/80 dark:backdrop-blur-sm'
+        ? 'bg-white/95 dark:bg-slate-950/95 border-slate-200/80 dark:border-slate-800/80 shadow-lg' 
+        : 'bg-white/80 dark:bg-slate-950/80 border-slate-200/60 dark:border-slate-800/60'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
@@ -249,7 +249,7 @@ const Navbar = () => {
                 alt="Sundae – Decision Intelligence for Restaurants"
                 width={160}
                 height={46}
-                className={`transition-all duration-300 ${
+                className={`transition-all duration-300 dark:invert dark:hue-rotate-180 ${
                   isLogoHovered ? 'opacity-85' : 'opacity-100'
                 }`}
                 style={{ height: '46px', width: 'auto' }}
@@ -631,6 +631,7 @@ const Navbar = () => {
               alt="Sundae"
               width={130}
               height={38}
+              className="dark:invert dark:hue-rotate-180"
               style={{ height: '36px', width: 'auto' }}
             />
             <button

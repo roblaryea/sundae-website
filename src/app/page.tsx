@@ -114,9 +114,9 @@ export default function Home() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50 overflow-x-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50 dark:from-slate-950 dark:via-slate-950 dark:to-slate-900 overflow-x-hidden">
       {/* Enhanced Hero Section with 4D Messaging */}
-      <section className="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-br from-blue-50/80 via-purple-50/30 to-blue-50/60">
+      <section className="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-br from-blue-50/80 via-purple-50/30 to-blue-50/60 dark:from-slate-950 dark:via-slate-900 dark:to-slate-950">
         <div className="absolute inset-0 gradient-mesh opacity-10"></div>
         
         {/* Animated Floating Orb with Enhanced Glow - Desktop only, far right */}
@@ -171,14 +171,14 @@ export default function Home() {
                 <span>See Every Layer. Miss Nothing.</span>
               </div>
             </div>
-            <h1 className="hero-h1 text-gray-900 mb-6">
+            <h1 className="hero-h1 text-gray-900 dark:text-white mb-6">
               Decision Intelligence for Restaurants & Hospitality Operations
             </h1>
             <p className="body-xl text-gray-600 dark:text-slate-300 leading-relaxed mb-4 max-w-4xl mx-auto">
               Clear, contextual, AI-powered visibility into your entire operation — instantly.
             </p>
-            <p className="body-lg text-gray-500 mb-8 max-w-3xl mx-auto">
-              One platform. Zero guesswork. Sundae analyzes performance, predicts what's coming, and tells your team exactly what to do next.
+            <p className="body-lg text-gray-500 dark:text-slate-400 mb-8 max-w-3xl mx-auto">
+              One platform. Zero guesswork. Sundae analyzes performance, predicts what&apos;s coming, and tells your team exactly what to do next.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center mt-6 mb-6">
               <a href="/report" onClick={() => cta("/report", "start_free_report_hero", { page: "/home" })} className="btn-primary btn-lg">
@@ -188,7 +188,7 @@ export default function Home() {
                 See Your Custom Pricing
               </a>
             </div>
-            <p className="text-sm text-gray-500">
+            <p className="text-sm text-gray-500 dark:text-slate-400">
               Already running reports?{" "}
               <button 
                 onClick={() => cta("/report", "free_benchmark_hero_link", { page: "/home" })}
