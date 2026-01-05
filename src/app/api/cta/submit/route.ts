@@ -1,6 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { randomUUID } from 'crypto';
-import { saveSubmissionUnified, updateSubmissionUnified, getStorageType } from '@/lib/unifiedSubmissionStore';
+import { 
+  saveSubmissionUnified, 
+  updateSubmissionUnified, 
+  checkStorageHealth,
+  getMissingGoogleSheetsConfig 
+} from '@/lib/unifiedSubmissionStore';
 import { createClickUpTask } from '@/lib/clickupClient';
 
 // Force Node.js runtime (required for crypto and Google Auth)
@@ -37,15 +42,40 @@ const CLICKUP_FIELD_LOCATIONS_ID =
 const CLICKUP_FIELD_MESSAGE_ID =
   process.env.CLICKUP_FIELD_MESSAGE ?? '20f58b0c-1c6c-4e3d-b989-5b93efb1ba53';
 
+/**
+ * Check required ClickUp configuration
+ * Returns list of missing env vars (never reveals actual values)
+ */
+function getMissingClickUpConfig(): string[] {
+  const missing: string[] = [];
+  if (!process.env.CLICKUP_API_TOKEN) missing.push('CLICKUP_API_TOKEN');
+  if (!process.env.CLICKUP_LIST_ID) missing.push('CLICKUP_LIST_ID');
+  return missing;
+}
+
 export async function POST(request: NextRequest) {
   // Generate unique request ID for tracking
   const requestId = randomUUID();
   const startTime = Date.now();
 
   console.log(`[${requestId}] ===== CTA SUBMISSION START =====`);
+  
+  // Log configuration status (without secrets)
+  const storageHealth = checkStorageHealth();
+  const missingClickUp = getMissingClickUpConfig();
+  
+  console.log(`[${requestId}] Config check:`, {
+    clickupConfigured: missingClickUp.length === 0,
+    missingClickUp: missingClickUp.length > 0 ? missingClickUp : undefined,
+    storageType: storageHealth.type,
+    storageConfigured: storageHealth.configured,
+    storageWarnings: storageHealth.warnings.length > 0 ? storageHealth.warnings : undefined,
+  });
 
   try {
-    // Parse request body
+    // =========================================
+    // STEP 1: Parse and validate request body
+    // =========================================
     const body = await request.json();
     const {
       name,
@@ -82,7 +112,8 @@ export async function POST(request: NextRequest) {
         { 
           success: false, 
           error: 'Missing or invalid required fields',
-          invalidFields: missingFields
+          invalidFields: missingFields,
+          requestId,
         },
         { status: 400 }
       );
@@ -96,7 +127,8 @@ export async function POST(request: NextRequest) {
         { 
           success: false, 
           error: 'Invalid email address',
-          invalidFields: ['email']
+          invalidFields: ['email'],
+          requestId,
         },
         { status: 400 }
       );
@@ -110,7 +142,8 @@ export async function POST(request: NextRequest) {
         { 
           success: false, 
           error: 'Invalid phone number',
-          invalidFields: ['phone']
+          invalidFields: ['phone'],
+          requestId,
         },
         { status: 400 }
       );
@@ -118,8 +151,7 @@ export async function POST(request: NextRequest) {
 
     console.log(`[${requestId}] Validation passed for ${email}`);
 
-    // STEP 1: Save submission to fallback storage FIRST
-    // This ensures we never lose leads, even if ClickUp fails
+    // Prepare submission data
     const submissionData = {
       name,
       email,
@@ -137,38 +169,47 @@ export async function POST(request: NextRequest) {
       utmCampaign,
     };
 
-    const submission = await saveSubmissionUnified(submissionData, 'pending');
-    console.log(`[${requestId}] Submission saved (${submission.storageType}): ${submission.id}`);
-
-    // STEP 2: Attempt to create ClickUp task
-    // If this fails, user still gets success (we saved the submission)
+    // =========================================
+    // STEP 2: Check ClickUp configuration
+    // =========================================
     const apiToken = process.env.CLICKUP_API_TOKEN;
     const listId = process.env.CLICKUP_LIST_ID;
 
     if (!apiToken || !listId) {
-      const missingVars = [];
-      if (!apiToken) missingVars.push('CLICKUP_API_TOKEN');
-      if (!listId) missingVars.push('CLICKUP_LIST_ID');
+      console.error(`[${requestId}] ClickUp not configured:`, missingClickUp);
       
-      console.error(`[${requestId}] Missing ClickUp configuration:`, missingVars);
-      
-      // Update submission status
-      await updateSubmissionUnified(
-        submission.id,
-        'failed',
-        undefined,
-        `Missing config: ${missingVars.join(', ')}`
-      );
+      // Try to save to storage anyway (best-effort)
+      let submissionId = `no-clickup-${randomUUID()}`;
+      try {
+        const submission = await saveSubmissionUnified(
+          submissionData, 
+          'failed', 
+          undefined, 
+          `ClickUp not configured: ${missingClickUp.join(', ')}`,
+          requestId
+        );
+        submissionId = submission.id;
+        console.log(`[${requestId}] Saved to storage despite ClickUp missing:`, {
+          id: submission.id,
+          type: submission.storageType,
+        });
+      } catch (storageErr: any) {
+        console.error(`[${requestId}] Storage also failed:`, storageErr.message);
+      }
 
-      // Still return success to user - we saved the submission!
-      console.log(`[${requestId}] Returning success despite ClickUp config missing`);
+      // Return success to user - we at least tried to store it
       return NextResponse.json({
         success: true,
         message: 'Your request has been received and will be processed shortly.',
-        submissionId: submission.id,
+        submissionId,
+        requestId,
       });
     }
 
+    // =========================================
+    // STEP 3: Create ClickUp task (PRIMARY GOAL)
+    // =========================================
+    
     // Build task description
     const description = `
 **Lead Information**
@@ -195,20 +236,17 @@ ${message}
 
 **Submitted:** ${new Date().toISOString()}
 **Request ID:** ${requestId}
-**Submission ID:** ${submission.id}
     `.trim();
 
     // Prepare ClickUp task payload
-    // NOTE: Do not include 'status' - ClickUp will use list default
-    // Status is only for internal tracking (UnifiedStore/Google Sheets)
-    const taskPayload: any = {
+    const taskPayload: Record<string, unknown> = {
       name: `${ctaLabel || 'Website Lead'} – ${name}`,
       description,
       priority: 3,
     };
 
     // Build custom fields array
-    const customFields: { id: string; value: any }[] = [];
+    const customFields: { id: string; value: string }[] = [];
     
     if (CLICKUP_FIELD_FULL_NAME_ID && name) {
       customFields.push({ id: CLICKUP_FIELD_FULL_NAME_ID, value: name });
@@ -259,34 +297,64 @@ ${message}
       taskPayload.custom_fields = customFields;
     }
 
-    console.log(`[${requestId}] Attempting to create ClickUp task...`);
+    console.log(`[${requestId}] Creating ClickUp task...`);
 
     // Call ClickUp API with automatic retries
     const result = await createClickUpTask(apiToken, listId, taskPayload, requestId);
 
-    if (result.success) {
-      // Success! Update submission status
-      await updateSubmissionUnified(
-        submission.id,
-        'success',
-        result.task.id,
-        undefined
-      );
+    // =========================================
+    // STEP 4: Save to storage (BEST-EFFORT)
+    // =========================================
+    // Storage happens AFTER ClickUp - it should never block ClickUp success
+    
+    let submissionId = `clickup-${result.success ? result.task?.id : 'failed'}-${randomUUID().slice(0, 8)}`;
+    let storageWarning: string | undefined;
 
-      const duration = Date.now() - startTime;
+    try {
+      const submission = await saveSubmissionUnified(
+        submissionData,
+        result.success ? 'success' : 'failed',
+        result.success ? result.task?.id : undefined,
+        result.success ? undefined : result.error?.message,
+        requestId
+      );
+      submissionId = submission.id;
+      
+      if (submission.storageError) {
+        storageWarning = submission.storageError;
+        console.warn(`[${requestId}] [STORAGE_WARNING] Storage degraded:`, storageWarning);
+      } else {
+        console.log(`[${requestId}] Saved to storage (${submission.storageType}): ${submission.id}`);
+      }
+    } catch (storageErr: any) {
+      // This should never happen with the new best-effort storage, but handle it anyway
+      storageWarning = `Storage exception: ${storageErr.message}`;
+      console.error(`[${requestId}] [STORAGE_ERROR] Unexpected storage failure:`, storageErr.message);
+    }
+
+    // =========================================
+    // STEP 5: Return response
+    // =========================================
+    const duration = Date.now() - startTime;
+
+    if (result.success) {
       console.log(`[${requestId}] ===== SUCCESS (${duration}ms) =====`);
       console.log(`[${requestId}] ClickUp Task ID: ${result.task.id}`);
       console.log(`[${requestId}] ClickUp Task URL: ${result.task.url}`);
+      if (storageWarning) {
+        console.warn(`[${requestId}] Storage warning: ${storageWarning}`);
+      }
 
       return NextResponse.json({
         success: true,
         message: 'Thank you! We have received your request.',
-        submissionId: submission.id,
+        submissionId,
         taskId: result.task.id,
         taskUrl: result.task.url,
+        requestId,
       });
     } else {
-      // ClickUp failed, but we already saved the submission
+      // ClickUp failed, but we still saved the submission
       const { error } = result;
       
       console.error(`[${requestId}] ClickUp sync failed:`, {
@@ -295,42 +363,37 @@ ${message}
         retryable: error.retryable,
       });
 
-      // Update submission with error details
-      await updateSubmissionUnified(
-        submission.id,
-        'failed',
-        undefined,
-        `${error.type}: ${error.message}`
-      );
-
-      const duration = Date.now() - startTime;
       console.log(`[${requestId}] ===== PARTIAL SUCCESS (${duration}ms) =====`);
       console.log(`[${requestId}] Submission saved but ClickUp sync failed`);
-      console.log(`[${requestId}] Error type: ${error.type}`);
 
       // IMPORTANT: Still return success to user!
       // We saved the submission, admin can manually create ClickUp task later
       return NextResponse.json({
         success: true,
         message: 'Your request has been received and will be processed shortly.',
-        submissionId: submission.id,
+        submissionId,
+        requestId,
       });
     }
 
-  } catch (error: any) {
+  } catch (error: unknown) {
     const duration = Date.now() - startTime;
+    const err = error as Error & { code?: string };
+    
     console.error(`[${requestId}] ===== ERROR (${duration}ms) =====`);
-    console.error(`[${requestId}] Error type:`, error.name);
-    console.error(`[${requestId}] Error code:`, error.code);
+    console.error(`[${requestId}] Error name:`, err.name);
+    console.error(`[${requestId}] Error message:`, err.message);
     
     // Determine error type for safe logging
     let errorCode = 'INTERNAL_ERROR';
-    if (error.message?.includes('not configured')) {
-      errorCode = 'STORAGE_NOT_CONFIGURED';
-    } else if (error.message?.includes('validation')) {
+    if (err.message?.includes('not configured')) {
+      errorCode = 'CONFIG_ERROR';
+    } else if (err.message?.includes('validation')) {
       errorCode = 'VALIDATION_ERROR';
-    } else if (error.name === 'TypeError') {
+    } else if (err.name === 'TypeError') {
       errorCode = 'TYPE_ERROR';
+    } else if (err.name === 'SyntaxError') {
+      errorCode = 'JSON_PARSE_ERROR';
     }
     
     console.error(`[${requestId}] Error code:`, errorCode);
