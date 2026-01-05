@@ -235,7 +235,9 @@ const Navbar = () => {
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-white/95 dark:bg-graphite/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'
+      isScrolled 
+        ? 'bg-white/95 dark:bg-graphite/95 backdrop-blur-sm shadow-lg' 
+        : 'bg-transparent dark:bg-graphite/80 dark:backdrop-blur-sm'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
@@ -245,12 +247,12 @@ const Navbar = () => {
               <Image
                 src="/logos/sundae-wordmark.png"
                 alt="Sundae – Decision Intelligence for Restaurants"
-                width={140}
-                height={40}
+                width={160}
+                height={46}
                 className={`transition-all duration-300 ${
                   isLogoHovered ? 'opacity-85' : 'opacity-100'
                 }`}
-                style={{ height: '40px', width: 'auto' }}
+                style={{ height: '46px', width: 'auto' }}
                 onMouseEnter={() => setIsLogoHovered(true)}
                 onMouseLeave={() => setIsLogoHovered(false)}
                 priority
@@ -627,9 +629,9 @@ const Navbar = () => {
             <Image
               src="/logos/sundae-wordmark.png"
               alt="Sundae"
-              width={120}
-              height={34}
-              style={{ height: '32px', width: 'auto' }}
+              width={130}
+              height={38}
+              style={{ height: '36px', width: 'auto' }}
             />
             <button
               type="button"
