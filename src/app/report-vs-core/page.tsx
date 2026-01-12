@@ -6,6 +6,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { motion } from "framer-motion";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { useCta } from "@/lib/cta";
+import { REPORT_APP_URL } from "@/lib/urls";
 
 export default function ReportVsCorePage() {
   const cta = useCta();
@@ -116,7 +117,7 @@ export default function ReportVsCorePage() {
               <Button 
                 variant="outline" 
                 size="lg"
-                onClick={() => cta("/report", "start_free_from_comparison", { page: "/report-vs-core" })}
+                onClick={() => cta(REPORT_APP_URL, "start_free_from_comparison", { page: "/report-vs-core" })}
               >
                 Start Free with Report
               </Button>
@@ -399,7 +400,7 @@ export default function ReportVsCorePage() {
                 variant="outline" 
                 size="md"
                 className="w-full"
-                onClick={() => cta("/report", "start_free_from_comparison_bottom", { page: "/report-vs-core" })}
+                onClick={() => cta(REPORT_APP_URL, "start_free_from_comparison_bottom", { page: "/report-vs-core" })}
               >
                 Start Free →
               </Button>

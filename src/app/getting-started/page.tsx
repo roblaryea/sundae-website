@@ -6,6 +6,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { motion } from "framer-motion";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { useCta } from "@/lib/cta";
+import { REPORT_APP_URL } from "@/lib/urls";
 
 export default function GettingStartedPage() {
   const cta = useCta();
@@ -151,7 +152,7 @@ export default function GettingStartedPage() {
               <Button 
                 variant="primary" 
                 size="lg"
-                onClick={() => cta("/report", "start_free_from_getting_started", { page: "/getting-started" })}
+                onClick={() => cta(REPORT_APP_URL, "start_free_from_getting_started", { page: "/getting-started" })}
               >
                 Start Free
               </Button>
@@ -408,7 +409,7 @@ export default function GettingStartedPage() {
                 variant="primary" 
                 size="md"
                 className="w-full"
-                onClick={() => cta("/report", "start_free_from_getting_started_bottom", { page: "/getting-started" })}
+                onClick={() => cta(REPORT_APP_URL, "start_free_from_getting_started_bottom", { page: "/getting-started" })}
               >
                 Start Free →
               </Button>

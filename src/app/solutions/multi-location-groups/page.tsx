@@ -1,6 +1,7 @@
 'use client';
 
 import Link from "next/link";
+import { REPORT_APP_URL } from "@/lib/urls";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { motion } from "framer-motion";
@@ -128,11 +129,11 @@ export default function MultiLocationGroupsPage() {
                   See How Sundae Helps Multi-Location Groups
                 </Button>
               </Link>
-              <Link href="/report">
+              <a href={REPORT_APP_URL}>
                 <Button variant="outline" size="lg">
                   Get Free Benchmark Report
                 </Button>
-              </Link>
+              </a>
             </motion.div>
           </div>
         </div>

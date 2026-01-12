@@ -9,6 +9,7 @@ import { useRef, useEffect, useState } from "react";
 import { useCta } from "@/lib/cta";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { HEADLINES, CTA_LABELS, VALUE_PROPS } from "@/lib/copy";
+import { REPORT_APP_URL } from "@/lib/urls";
 
 // Count-up animation hook
 function useCountUp(end: number, duration: number = 2000, isInView: boolean = false) {
@@ -181,7 +182,7 @@ export default function Home() {
               One platform. Zero guesswork. Sundae analyzes performance, predicts what&apos;s coming, and tells your team exactly what to do next.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center mt-6 mb-6">
-              <a href="/report" onClick={() => cta("/report", "start_free_report_hero", { page: "/home" })} className="btn-primary btn-lg">
+              <a href={REPORT_APP_URL} onClick={() => cta(REPORT_APP_URL, "start_free_report_hero", { page: "/home" })} className="btn-primary btn-lg">
                 Start Free with Sundae Report
               </a>
               <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer" className="btn-secondary btn-lg">
@@ -191,7 +192,7 @@ export default function Home() {
             <p className="text-sm text-gray-500 dark:text-slate-400">
               Already running reports?{" "}
               <button 
-                onClick={() => cta("/report", "free_benchmark_hero_link", { page: "/home" })}
+                onClick={() => cta(REPORT_APP_URL, "free_benchmark_hero_link", { page: "/home" })}
                 className="text-blue-600 hover:text-blue-700 font-medium underline bg-transparent border-none cursor-pointer"
               >
                 Upload your data and get instant benchmarking — free, no commitment required.
@@ -904,7 +905,7 @@ export default function Home() {
             <Button 
               variant="outline" 
               size="lg"
-              onClick={() => cta("/report", "get_report_footer_cta", { page: "/home" })}
+              onClick={() => cta(REPORT_APP_URL, "get_report_footer_cta", { page: "/home" })}
             >
               Get a Free Sundae Report →
             </Button>

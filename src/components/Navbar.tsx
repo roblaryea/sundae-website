@@ -10,6 +10,7 @@ import { DarkModeToggle } from './DarkModeToggle';
 import Image from 'next/image';
 import { useCta } from '@/lib/cta';
 import { PRICING_URL } from '@/lib/links';
+import { REPORT_APP_URL } from '@/lib/urls';
 
 // Chevron Icon Component
 const ChevronIcon = ({ isOpen }: { isOpen: boolean }) => (
@@ -317,13 +318,13 @@ const Navbar = () => {
                     >
                       Compare Options →
                     </Link>
-                    <Link
-                      href="/report"
+                    <a
+                      href={REPORT_APP_URL}
                       className="block py-2 px-3 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors duration-200 text-[14px] font-semibold text-blue-600 dark:text-blue-400"
                       onClick={() => setActiveDropdown(null)}
                     >
                       Start Free →
-                    </Link>
+                    </a>
                   </div>
                 </div>
               )}
@@ -679,13 +680,13 @@ const Navbar = () => {
               >
                 Compare Options →
               </MobileNavLink>
-              <MobileNavLink
-                href="/report"
+              <a
+                href={REPORT_APP_URL}
                 onClick={handleMobileNavClick}
-                isHighlighted
+                className="block py-2.5 px-4 text-sm font-medium transition-colors duration-150 text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-slate-800/60"
               >
                 Start Free →
-              </MobileNavLink>
+              </a>
             </AccordionSection>
 
             {/* Solutions Section */}

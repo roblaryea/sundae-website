@@ -1,6 +1,7 @@
 'use client';
 
 import Link from "next/link";
+import { REPORT_APP_URL } from "@/lib/urls";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/Card";
 import { motion } from "framer-motion";
@@ -126,11 +127,11 @@ export default function CSuiteExecutivesPage() {
                   See How Sundae Helps Executives
                 </Button>
               </Link>
-              <Link href="/report">
+              <a href={REPORT_APP_URL}>
                 <Button variant="outline" size="lg">
                   Get Executive Benchmark Report
                 </Button>
-              </Link>
+              </a>
             </motion.div>
           </div>
         </div>

@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useCta } from '@/lib/cta';
 import { PRICING_URL } from '@/lib/links';
+import { REPORT_APP_URL } from '@/lib/urls';
 
 // SVG Icons for footer info
 const GlobeIcon = () => (
@@ -90,12 +91,12 @@ const Footer = () => {
             >
               Book a Demo
             </button>
-            <Link
-              href="/report"
+            <a
+              href={REPORT_APP_URL}
               className="btn-tertiary !border-white/30 !text-white hover:!bg-white/10"
             >
               Start Free with Report
-            </Link>
+            </a>
           </div>
         </div>
       </div>

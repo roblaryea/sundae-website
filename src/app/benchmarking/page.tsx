@@ -1,14 +1,13 @@
 'use client';
 
 import { useEffect } from 'react';
-import { useRouter } from 'next/navigation';
+import { REPORT_APP_URL } from '@/lib/urls';
 
 export default function BenchmarkingRedirect() {
-  const router = useRouter();
-
   useEffect(() => {
-    router.replace('/report');
-  }, [router]);
+    // Redirect to external Report app for benchmarking
+    window.location.href = REPORT_APP_URL;
+  }, []);
 
   return (
     <div className="min-h-screen flex items-center justify-center">

@@ -1,6 +1,7 @@
 'use client';
 
 import Link from "next/link";
+import { REPORT_APP_URL } from "@/lib/urls";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/Card";
 import { motion } from "framer-motion";
@@ -127,11 +128,11 @@ export default function FranchisesPage() {
                   See How Sundae Helps Franchises
                 </Button>
               </Link>
-              <Link href="/report">
+              <a href={REPORT_APP_URL}>
                 <Button variant="outline" size="lg">
                   Get Free Network Analysis
                 </Button>
-              </Link>
+              </a>
             </motion.div>
           </div>
         </div>

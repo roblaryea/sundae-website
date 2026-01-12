@@ -7,6 +7,7 @@ import { Accordion } from "@/components/ui/Accordion";
 import { motion } from "framer-motion";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { useCta } from "@/lib/cta";
+import { REPORT_APP_URL } from "@/lib/urls";
 
 export default function FAQPage() {
   const cta = useCta();
@@ -391,7 +392,7 @@ export default function FAQPage() {
               variant="secondary" 
               size="lg" 
               className="bg-white text-blue-600 hover:bg-gray-100"
-              onClick={() => cta("/report", "start_free_from_faq", { page: "/faq" })}
+              onClick={() => cta(REPORT_APP_URL, "start_free_from_faq", { page: "/faq" })}
             >
               Start Free →
             </Button>
