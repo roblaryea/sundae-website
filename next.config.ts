@@ -20,6 +20,11 @@ const nextConfig: NextConfig = {
         destination: '/sign-in',
         permanent: true, // 308 permanent redirect - canonicalize auth route
       },
+      {
+        source: '/product/sundae-report',
+        destination: '/report',
+        permanent: true, // 308 permanent redirect - consolidate duplicate product page
+      },
     ];
   },
 };

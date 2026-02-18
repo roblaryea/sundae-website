@@ -5,8 +5,8 @@
  * Use these constants instead of hardcoding URLs throughout the codebase.
  */
 
-/** Main marketing website */
-export const MAIN_SITE_URL = "https://sundae.io";
+/** Main marketing website (canonical) */
+export const SITE_URL = "https://sundae.io";
 
 /** Pricing microsite */
 export const PRICING_URL = "https://pricing.sundae.io";

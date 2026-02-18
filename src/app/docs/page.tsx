@@ -250,7 +250,7 @@ export default function DocumentationPage() {
               </Button>
             </Link>
             <Link href="/demo">
-              <Button variant="outline" size="lg" className="border-2 border-white text-white hover:bg-white hover:text-blue-600">
+              <Button variant="outline-light" size="lg">
                 Schedule Training
               </Button>
             </Link>

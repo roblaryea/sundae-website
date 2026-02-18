@@ -55,7 +55,7 @@ export default function ArchitecturePage() {
   const modules: { name: string; description: string; icon: SundaeIconName; features: string[]; colorClass: string }[] = [
     {
       name: "Scout",
-      description: "Universal data integration layer connecting 25+ restaurant systems",
+      description: "Universal data integration layer connecting 30+ restaurant systems across 11 data domains",
       icon: "scout",
       features: ["POS Integration", "Labor Systems", "Inventory", "Real-time Sync"],
       colorClass: "component-icon--scout"
@@ -213,9 +213,11 @@ export default function ArchitecturePage() {
               transition={{ duration: 0.6, delay: 0.5 }}
               className="text-center mt-8"
             >
-              <div className="text-7xl mb-4">🍨</div>
+              <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-amber-700 to-orange-800 rounded-full flex items-center justify-center">
+                <SundaeIcon name="network" size="xl" className="text-white" />
+              </div>
               <p className="text-[15px] text-gray-600 dark:text-gray-400 leading-[1.65]">
-                Built on a solid foundation of security and reliability
+                Built on a solid foundation of security, governance, and reliability
               </p>
             </motion.div>
           </div>
@@ -245,7 +247,7 @@ export default function ArchitecturePage() {
               {
                 step: "1",
                 title: "Data Collection",
-                description: "Scout connects to 25+ restaurant systems and external data sources",
+                description: "Scout connects to 30+ restaurant systems across 11 data domains and external data sources",
                 icon: "integration" as SundaeIconName
               },
               {
@@ -486,10 +488,11 @@ export default function ArchitecturePage() {
           </motion.div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            {[
+            {([
               {
-                title: "Premium Scoops",
-                icon: "🍦",
+                title: "Multi-Agent AI",
+                icon: "intelligence" as SundaeIconName,
+                color: "from-purple-500 to-purple-600",
                 features: [
                   "Multi-agent AI engine",
                   "Continuous learning models",
@@ -498,8 +501,9 @@ export default function ArchitecturePage() {
                 ]
               },
               {
-                title: "Perfect Texture",
-                icon: "✨",
+                title: "Real-Time Processing",
+                icon: "speed" as SundaeIconName,
+                color: "from-blue-500 to-blue-600",
                 features: [
                   "Real-time data processing",
                   "Sub-second response times",
@@ -508,18 +512,20 @@ export default function ArchitecturePage() {
                 ]
               },
               {
-                title: "Quality Ingredients",
-                icon: "🥛",
+                title: "Integration Engine",
+                icon: "integration" as SundaeIconName,
+                color: "from-green-500 to-green-600",
                 features: [
-                  "25+ pre-built connectors",
+                  "11-domain data connectors",
                   "RESTful API architecture",
                   "Webhook support",
                   "Custom integration tools"
                 ]
               },
               {
-                title: "Secret Sauce",
-                icon: "🍯",
+                title: "Intelligence Core",
+                icon: "insights" as SundaeIconName,
+                color: "from-orange-500 to-orange-600",
                 features: [
                   "Advanced algorithms",
                   "Machine learning models",
@@ -528,8 +534,9 @@ export default function ArchitecturePage() {
                 ]
               },
               {
-                title: "Fresh Toppings",
-                icon: "🍓",
+                title: "Delivery Layer",
+                icon: "canvas" as SundaeIconName,
+                color: "from-cyan-500 to-cyan-600",
                 features: [
                   "Interactive dashboards",
                   "Natural language queries",
@@ -538,16 +545,17 @@ export default function ArchitecturePage() {
                 ]
               },
               {
-                title: "Quality Control",
-                icon: "🏆",
+                title: "Security & Governance",
+                icon: "quality" as SundaeIconName,
+                color: "from-red-500 to-red-600",
                 features: [
                   "SOC 2 Type II compliant",
                   "End-to-end encryption",
-                  "Role-based access",
-                  "Regular audits"
+                  "Role-based access control",
+                  "Regular security audits"
                 ]
               }
-            ].map((item, index) => (
+            ]).map((item, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
@@ -558,7 +566,9 @@ export default function ArchitecturePage() {
                 <Card variant="elevated" className="h-full hover:shadow-xl transition-all">
                   <CardHeader>
                     <div className="flex items-center space-x-3 mb-4">
-                      <div className="text-3xl">{item.icon}</div>
+                      <div className={`w-10 h-10 bg-gradient-to-br ${item.color} rounded-lg flex items-center justify-center`}>
+                        <SundaeIcon name={item.icon} size="lg" className="text-white" />
+                      </div>
                       <CardTitle className="text-xl text-gray-900 dark:text-white">{item.title}</CardTitle>
                     </div>
                   </CardHeader>
@@ -610,10 +620,9 @@ export default function ArchitecturePage() {
                 </Button>
               </Link>
               <Link href="/product">
-                <Button 
-                  variant="outline" 
-                  size="lg" 
-                  className="border-2 border-white text-white hover:bg-white hover:text-electric-blue font-semibold px-10 py-4 text-[16px] shadow-xl hover:shadow-2xl transition-all"
+                <Button
+                  variant="outline-light"
+                  size="lg"
                 >
                   Explore Modules
                 </Button>

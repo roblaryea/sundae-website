@@ -278,7 +278,7 @@ export default function CareersPage() {
               </Button>
             </Link>
             <Link href="/demo">
-              <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
+              <Button variant="outline-light" size="lg">
                 Learn About Our Product
               </Button>
             </Link>

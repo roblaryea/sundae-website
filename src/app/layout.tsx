@@ -5,6 +5,7 @@ import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,7 +18,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://sundae.ai'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://sundae.io'),
   title: {
     default: "Sundae – Decision Intelligence for Restaurants",
     template: "%s | Sundae",
@@ -82,6 +83,8 @@ export function generateViewport() {
   };
 }
 
+const ga4Id = process.env.NEXT_PUBLIC_GA4_ID;
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -95,22 +98,26 @@ export default function RootLayout({
         <link rel="preload" href="/logos/sundae-wordmark.png" as="image" />
         <link rel="preload" href="/logos/sundae-orb.png" as="image" />
       </head>
-      
-      {/* Google Analytics 4 */}
-      <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA4_ID || 'G-XXXXXXXXXX'}`}
-        strategy="afterInteractive"
-      />
-      <Script id="ga4-init" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', '${process.env.NEXT_PUBLIC_GA4_ID || 'G-XXXXXXXXXX'}', {
-            page_path: window.location.pathname,
-          });
-        `}
-      </Script>
+
+      {/* Google Analytics 4 — only rendered when GA4 ID is configured */}
+      {ga4Id && (
+        <>
+          <Script
+            src={`https://www.googletagmanager.com/gtag/js?id=${ga4Id}`}
+            strategy="afterInteractive"
+          />
+          <Script id="ga4-init" strategy="afterInteractive">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${ga4Id}', {
+                page_path: window.location.pathname,
+              });
+            `}
+          </Script>
+        </>
+      )}
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}>
         <a 
           href="#main-content" 
@@ -122,6 +129,7 @@ export default function RootLayout({
           <Navbar />
         </header>
         <main id="main-content" className="min-h-screen overflow-x-hidden" role="main">
+          <Breadcrumbs className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-2" />
           {children}
         </main>
         <Footer />

@@ -5,8 +5,9 @@ import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { motion } from "framer-motion";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
+import { BrowserFrame } from "@/components/ui/BrowserFrame";
 import { useCta } from "@/lib/cta";
-import { REPORT_APP_URL } from "@/lib/urls";
+import { REPORT_APP_URL, PRICING_URL } from "@/lib/urls";
 
 export default function ReportProductPage() {
   const cta = useCta();
@@ -46,7 +47,7 @@ export default function ReportProductPage() {
       bestFor: "Single-location upscale, small multi-location (2-5)",
       color: "from-purple-500 to-purple-600",
       cta: "See Report Plus",
-      link: "https://pricing.sundae.io"
+      link: PRICING_URL
     },
     {
       name: "Report Pro",
@@ -64,7 +65,7 @@ export default function ReportProductPage() {
       bestFor: "Multi-location groups (5-20), portfolio managers",
       color: "from-orange-500 to-orange-600",
       cta: "See Report Pro",
-      link: "https://pricing.sundae.io"
+      link: PRICING_URL
     }
   ];
 
@@ -184,11 +185,20 @@ export default function ReportProductPage() {
               <a href={REPORT_APP_URL} onClick={() => cta(REPORT_APP_URL, "start_free_benchmark", { page: "/report-product" })} className="btn-primary btn-lg">
                 Start Free Benchmark
               </a>
-              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer" className="btn-secondary btn-lg">
+              <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="btn-secondary btn-lg">
                 See Report Tier Options
               </a>
             </div>
           </motion.div>
+
+          <div className="mt-12 max-w-4xl mx-auto">
+            <BrowserFrame
+              src="/images/product/benchmark-overview.png"
+              alt="Sundae Report — benchmarking and historical intelligence dashboard"
+              priority
+              animate="scale"
+            />
+          </div>
         </div>
       </section>
 
@@ -456,7 +466,7 @@ export default function ReportProductPage() {
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Explore Tiers</h3>
               <p className="text-sm text-gray-600 mb-4">See Plus and Pro capabilities</p>
-              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer" className="block">
+              <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
                 <Button 
                   variant="outline" 
                   size="md"

@@ -1,0 +1,307 @@
+/* ==============================================
+   COMPONENT STYLES
+   Cards, Badges, Buttons (CSS fallback), FAQ
+   ============================================== */
+
+/* --- Cards --- */
+
+.card {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e5e7eb;
+  transition: all 0.3s ease-out;
+}
+
+.dark .card {
+  background: #1f2937;
+  border-color: #374151;
+}
+
+.card--report { border-top: 4px solid var(--color-report); }
+.card--report:hover {
+  box-shadow: 0 8px 24px rgba(124, 58, 237, 0.15);
+  transform: translateY(-4px);
+}
+
+.card--core {
+  border-top: 4px solid var(--color-core);
+  transform: scale(1.05);
+  z-index: 10;
+  position: relative;
+}
+.card--core:hover {
+  box-shadow: 0 12px 32px rgba(37, 99, 235, 0.2);
+  transform: scale(1.05) translateY(-4px);
+}
+.card--core::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(135deg, #DBEAFE, #3B82F6);
+  border-radius: inherit;
+  z-index: -1;
+  opacity: 0.1;
+  transition: opacity 0.3s ease;
+}
+.card--core:hover::before { opacity: 0.15; }
+
+.card--watchtower { border-top: 4px solid var(--color-watchtower); }
+.card--watchtower:hover {
+  box-shadow: 0 8px 24px rgba(220, 38, 38, 0.15);
+  transform: translateY(-4px);
+}
+
+/* Product Icons */
+.product-icon {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+.card--report .product-icon { background: linear-gradient(135deg, var(--color-report-light), var(--color-report)); }
+.card--core .product-icon { background: linear-gradient(135deg, var(--color-core-light), var(--color-core)); }
+.card--watchtower .product-icon { background: linear-gradient(135deg, var(--color-watchtower-light), var(--color-watchtower)); }
+.card:hover .product-icon { transform: scale(1.1) rotate(5deg); }
+
+/* Card hover utility */
+.card-hover { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+.card-hover:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+/* --- Badges --- */
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.badge--free { background: var(--badge-free); color: var(--badge-free-text); }
+.dark .badge--free { background-color: #064e3b; color: #6ee7b7; }
+.badge--popular {
+  background: var(--badge-popular);
+  color: var(--badge-popular-text);
+  animation: pulse-subtle 2s ease-in-out infinite;
+}
+.dark .badge--popular { background-color: #7c2d12; color: #fdba74; }
+.badge--addon { background: var(--badge-addon); color: var(--badge-addon-text); }
+.badge--report { background: var(--color-report-light); color: var(--color-report-dark); }
+.badge--core { background: var(--color-core-light); color: var(--color-core-dark); }
+.badge--watchtower { background: var(--color-watchtower-light); color: var(--color-watchtower-dark); }
+
+.badge--operator {
+  background: #DBEAFE;
+  color: #1E40AF;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.75rem;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+}
+.dark .badge--operator { background: #1E40AF; color: #DBEAFE; }
+
+.badge--role {
+  background: #F3E8FF;
+  color: #581C87;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.75rem;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+}
+.dark .badge--role { background: #581C87; color: #F3E8FF; }
+
+.badge--architecture {
+  background: #F3F4F6;
+  color: #1F2937;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.75rem;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+}
+.dark .badge--architecture { background: #374151; color: #F3F4F6; }
+
+/* --- CTA Button CSS Classes (fallback for <a> tags) --- */
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  border-radius: 0.75rem;
+  transition: all 0.2s ease-out;
+  background: linear-gradient(to right, #0A1E8C, #3B82F6);
+  color: white;
+  box-shadow: 0 4px 12px rgba(10, 30, 140, 0.25);
+  text-decoration: none;
+}
+.dark .btn-primary { background: linear-gradient(135deg, #3B82F6 0%, #1D4ED8 100%); }
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(10, 30, 140, 0.3); }
+.btn-primary:active { transform: translateY(0); box-shadow: 0 4px 12px rgba(10, 30, 140, 0.25); }
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  transition: all 0.2s ease-out;
+  background: #3B82F6;
+  color: white;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.2);
+  text-decoration: none;
+}
+.dark .btn-secondary { background-color: #3B82F6; }
+.btn-secondary:hover { background: #2563EB; box-shadow: 0 4px 12px rgba(59, 130, 246, 0.25); }
+
+.btn-tertiary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  border: 2px solid #d1d5db;
+  background: white;
+  color: #374151;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+}
+.dark .btn-tertiary { border-color: #4b5563; background: #1f2937; color: #e5e7eb; }
+.btn-tertiary:hover { border-color: #3b82f6; color: #2563eb; background: rgba(59, 130, 246, 0.05); }
+.dark .btn-tertiary:hover { background-color: var(--hover-bg); }
+
+.btn-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #2563eb;
+  font-weight: 600;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+}
+.dark .btn-link { color: #60a5fa; }
+.btn-link:hover { color: #1d4ed8; text-decoration: underline; }
+.dark .btn-link:hover { color: #93c5fd; }
+.btn-link::after { content: "→"; display: inline-block; transition: transform 0.2s ease; }
+.btn-link:hover::after { transform: translateX(4px); }
+
+.btn-sm { padding: 0.5rem 1rem; font-size: 0.875rem; }
+.btn-lg { padding: 1.25rem 2.5rem; font-size: 1.25rem; }
+
+@media (max-width: 640px) {
+  .btn-primary, .btn-secondary { width: 100%; }
+}
+
+/* --- FAQ/Accordion --- */
+
+.faq-item {
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.dark .faq-item { background: #1f2937; border-color: #374151; }
+.faq-item:hover { border-color: #3b82f6; }
+.faq-item[open] { border-color: #3b82f6; box-shadow: 0 4px 12px rgba(59, 130, 246, 0.1); }
+
+.faq-question {
+  padding: 1.25rem 1.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  user-select: none;
+  min-height: 60px;
+}
+.faq-question::-webkit-details-marker { display: none; }
+.faq-question:hover { background: #f9fafb; }
+.dark .faq-question:hover { background: #374151; }
+
+.faq-icon { transition: transform 0.3s ease; flex-shrink: 0; margin-left: 1rem; }
+.faq-item[open] .faq-icon { transform: rotate(180deg); }
+
+.faq-answer { padding: 0 1.5rem 1.25rem 1.5rem; color: #4b5563; line-height: 1.7; }
+.dark .faq-answer { color: #9ca3af; }
+
+.category-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: white;
+  border: 1px solid #e5e7eb;
+  color: #374151;
+  min-height: 44px;
+}
+.dark .category-chip { background: #1f2937; border-color: #374151; color: #e5e7eb; }
+.category-chip:hover { border-color: #3b82f6; color: #3b82f6; }
+.category-chip--active { background: #3b82f6; border-color: #3b82f6; color: white; }
+.dark .category-chip--active { background: #3b82f6; color: white; }
+
+/* --- Architecture Components --- */
+
+.component-icon {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease;
+}
+.component-icon--scout { background: linear-gradient(135deg, var(--color-scout-light), var(--color-scout)); }
+.component-icon--pulse { background: linear-gradient(135deg, var(--color-pulse-light), var(--color-pulse)); }
+.component-icon--forge { background: linear-gradient(135deg, var(--color-forge-light), var(--color-forge)); }
+.component-icon--canvas { background: linear-gradient(135deg, var(--color-canvas-light), var(--color-canvas)); }
+.component-icon:hover { transform: scale(1.1) rotate(5deg); }
+
+.component-hero { position: relative; overflow: hidden; }
+.component-hero--scout { background: linear-gradient(135deg, var(--color-scout-light), var(--color-scout)); }
+.component-hero--pulse { background: linear-gradient(135deg, var(--color-pulse-light), var(--color-pulse)); }
+.component-hero--forge { background: linear-gradient(135deg, var(--color-forge-light), var(--color-forge)); }
+.component-hero--canvas { background: linear-gradient(135deg, var(--color-canvas-light), var(--color-canvas)); }
+
+.solution-hero { position: relative; overflow: hidden; }
+.solution-hero--operator { background: linear-gradient(135deg, #EFF6FF 0%, #3B82F6 100%); }
+.solution-hero--role { background: linear-gradient(135deg, #FAF5FF 0%, #8B5CF6 100%); }
+.dark .solution-hero--operator { background: linear-gradient(135deg, #1E3A8A 0%, #1E40AF 100%); }
+.dark .solution-hero--role { background: linear-gradient(135deg, #4C1D95 0%, #6D28D9 100%); }
+
+.architecture-diagram .layer { cursor: pointer; transition: all 0.3s ease; }
+.architecture-diagram .layer:hover,
+.architecture-diagram .layer:focus {
+  transform: scale(1.05);
+  filter: drop-shadow(0 4px 12px rgba(0,0,0,0.15));
+}
+.architecture-diagram .layer:focus { outline: 3px solid #3B82F6; outline-offset: 4px; }

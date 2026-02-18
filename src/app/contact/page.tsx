@@ -98,7 +98,7 @@ export default function ContactPage() {
                   <a href={PRICING_URL} className="block text-blue-600 hover:text-blue-700">
                     View Pricing →
                   </a>
-                  <Link href="/product/sundae-report" className="block text-blue-600 hover:text-blue-700">
+                  <Link href="/report" className="block text-blue-600 hover:text-blue-700">
                     Get Free Report →
                   </Link>
                   <Link href="/about" className="block text-blue-600 hover:text-blue-700">
@@ -118,7 +118,7 @@ export default function ContactPage() {
             Ready to See Sundae in Action?
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Join thousands of restaurant operators who use Sundae to make data-driven decisions. 
+            See how restaurant operators use Sundae for Decision Intelligence.
             Book your demo today and see the difference.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -127,8 +127,8 @@ export default function ContactPage() {
                 Book Demo Now
               </Button>
             </Link>
-            <Link href="/product/sundae-report">
-              <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
+            <Link href="/report">
+              <Button variant="outline-light" size="lg">
                 Get Free Report
               </Button>
             </Link>

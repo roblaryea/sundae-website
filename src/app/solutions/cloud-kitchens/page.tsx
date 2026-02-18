@@ -229,7 +229,7 @@ export default function CloudKitchensPage() {
               </Button>
             </Link>
             <a href={PRICING_URL}>
-              <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
+              <Button variant="outline-light" size="lg">
                 View Pricing
               </Button>
             </a>

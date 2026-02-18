@@ -53,7 +53,7 @@ export default function TermsPage() {
                   These Terms of Service (the "Terms") govern your access to and use of the Sundae websites, applications, platforms, and related products (collectively, the "Services"), including the Sundae Report benchmarking and analytics module.
                 </p>
                 <p className="text-gray-700 mb-4">
-                  These Terms form a legally binding agreement between <strong>Ambia Global Technologies Ltd.</strong>, a company incorporated in the Dubai International Financial Centre (DIFC), Dubai, United Arab Emirates (referred to as "<strong>Ambia</strong>", "<strong>Sundae</strong>", "<strong>Sundae.io</strong>", "<strong>we</strong>", "<strong>us</strong>", or "<strong>our</strong>"), and the entity or individual accepting these Terms (the "<strong>Customer</strong>", "<strong>you</strong>", or "<strong>your</strong>").
+                  These Terms form a legally binding agreement between <strong>Sundae Technologies Inc.</strong>, a company incorporated in Delaware, United States, trading as &ldquo;Sundae&rdquo; and operating the domains sundae.io, sundaetech.ai, sundaetech.io, and sundaetechnologies.com (referred to as &ldquo;<strong>Sundae</strong>&rdquo;, &ldquo;<strong>we</strong>&rdquo;, &ldquo;<strong>us</strong>&rdquo;, or &ldquo;<strong>our</strong>&rdquo;), and the entity or individual accepting these Terms (the &ldquo;<strong>Customer</strong>&rdquo;, &ldquo;<strong>you</strong>&rdquo;, or &ldquo;<strong>your</strong>&rdquo;). Sundae Technologies Inc. may provide services directly or through authorized affiliates, resellers, or regional partners.
                 </p>
                 <p className="text-gray-700 mb-4">
                   By accessing or using the Services, or by clicking "I Agree" (or similar), you agree on behalf of yourself and, if applicable, the entity you represent, to be bound by these Terms. If you do not accept these Terms you must not access or use these Services.
@@ -71,7 +71,7 @@ export default function TermsPage() {
                 <p className="text-gray-700 mb-4">For purposes of these Terms:</p>
                 <ul className="list-disc pl-6 text-gray-700 space-y-3">
                   <li>
-                    <strong>"Sundae,"</strong> <strong>"Sundae.io"</strong>, <strong>"Ambia,"</strong> <strong>"we,"</strong> <strong>"us,"</strong> <strong>"our"</strong> means Ambia Global Technologies Ltd., a company incorporated in the Dubai International Financial Centre (DIFC), Dubai, United Arab Emirates together with its affiliates.
+                    <strong>&ldquo;Sundae,&rdquo;</strong> <strong>&ldquo;we,&rdquo;</strong> <strong>&ldquo;us,&rdquo;</strong> <strong>&ldquo;our&rdquo;</strong> means Sundae Technologies Inc., a company incorporated in Delaware, United States, together with its affiliates, operating the domains sundae.io, sundaetech.ai, sundaetech.io, and sundaetechnologies.com.
                   </li>
                   <li>
                     <strong>"Services"</strong> means Sundae's AI-powered decision-intelligence and workforce platforms and related products, including Sundae Report, dashboards, APIs, integrations, mobile/desktop apps and website.
@@ -465,10 +465,10 @@ export default function TermsPage() {
               <section>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">19. Governing Law & Dispute Resolution</h2>
                 <p className="text-gray-700 mb-4">
-                  These Terms and any dispute or claim arising out of or in connection with them or their subject matter or formation (including non-contractual disputes or claims) shall be governed by and construed in accordance with the laws of the Dubai International Financial Centre ("DIFC").
+                  These Terms and any dispute or claim arising out of or in connection with them or their subject matter or formation (including non-contractual disputes or claims) shall be governed by and construed in accordance with the laws of the State of Delaware, United States, without regard to its conflict of law provisions.
                 </p>
                 <p className="text-gray-700">
-                  The parties irrevocably agree that the courts of the DIFC shall have exclusive jurisdiction to settle any dispute or claim arising out of or in connection with these Terms or their subject matter or formation.
+                  The parties irrevocably agree that the state and federal courts located in the State of Delaware shall have exclusive jurisdiction to settle any dispute or claim arising out of or in connection with these Terms or their subject matter or formation.
                 </p>
               </section>
 
@@ -527,11 +527,10 @@ export default function TermsPage() {
                 </p>
                 <div className="bg-gray-50 p-4 rounded-lg">
                   <p className="text-gray-700">
-                    <strong>Ambia Global Technologies Ltd</strong> (trading as "Sundae.io")<br />
-                    Dubai International Financial Centre (DIFC)<br />
-                    Address: 4601, Burj Al Salam, Trade Center, Dubai, UAE<br />
-                    Email: <a href="mailto:legal@sundae.io" className="text-blue-600 hover:underline">legal@sundae.io</a><br />
-                    Phone: <a href="tel:+97145017308" className="text-blue-600 hover:underline">+971 (4) 501-7308</a>
+                    <strong>Sundae Technologies Inc.</strong><br />
+                    1007 N Orange St, 4th Floor, Suite 1382<br />
+                    Wilmington, DE 19801, United States<br />
+                    Email: <a href="mailto:legal@sundae.io" className="text-blue-600 hover:underline">legal@sundae.io</a>
                   </p>
                 </div>
               </section>
@@ -576,9 +575,10 @@ export default function TermsPage() {
                 <div className="text-3xl mb-4">📍</div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">Visit Us</h3>
                 <p className="text-gray-600 text-sm">
-                  4601, Burj Al Salam<br />
-                  Trade Center<br />
-                  Dubai, UAE
+                  1007 N Orange St<br />
+                  4th Floor, Suite 1382<br />
+                  Wilmington, DE 19801<br />
+                  United States
                 </p>
               </CardContent>
             </Card>

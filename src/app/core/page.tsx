@@ -5,7 +5,9 @@ import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { motion } from "framer-motion";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
+import { BrowserFrame } from "@/components/ui/BrowserFrame";
 import { useCta } from "@/lib/cta";
+import { PRICING_URL } from "@/lib/urls";
 
 export default function CoreProductPage() {
   const cta = useCta();
@@ -105,12 +107,12 @@ export default function CoreProductPage() {
   ];
 
   const integrations = [
-    { category: "POS Systems", examples: "Square, Toast, Lightspeed, Revel, NCR, Oracle Micros, 50+ more", icon: "integration" as SundaeIconName },
-    { category: "Labor/Workforce", examples: "7shifts, HotSchedules, Deputy, When I Work", icon: "benchmarking" as SundaeIconName },
-    { category: "Inventory", examples: "MarketMan, BlueCart, Food-X", icon: "insights" as SundaeIconName },
-    { category: "Accounting", examples: "QuickBooks, Xero, NetSuite", icon: "finance" as SundaeIconName },
-    { category: "Reservations", examples: "OpenTable, Resy, SevenRooms", icon: "operators" as SundaeIconName },
-    { category: "Marketing", examples: "Mailchimp, HubSpot, Facebook Ads", icon: "marketing" as SundaeIconName }
+    { category: "POS Systems", examples: "Oracle MICROS Simphony, Square, Toast, Clover, plus direct database connectors", icon: "integration" as SundaeIconName },
+    { category: "Labor/Workforce", examples: "7shifts, HotSchedules, Deputy", icon: "benchmarking" as SundaeIconName },
+    { category: "Inventory & Purchasing", examples: "MarketMan, Craftable, BinWise", icon: "insights" as SundaeIconName },
+    { category: "Accounting", examples: "QuickBooks, Xero, Sage, FreshBooks", icon: "finance" as SundaeIconName },
+    { category: "Reservations", examples: "OpenTable, Resy, SevenRooms, Tock", icon: "operators" as SundaeIconName },
+    { category: "Delivery & Marketing", examples: "Deliverect, Uber Eats, DoorDash, Meta, Google Ads, Mailchimp", icon: "marketing" as SundaeIconName }
   ];
 
   const faqs = [
@@ -164,14 +166,23 @@ export default function CoreProductPage() {
               <strong>Includes everything from Report tier, plus operational speed.</strong> 2-4 hour refresh cycles. Predictive forecasting. Proactive recommendations.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
-              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer" className="btn-primary btn-lg">
+              <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="btn-primary btn-lg">
                 Explore Core Tiers
               </a>
-              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer" className="btn-secondary btn-lg">
+              <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="btn-secondary btn-lg">
                 Calculate Your Savings
               </a>
             </div>
           </motion.div>
+
+          <div className="mt-12 max-w-4xl mx-auto">
+            <BrowserFrame
+              src="/images/product/core-overview.png"
+              alt="Sundae Core — real-time operational intelligence dashboard"
+              priority
+              animate="scale"
+            />
+          </div>
         </div>
       </section>
 
@@ -266,7 +277,7 @@ export default function CoreProductPage() {
                       <p className="text-xs font-semibold text-gray-500 uppercase mb-1">Best for:</p>
                       <p className="text-sm text-gray-700">{tier.bestFor}</p>
                     </div>
-                    <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer" className="block">
+                    <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
                       <Button variant="primary" size="lg" className="w-full">
                         See {tier.name}
                       </Button>
@@ -323,6 +334,66 @@ export default function CoreProductPage() {
         </div>
       </section>
 
+      {/* Pulse — Real-Time Operations */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-purple-50 to-blue-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center space-x-2 bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+              <SundaeIcon name="pulse" size="md" />
+              <span>Included with Core</span>
+            </div>
+            <h2 className="section-h2 text-gray-900 mb-4">
+              Pulse: Intraday Operations Monitor
+            </h2>
+            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+              Detect, act, and confirm within the shift. Pulse monitors your operations in real time and coaches your team when things go off-track.
+            </p>
+          </div>
+
+          <div className="max-w-4xl mx-auto mb-12">
+            <BrowserFrame
+              src="/images/product/pulse-scorecard.png"
+              alt="Pulse scorecard — intraday operations monitoring"
+              width={1000}
+              height={600}
+              animate="scale"
+            />
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            {([
+              { name: "Sales & Pace", description: "Intraday sales pacing, KPIs, and hourly trend visualization", icon: "chart" as SundaeIconName },
+              { name: "Labor Live", description: "Intraday labor pacing, overtime risk tracking, and break compliance", icon: "benchmarking" as SundaeIconName },
+              { name: "Leakage Monitoring", description: "Real-time void, comp, and discount monitoring per shift", icon: "cost" as SundaeIconName },
+              { name: "Service Speed & Flow", description: "Throughput bottlenecks, backlog, and kitchen pacing metrics", icon: "speed" as SundaeIconName },
+              { name: "Menu Intelligence", description: "Item catalog, classification matrix (Stars/Plowhorses/Puzzles/Dogs)", icon: "insights" as SundaeIconName },
+              { name: "Alerts & Playbooks", description: "Automated response workflows triggered by exceptions", icon: "forecasting" as SundaeIconName },
+              { name: "AI Coach", description: "Shift-level coaching signals for Sales, Leakage, and Flow", icon: "intelligence" as SundaeIconName },
+              { name: "Portfolio Leaderboard", description: "Multi-outlet performance comparison with streak tracking", icon: "multiLocation" as SundaeIconName },
+              { name: "Wallboard Mode", description: "Full-screen display for kitchen or front-of-house screens", icon: "canvas" as SundaeIconName }
+            ]).map((feature, index) => (
+              <motion.div
+                key={feature.name}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.05 }}
+                viewport={{ once: true, margin: "-100px" }}
+              >
+                <div className="flex items-start space-x-3 p-4 bg-white rounded-xl border border-slate-200/70 shadow-sm hover:shadow-md transition-all duration-300 h-full">
+                  <div className="w-10 h-10 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center text-white flex-shrink-0">
+                    <SundaeIcon name={feature.icon} size="md" className="text-white" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-gray-900 text-sm mb-1">{feature.name}</h3>
+                    <p className="text-xs text-gray-600 leading-relaxed">{feature.description}</p>
+                  </div>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Integrations */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50 to-purple-50">
         <div className="max-w-7xl mx-auto">
@@ -331,7 +402,7 @@ export default function CoreProductPage() {
               Connect All Your Systems
             </h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Core integrates with 50+ POS systems and all major operational platforms
+              Core connects across 11 data domains with 30+ vendor integrations
             </p>
           </div>
 
@@ -480,7 +551,7 @@ export default function CoreProductPage() {
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Calculate ROI</h3>
               <p className="text-sm text-gray-600 mb-4">Interactive simulator with your numbers</p>
-              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer" className="block">
+              <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
                 <Button variant="primary" size="md" className="w-full">
                   Calculate ROI →
                 </Button>
@@ -492,7 +563,7 @@ export default function CoreProductPage() {
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Compare Tiers</h3>
               <p className="text-sm text-gray-600 mb-4">See Lite vs Pro vs Enterprise</p>
-              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer" className="block">
+              <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
                 <Button variant="outline" size="md" className="w-full">
                   Compare Tiers →
                 </Button>

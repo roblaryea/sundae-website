@@ -50,7 +50,7 @@ export default function PrivacyPage() {
               <section>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Introduction</h2>
                 <p className="text-gray-700 mb-4">
-                  <strong>Ambia Global Technologies Ltd</strong>, a company incorporated in the Dubai International Financial Centre (DIFC), Dubai, United Arab Emirates, trading as "Sundae" or "Sundae.io" ("Sundae", "we", "us", or "our"), is committed to protecting your privacy and ensuring the security of your personal information.
+                  <strong>Sundae Technologies Inc.</strong>, a company incorporated in Delaware, United States, trading as &ldquo;Sundae&rdquo; and operating the domains sundae.io, sundaetech.ai, sundaetech.io, and sundaetechnologies.com (&ldquo;Sundae&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;), is committed to protecting your privacy and ensuring the security of your personal information. Sundae Technologies Inc. may provide services directly or through authorized affiliates, resellers, or regional partners.
                 </p>
                 <p className="text-gray-700 mb-4">
                   This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you:
@@ -210,7 +210,7 @@ export default function PrivacyPage() {
 
                 <h3 className="text-xl font-semibold text-gray-900 mb-3 mt-6">4.5 Business Transfers</h3>
                 <p className="text-gray-700">
-                  If Sundae or Ambia is involved in a merger, acquisition, financing, reorganization, or sale of all or part of its business or assets, your information may be transferred as part of that transaction. We will take reasonable steps to ensure that the recipient honors this Privacy Policy or a substantially similar policy and, where required by law, we will notify you of such changes.
+                  If Sundae Technologies Inc. or any of its affiliates is involved in a merger, acquisition, financing, reorganization, or sale of all or part of its business or assets, your information may be transferred as part of that transaction. We will take reasonable steps to ensure that the recipient honors this Privacy Policy or a substantially similar policy and, where required by law, we will notify you of such changes.
                 </p>
               </section>
 
@@ -283,7 +283,7 @@ export default function PrivacyPage() {
               <section>
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">8. International Data Transfers</h2>
                 <p className="text-gray-700 mb-4">
-                  Sundae is headquartered in the United Arab Emirates and may process information in the UAE and in other countries where we or our service providers operate. This means your information may be transferred to, stored, and processed outside your country of residence, including in countries that may not provide the same level of data protection as your home jurisdiction.
+                  Sundae is headquartered in the United States and may process information in the US and in other countries where we or our service providers operate. This means your information may be transferred to, stored, and processed outside your country of residence, including in countries that may not provide the same level of data protection as your home jurisdiction.
                 </p>
                 <p className="text-gray-700 mb-4">
                   Where required by law (for example, for users in the European Economic Area (EEA), United Kingdom, or other regions with data transfer restrictions), we implement appropriate safeguards for cross-border transfers, such as:
@@ -363,9 +363,9 @@ export default function PrivacyPage() {
                   If you believe our processing of your personal information infringes applicable law, you have the right to lodge a complaint with your local supervisory authority. We would, however, appreciate the chance to deal with your concerns first.
                 </p>
 
-                <h3 className="text-xl font-semibold text-gray-900 mb-3 mt-6">12.3 UAE and DIFC</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-3 mt-6">12.3 Other Regions</h3>
                 <p className="text-gray-700">
-                  For users located in the UAE or using the Services via Ambia's DIFC entity, we process personal information in accordance with applicable UAE data protection laws and relevant DIFC regulations. Our primary contact point for privacy matters is listed in Section 14.
+                  For users located in other regions, Sundae Technologies Inc. may provide services through authorized affiliates or regional partners. We process personal information in accordance with applicable local data protection laws. Our primary contact point for privacy matters is listed in Section 14.
                 </p>
               </section>
 
@@ -393,11 +393,10 @@ export default function PrivacyPage() {
                 </p>
                 <div className="bg-gray-50 p-4 rounded-lg">
                   <p className="text-gray-700">
-                    <strong>Ambia Global Technologies Ltd</strong> (trading as "Sundae.io")<br />
-                    Dubai International Financial Centre (DIFC)<br />
-                    Address: 4601, Burj Al Salam, Trade Center, Dubai, UAE<br />
-                    Email: <a href="mailto:privacy@sundae.io" className="text-blue-600 hover:underline">privacy@sundae.io</a><br />
-                    Phone: <a href="tel:+97145017308" className="text-blue-600 hover:underline">+971 (4) 501-7308</a>
+                    <strong>Sundae Technologies Inc.</strong><br />
+                    1007 N Orange St, 4th Floor, Suite 1382<br />
+                    Wilmington, DE 19801, United States<br />
+                    Email: <a href="mailto:privacy@sundae.io" className="text-blue-600 hover:underline">privacy@sundae.io</a>
                   </p>
                 </div>
                 <p className="text-gray-700 mt-4">
@@ -445,9 +444,10 @@ export default function PrivacyPage() {
                 <div className="text-3xl mb-4">📍</div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">Visit Us</h3>
                 <p className="text-gray-600 text-sm">
-                  4601, Burj Al Salam<br />
-                  Trade Center<br />
-                  Dubai, UAE
+                  1007 N Orange St<br />
+                  4th Floor, Suite 1382<br />
+                  Wilmington, DE 19801<br />
+                  United States
                 </p>
               </CardContent>
             </Card>
