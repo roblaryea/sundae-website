@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, FormEvent, useRef } from 'react';
+import React, { useState, useRef, FormEvent } from 'react';
 import { Button } from '@/components/ui/Button';
 import { COUNTRY_CODES } from '@/lib/countryCodes';
 
@@ -44,6 +44,9 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
     primaryPOS: '',
     message: defaultMessage,
   });
+
+  // Honeypot field — invisible to humans, bots auto-fill it
+  const [honeypot, setHoneypot] = useState('');
 
   const [errors, setErrors] = useState<FormErrors>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -236,6 +239,12 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
     e.preventDefault();
     setApiError('');
 
+    // Honeypot check — silently "succeed" so bots think it worked
+    if (honeypot) {
+      setIsSuccess(true);
+      return;
+    }
+
     // Validate form
     if (!validateForm()) {
       setTimeout(scrollToFirstError, 100);
@@ -361,6 +370,20 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
   return (
     <div className={`max-w-2xl mx-auto ${className}`}>
       <form onSubmit={handleSubmit} className="space-y-6" noValidate>
+        {/* Honeypot — hidden from humans, traps bots */}
+        <div aria-hidden="true" style={{ position: 'absolute', left: '-9999px', opacity: 0, height: 0, overflow: 'hidden' }}>
+          <label htmlFor="website_url">Website</label>
+          <input
+            type="text"
+            id="website_url"
+            name="website_url"
+            value={honeypot}
+            onChange={(e) => setHoneypot(e.target.value)}
+            tabIndex={-1}
+            autoComplete="off"
+          />
+        </div>
+
         {/* Name - Required */}
         <div ref={(el) => { fieldRefs.current.name = el; }}>
           <label

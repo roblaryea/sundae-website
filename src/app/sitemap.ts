@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import { blogPosts } from '@/lib/blogData'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://sundae.ai'
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://sundae.io'
   
   // Core pages
   const corePages = [
@@ -26,6 +26,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/privacy',
     '/terms',
     '/docs',
+    '/security',
+    '/integrations',
   ]
 
   // Product pages

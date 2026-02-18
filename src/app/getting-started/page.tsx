@@ -6,7 +6,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { motion } from "framer-motion";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { useCta } from "@/lib/cta";
-import { REPORT_APP_URL } from "@/lib/urls";
+import { REPORT_APP_URL, PRICING_URL } from "@/lib/urls";
 
 export default function GettingStartedPage() {
   const cta = useCta();
@@ -156,7 +156,7 @@ export default function GettingStartedPage() {
               >
                 Start Free
               </Button>
-              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer">
+              <a href={PRICING_URL} target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" size="lg">
                   Calculate Your Path
                 </Button>
@@ -420,7 +420,7 @@ export default function GettingStartedPage() {
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Calculate Your Path</h3>
               <p className="text-sm text-gray-600 mb-4">Interactive pricing calculator</p>
-              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer" className="block">
+              <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
                 <Button variant="outline" size="md" className="w-full">
                   Calculate Pricing →
                 </Button>

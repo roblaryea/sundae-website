@@ -447,7 +447,7 @@ export default function FourDIntelligencePage() {
                 </Button>
               </Link>
               <Link href="/architecture">
-                <Button variant="outline" size="lg" className="border-2 border-white text-white hover:bg-white hover:text-blue-600">
+                <Button variant="outline-light" size="lg">
                   Explore the Architecture
                 </Button>
               </Link>

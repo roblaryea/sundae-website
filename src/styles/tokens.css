@@ -1,0 +1,154 @@
+/* ==============================================
+   DESIGN TOKENS
+   Brand colors, product colors, spacing, status
+   ============================================== */
+
+:root {
+  --background: #ffffff;
+  --foreground: #111111;
+
+  /* Sundae Brand Colors - Primary */
+  --deep-blue: #0A1E8C;
+  --electric-blue: #1C47FF;
+  --soft-white: #F7F8FF;
+  --pure-white: #FFFFFF;
+
+  /* Secondary / UI Neutrals */
+  --graphite-black: #111111;
+  --muted-grey: #79819A;
+  --divider-grey: #E6E8F2;
+
+  /* Insight Status Colors */
+  --positive: #16A34A;
+  --warning: #F59E0B;
+  --critical: #DC2626;
+
+  /* Accent Colors */
+  --lavender: #B8C0FF;
+  --coral: #FF6D5A;
+  --aqua: #3CC8E2;
+
+  /* Product Colors - Report (Purple) */
+  --color-report: #7C3AED;
+  --color-report-light: #F3E8FF;
+  --color-report-dark: #581C87;
+
+  /* Product Colors - Core (Blue) */
+  --color-core: #2563EB;
+  --color-core-light: #DBEAFE;
+  --color-core-dark: #1E40AF;
+
+  /* Product Colors - Watchtower (Red) */
+  --color-watchtower: #DC2626;
+  --color-watchtower-light: #FEE2E2;
+  --color-watchtower-dark: #991B1B;
+
+  /* Badge Colors */
+  --badge-free: #D1FAE5;
+  --badge-free-text: #065F46;
+  --badge-popular: #FED7AA;
+  --badge-popular-text: #9A3412;
+  --badge-addon: #F3F4F6;
+  --badge-addon-text: #1F2937;
+
+  /* Architecture Component Colors */
+  --color-scout: #10B981;
+  --color-scout-light: #D1FAE5;
+  --color-scout-dark: #065F46;
+
+  --color-pulse: #8B5CF6;
+  --color-pulse-light: #F3E8FF;
+  --color-pulse-dark: #581C87;
+
+  --color-forge: #F97316;
+  --color-forge-light: #FED7AA;
+  --color-forge-dark: #9A3412;
+
+  --color-canvas: #3B82F6;
+  --color-canvas-light: #DBEAFE;
+  --color-canvas-dark: #1E40AF;
+
+  /* Semantic UI Tokens — Light Mode */
+  --surface: #ffffff;
+  --surface-alt: #f9fafb;
+  --surface-raised: #f3f4f6;
+  --text: #111827;
+  --text-secondary: #374151;
+  --text-muted: #4b5563;
+  --text-faint: #6b7280;
+  --border: #e5e7eb;
+  --border-strong: #d1d5db;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --hover-bg: #f9fafb;
+  --gradient-from: #f9fafb;
+  --gradient-to: #ffffff;
+  --focus-ring: #3b82f6;
+  --link-hover: #1d4ed8;
+}
+
+/* Dark mode token overrides */
+.dark {
+  --background: #0f172a;
+  --foreground: #e2e8f0;
+  --color-deep-blue: #1C47FF;
+  --color-electric-blue: #3A6BFF;
+  --color-soft-white: #1A1A1A;
+  --color-pure-white: #111111;
+  --color-graphite-black: #F7F8FF;
+  --color-muted-grey: #A0A8C0;
+  --color-divider-grey: #2A2A3A;
+
+  /* Product color adjustments */
+  --color-report-light: #581C87;
+  --color-core-light: #1E40AF;
+  --color-watchtower-light: #991B1B;
+
+  /* Semantic UI Tokens — Dark Mode */
+  --surface: #1e293b;
+  --surface-alt: #0f172a;
+  --surface-raised: #1e293b;
+  --text: #f1f5f9;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+  --text-faint: #64748b;
+  --border: #334155;
+  --border-strong: #475569;
+  --shadow-color: rgba(0, 0, 0, 0.3);
+  --hover-bg: #334155;
+  --gradient-from: #0f172a;
+  --gradient-to: #1e293b;
+  --focus-ring: #60a5fa;
+  --link-hover: #93c5fd;
+}
+
+/* System dark preference fallback (before JS hydrates) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0f172a;
+    --foreground: #e2e8f0;
+    --color-report-light: #581C87;
+    --color-core-light: #1E40AF;
+    --color-watchtower-light: #991B1B;
+  }
+}
+
+/* Tailwind v4 theme integration */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-deep-blue: var(--deep-blue);
+  --color-electric-blue: var(--electric-blue);
+  --color-soft-white: var(--soft-white);
+  --color-pure-white: var(--pure-white);
+  --color-graphite-black: var(--graphite-black);
+  --color-muted-grey: var(--muted-grey);
+  --color-divider-grey: var(--divider-grey);
+  --color-positive: var(--positive);
+  --color-warning: var(--warning);
+  --color-critical: var(--critical);
+  --color-lavender: var(--lavender);
+  --color-coral: var(--coral);
+  --color-aqua: var(--aqua);
+}

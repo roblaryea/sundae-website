@@ -5,7 +5,9 @@ import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { motion } from "framer-motion";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
+import { BrowserFrame } from "@/components/ui/BrowserFrame";
 import { useCta } from "@/lib/cta";
+import { PRICING_URL } from "@/lib/urls";
 
 export default function WatchtowerPage() {
   const cta = useCta();
@@ -109,7 +111,7 @@ export default function WatchtowerPage() {
               <strong>Works with both Report and Core tiers.</strong> Three intelligence types: Competitive, Event, and Market.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
-              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer">
+              <a href={PRICING_URL} target="_blank" rel="noopener noreferrer">
                 <Button variant="primary" size="lg">
                   Add Watchtower
                 </Button>
@@ -123,6 +125,15 @@ export default function WatchtowerPage() {
               </Button>
             </div>
           </motion.div>
+
+          <div className="mt-12 max-w-4xl mx-auto">
+            <BrowserFrame
+              src="/images/product/watchtower.png"
+              alt="Watchtower — external market intelligence dashboard"
+              priority
+              animate="scale"
+            />
+          </div>
         </div>
       </section>
 
@@ -223,7 +234,7 @@ export default function WatchtowerPage() {
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-3">Use case:</h4>
                         <p className="text-gray-700 mb-4">{intel.useCase}</p>
-                        <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer">
+                        <a href={PRICING_URL} target="_blank" rel="noopener noreferrer">
                           <Button variant="outline" size="md" className="w-full">
                             Add {intel.type} →
                           </Button>
@@ -417,7 +428,7 @@ export default function WatchtowerPage() {
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Add to Your Plan</h3>
               <p className="text-sm text-gray-600 mb-4">See Watchtower pricing for your operation</p>
-              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer" className="block">
+              <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
                 <Button variant="primary" size="md" className="w-full">
                   Add Watchtower →
                 </Button>

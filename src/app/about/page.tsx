@@ -4,41 +4,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
-import { motion, useInView } from "framer-motion";
-import { useRef, useEffect, useState } from "react";
+import { motion } from "framer-motion";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
-
-// Counter animation component
-function AnimatedCounter({ end, duration = 2, suffix = "" }: { end: number; duration?: number; suffix?: string }) {
-  const [count, setCount] = useState(0);
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: "-100px" });
-
-  useEffect(() => {
-    if (!isInView) return;
-
-    let startTime: number | null = null;
-    const startValue = 0;
-
-    const animate = (currentTime: number) => {
-      if (!startTime) startTime = currentTime;
-      const progress = Math.min((currentTime - startTime) / (duration * 1000), 1);
-      
-      const easeOutQuad = (t: number) => t * (2 - t);
-      const currentCount = Math.floor(startValue + (end - startValue) * easeOutQuad(progress));
-      
-      setCount(currentCount);
-
-      if (progress < 1) {
-        requestAnimationFrame(animate);
-      }
-    };
-
-    requestAnimationFrame(animate);
-  }, [isInView, end, duration]);
-
-  return <span ref={ref}>{count.toLocaleString()}{suffix}</span>;
-}
 
 // Fade up animation component
 function FadeUpSection({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) {
@@ -119,18 +86,18 @@ export default function AboutPage() {
     },
     {
       year: "2026",
-      title: "GCC Expansion",
-      description: "Launched across UAE, KSA, and Qatar with enterprise hospitality clients adopting the Sundae Intelligence Stack for group-wide deployment."
+      title: "GCC Expansion (In Progress)",
+      description: "Expanding across UAE, KSA, and Qatar with enterprise hospitality clients adopting the Sundae platform for group-wide deployment."
     },
     {
       year: "2026",
-      title: "Category Leadership",
-      description: "Defined the Restaurant Decision Intelligence category globally — standardizing how operators analyze data, drive performance, and make decisions."
+      title: "Category Definition (Target)",
+      description: "Defining the Restaurant Decision Intelligence category — standardizing how operators analyze data, drive performance, and make decisions."
     },
     {
-      year: "2026",
-      title: "Global Intelligence Platform",
-      description: "Expansion across Asia & Europe. Launching Sundae Enterprise Intelligence for multi-country brands and large-scale operators."
+      year: "2027+",
+      title: "Global Expansion (Target)",
+      description: "Planned expansion across Asia & Europe. Sundae Enterprise Intelligence for multi-country brands and large-scale operators."
     }
   ];
 
@@ -165,7 +132,7 @@ export default function AboutPage() {
           <FadeUpSection>
             <h1 className="hero-h1 text-gray-900 dark:text-white mb-8">
               We're Building the Future of{" "}
-              <span className="text-gradient">Restaurant Intelligence</span>
+              <span className="text-gradient">Decision Intelligence</span>
             </h1>
           </FadeUpSection>
           
@@ -257,36 +224,18 @@ export default function AboutPage() {
                 </div>
                 
                 <div className="grid grid-cols-3 gap-6 mt-8">
-                  <motion.div 
-                    className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-lg"
-                    whileHover={{ scale: 1.05, y: -5 }}
-                    transition={{ duration: 0.3 }}
-                  >
-                    <div className="text-3xl font-bold text-electric-blue mb-2">
-                      <AnimatedCounter end={1} suffix="M+" />
-                    </div>
-                    <div className="text-sm text-gray-600 dark:text-gray-400 font-medium">Crew Members</div>
-                  </motion.div>
-                  <motion.div 
-                    className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-lg"
-                    whileHover={{ scale: 1.05, y: -5 }}
-                    transition={{ duration: 0.3 }}
-                  >
-                    <div className="text-3xl font-bold text-lavender mb-2">
-                      <AnimatedCounter end={10} suffix="K+" />
-                    </div>
-                    <div className="text-sm text-gray-600 dark:text-gray-400 font-medium">Restaurants</div>
-                  </motion.div>
-                  <motion.div 
-                    className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-lg"
-                    whileHover={{ scale: 1.05, y: -5 }}
-                    transition={{ duration: 0.3 }}
-                  >
-                    <div className="text-3xl font-bold text-positive mb-2">
-                      <AnimatedCounter end={50} suffix="+" />
-                    </div>
-                    <div className="text-sm text-gray-600 dark:text-gray-400 font-medium">Countries</div>
-                  </motion.div>
+                  <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-lg text-center">
+                    <div className="text-sm font-bold text-electric-blue mb-1 uppercase tracking-wide">Status</div>
+                    <div className="text-sm text-gray-600 dark:text-gray-400 font-medium">Live with early adopters</div>
+                  </div>
+                  <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-lg text-center">
+                    <div className="text-sm font-bold text-lavender mb-1 uppercase tracking-wide">Offices</div>
+                    <div className="text-sm text-gray-600 dark:text-gray-400 font-medium">Dubai + Toronto</div>
+                  </div>
+                  <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-lg text-center">
+                    <div className="text-sm font-bold text-positive mb-1 uppercase tracking-wide">Focus</div>
+                    <div className="text-sm text-gray-600 dark:text-gray-400 font-medium">Multi-unit restaurant groups</div>
+                  </div>
                 </div>
               </div>
             </FadeUpSection>
@@ -495,17 +444,17 @@ export default function AboutPage() {
                 Where We Operate
               </h2>
               <p className="body-xl text-gray-700 dark:text-gray-300 max-w-4xl mx-auto">
-                3 continents. Expanding rapidly into the world's biggest hospitality markets.
+                Active in the Middle East and North America. Expanding into major global hospitality markets.
               </p>
             </div>
           </FadeUpSection>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
             {[
-              { region: "Middle East", countries: "UAE, KSA, Qatar", icon: "🌍", color: "bg-positive" },
-              { region: "North America", countries: "USA, Canada", icon: "🌎", color: "bg-electric-blue" },
-              { region: "Europe", countries: "UK, Germany, France", icon: "🌍", color: "bg-lavender" },
-              { region: "Asia Pacific", countries: "Australia, Singapore", icon: "🌏", color: "bg-coral" }
+              { region: "Middle East", countries: "UAE, KSA, Qatar", icon: "🌍", color: "bg-positive", label: "Active" },
+              { region: "North America", countries: "USA, Canada", icon: "🌎", color: "bg-electric-blue", label: "Active" },
+              { region: "Europe", countries: "UK, Germany, France", icon: "🌍", color: "bg-lavender", label: "Target" },
+              { region: "Asia Pacific", countries: "Australia, Singapore", icon: "🌏", color: "bg-coral", label: "Target" }
             ].map((region, index) => (
               <FadeUpSection key={region.region} delay={index * 0.1}>
                 <motion.div 
@@ -531,6 +480,9 @@ export default function AboutPage() {
                   >
                     {region.icon}
                   </motion.div>
+                  <span className={`inline-block text-[10px] font-bold uppercase tracking-wider mb-2 px-2 py-0.5 rounded-full ${region.label === 'Active' ? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400' : 'bg-slate-100 text-slate-500 dark:bg-slate-800 dark:text-slate-400'}`}>
+                    {region.label}
+                  </span>
                   <h3 className="font-bold text-gray-900 dark:text-white text-lg mb-2">{region.region}</h3>
                   <p className="text-sm text-gray-600 dark:text-gray-400">{region.countries}</p>
                 </motion.div>
@@ -569,10 +521,9 @@ export default function AboutPage() {
                 </Button>
               </Link>
               <Link href="/careers">
-                <Button 
-                  variant="outline" 
-                  size="lg" 
-                  className="border-2 border-white text-white hover:bg-white hover:text-electric-blue font-semibold px-8 py-4 text-base shadow-xl hover:shadow-2xl transition-all"
+                <Button
+                  variant="outline-light"
+                  size="lg"
                 >
                   Join Our Team
                 </Button>

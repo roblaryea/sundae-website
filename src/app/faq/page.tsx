@@ -7,7 +7,7 @@ import { Accordion } from "@/components/ui/Accordion";
 import { motion } from "framer-motion";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { useCta } from "@/lib/cta";
-import { REPORT_APP_URL } from "@/lib/urls";
+import { REPORT_APP_URL, PRICING_URL } from "@/lib/urls";
 
 export default function FAQPage() {
   const cta = useCta();
@@ -79,7 +79,7 @@ export default function FAQPage() {
         },
         {
           title: "What POS systems do you integrate with?",
-          content: "50+ integrations including Square, Toast, Lightspeed, Revel, NCR Aloha, Oracle Micros, Clover, TouchBistro, and many more. Don't see yours? Custom integrations available for Enterprise tier."
+          content: "Sundae currently supports **4 POS platforms** with live adapters: Oracle MICROS Simphony, Square, Toast, and Clover. We also offer **direct database connectors** (PostgreSQL and SQL Server/Azure SQL) for POS systems that support database access.\n\nBeyond POS, Sundae's **11-domain integration engine** connects to 30+ vendors across labor (7shifts, HotSchedules, Deputy), inventory (MarketMan, Craftable, BinWise), reservations (SevenRooms, OpenTable, Resy, Tock), delivery (Deliverect, Uber Eats, DoorDash, Talabat), marketing (Meta, Google Ads, Mailchimp), guest experience (Google Reviews, Yelp, Zendesk), CRM, and accounting (QuickBooks, Xero, Sage).\n\nDon't see your system? We also support custom webhooks for any domain, and Enterprise tier includes custom integration development."
         },
         {
           title: "Can I use Sundae with multiple POS systems?",
@@ -396,27 +396,25 @@ export default function FAQPage() {
             >
               Start Free →
             </Button>
-            <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer" className="block">
-              <Button 
-                variant="outline" 
-                size="lg" 
-                className="w-full border-white text-white hover:bg-white/10"
+            <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
+              <Button
+                variant="outline-light"
+                size="lg"
+                className="w-full"
               >
                 See Pricing →
               </Button>
             </a>
-            <Button 
-              variant="outline" 
-              size="lg" 
-              className="border-white text-white hover:bg-white/10"
+            <Button
+              variant="outline-light"
+              size="lg"
               onClick={() => cta("/demo", "book_demo_from_faq", { page: "/faq" })}
             >
               Book Demo →
             </Button>
-            <Button 
-              variant="outline" 
-              size="lg" 
-              className="border-white text-white hover:bg-white/10"
+            <Button
+              variant="outline-light"
+              size="lg"
               onClick={() => cta("/contact", "contact_from_faq", { page: "/faq" })}
             >
               Contact Us →

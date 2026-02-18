@@ -6,6 +6,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { motion } from "framer-motion";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { useCta } from "@/lib/cta";
+import { PRICING_URL } from "@/lib/urls";
 
 export default function ModulesPage() {
   const cta = useCta();
@@ -144,12 +145,12 @@ export default function ModulesPage() {
               <strong>Mix and match based on your priorities.</strong> Organization license covers your first 5 locations, then scales per location.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
-              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer">
+              <a href={PRICING_URL} target="_blank" rel="noopener noreferrer">
                 <Button variant="primary" size="lg">
                   Explore All Modules
                 </Button>
               </a>
-              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer">
+              <a href={PRICING_URL} target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" size="lg">
                   Calculate Module ROI
                 </Button>
@@ -260,7 +261,7 @@ export default function ModulesPage() {
                           <h4 className="font-semibold text-gray-900 mb-2">Best for:</h4>
                           <p className="text-sm text-gray-700">{module.bestFor}</p>
                         </div>
-                        <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer">
+                        <a href={PRICING_URL} target="_blank" rel="noopener noreferrer">
                           <Button variant="outline" size="md" className="w-full">
                             Add {module.name} →
                           </Button>
@@ -445,7 +446,7 @@ export default function ModulesPage() {
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Calculate Module ROI</h3>
               <p className="text-sm text-gray-600 mb-4">Interactive calculator for your operation</p>
-              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer" className="block">
+              <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
                 <Button variant="primary" size="md" className="w-full">
                   Calculate ROI →
                 </Button>
@@ -457,7 +458,7 @@ export default function ModulesPage() {
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Module Assessment</h3>
               <p className="text-sm text-gray-600 mb-4">Find which modules solve your challenges</p>
-              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer" className="block">
+              <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
                 <Button variant="outline" size="md" className="w-full">
                   Start Assessment →
                 </Button>

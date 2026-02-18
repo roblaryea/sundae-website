@@ -189,9 +189,9 @@ export const PROOF_POINTS = {
 export const HEADLINES = {
   // Home page
   home: {
-    hero: "Know What Changed Today",
-    subhero: "Sales, labor, menu, and demand—all in one dashboard",
-    problem: "Stop guessing. Start knowing.",
+    hero: "Decision Intelligence for Restaurants & Hospitality Operations",
+    subhero: "Clear, contextual, AI-powered visibility into your entire operation — instantly.",
+    problem: "One platform. Zero guesswork. Sundae analyzes performance, predicts what's coming, and tells your team exactly what to do next.",
     solution: "Every data source. Every location. One operating layer."
   },
   

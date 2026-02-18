@@ -6,7 +6,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { motion } from "framer-motion";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { useCta } from "@/lib/cta";
-import { REPORT_APP_URL } from "@/lib/urls";
+import { REPORT_APP_URL, PRICING_URL } from "@/lib/urls";
 
 export default function ReportVsCorePage() {
   const cta = useCta();
@@ -109,7 +109,7 @@ export default function ReportVsCorePage() {
               Report = historical analysis. Core = real-time operations. Choose based on how fast you need to act.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer">
+              <a href={PRICING_URL} target="_blank" rel="noopener noreferrer">
                 <Button variant="primary" size="lg">
                   See Exact Pricing
                 </Button>
@@ -384,7 +384,7 @@ export default function ReportVsCorePage() {
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">See Exact Pricing</h3>
               <p className="text-sm text-gray-600 mb-4">Compare Report & Core pricing</p>
-              <a href="https://pricing.sundae.io" target="_blank" rel="noopener noreferrer" className="block">
+              <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
                 <Button variant="primary" size="md" className="w-full">
                   Calculate Pricing →
                 </Button>

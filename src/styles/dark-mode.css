@@ -1,0 +1,219 @@
+/* ==============================================
+   DARK MODE STYLES
+
+   Architecture:
+   - Semantic tokens (defined in tokens.css) provide values
+   - This file remaps Tailwind utilities for dark mode
+   - Unlayered CSS naturally beats Tailwind's @layer utilities,
+     so !important is NOT needed for utility overrides
+
+   Zero !important declarations remain in this file.
+   ============================================== */
+
+/* Browser dark color scheme */
+html.dark {
+  color-scheme: dark;
+}
+
+/* ==============================================
+   GLOBAL UTILITY REMAPS
+   ============================================== */
+
+/* Backgrounds */
+.dark .bg-white {
+  background-color: var(--surface);
+}
+
+.dark .bg-gray-50,
+.dark .bg-slate-50 {
+  background-color: var(--surface-alt);
+}
+
+.dark .bg-gray-100 {
+  background-color: var(--surface);
+}
+
+/* Text */
+.dark .text-gray-900 {
+  color: var(--text);
+}
+
+.dark .text-gray-800 {
+  color: var(--foreground);
+}
+
+.dark .text-gray-700 {
+  color: var(--text-secondary);
+}
+
+.dark .text-gray-600 {
+  color: var(--text-muted);
+}
+
+.dark .text-gray-500 {
+  color: var(--text-faint);
+}
+
+/* Borders */
+.dark .border-gray-200,
+.dark .border-gray-100 {
+  border-color: var(--border);
+}
+
+/* Shadows */
+.dark .shadow-sm,
+.dark .shadow-md,
+.dark .shadow-lg {
+  --tw-shadow-color: var(--shadow-color);
+}
+
+/* ==============================================
+   SECTION-LEVEL OVERRIDES
+   Sections use page-depth (surface-alt) not card-depth (surface)
+   ============================================== */
+
+.dark section.bg-white {
+  background-color: var(--surface-alt);
+}
+
+.dark section.bg-gray-50,
+.dark section.bg-slate-50 {
+  background-color: var(--surface-alt);
+}
+
+/* ==============================================
+   COLORED BACKGROUNDS
+   ============================================== */
+
+.dark .bg-blue-50,
+.dark .bg-purple-50,
+.dark .bg-indigo-50,
+.dark .bg-red-50,
+.dark .bg-orange-50,
+.dark .bg-green-50 {
+  background-color: var(--surface);
+}
+
+.dark .bg-blue-50\/80,
+.dark .bg-purple-50\/80,
+.dark .bg-purple-50\/70,
+.dark .bg-purple-50\/50,
+.dark .bg-red-50\/80,
+.dark .bg-red-50\/70,
+.dark .bg-red-50\/60,
+.dark .bg-red-50\/50 {
+  background-color: rgba(30, 41, 59, 0.9);
+}
+
+/* Rounded containers with bg-gray-50 → elevated surface */
+.dark .bg-gray-50.rounded-xl,
+.dark .bg-gray-50.rounded-lg,
+.dark [class*="p-6"].bg-gray-50 {
+  background-color: var(--surface);
+}
+
+/* ==============================================
+   GRADIENT REMAPS
+   ============================================== */
+
+/* Neutral gradients */
+.dark .bg-gradient-to-br.from-gray-50,
+.dark .bg-gradient-to-br.from-white {
+  --tw-gradient-from: var(--gradient-from);
+  --tw-gradient-to: var(--gradient-to);
+}
+
+/* Colored gradients → page depth */
+.dark .bg-gradient-to-br.from-blue-50,
+.dark .bg-gradient-to-br.from-purple-50,
+.dark .bg-gradient-to-br.from-indigo-50,
+.dark .bg-gradient-to-br.from-red-50,
+.dark .bg-gradient-to-br.from-orange-50,
+.dark .bg-gradient-to-br.from-green-50 {
+  background: linear-gradient(to bottom right, var(--gradient-from), var(--gradient-to));
+}
+
+/* Gradient endpoints */
+.dark .bg-gradient-to-br.to-blue-50,
+.dark .bg-gradient-to-br.to-purple-50,
+.dark .bg-gradient-to-br.to-indigo-50,
+.dark .bg-gradient-to-br.to-red-50 {
+  --tw-gradient-to: var(--gradient-to);
+}
+
+/* Div-level gradients → surface depth (lighter than page) */
+.dark div.bg-gradient-to-br.from-blue-50,
+.dark div.bg-gradient-to-br.from-purple-50 {
+  background: linear-gradient(to bottom right, var(--surface), var(--border));
+}
+
+/* Full-page gradient wrappers */
+.dark .min-h-screen.bg-gradient-to-br {
+  background: linear-gradient(to bottom right, var(--gradient-from), var(--gradient-to));
+}
+
+/* ==============================================
+   HOVER STATE REMAPS
+   ============================================== */
+
+.dark [class*="hover:bg-gray-50"]:hover,
+.dark [class*="hover:bg-slate-50"]:hover,
+.dark .hover\:bg-blue-50:hover {
+  background-color: var(--hover-bg);
+}
+
+/* ==============================================
+   NAVBAR / HEADER
+   Component (Navbar.tsx) owns dark mode via inline dark: variants.
+   Only the logo filter remains as a global fallback.
+   ============================================== */
+
+.dark nav img[alt*="Sundae"],
+.dark nav img[src*="sundae"] {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+/* ==============================================
+   FOOTER
+   ============================================== */
+
+.dark footer {
+  background-color: var(--background);
+  border-color: var(--border);
+}
+
+/* ==============================================
+   FORMS
+   ============================================== */
+
+.dark input,
+.dark textarea,
+.dark select {
+  background-color: var(--surface);
+  border-color: var(--border-strong);
+  color: var(--foreground);
+}
+
+.dark input::placeholder,
+.dark textarea::placeholder {
+  color: var(--text-faint);
+}
+
+/* ==============================================
+   CODE BLOCKS, FOCUS, LINKS
+   ============================================== */
+
+.dark pre,
+.dark code {
+  background-color: var(--background);
+  border-color: var(--border);
+}
+
+.dark *:focus-visible {
+  outline-color: var(--focus-ring);
+}
+
+.dark a:not(.btn-primary):not(.btn-secondary):hover {
+  color: var(--link-hover);
+}
+

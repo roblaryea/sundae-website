@@ -13,7 +13,7 @@ interface BlogPostPageProps {
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const { slug } = await params;
   const post = blogPosts.find(p => p.slug === slug);
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://sundae.ai';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://sundae.io';
 
   if (!post) {
     notFound();
@@ -179,7 +179,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: BlogPostPageProps) {
   const { slug } = await params;
   const post = blogPosts.find(p => p.slug === slug);
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://sundae.ai';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://sundae.io';
   
   if (!post) {
     return {

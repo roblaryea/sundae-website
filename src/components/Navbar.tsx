@@ -107,7 +107,6 @@ const Navbar = () => {
   const [expandedSections, setExpandedSections] = useState<Record<string, boolean>>({
     product: true,
     solutions: true,
-    architecture: false,
     resources: false,
     company: false,
   });
@@ -178,12 +177,19 @@ const Navbar = () => {
     setIsMenuOpen(false);
   }, []);
 
-  // Official Sundae Products (Updated Structure)
-  const products = [
-    { name: 'Sundae Report', description: 'Historical analysis & benchmarking', href: '/report' },
-    { name: 'Sundae Core', description: 'Real-time operations & predictions', href: '/core' },
-    { name: 'Watchtower', description: 'External market intelligence', href: '/product/watchtower' },
-    { name: 'Modules', description: 'Labor | Inventory | Purchasing | Marketing | Reservations', href: '/modules' },
+  // Five Intelligence Pillars
+  const pillars = [
+    { name: 'Pulse', description: 'Intraday operations monitor', href: '/product/pulse' },
+    { name: 'Benchmarks', description: 'Competitive intelligence', href: '/benchmarking' },
+    { name: 'Watchtower', description: 'External market signals', href: '/product/watchtower' },
+    { name: 'Insights', description: 'Specialized analytics modules', href: '/insights' },
+    { name: 'Chat with Data', description: 'Conversational analytics', href: '/chat-with-data' },
+  ];
+
+  // Product Tiers
+  const plans = [
+    { name: 'Sundae Report', description: 'Free, historical analysis', href: '/report' },
+    { name: 'Sundae Core', description: 'Real-time operations', href: '/core' },
   ];
 
   // Solutions organized by category
@@ -203,29 +209,6 @@ const Navbar = () => {
     { name: 'People & HR Teams', href: '/solutions/hr-teams' },
   ];
 
-  // Architecture organized by layer
-  const architectureModules = [
-    { name: 'Scout', description: 'Data Integration', href: '/product/scout' },
-    { name: 'Pulse', description: 'Anomaly Detection', href: '/product/pulse' },
-    { name: 'Forge', description: 'Conversational AI', href: '/product/forge' },
-    { name: 'Canvas Engine', description: 'Visualization Engine', href: '/product/canvas' },
-    { name: 'Watchtower', description: 'Market Intelligence', href: '/product/watchtower' },
-  ];
-
-  const dataLayer = [
-    { name: 'Scout', description: 'Data Integration', href: '/product/scout' },
-  ];
-
-  const aiLayer = [
-    { name: 'Pulse', description: 'Anomaly Detection', href: '/product/pulse' },
-    { name: 'Forge', description: 'Conversational AI', href: '/product/forge' },
-  ];
-
-  const intelligenceLayer = [
-    { name: 'Canvas Engine', description: 'Visualization Engine', href: '/product/canvas' },
-    { name: 'Watchtower', description: 'Market Intelligence', href: '/product/watchtower' },
-  ];
-
   const resources = [
     { name: 'Blog', href: '/blog' },
     { name: 'Documentation', href: '/docs' },
@@ -237,8 +220,8 @@ const Navbar = () => {
   return (
     <nav className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-300 backdrop-blur-sm border-b ${
       isScrolled 
-        ? 'bg-white/95 dark:bg-slate-950/95 border-slate-200/80 dark:border-slate-800/80 shadow-lg' 
-        : 'bg-white/80 dark:bg-slate-950/80 border-slate-200/60 dark:border-slate-800/60'
+        ? 'bg-white/95 dark:bg-slate-900/95 border-slate-200/80 dark:border-slate-700 shadow-lg'
+        : 'bg-white/80 dark:bg-slate-900/80 border-slate-200/60 dark:border-slate-700/60'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
@@ -270,36 +253,36 @@ const Navbar = () => {
             {/* Products Mega Menu */}
             <div className="relative group">
               <div
-                className="text-[#1A1A1A] dark:text-white hover:text-[#0A1E8C] dark:hover:text-electric-blue transition-colors duration-200 font-medium cursor-pointer text-[15px]"
+                className="text-gray-900 dark:text-white hover:text-deep-blue dark:hover:text-electric-blue transition-colors duration-200 font-medium cursor-pointer text-sm"
                 onMouseEnter={() => setActiveDropdown('product')}
               >
                 Products
               </div>
               
               {activeDropdown === 'product' && (
-                <div 
-                  className="absolute top-full left-0 mt-2 w-80 bg-white dark:bg-graphite rounded-xl shadow-2xl border border-gray-200 dark:border-deep-slate px-6 py-6 z-50"
+                <div
+                  className="absolute top-full left-0 mt-2 w-[420px] bg-white dark:bg-slate-800 rounded-xl shadow-2xl border border-gray-200 dark:border-slate-700 px-6 py-6 z-50 animate-dropdown-in"
                   onMouseEnter={() => setActiveDropdown('product')}
                   onMouseLeave={() => setActiveDropdown(null)}
                 >
-                  {/* Products Heading */}
+                  {/* Intelligence Pillars */}
                   <div className="mb-4">
-                    <h3 className="text-[14px] font-bold text-[#595F6F] dark:text-gray-400 uppercase tracking-[0.4px] leading-[1.4] mb-3">
-                      Products
+                    <h3 className="eyebrow text-slate-500 dark:text-gray-400 mb-3">
+                      Intelligence
                     </h3>
-                    <div className="space-y-3">
-                      {products.map((product) => (
+                    <div className="grid grid-cols-2 gap-1">
+                      {pillars.map((pillar) => (
                         <Link
-                          key={product.name}
-                          href={product.href}
-                          className="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-deep-slate transition-colors duration-200"
+                          key={pillar.name}
+                          href={pillar.href}
+                          className="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors duration-200"
                           onClick={() => setActiveDropdown(null)}
                         >
-                          <div className="font-semibold text-[#0A0A0A] dark:text-white text-[15px] leading-[1.4] mb-1">
-                            {product.name}
+                          <div className="font-semibold text-gray-900 dark:text-white text-sm leading-snug mb-0.5">
+                            {pillar.name}
                           </div>
-                          <div className="text-[13px] text-[#6B7280] dark:text-gray-300 leading-[1.5]">
-                            {product.description}
+                          <div className="text-xs text-gray-500 dark:text-gray-400 leading-snug">
+                            {pillar.description}
                           </div>
                         </Link>
                       ))}
@@ -307,24 +290,46 @@ const Navbar = () => {
                   </div>
 
                   {/* Separator */}
-                  <div className="border-t border-gray-200 dark:border-deep-slate my-4"></div>
+                  <div className="border-t border-gray-200 dark:border-slate-700 my-4"></div>
 
-                  {/* Bottom Links */}
-                  <div className="space-y-2">
-                    <Link
-                      href="/report-vs-core"
-                      className="block py-2 px-3 rounded-lg hover:bg-gray-50 dark:hover:bg-deep-slate transition-colors duration-200 text-[14px] font-medium text-[#0A0A0A] dark:text-white"
-                      onClick={() => setActiveDropdown(null)}
-                    >
-                      Compare Options →
-                    </Link>
-                    <a
-                      href={REPORT_APP_URL}
-                      className="block py-2 px-3 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors duration-200 text-[14px] font-semibold text-blue-600 dark:text-blue-400"
-                      onClick={() => setActiveDropdown(null)}
-                    >
-                      Start Free →
-                    </a>
+                  {/* Plans */}
+                  <div>
+                    <h3 className="eyebrow text-slate-500 dark:text-gray-400 mb-3">
+                      Plans
+                    </h3>
+                    <div className="grid grid-cols-2 gap-1 mb-3">
+                      {plans.map((plan) => (
+                        <Link
+                          key={plan.name}
+                          href={plan.href}
+                          className="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors duration-200"
+                          onClick={() => setActiveDropdown(null)}
+                        >
+                          <div className="font-semibold text-gray-900 dark:text-white text-sm leading-snug mb-0.5">
+                            {plan.name}
+                          </div>
+                          <div className="text-xs text-gray-500 dark:text-gray-400 leading-snug">
+                            {plan.description}
+                          </div>
+                        </Link>
+                      ))}
+                    </div>
+                    <div className="flex items-center gap-4 px-3">
+                      <Link
+                        href="/report-vs-core"
+                        className="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-electric-blue transition-colors"
+                        onClick={() => setActiveDropdown(null)}
+                      >
+                        Compare Plans →
+                      </Link>
+                      <a
+                        href={REPORT_APP_URL}
+                        className="text-sm font-semibold text-blue-600 dark:text-blue-400 hover:text-blue-700 transition-colors"
+                        onClick={() => setActiveDropdown(null)}
+                      >
+                        Start Free →
+                      </a>
+                    </div>
                   </div>
                 </div>
               )}
@@ -333,160 +338,57 @@ const Navbar = () => {
             {/* Solutions Mega Menu */}
             <div className="relative group">
               <div
-                className="text-[#1A1A1A] dark:text-white hover:text-[#0A1E8C] dark:hover:text-electric-blue transition-colors duration-200 font-medium cursor-pointer text-[15px]"
+                className="text-gray-900 dark:text-white hover:text-deep-blue dark:hover:text-electric-blue transition-colors duration-200 font-medium cursor-pointer text-sm"
                 onMouseEnter={() => setActiveDropdown('solutions')}
               >
                 Solutions
               </div>
               
               {activeDropdown === 'solutions' && (
-                <div 
-                  className="absolute top-full left-0 mt-2 w-80 bg-white dark:bg-graphite rounded-xl shadow-2xl border border-gray-200 dark:border-deep-slate px-6 py-6 z-50"
+                <div
+                  className="absolute top-full left-0 mt-2 w-[420px] bg-white dark:bg-slate-800 rounded-xl shadow-2xl border border-gray-200 dark:border-slate-700 px-6 py-6 z-50 animate-dropdown-in"
                   onMouseEnter={() => setActiveDropdown('solutions')}
                   onMouseLeave={() => setActiveDropdown(null)}
                 >
                   {/* Segments */}
-                  <div className="mb-6">
-                    <h3 className="text-[14px] font-bold text-[#595F6F] dark:text-gray-400 uppercase tracking-[0.4px] leading-[1.4] pt-4 first:pt-0 mb-2">
-                      Segments
+                  <div className="mb-4">
+                    <h3 className="eyebrow text-slate-500 dark:text-gray-400 mb-3">
+                      By Segment
                     </h3>
-                    <div className="space-y-2">
+                    <div className="grid grid-cols-2 gap-1">
                       {solutionsSegments.map((solution) => (
                         <Link
                           key={solution.name}
                           href={solution.href}
-                          className="block py-2 px-3 rounded-lg hover:bg-gray-50 dark:hover:bg-deep-slate transition-colors duration-200 text-[15px] font-semibold text-[#0A0A0A] dark:text-white leading-[1.4]"
+                          className="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors duration-200"
                           onClick={() => setActiveDropdown(null)}
                         >
-                          {solution.name}
+                          <div className="font-semibold text-gray-900 dark:text-white text-sm leading-snug">
+                            {solution.name}
+                          </div>
                         </Link>
                       ))}
                     </div>
                   </div>
 
+                  {/* Separator */}
+                  <div className="border-t border-gray-200 dark:border-slate-700 my-4"></div>
+
                   {/* Roles */}
                   <div>
-                    <h3 className="text-[14px] font-bold text-[#595F6F] dark:text-gray-400 uppercase tracking-[0.4px] leading-[1.4] pt-4 mb-2">
-                      Roles
+                    <h3 className="eyebrow text-slate-500 dark:text-gray-400 mb-3">
+                      By Role
                     </h3>
-                    <div className="space-y-2">
+                    <div className="grid grid-cols-2 gap-1">
                       {solutionsRoles.map((solution) => (
                         <Link
                           key={solution.name}
                           href={solution.href}
-                          className="block py-2 px-3 rounded-lg hover:bg-gray-50 dark:hover:bg-deep-slate transition-colors duration-200 text-[15px] font-semibold text-[#0A0A0A] dark:text-white leading-[1.4]"
+                          className="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors duration-200"
                           onClick={() => setActiveDropdown(null)}
                         >
-                          {solution.name}
-                        </Link>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              )}
-            </div>
-
-            {/* Architecture Mega Menu */}
-            <div className="relative group">
-              <div
-                className="text-[#1A1A1A] dark:text-white hover:text-[#0A1E8C] dark:hover:text-electric-blue transition-colors duration-200 font-medium cursor-pointer text-[15px]"
-                onMouseEnter={() => setActiveDropdown('architecture')}
-              >
-                Architecture
-              </div>
-              
-              {activeDropdown === 'architecture' && (
-                <div 
-                  className="absolute top-full left-0 mt-2 w-96 bg-white dark:bg-graphite rounded-xl shadow-2xl border border-gray-200 dark:border-deep-slate px-6 py-6 z-50"
-                  onMouseEnter={() => setActiveDropdown('architecture')}
-                  onMouseLeave={() => setActiveDropdown(null)}
-                >
-                  {/* Architecture Overview Button */}
-                  <Link
-                    href="/architecture"
-                    className="block p-4 mb-6 rounded-xl bg-gradient-to-r from-electric-blue to-blue-600 hover:from-blue-600 hover:to-electric-blue transition-all duration-200 shadow-md hover:shadow-lg"
-                    onClick={() => setActiveDropdown(null)}
-                  >
-                    <div className="font-bold text-white text-[16px] mb-1">
-                      View Architecture Overview
-                    </div>
-                    <div className="text-[14px] text-white/90">
-                      See how all layers work together
-                    </div>
-                  </Link>
-
-                  {/* Data Layer */}
-                  <div className="mb-5">
-                    <h3 className="text-[14px] font-bold text-[#595F6F] dark:text-gray-400 uppercase tracking-[0.4px] leading-[1.4] pt-4 first:pt-0 mb-2">
-                      Data Layer
-                    </h3>
-                    <div className="space-y-2">
-                      {dataLayer.map((module) => (
-                        <Link
-                          key={module.name}
-                          href={module.href}
-                          className="flex items-start py-2 px-3 rounded-lg hover:bg-gray-50 dark:hover:bg-deep-slate transition-colors duration-200"
-                          onClick={() => setActiveDropdown(null)}
-                        >
-                          <div>
-                            <div className="font-semibold text-[#0A0A0A] dark:text-white text-[15px] leading-[1.4]">
-                              {module.name}
-                            </div>
-                            <div className="text-[14px] text-[#6B7280] dark:text-gray-300 leading-[1.5]">
-                              {module.description}
-                            </div>
-                          </div>
-                        </Link>
-                      ))}
-                    </div>
-                  </div>
-
-                  {/* AI Layer */}
-                  <div className="mb-5">
-                    <h3 className="text-[14px] font-bold text-[#595F6F] dark:text-gray-400 uppercase tracking-[0.4px] leading-[1.4] pt-4 mb-2">
-                      AI Layer
-                    </h3>
-                    <div className="space-y-2">
-                      {aiLayer.map((module) => (
-                        <Link
-                          key={module.name}
-                          href={module.href}
-                          className="flex items-start py-2 px-3 rounded-lg hover:bg-gray-50 dark:hover:bg-deep-slate transition-colors duration-200"
-                          onClick={() => setActiveDropdown(null)}
-                        >
-                          <div>
-                            <div className="font-semibold text-[#0A0A0A] dark:text-white text-[15px] leading-[1.4]">
-                              {module.name}
-                            </div>
-                            <div className="text-[14px] text-[#6B7280] dark:text-gray-300 leading-[1.5]">
-                              {module.description}
-                            </div>
-                          </div>
-                        </Link>
-                      ))}
-                    </div>
-                  </div>
-
-                  {/* Intelligence Layer */}
-                  <div>
-                    <h3 className="text-[14px] font-bold text-[#595F6F] dark:text-gray-400 uppercase tracking-[0.4px] leading-[1.4] pt-4 mb-2">
-                      Intelligence Layer
-                    </h3>
-                    <div className="space-y-2">
-                      {intelligenceLayer.map((module) => (
-                        <Link
-                          key={module.name}
-                          href={module.href}
-                          className="flex items-start py-2 px-3 rounded-lg hover:bg-gray-50 dark:hover:bg-deep-slate transition-colors duration-200"
-                          onClick={() => setActiveDropdown(null)}
-                        >
-                          <div>
-                            <div className="font-semibold text-[#0A0A0A] dark:text-white text-[15px] leading-[1.4]">
-                              {module.name}
-                            </div>
-                            <div className="text-[14px] text-[#6B7280] dark:text-gray-300 leading-[1.5]">
-                              {module.description}
-                            </div>
+                          <div className="font-semibold text-gray-900 dark:text-white text-sm leading-snug">
+                            {solution.name}
                           </div>
                         </Link>
                       ))}
@@ -495,39 +397,44 @@ const Navbar = () => {
                 </div>
               )}
             </div>
-            
-            <a href={PRICING_URL} className="text-[#1A1A1A] dark:text-white hover:text-[#0A1E8C] dark:hover:text-electric-blue transition-colors duration-200 font-medium text-[15px]">
+
+            <a href={PRICING_URL} className="text-gray-900 dark:text-white hover:text-deep-blue dark:hover:text-electric-blue transition-colors duration-200 font-medium text-sm">
               Pricing
             </a>
             
-            <Link href="/about" className="text-[#1A1A1A] dark:text-white hover:text-[#0A1E8C] dark:hover:text-electric-blue transition-colors duration-200 font-medium text-[15px]">
+            <Link href="/about" className="text-gray-900 dark:text-white hover:text-deep-blue dark:hover:text-electric-blue transition-colors duration-200 font-medium text-sm">
               About
             </Link>
             
             {/* Resources Dropdown */}
             <div className="relative group">
               <div
-                className="text-[#1A1A1A] dark:text-white hover:text-[#0A1E8C] dark:hover:text-electric-blue transition-colors duration-200 font-medium cursor-pointer text-[15px]"
+                className="text-gray-900 dark:text-white hover:text-deep-blue dark:hover:text-electric-blue transition-colors duration-200 font-medium cursor-pointer text-sm"
                 onMouseEnter={() => setActiveDropdown('resources')}
               >
                 Resources
               </div>
               
               {activeDropdown === 'resources' && (
-                <div 
-                  className="absolute top-full left-0 mt-2 w-64 bg-white dark:bg-graphite rounded-xl shadow-2xl border border-gray-200 dark:border-deep-slate px-6 py-6 z-50"
+                <div
+                  className="absolute top-full left-0 mt-2 w-[240px] bg-white dark:bg-slate-800 rounded-xl shadow-2xl border border-gray-200 dark:border-slate-700 px-6 py-6 z-50 animate-dropdown-in"
                   onMouseEnter={() => setActiveDropdown('resources')}
                   onMouseLeave={() => setActiveDropdown(null)}
                 >
-                  <div className="space-y-2">
+                  <h3 className="eyebrow text-slate-500 dark:text-gray-400 mb-3">
+                    Learn
+                  </h3>
+                  <div className="space-y-1">
                     {resources.map((resource) => (
                       <Link
                         key={resource.name}
                         href={resource.href}
-                        className="block py-2 px-3 rounded-lg hover:bg-gray-50 dark:hover:bg-deep-slate transition-colors duration-200 text-[15px] font-semibold text-[#0A0A0A] dark:text-white leading-[1.4]"
+                        className="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors duration-200"
                         onClick={() => setActiveDropdown(null)}
                       >
-                        {resource.name}
+                        <div className="font-semibold text-gray-900 dark:text-white text-sm leading-snug">
+                          {resource.name}
+                        </div>
                       </Link>
                     ))}
                   </div>
@@ -664,21 +571,36 @@ const Navbar = () => {
               isExpanded={expandedSections.product}
               onToggle={() => toggleSection('product')}
             >
-              {products.map((product) => (
+              <div className="px-4 pt-1 pb-1">
+                <span className="eyebrow text-slate-400">Intelligence</span>
+              </div>
+              {pillars.map((pillar) => (
                 <MobileNavLink
-                  key={product.name}
-                  href={product.href}
+                  key={pillar.name}
+                  href={pillar.href}
                   onClick={handleMobileNavClick}
                 >
-                  {product.name}
+                  {pillar.name}
                 </MobileNavLink>
               ))}
               <div className="border-t border-slate-200 dark:border-slate-800 my-2 mx-4"></div>
+              <div className="px-4 pt-1 pb-1">
+                <span className="eyebrow text-slate-400">Plans</span>
+              </div>
+              {plans.map((plan) => (
+                <MobileNavLink
+                  key={plan.name}
+                  href={plan.href}
+                  onClick={handleMobileNavClick}
+                >
+                  {plan.name}
+                </MobileNavLink>
+              ))}
               <MobileNavLink
                 href="/report-vs-core"
                 onClick={handleMobileNavClick}
               >
-                Compare Options →
+                Compare Plans →
               </MobileNavLink>
               <a
                 href={REPORT_APP_URL}
@@ -696,6 +618,9 @@ const Navbar = () => {
               isExpanded={expandedSections.solutions}
               onToggle={() => toggleSection('solutions')}
             >
+              <div className="px-4 pt-1 pb-1">
+                <span className="eyebrow text-slate-400">By Segment</span>
+              </div>
               {solutionsSegments.map((solution) => (
                 <MobileNavLink
                   key={solution.name}
@@ -705,6 +630,10 @@ const Navbar = () => {
                   {solution.name}
                 </MobileNavLink>
               ))}
+              <div className="border-t border-slate-200 dark:border-slate-800 my-2 mx-4"></div>
+              <div className="px-4 pt-1 pb-1">
+                <span className="eyebrow text-slate-400">By Role</span>
+              </div>
               {solutionsRoles.map((solution) => (
                 <MobileNavLink
                   key={solution.name}
@@ -712,31 +641,6 @@ const Navbar = () => {
                   onClick={handleMobileNavClick}
                 >
                   {solution.name}
-                </MobileNavLink>
-              ))}
-            </AccordionSection>
-
-            {/* Architecture Section */}
-            <AccordionSection
-              title="Architecture"
-              id="architecture"
-              isExpanded={expandedSections.architecture}
-              onToggle={() => toggleSection('architecture')}
-            >
-              <MobileNavLink
-                href="/architecture"
-                onClick={handleMobileNavClick}
-                isHighlighted
-              >
-                View Architecture Overview →
-              </MobileNavLink>
-              {architectureModules.map((module) => (
-                <MobileNavLink
-                  key={module.name}
-                  href={module.href}
-                  onClick={handleMobileNavClick}
-                >
-                  {module.name}
                 </MobileNavLink>
               ))}
             </AccordionSection>

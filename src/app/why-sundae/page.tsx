@@ -1,94 +1,114 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 
+export const metadata: Metadata = {
+  title: "Why Sundae",
+  description:
+    "See why leading restaurant groups choose Sundae for Decision Intelligence — unified data, 4D insights, and real-time operational visibility.",
+};
+
+const differentiators: { title: string; description: string; icon: SundaeIconName; color: string }[] = [
+  {
+    title: "11-Domain Data Ingestion",
+    description: "POS, labor, inventory, purchasing, reservations, delivery, marketing, guest experience, CRM, accounting — all unified automatically.",
+    icon: "integration",
+    color: "bg-blue-600"
+  },
+  {
+    title: "4D Intelligence Model",
+    description: "Go beyond reporting. See what happened, how it compares to plan, where you stand in the market, and what to do next.",
+    icon: "intelligence",
+    color: "bg-purple-600"
+  },
+  {
+    title: "Real-Time Operations via Pulse",
+    description: "Intraday monitoring of sales pace, labor, leakage, service speed, stockouts, and menu intelligence — with AI coaching.",
+    icon: "speed",
+    color: "bg-green-600"
+  },
+  {
+    title: "External Intelligence via Watchtower",
+    description: "Track competitor pricing, weather impact on revenue, local events, and receive AI-generated daily and weekly briefings.",
+    icon: "watchtower",
+    color: "bg-red-600"
+  },
+  {
+    title: "Conversational Access",
+    description: "Ask questions in natural language via Chat with Data — on web, Telegram, Slack, or Microsoft Teams.",
+    icon: "forge",
+    color: "bg-orange-600"
+  },
+  {
+    title: "Built for Multi-Location Operators",
+    description: "Multi-tenant architecture with RBAC, portfolio leaderboards, cross-location benchmarking, and multi-currency support.",
+    icon: "multiLocation",
+    color: "bg-teal-600"
+  }
+];
+
+const problems = [
+  {
+    problem: "Fragmented Operational Data",
+    current: "POS, labor, inventory, reservations, and finance scattered across 5-10 different systems with no unified view",
+    solution: "Sundae's Integrations Hub connects 11 data domains into a single intelligence layer",
+    impact: "One source of truth across every location"
+  },
+  {
+    problem: "Reactive Decision-Making",
+    current: "Weekly reports that show what happened — too late to act on lost revenue, labor overruns, or margin erosion",
+    solution: "Pulse monitors operations intraday with real-time alerts, AI coaching, and automated playbooks",
+    impact: "Shift from reactive to proactive management"
+  },
+  {
+    problem: "No Market Context",
+    current: "Internal metrics in isolation — no visibility into competitor activity, weather impact, or local event demand",
+    solution: "Watchtower and Benchmarks add market context to every operational decision",
+    impact: "Decisions informed by internal and external signals"
+  }
+];
+
 export default function WhySundaePage() {
-  const differentiators: { title: string; description: string; icon: SundaeIconName; color: string }[] = [
-    {
-      title: "Horizontal Workforce Intelligence + Vertical Hospitality Expertise",
-      description: "Built by operators, for operators. Not generic HR software — industry-specific workforce intelligence.",
-      icon: "restaurant",
-      color: "bg-blue-600"
-    },
-    {
-      title: "Deep Learning & Certification Engine",
-      description: "AI-driven SOP ingestion, auto-generated training programs, dynamic testing, and tiered certifications.",
-      icon: "document",
-      color: "bg-green-600"
-    },
-    {
-      title: "Enterprise-ready MCP Connectors",
-      description: "Unified data fabric with real-time dashboards. POS, HRIS, ERP, payroll, loyalty, procurement integrations.",
-      icon: "integration",
-      color: "bg-purple-600"
-    },
-    {
-      title: "Three-sided Ecosystem",
-      description: "Restaurants run operations, crew builds verified career profiles, service providers access marketplace.",
-      icon: "multiLocation",
-      color: "bg-orange-600"
-    },
-    {
-      title: "Proven with Global Brands",
-      description: "35-brand groups, 500+ hotel restaurants, 125-location franchises, enterprise clients 25-150 units.",
-      icon: "franchise",
-      color: "bg-teal-600"
-    }
-  ];
-
-  const problems = [
-    {
-      problem: "Fragmented Workforce Data",
-      current: "Scheduling, payroll, hiring, training scattered across 5-10 different tools",
-      solution: "Sundae unifies everything into one intelligent operating system",
-      impact: "Single source of truth, 3x faster decision-making"
-    },
-    {
-      problem: "High Turnover + Inconsistent Training",
-      current: "Manual onboarding, paper-based training, no standardized skill progression",
-      solution: "AI converts SOPs into interactive training with tiered certifications",
-      impact: "35% reduction in turnover, 98% training compliance"
-    },
-    {
-      problem: "Lack of Real-Time Insights",
-      current: "Weekly reports, reactive management, no predictive workforce intelligence",
-      solution: "Instant AI-driven insights guide daily operational decisions",
-      impact: "Proactive workforce management, optimized labor costs"
-    }
-  ];
-
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50 dark:from-slate-950 dark:via-slate-950 dark:to-slate-900">
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="hero-h1 text-gray-900 mb-6">
+          <h1 className="hero-h1 text-gray-900 dark:text-white mb-6">
             Why Leading Restaurant Groups
             <br />
-            <span className="text-blue-600">Choose Sundae</span>
+            <span className="text-gradient">Choose Sundae</span>
           </h1>
-          <p className="body-xl text-gray-600 mb-8 max-w-4xl mx-auto">
-            We're creating a new category: Workforce Intelligence & Decision OS for Hospitality. 
-            Built by operators, for operators, with proven results across global brands.
+          <p className="body-xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
+            Decision Intelligence that unifies your data, monitors your operations in real time,
+            and tells your team exactly what to do next.
           </p>
-          <Link href="/demo">
-            <Button variant="primary" size="lg">
-              See Why Sundae Works
-            </Button>
-          </Link>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/demo">
+              <Button variant="primary" size="lg">
+                Book a Demo
+              </Button>
+            </Link>
+            <Link href="/report">
+              <Button variant="outline" size="lg">
+                Start Free
+              </Button>
+            </Link>
+          </div>
         </div>
       </section>
 
       {/* Three Biggest Problems Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
-              Hospitality's Three Biggest Workforce Problems
+            <h2 className="section-h2 text-gray-900 dark:text-white mb-4">
+              Three Problems Every Operator Faces
             </h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              And how Sundae solves them with workforce intelligence
+            <p className="body-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+              And how Sundae solves each one
             </p>
           </div>
 
@@ -96,28 +116,28 @@ export default function WhySundaePage() {
             {problems.map((item, index) => (
               <div key={item.problem} className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
                 <div className={`lg:col-span-1 ${index % 2 === 0 ? 'lg:order-1' : 'lg:order-3'}`}>
-                  <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-lg">
-                    <h3 className="text-lg font-semibold text-red-900 mb-3">{item.problem}</h3>
-                    <p className="text-red-700 text-sm mb-4">{item.current}</p>
-                    <div className="text-xs text-red-600 font-medium">CURRENT STATE</div>
+                  <div className="bg-red-50 dark:bg-red-950/30 border-l-4 border-red-500 p-6 rounded-lg">
+                    <h3 className="text-lg font-semibold text-red-900 dark:text-red-300 mb-3">{item.problem}</h3>
+                    <p className="text-red-700 dark:text-red-400 text-sm mb-4">{item.current}</p>
+                    <div className="text-xs text-red-600 dark:text-red-500 font-medium">THE PROBLEM</div>
                   </div>
                 </div>
-                
-                <div className={`lg:col-span-1 ${index % 2 === 0 ? 'lg:order-2' : 'lg:order-2'}`}>
+
+                <div className="lg:col-span-1 lg:order-2">
                   <div className="text-center">
                     <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-4">
-                      →
+                      &rarr;
                     </div>
-                    <h4 className="font-semibold text-gray-900 mb-2">Sundae Solution</h4>
-                    <p className="text-gray-600 text-sm">{item.solution}</p>
+                    <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Sundae Solution</h4>
+                    <p className="text-gray-600 dark:text-gray-400 text-sm">{item.solution}</p>
                   </div>
                 </div>
-                
+
                 <div className={`lg:col-span-1 ${index % 2 === 0 ? 'lg:order-3' : 'lg:order-1'}`}>
-                  <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-lg">
-                    <h3 className="text-lg font-semibold text-green-900 mb-3">Result</h3>
-                    <p className="text-green-700 text-sm mb-4">{item.impact}</p>
-                    <div className="text-xs text-green-600 font-medium">MEASURABLE IMPACT</div>
+                  <div className="bg-green-50 dark:bg-green-950/30 border-l-4 border-green-500 p-6 rounded-lg">
+                    <h3 className="text-lg font-semibold text-green-900 dark:text-green-300 mb-3">Result</h3>
+                    <p className="text-green-700 dark:text-green-400 text-sm mb-4">{item.impact}</p>
+                    <div className="text-xs text-green-600 dark:text-green-500 font-medium">THE OUTCOME</div>
                   </div>
                 </div>
               </div>
@@ -127,30 +147,30 @@ export default function WhySundaePage() {
       </section>
 
       {/* Differentiators Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-slate-950">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
+            <h2 className="section-h2 text-gray-900 dark:text-white mb-4">
               What Makes Sundae Different
             </h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Our unique competitive moat in workforce intelligence and hospitality technology
+            <p className="body-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+              Purpose-built for restaurant and hospitality operators
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {differentiators.map((item, index) => (
+            {differentiators.map((item) => (
               <Card key={item.title} variant="elevated">
                 <CardHeader>
                   <div className="flex items-center space-x-4">
                     <div className={`w-12 h-12 ${item.color} rounded-lg flex items-center justify-center text-white`}>
                       <SundaeIcon name={item.icon} size="lg" className="text-white" />
                     </div>
-                    <CardTitle className="text-gray-900 text-lg">{item.title}</CardTitle>
+                    <CardTitle className="text-gray-900 dark:text-white text-lg">{item.title}</CardTitle>
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-gray-600">
+                  <CardDescription className="text-gray-600 dark:text-gray-400">
                     {item.description}
                   </CardDescription>
                 </CardContent>
@@ -160,35 +180,34 @@ export default function WhySundaePage() {
         </div>
       </section>
 
-      {/* Category Creation Section */}
+      {/* How It Compares */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="section-h2 mb-8">
-            Creating the Category: Workforce Intelligence & Decision OS
+            Beyond Traditional Dashboards
           </h2>
           <p className="body-xl mb-12 max-w-3xl mx-auto opacity-90">
-            Just as Salesforce created CRM and ServiceNow created ITSM, Sundae is creating 
-            Workforce Intelligence for hospitality and retail.
+            Traditional BI shows you what happened. Sundae shows you what to do next.
           </p>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {([
               {
-                title: "Old Way",
-                items: ["Generic HR tools", "Scattered data", "Reactive management", "Manual processes"],
+                title: "Traditional BI",
+                items: ["Historical reporting", "Manual data pulls", "Siloed metrics", "Reactive management"],
                 icon: "warning" as SundaeIconName
               },
               {
-                title: "The Shift",
-                items: ["Industry-specific needs", "Unified intelligence", "Predictive insights", "Automated workflows"],
+                title: "Generic Analytics",
+                items: ["Multi-source dashboards", "Scheduled reports", "Basic alerting", "No industry context"],
                 icon: "sync" as SundaeIconName
               },
               {
-                title: "New Way (Sundae)",
-                items: ["Workforce intelligence", "Real-time decisions", "Proactive management", "AI-powered operations"],
+                title: "Sundae",
+                items: ["4D Intelligence Model", "Real-time Pulse monitoring", "Market context via Watchtower", "AI-powered recommendations"],
                 icon: "speed" as SundaeIconName
               }
-            ]).map((section, index) => (
+            ]).map((section) => (
               <div key={section.title} className="text-center">
                 <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
                   <SundaeIcon name={section.icon} size="xl" className="text-white" />
@@ -205,115 +224,53 @@ export default function WhySundaePage() {
         </div>
       </section>
 
-      {/* Evidence Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      {/* Who It's For */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
-              Proven with Global Brands
+            <h2 className="section-h2 text-gray-900 dark:text-white mb-4">
+              Built for Every Role in the Organization
             </h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Already in POC with leading restaurant groups and hospitality brands
-            </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
-            {([
-              { metric: "35+", label: "Brand Groups", icon: "multiLocation" as SundaeIconName },
-              { metric: "500+", label: "Hotel Restaurants", icon: "restaurant" as SundaeIconName },
-              { metric: "125+", label: "Location Franchises", icon: "franchise" as SundaeIconName },
-              { metric: "25-150", label: "Unit Range", icon: "benchmarking" as SundaeIconName }
-            ]).map((stat, index) => (
-              <div key={stat.label} className="text-center">
-                <div className="text-4xl font-bold text-blue-600 mb-2">{stat.metric}</div>
-                <div className="w-10 h-10 mx-auto mb-2 bg-blue-100 rounded-lg flex items-center justify-center">
-                  <SundaeIcon name={stat.icon} size="md" className="text-blue-600" />
-                </div>
-                <p className="text-sm text-gray-600 font-medium">{stat.label}</p>
-              </div>
-            ))}
-          </div>
-
-          <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8">
-            <div className="text-center mb-6">
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">Early Adopter Results</h3>
-              <p className="text-gray-600">Average improvements across our POC clients</p>
-            </div>
-            
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-              {[
-                { metric: "35%", label: "Turnover Reduction", trend: "↓" },
-                { metric: "50%", label: "Faster Onboarding", trend: "↓" },
-                { metric: "98%", label: "Training Compliance", trend: "↑" },
-                { metric: "18%", label: "Labor Cost Savings", trend: "↓" }
-              ].map((result, index) => (
-                <div key={result.label} className="text-center bg-white rounded-lg p-4">
-                  <div className="text-2xl font-bold text-green-600 mb-1">{result.metric}</div>
-                  <div className="text-xs text-gray-600">{result.label}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Three-sided Ecosystem Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
-              Three-Sided Ecosystem
-            </h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              How restaurants, crew, and service providers interact to create value for everyone
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {([
               {
-                title: "Restaurants",
-                description: "Run operations with unified workforce intelligence",
-                benefits: ["Multi-location management", "Real-time insights", "Standardized training", "Reduced turnover"],
+                title: "Operations Leaders",
+                description: "Real-time visibility into every location via Pulse and Portfolio",
                 icon: "multiLocation" as SundaeIconName,
                 color: "bg-blue-600"
               },
               {
-                title: "Crew Members",
-                description: "Build verified career profiles with skills and achievements",
-                benefits: ["Career mobility", "Verified skills", "Professional development", "Industry recognition"],
-                icon: "support" as SundaeIconName,
+                title: "Finance & FP&A",
+                description: "Benchmarking, forecasting, and margin intelligence across the group",
+                icon: "benchmarking" as SundaeIconName,
                 color: "bg-green-600"
               },
               {
-                title: "Service Providers",
-                description: "Access marketplace and revenue share opportunities",
-                benefits: ["Marketplace access", "Revenue sharing", "Verified partnerships", "Scale opportunities"],
-                icon: "network" as SundaeIconName,
+                title: "C-Suite & Owners",
+                description: "Portfolio-level dashboards, AI briefs, and strategic decision views",
+                icon: "intelligence" as SundaeIconName,
                 color: "bg-purple-600"
+              },
+              {
+                title: "Technology Teams",
+                description: "Public API, webhooks, 11-domain integrations, and RBAC controls",
+                icon: "integration" as SundaeIconName,
+                color: "bg-orange-600"
               }
-            ]).map((stakeholder, index) => (
-              <Card key={stakeholder.title} variant="elevated">
+            ]).map((role) => (
+              <Card key={role.title} variant="elevated">
                 <CardHeader>
                   <div className="text-center">
-                    <div className={`w-16 h-16 ${stakeholder.color} rounded-full flex items-center justify-center text-white mx-auto mb-4`}>
-                      <SundaeIcon name={stakeholder.icon} size="xl" className="text-white" />
+                    <div className={`w-14 h-14 ${role.color} rounded-full flex items-center justify-center text-white mx-auto mb-4`}>
+                      <SundaeIcon name={role.icon} size="lg" className="text-white" />
                     </div>
-                    <CardTitle className="text-gray-900">{stakeholder.title}</CardTitle>
-                    <CardDescription className="text-gray-600">
-                      {stakeholder.description}
-                    </CardDescription>
+                    <CardTitle className="text-gray-900 dark:text-white text-lg">{role.title}</CardTitle>
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <ul className="space-y-2">
-                    {stakeholder.benefits.map((benefit, idx) => (
-                      <li key={idx} className="flex items-center space-x-2">
-                        <span className="text-green-500">✓</span>
-                        <span className="text-sm text-gray-600">{benefit}</span>
-                      </li>
-                    ))}
-                  </ul>
+                  <p className="text-sm text-gray-600 dark:text-gray-400 text-center">{role.description}</p>
                 </CardContent>
               </Card>
             ))}
@@ -325,17 +282,23 @@ export default function WhySundaePage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 mb-6">
-            Join the Workforce Intelligence Revolution
+            See Sundae in Action
           </h2>
-          <p className="body-xl mb-8">
-            Be part of the restaurants and hospitality brands already transforming 
-            their workforce operations with Sundae.
+          <p className="body-xl mb-8 opacity-90">
+            Book a demo to see how Decision Intelligence can transform your restaurant operations.
           </p>
-          <Link href="/demo">
-            <Button variant="secondary" size="lg">
-              See Why Sundae Works
-            </Button>
-          </Link>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/demo">
+              <Button variant="secondary" size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+                Book a Demo
+              </Button>
+            </Link>
+            <Link href="/report">
+              <Button variant="outline-light" size="lg">
+                Start Free with Report
+              </Button>
+            </Link>
+          </div>
         </div>
       </section>
     </div>

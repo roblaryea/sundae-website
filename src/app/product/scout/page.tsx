@@ -187,7 +187,7 @@ export default function ScoutPage() {
               </Button>
             </Link>
             <Link href="/product">
-              <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
+              <Button variant="outline-light" size="lg">
                 View All Modules
               </Button>
             </Link>
