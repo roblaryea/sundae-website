@@ -355,6 +355,7 @@ export default function HomeContent() {
                   "AI Shift Coach",
                   "Alerts & Playbooks",
                   "Shift Scorecard",
+                  "Portfolio Leaderboard",
                   "Wallboard Mode"
                 ].map((feature) => (
                   <div key={feature} className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300">

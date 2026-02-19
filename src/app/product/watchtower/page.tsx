@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { BrowserFrame } from "@/components/ui/BrowserFrame";
 import { useCta } from "@/lib/cta";
+import { PRICING_URL } from "@/lib/urls";
 
 const featureBlocks: { title: string; headline: string; description: string; capabilities: string[]; icon: SundaeIconName; color: string }[] = [
   {
@@ -121,8 +122,13 @@ export default function WatchtowerPage() {
               <strong>Available on Core tiers.</strong> Choose individual intelligence types or the full Watchtower bundle.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
+              <a href={PRICING_URL} target="_blank" rel="noopener noreferrer">
+                <Button variant="primary" size="lg">
+                  Add Watchtower
+                </Button>
+              </a>
               <Button
-                variant="primary"
+                variant="outline"
                 size="lg"
                 onClick={() => cta("/demo", "book_demo_watchtower", { page: "/product/watchtower" })}
               >
@@ -333,22 +339,49 @@ export default function WatchtowerPage() {
           <p className="body-lg mb-8 opacity-90 max-w-3xl mx-auto">
             See your business in full market context. Never be caught off guard again.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
-              variant="secondary"
-              size="lg"
-              className="bg-white text-deep-blue hover:bg-gray-100"
-              onClick={() => cta("/demo", "book_demo_watchtower_cta", { page: "/product/watchtower" })}
-            >
-              Book a Demo
-            </Button>
-            <Button
-              variant="outline-light"
-              size="lg"
-              onClick={() => cta("/contact", "contact_watchtower_sales", { page: "/product/watchtower" })}
-            >
-              Contact Sales
-            </Button>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            <div className="p-6 bg-white rounded-xl shadow-sm">
+              <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-3">
+                <SundaeIcon name="cost" size="lg" className="text-white" />
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-2">Add to Your Plan</h3>
+              <p className="text-sm text-gray-600 mb-4">See Watchtower pricing for your operation</p>
+              <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
+                <Button variant="primary" size="md" className="w-full">
+                  Add Watchtower →
+                </Button>
+              </a>
+            </div>
+            <div className="p-6 bg-white rounded-xl shadow-sm">
+              <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-3">
+                <SundaeIcon name="visibility" size="lg" className="text-white" />
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-2">See It in Action</h3>
+              <p className="text-sm text-gray-600 mb-4">Watch Watchtower demo video</p>
+              <Button
+                variant="outline"
+                size="md"
+                className="w-full"
+                onClick={() => cta("/demo", "watch_watchtower_demo", { page: "/product/watchtower" })}
+              >
+                Watch Demo →
+              </Button>
+            </div>
+            <div className="p-6 bg-white rounded-xl shadow-sm">
+              <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
+                <SundaeIcon name="conversation" size="lg" className="text-white" />
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-2">Talk to Sales</h3>
+              <p className="text-sm text-gray-600 mb-4">Custom Watchtower configuration</p>
+              <Button
+                variant="outline"
+                size="md"
+                className="w-full"
+                onClick={() => cta("/contact", "contact_watchtower_sales", { page: "/product/watchtower" })}
+              >
+                Contact Sales →
+              </Button>
+            </div>
           </div>
         </div>
       </section>

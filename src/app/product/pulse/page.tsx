@@ -6,6 +6,7 @@ import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { BrowserFrame } from "@/components/ui/BrowserFrame";
 import { useCta } from "@/lib/cta";
 import { REPORT_APP_URL } from "@/lib/urls";
+
 const pulseFeatureBlocks: { title: string; headline: string; description: string; capabilities: string[]; icon: SundaeIconName; screenshot?: string }[] = [
   {
     title: "Adaptive Intelligence Targets",
@@ -88,6 +89,45 @@ const pulseFeatureBlocks: { title: string; headline: string; description: string
     ],
     icon: "intelligence",
     screenshot: "/images/product/pulse_coach.png"
+  },
+  {
+    title: "Alerts & Playbooks",
+    headline: "Automated Responses When It Matters",
+    description: "Automated response workflows triggered by exceptions. Define thresholds, get notified, act fast.",
+    capabilities: [
+      "Custom threshold-based alert triggers",
+      "Automated notification workflows",
+      "Configurable playbooks per exception type",
+      "Real-time escalation paths"
+    ],
+    icon: "forecasting",
+    screenshot: "/images/product/pulse-alerts.png"
+  },
+  {
+    title: "Shift Scorecard",
+    headline: "End-of-Shift Performance Summary",
+    description: "End-of-shift summary with KPIs, highlights, and areas for improvement across every outlet.",
+    capabilities: [
+      "KPI summary across all outlets",
+      "Shift highlights and lowlights",
+      "Improvement areas auto-detected",
+      "Shareable shift report"
+    ],
+    icon: "report",
+    screenshot: "/images/product/pulse-scorecard.png"
+  },
+  {
+    title: "Portfolio Leaderboard",
+    headline: "Compare Every Outlet, Live",
+    description: "Multi-outlet performance comparison with streak tracking and competitive ranking across locations.",
+    capabilities: [
+      "Cross-outlet performance ranking",
+      "Streak tracking and trend indicators",
+      "Competitive leaderboard view",
+      "Drill-down into individual outlet metrics"
+    ],
+    icon: "multiLocation",
+    screenshot: "/images/product/pulse-leaderboard.png"
   },
   {
     title: "Wallboard Mode",
@@ -212,7 +252,7 @@ export default function PulsePage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.05 }}
-                className={`grid md:grid-cols-2 gap-8 items-center`}
+                className={`grid md:grid-cols-2 gap-8 items-center ${index % 2 === 1 ? "md:flex-row-reverse" : ""}`}
               >
                 <div className={index % 2 === 1 ? "md:order-2" : ""}>
                   <div className="flex items-center gap-3 mb-3">
