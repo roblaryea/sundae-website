@@ -270,9 +270,9 @@ export default function CanvasPage() {
           {/* Dashboard Preview Cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
-              { title: "Sales Analytics", color: "from-blue-500 to-blue-600", icon: "📊" },
-              { title: "Cost Intelligence", color: "from-purple-500 to-purple-600", icon: "💰" },
-              { title: "Guest Insights", color: "from-green-500 to-green-600", icon: "👥" }
+              { title: "Sales Analytics", color: "from-blue-500 to-blue-600", icon: "chart" as SundaeIconName },
+              { title: "Cost Intelligence", color: "from-purple-500 to-purple-600", icon: "finance" as SundaeIconName },
+              { title: "Guest Insights", color: "from-green-500 to-green-600", icon: "hr" as SundaeIconName }
             ].map((dash, i) => (
               <motion.div
                 key={i}
@@ -281,7 +281,9 @@ export default function CanvasPage() {
                 transition={{ duration: 0.5, delay: 0.2 + (i * 0.1) }}
                 className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300"
               >
-                <div className="text-4xl mb-3">{dash.icon}</div>
+                <div className="w-12 h-12 mb-3 bg-gradient-to-br from-white/20 to-white/10 rounded-lg flex items-center justify-center">
+                  <SundaeIcon name={dash.icon} size="lg" className="text-white" />
+                </div>
                 <h3 className="text-lg font-bold text-white mb-2">{dash.title}</h3>
                 <div className={`h-24 bg-gradient-to-br ${dash.color} rounded-lg opacity-60 flex items-center justify-center`}>
                   <span className="text-white/80 text-xs font-medium">Interactive Dashboard</span>
@@ -301,15 +303,15 @@ export default function CanvasPage() {
             </p>
             <div className="flex flex-wrap justify-center gap-8 text-sm text-gray-500">
               <div className="flex items-center space-x-2">
-                <span className="text-2xl">⚡</span>
+                <SundaeIcon name="speed" size="md" className="text-blue-600" />
                 <span className="font-semibold">3x faster decisions</span>
               </div>
               <div className="flex items-center space-x-2">
-                <span className="text-2xl">💰</span>
+                <SundaeIcon name="finance" size="md" className="text-blue-600" />
                 <span className="font-semibold">$50K+ variance detected per site annually</span>
               </div>
               <div className="flex items-center space-x-2">
-                <span className="text-2xl">📊</span>
+                <SundaeIcon name="chart" size="md" className="text-blue-600" />
                 <span className="font-semibold">18% labor cost reduction</span>
               </div>
             </div>
@@ -355,7 +357,7 @@ export default function CanvasPage() {
               <div className="w-16 h-16 bg-gradient-to-br from-gray-600 to-gray-700 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
                 1
               </div>
-              <div className="text-3xl mb-3">🔌</div>
+              <div className="w-10 h-10 mx-auto mb-3 bg-gradient-to-br from-gray-600 to-gray-700 rounded-lg flex items-center justify-center"><SundaeIcon name="integration" size="md" className="text-white" /></div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">1. Scout</h3>
               <p className="text-gray-600 text-sm">
                 Connects and unifies all data sources into a single layer
@@ -366,7 +368,7 @@ export default function CanvasPage() {
               <div className="w-16 h-16 bg-gradient-to-br from-gray-600 to-gray-700 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
                 2
               </div>
-              <div className="text-3xl mb-3">🤖</div>
+              <div className="w-10 h-10 mx-auto mb-3 bg-gradient-to-br from-gray-600 to-gray-700 rounded-lg flex items-center justify-center"><SundaeIcon name="intelligence" size="md" className="text-white" /></div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">2. Insights & Pulse</h3>
               <p className="text-gray-600 text-sm">
                 AI analyzes patterns and generates actionable insights
@@ -377,7 +379,7 @@ export default function CanvasPage() {
               <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-blue-700 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
                 3
               </div>
-              <div className="text-3xl mb-3">📊</div>
+              <div className="w-10 h-10 mx-auto mb-3 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center"><SundaeIcon name="chart" size="md" className="text-white" /></div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">3. Canvas</h3>
               <p className="text-gray-600 text-sm">
                 Visualizes everything in real-time, interactive dashboards

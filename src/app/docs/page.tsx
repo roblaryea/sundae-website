@@ -262,7 +262,7 @@ export default function DocumentationPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <div className="bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-800 dark:to-gray-900 rounded-2xl p-12">
-            <div className="text-6xl mb-6">🚧</div>
+            <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center"><SundaeIcon name="warning" size="xl" className="text-white" /></div>
             <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
               More Documentation Coming Soon
             </h3>

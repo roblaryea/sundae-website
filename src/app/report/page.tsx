@@ -230,7 +230,7 @@ export default function ReportProductPage() {
               <p className="text-sm text-gray-600">Compare against restaurants like yours — not generic industry averages.</p>
             </div>
             <div className="text-center p-6 bg-purple-50/50 rounded-xl">
-              <div className="text-3xl mb-3">🆓</div>
+              <div className="w-10 h-10 mx-auto mb-3 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center"><SundaeIcon name="success" size="lg" className="text-white" /></div>
               <h3 className="font-semibold text-gray-900 mb-2">Start Free</h3>
               <p className="text-sm text-gray-600">Report Lite costs nothing, forever. Prove the value before you pay.</p>
             </div>
@@ -448,7 +448,7 @@ export default function ReportProductPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
             <div className="p-6 bg-white rounded-xl shadow-sm">
-              <div className="text-3xl mb-3">🆓</div>
+              <div className="w-10 h-10 mx-auto mb-3 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center"><SundaeIcon name="success" size="lg" className="text-white" /></div>
               <h3 className="font-semibold text-gray-900 mb-2">Start Free</h3>
               <p className="text-sm text-gray-600 mb-4">Upload CSV, get instant benchmark</p>
               <Button 

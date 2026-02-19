@@ -47,7 +47,7 @@ const pulseFeatureBlocks: { title: string; headline: string; description: string
       "Configurable hourly rates by role"
     ],
     icon: "benchmarking",
-    screenshot: "/images/product/pulse-labor.png"
+    screenshot: "/images/product/pulse_productivity.png"
   },
   {
     title: "Server Performance Analytics",
@@ -61,7 +61,7 @@ const pulseFeatureBlocks: { title: string; headline: string; description: string
       "Strengths and improvement areas auto-detected"
     ],
     icon: "multiLocation",
-    screenshot: "/images/product/pulse-leaderboard.png"
+    screenshot: "/images/product/pulse_server_analytics.png"
   },
   {
     title: "Leakage Monitoring",
@@ -87,7 +87,7 @@ const pulseFeatureBlocks: { title: string; headline: string; description: string
       "Configurable playbooks per scenario"
     ],
     icon: "intelligence",
-    screenshot: "/images/product/pulse-coach.png"
+    screenshot: "/images/product/pulse_coach.png"
   },
   {
     title: "Wallboard Mode",
@@ -292,7 +292,7 @@ export default function PulsePage() {
             </div>
             <div className="md:order-1">
               <BrowserFrame
-                src="/images/product/pulse-leaderboard.png"
+                src="/images/product/pulse_coaching_tool.png"
                 alt="Server Performance Analytics — leaderboard with productivity scores"
                 width={700}
                 height={420}
@@ -318,7 +318,7 @@ export default function PulsePage() {
             </div>
             <div>
               <BrowserFrame
-                src="/images/product/pulse-labor.png"
+                src="/images/product/pulse_shift_cost.png"
                 alt="Shift Costing — per-shift cost breakdown with staff-level detail"
                 width={700}
                 height={420}
