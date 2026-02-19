@@ -1,6 +1,5 @@
 'use client';
 
-import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { motion } from "framer-motion";
@@ -267,6 +266,101 @@ export default function ReportVsCorePage() {
                 </Card>
               </motion.div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Pulse Features by Tier */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="section-h2 text-gray-900 mb-4">
+              Pulse Features by Tier
+            </h2>
+            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+              Pulse is the intraday operations monitor — available on Core tiers
+            </p>
+          </div>
+
+          <div className="overflow-x-auto">
+            <table className="w-full text-left border-collapse">
+              <thead>
+                <tr className="border-b-2 border-gray-200">
+                  <th className="py-3 pr-4 text-sm font-semibold text-gray-900">Feature</th>
+                  <th className="py-3 px-4 text-sm font-semibold text-blue-600 text-center">Report (Free)</th>
+                  <th className="py-3 pl-4 text-sm font-semibold text-purple-600 text-center">Core</th>
+                </tr>
+              </thead>
+              <tbody className="text-sm text-gray-700">
+                {[
+                  ["Historical sales reporting", "✓", "✓"],
+                  ["Real-time sales pacing", "—", "✓"],
+                  ["Basic targets (Manual, Auto)", "—", "✓"],
+                  ["Adaptive Intelligence Targets", "—", "✓"],
+                  ["Labor headcount tracking", "—", "✓"],
+                  ["Labor Productivity Intelligence (SPLH, CPLH)", "—", "✓"],
+                  ["Shift cost breakdown", "—", "✓"],
+                  ["Server leaderboard (daily)", "—", "✓"],
+                  ["Server leaderboard (hourly, by phase, with compare)", "—", "✓"],
+                  ["Leakage monitoring", "—", "✓"],
+                  ["AI Shift Coach", "—", "✓"],
+                  ["Alerts & Playbooks", "—", "✓"],
+                  ["Wallboard Mode", "—", "✓"],
+                ].map(([feature, report, core], idx) => (
+                  <tr key={idx} className="border-b border-gray-100">
+                    <td className="py-2.5 pr-4">{feature}</td>
+                    <td className={`py-2.5 px-4 text-center ${report === "✓" ? "text-green-600 font-semibold" : "text-gray-400"}`}>{report}</td>
+                    <td className={`py-2.5 pl-4 text-center ${core === "✓" ? "text-green-600 font-semibold" : "text-gray-400"}`}>{core}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* Watchtower Features by Tier */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="section-h2 text-gray-900 mb-4">
+              Watchtower Features by Tier
+            </h2>
+            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+              External intelligence — available on Core tiers
+            </p>
+          </div>
+
+          <div className="overflow-x-auto">
+            <table className="w-full text-left border-collapse">
+              <thead>
+                <tr className="border-b-2 border-gray-200">
+                  <th className="py-3 pr-4 text-sm font-semibold text-gray-900">Feature</th>
+                  <th className="py-3 px-4 text-sm font-semibold text-blue-600 text-center">Report (Free)</th>
+                  <th className="py-3 pl-4 text-sm font-semibold text-purple-600 text-center">Core</th>
+                </tr>
+              </thead>
+              <tbody className="text-sm text-gray-700">
+                {[
+                  ["Basic market context", "Limited", "✓"],
+                  ["Daily AI briefing", "—", "✓"],
+                  ["Competitor tracking (up to 5)", "—", "✓"],
+                  ["Competitor tracking (up to 10+)", "—", "✓ (tier-dependent)"],
+                  ["Review sentiment analysis", "—", "✓"],
+                  ["Local event discovery", "—", "✓"],
+                  ["Event impact assessments", "—", "✓"],
+                  ["Religious calendar intelligence", "—", "✓"],
+                  ["Market landscape tracking", "—", "✓"],
+                  ["Trend & macro signals", "—", "✓"],
+                ].map(([feature, report, core], idx) => (
+                  <tr key={idx} className="border-b border-gray-100">
+                    <td className="py-2.5 pr-4">{feature}</td>
+                    <td className={`py-2.5 px-4 text-center ${report === "✓" || report === "Limited" ? (report === "Limited" ? "text-blue-500" : "text-green-600 font-semibold") : "text-gray-400"}`}>{report}</td>
+                    <td className={`py-2.5 pl-4 text-center ${core?.includes("✓") ? "text-green-600 font-semibold" : "text-gray-400"}`}>{core}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         </div>
       </section>

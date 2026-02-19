@@ -21,7 +21,7 @@ export default function ReportProductPage() {
       features: [
         "Manual CSV upload",
         "Benchmark 5 core metrics",
-        "40 AI credits/month",
+        "400 AI credits/month",
         "90-day retention",
         "20 pre-built visuals",
         "Email support (72hr response)"
@@ -39,7 +39,7 @@ export default function ReportProductPage() {
       features: [
         "AI-parsed uploads (PDF, Excel, screenshots)",
         "Benchmark 15 metrics",
-        "150 AI credits/month",
+        "1,500 AI credits/month",
         "1-year retention",
         "50 comprehensive visuals",
         "Email + Chat support (24hr response)"
@@ -57,7 +57,7 @@ export default function ReportProductPage() {
       features: [
         "Fully automated API integration",
         "Benchmark 30 metrics",
-        "400 AI credits/month",
+        "4,000 AI credits/month",
         "2-year retention",
         "Up to 120 visuals",
         "Priority support (12hr response)"

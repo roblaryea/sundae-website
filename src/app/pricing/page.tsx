@@ -65,7 +65,7 @@ const reportTiers: Tier[] = [
   {
     name: "Report Pro",
     basePrice: "$119",
-    perLocation: "$45",
+    perLocation: "$35",
     aiCredits: "4,000",
     description: "Automated daily ingestion with advanced AI insights and team collaboration.",
     features: [
@@ -87,16 +87,16 @@ const coreTiers: Tier[] = [
     basePrice: "$199",
     perLocation: "$39",
     aiCredits: "8,000",
-    description: "Real-time operational intelligence with 4-hour data refresh cycles.",
+    description: "Real-time operational intelligence with 15-minute data refresh cycles.",
     features: [
       "Everything in Report Pro",
-      "4-hour data refresh (6x daily)",
+      "15-minute data refresh",
       "POS API integration",
       "Pulse intraday monitoring",
       "Smart alerts & anomaly detection",
-      "30 custom dashboards",
       "Chat with Data (web)",
-      "Phone support (4-hour response)"
+      "Watchtower external intelligence",
+      "Chat support (4-hour response)"
     ],
     cta: "Get Started",
     ctaLink: "/demo"
@@ -108,15 +108,15 @@ const coreTiers: Tier[] = [
     basePrice: "$349",
     perLocation: "$35",
     aiCredits: "14,000",
-    description: "Full intelligence stack with 2-hour refresh, multi-POS support, and advanced modules.",
+    description: "Full intelligence stack with 5-minute refresh, multi-POS support, and advanced modules.",
     features: [
       "Everything in Core Lite",
-      "2-hour data refresh (12x daily)",
+      "5-minute data refresh",
       "Multi-POS support across locations",
       "AI playbooks & automated workflows",
-      "75 custom dashboards",
       "Chat with Data (web + Slack/Teams/Telegram)",
       "Benchmarks & market intelligence",
+      "Watchtower external intelligence",
       "Priority phone support (2-hour response)"
     ],
     cta: "Get Started",

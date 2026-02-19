@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import HomeContent from "@/components/home/HomeContent";
 
 export const metadata: Metadata = {
-  title: "Decision Intelligence for Restaurants & Hospitality | Sundae",
+  title: "Sundae — Decision Intelligence for Restaurants | Real-Time Ops, Market Intelligence & AI Targets",
   description:
-    "Clear, contextual, AI-powered visibility into your entire restaurant operation. Unify POS, labor, cost, and operational data to benchmark performance and get instant insights.",
+    "The AI platform that turns restaurant data into action. Real-time sales pacing, adaptive targets, labor productivity, competitor tracking, event intelligence, and AI coaching — unified for restaurants and hospitality.",
   openGraph: {
-    title: "Sundae – Decision Intelligence for Restaurants",
+    title: "Sundae — Decision Intelligence for Restaurants",
     description:
-      "One platform. Zero guesswork. Sundae analyzes performance, predicts what's coming, and tells your team exactly what to do next.",
+      "Real-time sales pacing, adaptive targets, labor productivity, competitor tracking, event intelligence, and AI coaching — unified for restaurants and hospitality.",
   },
 };
 

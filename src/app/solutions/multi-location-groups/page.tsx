@@ -34,25 +34,25 @@ export default function MultiLocationGroupsPage() {
   const howSundaeHelps: { title: string; description: string; product: string; icon: SundaeIconName }[] = [
     {
       title: "Unified Real-Time Dashboard",
-      description: "Sundae Core brings all your locations into one view. See sales, labor, margins, and operations across every site in real-time.",
-      product: "Sundae Core",
+      description: "Sundae Core brings all your locations into one view. Pulse monitors every shift with adaptive AI targets, labor productivity (SPLH, CPLH), server performance analytics, and leakage detection across every site.",
+      product: "Sundae Core + Pulse",
       icon: "chart"
     },
     {
-      title: "Instant AI Insights",
-      description: "Sundae Core automatically flags anomalies, opportunities, and risks across your portfolio before they impact your bottom line.",
-      product: "Sundae Core",
-      icon: "intelligence"
+      title: "Competitive & Market Intelligence",
+      description: "Watchtower tracks named competitors at each location, monitors local events and market trends, and delivers AI-synthesized daily briefings — so you know what\u2019s happening inside and outside every site.",
+      product: "Watchtower (Core tier)",
+      icon: "watchtower"
     },
     {
       title: "Conversational Intelligence",
-      description: "Ask Sundae Core questions like 'Which locations are underperforming on labor cost?' and get instant answers with context.",
-      product: "Sundae Core",
+      description: "Ask Sundae \u2018Which locations are underperforming on labor cost?\u2019 or \u2018Where are competitors gaining ground?\u2019 and get instant answers combining internal performance with external market context.",
+      product: "Chat with Data",
       icon: "intelligence"
     },
     {
       title: "Benchmark Performance",
-      description: "Sundae Report compares each location against your top performers and industry benchmarks, showing you exactly where to improve.",
+      description: "Sundae Report compares each location against your top performers and industry benchmarks, showing you exactly where to improve — with AI-powered analysis and recommendations.",
       product: "Sundae Report",
       icon: "report"
     }

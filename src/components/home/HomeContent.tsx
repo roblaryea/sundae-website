@@ -44,16 +44,16 @@ function StatCard({ insight, index, isInView, prefersReducedMotion }: { insight:
   const count = useCountUp(insight.value, prefersReducedMotion ? 0 : 2000, isInView);
   return (
     <motion.div
-      className="text-center p-6 bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
+      className="text-center p-3 sm:p-6 bg-white rounded-xl hover:shadow-lg transition-shadow duration-300"
       initial={prefersReducedMotion ? false : { opacity: 0, y: 20 }}
       animate={isInView ? { opacity: 1, y: 0 } : {}}
       transition={prefersReducedMotion ? { duration: 0 } : { duration: 0.6, delay: index * 0.1 }}
     >
-      <div className="text-3xl font-bold text-blue-600 mb-2">
+      <div className="text-xl sm:text-3xl font-bold text-blue-600 mb-1 sm:mb-2 whitespace-nowrap">
         {insight.prefix}{count}{insight.suffix}
       </div>
-      <h3 className="font-semibold text-gray-900 mb-1">{insight.title}</h3>
-      <p className="text-sm text-gray-600">{insight.description}</p>
+      <h3 className="font-semibold text-gray-900 mb-1 text-xs sm:text-base leading-tight">{insight.title}</h3>
+      <p className="text-xs sm:text-sm text-gray-600 leading-snug">{insight.description}</p>
     </motion.div>
   );
 }
@@ -62,7 +62,7 @@ const productPillars: { name: string; subtitle: string; description: string; ico
   {
     name: "Pulse",
     subtitle: "Intraday Operations Monitor",
-    description: "Live pacing, labor tracking, and AI coaching — every shift, every outlet.",
+    description: "Live sales pacing, labor productivity tracking, adaptive targets, server performance analytics, and AI coaching — every shift, every outlet.",
     icon: "pulse",
     screenshot: "/images/product/pulse-scorecard.png",
     screenshotAlt: "Pulse shift scorecard showing revenue, covers, top items, and server performance",
@@ -83,8 +83,8 @@ const productPillars: { name: string; subtitle: string; description: string; ico
   },
   {
     name: "Watchtower",
-    subtitle: "External Market Intelligence",
-    description: "Weather, events, competitor moves — external signals that affect your revenue.",
+    subtitle: "External Intelligence Engine",
+    description: "AI-powered daily briefings, named competitor monitoring, local event impact analysis, and market trend intelligence — the outside world, contextualized for your restaurant.",
     icon: "watchtower",
     screenshot: "/images/product/watchtower.png",
     screenshotAlt: "Watchtower command center with weather impact, events, and competitor tracking",
@@ -155,7 +155,7 @@ export default function HomeContent() {
               See Every Layer. Miss Nothing.
             </h1>
             <p className="body-xl text-gray-600 dark:text-slate-300 leading-relaxed mb-8 max-w-3xl mx-auto">
-              Sundae turns your POS, labor, and ops data into real-time intelligence — so your team acts on what matters, not what happened yesterday.
+              Sundae turns your POS, labor, and ops data into real-time intelligence — and combines it with market signals, competitor moves, and local events to help your team act on what matters, before it matters.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center mb-6">
               <Button
@@ -342,18 +342,19 @@ export default function HomeContent() {
                 The Shift Runs Through Pulse
               </h2>
               <p className="body-lg text-gray-600 dark:text-gray-300 mb-6">
-                Sales pacing, labor vs. budget, leakage alerts, AI coaching, and a wallboard mode — all live, all shift-level.
+                Sales pacing with adaptive AI targets, real-time labor productivity and shift costing, server performance leaderboards, leakage detection, and AI coaching — all live, all shift-level. Pulse doesn&apos;t just tell you what happened. It learns your patterns, adjusts for seasonality, and sets targets that reflect your actual business rhythm.
               </p>
 
               <div className="grid grid-cols-2 gap-3 mb-8">
                 {[
                   "Sales & Pace Tracking",
-                  "Labor Live",
+                  "Adaptive Intelligence Targets",
+                  "Labor Productivity & Shift Costing",
+                  "Server Performance Analytics",
                   "Leakage Monitoring",
                   "AI Shift Coach",
                   "Alerts & Playbooks",
                   "Shift Scorecard",
-                  "Portfolio Leaderboard",
                   "Wallboard Mode"
                 ].map((feature) => (
                   <div key={feature} className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300">
@@ -410,16 +411,16 @@ export default function HomeContent() {
               {
                 step: "2",
                 title: "Understand",
-                subtitle: "Patterns & anomalies",
-                description: "AI agents scan performance, spot outliers, and separate normal noise from issues that actually matter.",
+                subtitle: "Patterns, Anomalies & External Context",
+                description: "AI agents scan internal performance, spot statistical outliers, detect seasonality patterns, and layer in external signals — weather, events, competitor moves, and market shifts — to separate noise from what actually matters.",
                 icon: "insights" as SundaeIconName,
                 color: "from-purple-500 to-purple-600"
               },
               {
                 step: "3",
                 title: "Decide",
-                subtitle: "Recommendations & playbooks",
-                description: "Sundae suggests specific actions — from staffing changes to menu tweaks — with explainable logic.",
+                subtitle: "Recommendations, Targets & Playbooks",
+                description: "Sundae suggests specific actions — from adaptive daily targets to staffing changes to server coaching — with explainable logic grounded in your data AND your market context.",
                 icon: "aiOs" as SundaeIconName,
                 color: "from-green-500 to-green-600"
               },
@@ -477,25 +478,25 @@ export default function HomeContent() {
             {([
               {
                 title: "Operations leaders",
-                description: "See which locations need help this week — and why — without digging through 20 reports.",
+                description: "See which locations need help right now — and why. Live sales pacing, labor productivity, and server performance across every outlet. Adaptive targets that adjust for seasonality. Morning briefings that combine your numbers with what\u2019s happening in your market.",
                 icon: "operators" as SundaeIconName,
                 color: "from-blue-500 to-blue-600"
               },
               {
                 title: "Finance & FP&A",
-                description: "Understand the story behind every variance and model the impact of decisions before you roll them out.",
+                description: "Understand the story behind every variance. See shift-level labor costs broken down by role. Track productivity ratios in real time. Model targets with year-over-year baselines and growth modifiers before you commit.",
                 icon: "finance" as SundaeIconName,
                 color: "from-purple-500 to-purple-600"
               },
               {
                 title: "C-suite & owners",
-                description: "Get a simple, unified view of performance across brands, geographies, and partners.",
+                description: "Get a unified view of performance across brands, geographies, and partners — with competitive intelligence, market positioning, and AI-synthesized daily briefings so you know what\u2019s happening inside and outside your business.",
                 icon: "owners" as SundaeIconName,
                 color: "from-green-500 to-green-600"
               },
               {
                 title: "Data & technology teams",
-                description: "Keep clean pipelines, governance, and an opinionated metrics layer — without becoming the bottleneck.",
+                description: "Clean data pipelines, governed metrics, and an opinionated intelligence layer that integrates internal POS data with external APIs — Google Places, weather, events, market signals — without your team becoming the bottleneck.",
                 icon: "technology" as SundaeIconName,
                 color: "from-orange-500 to-orange-600"
               }

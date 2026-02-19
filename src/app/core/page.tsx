@@ -16,7 +16,7 @@ export default function CoreProductPage() {
     {
       name: "Core Lite",
       badge: "Growing Operations",
-      subtitle: "Real-Time Intelligence for 1-10 Locations",
+      subtitle: "Real-Time Intelligence for 1-29 Locations",
       description: "Perfect for restaurant groups scaling from single-location to multi-location operations.",
       features: [
         "4-hour refresh (6x daily)",
@@ -32,7 +32,7 @@ export default function CoreProductPage() {
     {
       name: "Core Pro",
       badge: "Most Popular",
-      subtitle: "Optimized for 10-50 Location Portfolios",
+      subtitle: "Optimized for 30-100 Location Portfolios",
       description: "For established multi-location operators who need faster refresh cycles and advanced forecasting.",
       features: [
         "2-hour refresh (12x daily)",
@@ -42,7 +42,7 @@ export default function CoreProductPage() {
         "Multi-POS support",
         "Priority phone support (2hr SLA)"
       ],
-      bestFor: "10-50 locations, multi-brand operators",
+      bestFor: "30-100 locations, multi-brand operators",
       color: "from-purple-500 to-purple-600"
     },
     {

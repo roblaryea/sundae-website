@@ -34,25 +34,25 @@ export default function HospitalityOperatorsPage() {
   const howSundaeHelps: { title: string; description: string; product: string; icon: SundaeIconName }[] = [
     {
       title: "Unified Hospitality Dashboard",
-      description: "Sundae Core consolidates F&B, rooms, events, and catering into one real-time view of your entire operation.",
-      product: "Sundae Core",
+      description: "Sundae Core consolidates F&B, rooms, events, and catering into one real-time view. Pulse monitors every shift with adaptive AI targets, labor productivity tracking, and server performance analytics.",
+      product: "Sundae Core + Pulse",
       icon: "chart"
     },
     {
-      title: "Demand & Event Intelligence",
-      description: "Sundae Core correlates bookings, local events, weather, and tourism data to optimize staffing and inventory ahead of demand spikes.",
-      product: "Sundae Core",
-      icon: "insights"
+      title: "Event & Calendar Intelligence",
+      description: "Watchtower discovers local events, public holidays, and religious observances (Ramadan-aware for MENA operations) — with AI impact assessments including staffing and prep recommendations tailored to each property.",
+      product: "Watchtower (Core tier)",
+      icon: "watchtower"
     },
     {
-      title: "Conversational Operations",
-      description: "Ask Sundae Core 'What's driving the banquet revenue increase?' or 'Compare F&B performance across properties' for instant answers.",
-      product: "Sundae Core",
-      icon: "intelligence"
+      title: "Competitive & Market Context",
+      description: "Track named competitors via Google Places, monitor rating trends, and get daily AI briefings that combine your internal performance with weather forecasts, competitor activity, and market signals.",
+      product: "Watchtower (Core tier)",
+      icon: "balance"
     },
     {
       title: "Hospitality Benchmarking",
-      description: "Sundae Report compares your F&B and hospitality metrics against similar properties and market leaders.",
+      description: "Sundae Report compares your F&B and hospitality metrics against similar properties and market leaders — with AI-powered analysis and recommendations.",
       product: "Sundae Report",
       icon: "report"
     }
