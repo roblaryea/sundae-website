@@ -34,25 +34,25 @@ export default function CSuiteExecutivesPage() {
   const howSundaeHelps: { title: string; description: string; product: string; icon: SundaeIconName }[] = [
     {
       title: "Executive Command Center",
-      description: "Sundae Core delivers a real-time executive dashboard with KPIs that matter—revenue, margins, costs, and performance across your entire portfolio.",
-      product: "Sundae Core",
+      description: "Sundae Core delivers a real-time executive dashboard with KPIs that matter — revenue, margins, labor productivity, and performance across your entire portfolio. Pulse monitors every shift with adaptive AI targets and server performance analytics.",
+      product: "Sundae Core + Pulse",
       icon: "chart"
     },
     {
-      title: "AI-Powered Strategic Insights",
-      description: "Sundae Core proactively identifies risks, opportunities, and trends across operations, finance, and market conditions before they impact your bottom line.",
-      product: "Sundae Core",
-      icon: "intelligence"
+      title: "Competitive & Market Intelligence",
+      description: "Watchtower tracks named competitors, monitors local events, and surfaces market trends — synthesized with your internal data into AI-powered daily briefings so you know what\u2019s happening inside and outside your business.",
+      product: "Watchtower (Core tier)",
+      icon: "watchtower"
     },
     {
       title: "Instant Strategic Answers",
-      description: "Ask Sundae Core 'What's driving margin compression?' or 'Which markets should we expand into?' and get data-backed answers instantly.",
-      product: "Sundae Core",
+      description: "Ask Sundae \u2018What\u2019s driving margin compression?\u2019 or \u2018Which locations are losing to competitor promotions?\u2019 and get data-backed answers that combine internal performance with external market context.",
+      product: "Chat with Data",
       icon: "intelligence"
     },
     {
-      title: "Competitive Benchmarking",
-      description: "Sundae Report shows how you compare to industry leaders and identifies gaps in performance, efficiency, and growth.",
+      title: "Historical Benchmarking",
+      description: "Sundae Report shows how you compare to industry leaders and identifies gaps in performance, efficiency, and growth — with AI credits for deeper analysis.",
       product: "Sundae Report",
       icon: "report"
     }

@@ -451,10 +451,10 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
             {[
-              { region: "Middle East", countries: "UAE, KSA, Qatar", icon: "🌍", color: "bg-positive", label: "Active" },
-              { region: "North America", countries: "USA, Canada", icon: "🌎", color: "bg-electric-blue", label: "Active" },
-              { region: "Europe", countries: "UK, Germany, France", icon: "🌍", color: "bg-lavender", label: "Target" },
-              { region: "Asia Pacific", countries: "Australia, Singapore", icon: "🌏", color: "bg-coral", label: "Target" }
+              { region: "Middle East", countries: "UAE, KSA, Qatar", icon: "network" as SundaeIconName, color: "bg-positive", label: "Active" },
+              { region: "North America", countries: "USA, Canada", icon: "network" as SundaeIconName, color: "bg-electric-blue", label: "Active" },
+              { region: "Europe", countries: "UK, Germany, France", icon: "network" as SundaeIconName, color: "bg-lavender", label: "Target" },
+              { region: "Asia Pacific", countries: "Australia, Singapore", icon: "network" as SundaeIconName, color: "bg-coral", label: "Target" }
             ].map((region, index) => (
               <FadeUpSection key={region.region} delay={index * 0.1}>
                 <motion.div 
@@ -478,7 +478,7 @@ export default function AboutPage() {
                       ease: "easeInOut"
                     }}
                   >
-                    {region.icon}
+                    <SundaeIcon name={region.icon} size="lg" className="text-white" />
                   </motion.div>
                   <span className={`inline-block text-[10px] font-bold uppercase tracking-wider mb-2 px-2 py-0.5 rounded-full ${region.label === 'Active' ? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400' : 'bg-slate-100 text-slate-500 dark:bg-slate-800 dark:text-slate-400'}`}>
                     {region.label}

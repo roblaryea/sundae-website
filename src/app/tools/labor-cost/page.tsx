@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
+import { SundaeIcon } from '@/components/icons';
 
 export default function LaborCostCalculator() {
   const [laborCost, setLaborCost] = useState('');
@@ -57,8 +58,8 @@ export default function LaborCostCalculator() {
 
           {/* Header */}
           <div className="text-center mb-12">
-            <div className="w-20 h-20 bg-gradient-to-br from-electric-blue to-deep-blue rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-6 shadow-lg">
-              👥
+            <div className="w-20 h-20 bg-gradient-to-br from-electric-blue to-deep-blue rounded-2xl flex items-center justify-center text-white mx-auto mb-6 shadow-lg">
+              <SundaeIcon name="hr" size="xl" className="text-white" />
             </div>
             <h1 className="hero-h1 text-gray-900 dark:text-white mb-4">
               Labor Cost % Calculator

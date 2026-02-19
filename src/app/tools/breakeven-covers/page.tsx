@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
+import { SundaeIcon } from '@/components/icons';
 
 export default function BreakEvenCalculator() {
   const [fixedCosts, setFixedCosts] = useState('');
@@ -55,8 +56,8 @@ export default function BreakEvenCalculator() {
 
           {/* Header */}
           <div className="text-center mb-12">
-            <div className="w-20 h-20 bg-gradient-to-br from-electric-blue to-deep-blue rounded-2xl flex items-center justify-center text-white text-4xl mx-auto mb-6 shadow-lg">
-              ⚖️
+            <div className="w-20 h-20 bg-gradient-to-br from-electric-blue to-deep-blue rounded-2xl flex items-center justify-center text-white mx-auto mb-6 shadow-lg">
+              <SundaeIcon name="balance" size="xl" className="text-white" />
             </div>
             <h1 className="hero-h1 text-gray-900 dark:text-white mb-4">
               Break-Even Covers Calculator
@@ -193,7 +194,7 @@ export default function BreakEvenCalculator() {
 
                 <div className="mt-6 p-4 bg-gray-100 dark:bg-gray-700 rounded-lg">
                   <h5 className="font-semibold text-gray-900 dark:text-white mb-2 text-sm">
-                    💡 Tips to Improve Break-Even:
+                    Tips to Improve Break-Even:
                   </h5>
                   <ul className="text-sm text-gray-700 dark:text-gray-300 space-y-1">
                     <li>• Reduce fixed costs (negotiate rent, optimize labor)</li>

@@ -42,7 +42,7 @@ export default function ScoutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-6">
             <div className="inline-flex items-center space-x-2 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 px-4 py-2 rounded-full text-sm font-medium">
-              <span className="text-xl">🔍</span>
+              <SundaeIcon name="search" size="md" />
               <span>Integration Specialist</span>
             </div>
             <h1 className="hero-h1 text-gray-900 dark:text-white">

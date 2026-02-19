@@ -63,7 +63,7 @@ export default function ToolsPage() {
             transition={{ duration: 0.6 }}
           >
             <div className="inline-flex items-center space-x-2 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 px-4 py-2 rounded-full text-sm font-medium mb-6">
-              <span>🛠️</span>
+              <SundaeIcon name="forge" size="md" />
               <span>Free Tools</span>
             </div>
             <h1 className="hero-h1 text-gray-900 dark:text-white mb-6">

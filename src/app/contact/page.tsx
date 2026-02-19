@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
 import { LeadCaptureForm } from '@/components/marketing/LeadCaptureForm';
+import { SundaeIcon } from '@/components/icons';
 import { PRICING_URL } from '@/lib/links';
 
 export default function ContactPage() {
@@ -46,7 +47,7 @@ export default function ContactPage() {
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
-                    <span className="text-blue-600 text-xl">📧</span>
+                    <SundaeIcon name="support" size="md" className="text-blue-600" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">Email Us</h3>
@@ -57,7 +58,7 @@ export default function ContactPage() {
 
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
-                    <span className="text-blue-600 text-xl">📍</span>
+                    <SundaeIcon name="multiLocation" size="md" className="text-blue-600" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">Our Offices</h3>
@@ -76,7 +77,7 @@ export default function ContactPage() {
 
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
-                    <span className="text-blue-600 text-xl">🕐</span>
+                    <SundaeIcon name="time" size="md" className="text-blue-600" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">Response Time</h3>

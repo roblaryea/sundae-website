@@ -408,25 +408,27 @@ export default function ArchitecturePage() {
               </p>
               
               <div className="space-y-6">
-                {[
+                {([
                   {
                     title: "End-to-End Encryption",
                     description: "AES-256 encryption for data in transit and at rest",
-                    icon: "🔒"
+                    icon: "risk" as SundaeIconName
                   },
                   {
                     title: "Access Control",
                     description: "Role-based access with multi-factor authentication",
-                    icon: "🔑"
+                    icon: "integration" as SundaeIconName
                   },
                   {
                     title: "Compliance Standards",
                     description: "SOC 2 Type II, GDPR, and CCPA compliant",
-                    icon: "✅"
+                    icon: "success" as SundaeIconName
                   }
-                ].map((item, index) => (
+                ]).map((item, index) => (
                   <div key={index} className="flex items-start space-x-4">
-                    <div className="text-3xl mt-1">{item.icon}</div>
+                    <div className="w-10 h-10 mt-1 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <SundaeIcon name={item.icon} size="md" className="text-white" />
+                    </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">{item.title}</h3>
                       <p className="text-[16px] text-gray-600 dark:text-gray-400 leading-[1.65]">{item.description}</p>
@@ -444,7 +446,7 @@ export default function ArchitecturePage() {
             >
               <div className="bg-gradient-to-br from-gray-50 to-blue-50/30 dark:from-gray-800 dark:to-blue-900/10 rounded-2xl p-8 shadow-xl border-2 border-gray-200 dark:border-slate-800 dark:border-gray-700">
                 <div className="text-center mb-6">
-                  <div className="text-6xl mb-4">🏆</div>
+                  <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center"><SundaeIcon name="success" size="xl" className="text-white" /></div>
                   <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Certifications</h3>
                 </div>
                 
@@ -458,7 +460,7 @@ export default function ArchitecturePage() {
                     <div key={index} className={`flex items-center justify-between p-4 bg-${cert.color}-50 dark:bg-${cert.color}-900/20 rounded-xl border border-${cert.color}-200 dark:border-${cert.color}-800`}>
                       <span className="font-semibold text-gray-900 dark:text-white">{cert.name}</span>
                       <span className={`text-${cert.color}-600 dark:text-${cert.color}-400 text-sm font-medium`}>
-                        {cert.status === "In Progress" ? "🔄" : "✓"} {cert.status}
+                        {cert.status === "In Progress" ? <SundaeIcon name="sync" size="sm" className="inline" /> : "✓"} {cert.status}
                       </span>
                     </div>
                   ))}

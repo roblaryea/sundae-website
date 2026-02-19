@@ -552,7 +552,7 @@ export default function TermsPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <Card variant="elevated">
               <CardContent className="p-6 text-center">
-                <div className="text-3xl mb-4">📧</div>
+                <div className="w-10 h-10 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center"><SundaeIcon name="support" size="lg" className="text-white" /></div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">Email Us</h3>
                 <a href="mailto:legal@sundae.io" className="text-blue-600 hover:underline">
                   legal@sundae.io
@@ -562,7 +562,7 @@ export default function TermsPage() {
             
             <Card variant="elevated">
               <CardContent className="p-6 text-center">
-                <div className="text-3xl mb-4">📞</div>
+                <div className="w-10 h-10 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center"><SundaeIcon name="support" size="lg" className="text-white" /></div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">Call Us</h3>
                 <a href="tel:+97145017308" className="text-blue-600 hover:underline">
                   +971 (4) 501-7308
@@ -572,7 +572,7 @@ export default function TermsPage() {
             
             <Card variant="elevated">
               <CardContent className="p-6 text-center">
-                <div className="text-3xl mb-4">📍</div>
+                <div className="w-10 h-10 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center"><SundaeIcon name="multiLocation" size="lg" className="text-white" /></div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">Visit Us</h3>
                 <p className="text-gray-600 text-sm">
                   1007 N Orange St<br />
