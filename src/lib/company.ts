@@ -4,6 +4,8 @@
  * footer, metadata, and structured data.
  */
 
+import { SITE_URL } from './urls';
+
 export const COMPANY = {
   legalName: 'Sundae Technologies Inc.',
   tradingAs: 'Sundae',
@@ -22,7 +24,7 @@ export const COMPANY = {
   supportEmail: 'support@sundae.io',
   privacyEmail: 'privacy@sundae.io',
   legalEmail: 'legal@sundae.io',
-  website: 'https://sundae.io',
+  website: SITE_URL,
   /** All domains operated by Sundae Technologies Inc. */
   operatingDomains: [
     'sundae.io',

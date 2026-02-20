@@ -1,0 +1,106 @@
+{
+  "summary": {
+    "baseUrl": "http://localhost:3000",
+    "timestamp": "2026-02-20T00:11:53.008Z",
+    "probeTotal": 59,
+    "probeOk": 1,
+    "probeBroken": 1,
+    "probeRedirects": 0,
+    "probeAuthRedirects": 57,
+    "probeErrors": 0,
+    "diskRoutes": 53,
+    "referencedRoutes": 48,
+    "missingStaticRoutes": 2,
+    "unreferencedRoutes": 5
+  },
+  "missingRoutes": [
+    {
+      "route": "/dashboard",
+      "referencedIn": [
+        "src/app/sign-in/page.tsx"
+      ]
+    },
+    {
+      "route": "/forgot-password",
+      "referencedIn": [
+        "src/app/sign-in/page.tsx"
+      ]
+    }
+  ],
+  "unreferencedRoutes": [
+    "/4d-intelligence",
+    "/pricing",
+    "/product/canvas",
+    "/product/forge",
+    "/why-sundae"
+  ],
+  "brokenProbes": [
+    {
+      "route": "/forgot-password",
+      "status": 404,
+      "location": "",
+      "classification": "broken"
+    }
+  ],
+  "redirectProbes": [],
+  "probeErrors": [],
+  "configRedirects": {
+    "/signin": "/sign-in",
+    "/product/sundae-report": "/report"
+  },
+  "diskRoutes": [
+    "/",
+    "/4d-intelligence",
+    "/about",
+    "/architecture",
+    "/benchmarking",
+    "/blog",
+    "/canvas",
+    "/careers",
+    "/chat-with-data",
+    "/contact",
+    "/core",
+    "/demo",
+    "/docs",
+    "/faq",
+    "/getting-started",
+    "/insights",
+    "/integrations",
+    "/modules",
+    "/nexus",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/product/canvas",
+    "/product/forge",
+    "/product/pulse",
+    "/product/scout",
+    "/product/sundae-report",
+    "/product/watchtower",
+    "/report",
+    "/report-vs-core",
+    "/resources",
+    "/security",
+    "/sign-in",
+    "/signin",
+    "/solutions/c-suite-executives",
+    "/solutions/cloud-kitchens",
+    "/solutions/finance-teams",
+    "/solutions/franchises",
+    "/solutions/hospitality-operators",
+    "/solutions/hr-teams",
+    "/solutions/marketing-teams",
+    "/solutions/multi-location-groups",
+    "/solutions/regional-managers",
+    "/solutions/technology-teams",
+    "/terms",
+    "/tools",
+    "/tools/benchmark-readiness",
+    "/tools/breakeven-covers",
+    "/tools/labor-analyzer",
+    "/tools/labor-cost",
+    "/tools/menu-margin",
+    "/tools/multi-location-uplift",
+    "/why-sundae"
+  ]
+}
