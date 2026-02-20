@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Sundae App — Coming Soon',
-  description: 'Sundae is almost ready to serve. Your 4D Intelligence platform is baking in the final touches. Join the waitlist for early access.',
+  title: 'Sign In — Sundae',
+  description: 'Sign in to Sundae — your unified view of performance, operations, and competitive intelligence for restaurants.',
 };
 
 export default function SignInLayout({
