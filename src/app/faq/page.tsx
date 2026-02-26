@@ -187,11 +187,11 @@ export default function FAQPage() {
       faqs: [
         {
           title: "What's AI credit allocation?",
-          content: "AI credits power intelligent queries and recommendations:\n\n**Report Lite:** 40 base + 8 per location\n**Report Plus:** 150 base + 30 per location (25% rollover)\n**Report Pro:** 400 base + 80 per location (25% rollover)\n**Core Lite:** 600 base + 120 per location (50% rollover)\n**Core Pro:** 1,200 base + 240 per location (50% rollover)\n**Enterprise:** Unlimited"
+          content: "AI credits power intelligent queries and recommendations:\n\n**Report Lite:** 250 base + 80 per location\n**Report Plus:** 1,200 base + 300 per location (25% rollover)\n**Report Pro:** 3,500 base + 800 per location (25% rollover)\n**Core Lite:** 8,000 base + 1,600 per location (25% rollover)\n**Core Pro:** 14,000 base + 2,800 per location (25% rollover)\n**Enterprise:** 50,000+ base + 5,000 per location"
         },
         {
-          title: "What's data retention?",
-          content: "How far back you can analyze:\n\n**Report Lite:** 90 days\n**Report Plus:** 1 year (upgrade available)\n**Report Pro:** 2 years (upgrade available)\n**Core Lite:** 2 years (upgrade available)\n**Core Pro:** 3 years (upgrade available)\n**Enterprise:** Custom (typically 5+ years)"
+          title: "What's historical access?",
+          content: "How far back you can access and analyze your data:\n\n**Report Lite:** 90 days\n**Report Plus:** 1 year\n**Report Pro:** 2 years\n**Core Lite:** 2 years\n**Core Pro:** 3 years\n**Enterprise:** 5+ years (custom)"
         },
         {
           title: "What's data refresh frequency?",

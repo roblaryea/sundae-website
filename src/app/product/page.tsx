@@ -70,13 +70,13 @@ const pillars: {
     color: "from-purple-500 to-purple-600"
   },
   {
-    name: "Chat with Data",
-    tagline: "Conversational Analytics",
-    description: "Ask questions in natural language and get answers backed by your real operational data. Available on web, Telegram, Slack, and Microsoft Teams — wherever your team already works.",
+    name: "Sundae Intelligence",
+    tagline: "AI-Powered Decision Intelligence",
+    description: "Ask questions in natural language and get answers backed by your real operational data. Available in Chat, Monitor, and Briefing modes — on web, Telegram, Slack, and Microsoft Teams.",
     icon: "conversation",
     screenshot: "/images/product/chat-with-data.png",
-    screenshotAlt: "Chat with Data interface showing natural language querying with suggested questions",
-    features: ["Natural Language Queries", "Web + Telegram + Slack + Teams", "Conversation History", "Scheduled Queries", "Multi-Outlet Scope", "AI Credit System"],
+    screenshotAlt: "Sundae Intelligence interface with conversational analytics",
+    features: ["Chat Mode (Natural Language)", "Monitor Mode (Real-time Alerts)", "Briefing Mode (AI Summaries)", "Web + Telegram + Slack + Teams", "Conversation History", "AI Credit System"],
     link: "/chat-with-data",
     status: "live",
     color: "from-green-500 to-emerald-600"
@@ -169,7 +169,7 @@ export default function ProductPage() {
                   <ul className="text-sm text-gray-600 dark:text-gray-400 space-y-1.5 mb-6">
                     <li className="flex items-center gap-2"><span className="text-blue-500">&#10003;</span> Benchmarks (competitive intelligence)</li>
                     <li className="flex items-center gap-2"><span className="text-blue-500">&#10003;</span> Performance Report</li>
-                    <li className="flex items-center gap-2"><span className="text-blue-500">&#10003;</span> Chat with Data</li>
+                    <li className="flex items-center gap-2"><span className="text-blue-500">&#10003;</span> Sundae Intelligence</li>
                     <li className="flex items-center gap-2"><span className="text-blue-500">&#10003;</span> Integrations Hub</li>
                   </ul>
                   <Button
@@ -361,7 +361,7 @@ export default function ProductPage() {
             See the Full Platform in Action
           </h2>
           <p className="body-lg mb-8 opacity-90">
-            A 15-minute walkthrough of Pulse, Benchmarks, Chat with Data, and more.
+            A 15-minute walkthrough of Pulse, Benchmarks, Sundae Intelligence, and more.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button

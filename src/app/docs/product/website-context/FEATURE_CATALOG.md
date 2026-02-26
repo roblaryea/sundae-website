@@ -134,7 +134,7 @@
 
 ---
 
-## 5. Chat with Data — Conversational Analytics
+## 5. Sundae Intelligence — AI-Powered Analytics
 
 > Route: `/core/chat-with-data/*` | Permission: `ai:use`
 
@@ -147,9 +147,9 @@
 | Voice Input | Voice-to-text input for queries | Live |
 | Multi-outlet Scope | Select specific outlet or organization-wide queries | Live |
 | Link Code Sharing | Generate shareable link codes for conversations | Live |
-| Telegram Bot | Chat with data via Telegram (default + custom org bots) | Live |
-| Slack Bot | Chat with data via Slack (default + custom org apps) | Live |
-| Microsoft Teams Bot | Chat with data via Teams (default + custom org apps) | Live |
+| Telegram Bot | Sundae Intelligence via Telegram (default + custom org bots) | Live |
+| Slack Bot | Sundae Intelligence via Slack (default + custom org apps) | Live |
+| Microsoft Teams Bot | Sundae Intelligence via Teams (default + custom org apps) | Live |
 | Data Sources | Connect custom PostgreSQL, MSSQL, or file-based data sources | Live |
 | AI Credit System | Token-based usage metering via AI wallet | Live |
 

@@ -6,28 +6,28 @@ import { Card, CardContent } from "@/components/ui/Card";
 import { motion } from "framer-motion";
 import { useCta } from "@/lib/cta";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
-import { REPORT_APP_URL } from "@/lib/urls";
+import { REPORT_APP_URL, SIGNUP_URL } from "@/lib/urls";
 
 const capabilities: { title: string; description: string; icon: SundaeIconName }[] = [
   {
-    title: "Natural Language Queries",
-    description: "Ask questions in plain English — no SQL or technical knowledge required.",
+    title: "Chat Mode",
+    description: "Ask questions in plain English — no SQL or technical knowledge required. Get answers backed by your real operational data.",
     icon: "conversation"
+  },
+  {
+    title: "Monitor Mode",
+    description: "Real-time alerts and anomaly detection. Get notified when metrics move outside expected ranges.",
+    icon: "intelligence"
+  },
+  {
+    title: "Briefing Mode",
+    description: "AI-generated summaries delivered on schedule — daily, weekly, or triggered by events.",
+    icon: "schedule"
   },
   {
     title: "Multi-Channel Access",
     description: "Web app, Telegram, Slack, and Microsoft Teams — wherever your team already works.",
     icon: "integration"
-  },
-  {
-    title: "Conversation History",
-    description: "Context-aware responses that remember previous questions. Organize with folders.",
-    icon: "intelligence"
-  },
-  {
-    title: "Scheduled Queries",
-    description: "Set up recurring reports that run automatically and deliver insights on schedule.",
-    icon: "schedule"
   },
   {
     title: "Multi-Outlet Scope",
@@ -56,10 +56,10 @@ export default function ChatWithDataPage() {
               transition={{ duration: 0.6 }}
             >
               <p className="text-xs font-semibold tracking-[0.18em] uppercase text-slate-500 mb-4">
-                CONVERSATIONAL ANALYTICS
+                AI-POWERED ANALYTICS
               </p>
               <h1 className="hero-h1 text-gray-900 dark:text-white mb-6">
-                Chat with Your Data
+                Sundae Intelligence
               </h1>
               <p className="body-xl text-gray-600 dark:text-slate-300 mb-6 max-w-xl">
                 Ask questions in natural language. Get answers backed by your real operational data — on web, Telegram, Slack, or Microsoft Teams.
@@ -68,8 +68,8 @@ export default function ChatWithDataPage() {
                 <Button
                   variant="primary"
                   size="lg"
-                  href={REPORT_APP_URL}
-                  onClick={() => cta(REPORT_APP_URL, "try_chat_hero", { page: "/chat-with-data" })}
+                  href={SIGNUP_URL}
+                  onClick={() => cta(SIGNUP_URL, "try_chat_hero", { page: "/chat-with-data" })}
                 >
                   Try It Free
                 </Button>
@@ -98,7 +98,7 @@ export default function ChatWithDataPage() {
               <div className="rounded-xl overflow-hidden shadow-2xl border border-slate-200/60 dark:border-slate-700">
                 <Image
                   src="/images/product/chat-with-data.png"
-                  alt="Chat with Data — natural language querying interface"
+                  alt="Sundae Intelligence — conversational analytics interface"
                   width={800}
                   height={500}
                   className="w-full h-auto"
@@ -184,7 +184,7 @@ export default function ChatWithDataPage() {
             Stop Digging Through Dashboards
           </h2>
           <p className="body-lg mb-8 opacity-90">
-            Just ask. Chat with Data is included in every Sundae plan.
+            Sundae Intelligence is available across all Sundae tiers — unlock the full suite with Intelligence Pro.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
@@ -198,7 +198,7 @@ export default function ChatWithDataPage() {
             <Button
               variant="outline-light"
               size="lg"
-              onClick={() => cta(REPORT_APP_URL, "start_free_chat_cta", { page: "/chat-with-data" })}
+              onClick={() => cta(SIGNUP_URL, "start_free_chat_cta", { page: "/chat-with-data" })}
             >
               Start Free →
             </Button>

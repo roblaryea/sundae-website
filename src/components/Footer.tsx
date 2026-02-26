@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { Button } from './ui/Button';
 import { useCta } from '@/lib/cta';
 import { PRICING_URL } from '@/lib/links';
-import { REPORT_APP_URL } from '@/lib/urls';
+import { REPORT_APP_URL, SIGNUP_URL } from '@/lib/urls';
 
 // SVG Icons for footer info
 const GlobeIcon = () => (
@@ -35,7 +35,7 @@ const Footer = () => {
     { name: 'Benchmarks', href: '/benchmarking' },
     { name: 'Watchtower', href: '/product/watchtower' },
     { name: 'Insights', href: '/insights' },
-    { name: 'Chat with Data', href: '/chat-with-data' },
+    { name: 'Sundae Intelligence', href: '/chat-with-data' },
   ];
 
   const planLinks = [
@@ -100,7 +100,7 @@ const Footer = () => {
             <Button
               variant="outline-light"
               size="lg"
-              href={REPORT_APP_URL}
+              href={SIGNUP_URL}
             >
               Start Free with Report
             </Button>

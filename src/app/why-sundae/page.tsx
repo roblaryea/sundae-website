@@ -37,7 +37,7 @@ const differentiators: { title: string; description: string; icon: SundaeIconNam
   },
   {
     title: "Conversational Access",
-    description: "Ask questions in natural language via Chat with Data — on web, Telegram, Slack, or Microsoft Teams.",
+    description: "Ask questions in natural language via Sundae Intelligence — on web, Telegram, Slack, or Microsoft Teams.",
     icon: "forge",
     color: "bg-orange-600"
   },

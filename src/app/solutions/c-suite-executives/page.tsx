@@ -47,7 +47,7 @@ export default function CSuiteExecutivesPage() {
     {
       title: "Instant Strategic Answers",
       description: "Ask Sundae \u2018What\u2019s driving margin compression?\u2019 or \u2018Which locations are losing to competitor promotions?\u2019 and get data-backed answers that combine internal performance with external market context.",
-      product: "Chat with Data",
+      product: "Sundae Intelligence",
       icon: "intelligence"
     },
     {
