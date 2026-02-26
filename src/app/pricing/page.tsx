@@ -7,7 +7,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/com
 import { Accordion } from '@/components/ui/Accordion';
 import { motion } from 'framer-motion';
 import { SundaeIcon, type SundaeIconName } from '@/components/icons';
-import { PRICING_URL } from '@/lib/urls';
+import { PRICING_URL, SIGNUP_URL } from '@/lib/urls';
 
 type Tier = {
   name: string;
@@ -473,7 +473,7 @@ export default function PricingPage() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <Link href="/report">
+              <Link href={SIGNUP_URL}>
                 <Button
                   variant="secondary"
                   size="lg"

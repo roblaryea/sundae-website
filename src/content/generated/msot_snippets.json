@@ -1,0 +1,151 @@
+{
+  "cta": {
+    "primary": "Book a Demo",
+    "secondary": "Start Free Trial"
+  },
+  "generated_at": "2026-02-23T14:36:46.191Z",
+  "hero": {
+    "bullets": [
+      "Ingests 12 operational data domains",
+      "5 intelligence layers: Performance Report, Pulse, Benchmark, Watchtower, Insights",
+      "Conversational AI for plain-English data questions"
+    ],
+    "headline": "Decision Intelligence for Restaurants",
+    "subheadline": "Turn fragmented operational signals into daily actions through real-time Pulse, benchmarking, and automated insights."
+  },
+  "modules": [
+    {
+      "blurb": "Anonymized industry benchmarking — the STR model for restaurants. Seven sections with network-effect data moat.",
+      "bullets": [
+        "RevPASH, Seat Occupancy, Average Check, Total Revenue with compset median and percentile rankings",
+        "Financial, Operational, Space & Rent, Revenue Mix, Daypart Heatmap tabs",
+        "4W/8W/12W period selector with your-line vs. compset median and P25-P75 band",
+        "AI-driven predictive analytics (Forecast)",
+        "Market-level benchmarking"
+      ],
+      "name": "Benchmark"
+    },
+    {
+      "blurb": "(Details pending)",
+      "bullets": [
+        "Natural language query interface with three-panel layout",
+        "NL-to-SQL conversion and execution",
+        "Structured visual responses (KPI cards, charts, analysis cards, tables, HTML reports)",
+        "Voice input via Web Speech API",
+        "Conversation folders with pinning"
+      ],
+      "name": "Sundae Intelligence"
+    },
+    {
+      "blurb": "10 deep analytics modules across every operational domain.",
+      "bullets": [],
+      "name": "Insights"
+    },
+    {
+      "blurb": "Historical analytics foundation. Six report tabs covering full sales performance: Overview, Revenue Mix, Category Performance, Tender Mix, Daypart Analysis, Guest Counting.",
+      "bullets": [
+        "6 report tabs (Overview, Revenue Mix, Category Performance, Tender Mix, Daypart Analysis, Guest Counting)",
+        "Interactive charts (area, bar, pie, line, radial bar)",
+        "Multi-restaurant selector with segment filtering",
+        "Date range comparison (vs. last year, last month, custom)",
+        "Monthly target setting with proration"
+      ],
+      "name": "Performance Report"
+    },
+    {
+      "blurb": "Real-time operations command center with 17 sub-pages.",
+      "bullets": [
+        "Hero pace bar with adaptive AI targets and hourly breakdown",
+        "Active staff tracking with SPLH and break compliance",
+        "Bottleneck detection across KITCHEN/HOST/POS zones",
+        "Void/refund/discount/comp anomaly detection with per-employee patterns",
+        "86'd items, critical low, prep shortage, velocity tracking"
+      ],
+      "name": "Pulse"
+    },
+    {
+      "blurb": "External market and competitive intelligence engine with 4 sections.",
+      "bullets": [
+        "AI-generated morning briefing with context KPI strip (weather/events/revenue)",
+        "Prioritized action items and unified signal feed",
+        "Google Places competitor discovery with configurable radius",
+        "Competitor tracking with ratings history and review themes",
+        "Sentiment landscape analysis and alert feed"
+      ],
+      "name": "Watchtower"
+    }
+  ],
+  "pricingSummary": {
+    "plans": [
+      {
+        "from": "TODO",
+        "name": "Starter",
+        "note": "Essential visibility for small multi-unit operators."
+      },
+      {
+        "from": "TODO",
+        "name": "Growth",
+        "note": "Full operational intelligence for scaling restaurant groups."
+      },
+      {
+        "from": "TODO",
+        "name": "Enterprise",
+        "note": "Complete platform with competitive intelligence and custom SLAs."
+      }
+    ]
+  },
+  "proof": {
+    "bullets": [
+      "179+ data models in the platform",
+      "200+ backend services",
+      "100+ frontend pages",
+      "12 distinct data domains ingested",
+      "15 registered AI routes",
+      "22 production modules",
+      "17 sub-pages in Pulse",
+      "10 Insights deep analytics modules"
+    ],
+    "items": [
+      {
+        "claim": "179+ data models in the platform",
+        "unit": "models",
+        "value": "179+"
+      },
+      {
+        "claim": "200+ backend services",
+        "unit": "services",
+        "value": "200+"
+      },
+      {
+        "claim": "100+ frontend pages",
+        "unit": "pages",
+        "value": "100+"
+      },
+      {
+        "claim": "12 distinct data domains ingested",
+        "unit": "domains",
+        "value": "12"
+      },
+      {
+        "claim": "15 registered AI routes",
+        "unit": "routes",
+        "value": "15"
+      },
+      {
+        "claim": "22 production modules",
+        "unit": "modules",
+        "value": "22"
+      },
+      {
+        "claim": "17 sub-pages in Pulse",
+        "unit": "sub-pages",
+        "value": "17"
+      },
+      {
+        "claim": "10 Insights deep analytics modules",
+        "unit": "modules",
+        "value": "10"
+      }
+    ]
+  }
+}

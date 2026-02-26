@@ -7,7 +7,7 @@ import { motion, useInView, useReducedMotion, MotionConfig } from "framer-motion
 import { useRef, useEffect, useState } from "react";
 import { useCta } from "@/lib/cta";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
-import { REPORT_APP_URL } from "@/lib/urls";
+import { REPORT_APP_URL, SIGNUP_URL } from "@/lib/urls";
 import { BrowserFrame } from "@/components/ui/BrowserFrame";
 
 // Count-up animation hook
@@ -104,12 +104,12 @@ const productPillars: { name: string; subtitle: string; description: string; ico
     link: "/insights"
   },
   {
-    name: "Chat with Data",
-    subtitle: "Conversational Analytics",
-    description: "Ask anything. Get answers in Slack, Teams, Telegram, or on the web.",
+    name: "Sundae Intelligence",
+    subtitle: "AI-Powered Analytics",
+    description: "AI-powered insights across Chat, Monitor, and Briefing modes — on web, Slack, Teams, or Telegram.",
     icon: "conversation",
     screenshot: "/images/product/chat-with-data.png",
-    screenshotAlt: "Chat with Data natural language querying interface with suggested questions",
+    screenshotAlt: "Sundae Intelligence conversational analytics interface",
     badge: "AI-POWERED",
     badgeClass: "badge--popular",
     link: "/chat-with-data"
@@ -161,8 +161,8 @@ export default function HomeContent() {
               <Button
                 variant="primary"
                 size="lg"
-                href={REPORT_APP_URL}
-                onClick={() => cta(REPORT_APP_URL, "start_free_report_hero", { page: "/home" })}
+                href={SIGNUP_URL}
+                onClick={() => cta(SIGNUP_URL, "start_free_report_hero", { page: "/home" })}
               >
                 Start Free
               </Button>
@@ -657,7 +657,7 @@ export default function HomeContent() {
             <Button
               variant="outline-light"
               size="lg"
-              onClick={() => cta(REPORT_APP_URL, "get_report_footer_cta", { page: "/home" })}
+              onClick={() => cta(SIGNUP_URL, "get_report_footer_cta", { page: "/home" })}
             >
               Start Free →
             </Button>

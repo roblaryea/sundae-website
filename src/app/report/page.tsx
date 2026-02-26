@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { BrowserFrame } from "@/components/ui/BrowserFrame";
 import { useCta } from "@/lib/cta";
-import { REPORT_APP_URL, PRICING_URL } from "@/lib/urls";
+import { REPORT_APP_URL, PRICING_URL, SIGNUP_URL } from "@/lib/urls";
 
 export default function ReportProductPage() {
   const cta = useCta();
@@ -182,7 +182,7 @@ export default function ReportProductPage() {
               Start with Report Lite — free forever. No credit card. No commitment. Just upload your POS data and see where you rank.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
-              <a href={REPORT_APP_URL} onClick={() => cta(REPORT_APP_URL, "start_free_benchmark", { page: "/report-product" })} className="btn-primary btn-lg">
+              <a href={SIGNUP_URL} onClick={() => cta(SIGNUP_URL, "start_free_benchmark", { page: "/report-product" })} className="btn-primary btn-lg">
                 Start Free Benchmark
               </a>
               <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="btn-secondary btn-lg">

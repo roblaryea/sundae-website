@@ -11,7 +11,7 @@
 - **Package name:** `sundae-app`
 - **Category:** Restaurant Decision Intelligence Platform
 - **General Product definition:** Sundae is a **Decision Intelligence platform** for restaurant and hospitality operators. 
-It ingests internal operational data (POS, labor, inventory, finance) and external signals (benchmarks, delivery aggregators, footfall, weather, pricing, reviews, currency, competitor activity, events), transforming fragmented information into real-time decision views, AI-powered analysis, operational monitoring (Pulse), and conversational access (via Chat with Data).
+It ingests internal operational data (POS, labor, inventory, finance) and external signals (benchmarks, delivery aggregators, footfall, weather, pricing, reviews, currency, competitor activity, events), transforming fragmented information into real-time decision views, AI-powered analysis, operational monitoring (Pulse), and conversational access (via Sundae Intelligence).
 ---
 
 ## Module Taglines (Verbatim from Page Headers)
@@ -71,12 +71,12 @@ It ingests internal operational data (POS, labor, inventory, finance) and extern
 
 | Tier | Base Price | Per Location | AI Credits (Base) | AI Credits (Per Location) |
 |---|---|---|---|---|
-| Report Lite | $0 | $0 | 400 | 80 |
-| Report Plus | $59 | $25 | 1,500 | 300 |
-| Report Pro | $119 | $45 | 4,000 | 800 |
-| Core Lite | $199 | $39 | 8,000 | 1,600 |
-| Core Pro | $349 | $35 | 14,000 | 2,800 |
-| Enterprise | Custom | Custom | 50,000 | 10,000 |
+| Report Lite | $0 | $0 | 250 | 80 |
+| Report Plus | $79 | $39 | 1,200 | 300 |
+| Report Pro | $159 | $59 | 3,500 | 800 |
+| Core Lite | $279 | $79 | 8,000 | 1,600 |
+| Core Pro | $449 | $89 | 14,000 | 2,800 |
+| Enterprise | Custom | Custom | 50,000 | 5,000 |
 
 **Annual discount:** 10%
 
@@ -304,7 +304,7 @@ It ingests internal operational data (POS, labor, inventory, finance) and extern
 | `dashboards:view` | Access Benchmarks, Watchtower, Insights |
 | `integrations:view` | View Data & Integrations |
 | `integrations:manage` | Manage integration connections |
-| `ai:use` | Access Chat with Data |
+| `ai:use` | Access Sundae Intelligence |
 | `data:view` | View data sources and sync dashboard |
 | `org:settings` | Organization settings, departments, job roles |
 | `restaurants:view` | View restaurant list |

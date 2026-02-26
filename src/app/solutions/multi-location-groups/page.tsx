@@ -47,7 +47,7 @@ export default function MultiLocationGroupsPage() {
     {
       title: "Conversational Intelligence",
       description: "Ask Sundae \u2018Which locations are underperforming on labor cost?\u2019 or \u2018Where are competitors gaining ground?\u2019 and get instant answers combining internal performance with external market context.",
-      product: "Chat with Data",
+      product: "Sundae Intelligence",
       icon: "intelligence"
     },
     {

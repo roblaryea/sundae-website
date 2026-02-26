@@ -10,7 +10,7 @@ import { DarkModeToggle } from './DarkModeToggle';
 import Image from 'next/image';
 import { useCta } from '@/lib/cta';
 import { PRICING_URL } from '@/lib/links';
-import { REPORT_APP_URL } from '@/lib/urls';
+import { REPORT_APP_URL, SIGNUP_URL } from '@/lib/urls';
 
 // Chevron Icon Component
 const ChevronIcon = ({ isOpen }: { isOpen: boolean }) => (
@@ -183,7 +183,7 @@ const Navbar = () => {
     { name: 'Benchmarks', description: 'Competitive intelligence', href: '/benchmarking' },
     { name: 'Watchtower', description: 'External market signals', href: '/product/watchtower' },
     { name: 'Insights', description: 'Specialized analytics modules', href: '/insights' },
-    { name: 'Chat with Data', description: 'Conversational analytics', href: '/chat-with-data' },
+    { name: 'Sundae Intelligence', description: 'AI-powered conversational analytics', href: '/chat-with-data' },
   ];
 
   // Product Tiers
@@ -603,7 +603,7 @@ const Navbar = () => {
                 Compare Plans →
               </MobileNavLink>
               <a
-                href={REPORT_APP_URL}
+                href={SIGNUP_URL}
                 onClick={handleMobileNavClick}
                 className="block py-2.5 px-4 text-sm font-medium transition-colors duration-150 text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-slate-800/60"
               >

@@ -7,7 +7,7 @@
 ## What Is Sundae?
 
 Sundae is a **Decision Intelligence platform** for restaurant and hospitality operators. 
-It ingests internal operational data (POS, labor, inventory, finance) and external signals (benchmarks, delivery aggregators, footfall, weather, pricing, reviews, currency, competitor activity, events), transforming fragmented information into real-time decision views, AI-powered analysis, operational monitoring (Pulse), and conversational access (via Chat with Data).
+It ingests internal operational data (POS, labor, inventory, finance) and external signals (benchmarks, delivery aggregators, footfall, weather, pricing, reviews, currency, competitor activity, events), transforming fragmented information into real-time decision views, AI-powered analysis, operational monitoring (Pulse), and conversational access (via Sundae Intelligence).
 
 ## Tech Stack (customer-relevant)
 
@@ -32,7 +32,7 @@ Tracks competitor activity (ratings, reviews, menu pricing), weather with predic
 ### 4. Insights — Intelligence Modules
 Analytical dashboards for deep-diving into specific operational domains. Performance Report is live; additional modules (Revenue, Labor, Inventory, Purchasing, Marketing, Reservations, Profit, Revenue Assurance, Delivery, Economic, Guest Experience, Accounting, Guest CRM) are coming soon.
 
-### 5. Chat with Data — Conversational Analytics
+### 5. Sundae Intelligence — AI-Powered Analytics
 Natural-language querying of restaurant data. Available via the web app and through Telegram, Slack, and Microsoft Teams bots. Supports conversation history, folders, scheduled queries, multi-outlet scope selection, and link-code sharing.
 
 ### 6. Integrations Hub — 11-Domain Data Ingestion
