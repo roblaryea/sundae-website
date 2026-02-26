@@ -30,13 +30,13 @@ const reportTiers: Tier[] = [
     badgeClass: "bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400",
     basePrice: "$0",
     perLocation: "$0",
-    aiCredits: "400",
+    aiCredits: "250",
     description: "Upload your POS data and get instant benchmarking. No credit card required.",
     features: [
       "Manual CSV upload",
       "5 core performance metrics",
       "Anonymous peer benchmarking",
-      "90-day data retention",
+      "90-day historical access",
       "Email support (72-hour response)"
     ],
     cta: "Start Free",
@@ -46,16 +46,16 @@ const reportTiers: Tier[] = [
     name: "Report Plus",
     badge: "POPULAR",
     badgeClass: "bg-orange-100 text-orange-800 dark:bg-orange-900/30 dark:text-orange-400",
-    basePrice: "$59",
-    perLocation: "$25",
-    aiCredits: "1,500",
-    description: "AI-parsed data ingestion with deeper analysis and weekly insights.",
+    basePrice: "$79",
+    perLocation: "$39",
+    aiCredits: "1,200",
+    description: "AI-parsed data ingestion with deeper analysis and monthly intelligence summaries.",
     features: [
       "AI-parsed uploads (PDF, Excel, screenshots)",
-      "Full performance dashboards",
-      "AI executive summary & weekly brief",
+      "~30 comprehensive visuals",
+      "Monthly intelligence summaries",
       "Comparable period views (WoW/MoM/YoY)",
-      "1-year data retention",
+      "1-year historical access",
       "Email + Chat support (24-hour response)"
     ],
     cta: "Get Started",
@@ -64,16 +64,16 @@ const reportTiers: Tier[] = [
   },
   {
     name: "Report Pro",
-    basePrice: "$119",
-    perLocation: "$35",
-    aiCredits: "4,000",
+    basePrice: "$159",
+    perLocation: "$59",
+    aiCredits: "3,500",
     description: "Automated daily ingestion with advanced AI insights and team collaboration.",
     features: [
       "Daily automated data sync",
-      "Advanced AI insights & recommendations",
+      "~80 comprehensive visuals",
+      "Weekly intelligence summaries",
       "Shareable charts + team collaboration",
-      "PDF export & scheduled reports",
-      "2-year data retention",
+      "2-year historical access",
       "Priority support (12-hour response)"
     ],
     cta: "Get Started",
@@ -84,8 +84,8 @@ const reportTiers: Tier[] = [
 const coreTiers: Tier[] = [
   {
     name: "Core Lite",
-    basePrice: "$199",
-    perLocation: "$39",
+    basePrice: "$279",
+    perLocation: "$79",
     aiCredits: "8,000",
     description: "Real-time operational intelligence with 15-minute data refresh cycles.",
     features: [
@@ -94,7 +94,7 @@ const coreTiers: Tier[] = [
       "POS API integration",
       "Pulse intraday monitoring",
       "Smart alerts & anomaly detection",
-      "Chat with Data (web)",
+      "Sundae Intelligence (Chat + Monitor)",
       "Watchtower external intelligence",
       "Chat support (4-hour response)"
     ],
@@ -105,8 +105,8 @@ const coreTiers: Tier[] = [
     name: "Core Pro",
     badge: "MOST POPULAR",
     badgeClass: "bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-400",
-    basePrice: "$349",
-    perLocation: "$35",
+    basePrice: "$449",
+    perLocation: "$89",
     aiCredits: "14,000",
     description: "Full intelligence stack with 5-minute refresh, multi-POS support, and advanced modules.",
     features: [
@@ -114,7 +114,7 @@ const coreTiers: Tier[] = [
       "5-minute data refresh",
       "Multi-POS support across locations",
       "AI playbooks & automated workflows",
-      "Chat with Data (web + Slack/Teams/Telegram)",
+      "Sundae Intelligence (all modes)",
       "Benchmarks & market intelligence",
       "Watchtower external intelligence",
       "Priority phone support (2-hour response)"
@@ -311,7 +311,7 @@ export default function PricingPage() {
                         "Role-based access with audit trails",
                         "Dedicated Customer Success Manager",
                         "24/7 support with contractual SLAs",
-                        "Custom data retention (5+ years)",
+                        "Custom historical access (5+ years)",
                         "Unlimited AI credits & custom dashboards"
                       ].map((feature, index) => (
                         <li key={index} className="flex items-start space-x-2.5">
