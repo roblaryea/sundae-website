@@ -112,7 +112,7 @@ const productPillars: { name: string; subtitle: string; description: string; ico
     screenshotAlt: "Sundae Intelligence conversational analytics interface",
     badge: "AI-POWERED",
     badgeClass: "badge--popular",
-    link: "/chat-with-data"
+    link: "/intelligence"
   }
 ];
 

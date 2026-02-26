@@ -183,7 +183,7 @@ const Navbar = () => {
     { name: 'Benchmarks', description: 'Competitive intelligence', href: '/benchmarking' },
     { name: 'Watchtower', description: 'External market signals', href: '/product/watchtower' },
     { name: 'Insights', description: 'Specialized analytics modules', href: '/insights' },
-    { name: 'Sundae Intelligence', description: 'AI-powered conversational analytics', href: '/chat-with-data' },
+    { name: 'Sundae Intelligence', description: 'AI-powered conversational analytics', href: '/intelligence' },
   ];
 
   // Product Tiers

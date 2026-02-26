@@ -77,7 +77,7 @@ const pillars: {
     screenshot: "/images/product/chat-with-data.png",
     screenshotAlt: "Sundae Intelligence interface with conversational analytics",
     features: ["Chat Mode (Natural Language)", "Monitor Mode (Real-time Alerts)", "Briefing Mode (AI Summaries)", "Web + Telegram + Slack + Teams", "Conversation History", "AI Credit System"],
-    link: "/chat-with-data",
+    link: "/intelligence",
     status: "live",
     color: "from-green-500 to-emerald-600"
   },
