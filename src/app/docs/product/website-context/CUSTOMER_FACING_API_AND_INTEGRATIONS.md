@@ -107,20 +107,20 @@ Sundae provides native chat bots for conversational data queries on three platfo
 - Default Sundae bot with `/link`, `/start`, `/help` commands
 - Custom per-organization bot support
 - Inline keyboard for multi-outlet selection (up to 8 outlets + "All")
-- Webhook endpoint: `POST /api/chat-with-data/telegram/webhook`
+- Webhook endpoint: `POST /api/intelligence/telegram/webhook`
 
 ### Slack
 - Default Sundae Slack app with `/link` command
 - Channel mentions and DM support with thread threading
 - Custom per-organization Slack app support
 - Signature verification via `x-slack-signature`
-- Webhook endpoint: `POST /api/chat-with-data/slack/events`
+- Webhook endpoint: `POST /api/intelligence/slack/events`
 
 ### Microsoft Teams
 - Default Sundae Teams app with `/link` command
 - Group chat detection and activity-based routing
 - Custom per-organization Teams app support
-- Webhook endpoint: `POST /api/chat-with-data/teams/webhook`
+- Webhook endpoint: `POST /api/intelligence/teams/webhook`
 
 ### Common Bot Features
 - Account linking via link codes
