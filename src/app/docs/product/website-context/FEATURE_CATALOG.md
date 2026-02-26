@@ -136,7 +136,7 @@
 
 ## 5. Sundae Intelligence — AI-Powered Analytics
 
-> Route: `/core/chat-with-data/*` | Permission: `ai:use`
+> Route: `/core/intelligence/*` | Permission: `ai:use`
 
 | Feature | Description | Status |
 |---|---|---|

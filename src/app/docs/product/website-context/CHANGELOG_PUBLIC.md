@@ -19,7 +19,7 @@
 - **Event calendar** — Track public holidays, religious events, sports events, school breaks, and nearby happenings with historical revenue impact data.
 - **AI briefings** — Auto-generated daily, weekly competitive, event prep, and Ramadan briefings.
 
-### Chat with Data V2
+### Sundae Intelligence V2
 - **Three-panel layout** — Redesigned interface with conversation list, chat panel, and response cards.
 - **Chat folders** — Organize conversations into custom folders.
 - **Scheduled queries** — Set recurring data queries on a schedule.
@@ -77,7 +77,7 @@
 
 ### AI & Analytics
 - **AI credit system** — Per-organization credit wallet with usage tracking and top-up add-ons.
-- **Chat with Data V1** — Natural language queries against restaurant data via web interface.
+- **Sundae Intelligence V1** — Natural language queries against restaurant data via web interface.
 - **Daily Insights** — AI-generated daily summary with weather data integration.
 
 ### POS Integrations
