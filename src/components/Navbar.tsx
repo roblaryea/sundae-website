@@ -184,6 +184,7 @@ const Navbar = () => {
     { name: 'Watchtower', description: 'External market signals', href: '/product/watchtower' },
     { name: 'Insights', description: 'Specialized analytics modules', href: '/insights' },
     { name: 'Sundae Intelligence', description: 'AI-powered conversational analytics', href: '/intelligence' },
+    { name: 'Cross-Intelligence', description: 'Cross-module correlation engine', href: '/product/cross-intelligence' },
   ];
 
   // Product Tiers

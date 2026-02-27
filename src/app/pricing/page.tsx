@@ -340,7 +340,7 @@ export default function PricingPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
             {([
               {
                 name: "Watchtower",
@@ -355,6 +355,13 @@ export default function PricingPage() {
                 note: "Requires Core tier. Priced per module.",
                 icon: "data" as SundaeIconName,
                 color: "from-purple-500 to-purple-600"
+              },
+              {
+                name: "Cross-Intelligence",
+                description: "Auto-unlocking correlation engine that surfaces hidden connections across modules. Base free at 3+ modules; Pro adds full attribution & cannibalization detection.",
+                note: "Requires Core tier with 3+ modules. Pro: $199/mo + $19/loc",
+                icon: "crossIntelligence" as SundaeIconName,
+                color: "from-purple-500 to-cyan-600"
               },
               {
                 name: "AI Credit Top-Ups",
