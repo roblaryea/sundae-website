@@ -126,7 +126,8 @@ export type SundaeIconName =
   | "document"
   | "conversation"
   | "visibility"
-  | "network";
+  | "network"
+  | "crossIntelligence";
 
 interface SundaeIconProps {
   name: SundaeIconName;
@@ -211,6 +212,7 @@ const iconMap: Record<SundaeIconName, LucideIcon> = {
   conversation: MessageSquare,
   visibility: Eye,
   network: Network,
+  crossIntelligence: GitBranch,
 };
 
 export function SundaeIcon({ name, className, size = "md" }: SundaeIconProps) {

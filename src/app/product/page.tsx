@@ -212,6 +212,7 @@ export default function ProductPage() {
                     <li className="flex items-center gap-2"><span className="text-purple-500">&#10003;</span> Pulse (intraday operations)</li>
                     <li className="flex items-center gap-2"><span className="text-purple-500">&#10003;</span> Watchtower (market intelligence)</li>
                     <li className="flex items-center gap-2"><span className="text-purple-500">&#10003;</span> Intelligence Modules</li>
+                    <li className="flex items-center gap-2"><span className="text-purple-500">&#10003;</span> Cross-Intelligence (at 3+ modules)</li>
                     <li className="flex items-center gap-2"><span className="text-purple-500">&#10003;</span> AI Coach & Playbooks</li>
                   </ul>
                   <Button
@@ -249,7 +250,7 @@ export default function ProductPage() {
               Five Pillars of Decision Intelligence
             </h2>
             <p className="body-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Each pillar handles a distinct dimension of your operations. Together, they form a complete decision intelligence platform.
+              Each pillar handles a distinct dimension of your operations. Together, they form a complete decision intelligence platform — with Cross-Intelligence connecting insights across every module.
             </p>
           </div>
 
