@@ -36,6 +36,7 @@ const Footer = () => {
     { name: 'Watchtower', href: '/product/watchtower' },
     { name: 'Insights', href: '/insights' },
     { name: 'Sundae Intelligence', href: '/intelligence' },
+    { name: 'Cross-Intelligence', href: '/product/cross-intelligence' },
   ];
 
   const planLinks = [
