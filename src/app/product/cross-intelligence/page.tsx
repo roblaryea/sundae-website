@@ -1,5 +1,6 @@
 'use client';
 
+import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/Card";
 import { motion } from "framer-motion";
@@ -15,6 +16,7 @@ const components: {
   icon: SundaeIconName;
   color: string;
   tier: 'base' | 'pro';
+  image: string;
 }[] = [
   {
     title: "Marketing Impact Timeline",
@@ -29,6 +31,7 @@ const components: {
     icon: "chart",
     color: "from-purple-500 to-purple-600",
     tier: 'base',
+    image: "/images/product/marketing_Impact.png",
   },
   {
     title: "Cause & Effect Cards",
@@ -43,6 +46,7 @@ const components: {
     icon: "idea",
     color: "from-cyan-500 to-blue-600",
     tier: 'base',
+    image: "/images/product/cause_effect.png",
   },
   {
     title: "Correlation Matrix",
@@ -58,6 +62,7 @@ const components: {
     icon: "data",
     color: "from-violet-500 to-purple-600",
     tier: 'pro',
+    image: "/images/product/correlation_matrix.png",
   },
   {
     title: "Revenue Attribution Waterfall",
@@ -72,6 +77,7 @@ const components: {
     icon: "performance",
     color: "from-blue-500 to-indigo-600",
     tier: 'pro',
+    image: "/images/product/revenue_attribution.png",
   },
   {
     title: "Spend Efficiency Radar",
@@ -86,6 +92,7 @@ const components: {
     icon: "balance",
     color: "from-emerald-500 to-teal-600",
     tier: 'pro',
+    image: "/images/product/efficiency_radar.png",
   },
   {
     title: "Campaign Pulse Monitor",
@@ -100,6 +107,7 @@ const components: {
     icon: "pulse",
     color: "from-rose-500 to-pink-600",
     tier: 'pro',
+    image: "/images/product/campaign_pulse.png",
   },
   {
     title: "Cannibalization Detector",
@@ -115,6 +123,7 @@ const components: {
     icon: "warning",
     color: "from-amber-500 to-orange-600",
     tier: 'pro',
+    image: "/images/product/cannibalization_detector.png",
   },
   {
     title: "What Changed Engine",
@@ -129,6 +138,7 @@ const components: {
     icon: "search",
     color: "from-slate-500 to-slate-700",
     tier: 'base',
+    image: "/images/product/what_changed.png",
   },
 ];
 
@@ -244,20 +254,16 @@ export default function CrossIntelligencePage() {
                 transition={{ duration: 0.6, delay: index * 0.05 }}
               >
                 <div className={`grid md:grid-cols-2 gap-8 items-center ${index % 2 === 1 ? 'md:grid-flow-dense' : ''}`}>
-                  {/* Visual placeholder */}
+                  {/* Screenshot */}
                   <div className={index % 2 === 1 ? 'md:col-start-2' : ''}>
-                    <div className={`rounded-xl overflow-hidden shadow-xl border border-slate-200/60 dark:border-slate-700 bg-gradient-to-br ${component.color} p-12 flex items-center justify-center min-h-[300px]`}>
-                      <div className="text-center text-white">
-                        <SundaeIcon name={component.icon} size="xl" className="mx-auto mb-4 opacity-80" />
-                        <p className="text-2xl font-bold opacity-90">{component.title}</p>
-                        <span className={`inline-block mt-3 px-3 py-1 rounded-full text-xs font-semibold ${
-                          component.tier === 'base'
-                            ? 'bg-white/20 text-white'
-                            : 'bg-white/30 text-white'
-                        }`}>
-                          {component.tier === 'base' ? 'Included in Base' : 'Pro Feature'}
-                        </span>
-                      </div>
+                    <div className="rounded-xl overflow-hidden shadow-xl border border-slate-200/60 dark:border-slate-700">
+                      <Image
+                        src={component.image}
+                        alt={`${component.title} screenshot`}
+                        width={720}
+                        height={450}
+                        className="w-full h-auto object-cover"
+                      />
                     </div>
                   </div>
 
