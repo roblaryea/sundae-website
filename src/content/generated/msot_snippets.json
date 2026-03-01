@@ -3,7 +3,7 @@
     "primary": "Book a Demo",
     "secondary": "Start Free Trial"
   },
-  "generated_at": "2026-02-23T14:36:46.191Z",
+  "generated_at": "2026-03-01T00:00:00.000Z",
   "hero": {
     "bullets": [
       "Ingests 12 operational data domains",
@@ -26,19 +26,27 @@
       "name": "Benchmark"
     },
     {
-      "blurb": "(Details pending)",
+      "blurb": "Conversational AI interface with 4 intelligence modes — ask any question about your restaurant data in plain English.",
       "bullets": [
         "Natural language query interface with three-panel layout",
+        "4 intelligence modes: Chat, Monitor, Analyst, Strategist",
         "NL-to-SQL conversion and execution",
         "Structured visual responses (KPI cards, charts, analysis cards, tables, HTML reports)",
-        "Voice input via Web Speech API",
-        "Conversation folders with pinning"
+        "Voice input, conversation folders, scheduled queries, shareable links"
       ],
       "name": "Sundae Intelligence"
     },
     {
-      "blurb": "10 deep analytics modules across every operational domain.",
-      "bullets": [],
+      "blurb": "12 deep analytics modules across every operational domain.",
+      "bullets": [
+        "Revenue Intelligence — sales deep-dive with menu mix, daypart timing, channel segments",
+        "Labor Intelligence — scheduling optimization, overtime alerts, SPLH tracking",
+        "Inventory Intelligence — usage tracking, waste analysis, par level monitoring",
+        "Purchasing Intelligence — cost tracking, vendor comparison, procurement optimization",
+        "Profit Intelligence — prime cost, break-even, margin analysis",
+        "Revenue Assurance — void/discount patterns, cash control, anomaly detection",
+        "Cross-Intelligence — cross-domain correlations, auto-enables at 3+ modules"
+      ],
       "name": "Insights"
     },
     {
@@ -78,19 +86,34 @@
   "pricingSummary": {
     "plans": [
       {
-        "from": "TODO",
-        "name": "Starter",
-        "note": "Essential visibility for small multi-unit operators."
+        "from": "$0/mo",
+        "name": "Report Lite",
+        "note": "Free forever — upload POS data and get instant benchmarking. 250 AI credits included."
       },
       {
-        "from": "TODO",
-        "name": "Growth",
-        "note": "Full operational intelligence for scaling restaurant groups."
+        "from": "$79/mo",
+        "name": "Report Plus",
+        "note": "AI-parsed data ingestion with deeper analysis. 1,200 AI credits, 5 seats."
       },
       {
-        "from": "TODO",
+        "from": "$159/mo",
+        "name": "Report Pro",
+        "note": "Automated daily ingestion with advanced AI insights. 3,500 AI credits, 10 seats."
+      },
+      {
+        "from": "$279/mo",
+        "name": "Core Lite",
+        "note": "Real-time operational intelligence with 15-minute refresh. Modules available as add-ons."
+      },
+      {
+        "from": "$449/mo",
+        "name": "Core Pro",
+        "note": "Full intelligence stack with 5-minute refresh, multi-POS, and all intelligence modes."
+      },
+      {
+        "from": "Custom",
         "name": "Enterprise",
-        "note": "Complete platform with competitive intelligence and custom SLAs."
+        "note": "Complete platform with custom SLAs, dedicated support, and white-label options."
       }
     ]
   },
@@ -103,7 +126,7 @@
       "15 registered AI routes",
       "22 production modules",
       "17 sub-pages in Pulse",
-      "10 Insights deep analytics modules"
+      "12 Insights deep analytics modules"
     ],
     "items": [
       {
@@ -142,9 +165,9 @@
         "value": "17"
       },
       {
-        "claim": "10 Insights deep analytics modules",
+        "claim": "12 Insights deep analytics modules",
         "unit": "modules",
-        "value": "10"
+        "value": "12"
       }
     ]
   }

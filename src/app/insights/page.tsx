@@ -12,6 +12,20 @@ export default function InsightsPage() {
 
   const modules: { name: string; icon: SundaeIconName; headline: string; description: string; capabilities: string[]; category: string; color: string }[] = [
     {
+      name: "Revenue Intelligence",
+      icon: "chart",
+      headline: "Deep-Dive Into Sales. By Daypart. By Channel. By Item.",
+      description: "Go beyond top-line revenue. Understand menu mix, daypart timing, channel segments, and revenue trends to identify exactly where growth is coming from — and where it's leaking.",
+      capabilities: [
+        "Menu mix and item-level analysis",
+        "Daypart timing optimization",
+        "Channel segment breakdown",
+        "Revenue trend forecasting"
+      ],
+      category: "Core Operations",
+      color: "from-emerald-500 to-emerald-600"
+    },
+    {
       name: "Labor Intelligence",
       icon: "labor",
       headline: "Optimize Scheduling. Reduce Overtime. Forecast Demand.",
@@ -27,7 +41,7 @@ export default function InsightsPage() {
       color: "from-blue-500 to-blue-600"
     },
     {
-      name: "Inventory Connect",
+      name: "Inventory Intelligence",
       icon: "insights",
       headline: "Track Waste. Automate Par Levels. Optimize Costs.",
       description: "Turn inventory management from a daily headache into an optimized system with real-time tracking and automated recommendations.",
@@ -42,10 +56,10 @@ export default function InsightsPage() {
       color: "from-purple-500 to-purple-600"
     },
     {
-      name: "Purchasing Analytics",
+      name: "Purchasing Intelligence",
       icon: "cost",
       headline: "Compare Vendors. Optimize Prices. Manage Contracts.",
-      description: "Stop overpaying. Purchasing Analytics compares pricing across vendors, tracks contract compliance, and identifies savings opportunities.",
+      description: "Stop overpaying. Purchasing Intelligence compares pricing across vendors, tracks contract compliance, and identifies savings opportunities.",
       capabilities: [
         "Vendor price comparison",
         "Contract compliance tracking",
@@ -112,7 +126,7 @@ export default function InsightsPage() {
       color: "from-red-500 to-red-600"
     },
     {
-      name: "Delivery Economics",
+      name: "Delivery Intelligence",
       icon: "delivery",
       headline: "Track Platform Costs. Optimize Margins. Compare Channels.",
       description: "Understand the true economics of delivery across platforms. Track commissions, compare channel profitability, and optimize your delivery mix.",
@@ -138,6 +152,34 @@ export default function InsightsPage() {
       ],
       category: "Insight",
       color: "from-pink-500 to-pink-600"
+    },
+    {
+      name: "Guest CRM Intelligence",
+      icon: "operators",
+      headline: "Know Your Guests. Retain Your Best. Win Back the Rest.",
+      description: "Segment guests by value, track lifetime spend, monitor loyalty engagement, and detect churn risk — turning transactional data into lasting relationships.",
+      capabilities: [
+        "Guest segmentation and lifetime value",
+        "Loyalty program analytics",
+        "Churn risk detection and alerts",
+        "Retention campaign triggers"
+      ],
+      category: "Insight",
+      color: "from-rose-500 to-rose-600"
+    },
+    {
+      name: "Cross-Intelligence",
+      icon: "integration",
+      headline: "Connect the Dots Across Every Domain.",
+      description: "Automatically surfaces hidden correlations across all active modules — labor vs. revenue, inventory vs. waste, marketing vs. covers. Auto-enables when 3+ modules are active.",
+      capabilities: [
+        "Cross-domain correlation analysis",
+        "Automated insight surfacing",
+        "Attribution and cannibalization detection",
+        "Multi-module health scoring"
+      ],
+      category: "Platform",
+      color: "from-cyan-500 to-cyan-600"
     }
   ];
 
@@ -163,7 +205,7 @@ export default function InsightsPage() {
     {
       step: 1,
       title: "Choose your modules",
-      description: "Select the intelligence modules that match your operational priorities — labor, inventory, marketing, or all nine.",
+      description: "Select the intelligence modules that match your operational priorities — labor, inventory, marketing, or all twelve.",
       icon: "modules"
     },
     {
@@ -213,7 +255,7 @@ export default function InsightsPage() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="body-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed"
             >
-              Sundae Insights extends the platform with specialized intelligence modules — labor, inventory, purchasing, marketing, reservations, profit, revenue assurance, delivery, and guest experience — each delivering AI-powered analytics for its operational domain.
+              Sundae Insights extends the platform with 12 specialized intelligence modules — revenue, labor, inventory, purchasing, marketing, reservations, profit, revenue assurance, delivery, guest experience, guest CRM, and cross-intelligence — each delivering AI-powered analytics for its operational domain.
             </motion.p>
 
             <motion.div
@@ -246,10 +288,11 @@ export default function InsightsPage() {
             className="mt-16"
           >
             <p className="text-center text-sm font-semibold text-gray-700 mb-6 uppercase tracking-wide">
-              9 Intelligence Modules
+              12 Intelligence Modules
             </p>
-            <div className="grid grid-cols-3 md:grid-cols-5 gap-4 max-w-4xl mx-auto">
+            <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 max-w-5xl mx-auto">
               {[
+                { icon: "chart" as SundaeIconName, label: "Revenue" },
                 { icon: "labor" as SundaeIconName, label: "Labor" },
                 { icon: "insights" as SundaeIconName, label: "Inventory" },
                 { icon: "cost" as SundaeIconName, label: "Purchasing" },
@@ -258,7 +301,9 @@ export default function InsightsPage() {
                 { icon: "finance" as SundaeIconName, label: "Profit" },
                 { icon: "risk" as SundaeIconName, label: "Revenue Assurance" },
                 { icon: "delivery" as SundaeIconName, label: "Delivery" },
-                { icon: "success" as SundaeIconName, label: "Guest Experience" }
+                { icon: "success" as SundaeIconName, label: "Guest Experience" },
+                { icon: "operators" as SundaeIconName, label: "Guest CRM" },
+                { icon: "integration" as SundaeIconName, label: "Cross-Intelligence" }
               ].map((item, index) => (
                 <motion.div
                   key={index}
