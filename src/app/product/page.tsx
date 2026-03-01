@@ -63,7 +63,7 @@ const pillars: {
     description: "Specialized analytical dashboards for every operational domain. Start with Performance Report, then add Revenue, Labor, Inventory, Purchasing, Marketing, and more as you grow.",
     icon: "insights",
     screenshot: "/images/product/core-insights-hub.png",
-    screenshotAlt: "Insights hub showing 13 intelligence modules including Performance Report, Revenue, Labor, and Inventory",
+    screenshotAlt: "Insights hub showing 12 intelligence modules including Revenue, Labor, Inventory, and Cross-Intelligence",
     features: ["Performance Report (Live)", "Revenue Intelligence", "Labor Intelligence", "Inventory Intelligence", "Purchasing Intelligence", "Marketing Performance"],
     link: "/insights",
     status: "live",

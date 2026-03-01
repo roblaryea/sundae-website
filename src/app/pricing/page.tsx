@@ -351,7 +351,7 @@ export default function PricingPage() {
               },
               {
                 name: "Specialized Modules",
-                description: "Labor, Inventory, Purchasing, Marketing, and Reservations intelligence modules.",
+                description: "12 specialized modules including Revenue, Labor, Inventory, Purchasing, Marketing, Reservations, Profit, Revenue Assurance, Delivery, Guest Experience, Guest CRM, and Cross-Intelligence.",
                 note: "Requires Core tier. Priced per module.",
                 icon: "data" as SundaeIconName,
                 color: "from-purple-500 to-purple-600"

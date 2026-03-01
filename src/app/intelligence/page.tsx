@@ -156,7 +156,7 @@ export default function ChatWithDataPage() {
                 A conversational BI engine built into the Sundae platform. Ask questions in natural language, get structured visual answers — powered by your POS, inventory, HR, and delivery data.
               </p>
               <p className="text-sm text-slate-500 dark:text-slate-400 mb-6 max-w-xl">
-                Think &ldquo;ChatGPT for your restaurant data&rdquo; — but deeply integrated with your operational systems.
+                Think &ldquo;a personal data analyst for your restaurant&rdquo; — deeply integrated with your operational systems.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 mb-6">
                 <Button
