@@ -5,7 +5,7 @@ import { SundaeIcon } from "@/components/icons";
 export const metadata: Metadata = {
   title: "Integrations",
   description:
-    "Connect Sundae to your POS, payroll, inventory, delivery, and reservation systems. 11-domain integration engine with 30+ vendor connections.",
+    "Connect Sundae to your POS, payroll, inventory, delivery, and reservation systems. 12-domain integration engine with 30+ vendor connections.",
 };
 
 const integrationCategories = [
@@ -126,7 +126,7 @@ export default function IntegrationsPage() {
             Connect Every System. Unify Every Metric.
           </h1>
           <p className="body-xl text-gray-600 dark:text-slate-300 max-w-3xl mx-auto mb-8">
-            Sundae&apos;s 11-domain integration engine connects 30+ restaurant platforms — from POS and payroll to delivery and reservations. Your data flows in automatically, so your team can focus on decisions, not data entry.
+            Sundae&apos;s 12-domain integration engine connects 30+ restaurant platforms — from POS and payroll to delivery and reservations. Your data flows in automatically, so your team can focus on decisions, not data entry.
           </p>
           <a href="/demo" className="btn-primary">
             See Integrations in Action
@@ -184,7 +184,7 @@ export default function IntegrationsPage() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 dark:text-white mb-4">
-              11 Data Domains. One Unified View.
+              12 Data Domains. One Unified View.
             </h2>
             <p className="body-lg text-gray-600 dark:text-slate-300 max-w-2xl mx-auto">
               POS, labor, inventory, purchasing, reservations, delivery, marketing, guest experience, CRM, accounting, and daily sales summaries — all connected.
@@ -273,7 +273,7 @@ export default function IntegrationsPage() {
                 </li>
                 <li className="flex items-start space-x-2">
                   <span className="text-green-500 mt-0.5">&#10003;</span>
-                  <span>Available for all 11 data domains</span>
+                  <span>Available for all 12 data domains</span>
                 </li>
               </ul>
             </div>

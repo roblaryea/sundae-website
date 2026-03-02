@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 const differentiators: { title: string; description: string; icon: SundaeIconName; color: string }[] = [
   {
-    title: "11-Domain Data Ingestion",
+    title: "12-Domain Data Ingestion",
     description: "POS, labor, inventory, purchasing, reservations, delivery, marketing, guest experience, CRM, accounting — all unified automatically.",
     icon: "integration",
     color: "bg-blue-600"
@@ -53,7 +53,7 @@ const problems = [
   {
     problem: "Fragmented Operational Data",
     current: "POS, labor, inventory, reservations, and finance scattered across 5-10 different systems with no unified view",
-    solution: "Sundae's Integrations Hub connects 11 data domains into a single intelligence layer",
+    solution: "Sundae's Integrations Hub connects 12 data domains into a single intelligence layer",
     impact: "One source of truth across every location"
   },
   {
@@ -255,7 +255,7 @@ export default function WhySundaePage() {
               },
               {
                 title: "Technology Teams",
-                description: "Public API, webhooks, 11-domain integrations, and RBAC controls",
+                description: "Public API, webhooks, 12-domain integrations, and RBAC controls",
                 icon: "integration" as SundaeIconName,
                 color: "bg-orange-600"
               }

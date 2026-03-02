@@ -60,8 +60,8 @@ export default function FinanceTeamsPage() {
 
   const outcomes: { title: string; description: string; icon: SundaeIconName }[] = [
     {
-      title: "Reduce reporting time by 75%",
-      description: "Automated data integration eliminates manual compilation and reconciliation",
+      title: "Automate report compilation",
+      description: "Integrated data from 12 operational domains eliminates manual spreadsheet assembly and reconciliation",
       icon: "speed"
     },
     {

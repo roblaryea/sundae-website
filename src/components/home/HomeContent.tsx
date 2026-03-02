@@ -591,7 +591,7 @@ export default function HomeContent() {
             <div>
               <BrowserFrame
                 src="/images/product/core-integrations.png"
-                alt="Sundae integrations hub showing 11-domain vendor connections with POS, labor, inventory, and delivery categories"
+                alt="Sundae integrations hub showing 12-domain vendor connections with POS, labor, inventory, and delivery categories"
                 width={800}
                 height={500}
                 animate="slide-left"
@@ -611,7 +611,7 @@ export default function HomeContent() {
                 Plugs Into What You Already Run
               </h2>
               <p className="body-lg text-gray-600 dark:text-gray-300 mb-6">
-                11 data domains — POS, labor, inventory, delivery, reservations, and more — unified into one intelligence layer.
+                12 data domains — POS, labor, inventory, delivery, reservations, and more — unified into one intelligence layer.
               </p>
 
               <div className="flex flex-wrap gap-2 mb-8">
