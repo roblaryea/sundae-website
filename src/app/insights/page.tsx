@@ -337,7 +337,7 @@ export default function InsightsPage() {
               </div>
               <div className="flex items-center space-x-2">
                 <SundaeIcon name="finance" size="md" className="text-blue-600" />
-                <span className="font-semibold">From $89/mo per module</span>
+                <span className="font-semibold">From $149/mo per module</span>
               </div>
               <div className="flex items-center space-x-2">
                 <SundaeIcon name="performance" size="md" className="text-blue-600" />

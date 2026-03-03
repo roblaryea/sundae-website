@@ -294,10 +294,10 @@ export default function WatchtowerPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { name: "Competitive Intelligence", price: "$399", perLoc: "+$49/loc" },
-              { name: "Events & Calendar", price: "$199", perLoc: "+$29/loc" },
-              { name: "Market Trends", price: "$249", perLoc: "+$19/loc" },
-              { name: "Full Bundle", price: "$699", perLoc: "+$79/loc", highlight: true }
+              { name: "Competitive Intelligence", price: "$549", perLoc: "+$69/loc" },
+              { name: "Events & Calendar", price: "$249", perLoc: "+$39/loc" },
+              { name: "Market Trends", price: "$299", perLoc: "+$29/loc" },
+              { name: "Full Bundle", price: "$899", perLoc: "+$109/loc", highlight: true }
             ].map((item) => (
               <div key={item.name} className={`p-6 rounded-xl text-center ${item.highlight ? 'bg-red-600 text-white' : 'bg-white dark:bg-slate-800 border border-gray-200 dark:border-slate-700'}`}>
                 <h3 className={`font-semibold mb-2 ${item.highlight ? 'text-white' : 'text-gray-900 dark:text-white'}`}>{item.name}</h3>
