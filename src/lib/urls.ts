@@ -33,9 +33,13 @@ export const PRICING_URL = clean(
   process.env.NEXT_PUBLIC_PRICING_URL || 'https://pricing.sundae.io',
 );
 
-/** Sundae Report application (free trial / access) */
+/**
+ * Sundae Report application (free trial / access).
+ * Falls back to the main app sign-up page since Report
+ * is now part of the unified Sundae app (no separate deployment).
+ */
 export const REPORT_APP_URL = clean(
-  process.env.NEXT_PUBLIC_REPORT_APP_URL || 'https://report.sundae.io',
+  process.env.NEXT_PUBLIC_REPORT_APP_URL || `${APP_URL}/sign-up`,
 );
 
 /** Sundae Core application */
