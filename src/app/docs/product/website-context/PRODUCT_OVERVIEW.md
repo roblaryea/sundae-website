@@ -15,7 +15,7 @@ It ingests internal operational data (POS, labor, inventory, finance) and extern
 |---|---|
 | Frontend | Next.js 15 (App Router), React 19, Tailwind CSS 4, Radix UI |
 | Backend | AdonisJS 6, TypeScript, PostgreSQL (Neon-compatible) |
-| AI | Anthropic Claude, OpenAI (via Vercel AI SDK) |
+| AI | SundaeAI (via Vercel AI SDK) |
 | Hosting | Render.io (backend), Vercel-compatible (frontend) |
 
 ## Core Product Pillars
@@ -35,7 +35,7 @@ Analytical dashboards for deep-diving into specific operational domains. Perform
 ### 5. Sundae Intelligence — AI-Powered Analytics
 Natural-language querying of restaurant data. Available via the web app and through Telegram, Slack, and Microsoft Teams bots. Supports conversation history, folders, scheduled queries, multi-outlet scope selection, and link-code sharing.
 
-### 6. Integrations Hub — 11-Domain Data Ingestion
+### 6. Integrations Hub — 12-Domain Data Ingestion
 A vendor-agnostic integration engine supporting POS, Labor, Service Flow, Inventory, Purchasing, Reservations, Delivery, Marketing, Guest Experience, Guest CRM, and Accounting. Each domain supports webhook-based custom integrations.
 
 ### 7. Crew — Organization & Team Management

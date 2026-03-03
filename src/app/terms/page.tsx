@@ -5,7 +5,7 @@ import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
 import { SundaeIcon } from '@/components/icons';
 
 export default function TermsPage() {
-  const lastUpdated = "December 10, 2025";
+  const lastUpdated = "March 3, 2026";
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50">
@@ -61,8 +61,11 @@ export default function TermsPage() {
                 <p className="text-gray-700 mb-4">
                   If you are accepting these Terms on behalf of a company or other legal entity, you represent and warrant that you have authority to bind that entity, in which case "<strong>you</strong>" and "<strong>your</strong>" refer to that entity.
                 </p>
-                <p className="text-gray-700">
+                <p className="text-gray-700 mb-4">
                   These Terms apply to all visitors, users, and others who access or use the Services.
+                </p>
+                <p className="text-gray-700">
+                  <strong>Enterprise and Commercial Subscriptions.</strong> In certain territories, commercial subscriptions to the Services are sold and administered through authorised resellers and regional partners (such as Ambia Global Technologies Ltd in the DIFC, Dubai). Where you enter into a separate subscription agreement with an authorised reseller, that agreement governs the commercial terms of your subscription (including fees, billing, and local support), and these Terms continue to govern your use of the Platform, intellectual property rights, data rights, and acceptable use. In the event of a conflict between your reseller subscription agreement and these Terms on matters of platform usage, IP, or data rights, these Terms shall prevail; on commercial matters (fees, billing, term), the reseller agreement shall prevail.
                 </p>
               </section>
 
@@ -325,7 +328,7 @@ export default function TermsPage() {
                   <li>We apply reasonable thresholds for peer-group sizes and other techniques intended to reduce the risk of re-identification.</li>
                 </ul>
                 <p className="text-gray-700 mt-4">
-                  You acknowledge that no anonymization method is perfect, but we will use commercially reasonable efforts to ensure that individual restaurants cannot be identified from the Benchmark Data.
+                  You acknowledge that no anonymization method is perfect, but we will use commercially reasonable efforts to ensure that individual restaurants cannot be identified from the Benchmark Data. Sundae applies reasonable minimum thresholds for peer-group sizes and other statistical techniques intended to reduce the risk of re-identification to a level where re-identification cannot reasonably be achieved by any person. For the avoidance of doubt, Aggregated Data and Benchmark Data that has been anonymised in accordance with this Section does not constitute personal data or Customer Data for the purposes of these Terms.
                 </p>
 
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">13.4 License to Anonymized & Aggregated Data</h3>
@@ -391,7 +394,7 @@ export default function TermsPage() {
                   <li>THAT THE RESULTS OF USING THE SERVICES WILL MEET YOUR EXPECTATIONS OR PRODUCE ANY PARTICULAR BUSINESS OUTCOME.</li>
                 </ul>
                 <p className="text-gray-700 mt-4">
-                  You are solely responsible for how you interpret and use any outputs or insights from the Services (including pricing, staffing, or operational decisions).
+                  You are solely responsible for how you interpret and act upon any outputs, insights, recommendations, or decisions derived from the Services, including without limitation pricing decisions, staffing levels, inventory actions, menu engineering changes, marketing spend allocation, or any other operational or strategic decisions. The Services are designed to inform and support human decision-making, not to replace it. Sundae does not guarantee that acting on any output or recommendation will produce any particular business outcome, and shall not be liable for any loss or damage arising from your reliance on such outputs.
                 </p>
               </section>
 
@@ -437,7 +440,7 @@ export default function TermsPage() {
                   You may terminate your account and stop using the Services at any time through your account settings or by contacting us. Any prepaid fees are non-refundable unless otherwise stated in writing.
                 </p>
                 <p className="text-gray-700 mb-4">
-                  You may request deletion of identifiable Customer Data, subject to our data retention obligations and lawful bases to retain certain records.
+                  You may request deletion of identifiable Customer Data by contacting us at <a href="mailto:legal@sundae.io" className="text-blue-600 hover:underline">legal@sundae.io</a> within sixty (60) days of termination. You acknowledge that Customer Data is sourced from your own operational systems (POS, ERP, delivery platforms, etc.) and that you retain independent access to such data through those systems at all times. Sundae will use reasonable efforts to delete identifiable Customer Data within ninety (90) days of a valid deletion request, except where retention is required by law, necessary for dispute resolution, or contained in routine backup archives (which will be deleted in the ordinary backup rotation cycle). For the avoidance of doubt, Aggregated Data and Benchmark Data that does not identify you or any individual is not subject to deletion requests and may be retained and used by Sundae indefinitely in accordance with Section 13.4.
                 </p>
                 
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">18.3 Termination or Suspension by Sundae</h3>

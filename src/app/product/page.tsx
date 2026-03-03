@@ -332,7 +332,7 @@ export default function ProductPage() {
               </div>
               <div>
                 <h3 className="font-bold text-gray-900 dark:text-white mb-1">Integrations Hub</h3>
-                <p className="text-sm text-gray-500 dark:text-gray-400 font-medium mb-2">11-Domain Data Engine</p>
+                <p className="text-sm text-gray-500 dark:text-gray-400 font-medium mb-2">12-Domain Data Engine</p>
                 <p className="text-sm text-gray-600 dark:text-gray-300 leading-relaxed">
                   Connect POS, labor, inventory, delivery, and more. Health monitoring, activity logs, and webhook support included.
                 </p>

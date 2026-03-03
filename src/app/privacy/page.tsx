@@ -5,7 +5,7 @@ import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card';
 import { SundaeIcon } from '@/components/icons';
 
 export default function PrivacyPage() {
-  const lastUpdated = "December 10, 2025";
+  const lastUpdated = "March 3, 2026";
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50">
@@ -191,6 +191,9 @@ export default function PrivacyPage() {
                   <li>Use the information only to provide services to us, and</li>
                   <li>Protect your information with appropriate technical and organizational measures.</li>
                 </ul>
+                <p className="text-gray-700 mt-4">
+                  In certain territories, Sundae provides commercial subscriptions through authorised resellers and regional partners. Where you subscribe through an authorised reseller (such as Ambia Global Technologies Ltd in the DIFC, Dubai), that reseller may act as a data processor for limited administrative, billing, and first-line support purposes. Each authorised reseller is bound by data processing obligations at least as protective as those described in this Privacy Policy. Your reseller subscription agreement (including any Data Processing Addendum) provides further detail on the roles and responsibilities of each party.
+                </p>
 
                 <h3 className="text-xl font-semibold text-gray-900 mb-3 mt-6">4.3 Aggregated and Benchmark Data</h3>
                 <p className="text-gray-700 mb-4">
@@ -254,7 +257,7 @@ export default function PrivacyPage() {
                   <li>Backup and disaster recovery (where data will be securely stored and then deleted in line with our retention cycles)</li>
                 </ul>
                 <p className="text-gray-700 mt-4">
-                  Aggregated Data and Benchmark Data that no longer identifies you or any individual may be retained and used indefinitely for legitimate business purposes.
+                  Aggregated Data and Benchmark Data that has been anonymised such that it does not identify you, your restaurant(s), or any individual, and cannot reasonably be re-identified, may be retained and used by Sundae indefinitely for legitimate business purposes, including benchmarking, product improvement, model training, analytics, research, and market analysis, in accordance with the licence granted in our Terms of Service (Section 13.4). This data is not subject to deletion requests.
                 </p>
               </section>
 
@@ -363,9 +366,56 @@ export default function PrivacyPage() {
                   If you believe our processing of your personal information infringes applicable law, you have the right to lodge a complaint with your local supervisory authority. We would, however, appreciate the chance to deal with your concerns first.
                 </p>
 
-                <h3 className="text-xl font-semibold text-gray-900 mb-3 mt-6">12.3 Other Regions</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-3 mt-6">12.3 United Arab Emirates (including DIFC and ADGM)</h3>
+                <p className="text-gray-700 mb-4">
+                  If you are located in the United Arab Emirates, including the Dubai International Financial Centre (DIFC) or Abu Dhabi Global Market (ADGM), the following additional provisions apply to you:
+                </p>
+
+                <h4 className="text-lg font-semibold text-gray-900 mb-2">Applicable Law</h4>
+                <p className="text-gray-700 mb-4">
+                  Your personal information is processed in accordance with:
+                </p>
+                <ul className="list-disc pl-6 text-gray-700 space-y-2 mb-4">
+                  <li>UAE Federal Decree-Law No. 45/2021 on the Protection of Personal Data, as amended, and its implementing regulations (for users in mainland UAE);</li>
+                  <li>DIFC Data Protection Law No. 5 of 2020, as amended (for users whose data is processed by entities established in the DIFC); and/or</li>
+                  <li>ADGM Data Protection Regulations 2021, as applicable.</li>
+                </ul>
+
+                <h4 className="text-lg font-semibold text-gray-900 mb-2">Data Controller and Processor</h4>
+                <p className="text-gray-700 mb-4">
+                  Sundae Technologies Inc. acts as the primary data controller for the Platform. Where you enter into a commercial subscription through Ambia Global Technologies Ltd (our authorised reseller in the DIFC), Ambia acts as a data processor for limited administrative and support metadata, and Sundae Technologies Inc. acts as a sub-processor for hosting, platform operations, and analytics. The roles and responsibilities are described in detail in the Data Processing Addendum that forms part of any enterprise subscription agreement.
+                </p>
+
+                <h4 className="text-lg font-semibold text-gray-900 mb-2">Your Rights</h4>
+                <p className="text-gray-700 mb-4">
+                  Under applicable UAE data protection law, you may have the following rights (subject to certain conditions and exceptions):
+                </p>
+                <ul className="list-disc pl-6 text-gray-700 space-y-2 mb-4">
+                  <li>The right to access personal data we hold about you;</li>
+                  <li>The right to request correction of inaccurate or incomplete personal data;</li>
+                  <li>The right to request deletion or destruction of personal data where it is no longer necessary for the purpose for which it was collected;</li>
+                  <li>The right to request restriction of processing in certain circumstances;</li>
+                  <li>The right to data portability (to receive your personal data in a structured, commonly used format) where technically feasible;</li>
+                  <li>The right to object to processing based on our legitimate interests; and</li>
+                  <li>The right to withdraw consent where processing is based on your consent.</li>
+                </ul>
+
+                <h4 className="text-lg font-semibold text-gray-900 mb-2">Cross-Border Transfers</h4>
+                <p className="text-gray-700 mb-4">
+                  Your personal information may be transferred to and processed in the United States and other countries where Sundae or its service providers operate. Where such transfers occur from the UAE, DIFC, or ADGM, we implement appropriate safeguards as required by applicable law, including contractual protections (such as Standard Contractual Clauses or equivalent mechanisms recognised under UAE law) and technical measures to protect your data in transit and at rest.
+                </p>
+
+                <h4 className="text-lg font-semibold text-gray-900 mb-2">Complaints</h4>
+                <p className="text-gray-700 mb-4">
+                  If you believe that we have not complied with your data protection rights, you may lodge a complaint with:
+                </p>
+                <ul className="list-disc pl-6 text-gray-700 space-y-2 mb-4">
+                  <li>The UAE Data Office (for mainland UAE matters);</li>
+                  <li>The Commissioner of Data Protection, DIFC (for DIFC matters); or</li>
+                  <li>The relevant ADGM authority (for ADGM matters).</li>
+                </ul>
                 <p className="text-gray-700">
-                  For users located in other regions, Sundae Technologies Inc. may provide services through authorized affiliates or regional partners. We process personal information in accordance with applicable local data protection laws. Our primary contact point for privacy matters is listed in Section 14.
+                  We would, however, appreciate the opportunity to address your concerns directly first. Please contact us at <a href="mailto:privacy@sundae.io" className="text-blue-600 hover:underline">privacy@sundae.io</a>.
                 </p>
               </section>
 

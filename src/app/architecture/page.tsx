@@ -55,7 +55,7 @@ export default function ArchitecturePage() {
   const modules: { name: string; description: string; icon: SundaeIconName; features: string[]; colorClass: string }[] = [
     {
       name: "Scout",
-      description: "Universal data integration layer connecting 30+ restaurant systems across 11 data domains",
+      description: "Universal data integration layer connecting 30+ restaurant systems across 12 data domains",
       icon: "scout",
       features: ["POS Integration", "Labor Systems", "Inventory", "Real-time Sync"],
       colorClass: "component-icon--scout"
@@ -247,7 +247,7 @@ export default function ArchitecturePage() {
               {
                 step: "1",
                 title: "Data Collection",
-                description: "Scout connects to 30+ restaurant systems across 11 data domains and external data sources",
+                description: "Scout connects to 30+ restaurant systems across 12 data domains and external data sources",
                 icon: "integration" as SundaeIconName
               },
               {
@@ -518,7 +518,7 @@ export default function ArchitecturePage() {
                 icon: "integration" as SundaeIconName,
                 color: "from-green-500 to-green-600",
                 features: [
-                  "11-domain data connectors",
+                  "12-domain data connectors",
                   "RESTful API architecture",
                   "Webhook support",
                   "Custom integration tools"

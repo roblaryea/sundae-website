@@ -3,7 +3,7 @@
     "primary": "Book a Demo",
     "secondary": "Start Free Trial"
   },
-  "generated_at": "2026-03-01T00:00:00.000Z",
+  "generated_at": "2026-03-02T18:02:35.532Z",
   "hero": {
     "bullets": [
       "Ingests 12 operational data domains",
@@ -26,27 +26,19 @@
       "name": "Benchmark"
     },
     {
-      "blurb": "Conversational AI interface with 4 intelligence modes — ask any question about your restaurant data in plain English.",
+      "blurb": "(Details pending)",
       "bullets": [
         "Natural language query interface with three-panel layout",
-        "4 intelligence modes: Chat, Monitor, Analyst, Strategist",
         "NL-to-SQL conversion and execution",
         "Structured visual responses (KPI cards, charts, analysis cards, tables, HTML reports)",
-        "Voice input, conversation folders, scheduled queries, shareable links"
+        "Voice input via Web Speech API",
+        "Conversation folders with pinning"
       ],
-      "name": "Sundae Intelligence"
+      "name": "Chat With Data"
     },
     {
-      "blurb": "12 deep analytics modules across every operational domain.",
-      "bullets": [
-        "Revenue Intelligence — sales deep-dive with menu mix, daypart timing, channel segments",
-        "Labor Intelligence — scheduling optimization, overtime alerts, SPLH tracking",
-        "Inventory Intelligence — usage tracking, waste analysis, par level monitoring",
-        "Purchasing Intelligence — cost tracking, vendor comparison, procurement optimization",
-        "Profit Intelligence — prime cost, break-even, margin analysis",
-        "Revenue Assurance — void/discount patterns, cash control, anomaly detection",
-        "Cross-Intelligence — cross-domain correlations, auto-enables at 3+ modules"
-      ],
+      "blurb": "10 deep analytics modules across every operational domain.",
+      "bullets": [],
       "name": "Insights"
     },
     {
@@ -86,34 +78,34 @@
   "pricingSummary": {
     "plans": [
       {
-        "from": "$0/mo",
+        "from": "Contact us",
         "name": "Report Lite",
-        "note": "Free forever — upload POS data and get instant benchmarking. 250 AI credits included."
+        "note": "Free forever — upload POS data and get instant benchmarking."
       },
       {
-        "from": "$79/mo",
+        "from": "Contact us",
         "name": "Report Plus",
-        "note": "AI-parsed data ingestion with deeper analysis. 1,200 AI credits, 5 seats."
+        "note": "AI-parsed data ingestion with deeper analysis and monthly intelligence summaries."
       },
       {
-        "from": "$159/mo",
+        "from": "Contact us",
         "name": "Report Pro",
-        "note": "Automated daily ingestion with advanced AI insights. 3,500 AI credits, 10 seats."
+        "note": "Automated daily ingestion with advanced AI insights and team collaboration."
       },
       {
-        "from": "$279/mo",
+        "from": "Contact us",
         "name": "Core Lite",
-        "note": "Real-time operational intelligence with 15-minute refresh. Modules available as add-ons."
+        "note": "Real-time operational intelligence with 15-minute data refresh."
       },
       {
-        "from": "$449/mo",
+        "from": "Contact us",
         "name": "Core Pro",
-        "note": "Full intelligence stack with 5-minute refresh, multi-POS, and all intelligence modes."
+        "note": "Full intelligence stack with 5-minute refresh, multi-POS, and advanced modules."
       },
       {
-        "from": "Custom",
+        "from": "Contact us",
         "name": "Enterprise",
-        "note": "Complete platform with custom SLAs, dedicated support, and white-label options."
+        "note": "Custom pricing with dedicated support, SLAs, and white-label options."
       }
     ]
   },
@@ -126,7 +118,7 @@
       "15 registered AI routes",
       "22 production modules",
       "17 sub-pages in Pulse",
-      "12 Insights deep analytics modules"
+      "10 Insights deep analytics modules"
     ],
     "items": [
       {
@@ -165,9 +157,9 @@
         "value": "17"
       },
       {
-        "claim": "12 Insights deep analytics modules",
+        "claim": "10 Insights deep analytics modules",
         "unit": "modules",
-        "value": "12"
+        "value": "10"
       }
     ]
   }

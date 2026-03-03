@@ -402,7 +402,7 @@ export default function CoreProductPage() {
               Connect All Your Systems
             </h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Core connects across 11 data domains with 30+ vendor integrations
+              Core connects across 12 data domains with 30+ vendor integrations
             </p>
           </div>
 
