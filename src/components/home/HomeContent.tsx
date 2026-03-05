@@ -137,6 +137,11 @@ export default function HomeContent() {
       <section className="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-br from-blue-50/80 via-purple-50/30 to-blue-50/60 dark:from-slate-950 dark:via-slate-900 dark:to-slate-950">
         <div className="absolute inset-0 gradient-mesh opacity-10"></div>
 
+        {/* Animated gradient blobs */}
+        <div className="absolute top-0 left-0 w-[400px] h-[400px] rounded-full bg-[#0A1E8C] opacity-[0.12] blur-3xl animate-blob-float-1 pointer-events-none" />
+        <div className="absolute bottom-0 right-0 w-[350px] h-[350px] rounded-full bg-[#1C47FF] opacity-[0.15] blur-3xl animate-blob-float-2 pointer-events-none" />
+        <div className="absolute top-20 right-20 w-[300px] h-[300px] rounded-full bg-[#B8C0FF] opacity-[0.10] blur-3xl animate-blob-float-1 pointer-events-none" style={{ animationDelay: '-3s' }} />
+
         <div className="max-w-7xl mx-auto text-center relative z-20">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -145,7 +150,7 @@ export default function HomeContent() {
           >
             <div className="flex justify-center mb-6">
               <div
-                className="inline-flex items-center gap-2 rounded-full px-4 py-2 bg-gradient-to-r from-[#F25929] via-[#D200FF] to-[#0373FF] text-xs sm:text-sm md:text-base font-semibold text-white shadow-lg shadow-sky-500/25 transition-transform duration-300 hover:scale-[1.02]"
+                className="badge-shimmer inline-flex items-center gap-2 rounded-full px-4 py-2 bg-gradient-to-r from-[#F25929] via-[#D200FF] to-[#0373FF] text-xs sm:text-sm md:text-base font-semibold text-white shadow-lg shadow-sky-500/25 transition-transform duration-300 hover:scale-[1.02]"
               >
                 <span className="inline-block h-2 w-2 rounded-full bg-white/90" />
                 <span>Decision Intelligence for Restaurants</span>
@@ -157,30 +162,42 @@ export default function HomeContent() {
             <p className="body-xl text-gray-600 dark:text-slate-300 leading-relaxed mb-8 max-w-3xl mx-auto">
               Sundae turns your POS, labor, and ops data into real-time intelligence — and combines it with market signals, competitor moves, and local events to help your team act on what matters, before it matters.
             </p>
-            <div className="flex flex-col sm:flex-row gap-3 justify-center mb-6">
-              <Button
-                variant="primary"
-                size="lg"
-                href={SIGNUP_URL}
-                onClick={() => cta(SIGNUP_URL, "start_free_report_hero", { page: "/home" })}
-              >
-                Start Free
-              </Button>
-              <Button
-                variant="secondary"
-                size="lg"
-                onClick={() => cta("/demo", "book_demo_hero", { page: "/home" })}
-              >
-                Book a Demo
-              </Button>
-            </div>
+            <motion.div
+              className="flex flex-col sm:flex-row gap-3 justify-center mb-6"
+              initial="hidden"
+              animate="visible"
+              variants={{
+                hidden: {},
+                visible: { transition: { staggerChildren: 0.1 } },
+              }}
+            >
+              <motion.div variants={{ hidden: { opacity: 0, y: 10 }, visible: { opacity: 1, y: 0 } }}>
+                <Button
+                  variant="primary"
+                  size="lg"
+                  href={SIGNUP_URL}
+                  onClick={() => cta(SIGNUP_URL, "start_free_report_hero", { page: "/home" })}
+                >
+                  Start Free
+                </Button>
+              </motion.div>
+              <motion.div variants={{ hidden: { opacity: 0, y: 10 }, visible: { opacity: 1, y: 0 } }}>
+                <Button
+                  variant="secondary"
+                  size="lg"
+                  onClick={() => cta("/demo", "book_demo_hero", { page: "/home" })}
+                >
+                  Book a Demo
+                </Button>
+              </motion.div>
+            </motion.div>
             <p className="body-sm text-gray-500 dark:text-slate-400">
               Free forever on Report. No credit card required.
             </p>
           </motion.div>
         </div>
 
-        {/* Hero Product Screenshot — perspective tilt */}
+        {/* Hero Product Screenshot — perspective tilt with glow */}
         <motion.div
           className="max-w-5xl mx-auto mt-12 relative z-20 px-4"
           initial={{ opacity: 0, y: 40 }}
@@ -188,11 +205,14 @@ export default function HomeContent() {
           transition={{ duration: 0.8, delay: 0.3 }}
           style={{ perspective: '1200px' }}
         >
+          {/* Gradient glow behind BrowserFrame */}
+          <div className="absolute -inset-x-10 bottom-0 h-40 bg-gradient-to-t from-[#1C47FF]/15 via-[#0A1E8C]/20 to-transparent blur-2xl animate-hero-glow pointer-events-none rounded-full" />
+
           <motion.div
-            initial={{ rotateX: 8, rotateY: -4, scale: 0.95 }}
-            animate={{ rotateX: 4, rotateY: -2, scale: 1 }}
-            transition={{ duration: 1.2, delay: 0.4, ease: "easeOut" }}
-            className="shadow-[0_40px_80px_-20px_rgba(0,0,0,0.25)] rounded-xl"
+            initial={{ rotateX: 12, scale: 0.9, opacity: 0 }}
+            animate={{ rotateX: 2, scale: 1, opacity: 1 }}
+            transition={{ duration: 1.5, delay: 0.4, ease: [0.25, 0.1, 0.25, 1] }}
+            className="shadow-[0_40px_80px_-20px_rgba(0,0,0,0.25)] rounded-xl relative"
           >
             <BrowserFrame
               src="/images/product/pulse-sales-pacing.png"
@@ -220,14 +240,23 @@ export default function HomeContent() {
           </div>
 
           {/* Top row: 3 product tiers */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-            {productPillars.slice(0, 3).map((pillar, index) => (
+          <motion.div
+            className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-100px" }}
+            variants={{
+              hidden: {},
+              visible: { transition: { staggerChildren: 0.12 } },
+            }}
+          >
+            {productPillars.slice(0, 3).map((pillar) => (
               <motion.div
                 key={pillar.name}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                viewport={{ once: true, margin: "-100px" }}
+                variants={{
+                  hidden: { opacity: 0, y: 20 },
+                  visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+                }}
                 className="group cursor-pointer"
                 onClick={() => cta(pillar.link, `view_${pillar.name.toLowerCase().replace(/\s+/g, "_")}`, { page: "/home", section: "product-pillars" })}
               >
@@ -264,17 +293,26 @@ export default function HomeContent() {
                 </Card>
               </motion.div>
             ))}
-          </div>
+          </motion.div>
 
           {/* Bottom row: 2 intelligence pillars (centered) */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {productPillars.slice(3).map((pillar, index) => (
+          <motion.div
+            className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-100px" }}
+            variants={{
+              hidden: {},
+              visible: { transition: { staggerChildren: 0.12, delayChildren: 0.1 } },
+            }}
+          >
+            {productPillars.slice(3).map((pillar) => (
               <motion.div
                 key={pillar.name}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: (index + 3) * 0.1 }}
-                viewport={{ once: true, margin: "-100px" }}
+                variants={{
+                  hidden: { opacity: 0, y: 20 },
+                  visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+                }}
                 className="group cursor-pointer"
                 onClick={() => cta(pillar.link, `view_${pillar.name.toLowerCase().replace(/\s+/g, "_")}`, { page: "/home", section: "product-pillars" })}
               >
@@ -311,7 +349,7 @@ export default function HomeContent() {
                 </Card>
               </motion.div>
             ))}
-          </div>
+          </motion.div>
 
           <div className="text-center mt-12">
             <Button
@@ -345,7 +383,16 @@ export default function HomeContent() {
                 Sales pacing with adaptive AI targets, real-time labor productivity and shift costing, server performance leaderboards, leakage detection, and AI coaching — all live, all shift-level. Pulse doesn&apos;t just tell you what happened. It learns your patterns, adjusts for seasonality, and sets targets that reflect your actual business rhythm.
               </p>
 
-              <div className="grid grid-cols-2 gap-3 mb-8">
+              <motion.div
+                className="grid grid-cols-2 gap-3 mb-8"
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={{
+                  hidden: {},
+                  visible: { transition: { staggerChildren: 0.05 } },
+                }}
+              >
                 {[
                   "Sales & Pace Tracking",
                   "Adaptive Intelligence Targets",
@@ -358,12 +405,19 @@ export default function HomeContent() {
                   "Portfolio Leaderboard",
                   "Wallboard Mode"
                 ].map((feature) => (
-                  <div key={feature} className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300">
+                  <motion.div
+                    key={feature}
+                    variants={{
+                      hidden: { opacity: 0, x: -8 },
+                      visible: { opacity: 1, x: 0 },
+                    }}
+                    className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300"
+                  >
                     <span className="text-electric-blue flex-shrink-0">&#10003;</span>
                     <span>{feature}</span>
-                  </div>
+                  </motion.div>
                 ))}
-              </div>
+              </motion.div>
 
               <Button
                 variant="primary"
@@ -399,7 +453,10 @@ export default function HomeContent() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {/* Connecting line between steps (visible on lg+) */}
+            <div className="hidden lg:block absolute top-[72px] left-[calc(12.5%+28px)] right-[calc(12.5%+28px)] h-0.5 bg-gradient-to-r from-blue-200 via-purple-200 to-green-200 dark:from-blue-800 dark:via-purple-800 dark:to-green-800 z-0" />
+
             {([
               {
                 step: "1",
@@ -445,7 +502,7 @@ export default function HomeContent() {
                 <Card variant="elevated" className="h-full hover:shadow-xl transition-all duration-300">
                   <CardHeader>
                     <div className="text-center mb-4">
-                      <div className={`inline-flex w-14 h-14 bg-gradient-to-br ${step.color} rounded-full items-center justify-center text-white mb-3 shadow-lg`}>
+                      <div className={`relative z-10 inline-flex w-14 h-14 bg-gradient-to-br ${step.color} rounded-full items-center justify-center text-white mb-3 shadow-lg ring-4 ring-current/10`}>
                         <SundaeIcon name={step.icon} size="lg" className="text-white" />
                       </div>
                       <div className="text-lg font-bold text-gray-400 dark:text-gray-500 mb-1">Step {step.step}</div>
@@ -510,8 +567,8 @@ export default function HomeContent() {
                 viewport={{ once: true, margin: "-100px" }}
                 whileHover={{ y: -6, transition: { duration: 0.2 } }}
               >
-                <div className="flex items-start space-x-4 p-5 bg-white dark:bg-slate-800 rounded-2xl border border-slate-200/70 dark:border-slate-700 shadow-sm hover:shadow-md transition-all duration-300">
-                  <div className={`w-12 h-12 bg-gradient-to-br ${audience.color} rounded-xl flex items-center justify-center text-white flex-shrink-0 shadow-lg`}>
+                <div className="group/card flex items-start space-x-4 p-5 bg-white dark:bg-slate-800 rounded-2xl border border-slate-200/70 dark:border-slate-700 shadow-sm hover:shadow-md transition-all duration-300">
+                  <div className={`w-12 h-12 bg-gradient-to-br ${audience.color} rounded-xl flex items-center justify-center text-white flex-shrink-0 shadow-lg transition-transform duration-300 group-hover/card:scale-110 group-hover/card:rotate-3`}>
                     <SundaeIcon name={audience.icon} size="lg" className="text-white" />
                   </div>
                   <div>
@@ -549,7 +606,13 @@ export default function HomeContent() {
 
           {/* Testimonial */}
           <div className="max-w-3xl mx-auto">
-            <div className="bg-slate-50 dark:bg-slate-900 rounded-2xl p-8 border border-slate-200/70 dark:border-slate-700">
+            <motion.div
+              initial={{ opacity: 0, y: 16 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              className="bg-slate-50 dark:bg-slate-900 rounded-2xl p-8 border border-slate-200/70 dark:border-slate-700 border-l-4 border-l-[#1C47FF]"
+            >
               <p className="text-base sm:text-lg font-medium text-slate-900 dark:text-slate-50 leading-relaxed mb-4">
                 &ldquo;Sundae surfaced a margin gap across our lunch dayparts in days. Our teams finally see where to take action, not just where numbers moved. The labor optimization recommendations alone paid for the platform in the first quarter.&rdquo;
               </p>
@@ -563,7 +626,7 @@ export default function HomeContent() {
                   <p className="text-xs text-slate-500">Margin opportunity detected</p>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
 
           <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
@@ -614,13 +677,29 @@ export default function HomeContent() {
                 12 data domains — POS, labor, inventory, delivery, reservations, and more — unified into one intelligence layer.
               </p>
 
-              <div className="flex flex-wrap gap-2 mb-8">
+              <motion.div
+                className="flex flex-wrap gap-2 mb-8"
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={{
+                  hidden: {},
+                  visible: { transition: { staggerChildren: 0.04 } },
+                }}
+              >
                 {["POS", "Labor", "Inventory", "Delivery", "Reservations", "Marketing", "Guest Experience", "Accounting", "Purchasing", "Flow", "CRM"].map((domain) => (
-                  <span key={domain} className="px-3 py-1.5 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-full text-xs font-medium text-slate-600 dark:text-slate-300">
+                  <motion.span
+                    key={domain}
+                    variants={{
+                      hidden: { opacity: 0, scale: 0.8 },
+                      visible: { opacity: 1, scale: 1 },
+                    }}
+                    className="px-3 py-1.5 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-full text-xs font-medium text-slate-600 dark:text-slate-300"
+                  >
                     {domain}
-                  </span>
+                  </motion.span>
                 ))}
-              </div>
+              </motion.div>
 
               <div className="flex flex-wrap gap-3">
                 <Button
@@ -637,8 +716,11 @@ export default function HomeContent() {
       </section>
 
       {/* Final CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-deep-blue to-electric-blue dark:from-deep-blue dark:to-electric-blue text-white">
-        <div className="max-w-4xl mx-auto text-center">
+      <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-deep-blue to-electric-blue dark:from-deep-blue dark:to-electric-blue text-white overflow-hidden">
+        {/* Radial glow behind heading */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[300px] bg-white/10 rounded-full blur-3xl pointer-events-none" />
+
+        <div className="max-w-4xl mx-auto text-center relative z-10">
           <h2 className="section-h2 mb-6">
             See What You're Missing
           </h2>
