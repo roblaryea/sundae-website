@@ -57,6 +57,6 @@ export default withSentryConfig(nextConfig, {
   project: process.env.SENTRY_PROJECT,
   silent: !process.env.CI,
   sourcemaps: {
-    deleteFilesAfterUpload: ["./next/**/*.map"],
+    filesToDeleteAfterUpload: ["./next/**/*.map"],
   },
 });
