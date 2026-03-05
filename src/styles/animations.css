@@ -87,6 +87,53 @@
   text-shadow: 0 0 10px currentColor, 0 0 20px currentColor, 0 0 30px currentColor;
 }
 
+/* Animated gradient blobs — slow organic float */
+@keyframes blob-float-1 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(30px, -20px) scale(1.05); }
+  66% { transform: translate(-15px, 15px) scale(0.97); }
+}
+
+@keyframes blob-float-2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(-25px, 20px) scale(0.95); }
+  66% { transform: translate(20px, -10px) scale(1.04); }
+}
+
+@keyframes hero-glow {
+  0%, 100% { opacity: 0.15; }
+  50% { opacity: 0.3; }
+}
+
+/* Animated gradient sweep for CTA button variant */
+@keyframes gradient-x {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-blob-float-1 { animation: blob-float-1 8s ease-in-out infinite; }
+.animate-blob-float-2 { animation: blob-float-2 10s ease-in-out infinite; }
+.animate-hero-glow { animation: hero-glow 4s ease-in-out infinite; }
+.animate-gradient-x {
+  background-size: 200% 200%;
+  animation: gradient-x 6s ease infinite;
+}
+
+/* Badge shimmer overlay */
+.badge-shimmer {
+  position: relative;
+  overflow: hidden;
+}
+.badge-shimmer::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent 30%, rgba(255, 255, 255, 0.3) 50%, transparent 70%);
+  background-size: 200% 100%;
+  animation: shimmer 3s ease-in-out infinite;
+}
+
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
   *,
@@ -100,7 +147,12 @@
   .animate-float,
   .animate-pulse-glow,
   .gradient-mesh,
-  .shimmer {
+  .shimmer,
+  .animate-blob-float-1,
+  .animate-blob-float-2,
+  .animate-hero-glow,
+  .animate-gradient-x,
+  .badge-shimmer::after {
     animation: none;
   }
 

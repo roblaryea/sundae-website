@@ -1,39 +1,60 @@
 import type { NextConfig } from "next";
+import { withSentryConfig } from "@sentry/nextjs";
 
 const pricingUrl = (process.env.NEXT_PUBLIC_PRICING_URL || 'https://pricing.sundae.io').replace(/\/+$/, '');
 
 const nextConfig: NextConfig = {
-  /* config options here */
   reactCompiler: true,
+  poweredByHeader: false,
+  async headers() {
+    return [
+      {
+        source: "/(.*)",
+        headers: [
+          { key: "X-Content-Type-Options", value: "nosniff" },
+          { key: "X-Frame-Options", value: "DENY" },
+          { key: "X-XSS-Protection", value: "1; mode=block" },
+          { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+          { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
+          { key: "Strict-Transport-Security", value: "max-age=63072000; includeSubDomains; preload" },
+        ],
+      },
+    ];
+  },
   async redirects() {
     return [
       {
         source: '/pricing',
         destination: pricingUrl,
-        permanent: true, // 308 permanent redirect
+        permanent: true,
       },
       {
         source: '/pricing/:path*',
         destination: `${pricingUrl}/:path*`,
-        permanent: true, // 308 permanent redirect
+        permanent: true,
       },
       {
         source: '/signin',
         destination: '/sign-in',
-        permanent: true, // 308 permanent redirect - canonicalize auth route
+        permanent: true,
       },
       {
         source: '/product/sundae-report',
         destination: '/report',
-        permanent: true, // 308 permanent redirect - consolidate duplicate product page
+        permanent: true,
       },
       {
         source: '/support',
         destination: '/contact',
-        permanent: false, // 307 temporary redirect - may become its own page later
+        permanent: false,
       },
     ];
   },
 };
 
-export default nextConfig;
+export default withSentryConfig(nextConfig, {
+  org: process.env.SENTRY_ORG,
+  project: process.env.SENTRY_PROJECT,
+  silent: !process.env.CI,
+  wipeSourceMapsAfterUpload: true,
+});

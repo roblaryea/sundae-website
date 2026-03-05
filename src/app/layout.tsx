@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
@@ -6,6 +7,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
+import { PostHogProvider } from "@/components/PostHogProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -119,21 +121,25 @@ export default function RootLayout({
         </>
       )}
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}>
-        <a 
-          href="#main-content" 
+        <a
+          href="#main-content"
           className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-blue-600 focus:text-white focus:rounded-lg focus:outline-none"
         >
           Skip to main content
         </a>
-        <header role="banner">
-          <Navbar />
-        </header>
-        <main id="main-content" className="min-h-screen overflow-x-hidden" role="main">
-          <Breadcrumbs className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-2" />
-          {children}
-        </main>
-        <Footer />
-        <Analytics />
+        <Suspense fallback={null}>
+          <PostHogProvider>
+            <header role="banner">
+              <Navbar />
+            </header>
+            <main id="main-content" className="min-h-screen overflow-x-hidden" role="main">
+              <Breadcrumbs className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-2" />
+              {children}
+            </main>
+            <Footer />
+            <Analytics />
+          </PostHogProvider>
+        </Suspense>
       </body>
     </html>
   );
