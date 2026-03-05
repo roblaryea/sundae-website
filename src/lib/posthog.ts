@@ -9,7 +9,7 @@ export function initPostHog() {
   if (initialized || !POSTHOG_KEY || typeof window === "undefined") return;
   posthog.init(POSTHOG_KEY, {
     api_host: POSTHOG_HOST,
-    person_profiles: "anonymous",
+    person_profiles: "identified_only",
     capture_pageview: false,
     capture_pageleave: true,
     autocapture: true,
