@@ -3,7 +3,7 @@
     "primary": "Book a Demo",
     "secondary": "Start Free Trial"
   },
-  "generated_at": "2026-03-02T18:02:35.532Z",
+  "generated_at": "2026-03-07T11:24:10.577Z",
   "hero": {
     "bullets": [
       "Ingests 12 operational data domains",
@@ -37,7 +37,7 @@
       "name": "Chat With Data"
     },
     {
-      "blurb": "10 deep analytics modules across every operational domain.",
+      "blurb": "12 deep analytics modules across every operational domain.",
       "bullets": [],
       "name": "Insights"
     },
@@ -53,7 +53,7 @@
       "name": "Performance Report"
     },
     {
-      "blurb": "Real-time operations command center with 17 sub-pages.",
+      "blurb": "Real-time operations command center with 16 sub-pages.",
       "bullets": [
         "Hero pace bar with adaptive AI targets and hourly breakdown",
         "Active staff tracking with SPLH and break compliance",
@@ -116,9 +116,10 @@
       "100+ frontend pages",
       "12 distinct data domains ingested",
       "15 registered AI routes",
+      "10 registered AI chat modes",
       "22 production modules",
-      "17 sub-pages in Pulse",
-      "10 Insights deep analytics modules"
+      "16 sub-pages in Pulse",
+      "12 Insights deep analytics modules"
     ],
     "items": [
       {
@@ -147,19 +148,24 @@
         "value": "15"
       },
       {
+        "claim": "10 registered AI chat modes",
+        "unit": "chat modes",
+        "value": "10"
+      },
+      {
         "claim": "22 production modules",
         "unit": "modules",
         "value": "22"
       },
       {
-        "claim": "17 sub-pages in Pulse",
+        "claim": "16 sub-pages in Pulse",
         "unit": "sub-pages",
-        "value": "17"
+        "value": "16"
       },
       {
-        "claim": "10 Insights deep analytics modules",
+        "claim": "12 Insights deep analytics modules",
         "unit": "modules",
-        "value": "10"
+        "value": "12"
       }
     ]
   }
