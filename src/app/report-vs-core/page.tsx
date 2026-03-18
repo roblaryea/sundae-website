@@ -85,27 +85,21 @@ export default function ReportVsCorePage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50">
+    <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50/80 via-purple-50/30 to-blue-50/60">
-        <div className="max-w-7xl mx-auto text-center">
+      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
+        <div className="max-w-4xl mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 px-5 py-2.5 rounded-full text-base font-semibold mb-6">
-              <SundaeIcon name="balance" size="md" />
-              <span>Product Comparison</span>
-            </div>
+            <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase text-slate-500 mb-4">PRODUCT COMPARISON</span>
             <h1 className="hero-h1 text-gray-900 mb-6">
-              Report vs Core: Choose Your Tier
+              Report vs Core: Pick Your Speed
             </h1>
-            <p className="body-xl text-gray-600 mb-4 max-w-4xl mx-auto">
-              Both tiers deliver decision intelligence. The difference? Speed and depth.
-            </p>
-            <p className="body-lg text-gray-500 mb-8 max-w-3xl mx-auto">
-              Report = historical analysis. Core = real-time operations. Choose based on how fast you need to act.
+            <p className="body-xl text-gray-600 mb-4 max-w-3xl mx-auto">
+              Both deliver decision intelligence. Report gives you historical depth. Core gives you real-time operational speed. Choose based on how fast you need to act.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href={PRICING_URL} target="_blank" rel="noopener noreferrer">
@@ -126,7 +120,7 @@ export default function ReportVsCorePage() {
       </section>
 
       {/* Quick Summary Cards */}
-      <section className="py-12 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-12 px-4 sm:px-6 lg:px-8 bg-white border-b border-slate-100">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Report Summary */}
@@ -421,7 +415,7 @@ export default function ReportVsCorePage() {
       </section>
 
       {/* Upgrade Path */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-50 to-purple-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="section-h2 text-gray-900 mb-6">
             Not Sure? Start with Report
@@ -463,55 +457,46 @@ export default function ReportVsCorePage() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 text-gray-900 mb-6">
-            See Exact Pricing for Your Operation
+          <h2 className="section-h2 mb-6">
+            See Pricing for Your Operation
           </h2>
-          <p className="body-lg text-gray-600 mb-8 max-w-3xl mx-auto">
-            Interactive pricing calculator shows costs for both Report and Core tiers based on your location count.
+          <p className="body-lg text-slate-300 mb-10 max-w-3xl mx-auto">
+            Interactive calculator shows costs for both tiers based on your location count.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            <div className="p-6 bg-gray-50 rounded-xl">
-              <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="calculator" size="lg" className="text-white" />
-              </div>
-              <h3 className="font-semibold text-gray-900 mb-2">See Exact Pricing</h3>
-              <p className="text-sm text-gray-600 mb-4">Compare Report & Core pricing</p>
+            <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+              <h3 className="font-semibold text-white mb-2">Calculate Pricing</h3>
+              <p className="text-sm text-slate-400 mb-4">Compare Report & Core costs</p>
               <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
-                <Button variant="primary" size="md" className="w-full">
-                  Calculate Pricing →
+                <Button variant="primary" size="md" className="w-full bg-white text-slate-900 hover:bg-slate-100">
+                  See Pricing &rarr;
                 </Button>
               </a>
             </div>
-            <div className="p-6 bg-gray-50 rounded-xl">
-              <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="report" size="lg" className="text-white" />
-              </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Start Free</h3>
-              <p className="text-sm text-gray-600 mb-4">Report Lite, no credit card</p>
-              <Button 
-                variant="outline" 
+            <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+              <h3 className="font-semibold text-white mb-2">Start Free</h3>
+              <p className="text-sm text-slate-400 mb-4">Report Lite, no credit card</p>
+              <Button
+                variant="outline-light"
                 size="md"
                 className="w-full"
                 onClick={() => cta(REPORT_APP_URL, "start_free_from_comparison_bottom", { page: "/report-vs-core" })}
               >
-                Start Free →
+                Start Free &rarr;
               </Button>
             </div>
-            <div className="p-6 bg-gray-50 rounded-xl">
-              <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="visibility" size="lg" className="text-white" />
-              </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Book a Demo</h3>
-              <p className="text-sm text-gray-600 mb-4">See both tiers in action</p>
-              <Button 
-                variant="outline" 
+            <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+              <h3 className="font-semibold text-white mb-2">Book a Demo</h3>
+              <p className="text-sm text-slate-400 mb-4">See both tiers live</p>
+              <Button
+                variant="outline-light"
                 size="md"
                 className="w-full"
                 onClick={() => cta("/demo", "book_demo_from_comparison", { page: "/report-vs-core" })}
               >
-                Book Demo →
+                Book Demo &rarr;
               </Button>
             </div>
           </div>

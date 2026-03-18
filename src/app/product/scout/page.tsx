@@ -1,96 +1,88 @@
 import React from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
 import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 
 export default function ScoutPage() {
   const features: { title: string; description: string; icon: SundaeIconName }[] = [
     {
-      title: "Universal API Integration",
-      description: "Connect to 25+ restaurant systems including POS, HRIS, payroll, inventory, and market data sources",
+      title: "30+ Pre-Built Connectors",
+      description: "POS, labor, inventory, reservations, delivery, marketing, accounting — Scout speaks to the systems you already use.",
       icon: "integration"
     },
     {
-      title: "Real-time Data Sync",
-      description: "Continuous synchronization ensures your intelligence layer always has the latest data",
+      title: "Continuous Sync",
+      description: "Data flows automatically. No nightly dumps, no CSV uploads, no waiting until morning to see yesterday's numbers.",
       icon: "speed"
     },
     {
-      title: "Data Quality Assurance",
-      description: "Automated validation and cleansing to ensure accuracy and consistency across all sources",
+      title: "Cleaning Built In",
+      description: "Scout normalizes naming, fills gaps, and flags quality issues before bad data reaches your dashboards.",
       icon: "success"
     },
     {
-      title: "Scalable Architecture",
-      description: "Handles enterprise-scale data volumes with sub-second response times",
+      title: "Enterprise Scale",
+      description: "100+ locations, millions of transactions, sub-second queries. Scout is built for restaurant groups that outgrow spreadsheets.",
       icon: "growth"
     }
   ];
 
   const integrations = [
-    { category: "POS Systems", systems: ["Toast", "Square", "Resy", "OpenTable", "SevenRooms"] },
-    { category: "HR & Payroll", systems: ["ADP", "Paychex", "Gusto", "BambooHR", "Workday"] },
-    { category: "Inventory", systems: ["MarketMan", "BlueCart", "OrderGrid", "ChefHero"] },
-    { category: "Market Data", systems: ["Technomic", "NPD", "GuestXM", "Black Box"] }
+    { category: "Point of Sale", systems: ["Oracle MICROS", "Toast", "Square", "Clover"] },
+    { category: "Labor & Scheduling", systems: ["7shifts", "HotSchedules", "Deputy"] },
+    { category: "Inventory", systems: ["MarketMan", "Craftable", "BinWise"] },
+    { category: "Reservations & CRM", systems: ["SevenRooms", "OpenTable", "Resy", "Tock"] }
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50 dark:from-graphite-black dark:via-slate-900 dark:to-slate-900">
+    <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="py-20 pt-32">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center space-y-6">
-            <div className="inline-flex items-center space-x-2 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 px-4 py-2 rounded-full text-sm font-medium">
-              <SundaeIcon name="search" size="md" />
-              <span>Integration Specialist</span>
-            </div>
-            <h1 className="hero-h1 text-gray-900 dark:text-white">
-              One Connection.
-              <br />
-              <span className="text-green-600 dark:text-electric-blue">Every System.</span>
-            </h1>
-            <p className="body-xl text-gray-600 dark:text-slate-300 max-w-3xl mx-auto">
-              Scout connects 25+ data sources into one unified layer. No more silos. No more manual exports. Just clean, connected data.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-              <Link href="/demo">
-                <Button variant="primary" size="lg">
-                  See Scout in Action
-                </Button>
-              </Link>
-              <Link href="/architecture">
-                <Button variant="outline" size="lg">
-                  View Architecture
-                </Button>
-              </Link>
-            </div>
+      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
+        <div className="max-w-4xl mx-auto text-center">
+          <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase text-slate-500 mb-4">SCOUT — DATA LAYER</span>
+          <h1 className="hero-h1 text-gray-900 mb-6">
+            Every System Connected. Every Number Trusted.
+          </h1>
+          <p className="body-xl text-gray-600 max-w-3xl mx-auto mb-8">
+            Scout is the foundation. It connects your POS, labor, inventory, reservations, and delivery platforms into one clean data layer — so every dashboard, alert, and recommendation starts with data you can trust.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/demo">
+              <Button variant="primary" size="lg">
+                See Scout in Action
+              </Button>
+            </Link>
+            <Link href="/integrations">
+              <Button variant="outline" size="lg">
+                View All Integrations
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
 
       {/* Key Features Section */}
-      <section className="py-20 bg-white dark:bg-slate-900">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center space-y-4 mb-12">
-            <h2 className="section-h2 text-gray-900 dark:text-white">
-              Every System. Zero Silos.
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white border-b border-slate-100">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="section-h2 text-gray-900 mb-4">
+              What Scout Does
             </h2>
-            <p className="body-lg text-gray-600 dark:text-slate-300 max-w-3xl mx-auto">
-              Your POS, payroll, inventory, and market data — unified in one place
+            <p className="body-lg text-gray-600 max-w-3xl mx-auto">
+              One data layer that connects, cleans, and unifies everything your restaurant runs on
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {features.map((feature, index) => (
-              <div key={index} className="rounded-2xl border border-gray-200 dark:border-slate-800 dark:border-slate-800 bg-white dark:bg-slate-900 p-6 shadow-sm hover:shadow-md transition">
+              <div key={index} className="rounded-2xl border border-slate-200 bg-white p-6 hover:border-slate-300 transition-colors">
                 <div className="flex items-start gap-4">
-                  <div className="h-12 w-12 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center text-white flex-shrink-0">
-                    <SundaeIcon name={feature.icon} size="lg" className="text-white" />
+                  <div className="h-11 w-11 rounded-xl bg-slate-900 flex items-center justify-center text-white flex-shrink-0">
+                    <SundaeIcon name={feature.icon} size="md" className="text-white" />
                   </div>
-                  <div className="space-y-2">
-                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{feature.title}</h3>
-                    <p className="text-gray-600 dark:text-slate-300">{feature.description}</p>
+                  <div>
+                    <h3 className="text-base font-semibold text-gray-900 mb-1">{feature.title}</h3>
+                    <p className="text-sm text-gray-600 leading-relaxed">{feature.description}</p>
                   </div>
                 </div>
               </div>
@@ -100,44 +92,50 @@ export default function ScoutPage() {
       </section>
 
       {/* Integration Categories Section */}
-      <section className="py-20 bg-gray-50 dark:bg-slate-800/50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center space-y-4 mb-12">
-            <h2 className="section-h2 text-gray-900 dark:text-white">
-              Ready-to-Go Integrations
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="section-h2 text-gray-900 mb-4">
+              Connected Platforms
             </h2>
-            <p className="body-lg text-gray-600 dark:text-slate-300 max-w-3xl mx-auto">
-              Connect in minutes, not months. We already speak to 25+ platforms.
+            <p className="body-lg text-gray-600 max-w-3xl mx-auto">
+              Most integrations take under 5 minutes. OAuth or API key — authenticate and go.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {integrations.map((category, index) => (
-              <div key={index} className="rounded-2xl border border-gray-200 dark:border-slate-800 dark:border-slate-800 bg-white dark:bg-slate-900 p-6 shadow-sm hover:shadow-md transition">
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">{category.category}</h3>
-                <ul className="space-y-3">
+              <div key={index} className="rounded-2xl border border-slate-200 bg-white p-6">
+                <h3 className="text-sm font-semibold text-gray-900 mb-4">{category.category}</h3>
+                <ul className="space-y-2.5">
                   {category.systems.map((system, systemIndex) => (
-                    <li key={systemIndex} className="flex items-center gap-3">
-                      <div className="w-2 h-2 bg-blue-600 dark:bg-electric-blue rounded-full"></div>
-                      <span className="text-gray-600 dark:text-slate-300 text-sm">{system}</span>
+                    <li key={systemIndex} className="flex items-center gap-2.5">
+                      <span className="w-1.5 h-1.5 bg-slate-400 rounded-full"></span>
+                      <span className="text-gray-600 text-sm">{system}</span>
                     </li>
                   ))}
                 </ul>
               </div>
             ))}
           </div>
+
+          <p className="text-center text-sm text-gray-500 mt-8">
+            <Link href="/integrations" className="hover:text-gray-700 transition-colors underline underline-offset-2">
+              See all 30+ integrations &rarr;
+            </Link>
+          </p>
         </div>
       </section>
 
       {/* How It Works Section */}
-      <section className="py-20 bg-white dark:bg-slate-900">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center space-y-4 mb-12">
-            <h2 className="section-h2 text-gray-900 dark:text-white">
-              Three Steps to Unified Data
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="section-h2 text-gray-900 mb-4">
+              Connect. Clean. Activate.
             </h2>
-            <p className="body-lg text-gray-600 dark:text-slate-300 max-w-3xl mx-auto">
-              Connect. Normalize. Activate.
+            <p className="body-lg text-gray-600 max-w-3xl mx-auto">
+              Three steps from siloed systems to unified intelligence
             </p>
           </div>
 
@@ -145,26 +143,26 @@ export default function ScoutPage() {
             {[
               {
                 step: "1",
-                title: "Connect Your Systems",
-                description: "Use our pre-built connectors or custom APIs to link your existing restaurant technology stack"
+                title: "Authenticate",
+                description: "Connect your platforms with OAuth or API key. Most integrations take under 5 minutes — no engineering required."
               },
               {
-                step: "2", 
-                title: "Data Normalization",
-                description: "Scout automatically cleans, standardizes, and enriches data from all connected sources"
+                step: "2",
+                title: "Normalize",
+                description: "Scout maps every data source to a consistent schema, cleans inconsistencies, and fills gaps automatically."
               },
               {
                 step: "3",
-                title: "Unified Intelligence",
-                description: "Access real-time insights and analytics across all your systems in one dashboard"
+                title: "Analyze",
+                description: "Unified data flows into dashboards, alerts, and AI recommendations. No exports, no manual entry."
               }
             ].map((step, index) => (
-              <div key={index} className="text-center space-y-4">
-                <div className="h-16 w-16 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto">
+              <div key={index} className="text-center">
+                <div className="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center text-slate-600 text-lg font-bold mx-auto mb-4">
                   {step.step}
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 dark:text-white">{step.title}</h3>
-                <p className="text-gray-600 dark:text-slate-300">{step.description}</p>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">{step.title}</h3>
+                <p className="text-sm text-gray-600">{step.description}</p>
               </div>
             ))}
           </div>
@@ -172,23 +170,23 @@ export default function ScoutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-blue-600 to-purple-600">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
-          <h2 className="section-h2 text-white">
-            Ready to Connect Everything?
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="section-h2 text-white mb-6">
+            Stop Exporting. Start Connecting.
           </h2>
-          <p className="body-xl text-white/90 max-w-2xl mx-auto">
-            See your systems unified in one view. Book a Scout demo today.
+          <p className="body-xl text-slate-300 max-w-2xl mx-auto mb-8">
+            See how Scout unifies your restaurant data in a single demo.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/demo">
-              <Button variant="primary" size="lg" className="bg-white text-green-600 hover:bg-gray-100">
-                Book Scout Demo
+              <Button variant="primary" size="lg" className="bg-white text-slate-900 hover:bg-slate-100">
+                Book a Demo
               </Button>
             </Link>
             <Link href="/product">
               <Button variant="outline-light" size="lg">
-                View All Modules
+                View All Products
               </Button>
             </Link>
           </div>
