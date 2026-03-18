@@ -17,7 +17,7 @@ export default function ReportProductPage() {
       name: "Report Lite",
       badge: "Free Forever",
       subtitle: "Test Sundae. Prove the Value. Pay Nothing.",
-      description: "Perfect for operators who want to test Sundae before committing, or small operations that just need basic benchmarking.",
+      description: "Upload a CSV. Get instant clarity. Perfect for testing Sundae or running a single location that needs basic benchmarking.",
       features: [
         "Manual CSV upload",
         "Benchmark 5 core metrics",
@@ -35,7 +35,7 @@ export default function ReportProductPage() {
       name: "Report Plus",
       badge: "Most Popular",
       subtitle: "AI-Powered Analysis. Automated Insights.",
-      description: "For serious operators who want advanced benchmarking and AI-powered insights without real-time complexity.",
+      description: "AI parses your PDFs, Excel files, and screenshots automatically. Advanced benchmarking and pattern detection for operators ready to go deeper.",
       features: [
         "AI-parsed uploads (PDF, Excel, screenshots)",
         "Benchmark 15 metrics",
@@ -53,7 +53,7 @@ export default function ReportProductPage() {
       name: "Report Pro",
       badge: "Maximum Intelligence",
       subtitle: "Full Automation. API Integration.",
-      description: "For multi-location operators preparing to scale with zero manual work and maximum historical intelligence.",
+      description: "Fully automated API integration. Maximum metrics, maximum retention, maximum intelligence. For groups scaling past 5 locations.",
       features: [
         "Fully automated API integration",
         "Benchmark 30 metrics",
@@ -63,7 +63,7 @@ export default function ReportProductPage() {
         "Priority support (12hr response)"
       ],
       bestFor: "Multi-location groups (5-20), portfolio managers",
-      color: "from-orange-500 to-orange-600",
+      color: "from-slate-700 to-slate-900",
       cta: "See Report Pro",
       link: PRICING_URL
     }
@@ -159,9 +159,9 @@ export default function ReportProductPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50">
+    <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50/80 via-purple-50/30 to-blue-50/60">
+      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
         <div className="max-w-7xl mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -173,20 +173,20 @@ export default function ReportProductPage() {
               <span>Sundae Report</span>
             </div>
             <h1 className="hero-h1 text-gray-900 mb-6">
-              Turn Historical Data into Strategic Clarity
+              Know Where You Stand. See Where to Go.
             </h1>
             <p className="body-xl text-gray-600 mb-4 max-w-4xl mx-auto">
-              Upload your operational data and instantly understand where you stand. Compare performance against similar restaurants, identify margin opportunities, and build the case for real-time intelligence.
+              Upload your data. Instantly benchmark against restaurants like yours. Spot the margins you're leaving on the table — and build the case for what's next.
             </p>
             <p className="body-lg text-gray-500 mb-8 max-w-3xl mx-auto">
-              Start with Report Lite — free forever. No credit card. No commitment. Just upload your POS data and see where you rank.
+              Free forever. No credit card. No commitment. Just clarity.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
               <a href={SIGNUP_URL} onClick={() => cta(SIGNUP_URL, "start_free_benchmark", { page: "/report-product" })} className="btn-primary btn-lg">
-                Start Free Benchmark
+                Start Your Free Benchmark
               </a>
               <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="btn-secondary btn-lg">
-                See Report Tier Options
+                See Pricing
               </a>
             </div>
           </motion.div>
@@ -207,7 +207,7 @@ export default function ReportProductPage() {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="section-h2 text-gray-900 mb-4">
-              What is Sundae Report?
+              Your Historical Intelligence Layer
             </h2>
             <p className="body-lg text-gray-600 max-w-3xl mx-auto">
               Sundae Report is your historical intelligence layer — the foundation of decision intelligence for restaurants. Whether you're testing Sundae for the first time or running deep historical analysis across dozens of locations, Report gives you the clarity to understand what happened, why it matters, and where you stand against the market.
@@ -219,27 +219,27 @@ export default function ReportProductPage() {
               <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="intelligence" size="lg" className="text-white" />
               </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Decision Intelligence</h3>
-              <p className="text-sm text-gray-600">Not just dashboards. We tell you what the numbers mean and what to do about them.</p>
+              <h3 className="font-semibold text-gray-900 mb-2">Beyond Dashboards</h3>
+              <p className="text-sm text-gray-600">We don't just show numbers. We tell you what they mean, why they matter, and what to do about them.</p>
             </div>
             <div className="text-center p-6 bg-purple-50/70 rounded-xl">
               <div className="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="benchmarking" size="lg" className="text-white" />
               </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Real Benchmarking</h3>
-              <p className="text-sm text-gray-600">Compare against restaurants like yours — not generic industry averages.</p>
+              <h3 className="font-semibold text-gray-900 mb-2">True Benchmarking</h3>
+              <p className="text-sm text-gray-600">Compare against restaurants like yours — by cuisine, size, and market — not generic industry averages.</p>
             </div>
             <div className="text-center p-6 bg-purple-50/50 rounded-xl">
               <div className="w-10 h-10 mx-auto mb-3 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center"><SundaeIcon name="success" size="lg" className="text-white" /></div>
-              <h3 className="font-semibold text-gray-900 mb-2">Start Free</h3>
-              <p className="text-sm text-gray-600">Report Lite costs nothing, forever. Prove the value before you pay.</p>
+              <h3 className="font-semibold text-gray-900 mb-2">Zero Risk Entry</h3>
+              <p className="text-sm text-gray-600">Report Lite is free forever. Prove the value with your own data before you invest a dollar.</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Three Tiers */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50/50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <p className="text-xs font-semibold tracking-[0.18em] uppercase text-slate-500 mb-4">
@@ -287,7 +287,7 @@ export default function ReportProductPage() {
                         </li>
                       ))}
                     </ul>
-                    <div className="p-4 bg-gray-50 rounded-lg mb-6">
+                    <div className="p-4 bg-slate-50 rounded-lg mb-6">
                       <p className="text-xs font-semibold text-gray-500 uppercase mb-1">Best for:</p>
                       <p className="text-sm text-gray-700">{tier.bestFor}</p>
                     </div>
@@ -298,9 +298,9 @@ export default function ReportProductPage() {
                         </Button>
                       </a>
                     ) : (
-                      <Button 
-                        variant="primary" 
-                        size="lg" 
+                      <Button
+                        variant="primary"
+                        size="lg"
                         className="w-full"
                         onClick={() => cta(tier.link, `explore_${tier.name.toLowerCase().replace(/\s+/g, '_')}`, { page: "/report-product" })}
                       >
@@ -360,7 +360,7 @@ export default function ReportProductPage() {
       </section>
 
       {/* When to Upgrade to Core */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50 to-purple-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
@@ -381,7 +381,7 @@ export default function ReportProductPage() {
                 viewport={{ once: true, margin: "-100px" }}
               >
                 <div className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-300">
-                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center text-white flex-shrink-0">
+                  <div className="w-12 h-12 bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl flex items-center justify-center text-white flex-shrink-0">
                     <SundaeIcon name={signal.icon} size="lg" className="text-white" />
                   </div>
                   <div>
@@ -394,8 +394,8 @@ export default function ReportProductPage() {
           </div>
 
           <div className="text-center">
-            <Button 
-              variant="primary" 
+            <Button
+              variant="primary"
               size="lg"
               onClick={() => cta("/core", "explore_core_upgrade", { page: "/report-product" })}
             >
@@ -418,7 +418,7 @@ export default function ReportProductPage() {
 
           <div className="space-y-6">
             {faqs.map((faq, index) => (
-              <div key={index} className="p-6 bg-gray-50 rounded-xl">
+              <div key={index} className="p-6 bg-slate-50/70 rounded-xl">
                 <h3 className="font-semibold text-gray-900 mb-3">{faq.q}</h3>
                 <p className="text-gray-600 leading-relaxed">{faq.a}</p>
               </div>
@@ -426,8 +426,8 @@ export default function ReportProductPage() {
           </div>
 
           <div className="text-center mt-12">
-            <Button 
-              variant="outline" 
+            <Button
+              variant="outline"
               size="lg"
               onClick={() => cta("/faq", "see_more_faqs", { page: "/report-product" })}
             >
@@ -438,21 +438,21 @@ export default function ReportProductPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 text-gray-900 mb-6">
-            Start Your Free Benchmark Today
+          <h2 className="section-h2 text-white mb-6">
+            Start in Under Two Minutes
           </h2>
-          <p className="body-lg text-gray-600 mb-8 max-w-3xl mx-auto">
-            Upload your operational data and see instant results. No credit card. No commitment. No risk.
+          <p className="body-lg text-slate-400 mb-8 max-w-3xl mx-auto">
+            Upload your data, see your benchmark. That's it.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            <div className="p-6 bg-white rounded-xl shadow-sm">
+            <div className="p-6 bg-white/5 border border-white/10 rounded-xl">
               <div className="w-10 h-10 mx-auto mb-3 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center"><SundaeIcon name="success" size="lg" className="text-white" /></div>
-              <h3 className="font-semibold text-gray-900 mb-2">Start Free</h3>
-              <p className="text-sm text-gray-600 mb-4">Upload CSV, get instant benchmark</p>
-              <Button 
-                variant="primary" 
+              <h3 className="font-semibold text-white mb-2">Start Free</h3>
+              <p className="text-sm text-slate-400 mb-4">Upload CSV, get instant benchmark</p>
+              <Button
+                variant="primary"
                 size="md"
                 className="w-full"
                 onClick={() => cta(REPORT_APP_URL, "start_free_final_cta", { page: "/report-product" })}
@@ -460,15 +460,15 @@ export default function ReportProductPage() {
                 Start Free →
               </Button>
             </div>
-            <div className="p-6 bg-white rounded-xl shadow-sm">
+            <div className="p-6 bg-white/5 border border-white/10 rounded-xl">
               <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="chart" size="lg" className="text-white" />
               </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Explore Tiers</h3>
-              <p className="text-sm text-gray-600 mb-4">See Plus and Pro capabilities</p>
+              <h3 className="font-semibold text-white mb-2">Explore Tiers</h3>
+              <p className="text-sm text-slate-400 mb-4">See Plus and Pro capabilities</p>
               <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
-                <Button 
-                  variant="outline" 
+                <Button
+                  variant="outline"
                   size="md"
                   className="w-full"
                 >
@@ -476,14 +476,14 @@ export default function ReportProductPage() {
                 </Button>
               </a>
             </div>
-            <div className="p-6 bg-white rounded-xl shadow-sm">
+            <div className="p-6 bg-white/5 border border-white/10 rounded-xl">
               <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="visibility" size="lg" className="text-white" />
               </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Book a Demo</h3>
-              <p className="text-sm text-gray-600 mb-4">See Report with your data</p>
-              <Button 
-                variant="outline" 
+              <h3 className="font-semibold text-white mb-2">Book a Demo</h3>
+              <p className="text-sm text-slate-400 mb-4">See Report with your data</p>
+              <Button
+                variant="outline"
                 size="md"
                 className="w-full"
                 onClick={() => cta("/demo", "book_demo_from_report", { page: "/report-product" })}

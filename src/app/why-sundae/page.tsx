@@ -52,19 +52,19 @@ const differentiators: { title: string; description: string; icon: SundaeIconNam
 const problems = [
   {
     problem: "Fragmented Operational Data",
-    current: "POS, labor, inventory, reservations, and finance scattered across 5-10 different systems with no unified view",
+    current: "Your POS says one thing. Your labor system says another. Your inventory platform doesn't talk to either. You're running a business on 5-10 disconnected systems.",
     solution: "Sundae's Integrations Hub connects 12 data domains into a single intelligence layer",
     impact: "One source of truth across every location"
   },
   {
     problem: "Reactive Decision-Making",
-    current: "Weekly reports that show what happened — too late to act on lost revenue, labor overruns, or margin erosion",
+    current: "By the time your weekly report lands, the labor overrun already hit payroll. The margin leak already happened. You're managing yesterday's problems.",
     solution: "Pulse monitors operations intraday with real-time alerts, AI coaching, and automated playbooks",
     impact: "Shift from reactive to proactive management"
   },
   {
     problem: "No Market Context",
-    current: "Internal metrics in isolation — no visibility into competitor activity, weather impact, or local event demand",
+    current: "You know your numbers. But you don't know if they're good. Without competitor context, market signals, and event intelligence, you're optimizing in the dark.",
     solution: "Watchtower and Benchmarks add market context to every operational decision",
     impact: "Decisions informed by internal and external signals"
   }
@@ -77,13 +77,12 @@ export default function WhySundaePage() {
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="hero-h1 text-gray-900 dark:text-white mb-6">
-            Why Leading Restaurant Groups
+            The Gap Between What You Know
             <br />
-            <span className="text-gradient">Choose Sundae</span>
+            <span className="text-gradient">and What You're Missing</span>
           </h1>
           <p className="body-xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
-            Decision Intelligence that unifies your data, monitors your operations in real time,
-            and tells your team exactly what to do next.
+            Most operators run on fragmented data, delayed reports, and gut instinct. Sundae closes that gap — with unified data, real-time monitoring, and AI that tells your team exactly what to do next.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/demo">
@@ -105,10 +104,10 @@ export default function WhySundaePage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 dark:text-white mb-4">
-              Three Problems Every Operator Faces
+              The Three Gaps Costing You Money
             </h2>
             <p className="body-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              And how Sundae solves each one
+              Every restaurant group we've worked with faces the same three challenges
             </p>
           </div>
 
@@ -116,7 +115,7 @@ export default function WhySundaePage() {
             {problems.map((item, index) => (
               <div key={item.problem} className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
                 <div className={`lg:col-span-1 ${index % 2 === 0 ? 'lg:order-1' : 'lg:order-3'}`}>
-                  <div className="bg-red-50 dark:bg-red-950/30 border-l-4 border-red-500 p-6 rounded-lg">
+                  <div className="bg-red-50 dark:bg-red-950/30 border-l-4 border-red-500 p-6 rounded-lg shadow-sm">
                     <h3 className="text-lg font-semibold text-red-900 dark:text-red-300 mb-3">{item.problem}</h3>
                     <p className="text-red-700 dark:text-red-400 text-sm mb-4">{item.current}</p>
                     <div className="text-xs text-red-600 dark:text-red-500 font-medium">THE PROBLEM</div>
@@ -134,7 +133,7 @@ export default function WhySundaePage() {
                 </div>
 
                 <div className={`lg:col-span-1 ${index % 2 === 0 ? 'lg:order-3' : 'lg:order-1'}`}>
-                  <div className="bg-green-50 dark:bg-green-950/30 border-l-4 border-green-500 p-6 rounded-lg">
+                  <div className="bg-green-50 dark:bg-green-950/30 border-l-4 border-green-500 p-6 rounded-lg shadow-sm">
                     <h3 className="text-lg font-semibold text-green-900 dark:text-green-300 mb-3">Result</h3>
                     <p className="text-green-700 dark:text-green-400 text-sm mb-4">{item.impact}</p>
                     <div className="text-xs text-green-600 dark:text-green-500 font-medium">THE OUTCOME</div>
@@ -154,13 +153,13 @@ export default function WhySundaePage() {
               What Makes Sundae Different
             </h2>
             <p className="body-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Purpose-built for restaurant and hospitality operators
+              Six capabilities that no other platform combines
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {differentiators.map((item) => (
-              <Card key={item.title} variant="elevated">
+              <Card key={item.title} variant="elevated" className="hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                 <CardHeader>
                   <div className="flex items-center space-x-4">
                     <div className={`w-12 h-12 ${item.color} rounded-lg flex items-center justify-center text-white`}>
@@ -181,13 +180,13 @@ export default function WhySundaePage() {
       </section>
 
       {/* How It Compares */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="section-h2 mb-8">
             Beyond Traditional Dashboards
           </h2>
           <p className="body-xl mb-12 max-w-3xl mx-auto opacity-90">
-            Traditional BI shows you what happened. Sundae shows you what to do next.
+            Most platforms show you what happened. We show you what's happening, what it means, and what to do about it.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -279,17 +278,17 @@ export default function WhySundaePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-900 to-slate-950 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 mb-6">
-            See Sundae in Action
+            See What You've Been Missing
           </h2>
           <p className="body-xl mb-8 opacity-90">
-            Book a demo to see how Decision Intelligence can transform your restaurant operations.
+            30 minutes. Your data. Real insights. No pitch deck.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/demo">
-              <Button variant="secondary" size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+              <Button variant="secondary" size="lg" className="bg-white text-slate-900 hover:bg-gray-100">
                 Book a Demo
               </Button>
             </Link>

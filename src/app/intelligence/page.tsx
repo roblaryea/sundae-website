@@ -102,12 +102,12 @@ const anomalyTypes = [
 const differentiators: { title: string; description: string; icon: SundaeIconName }[] = [
   {
     title: "Conversational, Not Dashboard-Based",
-    description: "No pre-built dashboards to configure. Ask questions in natural language and get visual, structured answers.",
+    description: "No dashboards to configure. No reports to build. Just ask a question and get a visual, structured answer in seconds.",
     icon: "conversation"
   },
   {
-    title: "Proactive Anomaly Detection",
-    description: "The system finds problems before you ask — monitoring revenue, orders, tickets, and menu item performance continuously.",
+    title: "Finds Problems Before You Do",
+    description: "Continuously monitors revenue, orders, tickets, and menu performance — surfacing anomalies and shifts before they become expensive.",
     icon: "alerts"
   },
   {
@@ -121,8 +121,8 @@ const differentiators: { title: string; description: string; icon: SundaeIconNam
     icon: "schedule"
   },
   {
-    title: "Multi-Source, Multi-Tenant",
-    description: "Connects to PostgreSQL, MySQL, SQL Server, and Snowflake. Fully scoped per organization with schema discovery.",
+    title: "Connected to Everything",
+    description: "Pulls from every data source you've connected — POS, labor, inventory, reservations, delivery. Fully scoped per organization.",
     icon: "integration"
   },
   {
@@ -150,13 +150,13 @@ export default function ChatWithDataPage() {
                 AI-POWERED DECISION INTELLIGENCE
               </p>
               <h1 className="hero-h1 text-gray-900 dark:text-white mb-6">
-                Sundae Intelligence
+                Ask Your Data Anything.<br />Get Restaurant Answers.
               </h1>
               <p className="body-xl text-gray-600 dark:text-slate-300 mb-3 max-w-xl">
-                A conversational BI engine built into the Sundae platform. Ask questions in natural language, get structured visual answers — powered by your POS, inventory, HR, and delivery data.
+                Skip the dashboards. Ask a question in plain English and get structured, visual answers — powered by your POS, inventory, labor, and delivery data in real time.
               </p>
               <p className="text-sm text-slate-500 dark:text-slate-400 mb-6 max-w-xl">
-                Think &ldquo;a personal data analyst for your restaurant&rdquo; — deeply integrated with your operational systems.
+                Like having a personal data analyst who knows every metric across every location — available 24/7.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 mb-6">
                 <Button

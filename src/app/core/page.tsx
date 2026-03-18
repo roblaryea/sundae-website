@@ -143,9 +143,9 @@ export default function CoreProductPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50">
+    <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50/80 via-purple-50/30 to-blue-50/60">
+      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
         <div className="max-w-7xl mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -157,13 +157,13 @@ export default function CoreProductPage() {
               <span>Sundae Core</span>
             </div>
             <h1 className="hero-h1 text-gray-900 mb-6">
-              Know Now. Act Fast. Stay Ahead.
+              See Your Operation in Real Time.<br />Fix Problems Before They Cost You.
             </h1>
             <p className="body-xl text-gray-600 mb-4 max-w-4xl mx-auto">
-              Near real-time operational intelligence with predictive alerts. Connect your systems and get the clarity to manage your operation in the moment — not at end-of-day.
+              Connected to your POS, labor, inventory, and every system that matters. Core refreshes every 2-4 hours so you can act during the shift — not after the damage is done.
             </p>
             <p className="body-lg text-gray-500 mb-8 max-w-3xl mx-auto">
-              <strong>Includes everything from Report tier, plus operational speed.</strong> 2-4 hour refresh cycles. Predictive forecasting. Proactive recommendations.
+              Everything in Report, plus operational speed. Predictive forecasting. Proactive alerts. The intelligence your end-of-day reports can't give you.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
               <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="btn-primary btn-lg">
@@ -186,12 +186,12 @@ export default function CoreProductPage() {
         </div>
       </section>
 
-      {/* What is Sundae Core */}
+      {/* The Real-Time Intelligence Layer */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="section-h2 text-gray-900 mb-4">
-              What is Sundae Core?
+              The Real-Time Intelligence Layer
             </h2>
             <p className="body-lg text-gray-600 max-w-3xl mx-auto">
               Sundae Core is your real-time operational intelligence layer — built for operators who can't wait for end-of-day reports. Whether you're managing 10 locations or 100+, Core gives you the speed to see what's happening now, understand why it matters, and get recommended actions before problems escalate.
@@ -203,22 +203,22 @@ export default function CoreProductPage() {
               <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="forecasting" size="lg" className="text-white" />
               </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Intelligence That Predicts</h3>
-              <p className="text-sm text-gray-600">Not dashboards that update. Get alerts before problems become expensive with AI recommendations for immediate action.</p>
+              <h3 className="font-semibold text-gray-900 mb-2">Predictive, Not Reactive</h3>
+              <p className="text-sm text-gray-600">Get alerts before problems become expensive. AI recommendations for immediate action — not dashboards that update.</p>
             </div>
             <div className="text-center p-6 bg-purple-50 rounded-xl">
               <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="multiLocation" size="lg" className="text-white" />
               </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Built for Multi-Location</h3>
-              <p className="text-sm text-gray-600">Unified view across all locations with portfolio-level insights and location-level detail.</p>
+              <h3 className="font-semibold text-gray-900 mb-2">Every Location, One View</h3>
+              <p className="text-sm text-gray-600">Unified visibility across all locations. Portfolio-level patterns and location-level detail in a single pane.</p>
             </div>
             <div className="text-center p-6 bg-green-50 rounded-xl">
               <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="performance" size="lg" className="text-white" />
               </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Scales Infinitely</h3>
-              <p className="text-sm text-gray-600">From 10 to 1,000+ locations. Core Lite, Core Pro, or Enterprise — scale as you grow.</p>
+              <h3 className="font-semibold text-gray-900 mb-2">Grows With You</h3>
+              <p className="text-sm text-gray-600">From 10 to 1,000+ locations. Core Lite, Pro, or Enterprise — the platform scales as you do.</p>
             </div>
           </div>
         </div>
@@ -273,7 +273,7 @@ export default function CoreProductPage() {
                         </li>
                       ))}
                     </ul>
-                    <div className="p-4 bg-gray-50 rounded-lg mb-6">
+                    <div className="p-4 bg-slate-50 rounded-lg mb-6">
                       <p className="text-xs font-semibold text-gray-500 uppercase mb-1">Best for:</p>
                       <p className="text-sm text-gray-700">{tier.bestFor}</p>
                     </div>
@@ -343,10 +343,10 @@ export default function CoreProductPage() {
               <span>Included with Core</span>
             </div>
             <h2 className="section-h2 text-gray-900 mb-4">
-              Pulse: Intraday Operations Monitor
+              Pulse: Your Shift Command Center
             </h2>
             <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-              Detect, act, and confirm within the shift. Pulse monitors your operations in real time and coaches your team when things go off-track.
+              See anomalies the moment they happen. Coach your team in real time. Confirm results before the shift ends.
             </p>
           </div>
 
@@ -379,7 +379,7 @@ export default function CoreProductPage() {
                 transition={{ duration: 0.5, delay: index * 0.05 }}
                 viewport={{ once: true, margin: "-100px" }}
               >
-                <div className="flex items-start space-x-3 p-4 bg-white rounded-xl border border-slate-200/70 shadow-sm hover:shadow-md transition-all duration-300 h-full">
+                <div className="flex items-start space-x-3 p-4 bg-white rounded-xl border border-slate-200/50 shadow-sm hover:shadow-md transition-all duration-300 h-full">
                   <div className="w-10 h-10 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center text-white flex-shrink-0">
                     <SundaeIcon name={feature.icon} size="md" className="text-white" />
                   </div>
@@ -395,7 +395,7 @@ export default function CoreProductPage() {
       </section>
 
       {/* Integrations */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50 to-purple-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
@@ -451,7 +451,7 @@ export default function CoreProductPage() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true, margin: "-100px" }}
               >
-                <div className="flex items-start space-x-3 p-5 bg-gray-50 rounded-xl hover:bg-gray-100 transition-all duration-300 h-full">
+                <div className="flex items-start space-x-3 p-5 bg-slate-50 rounded-xl hover:bg-slate-100 transition-all duration-300 h-full">
                   <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center text-white flex-shrink-0">
                     <SundaeIcon name={module.icon} size="md" className="text-white" />
                   </div>
@@ -465,8 +465,8 @@ export default function CoreProductPage() {
           </div>
 
           <div className="text-center">
-            <Button 
-              variant="outline" 
+            <Button
+              variant="outline"
               size="lg"
               onClick={() => cta("/modules", "explore_modules_from_core", { page: "/core-product" })}
             >
@@ -477,26 +477,21 @@ export default function CoreProductPage() {
       </section>
 
       {/* Core + Watchtower */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white">
-        <div className="max-w-5xl mx-auto text-center">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent" />
+        <div className="max-w-5xl mx-auto text-center relative">
           <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-6">
             <SundaeIcon name="watchtower" size="xl" className="text-white" />
           </div>
           <h2 className="section-h2 mb-6">
             Core + Watchtower = Complete Intelligence
           </h2>
-          <p className="body-xl mb-4 opacity-90 max-w-3xl mx-auto">
-            <strong>Core answers:</strong> "How are WE performing RIGHT NOW?"
-          </p>
           <p className="body-xl mb-8 opacity-90 max-w-3xl mx-auto">
-            <strong>Watchtower answers:</strong> "What's HAPPENING in the MARKET?"
+            Core tells you how you're performing right now. Watchtower tells you what's happening around you. Together, they give you the complete picture — internal operations and external market context in one intelligence layer.
           </p>
-          <p className="text-lg mb-8 opacity-80">
-            Combine Core's real-time internal intelligence with Watchtower's external market intelligence: Your real-time sales + competitor pricing. Your labor trends + local events. Your guest counts + market demand shifts.
-          </p>
-          <Button 
-            variant="secondary" 
-            size="lg" 
+          <Button
+            variant="secondary"
+            size="lg"
             className="bg-white text-blue-600 hover:bg-gray-100"
             onClick={() => cta("/watchtower", "learn_watchtower_from_core", { page: "/core-product" })}
           >
@@ -524,8 +519,8 @@ export default function CoreProductPage() {
           </div>
 
           <div className="text-center mt-12">
-            <Button 
-              variant="outline" 
+            <Button
+              variant="outline"
               size="lg"
               onClick={() => cta("/faq", "see_more_faqs", { page: "/core-product" })}
             >
@@ -536,47 +531,47 @@ export default function CoreProductPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 text-gray-900 mb-6">
-            See Core in Action
+          <h2 className="section-h2 mb-6">
+            Stop Managing Yesterday's Numbers
           </h2>
-          <p className="body-lg text-gray-600 mb-8 max-w-3xl mx-auto">
-            Experience real-time operational intelligence with your own data.
+          <p className="body-lg text-slate-300 mb-8 max-w-3xl mx-auto">
+            See what real-time operational intelligence looks like with your actual data.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            <div className="p-6 bg-white rounded-xl shadow-sm">
+            <div className="p-6 bg-white/5 rounded-xl border border-white/10">
               <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="cost" size="lg" className="text-white" />
               </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Calculate ROI</h3>
-              <p className="text-sm text-gray-600 mb-4">Interactive simulator with your numbers</p>
+              <h3 className="font-semibold text-white mb-2">Calculate ROI</h3>
+              <p className="text-sm text-slate-400 mb-4">Interactive simulator with your numbers</p>
               <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
                 <Button variant="primary" size="md" className="w-full">
                   Calculate ROI →
                 </Button>
               </a>
             </div>
-            <div className="p-6 bg-white rounded-xl shadow-sm">
+            <div className="p-6 bg-white/5 rounded-xl border border-white/10">
               <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="chart" size="lg" className="text-white" />
               </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Compare Tiers</h3>
-              <p className="text-sm text-gray-600 mb-4">See Lite vs Pro vs Enterprise</p>
+              <h3 className="font-semibold text-white mb-2">Compare Tiers</h3>
+              <p className="text-sm text-slate-400 mb-4">See Lite vs Pro vs Enterprise</p>
               <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
                 <Button variant="outline" size="md" className="w-full">
                   Compare Tiers →
                 </Button>
               </a>
             </div>
-            <div className="p-6 bg-white rounded-xl shadow-sm">
+            <div className="p-6 bg-white/5 rounded-xl border border-white/10">
               <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="visibility" size="lg" className="text-white" />
               </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Book a Demo</h3>
-              <p className="text-sm text-gray-600 mb-4">Custom walkthrough with your data</p>
-              <Button 
-                variant="outline" 
+              <h3 className="font-semibold text-white mb-2">Book a Demo</h3>
+              <p className="text-sm text-slate-400 mb-4">Custom walkthrough with your data</p>
+              <Button
+                variant="outline"
                 size="md"
                 className="w-full"
                 onClick={() => cta("/demo", "book_demo_from_core", { page: "/core-product" })}

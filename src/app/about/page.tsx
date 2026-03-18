@@ -77,49 +77,49 @@ export default function AboutPage() {
     {
       year: "2025",
       title: "Sundae Founded",
-      description: "Created to solve fragmented restaurant data challenges through unified data and AI-powered intelligence."
+      description: "Built to solve the fragmented data problem that every multi-location operator faces."
     },
     {
       year: "2025",
-      title: "First POC Clients",
-      description: "Partnered with 35-brand and multi-country restaurant groups to unify data, benchmark performance, and deploy core intelligence modules."
+      title: "First Deployments",
+      description: "Partnered with multi-brand restaurant groups across UAE and Canada to deploy unified intelligence."
     },
     {
       year: "2026",
-      title: "GCC Expansion (In Progress)",
-      description: "Expanding across UAE, KSA, and Qatar with enterprise hospitality clients adopting the Sundae platform for group-wide deployment."
+      title: "GCC & North America Expansion",
+      description: "Growing across UAE, KSA, Qatar, and North America with enterprise hospitality groups adopting Sundae platform-wide."
     },
     {
       year: "2026",
-      title: "Category Definition (Target)",
-      description: "Defining the Restaurant Decision Intelligence category — standardizing how operators analyze data, drive performance, and make decisions."
+      title: "Category Definition",
+      description: "Establishing Decision Intelligence as the standard for how restaurant groups analyze, benchmark, and act on operational data."
     },
     {
       year: "2027+",
       title: "Global Expansion (Target)",
-      description: "Planned expansion across Asia & Europe. Sundae Enterprise Intelligence for multi-country brands and large-scale operators."
+      description: "Expanding into Europe and Asia Pacific. Enterprise Intelligence for multi-country restaurant brands."
     }
   ];
 
   const values: { title: string; description: string; icon: SundaeIconName }[] = [
     {
       title: "Operators First",
-      description: "Every feature is designed by people who've managed restaurants, not just built software. We solve real problems because we've lived them.",
+      description: "Every feature exists because an operator needed it. We don't build for demos — we build for shifts.",
       icon: "owners"
     },
     {
       title: "Data Intelligence First",
-      description: "Unified data and AI insights create better operational decisions. We turn fragmented systems into one intelligent layer.",
+      description: "Scattered data is expensive. We turn 12 systems into one intelligent layer that actually drives decisions.",
       icon: "insights"
     },
     {
       title: "Real-Time Decisions",
-      description: "Instant intelligence should guide every operational move. No more waiting for weekly reports or relying on gut feelings.",
+      description: "Weekly reports cost you money. The operators who win are the ones who see problems while they can still fix them.",
       icon: "speed"
     },
     {
       title: "Raise the Standard",
-      description: "We're committed to elevating restaurant decision intelligence globally — setting a new benchmark for the industry.",
+      description: "We're setting the benchmark for how restaurant groups worldwide make operational decisions.",
       icon: "growth"
     }
   ];
@@ -131,14 +131,14 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto text-center">
           <FadeUpSection>
             <h1 className="hero-h1 text-gray-900 dark:text-white mb-8">
-              We're Building the Future of{" "}
-              <span className="text-gradient">Decision Intelligence</span>
+              Built by Operators.{" "}
+              <span className="text-gradient">Backed by Data.</span>
             </h1>
           </FadeUpSection>
-          
+
           <FadeUpSection delay={0.1}>
             <p className="body-xl text-gray-700 dark:text-gray-300 mb-10 max-w-4xl mx-auto">
-              One intelligence layer. Every data source. Decisions that drive growth.
+              We've managed restaurants. We've felt the pain of fragmented data. We built Sundae to fix it.
             </p>
           </FadeUpSection>
 
@@ -162,11 +162,11 @@ export default function AboutPage() {
                   Our Mission
                 </h2>
                 <p className="body-xl text-gray-700 dark:text-gray-300 mb-10">
-                  Turn fragmented data into a single source of truth. Replace guesswork with intelligence. Help operators grow faster.
+                  We exist to give restaurant operators a single source of truth — turning scattered data into confident decisions.
                 </p>
-                
+
                 <div className="space-y-6">
-                  <motion.div 
+                  <motion.div
                     className="flex items-start space-x-4"
                     whileHover={{ x: 4 }}
                     transition={{ duration: 0.2 }}
@@ -179,8 +179,8 @@ export default function AboutPage() {
                       <p className="text-gray-600 dark:text-gray-400 leading-[1.65]">Break down silos between POS, labor, inventory, and financial systems into one intelligent layer.</p>
                     </div>
                   </motion.div>
-                  
-                  <motion.div 
+
+                  <motion.div
                     className="flex items-start space-x-4"
                     whileHover={{ x: 4 }}
                     transition={{ duration: 0.2 }}
@@ -193,8 +193,8 @@ export default function AboutPage() {
                       <p className="text-gray-600 dark:text-gray-400 leading-[1.65]">Compare performance against similar restaurants and industry standards in real-time.</p>
                     </div>
                   </motion.div>
-                  
-                  <motion.div 
+
+                  <motion.div
                     className="flex items-start space-x-4"
                     whileHover={{ x: 4 }}
                     transition={{ duration: 0.2 }}
@@ -210,23 +210,23 @@ export default function AboutPage() {
                 </div>
               </div>
             </FadeUpSection>
-            
+
             <FadeUpSection delay={0.1}>
-              <div className="bg-gradient-to-br from-electric-blue/10 to-lavender/20 dark:from-deep-blue/20 dark:to-electric-blue/10 rounded-3xl p-10 shadow-xl">
+              <div className="bg-slate-50 border border-slate-200 dark:bg-slate-800 dark:border-slate-700 rounded-3xl p-10 shadow-xl">
                 <div className="text-center mb-8">
                   <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-electric-blue to-deep-blue rounded-xl flex items-center justify-center">
                     <SundaeIcon name="marketing" size="xl" className="text-white" />
                   </div>
                   <h3 className="section-h3 text-gray-900 dark:text-white mb-4">Our Vision</h3>
                   <p className="body-lg text-gray-700 dark:text-gray-300">
-                    To redefine how restaurants operate worldwide — with real-time intelligence that replaces guesswork with clarity and transforms data into an operational advantage.
+                    Every restaurant group, anywhere in the world, operating with the clarity that only unified intelligence can provide.
                   </p>
                 </div>
-                
+
                 <div className="grid grid-cols-3 gap-6 mt-8">
                   <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-lg text-center">
                     <div className="text-sm font-bold text-electric-blue mb-1 uppercase tracking-wide">Status</div>
-                    <div className="text-sm text-gray-600 dark:text-gray-400 font-medium">Live with early adopters</div>
+                    <div className="text-sm text-gray-600 dark:text-gray-400 font-medium">Deployed with restaurant groups across 3 countries</div>
                   </div>
                   <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-lg text-center">
                     <div className="text-sm font-bold text-lavender mb-1 uppercase tracking-wide">Offices</div>
@@ -281,7 +281,7 @@ export default function AboutPage() {
                   <ul className="text-left space-y-3">
                     {member.bullets.map((bullet, idx) => (
                       <li key={idx} className="flex items-start space-x-2 text-sm text-gray-600 dark:text-gray-400">
-                        <span className="text-electric-blue mt-1 flex-shrink-0">•</span>
+                        <span className="text-electric-blue mt-1 flex-shrink-0">&bull;</span>
                         <span>{bullet}</span>
                       </li>
                     ))}
@@ -339,20 +339,20 @@ export default function AboutPage() {
           {/* Desktop: Grid Layout */}
           <div className="hidden lg:grid lg:grid-cols-4 gap-8 relative">
             {/* Connecting Line */}
-            <div className="absolute top-12 left-0 right-0 h-1 bg-gradient-to-r from-electric-blue via-deep-blue to-electric-blue" style={{ top: '48px' }} />
-            
+            <div className="absolute top-12 left-0 right-0 h-1 bg-gradient-to-r from-electric-blue via-deep-blue to-electric-blue" style={{ top: '32px' }} />
+
             {milestones.slice(0, 4).map((milestone, index) => (
               <FadeUpSection key={`${milestone.year}-${index}`} delay={index * 0.1}>
                 <div className="relative">
                   {/* Node */}
                   <motion.div
-                    className="w-24 h-24 bg-gradient-to-br from-electric-blue to-deep-blue rounded-full flex items-center justify-center text-white font-bold text-xl shadow-lg mx-auto mb-6 relative z-10 border-4 border-white dark:border-gray-900"
+                    className="w-16 h-16 bg-gradient-to-br from-electric-blue to-deep-blue rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg mx-auto mb-6 relative z-10 border-4 border-white dark:border-gray-900"
                     whileHover={{ scale: 1.1, rotate: 5 }}
                     transition={{ duration: 0.3 }}
                   >
                     {milestone.year}
                   </motion.div>
-                  
+
                   {/* Content */}
                   <div className="text-center">
                     <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">{milestone.title}</h3>
@@ -376,7 +376,7 @@ export default function AboutPage() {
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                 >
                   <Card variant="elevated" className="h-full p-6 dark:bg-gray-800">
-                    <div className="w-20 h-20 bg-gradient-to-br from-electric-blue to-deep-blue rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg mb-4">
+                    <div className="w-16 h-16 bg-gradient-to-br from-electric-blue to-deep-blue rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg mb-4">
                       {milestone.year}
                     </div>
                     <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">{milestone.title}</h3>
@@ -385,7 +385,7 @@ export default function AboutPage() {
                 </motion.div>
               ))}
             </div>
-            <p className="text-center text-sm text-gray-500 dark:text-gray-400 mt-4">← Swipe to explore →</p>
+            <p className="text-center text-sm text-gray-500 dark:text-gray-400 mt-4">&larr; Swipe to explore &rarr;</p>
           </div>
         </div>
       </section>
@@ -408,12 +408,12 @@ export default function AboutPage() {
             {values.map((value, index) => (
               <FadeUpSection key={value.title} delay={index * 0.1}>
                 <motion.div
-                  whileHover={{ y: -8, scale: 1.05 }}
+                  whileHover={{ y: -4 }}
                   transition={{ duration: 0.3 }}
                 >
                   <Card variant="elevated" className="text-center h-full p-8">
                     <CardHeader>
-                      <motion.div 
+                      <motion.div
                         className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-electric-blue to-deep-blue rounded-xl flex items-center justify-center"
                         whileHover={{ scale: 1.2, rotate: 10 }}
                         transition={{ duration: 0.3 }}
@@ -457,29 +457,16 @@ export default function AboutPage() {
               { region: "Asia Pacific", countries: "Australia, Singapore", icon: "network" as SundaeIconName, color: "bg-coral", label: "Target" }
             ].map((region, index) => (
               <FadeUpSection key={region.region} delay={index * 0.1}>
-                <motion.div 
+                <motion.div
                   className="text-center"
                   whileHover={{ y: -8 }}
                   transition={{ duration: 0.3 }}
                 >
-                  <motion.div 
+                  <div
                     className={`w-20 h-20 ${region.color} rounded-2xl flex items-center justify-center text-white text-3xl mx-auto mb-6 shadow-lg`}
-                    animate={{ 
-                      scale: [1, 1.1, 1],
-                      boxShadow: [
-                        "0 10px 25px -5px rgba(0, 0, 0, 0.1)",
-                        "0 20px 40px -10px rgba(28, 71, 255, 0.4)",
-                        "0 10px 25px -5px rgba(0, 0, 0, 0.1)"
-                      ]
-                    }}
-                    transition={{ 
-                      duration: 3,
-                      repeat: Infinity,
-                      ease: "easeInOut"
-                    }}
                   >
                     <SundaeIcon name={region.icon} size="lg" className="text-white" />
-                  </motion.div>
+                  </div>
                   <span className={`inline-block text-[10px] font-bold uppercase tracking-wider mb-2 px-2 py-0.5 rounded-full ${region.label === 'Active' ? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400' : 'bg-slate-100 text-slate-500 dark:bg-slate-800 dark:text-slate-400'}`}>
                     {region.label}
                   </span>
@@ -493,29 +480,24 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue via-electric-blue to-deep-blue dark:from-deep-blue dark:via-electric-blue dark:to-deep-blue relative overflow-hidden">
-        {/* Animated background effect */}
-        <div className="absolute inset-0 opacity-20">
-          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent animate-shimmer"></div>
-        </div>
-        
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-slate-950 relative overflow-hidden">
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <FadeUpSection>
             <h2 className="section-h2 text-white mb-8">
-              Join Us
+              Let's Build Together
             </h2>
-            <p className="body-xl text-white mb-12 font-medium">
-              Restaurant group? Partner? Builder? Let's transform the industry together.
+            <p className="body-xl text-gray-300 mb-12 font-medium">
+              Whether you're a restaurant group, technology partner, or operator who wants more from their data — we'd love to talk.
             </p>
           </FadeUpSection>
-          
+
           <FadeUpSection delay={0.1}>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <Link href="/demo">
-                <Button 
-                  variant="secondary" 
-                  size="lg" 
-                  className="bg-white text-electric-blue hover:bg-gray-100 font-semibold px-8 py-4 text-base shadow-xl hover:shadow-2xl transition-all"
+                <Button
+                  variant="secondary"
+                  size="lg"
+                  className="bg-white text-slate-950 hover:bg-gray-100 font-semibold px-8 py-4 text-base shadow-xl hover:shadow-2xl transition-all"
                 >
                   Partner with Sundae
                 </Button>
