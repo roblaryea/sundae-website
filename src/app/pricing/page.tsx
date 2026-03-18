@@ -5,9 +5,9 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
 import { Accordion } from '@/components/ui/Accordion';
-import { motion } from 'framer-motion';
 import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 import { PRICING_URL, SIGNUP_URL } from '@/lib/urls';
+import { PageHero, FadeUp, StaggerContainer, StaggerItem, PageCTA } from '@/components/ui/PageAnimations';
 
 type Tier = {
   name: string;
@@ -27,7 +27,7 @@ const reportTiers: Tier[] = [
   {
     name: "Report Lite",
     badge: "FREE FOREVER",
-    badgeClass: "bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400",
+    badgeClass: "bg-green-100 text-green-800",
     basePrice: "$0",
     perLocation: "$0",
     aiCredits: "250",
@@ -45,7 +45,7 @@ const reportTiers: Tier[] = [
   {
     name: "Report Plus",
     badge: "POPULAR",
-    badgeClass: "bg-orange-100 text-orange-800 dark:bg-orange-900/30 dark:text-orange-400",
+    badgeClass: "bg-orange-100 text-orange-800",
     basePrice: "$79",
     perLocation: "$39",
     aiCredits: "1,200",
@@ -104,7 +104,7 @@ const coreTiers: Tier[] = [
   {
     name: "Core Pro",
     badge: "MOST POPULAR",
-    badgeClass: "bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-400",
+    badgeClass: "bg-blue-100 text-blue-800",
     basePrice: "$449",
     perLocation: "$89",
     aiCredits: "14,000",
@@ -132,30 +132,30 @@ function PricingCard({ tier, annual }: { tier: Tier; annual: boolean }) {
   const displayLoc = locNum === 0 ? "$0" : annual ? `$${Math.round(locNum * 0.9)}` : tier.perLocation;
 
   return (
-    <Card className={`h-full ${tier.highlight ? 'border-2 border-electric-blue shadow-2xl' : 'border border-gray-200 dark:border-gray-700 shadow-lg'} hover:shadow-xl transition-all`}>
+    <Card className={`h-full ${tier.highlight ? 'border-2 border-slate-900 shadow-2xl' : 'border border-gray-200 shadow-lg'} hover:shadow-xl transition-all`}>
       <CardHeader className="pb-4">
         {tier.badge && (
           <div className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold mb-3 w-fit ${tier.badgeClass}`}>
             {tier.badge}
           </div>
         )}
-        <CardTitle className="text-xl text-gray-900 dark:text-white mb-2">{tier.name}</CardTitle>
+        <CardTitle className="text-xl text-gray-900 mb-2">{tier.name}</CardTitle>
         <div className="mb-3">
-          <span className="text-4xl font-bold text-gray-900 dark:text-white">{displayBase}</span>
-          {baseNum > 0 && <span className="text-gray-500 dark:text-gray-400 text-sm">/month</span>}
+          <span className="text-4xl font-bold text-gray-900">{displayBase}</span>
+          {baseNum > 0 && <span className="text-gray-500 text-sm">/month</span>}
         </div>
         {locNum > 0 && (
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             + {displayLoc}/location/month
           </p>
         )}
-        <CardDescription className="text-gray-600 dark:text-gray-400 mt-3 text-sm">
+        <CardDescription className="text-gray-600 mt-3 text-sm">
           {tier.description}
         </CardDescription>
       </CardHeader>
       <CardContent className="pt-0">
-        <div className="mb-4 pb-4 border-b border-gray-100 dark:border-gray-800">
-          <p className="text-xs text-gray-500 dark:text-gray-400">
+        <div className="mb-4 pb-4 border-b border-gray-100">
+          <p className="text-xs text-gray-500">
             {tier.aiCredits} AI credits/month
           </p>
         </div>
@@ -165,7 +165,7 @@ function PricingCard({ tier, annual }: { tier: Tier; annual: boolean }) {
               <svg className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
               </svg>
-              <span className="text-sm text-gray-700 dark:text-gray-300">{feature}</span>
+              <span className="text-sm text-gray-700">{feature}</span>
             </li>
           ))}
         </ul>
@@ -187,111 +187,88 @@ export default function PricingPage() {
   const [annual, setAnnual] = useState(false);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-soft-white via-pure-white to-blue-50 dark:from-graphite-black dark:via-gray-900 dark:to-deep-blue/10">
+    <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-12"
+      <PageHero
+        badge="Pricing"
+        title="Simple, Transparent Pricing"
+        description="Start free with Report. Scale to real-time intelligence with Core. Every plan includes Sundae Intelligence AI credits."
+      >
+        {/* Billing Toggle */}
+        <div className="flex items-center justify-center space-x-4">
+          <span className={`text-sm font-medium ${!annual ? 'text-white' : 'text-white/50'}`}>Monthly</span>
+          <button
+            onClick={() => setAnnual(!annual)}
+            className={`relative inline-flex h-7 w-14 items-center rounded-full transition-colors ${annual ? 'bg-white' : 'bg-white/30'}`}
           >
-            <h1 className="hero-h1 text-gray-900 dark:text-white mb-6">
-              Transparent Pricing.
-              <br />
-              <span className="text-gradient">No Surprises.</span>
-            </h1>
-            <p className="body-lg text-gray-700 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
-              Start free with Report Lite. Upgrade to real-time intelligence when you&apos;re ready. All plans include onboarding — no setup fees.
-            </p>
-
-            {/* Billing Toggle */}
-            <div className="flex items-center justify-center space-x-4 mb-4">
-              <span className={`text-sm font-medium ${!annual ? 'text-gray-900 dark:text-white' : 'text-gray-500 dark:text-gray-400'}`}>Monthly</span>
-              <button
-                onClick={() => setAnnual(!annual)}
-                className={`relative inline-flex h-7 w-14 items-center rounded-full transition-colors ${annual ? 'bg-electric-blue' : 'bg-gray-300 dark:bg-gray-600'}`}
-              >
-                <span className={`inline-block h-5 w-5 transform rounded-full bg-white shadow-sm transition-transform ${annual ? 'translate-x-8' : 'translate-x-1'}`} />
-              </button>
-              <span className={`text-sm font-medium ${annual ? 'text-gray-900 dark:text-white' : 'text-gray-500 dark:text-gray-400'}`}>
-                Annual <span className="text-green-600 dark:text-green-400 font-semibold">(Save 10%)</span>
-              </span>
-            </div>
-          </motion.div>
+            <span className={`inline-block h-5 w-5 transform rounded-full bg-slate-950 shadow-sm transition-transform ${annual ? 'translate-x-8' : 'translate-x-1'}`} />
+          </button>
+          <span className={`text-sm font-medium ${annual ? 'text-white' : 'text-white/50'}`}>
+            Annual <span className="text-green-400 font-semibold">(Save 10%)</span>
+          </span>
         </div>
-      </section>
+      </PageHero>
 
       {/* Sundae Report Tiers */}
-      <section className="pb-16 px-4 sm:px-6 lg:px-8">
+      <section className="pb-16 pt-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-8">
-            <div className="inline-flex items-center space-x-2 bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300 px-5 py-2 rounded-full text-sm font-semibold">
-              <SundaeIcon name="report" size="md" />
-              <span>Sundae Report — Historical Analysis & Benchmarking</span>
+          <FadeUp>
+            <div className="text-center mb-8">
+              <div className="inline-flex items-center space-x-2 bg-purple-100 text-purple-700 px-5 py-2 rounded-full text-sm font-semibold">
+                <SundaeIcon name="report" size="md" />
+                <span>Sundae Report — Historical Analysis & Benchmarking</span>
+              </div>
             </div>
-          </div>
+          </FadeUp>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto"
-          >
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
             {reportTiers.map((tier) => (
-              <PricingCard key={tier.name} tier={tier} annual={annual} />
+              <StaggerItem key={tier.name}>
+                <PricingCard tier={tier} annual={annual} />
+              </StaggerItem>
             ))}
-          </motion.div>
+          </StaggerContainer>
         </div>
       </section>
 
       {/* Sundae Core Tiers */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white dark:bg-gray-900">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-8">
-            <div className="inline-flex items-center space-x-2 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 px-5 py-2 rounded-full text-sm font-semibold">
-              <SundaeIcon name="core" size="md" />
-              <span>Sundae Core — Real-Time Operations & Predictive Intelligence</span>
+          <FadeUp>
+            <div className="text-center mb-8">
+              <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-700 px-5 py-2 rounded-full text-sm font-semibold">
+                <SundaeIcon name="core" size="md" />
+                <span>Sundae Core — Real-Time Operations & Predictive Intelligence</span>
+              </div>
             </div>
-          </div>
+          </FadeUp>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto"
-          >
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {coreTiers.map((tier) => (
-              <PricingCard key={tier.name} tier={tier} annual={annual} />
+              <StaggerItem key={tier.name}>
+                <PricingCard tier={tier} annual={annual} />
+              </StaggerItem>
             ))}
-          </motion.div>
+          </StaggerContainer>
         </div>
       </section>
 
       {/* Enterprise */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
-            <Card className="border-2 border-electric-blue shadow-2xl bg-gradient-to-br from-white to-blue-50/30 dark:from-gray-800 dark:to-blue-900/10">
+          <FadeUp>
+            <Card className="border-2 border-slate-900 shadow-2xl bg-gradient-to-br from-white to-blue-50/30">
               <CardContent className="p-8 md:p-12">
                 <div className="grid md:grid-cols-2 gap-8 items-center">
                   <div>
-                    <div className="inline-flex items-center space-x-2 bg-electric-blue/10 text-electric-blue px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                    <div className="inline-flex items-center space-x-2 bg-slate-900/10 text-slate-900 px-4 py-2 rounded-full text-sm font-semibold mb-4">
                       <SundaeIcon name="franchise" size="md" />
                       <span>Enterprise</span>
                     </div>
-                    <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
+                    <h3 className="text-3xl font-bold text-gray-900 mb-4">
                       Custom Pricing for Large Operations
                     </h3>
-                    <p className="text-gray-600 dark:text-gray-400 mb-6">
+                    <p className="text-gray-600 mb-6">
                       For multi-location groups that need white-label, SSO, custom SLAs, and dedicated support. 50,000+ AI credits included.
                     </p>
                     <Link href="/demo">
@@ -315,10 +292,10 @@ export default function PricingPage() {
                         "Unlimited AI credits & custom dashboards"
                       ].map((feature, index) => (
                         <li key={index} className="flex items-start space-x-2.5">
-                          <svg className="w-4 h-4 text-electric-blue flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                          <svg className="w-4 h-4 text-slate-900 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                             <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                           </svg>
-                          <span className="text-sm text-gray-700 dark:text-gray-300">{feature}</span>
+                          <span className="text-sm text-gray-700">{feature}</span>
                         </li>
                       ))}
                     </ul>
@@ -326,21 +303,23 @@ export default function PricingPage() {
                 </div>
               </CardContent>
             </Card>
-          </motion.div>
+          </FadeUp>
         </div>
       </section>
 
       {/* Add-ons Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white dark:bg-gray-900">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-10">
-            <h2 className="section-h2 text-gray-900 dark:text-white mb-4">Add-Ons</h2>
-            <p className="body-lg text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
-              Extend your plan with specialized intelligence modules
-            </p>
-          </div>
+          <FadeUp>
+            <div className="text-center mb-10">
+              <h2 className="section-h2 text-gray-900 mb-4">Add-Ons</h2>
+              <p className="body-lg text-gray-700 max-w-3xl mx-auto">
+                Extend your plan with specialized intelligence modules
+              </p>
+            </div>
+          </FadeUp>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+          <StaggerContainer className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
             {([
               {
                 name: "Watchtower",
@@ -371,57 +350,50 @@ export default function PricingPage() {
                 color: "from-blue-500 to-blue-600"
               }
             ]).map((addon, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-              >
+              <StaggerItem key={index}>
                 <Card variant="elevated" className="h-full hover:shadow-xl transition-all">
                   <CardHeader>
                     <div className={`w-12 h-12 bg-gradient-to-br ${addon.color} rounded-lg flex items-center justify-center mb-4`}>
                       <SundaeIcon name={addon.icon} size="lg" className="text-white" />
                     </div>
-                    <CardTitle className="text-lg text-gray-900 dark:text-white mb-2">{addon.name}</CardTitle>
+                    <CardTitle className="text-lg text-gray-900 mb-2">{addon.name}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-sm text-gray-600 dark:text-gray-400 mb-3">{addon.description}</p>
-                    <p className="text-xs text-gray-500 dark:text-gray-500 font-medium">{addon.note}</p>
+                    <p className="text-sm text-gray-600 mb-3">{addon.description}</p>
+                    <p className="text-xs text-gray-500 font-medium">{addon.note}</p>
                   </CardContent>
                 </Card>
-              </motion.div>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerContainer>
 
-          <div className="text-center mt-8">
-            <a href={PRICING_URL} target="_blank" rel="noopener noreferrer">
-              <Button variant="outline" size="lg">
-                See Detailed Pricing Calculator
-              </Button>
-            </a>
-          </div>
+          <FadeUp delay={0.3}>
+            <div className="text-center mt-8">
+              <a href={PRICING_URL} target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" size="lg">
+                  See Detailed Pricing Calculator
+                </Button>
+              </a>
+            </div>
+          </FadeUp>
         </div>
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-50/30 dark:from-gray-900 dark:to-deep-blue/5">
+      <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
+          <FadeUp>
             <div className="text-center mb-12">
-              <h2 className="section-h2 text-gray-900 dark:text-white mb-4">
+              <h2 className="section-h2 text-gray-900 mb-4">
                 Common Questions
               </h2>
-              <p className="body-lg text-gray-700 dark:text-gray-300">
+              <p className="body-lg text-gray-700">
                 Clear answers. No fine print.
               </p>
             </div>
+          </FadeUp>
 
+          <FadeUp delay={0.15}>
             <Accordion
               items={[
                 {
@@ -455,48 +427,33 @@ export default function PricingPage() {
               ]}
               defaultOpenIndex={0}
             />
-          </motion.div>
+          </FadeUp>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-slate-950 relative overflow-hidden">
-        <div className="max-w-4xl mx-auto text-center relative z-10">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
+      <PageCTA
+        title="Ready to Get Started?"
+        description="Start free, upgrade when you're ready. No credit card required."
+      >
+        <Link href="/demo">
+          <Button
+            variant="primary"
+            size="lg"
+            className="bg-white text-slate-900 hover:bg-slate-100"
           >
-            <h2 className="section-h2 text-white mb-8">
-              Ready to See the Difference?
-            </h2>
-            <p className="body-lg text-slate-300 mb-12">
-              Book a demo to see the full platform with your own data.
-            </p>
-
-            <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <Link href="/demo">
-                <Button
-                  variant="primary"
-                  size="lg"
-                  className="bg-white text-slate-900 hover:bg-slate-100"
-                >
-                  Book a Demo
-                </Button>
-              </Link>
-              <Link href="/product">
-                <Button
-                  variant="outline-light"
-                  size="lg"
-                >
-                  Explore Products
-                </Button>
-              </Link>
-            </div>
-          </motion.div>
-        </div>
-      </section>
+            Book a Demo
+          </Button>
+        </Link>
+        <Link href={SIGNUP_URL}>
+          <Button
+            variant="outline-light"
+            size="lg"
+          >
+            Start Free
+          </Button>
+        </Link>
+      </PageCTA>
     </div>
   );
 }

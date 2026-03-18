@@ -8,6 +8,7 @@ import { useRef } from "react";
 import { useCta } from "@/lib/cta";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { REPORT_APP_URL } from "@/lib/urls";
+import { PageHero, PageCTA, FadeUp } from "@/components/ui/PageAnimations";
 
 const pillars: {
   name: string;
@@ -89,56 +90,36 @@ export default function ProductPage() {
   const gridInView = useInView(gridRef, { once: true, margin: "-50px" });
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50/80 via-white to-purple-50/30 dark:from-slate-950 dark:via-slate-900 dark:to-slate-950">
+    <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-          >
-            <p className="text-xs font-semibold tracking-[0.18em] uppercase text-slate-500 mb-4">
-              THE SUNDAE PLATFORM
-            </p>
-            <h1 className="hero-h1 text-gray-900 dark:text-white mb-6">
-              Decision Intelligence for Restaurants
-            </h1>
-            <p className="body-xl text-gray-600 dark:text-slate-300 mb-8 max-w-3xl mx-auto">
-              Five intelligence pillars that turn fragmented data into operational clarity. Start free with Report, scale to real-time intelligence with Core.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <Button
-                variant="primary"
-                size="lg"
-                href={REPORT_APP_URL}
-                onClick={() => cta(REPORT_APP_URL, "start_free_product_hero", { page: "/product" })}
-              >
-                Start Free with Report
-              </Button>
-              <Button
-                variant="secondary"
-                size="lg"
-                onClick={() => cta("/demo", "book_demo_product_hero", { page: "/product" })}
-              >
-                Book a Demo
-              </Button>
-            </div>
-          </motion.div>
+      <PageHero
+        badge="The Sundae Platform"
+        title="Decision Intelligence for Restaurants"
+        description="Five intelligence pillars that turn fragmented data into operational clarity. Start free with Report, scale to real-time intelligence with Core."
+      >
+        <div className="flex flex-col sm:flex-row gap-3 justify-center">
+          <Button variant="cta" size="lg" href={REPORT_APP_URL} onClick={() => cta(REPORT_APP_URL, "start_free_product_hero", { page: "/product" })}>
+            Start Free with Report
+          </Button>
+          <Button variant="outline-light" size="lg" onClick={() => cta("/demo", "book_demo_product_hero", { page: "/product" })}>
+            Book a Demo
+          </Button>
         </div>
-      </section>
+      </PageHero>
 
       {/* Product Tiers — Report vs Core */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="section-h2 text-gray-900 dark:text-white mb-4">
-              Two Product Tiers
-            </h2>
-            <p className="body-lg text-gray-600 dark:text-gray-300">
-              Choose historical analysis or real-time operations — or both.
-            </p>
-          </div>
+          <FadeUp>
+            <div className="text-center mb-12">
+              <h2 className="section-h2 text-gray-900 mb-4">
+                Two Product Tiers
+              </h2>
+              <p className="body-lg text-gray-600">
+                Choose historical analysis or real-time operations — or both.
+              </p>
+            </div>
+          </FadeUp>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Report Tier */}
@@ -148,25 +129,25 @@ export default function ProductPage() {
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
-              <Card variant="elevated" className="h-full overflow-hidden border-2 border-blue-200 dark:border-blue-800">
-                <div className="relative h-48 overflow-hidden bg-slate-100 dark:bg-slate-800">
+              <Card variant="elevated" className="h-full overflow-hidden border-2 border-blue-200">
+                <div className="relative h-48 overflow-hidden bg-slate-100">
                   <Image
                     src="/images/product/benchmark-overview.png"
                     alt="Sundae Report benchmarking dashboard"
                     fill
                     className="object-cover object-top"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-white dark:from-slate-900 to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-white to-transparent" />
                   <span className="absolute top-3 right-3 badge badge--free text-[10px]">FREE FOREVER</span>
                 </div>
                 <CardContent className="p-6">
-                  <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Sundae Report</h3>
-                  <p className="text-sm text-blue-600 dark:text-blue-400 font-semibold mb-3">Historical Analysis & Benchmarking</p>
-                  <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Sundae Report</h3>
+                  <p className="text-sm text-blue-600 font-semibold mb-3">Historical Analysis & Benchmarking</p>
+                  <p className="text-gray-600 mb-4 leading-relaxed">
                     Upload your data and instantly see where you stand. Performance benchmarking, margin analysis, and historical patterns — free to start.
                   </p>
-                  <p className="text-sm font-medium text-gray-900 dark:text-white mb-3">Includes:</p>
-                  <ul className="text-sm text-gray-600 dark:text-gray-400 space-y-1.5 mb-6">
+                  <p className="text-sm font-medium text-gray-900 mb-3">Includes:</p>
+                  <ul className="text-sm text-gray-600 space-y-1.5 mb-6">
                     <li className="flex items-center gap-2"><span className="text-blue-500">&#10003;</span> Benchmarks (competitive intelligence)</li>
                     <li className="flex items-center gap-2"><span className="text-blue-500">&#10003;</span> Performance Report</li>
                     <li className="flex items-center gap-2"><span className="text-blue-500">&#10003;</span> Sundae Intelligence</li>
@@ -190,25 +171,25 @@ export default function ProductPage() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.1 }}
             >
-              <Card variant="elevated" className="h-full overflow-hidden border-2 border-purple-200 dark:border-purple-800">
-                <div className="relative h-48 overflow-hidden bg-slate-100 dark:bg-slate-800">
+              <Card variant="elevated" className="h-full overflow-hidden border-2 border-purple-200">
+                <div className="relative h-48 overflow-hidden bg-slate-100">
                   <Image
                     src="/images/product/core-overview.png"
                     alt="Sundae Core operational dashboard"
                     fill
                     className="object-cover object-top"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-white dark:from-slate-900 to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-white to-transparent" />
                   <span className="absolute top-3 right-3 badge badge--popular text-[10px]">MOST POPULAR</span>
                 </div>
                 <CardContent className="p-6">
-                  <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Sundae Core</h3>
-                  <p className="text-sm text-purple-600 dark:text-purple-400 font-semibold mb-3">Real-Time Operations & Predictions</p>
-                  <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Sundae Core</h3>
+                  <p className="text-sm text-purple-600 font-semibold mb-3">Real-Time Operations & Predictions</p>
+                  <p className="text-gray-600 mb-4 leading-relaxed">
                     Everything in Report, plus real-time intelligence. Pulse monitoring, predictive alerts, AI coaching, and Watchtower market signals.
                   </p>
-                  <p className="text-sm font-medium text-gray-900 dark:text-white mb-3">Everything in Report, plus:</p>
-                  <ul className="text-sm text-gray-600 dark:text-gray-400 space-y-1.5 mb-6">
+                  <p className="text-sm font-medium text-gray-900 mb-3">Everything in Report, plus:</p>
+                  <ul className="text-sm text-gray-600 space-y-1.5 mb-6">
                     <li className="flex items-center gap-2"><span className="text-purple-500">&#10003;</span> Pulse (intraday operations)</li>
                     <li className="flex items-center gap-2"><span className="text-purple-500">&#10003;</span> Watchtower (market intelligence)</li>
                     <li className="flex items-center gap-2"><span className="text-purple-500">&#10003;</span> Intelligence Modules</li>
@@ -240,19 +221,21 @@ export default function ProductPage() {
       </section>
 
       {/* All Product Pillars */}
-      <section ref={gridRef} className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-50/30 dark:from-slate-900 dark:to-slate-950">
+      <section ref={gridRef} className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-50/30">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <p className="text-xs font-semibold tracking-[0.18em] uppercase text-slate-500 mb-4">
-              PRODUCT PILLARS
-            </p>
-            <h2 className="section-h2 text-gray-900 dark:text-white mb-4">
-              Five Pillars of Decision Intelligence
-            </h2>
-            <p className="body-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Each pillar handles a distinct dimension of your operations. Together, they form a complete decision intelligence platform — with Cross-Intelligence connecting insights across every module.
-            </p>
-          </div>
+          <FadeUp>
+            <div className="text-center mb-16">
+              <p className="text-xs font-semibold tracking-[0.18em] uppercase text-slate-500 mb-4">
+                PRODUCT PILLARS
+              </p>
+              <h2 className="section-h2 text-gray-900 mb-4">
+                Five Pillars of Decision Intelligence
+              </h2>
+              <p className="body-lg text-gray-600 max-w-3xl mx-auto">
+                Each pillar handles a distinct dimension of your operations. Together, they form a complete decision intelligence platform — with Cross-Intelligence connecting insights across every module.
+              </p>
+            </div>
+          </FadeUp>
 
           <div className="space-y-16">
             {pillars.map((pillar, index) => (
@@ -265,7 +248,7 @@ export default function ProductPage() {
                 <div className={`grid md:grid-cols-2 gap-8 items-center ${index % 2 === 1 ? 'md:grid-flow-dense' : ''}`}>
                   {/* Screenshot */}
                   <div className={index % 2 === 1 ? 'md:col-start-2' : ''}>
-                    <div className="rounded-xl overflow-hidden shadow-xl border border-slate-200/60 dark:border-slate-700 group">
+                    <div className="rounded-xl overflow-hidden shadow-xl border border-slate-200/60 group">
                       <Image
                         src={pillar.screenshot}
                         alt={pillar.screenshotAlt}
@@ -283,17 +266,17 @@ export default function ProductPage() {
                         <SundaeIcon name={pillar.icon} size="lg" className="text-white" />
                       </div>
                       <div>
-                        <h3 className="text-2xl font-bold text-gray-900 dark:text-white">{pillar.name}</h3>
-                        <p className="text-sm text-gray-500 dark:text-gray-400 font-medium">{pillar.tagline}</p>
+                        <h3 className="text-2xl font-bold text-gray-900">{pillar.name}</h3>
+                        <p className="text-sm text-gray-500 font-medium">{pillar.tagline}</p>
                       </div>
                     </div>
-                    <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
+                    <p className="text-gray-600 leading-relaxed mb-6">
                       {pillar.description}
                     </p>
                     <div className="grid grid-cols-2 gap-2 mb-6">
                       {pillar.features.map((feature) => (
-                        <div key={feature} className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300">
-                          <span className="text-electric-blue flex-shrink-0">&#10003;</span>
+                        <div key={feature} className="flex items-center gap-2 text-sm text-gray-700">
+                          <span className="text-slate-900 flex-shrink-0">&#10003;</span>
                           <span>{feature}</span>
                         </div>
                       ))}
@@ -314,39 +297,41 @@ export default function ProductPage() {
       </section>
 
       {/* Platform Features — Integrations + Crew */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-12">
-            <p className="text-xs font-semibold tracking-[0.18em] uppercase text-slate-500 mb-4">
-              PLATFORM
-            </p>
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-4">
-              Also Included
-            </h2>
-          </div>
+          <FadeUp>
+            <div className="text-center mb-12">
+              <p className="text-xs font-semibold tracking-[0.18em] uppercase text-slate-500 mb-4">
+                PLATFORM
+              </p>
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+                Also Included
+              </h2>
+            </div>
+          </FadeUp>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="flex items-start gap-4 p-6 bg-slate-50 dark:bg-slate-800 rounded-2xl border border-slate-200/70 dark:border-slate-700">
+            <div className="flex items-start gap-4 p-6 bg-slate-50 rounded-2xl border border-slate-200/70">
               <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl flex items-center justify-center flex-shrink-0">
                 <SundaeIcon name="integration" size="lg" className="text-white" />
               </div>
               <div>
-                <h3 className="font-bold text-gray-900 dark:text-white mb-1">Integrations Hub</h3>
-                <p className="text-sm text-gray-500 dark:text-gray-400 font-medium mb-2">12-Domain Data Engine</p>
-                <p className="text-sm text-gray-600 dark:text-gray-300 leading-relaxed">
+                <h3 className="font-bold text-gray-900 mb-1">Integrations Hub</h3>
+                <p className="text-sm text-gray-500 font-medium mb-2">12-Domain Data Engine</p>
+                <p className="text-sm text-gray-600 leading-relaxed">
                   Connect POS, labor, inventory, delivery, and more. Health monitoring, activity logs, and webhook support included.
                 </p>
               </div>
             </div>
 
-            <div className="flex items-start gap-4 p-6 bg-slate-50 dark:bg-slate-800 rounded-2xl border border-slate-200/70 dark:border-slate-700">
+            <div className="flex items-start gap-4 p-6 bg-slate-50 rounded-2xl border border-slate-200/70">
               <div className="w-12 h-12 bg-gradient-to-br from-slate-500 to-slate-600 rounded-xl flex items-center justify-center flex-shrink-0">
                 <SundaeIcon name="operators" size="lg" className="text-white" />
               </div>
               <div>
-                <h3 className="font-bold text-gray-900 dark:text-white mb-1">Crew</h3>
-                <p className="text-sm text-gray-500 dark:text-gray-400 font-medium mb-2">Organization & Team Management</p>
-                <p className="text-sm text-gray-600 dark:text-gray-300 leading-relaxed">
+                <h3 className="font-bold text-gray-900 mb-1">Crew</h3>
+                <p className="text-sm text-gray-500 font-medium mb-2">Organization & Team Management</p>
+                <p className="text-sm text-gray-600 leading-relaxed">
                   Multi-restaurant hierarchy, role-based access control, departments, teams, and billing management.
                 </p>
               </div>
@@ -356,33 +341,13 @@ export default function ProductPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 mb-6">
-            See the Full Platform in Action
-          </h2>
-          <p className="body-lg mb-8 text-slate-300">
-            A 30-minute walkthrough of Pulse, Benchmarks, Sundae Intelligence, and more — using your data.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
-              variant="primary"
-              size="lg"
-              className="bg-white text-slate-900 hover:bg-slate-100"
-              onClick={() => cta("/demo", "book_demo_product_cta", { page: "/product" })}
-            >
-              Book a Demo
-            </Button>
-            <Button
-              variant="outline-light"
-              size="lg"
-              onClick={() => cta(REPORT_APP_URL, "start_free_product_cta", { page: "/product" })}
-            >
-              Start Free with Report →
-            </Button>
-          </div>
-        </div>
-      </section>
+      <PageCTA
+        title="See Your Data in Action"
+        description="30 minutes with your data. Real insights. No pitch deck."
+      >
+        <Button variant="cta" size="lg" href="/demo">Book a Demo</Button>
+        <Button variant="outline-light" size="lg" href={REPORT_APP_URL}>Start Free</Button>
+      </PageCTA>
     </div>
   );
 }

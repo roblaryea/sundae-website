@@ -30,7 +30,7 @@ export default function BlogPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50 dark:from-graphite-black dark:via-gray-900 dark:to-deep-blue/10">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50">
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
@@ -39,14 +39,14 @@ export default function BlogPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <div className="inline-flex items-center space-x-2 bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 px-4 py-2 rounded-full text-sm font-medium mb-6">
+            <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
               <SundaeIcon name="document" size="md" />
               <span>Sundae Blog</span>
             </div>
-            <h1 className="hero-h1 text-gray-900 dark:text-white mb-6">
-              Restaurant Intelligence Insights
+            <h1 className="hero-h1 text-gray-900 mb-6">
+              Decision Intelligence Insights
             </h1>
-            <p className="body-xl text-gray-600 dark:text-gray-300 mb-8 max-w-4xl mx-auto">
+            <p className="body-xl text-gray-600 mb-8 max-w-4xl mx-auto">
               Expert perspectives on decision intelligence, benchmarking, AI, and the future of restaurant operations.
             </p>
           </motion.div>
@@ -54,7 +54,7 @@ export default function BlogPage() {
       </section>
 
       {/* Category Filter */}
-      <section className="py-8 px-4 sm:px-6 lg:px-8 bg-white dark:bg-gray-900">
+      <section className="py-8 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-wrap gap-3 justify-center">
             {categories.map((category) => (
@@ -63,15 +63,15 @@ export default function BlogPage() {
                 onClick={() => setSelectedCategory(category)}
                 className={`px-6 py-2 rounded-full font-medium text-sm transition-all ${
                   selectedCategory === category
-                    ? 'bg-electric-blue text-white shadow-lg'
-                    : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
+                    ? 'bg-slate-900 text-white shadow-lg'
+                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                 }`}
               >
                 {category}
               </button>
             ))}
           </div>
-          <div className="text-center mt-6 text-gray-600 dark:text-gray-400">
+          <div className="text-center mt-6 text-gray-600">
             {filteredPosts.length} {filteredPosts.length === 1 ? 'article' : 'articles'}
           </div>
         </div>
@@ -89,27 +89,27 @@ export default function BlogPage() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 whileHover={{ y: -8, transition: { duration: 0.2 } }}
               >
-                <Card variant="elevated" className="h-full hover:shadow-xl transition-all duration-300 group dark:bg-gray-800">
+                <Card variant="elevated" className="h-full hover:shadow-xl transition-all duration-300 group">
                   <CardHeader>
                     <div className="flex items-center justify-between mb-3">
-                      <span className="text-xs font-semibold text-blue-600 dark:text-blue-400 uppercase tracking-wide">
+                      <span className="text-xs font-semibold text-blue-600 uppercase tracking-wide">
                         {post.category}
                       </span>
-                      <span className="text-xs text-gray-500 dark:text-gray-400">
+                      <span className="text-xs text-gray-500">
                         {formatDate(post.date)}
                       </span>
                     </div>
-                    <CardTitle className="text-xl text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300 mb-3">
+                    <CardTitle className="text-xl text-gray-900 group-hover:text-blue-600 transition-colors duration-300 mb-3">
                       {post.title}
                     </CardTitle>
                   </CardHeader>
                   <CardContent className="space-y-4">
-                    <CardDescription className="text-gray-600 dark:text-gray-400 leading-relaxed line-clamp-3">
+                    <CardDescription className="text-gray-600 leading-relaxed line-clamp-3">
                       {post.summary}
                     </CardDescription>
-                    <div className="pt-4 border-t border-gray-200 dark:border-gray-700">
+                    <div className="pt-4 border-t border-gray-200">
                       <Link href={`/blog/${post.slug}`}>
-                        <Button variant="ghost" size="sm" className="group-hover:text-blue-600 dark:group-hover:text-blue-400 w-full">
+                        <Button variant="ghost" size="sm" className="group-hover:text-blue-600 w-full">
                           Read More →
                         </Button>
                       </Link>
@@ -123,7 +123,7 @@ export default function BlogPage() {
       </section>
 
       {/* Newsletter CTA */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 mb-6">
             Never Miss an Update

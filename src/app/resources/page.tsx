@@ -92,7 +92,7 @@ export default function ResourcesPage() {
             <span>Resources & Tools</span>
           </div>
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-            Restaurant Intelligence Resources
+            Decision Intelligence Resources
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-4xl mx-auto">
             Access guides, reports, and tools to help you make smarter decisions for your restaurant business.
@@ -113,23 +113,23 @@ export default function ResourcesPage() {
       </section>
 
       {/* Case Studies Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-gray-900">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
               Case Studies
             </h2>
-            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               See how operators use Sundae to improve performance, margins, and decision-making
             </p>
-            <p className="text-sm text-gray-500 dark:text-gray-400 mt-4">
+            <p className="text-sm text-gray-500 mt-4">
               Representative examples based on real operator challenges; specific client names omitted.
             </p>
           </div>
 
           <div className="space-y-12">
             {caseStudies.map((study, index) => (
-              <Card key={index} variant="elevated" className="hover:shadow-2xl transition-all duration-300 dark:bg-gray-800">
+              <Card key={index} variant="elevated" className="hover:shadow-2xl transition-all duration-300">
                 <CardContent className="p-8">
                   <div className="grid md:grid-cols-3 gap-8">
                     {/* Left: Challenge */}
@@ -139,25 +139,25 @@ export default function ResourcesPage() {
                           <SundaeIcon name={study.icon} size="lg" className="text-white" />
                         </div>
                         <div>
-                          <div className="text-xs text-gray-500 dark:text-gray-400 font-medium uppercase">Segment</div>
-                          <div className="font-semibold text-gray-900 dark:text-white">{study.segment}</div>
+                          <div className="text-xs text-gray-500 font-medium uppercase">Segment</div>
+                          <div className="font-semibold text-gray-900">{study.segment}</div>
                         </div>
                       </div>
                       <div className="mb-4">
-                        <div className="text-sm font-bold text-gray-700 dark:text-gray-300 mb-2">Challenge:</div>
-                        <div className="text-lg font-bold text-gray-900 dark:text-white mb-2">{study.challenge}</div>
-                        <p className="text-gray-600 dark:text-gray-400 leading-relaxed">{study.description}</p>
+                        <div className="text-sm font-bold text-gray-700 mb-2">Challenge:</div>
+                        <div className="text-lg font-bold text-gray-900 mb-2">{study.challenge}</div>
+                        <p className="text-gray-600 leading-relaxed">{study.description}</p>
                       </div>
                     </div>
 
                     {/* Middle: Solution */}
                     <div>
-                      <div className="text-sm font-bold text-gray-700 dark:text-gray-300 mb-3">Sundae Solution:</div>
+                      <div className="text-sm font-bold text-gray-700 mb-3">Sundae Solution:</div>
                       <ul className="space-y-2">
                         {study.solution.map((item, idx) => (
                           <li key={idx} className="flex items-start space-x-2">
                             <span className="text-blue-600 mt-1">•</span>
-                            <span className="text-gray-700 dark:text-gray-300">{item}</span>
+                            <span className="text-gray-700">{item}</span>
                           </li>
                         ))}
                       </ul>
@@ -165,12 +165,12 @@ export default function ResourcesPage() {
 
                     {/* Right: Outcomes */}
                     <div>
-                      <div className="text-sm font-bold text-gray-700 dark:text-gray-300 mb-3">Outcomes:</div>
+                      <div className="text-sm font-bold text-gray-700 mb-3">Outcomes:</div>
                       <div className="space-y-3">
                         {study.outcomes.map((outcome, idx) => (
-                          <div key={idx} className="bg-green-50 dark:bg-green-900/20 rounded-lg p-4">
-                            <div className="text-2xl font-bold text-green-600 dark:text-green-400 mb-1">{outcome.value}</div>
-                            <div className="text-sm text-gray-700 dark:text-gray-300">{outcome.metric}</div>
+                          <div key={idx} className="bg-green-50 rounded-lg p-4">
+                            <div className="text-2xl font-bold text-green-600 mb-1">{outcome.value}</div>
+                            <div className="text-sm text-gray-700">{outcome.metric}</div>
                           </div>
                         ))}
                       </div>
@@ -183,7 +183,7 @@ export default function ResourcesPage() {
 
           {/* Links to Products */}
           <div className="mt-16 text-center">
-            <p className="text-gray-600 dark:text-gray-400 mb-6">Explore the products used in these case studies:</p>
+            <p className="text-gray-600 mb-6">Explore the products used in these case studies:</p>
             <div className="flex flex-wrap gap-4 justify-center">
               {[
                 { name: "Sundae Report", href: "/report" },
@@ -221,7 +221,7 @@ export default function ResourcesPage() {
       </section>
 
       {/* Newsletter Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Stay Updated

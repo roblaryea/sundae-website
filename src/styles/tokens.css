@@ -7,9 +7,9 @@
   --background: #ffffff;
   --foreground: #111111;
 
-  /* Sundae Brand Colors - Primary */
-  --deep-blue: #0A1E8C;
-  --electric-blue: #1C47FF;
+  /* Sundae Brand Colors - Primary (legacy aliases mapped to slate palette) */
+  --deep-blue: #0f172a;       /* slate-900 */
+  --electric-blue: #334155;   /* slate-700 */
   --soft-white: #F7F8FF;
   --pure-white: #FFFFFF;
 
@@ -86,51 +86,7 @@
   --link-hover: #1d4ed8;
 }
 
-/* Dark mode token overrides */
-.dark {
-  --background: #0f172a;
-  --foreground: #e2e8f0;
-  --color-deep-blue: #1C47FF;
-  --color-electric-blue: #3A6BFF;
-  --color-soft-white: #1A1A1A;
-  --color-pure-white: #111111;
-  --color-graphite-black: #F7F8FF;
-  --color-muted-grey: #A0A8C0;
-  --color-divider-grey: #2A2A3A;
-
-  /* Product color adjustments */
-  --color-report-light: #581C87;
-  --color-core-light: #1E40AF;
-  --color-watchtower-light: #991B1B;
-
-  /* Semantic UI Tokens — Dark Mode */
-  --surface: #1e293b;
-  --surface-alt: #0f172a;
-  --surface-raised: #1e293b;
-  --text: #f1f5f9;
-  --text-secondary: #cbd5e1;
-  --text-muted: #94a3b8;
-  --text-faint: #64748b;
-  --border: #334155;
-  --border-strong: #475569;
-  --shadow-color: rgba(0, 0, 0, 0.3);
-  --hover-bg: #334155;
-  --gradient-from: #0f172a;
-  --gradient-to: #1e293b;
-  --focus-ring: #60a5fa;
-  --link-hover: #93c5fd;
-}
-
-/* System dark preference fallback (before JS hydrates) */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0f172a;
-    --foreground: #e2e8f0;
-    --color-report-light: #581C87;
-    --color-core-light: #1E40AF;
-    --color-watchtower-light: #991B1B;
-  }
-}
+/* Dark mode removed — light-only design system */
 
 /* Tailwind v4 theme integration */
 @theme inline {

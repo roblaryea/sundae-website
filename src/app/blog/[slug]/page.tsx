@@ -61,7 +61,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50 dark:from-graphite-black dark:via-gray-900 dark:to-deep-blue/10">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50">
       <article className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           {/* Back Button */}
@@ -74,28 +74,28 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           {/* Header */}
           <header className="mb-12">
             <div className="flex items-center gap-4 mb-6">
-              <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300">
+              <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-blue-100 text-blue-800">
                 {post.category}
               </span>
-              <time className="text-gray-600 dark:text-gray-400 text-sm">
+              <time className="text-gray-600 text-sm">
                 {formatDate(post.date)}
               </time>
             </div>
-            <h1 className="hero-h1 text-gray-900 dark:text-white mb-6">
+            <h1 className="hero-h1 text-gray-900 mb-6">
               {post.title}
             </h1>
-            <p className="body-xl text-gray-600 dark:text-gray-400 leading-relaxed">
+            <p className="body-xl text-gray-600 leading-relaxed">
               {post.summary}
             </p>
           </header>
 
           {/* Content */}
-          <div className="prose prose-lg dark:prose-invert max-w-none">
+          <div className="prose prose-lg max-w-none">
             {contentParagraphs.map((paragraph, index) => {
               // Check if paragraph is a heading
               if (paragraph.startsWith('## ')) {
                 return (
-                  <h2 key={index} className="section-h2 text-gray-900 dark:text-white mt-12 mb-6">
+                  <h2 key={index} className="section-h2 text-gray-900 mt-12 mb-6">
                     {paragraph.replace('## ', '')}
                   </h2>
                 );
@@ -104,7 +104,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               // Check if paragraph is a subheading
               if (paragraph.startsWith('### ')) {
                 return (
-                  <h3 key={index} className="section-h3 text-gray-900 dark:text-white mt-8 mb-4">
+                  <h3 key={index} className="section-h3 text-gray-900 mt-8 mb-4">
                     {paragraph.replace('### ', '')}
                   </h3>
                 );
@@ -122,7 +122,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
               // Regular paragraph
               return (
-                <p key={index} className="body-base text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
+                <p key={index} className="body-base text-gray-700 mb-6 leading-relaxed">
                   {processedParagraph}
                 </p>
               );
@@ -130,7 +130,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           </div>
 
           {/* Footer */}
-          <footer className="mt-16 pt-8 border-t border-gray-200 dark:border-gray-700">
+          <footer className="mt-16 pt-8 border-t border-gray-200">
             <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
               <Link href="/blog">
                 <Button variant="outline" size="lg">
@@ -148,7 +148,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       </article>
 
       {/* Related CTA */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 mb-6">
             Ready to Transform Your Restaurant Operations?

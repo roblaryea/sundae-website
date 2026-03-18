@@ -74,7 +74,7 @@ export default function CloudKitchensPage() {
       </section>
 
       {/* Challenges Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
@@ -92,10 +92,10 @@ export default function CloudKitchensPage() {
                   <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center">
                     <SundaeIcon name={challenge.icon} size="xl" className="text-white" />
                   </div>
-                  <CardTitle className="text-gray-900 dark:text-white">{challenge.title}</CardTitle>
+                  <CardTitle className="text-gray-900">{challenge.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-gray-600 dark:text-slate-300">
+                  <CardDescription className="text-gray-600">
                     {challenge.description}
                   </CardDescription>
                 </CardContent>
@@ -106,7 +106,7 @@ export default function CloudKitchensPage() {
       </section>
 
       {/* Solutions Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-slate-800/50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
@@ -124,10 +124,10 @@ export default function CloudKitchensPage() {
                   <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center">
                     <SundaeIcon name={solution.icon} size="xl" className="text-white" />
                   </div>
-                  <CardTitle className="text-gray-900 dark:text-white">{solution.title}</CardTitle>
+                  <CardTitle className="text-gray-900">{solution.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-gray-600 dark:text-slate-300">
+                  <CardDescription className="text-gray-600">
                     {solution.description}
                   </CardDescription>
                 </CardContent>
@@ -138,7 +138,7 @@ export default function CloudKitchensPage() {
       </section>
 
       {/* Features Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
@@ -174,7 +174,7 @@ export default function CloudKitchensPage() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">{feature.title}</h3>
-                    <p className="text-gray-600 dark:text-slate-300">{feature.description}</p>
+                    <p className="text-gray-600">{feature.description}</p>
                   </div>
                 </div>
               ))}
@@ -185,7 +185,7 @@ export default function CloudKitchensPage() {
                 <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
                   <SundaeIcon name="growth" size="xl" className="text-white" />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Multi-Brand Performance</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Multi-Brand Performance</h3>
               </div>
               
               <div className="space-y-4">
@@ -214,7 +214,7 @@ export default function CloudKitchensPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 mb-6">
             Ready to Scale Your Brands?

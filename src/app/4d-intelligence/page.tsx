@@ -426,7 +426,7 @@ export default function FourDIntelligencePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

@@ -148,7 +148,7 @@ export default function PulsePage() {
   const cta = useCta();
 
   return (
-    <div className="min-h-screen bg-white dark:from-slate-950 dark:via-slate-900 dark:to-slate-950">
+    <div className="min-h-screen bg-white">
       {/* Hero */}
       <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
@@ -158,14 +158,14 @@ export default function PulsePage() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <div className="inline-flex items-center space-x-2 bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-300 px-4 py-2 rounded-full text-sm font-semibold mb-6">
+              <div className="inline-flex items-center space-x-2 bg-red-100 text-red-800 px-4 py-2 rounded-full text-sm font-semibold mb-6">
                 <SundaeIcon name="pulse" size="md" />
                 <span>Pulse — Intraday Operations Monitor</span>
               </div>
-              <h1 className="hero-h1 text-gray-900 dark:text-white mb-6">
+              <h1 className="hero-h1 text-gray-900 mb-6">
                 Control Your Shift.<br />Don&apos;t Just Watch It.
               </h1>
-              <p className="body-xl text-gray-600 dark:text-slate-300 mb-6 max-w-xl">
+              <p className="body-xl text-gray-600 mb-6 max-w-xl">
                 Pulse monitors sales pacing, labor cost, server performance, leakage, and service speed in real time — with AI targets that adapt to your restaurant&apos;s patterns, seasonality, and local events. See anomalies the moment they happen. Act before they cost you.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 mb-6">
@@ -184,7 +184,7 @@ export default function PulsePage() {
                   See Pulse in Action
                 </Button>
               </div>
-              <p className="text-sm text-gray-500 dark:text-slate-400">
+              <p className="text-sm text-gray-500">
                 Available as a module on Core tiers. Also available on Report Pro with unlock.
               </p>
             </motion.div>
@@ -204,12 +204,12 @@ export default function PulsePage() {
       </section>
 
       {/* What Pulse Monitors — Quick Grid */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 text-gray-900 dark:text-white mb-4">
+          <h2 className="section-h2 text-gray-900 mb-4">
             Everything You Need During the Shift
           </h2>
-          <p className="body-lg text-gray-600 dark:text-gray-300 mb-12">
+          <p className="body-lg text-gray-600 mb-12">
             Pulse monitors your operation in real time and coaches your team when things go off-track.
           </p>
 
@@ -224,11 +224,11 @@ export default function PulsePage() {
               { label: "Alerts & Playbooks", icon: "forecasting" as SundaeIconName },
               { label: "Wallboard", icon: "canvas" as SundaeIconName },
             ].map((item) => (
-              <div key={item.label} className="p-4 bg-red-50/60 dark:bg-slate-800 rounded-xl text-center">
+              <div key={item.label} className="p-4 bg-red-50/60 rounded-xl text-center">
                 <div className="w-10 h-10 mx-auto mb-2 bg-gradient-to-br from-red-500 to-orange-600 rounded-lg flex items-center justify-center">
                   <SundaeIcon name={item.icon} size="md" className="text-white" />
                 </div>
-                <p className="text-sm font-medium text-gray-700 dark:text-slate-300">{item.label}</p>
+                <p className="text-sm font-medium text-gray-700">{item.label}</p>
               </div>
             ))}
           </div>
@@ -236,10 +236,10 @@ export default function PulsePage() {
       </section>
 
       {/* Feature Blocks — Detailed */}
-      <section id="features" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-red-50/30 dark:from-slate-900 dark:to-slate-950">
+      <section id="features" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-red-50/30">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 dark:text-white mb-4">
+            <h2 className="section-h2 text-gray-900 mb-4">
               Seven Capabilities. One Operational Nerve Center.
             </h2>
           </div>
@@ -260,14 +260,14 @@ export default function PulsePage() {
                       <SundaeIcon name={block.icon} size="md" className="text-white" />
                     </div>
                     <div>
-                      <p className="text-xs font-semibold text-red-600 dark:text-red-400 uppercase tracking-wider">{block.title}</p>
-                      <h3 className="text-xl font-bold text-gray-900 dark:text-white">{block.headline}</h3>
+                      <p className="text-xs font-semibold text-red-600 uppercase tracking-wider">{block.title}</p>
+                      <h3 className="text-xl font-bold text-gray-900">{block.headline}</h3>
                     </div>
                   </div>
-                  <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-4">{block.description}</p>
+                  <p className="text-gray-600 leading-relaxed mb-4">{block.description}</p>
                   <ul className="space-y-1.5">
                     {block.capabilities.map((cap) => (
-                      <li key={cap} className="flex items-start gap-2 text-sm text-gray-700 dark:text-gray-300">
+                      <li key={cap} className="flex items-start gap-2 text-sm text-gray-700">
                         <span className="text-red-500 mt-0.5 flex-shrink-0">&#10003;</span>
                         <span>{cap}</span>
                       </li>
@@ -292,15 +292,15 @@ export default function PulsePage() {
       </section>
 
       {/* New Content Block: Targets That Get Smarter */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-5xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="eyebrow text-red-600 dark:text-red-400 mb-4">INTELLIGENCE THAT LEARNS</p>
-              <h2 className="section-h2 text-gray-900 dark:text-white mb-6">
+              <p className="eyebrow text-red-600 mb-4">INTELLIGENCE THAT LEARNS</p>
+              <h2 className="section-h2 text-gray-900 mb-6">
                 Targets That Get Smarter Every Week
               </h2>
-              <p className="body-lg text-gray-600 dark:text-gray-300">
+              <p className="body-lg text-gray-600">
                 Most restaurant platforms make you set targets manually — or copy last week. Sundae&apos;s Adaptive Intelligence Engine scans your full sales history, detects anomalies and seasonality, maps calendar events like Ramadan and NYE to their actual revenue impact, and generates forward-looking targets that reflect your real business rhythm. Tag a one-off event and it&apos;s excluded. Tag a recurring event and the system adjusts for it next year, automatically.
               </p>
             </div>
@@ -318,15 +318,15 @@ export default function PulsePage() {
       </section>
 
       {/* New Content Block: Server Intelligence */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-red-50/30 dark:from-slate-900 dark:to-slate-950">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-red-50/30">
         <div className="max-w-5xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="md:order-2">
-              <p className="eyebrow text-red-600 dark:text-red-400 mb-4">SERVER INTELLIGENCE</p>
-              <h2 className="section-h2 text-gray-900 dark:text-white mb-6">
+              <p className="eyebrow text-red-600 mb-4">SERVER INTELLIGENCE</p>
+              <h2 className="section-h2 text-gray-900 mb-6">
                 From Leaderboard to Coaching Tool
               </h2>
-              <p className="body-lg text-gray-600 dark:text-gray-300">
+              <p className="body-lg text-gray-600">
                 See who&apos;s driving your revenue and who needs support — in real time. Filter by hour, by service phase, or compare against last week. Every server gets a productivity score, an hourly breakdown, and auto-detected strengths and improvement areas. Use it for daily coaching, incentive programs, or shift planning. Because the best restaurants don&apos;t just track servers — they develop them.
               </p>
             </div>
@@ -344,15 +344,15 @@ export default function PulsePage() {
       </section>
 
       {/* New Content Block: Shift Economics */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-5xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="eyebrow text-red-600 dark:text-red-400 mb-4">SHIFT COSTING</p>
-              <h2 className="section-h2 text-gray-900 dark:text-white mb-6">
+              <p className="eyebrow text-red-600 mb-4">SHIFT COSTING</p>
+              <h2 className="section-h2 text-gray-900 mb-6">
                 Know What Every Shift Costs
               </h2>
-              <p className="body-lg text-gray-600 dark:text-gray-300">
+              <p className="body-lg text-gray-600">
                 Your morning shift runs 4 staff for 8 hours. Your evening runs 8 for 5 hours. But which one is actually profitable? Pulse breaks down the cost of every shift in your currency — by role, by individual — and maps it against the revenue that shift generates. See your labor cost ratio by shift, identify where you&apos;re overstaffed, and make smarter scheduling decisions.
               </p>
             </div>
@@ -370,7 +370,7 @@ export default function PulsePage() {
       </section>
 
       {/* CTA */}
-      <section className="section-standard px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white">
+      <section className="section-standard px-4 sm:px-6 lg:px-8 bg-slate-950 text-white">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="section-h2 mb-6">
             Stop Managing Shifts Blind
@@ -382,7 +382,7 @@ export default function PulsePage() {
             <Button
               variant="secondary"
               size="lg"
-              className="bg-white text-deep-blue hover:bg-gray-100"
+              className="bg-white text-slate-900 hover:bg-gray-100"
               onClick={() => cta("/demo", "book_demo_pulse_cta", { page: "/product/pulse" })}
             >
               Book a Demo

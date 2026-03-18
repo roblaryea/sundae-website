@@ -53,7 +53,7 @@ export default function ToolsPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50 dark:from-graphite-black dark:via-gray-900 dark:to-deep-blue/10">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50">
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
@@ -62,16 +62,16 @@ export default function ToolsPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <div className="inline-flex items-center space-x-2 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 px-4 py-2 rounded-full text-sm font-medium mb-6">
+            <div className="inline-flex items-center space-x-2 bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
               <SundaeIcon name="forge" size="md" />
               <span>Free Tools</span>
             </div>
-            <h1 className="hero-h1 text-gray-900 dark:text-white mb-6">
+            <h1 className="hero-h1 text-gray-900 mb-6">
               Free Calculators for
               <br />
               <span className="text-gradient">Smarter Operations</span>
             </h1>
-            <p className="body-xl text-gray-600 dark:text-gray-300 mb-8 max-w-4xl mx-auto">
+            <p className="body-xl text-gray-600 mb-8 max-w-4xl mx-auto">
               Quick answers on labor, margins, and performance. No signup required.
             </p>
           </motion.div>
@@ -92,20 +92,20 @@ export default function ToolsPage() {
               >
                 <Card variant="elevated" className="h-full hover:shadow-xl transition-all duration-300">
                   <CardHeader>
-                    <div className="w-16 h-16 bg-gradient-to-br from-electric-blue to-deep-blue rounded-2xl flex items-center justify-center text-white mb-4 shadow-lg">
+                    <div className="w-16 h-16 bg-slate-900 rounded-2xl flex items-center justify-center text-white mb-4 shadow-lg">
                       <SundaeIcon name={tool.icon} size="xl" className="text-white" />
                     </div>
-                    <CardTitle className="text-2xl text-gray-900 dark:text-white mb-3">
+                    <CardTitle className="text-2xl text-gray-900 mb-3">
                       {tool.title}
                     </CardTitle>
-                    <CardDescription className="text-gray-600 dark:text-gray-400 leading-relaxed mb-4">
+                    <CardDescription className="text-gray-600 leading-relaxed mb-4">
                       {tool.description}
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
                     <ul className="space-y-2 mb-6">
                       {tool.features.map((feature, idx) => (
-                        <li key={idx} className="flex items-center space-x-2 text-sm text-gray-700 dark:text-gray-300">
+                        <li key={idx} className="flex items-center space-x-2 text-sm text-gray-700">
                           <span className="text-green-500">✓</span>
                           <span>{feature}</span>
                         </li>
@@ -125,7 +125,7 @@ export default function ToolsPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 mb-6">
             Need the Full Picture?

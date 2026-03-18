@@ -1,7 +1,6 @@
 'use client';
 
 import Link from "next/link";
-import { REPORT_APP_URL } from "@/lib/urls";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/Card";
 import { motion } from "framer-motion";
@@ -128,18 +127,18 @@ export default function FranchisesPage() {
                   See How Sundae Helps Franchises
                 </Button>
               </Link>
-              <a href={REPORT_APP_URL}>
+              <Link href="/demo">
                 <Button variant="outline" size="lg">
-                  Get Free Network Analysis
+                  Start Free
                 </Button>
-              </a>
+              </Link>
             </motion.div>
           </div>
         </div>
       </section>
 
       {/* Key Challenges Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
@@ -160,7 +159,7 @@ export default function FranchisesPage() {
                     </div>
                     <div>
                       <CardTitle className="text-gray-900 mb-2">{challenge.title}</CardTitle>
-                      <CardDescription className="text-gray-600 dark:text-slate-300">
+                      <CardDescription className="text-gray-600">
                         {challenge.description}
                       </CardDescription>
                     </div>
@@ -173,7 +172,7 @@ export default function FranchisesPage() {
       </section>
 
       {/* How Sundae Helps Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-slate-800/50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
@@ -195,7 +194,7 @@ export default function FranchisesPage() {
                     <div>
                       <div className="text-xs text-blue-600 font-semibold mb-1">{item.product}</div>
                       <CardTitle className="text-gray-900 mb-2">{item.title}</CardTitle>
-                      <CardDescription className="text-gray-600 dark:text-slate-300">
+                      <CardDescription className="text-gray-600">
                         {item.description}
                       </CardDescription>
                     </div>
@@ -208,7 +207,7 @@ export default function FranchisesPage() {
       </section>
 
       {/* Outcomes Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">
@@ -229,7 +228,7 @@ export default function FranchisesPage() {
                     </div>
                     <div>
                       <CardTitle className="text-gray-900 mb-2">{outcome.title}</CardTitle>
-                      <CardDescription className="text-gray-600 dark:text-slate-300">
+                      <CardDescription className="text-gray-600">
                         {outcome.description}
                       </CardDescription>
                     </div>
@@ -242,7 +241,7 @@ export default function FranchisesPage() {
       </section>
 
       {/* CTA Band */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 mb-6">
             Ready to Support Your Network?

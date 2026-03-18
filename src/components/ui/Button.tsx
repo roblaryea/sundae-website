@@ -37,27 +37,26 @@ export const Button: React.FC<ButtonProps> = (props) => {
     fullWidth = false,
   } = props;
 
-  // Premium Linear/Notion-style button system with enhanced contrast
-  const baseStyles = 'inline-flex items-center justify-center font-semibold rounded-xl transition-all duration-200 ease-out focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-electric-blue';
+  const baseStyles = 'inline-flex items-center justify-center font-semibold rounded-xl transition-all duration-200 ease-out focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-slate-400';
 
   const variants = {
-    // Primary - enhanced gradient with better shadow
-    primary: 'bg-gradient-to-r from-deep-blue to-electric-blue text-white shadow-lg shadow-electric-blue/30 hover:shadow-xl hover:shadow-electric-blue/40 hover:-translate-y-0.5 active:translate-y-0 active:shadow-lg border border-electric-blue/20',
+    // Primary - solid dark
+    primary: 'bg-slate-900 text-white shadow-lg shadow-slate-900/20 hover:bg-slate-800 hover:shadow-xl hover:-translate-y-0.5 active:translate-y-0 active:shadow-lg',
 
-    // Secondary - solid dark with subtle glow
-    secondary: 'bg-gray-900 dark:bg-gray-100 text-white dark:text-gray-900 shadow-md hover:bg-gray-800 dark:hover:bg-white hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0',
+    // Secondary - lighter
+    secondary: 'bg-slate-100 text-slate-900 shadow-sm hover:bg-slate-200 hover:shadow-md hover:-translate-y-0.5 active:translate-y-0',
 
-    // Outline - clearer border with better hover
-    outline: 'border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-200 bg-white/80 dark:bg-gray-800/80 hover:border-electric-blue hover:text-electric-blue dark:hover:border-electric-blue dark:hover:text-electric-blue hover:bg-electric-blue/5 dark:hover:bg-electric-blue/10',
+    // Outline - clean border
+    outline: 'border-2 border-slate-300 text-slate-700 bg-white hover:border-slate-400 hover:text-slate-900 hover:bg-slate-50',
 
-    // Outline Light - for use on dark/gradient backgrounds
-    'outline-light': 'border-2 border-white/80 text-white bg-transparent hover:bg-white hover:text-deep-blue active:bg-white/90',
+    // Outline Light - for use on dark backgrounds
+    'outline-light': 'border-2 border-white/30 text-white bg-transparent hover:bg-white/10 hover:border-white/50 active:bg-white/5',
 
-    // Ghost - subtle but visible
-    ghost: 'text-gray-600 dark:text-gray-300 hover:bg-gray-100/80 dark:hover:bg-gray-800/80 hover:text-gray-900 dark:hover:text-white',
+    // Ghost - subtle
+    ghost: 'text-slate-600 hover:bg-slate-100 hover:text-slate-900',
 
-    // CTA - maximum visibility for key actions
-    cta: 'bg-gradient-to-r from-electric-blue via-blue-500 to-electric-blue text-white font-bold shadow-xl shadow-electric-blue/40 hover:shadow-2xl hover:shadow-electric-blue/50 hover:-translate-y-1 active:translate-y-0 active:shadow-xl border border-white/20 animate-gradient-x',
+    // CTA - maximum visibility
+    cta: 'bg-slate-900 text-white font-bold shadow-xl shadow-slate-900/30 hover:shadow-2xl hover:bg-slate-800 hover:-translate-y-1 active:translate-y-0 active:shadow-xl',
   };
 
   const sizes = {

@@ -477,7 +477,7 @@ export default function CoreProductPage() {
       </section>
 
       {/* Core + Watchtower */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white relative overflow-hidden">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent" />
         <div className="max-w-5xl mx-auto text-center relative">
           <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-6">

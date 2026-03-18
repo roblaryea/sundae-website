@@ -137,7 +137,7 @@ export default function RegionalManagersPage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">The Problems You Know</h2>
@@ -155,7 +155,7 @@ export default function RegionalManagersPage() {
                     </div>
                     <div>
                       <CardTitle className="text-gray-900 mb-2">{challenge.title}</CardTitle>
-                      <CardDescription className="text-gray-600 dark:text-slate-300">{challenge.description}</CardDescription>
+                      <CardDescription className="text-gray-600">{challenge.description}</CardDescription>
                     </div>
                   </div>
                 </CardHeader>
@@ -165,7 +165,7 @@ export default function RegionalManagersPage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-slate-800/50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">How Sundae Changes That</h2>
@@ -184,7 +184,7 @@ export default function RegionalManagersPage() {
                     <div>
                       <div className="text-xs text-blue-600 font-semibold mb-1">{item.product}</div>
                       <CardTitle className="text-gray-900 mb-2">{item.title}</CardTitle>
-                      <CardDescription className="text-gray-600 dark:text-slate-300">{item.description}</CardDescription>
+                      <CardDescription className="text-gray-600">{item.description}</CardDescription>
                     </div>
                   </div>
                 </CardHeader>
@@ -194,7 +194,7 @@ export default function RegionalManagersPage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-900">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-gray-900 mb-4">What Changes</h2>
@@ -212,7 +212,7 @@ export default function RegionalManagersPage() {
                     </div>
                     <div>
                       <CardTitle className="text-gray-900 mb-2">{outcome.title}</CardTitle>
-                      <CardDescription className="text-gray-600 dark:text-slate-300">{outcome.description}</CardDescription>
+                      <CardDescription className="text-gray-600">{outcome.description}</CardDescription>
                     </div>
                   </div>
                 </CardHeader>
@@ -222,7 +222,7 @@ export default function RegionalManagersPage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 mb-6">Ready to Manage Smarter?</h2>
           <p className="body-xl mb-8 opacity-90">

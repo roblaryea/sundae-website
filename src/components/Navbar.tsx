@@ -6,7 +6,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import { Button } from './ui/Button';
-import { DarkModeToggle } from './DarkModeToggle';
 import Image from 'next/image';
 import { useCta } from '@/lib/cta';
 import { PRICING_URL } from '@/lib/links';
@@ -39,7 +38,7 @@ const AccordionSection = ({ title, id, isExpanded, onToggle, children }: Accordi
   const contentId = `accordion-content-${id}`;
   
   return (
-    <div className="border-b border-slate-200/70 dark:border-slate-800">
+    <div className="border-b border-slate-200/70">
       <button
         type="button"
         id={headerId}
@@ -48,7 +47,7 @@ const AccordionSection = ({ title, id, isExpanded, onToggle, children }: Accordi
         aria-expanded={isExpanded}
         aria-controls={contentId}
       >
-        <span className="text-xs font-semibold tracking-[0.08em] uppercase text-slate-500 dark:text-slate-400">
+        <span className="text-xs font-semibold tracking-[0.08em] uppercase text-slate-500">
           {title}
         </span>
         <ChevronIcon isOpen={isExpanded} />
@@ -87,8 +86,8 @@ const MobileNavLink = ({ href, children, onClick, isHighlighted = false, dataAtt
     onClick={onClick}
     className={`block py-2.5 px-4 text-sm font-medium transition-colors duration-150 ${
       isHighlighted
-        ? 'text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-slate-800/60'
-        : 'text-slate-900 dark:text-slate-100 hover:bg-slate-50 dark:hover:bg-slate-800/60'
+        ? 'text-blue-600 hover:bg-blue-50'
+        : 'text-slate-900 hover:bg-slate-50'
     }`}
     {...dataAttributes}
   >
@@ -221,8 +220,8 @@ const Navbar = () => {
   return (
     <nav className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-300 backdrop-blur-sm border-b ${
       isScrolled 
-        ? 'bg-white/95 dark:bg-slate-900/95 border-slate-200/80 dark:border-slate-700 shadow-lg'
-        : 'bg-white/80 dark:bg-slate-900/80 border-slate-200/60 dark:border-slate-700/60'
+        ? 'bg-white/95 border-slate-200/80 shadow-lg'
+        : 'bg-white/80 border-slate-200/60'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
@@ -234,7 +233,7 @@ const Navbar = () => {
                 alt="Sundae – Decision Intelligence for Restaurants"
                 width={160}
                 height={46}
-                className={`transition-all duration-300 dark:invert dark:hue-rotate-180 ${
+                className={`transition-all duration-300 ${
                   isLogoHovered ? 'opacity-85' : 'opacity-100'
                 }`}
                 style={{ height: '46px', width: 'auto' }}
@@ -254,7 +253,7 @@ const Navbar = () => {
             {/* Products Mega Menu */}
             <div className="relative group">
               <div
-                className="text-gray-900 dark:text-white hover:text-deep-blue dark:hover:text-electric-blue transition-colors duration-200 font-medium cursor-pointer text-sm"
+                className="text-gray-900 hover:text-slate-600 transition-colors duration-200 font-medium cursor-pointer text-sm"
                 onMouseEnter={() => setActiveDropdown('product')}
               >
                 Products
@@ -262,13 +261,13 @@ const Navbar = () => {
               
               {activeDropdown === 'product' && (
                 <div
-                  className="absolute top-full left-0 mt-2 w-[420px] bg-white dark:bg-slate-800 rounded-xl shadow-2xl border border-gray-200 dark:border-slate-700 px-6 py-6 z-50 animate-dropdown-in"
+                  className="absolute top-full left-0 mt-2 w-[420px] bg-white rounded-xl shadow-2xl border border-gray-200 px-6 py-6 z-50 animate-dropdown-in"
                   onMouseEnter={() => setActiveDropdown('product')}
                   onMouseLeave={() => setActiveDropdown(null)}
                 >
                   {/* Intelligence Pillars */}
                   <div className="mb-4">
-                    <h3 className="eyebrow text-slate-500 dark:text-gray-400 mb-3">
+                    <h3 className="eyebrow text-slate-500 mb-3">
                       Intelligence
                     </h3>
                     <div className="grid grid-cols-2 gap-1">
@@ -276,13 +275,13 @@ const Navbar = () => {
                         <Link
                           key={pillar.name}
                           href={pillar.href}
-                          className="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors duration-200"
+                          className="block p-3 rounded-lg hover:bg-gray-50 transition-colors duration-200"
                           onClick={() => setActiveDropdown(null)}
                         >
-                          <div className="font-semibold text-gray-900 dark:text-white text-sm leading-snug mb-0.5">
+                          <div className="font-semibold text-gray-900 text-sm leading-snug mb-0.5">
                             {pillar.name}
                           </div>
-                          <div className="text-xs text-gray-500 dark:text-gray-400 leading-snug">
+                          <div className="text-xs text-gray-500 leading-snug">
                             {pillar.description}
                           </div>
                         </Link>
@@ -291,11 +290,11 @@ const Navbar = () => {
                   </div>
 
                   {/* Separator */}
-                  <div className="border-t border-gray-200 dark:border-slate-700 my-4"></div>
+                  <div className="border-t border-gray-200 my-4"></div>
 
                   {/* Plans */}
                   <div>
-                    <h3 className="eyebrow text-slate-500 dark:text-gray-400 mb-3">
+                    <h3 className="eyebrow text-slate-500 mb-3">
                       Plans
                     </h3>
                     <div className="grid grid-cols-2 gap-1 mb-3">
@@ -303,13 +302,13 @@ const Navbar = () => {
                         <Link
                           key={plan.name}
                           href={plan.href}
-                          className="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors duration-200"
+                          className="block p-3 rounded-lg hover:bg-gray-50 transition-colors duration-200"
                           onClick={() => setActiveDropdown(null)}
                         >
-                          <div className="font-semibold text-gray-900 dark:text-white text-sm leading-snug mb-0.5">
+                          <div className="font-semibold text-gray-900 text-sm leading-snug mb-0.5">
                             {plan.name}
                           </div>
-                          <div className="text-xs text-gray-500 dark:text-gray-400 leading-snug">
+                          <div className="text-xs text-gray-500 leading-snug">
                             {plan.description}
                           </div>
                         </Link>
@@ -318,14 +317,14 @@ const Navbar = () => {
                     <div className="flex items-center gap-4 px-3">
                       <Link
                         href="/report-vs-core"
-                        className="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-electric-blue transition-colors"
+                        className="text-sm font-medium text-gray-700 hover:text-slate-900 transition-colors"
                         onClick={() => setActiveDropdown(null)}
                       >
                         Compare Plans →
                       </Link>
                       <a
                         href={REPORT_APP_URL}
-                        className="text-sm font-semibold text-blue-600 dark:text-blue-400 hover:text-blue-700 transition-colors"
+                        className="text-sm font-semibold text-blue-600 hover:text-blue-700 transition-colors"
                         onClick={() => setActiveDropdown(null)}
                       >
                         Start Free →
@@ -339,7 +338,7 @@ const Navbar = () => {
             {/* Solutions Mega Menu */}
             <div className="relative group">
               <div
-                className="text-gray-900 dark:text-white hover:text-deep-blue dark:hover:text-electric-blue transition-colors duration-200 font-medium cursor-pointer text-sm"
+                className="text-gray-900 hover:text-slate-600 transition-colors duration-200 font-medium cursor-pointer text-sm"
                 onMouseEnter={() => setActiveDropdown('solutions')}
               >
                 Solutions
@@ -347,13 +346,13 @@ const Navbar = () => {
               
               {activeDropdown === 'solutions' && (
                 <div
-                  className="absolute top-full left-0 mt-2 w-[420px] bg-white dark:bg-slate-800 rounded-xl shadow-2xl border border-gray-200 dark:border-slate-700 px-6 py-6 z-50 animate-dropdown-in"
+                  className="absolute top-full left-0 mt-2 w-[420px] bg-white rounded-xl shadow-2xl border border-gray-200 px-6 py-6 z-50 animate-dropdown-in"
                   onMouseEnter={() => setActiveDropdown('solutions')}
                   onMouseLeave={() => setActiveDropdown(null)}
                 >
                   {/* Segments */}
                   <div className="mb-4">
-                    <h3 className="eyebrow text-slate-500 dark:text-gray-400 mb-3">
+                    <h3 className="eyebrow text-slate-500 mb-3">
                       By Segment
                     </h3>
                     <div className="grid grid-cols-2 gap-1">
@@ -361,10 +360,10 @@ const Navbar = () => {
                         <Link
                           key={solution.name}
                           href={solution.href}
-                          className="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors duration-200"
+                          className="block p-3 rounded-lg hover:bg-gray-50 transition-colors duration-200"
                           onClick={() => setActiveDropdown(null)}
                         >
-                          <div className="font-semibold text-gray-900 dark:text-white text-sm leading-snug">
+                          <div className="font-semibold text-gray-900 text-sm leading-snug">
                             {solution.name}
                           </div>
                         </Link>
@@ -373,11 +372,11 @@ const Navbar = () => {
                   </div>
 
                   {/* Separator */}
-                  <div className="border-t border-gray-200 dark:border-slate-700 my-4"></div>
+                  <div className="border-t border-gray-200 my-4"></div>
 
                   {/* Roles */}
                   <div>
-                    <h3 className="eyebrow text-slate-500 dark:text-gray-400 mb-3">
+                    <h3 className="eyebrow text-slate-500 mb-3">
                       By Role
                     </h3>
                     <div className="grid grid-cols-2 gap-1">
@@ -385,10 +384,10 @@ const Navbar = () => {
                         <Link
                           key={solution.name}
                           href={solution.href}
-                          className="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors duration-200"
+                          className="block p-3 rounded-lg hover:bg-gray-50 transition-colors duration-200"
                           onClick={() => setActiveDropdown(null)}
                         >
-                          <div className="font-semibold text-gray-900 dark:text-white text-sm leading-snug">
+                          <div className="font-semibold text-gray-900 text-sm leading-snug">
                             {solution.name}
                           </div>
                         </Link>
@@ -399,18 +398,18 @@ const Navbar = () => {
               )}
             </div>
 
-            <a href={PRICING_URL} className="text-gray-900 dark:text-white hover:text-deep-blue dark:hover:text-electric-blue transition-colors duration-200 font-medium text-sm">
+            <a href={PRICING_URL} className="text-gray-900 hover:text-slate-600 transition-colors duration-200 font-medium text-sm">
               Pricing
             </a>
             
-            <Link href="/about" className="text-gray-900 dark:text-white hover:text-deep-blue dark:hover:text-electric-blue transition-colors duration-200 font-medium text-sm">
+            <Link href="/about" className="text-gray-900 hover:text-slate-600 transition-colors duration-200 font-medium text-sm">
               About
             </Link>
             
             {/* Resources Dropdown */}
             <div className="relative group">
               <div
-                className="text-gray-900 dark:text-white hover:text-deep-blue dark:hover:text-electric-blue transition-colors duration-200 font-medium cursor-pointer text-sm"
+                className="text-gray-900 hover:text-slate-600 transition-colors duration-200 font-medium cursor-pointer text-sm"
                 onMouseEnter={() => setActiveDropdown('resources')}
               >
                 Resources
@@ -418,11 +417,11 @@ const Navbar = () => {
               
               {activeDropdown === 'resources' && (
                 <div
-                  className="absolute top-full left-0 mt-2 w-[240px] bg-white dark:bg-slate-800 rounded-xl shadow-2xl border border-gray-200 dark:border-slate-700 px-6 py-6 z-50 animate-dropdown-in"
+                  className="absolute top-full left-0 mt-2 w-[240px] bg-white rounded-xl shadow-2xl border border-gray-200 px-6 py-6 z-50 animate-dropdown-in"
                   onMouseEnter={() => setActiveDropdown('resources')}
                   onMouseLeave={() => setActiveDropdown(null)}
                 >
-                  <h3 className="eyebrow text-slate-500 dark:text-gray-400 mb-3">
+                  <h3 className="eyebrow text-slate-500 mb-3">
                     Learn
                   </h3>
                   <div className="space-y-1">
@@ -430,10 +429,10 @@ const Navbar = () => {
                       <Link
                         key={resource.name}
                         href={resource.href}
-                        className="block p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-slate-700 transition-colors duration-200"
+                        className="block p-3 rounded-lg hover:bg-gray-50 transition-colors duration-200"
                         onClick={() => setActiveDropdown(null)}
                       >
-                        <div className="font-semibold text-gray-900 dark:text-white text-sm leading-snug">
+                        <div className="font-semibold text-gray-900 text-sm leading-snug">
                           {resource.name}
                         </div>
                       </Link>
@@ -444,9 +443,8 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* CTA Buttons & Dark Mode Toggle */}
+          {/* CTA Buttons */}
           <div className="hidden lg:flex items-center space-x-4">
-            <DarkModeToggle />
             <Button 
               variant="outline" 
               size="sm"
@@ -467,12 +465,11 @@ const Navbar = () => {
             </Button>
           </div>
 
-          {/* Mobile: Dark Mode Toggle + Menu Button */}
+          {/* Mobile: Menu Button */}
           <div className="lg:hidden flex items-center gap-2">
-            <DarkModeToggle />
             <button
               type="button"
-              className="inline-flex items-center justify-center p-2 rounded-lg text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 relative z-50"
+              className="inline-flex items-center justify-center p-2 rounded-lg text-gray-900 hover:bg-gray-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 relative z-50"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               aria-label={isMenuOpen ? "Close menu" : "Open menu"}
               aria-expanded={isMenuOpen}
@@ -529,28 +526,28 @@ const Navbar = () => {
         {/* Slide-in Drawer Panel */}
         <nav
           id="mobile-menu"
-          className={`absolute inset-y-0 right-0 w-full max-w-sm h-screen bg-white dark:bg-slate-900 shadow-2xl flex flex-col transform transition-transform duration-300 ease-out ${
+          className={`absolute inset-y-0 right-0 w-full max-w-sm h-screen bg-white shadow-2xl flex flex-col transform transition-transform duration-300 ease-out ${
             isMenuOpen ? 'translate-x-0' : 'translate-x-full'
           }`}
         >
           {/* Drawer Header with Close Button */}
-          <div className="flex items-center justify-between px-4 py-4 border-b border-slate-200/70 dark:border-slate-800 flex-shrink-0">
+          <div className="flex items-center justify-between px-4 py-4 border-b border-slate-200/70 flex-shrink-0">
             <Image
               src="/logos/sundae-wordmark.png"
               alt="Sundae"
               width={130}
               height={38}
-              className="dark:invert dark:hue-rotate-180"
+              className=""
               style={{ height: '36px', width: 'auto' }}
             />
             <button
               type="button"
               onClick={() => setIsMenuOpen(false)}
-              className="p-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+              className="p-2 rounded-lg hover:bg-slate-100 transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
               aria-label="Close navigation"
             >
               <svg
-                className="w-6 h-6 text-slate-600 dark:text-slate-300"
+                className="w-6 h-6 text-slate-600"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -584,7 +581,7 @@ const Navbar = () => {
                   {pillar.name}
                 </MobileNavLink>
               ))}
-              <div className="border-t border-slate-200 dark:border-slate-800 my-2 mx-4"></div>
+              <div className="border-t border-slate-200 my-2 mx-4"></div>
               <div className="px-4 pt-1 pb-1">
                 <span className="eyebrow text-slate-400">Plans</span>
               </div>
@@ -606,7 +603,7 @@ const Navbar = () => {
               <a
                 href={SIGNUP_URL}
                 onClick={handleMobileNavClick}
-                className="block py-2.5 px-4 text-sm font-medium transition-colors duration-150 text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-slate-800/60"
+                className="block py-2.5 px-4 text-sm font-medium transition-colors duration-150 text-blue-600 hover:bg-blue-50"
               >
                 Start Free →
               </a>
@@ -631,7 +628,7 @@ const Navbar = () => {
                   {solution.name}
                 </MobileNavLink>
               ))}
-              <div className="border-t border-slate-200 dark:border-slate-800 my-2 mx-4"></div>
+              <div className="border-t border-slate-200 my-2 mx-4"></div>
               <div className="px-4 pt-1 pb-1">
                 <span className="eyebrow text-slate-400">By Role</span>
               </div>
@@ -673,7 +670,7 @@ const Navbar = () => {
             >
               <a 
                 href={PRICING_URL} 
-                className="block py-2.5 px-4 text-sm font-medium transition-colors duration-150 text-slate-900 dark:text-slate-100 hover:bg-slate-50 dark:hover:bg-slate-800/60"
+                className="block py-2.5 px-4 text-sm font-medium transition-colors duration-150 text-slate-900 hover:bg-slate-50"
               >
                 Pricing
               </a>
@@ -684,12 +681,12 @@ const Navbar = () => {
           </div>
 
           {/* Sticky Bottom CTA Bar */}
-          <div className="flex-shrink-0 sticky bottom-0 bg-white/90 dark:bg-slate-900/90 backdrop-blur border-t border-slate-200/70 dark:border-slate-800 px-4 py-3">
+          <div className="flex-shrink-0 sticky bottom-0 bg-white/90 backdrop-blur border-t border-slate-200/70 px-4 py-3">
             <div className="flex gap-3">
               <Link
                 href="/sign-in"
                 onClick={handleMobileNavClick}
-                className="flex-1 py-2.5 px-4 text-center text-sm font-medium border border-slate-300 dark:border-slate-700 rounded-lg text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
+                className="flex-1 py-2.5 px-4 text-center text-sm font-medium border border-slate-300 rounded-lg text-slate-700 hover:bg-slate-100 transition-colors"
                 data-cta="sign_in_mobile_nav"
                 data-source="mobile-nav"
               >

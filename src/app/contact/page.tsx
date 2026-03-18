@@ -1,40 +1,38 @@
+'use client';
+
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { LeadCaptureForm } from '@/components/marketing/LeadCaptureForm';
 import { SundaeIcon } from '@/components/icons';
 import { PRICING_URL } from '@/lib/links';
+import { PageHero, FadeUp, PageCTA } from '@/components/ui/PageAnimations';
 
 export default function ContactPage() {
 
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="hero-h1 text-gray-900 mb-6">
-            Let&apos;s Talk
-          </h1>
-          <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-            Whether you&apos;re evaluating Sundae for your group, have a technical question, or need help with an existing account — we&apos;re here.
-          </p>
-        </div>
-      </section>
+      <PageHero
+        badge="Get in Touch"
+        title="Let's Talk"
+        description="Whether you're exploring Sundae for the first time or ready to scale, we'd love to hear from you."
+      />
 
       {/* Contact Form & Info */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             {/* Contact Form */}
-            <div>
+            <FadeUp>
               <h2 className="section-h3 text-gray-900 mb-6">Send us a message</h2>
               <LeadCaptureForm
                 ctaLabel="Send Message"
                 defaultMessage="I'd like to get in touch about..."
               />
-            </div>
+            </FadeUp>
 
             {/* Contact Information */}
-            <div className="space-y-8">
+            <FadeUp delay={0.15} className="space-y-8">
               <div>
                 <h2 className="section-h3 text-gray-900 mb-4">Get in touch</h2>
                 <p className="body-base text-gray-600">
@@ -103,34 +101,27 @@ export default function ContactPage() {
                   </Link>
                 </div>
               </div>
-            </div>
+            </FadeUp>
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 mb-6">
-            Ready to See What You&apos;re Missing?
-          </h2>
-          <p className="body-xl mb-8 text-slate-300">
-            Book a 30-minute demo with your own data. No slides, no sales pressure.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/demo">
-              <Button variant="primary" size="lg" className="bg-white text-slate-900 hover:bg-slate-100">
-                Book a Demo
-              </Button>
-            </Link>
-            <Link href="/product">
-              <Button variant="outline-light" size="lg">
-                Explore Products
-              </Button>
-            </Link>
-          </div>
-        </div>
-      </section>
+      <PageCTA
+        title="Ready to See What You're Missing?"
+        description="Book a 30-minute demo with your own data. No slides, no sales pressure."
+      >
+        <Link href="/demo">
+          <Button variant="primary" size="lg" className="bg-white text-slate-900 hover:bg-slate-100">
+            Book a Demo
+          </Button>
+        </Link>
+        <Link href="/product">
+          <Button variant="outline-light" size="lg">
+            Explore Products
+          </Button>
+        </Link>
+      </PageCTA>
     </div>
   );
 }
