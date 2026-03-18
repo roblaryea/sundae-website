@@ -436,23 +436,21 @@ export default function PricingPage() {
         title="Ready to Get Started?"
         description="Start free, upgrade when you're ready. No credit card required."
       >
-        <Link href="/demo">
-          <Button
-            variant="primary"
-            size="lg"
-            className="bg-white text-slate-900 hover:bg-slate-100"
-          >
-            Book a Demo
-          </Button>
-        </Link>
-        <Link href={SIGNUP_URL}>
-          <Button
-            variant="outline-light"
-            size="lg"
-          >
-            Start Free
-          </Button>
-        </Link>
+        <Button
+          variant="primary"
+          size="lg"
+          href="/demo"
+          className="bg-white text-slate-900 hover:bg-slate-100"
+        >
+          Book a Demo
+        </Button>
+        <Button
+          variant="outline-light"
+          size="lg"
+          href={SIGNUP_URL}
+        >
+          Start Free
+        </Button>
       </PageCTA>
     </div>
   );

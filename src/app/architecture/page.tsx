@@ -138,19 +138,11 @@ export default function ArchitecturePage() {
                     layer.size === 'large' ? 'transform hover:scale-[1.02]' : 'transform hover:scale-[1.01]'
                   }`}>
                     <div className="flex items-start space-x-6">
-                      <motion.div
+                      <div
                         className="w-14 h-14 bg-white/20 rounded-lg flex items-center justify-center flex-shrink-0"
-                        animate={{
-                          scale: [1, 1.1, 1],
-                        }}
-                        transition={{
-                          duration: 2,
-                          repeat: Infinity,
-                          ease: "easeInOut"
-                        }}
                       >
                         <SundaeIcon name={layer.icon} size="xl" className={layer.textColor === 'text-slate-900' ? 'text-blue-600' : 'text-white'} />
-                      </motion.div>
+                      </div>
                       <div className="flex-grow">
                         <div className={`text-sm font-semibold mb-2 ${layer.textColor === 'text-slate-900' ? 'text-slate-600' : 'opacity-90'}`}>
                           {layer.subtitle}
@@ -359,19 +351,22 @@ export default function ArchitecturePage() {
                 </div>
                 
                 <div className="space-y-4">
-                  {[
-                    { name: "SOC 2 Type II", status: "Certified", color: "green" },
-                    { name: "GDPR", status: "Compliant", color: "blue" },
-                    { name: "CCPA", status: "Compliant", color: "purple" },
-                    { name: "ISO 27001", status: "In Progress", color: "amber" }
-                  ].map((cert, index) => (
-                    <div key={index} className={`flex items-center justify-between p-4 bg-${cert.color}-50 rounded-xl border border-${cert.color}-200`}>
-                      <span className="font-semibold text-slate-900">{cert.name}</span>
-                      <span className={`text-${cert.color}-600 text-sm font-medium`}>
-                        {cert.status === "In Progress" ? <SundaeIcon name="sync" size="sm" className="inline" /> : "✓"} {cert.status}
-                      </span>
+                    <div className="flex items-center justify-between p-4 bg-green-50 rounded-xl border border-green-200">
+                      <span className="font-semibold text-slate-900">SOC 2 Type II</span>
+                      <span className="text-green-600 text-sm font-medium">✓ Certified</span>
                     </div>
-                  ))}
+                    <div className="flex items-center justify-between p-4 bg-blue-50 rounded-xl border border-blue-200">
+                      <span className="font-semibold text-slate-900">GDPR</span>
+                      <span className="text-blue-600 text-sm font-medium">✓ Compliant</span>
+                    </div>
+                    <div className="flex items-center justify-between p-4 bg-purple-50 rounded-xl border border-purple-200">
+                      <span className="font-semibold text-slate-900">CCPA</span>
+                      <span className="text-purple-600 text-sm font-medium">✓ Compliant</span>
+                    </div>
+                    <div className="flex items-center justify-between p-4 bg-amber-50 rounded-xl border border-amber-200">
+                      <span className="font-semibold text-slate-900">ISO 27001</span>
+                      <span className="text-amber-600 text-sm font-medium"><SundaeIcon name="sync" size="sm" className="inline" /> In Progress</span>
+                    </div>
                 </div>
               </div>
             </FadeUp>
@@ -380,7 +375,7 @@ export default function ArchitecturePage() {
       </section>
 
       {/* Premium Engineering */}
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-blue-50/30">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <FadeUp className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">

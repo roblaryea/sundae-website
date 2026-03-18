@@ -145,7 +145,7 @@ export default function ChatWithDataPage() {
         description="Skip the dashboards. Ask a question in plain English and get structured, visual answers — powered by your POS, inventory, labor, and delivery data in real time."
       >
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <Button variant="cta" size="lg" href={SIGNUP_URL} onClick={() => cta(SIGNUP_URL, "try_intelligence_hero", { page: "/intelligence" })}>
+          <Button variant="cta" size="lg" onClick={() => cta(SIGNUP_URL, "try_intelligence_hero", { page: "/intelligence" })}>
             Try It Free
           </Button>
           <Button variant="outline-light" size="lg" onClick={() => cta("/demo", "book_demo_intelligence", { page: "/intelligence" })}>
@@ -496,7 +496,7 @@ export default function ChatWithDataPage() {
       </section>
 
       {/* Accessibility & Platform */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-blue-50/30">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-4xl mx-auto text-center">
           <FadeUp>
             <h2 className="text-xl font-bold text-slate-900 mb-8">

@@ -98,7 +98,7 @@ export default function ProductPage() {
         description="Five intelligence pillars that turn fragmented data into operational clarity. Start free with Report, scale to real-time intelligence with Core."
       >
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <Button variant="cta" size="lg" href={REPORT_APP_URL} onClick={() => cta(REPORT_APP_URL, "start_free_product_hero", { page: "/product" })}>
+          <Button variant="cta" size="lg" onClick={() => cta(REPORT_APP_URL, "start_free_product_hero", { page: "/product" })}>
             Start Free with Report
           </Button>
           <Button variant="outline-light" size="lg" onClick={() => cta("/demo", "book_demo_product_hero", { page: "/product" })}>

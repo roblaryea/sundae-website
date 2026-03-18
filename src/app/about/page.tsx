@@ -305,11 +305,11 @@ export default function AboutPage() {
           </FadeUp>
 
           {/* Desktop: Grid Layout */}
-          <div className="hidden lg:grid lg:grid-cols-4 gap-8 relative">
+          <div className="hidden lg:grid lg:grid-cols-5 gap-6 relative">
             {/* Connecting Line */}
             <div className="absolute top-12 left-0 right-0 h-1 bg-gradient-to-r from-slate-800 via-slate-900 to-slate-700" style={{ top: '32px' }} />
 
-            {milestones.slice(0, 4).map((milestone, index) => (
+            {milestones.map((milestone, index) => (
               <FadeUp key={`${milestone.year}-${index}`} delay={index * 0.1}>
                 <div className="relative">
                   {/* Node */}
@@ -421,7 +421,7 @@ export default function AboutPage() {
             {[
               { region: "Middle East", countries: "UAE, KSA, Qatar", icon: "network" as SundaeIconName, color: "bg-positive", label: "Active" },
               { region: "North America", countries: "USA, Canada", icon: "network" as SundaeIconName, color: "bg-slate-900", label: "Active" },
-              { region: "Europe", countries: "UK, Germany, France", icon: "network" as SundaeIconName, color: "bg-lavender", label: "Target" },
+              { region: "Europe", countries: "UK, Germany, France", icon: "network" as SundaeIconName, color: "bg-violet-600", label: "Target" },
               { region: "Asia Pacific", countries: "Australia, Singapore", icon: "network" as SundaeIconName, color: "bg-coral", label: "Target" }
             ].map((region, index) => (
               <FadeUp key={region.region} delay={index * 0.1}>
@@ -452,12 +452,8 @@ export default function AboutPage() {
         title="Join Us on the Journey"
         description="We're hiring across engineering, product, and go-to-market. Help us build the future of decision intelligence."
       >
-        <Link href="/careers">
-          <Button variant="cta" size="lg">View Open Roles</Button>
-        </Link>
-        <Link href="/demo">
-          <Button variant="outline-light" size="lg">Book a Demo</Button>
-        </Link>
+        <Button variant="cta" size="lg" href="/careers">View Open Roles</Button>
+        <Button variant="outline-light" size="lg" href="/demo">Book a Demo</Button>
       </PageCTA>
     </div>
   );
