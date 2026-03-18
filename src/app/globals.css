@@ -1,20 +1,12 @@
 @import "tailwindcss";
 
 /* ==============================================
-   DARK MODE CONFIGURATION - Tailwind v4
-   ============================================== */
-
-/* Enable class-based dark mode for Tailwind v4 */
-@custom-variant dark (&:where(.dark, .dark *));
-
-/* ==============================================
    MODULAR STYLE IMPORTS
    Split from monolithic globals.css for maintainability.
    Each file owns a single concern.
    ============================================== */
 
 @import "../styles/tokens.css";
-@import "../styles/dark-mode.css";
 @import "../styles/accessibility.css";
 @import "../styles/typography.css";
 @import "../styles/spacing.css";

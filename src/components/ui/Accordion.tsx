@@ -142,7 +142,7 @@ function AccordionItem({ title, content, isOpen, onClick }: AccordionItemProps) 
     <div className="border-b border-gray-200">
       <button
         onClick={onClick}
-        className="w-full py-5 px-6 flex justify-between items-center text-left hover:bg-gray-50 transition-colors"
+        className="w-full py-5 px-6 flex justify-between items-center text-left hover:bg-slate-50 transition-colors"
         aria-expanded={isOpen}
       >
         <span className="text-lg font-semibold text-gray-900 pr-8">

@@ -205,7 +205,7 @@ export default function GettingStartedPage() {
                       <p className="text-lg font-semibold text-gray-600 mb-4">{step.subtitle}</p>
                       <p className="text-gray-700 mb-6 leading-relaxed">{step.description}</p>
                       
-                      <div className="bg-gray-50 rounded-lg p-4">
+                      <div className="bg-slate-50 rounded-lg p-4">
                         <p className="text-sm font-semibold text-gray-500 uppercase mb-3">What You'll Do:</p>
                         <ul className="space-y-2">
                           {step.actions.map((action, idx) => (

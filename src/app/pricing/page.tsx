@@ -232,7 +232,7 @@ export default function PricingPage() {
       </section>
 
       {/* Sundae Core Tiers */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-slate-50">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-8">
@@ -308,7 +308,7 @@ export default function PricingPage() {
       </section>
 
       {/* Add-ons Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-slate-50">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-10">

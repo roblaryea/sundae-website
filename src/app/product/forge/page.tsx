@@ -113,7 +113,7 @@ export default function ForgePage() {
  </section>
 
  {/* Conversation Examples Section */}
- <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+ <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
  <div className="max-w-7xl mx-auto">
  <div className="text-center mb-16">
  <h2 className="section-h2 text-gray-900 mb-4">
@@ -150,7 +150,7 @@ export default function ForgePage() {
  </div>
  </div>
  
- <div className="bg-gray-50 rounded-lg p-3">
+ <div className="bg-slate-50 rounded-lg p-3">
  <p className="text-xs text-gray-600">
  <span className="font-medium">Data sources:</span> {example.context}
  </p>
@@ -262,7 +262,7 @@ export default function ForgePage() {
  </div>
  
  <div className="space-y-4">
- <div className="bg-gray-50 rounded-lg p-4">
+ <div className="bg-slate-50 rounded-lg p-4">
  <p className="text-sm text-gray-600 mb-2">Try asking:</p>
  <div className="space-y-2">
  <div className="bg-blue-100 rounded p-2 text-sm">"Why did sales drop yesterday?"</div>

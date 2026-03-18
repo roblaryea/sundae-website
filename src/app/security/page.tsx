@@ -1,11 +1,8 @@
-import type { Metadata } from "next";
-import { SundaeIcon } from "@/components/icons";
+'use client';
 
-export const metadata: Metadata = {
-  title: "Security & Compliance",
-  description:
-    "How Sundae protects your restaurant data. Enterprise-grade security, encryption, access controls, and compliance standards.",
-};
+import { SundaeIcon } from "@/components/icons";
+import { Button } from "@/components/ui/Button";
+import { PageHero, PageCTA, FadeUp } from "@/components/ui/PageAnimations";
 
 const securityPillars = [
   {
@@ -70,103 +67,95 @@ export default function SecurityPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero */}
-      <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-blue-50">
-        <div className="max-w-4xl mx-auto text-center">
-          <span className="badge--architecture inline-block mb-4">SECURITY & COMPLIANCE</span>
-          <h1 className="hero-h1 text-gray-900 mb-6">
-            Your Data, Protected at Every Layer
-          </h1>
-          <p className="body-xl text-gray-600 max-w-3xl mx-auto">
-            Sundae is built for enterprise restaurant groups that demand rigorous security. We protect your operational, financial, and workforce data with industry-leading practices.
-          </p>
-        </div>
-      </section>
+      <PageHero
+        badge="Security & Compliance"
+        title="Enterprise-Grade Security"
+        description="Your data is protected by industry-leading security practices, encryption, and compliance standards."
+      />
 
       {/* Security Pillars */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
-              Security Architecture
-            </h2>
-            <p className="body-lg text-gray-600 max-w-2xl mx-auto">
-              Six pillars that protect your data from ingestion to insight.
-            </p>
-          </div>
+      <FadeUp>
+        <section className="py-20 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="section-h2 text-gray-900 mb-4">
+                Security Architecture
+              </h2>
+              <p className="body-lg text-gray-600 max-w-2xl mx-auto">
+                Six pillars that protect your data from ingestion to insight.
+              </p>
+            </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {securityPillars.map((pillar) => (
-              <div
-                key={pillar.title}
-                className="p-6 rounded-2xl border border-slate-200 bg-white hover:shadow-md transition-shadow duration-300"
-              >
-                <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center text-white mb-4 shadow-lg">
-                  <SundaeIcon name={pillar.icon} size="lg" className="text-white" />
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {securityPillars.map((pillar) => (
+                <div
+                  key={pillar.title}
+                  className="p-6 rounded-2xl border border-slate-200 bg-white hover:shadow-md transition-shadow duration-300"
+                >
+                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center text-white mb-4 shadow-lg">
+                    <SundaeIcon name={pillar.icon} size="lg" className="text-white" />
+                  </div>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                    {pillar.title}
+                  </h3>
+                  <p className="text-sm text-gray-600 leading-relaxed">
+                    {pillar.description}
+                  </p>
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                  {pillar.title}
-                </h3>
-                <p className="text-sm text-gray-600 leading-relaxed">
-                  {pillar.description}
-                </p>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </FadeUp>
 
       {/* Compliance */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
-        <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
-              Compliance & Certifications
-            </h2>
-          </div>
+      <FadeUp>
+        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="section-h2 text-gray-900 mb-4">
+                Compliance & Certifications
+              </h2>
+            </div>
 
-          <div className="space-y-6">
-            {complianceItems.map((item) => (
-              <div
-                key={item.title}
-                className="p-6 rounded-xl border border-slate-200 bg-white"
-              >
-                <div className="flex items-start gap-4">
-                  <div className="flex-1">
-                    <div className="flex items-center gap-3 mb-2">
-                      <h3 className="text-lg font-semibold text-gray-900">
-                        {item.title}
-                      </h3>
-                      {item.note && (
-                        <span className="text-xs font-medium px-2 py-1 rounded-full bg-amber-100 text-amber-800">
-                          {item.note}
-                        </span>
-                      )}
+            <div className="space-y-6">
+              {complianceItems.map((item) => (
+                <div
+                  key={item.title}
+                  className="p-6 rounded-xl border border-slate-200 bg-white"
+                >
+                  <div className="flex items-start gap-4">
+                    <div className="flex-1">
+                      <div className="flex items-center gap-3 mb-2">
+                        <h3 className="text-lg font-semibold text-gray-900">
+                          {item.title}
+                        </h3>
+                        {item.note && (
+                          <span className="text-xs font-medium px-2 py-1 rounded-full bg-amber-100 text-amber-800">
+                            {item.note}
+                          </span>
+                        )}
+                      </div>
+                      <p className="text-sm text-gray-600 leading-relaxed">
+                        {item.description}
+                      </p>
                     </div>
-                    <p className="text-sm text-gray-600 leading-relaxed">
-                      {item.description}
-                    </p>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </FadeUp>
 
       {/* CTA */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="section-h2 text-gray-900 mb-4">
-            Questions About Security?
-          </h2>
-          <p className="body-lg text-gray-600 mb-8">
-            Our team is available to discuss your specific security and compliance requirements, provide documentation, or schedule a security review.
-          </p>
-          <a href="/contact" className="btn-primary">
-            Contact Our Security Team
-          </a>
-        </div>
-      </section>
+      <PageCTA
+        title="Questions About Security?"
+        description="Our team is happy to discuss our security practices and compliance certifications."
+      >
+        <Button variant="cta" size="lg" href="/contact">Contact Us</Button>
+        <Button variant="outline-light" size="lg" href="/docs">View Documentation</Button>
+      </PageCTA>
     </div>
   );
 }

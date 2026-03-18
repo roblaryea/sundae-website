@@ -123,13 +123,13 @@ interface CardIconProps {
 
 export const CardIcon: React.FC<CardIconProps> = ({ children, className = '', variant = 'gradient' }) => {
  const variants = {
- default: 'bg-gray-100',
- gradient: 'bg-gradient-to-br from-slate-800 to-slate-900',
- outlined: 'border-2 border-slate-800 bg-slate-800/10',
+ default: 'bg-gray-100 text-gray-700',
+ gradient: 'bg-gradient-to-br from-slate-800 to-slate-900 text-white',
+ outlined: 'border-2 border-slate-800 bg-slate-800/10 text-slate-800',
  };
- 
+
  return (
- <div className={`w-12 h-12 rounded-xl flex items-center justify-center text-white ${variants[variant]} ${className}`}>
+ <div className={`w-12 h-12 rounded-xl flex items-center justify-center ${variants[variant]} ${className}`}>
  {children}
  </div>
  );

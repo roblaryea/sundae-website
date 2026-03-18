@@ -203,14 +203,14 @@ export default function SignInPage() {
  <motion.div {...fadeUp(0.05)} className="space-y-3 mb-6">
  <button
  type="button"
- className="w-full flex items-center justify-center gap-3 px-4 py-3 rounded-xl border-2 border-gray-200 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 transition-colors"
+ className="w-full flex items-center justify-center gap-3 px-4 py-3 rounded-xl border-2 border-gray-200 bg-white text-sm font-medium text-gray-700 hover:bg-slate-50 transition-colors"
  >
  <GoogleIcon />
  Continue with Google
  </button>
  <button
  type="button"
- className="w-full flex items-center justify-center gap-3 px-4 py-3 rounded-xl border-2 border-gray-200 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 transition-colors"
+ className="w-full flex items-center justify-center gap-3 px-4 py-3 rounded-xl border-2 border-gray-200 bg-white text-sm font-medium text-gray-700 hover:bg-slate-50 transition-colors"
  >
  <MicrosoftIcon />
  Continue with Microsoft

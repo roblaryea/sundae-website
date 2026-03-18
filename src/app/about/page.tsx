@@ -450,7 +450,7 @@ export default function AboutPage() {
       {/* CTA Section */}
       <PageCTA
         title="Join Us on the Journey"
-        description="We're hiring across engineering, product, and go-to-market. Help us build the future of restaurant intelligence."
+        description="We're hiring across engineering, product, and go-to-market. Help us build the future of decision intelligence."
       >
         <Link href="/careers">
           <Button variant="cta" size="lg">View Open Roles</Button>

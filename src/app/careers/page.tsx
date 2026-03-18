@@ -125,7 +125,7 @@ export default function CareersPage() {
       {/* Hero Section */}
       <PageHero
         badge="Join Our Team"
-        title="Build the Future of Restaurant Intelligence"
+        title="Build the Future of Decision Intelligence"
         description="We're a small, ambitious team solving one of the biggest problems in hospitality — fragmented data. Join us."
       >
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -180,7 +180,7 @@ export default function CareersPage() {
                     <CardDescription className="text-gray-600 leading-relaxed">
                       {position.description}
                     </CardDescription>
-                    <Link href="mailto:careers@sundae.io?subject=Application for {position.title}">
+                    <Link href={`mailto:careers@sundae.io?subject=${encodeURIComponent(`Application for ${position.title}`)}`}>
                       <Button variant="outline" size="sm" className="w-full">
                         Apply Now
                       </Button>

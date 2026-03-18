@@ -25,6 +25,7 @@ export default function MenuMarginCalculator() {
 
     if (isNaN(price) || isNaN(cost) || price <= 0 || cost < 0 || cost > price) {
       alert('Please enter valid numbers (ingredient cost must be less than selling price)');
+      setIsCalculating(false);
       return;
     }
 

@@ -275,7 +275,7 @@ const Navbar = () => {
                         <Link
                           key={pillar.name}
                           href={pillar.href}
-                          className="block p-3 rounded-lg hover:bg-gray-50 transition-colors duration-200"
+                          className="block p-3 rounded-lg hover:bg-slate-50 transition-colors duration-200"
                           onClick={() => setActiveDropdown(null)}
                         >
                           <div className="font-semibold text-gray-900 text-sm leading-snug mb-0.5">
@@ -302,7 +302,7 @@ const Navbar = () => {
                         <Link
                           key={plan.name}
                           href={plan.href}
-                          className="block p-3 rounded-lg hover:bg-gray-50 transition-colors duration-200"
+                          className="block p-3 rounded-lg hover:bg-slate-50 transition-colors duration-200"
                           onClick={() => setActiveDropdown(null)}
                         >
                           <div className="font-semibold text-gray-900 text-sm leading-snug mb-0.5">
@@ -360,7 +360,7 @@ const Navbar = () => {
                         <Link
                           key={solution.name}
                           href={solution.href}
-                          className="block p-3 rounded-lg hover:bg-gray-50 transition-colors duration-200"
+                          className="block p-3 rounded-lg hover:bg-slate-50 transition-colors duration-200"
                           onClick={() => setActiveDropdown(null)}
                         >
                           <div className="font-semibold text-gray-900 text-sm leading-snug">
@@ -384,7 +384,7 @@ const Navbar = () => {
                         <Link
                           key={solution.name}
                           href={solution.href}
-                          className="block p-3 rounded-lg hover:bg-gray-50 transition-colors duration-200"
+                          className="block p-3 rounded-lg hover:bg-slate-50 transition-colors duration-200"
                           onClick={() => setActiveDropdown(null)}
                         >
                           <div className="font-semibold text-gray-900 text-sm leading-snug">
@@ -429,7 +429,7 @@ const Navbar = () => {
                       <Link
                         key={resource.name}
                         href={resource.href}
-                        className="block p-3 rounded-lg hover:bg-gray-50 transition-colors duration-200"
+                        className="block p-3 rounded-lg hover:bg-slate-50 transition-colors duration-200"
                         onClick={() => setActiveDropdown(null)}
                       >
                         <div className="font-semibold text-gray-900 text-sm leading-snug">

@@ -208,7 +208,7 @@ export default function CanvasPage() {
                   { label: "Food Cost %", value: "31.2%", change: "+0.8%", positive: false },
                   { label: "Locations", value: "12", change: "Active", positive: true }
                 ].map((kpi, i) => (
-                  <div key={i} className="bg-gray-50 rounded-lg p-3">
+                  <div key={i} className="bg-slate-50 rounded-lg p-3">
                     <p className="text-xs text-gray-500 mb-1">{kpi.label}</p>
                     <p className="text-xl font-bold text-gray-900">{kpi.value}</p>
                     <p className={`text-xs font-medium ${kpi.positive ? 'text-green-600' : 'text-orange-600'}`}>
@@ -341,7 +341,7 @@ export default function CanvasPage() {
       </section>
 
       {/* How Canvas Fits the Stack */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
@@ -433,7 +433,7 @@ export default function CanvasPage() {
       </section>
 
       {/* Dashboard Examples Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">

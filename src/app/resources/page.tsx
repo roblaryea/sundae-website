@@ -203,7 +203,7 @@ export default function ResourcesPage() {
       </section>
 
       {/* Tools Section - CTA to dedicated tools page */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
         <div className="max-w-4xl mx-auto text-center">
           <div className="w-14 h-14 mx-auto mb-6 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center"><SundaeIcon name="forge" size="xl" className="text-white" /></div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">

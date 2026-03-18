@@ -3,8 +3,8 @@
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
-import { motion } from 'framer-motion';
 import { SundaeIcon, type SundaeIconName } from '@/components/icons';
+import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from '@/components/ui/PageAnimations';
 
 export default function ToolsPage() {
   const tools: { title: string; description: string; icon: SundaeIconName; href: string; features: string[] }[] = [
@@ -53,43 +53,20 @@ export default function ToolsPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50">
+    <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-          >
-            <div className="inline-flex items-center space-x-2 bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
-              <SundaeIcon name="forge" size="md" />
-              <span>Free Tools</span>
-            </div>
-            <h1 className="hero-h1 text-gray-900 mb-6">
-              Free Calculators for
-              <br />
-              <span className="text-gradient">Smarter Operations</span>
-            </h1>
-            <p className="body-xl text-gray-600 mb-8 max-w-4xl mx-auto">
-              Quick answers on labor, margins, and performance. No signup required.
-            </p>
-          </motion.div>
-        </div>
-      </section>
+      <PageHero
+        badge="Free Tools"
+        title="Restaurant Calculators & Assessments"
+        description="Quick, free tools to analyze your restaurant's performance. No sign-up required."
+      />
 
       {/* Tools Grid */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {tools.map((tool, index) => (
-              <motion.div
-                key={tool.title}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                whileHover={{ y: -8, transition: { duration: 0.2 } }}
-              >
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {tools.map((tool) => (
+              <StaggerItem key={tool.title}>
                 <Card variant="elevated" className="h-full hover:shadow-xl transition-all duration-300">
                   <CardHeader>
                     <div className="w-16 h-16 bg-slate-900 rounded-2xl flex items-center justify-center text-white mb-4 shadow-lg">
@@ -118,28 +95,20 @@ export default function ToolsPage() {
                     </Link>
                   </CardContent>
                 </Card>
-              </motion.div>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerContainer>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 mb-6">
-            Need the Full Picture?
-          </h2>
-          <p className="body-xl mb-8 opacity-90">
-            These tools scratch the surface. Sundae gives you real-time intelligence across every location.
-          </p>
-          <Link href="/demo">
-            <Button variant="secondary" size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
-              See Sundae Platform
-            </Button>
-          </Link>
-        </div>
-      </section>
+      <PageCTA
+        title="Ready for Deeper Insights?"
+        description="These calculators are just the start. See what Sundae can do with your full data."
+      >
+        <Button variant="cta" size="lg" href="/demo">Book a Demo</Button>
+        <Button variant="outline-light" size="lg" href="/product">Explore Products</Button>
+      </PageCTA>
     </div>
   );
 }

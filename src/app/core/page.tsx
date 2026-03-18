@@ -511,7 +511,7 @@ export default function CoreProductPage() {
 
           <div className="space-y-6">
             {faqs.map((faq, index) => (
-              <div key={index} className="p-6 bg-gray-50 rounded-xl">
+              <div key={index} className="p-6 bg-slate-50 rounded-xl">
                 <h3 className="font-semibold text-gray-900 mb-3">{faq.q}</h3>
                 <p className="text-gray-600 leading-relaxed">{faq.a}</p>
               </div>

@@ -257,7 +257,7 @@ export default function ModulesPage() {
                           <h4 className="font-semibold text-gray-900 mb-2">ROI</h4>
                           <p className="text-sm text-gray-700">{module.roi}</p>
                         </div>
-                        <div className="bg-gray-50 rounded-lg p-4 mb-4">
+                        <div className="bg-slate-50 rounded-lg p-4 mb-4">
                           <h4 className="font-semibold text-gray-900 mb-2">Best for:</h4>
                           <p className="text-sm text-gray-700">{module.bestFor}</p>
                         </div>
@@ -411,7 +411,7 @@ export default function ModulesPage() {
 
           <div className="space-y-6">
             {faqs.map((faq, index) => (
-              <div key={index} className="p-6 bg-gray-50 rounded-xl">
+              <div key={index} className="p-6 bg-slate-50 rounded-xl">
                 <h3 className="font-semibold text-gray-900 mb-3">{faq.q}</h3>
                 <p className="text-gray-600 leading-relaxed">{faq.a}</p>
               </div>

@@ -1,14 +1,9 @@
-import Link from "next/link";
-import type { Metadata } from "next";
+"use client";
+
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
-
-export const metadata: Metadata = {
- title: "Why Sundae",
- description:
- "See why leading restaurant groups choose Sundae for Decision Intelligence — unified data, 4D insights, and real-time operational visibility.",
-};
+import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 
 const differentiators: { title: string; description: string; icon: SundaeIconName; color: string }[] = [
  {
@@ -74,46 +69,28 @@ export default function WhySundaePage() {
  return (
  <div className="min-h-screen bg-white">
  {/* Hero Section */}
- <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
- <div className="max-w-7xl mx-auto text-center">
- <h1 className="hero-h1 text-slate-900 mb-6">
- The Gap Between What You Know
- <br />
- <span className="text-gradient">and What You&apos;re Missing</span>
- </h1>
- <p className="body-xl text-slate-600 mb-8 max-w-3xl mx-auto">
- Most operators run on fragmented data, delayed reports, and gut instinct. Sundae closes that gap — with unified data, real-time monitoring, and AI that tells your team exactly what to do next.
- </p>
- <div className="flex flex-col sm:flex-row gap-4 justify-center">
- <Link href="/demo">
- <Button variant="primary" size="lg">
- Book a Demo
- </Button>
- </Link>
- <Link href="/report">
- <Button variant="outline" size="lg">
- Start Free
- </Button>
- </Link>
- </div>
- </div>
- </section>
+ <PageHero
+ badge="Why Sundae"
+ title="The Intelligence Layer Restaurants Never Had"
+ description="See why leading restaurant groups choose Sundae for decision intelligence — unified data, 4D insights, and real-time operational visibility."
+ />
 
  {/* Three Biggest Problems Section */}
  <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
  <div className="max-w-7xl mx-auto">
- <div className="text-center mb-16">
+ <FadeUp className="text-center mb-16">
  <h2 className="section-h2 text-gray-900 mb-4">
  The Three Gaps Costing You Money
  </h2>
  <p className="body-xl text-gray-600 max-w-3xl mx-auto">
- Every restaurant group we've worked with faces the same three challenges
+ Every restaurant group we&apos;ve worked with faces the same three challenges
  </p>
- </div>
+ </FadeUp>
 
  <div className="space-y-12">
  {problems.map((item, index) => (
- <div key={item.problem} className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
+ <FadeUp key={item.problem} delay={index * 0.1}>
+ <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
  <div className={`lg:col-span-1 ${index % 2 === 0 ? 'lg:order-1' : 'lg:order-3'}`}>
  <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-lg shadow-sm">
  <h3 className="text-lg font-semibold text-red-900 mb-3">{item.problem}</h3>
@@ -140,26 +117,28 @@ export default function WhySundaePage() {
  </div>
  </div>
  </div>
+ </FadeUp>
  ))}
  </div>
  </div>
  </section>
 
  {/* Differentiators Section */}
- <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+ <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
  <div className="max-w-7xl mx-auto">
- <div className="text-center mb-16">
+ <FadeUp className="text-center mb-16">
  <h2 className="section-h2 text-gray-900 mb-4">
  What Makes Sundae Different
  </h2>
  <p className="body-xl text-gray-600 max-w-3xl mx-auto">
  Six capabilities that no other platform combines
  </p>
- </div>
+ </FadeUp>
 
- <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+ <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
  {differentiators.map((item) => (
- <Card key={item.title} variant="elevated" className="hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+ <StaggerItem key={item.title}>
+ <Card variant="elevated" className="hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
  <CardHeader>
  <div className="flex items-center space-x-4">
  <div className={`w-12 h-12 ${item.color} rounded-lg flex items-center justify-center text-white`}>
@@ -174,22 +153,25 @@ export default function WhySundaePage() {
  </CardDescription>
  </CardContent>
  </Card>
+ </StaggerItem>
  ))}
- </div>
+ </StaggerContainer>
  </div>
  </section>
 
  {/* How It Compares */}
  <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white">
  <div className="max-w-7xl mx-auto text-center">
+ <FadeUp>
  <h2 className="section-h2 mb-8">
  Beyond Traditional Dashboards
  </h2>
  <p className="body-xl mb-12 max-w-3xl mx-auto opacity-90">
- Most platforms show you what happened. We show you what's happening, what it means, and what to do about it.
+ Most platforms show you what happened. We show you what&apos;s happening, what it means, and what to do about it.
  </p>
+ </FadeUp>
 
- <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+ <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-8">
  {([
  {
  title: "Traditional BI",
@@ -207,7 +189,8 @@ export default function WhySundaePage() {
  icon: "speed" as SundaeIconName
  }
  ]).map((section) => (
- <div key={section.title} className="text-center">
+ <StaggerItem key={section.title}>
+ <div className="text-center">
  <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
  <SundaeIcon name={section.icon} size="xl" className="text-white" />
  </div>
@@ -218,21 +201,22 @@ export default function WhySundaePage() {
  ))}
  </ul>
  </div>
+ </StaggerItem>
  ))}
- </div>
+ </StaggerContainer>
  </div>
  </section>
 
  {/* Who It's For */}
  <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
  <div className="max-w-7xl mx-auto">
- <div className="text-center mb-16">
+ <FadeUp className="text-center mb-16">
  <h2 className="section-h2 text-gray-900 mb-4">
  Built for Every Role in the Organization
  </h2>
- </div>
+ </FadeUp>
 
- <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+ <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
  {([
  {
  title: "Operations Leaders",
@@ -259,7 +243,8 @@ export default function WhySundaePage() {
  color: "bg-orange-600"
  }
  ]).map((role) => (
- <Card key={role.title} variant="elevated">
+ <StaggerItem key={role.title}>
+ <Card variant="elevated">
  <CardHeader>
  <div className="text-center">
  <div className={`w-14 h-14 ${role.color} rounded-full flex items-center justify-center text-white mx-auto mb-4`}>
@@ -272,34 +257,20 @@ export default function WhySundaePage() {
  <p className="text-sm text-gray-600 text-center">{role.description}</p>
  </CardContent>
  </Card>
+ </StaggerItem>
  ))}
- </div>
+ </StaggerContainer>
  </div>
  </section>
 
  {/* CTA Section */}
- <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white">
- <div className="max-w-4xl mx-auto text-center">
- <h2 className="section-h2 mb-6">
- See What You've Been Missing
- </h2>
- <p className="body-xl mb-8 opacity-90">
- 30 minutes. Your data. Real insights. No pitch deck.
- </p>
- <div className="flex flex-col sm:flex-row gap-4 justify-center">
- <Link href="/demo">
- <Button variant="secondary" size="lg" className="bg-white text-slate-900 hover:bg-gray-100">
- Book a Demo
- </Button>
- </Link>
- <Link href="/report">
- <Button variant="outline-light" size="lg">
- Start Free with Report
- </Button>
- </Link>
- </div>
- </div>
- </section>
+ <PageCTA
+ title="See Sundae in Action"
+ description="30 minutes with your data. Real insights. No pitch deck."
+ >
+ <Button variant="cta" size="lg" href="/demo">Book a Demo</Button>
+ <Button variant="outline-light" size="lg" href="/product">Explore Products</Button>
+ </PageCTA>
  </div>
  );
 }

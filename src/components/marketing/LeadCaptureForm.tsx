@@ -145,7 +145,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
  return phoneRegex.test(normalized);
  };
 
- const validateForm = (): boolean => {
+ const validateForm = (): FormErrors => {
  const newErrors: FormErrors = {};
 
  // Name validation
@@ -218,17 +218,18 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
  }
 
  setErrors(newErrors);
- return Object.keys(newErrors).length === 0;
+ return newErrors;
  };
 
- const scrollToFirstError = () => {
- const firstErrorField = Object.keys(errors)[0];
+ const scrollToFirstError = (errorFields?: Record<string, string>) => {
+ const fieldsToCheck = errorFields || errors;
+ const firstErrorField = Object.keys(fieldsToCheck)[0];
  if (firstErrorField && fieldRefs.current[firstErrorField]) {
  fieldRefs.current[firstErrorField]?.scrollIntoView({
  behavior: 'smooth',
  block: 'center',
  });
- 
+
  // Focus the input
  const input = fieldRefs.current[firstErrorField]?.querySelector('input, textarea, select') as HTMLElement;
  input?.focus();
@@ -246,8 +247,9 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
  }
 
  // Validate form
- if (!validateForm()) {
- setTimeout(scrollToFirstError, 100);
+ const validationErrors = validateForm();
+ if (Object.keys(validationErrors).length > 0) {
+ setTimeout(() => scrollToFirstError(validationErrors), 100);
  return;
  }
 

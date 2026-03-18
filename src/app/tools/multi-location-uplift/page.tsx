@@ -167,7 +167,7 @@ export default function MultiLocationUpliftPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-lg p-6">
+ <div className="bg-slate-50 rounded-lg p-6">
  <div className="text-sm font-semibold text-gray-700 mb-3">Key Improvement Areas</div>
  <ul className="space-y-2">
  <li className="flex items-start space-x-2">

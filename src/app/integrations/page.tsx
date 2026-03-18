@@ -1,12 +1,9 @@
-import type { Metadata } from "next";
+"use client";
+
 import Image from "next/image";
 import { SundaeIcon } from "@/components/icons";
-
-export const metadata: Metadata = {
- title: "Integrations",
- description:
- "Connect Sundae to your POS, payroll, inventory, delivery, and reservation systems. 12-domain integration engine with 30+ vendor connections.",
-};
+import { Button } from "@/components/ui/Button";
+import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 
 const integrationCategories = [
  {
@@ -119,37 +116,16 @@ export default function IntegrationsPage() {
  return (
  <div className="min-h-screen bg-white">
  {/* Hero */}
- <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-blue-50">
- <div className="max-w-4xl mx-auto text-center">
- <span className="badge--architecture inline-block mb-4">INTEGRATIONS</span>
- <h1 className="hero-h1 text-gray-900 mb-6">
- All Your Systems. One Intelligence Layer.
- </h1>
- <p className="body-xl text-gray-600 max-w-3xl mx-auto mb-8">
- POS, labor, inventory, delivery, reservations, accounting — Sundae connects 30+ platforms across 12 data domains. Your data flows in automatically. No exports, no manual entry, no waiting.
- </p>
- <a href="/demo" className="btn-primary">
- See Integrations in Action
- </a>
-
- <div className="mt-12 max-w-5xl mx-auto">
- <div className="rounded-xl overflow-hidden shadow-2xl border border-slate-200/60">
- <Image
- src="/images/product/core-integrations.png"
- alt="Sundae integrations — connected restaurant systems"
- width={1200}
- height={700}
- className="w-full h-auto"
+ <PageHero
+ badge="Integrations"
+ title="Connect Everything. Unify Your Data."
+ description="Sundae integrates with 30+ restaurant systems across POS, labor, inventory, reservations, delivery, and more."
  />
- </div>
- </div>
- </div>
- </section>
 
  {/* How It Works */}
  <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white border-b border-slate-100">
  <div className="max-w-5xl mx-auto">
- <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+ <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
  {[
  {
  step: "1",
@@ -167,33 +143,35 @@ export default function IntegrationsPage() {
  description: "Unified data flows into dashboards, alerts, and AI recommendations — no manual exports needed.",
  },
  ].map((item) => (
- <div key={item.step} className="p-6">
+ <StaggerItem key={item.step}>
+ <div className="p-6">
  <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-bold text-lg mx-auto mb-4">
  {item.step}
  </div>
  <h3 className="text-lg font-semibold text-gray-900 mb-2">{item.title}</h3>
  <p className="text-sm text-gray-600">{item.description}</p>
  </div>
+ </StaggerItem>
  ))}
- </div>
+ </StaggerContainer>
  </div>
  </section>
 
  {/* Integration Categories */}
  <section className="py-20 px-4 sm:px-6 lg:px-8">
  <div className="max-w-6xl mx-auto">
- <div className="text-center mb-16">
+ <FadeUp className="text-center mb-16">
  <h2 className="section-h2 text-gray-900 mb-4">
  12 Data Domains. One Unified View.
  </h2>
  <p className="body-lg text-gray-600 max-w-2xl mx-auto">
  POS, labor, inventory, purchasing, reservations, delivery, marketing, guest experience, CRM, accounting, and daily sales summaries — all connected.
  </p>
- </div>
+ </FadeUp>
 
  <div className="space-y-12">
  {integrationCategories.map((cat) => (
- <div key={cat.category}>
+ <FadeUp key={cat.category}>
  <div className="flex items-center gap-3 mb-6">
  <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center text-white shadow">
  <SundaeIcon name={cat.icon} size="md" className="text-white" />
@@ -209,17 +187,18 @@ export default function IntegrationsPage() {
  {cat.status}
  </span>
  </div>
- <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+ <StaggerContainer className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
  {cat.systems.map((system) => (
+ <StaggerItem key={system}>
  <div
- key={system}
  className="px-4 py-3 rounded-xl border border-slate-200 bg-white text-sm font-medium text-gray-700 text-center hover:border-blue-300 transition-colors"
  >
  {system}
  </div>
+ </StaggerItem>
  ))}
- </div>
- </div>
+ </StaggerContainer>
+ </FadeUp>
  ))}
  </div>
 
@@ -244,16 +223,17 @@ export default function IntegrationsPage() {
  {/* Webhooks & Public API */}
  <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
  <div className="max-w-5xl mx-auto">
- <div className="text-center mb-12">
+ <FadeUp className="text-center mb-12">
  <h2 className="section-h2 text-gray-900 mb-4">
  Webhooks & Public API
  </h2>
  <p className="body-lg text-gray-600 max-w-3xl mx-auto">
  Build custom integrations with Sundae&apos;s developer tools.
  </p>
- </div>
+ </FadeUp>
 
- <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+ <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
+ <StaggerItem>
  <div className="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm">
  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-4">
  <SundaeIcon name="integration" size="lg" className="text-white" />
@@ -277,7 +257,9 @@ export default function IntegrationsPage() {
  </li>
  </ul>
  </div>
+ </StaggerItem>
 
+ <StaggerItem>
  <div className="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm">
  <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mb-4">
  <SundaeIcon name="data" size="lg" className="text-white" />
@@ -301,29 +283,19 @@ export default function IntegrationsPage() {
  </li>
  </ul>
  </div>
- </div>
+ </StaggerItem>
+ </StaggerContainer>
  </div>
  </section>
 
- {/* Missing Integration CTA */}
- <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
- <div className="max-w-3xl mx-auto text-center">
- <h2 className="section-h2 text-gray-900 mb-4">
- Don&apos;t See Your System?
- </h2>
- <p className="body-lg text-gray-600 mb-8">
- We add new integrations regularly. Use our webhook system to connect any HTTP-capable system, or request a custom integration for Enterprise.
- </p>
- <div className="flex flex-col sm:flex-row gap-4 justify-center">
- <a href="/contact" className="btn-primary">
- Request an Integration
- </a>
- <a href="/product/scout" className="btn-tertiary">
- Learn About Scout (Data Layer)
- </a>
- </div>
- </div>
- </section>
+ {/* Missing Integration CTA → PageCTA */}
+ <PageCTA
+ title="Ready to Connect Your Systems?"
+ description="Book a demo and see how Sundae unifies your data in minutes."
+ >
+ <Button variant="cta" size="lg" href="/demo">Book a Demo</Button>
+ <Button variant="outline-light" size="lg" href="/product">Explore Products</Button>
+ </PageCTA>
  </div>
  );
 }

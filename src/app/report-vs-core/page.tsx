@@ -228,7 +228,7 @@ export default function ReportVsCorePage() {
                 <Card variant="elevated" className="overflow-hidden">
                   <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-gray-200">
                     {/* Category */}
-                    <div className="p-6 bg-gray-50 flex items-center space-x-4">
+                    <div className="p-6 bg-slate-50 flex items-center space-x-4">
                       <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
                         <SundaeIcon name={item.icon} size="lg" className="text-white" />
                       </div>

@@ -154,7 +154,7 @@ export default function BenchmarkReadinessPage() {
  </label>
  <div className="space-y-2">
  {q.options.map((option) => (
- <label key={option.value} className="flex items-center space-x-3 p-3 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer">
+ <label key={option.value} className="flex items-center space-x-3 p-3 border border-gray-200 rounded-lg hover:bg-slate-50 cursor-pointer">
  <input
  type="radio"
  name={q.id}
@@ -193,7 +193,7 @@ export default function BenchmarkReadinessPage() {
  </div>
  </div>
 
- <div className="bg-gray-50 rounded-lg p-6">
+ <div className="bg-slate-50 rounded-lg p-6">
  <div className="text-sm font-semibold text-gray-700 mb-3">Recommendations</div>
  <ul className="space-y-2">
  {result.recommendations.map((rec, idx) => (

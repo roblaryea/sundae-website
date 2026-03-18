@@ -441,7 +441,7 @@ export default function PrivacyPage() {
                 <p className="text-gray-700 mb-4">
                   If you have any questions about this Privacy Policy or our privacy practices, please contact us:
                 </p>
-                <div className="bg-gray-50 p-4 rounded-lg">
+                <div className="bg-slate-50 p-4 rounded-lg">
                   <p className="text-gray-700">
                     <strong>Sundae Technologies Inc.</strong><br />
                     1007 N Orange St, 4th Floor, Suite 1382<br />
@@ -459,7 +459,7 @@ export default function PrivacyPage() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">
             Questions About Your Privacy?

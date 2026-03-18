@@ -48,8 +48,8 @@ export default function DocumentationPage() {
       ]
     },
     {
-      title: "Sundae Core",
-      description: "Leverage AI-powered alerts and contextual intelligence",
+      title: "Pulse & Watchtower",
+      description: "Leverage real-time alerts and external market intelligence",
       icon: "insights",
       color: "bg-orange-600",
       topics: [
@@ -61,7 +61,7 @@ export default function DocumentationPage() {
       ]
     },
     {
-      title: "Sundae Core",
+      title: "Insights & Dashboards",
       description: "Build and customize dashboards for every team",
       icon: "chart",
       color: "bg-indigo-600",

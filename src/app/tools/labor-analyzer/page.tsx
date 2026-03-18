@@ -157,7 +157,7 @@ export default function LaborAnalyzerPage() {
  )}
  </div>
 
- <div className="bg-gray-50 rounded-lg p-6">
+ <div className="bg-slate-50 rounded-lg p-6">
  <div className="text-sm font-semibold text-gray-700 mb-2">Recommendation</div>
  <p className="text-gray-600">{result.recommendation}</p>
  </div>

@@ -93,7 +93,7 @@ export default function BenchmarkingPage() {
  </section>
 
  {/* Benchmark Metrics */}
- <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+ <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
  <div className="max-w-7xl mx-auto">
  <FadeUp className="text-center mb-16">
  <h2 className="section-h2 text-gray-900 mb-4">
@@ -154,7 +154,7 @@ export default function BenchmarkingPage() {
  </section>
 
  {/* Tiers */}
- <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+ <section className="py-16 px-4 sm:px-6 lg:px-8 bg-slate-50">
  <div className="max-w-5xl mx-auto text-center">
  <FadeUp>
  <h2 className="section-h2 text-gray-900 mb-4">
