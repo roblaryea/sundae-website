@@ -49,8 +49,8 @@ export default function BenchmarkingPage() {
  {/* Hero */}
  <PageHero
  badge="Competitive Intelligence"
- title="Know Where You Stand"
- description="Compare your performance against anonymized peer data. RevPASH Index, seat occupancy, average check, and revenue indexes — with AI-generated insights."
+ title="Stop Guessing. Start Knowing."
+ description="Is your 31% food cost good or bad? Compare against anonymized peer data &mdash; RevPASH Index, seat occupancy, average check, and revenue indexes &mdash; with AI-generated insights that tell you exactly where you stand."
  >
  <div className="flex flex-col sm:flex-row gap-3 justify-center">
  <Button variant="cta" size="lg" href={REPORT_APP_URL} onClick={() => cta(REPORT_APP_URL, "try_benchmarks_hero", { page: "/benchmarking" })}>

@@ -83,6 +83,14 @@
   background-clip: text;
 }
 
+.text-accent-gradient,
+.accent-gradient {
+  background: linear-gradient(135deg, #0A1E8C, #1C47FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 .neon-glow {
   text-shadow: 0 0 10px currentColor, 0 0 20px currentColor, 0 0 30px currentColor;
 }

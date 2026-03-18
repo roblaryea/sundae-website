@@ -140,9 +140,9 @@ export default function ChatWithDataPage() {
     <div className="min-h-screen bg-white">
       {/* Hero */}
       <PageHero
-        badge="AI-Powered Decision Intelligence"
-        title="Ask Your Data Anything. Get Restaurant Answers."
-        description="Skip the dashboards. Ask a question in plain English and get structured, visual answers — powered by your POS, inventory, labor, and delivery data in real time."
+        badge="Sundae Intelligence"
+        title="Ask Your Data Anything. Get Answers in Seconds."
+        description="Talk to your data like you\u2019d talk to your best analyst. Natural language questions, structured visual answers \u2014 powered by your POS, inventory, labor, and delivery data in real time."
       >
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Button variant="cta" size="lg" onClick={() => cta(SIGNUP_URL, "try_intelligence_hero", { page: "/intelligence" })}>

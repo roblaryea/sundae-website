@@ -24,8 +24,8 @@ const pillars: {
 }[] = [
   {
     name: "Pulse",
-    tagline: "Intraday Operations Monitor",
-    description: "Real-time sales pacing, labor tracking, leakage detection, menu intelligence, and AI coaching — shift by shift, outlet by outlet. The operational nerve center for multi-unit operators.",
+    tagline: "Real-Time Operations",
+    description: "A shift is a perishable asset \u2014 once it\u2019s over, the revenue is gone. Pulse gives you live sales pacing, adaptive AI targets, leakage detection, and AI coaching \u2014 shift by shift, outlet by outlet.",
     icon: "pulse",
     screenshot: "/images/product/pulse-scorecard.png",
     screenshotAlt: "Pulse shift scorecard showing revenue, covers, top items, and server performance",
@@ -37,7 +37,7 @@ const pillars: {
   {
     name: "Benchmarks",
     tagline: "Competitive Intelligence",
-    description: "Compare your performance against anonymized peer data. RevPASH Index, seat occupancy, average check, and revenue indexes — with trend analysis and AI-generated insights.",
+    description: "Is your 31% food cost good or bad? Stop guessing. Compare against anonymized peer data \u2014 RevPASH Index, seat occupancy, average check, and revenue indexes \u2014 with AI-generated insights.",
     icon: "benchmarking",
     screenshot: "/images/product/benchmark-overview.png",
     screenshotAlt: "Benchmark dashboard with RevPASH Index, seat occupancy, and competitive comparison",
@@ -48,8 +48,8 @@ const pillars: {
   },
   {
     name: "Watchtower",
-    tagline: "External Market Intelligence",
-    description: "See outside your four walls. Monitor competitor activity, weather revenue impact, local events, and market signals. Get AI-powered daily briefings that connect external context to your operations.",
+    tagline: "Market Intelligence",
+    description: "A new competitor opened 2 blocks away \u2014 you found out on Instagram. Watchtower gives you competitor monitoring, weather revenue impact, event intelligence, and AI daily briefings before the impact hits.",
     icon: "watchtower",
     screenshot: "/images/product/watchtower.png",
     screenshotAlt: "Watchtower command center with weather impact, events, and competitor tracking",
@@ -72,8 +72,8 @@ const pillars: {
   },
   {
     name: "Sundae Intelligence",
-    tagline: "AI-Powered Decision Intelligence",
-    description: "Ask questions in natural language and get answers backed by your real operational data. Available in Chat, Monitor, and Briefing modes — on web, Telegram, Slack, and Microsoft Teams.",
+    tagline: "Conversational AI Analytics",
+    description: "Talk to your data like you\u2019d talk to your best analyst. Ask questions in plain language and get answers backed by your real operational data \u2014 on web, Telegram, Slack, and Microsoft Teams.",
     icon: "conversation",
     screenshot: "/images/product/chat-with-data.png",
     screenshotAlt: "Sundae Intelligence interface with conversational analytics",
@@ -94,8 +94,8 @@ export default function ProductPage() {
       {/* Hero Section */}
       <PageHero
         badge="The Sundae Platform"
-        title="Decision Intelligence for Restaurants"
-        description="Five intelligence pillars that turn fragmented data into operational clarity. Start free with Report, scale to real-time intelligence with Core."
+        title="Five Layers. One Truth."
+        description="Restaurant operators make million-dollar decisions on fragmented data. Sundae\u2019s five intelligence layers turn disconnected systems into operational clarity."
       >
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Button variant="cta" size="lg" onClick={() => cta(REPORT_APP_URL, "start_free_product_hero", { page: "/product" })}>
@@ -221,11 +221,11 @@ export default function ProductPage() {
       </section>
 
       {/* All Product Pillars */}
-      <section ref={gridRef} className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-blue-50/30">
+      <section ref={gridRef} className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <p className="text-xs font-semibold tracking-[0.18em] uppercase text-slate-500 mb-4">
+              <p className="eyebrow text-blue-600 mb-4">
                 PRODUCT PILLARS
               </p>
               <h2 className="section-h2 text-slate-900 mb-4">
@@ -301,7 +301,7 @@ export default function ProductPage() {
         <div className="max-w-5xl mx-auto">
           <FadeUp>
             <div className="text-center mb-12">
-              <p className="text-xs font-semibold tracking-[0.18em] uppercase text-slate-500 mb-4">
+              <p className="eyebrow text-blue-600 mb-4">
                 PLATFORM
               </p>
               <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-4">
@@ -342,7 +342,7 @@ export default function ProductPage() {
 
       {/* CTA Section */}
       <PageCTA
-        title="See Your Data in Action"
+        title="Stop reconciling. Start deciding."
         description="30 minutes with your data. Real insights. No pitch deck."
       >
         <Button variant="cta" size="lg" href="/demo">Book a Demo</Button>
