@@ -172,13 +172,13 @@ export default function ReportProductPage() {
               <SundaeIcon name="report" size="md" />
               <span>Sundae Report</span>
             </div>
-            <h1 className="hero-h1 text-gray-900 mb-6">
+            <h1 className="hero-h1 text-slate-900 mb-6">
               Know Where You Stand. See Where to Go.
             </h1>
-            <p className="body-xl text-gray-600 mb-4 max-w-4xl mx-auto">
+            <p className="body-xl text-slate-600 mb-4 max-w-4xl mx-auto">
               Upload your data. Instantly benchmark against restaurants like yours. Spot the margins you're leaving on the table — and build the case for what's next.
             </p>
-            <p className="body-lg text-gray-500 mb-8 max-w-3xl mx-auto">
+            <p className="body-lg text-slate-500 mb-8 max-w-3xl mx-auto">
               Free forever. No credit card. No commitment. Just clarity.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
@@ -206,10 +206,10 @@ export default function ReportProductPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="section-h2 text-gray-900 mb-4">
+            <h2 className="section-h2 text-slate-900 mb-4">
               Your Historical Intelligence Layer
             </h2>
-            <p className="body-lg text-gray-600 max-w-3xl mx-auto">
+            <p className="body-lg text-slate-600 max-w-3xl mx-auto">
               Sundae Report is your historical intelligence layer — the foundation of decision intelligence for restaurants. Whether you're testing Sundae for the first time or running deep historical analysis across dozens of locations, Report gives you the clarity to understand what happened, why it matters, and where you stand against the market.
             </p>
           </div>
@@ -219,20 +219,20 @@ export default function ReportProductPage() {
               <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="intelligence" size="lg" className="text-white" />
               </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Beyond Dashboards</h3>
-              <p className="text-sm text-gray-600">We don't just show numbers. We tell you what they mean, why they matter, and what to do about them.</p>
+              <h3 className="font-semibold text-slate-900 mb-2">Beyond Dashboards</h3>
+              <p className="text-sm text-slate-600">We don't just show numbers. We tell you what they mean, why they matter, and what to do about them.</p>
             </div>
             <div className="text-center p-6 bg-purple-50/70 rounded-xl">
               <div className="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="benchmarking" size="lg" className="text-white" />
               </div>
-              <h3 className="font-semibold text-gray-900 mb-2">True Benchmarking</h3>
-              <p className="text-sm text-gray-600">Compare against restaurants like yours — by cuisine, size, and market — not generic industry averages.</p>
+              <h3 className="font-semibold text-slate-900 mb-2">True Benchmarking</h3>
+              <p className="text-sm text-slate-600">Compare against restaurants like yours — by cuisine, size, and market — not generic industry averages.</p>
             </div>
             <div className="text-center p-6 bg-purple-50/50 rounded-xl">
               <div className="w-10 h-10 mx-auto mb-3 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center"><SundaeIcon name="success" size="lg" className="text-white" /></div>
-              <h3 className="font-semibold text-gray-900 mb-2">Zero Risk Entry</h3>
-              <p className="text-sm text-gray-600">Report Lite is free forever. Prove the value with your own data before you invest a dollar.</p>
+              <h3 className="font-semibold text-slate-900 mb-2">Zero Risk Entry</h3>
+              <p className="text-sm text-slate-600">Report Lite is free forever. Prove the value with your own data before you invest a dollar.</p>
             </div>
           </div>
         </div>
@@ -245,10 +245,10 @@ export default function ReportProductPage() {
             <p className="text-xs font-semibold tracking-[0.18em] uppercase text-slate-500 mb-4">
               CHOOSE YOUR TIER
             </p>
-            <h2 className="section-h2 text-gray-900 mb-4">
+            <h2 className="section-h2 text-slate-900 mb-4">
               Three Tiers for Every Stage
             </h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
               Start free. Upgrade when it makes sense. Scale as you grow.
             </p>
           </div>
@@ -272,9 +272,9 @@ export default function ReportProductPage() {
                     </div>
                   )}
                   <CardHeader className="pt-8">
-                    <CardTitle className="text-2xl text-gray-900 mb-2">{tier.name}</CardTitle>
-                    <p className="text-sm font-semibold text-gray-700 mb-3">{tier.subtitle}</p>
-                    <CardDescription className="text-gray-600 leading-relaxed mb-6">
+                    <CardTitle className="text-2xl text-slate-900 mb-2">{tier.name}</CardTitle>
+                    <p className="text-sm font-semibold text-slate-700 mb-3">{tier.subtitle}</p>
+                    <CardDescription className="text-slate-600 leading-relaxed mb-6">
                       {tier.description}
                     </CardDescription>
                   </CardHeader>
@@ -283,13 +283,13 @@ export default function ReportProductPage() {
                       {tier.features.map((feature, idx) => (
                         <li key={idx} className="flex items-start space-x-2">
                           <span className="text-green-500 mt-1">✓</span>
-                          <span className="text-sm text-gray-600">{feature}</span>
+                          <span className="text-sm text-slate-600">{feature}</span>
                         </li>
                       ))}
                     </ul>
                     <div className="p-4 bg-slate-50 rounded-lg mb-6">
-                      <p className="text-xs font-semibold text-gray-500 uppercase mb-1">Best for:</p>
-                      <p className="text-sm text-gray-700">{tier.bestFor}</p>
+                      <p className="text-xs font-semibold text-slate-500 uppercase mb-1">Best for:</p>
+                      <p className="text-sm text-slate-700">{tier.bestFor}</p>
                     </div>
                     {tier.link.startsWith('http') ? (
                       <a href={tier.link} target="_blank" rel="noopener noreferrer" className="block">
@@ -319,10 +319,10 @@ export default function ReportProductPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
+            <h2 className="section-h2 text-slate-900 mb-4">
               The 4D Intelligence Model (Report Tier)
             </h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
               Report delivers: <span className="font-semibold text-green-600">Full (1D + 2D)</span> + <span className="font-semibold text-blue-600">Limited (3D + 4D)</span>
             </p>
           </div>
@@ -342,13 +342,13 @@ export default function ReportProductPage() {
                       <div className={`inline-flex w-16 h-16 bg-gradient-to-br ${dim.color} rounded-full items-center justify-center text-white mb-3 shadow-lg`}>
                         <SundaeIcon name={dim.icon} size="xl" className="text-white" />
                       </div>
-                      <div className="text-3xl font-bold text-gray-900 mb-1">{dim.dimension}</div>
-                      <CardTitle className="text-lg text-gray-900 mb-2">{dim.title}</CardTitle>
+                      <div className="text-3xl font-bold text-slate-900 mb-1">{dim.dimension}</div>
+                      <CardTitle className="text-lg text-slate-900 mb-2">{dim.title}</CardTitle>
                       <span className={`inline-block px-3 py-1 rounded-full text-xs font-semibold ${dim.status.includes('Full') ? 'bg-green-100 text-green-800' : 'bg-blue-100 text-blue-800'}`}>
                         {dim.status}
                       </span>
                     </div>
-                    <CardDescription className="text-gray-600 leading-relaxed text-center text-sm">
+                    <CardDescription className="text-slate-600 leading-relaxed text-center text-sm">
                       {dim.description}
                     </CardDescription>
                   </CardHeader>
@@ -363,10 +363,10 @@ export default function ReportProductPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
+            <h2 className="section-h2 text-slate-900 mb-4">
               When to Upgrade from Report to Core
             </h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
               Signs you're ready for real-time intelligence
             </p>
           </div>
@@ -385,8 +385,8 @@ export default function ReportProductPage() {
                     <SundaeIcon name={signal.icon} size="lg" className="text-white" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-gray-900 mb-2">{signal.title}</h3>
-                    <p className="text-sm text-gray-600 leading-relaxed">{signal.description}</p>
+                    <h3 className="font-semibold text-slate-900 mb-2">{signal.title}</h3>
+                    <p className="text-sm text-slate-600 leading-relaxed">{signal.description}</p>
                   </div>
                 </div>
               </motion.div>
@@ -411,7 +411,7 @@ export default function ReportProductPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
+            <h2 className="section-h2 text-slate-900 mb-4">
               Frequently Asked Questions
             </h2>
           </div>
@@ -419,8 +419,8 @@ export default function ReportProductPage() {
           <div className="space-y-6">
             {faqs.map((faq, index) => (
               <div key={index} className="p-6 bg-slate-50/70 rounded-xl">
-                <h3 className="font-semibold text-gray-900 mb-3">{faq.q}</h3>
-                <p className="text-gray-600 leading-relaxed">{faq.a}</p>
+                <h3 className="font-semibold text-slate-900 mb-3">{faq.q}</h3>
+                <p className="text-slate-600 leading-relaxed">{faq.a}</p>
               </div>
             ))}
           </div>

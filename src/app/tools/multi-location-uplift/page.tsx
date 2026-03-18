@@ -54,7 +54,7 @@ export default function MultiLocationUpliftPage() {
  };
 
  return (
- <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50 py-32 px-4 sm:px-6 lg:px-8">
+ <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50 py-32 px-4 sm:px-6 lg:px-8">
  <div className="max-w-4xl mx-auto">
  <Link href="/tools" className="inline-flex items-center text-blue-600 hover:text-blue-700 mb-6">
  ← Back to Tools
@@ -65,10 +65,10 @@ export default function MultiLocationUpliftPage() {
  <SundaeIcon name="performance" size="md" />
  <span>Multi-Location Uplift</span>
  </div>
- <h1 className="hero-h1 text-gray-900 mb-4">
+ <h1 className="hero-h1 text-slate-900 mb-4">
  Multi-Location Revenue Uplift Estimator
  </h1>
- <p className="body-xl text-gray-600">
+ <p className="body-xl text-slate-600">
  Calculate the potential revenue impact of operational improvements across multiple locations
  </p>
  </div>
@@ -81,7 +81,7 @@ export default function MultiLocationUpliftPage() {
  <CardContent>
  <div className="space-y-6">
  <div>
- <label className="block text-sm font-medium text-gray-700 mb-2">
+ <label className="block text-sm font-medium text-slate-700 mb-2">
  Number of Locations
  </label>
  <input
@@ -89,12 +89,12 @@ export default function MultiLocationUpliftPage() {
  value={locations}
  onChange={(e) => setLocations(e.target.value)}
  placeholder="e.g., 10"
- className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
+ className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500"
  />
  </div>
 
  <div>
- <label className="block text-sm font-medium text-gray-700 mb-2">
+ <label className="block text-sm font-medium text-slate-700 mb-2">
  Average Monthly Revenue per Location ($)
  </label>
  <input
@@ -102,12 +102,12 @@ export default function MultiLocationUpliftPage() {
  value={avgRevenue}
  onChange={(e) => setAvgRevenue(e.target.value)}
  placeholder="e.g., 50000"
- className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
+ className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500"
  />
  </div>
 
  <div>
- <label className="block text-sm font-medium text-gray-700 mb-2">
+ <label className="block text-sm font-medium text-slate-700 mb-2">
  Target Improvement (%)
  </label>
  <input
@@ -116,9 +116,9 @@ export default function MultiLocationUpliftPage() {
  onChange={(e) => setTargetImprovement(e.target.value)}
  placeholder="e.g., 5"
  step="0.1"
- className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
+ className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500"
  />
- <p className="text-xs text-gray-500 mt-1">
+ <p className="text-xs text-slate-500 mt-1">
  Typical improvements range from 2-10% with systematic optimization
  </p>
  </div>
@@ -138,29 +138,29 @@ export default function MultiLocationUpliftPage() {
  <CardContent className="space-y-6">
  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
  <div className="bg-blue-50 rounded-lg p-6">
- <div className="text-sm text-gray-600 mb-2">Current Annual Revenue</div>
- <div className="section-h3 text-gray-900">
+ <div className="text-sm text-slate-600 mb-2">Current Annual Revenue</div>
+ <div className="section-h3 text-slate-900">
  ${(result.totalRevenue / 1000000).toFixed(2)}M
  </div>
  </div>
 
  <div className="bg-purple-50 rounded-lg p-6">
- <div className="text-sm text-gray-600 mb-2">Potential Annual Uplift</div>
+ <div className="text-sm text-slate-600 mb-2">Potential Annual Uplift</div>
  <div className="text-3xl font-bold text-purple-600">
  ${(result.upliftRevenue / 1000000).toFixed(2)}M
  </div>
  </div>
 
  <div className="bg-green-50 rounded-lg p-6">
- <div className="text-sm text-gray-600 mb-2">Uplift Per Location</div>
+ <div className="text-sm text-slate-600 mb-2">Uplift Per Location</div>
  <div className="text-3xl font-bold text-green-600">
  ${(result.perLocation / 1000).toFixed(1)}K
  </div>
- <div className="text-xs text-gray-500 mt-1">per year</div>
+ <div className="text-xs text-slate-500 mt-1">per year</div>
  </div>
 
  <div className="bg-orange-50 rounded-lg p-6">
- <div className="text-sm text-gray-600 mb-2">Expected Timeframe</div>
+ <div className="text-sm text-slate-600 mb-2">Expected Timeframe</div>
  <div className="text-lg font-semibold text-orange-600">
  {result.timeframe}
  </div>
@@ -168,29 +168,29 @@ export default function MultiLocationUpliftPage() {
  </div>
 
  <div className="bg-slate-50 rounded-lg p-6">
- <div className="text-sm font-semibold text-gray-700 mb-3">Key Improvement Areas</div>
+ <div className="text-sm font-semibold text-slate-700 mb-3">Key Improvement Areas</div>
  <ul className="space-y-2">
  <li className="flex items-start space-x-2">
  <span className="text-purple-600 mt-1">•</span>
- <span className="text-gray-600">
+ <span className="text-slate-600">
  <strong>Labor Optimization:</strong> Improve scheduling efficiency and reduce overtime (2-4% impact)
  </span>
  </li>
  <li className="flex items-start space-x-2">
  <span className="text-purple-600 mt-1">•</span>
- <span className="text-gray-600">
+ <span className="text-slate-600">
  <strong>Menu Engineering:</strong> Optimize pricing and promote high-margin items (1-3% impact)
  </span>
  </li>
  <li className="flex items-start space-x-2">
  <span className="text-purple-600 mt-1">•</span>
- <span className="text-gray-600">
+ <span className="text-slate-600">
  <strong>Operational Excellence:</strong> Reduce waste, improve inventory management (1-2% impact)
  </span>
  </li>
  <li className="flex items-start space-x-2">
  <span className="text-purple-600 mt-1">•</span>
- <span className="text-gray-600">
+ <span className="text-slate-600">
  <strong>Location Benchmarking:</strong> Replicate best practices from top performers (2-5% impact)
  </span>
  </li>
@@ -198,7 +198,7 @@ export default function MultiLocationUpliftPage() {
  </div>
 
  <div className="bg-blue-50 rounded-lg p-4">
- <p className="text-sm text-gray-700">
+ <p className="text-sm text-slate-700">
  <strong>Note:</strong> These estimates are based on industry benchmarks. Actual results depend on current performance levels, 
  market conditions, and execution quality. Sundae helps identify and track opportunities across all locations.
  </p>
@@ -208,7 +208,7 @@ export default function MultiLocationUpliftPage() {
  )}
 
  <div className="mt-12 text-center">
- <p className="text-gray-600 mb-6">
+ <p className="text-slate-600 mb-6">
  Want to identify specific improvement opportunities across your locations?
  </p>
  <Link href="/demo">

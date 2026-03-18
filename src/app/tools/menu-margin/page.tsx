@@ -57,7 +57,7 @@ export default function MenuMarginCalculator() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
       <div className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">
           {/* Back Button */}
@@ -72,10 +72,10 @@ export default function MenuMarginCalculator() {
             <div className="w-20 h-20 bg-slate-900 rounded-2xl flex items-center justify-center text-white mx-auto mb-6 shadow-lg">
               <SundaeIcon name="chart" size="xl" className="text-white" />
             </div>
-            <h1 className="hero-h1 text-gray-900 mb-4">
+            <h1 className="hero-h1 text-slate-900 mb-4">
               Menu Item Margin Calculator
             </h1>
-            <p className="body-lg text-gray-600">
+            <p className="body-lg text-slate-600">
               Analyze menu item profitability with margin calculations and pricing recommendations
             </p>
           </div>
@@ -83,16 +83,16 @@ export default function MenuMarginCalculator() {
           {/* Calculator Card */}
           <Card variant="elevated" className="mb-8">
             <CardHeader>
-              <CardTitle className="text-2xl text-gray-900">
+              <CardTitle className="text-2xl text-slate-900">
                 Enter Item Details
               </CardTitle>
-              <CardDescription className="text-gray-600">
+              <CardDescription className="text-slate-600">
                 Input the selling price and ingredient cost for your menu item
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
+                <label className="block text-sm font-medium text-slate-700 mb-2">
                   Selling Price
                 </label>
                 <input
@@ -100,17 +100,17 @@ export default function MenuMarginCalculator() {
                   value={sellingPrice}
                   onChange={(e) => setSellingPrice(e.target.value)}
                   placeholder="e.g., 18.50"
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:ring-2 focus:ring-slate-400 focus:border-transparent"
+                  className="w-full px-4 py-3 rounded-lg border border-slate-300 bg-white text-slate-900 focus:ring-2 focus:ring-slate-400 focus:border-transparent"
                   min="0"
                   step="0.01"
                 />
-                <p className="text-xs text-gray-500 mt-1">
+                <p className="text-xs text-slate-500 mt-1">
                   Menu price charged to customers
                 </p>
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
+                <label className="block text-sm font-medium text-slate-700 mb-2">
                   Ingredient Cost
                 </label>
                 <input
@@ -118,11 +118,11 @@ export default function MenuMarginCalculator() {
                   value={ingredientCost}
                   onChange={(e) => setIngredientCost(e.target.value)}
                   placeholder="e.g., 6.20"
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:ring-2 focus:ring-slate-400 focus:border-transparent"
+                  className="w-full px-4 py-3 rounded-lg border border-slate-300 bg-white text-slate-900 focus:ring-2 focus:ring-slate-400 focus:border-transparent"
                   min="0"
                   step="0.01"
                 />
-                <p className="text-xs text-gray-500 mt-1">
+                <p className="text-xs text-slate-500 mt-1">
                   Total cost of ingredients per item
                 </p>
               </div>
@@ -145,7 +145,7 @@ export default function MenuMarginCalculator() {
               <CardContent className="p-8">
                 <div className="grid md:grid-cols-2 gap-6 mb-6">
                   <div className="text-center p-6 bg-white rounded-xl shadow-md">
-                    <h3 className="text-sm font-semibold text-gray-600 mb-2">
+                    <h3 className="text-sm font-semibold text-slate-600 mb-2">
                       Gross Profit Per Item
                     </h3>
                     <div className="text-4xl font-bold text-slate-900">
@@ -154,7 +154,7 @@ export default function MenuMarginCalculator() {
                   </div>
                   
                   <div className="text-center p-6 bg-white rounded-xl shadow-md">
-                    <h3 className="text-sm font-semibold text-gray-600 mb-2">
+                    <h3 className="text-sm font-semibold text-slate-600 mb-2">
                       Margin %
                     </h3>
                     <div className="text-4xl font-bold text-slate-900">
@@ -169,10 +169,10 @@ export default function MenuMarginCalculator() {
                 </div>
 
                 <div className="mt-6 p-4 bg-white rounded-lg">
-                  <h5 className="font-semibold text-gray-900 mb-2 text-sm">
+                  <h5 className="font-semibold text-slate-900 mb-2 text-sm">
                     Margin Benchmarks:
                   </h5>
-                  <ul className="text-sm text-gray-700 space-y-1">
+                  <ul className="text-sm text-slate-700 space-y-1">
                     <li>• &lt; 55%: Below target (review pricing or reduce costs)</li>
                     <li>• 55-70%: Healthy range for most menu items</li>
                     <li>• &gt; 70%: Strong margin (premium positioning)</li>

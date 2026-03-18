@@ -14,10 +14,10 @@ export default function DemoPage() {
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
         <div className="max-w-4xl mx-auto text-center">
           <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase text-slate-500 mb-4">BOOK A DEMO</span>
-          <h1 className="hero-h1 text-gray-900 mb-6">
+          <h1 className="hero-h1 text-slate-900 mb-6">
             30 Minutes. Your Data. Real Answers.
           </h1>
-          <p className="body-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+          <p className="body-xl text-slate-600 mb-8 max-w-3xl mx-auto">
             We&apos;ll connect to your POS, show you what your numbers actually mean, and let you decide if it&apos;s worth your time. No slides. No pitch deck. Just your restaurant, on screen.
           </p>
         </div>
@@ -27,10 +27,10 @@ export default function DemoPage() {
       <section id="demo-form" className="py-20 px-4 sm:px-6 lg:px-8 bg-white border-b border-slate-100">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="section-h2 text-gray-900 mb-4">
+            <h2 className="section-h2 text-slate-900 mb-4">
               Request Your Demo
             </h2>
-            <p className="body-lg text-gray-600">
+            <p className="body-lg text-slate-600">
               Tell us about your operation and we&apos;ll tailor the session to your priorities
             </p>
           </div>
@@ -46,10 +46,10 @@ export default function DemoPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
+            <h2 className="section-h2 text-slate-900 mb-4">
               What You&apos;ll See
             </h2>
-            <p className="body-lg text-gray-600">
+            <p className="body-lg text-slate-600">
               A focused walkthrough built around your operation
             </p>
           </div>
@@ -79,13 +79,13 @@ export default function DemoPage() {
                 <div className="w-12 h-12 mb-5 bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl flex items-center justify-center">
                   <SundaeIcon name={benefit.icon} size="lg" className="text-white" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">{benefit.title}</h3>
-                <p className="text-sm text-gray-600 mb-5">{benefit.description}</p>
+                <h3 className="text-lg font-semibold text-slate-900 mb-2">{benefit.title}</h3>
+                <p className="text-sm text-slate-600 mb-5">{benefit.description}</p>
                 <ul className="space-y-2">
                   {benefit.details.map((detail, detailIndex) => (
                     <li key={detailIndex} className="flex items-center space-x-2">
                       <span className="text-slate-400 text-xs">&#10003;</span>
-                      <span className="text-gray-600 text-sm">{detail}</span>
+                      <span className="text-slate-600 text-sm">{detail}</span>
                     </li>
                   ))}
                 </ul>
@@ -99,7 +99,7 @@ export default function DemoPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="section-h2 text-gray-900 mb-4">
+            <h2 className="section-h2 text-slate-900 mb-4">
               Why Operators Take the Call
             </h2>
           </div>
@@ -111,8 +111,8 @@ export default function DemoPage() {
               { stat: "24 hr", label: "Most demos scheduled within one business day" },
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-4 p-5 rounded-xl bg-slate-50 border border-slate-100">
-                <span className="text-lg font-bold text-gray-900 whitespace-nowrap">{item.stat}</span>
-                <span className="text-sm text-gray-600">{item.label}</span>
+                <span className="text-lg font-bold text-slate-900 whitespace-nowrap">{item.stat}</span>
+                <span className="text-sm text-slate-600">{item.label}</span>
               </div>
             ))}
           </div>

@@ -78,10 +78,10 @@ export default function SecurityPage() {
         <section className="py-20 px-4 sm:px-6 lg:px-8">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="section-h2 text-gray-900 mb-4">
+              <h2 className="section-h2 text-slate-900 mb-4">
                 Security Architecture
               </h2>
-              <p className="body-lg text-gray-600 max-w-2xl mx-auto">
+              <p className="body-lg text-slate-600 max-w-2xl mx-auto">
                 Six pillars that protect your data from ingestion to insight.
               </p>
             </div>
@@ -95,10 +95,10 @@ export default function SecurityPage() {
                   <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center text-white mb-4 shadow-lg">
                     <SundaeIcon name={pillar.icon} size="lg" className="text-white" />
                   </div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                  <h3 className="text-lg font-semibold text-slate-900 mb-2">
                     {pillar.title}
                   </h3>
-                  <p className="text-sm text-gray-600 leading-relaxed">
+                  <p className="text-sm text-slate-600 leading-relaxed">
                     {pillar.description}
                   </p>
                 </div>
@@ -113,7 +113,7 @@ export default function SecurityPage() {
         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="section-h2 text-gray-900 mb-4">
+              <h2 className="section-h2 text-slate-900 mb-4">
                 Compliance & Certifications
               </h2>
             </div>
@@ -127,7 +127,7 @@ export default function SecurityPage() {
                   <div className="flex items-start gap-4">
                     <div className="flex-1">
                       <div className="flex items-center gap-3 mb-2">
-                        <h3 className="text-lg font-semibold text-gray-900">
+                        <h3 className="text-lg font-semibold text-slate-900">
                           {item.title}
                         </h3>
                         {item.note && (
@@ -136,7 +136,7 @@ export default function SecurityPage() {
                           </span>
                         )}
                       </div>
-                      <p className="text-sm text-gray-600 leading-relaxed">
+                      <p className="text-sm text-slate-600 leading-relaxed">
                         {item.description}
                       </p>
                     </div>

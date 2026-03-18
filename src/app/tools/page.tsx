@@ -72,17 +72,17 @@ export default function ToolsPage() {
                     <div className="w-16 h-16 bg-slate-900 rounded-2xl flex items-center justify-center text-white mb-4 shadow-lg">
                       <SundaeIcon name={tool.icon} size="xl" className="text-white" />
                     </div>
-                    <CardTitle className="text-2xl text-gray-900 mb-3">
+                    <CardTitle className="text-2xl text-slate-900 mb-3">
                       {tool.title}
                     </CardTitle>
-                    <CardDescription className="text-gray-600 leading-relaxed mb-4">
+                    <CardDescription className="text-slate-600 leading-relaxed mb-4">
                       {tool.description}
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
                     <ul className="space-y-2 mb-6">
                       {tool.features.map((feature, idx) => (
-                        <li key={idx} className="flex items-center space-x-2 text-sm text-gray-700">
+                        <li key={idx} className="flex items-center space-x-2 text-sm text-slate-700">
                           <span className="text-green-500">✓</span>
                           <span>{feature}</span>
                         </li>

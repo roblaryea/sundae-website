@@ -82,7 +82,7 @@ export default function CSuiteExecutivesPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
       <section className="solution-hero solution-hero--role pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
@@ -100,7 +100,7 @@ export default function CSuiteExecutivesPage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="hero-h1 text-gray-900 mb-6"
+              className="hero-h1 text-slate-900 mb-6"
             >
               Lead with Clarity.
               <br />
@@ -111,7 +111,7 @@ export default function CSuiteExecutivesPage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="body-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed"
+              className="body-xl text-slate-600 mb-8 max-w-3xl mx-auto leading-relaxed"
             >
               Real-time visibility. Predictive insights. One platform that unifies everything you need to make confident decisions at scale.
             </motion.p>
@@ -140,8 +140,8 @@ export default function CSuiteExecutivesPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">The Problems You Know</h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+            <h2 className="section-h2 text-slate-900 mb-4">The Problems You Know</h2>
+            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
               Silos, stale data, and reactive decision-making
             </p>
           </div>
@@ -154,8 +154,8 @@ export default function CSuiteExecutivesPage() {
                       <SundaeIcon name={challenge.icon} size="lg" className="text-white" />
                     </div>
                     <div>
-                      <CardTitle className="text-gray-900 mb-2">{challenge.title}</CardTitle>
-                      <CardDescription className="text-gray-600">{challenge.description}</CardDescription>
+                      <CardTitle className="text-slate-900 mb-2">{challenge.title}</CardTitle>
+                      <CardDescription className="text-slate-600">{challenge.description}</CardDescription>
                     </div>
                   </div>
                 </CardHeader>
@@ -168,8 +168,8 @@ export default function CSuiteExecutivesPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">How Sundae Changes That</h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+            <h2 className="section-h2 text-slate-900 mb-4">How Sundae Changes That</h2>
+            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
               Intelligence built for executive decision-making
             </p>
           </div>
@@ -183,8 +183,8 @@ export default function CSuiteExecutivesPage() {
                     </div>
                     <div>
                       <div className="text-xs text-blue-600 font-semibold mb-1">{item.product}</div>
-                      <CardTitle className="text-gray-900 mb-2">{item.title}</CardTitle>
-                      <CardDescription className="text-gray-600">{item.description}</CardDescription>
+                      <CardTitle className="text-slate-900 mb-2">{item.title}</CardTitle>
+                      <CardDescription className="text-slate-600">{item.description}</CardDescription>
                     </div>
                   </div>
                 </CardHeader>
@@ -197,8 +197,8 @@ export default function CSuiteExecutivesPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">What Changes</h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+            <h2 className="section-h2 text-slate-900 mb-4">What Changes</h2>
+            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
               Measurable impact on speed, visibility, and growth
             </p>
           </div>
@@ -211,8 +211,8 @@ export default function CSuiteExecutivesPage() {
                       <SundaeIcon name={outcome.icon} size="lg" className="text-white" />
                     </div>
                     <div>
-                      <CardTitle className="text-gray-900 mb-2">{outcome.title}</CardTitle>
-                      <CardDescription className="text-gray-600">{outcome.description}</CardDescription>
+                      <CardTitle className="text-slate-900 mb-2">{outcome.title}</CardTitle>
+                      <CardDescription className="text-slate-600">{outcome.description}</CardDescription>
                     </div>
                   </div>
                 </CardHeader>
@@ -229,7 +229,7 @@ export default function CSuiteExecutivesPage() {
             See how Sundae gives executives the clarity to make confident decisions.
           </p>
           <Link href="/demo">
-            <Button variant="primary" size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+            <Button variant="primary" size="lg" className="bg-white text-blue-600 hover:bg-slate-100">
               Book an Executive Briefing
             </Button>
           </Link>

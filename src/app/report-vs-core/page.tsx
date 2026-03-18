@@ -95,10 +95,10 @@ export default function ReportVsCorePage() {
             transition={{ duration: 0.8 }}
           >
             <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase text-slate-500 mb-4">PRODUCT COMPARISON</span>
-            <h1 className="hero-h1 text-gray-900 mb-6">
+            <h1 className="hero-h1 text-slate-900 mb-6">
               Report vs Core: Pick Your Speed
             </h1>
-            <p className="body-xl text-gray-600 mb-4 max-w-3xl mx-auto">
+            <p className="body-xl text-slate-600 mb-4 max-w-3xl mx-auto">
               Both deliver decision intelligence. Report gives you historical depth. Core gives you real-time operational speed. Choose based on how fast you need to act.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -136,17 +136,17 @@ export default function ReportVsCorePage() {
                     <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center">
                       <SundaeIcon name="report" size="lg" className="text-white" />
                     </div>
-                    <CardTitle className="text-2xl text-gray-900">Sundae Report</CardTitle>
+                    <CardTitle className="text-2xl text-slate-900">Sundae Report</CardTitle>
                   </div>
-                  <CardDescription className="text-lg text-gray-700 font-semibold mb-4">
+                  <CardDescription className="text-lg text-slate-700 font-semibold mb-4">
                     Historical analysis & strategic planning
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-4">
                     <div>
-                      <p className="text-sm font-semibold text-gray-500 uppercase mb-2">Perfect when:</p>
-                      <ul className="space-y-2 text-gray-600">
+                      <p className="text-sm font-semibold text-slate-500 uppercase mb-2">Perfect when:</p>
+                      <ul className="space-y-2 text-slate-600">
                         <li>• Daily/weekly reports are sufficient</li>
                         <li>• You need historical trends & benchmarking</li>
                         <li>• Testing Sundae before committing</li>
@@ -175,17 +175,17 @@ export default function ReportVsCorePage() {
                     <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center">
                       <SundaeIcon name="speed" size="lg" className="text-white" />
                     </div>
-                    <CardTitle className="text-2xl text-gray-900">Sundae Core</CardTitle>
+                    <CardTitle className="text-2xl text-slate-900">Sundae Core</CardTitle>
                   </div>
-                  <CardDescription className="text-lg text-gray-700 font-semibold mb-4">
+                  <CardDescription className="text-lg text-slate-700 font-semibold mb-4">
                     Real-time operations & predictive intelligence
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-4">
                     <div>
-                      <p className="text-sm font-semibold text-gray-500 uppercase mb-2">Perfect when:</p>
-                      <ul className="space-y-2 text-gray-600">
+                      <p className="text-sm font-semibold text-slate-500 uppercase mb-2">Perfect when:</p>
+                      <ul className="space-y-2 text-slate-600">
                         <li>• You need 2-4 hour refresh cycles</li>
                         <li>• Operational speed is critical</li>
                         <li>• Need system integrations (Labor, Inventory, etc.)</li>
@@ -208,10 +208,10 @@ export default function ReportVsCorePage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
+            <h2 className="section-h2 text-slate-900 mb-4">
               Side-by-Side Comparison
             </h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
               Key differences that matter for your decision
             </p>
           </div>
@@ -226,14 +226,14 @@ export default function ReportVsCorePage() {
                 viewport={{ once: true, margin: "-100px" }}
               >
                 <Card variant="elevated" className="overflow-hidden">
-                  <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-gray-200">
+                  <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-slate-200">
                     {/* Category */}
                     <div className="p-6 bg-slate-50 flex items-center space-x-4">
                       <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
                         <SundaeIcon name={item.icon} size="lg" className="text-white" />
                       </div>
                       <div>
-                        <h3 className="font-bold text-gray-900 text-lg">{item.category}</h3>
+                        <h3 className="font-bold text-slate-900 text-lg">{item.category}</h3>
                       </div>
                     </div>
 
@@ -241,20 +241,20 @@ export default function ReportVsCorePage() {
                     <div className="p-6">
                       <div className="flex items-center space-x-2 mb-2">
                         <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
-                        <p className="font-bold text-gray-900">Report</p>
+                        <p className="font-bold text-slate-900">Report</p>
                       </div>
                       <p className="text-lg font-semibold text-blue-600 mb-2">{item.report}</p>
-                      <p className="text-sm text-gray-600">{item.reportDetail}</p>
+                      <p className="text-sm text-slate-600">{item.reportDetail}</p>
                     </div>
 
                     {/* Core */}
                     <div className="p-6 bg-purple-50/50">
                       <div className="flex items-center space-x-2 mb-2">
                         <div className="w-3 h-3 bg-purple-500 rounded-full"></div>
-                        <p className="font-bold text-gray-900">Core</p>
+                        <p className="font-bold text-slate-900">Core</p>
                       </div>
                       <p className="text-lg font-semibold text-purple-600 mb-2">{item.core}</p>
-                      <p className="text-sm text-gray-600">{item.coreDetail}</p>
+                      <p className="text-sm text-slate-600">{item.coreDetail}</p>
                     </div>
                   </div>
                 </Card>
@@ -268,10 +268,10 @@ export default function ReportVsCorePage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="section-h2 text-gray-900 mb-4">
+            <h2 className="section-h2 text-slate-900 mb-4">
               Pulse Features by Tier
             </h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
               Pulse is the intraday operations monitor — available on Core tiers
             </p>
           </div>
@@ -279,13 +279,13 @@ export default function ReportVsCorePage() {
           <div className="overflow-x-auto">
             <table className="w-full text-left border-collapse">
               <thead>
-                <tr className="border-b-2 border-gray-200">
-                  <th className="py-3 pr-4 text-sm font-semibold text-gray-900">Feature</th>
+                <tr className="border-b-2 border-slate-200">
+                  <th className="py-3 pr-4 text-sm font-semibold text-slate-900">Feature</th>
                   <th className="py-3 px-4 text-sm font-semibold text-blue-600 text-center">Report (Free)</th>
                   <th className="py-3 pl-4 text-sm font-semibold text-purple-600 text-center">Core</th>
                 </tr>
               </thead>
-              <tbody className="text-sm text-gray-700">
+              <tbody className="text-sm text-slate-700">
                 {[
                   ["Historical sales reporting", "✓", "✓"],
                   ["Real-time sales pacing", "—", "✓"],
@@ -301,10 +301,10 @@ export default function ReportVsCorePage() {
                   ["Alerts & Playbooks", "—", "✓"],
                   ["Wallboard Mode", "—", "✓"],
                 ].map(([feature, report, core], idx) => (
-                  <tr key={idx} className="border-b border-gray-100">
+                  <tr key={idx} className="border-b border-slate-100">
                     <td className="py-2.5 pr-4">{feature}</td>
-                    <td className={`py-2.5 px-4 text-center ${report === "✓" ? "text-green-600 font-semibold" : "text-gray-400"}`}>{report}</td>
-                    <td className={`py-2.5 pl-4 text-center ${core === "✓" ? "text-green-600 font-semibold" : "text-gray-400"}`}>{core}</td>
+                    <td className={`py-2.5 px-4 text-center ${report === "✓" ? "text-green-600 font-semibold" : "text-slate-400"}`}>{report}</td>
+                    <td className={`py-2.5 pl-4 text-center ${core === "✓" ? "text-green-600 font-semibold" : "text-slate-400"}`}>{core}</td>
                   </tr>
                 ))}
               </tbody>
@@ -317,10 +317,10 @@ export default function ReportVsCorePage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="section-h2 text-gray-900 mb-4">
+            <h2 className="section-h2 text-slate-900 mb-4">
               Watchtower Features by Tier
             </h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
               External intelligence — available on Core tiers
             </p>
           </div>
@@ -328,13 +328,13 @@ export default function ReportVsCorePage() {
           <div className="overflow-x-auto">
             <table className="w-full text-left border-collapse">
               <thead>
-                <tr className="border-b-2 border-gray-200">
-                  <th className="py-3 pr-4 text-sm font-semibold text-gray-900">Feature</th>
+                <tr className="border-b-2 border-slate-200">
+                  <th className="py-3 pr-4 text-sm font-semibold text-slate-900">Feature</th>
                   <th className="py-3 px-4 text-sm font-semibold text-blue-600 text-center">Report (Free)</th>
                   <th className="py-3 pl-4 text-sm font-semibold text-purple-600 text-center">Core</th>
                 </tr>
               </thead>
-              <tbody className="text-sm text-gray-700">
+              <tbody className="text-sm text-slate-700">
                 {[
                   ["Basic market context", "Limited", "✓"],
                   ["Daily AI briefing", "—", "✓"],
@@ -347,10 +347,10 @@ export default function ReportVsCorePage() {
                   ["Market landscape tracking", "—", "✓"],
                   ["Trend & macro signals", "—", "✓"],
                 ].map(([feature, report, core], idx) => (
-                  <tr key={idx} className="border-b border-gray-100">
+                  <tr key={idx} className="border-b border-slate-100">
                     <td className="py-2.5 pr-4">{feature}</td>
-                    <td className={`py-2.5 px-4 text-center ${report === "✓" || report === "Limited" ? (report === "Limited" ? "text-blue-500" : "text-green-600 font-semibold") : "text-gray-400"}`}>{report}</td>
-                    <td className={`py-2.5 pl-4 text-center ${core?.includes("✓") ? "text-green-600 font-semibold" : "text-gray-400"}`}>{core}</td>
+                    <td className={`py-2.5 px-4 text-center ${report === "✓" || report === "Limited" ? (report === "Limited" ? "text-blue-500" : "text-green-600 font-semibold") : "text-slate-400"}`}>{report}</td>
+                    <td className={`py-2.5 pl-4 text-center ${core?.includes("✓") ? "text-green-600 font-semibold" : "text-slate-400"}`}>{core}</td>
                   </tr>
                 ))}
               </tbody>
@@ -363,10 +363,10 @@ export default function ReportVsCorePage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
+            <h2 className="section-h2 text-slate-900 mb-4">
               Decision Tree: Which Tier?
             </h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
               Answer these questions to find your tier
             </p>
           </div>
@@ -382,7 +382,7 @@ export default function ReportVsCorePage() {
               >
                 <Card variant="elevated">
                   <CardHeader>
-                    <CardTitle className="text-xl text-gray-900 mb-6">{decision.question}</CardTitle>
+                    <CardTitle className="text-xl text-slate-900 mb-6">{decision.question}</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -392,8 +392,8 @@ export default function ReportVsCorePage() {
                           <span className="text-2xl">✓</span>
                           <p className="font-bold text-green-900">YES</p>
                         </div>
-                        <p className="font-bold text-lg text-gray-900 mb-2">→ {decision.yesAnswer}</p>
-                        <p className="text-sm text-gray-600">{decision.yesReason}</p>
+                        <p className="font-bold text-lg text-slate-900 mb-2">→ {decision.yesAnswer}</p>
+                        <p className="text-sm text-slate-600">{decision.yesReason}</p>
                       </div>
 
                       {/* No Path */}
@@ -402,8 +402,8 @@ export default function ReportVsCorePage() {
                           <span className="text-2xl">→</span>
                           <p className="font-bold text-blue-900">NO</p>
                         </div>
-                        <p className="font-bold text-lg text-gray-900 mb-2">→ {decision.noAnswer}</p>
-                        <p className="text-sm text-gray-600">{decision.noReason}</p>
+                        <p className="font-bold text-lg text-slate-900 mb-2">→ {decision.noAnswer}</p>
+                        <p className="text-sm text-slate-600">{decision.noReason}</p>
                       </div>
                     </div>
                   </CardContent>
@@ -417,10 +417,10 @@ export default function ReportVsCorePage() {
       {/* Upgrade Path */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
         <div className="max-w-5xl mx-auto text-center">
-          <h2 className="section-h2 text-gray-900 mb-6">
+          <h2 className="section-h2 text-slate-900 mb-6">
             Not Sure? Start with Report
           </h2>
-          <p className="body-lg text-gray-600 mb-8 max-w-3xl mx-auto">
+          <p className="body-lg text-slate-600 mb-8 max-w-3xl mx-auto">
             Many operators start with Report (free forever with Report Lite) to prove the value, then upgrade to Core when they need operational speed. All historical data is preserved when you upgrade — seamless transition, zero data loss.
           </p>
           <div className="bg-white rounded-xl p-8 shadow-lg max-w-2xl mx-auto">
@@ -429,27 +429,27 @@ export default function ReportVsCorePage() {
                 <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-2">
                   <SundaeIcon name="report" size="xl" className="text-white" />
                 </div>
-                <p className="font-semibold text-gray-900">Report Lite</p>
-                <p className="text-sm text-gray-500">Free Forever</p>
+                <p className="font-semibold text-slate-900">Report Lite</p>
+                <p className="text-sm text-slate-500">Free Forever</p>
               </div>
-              <div className="text-3xl text-gray-400">→</div>
+              <div className="text-3xl text-slate-400">→</div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-2">
                   <SundaeIcon name="report" size="xl" className="text-white" />
                 </div>
-                <p className="font-semibold text-gray-900">Report Plus/Pro</p>
-                <p className="text-sm text-gray-500">Automated Analysis</p>
+                <p className="font-semibold text-slate-900">Report Plus/Pro</p>
+                <p className="text-sm text-slate-500">Automated Analysis</p>
               </div>
-              <div className="text-3xl text-gray-400">→</div>
+              <div className="text-3xl text-slate-400">→</div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-indigo-600 rounded-full flex items-center justify-center mx-auto mb-2">
                   <SundaeIcon name="speed" size="xl" className="text-white" />
                 </div>
-                <p className="font-semibold text-gray-900">Core</p>
-                <p className="text-sm text-gray-500">Real-Time Intelligence</p>
+                <p className="font-semibold text-slate-900">Core</p>
+                <p className="text-sm text-slate-500">Real-Time Intelligence</p>
               </div>
             </div>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-slate-600">
               <strong>Seamless upgrades.</strong> Start free, upgrade when it makes sense, scale as you grow.
             </p>
           </div>

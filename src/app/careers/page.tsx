@@ -147,10 +147,10 @@ export default function CareersPage() {
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <h2 className="section-h2 text-gray-900 mb-4">
+              <h2 className="section-h2 text-slate-900 mb-4">
                 Current Openings
               </h2>
-              <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+              <p className="body-xl text-slate-600 max-w-3xl mx-auto">
                 Help us transform the restaurant industry with data-driven intelligence
               </p>
             </div>
@@ -167,17 +167,17 @@ export default function CareersPage() {
                       </div>
                       <div>
                         <div className="text-xs text-blue-600 font-medium uppercase tracking-wide">{position.department}</div>
-                        <CardTitle className="text-gray-900 group-hover:text-blue-600 transition-colors duration-300">{position.title}</CardTitle>
+                        <CardTitle className="text-slate-900 group-hover:text-blue-600 transition-colors duration-300">{position.title}</CardTitle>
                       </div>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">
-                    <div className="flex items-center space-x-4 text-sm text-gray-600">
+                    <div className="flex items-center space-x-4 text-sm text-slate-600">
                       <span>{position.location}</span>
                       <span>•</span>
                       <span>{position.type}</span>
                     </div>
-                    <CardDescription className="text-gray-600 leading-relaxed">
+                    <CardDescription className="text-slate-600 leading-relaxed">
                       {position.description}
                     </CardDescription>
                     <Link href={`mailto:careers@sundae.io?subject=${encodeURIComponent(`Application for ${position.title}`)}`}>
@@ -198,10 +198,10 @@ export default function CareersPage() {
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <h2 className="section-h2 text-gray-900 mb-4">
+              <h2 className="section-h2 text-slate-900 mb-4">
                 Why Join Sundae?
               </h2>
-              <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+              <p className="body-xl text-slate-600 max-w-3xl mx-auto">
                 We offer more than just a job — we offer a mission to transform an industry
               </p>
             </div>
@@ -215,10 +215,10 @@ export default function CareersPage() {
                     <div className="w-12 h-12 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
                       <SundaeIcon name={benefit.icon} size="lg" className="text-white" />
                     </div>
-                    <CardTitle className="text-gray-900">{benefit.title}</CardTitle>
+                    <CardTitle className="text-slate-900">{benefit.title}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <CardDescription className="text-gray-600">
+                    <CardDescription className="text-slate-600">
                       {benefit.description}
                     </CardDescription>
                   </CardContent>
@@ -234,10 +234,10 @@ export default function CareersPage() {
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <h2 className="section-h2 text-gray-900 mb-4">
+              <h2 className="section-h2 text-slate-900 mb-4">
                 Our Values
               </h2>
-              <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+              <p className="body-xl text-slate-600 max-w-3xl mx-auto">
                 The principles that guide everything we do at Sundae
               </p>
             </div>
@@ -251,10 +251,10 @@ export default function CareersPage() {
                     <div className="w-12 h-12 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
                       <SundaeIcon name={value.icon} size="lg" className="text-white" />
                     </div>
-                    <CardTitle className="text-gray-900">{value.title}</CardTitle>
+                    <CardTitle className="text-slate-900">{value.title}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <CardDescription className="text-gray-600">
+                    <CardDescription className="text-slate-600">
                       {value.description}
                     </CardDescription>
                   </CardContent>

@@ -81,7 +81,7 @@ export default function MultiLocationGroupsPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
       {/* Hero Section - Operator (Blue) */}
       <section className="solution-hero solution-hero--operator pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
@@ -101,7 +101,7 @@ export default function MultiLocationGroupsPage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="hero-h1 text-gray-900 mb-6"
+              className="hero-h1 text-slate-900 mb-6"
             >
               Unify. Optimize.
               <br />
@@ -112,7 +112,7 @@ export default function MultiLocationGroupsPage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="body-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed"
+              className="body-xl text-slate-600 mb-8 max-w-3xl mx-auto leading-relaxed"
             >
               Every location. One platform. Real-time visibility and AI-powered insights to replicate success everywhere.
             </motion.p>
@@ -142,10 +142,10 @@ export default function MultiLocationGroupsPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
+            <h2 className="section-h2 text-slate-900 mb-4">
               The Problems You Know
             </h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
               Fragmented data. Inconsistent performance. Slow decisions.
             </p>
           </div>
@@ -159,8 +159,8 @@ export default function MultiLocationGroupsPage() {
                       <SundaeIcon name={challenge.icon} size="lg" className="text-white" />
                     </div>
                     <div>
-                      <CardTitle className="text-gray-900 mb-2">{challenge.title}</CardTitle>
-                      <CardDescription className="text-gray-600">
+                      <CardTitle className="text-slate-900 mb-2">{challenge.title}</CardTitle>
+                      <CardDescription className="text-slate-600">
                         {challenge.description}
                       </CardDescription>
                     </div>
@@ -176,10 +176,10 @@ export default function MultiLocationGroupsPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
+            <h2 className="section-h2 text-slate-900 mb-4">
               How Sundae Changes That
             </h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
               One dashboard. Real-time insights. Portfolio-wide benchmarking.
             </p>
           </div>
@@ -194,8 +194,8 @@ export default function MultiLocationGroupsPage() {
                     </div>
                     <div>
                       <div className="text-xs text-blue-600 font-semibold mb-1">{item.product}</div>
-                      <CardTitle className="text-gray-900 mb-2">{item.title}</CardTitle>
-                      <CardDescription className="text-gray-600">
+                      <CardTitle className="text-slate-900 mb-2">{item.title}</CardTitle>
+                      <CardDescription className="text-slate-600">
                         {item.description}
                       </CardDescription>
                     </div>
@@ -211,10 +211,10 @@ export default function MultiLocationGroupsPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
+            <h2 className="section-h2 text-slate-900 mb-4">
               What Changes
             </h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
               Lift underperformers. Reduce costs. Scale faster.
             </p>
           </div>
@@ -228,8 +228,8 @@ export default function MultiLocationGroupsPage() {
                       <SundaeIcon name={outcome.icon} size="lg" className="text-white" />
                     </div>
                     <div>
-                      <CardTitle className="text-gray-900 mb-2">{outcome.title}</CardTitle>
-                      <CardDescription className="text-gray-600">
+                      <CardTitle className="text-slate-900 mb-2">{outcome.title}</CardTitle>
+                      <CardDescription className="text-slate-600">
                         {outcome.description}
                       </CardDescription>
                     </div>
@@ -251,7 +251,7 @@ export default function MultiLocationGroupsPage() {
             See how multi-location groups replicate success everywhere.
           </p>
           <Link href="/demo">
-            <Button variant="primary" size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+            <Button variant="primary" size="lg" className="bg-white text-blue-600 hover:bg-slate-100">
               Book a Strategy Session
             </Button>
           </Link>

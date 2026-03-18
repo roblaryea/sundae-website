@@ -21,8 +21,8 @@ export default function ArchitecturePage() {
       title: "AI Processing",
       subtitle: "Intelligence Layer",
       description: "Multi-agent AI, pattern detection, anomaly detection, reasoning",
-      color: "bg-gradient-to-r from-gray-50 to-blue-50",
-      textColor: "text-gray-900",
+      color: "bg-gradient-to-r from-slate-50 to-blue-50",
+      textColor: "text-slate-900",
       icon: "speed",
       size: "large"
     },
@@ -121,10 +121,10 @@ export default function ArchitecturePage() {
       <section className="py-24 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <FadeUp className="text-center mb-16">
-            <h2 className="text-[30px] md:text-[36px] font-bold text-gray-900 mb-6">
+            <h2 className="text-[30px] md:text-[36px] font-bold text-slate-900 mb-6">
               The Sundae Intelligence Stack
             </h2>
-            <p className="text-[17px] text-gray-700 max-w-3xl mx-auto leading-[1.65]">
+            <p className="text-[17px] text-slate-700 max-w-3xl mx-auto leading-[1.65]">
               Five layers that transform raw restaurant data into actionable intelligence
             </p>
           </FadeUp>
@@ -149,14 +149,14 @@ export default function ArchitecturePage() {
                           ease: "easeInOut"
                         }}
                       >
-                        <SundaeIcon name={layer.icon} size="xl" className={layer.textColor === 'text-gray-900' ? 'text-blue-600' : 'text-white'} />
+                        <SundaeIcon name={layer.icon} size="xl" className={layer.textColor === 'text-slate-900' ? 'text-blue-600' : 'text-white'} />
                       </motion.div>
                       <div className="flex-grow">
-                        <div className={`text-sm font-semibold mb-2 ${layer.textColor === 'text-gray-900' ? 'text-gray-600' : 'opacity-90'}`}>
+                        <div className={`text-sm font-semibold mb-2 ${layer.textColor === 'text-slate-900' ? 'text-slate-600' : 'opacity-90'}`}>
                           {layer.subtitle}
                         </div>
                         <h3 className="text-[20px] md:text-[22px] font-bold mb-3">{layer.title}</h3>
-                        <p className={`text-[17px] leading-[1.65] ${layer.textColor === 'text-gray-900' ? 'text-gray-700' : 'opacity-95'}`}>
+                        <p className={`text-[17px] leading-[1.65] ${layer.textColor === 'text-slate-900' ? 'text-slate-700' : 'opacity-95'}`}>
                           {layer.description}
                         </p>
                       </div>
@@ -171,7 +171,7 @@ export default function ArchitecturePage() {
               <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-amber-700 to-orange-800 rounded-full flex items-center justify-center">
                 <SundaeIcon name="network" size="xl" className="text-white" />
               </div>
-              <p className="text-[15px] text-gray-600 leading-[1.65]">
+              <p className="text-[15px] text-slate-600 leading-[1.65]">
                 Built on a solid foundation of security, governance, and reliability
               </p>
             </FadeUp>
@@ -180,13 +180,13 @@ export default function ArchitecturePage() {
       </section>
 
       {/* From Data to Decisions */}
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-50/30">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-blue-50/30">
         <div className="max-w-7xl mx-auto">
           <FadeUp className="text-center mb-16">
-            <h2 className="text-[30px] md:text-[36px] font-bold text-gray-900 mb-6">
+            <h2 className="text-[30px] md:text-[36px] font-bold text-slate-900 mb-6">
               From Data to Decisions
             </h2>
-            <p className="text-[17px] text-gray-700 max-w-3xl mx-auto leading-[1.65]">
+            <p className="text-[17px] text-slate-700 max-w-3xl mx-auto leading-[1.65]">
               How raw data becomes actionable intelligence in milliseconds
             </p>
           </FadeUp>
@@ -220,8 +220,8 @@ export default function ArchitecturePage() {
                 >
                   <SundaeIcon name={step.icon} size="xl" className="text-white" />
                 </motion.div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">{step.title}</h3>
-                <p className="text-[16px] text-gray-600 leading-[1.65]">{step.description}</p>
+                <h3 className="text-xl font-bold text-slate-900 mb-3">{step.title}</h3>
+                <p className="text-[16px] text-slate-600 leading-[1.65]">{step.description}</p>
               </StaggerItem>
             ))}
           </StaggerContainer>
@@ -232,10 +232,10 @@ export default function ArchitecturePage() {
       <section className="py-24 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <FadeUp className="text-center mb-16">
-            <h2 className="text-[30px] md:text-[36px] font-bold text-gray-900 mb-6">
+            <h2 className="text-[30px] md:text-[36px] font-bold text-slate-900 mb-6">
               Multi-Agent AI Engine
             </h2>
-            <p className="text-[17px] text-gray-700 max-w-3xl mx-auto leading-[1.65]">
+            <p className="text-[17px] text-slate-700 max-w-3xl mx-auto leading-[1.65]">
               Specialized AI agents working together to deliver comprehensive intelligence
             </p>
           </FadeUp>
@@ -248,12 +248,12 @@ export default function ArchitecturePage() {
                     <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center">
                       <SundaeIcon name={agent.icon} size="xl" className="text-white" />
                     </div>
-                    <CardTitle className="text-center text-xl text-gray-900 mb-4">
+                    <CardTitle className="text-center text-xl text-slate-900 mb-4">
                       {agent.name}
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-[16px] text-gray-600 text-center leading-[1.65]">
+                    <p className="text-[16px] text-slate-600 text-center leading-[1.65]">
                       {agent.description}
                     </p>
                   </CardContent>
@@ -265,13 +265,13 @@ export default function ArchitecturePage() {
       </section>
 
       {/* Architecture Modules */}
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-50/30">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-blue-50/30">
         <div className="max-w-7xl mx-auto">
           <FadeUp className="text-center mb-16">
-            <h2 className="text-[30px] md:text-[36px] font-bold text-gray-900 mb-6">
+            <h2 className="text-[30px] md:text-[36px] font-bold text-slate-900 mb-6">
               Architecture Modules
             </h2>
-            <p className="text-[17px] text-gray-700 max-w-3xl mx-auto leading-[1.65]">
+            <p className="text-[17px] text-slate-700 max-w-3xl mx-auto leading-[1.65]">
               Five core modules that power the Sundae Intelligence Stack
             </p>
           </FadeUp>
@@ -285,9 +285,9 @@ export default function ArchitecturePage() {
                       <div className={`w-12 h-12 ${module.colorClass} rounded-lg flex items-center justify-center`}>
                         <SundaeIcon name={module.icon} size="lg" className="text-white" />
                       </div>
-                      <CardTitle className="text-2xl text-gray-900">{module.name}</CardTitle>
+                      <CardTitle className="text-2xl text-slate-900">{module.name}</CardTitle>
                     </div>
-                    <CardDescription className="text-[16px] text-gray-600 leading-[1.65]">
+                    <CardDescription className="text-[16px] text-slate-600 leading-[1.65]">
                       {module.description}
                     </CardDescription>
                   </CardHeader>
@@ -296,7 +296,7 @@ export default function ArchitecturePage() {
                       {module.features.map((feature, fIndex) => (
                         <li key={fIndex} className="flex items-center space-x-2">
                           <div className="w-1.5 h-1.5 bg-slate-900 rounded-full"></div>
-                          <span className="text-[15px] text-gray-700">{feature}</span>
+                          <span className="text-[15px] text-slate-700">{feature}</span>
                         </li>
                       ))}
                     </ul>
@@ -313,10 +313,10 @@ export default function ArchitecturePage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
             <FadeUp>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
                 Enterprise Security & Compliance
               </h2>
-              <p className="text-[16px] text-gray-700 mb-8 leading-[1.65]">
+              <p className="text-[16px] text-slate-700 mb-8 leading-[1.65]">
                 Bank-level security and compliance standards protecting your restaurant data
               </p>
 
@@ -343,8 +343,8 @@ export default function ArchitecturePage() {
                       <SundaeIcon name={item.icon} size="md" className="text-white" />
                     </div>
                     <div>
-                      <h3 className="text-lg font-semibold text-gray-900 mb-2">{item.title}</h3>
-                      <p className="text-[16px] text-gray-600 leading-[1.65]">{item.description}</p>
+                      <h3 className="text-lg font-semibold text-slate-900 mb-2">{item.title}</h3>
+                      <p className="text-[16px] text-slate-600 leading-[1.65]">{item.description}</p>
                     </div>
                   </div>
                 ))}
@@ -352,10 +352,10 @@ export default function ArchitecturePage() {
             </FadeUp>
 
             <FadeUp delay={0.15}>
-              <div className="bg-gradient-to-br from-gray-50 to-blue-50/30 rounded-2xl p-8 shadow-xl border-2 border-gray-200">
+              <div className="bg-gradient-to-br from-slate-50 to-blue-50/30 rounded-2xl p-8 shadow-xl border-2 border-slate-200">
                 <div className="text-center mb-6">
                   <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center"><SundaeIcon name="success" size="xl" className="text-white" /></div>
-                  <h3 className="text-2xl font-bold text-gray-900">Certifications</h3>
+                  <h3 className="text-2xl font-bold text-slate-900">Certifications</h3>
                 </div>
                 
                 <div className="space-y-4">
@@ -366,7 +366,7 @@ export default function ArchitecturePage() {
                     { name: "ISO 27001", status: "In Progress", color: "amber" }
                   ].map((cert, index) => (
                     <div key={index} className={`flex items-center justify-between p-4 bg-${cert.color}-50 rounded-xl border border-${cert.color}-200`}>
-                      <span className="font-semibold text-gray-900">{cert.name}</span>
+                      <span className="font-semibold text-slate-900">{cert.name}</span>
                       <span className={`text-${cert.color}-600 text-sm font-medium`}>
                         {cert.status === "In Progress" ? <SundaeIcon name="sync" size="sm" className="inline" /> : "✓"} {cert.status}
                       </span>
@@ -380,13 +380,13 @@ export default function ArchitecturePage() {
       </section>
 
       {/* Premium Engineering */}
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-50/30">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-blue-50/30">
         <div className="max-w-7xl mx-auto">
           <FadeUp className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">
               Built with Premium Engineering
             </h2>
-            <p className="text-[16px] text-gray-700 max-w-3xl mx-auto leading-[1.65]">
+            <p className="text-[16px] text-slate-700 max-w-3xl mx-auto leading-[1.65]">
               Enterprise-grade technology crafted with the finest components and methodologies
             </p>
           </FadeUp>
@@ -467,7 +467,7 @@ export default function ArchitecturePage() {
                       <div className={`w-10 h-10 bg-gradient-to-br ${item.color} rounded-lg flex items-center justify-center`}>
                         <SundaeIcon name={item.icon} size="lg" className="text-white" />
                       </div>
-                      <CardTitle className="text-xl text-gray-900">{item.title}</CardTitle>
+                      <CardTitle className="text-xl text-slate-900">{item.title}</CardTitle>
                     </div>
                   </CardHeader>
                   <CardContent>
@@ -475,7 +475,7 @@ export default function ArchitecturePage() {
                       {item.features.map((feature, fIndex) => (
                         <li key={fIndex} className="flex items-start space-x-2">
                           <div className="w-1.5 h-1.5 bg-slate-900 rounded-full mt-2"></div>
-                          <span className="text-[15px] text-gray-600 leading-[1.65]">{feature}</span>
+                          <span className="text-[15px] text-slate-600 leading-[1.65]">{feature}</span>
                         </li>
                       ))}
                     </ul>

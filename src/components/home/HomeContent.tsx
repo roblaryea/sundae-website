@@ -769,7 +769,10 @@ function PillarCard({ pillar, cta }: {
  visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
  }}
  className="group cursor-pointer"
+ role="button"
+ tabIndex={0}
  onClick={() => cta(pillar.link, `view_${pillar.name.toLowerCase().replace(/\s+/g, "_")}`, { page: "/home", section: "product-pillars" })}
+ onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); cta(pillar.link, `view_${pillar.name.toLowerCase().replace(/\s+/g, "_")}`, { page: "/home", section: "product-pillars" }); } }}
  >
  <Card variant="elevated" className="h-full hover:shadow-lg transition-all duration-300 overflow-hidden border-slate-200/60">
  <div className="relative h-48 overflow-hidden bg-slate-100">
@@ -797,7 +800,7 @@ function PillarCard({ pillar, cta }: {
  {pillar.description}
  </p>
 
- <span className="text-sm font-medium text-blue-600 group-hover:text-blue-700 transition-colors">
+ <span className="text-sm font-medium text-slate-600 group-hover:text-slate-900 transition-colors">
  Learn more <span className="inline-block transition-transform group-hover:translate-x-1">&rarr;</span>
  </span>
  </CardContent>

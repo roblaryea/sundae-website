@@ -66,10 +66,10 @@ export default function BenchmarkingPage() {
  <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
  <div className="max-w-5xl mx-auto">
  <FadeUp className="text-center mb-12">
- <h2 className="section-h2 text-gray-900 mb-4">
+ <h2 className="section-h2 text-slate-900 mb-4">
  How Sundae Benchmarks Work
  </h2>
- <p className="body-lg text-gray-600 max-w-3xl mx-auto">
+ <p className="body-lg text-slate-600 max-w-3xl mx-auto">
  Upload your data, get instant comparisons against restaurants like yours.
  </p>
  </FadeUp>
@@ -84,8 +84,8 @@ export default function BenchmarkingPage() {
  <div className="w-14 h-14 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
  {item.step}
  </div>
- <h3 className="text-lg font-semibold text-gray-900 mb-2">{item.title}</h3>
- <p className="text-sm text-gray-600">{item.description}</p>
+ <h3 className="text-lg font-semibold text-slate-900 mb-2">{item.title}</h3>
+ <p className="text-sm text-slate-600">{item.description}</p>
  </div>
  ))}
  </div>
@@ -96,10 +96,10 @@ export default function BenchmarkingPage() {
  <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
  <div className="max-w-7xl mx-auto">
  <FadeUp className="text-center mb-16">
- <h2 className="section-h2 text-gray-900 mb-4">
+ <h2 className="section-h2 text-slate-900 mb-4">
  What You Can Benchmark
  </h2>
- <p className="body-lg text-gray-600">
+ <p className="body-lg text-slate-600">
  30+ metrics across performance, efficiency, and market position.
  </p>
  </FadeUp>
@@ -112,8 +112,8 @@ export default function BenchmarkingPage() {
  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center mb-4">
  <SundaeIcon name={metric.icon} size="lg" className="text-white" />
  </div>
- <h3 className="font-bold text-gray-900 mb-2">{metric.name}</h3>
- <p className="text-sm text-gray-600 leading-relaxed">{metric.description}</p>
+ <h3 className="font-bold text-slate-900 mb-2">{metric.name}</h3>
+ <p className="text-sm text-slate-600 leading-relaxed">{metric.description}</p>
  </CardContent>
  </Card>
  </StaggerItem>
@@ -127,15 +127,15 @@ export default function BenchmarkingPage() {
  <div className="max-w-5xl mx-auto">
  <div className="grid md:grid-cols-2 gap-12 items-center">
  <FadeUp>
- <h2 className="section-h2 text-gray-900 mb-4">
+ <h2 className="section-h2 text-slate-900 mb-4">
  Revenue Forecasting
  </h2>
- <p className="body-lg text-gray-600 mb-6">
+ <p className="body-lg text-slate-600 mb-6">
  Go beyond historical comparisons. Sundae Benchmarks includes AI-powered revenue forecasting that uses your trends and market data to project future performance.
  </p>
  <ul className="space-y-3">
  {["14-30 day revenue projections", "Seasonal pattern recognition", "Market-adjusted forecasts", "Confidence intervals"].map((feature) => (
- <li key={feature} className="flex items-center gap-2 text-sm text-gray-700">
+ <li key={feature} className="flex items-center gap-2 text-sm text-slate-700">
  <span className="text-green-500">&#10003;</span>
  {feature}
  </li>
@@ -157,10 +157,10 @@ export default function BenchmarkingPage() {
  <section className="py-16 px-4 sm:px-6 lg:px-8 bg-slate-50">
  <div className="max-w-5xl mx-auto text-center">
  <FadeUp>
- <h2 className="section-h2 text-gray-900 mb-4">
+ <h2 className="section-h2 text-slate-900 mb-4">
  Available Across All Tiers
  </h2>
- <p className="body-lg text-gray-600 mb-12">
+ <p className="body-lg text-slate-600 mb-12">
  Start benchmarking for free with Report Lite. Unlock deeper intelligence as you grow.
  </p>
  </FadeUp>
@@ -168,18 +168,18 @@ export default function BenchmarkingPage() {
  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
  <div className="bg-white rounded-xl p-6 border border-slate-200 shadow-sm">
  <div className="text-sm font-semibold text-green-600 mb-2">FREE</div>
- <h3 className="text-lg font-bold text-gray-900 mb-2">Report Lite</h3>
- <p className="text-sm text-gray-600">5 core metrics. CSV upload. 90-day retention.</p>
+ <h3 className="text-lg font-bold text-slate-900 mb-2">Report Lite</h3>
+ <p className="text-sm text-slate-600">5 core metrics. CSV upload. 90-day retention.</p>
  </div>
  <div className="bg-white rounded-xl p-6 border-2 border-blue-500 shadow-md">
  <div className="text-sm font-semibold text-blue-600 mb-2">POPULAR</div>
- <h3 className="text-lg font-bold text-gray-900 mb-2">Report Plus</h3>
- <p className="text-sm text-gray-600">15 metrics. AI-parsed uploads. 1-year retention.</p>
+ <h3 className="text-lg font-bold text-slate-900 mb-2">Report Plus</h3>
+ <p className="text-sm text-slate-600">15 metrics. AI-parsed uploads. 1-year retention.</p>
  </div>
  <div className="bg-white rounded-xl p-6 border border-slate-200 shadow-sm">
  <div className="text-sm font-semibold text-purple-600 mb-2">FULL POWER</div>
- <h3 className="text-lg font-bold text-gray-900 mb-2">Report Pro / Core</h3>
- <p className="text-sm text-gray-600">30+ metrics. API integration. Multi-year retention.</p>
+ <h3 className="text-lg font-bold text-slate-900 mb-2">Report Pro / Core</h3>
+ <p className="text-sm text-slate-600">30+ metrics. API integration. Multi-year retention.</p>
  </div>
  </div>
  </div>

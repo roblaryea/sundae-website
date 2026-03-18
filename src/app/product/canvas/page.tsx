@@ -41,7 +41,7 @@ export default function CanvasPage() {
  ];
 
  return (
- <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-purple-50">
+ <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-purple-50">
  {/* Hero Section */}
  <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
  <div className="max-w-7xl mx-auto">
@@ -50,12 +50,12 @@ export default function CanvasPage() {
  <SundaeIcon name="chart" size="md" />
  <span>Visualization Intelligence</span>
  </div>
- <h1 className="hero-h1 text-gray-900 mb-6">
+ <h1 className="hero-h1 text-slate-900 mb-6">
  Dashboards That
  <br />
  <span className="text-purple-600">Actually Get Used</span>
  </h1>
- <p className="body-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+ <p className="body-xl text-slate-600 mb-8 max-w-3xl mx-auto">
  One source of truth for every team. Canvas delivers live dashboards for execs, ops, and finance — always current, always aligned.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -78,10 +78,10 @@ export default function CanvasPage() {
  <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
  <div className="max-w-7xl mx-auto">
  <div className="text-center mb-16">
- <h2 className="section-h2 text-gray-900 mb-4">
+ <h2 className="section-h2 text-slate-900 mb-4">
  Built for How Teams Actually Work
  </h2>
- <p className="body-xl text-gray-600">
+ <p className="body-xl text-slate-600">
  Real-time data. Clear visuals. No waiting for reports.
  </p>
  </div>
@@ -94,9 +94,9 @@ export default function CanvasPage() {
  <div className="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center text-white">
  <SundaeIcon name={feature.icon} size="lg" className="text-white" />
  </div>
- <CardTitle className="text-gray-900">{feature.title}</CardTitle>
+ <CardTitle className="text-slate-900">{feature.title}</CardTitle>
  </div>
- <CardDescription className="text-gray-600">
+ <CardDescription className="text-slate-600">
  {feature.description}
  </CardDescription>
  </CardHeader>
@@ -110,10 +110,10 @@ export default function CanvasPage() {
  <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
  <div className="max-w-7xl mx-auto">
  <div className="text-center mb-16">
- <h2 className="section-h2 text-gray-900 mb-4">
+ <h2 className="section-h2 text-slate-900 mb-4">
  Ready-Made Views for Every Role
  </h2>
- <p className="body-xl text-gray-600">
+ <p className="body-xl text-slate-600">
  Pre-built dashboards for operations, finance, and executive oversight
  </p>
  </div>
@@ -122,14 +122,14 @@ export default function CanvasPage() {
  {visualizationTypes.map((category, index) => (
  <Card key={index} variant="elevated">
  <CardHeader>
- <CardTitle className="text-gray-900">{category.type}</CardTitle>
+ <CardTitle className="text-slate-900">{category.type}</CardTitle>
  </CardHeader>
  <CardContent>
  <div className="grid grid-cols-2 gap-3">
  {category.examples.map((example, exampleIndex) => (
  <div key={exampleIndex} className="flex items-center space-x-2 p-2 bg-purple-50 rounded-lg">
  <div className="w-2 h-2 bg-purple-600 rounded-full"></div>
- <span className="text-gray-700 text-sm font-medium">{example}</span>
+ <span className="text-slate-700 text-sm font-medium">{example}</span>
  </div>
  ))}
  </div>
@@ -145,10 +145,10 @@ export default function CanvasPage() {
  <div className="max-w-7xl mx-auto">
  <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
  <div>
- <h2 className="section-h2 text-gray-900 mb-6">
+ <h2 className="section-h2 text-slate-900 mb-6">
  See It in Action
  </h2>
- <p className="body-xl text-gray-600 mb-8">
+ <p className="body-xl text-slate-600 mb-8">
  Live data. Clear insights. Decisions made faster.
  </p>
  
@@ -164,7 +164,7 @@ export default function CanvasPage() {
  <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center">
  <SundaeIcon name={item.icon} size="sm" className="text-purple-600" />
  </div>
- <span className="text-gray-900 font-medium">{item.feature}</span>
+ <span className="text-slate-900 font-medium">{item.feature}</span>
  </div>
  ))}
  </div>
@@ -175,13 +175,13 @@ export default function CanvasPage() {
  <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
  <SundaeIcon name="canvas" size="xl" className="text-white" />
  </div>
- <h3 className="text-2xl font-bold text-gray-900">Live Dashboard Preview</h3>
+ <h3 className="text-2xl font-bold text-slate-900">Live Dashboard Preview</h3>
  </div>
  
  <div className="space-y-4">
  <div className="bg-white rounded-lg p-4 shadow-sm">
  <div className="flex justify-between items-center mb-2">
- <span className="text-sm font-medium text-gray-700">Daily Sales</span>
+ <span className="text-sm font-medium text-slate-700">Daily Sales</span>
  <span className="text-sm text-green-600">+12%</span>
  </div>
  <div className="h-16 bg-gradient-to-r from-purple-200 to-blue-200 rounded"></div>
@@ -189,7 +189,7 @@ export default function CanvasPage() {
  
  <div className="bg-white rounded-lg p-4 shadow-sm">
  <div className="flex justify-between items-center mb-2">
- <span className="text-sm font-medium text-gray-700">Labor Cost %</span>
+ <span className="text-sm font-medium text-slate-700">Labor Cost %</span>
  <span className="text-sm text-red-600">-3.2%</span>
  </div>
  <div className="h-16 bg-gradient-to-r from-blue-200 to-purple-200 rounded"></div>
@@ -197,7 +197,7 @@ export default function CanvasPage() {
  
  <div className="bg-white rounded-lg p-4 shadow-sm">
  <div className="flex justify-between items-center mb-2">
- <span className="text-sm font-medium text-gray-700">Guest Count</span>
+ <span className="text-sm font-medium text-slate-700">Guest Count</span>
  <span className="text-sm text-green-600">+8.5%</span>
  </div>
  <div className="h-16 bg-gradient-to-r from-blue-200 to-purple-200 rounded"></div>
@@ -219,7 +219,7 @@ export default function CanvasPage() {
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <Link href="/demo">
- <Button variant="primary" size="lg" className="bg-white text-purple-600 hover:bg-gray-100">
+ <Button variant="primary" size="lg" className="bg-white text-purple-600 hover:bg-slate-100">
  Book Canvas Demo
  </Button>
  </Link>

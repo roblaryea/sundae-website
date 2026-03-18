@@ -30,26 +30,26 @@ export const Card: React.FC<CardProps> = ({
  
  const variants = {
  // Default - subtle background with light shadow
- default: 'bg-white shadow-sm border border-gray-200/60 backdrop-blur-sm',
+ default: 'bg-white shadow-sm border border-slate-200/60 backdrop-blur-sm',
  
  // Elevated - stronger shadow for emphasis
- elevated: 'bg-white shadow-lg shadow-gray-200/50 border border-gray-100 backdrop-blur-sm',
+ elevated: 'bg-white shadow-lg shadow-slate-200/50 border border-slate-100 backdrop-blur-sm',
  
  // Outlined - minimal with hover effect
- outlined: 'bg-white/50 border-2 border-gray-200 hover:border-slate-400/50 backdrop-blur-sm',
+ outlined: 'bg-white/50 border-2 border-slate-200 hover:border-slate-400/50 backdrop-blur-sm',
  
  // Gradient - blue gradient background
  gradient: 'bg-gradient-to-br from-blue-50/80 to-indigo-50/80 shadow-lg shadow-blue-100/30 border border-blue-100/50 backdrop-blur-sm',
  
  // Feature - for feature cards with icon
- feature: 'bg-white shadow-md shadow-gray-100/50 border border-gray-100 hover:shadow-lg hover:shadow-gray-200/50 hover:border-slate-300',
+ feature: 'bg-white shadow-md shadow-slate-100/50 border border-slate-100 hover:shadow-lg hover:shadow-slate-200/50 hover:border-slate-300',
  
  // Pricing - for pricing cards
- pricing: 'bg-white shadow-xl shadow-gray-200/60 border-2 border-gray-100 backdrop-blur-sm',
+ pricing: 'bg-white shadow-xl shadow-slate-200/60 border-2 border-slate-100 backdrop-blur-sm',
  };
 
  const hoverStyles = hover
- ? 'hover:-translate-y-1 hover:shadow-xl hover:shadow-gray-200/60 cursor-pointer'
+ ? 'hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-200/60 cursor-pointer'
  : '';
 
  const interactiveStyles = onClick ? 'cursor-pointer' : '';
@@ -84,7 +84,7 @@ interface CardTitleProps {
 export const CardTitle: React.FC<CardTitleProps> = ({ children, className = '', as = 'h3' }) => {
  const Component = as;
  const sizeClass = as === 'h2' ? 'text-2xl' : as === 'h3' ? 'text-xl' : 'text-lg';
- return <Component className={`${sizeClass} font-bold text-gray-900 ${className}`}>{children}</Component>;
+ return <Component className={`${sizeClass} font-bold text-slate-900 ${className}`}>{children}</Component>;
 };
 
 interface CardDescriptionProps {
@@ -93,7 +93,7 @@ interface CardDescriptionProps {
 }
 
 export const CardDescription: React.FC<CardDescriptionProps> = ({ children, className = '' }) => {
- return <p className={`text-[16px] leading-relaxed text-gray-600 mt-2 ${className}`}>{children}</p>;
+ return <p className={`text-[16px] leading-relaxed text-slate-600 mt-2 ${className}`}>{children}</p>;
 };
 
 interface CardContentProps {
@@ -111,7 +111,7 @@ interface CardFooterProps {
 }
 
 export const CardFooter: React.FC<CardFooterProps> = ({ children, className = '' }) => {
- return <div className={`mt-6 pt-4 border-t border-gray-100 ${className}`}>{children}</div>;
+ return <div className={`mt-6 pt-4 border-t border-slate-100 ${className}`}>{children}</div>;
 };
 
 // Feature card icon wrapper
@@ -123,7 +123,7 @@ interface CardIconProps {
 
 export const CardIcon: React.FC<CardIconProps> = ({ children, className = '', variant = 'gradient' }) => {
  const variants = {
- default: 'bg-gray-100 text-gray-700',
+ default: 'bg-slate-100 text-slate-700',
  gradient: 'bg-gradient-to-br from-slate-800 to-slate-900 text-white',
  outlined: 'border-2 border-slate-800 bg-slate-800/10 text-slate-800',
  };

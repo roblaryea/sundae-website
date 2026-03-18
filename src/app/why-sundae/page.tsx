@@ -79,10 +79,10 @@ export default function WhySundaePage() {
  <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
  <div className="max-w-7xl mx-auto">
  <FadeUp className="text-center mb-16">
- <h2 className="section-h2 text-gray-900 mb-4">
+ <h2 className="section-h2 text-slate-900 mb-4">
  The Three Gaps Costing You Money
  </h2>
- <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+ <p className="body-xl text-slate-600 max-w-3xl mx-auto">
  Every restaurant group we&apos;ve worked with faces the same three challenges
  </p>
  </FadeUp>
@@ -104,8 +104,8 @@ export default function WhySundaePage() {
  <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center text-white text-2xl mx-auto mb-4">
  &rarr;
  </div>
- <h4 className="font-semibold text-gray-900 mb-2">Sundae Solution</h4>
- <p className="text-gray-600 text-sm">{item.solution}</p>
+ <h4 className="font-semibold text-slate-900 mb-2">Sundae Solution</h4>
+ <p className="text-slate-600 text-sm">{item.solution}</p>
  </div>
  </div>
 
@@ -127,10 +127,10 @@ export default function WhySundaePage() {
  <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
  <div className="max-w-7xl mx-auto">
  <FadeUp className="text-center mb-16">
- <h2 className="section-h2 text-gray-900 mb-4">
+ <h2 className="section-h2 text-slate-900 mb-4">
  What Makes Sundae Different
  </h2>
- <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+ <p className="body-xl text-slate-600 max-w-3xl mx-auto">
  Six capabilities that no other platform combines
  </p>
  </FadeUp>
@@ -144,11 +144,11 @@ export default function WhySundaePage() {
  <div className={`w-12 h-12 ${item.color} rounded-lg flex items-center justify-center text-white`}>
  <SundaeIcon name={item.icon} size="lg" className="text-white" />
  </div>
- <CardTitle className="text-gray-900 text-lg">{item.title}</CardTitle>
+ <CardTitle className="text-slate-900 text-lg">{item.title}</CardTitle>
  </div>
  </CardHeader>
  <CardContent>
- <CardDescription className="text-gray-600">
+ <CardDescription className="text-slate-600">
  {item.description}
  </CardDescription>
  </CardContent>
@@ -211,7 +211,7 @@ export default function WhySundaePage() {
  <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
  <div className="max-w-7xl mx-auto">
  <FadeUp className="text-center mb-16">
- <h2 className="section-h2 text-gray-900 mb-4">
+ <h2 className="section-h2 text-slate-900 mb-4">
  Built for Every Role in the Organization
  </h2>
  </FadeUp>
@@ -250,11 +250,11 @@ export default function WhySundaePage() {
  <div className={`w-14 h-14 ${role.color} rounded-full flex items-center justify-center text-white mx-auto mb-4`}>
  <SundaeIcon name={role.icon} size="lg" className="text-white" />
  </div>
- <CardTitle className="text-gray-900 text-lg">{role.title}</CardTitle>
+ <CardTitle className="text-slate-900 text-lg">{role.title}</CardTitle>
  </div>
  </CardHeader>
  <CardContent>
- <p className="text-sm text-gray-600 text-center">{role.description}</p>
+ <p className="text-sm text-slate-600 text-center">{role.description}</p>
  </CardContent>
  </Card>
  </StaggerItem>

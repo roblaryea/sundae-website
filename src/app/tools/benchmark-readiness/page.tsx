@@ -121,7 +121,7 @@ export default function BenchmarkReadinessPage() {
  };
 
  return (
- <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50 py-32 px-4 sm:px-6 lg:px-8">
+ <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50 py-32 px-4 sm:px-6 lg:px-8">
  <div className="max-w-4xl mx-auto">
  <Link href="/tools" className="inline-flex items-center text-blue-600 hover:text-blue-700 mb-6">
  ← Back to Tools
@@ -132,10 +132,10 @@ export default function BenchmarkReadinessPage() {
  <SundaeIcon name="chart" size="md" />
  <span>Benchmark Readiness</span>
  </div>
- <h1 className="hero-h1 text-gray-900 mb-4">
+ <h1 className="hero-h1 text-slate-900 mb-4">
  Benchmark Readiness Assessment
  </h1>
- <p className="body-xl text-gray-600">
+ <p className="body-xl text-slate-600">
  Evaluate your organization's readiness for data-driven benchmarking
  </p>
  </div>
@@ -149,12 +149,12 @@ export default function BenchmarkReadinessPage() {
  <div className="space-y-8">
  {questions.map((q, index) => (
  <div key={q.id}>
- <label className="block text-sm font-medium text-gray-900 mb-3">
+ <label className="block text-sm font-medium text-slate-900 mb-3">
  {index + 1}. {q.question}
  </label>
  <div className="space-y-2">
  {q.options.map((option) => (
- <label key={option.value} className="flex items-center space-x-3 p-3 border border-gray-200 rounded-lg hover:bg-slate-50 cursor-pointer">
+ <label key={option.value} className="flex items-center space-x-3 p-3 border border-slate-200 rounded-lg hover:bg-slate-50 cursor-pointer">
  <input
  type="radio"
  name={q.id}
@@ -163,7 +163,7 @@ export default function BenchmarkReadinessPage() {
  onChange={(e) => setResponses({ ...responses, [q.id]: e.target.value })}
  className="w-4 h-4 text-blue-600"
  />
- <span className="text-gray-700">{option.label}</span>
+ <span className="text-slate-700">{option.label}</span>
  </label>
  ))}
  </div>
@@ -184,29 +184,29 @@ export default function BenchmarkReadinessPage() {
  </CardHeader>
  <CardContent className="space-y-6">
  <div className="bg-blue-50 rounded-lg p-6 text-center">
- <div className="text-sm text-gray-600 mb-2">Overall Readiness</div>
+ <div className="text-sm text-slate-600 mb-2">Overall Readiness</div>
  <div className="text-5xl font-bold text-blue-600 mb-2">
  {result.score}%
  </div>
- <div className="text-xl font-semibold text-gray-900">
+ <div className="text-xl font-semibold text-slate-900">
  {result.level}
  </div>
  </div>
 
  <div className="bg-slate-50 rounded-lg p-6">
- <div className="text-sm font-semibold text-gray-700 mb-3">Recommendations</div>
+ <div className="text-sm font-semibold text-slate-700 mb-3">Recommendations</div>
  <ul className="space-y-2">
  {result.recommendations.map((rec, idx) => (
  <li key={idx} className="flex items-start space-x-2">
  <span className="text-blue-600 mt-1">•</span>
- <span className="text-gray-600">{rec}</span>
+ <span className="text-slate-600">{rec}</span>
  </li>
  ))}
  </ul>
  </div>
 
  <div className="bg-green-50 rounded-lg p-4">
- <p className="text-sm text-gray-700">
+ <p className="text-sm text-slate-700">
  <strong>Next Step:</strong> {result.score >= 60 ? 
  'You\'re ready to start benchmarking! Consider scheduling a demo to see how Sundae can help.' :
  'Focus on the recommendations above, then retake this assessment in 3-6 months.'}
@@ -217,7 +217,7 @@ export default function BenchmarkReadinessPage() {
  )}
 
  <div className="mt-12 text-center">
- <p className="text-gray-600 mb-6">
+ <p className="text-slate-600 mb-6">
  Ready to start benchmarking with Sundae?
  </p>
  <Link href="/demo">

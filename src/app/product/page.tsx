@@ -112,10 +112,10 @@ export default function ProductPage() {
         <div className="max-w-5xl mx-auto">
           <FadeUp>
             <div className="text-center mb-12">
-              <h2 className="section-h2 text-gray-900 mb-4">
+              <h2 className="section-h2 text-slate-900 mb-4">
                 Two Product Tiers
               </h2>
-              <p className="body-lg text-gray-600">
+              <p className="body-lg text-slate-600">
                 Choose historical analysis or real-time operations — or both.
               </p>
             </div>
@@ -141,13 +141,13 @@ export default function ProductPage() {
                   <span className="absolute top-3 right-3 badge badge--free text-[10px]">FREE FOREVER</span>
                 </div>
                 <CardContent className="p-6">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Sundae Report</h3>
+                  <h3 className="text-2xl font-bold text-slate-900 mb-2">Sundae Report</h3>
                   <p className="text-sm text-blue-600 font-semibold mb-3">Historical Analysis & Benchmarking</p>
-                  <p className="text-gray-600 mb-4 leading-relaxed">
+                  <p className="text-slate-600 mb-4 leading-relaxed">
                     Upload your data and instantly see where you stand. Performance benchmarking, margin analysis, and historical patterns — free to start.
                   </p>
-                  <p className="text-sm font-medium text-gray-900 mb-3">Includes:</p>
-                  <ul className="text-sm text-gray-600 space-y-1.5 mb-6">
+                  <p className="text-sm font-medium text-slate-900 mb-3">Includes:</p>
+                  <ul className="text-sm text-slate-600 space-y-1.5 mb-6">
                     <li className="flex items-center gap-2"><span className="text-blue-500">&#10003;</span> Benchmarks (competitive intelligence)</li>
                     <li className="flex items-center gap-2"><span className="text-blue-500">&#10003;</span> Performance Report</li>
                     <li className="flex items-center gap-2"><span className="text-blue-500">&#10003;</span> Sundae Intelligence</li>
@@ -183,13 +183,13 @@ export default function ProductPage() {
                   <span className="absolute top-3 right-3 badge badge--popular text-[10px]">MOST POPULAR</span>
                 </div>
                 <CardContent className="p-6">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Sundae Core</h3>
+                  <h3 className="text-2xl font-bold text-slate-900 mb-2">Sundae Core</h3>
                   <p className="text-sm text-purple-600 font-semibold mb-3">Real-Time Operations & Predictions</p>
-                  <p className="text-gray-600 mb-4 leading-relaxed">
+                  <p className="text-slate-600 mb-4 leading-relaxed">
                     Everything in Report, plus real-time intelligence. Pulse monitoring, predictive alerts, AI coaching, and Watchtower market signals.
                   </p>
-                  <p className="text-sm font-medium text-gray-900 mb-3">Everything in Report, plus:</p>
-                  <ul className="text-sm text-gray-600 space-y-1.5 mb-6">
+                  <p className="text-sm font-medium text-slate-900 mb-3">Everything in Report, plus:</p>
+                  <ul className="text-sm text-slate-600 space-y-1.5 mb-6">
                     <li className="flex items-center gap-2"><span className="text-purple-500">&#10003;</span> Pulse (intraday operations)</li>
                     <li className="flex items-center gap-2"><span className="text-purple-500">&#10003;</span> Watchtower (market intelligence)</li>
                     <li className="flex items-center gap-2"><span className="text-purple-500">&#10003;</span> Intelligence Modules</li>
@@ -221,17 +221,17 @@ export default function ProductPage() {
       </section>
 
       {/* All Product Pillars */}
-      <section ref={gridRef} className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-50/30">
+      <section ref={gridRef} className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-blue-50/30">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
               <p className="text-xs font-semibold tracking-[0.18em] uppercase text-slate-500 mb-4">
                 PRODUCT PILLARS
               </p>
-              <h2 className="section-h2 text-gray-900 mb-4">
+              <h2 className="section-h2 text-slate-900 mb-4">
                 Five Pillars of Decision Intelligence
               </h2>
-              <p className="body-lg text-gray-600 max-w-3xl mx-auto">
+              <p className="body-lg text-slate-600 max-w-3xl mx-auto">
                 Each pillar handles a distinct dimension of your operations. Together, they form a complete decision intelligence platform — with Cross-Intelligence connecting insights across every module.
               </p>
             </div>
@@ -266,16 +266,16 @@ export default function ProductPage() {
                         <SundaeIcon name={pillar.icon} size="lg" className="text-white" />
                       </div>
                       <div>
-                        <h3 className="text-2xl font-bold text-gray-900">{pillar.name}</h3>
-                        <p className="text-sm text-gray-500 font-medium">{pillar.tagline}</p>
+                        <h3 className="text-2xl font-bold text-slate-900">{pillar.name}</h3>
+                        <p className="text-sm text-slate-500 font-medium">{pillar.tagline}</p>
                       </div>
                     </div>
-                    <p className="text-gray-600 leading-relaxed mb-6">
+                    <p className="text-slate-600 leading-relaxed mb-6">
                       {pillar.description}
                     </p>
                     <div className="grid grid-cols-2 gap-2 mb-6">
                       {pillar.features.map((feature) => (
-                        <div key={feature} className="flex items-center gap-2 text-sm text-gray-700">
+                        <div key={feature} className="flex items-center gap-2 text-sm text-slate-700">
                           <span className="text-slate-900 flex-shrink-0">&#10003;</span>
                           <span>{feature}</span>
                         </div>
@@ -304,7 +304,7 @@ export default function ProductPage() {
               <p className="text-xs font-semibold tracking-[0.18em] uppercase text-slate-500 mb-4">
                 PLATFORM
               </p>
-              <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+              <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-4">
                 Also Included
               </h2>
             </div>
@@ -316,9 +316,9 @@ export default function ProductPage() {
                 <SundaeIcon name="integration" size="lg" className="text-white" />
               </div>
               <div>
-                <h3 className="font-bold text-gray-900 mb-1">Integrations Hub</h3>
-                <p className="text-sm text-gray-500 font-medium mb-2">12-Domain Data Engine</p>
-                <p className="text-sm text-gray-600 leading-relaxed">
+                <h3 className="font-bold text-slate-900 mb-1">Integrations Hub</h3>
+                <p className="text-sm text-slate-500 font-medium mb-2">12-Domain Data Engine</p>
+                <p className="text-sm text-slate-600 leading-relaxed">
                   Connect POS, labor, inventory, delivery, and more. Health monitoring, activity logs, and webhook support included.
                 </p>
               </div>
@@ -329,9 +329,9 @@ export default function ProductPage() {
                 <SundaeIcon name="operators" size="lg" className="text-white" />
               </div>
               <div>
-                <h3 className="font-bold text-gray-900 mb-1">Crew</h3>
-                <p className="text-sm text-gray-500 font-medium mb-2">Organization & Team Management</p>
-                <p className="text-sm text-gray-600 leading-relaxed">
+                <h3 className="font-bold text-slate-900 mb-1">Crew</h3>
+                <p className="text-sm text-slate-500 font-medium mb-2">Organization & Team Management</p>
+                <p className="text-sm text-slate-600 leading-relaxed">
                   Multi-restaurant hierarchy, role-based access control, departments, teams, and billing management.
                 </p>
               </div>

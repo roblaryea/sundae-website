@@ -75,7 +75,7 @@ export default function SundaeReportPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
@@ -83,10 +83,10 @@ export default function SundaeReportPage() {
             <SundaeIcon name="performance" size="md" />
             <span>Free Restaurant Benchmarking</span>
           </div>
-          <h1 className="hero-h1 text-gray-900 mb-6">
+          <h1 className="hero-h1 text-slate-900 mb-6">
             Sundae Report
           </h1>
-          <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-4xl mx-auto">
+          <p className="text-xl md:text-2xl text-slate-600 mb-8 max-w-4xl mx-auto">
             Get a free benchmarking report comparing your restaurant's performance against industry standards. 
             See exactly where you stand and what to improve.
           </p>
@@ -109,10 +109,10 @@ export default function SundaeReportPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
+            <h2 className="section-h2 text-slate-900 mb-4">
               See How You Compare
             </h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
               Benchmark your restaurant across key performance categories against similar businesses
             </p>
           </div>
@@ -125,14 +125,14 @@ export default function SundaeReportPage() {
                     <div className={`w-12 h-12 ${category.color} rounded-lg flex items-center justify-center text-white`}>
                       <SundaeIcon name={category.icon} size="lg" className="text-white" />
                     </div>
-                    <CardTitle className="text-gray-900">{category.name}</CardTitle>
+                    <CardTitle className="text-slate-900">{category.name}</CardTitle>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2">
                     {category.metrics.map((metric, metricIndex) => (
-                      <li key={metricIndex} className="text-sm text-gray-600 flex items-center">
-                        <div className="w-2 h-2 bg-gray-300 rounded-full mr-2"></div>
+                      <li key={metricIndex} className="text-sm text-slate-600 flex items-center">
+                        <div className="w-2 h-2 bg-slate-300 rounded-full mr-2"></div>
                         {metric}
                       </li>
                     ))}
@@ -148,10 +148,10 @@ export default function SundaeReportPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
+            <h2 className="section-h2 text-slate-900 mb-4">
               How It Works
             </h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
               Get your free benchmarking report in minutes, not days
             </p>
           </div>
@@ -164,10 +164,10 @@ export default function SundaeReportPage() {
                     <SundaeIcon name={step.icon} size="xl" className="text-white" />
                   </div>
                   <div className="text-sm text-blue-600 font-medium mb-2">Step {step.step}</div>
-                  <CardTitle className="text-gray-900">{step.title}</CardTitle>
+                  <CardTitle className="text-slate-900">{step.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-gray-600">
+                  <CardDescription className="text-slate-600">
                     {step.description}
                   </CardDescription>
                 </CardContent>
@@ -181,10 +181,10 @@ export default function SundaeReportPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
+            <h2 className="section-h2 text-slate-900 mb-4">
               Sample Insights You'll Get
             </h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
               Real examples of actionable insights from our benchmarking reports
             </p>
           </div>
@@ -195,18 +195,18 @@ export default function SundaeReportPage() {
                 <CardHeader>
                   <div className="flex items-center space-x-3">
                     <div className="w-3 h-3 bg-warning rounded-full"></div>
-                    <CardTitle className="text-gray-900 text-lg">{insight.category}</CardTitle>
+                    <CardTitle className="text-slate-900 text-lg">{insight.category}</CardTitle>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-3">
                     <div>
-                      <div className="text-sm font-medium text-gray-700 mb-1">What we found:</div>
-                      <p className="text-gray-600">{insight.insight}</p>
+                      <div className="text-sm font-medium text-slate-700 mb-1">What we found:</div>
+                      <p className="text-slate-600">{insight.insight}</p>
                     </div>
                     <div>
-                      <div className="text-sm font-medium text-gray-700 mb-1">Recommendation:</div>
-                      <p className="text-gray-600">{insight.recommendation}</p>
+                      <div className="text-sm font-medium text-slate-700 mb-1">Recommendation:</div>
+                      <p className="text-slate-600">{insight.recommendation}</p>
                     </div>
                     <div className="bg-green-50 rounded-lg p-3">
                       <div className="text-sm font-medium text-green-700 mb-1">Potential Impact:</div>
@@ -259,10 +259,10 @@ export default function SundaeReportPage() {
       {/* CTA Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 text-gray-900 mb-6">
+          <h2 className="section-h2 text-slate-900 mb-6">
             Ready to See Your Benchmarks?
           </h2>
-          <p className="body-xl text-gray-600 mb-8">
+          <p className="body-xl text-slate-600 mb-8">
             Join thousands of restaurant operators who use Sundae Report to understand their performance. 
             No credit card required, no obligations — just insights.
           </p>
@@ -278,7 +278,7 @@ export default function SundaeReportPage() {
               </Button>
             </a>
           </div>
-          <p className="text-sm text-gray-500 mt-6">
+          <p className="text-sm text-slate-500 mt-6">
             Takes less than 5 minutes • Secure data handling • Results in your inbox
           </p>
         </div>

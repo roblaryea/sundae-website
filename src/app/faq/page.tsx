@@ -305,7 +305,7 @@ export default function FAQPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50/80 via-purple-50/30 to-blue-50/60">
         <div className="max-w-4xl mx-auto text-center">
@@ -318,10 +318,10 @@ export default function FAQPage() {
               <SundaeIcon name="conversation" size="sm" />
               <span>Frequently Asked Questions</span>
             </div>
-            <h1 className="hero-h1 text-gray-900 mb-6">
+            <h1 className="hero-h1 text-slate-900 mb-6">
               Everything You Need to Know
             </h1>
-            <p className="body-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+            <p className="body-xl text-slate-600 mb-8 max-w-3xl mx-auto">
               Find answers to common questions about Sundae, our products, pricing, and how we help restaurants make better decisions.
             </p>
           </motion.div>
@@ -331,7 +331,7 @@ export default function FAQPage() {
       {/* Quick Links */}
       <section className="py-12 px-4 sm:px-6 lg:px-8 bg-white border-b">
         <div className="max-w-7xl mx-auto">
-          <p className="text-center text-sm text-gray-600 mb-4">Jump to category:</p>
+          <p className="text-center text-sm text-slate-600 mb-4">Jump to category:</p>
           <div className="flex flex-wrap justify-center gap-3">
             {faqCategories.map((category) => (
               <button
@@ -340,7 +340,7 @@ export default function FAQPage() {
                   const element = document.getElementById(category.id);
                   element?.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="px-4 py-2 bg-gray-100 hover:bg-blue-100 text-gray-700 hover:text-blue-700 rounded-lg text-sm font-medium transition-colors duration-200 flex items-center space-x-2"
+                className="px-4 py-2 bg-slate-100 hover:bg-blue-100 text-slate-700 hover:text-blue-700 rounded-lg text-sm font-medium transition-colors duration-200 flex items-center space-x-2"
               >
                 <SundaeIcon name={category.icon} size="sm" />
                 <span>{category.title}</span>
@@ -368,7 +368,7 @@ export default function FAQPage() {
                   <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
                     <SundaeIcon name={category.icon} size="lg" className="text-white" />
                   </div>
-                  <h2 className="text-3xl font-bold text-gray-900">{category.title}</h2>
+                  <h2 className="text-3xl font-bold text-slate-900">{category.title}</h2>
                 </div>
                 <div className="h-1 w-20 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full"></div>
               </div>
@@ -391,7 +391,7 @@ export default function FAQPage() {
             <Button 
               variant="secondary" 
               size="lg" 
-              className="bg-white text-blue-600 hover:bg-gray-100"
+              className="bg-white text-blue-600 hover:bg-slate-100"
               onClick={() => cta(REPORT_APP_URL, "start_free_from_faq", { page: "/faq" })}
             >
               Start Free →

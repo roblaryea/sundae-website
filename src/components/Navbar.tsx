@@ -251,17 +251,21 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-8">
             {/* Products Mega Menu */}
-            <div className="relative group">
-              <div
-                className="text-gray-900 hover:text-slate-600 transition-colors duration-200 font-medium cursor-pointer text-sm"
+            <div className="relative group" onMouseLeave={() => setActiveDropdown(null)}>
+              <button
+                type="button"
+                className="text-slate-900 hover:text-slate-600 transition-colors duration-200 font-medium cursor-pointer text-sm bg-transparent border-none p-0"
                 onMouseEnter={() => setActiveDropdown('product')}
+                onClick={() => setActiveDropdown(activeDropdown === 'product' ? null : 'product')}
+                aria-haspopup="true"
+                aria-expanded={activeDropdown === 'product'}
               >
                 Products
-              </div>
-              
+              </button>
+
               {activeDropdown === 'product' && (
                 <div
-                  className="absolute top-full left-0 mt-2 w-[420px] bg-white rounded-xl shadow-2xl border border-gray-200 px-6 py-6 z-50 animate-dropdown-in"
+                  className="absolute top-full left-0 mt-2 w-[420px] bg-white rounded-xl shadow-2xl border border-slate-200 px-6 py-6 z-50 animate-dropdown-in"
                   onMouseEnter={() => setActiveDropdown('product')}
                   onMouseLeave={() => setActiveDropdown(null)}
                 >
@@ -278,10 +282,10 @@ const Navbar = () => {
                           className="block p-3 rounded-lg hover:bg-slate-50 transition-colors duration-200"
                           onClick={() => setActiveDropdown(null)}
                         >
-                          <div className="font-semibold text-gray-900 text-sm leading-snug mb-0.5">
+                          <div className="font-semibold text-slate-900 text-sm leading-snug mb-0.5">
                             {pillar.name}
                           </div>
-                          <div className="text-xs text-gray-500 leading-snug">
+                          <div className="text-xs text-slate-500 leading-snug">
                             {pillar.description}
                           </div>
                         </Link>
@@ -290,7 +294,7 @@ const Navbar = () => {
                   </div>
 
                   {/* Separator */}
-                  <div className="border-t border-gray-200 my-4"></div>
+                  <div className="border-t border-slate-200 my-4"></div>
 
                   {/* Plans */}
                   <div>
@@ -305,10 +309,10 @@ const Navbar = () => {
                           className="block p-3 rounded-lg hover:bg-slate-50 transition-colors duration-200"
                           onClick={() => setActiveDropdown(null)}
                         >
-                          <div className="font-semibold text-gray-900 text-sm leading-snug mb-0.5">
+                          <div className="font-semibold text-slate-900 text-sm leading-snug mb-0.5">
                             {plan.name}
                           </div>
-                          <div className="text-xs text-gray-500 leading-snug">
+                          <div className="text-xs text-slate-500 leading-snug">
                             {plan.description}
                           </div>
                         </Link>
@@ -317,14 +321,14 @@ const Navbar = () => {
                     <div className="flex items-center gap-4 px-3">
                       <Link
                         href="/report-vs-core"
-                        className="text-sm font-medium text-gray-700 hover:text-slate-900 transition-colors"
+                        className="text-sm font-medium text-slate-700 hover:text-slate-900 transition-colors"
                         onClick={() => setActiveDropdown(null)}
                       >
                         Compare Plans →
                       </Link>
                       <a
                         href={REPORT_APP_URL}
-                        className="text-sm font-semibold text-blue-600 hover:text-blue-700 transition-colors"
+                        className="text-sm font-semibold text-slate-900 hover:text-slate-700 transition-colors"
                         onClick={() => setActiveDropdown(null)}
                       >
                         Start Free →
@@ -336,17 +340,21 @@ const Navbar = () => {
             </div>
 
             {/* Solutions Mega Menu */}
-            <div className="relative group">
-              <div
-                className="text-gray-900 hover:text-slate-600 transition-colors duration-200 font-medium cursor-pointer text-sm"
+            <div className="relative group" onMouseLeave={() => setActiveDropdown(null)}>
+              <button
+                type="button"
+                className="text-slate-900 hover:text-slate-600 transition-colors duration-200 font-medium cursor-pointer text-sm bg-transparent border-none p-0"
                 onMouseEnter={() => setActiveDropdown('solutions')}
+                onClick={() => setActiveDropdown(activeDropdown === 'solutions' ? null : 'solutions')}
+                aria-haspopup="true"
+                aria-expanded={activeDropdown === 'solutions'}
               >
                 Solutions
-              </div>
+              </button>
               
               {activeDropdown === 'solutions' && (
                 <div
-                  className="absolute top-full left-0 mt-2 w-[420px] bg-white rounded-xl shadow-2xl border border-gray-200 px-6 py-6 z-50 animate-dropdown-in"
+                  className="absolute top-full left-0 mt-2 w-[420px] bg-white rounded-xl shadow-2xl border border-slate-200 px-6 py-6 z-50 animate-dropdown-in"
                   onMouseEnter={() => setActiveDropdown('solutions')}
                   onMouseLeave={() => setActiveDropdown(null)}
                 >
@@ -363,7 +371,7 @@ const Navbar = () => {
                           className="block p-3 rounded-lg hover:bg-slate-50 transition-colors duration-200"
                           onClick={() => setActiveDropdown(null)}
                         >
-                          <div className="font-semibold text-gray-900 text-sm leading-snug">
+                          <div className="font-semibold text-slate-900 text-sm leading-snug">
                             {solution.name}
                           </div>
                         </Link>
@@ -372,7 +380,7 @@ const Navbar = () => {
                   </div>
 
                   {/* Separator */}
-                  <div className="border-t border-gray-200 my-4"></div>
+                  <div className="border-t border-slate-200 my-4"></div>
 
                   {/* Roles */}
                   <div>
@@ -387,7 +395,7 @@ const Navbar = () => {
                           className="block p-3 rounded-lg hover:bg-slate-50 transition-colors duration-200"
                           onClick={() => setActiveDropdown(null)}
                         >
-                          <div className="font-semibold text-gray-900 text-sm leading-snug">
+                          <div className="font-semibold text-slate-900 text-sm leading-snug">
                             {solution.name}
                           </div>
                         </Link>
@@ -398,26 +406,30 @@ const Navbar = () => {
               )}
             </div>
 
-            <a href={PRICING_URL} className="text-gray-900 hover:text-slate-600 transition-colors duration-200 font-medium text-sm">
+            <a href={PRICING_URL} className="text-slate-900 hover:text-slate-600 transition-colors duration-200 font-medium text-sm">
               Pricing
             </a>
             
-            <Link href="/about" className="text-gray-900 hover:text-slate-600 transition-colors duration-200 font-medium text-sm">
+            <Link href="/about" className="text-slate-900 hover:text-slate-600 transition-colors duration-200 font-medium text-sm">
               About
             </Link>
             
             {/* Resources Dropdown */}
-            <div className="relative group">
-              <div
-                className="text-gray-900 hover:text-slate-600 transition-colors duration-200 font-medium cursor-pointer text-sm"
+            <div className="relative group" onMouseLeave={() => setActiveDropdown(null)}>
+              <button
+                type="button"
+                className="text-slate-900 hover:text-slate-600 transition-colors duration-200 font-medium cursor-pointer text-sm bg-transparent border-none p-0"
                 onMouseEnter={() => setActiveDropdown('resources')}
+                onClick={() => setActiveDropdown(activeDropdown === 'resources' ? null : 'resources')}
+                aria-haspopup="true"
+                aria-expanded={activeDropdown === 'resources'}
               >
                 Resources
-              </div>
+              </button>
               
               {activeDropdown === 'resources' && (
                 <div
-                  className="absolute top-full left-0 mt-2 w-[240px] bg-white rounded-xl shadow-2xl border border-gray-200 px-6 py-6 z-50 animate-dropdown-in"
+                  className="absolute top-full left-0 mt-2 w-[240px] bg-white rounded-xl shadow-2xl border border-slate-200 px-6 py-6 z-50 animate-dropdown-in"
                   onMouseEnter={() => setActiveDropdown('resources')}
                   onMouseLeave={() => setActiveDropdown(null)}
                 >
@@ -432,7 +444,7 @@ const Navbar = () => {
                         className="block p-3 rounded-lg hover:bg-slate-50 transition-colors duration-200"
                         onClick={() => setActiveDropdown(null)}
                       >
-                        <div className="font-semibold text-gray-900 text-sm leading-snug">
+                        <div className="font-semibold text-slate-900 text-sm leading-snug">
                           {resource.name}
                         </div>
                       </Link>
@@ -469,7 +481,7 @@ const Navbar = () => {
           <div className="lg:hidden flex items-center gap-2">
             <button
               type="button"
-              className="inline-flex items-center justify-center p-2 rounded-lg text-gray-900 hover:bg-gray-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 relative z-50"
+              className="inline-flex items-center justify-center p-2 rounded-lg text-slate-900 hover:bg-slate-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 relative z-50"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               aria-label={isMenuOpen ? "Close menu" : "Open menu"}
               aria-expanded={isMenuOpen}

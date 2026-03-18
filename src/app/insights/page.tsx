@@ -239,7 +239,7 @@ export default function InsightsPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="hero-h1 text-gray-900 mb-6"
+            className="hero-h1 text-slate-900 mb-6"
           >
             Go Deeper Into Every Part of Your Operation
           </motion.h1>
@@ -248,7 +248,7 @@ export default function InsightsPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="body-xl text-gray-600 mb-8 max-w-3xl mx-auto"
+            className="body-xl text-slate-600 mb-8 max-w-3xl mx-auto"
           >
             12 specialized modules — revenue, labor, inventory, purchasing, marketing, reservations, profit, delivery, guest experience, CRM, revenue assurance, and cross-intelligence. Each one gives you AI-powered analytics for a specific operational domain.
           </motion.p>
@@ -305,7 +305,7 @@ export default function InsightsPage() {
                   <div className="w-9 h-9 mx-auto mb-1.5 bg-slate-900 rounded-lg flex items-center justify-center">
                     <SundaeIcon name={item.icon} size="sm" className="text-white" />
                   </div>
-                  <p className="text-[11px] font-medium text-gray-600">{item.label}</p>
+                  <p className="text-[11px] font-medium text-slate-600">{item.label}</p>
                 </motion.div>
               ))}
             </div>
@@ -316,7 +316,7 @@ export default function InsightsPage() {
       {/* Value Props */}
       <section className="py-10 px-4 sm:px-6 lg:px-8 bg-white border-b border-slate-100">
         <div className="max-w-4xl mx-auto">
-          <div className="flex flex-wrap justify-center gap-8 text-sm text-gray-500">
+          <div className="flex flex-wrap justify-center gap-8 text-sm text-slate-500">
             <span className="font-medium">Add modules as you need them</span>
             <span className="text-slate-300">|</span>
             <span className="font-medium">AI-powered analytics per domain</span>
@@ -330,8 +330,8 @@ export default function InsightsPage() {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="section-h2 text-gray-900 mb-2">Who It&apos;s For</h2>
-            <p className="body-lg text-gray-600">Teams who need domain-specific depth, not just dashboards</p>
+            <h2 className="section-h2 text-slate-900 mb-2">Who It&apos;s For</h2>
+            <p className="body-lg text-slate-600">Teams who need domain-specific depth, not just dashboards</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {whoItsFor.map((persona, index) => (
@@ -339,8 +339,8 @@ export default function InsightsPage() {
                 <div className="w-11 h-11 mx-auto mb-3 bg-slate-900 rounded-lg flex items-center justify-center">
                   <SundaeIcon name={persona.icon} size="md" className="text-white" />
                 </div>
-                <h3 className="font-semibold text-gray-900 mb-2">{persona.title}</h3>
-                <p className="text-sm text-gray-600">{persona.description}</p>
+                <h3 className="font-semibold text-slate-900 mb-2">{persona.title}</h3>
+                <p className="text-sm text-slate-600">{persona.description}</p>
               </div>
             ))}
           </div>
@@ -351,10 +351,10 @@ export default function InsightsPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
+            <h2 className="section-h2 text-slate-900 mb-4">
               12 Modules. One Platform.
             </h2>
-            <p className="body-lg text-gray-600 max-w-3xl mx-auto">
+            <p className="body-lg text-slate-600 max-w-3xl mx-auto">
               Each module delivers AI-powered analytics for a specific operational domain
             </p>
           </div>
@@ -377,14 +377,14 @@ export default function InsightsPage() {
                     {module.category}
                   </span>
                 </div>
-                <h3 className="text-base font-semibold text-gray-900 mb-1">{module.name}</h3>
-                <p className="text-xs font-medium text-gray-700 mb-2">{module.headline}</p>
-                <p className="text-sm text-gray-600 leading-relaxed mb-4">
+                <h3 className="text-base font-semibold text-slate-900 mb-1">{module.name}</h3>
+                <p className="text-xs font-medium text-slate-700 mb-2">{module.headline}</p>
+                <p className="text-sm text-slate-600 leading-relaxed mb-4">
                   {module.description}
                 </p>
                 <ul className="space-y-1.5">
                   {module.capabilities.map((cap) => (
-                    <li key={cap} className="flex items-start gap-2 text-sm text-gray-600">
+                    <li key={cap} className="flex items-start gap-2 text-sm text-slate-600">
                       <span className="text-slate-400 mt-0.5 flex-shrink-0 text-xs">&#10003;</span>
                       <span>{cap}</span>
                     </li>
@@ -400,10 +400,10 @@ export default function InsightsPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
+            <h2 className="section-h2 text-slate-900 mb-4">
               How It Works
             </h2>
-            <p className="body-lg text-gray-600 max-w-3xl mx-auto">
+            <p className="body-lg text-slate-600 max-w-3xl mx-auto">
               Add modules to your Core subscription as your needs grow
             </p>
           </div>
@@ -414,8 +414,8 @@ export default function InsightsPage() {
                 <div className="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center text-slate-600 text-lg font-bold mx-auto mb-4">
                   {step.step}
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">{step.title}</h3>
-                <p className="text-sm text-gray-600">{step.description}</p>
+                <h3 className="text-lg font-semibold text-slate-900 mb-2">{step.title}</h3>
+                <p className="text-sm text-slate-600">{step.description}</p>
               </div>
             ))}
           </div>
@@ -428,10 +428,10 @@ export default function InsightsPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <span className="text-[11px] font-semibold tracking-[0.14em] uppercase text-slate-500 mb-4 block">HOW INSIGHTS FITS</span>
-              <h2 className="section-h2 text-gray-900 mb-6">
+              <h2 className="section-h2 text-slate-900 mb-6">
                 The Analytical Layer
               </h2>
-              <p className="body-lg text-gray-600">
+              <p className="body-lg text-slate-600">
                 Pulse monitors your shift in real time. Watchtower tracks what&apos;s happening outside your walls. Insights modules go deeper — domain-specific dashboards for labor, inventory, purchasing, marketing, and more. Together, they form a complete intelligence stack.
               </p>
             </div>
@@ -446,8 +446,8 @@ export default function InsightsPage() {
                     <SundaeIcon name={item.icon} size="md" className="text-white" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 text-sm">{item.name}</h4>
-                    <p className="text-xs text-gray-600">{item.desc}</p>
+                    <h4 className="font-semibold text-slate-900 text-sm">{item.name}</h4>
+                    <p className="text-xs text-slate-600">{item.desc}</p>
                   </div>
                 </div>
               ))}

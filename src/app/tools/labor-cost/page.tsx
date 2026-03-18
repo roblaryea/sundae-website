@@ -46,7 +46,7 @@ export default function LaborCostCalculator() {
  };
 
  return (
- <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50">
+ <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
  <div className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
  <div className="max-w-3xl mx-auto">
  {/* Back Button */}
@@ -61,10 +61,10 @@ export default function LaborCostCalculator() {
  <div className="w-20 h-20 bg-slate-900 rounded-2xl flex items-center justify-center text-white mx-auto mb-6 shadow-lg">
  <SundaeIcon name="hr" size="xl" className="text-white" />
  </div>
- <h1 className="hero-h1 text-gray-900 mb-4">
+ <h1 className="hero-h1 text-slate-900 mb-4">
  Labor Cost % Calculator
  </h1>
- <p className="body-lg text-gray-600">
+ <p className="body-lg text-slate-600">
  Calculate your labor cost percentage and see if you're on target compared to industry standards
  </p>
  </div>
@@ -72,16 +72,16 @@ export default function LaborCostCalculator() {
  {/* Calculator Card */}
  <Card variant="elevated" className="mb-8">
  <CardHeader>
- <CardTitle className="text-2xl text-gray-900">
+ <CardTitle className="text-2xl text-slate-900">
  Enter Your Numbers
  </CardTitle>
- <CardDescription className="text-gray-600">
+ <CardDescription className="text-slate-600">
  Input your total labor cost and sales for the period
  </CardDescription>
  </CardHeader>
  <CardContent className="space-y-6">
  <div>
- <label htmlFor="laborCost" className="block text-sm font-medium text-gray-700 mb-2">
+ <label htmlFor="laborCost" className="block text-sm font-medium text-slate-700 mb-2">
  Total Labor Cost
  </label>
  <input
@@ -91,17 +91,17 @@ export default function LaborCostCalculator() {
  onChange={(e) => setLaborCost(e.target.value)}
  placeholder="e.g., 25000"
  aria-describedby="laborCost-hint"
- className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:ring-2 focus:ring-slate-600 focus:border-transparent"
+ className="w-full px-4 py-3 rounded-lg border border-slate-300 bg-white text-slate-900 focus:ring-2 focus:ring-slate-600 focus:border-transparent"
  min="0"
  step="0.01"
  />
- <p id="laborCost-hint" className="text-xs text-gray-500 mt-1">
+ <p id="laborCost-hint" className="text-xs text-slate-500 mt-1">
  Total wages, benefits, and payroll taxes
  </p>
  </div>
 
  <div>
- <label htmlFor="totalSales" className="block text-sm font-medium text-gray-700 mb-2">
+ <label htmlFor="totalSales" className="block text-sm font-medium text-slate-700 mb-2">
  Total Sales
  </label>
  <input
@@ -111,11 +111,11 @@ export default function LaborCostCalculator() {
  onChange={(e) => setTotalSales(e.target.value)}
  placeholder="e.g., 100000"
  aria-describedby="totalSales-hint"
- className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:ring-2 focus:ring-slate-600 focus:border-transparent"
+ className="w-full px-4 py-3 rounded-lg border border-slate-300 bg-white text-slate-900 focus:ring-2 focus:ring-slate-600 focus:border-transparent"
  min="0"
  step="0.01"
  />
- <p id="totalSales-hint" className="text-xs text-gray-500 mt-1">
+ <p id="totalSales-hint" className="text-xs text-slate-500 mt-1">
  Total revenue for the same period
  </p>
  </div>
@@ -137,7 +137,7 @@ export default function LaborCostCalculator() {
  <Card variant="elevated" className="bg-gradient-to-br from-blue-50 to-white">
  <CardContent className="p-8">
  <div className="text-center mb-6">
- <h3 className="text-lg font-semibold text-gray-700 mb-2">
+ <h3 className="text-lg font-semibold text-slate-700 mb-2">
  Your Labor Cost %
  </h3>
  <div className="text-6xl font-bold text-slate-900 mb-4">
@@ -150,11 +150,11 @@ export default function LaborCostCalculator() {
  <p className="leading-relaxed">{result.interpretation}</p>
  </div>
 
- <div className="mt-6 p-4 bg-gray-100 rounded-lg">
- <h5 className="font-semibold text-gray-900 mb-2 text-sm">
+ <div className="mt-6 p-4 bg-slate-100 rounded-lg">
+ <h5 className="font-semibold text-slate-900 mb-2 text-sm">
  Industry Benchmarks:
  </h5>
- <ul className="text-sm text-gray-700 space-y-1">
+ <ul className="text-sm text-slate-700 space-y-1">
  <li>• &lt; 25%: Below average (may indicate understaffing)</li>
  <li>• 25-32%: Healthy range for most concepts</li>
  <li>• &gt; 32%: Above average (review efficiency)</li>

@@ -190,10 +190,10 @@ export default function SignInPage() {
  <div className="w-full max-w-[400px]">
  {/* Heading */}
  <motion.div {...fadeUp(0)} className="mb-8">
- <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">
+ <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-2">
  Sign in to Sundae
  </h1>
- <p className="text-gray-500 text-sm">
+ <p className="text-slate-500 text-sm">
  Your unified view of performance, operations, and competitive intelligence.
  </p>
  </motion.div>
@@ -203,14 +203,14 @@ export default function SignInPage() {
  <motion.div {...fadeUp(0.05)} className="space-y-3 mb-6">
  <button
  type="button"
- className="w-full flex items-center justify-center gap-3 px-4 py-3 rounded-xl border-2 border-gray-200 bg-white text-sm font-medium text-gray-700 hover:bg-slate-50 transition-colors"
+ className="w-full flex items-center justify-center gap-3 px-4 py-3 rounded-xl border-2 border-slate-200 bg-white text-sm font-medium text-slate-700 hover:bg-slate-50 transition-colors"
  >
  <GoogleIcon />
  Continue with Google
  </button>
  <button
  type="button"
- className="w-full flex items-center justify-center gap-3 px-4 py-3 rounded-xl border-2 border-gray-200 bg-white text-sm font-medium text-gray-700 hover:bg-slate-50 transition-colors"
+ className="w-full flex items-center justify-center gap-3 px-4 py-3 rounded-xl border-2 border-slate-200 bg-white text-sm font-medium text-slate-700 hover:bg-slate-50 transition-colors"
  >
  <MicrosoftIcon />
  Continue with Microsoft
@@ -219,10 +219,10 @@ export default function SignInPage() {
  {/* Divider */}
  <div className="relative py-2">
  <div className="absolute inset-0 flex items-center">
- <div className="w-full border-t border-gray-200" />
+ <div className="w-full border-t border-slate-200" />
  </div>
  <div className="relative flex justify-center">
- <span className="bg-white px-3 text-xs text-gray-400 uppercase tracking-wider">
+ <span className="bg-white px-3 text-xs text-slate-400 uppercase tracking-wider">
  or
  </span>
  </div>
@@ -289,9 +289,9 @@ export default function SignInPage() {
  type="checkbox"
  checked={remember}
  onChange={(e) => setRemember(e.target.checked)}
- className="w-4 h-4 rounded border-gray-300 text-slate-900 focus:ring-slate-900/30 bg-white"
+ className="w-4 h-4 rounded border-slate-300 text-slate-900 focus:ring-slate-900/30 bg-white"
  />
- <span className="text-sm text-gray-600">Remember me</span>
+ <span className="text-sm text-slate-600">Remember me</span>
  </label>
  <a
  href={`${APP_URL}/forgot-password`}
@@ -305,7 +305,7 @@ export default function SignInPage() {
 
  {/* Helper text — redirect mode */}
  {!hasAuth && (
- <p className="text-xs text-gray-400">
+ <p className="text-xs text-slate-400">
  {"You\u2019ll sign in securely in the Sundae app."}
  </p>
  )}
@@ -328,7 +328,7 @@ export default function SignInPage() {
  </motion.form>
 
  {/* Sign up link */}
- <motion.p {...fadeUp(0.15)} className="mt-8 text-center text-sm text-gray-500">
+ <motion.p {...fadeUp(0.15)} className="mt-8 text-center text-sm text-slate-500">
  {"Don't have an account? "}
  <a
  href={SIGNUP_URL}
@@ -342,17 +342,17 @@ export default function SignInPage() {
 
  {/* Footer */}
  <div className="px-6 pb-6 lg:pb-8">
- <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-gray-400">
- <Link href="/terms" className="hover:text-gray-600 transition-colors">
+ <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-slate-400">
+ <Link href="/terms" className="hover:text-slate-600 transition-colors">
  Terms
  </Link>
- <Link href="/privacy" className="hover:text-gray-600 transition-colors">
+ <Link href="/privacy" className="hover:text-slate-600 transition-colors">
  Privacy
  </Link>
- <Link href="/security" className="hover:text-gray-600 transition-colors">
+ <Link href="/security" className="hover:text-slate-600 transition-colors">
  Security
  </Link>
- <Link href="/contact" className="hover:text-gray-600 transition-colors">
+ <Link href="/contact" className="hover:text-slate-600 transition-colors">
  Support
  </Link>
  </div>

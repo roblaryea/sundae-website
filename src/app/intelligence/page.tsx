@@ -184,10 +184,10 @@ export default function ChatWithDataPage() {
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <h2 className="section-h2 text-gray-900 mb-4">
+              <h2 className="section-h2 text-slate-900 mb-4">
                 Four Specialized Modes
               </h2>
-              <p className="body-lg text-gray-600 max-w-2xl mx-auto">
+              <p className="body-lg text-slate-600 max-w-2xl mx-auto">
                 Each mode changes how the AI thinks and responds — from quick Q&A to stakeholder-ready reports.
               </p>
             </div>
@@ -213,12 +213,12 @@ export default function ChatWithDataPage() {
                       </span>
                     </div>
                     <div className="flex items-center gap-2 mb-2">
-                      <h3 className="font-bold text-gray-900">{mode.title}</h3>
+                      <h3 className="font-bold text-slate-900">{mode.title}</h3>
                       <span className="text-[10px] font-semibold uppercase tracking-wider bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full">
                         {mode.badge}
                       </span>
                     </div>
-                    <p className="text-sm text-gray-600 leading-relaxed">{mode.description}</p>
+                    <p className="text-sm text-slate-600 leading-relaxed">{mode.description}</p>
                   </CardContent>
                 </Card>
               </motion.div>
@@ -228,13 +228,13 @@ export default function ChatWithDataPage() {
       </section>
 
       {/* Example Queries */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-50/30">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-blue-50/30">
         <div className="max-w-4xl mx-auto text-center">
           <FadeUp>
-            <h2 className="section-h2 text-gray-900 mb-4">
+            <h2 className="section-h2 text-slate-900 mb-4">
               Ask Anything About Your Business
             </h2>
-            <p className="body-lg text-gray-600 mb-12">
+            <p className="body-lg text-slate-600 mb-12">
               From quick checks to deep analysis — just type, speak, or use a slash command.
             </p>
           </FadeUp>
@@ -256,7 +256,7 @@ export default function ChatWithDataPage() {
                 transition={{ duration: 0.4, delay: index * 0.05 }}
                 className="bg-white rounded-xl p-4 text-left border border-slate-200/70"
               >
-                <p className="text-sm text-gray-700 font-mono">{query.startsWith('/') ? <><span className="text-blue-500 font-semibold">{query.split(' ')[0]}</span> {query.split(' ').slice(1).join(' ')}</> : <>&ldquo;{query}&rdquo;</>}</p>
+                <p className="text-sm text-slate-700 font-mono">{query.startsWith('/') ? <><span className="text-blue-500 font-semibold">{query.split(' ')[0]}</span> {query.split(' ').slice(1).join(' ')}</> : <>&ldquo;{query}&rdquo;</>}</p>
               </motion.div>
             ))}
           </div>
@@ -268,10 +268,10 @@ export default function ChatWithDataPage() {
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <h2 className="section-h2 text-gray-900 mb-4">
+              <h2 className="section-h2 text-slate-900 mb-4">
                 Smart Command Bar
               </h2>
-              <p className="body-lg text-gray-600 max-w-2xl mx-auto">
+              <p className="body-lg text-slate-600 max-w-2xl mx-auto">
                 Far more than a text box — with autocomplete, slash commands, voice input, @mentions, and file attachments.
               </p>
             </div>
@@ -291,8 +291,8 @@ export default function ChatWithDataPage() {
                   <SundaeIcon name={feature.icon} size="md" className="text-white" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-gray-900 mb-1">{feature.title}</h3>
-                  <p className="text-sm text-gray-600 leading-relaxed">{feature.description}</p>
+                  <h3 className="font-bold text-slate-900 mb-1">{feature.title}</h3>
+                  <p className="text-sm text-slate-600 leading-relaxed">{feature.description}</p>
                 </div>
               </motion.div>
             ))}
@@ -301,14 +301,14 @@ export default function ChatWithDataPage() {
       </section>
 
       {/* Rich Response Cards */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-50/30">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-blue-50/30">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <h2 className="section-h2 text-gray-900 mb-4">
+              <h2 className="section-h2 text-slate-900 mb-4">
                 Rich, Interactive Response Cards
               </h2>
-              <p className="body-lg text-gray-600 max-w-2xl mx-auto">
+              <p className="body-lg text-slate-600 max-w-2xl mx-auto">
                 The AI returns structured, interactive cards — not plain text. Every response is visual, actionable, and explorable.
               </p>
             </div>
@@ -328,8 +328,8 @@ export default function ChatWithDataPage() {
                     <div className="w-12 h-12 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-xl flex items-center justify-center mb-4">
                       <SundaeIcon name={card.icon} size="lg" className="text-white" />
                     </div>
-                    <h3 className="font-bold text-gray-900 mb-2">{card.title}</h3>
-                    <p className="text-sm text-gray-600 leading-relaxed">{card.description}</p>
+                    <h3 className="font-bold text-slate-900 mb-2">{card.title}</h3>
+                    <p className="text-sm text-slate-600 leading-relaxed">{card.description}</p>
                   </CardContent>
                 </Card>
               </motion.div>
@@ -348,10 +348,10 @@ export default function ChatWithDataPage() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="section-h2 text-gray-900 mb-4">
+              <h2 className="section-h2 text-slate-900 mb-4">
                 Proactive Anomaly Detection
               </h2>
-              <p className="body-lg text-gray-600 mb-6">
+              <p className="body-lg text-slate-600 mb-6">
                 The system continuously scans your data for unusual patterns — surfacing issues before you even think to ask.
               </p>
               <div className="space-y-3">
@@ -365,7 +365,7 @@ export default function ChatWithDataPage() {
                     className="flex items-center gap-3"
                   >
                     <div className="w-2 h-2 rounded-full bg-orange-500 flex-shrink-0" />
-                    <span className="text-sm text-gray-700">{anomaly}</span>
+                    <span className="text-sm text-slate-700">{anomaly}</span>
                   </motion.div>
                 ))}
               </div>
@@ -381,11 +381,11 @@ export default function ChatWithDataPage() {
               transition={{ duration: 0.6 }}
               className="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-8 border border-orange-200/50"
             >
-              <h3 className="font-bold text-gray-900 mb-4">Smart Welcome Briefing</h3>
-              <p className="text-sm text-gray-600 mb-4">
+              <h3 className="font-bold text-slate-900 mb-4">Smart Welcome Briefing</h3>
+              <p className="text-sm text-slate-600 mb-4">
                 Every new session starts with a personalized briefing:
               </p>
-              <ul className="space-y-3 text-sm text-gray-700">
+              <ul className="space-y-3 text-sm text-slate-700">
                 <li className="flex items-start gap-2">
                   <span className="text-green-500 mt-0.5">&#10003;</span>
                   <span>Time-based greeting with your name</span>
@@ -409,14 +409,14 @@ export default function ChatWithDataPage() {
       </section>
 
       {/* Sidebar & Collaboration */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-50/30">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-blue-50/30">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <h2 className="section-h2 text-gray-900 mb-4">
+              <h2 className="section-h2 text-slate-900 mb-4">
                 Organization & Collaboration
               </h2>
-              <p className="body-lg text-gray-600 max-w-2xl mx-auto">
+              <p className="body-lg text-slate-600 max-w-2xl mx-auto">
                 Pin, folder, schedule, and share — your intelligence workspace, organized your way.
               </p>
             </div>
@@ -440,10 +440,10 @@ export default function ChatWithDataPage() {
                     <div className="w-10 h-10 bg-slate-900 rounded-lg flex items-center justify-center mb-4">
                       <SundaeIcon name={section.icon} size="md" className="text-white" />
                     </div>
-                    <h3 className="font-bold text-gray-900 mb-3">{section.title}</h3>
+                    <h3 className="font-bold text-slate-900 mb-3">{section.title}</h3>
                     <ul className="space-y-2">
                       {section.items.map((item) => (
-                        <li key={item} className="flex items-start gap-2 text-sm text-gray-600">
+                        <li key={item} className="flex items-start gap-2 text-sm text-slate-600">
                           <span className="text-blue-500 mt-0.5 flex-shrink-0">&#10003;</span>
                           <span>{item}</span>
                         </li>
@@ -462,10 +462,10 @@ export default function ChatWithDataPage() {
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <h2 className="section-h2 text-gray-900 mb-4">
+              <h2 className="section-h2 text-slate-900 mb-4">
                 Why Sundae Intelligence Is Different
               </h2>
-              <p className="body-lg text-gray-600 max-w-2xl mx-auto">
+              <p className="body-lg text-slate-600 max-w-2xl mx-auto">
                 Not another dashboard tool. A fundamentally different approach to decision intelligence.
               </p>
             </div>
@@ -485,8 +485,8 @@ export default function ChatWithDataPage() {
                     <div className="w-12 h-12 bg-slate-900 rounded-xl flex items-center justify-center mb-4">
                       <SundaeIcon name={diff.icon} size="lg" className="text-white" />
                     </div>
-                    <h3 className="font-bold text-gray-900 mb-2">{diff.title}</h3>
-                    <p className="text-sm text-gray-600 leading-relaxed">{diff.description}</p>
+                    <h3 className="font-bold text-slate-900 mb-2">{diff.title}</h3>
+                    <p className="text-sm text-slate-600 leading-relaxed">{diff.description}</p>
                   </CardContent>
                 </Card>
               </motion.div>
@@ -496,10 +496,10 @@ export default function ChatWithDataPage() {
       </section>
 
       {/* Accessibility & Platform */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-50/30">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-blue-50/30">
         <div className="max-w-4xl mx-auto text-center">
           <FadeUp>
-            <h2 className="text-xl font-bold text-gray-900 mb-8">
+            <h2 className="text-xl font-bold text-slate-900 mb-8">
               Built for Every Market
             </h2>
             <div className="flex flex-wrap justify-center gap-3">

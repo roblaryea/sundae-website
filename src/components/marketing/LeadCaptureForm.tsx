@@ -354,13 +354,13 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
  />
  </svg>
  </div>
- <h3 className="text-2xl font-bold text-gray-900 mb-3">
+ <h3 className="text-2xl font-bold text-slate-900 mb-3">
  Thank You!
  </h3>
- <p className="text-lg text-gray-700 mb-2">
+ <p className="text-lg text-slate-700 mb-2">
  We've received your request and will get back to you shortly.
  </p>
- <p className="text-sm text-gray-600">
+ <p className="text-sm text-slate-600">
  Check your email for confirmation.
  </p>
  </div>
@@ -390,7 +390,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
  <div ref={(el) => { fieldRefs.current.name = el; }}>
  <label
  htmlFor="name"
- className="block text-sm font-semibold text-gray-900 mb-2"
+ className="block text-sm font-semibold text-slate-900 mb-2"
  >
  Full Name <span className="text-red-500">*</span>
  </label>
@@ -406,8 +406,8 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
  className={`w-full px-4 py-3 rounded-lg border-2 ${
  errors.name
  ? 'border-red-500 focus:border-red-500 focus:ring-red-500/20'
- : 'border-gray-300 focus:border-blue-600 focus:ring-blue-600/20'
- } bg-white text-gray-900 focus:ring-2 transition-all duration-200 outline-none`}
+ : 'border-slate-300 focus:border-blue-600 focus:ring-blue-600/20'
+ } bg-white text-slate-900 focus:ring-2 transition-all duration-200 outline-none`}
  placeholder="John Doe"
  />
  {errors.name && (
@@ -421,7 +421,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
  <div ref={(el) => { fieldRefs.current.email = el; }}>
  <label
  htmlFor="email"
- className="block text-sm font-semibold text-gray-900 mb-2"
+ className="block text-sm font-semibold text-slate-900 mb-2"
  >
  Work Email <span className="text-red-500">*</span>
  </label>
@@ -437,8 +437,8 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
  className={`w-full px-4 py-3 rounded-lg border-2 ${
  errors.email
  ? 'border-red-500 focus:border-red-500 focus:ring-red-500/20'
- : 'border-gray-300 focus:border-blue-600 focus:ring-blue-600/20'
- } bg-white text-gray-900 focus:ring-2 transition-all duration-200 outline-none`}
+ : 'border-slate-300 focus:border-blue-600 focus:ring-blue-600/20'
+ } bg-white text-slate-900 focus:ring-2 transition-all duration-200 outline-none`}
  placeholder="john@company.com"
  />
  {errors.email && (
@@ -452,7 +452,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
  <div ref={(el) => { fieldRefs.current.company = el; }}>
  <label
  htmlFor="company"
- className="block text-sm font-semibold text-gray-900 mb-2"
+ className="block text-sm font-semibold text-slate-900 mb-2"
  >
  Company or Group Name <span className="text-red-500">*</span>
  </label>
@@ -468,8 +468,8 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
  className={`w-full px-4 py-3 rounded-lg border-2 ${
  errors.company
  ? 'border-red-500 focus:border-red-500 focus:ring-red-500/20'
- : 'border-gray-300 focus:border-blue-600 focus:ring-blue-600/20'
- } bg-white text-gray-900 focus:ring-2 transition-all duration-200 outline-none`}
+ : 'border-slate-300 focus:border-blue-600 focus:ring-blue-600/20'
+ } bg-white text-slate-900 focus:ring-2 transition-all duration-200 outline-none`}
  placeholder="Your Company"
  />
  {errors.company && (
@@ -483,7 +483,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
  <div ref={(el) => { fieldRefs.current.role = el; }}>
  <label
  htmlFor="role"
- className="block text-sm font-semibold text-gray-900 mb-2"
+ className="block text-sm font-semibold text-slate-900 mb-2"
  >
  Role / Title <span className="text-red-500">*</span>
  </label>
@@ -499,8 +499,8 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
  className={`w-full px-4 py-3 rounded-lg border-2 ${
  errors.role
  ? 'border-red-500 focus:border-red-500 focus:ring-red-500/20'
- : 'border-gray-300 focus:border-blue-600 focus:ring-blue-600/20'
- } bg-white text-gray-900 focus:ring-2 transition-all duration-200 outline-none`}
+ : 'border-slate-300 focus:border-blue-600 focus:ring-blue-600/20'
+ } bg-white text-slate-900 focus:ring-2 transition-all duration-200 outline-none`}
  placeholder="CEO, Operations Manager, etc."
  />
  {errors.role && (
@@ -514,7 +514,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
  <div ref={(el) => { fieldRefs.current.country = el; }}>
  <label
  htmlFor="country"
- className="block text-sm font-semibold text-gray-900 mb-2"
+ className="block text-sm font-semibold text-slate-900 mb-2"
  >
  Country <span className="text-red-500">*</span>
  </label>
@@ -529,8 +529,8 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
  className={`w-full px-4 py-3 rounded-lg border-2 ${
  errors.country
  ? 'border-red-500 focus:border-red-500 focus:ring-red-500/20'
- : 'border-gray-300 focus:border-blue-600 focus:ring-blue-600/20'
- } bg-white text-gray-900 focus:ring-2 transition-all duration-200 outline-none`}
+ : 'border-slate-300 focus:border-blue-600 focus:ring-blue-600/20'
+ } bg-white text-slate-900 focus:ring-2 transition-all duration-200 outline-none`}
  >
  <option value="">Select your country</option>
  {COUNTRY_CODES.map((country) => (
@@ -550,7 +550,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
  <div ref={(el) => { fieldRefs.current.phone = el; }}>
  <label
  htmlFor="phone"
- className="block text-sm font-semibold text-gray-900 mb-2"
+ className="block text-sm font-semibold text-slate-900 mb-2"
  >
  Phone Number <span className="text-red-500">*</span>
  </label>
@@ -568,8 +568,8 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
  className={`w-full px-3 py-3 rounded-lg border-2 ${
  errors.countryCode || errors.phone
  ? 'border-red-500 focus:border-red-500 focus:ring-red-500/20'
- : 'border-gray-300 focus:border-blue-600 focus:ring-blue-600/20'
- } bg-white text-gray-900 focus:ring-2 transition-all duration-200 outline-none text-sm`}
+ : 'border-slate-300 focus:border-blue-600 focus:ring-blue-600/20'
+ } bg-white text-slate-900 focus:ring-2 transition-all duration-200 outline-none text-sm`}
  >
  {COUNTRY_CODES.map((country) => (
  <option key={country.iso} value={country.code}>
@@ -593,8 +593,8 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
  className={`w-full px-4 py-3 rounded-lg border-2 ${
  errors.phone
  ? 'border-red-500 focus:border-red-500 focus:ring-red-500/20'
- : 'border-gray-300 focus:border-blue-600 focus:ring-blue-600/20'
- } bg-white text-gray-900 focus:ring-2 transition-all duration-200 outline-none`}
+ : 'border-slate-300 focus:border-blue-600 focus:ring-blue-600/20'
+ } bg-white text-slate-900 focus:ring-2 transition-all duration-200 outline-none`}
  placeholder="555 123 4567"
  />
  </div>
@@ -610,7 +610,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
  <div ref={(el) => { fieldRefs.current.numberOfLocations = el; }}>
  <label
  htmlFor="numberOfLocations"
- className="block text-sm font-semibold text-gray-900 mb-2"
+ className="block text-sm font-semibold text-slate-900 mb-2"
  >
  Number of Locations <span className="text-red-500">*</span>
  </label>
@@ -625,8 +625,8 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
  className={`w-full px-4 py-3 rounded-lg border-2 ${
  errors.numberOfLocations
  ? 'border-red-500 focus:border-red-500 focus:ring-red-500/20'
- : 'border-gray-300 focus:border-blue-600 focus:ring-blue-600/20'
- } bg-white text-gray-900 focus:ring-2 transition-all duration-200 outline-none`}
+ : 'border-slate-300 focus:border-blue-600 focus:ring-blue-600/20'
+ } bg-white text-slate-900 focus:ring-2 transition-all duration-200 outline-none`}
  >
  <option value="">Select number of locations</option>
  <option value="1">1 location</option>
@@ -649,7 +649,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
  <div ref={(el) => { fieldRefs.current.primaryPOS = el; }}>
  <label
  htmlFor="primaryPOS"
- className="block text-sm font-semibold text-gray-900 mb-2"
+ className="block text-sm font-semibold text-slate-900 mb-2"
  >
  Primary POS/System Used <span className="text-red-500">*</span>
  </label>
@@ -665,8 +665,8 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
  className={`w-full px-4 py-3 rounded-lg border-2 ${
  errors.primaryPOS
  ? 'border-red-500 focus:border-red-500 focus:ring-red-500/20'
- : 'border-gray-300 focus:border-blue-600 focus:ring-blue-600/20'
- } bg-white text-gray-900 focus:ring-2 transition-all duration-200 outline-none`}
+ : 'border-slate-300 focus:border-blue-600 focus:ring-blue-600/20'
+ } bg-white text-slate-900 focus:ring-2 transition-all duration-200 outline-none`}
  placeholder="e.g., Toast, Square, Oracle Simphony"
  />
  {errors.primaryPOS && (
@@ -680,7 +680,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
  <div ref={(el) => { fieldRefs.current.message = el; }}>
  <label
  htmlFor="message"
- className="block text-sm font-semibold text-gray-900 mb-2"
+ className="block text-sm font-semibold text-slate-900 mb-2"
  >
  Tell us about your needs <span className="text-red-500">*</span>
  </label>
@@ -696,8 +696,8 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
  className={`w-full px-4 py-3 rounded-lg border-2 ${
  errors.message
  ? 'border-red-500 focus:border-red-500 focus:ring-red-500/20'
- : 'border-gray-300 focus:border-blue-600 focus:ring-blue-600/20'
- } bg-white text-gray-900 focus:ring-2 transition-all duration-200 outline-none resize-none`}
+ : 'border-slate-300 focus:border-blue-600 focus:ring-blue-600/20'
+ } bg-white text-slate-900 focus:ring-2 transition-all duration-200 outline-none resize-none`}
  placeholder="Tell us about your challenges, goals, or specific interests..."
  />
  {errors.message && (
@@ -730,7 +730,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
  </Button>
 
  {/* Privacy Note */}
- <p className="text-xs text-center text-gray-500">
+ <p className="text-xs text-center text-slate-500">
  By submitting this form, you agree to our privacy policy. We'll never share
  your information.
  </p>

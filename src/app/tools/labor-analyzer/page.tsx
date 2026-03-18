@@ -43,7 +43,7 @@ export default function LaborAnalyzerPage() {
  };
 
  return (
- <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50 py-32 px-4 sm:px-6 lg:px-8">
+ <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50 py-32 px-4 sm:px-6 lg:px-8">
  <div className="max-w-4xl mx-auto">
  <Link href="/tools" className="inline-flex items-center text-blue-600 hover:text-blue-700 mb-6">
  ← Back to Tools
@@ -54,10 +54,10 @@ export default function LaborAnalyzerPage() {
  <SundaeIcon name="labor" size="md" />
  <span>Labor Analyzer</span>
  </div>
- <h1 className="hero-h1 text-gray-900 mb-4">
+ <h1 className="hero-h1 text-slate-900 mb-4">
  Labor Cost Variance Analyzer
  </h1>
- <p className="body-xl text-gray-600">
+ <p className="body-xl text-slate-600">
  Compare your actual labor costs against targets and get actionable insights
  </p>
  </div>
@@ -70,7 +70,7 @@ export default function LaborAnalyzerPage() {
  <CardContent>
  <div className="space-y-6">
  <div>
- <label className="block text-sm font-medium text-gray-700 mb-2">
+ <label className="block text-sm font-medium text-slate-700 mb-2">
  Actual Labor Cost ($)
  </label>
  <input
@@ -78,12 +78,12 @@ export default function LaborAnalyzerPage() {
  value={actualLabor}
  onChange={(e) => setActualLabor(e.target.value)}
  placeholder="e.g., 25000"
- className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
+ className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500"
  />
  </div>
 
  <div>
- <label className="block text-sm font-medium text-gray-700 mb-2">
+ <label className="block text-sm font-medium text-slate-700 mb-2">
  Total Revenue ($)
  </label>
  <input
@@ -91,12 +91,12 @@ export default function LaborAnalyzerPage() {
  value={revenue}
  onChange={(e) => setRevenue(e.target.value)}
  placeholder="e.g., 100000"
- className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
+ className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500"
  />
  </div>
 
  <div>
- <label className="block text-sm font-medium text-gray-700 mb-2">
+ <label className="block text-sm font-medium text-slate-700 mb-2">
  Target Labor % (optional)
  </label>
  <input
@@ -104,9 +104,9 @@ export default function LaborAnalyzerPage() {
  value={targetLabor}
  onChange={(e) => setTargetLabor(e.target.value)}
  placeholder="e.g., 30"
- className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
+ className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500"
  />
- <p className="text-xs text-gray-500 mt-1">
+ <p className="text-xs text-slate-500 mt-1">
  Industry standard is typically 25-35% for full-service restaurants
  </p>
  </div>
@@ -131,7 +131,7 @@ export default function LaborAnalyzerPage() {
  <CardContent className="space-y-6">
  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
  <div className="bg-blue-50 rounded-lg p-6">
- <div className="text-sm text-gray-600 mb-2">Actual Labor Cost %</div>
+ <div className="text-sm text-slate-600 mb-2">Actual Labor Cost %</div>
  <div className="text-4xl font-bold text-blue-600">
  {result.laborPercent.toFixed(1)}%
  </div>
@@ -144,7 +144,7 @@ export default function LaborAnalyzerPage() {
  result.status === 'low' ? 'bg-blue-50' :
  'bg-green-50'
  }`}>
- <div className="text-sm text-gray-600 mb-2">Variance vs Target</div>
+ <div className="text-sm text-slate-600 mb-2">Variance vs Target</div>
  <div className={`text-4xl font-bold ${
  result.status === 'high' ? 'text-red-600' :
  result.status === 'slightly-high' ? 'text-yellow-600' :
@@ -158,12 +158,12 @@ export default function LaborAnalyzerPage() {
  </div>
 
  <div className="bg-slate-50 rounded-lg p-6">
- <div className="text-sm font-semibold text-gray-700 mb-2">Recommendation</div>
- <p className="text-gray-600">{result.recommendation}</p>
+ <div className="text-sm font-semibold text-slate-700 mb-2">Recommendation</div>
+ <p className="text-slate-600">{result.recommendation}</p>
  </div>
 
  <div className="bg-blue-50 rounded-lg p-4">
- <p className="text-sm text-gray-700">
+ <p className="text-sm text-slate-700">
  <strong>Tip:</strong> Track labor costs weekly to identify trends early. Consider using scheduling software to optimize labor allocation.
  </p>
  </div>
@@ -172,7 +172,7 @@ export default function LaborAnalyzerPage() {
  )}
 
  <div className="mt-12 text-center">
- <p className="text-gray-600 mb-6">
+ <p className="text-slate-600 mb-6">
  Want more advanced labor analytics across all locations?
  </p>
  <Link href="/demo">

@@ -148,8 +148,8 @@ export default function IntegrationsPage() {
  <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-bold text-lg mx-auto mb-4">
  {item.step}
  </div>
- <h3 className="text-lg font-semibold text-gray-900 mb-2">{item.title}</h3>
- <p className="text-sm text-gray-600">{item.description}</p>
+ <h3 className="text-lg font-semibold text-slate-900 mb-2">{item.title}</h3>
+ <p className="text-sm text-slate-600">{item.description}</p>
  </div>
  </StaggerItem>
  ))}
@@ -161,10 +161,10 @@ export default function IntegrationsPage() {
  <section className="py-20 px-4 sm:px-6 lg:px-8">
  <div className="max-w-6xl mx-auto">
  <FadeUp className="text-center mb-16">
- <h2 className="section-h2 text-gray-900 mb-4">
+ <h2 className="section-h2 text-slate-900 mb-4">
  12 Data Domains. One Unified View.
  </h2>
- <p className="body-lg text-gray-600 max-w-2xl mx-auto">
+ <p className="body-lg text-slate-600 max-w-2xl mx-auto">
  POS, labor, inventory, purchasing, reservations, delivery, marketing, guest experience, CRM, accounting, and daily sales summaries — all connected.
  </p>
  </FadeUp>
@@ -176,7 +176,7 @@ export default function IntegrationsPage() {
  <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center text-white shadow">
  <SundaeIcon name={cat.icon} size="md" className="text-white" />
  </div>
- <h3 className="text-xl font-semibold text-gray-900">
+ <h3 className="text-xl font-semibold text-slate-900">
  {cat.category}
  </h3>
  <span className={`px-2.5 py-1 text-xs font-medium rounded-full ${
@@ -191,7 +191,7 @@ export default function IntegrationsPage() {
  {cat.systems.map((system) => (
  <StaggerItem key={system}>
  <div
- className="px-4 py-3 rounded-xl border border-slate-200 bg-white text-sm font-medium text-gray-700 text-center hover:border-blue-300 transition-colors"
+ className="px-4 py-3 rounded-xl border border-slate-200 bg-white text-sm font-medium text-slate-700 text-center hover:border-blue-300 transition-colors"
  >
  {system}
  </div>
@@ -206,14 +206,14 @@ export default function IntegrationsPage() {
  <div className="flex items-center justify-center gap-6 mb-3">
  <div className="flex items-center gap-2">
  <span className="w-3 h-3 rounded-full bg-green-500" />
- <span className="text-sm font-medium text-gray-700">Live — available now</span>
+ <span className="text-sm font-medium text-slate-700">Live — available now</span>
  </div>
  <div className="flex items-center gap-2">
  <span className="w-3 h-3 rounded-full bg-amber-500" />
- <span className="text-sm font-medium text-gray-700">Upcoming — on our roadmap</span>
+ <span className="text-sm font-medium text-slate-700">Upcoming — on our roadmap</span>
  </div>
  </div>
- <p className="text-xs text-gray-500">
+ <p className="text-xs text-slate-500">
  Upcoming integrations are actively in development. Timelines may vary. Contact us to request priority for a specific integration.
  </p>
  </div>
@@ -224,10 +224,10 @@ export default function IntegrationsPage() {
  <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
  <div className="max-w-5xl mx-auto">
  <FadeUp className="text-center mb-12">
- <h2 className="section-h2 text-gray-900 mb-4">
+ <h2 className="section-h2 text-slate-900 mb-4">
  Webhooks & Public API
  </h2>
- <p className="body-lg text-gray-600 max-w-3xl mx-auto">
+ <p className="body-lg text-slate-600 max-w-3xl mx-auto">
  Build custom integrations with Sundae&apos;s developer tools.
  </p>
  </FadeUp>
@@ -238,11 +238,11 @@ export default function IntegrationsPage() {
  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-4">
  <SundaeIcon name="integration" size="lg" className="text-white" />
  </div>
- <h3 className="text-xl font-semibold text-gray-900 mb-3">Custom Webhooks</h3>
- <p className="text-gray-600 text-sm mb-4">
+ <h3 className="text-xl font-semibold text-slate-900 mb-3">Custom Webhooks</h3>
+ <p className="text-slate-600 text-sm mb-4">
  Configure webhooks for any non-POS data domain. Push data into Sundae from any system with HTTP support.
  </p>
- <ul className="space-y-2 text-sm text-gray-600">
+ <ul className="space-y-2 text-sm text-slate-600">
  <li className="flex items-start space-x-2">
  <span className="text-green-500 mt-0.5">&#10003;</span>
  <span>HMAC-SHA256 signature verification</span>
@@ -264,11 +264,11 @@ export default function IntegrationsPage() {
  <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mb-4">
  <SundaeIcon name="data" size="lg" className="text-white" />
  </div>
- <h3 className="text-xl font-semibold text-gray-900 mb-3">Public API v1</h3>
- <p className="text-gray-600 text-sm mb-4">
+ <h3 className="text-xl font-semibold text-slate-900 mb-3">Public API v1</h3>
+ <p className="text-slate-600 text-sm mb-4">
  Read-only API endpoints authenticated with API keys. Access your Sundae data programmatically.
  </p>
- <ul className="space-y-2 text-sm text-gray-600">
+ <ul className="space-y-2 text-sm text-slate-600">
  <li className="flex items-start space-x-2">
  <span className="text-green-500 mt-0.5">&#10003;</span>
  <span>Sales summary and exception endpoints</span>

@@ -126,7 +126,7 @@ export default function GettingStartedPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50/80 via-purple-50/30 to-blue-50/60">
         <div className="max-w-7xl mx-auto text-center">
@@ -139,13 +139,13 @@ export default function GettingStartedPage() {
               <SundaeIcon name="document" size="md" />
               <span>Getting Started Guide</span>
             </div>
-            <h1 className="hero-h1 text-gray-900 mb-6">
+            <h1 className="hero-h1 text-slate-900 mb-6">
               Your Journey with Sundae
             </h1>
-            <p className="body-xl text-gray-600 mb-4 max-w-4xl mx-auto">
+            <p className="body-xl text-slate-600 mb-4 max-w-4xl mx-auto">
               Six steps from free benchmarking to complete operational intelligence. Start small, scale at your pace.
             </p>
-            <p className="body-lg text-gray-500 mb-8 max-w-3xl mx-auto">
+            <p className="body-lg text-slate-500 mb-8 max-w-3xl mx-auto">
               Most operators start with Report Lite (free forever), prove the value, then expand. You control the timeline.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -170,10 +170,10 @@ export default function GettingStartedPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
+            <h2 className="section-h2 text-slate-900 mb-4">
               The Sundae Journey: 6 Steps
             </h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
               From free benchmarking to enterprise intelligence
             </p>
           </div>
@@ -190,7 +190,7 @@ export default function GettingStartedPage() {
                 <Card variant="elevated" className="overflow-hidden hover:shadow-2xl transition-all duration-300">
                   <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
                     {/* Step Number & Icon */}
-                    <div className="lg:col-span-2 bg-gradient-to-br from-gray-50 to-gray-100 p-6 flex flex-col items-center justify-center">
+                    <div className="lg:col-span-2 bg-gradient-to-br from-slate-50 to-slate-100 p-6 flex flex-col items-center justify-center">
                       <div className={`w-20 h-20 bg-gradient-to-br ${step.color} rounded-2xl flex items-center justify-center text-white text-3xl font-bold mb-4 shadow-lg`}>
                         {step.number}
                       </div>
@@ -201,17 +201,17 @@ export default function GettingStartedPage() {
 
                     {/* Content */}
                     <div className="lg:col-span-7 p-6">
-                      <h3 className="text-2xl font-bold text-gray-900 mb-2">{step.title}</h3>
-                      <p className="text-lg font-semibold text-gray-600 mb-4">{step.subtitle}</p>
-                      <p className="text-gray-700 mb-6 leading-relaxed">{step.description}</p>
+                      <h3 className="text-2xl font-bold text-slate-900 mb-2">{step.title}</h3>
+                      <p className="text-lg font-semibold text-slate-600 mb-4">{step.subtitle}</p>
+                      <p className="text-slate-700 mb-6 leading-relaxed">{step.description}</p>
                       
                       <div className="bg-slate-50 rounded-lg p-4">
-                        <p className="text-sm font-semibold text-gray-500 uppercase mb-3">What You'll Do:</p>
+                        <p className="text-sm font-semibold text-slate-500 uppercase mb-3">What You'll Do:</p>
                         <ul className="space-y-2">
                           {step.actions.map((action, idx) => (
                             <li key={idx} className="flex items-start space-x-2">
                               <span className="text-green-500 mt-0.5">✓</span>
-                              <span className="text-sm text-gray-700">{action}</span>
+                              <span className="text-sm text-slate-700">{action}</span>
                             </li>
                           ))}
                         </ul>
@@ -221,8 +221,8 @@ export default function GettingStartedPage() {
                     {/* Timeline & CTA */}
                     <div className="lg:col-span-3 bg-gradient-to-br from-blue-50/50 to-purple-50/50 p-6 flex flex-col justify-between">
                       <div>
-                        <p className="text-xs font-semibold text-gray-500 uppercase mb-2">Timeline</p>
-                        <p className="text-lg font-bold text-gray-900 mb-6">{step.timeline}</p>
+                        <p className="text-xs font-semibold text-slate-500 uppercase mb-2">Timeline</p>
+                        <p className="text-lg font-bold text-slate-900 mb-6">{step.timeline}</p>
                       </div>
                       
                       {step.ctaLink.startsWith('http') ? (
@@ -254,10 +254,10 @@ export default function GettingStartedPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
+            <h2 className="section-h2 text-slate-900 mb-4">
               Implementation Timelines
             </h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
               How long does each tier take to implement?
             </p>
           </div>
@@ -273,11 +273,11 @@ export default function GettingStartedPage() {
               >
                 <Card variant="elevated" className="h-full text-center hover:shadow-xl transition-all duration-300">
                   <CardHeader>
-                    <CardTitle className="text-lg text-gray-900 mb-2">{timeline.tier}</CardTitle>
+                    <CardTitle className="text-lg text-slate-900 mb-2">{timeline.tier}</CardTitle>
                     <div className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4">
                       {timeline.time}
                     </div>
-                    <CardDescription className="text-gray-600">
+                    <CardDescription className="text-slate-600">
                       {timeline.description}
                     </CardDescription>
                   </CardHeader>
@@ -287,8 +287,8 @@ export default function GettingStartedPage() {
           </div>
 
           <div className="mt-12 bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl p-8 text-center">
-            <h3 className="text-xl font-bold text-gray-900 mb-3">No Forced Timelines</h3>
-            <p className="text-gray-700 max-w-2xl mx-auto">
+            <h3 className="text-xl font-bold text-slate-900 mb-3">No Forced Timelines</h3>
+            <p className="text-slate-700 max-w-2xl mx-auto">
               Start with Report Lite today. Upgrade to Report Plus/Pro next month. Add Core in Q3. Scale to Enterprise in Q4. You control the pace based on your priorities and budget.
             </p>
           </div>
@@ -299,10 +299,10 @@ export default function GettingStartedPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">
+            <h2 className="section-h2 text-slate-900 mb-4">
               Common Journeys
             </h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
               How do operators typically progress through Sundae?
             </p>
           </div>
@@ -314,21 +314,21 @@ export default function GettingStartedPage() {
                 <div className="w-12 h-12 bg-blue-500 rounded-xl flex items-center justify-center mb-4">
                   <SundaeIcon name="labor" size="lg" className="text-white" />
                 </div>
-                <CardTitle className="text-xl text-gray-900 mb-4">1-5 Location Operator</CardTitle>
+                <CardTitle className="text-xl text-slate-900 mb-4">1-5 Location Operator</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3">
                     <div className="w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">1</div>
-                    <p className="text-sm text-gray-700">Start with Report Lite (free)</p>
+                    <p className="text-sm text-slate-700">Start with Report Lite (free)</p>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-8 h-8 bg-purple-100 text-purple-600 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">2</div>
-                    <p className="text-sm text-gray-700">Upgrade to Report Plus for AI insights</p>
+                    <p className="text-sm text-slate-700">Upgrade to Report Plus for AI insights</p>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-8 h-8 bg-green-100 text-green-600 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">3</div>
-                    <p className="text-sm text-gray-700">Consider Core when scaling to 10+ locations</p>
+                    <p className="text-sm text-slate-700">Consider Core when scaling to 10+ locations</p>
                   </div>
                 </div>
               </CardContent>
@@ -340,21 +340,21 @@ export default function GettingStartedPage() {
                 <div className="w-12 h-12 bg-purple-500 rounded-xl flex items-center justify-center mb-4">
                   <SundaeIcon name="multiLocation" size="lg" className="text-white" />
                 </div>
-                <CardTitle className="text-xl text-gray-900 mb-4">10-50 Location Operator</CardTitle>
+                <CardTitle className="text-xl text-slate-900 mb-4">10-50 Location Operator</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3">
                     <div className="w-8 h-8 bg-purple-100 text-purple-600 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">1</div>
-                    <p className="text-sm text-gray-700">Start with Core Lite for real-time ops</p>
+                    <p className="text-sm text-slate-700">Start with Core Lite for real-time ops</p>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-8 h-8 bg-orange-100 text-orange-600 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">2</div>
-                    <p className="text-sm text-gray-700">Add 1-2 modules (Labor, Inventory)</p>
+                    <p className="text-sm text-slate-700">Add 1-2 modules (Labor, Inventory)</p>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-8 h-8 bg-indigo-100 text-indigo-600 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">3</div>
-                    <p className="text-sm text-gray-700">Add Watchtower for market intelligence</p>
+                    <p className="text-sm text-slate-700">Add Watchtower for market intelligence</p>
                   </div>
                 </div>
               </CardContent>
@@ -366,21 +366,21 @@ export default function GettingStartedPage() {
                 <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-600 rounded-xl flex items-center justify-center mb-4">
                   <SundaeIcon name="growth" size="lg" className="text-white" />
                 </div>
-                <CardTitle className="text-xl text-gray-900 mb-4">100+ Location Enterprise</CardTitle>
+                <CardTitle className="text-xl text-slate-900 mb-4">100+ Location Enterprise</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3">
                     <div className="w-8 h-8 bg-purple-100 text-purple-600 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">1</div>
-                    <p className="text-sm text-gray-700">Start with Enterprise tier</p>
+                    <p className="text-sm text-slate-700">Start with Enterprise tier</p>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-8 h-8 bg-pink-100 text-pink-600 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">2</div>
-                    <p className="text-sm text-gray-700">Full module suite + Watchtower</p>
+                    <p className="text-sm text-slate-700">Full module suite + Watchtower</p>
                   </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-8 h-8 bg-purple-100 text-purple-600 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">3</div>
-                    <p className="text-sm text-gray-700">Custom integrations & white-label</p>
+                    <p className="text-sm text-slate-700">Custom integrations & white-label</p>
                   </div>
                 </div>
               </CardContent>
@@ -392,10 +392,10 @@ export default function GettingStartedPage() {
       {/* Final CTA */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50 to-purple-50">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 text-gray-900 mb-6">
+          <h2 className="section-h2 text-slate-900 mb-6">
             Ready to Start Your Journey?
           </h2>
-          <p className="body-lg text-gray-600 mb-8 max-w-3xl mx-auto">
+          <p className="body-lg text-slate-600 mb-8 max-w-3xl mx-auto">
             Begin with Report Lite (free forever) or calculate your custom path with the pricing calculator.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
@@ -403,8 +403,8 @@ export default function GettingStartedPage() {
               <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="report" size="lg" className="text-white" />
               </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Start Free</h3>
-              <p className="text-sm text-gray-600 mb-4">Report Lite, no credit card</p>
+              <h3 className="font-semibold text-slate-900 mb-2">Start Free</h3>
+              <p className="text-sm text-slate-600 mb-4">Report Lite, no credit card</p>
               <Button 
                 variant="primary" 
                 size="md"
@@ -418,8 +418,8 @@ export default function GettingStartedPage() {
               <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="calculator" size="lg" className="text-white" />
               </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Calculate Your Path</h3>
-              <p className="text-sm text-gray-600 mb-4">Interactive pricing calculator</p>
+              <h3 className="font-semibold text-slate-900 mb-2">Calculate Your Path</h3>
+              <p className="text-sm text-slate-600 mb-4">Interactive pricing calculator</p>
               <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
                 <Button variant="outline" size="md" className="w-full">
                   Calculate Pricing →
@@ -430,8 +430,8 @@ export default function GettingStartedPage() {
               <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="conversation" size="lg" className="text-white" />
               </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Talk to an Expert</h3>
-              <p className="text-sm text-gray-600 mb-4">Custom recommendations</p>
+              <h3 className="font-semibold text-slate-900 mb-2">Talk to an Expert</h3>
+              <p className="text-sm text-slate-600 mb-4">Custom recommendations</p>
               <Button 
                 variant="outline" 
                 size="md"

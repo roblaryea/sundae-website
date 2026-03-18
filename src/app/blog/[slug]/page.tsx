@@ -61,7 +61,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
       <article className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           {/* Back Button */}
@@ -77,14 +77,14 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-blue-100 text-blue-800">
                 {post.category}
               </span>
-              <time className="text-gray-600 text-sm">
+              <time className="text-slate-600 text-sm">
                 {formatDate(post.date)}
               </time>
             </div>
-            <h1 className="hero-h1 text-gray-900 mb-6">
+            <h1 className="hero-h1 text-slate-900 mb-6">
               {post.title}
             </h1>
-            <p className="body-xl text-gray-600 leading-relaxed">
+            <p className="body-xl text-slate-600 leading-relaxed">
               {post.summary}
             </p>
           </header>
@@ -95,7 +95,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               // Check if paragraph is a heading
               if (paragraph.startsWith('## ')) {
                 return (
-                  <h2 key={index} className="section-h2 text-gray-900 mt-12 mb-6">
+                  <h2 key={index} className="section-h2 text-slate-900 mt-12 mb-6">
                     {paragraph.replace('## ', '')}
                   </h2>
                 );
@@ -104,7 +104,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               // Check if paragraph is a subheading
               if (paragraph.startsWith('### ')) {
                 return (
-                  <h3 key={index} className="section-h3 text-gray-900 mt-8 mb-4">
+                  <h3 key={index} className="section-h3 text-slate-900 mt-8 mb-4">
                     {paragraph.replace('### ', '')}
                   </h3>
                 );
@@ -122,7 +122,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
               // Regular paragraph
               return (
-                <p key={index} className="body-base text-gray-700 mb-6 leading-relaxed">
+                <p key={index} className="body-base text-slate-700 mb-6 leading-relaxed">
                   {processedParagraph}
                 </p>
               );
@@ -130,7 +130,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           </div>
 
           {/* Footer */}
-          <footer className="mt-16 pt-8 border-t border-gray-200">
+          <footer className="mt-16 pt-8 border-t border-slate-200">
             <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
               <Link href="/blog">
                 <Button variant="outline" size="lg">
@@ -157,7 +157,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             See how Sundae's decision intelligence platform can help you make smarter, faster decisions.
           </p>
           <Link href="/demo">
-            <Button variant="secondary" size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+            <Button variant="secondary" size="lg" className="bg-white text-blue-600 hover:bg-slate-100">
               Request a Demo
             </Button>
           </Link>

@@ -81,7 +81,7 @@ export default function TechnologyTeamsPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
       <section className="solution-hero solution-hero--role pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
@@ -99,7 +99,7 @@ export default function TechnologyTeamsPage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="hero-h1 text-gray-900 mb-6"
+              className="hero-h1 text-slate-900 mb-6"
             >
               Connect Once.
               <br />
@@ -110,7 +110,7 @@ export default function TechnologyTeamsPage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="body-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed"
+              className="body-xl text-slate-600 mb-8 max-w-3xl mx-auto leading-relaxed"
             >
               Pre-built connectors. Automated data quality. Self-service analytics. Stop plumbing data and start building value.
             </motion.p>
@@ -139,8 +139,8 @@ export default function TechnologyTeamsPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">The Problems You Know</h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+            <h2 className="section-h2 text-slate-900 mb-4">The Problems You Know</h2>
+            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
               Custom ETL. Data quality issues. Endless report requests.
             </p>
           </div>
@@ -153,8 +153,8 @@ export default function TechnologyTeamsPage() {
                       <SundaeIcon name={challenge.icon} size="lg" className="text-white" />
                     </div>
                     <div>
-                      <CardTitle className="text-gray-900 mb-2">{challenge.title}</CardTitle>
-                      <CardDescription className="text-gray-600">{challenge.description}</CardDescription>
+                      <CardTitle className="text-slate-900 mb-2">{challenge.title}</CardTitle>
+                      <CardDescription className="text-slate-600">{challenge.description}</CardDescription>
                     </div>
                   </div>
                 </CardHeader>
@@ -167,8 +167,8 @@ export default function TechnologyTeamsPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">How Sundae Changes That</h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+            <h2 className="section-h2 text-slate-900 mb-4">How Sundae Changes That</h2>
+            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
               Scalable infrastructure that works out of the box
             </p>
           </div>
@@ -182,8 +182,8 @@ export default function TechnologyTeamsPage() {
                     </div>
                     <div>
                       <div className="text-xs text-blue-600 font-semibold mb-1">{item.product}</div>
-                      <CardTitle className="text-gray-900 mb-2">{item.title}</CardTitle>
-                      <CardDescription className="text-gray-600">{item.description}</CardDescription>
+                      <CardTitle className="text-slate-900 mb-2">{item.title}</CardTitle>
+                      <CardDescription className="text-slate-600">{item.description}</CardDescription>
                     </div>
                   </div>
                 </CardHeader>
@@ -196,8 +196,8 @@ export default function TechnologyTeamsPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-gray-900 mb-4">What Changes</h2>
-            <p className="body-xl text-gray-600 max-w-3xl mx-auto">
+            <h2 className="section-h2 text-slate-900 mb-4">What Changes</h2>
+            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
               Less plumbing. More innovation.
             </p>
           </div>
@@ -210,8 +210,8 @@ export default function TechnologyTeamsPage() {
                       <SundaeIcon name={outcome.icon} size="lg" className="text-white" />
                     </div>
                     <div>
-                      <CardTitle className="text-gray-900 mb-2">{outcome.title}</CardTitle>
-                      <CardDescription className="text-gray-600">{outcome.description}</CardDescription>
+                      <CardTitle className="text-slate-900 mb-2">{outcome.title}</CardTitle>
+                      <CardDescription className="text-slate-600">{outcome.description}</CardDescription>
                     </div>
                   </div>
                 </CardHeader>
@@ -228,7 +228,7 @@ export default function TechnologyTeamsPage() {
             See how technology teams eliminate integration complexity.
           </p>
           <Link href="/demo">
-            <Button variant="primary" size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+            <Button variant="primary" size="lg" className="bg-white text-blue-600 hover:bg-slate-100">
               Book a Technical Deep Dive
             </Button>
           </Link>

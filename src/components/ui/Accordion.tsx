@@ -12,7 +12,7 @@ function renderFormattedText(text: string): React.ReactNode {
     if (part.startsWith('**') && part.endsWith('**')) {
       // Bold text
       return (
-        <strong key={index} className="font-semibold text-gray-900">
+        <strong key={index} className="font-semibold text-slate-900">
           {part.slice(2, -2)}
         </strong>
       );
@@ -139,13 +139,13 @@ interface AccordionItemProps {
 
 function AccordionItem({ title, content, isOpen, onClick }: AccordionItemProps) {
   return (
-    <div className="border-b border-gray-200">
+    <div className="border-b border-slate-200">
       <button
         onClick={onClick}
         className="w-full py-5 px-6 flex justify-between items-center text-left hover:bg-slate-50 transition-colors"
         aria-expanded={isOpen}
       >
-        <span className="text-lg font-semibold text-gray-900 pr-8">
+        <span className="text-lg font-semibold text-slate-900 pr-8">
           {title}
         </span>
         <motion.svg
@@ -168,7 +168,7 @@ function AccordionItem({ title, content, isOpen, onClick }: AccordionItemProps) 
             transition={{ duration: 0.3, ease: 'easeInOut' }}
             className="overflow-hidden"
           >
-            <div className="px-6 pb-5 text-gray-600 leading-relaxed">
+            <div className="px-6 pb-5 text-slate-600 leading-relaxed">
               {renderContent(content)}
             </div>
           </motion.div>
@@ -203,7 +203,7 @@ export function Accordion({ items, defaultOpenIndex = -1, allowMultiple = false 
   };
 
   return (
-    <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-200">
+    <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-slate-200">
       {items.map((item, index) => (
         <AccordionItem
           key={index}

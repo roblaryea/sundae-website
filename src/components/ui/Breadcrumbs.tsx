@@ -76,7 +76,7 @@ export function Breadcrumbs({ className = '' }: { className?: string }) {
           <li>
             <Link
               href="/"
-              className="text-gray-500 hover:text-blue-600 transition-colors"
+              className="text-slate-500 hover:text-slate-900 transition-colors"
             >
               Home
             </Link>
@@ -85,15 +85,15 @@ export function Breadcrumbs({ className = '' }: { className?: string }) {
             const isLast = i === crumbs.length - 1;
             return (
               <li key={crumb.href} className="flex items-center gap-1.5">
-                <span className="text-gray-400" aria-hidden="true">/</span>
+                <span className="text-slate-400" aria-hidden="true">/</span>
                 {isLast ? (
-                  <span className="text-gray-900 font-medium" aria-current="page">
+                  <span className="text-slate-900 font-medium" aria-current="page">
                     {crumb.label}
                   </span>
                 ) : (
                   <Link
                     href={crumb.href}
-                    className="text-gray-500 hover:text-blue-600 transition-colors"
+                    className="text-slate-500 hover:text-slate-900 transition-colors"
                   >
                     {crumb.label}
                   </Link>

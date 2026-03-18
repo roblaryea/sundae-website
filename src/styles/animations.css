@@ -23,8 +23,8 @@
 }
 
 @keyframes pulseGlow {
-  0%, 100% { box-shadow: 0 0 20px rgba(28, 71, 255, 0.3); }
-  50% { box-shadow: 0 0 40px rgba(28, 71, 255, 0.6); }
+  0%, 100% { box-shadow: 0 0 20px rgba(15, 23, 42, 0.3); }
+  50% { box-shadow: 0 0 40px rgba(15, 23, 42, 0.6); }
 }
 
 @keyframes shimmer {
@@ -71,13 +71,13 @@
 }
 
 .gradient-mesh {
-  background: linear-gradient(135deg, #0A1E8C 0%, #1C47FF 50%, #B8C0FF 100%);
+  background: linear-gradient(135deg, #0f172a 0%, #334155 50%, #94a3b8 100%);
   background-size: 400% 400%;
   animation: gradientShift 8s ease infinite;
 }
 
 .text-gradient {
-  background: linear-gradient(135deg, #0A1E8C, #1C47FF);
+  background: linear-gradient(135deg, #0f172a, #334155);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

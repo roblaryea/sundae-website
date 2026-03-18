@@ -123,21 +123,21 @@ export default function DocumentationPage() {
                         <SundaeIcon name={section.icon} size="lg" className="text-white" />
                       </div>
                       <div>
-                        <CardTitle className="text-xl text-gray-900 group-hover:text-blue-600 transition-colors duration-300">
+                        <CardTitle className="text-xl text-slate-900 group-hover:text-blue-600 transition-colors duration-300">
                           {section.title}
                         </CardTitle>
                       </div>
                     </div>
-                    <CardDescription className="text-gray-600 leading-relaxed mb-4">
+                    <CardDescription className="text-slate-600 leading-relaxed mb-4">
                       {section.description}
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-2">
-                      <p className="text-sm font-semibold text-gray-700 mb-3">Topics:</p>
+                      <p className="text-sm font-semibold text-slate-700 mb-3">Topics:</p>
                       <ul className="space-y-2">
                         {section.topics.map((topic, idx) => (
-                          <li key={idx} className="flex items-start space-x-2 text-sm text-gray-600">
+                          <li key={idx} className="flex items-start space-x-2 text-sm text-slate-600">
                             <span className="text-blue-600 mt-0.5">&rarr;</span>
                             <span>{topic}</span>
                           </li>
@@ -157,10 +157,10 @@ export default function DocumentationPage() {
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
                 Quick Start Guide
               </h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              <p className="text-xl text-slate-600 max-w-3xl mx-auto">
                 Get up and running with Sundae in four simple steps
               </p>
             </div>
@@ -200,8 +200,8 @@ export default function DocumentationPage() {
                       <SundaeIcon name={item.icon} size="xl" className="text-white" />
                     </div>
                     <div className="text-3xl font-bold text-blue-600 mb-4">Step {item.step}</div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-3">{item.title}</h3>
-                    <p className="text-gray-600 leading-relaxed">{item.description}</p>
+                    <h3 className="text-xl font-bold text-slate-900 mb-3">{item.title}</h3>
+                    <p className="text-slate-600 leading-relaxed">{item.description}</p>
                   </CardContent>
                 </Card>
               </StaggerItem>
@@ -216,13 +216,13 @@ export default function DocumentationPage() {
           <FadeUp>
             <div className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-2xl p-12 border border-slate-200">
               <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center"><SundaeIcon name="warning" size="xl" className="text-white" /></div>
-              <h3 className="text-3xl font-bold text-gray-900 mb-4">
+              <h3 className="text-3xl font-bold text-slate-900 mb-4">
                 More Documentation Coming Soon
               </h3>
-              <p className="text-lg text-gray-600 mb-8">
+              <p className="text-lg text-slate-600 mb-8">
                 We&apos;re continuously expanding our documentation. Check back soon for API references, video tutorials, and advanced guides.
               </p>
-              <p className="text-sm text-gray-500">
+              <p className="text-sm text-slate-500">
                 Questions in the meantime?{" "}
                 <Link href="/contact" className="text-blue-600 font-medium hover:underline">
                   Get in touch with our team &rarr;

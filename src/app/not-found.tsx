@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 export default function NotFound() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-blue-50 flex items-center justify-center px-4">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50 flex items-center justify-center px-4">
       <div className="max-w-2xl mx-auto text-center">
         {/* Animated Floating Orb */}
         <motion.div
@@ -47,15 +47,15 @@ export default function NotFound() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
         >
-          <h1 className="hero-h1 text-gray-900 mb-4" style={{ fontSize: 'clamp(4rem, 10vw, 8rem)' }}>404</h1>
-          <h2 className="section-h3 text-gray-800 mb-4">
+          <h1 className="hero-h1 text-slate-900 mb-4" style={{ fontSize: 'clamp(4rem, 10vw, 8rem)' }}>404</h1>
+          <h2 className="section-h3 text-slate-800 mb-4">
             Looks like this scoop melted
           </h2>
-          <p className="body-xl text-gray-600 mb-8">
+          <p className="body-xl text-slate-600 mb-8">
             Let's get you back to Sundae.
           </p>
           
-          <p className="text-gray-500 mb-8">
+          <p className="text-slate-500 mb-8">
             The page you're looking for might have been moved, deleted, or never existed.
           </p>
 
