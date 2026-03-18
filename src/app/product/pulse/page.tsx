@@ -148,7 +148,7 @@ export default function PulsePage() {
   const cta = useCta();
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-red-50/80 via-white to-orange-50/30 dark:from-slate-950 dark:via-slate-900 dark:to-slate-950">
+    <div className="min-h-screen bg-white dark:from-slate-950 dark:via-slate-900 dark:to-slate-950">
       {/* Hero */}
       <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
@@ -163,10 +163,10 @@ export default function PulsePage() {
                 <span>Pulse — Intraday Operations Monitor</span>
               </div>
               <h1 className="hero-h1 text-gray-900 dark:text-white mb-6">
-                Your Shift Command Center
+                Control Your Shift.<br />Don&apos;t Just Watch It.
               </h1>
               <p className="body-xl text-gray-600 dark:text-slate-300 mb-6 max-w-xl">
-                Sundae Pulse monitors every dimension of your shift in real time — sales pacing, labor productivity, server performance, leakage, and service speed — with AI-powered targets that adapt to your restaurant&apos;s unique patterns and seasonality.
+                Pulse monitors sales pacing, labor cost, server performance, leakage, and service speed in real time — with AI targets that adapt to your restaurant&apos;s patterns, seasonality, and local events. See anomalies the moment they happen. Act before they cost you.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 mb-6">
                 <Button

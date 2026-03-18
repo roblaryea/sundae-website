@@ -99,9 +99,9 @@ export default function WatchtowerPage() {
   const cta = useCta();
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-red-50 dark:from-slate-950 dark:via-slate-900 dark:to-slate-950">
+    <div className="min-h-screen bg-white dark:from-slate-950 dark:via-slate-900 dark:to-slate-950">
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-red-50/80 via-orange-50/30 to-red-50/60 dark:from-slate-950 dark:via-slate-900 dark:to-slate-950">
+      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:via-slate-900 dark:to-slate-950">
         <div className="max-w-7xl mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -113,10 +113,10 @@ export default function WatchtowerPage() {
               <span>Watchtower — External Intelligence Engine</span>
             </div>
             <h1 className="hero-h1 text-gray-900 dark:text-white mb-6">
-              The Outside World, Contextualized<br />for Your Restaurant
+              Know What&apos;s Happening Around You.<br />Act Before Your Competitors Do.
             </h1>
             <p className="body-xl text-gray-600 dark:text-slate-300 mb-4 max-w-4xl mx-auto">
-              Watchtower brings competitor activity, local events, weather impact, and market trends into one intelligence feed — synthesized with your internal performance data into a daily briefing that tells you what&apos;s happening, why it matters, and what to do about it.
+              Competitor pricing changes. A concert this weekend. Ramadan starts next week. Watchtower synthesizes external signals with your internal data into a daily intelligence briefing — telling you what&apos;s happening, why it matters, and what to do about it.
             </p>
             <p className="body-lg text-gray-500 dark:text-slate-400 mb-8 max-w-3xl mx-auto">
               <strong>Available on Core tiers.</strong> Choose individual intelligence types or the full Watchtower bundle.

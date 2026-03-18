@@ -123,10 +123,10 @@ export default function IntegrationsPage() {
         <div className="max-w-4xl mx-auto text-center">
           <span className="badge--architecture inline-block mb-4">INTEGRATIONS</span>
           <h1 className="hero-h1 text-gray-900 dark:text-white mb-6">
-            Connect Every System. Unify Every Metric.
+            All Your Systems. One Intelligence Layer.
           </h1>
           <p className="body-xl text-gray-600 dark:text-slate-300 max-w-3xl mx-auto mb-8">
-            Sundae&apos;s 12-domain integration engine connects 30+ restaurant platforms — from POS and payroll to delivery and reservations. Your data flows in automatically, so your team can focus on decisions, not data entry.
+            POS, labor, inventory, delivery, reservations, accounting — Sundae connects 30+ platforms across 12 data domains. Your data flows in automatically. No exports, no manual entry, no waiting.
           </p>
           <a href="/demo" className="btn-primary">
             See Integrations in Action
