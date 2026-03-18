@@ -223,7 +223,7 @@ export default function InsightsPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[var(--navy-deep)]">
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
         <div className="max-w-4xl mx-auto text-center">
@@ -232,14 +232,14 @@ export default function InsightsPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase text-slate-500 mb-4">SUNDAE INSIGHTS</span>
+            <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase text-[var(--text-muted)] mb-4">SUNDAE INSIGHTS</span>
           </motion.div>
 
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="hero-h1 text-slate-900 mb-6"
+            className="hero-h1 text-[var(--text-primary)] mb-6"
           >
             Go Deeper Into Every Part of Your Operation
           </motion.h1>
@@ -248,7 +248,7 @@ export default function InsightsPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="body-xl text-slate-600 mb-8 max-w-3xl mx-auto"
+            className="body-xl text-[var(--text-supporting)] mb-8 max-w-3xl mx-auto"
           >
             12 specialized modules — revenue, labor, inventory, purchasing, marketing, reservations, profit, delivery, guest experience, CRM, revenue assurance, and cross-intelligence. Each one gives you AI-powered analytics for a specific operational domain.
           </motion.p>
@@ -300,12 +300,12 @@ export default function InsightsPage() {
                   initial={{ opacity: 0, scale: 0.9 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.3, delay: 0.6 + (index * 0.05) }}
-                  className="bg-white rounded-xl p-3 text-center border border-slate-200 hover:border-slate-300 transition-colors"
+                  className="bg-[var(--navy-deep)] rounded-xl p-3 text-center border border-[var(--border-default)] hover:border-white/[0.1] transition-colors"
                 >
                   <div className="w-9 h-9 mx-auto mb-1.5 bg-slate-900 rounded-lg flex items-center justify-center">
-                    <SundaeIcon name={item.icon} size="sm" className="text-white" />
+                    <SundaeIcon name={item.icon} size="sm" className="text-[var(--text-primary)]" />
                   </div>
-                  <p className="text-[11px] font-medium text-slate-600">{item.label}</p>
+                  <p className="text-[11px] font-medium text-[var(--text-supporting)]">{item.label}</p>
                 </motion.div>
               ))}
             </div>
@@ -314,33 +314,33 @@ export default function InsightsPage() {
       </section>
 
       {/* Value Props */}
-      <section className="py-10 px-4 sm:px-6 lg:px-8 bg-white border-b border-slate-100">
+      <section className="py-10 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] border-b border-[var(--border-default)]">
         <div className="max-w-4xl mx-auto">
-          <div className="flex flex-wrap justify-center gap-8 text-sm text-slate-500">
+          <div className="flex flex-wrap justify-center gap-8 text-sm text-[var(--text-muted)]">
             <span className="font-medium">Add modules as you need them</span>
-            <span className="text-slate-300">|</span>
+            <span className="text-[var(--text-muted)]">|</span>
             <span className="font-medium">AI-powered analytics per domain</span>
-            <span className="text-slate-300">|</span>
+            <span className="text-[var(--text-muted)]">|</span>
             <span className="font-medium">Available on Core tiers</span>
           </div>
         </div>
       </section>
 
       {/* Who It's For */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="section-h2 text-slate-900 mb-2">Who It&apos;s For</h2>
-            <p className="body-lg text-slate-600">Teams who need domain-specific depth, not just dashboards</p>
+            <h2 className="section-h2 text-[var(--text-primary)] mb-2">Who It&apos;s For</h2>
+            <p className="body-lg text-[var(--text-supporting)]">Teams who need domain-specific depth, not just dashboards</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {whoItsFor.map((persona, index) => (
-              <div key={index} className="text-center p-6 rounded-2xl bg-slate-50 border border-slate-100">
+              <div key={index} className="text-center p-6 rounded-2xl bg-[var(--surface-faint)] border border-[var(--border-default)]">
                 <div className="w-11 h-11 mx-auto mb-3 bg-slate-900 rounded-lg flex items-center justify-center">
-                  <SundaeIcon name={persona.icon} size="md" className="text-white" />
+                  <SundaeIcon name={persona.icon} size="md" className="text-[var(--text-primary)]" />
                 </div>
-                <h3 className="font-semibold text-slate-900 mb-2">{persona.title}</h3>
-                <p className="text-sm text-slate-600">{persona.description}</p>
+                <h3 className="font-semibold text-[var(--text-primary)] mb-2">{persona.title}</h3>
+                <p className="text-sm text-[var(--text-supporting)]">{persona.description}</p>
               </div>
             ))}
           </div>
@@ -348,13 +348,13 @@ export default function InsightsPage() {
       </section>
 
       {/* Intelligence Modules Grid */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               12 Modules. One Platform.
             </h2>
-            <p className="body-lg text-slate-600 max-w-3xl mx-auto">
+            <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">
               Each module delivers AI-powered analytics for a specific operational domain
             </p>
           </div>
@@ -367,25 +367,25 @@ export default function InsightsPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: index * 0.04 }}
-                className="h-full bg-white rounded-2xl border border-slate-200 p-6 hover:border-slate-300 transition-colors"
+                className="h-full bg-[var(--navy-deep)] rounded-2xl border border-[var(--border-default)] p-6 hover:border-white/[0.1] transition-colors"
               >
                 <div className="flex items-start justify-between mb-4">
                   <div className="w-10 h-10 bg-slate-900 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <SundaeIcon name={module.icon} size="md" className="text-white" />
+                    <SundaeIcon name={module.icon} size="md" className="text-[var(--text-primary)]" />
                   </div>
-                  <span className="px-2 py-0.5 text-[10px] font-semibold rounded-full bg-slate-100 text-slate-600 uppercase tracking-wide">
+                  <span className="px-2 py-0.5 text-[10px] font-semibold rounded-full bg-[var(--surface-subtle)] text-[var(--text-supporting)] uppercase tracking-wide">
                     {module.category}
                   </span>
                 </div>
-                <h3 className="text-base font-semibold text-slate-900 mb-1">{module.name}</h3>
-                <p className="text-xs font-medium text-slate-700 mb-2">{module.headline}</p>
-                <p className="text-sm text-slate-600 leading-relaxed mb-4">
+                <h3 className="text-base font-semibold text-[var(--text-primary)] mb-1">{module.name}</h3>
+                <p className="text-xs font-medium text-[var(--text-secondary)] mb-2">{module.headline}</p>
+                <p className="text-sm text-[var(--text-supporting)] leading-relaxed mb-4">
                   {module.description}
                 </p>
                 <ul className="space-y-1.5">
                   {module.capabilities.map((cap) => (
-                    <li key={cap} className="flex items-start gap-2 text-sm text-slate-600">
-                      <span className="text-slate-400 mt-0.5 flex-shrink-0 text-xs">&#10003;</span>
+                    <li key={cap} className="flex items-start gap-2 text-sm text-[var(--text-supporting)]">
+                      <span className="text-[var(--text-muted)] mt-0.5 flex-shrink-0 text-xs">&#10003;</span>
                       <span>{cap}</span>
                     </li>
                   ))}
@@ -397,13 +397,13 @@ export default function InsightsPage() {
       </section>
 
       {/* How It Works */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               How It Works
             </h2>
-            <p className="body-lg text-slate-600 max-w-3xl mx-auto">
+            <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">
               Add modules to your Core subscription as your needs grow
             </p>
           </div>
@@ -411,11 +411,11 @@ export default function InsightsPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {howItWorks.map((step, index) => (
               <div key={index} className="text-center">
-                <div className="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center text-slate-600 text-lg font-bold mx-auto mb-4">
+                <div className="w-12 h-12 bg-[var(--surface-subtle)] rounded-full flex items-center justify-center text-[var(--text-supporting)] text-lg font-bold mx-auto mb-4">
                   {step.step}
                 </div>
-                <h3 className="text-lg font-semibold text-slate-900 mb-2">{step.title}</h3>
-                <p className="text-sm text-slate-600">{step.description}</p>
+                <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">{step.title}</h3>
+                <p className="text-sm text-[var(--text-supporting)]">{step.description}</p>
               </div>
             ))}
           </div>
@@ -423,15 +423,15 @@ export default function InsightsPage() {
       </section>
 
       {/* Fits the Stack */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50 border-y border-slate-100">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)] border-y border-[var(--border-default)]">
         <div className="max-w-5xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <span className="text-[11px] font-semibold tracking-[0.14em] uppercase text-slate-500 mb-4 block">HOW INSIGHTS FITS</span>
-              <h2 className="section-h2 text-slate-900 mb-6">
+              <span className="text-[11px] font-semibold tracking-[0.14em] uppercase text-[var(--text-muted)] mb-4 block">HOW INSIGHTS FITS</span>
+              <h2 className="section-h2 text-[var(--text-primary)] mb-6">
                 The Analytical Layer
               </h2>
-              <p className="body-lg text-slate-600">
+              <p className="body-lg text-[var(--text-supporting)]">
                 Pulse monitors your shift in real time. Watchtower tracks what&apos;s happening outside your walls. Insights modules go deeper — domain-specific dashboards for labor, inventory, purchasing, marketing, and more. Together, they form a complete intelligence stack.
               </p>
             </div>
@@ -441,13 +441,13 @@ export default function InsightsPage() {
                 { name: "Watchtower", desc: "External market intelligence", icon: "watchtower" as SundaeIconName },
                 { name: "Insights", desc: "Domain-specific analytical intelligence", icon: "insights" as SundaeIconName }
               ].map((item) => (
-                <div key={item.name} className="flex items-center gap-4 p-4 bg-white rounded-xl border border-slate-200">
+                <div key={item.name} className="flex items-center gap-4 p-4 bg-[var(--navy-deep)] rounded-xl border border-[var(--border-default)]">
                   <div className="w-10 h-10 bg-slate-900 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <SundaeIcon name={item.icon} size="md" className="text-white" />
+                    <SundaeIcon name={item.icon} size="md" className="text-[var(--text-primary)]" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-slate-900 text-sm">{item.name}</h4>
-                    <p className="text-xs text-slate-600">{item.desc}</p>
+                    <h4 className="font-semibold text-[var(--text-primary)] text-sm">{item.name}</h4>
+                    <p className="text-xs text-[var(--text-supporting)]">{item.desc}</p>
                   </div>
                 </div>
               ))}
@@ -457,19 +457,19 @@ export default function InsightsPage() {
       </section>
 
       {/* CTA Band */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] text-[var(--text-primary)]">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 mb-6">
             Start With What Matters Most
           </h2>
-          <p className="body-xl mb-8 text-slate-300">
+          <p className="body-xl mb-8 text-[var(--text-muted)]">
             Add the modules your operation needs. Scale as you grow. Every module available on Core tiers.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               variant="primary"
               size="lg"
-              className="bg-white text-slate-900 hover:bg-slate-100"
+              className="bg-[var(--navy-deep)] text-[var(--text-primary)] hover:bg-[var(--surface-subtle)]"
               onClick={() => cta("/demo", "book_demo_insights_cta", { page: "/insights" })}
             >
               Book a Demo

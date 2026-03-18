@@ -1,92 +1,209 @@
 /* ==============================================
-   DESIGN TOKENS
-   Brand colors, product colors, spacing, status
+   DESIGN TOKENS — Dark Mode Foundation
+   Brand colors, surfaces, text hierarchy, glows
    ============================================== */
 
 :root {
-  --background: #ffffff;
-  --foreground: #111111;
+  /* ─── Foundation ─── */
+  --navy-deep: #0D1520;          /* Page background */
+  --navy: #1A2332;               /* Card/surface background */
+  --navy-surface: #1E293B;       /* Elevated surfaces, nav, footer */
 
-  /* Sundae Brand Colors - Primary (legacy aliases mapped to slate palette) */
-  --deep-blue: #0f172a;       /* slate-900 */
-  --electric-blue: #334155;   /* slate-700 */
-  --soft-white: #F7F8FF;
-  --pure-white: #FFFFFF;
+  --background: #0D1520;
+  --foreground: #FFFFFF;
 
-  /* Secondary / UI Neutrals */
-  --graphite-black: #111111;
-  --muted-grey: #79819A;
-  --divider-grey: #E6E8F2;
+  /* ─── Brand Primary ─── */
+  --electric-blue: #1C47FF;      /* Primary accent, CTAs, links, active states */
+  --deep-blue: #0A1E8C;          /* Gradient starts, secondary accent */
+  --brand-main: #151EA1;         /* Alternate blue for variety */
 
-  /* Insight Status Colors */
+  /* ─── Brand Secondary ─── */
+  --brand-yellow: #FFD232;       /* Highlight accent, enterprise badge */
+  --brand-red: #FF5450;          /* Critical, alert, negative */
+  --soft-white: #F7F8FF;         /* Primary text */
+
+  /* ─── Chart / Data Palette ─── */
+  --chart-indigo: #666FEA;
+  --chart-green: #22C55E;
+  --chart-amber: #FBBF24;
+  --chart-purple: #A855F7;
+  --chart-pink: #EC4899;
+  --chart-sky: #0EA5E9;
+
+  /* ─── Semantic ─── */
   --positive: #16A34A;
   --warning: #F59E0B;
   --critical: #DC2626;
 
-  /* Accent Colors */
+  /* ─── Text Hierarchy (opacity-based on dark) ─── */
+  --text-primary: #FFFFFF;
+  --text-secondary: rgba(255, 255, 255, 0.75);
+  --text-supporting: rgba(255, 255, 255, 0.65);
+  --text-muted: rgba(255, 255, 255, 0.5);
+  --text-faint: rgba(255, 255, 255, 0.2);
+  --muted-grey: #79819A;
+
+  /* ─── Surface Transparency Scale ─── */
+  --surface-faint: rgba(255, 255, 255, 0.02);    /* Grid backgrounds */
+  --surface-subtle: rgba(255, 255, 255, 0.04);   /* Base card bg */
+  --surface-hover: rgba(255, 255, 255, 0.06);    /* Card hover */
+  --surface-emphasis: rgba(255, 255, 255, 0.08);  /* Borders, dividers */
+
+  /* ─── Gradients ─── */
+  --grad-primary: linear-gradient(135deg, #0A1E8C 0%, #1C47FF 50%, #3B82F6 100%);
+  --grad-cta: linear-gradient(to right, #0A1E8C, #3B82F6);
+  --grad-deep-blue: linear-gradient(180deg, #0A1E8C 0%, #0D1520 100%);
+
+  /* Background mesh gradients (for sections) */
+  --bg-mesh: radial-gradient(ellipse 80% 60% at 20% 40%, rgba(28,71,255,0.08) 0%, transparent 60%),
+             radial-gradient(ellipse 60% 50% at 80% 60%, rgba(10,30,140,0.1) 0%, transparent 50%),
+             var(--navy-deep);
+  --bg-top-glow: radial-gradient(ellipse 100% 40% at 50% 0%, rgba(28,71,255,0.1) 0%, transparent 60%),
+                 var(--navy-deep);
+  --bg-center-glow: radial-gradient(ellipse 60% 50% at 50% 50%, rgba(28,71,255,0.08) 0%, transparent 60%),
+                    var(--navy-deep);
+
+  /* ─── Shadows & Glows ─── */
+  --glow-blue: 0 0 60px rgba(28, 71, 255, 0.3);
+  --glow-strong: 0 0 80px rgba(28, 71, 255, 0.4), 0 0 120px rgba(28, 71, 255, 0.15);
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.3);
+  --shadow-xl: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+
+  /* ─── Borders ─── */
+  --border-default: rgba(255, 255, 255, 0.08);
+  --border-hover: rgba(28, 71, 255, 0.3);
+  --border-emphasis: rgba(255, 255, 255, 0.15);
+
+  /* ─── Accent Colors ─── */
   --lavender: #B8C0FF;
   --coral: #FF6D5A;
   --aqua: #3CC8E2;
 
-  /* Product Colors - Report (Purple) */
+  /* ─── Product Colors ─── */
+  --color-pulse: #EF4444;
+  --color-benchmarks: #3B82F6;
+  --color-watchtower: #F59E0B;
+  --color-insights: #8B5CF6;
+  --color-intelligence: #22C55E;
+
+  /* Legacy product tokens (keeping for existing pages during migration) */
   --color-report: #7C3AED;
-  --color-report-light: #F3E8FF;
-  --color-report-dark: #581C87;
-
-  /* Product Colors - Core (Blue) */
+  --color-report-light: rgba(124, 58, 237, 0.15);
+  --color-report-dark: #C4B5FD;
   --color-core: #2563EB;
-  --color-core-light: #DBEAFE;
-  --color-core-dark: #1E40AF;
+  --color-core-light: rgba(37, 99, 235, 0.15);
+  --color-core-dark: #93C5FD;
+  --color-watchtower-light: rgba(220, 38, 38, 0.15);
+  --color-watchtower-dark: #FCA5A5;
 
-  /* Product Colors - Watchtower (Red) */
-  --color-watchtower: #DC2626;
-  --color-watchtower-light: #FEE2E2;
-  --color-watchtower-dark: #991B1B;
+  /* Badge Colors (dark mode) */
+  --badge-free: rgba(22, 163, 74, 0.15);
+  --badge-free-text: #4ADE80;
+  --badge-popular: rgba(28, 71, 255, 0.15);
+  --badge-popular-text: #60A5FA;
+  --badge-addon: rgba(255, 255, 255, 0.06);
+  --badge-addon-text: rgba(255, 255, 255, 0.6);
 
-  /* Badge Colors */
-  --badge-free: #D1FAE5;
-  --badge-free-text: #065F46;
-  --badge-popular: #FED7AA;
-  --badge-popular-text: #9A3412;
-  --badge-addon: #F3F4F6;
-  --badge-addon-text: #1F2937;
-
-  /* Architecture Component Colors */
+  /* Architecture Component Colors (dark mode compatible) */
   --color-scout: #10B981;
-  --color-scout-light: #D1FAE5;
-  --color-scout-dark: #065F46;
-
-  --color-pulse: #8B5CF6;
-  --color-pulse-light: #F3E8FF;
-  --color-pulse-dark: #581C87;
-
+  --color-scout-light: rgba(16, 185, 129, 0.15);
+  --color-scout-dark: #6EE7B7;
+  --color-pulse-light: rgba(239, 68, 68, 0.15);
+  --color-pulse-dark: #FCA5A5;
   --color-forge: #F97316;
-  --color-forge-light: #FED7AA;
-  --color-forge-dark: #9A3412;
-
+  --color-forge-light: rgba(249, 115, 22, 0.15);
+  --color-forge-dark: #FDBA74;
   --color-canvas: #3B82F6;
-  --color-canvas-light: #DBEAFE;
-  --color-canvas-dark: #1E40AF;
+  --color-canvas-light: rgba(59, 130, 246, 0.15);
+  --color-canvas-dark: #93C5FD;
 
-  /* Semantic UI Tokens — Light Mode */
-  --surface: #ffffff;
-  --surface-alt: #f9fafb;
-  --surface-raised: #f3f4f6;
-  --text: #111827;
-  --text-secondary: #374151;
-  --text-muted: #4b5563;
-  --text-faint: #6b7280;
-  --border: #e5e7eb;
-  --border-strong: #d1d5db;
-  --shadow-color: rgba(0, 0, 0, 0.1);
-  --hover-bg: #f9fafb;
-  --gradient-from: #f9fafb;
-  --gradient-to: #ffffff;
-  --focus-ring: #3b82f6;
-  --link-hover: #1d4ed8;
+  /* Semantic UI Tokens */
+  --surface: var(--navy-deep);
+  --surface-alt: var(--navy);
+  --surface-raised: var(--navy-surface);
+  --text: var(--text-primary);
+  --text-secondary-ui: var(--text-secondary);
+  --border: var(--border-default);
+  --border-strong: var(--border-emphasis);
+  --shadow-color: rgba(0, 0, 0, 0.4);
+  --hover-bg: var(--surface-hover);
+  --focus-ring: var(--electric-blue);
+  --link-hover: #60A5FA;
 }
 
-/* Dark mode removed — light-only design system */
+/* ==============================================
+   LIGHT MODE OVERRIDES
+   Applied when <html class="light"> is set.
+   ============================================== */
+
+html.light {
+  /* ─── Foundation ─── */
+  --navy-deep: #FFFFFF;
+  --navy: #F8FAFC;
+  --navy-surface: #F1F5F9;
+
+  --background: #FFFFFF;
+  --foreground: #0F172A;
+
+  /* ─── Text Hierarchy ─── */
+  --text-primary: #0F172A;
+  --text-secondary: rgba(15, 23, 42, 0.75);
+  --text-supporting: rgba(15, 23, 42, 0.6);
+  --text-muted: rgba(15, 23, 42, 0.5);
+  --text-faint: rgba(15, 23, 42, 0.15);
+  --muted-grey: #64748B;
+
+  /* ─── Surface Transparency Scale ─── */
+  --surface-faint: rgba(15, 23, 42, 0.02);
+  --surface-subtle: rgba(15, 23, 42, 0.03);
+  --surface-hover: rgba(15, 23, 42, 0.05);
+  --surface-emphasis: rgba(15, 23, 42, 0.08);
+
+  /* ─── Shadows & Glows (softer for light) ─── */
+  --glow-blue: 0 0 40px rgba(28, 71, 255, 0.12);
+  --glow-strong: 0 0 60px rgba(28, 71, 255, 0.15), 0 0 100px rgba(28, 71, 255, 0.06);
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.06);
+  --shadow-xl: 0 25px 50px -12px rgba(0, 0, 0, 0.1);
+
+  /* ─── Borders ─── */
+  --border-default: rgba(15, 23, 42, 0.1);
+  --border-hover: rgba(28, 71, 255, 0.3);
+  --border-emphasis: rgba(15, 23, 42, 0.15);
+
+  /* ─── Background Meshes (light versions) ─── */
+  --bg-mesh: radial-gradient(ellipse 80% 60% at 20% 40%, rgba(28,71,255,0.04) 0%, transparent 60%),
+             radial-gradient(ellipse 60% 50% at 80% 60%, rgba(10,30,140,0.03) 0%, transparent 50%),
+             #FFFFFF;
+  --bg-top-glow: radial-gradient(ellipse 100% 40% at 50% 0%, rgba(28,71,255,0.05) 0%, transparent 60%),
+                 #FFFFFF;
+  --bg-center-glow: radial-gradient(ellipse 60% 50% at 50% 50%, rgba(28,71,255,0.04) 0%, transparent 60%),
+                    #FFFFFF;
+
+  /* ─── Semantic UI Tokens ─── */
+  --surface: #FFFFFF;
+  --surface-alt: #F8FAFC;
+  --surface-raised: #F1F5F9;
+  --text: var(--text-primary);
+  --text-secondary-ui: var(--text-secondary);
+  --border: var(--border-default);
+  --border-strong: var(--border-emphasis);
+  --shadow-color: rgba(0, 0, 0, 0.08);
+  --hover-bg: var(--surface-hover);
+  --link-hover: #1C47FF;
+
+  /* ─── Badge Colors (light mode) ─── */
+  --badge-free: rgba(22, 163, 74, 0.1);
+  --badge-free-text: #16A34A;
+  --badge-popular: rgba(28, 71, 255, 0.1);
+  --badge-popular-text: #1C47FF;
+  --badge-addon: rgba(15, 23, 42, 0.06);
+  --badge-addon-text: rgba(15, 23, 42, 0.6);
+
+  /* ─── Electric blue stays the same ─── */
+  --electric-blue: #1C47FF;
+
+  color-scheme: light;
+}
 
 /* Tailwind v4 theme integration */
 @theme inline {

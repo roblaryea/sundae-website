@@ -112,7 +112,7 @@ export default function AboutPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[var(--navy-deep)]">
       {/* Hero Section */}
       <PageHero
         badge="Our Story"
@@ -121,15 +121,15 @@ export default function AboutPage() {
       />
 
       {/* Mission & Vision Section */}
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <FadeUp>
               <div>
-                <h2 className="section-h2 text-slate-900 mb-8">
+                <h2 className="section-h2 text-[var(--text-primary)] mb-8">
                   Our Mission
                 </h2>
-                <p className="body-xl text-slate-700 mb-10">
+                <p className="body-xl text-[var(--text-secondary)] mb-10">
                   We exist to give restaurant operators a single source of truth — turning scattered data into confident decisions.
                 </p>
 
@@ -139,12 +139,12 @@ export default function AboutPage() {
                     whileHover={{ x: 4 }}
                     transition={{ duration: 0.2 }}
                   >
-                    <div className="w-8 h-8 bg-slate-900 rounded-full flex items-center justify-center text-white text-sm font-bold mt-1 flex-shrink-0">
+                    <div className="w-8 h-8 bg-slate-900 rounded-full flex items-center justify-center text-[var(--text-primary)] text-sm font-bold mt-1 flex-shrink-0">
                       1
                     </div>
                     <div>
-                      <h4 className="font-semibold text-slate-900 text-lg mb-1">Unify Every Data Source</h4>
-                      <p className="text-slate-600 leading-[1.65]">Break down silos between POS, labor, inventory, and financial systems into one intelligent layer.</p>
+                      <h4 className="font-semibold text-[var(--text-primary)] text-lg mb-1">Unify Every Data Source</h4>
+                      <p className="text-[var(--text-supporting)] leading-[1.65]">Break down silos between POS, labor, inventory, and financial systems into one intelligent layer.</p>
                     </div>
                   </motion.div>
 
@@ -153,12 +153,12 @@ export default function AboutPage() {
                     whileHover={{ x: 4 }}
                     transition={{ duration: 0.2 }}
                   >
-                    <div className="w-8 h-8 bg-slate-900 rounded-full flex items-center justify-center text-white text-sm font-bold mt-1 flex-shrink-0">
+                    <div className="w-8 h-8 bg-slate-900 rounded-full flex items-center justify-center text-[var(--text-primary)] text-sm font-bold mt-1 flex-shrink-0">
                       2
                     </div>
                     <div>
-                      <h4 className="font-semibold text-slate-900 text-lg mb-1">Benchmark Every Location</h4>
-                      <p className="text-slate-600 leading-[1.65]">Compare performance against similar restaurants and industry standards in real-time.</p>
+                      <h4 className="font-semibold text-[var(--text-primary)] text-lg mb-1">Benchmark Every Location</h4>
+                      <p className="text-[var(--text-supporting)] leading-[1.65]">Compare performance against similar restaurants and industry standards in real-time.</p>
                     </div>
                   </motion.div>
 
@@ -167,12 +167,12 @@ export default function AboutPage() {
                     whileHover={{ x: 4 }}
                     transition={{ duration: 0.2 }}
                   >
-                    <div className="w-8 h-8 bg-slate-900 rounded-full flex items-center justify-center text-white text-sm font-bold mt-1 flex-shrink-0">
+                    <div className="w-8 h-8 bg-slate-900 rounded-full flex items-center justify-center text-[var(--text-primary)] text-sm font-bold mt-1 flex-shrink-0">
                       3
                     </div>
                     <div>
-                      <h4 className="font-semibold text-slate-900 text-lg mb-1">Act with Confidence</h4>
-                      <p className="text-slate-600 leading-[1.65]">Get AI-powered insights and recommendations to improve revenue, reduce costs, and scale faster.</p>
+                      <h4 className="font-semibold text-[var(--text-primary)] text-lg mb-1">Act with Confidence</h4>
+                      <p className="text-[var(--text-supporting)] leading-[1.65]">Get AI-powered insights and recommendations to improve revenue, reduce costs, and scale faster.</p>
                     </div>
                   </motion.div>
                 </div>
@@ -180,29 +180,29 @@ export default function AboutPage() {
             </FadeUp>
 
             <FadeUp delay={0.1}>
-              <div className="bg-slate-50 border border-slate-200 rounded-3xl p-10 shadow-xl">
+              <div className="bg-[var(--surface-faint)] border border-[var(--border-default)] rounded-3xl p-10 shadow-xl">
                 <div className="text-center mb-8">
                   <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl flex items-center justify-center">
-                    <SundaeIcon name="marketing" size="xl" className="text-white" />
+                    <SundaeIcon name="marketing" size="xl" className="text-[var(--text-primary)]" />
                   </div>
-                  <h3 className="section-h3 text-slate-900 mb-4">Our Vision</h3>
-                  <p className="body-lg text-slate-700">
+                  <h3 className="section-h3 text-[var(--text-primary)] mb-4">Our Vision</h3>
+                  <p className="body-lg text-[var(--text-secondary)]">
                     Every restaurant group, anywhere in the world, operating with the clarity that only unified intelligence can provide.
                   </p>
                 </div>
 
                 <div className="grid grid-cols-3 gap-6 mt-8">
-                  <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
-                    <div className="text-sm font-bold text-slate-900 mb-1 uppercase tracking-wide">Status</div>
-                    <div className="text-sm text-slate-600 font-medium">Deployed with restaurant groups across 3 countries</div>
+                  <div className="bg-[var(--navy-deep)] rounded-2xl p-6 shadow-lg text-center">
+                    <div className="text-sm font-bold text-[var(--text-primary)] mb-1 uppercase tracking-wide">Status</div>
+                    <div className="text-sm text-[var(--text-supporting)] font-medium">Deployed with restaurant groups across 3 countries</div>
                   </div>
-                  <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
+                  <div className="bg-[var(--navy-deep)] rounded-2xl p-6 shadow-lg text-center">
                     <div className="text-sm font-bold text-lavender mb-1 uppercase tracking-wide">Offices</div>
-                    <div className="text-sm text-slate-600 font-medium">Dubai + Toronto</div>
+                    <div className="text-sm text-[var(--text-supporting)] font-medium">Dubai + Toronto</div>
                   </div>
-                  <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
+                  <div className="bg-[var(--navy-deep)] rounded-2xl p-6 shadow-lg text-center">
                     <div className="text-sm font-bold text-positive mb-1 uppercase tracking-wide">Focus</div>
-                    <div className="text-sm text-slate-600 font-medium">Multi-unit restaurant groups</div>
+                    <div className="text-sm text-[var(--text-supporting)] font-medium">Multi-unit restaurant groups</div>
                   </div>
                 </div>
               </div>
@@ -216,10 +216,10 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <h2 className="section-h2 text-slate-900 mb-4">
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">
                 Built by Operators. For Operators.
               </h2>
-              <p className="text-lg text-slate-600 max-w-4xl mx-auto">
+              <p className="text-lg text-[var(--text-supporting)] max-w-4xl mx-auto">
                 60+ years of combined experience across restaurants, technology, and data.
               </p>
             </div>
@@ -240,16 +240,16 @@ export default function AboutPage() {
                       width={128}
                       height={128}
                       loading="lazy"
-                      className="w-full h-full rounded-full object-cover border-4 border-slate-300"
+                      className="w-full h-full rounded-full object-cover border-4 border-white/[0.1]"
                     />
                   </div>
-                  <h3 className="font-bold text-slate-900 text-xl mb-1">{member.name}</h3>
-                  <p className="text-slate-900 font-semibold text-sm mb-1">{member.role}</p>
-                  <p className="text-slate-500 text-sm mb-6">{member.location}</p>
+                  <h3 className="font-bold text-[var(--text-primary)] text-xl mb-1">{member.name}</h3>
+                  <p className="text-[var(--text-primary)] font-semibold text-sm mb-1">{member.role}</p>
+                  <p className="text-[var(--text-muted)] text-sm mb-6">{member.location}</p>
                   <ul className="text-left space-y-3">
                     {member.bullets.map((bullet, idx) => (
-                      <li key={idx} className="flex items-start space-x-2 text-sm text-slate-600">
-                        <span className="text-slate-900 mt-1 flex-shrink-0">&bull;</span>
+                      <li key={idx} className="flex items-start space-x-2 text-sm text-[var(--text-supporting)]">
+                        <span className="text-[var(--text-primary)] mt-1 flex-shrink-0">&bull;</span>
                         <span>{bullet}</span>
                       </li>
                     ))}
@@ -261,27 +261,27 @@ export default function AboutPage() {
 
           {/* Team Strengths */}
           <FadeUp delay={0.4}>
-            <Card variant="elevated" className="bg-gradient-to-r from-slate-100 to-slate-200 border-2 border-slate-300">
+            <Card variant="elevated" className="bg-gradient-to-r from-slate-100 to-slate-200 border-2 border-white/[0.1]">
               <CardContent className="p-8">
-                <h3 className="font-bold text-slate-900 text-lg mb-6">Team Strengths</h3>
+                <h3 className="font-bold text-[var(--text-primary)] text-lg mb-6">Team Strengths</h3>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   <div className="flex items-center space-x-3">
-                    <div className="w-12 h-12 bg-slate-900 rounded-xl flex items-center justify-center text-white flex-shrink-0">
-                      <SundaeIcon name="benchmarking" size="lg" className="text-white" />
+                    <div className="w-12 h-12 bg-slate-900 rounded-xl flex items-center justify-center text-[var(--text-primary)] flex-shrink-0">
+                      <SundaeIcon name="benchmarking" size="lg" className="text-[var(--text-primary)]" />
                     </div>
-                    <p className="text-slate-700 font-medium">60+ years combined experience across restaurants, tech & data</p>
+                    <p className="text-[var(--text-secondary)] font-medium">60+ years combined experience across restaurants, tech & data</p>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-12 h-12 bg-slate-900 rounded-xl flex items-center justify-center text-white flex-shrink-0">
-                      <SundaeIcon name="multiLocation" size="lg" className="text-white" />
+                    <div className="w-12 h-12 bg-slate-900 rounded-xl flex items-center justify-center text-[var(--text-primary)] flex-shrink-0">
+                      <SundaeIcon name="multiLocation" size="lg" className="text-[var(--text-primary)]" />
                     </div>
-                    <p className="text-slate-700 font-medium">Dubai + Toronto global presence</p>
+                    <p className="text-[var(--text-secondary)] font-medium">Dubai + Toronto global presence</p>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-12 h-12 bg-slate-900 rounded-xl flex items-center justify-center text-white flex-shrink-0">
-                      <SundaeIcon name="growth" size="lg" className="text-white" />
+                    <div className="w-12 h-12 bg-slate-900 rounded-xl flex items-center justify-center text-[var(--text-primary)] flex-shrink-0">
+                      <SundaeIcon name="growth" size="lg" className="text-[var(--text-primary)]" />
                     </div>
-                    <p className="text-slate-700 font-medium">Multiple successful exits and scale-ups</p>
+                    <p className="text-[var(--text-secondary)] font-medium">Multiple successful exits and scale-ups</p>
                   </div>
                 </div>
               </CardContent>
@@ -291,14 +291,14 @@ export default function AboutPage() {
       </section>
 
       {/* Company Story Section - Horizontal Timeline */}
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-white overflow-hidden">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] overflow-hidden">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <h2 className="section-h2 text-slate-900 mb-6">
+              <h2 className="section-h2 text-[var(--text-primary)] mb-6">
                 The Sundae Journey
               </h2>
-              <p className="body-xl text-slate-700 max-w-4xl mx-auto">
+              <p className="body-xl text-[var(--text-secondary)] max-w-4xl mx-auto">
                 From pain point to platform. From one market to global reach.
               </p>
             </div>
@@ -323,8 +323,8 @@ export default function AboutPage() {
 
                   {/* Content */}
                   <div className="text-center">
-                    <h3 className="text-lg font-bold text-slate-900 mb-3">{milestone.title}</h3>
-                    <p className="text-sm text-slate-600 leading-relaxed">{milestone.description}</p>
+                    <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">{milestone.title}</h3>
+                    <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{milestone.description}</p>
                   </div>
                 </div>
               </FadeUp>
@@ -347,13 +347,13 @@ export default function AboutPage() {
                     <div className="w-16 h-16 bg-gradient-to-br from-slate-800 to-slate-900 rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg mb-4">
                       {milestone.year}
                     </div>
-                    <h3 className="text-xl font-bold text-slate-900 mb-3">{milestone.title}</h3>
-                    <p className="text-sm text-slate-600 leading-relaxed">{milestone.description}</p>
+                    <h3 className="text-xl font-bold text-[var(--text-primary)] mb-3">{milestone.title}</h3>
+                    <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{milestone.description}</p>
                   </Card>
                 </motion.div>
               ))}
             </div>
-            <p className="text-center text-sm text-slate-500 mt-4">&larr; Swipe to explore &rarr;</p>
+            <p className="text-center text-sm text-[var(--text-muted)] mt-4">&larr; Swipe to explore &rarr;</p>
           </div>
         </div>
       </section>
@@ -363,10 +363,10 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <h2 className="section-h2 text-slate-900 mb-6">
+              <h2 className="section-h2 text-[var(--text-primary)] mb-6">
                 What We Stand For
               </h2>
-              <p className="body-xl text-slate-700 max-w-4xl mx-auto">
+              <p className="body-xl text-[var(--text-secondary)] max-w-4xl mx-auto">
                 Principles that shape every product decision we make
               </p>
             </div>
@@ -386,12 +386,12 @@ export default function AboutPage() {
                         whileHover={{ scale: 1.2, rotate: 10 }}
                         transition={{ duration: 0.3 }}
                       >
-                        <SundaeIcon name={value.icon} size="xl" className="text-white" />
+                        <SundaeIcon name={value.icon} size="xl" className="text-[var(--text-primary)]" />
                       </motion.div>
-                      <CardTitle className="text-slate-900 text-xl mb-4">{value.title}</CardTitle>
+                      <CardTitle className="text-[var(--text-primary)] text-xl mb-4">{value.title}</CardTitle>
                     </CardHeader>
                     <CardContent>
-                      <CardDescription className="text-slate-600 leading-[1.65]">
+                      <CardDescription className="text-[var(--text-supporting)] leading-[1.65]">
                         {value.description}
                       </CardDescription>
                     </CardContent>
@@ -404,14 +404,14 @@ export default function AboutPage() {
       </section>
 
       {/* Global Presence Section */}
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <h2 className="section-h2 text-slate-900 mb-6">
+              <h2 className="section-h2 text-[var(--text-primary)] mb-6">
                 Where We Operate
               </h2>
-              <p className="body-xl text-slate-700 max-w-4xl mx-auto">
+              <p className="body-xl text-[var(--text-secondary)] max-w-4xl mx-auto">
                 Active in the Middle East and North America. Expanding into major global hospitality markets.
               </p>
             </div>
@@ -431,15 +431,15 @@ export default function AboutPage() {
                   transition={{ duration: 0.3 }}
                 >
                   <div
-                    className={`w-20 h-20 ${region.color} rounded-2xl flex items-center justify-center text-white text-3xl mx-auto mb-6 shadow-lg`}
+                    className={`w-20 h-20 ${region.color} rounded-2xl flex items-center justify-center text-[var(--text-primary)] text-3xl mx-auto mb-6 shadow-lg`}
                   >
-                    <SundaeIcon name={region.icon} size="lg" className="text-white" />
+                    <SundaeIcon name={region.icon} size="lg" className="text-[var(--text-primary)]" />
                   </div>
-                  <span className={`inline-block text-[10px] font-bold uppercase tracking-wider mb-2 px-2 py-0.5 rounded-full ${region.label === 'Active' ? 'bg-green-100 text-green-700' : 'bg-slate-100 text-slate-500'}`}>
+                  <span className={`inline-block text-[10px] font-bold uppercase tracking-wider mb-2 px-2 py-0.5 rounded-full ${region.label === 'Active' ? 'bg-green-100 text-green-700' : 'bg-[var(--surface-subtle)] text-[var(--text-muted)]'}`}>
                     {region.label}
                   </span>
-                  <h3 className="font-bold text-slate-900 text-lg mb-2">{region.region}</h3>
-                  <p className="text-sm text-slate-600">{region.countries}</p>
+                  <h3 className="font-bold text-[var(--text-primary)] text-lg mb-2">{region.region}</h3>
+                  <p className="text-sm text-[var(--text-supporting)]">{region.countries}</p>
                 </motion.div>
               </FadeUp>
             ))}

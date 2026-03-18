@@ -135,13 +135,13 @@ export default function ModulesPage() {
               <SundaeIcon name="network" size="md" />
               <span>Specialized Modules</span>
             </div>
-            <h1 className="hero-h1 text-slate-900 mb-6">
+            <h1 className="hero-h1 text-[var(--text-primary)] mb-6">
               Go Deeper Where It Matters Most
             </h1>
-            <p className="body-xl text-slate-600 mb-4 max-w-4xl mx-auto">
+            <p className="body-xl text-[var(--text-supporting)] mb-4 max-w-4xl mx-auto">
               Add specialized modules to Sundae Core. Get deep operational intelligence in labor, inventory, purchasing, marketing, and reservations.
             </p>
-            <p className="body-lg text-slate-500 mb-8 max-w-3xl mx-auto">
+            <p className="body-lg text-[var(--text-muted)] mb-8 max-w-3xl mx-auto">
               <strong>Mix and match based on your priorities.</strong> Organization license covers your first 5 locations, then scales per location.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
@@ -161,54 +161,54 @@ export default function ModulesPage() {
       </section>
 
       {/* What are Modules */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               What Are Sundae Modules?
             </h2>
-            <p className="body-lg text-slate-600 max-w-3xl mx-auto">
+            <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">
               Modules are specialized intelligence add-ons that deepen your insights in specific operational areas. While Core gives you comprehensive real-time visibility across your entire operation, Modules provide focused expertise in key domains.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
-            <div className="text-center p-6 bg-blue-50 rounded-xl">
-              <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="intelligence" size="lg" className="text-white" />
+            <div className="text-center p-6 bg-[rgba(28,71,255,0.1)] rounded-xl">
+              <div className="w-12 h-12 bg-[#1C47FF] rounded-full flex items-center justify-center mx-auto mb-3">
+                <SundaeIcon name="intelligence" size="lg" className="text-[var(--text-primary)]" />
               </div>
-              <h3 className="font-semibold text-slate-900 mb-2">Specialized, Not Scattered</h3>
-              <p className="text-sm text-slate-600">Deep features you won't find in generic analytics. Purpose-built for each operational area.</p>
+              <h3 className="font-semibold text-[var(--text-primary)] mb-2">Specialized, Not Scattered</h3>
+              <p className="text-sm text-[var(--text-supporting)]">Deep features you won't find in generic analytics. Purpose-built for each operational area.</p>
             </div>
             <div className="text-center p-6 bg-purple-50 rounded-xl">
               <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="network" size="lg" className="text-white" />
+                <SundaeIcon name="network" size="lg" className="text-[var(--text-primary)]" />
               </div>
-              <h3 className="font-semibold text-slate-900 mb-2">Add What You Need</h3>
-              <p className="text-sm text-slate-600">Start with your biggest pain point. Add modules as priorities shift. No forced bundles.</p>
+              <h3 className="font-semibold text-[var(--text-primary)] mb-2">Add What You Need</h3>
+              <p className="text-sm text-[var(--text-supporting)]">Start with your biggest pain point. Add modules as priorities shift. No forced bundles.</p>
             </div>
             <div className="text-center p-6 bg-green-50 rounded-xl">
               <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="integration" size="lg" className="text-white" />
+                <SundaeIcon name="integration" size="lg" className="text-[var(--text-primary)]" />
               </div>
-              <h3 className="font-semibold text-slate-900 mb-2">Integrated, Not Siloed</h3>
-              <p className="text-sm text-slate-600">Modules share data with Core tier. Cross-module insights. One unified platform.</p>
+              <h3 className="font-semibold text-[var(--text-primary)] mb-2">Integrated, Not Siloed</h3>
+              <p className="text-sm text-[var(--text-supporting)]">Modules share data with Core tier. Cross-module insights. One unified platform.</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* The Five Modules */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <p className="text-xs font-semibold tracking-[0.18em] uppercase text-slate-500 mb-4">
+            <p className="text-xs font-semibold tracking-[0.18em] uppercase text-[var(--text-muted)] mb-4">
               FIVE SPECIALIZED MODULES
             </p>
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               Choose Your Intelligence Stack
             </h2>
-            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
+            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               Add one module or all five. Build the intelligence your operation needs.
             </p>
           </div>
@@ -227,39 +227,39 @@ export default function ModulesPage() {
                     <div className="flex items-start justify-between mb-4">
                       <div className="flex items-center space-x-4">
                         <div className={`w-14 h-14 bg-gradient-to-br ${module.color} rounded-xl flex items-center justify-center`}>
-                          <SundaeIcon name={module.icon} size="xl" className="text-white" />
+                          <SundaeIcon name={module.icon} size="xl" className="text-[var(--text-primary)]" />
                         </div>
                         <div>
-                          <CardTitle className="text-2xl text-slate-900 mb-1">{module.name}</CardTitle>
-                          <p className="text-sm font-semibold text-slate-500">{module.headline}</p>
+                          <CardTitle className="text-2xl text-[var(--text-primary)] mb-1">{module.name}</CardTitle>
+                          <p className="text-sm font-semibold text-[var(--text-muted)]">{module.headline}</p>
                         </div>
                       </div>
                     </div>
-                    <CardDescription className="text-slate-600 text-lg mb-6">
+                    <CardDescription className="text-[var(--text-supporting)] text-lg mb-6">
                       {module.description}
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                       <div className="md:col-span-2">
-                        <h4 className="font-semibold text-slate-900 mb-3">Core Capabilities:</h4>
+                        <h4 className="font-semibold text-[var(--text-primary)] mb-3">Core Capabilities:</h4>
                         <ul className="space-y-2">
                           {module.capabilities.map((capability, idx) => (
                             <li key={idx} className="flex items-start space-x-2">
                               <span className="text-green-500 mt-1">✓</span>
-                              <span className="text-sm text-slate-600">{capability}</span>
+                              <span className="text-sm text-[var(--text-supporting)]">{capability}</span>
                             </li>
                           ))}
                         </ul>
                       </div>
                       <div>
                         <div className="bg-gradient-to-br from-green-50 to-blue-50 rounded-lg p-4 mb-4">
-                          <h4 className="font-semibold text-slate-900 mb-2">ROI</h4>
-                          <p className="text-sm text-slate-700">{module.roi}</p>
+                          <h4 className="font-semibold text-[var(--text-primary)] mb-2">ROI</h4>
+                          <p className="text-sm text-[var(--text-secondary)]">{module.roi}</p>
                         </div>
-                        <div className="bg-slate-50 rounded-lg p-4 mb-4">
-                          <h4 className="font-semibold text-slate-900 mb-2">Best for:</h4>
-                          <p className="text-sm text-slate-700">{module.bestFor}</p>
+                        <div className="bg-[var(--surface-faint)] rounded-lg p-4 mb-4">
+                          <h4 className="font-semibold text-[var(--text-primary)] mb-2">Best for:</h4>
+                          <p className="text-sm text-[var(--text-secondary)]">{module.bestFor}</p>
                         </div>
                         <a href={PRICING_URL} target="_blank" rel="noopener noreferrer">
                           <Button variant="outline" size="md" className="w-full">
@@ -277,13 +277,13 @@ export default function ModulesPage() {
       </section>
 
       {/* How Modules Work */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               How Modules Work
             </h2>
-            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
+            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               Simple pricing. Seamless integration. Scale with your operation.
             </p>
           </div>
@@ -294,14 +294,14 @@ export default function ModulesPage() {
                 <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center text-white font-bold text-xl">
                   1
                 </div>
-                <h3 className="text-xl font-bold text-slate-900">Organization License Model</h3>
+                <h3 className="text-xl font-bold text-[var(--text-primary)]">Organization License Model</h3>
               </div>
-              <p className="text-slate-700 mb-4">
+              <p className="text-[var(--text-secondary)] mb-4">
                 Each module has an organization license that covers your first 5 locations. Additional locations scale per location.
               </p>
-              <div className="bg-white rounded-lg p-4">
-                <p className="text-sm text-slate-600 mb-2"><strong>Examples:</strong></p>
-                <ul className="text-sm text-slate-600 space-y-1">
+              <div className="bg-[var(--navy-deep)] rounded-lg p-4">
+                <p className="text-sm text-[var(--text-supporting)] mb-2"><strong>Examples:</strong></p>
+                <ul className="text-sm text-[var(--text-supporting)] space-y-1">
                   <li>• 3 locations: Organization license covers all</li>
                   <li>• 12 locations: Org license + 7 add-on locations</li>
                   <li>• Mix & match at different locations</li>
@@ -314,43 +314,43 @@ export default function ModulesPage() {
                 <div className="w-12 h-12 bg-gradient-to-br from-indigo-500 to-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-xl">
                   2
                 </div>
-                <h3 className="text-xl font-bold text-slate-900">Requires Core Tier</h3>
+                <h3 className="text-xl font-bold text-[var(--text-primary)]">Requires Core Tier</h3>
               </div>
-              <p className="text-slate-700 mb-4">
+              <p className="text-[var(--text-secondary)] mb-4">
                 Modules are exclusive to Core tier for real-time specialized intelligence:
               </p>
               <div className="space-y-3">
-                <div className="bg-white rounded-lg p-3">
-                  <p className="text-sm font-semibold text-slate-900 mb-1">Core Lite + Modules</p>
-                  <p className="text-xs text-slate-600">4-hour refresh with specialized operational intelligence</p>
+                <div className="bg-[var(--navy-deep)] rounded-lg p-3">
+                  <p className="text-sm font-semibold text-[var(--text-primary)] mb-1">Core Lite + Modules</p>
+                  <p className="text-xs text-[var(--text-supporting)]">4-hour refresh with specialized operational intelligence</p>
                 </div>
-                <div className="bg-white rounded-lg p-3">
-                  <p className="text-sm font-semibold text-slate-900 mb-1">Core Pro + Modules</p>
-                  <p className="text-xs text-slate-600">2-hour refresh with deep specialized intelligence</p>
+                <div className="bg-[var(--navy-deep)] rounded-lg p-3">
+                  <p className="text-sm font-semibold text-[var(--text-primary)] mb-1">Core Pro + Modules</p>
+                  <p className="text-xs text-[var(--text-supporting)]">2-hour refresh with deep specialized intelligence</p>
                 </div>
-                <div className="bg-white rounded-lg p-3">
-                  <p className="text-sm font-semibold text-slate-900 mb-1">Enterprise + Modules</p>
-                  <p className="text-xs text-slate-600">Custom refresh with unlimited specialized intelligence</p>
+                <div className="bg-[var(--navy-deep)] rounded-lg p-3">
+                  <p className="text-sm font-semibold text-[var(--text-primary)] mb-1">Enterprise + Modules</p>
+                  <p className="text-xs text-[var(--text-supporting)]">Custom refresh with unlimited specialized intelligence</p>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="bg-gradient-to-r from-purple-50 to-blue-50 rounded-xl p-8">
-            <h3 className="text-2xl font-bold text-slate-900 mb-4 text-center">Cross-Module Intelligence</h3>
-            <p className="text-slate-700 text-center mb-6">Modules share data and provide integrated insights</p>
+            <h3 className="text-2xl font-bold text-[var(--text-primary)] mb-4 text-center">Cross-Module Intelligence</h3>
+            <p className="text-[var(--text-secondary)] text-center mb-6">Modules share data and provide integrated insights</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <div className="bg-white rounded-lg p-4">
-                <p className="font-semibold text-slate-900 mb-2 text-sm">Labor + Inventory</p>
-                <p className="text-xs text-slate-600">Correlate prep labor with waste patterns</p>
+              <div className="bg-[var(--navy-deep)] rounded-lg p-4">
+                <p className="font-semibold text-[var(--text-primary)] mb-2 text-sm">Labor + Inventory</p>
+                <p className="text-xs text-[var(--text-supporting)]">Correlate prep labor with waste patterns</p>
               </div>
-              <div className="bg-white rounded-lg p-4">
-                <p className="font-semibold text-slate-900 mb-2 text-sm">Labor + Marketing</p>
-                <p className="text-xs text-slate-600">Forecast staffing needs for campaigns</p>
+              <div className="bg-[var(--navy-deep)] rounded-lg p-4">
+                <p className="font-semibold text-[var(--text-primary)] mb-2 text-sm">Labor + Marketing</p>
+                <p className="text-xs text-[var(--text-supporting)]">Forecast staffing needs for campaigns</p>
               </div>
-              <div className="bg-white rounded-lg p-4">
-                <p className="font-semibold text-slate-900 mb-2 text-sm">Inventory + Purchasing</p>
-                <p className="text-xs text-slate-600">Seamless PO generation from inventory</p>
+              <div className="bg-[var(--navy-deep)] rounded-lg p-4">
+                <p className="font-semibold text-[var(--text-primary)] mb-2 text-sm">Inventory + Purchasing</p>
+                <p className="text-xs text-[var(--text-supporting)]">Seamless PO generation from inventory</p>
               </div>
             </div>
           </div>
@@ -361,10 +361,10 @@ export default function ModulesPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50 to-purple-50">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               Which Modules Do You Need?
             </h2>
-            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
+            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               Start with your biggest pain point
             </p>
           </div>
@@ -384,10 +384,10 @@ export default function ModulesPage() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true, margin: "-100px" }}
               >
-                <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-all duration-300 h-full">
-                  <p className="text-lg font-bold text-slate-900 mb-2">{item.pain}</p>
-                  <p className="text-blue-600 font-semibold mb-2">→ {item.solution}</p>
-                  <p className="text-sm text-slate-600">{item.benefit}</p>
+                <div className="bg-[var(--navy-deep)] rounded-xl p-6 shadow-none hover:shadow-md transition-all duration-300 h-full">
+                  <p className="text-lg font-bold text-[var(--text-primary)] mb-2">{item.pain}</p>
+                  <p className="text-[#60A5FA] font-semibold mb-2">→ {item.solution}</p>
+                  <p className="text-sm text-[var(--text-supporting)]">{item.benefit}</p>
                 </div>
               </motion.div>
             ))}
@@ -401,19 +401,19 @@ export default function ModulesPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               Frequently Asked Questions
             </h2>
           </div>
 
           <div className="space-y-6">
             {faqs.map((faq, index) => (
-              <div key={index} className="p-6 bg-slate-50 rounded-xl">
-                <h3 className="font-semibold text-slate-900 mb-3">{faq.q}</h3>
-                <p className="text-slate-600 leading-relaxed">{faq.a}</p>
+              <div key={index} className="p-6 bg-[var(--surface-faint)] rounded-xl">
+                <h3 className="font-semibold text-[var(--text-primary)] mb-3">{faq.q}</h3>
+                <p className="text-[var(--text-supporting)] leading-relaxed">{faq.a}</p>
               </div>
             ))}
           </div>
@@ -433,43 +433,43 @@ export default function ModulesPage() {
       {/* Final CTA */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-blue-50">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 text-slate-900 mb-6">
+          <h2 className="section-h2 text-[var(--text-primary)] mb-6">
             Add Specialized Intelligence to Your Platform
           </h2>
-          <p className="body-lg text-slate-600 mb-8 max-w-3xl mx-auto">
+          <p className="body-lg text-[var(--text-supporting)] mb-8 max-w-3xl mx-auto">
             Start with one module or add the full suite. Build the intelligence stack your operation needs.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            <div className="p-6 bg-white rounded-xl shadow-sm">
+            <div className="p-6 bg-[var(--navy-deep)] rounded-xl shadow-none">
               <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="calculator" size="lg" className="text-white" />
+                <SundaeIcon name="calculator" size="lg" className="text-[var(--text-primary)]" />
               </div>
-              <h3 className="font-semibold text-slate-900 mb-2">Calculate Module ROI</h3>
-              <p className="text-sm text-slate-600 mb-4">Interactive calculator for your operation</p>
+              <h3 className="font-semibold text-[var(--text-primary)] mb-2">Calculate Module ROI</h3>
+              <p className="text-sm text-[var(--text-supporting)] mb-4">Interactive calculator for your operation</p>
               <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
                 <Button variant="primary" size="md" className="w-full">
                   Calculate ROI →
                 </Button>
               </a>
             </div>
-            <div className="p-6 bg-white rounded-xl shadow-sm">
-              <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="document" size="lg" className="text-white" />
+            <div className="p-6 bg-[var(--navy-deep)] rounded-xl shadow-none">
+              <div className="w-12 h-12 bg-[#1C47FF] rounded-full flex items-center justify-center mx-auto mb-3">
+                <SundaeIcon name="document" size="lg" className="text-[var(--text-primary)]" />
               </div>
-              <h3 className="font-semibold text-slate-900 mb-2">Module Assessment</h3>
-              <p className="text-sm text-slate-600 mb-4">Find which modules solve your challenges</p>
+              <h3 className="font-semibold text-[var(--text-primary)] mb-2">Module Assessment</h3>
+              <p className="text-sm text-[var(--text-supporting)] mb-4">Find which modules solve your challenges</p>
               <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
                 <Button variant="outline" size="md" className="w-full">
                   Start Assessment →
                 </Button>
               </a>
             </div>
-            <div className="p-6 bg-white rounded-xl shadow-sm">
+            <div className="p-6 bg-[var(--navy-deep)] rounded-xl shadow-none">
               <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="conversation" size="lg" className="text-white" />
+                <SundaeIcon name="conversation" size="lg" className="text-[var(--text-primary)]" />
               </div>
-              <h3 className="font-semibold text-slate-900 mb-2">Talk to an Expert</h3>
-              <p className="text-sm text-slate-600 mb-4">Custom module recommendations</p>
+              <h3 className="font-semibold text-[var(--text-primary)] mb-2">Talk to an Expert</h3>
+              <p className="text-sm text-[var(--text-supporting)] mb-4">Custom module recommendations</p>
               <Button 
                 variant="outline" 
                 size="md"

@@ -132,30 +132,30 @@ function PricingCard({ tier, annual }: { tier: Tier; annual: boolean }) {
   const displayLoc = locNum === 0 ? "$0" : annual ? `$${Math.round(locNum * 0.9)}` : tier.perLocation;
 
   return (
-    <Card className={`h-full ${tier.highlight ? 'border-2 border-slate-900 shadow-2xl' : 'border border-slate-200 shadow-lg'} hover:shadow-xl transition-all`}>
+    <Card className={`h-full ${tier.highlight ? 'border-2 border-slate-900 shadow-2xl' : 'border border-[var(--border-default)] shadow-lg'} hover:shadow-xl transition-all`}>
       <CardHeader className="pb-4">
         {tier.badge && (
           <div className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold mb-3 w-fit ${tier.badgeClass}`}>
             {tier.badge}
           </div>
         )}
-        <CardTitle className="text-xl text-slate-900 mb-2">{tier.name}</CardTitle>
+        <CardTitle className="text-xl text-[var(--text-primary)] mb-2">{tier.name}</CardTitle>
         <div className="mb-3">
-          <span className="text-4xl font-bold text-slate-900">{displayBase}</span>
-          {baseNum > 0 && <span className="text-slate-500 text-sm">/month</span>}
+          <span className="text-4xl font-bold text-[var(--text-primary)]">{displayBase}</span>
+          {baseNum > 0 && <span className="text-[var(--text-muted)] text-sm">/month</span>}
         </div>
         {locNum > 0 && (
-          <p className="text-sm text-slate-600">
+          <p className="text-sm text-[var(--text-supporting)]">
             + {displayLoc}/location/month
           </p>
         )}
-        <CardDescription className="text-slate-600 mt-3 text-sm">
+        <CardDescription className="text-[var(--text-supporting)] mt-3 text-sm">
           {tier.description}
         </CardDescription>
       </CardHeader>
       <CardContent className="pt-0">
-        <div className="mb-4 pb-4 border-b border-slate-100">
-          <p className="text-xs text-slate-500">
+        <div className="mb-4 pb-4 border-b border-[var(--border-default)]">
+          <p className="text-xs text-[var(--text-muted)]">
             {tier.aiCredits} AI credits/month
           </p>
         </div>
@@ -165,7 +165,7 @@ function PricingCard({ tier, annual }: { tier: Tier; annual: boolean }) {
               <svg className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
               </svg>
-              <span className="text-sm text-slate-700">{feature}</span>
+              <span className="text-sm text-[var(--text-secondary)]">{feature}</span>
             </li>
           ))}
         </ul>
@@ -187,7 +187,7 @@ export default function PricingPage() {
   const [annual, setAnnual] = useState(false);
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[var(--navy-deep)]">
       {/* Hero Section */}
       <PageHero
         badge="Pricing"
@@ -196,14 +196,14 @@ export default function PricingPage() {
       >
         {/* Billing Toggle */}
         <div className="flex items-center justify-center space-x-4">
-          <span className={`text-sm font-medium ${!annual ? 'text-white' : 'text-white/50'}`}>Monthly</span>
+          <span className={`text-sm font-medium ${!annual ? 'text-[var(--text-primary)]' : 'text-[var(--text-muted)]'}`}>Monthly</span>
           <button
             onClick={() => setAnnual(!annual)}
-            className={`relative inline-flex h-7 w-14 items-center rounded-full transition-colors ${annual ? 'bg-white' : 'bg-white/30'}`}
+            className={`relative inline-flex h-7 w-14 items-center rounded-full transition-colors ${annual ? 'bg-[var(--navy-deep)]' : 'bg-[var(--navy-deep)]/30'}`}
           >
-            <span className={`inline-block h-5 w-5 transform rounded-full bg-slate-950 shadow-sm transition-transform ${annual ? 'translate-x-8' : 'translate-x-1'}`} />
+            <span className={`inline-block h-5 w-5 transform rounded-full bg-[var(--navy-deep)] shadow-none transition-transform ${annual ? 'translate-x-8' : 'translate-x-1'}`} />
           </button>
-          <span className={`text-sm font-medium ${annual ? 'text-white' : 'text-white/50'}`}>
+          <span className={`text-sm font-medium ${annual ? 'text-[var(--text-primary)]' : 'text-[var(--text-muted)]'}`}>
             Annual <span className="text-green-400 font-semibold">(Save 10%)</span>
           </span>
         </div>
@@ -232,11 +232,11 @@ export default function PricingPage() {
       </section>
 
       {/* Sundae Core Tiers */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-slate-50">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-8">
-              <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-700 px-5 py-2 rounded-full text-sm font-semibold">
+              <div className="inline-flex items-center space-x-2 bg-blue-100 text-[#60A5FA] px-5 py-2 rounded-full text-sm font-semibold">
                 <SundaeIcon name="core" size="md" />
                 <span>Sundae Core — Real-Time Operations & Predictive Intelligence</span>
               </div>
@@ -261,14 +261,14 @@ export default function PricingPage() {
               <CardContent className="p-8 md:p-12">
                 <div className="grid md:grid-cols-2 gap-8 items-center">
                   <div>
-                    <div className="inline-flex items-center space-x-2 bg-slate-900/10 text-slate-900 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                    <div className="inline-flex items-center space-x-2 bg-slate-900/10 text-[var(--text-primary)] px-4 py-2 rounded-full text-sm font-semibold mb-4">
                       <SundaeIcon name="franchise" size="md" />
                       <span>Enterprise</span>
                     </div>
-                    <h3 className="text-3xl font-bold text-slate-900 mb-4">
+                    <h3 className="text-3xl font-bold text-[var(--text-primary)] mb-4">
                       Custom Pricing for Large Operations
                     </h3>
-                    <p className="text-slate-600 mb-6">
+                    <p className="text-[var(--text-supporting)] mb-6">
                       For multi-location groups that need white-label, SSO, custom SLAs, and dedicated support. 50,000+ AI credits included.
                     </p>
                     <Link href="/demo">
@@ -292,10 +292,10 @@ export default function PricingPage() {
                         "Unlimited AI credits & custom dashboards"
                       ].map((feature, index) => (
                         <li key={index} className="flex items-start space-x-2.5">
-                          <svg className="w-4 h-4 text-slate-900 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                          <svg className="w-4 h-4 text-[var(--text-primary)] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                             <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                           </svg>
-                          <span className="text-sm text-slate-700">{feature}</span>
+                          <span className="text-sm text-[var(--text-secondary)]">{feature}</span>
                         </li>
                       ))}
                     </ul>
@@ -308,12 +308,12 @@ export default function PricingPage() {
       </section>
 
       {/* Add-ons Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-slate-50">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-10">
-              <h2 className="section-h2 text-slate-900 mb-4">Add-Ons</h2>
-              <p className="body-lg text-slate-700 max-w-3xl mx-auto">
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">Add-Ons</h2>
+              <p className="body-lg text-[var(--text-secondary)] max-w-3xl mx-auto">
                 Extend your plan with specialized intelligence modules
               </p>
             </div>
@@ -354,13 +354,13 @@ export default function PricingPage() {
                 <Card variant="elevated" className="h-full hover:shadow-xl transition-all">
                   <CardHeader>
                     <div className={`w-12 h-12 bg-gradient-to-br ${addon.color} rounded-lg flex items-center justify-center mb-4`}>
-                      <SundaeIcon name={addon.icon} size="lg" className="text-white" />
+                      <SundaeIcon name={addon.icon} size="lg" className="text-[var(--text-primary)]" />
                     </div>
-                    <CardTitle className="text-lg text-slate-900 mb-2">{addon.name}</CardTitle>
+                    <CardTitle className="text-lg text-[var(--text-primary)] mb-2">{addon.name}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-sm text-slate-600 mb-3">{addon.description}</p>
-                    <p className="text-xs text-slate-500 font-medium">{addon.note}</p>
+                    <p className="text-sm text-[var(--text-supporting)] mb-3">{addon.description}</p>
+                    <p className="text-xs text-[var(--text-muted)] font-medium">{addon.note}</p>
                   </CardContent>
                 </Card>
               </StaggerItem>
@@ -384,10 +384,10 @@ export default function PricingPage() {
         <div className="max-w-4xl mx-auto">
           <FadeUp>
             <div className="text-center mb-12">
-              <h2 className="section-h2 text-slate-900 mb-4">
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">
                 Common Questions
               </h2>
-              <p className="body-lg text-slate-700">
+              <p className="body-lg text-[var(--text-secondary)]">
                 Clear answers. No fine print.
               </p>
             </div>
@@ -440,7 +440,7 @@ export default function PricingPage() {
           variant="primary"
           size="lg"
           href="/demo"
-          className="bg-white text-slate-900 hover:bg-slate-100"
+          className="bg-[var(--navy-deep)] text-[var(--text-primary)] hover:bg-[var(--surface-subtle)]"
         >
           Book a Demo
         </Button>

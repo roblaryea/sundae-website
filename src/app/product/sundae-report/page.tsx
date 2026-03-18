@@ -16,7 +16,7 @@ export default function SundaeReportPage() {
       name: "Labor Efficiency",
       metrics: ["Labor Cost %", "Sales per Labor Hour", "Staff Productivity", "Overtime Trends"],
       icon: "labor",
-      color: "bg-blue-500"
+      color: "bg-[rgba(28,71,255,0.1)]0"
     },
     {
       name: "Food Cost Management",
@@ -83,10 +83,10 @@ export default function SundaeReportPage() {
             <SundaeIcon name="performance" size="md" />
             <span>Free Restaurant Benchmarking</span>
           </div>
-          <h1 className="hero-h1 text-slate-900 mb-6">
+          <h1 className="hero-h1 text-[var(--text-primary)] mb-6">
             Sundae Report
           </h1>
-          <p className="text-xl md:text-2xl text-slate-600 mb-8 max-w-4xl mx-auto">
+          <p className="text-xl md:text-2xl text-[var(--text-supporting)] mb-8 max-w-4xl mx-auto">
             Get a free benchmarking report comparing your restaurant's performance against industry standards. 
             See exactly where you stand and what to improve.
           </p>
@@ -106,13 +106,13 @@ export default function SundaeReportPage() {
       </section>
 
       {/* Benchmark Categories */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               See How You Compare
             </h2>
-            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
+            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               Benchmark your restaurant across key performance categories against similar businesses
             </p>
           </div>
@@ -122,16 +122,16 @@ export default function SundaeReportPage() {
               <Card key={category.name} variant="elevated" className="hover:scale-105 transition-transform duration-300">
                 <CardHeader>
                   <div className="flex items-center space-x-4">
-                    <div className={`w-12 h-12 ${category.color} rounded-lg flex items-center justify-center text-white`}>
-                      <SundaeIcon name={category.icon} size="lg" className="text-white" />
+                    <div className={`w-12 h-12 ${category.color} rounded-lg flex items-center justify-center text-[var(--text-primary)]`}>
+                      <SundaeIcon name={category.icon} size="lg" className="text-[var(--text-primary)]" />
                     </div>
-                    <CardTitle className="text-slate-900">{category.name}</CardTitle>
+                    <CardTitle className="text-[var(--text-primary)]">{category.name}</CardTitle>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2">
                     {category.metrics.map((metric, metricIndex) => (
-                      <li key={metricIndex} className="text-sm text-slate-600 flex items-center">
+                      <li key={metricIndex} className="text-sm text-[var(--text-supporting)] flex items-center">
                         <div className="w-2 h-2 bg-slate-300 rounded-full mr-2"></div>
                         {metric}
                       </li>
@@ -145,13 +145,13 @@ export default function SundaeReportPage() {
       </section>
 
       {/* How It Works */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               How It Works
             </h2>
-            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
+            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               Get your free benchmarking report in minutes, not days
             </p>
           </div>
@@ -160,14 +160,14 @@ export default function SundaeReportPage() {
             {howItWorks.map((step, index) => (
               <Card key={step.step} variant="elevated" className="text-center">
                 <CardHeader>
-                  <div className="w-16 h-16 bg-slate-900 rounded-full flex items-center justify-center text-white mx-auto mb-4">
-                    <SundaeIcon name={step.icon} size="xl" className="text-white" />
+                  <div className="w-16 h-16 bg-slate-900 rounded-full flex items-center justify-center text-[var(--text-primary)] mx-auto mb-4">
+                    <SundaeIcon name={step.icon} size="xl" className="text-[var(--text-primary)]" />
                   </div>
-                  <div className="text-sm text-blue-600 font-medium mb-2">Step {step.step}</div>
-                  <CardTitle className="text-slate-900">{step.title}</CardTitle>
+                  <div className="text-sm text-[#60A5FA] font-medium mb-2">Step {step.step}</div>
+                  <CardTitle className="text-[var(--text-primary)]">{step.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-slate-600">
+                  <CardDescription className="text-[var(--text-supporting)]">
                     {step.description}
                   </CardDescription>
                 </CardContent>
@@ -178,13 +178,13 @@ export default function SundaeReportPage() {
       </section>
 
       {/* Sample Insights */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               Sample Insights You'll Get
             </h2>
-            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
+            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               Real examples of actionable insights from our benchmarking reports
             </p>
           </div>
@@ -195,18 +195,18 @@ export default function SundaeReportPage() {
                 <CardHeader>
                   <div className="flex items-center space-x-3">
                     <div className="w-3 h-3 bg-warning rounded-full"></div>
-                    <CardTitle className="text-slate-900 text-lg">{insight.category}</CardTitle>
+                    <CardTitle className="text-[var(--text-primary)] text-lg">{insight.category}</CardTitle>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-3">
                     <div>
-                      <div className="text-sm font-medium text-slate-700 mb-1">What we found:</div>
-                      <p className="text-slate-600">{insight.insight}</p>
+                      <div className="text-sm font-medium text-[var(--text-secondary)] mb-1">What we found:</div>
+                      <p className="text-[var(--text-supporting)]">{insight.insight}</p>
                     </div>
                     <div>
-                      <div className="text-sm font-medium text-slate-700 mb-1">Recommendation:</div>
-                      <p className="text-slate-600">{insight.recommendation}</p>
+                      <div className="text-sm font-medium text-[var(--text-secondary)] mb-1">Recommendation:</div>
+                      <p className="text-[var(--text-supporting)]">{insight.recommendation}</p>
                     </div>
                     <div className="bg-green-50 rounded-lg p-3">
                       <div className="text-sm font-medium text-green-700 mb-1">Potential Impact:</div>
@@ -221,7 +221,7 @@ export default function SundaeReportPage() {
       </section>
 
       {/* Why Free? */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] text-[var(--text-primary)]">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 mb-6">
             Why Free?
@@ -232,22 +232,22 @@ export default function SundaeReportPage() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div className="text-center">
-              <div className="w-12 h-12 mx-auto mb-2 bg-white/20 rounded-lg flex items-center justify-center">
-                <SundaeIcon name="marketing" size="lg" className="text-white" />
+              <div className="w-12 h-12 mx-auto mb-2 bg-[var(--navy-deep)]/20 rounded-lg flex items-center justify-center">
+                <SundaeIcon name="marketing" size="lg" className="text-[var(--text-primary)]" />
               </div>
               <h3 className="font-semibold mb-2">Identify Opportunities</h3>
               <p className="text-sm opacity-90">Spot areas where you can improve immediately</p>
             </div>
             <div className="text-center">
-              <div className="w-12 h-12 mx-auto mb-2 bg-white/20 rounded-lg flex items-center justify-center">
-                <SundaeIcon name="benchmarking" size="lg" className="text-white" />
+              <div className="w-12 h-12 mx-auto mb-2 bg-[var(--navy-deep)]/20 rounded-lg flex items-center justify-center">
+                <SundaeIcon name="benchmarking" size="lg" className="text-[var(--text-primary)]" />
               </div>
               <h3 className="font-semibold mb-2">Benchmark Performance</h3>
               <p className="text-sm opacity-90">See how you stack up against similar restaurants</p>
             </div>
             <div className="text-center">
-              <div className="w-12 h-12 mx-auto mb-2 bg-white/20 rounded-lg flex items-center justify-center">
-                <SundaeIcon name="intelligence" size="lg" className="text-white" />
+              <div className="w-12 h-12 mx-auto mb-2 bg-[var(--navy-deep)]/20 rounded-lg flex items-center justify-center">
+                <SundaeIcon name="intelligence" size="lg" className="text-[var(--text-primary)]" />
               </div>
               <h3 className="font-semibold mb-2">Get Actionable Insights</h3>
               <p className="text-sm opacity-90">Receive specific recommendations to improve</p>
@@ -257,12 +257,12 @@ export default function SundaeReportPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 text-slate-900 mb-6">
+          <h2 className="section-h2 text-[var(--text-primary)] mb-6">
             Ready to See Your Benchmarks?
           </h2>
-          <p className="body-xl text-slate-600 mb-8">
+          <p className="body-xl text-[var(--text-supporting)] mb-8">
             Join thousands of restaurant operators who use Sundae Report to understand their performance. 
             No credit card required, no obligations — just insights.
           </p>
@@ -278,7 +278,7 @@ export default function SundaeReportPage() {
               </Button>
             </a>
           </div>
-          <p className="text-sm text-slate-500 mt-6">
+          <p className="text-sm text-[var(--text-muted)] mt-6">
             Takes less than 5 minutes • Secure data handling • Results in your inbox
           </p>
         </div>

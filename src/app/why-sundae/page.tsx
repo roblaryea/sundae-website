@@ -8,37 +8,37 @@ import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/comp
 const differentiators: { title: string; description: string; icon: SundaeIconName; color: string }[] = [
  {
  title: "12-Domain Data Ingestion",
- description: "POS, labor, inventory, purchasing, reservations, delivery, marketing, guest experience, CRM, accounting \u2014 all unified automatically. No more 5-10 disconnected systems.",
+ description: "POS, labor, inventory, purchasing, reservations, delivery, marketing, guest experience, CRM, accounting \u2014 all unified. No more disconnected systems.",
  icon: "integration",
- color: "bg-blue-600"
+ color: "bg-[#1C47FF]"
  },
  {
  title: "4D Intelligence Model",
- description: "Go beyond reporting. See what happened, how it compares to plan, where you stand in the market, and what to do next. Four dimensions of every decision.",
+ description: "What happened. How it compares to plan. Where you stand in the market. What to do next. Four dimensions of every decision.",
  icon: "intelligence",
  color: "bg-purple-600"
  },
  {
  title: "Real-Time Operations via Pulse",
- description: "A shift is a perishable asset. Pulse gives you intraday sales pacing, labor productivity, leakage detection, and AI coaching \u2014 before the shift is over.",
+ description: "Intraday sales pacing, labor productivity, leakage detection, and AI coaching \u2014 before the shift is over.",
  icon: "speed",
  color: "bg-green-600"
  },
  {
  title: "External Intelligence via Watchtower",
- description: "A new competitor opened 2 blocks away. Weather is tanking Friday covers. A concert just got announced. You\u2019ll know before it hits your numbers.",
+ description: "New competitor? Weather tanking covers? Concert announced? You\u2019ll know before it hits your numbers.",
  icon: "watchtower",
  color: "bg-red-600"
  },
  {
  title: "Conversational Access",
- description: "Talk to your data like you\u2019d talk to your best analyst. Natural language queries via web, Telegram, Slack, or Microsoft Teams \u2014 answers in seconds, not days.",
+ description: "Natural language queries via web, Telegram, Slack, or Teams \u2014 answers in seconds, not days.",
  icon: "forge",
  color: "bg-orange-600"
  },
  {
  title: "Built for Multi-Location Operators",
- description: "Multi-tenant architecture with RBAC, portfolio leaderboards, cross-location benchmarking, multi-currency support, and region-level drill-downs.",
+ description: "Multi-tenant RBAC, portfolio leaderboards, cross-location benchmarking, multi-currency, and region-level drill-downs.",
  icon: "multiLocation",
  color: "bg-teal-600"
  }
@@ -47,24 +47,24 @@ const differentiators: { title: string; description: string; icon: SundaeIconNam
 const problems = [
  {
  problem: "12 Data Sources. Zero Unified Intelligence.",
- current: "Your POS says one thing. Your labor system says another. Your inventory platform doesn\u2019t talk to either. You\u2019re making million-dollar decisions on fragmented data spread across 5\u201310 disconnected systems.",
- solution: "Sundae\u2019s Integrations Hub connects 12 data domains into a single intelligence layer \u2014 automatically cleaned, normalized, and unified.",
+ current: "POS says one thing. Labor says another. Inventory doesn\u2019t talk to either. Million-dollar decisions on data spread across 5\u201310 systems.",
+ solution: "12 data domains into one intelligence layer \u2014 automatically cleaned, normalized, and unified.",
  impact: "One source of truth across every location",
  stat: "12",
  statLabel: "domains unified"
  },
  {
  problem: "Your P&L Arrives Weeks After the Damage Is Done.",
- current: "By the time your weekly report lands, the labor overrun already hit payroll. The $2K margin leak on Tuesday lunch already happened. You\u2019re managing yesterday\u2019s problems with last week\u2019s data.",
- solution: "Pulse monitors operations intraday with 5-minute refresh cycles, real-time alerts, AI coaching, and automated playbooks that act in the moment.",
+ current: "The labor overrun already hit payroll. The margin leak already happened. You\u2019re managing yesterday\u2019s problems with last week\u2019s data.",
+ solution: "Pulse monitors operations intraday with 5-minute refresh, real-time alerts, and AI coaching that acts in the moment.",
  impact: "Shift from reactive to proactive management",
  stat: "5 min",
  statLabel: "refresh cycle"
  },
  {
  problem: "Is Your 31% Food Cost Good or Bad? You Have No Idea.",
- current: "You know your numbers. But you don\u2019t know if they\u2019re good. Without competitor context, market signals, and anonymous peer benchmarks, you\u2019re optimizing in the dark.",
- solution: "Watchtower and Benchmarks add market context to every operational decision \u2014 competitor moves, weather impact, local events, anonymous peer data.",
+ current: "You know your numbers. But without competitor context and market signals, you\u2019re optimizing in the dark.",
+ solution: "Watchtower and Benchmarks add market context \u2014 competitor moves, weather impact, events, anonymous peer data.",
  impact: "Decisions informed by internal and external signals",
  stat: "250+",
  statLabel: "locations benchmarked"
@@ -94,23 +94,23 @@ const comparisonColumns = [
 
 export default function WhySundaePage() {
  return (
- <div className="min-h-screen bg-white">
+ <div className="min-h-screen bg-[var(--navy-deep)]">
  {/* Hero Section */}
  <PageHero
  badge="Why Sundae"
  title="The Intelligence Layer Restaurants Never Had"
- description="Restaurant operators make million-dollar decisions by gut feel because their data lives in disconnected silos. We built the platform that changes that."
+ description="Your data lives in disconnected silos. Your team makes million-dollar decisions by gut feel. We built the platform that changes that."
  />
 
  {/* Three Biggest Problems Section */}
- <section className="py-24 px-4 sm:px-6 lg:px-8 bg-white">
+ <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
  <div className="max-w-7xl mx-auto">
  <FadeUp className="text-center mb-16">
- <p className="eyebrow text-blue-600 mb-4">THE PROBLEM</p>
- <h2 className="section-h2 text-slate-900 mb-4">
+ <p className="eyebrow text-[#60A5FA] mb-4">THE PROBLEM</p>
+ <h2 className="section-h2 text-[var(--text-primary)] mb-4">
  Three gaps costing you money every day
  </h2>
- <p className="body-xl text-slate-600 max-w-3xl mx-auto">
+ <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
  Every restaurant group we&apos;ve worked with faces the same three challenges.
  </p>
  </FadeUp>
@@ -118,27 +118,27 @@ export default function WhySundaePage() {
  <div className="space-y-8">
  {problems.map((item, index) => (
  <FadeUp key={item.problem} delay={index * 0.1}>
- <div className="bg-slate-50 rounded-2xl border border-slate-100 overflow-hidden">
+ <div className="bg-[var(--surface-faint)] rounded-2xl border border-[var(--border-default)] overflow-hidden">
  <div className="grid grid-cols-1 lg:grid-cols-12 gap-0">
  {/* Pain side */}
- <div className="lg:col-span-5 p-8 bg-red-50/50 border-b lg:border-b-0 lg:border-r border-red-100/50">
+ <div className="lg:col-span-5 p-8 bg-[rgba(220,38,38,0.1)]/50 border-b lg:border-b-0 lg:border-r border-red-100/50">
  <div className="text-xs font-semibold uppercase tracking-wider text-red-500 mb-3">The Problem</div>
- <h3 className="text-xl font-bold text-slate-900 mb-3 leading-snug">{item.problem}</h3>
- <p className="text-sm text-slate-600 leading-relaxed">{item.current}</p>
+ <h3 className="text-xl font-bold text-[var(--text-primary)] mb-3 leading-snug">{item.problem}</h3>
+ <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{item.current}</p>
  </div>
 
  {/* Stat center */}
- <div className="lg:col-span-2 flex items-center justify-center p-6 bg-white">
+ <div className="lg:col-span-2 flex items-center justify-center p-6 bg-[var(--navy-deep)]">
  <div className="text-center">
  <div className="text-3xl font-bold text-accent-gradient">{item.stat}</div>
- <div className="text-xs text-slate-400 uppercase tracking-wider mt-1">{item.statLabel}</div>
+ <div className="text-xs text-[var(--text-muted)] uppercase tracking-wider mt-1">{item.statLabel}</div>
  </div>
  </div>
 
  {/* Solution side */}
  <div className="lg:col-span-5 p-8 bg-green-50/30 border-t lg:border-t-0 lg:border-l border-green-100/50">
  <div className="text-xs font-semibold uppercase tracking-wider text-green-600 mb-3">Sundae Solution</div>
- <p className="text-sm text-slate-700 leading-relaxed mb-4">{item.solution}</p>
+ <p className="text-sm text-[var(--text-secondary)] leading-relaxed mb-4">{item.solution}</p>
  <div className="flex items-center gap-2 text-sm font-medium text-green-700">
  <span className="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center text-green-600 text-xs">&#10003;</span>
  {item.impact}
@@ -153,14 +153,14 @@ export default function WhySundaePage() {
  </section>
 
  {/* Differentiators Section */}
- <section className="py-24 px-4 sm:px-6 lg:px-8 bg-slate-50">
+ <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
  <div className="max-w-7xl mx-auto">
  <FadeUp className="text-center mb-16">
- <p className="eyebrow text-blue-600 mb-4">DIFFERENTIATORS</p>
- <h2 className="section-h2 text-slate-900 mb-4">
+ <p className="eyebrow text-[#60A5FA] mb-4">DIFFERENTIATORS</p>
+ <h2 className="section-h2 text-[var(--text-primary)] mb-4">
  What makes Sundae different
  </h2>
- <p className="body-xl text-slate-600 max-w-3xl mx-auto">
+ <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
  Six capabilities that no other platform combines.
  </p>
  </FadeUp>
@@ -171,14 +171,14 @@ export default function WhySundaePage() {
  <Card variant="elevated" className="h-full hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
  <CardHeader>
  <div className="flex items-center space-x-4">
- <div className={`w-12 h-12 ${item.color} rounded-xl flex items-center justify-center text-white shadow-sm`}>
- <SundaeIcon name={item.icon} size="lg" className="text-white" />
+ <div className={`w-12 h-12 ${item.color} rounded-xl flex items-center justify-center text-[var(--text-primary)] shadow-none`}>
+ <SundaeIcon name={item.icon} size="lg" className="text-[var(--text-primary)]" />
  </div>
- <CardTitle className="text-slate-900 text-lg">{item.title}</CardTitle>
+ <CardTitle className="text-[var(--text-primary)] text-lg">{item.title}</CardTitle>
  </div>
  </CardHeader>
  <CardContent>
- <CardDescription className="text-slate-600 leading-relaxed">
+ <CardDescription className="text-[var(--text-supporting)] leading-relaxed">
  {item.description}
  </CardDescription>
  </CardContent>
@@ -190,14 +190,14 @@ export default function WhySundaePage() {
  </section>
 
  {/* How It Compares */}
- <section className="py-24 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white">
+ <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] text-[var(--text-primary)]">
  <div className="max-w-7xl mx-auto text-center">
  <FadeUp>
  <p className="eyebrow text-blue-400 mb-4">COMPARISON</p>
  <h2 className="section-h2 mb-4">
  Beyond traditional dashboards
  </h2>
- <p className="body-xl mb-16 max-w-3xl mx-auto text-white/60">
+ <p className="body-xl mb-16 max-w-3xl mx-auto text-[var(--text-supporting)]">
  Most platforms show you what happened. We show you what&apos;s happening, what it means, and what to do about it.
  </p>
  </FadeUp>
@@ -207,22 +207,22 @@ export default function WhySundaePage() {
  <StaggerItem key={section.title}>
  <div className={`rounded-2xl p-8 text-center h-full ${
  section.highlight
- ? "bg-blue-600/20 border border-blue-500/30 ring-1 ring-blue-500/20"
- : "bg-white/[0.04] border border-white/[0.08]"
+ ? "bg-[#1C47FF]/20 border border-blue-500/30 ring-1 ring-blue-500/20"
+ : "bg-[var(--navy-deep)]/[0.04] border border-[var(--border-default)]"
  }`}>
  <div className={`w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-5 ${
- section.highlight ? "bg-blue-500/30" : "bg-white/10"
+ section.highlight ? "bg-[rgba(28,71,255,0.1)]0/30" : "bg-[var(--navy-deep)]/10"
  }`}>
- <SundaeIcon name={section.icon} size="xl" className="text-white" />
+ <SundaeIcon name={section.icon} size="xl" className="text-[var(--text-primary)]" />
  </div>
- <h3 className={`font-bold text-lg mb-6 ${section.highlight ? "text-blue-200" : "text-white/80"}`}>{section.title}</h3>
+ <h3 className={`font-bold text-lg mb-6 ${section.highlight ? "text-blue-200" : "text-[var(--text-secondary)]"}`}>{section.title}</h3>
  <ul className="space-y-3 text-left">
  {section.items.map((item, idx) => (
  <li key={idx} className="flex items-start gap-3 text-sm">
- <span className={`mt-0.5 ${section.highlight ? "text-blue-400" : "text-white/30"}`}>
+ <span className={`mt-0.5 ${section.highlight ? "text-blue-400" : "text-[var(--text-muted)]"}`}>
  {section.highlight ? "\u2713" : "\u2022"}
  </span>
- <span className={section.highlight ? "text-white/90" : "text-white/50"}>{item}</span>
+ <span className={section.highlight ? "text-white/90" : "text-[var(--text-muted)]"}>{item}</span>
  </li>
  ))}
  </ul>
@@ -239,11 +239,11 @@ export default function WhySundaePage() {
  </section>
 
  {/* Who It's For */}
- <section className="py-24 px-4 sm:px-6 lg:px-8 bg-white">
+ <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
  <div className="max-w-7xl mx-auto">
  <FadeUp className="text-center mb-16">
- <p className="eyebrow text-blue-600 mb-4">BUILT FOR</p>
- <h2 className="section-h2 text-slate-900 mb-4">
+ <p className="eyebrow text-[#60A5FA] mb-4">BUILT FOR</p>
+ <h2 className="section-h2 text-[var(--text-primary)] mb-4">
  Built for every role in the organization
  </h2>
  </FadeUp>
@@ -255,7 +255,7 @@ export default function WhySundaePage() {
  pain: "You can\u2019t be in every restaurant at once.",
  description: "Real-time visibility into every location via Pulse and Portfolio \u2014 know who needs help before they ask.",
  icon: "multiLocation" as SundaeIconName,
- color: "bg-blue-600"
+ color: "bg-[#1C47FF]"
  },
  {
  title: "Finance & FP&A",
@@ -283,15 +283,15 @@ export default function WhySundaePage() {
  <Card variant="elevated" className="h-full">
  <CardHeader>
  <div className="text-center">
- <div className={`w-14 h-14 ${role.color} rounded-full flex items-center justify-center text-white mx-auto mb-4 shadow-sm`}>
- <SundaeIcon name={role.icon} size="lg" className="text-white" />
+ <div className={`w-14 h-14 ${role.color} rounded-full flex items-center justify-center text-[var(--text-primary)] mx-auto mb-4 shadow-none`}>
+ <SundaeIcon name={role.icon} size="lg" className="text-[var(--text-primary)]" />
  </div>
- <CardTitle className="text-slate-900 text-lg mb-2">{role.title}</CardTitle>
- <p className="text-sm font-medium text-slate-500 italic">&ldquo;{role.pain}&rdquo;</p>
+ <CardTitle className="text-[var(--text-primary)] text-lg mb-2">{role.title}</CardTitle>
+ <p className="text-sm font-medium text-[var(--text-muted)] italic">&ldquo;{role.pain}&rdquo;</p>
  </div>
  </CardHeader>
  <CardContent>
- <p className="text-sm text-slate-600 text-center leading-relaxed">{role.description}</p>
+ <p className="text-sm text-[var(--text-supporting)] text-center leading-relaxed">{role.description}</p>
  </CardContent>
  </Card>
  </StaggerItem>

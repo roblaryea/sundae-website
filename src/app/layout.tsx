@@ -8,6 +8,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { PostHogProvider } from "@/components/PostHogProvider";
+import { ThemeProvider, ThemeScript } from "@/components/ui/ThemeProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -95,6 +96,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning>
       <head>
+        <ThemeScript />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preload" href="/logos/sundae-wordmark.png" as="image" />
@@ -120,7 +122,7 @@ export default function RootLayout({
           </Script>
         </>
       )}
-      <body className="antialiased overflow-x-hidden">
+      <body className="antialiased overflow-x-hidden bg-[var(--navy-deep)] text-[var(--text-primary)] transition-colors duration-300">
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-blue-600 focus:text-white focus:rounded-lg focus:outline-none"
@@ -129,15 +131,17 @@ export default function RootLayout({
         </a>
         <Suspense fallback={null}>
           <PostHogProvider>
-            <header role="banner">
-              <Navbar />
-            </header>
-            <main id="main-content" className="min-h-screen overflow-x-hidden" role="main">
-              <Breadcrumbs className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-2" />
-              {children}
-            </main>
-            <Footer />
-            <Analytics />
+            <ThemeProvider>
+              <header role="banner">
+                <Navbar />
+              </header>
+              <main id="main-content" className="min-h-screen overflow-x-hidden" role="main">
+                <Breadcrumbs className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-2" />
+                {children}
+              </main>
+              <Footer />
+              <Analytics />
+            </ThemeProvider>
           </PostHogProvider>
         </Suspense>
       </body>

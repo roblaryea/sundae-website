@@ -53,7 +53,7 @@ export default function ToolsPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[var(--navy-deep)]">
       {/* Hero Section */}
       <PageHero
         badge="Free Tools"
@@ -69,20 +69,20 @@ export default function ToolsPage() {
               <StaggerItem key={tool.title}>
                 <Card variant="elevated" className="h-full hover:shadow-xl transition-all duration-300">
                   <CardHeader>
-                    <div className="w-16 h-16 bg-slate-900 rounded-2xl flex items-center justify-center text-white mb-4 shadow-lg">
-                      <SundaeIcon name={tool.icon} size="xl" className="text-white" />
+                    <div className="w-16 h-16 bg-slate-900 rounded-2xl flex items-center justify-center text-[var(--text-primary)] mb-4 shadow-lg">
+                      <SundaeIcon name={tool.icon} size="xl" className="text-[var(--text-primary)]" />
                     </div>
-                    <CardTitle className="text-2xl text-slate-900 mb-3">
+                    <CardTitle className="text-2xl text-[var(--text-primary)] mb-3">
                       {tool.title}
                     </CardTitle>
-                    <CardDescription className="text-slate-600 leading-relaxed mb-4">
+                    <CardDescription className="text-[var(--text-supporting)] leading-relaxed mb-4">
                       {tool.description}
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
                     <ul className="space-y-2 mb-6">
                       {tool.features.map((feature, idx) => (
-                        <li key={idx} className="flex items-center space-x-2 text-sm text-slate-700">
+                        <li key={idx} className="flex items-center space-x-2 text-sm text-[var(--text-secondary)]">
                           <span className="text-green-500">✓</span>
                           <span>{feature}</span>
                         </li>

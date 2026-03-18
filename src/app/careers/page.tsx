@@ -15,7 +15,7 @@ export default function CareersPage() {
       type: "Full-time",
       description: "Build advanced AI models for restaurant decision intelligence. Work with large-scale data and machine learning algorithms.",
       icon: "intelligence",
-      color: "bg-blue-600"
+      color: "bg-[#1C47FF]"
     },
     {
       title: "Product Manager - Restaurant Tech",
@@ -121,7 +121,7 @@ export default function CareersPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[var(--navy-deep)]">
       {/* Hero Section */}
       <PageHero
         badge="Join Our Team"
@@ -130,7 +130,7 @@ export default function CareersPage() {
       >
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link href="#open-positions">
-            <Button variant="primary" size="lg" className="bg-white text-slate-900 hover:bg-slate-100">
+            <Button variant="primary" size="lg" className="bg-[var(--navy-deep)] text-[var(--text-primary)] hover:bg-[var(--surface-subtle)]">
               View Open Positions
             </Button>
           </Link>
@@ -143,14 +143,14 @@ export default function CareersPage() {
       </PageHero>
 
       {/* Open Positions Section */}
-      <section id="open-positions" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section id="open-positions" className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <h2 className="section-h2 text-slate-900 mb-4">
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">
                 Current Openings
               </h2>
-              <p className="body-xl text-slate-600 max-w-3xl mx-auto">
+              <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
                 Help us transform the restaurant industry with data-driven intelligence
               </p>
             </div>
@@ -162,22 +162,22 @@ export default function CareersPage() {
                 <Card variant="elevated" className="hover:scale-105 transition-all duration-300 hover:shadow-lg group h-full">
                   <CardHeader>
                     <div className="flex items-center space-x-4 mb-4">
-                      <div className={`w-12 h-12 ${position.color} rounded-lg flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-300`}>
-                        <SundaeIcon name={position.icon} size="lg" className="text-white" />
+                      <div className={`w-12 h-12 ${position.color} rounded-lg flex items-center justify-center text-[var(--text-primary)] group-hover:scale-110 transition-transform duration-300`}>
+                        <SundaeIcon name={position.icon} size="lg" className="text-[var(--text-primary)]" />
                       </div>
                       <div>
-                        <div className="text-xs text-blue-600 font-medium uppercase tracking-wide">{position.department}</div>
-                        <CardTitle className="text-slate-900 group-hover:text-blue-600 transition-colors duration-300">{position.title}</CardTitle>
+                        <div className="text-xs text-[#60A5FA] font-medium uppercase tracking-wide">{position.department}</div>
+                        <CardTitle className="text-[var(--text-primary)] group-hover:text-[#60A5FA] transition-colors duration-300">{position.title}</CardTitle>
                       </div>
                     </div>
                   </CardHeader>
                   <CardContent className="space-y-4">
-                    <div className="flex items-center space-x-4 text-sm text-slate-600">
+                    <div className="flex items-center space-x-4 text-sm text-[var(--text-supporting)]">
                       <span>{position.location}</span>
                       <span>•</span>
                       <span>{position.type}</span>
                     </div>
-                    <CardDescription className="text-slate-600 leading-relaxed">
+                    <CardDescription className="text-[var(--text-supporting)] leading-relaxed">
                       {position.description}
                     </CardDescription>
                     <Link href={`mailto:careers@sundae.io?subject=${encodeURIComponent(`Application for ${position.title}`)}`}>
@@ -194,14 +194,14 @@ export default function CareersPage() {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <h2 className="section-h2 text-slate-900 mb-4">
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">
                 Why Join Sundae?
               </h2>
-              <p className="body-xl text-slate-600 max-w-3xl mx-auto">
+              <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
                 We offer more than just a job — we offer a mission to transform an industry
               </p>
             </div>
@@ -213,12 +213,12 @@ export default function CareersPage() {
                 <Card variant="elevated" className="text-center h-full">
                   <CardHeader>
                     <div className="w-12 h-12 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-                      <SundaeIcon name={benefit.icon} size="lg" className="text-white" />
+                      <SundaeIcon name={benefit.icon} size="lg" className="text-[var(--text-primary)]" />
                     </div>
-                    <CardTitle className="text-slate-900">{benefit.title}</CardTitle>
+                    <CardTitle className="text-[var(--text-primary)]">{benefit.title}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <CardDescription className="text-slate-600">
+                    <CardDescription className="text-[var(--text-supporting)]">
                       {benefit.description}
                     </CardDescription>
                   </CardContent>
@@ -230,14 +230,14 @@ export default function CareersPage() {
       </section>
 
       {/* Values Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <h2 className="section-h2 text-slate-900 mb-4">
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">
                 Our Values
               </h2>
-              <p className="body-xl text-slate-600 max-w-3xl mx-auto">
+              <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
                 The principles that guide everything we do at Sundae
               </p>
             </div>
@@ -249,12 +249,12 @@ export default function CareersPage() {
                 <Card variant="elevated" className="text-center h-full">
                   <CardHeader>
                     <div className="w-12 h-12 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-                      <SundaeIcon name={value.icon} size="lg" className="text-white" />
+                      <SundaeIcon name={value.icon} size="lg" className="text-[var(--text-primary)]" />
                     </div>
-                    <CardTitle className="text-slate-900">{value.title}</CardTitle>
+                    <CardTitle className="text-[var(--text-primary)]">{value.title}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <CardDescription className="text-slate-600">
+                    <CardDescription className="text-[var(--text-supporting)]">
                       {value.description}
                     </CardDescription>
                   </CardContent>
@@ -271,7 +271,7 @@ export default function CareersPage() {
         description="Join us in building the future of restaurant decision intelligence. Help operators worldwide make smarter, more profitable decisions."
       >
         <Link href="mailto:careers@sundae.io">
-          <Button variant="primary" size="lg" className="bg-white text-slate-900 hover:bg-slate-100">
+          <Button variant="primary" size="lg" className="bg-[var(--navy-deep)] text-[var(--text-primary)] hover:bg-[var(--surface-subtle)]">
             Send Your Resume
           </Button>
         </Link>

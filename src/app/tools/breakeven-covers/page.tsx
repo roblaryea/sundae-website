@@ -56,13 +56,13 @@ export default function BreakEvenCalculator() {
 
  {/* Header */}
  <div className="text-center mb-12">
- <div className="w-20 h-20 bg-slate-900 rounded-2xl flex items-center justify-center text-white mx-auto mb-6 shadow-lg">
- <SundaeIcon name="balance" size="xl" className="text-white" />
+ <div className="w-20 h-20 bg-slate-900 rounded-2xl flex items-center justify-center text-[var(--text-primary)] mx-auto mb-6 shadow-lg">
+ <SundaeIcon name="balance" size="xl" className="text-[var(--text-primary)]" />
  </div>
- <h1 className="hero-h1 text-slate-900 mb-4">
+ <h1 className="hero-h1 text-[var(--text-primary)] mb-4">
  Break-Even Covers Calculator
  </h1>
- <p className="body-lg text-slate-600">
+ <p className="body-lg text-[var(--text-supporting)]">
  Calculate how many covers you need to break even based on fixed and variable costs
  </p>
  </div>
@@ -70,16 +70,16 @@ export default function BreakEvenCalculator() {
  {/* Calculator Card */}
  <Card variant="elevated" className="mb-8">
  <CardHeader>
- <CardTitle className="text-2xl text-slate-900">
+ <CardTitle className="text-2xl text-[var(--text-primary)]">
  Enter Your Costs
  </CardTitle>
- <CardDescription className="text-slate-600">
+ <CardDescription className="text-[var(--text-supporting)]">
  Input your fixed costs, variable cost per cover, and average selling price
  </CardDescription>
  </CardHeader>
  <CardContent className="space-y-6">
  <div>
- <label className="block text-sm font-medium text-slate-700 mb-2">
+ <label className="block text-sm font-medium text-[var(--text-secondary)] mb-2">
  Fixed Costs Per Period
  </label>
  <input
@@ -87,17 +87,17 @@ export default function BreakEvenCalculator() {
  value={fixedCosts}
  onChange={(e) => setFixedCosts(e.target.value)}
  placeholder="e.g., 50000"
- className="w-full px-4 py-3 rounded-lg border border-slate-300 bg-white text-slate-900 focus:ring-2 focus:ring-slate-400 focus:border-transparent"
+ className="w-full px-4 py-3 rounded-lg border border-white/[0.1] bg-[var(--navy-deep)] text-[var(--text-primary)] focus:ring-2 focus:ring-slate-400 focus:border-transparent"
  min="0"
  step="0.01"
  />
- <p className="text-xs text-slate-500 mt-1">
+ <p className="text-xs text-[var(--text-muted)] mt-1">
  Rent, salaries, insurance, etc. (monthly or period total)
  </p>
  </div>
 
  <div>
- <label className="block text-sm font-medium text-slate-700 mb-2">
+ <label className="block text-sm font-medium text-[var(--text-secondary)] mb-2">
  Variable Cost Per Cover
  </label>
  <input
@@ -105,17 +105,17 @@ export default function BreakEvenCalculator() {
  value={variableCost}
  onChange={(e) => setVariableCost(e.target.value)}
  placeholder="e.g., 12.50"
- className="w-full px-4 py-3 rounded-lg border border-slate-300 bg-white text-slate-900 focus:ring-2 focus:ring-slate-400 focus:border-transparent"
+ className="w-full px-4 py-3 rounded-lg border border-white/[0.1] bg-[var(--navy-deep)] text-[var(--text-primary)] focus:ring-2 focus:ring-slate-400 focus:border-transparent"
  min="0"
  step="0.01"
  />
- <p className="text-xs text-slate-500 mt-1">
+ <p className="text-xs text-[var(--text-muted)] mt-1">
  Food cost, packaging, credit card fees per customer
  </p>
  </div>
 
  <div>
- <label className="block text-sm font-medium text-slate-700 mb-2">
+ <label className="block text-sm font-medium text-[var(--text-secondary)] mb-2">
  Average Selling Price Per Cover
  </label>
  <input
@@ -123,11 +123,11 @@ export default function BreakEvenCalculator() {
  value={avgPrice}
  onChange={(e) => setAvgPrice(e.target.value)}
  placeholder="e.g., 32.00"
- className="w-full px-4 py-3 rounded-lg border border-slate-300 bg-white text-slate-900 focus:ring-2 focus:ring-slate-400 focus:border-transparent"
+ className="w-full px-4 py-3 rounded-lg border border-white/[0.1] bg-[var(--navy-deep)] text-[var(--text-primary)] focus:ring-2 focus:ring-slate-400 focus:border-transparent"
  min="0"
  step="0.01"
  />
- <p className="text-xs text-slate-500 mt-1">
+ <p className="text-xs text-[var(--text-muted)] mt-1">
  Average check size per customer
  </p>
  </div>
@@ -149,54 +149,54 @@ export default function BreakEvenCalculator() {
  <Card variant="elevated" className="bg-gradient-to-br from-blue-50 to-white">
  <CardContent className="p-8">
  <div className="text-center mb-6">
- <h3 className="text-lg font-semibold text-slate-700 mb-2">
+ <h3 className="text-lg font-semibold text-[var(--text-secondary)] mb-2">
  Break-Even Covers Required
  </h3>
- <div className="text-6xl font-bold text-slate-900 mb-4">
+ <div className="text-6xl font-bold text-[var(--text-primary)] mb-4">
  {result.breakEvenCovers.toLocaleString()}
  </div>
- <p className="text-slate-600 text-lg">
+ <p className="text-[var(--text-supporting)] text-lg">
  covers per period
  </p>
  </div>
  
- <div className="p-6 rounded-xl bg-white shadow-md mb-6">
- <h4 className="font-bold text-lg mb-3 text-slate-900">Analysis</h4>
- <p className="text-slate-700 leading-relaxed mb-4">
+ <div className="p-6 rounded-xl bg-[var(--navy-deep)] shadow-md mb-6">
+ <h4 className="font-bold text-lg mb-3 text-[var(--text-primary)]">Analysis</h4>
+ <p className="text-[var(--text-secondary)] leading-relaxed mb-4">
  You need at least <strong>{result.breakEvenCovers.toLocaleString()} covers</strong> in this period to cover all costs before profit.
  </p>
- <p className="text-slate-600 text-sm">
+ <p className="text-[var(--text-supporting)] text-sm">
  Your contribution margin per cover is <strong>${result.contributionMargin.toFixed(2)}</strong>.
  This is the amount each customer contributes toward covering fixed costs and profit.
  </p>
  </div>
 
  <div className="grid md:grid-cols-2 gap-4">
- <div className="p-4 bg-blue-50 rounded-lg">
- <h5 className="font-semibold text-slate-900 mb-2 text-sm">
+ <div className="p-4 bg-[rgba(28,71,255,0.1)] rounded-lg">
+ <h5 className="font-semibold text-[var(--text-primary)] mb-2 text-sm">
  Contribution Margin
  </h5>
- <div className="text-2xl font-bold text-blue-600">
+ <div className="text-2xl font-bold text-[#60A5FA]">
  ${result.contributionMargin.toFixed(2)}
  </div>
- <p className="text-xs text-slate-600 mt-1">per cover</p>
+ <p className="text-xs text-[var(--text-supporting)] mt-1">per cover</p>
  </div>
  
  <div className="p-4 bg-green-50 rounded-lg">
- <h5 className="font-semibold text-slate-900 mb-2 text-sm">
+ <h5 className="font-semibold text-[var(--text-primary)] mb-2 text-sm">
  To Profit
  </h5>
- <p className="text-sm text-slate-700">
+ <p className="text-sm text-[var(--text-secondary)]">
  Every cover beyond {result.breakEvenCovers.toLocaleString()} contributes ${result.contributionMargin.toFixed(2)} to profit
  </p>
  </div>
  </div>
 
- <div className="mt-6 p-4 bg-slate-100 rounded-lg">
- <h5 className="font-semibold text-slate-900 mb-2 text-sm">
+ <div className="mt-6 p-4 bg-[var(--surface-subtle)] rounded-lg">
+ <h5 className="font-semibold text-[var(--text-primary)] mb-2 text-sm">
  Tips to Improve Break-Even:
  </h5>
- <ul className="text-sm text-slate-700 space-y-1">
+ <ul className="text-sm text-[var(--text-secondary)] space-y-1">
  <li>• Reduce fixed costs (negotiate rent, optimize labor)</li>
  <li>• Lower variable costs (better supplier terms, reduce waste)</li>
  <li>• Increase average check (upselling, menu engineering)</li>

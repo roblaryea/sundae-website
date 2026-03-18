@@ -55,7 +55,7 @@ export function GradientIconChip({ icon, gradient = "blue", size = "md" }: Gradi
  
  return (
  <div
- className={`inline-flex items-center justify-center shadow-md flex-shrink-0 text-white ${container} ${gradientClasses}`}
+ className={`inline-flex items-center justify-center shadow-md flex-shrink-0 text-[var(--text-primary)] ${container} ${gradientClasses}`}
  >
  <SundaeIcon name={icon} size={iconSize} />
  </div>

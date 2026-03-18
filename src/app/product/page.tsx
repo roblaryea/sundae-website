@@ -25,7 +25,7 @@ const pillars: {
   {
     name: "Pulse",
     tagline: "Real-Time Operations",
-    description: "A shift is a perishable asset \u2014 once it\u2019s over, the revenue is gone. Pulse gives you live sales pacing, adaptive AI targets, leakage detection, and AI coaching \u2014 shift by shift, outlet by outlet.",
+    description: "Live sales pacing, adaptive AI targets, leakage detection, and AI coaching \u2014 shift by shift, outlet by outlet. A shift is a perishable asset.",
     icon: "pulse",
     screenshot: "/images/product/pulse-scorecard.png",
     screenshotAlt: "Pulse shift scorecard showing revenue, covers, top items, and server performance",
@@ -37,7 +37,7 @@ const pillars: {
   {
     name: "Benchmarks",
     tagline: "Competitive Intelligence",
-    description: "Is your 31% food cost good or bad? Stop guessing. Compare against anonymized peer data \u2014 RevPASH Index, seat occupancy, average check, and revenue indexes \u2014 with AI-generated insights.",
+    description: "Compare against anonymized peer data \u2014 RevPASH Index, seat occupancy, average check, and revenue indexes \u2014 with AI-generated insights.",
     icon: "benchmarking",
     screenshot: "/images/product/benchmark-overview.png",
     screenshotAlt: "Benchmark dashboard with RevPASH Index, seat occupancy, and competitive comparison",
@@ -49,7 +49,7 @@ const pillars: {
   {
     name: "Watchtower",
     tagline: "Market Intelligence",
-    description: "A new competitor opened 2 blocks away \u2014 you found out on Instagram. Watchtower gives you competitor monitoring, weather revenue impact, event intelligence, and AI daily briefings before the impact hits.",
+    description: "Competitor monitoring, weather revenue impact, event intelligence, and AI daily briefings \u2014 before the impact hits your numbers.",
     icon: "watchtower",
     screenshot: "/images/product/watchtower.png",
     screenshotAlt: "Watchtower command center with weather impact, events, and competitor tracking",
@@ -61,7 +61,7 @@ const pillars: {
   {
     name: "Insights",
     tagline: "Intelligence Modules",
-    description: "Specialized analytical dashboards for every operational domain. Start with Performance Report, then add Revenue, Labor, Inventory, Purchasing, Marketing, and more as you grow.",
+    description: "Revenue, labor, inventory, purchasing, marketing, reservations, delivery, and guest experience \u2014 each with AI-generated recommendations.",
     icon: "insights",
     screenshot: "/images/product/core-insights-hub.png",
     screenshotAlt: "Insights hub showing 12 intelligence modules including Revenue, Labor, Inventory, and Cross-Intelligence",
@@ -73,7 +73,7 @@ const pillars: {
   {
     name: "Sundae Intelligence",
     tagline: "Conversational AI Analytics",
-    description: "Talk to your data like you\u2019d talk to your best analyst. Ask questions in plain language and get answers backed by your real operational data \u2014 on web, Telegram, Slack, and Microsoft Teams.",
+    description: "Ask questions in plain language, get answers backed by your real data \u2014 on web, Telegram, Slack, and Microsoft Teams.",
     icon: "conversation",
     screenshot: "/images/product/chat-with-data.png",
     screenshotAlt: "Sundae Intelligence interface with conversational analytics",
@@ -90,12 +90,12 @@ export default function ProductPage() {
   const gridInView = useInView(gridRef, { once: true, margin: "-50px" });
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[var(--navy-deep)]">
       {/* Hero Section */}
       <PageHero
         badge="The Sundae Platform"
         title="Five Layers. One Truth."
-        description="Restaurant operators make million-dollar decisions on fragmented data. Sundae\u2019s five intelligence layers turn disconnected systems into operational clarity."
+        description="Five intelligence layers that turn disconnected systems into operational clarity."
       >
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Button variant="cta" size="lg" onClick={() => cta(REPORT_APP_URL, "start_free_product_hero", { page: "/product" })}>
@@ -108,14 +108,14 @@ export default function ProductPage() {
       </PageHero>
 
       {/* Product Tiers — Report vs Core */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-5xl mx-auto">
           <FadeUp>
             <div className="text-center mb-12">
-              <h2 className="section-h2 text-slate-900 mb-4">
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">
                 Two Product Tiers
               </h2>
-              <p className="body-lg text-slate-600">
+              <p className="body-lg text-[var(--text-supporting)]">
                 Choose historical analysis or real-time operations — or both.
               </p>
             </div>
@@ -130,24 +130,24 @@ export default function ProductPage() {
               transition={{ duration: 0.5 }}
             >
               <Card variant="elevated" className="h-full overflow-hidden border-2 border-blue-200">
-                <div className="relative h-48 overflow-hidden bg-slate-100">
+                <div className="relative h-48 overflow-hidden bg-[var(--surface-subtle)]">
                   <Image
                     src="/images/product/benchmark-overview.png"
                     alt="Sundae Report benchmarking dashboard"
                     fill
                     className="object-cover object-top"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-white to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[var(--navy-deep)] to-transparent" />
                   <span className="absolute top-3 right-3 badge badge--free text-[10px]">FREE FOREVER</span>
                 </div>
                 <CardContent className="p-6">
-                  <h3 className="text-2xl font-bold text-slate-900 mb-2">Sundae Report</h3>
-                  <p className="text-sm text-blue-600 font-semibold mb-3">Historical Analysis & Benchmarking</p>
-                  <p className="text-slate-600 mb-4 leading-relaxed">
-                    Upload your data and instantly see where you stand. Performance benchmarking, margin analysis, and historical patterns — free to start.
+                  <h3 className="text-2xl font-bold text-[var(--text-primary)] mb-2">Sundae Report</h3>
+                  <p className="text-sm text-[#60A5FA] font-semibold mb-3">Historical Analysis & Benchmarking</p>
+                  <p className="text-[var(--text-supporting)] mb-4 leading-relaxed">
+                    Upload your data. See where you stand. Performance benchmarking, margin analysis, and historical patterns — free forever.
                   </p>
-                  <p className="text-sm font-medium text-slate-900 mb-3">Includes:</p>
-                  <ul className="text-sm text-slate-600 space-y-1.5 mb-6">
+                  <p className="text-sm font-medium text-[var(--text-primary)] mb-3">Includes:</p>
+                  <ul className="text-sm text-[var(--text-supporting)] space-y-1.5 mb-6">
                     <li className="flex items-center gap-2"><span className="text-blue-500">&#10003;</span> Benchmarks (competitive intelligence)</li>
                     <li className="flex items-center gap-2"><span className="text-blue-500">&#10003;</span> Performance Report</li>
                     <li className="flex items-center gap-2"><span className="text-blue-500">&#10003;</span> Sundae Intelligence</li>
@@ -172,24 +172,24 @@ export default function ProductPage() {
               transition={{ duration: 0.5, delay: 0.1 }}
             >
               <Card variant="elevated" className="h-full overflow-hidden border-2 border-purple-200">
-                <div className="relative h-48 overflow-hidden bg-slate-100">
+                <div className="relative h-48 overflow-hidden bg-[var(--surface-subtle)]">
                   <Image
                     src="/images/product/core-overview.png"
                     alt="Sundae Core operational dashboard"
                     fill
                     className="object-cover object-top"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-white to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[var(--navy-deep)] to-transparent" />
                   <span className="absolute top-3 right-3 badge badge--popular text-[10px]">MOST POPULAR</span>
                 </div>
                 <CardContent className="p-6">
-                  <h3 className="text-2xl font-bold text-slate-900 mb-2">Sundae Core</h3>
+                  <h3 className="text-2xl font-bold text-[var(--text-primary)] mb-2">Sundae Core</h3>
                   <p className="text-sm text-purple-600 font-semibold mb-3">Real-Time Operations & Predictions</p>
-                  <p className="text-slate-600 mb-4 leading-relaxed">
-                    Everything in Report, plus real-time intelligence. Pulse monitoring, predictive alerts, AI coaching, and Watchtower market signals.
+                  <p className="text-[var(--text-supporting)] mb-4 leading-relaxed">
+                    Everything in Report, plus real-time intelligence. Pulse monitoring, AI coaching, and Watchtower market signals.
                   </p>
-                  <p className="text-sm font-medium text-slate-900 mb-3">Everything in Report, plus:</p>
-                  <ul className="text-sm text-slate-600 space-y-1.5 mb-6">
+                  <p className="text-sm font-medium text-[var(--text-primary)] mb-3">Everything in Report, plus:</p>
+                  <ul className="text-sm text-[var(--text-supporting)] space-y-1.5 mb-6">
                     <li className="flex items-center gap-2"><span className="text-purple-500">&#10003;</span> Pulse (intraday operations)</li>
                     <li className="flex items-center gap-2"><span className="text-purple-500">&#10003;</span> Watchtower (market intelligence)</li>
                     <li className="flex items-center gap-2"><span className="text-purple-500">&#10003;</span> Intelligence Modules</li>
@@ -221,18 +221,18 @@ export default function ProductPage() {
       </section>
 
       {/* All Product Pillars */}
-      <section ref={gridRef} className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+      <section ref={gridRef} className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <p className="eyebrow text-blue-600 mb-4">
+              <p className="eyebrow text-[#60A5FA] mb-4">
                 PRODUCT PILLARS
               </p>
-              <h2 className="section-h2 text-slate-900 mb-4">
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">
                 Five Pillars of Decision Intelligence
               </h2>
-              <p className="body-lg text-slate-600 max-w-3xl mx-auto">
-                Each pillar handles a distinct dimension of your operations. Together, they form a complete decision intelligence platform — with Cross-Intelligence connecting insights across every module.
+              <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">
+                Each pillar handles a distinct dimension. Together, they form a complete decision intelligence platform.
               </p>
             </div>
           </FadeUp>
@@ -248,7 +248,7 @@ export default function ProductPage() {
                 <div className={`grid md:grid-cols-2 gap-8 items-center ${index % 2 === 1 ? 'md:grid-flow-dense' : ''}`}>
                   {/* Screenshot */}
                   <div className={index % 2 === 1 ? 'md:col-start-2' : ''}>
-                    <div className="rounded-xl overflow-hidden shadow-xl border border-slate-200/60 group">
+                    <div className="rounded-xl overflow-hidden shadow-xl border border-[var(--border-default)] group">
                       <Image
                         src={pillar.screenshot}
                         alt={pillar.screenshotAlt}
@@ -263,20 +263,20 @@ export default function ProductPage() {
                   <div className={index % 2 === 1 ? 'md:col-start-1 md:row-start-1' : ''}>
                     <div className="flex items-center gap-3 mb-4">
                       <div className={`w-12 h-12 bg-gradient-to-br ${pillar.color} rounded-xl flex items-center justify-center`}>
-                        <SundaeIcon name={pillar.icon} size="lg" className="text-white" />
+                        <SundaeIcon name={pillar.icon} size="lg" className="text-[var(--text-primary)]" />
                       </div>
                       <div>
-                        <h3 className="text-2xl font-bold text-slate-900">{pillar.name}</h3>
-                        <p className="text-sm text-slate-500 font-medium">{pillar.tagline}</p>
+                        <h3 className="text-2xl font-bold text-[var(--text-primary)]">{pillar.name}</h3>
+                        <p className="text-sm text-[var(--text-muted)] font-medium">{pillar.tagline}</p>
                       </div>
                     </div>
-                    <p className="text-slate-600 leading-relaxed mb-6">
+                    <p className="text-[var(--text-supporting)] leading-relaxed mb-6">
                       {pillar.description}
                     </p>
                     <div className="grid grid-cols-2 gap-2 mb-6">
                       {pillar.features.map((feature) => (
-                        <div key={feature} className="flex items-center gap-2 text-sm text-slate-700">
-                          <span className="text-slate-900 flex-shrink-0">&#10003;</span>
+                        <div key={feature} className="flex items-center gap-2 text-sm text-[var(--text-secondary)]">
+                          <span className="text-[var(--text-primary)] flex-shrink-0">&#10003;</span>
                           <span>{feature}</span>
                         </div>
                       ))}
@@ -297,41 +297,41 @@ export default function ProductPage() {
       </section>
 
       {/* Platform Features — Integrations + Crew */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-5xl mx-auto">
           <FadeUp>
             <div className="text-center mb-12">
-              <p className="eyebrow text-blue-600 mb-4">
+              <p className="eyebrow text-[#60A5FA] mb-4">
                 PLATFORM
               </p>
-              <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-4">
+              <h2 className="text-2xl md:text-3xl font-bold text-[var(--text-primary)] mb-4">
                 Also Included
               </h2>
             </div>
           </FadeUp>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="flex items-start gap-4 p-6 bg-slate-50 rounded-2xl border border-slate-200/70">
+            <div className="flex items-start gap-4 p-6 bg-[var(--surface-faint)] rounded-2xl border border-[var(--border-default)]/70">
               <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl flex items-center justify-center flex-shrink-0">
-                <SundaeIcon name="integration" size="lg" className="text-white" />
+                <SundaeIcon name="integration" size="lg" className="text-[var(--text-primary)]" />
               </div>
               <div>
-                <h3 className="font-bold text-slate-900 mb-1">Integrations Hub</h3>
-                <p className="text-sm text-slate-500 font-medium mb-2">12-Domain Data Engine</p>
-                <p className="text-sm text-slate-600 leading-relaxed">
+                <h3 className="font-bold text-[var(--text-primary)] mb-1">Integrations Hub</h3>
+                <p className="text-sm text-[var(--text-muted)] font-medium mb-2">12-Domain Data Engine</p>
+                <p className="text-sm text-[var(--text-supporting)] leading-relaxed">
                   Connect POS, labor, inventory, delivery, and more. Health monitoring, activity logs, and webhook support included.
                 </p>
               </div>
             </div>
 
-            <div className="flex items-start gap-4 p-6 bg-slate-50 rounded-2xl border border-slate-200/70">
+            <div className="flex items-start gap-4 p-6 bg-[var(--surface-faint)] rounded-2xl border border-[var(--border-default)]/70">
               <div className="w-12 h-12 bg-gradient-to-br from-slate-500 to-slate-600 rounded-xl flex items-center justify-center flex-shrink-0">
-                <SundaeIcon name="operators" size="lg" className="text-white" />
+                <SundaeIcon name="operators" size="lg" className="text-[var(--text-primary)]" />
               </div>
               <div>
-                <h3 className="font-bold text-slate-900 mb-1">Crew</h3>
-                <p className="text-sm text-slate-500 font-medium mb-2">Organization & Team Management</p>
-                <p className="text-sm text-slate-600 leading-relaxed">
+                <h3 className="font-bold text-[var(--text-primary)] mb-1">Crew</h3>
+                <p className="text-sm text-[var(--text-muted)] font-medium mb-2">Organization & Team Management</p>
+                <p className="text-sm text-[var(--text-supporting)] leading-relaxed">
                   Multi-restaurant hierarchy, role-based access control, departments, teams, and billing management.
                 </p>
               </div>

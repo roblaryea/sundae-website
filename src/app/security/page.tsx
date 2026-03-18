@@ -65,7 +65,7 @@ const complianceItems = [
 
 export default function SecurityPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[var(--navy-deep)]">
       {/* Hero */}
       <PageHero
         badge="Security & Compliance"
@@ -78,10 +78,10 @@ export default function SecurityPage() {
         <section className="py-20 px-4 sm:px-6 lg:px-8">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="section-h2 text-slate-900 mb-4">
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">
                 Security Architecture
               </h2>
-              <p className="body-lg text-slate-600 max-w-2xl mx-auto">
+              <p className="body-lg text-[var(--text-supporting)] max-w-2xl mx-auto">
                 Six pillars that protect your data from ingestion to insight.
               </p>
             </div>
@@ -90,15 +90,15 @@ export default function SecurityPage() {
               {securityPillars.map((pillar) => (
                 <div
                   key={pillar.title}
-                  className="p-6 rounded-2xl border border-slate-200 bg-white hover:shadow-md transition-shadow duration-300"
+                  className="p-6 rounded-2xl border border-[var(--border-default)] bg-[var(--navy-deep)] hover:shadow-md transition-shadow duration-300"
                 >
                   <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center text-white mb-4 shadow-lg">
-                    <SundaeIcon name={pillar.icon} size="lg" className="text-white" />
+                    <SundaeIcon name={pillar.icon} size="lg" className="text-[var(--text-primary)]" />
                   </div>
-                  <h3 className="text-lg font-semibold text-slate-900 mb-2">
+                  <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">
                     {pillar.title}
                   </h3>
-                  <p className="text-sm text-slate-600 leading-relaxed">
+                  <p className="text-sm text-[var(--text-supporting)] leading-relaxed">
                     {pillar.description}
                   </p>
                 </div>
@@ -110,10 +110,10 @@ export default function SecurityPage() {
 
       {/* Compliance */}
       <FadeUp>
-        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="section-h2 text-slate-900 mb-4">
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">
                 Compliance & Certifications
               </h2>
             </div>
@@ -122,12 +122,12 @@ export default function SecurityPage() {
               {complianceItems.map((item) => (
                 <div
                   key={item.title}
-                  className="p-6 rounded-xl border border-slate-200 bg-white"
+                  className="p-6 rounded-xl border border-[var(--border-default)] bg-[var(--navy-deep)]"
                 >
                   <div className="flex items-start gap-4">
                     <div className="flex-1">
                       <div className="flex items-center gap-3 mb-2">
-                        <h3 className="text-lg font-semibold text-slate-900">
+                        <h3 className="text-lg font-semibold text-[var(--text-primary)]">
                           {item.title}
                         </h3>
                         {item.note && (
@@ -136,7 +136,7 @@ export default function SecurityPage() {
                           </span>
                         )}
                       </div>
-                      <p className="text-sm text-slate-600 leading-relaxed">
+                      <p className="text-sm text-[var(--text-supporting)] leading-relaxed">
                         {item.description}
                       </p>
                     </div>

@@ -14,27 +14,60 @@
 @import "../styles/animations.css";
 
 /* ==============================================
-   BASE STYLES
+   BASE STYLES — Dark Mode Foundation
    ============================================== */
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-geist-sans), system-ui, sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-}
-
-/* Smooth scrolling */
 html {
   scroll-behavior: smooth;
-}
-
-/* Smooth theme transitions */
-html {
+  background-color: var(--navy-deep);
+  color-scheme: dark;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-body, .card, nav, footer, input, textarea, select {
-  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+html.light {
+  color-scheme: light;
+}
+
+body {
+  background: var(--navy-deep);
+  color: var(--text-primary);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Grid texture overlay — opt-in via class */
+.bg-grid-texture {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+/* Section background variants */
+.bg-mesh { background: var(--bg-mesh); }
+.bg-top-glow { background: var(--bg-top-glow); }
+.bg-center-glow { background: var(--bg-center-glow); }
+.bg-grad-deep { background: var(--grad-deep-blue); }
+
+/* Light mode: soften grid texture */
+html.light .bg-grid-texture {
+  background-image:
+    linear-gradient(rgba(15,23,42,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(15,23,42,0.03) 1px, transparent 1px);
+}
+
+/* Light mode: grad-deep becomes a soft blue gradient */
+html.light .bg-grad-deep {
+  background: linear-gradient(180deg, #EEF2FF 0%, #FFFFFF 100%);
+}
+
+/* Logo invert: white logo on dark bg, normal on light bg */
+.logo-invert {
+  filter: brightness(0) invert(1);
+}
+html.light .logo-invert {
+  filter: none;
 }

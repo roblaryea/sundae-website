@@ -175,13 +175,13 @@ export default function CrossIntelligencePage() {
  <SundaeIcon name="crossIntelligence" size="sm" className="text-purple-600" />
  <span className="text-sm font-semibold text-purple-700">Auto-enabled with 3+ modules</span>
  </div>
- <h1 className="hero-h1 text-slate-900 mb-6">
+ <h1 className="hero-h1 text-[var(--text-primary)] mb-6">
  Cross-Intelligence<br />Correlation Engine
  </h1>
- <p className="body-xl text-slate-600 mb-4 max-w-3xl mx-auto">
+ <p className="body-xl text-[var(--text-supporting)] mb-4 max-w-3xl mx-auto">
  The intelligence layer that connects everything. Surfaces hidden correlations between your data sources — marketing to revenue, labor to sales, inventory to waste — automatically.
  </p>
- <p className="text-sm text-slate-500 mb-8 max-w-2xl mx-auto">
+ <p className="text-sm text-[var(--text-muted)] mb-8 max-w-2xl mx-auto">
  Base features unlock free when you activate 3 or more intelligence modules. Upgrade to Pro for the full correlation engine with attribution, cannibalization detection, and API access.
  </p>
  <div className="flex flex-col sm:flex-row gap-3 justify-center">
@@ -203,12 +203,12 @@ export default function CrossIntelligencePage() {
  </section>
 
  {/* The Problem */}
- <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+ <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
  <div className="max-w-4xl mx-auto text-center">
- <h2 className="section-h2 text-slate-900 mb-6">
+ <h2 className="section-h2 text-[var(--text-primary)] mb-6">
  Your Modules Are Smart. Together, They're Brilliant.
  </h2>
- <p className="body-lg text-slate-600 mb-8">
+ <p className="body-lg text-[var(--text-supporting)] mb-8">
  Every intelligence module gives you deep insight into one domain — labor, inventory, marketing, revenue. But the most valuable insights live in the <strong>connections between them</strong>. A marketing campaign that increased revenue but crushed labor efficiency. An inventory change that boosted margins but tanked guest satisfaction. Cross-Intelligence finds these connections automatically.
  </p>
  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -220,8 +220,8 @@ export default function CrossIntelligencePage() {
  <Card key={item.label} variant="elevated" className="text-center p-6">
  <CardContent>
  <SundaeIcon name={item.icon} size="lg" className="text-purple-500 mx-auto mb-3" />
- <div className="text-3xl font-bold text-slate-900 mb-2">{item.stat}</div>
- <p className="text-sm text-slate-600">{item.label}</p>
+ <div className="text-3xl font-bold text-[var(--text-primary)] mb-2">{item.stat}</div>
+ <p className="text-sm text-[var(--text-supporting)]">{item.label}</p>
  </CardContent>
  </Card>
  ))}
@@ -233,13 +233,13 @@ export default function CrossIntelligencePage() {
  <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-purple-50/30">
  <div className="max-w-7xl mx-auto">
  <div className="text-center mb-16">
- <p className="text-xs font-semibold tracking-[0.18em] uppercase text-slate-500 mb-4">
+ <p className="text-xs font-semibold tracking-[0.18em] uppercase text-[var(--text-muted)] mb-4">
  8 COMPONENTS
  </p>
- <h2 className="section-h2 text-slate-900 mb-4">
+ <h2 className="section-h2 text-[var(--text-primary)] mb-4">
  Every Connection, Surfaced
  </h2>
- <p className="body-lg text-slate-600 max-w-3xl mx-auto">
+ <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">
  From basic correlation alerts to full revenue attribution and cannibalization detection.
  </p>
  </div>
@@ -256,7 +256,7 @@ export default function CrossIntelligencePage() {
  <div className={`grid md:grid-cols-2 gap-8 items-center ${index % 2 === 1 ? 'md:grid-flow-dense' : ''}`}>
  {/* Screenshot */}
  <div className={index % 2 === 1 ? 'md:col-start-2' : ''}>
- <div className="rounded-xl overflow-hidden shadow-xl border border-slate-200/60">
+ <div className="rounded-xl overflow-hidden shadow-xl border border-[var(--border-default)]">
  <Image
  src={component.image}
  alt={`${component.title} screenshot`}
@@ -271,19 +271,19 @@ export default function CrossIntelligencePage() {
  <div className={index % 2 === 1 ? 'md:col-start-1 md:row-start-1' : ''}>
  <div className="flex items-center gap-3 mb-4">
  <div className={`w-12 h-12 bg-gradient-to-br ${component.color} rounded-xl flex items-center justify-center`}>
- <SundaeIcon name={component.icon} size="lg" className="text-white" />
+ <SundaeIcon name={component.icon} size="lg" className="text-[var(--text-primary)]" />
  </div>
  <div>
- <h3 className="text-2xl font-bold text-slate-900">{component.title}</h3>
- <p className="text-sm text-slate-500 font-medium">{component.headline}</p>
+ <h3 className="text-2xl font-bold text-[var(--text-primary)]">{component.title}</h3>
+ <p className="text-sm text-[var(--text-muted)] font-medium">{component.headline}</p>
  </div>
  </div>
- <p className="text-slate-600 leading-relaxed mb-6">
+ <p className="text-[var(--text-supporting)] leading-relaxed mb-6">
  {component.description}
  </p>
  <div className="space-y-2 mb-4">
  {component.capabilities.map((cap) => (
- <div key={cap} className="flex items-start gap-2 text-sm text-slate-700">
+ <div key={cap} className="flex items-start gap-2 text-sm text-[var(--text-secondary)]">
  <span className="text-purple-500 flex-shrink-0 mt-0.5">&#10003;</span>
  <span>{cap}</span>
  </div>
@@ -298,11 +298,11 @@ export default function CrossIntelligencePage() {
  </section>
 
  {/* Base vs Pro Comparison */}
- <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+ <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
  <div className="max-w-4xl mx-auto">
  <div className="text-center mb-12">
- <h2 className="section-h2 text-slate-900 mb-4">Base vs Pro</h2>
- <p className="body-lg text-slate-600">
+ <h2 className="section-h2 text-[var(--text-primary)] mb-4">Base vs Pro</h2>
+ <p className="body-lg text-[var(--text-supporting)]">
  Base unlocks automatically. Pro unlocks the full engine.
  </p>
  </div>
@@ -314,7 +314,7 @@ export default function CrossIntelligencePage() {
  <div className="flex items-center gap-3 mb-2">
  <SundaeIcon name="crossIntelligence" size="lg" className="text-purple-500" />
  <div>
- <CardTitle className="text-xl text-slate-900">Cross-Intelligence</CardTitle>
+ <CardTitle className="text-xl text-[var(--text-primary)]">Cross-Intelligence</CardTitle>
  <p className="text-sm text-green-600 font-semibold">Free with 3+ modules</p>
  </div>
  </div>
@@ -322,7 +322,7 @@ export default function CrossIntelligencePage() {
  <CardContent>
  <ul className="space-y-2">
  {tierComparison.filter(f => f.base).map(f => (
- <li key={f.feature} className="flex items-center gap-2 text-sm text-slate-700">
+ <li key={f.feature} className="flex items-center gap-2 text-sm text-[var(--text-secondary)]">
  <span className="text-purple-500">&#10003;</span> {f.feature}
  </li>
  ))}
@@ -337,7 +337,7 @@ export default function CrossIntelligencePage() {
  <div className="flex items-center gap-3 mb-2">
  <SundaeIcon name="core" size="lg" className="text-cyan-500" />
  <div>
- <CardTitle className="text-xl text-slate-900">Cross-Intelligence Pro</CardTitle>
+ <CardTitle className="text-xl text-[var(--text-primary)]">Cross-Intelligence Pro</CardTitle>
  <p className="text-sm text-cyan-600 font-semibold">$199/mo + $19/location</p>
  </div>
  </div>
@@ -345,8 +345,8 @@ export default function CrossIntelligencePage() {
  <CardContent>
  <ul className="space-y-2">
  {tierComparison.map(f => (
- <li key={f.feature} className="flex items-center gap-2 text-sm text-slate-700">
- <span className={f.pro ? "text-cyan-500" : "text-slate-300"}>
+ <li key={f.feature} className="flex items-center gap-2 text-sm text-[var(--text-secondary)]">
+ <span className={f.pro ? "text-cyan-500" : "text-[var(--text-muted)]"}>
  {f.pro ? "✓" : "—"}
  </span>
  {f.feature}
@@ -372,7 +372,7 @@ export default function CrossIntelligencePage() {
  <Button
  variant="secondary"
  size="lg"
- className="bg-white text-purple-600 hover:bg-slate-100"
+ className="bg-[var(--navy-deep)] text-purple-600 hover:bg-[var(--surface-subtle)]"
  onClick={() => cta("/demo", "book_demo_cross_intel_cta", { page: "/product/cross-intelligence" })}
  >
  Book a Demo

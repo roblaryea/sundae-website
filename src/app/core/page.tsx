@@ -143,7 +143,7 @@ export default function CoreProductPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[var(--navy-deep)]">
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
         <div className="max-w-7xl mx-auto text-center">
@@ -156,13 +156,13 @@ export default function CoreProductPage() {
               <SundaeIcon name="core" size="md" />
               <span>Sundae Core</span>
             </div>
-            <h1 className="hero-h1 text-slate-900 mb-6">
+            <h1 className="hero-h1 text-[var(--text-primary)] mb-6">
               See Your Operation in Real Time.<br />Fix Problems Before They Cost You.
             </h1>
-            <p className="body-xl text-slate-600 mb-4 max-w-4xl mx-auto">
+            <p className="body-xl text-[var(--text-supporting)] mb-4 max-w-4xl mx-auto">
               Connected to your POS, labor, inventory, and every system that matters. Core refreshes every 2-4 hours so you can act during the shift — not after the damage is done.
             </p>
-            <p className="body-lg text-slate-500 mb-8 max-w-3xl mx-auto">
+            <p className="body-lg text-[var(--text-muted)] mb-8 max-w-3xl mx-auto">
               Everything in Report, plus operational speed. Predictive forecasting. Proactive alerts. The intelligence your end-of-day reports can't give you.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
@@ -187,54 +187,54 @@ export default function CoreProductPage() {
       </section>
 
       {/* The Real-Time Intelligence Layer */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               The Real-Time Intelligence Layer
             </h2>
-            <p className="body-lg text-slate-600 max-w-3xl mx-auto">
+            <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">
               Sundae Core is your real-time operational intelligence layer — built for operators who can't wait for end-of-day reports. Whether you're managing 10 locations or 100+, Core gives you the speed to see what's happening now, understand why it matters, and get recommended actions before problems escalate.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
-            <div className="text-center p-6 bg-blue-50 rounded-xl">
-              <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="forecasting" size="lg" className="text-white" />
+            <div className="text-center p-6 bg-[rgba(28,71,255,0.1)] rounded-xl">
+              <div className="w-12 h-12 bg-[#1C47FF] rounded-full flex items-center justify-center mx-auto mb-3">
+                <SundaeIcon name="forecasting" size="lg" className="text-[var(--text-primary)]" />
               </div>
-              <h3 className="font-semibold text-slate-900 mb-2">Predictive, Not Reactive</h3>
-              <p className="text-sm text-slate-600">Get alerts before problems become expensive. AI recommendations for immediate action — not dashboards that update.</p>
+              <h3 className="font-semibold text-[var(--text-primary)] mb-2">Predictive, Not Reactive</h3>
+              <p className="text-sm text-[var(--text-supporting)]">Get alerts before problems become expensive. AI recommendations for immediate action — not dashboards that update.</p>
             </div>
             <div className="text-center p-6 bg-purple-50 rounded-xl">
               <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="multiLocation" size="lg" className="text-white" />
+                <SundaeIcon name="multiLocation" size="lg" className="text-[var(--text-primary)]" />
               </div>
-              <h3 className="font-semibold text-slate-900 mb-2">Every Location, One View</h3>
-              <p className="text-sm text-slate-600">Unified visibility across all locations. Portfolio-level patterns and location-level detail in a single pane.</p>
+              <h3 className="font-semibold text-[var(--text-primary)] mb-2">Every Location, One View</h3>
+              <p className="text-sm text-[var(--text-supporting)]">Unified visibility across all locations. Portfolio-level patterns and location-level detail in a single pane.</p>
             </div>
             <div className="text-center p-6 bg-green-50 rounded-xl">
               <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="performance" size="lg" className="text-white" />
+                <SundaeIcon name="performance" size="lg" className="text-[var(--text-primary)]" />
               </div>
-              <h3 className="font-semibold text-slate-900 mb-2">Grows With You</h3>
-              <p className="text-sm text-slate-600">From 10 to 1,000+ locations. Core Lite, Pro, or Enterprise — the platform scales as you do.</p>
+              <h3 className="font-semibold text-[var(--text-primary)] mb-2">Grows With You</h3>
+              <p className="text-sm text-[var(--text-supporting)]">From 10 to 1,000+ locations. Core Lite, Pro, or Enterprise — the platform scales as you do.</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Three Tiers */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <p className="text-xs font-semibold tracking-[0.18em] uppercase text-slate-500 mb-4">
+            <p className="text-xs font-semibold tracking-[0.18em] uppercase text-[var(--text-muted)] mb-4">
               CHOOSE YOUR TIER
             </p>
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               Three Tiers for Every Scale
             </h2>
-            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
+            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               From growing operations to global enterprises. Pick your speed.
             </p>
           </div>
@@ -258,9 +258,9 @@ export default function CoreProductPage() {
                     </div>
                   )}
                   <CardHeader className="pt-8">
-                    <CardTitle className="text-2xl text-slate-900 mb-2">{tier.name}</CardTitle>
-                    <p className="text-sm font-semibold text-slate-700 mb-3">{tier.subtitle}</p>
-                    <CardDescription className="text-slate-600 leading-relaxed mb-6">
+                    <CardTitle className="text-2xl text-[var(--text-primary)] mb-2">{tier.name}</CardTitle>
+                    <p className="text-sm font-semibold text-[var(--text-secondary)] mb-3">{tier.subtitle}</p>
+                    <CardDescription className="text-[var(--text-supporting)] leading-relaxed mb-6">
                       {tier.description}
                     </CardDescription>
                   </CardHeader>
@@ -269,13 +269,13 @@ export default function CoreProductPage() {
                       {tier.features.map((feature, idx) => (
                         <li key={idx} className="flex items-start space-x-2">
                           <span className="text-green-500 mt-1">✓</span>
-                          <span className="text-sm text-slate-600">{feature}</span>
+                          <span className="text-sm text-[var(--text-supporting)]">{feature}</span>
                         </li>
                       ))}
                     </ul>
-                    <div className="p-4 bg-slate-50 rounded-lg mb-6">
-                      <p className="text-xs font-semibold text-slate-500 uppercase mb-1">Best for:</p>
-                      <p className="text-sm text-slate-700">{tier.bestFor}</p>
+                    <div className="p-4 bg-[var(--surface-faint)] rounded-lg mb-6">
+                      <p className="text-xs font-semibold text-[var(--text-muted)] uppercase mb-1">Best for:</p>
+                      <p className="text-sm text-[var(--text-secondary)]">{tier.bestFor}</p>
                     </div>
                     <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
                       <Button variant="primary" size="lg" className="w-full">
@@ -291,13 +291,13 @@ export default function CoreProductPage() {
       </section>
 
       {/* 4D Intelligence Model for Core */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               The 4D Intelligence Model (Core Tier)
             </h2>
-            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
+            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               Core delivers: <span className="font-semibold text-green-600">All 4D Expanded</span>
             </p>
           </div>
@@ -315,15 +315,15 @@ export default function CoreProductPage() {
                   <CardHeader>
                     <div className="text-center mb-4">
                       <div className={`inline-flex w-16 h-16 bg-gradient-to-br ${dim.color} rounded-full items-center justify-center text-white mb-3 shadow-lg`}>
-                        <SundaeIcon name={dim.icon} size="xl" className="text-white" />
+                        <SundaeIcon name={dim.icon} size="xl" className="text-[var(--text-primary)]" />
                       </div>
-                      <div className="text-3xl font-bold text-slate-900 mb-1">{dim.dimension}</div>
-                      <CardTitle className="text-lg text-slate-900 mb-2">{dim.title}</CardTitle>
+                      <div className="text-3xl font-bold text-[var(--text-primary)] mb-1">{dim.dimension}</div>
+                      <CardTitle className="text-lg text-[var(--text-primary)] mb-2">{dim.title}</CardTitle>
                       <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-green-100 text-green-800">
                         {dim.status}
                       </span>
                     </div>
-                    <CardDescription className="text-slate-600 leading-relaxed text-center text-sm">
+                    <CardDescription className="text-[var(--text-supporting)] leading-relaxed text-center text-sm">
                       {dim.description}
                     </CardDescription>
                   </CardHeader>
@@ -342,10 +342,10 @@ export default function CoreProductPage() {
               <SundaeIcon name="pulse" size="md" />
               <span>Included with Core</span>
             </div>
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               Pulse: Your Shift Command Center
             </h2>
-            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
+            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               See anomalies the moment they happen. Coach your team in real time. Confirm results before the shift ends.
             </p>
           </div>
@@ -379,13 +379,13 @@ export default function CoreProductPage() {
                 transition={{ duration: 0.5, delay: index * 0.05 }}
                 viewport={{ once: true, margin: "-100px" }}
               >
-                <div className="flex items-start space-x-3 p-4 bg-white rounded-xl border border-slate-200/50 shadow-sm hover:shadow-md transition-all duration-300 h-full">
+                <div className="flex items-start space-x-3 p-4 bg-[var(--navy-deep)] rounded-xl border border-[var(--border-default)]/50 shadow-none hover:shadow-md transition-all duration-300 h-full">
                   <div className="w-10 h-10 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center text-white flex-shrink-0">
-                    <SundaeIcon name={feature.icon} size="md" className="text-white" />
+                    <SundaeIcon name={feature.icon} size="md" className="text-[var(--text-primary)]" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-slate-900 text-sm mb-1">{feature.name}</h3>
-                    <p className="text-xs text-slate-600 leading-relaxed">{feature.description}</p>
+                    <h3 className="font-semibold text-[var(--text-primary)] text-sm mb-1">{feature.name}</h3>
+                    <p className="text-xs text-[var(--text-supporting)] leading-relaxed">{feature.description}</p>
                   </div>
                 </div>
               </motion.div>
@@ -395,13 +395,13 @@ export default function CoreProductPage() {
       </section>
 
       {/* Integrations */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               Connect All Your Systems
             </h2>
-            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
+            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               Core connects across 12 data domains with 30+ vendor integrations
             </p>
           </div>
@@ -415,14 +415,14 @@ export default function CoreProductPage() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true, margin: "-100px" }}
               >
-                <div className="p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-300">
+                <div className="p-6 bg-[var(--navy-deep)] rounded-xl shadow-none hover:shadow-md transition-all duration-300">
                   <div className="flex items-center space-x-3 mb-3">
                     <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
-                      <SundaeIcon name={integration.icon} size="md" className="text-white" />
+                      <SundaeIcon name={integration.icon} size="md" className="text-[var(--text-primary)]" />
                     </div>
-                    <h3 className="font-semibold text-slate-900">{integration.category}</h3>
+                    <h3 className="font-semibold text-[var(--text-primary)]">{integration.category}</h3>
                   </div>
-                  <p className="text-sm text-slate-600">{integration.examples}</p>
+                  <p className="text-sm text-[var(--text-supporting)]">{integration.examples}</p>
                 </div>
               </motion.div>
             ))}
@@ -431,13 +431,13 @@ export default function CoreProductPage() {
       </section>
 
       {/* Add Modules */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               Add Modules for Specialized Intelligence
             </h2>
-            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
+            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               Enhance Core with focused modules for your specific operational challenges
             </p>
           </div>
@@ -451,13 +451,13 @@ export default function CoreProductPage() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true, margin: "-100px" }}
               >
-                <div className="flex items-start space-x-3 p-5 bg-slate-50 rounded-xl hover:bg-slate-100 transition-all duration-300 h-full">
+                <div className="flex items-start space-x-3 p-5 bg-[var(--surface-faint)] rounded-xl hover:bg-[var(--surface-subtle)] transition-all duration-300 h-full">
                   <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center text-white flex-shrink-0">
-                    <SundaeIcon name={module.icon} size="md" className="text-white" />
+                    <SundaeIcon name={module.icon} size="md" className="text-[var(--text-primary)]" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-slate-900 mb-1">{module.name}</h3>
-                    <p className="text-sm text-slate-600">{module.description}</p>
+                    <h3 className="font-semibold text-[var(--text-primary)] mb-1">{module.name}</h3>
+                    <p className="text-sm text-[var(--text-supporting)]">{module.description}</p>
                   </div>
                 </div>
               </motion.div>
@@ -477,11 +477,11 @@ export default function CoreProductPage() {
       </section>
 
       {/* Core + Watchtower */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white relative overflow-hidden">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] text-[var(--text-primary)] relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent" />
         <div className="max-w-5xl mx-auto text-center relative">
-          <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-6">
-            <SundaeIcon name="watchtower" size="xl" className="text-white" />
+          <div className="w-16 h-16 bg-[var(--navy-deep)]/20 rounded-2xl flex items-center justify-center mx-auto mb-6">
+            <SundaeIcon name="watchtower" size="xl" className="text-[var(--text-primary)]" />
           </div>
           <h2 className="section-h2 mb-6">
             Core + Watchtower = Complete Intelligence
@@ -492,7 +492,7 @@ export default function CoreProductPage() {
           <Button
             variant="secondary"
             size="lg"
-            className="bg-white text-blue-600 hover:bg-slate-100"
+            className="bg-[var(--navy-deep)] text-[#60A5FA] hover:bg-[var(--surface-subtle)]"
             onClick={() => cta("/watchtower", "learn_watchtower_from_core", { page: "/core-product" })}
           >
             Learn About Watchtower →
@@ -501,19 +501,19 @@ export default function CoreProductPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               Frequently Asked Questions
             </h2>
           </div>
 
           <div className="space-y-6">
             {faqs.map((faq, index) => (
-              <div key={index} className="p-6 bg-slate-50 rounded-xl">
-                <h3 className="font-semibold text-slate-900 mb-3">{faq.q}</h3>
-                <p className="text-slate-600 leading-relaxed">{faq.a}</p>
+              <div key={index} className="p-6 bg-[var(--surface-faint)] rounded-xl">
+                <h3 className="font-semibold text-[var(--text-primary)] mb-3">{faq.q}</h3>
+                <p className="text-[var(--text-supporting)] leading-relaxed">{faq.a}</p>
               </div>
             ))}
           </div>
@@ -531,45 +531,45 @@ export default function CoreProductPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] text-[var(--text-primary)]">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 mb-6">
             Stop Managing Yesterday's Numbers
           </h2>
-          <p className="body-lg text-slate-300 mb-8 max-w-3xl mx-auto">
+          <p className="body-lg text-[var(--text-muted)] mb-8 max-w-3xl mx-auto">
             See what real-time operational intelligence looks like with your actual data.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+            <div className="p-6 bg-[var(--navy-deep)]/5 rounded-xl border border-[var(--border-default)]">
               <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="cost" size="lg" className="text-white" />
+                <SundaeIcon name="cost" size="lg" className="text-[var(--text-primary)]" />
               </div>
-              <h3 className="font-semibold text-white mb-2">Calculate ROI</h3>
-              <p className="text-sm text-slate-400 mb-4">Interactive simulator with your numbers</p>
+              <h3 className="font-semibold text-[var(--text-primary)] mb-2">Calculate ROI</h3>
+              <p className="text-sm text-[var(--text-muted)] mb-4">Interactive simulator with your numbers</p>
               <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
                 <Button variant="primary" size="md" className="w-full">
                   Calculate ROI →
                 </Button>
               </a>
             </div>
-            <div className="p-6 bg-white/5 rounded-xl border border-white/10">
-              <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="chart" size="lg" className="text-white" />
+            <div className="p-6 bg-[var(--navy-deep)]/5 rounded-xl border border-[var(--border-default)]">
+              <div className="w-12 h-12 bg-[#1C47FF] rounded-full flex items-center justify-center mx-auto mb-3">
+                <SundaeIcon name="chart" size="lg" className="text-[var(--text-primary)]" />
               </div>
-              <h3 className="font-semibold text-white mb-2">Compare Tiers</h3>
-              <p className="text-sm text-slate-400 mb-4">See Lite vs Pro vs Enterprise</p>
+              <h3 className="font-semibold text-[var(--text-primary)] mb-2">Compare Tiers</h3>
+              <p className="text-sm text-[var(--text-muted)] mb-4">See Lite vs Pro vs Enterprise</p>
               <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
                 <Button variant="outline" size="md" className="w-full">
                   Compare Tiers →
                 </Button>
               </a>
             </div>
-            <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+            <div className="p-6 bg-[var(--navy-deep)]/5 rounded-xl border border-[var(--border-default)]">
               <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="visibility" size="lg" className="text-white" />
+                <SundaeIcon name="visibility" size="lg" className="text-[var(--text-primary)]" />
               </div>
-              <h3 className="font-semibold text-white mb-2">Book a Demo</h3>
-              <p className="text-sm text-slate-400 mb-4">Custom walkthrough with your data</p>
+              <h3 className="font-semibold text-[var(--text-primary)] mb-2">Book a Demo</h3>
+              <p className="text-sm text-[var(--text-muted)] mb-4">Custom walkthrough with your data</p>
               <Button
                 variant="outline"
                 size="md"

@@ -101,7 +101,7 @@ export default function SignInPage() {
  {/* ================================================================
  LEFT — Branding Panel (desktop only)
  ================================================================ */}
- <div className="hidden lg:flex lg:w-[480px] xl:w-[520px] flex-shrink-0 relative overflow-hidden bg-slate-950">
+ <div className="hidden lg:flex lg:w-[480px] xl:w-[520px] flex-shrink-0 relative overflow-hidden bg-[var(--navy-deep)]">
  {/* Subtle grid pattern */}
  <div
  className="absolute inset-0 opacity-[0.07]"
@@ -132,7 +132,7 @@ export default function SignInPage() {
 
  {/* Headline + product shot */}
  <div className="flex-1 flex flex-col justify-center -mt-8">
- <h2 className="text-3xl xl:text-4xl font-bold text-white leading-tight mb-4">
+ <h2 className="text-3xl xl:text-4xl font-bold text-[var(--text-primary)] leading-tight mb-4">
  Decision intelligence<br />for restaurants
  </h2>
  <p className="text-blue-200/90 text-base leading-relaxed mb-8 max-w-sm">
@@ -140,7 +140,7 @@ export default function SignInPage() {
  </p>
 
  {/* Product screenshot */}
- <div className="relative rounded-xl overflow-hidden shadow-2xl shadow-black/30 border border-white/10">
+ <div className="relative rounded-xl overflow-hidden shadow-2xl shadow-black/30 border border-[var(--border-default)]">
  <Image
  src="/images/product/core-overview.png"
  alt="Sundae Core dashboard"
@@ -156,7 +156,7 @@ export default function SignInPage() {
  <div className="space-y-3 pt-8">
  {trustPoints.map((point) => (
  <div key={point.label} className="flex items-center gap-3">
- <div className="w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center flex-shrink-0">
+ <div className="w-8 h-8 rounded-lg bg-[var(--navy-deep)]/10 flex items-center justify-center flex-shrink-0">
  <point.icon />
  </div>
  <span className="text-sm text-blue-100/90">{point.label}</span>
@@ -169,7 +169,7 @@ export default function SignInPage() {
  {/* ================================================================
  RIGHT — Sign-in Form
  ================================================================ */}
- <div className="flex-1 flex flex-col min-h-screen bg-white">
+ <div className="flex-1 flex flex-col min-h-screen bg-[var(--navy-deep)]">
  {/* Mobile header */}
  <div className="lg:hidden flex items-center justify-between px-6 pt-6">
  <Link href="/" aria-label="Sundae home">
@@ -190,10 +190,10 @@ export default function SignInPage() {
  <div className="w-full max-w-[400px]">
  {/* Heading */}
  <motion.div {...fadeUp(0)} className="mb-8">
- <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-2">
+ <h1 className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)] mb-2">
  Sign in to Sundae
  </h1>
- <p className="text-slate-500 text-sm">
+ <p className="text-[var(--text-muted)] text-sm">
  Your unified view of performance, operations, and competitive intelligence.
  </p>
  </motion.div>
@@ -203,14 +203,14 @@ export default function SignInPage() {
  <motion.div {...fadeUp(0.05)} className="space-y-3 mb-6">
  <button
  type="button"
- className="w-full flex items-center justify-center gap-3 px-4 py-3 rounded-xl border-2 border-slate-200 bg-white text-sm font-medium text-slate-700 hover:bg-slate-50 transition-colors"
+ className="w-full flex items-center justify-center gap-3 px-4 py-3 rounded-xl border-2 border-[var(--border-default)] bg-[var(--navy-deep)] text-sm font-medium text-[var(--text-secondary)] hover:bg-[var(--surface-faint)] transition-colors"
  >
  <GoogleIcon />
  Continue with Google
  </button>
  <button
  type="button"
- className="w-full flex items-center justify-center gap-3 px-4 py-3 rounded-xl border-2 border-slate-200 bg-white text-sm font-medium text-slate-700 hover:bg-slate-50 transition-colors"
+ className="w-full flex items-center justify-center gap-3 px-4 py-3 rounded-xl border-2 border-[var(--border-default)] bg-[var(--navy-deep)] text-sm font-medium text-[var(--text-secondary)] hover:bg-[var(--surface-faint)] transition-colors"
  >
  <MicrosoftIcon />
  Continue with Microsoft
@@ -219,10 +219,10 @@ export default function SignInPage() {
  {/* Divider */}
  <div className="relative py-2">
  <div className="absolute inset-0 flex items-center">
- <div className="w-full border-t border-slate-200" />
+ <div className="w-full border-t border-[var(--border-default)]" />
  </div>
  <div className="relative flex justify-center">
- <span className="bg-white px-3 text-xs text-slate-400 uppercase tracking-wider">
+ <span className="bg-[var(--navy-deep)] px-3 text-xs text-[var(--text-muted)] uppercase tracking-wider">
  or
  </span>
  </div>
@@ -235,7 +235,7 @@ export default function SignInPage() {
  <motion.div
  initial={{ opacity: 0, y: -8 }}
  animate={{ opacity: 1, y: 0 }}
- className="mb-4 px-4 py-3 rounded-xl bg-red-50 border border-red-200 text-sm text-red-600"
+ className="mb-4 px-4 py-3 rounded-xl bg-[rgba(220,38,38,0.1)] border border-red-200 text-sm text-red-600"
  role="alert"
  >
  {formError}
@@ -289,13 +289,13 @@ export default function SignInPage() {
  type="checkbox"
  checked={remember}
  onChange={(e) => setRemember(e.target.checked)}
- className="w-4 h-4 rounded border-slate-300 text-slate-900 focus:ring-slate-900/30 bg-white"
+ className="w-4 h-4 rounded border-white/[0.1] text-[var(--text-primary)] focus:ring-slate-900/30 bg-[var(--navy-deep)]"
  />
- <span className="text-sm text-slate-600">Remember me</span>
+ <span className="text-sm text-[var(--text-supporting)]">Remember me</span>
  </label>
  <a
  href={`${APP_URL}/forgot-password`}
- className="text-sm font-medium text-slate-900 hover:text-slate-800 transition-colors"
+ className="text-sm font-medium text-[var(--text-primary)] hover:text-white/90 transition-colors"
  >
  Forgot password?
  </a>
@@ -305,7 +305,7 @@ export default function SignInPage() {
 
  {/* Helper text — redirect mode */}
  {!hasAuth && (
- <p className="text-xs text-slate-400">
+ <p className="text-xs text-[var(--text-muted)]">
  {"You\u2019ll sign in securely in the Sundae app."}
  </p>
  )}
@@ -314,7 +314,7 @@ export default function SignInPage() {
  <button
  type="submit"
  disabled={isLoading}
- className="w-full flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl text-sm font-semibold text-white bg-slate-950 shadow-lg shadow-slate-900/25 hover:shadow-xl hover:shadow-slate-900/35 hover:-translate-y-0.5 active:translate-y-0 active:shadow-lg transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-slate-900 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0 disabled:hover:shadow-lg"
+ className="w-full flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl text-sm font-semibold text-[var(--text-primary)] bg-[var(--navy-deep)] shadow-lg shadow-slate-900/25 hover:shadow-xl hover:shadow-slate-900/35 hover:-translate-y-0.5 active:translate-y-0 active:shadow-lg transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-slate-900 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0 disabled:hover:shadow-lg"
  >
  {isLoading ? (
  <>
@@ -328,11 +328,11 @@ export default function SignInPage() {
  </motion.form>
 
  {/* Sign up link */}
- <motion.p {...fadeUp(0.15)} className="mt-8 text-center text-sm text-slate-500">
+ <motion.p {...fadeUp(0.15)} className="mt-8 text-center text-sm text-[var(--text-muted)]">
  {"Don't have an account? "}
  <a
  href={SIGNUP_URL}
- className="font-medium text-slate-900 hover:text-slate-800 transition-colors"
+ className="font-medium text-[var(--text-primary)] hover:text-white/90 transition-colors"
  >
  Get started free
  </a>
@@ -342,17 +342,17 @@ export default function SignInPage() {
 
  {/* Footer */}
  <div className="px-6 pb-6 lg:pb-8">
- <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-slate-400">
- <Link href="/terms" className="hover:text-slate-600 transition-colors">
+ <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-[var(--text-muted)]">
+ <Link href="/terms" className="hover:text-[var(--text-supporting)] transition-colors">
  Terms
  </Link>
- <Link href="/privacy" className="hover:text-slate-600 transition-colors">
+ <Link href="/privacy" className="hover:text-[var(--text-supporting)] transition-colors">
  Privacy
  </Link>
- <Link href="/security" className="hover:text-slate-600 transition-colors">
+ <Link href="/security" className="hover:text-[var(--text-supporting)] transition-colors">
  Security
  </Link>
- <Link href="/contact" className="hover:text-slate-600 transition-colors">
+ <Link href="/contact" className="hover:text-[var(--text-supporting)] transition-colors">
  Support
  </Link>
  </div>

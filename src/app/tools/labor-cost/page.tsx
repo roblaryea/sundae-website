@@ -32,7 +32,7 @@ export default function LaborCostCalculator() {
  color = 'text-green-600';
  } else if (percentage <= 32) {
  interpretation = 'Healthy - Your labor cost is within the industry standard range of 25-32%.';
- color = 'text-blue-600';
+ color = 'text-[#60A5FA]';
  } else {
  interpretation = 'High - Your labor cost exceeds 32%. Review staffing levels and scheduling efficiency.';
  color = 'text-red-600';
@@ -58,13 +58,13 @@ export default function LaborCostCalculator() {
 
  {/* Header */}
  <div className="text-center mb-12">
- <div className="w-20 h-20 bg-slate-900 rounded-2xl flex items-center justify-center text-white mx-auto mb-6 shadow-lg">
- <SundaeIcon name="hr" size="xl" className="text-white" />
+ <div className="w-20 h-20 bg-slate-900 rounded-2xl flex items-center justify-center text-[var(--text-primary)] mx-auto mb-6 shadow-lg">
+ <SundaeIcon name="hr" size="xl" className="text-[var(--text-primary)]" />
  </div>
- <h1 className="hero-h1 text-slate-900 mb-4">
+ <h1 className="hero-h1 text-[var(--text-primary)] mb-4">
  Labor Cost % Calculator
  </h1>
- <p className="body-lg text-slate-600">
+ <p className="body-lg text-[var(--text-supporting)]">
  Calculate your labor cost percentage and see if you're on target compared to industry standards
  </p>
  </div>
@@ -72,16 +72,16 @@ export default function LaborCostCalculator() {
  {/* Calculator Card */}
  <Card variant="elevated" className="mb-8">
  <CardHeader>
- <CardTitle className="text-2xl text-slate-900">
+ <CardTitle className="text-2xl text-[var(--text-primary)]">
  Enter Your Numbers
  </CardTitle>
- <CardDescription className="text-slate-600">
+ <CardDescription className="text-[var(--text-supporting)]">
  Input your total labor cost and sales for the period
  </CardDescription>
  </CardHeader>
  <CardContent className="space-y-6">
  <div>
- <label htmlFor="laborCost" className="block text-sm font-medium text-slate-700 mb-2">
+ <label htmlFor="laborCost" className="block text-sm font-medium text-[var(--text-secondary)] mb-2">
  Total Labor Cost
  </label>
  <input
@@ -91,17 +91,17 @@ export default function LaborCostCalculator() {
  onChange={(e) => setLaborCost(e.target.value)}
  placeholder="e.g., 25000"
  aria-describedby="laborCost-hint"
- className="w-full px-4 py-3 rounded-lg border border-slate-300 bg-white text-slate-900 focus:ring-2 focus:ring-slate-600 focus:border-transparent"
+ className="w-full px-4 py-3 rounded-lg border border-white/[0.1] bg-[var(--navy-deep)] text-[var(--text-primary)] focus:ring-2 focus:ring-slate-600 focus:border-transparent"
  min="0"
  step="0.01"
  />
- <p id="laborCost-hint" className="text-xs text-slate-500 mt-1">
+ <p id="laborCost-hint" className="text-xs text-[var(--text-muted)] mt-1">
  Total wages, benefits, and payroll taxes
  </p>
  </div>
 
  <div>
- <label htmlFor="totalSales" className="block text-sm font-medium text-slate-700 mb-2">
+ <label htmlFor="totalSales" className="block text-sm font-medium text-[var(--text-secondary)] mb-2">
  Total Sales
  </label>
  <input
@@ -111,11 +111,11 @@ export default function LaborCostCalculator() {
  onChange={(e) => setTotalSales(e.target.value)}
  placeholder="e.g., 100000"
  aria-describedby="totalSales-hint"
- className="w-full px-4 py-3 rounded-lg border border-slate-300 bg-white text-slate-900 focus:ring-2 focus:ring-slate-600 focus:border-transparent"
+ className="w-full px-4 py-3 rounded-lg border border-white/[0.1] bg-[var(--navy-deep)] text-[var(--text-primary)] focus:ring-2 focus:ring-slate-600 focus:border-transparent"
  min="0"
  step="0.01"
  />
- <p id="totalSales-hint" className="text-xs text-slate-500 mt-1">
+ <p id="totalSales-hint" className="text-xs text-[var(--text-muted)] mt-1">
  Total revenue for the same period
  </p>
  </div>
@@ -137,24 +137,24 @@ export default function LaborCostCalculator() {
  <Card variant="elevated" className="bg-gradient-to-br from-blue-50 to-white">
  <CardContent className="p-8">
  <div className="text-center mb-6">
- <h3 className="text-lg font-semibold text-slate-700 mb-2">
+ <h3 className="text-lg font-semibold text-[var(--text-secondary)] mb-2">
  Your Labor Cost %
  </h3>
- <div className="text-6xl font-bold text-slate-900 mb-4">
+ <div className="text-6xl font-bold text-[var(--text-primary)] mb-4">
  {result.percentage.toFixed(1)}%
  </div>
  </div>
  
- <div className={`p-6 rounded-xl bg-white shadow-md ${result.color}`}>
+ <div className={`p-6 rounded-xl bg-[var(--navy-deep)] shadow-md ${result.color}`}>
  <h4 className="font-bold text-lg mb-2">Analysis</h4>
  <p className="leading-relaxed">{result.interpretation}</p>
  </div>
 
- <div className="mt-6 p-4 bg-slate-100 rounded-lg">
- <h5 className="font-semibold text-slate-900 mb-2 text-sm">
+ <div className="mt-6 p-4 bg-[var(--surface-subtle)] rounded-lg">
+ <h5 className="font-semibold text-[var(--text-primary)] mb-2 text-sm">
  Industry Benchmarks:
  </h5>
- <ul className="text-sm text-slate-700 space-y-1">
+ <ul className="text-sm text-[var(--text-secondary)] space-y-1">
  <li>• &lt; 25%: Below average (may indicate understaffing)</li>
  <li>• 25-32%: Healthy range for most concepts</li>
  <li>• &gt; 32%: Above average (review efficiency)</li>

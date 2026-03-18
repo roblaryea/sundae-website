@@ -59,14 +59,14 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-slate-950 text-white" role="contentinfo">
+    <footer className="bg-[var(--navy-deep)] text-[var(--text-primary)]" role="contentinfo">
       {/* Pre-footer CTA Section */}
-      <div className="border-b border-white/[0.06]">
+      <div className="border-b border-[var(--border-default)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
-          <h2 className="text-2xl md:text-3xl font-bold text-white mb-3 tracking-tight">
+          <h2 className="text-2xl md:text-3xl font-bold text-[var(--text-primary)] mb-3 tracking-tight">
             Ready to see what you&apos;re missing?
           </h2>
-          <p className="text-slate-400 mb-8 max-w-xl mx-auto text-base">
+          <p className="text-[var(--text-muted)] mb-8 max-w-xl mx-auto text-base">
             Join operators who have moved from guessing to knowing.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
@@ -90,26 +90,26 @@ const Footer = () => {
 
       {/* Main Footer Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-14">
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 lg:gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 sm:gap-8 lg:gap-10">
           {/* Brand Section */}
-          <div className="col-span-2 md:col-span-4 lg:col-span-2">
+          <div className="col-span-1 sm:col-span-2 md:col-span-4 lg:col-span-2">
             <Link href="/" className="inline-block mb-4" aria-label="Sundae - Return to homepage">
               <Image
                 src="/logos/sundae-wordmark.png"
                 alt="Sundae"
                 width={110}
                 height={26}
-                className="brightness-0 invert"
+                className="logo-invert"
               />
             </Link>
-            <p className="text-slate-400 mb-5 max-w-xs text-sm leading-relaxed">
+            <p className="text-[var(--text-muted)] mb-5 max-w-xs text-sm leading-relaxed">
               Decision intelligence for restaurants. Understand performance, predict what&apos;s next, and act with confidence.
             </p>
-            <div className="flex items-center gap-3 text-slate-500 text-xs mb-5">
+            <div className="flex items-center gap-3 text-[var(--text-muted)] text-xs mb-5">
               <span>Global</span>
-              <span className="text-slate-700">·</span>
+              <span className="text-[var(--text-faint)]">·</span>
               <span>All currencies</span>
-              <span className="text-slate-700">·</span>
+              <span className="text-[var(--text-faint)]">·</span>
               <span>English</span>
             </div>
             {/* Social Links */}
@@ -118,7 +118,7 @@ const Footer = () => {
                 href="https://x.com/sundae_io"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-slate-500 hover:text-white transition-colors"
+                className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors"
                 aria-label="Follow Sundae on X (formerly Twitter)"
               >
                 <svg className="w-4.5 h-4.5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -129,7 +129,7 @@ const Footer = () => {
                 href="https://www.linkedin.com/company/managewithsundae"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-slate-500 hover:text-white transition-colors"
+                className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors"
                 aria-label="Follow Sundae on LinkedIn"
               >
                 <svg className="w-4.5 h-4.5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -141,27 +141,27 @@ const Footer = () => {
 
           {/* Products Column */}
           <div>
-            <h3 className="text-[11px] font-semibold tracking-[0.12em] uppercase text-slate-500 mb-3">Product</h3>
+            <h3 className="text-[11px] font-semibold tracking-[0.12em] uppercase text-[var(--text-muted)] mb-3">Product</h3>
             <ul className="space-y-2">
               {pillarLinks.map((link) => (
                 <li key={link.name}>
-                  <Link href={link.href} className="text-slate-400 hover:text-white transition-colors text-sm">
+                  <Link href={link.href} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
                     {link.name}
                   </Link>
                 </li>
               ))}
             </ul>
-            <div className="border-t border-white/[0.06] my-3"></div>
+            <div className="border-t border-[var(--border-default)] my-3"></div>
             <ul className="space-y-2">
               {planLinks.map((link) => (
                 <li key={link.name}>
-                  <Link href={link.href} className="text-slate-400 hover:text-white transition-colors text-sm">
+                  <Link href={link.href} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
                     {link.name}
                   </Link>
                 </li>
               ))}
               <li>
-                <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors text-sm">
+                <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
                   Pricing
                 </a>
               </li>
@@ -170,21 +170,21 @@ const Footer = () => {
 
           {/* Solutions Column */}
           <div>
-            <h3 className="text-[11px] font-semibold tracking-[0.12em] uppercase text-slate-500 mb-3">Solutions</h3>
+            <h3 className="text-[11px] font-semibold tracking-[0.12em] uppercase text-[var(--text-muted)] mb-3">Solutions</h3>
             <ul className="space-y-2">
               {solutionsBySegment.map((link) => (
                 <li key={link.name}>
-                  <Link href={link.href} className="text-slate-400 hover:text-white transition-colors text-sm">
+                  <Link href={link.href} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
                     {link.name}
                   </Link>
                 </li>
               ))}
             </ul>
-            <div className="border-t border-white/[0.06] my-3"></div>
+            <div className="border-t border-[var(--border-default)] my-3"></div>
             <ul className="space-y-2">
               {solutionsByRole.map((link) => (
                 <li key={link.name}>
-                  <Link href={link.href} className="text-slate-400 hover:text-white transition-colors text-sm">
+                  <Link href={link.href} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
                     {link.name}
                   </Link>
                 </li>
@@ -194,31 +194,31 @@ const Footer = () => {
 
           {/* Resources & Company */}
           <div>
-            <h3 className="text-[11px] font-semibold tracking-[0.12em] uppercase text-slate-500 mb-3">Resources</h3>
+            <h3 className="text-[11px] font-semibold tracking-[0.12em] uppercase text-[var(--text-muted)] mb-3">Resources</h3>
             <ul className="space-y-2">
               {resourceLinks.map((link) => (
                 <li key={link.name}>
                   {link.tracked ? (
                     <button
                       onClick={() => cta(link.href, "view_tools_footer", { location: "footer" })}
-                      className="text-slate-400 hover:text-white transition-colors text-sm bg-transparent border-none cursor-pointer p-0 text-left"
+                      className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm bg-transparent border-none cursor-pointer p-0 text-left"
                     >
                       {link.name}
                     </button>
                   ) : (
-                    <Link href={link.href} className="text-slate-400 hover:text-white transition-colors text-sm">
+                    <Link href={link.href} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
                       {link.name}
                     </Link>
                   )}
                 </li>
               ))}
             </ul>
-            <div className="border-t border-white/[0.06] my-3"></div>
-            <h3 className="text-[11px] font-semibold tracking-[0.12em] uppercase text-slate-500 mb-3">Company</h3>
+            <div className="border-t border-[var(--border-default)] my-3"></div>
+            <h3 className="text-[11px] font-semibold tracking-[0.12em] uppercase text-[var(--text-muted)] mb-3">Company</h3>
             <ul className="space-y-2">
               {companyLinks.map((link) => (
                 <li key={link.name}>
-                  <Link href={link.href} className="text-slate-400 hover:text-white transition-colors text-sm">
+                  <Link href={link.href} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
                     {link.name}
                   </Link>
                 </li>
@@ -228,16 +228,16 @@ const Footer = () => {
         </div>
 
         {/* Bottom Section */}
-        <div className="border-t border-white/[0.06] mt-12 pt-6">
+        <div className="border-t border-[var(--border-default)] mt-12 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-3">
-            <p className="text-slate-500 text-sm text-center md:text-left">
+            <p className="text-[var(--text-muted)] text-sm text-center md:text-left">
               &copy; {currentYear} Sundae. All rights reserved.
             </p>
             <div className="flex items-center gap-5 text-xs">
-              <Link href="/privacy" className="text-slate-500 hover:text-white transition-colors">
+              <Link href="/privacy" className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors">
                 Privacy
               </Link>
-              <Link href="/terms" className="text-slate-500 hover:text-white transition-colors">
+              <Link href="/terms" className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors">
                 Terms
               </Link>
             </div>

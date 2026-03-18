@@ -114,7 +114,7 @@ const integrationCategories = [
 
 export default function IntegrationsPage() {
  return (
- <div className="min-h-screen bg-white">
+ <div className="min-h-screen bg-[var(--navy-deep)]">
  {/* Hero */}
  <PageHero
  badge="Integrations"
@@ -123,7 +123,7 @@ export default function IntegrationsPage() {
  />
 
  {/* How It Works */}
- <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white border-b border-slate-100">
+ <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] border-b border-[var(--border-default)]">
  <div className="max-w-5xl mx-auto">
  <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
  {[
@@ -145,11 +145,11 @@ export default function IntegrationsPage() {
  ].map((item) => (
  <StaggerItem key={item.step}>
  <div className="p-6">
- <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-bold text-lg mx-auto mb-4">
+ <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-[#60A5FA] font-bold text-lg mx-auto mb-4">
  {item.step}
  </div>
- <h3 className="text-lg font-semibold text-slate-900 mb-2">{item.title}</h3>
- <p className="text-sm text-slate-600">{item.description}</p>
+ <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">{item.title}</h3>
+ <p className="text-sm text-[var(--text-supporting)]">{item.description}</p>
  </div>
  </StaggerItem>
  ))}
@@ -161,10 +161,10 @@ export default function IntegrationsPage() {
  <section className="py-20 px-4 sm:px-6 lg:px-8">
  <div className="max-w-6xl mx-auto">
  <FadeUp className="text-center mb-16">
- <h2 className="section-h2 text-slate-900 mb-4">
+ <h2 className="section-h2 text-[var(--text-primary)] mb-4">
  12 Data Domains. One Unified View.
  </h2>
- <p className="body-lg text-slate-600 max-w-2xl mx-auto">
+ <p className="body-lg text-[var(--text-supporting)] max-w-2xl mx-auto">
  POS, labor, inventory, purchasing, reservations, delivery, marketing, guest experience, CRM, accounting, and daily sales summaries — all connected.
  </p>
  </FadeUp>
@@ -174,9 +174,9 @@ export default function IntegrationsPage() {
  <FadeUp key={cat.category}>
  <div className="flex items-center gap-3 mb-6">
  <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center text-white shadow">
- <SundaeIcon name={cat.icon} size="md" className="text-white" />
+ <SundaeIcon name={cat.icon} size="md" className="text-[var(--text-primary)]" />
  </div>
- <h3 className="text-xl font-semibold text-slate-900">
+ <h3 className="text-xl font-semibold text-[var(--text-primary)]">
  {cat.category}
  </h3>
  <span className={`px-2.5 py-1 text-xs font-medium rounded-full ${
@@ -191,7 +191,7 @@ export default function IntegrationsPage() {
  {cat.systems.map((system) => (
  <StaggerItem key={system}>
  <div
- className="px-4 py-3 rounded-xl border border-slate-200 bg-white text-sm font-medium text-slate-700 text-center hover:border-blue-300 transition-colors"
+ className="px-4 py-3 rounded-xl border border-[var(--border-default)] bg-[var(--navy-deep)] text-sm font-medium text-[var(--text-secondary)] text-center hover:border-blue-300 transition-colors"
  >
  {system}
  </div>
@@ -202,18 +202,18 @@ export default function IntegrationsPage() {
  ))}
  </div>
 
- <div className="mt-12 p-6 bg-slate-50 rounded-xl border border-slate-200 text-center">
+ <div className="mt-12 p-6 bg-[var(--surface-faint)] rounded-xl border border-[var(--border-default)] text-center">
  <div className="flex items-center justify-center gap-6 mb-3">
  <div className="flex items-center gap-2">
  <span className="w-3 h-3 rounded-full bg-green-500" />
- <span className="text-sm font-medium text-slate-700">Live — available now</span>
+ <span className="text-sm font-medium text-[var(--text-secondary)]">Live — available now</span>
  </div>
  <div className="flex items-center gap-2">
  <span className="w-3 h-3 rounded-full bg-amber-500" />
- <span className="text-sm font-medium text-slate-700">Upcoming — on our roadmap</span>
+ <span className="text-sm font-medium text-[var(--text-secondary)]">Upcoming — on our roadmap</span>
  </div>
  </div>
- <p className="text-xs text-slate-500">
+ <p className="text-xs text-[var(--text-muted)]">
  Upcoming integrations are actively in development. Timelines may vary. Contact us to request priority for a specific integration.
  </p>
  </div>
@@ -221,28 +221,28 @@ export default function IntegrationsPage() {
  </section>
 
  {/* Webhooks & Public API */}
- <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+ <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
  <div className="max-w-5xl mx-auto">
  <FadeUp className="text-center mb-12">
- <h2 className="section-h2 text-slate-900 mb-4">
+ <h2 className="section-h2 text-[var(--text-primary)] mb-4">
  Webhooks & Public API
  </h2>
- <p className="body-lg text-slate-600 max-w-3xl mx-auto">
+ <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">
  Build custom integrations with Sundae&apos;s developer tools.
  </p>
  </FadeUp>
 
  <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
  <StaggerItem>
- <div className="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm">
+ <div className="bg-[var(--navy-deep)] rounded-2xl p-8 border border-[var(--border-default)] shadow-none">
  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-4">
- <SundaeIcon name="integration" size="lg" className="text-white" />
+ <SundaeIcon name="integration" size="lg" className="text-[var(--text-primary)]" />
  </div>
- <h3 className="text-xl font-semibold text-slate-900 mb-3">Custom Webhooks</h3>
- <p className="text-slate-600 text-sm mb-4">
+ <h3 className="text-xl font-semibold text-[var(--text-primary)] mb-3">Custom Webhooks</h3>
+ <p className="text-[var(--text-supporting)] text-sm mb-4">
  Configure webhooks for any non-POS data domain. Push data into Sundae from any system with HTTP support.
  </p>
- <ul className="space-y-2 text-sm text-slate-600">
+ <ul className="space-y-2 text-sm text-[var(--text-supporting)]">
  <li className="flex items-start space-x-2">
  <span className="text-green-500 mt-0.5">&#10003;</span>
  <span>HMAC-SHA256 signature verification</span>
@@ -260,15 +260,15 @@ export default function IntegrationsPage() {
  </StaggerItem>
 
  <StaggerItem>
- <div className="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm">
+ <div className="bg-[var(--navy-deep)] rounded-2xl p-8 border border-[var(--border-default)] shadow-none">
  <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mb-4">
- <SundaeIcon name="data" size="lg" className="text-white" />
+ <SundaeIcon name="data" size="lg" className="text-[var(--text-primary)]" />
  </div>
- <h3 className="text-xl font-semibold text-slate-900 mb-3">Public API v1</h3>
- <p className="text-slate-600 text-sm mb-4">
+ <h3 className="text-xl font-semibold text-[var(--text-primary)] mb-3">Public API v1</h3>
+ <p className="text-[var(--text-supporting)] text-sm mb-4">
  Read-only API endpoints authenticated with API keys. Access your Sundae data programmatically.
  </p>
- <ul className="space-y-2 text-sm text-slate-600">
+ <ul className="space-y-2 text-sm text-[var(--text-supporting)]">
  <li className="flex items-start space-x-2">
  <span className="text-green-500 mt-0.5">&#10003;</span>
  <span>Sales summary and exception endpoints</span>

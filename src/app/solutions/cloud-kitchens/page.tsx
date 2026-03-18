@@ -50,12 +50,12 @@ export default function CloudKitchensPage() {
             <SundaeIcon name="franchise" size="md" />
             <span>Cloud Kitchen Solutions</span>
           </div>
-          <h1 className="hero-h1 text-slate-900 mb-6">
+          <h1 className="hero-h1 text-[var(--text-primary)] mb-6">
             Multi-Brand.
             <br />
             <span className="text-gradient">One Kitchen.</span>
           </h1>
-          <p className="text-xl md:text-2xl text-slate-600 mb-8 max-w-4xl mx-auto">
+          <p className="text-xl md:text-2xl text-[var(--text-supporting)] mb-8 max-w-4xl mx-auto">
             All your virtual brands. Every delivery platform. One intelligence layer.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -74,13 +74,13 @@ export default function CloudKitchensPage() {
       </section>
 
       {/* Challenges Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               The Problems You Know
             </h2>
-            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
+            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               Multi-brand complexity. Platform fragmentation. Cost allocation chaos.
             </p>
           </div>
@@ -90,12 +90,12 @@ export default function CloudKitchensPage() {
               <Card key={index} variant="elevated" className="text-center">
                 <CardHeader>
                   <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center">
-                    <SundaeIcon name={challenge.icon} size="xl" className="text-white" />
+                    <SundaeIcon name={challenge.icon} size="xl" className="text-[var(--text-primary)]" />
                   </div>
-                  <CardTitle className="text-slate-900">{challenge.title}</CardTitle>
+                  <CardTitle className="text-[var(--text-primary)]">{challenge.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-slate-600">
+                  <CardDescription className="text-[var(--text-supporting)]">
                     {challenge.description}
                   </CardDescription>
                 </CardContent>
@@ -106,13 +106,13 @@ export default function CloudKitchensPage() {
       </section>
 
       {/* Solutions Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               How Sundae Changes That
             </h2>
-            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
+            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               Brand-level analytics. Platform-wide visibility. Clear P&L per concept.
             </p>
           </div>
@@ -122,12 +122,12 @@ export default function CloudKitchensPage() {
               <Card key={index} variant="elevated" className="text-center">
                 <CardHeader>
                   <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center">
-                    <SundaeIcon name={solution.icon} size="xl" className="text-white" />
+                    <SundaeIcon name={solution.icon} size="xl" className="text-[var(--text-primary)]" />
                   </div>
-                  <CardTitle className="text-slate-900">{solution.title}</CardTitle>
+                  <CardTitle className="text-[var(--text-primary)]">{solution.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-slate-600">
+                  <CardDescription className="text-[var(--text-supporting)]">
                     {solution.description}
                   </CardDescription>
                 </CardContent>
@@ -138,13 +138,13 @@ export default function CloudKitchensPage() {
       </section>
 
       {/* Features Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               What Changes
             </h2>
-            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
+            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               Faster decisions. Better delivery times. Higher margins per brand.
             </p>
           </div>
@@ -170,11 +170,11 @@ export default function CloudKitchensPage() {
               ].map((feature, index) => (
                 <div key={index} className="flex items-start space-x-4">
                   <div className="w-10 h-10 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                    <SundaeIcon name={feature.icon} size="md" className="text-white" />
+                    <SundaeIcon name={feature.icon} size="md" className="text-[var(--text-primary)]" />
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-slate-900 mb-2">{feature.title}</h3>
-                    <p className="text-slate-600">{feature.description}</p>
+                    <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">{feature.title}</h3>
+                    <p className="text-[var(--text-supporting)]">{feature.description}</p>
                   </div>
                 </div>
               ))}
@@ -183,27 +183,27 @@ export default function CloudKitchensPage() {
             <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8">
               <div className="text-center mb-6">
                 <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-                  <SundaeIcon name="growth" size="xl" className="text-white" />
+                  <SundaeIcon name="growth" size="xl" className="text-[var(--text-primary)]" />
                 </div>
-                <h3 className="text-2xl font-bold text-slate-900">Multi-Brand Performance</h3>
+                <h3 className="text-2xl font-bold text-[var(--text-primary)]">Multi-Brand Performance</h3>
               </div>
               
               <div className="space-y-4">
-                <div className="bg-white rounded-lg p-4 shadow-sm">
+                <div className="bg-[var(--navy-deep)] rounded-lg p-4 shadow-none">
                   <div className="flex justify-between items-center">
-                    <span className="text-sm font-medium text-slate-700">Average Delivery Time</span>
+                    <span className="text-sm font-medium text-[var(--text-secondary)]">Average Delivery Time</span>
                     <span className="text-lg font-bold text-green-600">↓ 15%</span>
                   </div>
                 </div>
-                <div className="bg-white rounded-lg p-4 shadow-sm">
+                <div className="bg-[var(--navy-deep)] rounded-lg p-4 shadow-none">
                   <div className="flex justify-between items-center">
-                    <span className="text-sm font-medium text-slate-700">Platform Rating</span>
-                    <span className="text-lg font-bold text-blue-600">4.7★</span>
+                    <span className="text-sm font-medium text-[var(--text-secondary)]">Platform Rating</span>
+                    <span className="text-lg font-bold text-[#60A5FA]">4.7★</span>
                   </div>
                 </div>
-                <div className="bg-white rounded-lg p-4 shadow-sm">
+                <div className="bg-[var(--navy-deep)] rounded-lg p-4 shadow-none">
                   <div className="flex justify-between items-center">
-                    <span className="text-sm font-medium text-slate-700">Cost per Delivery</span>
+                    <span className="text-sm font-medium text-[var(--text-secondary)]">Cost per Delivery</span>
                     <span className="text-lg font-bold text-purple-600">↓ 12%</span>
                   </div>
                 </div>
@@ -214,7 +214,7 @@ export default function CloudKitchensPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] text-[var(--text-primary)]">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 mb-6">
             Ready to Scale Your Brands?

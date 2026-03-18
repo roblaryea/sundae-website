@@ -30,7 +30,7 @@ export default function BlogPage() {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[var(--navy-deep)]">
       {/* Hero Section */}
       <PageHero
         badge="Blog"
@@ -39,7 +39,7 @@ export default function BlogPage() {
       />
 
       {/* Category Filter */}
-      <section className="py-8 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-8 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-wrap gap-3 justify-center">
             {categories.map((category) => (
@@ -48,15 +48,15 @@ export default function BlogPage() {
                 onClick={() => setSelectedCategory(category)}
                 className={`px-6 py-2 rounded-full font-medium text-sm transition-all ${
                   selectedCategory === category
-                    ? 'bg-slate-900 text-white shadow-lg'
-                    : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+                    ? 'bg-slate-900 text-[var(--text-primary)] shadow-lg'
+                    : 'bg-[var(--surface-subtle)] text-[var(--text-secondary)] hover:bg-slate-200'
                 }`}
               >
                 {category}
               </button>
             ))}
           </div>
-          <div className="text-center mt-6 text-slate-600">
+          <div className="text-center mt-6 text-[var(--text-supporting)]">
             {filteredPosts.length} {filteredPosts.length === 1 ? 'article' : 'articles'}
           </div>
         </div>
@@ -78,24 +78,24 @@ export default function BlogPage() {
                   <Card variant="elevated" className="h-full hover:shadow-xl transition-all duration-300 group">
                     <CardHeader>
                       <div className="flex items-center justify-between mb-3">
-                        <span className="text-xs font-semibold text-slate-900 uppercase tracking-wide">
+                        <span className="text-xs font-semibold text-[var(--text-primary)] uppercase tracking-wide">
                           {post.category}
                         </span>
-                        <span className="text-xs text-slate-500">
+                        <span className="text-xs text-[var(--text-muted)]">
                           {formatDate(post.date)}
                         </span>
                       </div>
-                      <CardTitle className="text-xl text-slate-900 group-hover:text-slate-700 transition-colors duration-300 mb-3">
+                      <CardTitle className="text-xl text-[var(--text-primary)] group-hover:text-[var(--text-secondary)] transition-colors duration-300 mb-3">
                         {post.title}
                       </CardTitle>
                     </CardHeader>
                     <CardContent className="space-y-4">
-                      <CardDescription className="text-slate-600 leading-relaxed line-clamp-3">
+                      <CardDescription className="text-[var(--text-supporting)] leading-relaxed line-clamp-3">
                         {post.summary}
                       </CardDescription>
-                      <div className="pt-4 border-t border-slate-200">
+                      <div className="pt-4 border-t border-[var(--border-default)]">
                         <Link href={`/blog/${post.slug}`}>
-                          <Button variant="ghost" size="sm" className="group-hover:text-slate-900 w-full">
+                          <Button variant="ghost" size="sm" className="group-hover:text-[var(--text-primary)] w-full">
                             Read More →
                           </Button>
                         </Link>

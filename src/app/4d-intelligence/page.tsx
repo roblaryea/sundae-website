@@ -16,8 +16,8 @@ export default function FourDIntelligencePage() {
       description: "This is where most tools stop. Traditional BI platforms show you sales, labor, covers, voids, and waste from your POS, payroll, and inventory systems. But they only tell you what happened in the past—with no context, no comparison, and no prediction.",
       icon: "benchmarking",
       color: "from-blue-500 to-blue-600",
-      textColor: "text-blue-600",
-      bgColor: "bg-blue-50",
+      textColor: "text-[#60A5FA]",
+      bgColor: "bg-[rgba(28,71,255,0.1)]",
       examples: [
         "Daily sales by location and daypart",
         "Labor hours and costs from payroll",
@@ -144,10 +144,10 @@ export default function FourDIntelligencePage() {
               <SundaeIcon name="growth" size="md" />
               <span>Decision Intelligence</span>
             </div>
-            <h1 className="hero-h1 text-slate-900 mb-6">
+            <h1 className="hero-h1 text-[var(--text-primary)] mb-6">
               From Reports to <span className="text-gradient">Real Intelligence</span>
             </h1>
-            <p className="body-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
+            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto leading-relaxed">
               Four dimensions of insight. One complete picture of your business.
             </p>
           </motion.div>
@@ -155,13 +155,13 @@ export default function FourDIntelligencePage() {
       </section>
 
       {/* The Problem: 1D Status Quo */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               The Problem with Traditional BI
             </h2>
-            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
+            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               Most tools show you what happened. Not why. Not how you compare. Not what to do next.
             </p>
           </div>
@@ -171,36 +171,36 @@ export default function FourDIntelligencePage() {
               <CardContent className="p-8">
                 <div className="space-y-6">
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-slate-500 rounded-lg flex items-center justify-center text-white flex-shrink-0">
-                      <SundaeIcon name="warning" size="lg" className="text-white" />
+                    <div className="w-12 h-12 bg-[var(--surface-faint)]0 rounded-lg flex items-center justify-center text-[var(--text-primary)] flex-shrink-0">
+                      <SundaeIcon name="warning" size="lg" className="text-[var(--text-primary)]" />
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-slate-900 mb-2">Reactive, Not Proactive</h3>
-                      <p className="text-slate-600 leading-relaxed">
+                      <h3 className="text-xl font-bold text-[var(--text-primary)] mb-2">Reactive, Not Proactive</h3>
+                      <p className="text-[var(--text-supporting)] leading-relaxed">
                         You discover problems at month-end when they're already expensive to fix. No early warnings, no predictive signals.
                       </p>
                     </div>
                   </div>
                   
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-slate-500 rounded-lg flex items-center justify-center text-white flex-shrink-0">
-                      <SundaeIcon name="visibility" size="lg" className="text-white" />
+                    <div className="w-12 h-12 bg-[var(--surface-faint)]0 rounded-lg flex items-center justify-center text-[var(--text-primary)] flex-shrink-0">
+                      <SundaeIcon name="visibility" size="lg" className="text-[var(--text-primary)]" />
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-slate-900 mb-2">No Market Context</h3>
-                      <p className="text-slate-600 leading-relaxed">
+                      <h3 className="text-xl font-bold text-[var(--text-primary)] mb-2">No Market Context</h3>
+                      <p className="text-[var(--text-supporting)] leading-relaxed">
                         You don't know how you compare to competitors, what the market is doing, or whether your performance is good or bad relative to peers.
                       </p>
                     </div>
                   </div>
                   
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-slate-500 rounded-lg flex items-center justify-center text-white flex-shrink-0">
-                      <SundaeIcon name="document" size="lg" className="text-white" />
+                    <div className="w-12 h-12 bg-[var(--surface-faint)]0 rounded-lg flex items-center justify-center text-[var(--text-primary)] flex-shrink-0">
+                      <SundaeIcon name="document" size="lg" className="text-[var(--text-primary)]" />
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-slate-900 mb-2">No Recommended Actions</h3>
-                      <p className="text-slate-600 leading-relaxed">
+                      <h3 className="text-xl font-bold text-[var(--text-primary)] mb-2">No Recommended Actions</h3>
+                      <p className="text-[var(--text-supporting)] leading-relaxed">
                         Even when you see a problem, the system doesn't tell you what to do about it. You're left to figure out the next steps on your own.
                       </p>
                     </div>
@@ -216,10 +216,10 @@ export default function FourDIntelligencePage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-blue-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               Four Dimensions. One Complete View.
             </h2>
-            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
+            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               Each dimension builds on the last. Together, they tell the whole story.
             </p>
           </div>
@@ -239,24 +239,24 @@ export default function FourDIntelligencePage() {
                     <div className="grid md:grid-cols-5 gap-8 items-start">
                       <div className="md:col-span-2">
                         <div className={`inline-flex w-20 h-20 bg-gradient-to-br ${dim.color} rounded-2xl items-center justify-center text-white mb-4 shadow-lg`}>
-                          <SundaeIcon name={dim.icon} size="xl" className="text-white" />
+                          <SundaeIcon name={dim.icon} size="xl" className="text-[var(--text-primary)]" />
                         </div>
                         <div className={`text-4xl font-bold ${dim.textColor} mb-2`}>{dim.id}</div>
-                        <h3 className="text-2xl font-bold text-slate-900 mb-3">{dim.title}</h3>
-                        <p className="text-lg font-semibold text-slate-600 mb-4">{dim.subtitle}</p>
-                        <p className="text-slate-600 leading-relaxed">
+                        <h3 className="text-2xl font-bold text-[var(--text-primary)] mb-3">{dim.title}</h3>
+                        <p className="text-lg font-semibold text-[var(--text-supporting)] mb-4">{dim.subtitle}</p>
+                        <p className="text-[var(--text-supporting)] leading-relaxed">
                           {dim.description}
                         </p>
                       </div>
                       
                       <div className="md:col-span-3">
                         <div className={`${dim.bgColor} rounded-xl p-6`}>
-                          <h4 className="font-bold text-slate-900 mb-4">Examples:</h4>
+                          <h4 className="font-bold text-[var(--text-primary)] mb-4">Examples:</h4>
                           <ul className="space-y-3">
                             {dim.examples.map((example, idx) => (
                               <li key={idx} className="flex items-start space-x-3">
                                 <span className={`${dim.textColor} text-xl mt-0.5`}>•</span>
-                                <span className="text-slate-700 leading-relaxed">{example}</span>
+                                <span className="text-[var(--text-secondary)] leading-relaxed">{example}</span>
                               </li>
                             ))}
                           </ul>
@@ -272,13 +272,13 @@ export default function FourDIntelligencePage() {
       </section>
 
       {/* 4D in Action: Example Alerts */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               What 4D Intelligence Looks Like
             </h2>
-            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
+            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               Proactive alerts. Clear recommendations. Actions you can take today.
             </p>
           </div>
@@ -303,12 +303,12 @@ export default function FourDIntelligencePage() {
                         <SundaeIcon name={alert.icon} size="lg" className={
                           alert.severity === 'warning' ? 'text-yellow-600' :
                           alert.severity === 'success' ? 'text-green-600' :
-                          'text-blue-600'
+                          'text-[#60A5FA]'
                         } />
                       </div>
                       <div className="flex-grow">
                         <div className="flex items-center justify-between mb-2">
-                          <h3 className="text-xl font-bold text-slate-900">{alert.type}</h3>
+                          <h3 className="text-xl font-bold text-[var(--text-primary)]">{alert.type}</h3>
                           <span className={`px-3 py-1 rounded-full text-sm font-medium ${
                             alert.severity === 'warning' ? 'bg-yellow-100 text-yellow-800' :
                             alert.severity === 'success' ? 'bg-green-100 text-green-800' :
@@ -317,7 +317,7 @@ export default function FourDIntelligencePage() {
                             {alert.location}
                           </span>
                         </div>
-                        <p className="text-slate-600 mb-4 leading-relaxed">{alert.message}</p>
+                        <p className="text-[var(--text-supporting)] mb-4 leading-relaxed">{alert.message}</p>
                         <Button variant="outline" size="sm">
                           {alert.action} →
                         </Button>
@@ -335,10 +335,10 @@ export default function FourDIntelligencePage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-blue-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               The Impact on Your Business
             </h2>
-            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
+            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               Outcomes that actually move the needle
             </p>
           </div>
@@ -356,11 +356,11 @@ export default function FourDIntelligencePage() {
                   <CardHeader>
                     <div className="flex items-start space-x-4">
                       <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg flex items-center justify-center text-white flex-shrink-0 shadow-lg">
-                        <SundaeIcon name={outcome.icon} size="lg" className="text-white" />
+                        <SundaeIcon name={outcome.icon} size="lg" className="text-[var(--text-primary)]" />
                       </div>
                       <div>
-                        <CardTitle className="text-xl text-slate-900 mb-3">{outcome.title}</CardTitle>
-                        <CardDescription className="text-slate-600 leading-relaxed">
+                        <CardTitle className="text-xl text-[var(--text-primary)] mb-3">{outcome.title}</CardTitle>
+                        <CardDescription className="text-[var(--text-supporting)] leading-relaxed">
                           {outcome.description}
                         </CardDescription>
                       </div>
@@ -374,13 +374,13 @@ export default function FourDIntelligencePage() {
       </section>
 
       {/* How Sundae Delivers 4D Intelligence */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               How It Works
             </h2>
-            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
+            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               AI-powered analysis at every layer of your operations
             </p>
           </div>
@@ -413,10 +413,10 @@ export default function FourDIntelligencePage() {
                 <Card variant="elevated" className="h-full text-center hover:shadow-xl transition-all duration-300">
                   <CardContent className="p-8">
                     <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center">
-                      <SundaeIcon name={item.icon} size="xl" className="text-white" />
+                      <SundaeIcon name={item.icon} size="xl" className="text-[var(--text-primary)]" />
                     </div>
-                    <h3 className="text-xl font-bold text-slate-900 mb-3">{item.title}</h3>
-                    <p className="text-slate-600 leading-relaxed">{item.description}</p>
+                    <h3 className="text-xl font-bold text-[var(--text-primary)] mb-3">{item.title}</h3>
+                    <p className="text-[var(--text-supporting)] leading-relaxed">{item.description}</p>
                   </CardContent>
                 </Card>
               </motion.div>
@@ -426,7 +426,7 @@ export default function FourDIntelligencePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] text-[var(--text-primary)]">
         <div className="max-w-4xl mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -442,7 +442,7 @@ export default function FourDIntelligencePage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/demo">
-                <Button variant="secondary" size="lg" className="bg-white text-blue-600 hover:bg-slate-100">
+                <Button variant="secondary" size="lg" className="bg-[var(--navy-deep)] text-[#60A5FA] hover:bg-[var(--surface-subtle)]">
                   Book a Demo
                 </Button>
               </Link>

@@ -37,26 +37,26 @@ export const Button: React.FC<ButtonProps> = (props) => {
     fullWidth = false,
   } = props;
 
-  const baseStyles = 'inline-flex items-center justify-center font-semibold rounded-xl transition-all duration-200 ease-out focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-slate-400';
+  const baseStyles = 'inline-flex items-center justify-center font-semibold rounded-xl transition-all duration-200 ease-out focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500 focus-visible:ring-offset-[var(--navy-deep)]';
 
   const variants = {
-    // Primary - solid dark
-    primary: 'bg-slate-900 text-white shadow-lg shadow-slate-900/20 hover:bg-slate-800 hover:shadow-xl hover:-translate-y-0.5 active:translate-y-0 active:shadow-lg',
+    // Primary — gradient with blue glow
+    primary: 'bg-gradient-to-r from-[#0A1E8C] via-[#1C47FF] to-[#3B82F6] text-white shadow-[0_0_30px_rgba(28,71,255,0.3)] hover:shadow-[0_0_50px_rgba(28,71,255,0.4)] hover:-translate-y-0.5 active:translate-y-0',
 
-    // Secondary - lighter
-    secondary: 'bg-slate-100 text-slate-900 shadow-sm hover:bg-slate-200 hover:shadow-md hover:-translate-y-0.5 active:translate-y-0',
+    // Secondary — subtle glass
+    secondary: 'bg-[var(--surface-hover)] text-[var(--text-secondary)] border border-white/[0.1] hover:bg-white/[0.1] hover:text-[var(--text-primary)] hover:border-white/[0.2] hover:-translate-y-0.5 active:translate-y-0',
 
-    // Outline - clean border
-    outline: 'border-2 border-slate-300 text-slate-700 bg-white hover:border-slate-400 hover:text-slate-900 hover:bg-slate-50',
+    // Outline — clean border on dark
+    outline: 'border border-[var(--border-emphasis)] text-[var(--text-secondary)] bg-transparent hover:border-white/[0.3] hover:text-[var(--text-primary)] hover:bg-[var(--surface-subtle)]',
 
-    // Outline Light - for use on dark backgrounds
-    'outline-light': 'border-2 border-white/30 text-white bg-transparent hover:bg-white/10 hover:border-white/50 active:bg-white/5',
+    // Outline Light — brighter for dark sections
+    'outline-light': 'border border-white/[0.25] text-[var(--text-primary)] bg-transparent hover:bg-[var(--surface-emphasis)] hover:border-white/[0.4] active:bg-[var(--surface-subtle)]',
 
-    // Ghost - subtle
-    ghost: 'text-slate-600 hover:bg-slate-100 hover:text-slate-900',
+    // Ghost — subtle
+    ghost: 'text-[var(--text-supporting)] hover:bg-[var(--surface-hover)] hover:text-[var(--text-primary)]',
 
-    // CTA - maximum visibility
-    cta: 'bg-slate-900 text-white font-bold shadow-xl shadow-slate-900/30 hover:shadow-2xl hover:bg-slate-800 hover:-translate-y-1 active:translate-y-0 active:shadow-xl',
+    // CTA — maximum visibility gradient with glow
+    cta: 'bg-gradient-to-r from-[#0A1E8C] via-[#1C47FF] to-[#3B82F6] text-white font-bold shadow-[0_0_40px_rgba(28,71,255,0.35)] hover:shadow-[0_0_60px_rgba(28,71,255,0.5)] hover:-translate-y-1 active:translate-y-0',
   };
 
   const sizes = {
@@ -67,7 +67,7 @@ export const Button: React.FC<ButtonProps> = (props) => {
   };
 
   const disabledStyles = disabled
-    ? 'opacity-50 cursor-not-allowed pointer-events-none'
+    ? 'opacity-40 cursor-not-allowed pointer-events-none'
     : '';
 
   const widthStyles = fullWidth ? 'w-full' : '';

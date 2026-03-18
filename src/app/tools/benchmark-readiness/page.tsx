@@ -123,7 +123,7 @@ export default function BenchmarkReadinessPage() {
  return (
  <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50 py-32 px-4 sm:px-6 lg:px-8">
  <div className="max-w-4xl mx-auto">
- <Link href="/tools" className="inline-flex items-center text-blue-600 hover:text-blue-700 mb-6">
+ <Link href="/tools" className="inline-flex items-center text-[#60A5FA] hover:text-[#60A5FA] mb-6">
  ← Back to Tools
  </Link>
 
@@ -132,10 +132,10 @@ export default function BenchmarkReadinessPage() {
  <SundaeIcon name="chart" size="md" />
  <span>Benchmark Readiness</span>
  </div>
- <h1 className="hero-h1 text-slate-900 mb-4">
+ <h1 className="hero-h1 text-[var(--text-primary)] mb-4">
  Benchmark Readiness Assessment
  </h1>
- <p className="body-xl text-slate-600">
+ <p className="body-xl text-[var(--text-supporting)]">
  Evaluate your organization's readiness for data-driven benchmarking
  </p>
  </div>
@@ -149,21 +149,21 @@ export default function BenchmarkReadinessPage() {
  <div className="space-y-8">
  {questions.map((q, index) => (
  <div key={q.id}>
- <label className="block text-sm font-medium text-slate-900 mb-3">
+ <label className="block text-sm font-medium text-[var(--text-primary)] mb-3">
  {index + 1}. {q.question}
  </label>
  <div className="space-y-2">
  {q.options.map((option) => (
- <label key={option.value} className="flex items-center space-x-3 p-3 border border-slate-200 rounded-lg hover:bg-slate-50 cursor-pointer">
+ <label key={option.value} className="flex items-center space-x-3 p-3 border border-[var(--border-default)] rounded-lg hover:bg-[var(--surface-faint)] cursor-pointer">
  <input
  type="radio"
  name={q.id}
  value={option.value}
  checked={responses[q.id as keyof typeof responses] === option.value}
  onChange={(e) => setResponses({ ...responses, [q.id]: e.target.value })}
- className="w-4 h-4 text-blue-600"
+ className="w-4 h-4 text-[#60A5FA]"
  />
- <span className="text-slate-700">{option.label}</span>
+ <span className="text-[var(--text-secondary)]">{option.label}</span>
  </label>
  ))}
  </div>
@@ -183,30 +183,30 @@ export default function BenchmarkReadinessPage() {
  <CardTitle>Your Readiness Score</CardTitle>
  </CardHeader>
  <CardContent className="space-y-6">
- <div className="bg-blue-50 rounded-lg p-6 text-center">
- <div className="text-sm text-slate-600 mb-2">Overall Readiness</div>
- <div className="text-5xl font-bold text-blue-600 mb-2">
+ <div className="bg-[rgba(28,71,255,0.1)] rounded-lg p-6 text-center">
+ <div className="text-sm text-[var(--text-supporting)] mb-2">Overall Readiness</div>
+ <div className="text-5xl font-bold text-[#60A5FA] mb-2">
  {result.score}%
  </div>
- <div className="text-xl font-semibold text-slate-900">
+ <div className="text-xl font-semibold text-[var(--text-primary)]">
  {result.level}
  </div>
  </div>
 
- <div className="bg-slate-50 rounded-lg p-6">
- <div className="text-sm font-semibold text-slate-700 mb-3">Recommendations</div>
+ <div className="bg-[var(--surface-faint)] rounded-lg p-6">
+ <div className="text-sm font-semibold text-[var(--text-secondary)] mb-3">Recommendations</div>
  <ul className="space-y-2">
  {result.recommendations.map((rec, idx) => (
  <li key={idx} className="flex items-start space-x-2">
- <span className="text-blue-600 mt-1">•</span>
- <span className="text-slate-600">{rec}</span>
+ <span className="text-[#60A5FA] mt-1">•</span>
+ <span className="text-[var(--text-supporting)]">{rec}</span>
  </li>
  ))}
  </ul>
  </div>
 
  <div className="bg-green-50 rounded-lg p-4">
- <p className="text-sm text-slate-700">
+ <p className="text-sm text-[var(--text-secondary)]">
  <strong>Next Step:</strong> {result.score >= 60 ? 
  'You\'re ready to start benchmarking! Consider scheduling a demo to see how Sundae can help.' :
  'Focus on the recommendations above, then retake this assessment in 3-6 months.'}
@@ -217,7 +217,7 @@ export default function BenchmarkReadinessPage() {
  )}
 
  <div className="mt-12 text-center">
- <p className="text-slate-600 mb-6">
+ <p className="text-[var(--text-supporting)] mb-6">
  Ready to start benchmarking with Sundae?
  </p>
  <Link href="/demo">

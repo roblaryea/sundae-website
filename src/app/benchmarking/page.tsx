@@ -45,12 +45,12 @@ export default function BenchmarkingPage() {
  const cta = useCta();
 
  return (
- <div className="min-h-screen bg-white">
+ <div className="min-h-screen bg-[var(--navy-deep)]">
  {/* Hero */}
  <PageHero
  badge="Competitive Intelligence"
  title="Stop Guessing. Start Knowing."
- description="Is your 31% food cost good or bad? Compare against anonymized peer data &mdash; RevPASH Index, seat occupancy, average check, and revenue indexes &mdash; with AI-generated insights that tell you exactly where you stand."
+ description="Compare against anonymized peer data &mdash; RevPASH Index, seat occupancy, average check, and revenue indexes &mdash; with AI insights that tell you exactly where you stand."
  >
  <div className="flex flex-col sm:flex-row gap-3 justify-center">
  <Button variant="cta" size="lg" href={REPORT_APP_URL} onClick={() => cta(REPORT_APP_URL, "try_benchmarks_hero", { page: "/benchmarking" })}>
@@ -63,29 +63,29 @@ export default function BenchmarkingPage() {
  </PageHero>
 
  {/* How Benchmarking Works */}
- <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+ <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
  <div className="max-w-5xl mx-auto">
  <FadeUp className="text-center mb-12">
- <h2 className="section-h2 text-slate-900 mb-4">
+ <h2 className="section-h2 text-[var(--text-primary)] mb-4">
  How Sundae Benchmarks Work
  </h2>
- <p className="body-lg text-slate-600 max-w-3xl mx-auto">
- Upload your data, get instant comparisons against restaurants like yours.
+ <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">
+ Upload your data. Get instant comparisons against restaurants like yours.
  </p>
  </FadeUp>
 
  <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
  {[
- { step: "1", title: "Upload Your Data", description: "CSV, PDF, Excel, or connect your POS directly. We normalize everything automatically." },
- { step: "2", title: "Match Your Compset", description: "We match you against anonymized peers by cuisine, size, market, and service model." },
- { step: "3", title: "Get Actionable Insights", description: "See where you outperform, where you lag, and what to do about it — with AI analysis." }
+ { step: "1", title: "Upload Your Data", description: "CSV, PDF, Excel, or connect your POS directly. Normalized automatically." },
+ { step: "2", title: "Match Your Compset", description: "Matched against anonymized peers by cuisine, size, market, and service model." },
+ { step: "3", title: "Get Insights", description: "See where you outperform, where you lag, and what to do about it." }
  ].map((item) => (
  <div key={item.step} className="text-center p-6">
  <div className="w-14 h-14 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
  {item.step}
  </div>
- <h3 className="text-lg font-semibold text-slate-900 mb-2">{item.title}</h3>
- <p className="text-sm text-slate-600">{item.description}</p>
+ <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">{item.title}</h3>
+ <p className="text-sm text-[var(--text-supporting)]">{item.description}</p>
  </div>
  ))}
  </div>
@@ -93,13 +93,13 @@ export default function BenchmarkingPage() {
  </section>
 
  {/* Benchmark Metrics */}
- <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+ <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
  <div className="max-w-7xl mx-auto">
  <FadeUp className="text-center mb-16">
- <h2 className="section-h2 text-slate-900 mb-4">
+ <h2 className="section-h2 text-[var(--text-primary)] mb-4">
  What You Can Benchmark
  </h2>
- <p className="body-lg text-slate-600">
+ <p className="body-lg text-[var(--text-supporting)]">
  30+ metrics across performance, efficiency, and market position.
  </p>
  </FadeUp>
@@ -110,10 +110,10 @@ export default function BenchmarkingPage() {
  <Card variant="elevated" className="h-full hover:shadow-lg transition-all duration-300">
  <CardContent className="p-6">
  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center mb-4">
- <SundaeIcon name={metric.icon} size="lg" className="text-white" />
+ <SundaeIcon name={metric.icon} size="lg" className="text-[var(--text-primary)]" />
  </div>
- <h3 className="font-bold text-slate-900 mb-2">{metric.name}</h3>
- <p className="text-sm text-slate-600 leading-relaxed">{metric.description}</p>
+ <h3 className="font-bold text-[var(--text-primary)] mb-2">{metric.name}</h3>
+ <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{metric.description}</p>
  </CardContent>
  </Card>
  </StaggerItem>
@@ -123,19 +123,19 @@ export default function BenchmarkingPage() {
  </section>
 
  {/* Forecast Screenshot */}
- <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+ <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
  <div className="max-w-5xl mx-auto">
  <div className="grid md:grid-cols-2 gap-12 items-center">
  <FadeUp>
- <h2 className="section-h2 text-slate-900 mb-4">
+ <h2 className="section-h2 text-[var(--text-primary)] mb-4">
  Revenue Forecasting
  </h2>
- <p className="body-lg text-slate-600 mb-6">
- Go beyond historical comparisons. Sundae Benchmarks includes AI-powered revenue forecasting that uses your trends and market data to project future performance.
+ <p className="body-lg text-[var(--text-supporting)] mb-6">
+ AI-powered revenue forecasting using your trends and market data to project future performance.
  </p>
  <ul className="space-y-3">
  {["14-30 day revenue projections", "Seasonal pattern recognition", "Market-adjusted forecasts", "Confidence intervals"].map((feature) => (
- <li key={feature} className="flex items-center gap-2 text-sm text-slate-700">
+ <li key={feature} className="flex items-center gap-2 text-sm text-[var(--text-secondary)]">
  <span className="text-green-500">&#10003;</span>
  {feature}
  </li>
@@ -145,6 +145,9 @@ export default function BenchmarkingPage() {
  <BrowserFrame
  src="/images/product/benchmark-forecast.png"
  alt="Revenue forecasting with trend analysis and confidence intervals"
+ label="Benchmarks — Revenue Forecast"
+ url="app.sundae.io/benchmarks/forecast"
+ glow
  width={700}
  height={420}
  animate="slide-right"
@@ -154,32 +157,32 @@ export default function BenchmarkingPage() {
  </section>
 
  {/* Tiers */}
- <section className="py-16 px-4 sm:px-6 lg:px-8 bg-slate-50">
+ <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
  <div className="max-w-5xl mx-auto text-center">
  <FadeUp>
- <h2 className="section-h2 text-slate-900 mb-4">
+ <h2 className="section-h2 text-[var(--text-primary)] mb-4">
  Available Across All Tiers
  </h2>
- <p className="body-lg text-slate-600 mb-12">
+ <p className="body-lg text-[var(--text-supporting)] mb-12">
  Start benchmarking for free with Report Lite. Unlock deeper intelligence as you grow.
  </p>
  </FadeUp>
 
  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
- <div className="bg-white rounded-xl p-6 border border-slate-200 shadow-sm">
+ <div className="bg-[var(--navy-deep)] rounded-xl p-6 border border-[var(--border-default)] shadow-none">
  <div className="text-sm font-semibold text-green-600 mb-2">FREE</div>
- <h3 className="text-lg font-bold text-slate-900 mb-2">Report Lite</h3>
- <p className="text-sm text-slate-600">5 core metrics. CSV upload. 90-day retention.</p>
+ <h3 className="text-lg font-bold text-[var(--text-primary)] mb-2">Report Lite</h3>
+ <p className="text-sm text-[var(--text-supporting)]">5 core metrics. CSV upload. 90-day retention.</p>
  </div>
- <div className="bg-white rounded-xl p-6 border-2 border-blue-500 shadow-md">
- <div className="text-sm font-semibold text-blue-600 mb-2">POPULAR</div>
- <h3 className="text-lg font-bold text-slate-900 mb-2">Report Plus</h3>
- <p className="text-sm text-slate-600">15 metrics. AI-parsed uploads. 1-year retention.</p>
+ <div className="bg-[var(--navy-deep)] rounded-xl p-6 border-2 border-blue-500 shadow-md">
+ <div className="text-sm font-semibold text-[#60A5FA] mb-2">POPULAR</div>
+ <h3 className="text-lg font-bold text-[var(--text-primary)] mb-2">Report Plus</h3>
+ <p className="text-sm text-[var(--text-supporting)]">15 metrics. AI-parsed uploads. 1-year retention.</p>
  </div>
- <div className="bg-white rounded-xl p-6 border border-slate-200 shadow-sm">
+ <div className="bg-[var(--navy-deep)] rounded-xl p-6 border border-[var(--border-default)] shadow-none">
  <div className="text-sm font-semibold text-purple-600 mb-2">FULL POWER</div>
- <h3 className="text-lg font-bold text-slate-900 mb-2">Report Pro / Core</h3>
- <p className="text-sm text-slate-600">30+ metrics. API integration. Multi-year retention.</p>
+ <h3 className="text-lg font-bold text-[var(--text-primary)] mb-2">Report Pro / Core</h3>
+ <p className="text-sm text-[var(--text-supporting)]">30+ metrics. API integration. Multi-year retention.</p>
  </div>
  </div>
  </div>
@@ -193,7 +196,7 @@ export default function BenchmarkingPage() {
  <Button
  variant="cta"
  size="lg"
- className="bg-white text-slate-900 hover:bg-slate-100"
+ className="bg-[var(--navy-deep)] text-[var(--text-primary)] hover:bg-[var(--surface-subtle)]"
  onClick={() => cta(REPORT_APP_URL, "start_free_benchmarks_cta", { page: "/benchmarking" })}
  >
  Start Free Benchmark

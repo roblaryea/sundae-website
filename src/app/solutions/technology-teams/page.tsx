@@ -99,7 +99,7 @@ export default function TechnologyTeamsPage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="hero-h1 text-slate-900 mb-6"
+              className="hero-h1 text-[var(--text-primary)] mb-6"
             >
               Connect Once.
               <br />
@@ -110,7 +110,7 @@ export default function TechnologyTeamsPage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="body-xl text-slate-600 mb-8 max-w-3xl mx-auto leading-relaxed"
+              className="body-xl text-[var(--text-supporting)] mb-8 max-w-3xl mx-auto leading-relaxed"
             >
               Pre-built connectors. Automated data quality. Self-service analytics. Stop plumbing data and start building value.
             </motion.p>
@@ -136,11 +136,11 @@ export default function TechnologyTeamsPage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-slate-900 mb-4">The Problems You Know</h2>
-            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">The Problems You Know</h2>
+            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               Custom ETL. Data quality issues. Endless report requests.
             </p>
           </div>
@@ -150,11 +150,11 @@ export default function TechnologyTeamsPage() {
                 <CardHeader>
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center text-white flex-shrink-0">
-                      <SundaeIcon name={challenge.icon} size="lg" className="text-white" />
+                      <SundaeIcon name={challenge.icon} size="lg" className="text-[var(--text-primary)]" />
                     </div>
                     <div>
-                      <CardTitle className="text-slate-900 mb-2">{challenge.title}</CardTitle>
-                      <CardDescription className="text-slate-600">{challenge.description}</CardDescription>
+                      <CardTitle className="text-[var(--text-primary)] mb-2">{challenge.title}</CardTitle>
+                      <CardDescription className="text-[var(--text-supporting)]">{challenge.description}</CardDescription>
                     </div>
                   </div>
                 </CardHeader>
@@ -164,11 +164,11 @@ export default function TechnologyTeamsPage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-slate-900 mb-4">How Sundae Changes That</h2>
-            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">How Sundae Changes That</h2>
+            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               Scalable infrastructure that works out of the box
             </p>
           </div>
@@ -178,12 +178,12 @@ export default function TechnologyTeamsPage() {
                 <CardHeader>
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center text-white flex-shrink-0">
-                      <SundaeIcon name={item.icon} size="lg" className="text-white" />
+                      <SundaeIcon name={item.icon} size="lg" className="text-[var(--text-primary)]" />
                     </div>
                     <div>
-                      <div className="text-xs text-blue-600 font-semibold mb-1">{item.product}</div>
-                      <CardTitle className="text-slate-900 mb-2">{item.title}</CardTitle>
-                      <CardDescription className="text-slate-600">{item.description}</CardDescription>
+                      <div className="text-xs text-[#60A5FA] font-semibold mb-1">{item.product}</div>
+                      <CardTitle className="text-[var(--text-primary)] mb-2">{item.title}</CardTitle>
+                      <CardDescription className="text-[var(--text-supporting)]">{item.description}</CardDescription>
                     </div>
                   </div>
                 </CardHeader>
@@ -193,11 +193,11 @@ export default function TechnologyTeamsPage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-slate-900 mb-4">What Changes</h2>
-            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">What Changes</h2>
+            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               Less plumbing. More innovation.
             </p>
           </div>
@@ -207,11 +207,11 @@ export default function TechnologyTeamsPage() {
                 <CardHeader>
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center text-white flex-shrink-0">
-                      <SundaeIcon name={outcome.icon} size="lg" className="text-white" />
+                      <SundaeIcon name={outcome.icon} size="lg" className="text-[var(--text-primary)]" />
                     </div>
                     <div>
-                      <CardTitle className="text-slate-900 mb-2">{outcome.title}</CardTitle>
-                      <CardDescription className="text-slate-600">{outcome.description}</CardDescription>
+                      <CardTitle className="text-[var(--text-primary)] mb-2">{outcome.title}</CardTitle>
+                      <CardDescription className="text-[var(--text-supporting)]">{outcome.description}</CardDescription>
                     </div>
                   </div>
                 </CardHeader>
@@ -221,14 +221,14 @@ export default function TechnologyTeamsPage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] text-[var(--text-primary)]">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 mb-6">Ready to Simplify Your Stack?</h2>
           <p className="body-xl mb-8 opacity-90">
             See how technology teams eliminate integration complexity.
           </p>
           <Link href="/demo">
-            <Button variant="primary" size="lg" className="bg-white text-blue-600 hover:bg-slate-100">
+            <Button variant="primary" size="lg" className="bg-[var(--navy-deep)] text-[#60A5FA] hover:bg-[var(--surface-subtle)]">
               Book a Technical Deep Dive
             </Button>
           </Link>

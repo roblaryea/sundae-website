@@ -39,11 +39,11 @@ export default function MenuMarginCalculator() {
     if (marginPercent < 55) {
       interpretation = 'Low margin – consider re-pricing or re-engineering this item to improve profitability.';
       color = 'text-red-600';
-      bgColor = 'bg-red-50';
+      bgColor = 'bg-[rgba(220,38,38,0.1)]';
     } else if (marginPercent <= 70) {
       interpretation = 'Healthy margin range – this item is profitable and competitively priced.';
-      color = 'text-blue-600';
-      bgColor = 'bg-blue-50';
+      color = 'text-[#60A5FA]';
+      bgColor = 'bg-[rgba(28,71,255,0.1)]';
     } else {
       interpretation = 'Strong margin – excellent profitability. Guard against competition and maintain quality.';
       color = 'text-green-600';
@@ -69,13 +69,13 @@ export default function MenuMarginCalculator() {
 
           {/* Header */}
           <div className="text-center mb-12">
-            <div className="w-20 h-20 bg-slate-900 rounded-2xl flex items-center justify-center text-white mx-auto mb-6 shadow-lg">
-              <SundaeIcon name="chart" size="xl" className="text-white" />
+            <div className="w-20 h-20 bg-slate-900 rounded-2xl flex items-center justify-center text-[var(--text-primary)] mx-auto mb-6 shadow-lg">
+              <SundaeIcon name="chart" size="xl" className="text-[var(--text-primary)]" />
             </div>
-            <h1 className="hero-h1 text-slate-900 mb-4">
+            <h1 className="hero-h1 text-[var(--text-primary)] mb-4">
               Menu Item Margin Calculator
             </h1>
-            <p className="body-lg text-slate-600">
+            <p className="body-lg text-[var(--text-supporting)]">
               Analyze menu item profitability with margin calculations and pricing recommendations
             </p>
           </div>
@@ -83,16 +83,16 @@ export default function MenuMarginCalculator() {
           {/* Calculator Card */}
           <Card variant="elevated" className="mb-8">
             <CardHeader>
-              <CardTitle className="text-2xl text-slate-900">
+              <CardTitle className="text-2xl text-[var(--text-primary)]">
                 Enter Item Details
               </CardTitle>
-              <CardDescription className="text-slate-600">
+              <CardDescription className="text-[var(--text-supporting)]">
                 Input the selling price and ingredient cost for your menu item
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">
               <div>
-                <label className="block text-sm font-medium text-slate-700 mb-2">
+                <label className="block text-sm font-medium text-[var(--text-secondary)] mb-2">
                   Selling Price
                 </label>
                 <input
@@ -100,17 +100,17 @@ export default function MenuMarginCalculator() {
                   value={sellingPrice}
                   onChange={(e) => setSellingPrice(e.target.value)}
                   placeholder="e.g., 18.50"
-                  className="w-full px-4 py-3 rounded-lg border border-slate-300 bg-white text-slate-900 focus:ring-2 focus:ring-slate-400 focus:border-transparent"
+                  className="w-full px-4 py-3 rounded-lg border border-white/[0.1] bg-[var(--navy-deep)] text-[var(--text-primary)] focus:ring-2 focus:ring-slate-400 focus:border-transparent"
                   min="0"
                   step="0.01"
                 />
-                <p className="text-xs text-slate-500 mt-1">
+                <p className="text-xs text-[var(--text-muted)] mt-1">
                   Menu price charged to customers
                 </p>
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-slate-700 mb-2">
+                <label className="block text-sm font-medium text-[var(--text-secondary)] mb-2">
                   Ingredient Cost
                 </label>
                 <input
@@ -118,11 +118,11 @@ export default function MenuMarginCalculator() {
                   value={ingredientCost}
                   onChange={(e) => setIngredientCost(e.target.value)}
                   placeholder="e.g., 6.20"
-                  className="w-full px-4 py-3 rounded-lg border border-slate-300 bg-white text-slate-900 focus:ring-2 focus:ring-slate-400 focus:border-transparent"
+                  className="w-full px-4 py-3 rounded-lg border border-white/[0.1] bg-[var(--navy-deep)] text-[var(--text-primary)] focus:ring-2 focus:ring-slate-400 focus:border-transparent"
                   min="0"
                   step="0.01"
                 />
-                <p className="text-xs text-slate-500 mt-1">
+                <p className="text-xs text-[var(--text-muted)] mt-1">
                   Total cost of ingredients per item
                 </p>
               </div>
@@ -144,35 +144,35 @@ export default function MenuMarginCalculator() {
             <Card variant="elevated" className={result.bgColor}>
               <CardContent className="p-8">
                 <div className="grid md:grid-cols-2 gap-6 mb-6">
-                  <div className="text-center p-6 bg-white rounded-xl shadow-md">
-                    <h3 className="text-sm font-semibold text-slate-600 mb-2">
+                  <div className="text-center p-6 bg-[var(--navy-deep)] rounded-xl shadow-md">
+                    <h3 className="text-sm font-semibold text-[var(--text-supporting)] mb-2">
                       Gross Profit Per Item
                     </h3>
-                    <div className="text-4xl font-bold text-slate-900">
+                    <div className="text-4xl font-bold text-[var(--text-primary)]">
                       ${result.grossProfit.toFixed(2)}
                     </div>
                   </div>
                   
-                  <div className="text-center p-6 bg-white rounded-xl shadow-md">
-                    <h3 className="text-sm font-semibold text-slate-600 mb-2">
+                  <div className="text-center p-6 bg-[var(--navy-deep)] rounded-xl shadow-md">
+                    <h3 className="text-sm font-semibold text-[var(--text-supporting)] mb-2">
                       Margin %
                     </h3>
-                    <div className="text-4xl font-bold text-slate-900">
+                    <div className="text-4xl font-bold text-[var(--text-primary)]">
                       {result.marginPercent.toFixed(1)}%
                     </div>
                   </div>
                 </div>
                 
-                <div className={`p-6 rounded-xl bg-white shadow-md ${result.color}`}>
+                <div className={`p-6 rounded-xl bg-[var(--navy-deep)] shadow-md ${result.color}`}>
                   <h4 className="font-bold text-lg mb-2">Analysis</h4>
                   <p className="leading-relaxed">{result.interpretation}</p>
                 </div>
 
-                <div className="mt-6 p-4 bg-white rounded-lg">
-                  <h5 className="font-semibold text-slate-900 mb-2 text-sm">
+                <div className="mt-6 p-4 bg-[var(--navy-deep)] rounded-lg">
+                  <h5 className="font-semibold text-[var(--text-primary)] mb-2 text-sm">
                     Margin Benchmarks:
                   </h5>
-                  <ul className="text-sm text-slate-700 space-y-1">
+                  <ul className="text-sm text-[var(--text-secondary)] space-y-1">
                     <li>• &lt; 55%: Below target (review pricing or reduce costs)</li>
                     <li>• 55-70%: Healthy range for most menu items</li>
                     <li>• &gt; 70%: Strong margin (premium positioning)</li>

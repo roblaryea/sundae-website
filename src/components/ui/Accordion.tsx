@@ -12,7 +12,7 @@ function renderFormattedText(text: string): React.ReactNode {
     if (part.startsWith('**') && part.endsWith('**')) {
       // Bold text
       return (
-        <strong key={index} className="font-semibold text-slate-900">
+        <strong key={index} className="font-semibold text-[var(--text-primary)]">
           {part.slice(2, -2)}
         </strong>
       );
@@ -32,7 +32,7 @@ function renderLine(line: string, lineIdx: number): React.ReactNode {
       : trimmedLine.slice(1).trim();
     return (
       <li key={lineIdx} className="flex items-start space-x-2 ml-4 mt-1">
-        <span className="text-slate-900 mt-1.5 flex-shrink-0">•</span>
+        <span className="text-[var(--text-primary)] mt-1.5 flex-shrink-0">•</span>
         <span>{renderFormattedText(bulletContent)}</span>
       </li>
     );
@@ -43,7 +43,7 @@ function renderLine(line: string, lineIdx: number): React.ReactNode {
   if (numberedMatch) {
     return (
       <li key={lineIdx} className="flex items-start space-x-2 ml-4 mt-1">
-        <span className="text-slate-900 font-semibold flex-shrink-0 w-5">{numberedMatch[1]}.</span>
+        <span className="text-[var(--text-primary)] font-semibold flex-shrink-0 w-5">{numberedMatch[1]}.</span>
         <span>{renderFormattedText(numberedMatch[2])}</span>
       </li>
     );
@@ -139,19 +139,19 @@ interface AccordionItemProps {
 
 function AccordionItem({ title, content, isOpen, onClick }: AccordionItemProps) {
   return (
-    <div className="border-b border-slate-200">
+    <div className="border-b border-[var(--border-default)]">
       <button
         onClick={onClick}
-        className="w-full py-5 px-6 flex justify-between items-center text-left hover:bg-slate-50 transition-colors"
+        className="w-full py-5 px-6 flex justify-between items-center text-left hover:bg-[var(--surface-faint)] transition-colors"
         aria-expanded={isOpen}
       >
-        <span className="text-lg font-semibold text-slate-900 pr-8">
+        <span className="text-lg font-semibold text-[var(--text-primary)] pr-8">
           {title}
         </span>
         <motion.svg
           animate={{ rotate: isOpen ? 180 : 0 }}
           transition={{ duration: 0.3 }}
-          className="w-5 h-5 text-slate-900 flex-shrink-0"
+          className="w-5 h-5 text-[var(--text-primary)] flex-shrink-0"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -168,7 +168,7 @@ function AccordionItem({ title, content, isOpen, onClick }: AccordionItemProps) 
             transition={{ duration: 0.3, ease: 'easeInOut' }}
             className="overflow-hidden"
           >
-            <div className="px-6 pb-5 text-slate-600 leading-relaxed">
+            <div className="px-6 pb-5 text-[var(--text-supporting)] leading-relaxed">
               {renderContent(content)}
             </div>
           </motion.div>
@@ -203,7 +203,7 @@ export function Accordion({ items, defaultOpenIndex = -1, allowMultiple = false 
   };
 
   return (
-    <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-slate-200">
+    <div className="bg-[var(--surface-subtle)] rounded-xl shadow-lg overflow-hidden border border-[var(--border-default)]">
       {items.map((item, index) => (
         <AccordionItem
           key={index}

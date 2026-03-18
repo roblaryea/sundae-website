@@ -56,12 +56,12 @@ export default function ForgePage() {
  <SundaeIcon name="forge" size="md" />
  <span>Conversational Insights</span>
  </div>
- <h1 className="hero-h1 text-slate-900 mb-6">
+ <h1 className="hero-h1 text-[var(--text-primary)] mb-6">
  Your AI.
  <br />
  <span className="text-green-600">Your Way.</span>
  </h1>
- <p className="body-xl text-slate-600 mb-8 max-w-3xl mx-auto">
+ <p className="body-xl text-[var(--text-supporting)] mb-8 max-w-3xl mx-auto">
  Forge builds custom AI models trained on your data. Forecasts, recommendations, and automations built specifically for how your business operates.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -81,13 +81,13 @@ export default function ForgePage() {
  </section>
 
  {/* Key Features Section */}
- <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+ <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
  <div className="max-w-7xl mx-auto">
  <div className="text-center mb-16">
- <h2 className="section-h2 text-slate-900 mb-4">
+ <h2 className="section-h2 text-[var(--text-primary)] mb-4">
  AI That Knows Your Business
  </h2>
- <p className="body-xl text-slate-600">
+ <p className="body-xl text-[var(--text-supporting)]">
  Custom models trained on your patterns, your locations, your operations
  </p>
  </div>
@@ -98,11 +98,11 @@ export default function ForgePage() {
  <CardHeader>
  <div className="flex items-center space-x-4">
  <div className="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center text-white">
- <SundaeIcon name={feature.icon} size="lg" className="text-white" />
+ <SundaeIcon name={feature.icon} size="lg" className="text-[var(--text-primary)]" />
  </div>
- <CardTitle className="text-slate-900">{feature.title}</CardTitle>
+ <CardTitle className="text-[var(--text-primary)]">{feature.title}</CardTitle>
  </div>
- <CardDescription className="text-slate-600">
+ <CardDescription className="text-[var(--text-supporting)]">
  {feature.description}
  </CardDescription>
  </CardHeader>
@@ -113,13 +113,13 @@ export default function ForgePage() {
  </section>
 
  {/* Conversation Examples Section */}
- <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+ <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
  <div className="max-w-7xl mx-auto">
  <div className="text-center mb-16">
- <h2 className="section-h2 text-slate-900 mb-4">
+ <h2 className="section-h2 text-[var(--text-primary)] mb-4">
  What Forge Can Build
  </h2>
- <p className="body-xl text-slate-600">
+ <p className="body-xl text-[var(--text-supporting)]">
  Custom AI solutions for your specific challenges
  </p>
  </div>
@@ -130,11 +130,11 @@ export default function ForgePage() {
  <CardContent className="p-6">
  <div className="mb-4">
  <div className="flex items-start space-x-3">
- <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white text-sm font-bold">
+ <div className="w-8 h-8 bg-[#1C47FF] rounded-full flex items-center justify-center text-[var(--text-primary)] text-sm font-bold">
  ?
  </div>
- <div className="flex-1 bg-blue-50 rounded-lg p-4">
- <p className="text-slate-900 font-medium">{example.question}</p>
+ <div className="flex-1 bg-[rgba(28,71,255,0.1)] rounded-lg p-4">
+ <p className="text-[var(--text-primary)] font-medium">{example.question}</p>
  </div>
  </div>
  </div>
@@ -145,13 +145,13 @@ export default function ForgePage() {
  AI
  </div>
  <div className="flex-1 bg-green-50 rounded-lg p-4">
- <p className="text-slate-900">{example.response}</p>
+ <p className="text-[var(--text-primary)]">{example.response}</p>
  </div>
  </div>
  </div>
  
- <div className="bg-slate-50 rounded-lg p-3">
- <p className="text-xs text-slate-600">
+ <div className="bg-[var(--surface-faint)] rounded-lg p-3">
+ <p className="text-xs text-[var(--text-supporting)]">
  <span className="font-medium">Data sources:</span> {example.context}
  </p>
  </div>
@@ -163,13 +163,13 @@ export default function ForgePage() {
  </section>
 
  {/* Use Cases Section */}
- <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+ <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
  <div className="max-w-7xl mx-auto">
  <div className="text-center mb-16">
- <h2 className="section-h2 text-slate-900 mb-4">
+ <h2 className="section-h2 text-[var(--text-primary)] mb-4">
  Custom AI Use Cases
  </h2>
- <p className="body-xl text-slate-600">
+ <p className="body-xl text-[var(--text-supporting)]">
  From demand forecasting to automated recommendations
  </p>
  </div>
@@ -206,14 +206,14 @@ export default function ForgePage() {
  ].map((category, index) => (
  <Card key={index} variant="default">
  <CardHeader>
- <CardTitle className="text-slate-900">{category.category}</CardTitle>
+ <CardTitle className="text-[var(--text-primary)]">{category.category}</CardTitle>
  </CardHeader>
  <CardContent>
  <ul className="space-y-2">
  {category.questions.map((question, questionIndex) => (
  <li key={questionIndex} className="flex items-start space-x-2">
  <div className="w-2 h-2 bg-green-600 rounded-full mt-2"></div>
- <span className="text-slate-600 text-sm">{question}</span>
+ <span className="text-[var(--text-supporting)] text-sm">{question}</span>
  </li>
  ))}
  </ul>
@@ -229,10 +229,10 @@ export default function ForgePage() {
  <div className="max-w-7xl mx-auto">
  <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
  <div>
- <h2 className="section-h2 text-slate-900 mb-6">
+ <h2 className="section-h2 text-[var(--text-primary)] mb-6">
  Built for Your Needs
  </h2>
- <p className="body-xl text-slate-600 mb-8">
+ <p className="body-xl text-[var(--text-supporting)] mb-8">
  Tell us the problem. We build the AI solution. Custom models that fit how your business actually works.
  </p>
  
@@ -247,23 +247,23 @@ export default function ForgePage() {
  <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
  <SundaeIcon name={item.icon} size="sm" className="text-green-600" />
  </div>
- <span className="text-slate-900 font-medium">{item.benefit}</span>
+ <span className="text-[var(--text-primary)] font-medium">{item.benefit}</span>
  </div>
  ))}
  </div>
  </div>
  
- <div className="bg-white rounded-2xl p-8 shadow-lg">
+ <div className="bg-[var(--navy-deep)] rounded-2xl p-8 shadow-lg">
  <div className="text-center mb-6">
  <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-green-600 to-blue-600 rounded-lg flex items-center justify-center">
- <SundaeIcon name="forge" size="xl" className="text-white" />
+ <SundaeIcon name="forge" size="xl" className="text-[var(--text-primary)]" />
  </div>
- <h3 className="text-2xl font-bold text-slate-900">Forge Chat Interface</h3>
+ <h3 className="text-2xl font-bold text-[var(--text-primary)]">Forge Chat Interface</h3>
  </div>
  
  <div className="space-y-4">
- <div className="bg-slate-50 rounded-lg p-4">
- <p className="text-sm text-slate-600 mb-2">Try asking:</p>
+ <div className="bg-[var(--surface-faint)] rounded-lg p-4">
+ <p className="text-sm text-[var(--text-supporting)] mb-2">Try asking:</p>
  <div className="space-y-2">
  <div className="bg-blue-100 rounded p-2 text-sm">"Why did sales drop yesterday?"</div>
  <div className="bg-blue-100 rounded p-2 text-sm">"How can I reduce labor costs?"</div>
@@ -272,7 +272,7 @@ export default function ForgePage() {
  </div>
  
  <div className="bg-green-50 rounded-lg p-4">
- <p className="text-sm text-slate-600 mb-2">Forge responds with:</p>
+ <p className="text-sm text-[var(--text-supporting)] mb-2">Forge responds with:</p>
  <div className="space-y-1 text-sm">
  <div>• Data-driven insights</div>
  <div>• Specific recommendations</div>
@@ -296,7 +296,7 @@ export default function ForgePage() {
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <Link href="/demo">
- <Button variant="primary" size="lg" className="bg-white text-green-600 hover:bg-slate-100">
+ <Button variant="primary" size="lg" className="bg-[var(--navy-deep)] text-green-600 hover:bg-[var(--surface-subtle)]">
  Book Forge Demo
  </Button>
  </Link>

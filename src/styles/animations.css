@@ -1,5 +1,5 @@
 /* ==============================================
-   ANIMATIONS & EFFECTS
+   ANIMATIONS & EFFECTS — Dark Mode
    ============================================== */
 
 @keyframes pulse-subtle {
@@ -22,11 +22,6 @@
   to { opacity: 1; transform: translateY(0); }
 }
 
-@keyframes pulseGlow {
-  0%, 100% { box-shadow: 0 0 20px rgba(15, 23, 42, 0.3); }
-  50% { box-shadow: 0 0 40px rgba(15, 23, 42, 0.6); }
-}
-
 @keyframes shimmer {
   0% { background-position: -200% 0; }
   100% { background-position: 200% 0; }
@@ -45,39 +40,69 @@
 }
 
 .animate-dropdown-in { animation: dropdownIn 0.15s ease-out forwards; }
-
 .animate-fade-in-up { animation: fadeInUp 0.6s ease-out forwards; }
 .animate-float { animation: float 3s ease-in-out infinite; }
 .animate-slide-in-up { animation: slideInUp 0.8s ease-out forwards; }
-.animate-pulse-glow { animation: pulseGlow 2s ease-in-out infinite; }
 
-.shimmer {
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
-  background-size: 200% 100%;
-  animation: shimmer 2s infinite;
+/* --- Blue Glow Effects --- */
+
+@keyframes pulse-blue-glow {
+  0%, 100% { box-shadow: 0 0 40px rgba(28, 71, 255, 0.2); }
+  50% { box-shadow: 0 0 60px rgba(28, 71, 255, 0.4); }
 }
 
-/* Effects */
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 20px rgba(28, 71, 255, 0.2); }
+  50% { box-shadow: 0 0 40px rgba(28, 71, 255, 0.4); }
+}
+
+.animate-glow-pulse { animation: pulse-blue-glow 3s ease-in-out infinite; }
+.animate-pulse-glow { animation: pulseGlow 2s ease-in-out infinite; }
+
+/* --- Live Indicator --- */
+
+@keyframes live-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.animate-live-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--positive);
+  animation: live-blink 1.5s ease-in-out infinite;
+}
+
+/* --- Pace Bar Fill --- */
+
+@keyframes pace-fill {
+  from { width: 0; }
+  to { width: var(--pace-width, 0%); }
+}
+
+.animate-pace-fill {
+  animation: pace-fill 1s ease-out forwards;
+}
+
+/* --- Glass Effects --- */
+
 .glass {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .glass-dark {
-  background: rgba(17, 17, 17, 0.8);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
 }
 
-.gradient-mesh {
-  background: linear-gradient(135deg, #0f172a 0%, #334155 50%, #94a3b8 100%);
-  background-size: 400% 400%;
-  animation: gradientShift 8s ease infinite;
-}
+/* --- Text Effects --- */
 
 .text-gradient {
-  background: linear-gradient(135deg, #0f172a, #334155);
+  background: linear-gradient(135deg, #1C47FF, #3B82F6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -85,7 +110,7 @@
 
 .text-accent-gradient,
 .accent-gradient {
-  background: linear-gradient(135deg, #0A1E8C, #1C47FF);
+  background: linear-gradient(135deg, #1C47FF, #3B82F6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -95,7 +120,22 @@
   text-shadow: 0 0 10px currentColor, 0 0 20px currentColor, 0 0 30px currentColor;
 }
 
-/* Animated gradient blobs — slow organic float */
+/* --- Background Effects --- */
+
+.gradient-mesh {
+  background: linear-gradient(135deg, #0A1E8C 0%, #1C47FF 50%, #0D1520 100%);
+  background-size: 400% 400%;
+  animation: gradientShift 8s ease infinite;
+}
+
+.shimmer {
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.06), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+/* --- Floating Blobs --- */
+
 @keyframes blob-float-1 {
   0%, 100% { transform: translate(0, 0) scale(1); }
   33% { transform: translate(30px, -20px) scale(1.05); }
@@ -113,7 +153,6 @@
   50% { opacity: 0.3; }
 }
 
-/* Animated gradient sweep for CTA button variant */
 @keyframes gradient-x {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
@@ -137,12 +176,24 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, transparent 30%, rgba(255, 255, 255, 0.3) 50%, transparent 70%);
+  background: linear-gradient(90deg, transparent 30%, rgba(255, 255, 255, 0.1) 50%, transparent 70%);
   background-size: 200% 100%;
   animation: shimmer 3s ease-in-out infinite;
 }
 
-/* Reduced motion */
+/* --- Number Count-Up (used with JS) --- */
+
+@keyframes count-up-fade {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-count-up {
+  animation: count-up-fade 0.5s ease-out forwards;
+}
+
+/* --- Reduced Motion --- */
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -154,6 +205,8 @@
 
   .animate-float,
   .animate-pulse-glow,
+  .animate-glow-pulse,
+  .animate-live-dot,
   .gradient-mesh,
   .shimmer,
   .animate-blob-float-1,

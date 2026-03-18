@@ -35,7 +35,7 @@ export const FormField: React.FC<FormFieldProps> = ({
     <div>
       <label
         htmlFor={id}
-        className="block text-sm font-medium text-slate-700 mb-1.5"
+        className="block text-sm font-medium text-[var(--text-secondary)] mb-1.5"
       >
         {label}
       </label>
@@ -52,10 +52,10 @@ export const FormField: React.FC<FormFieldProps> = ({
           required={required}
           aria-invalid={!!error}
           aria-describedby={error ? `${id}-error` : undefined}
-          className={`w-full px-4 py-3 rounded-xl border-2 text-sm transition-all duration-200 outline-none bg-white text-slate-900 placeholder:text-slate-400 ${
+          className={`w-full px-4 py-3 rounded-xl border-2 text-sm transition-all duration-200 outline-none bg-[var(--surface-subtle)] text-[var(--text-primary)] placeholder:text-[var(--text-muted)] ${
             error
               ? 'border-red-500 focus:border-red-500 focus:ring-2 focus:ring-red-500/20'
-              : 'border-slate-200 focus:border-slate-900 focus:ring-2 focus:ring-slate-900/20'
+              : 'border-[var(--border-default)] focus:border-slate-900 focus:ring-2 focus:ring-slate-900/20'
           } ${disabled ? 'opacity-50 cursor-not-allowed' : ''} ${
             isPassword ? 'pr-12' : ''
           }`}
@@ -64,7 +64,7 @@ export const FormField: React.FC<FormFieldProps> = ({
           <button
             type="button"
             onClick={() => setShowPassword(!showPassword)}
-            className="absolute right-3 top-1/2 -translate-y-1/2 p-1 text-slate-400 hover:text-slate-600 transition-colors"
+            className="absolute right-3 top-1/2 -translate-y-1/2 p-1 text-[var(--text-muted)] hover:text-[var(--text-supporting)] transition-colors"
             tabIndex={-1}
             aria-label={showPassword ? 'Hide password' : 'Show password'}
           >

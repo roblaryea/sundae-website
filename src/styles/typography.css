@@ -1,112 +1,138 @@
 /* ==============================================
-   TYPOGRAPHY SYSTEM — Consolidated
-   Single source of truth. No legacy overrides.
+   TYPOGRAPHY SYSTEM — Dark Mode
    Uses Geist Sans via --font-geist-sans.
+   Bumped ~15% from previous scale for premium feel.
    ============================================== */
 
 /* --- Heading Scale --- */
 
 .hero-h1 {
-  font-size: 38px;
+  font-size: 30px;
   line-height: 1.08;
   font-weight: 700;
   letter-spacing: -0.03em;
+  color: var(--text-primary);
 }
 
 .hero-h2 {
-  font-size: 28px;
+  font-size: 26px;
   line-height: 1.15;
   font-weight: 700;
   letter-spacing: -0.02em;
+  color: var(--text-primary);
 }
 
 .section-h2 {
-  font-size: 28px;
+  font-size: 26px;
   line-height: 1.2;
   font-weight: 700;
-  letter-spacing: -0.015em;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
 }
 
 .section-h3 {
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.3;
   font-weight: 600;
   letter-spacing: -0.01em;
+  color: var(--text-primary);
 }
 
 .section-h4 {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.35;
   font-weight: 600;
+  color: var(--text-primary);
 }
 
-@media (min-width: 768px) {
-  .hero-h1 { font-size: 52px; }
-  .hero-h2 { font-size: 36px; }
-  .section-h2 { font-size: 36px; }
-  .section-h3 { font-size: 26px; }
+@media (min-width: 640px) {
+  .hero-h1 { font-size: 42px; }
+  .hero-h2 { font-size: 32px; }
+  .section-h2 { font-size: 32px; }
+  .section-h3 { font-size: 24px; }
   .section-h4 { font-size: 22px; }
 }
 
-@media (min-width: 1024px) {
-  .hero-h1 { font-size: 62px; }
-  .hero-h2 { font-size: 44px; }
-  .section-h2 { font-size: 42px; }
-  .section-h3 { font-size: 30px; }
+@media (min-width: 768px) {
+  .hero-h1 { font-size: 58px; }
+  .hero-h2 { font-size: 40px; }
+  .section-h2 { font-size: 40px; }
+  .section-h3 { font-size: 28px; }
   .section-h4 { font-size: 24px; }
+}
+
+@media (min-width: 1024px) {
+  .hero-h1 { font-size: 68px; }
+  .hero-h2 { font-size: 48px; }
+  .section-h2 { font-size: 46px; }
+  .section-h3 { font-size: 32px; }
+  .section-h4 { font-size: 26px; }
 }
 
 /* --- Eyebrow (Section Labels) --- */
 
 .eyebrow {
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1;
   font-weight: 650;
   letter-spacing: 0.14em;
   text-transform: uppercase;
+  color: var(--electric-blue);
 }
 
 @media (min-width: 768px) {
-  .eyebrow { font-size: 12px; }
+  .eyebrow { font-size: 13px; }
 }
 
 /* --- Body Text Scale --- */
 
 .body-xl {
-  font-size: 19px;
-  line-height: 1.65;
-  font-weight: 450;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: var(--text-secondary);
 }
 
 .body-lg {
-  font-size: 17px;
+  font-size: 15px;
   line-height: 1.6;
-  font-weight: 450;
+  font-weight: 400;
+  color: var(--text-supporting);
 }
 
 .body-base {
   font-size: 15px;
   line-height: 1.6;
   font-weight: 400;
+  color: var(--text-muted);
 }
 
 .body-sm {
   font-size: 13px;
   line-height: 1.5;
   font-weight: 400;
+  color: var(--muted-grey);
 }
 
 .body-xs {
   font-size: 12px;
   line-height: 1.5;
   font-weight: 400;
+  color: var(--muted-grey);
+}
+
+@media (min-width: 640px) {
+  .body-xl { font-size: 18px; }
+  .body-lg { font-size: 17px; }
+  .body-base { font-size: 16px; }
+  .body-sm { font-size: 14px; }
 }
 
 @media (min-width: 768px) {
-  .body-xl { font-size: 21px; line-height: 1.7; }
-  .body-lg { font-size: 18px; }
-  .body-base { font-size: 16px; }
-  .body-sm { font-size: 14px; }
+  .body-xl { font-size: 22px; line-height: 1.7; }
+  .body-lg { font-size: 19px; }
+  .body-base { font-size: 17px; }
+  .body-sm { font-size: 15px; }
 }
 
 /* --- Base Element Resets --- */
@@ -115,19 +141,64 @@ p + p { margin-top: 1rem; }
 
 /* --- Component Text --- */
 
-.card-title { font-size: 18px; font-weight: 600; line-height: 1.4; }
-.card-description { font-size: 15px; line-height: 1.6; }
-button, .btn { font-weight: 600; font-size: 15px; }
-.cta-link { font-size: 15px; font-weight: 500; }
-.testimonial-text { font-size: 16px; line-height: 1.65; }
+.card-title { font-size: 20px; font-weight: 600; line-height: 1.4; color: var(--text-primary); }
+.card-description { font-size: 16px; line-height: 1.6; color: var(--text-supporting); }
+button, .btn { font-weight: 600; font-size: 16px; }
+.cta-link { font-size: 16px; font-weight: 500; color: var(--electric-blue); }
+.testimonial-text { font-size: 17px; line-height: 1.65; color: var(--text-secondary); }
 
-/* --- Contrast Utilities --- */
+/* --- KPI Typography --- */
 
-.body-text, .card-description, .text-body { color: #374151; }
-.text-small, .label-text, .metadata-text { color: #4B5563; }
-.subheading { color: #374151; }
+.kpi-number {
+  font-family: var(--font-geist-mono), "Geist Mono", ui-monospace, monospace;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
 
-.text-on-gradient { color: white; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
-.text-contrast-high { color: #111111; }
-.text-contrast-medium { color: #374151; }
-.text-contrast-low { color: #6B7280; }
+.kpi-label {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--muted-grey);
+}
+
+.kpi-supporting {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-faint);
+}
+
+@media (min-width: 640px) {
+  .kpi-number { font-size: 48px; }
+  .kpi-label { font-size: 16px; }
+  .kpi-supporting { font-size: 14px; }
+}
+
+@media (min-width: 768px) {
+  .kpi-number { font-size: 68px; }
+  .kpi-label { font-size: 20px; }
+  .kpi-supporting { font-size: 16px; }
+}
+
+/* --- Contrast Utilities (dark mode) --- */
+
+.body-text, .card-description, .text-body { color: var(--text-supporting); }
+.text-small, .label-text, .metadata-text { color: var(--muted-grey); }
+.subheading { color: var(--text-secondary); }
+
+.text-on-gradient { color: white; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
+.text-contrast-high { color: var(--text-primary); }
+.text-contrast-medium { color: var(--text-secondary); }
+.text-contrast-low { color: var(--text-muted); }
+
+/* --- Text Gradient Utility --- */
+
+.text-accent-gradient,
+.accent-gradient {
+  background: linear-gradient(135deg, #1C47FF, #3B82F6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

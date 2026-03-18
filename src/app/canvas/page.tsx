@@ -136,7 +136,7 @@ export default function CanvasPage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="text-5xl md:text-6xl font-bold text-slate-900 mb-6"
+              className="text-5xl md:text-6xl font-bold text-[var(--text-primary)] mb-6"
             >
               Your Data, Instantly Visualized
             </motion.h1>
@@ -145,7 +145,7 @@ export default function CanvasPage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="text-xl text-slate-600 mb-4 max-w-3xl mx-auto"
+              className="text-xl text-[var(--text-supporting)] mb-4 max-w-3xl mx-auto"
             >
               Transform complex datasets into clear, dynamic dashboards that update in real-time.
             </motion.p>
@@ -154,7 +154,7 @@ export default function CanvasPage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.25 }}
-              className="text-sm text-slate-500 mb-8 max-w-3xl mx-auto"
+              className="text-sm text-[var(--text-muted)] mb-8 max-w-3xl mx-auto"
             >
               Part of Sundae, the first AI decision intelligence platform for restaurants and hospitality.
             </motion.p>
@@ -183,18 +183,18 @@ export default function CanvasPage() {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="max-w-6xl mx-auto"
           >
-            <div className="bg-white rounded-2xl shadow-2xl border border-slate-200 p-6 overflow-hidden">
+            <div className="bg-[var(--navy-deep)] rounded-2xl shadow-2xl border border-[var(--border-default)] p-6 overflow-hidden">
               {/* Dashboard Header */}
-              <div className="flex items-center justify-between mb-6 pb-4 border-b border-slate-200">
+              <div className="flex items-center justify-between mb-6 pb-4 border-b border-[var(--border-default)]">
                 <div>
-                  <h3 className="text-lg font-bold text-slate-900">Executive Overview</h3>
-                  <p className="text-sm text-slate-500">Last updated: 2 minutes ago</p>
+                  <h3 className="text-lg font-bold text-[var(--text-primary)]">Executive Overview</h3>
+                  <p className="text-sm text-[var(--text-muted)]">Last updated: 2 minutes ago</p>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <button className="px-3 py-1 text-xs font-medium bg-slate-100 text-slate-700 rounded hover:bg-slate-200">
+                  <button className="px-3 py-1 text-xs font-medium bg-[var(--surface-subtle)] text-[var(--text-secondary)] rounded hover:bg-slate-200">
                     Export
                   </button>
-                  <button className="px-3 py-1 text-xs font-medium bg-blue-100 text-blue-700 rounded hover:bg-blue-200">
+                  <button className="px-3 py-1 text-xs font-medium bg-blue-100 text-[#60A5FA] rounded hover:bg-blue-200">
                     Share
                   </button>
                 </div>
@@ -208,9 +208,9 @@ export default function CanvasPage() {
                   { label: "Food Cost %", value: "31.2%", change: "+0.8%", positive: false },
                   { label: "Locations", value: "12", change: "Active", positive: true }
                 ].map((kpi, i) => (
-                  <div key={i} className="bg-slate-50 rounded-lg p-3">
-                    <p className="text-xs text-slate-500 mb-1">{kpi.label}</p>
-                    <p className="text-xl font-bold text-slate-900">{kpi.value}</p>
+                  <div key={i} className="bg-[var(--surface-faint)] rounded-lg p-3">
+                    <p className="text-xs text-[var(--text-muted)] mb-1">{kpi.label}</p>
+                    <p className="text-xl font-bold text-[var(--text-primary)]">{kpi.value}</p>
                     <p className={`text-xs font-medium ${kpi.positive ? 'text-green-600' : 'text-orange-600'}`}>
                       {kpi.change}
                     </p>
@@ -222,7 +222,7 @@ export default function CanvasPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {/* Revenue Trend Chart */}
                 <div className="bg-gradient-to-br from-blue-50 to-white rounded-lg p-4 border border-blue-100">
-                  <h4 className="text-sm font-semibold text-slate-900 mb-3">Revenue Trend (Last 30 Days)</h4>
+                  <h4 className="text-sm font-semibold text-[var(--text-primary)] mb-3">Revenue Trend (Last 30 Days)</h4>
                   <div className="h-32 flex items-end space-x-1">
                     {[65, 72, 68, 80, 75, 88, 92, 85, 95, 100, 98, 105].map((height, i) => (
                       <div key={i} className="flex-1 bg-gradient-to-t from-blue-500 to-blue-400 rounded-t" style={{ height: `${height}%` }}></div>
@@ -232,7 +232,7 @@ export default function CanvasPage() {
 
                 {/* Location Performance */}
                 <div className="bg-gradient-to-br from-green-50 to-white rounded-lg p-4 border border-green-100">
-                  <h4 className="text-sm font-semibold text-slate-900 mb-3">Top Locations by Revenue</h4>
+                  <h4 className="text-sm font-semibold text-[var(--text-primary)] mb-3">Top Locations by Revenue</h4>
                   <div className="space-y-2">
                     {[
                       { name: "Marina Mall", value: 100 },
@@ -241,7 +241,7 @@ export default function CanvasPage() {
                       { name: "City Centre", value: 68 }
                     ].map((loc, i) => (
                       <div key={i} className="flex items-center space-x-2">
-                        <div className="w-20 text-xs text-slate-600 font-medium truncate">{loc.name}</div>
+                        <div className="w-20 text-xs text-[var(--text-supporting)] font-medium truncate">{loc.name}</div>
                         <div className="flex-1 bg-slate-200 rounded-full h-4 overflow-hidden">
                           <div className="bg-gradient-to-r from-green-500 to-green-600 h-full rounded-full" style={{ width: `${loc.value}%` }}></div>
                         </div>
@@ -259,7 +259,7 @@ export default function CanvasPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold text-[var(--text-primary)] mb-4">
               Dashboards That Tell a Story
             </h2>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
@@ -279,14 +279,14 @@ export default function CanvasPage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 + (i * 0.1) }}
-                className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300"
+                className="bg-[var(--navy-deep)]/10 backdrop-blur-sm rounded-xl p-6 border border-[var(--border-emphasis)] hover:bg-[var(--navy-deep)]/20 transition-all duration-300"
               >
                 <div className="w-12 h-12 mb-3 bg-gradient-to-br from-white/20 to-white/10 rounded-lg flex items-center justify-center">
-                  <SundaeIcon name={dash.icon} size="lg" className="text-white" />
+                  <SundaeIcon name={dash.icon} size="lg" className="text-[var(--text-primary)]" />
                 </div>
-                <h3 className="text-lg font-bold text-white mb-2">{dash.title}</h3>
+                <h3 className="text-lg font-bold text-[var(--text-primary)] mb-2">{dash.title}</h3>
                 <div className={`h-24 bg-gradient-to-br ${dash.color} rounded-lg opacity-60 flex items-center justify-center`}>
-                  <span className="text-white/80 text-xs font-medium">Interactive Dashboard</span>
+                  <span className="text-[var(--text-secondary)] text-xs font-medium">Interactive Dashboard</span>
                 </div>
               </motion.div>
             ))}
@@ -295,23 +295,23 @@ export default function CanvasPage() {
       </section>
 
       {/* Social Proof */}
-      <section className="py-12 px-4 sm:px-6 lg:px-8 bg-white/50">
+      <section className="py-12 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]/50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
-            <p className="text-slate-600 mb-6">
+            <p className="text-[var(--text-supporting)] mb-6">
               Trusted by leading restaurant groups across the Middle East and beyond
             </p>
-            <div className="flex flex-wrap justify-center gap-8 text-sm text-slate-500">
+            <div className="flex flex-wrap justify-center gap-8 text-sm text-[var(--text-muted)]">
               <div className="flex items-center space-x-2">
-                <SundaeIcon name="speed" size="md" className="text-blue-600" />
+                <SundaeIcon name="speed" size="md" className="text-[#60A5FA]" />
                 <span className="font-semibold">3x faster decisions</span>
               </div>
               <div className="flex items-center space-x-2">
-                <SundaeIcon name="finance" size="md" className="text-blue-600" />
+                <SundaeIcon name="finance" size="md" className="text-[#60A5FA]" />
                 <span className="font-semibold">$50K+ variance detected per site annually</span>
               </div>
               <div className="flex items-center space-x-2">
-                <SundaeIcon name="chart" size="md" className="text-blue-600" />
+                <SundaeIcon name="chart" size="md" className="text-[#60A5FA]" />
                 <span className="font-semibold">18% labor cost reduction</span>
               </div>
             </div>
@@ -320,20 +320,20 @@ export default function CanvasPage() {
       </section>
 
       {/* Who It's For */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-slate-900 mb-2">Who It's For</h2>
-            <p className="text-slate-600">Built for teams who need clarity at a glance</p>
+            <h2 className="text-3xl font-bold text-[var(--text-primary)] mb-2">Who It's For</h2>
+            <p className="text-[var(--text-supporting)]">Built for teams who need clarity at a glance</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {whoItsFor.map((persona, index) => (
               <Card key={index} variant="elevated" className="text-center p-6">
                 <div className="w-12 h-12 mx-auto mb-3 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center">
-                  <SundaeIcon name={persona.icon} size="lg" className="text-white" />
+                  <SundaeIcon name={persona.icon} size="lg" className="text-[var(--text-primary)]" />
                 </div>
-                <h3 className="font-semibold text-slate-900 mb-2">{persona.title}</h3>
-                <p className="text-sm text-slate-600">{persona.description}</p>
+                <h3 className="font-semibold text-[var(--text-primary)] mb-2">{persona.title}</h3>
+                <p className="text-sm text-[var(--text-supporting)]">{persona.description}</p>
               </Card>
             ))}
           </div>
@@ -341,13 +341,13 @@ export default function CanvasPage() {
       </section>
 
       {/* How Canvas Fits the Stack */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold text-[var(--text-primary)] mb-4">
               How Canvas Fits the Stack
             </h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+            <p className="text-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               The final layer in Sundae's intelligence architecture
             </p>
           </div>
@@ -358,8 +358,8 @@ export default function CanvasPage() {
                 1
               </div>
               <div className="w-10 h-10 mx-auto mb-3 bg-gradient-to-br from-slate-600 to-slate-700 rounded-lg flex items-center justify-center"><SundaeIcon name="integration" size="md" className="text-white" /></div>
-              <h3 className="text-xl font-bold text-slate-900 mb-3">1. Scout</h3>
-              <p className="text-slate-600 text-sm">
+              <h3 className="text-xl font-bold text-[var(--text-primary)] mb-3">1. Scout</h3>
+              <p className="text-[var(--text-supporting)] text-sm">
                 Connects and unifies all data sources into a single layer
               </p>
             </div>
@@ -369,8 +369,8 @@ export default function CanvasPage() {
                 2
               </div>
               <div className="w-10 h-10 mx-auto mb-3 bg-gradient-to-br from-slate-600 to-slate-700 rounded-lg flex items-center justify-center"><SundaeIcon name="intelligence" size="md" className="text-white" /></div>
-              <h3 className="text-xl font-bold text-slate-900 mb-3">2. Insights & Pulse</h3>
-              <p className="text-slate-600 text-sm">
+              <h3 className="text-xl font-bold text-[var(--text-primary)] mb-3">2. Insights & Pulse</h3>
+              <p className="text-[var(--text-supporting)] text-sm">
                 AI analyzes patterns and generates actionable insights
               </p>
             </div>
@@ -380,17 +380,17 @@ export default function CanvasPage() {
                 3
               </div>
               <div className="w-10 h-10 mx-auto mb-3 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center"><SundaeIcon name="chart" size="md" className="text-white" /></div>
-              <h3 className="text-xl font-bold text-slate-900 mb-3">3. Canvas</h3>
-              <p className="text-slate-600 text-sm">
+              <h3 className="text-xl font-bold text-[var(--text-primary)] mb-3">3. Canvas</h3>
+              <p className="text-[var(--text-supporting)] text-sm">
                 Visualizes everything in real-time, interactive dashboards
               </p>
             </div>
           </div>
 
           <div className="mt-12 text-center">
-            <p className="text-sm text-slate-600">
+            <p className="text-sm text-[var(--text-supporting)]">
               Canvas sits at the top of Sundae's Intelligence Stack. 
-              <Link href="/architecture" className="text-blue-600 hover:text-blue-700 ml-1 underline">
+              <Link href="/architecture" className="text-[#60A5FA] hover:text-[#60A5FA] ml-1 underline">
                 Learn more about our architecture →
               </Link>
             </p>
@@ -399,13 +399,13 @@ export default function CanvasPage() {
       </section>
 
       {/* Capabilities Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold text-[var(--text-primary)] mb-4">
               Canvas Capabilities
             </h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+            <p className="text-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               Powerful visualization without the complexity
             </p>
           </div>
@@ -416,11 +416,11 @@ export default function CanvasPage() {
                 <CardHeader>
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center text-white flex-shrink-0">
-                      <SundaeIcon name={capability.icon} size="lg" className="text-white" />
+                      <SundaeIcon name={capability.icon} size="lg" className="text-[var(--text-primary)]" />
                     </div>
                     <div>
-                      <CardTitle className="text-slate-900 mb-2">{capability.title}</CardTitle>
-                      <CardDescription className="text-slate-600">
+                      <CardTitle className="text-[var(--text-primary)] mb-2">{capability.title}</CardTitle>
+                      <CardDescription className="text-[var(--text-supporting)]">
                         {capability.description}
                       </CardDescription>
                     </div>
@@ -433,13 +433,13 @@ export default function CanvasPage() {
       </section>
 
       {/* Dashboard Examples Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold text-[var(--text-primary)] mb-4">
               Dashboard Examples
             </h2>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+            <p className="text-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               Pre-built dashboards for every stakeholder
             </p>
           </div>
@@ -456,17 +456,17 @@ export default function CanvasPage() {
                 <CardHeader>
                   <div className="flex items-start space-x-4 mb-4">
                     <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center text-white flex-shrink-0">
-                      <SundaeIcon name={dashboard.icon} size="lg" className="text-white" />
+                      <SundaeIcon name={dashboard.icon} size="lg" className="text-[var(--text-primary)]" />
                     </div>
                     <div className="flex-1">
-                      <CardTitle className="text-slate-900 mb-2">{dashboard.title}</CardTitle>
-                      <CardDescription className="text-slate-600 mb-3">
+                      <CardTitle className="text-[var(--text-primary)] mb-2">{dashboard.title}</CardTitle>
+                      <CardDescription className="text-[var(--text-supporting)] mb-3">
                         {dashboard.description}
                       </CardDescription>
                       {/* Benefits */}
                       <div className="space-y-1">
                         {dashboard.benefits.map((benefit, bIndex) => (
-                          <p key={bIndex} className="text-sm text-blue-700 font-medium flex items-start space-x-2">
+                          <p key={bIndex} className="text-sm text-[#60A5FA] font-medium flex items-start space-x-2">
                             <span>→</span>
                             <span>{benefit}</span>
                           </p>
@@ -477,12 +477,12 @@ export default function CanvasPage() {
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-2">
-                    <p className="text-sm font-semibold text-slate-700 mb-3">Key Metrics:</p>
+                    <p className="text-sm font-semibold text-[var(--text-secondary)] mb-3">Key Metrics:</p>
                     <ul className={`grid ${dashboard.featured ? 'md:grid-cols-2' : 'grid-cols-1'} gap-2`}>
                       {dashboard.metrics.map((metric, mIndex) => (
                         <li key={mIndex} className="flex items-start space-x-2">
-                          <div className="w-1.5 h-1.5 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
-                          <span className="text-slate-600 text-sm">{metric}</span>
+                          <div className="w-1.5 h-1.5 bg-[#1C47FF] rounded-full mt-2 flex-shrink-0"></div>
+                          <span className="text-[var(--text-supporting)] text-sm">{metric}</span>
                         </li>
                       ))}
                     </ul>
@@ -495,7 +495,7 @@ export default function CanvasPage() {
       </section>
 
       {/* CTA Band */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] text-[var(--text-primary)]">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             See Your Data Come to Life
@@ -504,7 +504,7 @@ export default function CanvasPage() {
             Experience the clarity and power of Sundae Canvas. Book a walkthrough to see it in action.
           </p>
           <Link href="/demo">
-            <Button variant="primary" size="lg" className="bg-white text-blue-600 hover:bg-slate-100">
+            <Button variant="primary" size="lg" className="bg-[var(--navy-deep)] text-[#60A5FA] hover:bg-[var(--surface-subtle)]">
               Book a Canvas Walkthrough
             </Button>
           </Link>

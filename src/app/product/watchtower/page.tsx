@@ -99,7 +99,7 @@ export default function WatchtowerPage() {
   const cta = useCta();
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[var(--navy-deep)]">
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
         <div className="max-w-7xl mx-auto text-center">
@@ -112,13 +112,13 @@ export default function WatchtowerPage() {
               <SundaeIcon name="watchtower" size="md" />
               <span>Watchtower — External Intelligence Engine</span>
             </div>
-            <h1 className="hero-h1 text-slate-900 mb-6">
+            <h1 className="hero-h1 text-[var(--text-primary)] mb-6">
               Know What&apos;s Happening Around You.<br />Act Before Your Competitors Do.
             </h1>
-            <p className="body-xl text-slate-600 mb-4 max-w-4xl mx-auto">
+            <p className="body-xl text-[var(--text-supporting)] mb-4 max-w-4xl mx-auto">
               Competitor pricing changes. A concert this weekend. Ramadan starts next week. Watchtower synthesizes external signals with your internal data into a daily intelligence briefing — telling you what&apos;s happening, why it matters, and what to do about it.
             </p>
-            <p className="body-lg text-slate-500 mb-8 max-w-3xl mx-auto">
+            <p className="body-lg text-[var(--text-muted)] mb-8 max-w-3xl mx-auto">
               <strong>Available on Core tiers.</strong> Choose individual intelligence types or the full Watchtower bundle.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
@@ -156,38 +156,38 @@ export default function WatchtowerPage() {
       </section>
 
       {/* What is Watchtower */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               What is Watchtower?
             </h2>
-            <p className="body-lg text-slate-600 max-w-3xl mx-auto">
+            <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">
               Watchtower is your external intelligence layer — giving you visibility into everything that happens outside your four walls that could impact your business. While Pulse tells you what&apos;s happening inside your operation, Watchtower tells you what&apos;s happening in your competitive landscape, local environment, and broader market.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
-            <div className="text-center p-6 bg-red-50 rounded-xl">
+            <div className="text-center p-6 bg-[rgba(220,38,38,0.1)] rounded-xl">
               <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="visibility" size="lg" className="text-white" />
+                <SundaeIcon name="visibility" size="lg" className="text-[var(--text-primary)]" />
               </div>
-              <h3 className="font-semibold text-slate-900 mb-2">External Intelligence</h3>
-              <p className="text-sm text-slate-600">Most platforms only show you YOUR data. Watchtower shows you THE MARKET.</p>
+              <h3 className="font-semibold text-[var(--text-primary)] mb-2">External Intelligence</h3>
+              <p className="text-sm text-[var(--text-supporting)]">Most platforms only show you YOUR data. Watchtower shows you THE MARKET.</p>
             </div>
-            <div className="text-center p-6 bg-red-50/70 rounded-xl">
-              <div className="w-12 h-12 bg-red-500 rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="speed" size="lg" className="text-white" />
+            <div className="text-center p-6 bg-[rgba(220,38,38,0.1)]/70 rounded-xl">
+              <div className="w-12 h-12 bg-[rgba(220,38,38,0.1)]0 rounded-full flex items-center justify-center mx-auto mb-3">
+                <SundaeIcon name="speed" size="lg" className="text-[var(--text-primary)]" />
               </div>
-              <h3 className="font-semibold text-slate-900 mb-2">Proactive Not Reactive</h3>
-              <p className="text-sm text-slate-600">Get alerts when competitors move. Predict demand shifts. See trends before they hit.</p>
+              <h3 className="font-semibold text-[var(--text-primary)] mb-2">Proactive Not Reactive</h3>
+              <p className="text-sm text-[var(--text-supporting)]">Get alerts when competitors move. Predict demand shifts. See trends before they hit.</p>
             </div>
-            <div className="text-center p-6 bg-red-50/50 rounded-xl">
+            <div className="text-center p-6 bg-[rgba(220,38,38,0.1)]/50 rounded-xl">
               <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="intelligence" size="lg" className="text-white" />
+                <SundaeIcon name="intelligence" size="lg" className="text-[var(--text-primary)]" />
               </div>
-              <h3 className="font-semibold text-slate-900 mb-2">AI-Synthesized Briefings</h3>
-              <p className="text-sm text-slate-600">Daily intelligence briefings that combine internal performance with external signals.</p>
+              <h3 className="font-semibold text-[var(--text-primary)] mb-2">AI-Synthesized Briefings</h3>
+              <p className="text-sm text-[var(--text-supporting)]">Daily intelligence briefings that combine internal performance with external signals.</p>
             </div>
           </div>
         </div>
@@ -199,10 +199,10 @@ export default function WatchtowerPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="eyebrow text-red-600 mb-4">INTERNAL + EXTERNAL</p>
-              <h2 className="section-h2 text-slate-900 mb-6">
+              <h2 className="section-h2 text-[var(--text-primary)] mb-6">
                 The Only Platform That Sees Both Sides
               </h2>
-              <p className="body-lg text-slate-600">
+              <p className="body-lg text-[var(--text-supporting)]">
                 Internal platforms show you what happened. Market tools show you what&apos;s out there. Sundae is the only decision intelligence platform that synthesizes both — combining your POS, labor, and ops data with live competitor tracking, local event intelligence, weather forecasts, and market trend data — into a single briefing that tells you what it all means for today&apos;s shift.
               </p>
             </div>
@@ -220,16 +220,16 @@ export default function WatchtowerPage() {
       </section>
 
       {/* Feature Blocks — Detailed */}
-      <section id="features" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section id="features" className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <p className="text-xs font-semibold tracking-[0.18em] uppercase text-slate-500 mb-4">
+            <p className="text-xs font-semibold tracking-[0.18em] uppercase text-[var(--text-muted)] mb-4">
               FOUR INTELLIGENCE TYPES
             </p>
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               External Intelligence, Automated
             </h2>
-            <p className="body-xl text-slate-600 max-w-3xl mx-auto">
+            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               Choose one, two, or all four intelligence types for complete external visibility
             </p>
           </div>
@@ -248,27 +248,27 @@ export default function WatchtowerPage() {
                     <div className="flex items-start justify-between mb-4">
                       <div className="flex items-center space-x-4">
                         <div className={`w-14 h-14 bg-gradient-to-br ${block.color} rounded-xl flex items-center justify-center`}>
-                          <SundaeIcon name={block.icon} size="xl" className="text-white" />
+                          <SundaeIcon name={block.icon} size="xl" className="text-[var(--text-primary)]" />
                         </div>
                         <div>
                           <span className={`inline-block px-3 py-1 bg-gradient-to-r ${block.color} text-white text-xs font-semibold rounded-full mb-2`}>
                             {block.title}
                           </span>
-                          <CardTitle className="text-2xl text-slate-900">{block.headline}</CardTitle>
+                          <CardTitle className="text-2xl text-[var(--text-primary)]">{block.headline}</CardTitle>
                         </div>
                       </div>
                     </div>
-                    <CardDescription className="text-slate-600 text-lg mb-6">
+                    <CardDescription className="text-[var(--text-supporting)] text-lg mb-6">
                       {block.description}
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
-                    <h4 className="font-semibold text-slate-900 mb-3">Key capabilities:</h4>
+                    <h4 className="font-semibold text-[var(--text-primary)] mb-3">Key capabilities:</h4>
                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-2">
                       {block.capabilities.map((cap, idx) => (
                         <li key={idx} className="flex items-start space-x-2">
                           <span className="text-green-500 mt-1">&#10003;</span>
-                          <span className="text-sm text-slate-600">{cap}</span>
+                          <span className="text-sm text-[var(--text-supporting)]">{cap}</span>
                         </li>
                       ))}
                     </ul>
@@ -284,10 +284,10 @@ export default function WatchtowerPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-red-50/30">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               Watchtower Pricing
             </h2>
-            <p className="body-lg text-slate-600 max-w-3xl mx-auto">
+            <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">
               Available on Core tiers. Choose individual components or save ~18% with the full bundle.
             </p>
           </div>
@@ -299,10 +299,10 @@ export default function WatchtowerPage() {
               { name: "Market Trends", price: "$299", perLoc: "+$29/loc" },
               { name: "Full Bundle", price: "$899", perLoc: "+$109/loc", highlight: true }
             ].map((item) => (
-              <div key={item.name} className={`p-6 rounded-xl text-center ${item.highlight ? 'bg-red-600 text-white' : 'bg-white border border-slate-200'}`}>
-                <h3 className={`font-semibold mb-2 ${item.highlight ? 'text-white' : 'text-slate-900'}`}>{item.name}</h3>
-                <p className={`text-3xl font-bold mb-1 ${item.highlight ? 'text-white' : 'text-slate-900'}`}>{item.price}</p>
-                <p className={`text-sm ${item.highlight ? 'text-red-100' : 'text-slate-500'}`}>/month {item.perLoc}</p>
+              <div key={item.name} className={`p-6 rounded-xl text-center ${item.highlight ? 'bg-red-600 text-white' : 'bg-[var(--navy-deep)] border border-[var(--border-default)]'}`}>
+                <h3 className={`font-semibold mb-2 ${item.highlight ? 'text-[var(--text-primary)]' : 'text-[var(--text-primary)]'}`}>{item.name}</h3>
+                <p className={`text-3xl font-bold mb-1 ${item.highlight ? 'text-[var(--text-primary)]' : 'text-[var(--text-primary)]'}`}>{item.price}</p>
+                <p className={`text-sm ${item.highlight ? 'text-red-100' : 'text-[var(--text-muted)]'}`}>/month {item.perLoc}</p>
                 {item.highlight && <p className="text-xs text-red-200 mt-2">Save ~18% vs. individual</p>}
               </div>
             ))}
@@ -311,19 +311,19 @@ export default function WatchtowerPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               Frequently Asked Questions
             </h2>
           </div>
 
           <div className="space-y-6">
             {faqs.map((faq, index) => (
-              <div key={index} className="p-6 bg-slate-50 rounded-xl">
-                <h3 className="font-semibold text-slate-900 mb-3">{faq.q}</h3>
-                <p className="text-slate-600 leading-relaxed">{faq.a}</p>
+              <div key={index} className="p-6 bg-[var(--surface-faint)] rounded-xl">
+                <h3 className="font-semibold text-[var(--text-primary)] mb-3">{faq.q}</h3>
+                <p className="text-[var(--text-supporting)] leading-relaxed">{faq.a}</p>
               </div>
             ))}
           </div>
@@ -331,7 +331,7 @@ export default function WatchtowerPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] text-[var(--text-primary)]">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 mb-6">
             Add External Intelligence to Your Platform
@@ -340,24 +340,24 @@ export default function WatchtowerPage() {
             See your business in full market context. Never be caught off guard again.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            <div className="p-6 bg-white rounded-xl shadow-sm">
+            <div className="p-6 bg-[var(--navy-deep)] rounded-xl shadow-none">
               <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="cost" size="lg" className="text-white" />
+                <SundaeIcon name="cost" size="lg" className="text-[var(--text-primary)]" />
               </div>
-              <h3 className="font-semibold text-slate-900 mb-2">Add to Your Plan</h3>
-              <p className="text-sm text-slate-600 mb-4">See Watchtower pricing for your operation</p>
+              <h3 className="font-semibold text-[var(--text-primary)] mb-2">Add to Your Plan</h3>
+              <p className="text-sm text-[var(--text-supporting)] mb-4">See Watchtower pricing for your operation</p>
               <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
                 <Button variant="primary" size="md" className="w-full">
                   Add Watchtower →
                 </Button>
               </a>
             </div>
-            <div className="p-6 bg-white rounded-xl shadow-sm">
-              <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="visibility" size="lg" className="text-white" />
+            <div className="p-6 bg-[var(--navy-deep)] rounded-xl shadow-none">
+              <div className="w-12 h-12 bg-[#1C47FF] rounded-full flex items-center justify-center mx-auto mb-3">
+                <SundaeIcon name="visibility" size="lg" className="text-[var(--text-primary)]" />
               </div>
-              <h3 className="font-semibold text-slate-900 mb-2">See It in Action</h3>
-              <p className="text-sm text-slate-600 mb-4">Watch Watchtower demo video</p>
+              <h3 className="font-semibold text-[var(--text-primary)] mb-2">See It in Action</h3>
+              <p className="text-sm text-[var(--text-supporting)] mb-4">Watch Watchtower demo video</p>
               <Button
                 variant="outline"
                 size="md"
@@ -367,12 +367,12 @@ export default function WatchtowerPage() {
                 Watch Demo →
               </Button>
             </div>
-            <div className="p-6 bg-white rounded-xl shadow-sm">
+            <div className="p-6 bg-[var(--navy-deep)] rounded-xl shadow-none">
               <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="conversation" size="lg" className="text-white" />
+                <SundaeIcon name="conversation" size="lg" className="text-[var(--text-primary)]" />
               </div>
-              <h3 className="font-semibold text-slate-900 mb-2">Talk to Sales</h3>
-              <p className="text-sm text-slate-600 mb-4">Custom Watchtower configuration</p>
+              <h3 className="font-semibold text-[var(--text-primary)] mb-2">Talk to Sales</h3>
+              <p className="text-sm text-[var(--text-supporting)] mb-4">Custom Watchtower configuration</p>
               <Button
                 variant="outline"
                 size="md"

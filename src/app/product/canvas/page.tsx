@@ -50,12 +50,12 @@ export default function CanvasPage() {
  <SundaeIcon name="chart" size="md" />
  <span>Visualization Intelligence</span>
  </div>
- <h1 className="hero-h1 text-slate-900 mb-6">
+ <h1 className="hero-h1 text-[var(--text-primary)] mb-6">
  Dashboards That
  <br />
  <span className="text-purple-600">Actually Get Used</span>
  </h1>
- <p className="body-xl text-slate-600 mb-8 max-w-3xl mx-auto">
+ <p className="body-xl text-[var(--text-supporting)] mb-8 max-w-3xl mx-auto">
  One source of truth for every team. Canvas delivers live dashboards for execs, ops, and finance — always current, always aligned.
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -75,13 +75,13 @@ export default function CanvasPage() {
  </section>
 
  {/* Key Features Section */}
- <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+ <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
  <div className="max-w-7xl mx-auto">
  <div className="text-center mb-16">
- <h2 className="section-h2 text-slate-900 mb-4">
+ <h2 className="section-h2 text-[var(--text-primary)] mb-4">
  Built for How Teams Actually Work
  </h2>
- <p className="body-xl text-slate-600">
+ <p className="body-xl text-[var(--text-supporting)]">
  Real-time data. Clear visuals. No waiting for reports.
  </p>
  </div>
@@ -92,11 +92,11 @@ export default function CanvasPage() {
  <CardHeader>
  <div className="flex items-center space-x-4">
  <div className="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center text-white">
- <SundaeIcon name={feature.icon} size="lg" className="text-white" />
+ <SundaeIcon name={feature.icon} size="lg" className="text-[var(--text-primary)]" />
  </div>
- <CardTitle className="text-slate-900">{feature.title}</CardTitle>
+ <CardTitle className="text-[var(--text-primary)]">{feature.title}</CardTitle>
  </div>
- <CardDescription className="text-slate-600">
+ <CardDescription className="text-[var(--text-supporting)]">
  {feature.description}
  </CardDescription>
  </CardHeader>
@@ -107,13 +107,13 @@ export default function CanvasPage() {
  </section>
 
  {/* Visualization Types Section */}
- <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+ <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
  <div className="max-w-7xl mx-auto">
  <div className="text-center mb-16">
- <h2 className="section-h2 text-slate-900 mb-4">
+ <h2 className="section-h2 text-[var(--text-primary)] mb-4">
  Ready-Made Views for Every Role
  </h2>
- <p className="body-xl text-slate-600">
+ <p className="body-xl text-[var(--text-supporting)]">
  Pre-built dashboards for operations, finance, and executive oversight
  </p>
  </div>
@@ -122,14 +122,14 @@ export default function CanvasPage() {
  {visualizationTypes.map((category, index) => (
  <Card key={index} variant="elevated">
  <CardHeader>
- <CardTitle className="text-slate-900">{category.type}</CardTitle>
+ <CardTitle className="text-[var(--text-primary)]">{category.type}</CardTitle>
  </CardHeader>
  <CardContent>
  <div className="grid grid-cols-2 gap-3">
  {category.examples.map((example, exampleIndex) => (
  <div key={exampleIndex} className="flex items-center space-x-2 p-2 bg-purple-50 rounded-lg">
  <div className="w-2 h-2 bg-purple-600 rounded-full"></div>
- <span className="text-slate-700 text-sm font-medium">{example}</span>
+ <span className="text-[var(--text-secondary)] text-sm font-medium">{example}</span>
  </div>
  ))}
  </div>
@@ -141,14 +141,14 @@ export default function CanvasPage() {
  </section>
 
  {/* Demo Section */}
- <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+ <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
  <div className="max-w-7xl mx-auto">
  <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
  <div>
- <h2 className="section-h2 text-slate-900 mb-6">
+ <h2 className="section-h2 text-[var(--text-primary)] mb-6">
  See It in Action
  </h2>
- <p className="body-xl text-slate-600 mb-8">
+ <p className="body-xl text-[var(--text-supporting)] mb-8">
  Live data. Clear insights. Decisions made faster.
  </p>
  
@@ -164,7 +164,7 @@ export default function CanvasPage() {
  <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center">
  <SundaeIcon name={item.icon} size="sm" className="text-purple-600" />
  </div>
- <span className="text-slate-900 font-medium">{item.feature}</span>
+ <span className="text-[var(--text-primary)] font-medium">{item.feature}</span>
  </div>
  ))}
  </div>
@@ -173,31 +173,31 @@ export default function CanvasPage() {
  <div className="bg-gradient-to-br from-purple-50 to-blue-50 rounded-2xl p-8">
  <div className="text-center mb-6">
  <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
- <SundaeIcon name="canvas" size="xl" className="text-white" />
+ <SundaeIcon name="canvas" size="xl" className="text-[var(--text-primary)]" />
  </div>
- <h3 className="text-2xl font-bold text-slate-900">Live Dashboard Preview</h3>
+ <h3 className="text-2xl font-bold text-[var(--text-primary)]">Live Dashboard Preview</h3>
  </div>
  
  <div className="space-y-4">
- <div className="bg-white rounded-lg p-4 shadow-sm">
+ <div className="bg-[var(--navy-deep)] rounded-lg p-4 shadow-none">
  <div className="flex justify-between items-center mb-2">
- <span className="text-sm font-medium text-slate-700">Daily Sales</span>
+ <span className="text-sm font-medium text-[var(--text-secondary)]">Daily Sales</span>
  <span className="text-sm text-green-600">+12%</span>
  </div>
  <div className="h-16 bg-gradient-to-r from-purple-200 to-blue-200 rounded"></div>
  </div>
  
- <div className="bg-white rounded-lg p-4 shadow-sm">
+ <div className="bg-[var(--navy-deep)] rounded-lg p-4 shadow-none">
  <div className="flex justify-between items-center mb-2">
- <span className="text-sm font-medium text-slate-700">Labor Cost %</span>
+ <span className="text-sm font-medium text-[var(--text-secondary)]">Labor Cost %</span>
  <span className="text-sm text-red-600">-3.2%</span>
  </div>
  <div className="h-16 bg-gradient-to-r from-blue-200 to-purple-200 rounded"></div>
  </div>
  
- <div className="bg-white rounded-lg p-4 shadow-sm">
+ <div className="bg-[var(--navy-deep)] rounded-lg p-4 shadow-none">
  <div className="flex justify-between items-center mb-2">
- <span className="text-sm font-medium text-slate-700">Guest Count</span>
+ <span className="text-sm font-medium text-[var(--text-secondary)]">Guest Count</span>
  <span className="text-sm text-green-600">+8.5%</span>
  </div>
  <div className="h-16 bg-gradient-to-r from-blue-200 to-purple-200 rounded"></div>
@@ -219,7 +219,7 @@ export default function CanvasPage() {
  </p>
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <Link href="/demo">
- <Button variant="primary" size="lg" className="bg-white text-purple-600 hover:bg-slate-100">
+ <Button variant="primary" size="lg" className="bg-[var(--navy-deep)] text-purple-600 hover:bg-[var(--surface-subtle)]">
  Book Canvas Demo
  </Button>
  </Link>

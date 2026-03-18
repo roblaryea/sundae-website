@@ -35,15 +35,15 @@ export default function ScoutPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[var(--navy-deep)]">
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
         <div className="max-w-4xl mx-auto text-center">
-          <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase text-slate-500 mb-4">SCOUT — DATA LAYER</span>
-          <h1 className="hero-h1 text-slate-900 mb-6">
+          <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase text-[var(--text-muted)] mb-4">SCOUT — DATA LAYER</span>
+          <h1 className="hero-h1 text-[var(--text-primary)] mb-6">
             Every System Connected. Every Number Trusted.
           </h1>
-          <p className="body-xl text-slate-600 max-w-3xl mx-auto mb-8">
+          <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto mb-8">
             Scout is the foundation. It connects your POS, labor, inventory, reservations, and delivery platforms into one clean data layer — so every dashboard, alert, and recommendation starts with data you can trust.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -62,27 +62,27 @@ export default function ScoutPage() {
       </section>
 
       {/* Key Features Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white border-b border-slate-100">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] border-b border-[var(--border-default)]">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               What Scout Does
             </h2>
-            <p className="body-lg text-slate-600 max-w-3xl mx-auto">
+            <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">
               One data layer that connects, cleans, and unifies everything your restaurant runs on
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {features.map((feature, index) => (
-              <div key={index} className="rounded-2xl border border-slate-200 bg-white p-6 hover:border-slate-300 transition-colors">
+              <div key={index} className="rounded-2xl border border-[var(--border-default)] bg-[var(--navy-deep)] p-6 hover:border-white/[0.1] transition-colors">
                 <div className="flex items-start gap-4">
-                  <div className="h-11 w-11 rounded-xl bg-slate-900 flex items-center justify-center text-white flex-shrink-0">
-                    <SundaeIcon name={feature.icon} size="md" className="text-white" />
+                  <div className="h-11 w-11 rounded-xl bg-slate-900 flex items-center justify-center text-[var(--text-primary)] flex-shrink-0">
+                    <SundaeIcon name={feature.icon} size="md" className="text-[var(--text-primary)]" />
                   </div>
                   <div>
-                    <h3 className="text-base font-semibold text-slate-900 mb-1">{feature.title}</h3>
-                    <p className="text-sm text-slate-600 leading-relaxed">{feature.description}</p>
+                    <h3 className="text-base font-semibold text-[var(--text-primary)] mb-1">{feature.title}</h3>
+                    <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{feature.description}</p>
                   </div>
                 </div>
               </div>
@@ -92,26 +92,26 @@ export default function ScoutPage() {
       </section>
 
       {/* Integration Categories Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               Connected Platforms
             </h2>
-            <p className="body-lg text-slate-600 max-w-3xl mx-auto">
+            <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">
               Most integrations take under 5 minutes. OAuth or API key — authenticate and go.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {integrations.map((category, index) => (
-              <div key={index} className="rounded-2xl border border-slate-200 bg-white p-6">
-                <h3 className="text-sm font-semibold text-slate-900 mb-4">{category.category}</h3>
+              <div key={index} className="rounded-2xl border border-[var(--border-default)] bg-[var(--navy-deep)] p-6">
+                <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-4">{category.category}</h3>
                 <ul className="space-y-2.5">
                   {category.systems.map((system, systemIndex) => (
                     <li key={systemIndex} className="flex items-center gap-2.5">
                       <span className="w-1.5 h-1.5 bg-slate-400 rounded-full"></span>
-                      <span className="text-slate-600 text-sm">{system}</span>
+                      <span className="text-[var(--text-supporting)] text-sm">{system}</span>
                     </li>
                   ))}
                 </ul>
@@ -119,8 +119,8 @@ export default function ScoutPage() {
             ))}
           </div>
 
-          <p className="text-center text-sm text-slate-500 mt-8">
-            <Link href="/integrations" className="hover:text-slate-700 transition-colors underline underline-offset-2">
+          <p className="text-center text-sm text-[var(--text-muted)] mt-8">
+            <Link href="/integrations" className="hover:text-[var(--text-secondary)] transition-colors underline underline-offset-2">
               See all 30+ integrations &rarr;
             </Link>
           </p>
@@ -128,13 +128,13 @@ export default function ScoutPage() {
       </section>
 
       {/* How It Works Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-slate-900 mb-4">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               Connect. Clean. Activate.
             </h2>
-            <p className="body-lg text-slate-600 max-w-3xl mx-auto">
+            <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">
               Three steps from siloed systems to unified intelligence
             </p>
           </div>
@@ -158,11 +158,11 @@ export default function ScoutPage() {
               }
             ].map((step, index) => (
               <div key={index} className="text-center">
-                <div className="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center text-slate-600 text-lg font-bold mx-auto mb-4">
+                <div className="w-12 h-12 bg-[var(--surface-subtle)] rounded-full flex items-center justify-center text-[var(--text-supporting)] text-lg font-bold mx-auto mb-4">
                   {step.step}
                 </div>
-                <h3 className="text-lg font-semibold text-slate-900 mb-2">{step.title}</h3>
-                <p className="text-sm text-slate-600">{step.description}</p>
+                <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">{step.title}</h3>
+                <p className="text-sm text-[var(--text-supporting)]">{step.description}</p>
               </div>
             ))}
           </div>
@@ -170,17 +170,17 @@ export default function ScoutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-950">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 text-white mb-6">
+          <h2 className="section-h2 text-[var(--text-primary)] mb-6">
             Stop Exporting. Start Connecting.
           </h2>
-          <p className="body-xl text-slate-300 max-w-2xl mx-auto mb-8">
+          <p className="body-xl text-[var(--text-muted)] max-w-2xl mx-auto mb-8">
             See how Scout unifies your restaurant data in a single demo.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/demo">
-              <Button variant="primary" size="lg" className="bg-white text-slate-900 hover:bg-slate-100">
+              <Button variant="primary" size="lg" className="bg-[var(--navy-deep)] text-[var(--text-primary)] hover:bg-[var(--surface-subtle)]">
                 Book a Demo
               </Button>
             </Link>

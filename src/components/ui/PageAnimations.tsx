@@ -90,7 +90,7 @@ export function PageHero({
   children?: React.ReactNode;
 }) {
   return (
-    <section className="relative bg-slate-950 overflow-hidden">
+    <section className="relative overflow-hidden bg-mesh">
       {/* Floating geometric shapes */}
       <div className="absolute inset-0 overflow-hidden">
         <ElegantShape
@@ -98,7 +98,7 @@ export function PageHero({
           width={300}
           height={80}
           rotate={12}
-          gradient="from-white/[0.06]"
+          gradient="from-white/[0.03]"
           className="left-[-10%] top-[15%]"
         />
         <ElegantShape
@@ -106,7 +106,7 @@ export function PageHero({
           width={220}
           height={60}
           rotate={-15}
-          gradient="from-white/[0.04]"
+          gradient="from-white/[0.02]"
           className="right-[-5%] top-[25%]"
         />
         <ElegantShape
@@ -114,13 +114,13 @@ export function PageHero({
           width={160}
           height={50}
           rotate={20}
-          gradient="from-white/[0.05]"
+          gradient="from-white/[0.025]"
           className="left-[15%] bottom-[20%]"
         />
       </div>
 
       {/* Subtle radial glow */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(100,116,139,0.12),transparent_70%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(28,71,255,0.08),transparent_70%)]" />
 
       <div className="relative z-10 max-w-4xl mx-auto px-6 pt-32 pb-20 text-center">
         {badge && (
@@ -129,7 +129,7 @@ export function PageHero({
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
           >
-            <span className="inline-flex items-center px-4 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase bg-white/10 text-white/70 border border-white/10 backdrop-blur-sm">
+            <span className="inline-flex items-center px-4 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase bg-[rgba(28,71,255,0.15)] text-[#60A5FA] border border-[rgba(28,71,255,0.2)]">
               {badge}
             </span>
           </motion.div>
@@ -143,7 +143,7 @@ export function PageHero({
             delay: 0.15,
             ease: [0.22, 1, 0.36, 1],
           }}
-          className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white"
+          className="mt-6 hero-h1"
         >
           {title}
         </motion.h1>
@@ -156,7 +156,7 @@ export function PageHero({
             delay: 0.3,
             ease: [0.22, 1, 0.36, 1],
           }}
-          className="mt-6 text-lg sm:text-xl text-white/60 max-w-2xl mx-auto leading-relaxed"
+          className="mt-6 body-xl max-w-2xl mx-auto"
         >
           {description}
         </motion.p>
@@ -176,9 +176,6 @@ export function PageHero({
           </motion.div>
         )}
       </div>
-
-      {/* Bottom gradient fade to white */}
-      <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-white to-transparent" />
     </section>
   );
 }
@@ -194,9 +191,9 @@ export function PageCTA({
   children: React.ReactNode;
 }) {
   return (
-    <section className="relative bg-slate-950 overflow-hidden">
-      {/* Top gradient fade from white */}
-      <div className="absolute top-0 left-0 right-0 h-24 bg-gradient-to-b from-white to-transparent z-10" />
+    <section className="relative overflow-hidden bg-grad-deep">
+      {/* Grid texture */}
+      <div className="absolute inset-0 bg-grid-texture" />
 
       {/* Floating shapes */}
       <div className="absolute inset-0 overflow-hidden">
@@ -205,7 +202,7 @@ export function PageCTA({
           width={250}
           height={70}
           rotate={-10}
-          gradient="from-white/[0.05]"
+          gradient="from-white/[0.03]"
           className="right-[-8%] top-[20%]"
         />
         <ElegantShape
@@ -213,19 +210,19 @@ export function PageCTA({
           width={180}
           height={50}
           rotate={15}
-          gradient="from-white/[0.04]"
+          gradient="from-white/[0.02]"
           className="left-[-5%] bottom-[25%]"
         />
       </div>
 
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(100,116,139,0.1),transparent_70%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(28,71,255,0.06),transparent_70%)]" />
 
       <div className="relative z-10 max-w-3xl mx-auto px-6 py-24 text-center">
         <FadeUp>
-          <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">
+          <h2 className="section-h2">
             {title}
           </h2>
-          <p className="mt-4 text-lg text-white/60 max-w-xl mx-auto">
+          <p className="mt-4 body-lg max-w-xl mx-auto">
             {description}
           </p>
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">

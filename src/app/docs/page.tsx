@@ -12,7 +12,7 @@ export default function DocumentationPage() {
       title: "Getting Started",
       description: "Learn how to onboard to Sundae and connect your data sources",
       icon: "growth",
-      color: "bg-blue-600",
+      color: "bg-[#1C47FF]",
       topics: [
         "Creating your Sundae account",
         "Connecting your POS system",
@@ -89,7 +89,7 @@ export default function DocumentationPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[var(--navy-deep)]">
       {/* Hero Section */}
       <PageHero
         badge="Documentation"
@@ -98,7 +98,7 @@ export default function DocumentationPage() {
       >
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link href="/demo">
-            <Button variant="primary" size="lg" className="bg-white text-slate-900 hover:bg-slate-100">
+            <Button variant="primary" size="lg" className="bg-[var(--navy-deep)] text-[var(--text-primary)] hover:bg-[var(--surface-subtle)]">
               Book a Demo
             </Button>
           </Link>
@@ -111,7 +111,7 @@ export default function DocumentationPage() {
       </PageHero>
 
       {/* Documentation Sections */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {sections.map((section, index) => (
@@ -119,26 +119,26 @@ export default function DocumentationPage() {
                 <Card variant="elevated" className="h-full hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group">
                   <CardHeader>
                     <div className="flex items-center space-x-4 mb-4">
-                      <div className={`w-12 h-12 ${section.color} rounded-lg flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-300`}>
-                        <SundaeIcon name={section.icon} size="lg" className="text-white" />
+                      <div className={`w-12 h-12 ${section.color} rounded-lg flex items-center justify-center text-[var(--text-primary)] group-hover:scale-110 transition-transform duration-300`}>
+                        <SundaeIcon name={section.icon} size="lg" className="text-[var(--text-primary)]" />
                       </div>
                       <div>
-                        <CardTitle className="text-xl text-slate-900 group-hover:text-blue-600 transition-colors duration-300">
+                        <CardTitle className="text-xl text-[var(--text-primary)] group-hover:text-[#60A5FA] transition-colors duration-300">
                           {section.title}
                         </CardTitle>
                       </div>
                     </div>
-                    <CardDescription className="text-slate-600 leading-relaxed mb-4">
+                    <CardDescription className="text-[var(--text-supporting)] leading-relaxed mb-4">
                       {section.description}
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-2">
-                      <p className="text-sm font-semibold text-slate-700 mb-3">Topics:</p>
+                      <p className="text-sm font-semibold text-[var(--text-secondary)] mb-3">Topics:</p>
                       <ul className="space-y-2">
                         {section.topics.map((topic, idx) => (
-                          <li key={idx} className="flex items-start space-x-2 text-sm text-slate-600">
-                            <span className="text-blue-600 mt-0.5">&rarr;</span>
+                          <li key={idx} className="flex items-start space-x-2 text-sm text-[var(--text-supporting)]">
+                            <span className="text-[#60A5FA] mt-0.5">&rarr;</span>
                             <span>{topic}</span>
                           </li>
                         ))}
@@ -153,14 +153,14 @@ export default function DocumentationPage() {
       </section>
 
       {/* Quick Start Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
+              <h2 className="text-4xl md:text-5xl font-bold text-[var(--text-primary)] mb-4">
                 Quick Start Guide
               </h2>
-              <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+              <p className="text-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
                 Get up and running with Sundae in four simple steps
               </p>
             </div>
@@ -197,11 +197,11 @@ export default function DocumentationPage() {
                 <Card variant="elevated" className="text-center h-full">
                   <CardContent className="p-8">
                     <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl flex items-center justify-center">
-                      <SundaeIcon name={item.icon} size="xl" className="text-white" />
+                      <SundaeIcon name={item.icon} size="xl" className="text-[var(--text-primary)]" />
                     </div>
-                    <div className="text-3xl font-bold text-blue-600 mb-4">Step {item.step}</div>
-                    <h3 className="text-xl font-bold text-slate-900 mb-3">{item.title}</h3>
-                    <p className="text-slate-600 leading-relaxed">{item.description}</p>
+                    <div className="text-3xl font-bold text-[#60A5FA] mb-4">Step {item.step}</div>
+                    <h3 className="text-xl font-bold text-[var(--text-primary)] mb-3">{item.title}</h3>
+                    <p className="text-[var(--text-supporting)] leading-relaxed">{item.description}</p>
                   </CardContent>
                 </Card>
               </StaggerItem>
@@ -211,20 +211,20 @@ export default function DocumentationPage() {
       </section>
 
       {/* Coming Soon Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto text-center">
           <FadeUp>
-            <div className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-2xl p-12 border border-slate-200">
+            <div className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-2xl p-12 border border-[var(--border-default)]">
               <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center"><SundaeIcon name="warning" size="xl" className="text-white" /></div>
-              <h3 className="text-3xl font-bold text-slate-900 mb-4">
+              <h3 className="text-3xl font-bold text-[var(--text-primary)] mb-4">
                 More Documentation Coming Soon
               </h3>
-              <p className="text-lg text-slate-600 mb-8">
+              <p className="text-lg text-[var(--text-supporting)] mb-8">
                 We&apos;re continuously expanding our documentation. Check back soon for API references, video tutorials, and advanced guides.
               </p>
-              <p className="text-sm text-slate-500">
+              <p className="text-sm text-[var(--text-muted)]">
                 Questions in the meantime?{" "}
-                <Link href="/contact" className="text-blue-600 font-medium hover:underline">
+                <Link href="/contact" className="text-[#60A5FA] font-medium hover:underline">
                   Get in touch with our team &rarr;
                 </Link>
               </p>
@@ -239,7 +239,7 @@ export default function DocumentationPage() {
         description="Our team is here to help you get the most out of Sundae."
       >
         <Link href="/contact">
-          <Button variant="primary" size="lg" className="bg-white text-slate-900 hover:bg-slate-100">
+          <Button variant="primary" size="lg" className="bg-[var(--navy-deep)] text-[var(--text-primary)] hover:bg-[var(--surface-subtle)]">
             Contact Support
           </Button>
         </Link>

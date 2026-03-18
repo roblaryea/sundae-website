@@ -3,7 +3,7 @@ import React from 'react';
 interface CardProps {
  children: React.ReactNode;
  className?: string;
- variant?: 'default' | 'elevated' | 'outlined' | 'gradient' | 'feature' | 'pricing';
+ variant?: 'default' | 'elevated' | 'outlined' | 'glass' | 'glow' | 'feature' | 'pricing';
  padding?: 'none' | 'compact' | 'default' | 'comfortable' | 'spacious';
  hover?: boolean;
  onClick?: () => void;
@@ -17,9 +17,8 @@ export const Card: React.FC<CardProps> = ({
  hover = false,
  onClick,
 }) => {
- // Premium Linear/Notion-style card system with standardized variants
- const baseStyles = 'rounded-2xl transition-all duration-200 ease-out';
- 
+ const baseStyles = 'rounded-2xl transition-all duration-300 ease-out';
+
  const paddingStyles = {
  none: 'p-0',
  compact: 'p-4',
@@ -27,35 +26,38 @@ export const Card: React.FC<CardProps> = ({
  comfortable: 'p-8',
  spacious: 'p-10',
  };
- 
+
  const variants = {
- // Default - subtle background with light shadow
- default: 'bg-white shadow-sm border border-slate-200/60 backdrop-blur-sm',
- 
- // Elevated - stronger shadow for emphasis
- elevated: 'bg-white shadow-lg shadow-slate-200/50 border border-slate-100 backdrop-blur-sm',
- 
- // Outlined - minimal with hover effect
- outlined: 'bg-white/50 border-2 border-slate-200 hover:border-slate-400/50 backdrop-blur-sm',
- 
- // Gradient - blue gradient background
- gradient: 'bg-gradient-to-br from-blue-50/80 to-indigo-50/80 shadow-lg shadow-blue-100/30 border border-blue-100/50 backdrop-blur-sm',
- 
- // Feature - for feature cards with icon
- feature: 'bg-white shadow-md shadow-slate-100/50 border border-slate-100 hover:shadow-lg hover:shadow-slate-200/50 hover:border-slate-300',
- 
- // Pricing - for pricing cards
- pricing: 'bg-white shadow-xl shadow-slate-200/60 border-2 border-slate-100 backdrop-blur-sm',
+ // Default — glass card on dark background
+ default: 'bg-[var(--surface-subtle)] border border-[var(--border-default)] backdrop-blur-sm',
+
+ // Elevated — slightly brighter surface
+ elevated: 'bg-[var(--surface-hover)] border border-white/[0.1] backdrop-blur-sm shadow-lg shadow-black/20',
+
+ // Outlined — minimal with hover effect
+ outlined: 'bg-transparent border border-white/[0.1] hover:border-white/[0.2] backdrop-blur-sm',
+
+ // Glass — frosted glass effect
+ glass: 'bg-[var(--surface-subtle)] backdrop-blur-xl border border-[var(--border-default)]',
+
+ // Glow — highlighted/featured with blue glow
+ glow: 'bg-[rgba(28,71,255,0.06)] border border-[rgba(28,71,255,0.2)] shadow-[0_0_60px_rgba(28,71,255,0.3)]',
+
+ // Feature — for feature cards
+ feature: 'bg-[var(--surface-subtle)] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:border-[rgba(28,71,255,0.3)]',
+
+ // Pricing — for pricing cards
+ pricing: 'bg-[var(--surface-subtle)] border border-white/[0.1] backdrop-blur-sm shadow-xl shadow-black/20',
  };
 
  const hoverStyles = hover
- ? 'hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-200/60 cursor-pointer'
+ ? 'hover:-translate-y-1 hover:bg-[var(--surface-hover)] hover:border-[rgba(28,71,255,0.3)] cursor-pointer'
  : '';
 
  const interactiveStyles = onClick ? 'cursor-pointer' : '';
 
  return (
- <div 
+ <div
  className={`${baseStyles} ${paddingStyles[padding]} ${variants[variant]} ${hoverStyles} ${interactiveStyles} ${className}`}
  onClick={onClick}
  role={onClick ? 'button' : undefined}
@@ -84,7 +86,7 @@ interface CardTitleProps {
 export const CardTitle: React.FC<CardTitleProps> = ({ children, className = '', as = 'h3' }) => {
  const Component = as;
  const sizeClass = as === 'h2' ? 'text-2xl' : as === 'h3' ? 'text-xl' : 'text-lg';
- return <Component className={`${sizeClass} font-bold text-slate-900 ${className}`}>{children}</Component>;
+ return <Component className={`${sizeClass} font-bold text-[var(--text-primary)] ${className}`}>{children}</Component>;
 };
 
 interface CardDescriptionProps {
@@ -93,7 +95,7 @@ interface CardDescriptionProps {
 }
 
 export const CardDescription: React.FC<CardDescriptionProps> = ({ children, className = '' }) => {
- return <p className={`text-[16px] leading-relaxed text-slate-600 mt-2 ${className}`}>{children}</p>;
+ return <p className={`text-[16px] leading-relaxed text-[var(--text-supporting)] mt-2 ${className}`}>{children}</p>;
 };
 
 interface CardContentProps {
@@ -111,7 +113,7 @@ interface CardFooterProps {
 }
 
 export const CardFooter: React.FC<CardFooterProps> = ({ children, className = '' }) => {
- return <div className={`mt-6 pt-4 border-t border-slate-100 ${className}`}>{children}</div>;
+ return <div className={`mt-6 pt-4 border-t border-[var(--border-default)] ${className}`}>{children}</div>;
 };
 
 // Feature card icon wrapper
@@ -123,9 +125,9 @@ interface CardIconProps {
 
 export const CardIcon: React.FC<CardIconProps> = ({ children, className = '', variant = 'gradient' }) => {
  const variants = {
- default: 'bg-slate-100 text-slate-700',
- gradient: 'bg-gradient-to-br from-slate-800 to-slate-900 text-white',
- outlined: 'border-2 border-slate-800 bg-slate-800/10 text-slate-800',
+ default: 'bg-[var(--surface-emphasis)] text-[var(--text-secondary)]',
+ gradient: 'bg-gradient-to-br from-[#0A1E8C] to-[#1C47FF] text-white',
+ outlined: 'border border-[var(--border-emphasis)] bg-[var(--surface-subtle)] text-[var(--text-secondary)]',
  };
 
  return (
