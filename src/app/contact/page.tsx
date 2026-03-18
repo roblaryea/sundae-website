@@ -95,8 +95,8 @@ export default function ContactPage() {
                   <a href={PRICING_URL} className="block text-sm text-gray-700 hover:text-gray-900 transition-colors">
                     View Pricing &rarr;
                   </a>
-                  <Link href="/report" className="block text-sm text-gray-700 hover:text-gray-900 transition-colors">
-                    Get Free Report &rarr;
+                  <Link href="/product" className="block text-sm text-gray-700 hover:text-gray-900 transition-colors">
+                    Explore Products &rarr;
                   </Link>
                   <Link href="/about" className="block text-sm text-gray-700 hover:text-gray-900 transition-colors">
                     About Sundae &rarr;
@@ -123,9 +123,9 @@ export default function ContactPage() {
                 Book a Demo
               </Button>
             </Link>
-            <Link href="/report">
+            <Link href="/product">
               <Button variant="outline-light" size="lg">
-                Get Free Report
+                Explore Products
               </Button>
             </Link>
           </div>

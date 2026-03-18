@@ -229,19 +229,19 @@ export default function BenchmarkingPage() {
       </section>
 
       {/* CTA */}
-      <section className="section-standard px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue to-electric-blue text-white">
+      <section className="section-standard px-4 sm:px-6 lg:px-8 bg-slate-950 text-white">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="section-h2 mb-6">
             See Where You Stand
           </h2>
-          <p className="body-lg mb-8 opacity-90">
+          <p className="body-lg mb-8 text-slate-300">
             Upload your data and get your first benchmark in minutes. Free, no credit card required.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
-              variant="secondary"
+              variant="primary"
               size="lg"
-              className="bg-white text-deep-blue hover:bg-gray-100"
+              className="bg-white text-slate-900 hover:bg-slate-100"
               onClick={() => cta(REPORT_APP_URL, "start_free_benchmarks_cta", { page: "/benchmarking" })}
             >
               Start Free Benchmark

@@ -480,7 +480,7 @@ export default function ChatWithDataPage() {
               Why Sundae Intelligence Is Different
             </h2>
             <p className="body-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              Not another dashboard tool. A fundamentally different approach to restaurant intelligence.
+              Not another dashboard tool. A fundamentally different approach to decision intelligence.
             </p>
           </div>
 

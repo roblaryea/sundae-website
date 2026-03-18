@@ -126,7 +126,7 @@ export default function ArchitecturePage() {
             </h1>
             <p className="text-[17px] text-gray-700 dark:text-gray-300 mb-10 max-w-3xl mx-auto leading-[1.65]">
               Built on a foundation of unified data and powered by multi-agent AI, 
-              Sundae creates a new category of restaurant intelligence that goes beyond traditional dashboards.
+              Sundae creates a new category of decision intelligence that goes beyond traditional dashboards.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <Link href="/demo">
@@ -609,7 +609,7 @@ export default function ArchitecturePage() {
             </h2>
             <p className="text-[17px] text-white mb-12 leading-[1.65] font-medium">
               Get a personalized walkthrough of Sundae's intelligence architecture 
-              and see how it can transform your restaurant operations
+              and see how it powers decisions across your operation
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <Link href="/demo">

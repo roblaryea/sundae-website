@@ -101,7 +101,7 @@ export default function SignInPage() {
       {/* ================================================================
           LEFT — Branding Panel (desktop only)
           ================================================================ */}
-      <div className="hidden lg:flex lg:w-[480px] xl:w-[520px] flex-shrink-0 relative overflow-hidden bg-gradient-to-br from-deep-blue via-[#0c2299] to-electric-blue">
+      <div className="hidden lg:flex lg:w-[480px] xl:w-[520px] flex-shrink-0 relative overflow-hidden bg-slate-950">
         {/* Subtle grid pattern */}
         <div
           className="absolute inset-0 opacity-[0.07]"
@@ -112,7 +112,7 @@ export default function SignInPage() {
           }}
         />
         {/* Glow accent */}
-        <div className="absolute -bottom-32 -right-32 w-96 h-96 bg-electric-blue/30 rounded-full blur-[120px]" />
+        <div className="absolute -bottom-32 -right-32 w-96 h-96 bg-slate-700/30 rounded-full blur-[120px]" />
 
         <div className="relative z-10 flex flex-col justify-between p-10 xl:p-12 w-full">
           {/* Logo */}

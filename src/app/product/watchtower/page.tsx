@@ -203,7 +203,7 @@ export default function WatchtowerPage() {
                 The Only Platform That Sees Both Sides
               </h2>
               <p className="body-lg text-gray-600 dark:text-gray-300">
-                Internal platforms show you what happened. Market tools show you what&apos;s out there. Sundae is the only restaurant intelligence platform that synthesizes both — combining your POS, labor, and ops data with live competitor tracking, local event intelligence, weather forecasts, and market trend data — into a single briefing that tells you what it all means for today&apos;s shift.
+                Internal platforms show you what happened. Market tools show you what&apos;s out there. Sundae is the only decision intelligence platform that synthesizes both — combining your POS, labor, and ops data with live competitor tracking, local event intelligence, weather forecasts, and market trend data — into a single briefing that tells you what it all means for today&apos;s shift.
               </p>
             </div>
             <div>

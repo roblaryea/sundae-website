@@ -129,7 +129,7 @@ export default function BlogPage() {
             Never Miss an Update
           </h2>
           <p className="body-xl mb-8 opacity-90">
-            Get the latest posts on restaurant intelligence, AI, and industry trends delivered to your inbox.
+            Get the latest posts on decision intelligence, AI, and industry trends delivered to your inbox.
           </p>
           <div className="max-w-md mx-auto">
             <div className="flex flex-col sm:flex-row gap-4">

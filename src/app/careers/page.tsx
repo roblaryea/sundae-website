@@ -12,7 +12,7 @@ export default function CareersPage() {
       department: "Engineering",
       location: "Dubai, UAE / Remote",
       type: "Full-time",
-      description: "Build cutting-edge AI models for restaurant decision intelligence. Work with large-scale data and machine learning algorithms.",
+      description: "Build advanced AI models for restaurant decision intelligence. Work with large-scale data and machine learning algorithms.",
       icon: "intelligence",
       color: "bg-blue-600"
     },
@@ -81,7 +81,7 @@ export default function CareersPage() {
     },
     {
       title: "Learning & Development",
-      description: "Annual learning budget and access to cutting-edge tools.",
+      description: "Annual learning budget and access to the latest tools and technologies.",
       icon: "insights"
     },
     {

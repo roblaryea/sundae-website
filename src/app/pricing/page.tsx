@@ -460,11 +460,7 @@ export default function PricingPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-deep-blue via-electric-blue to-deep-blue dark:from-deep-blue dark:via-electric-blue dark:to-deep-blue relative overflow-hidden">
-        <div className="absolute inset-0 opacity-20">
-          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent animate-shimmer"></div>
-        </div>
-
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-slate-950 relative overflow-hidden">
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -475,26 +471,26 @@ export default function PricingPage() {
             <h2 className="section-h2 text-white mb-8">
               Ready to See the Difference?
             </h2>
-            <p className="body-lg text-white mb-12 font-medium">
-              Start free with Report Lite, or book a demo to see the full platform.
+            <p className="body-lg text-slate-300 mb-12">
+              Book a demo to see the full platform with your own data.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <Link href={SIGNUP_URL}>
+              <Link href="/demo">
                 <Button
-                  variant="secondary"
+                  variant="primary"
                   size="lg"
-                  className="bg-white text-electric-blue hover:bg-gray-100 font-semibold px-10 py-4 text-[16px] shadow-xl hover:shadow-2xl transition-all"
+                  className="bg-white text-slate-900 hover:bg-slate-100"
                 >
-                  Start Free with Report
+                  Book a Demo
                 </Button>
               </Link>
-              <Link href="/demo">
+              <Link href="/product">
                 <Button
                   variant="outline-light"
                   size="lg"
                 >
-                  Book a Demo
+                  Explore Products
                 </Button>
               </Link>
             </div>

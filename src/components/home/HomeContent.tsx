@@ -9,6 +9,7 @@ import { useCta } from "@/lib/cta";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { SIGNUP_URL } from "@/lib/urls";
 import { BrowserFrame } from "@/components/ui/BrowserFrame";
+import { ElegantShape } from "@/components/ui/ElegantShape";
 
 /* ─── Count-up hook ────────────────────────────────────────────── */
 
@@ -134,77 +135,133 @@ export default function HomeContent() {
     <MotionConfig reducedMotion="user">
     <>
       {/* ════════════════════════════════════════════════
-          HERO — Premium positioning
+          HERO — Premium dark immersive
           ════════════════════════════════════════════════ */}
-      <section className="relative pt-36 sm:pt-40 pb-24 px-4 sm:px-6 lg:px-8 overflow-hidden bg-[#fafbff] dark:bg-slate-950">
-        {/* Subtle ambient light */}
-        <div className="absolute top-[-200px] left-1/2 -translate-x-1/2 w-[800px] h-[600px] rounded-full bg-gradient-to-b from-blue-100/60 via-violet-50/30 to-transparent blur-3xl pointer-events-none dark:from-blue-900/20 dark:via-violet-900/10" />
-        <div className="absolute bottom-0 right-[-100px] w-[400px] h-[400px] rounded-full bg-gradient-to-tl from-blue-50/40 to-transparent blur-3xl pointer-events-none dark:from-blue-900/10" />
+      <section className="relative min-h-[90vh] flex flex-col justify-center pt-32 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden bg-slate-950">
+        {/* Ambient gradient wash */}
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-800/[0.04] via-transparent to-violet-500/[0.04] blur-3xl" />
+
+        {/* Animated floating shapes */}
+        <div className="absolute inset-0 overflow-hidden">
+          <ElegantShape
+            delay={0.3}
+            width={600}
+            height={140}
+            rotate={12}
+            gradient="from-slate-400/[0.08]"
+            className="left-[-10%] md:left-[-5%] top-[15%] md:top-[20%]"
+          />
+          <ElegantShape
+            delay={0.5}
+            width={500}
+            height={120}
+            rotate={-15}
+            gradient="from-violet-400/[0.08]"
+            className="right-[-5%] md:right-[0%] top-[70%] md:top-[75%]"
+          />
+          <ElegantShape
+            delay={0.4}
+            width={300}
+            height={80}
+            rotate={-8}
+            gradient="from-blue-400/[0.08]"
+            className="left-[5%] md:left-[10%] bottom-[5%] md:bottom-[10%]"
+          />
+          <ElegantShape
+            delay={0.6}
+            width={200}
+            height={60}
+            rotate={20}
+            gradient="from-slate-300/[0.06]"
+            className="right-[15%] md:right-[20%] top-[10%] md:top-[15%]"
+          />
+          <ElegantShape
+            delay={0.7}
+            width={150}
+            height={40}
+            rotate={-25}
+            gradient="from-violet-300/[0.06]"
+            className="left-[20%] md:left-[25%] top-[5%] md:top-[10%]"
+          />
+        </div>
 
         <div className="max-w-5xl mx-auto text-center relative z-20">
+          {/* Eyebrow */}
           <motion.div
-            initial={{ opacity: 0, y: 16 }}
+            initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7 }}
+            transition={{ duration: 1, delay: 0.5, ease: [0.25, 0.4, 0.25, 1] }}
+            className="flex justify-center mb-8"
           >
-            {/* Eyebrow */}
-            <div className="flex justify-center mb-8">
-              <span className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-semibold tracking-wide uppercase bg-slate-100 text-slate-600 border border-slate-200/80 dark:bg-slate-800 dark:text-slate-300 dark:border-slate-700">
-                <span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse" />
-                Decision Intelligence Platform
+            <span className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-semibold tracking-wide uppercase bg-white/[0.03] border border-white/[0.08] text-white/60">
+              <span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse" />
+              Decision Intelligence Platform
+            </span>
+          </motion.div>
+
+          {/* Headline */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 0.7, ease: [0.25, 0.4, 0.25, 1] }}
+          >
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight mb-6 max-w-4xl mx-auto">
+              <span className="bg-clip-text text-transparent bg-gradient-to-b from-white to-white/80">
+                The operating system for
               </span>
-            </div>
-
-            {/* Headline */}
-            <h1 className="hero-h1 text-slate-900 dark:text-white mb-6 max-w-4xl mx-auto">
-              The operating system for{' '}
-              <span className="text-gradient">decision intelligence</span>
+              <br />
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-slate-200 via-white to-slate-300">
+                decision intelligence
+              </span>
             </h1>
+          </motion.div>
 
-            {/* Tagline */}
-            <p className="text-lg sm:text-xl font-medium text-slate-700 dark:text-slate-300 mb-4 tracking-tight">
+          {/* Tagline */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 0.9, ease: [0.25, 0.4, 0.25, 1] }}
+          >
+            <p className="text-lg sm:text-xl font-medium text-white/60 mb-4 tracking-tight">
               See every layer. Miss nothing.
             </p>
-
-            {/* Subheadline */}
-            <p className="body-lg text-slate-500 dark:text-slate-400 leading-relaxed mb-10 max-w-2xl mx-auto">
+            <p className="text-base sm:text-lg text-white/40 leading-relaxed mb-10 max-w-2xl mx-auto font-light">
               Sundae unifies your POS, labor, and operations data with market signals, competitor moves, and local events — so your team acts on what matters, before it matters.
             </p>
-
-            {/* CTAs */}
-            <motion.div
-              className="flex flex-col sm:flex-row gap-3 justify-center mb-4"
-              initial="hidden"
-              animate="visible"
-              variants={{
-                hidden: {},
-                visible: { transition: { staggerChildren: 0.1 } },
-              }}
-            >
-              <motion.div variants={{ hidden: { opacity: 0, y: 8 }, visible: { opacity: 1, y: 0 } }}>
-                <Button
-                  variant="primary"
-                  size="lg"
-                  href={SIGNUP_URL}
-                  onClick={() => cta(SIGNUP_URL, "start_free_report_hero", { page: "/home" })}
-                >
-                  Start Free
-                </Button>
-              </motion.div>
-              <motion.div variants={{ hidden: { opacity: 0, y: 8 }, visible: { opacity: 1, y: 0 } }}>
-                <Button
-                  variant="secondary"
-                  size="lg"
-                  onClick={() => cta("/demo", "book_demo_hero", { page: "/home" })}
-                >
-                  Book a Demo
-                </Button>
-              </motion.div>
-            </motion.div>
-            <p className="text-xs text-slate-400 dark:text-slate-500">
-              Free forever on Report. No credit card required.
-            </p>
           </motion.div>
+
+          {/* CTAs */}
+          <motion.div
+            className="flex flex-col sm:flex-row gap-3 justify-center mb-4"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 1.1, ease: [0.25, 0.4, 0.25, 1] }}
+          >
+            <Button
+              variant="primary"
+              size="lg"
+              className="bg-white text-slate-900 hover:bg-slate-100"
+              href={SIGNUP_URL}
+              onClick={() => cta(SIGNUP_URL, "start_free_hero", { page: "/home" })}
+            >
+              Start Free
+            </Button>
+            <Button
+              variant="outline-light"
+              size="lg"
+              onClick={() => cta("/demo", "book_demo_hero", { page: "/home" })}
+            >
+              Book a Demo
+            </Button>
+          </motion.div>
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.6, delay: 1.3 }}
+            className="text-xs text-white/30"
+          >
+            No credit card required
+          </motion.p>
         </div>
 
         {/* Hero Product Screenshot */}
@@ -212,17 +269,17 @@ export default function HomeContent() {
           className="max-w-5xl mx-auto mt-16 relative z-20 px-4"
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.3 }}
+          transition={{ duration: 0.8, delay: 1.0 }}
           style={{ perspective: '1200px' }}
         >
           {/* Glow behind frame */}
-          <div className="absolute -inset-x-10 bottom-0 h-48 bg-gradient-to-t from-blue-500/8 via-blue-500/12 to-transparent blur-2xl pointer-events-none rounded-full dark:from-blue-500/5 dark:via-blue-500/8" />
+          <div className="absolute -inset-x-10 bottom-0 h-48 bg-gradient-to-t from-violet-500/[0.06] via-blue-500/[0.08] to-transparent blur-2xl pointer-events-none rounded-full" />
 
           <motion.div
             initial={{ rotateX: 8, scale: 0.95, opacity: 0 }}
             animate={{ rotateX: 1.5, scale: 1, opacity: 1 }}
-            transition={{ duration: 1.2, delay: 0.4, ease: [0.25, 0.1, 0.25, 1] }}
-            className="shadow-2xl shadow-slate-900/10 dark:shadow-black/30 rounded-xl relative"
+            transition={{ duration: 1.2, delay: 1.1, ease: [0.25, 0.1, 0.25, 1] }}
+            className="shadow-2xl shadow-black/40 rounded-xl relative border border-white/[0.06]"
           >
             <BrowserFrame
               src="/images/product/pulse-sales-pacing.png"
@@ -238,9 +295,9 @@ export default function HomeContent() {
           className="max-w-4xl mx-auto mt-16 relative z-20"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 0.6, delay: 0.8 }}
+          transition={{ duration: 0.6, delay: 1.4 }}
         >
-          <p className="text-center text-xs font-medium text-slate-400 dark:text-slate-500 uppercase tracking-widest mb-6">
+          <p className="text-center text-xs font-medium text-white/30 uppercase tracking-widest mb-6">
             Trusted by multi-location operators worldwide
           </p>
           <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3">
@@ -252,13 +309,16 @@ export default function HomeContent() {
             ].map(label => (
               <span
                 key={label}
-                className="text-sm font-medium text-slate-400 dark:text-slate-500"
+                className="text-sm font-medium text-white/25"
               >
                 {label}
               </span>
             ))}
           </div>
         </motion.div>
+
+        {/* Bottom gradient fade to white */}
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent pointer-events-none z-30" />
       </section>
 
       {/* ════════════════════════════════════════════════
@@ -648,14 +708,30 @@ export default function HomeContent() {
           FINAL CTA
           ════════════════════════════════════════════════ */}
       <section className="relative py-24 px-4 sm:px-6 lg:px-8 bg-slate-950 text-white overflow-hidden">
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-blue-600/10 rounded-full blur-3xl pointer-events-none" />
+        {/* Ambient shapes */}
+        <ElegantShape
+          delay={0}
+          width={400}
+          height={100}
+          rotate={-12}
+          gradient="from-white/[0.04]"
+          className="left-[-8%] top-[20%]"
+        />
+        <ElegantShape
+          delay={0.2}
+          width={300}
+          height={80}
+          rotate={15}
+          gradient="from-violet-400/[0.04]"
+          className="right-[-5%] bottom-[10%]"
+        />
 
         <div className="max-w-3xl mx-auto text-center relative z-10">
           <h2 className="section-h2 mb-6 text-white">
             See what you&apos;re missing
           </h2>
-          <p className="body-lg mb-10 text-slate-400 max-w-xl mx-auto">
-            A 15-minute walkthrough that changes how you run your restaurants.
+          <p className="body-lg mb-10 text-slate-300 max-w-xl mx-auto">
+            30 minutes with your data. Real insights. No pitch deck.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
