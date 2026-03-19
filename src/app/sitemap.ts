@@ -12,7 +12,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/insights',
     '/canvas',
     '/about',
-    '/pricing',
     '/demo',
     '/contact',
     '/blog',
@@ -38,7 +37,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/product/forge',
     '/product/canvas',
     '/product/watchtower',
-    '/product/sundae-report',
   ]
 
   // Solutions pages
@@ -78,7 +76,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
     changeFrequency: route === '' ? 'weekly' as const : 'monthly' as const,
-    priority: route === '' ? 1.0 : route.startsWith('/product') || route === '/pricing' ? 0.9 : 0.7,
+    priority: route === '' ? 1.0 : route.startsWith('/product') ? 0.9 : 0.7,
   }))
 
   return [...staticPages, ...blogPostPages]

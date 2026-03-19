@@ -7,7 +7,14 @@ export const runtime = 'nodejs';
 // Force dynamic rendering (no caching)
 export const dynamic = 'force-dynamic';
 
-export async function GET() {
+export async function GET(request: Request) {
+  // Verify bearer token
+  const secret = process.env.HEALTH_CHECK_SECRET;
+  const authHeader = request.headers.get('authorization');
+  if (!secret || authHeader !== `Bearer ${secret}`) {
+    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+  }
+
   // Gather safe config info (no secrets)
   const configInfo = {
     sheetsEnabled: process.env.GOOGLE_SHEETS_ENABLED === 'true',

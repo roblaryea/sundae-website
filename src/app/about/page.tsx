@@ -1,9 +1,15 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
+
+export const metadata: Metadata = {
+  title: "About Us",
+  description: "Meet the team behind Sundae — the decision intelligence platform helping restaurant operators turn fragmented data into clear, actionable insights across every location.",
+};
 
 export default function AboutPage() {
   const leadership = [

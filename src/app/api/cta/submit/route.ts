@@ -11,6 +11,25 @@ import { createClickUpTask } from '@/lib/clickupClient';
 // Force Node.js runtime (required for crypto and Google Auth)
 export const runtime = 'nodejs';
 
+// ------------------------------------
+// Rate limiting (in-memory, per IP)
+// ------------------------------------
+const submissions = new Map<string, number[]>();
+const RATE_LIMIT_WINDOW_MS = 60 * 60 * 1000; // 1 hour
+const RATE_LIMIT_MAX = 5;
+
+function isRateLimited(ip: string): boolean {
+  const now = Date.now();
+  const times = submissions.get(ip)?.filter(t => now - t < RATE_LIMIT_WINDOW_MS) || [];
+  if (times.length >= RATE_LIMIT_MAX) {
+    submissions.set(ip, times);
+    return true;
+  }
+  times.push(now);
+  submissions.set(ip, times);
+  return false;
+}
+
 // Resilient custom field ID constants with hard-coded fallbacks
 const CLICKUP_CF_CTA_LABEL_ID =
   process.env.CLICKUP_CF_CTA_LABEL ?? '36f1fbf8-f073-4f59-b8eb-4c6437a9837d';
@@ -58,8 +77,26 @@ export async function POST(request: NextRequest) {
   const requestId = randomUUID();
   const startTime = Date.now();
 
+  // ------------------------------------
+  // Rate limit check (by IP)
+  // ------------------------------------
+  const forwarded = request.headers.get('x-forwarded-for');
+  const ip = forwarded?.split(',')[0]?.trim() || request.headers.get('x-real-ip') || 'unknown';
+
+  if (isRateLimited(ip)) {
+    console.warn(`[${requestId}] Rate limited IP: ${ip}`);
+    return NextResponse.json(
+      {
+        success: false,
+        error: 'Too many submissions. Please try again later.',
+        requestId,
+      },
+      { status: 429, headers: { 'Retry-After': '3600' } }
+    );
+  }
+
   console.log(`[${requestId}] ===== CTA SUBMISSION START =====`);
-  
+
   // Log configuration status (without secrets)
   const storageHealth = checkStorageHealth();
   const missingClickUp = getMissingClickUpConfig();

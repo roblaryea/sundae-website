@@ -7,6 +7,8 @@ export default function Error({
  error: Error & { digest?: string };
  reset: () => void;
 }) {
+ console.error('Application error:', error);
+
  return (
  <div className="min-h-screen flex items-center justify-center bg-white px-4">
  <div className="text-center max-w-md">
@@ -14,7 +16,7 @@ export default function Error({
  Something went wrong
  </h2>
  <p className="text-slate-600 mb-6">
- {error.message || 'An unexpected error occurred. Please try again.'}
+ An unexpected error occurred. Please try again.
  </p>
  <button
  onClick={reset}

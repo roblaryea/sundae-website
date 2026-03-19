@@ -9,7 +9,14 @@ let cachedResult: {
 
 const CACHE_TTL_MS = 60 * 1000; // 60 seconds
 
-export async function GET() {
+export async function GET(request: Request) {
+  // Verify bearer token
+  const secret = process.env.HEALTH_CHECK_SECRET;
+  const authHeader = request.headers.get('authorization');
+  if (!secret || authHeader !== `Bearer ${secret}`) {
+    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+  }
+
   const now = Date.now();
 
   // Return cached result if still valid

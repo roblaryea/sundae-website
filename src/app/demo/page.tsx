@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import React from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
@@ -5,6 +6,11 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/com
 import { LeadCaptureForm } from '@/components/marketing/LeadCaptureForm';
 import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 import { PRICING_URL } from '@/lib/links';
+
+export const metadata: Metadata = {
+  title: "Book a Demo",
+  description: "See Sundae in action with your own restaurant data. Book a 30-minute demo — no slides, no pitch deck. Just your numbers, on screen, with real answers.",
+};
 
 export default function DemoPage() {
 

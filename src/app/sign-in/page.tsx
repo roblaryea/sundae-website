@@ -72,9 +72,7 @@ export default function SignInPage() {
  window.location.href = `${APP_URL}/dashboard`;
  } else {
  // No local auth — redirect to the external Sundae app sign-in
- const url = new URL(SIGNIN_URL);
- if (email) url.searchParams.set('email', email);
- window.location.href = url.toString();
+ window.location.href = SIGNIN_URL;
  }
  } catch (err) {
  setFormError(err instanceof Error ? err.message : 'Something went wrong. Please try again.');

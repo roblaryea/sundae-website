@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useRef, FormEvent } from 'react';
+import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { COUNTRY_CODES } from '@/lib/countryCodes';
 
@@ -731,7 +732,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
 
  {/* Privacy Note */}
  <p className="text-xs text-center text-[var(--text-muted)]">
- By submitting this form, you agree to our privacy policy. We'll never share
+ By submitting this form, you agree to our <Link href="/privacy" className="underline hover:text-[var(--text-secondary)] transition-colors">privacy policy</Link>. We&apos;ll never share
  your information.
  </p>
  </form>

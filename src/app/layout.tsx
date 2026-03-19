@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import { Geist, Geist_Mono } from "next/font/google";
-import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { PostHogProvider } from "@/components/PostHogProvider";
+import { CookieConsent } from "@/components/CookieConsent";
 import { ThemeProvider, ThemeScript } from "@/components/ui/ThemeProvider";
 
 const geistSans = Geist({
@@ -34,11 +34,9 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: "/logos/sundae-orb.png", type: "image/png" },
-      { url: "/logos/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "/logos/favicon-16x16.png", sizes: "16x16", type: "image/png" },
     ],
     apple: [
-      { url: "/logos/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+      { url: "/logos/sundae-orb.png", type: "image/png" },
     ],
   },
   manifest: "/site.webmanifest",
@@ -54,7 +52,7 @@ export const metadata: Metadata = {
     description: "The AI platform that turns restaurant data into action — unify POS, labor, and operational data to benchmark performance.",
     images: [
       {
-        url: "/logos/sundae-og.png",
+        url: "/logos/sundae-orb.png",
         width: 1200,
         height: 630,
         alt: "Sundae – Restaurant Decision Intelligence",
@@ -65,7 +63,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sundae – Decision Intelligence for Restaurants",
     description: "The AI platform that turns restaurant data into action — unify POS, labor, and operational data to benchmark performance.",
-    images: ["/logos/sundae-og.png"],
+    images: ["/logos/sundae-orb.png"],
   },
   robots: {
     index: true,
@@ -86,8 +84,6 @@ export function generateViewport() {
   };
 }
 
-const ga4Id = process.env.NEXT_PUBLIC_GA4_ID;
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -97,31 +93,10 @@ export default function RootLayout({
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning>
       <head>
         <ThemeScript />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preload" href="/logos/sundae-wordmark.png" as="image" />
         <link rel="preload" href="/logos/sundae-orb.png" as="image" />
       </head>
 
-      {/* Google Analytics 4 — only rendered when GA4 ID is configured */}
-      {ga4Id && (
-        <>
-          <Script
-            src={`https://www.googletagmanager.com/gtag/js?id=${ga4Id}`}
-            strategy="afterInteractive"
-          />
-          <Script id="ga4-init" strategy="afterInteractive">
-            {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', '${ga4Id}', {
-                page_path: window.location.pathname,
-              });
-            `}
-          </Script>
-        </>
-      )}
       <body className="antialiased overflow-x-hidden bg-[var(--navy-deep)] text-[var(--text-primary)] transition-colors duration-300">
         <a
           href="#main-content"
@@ -141,6 +116,7 @@ export default function RootLayout({
               </main>
               <Footer />
               <Analytics />
+              <CookieConsent />
             </ThemeProvider>
           </PostHogProvider>
         </Suspense>

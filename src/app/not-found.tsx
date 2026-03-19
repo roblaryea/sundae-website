@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 export default function NotFound() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50 flex items-center justify-center px-4">
+    <div className="min-h-screen bg-[var(--navy-deep)] flex items-center justify-center px-4">
       <div className="max-w-2xl mx-auto text-center">
         {/* Animated Floating Orb */}
         <motion.div
@@ -37,7 +37,7 @@ export default function NotFound() {
               className="drop-shadow-lg rounded-full"
               priority
             />
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-xl"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-400/10 to-purple-400/10 rounded-full blur-xl"></div>
           </motion.div>
         </motion.div>
 
@@ -47,15 +47,15 @@ export default function NotFound() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
         >
-          <h1 className="hero-h1 text-slate-900 mb-4" style={{ fontSize: 'clamp(4rem, 10vw, 8rem)' }}>404</h1>
-          <h2 className="section-h3 text-slate-800 mb-4">
+          <h1 className="hero-h1 text-[var(--text-primary)] mb-4" style={{ fontSize: 'clamp(4rem, 10vw, 8rem)' }}>404</h1>
+          <h2 className="section-h3 text-[var(--text-primary)] mb-4">
             Looks like this scoop melted
           </h2>
-          <p className="body-xl text-slate-600 mb-8">
+          <p className="body-xl text-[var(--text-secondary)] mb-8">
             Let's get you back to Sundae.
           </p>
-          
-          <p className="text-slate-500 mb-8">
+
+          <p className="text-[var(--text-muted)] mb-8">
             The page you're looking for might have been moved, deleted, or never existed.
           </p>
 
@@ -68,12 +68,12 @@ export default function NotFound() {
 
         {/* Decorative Elements */}
         <motion.div
-          className="absolute top-20 left-20 w-32 h-32 bg-blue-200/20 rounded-full blur-2xl"
+          className="absolute top-20 left-20 w-32 h-32 bg-blue-500/10 rounded-full blur-2xl"
           animate={{ x: [-20, 20, -20], y: [-10, 10, -10] }}
           transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
         />
         <motion.div
-          className="absolute bottom-20 right-20 w-40 h-40 bg-purple-200/20 rounded-full blur-2xl"
+          className="absolute bottom-20 right-20 w-40 h-40 bg-purple-500/10 rounded-full blur-2xl"
           animate={{ x: [20, -20, 20], y: [10, -10, 10] }}
           transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
         />

@@ -1,9 +1,15 @@
+import type { Metadata } from "next";
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { LeadCaptureForm } from '@/components/marketing/LeadCaptureForm';
 import { SundaeIcon } from '@/components/icons';
 import { PRICING_URL } from '@/lib/links';
 import { PageHero, FadeUp, PageCTA } from '@/components/ui/PageAnimations';
+
+export const metadata: Metadata = {
+  title: "Contact Us",
+  description: "Get in touch with the Sundae team. Whether you're a multi-unit operator, franchise owner, or hospitality group, we'd love to hear about your data challenges.",
+};
 
 export default function ContactPage() {
 
