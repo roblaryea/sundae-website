@@ -221,14 +221,14 @@ function ExternalSignalsMockup() {
     <MockupFrame label="External Signals Panel">
       <div className="space-y-2">
         {[
-          { type: "Weather", signal: "Rain forecast Fri PM", impact: "-8%", confidence: "72%", icon: "🌧" },
-          { type: "Event", signal: "Food festival Sat-Sun", impact: "+15%", confidence: "88%", icon: "📍" },
-          { type: "Competitor", signal: "New burger joint opened 0.3mi", impact: "-3%", confidence: "45%", icon: "📊" },
-          { type: "Holiday", signal: "St Patrick's Day Mon", impact: "+22%", confidence: "94%", icon: "📅" },
-          { type: "Economic", signal: "CPI +0.3% MoM", impact: "-1%", confidence: "35%", icon: "📈" },
+          { type: "Weather", signal: "Rain forecast Fri PM", impact: "-8%", confidence: "72%", color: "bg-sky-400" },
+          { type: "Event", signal: "Food festival Sat-Sun", impact: "+15%", confidence: "88%", color: "bg-amber-400" },
+          { type: "Competitor", signal: "New burger joint opened 0.3mi", impact: "-3%", confidence: "45%", color: "bg-rose-400" },
+          { type: "Holiday", signal: "St Patrick's Day Mon", impact: "+22%", confidence: "94%", color: "bg-green-400" },
+          { type: "Economic", signal: "CPI +0.3% MoM", impact: "-1%", confidence: "35%", color: "bg-purple-400" },
         ].map((signal) => (
           <div key={signal.signal} className="flex items-center gap-2 p-2 bg-[var(--surface-faint)] rounded-lg">
-            <span className="text-xs">{signal.icon}</span>
+            <span className={`w-2 h-2 rounded-full flex-shrink-0 ${signal.color}`} />
             <div className="flex-1 min-w-0">
               <div className="flex justify-between items-center">
                 <span className="text-[10px] font-medium text-[var(--text-secondary)]">{signal.signal}</span>
