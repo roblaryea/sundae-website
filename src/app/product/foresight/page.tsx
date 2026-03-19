@@ -412,39 +412,54 @@ const components: {
   },
 ];
 
-const foresightFeatures = [
-  "Unified Forecast Timeline — 14 to 90 day horizons",
-  "17 forecast metrics: revenue, labor, food cost, profit, SPLH, RevPASH, and more",
-  "What-If Scenario Builder with up to 5 side-by-side comparisons",
-  "Assumption Registry — auto-detected and operator-overridable",
-  "Accuracy Self-Correction — rolling MAPE and bias detection",
-  "Monte Carlo Risk Analysis — 1,000 simulations per period",
-  "Cross-Module Dependency Graph with correlation scoring",
-  "Executive Briefings powered by Sundae Coach",
-  "External Signal Integration — weather, events, competitors, holidays",
-  "15-minute to monthly forecast granularity",
-  "API access for forecast data",
-];
-
-const pricingTiers = [
+const pricingTiers: {
+  tier: string;
+  base: string;
+  perLocation: string;
+  description: string;
+  highlighted?: boolean;
+  enhancements: string[];
+}[] = [
   {
     tier: "Core Lite",
     base: "$279",
     perLocation: "$27",
     description: "For single-unit operators getting started with predictive intelligence.",
+    enhancements: [
+      "15-minute data refresh cycles",
+      "8,000 AI credits/mo",
+      "2 years historical training data",
+      "50 forecast queries/day",
+    ],
   },
   {
     tier: "Core Pro",
     base: "$249",
     perLocation: "$24",
-    description: "For multi-unit operators with full intelligence stack and faster refresh.",
+    description: "For multi-unit operators with the full intelligence stack.",
     highlighted: true,
+    enhancements: [
+      "5-minute data refresh — faster recalibration",
+      "14,000 AI credits/mo — more simulations",
+      "3 years historical data — deeper accuracy",
+      "150 forecast queries/day",
+      "Analyst & Strategist intelligence modes",
+      "Native multi-POS support",
+    ],
   },
   {
     tier: "Enterprise",
     base: "Custom",
     perLocation: "Custom",
     description: "Dedicated support, SLAs, white-label options, and custom integrations.",
+    enhancements: [
+      "Custom data refresh intervals",
+      "Unlimited AI credits",
+      "Full historical data access",
+      "Unlimited forecast queries",
+      "All intelligence modes",
+      "Dedicated success manager",
+    ],
   },
 ];
 
@@ -616,15 +631,45 @@ export default function ForesightPage() {
         <div className="max-w-5xl mx-auto">
           <FadeUp className="text-center mb-12">
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">Add Foresight to Your Core Plan</h2>
-            <p className="body-lg text-[var(--text-supporting)]">
-              Foresight is a module add-on available on any Sundae Core plan. All 8 components included — no feature gating.
+            <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">
+              Every Foresight plan includes all 8 components. Your Core tier determines how fast, how deep, and how much you can run.
             </p>
           </FadeUp>
 
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+          {/* Unified feature list */}
+          <FadeUp className="mb-12">
+            <Card variant="elevated" className="p-6 sm:p-8">
+              <p className="text-xs font-semibold tracking-[0.18em] uppercase text-cyan-400 mb-4">
+                INCLUDED ON EVERY TIER
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-2.5">
+                {[
+                  "Unified Forecast Timeline — 14 to 90 day horizons",
+                  "17 forecast metrics across revenue, labor, cost, and profit",
+                  "What-If Scenario Builder with 5 side-by-side comparisons",
+                  "Assumption Registry — auto-detected and operator-overridable",
+                  "Accuracy Self-Correction with rolling MAPE and bias detection",
+                  "Monte Carlo Risk Analysis — 1,000 simulations per period",
+                  "Cross-Module Dependency Graph with correlation scoring",
+                  "Executive Briefings powered by Sundae Coach",
+                  "External Signal Integration — weather, events, competitors",
+                  "15-minute to monthly forecast granularity",
+                  "API access for forecast data",
+                ].map((f) => (
+                  <div key={f} className="flex items-start gap-2 text-sm text-[var(--text-secondary)]">
+                    <span className="text-cyan-400 flex-shrink-0 mt-0.5">&#10003;</span>
+                    <span>{f}</span>
+                  </div>
+                ))}
+              </div>
+            </Card>
+          </FadeUp>
+
+          {/* Tier pricing cards */}
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
             {pricingTiers.map((tier) => (
               <StaggerItem key={tier.tier}>
-                <Card variant="elevated" className={`relative overflow-hidden ${tier.highlighted ? 'border border-cyan-500/40' : ''}`}>
+                <Card variant="elevated" className={`relative overflow-hidden h-full ${tier.highlighted ? 'border border-cyan-500/40' : ''}`}>
                   {tier.highlighted && (
                     <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-cyan-500 to-blue-600" />
                   )}
@@ -633,7 +678,7 @@ export default function ForesightPage() {
                       <CardTitle className="text-lg text-[var(--text-primary)]">{tier.tier}</CardTitle>
                       {tier.highlighted && (
                         <span className="text-[10px] font-semibold uppercase px-2 py-0.5 rounded-full bg-cyan-500/20 text-cyan-400">
-                          Most Popular
+                          Recommended
                         </span>
                       )}
                     </div>
@@ -641,27 +686,30 @@ export default function ForesightPage() {
                       <div className="mt-2">
                         <span className="text-3xl font-bold text-[var(--text-primary)]">{tier.base}</span>
                         <span className="text-sm text-[var(--text-muted)]">/mo</span>
-                        <span className="text-sm text-[var(--text-supporting)] ml-2">+ {tier.perLocation}/location</span>
+                        <span className="text-sm text-[var(--text-supporting)] ml-2">+ {tier.perLocation}/loc</span>
                       </div>
                     ) : (
                       <div className="mt-2">
                         <span className="text-3xl font-bold text-[var(--text-primary)]">Custom</span>
                       </div>
                     )}
-                    <p className="text-xs text-[var(--text-muted)] mt-1">$599 one-time setup fee</p>
+                    {tier.base !== "Custom" && (
+                      <p className="text-xs text-[var(--text-muted)] mt-1">$599 one-time setup · 3 locations included</p>
+                    )}
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-[var(--text-supporting)] mb-4">{tier.description}</p>
                     <div className="pt-3 border-t border-[var(--border-default)]">
-                      <p className="text-[10px] font-semibold uppercase tracking-wider text-[var(--text-muted)] mb-2">All 8 components included</p>
+                      <p className="text-[10px] font-semibold uppercase tracking-wider text-[var(--text-muted)] mb-2">
+                        Your Core tier provides
+                      </p>
                       <ul className="space-y-1.5">
-                        {foresightFeatures.slice(0, 6).map(f => (
-                          <li key={f} className="flex items-start gap-2 text-xs text-[var(--text-secondary)]">
-                            <span className="text-cyan-400 flex-shrink-0 mt-0.5">&#10003;</span>
-                            <span>{f}</span>
+                        {tier.enhancements.map((e) => (
+                          <li key={e} className="flex items-start gap-2 text-xs text-[var(--text-secondary)]">
+                            <span className={`flex-shrink-0 mt-0.5 ${tier.highlighted ? 'text-cyan-400' : 'text-[var(--text-muted)]'}`}>&#10003;</span>
+                            <span>{e}</span>
                           </li>
                         ))}
-                        <li className="text-xs text-[var(--text-muted)] pl-5">+ {foresightFeatures.length - 6} more</li>
                       </ul>
                     </div>
                   </CardContent>
@@ -672,7 +720,7 @@ export default function ForesightPage() {
 
           <FadeUp className="text-center">
             <p className="text-sm text-[var(--text-muted)] max-w-2xl mx-auto">
-              Foresight requires a Sundae Core plan (Core Lite, Core Pro, or Enterprise). Pricing includes 3 locations — additional locations billed per-location. See the{' '}
+              Foresight requires a Sundae Core plan. Additional locations billed per-location beyond the 3 included. See the{' '}
               <a href={PRICING_URL} className="text-cyan-400 hover:text-cyan-300 underline">pricing calculator</a>{' '}
               for a custom quote.
             </p>
