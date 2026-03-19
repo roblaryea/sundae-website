@@ -79,6 +79,14 @@ const fiveLayers: {
     accent: "from-[#EC4899] to-[#BE185D]",
     link: "/intelligence",
   },
+  {
+    name: "Foresight",
+    subtitle: "Predictive Intelligence",
+    description: "14–90 day forecasts for revenue, labor, and profit. What-if scenarios, executive briefings, and self-correcting accuracy.",
+    icon: "forecasting",
+    accent: "from-[#0EA5E9] to-[#0284C7]",
+    link: "/product/foresight",
+  },
 ];
 
 const moduleCategories = [
@@ -356,7 +364,7 @@ export default function HomeContent() {
             <FadeUp className="text-center mb-20">
               <p className="eyebrow mb-4">PLATFORM</p>
               <h2 id="platform-heading" className="section-h2 mb-5">
-                Five layers. One truth.
+                Six layers. One truth.
               </h2>
               <p className="body-lg max-w-2xl mx-auto">
                 Everything a restaurant group needs to understand, predict, and act — from real-time shifts to long-range strategy.

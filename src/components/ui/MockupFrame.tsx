@@ -412,3 +412,57 @@ export function RevenueAssuranceMockup() {
     </MockupFrame>
   );
 }
+
+/* ─── Foresight Intelligence Mockup ─── */
+
+export function ForesightDashboardMockup() {
+  return (
+    <MockupFrame label="Foresight — 14-Day Revenue Forecast">
+      <div className="space-y-4">
+        <div className="grid grid-cols-3 gap-3">
+          <MockupKPI label="Forecast Revenue" value="$248K" trend="+6.2% vs last period" trendUp />
+          <MockupKPI label="Confidence" value="91%" color="#22C55E" />
+          <MockupKPI label="MAPE" value="3.8%" trend="↓ from 5.1%" trendUp color="#22C55E" />
+        </div>
+        {/* Forecast timeline with confidence band */}
+        <div className="space-y-1.5">
+          <div className="text-[10px] text-[var(--text-muted)] font-medium">14-DAY FORECAST · CONFIDENCE BAND</div>
+          <div className="relative h-20 bg-[var(--surface-faint)] rounded-lg overflow-hidden">
+            {/* Confidence band */}
+            <div className="absolute inset-0 flex items-end">
+              <svg viewBox="0 0 200 60" className="w-full h-full" preserveAspectRatio="none">
+                {/* Confidence fill */}
+                <path d="M0,40 L15,38 L30,35 L45,32 L60,30 L75,28 L90,25 L105,22 L120,20 L135,18 L150,22 L165,25 L180,20 L200,18 L200,50 L180,42 L165,45 L150,44 L135,38 L120,40 L105,42 L90,45 L75,48 L60,50 L45,50 L30,52 L15,52 L0,54 Z" fill="rgba(28,71,255,0.12)" />
+                {/* Forecast line */}
+                <path d="M0,47 L15,45 L30,43 L45,41 L60,40 L75,38 L90,35 L105,32 L120,30 L135,28 L150,33 L165,35 L180,31 L200,28" fill="none" stroke="#1C47FF" strokeWidth="1.5" />
+                {/* Actual line (past) */}
+                <path d="M0,47 L15,45 L30,43 L45,41 L60,40 L75,38 L90,35" fill="none" stroke="#22C55E" strokeWidth="1.5" strokeDasharray="3,2" />
+                {/* Today marker */}
+                <line x1="90" y1="0" x2="90" y2="60" stroke="rgba(255,255,255,0.2)" strokeWidth="0.5" strokeDasharray="2,2" />
+                <text x="90" y="8" fill="rgba(255,255,255,0.4)" fontSize="4" textAnchor="middle">Today</text>
+              </svg>
+            </div>
+          </div>
+          <div className="flex items-center gap-3 text-[9px] text-[var(--text-muted)]">
+            <span className="flex items-center gap-1"><span className="w-3 h-0.5 rounded-full bg-[#22C55E]" /> Actual</span>
+            <span className="flex items-center gap-1"><span className="w-3 h-0.5 rounded-full bg-[#1C47FF]" /> Forecast</span>
+            <span className="flex items-center gap-1"><span className="w-3 h-1.5 rounded-sm bg-[rgba(28,71,255,0.12)]" /> Confidence</span>
+          </div>
+        </div>
+        {/* AI Briefing snippet */}
+        <div className="p-2.5 rounded-lg bg-[rgba(28,71,255,0.06)] border border-[rgba(28,71,255,0.15)]">
+          <div className="flex items-center gap-1.5 mb-1.5">
+            <div className="w-4 h-4 rounded-full bg-[#1C47FF] flex items-center justify-center">
+              <span className="text-[8px] text-white font-bold">S</span>
+            </div>
+            <span className="text-[10px] font-semibold text-[var(--text-secondary)]">Sundae Coach Briefing</span>
+          </div>
+          <p className="text-[9px] text-[var(--text-supporting)] leading-relaxed">
+            Weekend revenue projected +8% above baseline. Thursday shows 12% downside risk — 2 staff vacations overlap with a local sports event. Consider calling in backup.
+          </p>
+        </div>
+        <MockupAlert type="info">3 scenarios simulated · Baseline confidence: 91% · Next briefing: Tomorrow 6:00 AM</MockupAlert>
+      </div>
+    </MockupFrame>
+  );
+}

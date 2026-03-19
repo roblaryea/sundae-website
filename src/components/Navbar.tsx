@@ -177,14 +177,14 @@ const Navbar = () => {
     setIsMenuOpen(false);
   }, []);
 
-  // Five Intelligence Pillars
+  // Six Intelligence Layers
   const pillars = [
     { name: 'Pulse', description: 'Intraday operations monitor', href: '/product/pulse' },
     { name: 'Benchmarks', description: 'Competitive intelligence', href: '/benchmarking' },
     { name: 'Watchtower', description: 'External market signals', href: '/product/watchtower' },
     { name: 'Insights', description: 'Specialized analytics modules', href: '/insights' },
     { name: 'Sundae Intelligence', description: 'AI-powered conversational analytics', href: '/intelligence' },
-    { name: 'Cross-Intelligence', description: 'Cross-module correlation engine', href: '/product/cross-intelligence' },
+    { name: 'Foresight', description: 'Predictive intelligence & forecasting', href: '/product/foresight' },
   ];
 
   // Product Tiers

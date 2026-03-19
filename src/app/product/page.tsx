@@ -13,6 +13,7 @@ import {
   WatchtowerMockup,
   InsightsModuleMockup,
   IntelligenceChatMockup,
+  ForesightDashboardMockup,
 } from "@/components/ui/MockupFrame";
 
 const pillars: {
@@ -95,11 +96,11 @@ const pillars: {
       "Inventory waste & variance",
       "Purchasing & supplier scoring",
       "Marketing ROI attribution",
-      "Cross-Intelligence correlations",
+      "Cross-Intelligence correlation engine",
     ],
     link: "/insights",
     stat: "179+",
-    statLabel: "data models across 12 domains",
+    statLabel: "data models across 13 domains",
     mockup: InsightsModuleMockup,
   },
   {
@@ -121,6 +122,25 @@ const pillars: {
     statLabel: "from question to cited answer",
     mockup: IntelligenceChatMockup,
   },
+  {
+    name: "Foresight",
+    tagline: "Predictive Intelligence",
+    description:
+      "Forward-looking forecasts for revenue, labor, food cost, and profit — with confidence bands, what-if scenarios, and weekly executive briefings. Stop reacting. Start anticipating.",
+    icon: "forecasting",
+    features: [
+      "14–90 day multi-metric forecasts",
+      "What-if scenario simulator",
+      "Cross-module dependency graphs",
+      "Forecast accuracy self-correction",
+      "Weekly executive briefings",
+      "External signal integration",
+    ],
+    link: "/product/foresight",
+    stat: "91%",
+    statLabel: "forecast accuracy with self-correction",
+    mockup: ForesightDashboardMockup,
+  },
 ];
 
 export default function ProductPage() {
@@ -132,7 +152,7 @@ export default function ProductPage() {
       <PageHero
         badge="The Sundae Platform"
         title="179 Data Models. 12 Domains. One Truth."
-        description="Five intelligence layers that turn fragmented restaurant data into decisions that compound — shift by shift, outlet by outlet."
+        description="Six intelligence layers that turn fragmented restaurant data into decisions that compound — shift by shift, outlet by outlet."
       >
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Button variant="cta" size="lg" onClick={() => cta(REPORT_APP_URL, "start_free_product_hero", { page: "/product" })}>
@@ -220,7 +240,7 @@ export default function ProductPage() {
                     <li className="flex items-center gap-2"><span className="text-purple-400">&#10003;</span> Pulse (intraday operations)</li>
                     <li className="flex items-center gap-2"><span className="text-purple-400">&#10003;</span> Watchtower (market intelligence)</li>
                     <li className="flex items-center gap-2"><span className="text-purple-400">&#10003;</span> 12 Intelligence Modules</li>
-                    <li className="flex items-center gap-2"><span className="text-purple-400">&#10003;</span> Cross-Intelligence (3+ modules)</li>
+                    <li className="flex items-center gap-2"><span className="text-purple-400">&#10003;</span> Foresight (predictive intelligence)</li>
                     <li className="flex items-center gap-2"><span className="text-purple-400">&#10003;</span> Sundae Coach & Playbooks</li>
                   </ul>
                   <Button
@@ -247,13 +267,13 @@ export default function ProductPage() {
         </div>
       </section>
 
-      {/* Five Pillars */}
+      {/* Six Intelligence Layers */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
               <p className="eyebrow text-[#60A5FA] mb-4">
-                FIVE INTELLIGENCE LAYERS
+                SIX INTELLIGENCE LAYERS
               </p>
               <h2 className="section-h2 text-[var(--text-primary)] mb-4">
                 From Shift Floor to Boardroom
@@ -283,7 +303,8 @@ export default function ProductPage() {
                           index === 1 ? 'from-blue-500 to-blue-600' :
                           index === 2 ? 'from-amber-500 to-orange-600' :
                           index === 3 ? 'from-purple-500 to-purple-600' :
-                          'from-green-500 to-emerald-600'
+                          index === 4 ? 'from-green-500 to-emerald-600' :
+                          'from-cyan-500 to-blue-600'
                         } rounded-xl flex items-center justify-center`}>
                           <SundaeIcon name={pillar.icon} size="lg" className="text-white" />
                         </div>
