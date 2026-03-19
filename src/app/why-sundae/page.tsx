@@ -1,5 +1,3 @@
-"use client";
-
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
@@ -20,7 +18,7 @@ const differentiators: { title: string; description: string; icon: SundaeIconNam
  },
  {
  title: "Real-Time Operations via Pulse",
- description: "Intraday sales pacing, labor productivity, leakage detection, and AI coaching \u2014 before the shift is over.",
+ description: "Intraday sales pacing, labor productivity, leakage detection, and coaching \u2014 before the shift is over.",
  icon: "speed",
  color: "bg-green-600"
  },
@@ -56,7 +54,7 @@ const problems = [
  {
  problem: "Your P&L Arrives Weeks After the Damage Is Done.",
  current: "The labor overrun already hit payroll. The margin leak already happened. You\u2019re managing yesterday\u2019s problems with last week\u2019s data.",
- solution: "Pulse monitors operations intraday with 5-minute refresh, real-time alerts, and AI coaching that acts in the moment.",
+ solution: "Pulse monitors operations intraday with 5-minute refresh, real-time alerts, and coaching that acts in the moment.",
  impact: "Shift from reactive to proactive management",
  stat: "5 min",
  statLabel: "refresh cycle"
@@ -79,14 +77,14 @@ const comparisonColumns = [
  highlight: false,
  },
  {
- title: "Generic Analytics",
+ title: "Generic Dashboards",
  items: ["Multi-source dashboards", "Scheduled reports", "Basic alerting", "No industry context"],
  icon: "sync" as SundaeIconName,
  highlight: false,
  },
  {
  title: "Sundae",
- items: ["4D Intelligence Model", "Real-time Pulse monitoring", "Market context via Watchtower", "AI-powered recommendations"],
+ items: ["4D Intelligence Model", "Real-time Pulse monitoring", "Market context via Watchtower", "Intelligent recommendations"],
  icon: "speed" as SundaeIconName,
  highlight: true,
  },
@@ -121,8 +119,8 @@ export default function WhySundaePage() {
  <div className="bg-[var(--surface-faint)] rounded-2xl border border-[var(--border-default)] overflow-hidden">
  <div className="grid grid-cols-1 lg:grid-cols-12 gap-0">
  {/* Pain side */}
- <div className="lg:col-span-5 p-8 bg-[rgba(220,38,38,0.1)]/50 border-b lg:border-b-0 lg:border-r border-red-100/50">
- <div className="text-xs font-semibold uppercase tracking-wider text-red-500 mb-3">The Problem</div>
+ <div className="lg:col-span-5 p-8 bg-red-500/10 border-b lg:border-b-0 lg:border-r border-red-500/20">
+ <div className="text-xs font-semibold uppercase tracking-wider text-red-400 mb-3">The Problem</div>
  <h3 className="text-xl font-bold text-[var(--text-primary)] mb-3 leading-snug">{item.problem}</h3>
  <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{item.current}</p>
  </div>
@@ -136,11 +134,11 @@ export default function WhySundaePage() {
  </div>
 
  {/* Solution side */}
- <div className="lg:col-span-5 p-8 bg-green-50/30 border-t lg:border-t-0 lg:border-l border-green-100/50">
- <div className="text-xs font-semibold uppercase tracking-wider text-green-600 mb-3">Sundae Solution</div>
+ <div className="lg:col-span-5 p-8 bg-green-500/10 border-t lg:border-t-0 lg:border-l border-green-500/20">
+ <div className="text-xs font-semibold uppercase tracking-wider text-green-400 mb-3">Sundae Solution</div>
  <p className="text-sm text-[var(--text-secondary)] leading-relaxed mb-4">{item.solution}</p>
- <div className="flex items-center gap-2 text-sm font-medium text-green-700">
- <span className="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center text-green-600 text-xs">&#10003;</span>
+ <div className="flex items-center gap-2 text-sm font-medium text-green-400">
+ <span className="w-5 h-5 rounded-full bg-green-500/20 flex items-center justify-center text-green-400 text-xs">&#10003;</span>
  {item.impact}
  </div>
  </div>
@@ -171,8 +169,8 @@ export default function WhySundaePage() {
  <Card variant="elevated" className="h-full hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
  <CardHeader>
  <div className="flex items-center space-x-4">
- <div className={`w-12 h-12 ${item.color} rounded-xl flex items-center justify-center text-[var(--text-primary)] shadow-none`}>
- <SundaeIcon name={item.icon} size="lg" className="text-[var(--text-primary)]" />
+ <div className={`w-12 h-12 ${item.color} rounded-xl flex items-center justify-center shadow-none`}>
+ <SundaeIcon name={item.icon} size="lg" className="text-white" />
  </div>
  <CardTitle className="text-[var(--text-primary)] text-lg">{item.title}</CardTitle>
  </div>
@@ -208,12 +206,12 @@ export default function WhySundaePage() {
  <div className={`rounded-2xl p-8 text-center h-full ${
  section.highlight
  ? "bg-[#1C47FF]/20 border border-blue-500/30 ring-1 ring-blue-500/20"
- : "bg-[var(--navy-deep)]/[0.04] border border-[var(--border-default)]"
+ : "bg-[var(--surface-faint)] border border-[var(--border-default)]"
  }`}>
  <div className={`w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-5 ${
- section.highlight ? "bg-[rgba(28,71,255,0.1)]0/30" : "bg-[var(--navy-deep)]/10"
+ section.highlight ? "bg-[#1C47FF]/30" : "bg-[var(--surface-subtle)]"
  }`}>
- <SundaeIcon name={section.icon} size="xl" className="text-[var(--text-primary)]" />
+ <SundaeIcon name={section.icon} size="xl" className={section.highlight ? "text-blue-300" : "text-[var(--text-muted)]"} />
  </div>
  <h3 className={`font-bold text-lg mb-6 ${section.highlight ? "text-blue-200" : "text-[var(--text-secondary)]"}`}>{section.title}</h3>
  <ul className="space-y-3 text-left">
@@ -267,7 +265,7 @@ export default function WhySundaePage() {
  {
  title: "C-Suite & Owners",
  pain: "Your worst-performing outlet is invisible until Thursday.",
- description: "Portfolio dashboards, AI daily briefings, competitive intelligence, and strategic decision views.",
+ description: "Portfolio dashboards, daily briefings, competitive intelligence, and strategic decision views.",
  icon: "intelligence" as SundaeIconName,
  color: "bg-purple-600"
  },
@@ -283,8 +281,8 @@ export default function WhySundaePage() {
  <Card variant="elevated" className="h-full">
  <CardHeader>
  <div className="text-center">
- <div className={`w-14 h-14 ${role.color} rounded-full flex items-center justify-center text-[var(--text-primary)] mx-auto mb-4 shadow-none`}>
- <SundaeIcon name={role.icon} size="lg" className="text-[var(--text-primary)]" />
+ <div className={`w-14 h-14 ${role.color} rounded-full flex items-center justify-center mx-auto mb-4 shadow-none`}>
+ <SundaeIcon name={role.icon} size="lg" className="text-white" />
  </div>
  <CardTitle className="text-[var(--text-primary)] text-lg mb-2">{role.title}</CardTitle>
  <p className="text-sm font-medium text-[var(--text-muted)] italic">&ldquo;{role.pain}&rdquo;</p>

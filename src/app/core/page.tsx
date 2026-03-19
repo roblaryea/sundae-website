@@ -1,13 +1,13 @@
 'use client';
 
-import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { motion } from "framer-motion";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
-import { BrowserFrame } from "@/components/ui/BrowserFrame";
 import { useCta } from "@/lib/cta";
 import { PRICING_URL } from "@/lib/urls";
+import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
+import { PulseDashboardMockup } from "@/components/ui/MockupFrame";
 
 export default function CoreProductPage() {
   const cta = useCta();
@@ -16,86 +16,86 @@ export default function CoreProductPage() {
     {
       name: "Core Lite",
       badge: "Growing Operations",
-      subtitle: "Real-Time Intelligence for 1-29 Locations",
-      description: "Perfect for restaurant groups scaling from single-location to multi-location operations.",
+      subtitle: "Real-Time Intelligence for 1–29 Locations",
+      description: "For restaurant groups scaling from single-location to multi-location operations. 4-hour refresh cycles and single POS integration.",
       features: [
         "4-hour refresh (6x daily)",
-        "600 base AI credits + 120/location",
+        "600 base credits + 120/location",
         "30 custom dashboards",
         "2-year retention",
         "Single POS integration",
-        "Email + Chat + Phone support"
+        "Email + Chat + Phone support",
       ],
-      bestFor: "1-10 locations, single-brand portfolios",
-      color: "from-blue-500 to-blue-600"
+      bestFor: "1–10 locations, single-brand portfolios",
+      color: "from-blue-500 to-blue-600",
     },
     {
       name: "Core Pro",
       badge: "Most Popular",
-      subtitle: "Optimized for 30-100 Location Portfolios",
-      description: "For established multi-location operators who need faster refresh cycles and advanced forecasting.",
+      subtitle: "Optimized for 30–100 Location Portfolios",
+      description: "For established multi-location operators who need faster refresh cycles and advanced forecasting across brands.",
       features: [
         "2-hour refresh (12x daily)",
-        "1,200 base AI credits + 240/location",
+        "1,200 base credits + 240/location",
         "75 custom dashboards",
         "3-year retention",
         "Multi-POS support",
-        "Priority phone support (2hr SLA)"
+        "Priority phone support (2hr SLA)",
       ],
-      bestFor: "30-100 locations, multi-brand operators",
-      color: "from-purple-500 to-purple-600"
+      bestFor: "30–100 locations, multi-brand operators",
+      color: "from-purple-500 to-purple-600",
     },
     {
       name: "Enterprise",
       badge: "Custom Everything",
-      subtitle: "Built for 100+ Locations or Enterprise Features",
-      description: "For large-scale operations or any organization requiring enterprise features regardless of scale.",
+      subtitle: "Built for 100+ Locations",
+      description: "For large-scale operations requiring custom refresh frequency, unlimited dashboards, white-label, SSO, and dedicated support.",
       features: [
         "Custom refresh frequency",
-        "Unlimited AI credits",
+        "Unlimited credits",
         "Unlimited dashboards",
         "Custom retention",
         "White-label, SSO, dedicated CSM",
-        "24/7 support with custom SLAs"
+        "24/7 support with custom SLAs",
       ],
       bestFor: "100+ locations, multi-brand enterprises",
-      color: "from-orange-500 to-orange-600"
-    }
+      color: "from-orange-500 to-orange-600",
+    },
   ];
 
   const fourDimensions = [
     {
       dimension: "1D",
       title: "What Happened",
-      status: "✓✓✓ Real-Time",
-      description: "Complete operational truth, updated every 2-4 hours. Near real-time visibility for same-shift interventions.",
+      status: "Real-Time",
+      description: "Complete operational truth, updated every 2–4 hours. Near real-time visibility for same-shift interventions.",
       icon: "report" as SundaeIconName,
-      color: "from-blue-500 to-blue-600"
+      color: "from-blue-500 to-blue-600",
     },
     {
       dimension: "2D",
       title: "Plan vs. Actual",
-      status: "✓✓✓ Real-Time",
+      status: "Real-Time",
       description: "Real-time budget variance tracking. Flash reporting for finance teams. Week-to-date and month-to-date visibility.",
       icon: "marketing" as SundaeIconName,
-      color: "from-purple-500 to-purple-600"
+      color: "from-purple-500 to-purple-600",
     },
     {
       dimension: "3D",
       title: "Market Context",
-      status: "✓✓✓ Expanded",
-      description: "Full benchmarking suite (30+ metrics). Portfolio comparisons. Identify best and worst performers. Competitive context via Watchtower.",
+      status: "Expanded",
+      description: "Full benchmarking suite (30+ metrics). Portfolio comparisons. Competitive context via Watchtower.",
       icon: "multiLocation" as SundaeIconName,
-      color: "from-green-500 to-green-600"
+      color: "from-green-500 to-green-600",
     },
     {
       dimension: "4D",
       title: "What's Next",
-      status: "✓✓✓ Expanded",
-      description: "14-30 day forecasting. Proactive alerts before problems escalate. AI recommendations with confidence scores. Predictive scheduling.",
+      status: "Expanded",
+      description: "14–30 day forecasting. Proactive alerts before problems escalate. Sundae Coach recommendations with confidence scores.",
       icon: "growth" as SundaeIconName,
-      color: "from-orange-500 to-orange-600"
-    }
+      color: "from-orange-500 to-orange-600",
+    },
   ];
 
   const modules = [
@@ -103,7 +103,7 @@ export default function CoreProductPage() {
     { name: "Inventory Intelligence", description: "Real-time waste tracking, automated par levels", icon: "insights" as SundaeIconName },
     { name: "Purchasing Intelligence", description: "Real-time price optimization, vendor comparison", icon: "marketing" as SundaeIconName },
     { name: "Marketing Intelligence", description: "Real-time campaign tracking, CAC monitoring", icon: "growth" as SundaeIconName },
-    { name: "Reservations Intelligence", description: "Real-time booking patterns, table optimization", icon: "operators" as SundaeIconName }
+    { name: "Reservations Intelligence", description: "Real-time booking patterns, table optimization", icon: "operators" as SundaeIconName },
   ];
 
   const integrations = [
@@ -112,132 +112,112 @@ export default function CoreProductPage() {
     { category: "Inventory & Purchasing", examples: "MarketMan, Craftable, BinWise", icon: "insights" as SundaeIconName },
     { category: "Accounting", examples: "QuickBooks, Xero, Sage, FreshBooks", icon: "finance" as SundaeIconName },
     { category: "Reservations", examples: "OpenTable, Resy, SevenRooms, Tock", icon: "operators" as SundaeIconName },
-    { category: "Delivery & Marketing", examples: "Deliverect, Uber Eats, DoorDash, Meta, Google Ads, Mailchimp", icon: "marketing" as SundaeIconName }
+    { category: "Delivery & Marketing", examples: "Deliverect, Uber Eats, DoorDash, Meta, Google Ads, Mailchimp", icon: "marketing" as SundaeIconName },
   ];
 
   const faqs = [
     {
       q: "What's the difference between Core Lite and Core Pro?",
-      a: "Core Lite: 4-hour refresh, 600 base AI credits, 30 dashboards, single POS. Core Pro: 2-hour refresh, 1,200 base AI credits, 75 dashboards, multi-POS support."
+      a: "Core Lite: 4-hour refresh, 600 base credits, 30 dashboards, single POS. Core Pro: 2-hour refresh, 1,200 base credits, 75 dashboards, multi-POS support.",
     },
     {
       q: "Can I upgrade from Report to Core?",
-      a: "Yes! All historical data is preserved. Seamless transition with no data loss."
+      a: "Yes. All historical data is preserved. Transition with no data loss.",
     },
     {
       q: "Do I need Core if I only have 5 locations?",
-      a: "Not required, but recommended if you need operational speed (2-4 hour refresh). Report tier works great for 1-10 locations if daily reports are sufficient."
+      a: "Not required, but recommended if you need operational speed (2–4 hour refresh). Report works great for 1–10 locations if daily reports are sufficient.",
     },
     {
       q: "Can Core handle multiple POS systems?",
-      a: "Core Pro and Enterprise support multi-POS environments. Core Lite supports single POS across all locations."
+      a: "Core Pro and Enterprise support multi-POS environments. Core Lite supports single POS across all locations.",
     },
     {
       q: "Can I use Core with Watchtower?",
-      a: "Yes! Highly recommended. Core provides internal intelligence, Watchtower adds external market intelligence for complete visibility."
+      a: "Highly recommended. Core provides internal intelligence, Watchtower adds external market intelligence for complete visibility.",
     },
     {
       q: "Can I use Core with Modules?",
-      a: "Yes! All 5 specialized modules work with Core to deepen intelligence in specific operational areas."
-    }
+      a: "Yes. All 5 specialized modules work with Core to deepen intelligence in specific operational areas.",
+    },
   ];
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
-      {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
-        <div className="max-w-7xl mx-auto text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
+      {/* Hero */}
+      <PageHero
+        badge="Sundae Core"
+        title="Real-Time Operations. Not End-of-Day Reports."
+        description="Connected to your POS, labor, inventory, and every system that matters. Core refreshes every 2–4 hours so you can act during the shift — not after the damage is done."
+      >
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <Button
+            variant="cta"
+            size="lg"
+            href={PRICING_URL}
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 px-5 py-2.5 rounded-full text-base font-semibold mb-6">
-              <SundaeIcon name="core" size="md" />
-              <span>Sundae Core</span>
-            </div>
-            <h1 className="hero-h1 text-[var(--text-primary)] mb-6">
-              See Your Operation in Real Time.<br />Fix Problems Before They Cost You.
-            </h1>
-            <p className="body-xl text-[var(--text-supporting)] mb-4 max-w-4xl mx-auto">
-              Connected to your POS, labor, inventory, and every system that matters. Core refreshes every 2-4 hours so you can act during the shift — not after the damage is done.
-            </p>
-            <p className="body-lg text-[var(--text-muted)] mb-8 max-w-3xl mx-auto">
-              Everything in Report, plus operational speed. Predictive forecasting. Proactive alerts. The intelligence your end-of-day reports can't give you.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
-              <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="btn-primary btn-lg">
-                Explore Core Tiers
-              </a>
-              <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="btn-secondary btn-lg">
-                Calculate Your Savings
-              </a>
-            </div>
-          </motion.div>
-
-          <div className="mt-12 max-w-4xl mx-auto">
-            <BrowserFrame
-              src="/images/product/core-overview.png"
-              alt="Sundae Core — real-time operational intelligence dashboard"
-              priority
-              animate="scale"
-            />
-          </div>
+            Explore Core Tiers
+          </Button>
+          <Button
+            variant="outline-light"
+            size="lg"
+            onClick={() => cta("/demo", "book_demo_core_hero", { page: "/core" })}
+          >
+            Book a Demo
+          </Button>
         </div>
-      </section>
+      </PageHero>
 
       {/* The Real-Time Intelligence Layer */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-              The Real-Time Intelligence Layer
-            </h2>
-            <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">
-              Sundae Core is your real-time operational intelligence layer — built for operators who can't wait for end-of-day reports. Whether you're managing 10 locations or 100+, Core gives you the speed to see what's happening now, understand why it matters, and get recommended actions before problems escalate.
-            </p>
-          </div>
+          <FadeUp>
+            <div className="text-center mb-12">
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">
+                The Real-Time Intelligence Layer
+              </h2>
+              <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">
+                Built for operators who can&apos;t wait for end-of-day reports. Whether you manage 10 locations or 100+, Core gives you the speed to see what&apos;s happening now, understand why it matters, and get recommended actions before problems escalate.
+              </p>
+            </div>
+          </FadeUp>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
-            <div className="text-center p-6 bg-[rgba(28,71,255,0.1)] rounded-xl">
-              <div className="w-12 h-12 bg-[#1C47FF] rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="forecasting" size="lg" className="text-[var(--text-primary)]" />
-              </div>
-              <h3 className="font-semibold text-[var(--text-primary)] mb-2">Predictive, Not Reactive</h3>
-              <p className="text-sm text-[var(--text-supporting)]">Get alerts before problems become expensive. AI recommendations for immediate action — not dashboards that update.</p>
-            </div>
-            <div className="text-center p-6 bg-purple-50 rounded-xl">
-              <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="multiLocation" size="lg" className="text-[var(--text-primary)]" />
-              </div>
-              <h3 className="font-semibold text-[var(--text-primary)] mb-2">Every Location, One View</h3>
-              <p className="text-sm text-[var(--text-supporting)]">Unified visibility across all locations. Portfolio-level patterns and location-level detail in a single pane.</p>
-            </div>
-            <div className="text-center p-6 bg-green-50 rounded-xl">
-              <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="performance" size="lg" className="text-[var(--text-primary)]" />
-              </div>
-              <h3 className="font-semibold text-[var(--text-primary)] mb-2">Grows With You</h3>
-              <p className="text-sm text-[var(--text-supporting)]">From 10 to 1,000+ locations. Core Lite, Pro, or Enterprise — the platform scales as you do.</p>
-            </div>
-          </div>
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
+            {[
+              { title: "Predictive, Not Reactive", desc: "Get alerts before problems become expensive. Sundae Coach recommendations for immediate action — not dashboards that update.", icon: "forecasting" as SundaeIconName, color: "from-blue-500 to-blue-600" },
+              { title: "Every Location, One View", desc: "Unified visibility across all locations. Portfolio-level patterns and location-level detail in a single pane.", icon: "multiLocation" as SundaeIconName, color: "from-purple-500 to-purple-600" },
+              { title: "Grows With You", desc: "From 10 to 1,000+ locations. Core Lite, Pro, or Enterprise — the platform scales as you do.", icon: "performance" as SundaeIconName, color: "from-green-500 to-green-600" },
+            ].map((item) => (
+              <StaggerItem key={item.title}>
+                <div className="text-center p-6 bg-[var(--surface-subtle)] rounded-xl border border-[var(--border-default)]">
+                  <div className={`w-12 h-12 bg-gradient-to-br ${item.color} rounded-full flex items-center justify-center mx-auto mb-3`}>
+                    <SundaeIcon name={item.icon} size="lg" className="text-white" />
+                  </div>
+                  <h3 className="font-semibold text-[var(--text-primary)] mb-2">{item.title}</h3>
+                  <p className="text-sm text-[var(--text-supporting)]">{item.desc}</p>
+                </div>
+              </StaggerItem>
+            ))}
+          </StaggerContainer>
         </div>
       </section>
 
       {/* Three Tiers */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <p className="text-xs font-semibold tracking-[0.18em] uppercase text-[var(--text-muted)] mb-4">
-              CHOOSE YOUR TIER
-            </p>
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-              Three Tiers for Every Scale
-            </h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
-              From growing operations to global enterprises. Pick your speed.
-            </p>
-          </div>
+          <FadeUp>
+            <div className="text-center mb-16">
+              <p className="eyebrow text-[#60A5FA] mb-4">CHOOSE YOUR TIER</p>
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">
+                Three Tiers for Every Scale
+              </h2>
+              <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
+                From growing operations to global enterprises. Pick your speed.
+              </p>
+            </div>
+          </FadeUp>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {coreTiers.map((tier, index) => (
@@ -246,10 +226,9 @@ export default function CoreProductPage() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                viewport={{ once: true, margin: "-100px" }}
-                className="group"
+                viewport={{ once: true }}
               >
-                <Card variant="elevated" className="h-full hover:shadow-2xl transition-all duration-300 relative">
+                <Card variant="elevated" className="h-full relative">
                   {tier.badge && (
                     <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                       <span className={`px-4 py-1 bg-gradient-to-r ${tier.color} text-white text-xs font-semibold rounded-full shadow-lg`}>
@@ -260,15 +239,13 @@ export default function CoreProductPage() {
                   <CardHeader className="pt-8">
                     <CardTitle className="text-2xl text-[var(--text-primary)] mb-2">{tier.name}</CardTitle>
                     <p className="text-sm font-semibold text-[var(--text-secondary)] mb-3">{tier.subtitle}</p>
-                    <CardDescription className="text-[var(--text-supporting)] leading-relaxed mb-6">
-                      {tier.description}
-                    </CardDescription>
+                    <CardDescription>{tier.description}</CardDescription>
                   </CardHeader>
                   <CardContent>
                     <ul className="space-y-3 mb-6">
                       {tier.features.map((feature, idx) => (
                         <li key={idx} className="flex items-start space-x-2">
-                          <span className="text-green-500 mt-1">✓</span>
+                          <span className="text-green-500 mt-1">&#10003;</span>
                           <span className="text-sm text-[var(--text-supporting)]">{feature}</span>
                         </li>
                       ))}
@@ -277,11 +254,16 @@ export default function CoreProductPage() {
                       <p className="text-xs font-semibold text-[var(--text-muted)] uppercase mb-1">Best for:</p>
                       <p className="text-sm text-[var(--text-secondary)]">{tier.bestFor}</p>
                     </div>
-                    <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
-                      <Button variant="primary" size="lg" className="w-full">
-                        See {tier.name}
-                      </Button>
-                    </a>
+                    <Button
+                      variant="primary"
+                      size="lg"
+                      className="w-full"
+                      href={PRICING_URL}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      See {tier.name}
+                    </Button>
                   </CardContent>
                 </Card>
               </motion.div>
@@ -290,17 +272,19 @@ export default function CoreProductPage() {
         </div>
       </section>
 
-      {/* 4D Intelligence Model for Core */}
+      {/* 4D Intelligence Model */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-              The 4D Intelligence Model (Core Tier)
-            </h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
-              Core delivers: <span className="font-semibold text-green-600">All 4D Expanded</span>
-            </p>
-          </div>
+          <FadeUp>
+            <div className="text-center mb-16">
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">
+                The 4D Intelligence Model
+              </h2>
+              <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
+                Core delivers all four dimensions — expanded.
+              </p>
+            </div>
+          </FadeUp>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {fourDimensions.map((dim, index) => (
@@ -309,21 +293,21 @@ export default function CoreProductPage() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                viewport={{ once: true, margin: "-100px" }}
+                viewport={{ once: true }}
               >
-                <Card variant="elevated" className="h-full hover:shadow-xl transition-all duration-300">
+                <Card variant="elevated" className="h-full">
                   <CardHeader>
                     <div className="text-center mb-4">
-                      <div className={`inline-flex w-16 h-16 bg-gradient-to-br ${dim.color} rounded-full items-center justify-center text-white mb-3 shadow-lg`}>
-                        <SundaeIcon name={dim.icon} size="xl" className="text-[var(--text-primary)]" />
+                      <div className={`inline-flex w-16 h-16 bg-gradient-to-br ${dim.color} rounded-full items-center justify-center mb-3 shadow-lg`}>
+                        <SundaeIcon name={dim.icon} size="xl" className="text-white" />
                       </div>
                       <div className="text-3xl font-bold text-[var(--text-primary)] mb-1">{dim.dimension}</div>
                       <CardTitle className="text-lg text-[var(--text-primary)] mb-2">{dim.title}</CardTitle>
-                      <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-green-100 text-green-800">
-                        {dim.status}
+                      <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-[rgba(34,197,94,0.15)] text-[#22C55E]">
+                        &#10003; {dim.status}
                       </span>
                     </div>
-                    <CardDescription className="text-[var(--text-supporting)] leading-relaxed text-center text-sm">
+                    <CardDescription className="text-center text-sm">
                       {dim.description}
                     </CardDescription>
                   </CardHeader>
@@ -334,33 +318,29 @@ export default function CoreProductPage() {
         </div>
       </section>
 
-      {/* Pulse — Real-Time Operations */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-purple-50 to-blue-50">
+      {/* Pulse — Included with Core */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <div className="inline-flex items-center space-x-2 bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
-              <SundaeIcon name="pulse" size="md" />
-              <span>Included with Core</span>
+          <FadeUp>
+            <div className="text-center mb-16">
+              <span className="inline-flex items-center space-x-2 bg-[rgba(168,85,247,0.15)] text-purple-400 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                <SundaeIcon name="pulse" size="md" />
+                <span>Included with Core</span>
+              </span>
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">
+                Pulse: Your Shift Command Center
+              </h2>
+              <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
+                See anomalies the moment they happen. Coach your team in real time. Confirm results before the shift ends.
+              </p>
             </div>
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-              Pulse: Your Shift Command Center
-            </h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
-              See anomalies the moment they happen. Coach your team in real time. Confirm results before the shift ends.
-            </p>
-          </div>
+          </FadeUp>
 
           <div className="max-w-4xl mx-auto mb-12">
-            <BrowserFrame
-              src="/images/product/pulse-scorecard.png"
-              alt="Pulse scorecard — intraday operations monitoring"
-              width={1000}
-              height={600}
-              animate="scale"
-            />
+            <PulseDashboardMockup />
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
             {([
               { name: "Sales & Pace", description: "Intraday sales pacing, KPIs, and hourly trend visualization", icon: "chart" as SundaeIconName },
               { name: "Labor Live", description: "Intraday labor pacing, overtime risk tracking, and break compliance", icon: "benchmarking" as SundaeIconName },
@@ -368,107 +348,93 @@ export default function CoreProductPage() {
               { name: "Service Speed & Flow", description: "Throughput bottlenecks, backlog, and kitchen pacing metrics", icon: "speed" as SundaeIconName },
               { name: "Menu Intelligence", description: "Item catalog, classification matrix (Stars/Plowhorses/Puzzles/Dogs)", icon: "insights" as SundaeIconName },
               { name: "Alerts & Playbooks", description: "Automated response workflows triggered by exceptions", icon: "forecasting" as SundaeIconName },
-              { name: "AI Coach", description: "Shift-level coaching signals for Sales, Leakage, and Flow", icon: "intelligence" as SundaeIconName },
+              { name: "Sundae Coach", description: "Shift-level coaching signals for Sales, Leakage, and Flow", icon: "intelligence" as SundaeIconName },
               { name: "Portfolio Leaderboard", description: "Multi-outlet performance comparison with streak tracking", icon: "multiLocation" as SundaeIconName },
-              { name: "Wallboard Mode", description: "Full-screen display for kitchen or front-of-house screens", icon: "canvas" as SundaeIconName }
-            ]).map((feature, index) => (
-              <motion.div
-                key={feature.name}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.05 }}
-                viewport={{ once: true, margin: "-100px" }}
-              >
-                <div className="flex items-start space-x-3 p-4 bg-[var(--navy-deep)] rounded-xl border border-[var(--border-default)]/50 shadow-none hover:shadow-md transition-all duration-300 h-full">
-                  <div className="w-10 h-10 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center text-white flex-shrink-0">
-                    <SundaeIcon name={feature.icon} size="md" className="text-[var(--text-primary)]" />
+              { name: "Wallboard Mode", description: "Full-screen display for kitchen or front-of-house screens", icon: "canvas" as SundaeIconName },
+            ]).map((feature) => (
+              <StaggerItem key={feature.name}>
+                <div className="flex items-start space-x-3 p-4 bg-[var(--surface-subtle)] rounded-xl border border-[var(--border-default)] h-full">
+                  <div className="w-10 h-10 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <SundaeIcon name={feature.icon} size="md" className="text-white" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-[var(--text-primary)] text-sm mb-1">{feature.name}</h3>
                     <p className="text-xs text-[var(--text-supporting)] leading-relaxed">{feature.description}</p>
                   </div>
                 </div>
-              </motion.div>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerContainer>
         </div>
       </section>
 
       {/* Integrations */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-              Connect All Your Systems
-            </h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
-              Core connects across 12 data domains with 30+ vendor integrations
-            </p>
-          </div>
+          <FadeUp>
+            <div className="text-center mb-16">
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">
+                Connect All Your Systems
+              </h2>
+              <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
+                Core connects across 12 data domains with 30+ vendor integrations.
+              </p>
+            </div>
+          </FadeUp>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {integrations.map((integration, index) => (
-              <motion.div
-                key={integration.category}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                viewport={{ once: true, margin: "-100px" }}
-              >
-                <div className="p-6 bg-[var(--navy-deep)] rounded-xl shadow-none hover:shadow-md transition-all duration-300">
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {integrations.map((integration) => (
+              <StaggerItem key={integration.category}>
+                <div className="p-6 bg-[var(--surface-subtle)] rounded-xl border border-[var(--border-default)]">
                   <div className="flex items-center space-x-3 mb-3">
                     <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
-                      <SundaeIcon name={integration.icon} size="md" className="text-[var(--text-primary)]" />
+                      <SundaeIcon name={integration.icon} size="md" className="text-white" />
                     </div>
                     <h3 className="font-semibold text-[var(--text-primary)]">{integration.category}</h3>
                   </div>
                   <p className="text-sm text-[var(--text-supporting)]">{integration.examples}</p>
                 </div>
-              </motion.div>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerContainer>
         </div>
       </section>
 
       {/* Add Modules */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-              Add Modules for Specialized Intelligence
-            </h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
-              Enhance Core with focused modules for your specific operational challenges
-            </p>
-          </div>
+          <FadeUp>
+            <div className="text-center mb-16">
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">
+                Add Modules for Specialized Intelligence
+              </h2>
+              <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
+                Deepen Core with focused modules for your specific operational challenges.
+              </p>
+            </div>
+          </FadeUp>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-            {modules.map((module, index) => (
-              <motion.div
-                key={module.name}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                viewport={{ once: true, margin: "-100px" }}
-              >
-                <div className="flex items-start space-x-3 p-5 bg-[var(--surface-faint)] rounded-xl hover:bg-[var(--surface-subtle)] transition-all duration-300 h-full">
-                  <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center text-white flex-shrink-0">
-                    <SundaeIcon name={module.icon} size="md" className="text-[var(--text-primary)]" />
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            {modules.map((mod) => (
+              <StaggerItem key={mod.name}>
+                <div className="flex items-start space-x-3 p-5 bg-[var(--surface-faint)] rounded-xl border border-[var(--border-default)] h-full">
+                  <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <SundaeIcon name={mod.icon} size="md" className="text-white" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-[var(--text-primary)] mb-1">{module.name}</h3>
-                    <p className="text-sm text-[var(--text-supporting)]">{module.description}</p>
+                    <h3 className="font-semibold text-[var(--text-primary)] mb-1">{mod.name}</h3>
+                    <p className="text-sm text-[var(--text-supporting)]">{mod.description}</p>
                   </div>
                 </div>
-              </motion.div>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerContainer>
 
           <div className="text-center">
             <Button
               variant="outline"
               size="lg"
-              onClick={() => cta("/modules", "explore_modules_from_core", { page: "/core-product" })}
+              onClick={() => cta("/insights", "explore_modules_from_core", { page: "/core" })}
             >
               Explore All Modules →
             </Button>
@@ -477,111 +443,68 @@ export default function CoreProductPage() {
       </section>
 
       {/* Core + Watchtower */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] text-[var(--text-primary)] relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent" />
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)] relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[var(--surface-subtle)] to-transparent" />
         <div className="max-w-5xl mx-auto text-center relative">
-          <div className="w-16 h-16 bg-[var(--navy-deep)]/20 rounded-2xl flex items-center justify-center mx-auto mb-6">
-            <SundaeIcon name="watchtower" size="xl" className="text-[var(--text-primary)]" />
-          </div>
-          <h2 className="section-h2 mb-6">
-            Core + Watchtower = Complete Intelligence
-          </h2>
-          <p className="body-xl mb-8 opacity-90 max-w-3xl mx-auto">
-            Core tells you how you're performing right now. Watchtower tells you what's happening around you. Together, they give you the complete picture — internal operations and external market context in one intelligence layer.
-          </p>
-          <Button
-            variant="secondary"
-            size="lg"
-            className="bg-[var(--navy-deep)] text-[#60A5FA] hover:bg-[var(--surface-subtle)]"
-            onClick={() => cta("/watchtower", "learn_watchtower_from_core", { page: "/core-product" })}
-          >
-            Learn About Watchtower →
-          </Button>
+          <FadeUp>
+            <div className="w-16 h-16 bg-[var(--surface-emphasis)] rounded-2xl flex items-center justify-center mx-auto mb-6">
+              <SundaeIcon name="watchtower" size="xl" className="text-[var(--text-primary)]" />
+            </div>
+            <h2 className="section-h2 mb-6">
+              Core + Watchtower = Complete Intelligence
+            </h2>
+            <p className="body-xl text-[var(--text-supporting)] mb-8 max-w-3xl mx-auto">
+              Core tells you how you&apos;re performing right now. Watchtower tells you what&apos;s happening around you. Together, they give you the complete picture — internal operations and external market context in one intelligence layer.
+            </p>
+            <Button
+              variant="outline"
+              size="lg"
+              onClick={() => cta("/product/watchtower", "learn_watchtower_from_core", { page: "/core" })}
+            >
+              Learn About Watchtower →
+            </Button>
+          </FadeUp>
         </div>
       </section>
 
-      {/* FAQ Section */}
+      {/* FAQ */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-              Frequently Asked Questions
-            </h2>
-          </div>
+          <FadeUp>
+            <div className="text-center mb-16">
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">
+                Frequently Asked Questions
+              </h2>
+            </div>
+          </FadeUp>
 
           <div className="space-y-6">
             {faqs.map((faq, index) => (
-              <div key={index} className="p-6 bg-[var(--surface-faint)] rounded-xl">
+              <div key={index} className="p-6 bg-[var(--surface-faint)] rounded-xl border border-[var(--border-default)]">
                 <h3 className="font-semibold text-[var(--text-primary)] mb-3">{faq.q}</h3>
                 <p className="text-[var(--text-supporting)] leading-relaxed">{faq.a}</p>
               </div>
             ))}
           </div>
-
-          <div className="text-center mt-12">
-            <Button
-              variant="outline"
-              size="lg"
-              onClick={() => cta("/faq", "see_more_faqs", { page: "/core-product" })}
-            >
-              See More FAQs →
-            </Button>
-          </div>
         </div>
       </section>
 
-      {/* Final CTA */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] text-[var(--text-primary)]">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 mb-6">
-            Stop Managing Yesterday's Numbers
-          </h2>
-          <p className="body-lg text-[var(--text-muted)] mb-8 max-w-3xl mx-auto">
-            See what real-time operational intelligence looks like with your actual data.
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            <div className="p-6 bg-[var(--navy-deep)]/5 rounded-xl border border-[var(--border-default)]">
-              <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="cost" size="lg" className="text-[var(--text-primary)]" />
-              </div>
-              <h3 className="font-semibold text-[var(--text-primary)] mb-2">Calculate ROI</h3>
-              <p className="text-sm text-[var(--text-muted)] mb-4">Interactive simulator with your numbers</p>
-              <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
-                <Button variant="primary" size="md" className="w-full">
-                  Calculate ROI →
-                </Button>
-              </a>
-            </div>
-            <div className="p-6 bg-[var(--navy-deep)]/5 rounded-xl border border-[var(--border-default)]">
-              <div className="w-12 h-12 bg-[#1C47FF] rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="chart" size="lg" className="text-[var(--text-primary)]" />
-              </div>
-              <h3 className="font-semibold text-[var(--text-primary)] mb-2">Compare Tiers</h3>
-              <p className="text-sm text-[var(--text-muted)] mb-4">See Lite vs Pro vs Enterprise</p>
-              <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
-                <Button variant="outline" size="md" className="w-full">
-                  Compare Tiers →
-                </Button>
-              </a>
-            </div>
-            <div className="p-6 bg-[var(--navy-deep)]/5 rounded-xl border border-[var(--border-default)]">
-              <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="visibility" size="lg" className="text-[var(--text-primary)]" />
-              </div>
-              <h3 className="font-semibold text-[var(--text-primary)] mb-2">Book a Demo</h3>
-              <p className="text-sm text-[var(--text-muted)] mb-4">Custom walkthrough with your data</p>
-              <Button
-                variant="outline"
-                size="md"
-                className="w-full"
-                onClick={() => cta("/demo", "book_demo_from_core", { page: "/core-product" })}
-              >
-                Book Demo →
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* CTA */}
+      <PageCTA
+        title="Stop Managing Yesterday's Numbers"
+        description="See what real-time operational intelligence looks like with your actual data."
+      >
+        <Button variant="cta" size="lg" href={PRICING_URL} target="_blank" rel="noopener noreferrer">
+          Explore Core Tiers
+        </Button>
+        <Button
+          variant="outline-light"
+          size="lg"
+          onClick={() => cta("/demo", "book_demo_from_core", { page: "/core" })}
+        >
+          Book a Demo
+        </Button>
+      </PageCTA>
     </div>
   );
 }

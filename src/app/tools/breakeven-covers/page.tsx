@@ -44,7 +44,7 @@ export default function BreakEvenCalculator() {
  };
 
  return (
- <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
+ <div className="min-h-screen bg-[var(--navy-deep)]">
  <div className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
  <div className="max-w-3xl mx-auto">
  {/* Back Button */}
@@ -56,8 +56,8 @@ export default function BreakEvenCalculator() {
 
  {/* Header */}
  <div className="text-center mb-12">
- <div className="w-20 h-20 bg-slate-900 rounded-2xl flex items-center justify-center text-[var(--text-primary)] mx-auto mb-6 shadow-lg">
- <SundaeIcon name="balance" size="xl" className="text-[var(--text-primary)]" />
+ <div className="w-20 h-20 bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
+ <SundaeIcon name="balance" size="xl" className="text-white" />
  </div>
  <h1 className="hero-h1 text-[var(--text-primary)] mb-4">
  Break-Even Covers Calculator
@@ -146,7 +146,7 @@ export default function BreakEvenCalculator() {
 
  {/* Results */}
  {result && (
- <Card variant="elevated" className="bg-gradient-to-br from-blue-50 to-white">
+ <Card variant="elevated">
  <CardContent className="p-8">
  <div className="text-center mb-6">
  <h3 className="text-lg font-semibold text-[var(--text-secondary)] mb-2">
@@ -182,7 +182,7 @@ export default function BreakEvenCalculator() {
  <p className="text-xs text-[var(--text-supporting)] mt-1">per cover</p>
  </div>
  
- <div className="p-4 bg-green-50 rounded-lg">
+ <div className="p-4 bg-green-500/10 rounded-lg">
  <h5 className="font-semibold text-[var(--text-primary)] mb-2 text-sm">
  To Profit
  </h5>

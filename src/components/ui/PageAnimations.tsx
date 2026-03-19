@@ -85,7 +85,7 @@ export function PageHero({
   children,
 }: {
   badge?: string;
-  title: string;
+  title: React.ReactNode;
   description: string;
   children?: React.ReactNode;
 }) {

@@ -1,11 +1,9 @@
-'use client';
-
 import Link from "next/link";
 import { REPORT_APP_URL } from "@/lib/urls";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/Card";
-import { motion } from "framer-motion";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
+import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 
 export default function HospitalityOperatorsPage() {
   const challenges: { title: string; description: string; icon: SundaeIconName }[] = [
@@ -21,7 +19,7 @@ export default function HospitalityOperatorsPage() {
     },
     {
       title: "Guest Experience Consistency",
-      description: "Maintaining service quality across multiple touchpoints—dining, room service, events, and more.",
+      description: "Maintaining service quality across multiple touchpoints — dining, room service, events, and more.",
       icon: "success"
     },
     {
@@ -34,25 +32,25 @@ export default function HospitalityOperatorsPage() {
   const howSundaeHelps: { title: string; description: string; product: string; icon: SundaeIconName }[] = [
     {
       title: "Unified Hospitality Dashboard",
-      description: "Sundae Core consolidates F&B, rooms, events, and catering into one real-time view. Pulse monitors every shift with adaptive AI targets, labor productivity tracking, and server performance analytics.",
+      description: "Sundae Core consolidates F&B, rooms, events, and catering into one real-time view. Pulse monitors every shift with adaptive targets, labor productivity tracking, and server performance.",
       product: "Sundae Core + Pulse",
       icon: "chart"
     },
     {
       title: "Event & Calendar Intelligence",
-      description: "Watchtower discovers local events, public holidays, and religious observances (Ramadan-aware for MENA operations) — with AI impact assessments including staffing and prep recommendations tailored to each property.",
+      description: "Watchtower discovers local events, public holidays, and religious observances (Ramadan-aware for MENA operations) — with impact assessments including staffing and prep recommendations tailored to each property.",
       product: "Watchtower (Core tier)",
       icon: "watchtower"
     },
     {
       title: "Competitive & Market Context",
-      description: "Track named competitors via Google Places, monitor rating trends, and get daily AI briefings that combine your internal performance with weather forecasts, competitor activity, and market signals.",
+      description: "Track named competitors via Google Places, monitor rating trends, and get daily briefings that combine your internal performance with weather forecasts, competitor activity, and market signals.",
       product: "Watchtower (Core tier)",
       icon: "balance"
     },
     {
       title: "Hospitality Benchmarking",
-      description: "Sundae Report compares your F&B and hospitality metrics against similar properties and market leaders — with AI-powered analysis and recommendations.",
+      description: "Sundae Report compares your F&B and hospitality metrics against similar properties and market leaders — with auto-generated analysis and recommendations.",
       product: "Sundae Report",
       icon: "report"
     }
@@ -61,180 +59,148 @@ export default function HospitalityOperatorsPage() {
   const outcomes: { title: string; description: string; icon: SundaeIconName }[] = [
     {
       title: "Better demand forecasting",
-      description: "Predict high-demand periods and optimize staffing and inventory accordingly",
+      description: "Predict high-demand periods and optimize staffing and inventory accordingly.",
       icon: "forecasting"
     },
     {
       title: "10-15% improvement in F&B margins",
-      description: "Reduce waste and optimize pricing across restaurant, banquet, and room service",
+      description: "Reduce waste and optimize pricing across restaurant, banquet, and room service.",
       icon: "finance"
     },
     {
       title: "Enhanced guest experience",
-      description: "Ensure consistent service quality across all touchpoints with real-time visibility",
+      description: "Ensure consistent service quality across all touchpoints with real-time visibility.",
       icon: "performance"
     },
     {
       title: "Unified multi-property view",
-      description: "Manage multiple hotels or resorts from one intelligence platform",
+      description: "Manage multiple hotels or resorts from one intelligence platform.",
       icon: "multiLocation"
     }
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
-      <section className="solution-hero solution-hero--operator pt-32 pb-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-              className="badge badge--operator inline-flex items-center gap-2"
-            >
-              <SundaeIcon name="hotel" size="md" />
-              <span>Hospitality Operators</span>
-            </motion.div>
-            
-            <motion.h1
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.1 }}
-              className="hero-h1 text-[var(--text-primary)] mb-6"
-            >
-              Every Touchpoint.
-              <br />
-              <span className="text-gradient">One Platform.</span>
-            </motion.h1>
-            
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-              className="body-xl text-[var(--text-supporting)] mb-8 max-w-3xl mx-auto leading-relaxed"
-            >
-              Restaurants, banquets, room service, catering — unified. Optimize every guest experience with one intelligence platform.
-            </motion.p>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.3 }}
-              className="flex flex-col sm:flex-row gap-4 justify-center"
-            >
-              <Link href="/demo">
-                <Button variant="primary" size="lg" className="animate-pulse-glow">
-                  See How Sundae Helps Hospitality
-                </Button>
-              </Link>
-              <a href={REPORT_APP_URL}>
-                <Button variant="outline" size="lg">
-                  Get F&B Benchmark Report
-                </Button>
-              </a>
-            </motion.div>
-          </div>
+    <div className="min-h-screen bg-[var(--navy-deep)]">
+      <PageHero
+        badge="Hospitality Operators"
+        title={<>Every Touchpoint.<br />One Platform.</>}
+        description="Restaurants, banquets, room service, catering — unified. Optimize every guest experience with one intelligence platform."
+      >
+        <div className="flex flex-col sm:flex-row gap-3 justify-center">
+          <Link href="/demo">
+            <Button variant="primary" size="lg">
+              See How Sundae Helps Hospitality
+            </Button>
+          </Link>
+          <a href={REPORT_APP_URL}>
+            <Button variant="outline-light" size="lg">
+              Get F&B Benchmark Report
+            </Button>
+          </a>
         </div>
-      </section>
+      </PageHero>
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
+          <FadeUp className="text-center mb-16">
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">The Problems You Know</h2>
             <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               Multi-concept complexity. Seasonal swings. Disconnected systems.
             </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          </FadeUp>
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {challenges.map((challenge, index) => (
-              <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                <CardHeader>
-                  <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center text-white flex-shrink-0">
-                      <SundaeIcon name={challenge.icon} size="lg" className="text-[var(--text-primary)]" />
+              <StaggerItem key={index}>
+                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
+                  <CardHeader>
+                    <div className="flex items-start space-x-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <SundaeIcon name={challenge.icon} size="lg" className="text-white" />
+                      </div>
+                      <div>
+                        <CardTitle className="text-[var(--text-primary)] mb-2">{challenge.title}</CardTitle>
+                        <CardDescription className="text-[var(--text-supporting)]">{challenge.description}</CardDescription>
+                      </div>
                     </div>
-                    <div>
-                      <CardTitle className="text-[var(--text-primary)] mb-2">{challenge.title}</CardTitle>
-                      <CardDescription className="text-[var(--text-supporting)]">{challenge.description}</CardDescription>
-                    </div>
-                  </div>
-                </CardHeader>
-              </Card>
+                  </CardHeader>
+                </Card>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerContainer>
         </div>
       </section>
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
+          <FadeUp className="text-center mb-16">
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">How Sundae Changes That</h2>
             <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               Unified F&B and rooms visibility. Demand-intelligent staffing.
             </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          </FadeUp>
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {howSundaeHelps.map((item, index) => (
-              <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                <CardHeader>
-                  <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center text-white flex-shrink-0">
-                      <SundaeIcon name={item.icon} size="lg" className="text-[var(--text-primary)]" />
+              <StaggerItem key={index}>
+                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
+                  <CardHeader>
+                    <div className="flex items-start space-x-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <SundaeIcon name={item.icon} size="lg" className="text-white" />
+                      </div>
+                      <div>
+                        <div className="text-xs text-[#60A5FA] font-semibold mb-1">{item.product}</div>
+                        <CardTitle className="text-[var(--text-primary)] mb-2">{item.title}</CardTitle>
+                        <CardDescription className="text-[var(--text-supporting)]">{item.description}</CardDescription>
+                      </div>
                     </div>
-                    <div>
-                      <div className="text-xs text-[#60A5FA] font-semibold mb-1">{item.product}</div>
-                      <CardTitle className="text-[var(--text-primary)] mb-2">{item.title}</CardTitle>
-                      <CardDescription className="text-[var(--text-supporting)]">{item.description}</CardDescription>
-                    </div>
-                  </div>
-                </CardHeader>
-              </Card>
+                  </CardHeader>
+                </Card>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerContainer>
         </div>
       </section>
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
+          <FadeUp className="text-center mb-16">
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">What Changes</h2>
             <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               Better forecasting. Higher margins. Consistent guest experience.
             </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          </FadeUp>
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {outcomes.map((outcome, index) => (
-              <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                <CardHeader>
-                  <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center text-white flex-shrink-0">
-                      <SundaeIcon name={outcome.icon} size="lg" className="text-[var(--text-primary)]" />
+              <StaggerItem key={index}>
+                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
+                  <CardHeader>
+                    <div className="flex items-start space-x-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <SundaeIcon name={outcome.icon} size="lg" className="text-white" />
+                      </div>
+                      <div>
+                        <CardTitle className="text-[var(--text-primary)] mb-2">{outcome.title}</CardTitle>
+                        <CardDescription className="text-[var(--text-supporting)]">{outcome.description}</CardDescription>
+                      </div>
                     </div>
-                    <div>
-                      <CardTitle className="text-[var(--text-primary)] mb-2">{outcome.title}</CardTitle>
-                      <CardDescription className="text-[var(--text-supporting)]">{outcome.description}</CardDescription>
-                    </div>
-                  </div>
-                </CardHeader>
-              </Card>
+                  </CardHeader>
+                </Card>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerContainer>
         </div>
       </section>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] text-[var(--text-primary)]">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 mb-6">Ready to Unify Your Operations?</h2>
-          <p className="body-xl mb-8 opacity-90">
-            See how hospitality groups optimize every guest touchpoint.
-          </p>
-          <Link href="/demo">
-            <Button variant="primary" size="lg" className="bg-[var(--navy-deep)] text-[#60A5FA] hover:bg-[var(--surface-subtle)]">
-              Book a Hospitality Demo
-            </Button>
-          </Link>
-        </div>
-      </section>
+      <PageCTA
+        title="Ready to Unify Your Operations?"
+        description="See how hospitality groups optimize every guest touchpoint."
+      >
+        <Link href="/demo">
+          <Button variant="primary" size="lg">
+            Book a Hospitality Demo
+          </Button>
+        </Link>
+      </PageCTA>
     </div>
   );
 }

@@ -1,17 +1,15 @@
-'use client';
-
 import Link from "next/link";
 import { REPORT_APP_URL } from "@/lib/urls";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/Card";
-import { motion } from "framer-motion";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
+import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 
 export default function CSuiteExecutivesPage() {
   const challenges: { title: string; description: string; icon: SundaeIconName }[] = [
     {
-      title: "Lack of Real-Time Visibility",
-      description: "Critical decisions are made with yesterday's data, leading to missed opportunities and reactive management.",
+      title: "Decisions Made on Yesterday's Numbers",
+      description: "Critical calls rely on stale data, leading to missed opportunities and reactive management.",
       icon: "benchmarking"
     },
     {
@@ -20,13 +18,13 @@ export default function CSuiteExecutivesPage() {
       icon: "integration"
     },
     {
-      title: "No Predictive Intelligence",
+      title: "No Forward-Looking Intelligence",
       description: "You can see what happened, but not what's about to happen or why it's happening.",
       icon: "forecasting"
     },
     {
       title: "Strategic vs. Operational Trade-off",
-      description: "You're forced to choose between strategic thinking and operational firefighting—there's no time for both.",
+      description: "You're forced to choose between strategic thinking and operational firefighting — there's no time for both.",
       icon: "balance"
     }
   ];
@@ -34,25 +32,25 @@ export default function CSuiteExecutivesPage() {
   const howSundaeHelps: { title: string; description: string; product: string; icon: SundaeIconName }[] = [
     {
       title: "Executive Command Center",
-      description: "Sundae Core delivers a real-time executive dashboard with KPIs that matter — revenue, margins, labor productivity, and performance across your entire portfolio. Pulse monitors every shift with adaptive AI targets and server performance analytics.",
+      description: "Sundae Core delivers a real-time executive dashboard with KPIs that matter — revenue, margins, labor productivity, and performance across your entire portfolio. Pulse monitors every shift with adaptive targets and server performance.",
       product: "Sundae Core + Pulse",
       icon: "chart"
     },
     {
       title: "Competitive & Market Intelligence",
-      description: "Watchtower tracks named competitors, monitors local events, and surfaces market trends — synthesized with your internal data into AI-powered daily briefings so you know what\u2019s happening inside and outside your business.",
+      description: "Watchtower tracks named competitors, monitors local events, and surfaces market trends — synthesized with your internal data into daily briefings so you know what\u2019s happening inside and outside your business.",
       product: "Watchtower (Core tier)",
       icon: "watchtower"
     },
     {
       title: "Instant Strategic Answers",
-      description: "Ask Sundae \u2018What\u2019s driving margin compression?\u2019 or \u2018Which locations are losing to competitor promotions?\u2019 and get data-backed answers that combine internal performance with external market context.",
+      description: "Ask Sundae \u2018What\u2019s driving margin compression?\u2019 or \u2018Which locations are losing to competitor promotions?\u2019 and get numbers-backed answers combining internal performance with external market context.",
       product: "Sundae Intelligence",
       icon: "intelligence"
     },
     {
       title: "Historical Benchmarking",
-      description: "Sundae Report shows how you compare to industry leaders and identifies gaps in performance, efficiency, and growth — with AI credits for deeper analysis.",
+      description: "Sundae Report shows how you compare to industry leaders and identifies gaps in performance, efficiency, and growth — with credits for deeper analysis.",
       product: "Sundae Report",
       icon: "report"
     }
@@ -60,181 +58,149 @@ export default function CSuiteExecutivesPage() {
 
   const outcomes: { title: string; description: string; icon: SundaeIconName }[] = [
     {
-      title: "Make faster, data-backed decisions",
-      description: "Move from monthly reviews to real-time intelligence, enabling agile strategic adjustments",
+      title: "Make faster, numbers-backed decisions",
+      description: "Move from monthly reviews to real-time intelligence, enabling agile strategic adjustments.",
       icon: "speed"
     },
     {
       title: "15-20% improvement in key metrics",
-      description: "Optimize margins, reduce costs, and improve operational efficiency across the portfolio",
+      description: "Optimize margins, reduce costs, and improve operational efficiency across the portfolio.",
       icon: "performance"
     },
     {
       title: "Reduce strategic risk",
-      description: "Identify threats and opportunities early with predictive AI insights and market intelligence",
+      description: "Identify threats and opportunities early with predictive intelligence and market signals.",
       icon: "owners"
     },
     {
       title: "Unite your leadership team",
-      description: "Give everyone access to the same real-time data and insights, aligning strategy and execution",
+      description: "Give everyone access to the same real-time data and insights, aligning strategy and execution.",
       icon: "support"
     }
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
-      <section className="solution-hero solution-hero--role pt-32 pb-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-              className="badge badge--role inline-flex items-center gap-2"
-            >
-              <SundaeIcon name="owners" size="md" />
-              <span>C-Suite Executives</span>
-            </motion.div>
-            
-            <motion.h1
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.1 }}
-              className="hero-h1 text-[var(--text-primary)] mb-6"
-            >
-              Lead with Clarity.
-              <br />
-              <span className="text-gradient">Not Guesswork.</span>
-            </motion.h1>
-            
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-              className="body-xl text-[var(--text-supporting)] mb-8 max-w-3xl mx-auto leading-relaxed"
-            >
-              Real-time visibility. Predictive insights. One platform that unifies everything you need to make confident decisions at scale.
-            </motion.p>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.3 }}
-              className="flex flex-col sm:flex-row gap-4 justify-center"
-            >
-              <Link href="/demo">
-                <Button variant="primary" size="lg" className="animate-pulse-glow">
-                  See How Sundae Helps Executives
-                </Button>
-              </Link>
-              <a href={REPORT_APP_URL}>
-                <Button variant="outline" size="lg">
-                  Get Executive Benchmark Report
-                </Button>
-              </a>
-            </motion.div>
-          </div>
+    <div className="min-h-screen bg-[var(--navy-deep)]">
+      <PageHero
+        badge="C-Suite Executives"
+        title={<>Lead with Clarity.<br />Not Guesswork.</>}
+        description="Real-time visibility. Predictive intelligence. One platform that unifies everything you need to make confident decisions at scale."
+      >
+        <div className="flex flex-col sm:flex-row gap-3 justify-center">
+          <Link href="/demo">
+            <Button variant="primary" size="lg">
+              See How Sundae Works for Executives
+            </Button>
+          </Link>
+          <a href={REPORT_APP_URL}>
+            <Button variant="outline-light" size="lg">
+              Get Executive Benchmark Report
+            </Button>
+          </a>
         </div>
-      </section>
+      </PageHero>
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
+          <FadeUp className="text-center mb-16">
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">The Problems You Know</h2>
             <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
-              Silos, stale data, and reactive decision-making
+              Silos, stale data, and reactive decision-making.
             </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          </FadeUp>
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {challenges.map((challenge, index) => (
-              <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                <CardHeader>
-                  <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center text-white flex-shrink-0">
-                      <SundaeIcon name={challenge.icon} size="lg" className="text-[var(--text-primary)]" />
+              <StaggerItem key={index}>
+                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
+                  <CardHeader>
+                    <div className="flex items-start space-x-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <SundaeIcon name={challenge.icon} size="lg" className="text-white" />
+                      </div>
+                      <div>
+                        <CardTitle className="text-[var(--text-primary)] mb-2">{challenge.title}</CardTitle>
+                        <CardDescription className="text-[var(--text-supporting)]">{challenge.description}</CardDescription>
+                      </div>
                     </div>
-                    <div>
-                      <CardTitle className="text-[var(--text-primary)] mb-2">{challenge.title}</CardTitle>
-                      <CardDescription className="text-[var(--text-supporting)]">{challenge.description}</CardDescription>
-                    </div>
-                  </div>
-                </CardHeader>
-              </Card>
+                  </CardHeader>
+                </Card>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerContainer>
         </div>
       </section>
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
+          <FadeUp className="text-center mb-16">
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">How Sundae Changes That</h2>
             <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
-              Intelligence built for executive decision-making
+              Intelligence built for executive decision-making.
             </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          </FadeUp>
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {howSundaeHelps.map((item, index) => (
-              <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                <CardHeader>
-                  <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center text-white flex-shrink-0">
-                      <SundaeIcon name={item.icon} size="lg" className="text-[var(--text-primary)]" />
+              <StaggerItem key={index}>
+                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
+                  <CardHeader>
+                    <div className="flex items-start space-x-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <SundaeIcon name={item.icon} size="lg" className="text-white" />
+                      </div>
+                      <div>
+                        <div className="text-xs text-[#60A5FA] font-semibold mb-1">{item.product}</div>
+                        <CardTitle className="text-[var(--text-primary)] mb-2">{item.title}</CardTitle>
+                        <CardDescription className="text-[var(--text-supporting)]">{item.description}</CardDescription>
+                      </div>
                     </div>
-                    <div>
-                      <div className="text-xs text-[#60A5FA] font-semibold mb-1">{item.product}</div>
-                      <CardTitle className="text-[var(--text-primary)] mb-2">{item.title}</CardTitle>
-                      <CardDescription className="text-[var(--text-supporting)]">{item.description}</CardDescription>
-                    </div>
-                  </div>
-                </CardHeader>
-              </Card>
+                  </CardHeader>
+                </Card>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerContainer>
         </div>
       </section>
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
+          <FadeUp className="text-center mb-16">
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">What Changes</h2>
             <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
-              Measurable impact on speed, visibility, and growth
+              Measurable impact on speed, visibility, and growth.
             </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          </FadeUp>
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {outcomes.map((outcome, index) => (
-              <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                <CardHeader>
-                  <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center text-white flex-shrink-0">
-                      <SundaeIcon name={outcome.icon} size="lg" className="text-[var(--text-primary)]" />
+              <StaggerItem key={index}>
+                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
+                  <CardHeader>
+                    <div className="flex items-start space-x-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <SundaeIcon name={outcome.icon} size="lg" className="text-white" />
+                      </div>
+                      <div>
+                        <CardTitle className="text-[var(--text-primary)] mb-2">{outcome.title}</CardTitle>
+                        <CardDescription className="text-[var(--text-supporting)]">{outcome.description}</CardDescription>
+                      </div>
                     </div>
-                    <div>
-                      <CardTitle className="text-[var(--text-primary)] mb-2">{outcome.title}</CardTitle>
-                      <CardDescription className="text-[var(--text-supporting)]">{outcome.description}</CardDescription>
-                    </div>
-                  </div>
-                </CardHeader>
-              </Card>
+                  </CardHeader>
+                </Card>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerContainer>
         </div>
       </section>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] text-[var(--text-primary)]">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 mb-6">Ready to Lead Smarter?</h2>
-          <p className="body-xl mb-8 opacity-90">
-            See how Sundae gives executives the clarity to make confident decisions.
-          </p>
-          <Link href="/demo">
-            <Button variant="primary" size="lg" className="bg-[var(--navy-deep)] text-[#60A5FA] hover:bg-[var(--surface-subtle)]">
-              Book an Executive Briefing
-            </Button>
-          </Link>
-        </div>
-      </section>
+      <PageCTA
+        title="Ready to Lead Smarter?"
+        description="See how Sundae gives executives the clarity to make confident decisions."
+      >
+        <Link href="/demo">
+          <Button variant="primary" size="lg">
+            Book an Executive Briefing
+          </Button>
+        </Link>
+      </PageCTA>
     </div>
   );
 }

@@ -1,11 +1,10 @@
 'use client';
 
-import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
-import { motion } from "framer-motion";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
-import { BrowserFrame } from "@/components/ui/BrowserFrame";
+import { BenchmarkDashboardMockup } from "@/components/ui/MockupFrame";
+import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { useCta } from "@/lib/cta";
 import { REPORT_APP_URL, PRICING_URL, SIGNUP_URL } from "@/lib/urls";
 
@@ -16,12 +15,12 @@ export default function ReportProductPage() {
     {
       name: "Report Lite",
       badge: "Free Forever",
-      subtitle: "Test Sundae. Prove the Value. Pay Nothing.",
-      description: "Upload a CSV. Get instant clarity. Perfect for testing Sundae or running a single location that needs basic benchmarking.",
+      subtitle: "Prove the Value. Pay Nothing.",
+      description: "Upload a CSV. Get instant clarity. Perfect for testing Sundae or running a single location that needs foundational benchmarking.",
       features: [
         "Manual CSV upload",
         "Benchmark 5 core metrics",
-        "400 AI credits/month",
+        "400 intelligence credits/month",
         "90-day retention",
         "20 pre-built visuals",
         "Email support (72hr response)"
@@ -34,17 +33,17 @@ export default function ReportProductPage() {
     {
       name: "Report Plus",
       badge: "Most Popular",
-      subtitle: "AI-Powered Analysis. Automated Insights.",
-      description: "AI parses your PDFs, Excel files, and screenshots automatically. Advanced benchmarking and pattern detection for operators ready to go deeper.",
+      subtitle: "Automated Parsing. Deeper Benchmarks.",
+      description: "Sundae parses your PDFs, Excel files, and screenshots automatically. Advanced benchmarking and pattern detection for operators ready to go deeper.",
       features: [
-        "AI-parsed uploads (PDF, Excel, screenshots)",
+        "Auto-parsed uploads (PDF, Excel, screenshots)",
         "Benchmark 15 metrics",
-        "1,500 AI credits/month",
+        "1,500 intelligence credits/month",
         "1-year retention",
         "50 comprehensive visuals",
         "Email + Chat support (24hr response)"
       ],
-      bestFor: "Single-location upscale, small multi-location (2-5)",
+      bestFor: "Single-location upscale, small multi-location (2–5)",
       color: "from-purple-500 to-purple-600",
       cta: "See Report Plus",
       link: PRICING_URL
@@ -57,12 +56,12 @@ export default function ReportProductPage() {
       features: [
         "Fully automated API integration",
         "Benchmark 30 metrics",
-        "4,000 AI credits/month",
+        "4,000 intelligence credits/month",
         "2-year retention",
         "Up to 120 visuals",
         "Priority support (12hr response)"
       ],
-      bestFor: "Multi-location groups (5-20), portfolio managers",
+      bestFor: "Multi-location groups (5–20), portfolio managers",
       color: "from-slate-700 to-slate-900",
       cta: "See Report Pro",
       link: PRICING_URL
@@ -90,7 +89,7 @@ export default function ReportProductPage() {
       dimension: "3D",
       title: "Market Context",
       status: "Limited",
-      description: "Basic benchmarking against similar restaurants (5-30 metrics depending on tier). For expanded market intelligence and competitive analysis, upgrade to Core.",
+      description: "Basic benchmarking against similar restaurants (5–30 metrics depending on tier). For expanded market intelligence, upgrade to Core.",
       icon: "multiLocation" as SundaeIconName,
       color: "from-green-500 to-green-600"
     },
@@ -98,7 +97,7 @@ export default function ReportProductPage() {
       dimension: "4D",
       title: "What's Next",
       status: "✓ Limited",
-      description: "AI pattern recognition, anomaly detection, basic recommendations. For expanded predictive intelligence, see Core tier.",
+      description: "Pattern recognition, anomaly detection, basic recommendations. For expanded predictive intelligence, see Core.",
       icon: "growth" as SundaeIconName,
       color: "from-orange-500 to-orange-600"
     }
@@ -107,32 +106,24 @@ export default function ReportProductPage() {
   const upgradeSignals = [
     {
       title: "Need Operational Speed",
-      description: "Daily reports aren't fast enough — you need 2-4 hour refresh cycles to act during shifts.",
+      description: "Daily reports aren't fast enough — you need 2–4 hour refresh cycles to act during shifts.",
       icon: "speed" as SundaeIconName
     },
     {
-      title: "Need Detailed POS Insights",
+      title: "Need Item-Level Detail",
       description: "Menu item-level analysis, daypart breakdowns, server performance tracking.",
       icon: "menu" as SundaeIconName
     },
     {
       title: "Want System Integrations",
-      description: "Labor, Inventory, Marketing, Reservations, Purchasing — integrate all operational systems.",
+      description: "Labor, Inventory, Marketing, Reservations, Purchasing — all operational systems in one place.",
       icon: "integration" as SundaeIconName
     },
     {
-      title: "Scaling to 10+ Locations",
-      description: "Coordination complexity increases and real-time performance matters for intervention.",
+      title: "Scaling Past 10 Locations",
+      description: "Coordination complexity increases. Real-time performance data matters for mid-shift intervention.",
       icon: "multiLocation" as SundaeIconName
     }
-  ];
-
-  const modules = [
-    { name: "Labor Intelligence", description: "Schedule optimization, overtime reduction", icon: "benchmarking" as SundaeIconName },
-    { name: "Inventory Intelligence", description: "Waste tracking, par levels", icon: "insights" as SundaeIconName },
-    { name: "Purchasing Intelligence", description: "Vendor comparison, contracts", icon: "marketing" as SundaeIconName },
-    { name: "Marketing Intelligence", description: "Campaign ROI, CAC tracking", icon: "growth" as SundaeIconName },
-    { name: "Reservations Intelligence", description: "Booking patterns, no-shows", icon: "operators" as SundaeIconName }
   ];
 
   const faqs = [
@@ -146,123 +137,94 @@ export default function ReportProductPage() {
     },
     {
       q: "How do I get my data into Sundae?",
-      a: "Report Lite: Upload CSV files. Report Plus: Upload PDFs/Excel/screenshots (we parse). Report Pro: API integration (automated)."
+      a: "Report Lite: Upload CSV files. Report Plus: Upload PDFs/Excel/screenshots (Sundae parses them). Report Pro: API integration (automated)."
     },
     {
       q: "How is Report different from Core?",
-      a: "Report = historical analysis (daily/weekly summaries). Core = near real-time operations (2-4 hour refresh). Report is perfect for analyzing the past. Core adds operational speed, system integrations (Labor, Inventory, etc.), modules, and Watchtower external intelligence."
+      a: "Report = historical analysis (daily/weekly summaries). Core = near real-time operations (2–4 hour refresh). Report is perfect for analyzing the past. Core adds operational speed, system integrations (Labor, Inventory, etc.), modules, and Watchtower external intelligence."
     },
     {
       q: "When should I upgrade from Report to Core?",
-      a: "When you need operational speed (2-4 hour refresh), detailed POS insights, system integrations, modules for specialized intelligence, or Watchtower for external market intelligence. Core is for operators who need to act during shifts with real-time data."
+      a: "When you need operational speed (2–4 hour refresh), detailed POS insights, system integrations, modules for specialized intelligence, or Watchtower for external market intelligence."
     }
   ];
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
-      {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
-        <div className="max-w-7xl mx-auto text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
+      {/* Hero */}
+      <PageHero
+        badge="Sundae Report"
+        title={<>5 Metrics Benchmarked.<br />Zero Dollars Spent.</>}
+        description="Upload your data. Instantly benchmark against restaurants like yours. Spot the margins you're leaving on the table — and build the case for what's next."
+      >
+        <p className="text-[var(--text-muted)] mb-8 max-w-3xl mx-auto body-lg">
+          Free forever. No credit card. No commitment. Just clarity.
+        </p>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+          <Button
+            variant="cta"
+            size="lg"
+            onClick={() => cta(SIGNUP_URL, "start_free_benchmark", { page: "/report-product" })}
           >
-            <div className="inline-flex items-center space-x-2 bg-purple-100 text-purple-800 px-5 py-2.5 rounded-full text-base font-semibold mb-6">
-              <SundaeIcon name="report" size="md" />
-              <span>Sundae Report</span>
-            </div>
-            <h1 className="hero-h1 text-[var(--text-primary)] mb-6">
-              Know Where You Stand. See Where to Go.
-            </h1>
-            <p className="body-xl text-[var(--text-supporting)] mb-4 max-w-4xl mx-auto">
-              Upload your data. Instantly benchmark against restaurants like yours. Spot the margins you're leaving on the table — and build the case for what's next.
-            </p>
-            <p className="body-lg text-[var(--text-muted)] mb-8 max-w-3xl mx-auto">
-              Free forever. No credit card. No commitment. Just clarity.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
-              <a href={SIGNUP_URL} onClick={() => cta(SIGNUP_URL, "start_free_benchmark", { page: "/report-product" })} className="btn-primary btn-lg">
-                Start Your Free Benchmark
-              </a>
-              <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="btn-secondary btn-lg">
-                See Pricing
-              </a>
-            </div>
-          </motion.div>
-
-          <div className="mt-12 max-w-4xl mx-auto">
-            <BrowserFrame
-              src="/images/product/benchmark-overview.png"
-              alt="Sundae Report — benchmarking and historical intelligence dashboard"
-              priority
-              animate="scale"
-            />
-          </div>
+            Start Your Free Benchmark
+          </Button>
+          <Button variant="outline-light" size="lg" href={PRICING_URL}>
+            See Pricing
+          </Button>
         </div>
-      </section>
+        <div className="max-w-4xl mx-auto">
+          <BenchmarkDashboardMockup />
+        </div>
+      </PageHero>
 
-      {/* What is Sundae Report */}
+      {/* What is Report */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-12">
+          <FadeUp className="text-center mb-12">
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               Your Historical Intelligence Layer
             </h2>
             <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">
-              Sundae Report is your historical intelligence layer — the foundation of decision intelligence for restaurants. Whether you're testing Sundae for the first time or running deep historical analysis across dozens of locations, Report gives you the clarity to understand what happened, why it matters, and where you stand against the market.
+              Report is the foundation of decision intelligence for restaurants. Whether you&apos;re testing Sundae for the first time or running deep historical analysis across dozens of locations, Report gives you clarity on what happened, why it matters, and where you stand against the market.
             </p>
-          </div>
+          </FadeUp>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
-            <div className="text-center p-6 bg-purple-50 rounded-xl">
-              <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="intelligence" size="lg" className="text-[var(--text-primary)]" />
-              </div>
-              <h3 className="font-semibold text-[var(--text-primary)] mb-2">Beyond Dashboards</h3>
-              <p className="text-sm text-[var(--text-supporting)]">We don't just show numbers. We tell you what they mean, why they matter, and what to do about them.</p>
-            </div>
-            <div className="text-center p-6 bg-purple-50/70 rounded-xl">
-              <div className="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="benchmarking" size="lg" className="text-[var(--text-primary)]" />
-              </div>
-              <h3 className="font-semibold text-[var(--text-primary)] mb-2">True Benchmarking</h3>
-              <p className="text-sm text-[var(--text-supporting)]">Compare against restaurants like yours — by cuisine, size, and market — not generic industry averages.</p>
-            </div>
-            <div className="text-center p-6 bg-purple-50/50 rounded-xl">
-              <div className="w-10 h-10 mx-auto mb-3 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center"><SundaeIcon name="success" size="lg" className="text-white" /></div>
-              <h3 className="font-semibold text-[var(--text-primary)] mb-2">Zero Risk Entry</h3>
-              <p className="text-sm text-[var(--text-supporting)]">Report Lite is free forever. Prove the value with your own data before you invest a dollar.</p>
-            </div>
-          </div>
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
+            {[
+              { icon: "intelligence" as SundaeIconName, title: "Beyond Dashboards", text: "Not just numbers. What they mean, why they matter, and what to do about them." },
+              { icon: "benchmarking" as SundaeIconName, title: "True Benchmarking", text: "Compare against restaurants like yours — by cuisine, size, and market — not generic industry averages." },
+              { icon: "success" as SundaeIconName, title: "Zero Risk Entry", text: "Report Lite is free forever. Prove the value with your own data before you invest a dollar." },
+            ].map((item) => (
+              <StaggerItem key={item.title} className="text-center p-6 bg-[var(--surface-subtle)] rounded-xl">
+                <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <SundaeIcon name={item.icon} size="lg" className="text-white" />
+                </div>
+                <h3 className="font-semibold text-[var(--text-primary)] mb-2">{item.title}</h3>
+                <p className="text-sm text-[var(--text-supporting)]">{item.text}</p>
+              </StaggerItem>
+            ))}
+          </StaggerContainer>
         </div>
       </section>
 
       {/* Three Tiers */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]/50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
+          <FadeUp className="text-center mb-16">
             <p className="text-xs font-semibold tracking-[0.18em] uppercase text-[var(--text-muted)] mb-4">
               CHOOSE YOUR TIER
             </p>
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-              Three Tiers for Every Stage
+              Three Tiers. Every Stage.
             </h2>
             <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               Start free. Upgrade when it makes sense. Scale as you grow.
             </p>
-          </div>
+          </FadeUp>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {reportTiers.map((tier, index) => (
-              <motion.div
-                key={tier.name}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                viewport={{ once: true, margin: "-100px" }}
-                className="group"
-              >
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {reportTiers.map((tier) => (
+              <StaggerItem key={tier.name} className="group">
                 <Card variant="elevated" className="h-full hover:shadow-2xl transition-all duration-300 relative">
                   {tier.badge && (
                     <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
@@ -309,42 +271,36 @@ export default function ReportProductPage() {
                     )}
                   </CardContent>
                 </Card>
-              </motion.div>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerContainer>
         </div>
       </section>
 
-      {/* 4D Intelligence Model for Report */}
+      {/* 4D Intelligence Model */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
+          <FadeUp className="text-center mb-16">
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               The 4D Intelligence Model (Report Tier)
             </h2>
             <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
-              Report delivers: <span className="font-semibold text-green-600">Full (1D + 2D)</span> + <span className="font-semibold text-[#60A5FA]">Limited (3D + 4D)</span>
+              Report delivers: <span className="font-semibold text-green-400">Full (1D + 2D)</span> + <span className="font-semibold text-blue-400">Limited (3D + 4D)</span>
             </p>
-          </div>
+          </FadeUp>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {fourDimensions.map((dim, index) => (
-              <motion.div
-                key={dim.dimension}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                viewport={{ once: true, margin: "-100px" }}
-              >
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {fourDimensions.map((dim) => (
+              <StaggerItem key={dim.dimension}>
                 <Card variant="elevated" className="h-full hover:shadow-xl transition-all duration-300">
                   <CardHeader>
                     <div className="text-center mb-4">
                       <div className={`inline-flex w-16 h-16 bg-gradient-to-br ${dim.color} rounded-full items-center justify-center text-white mb-3 shadow-lg`}>
-                        <SundaeIcon name={dim.icon} size="xl" className="text-[var(--text-primary)]" />
+                        <SundaeIcon name={dim.icon} size="xl" className="text-white" />
                       </div>
                       <div className="text-3xl font-bold text-[var(--text-primary)] mb-1">{dim.dimension}</div>
                       <CardTitle className="text-lg text-[var(--text-primary)] mb-2">{dim.title}</CardTitle>
-                      <span className={`inline-block px-3 py-1 rounded-full text-xs font-semibold ${dim.status.includes('Full') ? 'bg-green-100 text-green-800' : 'bg-blue-100 text-blue-800'}`}>
+                      <span className={`inline-block px-3 py-1 rounded-full text-xs font-semibold ${dim.status.includes('Full') ? 'bg-green-500/20 text-green-400' : 'bg-blue-500/20 text-blue-400'}`}>
                         {dim.status}
                       </span>
                     </div>
@@ -353,45 +309,39 @@ export default function ReportProductPage() {
                     </CardDescription>
                   </CardHeader>
                 </Card>
-              </motion.div>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerContainer>
         </div>
       </section>
 
-      {/* When to Upgrade to Core */}
+      {/* When to Upgrade */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
+          <FadeUp className="text-center mb-16">
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-              When to Upgrade from Report to Core
+              When to Move from Report to Core
             </h2>
             <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
-              Signs you're ready for real-time intelligence
+              Signs you&apos;re ready for real-time intelligence
             </p>
-          </div>
+          </FadeUp>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-            {upgradeSignals.map((signal, index) => (
-              <motion.div
-                key={signal.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                viewport={{ once: true, margin: "-100px" }}
-              >
-                <div className="flex items-start space-x-4 p-6 bg-[var(--navy-deep)] rounded-xl shadow-none hover:shadow-md transition-all duration-300">
-                  <div className="w-12 h-12 bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl flex items-center justify-center text-white flex-shrink-0">
-                    <SundaeIcon name={signal.icon} size="lg" className="text-[var(--text-primary)]" />
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+            {upgradeSignals.map((signal) => (
+              <StaggerItem key={signal.title}>
+                <div className="flex items-start space-x-4 p-6 bg-[var(--navy-deep)] rounded-xl hover:shadow-md transition-all duration-300">
+                  <div className="w-12 h-12 bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <SundaeIcon name={signal.icon} size="lg" className="text-white" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-[var(--text-primary)] mb-2">{signal.title}</h3>
                     <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{signal.description}</p>
                   </div>
                 </div>
-              </motion.div>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerContainer>
 
           <div className="text-center">
             <Button
@@ -405,23 +355,23 @@ export default function ReportProductPage() {
         </div>
       </section>
 
-
-
-      {/* FAQ Section */}
+      {/* FAQ */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-16">
+          <FadeUp className="text-center mb-16">
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               Frequently Asked Questions
             </h2>
-          </div>
+          </FadeUp>
 
           <div className="space-y-6">
             {faqs.map((faq, index) => (
-              <div key={index} className="p-6 bg-[var(--surface-faint)]/70 rounded-xl">
-                <h3 className="font-semibold text-[var(--text-primary)] mb-3">{faq.q}</h3>
-                <p className="text-[var(--text-supporting)] leading-relaxed">{faq.a}</p>
-              </div>
+              <FadeUp key={index} delay={index * 0.05}>
+                <div className="p-6 bg-[var(--surface-faint)] rounded-xl">
+                  <h3 className="font-semibold text-[var(--text-primary)] mb-3">{faq.q}</h3>
+                  <p className="text-[var(--text-supporting)] leading-relaxed">{faq.a}</p>
+                </div>
+              </FadeUp>
             ))}
           </div>
 
@@ -438,19 +388,17 @@ export default function ReportProductPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] text-[var(--text-primary)]">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 text-[var(--text-primary)] mb-6">
-            Start in Under Two Minutes
-          </h2>
-          <p className="body-lg text-[var(--text-muted)] mb-8 max-w-3xl mx-auto">
-            Upload your data, see your benchmark. That's it.
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            <div className="p-6 bg-[var(--navy-deep)]/5 border border-[var(--border-default)] rounded-xl">
-              <div className="w-10 h-10 mx-auto mb-3 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center"><SundaeIcon name="success" size="lg" className="text-white" /></div>
-              <h3 className="font-semibold text-[var(--text-primary)] mb-2">Start Free</h3>
-              <p className="text-sm text-[var(--text-muted)] mb-4">Upload CSV, get instant benchmark</p>
+      <PageCTA
+        title="Start in Under Two Minutes"
+        description="Upload your data, see your benchmark. That's it."
+      >
+        <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <StaggerItem className="p-6 border border-[var(--border-default)] rounded-xl">
+              <div className="w-10 h-10 mx-auto mb-3 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center">
+                <SundaeIcon name="success" size="lg" className="text-white" />
+              </div>
+              <h3 className="font-semibold text-[var(--text-primary)] mb-2 text-center">Start Free</h3>
+              <p className="text-sm text-[var(--text-muted)] mb-4 text-center">Upload CSV, get instant benchmark</p>
               <Button
                 variant="primary"
                 size="md"
@@ -459,29 +407,23 @@ export default function ReportProductPage() {
               >
                 Start Free →
               </Button>
-            </div>
-            <div className="p-6 bg-[var(--navy-deep)]/5 border border-[var(--border-default)] rounded-xl">
+            </StaggerItem>
+            <StaggerItem className="p-6 border border-[var(--border-default)] rounded-xl">
               <div className="w-12 h-12 bg-[#1C47FF] rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="chart" size="lg" className="text-[var(--text-primary)]" />
+                <SundaeIcon name="chart" size="lg" className="text-white" />
               </div>
-              <h3 className="font-semibold text-[var(--text-primary)] mb-2">Explore Tiers</h3>
-              <p className="text-sm text-[var(--text-muted)] mb-4">See Plus and Pro capabilities</p>
-              <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
-                <Button
-                  variant="outline"
-                  size="md"
-                  className="w-full"
-                >
-                  Compare Tiers →
-                </Button>
-              </a>
-            </div>
-            <div className="p-6 bg-[var(--navy-deep)]/5 border border-[var(--border-default)] rounded-xl">
+              <h3 className="font-semibold text-[var(--text-primary)] mb-2 text-center">Explore Tiers</h3>
+              <p className="text-sm text-[var(--text-muted)] mb-4 text-center">See Plus and Pro capabilities</p>
+              <Button variant="outline" size="md" className="w-full" href={PRICING_URL}>
+                Compare Tiers →
+              </Button>
+            </StaggerItem>
+            <StaggerItem className="p-6 border border-[var(--border-default)] rounded-xl">
               <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                <SundaeIcon name="visibility" size="lg" className="text-[var(--text-primary)]" />
+                <SundaeIcon name="visibility" size="lg" className="text-white" />
               </div>
-              <h3 className="font-semibold text-[var(--text-primary)] mb-2">Book a Demo</h3>
-              <p className="text-sm text-[var(--text-muted)] mb-4">See Report with your data</p>
+              <h3 className="font-semibold text-[var(--text-primary)] mb-2 text-center">Book a Demo</h3>
+              <p className="text-sm text-[var(--text-muted)] mb-4 text-center">See Report with your data</p>
               <Button
                 variant="outline"
                 size="md"
@@ -490,10 +432,9 @@ export default function ReportProductPage() {
               >
                 Book Demo →
               </Button>
-            </div>
-          </div>
-        </div>
-      </section>
+            </StaggerItem>
+          </StaggerContainer>
+      </PageCTA>
     </div>
   );
 }

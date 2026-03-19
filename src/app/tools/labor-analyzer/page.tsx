@@ -43,14 +43,14 @@ export default function LaborAnalyzerPage() {
  };
 
  return (
- <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50 py-32 px-4 sm:px-6 lg:px-8">
+ <div className="min-h-screen bg-[var(--navy-deep)] py-32 px-4 sm:px-6 lg:px-8">
  <div className="max-w-4xl mx-auto">
  <Link href="/tools" className="inline-flex items-center text-[#60A5FA] hover:text-[#60A5FA] mb-6">
  ← Back to Tools
  </Link>
 
  <div className="text-center mb-12">
- <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
+ <div className="inline-flex items-center space-x-2 bg-blue-500/20 text-blue-400 px-4 py-2 rounded-full text-sm font-medium mb-6">
  <SundaeIcon name="labor" size="md" />
  <span>Labor Analyzer</span>
  </div>
@@ -139,17 +139,17 @@ export default function LaborAnalyzerPage() {
 
  {parseFloat(targetLabor) > 0 && (
  <div className={`rounded-lg p-6 ${
- result.status === 'high' ? 'bg-[rgba(220,38,38,0.1)]' :
- result.status === 'slightly-high' ? 'bg-yellow-50' :
+ result.status === 'high' ? 'bg-red-500/10' :
+ result.status === 'slightly-high' ? 'bg-yellow-500/10' :
  result.status === 'low' ? 'bg-[rgba(28,71,255,0.1)]' :
- 'bg-green-50'
+ 'bg-green-500/10'
  }`}>
  <div className="text-sm text-[var(--text-supporting)] mb-2">Variance vs Target</div>
  <div className={`text-4xl font-bold ${
- result.status === 'high' ? 'text-red-600' :
- result.status === 'slightly-high' ? 'text-yellow-600' :
+ result.status === 'high' ? 'text-red-400' :
+ result.status === 'slightly-high' ? 'text-yellow-400' :
  result.status === 'low' ? 'text-[#60A5FA]' :
- 'text-green-600'
+ 'text-green-400'
  }`}>
  {result.variance > 0 ? '+' : ''}{result.variance.toFixed(1)}%
  </div>

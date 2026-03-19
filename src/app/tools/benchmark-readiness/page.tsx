@@ -59,12 +59,12 @@ export default function BenchmarkReadinessPage() {
  },
  {
  id: 'teamAlignment',
- question: 'How aligned is your team on data-driven decision making?',
+ question: 'How aligned is your team on numbers-backed decision making?',
  options: [
  { value: '1', label: 'Limited - Decisions based on intuition' },
  { value: '2', label: 'Developing - Some data consideration' },
  { value: '3', label: 'Strong - Data informs most decisions' },
- { value: '4', label: 'Excellent - Data-driven culture' }
+ { value: '4', label: 'Excellent - Numbers-backed culture' }
  ]
  }
  ];
@@ -88,7 +88,7 @@ export default function BenchmarkReadinessPage() {
  recommendations = [
  'Your organization is well-positioned for advanced benchmarking',
  'Consider implementing real-time competitive intelligence',
- 'Explore predictive analytics and AI-driven insights',
+ 'Explore predictive intelligence and operational insights',
  'Focus on benchmarking against industry leaders'
  ];
  } else if (score >= 60) {
@@ -113,7 +113,7 @@ export default function BenchmarkReadinessPage() {
  'Prioritize data quality and system reliability',
  'Begin integrating your operational systems',
  'Establish basic reporting cadence',
- 'Create a data-driven culture within your team'
+ 'Create a numbers-backed culture within your team'
  ];
  }
 
@@ -121,14 +121,14 @@ export default function BenchmarkReadinessPage() {
  };
 
  return (
- <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50 py-32 px-4 sm:px-6 lg:px-8">
+ <div className="min-h-screen bg-[var(--navy-deep)] py-32 px-4 sm:px-6 lg:px-8">
  <div className="max-w-4xl mx-auto">
  <Link href="/tools" className="inline-flex items-center text-[#60A5FA] hover:text-[#60A5FA] mb-6">
  ← Back to Tools
  </Link>
 
  <div className="text-center mb-12">
- <div className="inline-flex items-center space-x-2 bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
+ <div className="inline-flex items-center space-x-2 bg-green-500/20 text-green-400 px-4 py-2 rounded-full text-sm font-medium mb-6">
  <SundaeIcon name="chart" size="md" />
  <span>Benchmark Readiness</span>
  </div>
@@ -136,7 +136,7 @@ export default function BenchmarkReadinessPage() {
  Benchmark Readiness Assessment
  </h1>
  <p className="body-xl text-[var(--text-supporting)]">
- Evaluate your organization's readiness for data-driven benchmarking
+ Evaluate your organization's readiness for benchmarking
  </p>
  </div>
 
@@ -205,7 +205,7 @@ export default function BenchmarkReadinessPage() {
  </ul>
  </div>
 
- <div className="bg-green-50 rounded-lg p-4">
+ <div className="bg-green-500/10 rounded-lg p-4">
  <p className="text-sm text-[var(--text-secondary)]">
  <strong>Next Step:</strong> {result.score >= 60 ? 
  'You\'re ready to start benchmarking! Consider scheduling a demo to see how Sundae can help.' :

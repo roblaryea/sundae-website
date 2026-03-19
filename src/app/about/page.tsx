@@ -1,10 +1,7 @@
-"use client";
-
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
-import { motion } from "framer-motion";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 
@@ -19,7 +16,7 @@ export default function AboutPage() {
         "20+ years leading consulting and global transformation programs",
         "Deep F&B operator experience — saw fragmented restaurant data pain first-hand",
         "Scaled restaurant concepts from zero to $10M+ annual revenue",
-        "Founded Sundae to unify data, market context, and AI into one restaurant operating layer"
+        "Founded Sundae to unify data, market context, and intelligence into one restaurant operating layer"
       ]
     },
     {
@@ -95,7 +92,7 @@ export default function AboutPage() {
       icon: "owners"
     },
     {
-      title: "Data Intelligence First",
+      title: "Intelligence First",
       description: "Scattered data is expensive. We turn 12 systems into one intelligent layer that actually drives decisions.",
       icon: "insights"
     },
@@ -113,7 +110,6 @@ export default function AboutPage() {
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
-      {/* Hero Section */}
       <PageHero
         badge="Our Story"
         title="Built by Operators, for Operators"
@@ -134,47 +130,35 @@ export default function AboutPage() {
                 </p>
 
                 <div className="space-y-6">
-                  <motion.div
-                    className="flex items-start space-x-4"
-                    whileHover={{ x: 4 }}
-                    transition={{ duration: 0.2 }}
-                  >
-                    <div className="w-8 h-8 bg-slate-900 rounded-full flex items-center justify-center text-[var(--text-primary)] text-sm font-bold mt-1 flex-shrink-0">
+                  <div className="flex items-start space-x-4 hover:translate-x-1 transition-transform duration-200">
+                    <div className="w-8 h-8 bg-[var(--surface-subtle)] rounded-full flex items-center justify-center text-[var(--text-primary)] text-sm font-bold mt-1 flex-shrink-0">
                       1
                     </div>
                     <div>
                       <h4 className="font-semibold text-[var(--text-primary)] text-lg mb-1">Unify Every Data Source</h4>
                       <p className="text-[var(--text-supporting)] leading-[1.65]">Break down silos between POS, labor, inventory, and financial systems into one intelligent layer.</p>
                     </div>
-                  </motion.div>
+                  </div>
 
-                  <motion.div
-                    className="flex items-start space-x-4"
-                    whileHover={{ x: 4 }}
-                    transition={{ duration: 0.2 }}
-                  >
-                    <div className="w-8 h-8 bg-slate-900 rounded-full flex items-center justify-center text-[var(--text-primary)] text-sm font-bold mt-1 flex-shrink-0">
+                  <div className="flex items-start space-x-4 hover:translate-x-1 transition-transform duration-200">
+                    <div className="w-8 h-8 bg-[var(--surface-subtle)] rounded-full flex items-center justify-center text-[var(--text-primary)] text-sm font-bold mt-1 flex-shrink-0">
                       2
                     </div>
                     <div>
                       <h4 className="font-semibold text-[var(--text-primary)] text-lg mb-1">Benchmark Every Location</h4>
                       <p className="text-[var(--text-supporting)] leading-[1.65]">Compare performance against similar restaurants and industry standards in real-time.</p>
                     </div>
-                  </motion.div>
+                  </div>
 
-                  <motion.div
-                    className="flex items-start space-x-4"
-                    whileHover={{ x: 4 }}
-                    transition={{ duration: 0.2 }}
-                  >
-                    <div className="w-8 h-8 bg-slate-900 rounded-full flex items-center justify-center text-[var(--text-primary)] text-sm font-bold mt-1 flex-shrink-0">
+                  <div className="flex items-start space-x-4 hover:translate-x-1 transition-transform duration-200">
+                    <div className="w-8 h-8 bg-[var(--surface-subtle)] rounded-full flex items-center justify-center text-[var(--text-primary)] text-sm font-bold mt-1 flex-shrink-0">
                       3
                     </div>
                     <div>
                       <h4 className="font-semibold text-[var(--text-primary)] text-lg mb-1">Act with Confidence</h4>
-                      <p className="text-[var(--text-supporting)] leading-[1.65]">Get AI-powered insights and recommendations to improve revenue, reduce costs, and scale faster.</p>
+                      <p className="text-[var(--text-supporting)] leading-[1.65]">Get intelligence-backed insights and recommendations to improve revenue, reduce costs, and scale faster.</p>
                     </div>
-                  </motion.div>
+                  </div>
                 </div>
               </div>
             </FadeUp>
@@ -182,8 +166,8 @@ export default function AboutPage() {
             <FadeUp delay={0.1}>
               <div className="bg-[var(--surface-faint)] border border-[var(--border-default)] rounded-3xl p-10 shadow-xl">
                 <div className="text-center mb-8">
-                  <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl flex items-center justify-center">
-                    <SundaeIcon name="marketing" size="xl" className="text-[var(--text-primary)]" />
+                  <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center">
+                    <SundaeIcon name="marketing" size="xl" className="text-white" />
                   </div>
                   <h3 className="section-h3 text-[var(--text-primary)] mb-4">Our Vision</h3>
                   <p className="body-lg text-[var(--text-secondary)]">
@@ -212,7 +196,7 @@ export default function AboutPage() {
       </section>
 
       {/* Team Section */}
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-blue-50/30">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
@@ -228,11 +212,7 @@ export default function AboutPage() {
           <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
             {leadership.map((member) => (
               <StaggerItem key={member.name}>
-                <motion.div
-                  whileHover={{ y: -8 }}
-                  transition={{ duration: 0.3 }}
-                  className="text-center"
-                >
+                <div className="text-center hover:-translate-y-2 transition-transform duration-300">
                   <div className="relative w-32 h-32 mx-auto mb-6">
                     <Image
                       src={member.image}
@@ -254,32 +234,31 @@ export default function AboutPage() {
                       </li>
                     ))}
                   </ul>
-                </motion.div>
+                </div>
               </StaggerItem>
             ))}
           </StaggerContainer>
 
-          {/* Team Strengths */}
           <FadeUp delay={0.4}>
-            <Card variant="elevated" className="bg-gradient-to-r from-slate-100 to-slate-200 border-2 border-white/[0.1]">
+            <Card variant="elevated">
               <CardContent className="p-8">
                 <h3 className="font-bold text-[var(--text-primary)] text-lg mb-6">Team Strengths</h3>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   <div className="flex items-center space-x-3">
-                    <div className="w-12 h-12 bg-slate-900 rounded-xl flex items-center justify-center text-[var(--text-primary)] flex-shrink-0">
-                      <SundaeIcon name="benchmarking" size="lg" className="text-[var(--text-primary)]" />
+                    <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center flex-shrink-0">
+                      <SundaeIcon name="benchmarking" size="lg" className="text-white" />
                     </div>
                     <p className="text-[var(--text-secondary)] font-medium">60+ years combined experience across restaurants, tech & data</p>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-12 h-12 bg-slate-900 rounded-xl flex items-center justify-center text-[var(--text-primary)] flex-shrink-0">
-                      <SundaeIcon name="multiLocation" size="lg" className="text-[var(--text-primary)]" />
+                    <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center flex-shrink-0">
+                      <SundaeIcon name="multiLocation" size="lg" className="text-white" />
                     </div>
                     <p className="text-[var(--text-secondary)] font-medium">Dubai + Toronto global presence</p>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-12 h-12 bg-slate-900 rounded-xl flex items-center justify-center text-[var(--text-primary)] flex-shrink-0">
-                      <SundaeIcon name="growth" size="lg" className="text-[var(--text-primary)]" />
+                    <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center flex-shrink-0">
+                      <SundaeIcon name="growth" size="lg" className="text-white" />
                     </div>
                     <p className="text-[var(--text-secondary)] font-medium">Multiple successful exits and scale-ups</p>
                   </div>
@@ -306,22 +285,14 @@ export default function AboutPage() {
 
           {/* Desktop: Grid Layout */}
           <div className="hidden lg:grid lg:grid-cols-5 gap-6 relative">
-            {/* Connecting Line */}
-            <div className="absolute top-12 left-0 right-0 h-1 bg-gradient-to-r from-slate-800 via-slate-900 to-slate-700" style={{ top: '32px' }} />
+            <div className="absolute top-8 left-0 right-0 h-1 bg-gradient-to-r from-[var(--surface-subtle)] via-[var(--border-default)] to-[var(--surface-subtle)]" />
 
             {milestones.map((milestone, index) => (
               <FadeUp key={`${milestone.year}-${index}`} delay={index * 0.1}>
                 <div className="relative">
-                  {/* Node */}
-                  <motion.div
-                    className="w-16 h-16 bg-gradient-to-br from-slate-800 to-slate-900 rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg mx-auto mb-6 relative z-10 border-4 border-white"
-                    whileHover={{ scale: 1.1, rotate: 5 }}
-                    transition={{ duration: 0.3 }}
-                  >
+                  <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-blue-700 rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg mx-auto mb-6 relative z-10 border-4 border-[var(--navy-deep)] hover:scale-110 transition-transform duration-300">
                     {milestone.year}
-                  </motion.div>
-
-                  {/* Content */}
+                  </div>
                   <div className="text-center">
                     <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">{milestone.title}</h3>
                     <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{milestone.description}</p>
@@ -333,24 +304,19 @@ export default function AboutPage() {
 
           {/* Mobile: Horizontal Scroll */}
           <div className="lg:hidden">
-            <div className="flex gap-6 overflow-x-auto snap-x snap-mandatory pb-8 scrollbar-hide" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+            <div className="flex gap-6 overflow-x-auto snap-x snap-mandatory pb-8" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
               {milestones.map((milestone, index) => (
-                <motion.div
-                  key={`${milestone.year}-${index}`}
-                  className="flex-shrink-0 w-80 snap-center"
-                  initial={{ opacity: 0, x: 50 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
-                >
-                  <Card variant="elevated" className="h-full p-6">
-                    <div className="w-16 h-16 bg-gradient-to-br from-slate-800 to-slate-900 rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg mb-4">
-                      {milestone.year}
-                    </div>
-                    <h3 className="text-xl font-bold text-[var(--text-primary)] mb-3">{milestone.title}</h3>
-                    <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{milestone.description}</p>
-                  </Card>
-                </motion.div>
+                <FadeUp key={`mobile-${milestone.year}-${index}`} delay={index * 0.1}>
+                  <div className="flex-shrink-0 w-80 snap-center">
+                    <Card variant="elevated" className="h-full p-6">
+                      <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-blue-700 rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg mb-4">
+                        {milestone.year}
+                      </div>
+                      <h3 className="text-xl font-bold text-[var(--text-primary)] mb-3">{milestone.title}</h3>
+                      <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{milestone.description}</p>
+                    </Card>
+                  </div>
+                </FadeUp>
               ))}
             </div>
             <p className="text-center text-sm text-[var(--text-muted)] mt-4">&larr; Swipe to explore &rarr;</p>
@@ -359,7 +325,7 @@ export default function AboutPage() {
       </section>
 
       {/* Values Section */}
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-blue-50/30">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
@@ -375,19 +341,12 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {values.map((value, index) => (
               <FadeUp key={value.title} delay={index * 0.1}>
-                <motion.div
-                  whileHover={{ y: -4 }}
-                  transition={{ duration: 0.3 }}
-                >
+                <div className="hover:-translate-y-1 transition-transform duration-300">
                   <Card variant="elevated" className="text-center h-full p-8">
                     <CardHeader>
-                      <motion.div
-                        className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl flex items-center justify-center"
-                        whileHover={{ scale: 1.2, rotate: 10 }}
-                        transition={{ duration: 0.3 }}
-                      >
-                        <SundaeIcon name={value.icon} size="xl" className="text-[var(--text-primary)]" />
-                      </motion.div>
+                      <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center hover:scale-110 transition-transform duration-300">
+                        <SundaeIcon name={value.icon} size="xl" className="text-white" />
+                      </div>
                       <CardTitle className="text-[var(--text-primary)] text-xl mb-4">{value.title}</CardTitle>
                     </CardHeader>
                     <CardContent>
@@ -396,7 +355,7 @@ export default function AboutPage() {
                       </CardDescription>
                     </CardContent>
                   </Card>
-                </motion.div>
+                </div>
               </FadeUp>
             ))}
           </div>
@@ -419,35 +378,28 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
             {[
-              { region: "Middle East", countries: "UAE, KSA, Qatar", icon: "network" as SundaeIconName, color: "bg-positive", label: "Active" },
-              { region: "North America", countries: "USA, Canada", icon: "network" as SundaeIconName, color: "bg-slate-900", label: "Active" },
+              { region: "Middle East", countries: "UAE, KSA, Qatar", icon: "network" as SundaeIconName, color: "bg-green-600", label: "Active" },
+              { region: "North America", countries: "USA, Canada", icon: "network" as SundaeIconName, color: "bg-blue-600", label: "Active" },
               { region: "Europe", countries: "UK, Germany, France", icon: "network" as SundaeIconName, color: "bg-violet-600", label: "Target" },
-              { region: "Asia Pacific", countries: "Australia, Singapore", icon: "network" as SundaeIconName, color: "bg-coral", label: "Target" }
+              { region: "Asia Pacific", countries: "Australia, Singapore", icon: "network" as SundaeIconName, color: "bg-orange-600", label: "Target" }
             ].map((region, index) => (
               <FadeUp key={region.region} delay={index * 0.1}>
-                <motion.div
-                  className="text-center"
-                  whileHover={{ y: -8 }}
-                  transition={{ duration: 0.3 }}
-                >
-                  <div
-                    className={`w-20 h-20 ${region.color} rounded-2xl flex items-center justify-center text-[var(--text-primary)] text-3xl mx-auto mb-6 shadow-lg`}
-                  >
-                    <SundaeIcon name={region.icon} size="lg" className="text-[var(--text-primary)]" />
+                <div className="text-center hover:-translate-y-2 transition-transform duration-300">
+                  <div className={`w-20 h-20 ${region.color} rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg`}>
+                    <SundaeIcon name={region.icon} size="lg" className="text-white" />
                   </div>
-                  <span className={`inline-block text-[10px] font-bold uppercase tracking-wider mb-2 px-2 py-0.5 rounded-full ${region.label === 'Active' ? 'bg-green-100 text-green-700' : 'bg-[var(--surface-subtle)] text-[var(--text-muted)]'}`}>
+                  <span className={`inline-block text-[10px] font-bold uppercase tracking-wider mb-2 px-2 py-0.5 rounded-full ${region.label === 'Active' ? 'bg-green-500/20 text-green-400' : 'bg-[var(--surface-subtle)] text-[var(--text-muted)]'}`}>
                     {region.label}
                   </span>
                   <h3 className="font-bold text-[var(--text-primary)] text-lg mb-2">{region.region}</h3>
                   <p className="text-sm text-[var(--text-supporting)]">{region.countries}</p>
-                </motion.div>
+                </div>
               </FadeUp>
             ))}
           </div>
         </div>
       </section>
 
-      {/* CTA Section */}
       <PageCTA
         title="Join Us on the Journey"
         description="We're hiring across engineering, product, and go-to-market. Help us build the future of decision intelligence."

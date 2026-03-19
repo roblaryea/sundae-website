@@ -54,14 +54,14 @@ export default function MultiLocationUpliftPage() {
  };
 
  return (
- <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50 py-32 px-4 sm:px-6 lg:px-8">
+ <div className="min-h-screen bg-[var(--navy-deep)] py-32 px-4 sm:px-6 lg:px-8">
  <div className="max-w-4xl mx-auto">
  <Link href="/tools" className="inline-flex items-center text-[#60A5FA] hover:text-[#60A5FA] mb-6">
  ← Back to Tools
  </Link>
 
  <div className="text-center mb-12">
- <div className="inline-flex items-center space-x-2 bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
+ <div className="inline-flex items-center space-x-2 bg-purple-500/20 text-purple-400 px-4 py-2 rounded-full text-sm font-medium mb-6">
  <SundaeIcon name="performance" size="md" />
  <span>Multi-Location Uplift</span>
  </div>
@@ -144,24 +144,24 @@ export default function MultiLocationUpliftPage() {
  </div>
  </div>
 
- <div className="bg-purple-50 rounded-lg p-6">
+ <div className="bg-purple-500/10 rounded-lg p-6">
  <div className="text-sm text-[var(--text-supporting)] mb-2">Potential Annual Uplift</div>
- <div className="text-3xl font-bold text-purple-600">
+ <div className="text-3xl font-bold text-purple-400">
  ${(result.upliftRevenue / 1000000).toFixed(2)}M
  </div>
  </div>
 
- <div className="bg-green-50 rounded-lg p-6">
+ <div className="bg-green-500/10 rounded-lg p-6">
  <div className="text-sm text-[var(--text-supporting)] mb-2">Uplift Per Location</div>
- <div className="text-3xl font-bold text-green-600">
+ <div className="text-3xl font-bold text-green-400">
  ${(result.perLocation / 1000).toFixed(1)}K
  </div>
  <div className="text-xs text-[var(--text-muted)] mt-1">per year</div>
  </div>
 
- <div className="bg-orange-50 rounded-lg p-6">
+ <div className="bg-orange-500/10 rounded-lg p-6">
  <div className="text-sm text-[var(--text-supporting)] mb-2">Expected Timeframe</div>
- <div className="text-lg font-semibold text-orange-600">
+ <div className="text-lg font-semibold text-orange-400">
  {result.timeframe}
  </div>
  </div>
@@ -171,25 +171,25 @@ export default function MultiLocationUpliftPage() {
  <div className="text-sm font-semibold text-[var(--text-secondary)] mb-3">Key Improvement Areas</div>
  <ul className="space-y-2">
  <li className="flex items-start space-x-2">
- <span className="text-purple-600 mt-1">•</span>
+ <span className="text-purple-400 mt-1">•</span>
  <span className="text-[var(--text-supporting)]">
  <strong>Labor Optimization:</strong> Improve scheduling efficiency and reduce overtime (2-4% impact)
  </span>
  </li>
  <li className="flex items-start space-x-2">
- <span className="text-purple-600 mt-1">•</span>
+ <span className="text-purple-400 mt-1">•</span>
  <span className="text-[var(--text-supporting)]">
  <strong>Menu Engineering:</strong> Optimize pricing and promote high-margin items (1-3% impact)
  </span>
  </li>
  <li className="flex items-start space-x-2">
- <span className="text-purple-600 mt-1">•</span>
+ <span className="text-purple-400 mt-1">•</span>
  <span className="text-[var(--text-supporting)]">
  <strong>Operational Excellence:</strong> Reduce waste, improve inventory management (1-2% impact)
  </span>
  </li>
  <li className="flex items-start space-x-2">
- <span className="text-purple-600 mt-1">•</span>
+ <span className="text-purple-400 mt-1">•</span>
  <span className="text-[var(--text-supporting)]">
  <strong>Location Benchmarking:</strong> Replicate best practices from top performers (2-5% impact)
  </span>

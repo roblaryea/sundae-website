@@ -27,7 +27,7 @@ const reportTiers: Tier[] = [
   {
     name: "Report Lite",
     badge: "FREE FOREVER",
-    badgeClass: "bg-green-100 text-green-800",
+    badgeClass: "bg-green-500/20 text-green-400",
     basePrice: "$0",
     perLocation: "$0",
     aiCredits: "250",
@@ -45,13 +45,13 @@ const reportTiers: Tier[] = [
   {
     name: "Report Plus",
     badge: "POPULAR",
-    badgeClass: "bg-orange-100 text-orange-800",
+    badgeClass: "bg-orange-500/20 text-orange-400",
     basePrice: "$79",
     perLocation: "$39",
     aiCredits: "1,200",
-    description: "AI-parsed data ingestion with deeper analysis and monthly intelligence summaries.",
+    description: "Smart-parsed data ingestion with deeper analysis and monthly intelligence summaries.",
     features: [
-      "AI-parsed uploads (PDF, Excel, screenshots)",
+      "Smart-parsed uploads (PDF, Excel, screenshots)",
       "~30 comprehensive visuals",
       "Monthly intelligence summaries",
       "Comparable period views (WoW/MoM/YoY)",
@@ -67,7 +67,7 @@ const reportTiers: Tier[] = [
     basePrice: "$159",
     perLocation: "$59",
     aiCredits: "3,500",
-    description: "Automated daily ingestion with advanced AI insights and team collaboration.",
+    description: "Automated daily ingestion with advanced intelligence and team collaboration.",
     features: [
       "Daily automated data sync",
       "~80 comprehensive visuals",
@@ -104,7 +104,7 @@ const coreTiers: Tier[] = [
   {
     name: "Core Pro",
     badge: "MOST POPULAR",
-    badgeClass: "bg-blue-100 text-blue-800",
+    badgeClass: "bg-blue-500/20 text-blue-400",
     basePrice: "$449",
     perLocation: "$89",
     aiCredits: "14,000",
@@ -113,7 +113,7 @@ const coreTiers: Tier[] = [
       "Everything in Core Lite",
       "5-minute data refresh",
       "Multi-POS support across locations",
-      "AI playbooks & automated workflows",
+      "Intelligent playbooks & automated workflows",
       "Sundae Intelligence (all modes)",
       "Benchmarks & market intelligence",
       "Watchtower external intelligence",
@@ -132,7 +132,7 @@ function PricingCard({ tier, annual }: { tier: Tier; annual: boolean }) {
   const displayLoc = locNum === 0 ? "$0" : annual ? `$${Math.round(locNum * 0.9)}` : tier.perLocation;
 
   return (
-    <Card className={`h-full ${tier.highlight ? 'border-2 border-slate-900 shadow-2xl' : 'border border-[var(--border-default)] shadow-lg'} hover:shadow-xl transition-all`}>
+    <Card className={`h-full ${tier.highlight ? 'border-2 border-blue-500/50 shadow-2xl' : 'border border-[var(--border-default)] shadow-lg'} hover:shadow-xl transition-all`}>
       <CardHeader className="pb-4">
         {tier.badge && (
           <div className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold mb-3 w-fit ${tier.badgeClass}`}>
@@ -156,7 +156,7 @@ function PricingCard({ tier, annual }: { tier: Tier; annual: boolean }) {
       <CardContent className="pt-0">
         <div className="mb-4 pb-4 border-b border-[var(--border-default)]">
           <p className="text-xs text-[var(--text-muted)]">
-            {tier.aiCredits} AI credits/month
+            {tier.aiCredits} intelligence credits/month
           </p>
         </div>
         <ul className="space-y-2.5 mb-6">
@@ -192,7 +192,7 @@ export default function PricingPage() {
       <PageHero
         badge="Pricing"
         title="Simple, Transparent Pricing"
-        description="Start free with Report. Scale to real-time intelligence with Core. Every plan includes Sundae Intelligence AI credits."
+        description="Start free with Report. Scale to real-time intelligence with Core. Every plan includes Sundae Intelligence intelligence credits."
       >
         {/* Billing Toggle */}
         <div className="flex items-center justify-center space-x-4">
@@ -214,7 +214,7 @@ export default function PricingPage() {
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-8">
-              <div className="inline-flex items-center space-x-2 bg-purple-100 text-purple-700 px-5 py-2 rounded-full text-sm font-semibold">
+              <div className="inline-flex items-center space-x-2 bg-purple-500/20 text-purple-400 px-5 py-2 rounded-full text-sm font-semibold">
                 <SundaeIcon name="report" size="md" />
                 <span>Sundae Report — Historical Analysis & Benchmarking</span>
               </div>
@@ -236,7 +236,7 @@ export default function PricingPage() {
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-8">
-              <div className="inline-flex items-center space-x-2 bg-blue-100 text-[#60A5FA] px-5 py-2 rounded-full text-sm font-semibold">
+              <div className="inline-flex items-center space-x-2 bg-blue-500/20 text-blue-400 px-5 py-2 rounded-full text-sm font-semibold">
                 <SundaeIcon name="core" size="md" />
                 <span>Sundae Core — Real-Time Operations & Predictive Intelligence</span>
               </div>
@@ -257,11 +257,11 @@ export default function PricingPage() {
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <FadeUp>
-            <Card className="border-2 border-slate-900 shadow-2xl bg-gradient-to-br from-white to-blue-50/30">
+            <Card className="border-2 border-blue-500/50 shadow-2xl bg-[var(--surface-faint)]">
               <CardContent className="p-8 md:p-12">
                 <div className="grid md:grid-cols-2 gap-8 items-center">
                   <div>
-                    <div className="inline-flex items-center space-x-2 bg-slate-900/10 text-[var(--text-primary)] px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                    <div className="inline-flex items-center space-x-2 bg-blue-500/20 text-blue-400 px-4 py-2 rounded-full text-sm font-semibold mb-4">
                       <SundaeIcon name="franchise" size="md" />
                       <span>Enterprise</span>
                     </div>
@@ -269,7 +269,7 @@ export default function PricingPage() {
                       Custom Pricing for Large Operations
                     </h3>
                     <p className="text-[var(--text-supporting)] mb-6">
-                      For multi-location groups that need white-label, SSO, custom SLAs, and dedicated support. 50,000+ AI credits included.
+                      For multi-location groups that need white-label, SSO, custom SLAs, and dedicated support. 50,000+ intelligence credits included.
                     </p>
                     <Link href="/demo">
                       <Button variant="primary" size="lg" className="px-8">
@@ -289,10 +289,10 @@ export default function PricingPage() {
                         "Dedicated Customer Success Manager",
                         "24/7 support with contractual SLAs",
                         "Custom historical access (5+ years)",
-                        "Unlimited AI credits & custom dashboards"
+                        "Unlimited intelligence credits & custom dashboards"
                       ].map((feature, index) => (
                         <li key={index} className="flex items-start space-x-2.5">
-                          <svg className="w-4 h-4 text-[var(--text-primary)] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                          <svg className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                             <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                           </svg>
                           <span className="text-sm text-[var(--text-secondary)]">{feature}</span>
@@ -343,8 +343,8 @@ export default function PricingPage() {
                 color: "from-purple-500 to-cyan-600"
               },
               {
-                name: "AI Credit Top-Ups",
-                description: "Need more AI-powered queries? Purchase additional AI credits as add-ons to any plan.",
+                name: "Credit Top-Ups",
+                description: "Need more intelligence queries? Purchase additional credits as add-ons to any plan.",
                 note: "Available on all tiers",
                 icon: "intelligence" as SundaeIconName,
                 color: "from-blue-500 to-blue-600"
@@ -354,7 +354,7 @@ export default function PricingPage() {
                 <Card variant="elevated" className="h-full hover:shadow-xl transition-all">
                   <CardHeader>
                     <div className={`w-12 h-12 bg-gradient-to-br ${addon.color} rounded-lg flex items-center justify-center mb-4`}>
-                      <SundaeIcon name={addon.icon} size="lg" className="text-[var(--text-primary)]" />
+                      <SundaeIcon name={addon.icon} size="lg" className="text-white" />
                     </div>
                     <CardTitle className="text-lg text-[var(--text-primary)] mb-2">{addon.name}</CardTitle>
                   </CardHeader>
@@ -406,7 +406,7 @@ export default function PricingPage() {
                 },
                 {
                   title: "What's the difference between Report and Core?",
-                  content: "Report analyzes historical POS data you upload — great for understanding what happened. Core connects via API for near real-time intelligence with Pulse monitoring, alerts, playbooks, and predictive AI — built for operators who need to act now."
+                  content: "Report analyzes historical POS data you upload — great for understanding what happened. Core connects via API for near real-time intelligence with Pulse monitoring, alerts, playbooks, and predictive intelligence — built for operators who need to act now."
                 },
                 {
                   title: "Do you support multi-brand and multi-location groups?",
@@ -437,10 +437,9 @@ export default function PricingPage() {
         description="Start free, upgrade when you're ready. No credit card required."
       >
         <Button
-          variant="primary"
+          variant="cta"
           size="lg"
           href="/demo"
-          className="bg-[var(--navy-deep)] text-[var(--text-primary)] hover:bg-[var(--surface-subtle)]"
         >
           Book a Demo
         </Button>

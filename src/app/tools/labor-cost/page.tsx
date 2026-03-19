@@ -29,13 +29,13 @@ export default function LaborCostCalculator() {
  
  if (percentage < 25) {
  interpretation = 'Lean - Your labor cost is below industry average. Ensure you\'re not understaffed.';
- color = 'text-green-600';
+ color = 'text-green-400';
  } else if (percentage <= 32) {
  interpretation = 'Healthy - Your labor cost is within the industry standard range of 25-32%.';
  color = 'text-[#60A5FA]';
  } else {
  interpretation = 'High - Your labor cost exceeds 32%. Review staffing levels and scheduling efficiency.';
- color = 'text-red-600';
+ color = 'text-red-400';
  }
 
  // Small delay to show loading state
@@ -46,7 +46,7 @@ export default function LaborCostCalculator() {
  };
 
  return (
- <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
+ <div className="min-h-screen bg-[var(--navy-deep)]">
  <div className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
  <div className="max-w-3xl mx-auto">
  {/* Back Button */}
@@ -58,8 +58,8 @@ export default function LaborCostCalculator() {
 
  {/* Header */}
  <div className="text-center mb-12">
- <div className="w-20 h-20 bg-slate-900 rounded-2xl flex items-center justify-center text-[var(--text-primary)] mx-auto mb-6 shadow-lg">
- <SundaeIcon name="hr" size="xl" className="text-[var(--text-primary)]" />
+ <div className="w-20 h-20 bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
+ <SundaeIcon name="hr" size="xl" className="text-white" />
  </div>
  <h1 className="hero-h1 text-[var(--text-primary)] mb-4">
  Labor Cost % Calculator
@@ -134,7 +134,7 @@ export default function LaborCostCalculator() {
 
  {/* Results */}
  {result && (
- <Card variant="elevated" className="bg-gradient-to-br from-blue-50 to-white">
+ <Card variant="elevated">
  <CardContent className="p-8">
  <div className="text-center mb-6">
  <h3 className="text-lg font-semibold text-[var(--text-secondary)] mb-2">

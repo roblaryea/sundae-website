@@ -1,40 +1,39 @@
 'use client';
 
-import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 import { Card, CardContent } from "@/components/ui/Card";
-import { motion } from "framer-motion";
 import { useCta } from "@/lib/cta";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { SIGNUP_URL } from "@/lib/urls";
-import { PageHero, PageCTA, FadeUp } from "@/components/ui/PageAnimations";
+import { IntelligenceChatMockup } from "@/components/ui/MockupFrame";
+import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 
 // ─── Four Conversation Modes ────────────────────────────────────────────────
 const modes: { title: string; shortcut: string; description: string; icon: SundaeIconName; badge: string }[] = [
   {
     title: "Chat",
-    shortcut: "\u2318 1",
+    shortcut: "⌘ 1",
     description: "Ask anything about your data. Get structured answers with interactive charts and KPI cards.",
     icon: "conversation",
     badge: "Default"
   },
   {
     title: "Analyst",
-    shortcut: "\u2318 2",
+    shortcut: "⌘ 2",
     description: "Deep analysis with clarifying questions, confidence levels, and cross-referenced data sources.",
     icon: "insights",
     badge: "Deep Dive"
   },
   {
     title: "Monitor",
-    shortcut: "\u2318 3",
+    shortcut: "⌘ 3",
     description: "Auto-refreshing KPI dashboard. 60-second cycles. Highlights anomalies exceeding 15% deviation.",
     icon: "pulse",
     badge: "Real-time"
   },
   {
     title: "Report",
-    shortcut: "\u2318 4",
+    shortcut: "⌘ 4",
     description: "Stakeholder-ready reports with executive summary, key metrics, and recommendations.",
     icon: "document",
     badge: "Executive"
@@ -50,7 +49,7 @@ const commandFeatures: { title: string; description: string; icon: SundaeIconNam
   },
   {
     title: "9 Slash Commands",
-    description: "/compare, /report, /alert, /schedule, /export, /forecast, /benchmark, /explain, /share — each triggers an optimized AI prompt.",
+    description: "/compare, /report, /alert, /schedule, /export, /forecast, /benchmark, /explain, /share — each triggers an optimized intelligence prompt.",
     icon: "speed"
   },
   {
@@ -142,7 +141,7 @@ export default function ChatWithDataPage() {
       <PageHero
         badge="Sundae Intelligence"
         title="Ask Your Data Anything. Get Answers in Seconds."
-        description="Natural language questions, structured visual answers \u2014 powered by your POS, inventory, labor, and delivery data in real time."
+        description="Natural language questions, structured visual answers — powered by your POS, inventory, labor, and delivery data in real time."
       >
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Button variant="cta" size="lg" onClick={() => cta(SIGNUP_URL, "try_intelligence_hero", { page: "/intelligence" })}>
@@ -161,20 +160,11 @@ export default function ChatWithDataPage() {
         </div>
       </PageHero>
 
-      {/* Hero Screenshot */}
+      {/* Hero Mockup */}
       <section className="px-4 sm:px-6 lg:px-8 -mt-12 relative z-10 pb-16">
         <FadeUp delay={0.3}>
           <div className="max-w-5xl mx-auto">
-            <div className="rounded-xl overflow-hidden shadow-2xl border border-[var(--border-default)]">
-              <Image
-                src="/images/product/chat-with-data.png"
-                alt="Sundae Intelligence — conversational analytics interface with interactive charts and KPI cards"
-                width={800}
-                height={500}
-                className="w-full h-auto"
-                priority
-              />
-            </div>
+            <IntelligenceChatMockup />
           </div>
         </FadeUp>
       </section>
@@ -182,31 +172,23 @@ export default function ChatWithDataPage() {
       {/* Four Conversation Modes */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
-          <FadeUp>
-            <div className="text-center mb-16">
-              <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-                Four Specialized Modes
-              </h2>
-              <p className="body-lg text-[var(--text-supporting)] max-w-2xl mx-auto">
-                Each mode changes how the AI thinks — from quick Q&amp;A to stakeholder-ready reports.
-              </p>
-            </div>
+          <FadeUp className="text-center mb-16">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
+              Four Specialized Modes
+            </h2>
+            <p className="body-lg text-[var(--text-supporting)] max-w-2xl mx-auto">
+              Each mode changes how intelligence is generated — from quick Q&amp;A to stakeholder-ready reports.
+            </p>
           </FadeUp>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {modes.map((mode, index) => (
-              <motion.div
-                key={mode.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-              >
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {modes.map((mode) => (
+              <StaggerItem key={mode.title}>
                 <Card variant="elevated" className="h-full hover:shadow-lg transition-all duration-300 relative overflow-hidden">
                   <CardContent className="p-6">
                     <div className="flex items-center justify-between mb-4">
                       <div className="w-10 h-10 bg-slate-900 rounded-lg flex items-center justify-center">
-                        <SundaeIcon name={mode.icon} size="md" className="text-[var(--text-primary)]" />
+                        <SundaeIcon name={mode.icon} size="md" className="text-white" />
                       </div>
                       <span className="text-[10px] font-mono bg-[var(--surface-subtle)] text-[var(--text-muted)] px-2 py-1 rounded">
                         {mode.shortcut}
@@ -214,21 +196,21 @@ export default function ChatWithDataPage() {
                     </div>
                     <div className="flex items-center gap-2 mb-2">
                       <h3 className="font-bold text-[var(--text-primary)]">{mode.title}</h3>
-                      <span className="text-[10px] font-semibold uppercase tracking-wider bg-blue-100 text-[#60A5FA] px-2 py-0.5 rounded-full">
+                      <span className="text-[10px] font-semibold uppercase tracking-wider bg-blue-500/20 text-blue-400 px-2 py-0.5 rounded-full">
                         {mode.badge}
                       </span>
                     </div>
                     <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{mode.description}</p>
                   </CardContent>
                 </Card>
-              </motion.div>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerContainer>
         </div>
       </section>
 
       {/* Example Queries */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-blue-50/30">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-4xl mx-auto text-center">
           <FadeUp>
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">
@@ -239,7 +221,7 @@ export default function ChatWithDataPage() {
             </p>
           </FadeUp>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
               "What was my best-selling item last Thursday?",
               "Compare labor costs across my downtown locations",
@@ -247,94 +229,73 @@ export default function ChatWithDataPage() {
               "Show me locations where labor cost exceeded 32%",
               "/forecast next week's revenue for all outlets",
               "/benchmark my RevPASH against nearby competitors"
-            ].map((query, index) => (
-              <motion.div
+            ].map((query) => (
+              <StaggerItem
                 key={query}
-                initial={{ opacity: 0, y: 10 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: index * 0.05 }}
-                className="bg-[var(--navy-deep)] rounded-xl p-4 text-left border border-[var(--border-default)]/70"
+                className="bg-[var(--navy-deep)] rounded-xl p-4 text-left border border-[var(--border-default)]"
               >
-                <p className="text-sm text-[var(--text-secondary)] font-mono">{query.startsWith('/') ? <><span className="text-blue-500 font-semibold">{query.split(' ')[0]}</span> {query.split(' ').slice(1).join(' ')}</> : <>&ldquo;{query}&rdquo;</>}</p>
-              </motion.div>
+                <p className="text-sm text-[var(--text-secondary)] font-mono">{query.startsWith('/') ? <><span className="text-blue-400 font-semibold">{query.split(' ')[0]}</span> {query.split(' ').slice(1).join(' ')}</> : <>&ldquo;{query}&rdquo;</>}</p>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerContainer>
         </div>
       </section>
 
       {/* Smart Command Bar */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
-          <FadeUp>
-            <div className="text-center mb-16">
-              <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-                Smart Command Bar
-              </h2>
-              <p className="body-lg text-[var(--text-supporting)] max-w-2xl mx-auto">
-                Autocomplete, slash commands, voice input, @mentions, and file attachments.
-              </p>
-            </div>
+          <FadeUp className="text-center mb-16">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
+              Smart Command Bar
+            </h2>
+            <p className="body-lg text-[var(--text-supporting)] max-w-2xl mx-auto">
+              Autocomplete, slash commands, voice input, @mentions, and file attachments.
+            </p>
           </FadeUp>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {commandFeatures.map((feature, index) => (
-              <motion.div
-                key={feature.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="flex gap-4"
-              >
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {commandFeatures.map((feature) => (
+              <StaggerItem key={feature.title} className="flex gap-4">
                 <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-violet-500 to-purple-600 rounded-lg flex items-center justify-center">
-                  <SundaeIcon name={feature.icon} size="md" className="text-[var(--text-primary)]" />
+                  <SundaeIcon name={feature.icon} size="md" className="text-white" />
                 </div>
                 <div>
                   <h3 className="font-bold text-[var(--text-primary)] mb-1">{feature.title}</h3>
                   <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{feature.description}</p>
                 </div>
-              </motion.div>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerContainer>
         </div>
       </section>
 
       {/* Rich Response Cards */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-blue-50/30">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
-          <FadeUp>
-            <div className="text-center mb-16">
-              <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-                Rich, Interactive Response Cards
-              </h2>
-              <p className="body-lg text-[var(--text-supporting)] max-w-2xl mx-auto">
-                Structured, interactive cards — not plain text. Every response is visual and explorable.
-              </p>
-            </div>
+          <FadeUp className="text-center mb-16">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
+              Rich, Interactive Response Cards
+            </h2>
+            <p className="body-lg text-[var(--text-supporting)] max-w-2xl mx-auto">
+              Structured, interactive cards — not plain text. Every response is visual and explorable.
+            </p>
           </FadeUp>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {responseCards.map((card, index) => (
-              <motion.div
-                key={card.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-              >
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {responseCards.map((card) => (
+              <StaggerItem key={card.title}>
                 <Card variant="elevated" className="h-full hover:shadow-lg transition-all duration-300">
                   <CardContent className="p-6">
                     <div className="w-12 h-12 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-xl flex items-center justify-center mb-4">
-                      <SundaeIcon name={card.icon} size="lg" className="text-[var(--text-primary)]" />
+                      <SundaeIcon name={card.icon} size="lg" className="text-white" />
                     </div>
                     <h3 className="font-bold text-[var(--text-primary)] mb-2">{card.title}</h3>
                     <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{card.description}</p>
                   </CardContent>
                 </Card>
-              </motion.div>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerContainer>
         </div>
       </section>
 
@@ -342,156 +303,124 @@ export default function ChatWithDataPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-            >
+            <FadeUp>
               <h2 className="section-h2 text-[var(--text-primary)] mb-4">
                 Proactive Anomaly Detection
               </h2>
               <p className="body-lg text-[var(--text-supporting)] mb-6">
-                The system continuously scans your data for unusual patterns — surfacing issues before you even think to ask.
+                Continuously scans your data for unusual patterns — surfacing issues before you even think to ask.
               </p>
               <div className="space-y-3">
-                {anomalyTypes.map((anomaly, index) => (
-                  <motion.div
-                    key={anomaly}
-                    initial={{ opacity: 0, x: -10 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.3, delay: index * 0.05 }}
-                    className="flex items-center gap-3"
-                  >
+                {anomalyTypes.map((anomaly) => (
+                  <div key={anomaly} className="flex items-center gap-3">
                     <div className="w-2 h-2 rounded-full bg-orange-500 flex-shrink-0" />
                     <span className="text-sm text-[var(--text-secondary)]">{anomaly}</span>
-                  </motion.div>
+                  </div>
                 ))}
               </div>
               <p className="text-sm text-[var(--text-muted)] mt-6">
                 Anomalies appear as badge notifications, toast alerts, and smart suggestions on your welcome screen.
               </p>
-            </motion.div>
+            </FadeUp>
 
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-              className="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-8 border border-orange-200/50"
-            >
-              <h3 className="font-bold text-[var(--text-primary)] mb-4">Smart Welcome Briefing</h3>
-              <p className="text-sm text-[var(--text-supporting)] mb-4">
-                Every new session starts with a personalized briefing:
-              </p>
-              <ul className="space-y-3 text-sm text-[var(--text-secondary)]">
-                <li className="flex items-start gap-2">
-                  <span className="text-green-500 mt-0.5">&#10003;</span>
-                  <span>Time-based greeting with your name</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-green-500 mt-0.5">&#10003;</span>
-                  <span>3 live KPI cards — today&apos;s revenue, orders, and top item</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-green-500 mt-0.5">&#10003;</span>
-                  <span>4 smart suggestions prioritized by active anomalies</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-green-500 mt-0.5">&#10003;</span>
-                  <span>Data coverage indicator showing connected sources</span>
-                </li>
-              </ul>
-            </motion.div>
+            <FadeUp delay={0.2}>
+              <div className="bg-[var(--surface-subtle)] rounded-2xl p-8 border border-[var(--border-default)]">
+                <h3 className="font-bold text-[var(--text-primary)] mb-4">Smart Welcome Briefing</h3>
+                <p className="text-sm text-[var(--text-supporting)] mb-4">
+                  Every new session starts with a personalized briefing:
+                </p>
+                <ul className="space-y-3 text-sm text-[var(--text-secondary)]">
+                  <li className="flex items-start gap-2">
+                    <span className="text-green-500 mt-0.5">✓</span>
+                    <span>Time-based greeting with your name</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-green-500 mt-0.5">✓</span>
+                    <span>3 live KPI cards — today&apos;s revenue, orders, and top item</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-green-500 mt-0.5">✓</span>
+                    <span>4 smart suggestions prioritized by active anomalies</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-green-500 mt-0.5">✓</span>
+                    <span>Data coverage indicator showing connected sources</span>
+                  </li>
+                </ul>
+              </div>
+            </FadeUp>
           </div>
         </div>
       </section>
 
       {/* Sidebar & Collaboration */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-blue-50/30">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
-          <FadeUp>
-            <div className="text-center mb-16">
-              <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-                Organization & Collaboration
-              </h2>
-              <p className="body-lg text-[var(--text-supporting)] max-w-2xl mx-auto">
-                Pin, folder, schedule, and share — your intelligence workspace, organized your way.
-              </p>
-            </div>
+          <FadeUp className="text-center mb-16">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
+              Organization &amp; Collaboration
+            </h2>
+            <p className="body-lg text-[var(--text-supporting)] max-w-2xl mx-auto">
+              Pin, folder, schedule, and share — your intelligence workspace, organized your way.
+            </p>
           </FadeUp>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               { title: "Thread Management", items: ["Pin important conversations", "Create folders and drag to organize", "Cross-folder collections", "Smart date grouping (Today, This Week, etc.)", "Search across all thread content"], icon: "insights" as SundaeIconName },
               { title: "Scheduled Reports", items: ["Daily, weekly, monthly, or custom cron", "Deliver via email, Slack, Telegram, Teams, webhook", "Toggle active/paused per schedule", "Run Now for instant delivery", "Execution tracking with failure alerts"], icon: "schedule" as SundaeIconName },
               { title: "Team Features", items: ["Share dialog with permission levels", "@Mention team members in queries", "Decision log (Action Taken / Monitoring / Dismissed)", "Context panel with SQL, sources, and latency", "Feedback per message (thumbs up/down)"], icon: "operators" as SundaeIconName },
-            ].map((section, index) => (
-              <motion.div
-                key={section.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-              >
+            ].map((section) => (
+              <StaggerItem key={section.title}>
                 <Card variant="elevated" className="h-full">
                   <CardContent className="p-6">
                     <div className="w-10 h-10 bg-slate-900 rounded-lg flex items-center justify-center mb-4">
-                      <SundaeIcon name={section.icon} size="md" className="text-[var(--text-primary)]" />
+                      <SundaeIcon name={section.icon} size="md" className="text-white" />
                     </div>
                     <h3 className="font-bold text-[var(--text-primary)] mb-3">{section.title}</h3>
                     <ul className="space-y-2">
                       {section.items.map((item) => (
                         <li key={item} className="flex items-start gap-2 text-sm text-[var(--text-supporting)]">
-                          <span className="text-blue-500 mt-0.5 flex-shrink-0">&#10003;</span>
+                          <span className="text-blue-400 mt-0.5 flex-shrink-0">✓</span>
                           <span>{item}</span>
                         </li>
                       ))}
                     </ul>
                   </CardContent>
                 </Card>
-              </motion.div>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerContainer>
         </div>
       </section>
 
       {/* Key Differentiators */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
-          <FadeUp>
-            <div className="text-center mb-16">
-              <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-                Why Sundae Intelligence Is Different
-              </h2>
-              <p className="body-lg text-[var(--text-supporting)] max-w-2xl mx-auto">
-                Not another dashboard. A fundamentally different approach to decision intelligence.
-              </p>
-            </div>
+          <FadeUp className="text-center mb-16">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
+              Why Sundae Intelligence Is Different
+            </h2>
+            <p className="body-lg text-[var(--text-supporting)] max-w-2xl mx-auto">
+              Not another dashboard. A fundamentally different approach to decision intelligence.
+            </p>
           </FadeUp>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {differentiators.map((diff, index) => (
-              <motion.div
-                key={diff.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-              >
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {differentiators.map((diff) => (
+              <StaggerItem key={diff.title}>
                 <Card variant="elevated" className="h-full hover:shadow-lg transition-all duration-300">
                   <CardContent className="p-6">
                     <div className="w-12 h-12 bg-slate-900 rounded-xl flex items-center justify-center mb-4">
-                      <SundaeIcon name={diff.icon} size="lg" className="text-[var(--text-primary)]" />
+                      <SundaeIcon name={diff.icon} size="lg" className="text-white" />
                     </div>
                     <h3 className="font-bold text-[var(--text-primary)] mb-2">{diff.title}</h3>
                     <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{diff.description}</p>
                   </CardContent>
                 </Card>
-              </motion.div>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerContainer>
         </div>
       </section>
 
@@ -513,7 +442,7 @@ export default function ChatWithDataPage() {
                 "4 Database Connectors",
                 "Multi-Tenant Isolation"
               ].map((feature) => (
-                <span key={feature} className="px-4 py-2 bg-[var(--navy-deep)] border border-[var(--border-default)] rounded-full text-sm font-medium text-[var(--text-secondary)]">
+                <span key={feature} className="px-4 py-2 bg-[var(--surface-subtle)] border border-[var(--border-default)] rounded-full text-sm font-medium text-[var(--text-secondary)]">
                   {feature}
                 </span>
               ))}

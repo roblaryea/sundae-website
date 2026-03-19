@@ -1,5 +1,3 @@
-'use client';
-
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
@@ -49,7 +47,7 @@ export default function DocumentationPage() {
     },
     {
       title: "Pulse & Watchtower",
-      description: "Leverage real-time alerts and external market intelligence",
+      description: "Set up real-time alerts and external market intelligence",
       icon: "insights",
       color: "bg-orange-600",
       topics: [
@@ -57,7 +55,7 @@ export default function DocumentationPage() {
         "Understanding anomaly detection",
         "Connecting external data (weather, events)",
         "Configuring notification preferences",
-        "Acting on AI recommendations"
+        "Acting on intelligent recommendations"
       ]
     },
     {
@@ -98,7 +96,7 @@ export default function DocumentationPage() {
       >
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link href="/demo">
-            <Button variant="primary" size="lg" className="bg-[var(--navy-deep)] text-[var(--text-primary)] hover:bg-[var(--surface-subtle)]">
+            <Button variant="cta" size="lg">
               Book a Demo
             </Button>
           </Link>
@@ -120,7 +118,7 @@ export default function DocumentationPage() {
                   <CardHeader>
                     <div className="flex items-center space-x-4 mb-4">
                       <div className={`w-12 h-12 ${section.color} rounded-lg flex items-center justify-center text-[var(--text-primary)] group-hover:scale-110 transition-transform duration-300`}>
-                        <SundaeIcon name={section.icon} size="lg" className="text-[var(--text-primary)]" />
+                        <SundaeIcon name={section.icon} size="lg" className="text-white" />
                       </div>
                       <div>
                         <CardTitle className="text-xl text-[var(--text-primary)] group-hover:text-[#60A5FA] transition-colors duration-300">
@@ -197,7 +195,7 @@ export default function DocumentationPage() {
                 <Card variant="elevated" className="text-center h-full">
                   <CardContent className="p-8">
                     <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl flex items-center justify-center">
-                      <SundaeIcon name={item.icon} size="xl" className="text-[var(--text-primary)]" />
+                      <SundaeIcon name={item.icon} size="xl" className="text-white" />
                     </div>
                     <div className="text-3xl font-bold text-[#60A5FA] mb-4">Step {item.step}</div>
                     <h3 className="text-xl font-bold text-[var(--text-primary)] mb-3">{item.title}</h3>
@@ -214,7 +212,7 @@ export default function DocumentationPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto text-center">
           <FadeUp>
-            <div className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-2xl p-12 border border-[var(--border-default)]">
+            <div className="bg-[var(--surface-faint)] rounded-2xl p-12 border border-[var(--border-default)]">
               <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center"><SundaeIcon name="warning" size="xl" className="text-white" /></div>
               <h3 className="text-3xl font-bold text-[var(--text-primary)] mb-4">
                 More Documentation Coming Soon
@@ -239,7 +237,7 @@ export default function DocumentationPage() {
         description="Our team is here to help you get the most out of Sundae."
       >
         <Link href="/contact">
-          <Button variant="primary" size="lg" className="bg-[var(--navy-deep)] text-[var(--text-primary)] hover:bg-[var(--surface-subtle)]">
+          <Button variant="cta" size="lg">
             Contact Support
           </Button>
         </Link>

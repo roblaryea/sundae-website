@@ -1,10 +1,8 @@
-'use client';
-
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
-import { motion } from "framer-motion";
+import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
+import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 
 export default function MultiLocationGroupsPage() {
   const challenges: { title: string; description: string; icon: SundaeIconName }[] = [
@@ -33,13 +31,13 @@ export default function MultiLocationGroupsPage() {
   const howSundaeHelps: { title: string; description: string; product: string; icon: SundaeIconName }[] = [
     {
       title: "Unified Real-Time Dashboard",
-      description: "Sundae Core brings all your locations into one view. Pulse monitors every shift with adaptive AI targets, labor productivity (SPLH, CPLH), server performance analytics, and leakage detection across every site.",
+      description: "Sundae Core brings all your locations into one view. Pulse monitors every shift with adaptive targets, labor productivity (SPLH, CPLH), server performance, and leakage detection across every site.",
       product: "Sundae Core + Pulse",
       icon: "chart"
     },
     {
       title: "Competitive & Market Intelligence",
-      description: "Watchtower tracks named competitors at each location, monitors local events and market trends, and delivers AI-synthesized daily briefings — so you know what\u2019s happening inside and outside every site.",
+      description: "Watchtower tracks named competitors at each location, monitors local events and market trends, and delivers synthesized daily briefings — so you know what\u2019s happening inside and outside every site.",
       product: "Watchtower (Core tier)",
       icon: "watchtower"
     },
@@ -51,7 +49,7 @@ export default function MultiLocationGroupsPage() {
     },
     {
       title: "Benchmark Performance",
-      description: "Sundae Report compares each location against your top performers and industry benchmarks, showing you exactly where to improve — with AI-powered analysis and recommendations.",
+      description: "Sundae Report compares each location against your top performers and industry benchmarks, showing you exactly where to improve — with auto-generated analysis and recommendations.",
       product: "Sundae Report",
       icon: "report"
     }
@@ -60,203 +58,148 @@ export default function MultiLocationGroupsPage() {
   const outcomes: { title: string; description: string; icon: SundaeIconName }[] = [
     {
       title: "10-15% improvement in underperforming locations",
-      description: "Identify and replicate best practices from your top sites",
+      description: "Identify and replicate best practices from your top sites.",
       icon: "growth"
     },
     {
       title: "5-8% reduction in labor costs",
-      description: "Optimize staffing across all locations based on real demand patterns",
+      description: "Optimize staffing across all locations based on real demand patterns.",
       icon: "speed"
     },
     {
       title: "Faster decision-making",
-      description: "Act on opportunities and issues in hours, not days or weeks",
+      description: "Act on opportunities and issues in hours, not days or weeks.",
       icon: "performance"
     },
     {
       title: "Consistent operational excellence",
-      description: "Standardize processes while adapting to local market conditions",
+      description: "Standardize processes while adapting to local market conditions.",
       icon: "success"
     }
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
-      {/* Hero Section - Operator (Blue) */}
-      <section className="solution-hero solution-hero--operator pt-32 pb-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-            >
-              <span className="badge badge--operator inline-flex items-center gap-2 mb-6">
-                <SundaeIcon name="franchise" size="md" />
-                SOLUTIONS FOR MULTI-LOCATION GROUPS
-              </span>
-            </motion.div>
-            
-            <motion.h1
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.1 }}
-              className="hero-h1 text-[var(--text-primary)] mb-6"
-            >
-              Unify. Optimize.
-              <br />
-              <span className="text-gradient">Scale.</span>
-            </motion.h1>
-            
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-              className="body-xl text-[var(--text-supporting)] mb-8 max-w-3xl mx-auto leading-relaxed"
-            >
-              Every location. One platform. Real-time visibility and AI-powered insights to replicate success everywhere.
-            </motion.p>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.3 }}
-              className="flex flex-col sm:flex-row gap-4 justify-center"
-            >
-              <Link href="/demo">
-                <Button variant="primary" size="lg" className="animate-pulse-glow">
-                  See How Sundae Helps Multi-Location Groups
-                </Button>
-              </Link>
-              <Link href="/demo">
-                <Button variant="outline" size="lg">
-                  Start Free
-                </Button>
-              </Link>
-            </motion.div>
-          </div>
-        </div>
-      </section>
-
-      {/* Key Challenges Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-              The Problems You Know
-            </h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
-              Fragmented data. Inconsistent performance. Slow decisions.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {challenges.map((challenge, index) => (
-              <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                <CardHeader>
-                  <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center text-white flex-shrink-0">
-                      <SundaeIcon name={challenge.icon} size="lg" className="text-[var(--text-primary)]" />
-                    </div>
-                    <div>
-                      <CardTitle className="text-[var(--text-primary)] mb-2">{challenge.title}</CardTitle>
-                      <CardDescription className="text-[var(--text-supporting)]">
-                        {challenge.description}
-                      </CardDescription>
-                    </div>
-                  </div>
-                </CardHeader>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* How Sundae Helps Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-              How Sundae Changes That
-            </h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
-              One dashboard. Real-time insights. Portfolio-wide benchmarking.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {howSundaeHelps.map((item, index) => (
-              <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                <CardHeader>
-                  <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center text-white flex-shrink-0">
-                      <SundaeIcon name={item.icon} size="lg" className="text-[var(--text-primary)]" />
-                    </div>
-                    <div>
-                      <div className="text-xs text-[#60A5FA] font-semibold mb-1">{item.product}</div>
-                      <CardTitle className="text-[var(--text-primary)] mb-2">{item.title}</CardTitle>
-                      <CardDescription className="text-[var(--text-supporting)]">
-                        {item.description}
-                      </CardDescription>
-                    </div>
-                  </div>
-                </CardHeader>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Outcomes Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-              What Changes
-            </h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
-              Lift underperformers. Reduce costs. Scale faster.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {outcomes.map((outcome, index) => (
-              <Card key={index} variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                <CardHeader>
-                  <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center text-white flex-shrink-0">
-                      <SundaeIcon name={outcome.icon} size="lg" className="text-[var(--text-primary)]" />
-                    </div>
-                    <div>
-                      <CardTitle className="text-[var(--text-primary)] mb-2">{outcome.title}</CardTitle>
-                      <CardDescription className="text-[var(--text-supporting)]">
-                        {outcome.description}
-                      </CardDescription>
-                    </div>
-                  </div>
-                </CardHeader>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Band */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] text-[var(--text-primary)]">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 mb-6">
-            Ready to Unify Your Portfolio?
-          </h2>
-          <p className="body-xl mb-8 opacity-90">
-            See how multi-location groups replicate success everywhere.
-          </p>
+    <div className="min-h-screen bg-[var(--navy-deep)]">
+      <PageHero
+        badge="Multi-Location Groups"
+        title={<>Unify. Optimize.<br />Scale.</>}
+        description="Every location. One platform. Real-time visibility and intelligent insights to replicate success everywhere."
+      >
+        <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Link href="/demo">
-            <Button variant="primary" size="lg" className="bg-[var(--navy-deep)] text-[#60A5FA] hover:bg-[var(--surface-subtle)]">
-              Book a Strategy Session
+            <Button variant="primary" size="lg">
+              See How Sundae Helps Multi-Location Groups
+            </Button>
+          </Link>
+          <Link href="/demo">
+            <Button variant="outline-light" size="lg">
+              Start Free
             </Button>
           </Link>
         </div>
+      </PageHero>
+
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
+        <div className="max-w-7xl mx-auto">
+          <FadeUp className="text-center mb-16">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">The Problems You Know</h2>
+            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
+              Fragmented data. Inconsistent performance. Slow decisions.
+            </p>
+          </FadeUp>
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {challenges.map((challenge, index) => (
+              <StaggerItem key={index}>
+                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
+                  <CardHeader>
+                    <div className="flex items-start space-x-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <SundaeIcon name={challenge.icon} size="lg" className="text-white" />
+                      </div>
+                      <div>
+                        <CardTitle className="text-[var(--text-primary)] mb-2">{challenge.title}</CardTitle>
+                        <CardDescription className="text-[var(--text-supporting)]">{challenge.description}</CardDescription>
+                      </div>
+                    </div>
+                  </CardHeader>
+                </Card>
+              </StaggerItem>
+            ))}
+          </StaggerContainer>
+        </div>
       </section>
+
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
+        <div className="max-w-7xl mx-auto">
+          <FadeUp className="text-center mb-16">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">How Sundae Changes That</h2>
+            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
+              One dashboard. Real-time insights. Portfolio-wide benchmarking.
+            </p>
+          </FadeUp>
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {howSundaeHelps.map((item, index) => (
+              <StaggerItem key={index}>
+                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
+                  <CardHeader>
+                    <div className="flex items-start space-x-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <SundaeIcon name={item.icon} size="lg" className="text-white" />
+                      </div>
+                      <div>
+                        <div className="text-xs text-[#60A5FA] font-semibold mb-1">{item.product}</div>
+                        <CardTitle className="text-[var(--text-primary)] mb-2">{item.title}</CardTitle>
+                        <CardDescription className="text-[var(--text-supporting)]">{item.description}</CardDescription>
+                      </div>
+                    </div>
+                  </CardHeader>
+                </Card>
+              </StaggerItem>
+            ))}
+          </StaggerContainer>
+        </div>
+      </section>
+
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
+        <div className="max-w-7xl mx-auto">
+          <FadeUp className="text-center mb-16">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">What Changes</h2>
+            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
+              Lift underperformers. Reduce costs. Scale faster.
+            </p>
+          </FadeUp>
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {outcomes.map((outcome, index) => (
+              <StaggerItem key={index}>
+                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
+                  <CardHeader>
+                    <div className="flex items-start space-x-4">
+                      <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <SundaeIcon name={outcome.icon} size="lg" className="text-white" />
+                      </div>
+                      <div>
+                        <CardTitle className="text-[var(--text-primary)] mb-2">{outcome.title}</CardTitle>
+                        <CardDescription className="text-[var(--text-supporting)]">{outcome.description}</CardDescription>
+                      </div>
+                    </div>
+                  </CardHeader>
+                </Card>
+              </StaggerItem>
+            ))}
+          </StaggerContainer>
+        </div>
+      </section>
+
+      <PageCTA
+        title="Ready to Unify Your Portfolio?"
+        description="See how multi-location groups replicate success everywhere."
+      >
+        <Link href="/demo">
+          <Button variant="primary" size="lg">
+            Book a Strategy Session
+          </Button>
+        </Link>
+      </PageCTA>
     </div>
   );
 }

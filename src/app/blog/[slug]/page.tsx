@@ -61,7 +61,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
+    <div className="min-h-screen bg-[var(--navy-deep)]">
       <article className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           {/* Back Button */}
@@ -74,7 +74,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           {/* Header */}
           <header className="mb-12">
             <div className="flex items-center gap-4 mb-6">
-              <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-blue-100 text-blue-800">
+              <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-blue-500/20 text-blue-400">
                 {post.category}
               </span>
               <time className="text-[var(--text-supporting)] text-sm">
@@ -133,7 +133,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           <footer className="mt-16 pt-8 border-t border-[var(--border-default)]">
             <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
               <Link href="/blog">
-                <Button variant="outline" size="lg">
+                <Button variant="outline-light" size="lg">
                   ← Back to All Posts
                 </Button>
               </Link>
@@ -157,7 +157,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             See how Sundae's decision intelligence platform can help you make smarter, faster decisions.
           </p>
           <Link href="/demo">
-            <Button variant="secondary" size="lg" className="bg-[var(--navy-deep)] text-[#60A5FA] hover:bg-[var(--surface-subtle)]">
+            <Button variant="cta" size="lg">
               Request a Demo
             </Button>
           </Link>

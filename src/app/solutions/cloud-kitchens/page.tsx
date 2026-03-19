@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
+import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { PRICING_URL } from "@/lib/links";
 
 export default function CloudKitchensPage() {
@@ -26,7 +27,7 @@ export default function CloudKitchensPage() {
   const solutions: { title: string; description: string; icon: SundaeIconName }[] = [
     {
       title: "Multi-Brand Intelligence",
-      description: "Separate analytics and insights for each virtual brand operating from your kitchen.",
+      description: "Separate intelligence and insights for each virtual brand operating from your kitchen.",
       icon: "search"
     },
     {
@@ -42,200 +43,174 @@ export default function CloudKitchensPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
-      {/* Hero Section */}
-      <section className="solution-hero solution-hero--operator pt-32 pb-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto text-center">
-          <div className="badge badge--operator inline-flex items-center gap-2">
-            <SundaeIcon name="franchise" size="md" />
-            <span>Cloud Kitchen Solutions</span>
-          </div>
-          <h1 className="hero-h1 text-[var(--text-primary)] mb-6">
-            Multi-Brand.
-            <br />
-            <span className="text-gradient">One Kitchen.</span>
-          </h1>
-          <p className="text-xl md:text-2xl text-[var(--text-supporting)] mb-8 max-w-4xl mx-auto">
-            All your virtual brands. Every delivery platform. One intelligence layer.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/demo">
-              <Button variant="primary" size="lg">
-                See Cloud Kitchen Demo
-              </Button>
-            </Link>
-            <Link href="/benchmarking">
-              <Button variant="outline" size="lg">
-                View Benchmarking
-              </Button>
-            </Link>
-          </div>
+    <div className="min-h-screen bg-[var(--navy-deep)]">
+      <PageHero
+        badge="Cloud Kitchen Intelligence"
+        title={<>Multi-Brand.<br />One Kitchen.</>}
+        description="All your virtual brands. Every delivery platform. One intelligence layer."
+      >
+        <div className="flex flex-col sm:flex-row gap-3 justify-center">
+          <Link href="/demo">
+            <Button variant="primary" size="lg">
+              See Cloud Kitchen Demo
+            </Button>
+          </Link>
+          <Link href="/benchmarking">
+            <Button variant="outline-light" size="lg">
+              View Benchmarking
+            </Button>
+          </Link>
         </div>
-      </section>
+      </PageHero>
 
-      {/* Challenges Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-              The Problems You Know
-            </h2>
+          <FadeUp className="text-center mb-16">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">The Problems You Know</h2>
             <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               Multi-brand complexity. Platform fragmentation. Cost allocation chaos.
             </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          </FadeUp>
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {challenges.map((challenge, index) => (
-              <Card key={index} variant="elevated" className="text-center">
-                <CardHeader>
-                  <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center">
-                    <SundaeIcon name={challenge.icon} size="xl" className="text-[var(--text-primary)]" />
-                  </div>
-                  <CardTitle className="text-[var(--text-primary)]">{challenge.title}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-[var(--text-supporting)]">
-                    {challenge.description}
-                  </CardDescription>
-                </CardContent>
-              </Card>
+              <StaggerItem key={index}>
+                <Card variant="elevated" className="text-center">
+                  <CardHeader>
+                    <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center">
+                      <SundaeIcon name={challenge.icon} size="xl" className="text-white" />
+                    </div>
+                    <CardTitle className="text-[var(--text-primary)]">{challenge.title}</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <CardDescription className="text-[var(--text-supporting)]">{challenge.description}</CardDescription>
+                  </CardContent>
+                </Card>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerContainer>
         </div>
       </section>
 
-      {/* Solutions Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-              How Sundae Changes That
-            </h2>
+          <FadeUp className="text-center mb-16">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">How Sundae Changes That</h2>
             <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
-              Brand-level analytics. Platform-wide visibility. Clear P&L per concept.
+              Brand-level intelligence. Platform-wide visibility. Clear P&L per concept.
             </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          </FadeUp>
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {solutions.map((solution, index) => (
-              <Card key={index} variant="elevated" className="text-center">
-                <CardHeader>
-                  <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center">
-                    <SundaeIcon name={solution.icon} size="xl" className="text-[var(--text-primary)]" />
-                  </div>
-                  <CardTitle className="text-[var(--text-primary)]">{solution.title}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-[var(--text-supporting)]">
-                    {solution.description}
-                  </CardDescription>
-                </CardContent>
-              </Card>
+              <StaggerItem key={index}>
+                <Card variant="elevated" className="text-center">
+                  <CardHeader>
+                    <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center">
+                      <SundaeIcon name={solution.icon} size="xl" className="text-white" />
+                    </div>
+                    <CardTitle className="text-[var(--text-primary)]">{solution.title}</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <CardDescription className="text-[var(--text-supporting)]">{solution.description}</CardDescription>
+                  </CardContent>
+                </Card>
+              </StaggerItem>
             ))}
-          </div>
+          </StaggerContainer>
         </div>
       </section>
 
-      {/* Features Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-              What Changes
-            </h2>
+          <FadeUp className="text-center mb-16">
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">What Changes</h2>
             <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
               Faster decisions. Better delivery times. Higher margins per brand.
             </p>
-          </div>
+          </FadeUp>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-8">
-              {[
-                {
-                  title: "Delivery Platform Analytics",
-                  description: "Track performance across Uber Eats, DoorDash, Grubhub, and other platforms in one dashboard.",
-                  icon: "chart" as SundaeIconName
-                },
-                {
-                  title: "Virtual Brand Performance",
-                  description: "Monitor KPIs for each brand concept operating from your kitchen with separate analytics.",
-                  icon: "owners" as SundaeIconName
-                },
-                {
-                  title: "Delivery Time Optimization",
-                  description: "Analyze prep times, delivery times, and customer satisfaction to optimize operations.",
-                  icon: "time" as SundaeIconName
-                }
-              ].map((feature, index) => (
-                <div key={index} className="flex items-start space-x-4">
-                  <div className="w-10 h-10 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                    <SundaeIcon name={feature.icon} size="md" className="text-[var(--text-primary)]" />
+            <FadeUp>
+              <div className="space-y-8">
+                {[
+                  {
+                    title: "Delivery Platform Intelligence",
+                    description: "Track performance across Uber Eats, DoorDash, Grubhub, and other platforms in one dashboard.",
+                    icon: "chart" as SundaeIconName
+                  },
+                  {
+                    title: "Virtual Brand Performance",
+                    description: "Monitor KPIs for each brand concept operating from your kitchen with separate intelligence.",
+                    icon: "owners" as SundaeIconName
+                  },
+                  {
+                    title: "Delivery Time Optimization",
+                    description: "Analyze prep times, delivery times, and customer satisfaction to optimize operations.",
+                    icon: "time" as SundaeIconName
+                  }
+                ].map((feature, index) => (
+                  <div key={index} className="flex items-start space-x-4">
+                    <div className="w-10 h-10 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                      <SundaeIcon name={feature.icon} size="md" className="text-white" />
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">{feature.title}</h3>
+                      <p className="text-[var(--text-supporting)]">{feature.description}</p>
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">{feature.title}</h3>
-                    <p className="text-[var(--text-supporting)]">{feature.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-            
-            <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8">
-              <div className="text-center mb-6">
-                <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-                  <SundaeIcon name="growth" size="xl" className="text-[var(--text-primary)]" />
-                </div>
-                <h3 className="text-2xl font-bold text-[var(--text-primary)]">Multi-Brand Performance</h3>
+                ))}
               </div>
-              
-              <div className="space-y-4">
-                <div className="bg-[var(--navy-deep)] rounded-lg p-4 shadow-none">
-                  <div className="flex justify-between items-center">
-                    <span className="text-sm font-medium text-[var(--text-secondary)]">Average Delivery Time</span>
-                    <span className="text-lg font-bold text-green-600">↓ 15%</span>
+            </FadeUp>
+
+            <FadeUp delay={0.2}>
+              <div className="bg-[var(--surface-faint)] rounded-2xl p-8 border border-[var(--border-default)]">
+                <div className="text-center mb-6">
+                  <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                    <SundaeIcon name="growth" size="xl" className="text-white" />
                   </div>
+                  <h3 className="text-2xl font-bold text-[var(--text-primary)]">Multi-Brand Performance</h3>
                 </div>
-                <div className="bg-[var(--navy-deep)] rounded-lg p-4 shadow-none">
-                  <div className="flex justify-between items-center">
-                    <span className="text-sm font-medium text-[var(--text-secondary)]">Platform Rating</span>
-                    <span className="text-lg font-bold text-[#60A5FA]">4.7★</span>
+
+                <div className="space-y-4">
+                  <div className="bg-[var(--navy-deep)] rounded-lg p-4">
+                    <div className="flex justify-between items-center">
+                      <span className="text-sm font-medium text-[var(--text-secondary)]">Average Delivery Time</span>
+                      <span className="text-lg font-bold text-green-500">↓ 15%</span>
+                    </div>
                   </div>
-                </div>
-                <div className="bg-[var(--navy-deep)] rounded-lg p-4 shadow-none">
-                  <div className="flex justify-between items-center">
-                    <span className="text-sm font-medium text-[var(--text-secondary)]">Cost per Delivery</span>
-                    <span className="text-lg font-bold text-purple-600">↓ 12%</span>
+                  <div className="bg-[var(--navy-deep)] rounded-lg p-4">
+                    <div className="flex justify-between items-center">
+                      <span className="text-sm font-medium text-[var(--text-secondary)]">Platform Rating</span>
+                      <span className="text-lg font-bold text-[#60A5FA]">4.7★</span>
+                    </div>
+                  </div>
+                  <div className="bg-[var(--navy-deep)] rounded-lg p-4">
+                    <div className="flex justify-between items-center">
+                      <span className="text-sm font-medium text-[var(--text-secondary)]">Cost per Delivery</span>
+                      <span className="text-lg font-bold text-purple-400">↓ 12%</span>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
+            </FadeUp>
           </div>
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] text-[var(--text-primary)]">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 mb-6">
-            Ready to Scale Your Brands?
-          </h2>
-          <p className="body-xl mb-8 opacity-90">
-            See how cloud kitchens optimize every brand from one dashboard.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/demo">
-              <Button variant="secondary" size="lg">
-                Schedule Cloud Kitchen Demo
-              </Button>
-            </Link>
-            <a href={PRICING_URL}>
-              <Button variant="outline-light" size="lg">
-                View Pricing
-              </Button>
-            </a>
-          </div>
-        </div>
-      </section>
+      <PageCTA
+        title="Ready to Scale Your Brands?"
+        description="See how cloud kitchens optimize every brand from one dashboard."
+      >
+        <Link href="/demo">
+          <Button variant="primary" size="lg">
+            Schedule Cloud Kitchen Demo
+          </Button>
+        </Link>
+        <a href={PRICING_URL}>
+          <Button variant="outline-light" size="lg">
+            View Pricing
+          </Button>
+        </a>
+      </PageCTA>
     </div>
   );
 }

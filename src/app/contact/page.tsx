@@ -1,5 +1,3 @@
-'use client';
-
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { LeadCaptureForm } from '@/components/marketing/LeadCaptureForm';
@@ -42,8 +40,8 @@ export default function ContactPage() {
 
               <div className="space-y-6">
                 <div className="flex items-start space-x-4 p-4 rounded-xl bg-[var(--surface-faint)] border border-[var(--border-default)]">
-                  <div className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <SundaeIcon name="support" size="sm" className="text-[var(--text-primary)]" />
+                  <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <SundaeIcon name="support" size="sm" className="text-white" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-[var(--text-primary)] text-sm">Email</h3>
@@ -53,8 +51,8 @@ export default function ContactPage() {
                 </div>
 
                 <div className="flex items-start space-x-4 p-4 rounded-xl bg-[var(--surface-faint)] border border-[var(--border-default)]">
-                  <div className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <SundaeIcon name="multiLocation" size="sm" className="text-[var(--text-primary)]" />
+                  <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <SundaeIcon name="multiLocation" size="sm" className="text-white" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-[var(--text-primary)] text-sm">Offices</h3>
@@ -72,8 +70,8 @@ export default function ContactPage() {
                 </div>
 
                 <div className="flex items-start space-x-4 p-4 rounded-xl bg-[var(--surface-faint)] border border-[var(--border-default)]">
-                  <div className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <SundaeIcon name="time" size="sm" className="text-[var(--text-primary)]" />
+                  <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <SundaeIcon name="time" size="sm" className="text-white" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-[var(--text-primary)] text-sm">Response Time</h3>
@@ -112,7 +110,7 @@ export default function ContactPage() {
         description="Book a 30-minute demo with your own data. No slides, no sales pressure."
       >
         <Link href="/demo">
-          <Button variant="primary" size="lg" className="bg-[var(--navy-deep)] text-[var(--text-primary)] hover:bg-[var(--surface-subtle)]">
+          <Button variant="cta" size="lg">
             Book a Demo
           </Button>
         </Link>

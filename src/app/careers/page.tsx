@@ -1,5 +1,3 @@
-'use client';
-
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
@@ -9,11 +7,11 @@ import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/comp
 export default function CareersPage() {
   const positions: { title: string; department: string; location: string; type: string; description: string; icon: SundaeIconName; color: string }[] = [
     {
-      title: "Senior Software Engineer - AI/ML",
+      title: "Senior Software Engineer - Intelligence",
       department: "Engineering",
       location: "Dubai, UAE / Remote",
       type: "Full-time",
-      description: "Build advanced AI models for restaurant decision intelligence. Work with large-scale data and machine learning algorithms.",
+      description: "Build advanced intelligence models for restaurant decision-making. Work with large-scale data and machine learning algorithms.",
       icon: "intelligence",
       color: "bg-[#1C47FF]"
     },
@@ -45,7 +43,7 @@ export default function CareersPage() {
       color: "bg-orange-600"
     },
     {
-      title: "Data Scientist - Restaurant Analytics",
+      title: "Data Scientist - Restaurant Intelligence",
       department: "Data Science",
       location: "Dubai, UAE / Remote",
       type: "Full-time",
@@ -58,7 +56,7 @@ export default function CareersPage() {
       department: "Design",
       location: "Toronto, Canada / Remote",
       type: "Full-time",
-      description: "Design intuitive interfaces for our decision intelligence platform. Create beautiful, user-friendly experiences for restaurant operators.",
+      description: "Design intuitive interfaces for our decision intelligence platform. Create beautiful, operator-friendly experiences.",
       icon: "canvas",
       color: "bg-indigo-600"
     }
@@ -92,19 +90,19 @@ export default function CareersPage() {
     },
     {
       title: "Impact",
-      description: "Help transform the restaurant industry with data-driven intelligence.",
+      description: "Help transform the restaurant industry with decision intelligence.",
       icon: "growth"
     }
   ];
 
   const values: { title: string; description: string; icon: SundaeIconName }[] = [
     {
-      title: "Customer First",
+      title: "Operator First",
       description: "We exist to help restaurant operators succeed with better decisions.",
       icon: "marketing"
     },
     {
-      title: "Data-Driven",
+      title: "Numbers-Backed",
       description: "We let data guide our decisions and help our customers do the same.",
       icon: "benchmarking"
     },
@@ -115,14 +113,13 @@ export default function CareersPage() {
     },
     {
       title: "Global Perspective",
-      description: "We think globally and build solutions that work across markets.",
+      description: "We think globally and build intelligence that works across markets.",
       icon: "multiLocation"
     }
   ];
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
-      {/* Hero Section */}
       <PageHero
         badge="Join Our Team"
         title="Build the Future of Decision Intelligence"
@@ -130,7 +127,7 @@ export default function CareersPage() {
       >
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link href="#open-positions">
-            <Button variant="primary" size="lg" className="bg-[var(--navy-deep)] text-[var(--text-primary)] hover:bg-[var(--surface-subtle)]">
+            <Button variant="primary" size="lg">
               View Open Positions
             </Button>
           </Link>
@@ -142,16 +139,13 @@ export default function CareersPage() {
         </div>
       </PageHero>
 
-      {/* Open Positions Section */}
       <section id="open-positions" className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-                Current Openings
-              </h2>
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">Current Openings</h2>
               <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
-                Help us transform the restaurant industry with data-driven intelligence
+                Help us transform the restaurant industry with decision intelligence.
               </p>
             </div>
           </FadeUp>
@@ -159,11 +153,11 @@ export default function CareersPage() {
           <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {positions.map((position, index) => (
               <StaggerItem key={index}>
-                <Card variant="elevated" className="hover:scale-105 transition-all duration-300 hover:shadow-lg group h-full">
+                <Card variant="elevated" className="hover:shadow-lg transition-all duration-300 group h-full">
                   <CardHeader>
                     <div className="flex items-center space-x-4 mb-4">
-                      <div className={`w-12 h-12 ${position.color} rounded-lg flex items-center justify-center text-[var(--text-primary)] group-hover:scale-110 transition-transform duration-300`}>
-                        <SundaeIcon name={position.icon} size="lg" className="text-[var(--text-primary)]" />
+                      <div className={`w-12 h-12 ${position.color} rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
+                        <SundaeIcon name={position.icon} size="lg" className="text-white" />
                       </div>
                       <div>
                         <div className="text-xs text-[#60A5FA] font-medium uppercase tracking-wide">{position.department}</div>
@@ -193,16 +187,13 @@ export default function CareersPage() {
         </div>
       </section>
 
-      {/* Benefits Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-                Why Join Sundae?
-              </h2>
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">Why Join Sundae?</h2>
               <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
-                We offer more than just a job — we offer a mission to transform an industry
+                We offer more than just a job — we offer a mission to transform an industry.
               </p>
             </div>
           </FadeUp>
@@ -213,7 +204,7 @@ export default function CareersPage() {
                 <Card variant="elevated" className="text-center h-full">
                   <CardHeader>
                     <div className="w-12 h-12 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-                      <SundaeIcon name={benefit.icon} size="lg" className="text-[var(--text-primary)]" />
+                      <SundaeIcon name={benefit.icon} size="lg" className="text-white" />
                     </div>
                     <CardTitle className="text-[var(--text-primary)]">{benefit.title}</CardTitle>
                   </CardHeader>
@@ -229,16 +220,13 @@ export default function CareersPage() {
         </div>
       </section>
 
-      {/* Values Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-                Our Values
-              </h2>
+              <h2 className="section-h2 text-[var(--text-primary)] mb-4">Our Values</h2>
               <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
-                The principles that guide everything we do at Sundae
+                The principles that guide everything we do at Sundae.
               </p>
             </div>
           </FadeUp>
@@ -249,7 +237,7 @@ export default function CareersPage() {
                 <Card variant="elevated" className="text-center h-full">
                   <CardHeader>
                     <div className="w-12 h-12 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-                      <SundaeIcon name={value.icon} size="lg" className="text-[var(--text-primary)]" />
+                      <SundaeIcon name={value.icon} size="lg" className="text-white" />
                     </div>
                     <CardTitle className="text-[var(--text-primary)]">{value.title}</CardTitle>
                   </CardHeader>
@@ -265,13 +253,12 @@ export default function CareersPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
       <PageCTA
         title="Ready to Make an Impact?"
         description="Join us in building the future of restaurant decision intelligence. Help operators worldwide make smarter, more profitable decisions."
       >
         <Link href="mailto:careers@sundae.io">
-          <Button variant="primary" size="lg" className="bg-[var(--navy-deep)] text-[var(--text-primary)] hover:bg-[var(--surface-subtle)]">
+          <Button variant="primary" size="lg">
             Send Your Resume
           </Button>
         </Link>

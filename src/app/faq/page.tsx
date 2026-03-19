@@ -1,17 +1,15 @@
 'use client';
 
-import { useState } from 'react';
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Accordion } from "@/components/ui/Accordion";
-import { motion } from "framer-motion";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
+import { FadeUp } from "@/components/ui/PageAnimations";
 import { useCta } from "@/lib/cta";
 import { REPORT_APP_URL, PRICING_URL } from "@/lib/urls";
 
 export default function FAQPage() {
   const cta = useCta();
-  const [activeCategory, setActiveCategory] = useState<string | null>(null);
 
   const faqCategories = [
     {
@@ -52,7 +50,7 @@ export default function FAQPage() {
         },
         {
           title: "Which tier should I choose?",
-          content: "**Start with Report Lite (Free) if:**\n• You're testing Sundae\n• You run 1-2 locations\n• Daily/weekly reports are sufficient\n\n**Upgrade to Report Plus/Pro if:**\n• You need AI-powered insights\n• Daily reports are sufficient (not real-time)\n\n**Choose Core Lite/Pro if:**\n• You have 10+ locations\n• You need operational speed (2-4 hour refresh)\n• Real-time budget tracking matters\n\n**Choose Enterprise if:**\n• You have 100+ locations\n• You need white-label or SSO\n• You require dedicated support"
+          content: "**Start with Report Lite (Free) if:**\n• You're testing Sundae\n• You run 1-2 locations\n• Daily/weekly reports are sufficient\n\n**Upgrade to Report Plus/Pro if:**\n• You need deeper intelligence\n• Daily reports are sufficient (not real-time)\n\n**Choose Core Lite/Pro if:**\n• You have 10+ locations\n• You need operational speed (2-4 hour refresh)\n• Real-time budget tracking matters\n\n**Choose Enterprise if:**\n• You have 100+ locations\n• You need white-label or SSO\n• You require dedicated support"
         },
         {
           title: "Can I upgrade or downgrade tiers later?",
@@ -60,7 +58,7 @@ export default function FAQPage() {
         },
         {
           title: "What's the 4D Intelligence Model?",
-          content: "Sundae's framework for decision intelligence:\n\n**1D: What Happened** - Your operational truth (sales, labor, costs)\n\n**2D: Plan vs Actual** - Budget vs actual, forecast vs actual\n\n**3D: Market Context** - Benchmarks, peers, competitors\n\n**4D: What's Next** - AI-powered predictions and recommendations\n\n**Report Tier:** Full (1D + 2D) + Limited (3D + 4D)\n**Core Tier:** All 4D Expanded"
+          content: "Sundae's framework for decision intelligence:\n\n**1D: What Happened** - Your operational truth (sales, labor, costs)\n\n**2D: Plan vs Actual** - Budget vs actual, forecast vs actual\n\n**3D: Market Context** - Benchmarks, peers, competitors\n\n**4D: What's Next** - Intelligent predictions and recommendations\n\n**Report Tier:** Full (1D + 2D) + Limited (3D + 4D)\n**Core Tier:** All 4D Expanded"
         }
       ]
     },
@@ -75,7 +73,7 @@ export default function FAQPage() {
         },
         {
           title: "How do I get my data into Sundae?",
-          content: "**Report Lite:** Upload CSV files manually\n\n**Report Plus:** Upload PDFs, Excel, screenshots — AI extracts data automatically. You review, fill missing values, and confirm before processing.\n\n**Report Pro & Core:** Full API integration — automated, zero manual work"
+          content: "**Report Lite:** Upload CSV files manually\n\n**Report Plus:** Upload PDFs, Excel, screenshots — Sundae extracts data automatically. You review, fill missing values, and confirm before processing.\n\n**Report Pro & Core:** Full API integration — automated, zero manual work"
         },
         {
           title: "What POS systems do you integrate with?",
@@ -87,7 +85,7 @@ export default function FAQPage() {
         },
         {
           title: "How long does implementation take?",
-          content: "**Report Lite:** Instant (upload CSV)\n**Report Plus/Pro:** 1-2 days (AI parsing setup)\n**Core Lite/Pro:** 1-2 weeks (API integration)\n**Enterprise:** 2-4 weeks (custom configuration)"
+          content: "**Report Lite:** Instant (upload CSV)\n**Report Plus/Pro:** 1-2 days (Parsing setup)\n**Core Lite/Pro:** 1-2 weeks (API integration)\n**Enterprise:** 2-4 weeks (custom configuration)"
         },
         {
           title: "What happens to my data if I cancel?",
@@ -186,8 +184,8 @@ export default function FAQPage() {
       icon: "speed" as SundaeIconName,
       faqs: [
         {
-          title: "What's AI credit allocation?",
-          content: "AI credits power intelligent queries and recommendations:\n\n**Report Lite:** 250 base + 80 per location\n**Report Plus:** 1,200 base + 300 per location (25% rollover)\n**Report Pro:** 3,500 base + 800 per location (25% rollover)\n**Core Lite:** 8,000 base + 1,600 per location (25% rollover)\n**Core Pro:** 14,000 base + 2,800 per location (25% rollover)\n**Enterprise:** 50,000+ base + 5,000 per location"
+          title: "What's the intelligence credit allocation?",
+          content: "Intelligence credits power queries and recommendations:\n\n**Report Lite:** 250 base + 80 per location\n**Report Plus:** 1,200 base + 300 per location (25% rollover)\n**Report Pro:** 3,500 base + 800 per location (25% rollover)\n**Core Lite:** 8,000 base + 1,600 per location (25% rollover)\n**Core Pro:** 14,000 base + 2,800 per location (25% rollover)\n**Enterprise:** 50,000+ base + 5,000 per location"
         },
         {
           title: "What's historical access?",
@@ -195,7 +193,7 @@ export default function FAQPage() {
         },
         {
           title: "What's data refresh frequency?",
-          content: "**Report Lite:** Manual upload only\n**Report Plus:** Manual or AI-parsed (on-demand)\n**Report Pro:** Daily automated\n**Core Lite:** 4-hour cycles (6x daily)\n**Core Pro:** 2-hour cycles (12x daily)\n**Enterprise:** Custom (real-time available)"
+          content: "**Report Lite:** Manual upload only\n**Report Plus:** Manual or Smart-parsed (on-demand)\n**Report Pro:** Daily automated\n**Core Lite:** 4-hour cycles (6x daily)\n**Core Pro:** 2-hour cycles (12x daily)\n**Enterprise:** Custom (real-time available)"
         },
         {
           title: "Do I get custom dashboards?",
@@ -248,7 +246,7 @@ export default function FAQPage() {
       faqs: [
         {
           title: "What makes Enterprise different?",
-          content: "Enterprise adds:\n• 100+ locations OR enterprise features regardless of scale\n• White-label capabilities\n• Dedicated Customer Success Manager\n• 24/7 support with contractual SLAs\n• SSO/SAML integration\n• Security & compliance pack\n• Custom ML models\n• Unlimited AI credits\n• Custom retention (5+ years)"
+          content: "Enterprise adds:\n• 100+ locations OR enterprise features regardless of scale\n• White-label capabilities\n• Dedicated Customer Success Manager\n• 24/7 support with contractual SLAs\n• SSO/SAML integration\n• Security & compliance pack\n• Custom ML models\n• Unlimited intelligence credits\n• Custom retention (5+ years)"
         },
         {
           title: "Do I need 100+ locations for Enterprise?",
@@ -267,15 +265,15 @@ export default function FAQPage() {
       faqs: [
         {
           title: "How is Sundae different from my POS reports?",
-          content: "**POS reports:** Show only POS data, no benchmarking, no AI, manual analysis\n\n**Sundae Report:** POS data with AI insights, peer benchmarks, recommendations, predictive patterns\n\n**Sundae Core:** Everything in Report PLUS unifies all systems (POS + labor + inventory + marketing), real-time refresh, advanced integrations"
+          content: "**POS reports:** Show only POS data, no benchmarking, no intelligence, manual analysis\n\n**Sundae Report:** POS data with intelligent insights, peer benchmarks, recommendations, predictive patterns\n\n**Sundae Core:** Everything in Report PLUS unifies all systems (POS + labor + inventory + marketing), real-time refresh, advanced integrations"
         },
         {
           title: "How is Sundae different from Excel?",
-          content: "**Excel:** Manual data entry, static analysis, no benchmarking, no AI, time-intensive\n\n**Sundae:** Automated data collection, dynamic intelligence, peer benchmarking, AI recommendations, saves 10-15 hours/week"
+          content: "**Excel:** Manual data entry, static analysis, no benchmarking, no intelligence, time-intensive\n\n**Sundae:** Automated data collection, dynamic intelligence, peer benchmarking, intelligent recommendations, saves 10-15 hours/week"
         },
         {
           title: "How much can I save vs other platforms?",
-          content: "Operators typically report 40-70% cost savings compared to legacy analytics platforms, while gaining superior AI capabilities.\n\nWhy Sundae costs less: Tier-based pricing (not per-module per-location), no setup fees, transparent pricing, efficient architecture."
+          content: "Operators typically report 40-70% cost savings compared to legacy analytics platforms, while gaining superior intelligence capabilities.\n\nWhy Sundae costs less: Tier-based pricing (not per-module per-location), no setup fees, transparent pricing, efficient architecture."
         }
       ]
     },
@@ -286,7 +284,7 @@ export default function FAQPage() {
       faqs: [
         {
           title: "I only have one location. Is Sundae for me?",
-          content: "Yes! Start with Report Lite (free). If you want AI insights, upgrade to Report Plus/Pro. Core tier works great for sophisticated single-location operators too."
+          content: "Yes! Start with Report Lite (free). If you want deeper insights, upgrade to Report Plus/Pro. Core tier works great for sophisticated single-location operators too."
         },
         {
           title: "I'm a franchise platform. Can Sundae help?",
@@ -305,16 +303,12 @@ export default function FAQPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
+    <div className="min-h-screen bg-[var(--navy-deep)]">
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50/80 via-purple-50/30 to-blue-50/60">
+      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-          >
-            <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
+          <FadeUp>
+            <div className="inline-flex items-center space-x-2 bg-blue-500/20 text-blue-400 px-4 py-2 rounded-full text-sm font-medium mb-6">
               <SundaeIcon name="conversation" size="sm" />
               <span>Frequently Asked Questions</span>
             </div>
@@ -322,9 +316,9 @@ export default function FAQPage() {
               Everything You Need to Know
             </h1>
             <p className="body-xl text-[var(--text-supporting)] mb-8 max-w-3xl mx-auto">
-              Find answers to common questions about Sundae, our products, pricing, and how we help restaurants make better decisions.
+              Find answers to common questions about Sundae, our products, pricing, and how operators make better decisions.
             </p>
-          </motion.div>
+          </FadeUp>
         </div>
       </section>
 
@@ -340,7 +334,7 @@ export default function FAQPage() {
                   const element = document.getElementById(category.id);
                   element?.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="px-4 py-2 bg-[var(--surface-subtle)] hover:bg-blue-100 text-[var(--text-secondary)] hover:text-[#60A5FA] rounded-lg text-sm font-medium transition-colors duration-200 flex items-center space-x-2"
+                className="px-4 py-2 bg-[var(--surface-subtle)] hover:bg-blue-500/20 text-[var(--text-secondary)] hover:text-blue-400 rounded-lg text-sm font-medium transition-colors duration-200 flex items-center space-x-2"
               >
                 <SundaeIcon name={category.icon} size="sm" />
                 <span>{category.title}</span>
@@ -354,47 +348,40 @@ export default function FAQPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto space-y-16">
           {faqCategories.map((category, index) => (
-            <motion.div
-              key={category.id}
-              id={category.id}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: index * 0.05 }}
-              viewport={{ once: true, margin: "-100px" }}
-              className="scroll-mt-24"
-            >
+            <FadeUp key={category.id} delay={index * 0.05}>
+              <div id={category.id} className="scroll-mt-24">
               <div className="mb-8">
                 <div className="flex items-center space-x-3 mb-3">
                   <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
-                    <SundaeIcon name={category.icon} size="lg" className="text-[var(--text-primary)]" />
+                    <SundaeIcon name={category.icon} size="lg" className="text-white" />
                   </div>
                   <h2 className="text-3xl font-bold text-[var(--text-primary)]">{category.title}</h2>
                 </div>
                 <div className="h-1 w-20 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full"></div>
               </div>
               <Accordion items={category.faqs} />
-            </motion.div>
+              </div>
+            </FadeUp>
           ))}
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="section-h2 mb-6">
+          <h2 className="section-h2 text-[var(--text-primary)] mb-6">
             Still Have Questions?
           </h2>
-          <p className="body-xl mb-8 opacity-90">
+          <p className="body-xl mb-8 text-[var(--text-supporting)]">
             Our team is here to help. Book a demo, contact sales, or start free.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-            <Button 
-              variant="secondary" 
-              size="lg" 
-              className="bg-[var(--navy-deep)] text-[#60A5FA] hover:bg-[var(--surface-subtle)]"
+            <Button
+              variant="cta"
+              size="lg"
               onClick={() => cta(REPORT_APP_URL, "start_free_from_faq", { page: "/faq" })}
             >
-              Start Free →
+              Start Free
             </Button>
             <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
               <Button
@@ -402,7 +389,7 @@ export default function FAQPage() {
                 size="lg"
                 className="w-full"
               >
-                See Pricing →
+                See Pricing
               </Button>
             </a>
             <Button
@@ -410,18 +397,18 @@ export default function FAQPage() {
               size="lg"
               onClick={() => cta("/demo", "book_demo_from_faq", { page: "/faq" })}
             >
-              Book Demo →
+              Book Demo
             </Button>
             <Button
               variant="outline-light"
               size="lg"
               onClick={() => cta("/contact", "contact_from_faq", { page: "/faq" })}
             >
-              Contact Us →
+              Contact Us
             </Button>
           </div>
-          <p className="text-sm opacity-80 mt-6">
-            Or email us at: <a href="mailto:support@sundae.io" className="underline">support@sundae.io</a>
+          <p className="text-sm text-[var(--text-muted)] mt-6">
+            Or email us at: <a href="mailto:support@sundae.io" className="text-blue-400 hover:underline">support@sundae.io</a>
           </p>
         </div>
       </section>

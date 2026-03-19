@@ -8,12 +8,12 @@ export default function PrivacyPage() {
   const lastUpdated = "March 3, 2026";
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
+    <div className="min-h-screen bg-[var(--navy-deep)]">
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
+            <div className="inline-flex items-center space-x-2 bg-blue-500/20 text-blue-400 px-4 py-2 rounded-full text-sm font-medium mb-6">
               <SundaeIcon name="owners" size="md" />
               <span>Privacy</span>
             </div>
@@ -505,7 +505,7 @@ export default function PrivacyPage() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/terms">
-              <Button variant="outline">
+              <Button variant="outline-light">
                 Terms of Service
               </Button>
             </Link>

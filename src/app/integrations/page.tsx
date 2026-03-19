@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import { SundaeIcon } from "@/components/icons";
 import { Button } from "@/components/ui/Button";
@@ -140,12 +138,12 @@ export default function IntegrationsPage() {
  {
  step: "3",
  title: "Analyze",
- description: "Unified data flows into dashboards, alerts, and AI recommendations — no manual exports needed.",
+ description: "Unified data flows into dashboards, alerts, and intelligent recommendations — no manual exports needed.",
  },
  ].map((item) => (
  <StaggerItem key={item.step}>
  <div className="p-6">
- <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-[#60A5FA] font-bold text-lg mx-auto mb-4">
+ <div className="w-10 h-10 bg-blue-500/20 rounded-full flex items-center justify-center text-blue-400 font-bold text-lg mx-auto mb-4">
  {item.step}
  </div>
  <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">{item.title}</h3>
@@ -174,15 +172,15 @@ export default function IntegrationsPage() {
  <FadeUp key={cat.category}>
  <div className="flex items-center gap-3 mb-6">
  <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center text-white shadow">
- <SundaeIcon name={cat.icon} size="md" className="text-[var(--text-primary)]" />
+ <SundaeIcon name={cat.icon} size="md" className="text-white" />
  </div>
  <h3 className="text-xl font-semibold text-[var(--text-primary)]">
  {cat.category}
  </h3>
  <span className={`px-2.5 py-1 text-xs font-medium rounded-full ${
  cat.status === "Live"
- ? "bg-green-100 text-green-700"
- : "bg-amber-100 text-amber-700"
+ ? "bg-green-500/20 text-green-400"
+ : "bg-amber-500/20 text-amber-400"
  }`}>
  {cat.status}
  </span>
@@ -236,7 +234,7 @@ export default function IntegrationsPage() {
  <StaggerItem>
  <div className="bg-[var(--navy-deep)] rounded-2xl p-8 border border-[var(--border-default)] shadow-none">
  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-4">
- <SundaeIcon name="integration" size="lg" className="text-[var(--text-primary)]" />
+ <SundaeIcon name="integration" size="lg" className="text-white" />
  </div>
  <h3 className="text-xl font-semibold text-[var(--text-primary)] mb-3">Custom Webhooks</h3>
  <p className="text-[var(--text-supporting)] text-sm mb-4">
@@ -262,7 +260,7 @@ export default function IntegrationsPage() {
  <StaggerItem>
  <div className="bg-[var(--navy-deep)] rounded-2xl p-8 border border-[var(--border-default)] shadow-none">
  <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mb-4">
- <SundaeIcon name="data" size="lg" className="text-[var(--text-primary)]" />
+ <SundaeIcon name="data" size="lg" className="text-white" />
  </div>
  <h3 className="text-xl font-semibold text-[var(--text-primary)] mb-3">Public API v1</h3>
  <p className="text-[var(--text-supporting)] text-sm mb-4">

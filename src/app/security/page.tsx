@@ -93,7 +93,7 @@ export default function SecurityPage() {
                   className="p-6 rounded-2xl border border-[var(--border-default)] bg-[var(--navy-deep)] hover:shadow-md transition-shadow duration-300"
                 >
                   <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center text-white mb-4 shadow-lg">
-                    <SundaeIcon name={pillar.icon} size="lg" className="text-[var(--text-primary)]" />
+                    <SundaeIcon name={pillar.icon} size="lg" className="text-white" />
                   </div>
                   <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">
                     {pillar.title}
@@ -131,7 +131,7 @@ export default function SecurityPage() {
                           {item.title}
                         </h3>
                         {item.note && (
-                          <span className="text-xs font-medium px-2 py-1 rounded-full bg-amber-100 text-amber-800">
+                          <span className="text-xs font-medium px-2 py-1 rounded-full bg-amber-500/20 text-amber-400">
                             {item.note}
                           </span>
                         )}

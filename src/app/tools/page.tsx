@@ -1,5 +1,3 @@
-'use client';
-
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
@@ -38,7 +36,7 @@ export default function ToolsPage() {
     },
     {
       title: 'Benchmark Readiness Assessment',
-      description: 'Evaluate your organization\'s readiness for data-driven benchmarking and performance tracking.',
+      description: 'Evaluate your organization\'s readiness for benchmarking and performance tracking.',
       icon: 'document',
       href: '/tools/benchmark-readiness',
       features: ['Readiness score', 'Gap analysis', 'Action plan']
@@ -69,8 +67,8 @@ export default function ToolsPage() {
               <StaggerItem key={tool.title}>
                 <Card variant="elevated" className="h-full hover:shadow-xl transition-all duration-300">
                   <CardHeader>
-                    <div className="w-16 h-16 bg-slate-900 rounded-2xl flex items-center justify-center text-[var(--text-primary)] mb-4 shadow-lg">
-                      <SundaeIcon name={tool.icon} size="xl" className="text-[var(--text-primary)]" />
+                    <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl flex items-center justify-center mb-4 shadow-lg">
+                      <SundaeIcon name={tool.icon} size="xl" className="text-white" />
                     </div>
                     <CardTitle className="text-2xl text-[var(--text-primary)] mb-3">
                       {tool.title}

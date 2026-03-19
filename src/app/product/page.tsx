@@ -1,101 +1,138 @@
 'use client';
 
-import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 import { Card, CardContent } from "@/components/ui/Card";
-import { motion, useInView } from "framer-motion";
-import { useRef } from "react";
+import { motion } from "framer-motion";
 import { useCta } from "@/lib/cta";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { REPORT_APP_URL } from "@/lib/urls";
-import { PageHero, PageCTA, FadeUp } from "@/components/ui/PageAnimations";
+import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
+import {
+  PulseDashboardMockup,
+  BenchmarkDashboardMockup,
+  WatchtowerMockup,
+  InsightsModuleMockup,
+  IntelligenceChatMockup,
+} from "@/components/ui/MockupFrame";
 
 const pillars: {
   name: string;
   tagline: string;
   description: string;
   icon: SundaeIconName;
-  screenshot: string;
-  screenshotAlt: string;
   features: string[];
   link: string;
-  status: "live" | "coming-soon";
-  color: string;
+  stat: string;
+  statLabel: string;
+  mockup: React.ComponentType;
 }[] = [
   {
     name: "Pulse",
-    tagline: "Real-Time Operations",
-    description: "Live sales pacing, adaptive AI targets, leakage detection, and AI coaching \u2014 shift by shift, outlet by outlet. A shift is a perishable asset.",
+    tagline: "Intraday Operations",
+    description:
+      "Revenue pacing, labor cost, server performance, and leakage detection — updating every 5 minutes. A shift is a perishable asset. Once it's gone, the margin is gone.",
     icon: "pulse",
-    screenshot: "/images/product/pulse-scorecard.png",
-    screenshotAlt: "Pulse shift scorecard showing revenue, covers, top items, and server performance",
-    features: ["Sales & Pace Tracking", "Labor Live", "Leakage Monitoring", "AI Coach", "Alerts & Playbooks", "Shift Scorecard", "Portfolio Leaderboard", "Wallboard Mode"],
+    features: [
+      "Live sales pacing vs targets",
+      "Server-level upsell tracking",
+      "Leakage & void detection",
+      "Sundae Coach shift signals",
+      "Portfolio leaderboard",
+      "Wallboard mode for the floor",
+    ],
     link: "/product/pulse",
-    status: "live",
-    color: "from-red-500 to-rose-600"
+    stat: "$2K",
+    statLabel: "saved per bad shift caught early",
+    mockup: PulseDashboardMockup,
   },
   {
     name: "Benchmarks",
     tagline: "Competitive Intelligence",
-    description: "Compare against anonymized peer data \u2014 RevPASH Index, seat occupancy, average check, and revenue indexes \u2014 with AI-generated insights.",
+    description:
+      "RevPASH Index, seat occupancy, average check, and revenue indexes — compared against anonymized peers in your segment and market.",
     icon: "benchmarking",
-    screenshot: "/images/product/benchmark-overview.png",
-    screenshotAlt: "Benchmark dashboard with RevPASH Index, seat occupancy, and competitive comparison",
-    features: ["RevPASH & Revenue Indexes", "Compset Comparisons", "Performance Trends", "Revenue Forecasting", "Market Intelligence", "AI Priority Insights"],
+    features: [
+      "RevPASH & revenue indexes",
+      "Compset peer comparisons",
+      "Performance trend analysis",
+      "Revenue forecasting",
+      "Market positioning",
+      "Priority insights by Sundae Coach",
+    ],
     link: "/benchmarking",
-    status: "live",
-    color: "from-blue-500 to-blue-600"
+    stat: "112",
+    statLabel: "RevPASH Index — 12% above peers",
+    mockup: BenchmarkDashboardMockup,
   },
   {
     name: "Watchtower",
     tagline: "Market Intelligence",
-    description: "Competitor monitoring, weather revenue impact, event intelligence, and AI daily briefings \u2014 before the impact hits your numbers.",
+    description:
+      "Competitor monitoring, weather revenue impact, event intelligence, and daily briefings — before the impact hits your numbers.",
     icon: "watchtower",
-    screenshot: "/images/product/watchtower.png",
-    screenshotAlt: "Watchtower command center with weather impact, events, and competitor tracking",
-    features: ["Competitor Tracking", "Weather Revenue Impact", "Event Calendar", "AI Briefings", "Signal Feed", "Market Trends"],
+    features: [
+      "Competitor price & menu tracking",
+      "Weather revenue impact models",
+      "Local event intelligence",
+      "Daily Sundae Coach briefings",
+      "Signal feed & alerts",
+      "Market trend detection",
+    ],
     link: "/product/watchtower",
-    status: "live",
-    color: "from-amber-500 to-orange-600"
+    stat: "72h",
+    statLabel: "early warning before impact",
+    mockup: WatchtowerMockup,
   },
   {
     name: "Insights",
-    tagline: "Intelligence Modules",
-    description: "Revenue, labor, inventory, purchasing, marketing, reservations, delivery, and guest experience \u2014 each with AI-generated recommendations.",
+    tagline: "12 Intelligence Modules",
+    description:
+      "Revenue, labor, inventory, purchasing, marketing, reservations, delivery, guest experience, and more — each with recommendations from Sundae Coach.",
     icon: "insights",
-    screenshot: "/images/product/core-insights-hub.png",
-    screenshotAlt: "Insights hub showing 12 intelligence modules including Revenue, Labor, Inventory, and Cross-Intelligence",
-    features: ["Performance Report (Live)", "Revenue Intelligence", "Labor Intelligence", "Inventory Intelligence", "Purchasing Intelligence", "Marketing Performance"],
+    features: [
+      "Revenue & profit intelligence",
+      "Labor cost optimization",
+      "Inventory waste & variance",
+      "Purchasing & supplier scoring",
+      "Marketing ROI attribution",
+      "Cross-Intelligence correlations",
+    ],
     link: "/insights",
-    status: "live",
-    color: "from-purple-500 to-purple-600"
+    stat: "179+",
+    statLabel: "data models across 12 domains",
+    mockup: InsightsModuleMockup,
   },
   {
     name: "Sundae Intelligence",
-    tagline: "Conversational AI Analytics",
-    description: "Ask questions in plain language, get answers backed by your real data \u2014 on web, Telegram, Slack, and Microsoft Teams.",
+    tagline: "Conversational Analytics",
+    description:
+      "Ask questions in plain language. Get answers backed by your real data — with sources, not guesses. Available on web, Telegram, Slack, and Microsoft Teams.",
     icon: "conversation",
-    screenshot: "/images/product/chat-with-data.png",
-    screenshotAlt: "Sundae Intelligence interface with conversational analytics",
-    features: ["Chat Mode (Natural Language)", "Monitor Mode (Real-time Alerts)", "Briefing Mode (AI Summaries)", "Web + Telegram + Slack + Teams", "Conversation History", "AI Credit System"],
+    features: [
+      "Natural language queries",
+      "Monitor mode (real-time alerts)",
+      "Briefing mode (daily summaries)",
+      "Web + Telegram + Slack + Teams",
+      "Conversation history",
+      "Source-cited responses",
+    ],
     link: "/intelligence",
-    status: "live",
-    color: "from-green-500 to-emerald-600"
+    stat: "30s",
+    statLabel: "from question to cited answer",
+    mockup: IntelligenceChatMockup,
   },
 ];
 
 export default function ProductPage() {
   const cta = useCta();
-  const gridRef = useRef(null);
-  const gridInView = useInView(gridRef, { once: true, margin: "-50px" });
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
-      {/* Hero Section */}
+      {/* Hero */}
       <PageHero
         badge="The Sundae Platform"
-        title="Five Layers. One Truth."
-        description="Five intelligence layers that turn disconnected systems into operational clarity."
+        title="179 Data Models. 12 Domains. One Truth."
+        description="Five intelligence layers that turn fragmented restaurant data into decisions that compound — shift by shift, outlet by outlet."
       >
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Button variant="cta" size="lg" onClick={() => cta(REPORT_APP_URL, "start_free_product_hero", { page: "/product" })}>
@@ -107,16 +144,16 @@ export default function ProductPage() {
         </div>
       </PageHero>
 
-      {/* Product Tiers — Report vs Core */}
+      {/* Two Tiers */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-5xl mx-auto">
           <FadeUp>
             <div className="text-center mb-12">
               <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-                Two Product Tiers
+                Start Free. Scale When Ready.
               </h2>
               <p className="body-lg text-[var(--text-supporting)]">
-                Choose historical analysis or real-time operations — or both.
+                Historical benchmarking at no cost. Real-time operations when you need the edge.
               </p>
             </div>
           </FadeUp>
@@ -129,22 +166,17 @@ export default function ProductPage() {
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
-              <Card variant="elevated" className="h-full overflow-hidden border-2 border-blue-200">
-                <div className="relative h-48 overflow-hidden bg-[var(--surface-subtle)]">
-                  <Image
-                    src="/images/product/benchmark-overview.png"
-                    alt="Sundae Report benchmarking dashboard"
-                    fill
-                    className="object-cover object-top"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[var(--navy-deep)] to-transparent" />
-                  <span className="absolute top-3 right-3 badge badge--free text-[10px]">FREE FOREVER</span>
+              <Card variant="elevated" className="h-full overflow-hidden border-2 border-blue-500/30">
+                <div className="relative h-48 overflow-hidden bg-[var(--surface-subtle)] p-3">
+                  <BenchmarkDashboardMockup />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[var(--surface-hover)] via-transparent to-transparent pointer-events-none" />
+                  <span className="absolute top-3 right-3 badge badge--free text-[10px] z-10">FREE FOREVER</span>
                 </div>
                 <CardContent className="p-6">
                   <h3 className="text-2xl font-bold text-[var(--text-primary)] mb-2">Sundae Report</h3>
                   <p className="text-sm text-[#60A5FA] font-semibold mb-3">Historical Analysis & Benchmarking</p>
                   <p className="text-[var(--text-supporting)] mb-4 leading-relaxed">
-                    Upload your data. See where you stand. Performance benchmarking, margin analysis, and historical patterns — free forever.
+                    Upload your data. See where you stand against peers. Performance benchmarks, margin patterns, and competitive positioning — free, forever.
                   </p>
                   <p className="text-sm font-medium text-[var(--text-primary)] mb-3">Includes:</p>
                   <ul className="text-sm text-[var(--text-supporting)] space-y-1.5 mb-6">
@@ -171,30 +203,25 @@ export default function ProductPage() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.1 }}
             >
-              <Card variant="elevated" className="h-full overflow-hidden border-2 border-purple-200">
-                <div className="relative h-48 overflow-hidden bg-[var(--surface-subtle)]">
-                  <Image
-                    src="/images/product/core-overview.png"
-                    alt="Sundae Core operational dashboard"
-                    fill
-                    className="object-cover object-top"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[var(--navy-deep)] to-transparent" />
-                  <span className="absolute top-3 right-3 badge badge--popular text-[10px]">MOST POPULAR</span>
+              <Card variant="elevated" className="h-full overflow-hidden border-2 border-purple-500/30">
+                <div className="relative h-48 overflow-hidden bg-[var(--surface-subtle)] p-3">
+                  <PulseDashboardMockup />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[var(--surface-hover)] via-transparent to-transparent pointer-events-none" />
+                  <span className="absolute top-3 right-3 badge badge--popular text-[10px] z-10">MOST POPULAR</span>
                 </div>
                 <CardContent className="p-6">
                   <h3 className="text-2xl font-bold text-[var(--text-primary)] mb-2">Sundae Core</h3>
-                  <p className="text-sm text-purple-600 font-semibold mb-3">Real-Time Operations & Predictions</p>
+                  <p className="text-sm text-purple-400 font-semibold mb-3">Real-Time Operations & Intelligence</p>
                   <p className="text-[var(--text-supporting)] mb-4 leading-relaxed">
-                    Everything in Report, plus real-time intelligence. Pulse monitoring, AI coaching, and Watchtower market signals.
+                    Everything in Report, plus live operations. Intraday pacing, market signals, 12 intelligence modules, and Sundae Coach recommendations.
                   </p>
                   <p className="text-sm font-medium text-[var(--text-primary)] mb-3">Everything in Report, plus:</p>
                   <ul className="text-sm text-[var(--text-supporting)] space-y-1.5 mb-6">
-                    <li className="flex items-center gap-2"><span className="text-purple-500">&#10003;</span> Pulse (intraday operations)</li>
-                    <li className="flex items-center gap-2"><span className="text-purple-500">&#10003;</span> Watchtower (market intelligence)</li>
-                    <li className="flex items-center gap-2"><span className="text-purple-500">&#10003;</span> Intelligence Modules</li>
-                    <li className="flex items-center gap-2"><span className="text-purple-500">&#10003;</span> Cross-Intelligence (at 3+ modules)</li>
-                    <li className="flex items-center gap-2"><span className="text-purple-500">&#10003;</span> AI Coach & Playbooks</li>
+                    <li className="flex items-center gap-2"><span className="text-purple-400">&#10003;</span> Pulse (intraday operations)</li>
+                    <li className="flex items-center gap-2"><span className="text-purple-400">&#10003;</span> Watchtower (market intelligence)</li>
+                    <li className="flex items-center gap-2"><span className="text-purple-400">&#10003;</span> 12 Intelligence Modules</li>
+                    <li className="flex items-center gap-2"><span className="text-purple-400">&#10003;</span> Cross-Intelligence (3+ modules)</li>
+                    <li className="flex items-center gap-2"><span className="text-purple-400">&#10003;</span> Sundae Coach & Playbooks</li>
                   </ul>
                   <Button
                     variant="primary"
@@ -220,78 +247,83 @@ export default function ProductPage() {
         </div>
       </section>
 
-      {/* All Product Pillars */}
-      <section ref={gridRef} className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
+      {/* Five Pillars */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
               <p className="eyebrow text-[#60A5FA] mb-4">
-                PRODUCT PILLARS
+                FIVE INTELLIGENCE LAYERS
               </p>
               <h2 className="section-h2 text-[var(--text-primary)] mb-4">
-                Five Pillars of Decision Intelligence
+                From Shift Floor to Boardroom
               </h2>
               <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">
-                Each pillar handles a distinct dimension. Together, they form a complete decision intelligence platform.
+                Each layer handles a distinct dimension of restaurant performance. Together, they form a closed-loop intelligence system.
               </p>
             </div>
           </FadeUp>
 
-          <div className="space-y-16">
-            {pillars.map((pillar, index) => (
-              <motion.div
-                key={pillar.name}
-                initial={{ opacity: 0, y: 30 }}
-                animate={gridInView ? { opacity: 1, y: 0 } : {}}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-              >
-                <div className={`grid md:grid-cols-2 gap-8 items-center ${index % 2 === 1 ? 'md:grid-flow-dense' : ''}`}>
-                  {/* Screenshot */}
-                  <div className={index % 2 === 1 ? 'md:col-start-2' : ''}>
-                    <div className="rounded-xl overflow-hidden shadow-xl border border-[var(--border-default)] group">
-                      <Image
-                        src={pillar.screenshot}
-                        alt={pillar.screenshotAlt}
-                        width={800}
-                        height={500}
-                        className="w-full h-auto group-hover:scale-[1.02] transition-transform duration-500"
-                      />
+          <div className="space-y-24">
+            {pillars.map((pillar, index) => {
+              const Mockup = pillar.mockup;
+              return (
+                <FadeUp key={pillar.name} delay={index * 0.05}>
+                  <div className={`grid md:grid-cols-2 gap-10 items-center ${index % 2 === 1 ? 'md:grid-flow-dense' : ''}`}>
+                    {/* CSS Mockup */}
+                    <div className={index % 2 === 1 ? 'md:col-start-2' : ''}>
+                      <Mockup />
                     </div>
-                  </div>
 
-                  {/* Content */}
-                  <div className={index % 2 === 1 ? 'md:col-start-1 md:row-start-1' : ''}>
-                    <div className="flex items-center gap-3 mb-4">
-                      <div className={`w-12 h-12 bg-gradient-to-br ${pillar.color} rounded-xl flex items-center justify-center`}>
-                        <SundaeIcon name={pillar.icon} size="lg" className="text-[var(--text-primary)]" />
-                      </div>
-                      <div>
-                        <h3 className="text-2xl font-bold text-[var(--text-primary)]">{pillar.name}</h3>
-                        <p className="text-sm text-[var(--text-muted)] font-medium">{pillar.tagline}</p>
-                      </div>
-                    </div>
-                    <p className="text-[var(--text-supporting)] leading-relaxed mb-6">
-                      {pillar.description}
-                    </p>
-                    <div className="grid grid-cols-2 gap-2 mb-6">
-                      {pillar.features.map((feature) => (
-                        <div key={feature} className="flex items-center gap-2 text-sm text-[var(--text-secondary)]">
-                          <span className="text-[var(--text-primary)] flex-shrink-0">&#10003;</span>
-                          <span>{feature}</span>
+                    {/* Content */}
+                    <div className={index % 2 === 1 ? 'md:col-start-1 md:row-start-1' : ''}>
+                      <div className="flex items-center gap-3 mb-4">
+                        <div className={`w-12 h-12 bg-gradient-to-br ${
+                          index === 0 ? 'from-red-500 to-rose-600' :
+                          index === 1 ? 'from-blue-500 to-blue-600' :
+                          index === 2 ? 'from-amber-500 to-orange-600' :
+                          index === 3 ? 'from-purple-500 to-purple-600' :
+                          'from-green-500 to-emerald-600'
+                        } rounded-xl flex items-center justify-center`}>
+                          <SundaeIcon name={pillar.icon} size="lg" className="text-white" />
                         </div>
-                      ))}
+                        <div>
+                          <h3 className="text-2xl font-bold text-[var(--text-primary)]">{pillar.name}</h3>
+                          <p className="text-sm text-[var(--text-muted)] font-medium">{pillar.tagline}</p>
+                        </div>
+                      </div>
+
+                      {/* Stat callout */}
+                      <div className="flex items-baseline gap-2 mb-4">
+                        <span className="text-3xl font-bold font-mono text-[#1C47FF]">{pillar.stat}</span>
+                        <span className="text-sm text-[var(--text-muted)]">{pillar.statLabel}</span>
+                      </div>
+
+                      <p className="text-[var(--text-supporting)] leading-relaxed mb-6">
+                        {pillar.description}
+                      </p>
+
+                      <div className="grid grid-cols-2 gap-2 mb-6">
+                        {pillar.features.map((feature) => (
+                          <div key={feature} className="flex items-center gap-2 text-sm text-[var(--text-secondary)]">
+                            <span className="text-[var(--electric-blue)] flex-shrink-0">&#10003;</span>
+                            <span>{feature}</span>
+                          </div>
+                        ))}
+                      </div>
+
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        onClick={() => cta(pillar.link, `view_${pillar.name.toLowerCase().replace(/\s+/g, "_")}_product`, { page: "/product" })}
+                      >
+                        Explore {pillar.name} →
+                      </Button>
                     </div>
-                    <Button
-                      variant="outline"
-                      size="sm"
-                      onClick={() => cta(pillar.link, `view_${pillar.name.toLowerCase().replace(/\s+/g, "_")}_product`, { page: "/product" })}
-                    >
-                      Learn more →
-                    </Button>
                   </div>
-                </div>
-              </motion.div>
-            ))}
+                </FadeUp>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -305,45 +337,49 @@ export default function ProductPage() {
                 PLATFORM
               </p>
               <h2 className="text-2xl md:text-3xl font-bold text-[var(--text-primary)] mb-4">
-                Also Included
+                Built for Multi-Location Operations
               </h2>
             </div>
           </FadeUp>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="flex items-start gap-4 p-6 bg-[var(--surface-faint)] rounded-2xl border border-[var(--border-default)]/70">
-              <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl flex items-center justify-center flex-shrink-0">
-                <SundaeIcon name="integration" size="lg" className="text-[var(--text-primary)]" />
+          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <StaggerItem>
+              <div className="flex items-start gap-4 p-6 bg-[var(--surface-faint)] rounded-2xl border border-[var(--border-default)]/70 h-full">
+                <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <SundaeIcon name="integration" size="lg" className="text-white" />
+                </div>
+                <div>
+                  <h3 className="font-bold text-[var(--text-primary)] mb-1">Integrations Hub</h3>
+                  <p className="text-sm text-[var(--text-muted)] font-medium mb-2">Connect Every System</p>
+                  <p className="text-sm text-[var(--text-supporting)] leading-relaxed">
+                    POS, labor scheduling, inventory, delivery, reservations, reviews, and accounting — one connection per system. Health monitoring and activity logs included.
+                  </p>
+                </div>
               </div>
-              <div>
-                <h3 className="font-bold text-[var(--text-primary)] mb-1">Integrations Hub</h3>
-                <p className="text-sm text-[var(--text-muted)] font-medium mb-2">12-Domain Data Engine</p>
-                <p className="text-sm text-[var(--text-supporting)] leading-relaxed">
-                  Connect POS, labor, inventory, delivery, and more. Health monitoring, activity logs, and webhook support included.
-                </p>
-              </div>
-            </div>
+            </StaggerItem>
 
-            <div className="flex items-start gap-4 p-6 bg-[var(--surface-faint)] rounded-2xl border border-[var(--border-default)]/70">
-              <div className="w-12 h-12 bg-gradient-to-br from-slate-500 to-slate-600 rounded-xl flex items-center justify-center flex-shrink-0">
-                <SundaeIcon name="operators" size="lg" className="text-[var(--text-primary)]" />
+            <StaggerItem>
+              <div className="flex items-start gap-4 p-6 bg-[var(--surface-faint)] rounded-2xl border border-[var(--border-default)]/70 h-full">
+                <div className="w-12 h-12 bg-gradient-to-br from-slate-500 to-slate-600 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <SundaeIcon name="operators" size="lg" className="text-white" />
+                </div>
+                <div>
+                  <h3 className="font-bold text-[var(--text-primary)] mb-1">Crew</h3>
+                  <p className="text-sm text-[var(--text-muted)] font-medium mb-2">Organization & Access Control</p>
+                  <p className="text-sm text-[var(--text-supporting)] leading-relaxed">
+                    Multi-restaurant hierarchy, role-based permissions, department teams, and billing management. Every operator sees exactly what they need.
+                  </p>
+                </div>
               </div>
-              <div>
-                <h3 className="font-bold text-[var(--text-primary)] mb-1">Crew</h3>
-                <p className="text-sm text-[var(--text-muted)] font-medium mb-2">Organization & Team Management</p>
-                <p className="text-sm text-[var(--text-supporting)] leading-relaxed">
-                  Multi-restaurant hierarchy, role-based access control, departments, teams, and billing management.
-                </p>
-              </div>
-            </div>
-          </div>
+            </StaggerItem>
+          </StaggerContainer>
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* CTA */}
       <PageCTA
         title="Stop reconciling. Start deciding."
-        description="30 minutes with your data. Real insights. No pitch deck."
+        description="30 minutes with your data. Real intelligence. No pitch deck."
       >
         <Button variant="cta" size="lg" href="/demo">Book a Demo</Button>
         <Button variant="outline-light" size="lg" href={REPORT_APP_URL}>Start Free</Button>

@@ -3,7 +3,6 @@
 import { useState, FormEvent } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
 import { FormField } from '@/components/auth/FormField';
 import { APP_URL, SIGNIN_URL, SIGNUP_URL } from '@/lib/urls';
 
@@ -18,12 +17,6 @@ const AUTH_API_URL: string | null = null;
 /* ---------------------------------------------------------------
  Helpers
  --------------------------------------------------------------- */
-const fadeUp = (delay = 0) => ({
- initial: { opacity: 0, y: 12 },
- animate: { opacity: 1, y: 0 },
- transition: { duration: 0.45, delay, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number] },
-});
-
 /* ---------------------------------------------------------------
  Page
  --------------------------------------------------------------- */
@@ -189,18 +182,18 @@ export default function SignInPage() {
  <div className="flex-1 flex items-center justify-center px-6 py-12 lg:py-0">
  <div className="w-full max-w-[400px]">
  {/* Heading */}
- <motion.div {...fadeUp(0)} className="mb-8">
+ <div className="mb-8">
  <h1 className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)] mb-2">
  Sign in to Sundae
  </h1>
  <p className="text-[var(--text-muted)] text-sm">
  Your unified view of performance, operations, and competitive intelligence.
  </p>
- </motion.div>
+ </div>
 
  {/* SSO buttons (feature-flagged) */}
  {ENABLE_SSO && (
- <motion.div {...fadeUp(0.05)} className="space-y-3 mb-6">
+ <div className="space-y-3 mb-6">
  <button
  type="button"
  className="w-full flex items-center justify-center gap-3 px-4 py-3 rounded-xl border-2 border-[var(--border-default)] bg-[var(--navy-deep)] text-sm font-medium text-[var(--text-secondary)] hover:bg-[var(--surface-faint)] transition-colors"
@@ -227,23 +220,21 @@ export default function SignInPage() {
  </span>
  </div>
  </div>
- </motion.div>
+ </div>
  )}
 
  {/* Form error */}
  {formError && (
- <motion.div
- initial={{ opacity: 0, y: -8 }}
- animate={{ opacity: 1, y: 0 }}
- className="mb-4 px-4 py-3 rounded-xl bg-[rgba(220,38,38,0.1)] border border-red-200 text-sm text-red-600"
+ <div
+ className="mb-4 px-4 py-3 rounded-xl bg-red-500/10 border border-red-500/30 text-sm text-red-400"
  role="alert"
  >
  {formError}
- </motion.div>
+ </div>
  )}
 
  {/* Form */}
- <motion.form {...fadeUp(0.1)} onSubmit={handleSubmit} noValidate className="space-y-5">
+ <form onSubmit={handleSubmit} noValidate className="space-y-5">
  <FormField
  id="email"
  label="Email"
@@ -325,10 +316,10 @@ export default function SignInPage() {
  hasAuth ? 'Sign in' : 'Continue to Sundae App'
  )}
  </button>
- </motion.form>
+ </form>
 
  {/* Sign up link */}
- <motion.p {...fadeUp(0.15)} className="mt-8 text-center text-sm text-[var(--text-muted)]">
+ <p className="mt-8 text-center text-sm text-[var(--text-muted)]">
  {"Don't have an account? "}
  <a
  href={SIGNUP_URL}
@@ -336,7 +327,7 @@ export default function SignInPage() {
  >
  Get started free
  </a>
- </motion.p>
+ </p>
  </div>
  </div>
 

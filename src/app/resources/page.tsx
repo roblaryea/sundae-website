@@ -1,5 +1,3 @@
-'use client';
-
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
@@ -83,11 +81,11 @@ export default function ResourcesPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
+    <div className="min-h-screen bg-[var(--navy-deep)]">
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
+          <div className="inline-flex items-center space-x-2 bg-blue-500/20 text-blue-400 px-4 py-2 rounded-full text-sm font-medium mb-6">
             <SundaeIcon name="document" size="md" />
             <span>Resources & Tools</span>
           </div>
@@ -104,7 +102,7 @@ export default function ResourcesPage() {
               </Button>
             </Link>
             <Link href="/report">
-              <Button variant="outline" size="lg">
+              <Button variant="outline-light" size="lg">
                 Get Free Benchmark Report
               </Button>
             </Link>
@@ -135,8 +133,8 @@ export default function ResourcesPage() {
                     {/* Left: Challenge */}
                     <div>
                       <div className="flex items-center space-x-3 mb-4">
-                        <div className={`w-12 h-12 ${study.color} rounded-lg flex items-center justify-center text-[var(--text-primary)]`}>
-                          <SundaeIcon name={study.icon} size="lg" className="text-[var(--text-primary)]" />
+                        <div className={`w-12 h-12 ${study.color} rounded-lg flex items-center justify-center`}>
+                          <SundaeIcon name={study.icon} size="lg" className="text-white" />
                         </div>
                         <div>
                           <div className="text-xs text-[var(--text-muted)] font-medium uppercase">Segment</div>
@@ -168,8 +166,8 @@ export default function ResourcesPage() {
                       <div className="text-sm font-bold text-[var(--text-secondary)] mb-3">Outcomes:</div>
                       <div className="space-y-3">
                         {study.outcomes.map((outcome, idx) => (
-                          <div key={idx} className="bg-green-50 rounded-lg p-4">
-                            <div className="text-2xl font-bold text-green-600 mb-1">{outcome.value}</div>
+                          <div key={idx} className="bg-green-500/10 rounded-lg p-4">
+                            <div className="text-2xl font-bold text-green-400 mb-1">{outcome.value}</div>
                             <div className="text-sm text-[var(--text-secondary)]">{outcome.metric}</div>
                           </div>
                         ))}
@@ -192,7 +190,7 @@ export default function ResourcesPage() {
                 { name: "Sundae Core", href: "/canvas" }
               ].map((product) => (
                 <Link key={product.name} href={product.href}>
-                  <Button variant="outline" size="sm">
+                  <Button variant="outline-light" size="sm">
                     {product.name} →
                   </Button>
                 </Link>
@@ -236,7 +234,7 @@ export default function ResourcesPage() {
                 placeholder="Enter your email"
                 className="flex-1 px-4 py-3 rounded-lg bg-[var(--navy-deep)]/10 border border-[var(--border-emphasis)] text-[var(--text-primary)] placeholder-[var(--text-secondary)] focus:outline-none focus:ring-2 focus:ring-[var(--text-muted)]"
               />
-              <Button variant="secondary" size="lg" className="bg-[var(--navy-deep)] text-[#60A5FA] hover:bg-[var(--surface-subtle)]">
+              <Button variant="cta" size="lg">
                 Subscribe
               </Button>
             </div>
@@ -254,7 +252,7 @@ export default function ResourcesPage() {
             Ready to Transform Your Restaurant?
           </h2>
           <p className="text-xl text-[var(--text-supporting)] mb-8">
-            Join thousands of restaurant operators who use Sundae to make smarter, data-driven decisions.
+            Join thousands of restaurant operators who use Sundae to make smarter, numbers-backed decisions.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/demo">
@@ -263,7 +261,7 @@ export default function ResourcesPage() {
               </Button>
             </Link>
             <Link href="/contact">
-              <Button variant="outline" size="lg">
+              <Button variant="outline-light" size="lg">
                 Contact Sales
               </Button>
             </Link>

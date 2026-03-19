@@ -38,16 +38,16 @@ export default function MenuMarginCalculator() {
     
     if (marginPercent < 55) {
       interpretation = 'Low margin – consider re-pricing or re-engineering this item to improve profitability.';
-      color = 'text-red-600';
-      bgColor = 'bg-[rgba(220,38,38,0.1)]';
+      color = 'text-red-400';
+      bgColor = 'bg-red-500/10';
     } else if (marginPercent <= 70) {
       interpretation = 'Healthy margin range – this item is profitable and competitively priced.';
       color = 'text-[#60A5FA]';
       bgColor = 'bg-[rgba(28,71,255,0.1)]';
     } else {
       interpretation = 'Strong margin – excellent profitability. Guard against competition and maintain quality.';
-      color = 'text-green-600';
-      bgColor = 'bg-green-50';
+      color = 'text-green-400';
+      bgColor = 'bg-green-500/10';
     }
 
     setTimeout(() => {
@@ -57,7 +57,7 @@ export default function MenuMarginCalculator() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
+    <div className="min-h-screen bg-[var(--navy-deep)]">
       <div className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">
           {/* Back Button */}
@@ -69,8 +69,8 @@ export default function MenuMarginCalculator() {
 
           {/* Header */}
           <div className="text-center mb-12">
-            <div className="w-20 h-20 bg-slate-900 rounded-2xl flex items-center justify-center text-[var(--text-primary)] mx-auto mb-6 shadow-lg">
-              <SundaeIcon name="chart" size="xl" className="text-[var(--text-primary)]" />
+            <div className="w-20 h-20 bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
+              <SundaeIcon name="chart" size="xl" className="text-white" />
             </div>
             <h1 className="hero-h1 text-[var(--text-primary)] mb-4">
               Menu Item Margin Calculator

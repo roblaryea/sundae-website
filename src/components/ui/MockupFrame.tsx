@@ -265,6 +265,127 @@ export function BenchmarkDashboardMockup() {
   );
 }
 
+// Watchtower Command Center
+export function WatchtowerMockup() {
+  return (
+    <MockupFrame label="Watchtower — Market Intelligence">
+      <div className="space-y-4">
+        <div className="flex items-center justify-between">
+          <MockupLiveDot />
+          <span className="text-[10px] text-[var(--text-muted)] font-mono">Signals: 14 active</span>
+        </div>
+
+        <div className="grid grid-cols-3 gap-3">
+          <MockupKPI label="Competitor Changes" value="7" color="#F59E0B" />
+          <MockupKPI label="Weather Impact" value="-12%" trend="Rain forecast Fri" trendUp={false} color="#FF5450" />
+          <MockupKPI label="Local Events" value="3" trend="High-impact weekend" trendUp color="#22C55E" />
+        </div>
+
+        <MockupAlert type="warning">
+          Competitor &quot;Noma 2.0&quot; dropped lunch prices 15% — 0.3 mi away. Your footfall may shift.
+        </MockupAlert>
+
+        <MockupTable
+          headers={["Signal", "Impact", "Action"]}
+          rows={[
+            ["Friday rain forecast", "−$2,400 est.", "Push delivery promo"],
+            ["Marathon Sunday", "+$5,100 est.", "Staff +3 for brunch"],
+            ["New competitor menu", "Medium risk", "Monitor 7 days"],
+          ]}
+        />
+
+        <MockupAlert type="coach">
+          Weekend forecast: +18% foot traffic from marathon. Pre-order prep ingredients by Thursday EOD.
+        </MockupAlert>
+      </div>
+    </MockupFrame>
+  );
+}
+
+// Insights Module Grid
+export function InsightsModuleMockup() {
+  const modules = [
+    { name: "Revenue", value: "$847K", trend: "+8.2%", up: true },
+    { name: "Labor", value: "28.1%", trend: "−0.4pp", up: true },
+    { name: "Inventory", value: "2.1%", trend: "Waste ↓", up: true },
+    { name: "Marketing", value: "4.2x", trend: "ROAS", up: true },
+    { name: "Guest CRM", value: "68%", trend: "Retention", up: true },
+    { name: "Purchasing", value: "$12K", trend: "Saved", up: true },
+  ];
+
+  return (
+    <MockupFrame label="Insights — 12 Intelligence Modules">
+      <div className="space-y-4">
+        <div className="grid grid-cols-3 gap-2">
+          {modules.map((m) => (
+            <div key={m.name} className="bg-white/[0.03] rounded-lg p-3 border border-[var(--border-default)]">
+              <div className="text-[9px] text-[var(--text-muted)] uppercase tracking-wider">{m.name}</div>
+              <div className="text-lg font-bold font-mono text-[#1C47FF]">{m.value}</div>
+              <div className="text-[10px] text-[#22C55E]">▲ {m.trend}</div>
+            </div>
+          ))}
+        </div>
+
+        <MockupAlert type="coach">
+          Cross-Intelligence: Labor cost spike on Tuesdays correlates with 23% lower covers. Consider restructuring Tuesday shifts.
+        </MockupAlert>
+      </div>
+    </MockupFrame>
+  );
+}
+
+// Intelligence Chat Interface
+export function IntelligenceChatMockup() {
+  return (
+    <MockupFrame label="Sundae Intelligence — Chat">
+      <div className="space-y-3">
+        {/* User message */}
+        <div className="flex justify-end">
+          <div className="bg-[#1C47FF]/20 border border-[#1C47FF]/30 rounded-xl rounded-br-sm px-3 py-2 max-w-[75%]">
+            <p className="text-[12px] text-[var(--text-secondary)]">
+              What was my best performing outlet last week and why?
+            </p>
+          </div>
+        </div>
+
+        {/* AI response */}
+        <div className="flex justify-start">
+          <div className="bg-white/[0.04] border border-[var(--border-default)] rounded-xl rounded-bl-sm px-3 py-2.5 max-w-[85%]">
+            <p className="text-[12px] text-[var(--text-secondary)] leading-relaxed">
+              <span className="text-[#1C47FF] font-semibold">Downtown</span> led with <span className="font-mono text-[#22C55E]">$127K</span> revenue (+14% WoW). Key drivers:
+            </p>
+            <ul className="text-[11px] text-[var(--text-muted)] mt-1.5 space-y-0.5 pl-3">
+              <li>• Avg check up $4.20 from new prix fixe</li>
+              <li>• Saturday covers hit 340 (capacity: 92%)</li>
+              <li>• Server upsell rate 31% vs 24% portfolio avg</li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Follow-up */}
+        <div className="flex justify-end">
+          <div className="bg-[#1C47FF]/20 border border-[#1C47FF]/30 rounded-xl rounded-br-sm px-3 py-2 max-w-[75%]">
+            <p className="text-[12px] text-[var(--text-secondary)]">
+              Replicate that prix fixe across all outlets?
+            </p>
+          </div>
+        </div>
+
+        {/* Typing indicator */}
+        <div className="flex justify-start">
+          <div className="bg-white/[0.04] border border-[var(--border-default)] rounded-xl rounded-bl-sm px-3 py-2">
+            <div className="flex gap-1">
+              <span className="w-1.5 h-1.5 rounded-full bg-[var(--text-muted)] animate-pulse" />
+              <span className="w-1.5 h-1.5 rounded-full bg-[var(--text-muted)] animate-pulse [animation-delay:0.2s]" />
+              <span className="w-1.5 h-1.5 rounded-full bg-[var(--text-muted)] animate-pulse [animation-delay:0.4s]" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </MockupFrame>
+  );
+}
+
 // Revenue Assurance Dashboard
 export function RevenueAssuranceMockup() {
   return (
