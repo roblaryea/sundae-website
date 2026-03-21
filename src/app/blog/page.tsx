@@ -17,7 +17,8 @@ export default function BlogPage() {
     'Industry Insights',
     'Playbooks',
     'Data & AI',
-    'Benchmarks'
+    'Benchmarks',
+    'Research'
   ];
 
   const filteredPosts = selectedCategory === 'All'
