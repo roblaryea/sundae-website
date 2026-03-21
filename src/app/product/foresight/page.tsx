@@ -310,7 +310,8 @@ const components: {
     headline: "Revenue, Labor, Food Cost — One Forward-Looking View",
     description: "See the next 14, 30, or 90 days across 17 business metrics in a single timeline. Confidence bands shrink as Foresight learns your patterns. Actual values overlay forecast automatically — no manual reconciliation.",
     capabilities: [
-      "17 metrics: revenue, covers, labor cost, food cost, profit, SPLH, RevPASH, and more",
+      "22 metrics: revenue, covers, labor cost, food cost, profit, SPLH, RevPASH, and more",
+      "14–365 day horizons with adaptive confidence tiers",
       "Confidence bands that tighten as accuracy improves",
       "Actual vs forecast overlay — updated daily",
       "Granularity from 15-minute slots to monthly aggregates",
@@ -326,7 +327,8 @@ const components: {
       "Adjust pricing, capacity, marketing, staffing, and cost assumptions",
       "Cascading impact across revenue, labor, food cost, and profit",
       "Side-by-side comparison of up to 5 scenarios",
-      "Pre-built templates: pricing change, capacity expansion, seasonal prep",
+      "Pre-built templates: pricing change, capacity expansion, marketing boost, cost reduction",
+      "Sensitivity analysis with tornado diagrams — see which assumptions drive the most variance",
     ],
     icon: "data",
     color: "from-purple-500 to-purple-600",
@@ -352,7 +354,9 @@ const components: {
       "Visual dependency graph across all operational modules",
       "Correlation strength scoring (0-1) between connected metrics",
       "Cascade timing: revenue change to labor in 2 days, purchasing in 5",
-      "Integrated P&L forecast showing cross-module impact",
+      "Integrated P&L forecast: revenue \u2212 COGS \u2212 labor \u2212 overhead = net profit with current vs. forecast",
+      "Forecast-driven labor scheduling: recommended FOH/BOH hours, target SPLH, variance by day",
+      "Forecast-driven purchasing: suggested order quantities, reorder points, supplier recommendations",
     ],
     icon: "architecture",
     color: "from-violet-500 to-purple-600",
@@ -379,6 +383,8 @@ const components: {
       "Prioritized action items: critical, high, medium",
       "Risk/opportunity identification with estimated financial impact",
       "Briefing history — track what was predicted vs what happened",
+      "PDF export for stakeholder distribution",
+      "Forecast annotations — add operator notes on specific periods",
     ],
     icon: "intelligence",
     color: "from-blue-500 to-indigo-600",
@@ -475,7 +481,7 @@ export default function ForesightPage() {
         description="Forward-looking forecasts for every metric that matters — revenue, labor, food cost, profit. Confidence bands that tighten over time, what-if scenarios you can test before committing, and weekly executive briefings that tell you where to act."
       >
         <p className="text-sm text-[var(--text-muted)] mb-8 max-w-2xl mx-auto">
-          17 forecast metrics. 14–90 day horizons. Self-correcting accuracy. The sixth intelligence layer turns your historical patterns into forward-looking decisions.
+          22 forecast metrics. 14–365 day horizons. Self-correcting accuracy. 32 forecast visuals. The sixth intelligence layer turns your historical patterns into forward-looking decisions.
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Button
@@ -574,13 +580,13 @@ export default function ForesightPage() {
         <div className="max-w-7xl mx-auto">
           <FadeUp className="text-center mb-16">
             <p className="text-xs font-semibold tracking-[0.18em] uppercase text-[var(--text-muted)] mb-4">
-              8 COMPONENTS
+              12 SUB-PAGES · 32 FORECAST VISUALS
             </p>
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">
               Forecast. Simulate. Brief. Act.
             </h2>
             <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">
-              From unified forecast timelines to Monte Carlo risk analysis and executive briefings — every tool an operator needs to make forward-looking decisions.
+              From unified forecast timelines to Monte Carlo risk analysis, forecast-driven scheduling and purchasing, and executive briefings — every tool an operator needs to make forward-looking decisions.
             </p>
           </FadeUp>
 
@@ -632,7 +638,7 @@ export default function ForesightPage() {
           <FadeUp className="text-center mb-12">
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">Add Foresight to Your Core Plan</h2>
             <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">
-              Every Foresight plan includes all 8 components. Your Core tier determines how fast, how deep, and how much you can run.
+              Every Foresight plan includes all 12 sub-pages and 32 forecast visuals. Your Core tier determines how fast, how deep, and how much you can run.
             </p>
           </FadeUp>
 
@@ -644,15 +650,21 @@ export default function ForesightPage() {
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-2.5">
                 {[
-                  "Unified Forecast Timeline — 14 to 90 day horizons",
-                  "17 forecast metrics across revenue, labor, cost, and profit",
+                  "Unified Forecast Timeline — 14 to 365 day horizons",
+                  "22 forecast metrics across revenue, labor, cost, and profit",
                   "What-If Scenario Builder with 5 side-by-side comparisons",
                   "Assumption Registry — auto-detected and operator-overridable",
                   "Accuracy Self-Correction with rolling MAPE and bias detection",
                   "Monte Carlo Risk Analysis — 1,000 simulations per period",
                   "Cross-Module Dependency Graph with correlation scoring",
-                  "Executive Briefings powered by Sundae Coach",
+                  "Forecast-Driven Scheduling — labor hours based on predicted demand",
+                  "Forecast-Driven Purchasing — order quantities from demand forecasts",
+                  "Integrated P&L Forecast — revenue through net profit projections",
+                  "Sensitivity Analysis — tornado diagrams for assumption impact",
+                  "Executive Briefings with PDF export, powered by Sundae Coach",
                   "External Signal Integration — weather, events, competitors",
+                  "Advanced Modeler — goal seek, menu impact, multi-location scenarios",
+                  "Forecast annotations and operator notes",
                   "15-minute to monthly forecast granularity",
                   "API access for forecast data",
                 ].map((f) => (

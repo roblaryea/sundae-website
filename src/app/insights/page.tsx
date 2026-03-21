@@ -250,7 +250,7 @@ export default function InsightsPage() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="body-xl text-[var(--text-supporting)] mb-8 max-w-3xl mx-auto"
           >
-            12 specialized modules — revenue, labor, inventory, purchasing, marketing, reservations, profit, delivery, guest experience, CRM, revenue assurance, and cross-intelligence. Each one gives you AI-powered analytics for a specific operational domain.
+            14 specialized modules — revenue, labor, inventory, purchasing, marketing, reservations, profit, delivery, guest experience, CRM, revenue assurance, cross-intelligence, foresight intelligence, and executive summary. Each one gives you AI-powered analytics for a specific operational domain.
           </motion.p>
 
           <motion.div

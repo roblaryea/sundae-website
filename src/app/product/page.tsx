@@ -100,7 +100,7 @@ const pillars: {
     ],
     link: "/insights",
     stat: "179+",
-    statLabel: "data models across 13 domains",
+    statLabel: "data models across 12 domains",
     mockup: InsightsModuleMockup,
   },
   {
@@ -129,12 +129,12 @@ const pillars: {
       "Forward-looking forecasts for revenue, labor, food cost, and profit — with confidence bands, what-if scenarios, and weekly executive briefings. Stop reacting. Start anticipating.",
     icon: "forecasting",
     features: [
-      "14–90 day multi-metric forecasts",
-      "What-if scenario simulator",
-      "Cross-module dependency graphs",
-      "Forecast accuracy self-correction",
-      "Weekly executive briefings",
-      "External signal integration",
+      "14–365 day multi-metric forecasts",
+      "What-if scenario simulator with Monte Carlo",
+      "Forecast-driven labor scheduling & purchasing",
+      "Cross-module cascade forecasting",
+      "Accuracy self-correction with bias detection",
+      "AI executive briefings with PDF export",
     ],
     link: "/product/foresight",
     stat: "91%",
@@ -233,13 +233,13 @@ export default function ProductPage() {
                   <h3 className="text-2xl font-bold text-[var(--text-primary)] mb-2">Sundae Core</h3>
                   <p className="text-sm text-purple-400 font-semibold mb-3">Real-Time Operations & Intelligence</p>
                   <p className="text-[var(--text-supporting)] mb-4 leading-relaxed">
-                    Everything in Report, plus live operations. Intraday pacing, market signals, 12 intelligence modules, and Sundae Coach recommendations.
+                    Everything in Report, plus live operations. Intraday pacing, market signals, 14 intelligence modules, predictive forecasting, and Sundae Coach recommendations.
                   </p>
                   <p className="text-sm font-medium text-[var(--text-primary)] mb-3">Everything in Report, plus:</p>
                   <ul className="text-sm text-[var(--text-supporting)] space-y-1.5 mb-6">
                     <li className="flex items-center gap-2"><span className="text-purple-400">&#10003;</span> Pulse (intraday operations)</li>
                     <li className="flex items-center gap-2"><span className="text-purple-400">&#10003;</span> Watchtower (market intelligence)</li>
-                    <li className="flex items-center gap-2"><span className="text-purple-400">&#10003;</span> 12 Intelligence Modules</li>
+                    <li className="flex items-center gap-2"><span className="text-purple-400">&#10003;</span> 14 Intelligence Modules</li>
                     <li className="flex items-center gap-2"><span className="text-purple-400">&#10003;</span> Foresight (predictive intelligence)</li>
                     <li className="flex items-center gap-2"><span className="text-purple-400">&#10003;</span> Sundae Coach & Playbooks</li>
                   </ul>

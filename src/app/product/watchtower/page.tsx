@@ -30,9 +30,10 @@ const featureBlocks: { title: string; headline: string; description: string; cap
     capabilities: [
       "Track up to 10+ named competitors per outlet",
       "Auto-discover competitors by location, cuisine, and price range",
+      "Competitor menu price tracking — continuous monitoring of pricing changes with magnitude and timing",
       "Daily rating and review monitoring",
       "Review sentiment analysis by theme",
-      "Competitor activity alerts (rating changes, closures, review spikes)",
+      "Competitor activity alerts (rating changes, closures, review spikes, price changes)",
       "12-week competitive trend tracking"
     ],
     icon: "balance",
@@ -61,7 +62,9 @@ const featureBlocks: { title: string; headline: string; description: string; cap
       "New opening and closure detection",
       "Average rating and pricing trends by cuisine segment",
       "Macro economic signals (inflation, consumer confidence)",
-      "Market intelligence signals surfaced proactively"
+      "Market intelligence signals surfaced proactively",
+      "Cross-intelligence cascade — Watchtower signals feed into Foresight assumptions with confidence scoring",
+      "VAT, hotel, and franchise-specific financial visuals"
     ],
     icon: "multiLocation",
     color: "from-orange-500 to-orange-600"
@@ -104,7 +107,7 @@ export default function WatchtowerPage() {
       <PageHero
         badge="Watchtower — External Intelligence Engine"
         title={<>10+ Competitors Tracked Daily.<br />Zero Manual Research.</>}
-        description="Competitor pricing changes. A concert this weekend. Ramadan starts next week. Watchtower synthesizes external signals with your internal data into a daily intelligence briefing — what's happening, why it matters, and what to do about it."
+        description="Competitor pricing changes tracked daily. A concert this weekend. Ramadan starts next week. Watchtower synthesizes external signals with your internal data into a daily intelligence briefing — what's happening, why it matters, and what to do about it. Signals automatically cascade into Foresight assumptions."
       >
         <p className="text-[var(--text-muted)] mb-8 max-w-3xl mx-auto body-lg">
           <strong>Available on Core tiers.</strong> Choose individual intelligence types or the full Watchtower bundle.

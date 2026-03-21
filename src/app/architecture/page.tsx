@@ -113,8 +113,8 @@ export default function ArchitecturePage() {
       {/* Hero Section */}
       <PageHero
         badge="Platform Architecture"
-        title="Five Layers of Intelligence"
-        description="From raw data ingestion to AI-powered decisions — see how Sundae transforms fragmented restaurant data into operational clarity."
+        title="Five-Layer Architecture Stack"
+        description="From raw data ingestion to AI-powered decisions — see how Sundae's technical architecture transforms fragmented restaurant data into six intelligence layers."
       />
 
       {/* Intelligence Stack */}
@@ -125,7 +125,7 @@ export default function ArchitecturePage() {
               The Sundae Intelligence Stack
             </h2>
             <p className="text-[17px] text-[var(--text-secondary)] max-w-3xl mx-auto leading-[1.65]">
-              Five layers that transform raw restaurant data into actionable intelligence
+              Five architecture layers that power six intelligence products
             </p>
           </FadeUp>
 

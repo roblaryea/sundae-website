@@ -23,7 +23,7 @@ import { FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnima
 
 const proofStats = [
   { number: "250+", label: "Locations piloting" },
-  { number: "22", label: "Intelligence modules" },
+  { number: "24+", label: "Production modules" },
   { number: "12", label: "Data domains unified" },
   { number: "5 min", label: "Shift refresh cycle" },
 ];
@@ -355,7 +355,7 @@ export default function HomeContent() {
         </section>
 
         {/* ════════════════════════════════════════════════
-            3. FIVE LAYERS — Platform pillars
+            3. SIX LAYERS — Platform pillars
         ════════════════════════════════════════════════ */}
         <section aria-labelledby="platform-heading" className="py-24 px-4 sm:px-6 lg:px-8 relative">
           <div className="absolute inset-0 bg-mesh" />
@@ -380,8 +380,8 @@ export default function HomeContent() {
               ))}
             </StaggerContainer>
 
-            {/* Bottom row: 2 pillars */}
-            <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-5xl mx-auto">
+            {/* Bottom row: 3 pillars */}
+            <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-5">
               {fiveLayers.slice(3).map((layer) => (
                 <StaggerItem key={layer.name}>
                   <LayerCard layer={layer} cta={cta} />
