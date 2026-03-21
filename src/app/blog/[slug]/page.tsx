@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Script from 'next/script';
 import { Button } from '@/components/ui/Button';
 import { blogPosts } from '@/lib/blogData';
+import { BlogContent } from './BlogContent';
 
 interface BlogPostPageProps {
   params: Promise<{
@@ -51,9 +52,6 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
   };
 
-  // Split content by double newlines to create paragraphs
-  const contentParagraphs = post.content.split('\n\n').filter(para => para.trim());
-
   return (
     <>
       <Script
@@ -90,44 +88,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           </header>
 
           {/* Content */}
-          <div className="prose prose-lg max-w-none">
-            {contentParagraphs.map((paragraph, index) => {
-              // Check if paragraph is a heading
-              if (paragraph.startsWith('## ')) {
-                return (
-                  <h2 key={index} className="section-h2 text-[var(--text-primary)] mt-12 mb-6">
-                    {paragraph.replace('## ', '')}
-                  </h2>
-                );
-              }
-              
-              // Check if paragraph is a subheading
-              if (paragraph.startsWith('### ')) {
-                return (
-                  <h3 key={index} className="section-h3 text-[var(--text-primary)] mt-8 mb-4">
-                    {paragraph.replace('### ', '')}
-                  </h3>
-                );
-              }
-
-              // Check if paragraph contains bold markdown (**text**)
-              const processedParagraph = paragraph
-                .split(/(\*\*[^*]+\*\*)/)
-                .map((part, i) => {
-                  if (part.startsWith('**') && part.endsWith('**')) {
-                    return <strong key={i}>{part.slice(2, -2)}</strong>;
-                  }
-                  return part;
-                });
-
-              // Regular paragraph
-              return (
-                <p key={index} className="body-base text-[var(--text-secondary)] mb-6 leading-relaxed">
-                  {processedParagraph}
-                </p>
-              );
-            })}
-          </div>
+          <BlogContent content={post.content} />
 
           {/* Footer */}
           <footer className="mt-16 pt-8 border-t border-[var(--border-default)]">
