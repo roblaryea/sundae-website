@@ -1,9 +1,111 @@
 {
+  "audiences": [
+    {
+      "answer": "Performance Report gives you a ready-made weekly review with 6 tabs and AI insights. Pulse monitors every shift in real-time. Sundae Intelligence lets you ask any question in plain English. No spreadsheets, no waiting.",
+      "pain": "I have data in five different systems. I make most decisions on gut feel because pulling reports takes hours.",
+      "persona": "Restaurant Owner / GM"
+    },
+    {
+      "answer": "Pulse Wallboard shows every outlet on one screen with auto-rotating TV mode. Portfolio Leaderboard ranks outlets by revenue, target %, labor %, with streak tracking. Exception Hub consolidates all 8 alert types across all locations. Benchmark shows how each outlet compares to peers.",
+      "pain": "I manage 15 outlets and can't be everywhere. I only find out about problems in the weekly P&L.",
+      "persona": "Multi-Unit Operator"
+    },
+    {
+      "answer": "Pulse AI Coach delivers shift-scoped coaching signals with confidence levels and talking points. Playbooks codify best-practice responses. Exception alerts catch what managers miss. Scorecard provides end-of-shift accountability.",
+      "pain": "Our best managers recover slow shifts. Our worst managers watch them happen.",
+      "persona": "Operations Manager"
+    },
+    {
+      "answer": "12 Insights modules deliver domain-specific analytics with Module Health Scores. Profit Intelligence combines labor + inventory for prime cost and break-even analysis. Revenue Assurance flags void, discount, and cash anomalies. Benchmark provides industry positioning with RevPASH percentile rankings.",
+      "pain": "I spend 3 days assembling monthly reports from different systems to understand what happened.",
+      "persona": "F&B CFO / Finance"
+    },
+    {
+      "answer": "Decision Intelligence platform — not a point solution. Spans 12 data domains across 6 intelligence layers with 16 Pulse sub-pages, 12 Insights modules, 7 Benchmark sections, 4 Watchtower sections. AI layer with 15 routes and conversational data access. Network-effect benchmarking. 179+ data models, 200+ services. No competitor plays in Decision Intelligence for restaurants.",
+      "pain": "How is this different from Toast Analytics or Restaurant365?",
+      "persona": "Investor / VC"
+    },
+    {
+      "answer": "Report Lite starts at $0 with performance reports, 400 AI credits, and document ingestion. Report Plus at $79/mo adds multi-location and 5 AI seats. Add only the modules you need — Guest Experience starts at $99/mo, Revenue Assurance at $109/mo.",
+      "pain": "I can't afford an enterprise system but I need more than my POS dashboard gives me.",
+      "persona": "Independent Restaurateur"
+    }
+  ],
+  "competitors": [],
   "cta": {
     "primary": "Book a Demo",
     "secondary": "Start Free Trial"
   },
-  "generated_at": "2026-03-24T02:00:03.110Z",
+  "differentiators": [
+    {
+      "description": "Only Decision Intelligence platform spanning 12 data domains, 6 intelligence layers, 12 analytics modules, and conversational AI",
+      "title": "Breadth"
+    },
+    {
+      "description": "Pulse with 16 sub-pages, 8 exception evaluators, and compound detection (death spiral, leakage drag) — no competitor has same-shift intelligence",
+      "title": "Real-time"
+    },
+    {
+      "description": "Benchmark creates a data moat — every new restaurant makes benchmarks more valuable for everyone. This is the STR model that built a $450M business in hotels.",
+      "title": "Network effect"
+    },
+    {
+      "description": "Sundae Intelligence with NL-to-SQL, 10 AI chat modes, 1.1MB prompt library — democratizes data access beyond analysts",
+      "title": "Conversational AI"
+    },
+    {
+      "description": "$0 free tier to $349+ enterprise with 12 purchasable modules and 6 bundles — operators buy what they need, expand as they grow",
+      "title": "Modular pricing"
+    }
+  ],
+  "featureHighlights": [
+    {
+      "bullets": [
+        "6 report tabs (Overview, Revenue Mix, Category Performance, Tender Mix, Daypart Analysis, Guest Counting)",
+        "Interactive charts (area, bar, pie, line, radial bar)",
+        "Multi-restaurant selector with segment filtering",
+        "Date range comparison (vs. last year, last month, custom)"
+      ],
+      "name": "Performance Report",
+      "tagline": "Stop assembling spreadsheets. Your weekly review is already done."
+    },
+    {
+      "bullets": [
+        "Hero pace bar with adaptive AI targets and hourly breakdown",
+        "Active staff tracking with SPLH and break compliance",
+        "Bottleneck detection across KITCHEN/HOST/POS zones",
+        "Void/refund/discount/comp anomaly detection with per-employee patterns"
+      ],
+      "name": "Pulse",
+      "tagline": "Every shift managed. Every anomaly caught. Every action guided."
+    },
+    {
+      "bullets": [
+        "RevPASH, Seat Occupancy, Average Check, Total Revenue with compset median and percentile rankings",
+        "Financial, Operational, Space & Rent, Revenue Mix, Daypart Heatmap tabs",
+        "4W/8W/12W period selector with your-line vs. compset median and P25-P75 band",
+        "AI-driven predictive analytics (Forecast)"
+      ],
+      "name": "Benchmark",
+      "tagline": "Stop guessing how you compare. Know your exact position against peers."
+    },
+    {
+      "bullets": [
+        "AI-generated morning briefing with context KPI strip (weather/events/revenue)",
+        "Prioritized action items and unified signal feed",
+        "Google Places competitor discovery with configurable radius",
+        "Competitor tracking with ratings history and review themes"
+      ],
+      "name": "Watchtower",
+      "tagline": "Your morning briefing knows about the concert next door, the weather change, and what your competitor just did."
+    },
+    {
+      "bullets": [],
+      "name": "Insights",
+      "tagline": "Twelve operational blind spots. Twelve intelligence modules. Each one pays for itself."
+    }
+  ],
+  "generated_at": "2026-03-24T09:33:48.067Z",
   "hero": {
     "bullets": [
       "Ingests 12 operational data domains",
