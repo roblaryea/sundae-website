@@ -121,7 +121,7 @@ export default function ScoutPage() {
 
           <p className="text-center text-sm text-[var(--text-muted)] mt-8">
             <Link href="/integrations" className="hover:text-[var(--text-secondary)] transition-colors underline underline-offset-2">
-              See all 30+ integrations &rarr;
+              See all 80+ integrations &rarr;
             </Link>
           </p>
         </div>

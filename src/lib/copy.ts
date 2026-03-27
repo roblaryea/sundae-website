@@ -170,7 +170,7 @@ export const PROOF_POINTS = {
     customers: "Used by 500+ restaurant brands",
     locations: "Powering 10,000+ locations globally",
     dataPoints: "Processing 50M+ data points daily",
-    integrations: "50+ platform integrations"
+    integrations: "80+ platform integrations"
   },
   
   // Customer quotes (anonymized templates)

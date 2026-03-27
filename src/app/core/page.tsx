@@ -377,7 +377,7 @@ export default function CoreProductPage() {
                 Connect All Your Systems
               </h2>
               <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">
-                Core connects across 12 data domains with 30+ vendor integrations.
+                Core connects across 12 data domains with 80+ vendor integrations.
               </p>
             </div>
           </FadeUp>
