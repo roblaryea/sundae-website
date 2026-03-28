@@ -33,10 +33,11 @@ export const metadata: Metadata = {
   publisher: "Sundae",
   icons: {
     icon: [
-      { url: "/logos/sundae-orb.png", type: "image/png" },
+      { url: "/logos/sundae-orb.png", sizes: "512x512", type: "image/png" },
+      { url: "/logos/sundae-orb-192.png", sizes: "192x192", type: "image/png" },
     ],
     apple: [
-      { url: "/logos/sundae-orb.png", type: "image/png" },
+      { url: "/logos/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
     ],
   },
   manifest: "/site.webmanifest",

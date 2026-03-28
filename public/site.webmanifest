@@ -4,13 +4,19 @@
   "description": "Decision Intelligence Platform for Restaurants",
   "icons": [
     {
-      "src": "/logos/sundae-orb.png",
+      "src": "/logos/sundae-orb-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/logos/sundae-orb.png",
+      "src": "/logos/sundae-orb-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logos/sundae-orb-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
