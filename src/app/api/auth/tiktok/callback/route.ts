@@ -34,7 +34,7 @@ export async function GET(request: NextRequest) {
 </head>
 <body>
   <div class="card">
-    <div class="logo"><img src="/logos/sundae-wordmark.png" alt="Sundae" /></div>
+    <div class="logo"><img src="/logos/sundae-wordmark-white.svg" alt="Sundae" /></div>
     <div class="icon">${success ? '✓' : '✗'}</div>
     <h1>${title}</h1>
     <p>${message}</p>

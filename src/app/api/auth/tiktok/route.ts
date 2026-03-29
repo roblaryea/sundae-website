@@ -46,7 +46,7 @@ function renderConnectPage() {
 </head>
 <body>
   <div class="card">
-    <div class="logo"><img src="/logos/sundae-wordmark.png" alt="Sundae" /></div>
+    <div class="logo"><img src="/logos/sundae-wordmark-white.svg" alt="Sundae" /></div>
     <h1>Connect TikTok</h1>
     <p class="subtitle">Link your TikTok business account to Sundae Marketing</p>
     <div class="input-group">

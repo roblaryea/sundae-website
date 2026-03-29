@@ -230,7 +230,7 @@ const Navbar = () => {
           <Link href="/" className="flex items-center group">
             <div className="relative">
               <Image
-                src="/logos/sundae-wordmark.png"
+                src="/logos/sundae-wordmark-white.svg"
                 alt="Sundae – Decision Intelligence for Restaurants"
                 width={160}
                 height={46}
@@ -553,11 +553,10 @@ const Navbar = () => {
           {/* Drawer Header with Close Button */}
           <div className="flex items-center justify-between px-4 py-4 border-b border-[var(--border-default)] flex-shrink-0">
             <Image
-              src="/logos/sundae-wordmark.png"
+              src="/logos/sundae-wordmark-white.svg"
               alt="Sundae"
               width={130}
               height={38}
-              className="logo-invert"
               style={{ height: '36px', width: 'auto' }}
             />
             <button

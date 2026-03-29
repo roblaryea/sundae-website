@@ -95,7 +95,7 @@ const Footer = () => {
           <div className="col-span-1 sm:col-span-2 md:col-span-4 lg:col-span-2">
             <Link href="/" className="inline-block mb-4" aria-label="Sundae - Return to homepage">
               <Image
-                src="/logos/sundae-wordmark.png"
+                src="/logos/sundae-wordmark-white.svg"
                 alt="Sundae"
                 width={110}
                 height={26}

@@ -110,11 +110,10 @@ export default function SignInPage() {
  <div>
  <Link href="/" aria-label="Sundae home">
  <Image
- src="/logos/sundae-wordmark.png"
+ src="/logos/sundae-wordmark-white.svg"
  alt="Sundae"
  width={140}
  height={40}
- className="invert brightness-200"
  style={{ height: '36px', width: 'auto' }}
  priority
  />
@@ -165,11 +164,10 @@ export default function SignInPage() {
  <div className="lg:hidden flex items-center justify-between px-6 pt-6">
  <Link href="/" aria-label="Sundae home">
  <Image
- src="/logos/sundae-wordmark.png"
+ src="/logos/sundae-wordmark-white.svg"
  alt="Sundae"
  width={120}
  height={34}
- className=""
  style={{ height: '30px', width: 'auto' }}
  priority
  />
