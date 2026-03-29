@@ -99,7 +99,7 @@ const Footer = () => {
                 alt="Sundae"
                 width={110}
                 height={26}
-                className="logo-invert"
+                style={{ height: '26px', width: 'auto' }}
               />
             </Link>
             <p className="text-[var(--text-muted)] mb-5 max-w-xs text-sm leading-relaxed">
