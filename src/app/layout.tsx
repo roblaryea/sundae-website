@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import { Geist, Geist_Mono } from "next/font/google";
-import { cookies } from "next/headers";
+import { cookies, headers } from "next/headers";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
@@ -11,7 +11,12 @@ import { PostHogProvider } from "@/components/PostHogProvider";
 import { CookieConsent } from "@/components/CookieConsent";
 import { ThemeProvider, ThemeScript } from "@/components/ui/ThemeProvider";
 import {
+  WEBSITE_PUBLIC_PATH_HEADER,
+  buildWebsiteAlternateUrls,
   getWebsiteMessages,
+  getLocalizedPathname,
+  normalizeWebsitePathname,
+  parseWebsiteLocaleFromPathname,
   resolveWebsiteLocale,
   type WebsiteMessages,
   websiteLocaleDirection,
@@ -30,16 +35,26 @@ const geistMono = Geist_Mono({
 
 export async function generateMetadata(): Promise<Metadata> {
   const cookieStore = await cookies();
+  const headerStore = await headers();
   const locale = resolveWebsiteLocale(cookieStore);
   const messages = getWebsiteMessages(locale) as WebsiteMessages;
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://sundae.io';
+  const publicPath = headerStore.get(WEBSITE_PUBLIC_PATH_HEADER) || '/';
+  const { pathname: canonicalPath } = parseWebsiteLocaleFromPathname(publicPath);
+  const localizedCanonicalPath = getLocalizedPathname(normalizeWebsitePathname(canonicalPath), locale);
+  const alternates = buildWebsiteAlternateUrls(canonicalPath, baseUrl);
 
   return {
-    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://sundae.io'),
+    metadataBase: new URL(baseUrl),
     title: {
       default: messages.metadata.title,
       template: "%s | Sundae",
     },
     description: messages.metadata.description,
+    alternates: {
+      canonical: localizedCanonicalPath,
+      languages: alternates.languages,
+    },
     keywords: ["restaurant analytics", "decision intelligence", "restaurant benchmarks", "4D intelligence", "restaurant AI", "multi-location restaurants", "F&B analytics"],
     authors: [{ name: "Sundae Team" }],
     creator: "Sundae",
@@ -64,6 +79,7 @@ export async function generateMetadata(): Promise<Metadata> {
       siteName: "Sundae",
       title: messages.metadata.title,
       description: messages.metadata.description,
+      url: new URL(localizedCanonicalPath, baseUrl).toString(),
       images: [
         {
           url: "/logos/sundae-orb.png",

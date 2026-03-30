@@ -33,14 +33,11 @@ export function LocaleProvider({
   initialLocale: WebsiteLocale
   children: ReactNode
 }) {
-  const [locale, setLocaleState] = useState<WebsiteLocale>(() => {
-    if (typeof window === 'undefined') {
-      return initialLocale
-    }
+  const [locale, setLocaleState] = useState<WebsiteLocale>(initialLocale)
 
-    const storedLocale = window.localStorage.getItem(WEBSITE_LOCALE_COOKIE)
-    return storedLocale ? normalizeWebsiteLocale(storedLocale) : initialLocale
-  })
+  useEffect(() => {
+    setLocaleState(initialLocale)
+  }, [initialLocale])
 
   useEffect(() => {
     const dir = websiteLocaleDirection[locale]

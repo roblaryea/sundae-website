@@ -1,5 +1,11 @@
 import { MetadataRoute } from 'next'
-import { blogPosts } from '@/lib/blogData'
+import { getSourceBlogPosts } from '@/lib/blogTranslations'
+import {
+  buildWebsiteAlternateUrls,
+  getLocalizedPathname,
+  normalizeWebsitePathname,
+  websiteLocales,
+} from '@/lib/i18n'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://sundae.io'
@@ -63,21 +69,37 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/tools/multi-location-uplift',
   ]
 
-  // Blog posts
-  const blogPostPages = blogPosts.map((post) => ({
-    url: `${baseUrl}/blog/${post.slug}`,
-    lastModified: new Date(post.date),
-    changeFrequency: 'monthly' as const,
-    priority: 0.6,
-  }))
+  const staticRoutes = [...corePages, ...productPages, ...solutionPages, ...toolPages]
 
-  // Combine all static pages
-  const staticPages = [...corePages, ...productPages, ...solutionPages, ...toolPages].map((route) => ({
-    url: `${baseUrl}${route}`,
-    lastModified: new Date(),
-    changeFrequency: route === '' ? 'weekly' as const : 'monthly' as const,
-    priority: route === '' ? 1.0 : route.startsWith('/product') ? 0.9 : 0.7,
-  }))
+  const staticPages = staticRoutes.flatMap((route) => {
+    const normalizedRoute = normalizeWebsitePathname(route)
+    const alternates = buildWebsiteAlternateUrls(normalizedRoute, baseUrl)
+
+    return websiteLocales.map((locale) => ({
+      url: new URL(getLocalizedPathname(normalizedRoute, locale), baseUrl).toString(),
+      lastModified: new Date(),
+      changeFrequency: normalizedRoute === '/' ? 'weekly' as const : 'monthly' as const,
+      priority: normalizedRoute === '/' ? 1.0 : normalizedRoute.startsWith('/product') ? 0.9 : 0.7,
+      alternates: {
+        languages: alternates.languages,
+      },
+    }))
+  })
+
+  const blogPostPages = getSourceBlogPosts().flatMap((post) => {
+    const blogPath = `/blog/${post.slug}`
+    const alternates = buildWebsiteAlternateUrls(blogPath, baseUrl)
+
+    return websiteLocales.map((locale) => ({
+      url: new URL(getLocalizedPathname(blogPath, locale), baseUrl).toString(),
+      lastModified: new Date(post.date),
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+      alternates: {
+        languages: alternates.languages,
+      },
+    }))
+  })
 
   return [...staticPages, ...blogPostPages]
 }

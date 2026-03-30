@@ -3,9 +3,17 @@ import Link from 'next/link';
 import Script from 'next/script';
 import { cookies } from 'next/headers';
 import { Button } from '@/components/ui/Button';
-import { blogPosts } from '@/lib/blogData';
-import { getLocalizedBlogPost } from '@/lib/blogTranslations';
-import { resolveWebsiteLocale, type WebsiteLocale } from '@/lib/i18n';
+import {
+  getLocalizedBlogPost,
+  getSourceBlogPost,
+  getSourceBlogPosts,
+} from '@/lib/blogTranslations';
+import {
+  buildWebsiteAlternateUrls,
+  getLocalizedPathname,
+  resolveWebsiteLocale,
+  type WebsiteLocale,
+} from '@/lib/i18n';
 import { BlogContent } from './BlogContent';
 
 interface BlogPostPageProps {
@@ -120,6 +128,10 @@ export default async function BlogPostPage({
   const copy = localizedBlogPostPageCopy[locale];
   const post = getLocalizedBlogPost(slug, locale);
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://sundae.io';
+  const localizedBlogPath = getLocalizedPathname('/blog', locale);
+  const localizedPostPath = getLocalizedPathname(`/blog/${slug}`, locale);
+  const localizedDemoPath = getLocalizedPathname('/demo', locale);
+  const englishPostPath = getLocalizedPathname(`/blog/${slug}`, 'en');
 
   if (!post) {
     notFound();
@@ -147,7 +159,7 @@ export default async function BlogPostPage({
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `${baseUrl}/blog/${post.slug}`,
+      '@id': new URL(localizedPostPath, baseUrl).toString(),
     },
     keywords: (post.tags || []).join(', '),
   };
@@ -168,7 +180,7 @@ export default async function BlogPostPage({
       <article className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           {/* Back Button */}
-          <Link href="/blog" className="inline-block mb-8">
+          <Link href={localizedBlogPath} className="inline-block mb-8">
             <Button variant="ghost" size="sm">
               {copy.backToBlog}
             </Button>
@@ -203,7 +215,7 @@ export default async function BlogPostPage({
               <p className="text-[var(--text-supporting)] leading-relaxed mb-6">
                 {copy.unavailableDescription}
               </p>
-              <Link href={`/blog/${post.slug}?lang=en`}>
+              <Link href={englishPostPath}>
                 <Button variant="cta" size="lg">
                   {copy.viewEnglish}
                 </Button>
@@ -214,12 +226,12 @@ export default async function BlogPostPage({
           {/* Footer */}
           <footer className="mt-16 pt-8 border-t border-[var(--border-default)]">
             <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
-              <Link href="/blog">
+              <Link href={localizedBlogPath}>
                 <Button variant="outline-light" size="lg">
                   {copy.backToAllPosts}
                 </Button>
               </Link>
-              <Link href="/demo">
+              <Link href={localizedDemoPath}>
                 <Button variant="primary" size="lg">
                   {copy.seeInAction}
                 </Button>
@@ -238,7 +250,7 @@ export default async function BlogPostPage({
           <p className="body-xl mb-8 opacity-90">
             {copy.ctaDescription}
           </p>
-          <Link href="/demo">
+          <Link href={localizedDemoPath}>
             <Button variant="cta" size="lg">
               {copy.requestDemo}
             </Button>
@@ -252,16 +264,21 @@ export default async function BlogPostPage({
 
 // Generate static params for all blog posts
 export async function generateStaticParams() {
-  return blogPosts.map((post) => ({
+  return getSourceBlogPosts().map((post) => ({
     slug: post.slug,
   }));
 }
 
 // Generate metadata for SEO
-export async function generateMetadata({ params }: BlogPostPageProps) {
+export async function generateMetadata({ params, searchParams }: BlogPostPageProps) {
   const { slug } = await params;
-  const post = blogPosts.find(p => p.slug === slug);
+  const resolvedSearchParams = searchParams ? await searchParams : undefined;
+  const forcedEnglish = resolvedSearchParams?.lang === 'en';
+  const locale = forcedEnglish ? 'en' : resolveWebsiteLocale(await cookies());
+  const post = getLocalizedBlogPost(slug, locale) ?? getSourceBlogPost(slug);
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://sundae.io';
+  const localizedPostPath = getLocalizedPathname(`/blog/${slug}`, locale);
+  const alternates = buildWebsiteAlternateUrls(`/blog/${slug}`, baseUrl);
   
   if (!post) {
     return {
@@ -274,6 +291,10 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
     description: post.summary,
     keywords: post.tags,
     authors: [{ name: 'Sundae Team' }],
+    alternates: {
+      canonical: localizedPostPath,
+      languages: alternates.languages,
+    },
     openGraph: {
       title: post.title,
       description: post.summary,
@@ -281,7 +302,7 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
       publishedTime: post.date,
       authors: ['Sundae Team'],
       tags: post.tags,
-      url: `${baseUrl}/blog/${post.slug}`,
+      url: new URL(localizedPostPath, baseUrl).toString(),
     },
     twitter: {
       card: 'summary_large_image',

@@ -1,16 +1,22 @@
 import type { Metadata } from "next";
 import React from 'react';
 import Link from 'next/link';
+import { cookies } from 'next/headers';
 import { Button } from '@/components/ui/Button';
 import { LeadCaptureForm } from '@/components/marketing/LeadCaptureForm';
 import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
+import { getWebsiteMessages, resolveWebsiteLocale } from '@/lib/i18n';
 import { PRICING_URL } from '@/lib/links';
 
-export const metadata: Metadata = {
-  title: "Book a Demo",
-  description: "See Sundae in action with your own restaurant data. Book a 30-minute demo focused on your numbers, your priorities, and the questions your team needs answered.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = resolveWebsiteLocale(await cookies());
+  const copy = getWebsiteMessages(locale).pages.demo;
+  return {
+    title: copy.metadataTitle,
+    description: copy.metadataDescription,
+  };
+}
 
 export default function DemoPage() {
   const { messages } = useWebsiteI18n();

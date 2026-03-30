@@ -1,11 +1,21 @@
 'use client'
 
-import { websiteLocaleNames, websiteLocales, type WebsiteLocale } from '@/lib/i18n'
+import { usePathname, useRouter, useSearchParams } from 'next/navigation'
+import {
+  WEBSITE_LOCALE_COOKIE,
+  getLocalizedPathname,
+  websiteLocaleDirection,
+  websiteLocaleNames,
+  websiteLocales,
+  type WebsiteLocale,
+} from '@/lib/i18n'
 import { useWebsiteI18n } from './LocaleProvider'
-import { WEBSITE_LOCALE_COOKIE, websiteLocaleDirection } from '@/lib/i18n'
 
 export function LocaleSwitcher() {
   const { locale, setLocale, messages } = useWebsiteI18n()
+  const pathname = usePathname()
+  const router = useRouter()
+  const searchParams = useSearchParams()
 
   return (
     <label className="inline-flex items-center">
@@ -15,12 +25,18 @@ export function LocaleSwitcher() {
         onChange={(event) => {
           const nextLocale = event.target.value as WebsiteLocale
           if (nextLocale === locale) return
+
+          const nextPathname = getLocalizedPathname(pathname, nextLocale)
+          const search = searchParams.toString()
+          const nextUrl = search ? `${nextPathname}?${search}` : nextPathname
+
           setLocale(nextLocale)
           document.documentElement.lang = nextLocale
           document.documentElement.dir = websiteLocaleDirection[nextLocale]
           document.cookie = `${WEBSITE_LOCALE_COOKIE}=${nextLocale}; path=/; max-age=31536000; samesite=lax`
           window.localStorage.setItem(WEBSITE_LOCALE_COOKIE, nextLocale)
-          window.location.reload()
+          router.push(nextUrl)
+          router.refresh()
         }}
         className="rounded-md border border-[var(--border-default)] bg-transparent px-2 py-1 text-xs text-[var(--text-secondary)] outline-none transition-colors hover:text-[var(--text-primary)]"
         aria-label={messages.layout.languageSelector}
