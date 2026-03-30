@@ -14,13 +14,13 @@
     "quality": "npm run lint && npm run qa:blog-copy && npm run qa:blog-locales && npm run qa:page-copy && npm run build"
   },
   "dependencies": {
-    "@sentry/nextjs": "^10.42.0",
+    "@sentry/nextjs": "^10.46.0",
     "@vercel/analytics": "^1.6.1",
-    "framer-motion": "^12.35.1",
+    "framer-motion": "^12.38.0",
     "googleapis": "^168.0.0",
     "lucide-react": "^0.577.0",
-    "next": "^16.1.6",
-    "posthog-js": "^1.359.1",
+    "next": "^16.2.1",
+    "posthog-js": "^1.364.2",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-markdown": "^10.1.0",
@@ -33,7 +33,7 @@
     "@types/react-dom": "^19",
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
-    "eslint-config-next": "^16.1.6",
+    "eslint-config-next": "^16.2.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
