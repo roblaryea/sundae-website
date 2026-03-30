@@ -27,8 +27,6 @@ import { join, relative, resolve } from "node:path";
 const BASE_URL = (
   process.env.SITE_BASE_URL || "http://localhost:3000"
 ).replace(/\/$/, "");
-const MAX_DEPTH = Number(process.env.LINKCHECK_MAX_DEPTH) || 4;
-const MAX_PAGES = Number(process.env.LINKCHECK_MAX_PAGES) || 500;
 const CONCURRENCY = Number(process.env.LINKCHECK_CONCURRENCY) || 8;
 const REQUEST_TIMEOUT_MS = 10_000;
 
@@ -36,55 +34,9 @@ const PROJECT_ROOT = resolve(import.meta.dirname, "..");
 const APP_DIR = join(PROJECT_ROOT, "src", "app");
 const REPORTS_DIR = join(PROJECT_ROOT, "reports");
 
-const SKIP_EXTENSIONS = new Set([
-  ".png", ".jpg", ".jpeg", ".gif", ".svg", ".webp",
-  ".css", ".js", ".mjs", ".cjs",
-  ".ico", ".mp4", ".webm", ".pdf", ".woff", ".woff2", ".ttf", ".eot",
-]);
-
 // ---------------------------------------------------------------------------
 // Helpers
 // ---------------------------------------------------------------------------
-
-function shouldSkipHref(href) {
-  if (!href) return true;
-  if (href.startsWith("#")) return true;
-  if (href.startsWith("mailto:")) return true;
-  if (href.startsWith("tel:")) return true;
-  if (href.startsWith("javascript:")) return true;
-  if (href.startsWith("/_next/")) return true;
-  const lower = href.toLowerCase();
-  for (const ext of SKIP_EXTENSIONS) {
-    if (lower.endsWith(ext)) return true;
-  }
-  return false;
-}
-
-function normalizeUrl(rawHref, pageUrl) {
-  try {
-    const url = new URL(rawHref, pageUrl);
-    const base = new URL(BASE_URL);
-    if (url.origin !== base.origin) return null;
-    url.hash = "";
-    url.search = "";
-    let path = url.pathname.replace(/\/+$/, "") || "/";
-    url.pathname = path;
-    return url.href;
-  } catch {
-    return null;
-  }
-}
-
-/** Extract href values from rendered HTML. */
-function extractHtmlLinks(html) {
-  const hrefs = new Set();
-  const regex = /href\s*=\s*["']([^"']+)["']/gi;
-  let m;
-  while ((m = regex.exec(html)) !== null) {
-    hrefs.add(m[1]);
-  }
-  return [...hrefs];
-}
 
 /** Concurrency pool. */
 function createPool(concurrency) {

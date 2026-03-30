@@ -8,6 +8,17 @@
 import { google } from 'googleapis';
 import { randomUUID } from 'crypto';
 
+type ClickUpSyncStatus = 'pending' | 'success' | 'failed';
+type SheetRow = string[];
+
+function getErrorMessage(error: unknown): string {
+  return error instanceof Error ? error.message : 'Unknown error';
+}
+
+function parseClickUpSyncStatus(value: string | undefined): ClickUpSyncStatus {
+  return value === 'success' || value === 'failed' ? value : 'pending';
+}
+
 /**
  * Get private key with robust handling for multiple formats
  * Prefers GOOGLE_PRIVATE_KEY_B64 (base64 encoded), falls back to GOOGLE_PRIVATE_KEY
@@ -89,7 +100,7 @@ export interface SheetSubmission {
   utm_source: string;
   utm_medium: string;
   utm_campaign: string;
-  clickup_sync_status: 'pending' | 'success' | 'failed';
+  clickup_sync_status: ClickUpSyncStatus;
   clickup_task_id: string;
   clickup_error: string;
   created_at: string;
@@ -136,8 +147,8 @@ async function getSheetsClient() {
 
     const sheets = google.sheets({ version: 'v4', auth });
     return sheets;
-  } catch (error: any) {
-    console.error('[GoogleSheets] Failed to initialize client:', error.message);
+  } catch (error: unknown) {
+    console.error('[GoogleSheets] Failed to initialize client:', getErrorMessage(error));
     throw error;
   }
 }
@@ -162,7 +173,7 @@ export async function appendSubmissionToSheet(
     utmMedium?: string;
     utmCampaign?: string;
   },
-  clickupSyncStatus: 'pending' | 'success' | 'failed' = 'pending',
+  clickupSyncStatus: ClickUpSyncStatus = 'pending',
   clickupTaskId?: string,
   clickupError?: string
 ): Promise<{ submissionId: string; rowNumber: number }> {
@@ -216,8 +227,8 @@ export async function appendSubmissionToSheet(
     console.log(`[GoogleSheets] Submission saved: ${submissionId} at row ${rowNumber}`);
 
     return { submissionId, rowNumber };
-  } catch (error: any) {
-    console.error('[GoogleSheets] Failed to append row:', error.message);
+  } catch (error: unknown) {
+    console.error('[GoogleSheets] Failed to append row:', getErrorMessage(error));
     throw error;
   }
 }
@@ -227,7 +238,7 @@ export async function appendSubmissionToSheet(
  */
 export async function updateSubmissionInSheet(
   submissionId: string,
-  clickupSyncStatus: 'pending' | 'success' | 'failed',
+  clickupSyncStatus: ClickUpSyncStatus,
   clickupTaskId?: string,
   clickupError?: string
 ): Promise<void> {
@@ -266,8 +277,8 @@ export async function updateSubmissionInSheet(
     });
 
     console.log(`[GoogleSheets] Updated submission ${submissionId} at row ${rowNumber}`);
-  } catch (error: any) {
-    console.error('[GoogleSheets] Failed to update row:', error.message);
+  } catch (error: unknown) {
+    console.error('[GoogleSheets] Failed to update row:', getErrorMessage(error));
     throw error;
   }
 }
@@ -289,10 +300,10 @@ export async function getFailedSubmissionsFromSheet(): Promise<SheetSubmission[]
       range: 'Sheet1!A2:T', // Skip header row
     });
 
-    const rows = response.data.values || [];
+    const rows = (response.data.values ?? []) as SheetRow[];
     const failedSubmissions: SheetSubmission[] = [];
 
-    for (const row of rows as any[]) {
+    for (const row of rows) {
       const clickupSyncStatus = row[16]; // Column Q
       if (clickupSyncStatus === 'failed' || clickupSyncStatus === 'pending') {
         failedSubmissions.push({
@@ -312,7 +323,7 @@ export async function getFailedSubmissionsFromSheet(): Promise<SheetSubmission[]
           utm_source: row[13] || '',
           utm_medium: row[14] || '',
           utm_campaign: row[15] || '',
-          clickup_sync_status: (row[16] as any) || 'pending',
+          clickup_sync_status: parseClickUpSyncStatus(row[16]),
           clickup_task_id: row[17] || '',
           clickup_error: row[18] || '',
           created_at: row[19] || '',
@@ -321,8 +332,8 @@ export async function getFailedSubmissionsFromSheet(): Promise<SheetSubmission[]
     }
 
     return failedSubmissions;
-  } catch (error: any) {
-    console.error('[GoogleSheets] Failed to get failed submissions:', error.message);
+  } catch (error: unknown) {
+    console.error('[GoogleSheets] Failed to get failed submissions:', getErrorMessage(error));
     throw error;
   }
 }
@@ -381,10 +392,10 @@ export async function testGoogleSheetsConnection(): Promise<{
       sheetId: spreadsheetId,
       rowCount,
     };
-  } catch (error: any) {
+  } catch (error: unknown) {
     return {
       ok: false,
-      error: error.message || 'Connection failed',
+      error: getErrorMessage(error),
     };
   }
 }

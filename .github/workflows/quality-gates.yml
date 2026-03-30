@@ -8,7 +8,7 @@ on:
 
 jobs:
   quality:
-    name: Lint & Build
+    name: Lint, Blog QA, Page QA & Build
     runs-on: ubuntu-latest
 
     steps:
@@ -27,6 +27,12 @@ jobs:
 
       - name: Lint
         run: npm run lint
+
+      - name: Blog copy QA
+        run: npm run qa:blog-copy
+
+      - name: Page copy QA
+        run: npm run qa:page-copy
 
       - name: Build
         run: npm run build

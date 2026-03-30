@@ -3,7 +3,6 @@
 import {
   Brain,
   LineChart,
-  Radar,
   Target,
   Sparkles,
   Activity,
@@ -16,7 +15,6 @@ import {
   MapPinned,
   ShieldCheck,
   TrendingUp,
-  TrendingDown,
   Clock3,
   Bell,
   Settings2,

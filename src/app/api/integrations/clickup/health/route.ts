@@ -1,10 +1,18 @@
 import { NextResponse } from 'next/server';
 import { testClickUpHealth } from '@/lib/clickupClient';
 
+interface ClickUpHealthResponse {
+  ok: boolean;
+  timestamp: string;
+  latencyMs?: number;
+  error?: string;
+  statusCode: number;
+}
+
 // Cache health check results for 60 seconds to avoid hammering ClickUp API
 let cachedResult: {
   timestamp: number;
-  response: any;
+  response: ClickUpHealthResponse;
 } | null = null;
 
 const CACHE_TTL_MS = 60 * 1000; // 60 seconds
@@ -69,11 +77,11 @@ export async function GET(request: Request) {
     return NextResponse.json(response, { 
       status: healthCheck.ok ? 200 : 503 
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     const response = {
       ok: false,
       timestamp: new Date().toISOString(),
-      error: 'Health check failed: ' + (error.message || 'Unknown error'),
+      error: `Health check failed: ${error instanceof Error ? error.message : 'Unknown error'}`,
       statusCode: 500,
     };
 

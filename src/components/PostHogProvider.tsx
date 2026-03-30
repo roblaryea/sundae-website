@@ -8,13 +8,11 @@ import { hasConsent } from "@/components/CookieConsent";
 export function PostHogProvider({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
-  const [consentGiven, setConsentGiven] = useState(false);
+  const [consentGiven, setConsentGiven] = useState(() => hasConsent());
 
   // Listen for consent changes
   useEffect(() => {
-    // Check on mount
-    if (hasConsent()) {
-      setConsentGiven(true);
+    if (consentGiven) {
       initPostHog();
     }
 
@@ -28,7 +26,7 @@ export function PostHogProvider({ children }: { children: React.ReactNode }) {
 
     window.addEventListener("sundae_consent_change", handler);
     return () => window.removeEventListener("sundae_consent_change", handler);
-  }, []);
+  }, [consentGiven]);
 
   // Track page views only if consent is given
   useEffect(() => {

@@ -7,7 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "linkcheck": "node scripts/linkcheck.mjs"
+    "linkcheck": "node scripts/linkcheck.mjs",
+    "qa:blog-copy": "node scripts/qa-blog-copy.mjs",
+    "qa:page-copy": "node scripts/qa-page-copy.mjs",
+    "quality": "npm run lint && npm run qa:blog-copy && npm run qa:page-copy && npm run build"
   },
   "dependencies": {
     "@sentry/nextjs": "^10.42.0",

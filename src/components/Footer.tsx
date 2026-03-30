@@ -6,57 +6,46 @@ import { Button } from './ui/Button';
 import { useCta } from '@/lib/cta';
 import { PRICING_URL } from '@/lib/links';
 import { SIGNUP_URL } from '@/lib/urls';
+import { useWebsiteI18n } from './i18n/LocaleProvider';
+import { LocaleSwitcher } from './i18n/LocaleSwitcher';
+
+type FooterLink = {
+  name: string;
+  href: string;
+  description?: string;
+};
+
+type FooterResourceLink = FooterLink & {
+  tracked?: boolean;
+};
 
 const Footer = () => {
+  const { messages } = useWebsiteI18n();
+  const footer = messages.footer;
+  const nav = messages.navbar;
   const cta = useCta();
   const currentYear = new Date().getFullYear();
 
   const pillarLinks = [
-    { name: 'Pulse', href: '/product/pulse' },
-    { name: 'Benchmarks', href: '/benchmarking' },
-    { name: 'Watchtower', href: '/product/watchtower' },
-    { name: 'Insights', href: '/insights' },
-    { name: 'Sundae Intelligence', href: '/intelligence' },
+    ...nav.pillars.slice(0, 5).map((item) => ({ name: item.name, href: item.href })),
   ];
 
   const planLinks = [
-    { name: 'Sundae Report', href: '/report' },
-    { name: 'Sundae Core', href: '/core' },
-    { name: 'Compare Plans', href: '/report-vs-core' },
+    ...nav.plansList.map((item) => ({ name: item.name, href: item.href })),
+    { name: nav.comparePlans.replace(' →', ''), href: '/report-vs-core' },
   ];
 
-  const solutionsBySegment = [
-    { name: 'Multi-location Restaurants', href: '/solutions/multi-location-groups' },
-    { name: 'Franchises', href: '/solutions/franchises' },
-    { name: 'Cloud Kitchens', href: '/solutions/cloud-kitchens' },
-    { name: 'Hospitality Groups', href: '/solutions/hospitality-operators' },
+  const solutionsBySegment: ReadonlyArray<FooterLink> = nav.solutionsSegments;
+
+  const solutionsByRole: ReadonlyArray<FooterLink> = nav.solutionsRoles;
+
+  const resourceLinks: ReadonlyArray<FooterResourceLink> = [
+    ...nav.resourcesList.slice(0, 4).map((item) => ({ name: item.name, href: item.href })),
+    { name: nav.resourcesList[4].name, href: nav.resourcesList[4].href, tracked: true },
+    ...footer.extraResources,
   ];
 
-  const solutionsByRole = [
-    { name: 'Operations Leaders', href: '/solutions/regional-managers' },
-    { name: 'Finance & FP&A', href: '/solutions/finance-teams' },
-    { name: 'Marketing Teams', href: '/solutions/marketing-teams' },
-    { name: 'C-Suite & Owners', href: '/solutions/c-suite-executives' },
-    { name: 'Data & Technology', href: '/solutions/technology-teams' },
-    { name: 'People & HR', href: '/solutions/hr-teams' },
-  ];
-
-  const resourceLinks = [
-    { name: 'Blog', href: '/blog' },
-    { name: 'Documentation', href: '/docs' },
-    { name: 'Case Studies', href: '/resources' },
-    { name: 'FAQ', href: '/faq' },
-    { name: 'Free Tools', href: '/tools', tracked: true },
-    { name: 'Getting Started', href: '/getting-started' },
-  ];
-
-  const companyLinks = [
-    { name: 'About', href: '/about' },
-    { name: 'Careers', href: '/careers' },
-    { name: 'Contact', href: '/contact' },
-    { name: 'Security', href: '/security' },
-    { name: 'Integrations', href: '/integrations' },
-  ];
+  const companyLinks: ReadonlyArray<FooterLink> = footer.companyLinks;
 
   return (
     <footer className="bg-[var(--navy-deep)] text-[var(--text-primary)]" role="contentinfo">
@@ -64,10 +53,10 @@ const Footer = () => {
       <div className="border-b border-[var(--border-default)]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
           <h2 className="text-2xl md:text-3xl font-bold text-[var(--text-primary)] mb-3 tracking-tight">
-            Ready to see what you&apos;re missing?
+            {footer.readyTitle}
           </h2>
           <p className="text-[var(--text-muted)] mb-8 max-w-xl mx-auto text-base">
-            Join operators who have moved from guessing to knowing.
+            {footer.readyDescription}
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Button
@@ -75,14 +64,14 @@ const Footer = () => {
               size="lg"
               onClick={() => cta("/demo", "book_demo_footer", { location: "footer" })}
             >
-              Book a Demo
+              {footer.bookDemo}
             </Button>
             <Button
               variant="outline-light"
               size="lg"
               href={SIGNUP_URL}
             >
-              Start Free with Report
+              {footer.startFree}
             </Button>
           </div>
         </div>
@@ -103,14 +92,14 @@ const Footer = () => {
               />
             </Link>
             <p className="text-[var(--text-muted)] mb-5 max-w-xs text-sm leading-relaxed">
-              Decision intelligence for restaurants. Understand performance, predict what&apos;s next, and act with confidence.
+              {footer.brandDescription}
             </p>
             <div className="flex items-center gap-3 text-[var(--text-muted)] text-xs mb-5">
-              <span>Global</span>
+              <span>{footer.global}</span>
               <span className="text-[var(--text-faint)]">·</span>
-              <span>All currencies</span>
+              <span>{footer.allCurrencies}</span>
               <span className="text-[var(--text-faint)]">·</span>
-              <span>English</span>
+              <LocaleSwitcher />
             </div>
             {/* Social Links */}
             <div className="flex items-center gap-3">
@@ -141,7 +130,7 @@ const Footer = () => {
 
           {/* Products Column */}
           <div>
-            <h3 className="text-[11px] font-semibold tracking-[0.12em] uppercase text-[var(--text-muted)] mb-3">Product</h3>
+            <h3 className="text-[11px] font-semibold tracking-[0.12em] uppercase text-[var(--text-muted)] mb-3">{footer.sectionProduct}</h3>
             <ul className="space-y-2">
               {pillarLinks.map((link) => (
                 <li key={link.name}>
@@ -162,7 +151,7 @@ const Footer = () => {
               ))}
               <li>
                 <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
-                  Pricing
+                  {footer.pricing}
                 </a>
               </li>
             </ul>
@@ -170,7 +159,7 @@ const Footer = () => {
 
           {/* Solutions Column */}
           <div>
-            <h3 className="text-[11px] font-semibold tracking-[0.12em] uppercase text-[var(--text-muted)] mb-3">Solutions</h3>
+            <h3 className="text-[11px] font-semibold tracking-[0.12em] uppercase text-[var(--text-muted)] mb-3">{footer.sectionSolutions}</h3>
             <ul className="space-y-2">
               {solutionsBySegment.map((link) => (
                 <li key={link.name}>
@@ -194,7 +183,7 @@ const Footer = () => {
 
           {/* Resources & Company */}
           <div>
-            <h3 className="text-[11px] font-semibold tracking-[0.12em] uppercase text-[var(--text-muted)] mb-3">Resources</h3>
+            <h3 className="text-[11px] font-semibold tracking-[0.12em] uppercase text-[var(--text-muted)] mb-3">{footer.sectionResources}</h3>
             <ul className="space-y-2">
               {resourceLinks.map((link) => (
                 <li key={link.name}>
@@ -214,7 +203,7 @@ const Footer = () => {
               ))}
             </ul>
             <div className="border-t border-[var(--border-default)] my-3"></div>
-            <h3 className="text-[11px] font-semibold tracking-[0.12em] uppercase text-[var(--text-muted)] mb-3">Company</h3>
+            <h3 className="text-[11px] font-semibold tracking-[0.12em] uppercase text-[var(--text-muted)] mb-3">{footer.sectionCompany}</h3>
             <ul className="space-y-2">
               {companyLinks.map((link) => (
                 <li key={link.name}>
@@ -231,14 +220,14 @@ const Footer = () => {
         <div className="border-t border-[var(--border-default)] mt-12 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-3">
             <p className="text-[var(--text-muted)] text-sm text-center md:text-left">
-              &copy; {currentYear} Sundae. All rights reserved.
+              &copy; {currentYear} Sundae. {footer.copyrightSuffix}
             </p>
             <div className="flex items-center gap-5 text-xs">
               <Link href="/privacy" className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors">
-                Privacy
+                {footer.privacy}
               </Link>
               <Link href="/terms" className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors">
-                Terms
+                {footer.terms}
               </Link>
             </div>
           </div>

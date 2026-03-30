@@ -48,13 +48,14 @@ function dispatchConsentEvent(status: ConsentStatus) {
 }
 
 export function CookieConsent() {
-  const [visible, setVisible] = useState(false);
+  const [visible, setVisible] = useState(() => {
+    if (typeof window === "undefined") return false;
+    return getConsentStatus() === null;
+  });
 
   useEffect(() => {
     const status = getConsentStatus();
-    if (status === null) {
-      setVisible(true);
-    } else if (status === "accepted") {
+    if (status === "accepted") {
       // Already accepted — ensure analytics are loaded
       loadGA4();
       dispatchConsentEvent("accepted");

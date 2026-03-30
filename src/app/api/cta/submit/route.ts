@@ -2,11 +2,9 @@ import { NextRequest, NextResponse } from 'next/server';
 import { randomUUID } from 'crypto';
 import { 
   saveSubmissionUnified, 
-  updateSubmissionUnified, 
-  checkStorageHealth,
-  getMissingGoogleSheetsConfig 
+  checkStorageHealth
 } from '@/lib/unifiedSubmissionStore';
-import { createClickUpTask } from '@/lib/clickupClient';
+import { createClickUpTask, type ClickUpTaskPayload } from '@/lib/clickupClient';
 
 // Force Node.js runtime (required for crypto and Google Auth)
 export const runtime = 'nodejs';
@@ -70,6 +68,10 @@ function getMissingClickUpConfig(): string[] {
   if (!process.env.CLICKUP_API_TOKEN) missing.push('CLICKUP_API_TOKEN');
   if (!process.env.CLICKUP_LIST_ID) missing.push('CLICKUP_LIST_ID');
   return missing;
+}
+
+function getErrorMessage(error: unknown): string {
+  return error instanceof Error ? error.message : 'Unknown error';
 }
 
 export async function POST(request: NextRequest) {
@@ -230,8 +232,8 @@ export async function POST(request: NextRequest) {
           id: submission.id,
           type: submission.storageType,
         });
-      } catch (storageErr: any) {
-        console.error(`[${requestId}] Storage also failed:`, storageErr.message);
+      } catch (storageErr: unknown) {
+        console.error(`[${requestId}] Storage also failed:`, getErrorMessage(storageErr));
       }
 
       // Return success to user - we at least tried to store it
@@ -276,7 +278,7 @@ ${message}
     `.trim();
 
     // Prepare ClickUp task payload
-    const taskPayload: Record<string, unknown> = {
+    const taskPayload: ClickUpTaskPayload = {
       name: `${ctaLabel || 'Website Lead'} – ${name}`,
       description,
       priority: 3,
@@ -363,10 +365,11 @@ ${message}
       } else {
         console.log(`[${requestId}] Saved to storage (${submission.storageType}): ${submission.id}`);
       }
-    } catch (storageErr: any) {
+    } catch (storageErr: unknown) {
       // This should never happen with the new best-effort storage, but handle it anyway
-      storageWarning = `Storage exception: ${storageErr.message}`;
-      console.error(`[${requestId}] [STORAGE_ERROR] Unexpected storage failure:`, storageErr.message);
+      const storageErrorMessage = getErrorMessage(storageErr);
+      storageWarning = `Storage exception: ${storageErrorMessage}`;
+      console.error(`[${requestId}] [STORAGE_ERROR] Unexpected storage failure:`, storageErrorMessage);
     }
 
     // =========================================

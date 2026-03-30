@@ -2,6 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
+import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 
 /* ─── Mockup Frame Shell ─── */
 
@@ -188,10 +189,11 @@ export function MockupAlert({ type = "info", children }: MockupAlertProps) {
 
 // Live indicator dot
 export function MockupLiveDot({ className = "" }: { className?: string }) {
+  const { locale } = useWebsiteI18n();
   return (
     <span className={`inline-flex items-center gap-1.5 text-[10px] text-[var(--text-muted)] ${className}`}>
       <span className="animate-live-dot" />
-      LIVE
+      {locale === "ar" ? "مباشر" : locale === "fr" ? "EN DIRECT" : locale === "es" ? "EN VIVO" : "LIVE"}
     </span>
   );
 }
@@ -200,29 +202,50 @@ export function MockupLiveDot({ className = "" }: { className?: string }) {
 
 // Pulse Dashboard — the hero mockup
 export function PulseDashboardMockup() {
+  const { locale } = useWebsiteI18n();
+  const label = locale === "ar" ? "Pulse — وتيرة المبيعات" : locale === "fr" ? "Pulse - Rythme des ventes" : locale === "es" ? "Pulse - Ritmo de ventas" : "Pulse — Sales Pacing";
+  const live = locale === "ar" ? "مباشر" : locale === "fr" ? "EN DIRECT" : locale === "es" ? "EN VIVO" : "LIVE";
+  const updatedAt = locale === "ar" ? "الثلاثاء، 7:42 مساءً" : locale === "fr" ? "Mardi, 19:42" : locale === "es" ? "Martes, 7:42 PM" : "Tuesday, 7:42 PM";
+  const revenue = locale === "ar" ? "الايراد" : locale === "fr" ? "Revenu" : locale === "es" ? "Ingresos" : "Revenue";
+  const covers = locale === "ar" ? "الضيوف" : locale === "fr" ? "Couverts" : locale === "es" ? "Cubiertos" : "Covers";
+  const avgCheck = locale === "ar" ? "متوسط الفاتورة" : locale === "fr" ? "Ticket moyen" : locale === "es" ? "Ticket medio" : "Avg Check";
+  const labor = locale === "ar" ? "العمالة %" : locale === "fr" ? "Main-d'oeuvre %" : locale === "es" ? "% Labor" : "Labor %";
+  const paceLabel = locale === "ar" ? "وتيرة الايراد" : locale === "fr" ? "Rythme du revenu" : locale === "es" ? "Ritmo de ingresos" : "Revenue Pace";
+  const headers = locale === "ar" ? ["الموظف", "المبيعات", "نسبة البيع الاضافي", "متوسط الفاتورة"] : locale === "fr" ? ["Serveur", "Ventes", "Ventes additionnelles %", "Ticket moyen"] : locale === "es" ? ["Mesero", "Ventas", "Venta adicional %", "Ticket medio"] : ["Server", "Sales", "Upsell %", "Avg Check"];
+  const coachAlert = locale === "ar"
+    ? "معدل البيع الاضافي لدى James K. اقل بـ 14 نقطة عن متوسط الوردية. فكر في إقرانه مع Sarah للطلبتين القادمتين."
+    : locale === "fr"
+      ? "Le taux de vente additionnelle de James K. est 14 points sous la moyenne du service. Pensez a le faire travailler avec Sarah pour les 2 prochaines tables."
+      : locale === "es"
+        ? "La tasa de venta adicional de James K. esta 14 puntos por debajo del promedio del turno. Considera emparejarlo con Sarah para las proximas 2 mesas."
+        : "James K. upsell rate is 14pp below shift average. Consider pairing with Sarah for the next 2 tables.";
+
   return (
-    <MockupFrame label="Pulse — Sales Pacing" glow>
+    <MockupFrame label={label} glow>
       <div className="space-y-4">
         {/* Live indicator */}
         <div className="flex items-center justify-between">
-          <MockupLiveDot />
-          <span className="text-[10px] text-[var(--text-muted)] font-mono">Tuesday, 7:42 PM</span>
+          <span className="inline-flex items-center gap-1.5 text-[10px] text-[var(--text-muted)]">
+            <span className="animate-live-dot" />
+            {live}
+          </span>
+          <span className="text-[10px] text-[var(--text-muted)] font-mono">{updatedAt}</span>
         </div>
 
         {/* KPI row */}
         <div className="grid grid-cols-4 gap-3">
-          <MockupKPI label="Revenue" value="$14,280" trend="+12% vs target" trendUp />
-          <MockupKPI label="Covers" value="287" trend="+12 vs plan" trendUp color="#22C55E" />
-          <MockupKPI label="Avg Check" value="$49.50" trend="-2.1%" trendUp={false} color="#FBBF24" />
-          <MockupKPI label="Labor %" value="28.4%" trend="Under 30% target" trendUp color="#22C55E" />
+          <MockupKPI label={revenue} value="$14,280" trend={locale === "ar" ? "+12% مقابل الهدف" : locale === "fr" ? "+12% vs objectif" : locale === "es" ? "+12% vs objetivo" : "+12% vs target"} trendUp />
+          <MockupKPI label={covers} value="287" trend={locale === "ar" ? "+12 مقابل الخطة" : locale === "fr" ? "+12 vs plan" : locale === "es" ? "+12 vs plan" : "+12 vs plan"} trendUp color="#22C55E" />
+          <MockupKPI label={avgCheck} value="$49.50" trend="-2.1%" trendUp={false} color="#FBBF24" />
+          <MockupKPI label={labor} value="28.4%" trend={locale === "ar" ? "اقل من 30% هدف" : locale === "fr" ? "Sous l objectif 30%" : locale === "es" ? "Bajo objetivo 30%" : "Under 30% target"} trendUp color="#22C55E" />
         </div>
 
         {/* Pace bar */}
-        <MockupPaceBar label="Revenue Pace" current={14280} target={18200} unit="$" />
+        <MockupPaceBar label={paceLabel} current={14280} target={18200} unit="$" />
 
         {/* Server table */}
         <MockupTable
-          headers={["Server", "Sales", "Upsell %", "Avg Check"]}
+          headers={headers}
           rows={[
             ["Sarah M.", "$2,840", "32%", "$52.10"],
             ["Marcus J.", "$2,410", "28%", "$48.20"],
@@ -232,7 +255,7 @@ export function PulseDashboardMockup() {
 
         {/* Coach signal */}
         <MockupAlert type="coach">
-          James K. upsell rate is 14% below shift average. Consider pairing with Sarah for the next 2 tables.
+          {coachAlert}
         </MockupAlert>
       </div>
     </MockupFrame>

@@ -4,6 +4,8 @@ import { useState, FormEvent } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FormField } from '@/components/auth/FormField';
+import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
+import type { WebsiteLocale } from '@/lib/i18n';
 import { APP_URL, SIGNIN_URL, SIGNUP_URL } from '@/lib/urls';
 
 /* ---------------------------------------------------------------
@@ -14,6 +16,41 @@ const ENABLE_SSO = false;
 // and remove the redirect-to-app fallback in handleSubmit.
 const AUTH_API_URL: string | null = null;
 
+const localizedShellCopy: Record<
+ WebsiteLocale,
+ {
+  homeLabel: string;
+  productShotAlt: string;
+  ssoDivider: string;
+  redirectedToApp: string;
+ }
+> = {
+ en: {
+  homeLabel: 'Sundae home',
+  productShotAlt: 'Sundae Core dashboard',
+  ssoDivider: 'or',
+  redirectedToApp: "You'll be redirected to",
+ },
+ ar: {
+  homeLabel: 'الصفحة الرئيسية لـ Sundae',
+  productShotAlt: 'لوحة تحكم Sundae Core',
+  ssoDivider: 'أو',
+  redirectedToApp: 'سيتم تحويلك إلى',
+ },
+ fr: {
+  homeLabel: 'Accueil Sundae',
+  productShotAlt: 'Tableau de bord Sundae Core',
+  ssoDivider: 'ou',
+  redirectedToApp: 'Vous serez redirigé vers',
+ },
+ es: {
+  homeLabel: 'Inicio de Sundae',
+  productShotAlt: 'Panel de Sundae Core',
+  ssoDivider: 'o',
+  redirectedToApp: 'Serás redirigido a',
+ },
+};
+
 /* ---------------------------------------------------------------
  Helpers
  --------------------------------------------------------------- */
@@ -21,6 +58,9 @@ const AUTH_API_URL: string | null = null;
  Page
  --------------------------------------------------------------- */
 export default function SignInPage() {
+ const { messages, locale } = useWebsiteI18n();
+ const copy = messages.pages.signIn;
+ const shellCopy = localizedShellCopy[locale];
  const [email, setEmail] = useState('');
  const [password, setPassword] = useState('');
  const [remember, setRemember] = useState(false);
@@ -34,15 +74,15 @@ export default function SignInPage() {
  function validate(): boolean {
  const errors: typeof fieldErrors = {};
  if (!email.trim()) {
- errors.email = 'Email is required';
+ errors.email = copy.emailRequired;
  } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
- errors.email = 'Enter a valid email address';
+ errors.email = copy.emailInvalid;
  }
  if (hasAuth) {
  if (!password) {
- errors.password = 'Password is required';
+ errors.password = copy.passwordRequired;
  } else if (password.length < 6) {
- errors.password = 'Password must be at least 6 characters';
+ errors.password = copy.passwordMin;
  }
  }
  setFieldErrors(errors);
@@ -50,14 +90,17 @@ export default function SignInPage() {
  }
 
  /* ---- Submit ---- */
- async function handleSubmit(e: FormEvent) {
+async function handleSubmit(e: FormEvent) {
  e.preventDefault();
  setFormError('');
+ if (!hasAuth) {
+ window.location.href = SIGNIN_URL;
+ return;
+ }
  if (!validate()) return;
  setIsLoading(true);
 
  try {
- if (hasAuth) {
  // Real auth endpoint — POST credentials, handle token/session
  const res = await fetch(AUTH_API_URL, {
  method: 'POST',
@@ -66,25 +109,21 @@ export default function SignInPage() {
  });
  if (!res.ok) {
  const data = await res.json().catch(() => null);
- throw new Error(data?.message || 'Invalid email or password');
+ throw new Error(data?.message || copy.invalidCredentials);
  }
  // On success: redirect to the app dashboard
  window.location.href = `${APP_URL}/dashboard`;
- } else {
- // No local auth — redirect to the external Sundae app sign-in
- window.location.href = SIGNIN_URL;
- }
  } catch (err) {
- setFormError(err instanceof Error ? err.message : 'Something went wrong. Please try again.');
+ setFormError(err instanceof Error ? err.message : copy.genericError);
  setIsLoading(false);
  }
  }
 
  /* ---- Trust points for branding panel ---- */
  const trustPoints = [
- { label: 'Real-time operations intelligence', icon: PulseIcon },
- { label: 'Multi-location benchmarking', icon: ChartIcon },
- { label: 'Competitive market signals', icon: ShieldIcon },
+ { label: copy.trustPoints[0], icon: PulseIcon },
+ { label: copy.trustPoints[1], icon: ChartIcon },
+ { label: copy.trustPoints[2], icon: ShieldIcon },
  ];
 
  return (
@@ -108,7 +147,7 @@ export default function SignInPage() {
  <div className="relative z-10 flex flex-col justify-between p-10 xl:p-12 w-full">
  {/* Logo */}
  <div>
- <Link href="/" aria-label="Sundae home">
+ <Link href="/" aria-label={shellCopy.homeLabel}>
  <Image
  src="/logos/sundae-wordmark-white.svg"
  alt="Sundae"
@@ -123,17 +162,17 @@ export default function SignInPage() {
  {/* Headline + product shot */}
  <div className="flex-1 flex flex-col justify-center -mt-8">
  <h2 className="text-3xl xl:text-4xl font-bold text-[var(--text-primary)] leading-tight mb-4">
- Decision intelligence<br />for restaurants
+ {copy.brandTitle}
  </h2>
  <p className="text-blue-200/90 text-base leading-relaxed mb-8 max-w-sm">
- Performance, operations, and competitive intelligence — unified in one platform.
+ {copy.brandDescription}
  </p>
 
  {/* Product screenshot */}
  <div className="relative rounded-xl overflow-hidden shadow-2xl shadow-black/30 border border-[var(--border-default)]">
  <Image
  src="/images/product/core-overview.png"
- alt="Sundae Core dashboard"
+ alt={shellCopy.productShotAlt}
  width={600}
  height={380}
  className="w-full h-auto"
@@ -162,7 +201,7 @@ export default function SignInPage() {
  <div className="flex-1 flex flex-col min-h-screen bg-[var(--navy-deep)]">
  {/* Mobile header */}
  <div className="lg:hidden flex items-center justify-between px-6 pt-6">
- <Link href="/" aria-label="Sundae home">
+ <Link href="/" aria-label={shellCopy.homeLabel}>
  <Image
  src="/logos/sundae-wordmark-white.svg"
  alt="Sundae"
@@ -180,10 +219,10 @@ export default function SignInPage() {
  {/* Heading */}
  <div className="mb-8">
  <h1 className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)] mb-2">
- Sign in to Sundae
+ {copy.headingTitle}
  </h1>
  <p className="text-[var(--text-muted)] text-sm">
- Your unified view of performance, operations, and competitive intelligence.
+ {copy.headingDescription}
  </p>
  </div>
 
@@ -195,14 +234,14 @@ export default function SignInPage() {
  className="w-full flex items-center justify-center gap-3 px-4 py-3 rounded-xl border-2 border-[var(--border-default)] bg-[var(--navy-deep)] text-sm font-medium text-[var(--text-secondary)] hover:bg-[var(--surface-faint)] transition-colors"
  >
  <GoogleIcon />
- Continue with Google
+ {copy.ssoGoogle}
  </button>
  <button
  type="button"
  className="w-full flex items-center justify-center gap-3 px-4 py-3 rounded-xl border-2 border-[var(--border-default)] bg-[var(--navy-deep)] text-sm font-medium text-[var(--text-secondary)] hover:bg-[var(--surface-faint)] transition-colors"
  >
  <MicrosoftIcon />
- Continue with Microsoft
+ {copy.ssoMicrosoft}
  </button>
 
  {/* Divider */}
@@ -212,7 +251,7 @@ export default function SignInPage() {
  </div>
  <div className="relative flex justify-center">
  <span className="bg-[var(--navy-deep)] px-3 text-xs text-[var(--text-muted)] uppercase tracking-wider">
- or
+ {shellCopy.ssoDivider}
  </span>
  </div>
  </div>
@@ -230,12 +269,13 @@ export default function SignInPage() {
  )}
 
  {/* Form */}
+ {hasAuth ? (
  <form onSubmit={handleSubmit} noValidate className="space-y-5">
  <FormField
  id="email"
- label="Email"
+  label={copy.emailLabel}
  type="email"
- placeholder="you@company.com"
+  placeholder={copy.emailPlaceholder}
  value={email}
  onChange={(e) => {
  setEmail(e.target.value);
@@ -248,15 +288,12 @@ export default function SignInPage() {
  required
  />
 
- {/* Password + Remember/Forgot — only when auth backend exists */}
- {hasAuth && (
- <>
  <div>
  <FormField
  id="password"
- label="Password"
+  label={copy.passwordLabel}
  type="password"
- placeholder="Enter your password"
+  placeholder={copy.passwordPlaceholder}
  value={password}
  onChange={(e) => {
  setPassword(e.target.value);
@@ -278,24 +315,15 @@ export default function SignInPage() {
  onChange={(e) => setRemember(e.target.checked)}
  className="w-4 h-4 rounded border-white/[0.1] text-[var(--text-primary)] focus:ring-slate-900/30 bg-[var(--navy-deep)]"
  />
- <span className="text-sm text-[var(--text-supporting)]">Remember me</span>
+ <span className="text-sm text-[var(--text-supporting)]">{copy.rememberMe}</span>
  </label>
  <a
  href={`${APP_URL}/forgot-password`}
  className="text-sm font-medium text-[var(--text-primary)] hover:text-white/90 transition-colors"
  >
- Forgot password?
+ {copy.forgotPassword}
  </a>
  </div>
- </>
- )}
-
- {/* Helper text — redirect mode */}
- {!hasAuth && (
- <p className="text-xs text-[var(--text-muted)]">
- {"You\u2019ll sign in securely in the Sundae app."}
- </p>
- )}
 
  {/* Submit */}
  <button
@@ -306,22 +334,45 @@ export default function SignInPage() {
  {isLoading ? (
  <>
  <LoadingSpinner />
- {hasAuth ? 'Signing in...' : 'Redirecting...'}
+ {hasAuth ? copy.signingIn : copy.redirecting}
  </>
  ) : (
- hasAuth ? 'Sign in' : 'Continue to Sundae App'
+ hasAuth ? copy.signInButton : copy.continueToApp
  )}
  </button>
  </form>
+ ) : (
+ <div className="space-y-5 rounded-2xl border border-[var(--border-default)] bg-white/[0.03] p-5">
+ <p className="text-sm text-[var(--text-secondary)]">
+ {copy.signInMainAppDescription}
+ </p>
+ <div className="space-y-2 text-sm text-[var(--text-muted)]">
+ <ul className="space-y-1 list-disc list-inside">
+ <li>{copy.signInMainAppBenefits[0]}</li>
+ <li>{copy.signInMainAppBenefits[1]}</li>
+ <li>{copy.signInMainAppBenefits[2]}</li>
+ </ul>
+ </div>
+ <a
+ href={SIGNIN_URL}
+ className="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl text-sm font-semibold text-[var(--text-primary)] bg-[var(--navy-deep)] shadow-lg shadow-slate-900/25 hover:shadow-xl hover:shadow-slate-900/35 hover:-translate-y-0.5 active:translate-y-0 active:shadow-lg transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-slate-900"
+ >
+ {copy.continueToApp}
+ </a>
+ <p className="text-xs text-[var(--text-muted)]">
+ {shellCopy.redirectedToApp} <span className="text-[var(--text-secondary)]">{APP_URL}</span>.
+ </p>
+ </div>
+ )}
 
  {/* Sign up link */}
  <p className="mt-8 text-center text-sm text-[var(--text-muted)]">
- {"Don't have an account? "}
+ {copy.noAccount}{' '}
  <a
  href={SIGNUP_URL}
  className="font-medium text-[var(--text-primary)] hover:text-white/90 transition-colors"
  >
- Get started free
+ {copy.getStartedFree}
  </a>
  </p>
  </div>
@@ -331,16 +382,16 @@ export default function SignInPage() {
  <div className="px-6 pb-6 lg:pb-8">
  <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-[var(--text-muted)]">
  <Link href="/terms" className="hover:text-[var(--text-supporting)] transition-colors">
- Terms
+ {copy.footerTerms}
  </Link>
  <Link href="/privacy" className="hover:text-[var(--text-supporting)] transition-colors">
- Privacy
+ {copy.footerPrivacy}
  </Link>
  <Link href="/security" className="hover:text-[var(--text-supporting)] transition-colors">
- Security
+ {copy.footerSecurity}
  </Link>
  <Link href="/contact" className="hover:text-[var(--text-supporting)] transition-colors">
- Support
+ {copy.footerSupport}
  </Link>
  </div>
  </div>

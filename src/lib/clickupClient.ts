@@ -22,7 +22,7 @@ export interface ClickUpError {
   statusCode?: number;
   message: string;
   retryable: boolean;
-  details?: any;
+  details?: unknown;
 }
 
 interface RetryConfig {
@@ -30,6 +30,89 @@ interface RetryConfig {
   initialDelay: number;
   maxDelay: number;
   backoffMultiplier: number;
+}
+
+type ClickUpFieldValue =
+  | string
+  | number
+  | boolean
+  | null
+  | string[]
+  | number[]
+  | Record<string, unknown>;
+
+interface ClickUpListField {
+  id: string;
+}
+
+interface ClickUpSetFieldResult {
+  success: boolean;
+  error?: string;
+}
+
+export interface ClickUpCustomFieldInput {
+  id: string;
+  value: ClickUpFieldValue;
+}
+
+export interface ClickUpTaskPayload {
+  name: string;
+  description?: string;
+  markdown_description?: string;
+  priority?: number;
+  tags?: string[];
+  custom_fields?: ClickUpCustomFieldInput[];
+}
+
+interface ClickUpMinimalTaskPayload {
+  name: string;
+  description: string;
+  priority?: number;
+  tags?: string[];
+}
+
+interface ClickUpApiTaskResponse {
+  id: string;
+  name: string;
+  url: string;
+  status?: {
+    status?: string;
+  };
+}
+
+function getErrorMessage(error: unknown): string {
+  return error instanceof Error ? error.message : 'Unknown error';
+}
+
+function getErrorName(error: unknown): string | undefined {
+  return error instanceof Error ? error.name : undefined;
+}
+
+function isRecord(value: unknown): value is Record<string, unknown> {
+  return typeof value === 'object' && value !== null;
+}
+
+function isClickUpListField(value: unknown): value is ClickUpListField {
+  return isRecord(value) && typeof value.id === 'string';
+}
+
+function isClickUpApiTaskResponse(value: unknown): value is ClickUpApiTaskResponse {
+  return (
+    isRecord(value) &&
+    typeof value.id === 'string' &&
+    typeof value.name === 'string' &&
+    typeof value.url === 'string'
+  );
+}
+
+function parseJsonText(text: string): unknown {
+  if (!text) return null;
+
+  try {
+    return JSON.parse(text) as unknown;
+  } catch {
+    return { raw: text };
+  }
 }
 
 const DEFAULT_RETRY_CONFIG: RetryConfig = {
@@ -42,7 +125,7 @@ const DEFAULT_RETRY_CONFIG: RetryConfig = {
 // Cache for list custom fields (TTL: 5 minutes)
 const customFieldsCache: {
   [listId: string]: {
-    fields: any[];
+    fields: ClickUpListField[];
     timestamp: number;
   };
 } = {};
@@ -61,7 +144,7 @@ function calculateBackoff(attempt: number, config: RetryConfig): number {
   return Math.min(jitter, config.maxDelay);
 }
 
-function classifyError(statusCode: number, responseBody: any): ClickUpError {
+function classifyError(statusCode: number, responseBody: unknown): ClickUpError {
   if (statusCode === 401 || statusCode === 403) {
     return {
       type: 'auth',
@@ -118,7 +201,7 @@ async function getListCustomFields(
   apiToken: string,
   listId: string,
   requestId: string
-): Promise<any[]> {
+): Promise<ClickUpListField[]> {
   // Check cache
   const cached = customFieldsCache[listId];
   if (cached && (Date.now() - cached.timestamp) < CACHE_TTL) {
@@ -138,8 +221,10 @@ async function getListCustomFields(
       return [];
     }
 
-    const data = await response.json();
-    const fields = data.fields || [];
+    const data: unknown = await response.json();
+    const fields = isRecord(data) && Array.isArray(data.fields)
+      ? data.fields.filter(isClickUpListField)
+      : [];
 
     // Cache the result
     customFieldsCache[listId] = {
@@ -149,8 +234,8 @@ async function getListCustomFields(
 
     console.log(`[${requestId}] Found ${fields.length} custom fields`);
     return fields;
-  } catch (error: any) {
-    console.error(`[${requestId}] Error fetching custom fields:`, error.message);
+  } catch (error: unknown) {
+    console.error(`[${requestId}] Error fetching custom fields:`, getErrorMessage(error));
     return [];
   }
 }
@@ -162,9 +247,9 @@ async function setCustomField(
   apiToken: string,
   taskId: string,
   fieldId: string,
-  value: any,
+  value: ClickUpFieldValue,
   requestId: string
-): Promise<{ success: boolean; error?: string }> {
+): Promise<ClickUpSetFieldResult> {
   try {
     const response = await fetch(
       `https://api.clickup.com/api/v2/task/${taskId}/field/${fieldId}`,
@@ -189,11 +274,12 @@ async function setCustomField(
       success: false,
       error: `${response.status}: ${errorText.substring(0, 100)}`,
     };
-  } catch (error: any) {
-    console.error(`[${requestId}] Field ${fieldId} exception:`, error.message);
+  } catch (error: unknown) {
+    const errorMessage = getErrorMessage(error);
+    console.error(`[${requestId}] Field ${fieldId} exception:`, errorMessage);
     return {
       success: false,
-      error: error.message,
+      error: errorMessage,
     };
   }
 }
@@ -206,14 +292,14 @@ async function setCustomField(
 export async function createClickUpTask(
   apiToken: string,
   listId: string,
-  taskPayload: any,
+  taskPayload: ClickUpTaskPayload,
   requestId: string = randomUUID(),
   config: Partial<RetryConfig> = {}
 ): Promise<{ success: true; task: ClickUpTask } | { success: false; error: ClickUpError }> {
   const retryConfig = { ...DEFAULT_RETRY_CONFIG, ...config };
   
   // STEP 1: Create task with MINIMAL payload
-  const minimalPayload: any = {
+  const minimalPayload: ClickUpMinimalTaskPayload = {
     name: taskPayload.name,
     description: taskPayload.description || taskPayload.markdown_description || '',
   };
@@ -230,12 +316,11 @@ export async function createClickUpTask(
   console.log(`[${requestId}] ClickUp minimal payload:`, {
     name: minimalPayload.name?.substring(0, 50) + '...',
     descriptionLength: minimalPayload.description?.length || 0,
-    status: minimalPayload.status,
     priority: minimalPayload.priority,
   });
 
   let lastError: ClickUpError | null = null;
-  let createdTask: any = null;
+  let createdTask: ClickUpApiTaskResponse | null = null;
 
   // Retry loop for task creation
   for (let attempt = 0; attempt <= retryConfig.maxRetries; attempt++) {
@@ -263,14 +348,22 @@ export async function createClickUpTask(
       clearTimeout(timeoutId);
 
       const text = await response.text();
-      let responseBody: any = null;
-      try {
-        responseBody = text ? JSON.parse(text) : null;
-      } catch {
-        responseBody = { raw: text };
-      }
+      const responseBody = parseJsonText(text);
 
       if (response.ok) {
+        if (!isClickUpApiTaskResponse(responseBody)) {
+          return {
+            success: false,
+            error: {
+              type: 'unknown',
+              statusCode: response.status,
+              message: 'ClickUp returned an unexpected task payload',
+              retryable: false,
+              details: responseBody,
+            },
+          };
+        }
+
         createdTask = responseBody;
         console.log(`[${requestId}] ✅ Task created: ${createdTask.id}`);
         break; // Success! Exit retry loop
@@ -300,12 +393,12 @@ export async function createClickUpTask(
       console.log(`[${requestId}] Retrying in ${Math.round(backoffDelay)}ms...`);
       await sleep(backoffDelay);
 
-    } catch (err: any) {
+    } catch (err: unknown) {
       lastError = {
         type: 'network',
-        message: err.message || 'Network request failed',
+        message: getErrorMessage(err),
         retryable: true,
-        details: { name: err.name, message: err.message },
+        details: { name: getErrorName(err), message: getErrorMessage(err) },
       };
 
       console.error(`[${requestId}] Network error:`, lastError.message);
@@ -341,7 +434,7 @@ export async function createClickUpTask(
 
     // Get list fields for validation
     const listFields = await getListCustomFields(apiToken, listId, requestId);
-    const validFieldIds = new Set(listFields.map((f: any) => f.id));
+    const validFieldIds = new Set(listFields.map((field) => field.id));
 
     for (const field of customFields) {
       const fieldId = field.id;
@@ -423,12 +516,12 @@ export async function testClickUpHealth(
       latencyMs,
       error: `HTTP ${response.status}: ${response.statusText}`,
     };
-  } catch (err: any) {
+  } catch (err: unknown) {
     const latencyMs = Date.now() - startTime;
     return {
       ok: false,
       latencyMs,
-      error: err.message || 'Request failed',
+      error: getErrorMessage(err),
     };
   }
 }

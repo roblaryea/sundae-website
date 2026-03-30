@@ -40,6 +40,10 @@ export interface SavedSubmission {
   storageError?: string; // Error message if storage failed
 }
 
+function getErrorMessage(error: unknown): string {
+  return error instanceof Error ? error.message : 'Unknown error';
+}
+
 /**
  * Get missing Google Sheets env vars for logging
  * NEVER log actual secret values
@@ -89,9 +93,10 @@ export async function saveSubmissionUnified(
         storageType: 'google-sheets',
         rowNumber: result.rowNumber,
       };
-    } catch (error: any) {
+    } catch (error: unknown) {
+      const errorMessage = getErrorMessage(error);
       console.error(`${logPrefix} [STORAGE_WARNING] Google Sheets save failed:`, {
-        error: error.message,
+        error: errorMessage,
         missingConfig: getMissingGoogleSheetsConfig(),
       });
       
@@ -102,7 +107,7 @@ export async function saveSubmissionUnified(
         return {
           id: mockId,
           storageType: 'none',
-          storageError: `Google Sheets failed: ${error.message}`,
+          storageError: `Google Sheets failed: ${errorMessage}`,
         };
       }
       
@@ -141,15 +146,16 @@ export async function saveSubmissionUnified(
       id: submission.id,
       storageType: 'file',
     };
-  } catch (error: any) {
-    console.error(`${logPrefix} [STORAGE_WARNING] File storage also failed:`, error.message);
+  } catch (error: unknown) {
+    const errorMessage = getErrorMessage(error);
+    console.error(`${logPrefix} [STORAGE_WARNING] File storage also failed:`, errorMessage);
     
     // Even in dev, don't fail completely - return mock ID
     const mockId = `nostorage-${randomUUID()}`;
     return {
       id: mockId,
       storageType: 'none',
-      storageError: `All storage backends failed: ${error.message}`,
+      storageError: `All storage backends failed: ${errorMessage}`,
     };
   }
 }
@@ -185,8 +191,8 @@ export async function updateSubmissionUnified(
       );
       console.log(`${logPrefix} Updated in Google Sheets: ${submissionId}`);
       return;
-    } catch (error: any) {
-      console.error(`${logPrefix} [STORAGE_WARNING] Google Sheets update failed:`, error.message);
+    } catch (error: unknown) {
+      console.error(`${logPrefix} [STORAGE_WARNING] Google Sheets update failed:`, getErrorMessage(error));
       
       if (isProduction) {
         // Don't throw - update failure is not fatal
@@ -210,8 +216,8 @@ export async function updateSubmissionUnified(
       clickupError
     );
     console.log(`${logPrefix} Updated in file storage: ${submissionId}`);
-  } catch (error: any) {
-    console.error(`${logPrefix} [STORAGE_WARNING] File storage update failed:`, error.message);
+  } catch (error: unknown) {
+    console.error(`${logPrefix} [STORAGE_WARNING] File storage update failed:`, getErrorMessage(error));
     // Don't throw - update failure is not fatal
   }
 }

@@ -32,7 +32,7 @@ const STATIC_ASSET_PATTERNS = [
 ];
 
 // ─── INSTALL ────────────────────────────────────────────────────────────────
-self.addEventListener('install', (event) => {
+self.addEventListener('install', () => {
   console.log(`[SW] Installing v${SW_VERSION}`);
   // Skip waiting immediately — new SW takes over right away
   self.skipWaiting();
@@ -106,7 +106,7 @@ async function networkFirstWithTimeout(request, cacheName, timeoutMs) {
       cache.put(request, networkResponse.clone());
     }
     return networkResponse;
-  } catch (err) {
+  } catch {
     // Network failed or timed out — try cache
     const cached = await cache.match(request);
     if (cached) {

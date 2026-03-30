@@ -7,15 +7,28 @@
  * - Managing navigation with tracking
  */
 
+type GtagValue = string | number | boolean | null | undefined;
+type CtaMetadata = Record<string, GtagValue>;
+
+declare global {
+  interface Window {
+    gtag?: (
+      command: "event",
+      action: string,
+      params: Record<string, GtagValue>
+    ) => void;
+  }
+}
+
 /**
  * Track a CTA click event in Google Analytics
  * 
  * @param label - Descriptive label for the CTA (e.g., "book_demo_hero")
  * @param metadata - Additional data to attach to the event
  */
-export const trackCta = (label: string, metadata: Record<string, any> = {}) => {
-  if (typeof window !== "undefined" && (window as any).gtag) {
-    (window as any).gtag("event", "cta_click", {
+export const trackCta = (label: string, metadata: CtaMetadata = {}) => {
+  if (typeof window !== "undefined" && window.gtag) {
+    window.gtag("event", "cta_click", {
       event_category: "CTA",
       event_label: label,
       ...metadata,
@@ -95,7 +108,7 @@ import { useRouter } from "next/navigation";
 export const useCta = () => {
   const router = useRouter();
   
-  return (url: string, label: string, metadata: Record<string, any> = {}) => {
+  return (url: string, label: string, metadata: CtaMetadata = {}) => {
     // Track the CTA click
     trackCta(label, {
       destination: url,
@@ -127,7 +140,7 @@ export const useCta = () => {
 export const createCtaHandler = (
   url: string,
   label: string,
-  metadata: Record<string, any> = {}
+  metadata: CtaMetadata = {}
 ) => {
   return (e: React.MouseEvent) => {
     e.preventDefault();

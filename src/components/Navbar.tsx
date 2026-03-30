@@ -11,6 +11,14 @@ import { useCta } from '@/lib/cta';
 import { PRICING_URL } from '@/lib/links';
 import { REPORT_APP_URL, SIGNUP_URL } from '@/lib/urls';
 import { ThemeToggle } from './ui/ThemeToggle';
+import { useWebsiteI18n } from './i18n/LocaleProvider';
+import { LocaleSwitcher } from './i18n/LocaleSwitcher';
+
+type NavbarLink = {
+  name: string;
+  href: string;
+  description?: string;
+};
 
 // Chevron Icon Component
 const ChevronIcon = ({ isOpen }: { isOpen: boolean }) => (
@@ -97,6 +105,8 @@ const MobileNavLink = ({ href, children, onClick, isHighlighted = false, dataAtt
 );
 
 const Navbar = () => {
+  const { messages } = useWebsiteI18n();
+  const nav = messages.navbar;
   const cta = useCta();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -178,45 +188,17 @@ const Navbar = () => {
   }, []);
 
   // Six Intelligence Layers
-  const pillars = [
-    { name: 'Pulse', description: 'Intraday operations monitor', href: '/product/pulse' },
-    { name: 'Benchmarks', description: 'Competitive intelligence', href: '/benchmarking' },
-    { name: 'Watchtower', description: 'External market signals', href: '/product/watchtower' },
-    { name: 'Insights', description: 'Specialized analytics modules', href: '/insights' },
-    { name: 'Sundae Intelligence', description: 'AI-powered conversational analytics', href: '/intelligence' },
-    { name: 'Foresight', description: 'Predictive intelligence & forecasting', href: '/product/foresight' },
-  ];
+  const pillars: ReadonlyArray<NavbarLink> = nav.pillars;
 
   // Product Tiers
-  const plans = [
-    { name: 'Sundae Report', description: 'Free, historical analysis', href: '/report' },
-    { name: 'Sundae Core', description: 'Real-time operations', href: '/core' },
-  ];
+  const plans: ReadonlyArray<NavbarLink> = nav.plansList;
 
   // Solutions organized by category
-  const solutionsSegments = [
-    { name: 'Multi-location Restaurants', href: '/solutions/multi-location-groups' },
-    { name: 'Franchises', href: '/solutions/franchises' },
-    { name: 'Cloud Kitchens', href: '/solutions/cloud-kitchens' },
-    { name: 'Enterprise Hospitality Groups', href: '/solutions/hospitality-operators' },
-  ];
+  const solutionsSegments: ReadonlyArray<NavbarLink> = nav.solutionsSegments;
 
-  const solutionsRoles = [
-    { name: 'Operations Leaders', href: '/solutions/regional-managers' },
-    { name: 'Finance & FP&A Teams', href: '/solutions/finance-teams' },
-    { name: 'Marketing Teams', href: '/solutions/marketing-teams' },
-    { name: 'C-Suite & Owners', href: '/solutions/c-suite-executives' },
-    { name: 'Data & Technology Teams', href: '/solutions/technology-teams' },
-    { name: 'People & HR Teams', href: '/solutions/hr-teams' },
-  ];
+  const solutionsRoles: ReadonlyArray<NavbarLink> = nav.solutionsRoles;
 
-  const resources = [
-    { name: 'Blog', href: '/blog' },
-    { name: 'Documentation', href: '/docs' },
-    { name: 'Case Studies', href: '/resources' },
-    { name: 'FAQ', href: '/faq' },
-    { name: 'Free Tools & Calculators', href: '/tools' },
-  ];
+  const resources: ReadonlyArray<NavbarLink> = nav.resourcesList;
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-300 backdrop-blur-md border-b ${
@@ -261,7 +243,7 @@ const Navbar = () => {
                 aria-haspopup="true"
                 aria-expanded={activeDropdown === 'product'}
               >
-                Products
+                {nav.products}
               </button>
 
               {activeDropdown === 'product' && (
@@ -274,7 +256,7 @@ const Navbar = () => {
                   {/* Intelligence Pillars */}
                   <div className="mb-4">
                     <h3 className="eyebrow text-[var(--text-muted)] mb-3">
-                      Intelligence
+                      {nav.intelligence}
                     </h3>
                     <div className="grid grid-cols-2 gap-1">
                       {pillars.map((pillar) => (
@@ -301,7 +283,7 @@ const Navbar = () => {
                   {/* Plans */}
                   <div>
                     <h3 className="eyebrow text-[var(--text-muted)] mb-3">
-                      Plans
+                      {nav.plans}
                     </h3>
                     <div className="grid grid-cols-2 gap-1 mb-3">
                       {plans.map((plan) => (
@@ -326,14 +308,14 @@ const Navbar = () => {
                         className="text-sm font-medium text-[var(--text-supporting)] hover:text-[var(--text-primary)] transition-colors"
                         onClick={() => setActiveDropdown(null)}
                       >
-                        Compare Plans →
+                        {nav.comparePlans}
                       </Link>
                       <a
                         href={REPORT_APP_URL}
                         className="text-sm font-semibold text-[var(--text-primary)] hover:text-[var(--text-secondary)] transition-colors"
                         onClick={() => setActiveDropdown(null)}
                       >
-                        Start Free →
+                        {nav.startFree}
                       </a>
                     </div>
                   </div>
@@ -352,7 +334,7 @@ const Navbar = () => {
                 aria-haspopup="true"
                 aria-expanded={activeDropdown === 'solutions'}
               >
-                Solutions
+                {nav.solutions}
               </button>
               
               {activeDropdown === 'solutions' && (
@@ -365,7 +347,7 @@ const Navbar = () => {
                   {/* Segments */}
                   <div className="mb-4">
                     <h3 className="eyebrow text-[var(--text-muted)] mb-3">
-                      By Segment
+                      {nav.bySegment}
                     </h3>
                     <div className="grid grid-cols-2 gap-1">
                       {solutionsSegments.map((solution) => (
@@ -389,7 +371,7 @@ const Navbar = () => {
                   {/* Roles */}
                   <div>
                     <h3 className="eyebrow text-[var(--text-muted)] mb-3">
-                      By Role
+                      {nav.byRole}
                     </h3>
                     <div className="grid grid-cols-2 gap-1">
                       {solutionsRoles.map((solution) => (
@@ -412,11 +394,11 @@ const Navbar = () => {
             </div>
 
             <a href={PRICING_URL} className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors duration-200 font-medium text-sm">
-              Pricing
+              {nav.pricing}
             </a>
 
             <Link href="/about" className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors duration-200 font-medium text-sm">
-              About
+              {nav.about}
             </Link>
             
             {/* Resources Dropdown */}
@@ -429,7 +411,7 @@ const Navbar = () => {
                 aria-haspopup="true"
                 aria-expanded={activeDropdown === 'resources'}
               >
-                Resources
+                {nav.resources}
               </button>
               
               {activeDropdown === 'resources' && (
@@ -440,7 +422,7 @@ const Navbar = () => {
                 >
                 <div className="bg-[var(--navy)]/95 backdrop-blur-xl rounded-xl shadow-[0_8px_40px_rgba(0,0,0,0.4)] border border-[var(--border-default)] px-6 py-6 animate-dropdown-in">
                   <h3 className="eyebrow text-[var(--text-muted)] mb-3">
-                    Learn
+                    {nav.learn}
                   </h3>
                   <div className="space-y-1">
                     {resources.map((resource) => (
@@ -464,6 +446,7 @@ const Navbar = () => {
 
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center space-x-4">
+            <LocaleSwitcher />
             <ThemeToggle />
             <Button
               variant="outline"
@@ -472,7 +455,7 @@ const Navbar = () => {
               data-cta="sign_in_navbar"
               data-source="navbar"
             >
-              Sign In
+              {nav.signIn}
             </Button>
             <Button 
               variant="primary" 
@@ -481,7 +464,7 @@ const Navbar = () => {
               data-cta="book_demo_navbar"
               data-source="navbar"
             >
-              Book Demo
+              {nav.bookDemo}
             </Button>
           </div>
 
@@ -491,7 +474,7 @@ const Navbar = () => {
               type="button"
               className="inline-flex items-center justify-center p-2 rounded-lg text-[var(--text-primary)] hover:bg-[var(--surface-hover)] focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 relative z-50"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+              aria-label={isMenuOpen ? nav.closeMenu : nav.openMenu}
               aria-expanded={isMenuOpen}
               aria-controls="mobile-menu"
             >
@@ -530,7 +513,7 @@ const Navbar = () => {
         }`}
         aria-modal="true"
         role="dialog"
-        aria-label="Mobile navigation"
+        aria-label={nav.mobileNavigation}
       >
         {/* Backdrop Overlay */}
         <button
@@ -539,7 +522,7 @@ const Navbar = () => {
             isMenuOpen ? 'opacity-100' : 'opacity-0'
           }`}
           onClick={() => setIsMenuOpen(false)}
-          aria-label="Close navigation"
+          aria-label={nav.closeNavigation}
           tabIndex={isMenuOpen ? 0 : -1}
         />
 
@@ -563,7 +546,7 @@ const Navbar = () => {
               type="button"
               onClick={() => setIsMenuOpen(false)}
               className="p-2 rounded-lg hover:bg-[var(--surface-hover)] transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
-              aria-label="Close navigation"
+              aria-label={nav.closeNavigation}
             >
               <svg
                 className="w-6 h-6 text-[var(--text-supporting)]"
@@ -583,13 +566,13 @@ const Navbar = () => {
           >
             {/* Products Section */}
             <AccordionSection
-              title="Products"
+              title={nav.products}
               id="product"
               isExpanded={expandedSections.product}
               onToggle={() => toggleSection('product')}
             >
               <div className="px-4 pt-1 pb-1">
-                <span className="eyebrow text-[var(--text-muted)]">Intelligence</span>
+                <span className="eyebrow text-[var(--text-muted)]">{nav.intelligence}</span>
               </div>
               {pillars.map((pillar) => (
                 <MobileNavLink
@@ -602,7 +585,7 @@ const Navbar = () => {
               ))}
               <div className="border-t border-[var(--border-default)] my-2 mx-4"></div>
               <div className="px-4 pt-1 pb-1">
-                <span className="eyebrow text-[var(--text-muted)]">Plans</span>
+                <span className="eyebrow text-[var(--text-muted)]">{nav.plans}</span>
               </div>
               {plans.map((plan) => (
                 <MobileNavLink
@@ -617,26 +600,26 @@ const Navbar = () => {
                 href="/report-vs-core"
                 onClick={handleMobileNavClick}
               >
-                Compare Plans →
+                {nav.comparePlans}
               </MobileNavLink>
               <a
                 href={SIGNUP_URL}
                 onClick={handleMobileNavClick}
                 className="block py-2.5 px-4 text-sm font-medium transition-colors duration-150 text-[#60A5FA] hover:bg-[var(--surface-hover)]"
               >
-                Start Free →
+                {nav.startFree}
               </a>
             </AccordionSection>
 
             {/* Solutions Section */}
             <AccordionSection
-              title="Solutions"
+              title={nav.solutions}
               id="solutions"
               isExpanded={expandedSections.solutions}
               onToggle={() => toggleSection('solutions')}
             >
               <div className="px-4 pt-1 pb-1">
-                <span className="eyebrow text-[var(--text-muted)]">By Segment</span>
+                <span className="eyebrow text-[var(--text-muted)]">{nav.bySegment}</span>
               </div>
               {solutionsSegments.map((solution) => (
                 <MobileNavLink
@@ -649,7 +632,7 @@ const Navbar = () => {
               ))}
               <div className="border-t border-[var(--border-default)] my-2 mx-4"></div>
               <div className="px-4 pt-1 pb-1">
-                <span className="eyebrow text-[var(--text-muted)]">By Role</span>
+                <span className="eyebrow text-[var(--text-muted)]">{nav.byRole}</span>
               </div>
               {solutionsRoles.map((solution) => (
                 <MobileNavLink
@@ -664,7 +647,7 @@ const Navbar = () => {
 
             {/* Resources Section */}
             <AccordionSection
-              title="Resources"
+              title={nav.resources}
               id="resources"
               isExpanded={expandedSections.resources}
               onToggle={() => toggleSection('resources')}
@@ -682,7 +665,7 @@ const Navbar = () => {
 
             {/* Company Section */}
             <AccordionSection
-              title="Company"
+              title={nav.company}
               id="company"
               isExpanded={expandedSections.company}
               onToggle={() => toggleSection('company')}
@@ -691,10 +674,10 @@ const Navbar = () => {
                 href={PRICING_URL} 
                 className="block py-2.5 px-4 text-sm font-medium transition-colors duration-150 text-[var(--text-secondary)] hover:bg-[var(--surface-hover)]"
               >
-                Pricing
+                {nav.pricing}
               </a>
               <MobileNavLink href="/about" onClick={handleMobileNavClick}>
-                About
+                {nav.about}
               </MobileNavLink>
             </AccordionSection>
           </div>
@@ -702,6 +685,7 @@ const Navbar = () => {
           {/* Sticky Bottom CTA Bar */}
           <div className="flex-shrink-0 sticky bottom-0 bg-[var(--navy)]/90 backdrop-blur border-t border-[var(--border-default)] px-4 py-3">
             <div className="flex items-center gap-3">
+              <LocaleSwitcher />
               <ThemeToggle />
               <div className="flex flex-1 gap-3">
               <Link
@@ -711,7 +695,7 @@ const Navbar = () => {
                 data-cta="sign_in_mobile_nav"
                 data-source="mobile-nav"
               >
-                Sign In
+                {nav.signIn}
               </Link>
               <Button
                 variant="primary"
@@ -724,7 +708,7 @@ const Navbar = () => {
                 data-cta="book_demo_mobile_nav"
                 data-source="mobile-nav"
               >
-                Book a Demo
+                {nav.bookDemo}
               </Button>
               </div>
             </div>

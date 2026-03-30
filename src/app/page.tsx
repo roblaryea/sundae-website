@@ -1,16 +1,21 @@
 import type { Metadata } from "next";
+import { cookies } from "next/headers";
 import HomeContent from "@/components/home/HomeContent";
+import { getWebsiteMessages, resolveWebsiteLocale } from "@/lib/i18n";
 
-export const metadata: Metadata = {
- title: "Sundae — Decision Intelligence for Restaurants | Real-Time Ops, Market Intelligence & AI Targets",
- description:
- "The AI platform that turns restaurant data into action. Real-time sales pacing, adaptive targets, labor productivity, competitor tracking, event intelligence, and AI coaching — unified for restaurants and hospitality.",
+export async function generateMetadata(): Promise<Metadata> {
+ const locale = resolveWebsiteLocale(await cookies());
+ const messages = getWebsiteMessages(locale);
+
+ return {
+ title: messages.metadata.title,
+ description: messages.metadata.description,
  openGraph: {
- title: "Sundae — Decision Intelligence for Restaurants",
- description:
- "Real-time sales pacing, adaptive targets, labor productivity, competitor tracking, event intelligence, and AI coaching — unified for restaurants and hospitality.",
+ title: messages.metadata.title,
+ description: messages.metadata.description,
  },
-};
+ };
+}
 
 export default function Home() {
  return (

@@ -52,11 +52,11 @@ export async function GET(request: Request) {
         'Cache-Control': 'no-store, no-cache, must-revalidate',
       },
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     const response = {
       ok: false,
       timestamp: new Date().toISOString(),
-      error: 'Health check failed: ' + (error.message || 'Unknown error'),
+      error: `Health check failed: ${error instanceof Error ? error.message : 'Unknown error'}`,
       config: configInfo,
       statusCode: 500,
     };

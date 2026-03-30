@@ -32,18 +32,17 @@ export function KPICard({
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true, margin: "-50px" });
   const prefersReducedMotion = useReducedMotion();
-  const [displayValue, setDisplayValue] = useState(animate ? "" : value);
+  const shouldAnimate = animate && !prefersReducedMotion && isInView;
+  const [displayValue, setDisplayValue] = useState(value);
 
   useEffect(() => {
-    if (!animate || prefersReducedMotion || !isInView) {
-      setDisplayValue(value);
+    if (!shouldAnimate) {
       return;
     }
 
     // Extract numeric part for count-up
     const numericMatch = value.match(/[\d,.]+/);
     if (!numericMatch) {
-      setDisplayValue(value);
       return;
     }
 
@@ -83,7 +82,7 @@ export function KPICard({
     };
 
     requestAnimationFrame(step);
-  }, [isInView, value, animate, prefersReducedMotion]);
+  }, [shouldAnimate, value]);
 
   return (
     <motion.div
@@ -95,7 +94,7 @@ export function KPICard({
       className={`text-center ${className}`}
     >
       <div className={`kpi-number ${colorMap[color]}`}>
-        {displayValue}
+        {shouldAnimate ? displayValue : value}
       </div>
       <div className="kpi-label mt-2">{label}</div>
       {supporting && (

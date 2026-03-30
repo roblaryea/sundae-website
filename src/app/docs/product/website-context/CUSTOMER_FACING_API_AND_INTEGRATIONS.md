@@ -132,7 +132,9 @@ Sundae provides native chat bots for conversational data queries on three platfo
 
 ## 4. POS Integration Adapters
 
-Direct POS connections for real-time sales data ingestion.
+Representative POS and POS-adjacent connection options used for real-time sales ingestion.
+These sit inside Sundae's broader 80+ integration catalog spanning POS, labor, delivery,
+marketing, reservations, guest, finance, and other operational systems.
 
 | Vendor | Key | Status | Features |
 |---|---|---|---|
@@ -140,8 +142,30 @@ Direct POS connections for real-time sales data ingestion.
 | Square | `square` | Available | Live sales, Menu items, Payments |
 | Toast | `toast` | Available | Live sales, Menu items, Employees |
 | Clover | `clover` | Available | Live sales, Payments |
+| Foodics | `foodics` | Available | Live sales, Menu items, Employees |
+| Lightspeed Restaurant | `lightspeed` | Available | Live sales, Menu items, Payments |
+| Sapaad | `sapaad` | Available | Live sales, Menu items |
+| Quadranet | `quadranet` | Available | Live sales, Payments |
+| Microsoft Dynamics 365 | `dynamics365` | Available | Sales orders, Invoices, Payments |
+| NCR Aloha | `aloha` | Available | Live sales, Menu items, Employees, Checks |
+| SpotOn | `spoton` | Available | Live sales, Menu items, Payments, Loyalty |
+| Revel Systems | `revel` | Available | Live sales, Menu items, Inventory |
+| PAR Brink POS | `par_brink` | Available | Live sales, Menu items, Drive-thru |
+| HubRise | `hubrise` | Available | Live sales, Orders, Multi-platform |
+| Zonal | `zonal` | Available | Live sales, Menu items, Table management |
+| Tevalis | `tevalis` | Available | Live sales, Menu items, Stock control |
+| Epos Now | `epos_now` | Available | Live sales, Payments, Inventory |
 | Postgres POS (Database) | `postgres_pos` | Available | Live sales, Custom queries |
 | SQL Server POS (Database) | `mssql_pos` | Available | Live sales, Custom queries, Azure SQL |
+| MySQL POS (Database) | `mysql_pos` | Available | Live sales, Custom queries, Aurora |
+| Oracle POS (Database) | `oracle_pos` | Available | Live sales, Custom queries, Oracle Cloud |
+| Omnivore (Olo) | `omnivore_pos` | Available | Live sales, Menu items, Multi-POS |
+| Square (MCP) | `square_mcp` | Available | Live sales, Menu items, Payments, Team, MCP |
+
+### Notes
+
+- The customer-facing POS count reflects the active integration catalog, not just the subset registered in the core POS adapter factory.
+- Some entries are direct vendor adapters, while others are database, middleware, or MCP-based connection paths that still give customers usable POS connectivity.
 
 ### POS Ingestion Endpoints
 

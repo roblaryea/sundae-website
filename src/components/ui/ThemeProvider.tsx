@@ -33,21 +33,22 @@ export function ThemeScript() {
 }
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [theme, setTheme] = useState<Theme>('dark');
-  const [mounted, setMounted] = useState(false);
+  const [theme, setTheme] = useState<Theme>(() => {
+    if (typeof window === 'undefined') {
+      return 'dark';
+    }
 
-  // Read initial theme from localStorage (after mount to avoid SSR mismatch)
+    return localStorage.getItem('sundae-theme') === 'light' ? 'light' : 'dark';
+  });
+
   useEffect(() => {
-    const stored = localStorage.getItem('sundae-theme') as Theme | null;
-    if (stored === 'light') {
-      setTheme('light');
+    localStorage.setItem('sundae-theme', theme);
+    if (theme === 'light') {
       document.documentElement.classList.add('light');
     } else {
-      setTheme('dark');
       document.documentElement.classList.remove('light');
     }
-    setMounted(true);
-  }, []);
+  }, [theme]);
 
   const toggleTheme = useCallback(() => {
     setTheme((prev) => {
@@ -61,11 +62,6 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
       return next;
     });
   }, []);
-
-  // Don't render children until mounted to avoid flash
-  if (!mounted) {
-    return <>{children}</>;
-  }
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>

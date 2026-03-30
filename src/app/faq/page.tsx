@@ -1,25 +1,27 @@
 'use client';
 
-import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Accordion } from "@/components/ui/Accordion";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { FadeUp } from "@/components/ui/PageAnimations";
+import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { useCta } from "@/lib/cta";
 import { REPORT_APP_URL, PRICING_URL } from "@/lib/urls";
 
 export default function FAQPage() {
   const cta = useCta();
+  const { messages } = useWebsiteI18n();
+  const copy = messages.pages.faq;
 
   const faqCategories = [
     {
       id: "getting-started",
-      title: "Getting Started",
+      title: copy.categories[0],
       icon: "growth" as SundaeIconName,
       faqs: [
         {
           title: "What is Sundae?",
-          content: "Sundae is a Decision Intelligence platform for restaurants and hospitality operations. We turn scattered operational data into clear, actionable recommendations — telling you not just what happened, but what to do next."
+          content: "Sundae is a decision intelligence platform for restaurants and hospitality teams. It pulls scattered operating data into one place so leaders can see what happened, what is changing, and where to act next."
         },
         {
           title: "How do I get started?",
@@ -41,7 +43,7 @@ export default function FAQPage() {
     },
     {
       id: "products-tiers",
-      title: "Products & Tiers",
+      title: copy.categories[1],
       icon: "data" as SundaeIconName,
       faqs: [
         {
@@ -64,7 +66,7 @@ export default function FAQPage() {
     },
     {
       id: "data-integration",
-      title: "Data & Integration",
+      title: copy.categories[2],
       icon: "integration" as SundaeIconName,
       faqs: [
         {
@@ -73,7 +75,7 @@ export default function FAQPage() {
         },
         {
           title: "How do I get my data into Sundae?",
-          content: "**Report Lite:** Upload CSV files manually\n\n**Report Plus:** Upload PDFs, Excel, screenshots — Sundae extracts data automatically. You review, fill missing values, and confirm before processing.\n\n**Report Pro & Core:** Full API integration — automated, zero manual work"
+          content: "**Report Lite:** Upload CSV files manually\n\n**Report Plus:** Upload PDFs, Excel files, or screenshots. Sundae extracts the data, then you review and confirm it before processing.\n\n**Report Pro & Core:** Connect through API for automated ingestion"
         },
         {
           title: "What POS systems do you integrate with?",
@@ -95,7 +97,7 @@ export default function FAQPage() {
     },
     {
       id: "modules",
-      title: "Modules",
+      title: copy.categories[3],
       icon: "network" as SundaeIconName,
       faqs: [
         {
@@ -108,7 +110,7 @@ export default function FAQPage() {
         },
         {
           title: "Do I need Core tier for modules?",
-          content: "Yes. Modules require Core tier (Lite, Pro, or Enterprise).\n\n**Why?** Modules integrate with labor, inventory, and other operational systems — this requires real-time data connections that Report tier doesn't support.\n\n• Core Lite + Modules = Specialized intelligence with 4-hour refresh\n• Core Pro + Modules = Specialized intelligence with 2-hour refresh\n• Enterprise + Modules = Real-time specialized intelligence"
+          content: "Yes. Modules require Core tier (Lite, Pro, or Enterprise).\n\n**Why?** Modules rely on live connections to labor, inventory, and other operational systems. Report tier is built for uploaded POS analysis.\n\n• Core Lite + Modules = specialized intelligence with 4-hour refresh\n• Core Pro + Modules = specialized intelligence with 2-hour refresh\n• Enterprise + Modules = specialized intelligence with custom refresh terms"
         },
         {
           title: "Can I add multiple modules?",
@@ -126,12 +128,12 @@ export default function FAQPage() {
     },
     {
       id: "watchtower",
-      title: "Watchtower",
+      title: copy.categories[4],
       icon: "watchtower" as SundaeIconName,
       faqs: [
         {
           title: "What is Watchtower?",
-          content: "External intelligence — visibility into what happens outside your four walls:\n\n1. **Competitive Intelligence** - Track up to 10 competitors per location\n2. **Event Intelligence** - Weather, holidays, local events\n3. **Market Intelligence** - Category trends, economic indicators"
+          content: "Watchtower is the external side of Sundae. It gives teams visibility into what is happening beyond the four walls:\n\n1. **Competitive Intelligence** - Track up to 10 competitors per location\n2. **Event Intelligence** - Weather, holidays, and local events\n3. **Market Intelligence** - Category trends and economic indicators"
         },
         {
           title: "Do I need Watchtower?",
@@ -147,13 +149,13 @@ export default function FAQPage() {
         },
         {
           title: "Does Watchtower require Core tier?",
-          content: "Yes. Watchtower requires Core tier (Lite, Pro, or Enterprise).\n\n**Why?** Watchtower provides real-time competitive and market intelligence that integrates with your operational data. This real-time integration requires Core tier's data pipeline.\n\nReport tier focuses on historical POS analysis — to add external market context, upgrade to Core."
+          content: "Yes. Watchtower requires Core tier (Lite, Pro, or Enterprise).\n\n**Why?** Watchtower works best when its market signals can be read alongside your live operating data, which is what Core is built for.\n\nReport tier focuses on uploaded historical POS analysis. If you want external market context layered into day-to-day operations, move to Core."
         }
       ]
     },
     {
       id: "pricing-billing",
-      title: "Pricing & Billing",
+      title: copy.categories[5],
       icon: "cost" as SundaeIconName,
       faqs: [
         {
@@ -180,7 +182,7 @@ export default function FAQPage() {
     },
     {
       id: "features",
-      title: "Features & Capabilities",
+      title: copy.categories[6],
       icon: "speed" as SundaeIconName,
       faqs: [
         {
@@ -203,7 +205,7 @@ export default function FAQPage() {
     },
     {
       id: "support",
-      title: "Support & Training",
+      title: copy.categories[7],
       icon: "conversation" as SundaeIconName,
       faqs: [
         {
@@ -222,7 +224,7 @@ export default function FAQPage() {
     },
     {
       id: "security",
-      title: "Security & Compliance",
+      title: copy.categories[8],
       icon: "quality" as SundaeIconName,
       faqs: [
         {
@@ -241,7 +243,7 @@ export default function FAQPage() {
     },
     {
       id: "enterprise",
-      title: "Enterprise",
+      title: copy.categories[9],
       icon: "franchise" as SundaeIconName,
       faqs: [
         {
@@ -260,7 +262,7 @@ export default function FAQPage() {
     },
     {
       id: "comparisons",
-      title: "Comparison Questions",
+      title: copy.categories[10],
       icon: "balance" as SundaeIconName,
       faqs: [
         {
@@ -279,7 +281,7 @@ export default function FAQPage() {
     },
     {
       id: "use-cases",
-      title: "Specific Use Cases",
+      title: copy.categories[11],
       icon: "target" as SundaeIconName,
       faqs: [
         {
@@ -310,13 +312,13 @@ export default function FAQPage() {
           <FadeUp>
             <div className="inline-flex items-center space-x-2 bg-blue-500/20 text-blue-400 px-4 py-2 rounded-full text-sm font-medium mb-6">
               <SundaeIcon name="conversation" size="sm" />
-              <span>Frequently Asked Questions</span>
+              <span>{copy.badge}</span>
             </div>
             <h1 className="hero-h1 text-[var(--text-primary)] mb-6">
-              Everything You Need to Know
+              {copy.title}
             </h1>
             <p className="body-xl text-[var(--text-supporting)] mb-8 max-w-3xl mx-auto">
-              Find answers to common questions about Sundae, our products, pricing, and how operators make better decisions.
+              {copy.description}
             </p>
           </FadeUp>
         </div>
@@ -325,7 +327,7 @@ export default function FAQPage() {
       {/* Quick Links */}
       <section className="py-12 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] border-b">
         <div className="max-w-7xl mx-auto">
-          <p className="text-center text-sm text-[var(--text-supporting)] mb-4">Jump to category:</p>
+          <p className="text-center text-sm text-[var(--text-supporting)] mb-4">{copy.jumpToCategory}</p>
           <div className="flex flex-wrap justify-center gap-3">
             {faqCategories.map((category) => (
               <button
@@ -370,10 +372,10 @@ export default function FAQPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 text-[var(--text-primary)] mb-6">
-            Still Have Questions?
+            {copy.stillHaveQuestions}
           </h2>
           <p className="body-xl mb-8 text-[var(--text-supporting)]">
-            Our team is here to help. Book a demo, contact sales, or start free.
+            {copy.helpDescription}
           </p>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
             <Button
@@ -381,7 +383,7 @@ export default function FAQPage() {
               size="lg"
               onClick={() => cta(REPORT_APP_URL, "start_free_from_faq", { page: "/faq" })}
             >
-              Start Free
+              {copy.startFree}
             </Button>
             <a href={PRICING_URL} target="_blank" rel="noopener noreferrer" className="block">
               <Button
@@ -389,7 +391,7 @@ export default function FAQPage() {
                 size="lg"
                 className="w-full"
               >
-                See Pricing
+                {copy.seePricing}
               </Button>
             </a>
             <Button
@@ -397,18 +399,18 @@ export default function FAQPage() {
               size="lg"
               onClick={() => cta("/demo", "book_demo_from_faq", { page: "/faq" })}
             >
-              Book Demo
+              {copy.bookDemo}
             </Button>
             <Button
               variant="outline-light"
               size="lg"
               onClick={() => cta("/contact", "contact_from_faq", { page: "/faq" })}
             >
-              Contact Us
+              {copy.contactUs}
             </Button>
           </div>
           <p className="text-sm text-[var(--text-muted)] mt-6">
-            Or email us at: <a href="mailto:support@sundae.io" className="text-blue-400 hover:underline">support@sundae.io</a>
+            {copy.emailSupportPrefix} <a href="mailto:support@sundae.io" className="text-blue-400 hover:underline">support@sundae.io</a>
           </p>
         </div>
       </section>

@@ -158,27 +158,27 @@ export const ARCHITECTURE = {
 export const PROOF_POINTS = {
   // Quantifiable outcomes
   outcomes: {
-    laborSavings: "15-20% improvement in labor productivity",
-    foodWasteReduction: "12-18% reduction in food waste",
+    laborSavings: "Clearer labor performance visibility across shifts and locations",
+    foodWasteReduction: "Better waste tracking through unified operational data",
     timeToInsights: "From hours to seconds for key insights",
-    dataAccuracy: "99.9% data accuracy across integrations",
-    customerSatisfaction: "4.8/5 average customer rating"
+    dataAccuracy: "Structured data validation across connected systems",
+    customerSatisfaction: "Built for operator trust and repeat usage"
   },
   
   // Usage stats
   usage: {
-    customers: "Used by 500+ restaurant brands",
-    locations: "Powering 10,000+ locations globally",
-    dataPoints: "Processing 50M+ data points daily",
-    integrations: "80+ platform integrations"
+    customers: "Designed for multi-unit restaurant operators and hospitality groups",
+    locations: "Built to support portfolios across many locations",
+    dataPoints: "Built for continuous operational data ingestion and analysis",
+    integrations: "80+ integrations across POS, labor, delivery, marketing, reservations, guest, and finance systems"
   },
   
   // Customer quotes (anonymized templates)
   testimonials: {
-    laborReduction: "We reduced labor costs by 18% in the first month",
+    laborReduction: "We finally have one place to see labor performance clearly",
     visibilityGain: "Finally have visibility into what's really happening across all locations",
     speedToAction: "Went from weekly reports to real-time decisions",
-    roiRealized: "ROI realized within 60 days"
+    roiRealized: "We started seeing operational value within the first rollout phase"
   }
 } as const;
 
