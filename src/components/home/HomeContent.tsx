@@ -16,7 +16,7 @@ import {
   MockupAlert,
   MockupLiveDot,
 } from "@/components/ui/MockupFrame";
-import { FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
+import { FadeUp } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 
 /* ─── Data ─────────────────────────────────────────────────────── */
@@ -282,9 +282,9 @@ export default function HomeContent() {
             </FadeUp>
 
             {/* Top row: 3 pillars */}
-            <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-5">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-5">
               {platform.layers.slice(0, 3).map((layer) => (
-                <StaggerItem key={layer.name}>
+                <div key={layer.name}>
                   <LayerCard
                     layer={layer}
                     icon={layerIcons[layer.name]}
@@ -292,14 +292,14 @@ export default function HomeContent() {
                     learnMoreLabel={platform.learnMore}
                     cta={cta}
                   />
-                </StaggerItem>
+                </div>
               ))}
-            </StaggerContainer>
+            </div>
 
             {/* Bottom row: 3 pillars */}
-            <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-5">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
               {platform.layers.slice(3).map((layer) => (
-                <StaggerItem key={layer.name}>
+                <div key={layer.name}>
                   <LayerCard
                     layer={layer}
                     icon={layerIcons[layer.name]}
@@ -307,9 +307,9 @@ export default function HomeContent() {
                     learnMoreLabel={platform.learnMore}
                     cta={cta}
                   />
-                </StaggerItem>
+                </div>
               ))}
-            </StaggerContainer>
+            </div>
 
             <FadeUp delay={0.2} className="text-center mt-14">
               <Button
@@ -340,9 +340,9 @@ export default function HomeContent() {
               </p>
             </FadeUp>
 
-            <StaggerContainer className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3" staggerDelay={0.05}>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
               {modules.categories.map((mod, index: number) => (
-                <StaggerItem key={mod.name}>
+                <div key={mod.name}>
                   <div className="group p-3 sm:p-4 rounded-xl bg-white/[0.03] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:border-[rgba(28,71,255,0.2)] transition-all duration-300">
                     <div className="w-9 h-9 rounded-lg bg-[var(--surface-hover)] flex items-center justify-center mb-3">
                       <SundaeIcon name={moduleIcons[index] || "sync"} size="sm" className="text-[var(--text-supporting)] group-hover:text-[#60A5FA] transition-colors" />
@@ -350,9 +350,9 @@ export default function HomeContent() {
                     <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-1">{mod.name}</h3>
                     <p className="text-[11px] text-[var(--text-muted)]">{mod.count}</p>
                   </div>
-                </StaggerItem>
+                </div>
               ))}
-            </StaggerContainer>
+            </div>
           </div>
         </section>
 
@@ -373,9 +373,9 @@ export default function HomeContent() {
               </p>
             </FadeUp>
 
-            <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
               {personas.roles.map((persona, index: number) => (
-                <StaggerItem key={persona.title}>
+                <div key={persona.title}>
                   <div className="h-full p-6 rounded-2xl bg-white/[0.03] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:border-white/[0.12] transition-all duration-300">
                     <div className="flex items-center gap-4 mb-4">
                       <div className="w-11 h-11 bg-gradient-to-br from-[#1C47FF] to-[#3B82F6] rounded-xl flex items-center justify-center text-white flex-shrink-0">
@@ -388,9 +388,9 @@ export default function HomeContent() {
                     </p>
                     <p className="text-sm text-[var(--text-muted)] leading-relaxed">{persona.outcome}</p>
                   </div>
-                </StaggerItem>
+                </div>
               ))}
-            </StaggerContainer>
+            </div>
           </div>
         </section>
 

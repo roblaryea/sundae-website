@@ -8,6 +8,7 @@ import { PRICING_URL } from '@/lib/links';
 import { SIGNUP_URL } from '@/lib/urls';
 import { useWebsiteI18n } from './i18n/LocaleProvider';
 import { LocaleSwitcher } from './i18n/LocaleSwitcher';
+import { localizeWebsiteHref } from '@/lib/i18n';
 
 type FooterLink = {
   name: string;
@@ -20,11 +21,12 @@ type FooterResourceLink = FooterLink & {
 };
 
 const Footer = () => {
-  const { messages } = useWebsiteI18n();
+  const { locale, messages } = useWebsiteI18n();
   const footer = messages.footer;
   const nav = messages.navbar;
   const cta = useCta();
   const currentYear = new Date().getFullYear();
+  const localizeHref = (href: string) => localizeWebsiteHref(href, locale);
 
   const pillarLinks = [
     ...nav.pillars.slice(0, 5).map((item) => ({ name: item.name, href: item.href })),
@@ -62,7 +64,7 @@ const Footer = () => {
             <Button
               variant="primary"
               size="lg"
-              onClick={() => cta("/demo", "book_demo_footer", { location: "footer" })}
+              onClick={() => cta(localizeHref("/demo"), "book_demo_footer", { location: "footer" })}
             >
               {footer.bookDemo}
             </Button>
@@ -82,7 +84,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 sm:gap-8 lg:gap-10">
           {/* Brand Section */}
           <div className="col-span-1 sm:col-span-2 md:col-span-4 lg:col-span-2">
-            <Link href="/" className="inline-block mb-4" aria-label="Sundae - Return to homepage">
+            <Link href={localizeHref('/')} className="inline-block mb-4" aria-label="Sundae - Return to homepage">
               <Image
                 src="/logos/sundae-wordmark-white.svg"
                 alt="Sundae"
@@ -134,7 +136,7 @@ const Footer = () => {
             <ul className="space-y-2">
               {pillarLinks.map((link) => (
                 <li key={link.name}>
-                  <Link href={link.href} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
+                  <Link href={localizeHref(link.href)} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
                     {link.name}
                   </Link>
                 </li>
@@ -144,7 +146,7 @@ const Footer = () => {
             <ul className="space-y-2">
               {planLinks.map((link) => (
                 <li key={link.name}>
-                  <Link href={link.href} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
+                  <Link href={localizeHref(link.href)} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
                     {link.name}
                   </Link>
                 </li>
@@ -163,7 +165,7 @@ const Footer = () => {
             <ul className="space-y-2">
               {solutionsBySegment.map((link) => (
                 <li key={link.name}>
-                  <Link href={link.href} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
+                  <Link href={localizeHref(link.href)} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
                     {link.name}
                   </Link>
                 </li>
@@ -173,7 +175,7 @@ const Footer = () => {
             <ul className="space-y-2">
               {solutionsByRole.map((link) => (
                 <li key={link.name}>
-                  <Link href={link.href} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
+                  <Link href={localizeHref(link.href)} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
                     {link.name}
                   </Link>
                 </li>
@@ -189,13 +191,13 @@ const Footer = () => {
                 <li key={link.name}>
                   {link.tracked ? (
                     <button
-                      onClick={() => cta(link.href, "view_tools_footer", { location: "footer" })}
+                      onClick={() => cta(localizeHref(link.href), "view_tools_footer", { location: "footer" })}
                       className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm bg-transparent border-none cursor-pointer p-0 text-left"
                     >
                       {link.name}
                     </button>
                   ) : (
-                    <Link href={link.href} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
+                    <Link href={localizeHref(link.href)} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
                       {link.name}
                     </Link>
                   )}
@@ -207,7 +209,7 @@ const Footer = () => {
             <ul className="space-y-2">
               {companyLinks.map((link) => (
                 <li key={link.name}>
-                  <Link href={link.href} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
+                  <Link href={localizeHref(link.href)} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors text-sm">
                     {link.name}
                   </Link>
                 </li>
@@ -223,10 +225,10 @@ const Footer = () => {
               &copy; {currentYear} Sundae. {footer.copyrightSuffix}
             </p>
             <div className="flex items-center gap-5 text-xs">
-              <Link href="/privacy" className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors">
+              <Link href={localizeHref('/privacy')} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors">
                 {footer.privacy}
               </Link>
-              <Link href="/terms" className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors">
+              <Link href={localizeHref('/terms')} className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors">
                 {footer.terms}
               </Link>
             </div>

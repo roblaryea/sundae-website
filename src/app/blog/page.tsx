@@ -5,10 +5,10 @@ import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { motion } from "framer-motion";
-import { BlogCategory } from "@/lib/blogData";
+import type { BlogCategory } from "@/content/blog/types";
 import { getLocalizedBlogPosts } from "@/lib/blogTranslations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import type { WebsiteLocale } from "@/lib/i18n";
+import { getLocalizedPathname, type WebsiteLocale } from "@/lib/i18n";
 import { PageHero, PageCTA, FadeUp } from "@/components/ui/PageAnimations";
 
 type BlogPageCopy = {
@@ -128,6 +128,10 @@ export default function BlogPage() {
   const [selectedCategory, setSelectedCategory] = useState<BlogCategory | 'All'>('All');
   const copy = localizedBlogPageCopy[locale];
   const localizedPosts = getLocalizedBlogPosts(locale);
+  const blogHref = (slug: string) => getLocalizedPathname(`/blog/${slug}`, locale);
+  const englishBlogHref = getLocalizedPathname('/blog', 'en');
+  const demoHref = getLocalizedPathname('/demo', locale);
+  const contactHref = getLocalizedPathname('/contact', locale);
 
   const categories: Array<BlogCategory | 'All'> = [
     'All',
@@ -214,7 +218,7 @@ export default function BlogPage() {
                           {post.summary}
                         </CardDescription>
                         <div className="pt-4 border-t border-[var(--border-default)]">
-                          <Link href={`/blog/${post.slug}`}>
+                          <Link href={blogHref(post.slug)}>
                             <Button variant="ghost" size="sm" className="group-hover:text-[var(--text-primary)] w-full">
                               {copy.readMore}
                             </Button>
@@ -234,7 +238,7 @@ export default function BlogPage() {
                   <p className="text-[var(--text-supporting)] mb-6">
                     {copy.noArticlesDescription}
                   </p>
-                  <Link href="/blog">
+                  <Link href={englishBlogHref}>
                     <Button variant="cta" size="lg" onClick={() => window.document.cookie = 'sundae_locale=en; path=/; max-age=31536000; samesite=lax'}>
                       {copy.browseEnglish}
                     </Button>
@@ -251,8 +255,8 @@ export default function BlogPage() {
         title={copy.stayInTheLoop}
         description={copy.ctaDescription}
       >
-        <Button variant="cta" size="lg" href="/demo">{copy.bookDemo}</Button>
-        <Button variant="outline-light" size="lg" href="/contact">{copy.contactUs}</Button>
+        <Button variant="cta" size="lg" href={demoHref}>{copy.bookDemo}</Button>
+        <Button variant="outline-light" size="lg" href={contactHref}>{copy.contactUs}</Button>
       </PageCTA>
     </div>
   );

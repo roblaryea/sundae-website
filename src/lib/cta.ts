@@ -104,6 +104,23 @@ export const getUtmParams = (): Record<string, string> => {
  * Use this in React components for CTA clicks
  */
 import { useRouter } from "next/navigation";
+import {
+  WEBSITE_LOCALE_COOKIE,
+  localizeWebsiteHref,
+  normalizeWebsiteLocale,
+} from "@/lib/i18n";
+
+const resolveClientLocale = () => {
+  if (typeof document !== "undefined" && document.documentElement.lang) {
+    return normalizeWebsiteLocale(document.documentElement.lang);
+  }
+
+  if (typeof window !== "undefined") {
+    return normalizeWebsiteLocale(window.localStorage.getItem(WEBSITE_LOCALE_COOKIE));
+  }
+
+  return normalizeWebsiteLocale();
+};
 
 export const useCta = () => {
   const router = useRouter();
@@ -115,8 +132,8 @@ export const useCta = () => {
       ...metadata,
     });
     
-    // Append UTM parameters
-    const finalUrl = appendUtm(url);
+    const localizedUrl = localizeWebsiteHref(url, resolveClientLocale());
+    const finalUrl = appendUtm(localizedUrl);
     
     // Navigate based on URL type
     if (finalUrl.startsWith("http")) {
@@ -150,7 +167,7 @@ export const createCtaHandler = (
       ...metadata,
     });
     
-    const finalUrl = appendUtm(url);
+    const finalUrl = appendUtm(localizeWebsiteHref(url, resolveClientLocale()));
     
     if (finalUrl.startsWith("http")) {
       window.location.href = finalUrl;

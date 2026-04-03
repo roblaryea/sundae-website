@@ -1,5 +1,8 @@
 export const websiteLocales = ['en', 'ar', 'fr', 'es'] as const
 export type WebsiteLocale = (typeof websiteLocales)[number]
+export const defaultWebsiteLocale: WebsiteLocale = 'en'
+export const WEBSITE_LOCALE_HEADER = 'x-sundae-locale'
+export const WEBSITE_PUBLIC_PATH_HEADER = 'x-sundae-public-path'
 
 type CookieStoreLike = {
   get(name: string): { value?: string } | undefined
@@ -22,7 +25,7 @@ export const websiteLocaleDirection: Record<WebsiteLocale, 'ltr' | 'rtl'> = {
 }
 
 export function normalizeWebsiteLocale(locale?: string | null): WebsiteLocale {
-  if (!locale) return 'en'
+  if (!locale) return defaultWebsiteLocale
   const normalized = locale.trim().toLowerCase()
   if ((websiteLocales as readonly string[]).includes(normalized)) {
     return normalized as WebsiteLocale
@@ -31,11 +34,91 @@ export function normalizeWebsiteLocale(locale?: string | null): WebsiteLocale {
   if ((websiteLocales as readonly string[]).includes(prefix)) {
     return prefix as WebsiteLocale
   }
-  return 'en'
+  return defaultWebsiteLocale
 }
 
 export function resolveWebsiteLocale(cookieStore?: CookieStoreLike | null) {
   return normalizeWebsiteLocale(cookieStore?.get(WEBSITE_LOCALE_COOKIE)?.value)
+}
+
+export function normalizeWebsitePathname(pathname?: string | null): string {
+  if (!pathname || pathname === '') return '/'
+  const normalized = pathname.startsWith('/') ? pathname : `/${pathname}`
+  if (normalized === '/') return normalized
+  return normalized.replace(/\/+$/, '') || '/'
+}
+
+export function parseWebsiteLocaleFromPathname(pathname?: string | null): {
+  locale: WebsiteLocale | null
+  pathname: string
+} {
+  const normalizedPathname = normalizeWebsitePathname(pathname)
+  const segments = normalizedPathname.split('/').filter(Boolean)
+  const firstSegment = segments[0]
+
+  if ((websiteLocales as readonly string[]).includes(firstSegment)) {
+    const locale = firstSegment as WebsiteLocale
+    const pathnameWithoutLocale = `/${segments.slice(1).join('/')}` || '/'
+    return {
+      locale,
+      pathname: normalizeWebsitePathname(pathnameWithoutLocale),
+    }
+  }
+
+  return {
+    locale: null,
+    pathname: normalizedPathname,
+  }
+}
+
+export function getLocalizedPathname(pathname: string, locale: WebsiteLocale): string {
+  const { pathname: basePathname } = parseWebsiteLocaleFromPathname(pathname)
+
+  if (locale === defaultWebsiteLocale) {
+    return basePathname
+  }
+
+  return basePathname === '/'
+    ? `/${locale}`
+    : `/${locale}${basePathname}`
+}
+
+export function localizeWebsiteHref(href: string, locale: WebsiteLocale): string {
+  if (
+    href.startsWith('http://') ||
+    href.startsWith('https://') ||
+    href.startsWith('mailto:') ||
+    href.startsWith('tel:') ||
+    href.startsWith('#')
+  ) {
+    return href
+  }
+
+  const [pathWithMaybeSearch = '/', hashFragment = ''] = href.split('#', 2)
+  const [pathname = '/', search = ''] = pathWithMaybeSearch.split('?', 2)
+  const localizedPathname = getLocalizedPathname(pathname, locale)
+  const searchSuffix = search ? `?${search}` : ''
+  const hashSuffix = hashFragment ? `#${hashFragment}` : ''
+
+  return `${localizedPathname}${searchSuffix}${hashSuffix}`
+}
+
+export function buildWebsiteAlternateUrls(pathname: string, baseUrl: string) {
+  const canonicalPathname = normalizeWebsitePathname(pathname)
+  const localizedEntries = Object.fromEntries(
+    websiteLocales.map((locale) => [
+      locale,
+      new URL(getLocalizedPathname(canonicalPathname, locale), baseUrl).toString(),
+    ]),
+  ) as Record<WebsiteLocale, string>
+
+  return {
+    canonical: localizedEntries[defaultWebsiteLocale],
+    languages: {
+      ...localizedEntries,
+      'x-default': localizedEntries[defaultWebsiteLocale],
+    },
+  }
 }
 
 export const websiteMessages = {

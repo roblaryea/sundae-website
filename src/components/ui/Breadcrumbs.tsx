@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { SITE_URL } from '@/lib/urls';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
+import { getLocalizedPathname, parseWebsiteLocaleFromPathname } from '@/lib/i18n';
 
 const LABEL_MAP: Record<string, Record<string, string>> = {
   en: {
@@ -128,22 +129,24 @@ function formatSegment(segment: string, locale: keyof typeof LABEL_MAP): string 
 export function Breadcrumbs({ className = '' }: { className?: string }) {
   const pathname = usePathname();
   const { locale, messages } = useWebsiteI18n();
+  const { pathname: unlocalizedPathname } = parseWebsiteLocaleFromPathname(pathname);
 
   // Don't render on homepage
-  if (pathname === '/') return null;
+  if (unlocalizedPathname === '/') return null;
 
-  const segments = pathname.split('/').filter(Boolean);
+  const segments = unlocalizedPathname.split('/').filter(Boolean);
   const crumbs = segments.map((seg, i) => ({
     label: formatSegment(seg, locale),
-    href: '/' + segments.slice(0, i + 1).join('/'),
+    href: getLocalizedPathname('/' + segments.slice(0, i + 1).join('/'), locale),
   }));
+  const homeHref = getLocalizedPathname('/', locale);
 
   // JSON-LD structured data for SEO
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: messages.layout.skipToContent ? (locale === 'ar' ? 'الرئيسية' : locale === 'fr' ? 'Accueil' : locale === 'es' ? 'Inicio' : 'Home') : 'Home', item: `${SITE_URL}/` },
+      { '@type': 'ListItem', position: 1, name: messages.layout.skipToContent ? (locale === 'ar' ? 'الرئيسية' : locale === 'fr' ? 'Accueil' : locale === 'es' ? 'Inicio' : 'Home') : 'Home', item: `${SITE_URL}${homeHref}` },
       ...crumbs.map((crumb, i) => ({
         '@type': 'ListItem',
         position: i + 2,
@@ -163,7 +166,7 @@ export function Breadcrumbs({ className = '' }: { className?: string }) {
         <ol className="flex items-center gap-1.5 flex-wrap">
           <li>
             <Link
-              href="/"
+              href={homeHref}
               className="text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors"
             >
               {locale === 'ar' ? 'الرئيسية' : locale === 'fr' ? 'Accueil' : locale === 'es' ? 'Inicio' : 'Home'}

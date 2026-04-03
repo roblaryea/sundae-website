@@ -13,6 +13,7 @@ import { REPORT_APP_URL, SIGNUP_URL } from '@/lib/urls';
 import { ThemeToggle } from './ui/ThemeToggle';
 import { useWebsiteI18n } from './i18n/LocaleProvider';
 import { LocaleSwitcher } from './i18n/LocaleSwitcher';
+import { localizeWebsiteHref } from '@/lib/i18n';
 
 type NavbarLink = {
   name: string;
@@ -105,7 +106,7 @@ const MobileNavLink = ({ href, children, onClick, isHighlighted = false, dataAtt
 );
 
 const Navbar = () => {
-  const { messages } = useWebsiteI18n();
+  const { locale, messages } = useWebsiteI18n();
   const nav = messages.navbar;
   const cta = useCta();
   const [isScrolled, setIsScrolled] = useState(false);
@@ -199,6 +200,7 @@ const Navbar = () => {
   const solutionsRoles: ReadonlyArray<NavbarLink> = nav.solutionsRoles;
 
   const resources: ReadonlyArray<NavbarLink> = nav.resourcesList;
+  const localizeHref = (href: string) => localizeWebsiteHref(href, locale);
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-300 backdrop-blur-md border-b ${
@@ -209,7 +211,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo - Left Aligned with Animation */}
-          <Link href="/" className="flex items-center group">
+          <Link href={localizeHref('/')} className="flex items-center group">
             <div className="relative">
               <Image
                 src="/logos/sundae-wordmark-white.svg"
@@ -262,7 +264,7 @@ const Navbar = () => {
                       {pillars.map((pillar) => (
                         <Link
                           key={pillar.name}
-                          href={pillar.href}
+                          href={localizeHref(pillar.href)}
                           className="block p-3 rounded-lg hover:bg-[var(--surface-hover)] transition-colors duration-200"
                           onClick={() => setActiveDropdown(null)}
                         >
@@ -289,7 +291,7 @@ const Navbar = () => {
                       {plans.map((plan) => (
                         <Link
                           key={plan.name}
-                          href={plan.href}
+                          href={localizeHref(plan.href)}
                           className="block p-3 rounded-lg hover:bg-[var(--surface-hover)] transition-colors duration-200"
                           onClick={() => setActiveDropdown(null)}
                         >
@@ -304,7 +306,7 @@ const Navbar = () => {
                     </div>
                     <div className="flex items-center gap-4 px-3">
                       <Link
-                        href="/report-vs-core"
+                        href={localizeHref('/report-vs-core')}
                         className="text-sm font-medium text-[var(--text-supporting)] hover:text-[var(--text-primary)] transition-colors"
                         onClick={() => setActiveDropdown(null)}
                       >
@@ -353,7 +355,7 @@ const Navbar = () => {
                       {solutionsSegments.map((solution) => (
                         <Link
                           key={solution.name}
-                          href={solution.href}
+                          href={localizeHref(solution.href)}
                           className="block p-3 rounded-lg hover:bg-[var(--surface-hover)] transition-colors duration-200"
                           onClick={() => setActiveDropdown(null)}
                         >
@@ -377,7 +379,7 @@ const Navbar = () => {
                       {solutionsRoles.map((solution) => (
                         <Link
                           key={solution.name}
-                          href={solution.href}
+                          href={localizeHref(solution.href)}
                           className="block p-3 rounded-lg hover:bg-[var(--surface-hover)] transition-colors duration-200"
                           onClick={() => setActiveDropdown(null)}
                         >
@@ -397,7 +399,7 @@ const Navbar = () => {
               {nav.pricing}
             </a>
 
-            <Link href="/about" className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors duration-200 font-medium text-sm">
+            <Link href={localizeHref('/about')} className="text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors duration-200 font-medium text-sm">
               {nav.about}
             </Link>
             
@@ -428,7 +430,7 @@ const Navbar = () => {
                     {resources.map((resource) => (
                       <Link
                         key={resource.name}
-                        href={resource.href}
+                        href={localizeHref(resource.href)}
                         className="block p-3 rounded-lg hover:bg-[var(--surface-hover)] transition-colors duration-200"
                         onClick={() => setActiveDropdown(null)}
                       >
@@ -451,7 +453,7 @@ const Navbar = () => {
             <Button
               variant="outline"
               size="sm"
-              onClick={() => cta("/sign-in", "sign_in_navbar", { location: "navbar" })}
+              onClick={() => cta(localizeHref("/sign-in"), "sign_in_navbar", { location: "navbar" })}
               data-cta="sign_in_navbar"
               data-source="navbar"
             >
@@ -460,7 +462,7 @@ const Navbar = () => {
             <Button 
               variant="primary" 
               size="sm"
-              onClick={() => cta("/demo", "book_demo_navbar", { location: "navbar" })}
+              onClick={() => cta(localizeHref("/demo"), "book_demo_navbar", { location: "navbar" })}
               data-cta="book_demo_navbar"
               data-source="navbar"
             >
@@ -577,7 +579,7 @@ const Navbar = () => {
               {pillars.map((pillar) => (
                 <MobileNavLink
                   key={pillar.name}
-                  href={pillar.href}
+                  href={localizeHref(pillar.href)}
                   onClick={handleMobileNavClick}
                 >
                   {pillar.name}
@@ -590,14 +592,14 @@ const Navbar = () => {
               {plans.map((plan) => (
                 <MobileNavLink
                   key={plan.name}
-                  href={plan.href}
+                  href={localizeHref(plan.href)}
                   onClick={handleMobileNavClick}
                 >
                   {plan.name}
                 </MobileNavLink>
               ))}
               <MobileNavLink
-                href="/report-vs-core"
+                href={localizeHref('/report-vs-core')}
                 onClick={handleMobileNavClick}
               >
                 {nav.comparePlans}
@@ -624,7 +626,7 @@ const Navbar = () => {
               {solutionsSegments.map((solution) => (
                 <MobileNavLink
                   key={solution.name}
-                  href={solution.href}
+                  href={localizeHref(solution.href)}
                   onClick={handleMobileNavClick}
                 >
                   {solution.name}
@@ -637,7 +639,7 @@ const Navbar = () => {
               {solutionsRoles.map((solution) => (
                 <MobileNavLink
                   key={solution.name}
-                  href={solution.href}
+                  href={localizeHref(solution.href)}
                   onClick={handleMobileNavClick}
                 >
                   {solution.name}
@@ -655,7 +657,7 @@ const Navbar = () => {
               {resources.map((resource) => (
                 <MobileNavLink
                   key={resource.name}
-                  href={resource.href}
+                  href={localizeHref(resource.href)}
                   onClick={handleMobileNavClick}
                 >
                   {resource.name}
@@ -676,7 +678,7 @@ const Navbar = () => {
               >
                 {nav.pricing}
               </a>
-              <MobileNavLink href="/about" onClick={handleMobileNavClick}>
+              <MobileNavLink href={localizeHref('/about')} onClick={handleMobileNavClick}>
                 {nav.about}
               </MobileNavLink>
             </AccordionSection>
@@ -689,7 +691,7 @@ const Navbar = () => {
               <ThemeToggle />
               <div className="flex flex-1 gap-3">
               <Link
-                href="/sign-in"
+                href={localizeHref('/sign-in')}
                 onClick={handleMobileNavClick}
                 className="flex-1 py-2.5 px-4 text-center text-sm font-medium border border-[var(--border-emphasis)] rounded-lg text-[var(--text-secondary)] hover:bg-[var(--surface-hover)] transition-colors"
                 data-cta="sign_in_mobile_nav"
@@ -702,7 +704,7 @@ const Navbar = () => {
                 size="sm"
                 className="flex-1"
                 onClick={() => {
-                  cta("/demo", "book_demo_mobile_nav", { location: "mobile-nav" });
+                  cta(localizeHref("/demo"), "book_demo_mobile_nav", { location: "mobile-nav" });
                   setIsMenuOpen(false);
                 }}
                 data-cta="book_demo_mobile_nav"
