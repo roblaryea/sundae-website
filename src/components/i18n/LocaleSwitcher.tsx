@@ -2,8 +2,8 @@
 
 import { usePathname, useRouter, useSearchParams } from 'next/navigation'
 import {
-  WEBSITE_LOCALE_COOKIE,
   getLocalizedPathname,
+  persistWebsiteLocalePreference,
   websiteLocaleDirection,
   websiteLocaleNames,
   websiteLocales,
@@ -33,8 +33,7 @@ export function LocaleSwitcher() {
           setLocale(nextLocale)
           document.documentElement.lang = nextLocale
           document.documentElement.dir = websiteLocaleDirection[nextLocale]
-          document.cookie = `${WEBSITE_LOCALE_COOKIE}=${nextLocale}; path=/; max-age=31536000; samesite=lax`
-          window.localStorage.setItem(WEBSITE_LOCALE_COOKIE, nextLocale)
+          persistWebsiteLocalePreference(nextLocale)
           router.push(nextUrl)
           router.refresh()
         }}

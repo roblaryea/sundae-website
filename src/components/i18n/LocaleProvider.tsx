@@ -9,9 +9,9 @@ import {
   type ReactNode,
 } from 'react'
 import {
-  WEBSITE_LOCALE_COOKIE,
   getWebsiteMessages,
   normalizeWebsiteLocale,
+  persistWebsiteLocalePreference,
   type WebsiteMessages,
   websiteLocaleDirection,
   type WebsiteLocale,
@@ -43,14 +43,17 @@ export function LocaleProvider({
     const dir = websiteLocaleDirection[locale]
     document.documentElement.lang = locale
     document.documentElement.dir = dir
-    document.cookie = `${WEBSITE_LOCALE_COOKIE}=${locale}; path=/; max-age=31536000; samesite=lax`
-    window.localStorage.setItem(WEBSITE_LOCALE_COOKIE, locale)
+    persistWebsiteLocalePreference(locale)
   }, [locale])
 
   const value = useMemo<LocaleContextValue>(
     () => ({
       locale,
-      setLocale: (nextLocale) => setLocaleState(normalizeWebsiteLocale(nextLocale)),
+      setLocale: (nextLocale) => {
+        const normalized = normalizeWebsiteLocale(nextLocale)
+        persistWebsiteLocalePreference(normalized)
+        setLocaleState(normalized)
+      },
       messages: getWebsiteMessages(locale),
       dir: websiteLocaleDirection[locale],
     }),

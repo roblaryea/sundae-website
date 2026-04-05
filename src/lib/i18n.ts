@@ -10,6 +10,47 @@ type CookieStoreLike = {
 
 export const WEBSITE_LOCALE_COOKIE = 'sundae_locale'
 
+export function getSharedWebsiteCookieDomain(hostname?: string | null): string | undefined {
+  const resolvedHostname =
+    hostname?.toLowerCase() ??
+    (typeof window !== 'undefined' ? window.location.hostname.toLowerCase() : undefined)
+
+  if (!resolvedHostname) return undefined
+
+  const isLocalhost =
+    resolvedHostname === 'localhost' ||
+    resolvedHostname === '127.0.0.1' ||
+    resolvedHostname.endsWith('.localhost')
+
+  if (isLocalhost) return undefined
+
+  if (resolvedHostname === 'sundae.io' || resolvedHostname.endsWith('.sundae.io')) {
+    return '.sundae.io'
+  }
+
+  if (resolvedHostname === 'sundaetech.ai' || resolvedHostname.endsWith('.sundaetech.ai')) {
+    return '.sundaetech.ai'
+  }
+
+  return undefined
+}
+
+export function persistWebsiteLocalePreference(locale: WebsiteLocale) {
+  if (typeof window === 'undefined') return
+
+  const attrs = ['path=/', 'max-age=31536000', 'samesite=lax']
+  const domain = getSharedWebsiteCookieDomain()
+  if (domain) {
+    attrs.push(`domain=${domain}`)
+  }
+  if (window.location.protocol === 'https:') {
+    attrs.push('secure')
+  }
+
+  document.cookie = `${WEBSITE_LOCALE_COOKIE}=${locale}; ${attrs.join('; ')}`
+  window.localStorage.setItem(WEBSITE_LOCALE_COOKIE, locale)
+}
+
 export const websiteLocaleNames: Record<WebsiteLocale, string> = {
   en: 'English',
   ar: 'العربية',

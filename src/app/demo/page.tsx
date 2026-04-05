@@ -5,7 +5,6 @@ import { cookies } from 'next/headers';
 import { Button } from '@/components/ui/Button';
 import { LeadCaptureForm } from '@/components/marketing/LeadCaptureForm';
 import { SundaeIcon, type SundaeIconName } from '@/components/icons';
-import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { getWebsiteMessages, resolveWebsiteLocale } from '@/lib/i18n';
 import { PRICING_URL } from '@/lib/links';
 
@@ -18,9 +17,9 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default function DemoPage() {
-  const { messages } = useWebsiteI18n();
-  const copy = messages.pages.demo;
+export default async function DemoPage() {
+  const locale = resolveWebsiteLocale(await cookies());
+  const copy = getWebsiteMessages(locale).pages.demo;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
