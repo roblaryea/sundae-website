@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import type { WebsiteLocale } from "@/lib/i18n";
 
@@ -78,6 +79,7 @@ function dispatchConsentEvent(status: ConsentStatus) {
 
 export function CookieConsent() {
   const { locale } = useWebsiteI18n();
+  const pathname = usePathname();
   const copy = cookieConsentCopy[locale] ?? cookieConsentCopy.en;
   const [visible, setVisible] = useState(() => {
     if (typeof window === "undefined") return false;
@@ -105,7 +107,7 @@ export function CookieConsent() {
     dispatchConsentEvent("declined");
   }, []);
 
-  if (!visible) return null;
+  if (!visible || pathname === "/tiktok-review") return null;
 
   return (
     <div
