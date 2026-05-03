@@ -7042,9 +7042,9 @@ All data stored in Sundae's database is encrypted at rest using AES-256 encrypti
 
 Encryption keys are managed through a dedicated key management service, separate from the application infrastructure. Key rotation follows industry best practices.
 
-**Backup Encryption**
+**Backup Responsibilities**
 
-Database backups  -  which are essential for disaster recovery  -  are also encrypted at rest. Backup access is restricted to infrastructure team members with explicit authorization, and all backup access is logged and auditable.
+Backup responsibilities depend on your deployment model. In Sundae-managed environments, backups may be encrypted and access-controlled as part of the hosted infrastructure. In client-hosted environments, you are responsible for backup configuration, retention, access control, and auditability on your own infrastructure.
 
 ## Authentication and Session Security
 
