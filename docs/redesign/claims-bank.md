@@ -57,7 +57,7 @@ Each row in the tables below has:
 Footnotes that must appear on any page where the linked claim renders:
 
 - **FN-1**: "Refresh frequency varies by Core tier. See pricing for details." → applies to any tier-specific refresh stat
-- **FN-2** (TBD): definition of "pilot location" once CLM-004 is resolved
+- **FN-2**: no longer used on homepage. CLM-004 now renders as "operators across 500+ restaurant locations" and is approved as a represented-location claim, not a live/pilot-location count.
 - **FN-3**: "Illustrative scenario based on Pulse, Watchtower, and Sundae Coach capabilities. Actual signals vary by configuration." → applies to the entire 4D scroll-scene
 
 ---
@@ -104,11 +104,11 @@ Footnotes that must appear on any page where the linked claim renders:
 |---|---|---|---|---|---|---|
 | CLM-201 | `Decisions before the margin disappears.` | Hero headline | **APPROVED PUBLIC** | Brand positioning | Robert | The page-defining line. |
 | CLM-202 | `Reports tell you what happened. [Sundae wordmark] tells you what to do next.` | Section 4 headline | **APPROVED PUBLIC** | Brand positioning | Robert | r8 update: "Sundae" replaced inline with the Sundae wordmark logotype in the rendered headline. r7 wording preserved otherwise. |
-| CLM-203a | `Generic BI tools are excellent at building dashboards. They were not built to run restaurant shifts. Sundae was.` | Section 5 subhead (homepage) | **NEEDS VALIDATION** | Generic-vendor positioning | Legal | Resolved 2026-05: this is the homepage line. It is generic (no specific vendor named) but still a market-wide competitor claim — Legal should review before production launch even though it is safer than the named version. |
+| CLM-203a | `Generic BI tools are excellent at building dashboards. They were not built to run restaurant shifts. Sundae was.` | Section 5 subhead (homepage, retired) | **RETIRED** | Generic-vendor positioning | — | Retired 2026-05 in r7+1 rewrite: Section 5 now uses CLM-204 (`BEYOND DASHBOARDS` eyebrow) + CLM-205 (`The three layers restaurants need beyond dashboards.`) + CLM-208 close. No longer live in homepage source — Legal review no longer required for homepage publish. Reference text retained here for compare-page consideration only. |
 | CLM-203b | `Power BI and Tableau are excellent BI tools. They were not designed as restaurant decision-intelligence platforms.` | `/compare/*` pages (future) | **NEEDS VALIDATION** | Named-competitor positioning | Legal | Reserved for compare pages after Legal review. Do not publish on homepage. Tighter wording than original — concedes competitor strength, frames Sundae as a different category not a feature replacement. |
 | CLM-204 | `BEYOND DASHBOARDS` | Section 5 eyebrow | **APPROVED PUBLIC** | Positioning | Robert | r7+1 update: tightened from "WHAT GENERIC BI TOOLS STRUGGLE TO RETROFIT" — same target, half the words. |
 | CLM-205 | `The three layers restaurants need beyond dashboards.` | Section 5 headline | **APPROVED PUBLIC** | Positioning | Robert | r7+1 update: replaced "moats" with "layers" — operators don't buy moats, they buy what they can finally do. |
-| CLM-206 | `most BI vendors are not built to solve` | Moat #2 close | **NEEDS VALIDATION** | Steel-man positioning | Legal | Generalized rather than naming a specific vendor's failure, but still a market-wide competitive claim. Legal review required before publish. |
+| CLM-206 | `most BI vendors are not built to solve` | Moat #2 close (retired) | **RETIRED** | Steel-man positioning | — | Retired 2026-05 in r7+1 rewrite: layer-2 close was rewritten away from competitive framing. Not live in homepage source. Reference text retained for compare-page consideration only. |
 | CLM-207 | `Compare locations against anonymized peers by format, market, and performance metric. The network gets more useful as more restaurants join.` | Section 5 Layer 3 (Benchmarks) | **APPROVED PUBLIC** | Network-effect framing | Robert | r7+1 update: from "Hard to recreate from a cold start" — now describes the buyer-facing capability AND the network effect, in plain language. |
 | CLM-208 | `Not another dashboard. A restaurant intelligence layer.` | Section 5 close | **APPROVED PUBLIC** | Positioning | Robert | r7+1 update: replaced "That's not a feature gap. That's a category difference." with this buyer-facing close. |
 | CLM-209 | `Fast. Right. Affordable. Pick all three.` | SQC headline | **APPROVED PUBLIC** | Positioning | Robert | The triangle anchor. |
@@ -202,9 +202,9 @@ These are the immediate validation tasks that block specific sections from shipp
 |---|---|---|---|---|
 | P2 | CLM-007 (`30-second answers`) | Eng | Pull p95 latency from Sundae Intelligence telemetry. Confirm or soften. | Section 3 (SQC) |
 | P2 | CLM-303 (working-session format) | Sales | Confirm operational reality matches copy. | Footer pre-CTA / SectionCTA fallback |
-| P3 | CLM-203a (homepage generic-BI subhead) + CLM-203b (compare-page named-vendor line) | Legal | Review market-wide and named-vendor competitor framing. CLM-203a still ships in homepage preview pending review. | Section 5 (Moats) + future `/compare/*` |
-| P2 | Locale parity for new CTA strings (`Book a Working Session` + `Start with Report Lite` + footer headline) | Marketing/Translators | EN updated 2026-05. Arabic, French, Spanish still show old "Book a Demo" / "Start Free with Report" / "Ready to see what you're missing?". | Production launch outside EN markets |
-| P3 | FN-1, FN-2, FN-3 footnote text | Robert | Approve final footnote wording. | Sections 1, 3, 6 |
+| P3 | CLM-203b (compare-page named-vendor line) | Legal | Review named-vendor competitor framing. CLM-203a is now RETIRED from homepage (r7+1). CLM-203b reserved for future `/compare/*` pages — not live anywhere yet. | Future `/compare/*` |
+| P2 | Locale parity for new CTA strings (`Book a Working Session` + `Start with Report Lite` + footer headline) | Marketing/Translators | EN updated 2026-05. Arabic, French, Spanish translated 2026-05 (r12) for nav, footer, and all 10 solutions pages. | Production launch outside EN markets |
+| P3 | FN-1 and FN-3 footnote text | Robert | Approve final footnote wording. | Sections 1 and 6 |
 | Ongoing | CLM-901, 902 (pilot quote + logo wall) | Robert + Sales | Source named operators with attribution permission. | Future v1.2+ release |
 
 ---

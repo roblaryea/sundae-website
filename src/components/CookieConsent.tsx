@@ -81,17 +81,19 @@ export function CookieConsent() {
   const { locale } = useWebsiteI18n();
   const pathname = usePathname();
   const copy = cookieConsentCopy[locale] ?? cookieConsentCopy.en;
-  const [visible, setVisible] = useState(() => {
-    if (typeof window === "undefined") return false;
-    return getConsentStatus() === null;
-  });
+  const [visible, setVisible] = useState(false);
 
   useEffect(() => {
     const status = getConsentStatus();
     if (status === "accepted") {
       loadGA4();
       dispatchConsentEvent("accepted");
+      return;
     }
+    // localStorage is client-only; render nothing for SSR/first client render,
+    // then reveal the banner after hydration if no consent decision exists.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setVisible(status === null);
   }, []);
 
   const handleAccept = useCallback(() => {

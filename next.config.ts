@@ -69,6 +69,31 @@ const nextConfig: NextConfig = {
         destination: '/solutions/regional-managers',
         permanent: true,
       },
+      {
+        source: '/product/scout',
+        destination: '/integrations',
+        permanent: true,
+      },
+      {
+        source: '/product/forge',
+        destination: '/intelligence',
+        permanent: true,
+      },
+      {
+        source: '/product/canvas',
+        destination: '/product',
+        permanent: true,
+      },
+      {
+        source: '/canvas',
+        destination: '/product',
+        permanent: true,
+      },
+      {
+        source: '/nexus',
+        destination: '/intelligence',
+        permanent: true,
+      },
     ];
   },
 };

@@ -235,7 +235,7 @@ const Navbar = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-8">
+          <div className="hidden lg:flex items-center lg:space-x-5 xl:space-x-6 2xl:space-x-8">
             {/* Products Mega Menu */}
             <div className="relative group" onMouseLeave={() => setActiveDropdown(null)}>
               <button
@@ -412,8 +412,8 @@ const Navbar = () => {
           </div>
 
           {/* CTA Buttons — secondary (acquisition) + primary (high-intent).
-              Secondary "Get Your Free Benchmark" only renders at xl+ to keep
-              the lg-range navbar from interlocking when the full menu is shown. */}
+              Secondary renders at 2xl+ so laptop-width nav never clips the
+              high-intent working-session CTA. */}
           <div className="hidden lg:flex items-center space-x-2 xl:space-x-3 shrink-0">
             <LocaleSwitcher />
             <ThemeToggle />
@@ -426,7 +426,7 @@ const Navbar = () => {
             >
               {nav.signIn}
             </Button>
-            <span className="hidden xl:inline-flex">
+            <span className="hidden 2xl:inline-flex">
               <Button
                 variant="outline-light"
                 size="sm"
@@ -441,6 +441,7 @@ const Navbar = () => {
             <Button
               variant="primary"
               size="sm"
+              className="whitespace-nowrap"
               onClick={() => cta(localizeHref("/demo"), "book_demo_navbar", { location: "navbar" })}
               data-cta="book_demo_navbar"
               data-source="navbar"

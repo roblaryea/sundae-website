@@ -14,9 +14,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const corePages = [
     '',
     '/report',
-    '/nexus',
+    '/intelligence',
     '/insights',
-    '/canvas',
     '/about',
     '/demo',
     '/contact',
@@ -33,16 +32,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/docs',
     '/security',
     '/integrations',
+    '/solutions',
   ]
 
   // Product pages
   const productPages = [
     '/product',
-    '/product/scout',
     '/product/pulse',
-    '/product/forge',
-    '/product/canvas',
     '/product/watchtower',
+    '/product/foresight',
+    '/product/cross-intelligence',
+    '/product/sundae-report',
   ]
 
   // Solutions pages

@@ -45,36 +45,36 @@ const localizedResourcesUi = {
   en: {
     productLinks: [
       { name: 'Sundae Report', href: '/report' },
-      { name: 'Sundae Core', href: '/nexus' },
-      { name: 'Sundae Insights', href: '/insights' },
-      { name: 'Sundae Canvas', href: '/canvas' },
+      { name: 'Sundae Core', href: '/product' },
+      { name: 'Sundae Intelligence', href: '/intelligence' },
+      { name: 'Pulse', href: '/product/pulse' },
     ],
     newsletterPlaceholder: 'Enter your email',
   },
   ar: {
     productLinks: [
       { name: 'Sundae Report', href: '/report' },
-      { name: 'Sundae Core', href: '/nexus' },
-      { name: 'Sundae Insights', href: '/insights' },
-      { name: 'Sundae Canvas', href: '/canvas' },
+      { name: 'Sundae Core', href: '/product' },
+      { name: 'Sundae Intelligence', href: '/intelligence' },
+      { name: 'Pulse', href: '/product/pulse' },
     ],
     newsletterPlaceholder: 'البريد الإلكتروني',
   },
   fr: {
     productLinks: [
       { name: 'Sundae Report', href: '/report' },
-      { name: 'Sundae Core', href: '/nexus' },
-      { name: 'Sundae Insights', href: '/insights' },
-      { name: 'Sundae Canvas', href: '/canvas' },
+      { name: 'Sundae Core', href: '/product' },
+      { name: 'Sundae Intelligence', href: '/intelligence' },
+      { name: 'Pulse', href: '/product/pulse' },
     ],
     newsletterPlaceholder: 'Votre email',
   },
   es: {
     productLinks: [
       { name: 'Sundae Report', href: '/report' },
-      { name: 'Sundae Core', href: '/nexus' },
-      { name: 'Sundae Insights', href: '/insights' },
-      { name: 'Sundae Canvas', href: '/canvas' },
+      { name: 'Sundae Core', href: '/product' },
+      { name: 'Sundae Intelligence', href: '/intelligence' },
+      { name: 'Pulse', href: '/product/pulse' },
     ],
     newsletterPlaceholder: 'Tu correo electrónico',
   },
