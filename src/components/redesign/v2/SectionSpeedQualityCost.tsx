@@ -32,32 +32,32 @@ import {
 interface Vertex {
   id: "speed" | "quality" | "cost";
   label: string;
-  stat: string;     // small subtitle under the SVG label
   headline: string;
   body: string;
+  chips: [string, string, string]; // proof chips shown at the bottom of the rotating card
 }
 
 const vertices: Vertex[] = [
   {
     id: "speed",
     label: "Speed",
-    stat: "Days to deploy · seconds to answer",
-    headline: "Days to deploy. Seconds to answer.",
-    body: "Connect your stack in days, not months. Pulse refreshes through the shift, not in next month's report. Sundae Intelligence answers in seconds — with sources, not guesses.",
+    headline: "Deploy in days. Decide in seconds.",
+    body: "Connect your stack fast. Pulse updates through the shift, and Sundae Intelligence answers with sources instead of sending teams back into the report queue.",
+    chips: ["Days to deploy", "Live Core refresh", "Answers in seconds"],
   },
   {
     id: "quality",
     label: "Quality",
-    stat: "179+ models · zero blank canvases",
-    headline: "Restaurant-native. Source-cited.",
-    body: "Generic BI hands you a blank canvas. Sundae ships with 179+ governed restaurant data models, peer-anchored benchmarks, and source-cited AI answers — out of the box.",
+    headline: "Built for restaurants. Governed for decisions.",
+    body: "Sundae ships with 179+ governed restaurant data models, peer-anchored benchmarks, and source-cited AI answers — so teams are not building from a blank BI canvas.",
+    chips: ["179+ models", "Source-cited AI", "Peer benchmarks"],
   },
   {
     id: "cost",
     label: "Cost",
-    stat: "Free to start · lower than BI",
-    headline: "Cheaper than building it in BI.",
-    body: "Generic BI is cheap on license and expensive on everything else — analysts, integration, custom modeling, dashboard upkeep. Sundae ships restaurant-ready out of the box. Report Lite is free to start.",
+    headline: "Lower cost than rebuilding BI around restaurants.",
+    body: "BI licenses are only the visible cost. The real spend is analysts, integrations, custom models, dashboard upkeep, and delayed decisions. Sundae is restaurant-ready from day one, with Report Lite free to start.",
+    chips: ["Report Lite free", "Less custom BI", "Lower analyst load"],
   },
 ];
 
@@ -65,14 +65,22 @@ const vertices: Vertex[] = [
 //   middle = label centered above top vertex
 //   start  = label starts at labelX, extends RIGHT (bottom-right vertex)
 //   end    = label ends at labelX, extends LEFT (bottom-left vertex)
-const trianglePoints: { x: number; y: number; labelX: number; labelY: number; statY: number; anchor: "middle" | "start" | "end" }[] = [
-  { x: 350, y: 90,  labelX: 350, labelY: 58,  statY: 78,  anchor: "middle" }, // Speed (top)
-  { x: 510, y: 380, labelX: 525, labelY: 412, statY: 432, anchor: "start"  }, // Quality (bottom-right)
-  { x: 190, y: 380, labelX: 175, labelY: 412, statY: 432, anchor: "end"    }, // Cost (bottom-left)
+//
+// Tiny stat sublabels under the labels were removed in r7 — the proof chips
+// in the rotating right-side card carry that information more readably and
+// the labels were visually colliding with the active-vertex glow.
+const trianglePoints: { x: number; y: number; labelX: number; labelY: number; anchor: "middle" | "start" | "end" }[] = [
+  { x: 350, y: 90,  labelX: 350, labelY: 56,  anchor: "middle" }, // Speed (top)
+  { x: 510, y: 380, labelX: 525, labelY: 416, anchor: "start"  }, // Quality (bottom-right)
+  { x: 190, y: 380, labelX: 175, labelY: 416, anchor: "end"    }, // Cost (bottom-left)
 ];
 
-const DWELL_DUR_MS = 3500;  // dwell at vertex so the buyer can read the panel
-const TRAVEL_DUR_S = 2.5;   // tracer travel between vertices
+// r7 timing: shorter dwell (2.5s reading) + longer travel (3.5s motion) makes
+// the tracer's edge-to-edge movement clearly visible. r6's 3.5s dwell + 2.5s
+// travel was making the travel feel too brief — buyers saw vertices "light up"
+// without registering the motion in between.
+const DWELL_DUR_MS = 2500;
+const TRAVEL_DUR_S = 3.5;
 
 export function SectionSpeedQualityCost() {
   const reduceMotion = useReducedMotion();
@@ -181,8 +189,9 @@ export function SectionSpeedQualityCost() {
                   <stop offset="100%" stopColor="rgba(28,71,255,0)" />
                 </radialGradient>
                 <filter id="tracerGlow" x="-100%" y="-100%" width="300%" height="300%">
-                  <feGaussianBlur stdDeviation="3.5" result="blur" />
+                  <feGaussianBlur stdDeviation="6" result="blur" />
                   <feMerge>
+                    <feMergeNode in="blur" />
                     <feMergeNode in="blur" />
                     <feMergeNode in="SourceGraphic" />
                   </feMerge>
@@ -238,15 +247,28 @@ export function SectionSpeedQualityCost() {
                 </g>
               )}
 
-              {/* Tracer dot — synced to activeIdx via motion values */}
+              {/* Tracer dot — synced to activeIdx via motion values.
+                  Bigger + brighter glow in r7 so the Quality→Cost segment
+                  (and any horizontal travel) reads clearly. */}
               {useAnimated && (
-                <motion.circle
-                  r="6"
-                  fill="#60A5FA"
-                  filter="url(#tracerGlow)"
-                  cx={tracerX}
-                  cy={tracerY}
-                />
+                <>
+                  {/* Bright glow halo */}
+                  <motion.circle
+                    r="14"
+                    fill="#3B82F6"
+                    opacity="0.35"
+                    filter="url(#tracerGlow)"
+                    cx={tracerX}
+                    cy={tracerY}
+                  />
+                  {/* Solid leading dot */}
+                  <motion.circle
+                    r="9"
+                    fill="#FFFFFF"
+                    cx={tracerX}
+                    cy={tracerY}
+                  />
+                </>
               )}
 
               {/* Vertices — clickable, with stat callouts */}
@@ -310,31 +332,21 @@ export function SectionSpeedQualityCost() {
                     >
                       {i + 1}
                     </text>
-                    {/* Label — grows when active for emphasis */}
+                    {/* Label — grows when active for emphasis. Sublabel was
+                        removed in r7 because tiny SVG text was clipping near
+                        the active glow; proof chips in the right-side card
+                        now carry that info more readably. */}
                     <text
                       x={p.labelX}
                       y={p.labelY}
                       textAnchor={p.anchor}
-                      fontSize={isActive ? "26" : "21"}
+                      fontSize={isActive ? "28" : "22"}
                       fontWeight="800"
                       letterSpacing="0.18em"
                       fill={isActive ? "#FFFFFF" : "rgba(255,255,255,0.55)"}
                       style={{ transition: "all 0.5s cubic-bezier(0.22, 1, 0.36, 1)" }}
                     >
                       {v.label.toUpperCase()}
-                    </text>
-                    {/* Stat callout — fully visible only when vertex is active */}
-                    <text
-                      x={p.labelX}
-                      y={isActive ? p.statY + 4 : p.statY}
-                      textAnchor={p.anchor}
-                      fontSize={isActive ? "13" : "11"}
-                      fontWeight="500"
-                      letterSpacing="0.02em"
-                      fill={isActive ? "#3B82F6" : "rgba(255,255,255,0.32)"}
-                      style={{ transition: "all 0.5s cubic-bezier(0.22, 1, 0.36, 1)" }}
-                    >
-                      {v.stat}
                     </text>
                   </g>
                 );
@@ -357,12 +369,22 @@ export function SectionSpeedQualityCost() {
                   <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">
                     {v.headline}
                   </h3>
-                  <p className="body-base">{v.body}</p>
+                  <p className="body-base mb-4">{v.body}</p>
+                  <div className="flex flex-wrap gap-1.5">
+                    {v.chips.map((chip) => (
+                      <span
+                        key={chip}
+                        className="text-[11px] font-semibold px-2.5 py-1 rounded-full bg-[var(--electric-blue)]/15 text-[var(--electric-blue)] border border-[var(--electric-blue)]/25"
+                      >
+                        {chip}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               ))}
             </div>
           ) : (
-            // Animated: rotating single panel
+            // Animated: rotating single panel with proof chips at the bottom
             <div className="rounded-2xl border border-[var(--border-default)] bg-[var(--surface-subtle)] p-6 sm:p-8 min-h-[300px] flex flex-col">
               <div className="flex-1">
                 <AnimatePresence mode="wait">
@@ -384,32 +406,34 @@ export function SectionSpeedQualityCost() {
                 </AnimatePresence>
               </div>
 
-              {/* Indicator dots — clickable to jump */}
-              <div className="mt-6 flex gap-2 justify-center">
-                {vertices.map((v, i) => (
-                  <button
-                    key={v.id}
-                    type="button"
-                    onClick={() => {
-                      setActiveIdx(i);
-                      setPaused(true);
-                    }}
-                    aria-label={`Show ${v.label}`}
-                    aria-current={i === activeIdx}
-                    className={`h-1.5 rounded-full transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--electric-blue)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--surface-subtle)] ${
-                      i === activeIdx
-                        ? "w-8 bg-[var(--electric-blue)]"
-                        : "w-1.5 bg-[var(--text-faint)] hover:bg-[var(--text-muted)]"
-                    }`}
-                  />
-                ))}
-              </div>
+              {/* Proof chips for the active dimension — replaces dot
+                  indicators with concrete factual signals. Triangle vertices
+                  remain clickable for direct navigation. */}
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={`${activeIdx}-chips`}
+                  initial={{ opacity: 0, y: 8 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -4 }}
+                  transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
+                  className="mt-6 pt-5 border-t border-[var(--border-default)] flex flex-wrap gap-2"
+                >
+                  {vertices[activeIdx].chips.map((chip) => (
+                    <span
+                      key={chip}
+                      className="text-[12px] font-semibold px-3 py-1.5 rounded-full bg-[var(--electric-blue)]/15 text-[var(--electric-blue)] border border-[var(--electric-blue)]/25"
+                    >
+                      {chip}
+                    </span>
+                  ))}
+                </motion.div>
+              </AnimatePresence>
             </div>
           )}
         </div>
 
         <p className="mt-12 sm:mt-14 text-center text-xl sm:text-2xl text-[var(--text-primary)] italic font-light">
-          That&apos;s not a tradeoff. That&apos;s the moat.
+          That&apos;s not a tradeoff. That&apos;s your operating advantage.
         </p>
       </div>
     </section>

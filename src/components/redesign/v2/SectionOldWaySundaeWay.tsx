@@ -21,17 +21,17 @@ import { motion, useReducedMotion } from "framer-motion";
  */
 
 const oldWay = [
-  "Wait for reports.",
-  "Debate the numbers.",
+  "Export the numbers.",
+  "Debate which dashboard is right.",
   "Ask an analyst.",
-  "React next week.",
+  "React after the week is gone.",
 ];
 
 const sundaeWay = [
   "Detect the issue.",
-  "Understand the cause.",
+  "Explain the cause.",
   "Compare the market.",
-  "Act today.",
+  "Act before the shift ends.",
 ];
 
 const replaces = [
@@ -50,11 +50,10 @@ export function SectionOldWaySundaeWay() {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 py-16 sm:py-20 lg:py-24">
         <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-16">
           <div className="eyebrow mb-4">
-            THE REAL ENEMY IS DASHBOARD BUREAUCRACY
+            FROM REPORTING LAG TO OPERATING SPEED
           </div>
           <h2 id="oldway-headline" className="section-h2 text-balance">
-            The old way waits for reports. Sundae acts while there&apos;s still
-            time.
+            Reports tell you what happened. Sundae tells you what to do next.
           </h2>
         </div>
 
@@ -132,28 +131,17 @@ export function SectionOldWaySundaeWay() {
           </motion.div>
         </div>
 
-        {/* Replaces strip */}
-        <div className="mt-12 sm:mt-14 max-w-4xl mx-auto text-center">
-          <div className="text-[11px] uppercase tracking-wider text-[var(--text-muted)] font-semibold mb-4">
-            What Sundae replaces
-          </div>
-          <div className="flex flex-wrap justify-center items-center gap-x-3 gap-y-2 text-sm sm:text-base text-[var(--text-supporting)]">
-            {replaces.map((item, i) => (
-              <span key={item} className="flex items-center gap-3">
-                <span>{item}</span>
-                {i < replaces.length - 1 && (
-                  <span aria-hidden className="text-[var(--text-faint)]">
-                    ·
-                  </span>
-                )}
-              </span>
-            ))}
-          </div>
-        </div>
+        {/* Replaces line — single sentence, less tag-cloud-y than the previous row */}
+        <p className="mt-12 sm:mt-14 max-w-4xl mx-auto text-center text-sm sm:text-base text-[var(--text-supporting)]">
+          <span className="font-semibold text-[var(--text-primary)]">
+            Replaces the delay between data and action:
+          </span>{" "}
+          {replaces.join(" · ")}
+        </p>
 
         {/* Closing line */}
-        <p className="mt-12 sm:mt-14 text-center text-xl sm:text-2xl text-[var(--text-primary)] italic font-light">
-          Same data. Different verdict.
+        <p className="mt-10 sm:mt-12 text-center text-xl sm:text-2xl text-[var(--text-primary)] italic font-light">
+          Same data. Faster decision. Better action.
         </p>
       </div>
     </section>

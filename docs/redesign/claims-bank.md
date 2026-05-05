@@ -103,7 +103,7 @@ Footnotes that must appear on any page where the linked claim renders:
 | ID | Claim | Surface | Status | Source | Owner | Notes |
 |---|---|---|---|---|---|---|
 | CLM-201 | `Decisions before the margin disappears.` | Hero headline | **APPROVED PUBLIC** | Brand positioning | Robert | The page-defining line. |
-| CLM-202 | `The old way waits for reports. Sundae acts while there's still time.` | Site-wide spine, Section 4 headline | **APPROVED PUBLIC** | Brand positioning | Robert | The aggressive thread. |
+| CLM-202 | `Reports tell you what happened. Sundae tells you what to do next.` | Section 4 headline | **APPROVED PUBLIC** | Brand positioning | Robert | r7 update: replaced the previous "old way waits / Sundae acts while there's still time" version with this tighter buyer-facing line. |
 | CLM-203a | `Generic BI tools are excellent at building dashboards. They were not built to run restaurant shifts. Sundae was.` | Section 5 subhead (homepage) | **NEEDS VALIDATION** | Generic-vendor positioning | Legal | Resolved 2026-05: this is the homepage line. It is generic (no specific vendor named) but still a market-wide competitor claim — Legal should review before production launch even though it is safer than the named version. |
 | CLM-203b | `Power BI and Tableau are excellent BI tools. They were not designed as restaurant decision-intelligence platforms.` | `/compare/*` pages (future) | **NEEDS VALIDATION** | Named-competitor positioning | Legal | Reserved for compare pages after Legal review. Do not publish on homepage. Tighter wording than original — concedes competitor strength, frames Sundae as a different category not a feature replacement. |
 | CLM-204 | `What generic BI tools struggle to retrofit` | Section 5 eyebrow | **APPROVED PUBLIC** | Positioning | Robert | Generic, defensible. |
@@ -112,9 +112,9 @@ Footnotes that must appear on any page where the linked claim renders:
 | CLM-207 | `Hard to recreate from a cold start` | Moat #3 | **APPROVED PUBLIC** | Network-effect framing | Robert | Replaces earlier "no later entrant can recreate" (too absolute). |
 | CLM-208 | `That's not a feature gap. That's a category difference.` | Section 5 close | **APPROVED PUBLIC** | Positioning | Robert | |
 | CLM-209 | `Fast. Right. Affordable. Pick all three.` | SQC headline | **APPROVED PUBLIC** | Positioning | Robert | The triangle anchor. |
-| CLM-210 | `That's not a tradeoff. That's the moat.` | SQC close | **APPROVED PUBLIC** | Positioning | Robert | |
-| CLM-211 | `Same data. Different verdict.` | Section 4 close | **APPROVED PUBLIC** | Positioning | Robert | |
-| CLM-212 | `THE REAL ENEMY IS DASHBOARD BUREAUCRACY` | Section 4 eyebrow | **APPROVED PUBLIC** | Positioning | Robert | Doesn't name a competitor; targets a behavior. Safe. |
+| CLM-210 | `That's not a tradeoff. That's your operating advantage.` | SQC close | **APPROVED PUBLIC** | Positioning | Robert | r7 update: replaced "the moat" with "your operating advantage" — buyer-facing rather than investor-facing. |
+| CLM-211 | `Same data. Faster decision. Better action.` | Section 4 close | **APPROVED PUBLIC** | Positioning | Robert | r7 update: replaced "Same data. Different verdict." for outcome clarity. |
+| CLM-212 | `FROM REPORTING LAG TO OPERATING SPEED` | Section 4 eyebrow | **APPROVED PUBLIC** | Positioning | Robert | r7 update: replaced "THE REAL ENEMY IS DASHBOARD BUREAUCRACY" — less marketer-flavored, more operator-direct. |
 | CLM-213 | `Few dashboards connect the four dimensions. Sundae does it before the shift ends.` | Section 6 close | **APPROVED PUBLIC** | Positioning (softened from absolute) | Robert | |
 | CLM-214 | `Stop running your restaurants on yesterday's numbers.` | Section 8 headline | **APPROVED PUBLIC** | Positioning | Robert | Closing CTA anchor. |
 | CLM-215 | `Excel exports · POS dashboards · BI dashboards · analyst queue · weekly review meetings` | Section 4 replaces strip | **APPROVED PUBLIC** | Positioning (no specific vendor) | Robert | "BI dashboards" is generic; safe. |
