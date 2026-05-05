@@ -14,6 +14,8 @@ import { ThemeToggle } from './ui/ThemeToggle';
 import { useWebsiteI18n } from './i18n/LocaleProvider';
 import { LocaleSwitcher } from './i18n/LocaleSwitcher';
 import { localizeWebsiteHref } from '@/lib/i18n';
+import { SolutionsMegaMenu } from './nav/SolutionsMegaMenu';
+import { ROLE_META, SEGMENT_META } from './nav/solutionsMeta';
 
 type NavbarLink = {
   name: string;
@@ -341,56 +343,20 @@ const Navbar = () => {
               
               {activeDropdown === 'solutions' && (
                 <div
-                  className="absolute top-full left-0 pt-2 w-[420px] z-50"
+                  className="absolute top-full left-1/2 -translate-x-1/2 pt-2 w-[860px] max-w-[calc(100vw-2rem)] z-50"
                   onMouseEnter={() => setActiveDropdown('solutions')}
                   onMouseLeave={() => setActiveDropdown(null)}
                 >
-                <div className="bg-[var(--navy)]/95 backdrop-blur-xl rounded-xl shadow-[0_8px_40px_rgba(0,0,0,0.4)] border border-[var(--border-default)] px-6 py-6 animate-dropdown-in">
-                  {/* Segments */}
-                  <div className="mb-4">
-                    <h3 className="eyebrow text-[var(--text-muted)] mb-3">
-                      {nav.bySegment}
-                    </h3>
-                    <div className="grid grid-cols-2 gap-1">
-                      {solutionsSegments.map((solution) => (
-                        <Link
-                          key={solution.name}
-                          href={localizeHref(solution.href)}
-                          className="block p-3 rounded-lg hover:bg-[var(--surface-hover)] transition-colors duration-200"
-                          onClick={() => setActiveDropdown(null)}
-                        >
-                          <div className="font-semibold text-[var(--text-primary)] text-sm leading-snug">
-                            {solution.name}
-                          </div>
-                        </Link>
-                      ))}
-                    </div>
-                  </div>
-
-                  {/* Separator */}
-                  <div className="border-t border-[var(--border-default)] my-4"></div>
-
-                  {/* Roles */}
-                  <div>
-                    <h3 className="eyebrow text-[var(--text-muted)] mb-3">
-                      {nav.byRole}
-                    </h3>
-                    <div className="grid grid-cols-2 gap-1">
-                      {solutionsRoles.map((solution) => (
-                        <Link
-                          key={solution.name}
-                          href={localizeHref(solution.href)}
-                          className="block p-3 rounded-lg hover:bg-[var(--surface-hover)] transition-colors duration-200"
-                          onClick={() => setActiveDropdown(null)}
-                        >
-                          <div className="font-semibold text-[var(--text-primary)] text-sm leading-snug">
-                            {solution.name}
-                          </div>
-                        </Link>
-                      ))}
-                    </div>
-                  </div>
-                </div>
+                  <SolutionsMegaMenu
+                    segments={solutionsSegments}
+                    roles={solutionsRoles}
+                    bySegmentLabel={nav.bySegment}
+                    byRoleLabel={nav.byRole}
+                    comparePlansLabel={nav.comparePlans.replace(' →', '')}
+                    startFreeLabel={nav.startFree}
+                    localizeHref={localizeHref}
+                    onClose={() => setActiveDropdown(null)}
+                  />
                 </div>
               )}
             </div>
@@ -634,31 +600,63 @@ const Navbar = () => {
               isExpanded={expandedSections.solutions}
               onToggle={() => toggleSection('solutions')}
             >
-              <div className="px-4 pt-1 pb-1">
+              <div className="px-4 pt-1 pb-2">
                 <span className="eyebrow text-[var(--text-muted)]">{nav.bySegment}</span>
               </div>
-              {solutionsSegments.map((solution) => (
-                <MobileNavLink
-                  key={solution.name}
-                  href={localizeHref(solution.href)}
-                  onClick={handleMobileNavClick}
-                >
-                  {solution.name}
-                </MobileNavLink>
-              ))}
-              <div className="border-t border-[var(--border-default)] my-2 mx-4"></div>
-              <div className="px-4 pt-1 pb-1">
+              {solutionsSegments.map((solution) => {
+                const meta = SEGMENT_META[solution.href];
+                if (!meta) return null;
+                const Icon = meta.Icon;
+                return (
+                  <Link
+                    key={solution.name}
+                    href={localizeHref(solution.href)}
+                    onClick={handleMobileNavClick}
+                    className="flex items-start gap-3 px-4 py-2.5 hover:bg-[var(--surface-hover)] transition-colors"
+                  >
+                    <div className="w-9 h-9 rounded-md bg-[var(--electric-blue)]/15 text-[var(--electric-blue)] flex items-center justify-center shrink-0">
+                      <Icon className="w-[18px] h-[18px]" strokeWidth={2.2} />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <div className="font-semibold text-[var(--text-primary)] text-sm">
+                        {solution.name}
+                      </div>
+                      <div className="text-[12px] text-[var(--text-supporting)] leading-snug">
+                        {meta.description}
+                      </div>
+                    </div>
+                  </Link>
+                );
+              })}
+              <div className="border-t border-[var(--border-default)] my-3 mx-4"></div>
+              <div className="px-4 pt-1 pb-2">
                 <span className="eyebrow text-[var(--text-muted)]">{nav.byRole}</span>
               </div>
-              {solutionsRoles.map((solution) => (
-                <MobileNavLink
-                  key={solution.name}
-                  href={localizeHref(solution.href)}
-                  onClick={handleMobileNavClick}
-                >
-                  {solution.name}
-                </MobileNavLink>
-              ))}
+              {solutionsRoles.map((solution) => {
+                const meta = ROLE_META[solution.href];
+                if (!meta) return null;
+                const Icon = meta.Icon;
+                return (
+                  <Link
+                    key={solution.name}
+                    href={localizeHref(solution.href)}
+                    onClick={handleMobileNavClick}
+                    className="flex items-start gap-3 px-4 py-2.5 hover:bg-[var(--surface-hover)] transition-colors"
+                  >
+                    <div className="w-9 h-9 rounded-md bg-[var(--electric-blue)]/15 text-[var(--electric-blue)] flex items-center justify-center shrink-0">
+                      <Icon className="w-[18px] h-[18px]" strokeWidth={2.2} />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <div className="font-semibold text-[var(--text-primary)] text-sm">
+                        {solution.name}
+                      </div>
+                      <div className="text-[12px] text-[var(--text-supporting)] leading-snug">
+                        {meta.description}
+                      </div>
+                    </div>
+                  </Link>
+                );
+              })}
             </AccordionSection>
 
             {/* Resources Section */}
