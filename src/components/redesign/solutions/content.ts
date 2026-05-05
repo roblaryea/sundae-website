@@ -64,7 +64,7 @@ export const operationsLeaders: SolutionPageData = {
 
 export const financeTeams: SolutionPageData = {
   eyebrow: "FOR FINANCE & FP&A",
-  headline: "Three days to close the books is three days too many.",
+  headline: "Three days to understand margin is three days too late.",
   subhead:
     "Sundae shows margin variance the day it happens — not at the next month-end review — with cause attribution across labor, food cost, and pricing.",
   todayTitle: "Today",
@@ -160,7 +160,7 @@ export const marketingTeams: SolutionPageData = {
   eyebrow: "FOR MARKETING LEADS",
   headline: "By the time you measure the campaign, the budget is already spent.",
   subhead:
-    "Sundae ties campaign spend to covers, average check, and net margin within 24 hours of activation — so you can re-allocate while the campaign is still running.",
+    "Sundae surfaces campaign performance signals — covers, check size, channel mix, attribution — within 24 hours of activation, so you can re-allocate while the campaign is still running.",
   todayTitle: "Today",
   todayPoints: [
     "Campaign ROI lands a week after the campaign ends.",
@@ -182,8 +182,8 @@ export const marketingTeams: SolutionPageData = {
   capabilities: [
     {
       iconKey: "megaphone",
-      title: "Attributed campaign ROI",
-      body: "Spend tied to covers, average check, and net margin per channel — within 24 hours of activation.",
+      title: "Campaign performance signals",
+      body: "Spend tied to covers, average check, and channel mix — performance signals available within 24 hours of activation.",
       intelLayer: "Insights · Marketing",
     },
     {
@@ -213,7 +213,7 @@ export const hrTeams: SolutionPageData = {
     "Schedule changes happen on instinct.",
     "OT is paid before it's flagged.",
     "Productivity is measured monthly.",
-    "Turnover patterns surface in exit interviews.",
+    "Labor patterns reviewed at month-end.",
   ],
   todayFooter: "After the OT cheque is cut.",
   withSundaeTitle: "With Sundae",
@@ -221,7 +221,7 @@ export const hrTeams: SolutionPageData = {
     "Schedule changes informed by live demand.",
     "OT risk flagged before the shift.",
     "Productivity per shift, per server.",
-    "Turnover signals visible in advance.",
+    "Labor patterns visible by shift, not by month.",
   ],
   withSundaeFooter: "Before the variance hits payroll.",
   capabilitiesEyebrow: "WHAT YOU'LL SEE",
@@ -254,7 +254,7 @@ export const techTeams: SolutionPageData = {
   eyebrow: "FOR TECH AND DATA LEADS",
   headline: "Twelve vendor APIs. Five data formats. Zero unified schema.",
   subhead:
-    "Sundae unifies POS, labor, inventory, delivery, accounting, reservations, and CRM into 179+ governed data models — with public API, webhooks, RBAC, and audit trails out of the box.",
+    "Sundae unifies POS, labor, inventory, delivery, accounting, reservations, and CRM into 179+ governed data models — with API access, webhooks, RBAC, and audit trails available without a custom build.",
   todayTitle: "Today",
   todayPoints: [
     "Every new dashboard request is a six-week integration project.",
@@ -282,8 +282,8 @@ export const techTeams: SolutionPageData = {
     },
     {
       iconKey: "code",
-      title: "Public API + webhooks",
-      body: "Pull Sundae's normalized data into your warehouse. Push state changes via webhooks. No custom ETL required.",
+      title: "API + webhooks",
+      body: "Pull Sundae's normalized data into your warehouse. Push state changes via webhooks. Reduces the custom ETL load that ad-hoc dashboard requests would otherwise create.",
       intelLayer: "Platform",
     },
     {
@@ -301,7 +301,7 @@ export const techTeams: SolutionPageData = {
 
 export const multiLocation: SolutionPageData = {
   eyebrow: "FOR MULTI-LOCATION OPERATORS",
-  headline: "Visibility into one location is easy. Visibility across ten is the problem.",
+  headline: "Visibility into one location is easy. Visibility across five, ten, or fifty is the problem.",
   subhead:
     "One platform, every location, real-time — with cross-location patterns surfaced automatically and best-practice transfer that scales.",
   todayTitle: "Today",
@@ -356,7 +356,7 @@ export const franchises: SolutionPageData = {
     "Franchisee P&Ls roll up monthly.",
     "Compliance audits are quarterly site visits.",
     "Best-performing franchisees aren't easily replicable.",
-    "Brand drift surfaces in Yelp reviews.",
+    "Brand drift surfaces in guest feedback and review signals.",
   ],
   todayFooter: "Quarterly compliance cycle.",
   withSundaeTitle: "With Sundae",
@@ -420,7 +420,7 @@ export const cloudKitchens: SolutionPageData = {
     {
       iconKey: "truck",
       title: "Real margin per platform",
-      body: "DoorDash, UberEats, Deliveroo, Talabat — with commission, packaging, and refund leakage netted out per order.",
+      body: "DoorDash, UberEats, Deliveroo, Talabat — with commission, packaging, refunds, and adjustments reconciled per order.",
       intelLayer: "Insights · Revenue Assurance",
     },
     {
@@ -449,7 +449,7 @@ export const hospitalityGroups: SolutionPageData = {
   todayPoints: [
     "F&B reports separate from PMS.",
     "Events analyzed in spreadsheets.",
-    "Catering margin tracked in QuickBooks.",
+    "Catering margin tracked in the accounting system.",
     "Cross-revenue intelligence is ad-hoc.",
   ],
   todayFooter: "Three systems, one operation.",
