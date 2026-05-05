@@ -79,23 +79,27 @@
   --coral: #FF6D5A;
   --aqua: #3CC8E2;
 
-  /* ─── Product Colors ─── */
+  /* ─── Intelligence Layer Colors (customer-facing products) ─── */
   --color-pulse: #EF4444;
   --color-benchmarks: #3B82F6;
   --color-watchtower: #F59E0B;
   --color-insights: #8B5CF6;
   --color-intelligence: #22C55E;
-  --color-foresight: #06B6D4;
-  --color-foresight-light: rgba(6, 182, 212, 0.15);
-  --color-foresight-dark: #67E8F9;
+  --color-foresight: #0EA5E9;
+  --color-foresight-light: rgba(14, 165, 233, 0.15);
+  --color-foresight-dark: #7DD3FC;
 
-  /* Legacy product tokens (keeping for existing pages during migration) */
+  /* ─── Package / Tier Colors (Sundae Report, Sundae Core) ─── */
+  /* Used for product-line branding, tier badges, and pricing surfaces. */
   --color-report: #7C3AED;
   --color-report-light: rgba(124, 58, 237, 0.15);
   --color-report-dark: #C4B5FD;
   --color-core: #2563EB;
   --color-core-light: rgba(37, 99, 235, 0.15);
   --color-core-dark: #93C5FD;
+
+  /* DRIFT — stale tokens using the old red Watchtower color.
+     Current Watchtower is amber (#F59E0B). Audit usage before retiring. */
   --color-watchtower-light: rgba(220, 38, 38, 0.15);
   --color-watchtower-dark: #FCA5A5;
 
