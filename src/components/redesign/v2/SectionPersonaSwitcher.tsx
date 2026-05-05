@@ -11,6 +11,7 @@ import {
   LaborOpsMockup,
   IntegrationsHubMockup,
 } from "@/components/ui/MockupFrame";
+import { SundaeWordmark } from "./SundaeWordmark";
 
 /**
  * Section 2 — Persona Switcher (homepage-spec-v1.1).
@@ -138,12 +139,16 @@ export function SectionPersonaSwitcher() {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 py-16 sm:py-20 lg:py-24">
         <div className="max-w-3xl mx-auto text-center mb-10 sm:mb-12">
           <div className="eyebrow mb-4">ONE PLATFORM. EVERY ROLE.</div>
-          <h2 id="persona-headline" className="section-h2 text-balance">
-            See Sundae for{" "}
+          <h2
+            id="persona-headline"
+            className="section-h2 text-balance flex flex-wrap items-center justify-center gap-x-2.5 sm:gap-x-3.5 gap-y-1.5"
+          >
+            <span>See</span>
+            <SundaeWordmark className="h-[0.78em] w-auto inline-block align-middle text-[var(--text-primary)]" />
+            <span>for</span>
             <span className="text-[var(--electric-blue)]">
-              {active.pluralLabel}
+              {active.pluralLabel}.
             </span>
-            .
           </h2>
         </div>
 
