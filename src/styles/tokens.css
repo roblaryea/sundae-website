@@ -85,6 +85,9 @@
   --color-watchtower: #F59E0B;
   --color-insights: #8B5CF6;
   --color-intelligence: #22C55E;
+  --color-foresight: #06B6D4;
+  --color-foresight-light: rgba(6, 182, 212, 0.15);
+  --color-foresight-dark: #67E8F9;
 
   /* Legacy product tokens (keeping for existing pages during migration) */
   --color-report: #7C3AED;
