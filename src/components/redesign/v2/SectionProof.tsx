@@ -20,7 +20,7 @@
  *   CLM-001 (12 data domains) APPROVED PUBLIC
  *   CLM-002 (179 data models) APPROVED PUBLIC
  *   CLM-003 (30+ modules · 14 specialized in current bundle) APPROVED PUBLIC
- *   CLM-004 (Built with inputs from operators representing 250+ locations) APPROVED PUBLIC
+ *   CLM-004 (Built with operators across 500+ restaurant locations) APPROVED PUBLIC
  *   CLM-005 (5-min refresh on Core Pro) CAPABILITY CLAIM ONLY · FN-1
  *   CLM-009 (6 intelligence layers) APPROVED PUBLIC — derived from locked taxonomy
  *
@@ -87,17 +87,18 @@ export function SectionProof() {
           ))}
         </div>
 
-        {/* Industry-vs-Sundae contrast block — path C anchoring */}
+        {/* Industry-vs-Sundae contrast block — path C anchoring.
+            Heading is intentionally smaller than the section-h2 (~10-15%) so
+            this reads as supporting evidence, not another hero. */}
         <div className="mt-16 sm:mt-20 max-w-5xl mx-auto">
           <div className="text-center mb-10">
             <div className="eyebrow mb-4">WHAT WE HEAR FROM OPERATORS</div>
-            <h3 className="section-h3 text-balance max-w-2xl mx-auto">
-              The data exists. What&apos;s missing is someone to tell teams —
-              in time to act — what the data is saying.
+            <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight leading-tight text-balance max-w-xl mx-auto text-[var(--text-primary)]">
+              The data exists. The decision still arrives late.
             </h3>
-            <p className="mt-4 text-[12px] text-[var(--text-muted)] italic">
-              Composite from advisory conversations with multi-brand operators,
-              anonymized.
+            <p className="mt-4 text-[12px] text-[var(--text-muted)] italic max-w-xl mx-auto">
+              Patterns we hear from operators and see across restaurant
+              reporting workflows. Anonymized and generalized.
             </p>
           </div>
 
@@ -147,22 +148,22 @@ const industryClaims: Array<{ id: string; industry: string; sundae: string }> = 
   {
     id: "reporting-lag",
     industry:
-      "Operations teams commonly wait 2–3 days for analyst-built reports — answers arrive after the decision window has closed.",
+      "Teams wait 2–3 days for reports, exports, or analyst follow-ups. By the time the answer arrives, the shift has already happened.",
     sundae:
-      "Sundae Intelligence returns answers in seconds, with cited sources, on the surfaces teams already use.",
+      "Sundae Intelligence gives teams source-cited answers in seconds, across the systems they already use.",
   },
   {
     id: "leakage",
     industry:
-      "Industry estimates put restaurant void, comp, and discount leakage at 1–3% of revenue — usually surfaced post-shift.",
+      "Voids, comps, discounts, and POS exceptions are small on their own. Left unreviewed, they can create between 1–3% of revenue and margin leakage.",
     sundae:
-      "Pulse flags exception patterns within the shift, attributed to the server, daypart, or location driving them.",
+      "Pulse flags exception patterns during the shift, attributed to the server, daypart, location, or behavior driving them.",
   },
   {
     id: "margin-variance",
     industry:
-      "Margin variance is most often discovered at the month-end review — by which point the costs are already booked.",
+      "Margin variance is often explained at month-end, after the costs are already booked.",
     sundae:
-      "Insights catches variance shift-by-shift, with cause-attribution across labor, food cost, and pricing.",
+      "Insights connects revenue, labor, food cost, discounts, and pricing so teams can see the cause while it is still actionable.",
   },
 ];
