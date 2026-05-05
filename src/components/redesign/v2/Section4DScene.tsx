@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
-import { Button } from "@/components/ui/Button";
 
 /**
  * Section 6 — 4D Intelligence Model (homepage-spec-v1.1, polish r4 refactor).
@@ -96,9 +95,35 @@ export function Section4DScene() {
             plan vs actual, the market around you, and the next action — before
             the shift ends.
           </p>
+        </div>
 
-          {/* Dimension breadcrumb — clickable */}
-          <div className="mt-7 flex flex-wrap justify-center items-center gap-x-2 gap-y-2 text-[12px] sm:text-[13px]">
+        {/* Illustrative-scenario badge + scenario hook */}
+        <div className="text-center max-w-3xl mx-auto mb-8 sm:mb-10">
+          <span className="inline-flex items-center gap-2 text-[10px] sm:text-[11px] uppercase tracking-[0.16em] font-bold px-3 py-1.5 rounded-md bg-[var(--brand-yellow)]/15 text-[var(--brand-yellow)] border border-[var(--brand-yellow)]/30 mb-5">
+            ⚠ Illustrative scenario — Sundae Coach example
+          </span>
+          <div className="text-[13px] sm:text-[14px] uppercase tracking-[0.18em] text-[var(--electric-blue)] font-bold mb-3">
+            TUESDAY · 9:14 AM · DOWNTOWN
+          </div>
+          <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[var(--text-primary)] text-balance leading-tight">
+            Lunch revenue is pacing 14% behind plan.
+            <span className="block mt-2 text-[var(--text-secondary)] font-semibold text-xl sm:text-2xl lg:text-3xl">
+              Here&apos;s what happens next.
+            </span>
+          </p>
+        </div>
+
+        {/* Two-column: dimension content + visual.
+            Pills sit ABOVE this row, spanning both columns, so the link
+            between pill click → content + visual change is visually obvious. */}
+        <div
+          className="max-w-6xl mx-auto"
+          onMouseEnter={() => setPaused(true)}
+          onMouseLeave={() => setPaused(false)}
+          onFocus={() => setPaused(true)}
+        >
+          {/* Dimension breadcrumb — now docked above the grid as a connector */}
+          <div className="flex flex-wrap justify-center items-center gap-x-2 gap-y-2 text-[12px] sm:text-[13px] mb-7 sm:mb-8">
             {dimensions.map((d, i) => {
               const isActive = i === activeIdx;
               return (
@@ -124,68 +149,49 @@ export function Section4DScene() {
               );
             })}
           </div>
-        </div>
 
-        {/* Illustrative-scenario badge + scenario hook */}
-        <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-12">
-          <span className="inline-flex items-center gap-2 text-[10px] sm:text-[11px] uppercase tracking-[0.16em] font-bold px-3 py-1.5 rounded-md bg-[var(--brand-yellow)]/15 text-[var(--brand-yellow)] border border-[var(--brand-yellow)]/30 mb-5">
-            ⚠ Illustrative scenario — Sundae Coach example
-          </span>
-          <div className="text-[13px] sm:text-[14px] uppercase tracking-[0.18em] text-[var(--electric-blue)] font-bold mb-3">
-            TUESDAY · 9:14 AM · DOWNTOWN
-          </div>
-          <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[var(--text-primary)] text-balance leading-tight">
-            Lunch revenue is pacing 14% behind plan.
-            <span className="block mt-2 text-[var(--text-secondary)] font-semibold text-xl sm:text-2xl lg:text-3xl">
-              Here&apos;s what happens next.
-            </span>
-          </p>
-        </div>
-
-        {/* Two-column: dimension content + visual */}
-        <div
-          className="grid lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1fr)] gap-8 lg:gap-12 items-start max-w-6xl mx-auto"
-          onMouseEnter={() => setPaused(true)}
-          onMouseLeave={() => setPaused(false)}
-          onFocus={() => setPaused(true)}
-        >
-          {/* Active dimension content */}
-          <div className="min-h-[260px] lg:min-h-[300px] lg:pt-2">
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={activeIdx}
-                initial={reduceMotion ? false : { opacity: 0, y: 16 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={reduceMotion ? undefined : { opacity: 0, y: -12 }}
-                transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
-              >
-                <div className="eyebrow mb-4">
-                  {dimensions[activeIdx].eyebrow}
-                </div>
-                <h3 className="text-2xl sm:text-3xl lg:text-[34px] font-bold text-[var(--text-primary)] mb-4 leading-tight tracking-tight">
-                  {dimensions[activeIdx].title}
-                </h3>
-                <p className="body-lg">{dimensions[activeIdx].body}</p>
-              </motion.div>
-            </AnimatePresence>
+          {/* Visual indicator: arrow connecting pills to the panel/visual below */}
+          <div className="flex justify-center -mt-2 mb-4 text-[var(--electric-blue)]/60" aria-hidden>
+            <svg width="18" height="14" viewBox="0 0 18 14" fill="none">
+              <path d="M9 14L1 4h16L9 14z" fill="currentColor" />
+            </svg>
           </div>
 
-          {/* Visual — morphs with active dimension */}
-          <div>
-            <SceneVisual activeIdx={activeIdx} />
+          <div className="grid lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1fr)] gap-8 lg:gap-12 items-start">
+            {/* Active dimension content */}
+            <div className="min-h-[260px] lg:min-h-[300px] lg:pt-2">
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={activeIdx}
+                  initial={reduceMotion ? false : { opacity: 0, y: 16 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={reduceMotion ? undefined : { opacity: 0, y: -12 }}
+                  transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
+                >
+                  <div className="eyebrow mb-4">
+                    {dimensions[activeIdx].eyebrow}
+                  </div>
+                  <h3 className="text-2xl sm:text-3xl lg:text-[34px] font-bold text-[var(--text-primary)] mb-4 leading-tight tracking-tight">
+                    {dimensions[activeIdx].title}
+                  </h3>
+                  <p className="body-lg">{dimensions[activeIdx].body}</p>
+                </motion.div>
+              </AnimatePresence>
+            </div>
+
+            {/* Visual — morphs with active dimension */}
+            <div>
+              <SceneVisual activeIdx={activeIdx} />
+            </div>
           </div>
         </div>
 
-        {/* Closing line + CTA */}
-        <div className="text-center max-w-2xl mx-auto mt-14 sm:mt-16">
-          <p className="text-xl sm:text-2xl text-[var(--text-primary)] italic font-light mb-6">
-            Few dashboards connect the four dimensions. Sundae does it before
-            the shift ends.
-          </p>
-          <Button href="/demo" variant="cta" size="lg">
-            See it with your data →
-          </Button>
-        </div>
+        {/* Closing line — section-level. Page-level closing CTA lives in the
+            global Footer pre-CTA so we don't double up CTAs at the page bottom. */}
+        <p className="text-center text-xl sm:text-2xl text-[var(--text-primary)] italic font-light max-w-2xl mx-auto mt-14 sm:mt-16">
+          Few dashboards connect the four dimensions. Sundae does it before
+          the shift ends.
+        </p>
       </div>
     </section>
   );

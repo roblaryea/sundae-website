@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   motion,
   AnimatePresence,
@@ -48,9 +48,9 @@ const vertices: Vertex[] = [
   {
     id: "quality",
     label: "Quality",
-    stat: "179 models · zero blank canvases",
+    stat: "179+ models · zero blank canvases",
     headline: "Restaurant-native. Source-cited.",
-    body: "Generic BI hands you a blank canvas. Sundae ships with 179 governed restaurant data models, peer-anchored benchmarks, and source-cited AI answers — out of the box.",
+    body: "Generic BI hands you a blank canvas. Sundae ships with 179+ governed restaurant data models, peer-anchored benchmarks, and source-cited AI answers — out of the box.",
   },
   {
     id: "cost",
@@ -71,7 +71,8 @@ const trianglePoints: { x: number; y: number; labelX: number; labelY: number; st
   { x: 190, y: 380, labelX: 175, labelY: 412, statY: 432, anchor: "end"    }, // Cost (bottom-left)
 ];
 
-const SEGMENT_DUR_S = 5; // seconds for the tracer to travel one edge
+const DWELL_DUR_MS = 3500;  // dwell at vertex so the buyer can read the panel
+const TRAVEL_DUR_S = 2.5;   // tracer travel between vertices
 
 export function SectionSpeedQualityCost() {
   const reduceMotion = useReducedMotion();
@@ -88,9 +89,12 @@ export function SectionSpeedQualityCost() {
   const useAnimated = mounted && !reduceMotion;
 
   // Tracer position bound to motion values — synced to activeIdx so the dot
-  // arrives at a vertex exactly as that vertex becomes active.
+  // arrives at a vertex exactly as that vertex becomes active. Each cycle is
+  // a DWELL phase (ball stationary at active vertex while buyer reads the
+  // panel) followed by a TRAVEL phase (ball moves to next vertex).
   const tracerX = useMotionValue(trianglePoints[0].x);
   const tracerY = useMotionValue(trianglePoints[0].y);
+  const travelCleanupRef = useRef<(() => void) | null>(null);
 
   useEffect(() => {
     if (!useAnimated || paused) return;
@@ -98,25 +102,34 @@ export function SectionSpeedQualityCost() {
     const from = trianglePoints[activeIdx];
     const to = trianglePoints[(activeIdx + 1) % trianglePoints.length];
 
-    // Snap tracer to the current vertex, then animate to the next.
+    // Snap tracer to the current vertex.
     tracerX.set(from.x);
     tracerY.set(from.y);
 
-    const ctrlX = animate(tracerX, to.x, {
-      duration: SEGMENT_DUR_S,
-      ease: "linear",
-    });
-    const ctrlY = animate(tracerY, to.y, {
-      duration: SEGMENT_DUR_S,
-      ease: "linear",
-      onComplete: () => {
-        setActiveIdx((i) => (i + 1) % trianglePoints.length);
-      },
-    });
+    // DWELL phase — ball sits at the active vertex while content is read.
+    const dwellTimer = setTimeout(() => {
+      // TRAVEL phase — animate to next vertex; advance activeIdx on arrival.
+      const ctrlX = animate(tracerX, to.x, {
+        duration: TRAVEL_DUR_S,
+        ease: "easeInOut",
+      });
+      const ctrlY = animate(tracerY, to.y, {
+        duration: TRAVEL_DUR_S,
+        ease: "easeInOut",
+        onComplete: () => {
+          setActiveIdx((i) => (i + 1) % trianglePoints.length);
+        },
+      });
+      travelCleanupRef.current = () => {
+        ctrlX.stop();
+        ctrlY.stop();
+      };
+    }, DWELL_DUR_MS);
 
     return () => {
-      ctrlX.stop();
-      ctrlY.stop();
+      clearTimeout(dwellTimer);
+      travelCleanupRef.current?.();
+      travelCleanupRef.current = null;
     };
   }, [useAnimated, paused, activeIdx, tracerX, tracerY]);
 
@@ -297,29 +310,29 @@ export function SectionSpeedQualityCost() {
                     >
                       {i + 1}
                     </text>
-                    {/* Label */}
+                    {/* Label — grows when active for emphasis */}
                     <text
                       x={p.labelX}
                       y={p.labelY}
                       textAnchor={p.anchor}
-                      fontSize="22"
+                      fontSize={isActive ? "26" : "21"}
                       fontWeight="800"
                       letterSpacing="0.18em"
-                      fill={isActive ? "#FFFFFF" : "rgba(255,255,255,0.6)"}
-                      style={{ transition: "fill 0.4s ease-out" }}
+                      fill={isActive ? "#FFFFFF" : "rgba(255,255,255,0.55)"}
+                      style={{ transition: "all 0.5s cubic-bezier(0.22, 1, 0.36, 1)" }}
                     >
                       {v.label.toUpperCase()}
                     </text>
-                    {/* Stat callout */}
+                    {/* Stat callout — fully visible only when vertex is active */}
                     <text
                       x={p.labelX}
-                      y={p.statY}
+                      y={isActive ? p.statY + 4 : p.statY}
                       textAnchor={p.anchor}
-                      fontSize="11"
+                      fontSize={isActive ? "13" : "11"}
                       fontWeight="500"
                       letterSpacing="0.02em"
-                      fill={isActive ? "rgba(255,255,255,0.72)" : "rgba(255,255,255,0.38)"}
-                      style={{ transition: "fill 0.4s ease-out" }}
+                      fill={isActive ? "#3B82F6" : "rgba(255,255,255,0.32)"}
+                      style={{ transition: "all 0.5s cubic-bezier(0.22, 1, 0.36, 1)" }}
                     >
                       {v.stat}
                     </text>

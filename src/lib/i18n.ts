@@ -188,7 +188,7 @@ export const websiteMessages = {
       signIn: 'Sign In',
       bookDemo: 'Book a Working Session',
       comparePlans: 'Compare Plans →',
-      startFree: 'Get Your Free Benchmark',
+      startFree: 'Start with Report Lite',
       openMenu: 'Open menu',
       closeMenu: 'Close menu',
       closeNavigation: 'Close navigation',
@@ -228,10 +228,10 @@ export const websiteMessages = {
       ],
     },
     footer: {
-      readyTitle: "Decisions before the margin disappears.",
+      readyTitle: "Stop running your restaurants on yesterday's numbers.",
       readyDescription: '30 minutes with our team and your data — see whether Sundae would genuinely help your operation.',
       bookDemo: 'Book a Working Session',
-      startFree: 'Get Your Free Benchmark',
+      startFree: 'Start with Report Lite',
       brandDescription:
         "Decision intelligence for restaurants. Understand performance, predict what's next, and act with confidence.",
       global: 'Global',

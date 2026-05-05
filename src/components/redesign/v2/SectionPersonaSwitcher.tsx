@@ -7,7 +7,7 @@ import {
   PulseDashboardMockup,
   RevenueIntelligenceMockup,
   IntelligenceChatMockup,
-  InsightsModuleMockup,
+  MarketingPerformanceMockup,
   LaborOpsMockup,
   IntegrationsHubMockup,
 } from "@/components/ui/MockupFrame";
@@ -26,7 +26,7 @@ import { SundaeWordmark } from "./SundaeWordmark";
  *   COO         → PulseDashboardMockup (existing — live ops)
  *   CFO         → RevenueIntelligenceMockup (bespoke — Insights:Revenue, channel mix, variance)
  *   CEO         → IntelligenceChatMockup (existing — executive briefing)
- *   Marketing   → InsightsModuleMockup (existing — modular ROI)
+ *   Marketing   → MarketingPerformanceMockup (bespoke — campaign ROI, channel mix)
  *   HR/People   → LaborOpsMockup (bespoke — labor variance, OT risk)
  *   Tech/Data   → IntegrationsHubMockup (bespoke — data health, sources)
  *
@@ -95,7 +95,7 @@ const personas: Persona[] = [
     outcomeCopy:
       "Tie campaign spend to covers, average check, and net margin — within 24 hours of activation. Re-allocate while the campaign is still running.",
     intelLayers: ["Insights", "Sundae Intelligence"],
-    Mockup: InsightsModuleMockup,
+    Mockup: MarketingPerformanceMockup,
   },
   {
     id: "hr",

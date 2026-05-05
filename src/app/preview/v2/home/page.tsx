@@ -6,7 +6,10 @@ import { SectionOldWaySundaeWay } from "@/components/redesign/v2/SectionOldWaySu
 import { SectionThreeMoats } from "@/components/redesign/v2/SectionThreeMoats";
 import { Section4DScene } from "@/components/redesign/v2/Section4DScene";
 import { SectionProof } from "@/components/redesign/v2/SectionProof";
-import { SectionCTA } from "@/components/redesign/v2/SectionCTA";
+// Section 8 (SectionCTA) intentionally removed — closing CTA is now anchored
+// in the global Footer pre-CTA so the homepage doesn't double up two
+// competing CTA blocks at the bottom. Footer headline updated to
+// "Stop running your restaurants on yesterday's numbers."
 
 /**
  * Isolated preview route for the homepage redesign (homepage-spec-v1.1).
@@ -43,7 +46,7 @@ export default function PreviewV2HomePage() {
       <SectionThreeMoats />
       <Section4DScene />
       <SectionProof />
-      <SectionCTA />
+      {/* Closing CTA is anchored in the global Footer pre-CTA. */}
     </main>
   );
 }

@@ -490,6 +490,41 @@ export function ForesightDashboardMockup() {
   );
 }
 
+/* ─── Marketing Performance Mockup (Marketing persona — Insights:Marketing) ─── */
+
+export function MarketingPerformanceMockup() {
+  return (
+    <MockupFrame label="Marketing Performance — Campaign ROI">
+      <div className="space-y-4">
+        <div className="flex items-center justify-between">
+          <MockupLiveDot />
+          <span className="text-[10px] text-[var(--text-muted)] font-mono">Last 7 days</span>
+        </div>
+
+        <div className="grid grid-cols-3 gap-3">
+          <MockupKPI label="Blended ROAS" value="4.2x" trend="+0.6 vs LW" trendUp color="#22C55E" />
+          <MockupKPI label="Attributed covers" value="1,840" trend="38% of total" trendUp color="#1C47FF" />
+          <MockupKPI label="Cost per cover" value="$2.10" trend="−$0.40 vs LW" trendUp color="#22C55E" />
+        </div>
+
+        <MockupTable
+          headers={["Channel", "Spend", "Covers", "ROAS"]}
+          rows={[
+            ["Loyalty push", "$1,400", "612", "5.8x"],
+            ["Paid social", "$2,200", "548", "3.9x"],
+            ["Search", "$1,100", "412", "4.4x"],
+            ["Email", "$320", "268", "6.1x"],
+          ]}
+        />
+
+        <MockupAlert type="coach">
+          Cross-Intelligence: Loyalty-push covers convert at 2.3× search rate when paired with the lunch combo. Reallocate $400 from search → loyalty next week.
+        </MockupAlert>
+      </div>
+    </MockupFrame>
+  );
+}
+
 /* ─── Revenue Intelligence Mockup (CFO persona — Insights:Revenue) ─── */
 
 export function RevenueIntelligenceMockup() {

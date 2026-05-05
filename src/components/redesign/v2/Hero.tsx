@@ -44,13 +44,12 @@ export function Hero() {
                 DECISION INTELLIGENCE FOR RESTAURANTS
               </div>
               <h1 id="hero-headline" className="hero-h1 mb-6 text-balance">
-                Decisions before the margin disappears.
+                Know what to do before the margin disappears.
               </h1>
               <p className="body-xl max-w-xl">
-                Your restaurant data lives across POS, labor, inventory,
-                delivery, finance, and the market around you. Sundae unifies
-                it, benchmarks every location against your peers, and tells
-                each team what to do — while there&apos;s still time to act.
+                Sundae turns scattered restaurant data into live decisions:
+                what changed, why it changed, how you compare, and what each
+                team should do next.
               </p>
             </motion.div>
 
@@ -82,12 +81,16 @@ export function Hero() {
                 </svg>
               </Button>
               <Button href={REPORT_APP_URL} variant="outline-light" size="lg">
-                Get Your Free Benchmark
+                Start with Report Lite
               </Button>
             </motion.div>
 
+            <p className="mt-3 text-[12px] text-[var(--text-muted)]">
+              Free to start. Build your benchmark profile as your data connects.
+            </p>
+
             {/* Proof strip — static, no animation (credibility numbers don't fade) */}
-            <div className="mt-8 sm:mt-10">
+            <div className="mt-7 sm:mt-9">
               <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm sm:text-base text-[var(--text-supporting)]">
                 <span>
                   <strong className="text-[var(--text-primary)] font-semibold">
@@ -110,7 +113,7 @@ export function Hero() {
                 </span>
                 <span>
                   <strong className="text-[var(--text-primary)] font-semibold">
-                    179
+                    179+
                   </strong>{" "}
                   restaurant data models
                 </span>

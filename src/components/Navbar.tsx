@@ -16,6 +16,7 @@ import { LocaleSwitcher } from './i18n/LocaleSwitcher';
 import { localizeWebsiteHref } from '@/lib/i18n';
 import { SolutionsMegaMenu } from './nav/SolutionsMegaMenu';
 import { ROLE_META, SEGMENT_META } from './nav/solutionsMeta';
+import { SundaeWordmark } from './redesign/v2/SundaeWordmark';
 
 type NavbarLink = {
   name: string;
@@ -213,20 +214,18 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo - Left Aligned with Animation */}
-          <Link href={localizeHref('/')} className="flex items-center group">
-            <div className="relative">
-              <Image
-                src="/logos/sundae-wordmark-white.svg"
-                alt="Sundae – Decision Intelligence for Restaurants"
-                width={160}
-                height={46}
-                className={`transition-all duration-300 ${
-                  isLogoHovered ? 'opacity-85' : 'opacity-100'
-                }`}
-                style={{ height: '46px', width: 'auto' }}
+          <Link
+            href={localizeHref('/')}
+            className="flex items-center group text-[var(--text-primary)]"
+            aria-label="Sundae – Decision Intelligence for Restaurants"
+          >
+            <div className="relative overflow-hidden">
+              <SundaeWordmark
                 onMouseEnter={() => setIsLogoHovered(true)}
                 onMouseLeave={() => setIsLogoHovered(false)}
-                priority
+                className={`h-[34px] w-auto transition-opacity duration-300 ${
+                  isLogoHovered ? 'opacity-85' : 'opacity-100'
+                }`}
               />
               {/* Subtle shimmer effect on hover */}
               <div className={`absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent transition-all duration-600 ease-out ${
