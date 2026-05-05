@@ -5,6 +5,13 @@ import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 import { Button } from "@/components/ui/Button";
 
 /**
+ * Hydration discipline: server and client first render MUST match. We start
+ * `mounted=false` so both server-side render and the first client render
+ * produce the static stack. After hydration, useEffect flips `mounted=true`
+ * and we upgrade to the GSAP-pinned animated path. No DOM mismatch.
+ */
+
+/**
  * Section 6 — 4D Intelligence Scroll Scene (homepage-spec-v1.1).
  *
  * Conversion job: explain product + dramatize urgency. Pinned scroll over
@@ -65,9 +72,19 @@ export function Section4DScene() {
   const reduceMotion = useReducedMotion();
   const sectionRef = useRef<HTMLDivElement | null>(null);
   const [activeIdx, setActiveIdx] = useState(0);
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    if (reduceMotion) return;
+    // Canonical hydration-safe mount detection. The extra render is intentional —
+    // it lets server/first-client render produce identical static markup, then
+    // the client upgrades to the GSAP-pinned animated tree post-hydration.
+    setMounted(true);
+  }, []);
+
+  const useAnimated = mounted && !reduceMotion;
+
+  useEffect(() => {
+    if (!useAnimated) return;
     const el = sectionRef.current;
     if (!el) return;
 
@@ -84,7 +101,7 @@ export function Section4DScene() {
         trigger: el,
         pin: true,
         start: "top top",
-        end: "+=300%",
+        end: "+=220%",
         scrub: 0.6,
         onUpdate: (self) => {
           const idx = Math.min(
@@ -103,10 +120,10 @@ export function Section4DScene() {
     return () => {
       cleanup?.();
     };
-  }, [reduceMotion]);
+  }, [useAnimated]);
 
-  // Reduced-motion: render 4-card stack with closing CTA
-  if (reduceMotion) {
+  // Static path — used for SSR, first client render, AND reduced-motion users
+  if (!useAnimated) {
     return (
       <section
         aria-labelledby="fourD-headline"

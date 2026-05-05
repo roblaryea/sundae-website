@@ -134,6 +134,10 @@ export function Breadcrumbs({ className = '' }: { className?: string }) {
   // Don't render on homepage
   if (unlocalizedPathname === '/') return null;
 
+  // Don't render on internal preview routes — keeps "Home / Preview / V2 / Home"
+  // out of the redesign preview and avoids 404 prefetch noise on /preview itself.
+  if (unlocalizedPathname.startsWith('/preview')) return null;
+
   const segments = unlocalizedPathname.split('/').filter(Boolean);
   const crumbs = segments.map((seg, i) => ({
     label: formatSegment(seg, locale),

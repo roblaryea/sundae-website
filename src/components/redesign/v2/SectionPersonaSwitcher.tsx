@@ -35,7 +35,7 @@ import {
 interface Persona {
   id: string;
   shortLabel: string;     // tab text
-  longLabel: string;      // section H2 fill
+  pluralLabel: string;    // for the H2 — "See Sundae for [Plural]"
   pain: string;           // pain headline
   painCopy: string;
   outcome: string;        // outcome headline
@@ -48,7 +48,7 @@ const personas: Persona[] = [
   {
     id: "coo",
     shortLabel: "COO",
-    longLabel: "Operations Leader",
+    pluralLabel: "Operations Leaders",
     pain: "You can't be in every restaurant at once.",
     painCopy:
       "By the time the weekly recap lands, the bad shift is over and the margin is gone.",
@@ -61,7 +61,7 @@ const personas: Persona[] = [
   {
     id: "cfo",
     shortLabel: "CFO",
-    longLabel: "Finance & FP&A Lead",
+    pluralLabel: "Finance & FP&A Leads",
     pain: "Three days to close the books is three days too many.",
     painCopy:
       "Variance shows up in last month's P&L. By then the costs have already been booked.",
@@ -74,7 +74,7 @@ const personas: Persona[] = [
   {
     id: "ceo",
     shortLabel: "CEO",
-    longLabel: "CEO or Owner",
+    pluralLabel: "CEOs and Owners",
     pain: "Your worst location is invisible until Thursday's recap.",
     painCopy: "By the time you see it, three more days of margin have leaked.",
     outcome: "Portfolio truth, every morning.",
@@ -86,7 +86,7 @@ const personas: Persona[] = [
   {
     id: "marketing",
     shortLabel: "Marketing",
-    longLabel: "Marketing Lead",
+    pluralLabel: "Marketing Leads",
     pain: "By the time you measure the campaign, the budget is already spent.",
     painCopy:
       "ROI lands a week late. Next month's plan goes in before this month's data does.",
@@ -99,7 +99,7 @@ const personas: Persona[] = [
   {
     id: "hr",
     shortLabel: "HR / People",
-    longLabel: "HR or People Lead",
+    pluralLabel: "HR and People Leads",
     pain: "Labor variance shows up too late.",
     painCopy:
       "Schedule changes happen on instinct. By the time the report comes back, the OT is already paid.",
@@ -112,7 +112,7 @@ const personas: Persona[] = [
   {
     id: "tech",
     shortLabel: "Tech",
-    longLabel: "Tech or Data Lead",
+    pluralLabel: "Tech and Data Leads",
     pain: "Twelve vendor APIs. Five data formats. Zero unified schema.",
     painCopy:
       "Every new dashboard request becomes a six-week integration project.",
@@ -135,13 +135,13 @@ export function SectionPersonaSwitcher() {
       aria-labelledby="persona-headline"
       className="relative"
     >
-      <div className="max-w-7xl mx-auto px-6 sm:px-8 py-20 sm:py-28">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 py-16 sm:py-20 lg:py-24">
         <div className="max-w-3xl mx-auto text-center mb-10 sm:mb-12">
           <div className="eyebrow mb-4">ONE PLATFORM. EVERY ROLE.</div>
           <h2 id="persona-headline" className="section-h2 text-balance">
-            See Sundae as a{" "}
+            See Sundae for{" "}
             <span className="text-[var(--electric-blue)]">
-              {active.longLabel}
+              {active.pluralLabel}
             </span>
             .
           </h2>

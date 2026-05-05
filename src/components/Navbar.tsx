@@ -446,12 +446,12 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* CTA Buttons */}
-          <div className="hidden lg:flex items-center space-x-4">
+          {/* CTA Buttons — secondary (acquisition) + primary (high-intent) */}
+          <div className="hidden lg:flex items-center space-x-3">
             <LocaleSwitcher />
             <ThemeToggle />
             <Button
-              variant="outline"
+              variant="ghost"
               size="sm"
               onClick={() => cta(localizeHref("/sign-in"), "sign_in_navbar", { location: "navbar" })}
               data-cta="sign_in_navbar"
@@ -459,8 +459,18 @@ const Navbar = () => {
             >
               {nav.signIn}
             </Button>
-            <Button 
-              variant="primary" 
+            <Button
+              variant="outline-light"
+              size="sm"
+              href={REPORT_APP_URL}
+              onClick={() => cta(REPORT_APP_URL, "free_benchmark_navbar", { location: "navbar" })}
+              data-cta="free_benchmark_navbar"
+              data-source="navbar"
+            >
+              {nav.startFree}
+            </Button>
+            <Button
+              variant="primary"
               size="sm"
               onClick={() => cta(localizeHref("/demo"), "book_demo_navbar", { location: "navbar" })}
               data-cta="book_demo_navbar"
@@ -713,6 +723,20 @@ const Navbar = () => {
                 {nav.bookDemo}
               </Button>
               </div>
+              <Button
+                variant="outline-light"
+                size="sm"
+                fullWidth
+                href={REPORT_APP_URL}
+                onClick={() => {
+                  cta(REPORT_APP_URL, "free_benchmark_mobile_nav", { location: "mobile-nav" });
+                  setIsMenuOpen(false);
+                }}
+                data-cta="free_benchmark_mobile_nav"
+                data-source="mobile-nav"
+              >
+                {nav.startFree}
+              </Button>
             </div>
           </div>
         </nav>

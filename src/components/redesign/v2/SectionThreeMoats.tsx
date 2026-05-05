@@ -3,6 +3,107 @@
 import { motion, useReducedMotion } from "framer-motion";
 
 /**
+ * Mini thumbnails — each is a small visual artifact paired with the moat copy
+ * so the section reads as evidence, not just three text cards. Inline SVG
+ * keeps these zero-dependency and CLS-free.
+ */
+function PulseThumb() {
+  return (
+    <div className="rounded-lg border border-[var(--border-default)] bg-[var(--navy)] p-3 mt-5 overflow-hidden">
+      <div className="flex items-center justify-between mb-2">
+        <span className="text-[9px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
+          Lunch pacing
+        </span>
+        <span className="inline-flex items-center gap-1 text-[9px] text-[#22C55E] font-semibold">
+          <span className="w-1 h-1 rounded-full bg-[#22C55E] animate-pulse" />
+          LIVE
+        </span>
+      </div>
+      <div className="grid grid-cols-3 gap-1.5 mb-2">
+        <div className="bg-white/[0.04] rounded px-2 py-1.5">
+          <div className="text-[8px] text-[var(--text-muted)] uppercase">Rev</div>
+          <div className="text-xs font-bold font-mono text-[#1C47FF]">$14.8K</div>
+        </div>
+        <div className="bg-white/[0.04] rounded px-2 py-1.5">
+          <div className="text-[8px] text-[var(--text-muted)] uppercase">Labor</div>
+          <div className="text-xs font-bold font-mono text-[#22C55E]">28.4%</div>
+        </div>
+        <div className="bg-white/[0.04] rounded px-2 py-1.5">
+          <div className="text-[8px] text-[var(--text-muted)] uppercase">Pace</div>
+          <div className="text-xs font-bold font-mono text-[#22C55E]">+6%</div>
+        </div>
+      </div>
+      <svg viewBox="0 0 200 30" className="w-full h-7" preserveAspectRatio="none" aria-hidden>
+        <path d="M0 22 L25 20 L50 18 L75 14 L100 11 L125 8 L150 6 L175 5 L200 4" stroke="#1C47FF" strokeWidth="1.5" fill="none" />
+        <path d="M0 22 L25 20 L50 18 L75 14 L100 11 L125 8 L150 6 L175 5 L200 4 L200 30 L0 30 Z" fill="rgba(28,71,255,0.15)" />
+      </svg>
+    </div>
+  );
+}
+
+function WatchtowerThumb() {
+  return (
+    <div className="rounded-lg border border-[var(--border-default)] bg-[var(--navy)] p-3 mt-5 overflow-hidden space-y-1.5">
+      <div className="flex items-center justify-between mb-1">
+        <span className="text-[9px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
+          Active signals
+        </span>
+        <span className="text-[9px] font-mono text-[var(--text-muted)]">14</span>
+      </div>
+      <div className="rounded px-2 py-1.5" style={{ background: "rgba(245,158,11,0.10)", borderLeft: "2px solid #F59E0B" }}>
+        <div className="text-[10px] text-[var(--text-secondary)] leading-tight">
+          3 competitors dropped lunch combos to $9.99
+        </div>
+      </div>
+      <div className="rounded px-2 py-1.5" style={{ background: "rgba(28,71,255,0.10)", borderLeft: "2px solid #1C47FF" }}>
+        <div className="text-[10px] text-[var(--text-secondary)] leading-tight">
+          Office tower fire drill, 2 blocks · 11–12
+        </div>
+      </div>
+      <div className="rounded px-2 py-1.5" style={{ background: "rgba(34,197,94,0.10)", borderLeft: "2px solid #22C55E" }}>
+        <div className="text-[10px] text-[var(--text-secondary)] leading-tight">
+          Marathon route Sun · +18% est foot traffic
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function BenchmarkThumb() {
+  return (
+    <div className="rounded-lg border border-[var(--border-default)] bg-[var(--navy)] p-3 mt-5 overflow-hidden">
+      <div className="flex items-center justify-between mb-2">
+        <span className="text-[9px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
+          RevPASH index
+        </span>
+        <span className="text-[9px] text-[#22C55E] font-semibold">+12% vs peers</span>
+      </div>
+      <div className="flex items-end gap-1 h-16 mb-1.5">
+        {[55, 62, 70, 75, 78, 82, 88, 92, 100, 112].map((h, i) => {
+          const isYou = i === 9;
+          return (
+            <div
+              key={i}
+              className="flex-1 rounded-sm"
+              style={{
+                height: `${h}%`,
+                background: isYou ? "#1C47FF" : "rgba(255,255,255,0.18)",
+                boxShadow: isYou ? "0 0 8px rgba(28,71,255,0.6)" : "none",
+              }}
+              aria-hidden
+            />
+          );
+        })}
+      </div>
+      <div className="flex items-center justify-between text-[8px] text-[var(--text-muted)]">
+        <span>Peer cohort (anon)</span>
+        <span className="text-[#1C47FF] font-semibold">You</span>
+      </div>
+    </div>
+  );
+}
+
+/**
  * Section 5 — The Three Moats (homepage-spec-v1.1).
  *
  * Conversion job: explain product. Reframe "Sundae has lots of features" into
@@ -26,24 +127,33 @@ import { motion, useReducedMotion } from "framer-motion";
  *   CLM-206 (most BI vendors are not built to solve)
  */
 
-const moats = [
+const moats: Array<{
+  badge: string;
+  badgeColor: string;
+  title: string;
+  why: string;
+  Thumb: React.ComponentType;
+}> = [
   {
     badge: "Pulse",
     badgeColor: "var(--color-pulse)",
     title: "Live operations",
     why: 'Restaurant-shift-aware logic. Live Core refresh. Speaks "covers, voids, comps, walks" — not generic transaction data.',
+    Thumb: PulseThumb,
   },
   {
     badge: "Watchtower",
     badgeColor: "var(--color-watchtower)",
     title: "External market intelligence",
     why: "Weather impact, local events, competitor pricing, daily AI briefings. Not a dashboard problem alone — it takes data partnerships, restaurant-domain modeling, and operating workflow.",
+    Thumb: WatchtowerThumb,
   },
   {
     badge: "Benchmarks",
     badgeColor: "var(--color-benchmarks)",
     title: "Anonymized peer network",
     why: "Anonymized peer comparisons across operators on the platform. Hard to recreate from a cold start: the comparison engine compounds with every restaurant that joins.",
+    Thumb: BenchmarkThumb,
   },
 ];
 
@@ -52,7 +162,7 @@ export function SectionThreeMoats() {
 
   return (
     <section aria-labelledby="moats-headline" className="relative">
-      <div className="max-w-7xl mx-auto px-6 sm:px-8 py-20 sm:py-28">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 py-16 sm:py-20 lg:py-24">
         <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-14">
           <div className="eyebrow mb-4">
             WHAT GENERIC BI TOOLS STRUGGLE TO RETROFIT
@@ -62,9 +172,7 @@ export function SectionThreeMoats() {
           </h2>
           <p className="body-lg max-w-2xl mx-auto">
             Generic BI tools are excellent at building dashboards. They were
-            not built to run restaurant shifts. Sundae was — and these three
-            layers are hard to retrofit because they combine data, workflow,
-            and network depth.
+            not built to run restaurant shifts. Sundae was.
           </p>
         </div>
 
@@ -93,6 +201,7 @@ export function SectionThreeMoats() {
               </div>
               <h3 className="section-h3 mb-3">{m.title}</h3>
               <p className="body-base">{m.why}</p>
+              <m.Thumb />
             </motion.article>
           ))}
         </div>

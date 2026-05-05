@@ -2,6 +2,7 @@
 
 import { motion, useReducedMotion } from "framer-motion";
 import { Button } from "@/components/ui/Button";
+import { REPORT_APP_URL } from "@/lib/urls";
 
 /**
  * Section 8 — CTA (homepage-spec-v1.1).
@@ -74,7 +75,7 @@ export function SectionCTA() {
               <path d="m13 5 7 7-7 7" />
             </svg>
           </Button>
-          <Button href="/report" variant="outline-light" size="lg">
+          <Button href={REPORT_APP_URL} variant="outline-light" size="lg">
             Get Your Free Benchmark
           </Button>
         </motion.div>

@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { Button } from './ui/Button';
 import { useCta } from '@/lib/cta';
 import { PRICING_URL } from '@/lib/links';
-import { SIGNUP_URL } from '@/lib/urls';
+import { REPORT_APP_URL } from '@/lib/urls';
 import { useWebsiteI18n } from './i18n/LocaleProvider';
 import { LocaleSwitcher } from './i18n/LocaleSwitcher';
 import { localizeWebsiteHref } from '@/lib/i18n';
@@ -71,7 +71,7 @@ const Footer = () => {
             <Button
               variant="outline-light"
               size="lg"
-              href={SIGNUP_URL}
+              href={REPORT_APP_URL}
             >
               {footer.startFree}
             </Button>

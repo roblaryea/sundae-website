@@ -53,33 +53,44 @@ const vertices: Vertex[] = [
   },
 ];
 
-// Triangle geometry (viewBox 400×400)
+// Triangle geometry (viewBox 460×460 with extra label padding)
 const trianglePoints: { x: number; y: number; labelX: number; labelY: number; anchor: "middle" | "start" | "end" }[] = [
-  { x: 200, y: 50, labelX: 200, labelY: 30, anchor: "middle" },   // top — Speed
-  { x: 360, y: 320, labelX: 380, labelY: 348, anchor: "start" },  // bottom-right — Quality
-  { x: 40, y: 320, labelX: 20, labelY: 348, anchor: "end" },      // bottom-left — Cost
+  { x: 230, y: 70, labelX: 230, labelY: 38, anchor: "middle" },   // top — Speed
+  { x: 400, y: 360, labelX: 410, labelY: 400, anchor: "end" },    // bottom-right — Quality
+  { x: 60, y: 360, labelX: 50, labelY: 400, anchor: "start" },    // bottom-left — Cost
 ];
 
 export function SectionSpeedQualityCost() {
   const reduceMotion = useReducedMotion();
   const [activeIdx, setActiveIdx] = useState(0);
   const [paused, setPaused] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
-  // Auto-rotate every 5s when not reduced-motion and not paused
   useEffect(() => {
-    if (reduceMotion || paused) return;
+    // Canonical hydration-safe mount detection — see Section4DScene for rationale.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setMounted(true);
+  }, []);
+
+  // Hydration discipline: server + first client render produce the static
+  // 3-card stack. After mount we upgrade to the rotating panel.
+  const useAnimated = mounted && !reduceMotion;
+
+  // Auto-rotate every 5s when animated and not paused
+  useEffect(() => {
+    if (!useAnimated || paused) return;
     const id = setInterval(() => {
       setActiveIdx((i) => (i + 1) % vertices.length);
     }, 5000);
     return () => clearInterval(id);
-  }, [reduceMotion, paused]);
+  }, [useAnimated, paused]);
 
   return (
     <section
       aria-labelledby="sqc-headline"
       className="relative bg-mesh"
     >
-      <div className="max-w-7xl mx-auto px-6 sm:px-8 py-20 sm:py-28">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 py-16 sm:py-20 lg:py-24">
         <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-14">
           <div className="eyebrow mb-4">THE OLD TRADEOFF IS DEAD</div>
           <h2 id="sqc-headline" className="section-h2 text-balance mb-5">
@@ -97,23 +108,39 @@ export function SectionSpeedQualityCost() {
           onMouseEnter={() => setPaused(true)}
           onMouseLeave={() => setPaused(false)}
         >
-          {/* Triangle SVG */}
-          <div className="relative aspect-square max-w-md mx-auto w-full">
-            <svg viewBox="0 0 400 400" className="w-full h-full">
-              {/* Triangle outline */}
+          {/* Triangle SVG with old-rule → Sundae-rule contrast */}
+          <div className="relative w-full max-w-md mx-auto">
+            {/* Old-rule banner */}
+            <div className="text-center mb-4">
+              <div className="inline-flex items-center gap-2 text-[11px] uppercase tracking-wider text-[var(--text-muted)] line-through decoration-[var(--text-faint)] decoration-1">
+                Old rule: pick two
+              </div>
+              <div className="mt-1.5 text-[11px] uppercase tracking-wider text-[var(--electric-blue)] font-bold">
+                Sundae rule: pick all three
+              </div>
+            </div>
+
+            <svg viewBox="0 0 460 460" className="w-full h-auto">
+              {/* Triangle outline with subtle gradient stroke */}
+              <defs>
+                <linearGradient id="triEdge" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stopColor="rgba(28,71,255,0.5)" />
+                  <stop offset="100%" stopColor="rgba(255,255,255,0.15)" />
+                </linearGradient>
+              </defs>
               <polygon
                 points={trianglePoints
                   .map((p) => `${p.x},${p.y}`)
                   .join(" ")}
                 fill="none"
-                stroke="rgba(255,255,255,0.18)"
-                strokeWidth="1.5"
+                stroke="url(#triEdge)"
+                strokeWidth="2"
                 strokeLinejoin="round"
               />
 
               {/* Vertices — clickable */}
               {trianglePoints.map((p, i) => {
-                const isActive = reduceMotion || i === activeIdx;
+                const isActive = !useAnimated || i === activeIdx;
                 return (
                   <g
                     key={vertices[i].id}
@@ -137,26 +164,26 @@ export function SectionSpeedQualityCost() {
                     <circle
                       cx={p.x}
                       cy={p.y}
-                      r={isActive ? 36 : 18}
+                      r={isActive ? 44 : 22}
                       fill="#1C47FF"
-                      opacity={isActive ? 0.22 : 0.06}
+                      opacity={isActive ? 0.25 : 0.08}
                       style={{ transition: "all 0.5s cubic-bezier(0.22, 1, 0.36, 1)" }}
                     />
                     {/* Inner glow */}
                     <circle
                       cx={p.x}
                       cy={p.y}
-                      r={isActive ? 18 : 10}
+                      r={isActive ? 22 : 12}
                       fill="#1C47FF"
-                      opacity={isActive ? 0.4 : 0.15}
+                      opacity={isActive ? 0.45 : 0.18}
                       style={{ transition: "all 0.5s cubic-bezier(0.22, 1, 0.36, 1)" }}
                     />
                     {/* Solid dot */}
                     <circle
                       cx={p.x}
                       cy={p.y}
-                      r={8}
-                      fill={isActive ? "#3B82F6" : "rgba(255,255,255,0.35)"}
+                      r={10}
+                      fill={isActive ? "#3B82F6" : "rgba(255,255,255,0.4)"}
                       style={{ transition: "fill 0.4s ease-out" }}
                     />
                     {/* Label */}
@@ -164,10 +191,10 @@ export function SectionSpeedQualityCost() {
                       x={p.labelX}
                       y={p.labelY}
                       textAnchor={p.anchor}
-                      fontSize="16"
-                      fontWeight="700"
-                      letterSpacing="0.15em"
-                      fill={isActive ? "#FFFFFF" : "rgba(255,255,255,0.45)"}
+                      fontSize="22"
+                      fontWeight="800"
+                      letterSpacing="0.16em"
+                      fill={isActive ? "#FFFFFF" : "rgba(255,255,255,0.55)"}
                       style={{ transition: "fill 0.4s ease-out" }}
                     >
                       {vertices[i].label.toUpperCase()}
@@ -179,8 +206,8 @@ export function SectionSpeedQualityCost() {
           </div>
 
           {/* Detail panel */}
-          {reduceMotion ? (
-            // Reduced-motion fallback: 3-card stack, all visible
+          {!useAnimated ? (
+            // Static path: 3-card stack, all visible (SSR + reduced-motion)
             <div className="space-y-3">
               {vertices.map((v) => (
                 <div

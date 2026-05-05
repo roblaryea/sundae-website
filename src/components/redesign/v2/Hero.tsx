@@ -2,6 +2,7 @@
 
 import { motion, useReducedMotion } from "framer-motion";
 import { Button } from "@/components/ui/Button";
+import { REPORT_APP_URL } from "@/lib/urls";
 import { HeroPulseMockup } from "./HeroPulseMockup";
 
 /**
@@ -30,86 +31,100 @@ export function Hero() {
     >
       <div aria-hidden className="absolute inset-0 bg-grid-texture pointer-events-none" />
 
-      <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 pt-24 sm:pt-32 lg:pt-36 pb-16 sm:pb-20 lg:pb-24">
-        {/* Eyebrow + headline + subhead */}
-        <motion.div
-          initial={reduceMotion ? false : { opacity: 0, y: 24 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-          className="max-w-3xl"
-        >
-          <div className="eyebrow mb-5">DECISION INTELLIGENCE FOR RESTAURANTS</div>
-          <h1 id="hero-headline" className="hero-h1 mb-6 text-balance">
-            Decisions before the margin disappears.
-          </h1>
-          <p className="body-xl max-w-2xl">
-            Your restaurant data lives across POS, labor, inventory, delivery,
-            finance, and the market around you. Sundae unifies it, benchmarks
-            every location against your peers, and tells each team what to do —
-            while there&apos;s still time to act.
-          </p>
-        </motion.div>
-
-        {/* CTAs — primary high-intent, secondary acquisition */}
-        <motion.div
-          initial={reduceMotion ? false : { opacity: 0, y: 16 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1], delay: 0.15 }}
-          className="mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4"
-        >
-          <Button href="/demo" variant="cta" size="lg">
-            Book a Working Session
-            <svg
-              className="w-4 h-4"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              aria-hidden
+      <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 pt-24 sm:pt-28 lg:pt-32 pb-16 sm:pb-20">
+        <div className="grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] gap-10 lg:gap-12 xl:gap-16 items-center">
+          {/* Left column — copy, CTAs, proof strip */}
+          <div>
+            <motion.div
+              initial={reduceMotion ? false : { opacity: 0, y: 24 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
             >
-              <path d="M5 12h14" />
-              <path d="m13 5 7 7-7 7" />
-            </svg>
-          </Button>
-          <Button href="/report" variant="outline-light" size="lg">
-            Get Your Free Benchmark
-          </Button>
-        </motion.div>
+              <div className="eyebrow mb-5">
+                DECISION INTELLIGENCE FOR RESTAURANTS
+              </div>
+              <h1 id="hero-headline" className="hero-h1 mb-6 text-balance">
+                Decisions before the margin disappears.
+              </h1>
+              <p className="body-xl max-w-xl">
+                Your restaurant data lives across POS, labor, inventory,
+                delivery, finance, and the market around you. Sundae unifies
+                it, benchmarks every location against your peers, and tells
+                each team what to do — while there&apos;s still time to act.
+              </p>
+            </motion.div>
 
-        {/* Proof strip — 3 stats, CLM-004 (250+) intentionally omitted */}
-        <motion.div
-          initial={reduceMotion ? false : { opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.6, delay: 0.3 }}
-          className="mt-10 sm:mt-12"
-        >
-          <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm sm:text-base text-[var(--text-supporting)]">
-            <span>
-              <strong className="text-[var(--text-primary)] font-semibold">12</strong>{" "}
-              data domains unified
-            </span>
-            <span aria-hidden className="text-[var(--text-faint)]">·</span>
-            <span>
-              <strong className="text-[var(--text-primary)] font-semibold">Live</strong>{" "}
-              Core refresh
-              <sup className="ml-0.5 text-[var(--text-muted)]">*</sup>
-            </span>
-            <span aria-hidden className="text-[var(--text-faint)]">·</span>
-            <span>
-              <strong className="text-[var(--text-primary)] font-semibold">179</strong>{" "}
-              restaurant data models
-            </span>
+            {/* CTAs */}
+            <motion.div
+              initial={reduceMotion ? false : { opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{
+                duration: 0.6,
+                ease: [0.22, 1, 0.36, 1],
+                delay: 0.15,
+              }}
+              className="mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4"
+            >
+              <Button href="/demo" variant="cta" size="lg">
+                Book a Working Session
+                <svg
+                  className="w-4 h-4"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden
+                >
+                  <path d="M5 12h14" />
+                  <path d="m13 5 7 7-7 7" />
+                </svg>
+              </Button>
+              <Button href={REPORT_APP_URL} variant="outline-light" size="lg">
+                Get Your Free Benchmark
+              </Button>
+            </motion.div>
+
+            {/* Proof strip — static, no animation (credibility numbers don't fade) */}
+            <div className="mt-8 sm:mt-10">
+              <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm sm:text-base text-[var(--text-supporting)]">
+                <span>
+                  <strong className="text-[var(--text-primary)] font-semibold">
+                    12
+                  </strong>{" "}
+                  data domains unified
+                </span>
+                <span aria-hidden className="text-[var(--text-faint)]">
+                  ·
+                </span>
+                <span>
+                  <strong className="text-[var(--text-primary)] font-semibold">
+                    Live
+                  </strong>{" "}
+                  Core refresh
+                  <sup className="ml-0.5 text-[var(--text-muted)]">*</sup>
+                </span>
+                <span aria-hidden className="text-[var(--text-faint)]">
+                  ·
+                </span>
+                <span>
+                  <strong className="text-[var(--text-primary)] font-semibold">
+                    179
+                  </strong>{" "}
+                  restaurant data models
+                </span>
+              </div>
+              <p className="mt-2 text-[11px] text-[var(--text-muted)] italic">
+                *Refresh frequency varies by Core tier.
+              </p>
+            </div>
           </div>
-          <p className="mt-2 text-[11px] text-[var(--text-muted)] italic">
-            *Refresh frequency varies by Core tier. See pricing for details.
-          </p>
-        </motion.div>
 
-        {/* Hero mockup */}
-        <div className="mt-12 sm:mt-16 lg:mt-20 max-w-5xl mx-auto">
-          <HeroPulseMockup />
+          {/* Right column — hero mockup, visible in first viewport on desktop */}
+          <div className="lg:pl-4">
+            <HeroPulseMockup />
+          </div>
         </div>
       </div>
     </section>

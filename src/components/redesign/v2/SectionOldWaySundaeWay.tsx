@@ -47,7 +47,7 @@ export function SectionOldWaySundaeWay() {
 
   return (
     <section aria-labelledby="oldway-headline" className="relative">
-      <div className="max-w-7xl mx-auto px-6 sm:px-8 py-20 sm:py-28">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 py-16 sm:py-20 lg:py-24">
         <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-16">
           <div className="eyebrow mb-4">
             THE REAL ENEMY IS DASHBOARD BUREAUCRACY

@@ -1,13 +1,9 @@
-"use client";
-
-import { motion, useReducedMotion } from "framer-motion";
-
 /**
  * Section 7 — Proof (homepage-spec-v1.1).
  *
- * Conversion job: NONE on stats themselves. Stats render in final state —
- * animating credibility numbers undermines them. Cards fade-in on scroll
- * with a small stagger.
+ * Conversion job: NONE. Stats render in final state — animating credibility
+ * numbers undermines them and hides them in screenshot capture. No motion at
+ * all in this section. Server-renders, never animates.
  *
  * Stats-only per user direction (CLM-901 deferred, CLM-902 conditional).
  * No pilot quote ships in v1.1. Logo wall is conditionally hidden when
@@ -17,12 +13,12 @@ import { motion, useReducedMotion } from "framer-motion";
  * Claims used:
  *   CLM-001 (12 data domains) APPROVED PUBLIC
  *   CLM-002 (179 data models) APPROVED PUBLIC
+ *   CLM-003 (30+ modules · 14 specialized in current bundle) APPROVED PUBLIC
+ *   CLM-004 (Built with inputs from operators representing 250+ locations) APPROVED PUBLIC
  *   CLM-005 (5-min refresh on Core Pro) CAPABILITY CLAIM ONLY · FN-1
  *   CLM-009 (6 intelligence layers) APPROVED PUBLIC — derived from locked taxonomy
  *
  * Excluded:
- *   CLM-003 (30+ modules) NEEDS VALIDATION — module count drift unresolved
- *   CLM-004 (250+ pilot locations) NEEDS VALIDATION — numerator undefined
  *   CLM-901 pilot quote — deferred until named operator approves
  *   CLM-902 logo wall — deferred until at least one approved logo
  */
@@ -37,9 +33,9 @@ const stats = [
     label: "restaurant-specific data models",
   },
   {
-    value: "6",
-    label: "intelligence layers",
-    sub: "Pulse · Benchmarks · Watchtower · Insights · Sundae Intelligence · Foresight",
+    value: "30+",
+    label: "analytics modules",
+    sub: "14 specialized in the current pricing bundle",
   },
   {
     value: "5-min",
@@ -49,36 +45,22 @@ const stats = [
 ];
 
 export function SectionProof() {
-  const reduceMotion = useReducedMotion();
-
   return (
     <section aria-labelledby="proof-headline" className="relative">
-      <div className="max-w-7xl mx-auto px-6 sm:px-8 py-20 sm:py-28 lg:py-32">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 py-16 sm:py-20 lg:py-24">
         <div className="text-center max-w-3xl mx-auto">
           <div className="eyebrow mb-4">WHAT&apos;S ALREADY SHIPPING</div>
           <h2 id="proof-headline" className="section-h2 text-balance">
-            Built with operators across QSR, casual, fine dining, cloud
-            kitchens, and hospitality groups.
+            Built with inputs from operators representing 250+ locations —
+            across QSR, casual, fine dining, cloud kitchens, and hospitality
+            groups.
           </h2>
         </div>
 
-        <motion.div
-          className="mt-12 sm:mt-16 grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-5"
-          initial={reduceMotion ? false : "hidden"}
-          whileInView="visible"
-          viewport={{ once: true, margin: "-80px" }}
-          variants={{
-            visible: { transition: { staggerChildren: 0.08 } },
-          }}
-        >
+        <div className="mt-10 sm:mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-5">
           {stats.map((s) => (
-            <motion.div
+            <div
               key={s.label}
-              variants={{
-                hidden: { opacity: 0, y: 20 },
-                visible: { opacity: 1, y: 0 },
-              }}
-              transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
               className="text-center p-5 sm:p-7 rounded-2xl bg-[var(--surface-subtle)] border border-[var(--border-default)]"
             >
               <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[var(--text-primary)] tabular-nums">
@@ -97,9 +79,9 @@ export function SectionProof() {
                   {s.sub}
                 </div>
               )}
-            </motion.div>
+            </div>
           ))}
-        </motion.div>
+        </div>
 
         <p className="mt-6 text-center text-[11px] text-[var(--text-muted)] italic">
           *Refresh frequency varies by Core tier. See pricing for details.
