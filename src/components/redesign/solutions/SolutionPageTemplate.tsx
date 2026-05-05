@@ -1,10 +1,45 @@
 "use client";
 
-import type { ComponentType } from "react";
 import { motion, useReducedMotion } from "framer-motion";
-import type { LucideIcon } from "lucide-react";
+import {
+  Activity,
+  Briefcase,
+  Building2,
+  Calendar,
+  ChartArea,
+  Code,
+  Coins,
+  Compass,
+  Database,
+  Eye,
+  GitBranch,
+  Hotel,
+  Layers,
+  LineChart,
+  Lock,
+  Megaphone,
+  Network,
+  Repeat,
+  ScanSearch,
+  Target,
+  Truck,
+  Users,
+  Wifi,
+  Workflow,
+  Zap,
+} from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { REPORT_APP_URL } from "@/lib/urls";
+import {
+  PulseDashboardMockup,
+  RevenueIntelligenceMockup,
+  IntelligenceChatMockup,
+  MarketingPerformanceMockup,
+  LaborOpsMockup,
+  IntegrationsHubMockup,
+  BenchmarkDashboardMockup,
+  ForesightDashboardMockup,
+} from "@/components/ui/MockupFrame";
 
 /**
  * Shared layout for every /solutions/* role and segment page.
@@ -15,12 +50,56 @@ import { REPORT_APP_URL } from "@/lib/urls";
  *   3. Capabilities    — 3 cards with icon + title + body + intel-layer chip
  *   4. Closing         — italic line; footer carries page-level CTA
  *
- * Each page is a thin wrapper that imports its data and renders this template.
- * Keeps all 10 pages consistent and trivial to maintain.
+ * Each page is a thin (server component) wrapper that imports plain data
+ * (string keys for icons + mockups) and renders this client template.
+ * Keeps all 10 pages consistent and avoids passing React component refs
+ * across the server/client boundary (which crashes at hydration).
  */
 
+const mockupRegistry = {
+  pulse: PulseDashboardMockup,
+  revenueIntelligence: RevenueIntelligenceMockup,
+  intelligenceChat: IntelligenceChatMockup,
+  marketingPerformance: MarketingPerformanceMockup,
+  laborOps: LaborOpsMockup,
+  integrationsHub: IntegrationsHubMockup,
+  benchmark: BenchmarkDashboardMockup,
+  foresight: ForesightDashboardMockup,
+} as const;
+
+const iconRegistry = {
+  activity: Activity,
+  briefcase: Briefcase,
+  building2: Building2,
+  calendar: Calendar,
+  chartArea: ChartArea,
+  code: Code,
+  coins: Coins,
+  compass: Compass,
+  database: Database,
+  eye: Eye,
+  gitBranch: GitBranch,
+  hotel: Hotel,
+  layers: Layers,
+  lineChart: LineChart,
+  lock: Lock,
+  megaphone: Megaphone,
+  network: Network,
+  repeat: Repeat,
+  scanSearch: ScanSearch,
+  target: Target,
+  truck: Truck,
+  users: Users,
+  wifi: Wifi,
+  workflow: Workflow,
+  zap: Zap,
+} as const;
+
+export type MockupKey = keyof typeof mockupRegistry;
+export type IconKey = keyof typeof iconRegistry;
+
 export interface SolutionCapability {
-  Icon: LucideIcon;
+  iconKey: IconKey;
   title: string;
   body: string;
   intelLayer?: string;
@@ -45,8 +124,8 @@ export interface SolutionPageData {
   capabilitiesHeadline: string;
   capabilities: [SolutionCapability, SolutionCapability, SolutionCapability];
 
-  // Mockup
-  Mockup: ComponentType;
+  // Mockup (string key — looked up in mockupRegistry)
+  mockupKey: MockupKey;
 
   // Closing
   closingLine: string;
@@ -54,6 +133,7 @@ export interface SolutionPageData {
 
 export function SolutionPageTemplate({ data }: { data: SolutionPageData }) {
   const reduceMotion = useReducedMotion();
+  const Mockup = mockupRegistry[data.mockupKey];
 
   return (
     <main>
@@ -107,9 +187,10 @@ export function SolutionPageTemplate({ data }: { data: SolutionPageData }) {
               </motion.div>
             </div>
 
-            {/* Mockup */}
+            {/* Mockup — looked up via registry to avoid passing React
+                component refs through props from server pages */}
             <div className="lg:pl-4">
-              <data.Mockup />
+              <Mockup />
             </div>
           </div>
         </div>
@@ -187,7 +268,7 @@ export function SolutionPageTemplate({ data }: { data: SolutionPageData }) {
           </div>
           <div className="grid md:grid-cols-3 gap-5 sm:gap-6 max-w-6xl mx-auto">
             {data.capabilities.map((c, i) => {
-              const { Icon } = c;
+              const Icon = iconRegistry[c.iconKey];
               return (
                 <motion.article
                   key={c.title}

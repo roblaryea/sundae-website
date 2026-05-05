@@ -1,41 +1,17 @@
-import {
-  Activity,
-  Building2,
-  Compass,
-  GitBranch,
-  Hotel,
-  LineChart,
-  Megaphone,
-  Truck,
-  Users,
-  Zap,
-  Layers,
-  Network,
-  Eye,
-  Target,
-  Workflow,
-  Database,
-  Lock,
-  Code,
-  ChartArea,
-  Calendar,
-  Coins,
-  ScanSearch,
-  Wifi,
-  Repeat,
-  Briefcase,
-} from "lucide-react";
-import {
-  PulseDashboardMockup,
-  RevenueIntelligenceMockup,
-  IntelligenceChatMockup,
-  MarketingPerformanceMockup,
-  LaborOpsMockup,
-  IntegrationsHubMockup,
-  BenchmarkDashboardMockup,
-  ForesightDashboardMockup,
-} from "@/components/ui/MockupFrame";
 import type { SolutionPageData } from "./SolutionPageTemplate";
+
+/**
+ * Solutions page content — pure data (string keys for icons + mockups).
+ *
+ * The template (SolutionPageTemplate) looks up the actual React components
+ * from registries based on these keys. This keeps the data file safe to
+ * pass from server components without crossing the server/client React
+ * component-reference boundary.
+ *
+ * Each page mirrors the new homepage's voice: pain headline, outcome
+ * subhead, "Today vs With Sundae" pacing-contrast comparison, three
+ * capability cards with intel-layer chips, italic closing line.
+ */
 
 /* ─── Roles ────────────────────────────────────────────────────── */
 
@@ -64,25 +40,25 @@ export const operationsLeaders: SolutionPageData = {
   capabilitiesHeadline: "The shift-floor view, every location, every service.",
   capabilities: [
     {
-      Icon: Activity,
+      iconKey: "activity",
       title: "Live shift intelligence",
       body: "Pacing, labor, leakage, comps, voids, and service exceptions — updated through the shift, not after the recap.",
       intelLayer: "Pulse",
     },
     {
-      Icon: Eye,
+      iconKey: "eye",
       title: "Cross-location patterns",
       body: "Portfolio leaderboards. Coach-signal patterns that scale across the group. Underperformers surfaced shift-by-shift.",
       intelLayer: "Insights",
     },
     {
-      Icon: Network,
+      iconKey: "network",
       title: "External market signals",
       body: "Weather, local events, competitor pricing, daily AI briefings — so teams know the market context before it hits the numbers.",
       intelLayer: "Watchtower",
     },
   ],
-  Mockup: PulseDashboardMockup,
+  mockupKey: "pulse",
   closingLine: "Operations leadership stops being a recap. It becomes a feed.",
 };
 
@@ -111,25 +87,25 @@ export const financeTeams: SolutionPageData = {
   capabilitiesHeadline: "Margin intelligence at the speed of the operation.",
   capabilities: [
     {
-      Icon: LineChart,
+      iconKey: "lineChart",
       title: "Live margin variance",
       body: "Daily margin against forecast, with shift-level attribution to labor, food cost, voids, comps, and pricing.",
       intelLayer: "Insights",
     },
     {
-      Icon: Coins,
+      iconKey: "coins",
       title: "Channel and platform reconciliation",
       body: "Net margin by channel — dine-in, delivery, catering, retail — with platform commission reconciliation in line.",
       intelLayer: "Insights · Revenue Assurance",
     },
     {
-      Icon: ChartArea,
+      iconKey: "chartArea",
       title: "Forward-looking forecasts",
       body: "14–90 day forecasts for revenue, labor, and profit with confidence bands and what-if scenarios.",
       intelLayer: "Foresight",
     },
   ],
-  Mockup: RevenueIntelligenceMockup,
+  mockupKey: "revenueIntelligence",
   closingLine: "Close faster. Explain more. Plan further out.",
 };
 
@@ -158,25 +134,25 @@ export const cSuite: SolutionPageData = {
   capabilitiesHeadline: "The C-suite view across every brand, market, and metric.",
   capabilities: [
     {
-      Icon: Compass,
+      iconKey: "compass",
       title: "Daily executive briefings",
       body: "AI-written summaries across every brand and location. What changed, why it changed, what to do about it.",
       intelLayer: "Sundae Intelligence",
     },
     {
-      Icon: Briefcase,
+      iconKey: "briefcase",
       title: "Peer-anchored benchmarks",
       body: "Where your portfolio stands against anonymized peers — RevPASH, average check, labor productivity, and more.",
       intelLayer: "Benchmarks",
     },
     {
-      Icon: ScanSearch,
+      iconKey: "scanSearch",
       title: "Market and competitor intelligence",
       body: "Watchtower tracks weather, events, competitor moves, and footfall signals — daily, not quarterly.",
       intelLayer: "Watchtower",
     },
   ],
-  Mockup: IntelligenceChatMockup,
+  mockupKey: "intelligenceChat",
   closingLine: "Lead the portfolio. Stop chasing the recap.",
 };
 
@@ -205,25 +181,25 @@ export const marketingTeams: SolutionPageData = {
   capabilitiesHeadline: "Campaign intelligence that beats the agency report.",
   capabilities: [
     {
-      Icon: Megaphone,
+      iconKey: "megaphone",
       title: "Attributed campaign ROI",
       body: "Spend tied to covers, average check, and net margin per channel — within 24 hours of activation.",
       intelLayer: "Insights · Marketing",
     },
     {
-      Icon: Repeat,
+      iconKey: "repeat",
       title: "Cross-channel attribution",
       body: "Loyalty + paid + organic + email + SMS unified. Find which channels actually move covers and check size.",
       intelLayer: "Cross-Intelligence",
     },
     {
-      Icon: Target,
+      iconKey: "target",
       title: "Conversational campaign Q&A",
       body: "Ask Sundae which campaign drove your best Saturday — get a sourced answer in seconds, not a deck in a week.",
       intelLayer: "Sundae Intelligence",
     },
   ],
-  Mockup: MarketingPerformanceMockup,
+  mockupKey: "marketingPerformance",
   closingLine: "Campaigns get smarter while they're still running.",
 };
 
@@ -252,25 +228,25 @@ export const hrTeams: SolutionPageData = {
   capabilitiesHeadline: "Labor intelligence at the speed of the schedule.",
   capabilities: [
     {
-      Icon: Users,
+      iconKey: "users",
       title: "Live labor variance",
       body: "Labor% by location, server, and shift. OT risk flagged before the cheque is cut.",
       intelLayer: "Pulse · Insights",
     },
     {
-      Icon: Activity,
+      iconKey: "activity",
       title: "Server-level productivity",
       body: "Covers per labor hour, upsell rate, void rate per server — surfaced as patterns to coach, not just numbers.",
       intelLayer: "Insights · Labor",
     },
     {
-      Icon: Calendar,
+      iconKey: "calendar",
       title: "Forecast-driven scheduling",
       body: "Foresight feeds expected demand into the schedule so coverage matches the night you're actually about to have.",
       intelLayer: "Foresight",
     },
   ],
-  Mockup: LaborOpsMockup,
+  mockupKey: "laborOps",
   closingLine: "Labor decisions get made when they still matter.",
 };
 
@@ -299,25 +275,25 @@ export const techTeams: SolutionPageData = {
   capabilitiesHeadline: "Restaurant-native data plumbing, governed and ready.",
   capabilities: [
     {
-      Icon: Database,
+      iconKey: "database",
       title: "12 unified data domains",
       body: "POS, labor, inventory, purchasing, reservations, delivery, marketing, guest experience, CRM, accounting, and more — modeled into 179+ governed schemas.",
       intelLayer: "Architecture",
     },
     {
-      Icon: Code,
+      iconKey: "code",
       title: "Public API + webhooks",
       body: "Pull Sundae's normalized data into your warehouse. Push state changes via webhooks. No custom ETL required.",
       intelLayer: "Platform",
     },
     {
-      Icon: Lock,
+      iconKey: "lock",
       title: "RBAC, audit trails, governance",
       body: "Multi-tenant role-based access, full audit logging, governed metrics — out of the box, not on a roadmap.",
       intelLayer: "Governance",
     },
   ],
-  Mockup: IntegrationsHubMockup,
+  mockupKey: "integrationsHub",
   closingLine: "Stop building plumbing. Start shipping intelligence.",
 };
 
@@ -348,25 +324,25 @@ export const multiLocation: SolutionPageData = {
   capabilitiesHeadline: "One view across every site, brand, and concept.",
   capabilities: [
     {
-      Icon: Building2,
+      iconKey: "building2",
       title: "Portfolio leaderboard",
       body: "Every location ranked by RevPASH, labor productivity, margin, and exception rate — refreshing through the shift.",
       intelLayer: "Pulse · Benchmarks",
     },
     {
-      Icon: Layers,
+      iconKey: "layers",
       title: "Cross-location intelligence",
       body: "Patterns that win in one site, surfaced as plays for the rest. Best-practice transfer becomes a feature, not a meeting.",
       intelLayer: "Cross-Intelligence",
     },
     {
-      Icon: Briefcase,
+      iconKey: "briefcase",
       title: "Brand- and region-level rollups",
       body: "Multi-brand, multi-region, multi-currency rollups out of the box. Drill from group → brand → region → site → shift.",
       intelLayer: "Architecture",
     },
   ],
-  Mockup: PulseDashboardMockup,
+  mockupKey: "pulse",
   closingLine: "Manage the group like it's one operation.",
 };
 
@@ -395,25 +371,25 @@ export const franchises: SolutionPageData = {
   capabilitiesHeadline: "Performance and consistency, in the same view.",
   capabilities: [
     {
-      Icon: GitBranch,
+      iconKey: "gitBranch",
       title: "Franchisee performance",
       body: "Live P&L roll-ups by franchisee, region, and brand. Spot the top quartile early — and the bottom quartile earlier.",
       intelLayer: "Insights · Benchmarks",
     },
     {
-      Icon: Workflow,
+      iconKey: "workflow",
       title: "Brand consistency at scale",
       body: "Guest experience signals, menu compliance, service speed, and exception rates monitored across every unit.",
       intelLayer: "Insights",
     },
     {
-      Icon: Network,
+      iconKey: "network",
       title: "Best-practice transfer",
       body: "Cross-Intelligence finds what the top franchisees do differently — and packages it as plays the rest can run.",
       intelLayer: "Cross-Intelligence",
     },
   ],
-  Mockup: BenchmarkDashboardMockup,
+  mockupKey: "benchmark",
   closingLine: "Make the network as strong as your strongest unit.",
 };
 
@@ -442,25 +418,25 @@ export const cloudKitchens: SolutionPageData = {
   capabilitiesHeadline: "Delivery economics, transparent and live.",
   capabilities: [
     {
-      Icon: Truck,
+      iconKey: "truck",
       title: "Real margin per platform",
       body: "DoorDash, UberEats, Deliveroo, Talabat — with commission, packaging, and refund leakage netted out per order.",
       intelLayer: "Insights · Revenue Assurance",
     },
     {
-      Icon: Layers,
+      iconKey: "layers",
       title: "Virtual brand attribution",
       body: "Multi-brand, multi-platform attribution unified. Know which virtual concept actually contributes margin per kitchen.",
       intelLayer: "Cross-Intelligence",
     },
     {
-      Icon: Wifi,
+      iconKey: "wifi",
       title: "Platform health monitoring",
       body: "Rating drift, dispatch latency, refund spikes, platform-side outages — surfaced via Watchtower in time to escalate.",
       intelLayer: "Watchtower",
     },
   ],
-  Mockup: PulseDashboardMockup,
+  mockupKey: "pulse",
   closingLine: "Defend the margin the platforms keep eating.",
 };
 
@@ -489,41 +465,24 @@ export const hospitalityGroups: SolutionPageData = {
   capabilitiesHeadline: "Every revenue stream in one decision view.",
   capabilities: [
     {
-      Icon: Hotel,
+      iconKey: "hotel",
       title: "Cross-revenue intelligence",
       body: "F&B, rooms, events, banquet, and catering unified — with attribution across guest journeys and service types.",
       intelLayer: "Cross-Intelligence",
     },
     {
-      Icon: Zap,
+      iconKey: "zap",
       title: "Adaptive targets",
       body: "Separate targets and pacing logic for restaurant, brunch, banquet, conference, and event service — each with its own rhythm.",
       intelLayer: "Insights",
     },
     {
-      Icon: ChartArea,
+      iconKey: "chartArea",
       title: "Stream-specific forecasting",
       body: "Forecasts that respect the difference between a 200-cover Friday dinner and a 600-pax wedding banquet.",
       intelLayer: "Foresight",
     },
   ],
-  Mockup: ForesightDashboardMockup,
+  mockupKey: "foresight",
   closingLine: "Run the property like the system it actually is.",
 };
-
-/* ─── Index ───────────────────────────────────────────────────── */
-
-export const solutionsContent = {
-  // Roles
-  "regional-managers": operationsLeaders,
-  "finance-teams": financeTeams,
-  "c-suite-executives": cSuite,
-  "marketing-teams": marketingTeams,
-  "hr-teams": hrTeams,
-  "technology-teams": techTeams,
-  // Segments
-  "multi-location-groups": multiLocation,
-  franchises: franchises,
-  "cloud-kitchens": cloudKitchens,
-  "hospitality-operators": hospitalityGroups,
-} as const;
