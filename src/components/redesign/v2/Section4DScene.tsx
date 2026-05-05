@@ -27,8 +27,8 @@ import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 
 interface Dimension {
   id: number;
-  shortLabel: string;   // for breadcrumb (1D · What happened)
-  eyebrow: string;      // big eyebrow for active panel
+  shortLabel: string;   // for breadcrumb pill ("1 · What happened")
+  eyebrow: string;      // small eyebrow above the active panel content
   title: string;
   body: string;
 }
@@ -37,30 +37,30 @@ const dimensions: Dimension[] = [
   {
     id: 1,
     shortLabel: "What happened",
-    eyebrow: "1D — WHAT HAPPENED",
-    title: "Lunch covers down 22% week-over-week.",
-    body: "Average check held flat. So this isn't pricing — it's traffic.",
+    eyebrow: "WHAT HAPPENED",
+    title: "Covers are down 22%.",
+    body: "Average check is steady, so the issue is traffic — not pricing.",
   },
   {
     id: 2,
     shortLabel: "Plan vs actual",
-    eyebrow: "2D — PLAN VS ACTUAL",
-    title: "Down $3,800 against today's forecast.",
-    body: "Labor still on baseline — overstaffed for this volume. Margin eroding by the hour.",
+    eyebrow: "PLAN VS ACTUAL",
+    title: "The location is $3,800 behind forecast.",
+    body: "Labor is still staffed to baseline, so margin is eroding by the hour.",
   },
   {
     id: 3,
     shortLabel: "Market context",
-    eyebrow: "3D — MARKET CONTEXT",
-    title: "External signals explain the gap.",
-    body: "Watchtower flag: three competitors within 2km dropped lunch combos to $9.99 yesterday. Two-block office tower has a fire drill scheduled 11–12.",
+    eyebrow: "MARKET CONTEXT",
+    title: "The market explains the gap.",
+    body: "Nearby competitors dropped lunch combos, and a local office event is reducing foot traffic.",
   },
   {
     id: 4,
-    shortLabel: "What's next",
-    eyebrow: "4D — WHAT'S NEXT",
-    title: "Sundae Coach: act before lunch peak.",
-    body: "Adjust one line-cook shift from 11–2 if coverage allows. Push the $11.99 lunch combo via your loyalty app. Projected impact: recover part of the gap if executed before lunch peak.",
+    shortLabel: "Next action",
+    eyebrow: "NEXT ACTION",
+    title: "Sundae Coach recommends the next move.",
+    body: "Adjust labor if coverage allows, push the lunch offer, and recover part of the gap before peak ends.",
   },
 ];
 
@@ -84,32 +84,25 @@ export function Section4DScene() {
       className="relative bg-mesh"
     >
       <div className="max-w-7xl mx-auto px-6 sm:px-8 py-16 sm:py-20 lg:py-24">
-        {/* Section signposting */}
-        <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-12">
+        {/* Section signposting — tightened to one headline + one-line subhead */}
+        <div className="text-center max-w-3xl mx-auto mb-8 sm:mb-10">
           <div className="eyebrow mb-4">THE 4D INTELLIGENCE MODEL</div>
           <h2 id="fourD-headline" className="section-h2 text-balance mb-5">
-            One scenario. Four dimensions. <span className="text-[var(--text-secondary)]">Connected in real time.</span>
+            Watch one revenue problem become a decision.
           </h2>
           <p className="body-lg max-w-2xl mx-auto">
-            Most dashboards stop at &quot;what happened.&quot; Sundae layers in
-            plan vs actual, the market around you, and the next action — before
-            the shift ends.
+            Sundae connects what happened, plan vs actual, market context, and
+            the next action — so teams can move before the shift is over.
           </p>
         </div>
 
-        {/* Illustrative-scenario badge + scenario hook */}
+        {/* Compact scenario hook — one line, no dual-stack title */}
         <div className="text-center max-w-3xl mx-auto mb-8 sm:mb-10">
-          <span className="inline-flex items-center gap-2 text-[10px] sm:text-[11px] uppercase tracking-[0.16em] font-bold px-3 py-1.5 rounded-md bg-[var(--brand-yellow)]/15 text-[var(--brand-yellow)] border border-[var(--brand-yellow)]/30 mb-5">
-            ⚠ Illustrative scenario — Sundae Coach example
-          </span>
-          <div className="text-[13px] sm:text-[14px] uppercase tracking-[0.18em] text-[var(--electric-blue)] font-bold mb-3">
+          <div className="text-[12px] sm:text-[13px] uppercase tracking-[0.18em] text-[var(--electric-blue)] font-bold mb-3">
             TUESDAY · 9:14 AM · DOWNTOWN
           </div>
           <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[var(--text-primary)] text-balance leading-tight">
             Lunch revenue is pacing 14% behind plan.
-            <span className="block mt-2 text-[var(--text-secondary)] font-semibold text-xl sm:text-2xl lg:text-3xl">
-              Here&apos;s what happens next.
-            </span>
           </p>
         </div>
 
@@ -134,7 +127,7 @@ export function Section4DScene() {
                     setActiveIdx(i);
                     setPaused(true);
                   }}
-                  className={`px-3 py-1.5 rounded-full uppercase tracking-[0.12em] font-bold transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--electric-blue)] ${
+                  className={`px-3.5 py-1.5 rounded-full uppercase tracking-[0.12em] font-bold transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--electric-blue)] ${
                     isActive
                       ? "bg-[var(--electric-blue)] text-white shadow-[0_0_18px_rgba(28,71,255,0.45)]"
                       : "bg-[var(--surface-subtle)] text-[var(--text-supporting)] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:text-[var(--text-primary)]"
@@ -142,8 +135,8 @@ export function Section4DScene() {
                   aria-label={`Show ${d.eyebrow}`}
                   aria-current={isActive}
                 >
-                  <span className="font-mono mr-1.5">{d.id}D</span>
-                  <span className="hidden sm:inline">·&nbsp;</span>
+                  <span className="font-mono mr-2">{d.id}</span>
+                  <span aria-hidden className="opacity-60 mr-1.5">·</span>
                   <span>{d.shortLabel}</span>
                 </button>
               );
@@ -189,8 +182,7 @@ export function Section4DScene() {
         {/* Closing line — section-level. Page-level closing CTA lives in the
             global Footer pre-CTA so we don't double up CTAs at the page bottom. */}
         <p className="text-center text-xl sm:text-2xl text-[var(--text-primary)] italic font-light max-w-2xl mx-auto mt-14 sm:mt-16">
-          Few dashboards connect the four dimensions. Sundae does it before
-          the shift ends.
+          From signal to cause to action — before the shift ends.
         </p>
       </div>
     </section>
@@ -207,13 +199,17 @@ export function Section4DScene() {
 function SceneVisual({ activeIdx }: { activeIdx: number }) {
   return (
     <div className="rounded-2xl border border-[var(--border-default)] bg-[var(--navy)] overflow-hidden shadow-[0_30px_80px_-20px_rgba(0,0,0,0.5),0_0_60px_rgba(28,71,255,0.12)]">
-      {/* Title bar */}
+      {/* Title bar with subtle illustrative tag (CLM-501 disclosure, anchored
+          to the visual rather than centered above the section) */}
       <div className="flex items-center gap-2 px-4 py-2.5 bg-black/40 border-b border-[var(--border-default)]">
         <span className="w-[10px] h-[10px] rounded-full bg-[#FF5F57]" />
         <span className="w-[10px] h-[10px] rounded-full bg-[#FFBD2E]" />
         <span className="w-[10px] h-[10px] rounded-full bg-[#28C840]" />
         <span className="ml-3 text-[11px] text-[var(--text-muted)] font-medium">
           Pulse — Downtown · Lunch Service
+        </span>
+        <span className="ml-auto text-[9px] uppercase tracking-[0.14em] font-bold text-[var(--brand-yellow)]/80">
+          Illustrative
         </span>
       </div>
 
