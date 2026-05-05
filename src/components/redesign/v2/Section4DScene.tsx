@@ -60,7 +60,7 @@ const dimensions: Dimension[] = [
     shortLabel: "Next action",
     eyebrow: "NEXT ACTION",
     title: "Sundae Coach recommends the next move.",
-    body: "Adjust labor if coverage allows, push the lunch offer, and recover part of the gap before peak ends.",
+    body: "Adjust labor if coverage allows, push the lunch offer, and give the team a chance to recover part of the gap before peak ends.",
   },
 ];
 
@@ -83,26 +83,29 @@ export function Section4DScene() {
       aria-labelledby="fourD-headline"
       className="relative bg-mesh"
     >
-      <div className="max-w-7xl mx-auto px-6 sm:px-8 py-16 sm:py-20 lg:py-24">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 py-14 sm:py-18 lg:py-20">
         {/* Section signposting — tightened to one headline + one-line subhead */}
-        <div className="text-center max-w-3xl mx-auto mb-8 sm:mb-10">
+        <div className="text-center max-w-3xl mx-auto mb-6 sm:mb-7">
           <div className="eyebrow mb-4">THE 4D INTELLIGENCE MODEL</div>
           <h2 id="fourD-headline" className="section-h2 text-balance mb-5">
             Watch one revenue problem become a decision.
           </h2>
           <p className="body-lg max-w-2xl mx-auto">
-            Sundae connects what happened, plan vs actual, market context, and
-            the next action — so teams can move before the shift is over.
+            Sundae connects performance, plan, market context, and next
+            action — so teams can move before the shift is over.
           </p>
         </div>
 
         {/* Compact scenario hook — one line, no dual-stack title */}
-        <div className="text-center max-w-3xl mx-auto mb-8 sm:mb-10">
+        <div className="text-center max-w-3xl mx-auto mb-5 sm:mb-6">
           <div className="text-[12px] sm:text-[13px] uppercase tracking-[0.18em] text-[var(--electric-blue)] font-bold mb-3">
             TUESDAY · 9:14 AM · DOWNTOWN
           </div>
           <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[var(--text-primary)] text-balance leading-tight">
             Lunch revenue is pacing 14% behind plan.
+          </p>
+          <p className="mt-3 text-[12px] text-[var(--text-muted)] italic">
+            Illustrative scenario based on Sundae capabilities.
           </p>
         </div>
 
@@ -115,8 +118,9 @@ export function Section4DScene() {
           onMouseLeave={() => setPaused(false)}
           onFocus={() => setPaused(true)}
         >
-          {/* Dimension breadcrumb — now docked above the grid as a connector */}
-          <div className="flex flex-wrap justify-center items-center gap-x-2 gap-y-2 text-[12px] sm:text-[13px] mb-7 sm:mb-8">
+          {/* Dimension breadcrumb — sentence case, "01 What happened" feel.
+              Active pill: blue bg + glow. Inactive: muted surface, easier to read. */}
+          <div className="flex flex-wrap justify-center items-center gap-x-2 gap-y-2 text-[13px] sm:text-[14px] mb-5 sm:mb-6">
             {dimensions.map((d, i) => {
               const isActive = i === activeIdx;
               return (
@@ -127,16 +131,17 @@ export function Section4DScene() {
                     setActiveIdx(i);
                     setPaused(true);
                   }}
-                  className={`px-3.5 py-1.5 rounded-full uppercase tracking-[0.12em] font-bold transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--electric-blue)] ${
+                  className={`px-4 py-1.5 rounded-full font-semibold transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--electric-blue)] ${
                     isActive
                       ? "bg-[var(--electric-blue)] text-white shadow-[0_0_18px_rgba(28,71,255,0.45)]"
                       : "bg-[var(--surface-subtle)] text-[var(--text-supporting)] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:text-[var(--text-primary)]"
                   }`}
-                  aria-label={`Show ${d.eyebrow}`}
+                  aria-label={d.shortLabel}
                   aria-current={isActive}
                 >
-                  <span className="font-mono mr-2">{d.id}</span>
-                  <span aria-hidden className="opacity-60 mr-1.5">·</span>
+                  <span className={`font-mono mr-2 ${isActive ? "opacity-80" : "opacity-50"}`}>
+                    {String(d.id).padStart(2, "0")}
+                  </span>
                   <span>{d.shortLabel}</span>
                 </button>
               );

@@ -1,6 +1,7 @@
 "use client";
 
 import { motion, useReducedMotion } from "framer-motion";
+import { SundaeWordmark } from "./SundaeWordmark";
 
 /**
  * Section 4 — Old Way vs Sundae Way (homepage-spec-v1.1).
@@ -52,8 +53,13 @@ export function SectionOldWaySundaeWay() {
           <div className="eyebrow mb-4">
             FROM REPORTING LAG TO OPERATING SPEED
           </div>
-          <h2 id="oldway-headline" className="section-h2 text-balance">
-            Reports tell you what happened. Sundae tells you what to do next.
+          <h2
+            id="oldway-headline"
+            className="section-h2 text-balance flex flex-wrap items-center justify-center gap-x-2 sm:gap-x-2.5 gap-y-1.5"
+          >
+            <span>Reports tell you what happened.</span>
+            <SundaeWordmark className="h-[0.8em] w-auto inline-block align-middle text-[var(--text-primary)]" />
+            <span>tells you what to do next.</span>
           </h2>
         </div>
 

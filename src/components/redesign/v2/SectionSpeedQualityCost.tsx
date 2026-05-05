@@ -4,8 +4,6 @@ import { useEffect, useRef, useState } from "react";
 import {
   motion,
   AnimatePresence,
-  animate,
-  useMotionValue,
   useReducedMotion,
 } from "framer-motion";
 
@@ -75,12 +73,14 @@ const trianglePoints: { x: number; y: number; labelX: number; labelY: number; an
   { x: 190, y: 380, labelX: 175, labelY: 416, anchor: "end"    }, // Cost (bottom-left)
 ];
 
-// r7 timing: shorter dwell (2.5s reading) + longer travel (3.5s motion) makes
-// the tracer's edge-to-edge movement clearly visible. r6's 3.5s dwell + 2.5s
-// travel was making the travel feel too brief — buyers saw vertices "light up"
-// without registering the motion in between.
-const DWELL_DUR_MS = 2500;
-const TRAVEL_DUR_S = 3.5;
+// r8 timing: switched from JS-driven motion-value tracer (which was producing
+// inconsistent visibility on the Quality→Cost segment) to SMIL animateMotion
+// for continuous, guaranteed-visible orbit. 5s per segment = 15s full loop.
+// The dimension content auto-cycles in lockstep via setInterval. Browser-driven
+// SMIL is more reliable than React-state animation for this kind of vector
+// movement and stays smooth even if the React tree re-renders.
+const SEGMENT_DUR_S = 5;
+const TOTAL_LOOP_S = SEGMENT_DUR_S * 3; // 15s full triangle orbit
 
 export function SectionSpeedQualityCost() {
   const reduceMotion = useReducedMotion();
@@ -96,50 +96,29 @@ export function SectionSpeedQualityCost() {
 
   const useAnimated = mounted && !reduceMotion;
 
-  // Tracer position bound to motion values — synced to activeIdx so the dot
-  // arrives at a vertex exactly as that vertex becomes active. Each cycle is
-  // a DWELL phase (ball stationary at active vertex while buyer reads the
-  // panel) followed by a TRAVEL phase (ball moves to next vertex).
-  const tracerX = useMotionValue(trianglePoints[0].x);
-  const tracerY = useMotionValue(trianglePoints[0].y);
-  const travelCleanupRef = useRef<(() => void) | null>(null);
+  // SVG ref for SMIL pause/unpause control on hover.
+  const svgRef = useRef<SVGSVGElement | null>(null);
 
+  // Auto-cycle the active dimension at the same cadence as the SMIL tracer
+  // animation. SMIL drives the dot continuously (15s loop = 5s per segment);
+  // this interval flips activeIdx every 5s so the right-card content updates
+  // when the dot arrives at each vertex.
   useEffect(() => {
     if (!useAnimated || paused) return;
+    const id = setInterval(() => {
+      setActiveIdx((i) => (i + 1) % trianglePoints.length);
+    }, SEGMENT_DUR_S * 1000);
+    return () => clearInterval(id);
+  }, [useAnimated, paused]);
 
-    const from = trianglePoints[activeIdx];
-    const to = trianglePoints[(activeIdx + 1) % trianglePoints.length];
-
-    // Snap tracer to the current vertex.
-    tracerX.set(from.x);
-    tracerY.set(from.y);
-
-    // DWELL phase — ball sits at the active vertex while content is read.
-    const dwellTimer = setTimeout(() => {
-      // TRAVEL phase — animate to next vertex; advance activeIdx on arrival.
-      const ctrlX = animate(tracerX, to.x, {
-        duration: TRAVEL_DUR_S,
-        ease: "easeInOut",
-      });
-      const ctrlY = animate(tracerY, to.y, {
-        duration: TRAVEL_DUR_S,
-        ease: "easeInOut",
-        onComplete: () => {
-          setActiveIdx((i) => (i + 1) % trianglePoints.length);
-        },
-      });
-      travelCleanupRef.current = () => {
-        ctrlX.stop();
-        ctrlY.stop();
-      };
-    }, DWELL_DUR_MS);
-
-    return () => {
-      clearTimeout(dwellTimer);
-      travelCleanupRef.current?.();
-      travelCleanupRef.current = null;
-    };
-  }, [useAnimated, paused, activeIdx, tracerX, tracerY]);
+  // Pause / unpause the SMIL animations when the user hovers the section.
+  useEffect(() => {
+    if (!useAnimated) return;
+    const svg = svgRef.current;
+    if (!svg) return;
+    if (paused) svg.pauseAnimations();
+    else svg.unpauseAnimations();
+  }, [useAnimated, paused]);
 
   return (
     <section
@@ -176,7 +155,12 @@ export function SectionSpeedQualityCost() {
               </div>
             </div>
 
-            <svg viewBox="0 0 700 540" className="w-full h-auto" aria-hidden>
+            <svg
+              ref={svgRef}
+              viewBox="0 0 700 540"
+              className="w-full h-auto"
+              aria-hidden
+            >
               <defs>
                 <linearGradient id="triEdge" x1="0" y1="0" x2="1" y2="1">
                   <stop offset="0%" stopColor="rgba(28,71,255,0.7)" />
@@ -196,6 +180,13 @@ export function SectionSpeedQualityCost() {
                     <feMergeNode in="SourceGraphic" />
                   </feMerge>
                 </filter>
+                {/* Hidden path — SMIL animateMotion follows this triangle perimeter */}
+                <path
+                  id="sqcTracerPath"
+                  d={`M ${trianglePoints[0].x} ${trianglePoints[0].y} L ${trianglePoints[1].x} ${trianglePoints[1].y} L ${trianglePoints[2].x} ${trianglePoints[2].y} Z`}
+                  fill="none"
+                  stroke="none"
+                />
               </defs>
 
               {/* Filled triangle */}
@@ -247,27 +238,31 @@ export function SectionSpeedQualityCost() {
                 </g>
               )}
 
-              {/* Tracer dot — synced to activeIdx via motion values.
-                  Bigger + brighter glow in r7 so the Quality→Cost segment
-                  (and any horizontal travel) reads clearly. */}
+              {/* Tracer dots — SMIL animateMotion drives continuous orbit
+                  along the triangle perimeter. 15s for a full loop = 5s per
+                  segment, in sync with the activeIdx interval. */}
               {useAnimated && (
                 <>
                   {/* Bright glow halo */}
-                  <motion.circle
-                    r="14"
-                    fill="#3B82F6"
-                    opacity="0.35"
-                    filter="url(#tracerGlow)"
-                    cx={tracerX}
-                    cy={tracerY}
-                  />
+                  <circle r="14" fill="#3B82F6" opacity="0.35" filter="url(#tracerGlow)">
+                    <animateMotion
+                      dur={`${TOTAL_LOOP_S}s`}
+                      repeatCount="indefinite"
+                      rotate="auto"
+                    >
+                      <mpath href="#sqcTracerPath" />
+                    </animateMotion>
+                  </circle>
                   {/* Solid leading dot */}
-                  <motion.circle
-                    r="9"
-                    fill="#FFFFFF"
-                    cx={tracerX}
-                    cy={tracerY}
-                  />
+                  <circle r="9" fill="#FFFFFF">
+                    <animateMotion
+                      dur={`${TOTAL_LOOP_S}s`}
+                      repeatCount="indefinite"
+                      rotate="auto"
+                    >
+                      <mpath href="#sqcTracerPath" />
+                    </animateMotion>
+                  </circle>
                 </>
               )}
 

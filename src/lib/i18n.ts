@@ -229,7 +229,7 @@ export const websiteMessages = {
     },
     footer: {
       readyTitle: "Stop running your restaurants on yesterday's numbers.",
-      readyDescription: '30 minutes with our team and your data — see whether Sundae would genuinely help your operation.',
+      readyDescription: 'See how Sundae would work against your operation, using your data where available or a representative restaurant scenario.',
       bookDemo: 'Book a Working Session',
       startFree: 'Start with Report Lite',
       brandDescription:

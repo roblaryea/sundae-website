@@ -29,13 +29,13 @@ const stats = [
     label: "data domains unified",
   },
   {
-    value: "179",
+    value: "179+",
     label: "restaurant-specific data models",
   },
   {
     value: "30+",
     label: "analytics modules",
-    sub: "14 specialized in the current pricing bundle",
+    footnoteMarker: "†",
   },
   {
     value: "5-min",
@@ -50,11 +50,14 @@ export function SectionProof() {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 py-16 sm:py-20 lg:py-24">
         <div className="text-center max-w-3xl mx-auto">
           <div className="eyebrow mb-4">WHAT&apos;S ALREADY SHIPPING</div>
-          <h2 id="proof-headline" className="section-h2 text-balance">
-            Built with inputs and feedback from operators representing 500+
-            locations — across QSR, casual, fine dining, cloud kitchens, and
-            hospitality groups.
+          <h2 id="proof-headline" className="section-h2 text-balance mb-5">
+            Built with operators across 500+ restaurant locations.
           </h2>
+          <p className="body-lg max-w-2xl mx-auto">
+            QSR, casual dining, fine dining, cloud kitchens, and hospitality
+            groups helped shape the intelligence layer restaurants actually
+            need.
+          </p>
         </div>
 
         <div className="mt-10 sm:mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-5">
@@ -74,17 +77,15 @@ export function SectionProof() {
               <div className="mt-2 text-sm sm:text-base text-[var(--text-supporting)]">
                 {s.label}
               </div>
-              {s.sub && (
-                <div className="mt-2 text-[11px] text-[var(--text-muted)] leading-tight">
-                  {s.sub}
-                </div>
-              )}
             </div>
           ))}
         </div>
 
-        <p className="mt-6 text-center text-[11px] text-[var(--text-muted)] italic">
+        <p className="mt-6 text-center text-[11px] text-[var(--text-muted)] italic max-w-3xl mx-auto leading-relaxed">
           *Refresh frequency varies by Core tier. See pricing for details.
+          {" "}
+          †30+ analytics modules across the platform; 14 specialized modules
+          included in the current pricing bundle.
         </p>
       </div>
     </section>
