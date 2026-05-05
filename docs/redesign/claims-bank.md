@@ -125,10 +125,8 @@ Footnotes that must appear on any page where the linked claim renders:
 
 | ID | Claim | Surface | Status | Source | Owner | Notes |
 |---|---|---|---|---|---|---|
-| CLM-301 | `30 minutes with our team and your data — see whether Sundae would genuinely help your operation.` | Section 8 subhead | **NEEDS VALIDATION** | Sales playbook | Sales | Confirm: is the standard working session 30 min, longer, or scoped per buyer? |
-| CLM-302 | `Working session is free.` | Section 8 trust line | **NEEDS VALIDATION** | Sales playbook | Sales | Confirm sales does not bill for first session under any tier. |
-| CLM-303 | `See how Sundae would work against your operation, using your data where available or a representative restaurant scenario.` | Footer pre-CTA description | **NEEDS VALIDATION** | Sales playbook | Sales | r8 update: replaces previous "30 minutes with our team and your data..." line on the footer (Section 8 was removed; footer pre-CTA is now the single closing). Confirm this matches actual session format. |
-| CLM-304 | `Get your free benchmark` (CTA action) | Hero, footer, persistent ribbon (TBD) | **APPROVED PUBLIC** | Report Lite product | Robert | The acquisition CTA. Clicking → routes to Report Lite signup. |
+| CLM-303 | `See how Sundae would work against your operation, using your data where available or a representative restaurant scenario.` | Footer pre-CTA description; SectionCTA fallback | **NEEDS VALIDATION** | Sales playbook | Sales | r8 update: replaces previous "30 minutes with our team and your data..." line on the footer (Section 8 was removed; footer pre-CTA is now the single closing). Confirm this matches actual session format. |
+| CLM-304 | `Start with Report Lite` (CTA action) | Hero, navbar, footer, SectionCTA fallback | **APPROVED PUBLIC** | Report Lite product | Robert | The acquisition CTA. Clicking routes to the Report Lite entry point. Avoid "Free Report" / "Sundae Report is free forever" because Report has paid tiers. |
 | CLM-305 | `Book a working session` (CTA action) | Hero, all sections, footer | **APPROVED PUBLIC** | Sales-led funnel | Robert | The high-intent CTA. Routes to demo form (or persona-aware form if scoped separately). |
 
 ---
@@ -202,12 +200,10 @@ These are the immediate validation tasks that block specific sections from shipp
 
 | Priority | Claim | Owner | Action | Blocks |
 |---|---|---|---|---|
-| P1 | CLM-004 (`250+ pilot locations`) | Robert | Define what counts. Pick the defensible numerator. | Section 1 (Hero) |
-| P1 | CLM-003 (`30+ analytics modules`) | Eng | Reconcile module count across pricing/modules/homepage. Lock one number. | Section 7 (Proof) |
 | P2 | CLM-007 (`30-second answers`) | Eng | Pull p95 latency from Sundae Intelligence telemetry. Confirm or soften. | Section 3 (SQC) |
-| P2 | CLM-301, 302, 303 (working-session commitments) | Sales | Confirm operational reality matches copy. | Section 8 (CTA) |
+| P2 | CLM-303 (working-session format) | Sales | Confirm operational reality matches copy. | Footer pre-CTA / SectionCTA fallback |
 | P3 | CLM-203a (homepage generic-BI subhead) + CLM-203b (compare-page named-vendor line) | Legal | Review market-wide and named-vendor competitor framing. CLM-203a still ships in homepage preview pending review. | Section 5 (Moats) + future `/compare/*` |
-| P2 | Locale parity for new CTA strings (`Book a Working Session` + `Get Your Free Benchmark` + footer headline) | Marketing/Translators | EN updated 2026-05. Arabic, French, Spanish still show old "Book a Demo" / "Start Free with Report" / "Ready to see what you're missing?". | Production launch outside EN markets |
+| P2 | Locale parity for new CTA strings (`Book a Working Session` + `Start with Report Lite` + footer headline) | Marketing/Translators | EN updated 2026-05. Arabic, French, Spanish still show old "Book a Demo" / "Start Free with Report" / "Ready to see what you're missing?". | Production launch outside EN markets |
 | P3 | FN-1, FN-2, FN-3 footnote text | Robert | Approve final footnote wording. | Sections 1, 3, 6 |
 | Ongoing | CLM-901, 902 (pilot quote + logo wall) | Robert + Sales | Source named operators with attribution permission. | Future v1.2+ release |
 

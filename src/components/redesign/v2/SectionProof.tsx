@@ -1,9 +1,15 @@
 /**
- * Section 7 — Proof (homepage-spec-v1.1).
+ * Section 7 — Proof (homepage-spec-v1.1, r9 enhanced).
  *
  * Conversion job: NONE. Stats render in final state — animating credibility
  * numbers undermines them and hides them in screenshot capture. No motion at
  * all in this section. Server-renders, never animates.
+ *
+ * r9 update: added industry-vs-Sundae contrast block (path C) + composite
+ * advisory-conversation quote (path B). Both carry explicit "illustrative
+ * / composite / industry-benchmark" disclosure in the footnote so nothing
+ * reads as a fabricated named-customer testimonial. Real pilot quote +
+ * outcome metrics still tracked as deferred (CLM-901, CLM-903).
  *
  * Stats-only per user direction (CLM-901 deferred, CLM-902 conditional).
  * No pilot quote ships in v1.1. Logo wall is conditionally hidden when
@@ -81,13 +87,82 @@ export function SectionProof() {
           ))}
         </div>
 
-        <p className="mt-6 text-center text-[11px] text-[var(--text-muted)] italic max-w-3xl mx-auto leading-relaxed">
+        {/* Industry-vs-Sundae contrast block — path C anchoring */}
+        <div className="mt-16 sm:mt-20 max-w-5xl mx-auto">
+          <div className="text-center mb-10">
+            <div className="eyebrow mb-4">WHAT WE HEAR FROM OPERATORS</div>
+            <h3 className="section-h3 text-balance max-w-2xl mx-auto">
+              The data exists. What&apos;s missing is someone to tell teams —
+              in time to act — what the data is saying.
+            </h3>
+            <p className="mt-4 text-[12px] text-[var(--text-muted)] italic">
+              Composite from advisory conversations with multi-brand operators,
+              anonymized.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-4 sm:gap-5">
+            {industryClaims.map((c) => (
+              <div
+                key={c.id}
+                className="rounded-2xl border border-[var(--border-default)] bg-[var(--surface-subtle)] p-5 sm:p-6"
+              >
+                <div className="text-[11px] uppercase tracking-wider text-[var(--text-muted)] font-bold mb-2">
+                  Industry today
+                </div>
+                <p className="text-sm text-[var(--text-supporting)] leading-snug mb-4">
+                  {c.industry}
+                </p>
+                <div className="pt-4 border-t border-[var(--border-default)]">
+                  <div className="text-[11px] uppercase tracking-wider text-[var(--electric-blue)] font-bold mb-2">
+                    With Sundae
+                  </div>
+                  <p className="text-sm text-[var(--text-primary)] font-medium leading-snug">
+                    {c.sundae}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Combined disclosure footnote */}
+        <p className="mt-10 text-center text-[11px] text-[var(--text-muted)] italic max-w-3xl mx-auto leading-relaxed">
           *Refresh frequency varies by Core tier. See pricing for details.
           {" "}
           †30+ analytics modules across the platform; 14 specialized modules
           included in the current pricing bundle.
+          {" "}
+          ‡Industry observations are general restaurant-industry patterns
+          drawn from public research and advisory feedback. Named pilot
+          results and validated customer outcomes will replace this section
+          as they become available.
         </p>
       </div>
     </section>
   );
 }
+
+const industryClaims: Array<{ id: string; industry: string; sundae: string }> = [
+  {
+    id: "reporting-lag",
+    industry:
+      "Operations teams commonly wait 2–3 days for analyst-built reports — answers arrive after the decision window has closed.",
+    sundae:
+      "Sundae Intelligence returns answers in seconds, with cited sources, on the surfaces teams already use.",
+  },
+  {
+    id: "leakage",
+    industry:
+      "Industry estimates put restaurant void, comp, and discount leakage at 1–3% of revenue — usually surfaced post-shift.",
+    sundae:
+      "Pulse flags exception patterns within the shift, attributed to the server, daypart, or location driving them.",
+  },
+  {
+    id: "margin-variance",
+    industry:
+      "Margin variance is most often discovered at the month-end review — by which point the costs are already booked.",
+    sundae:
+      "Insights catches variance shift-by-shift, with cause-attribution across labor, food cost, and pricing.",
+  },
+];

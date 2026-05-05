@@ -15,11 +15,12 @@ import { HeroPulseMockup } from "./HeroPulseMockup";
  *   CLM-001 (12 data domains) APPROVED PUBLIC
  *   CLM-006 (Live Core refresh) CAPABILITY CLAIM ONLY · FN-1 footnote
  *   CLM-002 (179 restaurant data models) APPROVED PUBLIC
- *   CLM-004 (250+ pilot locations) NEEDS VALIDATION — INTENTIONALLY OMITTED
+ *   CLM-004 (500+ represented locations) APPROVED PUBLIC — lives in §7 proof,
+ *   not in the hero proof strip.
  *
  * CTA hierarchy:
  *   Primary  — `Book a Working Session` (high-intent, sales-led)
- *   Secondary — `Get Your Free Benchmark` (acquisition, Report Lite)
+ *   Secondary — `Start with Report Lite` (acquisition)
  */
 export function Hero() {
   const reduceMotion = useReducedMotion();

@@ -13,10 +13,11 @@ import { REPORT_APP_URL } from "@/lib/urls";
  *
  * Claims used:
  *   CLM-214 ("Stop running your restaurants on yesterday's numbers.") APPROVED PUBLIC
- *   CLM-301/302/303 (working-session commitments) NEEDS VALIDATION — Sales must confirm
+ *   CLM-303 (working-session format) NEEDS VALIDATION — Sales must confirm
  *
- * Sales sign-off note: the trust line below is what we currently ship in copy.
- * If Sales operates differently, update the copy in this file and the bank entry.
+ * Note: this section is not currently rendered by /preview/v2/home; the global
+ * footer pre-CTA is the closing CTA. Keep this component in sync so it is safe
+ * if reused in a future page composition.
  */
 export function SectionCTA() {
   const reduceMotion = useReducedMotion();
@@ -48,8 +49,8 @@ export function SectionCTA() {
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.6, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
         >
-          30 minutes with our team and your data — see whether Sundae would
-          genuinely help your operation.
+          See how Sundae would work against your operation, using your data
+          where available or a representative restaurant scenario.
         </motion.p>
 
         <motion.div
@@ -76,13 +77,12 @@ export function SectionCTA() {
             </svg>
           </Button>
           <Button href={REPORT_APP_URL} variant="outline-light" size="lg">
-            Get Your Free Benchmark
+            Start with Report Lite
           </Button>
         </motion.div>
 
         <p className="mt-8 text-sm text-[var(--text-muted)] max-w-lg mx-auto">
-          Working session is free. No generic demo. We work from your data
-          where available, or from a representative restaurant scenario.
+          Built for a focused working session, not a generic walkthrough.
         </p>
       </div>
     </section>
