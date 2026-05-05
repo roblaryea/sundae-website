@@ -1,0 +1,110 @@
+"use client";
+
+import { motion, useReducedMotion } from "framer-motion";
+
+/**
+ * Section 7 — Proof (homepage-spec-v1.1).
+ *
+ * Conversion job: NONE on stats themselves. Stats render in final state —
+ * animating credibility numbers undermines them. Cards fade-in on scroll
+ * with a small stagger.
+ *
+ * Stats-only per user direction (CLM-901 deferred, CLM-902 conditional).
+ * No pilot quote ships in v1.1. Logo wall is conditionally hidden when
+ * zero approved logos exist — at homepage launch this section ships as
+ * stats-only and degrades cleanly.
+ *
+ * Claims used:
+ *   CLM-001 (12 data domains) APPROVED PUBLIC
+ *   CLM-002 (179 data models) APPROVED PUBLIC
+ *   CLM-005 (5-min refresh on Core Pro) CAPABILITY CLAIM ONLY · FN-1
+ *   CLM-009 (6 intelligence layers) APPROVED PUBLIC — derived from locked taxonomy
+ *
+ * Excluded:
+ *   CLM-003 (30+ modules) NEEDS VALIDATION — module count drift unresolved
+ *   CLM-004 (250+ pilot locations) NEEDS VALIDATION — numerator undefined
+ *   CLM-901 pilot quote — deferred until named operator approves
+ *   CLM-902 logo wall — deferred until at least one approved logo
+ */
+
+const stats = [
+  {
+    value: "12",
+    label: "data domains unified",
+  },
+  {
+    value: "179",
+    label: "restaurant-specific data models",
+  },
+  {
+    value: "6",
+    label: "intelligence layers",
+    sub: "Pulse · Benchmarks · Watchtower · Insights · Sundae Intelligence · Foresight",
+  },
+  {
+    value: "5-min",
+    label: "shift refresh on Core Pro",
+    footnoteMarker: "*",
+  },
+];
+
+export function SectionProof() {
+  const reduceMotion = useReducedMotion();
+
+  return (
+    <section aria-labelledby="proof-headline" className="relative">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 py-20 sm:py-28 lg:py-32">
+        <div className="text-center max-w-3xl mx-auto">
+          <div className="eyebrow mb-4">WHAT&apos;S ALREADY SHIPPING</div>
+          <h2 id="proof-headline" className="section-h2 text-balance">
+            Built with operators across QSR, casual, fine dining, cloud
+            kitchens, and hospitality groups.
+          </h2>
+        </div>
+
+        <motion.div
+          className="mt-12 sm:mt-16 grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-5"
+          initial={reduceMotion ? false : "hidden"}
+          whileInView="visible"
+          viewport={{ once: true, margin: "-80px" }}
+          variants={{
+            visible: { transition: { staggerChildren: 0.08 } },
+          }}
+        >
+          {stats.map((s) => (
+            <motion.div
+              key={s.label}
+              variants={{
+                hidden: { opacity: 0, y: 20 },
+                visible: { opacity: 1, y: 0 },
+              }}
+              transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
+              className="text-center p-5 sm:p-7 rounded-2xl bg-[var(--surface-subtle)] border border-[var(--border-default)]"
+            >
+              <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[var(--text-primary)] tabular-nums">
+                {s.value}
+                {s.footnoteMarker && (
+                  <sup className="text-base text-[var(--text-muted)] ml-0.5">
+                    {s.footnoteMarker}
+                  </sup>
+                )}
+              </div>
+              <div className="mt-2 text-sm sm:text-base text-[var(--text-supporting)]">
+                {s.label}
+              </div>
+              {s.sub && (
+                <div className="mt-2 text-[11px] text-[var(--text-muted)] leading-tight">
+                  {s.sub}
+                </div>
+              )}
+            </motion.div>
+          ))}
+        </motion.div>
+
+        <p className="mt-6 text-center text-[11px] text-[var(--text-muted)] italic">
+          *Refresh frequency varies by Core tier. See pricing for details.
+        </p>
+      </div>
+    </section>
+  );
+}

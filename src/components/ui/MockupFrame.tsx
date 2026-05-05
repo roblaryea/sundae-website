@@ -489,3 +489,127 @@ export function ForesightDashboardMockup() {
     </MockupFrame>
   );
 }
+
+/* ─── Revenue Intelligence Mockup (CFO persona — Insights:Revenue) ─── */
+
+export function RevenueIntelligenceMockup() {
+  return (
+    <MockupFrame label="Revenue Intelligence — Portfolio Today">
+      <div className="space-y-4">
+        <div className="flex items-center justify-between">
+          <MockupLiveDot />
+          <span className="text-[10px] text-[var(--text-muted)] font-mono">Today · vs forecast</span>
+        </div>
+
+        <div className="grid grid-cols-3 gap-3">
+          <MockupKPI label="Net revenue today" value="$184K" trend="+3.2% vs forecast" trendUp color="#22C55E" />
+          <MockupKPI label="Gross margin" value="62.4%" trend="−0.8pp WoW" trendUp={false} color="#FBBF24" />
+          <MockupKPI label="Variance MTD" value="+$5.8K" trend="vs plan" trendUp color="#22C55E" />
+        </div>
+
+        <MockupTable
+          headers={["Channel", "Today", "Mix %", "vs LW"]}
+          rows={[
+            ["Dine-in", "$112K", "61%", "+4.1%"],
+            ["Delivery", "$48K", "26%", "+1.8%"],
+            ["Catering", "$18K", "10%", "−2.4%"],
+            ["Retail", "$6K", "3%", "+0.6%"],
+          ]}
+        />
+
+        <MockupAlert type="coach">
+          Catering down WoW driven by 2 cancelled corporate orders. Net revenue still pacing +3.2% on dine-in strength.
+        </MockupAlert>
+      </div>
+    </MockupFrame>
+  );
+}
+
+/* ─── Labor Operations Mockup (HR / People persona) ─── */
+
+export function LaborOpsMockup() {
+  return (
+    <MockupFrame label="Labor — Live Variance">
+      <div className="space-y-4">
+        <div className="flex items-center justify-between">
+          <MockupLiveDot />
+          <span className="text-[10px] text-[var(--text-muted)] font-mono">Saturday · 1:24 PM</span>
+        </div>
+
+        <div className="grid grid-cols-3 gap-3">
+          <MockupKPI label="Labor % portfolio" value="29.6%" trend="+1.2pp vs target" trendUp={false} color="#FBBF24" />
+          <MockupKPI label="OT exposure" value="$840" trend="3 locations" trendUp={false} color="#FF5450" />
+          <MockupKPI label="Productivity" value="6.8" trend="covers per FOH hr" trendUp color="#22C55E" />
+        </div>
+
+        <MockupTable
+          headers={["Location", "Labor %", "OT risk", "Cover/hr"]}
+          rows={[
+            ["Downtown", "32.1%", "High", "5.4"],
+            ["Marina", "28.4%", "Low", "7.2"],
+            ["Airport", "30.8%", "Med", "6.1"],
+            ["Suburbs", "27.2%", "Low", "7.8"],
+          ]}
+        />
+
+        <MockupAlert type="warning">
+          Downtown schedule is 11% above plan for Sat 7–11pm. Reassign 2 covers to Marina staff or trim one shift.
+        </MockupAlert>
+      </div>
+    </MockupFrame>
+  );
+}
+
+/* ─── Integrations Hub Mockup (Tech / Data persona) ─── */
+
+const INTEGRATIONS_STATUS: Array<[string, "OK" | "Lag 8m" | "OK"]> = [
+  ["POS · Toast", "OK"],
+  ["POS · Square", "OK"],
+  ["Labor · 7shifts", "OK"],
+  ["Inventory · Crunchtime", "OK"],
+  ["Delivery · DoorDash", "OK"],
+  ["Delivery · UberEats", "Lag 8m"],
+  ["Accounting · QuickBooks", "OK"],
+  ["Reservations · OpenTable", "OK"],
+];
+
+export function IntegrationsHubMockup() {
+  return (
+    <MockupFrame label="Integrations — Data Health">
+      <div className="space-y-4">
+        <div className="flex items-center justify-between">
+          <MockupLiveDot />
+          <span className="text-[10px] text-[var(--text-muted)] font-mono">Last sync: 14m ago</span>
+        </div>
+
+        <div className="grid grid-cols-3 gap-3">
+          <MockupKPI label="Active sources" value="14" trend="12 domains" trendUp color="#1C47FF" />
+          <MockupKPI label="Sync rate (7d)" value="99.4%" trend="SLO: 99%" trendUp color="#22C55E" />
+          <MockupKPI label="p95 lag" value="4.2m" color="#1C47FF" />
+        </div>
+
+        <div className="grid grid-cols-2 gap-2">
+          {INTEGRATIONS_STATUS.map(([name, status]) => {
+            const isOk = status === "OK";
+            return (
+              <div
+                key={name}
+                className="flex items-center justify-between bg-white/[0.03] border border-[var(--border-default)] rounded-lg px-3 py-2 text-[11px]"
+              >
+                <span className="text-[var(--text-secondary)] truncate">{name}</span>
+                <span className={isOk ? "text-[#22C55E]" : "text-[#FBBF24]"}>
+                  <span className="inline-block w-1.5 h-1.5 rounded-full mr-1.5 align-middle" style={{ backgroundColor: isOk ? "#22C55E" : "#FBBF24" }} />
+                  {status}
+                </span>
+              </div>
+            );
+          })}
+        </div>
+
+        <MockupAlert type="info">
+          179 governed data models · public API · webhooks · RBAC · audit trails
+        </MockupAlert>
+      </div>
+    </MockupFrame>
+  );
+}

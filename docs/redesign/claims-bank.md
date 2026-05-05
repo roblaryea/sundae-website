@@ -74,6 +74,7 @@ Footnotes that must appear on any page where the linked claim renders:
 | CLM-006 | `Live Core refresh` | Hero proof strip, Moat #1 | **CAPABILITY CLAIM ONLY** | Tier spec (Core product line) | Eng | **FN-1** recommended | Generalized version of CLM-005 for top-of-page surfaces where footnote is awkward. |
 | CLM-007 | `30-second answers` | SQC Triangle (Speed vertex) | **NEEDS VALIDATION** | Sundae Intelligence p95 latency | Eng | No | **OPEN**: confirm with telemetry. If true (p95 < 30s), publish. If not, soften to "answers in seconds" — still positioning-effective, defensible. |
 | CLM-008 | `Report Lite is free` | SQC Cost vertex, all tier-related CTAs, pricing page | **APPROVED PUBLIC** | Pricing page (Report Lite tier) | Robert | No | Anchor of the freemium positioning. Banned phrasings tracked separately (see Spec Section 0). |
+| CLM-009 | `6 intelligence layers` | Section 7 stats | **APPROVED PUBLIC** | Locked taxonomy (`homepage-spec-v1.1`) | Robert | No | Pulse · Benchmarks · Watchtower · Insights · Sundae Intelligence · Foresight. |
 
 ---
 
