@@ -446,8 +446,10 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* CTA Buttons — secondary (acquisition) + primary (high-intent) */}
-          <div className="hidden lg:flex items-center space-x-3">
+          {/* CTA Buttons — secondary (acquisition) + primary (high-intent).
+              Secondary "Get Your Free Benchmark" only renders at xl+ to keep
+              the lg-range navbar from interlocking when the full menu is shown. */}
+          <div className="hidden lg:flex items-center space-x-2 xl:space-x-3 shrink-0">
             <LocaleSwitcher />
             <ThemeToggle />
             <Button
@@ -459,16 +461,18 @@ const Navbar = () => {
             >
               {nav.signIn}
             </Button>
-            <Button
-              variant="outline-light"
-              size="sm"
-              href={REPORT_APP_URL}
-              onClick={() => cta(REPORT_APP_URL, "free_benchmark_navbar", { location: "navbar" })}
-              data-cta="free_benchmark_navbar"
-              data-source="navbar"
-            >
-              {nav.startFree}
-            </Button>
+            <span className="hidden xl:inline-flex">
+              <Button
+                variant="outline-light"
+                size="sm"
+                href={REPORT_APP_URL}
+                onClick={() => cta(REPORT_APP_URL, "free_benchmark_navbar", { location: "navbar" })}
+                data-cta="free_benchmark_navbar"
+                data-source="navbar"
+              >
+                {nav.startFree}
+              </Button>
+            </span>
             <Button
               variant="primary"
               size="sm"

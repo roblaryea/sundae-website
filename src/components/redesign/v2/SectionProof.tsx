@@ -51,9 +51,9 @@ export function SectionProof() {
         <div className="text-center max-w-3xl mx-auto">
           <div className="eyebrow mb-4">WHAT&apos;S ALREADY SHIPPING</div>
           <h2 id="proof-headline" className="section-h2 text-balance">
-            Built with inputs from operators representing 250+ locations —
-            across QSR, casual, fine dining, cloud kitchens, and hospitality
-            groups.
+            Built with inputs and feedback from operators representing 500+
+            locations — across QSR, casual, fine dining, cloud kitchens, and
+            hospitality groups.
           </h2>
         </div>
 

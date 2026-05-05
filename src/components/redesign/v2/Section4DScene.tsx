@@ -1,42 +1,35 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 import { Button } from "@/components/ui/Button";
 
 /**
- * Hydration discipline: server and client first render MUST match. We start
- * `mounted=false` so both server-side render and the first client render
- * produce the static stack. After hydration, useEffect flips `mounted=true`
- * and we upgrade to the GSAP-pinned animated path. No DOM mismatch.
- */
-
-/**
- * Section 6 — 4D Intelligence Scroll Scene (homepage-spec-v1.1).
+ * Section 6 — 4D Intelligence Model (homepage-spec-v1.1, polish r4 refactor).
  *
- * Conversion job: explain product + dramatize urgency. Pinned scroll over
- * ~3 viewport heights reveals a single concrete operational scenario across
- * four dimensions: What Happened → Plan vs Actual → Market Context → What's Next.
+ * Conversion job: explain product. ONE concrete operational scenario unfolds
+ * across four dimensions (What happened → Plan vs actual → Market context →
+ * What's next), demonstrating Sundae's cross-dimensional reasoning.
  *
- * Reduced-motion fallback: section degrades to a vertical 4-card stack with
- * the same narrative. No pinning, no morphing. Closing line + CTA below.
+ * Polish r4 changes (vs r1 GSAP-pinned implementation):
+ *   - Removed GSAP ScrollTrigger and the h-screen pin (was creating dead space
+ *     and overstating section weight without adding clarity)
+ *   - Added explicit section signposting — buyer now knows it's the "4D
+ *     Intelligence Model" and what dimensions to expect before content starts
+ *   - Auto-cycle every 5.5s with hover/click pause — section is alive without
+ *     scroll dependency
+ *   - Dimension eyebrows promoted to global eyebrow class (now 13/14/15px
+ *     responsive) for proper hierarchy
+ *   - Visibly labeled as illustrative (mandatory CLM-501 disclosure)
  *
- * GSAP discipline (per §6 implementation constraints in spec):
- *   - ScrollTrigger dynamic-imported, only loads on this section
- *   - 'use client' module
- *   - All copy ships server-rendered as text (cards exist in DOM regardless of JS)
- *   - Cleanup on unmount (.kill() every ScrollTrigger instance)
- *
- * Claims (all CAPABILITY CLAIM ONLY · FN-3):
- *   CLM-501 (visible "ILLUSTRATIVE" badge — mandatory)
- *   CLM-502 (scenario specifics)
- *   CLM-503 (qualitative Coach projection — no quantified outcome)
- *   CLM-213 (closing line)
+ * Hydration: same DOM in all paths. activeIdx starts at 0 server + first
+ * client render. The auto-cycle interval only runs after mount.
  */
 
 interface Dimension {
   id: number;
-  eyebrow: string;
+  shortLabel: string;   // for breadcrumb (1D · What happened)
+  eyebrow: string;      // big eyebrow for active panel
   title: string;
   body: string;
 }
@@ -44,24 +37,28 @@ interface Dimension {
 const dimensions: Dimension[] = [
   {
     id: 1,
+    shortLabel: "What happened",
     eyebrow: "1D — WHAT HAPPENED",
     title: "Lunch covers down 22% week-over-week.",
     body: "Average check held flat. So this isn't pricing — it's traffic.",
   },
   {
     id: 2,
+    shortLabel: "Plan vs actual",
     eyebrow: "2D — PLAN VS ACTUAL",
     title: "Down $3,800 against today's forecast.",
     body: "Labor still on baseline — overstaffed for this volume. Margin eroding by the hour.",
   },
   {
     id: 3,
+    shortLabel: "Market context",
     eyebrow: "3D — MARKET CONTEXT",
     title: "External signals explain the gap.",
     body: "Watchtower flag: three competitors within 2km dropped lunch combos to $9.99 yesterday. Two-block office tower has a fire drill scheduled 11–12.",
   },
   {
     id: 4,
+    shortLabel: "What's next",
     eyebrow: "4D — WHAT'S NEXT",
     title: "Sundae Coach: act before lunch peak.",
     body: "Adjust one line-cook shift from 11–2 if coverage allows. Push the $11.99 lunch combo via your loyalty app. Projected impact: recover part of the gap if executed before lunch peak.",
@@ -70,201 +67,136 @@ const dimensions: Dimension[] = [
 
 export function Section4DScene() {
   const reduceMotion = useReducedMotion();
-  const sectionRef = useRef<HTMLDivElement | null>(null);
   const [activeIdx, setActiveIdx] = useState(0);
-  const [mounted, setMounted] = useState(false);
+  const [paused, setPaused] = useState(false);
 
+  // Auto-cycle through dimensions every 5.5s — pauses on hover/focus
   useEffect(() => {
-    // Canonical hydration-safe mount detection. The extra render is intentional —
-    // it lets server/first-client render produce identical static markup, then
-    // the client upgrades to the GSAP-pinned animated tree post-hydration.
-    setMounted(true);
-  }, []);
+    if (reduceMotion || paused) return;
+    const id = setInterval(() => {
+      setActiveIdx((i) => (i + 1) % dimensions.length);
+    }, 5500);
+    return () => clearInterval(id);
+  }, [reduceMotion, paused]);
 
-  const useAnimated = mounted && !reduceMotion;
-
-  useEffect(() => {
-    if (!useAnimated) return;
-    const el = sectionRef.current;
-    if (!el) return;
-
-    let cleanup: (() => void) | undefined;
-
-    (async () => {
-      const [{ default: gsap }, { default: ScrollTrigger }] = await Promise.all([
-        import("gsap"),
-        import("gsap/ScrollTrigger"),
-      ]);
-      gsap.registerPlugin(ScrollTrigger);
-
-      const trigger = ScrollTrigger.create({
-        trigger: el,
-        pin: true,
-        start: "top top",
-        end: "+=220%",
-        scrub: 0.6,
-        onUpdate: (self) => {
-          const idx = Math.min(
-            dimensions.length - 1,
-            Math.floor(self.progress * dimensions.length)
-          );
-          setActiveIdx(idx);
-        },
-      });
-
-      cleanup = () => {
-        trigger.kill();
-      };
-    })();
-
-    return () => {
-      cleanup?.();
-    };
-  }, [useAnimated]);
-
-  // Static path — used for SSR, first client render, AND reduced-motion users
-  if (!useAnimated) {
-    return (
-      <section
-        aria-labelledby="fourD-headline"
-        className="relative bg-mesh"
-      >
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 py-20 sm:py-28">
-          <SceneHeader />
-          <div className="mt-10 sm:mt-12 max-w-4xl mx-auto space-y-4">
-            {dimensions.map((d) => (
-              <article
-                key={d.id}
-                className="rounded-2xl border border-[var(--border-default)] bg-[var(--surface-subtle)] p-6 sm:p-8"
-              >
-                <div className="text-[11px] uppercase tracking-wider text-[var(--electric-blue)] font-bold mb-2">
-                  {d.eyebrow}
-                </div>
-                <h3 className="section-h3 mb-3">{d.title}</h3>
-                <p className="body-lg">{d.body}</p>
-              </article>
-            ))}
-          </div>
-          <SceneFooter />
-        </div>
-      </section>
-    );
-  }
-
-  // Animated: pinned section with morphing content
   return (
     <section
       aria-labelledby="fourD-headline"
       className="relative bg-mesh"
     >
-      <div
-        ref={sectionRef}
-        className="relative h-screen flex flex-col"
-      >
-        <div className="flex-1 flex items-center max-w-7xl w-full mx-auto px-6 sm:px-8 py-12">
-          <div className="w-full grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] gap-10 lg:gap-16 items-center">
-            {/* Left — header + dimension content */}
-            <div>
-              <SceneHeader compact />
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 py-16 sm:py-20 lg:py-24">
+        {/* Section signposting */}
+        <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-12">
+          <div className="eyebrow mb-4">THE 4D INTELLIGENCE MODEL</div>
+          <h2 id="fourD-headline" className="section-h2 text-balance mb-5">
+            One scenario. Four dimensions. <span className="text-[var(--text-secondary)]">Connected in real time.</span>
+          </h2>
+          <p className="body-lg max-w-2xl mx-auto">
+            Most dashboards stop at &quot;what happened.&quot; Sundae layers in
+            plan vs actual, the market around you, and the next action — before
+            the shift ends.
+          </p>
 
-              <div className="mt-8 min-h-[260px]">
-                <AnimatePresence mode="wait">
-                  <motion.div
-                    key={activeIdx}
-                    initial={{ opacity: 0, y: 16 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -12 }}
-                    transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
-                  >
-                    <div className="text-[11px] uppercase tracking-wider text-[var(--electric-blue)] font-bold mb-3">
-                      {dimensions[activeIdx].eyebrow}
-                    </div>
-                    <h3 className="section-h3 mb-4">
-                      {dimensions[activeIdx].title}
-                    </h3>
-                    <p className="body-lg">{dimensions[activeIdx].body}</p>
-                  </motion.div>
-                </AnimatePresence>
-              </div>
-
-              {/* Progress dots */}
-              <div className="mt-6 flex gap-2" aria-hidden>
-                {dimensions.map((d, i) => (
-                  <span
-                    key={d.id}
-                    className={`h-1.5 rounded-full transition-all duration-300 ${
-                      i <= activeIdx
-                        ? "w-8 bg-[var(--electric-blue)]"
-                        : "w-1.5 bg-[var(--text-faint)]"
-                    }`}
-                  />
-                ))}
-              </div>
-            </div>
-
-            {/* Right — visual that morphs across dimensions */}
-            <div className="relative">
-              <SceneVisual activeIdx={activeIdx} />
-            </div>
+          {/* Dimension breadcrumb — clickable */}
+          <div className="mt-7 flex flex-wrap justify-center items-center gap-x-2 gap-y-2 text-[12px] sm:text-[13px]">
+            {dimensions.map((d, i) => {
+              const isActive = i === activeIdx;
+              return (
+                <button
+                  key={d.id}
+                  type="button"
+                  onClick={() => {
+                    setActiveIdx(i);
+                    setPaused(true);
+                  }}
+                  className={`px-3 py-1.5 rounded-full uppercase tracking-[0.12em] font-bold transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--electric-blue)] ${
+                    isActive
+                      ? "bg-[var(--electric-blue)] text-white shadow-[0_0_18px_rgba(28,71,255,0.45)]"
+                      : "bg-[var(--surface-subtle)] text-[var(--text-supporting)] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:text-[var(--text-primary)]"
+                  }`}
+                  aria-label={`Show ${d.eyebrow}`}
+                  aria-current={isActive}
+                >
+                  <span className="font-mono mr-1.5">{d.id}D</span>
+                  <span className="hidden sm:inline">·&nbsp;</span>
+                  <span>{d.shortLabel}</span>
+                </button>
+              );
+            })}
           </div>
         </div>
-      </div>
 
-      {/* Post-pin: closing line + CTA */}
-      <div className="max-w-3xl mx-auto px-6 sm:px-8 py-16 sm:py-20 text-center">
-        <p className="text-xl sm:text-2xl text-[var(--text-primary)] italic font-light mb-6">
-          Few dashboards connect the four dimensions. Sundae does it before the
-          shift ends.
-        </p>
-        <Button href="/demo" variant="cta" size="lg">
-          See it with your data →
-        </Button>
+        {/* Illustrative-scenario badge + scenario hook */}
+        <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-12">
+          <span className="inline-flex items-center gap-2 text-[10px] sm:text-[11px] uppercase tracking-[0.16em] font-bold px-3 py-1.5 rounded-md bg-[var(--brand-yellow)]/15 text-[var(--brand-yellow)] border border-[var(--brand-yellow)]/30 mb-5">
+            ⚠ Illustrative scenario — Sundae Coach example
+          </span>
+          <div className="text-[13px] sm:text-[14px] uppercase tracking-[0.18em] text-[var(--electric-blue)] font-bold mb-3">
+            TUESDAY · 9:14 AM · DOWNTOWN
+          </div>
+          <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[var(--text-primary)] text-balance leading-tight">
+            Lunch revenue is pacing 14% behind plan.
+            <span className="block mt-2 text-[var(--text-secondary)] font-semibold text-xl sm:text-2xl lg:text-3xl">
+              Here&apos;s what happens next.
+            </span>
+          </p>
+        </div>
+
+        {/* Two-column: dimension content + visual */}
+        <div
+          className="grid lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1fr)] gap-8 lg:gap-12 items-start max-w-6xl mx-auto"
+          onMouseEnter={() => setPaused(true)}
+          onMouseLeave={() => setPaused(false)}
+          onFocus={() => setPaused(true)}
+        >
+          {/* Active dimension content */}
+          <div className="min-h-[260px] lg:min-h-[300px] lg:pt-2">
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={activeIdx}
+                initial={reduceMotion ? false : { opacity: 0, y: 16 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={reduceMotion ? undefined : { opacity: 0, y: -12 }}
+                transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
+              >
+                <div className="eyebrow mb-4">
+                  {dimensions[activeIdx].eyebrow}
+                </div>
+                <h3 className="text-2xl sm:text-3xl lg:text-[34px] font-bold text-[var(--text-primary)] mb-4 leading-tight tracking-tight">
+                  {dimensions[activeIdx].title}
+                </h3>
+                <p className="body-lg">{dimensions[activeIdx].body}</p>
+              </motion.div>
+            </AnimatePresence>
+          </div>
+
+          {/* Visual — morphs with active dimension */}
+          <div>
+            <SceneVisual activeIdx={activeIdx} />
+          </div>
+        </div>
+
+        {/* Closing line + CTA */}
+        <div className="text-center max-w-2xl mx-auto mt-14 sm:mt-16">
+          <p className="text-xl sm:text-2xl text-[var(--text-primary)] italic font-light mb-6">
+            Few dashboards connect the four dimensions. Sundae does it before
+            the shift ends.
+          </p>
+          <Button href="/demo" variant="cta" size="lg">
+            See it with your data →
+          </Button>
+        </div>
       </div>
     </section>
   );
 }
 
-/* ─── Sub-components ─────────────────────────────────────────── */
-
-function SceneHeader({ compact = false }: { compact?: boolean }) {
-  return (
-    <div className={compact ? "" : "max-w-3xl mx-auto text-center"}>
-      <span className="inline-flex items-center gap-2 text-[10px] uppercase tracking-wider font-bold px-2.5 py-1 rounded-md bg-[var(--brand-yellow)]/15 text-[var(--brand-yellow)] border border-[var(--brand-yellow)]/30 mb-4">
-        ⚠ Illustrative scenario — Sundae Coach example
-      </span>
-      <div
-        className={`eyebrow ${compact ? "text-left" : ""} mb-3`}
-      >
-        TUESDAY · 9:14 AM · DOWNTOWN
-      </div>
-      <h2
-        id="fourD-headline"
-        className={`section-h2 text-balance ${compact ? "text-left" : ""}`}
-      >
-        Lunch revenue is pacing 14% behind plan. Here&apos;s what happens next.
-      </h2>
-    </div>
-  );
-}
-
-function SceneFooter() {
-  return (
-    <div className="mt-10 sm:mt-12 text-center">
-      <p className="text-xl sm:text-2xl text-[var(--text-primary)] italic font-light mb-6">
-        Few dashboards connect the four dimensions. Sundae does it before the
-        shift ends.
-      </p>
-      <Button href="/demo" variant="cta" size="lg">
-        See it with your data →
-      </Button>
-    </div>
-  );
-}
+/* ─── Morphing visual ──────────────────────────────────────── */
 
 /**
- * The morphing right-side visual. Each dimension shows a different composition
- * of the same operational scene, building from a single chart toward a full
- * Coach recommendation.
+ * The right-side visual that builds up across dimensions. Each new dimension
+ * adds its own panel below the running composition so the buyer literally
+ * sees Sundae layering data → plan → market → recommendation.
  */
 function SceneVisual({ activeIdx }: { activeIdx: number }) {
   return (
@@ -280,7 +212,7 @@ function SceneVisual({ activeIdx }: { activeIdx: number }) {
       </div>
 
       <div className="p-5 space-y-4">
-        {/* Dimension 1: a single chart showing covers down */}
+        {/* Dimension 1: lunch covers chart (always visible) */}
         <div className="rounded-lg bg-[var(--surface-subtle)] border border-[var(--border-default)] p-4">
           <div className="flex items-center justify-between mb-3">
             <div className="text-[11px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
@@ -304,7 +236,7 @@ function SceneVisual({ activeIdx }: { activeIdx: number }) {
           </svg>
         </div>
 
-        {/* Dimension 2: forecast variance — appears for activeIdx >= 1 */}
+        {/* Dimension 2: forecast variance */}
         <AnimatePresence>
           {activeIdx >= 1 && (
             <motion.div
@@ -324,15 +256,11 @@ function SceneVisual({ activeIdx }: { activeIdx: number }) {
               </div>
               <div className="grid grid-cols-2 gap-3 text-[12px]">
                 <div>
-                  <div className="text-[10px] text-[var(--text-muted)]">
-                    Forecast
-                  </div>
+                  <div className="text-[10px] text-[var(--text-muted)]">Forecast</div>
                   <div className="font-mono text-[var(--text-secondary)]">$18,620</div>
                 </div>
                 <div>
-                  <div className="text-[10px] text-[var(--text-muted)]">
-                    Actual run-rate
-                  </div>
+                  <div className="text-[10px] text-[var(--text-muted)]">Actual run-rate</div>
                   <div className="font-mono text-[#FF5450]">$14,820</div>
                 </div>
               </div>
@@ -343,7 +271,7 @@ function SceneVisual({ activeIdx }: { activeIdx: number }) {
           )}
         </AnimatePresence>
 
-        {/* Dimension 3: market context — appears for activeIdx >= 2 */}
+        {/* Dimension 3: market context */}
         <AnimatePresence>
           {activeIdx >= 2 && (
             <motion.div
@@ -376,7 +304,7 @@ function SceneVisual({ activeIdx }: { activeIdx: number }) {
           )}
         </AnimatePresence>
 
-        {/* Dimension 4: Sundae Coach recommendation — appears for activeIdx >= 3 */}
+        {/* Dimension 4: Sundae Coach recommendation */}
         <AnimatePresence>
           {activeIdx >= 3 && (
             <motion.div

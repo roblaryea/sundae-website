@@ -72,16 +72,20 @@
 /* --- Eyebrow (Section Labels) --- */
 
 .eyebrow {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1;
-  font-weight: 650;
-  letter-spacing: 0.14em;
+  font-weight: 700;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--electric-blue);
 }
 
 @media (min-width: 768px) {
-  .eyebrow { font-size: 13px; }
+  .eyebrow { font-size: 14px; }
+}
+
+@media (min-width: 1024px) {
+  .eyebrow { font-size: 15px; }
 }
 
 /* --- Body Text Scale --- */

@@ -1,34 +1,38 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
+import {
+  motion,
+  AnimatePresence,
+  animate,
+  useMotionValue,
+  useReducedMotion,
+} from "framer-motion";
 
 /**
- * Section 3 — Speed / Quality / Cost Triangle (homepage-spec-v1.1).
+ * Section 3 — Speed / Quality / Cost Triangle (homepage-spec-v1.1, polish r4).
  *
  * Conversion job: prove differentiation. The triangle visualizes Sundae
  * collapsing the classic "fast, good, cheap — pick two" tradeoff into all
- * three at once. One vertex is active at a time, auto-rotating every 5s
- * with hover/click pause. Detail panel cross-fades to match.
+ * three at once.
  *
- * Reduced-motion fallback: the triangle renders with all three vertices lit
- * and the rotating panel is replaced by a 3-card grid showing all three
- * positions side-by-side. No interval, no AnimatePresence.
+ * Polish r4 changes:
+ *   - Tracer dot is now SYNCHRONIZED with the active vertex. The dot travels
+ *     edge-to-edge over 5s; on arrival at a vertex, that vertex becomes
+ *     active. No more decoupled setInterval + orbital tracer.
+ *   - ViewBox extended to 700×540 with the triangle shifted inward so labels
+ *     and stat callouts no longer clip at the edges.
+ *   - Copy reframed for assertiveness: "Days to deploy. Seconds to answer."
+ *     "Restaurant-native. Source-cited." "Cheaper than building it in BI."
  *
- * Claims used:
- *   CLM-209 (headline) APPROVED PUBLIC
- *   CLM-210 (closing) APPROVED PUBLIC
- *   CLM-006 (Live Core refresh) CAPABILITY CLAIM ONLY · FN-1
- *   CLM-007 (30-second answers) NEEDS VALIDATION → softened to "answers in seconds"
- *   CLM-008 (Report Lite is free) APPROVED PUBLIC
- *   CLM-105/110/111 (quality framing) APPROVED PUBLIC
- *   CLM-112/113 (cost framing) CAPABILITY CLAIM ONLY
+ * Reduced-motion fallback: 3-card stack (all three lit at once), no tracer,
+ * no rotation. Same DOM as SSR / pre-mount for hydration safety.
  */
 
 interface Vertex {
   id: "speed" | "quality" | "cost";
   label: string;
-  stat: string; // small subtitle under the SVG label
+  stat: string;     // small subtitle under the SVG label
   headline: string;
   body: string;
 }
@@ -37,36 +41,37 @@ const vertices: Vertex[] = [
   {
     id: "speed",
     label: "Speed",
-    stat: "5-min refresh · seconds to answer",
-    headline: "Live shift signals. Answers in seconds.",
-    body: "Live Core refresh on Pulse. Sundae Intelligence answers in seconds with sources, not guesses. Forecasts that update every cycle.",
+    stat: "Days to deploy · seconds to answer",
+    headline: "Days to deploy. Seconds to answer.",
+    body: "Connect your stack in days, not months. Pulse refreshes through the shift, not in next month's report. Sundae Intelligence answers in seconds — with sources, not guesses.",
   },
   {
     id: "quality",
     label: "Quality",
-    stat: "179 models · source-cited",
-    headline: "Restaurant-specific. Source-cited.",
-    body: "179 restaurant data models. Governed metrics. Peer-anchored benchmarks. Source-cited AI answers — not guesses.",
+    stat: "179 models · zero blank canvases",
+    headline: "Restaurant-native. Source-cited.",
+    body: "Generic BI hands you a blank canvas. Sundae ships with 179 governed restaurant data models, peer-anchored benchmarks, and source-cited AI answers — out of the box.",
   },
   {
     id: "cost",
     label: "Cost",
-    stat: "Lower total cost than BI stacks",
-    headline: "Less to implement. Less to maintain.",
-    body: "Generic BI tools are cheap on license — but expensive in analysts, custom modeling, integration consulting, and ongoing dashboard maintenance. Sundae ships restaurant-ready out of the box, with Report Lite free to start.",
+    stat: "Free to start · lower than BI",
+    headline: "Cheaper than building it in BI.",
+    body: "Generic BI is cheap on license and expensive on everything else — analysts, integration, custom modeling, dashboard upkeep. Sundae ships restaurant-ready out of the box. Report Lite is free to start.",
   },
 ];
 
-// Triangle geometry (viewBox 500×520 — extra space below for callouts).
-// Anchor convention: each label extends OUTWARD from the triangle.
-//   middle = centered above top vertex
-//   start  = label starts at labelX and extends RIGHT (bottom-right vertex)
-//   end    = label ends at labelX and extends LEFT (bottom-left vertex)
-const trianglePoints: { x: number; y: number; labelX: number; labelY: number; anchor: "middle" | "start" | "end" }[] = [
-  { x: 250, y: 80,  labelX: 250, labelY: 50,  anchor: "middle" }, // top — Speed
-  { x: 420, y: 380, labelX: 432, labelY: 412, anchor: "start"  }, // bottom-right — Quality
-  { x: 80,  y: 380, labelX: 68,  labelY: 412, anchor: "end"    }, // bottom-left — Cost
+// Triangle geometry — viewBox 700×540 with generous label margins.
+//   middle = label centered above top vertex
+//   start  = label starts at labelX, extends RIGHT (bottom-right vertex)
+//   end    = label ends at labelX, extends LEFT (bottom-left vertex)
+const trianglePoints: { x: number; y: number; labelX: number; labelY: number; statY: number; anchor: "middle" | "start" | "end" }[] = [
+  { x: 350, y: 90,  labelX: 350, labelY: 58,  statY: 78,  anchor: "middle" }, // Speed (top)
+  { x: 510, y: 380, labelX: 525, labelY: 412, statY: 432, anchor: "start"  }, // Quality (bottom-right)
+  { x: 190, y: 380, labelX: 175, labelY: 412, statY: 432, anchor: "end"    }, // Cost (bottom-left)
 ];
+
+const SEGMENT_DUR_S = 5; // seconds for the tracer to travel one edge
 
 export function SectionSpeedQualityCost() {
   const reduceMotion = useReducedMotion();
@@ -75,23 +80,45 @@ export function SectionSpeedQualityCost() {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    // Canonical hydration-safe mount detection — see Section4DScene for rationale.
+    // Canonical hydration-safe mount detection.
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
   }, []);
 
-  // Hydration discipline: server + first client render produce the static
-  // 3-card stack. After mount we upgrade to the rotating panel.
   const useAnimated = mounted && !reduceMotion;
 
-  // Auto-rotate every 5s when animated and not paused
+  // Tracer position bound to motion values — synced to activeIdx so the dot
+  // arrives at a vertex exactly as that vertex becomes active.
+  const tracerX = useMotionValue(trianglePoints[0].x);
+  const tracerY = useMotionValue(trianglePoints[0].y);
+
   useEffect(() => {
     if (!useAnimated || paused) return;
-    const id = setInterval(() => {
-      setActiveIdx((i) => (i + 1) % vertices.length);
-    }, 5000);
-    return () => clearInterval(id);
-  }, [useAnimated, paused]);
+
+    const from = trianglePoints[activeIdx];
+    const to = trianglePoints[(activeIdx + 1) % trianglePoints.length];
+
+    // Snap tracer to the current vertex, then animate to the next.
+    tracerX.set(from.x);
+    tracerY.set(from.y);
+
+    const ctrlX = animate(tracerX, to.x, {
+      duration: SEGMENT_DUR_S,
+      ease: "linear",
+    });
+    const ctrlY = animate(tracerY, to.y, {
+      duration: SEGMENT_DUR_S,
+      ease: "linear",
+      onComplete: () => {
+        setActiveIdx((i) => (i + 1) % trianglePoints.length);
+      },
+    });
+
+    return () => {
+      ctrlX.stop();
+      ctrlY.stop();
+    };
+  }, [useAnimated, paused, activeIdx, tracerX, tracerY]);
 
   return (
     <section
@@ -116,8 +143,8 @@ export function SectionSpeedQualityCost() {
           onMouseEnter={() => setPaused(true)}
           onMouseLeave={() => setPaused(false)}
         >
-          {/* Triangle SVG with old-rule → Sundae-rule contrast */}
-          <div className="relative w-full max-w-lg mx-auto">
+          {/* Triangle SVG */}
+          <div className="relative w-full max-w-xl mx-auto">
             {/* Old-rule banner */}
             <div className="text-center mb-5">
               <div className="inline-flex items-center gap-2 text-[12px] uppercase tracking-[0.18em] text-[var(--text-muted)] line-through decoration-[var(--text-faint)] decoration-1">
@@ -128,21 +155,18 @@ export function SectionSpeedQualityCost() {
               </div>
             </div>
 
-            <svg viewBox="0 0 500 520" className="w-full h-auto" aria-hidden>
+            <svg viewBox="0 0 700 540" className="w-full h-auto" aria-hidden>
               <defs>
-                {/* Triangle outline gradient */}
                 <linearGradient id="triEdge" x1="0" y1="0" x2="1" y2="1">
                   <stop offset="0%" stopColor="rgba(28,71,255,0.7)" />
                   <stop offset="50%" stopColor="rgba(59,130,246,0.4)" />
                   <stop offset="100%" stopColor="rgba(255,255,255,0.12)" />
                 </linearGradient>
-                {/* Triangle fill — radial glow from center */}
-                <radialGradient id="triFill" cx="50%" cy="55%" r="55%">
+                <radialGradient id="triFill" cx="50%" cy="60%" r="55%">
                   <stop offset="0%" stopColor="rgba(28,71,255,0.18)" />
                   <stop offset="60%" stopColor="rgba(28,71,255,0.05)" />
                   <stop offset="100%" stopColor="rgba(28,71,255,0)" />
                 </radialGradient>
-                {/* Tracer dot glow */}
                 <filter id="tracerGlow" x="-100%" y="-100%" width="300%" height="300%">
                   <feGaussianBlur stdDeviation="3.5" result="blur" />
                   <feMerge>
@@ -150,15 +174,9 @@ export function SectionSpeedQualityCost() {
                     <feMergeNode in="SourceGraphic" />
                   </feMerge>
                 </filter>
-                {/* Hidden path for tracer animation (matches the visible polygon) */}
-                <path
-                  id="triTracerPath"
-                  d={`M ${trianglePoints[0].x} ${trianglePoints[0].y} L ${trianglePoints[1].x} ${trianglePoints[1].y} L ${trianglePoints[2].x} ${trianglePoints[2].y} Z`}
-                  fill="none"
-                />
               </defs>
 
-              {/* Filled triangle — adds depth */}
+              {/* Filled triangle */}
               <polygon
                 points={trianglePoints.map((p) => `${p.x},${p.y}`).join(" ")}
                 fill="url(#triFill)"
@@ -186,9 +204,6 @@ export function SectionSpeedQualityCost() {
                       stroke="#3B82F6"
                       strokeWidth="1.5"
                       opacity="0"
-                      style={{
-                        transformOrigin: `${trianglePoints[activeIdx].x}px ${trianglePoints[activeIdx].y}px`,
-                      }}
                     >
                       <animate
                         attributeName="r"
@@ -210,13 +225,15 @@ export function SectionSpeedQualityCost() {
                 </g>
               )}
 
-              {/* Orbital tracer — perpetually traces the perimeter */}
+              {/* Tracer dot — synced to activeIdx via motion values */}
               {useAnimated && (
-                <circle r="5" fill="#60A5FA" filter="url(#tracerGlow)">
-                  <animateMotion dur="14s" repeatCount="indefinite" rotate="auto">
-                    <mpath href="#triTracerPath" />
-                  </animateMotion>
-                </circle>
+                <motion.circle
+                  r="6"
+                  fill="#60A5FA"
+                  filter="url(#tracerGlow)"
+                  cx={tracerX}
+                  cy={tracerY}
+                />
               )}
 
               {/* Vertices — clickable, with stat callouts */}
@@ -285,7 +302,7 @@ export function SectionSpeedQualityCost() {
                       x={p.labelX}
                       y={p.labelY}
                       textAnchor={p.anchor}
-                      fontSize="24"
+                      fontSize="22"
                       fontWeight="800"
                       letterSpacing="0.18em"
                       fill={isActive ? "#FFFFFF" : "rgba(255,255,255,0.6)"}
@@ -293,15 +310,15 @@ export function SectionSpeedQualityCost() {
                     >
                       {v.label.toUpperCase()}
                     </text>
-                    {/* Stat callout under label */}
+                    {/* Stat callout */}
                     <text
                       x={p.labelX}
-                      y={p.labelY + 18}
+                      y={p.statY}
                       textAnchor={p.anchor}
                       fontSize="11"
                       fontWeight="500"
                       letterSpacing="0.02em"
-                      fill={isActive ? "rgba(255,255,255,0.7)" : "rgba(255,255,255,0.35)"}
+                      fill={isActive ? "rgba(255,255,255,0.72)" : "rgba(255,255,255,0.38)"}
                       style={{ transition: "fill 0.4s ease-out" }}
                     >
                       {v.stat}
@@ -354,7 +371,7 @@ export function SectionSpeedQualityCost() {
                 </AnimatePresence>
               </div>
 
-              {/* Indicator dots */}
+              {/* Indicator dots — clickable to jump */}
               <div className="mt-6 flex gap-2 justify-center">
                 {vertices.map((v, i) => (
                   <button
