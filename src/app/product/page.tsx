@@ -60,12 +60,12 @@ const copyMap: Record<'en' | 'ar' | 'fr' | 'es', Copy> = {
     heroBadge: "The Sundae Platform",
     heroTitle: "179 Data Models. 12 Domains. One Truth.",
     heroDescription: "Six intelligence layers that turn fragmented restaurant data into decisions that compound - shift by shift, outlet by outlet.",
-    heroPrimary: "Start Free with Report",
-    heroSecondary: "Book a Demo",
-    freeLabel: "FREE FOREVER",
+    heroPrimary: "Start with Report Lite",
+    heroSecondary: "Book a Working Session",
+    freeLabel: "FREE TO START",
     freeTitle: "Sundae Report",
     freeSubtitle: "Historical Analysis & Benchmarking",
-    freeDescription: "Upload your data. See where you stand against peers. Performance benchmarks, margin patterns, and competitive positioning - free, forever.",
+    freeDescription: "Upload your data. See where you stand against peers. Performance benchmarks, margin patterns, and competitive positioning — free to start with Report Lite.",
     freeIncludes: "Includes:",
     freeCta: "Explore Sundae Report →",
     coreLabel: "MOST POPULAR",
@@ -78,7 +78,7 @@ const copyMap: Record<'en' | 'ar' | 'fr' | 'es', Copy> = {
     layersEyebrow: "SIX INTELLIGENCE LAYERS",
     layersTitle: "From Shift Floor to Boardroom",
     layersDescription: "Each layer handles a distinct dimension of restaurant performance. Together, they form a closed-loop intelligence system.",
-    ctaTitle: "Start Free. Scale When Ready.",
+    ctaTitle: "Start with Report Lite. Scale when ready.",
     ctaDescription: "Historical benchmarking at no cost. Real-time operations when you need the edge.",
   },
   ar: {
@@ -211,7 +211,7 @@ export default function ProductPage() {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-5xl mx-auto">
           <FadeUp><div className="text-center mb-12">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.freeLabel === 'FREE FOREVER' ? 'Start Free. Scale When Ready.' : ui.freeLabel === 'مجاني للأبد' ? 'ابدأ مجاناً. وتوسع عندما تكون جاهزاً.' : ui.freeLabel === 'GRATUIT A VIE' ? 'Commencez gratuitement. Evoluez quand vous etes pret.' : 'Empieza gratis. Escala cuando estes listo.'}</h2>
+            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.freeLabel === 'FREE TO START' ? 'Start with Report Lite. Scale when ready.' : ui.freeLabel === 'مجاني للأبد' ? 'ابدأ مجاناً. وتوسع عندما تكون جاهزاً.' : ui.freeLabel === 'GRATUIT A VIE' ? 'Commencez gratuitement. Evoluez quand vous etes pret.' : 'Empieza gratis. Escala cuando estes listo.'}</h2>
             <p className="body-lg text-[var(--text-supporting)]">{ui.ctaDescription}</p>
           </div></FadeUp>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

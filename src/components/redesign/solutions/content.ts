@@ -59,6 +59,14 @@ export const operationsLeaders: SolutionPageData = {
     },
   ],
   mockupKey: "pulse",
+  connectedSystems: [
+    "POS (Toast, Square, Lightspeed, Oracle)",
+    "Labor scheduling",
+    "Inventory",
+    "Delivery platforms",
+    "Reservations",
+    "Kitchen display",
+  ],
   closingLine: "Operations leadership stops being a recap. It becomes a feed.",
 };
 
@@ -106,6 +114,14 @@ export const financeTeams: SolutionPageData = {
     },
   ],
   mockupKey: "revenueIntelligence",
+  connectedSystems: [
+    "POS",
+    "Accounting (QuickBooks, Xero, NetSuite)",
+    "Payroll",
+    "Delivery commissions",
+    "Banking & payments",
+    "Inventory cost",
+  ],
   closingLine: "Close faster. Explain more. Plan further out.",
 };
 
@@ -153,6 +169,13 @@ export const cSuite: SolutionPageData = {
     },
   ],
   mockupKey: "intelligenceChat",
+  connectedSystems: [
+    "All 12 data domains",
+    "Brand & region rollups",
+    "Multi-currency, multi-tax",
+    "Web · Slack · Teams · Telegram",
+    "Email & PDF briefings",
+  ],
   closingLine: "Lead the portfolio. Stop chasing the recap.",
 };
 
@@ -200,6 +223,14 @@ export const marketingTeams: SolutionPageData = {
     },
   ],
   mockupKey: "marketingPerformance",
+  connectedSystems: [
+    "POS (covers, check size, mix)",
+    "Loyalty platforms",
+    "Paid media (Meta, Google)",
+    "Email & SMS",
+    "Reservations & delivery platforms",
+    "CRM",
+  ],
   closingLine: "Campaigns get smarter while they're still running.",
 };
 
@@ -247,6 +278,13 @@ export const hrTeams: SolutionPageData = {
     },
   ],
   mockupKey: "laborOps",
+  connectedSystems: [
+    "POS (covers, sales per labor hour)",
+    "Labor scheduling (7shifts, Deputy)",
+    "Time-tracking",
+    "Payroll",
+    "HRIS",
+  ],
   closingLine: "Labor decisions get made when they still matter.",
 };
 
@@ -254,7 +292,7 @@ export const techTeams: SolutionPageData = {
   eyebrow: "FOR TECH AND DATA LEADS",
   headline: "Twelve vendor APIs. Five data formats. Zero unified schema.",
   subhead:
-    "Sundae unifies POS, labor, inventory, delivery, accounting, reservations, and CRM into 179+ governed data models — with API access, webhooks, RBAC, and audit trails available without a custom build.",
+    "Sundae unifies POS, labor, inventory, delivery, accounting, reservations, and CRM into 179+ governed data models — with a public API, webhooks, RBAC, and audit trails out of the box.",
   todayTitle: "Today",
   todayPoints: [
     "Every new dashboard request is a six-week integration project.",
@@ -282,8 +320,8 @@ export const techTeams: SolutionPageData = {
     },
     {
       iconKey: "code",
-      title: "API + webhooks",
-      body: "Pull Sundae's normalized data into your warehouse. Push state changes via webhooks. Reduces the custom ETL load that ad-hoc dashboard requests would otherwise create.",
+      title: "Public API + webhooks",
+      body: "Pull Sundae's normalized data into your warehouse via the public API. Push state changes via webhook subscriptions. Less custom ETL per new dashboard request.",
       intelLayer: "Platform",
     },
     {
@@ -294,6 +332,15 @@ export const techTeams: SolutionPageData = {
     },
   ],
   mockupKey: "integrationsHub",
+  connectedSystemsEyebrow: "WHAT YOU PLUG INTO",
+  connectedSystems: [
+    "12 unified data domains",
+    "179+ governed models",
+    "Public API + webhooks",
+    "RBAC + audit trails",
+    "Warehouse exports",
+    "OAuth & API key auth",
+  ],
   closingLine: "Stop building plumbing. Start shipping intelligence.",
 };
 
@@ -343,6 +390,14 @@ export const multiLocation: SolutionPageData = {
     },
   ],
   mockupKey: "pulse",
+  connectedSystems: [
+    "POS (multi-brand, multi-region)",
+    "Labor scheduling",
+    "Inventory",
+    "Delivery platforms",
+    "Accounting",
+    "Reservations",
+  ],
   closingLine: "Manage the group like it's one operation.",
 };
 
@@ -390,6 +445,13 @@ export const franchises: SolutionPageData = {
     },
   ],
   mockupKey: "benchmark",
+  connectedSystems: [
+    "Franchisee POS roll-ups",
+    "Brand compliance audits",
+    "Guest feedback & review signals",
+    "Royalty & commission tracking",
+    "Reservations",
+  ],
   closingLine: "Make the network as strong as your strongest unit.",
 };
 
@@ -437,6 +499,14 @@ export const cloudKitchens: SolutionPageData = {
     },
   ],
   mockupKey: "pulse",
+  connectedSystems: [
+    "POS (multi-brand)",
+    "DoorDash",
+    "UberEats",
+    "Deliveroo",
+    "Talabat",
+    "Packaging & inventory",
+  ],
   closingLine: "Defend the margin the platforms keep eating.",
 };
 
@@ -484,5 +554,13 @@ export const hospitalityGroups: SolutionPageData = {
     },
   ],
   mockupKey: "foresight",
+  connectedSystems: [
+    "POS (F&B outlets)",
+    "PMS (rooms)",
+    "Events & banquet systems",
+    "Catering management",
+    "Reservations",
+    "Accounting / ERP",
+  ],
   closingLine: "Run the property like the system it actually is.",
 };

@@ -103,7 +103,7 @@ const localizedReportVsCoreCopy: Record<"en" | "ar" | "fr" | "es", ReportVsCoreC
     heroDescription:
       "Both deliver decision intelligence. Report gives you historical depth. Core gives you real-time operational speed. Choose based on how fast you need to act.",
     heroPrimary: "See Exact Pricing",
-    heroSecondary: "Start Free with Report",
+    heroSecondary: "Start with Report Lite",
     reportSummaryTitle: "Sundae Report",
     reportSummaryDescription: "Historical analysis & strategic planning",
     reportSummaryEyebrow: "Perfect when:",
@@ -257,8 +257,8 @@ const localizedReportVsCoreCopy: Record<"en" | "ar" | "fr" | "es", ReportVsCoreC
     finalTitle: "See Pricing for Your Operation",
     finalDescription: "Interactive calculator shows costs for both tiers based on your location count.",
     finalPricing: "See Pricing",
-    finalStartFree: "Start Free",
-    finalBookDemo: "Book Demo",
+    finalStartFree: "Start with Report Lite",
+    finalBookDemo: "Book a Working Session",
   },
   ar: {
     badge: "مقارنة المنتج",

@@ -204,9 +204,9 @@ const localizedPulseCopy = {
     },
     cta: {
       title: "Stop Managing Shifts Blind",
-      description: "Pulse is on every Sundae Core plan. See what's happening now - not at end-of-day.",
-      primary: "Book a Demo",
-      secondary: "Start Free",
+      description: "Pulse is on every Sundae Core plan. See what's happening now — not at end-of-day.",
+      primary: "Book a Working Session",
+      secondary: "Start with Report Lite",
     },
     heroMockup: {
       label: "Pulse — Sales Pacing",

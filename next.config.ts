@@ -64,6 +64,11 @@ const nextConfig: NextConfig = {
         destination: '/contact',
         permanent: false,
       },
+      {
+        source: '/solutions/operations-leaders',
+        destination: '/solutions/regional-managers',
+        permanent: true,
+      },
     ];
   },
 };

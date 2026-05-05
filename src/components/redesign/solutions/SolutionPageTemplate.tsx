@@ -127,6 +127,11 @@ export interface SolutionPageData {
   // Mockup (string key — looked up in mockupRegistry)
   mockupKey: MockupKey;
 
+  // Connected systems — proof/depth strip showing data sources Sundae unifies
+  // for this persona. Renders as a chip row above the closing line.
+  connectedSystemsEyebrow?: string;
+  connectedSystems?: string[];
+
   // Closing
   closingLine: string;
 }
@@ -294,6 +299,29 @@ export function SolutionPageTemplate({ data }: { data: SolutionPageData }) {
           </div>
         </div>
       </section>
+
+      {/* ─── Connected systems ────────────────────────────────── */}
+      {data.connectedSystems && data.connectedSystems.length > 0 && (
+        <section className="relative border-t border-[var(--border-default)]">
+          <div className="max-w-5xl mx-auto px-6 sm:px-8 py-12 sm:py-14">
+            <div className="text-center">
+              <div className="eyebrow mb-5">
+                {data.connectedSystemsEyebrow ?? "CONNECTED SYSTEMS"}
+              </div>
+              <div className="flex flex-wrap justify-center items-center gap-2 sm:gap-2.5">
+                {data.connectedSystems.map((sys) => (
+                  <span
+                    key={sys}
+                    className="text-[12px] sm:text-[13px] font-semibold px-3 py-1.5 rounded-full bg-[var(--surface-subtle)] border border-[var(--border-default)] text-[var(--text-supporting)]"
+                  >
+                    {sys}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* ─── Closing line ─────────────────────────────────────── */}
       <section className="relative">
