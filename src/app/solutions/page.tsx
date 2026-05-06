@@ -94,15 +94,17 @@ export default function SolutionsHubPage() {
             initial={reduceMotion ? false : { opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-            className="max-w-3xl"
           >
             <div className="eyebrow mb-5">SOLUTIONS</div>
-            <h1 className="hero-h1 mb-6">
-              <span className="block">
+            <h1
+              className="mb-6 font-bold leading-[1.1] tracking-[-0.025em] text-[var(--text-primary)]"
+              style={{ fontSize: "clamp(28px, 5.2vw, 56px)" }}
+            >
+              <span className="block sm:whitespace-nowrap">
                 <SundaeWordmark className="h-[0.78em] w-auto inline-block align-middle text-[var(--text-primary)]" />
                 <span> for every role.</span>
               </span>
-              <span className="block">
+              <span className="block sm:whitespace-nowrap">
                 <SundaeWordmark className="h-[0.78em] w-auto inline-block align-middle text-[var(--text-primary)]" />
                 <span> for every restaurant shape.</span>
               </span>
