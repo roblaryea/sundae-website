@@ -7,6 +7,7 @@ import {
   SEGMENT_META,
   type SolutionMeta,
 } from "@/components/nav/solutionsMeta";
+import { SundaeWordmark } from "@/components/redesign/v2/SundaeWordmark";
 
 /**
  * /solutions hub page — fixes the 404 that the breadcrumb on every
@@ -96,8 +97,15 @@ export default function SolutionsHubPage() {
             className="max-w-3xl"
           >
             <div className="eyebrow mb-5">SOLUTIONS</div>
-            <h1 className="hero-h1 mb-6 text-balance">
-              Sundae for every role. Sundae for every restaurant shape.
+            <h1 className="hero-h1 mb-6">
+              <span className="block">
+                <SundaeWordmark className="h-[0.78em] w-auto inline-block align-middle text-[var(--text-primary)]" />
+                <span> for every role.</span>
+              </span>
+              <span className="block">
+                <SundaeWordmark className="h-[0.78em] w-auto inline-block align-middle text-[var(--text-primary)]" />
+                <span> for every restaurant shape.</span>
+              </span>
             </h1>
             <p className="body-xl max-w-2xl">
               Decision intelligence built for the way restaurants actually
