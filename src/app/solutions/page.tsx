@@ -98,7 +98,7 @@ export default function SolutionsHubPage() {
             <div className="eyebrow mb-5">SOLUTIONS</div>
             <h1
               className="mb-6 font-bold leading-[1.1] tracking-[-0.025em] text-[var(--text-primary)]"
-              style={{ fontSize: "clamp(28px, 5.2vw, 56px)" }}
+              style={{ fontSize: "clamp(26px, 4.4vw, 48px)" }}
             >
               <span className="block sm:whitespace-nowrap">
                 <SundaeWordmark className="h-[0.78em] w-auto inline-block align-middle text-[var(--text-primary)]" />
