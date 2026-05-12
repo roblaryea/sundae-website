@@ -145,7 +145,7 @@ const localizedForesightCopy: Record<'en' | 'ar' | 'fr' | 'es', ForesightPageCop
     pricingDescription: "Every Foresight plan includes all 12 sub-pages and 32 forecast visuals. Your Core tier determines how fast, how deep, and how much you can run.",
     pricingTiers: [
       { tier: "Core Lite", base: "$279", perLocation: "$27", description: "For single-unit operators getting started with predictive intelligence.", enhancements: ["15-minute data refresh cycles", "8,000 AI credits/mo", "2 years historical training data", "50 forecast queries/day"] },
-      { tier: "Core Pro", base: "$249", perLocation: "$24", description: "For multi-unit operators with the full intelligence stack.", highlighted: true, enhancements: ["5-minute data refresh - faster recalibration", "14,000 AI credits/mo - more simulations", "3 years historical data - deeper accuracy", "150 forecast queries/day", "Analyst & Strategist intelligence modes", "Native multi-POS support"] },
+      { tier: "Core Pro", base: "$449/mo", perLocation: "$24", description: "For multi-unit operators with the full intelligence stack.", highlighted: true, enhancements: ["5-minute data refresh - faster recalibration", "14,000 AI credits/mo - more simulations", "3 years historical data - deeper accuracy", "150 forecast queries/day", "Analyst & Strategist intelligence modes", "Native multi-POS support"] },
       { tier: "Enterprise", base: "Custom", perLocation: "Custom", description: "Dedicated support, SLAs, white-label options, and custom integrations.", enhancements: ["Custom data refresh intervals", "Unlimited AI credits", "Full historical data access", "Unlimited forecast queries", "All intelligence modes", "Dedicated success manager"] },
     ],
     ctaTitle: "Ready for Predictive Intelligence?",
@@ -200,7 +200,7 @@ const localizedForesightCopy: Record<'en' | 'ar' | 'fr' | 'es', ForesightPageCop
     pricingDescription: "كل باقة Foresight تشمل كل الصفحات الفرعية الـ12 والمرئيات التنبؤية الـ32. تحدد باقة Core سرعتك وعمق التشغيل وحجم الاستخدام.",
     pricingTiers: [
       { tier: "Core Lite", base: "$279", perLocation: "$27", description: "للمشغلين الأفراد الذين يبدأون بالذكاء التنبؤي.", enhancements: ["تحديث بيانات كل 15 دقيقة", "8000 رصيد AI شهرياً", "سنتان من بيانات التدريب", "50 استعلام توقع يومياً"] },
-      { tier: "Core Pro", base: "$249", perLocation: "$24", description: "للمشغلين متعددي المواقع مع كامل منظومة الذكاء.", highlighted: true, enhancements: ["تحديث بيانات كل 5 دقائق", "14000 رصيد AI شهرياً", "3 سنوات بيانات تاريخية", "150 استعلام توقع يومياً", "أوضاع Analyst و Strategist", "دعم أصيل لعدة أنظمة POS"] },
+      { tier: "Core Pro", base: "$449/mo", perLocation: "$24", description: "للمشغلين متعددي المواقع مع كامل منظومة الذكاء.", highlighted: true, enhancements: ["تحديث بيانات كل 5 دقائق", "14000 رصيد AI شهرياً", "3 سنوات بيانات تاريخية", "150 استعلام توقع يومياً", "أوضاع Analyst و Strategist", "دعم أصيل لعدة أنظمة POS"] },
       { tier: "Enterprise", base: "مخصص", perLocation: "مخصص", description: "دعم مخصص، اتفاقيات SLA، وخيارات white-label وتكاملات مخصصة.", enhancements: ["فواصل تحديث مخصصة", "رصيد AI غير محدود", "وصول كامل للبيانات التاريخية", "استعلامات غير محدودة", "كل أوضاع الذكاء", "مدير نجاح مخصص"] },
     ],
     ctaTitle: "هل أنت جاهز للذكاء التنبؤي؟",
@@ -255,7 +255,7 @@ const localizedForesightCopy: Record<'en' | 'ar' | 'fr' | 'es', ForesightPageCop
     pricingDescription: "Chaque offre inclut les 12 sous-pages et 32 visuels. Votre niveau Core definit la vitesse et la profondeur.",
     pricingTiers: [
       { tier: "Core Lite", base: "$279", perLocation: "$27", description: "Pour les exploitants qui debutent avec l'intelligence predictive.", enhancements: ["Rafraichissement toutes les 15 min", "8000 credits AI/mois", "2 ans d'historique", "50 requetes forecast/jour"] },
-      { tier: "Core Pro", base: "$249", perLocation: "$24", description: "Pour les exploitants multi-sites avec toute la pile.", highlighted: true, enhancements: ["Rafraichissement toutes les 5 min", "14000 credits AI/mois", "3 ans de donnees historiques", "150 requetes forecast/jour", "Modes Analyst & Strategist", "Support multi-POS natif"] },
+      { tier: "Core Pro", base: "$449/mo", perLocation: "$24", description: "Pour les exploitants multi-sites avec toute la pile.", highlighted: true, enhancements: ["Rafraichissement toutes les 5 min", "14000 credits AI/mois", "3 ans de donnees historiques", "150 requetes forecast/jour", "Modes Analyst & Strategist", "Support multi-POS natif"] },
       { tier: "Enterprise", base: "Sur mesure", perLocation: "Sur mesure", description: "Support dedie, SLA, white-label et integrations custom.", enhancements: ["Intervalles de rafraichissement custom", "Credits AI illimites", "Acces historique complet", "Requetes illimitees", "Tous les modes d'intelligence", "Success manager dedie"] },
     ],
     ctaTitle: "Pret pour l'intelligence predictive ?",
@@ -310,7 +310,7 @@ const localizedForesightCopy: Record<'en' | 'ar' | 'fr' | 'es', ForesightPageCop
     pricingDescription: "Cada plan incluye las 12 subpaginas y los 32 visuales. Tu tier Core decide velocidad, profundidad y volumen.",
     pricingTiers: [
       { tier: "Core Lite", base: "$279", perLocation: "$27", description: "Para operadores individuales que empiezan con inteligencia predictiva.", enhancements: ["Actualizacion cada 15 min", "8000 creditos AI/mes", "2 años de datos", "50 consultas/dia"] },
-      { tier: "Core Pro", base: "$249", perLocation: "$24", description: "Para multi-local con toda la pila de inteligencia.", highlighted: true, enhancements: ["Actualizacion cada 5 min", "14000 creditos AI/mes", "3 años de historico", "150 consultas/dia", "Modos Analyst & Strategist", "Soporte multi-POS nativo"] },
+      { tier: "Core Pro", base: "$449/mo", perLocation: "$24", description: "Para multi-local con toda la pila de inteligencia.", highlighted: true, enhancements: ["Actualizacion cada 5 min", "14000 creditos AI/mes", "3 años de historico", "150 consultas/dia", "Modos Analyst & Strategist", "Soporte multi-POS nativo"] },
       { tier: "Enterprise", base: "A medida", perLocation: "A medida", description: "Soporte dedicado, SLAs, white-label e integraciones custom.", enhancements: ["Intervalos custom", "Creditos AI ilimitados", "Acceso historico completo", "Consultas ilimitadas", "Todos los modos", "Success manager dedicado"] },
     ],
     ctaTitle: "Listo para inteligencia predictiva?",
