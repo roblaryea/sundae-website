@@ -1,591 +1,158 @@
 "use client";
 
-import Link from "next/link";
-import { Button } from "@/components/ui/Button";
-import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/Card";
-import { SundaeIcon, type SundaeIconName } from "@/components/icons";
-import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
+import { BenchmarkDashboardMockup } from "@/components/ui/MockupFrame";
+import { SolutionPageLayout, type SolutionCopy } from "@/components/solutions/SolutionPageLayout";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import { type WebsiteLocale } from "@/lib/i18n";
 
-type SolutionCard = { title: string; description: string; icon: SundaeIconName };
-
-type FranchiseCopy = {
-  hero: {
-    badge: string;
-    title: [string, string];
-    description: string;
-    primaryCta: string;
-    secondaryCta: string;
-  };
-  problems: { heading: string; description: string; items: SolutionCard[] };
-  solutions: { heading: string; description: string; items: Array<SolutionCard & { product: string }> };
-  outcomes: { heading: string; description: string; items: SolutionCard[] };
-  cta: { title: string; description: string; button: string };
-};
-
-const localizedCopy: Record<WebsiteLocale, FranchiseCopy> = {
+const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
   en: {
-    hero: {
-      badge: "Franchises",
-      title: ["Your Network.", "One Dashboard."],
-      description:
-        "Visibility into every franchisee. Alerts before issues escalate. Intelligence-backed support that actually works.",
-      primaryCta: "See How Sundae Helps Franchises",
-      secondaryCta: "Start Free",
-    },
-    problems: {
-      heading: "The Problems You Know",
-      description: "Performance gaps. Fragmented data. Support blind spots.",
-      items: [
-        {
-          title: "Franchisee Performance Variability",
-          description:
-            "Wide performance gaps between franchisees with no clear way to identify and address underperformance early.",
-          icon: "benchmarking",
-        },
-        {
-          title: "Brand Consistency Challenges",
-          description:
-            "Ensuring quality, service standards, and operational compliance across independently owned locations.",
-          icon: "owners",
-        },
-        {
-          title: "Data Fragmentation",
-          description:
-            "Each franchisee may use different systems, making network-wide insights nearly impossible.",
-          icon: "integration",
-        },
-        {
-          title: "Support & Training Gaps",
-          description:
-            "Identifying which franchisees need help and what kind of support will actually move the needle.",
-          icon: "marketing",
-        },
-      ],
-    },
-    solutions: {
-      heading: "How Sundae Changes That",
-      description: "Support, not micromanage. Data, not assumptions.",
-      items: [
-        {
-          title: "Network-Wide Visibility",
-          description:
-            "Sundae Core unifies data from all franchisees into one dashboard, giving you real-time visibility into every location's performance.",
-          product: "Sundae Core",
-          icon: "chart",
-        },
-        {
-          title: "Automated Performance Alerts",
-          description:
-            "Sundae Core flags underperforming franchisees and identifies the specific areas needing attention before issues escalate.",
-          product: "Sundae Core",
-          icon: "alerts",
-        },
-        {
-          title: "Benchmarking & Best Practices",
-          description:
-            "Sundae Report shows each franchisee how they compare to network leaders, creating healthy competition and clear improvement targets.",
-          product: "Sundae Report",
-          icon: "report",
-        },
-        {
-          title: "Conversational Support",
-          description:
-            "Ask Sundae 'Which franchisees have the highest labor variance?' and get instant answers to guide your support efforts.",
-          product: "Sundae Core",
-          icon: "intelligence",
-        },
-      ],
-    },
-    outcomes: {
-      heading: "What Changes",
-      description: "Better franchisee relationships. Faster network growth.",
-      items: [
-        {
-          title: "15-20% improvement in underperforming franchisees",
-          description:
-            "Identify issues early and provide targeted support to lift lagging locations.",
-          icon: "growth",
-        },
-        {
-          title: "Better franchisee relationships",
-          description:
-            "Use data to have constructive conversations and provide value-added support.",
-          icon: "support",
-        },
-        {
-          title: "Faster network growth",
-          description:
-            "Attract new franchisees by demonstrating your intelligence-backed support system.",
-          icon: "speed",
-        },
-        {
-          title: "Reduced brand risk",
-          description:
-            "Catch compliance and quality issues before they impact your reputation.",
-          icon: "success",
-        },
-      ],
-    },
-    cta: {
-      title: "Ready to Support Your Network?",
-      description: "See how franchise brands drive consistency with data.",
-      button: "Book a Franchise Demo",
-    },
+    badge: "For Franchises & Franchisors",
+    titleLine1: "Brand standards.",
+    titleLine2: "Network-wide truth.",
+    description: "Franchisee performance ranked by peer. Brand consistency measurable, not assumed. One source of truth across every owner-operator.",
+    primaryCta: "Book a Franchise Walk-through",
+    secondaryCta: "See Franchise Demo",
+    problemsEyebrow: "WHERE FRANCHISE INTELLIGENCE BREAKS",
+    problemsTitle: "Where franchise intelligence breaks",
+    problemsDescription: "Inconsistent data from franchisees, brand standards unenforced, the strongest operators learning from no one.",
+    challenges: [
+      { title: "Each franchisee sends different data", description: "Different POS, different cadence, different definitions of \"net revenue\". The brand sees apples vs oranges.", icon: "integration" },
+      { title: "Brand standards aren't measured", description: "You set them in the operations manual. You can't tell which outlet meets them.", icon: "performance" },
+      { title: "Top performers' playbooks stay siloed", description: "The franchisee crushing labor productivity doesn't share. The struggling one doesn't ask.", icon: "support" },
+      { title: "Royalty audits eat the relationship", description: "Quarterly reconciliations turn into adversarial disputes. Trust erodes.", icon: "balance" },
+    ],
+    howTitle: "How Sundae works for franchise networks",
+    howDescription: "Network-wide visibility, peer benchmarks, automated royalty reconciliation.",
+    howSundaeHelps: [
+      { title: "Network benchmarks every franchisee can see", description: "Each owner-operator sees themselves ranked anonymously against peers — by sales, labor %, RevPASH, throughput. Healthy competition without exposing names.", product: "Benchmarks", icon: "benchmarking" },
+      { title: "Brand standards as live metrics", description: "Service speed, menu compliance, hygiene scores, guest satisfaction — measured continuously, not on the quarterly audit.", product: "Pulse + Insights", icon: "performance" },
+      { title: "Top-performer playbooks propagate", description: "When Site 12 lifts upsell rate 18%, Sundae surfaces the pattern so the rest of the network learns — without a memo.", product: "Cross-Intelligence", icon: "intelligence" },
+      { title: "Royalty reconciliation, automated", description: "Net revenue computed from the same source across every franchisee. Royalty becomes a calculation, not a negotiation.", product: "Sundae Core", icon: "balance" },
+    ],
+    outcomesTitle: "What changes for the franchise system",
+    outcomesDescription: "Stronger network, less friction, brand standards that hold.",
+    outcomes: [
+      { title: "Franchisees compete on the right thing", description: "Anonymous benchmarks turn peer pressure into a positive flywheel — the network lifts together.", icon: "speed" },
+      { title: "Standards measured continuously", description: "You see which outlets drift on service, menu, or hygiene — without a quarterly audit.", icon: "performance" },
+      { title: "Best practices propagate organically", description: "Cross-Intelligence finds what's working at the top performer and routes it to the rest.", icon: "owners" },
+      { title: "Royalty disputes drop to near-zero", description: "One source of truth on net revenue. The conversation becomes coaching, not auditing.", icon: "support" },
+    ],
+    ctaTitle: "See your network on one ranking.",
+    ctaDescription: "30 minutes. Your franchisees. The standards you would have spotted slipping.",
+    ctaButton: "Book a Franchise Walk-through",
   },
   ar: {
-    hero: {
-      badge: "الامتيازات",
-      title: ["شبكتك.", "لوحة واحدة."],
-      description:
-        "رؤية لكل صاحب امتياز. تنبيهات قبل تفاقم المشكلات. دعم مدعوم بالذكاء يعمل فعلاً.",
-      primaryCta: "شاهد كيف تساعد Sundae الامتيازات",
-      secondaryCta: "ابدأ مجانًا",
-    },
-    problems: {
-      heading: "المشكلات التي تعرفها",
-      description: "فجوات في الأداء. بيانات متفرقة. نقاط عمياء في الدعم.",
-      items: [
-        {
-          title: "تباين أداء أصحاب الامتياز",
-          description:
-            "فجوات كبيرة بين أصحاب الامتياز من دون طريقة واضحة لاكتشاف الضعف والتعامل معه مبكراً.",
-          icon: "benchmarking",
-        },
-        {
-          title: "تحديات اتساق العلامة التجارية",
-          description:
-            "ضمان الجودة ومعايير الخدمة والالتزام التشغيلي عبر مواقع مملوكة بشكل مستقل.",
-          icon: "owners",
-        },
-        {
-          title: "تجزؤ البيانات",
-          description:
-            "قد يستخدم كل صاحب امتياز أنظمة مختلفة، مما يجعل الرؤية على مستوى الشبكة شبه مستحيلة.",
-          icon: "integration",
-        },
-        {
-          title: "فجوات الدعم والتدريب",
-          description:
-            "تحديد أصحاب الامتياز الذين يحتاجون إلى مساعدة ونوع الدعم الذي سيحدث فرقاً حقيقياً.",
-          icon: "marketing",
-        },
-      ],
-    },
-    solutions: {
-      heading: "كيف تغيّر Sundae ذلك",
-      description: "دعم لا رقابة مفرطة. بيانات لا افتراضات.",
-      items: [
-        {
-          title: "رؤية على مستوى الشبكة",
-          description:
-            "تجمع Sundae Core بيانات جميع أصحاب الامتياز في لوحة واحدة تمنحك رؤية لحظية لكل موقع.",
-          product: "Sundae Core",
-          icon: "chart",
-        },
-        {
-          title: "تنبيهات أداء تلقائية",
-          description:
-            "تحدد Sundae Core أصحاب الامتياز المتراجعين والمجالات التي تحتاج إلى تدخل قبل تفاقم المشكلة.",
-          product: "Sundae Core",
-          icon: "alerts",
-        },
-        {
-          title: "المعيارية وأفضل الممارسات",
-          description:
-            "يوضح Sundae Report لكل صاحب امتياز موقعه مقارنة بقادة الشبكة، ويخلق منافسة صحية وأهداف تحسين واضحة.",
-          product: "Sundae Report",
-          icon: "report",
-        },
-        {
-          title: "دعم حواري",
-          description:
-            "اسأل Sundae: «أي أصحاب الامتياز لديهم أعلى تباين في العمالة؟» واحصل على إجابات فورية ترشد دعمك.",
-          product: "Sundae Core",
-          icon: "intelligence",
-        },
-      ],
-    },
-    outcomes: {
-      heading: "ما الذي يتغير",
-      description: "علاقات أفضل مع أصحاب الامتياز. نمو أسرع للشبكة.",
-      items: [
-        {
-          title: "تحسن 15-20% لدى أصحاب الامتياز المتراجعين",
-          description:
-            "اكتشف المشكلات مبكراً وقدّم دعماً موجهاً لرفع المواقع الضعيفة.",
-          icon: "growth",
-        },
-        {
-          title: "علاقات أفضل مع أصحاب الامتياز",
-          description:
-            "استخدم البيانات لإجراء محادثات بناءة وتقديم دعم ذي قيمة مضافة.",
-          icon: "support",
-        },
-        {
-          title: "نمو أسرع للشبكة",
-          description:
-            "اجذب أصحاب امتياز جدد من خلال إظهار نظام دعم مدعوم بالذكاء.",
-          icon: "speed",
-        },
-        {
-          title: "خفض مخاطر العلامة التجارية",
-          description:
-            "اكتشف مشكلات الامتثال والجودة قبل أن تؤثر على سمعتك.",
-          icon: "success",
-        },
-      ],
-    },
-    cta: {
-      title: "هل أنت مستعد لدعم شبكتك؟",
-      description: "شاهد كيف تدفع علامات الامتياز الاتساق بالاعتماد على البيانات.",
-      button: "احجز عرضاً للامتيازات",
-    },
+    badge: "للامتيازات وأصحاب الامتياز",
+    titleLine1: "معايير العلامة.",
+    titleLine2: "حقيقة على مستوى الشبكة.",
+    description: "أداء حاملي الامتياز مرتب حسب النظراء. اتساق العلامة قابل للقياس لا مفترض. مصدر حقيقة واحد عبر كل مشغّل-مالك.",
+    primaryCta: "احجز جولة امتياز",
+    secondaryCta: "شاهد عرض الامتياز",
+    problemsEyebrow: "أين ينكسر ذكاء الامتياز",
+    problemsTitle: "أين ينكسر ذكاء الامتياز",
+    problemsDescription: "بيانات متضاربة من حاملي الامتياز، معايير علامة غير منفذة، أقوى المشغّلين يتعلمون من لا أحد.",
+    challenges: [
+      { title: "كل حامل امتياز يرسل بيانات مختلفة", description: "POS مختلف، إيقاع مختلف، تعريفات مختلفة. العلامة ترى تفاحاً مقابل برتقالاً.", icon: "integration" },
+      { title: "معايير العلامة غير مقاسة", description: "تضعها في دليل العمليات. لا تستطيع تحديد أي منفذ يلتزم بها.", icon: "performance" },
+      { title: "كتب أفضل المشغّلين معزولة", description: "حامل الامتياز الذي يسحق إنتاجية العمالة لا يشارك. المتعثر لا يسأل.", icon: "support" },
+      { title: "تدقيقات الإتاوة تأكل العلاقة", description: "تسويات ربع سنوية تتحول إلى نزاعات. الثقة تتآكل.", icon: "balance" },
+    ],
+    howTitle: "كيف يعمل Sundae لشبكات الامتياز",
+    howDescription: "رؤية على مستوى الشبكة، معايير نظراء، تسوية إتاوة آلية.",
+    howSundaeHelps: [
+      { title: "معايير شبكة يراها كل حامل امتياز", description: "كل مشغّل-مالك يرى نفسه مرتباً بشكل مجهول مقابل النظراء — بالمبيعات، نسبة العمالة، RevPASH، الإنتاجية.", product: "Benchmarks", icon: "benchmarking" },
+      { title: "معايير العلامة كمقاييس حية", description: "سرعة الخدمة، الالتزام بالقائمة، النظافة، رضا الضيف — مقاسة باستمرار لا في التدقيق الربعي.", product: "Pulse + Insights", icon: "performance" },
+      { title: "كتب أفضل المشغّلين تنتشر", description: "حين يرفع الموقع 12 معدل البيع الإضافي 18%، Sundae يكشف النمط فتتعلم بقية الشبكة.", product: "Cross-Intelligence", icon: "intelligence" },
+      { title: "تسوية إتاوة آلية", description: "صافي الإيرادات محسوب من نفس المصدر عبر كل حامل امتياز. الإتاوة حساب لا مفاوضة.", product: "Sundae Core", icon: "balance" },
+    ],
+    outcomesTitle: "ما يتغير لنظام الامتياز",
+    outcomesDescription: "شبكة أقوى، احتكاك أقل، معايير علامة صامدة.",
+    outcomes: [
+      { title: "حاملو الامتياز يتنافسون على الشيء الصحيح", description: "معايير مجهولة تحول ضغط النظراء إلى دولاب طيران إيجابي — الشبكة ترتفع معاً.", icon: "speed" },
+      { title: "معايير مقاسة باستمرار", description: "ترى أي منفذ ينحرف عن الخدمة أو القائمة أو النظافة — بدون تدقيق ربعي.", icon: "performance" },
+      { title: "أفضل الممارسات تنتشر عضوياً", description: "Cross-Intelligence يجد ما يعمل عند الأفضل ويوجهه للبقية.", icon: "owners" },
+      { title: "نزاعات الإتاوة تنخفض إلى الصفر تقريباً", description: "مصدر حقيقة واحد على صافي الإيرادات. المحادثة تصبح تدريباً لا تدقيقاً.", icon: "support" },
+    ],
+    ctaTitle: "شاهد شبكتك في ترتيب واحد.",
+    ctaDescription: "30 دقيقة. حاملو امتيازك. المعايير التي كنت ستلتقطها وهي تنزلق.",
+    ctaButton: "احجز جولة امتياز",
   },
   fr: {
-    hero: {
-      badge: "Franchises",
-      title: ["Votre réseau.", "Un seul tableau de bord."],
-      description:
-        "Visibilité sur chaque franchisé. Alertes avant que les problèmes ne s'aggravent. Un support guidé par l'intelligence qui fonctionne vraiment.",
-      primaryCta: "Voir comment Sundae aide les franchises",
-      secondaryCta: "Commencer gratuitement",
-    },
-    problems: {
-      heading: "Les problèmes que vous connaissez",
-      description: "Écarts de performance. Données fragmentées. Angles morts du support.",
-      items: [
-        {
-          title: "Variabilité de performance des franchisés",
-          description:
-            "De grands écarts entre franchisés sans moyen clair de repérer et traiter rapidement les sous-performances.",
-          icon: "benchmarking",
-        },
-        {
-          title: "Défis de cohérence de marque",
-          description:
-            "Garantir la qualité, les standards de service et la conformité opérationnelle sur des sites indépendants.",
-          icon: "owners",
-        },
-        {
-          title: "Fragmentation des données",
-          description:
-            "Chaque franchisé peut utiliser des systèmes différents, rendant les insights réseau presque impossibles.",
-          icon: "integration",
-        },
-        {
-          title: "Lacunes de support et de formation",
-          description:
-            "Identifier quels franchisés ont besoin d'aide et quel type de support aura vraiment un impact.",
-          icon: "marketing",
-        },
-      ],
-    },
-    solutions: {
-      heading: "Comment Sundae change la donne",
-      description: "Du support, pas de microgestion. Des données, pas des suppositions.",
-      items: [
-        {
-          title: "Visibilité à l'échelle du réseau",
-          description:
-            "Sundae Core unifie les données de tous les franchisés dans un seul tableau de bord et offre une visibilité temps réel sur chaque site.",
-          product: "Sundae Core",
-          icon: "chart",
-        },
-        {
-          title: "Alertes de performance automatisées",
-          description:
-            "Sundae Core signale les franchisés sous-performants et les zones à surveiller avant que les problèmes ne s'aggravent.",
-          product: "Sundae Core",
-          icon: "alerts",
-        },
-        {
-          title: "Benchmarking et bonnes pratiques",
-          description:
-            "Sundae Report montre à chaque franchisé comment il se situe face aux leaders du réseau, avec une concurrence saine et des cibles claires.",
-          product: "Sundae Report",
-          icon: "report",
-        },
-        {
-          title: "Support conversationnel",
-          description:
-            "Demandez à Sundae : « Quels franchisés ont la plus forte variance de main-d'œuvre ? » et obtenez des réponses instantanées.",
-          product: "Sundae Core",
-          icon: "intelligence",
-        },
-      ],
-    },
-    outcomes: {
-      heading: "Ce qui change",
-      description: "De meilleures relations franchisés. Une croissance réseau plus rapide.",
-      items: [
-        {
-          title: "Amélioration de 15-20 % des franchisés sous-performants",
-          description:
-            "Repérez les problèmes tôt et apportez un support ciblé aux sites en difficulté.",
-          icon: "growth",
-        },
-        {
-          title: "Meilleures relations franchisés",
-          description:
-            "Utilisez les données pour mener des échanges constructifs et offrir un support à valeur ajoutée.",
-          icon: "support",
-        },
-        {
-          title: "Croissance réseau plus rapide",
-          description:
-            "Attirez de nouveaux franchisés en démontrant votre système de support guidé par l'intelligence.",
-          icon: "speed",
-        },
-        {
-          title: "Réduction du risque de marque",
-          description:
-            "Détectez les problèmes de conformité et de qualité avant qu'ils n'affectent votre réputation.",
-          icon: "success",
-        },
-      ],
-    },
-    cta: {
-      title: "Prêt à soutenir votre réseau ?",
-      description: "Voyez comment les marques franchisées renforcent la cohérence grâce aux données.",
-      button: "Réserver une démo franchise",
-    },
+    badge: "Pour franchises et franchiseurs",
+    titleLine1: "Standards de marque.",
+    titleLine2: "Vérité réseau.",
+    description: "Performance franchisée classée par pair. Cohérence de marque mesurable, pas supposée. Une source de vérité sur tout propriétaire-opérateur.",
+    primaryCta: "Réserver une visite franchise",
+    secondaryCta: "Voir la démo franchise",
+    problemsEyebrow: "OÙ L'INTELLIGENCE FRANCHISE CASSE",
+    problemsTitle: "Où l'intelligence franchise casse",
+    problemsDescription: "Données incohérentes, standards non appliqués, les meilleurs opérateurs n'apprennent à personne.",
+    challenges: [
+      { title: "Chaque franchisé envoie des données différentes", description: "POS différent, cadence différente, définitions différentes. La marque voit pommes vs oranges.", icon: "integration" },
+      { title: "Standards de marque non mesurés", description: "Vous les écrivez dans le manuel. Vous ne pouvez pas dire quel point les respecte.", icon: "performance" },
+      { title: "Les playbooks des meilleurs restent cloisonnés", description: "Le franchisé qui écrase la productivité ne partage pas. Celui qui peine ne demande pas.", icon: "support" },
+      { title: "Les audits royalties mangent la relation", description: "Les rapprochements trimestriels deviennent des disputes. La confiance s'érode.", icon: "balance" },
+    ],
+    howTitle: "Comment Sundae sert les réseaux de franchise",
+    howDescription: "Visibilité réseau, benchmarks de pairs, rapprochement royalties automatisé.",
+    howSundaeHelps: [
+      { title: "Benchmarks réseau visibles par chaque franchisé", description: "Chaque propriétaire-opérateur se voit classé anonymement contre ses pairs — ventes, % main-d'œuvre, RevPASH, débit.", product: "Benchmarks", icon: "benchmarking" },
+      { title: "Standards de marque en métriques live", description: "Rapidité de service, conformité menu, hygiène, satisfaction — mesurés en continu, pas à l'audit trimestriel.", product: "Pulse + Insights", icon: "performance" },
+      { title: "Playbooks des meilleurs se propagent", description: "Quand le Site 12 monte l'upsell de 18%, Sundae remonte le pattern pour que le réseau apprenne — sans memo.", product: "Cross-Intelligence", icon: "intelligence" },
+      { title: "Rapprochement royalties automatisé", description: "Revenu net calculé depuis la même source sur chaque franchisé. La royaltie devient un calcul, pas une négociation.", product: "Sundae Core", icon: "balance" },
+    ],
+    outcomesTitle: "Ce qui change pour le système franchise",
+    outcomesDescription: "Réseau plus fort, moins de friction, standards qui tiennent.",
+    outcomes: [
+      { title: "Les franchisés se concurrencent sur ce qui compte", description: "Les benchmarks anonymes transforment la pression entre pairs en volant positif.", icon: "speed" },
+      { title: "Standards mesurés en continu", description: "Vous voyez quels points dérivent — sans audit trimestriel.", icon: "performance" },
+      { title: "Les meilleures pratiques se propagent", description: "Cross-Intelligence trouve ce qui marche chez le meilleur et le route vers les autres.", icon: "owners" },
+      { title: "Disputes royalties quasi nulles", description: "Une source de vérité sur le revenu net. La conversation devient coaching, pas audit.", icon: "support" },
+    ],
+    ctaTitle: "Votre réseau sur un seul classement.",
+    ctaDescription: "30 minutes. Vos franchisés. Les standards que vous auriez vus glisser.",
+    ctaButton: "Réserver une visite franchise",
   },
   es: {
-    hero: {
-      badge: "Franquicias",
-      title: ["Tu red.", "Un solo panel."],
-      description:
-        "Visibilidad en cada franquiciado. Alertas antes de que los problemas escalen. Soporte guiado por inteligencia que realmente funciona.",
-      primaryCta: "Ver cómo Sundae ayuda a las franquicias",
-      secondaryCta: "Empezar gratis",
-    },
-    problems: {
-      heading: "Los problemas que conoces",
-      description: "Brechas de rendimiento. Datos fragmentados. Puntos ciegos de soporte.",
-      items: [
-        {
-          title: "Variabilidad en el rendimiento de los franquiciados",
-          description:
-            "Grandes diferencias entre franquiciados sin una forma clara de detectar y abordar el bajo rendimiento a tiempo.",
-          icon: "benchmarking",
-        },
-        {
-          title: "Desafíos de consistencia de marca",
-          description:
-            "Asegurar calidad, estándares de servicio y cumplimiento operativo en ubicaciones de propiedad independiente.",
-          icon: "owners",
-        },
-        {
-          title: "Fragmentación de datos",
-          description:
-            "Cada franquiciado puede usar sistemas distintos, haciendo casi imposible obtener insights de toda la red.",
-          icon: "integration",
-        },
-        {
-          title: "Brechas de soporte y capacitación",
-          description:
-            "Identificar qué franquiciados necesitan ayuda y qué tipo de soporte realmente moverá la aguja.",
-          icon: "marketing",
-        },
-      ],
-    },
-    solutions: {
-      heading: "Cómo Sundae lo cambia",
-      description: "Soporte, no microgestión. Datos, no supuestos.",
-      items: [
-        {
-          title: "Visibilidad de toda la red",
-          description:
-            "Sundae Core unifica los datos de todos los franquiciados en un solo panel y te da visibilidad en tiempo real de cada ubicación.",
-          product: "Sundae Core",
-          icon: "chart",
-        },
-        {
-          title: "Alertas automáticas de rendimiento",
-          description:
-            "Sundae Core señala a los franquiciados con bajo rendimiento y las áreas que requieren atención antes de que el problema escale.",
-          product: "Sundae Core",
-          icon: "alerts",
-        },
-        {
-          title: "Benchmarking y mejores prácticas",
-          description:
-            "Sundae Report muestra a cada franquiciado cómo se compara con los líderes de la red, generando competencia sana y metas claras.",
-          product: "Sundae Report",
-          icon: "report",
-        },
-        {
-          title: "Soporte conversacional",
-          description:
-            "Pregunta a Sundae: «¿Qué franquiciados tienen la mayor variación laboral?» y obtén respuestas instantáneas.",
-          product: "Sundae Core",
-          icon: "intelligence",
-        },
-      ],
-    },
-    outcomes: {
-      heading: "Qué cambia",
-      description: "Mejores relaciones con franquiciados. Crecimiento de red más rápido.",
-      items: [
-        {
-          title: "Mejora del 15-20% en franquiciados con bajo rendimiento",
-          description:
-            "Detecta problemas a tiempo y brinda soporte dirigido a ubicaciones rezagadas.",
-          icon: "growth",
-        },
-        {
-          title: "Mejores relaciones con franquiciados",
-          description:
-            "Usa datos para tener conversaciones constructivas y ofrecer soporte de valor.",
-          icon: "support",
-        },
-        {
-          title: "Crecimiento de red más rápido",
-          description:
-            "Atrae nuevos franquiciados demostrando tu sistema de soporte impulsado por inteligencia.",
-          icon: "speed",
-        },
-        {
-          title: "Menor riesgo de marca",
-          description:
-            "Detecta problemas de cumplimiento y calidad antes de que afecten tu reputación.",
-          icon: "success",
-        },
-      ],
-    },
-    cta: {
-      title: "¿Listo para apoyar tu red?",
-      description: "Mira cómo las marcas de franquicia impulsan la consistencia con datos.",
-      button: "Reservar demo de franquicia",
-    },
+    badge: "Para franquicias y franquiciadores",
+    titleLine1: "Estándares de marca.",
+    titleLine2: "Verdad de toda la red.",
+    description: "Rendimiento de franquiciados clasificado por pares. Consistencia de marca medible, no supuesta. Una fuente de verdad en cada operador-propietario.",
+    primaryCta: "Reservar recorrido franquicia",
+    secondaryCta: "Ver demo franquicia",
+    problemsEyebrow: "DÓNDE FALLA LA INTELIGENCIA DE FRANQUICIA",
+    problemsTitle: "Dónde falla la inteligencia de franquicia",
+    problemsDescription: "Datos inconsistentes, estándares no aplicados, los mejores operadores no enseñan a nadie.",
+    challenges: [
+      { title: "Cada franquiciado envía datos distintos", description: "POS distinto, cadencia distinta, definiciones distintas. La marca ve manzanas vs naranjas.", icon: "integration" },
+      { title: "Estándares de marca no medidos", description: "Los pones en el manual. No puedes decir qué local los cumple.", icon: "performance" },
+      { title: "Los playbooks de los mejores se quedan en silo", description: "El franquiciado que aplasta la productividad no comparte. El que lucha no pregunta.", icon: "support" },
+      { title: "Las auditorías de regalías se comen la relación", description: "Conciliaciones trimestrales se vuelven disputas. La confianza se erosiona.", icon: "balance" },
+    ],
+    howTitle: "Cómo trabaja Sundae para redes de franquicia",
+    howDescription: "Visibilidad de red, benchmarks de pares, conciliación de regalías automatizada.",
+    howSundaeHelps: [
+      { title: "Benchmarks de red visibles para cada franquiciado", description: "Cada operador-propietario se ve clasificado anónimamente contra pares — ventas, % personal, RevPASH, throughput.", product: "Benchmarks", icon: "benchmarking" },
+      { title: "Estándares de marca como métricas en vivo", description: "Velocidad de servicio, cumplimiento de menú, higiene, satisfacción — medidos continuamente, no en auditoría trimestral.", product: "Pulse + Insights", icon: "performance" },
+      { title: "Playbooks de los mejores se propagan", description: "Cuando el Local 12 sube el upsell 18%, Sundae saca el patrón para que la red aprenda — sin memo.", product: "Cross-Intelligence", icon: "intelligence" },
+      { title: "Conciliación de regalías automatizada", description: "Ingreso neto calculado desde la misma fuente en cada franquiciado. La regalía es cálculo, no negociación.", product: "Sundae Core", icon: "balance" },
+    ],
+    outcomesTitle: "Qué cambia para el sistema de franquicia",
+    outcomesDescription: "Red más fuerte, menos fricción, estándares que se sostienen.",
+    outcomes: [
+      { title: "Los franquiciados compiten en lo correcto", description: "Benchmarks anónimos convierten la presión de pares en un volante positivo.", icon: "speed" },
+      { title: "Estándares medidos continuamente", description: "Ves qué locales se desvían — sin auditoría trimestral.", icon: "performance" },
+      { title: "Las mejores prácticas se propagan orgánicamente", description: "Cross-Intelligence encuentra lo que funciona en el mejor y lo enruta al resto.", icon: "owners" },
+      { title: "Disputas de regalías casi cero", description: "Una fuente de verdad en ingreso neto. La conversación es coaching, no auditoría.", icon: "support" },
+    ],
+    ctaTitle: "Tu red en un solo ranking.",
+    ctaDescription: "30 minutos. Tus franquiciados. Los estándares que habrías visto deslizarse.",
+    ctaButton: "Reservar recorrido franquicia",
   },
 };
 
 export default function FranchisesPage() {
   const { locale } = useWebsiteI18n();
   const copy = localizedCopy[locale] ?? localizedCopy.en;
-
-  return (
-    <div className="min-h-screen bg-[var(--navy-deep)]">
-      <PageHero
-        badge={copy.hero.badge}
-        title={
-          <>
-            {copy.hero.title[0]}
-            <br />
-            {copy.hero.title[1]}
-          </>
-        }
-        description={copy.hero.description}
-      >
-        <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <Link href="/demo">
-            <Button variant="primary" size="lg">
-              {copy.hero.primaryCta}
-            </Button>
-          </Link>
-          <Link href="/demo">
-            <Button variant="outline-light" size="lg">
-              {copy.hero.secondaryCta}
-            </Button>
-          </Link>
-        </div>
-      </PageHero>
-
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.problems.heading}</h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.problems.description}</p>
-          </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {copy.problems.items.map((challenge, index) => (
-              <StaggerItem key={index}>
-                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                  <CardHeader>
-                    <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <SundaeIcon name={challenge.icon} size="lg" className="text-white" />
-                      </div>
-                      <div>
-                        <CardTitle className="text-[var(--text-primary)] mb-2">{challenge.title}</CardTitle>
-                        <CardDescription className="text-[var(--text-supporting)]">{challenge.description}</CardDescription>
-                      </div>
-                    </div>
-                  </CardHeader>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-        </div>
-      </section>
-
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.solutions.heading}</h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.solutions.description}</p>
-          </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {copy.solutions.items.map((item, index) => (
-              <StaggerItem key={index}>
-                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                  <CardHeader>
-                    <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <SundaeIcon name={item.icon} size="lg" className="text-white" />
-                      </div>
-                      <div>
-                        <div className="text-xs text-[#60A5FA] font-semibold mb-1">{item.product}</div>
-                        <CardTitle className="text-[var(--text-primary)] mb-2">{item.title}</CardTitle>
-                        <CardDescription className="text-[var(--text-supporting)]">{item.description}</CardDescription>
-                      </div>
-                    </div>
-                  </CardHeader>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-        </div>
-      </section>
-
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.outcomes.heading}</h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.outcomes.description}</p>
-          </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {copy.outcomes.items.map((outcome, index) => (
-              <StaggerItem key={index}>
-                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                  <CardHeader>
-                    <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <SundaeIcon name={outcome.icon} size="lg" className="text-white" />
-                      </div>
-                      <div>
-                        <CardTitle className="text-[var(--text-primary)] mb-2">{outcome.title}</CardTitle>
-                        <CardDescription className="text-[var(--text-supporting)]">{outcome.description}</CardDescription>
-                      </div>
-                    </div>
-                  </CardHeader>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-        </div>
-      </section>
-
-      <PageCTA title={copy.cta.title} description={copy.cta.description}>
-        <Link href="/demo">
-          <Button variant="primary" size="lg">
-            {copy.cta.button}
-          </Button>
-        </Link>
-      </PageCTA>
-    </div>
-  );
+  return <SolutionPageLayout copy={copy} mockup={<BenchmarkDashboardMockup />} />;
 }

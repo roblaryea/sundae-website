@@ -1,292 +1,158 @@
 "use client";
 
-import Link from "next/link";
-import { REPORT_APP_URL } from "@/lib/urls";
-import { Button } from "@/components/ui/Button";
-import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/Card";
-import { SundaeIcon, type SundaeIconName } from "@/components/icons";
-import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
+import { LaborOpsMockup } from "@/components/ui/MockupFrame";
+import { SolutionPageLayout, type SolutionCopy } from "@/components/solutions/SolutionPageLayout";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 
-type RoleSolutionCopy = {
-  badge: string;
-  titleLine1: string;
-  titleLine2: string;
-  description: string;
-  primaryCta: string;
-  secondaryCta: string;
-  problemsTitle: string;
-  problemsDescription: string;
-  challenges: { title: string; description: string; icon: SundaeIconName }[];
-  howTitle: string;
-  howDescription: string;
-  howSundaeHelps: { title: string; description: string; product: string; icon: SundaeIconName }[];
-  outcomesTitle: string;
-  outcomesDescription: string;
-  outcomes: { title: string; description: string; icon: SundaeIconName }[];
-  ctaTitle: string;
-  ctaDescription: string;
-  ctaButton: string;
-};
-
-const localizedHrCopy: Record<"en" | "ar" | "fr" | "es", RoleSolutionCopy> = {
+const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
   en: {
-    badge: "People & HR Teams",
-    titleLine1: "Know Your People.",
-    titleLine2: "Keep Your People.",
-    description: "Turnover alerts. Labor optimization. Workforce insights. See what's happening before it becomes a problem.",
-    primaryCta: "See Workforce Dashboard",
-    secondaryCta: "View Labor Benchmarks",
-    problemsTitle: "The Problems You Know",
-    problemsDescription: "Turnover blind spots. Scheduling guesswork. Reactive management.",
+    badge: "For HR & People Teams",
+    titleLine1: "Schedule for the shift.",
+    titleLine2: "Not for last week.",
+    description: "Live labor variance by location. Overtime risk flagged before it happens. Productivity measured per FOH hour, not per pay period.",
+    primaryCta: "Book a Labor Walk-through",
+    secondaryCta: "See Labor Demo",
+    problemsEyebrow: "WHERE LABOR LEAKS",
+    problemsTitle: "Where the labor budget leaks",
+    problemsDescription: "Schedules built on instinct, variance discovered after payroll.",
     challenges: [
-      { title: "Workforce Blind Spots", description: "Labor data is trapped in payroll systems, making it impossible to connect staffing decisions to restaurant performance.", icon: "labor" },
-      { title: "Turnover Crisis", description: "High turnover rates but no clear visibility into which locations or roles have the biggest retention issues.", icon: "decrease" },
-      { title: "Scheduling Inefficiency", description: "Over-staffing hurts margins, under-staffing hurts service - but you lack real-time data to optimize the balance.", icon: "schedule" },
-      { title: "Compliance & Risk", description: "Managing labor compliance across locations is manual and reactive rather than proactive.", icon: "balance" },
+      { title: "OT exposure invisible until payroll", description: "By the time you see the overtime line, you've already paid it.", icon: "balance" },
+      { title: "Schedules built on last week's covers", description: "Demand has moved. The schedule hasn't. Labor % drifts with it.", icon: "operators" },
+      { title: "Productivity reported, not actionable", description: "You know covers per FOH hour by month. Not by shift, not by server, not in time to coach.", icon: "performance" },
+      { title: "No early warning on absenteeism", description: "The bad shift starts when a no-show lands at 4:15pm. You hear about it in tomorrow's recap.", icon: "support" },
     ],
-    howTitle: "How Sundae Changes That",
-    howDescription: "Unified workforce data and proactive alerts.",
+    howTitle: "How Sundae works for HR & People",
+    howDescription: "Live labor signal, OT prevention, productivity at shift granularity.",
     howSundaeHelps: [
-      { title: "Unified Workforce Dashboard", description: "Sundae Core connects labor, payroll, and performance data - see turnover, productivity, and labor costs by location in real time.", product: "Sundae Core", icon: "chart" },
-      { title: "Proactive Turnover Alerts", description: "Sundae Core flags locations with rising turnover, overtime spikes, or compliance risks before they become crises.", product: "Sundae Core", icon: "alerts" },
-      { title: "Ask HR Questions Instantly", description: "Ask Sundae which locations have the highest turnover or what the average tenure is by role and get instant, numbers-backed answers.", product: "Sundae Intelligence", icon: "intelligence" },
-      { title: "Labor Benchmarking", description: "Sundae Report shows how your labor metrics compare to industry standards and helps you set realistic goals.", product: "Sundae Report", icon: "report" },
+      { title: "Live labor % by location", description: "Hour-by-hour labor cost against demand. The site running over budget gets flagged while you can still trim.", product: "Pulse · Labor", icon: "operators" },
+      { title: "OT exposure before it hits", description: "Sundae forecasts the OT line by location for the rest of the week — so you redistribute hours, not absorb the cost.", product: "Insights · Labor", icon: "balance" },
+      { title: "Productivity per FOH hour, per server", description: "Covers/hour, sales/hour, upsell rate — per server, per shift. Coach with numbers, not impressions.", product: "Pulse · Server view", icon: "performance" },
+      { title: "Schedule recommendations from demand", description: "Foresight projects covers 14 days out — Sundae suggests the labor plan that matches.", product: "Foresight", icon: "forecasting" },
     ],
-    outcomesTitle: "What Changes",
-    outcomesDescription: "Lower turnover. Better staffing. Proactive retention.",
+    outcomesTitle: "What changes for HR",
+    outcomesDescription: "Tighter schedules, fewer surprises, productivity you can show.",
     outcomes: [
-      { title: "Reduce turnover by 20%", description: "Identify retention issues early and implement targeted interventions.", icon: "decrease" },
-      { title: "Optimize labor costs", description: "Balance staffing levels with demand to improve margins without sacrificing service.", icon: "finance" },
-      { title: "Improve compliance", description: "Automated monitoring keeps you ahead of labor law changes and violations.", icon: "success" },
-      { title: "Numbers-backed staffing", description: "Make hiring and scheduling decisions based on real performance data, not gut feel.", icon: "benchmarking" },
+      { title: "Cut OT exposure before it lands", description: "Reallocate hours mid-week, not after the payroll run.", icon: "speed" },
+      { title: "Labor % closer to plan, every week", description: "Variance narrows from monthly chaos to weekly precision.", icon: "performance" },
+      { title: "Server productivity you can compare", description: "Live, per-shift productivity that supports coaching, reviews, and promotion calls.", icon: "owners" },
+      { title: "Schedules that match the floor", description: "Demand-driven schedules built on Foresight projections — not last week's pattern.", icon: "support" },
     ],
-    ctaTitle: "Ready to Reduce Turnover?",
-    ctaDescription: "See how HR teams catch retention issues early.",
-    ctaButton: "Book an HR Team Demo",
+    ctaTitle: "See your labor in motion.",
+    ctaDescription: "30 minutes. Your schedule. The OT you would have caught before it landed.",
+    ctaButton: "Book a Labor Walk-through",
   },
   ar: {
-    badge: "فرق الأفراد والموارد البشرية",
-    titleLine1: "اعرف موظفيك.",
-    titleLine2: "وحافظ عليهم.",
-    description: "تنبيهات عن الاستقالات. تحسين العمالة. رؤى القوى العاملة. شاهد ما يحدث قبل أن يصبح مشكلة.",
-    primaryCta: "عرض لوحة القوى العاملة",
-    secondaryCta: "عرض معايير العمالة",
-    problemsTitle: "المشكلات التي تعرفها",
-    problemsDescription: "فجوات في رؤية الاستقالات. تخمين في الجدولة. إدارة تفاعلية.",
+    badge: "للموارد البشرية والكوادر",
+    titleLine1: "جدول للوردية.",
+    titleLine2: "لا للأسبوع الماضي.",
+    description: "تباين عمالة حي لكل موقع. وقت إضافي يُكتشف قبل أن يُسجَّل. إنتاجية تُقاس بساعة لا بدورة رواتب.",
+    primaryCta: "احجز جولة العمالة",
+    secondaryCta: "شاهد عرض العمالة",
+    problemsEyebrow: "أين تتسرب العمالة",
+    problemsTitle: "أين تتسرب ميزانية العمالة",
+    problemsDescription: "جداول مبنية على الحدس، تباين يُكتشف بعد الرواتب.",
     challenges: [
-      { title: "فجوات رؤية القوى العاملة", description: "بيانات العمالة محصورة في أنظمة الرواتب، ما يجعل ربط قرارات التوظيف بالأداء أمراً صعباً.", icon: "labor" },
-      { title: "أزمة الاستقالات", description: "معدلات استقالة مرتفعة لكن لا توجد رؤية واضحة لأي المواقع أو الأدوار تعاني أكثر.", icon: "decrease" },
-      { title: "عدم كفاءة الجدولة", description: "الزيادة في التوظيف تضغط على الهوامش والنقص يضر الخدمة - لكن لا توجد بيانات لحظية لتحسين التوازن.", icon: "schedule" },
-      { title: "الامتثال والمخاطر", description: "إدارة الامتثال للعمالة عبر المواقع يدوية وتفاعلية بدلًا من استباقية.", icon: "balance" },
+      { title: "تعرض OT غير مرئي حتى الرواتب", description: "حين ترى خط الوقت الإضافي، تكون قد دفعته.", icon: "balance" },
+      { title: "جداول مبنية على ضيوف الأسبوع الماضي", description: "الطلب تحرك. الجدول لم يتحرك. نسبة العمالة تنزلق معه.", icon: "operators" },
+      { title: "إنتاجية مذكورة لا قابلة للتنفيذ", description: "تعرف الإنتاجية بالشهر. لا بالوردية ولا بالموظف.", icon: "performance" },
+      { title: "لا إنذار مبكر للغياب", description: "الوردية السيئة تبدأ بغياب في 4:15. تسمع عنها في تقرير الغد.", icon: "support" },
     ],
-    howTitle: "كيف يغير Sundae ذلك",
-    howDescription: "بيانات موحدة للقوى العاملة وتنبيهات استباقية.",
+    howTitle: "كيف يعمل Sundae للموارد البشرية",
+    howDescription: "إشارة عمالة حية، منع OT، إنتاجية بدقة الوردية.",
     howSundaeHelps: [
-      { title: "لوحة قوة عاملة موحدة", description: "يربط Sundae Core بيانات العمالة والرواتب والأداء لتشاهد الاستقالات والإنتاجية والتكلفة حسب الموقع في الوقت الحقيقي.", product: "Sundae Core", icon: "chart" },
-      { title: "تنبيهات استباقية عن الاستقالات", description: "يحدد Sundae Core المواقع التي يرتفع فيها معدل الاستقالات أو العمل الإضافي أو مخاطر الامتثال قبل أن تتفاقم.", product: "Sundae Core", icon: "alerts" },
-      { title: "اسأل أسئلة الموارد البشرية فورًا", description: "اسأل Sundae عن المواقع الأعلى استقالات أو متوسط مدة الخدمة حسب الدور واحصل على إجابات فورية مدعومة بالأرقام.", product: "Sundae Intelligence", icon: "intelligence" },
-      { title: "معايير العمالة", description: "يُظهر Sundae Report كيف تقارن مقاييس العمالة بالمعايير الصناعية ويساعدك على وضع أهداف واقعية.", product: "Sundae Report", icon: "report" },
+      { title: "نسبة عمالة حية لكل موقع", description: "تكلفة العمالة ساعة بساعة مقابل الطلب. الموقع المتجاوز يظهر بينما يمكنك تقليصه.", product: "Pulse · Labor", icon: "operators" },
+      { title: "تعرض OT قبل أن يُسجَّل", description: "Sundae يتوقع خط الوقت الإضافي بقية الأسبوع — فتعيد توزيع الساعات لا أن تستوعب التكلفة.", product: "Insights · Labor", icon: "balance" },
+      { title: "إنتاجية لكل ساعة وكل موظف", description: "ضيوف وساعات ومبيعات لكل موظف ووردية. درّب بالأرقام لا بالانطباعات.", product: "Pulse · Server view", icon: "performance" },
+      { title: "توصيات جدولة من الطلب", description: "Foresight يتوقع الضيوف لـ 14 يوماً — Sundae يقترح خطة العمالة المناسبة.", product: "Foresight", icon: "forecasting" },
     ],
-    outcomesTitle: "ما الذي يتغير",
-    outcomesDescription: "استقالات أقل. جدولة أفضل. احتفاظ استباقي.",
+    outcomesTitle: "ما يتغير للموارد البشرية",
+    outcomesDescription: "جداول أحكم، مفاجآت أقل، إنتاجية تستطيع عرضها.",
     outcomes: [
-      { title: "خفض الاستقالات بنسبة 20%", description: "حدد مشكلات الاحتفاظ مبكرًا ونفذ تدخلات موجهة.", icon: "decrease" },
-      { title: "تحسين تكلفة العمالة", description: "وازن مستويات التوظيف مع الطلب لتحسين الهوامش دون التضحية بالخدمة.", icon: "finance" },
-      { title: "تحسين الامتثال", description: "المراقبة المؤتمتة تبقيك متقدمًا على تغييرات قوانين العمل والمخالفات.", icon: "success" },
-      { title: "توظيف مدعوم بالأرقام", description: "اتخذ قرارات التوظيف والجدولة بناءً على البيانات الحقيقية لا على الحدس.", icon: "benchmarking" },
+      { title: "اقطع تعرض OT قبل الهبوط", description: "أعد توزيع الساعات في منتصف الأسبوع لا بعد الرواتب.", icon: "speed" },
+      { title: "نسبة عمالة أقرب للخطة كل أسبوع", description: "التباين يضيق من فوضى شهرية إلى دقة أسبوعية.", icon: "performance" },
+      { title: "إنتاجية موظفين قابلة للمقارنة", description: "إنتاجية حية تدعم التدريب والمراجعات.", icon: "owners" },
+      { title: "جداول تطابق الموقع", description: "جداول مدفوعة بالطلب من توقعات Foresight — لا نمط الأسبوع الماضي.", icon: "support" },
     ],
-    ctaTitle: "هل أنت مستعد لخفض الاستقالات؟",
-    ctaDescription: "شاهد كيف تلتقط فرق الموارد البشرية مشاكل الاحتفاظ مبكرًا.",
-    ctaButton: "احجز عرضًا لفريق الموارد البشرية",
+    ctaTitle: "شاهد عمالتك تتحرك.",
+    ctaDescription: "30 دقيقة. جدولك. الوقت الإضافي الذي كنت ستلتقطه قبل تسجيله.",
+    ctaButton: "احجز جولة العمالة",
   },
   fr: {
-    badge: "Équipes RH",
-    titleLine1: "Connaissez vos équipes.",
-    titleLine2: "Gardez vos équipes.",
-    description: "Alertes de turnover. Optimisation de la main-d'oeuvre. Insights RH. Voyez ce qui se passe avant que cela devienne un problème.",
-    primaryCta: "Voir le tableau de bord workforce",
-    secondaryCta: "Voir les benchmarks de main-d'oeuvre",
-    problemsTitle: "Les problèmes que vous connaissez",
-    problemsDescription: "Angles morts sur le turnover. Planification au jugé. Gestion réactive.",
+    badge: "Pour RH & People",
+    titleLine1: "Planifiez pour le service.",
+    titleLine2: "Pas pour la semaine dernière.",
+    description: "Variance main-d'œuvre live par site. Risque d'heures sup' signalé avant qu'il ne tombe. Productivité par heure FOH, pas par cycle de paie.",
+    primaryCta: "Réserver une visite RH",
+    secondaryCta: "Voir la démo main-d'œuvre",
+    problemsEyebrow: "OÙ FUIT LE BUDGET MAIN-D'ŒUVRE",
+    problemsTitle: "Où fuit le budget main-d'œuvre",
+    problemsDescription: "Plannings à l'instinct, variance découverte après la paie.",
     challenges: [
-      { title: "Angles morts workforce", description: "Les données de main-d'oeuvre sont enfermées dans la paie, rendant le lien avec la performance difficile.", icon: "labor" },
-      { title: "Crise du turnover", description: "Taux de turnover élevés mais pas de visibilité claire sur les sites ou rôles les plus touchés.", icon: "decrease" },
-      { title: "Planification inefficace", description: "Le sur-effectif réduit les marges et le sous-effectif dégrade le service.", icon: "schedule" },
-      { title: "Conformité et risque", description: "La gestion de la conformité est manuelle et réactive plutôt que proactive.", icon: "balance" },
+      { title: "Heures sup' invisibles jusqu'à la paie", description: "Quand vous voyez la ligne, vous l'avez déjà payée.", icon: "balance" },
+      { title: "Plannings basés sur les couverts de la semaine passée", description: "La demande a bougé. Le planning non. Le % main-d'œuvre dérive.", icon: "operators" },
+      { title: "Productivité rapportée, non actionnable", description: "Vous la connaissez au mois. Pas au service, pas au serveur, pas à temps pour coacher.", icon: "performance" },
+      { title: "Pas d'alerte sur l'absentéisme", description: "Le service raté commence à 16h15 sur un no-show. Vous l'apprenez demain.", icon: "support" },
     ],
-    howTitle: "Comment Sundae change cela",
-    howDescription: "Des données workforce unifiées et des alertes proactives.",
+    howTitle: "Comment Sundae sert RH & People",
+    howDescription: "Signal main-d'œuvre live, prévention heures sup', productivité à la granularité service.",
     howSundaeHelps: [
-      { title: "Tableau workforce unifié", description: "Sundae Core relie les données de main-d'oeuvre, paie et performance - turnover, productivité et coûts par site en temps réel.", product: "Sundae Core", icon: "chart" },
-      { title: "Alertes turnover proactives", description: "Sundae Core signale les sites avec turnover en hausse, pics d'heures sup ou risques de conformité avant la crise.", product: "Sundae Core", icon: "alerts" },
-      { title: "Questions RH instantanées", description: "Demandez à Sundae quels sites ont le plus fort turnover ou quelle est la tenure moyenne par rôle, et obtenez une réponse chiffrée.", product: "Sundae Intelligence", icon: "intelligence" },
-      { title: "Benchmark de main-d'oeuvre", description: "Sundae Report compare vos métriques aux standards du secteur et aide à définir des objectifs réalistes.", product: "Sundae Report", icon: "report" },
+      { title: "% main-d'œuvre live par site", description: "Coût main-d'œuvre heure par heure vs demande. Le site en dépassement est signalé pendant que vous pouvez encore couper.", product: "Pulse · Labor", icon: "operators" },
+      { title: "Exposition heures sup' avant l'impact", description: "Sundae prévoit la ligne heures sup' pour la fin de semaine — redistribuez plutôt que d'absorber.", product: "Insights · Labor", icon: "balance" },
+      { title: "Productivité par heure et par serveur", description: "Couverts/h, ventes/h, upsell — par serveur, par service. Coachez avec des chiffres.", product: "Pulse · Server view", icon: "performance" },
+      { title: "Recommandations de planning depuis la demande", description: "Foresight projette les couverts à 14 jours — Sundae suggère le plan main-d'œuvre correspondant.", product: "Foresight", icon: "forecasting" },
     ],
-    outcomesTitle: "Ce qui change",
-    outcomesDescription: "Moins de turnover. Meilleure planification. Rétention proactive.",
+    outcomesTitle: "Ce qui change pour les RH",
+    outcomesDescription: "Plannings plus serrés, moins de surprises, productivité démontrable.",
     outcomes: [
-      { title: "Réduire le turnover de 20 %", description: "Identifiez tôt les problèmes de rétention et agissez ciblé.", icon: "decrease" },
-      { title: "Optimiser les coûts de main-d'oeuvre", description: "Équilibrez staffing et demande pour améliorer les marges.", icon: "finance" },
-      { title: "Améliorer la conformité", description: "La surveillance automatisée vous garde en avance sur les changements réglementaires.", icon: "success" },
-      { title: "Staffing fondé sur les chiffres", description: "Basez vos décisions RH sur les données réelles et non l'intuition.", icon: "benchmarking" },
+      { title: "Coupez l'exposition heures sup' avant la paie", description: "Redistribuez les heures en milieu de semaine, pas après le run.", icon: "speed" },
+      { title: "% main-d'œuvre plus proche du plan", description: "La variance passe du chaos mensuel à la précision hebdomadaire.", icon: "performance" },
+      { title: "Productivité serveurs comparable", description: "Productivité live par service pour coaching, revues, promotions.", icon: "owners" },
+      { title: "Plannings qui collent à la salle", description: "Plannings tirés de Foresight — pas du pattern de la semaine passée.", icon: "support" },
     ],
-    ctaTitle: "Prêt à réduire le turnover ?",
-    ctaDescription: "Voyez comment les équipes RH détectent les problèmes de rétention tôt.",
-    ctaButton: "Réserver une démo RH",
+    ctaTitle: "Votre main-d'œuvre en mouvement.",
+    ctaDescription: "30 minutes. Votre planning. L'heure sup' que vous auriez attrapée avant qu'elle ne tombe.",
+    ctaButton: "Réserver une visite RH",
   },
   es: {
-    badge: "Equipos de personas y RR. HH.",
-    titleLine1: "Conoce a tu gente.",
-    titleLine2: "Retén a tu gente.",
-    description: "Alertas de rotación. Optimización de personal. Insights de la fuerza laboral. Ve qué pasa antes de que se convierta en problema.",
-    primaryCta: "Ver panel de fuerza laboral",
-    secondaryCta: "Ver benchmarks laborales",
-    problemsTitle: "Los problemas que ya conoces",
-    problemsDescription: "Puntos ciegos de rotación. Programación a ojo. Gestión reactiva.",
+    badge: "Para RR.HH. y People",
+    titleLine1: "Programa para el turno.",
+    titleLine2: "No para la semana pasada.",
+    description: "Varianza de personal en vivo por local. Riesgo de horas extra detectado antes de que ocurra. Productividad por hora FOH, no por ciclo de nómina.",
+    primaryCta: "Reservar recorrido RR.HH.",
+    secondaryCta: "Ver demo de personal",
+    problemsEyebrow: "DÓNDE SE FUGA EL PRESUPUESTO",
+    problemsTitle: "Dónde se fuga el presupuesto de personal",
+    problemsDescription: "Horarios al instinto, varianza descubierta después de la nómina.",
     challenges: [
-      { title: "Puntos ciegos de la fuerza laboral", description: "Los datos laborales están atrapados en nómina, así que cuesta conectar decisiones de personal con el rendimiento.", icon: "labor" },
-      { title: "Crisis de rotación", description: "Rotación alta pero sin visibilidad clara de qué ubicaciones o roles tienen más problemas de retención.", icon: "decrease" },
-      { title: "Ineficiencia en la programación", description: "Sobrecargar personal daña márgenes y dejar poco personal daña el servicio.", icon: "schedule" },
-      { title: "Cumplimiento y riesgo", description: "La gestión del cumplimiento laboral es manual y reactiva en lugar de proactiva.", icon: "balance" },
+      { title: "Exposición OT invisible hasta la nómina", description: "Cuando ves la línea de horas extra, ya la pagaste.", icon: "balance" },
+      { title: "Horarios basados en los cubiertos pasados", description: "La demanda se movió. El horario no. El % personal deriva.", icon: "operators" },
+      { title: "Productividad reportada, no accionable", description: "La conoces al mes. No por turno, ni por mesero, ni a tiempo para coachear.", icon: "performance" },
+      { title: "Sin alerta sobre ausentismo", description: "El turno malo arranca con un no-show a las 4:15. Te enteras mañana.", icon: "support" },
     ],
-    howTitle: "Cómo cambia esto Sundae",
-    howDescription: "Datos unificados de la fuerza laboral y alertas proactivas.",
+    howTitle: "Cómo trabaja Sundae para RR.HH.",
+    howDescription: "Señal de personal en vivo, prevención de OT, productividad por turno.",
     howSundaeHelps: [
-      { title: "Panel unificado de personal", description: "Sundae Core conecta datos de personal, nómina y rendimiento - rotación, productividad y costes por ubicación en tiempo real.", product: "Sundae Core", icon: "chart" },
-      { title: "Alertas proactivas de rotación", description: "Sundae Core avisa de ubicaciones con rotación al alza, horas extra o riesgos de cumplimiento antes de que se conviertan en crisis.", product: "Sundae Core", icon: "alerts" },
-      { title: "Preguntas de RR. HH. al instante", description: "Pregunta a Sundae qué ubicaciones tienen más rotación o cuál es la antigüedad media por rol y obtén respuestas con números.", product: "Sundae Intelligence", icon: "intelligence" },
-      { title: "Benchmark laboral", description: "Sundae Report compara tus métricas con los estándares del sector y ayuda a fijar objetivos realistas.", product: "Sundae Report", icon: "report" },
+      { title: "% personal en vivo por local", description: "Coste personal hora a hora vs demanda. El local sobrepasado se señala mientras puedes recortar.", product: "Pulse · Labor", icon: "operators" },
+      { title: "Exposición OT antes del impacto", description: "Sundae proyecta la línea OT del resto de la semana — redistribuyes en lugar de absorber.", product: "Insights · Labor", icon: "balance" },
+      { title: "Productividad por hora y por mesero", description: "Cubiertos/hora, ventas/hora, upsell — por mesero, por turno. Coachear con números.", product: "Pulse · Server view", icon: "performance" },
+      { title: "Recomendaciones de horario desde la demanda", description: "Foresight proyecta cubiertos a 14 días — Sundae sugiere el plan de personal correspondiente.", product: "Foresight", icon: "forecasting" },
     ],
-    outcomesTitle: "Qué cambia",
-    outcomesDescription: "Menos rotación. Mejor staffing. Retención proactiva.",
+    outcomesTitle: "Qué cambia para RR.HH.",
+    outcomesDescription: "Horarios más ajustados, menos sorpresas, productividad demostrable.",
     outcomes: [
-      { title: "Reducir la rotación un 20%", description: "Detecta pronto problemas de retención y actúa de forma dirigida.", icon: "decrease" },
-      { title: "Optimizar costes laborales", description: "Equilibra personal y demanda para mejorar márgenes.", icon: "finance" },
-      { title: "Mejorar cumplimiento", description: "La monitorización automática te mantiene al día de cambios y violaciones.", icon: "success" },
-      { title: "Personal basado en datos", description: "Toma decisiones de contratación y turnos basadas en datos reales.", icon: "benchmarking" },
+      { title: "Corta la exposición OT antes del cierre", description: "Redistribuye horas a mitad de semana, no después de la nómina.", icon: "speed" },
+      { title: "% personal más cerca del plan", description: "La varianza pasa del caos mensual a la precisión semanal.", icon: "performance" },
+      { title: "Productividad por mesero comparable", description: "Productividad en vivo por turno para coaching, revisiones, promociones.", icon: "owners" },
+      { title: "Horarios que coinciden con el local", description: "Horarios desde Foresight — no del patrón de la semana pasada.", icon: "support" },
     ],
-    ctaTitle: "¿Listo para reducir la rotación?",
-    ctaDescription: "Ve cómo los equipos de RR. HH. detectan problemas de retención antes.",
-    ctaButton: "Reservar demo de RR. HH.",
+    ctaTitle: "Tu personal en movimiento.",
+    ctaDescription: "30 minutos. Tu horario. La hora extra que habrías atrapado antes de que cayera.",
+    ctaButton: "Reservar recorrido RR.HH.",
   },
 };
 
-export default function HRTeamsPage() {
+export default function HrTeamsPage() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedHrCopy[locale] ?? localizedHrCopy.en;
-
-  return (
-    <div className="min-h-screen bg-[var(--navy-deep)]">
-      <PageHero
-        badge={copy.badge}
-        title={<>
-          {copy.titleLine1}
-          <br />
-          {copy.titleLine2}
-        </>}
-        description={copy.description}
-      >
-        <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <Link href="/demo">
-            <Button variant="primary" size="lg">{copy.primaryCta}</Button>
-          </Link>
-          <a href={REPORT_APP_URL}>
-            <Button variant="outline-light" size="lg">{copy.secondaryCta}</Button>
-          </a>
-        </div>
-      </PageHero>
-
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.problemsTitle}</h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.problemsDescription}</p>
-          </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {copy.challenges.map((challenge, index) => (
-              <StaggerItem key={index}>
-                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                  <CardHeader>
-                    <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <SundaeIcon name={challenge.icon} size="lg" className="text-white" />
-                      </div>
-                      <div>
-                        <CardTitle className="text-[var(--text-primary)] mb-2">{challenge.title}</CardTitle>
-                        <CardDescription className="text-[var(--text-supporting)]">{challenge.description}</CardDescription>
-                      </div>
-                    </div>
-                  </CardHeader>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-        </div>
-      </section>
-
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.howTitle}</h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.howDescription}</p>
-          </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {copy.howSundaeHelps.map((item, index) => (
-              <StaggerItem key={index}>
-                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                  <CardHeader>
-                    <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <SundaeIcon name={item.icon} size="lg" className="text-white" />
-                      </div>
-                      <div>
-                        <div className="text-xs text-[#60A5FA] font-semibold mb-1">{item.product}</div>
-                        <CardTitle className="text-[var(--text-primary)] mb-2">{item.title}</CardTitle>
-                        <CardDescription className="text-[var(--text-supporting)]">{item.description}</CardDescription>
-                      </div>
-                    </div>
-                  </CardHeader>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-        </div>
-      </section>
-
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.outcomesTitle}</h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.outcomesDescription}</p>
-          </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {copy.outcomes.map((outcome, index) => (
-              <StaggerItem key={index}>
-                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                  <CardHeader>
-                    <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <SundaeIcon name={outcome.icon} size="lg" className="text-white" />
-                      </div>
-                      <div>
-                        <CardTitle className="text-[var(--text-primary)] mb-2">{outcome.title}</CardTitle>
-                        <CardDescription className="text-[var(--text-supporting)]">{outcome.description}</CardDescription>
-                      </div>
-                    </div>
-                  </CardHeader>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-        </div>
-      </section>
-
-      <PageCTA title={copy.ctaTitle} description={copy.ctaDescription}>
-        <Link href="/demo">
-          <Button variant="primary" size="lg">{copy.ctaButton}</Button>
-        </Link>
-      </PageCTA>
-    </div>
-  );
+  const copy = localizedCopy[locale] ?? localizedCopy.en;
+  return <SolutionPageLayout copy={copy} mockup={<LaborOpsMockup />} />;
 }

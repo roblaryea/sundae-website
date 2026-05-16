@@ -8,16 +8,18 @@ import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { SIGNUP_URL } from "@/lib/urls";
 import { ElegantShape } from "@/components/ui/ElegantShape";
 import { KPICard } from "@/components/ui/KPICard";
-import {
-  MockupFrame,
-  MockupKPI,
-  MockupPaceBar,
-  MockupTable,
-  MockupAlert,
-  MockupLiveDot,
-} from "@/components/ui/MockupFrame";
+import { MockupFrame } from "@/components/ui/MockupFrame";
 import { FadeUp } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { HeroLiveDashboard } from "./HeroLiveDashboard";
+import { SectionOldWaySundaeWay } from "./sections/SectionOldWaySundaeWay";
+import { SectionSpeedQualityCost } from "./sections/SectionSpeedQualityCost";
+import { SectionWhatYouRetire } from "./sections/SectionWhatYouRetire";
+import { SectionThreeMoats } from "./sections/SectionThreeMoats";
+import { Section4DScene } from "./sections/Section4DScene";
+import { SectionPersonaSwitcher } from "./sections/SectionPersonaSwitcher";
+import { SectionProof } from "./sections/SectionProof";
+import { SectionTrustStrip } from "./sections/SectionTrustStrip";
 
 /* ─── Data ─────────────────────────────────────────────────────── */
 
@@ -29,8 +31,6 @@ export default function HomeContent() {
   const problem = home.problem;
   const platform = home.platform;
   const modules = home.modules;
-  const personas = home.personas;
-  const howItWorks = home.howItWorks;
   const mockup = home.mockup;
   const cta = useCta();
   const painRef = useRef<HTMLDivElement>(null);
@@ -68,9 +68,6 @@ export default function HomeContent() {
     "data",
     "sync",
   ];
-
-  const personaIcons: SundaeIconName[] = ["operators", "finance", "owners", "technology"];
-  const stepIcons: SundaeIconName[] = ["integration", "insights", "aiOs", "growth"];
 
   return (
     <MotionConfig reducedMotion="user">
@@ -182,34 +179,20 @@ export default function HomeContent() {
               transition={{ duration: 1.2, delay: 1.1, ease: [0.25, 0.1, 0.25, 1] }}
             >
               <MockupFrame label={mockup.frameLabel} glow>
-                <div className="space-y-3 sm:space-y-4">
-                  <div className="flex items-center justify-between">
-                    <MockupLiveDot />
-                    <span className="text-[10px] text-[var(--text-muted)] font-mono">{mockup.updatedAt}</span>
-                  </div>
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-                    {mockup.kpis.map((kpi) => (
-                      <MockupKPI
-                        key={kpi.label}
-                        label={kpi.label}
-                        value={kpi.value}
-                        trend={kpi.trend}
-                        trendUp={kpi.trendUp}
-                        color={"color" in kpi ? kpi.color : undefined}
-                      />
-                    ))}
-                  </div>
-                  <MockupPaceBar label={mockup.paceLabel} current={14280} target={18200} unit="$" />
-                  <div className="hidden sm:block">
-                    <MockupTable
-                      headers={[...mockup.tableHeaders]}
-                      rows={mockup.tableRows.map((row) => [...row])}
-                    />
-                  </div>
-                  <MockupAlert type="coach">
-                    {mockup.coachAlert}
-                  </MockupAlert>
-                </div>
+                <HeroLiveDashboard
+                  kpis={mockup.kpis.map((kpi) => ({
+                    label: kpi.label,
+                    value: kpi.value,
+                    trend: kpi.trend,
+                    trendUp: kpi.trendUp,
+                    color: "color" in kpi ? kpi.color : undefined,
+                  }))}
+                  paceLabel={mockup.paceLabel}
+                  tableHeaders={[...mockup.tableHeaders]}
+                  tableRows={mockup.tableRows.map((row) => [...row])}
+                  coachAlert={mockup.coachAlert}
+                  updatedAt={mockup.updatedAt}
+                />
               </MockupFrame>
             </motion.div>
           </motion.div>
@@ -235,11 +218,11 @@ export default function HomeContent() {
         {/* ════════════════════════════════════════════════
             2. THE PROBLEM — Pain KPIs with animated numbers
         ════════════════════════════════════════════════ */}
-        <section ref={painRef} aria-labelledby="problem-heading" className="py-24 px-4 sm:px-6 lg:px-8 relative">
+        <section ref={painRef} aria-labelledby="problem-heading" className="py-20 px-4 sm:px-6 lg:px-8 relative">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,rgba(255,84,80,0.04),transparent_60%)]" />
 
           <div className="max-w-6xl mx-auto relative z-10">
-            <FadeUp className="text-center mb-16">
+            <FadeUp className="text-center mb-14">
               <p className="eyebrow mb-4">{problem.eyebrow}</p>
               <h2 id="problem-heading" className="section-h2 mb-5">
                 {problem.heading}
@@ -265,13 +248,28 @@ export default function HomeContent() {
         </section>
 
         {/* ════════════════════════════════════════════════
+            2b. FROM REPORTING LAG TO OPS SPEED — Old Way vs Sundae Way
+        ════════════════════════════════════════════════ */}
+        <SectionOldWaySundaeWay />
+
+        {/* ════════════════════════════════════════════════
+            2c. THE OLD TRADEOFF IS DEAD — Speed · Quality · Cost
+        ════════════════════════════════════════════════ */}
+        <SectionSpeedQualityCost />
+
+        {/* ════════════════════════════════════════════════
+            2d. WHAT YOU RETIRE — Explicit BI-replacement positioning
+        ════════════════════════════════════════════════ */}
+        <SectionWhatYouRetire />
+
+        {/* ════════════════════════════════════════════════
             3. SIX LAYERS — Platform pillars
         ════════════════════════════════════════════════ */}
-        <section aria-labelledby="platform-heading" className="py-24 px-4 sm:px-6 lg:px-8 relative">
+        <section aria-labelledby="platform-heading" className="py-20 px-4 sm:px-6 lg:px-8 relative">
           <div className="absolute inset-0 bg-mesh" />
 
           <div className="max-w-7xl mx-auto relative z-10">
-            <FadeUp className="text-center mb-20">
+            <FadeUp className="text-center mb-14">
               <p className="eyebrow mb-4">{platform.eyebrow}</p>
               <h2 id="platform-heading" className="section-h2 mb-5">
                 {platform.heading}
@@ -283,13 +281,15 @@ export default function HomeContent() {
 
             {/* Top row: 3 pillars */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-5">
-              {platform.layers.slice(0, 3).map((layer) => (
+              {platform.layers.slice(0, 3).map((layer, i) => (
                 <div key={layer.name}>
                   <LayerCard
                     layer={layer}
                     icon={layerIcons[layer.name]}
                     accent={layerAccents[layer.name]}
                     learnMoreLabel={platform.learnMore}
+                    indexLabel={`0${i + 1}`}
+                    countLabel={platform.countLabel}
                     cta={cta}
                   />
                 </div>
@@ -298,13 +298,15 @@ export default function HomeContent() {
 
             {/* Bottom row: 3 pillars */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-              {platform.layers.slice(3).map((layer) => (
+              {platform.layers.slice(3).map((layer, i) => (
                 <div key={layer.name}>
                   <LayerCard
                     layer={layer}
                     icon={layerIcons[layer.name]}
                     accent={layerAccents[layer.name]}
                     learnMoreLabel={platform.learnMore}
+                    indexLabel={`0${i + 4}`}
+                    countLabel={platform.countLabel}
                     cta={cta}
                   />
                 </div>
@@ -324,13 +326,23 @@ export default function HomeContent() {
         </section>
 
         {/* ════════════════════════════════════════════════
+            3b. BEYOND DASHBOARDS — Three Moats (Pulse / Watchtower / Benchmarks)
+        ════════════════════════════════════════════════ */}
+        <SectionThreeMoats />
+
+        {/* ════════════════════════════════════════════════
+            3c. 4D INTELLIGENCE MODEL — scenario walk-through
+        ════════════════════════════════════════════════ */}
+        <Section4DScene />
+
+        {/* ════════════════════════════════════════════════
             4. MODULE GRID — 12 intelligence domains
         ════════════════════════════════════════════════ */}
-        <section aria-labelledby="modules-heading" className="py-24 px-4 sm:px-6 lg:px-8 relative">
+        <section aria-labelledby="modules-heading" className="py-20 px-4 sm:px-6 lg:px-8 relative">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(28,71,255,0.04),transparent_60%)]" />
 
           <div className="max-w-6xl mx-auto relative z-10">
-            <FadeUp className="text-center mb-16">
+            <FadeUp className="text-center mb-12">
               <p className="eyebrow mb-4">{modules.eyebrow}</p>
               <h2 id="modules-heading" className="section-h2 mb-5">
                 {modules.heading}
@@ -357,87 +369,24 @@ export default function HomeContent() {
         </section>
 
         {/* ════════════════════════════════════════════════
-            5. PERSONA VALUE PROPS
+            5. PERSONA SWITCHER — One Platform. Every Role. (6 personas, tabbed)
         ════════════════════════════════════════════════ */}
-        <section aria-labelledby="personas-heading" className="py-24 px-4 sm:px-6 lg:px-8 relative">
-          <div className="absolute inset-0 bg-mesh" />
-
-          <div className="max-w-6xl mx-auto relative z-10">
-            <FadeUp className="text-center mb-16">
-              <p className="eyebrow mb-4">{personas.eyebrow}</p>
-              <h2 id="personas-heading" className="section-h2 mb-5">
-                {personas.heading}
-              </h2>
-              <p className="body-lg max-w-2xl mx-auto">
-                {personas.description}
-              </p>
-            </FadeUp>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-              {personas.roles.map((persona, index: number) => (
-                <div key={persona.title}>
-                  <div className="h-full p-6 rounded-2xl bg-white/[0.03] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:border-white/[0.12] transition-all duration-300">
-                    <div className="flex items-center gap-4 mb-4">
-                      <div className="w-11 h-11 bg-gradient-to-br from-[#1C47FF] to-[#3B82F6] rounded-xl flex items-center justify-center text-white flex-shrink-0">
-                        <SundaeIcon name={personaIcons[index] || "operators"} size="md" className="text-[var(--text-primary)]" />
-                      </div>
-                      <h3 className="font-semibold text-[var(--text-primary)] text-base">{persona.title}</h3>
-                    </div>
-                    <p className="text-base font-semibold text-[var(--text-secondary)] mb-3 leading-snug italic">
-                      &ldquo;{persona.pain}&rdquo;
-                    </p>
-                    <p className="text-sm text-[var(--text-muted)] leading-relaxed">{persona.outcome}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+        <SectionPersonaSwitcher />
 
         {/* ════════════════════════════════════════════════
-            6. HOW IT WORKS — Four steps
+            6. PROOF — Industry vs Sundae + capability stats
         ════════════════════════════════════════════════ */}
-        <section aria-labelledby="how-heading" className="py-24 px-4 sm:px-6 lg:px-8 relative">
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(28,71,255,0.06),transparent_50%)]" />
+        <SectionProof />
 
-          <div className="max-w-6xl mx-auto relative z-10">
-            <FadeUp className="text-center mb-20">
-              <p className="eyebrow mb-4">{howItWorks.eyebrow}</p>
-              <h2 id="how-heading" className="section-h2 mb-5">
-                {howItWorks.heading}
-              </h2>
-            </FadeUp>
-
-            <div className="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {/* Connecting line */}
-              <div className="hidden lg:block absolute top-[52px] left-[calc(12.5%+28px)] right-[calc(12.5%+28px)] h-px bg-gradient-to-r from-white/[0.06] via-[rgba(28,71,255,0.3)] to-white/[0.06] z-0" />
-
-              {howItWorks.steps.map((step, index: number) => (
-                <motion.div
-                  key={step.step}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
-                  viewport={{ once: true, margin: "-80px" }}
-                >
-                  <div className="text-center">
-                    <div className="relative z-10 inline-flex w-12 h-12 bg-gradient-to-br from-[#1C47FF] to-[#3B82F6] rounded-xl items-center justify-center text-white mb-5 shadow-[0_0_20px_rgba(28,71,255,0.3)]">
-                      <SundaeIcon name={stepIcons[index] || "insights"} size="md" className="text-[var(--text-primary)]" />
-                    </div>
-                    <div className="text-xs font-mono text-[var(--text-muted)] mb-2 tracking-wider">{step.step}</div>
-                    <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-3">{step.title}</h3>
-                    <p className="text-sm text-[var(--text-muted)] leading-relaxed">{step.description}</p>
-                  </div>
-                </motion.div>
-              ))}
-            </div>
-          </div>
-        </section>
+        {/* ════════════════════════════════════════════════
+            6b. TRUST STRIP — Enterprise-grade signal before CTA
+        ════════════════════════════════════════════════ */}
+        <SectionTrustStrip />
 
         {/* ════════════════════════════════════════════════
             7. CLOSING CTA
         ════════════════════════════════════════════════ */}
-        <section className="relative py-24 px-4 sm:px-6 lg:px-8 overflow-hidden bg-grad-deep">
+        <section className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden bg-grad-deep">
           <div className="absolute inset-0 bg-grid-texture" />
 
           <ElegantShape delay={0} width={400} height={100} rotate={-12} gradient="from-white/[0.03]" className="left-[-8%] top-[20%]" />
@@ -479,11 +428,13 @@ export default function HomeContent() {
 
 /* ─── Layer Card Component ────────────────────────────────────── */
 
-function LayerCard({ layer, icon, accent, learnMoreLabel, cta }: {
+function LayerCard({ layer, icon, accent, learnMoreLabel, indexLabel, countLabel, cta }: {
   layer: { name: string; subtitle: string; description: string; href: string };
   icon: SundaeIconName;
   accent: string;
   learnMoreLabel: string;
+  indexLabel: string;
+  countLabel: string;
   cta: ReturnType<typeof useCta>;
 }) {
   return (
@@ -494,8 +445,14 @@ function LayerCard({ layer, icon, accent, learnMoreLabel, cta }: {
       onClick={() => cta(layer.href, `view_${layer.name.toLowerCase().replace(/\s+/g, "_")}`, { page: "/home", section: "platform" })}
       onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); cta(layer.href, `view_${layer.name.toLowerCase().replace(/\s+/g, "_")}`, { page: "/home", section: "platform" }); } }}
     >
-      <div className="h-full p-6 rounded-2xl bg-white/[0.03] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:border-[rgba(28,71,255,0.25)] transition-all duration-300 hover:shadow-[0_0_30px_rgba(28,71,255,0.08)]">
-        <div className="flex items-center gap-3 mb-4">
+      <div className="relative h-full p-6 rounded-2xl bg-white/[0.03] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:border-[rgba(28,71,255,0.25)] transition-all duration-300 hover:shadow-[0_0_30px_rgba(28,71,255,0.08)]">
+        {/* Layer count indicator — top right */}
+        <div className="absolute top-4 right-5 text-[10px] font-mono tracking-wider text-[var(--text-muted)]/70">
+          <span className="text-[var(--text-secondary)]">{indexLabel}</span>
+          <span className="opacity-50"> {countLabel}</span>
+        </div>
+
+        <div className="flex items-center gap-3 mb-4 pr-12">
           <div className={`w-10 h-10 bg-gradient-to-br ${accent} rounded-xl flex items-center justify-center text-white flex-shrink-0 shadow-lg`}>
             <SundaeIcon name={icon} size="sm" className="text-[var(--text-primary)]" />
           </div>

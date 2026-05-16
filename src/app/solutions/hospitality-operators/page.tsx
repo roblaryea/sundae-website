@@ -1,336 +1,158 @@
 "use client";
 
-import Link from "next/link";
-import { REPORT_APP_URL } from "@/lib/urls";
-import { Button } from "@/components/ui/Button";
-import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/Card";
-import { SundaeIcon, type SundaeIconName } from "@/components/icons";
-import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
+import { PulseDashboardMockup } from "@/components/ui/MockupFrame";
+import { SolutionPageLayout, type SolutionCopy } from "@/components/solutions/SolutionPageLayout";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import { type WebsiteLocale } from "@/lib/i18n";
 
-type SolutionCard = { title: string; description: string; icon: SundaeIconName };
-
-type HospitalityCopy = {
-  hero: {
-    badge: string;
-    title: [string, string];
-    description: string;
-    primaryCta: string;
-    secondaryCta: string;
-  };
-  problems: { heading: string; description: string; items: SolutionCard[] };
-  solutions: { heading: string; description: string; items: Array<SolutionCard & { product: string }> };
-  outcomes: { heading: string; description: string; items: SolutionCard[] };
-  cta: { title: string; description: string; button: string };
-};
-
-const localizedCopy: Record<WebsiteLocale, HospitalityCopy> = {
+const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
   en: {
-    hero: {
-      badge: "Hospitality Operators",
-      title: ["Every Touchpoint.", "One Platform."],
-      description:
-        "Restaurants, banquets, room service, catering — unified. Optimize every guest experience with one intelligence platform.",
-      primaryCta: "See How Sundae Helps Hospitality",
-      secondaryCta: "Get F&B Benchmark Report",
-    },
-    problems: {
-      heading: "The Problems You Know",
-      description: "Multi-concept complexity. Seasonal swings. Disconnected systems.",
-      items: [
-        { title: "Complex Multi-Concept Operations", description: "Managing restaurants, bars, hotels, and catering under one roof with different metrics and KPIs for each.", icon: "multiLocation" },
-        { title: "Seasonality & Demand Fluctuations", description: "Revenue swings based on tourism, events, and seasons make forecasting and staffing difficult.", icon: "benchmarking" },
-        { title: "Guest Experience Consistency", description: "Maintaining service quality across multiple touchpoints - dining, room service, events, and more.", icon: "success" },
-        { title: "Integrated F&B and Rooms Operations", description: "Coordinating between restaurant operations, banquets, and hotel services without unified visibility.", icon: "integration" },
-      ],
-    },
-    solutions: {
-      heading: "How Sundae Changes That",
-      description: "Unified F&B and rooms visibility. Demand-intelligent staffing.",
-      items: [
-        { title: "Unified Hospitality Dashboard", description: "Sundae Core consolidates F&B, rooms, events, and catering into one real-time view. Pulse monitors every shift with adaptive targets, labor productivity tracking, and server performance.", product: "Sundae Core + Pulse", icon: "chart" },
-        { title: "Event & Calendar Intelligence", description: "Watchtower discovers local events, public holidays, and religious observances, including Ramadan-aware planning for MENA operations, with staffing and prep recommendations tailored to each property.", product: "Watchtower (Core tier)", icon: "watchtower" },
-        { title: "Competitive & Market Context", description: "Track named competitors via Google Places, monitor rating trends, and get daily briefings that combine internal performance with weather forecasts, competitor activity, and market signals.", product: "Watchtower (Core tier)", icon: "balance" },
-        { title: "Hospitality Benchmarking", description: "Sundae Report compares your F&B and hospitality metrics against similar properties and market leaders, with auto-generated analysis and recommendations.", product: "Sundae Report", icon: "report" },
-      ],
-    },
-    outcomes: {
-      heading: "What Changes",
-      description: "Better forecasting. Higher margins. Consistent guest experience.",
-      items: [
-        { title: "Better demand forecasting", description: "Predict high-demand periods and optimize staffing and inventory accordingly.", icon: "forecasting" },
-        { title: "10-15% improvement in F&B margins", description: "Reduce waste and optimize pricing across restaurant, banquet, and room service.", icon: "finance" },
-        { title: "Enhanced guest experience", description: "Ensure consistent service quality across all touchpoints with real-time visibility.", icon: "performance" },
-        { title: "Unified multi-property view", description: "Manage multiple hotels or resorts from one intelligence platform.", icon: "multiLocation" },
-      ],
-    },
-    cta: {
-      title: "Ready to Unify Your Operations?",
-      description: "See how hospitality groups optimize every guest touchpoint.",
-      button: "Book a Hospitality Demo",
-    },
+    badge: "For Hospitality Operators",
+    titleLine1: "One intelligence layer.",
+    titleLine2: "Every F&B outlet.",
+    description: "Hotel restaurants, banquet, IRD, lobby bar — unified live view across every revenue outlet. Margin, mix, and labor in one frame.",
+    primaryCta: "Book a Hospitality Walk-through",
+    secondaryCta: "See Hospitality Demo",
+    problemsEyebrow: "F&B INSIDE HOSPITALITY",
+    problemsTitle: "What F&B leaders face inside hospitality",
+    problemsDescription: "Many outlets, mixed PMS/POS stacks, no unified P&L view.",
+    challenges: [
+      { title: "Outlets reported separately, judged together", description: "F&B P&L rolls up to a single line. The story behind it — banquet vs IRD vs lobby — gets lost.", icon: "operators" },
+      { title: "Banquet revenue lives off-system", description: "BEOs in one tool, POS in another, F&B GM tracking margin in a spreadsheet.", icon: "integration" },
+      { title: "Labor shared across outlets", description: "One cook supports two outlets. Cost allocation is approximate. Productivity stays opaque.", icon: "balance" },
+      { title: "Guest journey crosses outlets", description: "A loyal guest dines at the restaurant, drinks in the lobby, orders IRD. No system sees all three.", icon: "support" },
+    ],
+    howTitle: "How Sundae works for hospitality F&B",
+    howDescription: "Unified live view across every outlet, every channel, every revenue source.",
+    howSundaeHelps: [
+      { title: "Outlet-by-outlet pacing, rolled to one F&B view", description: "Live revenue and margin for each outlet — restaurant, banquet, IRD, lobby bar, retail — with a unified portfolio rollup.", product: "Pulse", icon: "chart" },
+      { title: "Banquet + BEO connected", description: "Banquet revenue, IRD orders, and restaurant POS unified into one ledger. F&B GM stops reconciling, starts steering.", product: "Sundae Core", icon: "integration" },
+      { title: "Labor productivity per outlet", description: "Allocated and direct labor by outlet, with covers per FOH hour and productivity comparisons across the property.", product: "Pulse · Labor", icon: "balance" },
+      { title: "Guest CRM across outlets", description: "Stitch the loyal guest's spend across restaurant, bar, IRD, and banquet. One guest record, not five.", product: "Guest CRM Intelligence", icon: "support" },
+    ],
+    outcomesTitle: "What changes for F&B leadership",
+    outcomesDescription: "Outlet-level clarity, property-level decisions.",
+    outcomes: [
+      { title: "Steer F&B at outlet granularity", description: "Restaurant slipping? Lobby bar over plan? You see it by outlet, in the shift.", icon: "speed" },
+      { title: "Banquet stops being a black box", description: "BEO revenue, food cost variance, and labor on the same dashboard as the restaurant.", icon: "owners" },
+      { title: "Productivity comparable across outlets", description: "Allocated labor done right — covers/hour comparable for an honest performance read.", icon: "performance" },
+      { title: "Guest LTV across every outlet", description: "Loyalty programs that reward across F&B, not just per outlet. Guests notice. Repeat rate moves.", icon: "support" },
+    ],
+    ctaTitle: "See every F&B outlet in one view.",
+    ctaDescription: "30 minutes. Your property. The outlet you would have prioritized differently.",
+    ctaButton: "Book a Hospitality Walk-through",
   },
   ar: {
-    hero: {
-      badge: "مشغلو الضيافة",
-      title: ["كل نقطة تفاعل.", "منصة واحدة."],
-      description:
-        "المطاعم والحفلات وخدمة الغرف والتموين - كلها موحّدة. حسّن كل تجربة ضيف عبر منصة ذكاء واحدة.",
-      primaryCta: "شاهد كيف تساعد Sundae قطاع الضيافة",
-      secondaryCta: "احصل على تقرير معيارية الأغذية والمشروبات",
-    },
-    problems: {
-      heading: "المشكلات التي تعرفها",
-      description: "تعقيد المفاهيم المتعددة. تقلبات موسمية. أنظمة غير مترابطة.",
-      items: [
-        { title: "عمليات معقدة متعددة المفاهيم", description: "إدارة المطاعم والبارات والفنادق والتموين تحت سقف واحد مع مقاييس ومؤشرات مختلفة لكل منها.", icon: "multiLocation" },
-        { title: "موسمية وتقلبات في الطلب", description: "تغير الإيرادات بسبب السياحة والفعاليات والفصول يجعل التنبؤ والتوظيف صعباً.", icon: "benchmarking" },
-        { title: "اتساق تجربة الضيف", description: "الحفاظ على جودة الخدمة عبر نقاط تفاعل متعددة - المطعم وخدمة الغرف والفعاليات وغيرها.", icon: "success" },
-        { title: "عمليات الأغذية والمشروبات والغرف المدمجة", description: "تنسيق العمليات بين المطاعم والحفلات وخدمات الفندق من دون رؤية موحدة.", icon: "integration" },
-      ],
-    },
-    solutions: {
-      heading: "كيف تغيّر Sundae ذلك",
-      description: "رؤية موحّدة للأغذية والمشروبات والغرف. توظيف ذكي وفق الطلب.",
-      items: [
-        { title: "لوحة ضيافة موحّدة", description: "يجمع Sundae Core الأغذية والمشروبات والغرف والفعاليات والتموين في عرض لحظي واحد. يراقب Pulse كل وردية بأهداف متكيفة وتتبع إنتاجية العمالة وأداء الموظفين.", product: "Sundae Core + Pulse", icon: "chart" },
-        { title: "ذكاء الفعاليات والتقويم", description: "يكتشف Watchtower الفعاليات المحلية والعطل الرسمية والمناسبات الدينية، بما في ذلك التخطيط الواعي لرمضان في عمليات منطقة الشرق الأوسط وشمال أفريقيا، مع توصيات مخصصة لكل منشأة.", product: "Watchtower (Core tier)", icon: "watchtower" },
-        { title: "السياق التنافسي والسوقي", description: "تتبّع المنافسين المحددين عبر Google Places، وراقب اتجاهات التقييم، واحصل على موجزات يومية تجمع الأداء الداخلي مع الطقس ونشاط المنافسين وإشارات السوق.", product: "Watchtower (Core tier)", icon: "balance" },
-        { title: "معيارية الضيافة", description: "يقارن Sundae Report مقاييس الأغذية والمشروبات والضيافة لديك مع المنشآت المماثلة وقادة السوق مع تحليل وتوصيات تلقائية.", product: "Sundae Report", icon: "report" },
-      ],
-    },
-    outcomes: {
-      heading: "ما الذي يتغير",
-      description: "تنبؤ أفضل. هوامش أعلى. تجربة ضيف متسقة.",
-      items: [
-        { title: "تنبؤ أفضل بالطلب", description: "توقع فترات الذروة وحسّن التوظيف والمخزون وفقاً لذلك.", icon: "forecasting" },
-        { title: "تحسن 10-15% في هوامش الأغذية والمشروبات", description: "قلل الهدر وحسّن التسعير عبر المطعم والحفلات وخدمة الغرف.", icon: "finance" },
-        { title: "تجربة ضيف أفضل", description: "ضمن جودة خدمة متسقة عبر جميع نقاط التفاعل مع رؤية لحظية.", icon: "performance" },
-        { title: "رؤية موحدة متعددة المنشآت", description: "أدر عدة فنادق أو منتجعات من منصة ذكاء واحدة.", icon: "multiLocation" },
-      ],
-    },
-    cta: {
-      title: "هل أنت مستعد لتوحيد عملياتك؟",
-      description: "شاهد كيف تحسّن مجموعات الضيافة كل نقطة تفاعل مع الضيف.",
-      button: "احجز عرض ضيافة",
-    },
+    badge: "لمشغّلي الضيافة",
+    titleLine1: "طبقة ذكاء واحدة.",
+    titleLine2: "كل منفذ مأكولات ومشروبات.",
+    description: "مطاعم الفنادق، البانكيت، خدمة الغرف، بار اللوبي — عرض حي موحد عبر كل منفذ إيرادات.",
+    primaryCta: "احجز جولة الضيافة",
+    secondaryCta: "شاهد عرض الضيافة",
+    problemsEyebrow: "F&B داخل الضيافة",
+    problemsTitle: "ما يواجهه قادة F&B داخل الضيافة",
+    problemsDescription: "منافذ كثيرة، أنظمة PMS/POS مختلطة، لا عرض P&L موحد.",
+    challenges: [
+      { title: "منافذ تُبلَّغ منفصلة وتُحكَم مجتمعة", description: "P&L F&B يلتف إلى سطر واحد. القصة خلفه تضيع.", icon: "operators" },
+      { title: "إيرادات البانكيت خارج النظام", description: "BEOs في أداة، POS في أخرى، مدير F&B يتتبع الهامش في جدول.", icon: "integration" },
+      { title: "عمالة مشتركة بين المنافذ", description: "طاهٍ يدعم منفذين. تخصيص التكلفة تقريبي. الإنتاجية تبقى غامضة.", icon: "balance" },
+      { title: "رحلة الضيف تعبر المنافذ", description: "ضيف مخلص يتناول الطعام، يشرب في اللوبي، يطلب خدمة غرف. لا نظام يرى الثلاثة.", icon: "support" },
+    ],
+    howTitle: "كيف يعمل Sundae لـ F&B في الضيافة",
+    howDescription: "عرض حي موحد عبر كل منفذ وكل قناة وكل مصدر إيرادات.",
+    howSundaeHelps: [
+      { title: "وتيرة منفذ بمنفذ، تتجمع في عرض F&B واحد", description: "إيرادات وهامش حية لكل منفذ — مع تجميع محفظة موحد.", product: "Pulse", icon: "chart" },
+      { title: "البانكيت + BEO متصلان", description: "إيرادات البانكيت وطلبات خدمة الغرف وPOS المطعم موحدة في دفتر واحد.", product: "Sundae Core", icon: "integration" },
+      { title: "إنتاجية العمالة لكل منفذ", description: "عمالة مخصصة ومباشرة لكل منفذ، مع مقارنات إنتاجية عبر العقار.", product: "Pulse · Labor", icon: "balance" },
+      { title: "CRM ضيف عبر المنافذ", description: "اربط إنفاق الضيف المخلص عبر المطعم والبار وخدمة الغرف والبانكيت. سجل ضيف واحد لا خمسة.", product: "Guest CRM Intelligence", icon: "support" },
+    ],
+    outcomesTitle: "ما يتغير لقيادة F&B",
+    outcomesDescription: "وضوح على مستوى المنفذ، قرارات على مستوى العقار.",
+    outcomes: [
+      { title: "وجّه F&B بدقة المنفذ", description: "مطعم ينزلق؟ بار اللوبي متجاوز الخطة؟ تراه بالمنفذ في الوردية.", icon: "speed" },
+      { title: "البانكيت يتوقف عن كونه صندوق أسود", description: "إيرادات BEO وتباين تكلفة الطعام والعمالة على نفس اللوحة.", icon: "owners" },
+      { title: "إنتاجية قابلة للمقارنة عبر المنافذ", description: "عمالة مخصصة بشكل صحيح — ضيوف/ساعة قابلة للمقارنة.", icon: "performance" },
+      { title: "قيمة الضيف عبر كل منفذ", description: "برامج ولاء تكافئ عبر F&B لا فقط لكل منفذ. الضيوف يلاحظون.", icon: "support" },
+    ],
+    ctaTitle: "شاهد كل منفذ F&B في عرض واحد.",
+    ctaDescription: "30 دقيقة. عقارك. المنفذ الذي كنت ستعطيه أولوية مختلفة.",
+    ctaButton: "احجز جولة الضيافة",
   },
   fr: {
-    hero: {
-      badge: "Opérateurs hôteliers",
-      title: ["Chaque point de contact.", "Une seule plateforme."],
-      description:
-        "Restaurants, banquets, room service, catering - unifiés. Optimisez chaque expérience client avec une seule plateforme d'intelligence.",
-      primaryCta: "Voir comment Sundae aide l'hôtellerie",
-      secondaryCta: "Obtenir le benchmark F&B",
-    },
-    problems: {
-      heading: "Les problèmes que vous connaissez",
-      description: "Complexité multi-concepts. Variations saisonnières. Systèmes déconnectés.",
-      items: [
-        { title: "Opérations multi-concepts complexes", description: "Gérer restaurants, bars, hôtels et catering sous un même toit avec des métriques différentes pour chacun.", icon: "multiLocation" },
-        { title: "Saisonnalité et variations de demande", description: "Les fluctuations de revenu liées au tourisme, aux événements et aux saisons compliquent les prévisions et le staffing.", icon: "benchmarking" },
-        { title: "Cohérence de l'expérience client", description: "Maintenir la qualité de service sur de multiples points de contact - salle, room service, événements, etc.", icon: "success" },
-        { title: "Opérations F&B et chambres intégrées", description: "Coordonner la restauration, les banquets et les services hôteliers sans visibilité unifiée.", icon: "integration" },
-      ],
-    },
-    solutions: {
-      heading: "Comment Sundae change la donne",
-      description: "Visibilité unifiée F&B et chambres. Staffing piloté par la demande.",
-      items: [
-        { title: "Tableau de bord hôtelier unifié", description: "Sundae Core consolide F&B, chambres, événements et catering dans une vue temps réel. Pulse surveille chaque service avec des objectifs adaptatifs, la productivité et la performance du personnel.", product: "Sundae Core + Pulse", icon: "chart" },
-        { title: "Intelligence événements et calendrier", description: "Watchtower détecte les événements locaux, jours fériés et observances religieuses, y compris une planification attentive au Ramadan pour les opérations MENA, avec des recommandations adaptées à chaque propriété.", product: "Watchtower (Core tier)", icon: "watchtower" },
-        { title: "Contexte concurrentiel et marché", description: "Suivez les concurrents via Google Places, surveillez les tendances de notation et recevez des briefings quotidiens combinant performance interne, météo, activité concurrentielle et signaux de marché.", product: "Watchtower (Core tier)", icon: "balance" },
-        { title: "Benchmarking hôtelier", description: "Sundae Report compare vos métriques F&B et hôtelières à celles de propriétés similaires et de leaders du marché, avec analyses et recommandations automatiques.", product: "Sundae Report", icon: "report" },
-      ],
-    },
-    outcomes: {
-      heading: "Ce qui change",
-      description: "Meilleures prévisions. Marges plus élevées. Expérience client constante.",
-      items: [
-        { title: "Meilleure prévision de la demande", description: "Anticipez les périodes de forte demande et optimisez staffing et stock.", icon: "forecasting" },
-        { title: "Amélioration de 10-15 % des marges F&B", description: "Réduisez le gaspillage et optimisez les prix sur restaurant, banquet et room service.", icon: "finance" },
-        { title: "Expérience client améliorée", description: "Assurez une qualité de service constante sur tous les points de contact avec visibilité temps réel.", icon: "performance" },
-        { title: "Vue unifiée multi-propriétés", description: "Gérez plusieurs hôtels ou resorts depuis une seule plateforme d'intelligence.", icon: "multiLocation" },
-      ],
-    },
-    cta: {
-      title: "Prêt à unifier vos opérations ?",
-      description: "Voyez comment les groupes hôteliers optimisent chaque point de contact client.",
-      button: "Réserver une démo hôtelière",
-    },
+    badge: "Pour opérateurs hôtellerie",
+    titleLine1: "Une couche d'intelligence.",
+    titleLine2: "Chaque point F&B.",
+    description: "Restaurants, banqueting, room service, bar lobby — vue live unifiée sur chaque point de revenu. Marge, mix, main-d'œuvre dans un seul cadre.",
+    primaryCta: "Réserver une visite hôtellerie",
+    secondaryCta: "Voir la démo hôtellerie",
+    problemsEyebrow: "F&B DANS L'HÔTELLERIE",
+    problemsTitle: "Ce que vivent les responsables F&B en hôtellerie",
+    problemsDescription: "Beaucoup de points, stacks PMS/POS mélangés, pas de vue P&L unifiée.",
+    challenges: [
+      { title: "Points reportés séparément, jugés ensemble", description: "Le P&L F&B remonte sur une ligne. L'histoire derrière se perd.", icon: "operators" },
+      { title: "Le banqueting vit hors-système", description: "BEOs dans un outil, POS dans un autre, GM F&B suit la marge dans un tableur.", icon: "integration" },
+      { title: "Main-d'œuvre partagée entre points", description: "Un cuisinier soutient deux points. Allocation approximative. Productivité opaque.", icon: "balance" },
+      { title: "Le parcours client traverse les points", description: "Un client fidèle dîne au restaurant, boit au lobby, commande au room service. Aucun système ne voit les trois.", icon: "support" },
+    ],
+    howTitle: "Comment Sundae sert le F&B hôtelier",
+    howDescription: "Vue live unifiée sur chaque point, chaque canal, chaque source de revenu.",
+    howSundaeHelps: [
+      { title: "Rythme point par point, vue F&B unifiée", description: "Revenu et marge live pour chaque point — restaurant, banqueting, room service, lobby — avec rollup portefeuille.", product: "Pulse", icon: "chart" },
+      { title: "Banqueting + BEO connectés", description: "Revenu banqueting, commandes room service, POS restaurant unifiés dans un livre.", product: "Sundae Core", icon: "integration" },
+      { title: "Productivité main-d'œuvre par point", description: "Main-d'œuvre allouée et directe par point, couverts par heure FOH comparables.", product: "Pulse · Labor", icon: "balance" },
+      { title: "CRM client entre points", description: "Réconciliez la dépense du client fidèle entre restaurant, bar, room service, banqueting. Un dossier client, pas cinq.", product: "Guest CRM Intelligence", icon: "support" },
+    ],
+    outcomesTitle: "Ce qui change pour le F&B",
+    outcomesDescription: "Clarté point par point, décisions à l'échelle de la propriété.",
+    outcomes: [
+      { title: "Pilotez F&B à la granularité point", description: "Restaurant qui décroche ? Lobby au-dessus du plan ? Vous le voyez par point, dans le service.", icon: "speed" },
+      { title: "Le banqueting cesse d'être une boîte noire", description: "Revenu BEO, variance coût matière, main-d'œuvre sur le même dashboard que le restaurant.", icon: "owners" },
+      { title: "Productivité comparable entre points", description: "Main-d'œuvre allouée correctement — couverts/h comparables pour une lecture honnête.", icon: "performance" },
+      { title: "LTV client sur chaque point", description: "Loyalty qui récompense sur tout le F&B, pas par point. Les clients le remarquent.", icon: "support" },
+    ],
+    ctaTitle: "Chaque point F&B en une vue.",
+    ctaDescription: "30 minutes. Votre propriété. Le point que vous auriez priorisé autrement.",
+    ctaButton: "Réserver une visite hôtellerie",
   },
   es: {
-    hero: {
-      badge: "Operadores de hospitalidad",
-      title: ["Cada punto de contacto.", "Una sola plataforma."],
-      description:
-        "Restaurantes, banquetes, room service, catering: todo unificado. Optimiza cada experiencia del huésped con una sola plataforma de inteligencia.",
-      primaryCta: "Ver cómo Sundae ayuda a la hospitalidad",
-      secondaryCta: "Obtener benchmark F&B",
-    },
-    problems: {
-      heading: "Los problemas que conoces",
-      description: "Complejidad multiconcepto. Cambios estacionales. Sistemas desconectados.",
-      items: [
-        { title: "Operaciones complejas de múltiples conceptos", description: "Gestionar restaurantes, bares, hoteles y catering bajo un mismo techo con métricas distintas para cada uno.", icon: "multiLocation" },
-        { title: "Estacionalidad y fluctuaciones de demanda", description: "Los cambios de ingresos por turismo, eventos y temporadas complican el pronóstico y la dotación.", icon: "benchmarking" },
-        { title: "Consistencia de la experiencia del huésped", description: "Mantener la calidad de servicio en múltiples puntos de contacto: restaurante, room service, eventos y más.", icon: "success" },
-        { title: "Operaciones integradas de F&B y habitaciones", description: "Coordinar operaciones de restaurante, banquetes y servicios hoteleros sin visibilidad unificada.", icon: "integration" },
-      ],
-    },
-    solutions: {
-      heading: "Cómo lo cambia Sundae",
-      description: "Visibilidad unificada de F&B y habitaciones. Dotación inteligente según la demanda.",
-      items: [
-        { title: "Panel unificado de hospitalidad", description: "Sundae Core consolida F&B, habitaciones, eventos y catering en una sola vista en tiempo real. Pulse monitorea cada turno con objetivos adaptativos, productividad laboral y rendimiento del personal.", product: "Sundae Core + Pulse", icon: "chart" },
-        { title: "Inteligencia de eventos y calendario", description: "Watchtower detecta eventos locales, feriados públicos y observancias religiosas, incluida la planificación consciente de Ramadán para operaciones MENA, con recomendaciones para cada propiedad.", product: "Watchtower (Core tier)", icon: "watchtower" },
-        { title: "Contexto competitivo y de mercado", description: "Sigue a competidores mediante Google Places, monitorea tendencias de calificación y recibe resúmenes diarios que combinan rendimiento interno, clima, actividad de competidores y señales de mercado.", product: "Watchtower (Core tier)", icon: "balance" },
-        { title: "Benchmarking de hospitalidad", description: "Sundae Report compara tus métricas F&B y de hospitalidad con propiedades similares y líderes del mercado, con análisis y recomendaciones automáticas.", product: "Sundae Report", icon: "report" },
-      ],
-    },
-    outcomes: {
-      heading: "Qué cambia",
-      description: "Mejor pronóstico. Mayores márgenes. Experiencia consistente del huésped.",
-      items: [
-        { title: "Mejor pronóstico de la demanda", description: "Predice periodos de alta demanda y optimiza dotación e inventario.", icon: "forecasting" },
-        { title: "Mejora del 10-15% en márgenes F&B", description: "Reduce desperdicio y optimiza precios en restaurante, banquetes y room service.", icon: "finance" },
-        { title: "Experiencia del huésped mejorada", description: "Asegura calidad de servicio constante con visibilidad en tiempo real.", icon: "performance" },
-        { title: "Vista unificada de múltiples propiedades", description: "Gestiona varios hoteles o resorts desde una sola plataforma de inteligencia.", icon: "multiLocation" },
-      ],
-    },
-    cta: {
-      title: "¿Listo para unificar tus operaciones?",
-      description: "Mira cómo los grupos de hospitalidad optimizan cada punto de contacto del huésped.",
-      button: "Reservar demo de hospitalidad",
-    },
+    badge: "Para operadores de hospitalidad",
+    titleLine1: "Una capa de inteligencia.",
+    titleLine2: "Cada punto de A&B.",
+    description: "Restaurantes, banquetes, room service, bar lobby — vista en vivo unificada en cada punto de ingreso. Margen, mix, personal en un solo marco.",
+    primaryCta: "Reservar recorrido hospitalidad",
+    secondaryCta: "Ver demo hospitalidad",
+    problemsEyebrow: "A&B DENTRO DE HOSPITALIDAD",
+    problemsTitle: "Lo que enfrentan los líderes A&B en hospitalidad",
+    problemsDescription: "Muchos puntos, stacks PMS/POS mixtos, sin vista P&L unificada.",
+    challenges: [
+      { title: "Puntos reportados separados, juzgados juntos", description: "El P&L A&B sube a una línea. La historia detrás se pierde.", icon: "operators" },
+      { title: "Banquetes vive fuera de sistema", description: "BEOs en una herramienta, POS en otra, GM A&B sigue el margen en una hoja.", icon: "integration" },
+      { title: "Personal compartido entre puntos", description: "Un cocinero apoya dos puntos. Asignación aproximada. Productividad opaca.", icon: "balance" },
+      { title: "El recorrido del huésped cruza puntos", description: "Un huésped fiel cena en restaurante, bebe en lobby, pide room service. Ningún sistema ve los tres.", icon: "support" },
+    ],
+    howTitle: "Cómo trabaja Sundae para A&B hospitalidad",
+    howDescription: "Vista en vivo unificada en cada punto, cada canal, cada fuente de ingreso.",
+    howSundaeHelps: [
+      { title: "Ritmo punto a punto, vista A&B unificada", description: "Ingreso y margen en vivo por punto — restaurante, banquetes, room service, lobby — con rollup de portafolio.", product: "Pulse", icon: "chart" },
+      { title: "Banquetes + BEO conectados", description: "Ingresos banquetes, room service, POS restaurante unificados en un libro.", product: "Sundae Core", icon: "integration" },
+      { title: "Productividad de personal por punto", description: "Personal asignado y directo por punto, cubiertos por hora FOH comparables.", product: "Pulse · Labor", icon: "balance" },
+      { title: "CRM de huésped entre puntos", description: "Une el gasto del huésped fiel entre restaurante, bar, room service, banquetes. Un registro, no cinco.", product: "Guest CRM Intelligence", icon: "support" },
+    ],
+    outcomesTitle: "Qué cambia para liderazgo A&B",
+    outcomesDescription: "Claridad por punto, decisiones a nivel de propiedad.",
+    outcomes: [
+      { title: "Dirige A&B con granularidad de punto", description: "¿Restaurante deslizándose? ¿Lobby por encima del plan? Lo ves por punto, en el turno.", icon: "speed" },
+      { title: "Banquetes deja de ser caja negra", description: "Ingreso BEO, varianza coste alimentos, personal en el mismo panel que el restaurante.", icon: "owners" },
+      { title: "Productividad comparable entre puntos", description: "Personal asignado correctamente — cubiertos/hora comparables para una lectura honesta.", icon: "performance" },
+      { title: "LTV de huésped en cada punto", description: "Lealtad que premia en todo A&B, no por punto. Los huéspedes lo notan.", icon: "support" },
+    ],
+    ctaTitle: "Cada punto A&B en una vista.",
+    ctaDescription: "30 minutos. Tu propiedad. El punto que habrías priorizado distinto.",
+    ctaButton: "Reservar recorrido hospitalidad",
   },
 };
 
 export default function HospitalityOperatorsPage() {
   const { locale } = useWebsiteI18n();
   const copy = localizedCopy[locale] ?? localizedCopy.en;
-
-  return (
-    <div className="min-h-screen bg-[var(--navy-deep)]">
-      <PageHero
-        badge={copy.hero.badge}
-        title={
-          <>
-            {copy.hero.title[0]}
-            <br />
-            {copy.hero.title[1]}
-          </>
-        }
-        description={copy.hero.description}
-      >
-        <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <Link href="/demo">
-            <Button variant="primary" size="lg">
-              {copy.hero.primaryCta}
-            </Button>
-          </Link>
-          <a href={REPORT_APP_URL}>
-            <Button variant="outline-light" size="lg">
-              {copy.hero.secondaryCta}
-            </Button>
-          </a>
-        </div>
-      </PageHero>
-
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.problems.heading}</h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.problems.description}</p>
-          </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {copy.problems.items.map((challenge, index) => (
-              <StaggerItem key={index}>
-                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                  <CardHeader>
-                    <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <SundaeIcon name={challenge.icon} size="lg" className="text-white" />
-                      </div>
-                      <div>
-                        <CardTitle className="text-[var(--text-primary)] mb-2">{challenge.title}</CardTitle>
-                        <CardDescription className="text-[var(--text-supporting)]">{challenge.description}</CardDescription>
-                      </div>
-                    </div>
-                  </CardHeader>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-        </div>
-      </section>
-
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.solutions.heading}</h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.solutions.description}</p>
-          </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {copy.solutions.items.map((item, index) => (
-              <StaggerItem key={index}>
-                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                  <CardHeader>
-                    <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <SundaeIcon name={item.icon} size="lg" className="text-white" />
-                      </div>
-                      <div>
-                        <div className="text-xs text-[#60A5FA] font-semibold mb-1">{item.product}</div>
-                        <CardTitle className="text-[var(--text-primary)] mb-2">{item.title}</CardTitle>
-                        <CardDescription className="text-[var(--text-supporting)]">{item.description}</CardDescription>
-                      </div>
-                    </div>
-                  </CardHeader>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-        </div>
-      </section>
-
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.outcomes.heading}</h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.outcomes.description}</p>
-          </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {copy.outcomes.items.map((outcome, index) => (
-              <StaggerItem key={index}>
-                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                  <CardHeader>
-                    <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <SundaeIcon name={outcome.icon} size="lg" className="text-white" />
-                      </div>
-                      <div>
-                        <CardTitle className="text-[var(--text-primary)] mb-2">{outcome.title}</CardTitle>
-                        <CardDescription className="text-[var(--text-supporting)]">{outcome.description}</CardDescription>
-                      </div>
-                    </div>
-                  </CardHeader>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-        </div>
-      </section>
-
-      <PageCTA title={copy.cta.title} description={copy.cta.description}>
-        <Link href="/demo">
-          <Button variant="primary" size="lg">
-            {copy.cta.button}
-          </Button>
-        </Link>
-      </PageCTA>
-    </div>
-  );
+  return <SolutionPageLayout copy={copy} mockup={<PulseDashboardMockup />} />;
 }

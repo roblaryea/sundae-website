@@ -1,334 +1,158 @@
 "use client";
 
-import Link from "next/link";
-import { REPORT_APP_URL } from "@/lib/urls";
-import { Button } from "@/components/ui/Button";
-import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/Card";
-import { SundaeIcon, type SundaeIconName } from "@/components/icons";
-import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
+import { MarketingPerformanceMockup } from "@/components/ui/MockupFrame";
+import { SolutionPageLayout, type SolutionCopy } from "@/components/solutions/SolutionPageLayout";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 
-type RoleSolutionCopy = {
-  badge: string;
-  titleLine1: string;
-  titleLine2: string;
-  description: string;
-  primaryCta: string;
-  secondaryCta: string;
-  problemsTitle: string;
-  problemsDescription: string;
-  challenges: { title: string; description: string; icon: SundaeIconName }[];
-  howTitle: string;
-  howDescription: string;
-  howSundaeHelps: { title: string; description: string; product: string; icon: SundaeIconName }[];
-  outcomesTitle: string;
-  outcomesDescription: string;
-  outcomes: { title: string; description: string; icon: SundaeIconName }[];
-  ctaTitle: string;
-  ctaDescription: string;
-  ctaButton: string;
-};
-
-const localizedMarketingCopy: Record<"en" | "ar" | "fr" | "es", RoleSolutionCopy> = {
+const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
   en: {
-    badge: "Marketing Teams",
-    titleLine1: "See What's Working.",
-    titleLine2: "Cut What Isn't.",
-    description: "Connect campaigns to revenue. Get location-level attribution. Prove ROI with real data.",
-    primaryCta: "See Marketing Dashboard",
-    secondaryCta: "View Campaign Intelligence",
-    problemsTitle: "The Problems You Know",
-    problemsDescription: "Attribution blind spots. Siloed data. Slow feedback loops.",
+    badge: "For Marketing Leads",
+    titleLine1: "Reallocate the spend.",
+    titleLine2: "Before the budget closes.",
+    description: "Campaign ROI tied to covers and net margin within 24 hours. Channel mix, attribution, and what to do next — not a monthly recap.",
+    primaryCta: "Book a Marketing Walk-through",
+    secondaryCta: "See Marketing Demo",
+    problemsEyebrow: "WHERE THE BUDGET LEAKS",
+    problemsTitle: "Where the marketing budget leaks",
+    problemsDescription: "ROI lands a week late. Next month's plan goes in before this month's data does.",
     challenges: [
-      {
-        title: "Attribution Blind Spots",
-        description: "Struggling to connect marketing spend to actual restaurant performance and revenue impact.",
-        icon: "marketing",
-      },
-      {
-        title: "Fragmented Campaign Data",
-        description: "Marketing data lives in one system, sales data in another - making it impossible to see the full picture.",
-        icon: "benchmarking",
-      },
-      {
-        title: "Generic Insights",
-        description: "National-level metrics don't reveal which locations respond best to campaigns or why.",
-        icon: "multiLocation",
-      },
-      {
-        title: "Slow Response Times",
-        description: "By the time you get performance data, the campaign window has already closed.",
-        icon: "time",
-      },
+      { title: "ROI arrives after the spend", description: "Attribution lands the week after the campaign. You're already planning the next one.", icon: "marketing" },
+      { title: "Net margin missing from the math", description: "You see covers and revenue. You don't see whether the campaign cost more than it earned.", icon: "balance" },
+      { title: "Channel mix decided on instinct", description: "Loyalty, paid social, search, email — last week's mix continues by default, not by analysis.", icon: "performance" },
+      { title: "Local market signal ignored", description: "Competitor pricing, weather, events — none of it shows up in the brand brief.", icon: "watchtower" },
     ],
-    howTitle: "How Sundae Changes That",
-    howDescription: "Real-time attribution and location-level performance.",
+    howTitle: "How Sundae works for marketing leads",
+    howDescription: "Live attribution to net margin, channel-by-channel ROI, market-aware planning.",
     howSundaeHelps: [
-      {
-        title: "Real-Time Campaign Attribution",
-        description: "Sundae Core connects marketing spend to sales lift at every location - see which campaigns are driving revenue in real time.",
-        product: "Sundae Core",
-        icon: "performance",
-      },
-      {
-        title: "Location-Level Insights",
-        description: "Sundae Core shows which locations are responding to campaigns and which need different messaging or channels.",
-        product: "Sundae Core",
-        icon: "insights",
-      },
-      {
-        title: "Ask Marketing Questions",
-        description: "Ask Sundae which locations had the best ROI from your last promo or what the average check lift is from loyalty members and get instant answers.",
-        product: "Sundae Core",
-        icon: "intelligence",
-      },
-      {
-        title: "Benchmark Performance",
-        description: "Sundae Report shows how your marketing-driven metrics compare to industry standards and top performers.",
-        product: "Sundae Report",
-        icon: "report",
-      },
+      { title: "Attribution to net margin, not just covers", description: "Every campaign ties to attributed covers, average check, and the margin those covers actually earned. Spend per acquired dollar of margin — not per click.", product: "Insights · Marketing Performance", icon: "marketing" },
+      { title: "Channel mix you can reallocate live", description: "Loyalty, paid, search, email — each with live ROAS, attributed covers, and cost-per-cover. Move budget while the campaign is still running.", product: "Insights · Marketing", icon: "performance" },
+      { title: "Cross-Intelligence finds the synergy", description: "Loyalty + lunch combo converts at 2.3× search alone. Cross-Intelligence surfaces these pairings so you stack channels, not run them in parallel.", product: "Cross-Intelligence", icon: "intelligence" },
+      { title: "Market signal in the brief", description: "Competitor promos, local events, weather — all in the morning brief so the campaign plan reflects the market, not just the calendar.", product: "Watchtower", icon: "watchtower" },
     ],
-    outcomesTitle: "What Changes",
-    outcomesDescription: "Smarter spend. Faster optimization. Provable ROI.",
+    outcomesTitle: "What changes for marketing",
+    outcomesDescription: "Reallocate while it matters, prove margin not just covers.",
     outcomes: [
-      { title: "Optimize campaign spend", description: "Identify high-performing locations and channels to allocate budget more effectively.", icon: "finance" },
-      { title: "Prove marketing ROI", description: "Connect campaigns directly to revenue impact with location-level attribution.", icon: "performance" },
-      { title: "React faster to campaigns", description: "Real-time data lets you adjust campaigns mid-flight based on performance.", icon: "speed" },
-      { title: "Personalize by location", description: "Understand which locations respond to different messages and offers.", icon: "chart" },
+      { title: "Reallocate budget in-campaign", description: "Move spend off the underperforming channel before the month closes — not after.", icon: "speed" },
+      { title: "Prove campaigns paid for themselves", description: "Margin-attributed ROI defends marketing spend to finance with the same numbers they live in.", icon: "owners" },
+      { title: "Stack channels that compound", description: "Cross-Intelligence shows which channel combinations multiply each other — not just which work alone.", icon: "performance" },
+      { title: "Brand briefs grounded in market signal", description: "Plans built knowing what competitors and the local market are doing — not just last month's spend.", icon: "support" },
     ],
-    ctaTitle: "Ready to Prove ROI?",
-    ctaDescription: "See how marketing teams connect campaigns to revenue.",
-    ctaButton: "Book a Marketing Team Demo",
+    ctaTitle: "See your channel mix in motion.",
+    ctaDescription: "30 minutes. Your campaigns. The budget you would have reallocated last week.",
+    ctaButton: "Book a Marketing Walk-through",
   },
   ar: {
-    badge: "فرق التسويق",
-    titleLine1: "اعرف ما يعمل.",
-    titleLine2: "وتوقف عمّا لا يعمل.",
-    description: "اربط الحملات بالإيرادات. احصل على إسناد على مستوى الموقع. أثبت العائد بأرقام حقيقية.",
-    primaryCta: "عرض لوحة التسويق",
-    secondaryCta: "عرض ذكاء الحملات",
-    problemsTitle: "المشكلات التي تعرفها",
-    problemsDescription: "فجوات الإسناد. بيانات معزولة. حلقات تغذية راجعة بطيئة.",
+    badge: "لقادة التسويق",
+    titleLine1: "أعد توزيع الإنفاق.",
+    titleLine2: "قبل أن تُغلق الميزانية.",
+    description: "ROI الحملة مرتبط بالضيوف وصافي الهامش خلال 24 ساعة. مزيج القنوات، الإسناد، والخطوة التالية — لا تقرير شهري.",
+    primaryCta: "احجز جولة تسويقية",
+    secondaryCta: "شاهد عرض التسويق",
+    problemsEyebrow: "أين تتسرب الميزانية",
+    problemsTitle: "أين تتسرب ميزانية التسويق",
+    problemsDescription: "ROI يصل متأخراً أسبوعاً. خطة الشهر التالي تنطلق قبل بيانات هذا الشهر.",
     challenges: [
-      { title: "فجوات الإسناد", description: "صعوبة ربط إنفاق التسويق بالأداء الفعلي للمطعم وتأثيره على الإيرادات.", icon: "marketing" },
-      { title: "تشتت بيانات الحملات", description: "توجد بيانات التسويق في نظام وبيانات المبيعات في نظام آخر، لذلك من المستحيل رؤية الصورة الكاملة.", icon: "benchmarking" },
-      { title: "رؤى عامة", description: "المقاييس على مستوى الدولة لا تكشف أي المواقع تستجيب أفضل للحملات أو لماذا.", icon: "multiLocation" },
-      { title: "بطء الاستجابة", description: "عندما تصل بيانات الأداء، تكون نافذة الحملة قد أُغلقت بالفعل.", icon: "time" },
+      { title: "ROI يأتي بعد الإنفاق", description: "الإسناد يصل بعد الحملة بأسبوع. أنت تخطط للتالية بالفعل.", icon: "marketing" },
+      { title: "صافي الهامش غائب عن المعادلة", description: "ترى الضيوف والإيرادات. لا ترى إن كانت الحملة كلفت أكثر مما كسبت.", icon: "balance" },
+      { title: "مزيج القنوات بالحدس", description: "ولاء، اجتماعي مدفوع، بحث، بريد — مزيج الأسبوع الماضي يستمر افتراضياً لا بالتحليل.", icon: "performance" },
+      { title: "إشارة السوق المحلي مهملة", description: "تسعير المنافسين، الطقس، الأحداث — لا شيء منها في موجز العلامة.", icon: "watchtower" },
     ],
-    howTitle: "كيف يغير Sundae ذلك",
-    howDescription: "إسناد لحظي وأداء على مستوى الموقع.",
+    howTitle: "كيف يعمل Sundae للتسويق",
+    howDescription: "إسناد حي لصافي الهامش، ROI لكل قناة، تخطيط واعٍ بالسوق.",
     howSundaeHelps: [
-      { title: "إسناد الحملات في الوقت الحقيقي", description: "يربط Sundae Core إنفاق التسويق بارتفاع المبيعات في كل موقع، لتعرف أي الحملات تقود الإيرادات لحظيًا.", product: "Sundae Core", icon: "performance" },
-      { title: "رؤى على مستوى الموقع", description: "يُظهر Sundae Core أي المواقع تستجيب للحملات وأيها تحتاج رسائل أو قنوات مختلفة.", product: "Sundae Core", icon: "insights" },
-      { title: "اسأل أسئلة التسويق", description: "اسأل Sundae عن المواقع ذات أفضل عائد من آخر حملة أو عن متوسط الزيادة في الفاتورة من أعضاء الولاء واحصل على إجابات فورية.", product: "Sundae Core", icon: "intelligence" },
-      { title: "قارن الأداء بالمعايير", description: "يُظهر Sundae Report كيف تقارن المقاييس المرتبطة بالتسويق بالمعايير الصناعية وأفضل المؤدين.", product: "Sundae Report", icon: "report" },
+      { title: "إسناد لصافي الهامش لا للضيوف فقط", description: "كل حملة ترتبط بضيوف ومتوسط فاتورة والهامش الذي كسبه أولئك الضيوف فعلاً.", product: "Insights · Marketing Performance", icon: "marketing" },
+      { title: "مزيج قنوات قابل للإعادة الحية", description: "كل قناة بـ ROAS حي وضيوف منسوبين وتكلفة لكل ضيف. حرّك الميزانية بينما الحملة تعمل.", product: "Insights · Marketing", icon: "performance" },
+      { title: "Cross-Intelligence يكشف التآزر", description: "ولاء + كومبو غداء يحول بمعدل 2.3× بحث فقط. Cross-Intelligence يكشف هذه الاقترانات.", product: "Cross-Intelligence", icon: "intelligence" },
+      { title: "إشارة السوق في الموجز", description: "عروض المنافسين والأحداث المحلية والطقس — في الموجز الصباحي فتعكس الخطة السوق لا التقويم فقط.", product: "Watchtower", icon: "watchtower" },
     ],
-    outcomesTitle: "ما الذي يتغير",
-    outcomesDescription: "إنفاق أذكى. تحسين أسرع. عائد مثبت.",
+    outcomesTitle: "ما يتغير للتسويق",
+    outcomesDescription: "أعد التوزيع وهو مؤثر، أثبت الهامش لا الضيوف فقط.",
     outcomes: [
-      { title: "تحسين إنفاق الحملات", description: "حدد المواقع والقنوات الأعلى أداءً لتوزيع الميزانية بفعالية أكبر.", icon: "finance" },
-      { title: "إثبات عائد التسويق", description: "اربط الحملات مباشرة بتأثيرها على الإيرادات عبر إسناد على مستوى الموقع.", icon: "performance" },
-      { title: "التحرك أسرع أثناء الحملة", description: "تسمح لك البيانات اللحظية بتعديل الحملات أثناء التنفيذ.", icon: "speed" },
-      { title: "التخصيص حسب الموقع", description: "افهم أي المواقع تستجيب لرسائل وعروض مختلفة.", icon: "chart" },
+      { title: "أعد توزيع الميزانية أثناء الحملة", description: "حرّك الإنفاق من القناة الضعيفة قبل إغلاق الشهر — لا بعده.", icon: "speed" },
+      { title: "أثبت أن الحملات سددت نفسها", description: "ROI مُسند للهامش يدافع عن إنفاق التسويق أمام المالية بنفس أرقامها.", icon: "owners" },
+      { title: "كدّس قنوات تتضاعف", description: "Cross-Intelligence يظهر تركيبات القنوات التي تضاعف بعضها — لا التي تعمل وحيدة فقط.", icon: "performance" },
+      { title: "موجزات علامة مبنية على إشارة السوق", description: "خطط تعرف ما يفعله المنافسون والسوق المحلي — لا فقط إنفاق الشهر الماضي.", icon: "support" },
     ],
-    ctaTitle: "هل أنت مستعد لإثبات العائد؟",
-    ctaDescription: "شاهد كيف تربط فرق التسويق الحملات بالإيرادات.",
-    ctaButton: "احجز عرضًا لفريق التسويق",
+    ctaTitle: "شاهد مزيج قنواتك يتحرك.",
+    ctaDescription: "30 دقيقة. حملاتك. الميزانية التي كنت ستعيد توزيعها الأسبوع الماضي.",
+    ctaButton: "احجز جولة تسويقية",
   },
   fr: {
-    badge: "Équipes marketing",
-    titleLine1: "Voyez ce qui fonctionne.",
-    titleLine2: "Coupez ce qui ne fonctionne pas.",
-    description: "Reliez les campagnes au revenu. Obtenez une attribution par site. Prouvez le ROI avec des données réelles.",
-    primaryCta: "Voir le tableau de bord marketing",
-    secondaryCta: "Voir l'intelligence de campagne",
-    problemsTitle: "Les problèmes que vous connaissez",
-    problemsDescription: "Angles morts d'attribution. Données en silos. Boucles de retour lentes.",
+    badge: "Pour responsables marketing",
+    titleLine1: "Réallouez le budget.",
+    titleLine2: "Avant la clôture.",
+    description: "ROI campagne lié aux couverts et à la marge nette en 24h. Mix canal, attribution, prochaine action — pas un récap mensuel.",
+    primaryCta: "Réserver une visite marketing",
+    secondaryCta: "Voir la démo marketing",
+    problemsEyebrow: "OÙ FUIT LE BUDGET",
+    problemsTitle: "Où fuit le budget marketing",
+    problemsDescription: "Le ROI arrive en retard d'une semaine. Le plan du mois suivant part avant les données du courant.",
     challenges: [
-      { title: "Angles morts d'attribution", description: "Difficile de relier les dépenses marketing à la performance réelle du restaurant et à l'impact sur le revenu.", icon: "marketing" },
-      { title: "Données de campagne fragmentées", description: "Les données marketing vivent dans un système et les ventes dans un autre, ce qui empêche de voir l'ensemble.", icon: "benchmarking" },
-      { title: "Informations génériques", description: "Les métriques nationales ne montrent pas quels sites répondent le mieux aux campagnes, ni pourquoi.", icon: "multiLocation" },
-      { title: "Temps de réaction trop lents", description: "Au moment où les données arrivent, la fenêtre de campagne est déjà fermée.", icon: "time" },
+      { title: "ROI après la dépense", description: "L'attribution arrive la semaine d'après. Vous planifiez déjà la prochaine.", icon: "marketing" },
+      { title: "Marge nette absente du calcul", description: "Vous voyez couverts et revenu. Pas si la campagne a coûté plus qu'elle n'a rapporté.", icon: "balance" },
+      { title: "Mix canal à l'instinct", description: "Fidélité, social payant, search, email — le mix de la semaine passée continue par défaut.", icon: "performance" },
+      { title: "Signal marché local ignoré", description: "Promos concurrents, météo, événements — rien dans le brief marque.", icon: "watchtower" },
     ],
-    howTitle: "Comment Sundae change cela",
-    howDescription: "Attribution en temps réel et performance par site.",
+    howTitle: "Comment Sundae sert le marketing",
+    howDescription: "Attribution live à la marge nette, ROI par canal, planning aware du marché.",
     howSundaeHelps: [
-      { title: "Attribution des campagnes en temps réel", description: "Sundae Core relie les dépenses marketing à la hausse des ventes sur chaque site - voyez quelles campagnes génèrent du revenu en temps réel.", product: "Sundae Core", icon: "performance" },
-      { title: "Informations par site", description: "Sundae Core montre quels sites répondent aux campagnes et lesquels ont besoin d'un autre message ou d'un autre canal.", product: "Sundae Core", icon: "insights" },
-      { title: "Posez vos questions marketing", description: "Demandez à Sundae quels sites ont le meilleur ROI sur votre dernière promo ou quelle est la hausse moyenne du ticket des membres fidélité, et obtenez une réponse immédiate.", product: "Sundae Core", icon: "intelligence" },
-      { title: "Comparez aux références", description: "Sundae Report montre comment vos métriques marketing se comparent aux standards du secteur et aux meilleurs acteurs.", product: "Sundae Report", icon: "report" },
+      { title: "Attribution à la marge nette", description: "Chaque campagne reliée aux couverts attribués, ticket moyen et marge réelle. Coût par dollar de marge — pas par clic.", product: "Insights · Marketing Performance", icon: "marketing" },
+      { title: "Mix canal réallouable live", description: "Chaque canal avec ROAS live, couverts attribués, coût par couvert. Déplacez le budget pendant la campagne.", product: "Insights · Marketing", icon: "performance" },
+      { title: "Cross-Intelligence trouve la synergie", description: "Fidélité + combo lunch convertit à 2,3× search seul. Cross-Intelligence remonte ces combinaisons.", product: "Cross-Intelligence", icon: "intelligence" },
+      { title: "Signal marché dans le brief", description: "Promos concurrents, événements locaux, météo — dans le brief matinal pour que le plan reflète le marché.", product: "Watchtower", icon: "watchtower" },
     ],
-    outcomesTitle: "Ce qui change",
-    outcomesDescription: "Des dépenses plus intelligentes. Une optimisation plus rapide. Un ROI démontré.",
+    outcomesTitle: "Ce qui change pour le marketing",
+    outcomesDescription: "Réallouez pendant que ça compte, prouvez la marge pas seulement les couverts.",
     outcomes: [
-      { title: "Optimiser les dépenses de campagne", description: "Identifiez les sites et canaux les plus performants pour mieux allouer le budget.", icon: "finance" },
-      { title: "Prouver le ROI marketing", description: "Reliez directement les campagnes à leur impact sur le revenu avec une attribution par site.", icon: "performance" },
-      { title: "Réagir plus vite aux campagnes", description: "Les données en temps réel vous permettent d'ajuster les campagnes en cours de route.", icon: "speed" },
-      { title: "Personnaliser par site", description: "Comprenez quels sites répondent à quels messages et offres.", icon: "chart" },
+      { title: "Réallouez en cours de campagne", description: "Déplacez le budget du canal faible avant la clôture du mois — pas après.", icon: "speed" },
+      { title: "Prouvez que les campagnes se sont payées", description: "ROI attribué à la marge défend le budget marketing devant la finance.", icon: "owners" },
+      { title: "Stack-ez les canaux qui composent", description: "Cross-Intelligence montre quelles combinaisons multiplient l'effet.", icon: "performance" },
+      { title: "Briefs marque ancrés dans le marché", description: "Plans qui savent ce que font les concurrents et le marché local.", icon: "support" },
     ],
-    ctaTitle: "Prêt à prouver le ROI ?",
-    ctaDescription: "Découvrez comment les équipes marketing relient les campagnes au revenu.",
-    ctaButton: "Réserver une démo marketing",
+    ctaTitle: "Votre mix canal en mouvement.",
+    ctaDescription: "30 minutes. Vos campagnes. Le budget que vous auriez réalloué la semaine dernière.",
+    ctaButton: "Réserver une visite marketing",
   },
   es: {
-    badge: "Equipos de marketing",
-    titleLine1: "Ve lo que funciona.",
-    titleLine2: "Corta lo que no.",
-    description: "Conecta las campañas con los ingresos. Obtén atribución por ubicación. Demuestra el ROI con datos reales.",
-    primaryCta: "Ver panel de marketing",
-    secondaryCta: "Ver inteligencia de campañas",
-    problemsTitle: "Los problemas que ya conoces",
-    problemsDescription: "Puntos ciegos de atribución. Datos en silos. Bucles de respuesta lentos.",
+    badge: "Para responsables de marketing",
+    titleLine1: "Reasigna el gasto.",
+    titleLine2: "Antes del cierre.",
+    description: "ROI de campaña ligado a cubiertos y margen neto en 24 horas. Mix de canal, atribución y siguiente paso — no un recap mensual.",
+    primaryCta: "Reservar recorrido de marketing",
+    secondaryCta: "Ver demo de marketing",
+    problemsEyebrow: "DÓNDE SE FUGA EL PRESUPUESTO",
+    problemsTitle: "Dónde se fuga el presupuesto de marketing",
+    problemsDescription: "El ROI llega una semana tarde. El plan del mes siguiente arranca antes de los datos del actual.",
     challenges: [
-      { title: "Puntos ciegos de atribución", description: "Cuesta conectar el gasto de marketing con el rendimiento real del restaurante y su impacto en ingresos.", icon: "marketing" },
-      { title: "Datos de campaña fragmentados", description: "Los datos de marketing viven en un sistema y los de ventas en otro, así que es imposible ver el panorama completo.", icon: "benchmarking" },
-      { title: "Información genérica", description: "Las métricas nacionales no muestran qué ubicaciones responden mejor a las campañas ni por qué.", icon: "multiLocation" },
-      { title: "Respuesta lenta", description: "Cuando llegan los datos de rendimiento, la ventana de la campaña ya se cerró.", icon: "time" },
+      { title: "ROI llega después del gasto", description: "La atribución llega a la semana siguiente. Ya estás planificando la siguiente campaña.", icon: "marketing" },
+      { title: "Margen neto ausente del cálculo", description: "Ves cubiertos e ingresos. No si la campaña costó más de lo que ganó.", icon: "balance" },
+      { title: "Mix de canal por intuición", description: "Lealtad, social pagado, search, email — el mix de la semana pasada continúa por defecto.", icon: "performance" },
+      { title: "Señal de mercado local ignorada", description: "Precios competidores, clima, eventos — nada en el brief de marca.", icon: "watchtower" },
     ],
-    howTitle: "Cómo cambia esto Sundae",
-    howDescription: "Atribución en tiempo real y rendimiento por ubicación.",
+    howTitle: "Cómo trabaja Sundae para marketing",
+    howDescription: "Atribución en vivo al margen neto, ROI por canal, planificación con conciencia de mercado.",
     howSundaeHelps: [
-      { title: "Atribución de campañas en tiempo real", description: "Sundae Core conecta el gasto de marketing con el aumento de ventas en cada ubicación, para ver qué campañas impulsan ingresos al instante.", product: "Sundae Core", icon: "performance" },
-      { title: "Información por ubicación", description: "Sundae Core muestra qué ubicaciones responden a las campañas y cuáles necesitan otro mensaje o canal.", product: "Sundae Core", icon: "insights" },
-      { title: "Haz preguntas de marketing", description: "Pregunta a Sundae qué ubicaciones lograron el mejor ROI de tu última promo o cuál es el aumento medio del ticket entre miembros de fidelidad y obtén respuestas al momento.", product: "Sundae Core", icon: "intelligence" },
-      { title: "Compara el rendimiento", description: "Sundae Report muestra cómo se comparan tus métricas de marketing con los estándares del sector y los mejores competidores.", product: "Sundae Report", icon: "report" },
+      { title: "Atribución al margen neto", description: "Cada campaña ligada a cubiertos atribuidos, ticket medio y margen real. Gasto por dólar de margen — no por clic.", product: "Insights · Marketing Performance", icon: "marketing" },
+      { title: "Mix de canal reasignable en vivo", description: "Cada canal con ROAS en vivo, cubiertos atribuidos, coste por cubierto. Mueve el presupuesto durante la campaña.", product: "Insights · Marketing", icon: "performance" },
+      { title: "Cross-Intelligence encuentra la sinergia", description: "Lealtad + combo lunch convierte a 2,3× search solo. Cross-Intelligence saca estas combinaciones.", product: "Cross-Intelligence", icon: "intelligence" },
+      { title: "Señal de mercado en el brief", description: "Promos competidores, eventos locales, clima — en el brief matinal para que el plan refleje el mercado.", product: "Watchtower", icon: "watchtower" },
     ],
-    outcomesTitle: "Qué cambia",
-    outcomesDescription: "Gasto más inteligente. Optimización más rápida. ROI demostrable.",
+    outcomesTitle: "Qué cambia para marketing",
+    outcomesDescription: "Reasigna mientras importa, demuestra margen no solo cubiertos.",
     outcomes: [
-      { title: "Optimiza el gasto en campañas", description: "Identifica las ubicaciones y canales con mejor rendimiento para asignar presupuesto mejor.", icon: "finance" },
-      { title: "Demuestra el ROI de marketing", description: "Conecta las campañas directamente con el impacto en ingresos gracias a la atribución por ubicación.", icon: "performance" },
-      { title: "Reacciona más rápido a las campañas", description: "Los datos en tiempo real te permiten ajustar campañas sobre la marcha.", icon: "speed" },
-      { title: "Personaliza por ubicación", description: "Entiende qué ubicaciones responden a distintos mensajes y ofertas.", icon: "chart" },
+      { title: "Reasigna presupuesto durante la campaña", description: "Mueve el gasto del canal débil antes del cierre del mes — no después.", icon: "speed" },
+      { title: "Demuestra que las campañas se pagaron", description: "ROI atribuido al margen defiende el gasto de marketing ante finanzas.", icon: "owners" },
+      { title: "Apila canales que componen", description: "Cross-Intelligence muestra qué combinaciones multiplican el efecto.", icon: "performance" },
+      { title: "Briefs de marca anclados en el mercado", description: "Planes que saben qué hacen los competidores y el mercado local.", icon: "support" },
     ],
-    ctaTitle: "¿Listo para demostrar el ROI?",
-    ctaDescription: "Ve cómo los equipos de marketing conectan campañas con ingresos.",
-    ctaButton: "Reservar demo para marketing",
+    ctaTitle: "Tu mix de canal en movimiento.",
+    ctaDescription: "30 minutos. Tus campañas. El presupuesto que habrías reasignado la semana pasada.",
+    ctaButton: "Reservar recorrido de marketing",
   },
 };
 
 export default function MarketingTeamsPage() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedMarketingCopy[locale] ?? localizedMarketingCopy.en;
-
-  return (
-    <div className="min-h-screen bg-[var(--navy-deep)]">
-      <PageHero
-        badge={copy.badge}
-        title={<>
-          {copy.titleLine1}
-          <br />
-          {copy.titleLine2}
-        </>}
-        description={copy.description}
-      >
-        <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <Link href="/demo">
-            <Button variant="primary" size="lg">
-              {copy.primaryCta}
-            </Button>
-          </Link>
-          <a href={REPORT_APP_URL}>
-            <Button variant="outline-light" size="lg">
-              {copy.secondaryCta}
-            </Button>
-          </a>
-        </div>
-      </PageHero>
-
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.problemsTitle}</h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.problemsDescription}</p>
-          </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {copy.challenges.map((challenge, index) => (
-              <StaggerItem key={index}>
-                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                  <CardHeader>
-                    <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <SundaeIcon name={challenge.icon} size="lg" className="text-white" />
-                      </div>
-                      <div>
-                        <CardTitle className="text-[var(--text-primary)] mb-2">{challenge.title}</CardTitle>
-                        <CardDescription className="text-[var(--text-supporting)]">{challenge.description}</CardDescription>
-                      </div>
-                    </div>
-                  </CardHeader>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-        </div>
-      </section>
-
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.howTitle}</h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.howDescription}</p>
-          </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {copy.howSundaeHelps.map((item, index) => (
-              <StaggerItem key={index}>
-                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                  <CardHeader>
-                    <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <SundaeIcon name={item.icon} size="lg" className="text-white" />
-                      </div>
-                      <div>
-                        <div className="text-xs text-[#60A5FA] font-semibold mb-1">{item.product}</div>
-                        <CardTitle className="text-[var(--text-primary)] mb-2">{item.title}</CardTitle>
-                        <CardDescription className="text-[var(--text-supporting)]">{item.description}</CardDescription>
-                      </div>
-                    </div>
-                  </CardHeader>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-        </div>
-      </section>
-
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.outcomesTitle}</h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.outcomesDescription}</p>
-          </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {copy.outcomes.map((outcome, index) => (
-              <StaggerItem key={index}>
-                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                  <CardHeader>
-                    <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <SundaeIcon name={outcome.icon} size="lg" className="text-white" />
-                      </div>
-                      <div>
-                        <CardTitle className="text-[var(--text-primary)] mb-2">{outcome.title}</CardTitle>
-                        <CardDescription className="text-[var(--text-supporting)]">{outcome.description}</CardDescription>
-                      </div>
-                    </div>
-                  </CardHeader>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-        </div>
-      </section>
-
-      <PageCTA title={copy.ctaTitle} description={copy.ctaDescription}>
-        <Link href="/demo">
-          <Button variant="primary" size="lg">
-            {copy.ctaButton}
-          </Button>
-        </Link>
-      </PageCTA>
-    </div>
-  );
+  const copy = localizedCopy[locale] ?? localizedCopy.en;
+  return <SolutionPageLayout copy={copy} mockup={<MarketingPerformanceMockup />} />;
 }

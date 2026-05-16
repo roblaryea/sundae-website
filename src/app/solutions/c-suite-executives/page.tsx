@@ -1,292 +1,158 @@
 "use client";
 
-import Link from "next/link";
-import { REPORT_APP_URL } from "@/lib/urls";
-import { Button } from "@/components/ui/Button";
-import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/Card";
-import { SundaeIcon, type SundaeIconName } from "@/components/icons";
-import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
+import { ExecutiveBriefingMockup } from "@/components/ui/MockupFrame";
+import { SolutionPageLayout, type SolutionCopy } from "@/components/solutions/SolutionPageLayout";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 
-type RoleSolutionCopy = {
-  badge: string;
-  titleLine1: string;
-  titleLine2: string;
-  description: string;
-  primaryCta: string;
-  secondaryCta: string;
-  problemsTitle: string;
-  problemsDescription: string;
-  challenges: { title: string; description: string; icon: SundaeIconName }[];
-  howTitle: string;
-  howDescription: string;
-  howSundaeHelps: { title: string; description: string; product: string; icon: SundaeIconName }[];
-  outcomesTitle: string;
-  outcomesDescription: string;
-  outcomes: { title: string; description: string; icon: SundaeIconName }[];
-  ctaTitle: string;
-  ctaDescription: string;
-  ctaButton: string;
-};
-
-const localizedCSuiteCopy: Record<"en" | "ar" | "fr" | "es", RoleSolutionCopy> = {
+const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
   en: {
-    badge: "C-Suite Executives",
-    titleLine1: "Lead with Clarity.",
-    titleLine2: "Not Guesswork.",
-    description: "Real-time visibility. Predictive intelligence. One platform that unifies everything you need to make confident decisions at scale.",
-    primaryCta: "See How Sundae Works for Executives",
-    secondaryCta: "Get Executive Benchmark Report",
-    problemsTitle: "The Problems You Know",
-    problemsDescription: "Silos, stale data, and reactive decision-making.",
+    badge: "For C-Suite & Owners",
+    titleLine1: "Run the portfolio.",
+    titleLine2: "Not the spreadsheet.",
+    description: "Daily AI briefings across every brand. Margin variance the day it happens. Market signal before it hits your numbers.",
+    primaryCta: "Book an Executive Briefing",
+    secondaryCta: "See Executive Demo",
+    problemsEyebrow: "WHAT SLOWS EXECUTIVES DOWN",
+    problemsTitle: "What slows executives down today",
+    problemsDescription: "Three days late, three meetings deep, and no single source of truth.",
     challenges: [
-      { title: "Decisions Made on Yesterday's Numbers", description: "Critical calls rely on stale data, leading to missed opportunities and reactive management.", icon: "benchmarking" },
-      { title: "Disconnected Data Sources", description: "Finance, operations, and marketing data live in silos, making it impossible to see the complete picture.", icon: "integration" },
-      { title: "No Forward-Looking Intelligence", description: "You can see what happened, but not what's about to happen or why it's happening.", icon: "forecasting" },
-      { title: "Strategic vs. Operational Trade-off", description: "You're forced to choose between strategic thinking and operational firefighting - there's no time for both.", icon: "balance" },
+      { title: "Decisions on stale numbers", description: "The Thursday recap arrives Friday. By then the margin is already booked.", icon: "benchmarking" },
+      { title: "12 vendor systems, zero alignment", description: "POS, labor, inventory, delivery — every system speaks a different dialect.", icon: "integration" },
+      { title: "No view past last quarter", description: "You see what happened. Not what's coming. Not what to do about it.", icon: "forecasting" },
+      { title: "Strategy lost to firefighting", description: "The portfolio needs steering. Operations needs putting out. Both lose.", icon: "balance" },
     ],
-    howTitle: "How Sundae Changes That",
-    howDescription: "Intelligence built for executive decision-making.",
+    howTitle: "How Sundae works for the executive office",
+    howDescription: "One source of truth across every brand, every location, every shift.",
     howSundaeHelps: [
-      { title: "Executive Command Center", description: "Sundae Core delivers a real-time executive dashboard with KPIs that matter - revenue, margins, labor productivity, and performance across your entire portfolio. Pulse monitors every shift with adaptive targets and server performance.", product: "Sundae Core + Pulse", icon: "chart" },
-      { title: "Competitive & Market Intelligence", description: "Watchtower tracks named competitors, monitors local events, and surfaces market trends - synthesized with your internal data into daily briefings so you know what's happening inside and outside your business.", product: "Watchtower (Core tier)", icon: "watchtower" },
-      { title: "Instant Strategic Answers", description: "Ask Sundae what is driving margin compression or which locations are losing to competitor promotions and get numbers-backed answers combining internal performance with external market context.", product: "Sundae Intelligence", icon: "intelligence" },
-      { title: "Historical Benchmarking", description: "Sundae Report shows how you compare to industry leaders and identifies gaps in performance, efficiency, and growth - with credits for deeper analysis.", product: "Sundae Report", icon: "report" },
+      { title: "Portfolio command in real time", description: "Live revenue, margin, and labor across every outlet. Pacing flags the location that needs your attention before the shift ends.", product: "Sundae Core + Pulse", icon: "chart" },
+      { title: "Market signal before it hits", description: "Competitors, weather, events, footfall — synthesized into a morning brief so you act before the impact lands in your P&L.", product: "Watchtower", icon: "watchtower" },
+      { title: "Source-cited answers in seconds", description: "Ask why Brand C compressed margin or which outlets lose to competitor promos. Get a numbered answer with the data it's drawn from.", product: "Sundae Intelligence", icon: "intelligence" },
+      { title: "14–90 day forecasts you can defend", description: "Foresight projects revenue, labor, and EBITDA. Run what-if on a new market, a price move, or a cost program — before you commit capital.", product: "Foresight", icon: "forecasting" },
     ],
-    outcomesTitle: "What Changes",
-    outcomesDescription: "Measurable impact on speed, visibility, and growth.",
+    outcomesTitle: "What changes for the executive office",
+    outcomesDescription: "Faster decisions, sharper portfolio, defendable forecasts.",
     outcomes: [
-      { title: "Make faster, numbers-backed decisions", description: "Move from monthly reviews to real-time intelligence, enabling agile strategic adjustments.", icon: "speed" },
-      { title: "15-20% improvement in key metrics", description: "Optimize margins, reduce costs, and improve operational efficiency across the portfolio.", icon: "performance" },
-      { title: "Reduce strategic risk", description: "Identify threats and opportunities early with predictive intelligence and market signals.", icon: "owners" },
-      { title: "Unite your leadership team", description: "Give everyone access to the same real-time data and insights, aligning strategy and execution.", icon: "support" },
+      { title: "Decide in hours, not weeks", description: "Move from monthly close to live margin. The decision lands while it still matters.", icon: "speed" },
+      { title: "Tighter portfolio, fewer surprises", description: "Underperforming locations surface in the morning brief — not the quarterly review.", icon: "performance" },
+      { title: "Forecasts your board trusts", description: "14–90 day projections grounded in your own operating data plus market signal.", icon: "owners" },
+      { title: "Leadership aligned around one number", description: "Ops, finance, marketing, and the board read the same live dashboard.", icon: "support" },
     ],
-    ctaTitle: "Ready to Lead Smarter?",
-    ctaDescription: "See how Sundae gives executives the clarity to make confident decisions.",
+    ctaTitle: "See your portfolio in one view.",
+    ctaDescription: "30 minutes. Your data. What Sundae would actually change for the executive office.",
     ctaButton: "Book an Executive Briefing",
   },
   ar: {
-    badge: "القيادة التنفيذية",
-    titleLine1: "قد بقيادة واضحة.",
-    titleLine2: "وليس بالتخمين.",
-    description: "رؤية لحظية. ذكاء تنبؤي. منصة واحدة توحد كل ما تحتاجه لاتخاذ قرارات واثقة على نطاق واسع.",
-    primaryCta: "شاهد كيف يعمل Sundae للمديرين التنفيذيين",
-    secondaryCta: "احصل على تقرير معياري تنفيذي",
-    problemsTitle: "المشكلات التي تعرفها",
-    problemsDescription: "جزر معزولة. بيانات قديمة. قرارات رد فعل.",
+    badge: "للقيادة التنفيذية والمالكين",
+    titleLine1: "أدر المحفظة.",
+    titleLine2: "لا الجدول.",
+    description: "إحاطات يومية بالذكاء الاصطناعي عبر كل علامة. هوامش لحظية. إشارات السوق قبل أن تصل إلى أرقامك.",
+    primaryCta: "احجز إحاطة تنفيذية",
+    secondaryCta: "شاهد عرضاً تنفيذياً",
+    problemsEyebrow: "ما يبطئ المدراء التنفيذيين",
+    problemsTitle: "ما يبطئ المدراء التنفيذيين اليوم",
+    problemsDescription: "ثلاثة أيام تأخر، ثلاث اجتماعات، ولا مصدر واحد للحقيقة.",
     challenges: [
-      { title: "قرارات مبنية على أرقام الأمس", description: "تعتمد القرارات الحرجة على بيانات قديمة، ما يؤدي إلى فرص ضائعة وإدارة تفاعلية.", icon: "benchmarking" },
-      { title: "مصادر بيانات منفصلة", description: "تعيش بيانات المالية والعمليات والتسويق في جزر منفصلة، لذلك من المستحيل رؤية الصورة الكاملة.", icon: "integration" },
-      { title: "لا يوجد ذكاء استباقي", description: "ترى ما حدث، لكن لا ترى ما سيحدث أو لماذا يحدث.", icon: "forecasting" },
-      { title: "مفاضلة بين الاستراتيجية والتشغيل", description: "تُجبر على الاختيار بين التفكير الاستراتيجي ومطاردة المشكلات التشغيلية.", icon: "balance" },
+      { title: "قرارات على أرقام قديمة", description: "تقرير الخميس يصل الجمعة. الهامش حُجز بالفعل.", icon: "benchmarking" },
+      { title: "12 نظام، صفر توافق", description: "نقاط البيع، العمالة، المخزون، التوصيل — كل نظام يتحدث لغة مختلفة.", icon: "integration" },
+      { title: "لا رؤية وراء الربع الماضي", description: "ترى ما حدث. لا ترى القادم. ولا ما تفعله حياله.", icon: "forecasting" },
+      { title: "استراتيجية تضيع في إطفاء الحرائق", description: "المحفظة تحتاج توجيهاً. العمليات تحتاج إصلاحاً. كلاهما يخسر.", icon: "balance" },
     ],
-    howTitle: "كيف يغير Sundae ذلك",
-    howDescription: "ذكاء مصمم لصنع القرار التنفيذي.",
+    howTitle: "كيف يعمل Sundae للمكتب التنفيذي",
+    howDescription: "مصدر حقيقة واحد عبر كل علامة، كل موقع، كل وردية.",
     howSundaeHelps: [
-      { title: "مركز قيادة تنفيذي", description: "يوفر Sundae Core لوحة تنفيذية لحظية بالمؤشرات المهمة - الإيرادات والهوامش وإنتاجية العمالة والأداء عبر محفظتك كاملة.", product: "Sundae Core + Pulse", icon: "chart" },
-      { title: "ذكاء تنافسي وسوقي", description: "يتتبع Watchtower المنافسين ويُراقب الأحداث المحلية ويستخلص اتجاهات السوق مع البيانات الداخلية في موجزات يومية.", product: "Watchtower (Core tier)", icon: "watchtower" },
-      { title: "إجابات استراتيجية فورية", description: "اسأل Sundae عن أسباب تقلص الهامش أو المواقع التي تخسر أمام عروض المنافسين واحصل على إجابات مدعومة بالأرقام.", product: "Sundae Intelligence", icon: "intelligence" },
-      { title: "معايير تاريخية", description: "يُظهر Sundae Report كيف تقارن بالقادة في المجال ويحدد فجوات الأداء والكفاءة والنمو.", product: "Sundae Report", icon: "report" },
+      { title: "قيادة المحفظة لحظياً", description: "إيرادات وهامش وعمالة حية عبر كل موقع. الوتيرة تنبه للمكان الذي يحتاج انتباهك قبل نهاية الوردية.", product: "Sundae Core + Pulse", icon: "chart" },
+      { title: "إشارات السوق قبل التأثير", description: "المنافسون، الطقس، الأحداث، حركة المرور — مجمعة في إحاطة صباحية، فتتحرك قبل أن يهبط الأثر في الـ P&L.", product: "Watchtower", icon: "watchtower" },
+      { title: "إجابات بمصادر في ثوانٍ", description: "اسأل لماذا تقلص هامش العلامة C أو أي مواقع تخسر أمام عروض المنافسين. احصل على إجابة مرقمة مع البيانات.", product: "Sundae Intelligence", icon: "intelligence" },
+      { title: "توقعات 14–90 يوماً يمكنك الدفاع عنها", description: "Foresight يتوقع الإيرادات والعمالة وEBITDA. شغّل سيناريوهات قبل التزام رأس المال.", product: "Foresight", icon: "forecasting" },
     ],
-    outcomesTitle: "ما الذي يتغير",
-    outcomesDescription: "أثر قابل للقياس على السرعة والرؤية والنمو.",
+    outcomesTitle: "ما يتغير للمكتب التنفيذي",
+    outcomesDescription: "قرارات أسرع، محفظة أحدّ، توقعات قابلة للدفاع عنها.",
     outcomes: [
-      { title: "قرارات أسرع ومدعومة بالأرقام", description: "انتقل من المراجعات الشهرية إلى ذكاء لحظي يتيح تعديلات استراتيجية سريعة.", icon: "speed" },
-      { title: "تحسن 15-20% في المقاييس الرئيسية", description: "حسّن الهوامش وقلل التكاليف وارفع الكفاءة التشغيلية.", icon: "performance" },
-      { title: "خفض المخاطر الاستراتيجية", description: "حدد التهديدات والفرص مبكرًا باستخدام الذكاء التنبؤي وإشارات السوق.", icon: "owners" },
-      { title: "وحدة أفضل لفريق القيادة", description: "أعطِ الجميع وصولًا إلى نفس البيانات والرؤى لحظيًا.", icon: "support" },
+      { title: "قرر في ساعات لا أسابيع", description: "انتقل من الإقفال الشهري إلى الهامش الحي. القرار يصل وهو لا يزال مؤثراً.", icon: "speed" },
+      { title: "محفظة أحكم، مفاجآت أقل", description: "المواقع ضعيفة الأداء تظهر في الإحاطة الصباحية — لا في مراجعة الربع.", icon: "performance" },
+      { title: "توقعات يثق بها المجلس", description: "توقعات 14–90 يوماً مرتكزة على بياناتك التشغيلية وإشارات السوق.", icon: "owners" },
+      { title: "قيادة موحدة حول رقم واحد", description: "العمليات والمالية والتسويق والمجلس يقرؤون نفس اللوحة الحية.", icon: "support" },
     ],
-    ctaTitle: "هل أنت مستعد للقيادة بذكاء؟",
-    ctaDescription: "شاهد كيف يمنح Sundae المدراء التنفيذيين الوضوح لاتخاذ قرارات واثقة.",
+    ctaTitle: "شاهد محفظتك في عرض واحد.",
+    ctaDescription: "30 دقيقة. بياناتك. ما الذي سيتغير فعلياً للمكتب التنفيذي.",
     ctaButton: "احجز إحاطة تنفيذية",
   },
   fr: {
-    badge: "Dirigeants",
-    titleLine1: "Dirigez avec clarté.",
-    titleLine2: "Pas avec des suppositions.",
-    description: "Visibilité en temps réel. Intelligence prédictive. Une plateforme qui unifie tout ce qu'il faut pour décider avec assurance à grande échelle.",
-    primaryCta: "Voir comment Sundae aide les dirigeants",
-    secondaryCta: "Obtenir le rapport de benchmark exécutif",
-    problemsTitle: "Les problèmes que vous connaissez",
-    problemsDescription: "Silos, données obsolètes et décisions réactives.",
+    badge: "Pour dirigeants et propriétaires",
+    titleLine1: "Pilotez le portefeuille.",
+    titleLine2: "Pas le tableur.",
+    description: "Briefings IA quotidiens sur chaque marque. Marge en temps réel. Signal marché avant qu'il ne touche vos chiffres.",
+    primaryCta: "Réserver un briefing exécutif",
+    secondaryCta: "Voir la démo dirigeants",
+    problemsEyebrow: "CE QUI RALENTIT LES DIRIGEANTS",
+    problemsTitle: "Ce qui ralentit les dirigeants aujourd'hui",
+    problemsDescription: "Trois jours de retard, trois réunions, aucune source unique de vérité.",
     challenges: [
-      { title: "Décisions fondées sur les chiffres d'hier", description: "Les décisions critiques s'appuient sur des données anciennes, ce qui entraîne des occasions manquées.", icon: "benchmarking" },
-      { title: "Sources de données déconnectées", description: "Finance, opérations et marketing vivent en silos, empêchant une vision complète.", icon: "integration" },
-      { title: "Pas d'intelligence prospective", description: "Vous voyez ce qui s'est passé, mais pas ce qui va se passer ni pourquoi.", icon: "forecasting" },
-      { title: "Arbitrage stratégie vs opération", description: "Vous devez choisir entre réflexion stratégique et gestion des urgences.", icon: "balance" },
+      { title: "Décisions sur des chiffres périmés", description: "Le récap du jeudi arrive vendredi. La marge est déjà comptabilisée.", icon: "benchmarking" },
+      { title: "12 systèmes, zéro alignement", description: "POS, RH, stocks, livraison — chaque système parle un dialecte différent.", icon: "integration" },
+      { title: "Aucune vue au-delà du dernier trimestre", description: "Vous voyez ce qui est arrivé. Pas ce qui vient. Ni quoi en faire.", icon: "forecasting" },
+      { title: "Stratégie perdue dans la gestion d'urgences", description: "Le portefeuille demande du cap. L'opérationnel demande de l'attention. Les deux perdent.", icon: "balance" },
     ],
-    howTitle: "Comment Sundae change cela",
-    howDescription: "Une intelligence conçue pour la décision exécutive.",
+    howTitle: "Comment Sundae sert l'équipe dirigeante",
+    howDescription: "Une seule source de vérité — toutes marques, tous sites, tous services.",
     howSundaeHelps: [
-      { title: "Centre de commande exécutif", description: "Sundae Core fournit un tableau de bord en temps réel avec les KPI clés - revenu, marges, productivité et performance.", product: "Sundae Core + Pulse", icon: "chart" },
-      { title: "Intelligence concurrentielle et marché", description: "Watchtower suit les concurrents, les événements locaux et les tendances du marché, puis synthétise le tout dans des briefings quotidiens.", product: "Watchtower (Core tier)", icon: "watchtower" },
-      { title: "Réponses stratégiques instantanées", description: "Demandez à Sundae ce qui comprime les marges ou quels sites perdent face aux promotions concurrentes et obtenez une réponse chiffrée.", product: "Sundae Intelligence", icon: "intelligence" },
-      { title: "Benchmark historique", description: "Sundae Report montre votre position face aux leaders du secteur et identifie les écarts de performance.", product: "Sundae Report", icon: "report" },
+      { title: "Pilotage portefeuille en temps réel", description: "Revenu, marge et main-d'œuvre sur chaque site. Le rythme signale le lieu qui a besoin de vous avant la fin du service.", product: "Sundae Core + Pulse", icon: "chart" },
+      { title: "Signal marché avant l'impact", description: "Concurrents, météo, événements, fréquentation — synthétisés dans un briefing matinal pour agir avant l'effet sur le P&L.", product: "Watchtower", icon: "watchtower" },
+      { title: "Réponses sourcées en secondes", description: "Demandez pourquoi la marge B compresse ou quels sites perdent face aux promos rivales. Réponse chiffrée avec les données citées.", product: "Sundae Intelligence", icon: "intelligence" },
+      { title: "Prévisions 14–90 jours défendables", description: "Foresight projette revenu, main-d'œuvre et EBITDA. Testez un scénario avant d'engager du capital.", product: "Foresight", icon: "forecasting" },
     ],
-    outcomesTitle: "Ce qui change",
-    outcomesDescription: "Un impact mesurable sur la vitesse, la visibilité et la croissance.",
+    outcomesTitle: "Ce qui change pour la direction",
+    outcomesDescription: "Décisions plus rapides, portefeuille plus net, prévisions défendables.",
     outcomes: [
-      { title: "Décider plus vite", description: "Passez des revues mensuelles à une intelligence en temps réel.", icon: "speed" },
-      { title: "Amélioration de 15-20 % des métriques clés", description: "Optimisez les marges, réduisez les coûts et améliorez l'efficacité.", icon: "performance" },
-      { title: "Réduire le risque stratégique", description: "Repérez tôt menaces et opportunités grâce à l'intelligence prédictive.", icon: "owners" },
-      { title: "Unifier l'équipe dirigeante", description: "Donnez à tous accès aux mêmes données et insights en temps réel.", icon: "support" },
+      { title: "Décider en heures, pas en semaines", description: "Passez de la clôture mensuelle à la marge live. La décision arrive pendant qu'elle compte.", icon: "speed" },
+      { title: "Portefeuille plus net, moins de surprises", description: "Les sites en sous-performance apparaissent dans le briefing matinal — pas dans la revue trimestrielle.", icon: "performance" },
+      { title: "Prévisions que le conseil accepte", description: "Projections 14–90 jours assises sur vos données et le signal marché.", icon: "owners" },
+      { title: "Direction alignée sur un seul chiffre", description: "Ops, finance, marketing, conseil — même tableau de bord live.", icon: "support" },
     ],
-    ctaTitle: "Prêt à diriger plus intelligemment ?",
-    ctaDescription: "Voyez comment Sundae donne aux dirigeants la clarté nécessaire pour décider avec confiance.",
+    ctaTitle: "Votre portefeuille en une vue.",
+    ctaDescription: "30 minutes. Vos données. Ce que Sundae changerait concrètement pour la direction.",
     ctaButton: "Réserver un briefing exécutif",
   },
   es: {
-    badge: "Alta dirección",
-    titleLine1: "Lidera con claridad.",
-    titleLine2: "No con suposiciones.",
-    description: "Visibilidad en tiempo real. Inteligencia predictiva. Una plataforma que unifica todo lo necesario para decidir con confianza a escala.",
-    primaryCta: "Ver cómo Sundae ayuda a la alta dirección",
-    secondaryCta: "Obtener informe ejecutivo de benchmark",
-    problemsTitle: "Los problemas que ya conoces",
-    problemsDescription: "Silos, datos obsoletos y decisiones reactivas.",
+    badge: "Para alta dirección y propietarios",
+    titleLine1: "Lidera el portafolio.",
+    titleLine2: "No la hoja de cálculo.",
+    description: "Briefings de IA diarios sobre cada marca. Margen en tiempo real. Señal de mercado antes de que toque tus números.",
+    primaryCta: "Reservar briefing ejecutivo",
+    secondaryCta: "Ver demo ejecutiva",
+    problemsEyebrow: "QUÉ FRENA A LA DIRECCIÓN",
+    problemsTitle: "Qué frena a la alta dirección hoy",
+    problemsDescription: "Tres días tarde, tres reuniones, sin una sola fuente de verdad.",
     challenges: [
-      { title: "Decisiones basadas en números de ayer", description: "Las decisiones críticas dependen de datos antiguos, lo que provoca oportunidades perdidas.", icon: "benchmarking" },
-      { title: "Fuentes de datos desconectadas", description: "Finanzas, operaciones y marketing viven en silos, así que no se ve el panorama completo.", icon: "integration" },
-      { title: "Sin inteligencia a futuro", description: "Ves lo que pasó, pero no lo que está por pasar ni por qué.", icon: "forecasting" },
-      { title: "Tensión entre estrategia y operación", description: "Debes elegir entre pensar estratégicamente o apagar incendios.", icon: "balance" },
+      { title: "Decisiones con números viejos", description: "El reporte del jueves llega el viernes. El margen ya quedó contabilizado.", icon: "benchmarking" },
+      { title: "12 sistemas, cero alineación", description: "POS, personal, inventario, delivery — cada uno habla un dialecto distinto.", icon: "integration" },
+      { title: "Sin visión más allá del trimestre", description: "Ves lo que pasó. No lo que viene. Ni qué hacer con ello.", icon: "forecasting" },
+      { title: "Estrategia perdida apagando incendios", description: "El portafolio necesita rumbo. Operaciones necesita atención. Pierden los dos.", icon: "balance" },
     ],
-    howTitle: "Cómo cambia esto Sundae",
-    howDescription: "Inteligencia diseñada para la toma de decisiones ejecutivas.",
+    howTitle: "Cómo trabaja Sundae para la dirección",
+    howDescription: "Una fuente de verdad — todas las marcas, todas las ubicaciones, todos los turnos.",
     howSundaeHelps: [
-      { title: "Centro de mando ejecutivo", description: "Sundae Core ofrece un panel ejecutivo en tiempo real con KPIs clave: ingresos, márgenes, productividad y rendimiento.", product: "Sundae Core + Pulse", icon: "chart" },
-      { title: "Inteligencia competitiva y de mercado", description: "Watchtower sigue competidores, eventos locales y tendencias del mercado, y lo sintetiza en informes diarios.", product: "Watchtower (Core tier)", icon: "watchtower" },
-      { title: "Respuestas estratégicas instantáneas", description: "Pregunta a Sundae qué está comprimiendo márgenes o qué ubicaciones pierden frente a promociones rivales y recibe respuestas con números.", product: "Sundae Intelligence", icon: "intelligence" },
-      { title: "Benchmark histórico", description: "Sundae Report muestra cómo te comparas con líderes del sector e identifica brechas de rendimiento.", product: "Sundae Report", icon: "report" },
+      { title: "Comando de portafolio en tiempo real", description: "Ingresos, margen y personal en vivo por ubicación. El ritmo señala el local que necesita tu atención antes del cierre.", product: "Sundae Core + Pulse", icon: "chart" },
+      { title: "Señal de mercado antes del impacto", description: "Competidores, clima, eventos, tráfico — sintetizados en un briefing matinal para actuar antes de que el P&L lo registre.", product: "Watchtower", icon: "watchtower" },
+      { title: "Respuestas con fuente en segundos", description: "Pregunta por qué la marca C comprimió margen o qué locales pierden frente a promos rivales. Respuesta numérica con sus fuentes.", product: "Sundae Intelligence", icon: "intelligence" },
+      { title: "Pronósticos 14–90 días defendibles", description: "Foresight proyecta ingresos, personal y EBITDA. Modela un escenario antes de comprometer capital.", product: "Foresight", icon: "forecasting" },
     ],
-    outcomesTitle: "Qué cambia",
-    outcomesDescription: "Impacto medible en velocidad, visibilidad y crecimiento.",
+    outcomesTitle: "Qué cambia para la dirección",
+    outcomesDescription: "Decisiones más rápidas, portafolio más afinado, pronósticos defendibles.",
     outcomes: [
-      { title: "Decidir más rápido", description: "Pasa de revisiones mensuales a inteligencia en tiempo real.", icon: "speed" },
-      { title: "Mejora del 15-20% en métricas clave", description: "Optimiza márgenes, reduce costes y mejora la eficiencia.", icon: "performance" },
-      { title: "Reducir el riesgo estratégico", description: "Detecta amenazas y oportunidades temprano con inteligencia predictiva.", icon: "owners" },
-      { title: "Unir al equipo directivo", description: "Da a todos acceso a los mismos datos e insights en tiempo real.", icon: "support" },
+      { title: "Decide en horas, no en semanas", description: "Pasa del cierre mensual al margen en vivo. La decisión llega mientras importa.", icon: "speed" },
+      { title: "Portafolio afinado, menos sorpresas", description: "Los locales débiles aparecen en el briefing matinal — no en la revisión trimestral.", icon: "performance" },
+      { title: "Pronósticos que el consejo acepta", description: "Proyecciones 14–90 días basadas en tus datos operativos y la señal de mercado.", icon: "owners" },
+      { title: "Liderazgo alineado en un solo número", description: "Operaciones, finanzas, marketing y consejo — el mismo panel en vivo.", icon: "support" },
     ],
-    ctaTitle: "¿Listo para liderar mejor?",
-    ctaDescription: "Ve cómo Sundae da a la alta dirección la claridad para decidir con confianza.",
+    ctaTitle: "Tu portafolio en una sola vista.",
+    ctaDescription: "30 minutos. Tus datos. Lo que Sundae cambiaría realmente para la dirección.",
     ctaButton: "Reservar briefing ejecutivo",
   },
 };
 
 export default function CSuiteExecutivesPage() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCSuiteCopy[locale] ?? localizedCSuiteCopy.en;
-
-  return (
-    <div className="min-h-screen bg-[var(--navy-deep)]">
-      <PageHero
-        badge={copy.badge}
-        title={<>
-          {copy.titleLine1}
-          <br />
-          {copy.titleLine2}
-        </>}
-        description={copy.description}
-      >
-        <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <Link href="/demo">
-            <Button variant="primary" size="lg">{copy.primaryCta}</Button>
-          </Link>
-          <a href={REPORT_APP_URL}>
-            <Button variant="outline-light" size="lg">{copy.secondaryCta}</Button>
-          </a>
-        </div>
-      </PageHero>
-
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.problemsTitle}</h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.problemsDescription}</p>
-          </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {copy.challenges.map((challenge, index) => (
-              <StaggerItem key={index}>
-                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                  <CardHeader>
-                    <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <SundaeIcon name={challenge.icon} size="lg" className="text-white" />
-                      </div>
-                      <div>
-                        <CardTitle className="text-[var(--text-primary)] mb-2">{challenge.title}</CardTitle>
-                        <CardDescription className="text-[var(--text-supporting)]">{challenge.description}</CardDescription>
-                      </div>
-                    </div>
-                  </CardHeader>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-        </div>
-      </section>
-
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.howTitle}</h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.howDescription}</p>
-          </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {copy.howSundaeHelps.map((item, index) => (
-              <StaggerItem key={index}>
-                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                  <CardHeader>
-                    <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <SundaeIcon name={item.icon} size="lg" className="text-white" />
-                      </div>
-                      <div>
-                        <div className="text-xs text-[#60A5FA] font-semibold mb-1">{item.product}</div>
-                        <CardTitle className="text-[var(--text-primary)] mb-2">{item.title}</CardTitle>
-                        <CardDescription className="text-[var(--text-supporting)]">{item.description}</CardDescription>
-                      </div>
-                    </div>
-                  </CardHeader>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-        </div>
-      </section>
-
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.outcomesTitle}</h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.outcomesDescription}</p>
-          </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {copy.outcomes.map((outcome, index) => (
-              <StaggerItem key={index}>
-                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                  <CardHeader>
-                    <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <SundaeIcon name={outcome.icon} size="lg" className="text-white" />
-                      </div>
-                      <div>
-                        <CardTitle className="text-[var(--text-primary)] mb-2">{outcome.title}</CardTitle>
-                        <CardDescription className="text-[var(--text-supporting)]">{outcome.description}</CardDescription>
-                      </div>
-                    </div>
-                  </CardHeader>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-        </div>
-      </section>
-
-      <PageCTA title={copy.ctaTitle} description={copy.ctaDescription}>
-        <Link href="/demo">
-          <Button variant="primary" size="lg">{copy.ctaButton}</Button>
-        </Link>
-      </PageCTA>
-    </div>
-  );
+  const copy = localizedCopy[locale] ?? localizedCopy.en;
+  return <SolutionPageLayout copy={copy} mockup={<ExecutiveBriefingMockup />} />;
 }

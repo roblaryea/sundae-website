@@ -489,3 +489,236 @@ export function ForesightDashboardMockup() {
     </MockupFrame>
   );
 }
+
+export function MarketingPerformanceMockup() {
+  return (
+    <MockupFrame label="Marketing Performance — Campaign ROI">
+      <div className="space-y-4">
+        <div className="flex items-center justify-between">
+          <MockupLiveDot />
+          <span className="text-[10px] text-[var(--text-muted)] font-mono">Last 7 days</span>
+        </div>
+
+        <div className="grid grid-cols-3 gap-3">
+          <MockupKPI label="Blended ROAS" value="4.2x" trend="+0.6 vs LW" trendUp color="#22C55E" />
+          <MockupKPI label="Attributed covers" value="1,840" trend="38% of total" trendUp color="#1C47FF" />
+          <MockupKPI label="Cost per cover" value="$2.10" trend="−$0.40 vs LW" trendUp color="#22C55E" />
+        </div>
+
+        <MockupTable
+          headers={["Channel", "Spend", "Covers", "ROAS"]}
+          rows={[
+            ["Loyalty push", "$1,400", "612", "5.8x"],
+            ["Paid social", "$2,200", "548", "3.9x"],
+            ["Search", "$1,100", "412", "4.4x"],
+            ["Email", "$320", "268", "6.1x"],
+          ]}
+        />
+
+        <MockupAlert type="coach">
+          Cross-Intelligence: Loyalty-push covers convert at 2.3× search rate when paired with the lunch combo. Reallocate $400 from search → loyalty next week.
+        </MockupAlert>
+      </div>
+    </MockupFrame>
+  );
+}
+
+/* ─── Revenue Intelligence Mockup (CFO persona — Insights:Revenue) ─── */
+
+export function RevenueIntelligenceMockup() {
+  return (
+    <MockupFrame label="Revenue Intelligence — Portfolio Today">
+      <div className="space-y-4">
+        <div className="flex items-center justify-between">
+          <MockupLiveDot />
+          <span className="text-[10px] text-[var(--text-muted)] font-mono">Today · vs forecast</span>
+        </div>
+
+        <div className="grid grid-cols-3 gap-3">
+          <MockupKPI label="Net revenue today" value="$184K" trend="+3.2% vs forecast" trendUp color="#22C55E" />
+          <MockupKPI label="Gross margin" value="62.4%" trend="−0.8pp WoW" trendUp={false} color="#FBBF24" />
+          <MockupKPI label="Variance MTD" value="+$5.8K" trend="vs plan" trendUp color="#22C55E" />
+        </div>
+
+        <MockupTable
+          headers={["Channel", "Today", "Mix %", "vs LW"]}
+          rows={[
+            ["Dine-in", "$112K", "61%", "+4.1%"],
+            ["Delivery", "$48K", "26%", "+1.8%"],
+            ["Catering", "$18K", "10%", "−2.4%"],
+            ["Retail", "$6K", "3%", "+0.6%"],
+          ]}
+        />
+
+        <MockupAlert type="coach">
+          Catering down WoW driven by 2 cancelled corporate orders. Net revenue still pacing +3.2% on dine-in strength.
+        </MockupAlert>
+      </div>
+    </MockupFrame>
+  );
+}
+
+/* ─── Labor Operations Mockup (HR / People persona) ─── */
+
+export function LaborOpsMockup() {
+  return (
+    <MockupFrame label="Labor — Live Variance">
+      <div className="space-y-4">
+        <div className="flex items-center justify-between">
+          <MockupLiveDot />
+          <span className="text-[10px] text-[var(--text-muted)] font-mono">Saturday · 1:24 PM</span>
+        </div>
+
+        <div className="grid grid-cols-3 gap-3">
+          <MockupKPI label="Labor % portfolio" value="29.6%" trend="+1.2pp vs target" trendUp={false} color="#FBBF24" />
+          <MockupKPI label="OT exposure" value="$840" trend="3 locations" trendUp={false} color="#FF5450" />
+          <MockupKPI label="Productivity" value="6.8" trend="covers per FOH hr" trendUp color="#22C55E" />
+        </div>
+
+        <MockupTable
+          headers={["Location", "Labor %", "OT risk", "Cover/hr"]}
+          rows={[
+            ["Downtown", "32.1%", "High", "5.4"],
+            ["Marina", "28.4%", "Low", "7.2"],
+            ["Airport", "30.8%", "Med", "6.1"],
+            ["Suburbs", "27.2%", "Low", "7.8"],
+          ]}
+        />
+
+        <MockupAlert type="warning">
+          Downtown schedule is 11% above plan for Sat 7–11pm. Reassign 2 covers to Marina staff or trim one shift.
+        </MockupAlert>
+      </div>
+    </MockupFrame>
+  );
+}
+
+/* ─── Integrations Hub Mockup (Tech / Data persona) ─── */
+
+const INTEGRATIONS_STATUS: Array<[string, "OK" | "Lag 8m" | "OK"]> = [
+  ["POS · Toast", "OK"],
+  ["POS · Square", "OK"],
+  ["Labor · 7shifts", "OK"],
+  ["Inventory · Crunchtime", "OK"],
+  ["Delivery · DoorDash", "OK"],
+  ["Delivery · UberEats", "Lag 8m"],
+  ["Accounting · QuickBooks", "OK"],
+  ["Reservations · OpenTable", "OK"],
+];
+
+export function IntegrationsHubMockup() {
+  return (
+    <MockupFrame label="Integrations — Data Health">
+      <div className="space-y-4">
+        <div className="flex items-center justify-between">
+          <MockupLiveDot />
+          <span className="text-[10px] text-[var(--text-muted)] font-mono">Last sync: 14m ago</span>
+        </div>
+
+        <div className="grid grid-cols-3 gap-3">
+          <MockupKPI label="Active sources" value="14" trend="12 domains" trendUp color="#1C47FF" />
+          <MockupKPI label="Sync rate (7d)" value="99.4%" trend="SLO: 99%" trendUp color="#22C55E" />
+          <MockupKPI label="p95 lag" value="4.2m" color="#1C47FF" />
+        </div>
+
+        <div className="grid grid-cols-2 gap-2">
+          {INTEGRATIONS_STATUS.map(([name, status]) => {
+            const isOk = status === "OK";
+            return (
+              <div
+                key={name}
+                className="flex items-center justify-between bg-white/[0.03] border border-[var(--border-default)] rounded-lg px-3 py-2 text-[11px]"
+              >
+                <span className="text-[var(--text-secondary)] truncate">{name}</span>
+                <span className={isOk ? "text-[#22C55E]" : "text-[#FBBF24]"}>
+                  <span className="inline-block w-1.5 h-1.5 rounded-full mr-1.5 align-middle" style={{ backgroundColor: isOk ? "#22C55E" : "#FBBF24" }} />
+                  {status}
+                </span>
+              </div>
+            );
+          })}
+        </div>
+
+        <MockupAlert type="info">
+          179 governed data models · public API · webhooks · RBAC · audit trails
+        </MockupAlert>
+      </div>
+    </MockupFrame>
+  );
+}
+
+
+/* ─── Executive Briefing Mockup (C-Suite persona) ─── */
+/**
+ * Premium executive briefing — portfolio rollup + AI daily brief + market signal + forecast.
+ * Designed for the C-Suite Executives solution page hero. Not a chat; a synthesized briefing.
+ */
+export function ExecutiveBriefingMockup() {
+  return (
+    <MockupFrame label="Executive Briefing — Tuesday · 6:42 AM" glow>
+      <div className="space-y-4">
+        {/* Live indicator + briefing date */}
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <MockupLiveDot />
+            <span className="text-[10px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
+              Portfolio · 4 brands · 38 locations
+            </span>
+          </div>
+          <span className="text-[10px] text-[var(--text-muted)] font-mono">Auto-generated</span>
+        </div>
+
+        {/* Portfolio rollup — 4 brand KPI tiles */}
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+          {[
+            { brand: "Brand A", value: "$1.84M", delta: "+4.2%", up: true, color: "#22C55E" },
+            { brand: "Brand B", value: "$972K", delta: "+1.8%", up: true, color: "#22C55E" },
+            { brand: "Brand C", value: "$614K", delta: "-2.6%", up: false, color: "#FF5450" },
+            { brand: "Brand D", value: "$408K", delta: "+0.9%", up: true, color: "#1C47FF" },
+          ].map((b) => (
+            <div key={b.brand} className="bg-white/[0.03] rounded-lg p-2.5 border border-[var(--border-default)]">
+              <div className="text-[9px] uppercase tracking-wider text-[var(--text-muted)] mb-0.5">{b.brand}</div>
+              <div className="text-sm font-bold font-mono text-[var(--text-primary)] tabular-nums">{b.value}</div>
+              <div className="text-[10px] font-semibold" style={{ color: b.color }}>
+                {b.up ? "▲" : "▼"} {b.delta}
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* AI Daily Brief — synthesized executive insight with source pills */}
+        <div className="rounded-lg p-4 border" style={{ background: "linear-gradient(135deg, rgba(28,71,255,0.10), rgba(28,71,255,0.02))", borderColor: "rgba(28,71,255,0.25)" }}>
+          <div className="flex items-center gap-2 mb-2">
+            <div className="w-5 h-5 rounded bg-gradient-to-br from-[#1C47FF] to-[#3B82F6] flex items-center justify-center text-white text-[8px] font-bold">SI</div>
+            <span className="text-[10px] uppercase tracking-wider text-[#60A5FA] font-bold">Sundae Intelligence · Daily Brief</span>
+          </div>
+          <p className="text-[12px] text-[var(--text-primary)] leading-relaxed">
+            Portfolio net revenue is pacing <span className="font-bold text-[#22C55E]">+2.4% vs forecast</span>, driven by Brand A dine-in strength. <span className="font-bold text-[#FF5450]">Brand C margin compressed 2.6pp</span> on labor over-coverage Mon–Tue; a 2-shift trim recovers ~$8.4K this week.
+          </p>
+          <div className="flex flex-wrap items-center gap-1.5 mt-3">
+            <span className="text-[9px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">Sources:</span>
+            <span className="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/[0.04] border border-[var(--border-default)] text-[var(--text-secondary)]">Pulse · live</span>
+            <span className="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/[0.04] border border-[var(--border-default)] text-[var(--text-secondary)]">Insights · Labor</span>
+            <span className="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/[0.04] border border-[var(--border-default)] text-[var(--text-secondary)]">Foresight · 14d</span>
+          </div>
+        </div>
+
+        {/* Watchtower + Foresight strip */}
+        <div className="grid grid-cols-2 gap-2">
+          <div className="rounded-lg p-3 border-l-2" style={{ background: "rgba(245,158,11,0.08)", borderColor: "#F59E0B" }}>
+            <div className="text-[9px] uppercase tracking-wider font-bold text-[#F59E0B] mb-1">Watchtower · Risk</div>
+            <p className="text-[11px] text-[var(--text-secondary)] leading-snug">
+              3 competitors dropped lunch combos in Brand C trade area.
+            </p>
+          </div>
+          <div className="rounded-lg p-3 border-l-2" style={{ background: "rgba(34,197,94,0.06)", borderColor: "#22C55E" }}>
+            <div className="text-[9px] uppercase tracking-wider font-bold text-[#22C55E] mb-1">Foresight · 14d</div>
+            <p className="text-[11px] text-[var(--text-secondary)] leading-snug">
+              Portfolio EBITDA tracking <span className="font-bold text-[var(--text-primary)]">+1.6%</span> above plan if Brand C recovers.
+            </p>
+          </div>
+        </div>
+      </div>
+    </MockupFrame>
+  );
+}

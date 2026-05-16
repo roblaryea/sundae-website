@@ -1,291 +1,158 @@
 "use client";
 
-import Link from "next/link";
-import { Button } from "@/components/ui/Button";
-import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/Card";
-import { SundaeIcon, type SundaeIconName } from "@/components/icons";
-import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
+import { IntegrationsHubMockup } from "@/components/ui/MockupFrame";
+import { SolutionPageLayout, type SolutionCopy } from "@/components/solutions/SolutionPageLayout";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 
-type RoleSolutionCopy = {
-  badge: string;
-  titleLine1: string;
-  titleLine2: string;
-  description: string;
-  primaryCta: string;
-  secondaryCta: string;
-  problemsTitle: string;
-  problemsDescription: string;
-  challenges: { title: string; description: string; icon: SundaeIconName }[];
-  howTitle: string;
-  howDescription: string;
-  howSundaeHelps: { title: string; description: string; product: string; icon: SundaeIconName }[];
-  outcomesTitle: string;
-  outcomesDescription: string;
-  outcomes: { title: string; description: string; icon: SundaeIconName }[];
-  ctaTitle: string;
-  ctaDescription: string;
-  ctaButton: string;
-};
-
-const localizedTechnologyCopy: Record<"en" | "ar" | "fr" | "es", RoleSolutionCopy> = {
+const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
   en: {
-    badge: "Data & Technology Teams",
-    titleLine1: "Connect Once.",
-    titleLine2: "Access Everything.",
-    description: "Pre-built connectors. Automated data quality. Operator-facing intelligence. Stop plumbing data and start building value.",
-    primaryCta: "See Technical Architecture",
-    secondaryCta: "View Integrations",
-    problemsTitle: "The Problems You Know",
-    problemsDescription: "Custom ETL. Data quality issues. Endless report requests.",
+    badge: "For Technology & Data Teams",
+    titleLine1: "Twelve sources.",
+    titleLine2: "One governed schema.",
+    description: "POS, labor, inventory, delivery, accounting — unified. RBAC, audit trails, public API, webhooks. Not another integration project.",
+    primaryCta: "Book a Technical Walk-through",
+    secondaryCta: "See API & Schema Docs",
+    problemsEyebrow: "WHAT EATS THE BACKLOG",
+    problemsTitle: "What eats the data backlog",
+    problemsDescription: "Every new dashboard request becomes a six-week integration project.",
     challenges: [
-      { title: "Integration Complexity", description: "Managing data pipelines from dozens of restaurant systems with different APIs and data formats.", icon: "integration" },
-      { title: "Data Quality Issues", description: "Inconsistent data, missing fields, and reconciliation nightmares across POS, payroll, and inventory systems.", icon: "alerts" },
-      { title: "Scalability Demands", description: "As the restaurant group grows, data infrastructure struggles to keep pace with increasing complexity.", icon: "performance" },
-      { title: "Reporting Bottlenecks", description: "Every new report request means custom ETL work, taking time away from strategic initiatives.", icon: "time" },
+      { title: "12 vendor APIs, 5 data formats", description: "Every report request becomes a custom ETL. Your team is glueing pipes, not building product.", icon: "integration" },
+      { title: "No unified restaurant schema", description: "POS vendors model orders differently. Labor systems model shifts differently. You translate forever.", icon: "data" },
+      { title: "Governance built in spreadsheets", description: "Metric definitions live in PMs' heads. \"Net revenue\" means three different things in three reports.", icon: "balance" },
+      { title: "Real-time is a custom project", description: "Every \"can we get this live?\" question turns into a six-week build.", icon: "speed" },
     ],
-    howTitle: "How Sundae Changes That",
-    howDescription: "Scalable infrastructure that works out of the box.",
+    howTitle: "How Sundae works for tech & data teams",
+    howDescription: "One platform, twelve domains, zero plumbing.",
     howSundaeHelps: [
-      { title: "Pre-Built Integrations", description: "Sundae Scout connects to 25+ restaurant systems out of the box - POS, labor, inventory, CRM - with automatic data normalization.", product: "Sundae Scout", icon: "scout" },
-      { title: "Automated Data Quality", description: "Sundae Pulse monitors data pipelines, flags anomalies, and alerts you to integration issues before they impact reporting.", product: "Sundae Pulse", icon: "pulse" },
-      { title: "Operator-Facing Intelligence", description: "Sundae Core lets business operators query data directly with natural language - reducing IT reporting backlog by 75%.", product: "Sundae Core", icon: "intelligence" },
-      { title: "API-First Architecture", description: "Sundae's RESTful API lets you build custom integrations, push data to your warehouse, or embed intelligence into existing tools.", product: "Sundae API", icon: "technology" },
+      { title: "179+ governed restaurant data models", description: "Unified schema across POS, labor, inventory, delivery, reservations, accounting. Every metric defined once, used everywhere.", product: "Sundae Core", icon: "data" },
+      { title: "Public API + webhooks out of the box", description: "REST endpoints for every entity. Webhook events on order, shift, void, comp. RBAC and audit trails built in.", product: "Sundae Core · API", icon: "integration" },
+      { title: "Live Core refresh", description: "Pulse runs on a 5-minute refresh on Core Pro. No batch ETL, no nightly job, no \"why is the dashboard 6 hours behind\".", product: "Pulse", icon: "speed" },
+      { title: "AI you can govern", description: "Sundae Intelligence answers cite the source row, the metric definition, and the query. Auditable AI, not a black box.", product: "Sundae Intelligence", icon: "intelligence" },
     ],
-    outcomesTitle: "What Changes",
-    outcomesDescription: "Less plumbing. More innovation.",
+    outcomesTitle: "What changes for the data team",
+    outcomesDescription: "Shorter backlog, cleaner governance, AI you can defend.",
     outcomes: [
-      { title: "80% less integration time", description: "Pre-built connectors eliminate months of custom integration work.", icon: "speed" },
-      { title: "Eliminate reporting bottlenecks", description: "Operator-facing intelligence frees your team to focus on strategic projects.", icon: "growth" },
-      { title: "Scale data infrastructure", description: "Auto-scaling architecture grows with your restaurant portfolio.", icon: "benchmarking" },
-      { title: "Improve data quality", description: "Automated monitoring and validation ensure clean, reliable data.", icon: "success" },
+      { title: "Stop building integrations", description: "Sundae owns POS/labor/inventory/delivery connectors. Your team builds product, not pipes.", icon: "speed" },
+      { title: "One definition of every metric", description: "Net revenue, food cost %, labor productivity — defined once, governed centrally, used by every team.", icon: "performance" },
+      { title: "Audit-grade traceability", description: "Every number → source row → query → metric definition. Finance, audit, and AI can all defend it.", icon: "owners" },
+      { title: "AI that explains its reasoning", description: "Citations, confidence bands, query inspection. Ship AI features your CISO will sign off on.", icon: "support" },
     ],
-    ctaTitle: "Ready to Simplify Your Stack?",
-    ctaDescription: "See how technology teams eliminate integration complexity.",
-    ctaButton: "Book a Technical Deep Dive",
+    ctaTitle: "See the schema, not the slide.",
+    ctaDescription: "30 minutes. Your stack. The integration weeks Sundae would save your team.",
+    ctaButton: "Book a Technical Walk-through",
   },
   ar: {
-    badge: "فرق البيانات والتقنية",
-    titleLine1: "اتصل مرة واحدة.",
-    titleLine2: "وافتح كل شيء.",
-    description: "موصلات جاهزة. جودة بيانات مؤتمتة. ذكاء موجّه للمشغلين. توقف عن سباكة البيانات وابدأ في بناء القيمة.",
-    primaryCta: "عرض البنية التقنية",
-    secondaryCta: "عرض التكاملات",
-    problemsTitle: "المشكلات التي تعرفها",
-    problemsDescription: "ETL مخصص. مشكلات جودة البيانات. طلبات تقارير لا تنتهي.",
+    badge: "لفِرَق التقنية والبيانات",
+    titleLine1: "اثنا عشر مصدراً.",
+    titleLine2: "مخطط محكوم واحد.",
+    description: "POS، عمالة، مخزون، توصيل، محاسبة — موحدة. RBAC، تتبع، API عامة، webhooks. لا مشروع تكامل آخر.",
+    primaryCta: "احجز جولة تقنية",
+    secondaryCta: "شاهد توثيق API",
+    problemsEyebrow: "ما يستهلك الـ backlog",
+    problemsTitle: "ما يستهلك backlog البيانات",
+    problemsDescription: "كل طلب لوحة جديدة يصبح مشروع تكامل ستة أسابيع.",
     challenges: [
-      { title: "تعقيد التكامل", description: "إدارة مسارات البيانات من عشرات أنظمة المطاعم ذات واجهات ونسق بيانات مختلفة.", icon: "integration" },
-      { title: "مشكلات جودة البيانات", description: "بيانات غير متسقة وحقول مفقودة وكوابيس المطابقة عبر أنظمة نقاط البيع والرواتب والمخزون.", icon: "alerts" },
-      { title: "متطلبات التوسع", description: "مع نمو المجموعة، تكافح البنية التحتية للبيانات لمواكبة التعقيد.", icon: "performance" },
-      { title: "اختناقات التقارير", description: "كل طلب تقرير جديد يعني عمل ETL مخصصًا، ما يسرق الوقت من المبادرات الاستراتيجية.", icon: "time" },
+      { title: "12 API من موردين، 5 صيغ", description: "كل طلب تقرير يصبح ETL مخصص. فريقك يلصق الأنابيب لا يبني المنتج.", icon: "integration" },
+      { title: "لا مخطط مطعم موحد", description: "موردو POS يمثلون الطلبات بشكل مختلف. أنظمة العمالة تمثل الورديات بشكل مختلف.", icon: "data" },
+      { title: "حوكمة في جداول بيانات", description: "تعريفات المقاييس في رؤوس مديري المنتج. \"صافي الإيرادات\" يعني ثلاثة أشياء في ثلاثة تقارير.", icon: "balance" },
+      { title: "الزمن الفعلي مشروع مخصص", description: "كل سؤال \"هل يمكننا الحصول على هذا حياً؟\" يتحول إلى بناء ستة أسابيع.", icon: "speed" },
     ],
-    howTitle: "كيف يغير Sundae ذلك",
-    howDescription: "بنية قابلة للتوسع تعمل مباشرة من الصندوق.",
+    howTitle: "كيف يعمل Sundae لفِرَق التقنية والبيانات",
+    howDescription: "منصة واحدة، اثنا عشر مجالاً، صفر سباكة.",
     howSundaeHelps: [
-      { title: "تكاملات جاهزة", description: "يتصل Sundae Scout بأكثر من 25 نظامًا مباشرة - POS والعمالة والمخزون وCRM - مع تطبيع تلقائي للبيانات.", product: "Sundae Scout", icon: "scout" },
-      { title: "جودة بيانات مؤتمتة", description: "يراقب Sundae Pulse مسارات البيانات ويكشف الشذوذ وينبهك لمشكلات التكامل قبل أن تؤثر على التقارير.", product: "Sundae Pulse", icon: "pulse" },
-      { title: "ذكاء موجّه للمشغلين", description: "يتيح Sundae Core للمشغلين الاستعلام عن البيانات مباشرة بلغة طبيعية ويقلل تراكم تقارير التقنية بنسبة 75%.", product: "Sundae Core", icon: "intelligence" },
-      { title: "بنية API أولًا", description: "تسمح لك REST API من Sundae ببناء تكاملات مخصصة أو دفع البيانات إلى مستودعك أو تضمين الذكاء في أدواتك الحالية.", product: "Sundae API", icon: "technology" },
+      { title: "179+ نموذج بيانات مطعم محكوم", description: "مخطط موحد عبر POS وعمالة ومخزون وتوصيل وحجوزات ومحاسبة. كل مقياس معرف مرة، يُستخدم في كل مكان.", product: "Sundae Core", icon: "data" },
+      { title: "API عامة + webhooks جاهزة", description: "نقاط REST لكل كيان. أحداث webhook على الطلب والوردية والتجاوز والتعويض. RBAC وتتبع مدمجان.", product: "Sundae Core · API", icon: "integration" },
+      { title: "تحديث Core حي", description: "Pulse يعمل بتحديث كل 5 دقائق على Core Pro. لا ETL دفعي، لا مهمة ليلية، لا \"لماذا اللوحة متأخرة 6 ساعات\".", product: "Pulse", icon: "speed" },
+      { title: "ذكاء يمكن حوكمته", description: "إجابات Sundae Intelligence تستشهد بالصف المصدر وتعريف المقياس والاستعلام. ذكاء قابل للتدقيق لا صندوق أسود.", product: "Sundae Intelligence", icon: "intelligence" },
     ],
-    outcomesTitle: "ما الذي يتغير",
-    outcomesDescription: "سباكة أقل. ابتكار أكثر.",
+    outcomesTitle: "ما يتغير لفريق البيانات",
+    outcomesDescription: "backlog أقصر، حوكمة أنظف، ذكاء يمكنك الدفاع عنه.",
     outcomes: [
-      { title: "وقت تكامل أقل بنسبة 80%", description: "الموصلات الجاهزة تلغي شهورًا من أعمال التكامل المخصص.", icon: "speed" },
-      { title: "تخفيف اختناقات التقارير", description: "الذكاء الموجه للمشغلين يحرر فريقك للمشاريع الاستراتيجية.", icon: "growth" },
-      { title: "توسيع البنية التحتية للبيانات", description: "البنية ذات التوسع التلقائي تنمو مع محفظة مطاعمك.", icon: "benchmarking" },
-      { title: "تحسين جودة البيانات", description: "المراقبة والتحقق المؤتمتان يضمنان بيانات نظيفة وموثوقة.", icon: "success" },
+      { title: "توقف عن بناء التكاملات", description: "Sundae يملك موصلات POS/العمالة/المخزون/التوصيل. فريقك يبني المنتج لا الأنابيب.", icon: "speed" },
+      { title: "تعريف واحد لكل مقياس", description: "صافي الإيرادات، نسبة تكلفة الطعام، إنتاجية العمالة — معرفة مرة، محكومة مركزياً.", icon: "performance" },
+      { title: "تتبع بدرجة تدقيق", description: "كل رقم ← صف المصدر ← الاستعلام ← تعريف المقياس. المالية والتدقيق والذكاء يدافعون عنه.", icon: "owners" },
+      { title: "ذكاء يشرح منطقه", description: "استشهادات وفجوات ثقة وفحص استعلام. اشحن ميزات ذكاء سيوقع عليها CISO.", icon: "support" },
     ],
-    ctaTitle: "هل أنت مستعد لتبسيط البنية لديك؟",
-    ctaDescription: "شاهد كيف تلغي فرق التقنية تعقيد التكامل.",
-    ctaButton: "احجز جلسة تقنية معمقة",
+    ctaTitle: "شاهد المخطط لا الشريحة.",
+    ctaDescription: "30 دقيقة. تكدسك. أسابيع التكامل التي سيوفرها Sundae.",
+    ctaButton: "احجز جولة تقنية",
   },
   fr: {
-    badge: "Équipes data & technologie",
-    titleLine1: "Connectez une fois.",
-    titleLine2: "Accédez à tout.",
-    description: "Connecteurs prêts à l'emploi. Qualité de données automatisée. Intelligence côté opérateur. Arrêtez de faire de la plomberie data, commencez à créer de la valeur.",
-    primaryCta: "Voir l'architecture technique",
-    secondaryCta: "Voir les intégrations",
-    problemsTitle: "Les problèmes que vous connaissez",
-    problemsDescription: "ETL sur mesure. Problèmes de qualité. Demandes de rapports sans fin.",
+    badge: "Pour Tech & Data",
+    titleLine1: "Douze sources.",
+    titleLine2: "Un schéma gouverné.",
+    description: "POS, RH, stocks, livraison, comptabilité — unifiés. RBAC, audit, API publique, webhooks. Pas un projet d'intégration de plus.",
+    primaryCta: "Réserver une visite technique",
+    secondaryCta: "Voir API & docs schéma",
+    problemsEyebrow: "CE QUI MANGE LE BACKLOG",
+    problemsTitle: "Ce qui mange le backlog data",
+    problemsDescription: "Chaque nouvelle demande de dashboard devient un projet d'intégration de six semaines.",
     challenges: [
-      { title: "Complexité d'intégration", description: "Gérer des pipelines de données pour des dizaines de systèmes différents.", icon: "integration" },
-      { title: "Problèmes de qualité", description: "Données incohérentes, champs manquants et rapprochements pénibles.", icon: "alerts" },
-      { title: "Exigences de scalabilité", description: "À mesure que le groupe grandit, l'infrastructure peine à suivre la complexité.", icon: "performance" },
-      { title: "Goulots d'étranglement de reporting", description: "Chaque nouveau rapport signifie un ETL sur mesure.", icon: "time" },
+      { title: "12 API fournisseurs, 5 formats", description: "Chaque requête de rapport devient un ETL custom. Votre équipe colle des tuyaux au lieu de construire.", icon: "integration" },
+      { title: "Aucun schéma restaurant unifié", description: "Les vendeurs POS modélisent les commandes différemment. Les SIRH modélisent les shifts différemment.", icon: "data" },
+      { title: "Gouvernance dans des tableurs", description: "Les définitions vivent dans la tête des PMs. \"Revenu net\" veut dire trois choses dans trois rapports.", icon: "balance" },
+      { title: "Le temps réel est un projet sur-mesure", description: "Chaque \"on peut l'avoir live ?\" devient six semaines de build.", icon: "speed" },
     ],
-    howTitle: "Comment Sundae change cela",
-    howDescription: "Une infrastructure scalable qui fonctionne immédiatement.",
+    howTitle: "Comment Sundae sert Tech & Data",
+    howDescription: "Une plateforme, douze domaines, zéro plomberie.",
     howSundaeHelps: [
-      { title: "Intégrations prêtes à l'emploi", description: "Sundae Scout se connecte à plus de 25 systèmes restaurant - POS, main-d'oeuvre, inventaire, CRM - avec normalisation automatique.", product: "Sundae Scout", icon: "scout" },
-      { title: "Qualité des données automatisée", description: "Sundae Pulse surveille les pipelines, signale les anomalies et vous alerte avant que le reporting ne soit impacté.", product: "Sundae Pulse", icon: "pulse" },
-      { title: "Intelligence côté opérateur", description: "Sundae Core permet aux opérateurs d'interroger les données en langage naturel et réduit le backlog IT de 75%.", product: "Sundae Core", icon: "intelligence" },
-      { title: "Architecture API-first", description: "L'API REST de Sundae vous laisse créer des intégrations, pousser des données vers votre warehouse ou intégrer l'intelligence à vos outils.", product: "Sundae API", icon: "technology" },
+      { title: "179+ modèles de données restaurant gouvernés", description: "Schéma unifié sur POS, main-d'œuvre, stocks, livraison, réservations, compta. Une définition, partout.", product: "Sundae Core", icon: "data" },
+      { title: "API publique + webhooks prêts", description: "REST sur chaque entité. Webhooks sur commande, shift, annulation, comp. RBAC et audit inclus.", product: "Sundae Core · API", icon: "integration" },
+      { title: "Refresh Core live", description: "Pulse en 5 min sur Core Pro. Pas d'ETL batch, pas de job nuit, pas de \"pourquoi le dashboard est en retard de 6h\".", product: "Pulse", icon: "speed" },
+      { title: "IA gouvernable", description: "Réponses Sundae Intelligence avec source, définition, requête. IA auditable, pas boîte noire.", product: "Sundae Intelligence", icon: "intelligence" },
     ],
-    outcomesTitle: "Ce qui change",
-    outcomesDescription: "Moins de plomberie. Plus d'innovation.",
+    outcomesTitle: "Ce qui change pour l'équipe data",
+    outcomesDescription: "Backlog plus court, gouvernance propre, IA défendable.",
     outcomes: [
-      { title: "80 % de temps d'intégration en moins", description: "Les connecteurs prêts à l'emploi éliminent des mois de travail sur mesure.", icon: "speed" },
-      { title: "Supprimer les goulots d'étranglement", description: "L'intelligence côté opérateur libère votre équipe pour des projets stratégiques.", icon: "growth" },
-      { title: "Scalable data infra", description: "L'architecture auto-scalable grandit avec votre portefeuille.", icon: "benchmarking" },
-      { title: "Améliorer la qualité", description: "La surveillance et la validation automatiques assurent des données fiables.", icon: "success" },
+      { title: "Arrêtez de construire des intégrations", description: "Sundae possède les connecteurs POS/RH/stocks/livraison. Votre équipe construit du produit, pas des tuyaux.", icon: "speed" },
+      { title: "Une définition par métrique", description: "Revenu net, coût matière %, productivité — définis une fois, gouvernés centralement.", icon: "performance" },
+      { title: "Traçabilité niveau audit", description: "Chaque chiffre → ligne source → requête → définition. Finance, audit et IA peuvent défendre.", icon: "owners" },
+      { title: "IA qui explique son raisonnement", description: "Citations, intervalles de confiance, inspection de requête. Livrez de l'IA que votre CISO valide.", icon: "support" },
     ],
-    ctaTitle: "Prêt à simplifier votre stack ?",
-    ctaDescription: "Voyez comment les équipes tech éliminent la complexité d'intégration.",
-    ctaButton: "Réserver une session technique",
+    ctaTitle: "Voyez le schéma, pas le slide.",
+    ctaDescription: "30 minutes. Votre stack. Les semaines d'intégration que Sundae économise.",
+    ctaButton: "Réserver une visite technique",
   },
   es: {
-    badge: "Equipos de datos y tecnología",
-    titleLine1: "Conecta una vez.",
-    titleLine2: "Accede a todo.",
-    description: "Conectores preconstruidos. Calidad de datos automatizada. Inteligencia para operadores. Deja de hacer fontanería de datos y empieza a crear valor.",
-    primaryCta: "Ver arquitectura técnica",
-    secondaryCta: "Ver integraciones",
-    problemsTitle: "Los problemas que ya conoces",
-    problemsDescription: "ETL a medida. Problemas de calidad. Peticiones de informes sin fin.",
+    badge: "Para Tecnología y Data",
+    titleLine1: "Doce fuentes.",
+    titleLine2: "Un esquema gobernado.",
+    description: "POS, personal, inventario, delivery, contabilidad — unificados. RBAC, auditoría, API pública, webhooks. No otro proyecto de integración.",
+    primaryCta: "Reservar recorrido técnico",
+    secondaryCta: "Ver API y esquema",
+    problemsEyebrow: "QUÉ SE COME EL BACKLOG",
+    problemsTitle: "Qué se come el backlog de datos",
+    problemsDescription: "Cada nuevo dashboard se convierte en un proyecto de integración de seis semanas.",
     challenges: [
-      { title: "Complejidad de integración", description: "Gestionar pipelines de datos para decenas de sistemas con APIs y formatos distintos.", icon: "integration" },
-      { title: "Problemas de calidad de datos", description: "Datos inconsistentes, campos faltantes y conciliaciones dolorosas.", icon: "alerts" },
-      { title: "Exigencias de escalabilidad", description: "A medida que el grupo crece, la infraestructura no da abasto con la complejidad.", icon: "performance" },
-      { title: "Cuellos de botella en reporting", description: "Cada nuevo informe significa trabajo ETL a medida.", icon: "time" },
+      { title: "12 APIs, 5 formatos", description: "Cada reporte se vuelve un ETL custom. Tu equipo pega tuberías en vez de construir producto.", icon: "integration" },
+      { title: "Sin esquema restaurante unificado", description: "Los POS modelan pedidos distinto. Los sistemas de personal modelan turnos distinto.", icon: "data" },
+      { title: "Gobernanza en hojas de cálculo", description: "Las definiciones viven en la cabeza de los PMs. \"Ingreso neto\" significa tres cosas en tres reportes.", icon: "balance" },
+      { title: "Tiempo real es un proyecto a medida", description: "Cada \"¿podemos tener esto en vivo?\" se convierte en seis semanas de build.", icon: "speed" },
     ],
-    howTitle: "Cómo cambia esto Sundae",
-    howDescription: "Infraestructura escalable que funciona desde el primer día.",
+    howTitle: "Cómo trabaja Sundae para Tecnología y Data",
+    howDescription: "Una plataforma, doce dominios, cero plomería.",
     howSundaeHelps: [
-      { title: "Integraciones preconstruidas", description: "Sundae Scout se conecta a más de 25 sistemas - POS, personal, inventario, CRM - con normalización automática.", product: "Sundae Scout", icon: "scout" },
-      { title: "Calidad de datos automatizada", description: "Sundae Pulse monitoriza los pipelines, detecta anomalías y te avisa antes de que afecten al reporting.", product: "Sundae Pulse", icon: "pulse" },
-      { title: "Inteligencia para operadores", description: "Sundae Core permite consultar datos en lenguaje natural y reduce en 75% la cola de reporting de IT.", product: "Sundae Core", icon: "intelligence" },
-      { title: "Arquitectura API-first", description: "La API REST de Sundae te permite crear integraciones, enviar datos al warehouse o incrustar inteligencia en herramientas existentes.", product: "Sundae API", icon: "technology" },
+      { title: "179+ modelos de datos restaurante gobernados", description: "Esquema unificado en POS, personal, inventario, delivery, reservas, contabilidad. Una definición, en todas partes.", product: "Sundae Core", icon: "data" },
+      { title: "API pública + webhooks listos", description: "REST en cada entidad. Webhooks en pedido, turno, anulación, comp. RBAC y auditoría incluidos.", product: "Sundae Core · API", icon: "integration" },
+      { title: "Refresh Core en vivo", description: "Pulse en 5 min en Core Pro. Sin ETL batch, sin job nocturno, sin \"por qué el dashboard va 6 horas tarde\".", product: "Pulse", icon: "speed" },
+      { title: "IA gobernable", description: "Respuestas de Sundae Intelligence con fuente, definición, query. IA auditable, no caja negra.", product: "Sundae Intelligence", icon: "intelligence" },
     ],
-    outcomesTitle: "Qué cambia",
-    outcomesDescription: "Menos fontanería. Más innovación.",
+    outcomesTitle: "Qué cambia para el equipo data",
+    outcomesDescription: "Backlog más corto, gobernanza limpia, IA defendible.",
     outcomes: [
-      { title: "80% menos tiempo de integración", description: "Los conectores listos para usar eliminan meses de trabajo a medida.", icon: "speed" },
-      { title: "Eliminar cuellos de botella", description: "La inteligencia para operadores libera a tu equipo para proyectos estratégicos.", icon: "growth" },
-      { title: "Escalar la infraestructura", description: "La arquitectura autoescalable crece con tu portafolio.", icon: "benchmarking" },
-      { title: "Mejorar la calidad", description: "La monitorización y validación automáticas garantizan datos limpios.", icon: "success" },
+      { title: "Deja de construir integraciones", description: "Sundae es dueño de los conectores POS/personal/inventario/delivery. Tu equipo construye producto.", icon: "speed" },
+      { title: "Una definición por métrica", description: "Ingreso neto, coste alimentos %, productividad — definidos una vez, gobernados centralmente.", icon: "performance" },
+      { title: "Trazabilidad nivel auditoría", description: "Cada cifra → fila fuente → query → definición. Finanzas, auditoría e IA pueden defender.", icon: "owners" },
+      { title: "IA que explica su razonamiento", description: "Citas, intervalos de confianza, inspección de query. Lanza IA que tu CISO valida.", icon: "support" },
     ],
-    ctaTitle: "¿Listo para simplificar tu stack?",
-    ctaDescription: "Ve cómo los equipos de tecnología eliminan la complejidad de integración.",
-    ctaButton: "Reservar sesión técnica",
+    ctaTitle: "Ve el esquema, no la diapositiva.",
+    ctaDescription: "30 minutos. Tu stack. Las semanas de integración que Sundae ahorraría.",
+    ctaButton: "Reservar recorrido técnico",
   },
 };
 
 export default function TechnologyTeamsPage() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedTechnologyCopy[locale] ?? localizedTechnologyCopy.en;
-
-  return (
-    <div className="min-h-screen bg-[var(--navy-deep)]">
-      <PageHero
-        badge={copy.badge}
-        title={<>
-          {copy.titleLine1}
-          <br />
-          {copy.titleLine2}
-        </>}
-        description={copy.description}
-      >
-        <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <Link href="/demo">
-            <Button variant="primary" size="lg">{copy.primaryCta}</Button>
-          </Link>
-          <Link href="/integrations">
-            <Button variant="outline-light" size="lg">{copy.secondaryCta}</Button>
-          </Link>
-        </div>
-      </PageHero>
-
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.problemsTitle}</h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.problemsDescription}</p>
-          </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {copy.challenges.map((challenge, index) => (
-              <StaggerItem key={index}>
-                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                  <CardHeader>
-                    <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <SundaeIcon name={challenge.icon} size="lg" className="text-white" />
-                      </div>
-                      <div>
-                        <CardTitle className="text-[var(--text-primary)] mb-2">{challenge.title}</CardTitle>
-                        <CardDescription className="text-[var(--text-supporting)]">{challenge.description}</CardDescription>
-                      </div>
-                    </div>
-                  </CardHeader>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-        </div>
-      </section>
-
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.howTitle}</h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.howDescription}</p>
-          </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {copy.howSundaeHelps.map((item, index) => (
-              <StaggerItem key={index}>
-                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                  <CardHeader>
-                    <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <SundaeIcon name={item.icon} size="lg" className="text-white" />
-                      </div>
-                      <div>
-                        <div className="text-xs text-[#60A5FA] font-semibold mb-1">{item.product}</div>
-                        <CardTitle className="text-[var(--text-primary)] mb-2">{item.title}</CardTitle>
-                        <CardDescription className="text-[var(--text-supporting)]">{item.description}</CardDescription>
-                      </div>
-                    </div>
-                  </CardHeader>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-        </div>
-      </section>
-
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.outcomesTitle}</h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.outcomesDescription}</p>
-          </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {copy.outcomes.map((outcome, index) => (
-              <StaggerItem key={index}>
-                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                  <CardHeader>
-                    <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <SundaeIcon name={outcome.icon} size="lg" className="text-white" />
-                      </div>
-                      <div>
-                        <CardTitle className="text-[var(--text-primary)] mb-2">{outcome.title}</CardTitle>
-                        <CardDescription className="text-[var(--text-supporting)]">{outcome.description}</CardDescription>
-                      </div>
-                    </div>
-                  </CardHeader>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-        </div>
-      </section>
-
-      <PageCTA title={copy.ctaTitle} description={copy.ctaDescription}>
-        <Link href="/demo">
-          <Button variant="primary" size="lg">{copy.ctaButton}</Button>
-        </Link>
-      </PageCTA>
-    </div>
-  );
+  const copy = localizedCopy[locale] ?? localizedCopy.en;
+  return <SolutionPageLayout copy={copy} mockup={<IntegrationsHubMockup />} />;
 }

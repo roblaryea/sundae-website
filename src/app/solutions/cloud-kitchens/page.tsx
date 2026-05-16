@@ -1,379 +1,158 @@
 "use client";
 
-import Link from "next/link";
-import { Button } from "@/components/ui/Button";
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
-import { SundaeIcon, type SundaeIconName } from "@/components/icons";
-import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
-import { PRICING_URL } from "@/lib/links";
+import { RevenueIntelligenceMockup } from "@/components/ui/MockupFrame";
+import { SolutionPageLayout, type SolutionCopy } from "@/components/solutions/SolutionPageLayout";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import { type WebsiteLocale } from "@/lib/i18n";
 
-type SolutionCard = { title: string; description: string; icon: SundaeIconName };
-
-type CloudKitchenCopy = {
-  hero: {
-    badge: string;
-    title: [string, string];
-    description: string;
-    primaryCta: string;
-    secondaryCta: string;
-  };
-  problems: { heading: string; description: string; items: SolutionCard[] };
-  solutions: { heading: string; description: string; items: SolutionCard[] };
-  insights: {
-    heading: string;
-    description: string;
-    items: SolutionCard[];
-    performanceCardTitle: string;
-    averageDeliveryTime: string;
-    platformRating: string;
-    costPerDelivery: string;
-  };
-  cta: { title: string; description: string; primaryButton: string; secondaryButton: string };
-};
-
-const localizedCopy: Record<WebsiteLocale, CloudKitchenCopy> = {
+const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
   en: {
-    hero: {
-      badge: "Cloud Kitchen Intelligence",
-      title: ["Multi-Brand.", "One Kitchen."],
-      description: "All your virtual brands. Every delivery platform. One intelligence layer.",
-      primaryCta: "See Cloud Kitchen Demo",
-      secondaryCta: "View Benchmarking",
-    },
-    problems: {
-      heading: "The Problems You Know",
-      description: "Multi-brand complexity. Platform fragmentation. Cost allocation chaos.",
-      items: [
-        { title: "Multi-Brand Data Complexity", description: "Managing data across multiple virtual brands from a single kitchen location.", icon: "benchmarking" },
-        { title: "Delivery Performance Optimization", description: "Understanding delivery metrics and optimizing for multiple delivery platforms.", icon: "speed" },
-        { title: "Cost Allocation Across Brands", description: "Accurately tracking costs and profitability for each virtual brand.", icon: "finance" },
-      ],
-    },
-    solutions: {
-      heading: "How Sundae Changes That",
-      description: "Brand-level intelligence. Platform-wide visibility. Clear P&L per concept.",
-      items: [
-        { title: "Multi-Brand Intelligence", description: "Separate intelligence and insights for each virtual brand operating from your kitchen.", icon: "search" },
-        { title: "Delivery Platform Integration", description: "Unified view of performance across Uber Eats, DoorDash, Grubhub, and other platforms.", icon: "integration" },
-        { title: "Brand-Specific Benchmarking", description: "Compare each virtual brand's performance against similar concepts in your market.", icon: "report" },
-      ],
-    },
-    insights: {
-      heading: "What Changes",
-      description: "Faster decisions. Better delivery times. Higher margins per brand.",
-      items: [
-        { title: "Delivery Platform Intelligence", description: "Track performance across Uber Eats, DoorDash, Grubhub, and other platforms in one dashboard.", icon: "chart" },
-        { title: "Virtual Brand Performance", description: "Monitor KPIs for each brand concept operating from your kitchen with separate intelligence.", icon: "owners" },
-        { title: "Delivery Time Optimization", description: "Analyze prep times, delivery times, and customer satisfaction to optimize operations.", icon: "time" },
-      ],
-      performanceCardTitle: "Multi-Brand Performance",
-      averageDeliveryTime: "Average Delivery Time",
-      platformRating: "Platform Rating",
-      costPerDelivery: "Cost per Delivery",
-    },
-    cta: {
-      title: "Ready to Scale Your Brands?",
-      description: "See how cloud kitchens optimize every brand from one dashboard.",
-      primaryButton: "Schedule Cloud Kitchen Demo",
-      secondaryButton: "View Pricing",
-    },
+    badge: "For Cloud Kitchens & Virtual Brands",
+    titleLine1: "Every platform.",
+    titleLine2: "Every brand. One ledger.",
+    description: "Live order, channel, and commission data across DoorDash, UberEats, Talabat, and your direct channels. Margin per platform, not just per brand.",
+    primaryCta: "Book a Cloud Kitchen Walk-through",
+    secondaryCta: "See Delivery Demo",
+    problemsEyebrow: "WHERE CLOUD KITCHENS LOSE MARGIN",
+    problemsTitle: "Where cloud kitchens lose margin",
+    problemsDescription: "Commission stacks, channel chaos, no single view of which virtual brand is actually profitable.",
+    challenges: [
+      { title: "Commission eats the margin", description: "20–30% per platform per order. Net margin per channel is invisible — you optimize gross and lose money.", icon: "balance" },
+      { title: "Six platforms, six dashboards", description: "DoorDash, UberEats, Talabat, Deliveroo, JustEat, your own — each with a different lens, none with the truth.", icon: "delivery" },
+      { title: "Virtual brand performance opaque", description: "Five brands out of one kitchen — but which one actually contributes? Hidden by shared cost and shared throughput.", icon: "performance" },
+      { title: "No view of platform-level health", description: "Toggle settings on UberEats moved last night. Conversion dropped 18%. You won't see it until next week.", icon: "watchtower" },
+    ],
+    howTitle: "How Sundae works for cloud kitchens",
+    howDescription: "Channel-level margin, brand-level contribution, live operational health.",
+    howSundaeHelps: [
+      { title: "Net margin per platform, per brand", description: "Orders, commissions, packaging, allocated labor and food cost — to net margin at the channel × brand intersection. The truth no platform dashboard shows.", product: "Insights · Delivery + Profit", icon: "delivery" },
+      { title: "Virtual brand contribution", description: "Cost-allocate fairly across virtual brands sharing one kitchen. The brand that looks busy may be subsidizing the one that's profitable.", product: "Insights · Item Profitability", icon: "performance" },
+      { title: "Platform health monitoring", description: "Conversion rate, basket size, acceptance rate per platform — flagged when they drift. The toggle change shows up the next morning, not next week.", product: "Watchtower · Platforms", icon: "watchtower" },
+      { title: "Live operational pacing", description: "Order volume, prep time, late-orders by hour. The kitchen sees the spike forming — not the post-mortem.", product: "Pulse", icon: "chart" },
+    ],
+    outcomesTitle: "What changes for the operator",
+    outcomesDescription: "Real margin per channel, profitable brand mix, fewer platform surprises.",
+    outcomes: [
+      { title: "Stop subsidizing unprofitable channels", description: "Cut, renegotiate, or rebalance based on net margin — not order volume.", icon: "speed" },
+      { title: "Kill brands that don't earn their kitchen", description: "Drop the virtual brand that looks busy but contributes nothing once cost is allocated.", icon: "owners" },
+      { title: "Catch platform changes in 24 hours", description: "Toggle changes, ranking shifts, fee updates — surfaced the morning after, not next week.", icon: "performance" },
+      { title: "Run a leaner kitchen", description: "Prep time, throughput, labor productivity per hour — visible while the shift is still running.", icon: "support" },
+    ],
+    ctaTitle: "See net margin per platform.",
+    ctaDescription: "30 minutes. Your kitchens. The channel you might want to drop.",
+    ctaButton: "Book a Cloud Kitchen Walk-through",
   },
   ar: {
-    hero: {
-      badge: "ذكاء المطابخ السحابية",
-      title: ["متعدد العلامات.", "مطبخ واحد."],
-      description: "كل علامتك الافتراضية. كل منصة توصيل. طبقة واحدة من الذكاء.",
-      primaryCta: "شاهد عرض المطبخ السحابي",
-      secondaryCta: "عرض المعيارية",
-    },
-    problems: {
-      heading: "المشكلات التي تعرفها",
-      description: "تعقيد العلامات المتعددة. تجزؤ المنصات. فوضى توزيع التكاليف.",
-      items: [
-        { title: "تعقيد البيانات عبر علامات متعددة", description: "إدارة البيانات عبر عدة علامات افتراضية من موقع مطبخ واحد.", icon: "benchmarking" },
-        { title: "تحسين أداء التوصيل", description: "فهم مقاييس التوصيل وتحسين الأداء عبر منصات متعددة.", icon: "speed" },
-        { title: "توزيع التكاليف بين العلامات", description: "تتبّع التكاليف والربحية بدقة لكل علامة افتراضية.", icon: "finance" },
-      ],
-    },
-    solutions: {
-      heading: "كيف تغيّر Sundae ذلك",
-      description: "ذكاء على مستوى العلامة. رؤية على مستوى المنصات. P&L واضح لكل مفهوم.",
-      items: [
-        { title: "ذكاء متعدد العلامات", description: "رؤى وذكاء منفصل لكل علامة افتراضية تعمل من مطبخك.", icon: "search" },
-        { title: "تكامل منصات التوصيل", description: "عرض موحد للأداء عبر Uber Eats وDoorDash وGrubhub وغيرها.", icon: "integration" },
-        { title: "معيارية خاصة بالعلامة", description: "قارن أداء كل علامة افتراضية بمفاهيم مشابهة في سوقك.", icon: "report" },
-      ],
-    },
-    insights: {
-      heading: "ما الذي يتغير",
-      description: "قرارات أسرع. أوقات توصيل أفضل. هوامش أعلى لكل علامة.",
-      items: [
-        { title: "ذكاء منصات التوصيل", description: "تتبّع الأداء عبر Uber Eats وDoorDash وGrubhub وغيرها في لوحة واحدة.", icon: "chart" },
-        { title: "أداء العلامة الافتراضية", description: "راقب مؤشرات كل مفهوم علامة يعمل من مطبخك بذكاء منفصل.", icon: "owners" },
-        { title: "تحسين وقت التوصيل", description: "حلّل وقت التحضير والتوصيل ورضا العملاء لتحسين التشغيل.", icon: "time" },
-      ],
-      performanceCardTitle: "أداء متعدد العلامات",
-      averageDeliveryTime: "متوسط وقت التوصيل",
-      platformRating: "تقييم المنصة",
-      costPerDelivery: "تكلفة كل عملية توصيل",
-    },
-    cta: {
-      title: "هل أنت مستعد لتوسيع علاماتك؟",
-      description: "شاهد كيف تحسّن المطابخ السحابية كل علامة من لوحة واحدة.",
-      primaryButton: "جدولة عرض المطبخ السحابي",
-      secondaryButton: "عرض الأسعار",
-    },
+    badge: "للمطابخ السحابية والعلامات الافتراضية",
+    titleLine1: "كل منصة.",
+    titleLine2: "كل علامة. دفتر واحد.",
+    description: "بيانات طلب وقناة وعمولة حية عبر DoorDash وUberEats وطلبات وقنواتك المباشرة. هامش لكل منصة، لا فقط لكل علامة.",
+    primaryCta: "احجز جولة مطبخ سحابي",
+    secondaryCta: "شاهد عرض التوصيل",
+    problemsEyebrow: "أين تخسر المطابخ السحابية الهامش",
+    problemsTitle: "أين تخسر المطابخ السحابية الهامش",
+    problemsDescription: "عمولات متراكمة، فوضى قنوات، لا عرض موحد لأي علامة افتراضية ربحية فعلاً.",
+    challenges: [
+      { title: "العمولة تأكل الهامش", description: "20–30% لكل منصة لكل طلب. صافي الهامش لكل قناة غير مرئي.", icon: "balance" },
+      { title: "ست منصات، ست لوحات", description: "DoorDash، UberEats، طلبات، Deliveroo، JustEat، قناتك — كل واحدة بعدسة مختلفة، لا واحدة بالحقيقة.", icon: "delivery" },
+      { title: "أداء العلامة الافتراضية غامض", description: "خمس علامات من مطبخ واحد — لكن أيها يساهم فعلاً؟ مخفي بتكلفة مشتركة وإنتاجية مشتركة.", icon: "performance" },
+      { title: "لا عرض لصحة المنصة", description: "إعدادات UberEats تغيرت ليلة أمس. التحويل انخفض 18%. لن تراه حتى الأسبوع القادم.", icon: "watchtower" },
+    ],
+    howTitle: "كيف يعمل Sundae للمطابخ السحابية",
+    howDescription: "هامش على مستوى القناة، مساهمة العلامة، صحة تشغيلية حية.",
+    howSundaeHelps: [
+      { title: "صافي الهامش لكل منصة ولكل علامة", description: "الطلبات والعمولات والتغليف والعمالة وتكلفة الطعام — إلى صافي الهامش عند تقاطع القناة × العلامة.", product: "Insights · Delivery + Profit", icon: "delivery" },
+      { title: "مساهمة العلامة الافتراضية", description: "تخصيص تكلفة عادل عبر العلامات الافتراضية التي تشترك في مطبخ واحد.", product: "Insights · Item Profitability", icon: "performance" },
+      { title: "مراقبة صحة المنصة", description: "معدل التحويل، حجم السلة، معدل القبول لكل منصة — تظهر عند الانحراف.", product: "Watchtower · Platforms", icon: "watchtower" },
+      { title: "وتيرة تشغيلية حية", description: "حجم الطلبات، وقت التحضير، الطلبات المتأخرة بالساعة. المطبخ يرى الموجة تتشكل.", product: "Pulse", icon: "chart" },
+    ],
+    outcomesTitle: "ما يتغير للمشغّل",
+    outcomesDescription: "هامش حقيقي لكل قناة، مزيج علامات ربحي، مفاجآت منصة أقل.",
+    outcomes: [
+      { title: "توقف عن دعم القنوات غير الربحية", description: "اقطع أو أعد التفاوض أو أعد التوازن بناءً على صافي الهامش لا حجم الطلبات.", icon: "speed" },
+      { title: "تخلَّ عن علامات لا تستحق مطبخها", description: "أسقط العلامة الافتراضية التي تبدو مشغولة ولا تساهم بشيء بعد تخصيص التكلفة.", icon: "owners" },
+      { title: "اكتشف تغييرات المنصة في 24 ساعة", description: "تغييرات التبديل، التصنيفات، الرسوم — تظهر في صباح اليوم التالي لا الأسبوع القادم.", icon: "performance" },
+      { title: "أدر مطبخاً أنحف", description: "وقت التحضير، الإنتاجية، عمالة الساعة — مرئية بينما الوردية تجري.", icon: "support" },
+    ],
+    ctaTitle: "شاهد صافي الهامش لكل منصة.",
+    ctaDescription: "30 دقيقة. مطابخك. القناة التي قد ترغب في إسقاطها.",
+    ctaButton: "احجز جولة مطبخ سحابي",
   },
   fr: {
-    hero: {
-      badge: "Intelligence des cuisines cloud",
-      title: ["Multi-marques.", "Une seule cuisine."],
-      description: "Toutes vos marques virtuelles et chaque plateforme de livraison dans une seule vue operationnelle.",
-      primaryCta: "Voir la démo cuisine cloud",
-      secondaryCta: "Voir le benchmark",
-    },
-    problems: {
-      heading: "Les problèmes que vous connaissez",
-      description: "Complexité multi-marques. Fragmentation des plateformes. Chaos d'allocation des coûts.",
-      items: [
-        { title: "Complexité des données multi-marques", description: "Gérer les données de plusieurs marques virtuelles depuis une seule cuisine.", icon: "benchmarking" },
-        { title: "Optimisation de la livraison", description: "Comprendre les métriques de livraison et optimiser plusieurs plateformes.", icon: "speed" },
-        { title: "Allocation des coûts entre marques", description: "Suivre avec précision les coûts et la rentabilité de chaque marque virtuelle.", icon: "finance" },
-      ],
-    },
-    solutions: {
-      heading: "Comment Sundae change la donne",
-      description: "Intelligence au niveau de la marque. Visibilité à l'échelle des plateformes. P&L clair par concept.",
-      items: [
-        { title: "Intelligence multi-marques", description: "Des insights distincts pour chaque marque virtuelle opérant depuis votre cuisine.", icon: "search" },
-        { title: "Intégration des plateformes de livraison", description: "Vue unifiée des performances sur Uber Eats, DoorDash, Grubhub et autres plateformes.", icon: "integration" },
-        { title: "Benchmarking spécifique à la marque", description: "Comparez chaque marque virtuelle à des concepts similaires sur votre marché.", icon: "report" },
-      ],
-    },
-    insights: {
-      heading: "Ce qui change",
-      description: "Décisions plus rapides. Délais de livraison plus courts. Marges plus élevées par marque.",
-      items: [
-        { title: "Intelligence des plateformes de livraison", description: "Suivez les performances sur Uber Eats, DoorDash, Grubhub et autres dans un seul tableau de bord.", icon: "chart" },
-        { title: "Performance des marques virtuelles", description: "Surveillez les KPI de chaque concept de marque opérant depuis votre cuisine avec une intelligence séparée.", icon: "owners" },
-        { title: "Optimisation des délais de livraison", description: "Analysez les temps de préparation, de livraison et la satisfaction client pour optimiser l'exploitation.", icon: "time" },
-      ],
-      performanceCardTitle: "Performance multi-marques",
-      averageDeliveryTime: "Temps moyen de livraison",
-      platformRating: "Note de plateforme",
-      costPerDelivery: "Coût par livraison",
-    },
-    cta: {
-      title: "Prêt à faire évoluer vos marques ?",
-      description: "Voyez comment les cuisines cloud optimisent chaque marque depuis un seul tableau de bord.",
-      primaryButton: "Planifier une démo cuisine cloud",
-      secondaryButton: "Voir les tarifs",
-    },
+    badge: "Pour cuisines virtuelles et dark kitchens",
+    titleLine1: "Chaque plateforme.",
+    titleLine2: "Chaque marque. Un seul livre.",
+    description: "Commandes, canaux et commissions live sur DoorDash, UberEats, Talabat et vos canaux directs. Marge par plateforme, pas seulement par marque.",
+    primaryCta: "Réserver une visite cuisine virtuelle",
+    secondaryCta: "Voir la démo delivery",
+    problemsEyebrow: "OÙ LES DARK KITCHENS PERDENT LA MARGE",
+    problemsTitle: "Où les dark kitchens perdent la marge",
+    problemsDescription: "Empilement de commissions, chaos des canaux, aucune vue unifiée de quelle marque est réellement rentable.",
+    challenges: [
+      { title: "La commission mange la marge", description: "20–30% par plateforme par commande. La marge nette par canal est invisible.", icon: "balance" },
+      { title: "Six plateformes, six dashboards", description: "DoorDash, UberEats, Talabat, Deliveroo, JustEat, le vôtre — chacun avec une lentille différente.", icon: "delivery" },
+      { title: "Performance des marques virtuelles opaque", description: "Cinq marques d'une seule cuisine — laquelle contribue vraiment ?", icon: "performance" },
+      { title: "Aucune vue de la santé plateforme", description: "Un toggle UberEats a bougé hier soir. La conversion a chuté de 18%. Vous le verrez la semaine prochaine.", icon: "watchtower" },
+    ],
+    howTitle: "Comment Sundae sert les cuisines virtuelles",
+    howDescription: "Marge par canal, contribution par marque, santé opérationnelle live.",
+    howSundaeHelps: [
+      { title: "Marge nette par plateforme, par marque", description: "Commandes, commissions, emballage, coût alloué — à la marge nette canal × marque. La vérité que les dashboards plateforme ne montrent pas.", product: "Insights · Delivery + Profit", icon: "delivery" },
+      { title: "Contribution par marque virtuelle", description: "Coût alloué équitablement entre marques virtuelles partageant une cuisine.", product: "Insights · Item Profitability", icon: "performance" },
+      { title: "Santé plateforme surveillée", description: "Taux de conversion, panier moyen, taux d'acceptation par plateforme — signalés quand ça dérive.", product: "Watchtower · Platforms", icon: "watchtower" },
+      { title: "Rythme opérationnel live", description: "Volume de commandes, temps de prep, retards à l'heure. La cuisine voit la vague se former.", product: "Pulse", icon: "chart" },
+    ],
+    outcomesTitle: "Ce qui change pour l'opérateur",
+    outcomesDescription: "Marge réelle par canal, mix de marques rentable, moins de surprises plateforme.",
+    outcomes: [
+      { title: "Arrêtez de subventionner les canaux non rentables", description: "Coupez, renégociez ou rééquilibrez basé sur la marge nette — pas le volume.", icon: "speed" },
+      { title: "Tuez les marques qui ne paient pas leur cuisine", description: "Lâchez la marque virtuelle qui semble occupée mais ne contribue à rien une fois le coût alloué.", icon: "owners" },
+      { title: "Attrapez les changements plateforme en 24h", description: "Changements de toggle, ranking, frais — remontés le matin suivant.", icon: "performance" },
+      { title: "Tournez une cuisine plus lean", description: "Temps de prep, débit, productivité main-d'œuvre — visibles pendant le service.", icon: "support" },
+    ],
+    ctaTitle: "Marge nette par plateforme.",
+    ctaDescription: "30 minutes. Vos cuisines. Le canal que vous pourriez vouloir lâcher.",
+    ctaButton: "Réserver une visite cuisine virtuelle",
   },
   es: {
-    hero: {
-      badge: "Inteligencia para cocinas cloud",
-      title: ["Multimarca.", "Una sola cocina."],
-      description: "Todas tus marcas virtuales y todas las plataformas de entrega en una sola vista operativa.",
-      primaryCta: "Ver demo de cocina cloud",
-      secondaryCta: "Ver benchmarking",
-    },
-    problems: {
-      heading: "Los problemas que conoces",
-      description: "Complejidad multimarca. Fragmentación de plataformas. Caos en la asignación de costos.",
-      items: [
-        { title: "Complejidad de datos multimarca", description: "Gestionar datos de varias marcas virtuales desde una sola cocina.", icon: "benchmarking" },
-        { title: "Optimización del rendimiento de entrega", description: "Entender las métricas de entrega y optimizar para múltiples plataformas.", icon: "speed" },
-        { title: "Asignación de costos entre marcas", description: "Rastrear con precisión costos y rentabilidad de cada marca virtual.", icon: "finance" },
-      ],
-    },
-    solutions: {
-      heading: "Cómo lo cambia Sundae",
-      description: "Inteligencia por marca. Visibilidad en todas las plataformas. P&L claro por concepto.",
-      items: [
-        { title: "Inteligencia multimarca", description: "Insights separados para cada marca virtual que opera desde tu cocina.", icon: "search" },
-        { title: "Integración con plataformas de entrega", description: "Vista unificada del rendimiento en Uber Eats, DoorDash, Grubhub y otras plataformas.", icon: "integration" },
-        { title: "Benchmarking por marca", description: "Compara cada marca virtual con conceptos similares en tu mercado.", icon: "report" },
-      ],
-    },
-    insights: {
-      heading: "Qué cambia",
-      description: "Decisiones más rápidas. Tiempos de entrega mejores. Mayores márgenes por marca.",
-      items: [
-        { title: "Inteligencia de plataformas de entrega", description: "Rastrea el rendimiento en Uber Eats, DoorDash, Grubhub y otras en un solo panel.", icon: "chart" },
-        { title: "Rendimiento de marcas virtuales", description: "Monitorea KPI de cada concepto de marca operando desde tu cocina con inteligencia separada.", icon: "owners" },
-        { title: "Optimización del tiempo de entrega", description: "Analiza tiempos de preparación, entrega y satisfacción del cliente para optimizar operaciones.", icon: "time" },
-      ],
-      performanceCardTitle: "Rendimiento multimarca",
-      averageDeliveryTime: "Tiempo promedio de entrega",
-      platformRating: "Calificación de la plataforma",
-      costPerDelivery: "Costo por entrega",
-    },
-    cta: {
-      title: "¿Listo para escalar tus marcas?",
-      description: "Mira cómo las cocinas cloud optimizan cada marca desde un solo panel.",
-      primaryButton: "Programar demo de cocina cloud",
-      secondaryButton: "Ver precios",
-    },
+    badge: "Para cocinas en la nube y marcas virtuales",
+    titleLine1: "Cada plataforma.",
+    titleLine2: "Cada marca. Un solo libro.",
+    description: "Datos en vivo de pedidos, canal y comisión en DoorDash, UberEats, Rappi y tus canales directos. Margen por plataforma, no solo por marca.",
+    primaryCta: "Reservar recorrido cocina en la nube",
+    secondaryCta: "Ver demo de delivery",
+    problemsEyebrow: "DÓNDE PIERDEN MARGEN",
+    problemsTitle: "Dónde pierden margen las cocinas en la nube",
+    problemsDescription: "Comisiones apiladas, caos de canales, sin vista unificada de qué marca virtual es realmente rentable.",
+    challenges: [
+      { title: "La comisión se come el margen", description: "20–30% por plataforma por pedido. El margen neto por canal es invisible.", icon: "balance" },
+      { title: "Seis plataformas, seis dashboards", description: "DoorDash, UberEats, Rappi, Glovo, JustEat, el tuyo — cada uno con una lente distinta.", icon: "delivery" },
+      { title: "Rendimiento de marca virtual opaco", description: "Cinco marcas de una sola cocina — ¿cuál contribuye realmente?", icon: "performance" },
+      { title: "Sin vista de salud de plataforma", description: "Un toggle de UberEats cambió anoche. La conversión cayó 18%. Lo verás la próxima semana.", icon: "watchtower" },
+    ],
+    howTitle: "Cómo trabaja Sundae para cocinas en la nube",
+    howDescription: "Margen por canal, contribución por marca, salud operativa en vivo.",
+    howSundaeHelps: [
+      { title: "Margen neto por plataforma y por marca", description: "Pedidos, comisiones, empaque, coste asignado — al margen neto en la intersección canal × marca.", product: "Insights · Delivery + Profit", icon: "delivery" },
+      { title: "Contribución por marca virtual", description: "Coste asignado justamente entre marcas virtuales que comparten una cocina.", product: "Insights · Item Profitability", icon: "performance" },
+      { title: "Salud de plataforma monitoreada", description: "Tasa de conversión, ticket medio, tasa de aceptación por plataforma — señalados al desviarse.", product: "Watchtower · Platforms", icon: "watchtower" },
+      { title: "Ritmo operativo en vivo", description: "Volumen de pedidos, tiempo de preparación, atrasos por hora. La cocina ve la ola formándose.", product: "Pulse", icon: "chart" },
+    ],
+    outcomesTitle: "Qué cambia para el operador",
+    outcomesDescription: "Margen real por canal, mix de marcas rentable, menos sorpresas de plataforma.",
+    outcomes: [
+      { title: "Deja de subsidiar canales no rentables", description: "Corta, renegocia o reequilibra basado en margen neto — no en volumen.", icon: "speed" },
+      { title: "Mata marcas que no pagan su cocina", description: "Suelta la marca virtual que parece ocupada pero no contribuye una vez asignado el coste.", icon: "owners" },
+      { title: "Atrapa cambios de plataforma en 24 horas", description: "Cambios de toggle, ranking, tarifas — saliendo la mañana siguiente.", icon: "performance" },
+      { title: "Opera una cocina más lean", description: "Tiempo de preparación, throughput, productividad por hora — visible mientras el turno corre.", icon: "support" },
+    ],
+    ctaTitle: "Margen neto por plataforma.",
+    ctaDescription: "30 minutos. Tus cocinas. El canal que podrías querer soltar.",
+    ctaButton: "Reservar recorrido cocina en la nube",
   },
 };
 
 export default function CloudKitchensPage() {
   const { locale } = useWebsiteI18n();
   const copy = localizedCopy[locale] ?? localizedCopy.en;
-
-  return (
-    <div className="min-h-screen bg-[var(--navy-deep)]">
-      <PageHero
-        badge={copy.hero.badge}
-        title={
-          <>
-            {copy.hero.title[0]}
-            <br />
-            {copy.hero.title[1]}
-          </>
-        }
-        description={copy.hero.description}
-      >
-        <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <Link href="/demo">
-            <Button variant="primary" size="lg">
-              {copy.hero.primaryCta}
-            </Button>
-          </Link>
-          <Link href="/benchmarking">
-            <Button variant="outline-light" size="lg">
-              {copy.hero.secondaryCta}
-            </Button>
-          </Link>
-        </div>
-      </PageHero>
-
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.problems.heading}</h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.problems.description}</p>
-          </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {copy.problems.items.map((challenge, index) => (
-              <StaggerItem key={index}>
-                <Card variant="elevated" className="text-center">
-                  <CardHeader>
-                    <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center">
-                      <SundaeIcon name={challenge.icon} size="xl" className="text-white" />
-                    </div>
-                    <CardTitle className="text-[var(--text-primary)]">{challenge.title}</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <CardDescription className="text-[var(--text-supporting)]">{challenge.description}</CardDescription>
-                  </CardContent>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-        </div>
-      </section>
-
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.solutions.heading}</h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.solutions.description}</p>
-          </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {copy.solutions.items.map((solution, index) => (
-              <StaggerItem key={index}>
-                <Card variant="elevated" className="text-center">
-                  <CardHeader>
-                    <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center">
-                      <SundaeIcon name={solution.icon} size="xl" className="text-white" />
-                    </div>
-                    <CardTitle className="text-[var(--text-primary)]">{solution.title}</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <CardDescription className="text-[var(--text-supporting)]">{solution.description}</CardDescription>
-                  </CardContent>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-        </div>
-      </section>
-
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.insights.heading}</h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.insights.description}</p>
-          </FadeUp>
-
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <FadeUp>
-              <div className="space-y-8">
-                {copy.insights.items.map((feature, index) => (
-                  <div key={index} className="flex items-start space-x-4">
-                    <div className="w-10 h-10 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                      <SundaeIcon name={feature.icon} size="md" className="text-white" />
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">{feature.title}</h3>
-                      <p className="text-[var(--text-supporting)]">{feature.description}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </FadeUp>
-
-            <FadeUp delay={0.2}>
-              <div className="bg-[var(--surface-faint)] rounded-2xl p-8 border border-[var(--border-default)]">
-                <div className="text-center mb-6">
-                  <div className="w-20 h-20 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-                    <SundaeIcon name="growth" size="xl" className="text-white" />
-                  </div>
-                  <h3 className="text-2xl font-bold text-[var(--text-primary)]">{copy.insights.performanceCardTitle}</h3>
-                </div>
-
-                <div className="space-y-4">
-                  <div className="bg-[var(--navy-deep)] rounded-lg p-4">
-                    <div className="flex justify-between items-center">
-                      <span className="text-sm font-medium text-[var(--text-secondary)]">{copy.insights.averageDeliveryTime}</span>
-                      <span className="text-lg font-bold text-green-500">↓ 15%</span>
-                    </div>
-                  </div>
-                  <div className="bg-[var(--navy-deep)] rounded-lg p-4">
-                    <div className="flex justify-between items-center">
-                      <span className="text-sm font-medium text-[var(--text-secondary)]">{copy.insights.platformRating}</span>
-                      <span className="text-lg font-bold text-[#60A5FA]">4.7★</span>
-                    </div>
-                  </div>
-                  <div className="bg-[var(--navy-deep)] rounded-lg p-4">
-                    <div className="flex justify-between items-center">
-                      <span className="text-sm font-medium text-[var(--text-secondary)]">{copy.insights.costPerDelivery}</span>
-                      <span className="text-lg font-bold text-purple-400">↓ 12%</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </FadeUp>
-          </div>
-        </div>
-      </section>
-
-      <PageCTA title={copy.cta.title} description={copy.cta.description}>
-        <Link href="/demo">
-          <Button variant="primary" size="lg">
-            {copy.cta.primaryButton}
-          </Button>
-        </Link>
-        <a href={PRICING_URL}>
-          <Button variant="outline-light" size="lg">
-            {copy.cta.secondaryButton}
-          </Button>
-        </a>
-      </PageCTA>
-    </div>
-  );
+  return <SolutionPageLayout copy={copy} mockup={<RevenueIntelligenceMockup />} />;
 }

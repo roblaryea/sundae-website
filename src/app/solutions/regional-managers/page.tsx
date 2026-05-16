@@ -1,292 +1,158 @@
 "use client";
 
-import Link from "next/link";
-import { REPORT_APP_URL } from "@/lib/urls";
-import { Button } from "@/components/ui/Button";
-import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/Card";
-import { SundaeIcon, type SundaeIconName } from "@/components/icons";
-import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
+import { PulseDashboardMockup } from "@/components/ui/MockupFrame";
+import { SolutionPageLayout, type SolutionCopy } from "@/components/solutions/SolutionPageLayout";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 
-type RoleSolutionCopy = {
-  badge: string;
-  titleLine1: string;
-  titleLine2: string;
-  description: string;
-  primaryCta: string;
-  secondaryCta: string;
-  problemsTitle: string;
-  problemsDescription: string;
-  challenges: { title: string; description: string; icon: SundaeIconName }[];
-  howTitle: string;
-  howDescription: string;
-  howSundaeHelps: { title: string; description: string; product: string; icon: SundaeIconName }[];
-  outcomesTitle: string;
-  outcomesDescription: string;
-  outcomes: { title: string; description: string; icon: SundaeIconName }[];
-  ctaTitle: string;
-  ctaDescription: string;
-  ctaButton: string;
-};
-
-const localizedRegionalCopy: Record<"en" | "ar" | "fr" | "es", RoleSolutionCopy> = {
+const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
   en: {
-    badge: "Regional Managers",
-    titleLine1: "Every Location.",
-    titleLine2: "One View.",
-    description: "Real-time visibility. Proactive alerts. Numbers-backed coaching. Manage your region without living on the road.",
-    primaryCta: "See How Sundae Works for RMs",
-    secondaryCta: "Get Regional Benchmark Report",
-    problemsTitle: "The Problems You Know",
-    problemsDescription: "Firefighting. Limited visibility. Too much travel.",
+    badge: "For Regional & Area Managers",
+    titleLine1: "Run twelve outlets.",
+    titleLine2: "Like you're standing in one.",
+    description: "Live shift visibility across every location. Pacing flags the outlet that needs you right now. No waiting for the Friday recap.",
+    primaryCta: "Book a Regional Walk-through",
+    secondaryCta: "See the Ops Demo",
+    problemsEyebrow: "WHAT SLOWS YOU DOWN",
+    problemsTitle: "What slows a regional manager down",
+    problemsDescription: "Too many sites, not enough time, too much data after the fact.",
     challenges: [
-      { title: "Limited Visibility Across Locations", description: "You're responsible for multiple sites but lack real-time visibility into what's happening at each one.", icon: "watchtower" },
-      { title: "Firefighting Mode", description: "Spending more time reacting to problems than preventing them or driving strategic improvements.", icon: "alerts" },
-      { title: "Inconsistent Performance", description: "Some locations excel while others lag, but you don't have clear data on why or how to fix it.", icon: "benchmarking" },
-      { title: "Time-Consuming Site Visits", description: "Physical visits are the only way to understand what's really happening, leaving little time for strategy.", icon: "time" },
+      { title: "You can't be in every restaurant at once", description: "By the time the bad shift is over, you find out from the recap — not the floor.", icon: "operators" },
+      { title: "Server performance varies by 30%+", description: "You know the top performers and the laggards. You don't know it in time to pair them up.", icon: "performance" },
+      { title: "Leakage hides in the noise", description: "Voids, comps, discounts, over-coverage — small per shift, expensive over a month.", icon: "balance" },
+      { title: "Every site asks for help at once", description: "Without pacing visibility, you triage on instinct, not on which location is actually slipping.", icon: "support" },
     ],
-    howTitle: "How Sundae Changes That",
-    howDescription: "Clarity across every location. Alerts before problems escalate.",
+    howTitle: "How Sundae works for regional managers",
+    howDescription: "One live view of every shift, every server, every outlet.",
     howSundaeHelps: [
-      { title: "Real-Time Regional Dashboard", description: "Sundae Core gives you a single view of all your locations - sales, labor, margins, and operations - updated in real time.", product: "Sundae Core", icon: "chart" },
-      { title: "Proactive Alerts", description: "Sundae Core flags issues before they become problems, letting you intervene early and coach more effectively.", product: "Sundae Core", icon: "insights" },
-      { title: "Instant Answers", description: "Ask Sundae which locations are trending up this week or where labor variance is highest and get immediate, numbers-backed answers.", product: "Sundae Intelligence", icon: "intelligence" },
-      { title: "Performance Benchmarking", description: "Sundae Report shows how each location compares to your regional average and top performers, making coaching conversations specific and actionable.", product: "Sundae Report", icon: "report" },
+      { title: "Live pacing across the region", description: "Each location's revenue, covers, and labor — updated through the shift. The site that's slipping gets flagged in your morning brief, not Friday's review.", product: "Pulse", icon: "chart" },
+      { title: "Server-level intelligence", description: "Upsell rate, table turn, check size by server. Pair your lagging server with your strongest before the shift ends.", product: "Pulse · Server view", icon: "operators" },
+      { title: "Leakage spotted in the shift", description: "Void runs, comp clusters, off-pattern discounts — surfaced at the location while there's still time to talk to the GM.", product: "Insights · Revenue Assurance", icon: "owners" },
+      { title: "Sundae Coach gives the next move", description: "When a site is pacing 14% behind, Coach recommends a specific play — adjusted labor, a loyalty push, a menu swap — based on what's worked before.", product: "Sundae Intelligence", icon: "intelligence" },
     ],
-    outcomesTitle: "What Changes",
-    outcomesDescription: "Less firefighting. More impact.",
+    outcomesTitle: "What changes for the region",
+    outcomesDescription: "Faster intervention, sharper sites, fewer Friday surprises.",
     outcomes: [
-      { title: "Spend less time firefighting", description: "Catch issues early with automated alerts and focus on strategic improvement.", icon: "speed" },
-      { title: "More effective site visits", description: "Arrive with numbers-backed insights and have more productive conversations with GMs.", icon: "marketing" },
-      { title: "Lift underperforming locations faster", description: "Identify gaps quickly and replicate best practices across your region.", icon: "growth" },
-      { title: "Better work-life balance", description: "Manage your region from anywhere with mobile access to all key metrics.", icon: "balance" },
+      { title: "Intervene in the shift, not after", description: "The location that needs you sends the signal before the floor knows. Action moves to the right outlet at the right time.", icon: "speed" },
+      { title: "Coach instead of audit", description: "Stop spending the visit chasing what the report missed. Use the visit to coach the team on what to do next.", icon: "support" },
+      { title: "Same playbook, every outlet", description: "What works at Site 4 propagates to Site 7. Region-wide standards stay tight without a memo.", icon: "performance" },
+      { title: "Recover leakage you didn't know you had", description: "1–3% of revenue typically hides in voids, comps, and overrides. Sundae surfaces it shift-by-shift.", icon: "owners" },
     ],
-    ctaTitle: "Ready to Manage Smarter?",
-    ctaDescription: "See how regional managers get visibility across every location.",
-    ctaButton: "Book a Regional Manager Demo",
+    ctaTitle: "See your region in one view.",
+    ctaDescription: "30 minutes. Your locations. The shift you would have handled differently.",
+    ctaButton: "Book a Regional Walk-through",
   },
   ar: {
-    badge: "المديرون الإقليميون",
-    titleLine1: "كل موقع.",
-    titleLine2: "رؤية واحدة.",
-    description: "رؤية لحظية. تنبيهات استباقية. تدريب مدعوم بالأرقام. أدِر منطقتك دون أن تعيش على الطريق.",
-    primaryCta: "شاهد كيف يعمل Sundae للمديرين الإقليميين",
-    secondaryCta: "احصل على تقرير معياري إقليمي",
-    problemsTitle: "المشكلات التي تعرفها",
-    problemsDescription: "إطفاء حرائق. رؤية محدودة. سفر كثير.",
+    badge: "للمدراء الإقليميين",
+    titleLine1: "أدر اثني عشر موقعاً.",
+    titleLine2: "وكأنك في واحد.",
+    description: "رؤية وردية حية عبر كل موقع. الوتيرة تنبه للموقع الذي يحتاجك الآن. لا انتظار لتقرير الجمعة.",
+    primaryCta: "احجز جولة إقليمية",
+    secondaryCta: "شاهد عرض العمليات",
+    problemsEyebrow: "ما يبطئك",
+    problemsTitle: "ما يبطئ المدير الإقليمي",
+    problemsDescription: "مواقع كثيرة، وقت قليل، وبيانات تصل بعد فوات الأوان.",
     challenges: [
-      { title: "رؤية محدودة عبر المواقع", description: "أنت مسؤول عن عدة مواقع لكنك تفتقر إلى رؤية لحظية لما يحدث في كل واحد منها.", icon: "watchtower" },
-      { title: "وضع إطفاء الحرائق", description: "تقضي وقتًا أطول في الرد على المشكلات بدلًا من منعها أو دفع التحسينات الاستراتيجية.", icon: "alerts" },
-      { title: "أداء غير متسق", description: "بعض المواقع تتفوق وأخرى تتأخر، لكن لا توجد لديك بيانات واضحة عن السبب أو طريقة الإصلاح.", icon: "benchmarking" },
-      { title: "زيارات المواقع تستغرق وقتًا", description: "الزيارات الميدانية هي الطريقة الوحيدة لفهم ما يحدث فعلًا، ما يترك وقتًا قليلاً للاستراتيجية.", icon: "time" },
+      { title: "لا يمكنك أن تكون في كل مطعم في آن واحد", description: "حين تنتهي الوردية السيئة، تعرف من التقرير — لا من الموقع.", icon: "operators" },
+      { title: "أداء الموظفين يتفاوت 30%+", description: "تعرف من يتفوق ومن يتأخر. لا تعرفه في الوقت المناسب لإقرانهم.", icon: "performance" },
+      { title: "التسرب يختبئ في الضوضاء", description: "تجاوزات وتعويضات وخصومات وعمالة زائدة — صغيرة بالوردية، باهظة بالشهر.", icon: "balance" },
+      { title: "كل المواقع تطلب المساعدة معاً", description: "بلا رؤية للوتيرة، تعتمد الحدس لا الموقع الذي ينزلق فعلاً.", icon: "support" },
     ],
-    howTitle: "كيف يغير Sundae ذلك",
-    howDescription: "وضوح عبر كل موقع. تنبيهات قبل تفاقم المشكلات.",
+    howTitle: "كيف يعمل Sundae للمدراء الإقليميين",
+    howDescription: "عرض حي واحد لكل وردية وكل موظف وكل موقع.",
     howSundaeHelps: [
-      { title: "لوحة إقليمية لحظية", description: "يمنحك Sundae Core رؤية موحدة لكل المواقع - المبيعات والعمالة والهوامش والعمليات - محدثة لحظيًا.", product: "Sundae Core", icon: "chart" },
-      { title: "تنبيهات استباقية", description: "يحدد Sundae Core المشكلات قبل أن تصبح أزمات، ما يتيح لك التدخل المبكر والتوجيه بفعالية أكبر.", product: "Sundae Core", icon: "insights" },
-      { title: "إجابات فورية", description: "اسأل Sundae عن المواقع الأعلى نموًا هذا الأسبوع أو أعلى انحراف في العمالة واحصل على إجابات فورية مدعومة بالأرقام.", product: "Sundae Intelligence", icon: "intelligence" },
-      { title: "معايير الأداء", description: "يُظهر Sundae Report كيف يقارن كل موقع بمتوسط الإقليم وأفضل المؤدين، لتصبح المحادثات أكثر دقة وقابلية للتنفيذ.", product: "Sundae Report", icon: "report" },
+      { title: "وتيرة حية عبر المنطقة", description: "إيرادات وضيوف وعمالة كل موقع — تتحدث عبر الوردية. الموقع الذي ينزلق يظهر في إحاطتك الصباحية.", product: "Pulse", icon: "chart" },
+      { title: "ذكاء على مستوى الموظف", description: "معدل البيع الإضافي، دوران الطاولات، حجم الفاتورة لكل موظف. اقرن المتأخر بالأقوى قبل نهاية الوردية.", product: "Pulse · Server view", icon: "operators" },
+      { title: "اكتشاف التسرب في الوردية", description: "تجاوزات وخصومات شاذة — تظهر في الموقع وهناك وقت للحديث مع المدير.", product: "Insights · Revenue Assurance", icon: "owners" },
+      { title: "Sundae Coach يعطي الخطوة التالية", description: "حين يتأخر موقع 14%، يقترح Coach خطة محددة بناءً على ما نجح سابقاً.", product: "Sundae Intelligence", icon: "intelligence" },
     ],
-    outcomesTitle: "ما الذي يتغير",
-    outcomesDescription: "إطفاء حرائق أقل. أثر أكبر.",
+    outcomesTitle: "ما يتغير للمنطقة",
+    outcomesDescription: "تدخل أسرع، مواقع أحدّ، مفاجآت أقل يوم الجمعة.",
     outcomes: [
-      { title: "وقت أقل في الإطفاء", description: "التقط المشكلات مبكرًا مع التنبيهات التلقائية وركز على التحسين الاستراتيجي.", icon: "speed" },
-      { title: "زيارات مواقع أكثر فاعلية", description: "تعال برؤى مدعومة بالأرقام وادخل محادثات أكثر إنتاجية مع المديرين.", icon: "marketing" },
-      { title: "رفع المواقع الضعيفة أسرع", description: "حدد الفجوات بسرعة وكرر أفضل الممارسات عبر منطقتك.", icon: "growth" },
-      { title: "توازن أفضل بين العمل والحياة", description: "أدر منطقتك من أي مكان مع وصول هاتفي إلى المقاييس الأساسية.", icon: "balance" },
+      { title: "تدخل في الوردية لا بعدها", description: "الموقع الذي يحتاجك يرسل الإشارة قبل أن يعلم. الفعل يصل للوقت الصحيح.", icon: "speed" },
+      { title: "كن مدرباً لا مدققاً", description: "توقف عن مطاردة ما فاته التقرير. استخدم الزيارة للتدريب على الخطوة التالية.", icon: "support" },
+      { title: "نفس الكتاب لكل موقع", description: "ما ينجح في الموقع 4 ينتشر إلى الموقع 7. معايير الإقليم تبقى محكمة.", icon: "performance" },
+      { title: "استرد تسرباً لم تعرف أنه موجود", description: "عادةً 1–3% من الإيرادات تختبئ في التجاوزات والتعويضات. Sundae يكشفها وردية بوردية.", icon: "owners" },
     ],
-    ctaTitle: "هل أنت مستعد للإدارة بذكاء؟",
-    ctaDescription: "شاهد كيف يحصل المديرون الإقليميون على رؤية عبر كل موقع.",
-    ctaButton: "احجز عرضًا للمديرين الإقليميين",
+    ctaTitle: "شاهد منطقتك في عرض واحد.",
+    ctaDescription: "30 دقيقة. مواقعك. الوردية التي كنت ستديرها بشكل مختلف.",
+    ctaButton: "احجز جولة إقليمية",
   },
   fr: {
-    badge: "Responsables régionaux",
-    titleLine1: "Chaque site.",
-    titleLine2: "Une seule vue.",
-    description: "Visibilité en temps réel. Alertes proactives. Coaching fondé sur les chiffres. Gérez votre région sans vivre sur la route.",
-    primaryCta: "Voir comment Sundae aide les responsables régionaux",
-    secondaryCta: "Obtenir le rapport de benchmark régional",
-    problemsTitle: "Les problèmes que vous connaissez",
-    problemsDescription: "Gestion en mode pompier. Visibilité limitée. Trop de déplacements.",
+    badge: "Pour managers régionaux",
+    titleLine1: "Pilotez douze sites.",
+    titleLine2: "Comme si vous y étiez.",
+    description: "Visibilité service par service sur chaque site. Le rythme signale le site qui a besoin de vous maintenant. Plus d'attente du récap du vendredi.",
+    primaryCta: "Réserver une visite régionale",
+    secondaryCta: "Voir la démo opérations",
+    problemsEyebrow: "CE QUI VOUS RALENTIT",
+    problemsTitle: "Ce qui ralentit un manager régional",
+    problemsDescription: "Trop de sites, pas assez de temps, trop de données après coup.",
     challenges: [
-      { title: "Visibilité limitée sur les sites", description: "Vous gérez plusieurs sites mais sans visibilité temps réel sur ce qui s'y passe.", icon: "watchtower" },
-      { title: "Mode pompier", description: "Vous passez plus de temps à réagir qu'à prévenir ou à améliorer stratégiquement.", icon: "alerts" },
-      { title: "Performance inégale", description: "Certains sites excellent, d'autres décrochent, sans données claires pour comprendre pourquoi.", icon: "benchmarking" },
-      { title: "Visites chronophages", description: "Les visites terrain sont le seul moyen de comprendre la réalité, au détriment de la stratégie.", icon: "time" },
+      { title: "Vous ne pouvez pas être partout", description: "Le service raté, vous l'apprenez du récap — pas de la salle.", icon: "operators" },
+      { title: "Performance serveurs : 30%+ d'écart", description: "Vous connaissez les meilleurs et les retardataires. Pas à temps pour les associer.", icon: "performance" },
+      { title: "La fuite se cache dans le bruit", description: "Annulations, remises, sur-couverture — petits au service, coûteux au mois.", icon: "balance" },
+      { title: "Tous les sites demandent de l'aide", description: "Sans visibilité sur le rythme, vous triez à l'instinct, pas sur qui dévisse vraiment.", icon: "support" },
     ],
-    howTitle: "Comment Sundae change cela",
-    howDescription: "Clarté sur chaque site. Alertes avant l'escalade.",
+    howTitle: "Comment Sundae sert les managers régionaux",
+    howDescription: "Une vue live sur chaque service, chaque serveur, chaque site.",
     howSundaeHelps: [
-      { title: "Tableau régional temps réel", description: "Sundae Core vous donne une vue unique de tous vos sites - ventes, main-d'oeuvre, marges et opérations - mise à jour en temps réel.", product: "Sundae Core", icon: "chart" },
-      { title: "Alertes proactives", description: "Sundae Core signale les problèmes avant qu'ils ne deviennent critiques, vous laissant agir plus tôt.", product: "Sundae Core", icon: "insights" },
-      { title: "Réponses instantanées", description: "Demandez à Sundae quels sites montent cette semaine ou où l'écart de main-d'oeuvre est le plus élevé et obtenez une réponse immédiate.", product: "Sundae Intelligence", icon: "intelligence" },
-      { title: "Benchmark de performance", description: "Sundae Report compare chaque site à votre moyenne régionale et aux meilleurs, pour un coaching plus concret.", product: "Sundae Report", icon: "report" },
+      { title: "Rythme live sur la région", description: "Revenu, couverts, main-d'œuvre de chaque site — pendant le service. Le site qui décroche est dans votre brief matinal.", product: "Pulse", icon: "chart" },
+      { title: "Intelligence par serveur", description: "Upsell, rotation table, ticket moyen par serveur. Associez le retardataire au meilleur avant la fin du service.", product: "Pulse · Server view", icon: "operators" },
+      { title: "Fuite repérée dans le service", description: "Annulations, comps, remises atypiques — signalées sur site avec le temps d'en parler au GM.", product: "Insights · Revenue Assurance", icon: "owners" },
+      { title: "Sundae Coach donne le coup suivant", description: "Quand un site est à −14%, Coach recommande une action concrète basée sur ce qui a marché.", product: "Sundae Intelligence", icon: "intelligence" },
     ],
-    outcomesTitle: "Ce qui change",
-    outcomesDescription: "Moins d'incendies. Plus d'impact.",
+    outcomesTitle: "Ce qui change pour la région",
+    outcomesDescription: "Intervention plus rapide, sites plus nets, moins de surprises le vendredi.",
     outcomes: [
-      { title: "Moins de gestion d'urgence", description: "Repérez les problèmes plus tôt avec des alertes automatiques.", icon: "speed" },
-      { title: "Visites plus efficaces", description: "Arrivez avec des insights chiffrés et des échanges plus productifs avec les managers.", icon: "marketing" },
-      { title: "Redresser les sites plus vite", description: "Identifiez rapidement les écarts et répliquez les bonnes pratiques.", icon: "growth" },
-      { title: "Meilleur équilibre vie pro/vie perso", description: "Gérez votre région partout avec un accès mobile aux métriques clés.", icon: "balance" },
+      { title: "Intervenez dans le service, pas après", description: "Le site qui a besoin de vous envoie le signal avant que la salle s'en rende compte.", icon: "speed" },
+      { title: "Coacher au lieu d'auditer", description: "Arrêtez de courir derrière ce que le rapport n'a pas vu. Utilisez la visite pour coacher.", icon: "support" },
+      { title: "Même playbook, partout", description: "Ce qui marche au Site 4 se propage au Site 7. Standards régionaux sans note de service.", icon: "performance" },
+      { title: "Récupérez la fuite que vous ne voyiez pas", description: "1–3% du revenu se cache dans les annulations, comps, overrides. Sundae le remonte service par service.", icon: "owners" },
     ],
-    ctaTitle: "Prêt à mieux piloter ?",
-    ctaDescription: "Voyez comment les responsables régionaux gagnent en visibilité sur chaque site.",
-    ctaButton: "Réserver une démo responsable régional",
+    ctaTitle: "Votre région en une vue.",
+    ctaDescription: "30 minutes. Vos sites. Le service que vous auriez géré autrement.",
+    ctaButton: "Réserver une visite régionale",
   },
   es: {
-    badge: "Gerentes regionales",
-    titleLine1: "Cada ubicación.",
-    titleLine2: "Una sola vista.",
-    description: "Visibilidad en tiempo real. Alertas proactivas. Coaching respaldado por números. Gestiona tu región sin vivir en la carretera.",
-    primaryCta: "Ver cómo funciona Sundae para gerentes regionales",
-    secondaryCta: "Obtener informe de benchmark regional",
-    problemsTitle: "Los problemas que ya conoces",
-    problemsDescription: "Modo apagar incendios. Visibilidad limitada. Demasiados desplazamientos.",
+    badge: "Para gerentes regionales",
+    titleLine1: "Opera doce locales.",
+    titleLine2: "Como si estuvieras en uno.",
+    description: "Visibilidad por turno en cada local. El ritmo señala el local que te necesita ahora. Sin esperar al reporte del viernes.",
+    primaryCta: "Reservar recorrido regional",
+    secondaryCta: "Ver demo de operaciones",
+    problemsEyebrow: "QUÉ TE FRENA",
+    problemsTitle: "Qué frena a un gerente regional",
+    problemsDescription: "Demasiados locales, poco tiempo, datos que llegan tarde.",
     challenges: [
-      { title: "Visibilidad limitada entre ubicaciones", description: "Eres responsable de varios locales, pero no ves en tiempo real qué ocurre en cada uno.", icon: "watchtower" },
-      { title: "Modo apagar incendios", description: "Pasas más tiempo reaccionando a problemas que previniéndolos o impulsando mejoras.", icon: "alerts" },
-      { title: "Rendimiento desigual", description: "Algunas ubicaciones destacan y otras se quedan atrás, pero no tienes datos claros para entender por qué.", icon: "benchmarking" },
-      { title: "Visitas que consumen tiempo", description: "Las visitas físicas son la única forma de entender lo que pasa de verdad, dejando poco tiempo para estrategia.", icon: "time" },
+      { title: "No puedes estar en todos a la vez", description: "El turno malo lo descubres por el reporte — no por el local.", icon: "operators" },
+      { title: "Rendimiento de personal varía 30%+", description: "Conoces a los mejores y a los rezagados. No a tiempo para emparejarlos.", icon: "performance" },
+      { title: "La fuga se esconde en el ruido", description: "Anulaciones, comps, descuentos, sobreasignación — pequeños por turno, caros al mes.", icon: "balance" },
+      { title: "Todos los locales piden ayuda", description: "Sin visibilidad del ritmo, decides por intuición, no por el que realmente se desliza.", icon: "support" },
     ],
-    howTitle: "Cómo cambia esto Sundae",
-    howDescription: "Claridad en cada ubicación. Alertas antes de que escale el problema.",
+    howTitle: "Cómo trabaja Sundae para gerentes regionales",
+    howDescription: "Una vista en vivo de cada turno, cada mesero, cada local.",
     howSundaeHelps: [
-      { title: "Panel regional en tiempo real", description: "Sundae Core te da una vista única de todas tus ubicaciones - ventas, personal, márgenes y operaciones - actualizada en tiempo real.", product: "Sundae Core", icon: "chart" },
-      { title: "Alertas proactivas", description: "Sundae Core marca los problemas antes de que se conviertan en crisis, para intervenir a tiempo.", product: "Sundae Core", icon: "insights" },
-      { title: "Respuestas instantáneas", description: "Pregunta a Sundae qué ubicaciones están subiendo esta semana o dónde la variación de personal es mayor y obtén respuestas al momento.", product: "Sundae Intelligence", icon: "intelligence" },
-      { title: "Benchmark de rendimiento", description: "Sundae Report muestra cómo se compara cada ubicación con la media regional y los mejores resultados.", product: "Sundae Report", icon: "report" },
+      { title: "Ritmo en vivo en toda la región", description: "Ingresos, cubiertos, personal por local — durante el turno. El local que se desliza aparece en tu brief matinal.", product: "Pulse", icon: "chart" },
+      { title: "Inteligencia a nivel de mesero", description: "Upsell, rotación de mesa, ticket medio por mesero. Empareja al rezagado con el más fuerte antes del cierre.", product: "Pulse · Server view", icon: "operators" },
+      { title: "Fuga detectada en el turno", description: "Anulaciones, comps, descuentos atípicos — señalados en el local con tiempo para hablar con el GM.", product: "Insights · Revenue Assurance", icon: "owners" },
+      { title: "Sundae Coach da el siguiente paso", description: "Cuando un local va −14%, Coach recomienda una jugada concreta basada en lo que funcionó.", product: "Sundae Intelligence", icon: "intelligence" },
     ],
-    outcomesTitle: "Qué cambia",
-    outcomesDescription: "Menos incendios. Más impacto.",
+    outcomesTitle: "Qué cambia para la región",
+    outcomesDescription: "Intervención más rápida, locales más afinados, menos sorpresas el viernes.",
     outcomes: [
-      { title: "Menos tiempo apagando incendios", description: "Detecta problemas antes con alertas automáticas.", icon: "speed" },
-      { title: "Visitas más efectivas", description: "Llega con datos claros y conversa mejor con los gerentes.", icon: "marketing" },
-      { title: "Mejorar ubicaciones más rápido", description: "Detecta brechas y replica buenas prácticas en toda la región.", icon: "growth" },
-      { title: "Mejor equilibrio vida-trabajo", description: "Gestiona tu región desde cualquier lugar con acceso móvil a métricas clave.", icon: "balance" },
+      { title: "Interviene en el turno, no después", description: "El local que te necesita envía la señal antes de que la sala lo sepa.", icon: "speed" },
+      { title: "Coachear en lugar de auditar", description: "Deja de perseguir lo que el reporte no vio. Usa la visita para coachear lo siguiente.", icon: "support" },
+      { title: "El mismo playbook en todos", description: "Lo que funciona en el local 4 se propaga al 7. Estándar regional sin memo.", icon: "performance" },
+      { title: "Recupera fuga que no veías", description: "1–3% del ingreso suele esconderse en anulaciones, comps, overrides. Sundae lo saca turno a turno.", icon: "owners" },
     ],
-    ctaTitle: "¿Listo para gestionar mejor?",
-    ctaDescription: "Ve cómo los gerentes regionales obtienen visibilidad en cada ubicación.",
-    ctaButton: "Reservar demo regional",
+    ctaTitle: "Tu región en una sola vista.",
+    ctaDescription: "30 minutos. Tus locales. El turno que habrías manejado distinto.",
+    ctaButton: "Reservar recorrido regional",
   },
 };
 
 export default function RegionalManagersPage() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedRegionalCopy[locale] ?? localizedRegionalCopy.en;
-
-  return (
-    <div className="min-h-screen bg-[var(--navy-deep)]">
-      <PageHero
-        badge={copy.badge}
-        title={<>
-          {copy.titleLine1}
-          <br />
-          {copy.titleLine2}
-        </>}
-        description={copy.description}
-      >
-        <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <Link href="/demo">
-            <Button variant="primary" size="lg">{copy.primaryCta}</Button>
-          </Link>
-          <a href={REPORT_APP_URL}>
-            <Button variant="outline-light" size="lg">{copy.secondaryCta}</Button>
-          </a>
-        </div>
-      </PageHero>
-
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.problemsTitle}</h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.problemsDescription}</p>
-          </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {copy.challenges.map((challenge, index) => (
-              <StaggerItem key={index}>
-                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                  <CardHeader>
-                    <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <SundaeIcon name={challenge.icon} size="lg" className="text-white" />
-                      </div>
-                      <div>
-                        <CardTitle className="text-[var(--text-primary)] mb-2">{challenge.title}</CardTitle>
-                        <CardDescription className="text-[var(--text-supporting)]">{challenge.description}</CardDescription>
-                      </div>
-                    </div>
-                  </CardHeader>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-        </div>
-      </section>
-
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.howTitle}</h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.howDescription}</p>
-          </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {copy.howSundaeHelps.map((item, index) => (
-              <StaggerItem key={index}>
-                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                  <CardHeader>
-                    <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <SundaeIcon name={item.icon} size="lg" className="text-white" />
-                      </div>
-                      <div>
-                        <div className="text-xs text-[#60A5FA] font-semibold mb-1">{item.product}</div>
-                        <CardTitle className="text-[var(--text-primary)] mb-2">{item.title}</CardTitle>
-                        <CardDescription className="text-[var(--text-supporting)]">{item.description}</CardDescription>
-                      </div>
-                    </div>
-                  </CardHeader>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-        </div>
-      </section>
-
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-7xl mx-auto">
-          <FadeUp className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.outcomesTitle}</h2>
-            <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.outcomesDescription}</p>
-          </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {copy.outcomes.map((outcome, index) => (
-              <StaggerItem key={index}>
-                <Card variant="elevated" className="hover:shadow-xl transition-shadow duration-300">
-                  <CardHeader>
-                    <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <SundaeIcon name={outcome.icon} size="lg" className="text-white" />
-                      </div>
-                      <div>
-                        <CardTitle className="text-[var(--text-primary)] mb-2">{outcome.title}</CardTitle>
-                        <CardDescription className="text-[var(--text-supporting)]">{outcome.description}</CardDescription>
-                      </div>
-                    </div>
-                  </CardHeader>
-                </Card>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-        </div>
-      </section>
-
-      <PageCTA title={copy.ctaTitle} description={copy.ctaDescription}>
-        <Link href="/demo">
-          <Button variant="primary" size="lg">{copy.ctaButton}</Button>
-        </Link>
-      </PageCTA>
-    </div>
-  );
+  const copy = localizedCopy[locale] ?? localizedCopy.en;
+  return <SolutionPageLayout copy={copy} mockup={<PulseDashboardMockup />} />;
 }
