@@ -11,6 +11,74 @@ import {
   useTransform,
   useReducedMotion,
 } from "framer-motion";
+import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+
+/* ─── i18n copy ─── */
+
+type LocalizedSQC = {
+  eyebrow: string;
+  headline: string;
+  description: string;
+  oldRule: string;
+  sundaeRule: string;
+  closing: string;
+  vertices: { label: string; headline: string; body: string; chips: [string, string, string] }[];
+};
+
+const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
+  en: {
+    eyebrow: "THE OLD TRADEOFF IS DEAD",
+    headline: "Fast. Right. Affordable. Pick all three.",
+    description: "Restaurants used to choose between speed, quality, and cost. Sundae was built to deliver all three at once — that's the entire point.",
+    oldRule: "Old rule: pick two",
+    sundaeRule: "↓  Sundae rule: pick all three",
+    closing: "That's not a tradeoff. That's your operating advantage.",
+    vertices: [
+      { label: "Speed", headline: "Deploy in days. Decide in seconds.", body: "Connect your stack fast. Pulse updates through the shift, and Sundae Intelligence answers with sources instead of sending teams back into the report queue.", chips: ["Days to deploy", "Live Core refresh", "Answers in seconds"] },
+      { label: "Quality", headline: "Built for restaurants. Governed for decisions.", body: "Sundae ships with 179+ governed restaurant data models, peer-anchored benchmarks, and source-cited AI answers — so teams are not building from a blank BI canvas.", chips: ["179+ models", "Source-cited AI", "Peer benchmarks"] },
+      { label: "Cost", headline: "Lower cost than rebuilding BI around restaurants.", body: "BI licenses are only the visible cost. The real spend is analysts, integrations, custom models, dashboard upkeep, and delayed decisions. Sundae is restaurant-ready from day one, with Report Lite free to start.", chips: ["Report Lite free", "Less custom BI", "Lower analyst load"] },
+    ],
+  },
+  ar: {
+    eyebrow: "المقايضة القديمة ماتت",
+    headline: "سريع. صحيح. ميسور. اختر الثلاثة.",
+    description: "كانت المطاعم تختار بين السرعة والجودة والتكلفة. Sundae صُمم ليقدم الثلاثة معاً — هذه هي النقطة.",
+    oldRule: "القاعدة القديمة: اختر اثنين",
+    sundaeRule: "↓ قاعدة Sundae: اختر الثلاثة",
+    closing: "هذه ليست مقايضة. هذه ميزتك التشغيلية.",
+    vertices: [
+      { label: "السرعة", headline: "انشر في أيام. قرر في ثوانٍ.", body: "اربط مكدّسك سريعاً. Pulse يتحدث عبر الوردية، وSundae Intelligence يجيب بمصادر بدل إعادة الفِرَق إلى طابور التقارير.", chips: ["أيام للنشر", "تحديث Core حي", "إجابات في ثوانٍ"] },
+      { label: "الجودة", headline: "مصمم للمطاعم. محكوم للقرارات.", body: "Sundae يأتي بأكثر من 179 نموذج بيانات مطعم محكوم، ومعايير نظراء، وإجابات AI مع مصادر — فلا تبني من لوحة BI فارغة.", chips: ["+179 نموذج", "AI بمصادر", "معايير نظراء"] },
+      { label: "التكلفة", headline: "أقل تكلفة من إعادة بناء BI حول المطاعم.", body: "تراخيص BI ليست سوى التكلفة المرئية. الإنفاق الحقيقي محللون وتكاملات ونماذج مخصصة وصيانة لوحات وقرارات متأخرة. Sundae جاهز للمطاعم من اليوم الأول، مع Report Lite مجاناً.", chips: ["Report Lite مجاناً", "BI مخصص أقل", "حمل محلل أقل"] },
+    ],
+  },
+  fr: {
+    eyebrow: "L'ANCIEN COMPROMIS EST MORT",
+    headline: "Rapide. Juste. Abordable. Prenez les trois.",
+    description: "Les restaurants devaient choisir entre vitesse, qualité et coût. Sundae a été construit pour livrer les trois à la fois — c'est tout le but.",
+    oldRule: "Ancienne règle : choisir deux",
+    sundaeRule: "↓ Règle Sundae : choisir les trois",
+    closing: "Ce n'est pas un compromis. C'est votre avantage opérationnel.",
+    vertices: [
+      { label: "Vitesse", headline: "Déployez en jours. Décidez en secondes.", body: "Connectez votre stack rapidement. Pulse se met à jour pendant le service, et Sundae Intelligence répond avec sources au lieu de renvoyer les équipes dans la file des rapports.", chips: ["Jours pour déployer", "Refresh Core live", "Réponses en secondes"] },
+      { label: "Qualité", headline: "Conçu pour les restaurants. Gouverné pour décider.", body: "Sundae livre 179+ modèles de données restaurant gouvernés, des benchmarks pairs et des réponses IA sourcées — vous ne construisez pas sur une toile BI vide.", chips: ["179+ modèles", "IA sourcée", "Benchmarks pairs"] },
+      { label: "Coût", headline: "Moins cher que reconstruire la BI autour des restaurants.", body: "Les licences BI ne sont que le coût visible. La vraie dépense ce sont les analystes, les intégrations, les modèles custom, la maintenance de dashboards et les décisions tardives. Sundae est prêt restaurant dès le premier jour, avec Report Lite gratuit.", chips: ["Report Lite gratuit", "Moins de BI custom", "Moins d'analystes"] },
+    ],
+  },
+  es: {
+    eyebrow: "EL VIEJO COMPROMISO MURIÓ",
+    headline: "Rápido. Correcto. Asequible. Elige los tres.",
+    description: "Los restaurantes solían elegir entre velocidad, calidad y coste. Sundae se construyó para entregar los tres a la vez — ese es el punto entero.",
+    oldRule: "Regla antigua: elige dos",
+    sundaeRule: "↓ Regla Sundae: elige los tres",
+    closing: "Esto no es un compromiso. Es tu ventaja operativa.",
+    vertices: [
+      { label: "Velocidad", headline: "Despliega en días. Decide en segundos.", body: "Conecta tu stack rápido. Pulse se actualiza durante el turno, y Sundae Intelligence responde con fuentes en vez de mandar a los equipos de vuelta a la cola de reportes.", chips: ["Días para desplegar", "Refresh Core en vivo", "Respuestas en segundos"] },
+      { label: "Calidad", headline: "Hecho para restaurantes. Gobernado para decidir.", body: "Sundae trae 179+ modelos de datos de restaurante gobernados, benchmarks de pares y respuestas IA con fuente — para que los equipos no construyan desde un lienzo BI en blanco.", chips: ["179+ modelos", "IA con fuente", "Benchmarks pares"] },
+      { label: "Coste", headline: "Menor coste que reconstruir BI alrededor de restaurantes.", body: "Las licencias BI son solo el coste visible. El gasto real son analistas, integraciones, modelos a medida, mantenimiento de dashboards y decisiones tardías. Sundae viene listo para restaurantes desde el día uno, con Report Lite gratis.", chips: ["Report Lite gratis", "Menos BI custom", "Menos analistas"] },
+    ],
+  },
+};
 
 /**
  * Section 3 — Speed / Quality / Cost Triangle (homepage-spec-v1.1, polish r4).
@@ -32,37 +100,8 @@ import {
  * no rotation. Same DOM as SSR / pre-mount for hydration safety.
  */
 
-interface Vertex {
-  id: "speed" | "quality" | "cost";
-  label: string;
-  headline: string;
-  body: string;
-  chips: [string, string, string]; // proof chips shown at the bottom of the rotating card
-}
-
-const vertices: Vertex[] = [
-  {
-    id: "speed",
-    label: "Speed",
-    headline: "Deploy in days. Decide in seconds.",
-    body: "Connect your stack fast. Pulse updates through the shift, and Sundae Intelligence answers with sources instead of sending teams back into the report queue.",
-    chips: ["Days to deploy", "Live Core refresh", "Answers in seconds"],
-  },
-  {
-    id: "quality",
-    label: "Quality",
-    headline: "Built for restaurants. Governed for decisions.",
-    body: "Sundae ships with 179+ governed restaurant data models, peer-anchored benchmarks, and source-cited AI answers — so teams are not building from a blank BI canvas.",
-    chips: ["179+ models", "Source-cited AI", "Peer benchmarks"],
-  },
-  {
-    id: "cost",
-    label: "Cost",
-    headline: "Lower cost than rebuilding BI around restaurants.",
-    body: "BI licenses are only the visible cost. The real spend is analysts, integrations, custom models, dashboard upkeep, and delayed decisions. Sundae is restaurant-ready from day one, with Report Lite free to start.",
-    chips: ["Report Lite free", "Less custom BI", "Lower analyst load"],
-  },
-];
+/* Vertex IDs used for stable React keys (translation-independent) */
+const VERTEX_IDS = ["speed", "quality", "cost"] as const;
 
 // Triangle geometry — viewBox 700×540 with generous label margins.
 //   middle = label centered above top vertex
@@ -103,6 +142,9 @@ function ballAt(progress: number) {
 
 export function SectionSpeedQualityCost() {
   const reduceMotion = useReducedMotion();
+  const { locale } = useWebsiteI18n();
+  const copy = localizedCopy[locale] ?? localizedCopy.en;
+  const vertices = copy.vertices;
   const [activeIdx, setActiveIdx] = useState(0);
   const [paused, setPaused] = useState(false);
   const [mounted, setMounted] = useState(false);
@@ -203,15 +245,11 @@ export function SectionSpeedQualityCost() {
     >
       <div className="max-w-7xl mx-auto px-6 sm:px-8 py-16 sm:py-20 lg:py-24">
         <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-14">
-          <div className="eyebrow mb-4">THE OLD TRADEOFF IS DEAD</div>
+          <div className="eyebrow mb-4">{copy.eyebrow}</div>
           <h2 id="sqc-headline" className="section-h2 text-balance mb-5">
-            Fast. Right. Affordable. Pick all three.
+            {copy.headline}
           </h2>
-          <p className="body-lg max-w-2xl mx-auto">
-            Restaurants used to choose between speed, quality, and cost. Sundae
-            was built to deliver all three at once — that&apos;s the entire
-            point.
-          </p>
+          <p className="body-lg max-w-2xl mx-auto">{copy.description}</p>
         </div>
 
         <div
@@ -262,10 +300,10 @@ export function SectionSpeedQualityCost() {
             {/* Old-rule banner */}
             <div className="text-center mb-5 relative z-10">
               <div className="inline-flex items-center gap-2 text-[12px] uppercase tracking-[0.18em] text-[var(--text-muted)] line-through decoration-[var(--text-faint)] decoration-1">
-                Old rule: pick two
+                {copy.oldRule}
               </div>
               <div className="mt-2 text-[13px] uppercase tracking-[0.18em] text-[var(--electric-blue)] font-bold">
-                ↓  Sundae rule: pick all three
+                {copy.sundaeRule}
               </div>
             </div>
 
@@ -433,10 +471,11 @@ export function SectionSpeedQualityCost() {
               {trianglePoints.map((p, i) => {
                 const isActive = !useAnimated || i === activeIdx;
                 const v = vertices[i];
+                const vertexId = VERTEX_IDS[i];
                 const vertexDelay = (ENTRANCE_OUTLINE_DRAW + ENTRANCE_VERTEX_STAGGER * i) / 1000;
                 return (
                   <motion.g
-                    key={v.id}
+                    key={vertexId}
                     onClick={() => {
                       setActiveIdx(i);
                       setPaused(true);
@@ -494,15 +533,15 @@ export function SectionSpeedQualityCost() {
                       fill={isActive ? "#FFFFFF" : "rgba(255,255,255,0.55)"}
                       style={{ transition: "all 0.45s ease-out" }}
                     />
-                    {/* Label — premium typography: smaller, wider tracking */}
+                    {/* Label — premium typography: bumped for mobile legibility */}
                     <text
                       x={p.labelX}
                       y={p.labelY}
                       textAnchor={p.anchor}
-                      fontSize={isActive ? "22" : "18"}
+                      fontSize={isActive ? "28" : "22"}
                       fontWeight="700"
-                      letterSpacing="0.28em"
-                      fill={isActive ? "#FFFFFF" : "rgba(255,255,255,0.42)"}
+                      letterSpacing="0.24em"
+                      fill={isActive ? "#FFFFFF" : "rgba(255,255,255,0.45)"}
                       style={{ transition: "all 0.55s cubic-bezier(0.22, 1, 0.36, 1)" }}
                     >
                       {v.label.toUpperCase()}
@@ -510,9 +549,9 @@ export function SectionSpeedQualityCost() {
                     {/* Sublabel — small "0X" beneath label, only when active */}
                     <text
                       x={p.labelX}
-                      y={p.labelY + 18}
+                      y={p.labelY + 22}
                       textAnchor={p.anchor}
-                      fontSize="9"
+                      fontSize="11"
                       fontWeight="600"
                       letterSpacing="0.32em"
                       fill={isActive ? "#60A5FA" : "transparent"}
@@ -531,9 +570,9 @@ export function SectionSpeedQualityCost() {
           {!useAnimated ? (
             // Static path: 3-card stack, all visible (SSR + reduced-motion)
             <div className="space-y-3">
-              {vertices.map((v) => (
+              {vertices.map((v, vi) => (
                 <div
-                  key={v.id}
+                  key={VERTEX_IDS[vi]}
                   className="rounded-xl border border-[var(--border-default)] bg-[var(--surface-subtle)] p-5"
                 >
                   <div className="text-[11px] uppercase tracking-wider text-[var(--electric-blue)] font-bold mb-2">
@@ -606,7 +645,7 @@ export function SectionSpeedQualityCost() {
         </div>
 
         <p className="mt-12 sm:mt-14 text-center text-xl sm:text-2xl text-[var(--text-primary)] italic font-light">
-          That&apos;s not a tradeoff. That&apos;s your operating advantage.
+          {copy.closing}
         </p>
       </div>
     </section>

@@ -1,6 +1,7 @@
 "use client";
 
 import { motion, useReducedMotion } from "framer-motion";
+import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 
 /**
  * Mini thumbnails — each is a small visual artifact paired with the moat copy
@@ -128,86 +129,118 @@ function BenchmarkThumb() {
  *   pages and will swap into Section 5 subhead after Legal review.
  */
 
-const layers: Array<{
-  badge: string;
-  badgeColor: string;
-  title: string;
-  why: string;
-  Thumb: React.ComponentType;
-}> = [
-  {
-    badge: "Pulse",
-    badgeColor: "var(--color-pulse)",
-    title: "Live shift intelligence",
-    why: "See pacing, labor, leakage, comps, voids, and service exceptions while the shift is still running — not after the weekly recap.",
-    Thumb: PulseThumb,
-  },
-  {
-    badge: "Watchtower",
-    badgeColor: "var(--color-watchtower)",
-    title: "External market intelligence",
-    why: "Add the market around each restaurant: weather, events, competitor pricing, footfall signals, and daily briefings your BI stack does not naturally know.",
-    Thumb: WatchtowerThumb,
-  },
-  {
-    badge: "Benchmarks",
-    badgeColor: "var(--color-benchmarks)",
-    title: "Peer benchmarks that compound",
-    why: "Compare locations against anonymized peers by format, market, and performance metric. The network gets more useful as more restaurants join.",
-    Thumb: BenchmarkThumb,
-  },
+/* Layer structure — badge labels and colors stay product-name (untranslated brand) */
+const layerStructure = [
+  { badge: "Pulse", badgeColor: "var(--color-pulse)", Thumb: PulseThumb },
+  { badge: "Watchtower", badgeColor: "var(--color-watchtower)", Thumb: WatchtowerThumb },
+  { badge: "Benchmarks", badgeColor: "var(--color-benchmarks)", Thumb: BenchmarkThumb },
 ];
+
+type LocalizedMoats = {
+  eyebrow: string;
+  headline: string;
+  description: string;
+  layerWord: string;
+  layers: { title: string; why: string }[];
+  closing: string;
+};
+
+const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedMoats> = {
+  en: {
+    eyebrow: "BEYOND DASHBOARDS",
+    headline: "The three layers restaurants need beyond dashboards.",
+    description: "Dashboards show what happened. Sundae adds the live operating context, market signals, and peer comparisons restaurants need to decide what to do next.",
+    layerWord: "Layer",
+    layers: [
+      { title: "Live shift intelligence", why: "See pacing, labor, leakage, comps, voids, and service exceptions while the shift is still running — not after the weekly recap." },
+      { title: "External market intelligence", why: "Add the market around each restaurant: weather, events, competitor pricing, footfall signals, and daily briefings your BI stack does not naturally know." },
+      { title: "Peer benchmarks that compound", why: "Compare locations against anonymized peers by format, market, and performance metric. The network gets more useful as more restaurants join." },
+    ],
+    closing: "Not another dashboard. A restaurant intelligence layer.",
+  },
+  ar: {
+    eyebrow: "وراء اللوحات",
+    headline: "الطبقات الثلاث التي تحتاجها المطاعم وراء اللوحات.",
+    description: "اللوحات تُظهر ما حدث. Sundae يضيف السياق التشغيلي الحي وإشارات السوق ومقارنات النظراء التي تحتاجها المطاعم لتقرر ما تفعله تالياً.",
+    layerWord: "طبقة",
+    layers: [
+      { title: "ذكاء وردية حي", why: "شاهد الوتيرة والعمالة والتسرب والتعويضات والتجاوزات وحالات الخدمة الشاذة وهي تجري — لا بعد الملخص الأسبوعي." },
+      { title: "ذكاء سوق خارجي", why: "أضف السوق حول كل مطعم: الطقس والأحداث وتسعير المنافسين وحركة المرور وإحاطات يومية لا يعرفها BI طبيعياً." },
+      { title: "معايير نظراء تتراكم", why: "قارن المواقع بنظراء مجهولين بالصيغة والسوق والمقياس. الشبكة تصبح أكثر فائدة كلما انضم المزيد." },
+    ],
+    closing: "ليست لوحة أخرى. طبقة ذكاء للمطاعم.",
+  },
+  fr: {
+    eyebrow: "AU-DELÀ DES DASHBOARDS",
+    headline: "Les trois couches dont les restaurants ont besoin au-delà des dashboards.",
+    description: "Les dashboards montrent ce qui s'est passé. Sundae ajoute le contexte opérationnel live, les signaux marché et les comparaisons pairs dont les restaurants ont besoin pour décider quoi faire ensuite.",
+    layerWord: "Couche",
+    layers: [
+      { title: "Intelligence service live", why: "Voyez rythme, main-d'œuvre, fuites, comps, annulations et exceptions pendant que le service tourne — pas après le récap de la semaine." },
+      { title: "Intelligence marché externe", why: "Ajoutez le marché autour de chaque restaurant : météo, événements, prix concurrents, signaux fréquentation et briefings quotidiens que votre BI ne connaît pas." },
+      { title: "Benchmarks pairs qui se composent", why: "Comparez les sites à des pairs anonymisés par format, marché et métrique. Le réseau devient plus utile à mesure que plus de restaurants rejoignent." },
+    ],
+    closing: "Pas un autre dashboard. Une couche d'intelligence restaurant.",
+  },
+  es: {
+    eyebrow: "MÁS ALLÁ DE LOS DASHBOARDS",
+    headline: "Las tres capas que los restaurantes necesitan más allá de los dashboards.",
+    description: "Los dashboards muestran lo que pasó. Sundae añade el contexto operativo en vivo, las señales de mercado y las comparaciones con pares que los restaurantes necesitan para decidir qué hacer a continuación.",
+    layerWord: "Capa",
+    layers: [
+      { title: "Inteligencia de turno en vivo", why: "Ve ritmo, personal, fugas, comps, anulaciones y excepciones de servicio mientras el turno corre — no después del recap semanal." },
+      { title: "Inteligencia de mercado externo", why: "Añade el mercado alrededor de cada restaurante: clima, eventos, precios de competencia, señales de tráfico y briefings diarios que tu BI no conoce." },
+      { title: "Benchmarks de pares que se componen", why: "Compara locales contra pares anonimizados por formato, mercado y métrica. La red se vuelve más útil mientras más restaurantes se unen." },
+    ],
+    closing: "No es otro dashboard. Es una capa de inteligencia para restaurantes.",
+  },
+};
 
 export function SectionThreeMoats() {
   const reduceMotion = useReducedMotion();
+  const { locale } = useWebsiteI18n();
+  const copy = localizedCopy[locale] ?? localizedCopy.en;
 
   return (
     <section aria-labelledby="moats-headline" className="relative">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 py-16 sm:py-20 lg:py-24">
         <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-14">
-          <div className="eyebrow mb-4">BEYOND DASHBOARDS</div>
-          <h2 id="moats-headline" className="section-h2 text-balance mb-5">
-            The three layers restaurants need beyond dashboards.
-          </h2>
-          <p className="body-lg max-w-2xl mx-auto">
-            Dashboards show what happened. Sundae adds the live operating
-            context, market signals, and peer comparisons restaurants need to
-            decide what to do next.
-          </p>
+          <div className="eyebrow mb-4">{copy.eyebrow}</div>
+          <h2 id="moats-headline" className="section-h2 text-balance mb-5">{copy.headline}</h2>
+          <p className="body-lg max-w-2xl mx-auto">{copy.description}</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-5 sm:gap-6 max-w-6xl mx-auto">
-          {layers.map((m, i) => (
-            <motion.article
-              key={m.badge}
-              initial={reduceMotion ? false : { opacity: 0, y: 24 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-60px" }}
-              transition={{
-                duration: 0.6,
-                ease: [0.22, 1, 0.36, 1],
-                delay: i * 0.1,
-              }}
-              className="group rounded-2xl border border-[var(--border-default)] bg-[var(--surface-subtle)] p-6 sm:p-7 hover:bg-[var(--surface-hover)] hover:border-[var(--border-hover)] hover:-translate-y-1 transition-all duration-300"
-            >
-              <div
-                className="text-[10px] uppercase tracking-wider font-bold mb-3 inline-flex px-2.5 py-1 rounded-md"
-                style={{
-                  backgroundColor: `color-mix(in oklab, ${m.badgeColor} 18%, transparent)`,
-                  color: m.badgeColor,
-                }}
+          {layerStructure.map((s, i) => {
+            const l = copy.layers[i];
+            return (
+              <motion.article
+                key={s.badge}
+                initial={reduceMotion ? false : { opacity: 0, y: 24 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-60px" }}
+                transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1], delay: i * 0.1 }}
+                className="group rounded-2xl border border-[var(--border-default)] bg-[var(--surface-subtle)] p-6 sm:p-7 hover:bg-[var(--surface-hover)] hover:border-[var(--border-hover)] hover:-translate-y-1 transition-all duration-300"
               >
-                Layer {i + 1} — {m.badge}
-              </div>
-              <h3 className="section-h3 mb-3">{m.title}</h3>
-              <p className="body-base">{m.why}</p>
-              <m.Thumb />
-            </motion.article>
-          ))}
+                <div
+                  className="text-[10px] uppercase tracking-wider font-bold mb-3 inline-flex px-2.5 py-1 rounded-md"
+                  style={{
+                    backgroundColor: `color-mix(in oklab, ${s.badgeColor} 18%, transparent)`,
+                    color: s.badgeColor,
+                  }}
+                >
+                  {copy.layerWord} {i + 1} — {s.badge}
+                </div>
+                <h3 className="section-h3 mb-3">{l.title}</h3>
+                <p className="body-base">{l.why}</p>
+                <s.Thumb />
+              </motion.article>
+            );
+          })}
         </div>
 
         <p className="mt-12 sm:mt-14 text-center text-lg sm:text-xl text-[var(--text-secondary)] italic">
-          Not another dashboard. A restaurant intelligence layer.
+          {copy.closing}
         </p>
       </div>
     </section>
