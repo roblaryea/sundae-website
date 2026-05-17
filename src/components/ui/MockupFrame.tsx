@@ -55,11 +55,11 @@ interface MockupKPIProps {
 
 export function MockupKPI({ label, value, trend, trendUp, color = "#1C47FF" }: MockupKPIProps) {
   return (
-    <div className="bg-white/[0.03] rounded-lg p-4 border border-[var(--border-default)]">
-      <div className="text-[11px] text-[var(--text-muted)] uppercase tracking-wider mb-1">{label}</div>
-      <div className="text-2xl font-bold font-mono" style={{ color }}>{value}</div>
+    <div className="bg-white/[0.03] rounded-lg p-2.5 sm:p-3.5 lg:p-4 border border-[var(--border-default)] min-w-0 overflow-hidden">
+      <div className="text-[9px] sm:text-[11px] text-[var(--text-muted)] uppercase tracking-wider mb-1 truncate">{label}</div>
+      <div className="text-base sm:text-lg lg:text-2xl font-bold font-mono truncate" style={{ color }}>{value}</div>
       {trend && (
-        <div className={`text-[11px] mt-1 ${trendUp ? "text-[#22C55E]" : "text-[#FF5450]"}`}>
+        <div className={`text-[10px] sm:text-[11px] mt-0.5 sm:mt-1 truncate ${trendUp ? "text-[#22C55E]" : "text-[#FF5450]"}`}>
           {trendUp ? "▲" : "▼"} {trend}
         </div>
       )}
@@ -80,10 +80,10 @@ export function MockupPaceBar({ label, current, target, unit = "" }: MockupPaceB
   const isAhead = current >= target;
 
   return (
-    <div className="space-y-1.5">
-      <div className="flex justify-between text-[11px]">
-        <span className="text-[var(--text-muted)]">{label}</span>
-        <span className="text-[var(--text-secondary)] font-mono">
+    <div className="space-y-1.5 min-w-0">
+      <div className="flex justify-between items-baseline gap-2 text-[10px] sm:text-[11px]">
+        <span className="text-[var(--text-muted)] truncate flex-shrink-0">{label}</span>
+        <span className="text-[var(--text-secondary)] font-mono truncate text-right">
           {unit}{current.toLocaleString()} / {unit}{target.toLocaleString()}
         </span>
       </div>
@@ -140,7 +140,7 @@ export function MockupTable({ headers, rows }: MockupTableProps) {
     <div className="rounded-lg border border-[var(--border-default)] overflow-hidden">
       <div className="flex bg-[var(--surface-subtle)] border-b border-[var(--border-default)]">
         {headers.map((h, i) => (
-          <div key={i} className="flex-1 px-3 py-2 text-[10px] text-[var(--text-muted)] uppercase tracking-wider font-semibold">
+          <div key={i} className="flex-1 min-w-0 px-1.5 sm:px-3 py-2 text-[9px] sm:text-[10px] text-[var(--text-muted)] uppercase tracking-wider font-semibold truncate">
             {h}
           </div>
         ))}
@@ -148,7 +148,7 @@ export function MockupTable({ headers, rows }: MockupTableProps) {
       {rows.map((row, ri) => (
         <div key={ri} className={`flex ${ri % 2 === 1 ? "bg-[var(--surface-faint)]" : ""} border-b border-[var(--border-default)] last:border-0`}>
           {row.map((cell, ci) => (
-            <div key={ci} className="flex-1 px-3 py-2 text-[12px] text-[var(--text-supporting)] font-mono">
+            <div key={ci} className="flex-1 min-w-0 px-1.5 sm:px-3 py-2 text-[10px] sm:text-[12px] text-[var(--text-supporting)] font-mono truncate">
               {cell}
             </div>
           ))}
@@ -233,7 +233,7 @@ export function PulseDashboardMockup() {
         </div>
 
         {/* KPI row */}
-        <div className="grid grid-cols-4 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3">
           <MockupKPI label={revenue} value="$14,280" trend={locale === "ar" ? "+12% مقابل الهدف" : locale === "fr" ? "+12% vs objectif" : locale === "es" ? "+12% vs objetivo" : "+12% vs target"} trendUp />
           <MockupKPI label={covers} value="287" trend={locale === "ar" ? "+12 مقابل الخطة" : locale === "fr" ? "+12 vs plan" : locale === "es" ? "+12 vs plan" : "+12 vs plan"} trendUp color="#22C55E" />
           <MockupKPI label={avgCheck} value="$49.50" trend="-2.1%" trendUp={false} color="#FBBF24" />
@@ -267,7 +267,7 @@ export function BenchmarkDashboardMockup() {
   return (
     <MockupFrame label="Benchmarks — Competitive Position">
       <div className="space-y-4">
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
           <MockupKPI label="RevPASH Index" value="112" trend="12% above peers" trendUp color="#22C55E" />
           <MockupKPI label="Seat Occupancy" value="74%" trend="vs 68% market" trendUp color="#1C47FF" />
           <MockupKPI label="Avg Check Index" value="98" trend="2% below peers" trendUp={false} color="#FBBF24" />
@@ -298,7 +298,7 @@ export function WatchtowerMockup() {
           <span className="text-[10px] text-[var(--text-muted)] font-mono">Signals: 14 active</span>
         </div>
 
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
           <MockupKPI label="Competitor Changes" value="7" color="#F59E0B" />
           <MockupKPI label="Weather Impact" value="-12%" trend="Rain forecast Fri" trendUp={false} color="#FF5450" />
           <MockupKPI label="Local Events" value="3" trend="High-impact weekend" trendUp color="#22C55E" />
@@ -339,7 +339,7 @@ export function InsightsModuleMockup() {
   return (
     <MockupFrame label="Insights — 12 Intelligence Modules">
       <div className="space-y-4">
-        <div className="grid grid-cols-3 gap-2">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
           {modules.map((m) => (
             <div key={m.name} className="bg-white/[0.03] rounded-lg p-3 border border-[var(--border-default)]">
               <div className="text-[9px] text-[var(--text-muted)] uppercase tracking-wider">{m.name}</div>
@@ -414,7 +414,7 @@ export function RevenueAssuranceMockup() {
   return (
     <MockupFrame label="Revenue Assurance — Leakage Detection">
       <div className="space-y-4">
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
           <MockupKPI label="Total Leakage" value="$2,630" color="#FF5450" />
           <MockupKPI label="Void Rate" value="3.2%" trend="+0.8% vs avg" trendUp={false} color="#FBBF24" />
           <MockupKPI label="Exceptions" value="14" color="#FF5450" />
@@ -442,7 +442,7 @@ export function ForesightDashboardMockup() {
   return (
     <MockupFrame label="Foresight — 14-Day Revenue Forecast">
       <div className="space-y-4">
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
           <MockupKPI label="Forecast Revenue" value="$248K" trend="+6.2% vs last period" trendUp />
           <MockupKPI label="Confidence" value="91%" color="#22C55E" />
           <MockupKPI label="MAPE" value="3.8%" trend="↓ from 5.1%" trendUp color="#22C55E" />
@@ -499,7 +499,7 @@ export function MarketingPerformanceMockup() {
           <span className="text-[10px] text-[var(--text-muted)] font-mono">Last 7 days</span>
         </div>
 
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
           <MockupKPI label="Blended ROAS" value="4.2x" trend="+0.6 vs LW" trendUp color="#22C55E" />
           <MockupKPI label="Attributed covers" value="1,840" trend="38% of total" trendUp color="#1C47FF" />
           <MockupKPI label="Cost per cover" value="$2.10" trend="−$0.40 vs LW" trendUp color="#22C55E" />
@@ -534,7 +534,7 @@ export function RevenueIntelligenceMockup() {
           <span className="text-[10px] text-[var(--text-muted)] font-mono">Today · vs forecast</span>
         </div>
 
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
           <MockupKPI label="Net revenue today" value="$184K" trend="+3.2% vs forecast" trendUp color="#22C55E" />
           <MockupKPI label="Gross margin" value="62.4%" trend="−0.8pp WoW" trendUp={false} color="#FBBF24" />
           <MockupKPI label="Variance MTD" value="+$5.8K" trend="vs plan" trendUp color="#22C55E" />
@@ -569,7 +569,7 @@ export function LaborOpsMockup() {
           <span className="text-[10px] text-[var(--text-muted)] font-mono">Saturday · 1:24 PM</span>
         </div>
 
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
           <MockupKPI label="Labor % portfolio" value="29.6%" trend="+1.2pp vs target" trendUp={false} color="#FBBF24" />
           <MockupKPI label="OT exposure" value="$840" trend="3 locations" trendUp={false} color="#FF5450" />
           <MockupKPI label="Productivity" value="6.8" trend="covers per FOH hr" trendUp color="#22C55E" />
@@ -615,7 +615,7 @@ export function IntegrationsHubMockup() {
           <span className="text-[10px] text-[var(--text-muted)] font-mono">Last sync: 14m ago</span>
         </div>
 
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
           <MockupKPI label="Active sources" value="14" trend="12 domains" trendUp color="#1C47FF" />
           <MockupKPI label="Sync rate (7d)" value="99.4%" trend="SLO: 99%" trendUp color="#22C55E" />
           <MockupKPI label="p95 lag" value="4.2m" color="#1C47FF" />
@@ -676,10 +676,10 @@ export function ExecutiveBriefingMockup() {
             { brand: "Brand C", value: "$614K", delta: "-2.6%", up: false, color: "#FF5450" },
             { brand: "Brand D", value: "$408K", delta: "+0.9%", up: true, color: "#1C47FF" },
           ].map((b) => (
-            <div key={b.brand} className="bg-white/[0.03] rounded-lg p-2.5 border border-[var(--border-default)]">
-              <div className="text-[9px] uppercase tracking-wider text-[var(--text-muted)] mb-0.5">{b.brand}</div>
-              <div className="text-sm font-bold font-mono text-[var(--text-primary)] tabular-nums">{b.value}</div>
-              <div className="text-[10px] font-semibold" style={{ color: b.color }}>
+            <div key={b.brand} className="bg-white/[0.03] rounded-lg p-2 sm:p-2.5 border border-[var(--border-default)] min-w-0 overflow-hidden">
+              <div className="text-[9px] uppercase tracking-wider text-[var(--text-muted)] mb-0.5 truncate">{b.brand}</div>
+              <div className="text-xs sm:text-sm font-bold font-mono text-[var(--text-primary)] tabular-nums truncate">{b.value}</div>
+              <div className="text-[10px] font-semibold truncate" style={{ color: b.color }}>
                 {b.up ? "▲" : "▼"} {b.delta}
               </div>
             </div>

@@ -143,19 +143,19 @@ function LiveKPITile({
         reduceMotion ? {} : { backgroundColor: "rgba(255, 255, 255, 0.03)" }
       }
       transition={{ duration: 0.7, ease: "easeOut" }}
-      className="rounded-lg p-4 border border-[var(--border-default)]"
+      className="rounded-lg p-2.5 sm:p-3.5 lg:p-4 border border-[var(--border-default)] min-w-0 overflow-hidden"
     >
-      <div className="text-[11px] text-[var(--text-muted)] uppercase tracking-wider mb-1 flex items-center gap-1.5">
-        {label}
+      <div className="text-[9px] sm:text-[11px] text-[var(--text-muted)] uppercase tracking-wider mb-1 flex items-center gap-1 truncate">
+        <span className="truncate">{label}</span>
         {!reduceMotion && (
           <span
             aria-hidden
-            className="inline-block w-1.5 h-1.5 rounded-full bg-[#22C55E] animate-pulse"
+            className="inline-block w-1.5 h-1.5 rounded-full bg-[#22C55E] animate-pulse flex-shrink-0"
           />
         )}
       </div>
       <div
-        className="text-2xl font-bold font-mono tabular-nums"
+        className="text-base sm:text-lg lg:text-2xl font-bold font-mono tabular-nums truncate"
         style={{ color }}
         aria-live="polite"
         aria-atomic="true"
@@ -164,7 +164,7 @@ function LiveKPITile({
       </div>
       {trend && (
         <div
-          className={`text-[11px] mt-1 ${
+          className={`text-[10px] sm:text-[11px] mt-0.5 sm:mt-1 truncate ${
             trendUp ? "text-[#22C55E]" : "text-[#FF5450]"
           }`}
         >
