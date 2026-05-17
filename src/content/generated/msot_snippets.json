@@ -56,6 +56,14 @@
     {
       "description": "$0 free tier to $349+ enterprise with 14 purchasable modules and 6 bundles — operators buy what they need, expand as they grow",
       "title": "Modular pricing"
+    },
+    {
+      "description": "6 @sundae/* SDK packages (ui, analytics, core, vertical-restaurant, partner-sdk, crew) with a VerticalConfig contract — restaurants is the founding vertical; additional verticals plug in without forking the platform. Partner-sdk is a public typed client with webhook signature verification.",
+      "title": "Multi-vertical architecture"
+    },
+    {
+      "description": "scheduling, time & attendance, and a provider-neutral payroll calculation engine with 6 GCC country packs legally validated (UAE WPS exported, GOSI/PIFSS/GPSSA/SIO statutory components). Every shift, hour, and pay-cycle becomes signal feeding Labor Intelligence, Pulse, Watchtower, and Foresight — a loop a standalone HR/payroll vendor cannot close.",
+      "title": "Operational substrate (Crew)"
     }
   ],
   "featureHighlights": [
@@ -105,7 +113,7 @@
       "tagline": "Twelve operational blind spots. Twelve intelligence modules. Each one pays for itself."
     }
   ],
-  "generated_at": "2026-04-04T02:00:05.103Z",
+  "generated_at": "2026-05-17T09:54:16.172Z",
   "hero": {
     "bullets": [
       "Ingests 12 operational data domains",
@@ -139,7 +147,7 @@
       "name": "Chat With Data"
     },
     {
-      "blurb": "12 deep analytics modules across every operational domain.",
+      "blurb": "12 deep analytics modules + 6 cross-cutting views = 18 total Insights routes. Crew workforce signal folded into Labor Intelligence as Workforce Health + Payroll & Compliance sub-pages (not a 13th module).",
       "bullets": [],
       "name": "Insights"
     },
@@ -219,7 +227,8 @@
       "12 distinct data domains ingested",
       "15 registered AI routes",
       "10 registered AI chat modes",
-      "22 production modules",
+      "18 Insights routes (12 deep analytics modules + 6 cross-cutting views) across 6 intelligence layers, plus Crew operational suite",
+      "6 @sundae/* SDK packages with VerticalConfig multi-vertical contract",
       "17 sub-pages in Pulse",
       "12 Insights deep analytics modules"
     ],
@@ -255,9 +264,14 @@
         "value": "10"
       },
       {
-        "claim": "22 production modules",
-        "unit": "modules",
-        "value": "22"
+        "claim": "18 Insights routes (12 deep analytics modules + 6 cross-cutting views) across 6 intelligence layers, plus Crew operational suite",
+        "unit": "Insights routes",
+        "value": "18"
+      },
+      {
+        "claim": "6 @sundae/* SDK packages with VerticalConfig multi-vertical contract",
+        "unit": "packages",
+        "value": "6"
       },
       {
         "claim": "17 sub-pages in Pulse",
