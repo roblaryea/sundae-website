@@ -2,12 +2,28 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 import { Button } from './ui/Button';
 import { useCta } from '@/lib/cta';
 import { PRICING_URL } from '@/lib/links';
 import { SIGNUP_URL } from '@/lib/urls';
 import { useWebsiteI18n } from './i18n/LocaleProvider';
 import { LocaleSwitcher } from './i18n/LocaleSwitcher';
+
+/**
+ * Pages that ship their own bespoke closing CTA — Footer pre-CTA is suppressed
+ * on these to avoid the double-CTA stack at the bottom of the page.
+ *
+ * Match logic strips any leading locale segment (/fr, /ar, /es) before testing.
+ */
+function shouldHideFooterPreCta(pathname: string): boolean {
+  // Strip optional /<locale> prefix
+  const stripped = pathname.replace(/^\/(en|fr|ar|es)(?=\/|$)/, '') || '/';
+  if (stripped === '/') return true;             // home
+  if (stripped === '/solutions') return true;    // hub
+  if (stripped.startsWith('/solutions/')) return true; // persona pages
+  return false;
+}
 import { localizeWebsiteHref } from '@/lib/i18n';
 
 type FooterLink = {
@@ -27,6 +43,8 @@ const Footer = () => {
   const cta = useCta();
   const currentYear = new Date().getFullYear();
   const localizeHref = (href: string) => localizeWebsiteHref(href, locale);
+  const pathname = usePathname() ?? '/';
+  const hidePreCta = shouldHideFooterPreCta(pathname);
 
   const pillarLinks = [
     ...nav.pillars.slice(0, 5).map((item) => ({ name: item.name, href: item.href })),
@@ -51,33 +69,37 @@ const Footer = () => {
 
   return (
     <footer className="bg-[var(--navy-deep)] text-[var(--text-primary)]" role="contentinfo">
-      {/* Pre-footer CTA Section */}
-      <div className="border-b border-[var(--border-default)]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
-          <h2 className="text-2xl md:text-3xl font-bold text-[var(--text-primary)] mb-3 tracking-tight">
-            {footer.readyTitle}
-          </h2>
-          <p className="text-[var(--text-muted)] mb-8 max-w-xl mx-auto text-base">
-            {footer.readyDescription}
-          </p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <Button
-              variant="primary"
-              size="lg"
-              onClick={() => cta(localizeHref("/demo"), "book_demo_footer", { location: "footer" })}
-            >
-              {footer.bookDemo}
-            </Button>
-            <Button
-              variant="outline-light"
-              size="lg"
-              href={SIGNUP_URL}
-            >
-              {footer.startFree}
-            </Button>
+      {/* Pre-footer CTA — suppressed on pages that ship their own closing CTA
+          (home, /solutions hub, /solutions/* persona pages) to avoid stacking
+          two competing CTA blocks at the bottom of the page. */}
+      {!hidePreCta && (
+        <div className="border-b border-[var(--border-default)]">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
+            <h2 className="text-2xl md:text-3xl font-bold text-[var(--text-primary)] mb-3 tracking-tight">
+              {footer.readyTitle}
+            </h2>
+            <p className="text-[var(--text-muted)] mb-8 max-w-xl mx-auto text-base">
+              {footer.readyDescription}
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <Button
+                variant="primary"
+                size="lg"
+                onClick={() => cta(localizeHref("/demo"), "book_demo_footer", { location: "footer" })}
+              >
+                {footer.bookDemo}
+              </Button>
+              <Button
+                variant="outline-light"
+                size="lg"
+                href={SIGNUP_URL}
+              >
+                {footer.startFree}
+              </Button>
+            </div>
           </div>
         </div>
-      </div>
+      )}
 
       {/* Main Footer Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-14">
