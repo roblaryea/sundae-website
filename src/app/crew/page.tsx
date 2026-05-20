@@ -53,6 +53,9 @@ type LocalizedCrew = {
   pillarsDescription: string;
   pillars: { title: string; body: string; chips: string[] }[];
 
+  coverageLabel: string;
+  coverageItems: { title: string; body: string }[];
+
   payrollEyebrow: string;
   payrollTitle: string;
   payrollDescription: string;
@@ -115,9 +118,19 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
       { title: "Scheduling", body: "AI Builder composes the schedule from demand forecast, role mix, and eligibility — then the manager edits the four view modes that matter (overview, by-person, by-shift, by-role). Recurrence, eligibility checks, conflict warnings, public-holiday overlays.", chips: ["AI Builder", "4 view modes", "Demand-matched", "Recurrence"] },
       { title: "Time & Attendance", body: "Mobile PWA clock-in with geo-fence and WebAuthn biometric. Break tracking, missed-punch flow, manager approval. Live trust scores feeding Workforce Health.", chips: ["Mobile PWA", "Geo-fence", "Biometric", "Trust scores"] },
       { title: "Payroll Engine", body: "Provider-neutral calculation engine. Six GCC country packs legally validated. Statutory exports (UAE WPS, GOSI, PIFSS, GPSSA, SIO), gratuity accrual, leave encashment, final settlement. AI assist for adjustments. Not a tax engine — a parameterized pack-driven engine.", chips: ["6 GCC packs", "WPS export", "Gratuity", "AI assist"] },
-      { title: "HR Suite", body: "60+ surfaces from onboarding through offboarding. Background checks, referrals, internal mobility, anonymous whistleblower, 9-box talent reviews, Ask-HR helpdesk with SLAs, policy attestations, performance, compensation, expenses, loans, tip pools.", chips: ["Onboarding", "Performance", "Talent 9-box", "Helpdesk"] },
-      { title: "Decision Replay + Crew Copilot", body: "Every workforce decision is replayable — who acted, what changed, what the model said. Crew Copilot routes natural-language requests across the Crew domain. Source-cited, audit-ready.", chips: ["Replay log", "AI Copilot", "Audit-ready", "Source-cited"] },
+      { title: "Hire-to-Retire", body: "Every stage of the workforce lifecycle in one place. Recruiting, background checks, onboarding, performance reviews, compensation, talent 9-box, internal mobility, referrals, training, skills, attestations, helpdesk with SLAs, disciplinary, anonymous whistleblower, expenses, loans, tip pools, offboarding, gratuity, final settlement.", chips: ["Onboarding", "Performance", "Talent 9-box", "Offboarding"] },
+      { title: "Crew Coach + Decision Replay", body: "Crew Coach is your AI partner across the workforce domain — natural-language requests, source-cited answers, recommendations a manager can defend. Decision Replay logs every action: who decided, what changed, what the model said. Audit-ready by default.", chips: ["AI assistant", "Source-cited", "Replay log", "Audit-ready"] },
       { title: "Workflow + Approvals Builders", body: "No-code builders for approval chains and multi-step workflows. Span-of-control awareness from the org tree. Photo-card org view with reassign + cascade preview.", chips: ["No-code", "Org-aware", "Cascade preview", "Audit trail"] },
+    ],
+
+    coverageLabel: "Also included in every Crew deployment",
+    coverageItems: [
+      { title: "Employee mobile portal", body: "Every employee gets a free Sundae account — view shifts, request time-off, swap, payslips, attestations, biometric clock-in." },
+      { title: "Communications", body: "Briefings with topology audience picker, team feed, kudos, surveys, channel registry." },
+      { title: "Documents & e-sign", body: "Document storage, e-signature flow, evidence packs, credential tracking." },
+      { title: "Integrations & adapters", body: "BYO-HR adapters (Bayzat, Personio, Pento, Gusto, BambooHR), POS labor sync, public-holiday packs, partner-SDK." },
+      { title: "Org tree & permissions", body: "Photo-card org view, reassign with cascade preview, Owner / HR-Admin / Manager / Employee permission tiers." },
+      { title: "Admin & governance", body: "SSO, audit feed, RBAC, billing console, imports & bulk edit, multi-outlet management." },
     ],
 
     payrollEyebrow: "GCC PAYROLL · SHIPPED + LEGALLY VALIDATED",
@@ -189,9 +202,19 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
       { title: "الجدولة", body: "AI Builder يؤلف الجدول من توقع الطلب ومزيج الأدوار والأهلية — ثم يحرر المدير الأنماط الأربعة (نظرة عامة، حسب الشخص، حسب الوردية، حسب الدور). تكرار، فحص أهلية، تحذيرات تعارض، تداخل عطل رسمية.", chips: ["AI Builder", "4 أنماط عرض", "متطابق مع الطلب", "تكرار"] },
       { title: "الوقت والحضور", body: "PWA جوال للتسجيل مع geo-fence وWebAuthn بيومتري. تتبع استراحات، تدفق ضربة فائتة، موافقة المدير. درجات ثقة حية تغذي Workforce Health.", chips: ["PWA جوال", "Geo-fence", "بيومتري", "درجات الثقة"] },
       { title: "محرك الرواتب", body: "محرك حساب محايد. ست حزم دول خليجية موثقة قانونياً. تصديرات قانونية (WPS الإمارات، GOSI، PIFSS، GPSSA، SIO)، استحقاق المكافأة، استبدال الإجازات، التسوية النهائية. مساعد AI للتعديلات.", chips: ["6 حزم خليجية", "تصدير WPS", "مكافأة", "مساعد AI"] },
-      { title: "جناح HR", body: "60+ واجهة من التعيين إلى الإنهاء. فحوصات خلفية، إحالات، تنقل داخلي، إبلاغ مجهول، مراجعات 9-box، helpdesk بـ SLA، إقرارات سياسات، أداء، تعويضات، نفقات، قروض، تجمعات بقشيش.", chips: ["تعيين", "أداء", "9-box المواهب", "Helpdesk"] },
-      { title: "Decision Replay + Crew Copilot", body: "كل قرار قوى عاملة قابل للإعادة — من تصرف، ما تغير، ما قاله النموذج. Crew Copilot يوجه طلبات اللغة الطبيعية. مع مصادر، جاهز للتدقيق.", chips: ["سجل إعادة", "AI Copilot", "جاهز للتدقيق", "بمصادر"] },
+      { title: "من التعيين إلى التقاعد", body: "كل مرحلة من دورة حياة القوى العاملة في مكان واحد. توظيف، فحوصات خلفية، تعيين، مراجعات أداء، تعويضات، 9-box للمواهب، تنقل داخلي، إحالات، تدريب، مهارات، إقرارات، helpdesk بـ SLA، تأديب، إبلاغ مجهول، نفقات، قروض، تجمعات بقشيش، إنهاء، مكافأة، تسوية نهائية.", chips: ["تعيين", "أداء", "9-box المواهب", "إنهاء"] },
+      { title: "Crew Coach + Decision Replay", body: "Crew Coach شريكك الذكي عبر مجال القوى العاملة — طلبات بلغة طبيعية، إجابات بمصادر، توصيات يمكن للمدير الدفاع عنها. Decision Replay يسجل كل فعل: من قرر، ما تغير، ما قاله النموذج. جاهز للتدقيق تلقائياً.", chips: ["مساعد ذكي", "بمصادر", "سجل إعادة", "جاهز للتدقيق"] },
       { title: "منشئو الموافقات وسير العمل", body: "منشئون بلا كود لسلاسل الموافقات وسير العمل متعدد الخطوات. وعي بنطاق السيطرة من شجرة المنظمة. عرض بطاقة صور مع إعادة تعيين + معاينة سلسلة.", chips: ["بلا كود", "واعٍ بالمنظمة", "معاينة سلسلة", "أثر تدقيق"] },
+    ],
+
+    coverageLabel: "مشمول أيضاً في كل نشر Crew",
+    coverageItems: [
+      { title: "بوابة الجوال للموظفين", body: "كل موظف يحصل على حساب Sundae مجاني — مشاهدة الورديات، طلب الإجازات، التبديل، كشوف الرواتب، الإقرارات، تسجيل بيومتري." },
+      { title: "الاتصالات", body: "إحاطات بمنتقي جمهور طوبولوجي، تغذية فريق، تقدير، استبيانات، سجل قنوات." },
+      { title: "المستندات والتوقيع الإلكتروني", body: "تخزين مستندات، تدفق توقيع إلكتروني، حزم أدلة، تتبع شهادات." },
+      { title: "التكاملات والمحولات", body: "محولات BYO-HR (Bayzat، Personio، Pento، Gusto، BambooHR)، مزامنة POS، حزم العطل الرسمية، Partner-SDK." },
+      { title: "شجرة المنظمة والصلاحيات", body: "عرض بطاقة صور، إعادة تعيين بمعاينة سلسلة، طبقات صلاحيات: مالك / مدير HR / مدير / موظف." },
+      { title: "الإدارة والحوكمة", body: "SSO، تغذية تدقيق، RBAC، وحدة فوترة، استيراد وتعديل دفعي، إدارة متعددة المواقع." },
     ],
 
     payrollEyebrow: "رواتب الخليج · مُشحنة + موثقة قانونياً",
@@ -263,9 +286,19 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
       { title: "Planification", body: "AI Builder compose le planning depuis prévision demande, mix de rôles et éligibilité — puis le manager édite les quatre modes (vue d'ensemble, par personne, par service, par rôle). Récurrence, contrôles d'éligibilité, alertes conflits, jours fériés.", chips: ["AI Builder", "4 modes", "Demande-adapté", "Récurrence"] },
       { title: "Temps & Présence", body: "PWA mobile pour pointage avec géo-fence et biométrie WebAuthn. Pauses, flux pointage manqué, approbation manager. Scores de confiance live alimentant Workforce Health.", chips: ["PWA mobile", "Géo-fence", "Biométrie", "Scores"] },
       { title: "Moteur de paie", body: "Moteur de calcul neutre. Six packs pays GCC validés juridiquement. Exports statutaires (WPS UAE, GOSI, PIFSS, GPSSA, SIO), accumulation gratuity, encaissement congés, règlement final. Assist IA pour ajustements.", chips: ["6 packs GCC", "Export WPS", "Gratuity", "Assist IA"] },
-      { title: "Suite RH", body: "60+ surfaces de l'onboarding à l'offboarding. Background checks, recommandations, mobilité interne, alertes anonymes, 9-box talents, helpdesk SLA, attestations, performance, compensation, dépenses, prêts, pools de pourboires.", chips: ["Onboarding", "Performance", "9-box", "Helpdesk"] },
-      { title: "Decision Replay + Crew Copilot", body: "Chaque décision rejouable — qui, quoi, ce que le modèle a dit. Crew Copilot route les requêtes en langage naturel. Sources, prêt audit.", chips: ["Replay log", "Copilot IA", "Audit-ready", "Sourcé"] },
+      { title: "Hire-to-Retire", body: "Chaque étape du cycle de vie main-d'œuvre au même endroit. Recrutement, background checks, onboarding, performance, compensation, 9-box talents, mobilité interne, recommandations, formation, compétences, attestations, helpdesk SLA, disciplinaire, alertes anonymes, dépenses, prêts, pools pourboires, offboarding, gratuity, règlement final.", chips: ["Onboarding", "Performance", "9-box", "Offboarding"] },
+      { title: "Crew Coach + Decision Replay", body: "Crew Coach est votre partenaire IA sur le domaine main-d'œuvre — requêtes en langage naturel, réponses sourcées, recommandations qu'un manager peut défendre. Decision Replay journalise chaque action : qui décide, quoi change, ce que dit le modèle. Prêt audit par défaut.", chips: ["Assistant IA", "Sourcé", "Replay log", "Prêt audit"] },
       { title: "Builders Workflow + Approvals", body: "No-code pour chaînes d'approbation et workflows multi-étapes. Conscient du span-of-control depuis l'org tree. Vue carte-photo avec réassignation + aperçu cascade.", chips: ["No-code", "Org-aware", "Cascade", "Audit trail"] },
+    ],
+
+    coverageLabel: "Inclus dans chaque déploiement Crew",
+    coverageItems: [
+      { title: "Portail mobile employé", body: "Chaque employé obtient un compte Sundae gratuit — voir shifts, demander congés, swap, bulletins, attestations, pointage biométrique." },
+      { title: "Communications", body: "Briefings avec picker d'audience topologique, fil d'équipe, kudos, sondages, registre de canaux." },
+      { title: "Documents & e-sign", body: "Stockage de documents, flux de signature électronique, evidence packs, suivi de credentials." },
+      { title: "Intégrations & adapters", body: "Adapters BYO-HR (Bayzat, Personio, Pento, Gusto, BambooHR), sync POS, packs jours fériés, Partner-SDK." },
+      { title: "Org tree & permissions", body: "Vue carte-photo, réassignation avec cascade, tiers : Propriétaire / Admin RH / Manager / Employé." },
+      { title: "Admin & gouvernance", body: "SSO, feed d'audit, RBAC, console de facturation, imports & édition en masse, multi-site." },
     ],
 
     payrollEyebrow: "PAIE GCC · EXPÉDIÉ + VALIDÉ JURIDIQUEMENT",
@@ -337,9 +370,19 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
       { title: "Horarios", body: "AI Builder compone el horario desde pronóstico de demanda, mix de roles y elegibilidad — luego el manager edita los cuatro modos (vista general, por persona, por turno, por rol). Recurrencia, verificación elegibilidad, alertas conflicto, festivos.", chips: ["AI Builder", "4 modos", "Demanda-ajustado", "Recurrencia"] },
       { title: "Tiempo y Asistencia", body: "PWA móvil para fichar con geo-cerca y biometría WebAuthn. Descansos, flujo de fichaje perdido, aprobación manager. Scores de confianza en vivo alimentando Workforce Health.", chips: ["PWA móvil", "Geo-cerca", "Biometría", "Scores"] },
       { title: "Motor de nómina", body: "Motor de cálculo neutral. Seis paquetes país GCC validados legalmente. Exportes estatutarios (WPS UAE, GOSI, PIFSS, GPSSA, SIO), acumulación gratuity, encaje vacaciones, liquidación final. Asistente IA.", chips: ["6 paquetes GCC", "Export WPS", "Gratuity", "Asist IA"] },
-      { title: "Suite RR.HH.", body: "60+ superficies de onboarding a offboarding. Background checks, referidos, movilidad interna, denuncias anónimas, talento 9-box, helpdesk con SLA, attestations, performance, compensación, gastos, préstamos, pools de propinas.", chips: ["Onboarding", "Performance", "9-box", "Helpdesk"] },
-      { title: "Decision Replay + Crew Copilot", body: "Cada decisión es reproducible — quién actuó, qué cambió, qué dijo el modelo. Crew Copilot enruta solicitudes en lenguaje natural. Con fuentes, listo para auditoría.", chips: ["Registro replay", "Copilot IA", "Auditable", "Con fuentes"] },
+      { title: "Hire-to-Retire", body: "Cada etapa del ciclo de vida de la fuerza laboral en un solo lugar. Reclutamiento, background checks, onboarding, performance, compensación, talento 9-box, movilidad interna, referidos, formación, habilidades, attestations, helpdesk con SLA, disciplinarios, denuncias anónimas, gastos, préstamos, pools de propinas, offboarding, gratuity, liquidación final.", chips: ["Onboarding", "Performance", "9-box", "Offboarding"] },
+      { title: "Crew Coach + Decision Replay", body: "Crew Coach es tu socio IA en el dominio de fuerza laboral — solicitudes en lenguaje natural, respuestas con fuente, recomendaciones que un manager puede defender. Decision Replay registra cada acción: quién decide, qué cambia, qué dijo el modelo. Listo para auditoría por defecto.", chips: ["Asistente IA", "Con fuente", "Registro replay", "Auditable"] },
       { title: "Builders Workflow + Aprobaciones", body: "Builders no-code para cadenas de aprobación y workflows multi-paso. Conciencia de span-of-control desde el org tree. Vista tarjeta-foto con reasignación + preview cascada.", chips: ["No-code", "Org-aware", "Cascada", "Audit trail"] },
+    ],
+
+    coverageLabel: "Incluido en cada despliegue de Crew",
+    coverageItems: [
+      { title: "Portal móvil para empleados", body: "Cada empleado recibe una cuenta Sundae gratis — ver turnos, pedir vacaciones, swap, nóminas, attestations, fichaje biométrico." },
+      { title: "Comunicaciones", body: "Briefings con selector de audiencia topológico, feed de equipo, kudos, encuestas, registro de canales." },
+      { title: "Documentos y e-sign", body: "Almacenamiento de documentos, flujo de firma electrónica, evidence packs, seguimiento de credenciales." },
+      { title: "Integraciones y adapters", body: "Adapters BYO-HR (Bayzat, Personio, Pento, Gusto, BambooHR), sync POS, paquetes de festivos, Partner-SDK." },
+      { title: "Org tree y permisos", body: "Vista tarjeta-foto, reasignación con cascada, niveles: Propietario / Admin RR.HH. / Manager / Empleado." },
+      { title: "Admin y gobierno", body: "SSO, feed de auditoría, RBAC, consola de facturación, importes y edición masiva, multi-local." },
     ],
 
     payrollEyebrow: "NÓMINA GCC · ENVIADO + VALIDADO LEGALMENTE",
@@ -503,6 +546,26 @@ export default function CrewPage() {
                 </StaggerItem>
               ))}
             </StaggerContainer>
+
+            {/* COVERAGE STRIP — what else ships with every Crew deployment */}
+            <FadeUp delay={0.2} className="mt-12 max-w-6xl mx-auto">
+              <div className="rounded-2xl p-6 sm:p-7 bg-white/[0.025] border border-[var(--border-default)]">
+                <p className="text-[11px] uppercase tracking-[0.18em] text-[var(--text-muted)] font-semibold mb-5 text-center">
+                  + {copy.coverageLabel}
+                </p>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
+                  {copy.coverageItems.map((item) => (
+                    <div key={item.title} className="flex items-start gap-3">
+                      <svg className="w-4 h-4 text-[#60A5FA] flex-shrink-0 mt-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M20 6 9 17l-5-5" /></svg>
+                      <div>
+                        <div className="text-sm font-semibold text-[var(--text-primary)] mb-1 leading-snug">{item.title}</div>
+                        <div className="text-[12px] text-[var(--text-muted)] leading-snug">{item.body}</div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </FadeUp>
           </div>
         </section>
 

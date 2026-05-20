@@ -22,6 +22,7 @@ function shouldHideFooterPreCta(pathname: string): boolean {
   if (stripped === '/') return true;             // home
   if (stripped === '/solutions') return true;    // hub
   if (stripped.startsWith('/solutions/')) return true; // persona pages
+  if (stripped === '/crew') return true;         // crew page (own closing CTA)
   return false;
 }
 import { localizeWebsiteHref } from '@/lib/i18n';
