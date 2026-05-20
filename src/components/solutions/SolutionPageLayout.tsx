@@ -26,6 +26,17 @@ export type SolutionCopy = {
   outcomesTitle: string;
   outcomesDescription: string;
   outcomes: { title: string; description: string; icon: SundaeIconName }[];
+  /**
+   * Optional Crew callout — renders a small strip between Outcomes and Closing CTA.
+   * Use to cross-reference /crew from persona pages where Crew is naturally relevant
+   * (e.g. HR & People, Operations Leaders). Omit on personas where Crew is incidental.
+   */
+  crewCallout?: {
+    eyebrow: string;
+    title: string;
+    description: string;
+    ctaText: string;
+  };
   ctaTitle: string;
   ctaDescription: string;
   ctaButton: string;
@@ -190,6 +201,41 @@ export function SolutionPageLayout({
             </StaggerContainer>
           </div>
         </section>
+
+        {/* ════════════════════════════════════════════════
+            OPTIONAL: CREW CALLOUT — only renders when copy.crewCallout is set
+        ════════════════════════════════════════════════ */}
+        {copy.crewCallout && (
+          <section className="relative py-16 px-4 sm:px-6 lg:px-8">
+            <div className="absolute inset-0 bg-mesh" />
+            <div className="relative z-10 max-w-5xl mx-auto">
+              <FadeUp>
+                <div className="rounded-2xl p-7 sm:p-9 border border-[var(--electric-blue)]/30 bg-gradient-to-br from-[var(--electric-blue)]/[0.08] to-[var(--electric-blue)]/[0.02] shadow-[0_0_40px_rgba(28,71,255,0.10)]">
+                  <div className="grid lg:grid-cols-[minmax(0,1fr)_auto] gap-6 items-center">
+                    <div>
+                      <p className="text-[11px] uppercase tracking-[0.18em] text-[#60A5FA] font-bold mb-3">
+                        {copy.crewCallout.eyebrow}
+                      </p>
+                      <h3 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)] mb-2 leading-tight">
+                        {copy.crewCallout.title}
+                      </h3>
+                      <p className="text-sm sm:text-base text-[var(--text-supporting)] leading-relaxed max-w-2xl">
+                        {copy.crewCallout.description}
+                      </p>
+                    </div>
+                    <div className="flex-shrink-0">
+                      <Link href="/crew">
+                        <Button variant="outline-light" size="lg">
+                          {copy.crewCallout.ctaText} →
+                        </Button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </FadeUp>
+            </div>
+          </section>
+        )}
 
         {/* ════════════════════════════════════════════════
             CLOSING CTA
