@@ -27,9 +27,14 @@ const moduleAccents = [
   "from-[#22C55E] to-[#16A34A]",
 ] as const;
 
-const countryFlags = ["🇦🇪", "🇸🇦", "🇶🇦", "🇧🇭", "🇴🇲", "🇰🇼"];
-
 /* ─── i18n copy ─── */
+
+type PayrollCluster = {
+  flags: string[];
+  region: string;
+  depth: string;
+  hooks: string[];
+};
 
 type LocalizedCrew = {
   badge: string;
@@ -59,10 +64,13 @@ type LocalizedCrew = {
   payrollEyebrow: string;
   payrollTitle: string;
   payrollDescription: string;
-  payrollCountriesLabel: string;
-  payrollCountriesNames: string[];
-  payrollStatutoryLabel: string;
-  payrollStatutoryItems: string[];
+  payrollClusters: PayrollCluster[];
+  payrollExportsLabel: string;
+  payrollExportsItems: string[];
+  payrollFormsLabel: string;
+  payrollFormsItems: string[];
+  payrollGuaranteesLabel: string;
+  payrollGuaranteesItems: string[];
   payrollRoadmapLabel: string;
   payrollRoadmapItems: string[];
   payrollClosing: string;
@@ -117,7 +125,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     pillars: [
       { title: "Scheduling", body: "AI Builder composes the schedule from demand forecast, role mix, and eligibility — then the manager edits the four view modes that matter (overview, by-person, by-shift, by-role). Recurrence, eligibility checks, conflict warnings, public-holiday overlays.", chips: ["AI Builder", "4 view modes", "Demand-matched", "Recurrence"] },
       { title: "Time & Attendance", body: "Mobile PWA clock-in with geo-fence and WebAuthn biometric. Break tracking, missed-punch flow, manager approval. Live trust scores feeding Workforce Health.", chips: ["Mobile PWA", "Geo-fence", "Biometric", "Trust scores"] },
-      { title: "Payroll Engine", body: "Provider-neutral calculation engine. Six GCC country packs legally validated. Statutory exports (UAE WPS, GOSI, PIFSS, GPSSA, SIO), gratuity accrual, leave encashment, final settlement. AI assist for adjustments. Not a tax engine — a parameterized pack-driven engine.", chips: ["6 GCC packs", "WPS export", "Gratuity", "AI assist"] },
+      { title: "Payroll Engine", body: "Provider-neutral calculation engine. Multi-region — United States, Canada, United Kingdom, European Union, GCC. Statutory exports (NACHA, EFT, HMRC RTI, SEPA, WPS) and year-end forms per jurisdiction. AI-explained preview, gratuity accrual, leave encashment, final settlement. Pack-driven, not hardcoded — annual updates are pack edits.", chips: ["Multi-region", "Statutory exports", "Year-end forms", "AI assist"] },
       { title: "Hire-to-Retire", body: "Every stage of the workforce lifecycle in one place. Recruiting, background checks, onboarding, performance reviews, compensation, talent 9-box, internal mobility, referrals, training, skills, attestations, helpdesk with SLAs, disciplinary, anonymous whistleblower, expenses, loans, tip pools, offboarding, gratuity, final settlement.", chips: ["Onboarding", "Performance", "Talent 9-box", "Offboarding"] },
       { title: "Crew Coach + Decision Replay", body: "Crew Coach is your AI partner across the workforce domain — natural-language requests, source-cited answers, recommendations a manager can defend. Decision Replay logs every action: who decided, what changed, what the model said. Audit-ready by default.", chips: ["AI assistant", "Source-cited", "Replay log", "Audit-ready"] },
       { title: "Workflow + Approvals Builders", body: "No-code builders for approval chains and multi-step workflows. Span-of-control awareness from the org tree. Photo-card org view with reassign + cascade preview.", chips: ["No-code", "Org-aware", "Cascade preview", "Audit trail"] },
@@ -133,15 +141,24 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
       { title: "Admin & governance", body: "SSO, audit feed, RBAC, billing console, imports & bulk edit, multi-outlet management." },
     ],
 
-    payrollEyebrow: "GCC PAYROLL · SHIPPED + LEGALLY VALIDATED",
-    payrollTitle: "Six country packs. One calculation engine.",
-    payrollDescription: "Provider-neutral. Pack-driven. Legally validated. Each pack is a versioned, parameterized rule set — not hardcoded — so annual statutory updates are pack edits, not code rewrites.",
-    payrollCountriesLabel: "Shipped country packs",
-    payrollCountriesNames: ["UAE", "Saudi Arabia", "Qatar", "Bahrain", "Oman", "Kuwait"],
-    payrollStatutoryLabel: "Statutory components",
-    payrollStatutoryItems: ["WPS export (UAE)", "GOSI · KSA", "GPSSA · UAE", "PIFSS · Kuwait", "SIO · Bahrain + Oman", "Gratuity · all packs", "Leave encashment", "Final settlement"],
+    payrollEyebrow: "MULTI-REGION PAYROLL",
+    payrollTitle: "One engine. Every jurisdiction.",
+    payrollDescription: "Provider-neutral. Pack-driven. Every statutory rate is a versioned, source-cited rule — not hardcoded — so annual updates are pack edits, not code rewrites.",
+    payrollClusters: [
+      { flags: ["🇺🇸"], region: "United States", depth: "Federal + every state + DC + PR + major cities", hooks: ["FICA", "FUTA", "SUTA", "SDI", "NACHA", "W-2", "1099"] },
+      { flags: ["🇨🇦"], region: "Canada", depth: "Federal + every province and territory", hooks: ["CPP", "CPP2", "EI", "QPP", "QPIP", "EFT", "T4", "RL-1", "ROE"] },
+      { flags: ["🇬🇧"], region: "United Kingdom", depth: "England, Wales, Northern Ireland + Scotland", hooks: ["PAYE", "NI", "Auto-enrolment", "HMRC RTI", "P60", "P11D"] },
+      { flags: ["🇪🇺"], region: "European Union", depth: "All 27 member states", hooks: ["Lohnsteuer", "IRPF", "URSSAF", "Loonheffing", "USC", "SEPA", "DSN", "Modelo 190"] },
+      { flags: ["🇦🇪", "🇸🇦", "🇶🇦", "🇧🇭", "🇴🇲", "🇰🇼"], region: "GCC", depth: "UAE · KSA · Qatar · Bahrain · Oman · Kuwait", hooks: ["WPS", "GOSI", "GPSSA", "PIFSS", "SIO", "Gratuity", "Leave encashment"] },
+    ],
+    payrollExportsLabel: "Statutory exports",
+    payrollExportsItems: ["NACHA", "EFT 005", "HMRC RTI", "SEPA", "WPS SIF"],
+    payrollFormsLabel: "Year-end forms",
+    payrollFormsItems: ["W-2", "T4", "P60", "P11D", "Lohnsteuerbescheinigung", "jaaropgaaf", "DSN", "Modelo 190", "GOSI annual"],
+    payrollGuaranteesLabel: "Engine guarantees",
+    payrollGuaranteesItems: ["Pack-driven", "Rule-versioned", "Source-cited per rate", "AI-explained preview"],
     payrollRoadmapLabel: "On the roadmap",
-    payrollRoadmapItems: ["UK · PAYE RTI", "US · federal + first state (FLSA)", "Framework supports all ISO-3166 countries — new pack = author + validate, not rewrite the engine."],
+    payrollRoadmapItems: ["Latin America", "APAC", "Expanded regional coverage"],
     payrollClosing: "BYO-payroll? Crew exports clean files and drives partner APIs (Bayzat MEA, Personio EU, Pento UK, Gusto US).",
 
     modulesEyebrow: "MODULES",
@@ -150,7 +167,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     modules: [
       { name: "Crew Operations", tagline: "People, scheduling, HR records.", included: ["Scheduling + AI Builder", "60+ HR surfaces", "Onboarding → offboarding", "Org tree + permissions", "Workflow + approvals builders"] },
       { name: "Crew T&A", tagline: "Clock-in, attendance, variance.", included: ["Mobile PWA clock-in", "Geo-fence + biometric", "Break tracking", "Variance + trust scores", "Manager approvals"] },
-      { name: "Crew Payroll", tagline: "Calculation engine + 6 GCC packs.", included: ["Provider-neutral engine", "6 legally-validated packs", "WPS · GOSI · PIFSS · SIO", "Gratuity + final settlement", "Statutory exports + AI assist"] },
+      { name: "Crew Payroll", tagline: "Multi-region calculation engine.", included: ["Provider-neutral engine", "Multi-region packs", "NACHA · EFT · HMRC RTI · SEPA · WPS", "Year-end forms per jurisdiction", "Gratuity + final settlement"] },
     ],
     bundleLabel: "Crew Operating Suite",
     bundleDescription: "Bundle discount auto-applies when all three modules are attached.",
@@ -163,7 +180,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     personas: [
       { title: "HR & People Lead", outcome: "Hire-to-retire in one platform — onboarding, performance, talent, payroll readiness, offboarding — feeding Labor Intelligence in the same breath.", metric: "60+ HR surfaces" },
       { title: "Operations Manager", outcome: "Schedule for demand, not for last week. AI Builder, eligibility-checked assignment, swap marketplace, manager actions queue.", metric: "AI-built schedules" },
-      { title: "Payroll Admin", outcome: "Close payroll without manual exports. WPS-ready. GOSI-ready. Final-settlement workflows for offboarding. AI assist for adjustments and edge cases.", metric: "WPS · GOSI · PIFSS · SIO" },
+      { title: "Payroll Admin", outcome: "Close payroll without manual exports. Multi-region engine — US, Canada, UK, EU, GCC. Statutory exports and year-end forms built in. AI assist for adjustments and edge cases.", metric: "US · CA · UK · EU · GCC" },
       { title: "Employees", outcome: "Free Sundae self-service portal. View shift, request time-off, swap, see payslip, attest policies, clock in via mobile PWA with biometric.", metric: "Free · always" },
     ],
 
@@ -201,7 +218,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     pillars: [
       { title: "الجدولة", body: "AI Builder يؤلف الجدول من توقع الطلب ومزيج الأدوار والأهلية — ثم يحرر المدير الأنماط الأربعة (نظرة عامة، حسب الشخص، حسب الوردية، حسب الدور). تكرار، فحص أهلية، تحذيرات تعارض، تداخل عطل رسمية.", chips: ["AI Builder", "4 أنماط عرض", "متطابق مع الطلب", "تكرار"] },
       { title: "الوقت والحضور", body: "PWA جوال للتسجيل مع geo-fence وWebAuthn بيومتري. تتبع استراحات، تدفق ضربة فائتة، موافقة المدير. درجات ثقة حية تغذي Workforce Health.", chips: ["PWA جوال", "Geo-fence", "بيومتري", "درجات الثقة"] },
-      { title: "محرك الرواتب", body: "محرك حساب محايد. ست حزم دول خليجية موثقة قانونياً. تصديرات قانونية (WPS الإمارات، GOSI، PIFSS، GPSSA، SIO)، استحقاق المكافأة، استبدال الإجازات، التسوية النهائية. مساعد AI للتعديلات.", chips: ["6 حزم خليجية", "تصدير WPS", "مكافأة", "مساعد AI"] },
+      { title: "محرك الرواتب", body: "محرك حساب محايد. متعدد المناطق — الولايات المتحدة، كندا، المملكة المتحدة، الاتحاد الأوروبي، دول الخليج. تصديرات قانونية (NACHA، EFT، HMRC RTI، SEPA، WPS) ونماذج نهاية السنة لكل ولاية قضائية. معاينة بشرح ذكي، استحقاق المكافأة، استبدال الإجازات، التسوية النهائية. مدفوع بحزم لا مُشفّر — التحديثات السنوية تعديل حزمة.", chips: ["متعدد المناطق", "تصديرات قانونية", "نماذج نهاية السنة", "مساعد AI"] },
       { title: "من التعيين إلى التقاعد", body: "كل مرحلة من دورة حياة القوى العاملة في مكان واحد. توظيف، فحوصات خلفية، تعيين، مراجعات أداء، تعويضات، 9-box للمواهب، تنقل داخلي، إحالات، تدريب، مهارات، إقرارات، helpdesk بـ SLA، تأديب، إبلاغ مجهول، نفقات، قروض، تجمعات بقشيش، إنهاء، مكافأة، تسوية نهائية.", chips: ["تعيين", "أداء", "9-box المواهب", "إنهاء"] },
       { title: "Crew Coach + Decision Replay", body: "Crew Coach شريكك الذكي عبر مجال القوى العاملة — طلبات بلغة طبيعية، إجابات بمصادر، توصيات يمكن للمدير الدفاع عنها. Decision Replay يسجل كل فعل: من قرر، ما تغير، ما قاله النموذج. جاهز للتدقيق تلقائياً.", chips: ["مساعد ذكي", "بمصادر", "سجل إعادة", "جاهز للتدقيق"] },
       { title: "منشئو الموافقات وسير العمل", body: "منشئون بلا كود لسلاسل الموافقات وسير العمل متعدد الخطوات. وعي بنطاق السيطرة من شجرة المنظمة. عرض بطاقة صور مع إعادة تعيين + معاينة سلسلة.", chips: ["بلا كود", "واعٍ بالمنظمة", "معاينة سلسلة", "أثر تدقيق"] },
@@ -217,15 +234,24 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
       { title: "الإدارة والحوكمة", body: "SSO، تغذية تدقيق، RBAC، وحدة فوترة، استيراد وتعديل دفعي، إدارة متعددة المواقع." },
     ],
 
-    payrollEyebrow: "رواتب الخليج · مُشحنة + موثقة قانونياً",
-    payrollTitle: "ست حزم دول. محرك حساب واحد.",
-    payrollDescription: "محايد. مدفوع بحزم. موثق قانونياً. كل حزمة مجموعة قواعد ذات إصدارات ومعاملات — لا كود مُشفّر — فالتحديثات السنوية تعديل حزمة لا إعادة كتابة.",
-    payrollCountriesLabel: "حزم الدول المُشحنة",
-    payrollCountriesNames: ["الإمارات", "السعودية", "قطر", "البحرين", "عُمان", "الكويت"],
-    payrollStatutoryLabel: "المكونات القانونية",
-    payrollStatutoryItems: ["تصدير WPS (الإمارات)", "GOSI · السعودية", "GPSSA · الإمارات", "PIFSS · الكويت", "SIO · البحرين + عُمان", "مكافأة · كل الحزم", "استبدال الإجازات", "التسوية النهائية"],
+    payrollEyebrow: "رواتب متعددة المناطق",
+    payrollTitle: "محرك واحد. كل ولاية قضائية.",
+    payrollDescription: "محايد. مدفوع بحزم. كل معدّل قانوني قاعدة ذات إصدارات ومصدر مذكور — لا كود مُشفّر — فالتحديثات السنوية تعديل حزمة لا إعادة كتابة.",
+    payrollClusters: [
+      { flags: ["🇺🇸"], region: "الولايات المتحدة", depth: "فيدرالي + كل ولاية + DC + PR + المدن الكبرى", hooks: ["FICA", "FUTA", "SUTA", "SDI", "NACHA", "W-2", "1099"] },
+      { flags: ["🇨🇦"], region: "كندا", depth: "فيدرالي + كل مقاطعة وإقليم", hooks: ["CPP", "CPP2", "EI", "QPP", "QPIP", "EFT", "T4", "RL-1", "ROE"] },
+      { flags: ["🇬🇧"], region: "المملكة المتحدة", depth: "إنجلترا، ويلز، إيرلندا الشمالية + اسكتلندا", hooks: ["PAYE", "NI", "Auto-enrolment", "HMRC RTI", "P60", "P11D"] },
+      { flags: ["🇪🇺"], region: "الاتحاد الأوروبي", depth: "كل الدول الـ27 الأعضاء", hooks: ["Lohnsteuer", "IRPF", "URSSAF", "Loonheffing", "USC", "SEPA", "DSN", "Modelo 190"] },
+      { flags: ["🇦🇪", "🇸🇦", "🇶🇦", "🇧🇭", "🇴🇲", "🇰🇼"], region: "دول الخليج", depth: "الإمارات · السعودية · قطر · البحرين · عُمان · الكويت", hooks: ["WPS", "GOSI", "GPSSA", "PIFSS", "SIO", "مكافأة", "استبدال إجازات"] },
+    ],
+    payrollExportsLabel: "تصديرات قانونية",
+    payrollExportsItems: ["NACHA", "EFT 005", "HMRC RTI", "SEPA", "WPS SIF"],
+    payrollFormsLabel: "نماذج نهاية السنة",
+    payrollFormsItems: ["W-2", "T4", "P60", "P11D", "Lohnsteuerbescheinigung", "jaaropgaaf", "DSN", "Modelo 190", "GOSI سنوي"],
+    payrollGuaranteesLabel: "ضمانات المحرك",
+    payrollGuaranteesItems: ["مدفوع بحزم", "قواعد بإصدارات", "كل معدّل بمصدر", "معاينة بشرح ذكي"],
     payrollRoadmapLabel: "على خارطة الطريق",
-    payrollRoadmapItems: ["UK · PAYE RTI", "US · فيدرالي + ولاية أولى (FLSA)", "الإطار يدعم كل دول ISO-3166 — حزمة جديدة = تأليف + توثيق، لا إعادة كتابة المحرك."],
+    payrollRoadmapItems: ["أمريكا اللاتينية", "آسيا والمحيط الهادئ", "توسيع التغطية الإقليمية"],
     payrollClosing: "تجلب رواتبك؟ Crew يصدّر ملفات نظيفة ويشغّل APIs الشركاء (Bayzat، Personio، Pento، Gusto).",
 
     modulesEyebrow: "الوحدات",
@@ -234,7 +260,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     modules: [
       { name: "Crew Operations", tagline: "موظفون، جدولة، سجلات HR.", included: ["جدولة + AI Builder", "+60 واجهة HR", "تعيين → إنهاء", "شجرة منظمة + صلاحيات", "منشئو الموافقات وسير العمل"] },
       { name: "Crew T&A", tagline: "تسجيل، حضور، تباين.", included: ["PWA جوال للتسجيل", "Geo-fence + بيومتري", "تتبع الاستراحات", "تباين + درجات ثقة", "موافقات المدير"] },
-      { name: "Crew Payroll", tagline: "محرك حساب + 6 حزم خليجية.", included: ["محرك محايد", "6 حزم موثقة", "WPS · GOSI · PIFSS · SIO", "مكافأة + تسوية نهائية", "تصديرات قانونية + مساعد AI"] },
+      { name: "Crew Payroll", tagline: "محرك حساب متعدد المناطق.", included: ["محرك محايد", "حزم متعددة المناطق", "NACHA · EFT · HMRC RTI · SEPA · WPS", "نماذج نهاية السنة لكل ولاية قضائية", "مكافأة + تسوية نهائية"] },
     ],
     bundleLabel: "Crew Operating Suite",
     bundleDescription: "خصم الحزمة يُطبق آلياً عند ضم الوحدات الثلاث.",
@@ -247,7 +273,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     personas: [
       { title: "قائد HR", outcome: "من التعيين إلى التقاعد في منصة واحدة — تعيين، أداء، مواهب، جاهزية رواتب، إنهاء — يغذي Labor Intelligence في نفس النفس.", metric: "+60 واجهة HR" },
       { title: "مدير العمليات", outcome: "جدول للطلب لا للأسبوع الماضي. AI Builder، تعيين بفحص أهلية، سوق تبديل، طابور إجراءات المدير.", metric: "جداول AI" },
-      { title: "مسؤول الرواتب", outcome: "أقفل الرواتب بلا تصديرات يدوية. WPS جاهز. GOSI جاهز. سير عمل تسوية نهائية. مساعد AI للتعديلات والحالات الحرجة.", metric: "WPS · GOSI · PIFSS · SIO" },
+      { title: "مسؤول الرواتب", outcome: "أقفل الرواتب بلا تصديرات يدوية. محرك متعدد المناطق — الولايات المتحدة، كندا، المملكة المتحدة، الاتحاد الأوروبي، دول الخليج. تصديرات قانونية ونماذج نهاية السنة جاهزة. مساعد AI للتعديلات والحالات الحرجة.", metric: "US · CA · UK · EU · GCC" },
       { title: "الموظفون", outcome: "بوابة Sundae خدمة ذاتية مجانية. مشاهدة وردية، طلب إجازة، تبديل، رؤية كشف راتب، إقرار سياسات، تسجيل عبر PWA جوال ببيومتري.", metric: "مجاناً · دائماً" },
     ],
 
@@ -285,7 +311,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     pillars: [
       { title: "Planification", body: "AI Builder compose le planning depuis prévision demande, mix de rôles et éligibilité — puis le manager édite les quatre modes (vue d'ensemble, par personne, par service, par rôle). Récurrence, contrôles d'éligibilité, alertes conflits, jours fériés.", chips: ["AI Builder", "4 modes", "Demande-adapté", "Récurrence"] },
       { title: "Temps & Présence", body: "PWA mobile pour pointage avec géo-fence et biométrie WebAuthn. Pauses, flux pointage manqué, approbation manager. Scores de confiance live alimentant Workforce Health.", chips: ["PWA mobile", "Géo-fence", "Biométrie", "Scores"] },
-      { title: "Moteur de paie", body: "Moteur de calcul neutre. Six packs pays GCC validés juridiquement. Exports statutaires (WPS UAE, GOSI, PIFSS, GPSSA, SIO), accumulation gratuity, encaissement congés, règlement final. Assist IA pour ajustements.", chips: ["6 packs GCC", "Export WPS", "Gratuity", "Assist IA"] },
+      { title: "Moteur de paie", body: "Moteur de calcul neutre. Multi-régions — États-Unis, Canada, Royaume-Uni, Union européenne, GCC. Exports statutaires (NACHA, EFT, HMRC RTI, SEPA, WPS) et formulaires fin d'année par juridiction. Aperçu expliqué par IA, accumulation gratuity, encaissement congés, règlement final. Pack-driven, pas hardcodé — les mises à jour annuelles sont des modifications de pack.", chips: ["Multi-régions", "Exports statutaires", "Formulaires fin d'année", "Assist IA"] },
       { title: "Hire-to-Retire", body: "Chaque étape du cycle de vie main-d'œuvre au même endroit. Recrutement, background checks, onboarding, performance, compensation, 9-box talents, mobilité interne, recommandations, formation, compétences, attestations, helpdesk SLA, disciplinaire, alertes anonymes, dépenses, prêts, pools pourboires, offboarding, gratuity, règlement final.", chips: ["Onboarding", "Performance", "9-box", "Offboarding"] },
       { title: "Crew Coach + Decision Replay", body: "Crew Coach est votre partenaire IA sur le domaine main-d'œuvre — requêtes en langage naturel, réponses sourcées, recommandations qu'un manager peut défendre. Decision Replay journalise chaque action : qui décide, quoi change, ce que dit le modèle. Prêt audit par défaut.", chips: ["Assistant IA", "Sourcé", "Replay log", "Prêt audit"] },
       { title: "Builders Workflow + Approvals", body: "No-code pour chaînes d'approbation et workflows multi-étapes. Conscient du span-of-control depuis l'org tree. Vue carte-photo avec réassignation + aperçu cascade.", chips: ["No-code", "Org-aware", "Cascade", "Audit trail"] },
@@ -301,15 +327,24 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
       { title: "Admin & gouvernance", body: "SSO, feed d'audit, RBAC, console de facturation, imports & édition en masse, multi-site." },
     ],
 
-    payrollEyebrow: "PAIE GCC · EXPÉDIÉ + VALIDÉ JURIDIQUEMENT",
-    payrollTitle: "Six packs pays. Un seul moteur de calcul.",
-    payrollDescription: "Neutre fournisseur. Pack-driven. Validé juridiquement. Chaque pack est un ensemble de règles paramétré et versionné — non hardcodé — donc les mises à jour annuelles sont des modifications de pack, pas de réécritures.",
-    payrollCountriesLabel: "Packs pays expédiés",
-    payrollCountriesNames: ["UAE", "Arabie saoudite", "Qatar", "Bahreïn", "Oman", "Koweït"],
-    payrollStatutoryLabel: "Composants statutaires",
-    payrollStatutoryItems: ["Export WPS (UAE)", "GOSI · KSA", "GPSSA · UAE", "PIFSS · Koweït", "SIO · Bahreïn + Oman", "Gratuity · tous packs", "Encaissement congés", "Règlement final"],
+    payrollEyebrow: "PAIE MULTI-RÉGIONS",
+    payrollTitle: "Un moteur. Toutes les juridictions.",
+    payrollDescription: "Neutre fournisseur. Pack-driven. Chaque taux statutaire est une règle versionnée et sourcée — non hardcodée — donc les mises à jour annuelles sont des modifications de pack, pas de réécritures.",
+    payrollClusters: [
+      { flags: ["🇺🇸"], region: "États-Unis", depth: "Fédéral + chaque état + DC + PR + grandes villes", hooks: ["FICA", "FUTA", "SUTA", "SDI", "NACHA", "W-2", "1099"] },
+      { flags: ["🇨🇦"], region: "Canada", depth: "Fédéral + chaque province et territoire", hooks: ["CPP", "CPP2", "EI", "QPP", "QPIP", "EFT", "T4", "RL-1", "ROE"] },
+      { flags: ["🇬🇧"], region: "Royaume-Uni", depth: "Angleterre, Pays de Galles, Irlande du Nord + Écosse", hooks: ["PAYE", "NI", "Auto-enrolment", "HMRC RTI", "P60", "P11D"] },
+      { flags: ["🇪🇺"], region: "Union européenne", depth: "Les 27 états membres", hooks: ["Lohnsteuer", "IRPF", "URSSAF", "Loonheffing", "USC", "SEPA", "DSN", "Modelo 190"] },
+      { flags: ["🇦🇪", "🇸🇦", "🇶🇦", "🇧🇭", "🇴🇲", "🇰🇼"], region: "GCC", depth: "UAE · KSA · Qatar · Bahreïn · Oman · Koweït", hooks: ["WPS", "GOSI", "GPSSA", "PIFSS", "SIO", "Gratuity", "Encaissement congés"] },
+    ],
+    payrollExportsLabel: "Exports statutaires",
+    payrollExportsItems: ["NACHA", "EFT 005", "HMRC RTI", "SEPA", "WPS SIF"],
+    payrollFormsLabel: "Formulaires fin d'année",
+    payrollFormsItems: ["W-2", "T4", "P60", "P11D", "Lohnsteuerbescheinigung", "jaaropgaaf", "DSN", "Modelo 190", "GOSI annuel"],
+    payrollGuaranteesLabel: "Garanties moteur",
+    payrollGuaranteesItems: ["Pack-driven", "Règles versionnées", "Sources citées par taux", "Aperçu expliqué par IA"],
     payrollRoadmapLabel: "Sur la roadmap",
-    payrollRoadmapItems: ["UK · PAYE RTI", "US · fédéral + premier état (FLSA)", "Le framework supporte tous les pays ISO-3166 — nouveau pack = écrire + valider, pas réécrire le moteur."],
+    payrollRoadmapItems: ["Amérique latine", "APAC", "Couverture régionale étendue"],
     payrollClosing: "BYO-paie ? Crew exporte fichiers propres et pilote APIs partenaires (Bayzat MEA, Personio EU, Pento UK, Gusto US).",
 
     modulesEyebrow: "MODULES",
@@ -318,7 +353,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     modules: [
       { name: "Crew Operations", tagline: "Personnes, planning, dossiers RH.", included: ["Planning + AI Builder", "60+ surfaces RH", "Onboarding → offboarding", "Org tree + permissions", "Builders workflow + approvals"] },
       { name: "Crew T&A", tagline: "Pointage, présence, variance.", included: ["Pointage PWA mobile", "Géo-fence + biométrie", "Pauses", "Variance + scores", "Approbations manager"] },
-      { name: "Crew Payroll", tagline: "Moteur de calcul + 6 packs GCC.", included: ["Moteur neutre fournisseur", "6 packs validés", "WPS · GOSI · PIFSS · SIO", "Gratuity + règlement final", "Exports + assist IA"] },
+      { name: "Crew Payroll", tagline: "Moteur de calcul multi-régions.", included: ["Moteur neutre fournisseur", "Packs multi-régions", "NACHA · EFT · HMRC RTI · SEPA · WPS", "Formulaires fin d'année par juridiction", "Gratuity + règlement final"] },
     ],
     bundleLabel: "Crew Operating Suite",
     bundleDescription: "La remise bundle s'applique automatiquement quand les trois modules sont attachés.",
@@ -331,7 +366,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     personas: [
       { title: "Responsable RH", outcome: "Hire-to-retire dans une plateforme — onboarding, performance, talents, paie-ready, offboarding — alimentant Labor Intelligence dans le même souffle.", metric: "60+ surfaces RH" },
       { title: "Manager opérations", outcome: "Planifier pour la demande, pas pour la semaine passée. AI Builder, assignation éligibilité, marketplace de swap, queue d'actions manager.", metric: "Plannings IA" },
-      { title: "Admin paie", outcome: "Clore la paie sans exports manuels. WPS-ready. GOSI-ready. Workflows règlement final. Assist IA pour ajustements et cas limites.", metric: "WPS · GOSI · PIFSS · SIO" },
+      { title: "Admin paie", outcome: "Clore la paie sans exports manuels. Moteur multi-régions — États-Unis, Canada, Royaume-Uni, Union européenne, GCC. Exports statutaires et formulaires fin d'année intégrés. Assist IA pour ajustements et cas limites.", metric: "US · CA · UK · EU · GCC" },
       { title: "Employés", outcome: "Portail Sundae self-service gratuit. Voir shifts, demander congés, swap, voir bulletin, attester policies, pointer via PWA mobile biométrique.", metric: "Gratuit · toujours" },
     ],
 
@@ -369,7 +404,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     pillars: [
       { title: "Horarios", body: "AI Builder compone el horario desde pronóstico de demanda, mix de roles y elegibilidad — luego el manager edita los cuatro modos (vista general, por persona, por turno, por rol). Recurrencia, verificación elegibilidad, alertas conflicto, festivos.", chips: ["AI Builder", "4 modos", "Demanda-ajustado", "Recurrencia"] },
       { title: "Tiempo y Asistencia", body: "PWA móvil para fichar con geo-cerca y biometría WebAuthn. Descansos, flujo de fichaje perdido, aprobación manager. Scores de confianza en vivo alimentando Workforce Health.", chips: ["PWA móvil", "Geo-cerca", "Biometría", "Scores"] },
-      { title: "Motor de nómina", body: "Motor de cálculo neutral. Seis paquetes país GCC validados legalmente. Exportes estatutarios (WPS UAE, GOSI, PIFSS, GPSSA, SIO), acumulación gratuity, encaje vacaciones, liquidación final. Asistente IA.", chips: ["6 paquetes GCC", "Export WPS", "Gratuity", "Asist IA"] },
+      { title: "Motor de nómina", body: "Motor de cálculo neutral. Multi-región — Estados Unidos, Canadá, Reino Unido, Unión Europea, GCC. Exportes estatutarios (NACHA, EFT, HMRC RTI, SEPA, WPS) y formularios de fin de año por jurisdicción. Vista previa explicada por IA, acumulación gratuity, encaje vacaciones, liquidación final. Driven por paquetes, no hardcodeado — actualizaciones anuales son ediciones de paquete.", chips: ["Multi-región", "Exportes estatutarios", "Formularios fin de año", "Asist IA"] },
       { title: "Hire-to-Retire", body: "Cada etapa del ciclo de vida de la fuerza laboral en un solo lugar. Reclutamiento, background checks, onboarding, performance, compensación, talento 9-box, movilidad interna, referidos, formación, habilidades, attestations, helpdesk con SLA, disciplinarios, denuncias anónimas, gastos, préstamos, pools de propinas, offboarding, gratuity, liquidación final.", chips: ["Onboarding", "Performance", "9-box", "Offboarding"] },
       { title: "Crew Coach + Decision Replay", body: "Crew Coach es tu socio IA en el dominio de fuerza laboral — solicitudes en lenguaje natural, respuestas con fuente, recomendaciones que un manager puede defender. Decision Replay registra cada acción: quién decide, qué cambia, qué dijo el modelo. Listo para auditoría por defecto.", chips: ["Asistente IA", "Con fuente", "Registro replay", "Auditable"] },
       { title: "Builders Workflow + Aprobaciones", body: "Builders no-code para cadenas de aprobación y workflows multi-paso. Conciencia de span-of-control desde el org tree. Vista tarjeta-foto con reasignación + preview cascada.", chips: ["No-code", "Org-aware", "Cascada", "Audit trail"] },
@@ -385,15 +420,24 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
       { title: "Admin y gobierno", body: "SSO, feed de auditoría, RBAC, consola de facturación, importes y edición masiva, multi-local." },
     ],
 
-    payrollEyebrow: "NÓMINA GCC · ENVIADO + VALIDADO LEGALMENTE",
-    payrollTitle: "Seis paquetes país. Un motor de cálculo.",
-    payrollDescription: "Neutral. Driven por paquetes. Validado legalmente. Cada paquete es un conjunto de reglas parametrizado y versionado — no hardcodeado — así que las actualizaciones anuales son ediciones de paquete, no reescrituras.",
-    payrollCountriesLabel: "Paquetes país enviados",
-    payrollCountriesNames: ["UAE", "Arabia Saudí", "Qatar", "Baréin", "Omán", "Kuwait"],
-    payrollStatutoryLabel: "Componentes estatutarios",
-    payrollStatutoryItems: ["Exporte WPS (UAE)", "GOSI · KSA", "GPSSA · UAE", "PIFSS · Kuwait", "SIO · Baréin + Omán", "Gratuity · todos los packs", "Encaje vacaciones", "Liquidación final"],
+    payrollEyebrow: "NÓMINA MULTI-REGIÓN",
+    payrollTitle: "Un motor. Cada jurisdicción.",
+    payrollDescription: "Neutral. Driven por paquetes. Cada tasa estatutaria es una regla versionada y con fuente citada — no hardcodeada — así que las actualizaciones anuales son ediciones de paquete, no reescrituras.",
+    payrollClusters: [
+      { flags: ["🇺🇸"], region: "Estados Unidos", depth: "Federal + cada estado + DC + PR + ciudades principales", hooks: ["FICA", "FUTA", "SUTA", "SDI", "NACHA", "W-2", "1099"] },
+      { flags: ["🇨🇦"], region: "Canadá", depth: "Federal + cada provincia y territorio", hooks: ["CPP", "CPP2", "EI", "QPP", "QPIP", "EFT", "T4", "RL-1", "ROE"] },
+      { flags: ["🇬🇧"], region: "Reino Unido", depth: "Inglaterra, Gales, Irlanda del Norte + Escocia", hooks: ["PAYE", "NI", "Auto-enrolment", "HMRC RTI", "P60", "P11D"] },
+      { flags: ["🇪🇺"], region: "Unión Europea", depth: "Los 27 estados miembros", hooks: ["Lohnsteuer", "IRPF", "URSSAF", "Loonheffing", "USC", "SEPA", "DSN", "Modelo 190"] },
+      { flags: ["🇦🇪", "🇸🇦", "🇶🇦", "🇧🇭", "🇴🇲", "🇰🇼"], region: "GCC", depth: "UAE · KSA · Qatar · Baréin · Omán · Kuwait", hooks: ["WPS", "GOSI", "GPSSA", "PIFSS", "SIO", "Gratuity", "Encaje vacaciones"] },
+    ],
+    payrollExportsLabel: "Exportes estatutarios",
+    payrollExportsItems: ["NACHA", "EFT 005", "HMRC RTI", "SEPA", "WPS SIF"],
+    payrollFormsLabel: "Formularios fin de año",
+    payrollFormsItems: ["W-2", "T4", "P60", "P11D", "Lohnsteuerbescheinigung", "jaaropgaaf", "DSN", "Modelo 190", "GOSI anual"],
+    payrollGuaranteesLabel: "Garantías del motor",
+    payrollGuaranteesItems: ["Driven por paquetes", "Reglas versionadas", "Fuentes citadas por tasa", "Vista previa explicada por IA"],
     payrollRoadmapLabel: "En la roadmap",
-    payrollRoadmapItems: ["UK · PAYE RTI", "US · federal + primer estado (FLSA)", "El framework soporta todos los países ISO-3166 — nuevo paquete = escribir + validar, no reescribir el motor."],
+    payrollRoadmapItems: ["América Latina", "APAC", "Cobertura regional ampliada"],
     payrollClosing: "¿BYO-nómina? Crew exporta archivos limpios y maneja APIs partners (Bayzat MEA, Personio EU, Pento UK, Gusto US).",
 
     modulesEyebrow: "MÓDULOS",
@@ -402,7 +446,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     modules: [
       { name: "Crew Operations", tagline: "Personal, horarios, registros RR.HH.", included: ["Horarios + AI Builder", "60+ superficies RR.HH.", "Onboarding → offboarding", "Org tree + permisos", "Builders workflow + aprobaciones"] },
       { name: "Crew T&A", tagline: "Fichar, asistencia, varianza.", included: ["Fichar PWA móvil", "Geo-cerca + biometría", "Descansos", "Varianza + scores", "Aprobaciones manager"] },
-      { name: "Crew Payroll", tagline: "Motor de cálculo + 6 paquetes GCC.", included: ["Motor neutral", "6 paquetes validados", "WPS · GOSI · PIFSS · SIO", "Gratuity + liquidación final", "Exportes + asist IA"] },
+      { name: "Crew Payroll", tagline: "Motor de cálculo multi-región.", included: ["Motor neutral", "Paquetes multi-región", "NACHA · EFT · HMRC RTI · SEPA · WPS", "Formularios fin de año por jurisdicción", "Gratuity + liquidación final"] },
     ],
     bundleLabel: "Crew Operating Suite",
     bundleDescription: "El descuento bundle aplica automáticamente cuando los tres módulos están conectados.",
@@ -415,7 +459,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     personas: [
       { title: "Líder RR.HH.", outcome: "Hire-to-retire en una plataforma — onboarding, performance, talento, ready de nómina, offboarding — alimentando Labor Intelligence en el mismo aliento.", metric: "60+ superficies RR.HH." },
       { title: "Manager operaciones", outcome: "Programar para la demanda, no para la semana pasada. AI Builder, asignación con elegibilidad, marketplace de swap, cola de acciones manager.", metric: "Horarios IA" },
-      { title: "Admin nómina", outcome: "Cerrar nómina sin exportes manuales. WPS-ready. GOSI-ready. Workflows de liquidación final. Asist IA para ajustes y casos límite.", metric: "WPS · GOSI · PIFSS · SIO" },
+      { title: "Admin nómina", outcome: "Cerrar nómina sin exportes manuales. Motor multi-región — Estados Unidos, Canadá, Reino Unido, Unión Europea, GCC. Exportes estatutarios y formularios fin de año integrados. Asist IA para ajustes y casos límite.", metric: "US · CA · UK · EU · GCC" },
       { title: "Empleados", outcome: "Portal Sundae self-service gratis. Ver turno, pedir vacaciones, swap, ver nómina, attest policies, fichar vía PWA móvil biométrico.", metric: "Gratis · siempre" },
     ],
 
@@ -570,7 +614,7 @@ export default function CrewPage() {
         </section>
 
         {/* ════════════════════════════════════════════════
-            PAYROLL MOAT — GCC country packs
+            PAYROLL MOAT — multi-region clusters + capability strips
         ════════════════════════════════════════════════ */}
         <section className="relative py-20 px-4 sm:px-6 lg:px-8">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(34,197,94,0.05),transparent_60%)]" />
@@ -581,37 +625,70 @@ export default function CrewPage() {
               <p className="body-lg max-w-2xl mx-auto">{copy.payrollDescription}</p>
             </FadeUp>
 
-            <div className="grid md:grid-cols-2 gap-5 sm:gap-6 max-w-5xl mx-auto">
-              <div className="rounded-2xl p-6 sm:p-7 bg-[var(--surface-subtle)] border border-[var(--border-default)]">
-                <div className="text-[11px] uppercase tracking-wider text-[#22C55E] font-bold mb-4">{copy.payrollCountriesLabel}</div>
-                <div className="grid grid-cols-3 gap-3 mb-5">
-                  {countryFlags.map((flag, i) => (
-                    <div key={i} className="text-center p-3 rounded-xl bg-white/[0.03] border border-[var(--border-default)]">
-                      <div className="text-2xl mb-1">{flag}</div>
-                      <div className="text-[11px] text-[var(--text-supporting)] font-medium leading-tight">{copy.payrollCountriesNames[i]}</div>
+            {/* Regional clusters — one row per region */}
+            <div className="space-y-3 max-w-6xl mx-auto mb-10">
+              {copy.payrollClusters.map((cluster, i) => (
+                <motion.div
+                  key={cluster.region}
+                  initial={{ opacity: 0, y: 16 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: "-50px" }}
+                  transition={{ duration: 0.5, delay: i * 0.06, ease: [0.22, 1, 0.36, 1] }}
+                  className="rounded-2xl p-5 sm:p-6 bg-[var(--surface-subtle)] border border-[var(--border-default)] hover:border-[rgba(34,197,94,0.25)] hover:shadow-[0_0_30px_rgba(34,197,94,0.06)] transition-all duration-300"
+                >
+                  <div className="grid grid-cols-[auto_1fr] sm:grid-cols-[auto_minmax(0,1.3fr)_minmax(0,2.2fr)] gap-3 sm:gap-5 items-center">
+                    <div className="flex flex-wrap gap-1 max-w-[120px] sm:max-w-none leading-none">
+                      {cluster.flags.map((flag, j) => (
+                        <span key={j} className={cluster.flags.length === 1 ? "text-3xl sm:text-4xl" : "text-xl sm:text-2xl"}>{flag}</span>
+                      ))}
                     </div>
+                    <div className="min-w-0 col-span-2 sm:col-span-1">
+                      <div className="text-base font-bold text-[var(--text-primary)] mb-1 leading-snug">{cluster.region}</div>
+                      <div className="text-[12px] text-[var(--text-muted)] leading-snug">{cluster.depth}</div>
+                    </div>
+                    <div className="flex flex-wrap gap-1.5 sm:justify-end col-span-2 sm:col-span-1">
+                      {cluster.hooks.map((hook) => (
+                        <span key={hook} className="text-[10px] font-semibold px-2 py-0.5 rounded-md bg-[#22C55E]/12 text-[#22C55E] border border-[#22C55E]/25">
+                          {hook}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+
+            {/* Three capability strips */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-6xl mx-auto mb-8">
+              {[
+                { label: copy.payrollExportsLabel, items: copy.payrollExportsItems },
+                { label: copy.payrollFormsLabel, items: copy.payrollFormsItems },
+                { label: copy.payrollGuaranteesLabel, items: copy.payrollGuaranteesItems },
+              ].map((strip) => (
+                <div key={strip.label} className="rounded-xl p-5 bg-white/[0.03] border border-[var(--border-default)]">
+                  <div className="text-[10px] uppercase tracking-wider font-bold text-[#60A5FA] mb-3">{strip.label}</div>
+                  <div className="flex flex-wrap gap-1.5">
+                    {strip.items.map((item) => (
+                      <span key={item} className="text-[11px] font-medium px-2 py-1 rounded-md bg-white/[0.04] text-[var(--text-secondary)] border border-white/[0.06]">
+                        {item}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Roadmap strip — single row, modest */}
+            <div className="max-w-3xl mx-auto rounded-xl p-4 border border-[var(--electric-blue)]/20 bg-[var(--electric-blue)]/[0.04]">
+              <div className="flex flex-col sm:flex-row sm:items-start gap-2 sm:gap-3">
+                <div className="text-[10px] uppercase tracking-wider font-bold text-[#60A5FA] flex-shrink-0 sm:pt-0.5">{copy.payrollRoadmapLabel}</div>
+                <div className="flex flex-wrap gap-x-4 gap-y-1">
+                  {copy.payrollRoadmapItems.map((item) => (
+                    <span key={item} className="text-[12px] text-[var(--text-secondary)] leading-snug">
+                      <span className="text-[#60A5FA] mr-1.5 font-mono">→</span>{item}
+                    </span>
                   ))}
                 </div>
-                <div className="text-[11px] uppercase tracking-wider text-[var(--text-muted)] font-semibold mb-3">{copy.payrollStatutoryLabel}</div>
-                <ul className="space-y-1.5">
-                  {copy.payrollStatutoryItems.map((item) => (
-                    <li key={item} className="flex items-start gap-2">
-                      <svg className="w-3.5 h-3.5 text-[#22C55E] flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M20 6 9 17l-5-5" /></svg>
-                      <span className="text-[13px] text-[var(--text-secondary)] leading-snug">{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              <div className="rounded-2xl p-6 sm:p-7 border border-[var(--electric-blue)]/30 bg-gradient-to-br from-[var(--electric-blue)]/[0.08] to-[var(--electric-blue)]/[0.02]">
-                <div className="text-[11px] uppercase tracking-wider text-[#60A5FA] font-bold mb-4">{copy.payrollRoadmapLabel}</div>
-                <ul className="space-y-3">
-                  {copy.payrollRoadmapItems.map((item, i) => (
-                    <li key={i} className="text-sm text-[var(--text-secondary)] leading-relaxed">
-                      <span className="text-[#60A5FA] mr-2 font-mono">→</span>{item}
-                    </li>
-                  ))}
-                </ul>
               </div>
             </div>
 

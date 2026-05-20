@@ -40,7 +40,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     crewCallout: {
       eyebrow: "BACKED BY SUNDAE CREW",
       title: "The operational substrate that feeds this intelligence.",
-      description: "Crew runs scheduling, time & attendance, GCC payroll, and 60+ HR surfaces — every shift, hour, and pay-cycle becoming signal that powers the labor intelligence on this page. Optional: bring your own HR (Bayzat, Personio, Gusto) and Sundae still reads the same signal.",
+      description: "Crew runs scheduling, time & attendance, multi-region payroll (US, Canada, UK, EU, GCC — one engine), and 60+ HR surfaces — every shift, hour, and pay-cycle becoming signal that powers the labor intelligence on this page. Optional: bring your own HR (Bayzat, Personio, Gusto) and Sundae still reads the same signal.",
       ctaText: "Explore Sundae Crew",
     },
     ctaTitle: "See your labor in motion.",
@@ -82,7 +82,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     crewCallout: {
       eyebrow: "مدعوم بـ Sundae Crew",
       title: "الركيزة التشغيلية التي تغذي هذا الذكاء.",
-      description: "Crew يدير الجدولة والوقت والحضور ورواتب الخليج وأكثر من 60 واجهة موارد بشرية — كل وردية وساعة ودورة راتب تصبح إشارة تغذي ذكاء العمالة في هذه الصفحة. اختياري: أحضر HR الخاص بك (Bayzat، Personio، Gusto) ويبقى Sundae يقرأ نفس الإشارة.",
+      description: "Crew يدير الجدولة والوقت والحضور ورواتب متعددة المناطق (الولايات المتحدة، كندا، المملكة المتحدة، الاتحاد الأوروبي، دول الخليج — محرك واحد) وأكثر من 60 واجهة موارد بشرية — كل وردية وساعة ودورة راتب تصبح إشارة تغذي ذكاء العمالة في هذه الصفحة. اختياري: أحضر HR الخاص بك (Bayzat، Personio، Gusto) ويبقى Sundae يقرأ نفس الإشارة.",
       ctaText: "اكتشف Sundae Crew",
     },
     ctaTitle: "شاهد عمالتك تتحرك.",
@@ -124,7 +124,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     crewCallout: {
       eyebrow: "ALIMENTÉ PAR SUNDAE CREW",
       title: "Le substrat opérationnel qui alimente cette intelligence.",
-      description: "Crew fait tourner planning, temps & présence, paie GCC, et 60+ surfaces RH — chaque service, heure et cycle de paie devient signal qui alimente l'intelligence main-d'œuvre de cette page. Optionnel : BYO-HR (Bayzat, Personio, Gusto) et Sundae lit le même signal.",
+      description: "Crew fait tourner planning, temps & présence, paie multi-régions (États-Unis, Canada, Royaume-Uni, Union européenne, GCC — un seul moteur), et 60+ surfaces RH — chaque service, heure et cycle de paie devient signal qui alimente l'intelligence main-d'œuvre de cette page. Optionnel : BYO-HR (Bayzat, Personio, Gusto) et Sundae lit le même signal.",
       ctaText: "Découvrir Sundae Crew",
     },
     ctaTitle: "Votre main-d'œuvre en mouvement.",
@@ -166,7 +166,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     crewCallout: {
       eyebrow: "RESPALDADO POR SUNDAE CREW",
       title: "El sustrato operativo que alimenta esta inteligencia.",
-      description: "Crew opera horarios, tiempo y asistencia, nómina GCC, y 60+ superficies de RR.HH. — cada turno, hora y ciclo de nómina se vuelve señal que energiza la inteligencia laboral en esta página. Opcional: BYO-HR (Bayzat, Personio, Gusto) y Sundae sigue leyendo la misma señal.",
+      description: "Crew opera horarios, tiempo y asistencia, nómina multi-región (Estados Unidos, Canadá, Reino Unido, Unión Europea, GCC — un solo motor), y 60+ superficies de RR.HH. — cada turno, hora y ciclo de nómina se vuelve señal que energiza la inteligencia laboral en esta página. Opcional: BYO-HR (Bayzat, Personio, Gusto) y Sundae sigue leyendo la misma señal.",
       ctaText: "Explorar Sundae Crew",
     },
     ctaTitle: "Tu personal en movimiento.",
