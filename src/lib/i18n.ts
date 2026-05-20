@@ -204,6 +204,7 @@ export const websiteMessages = {
       plansList: [
         { name: 'Sundae Report', description: 'Free, historical analysis', href: '/report' },
         { name: 'Sundae Core', description: 'Real-time operations', href: '/core' },
+        { name: 'Sundae Crew', description: 'Operational substrate · people, schedules, payroll', href: '/crew' },
       ],
       solutionsSegments: [
         { name: 'Multi-location Restaurants', href: '/solutions/multi-location-groups' },
@@ -667,6 +668,7 @@ export const websiteMessages = {
       plansList: [
         { name: 'Sundae Report', description: 'تحليل تاريخي مجاني', href: '/report' },
         { name: 'Sundae Core', description: 'عمليات في الوقت الحقيقي', href: '/core' },
+        { name: 'Sundae Crew', description: 'ركيزة تشغيلية · موظفون، جدولة، رواتب', href: '/crew' },
       ],
       solutionsSegments: [
         { name: 'مطاعم متعددة الفروع', href: '/solutions/multi-location-groups' },
@@ -1110,6 +1112,7 @@ export const websiteMessages = {
       plansList: [
         { name: 'Sundae Report', description: 'Analyse historique gratuite', href: '/report' },
         { name: 'Sundae Core', description: 'Operations en temps reel', href: '/core' },
+        { name: 'Sundae Crew', description: 'Substrat operationnel · equipes, plannings, paie', href: '/crew' },
       ],
       solutionsSegments: [
         { name: 'Restaurants multi-sites', href: '/solutions/multi-location-groups' },
@@ -1572,6 +1575,7 @@ export const websiteMessages = {
       plansList: [
         { name: 'Sundae Report', description: 'Analisis historico gratuito', href: '/report' },
         { name: 'Sundae Core', description: 'Operaciones en tiempo real', href: '/core' },
+        { name: 'Sundae Crew', description: 'Sustrato operativo · personal, horarios, nomina', href: '/crew' },
       ],
       solutionsSegments: [
         { name: 'Restaurantes multilocal', href: '/solutions/multi-location-groups' },

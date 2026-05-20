@@ -287,7 +287,7 @@ const Navbar = () => {
                     <h3 className="eyebrow text-[var(--text-muted)] mb-3">
                       {nav.plans}
                     </h3>
-                    <div className="grid grid-cols-2 gap-1 mb-3">
+                    <div className="grid grid-cols-3 gap-1 mb-3">
                       {plans.map((plan) => (
                         <Link
                           key={plan.name}

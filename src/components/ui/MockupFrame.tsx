@@ -722,3 +722,75 @@ export function ExecutiveBriefingMockup() {
     </MockupFrame>
   );
 }
+
+/* ─── Crew Operations Mockup (Crew page) ─── */
+/**
+ * Composite Crew dashboard showing the operational substrate: live
+ * shift attendance, payroll cycle status, schedule grid, and a
+ * recent-activity feed. Designed for the /crew page hero.
+ */
+export function CrewDashboardMockup() {
+  return (
+    <MockupFrame label="Crew — Today · Downtown" glow>
+      <div className="space-y-3 sm:space-y-4">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <MockupLiveDot />
+            <span className="text-[10px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
+              Wed · Lunch service · 28 on shift
+            </span>
+          </div>
+          <span className="text-[10px] text-[var(--text-muted)] font-mono">Auto-synced</span>
+        </div>
+
+        {/* KPI strip: on-shift / on-time / OT exposure / payroll cycle */}
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3">
+          <MockupKPI label="On shift" value="28 / 30" trend="2 absences" trendUp={false} color="#FBBF24" />
+          <MockupKPI label="On time" value="96.4%" trend="↑ 1.8 WoW" trendUp color="#22C55E" />
+          <MockupKPI label="OT this week" value="$612" trend="3 locations" trendUp={false} color="#FF5450" />
+          <MockupKPI label="Payroll cycle" value="Day 18 / 30" trend="On track" trendUp color="#1C47FF" />
+        </div>
+
+        {/* Mini schedule strip — coverage by daypart */}
+        <div className="rounded-lg p-3 bg-white/[0.03] border border-[var(--border-default)]">
+          <div className="flex items-center justify-between mb-2">
+            <span className="text-[10px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">Coverage · today</span>
+            <span className="text-[10px] text-[#22C55E] font-mono">Demand-matched · AI</span>
+          </div>
+          <div className="grid grid-cols-12 gap-px h-7 rounded overflow-hidden">
+            {[60, 70, 85, 100, 100, 95, 80, 100, 100, 90, 65, 50].map((h, i) => {
+              const isHovered = i === 4 || i === 8;
+              return (
+                <div
+                  key={i}
+                  className="relative"
+                  style={{
+                    background: isHovered
+                      ? "linear-gradient(180deg, rgba(28,71,255,0.8), rgba(28,71,255,0.5))"
+                      : "linear-gradient(180deg, rgba(34,197,94,0.5), rgba(34,197,94,0.25))",
+                    transform: `scaleY(${h / 100})`,
+                    transformOrigin: "bottom",
+                  }}
+                />
+              );
+            })}
+          </div>
+          <div className="flex justify-between text-[9px] text-[var(--text-muted)] font-mono mt-1">
+            <span>6a</span><span>10a</span><span>2p</span><span>6p</span><span>10p</span>
+          </div>
+        </div>
+
+        {/* Activity feed */}
+        <div className="rounded-lg p-3 border-l-2 space-y-1.5" style={{ background: "rgba(28,71,255,0.06)", borderColor: "#1C47FF" }}>
+          <div className="text-[10px] uppercase tracking-wider text-[#60A5FA] font-bold mb-0.5">Sundae Coach · live</div>
+          <p className="text-[11px] text-[var(--text-primary)] leading-snug">
+            <span className="font-semibold">Marcus J.</span> swap requested 2pm shift → <span className="font-semibold">Sarah M.</span> · eligible · auto-approved.
+          </p>
+          <p className="text-[11px] text-[var(--text-secondary)] leading-snug">
+            UAE WPS export ready · 142 employees · 0 readiness blockers.
+          </p>
+        </div>
+      </div>
+    </MockupFrame>
+  );
+}
