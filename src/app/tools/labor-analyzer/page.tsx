@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { SundaeIcon } from "@/components/icons";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import { type WebsiteLocale } from "@/lib/i18n";
+import { type RequiredEnglishLocalizedRecord } from '@/lib/i18n';
 
 type LaborAnalyzerCopy = {
   back: string;
@@ -54,7 +54,7 @@ type LaborAnalyzerCopy = {
   tip: string;
 };
 
-const localizedCopy: Record<WebsiteLocale, LaborAnalyzerCopy> = {
+const localizedCopy: RequiredEnglishLocalizedRecord<LaborAnalyzerCopy> = {
   en: {
     back: "Back to Tools",
     hero: {
@@ -239,7 +239,7 @@ const localizedCopy: Record<WebsiteLocale, LaborAnalyzerCopy> = {
 
 export default function LaborAnalyzerPage() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
   const [actualLabor, setActualLabor] = useState("");
   const [revenue, setRevenue] = useState("");
   const [targetLabor, setTargetLabor] = useState("");

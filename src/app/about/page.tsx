@@ -263,7 +263,7 @@ const aboutCopy = {
 } as const;
 
 function getAboutCopy(locale: WebsiteLocale) {
-  return aboutCopy[locale] ?? aboutCopy.en;
+  return aboutCopy[locale as keyof typeof aboutCopy] ?? aboutCopy.en;
 }
 
 export async function generateMetadata(): Promise<Metadata> {

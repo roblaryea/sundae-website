@@ -65,7 +65,7 @@ const icons: SundaeIconName[] = ["support", "report", "integration", "speed", "b
 
 export function SectionTrustStrip() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
 
   return (
     <section aria-labelledby="trust-headline" className="relative py-14 px-4 sm:px-6 lg:px-8 border-y border-[var(--border-default)]">

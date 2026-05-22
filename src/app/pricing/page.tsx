@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/Button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/Card';
 import { Accordion } from '@/components/ui/Accordion';
 import { SundaeIcon, type SundaeIconName } from '@/components/icons';
-import type { WebsiteLocale } from '@/lib/i18n';
+import { formatWebsiteCurrency, formatWebsiteNumber, type WebsiteLocale } from '@/lib/i18n';
 import { PRICING_URL, SIGNUP_URL } from '@/lib/urls';
 import { PageHero, FadeUp, StaggerContainer, StaggerItem, PageCTA } from '@/components/ui/PageAnimations';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
@@ -18,6 +18,9 @@ type Tier = {
   badgeClass?: string;
   basePrice: string;
   perLocation: string;
+  basePriceValue?: number;
+  perLocationValue?: number;
+  currency?: string;
   aiCredits: string;
   description: string;
   features: string[];
@@ -27,11 +30,13 @@ type Tier = {
 };
 
 type LiveCatalog = {
+  currency?: string;
   tiers?: Array<{
     id: string;
     basePrice?: number;
     perLocationPrice?: number;
     aiCreditsBase?: number;
+    currency?: string;
   }>;
 };
 
@@ -577,35 +582,52 @@ const localizedPricingPageContent: Partial<
   },
 };
 
-function formatCurrency(value: number): string {
-  return value === 0 ? '$0' : `$${Math.round(value)}`
+function formatPricingCurrency(value: number, locale: WebsiteLocale, currency = 'USD'): string {
+  return formatWebsiteCurrency(value, locale, {
+    currency,
+    maximumFractionDigits: 0,
+  })
 }
 
-function formatCredits(value: number): string {
-  return new Intl.NumberFormat('en-US').format(value)
+function formatCredits(value: number, locale: WebsiteLocale): string {
+  return formatWebsiteNumber(value, locale)
 }
 
-function mergeLiveTierPricing(tiers: Tier[], liveCatalog: LiveCatalog | null): Tier[] {
+function parseTierAmount(value: string): number {
+  const parsed = Number.parseFloat(value.replace(/[^0-9.]/g, ''))
+  return Number.isFinite(parsed) ? parsed : 0
+}
+
+function mergeLiveTierPricing(tiers: Tier[], liveCatalog: LiveCatalog | null, locale: WebsiteLocale): Tier[] {
   if (!liveCatalog?.tiers?.length) {
     return tiers
   }
 
   const liveById = new Map(liveCatalog.tiers.map((tier) => [tier.id, tier]))
+  const catalogCurrency = liveCatalog.currency?.toUpperCase() || 'USD'
 
   return tiers.map((tier) => {
     const live = liveById.get(tier.id)
     if (!live) return tier
+    const currency = live.currency?.toUpperCase() || catalogCurrency
 
     return {
       ...tier,
+      basePriceValue:
+        typeof live.basePrice === 'number' ? live.basePrice : tier.basePriceValue,
+      perLocationValue:
+        typeof live.perLocationPrice === 'number' ? live.perLocationPrice : tier.perLocationValue,
+      currency,
       basePrice:
-        typeof live.basePrice === 'number' ? formatCurrency(live.basePrice) : tier.basePrice,
+        typeof live.basePrice === 'number'
+          ? formatPricingCurrency(live.basePrice, locale, currency)
+          : tier.basePrice,
       perLocation:
         typeof live.perLocationPrice === 'number'
-          ? formatCurrency(live.perLocationPrice)
+          ? formatPricingCurrency(live.perLocationPrice, locale, currency)
           : tier.perLocation,
       aiCredits:
-        typeof live.aiCreditsBase === 'number' ? formatCredits(live.aiCreditsBase) : tier.aiCredits,
+        typeof live.aiCreditsBase === 'number' ? formatCredits(live.aiCreditsBase, locale) : tier.aiCredits,
     }
   })
 }
@@ -616,17 +638,24 @@ function PricingCard({
   perMonthLabel,
   perLocationLabel,
   creditsLabel,
+  locale,
 }: {
   tier: Tier;
   annual: boolean;
   perMonthLabel: string;
   perLocationLabel: string;
   creditsLabel: string;
+  locale: WebsiteLocale;
 }) {
-  const baseNum = parseInt(tier.basePrice.replace(/\$|,/g, ''));
-  const locNum = parseInt(tier.perLocation.replace(/\$|,/g, ''));
-  const displayBase = baseNum === 0 ? "$0" : annual ? `$${Math.round(baseNum * 0.9)}` : tier.basePrice;
-  const displayLoc = locNum === 0 ? "$0" : annual ? `$${Math.round(locNum * 0.9)}` : tier.perLocation;
+  const currency = tier.currency ?? 'USD';
+  const baseNum = tier.basePriceValue ?? parseTierAmount(tier.basePrice);
+  const locNum = tier.perLocationValue ?? parseTierAmount(tier.perLocation);
+  const displayBase = annual && baseNum > 0
+    ? formatPricingCurrency(Math.round(baseNum * 0.9), locale, currency)
+    : formatPricingCurrency(baseNum, locale, currency);
+  const displayLoc = annual && locNum > 0
+    ? formatPricingCurrency(Math.round(locNum * 0.9), locale, currency)
+    : formatPricingCurrency(locNum, locale, currency);
 
   return (
     <Card className={`h-full ${tier.highlight ? 'border-2 border-blue-500/50 shadow-2xl' : 'border border-[var(--border-default)] shadow-lg'} hover:shadow-xl transition-all`}>
@@ -719,12 +748,12 @@ export default function PricingPage() {
   }, [])
 
   const liveReportTiers = useMemo(
-    () => mergeLiveTierPricing(activeReportTiers, liveCatalog),
-    [activeReportTiers, liveCatalog]
+    () => mergeLiveTierPricing(activeReportTiers, liveCatalog, locale),
+    [activeReportTiers, liveCatalog, locale]
   )
   const liveCoreTiers = useMemo(
-    () => mergeLiveTierPricing(activeCoreTiers, liveCatalog),
-    [activeCoreTiers, liveCatalog]
+    () => mergeLiveTierPricing(activeCoreTiers, liveCatalog, locale),
+    [activeCoreTiers, liveCatalog, locale]
   )
 
   return (
@@ -771,6 +800,7 @@ export default function PricingPage() {
                   perMonthLabel={perMonthLabel}
                   perLocationLabel={perLocationLabel}
                   creditsLabel={creditsLabel}
+                  locale={locale}
                 />
               </StaggerItem>
             ))}
@@ -799,6 +829,7 @@ export default function PricingPage() {
                   perMonthLabel={perMonthLabel}
                   perLocationLabel={perLocationLabel}
                   creditsLabel={creditsLabel}
+                  locale={locale}
                 />
               </StaggerItem>
             ))}

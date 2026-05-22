@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/Button';
 import { Card, CardContent } from '@/components/ui/Card';
 import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 import { COMPANY } from '@/lib/company';
-import { resolveWebsiteLocale, type WebsiteLocale } from '@/lib/i18n';
+import { resolveWebsiteLocale, type NonEnglishWebsiteLocale } from '@/lib/i18n';
 
 const companyAddressLines = [
   COMPANY.address.line1,
@@ -50,7 +50,7 @@ type TermsCopy = {
   };
 };
 
-const localizedTermsCopy: Record<Exclude<WebsiteLocale, 'en'>, TermsCopy> = {
+const localizedTermsCopy: Partial<Record<NonEnglishWebsiteLocale, TermsCopy>> = {
   ar: {
     badge: 'القانونية',
     title: 'شروط الخدمة',
@@ -1153,8 +1153,9 @@ export default async function TermsPage() {
   const locale = resolveWebsiteLocale(cookieStore);
   const lastUpdated = "March 3, 2026";
 
-  if (locale !== 'en') {
-    return <LocalizedTermsPage copy={localizedTermsCopy[locale]} />;
+  const localizedCopy = locale === 'en' ? undefined : localizedTermsCopy[locale];
+  if (localizedCopy) {
+    return <LocalizedTermsPage copy={localizedCopy} />;
   }
 
   return (

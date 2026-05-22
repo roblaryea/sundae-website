@@ -351,7 +351,7 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
 
 export default function ArchitecturePage() {
   const { locale } = useWebsiteI18n();
-  const ui = localizedArchitectureCopy[locale] ?? localizedArchitectureCopy.en;
+  const ui = localizedArchitectureCopy[locale as keyof typeof localizedArchitectureCopy] ?? localizedArchitectureCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">

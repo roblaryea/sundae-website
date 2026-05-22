@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { SundaeIcon } from "@/components/icons";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import { type WebsiteLocale } from "@/lib/i18n";
+import { type RequiredEnglishLocalizedRecord } from '@/lib/i18n';
 
 type BreakEvenCopy = {
   back: string;
@@ -41,7 +41,7 @@ type BreakEvenCopy = {
   errors: { invalidInputs: string; negativeMargin: string };
 };
 
-const localizedCopy: Record<WebsiteLocale, BreakEvenCopy> = {
+const localizedCopy: RequiredEnglishLocalizedRecord<BreakEvenCopy> = {
   en: {
     back: "Back to Tools",
     hero: { badge: "Financial Intelligence", title: "Break-Even Covers Calculator", description: "Calculate how many covers you need to break even based on fixed and variable costs." },
@@ -186,7 +186,7 @@ const localizedCopy: Record<WebsiteLocale, BreakEvenCopy> = {
 
 export default function BreakEvenCalculator() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
   const [fixedCosts, setFixedCosts] = useState("");
   const [variableCost, setVariableCost] = useState("");
   const [avgPrice, setAvgPrice] = useState("");

@@ -307,7 +307,7 @@ const localizedGettingStartedCopy: Record<"en" | "ar" | "fr" | "es", GettingStar
 export default function GettingStartedPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const copy = localizedGettingStartedCopy[locale] ?? localizedGettingStartedCopy.en;
+  const copy = localizedGettingStartedCopy[locale as keyof typeof localizedGettingStartedCopy] ?? localizedGettingStartedCopy.en;
 
   const handleFinalCardClick = (href?: string) => {
     if (href === "/report") {

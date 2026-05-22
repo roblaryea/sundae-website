@@ -1,5 +1,19 @@
-export const websiteLocales = ['en', 'ar', 'fr', 'es'] as const
-export type WebsiteLocale = (typeof websiteLocales)[number]
+export const websiteLocaleProfiles = {
+  en: { name: 'English', nativeName: 'English', dir: 'ltr', intlLocale: 'en-US', currency: 'USD' },
+  ar: { name: 'Arabic', nativeName: 'العربية', dir: 'rtl', intlLocale: 'ar-AE', currency: 'AED' },
+  fr: { name: 'French', nativeName: 'Français', dir: 'ltr', intlLocale: 'fr-FR', currency: 'EUR' },
+  es: { name: 'Spanish', nativeName: 'Español', dir: 'ltr', intlLocale: 'es-ES', currency: 'EUR' },
+  de: { name: 'German', nativeName: 'Deutsch', dir: 'ltr', intlLocale: 'de-DE', currency: 'EUR' },
+  nl: { name: 'Dutch', nativeName: 'Nederlands', dir: 'ltr', intlLocale: 'nl-NL', currency: 'EUR' },
+  pt: { name: 'Portuguese', nativeName: 'Português', dir: 'ltr', intlLocale: 'pt-BR', currency: 'BRL' },
+  hi: { name: 'Hindi', nativeName: 'हिन्दी', dir: 'ltr', intlLocale: 'hi-IN', currency: 'INR' },
+  ur: { name: 'Urdu', nativeName: 'اردو', dir: 'rtl', intlLocale: 'ur-PK', currency: 'PKR' },
+} as const
+
+export type WebsiteLocale = keyof typeof websiteLocaleProfiles
+export const websiteLocales = Object.keys(websiteLocaleProfiles) as WebsiteLocale[]
+export type NonEnglishWebsiteLocale = Exclude<WebsiteLocale, 'en'>
+export type RequiredEnglishLocalizedRecord<T> = Partial<Record<WebsiteLocale, T>> & { en: T }
 export const defaultWebsiteLocale: WebsiteLocale = 'en'
 export const WEBSITE_LOCALE_HEADER = 'x-sundae-locale'
 export const WEBSITE_PUBLIC_PATH_HEADER = 'x-sundae-public-path'
@@ -51,19 +65,21 @@ export function persistWebsiteLocalePreference(locale: WebsiteLocale) {
   window.localStorage.setItem(WEBSITE_LOCALE_COOKIE, locale)
 }
 
-export const websiteLocaleNames: Record<WebsiteLocale, string> = {
-  en: 'English',
-  ar: 'العربية',
-  fr: 'Français',
-  es: 'Español',
-}
+export const websiteLocaleNames = Object.fromEntries(
+  websiteLocales.map((locale) => [locale, websiteLocaleProfiles[locale].nativeName]),
+) as Record<WebsiteLocale, string>
 
-export const websiteLocaleDirection: Record<WebsiteLocale, 'ltr' | 'rtl'> = {
-  en: 'ltr',
-  ar: 'rtl',
-  fr: 'ltr',
-  es: 'ltr',
-}
+export const websiteLocaleDirection = Object.fromEntries(
+  websiteLocales.map((locale) => [locale, websiteLocaleProfiles[locale].dir]),
+) as Record<WebsiteLocale, 'ltr' | 'rtl'>
+
+export const websiteLocaleCurrencies = Object.fromEntries(
+  websiteLocales.map((locale) => [locale, websiteLocaleProfiles[locale].currency]),
+) as Record<WebsiteLocale, string>
+
+export const websiteIntlLocales = Object.fromEntries(
+  websiteLocales.map((locale) => [locale, websiteLocaleProfiles[locale].intlLocale]),
+) as Record<WebsiteLocale, string>
 
 export function normalizeWebsiteLocale(locale?: string | null): WebsiteLocale {
   if (!locale) return defaultWebsiteLocale
@@ -76,6 +92,39 @@ export function normalizeWebsiteLocale(locale?: string | null): WebsiteLocale {
     return prefix as WebsiteLocale
   }
   return defaultWebsiteLocale
+}
+
+export function getWebsiteCurrency(locale: WebsiteLocale): string {
+  return websiteLocaleCurrencies[locale] ?? websiteLocaleCurrencies[defaultWebsiteLocale]
+}
+
+export function getWebsiteIntlLocale(locale: WebsiteLocale): string {
+  return websiteIntlLocales[locale] ?? websiteIntlLocales[defaultWebsiteLocale]
+}
+
+export function getLocalizedCopy<T>(
+  copyByLocale: RequiredEnglishLocalizedRecord<T>,
+  locale: WebsiteLocale,
+): T {
+  return copyByLocale[locale] ?? copyByLocale.en
+}
+
+export function formatWebsiteCurrency(
+  value: number,
+  locale: WebsiteLocale,
+  options?: Intl.NumberFormatOptions & { currency?: string },
+): string {
+  const currency = options?.currency ?? getWebsiteCurrency(locale)
+  return new Intl.NumberFormat(getWebsiteIntlLocale(locale), {
+    style: 'currency',
+    currency,
+    maximumFractionDigits: Number.isInteger(value) ? 0 : 2,
+    ...options,
+  }).format(value)
+}
+
+export function formatWebsiteNumber(value: number, locale: WebsiteLocale): string {
+  return new Intl.NumberFormat(getWebsiteIntlLocale(locale)).format(value)
 }
 
 export function resolveWebsiteLocale(cookieStore?: CookieStoreLike | null) {
@@ -1999,14 +2048,283 @@ export const websiteMessages = {
   },
 } as const
 
-type WebsiteMessagesBase = typeof websiteMessages.en
+type WidenLiterals<T> =
+  T extends string ? string :
+  T extends number ? number :
+  T extends boolean ? boolean :
+  T extends readonly (infer U)[] ? WidenLiterals<U>[] :
+  T extends object ? { [K in keyof T]: WidenLiterals<T[K]> } :
+  T
+
+type WebsiteMessagesBase = WidenLiterals<typeof websiteMessages.en>
 
 export type WebsiteMessages = WebsiteMessagesBase & {
   pages: WebsiteMessagesBase['home']['pages']
 }
 
+type DeepPartial<T> = {
+  [K in keyof T]?: T[K] extends readonly (infer U)[]
+    ? readonly DeepPartial<U>[]
+    : T[K] extends object
+      ? DeepPartial<T[K]>
+      : T[K]
+}
+
+const expandedLocaleMessageOverrides = {
+  de: {
+    metadata: {
+      title: 'Sundae – Entscheidungsintelligenz für Restaurants',
+      description:
+        'Die KI-Plattform, die Restaurantdaten in konkrete Entscheidungen übersetzt: POS-, Personal-, Kosten- und Betriebsdaten vereinheitlichen, Leistung vergleichen und sofortige Insights erhalten.',
+    },
+    layout: {
+      skipToContent: 'Zum Hauptinhalt springen',
+      languageSelector: 'Sprache',
+    },
+    navbar: {
+      products: 'Produkte',
+      solutions: 'Lösungen',
+      resources: 'Ressourcen',
+      company: 'Unternehmen',
+      intelligence: 'Intelligenz',
+      plans: 'Pläne',
+      bySegment: 'Nach Segment',
+      byRole: 'Nach Rolle',
+      learn: 'Lernen',
+      pricing: 'Preise',
+      about: 'Über uns',
+      signIn: 'Anmelden',
+      bookDemo: 'Demo buchen',
+      comparePlans: 'Pläne vergleichen →',
+      startFree: 'Kostenlos starten →',
+    },
+    footer: {
+      readyTitle: 'Bereit zu sehen, was Ihnen entgeht?',
+      readyDescription: 'Schließen Sie sich Betreibern an, die vom Raten zum Wissen gewechselt sind.',
+      bookDemo: 'Demo buchen',
+      startFree: 'Kostenlos mit Report starten',
+      global: 'Global',
+      allCurrencies: 'Alle Währungen',
+      sectionProduct: 'Produkt',
+      sectionSolutions: 'Lösungen',
+      sectionResources: 'Ressourcen',
+      sectionCompany: 'Unternehmen',
+      pricing: 'Preise',
+      privacy: 'Datenschutz',
+      terms: 'Bedingungen',
+      copyrightSuffix: 'Alle Rechte vorbehalten.',
+    },
+  },
+  nl: {
+    metadata: {
+      title: 'Sundae – beslissingsintelligentie voor restaurants',
+      description:
+        'Het AI-platform dat restaurantdata omzet in actie: POS-, personeels-, kosten- en operationele data samenbrengen, prestaties benchmarken en direct inzicht krijgen.',
+    },
+    layout: {
+      skipToContent: 'Ga naar hoofdinhoud',
+      languageSelector: 'Taal',
+    },
+    navbar: {
+      products: 'Producten',
+      solutions: 'Oplossingen',
+      resources: 'Bronnen',
+      company: 'Bedrijf',
+      intelligence: 'Intelligentie',
+      plans: 'Pakketten',
+      bySegment: 'Per segment',
+      byRole: 'Per rol',
+      learn: 'Leren',
+      pricing: 'Prijzen',
+      about: 'Over ons',
+      signIn: 'Inloggen',
+      bookDemo: 'Demo boeken',
+      comparePlans: 'Pakketten vergelijken →',
+      startFree: 'Gratis starten →',
+    },
+    footer: {
+      readyTitle: 'Klaar om te zien wat u mist?',
+      readyDescription: 'Sluit u aan bij operators die niet meer gokken maar weten.',
+      bookDemo: 'Demo boeken',
+      startFree: 'Gratis starten met Report',
+      global: 'Wereldwijd',
+      allCurrencies: 'Alle valuta',
+      sectionProduct: 'Product',
+      sectionSolutions: 'Oplossingen',
+      sectionResources: 'Bronnen',
+      sectionCompany: 'Bedrijf',
+      pricing: 'Prijzen',
+      privacy: 'Privacy',
+      terms: 'Voorwaarden',
+      copyrightSuffix: 'Alle rechten voorbehouden.',
+    },
+  },
+  pt: {
+    metadata: {
+      title: 'Sundae – inteligência de decisão para restaurantes',
+      description:
+        'A plataforma de IA que transforma dados de restaurantes em ação: unifique POS, equipe, custos e operações para comparar desempenho e obter insights imediatos.',
+    },
+    layout: {
+      skipToContent: 'Ir para o conteúdo principal',
+      languageSelector: 'Idioma',
+    },
+    navbar: {
+      products: 'Produtos',
+      solutions: 'Soluções',
+      resources: 'Recursos',
+      company: 'Empresa',
+      intelligence: 'Inteligência',
+      plans: 'Planos',
+      bySegment: 'Por segmento',
+      byRole: 'Por função',
+      learn: 'Aprender',
+      pricing: 'Preços',
+      about: 'Sobre',
+      signIn: 'Entrar',
+      bookDemo: 'Agendar demo',
+      comparePlans: 'Comparar planos →',
+      startFree: 'Começar grátis →',
+    },
+    footer: {
+      readyTitle: 'Pronto para ver o que está faltando?',
+      readyDescription: 'Junte-se a operadores que saíram do palpite e passaram a decidir com clareza.',
+      bookDemo: 'Agendar demo',
+      startFree: 'Começar grátis com Report',
+      global: 'Global',
+      allCurrencies: 'Todas as moedas',
+      sectionProduct: 'Produto',
+      sectionSolutions: 'Soluções',
+      sectionResources: 'Recursos',
+      sectionCompany: 'Empresa',
+      pricing: 'Preços',
+      privacy: 'Privacidade',
+      terms: 'Termos',
+      copyrightSuffix: 'Todos os direitos reservados.',
+    },
+  },
+  hi: {
+    metadata: {
+      title: 'Sundae – रेस्टोरेंट्स के लिए निर्णय इंटेलिजेंस',
+      description:
+        'AI प्लेटफॉर्म जो रेस्टोरेंट डेटा को कार्रवाई में बदलता है: POS, श्रम, लागत और ऑपरेशनल डेटा को जोड़ें, प्रदर्शन की तुलना करें और तुरंत इनसाइट पाएं.',
+    },
+    layout: {
+      skipToContent: 'मुख्य सामग्री पर जाएं',
+      languageSelector: 'भाषा',
+    },
+    navbar: {
+      products: 'उत्पाद',
+      solutions: 'समाधान',
+      resources: 'संसाधन',
+      company: 'कंपनी',
+      intelligence: 'इंटेलिजेंस',
+      plans: 'प्लान',
+      bySegment: 'सेगमेंट के अनुसार',
+      byRole: 'भूमिका के अनुसार',
+      learn: 'सीखें',
+      pricing: 'कीमतें',
+      about: 'परिचय',
+      signIn: 'साइन इन',
+      bookDemo: 'डेमो बुक करें',
+      comparePlans: 'प्लान तुलना करें →',
+      startFree: 'मुफ्त शुरू करें →',
+    },
+    footer: {
+      readyTitle: 'क्या आप देखना चाहते हैं कि आप क्या मिस कर रहे हैं?',
+      readyDescription: 'उन ऑपरेटरों से जुड़ें जो अनुमान से स्पष्ट निर्णय तक पहुंच चुके हैं.',
+      bookDemo: 'डेमो बुक करें',
+      startFree: 'Report के साथ मुफ्त शुरू करें',
+      global: 'वैश्विक',
+      allCurrencies: 'सभी मुद्राएं',
+      sectionProduct: 'उत्पाद',
+      sectionSolutions: 'समाधान',
+      sectionResources: 'संसाधन',
+      sectionCompany: 'कंपनी',
+      pricing: 'कीमतें',
+      privacy: 'गोपनीयता',
+      terms: 'शर्तें',
+      copyrightSuffix: 'सर्वाधिकार सुरक्षित.',
+    },
+  },
+  ur: {
+    metadata: {
+      title: 'Sundae – ریستورانوں کے لیے فیصلہ سازی انٹیلیجنس',
+      description:
+        'AI پلیٹ فارم جو ریستوران کے ڈیٹا کو عمل میں بدلتا ہے: POS، عملہ، لاگت اور آپریشنل ڈیٹا کو یکجا کریں، کارکردگی کا موازنہ کریں اور فوری بصیرت حاصل کریں۔',
+    },
+    layout: {
+      skipToContent: 'مرکزی مواد پر جائیں',
+      languageSelector: 'زبان',
+    },
+    navbar: {
+      products: 'مصنوعات',
+      solutions: 'حل',
+      resources: 'وسائل',
+      company: 'کمپنی',
+      intelligence: 'انٹیلیجنس',
+      plans: 'پلانز',
+      bySegment: 'طبقے کے حساب سے',
+      byRole: 'کردار کے حساب سے',
+      learn: 'سیکھیں',
+      pricing: 'قیمتیں',
+      about: 'تعارف',
+      signIn: 'سائن ان',
+      bookDemo: 'ڈیمو بک کریں',
+      comparePlans: 'پلانز کا موازنہ →',
+      startFree: 'مفت شروع کریں →',
+    },
+    footer: {
+      readyTitle: 'کیا آپ دیکھنا چاہتے ہیں کہ آپ سے کیا رہ رہا ہے؟',
+      readyDescription: 'ان آپریٹرز میں شامل ہوں جو اندازے سے یقین تک پہنچ چکے ہیں۔',
+      bookDemo: 'ڈیمو بک کریں',
+      startFree: 'Report کے ساتھ مفت شروع کریں',
+      global: 'عالمی',
+      allCurrencies: 'تمام کرنسیاں',
+      sectionProduct: 'مصنوعات',
+      sectionSolutions: 'حل',
+      sectionResources: 'وسائل',
+      sectionCompany: 'کمپنی',
+      pricing: 'قیمتیں',
+      privacy: 'رازداری',
+      terms: 'شرائط',
+      copyrightSuffix: 'جملہ حقوق محفوظ ہیں۔',
+    },
+  },
+} satisfies Partial<Record<WebsiteLocale, DeepPartial<WebsiteMessagesBase>>>
+
+const expandedLocaleOverridesByLocale =
+  expandedLocaleMessageOverrides as Partial<Record<WebsiteLocale, DeepPartial<WebsiteMessagesBase>>>
+
+function mergeDeep<T>(base: T, override?: DeepPartial<T>): T {
+  if (!override) return base
+  const merged: Record<string, unknown> = { ...(base as Record<string, unknown>) }
+
+  for (const [key, value] of Object.entries(override)) {
+    if (value === undefined) continue
+    const baseValue = merged[key]
+    const canMergeObject =
+      value !== null &&
+      typeof value === 'object' &&
+      !Array.isArray(value) &&
+      baseValue !== null &&
+      typeof baseValue === 'object' &&
+      !Array.isArray(baseValue)
+
+    merged[key] = canMergeObject
+      ? mergeDeep(baseValue, value as DeepPartial<typeof baseValue>)
+      : value
+  }
+
+  return merged as T
+}
+
 export function getWebsiteMessages(locale: WebsiteLocale): WebsiteMessages {
-  const messages = websiteMessages[locale] as WebsiteMessagesBase
+  const sourceMessages =
+    locale in websiteMessages
+      ? websiteMessages[locale as keyof typeof websiteMessages]
+      : mergeDeep(websiteMessages.en as unknown as WebsiteMessagesBase, expandedLocaleOverridesByLocale[locale])
+  const messages = sourceMessages as WebsiteMessagesBase
   return {
     ...messages,
     pages: messages.home.pages,

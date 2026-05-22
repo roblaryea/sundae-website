@@ -345,7 +345,7 @@ const ROTATION_MS = 5000;
 
 export default function SolutionsHubPage() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
   const [activeIdx, setActiveIdx] = useState(0);
   const ActiveMockup = ROTATING_MOCKUPS[activeIdx];
   const activeLabel = copy.rotatingLabels[activeIdx] ?? "";

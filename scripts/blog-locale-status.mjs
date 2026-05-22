@@ -4,7 +4,7 @@ import path from 'node:path'
 const root = path.resolve(process.cwd(), 'src')
 const sourcePath = path.join(root, 'content/blog/en.ts')
 const translationDir = path.join(root, 'content/blog/translations')
-const locales = ['ar', 'fr', 'es']
+const locales = ['ar', 'fr', 'es', 'de', 'nl', 'pt', 'hi', 'ur']
 
 const sourceText = fs.readFileSync(sourcePath, 'utf8')
 const slugMatches = [...sourceText.matchAll(/slug:\s*"([^"]+)"/g)]

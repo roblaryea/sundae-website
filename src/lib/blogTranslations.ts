@@ -123,7 +123,7 @@ export function getBlogTranslationStatus(
 export type BlogTranslationCoverageRow = {
   slug: string;
   sourceTitle: string;
-  statuses: Record<NonEnglishBlogLocale, BlogTranslationStatus>;
+  statuses: Partial<Record<NonEnglishBlogLocale, BlogTranslationStatus>>;
 };
 
 export function getBlogTranslationCoverage(): BlogTranslationCoverageRow[] {

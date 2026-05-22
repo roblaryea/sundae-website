@@ -205,7 +205,7 @@ const localizedForgeCopy: Record<'en' | 'ar' | 'fr' | 'es', ForgeCopy> = {
 
 export default function ForgePage() {
   const { locale } = useWebsiteI18n();
-  const ui = localizedForgeCopy[locale] ?? localizedForgeCopy.en;
+  const ui = localizedForgeCopy[locale as keyof typeof localizedForgeCopy] ?? localizedForgeCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">

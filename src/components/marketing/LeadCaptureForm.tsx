@@ -228,7 +228,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
   className = '',
 }) => {
   const { locale } = useWebsiteI18n();
-  const copy = formCopy[locale] ?? formCopy.en;
+  const copy = formCopy[locale as keyof typeof formCopy] ?? formCopy.en;
   const [formData, setFormData] = useState<FormData>({
     name: '',
     email: '',

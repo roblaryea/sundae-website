@@ -196,8 +196,8 @@ const localizedPillars: Record<'en' | 'ar' | 'fr' | 'es', Pillar[]> = {
 export default function ProductPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const ui = copyMap[locale] ?? copyMap.en;
-  const pillars = localizedPillars[locale] ?? localizedPillars.en;
+  const ui = copyMap[locale as keyof typeof copyMap] ?? copyMap.en;
+  const pillars = localizedPillars[locale as keyof typeof localizedPillars] ?? localizedPillars.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">

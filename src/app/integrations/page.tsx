@@ -92,8 +92,8 @@ const localizedIntegrationCopy = {
 export default function IntegrationsPage() {
   const { locale, messages } = useWebsiteI18n();
   const copy = messages.pages.integrations;
-  const integrationCategories = integrationCategoriesByLocale[locale] ?? integrationCategoriesByLocale.en;
-  const ui = localizedIntegrationCopy[locale] ?? localizedIntegrationCopy.en;
+  const integrationCategories = integrationCategoriesByLocale[locale as keyof typeof integrationCategoriesByLocale] ?? integrationCategoriesByLocale.en;
+  const ui = localizedIntegrationCopy[locale as keyof typeof localizedIntegrationCopy] ?? localizedIntegrationCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">

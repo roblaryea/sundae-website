@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { SundaeIcon } from "@/components/icons";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import { type WebsiteLocale } from "@/lib/i18n";
+import { type RequiredEnglishLocalizedRecord } from '@/lib/i18n';
 
 type UpliftCopy = {
   back: string;
@@ -46,7 +46,7 @@ type UpliftCopy = {
   errors: { invalidNumbers: string };
 };
 
-const localizedCopy: Record<WebsiteLocale, UpliftCopy> = {
+const localizedCopy: RequiredEnglishLocalizedRecord<UpliftCopy> = {
   en: {
     back: "Back to Tools",
     hero: { badge: "Portfolio Intelligence", title: "Multi-Location Revenue Uplift Estimator", description: "Calculate the potential revenue impact of operational improvements across multiple locations." },
@@ -179,7 +179,7 @@ const localizedCopy: Record<WebsiteLocale, UpliftCopy> = {
 
 export default function MultiLocationUpliftPage() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
   const [locations, setLocations] = useState("");
   const [avgRevenue, setAvgRevenue] = useState("");
   const [targetImprovement, setTargetImprovement] = useState("");

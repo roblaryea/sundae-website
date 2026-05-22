@@ -239,7 +239,7 @@ export default function HomeContent() {
                   value={kpi.value}
                   label={kpi.label}
                   supporting={kpi.supporting}
-                  color={kpi.color}
+                  color={kpi.color as "blue" | "green" | "amber" | "red" | "purple" | "white" | undefined}
                   animate={painInView}
                 />
               ))}

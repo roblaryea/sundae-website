@@ -111,7 +111,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
 
 export function SectionProof() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
 
   return (
     <section aria-labelledby="proof-headline" className="relative">

@@ -319,7 +319,7 @@ const localizedChatCopy = {
 export default function ChatWithDataPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const ui = localizedChatCopy[locale] ?? localizedChatCopy.en;
+  const ui = localizedChatCopy[locale as keyof typeof localizedChatCopy] ?? localizedChatCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">

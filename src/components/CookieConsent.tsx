@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import type { WebsiteLocale } from "@/lib/i18n";
+import type { RequiredEnglishLocalizedRecord } from '@/lib/i18n';
 
 const CONSENT_KEY = "sundae_cookie_consent";
 
@@ -16,7 +16,7 @@ type CookieConsentCopy = {
   accept: string;
 };
 
-const cookieConsentCopy: Record<WebsiteLocale, CookieConsentCopy> = {
+const cookieConsentCopy: RequiredEnglishLocalizedRecord<CookieConsentCopy> = {
   en: {
     ariaLabel: "Cookie consent",
     message: "We use cookies to improve your experience and analyze site usage.",
@@ -80,7 +80,7 @@ function dispatchConsentEvent(status: ConsentStatus) {
 export function CookieConsent() {
   const { locale } = useWebsiteI18n();
   const pathname = usePathname();
-  const copy = cookieConsentCopy[locale] ?? cookieConsentCopy.en;
+  const copy = cookieConsentCopy[locale as keyof typeof cookieConsentCopy] ?? cookieConsentCopy.en;
   const [visible, setVisible] = useState(() => {
     if (typeof window === "undefined") return false;
     return getConsentStatus() === null;

@@ -128,7 +128,7 @@ const localizedForesightCopy: Record<'en' | 'ar' | 'fr' | 'es', ForesightPageCop
       { step: "02", title: "Projects Forward", description: "Generates forecasts for 17 metrics across 14-90 days with confidence bands. Layers in external signals - weather, local events, competitor activity - and maps cross-module dependencies.", icon: "forecasting" },
       { step: "03", title: "Self-Corrects Weekly", description: "Compares forecast to actual. Detects systematic bias. Adjusts the model automatically. Your forecast gets sharper the longer you use it.", icon: "performance" },
     ],
-    componentsEyebrow: "12 SUB-PAGES · 32 FORECAST VISUALS",
+    componentsEyebrow: "17 SUB-PAGES · 32 FORECAST VISUALS",
     componentsTitle: "Forecast. Simulate. Brief. Act.",
     componentsDescription: "From unified forecast timelines to Monte Carlo risk analysis, forecast-driven scheduling and purchasing, and executive briefings - every tool an operator needs to make forward-looking decisions.",
     components: [
@@ -142,7 +142,7 @@ const localizedForesightCopy: Record<'en' | 'ar' | 'fr' | 'es', ForesightPageCop
       { title: "Monte Carlo Risk Analysis", headline: "1,000 Simulations. One Probability Distribution.", description: "Run Monte Carlo simulations against your forecast to quantify downside risk and identify worst-case scenarios.", capabilities: ["1,000-iteration Monte Carlo simulation", "P10/P50/P90 outcome ranges with probability distributions", "Risk factor decomposition", "Stress testing and scenario isolation"], icon: "risk", color: "from-rose-500 to-pink-600" },
     ],
     pricingTitle: "Add Foresight to Your Core Plan",
-    pricingDescription: "Every Foresight plan includes all 12 sub-pages and 32 forecast visuals. Your Core tier determines how fast, how deep, and how much you can run.",
+    pricingDescription: "Every Foresight plan includes all 17 sub-pages and 32 forecast visuals. Your Core tier determines how fast, how deep, and how much you can run.",
     pricingTiers: [
       { tier: "Core Lite", base: "$279", perLocation: "$27", description: "For single-unit operators getting started with predictive intelligence.", enhancements: ["15-minute data refresh cycles", "8,000 AI credits/mo", "2 years historical training data", "50 forecast queries/day"] },
       { tier: "Core Pro", base: "$449/mo", perLocation: "$24", description: "For multi-unit operators with the full intelligence stack.", highlighted: true, enhancements: ["5-minute data refresh - faster recalibration", "14,000 AI credits/mo - more simulations", "3 years historical data - deeper accuracy", "150 forecast queries/day", "Analyst & Strategist intelligence modes", "Native multi-POS support"] },
@@ -564,7 +564,7 @@ const mockupRenderers = [
 export default function ForesightPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const ui = localizedForesightCopy[locale] ?? localizedForesightCopy.en;
+  const ui = localizedForesightCopy[locale as keyof typeof localizedForesightCopy] ?? localizedForesightCopy.en;
   const mockups = ui.mockups;
 
   return (

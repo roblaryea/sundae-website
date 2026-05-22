@@ -286,7 +286,7 @@ const reportPageCopy = {
 export default function ReportProductPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const ui = reportPageCopy[locale] ?? reportPageCopy.en;
+  const ui = reportPageCopy[locale as keyof typeof reportPageCopy] ?? reportPageCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">

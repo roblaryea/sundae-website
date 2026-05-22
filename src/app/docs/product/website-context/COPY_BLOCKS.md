@@ -155,19 +155,20 @@ It ingests internal operational data (POS, labor, inventory, finance) and extern
 | Tile | Description | Status |
 |---|---|---|
 | Performance Report | Visualize sales data, monitor revenue, guest activity, and channel mix across your restaurants. | Enabled |
-| Revenue Intelligence | Deep-dive into revenue drivers, pricing analysis, and revenue optimization opportunities. | Coming Soon |
-| Labor Intelligence | Workforce analytics, labor cost optimization, and scheduling efficiency insights. | Coming Soon |
-| Inventory Intelligence | Stock levels, waste tracking, and inventory turnover analysis. | Coming Soon |
-| Purchasing Intelligence | Supplier performance, purchase order analysis, and cost benchmarking. | Coming Soon |
-| Marketing Performance Intelligence | Campaign ROI, channel effectiveness, and customer acquisition cost analysis. | Coming Soon |
-| Reservations Intelligence | Booking patterns, no-show rates, and table utilization analysis. | Coming Soon |
-| Profit Intelligence | Margin analysis, P&L breakdowns, and profitability optimization. | Coming Soon |
-| Revenue Assurance | Leakage detection, void analysis, discount tracking, and revenue protection. | Coming Soon |
-| Delivery Intelligence | Delivery platform performance, commission analysis, and channel comparison. | Coming Soon |
-| Economic Intelligence | Market trends, economic indicators, and macro-level impact analysis. | Coming Soon |
-| Guest Experience Intelligence | Review sentiment, satisfaction scores, and guest feedback analysis. | Coming Soon |
-| Accounting Intelligence | Financial reconciliation, GL mapping, and automated reporting. | Coming Soon |
-| Guest CRM Intelligence | Customer segmentation, loyalty insights, and lifetime value analysis. | Coming Soon |
+| Revenue Intelligence | Deep-dive into revenue drivers, pricing analysis, and revenue optimization opportunities. | Enabled |
+| Labor Intelligence | Workforce analytics, labor cost optimization, and scheduling efficiency insights. | Enabled |
+| Inventory Intelligence | Stock levels, waste tracking, and inventory turnover analysis. | Enabled |
+| Purchasing Intelligence | Supplier performance, purchase order analysis, and cost benchmarking. | Enabled |
+| Marketing Performance Intelligence | Campaign ROI, channel effectiveness, and customer acquisition cost analysis. | Enabled |
+| Reservations Intelligence | Booking patterns, no-show rates, and table utilization analysis. | Enabled |
+| Profit Intelligence | Margin analysis, P&L breakdowns, and profitability optimization. | Enabled |
+| Revenue Assurance | Leakage detection, void analysis, discount tracking, and revenue protection. | Enabled |
+| Delivery Intelligence | Delivery platform performance, commission analysis, and channel comparison. | Enabled |
+| Guest Experience Intelligence | Review sentiment, satisfaction scores, and guest feedback analysis. | Enabled |
+| Guest CRM Intelligence | Customer segmentation, loyalty insights, and lifetime value analysis. | Enabled |
+| Item Profitability | Recipe costing, engineering matrix, and channel variance. | Enabled |
+| Foresight Intelligence | Forecast accuracy and forward-looking operating signals. | Enabled |
+| Cross-Intelligence | Cross-module correlations and executive views. | Enabled |
 
 ---
 

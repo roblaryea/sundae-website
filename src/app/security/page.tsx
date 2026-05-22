@@ -140,7 +140,7 @@ const securityCopy: Record<"en" | "ar" | "fr" | "es", SecurityCopy> = {
 
 export default async function SecurityPage() {
   const locale = resolveWebsiteLocale(await cookies());
-  const copy = securityCopy[locale] ?? securityCopy.en;
+  const copy = securityCopy[locale as keyof typeof securityCopy] ?? securityCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">

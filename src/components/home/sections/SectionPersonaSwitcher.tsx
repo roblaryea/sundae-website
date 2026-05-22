@@ -134,7 +134,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedPersonaSwitcher>
 export function SectionPersonaSwitcher() {
   const reduceMotion = useReducedMotion();
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
   const [activeIdx, setActiveIdx] = useState<number>(0);
   const active = copy.personas[activeIdx];
   const activeStructure = personaStructure[activeIdx];

@@ -104,7 +104,7 @@ const contactCopy = {
 } as const;
 
 function getContactCopy(locale: WebsiteLocale) {
-  return contactCopy[locale] ?? contactCopy.en;
+  return contactCopy[locale as keyof typeof contactCopy] ?? contactCopy.en;
 }
 
 export async function generateMetadata(): Promise<Metadata> {

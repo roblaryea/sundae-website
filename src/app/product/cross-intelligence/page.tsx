@@ -1143,10 +1143,10 @@ const crossIntelligenceCopy = {
 export default function CrossIntelligencePage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const ui = crossIntelligenceCopy[locale] ?? crossIntelligenceCopy.en;
-  const components = localizedCrossIntelligenceComponents[locale] ?? localizedCrossIntelligenceComponents.en;
-  const tierComparison = localizedTierComparison[locale] ?? localizedTierComparison.en;
-  const mockupCopy = localizedCrossIntelligenceMockups[locale] ?? localizedCrossIntelligenceMockups.en;
+  const ui = crossIntelligenceCopy[locale as keyof typeof crossIntelligenceCopy] ?? crossIntelligenceCopy.en;
+  const components = localizedCrossIntelligenceComponents[locale as keyof typeof localizedCrossIntelligenceComponents] ?? localizedCrossIntelligenceComponents.en;
+  const tierComparison = localizedTierComparison[locale as keyof typeof localizedTierComparison] ?? localizedTierComparison.en;
+  const mockupCopy = localizedCrossIntelligenceMockups[locale as keyof typeof localizedCrossIntelligenceMockups] ?? localizedCrossIntelligenceMockups.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">

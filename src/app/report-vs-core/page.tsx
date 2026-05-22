@@ -757,7 +757,7 @@ const localizedReportVsCoreCopy: Record<"en" | "ar" | "fr" | "es", ReportVsCoreC
 export default function ReportVsCorePage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const copy = localizedReportVsCoreCopy[locale] ?? localizedReportVsCoreCopy.en;
+  const copy = localizedReportVsCoreCopy[locale as keyof typeof localizedReportVsCoreCopy] ?? localizedReportVsCoreCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">

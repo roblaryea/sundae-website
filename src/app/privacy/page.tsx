@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/Button';
 import { Card, CardContent } from '@/components/ui/Card';
 import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 import { COMPANY } from '@/lib/company';
-import { resolveWebsiteLocale, type WebsiteLocale } from '@/lib/i18n';
+import { resolveWebsiteLocale, type NonEnglishWebsiteLocale } from '@/lib/i18n';
 
 const companyAddressLines = [
   COMPANY.address.line1,
@@ -51,7 +51,7 @@ type PrivacyCopy = {
   };
 };
 
-const localizedPrivacyCopy: Record<Exclude<WebsiteLocale, 'en'>, PrivacyCopy> = {
+const localizedPrivacyCopy: Partial<Record<NonEnglishWebsiteLocale, PrivacyCopy>> = {
   ar: {
     badge: 'الخصوصية',
     title: 'سياسة الخصوصية',
@@ -1062,8 +1062,9 @@ export default async function PrivacyPage() {
   const locale = resolveWebsiteLocale(cookieStore);
   const lastUpdated = "March 3, 2026";
 
-  if (locale !== 'en') {
-    return <LocalizedPrivacyPage copy={localizedPrivacyCopy[locale]} />;
+  const localizedCopy = locale === 'en' ? undefined : localizedPrivacyCopy[locale];
+  if (localizedCopy) {
+    return <LocalizedPrivacyPage copy={localizedCopy} />;
   }
 
   return (

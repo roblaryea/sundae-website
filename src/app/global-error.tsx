@@ -7,11 +7,11 @@ import {
   normalizeWebsiteLocale,
   parseWebsiteLocaleFromPathname,
   websiteLocaleDirection,
+  type RequiredEnglishLocalizedRecord,
   type WebsiteLocale,
 } from "@/lib/i18n";
 
-const globalErrorCopy: Record<
-  WebsiteLocale,
+const globalErrorCopy: RequiredEnglishLocalizedRecord<
   {
     title: string;
     description: string;
@@ -67,7 +67,7 @@ export default function GlobalError({
   reset: () => void;
 }) {
   const locale = resolveClientLocale();
-  const copy = globalErrorCopy[locale] ?? globalErrorCopy.en;
+  const copy = globalErrorCopy[locale as keyof typeof globalErrorCopy] ?? globalErrorCopy.en;
 
   useEffect(() => {
     Sentry.captureException(error);

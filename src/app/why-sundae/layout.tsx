@@ -27,7 +27,7 @@ const copy = {
 
 export async function generateMetadata(): Promise<Metadata> {
   const locale = resolveWebsiteLocale(await cookies());
-  return copy[locale];
+  return copy[locale as keyof typeof copy] ?? copy.en;
 }
 
 export default function WhySundaeLayout({

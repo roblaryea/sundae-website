@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { SundaeIcon } from "@/components/icons";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import { type WebsiteLocale } from "@/lib/i18n";
+import { type RequiredEnglishLocalizedRecord } from '@/lib/i18n';
 
 type MenuMarginCopy = {
   back: string;
@@ -41,7 +41,7 @@ type MenuMarginCopy = {
   errors: { invalidNumbers: string };
 };
 
-const localizedCopy: Record<WebsiteLocale, MenuMarginCopy> = {
+const localizedCopy: RequiredEnglishLocalizedRecord<MenuMarginCopy> = {
   en: {
     back: "Back to Tools",
     hero: {
@@ -174,7 +174,7 @@ const localizedCopy: Record<WebsiteLocale, MenuMarginCopy> = {
 
 export default function MenuMarginCalculator() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
   const [sellingPrice, setSellingPrice] = useState("");
   const [ingredientCost, setIngredientCost] = useState("");
   const [result, setResult] = useState<{ grossProfit: number; marginPercent: number; interpretation: string; color: string; bgColor: string } | null>(null);

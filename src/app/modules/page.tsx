@@ -510,8 +510,8 @@ export default function ModulesPage() {
   const cta = useCta();
   const { locale, messages } = useWebsiteI18n();
   const copy = messages.pages.modules;
-  const page = localizedModulesCopy[locale] ?? localizedModulesCopy.en;
-  const ui = localizedModulesUi[locale] ?? localizedModulesUi.en;
+  const page = localizedModulesCopy[locale as keyof typeof localizedModulesCopy] ?? localizedModulesCopy.en;
+  const ui = localizedModulesUi[locale as keyof typeof localizedModulesUi] ?? localizedModulesUi.en;
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">

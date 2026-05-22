@@ -167,7 +167,7 @@ const careersCopy = {
 
 export default async function CareersPage() {
   const locale = resolveWebsiteLocale(await cookies());
-  const ui = careersCopy[locale] ?? careersCopy.en;
+  const ui = careersCopy[locale as keyof typeof careersCopy] ?? careersCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">

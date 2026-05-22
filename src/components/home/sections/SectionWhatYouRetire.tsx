@@ -109,7 +109,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
 export function SectionWhatYouRetire() {
   const reduceMotion = useReducedMotion();
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
 
   return (
     <section aria-labelledby="retire-headline" className="relative py-20 px-4 sm:px-6 lg:px-8">

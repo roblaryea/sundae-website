@@ -163,7 +163,7 @@ const localizedBenchmarkCopy = {
 export default function BenchmarkingPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const ui = localizedBenchmarkCopy[locale] ?? localizedBenchmarkCopy.en;
+  const ui = localizedBenchmarkCopy[locale as keyof typeof localizedBenchmarkCopy] ?? localizedBenchmarkCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">

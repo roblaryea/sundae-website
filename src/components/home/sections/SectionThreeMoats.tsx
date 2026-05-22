@@ -199,7 +199,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedMoats> = {
 export function SectionThreeMoats() {
   const reduceMotion = useReducedMotion();
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
 
   return (
     <section aria-labelledby="moats-headline" className="relative">

@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FormField } from '@/components/auth/FormField';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
-import type { WebsiteLocale } from '@/lib/i18n';
+import type { RequiredEnglishLocalizedRecord } from '@/lib/i18n';
 import { APP_URL, SIGNIN_URL, SIGNUP_URL } from '@/lib/urls';
 
 /* ---------------------------------------------------------------
@@ -16,8 +16,7 @@ const ENABLE_SSO = false;
 // and remove the redirect-to-app fallback in handleSubmit.
 const AUTH_API_URL: string | null = null;
 
-const localizedShellCopy: Record<
- WebsiteLocale,
+const localizedShellCopy: RequiredEnglishLocalizedRecord<
  {
   homeLabel: string;
   productShotAlt: string;
@@ -60,7 +59,7 @@ const localizedShellCopy: Record<
 export default function SignInPage() {
  const { messages, locale } = useWebsiteI18n();
  const copy = messages.pages.signIn;
- const shellCopy = localizedShellCopy[locale];
+ const shellCopy = localizedShellCopy[locale as keyof typeof localizedShellCopy] ?? localizedShellCopy.en;
  const [email, setEmail] = useState('');
  const [password, setPassword] = useState('');
  const [remember, setRemember] = useState(false);

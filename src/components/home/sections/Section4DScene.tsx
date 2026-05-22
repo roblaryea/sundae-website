@@ -188,7 +188,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedFourD> = {
 export function Section4DScene() {
   const reduceMotion = useReducedMotion();
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
   const dimensions = copy.dimensions;
   const [activeIdx, setActiveIdx] = useState(0);
   const [paused, setPaused] = useState(false);

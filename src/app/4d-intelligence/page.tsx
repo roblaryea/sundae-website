@@ -237,7 +237,7 @@ const localized4DCopy = {
 
 export default function FourDIntelligencePage() {
   const { locale } = useWebsiteI18n();
-  const ui = localized4DCopy[locale] ?? localized4DCopy.en;
+  const ui = localized4DCopy[locale as keyof typeof localized4DCopy] ?? localized4DCopy.en;
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">

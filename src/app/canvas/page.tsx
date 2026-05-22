@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { PageCTA } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import { type WebsiteLocale } from "@/lib/i18n";
+import { type RequiredEnglishLocalizedRecord } from '@/lib/i18n';
 
 type CanvasCopy = {
   hero: {
@@ -49,7 +49,7 @@ type CanvasCopy = {
   };
 };
 
-const localizedCopy: Record<WebsiteLocale, CanvasCopy> = {
+const localizedCopy: RequiredEnglishLocalizedRecord<CanvasCopy> = {
   en: {
     hero: {
       badge: "Sundae Canvas",
@@ -280,7 +280,7 @@ const localizedCopy: Record<WebsiteLocale, CanvasCopy> = {
 
 export default function CanvasPage() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">

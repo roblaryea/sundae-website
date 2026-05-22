@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { SundaeIcon } from "@/components/icons";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import { type WebsiteLocale } from "@/lib/i18n";
+import { type RequiredEnglishLocalizedRecord } from '@/lib/i18n';
 
 type Option = { value: string; label: string };
 type Question = { id: keyof Responses; question: string; options: Option[] };
@@ -47,7 +47,7 @@ type BenchmarkCopy = {
   errors: { missing: string };
 };
 
-const localizedCopy: Record<WebsiteLocale, BenchmarkCopy> = {
+const localizedCopy: RequiredEnglishLocalizedRecord<BenchmarkCopy> = {
   en: {
     back: "Back to Tools",
     hero: { badge: "Benchmark Intelligence", title: "Benchmark Readiness Assessment", description: "Evaluate your organization's readiness for benchmarking." },
@@ -140,7 +140,7 @@ const localizedCopy: Record<WebsiteLocale, BenchmarkCopy> = {
 
 export default function BenchmarkReadinessPage() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
   const [responses, setResponses] = useState<Responses>({
     dataQuality: "",
     systemIntegration: "",

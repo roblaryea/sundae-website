@@ -26,7 +26,7 @@
       "persona": "Investor / VC"
     },
     {
-      "answer": "Report Lite starts at $0 with performance reports, 250 AI credits base (plus 80 per location), and document ingestion. Report Plus at $79/mo adds multi-location and 5 AI seats. Add only the modules you need — Guest Experience starts at $99/mo, Revenue Assurance at $109/mo.",
+      "answer": "Report Lite starts at $0 with performance reports, 250 AI credits base (plus 80 per location), and document ingestion. Report Plus at $79/mo adds multi-location and 3 AI seats. Add only the modules you need — Guest Experience starts at $149/mo + $14/location, Revenue Assurance at $149/mo + $14/location, and Crew Lite starts at $99/mo + $19/location for workforce-first teams.",
       "pain": "I can't afford an enterprise system but I need more than my POS dashboard gives me.",
       "persona": "Independent Restaurateur"
     }
@@ -54,7 +54,7 @@
       "title": "Conversational AI"
     },
     {
-      "description": "$0 free tier to $349+ enterprise with 14 purchasable modules and 6 bundles — operators buy what they need, expand as they grow",
+      "description": "$0 free tier to custom Enterprise, with 11 Core add-on modules, Watchtower packs, 6 Crew workforce SKUs, and Core/Crew bundles — operators buy what they need, expand as they grow",
       "title": "Modular pricing"
     },
     {
@@ -62,7 +62,7 @@
       "title": "Multi-vertical architecture"
     },
     {
-      "description": "scheduling, time & attendance, and a provider-neutral payroll calculation engine with 6 GCC country packs legally validated (UAE WPS exported, GOSI/PIFSS/GPSSA/SIO statutory components). Every shift, hour, and pay-cycle becomes signal feeding Labor Intelligence, Pulse, Watchtower, and Foresight — a loop a standalone HR/payroll vendor cannot close.",
+      "description": "scheduling, time & attendance, HR operations, payroll readiness/statutory exports, Ask-HR helpdesk, and People Intelligence. Crew is sold as six workforce SKUs and turns shifts, hours, HR records, and pay-cycle evidence into signal feeding Labor Intelligence, Pulse, Watchtower, and Foresight — a loop a standalone HR/payroll vendor cannot close.",
       "title": "Operational substrate (Crew)"
     }
   ],
@@ -113,7 +113,7 @@
       "tagline": "Twelve operational blind spots. Twelve intelligence modules. Each one pays for itself."
     }
   ],
-  "generated_at": "2026-05-17T09:54:16.172Z",
+  "generated_at": "2026-05-22T10:37:38.378Z",
   "hero": {
     "bullets": [
       "Ingests 12 operational data domains",
@@ -230,7 +230,9 @@
       "18 Insights routes (12 deep analytics modules + 6 cross-cutting views) across 6 intelligence layers, plus Crew operational suite",
       "6 @sundae/* SDK packages with VerticalConfig multi-vertical contract",
       "17 sub-pages in Pulse",
-      "12 Insights deep analytics modules"
+      "12 Insights deep analytics modules",
+      "Report Plus includes 3 AI seats",
+      "Crew is sold as six workforce SKUs: Crew Lite, Scheduling, Operations, Time & Attendance, Payroll, and People Intelligence, plus Operating and Complete bundles."
     ],
     "items": [
       {
@@ -282,6 +284,16 @@
         "claim": "12 Insights deep analytics modules",
         "unit": "modules",
         "value": "12"
+      },
+      {
+        "claim": "Report Plus includes 3 AI seats",
+        "unit": "AI seats",
+        "value": "3"
+      },
+      {
+        "claim": "Crew is sold as six workforce SKUs: Crew Lite, Scheduling, Operations, Time & Attendance, Payroll, and People Intelligence, plus Operating and Complete bundles.",
+        "unit": "Crew SKUs",
+        "value": "6"
       }
     ]
   }

@@ -120,7 +120,8 @@ const LABEL_MAP: Record<string, Record<string, string>> = {
 };
 
 function formatSegment(segment: string, locale: keyof typeof LABEL_MAP): string {
-  return LABEL_MAP[locale][segment] || segment
+  const labels = LABEL_MAP[locale] ?? LABEL_MAP.en;
+  return labels[segment] || segment
     .split('-')
     .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
     .join(' ');

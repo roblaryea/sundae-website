@@ -5,10 +5,9 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/Button";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import type { WebsiteLocale } from "@/lib/i18n";
+import type { RequiredEnglishLocalizedRecord } from "@/lib/i18n";
 
-const notFoundCopy: Record<
-  WebsiteLocale,
+const notFoundCopy: RequiredEnglishLocalizedRecord<
   {
     orbAlt: string;
     title: string;
@@ -49,7 +48,7 @@ const notFoundCopy: Record<
 
 export default function NotFound() {
   const { locale } = useWebsiteI18n();
-  const copy = notFoundCopy[locale] ?? notFoundCopy.en;
+  const copy = notFoundCopy[locale as keyof typeof notFoundCopy] ?? notFoundCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)] flex items-center justify-center px-4">

@@ -148,7 +148,7 @@ const localizedScoutCopy = {
 
 export default function ScoutPage() {
   const { locale } = useWebsiteI18n();
-  const ui = localizedScoutCopy[locale] ?? localizedScoutCopy.en;
+  const ui = localizedScoutCopy[locale as keyof typeof localizedScoutCopy] ?? localizedScoutCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">

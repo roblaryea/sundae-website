@@ -4,7 +4,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import type { WebsiteLocale } from "@/lib/i18n";
+import type { RequiredEnglishLocalizedRecord } from '@/lib/i18n';
 
 type DocSection = {
   title: string;
@@ -43,7 +43,7 @@ type DocumentationCopy = {
   quickStartSteps: QuickStartStep[];
 };
 
-const localizedDocsCopy: Record<WebsiteLocale, DocumentationCopy> = {
+const localizedDocsCopy: RequiredEnglishLocalizedRecord<DocumentationCopy> = {
   en: {
     badge: "Documentation",
     title: "Everything You Need to Know",
@@ -552,7 +552,7 @@ const localizedDocsCopy: Record<WebsiteLocale, DocumentationCopy> = {
 
 export default function DocumentationPage() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedDocsCopy[locale] ?? localizedDocsCopy.en;
+  const copy = localizedDocsCopy[locale as keyof typeof localizedDocsCopy] ?? localizedDocsCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">

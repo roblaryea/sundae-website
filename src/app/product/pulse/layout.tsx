@@ -39,7 +39,7 @@ const copy = {
 
 export async function generateMetadata(): Promise<Metadata> {
   const locale = resolveWebsiteLocale(await cookies());
-  const page = copy[locale];
+  const page = copy[locale as keyof typeof copy] ?? copy.en;
   return {
     title: page.title,
     description: page.description,

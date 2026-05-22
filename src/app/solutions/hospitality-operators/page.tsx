@@ -153,6 +153,6 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
 
 export default function HospitalityOperatorsPage() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
   return <SolutionPageLayout copy={copy} mockup={<PulseDashboardMockup />} />;
 }

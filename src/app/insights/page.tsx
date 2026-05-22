@@ -664,8 +664,8 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
 export default function InsightsPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const ui = localizedInsightsUi[locale] ?? localizedInsightsUi.en;
-  const modules = localizedModulesCopy[locale] ?? localizedModulesCopy.en;
+  const ui = localizedInsightsUi[locale as keyof typeof localizedInsightsUi] ?? localizedInsightsUi.en;
+  const modules = localizedModulesCopy[locale as keyof typeof localizedModulesCopy] ?? localizedModulesCopy.en;
 
   const whoItsFor: { icon: SundaeIconName; title: string; description: string }[] = [
     { icon: "owners", title: ui.whoItsFor[0].title, description: ui.whoItsFor[0].description },

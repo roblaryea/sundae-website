@@ -481,7 +481,7 @@ const localizedWatchtowerCopy = {
 export default function WatchtowerPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const ui = localizedWatchtowerCopy[locale] ?? localizedWatchtowerCopy.en;
+  const ui = localizedWatchtowerCopy[locale as keyof typeof localizedWatchtowerCopy] ?? localizedWatchtowerCopy.en;
   const pricingCards = [...(ui.pricingCards as readonly { name: string; price: string; perLoc: string; highlight?: boolean }[])];
 
   return (

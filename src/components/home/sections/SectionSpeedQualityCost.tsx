@@ -143,7 +143,7 @@ function ballAt(progress: number) {
 export function SectionSpeedQualityCost() {
   const reduceMotion = useReducedMotion();
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
   const vertices = copy.vertices;
   const [activeIdx, setActiveIdx] = useState(0);
   const [paused, setPaused] = useState(false);

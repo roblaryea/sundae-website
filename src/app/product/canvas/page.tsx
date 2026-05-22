@@ -177,7 +177,7 @@ const localizedCanvasCopy = {
 
 export default function CanvasPage() {
   const { locale } = useWebsiteI18n();
-  const ui = localizedCanvasCopy[locale] ?? localizedCanvasCopy.en;
+  const ui = localizedCanvasCopy[locale as keyof typeof localizedCanvasCopy] ?? localizedCanvasCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">

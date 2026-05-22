@@ -192,7 +192,7 @@ const reportCopy = {
 
 export default function SundaeReportPage() {
   const { locale } = useWebsiteI18n();
-  const ui = reportCopy[locale] ?? reportCopy.en;
+  const ui = reportCopy[locale as keyof typeof reportCopy] ?? reportCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
