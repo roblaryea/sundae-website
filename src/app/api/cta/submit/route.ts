@@ -1,10 +1,16 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { randomUUID } from 'crypto';
-import { 
-  saveSubmissionUnified, 
+import {
+  saveSubmissionUnified,
   checkStorageHealth
 } from '@/lib/unifiedSubmissionStore';
 import { createClickUpTask, type ClickUpTaskPayload } from '@/lib/clickupClient';
+import {
+  isSundaeBackendConfigured,
+  leadBackendMode,
+  submitLeadToSundae,
+  type SundaeLeadPayload,
+} from '@/lib/sundaeLeadClient';
 
 // Force Node.js runtime (required for crypto and Google Auth)
 export const runtime = 'nodejs';
@@ -207,6 +213,73 @@ export async function POST(request: NextRequest) {
       utmMedium,
       utmCampaign,
     };
+
+    // =========================================
+    // STEP 1.5: Forward to Sundae backend (new primary path)
+    // =========================================
+    // Wire to api.sundaetech.ai/api/v1/public/marketing/leads behind LEAD_BACKEND
+    // flag. The Sundae backend persists to marketing_leads, fires the branded
+    // auto-response email, and pings the admin pool — no ClickUp dependency.
+    // ClickUp path stays as a rollback option when LEAD_BACKEND=clickup, and
+    // can run in parallel when LEAD_BACKEND=both for migration testing.
+    const mode = leadBackendMode();
+    const sundaeConfigured = isSundaeBackendConfigured();
+
+    if ((mode === 'sundae' || mode === 'both') && sundaeConfigured) {
+      const sundaePayload: SundaeLeadPayload = {
+        fullName: name,
+        email,
+        company: company || null,
+        role: role || null,
+        country: country || null,
+        phone: phone || null,
+        primaryPos: primaryPOS || null,
+        numberOfLocations: numberOfLocations || null,
+        message: message || null,
+        ctaLabel: ctaLabel || null,
+        sourcePage: sourcePage || null,
+        utmSource: utmSource || null,
+        utmMedium: utmMedium || null,
+        utmCampaign: utmCampaign || null,
+        referrerUrl: request.headers.get('referer'),
+        metadata: { requestId, websiteIp: ip },
+      };
+      const sundaeResult = await submitLeadToSundae(sundaePayload);
+      console.log(`[${requestId}] Sundae backend submit:`, {
+        ok: sundaeResult.ok,
+        status: sundaeResult.status,
+        leadId: sundaeResult.leadId,
+        error: sundaeResult.error,
+      });
+      if (sundaeResult.ok && mode === 'sundae') {
+        // Sundae owns the lead. Best-effort archive to local storage, then return.
+        try {
+          await saveSubmissionUnified(
+            submissionData,
+            'success',
+            sundaeResult.leadId,
+            undefined,
+            requestId
+          );
+        } catch (storageErr: unknown) {
+          console.warn(`[${requestId}] Storage archive failed:`, getErrorMessage(storageErr));
+        }
+        return NextResponse.json({
+          success: true,
+          message: 'Your request has been received. A Sundae specialist will respond within 24 hours.',
+          leadId: sundaeResult.leadId,
+          leadNumber: sundaeResult.leadNumber,
+          submissionId: sundaeResult.leadId,
+          requestId,
+        });
+      }
+      if (!sundaeResult.ok && mode === 'sundae') {
+        console.error(`[${requestId}] Sundae backend failed; falling back to ClickUp path.`);
+        // Intentional fall-through to ClickUp legacy flow below for redundancy
+        // during the migration window. Once LEAD_BACKEND=sundae is stable in
+        // prod, the ClickUp code below can be deleted.
+      }
+    }
 
     // =========================================
     // STEP 2: Check ClickUp configuration
