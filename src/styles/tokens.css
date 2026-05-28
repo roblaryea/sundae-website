@@ -84,6 +84,7 @@
   --shape-tint-line: rgba(255, 255, 255, 0.15);
   --shape-glow: rgba(255, 255, 255, 0.06);
   --shape-glow-inner: rgba(255, 255, 255, 0.12);
+  --shape-strength-boost: 1; /* dark mode reads at 1x — white-on-navy at 3-8% is visible */
 
   /* ─── Product Colors ─── */
   --color-pulse: #EF4444;
@@ -213,6 +214,7 @@ html.light {
   --shape-tint-line: rgba(15, 23, 42, 0.08);
   --shape-glow: rgba(15, 23, 42, 0.05);
   --shape-glow-inner: rgba(15, 23, 42, 0.08);
+  --shape-strength-boost: 2.5; /* light mode needs ~2.5x boost so navy tints stay visible on white */
 
   color-scheme: light;
 }

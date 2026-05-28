@@ -6,12 +6,17 @@ import { motion } from "framer-motion";
  * Decorative floating shape used in hero/section backgrounds.
  *
  * Theme-aware: the gradient stops and inner glow read from CSS variables
- * defined in `tokens.css` (`--shape-tint-from`, `--shape-tint-glow`) so the
- * shapes stay visible in both dark and light mode.
+ * defined in `tokens.css` (`--shape-tint`, `--shape-glow`, `--shape-glow-inner`)
+ * so the shapes stay visible in both dark and light mode.
  *
  * The `gradient` prop is retained for backward-compatibility — it's used to
  * extract a strength hint (`from-white/[0.0X]` → opacity X) so heavier or
  * lighter callers still differentiate. The colour itself is always token-driven.
+ *
+ * Strength tuning:
+ * - Dark mode: white tints at 3-8% read well against navy.
+ * - Light mode: navy tints at the same opacity disappear on pure white, so the
+ *   component applies a 2x boost via `var(--shape-strength-boost)` (1 dark / 2 light).
  */
 function strengthFromLegacy(g: string | undefined): number {
   if (!g) return 0.03;
@@ -72,7 +77,7 @@ export function ElegantShape({
       >
         <div
           style={{
-            background: `linear-gradient(to right, color-mix(in srgb, var(--shape-tint) ${strength * 100}%, transparent), transparent)`,
+            background: `linear-gradient(to right, color-mix(in srgb, var(--shape-tint) calc(${strength * 100}% * var(--shape-strength-boost, 1)), transparent), transparent)`,
           }}
           className="absolute inset-0 rounded-full backdrop-blur-[2px] border border-[var(--border-default)] shadow-[0_8px_32px_0_var(--shape-glow)] after:absolute after:inset-0 after:rounded-full after:bg-[radial-gradient(circle_at_50%_50%,var(--shape-glow-inner),transparent_70%)]"
         />

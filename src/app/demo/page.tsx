@@ -26,7 +26,7 @@ export default async function DemoPage() {
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto text-center">
-          <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase text-[var(--text-muted)] mb-4">{copy.badge}</span>
+          <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase text-[var(--electric-blue)] mb-4">{copy.badge}</span>
           <h1 className="hero-h1 text-[var(--text-primary)] mb-6">
             {copy.title}
           </h1>
