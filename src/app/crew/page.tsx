@@ -24,9 +24,12 @@ const featurePillars = [
 ];
 
 const moduleAccents = [
-  "from-[#1C47FF] to-[#3B82F6]",
-  "from-[#0EA5E9] to-[#0284C7]",
-  "from-[#22C55E] to-[#16A34A]",
+  "from-[#1C47FF] to-[#3B82F6]", // 01 Crew Lite — electric blue
+  "from-[#0EA5E9] to-[#0284C7]", // 02 Crew Scheduling — sky
+  "from-[#22C55E] to-[#16A34A]", // 03 Crew Operations — green
+  "from-[#A855F7] to-[#7C3AED]", // 04 Crew T&A — purple
+  "from-[#F59E0B] to-[#D97706]", // 05 Crew Payroll — amber
+  "from-[#EC4899] to-[#BE185D]", // 06 Crew People Intelligence — pink
 ] as const;
 
 /* ─── i18n copy ─── */
