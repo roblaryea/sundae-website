@@ -108,11 +108,11 @@ export default function HomeContent() {
               transition={{ duration: 1, delay: 0.7, ease: [0.25, 0.4, 0.25, 1] }}
             >
               <h1 className="hero-h1 mb-6 max-w-4xl mx-auto">
-                <span className="bg-clip-text text-transparent bg-gradient-to-b from-white to-white/80">
+                <span className="bg-clip-text text-transparent bg-gradient-to-b from-[var(--text-primary)] to-[var(--text-primary)]/80">
                   {home.titleTop}
                 </span>
                 <br />
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#60A5FA] via-white to-[#93C5FD]">
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#60A5FA] via-[var(--text-primary)] to-[#93C5FD]">
                   {home.titleBottom}
                 </span>
               </h1>

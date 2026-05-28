@@ -11,6 +11,7 @@ import { useCta } from '@/lib/cta';
 import { PRICING_URL } from '@/lib/links';
 import { REPORT_APP_URL, SIGNUP_URL } from '@/lib/urls';
 import { ThemeToggle } from './ui/ThemeToggle';
+import { useTheme } from './ui/ThemeProvider';
 import { useWebsiteI18n } from './i18n/LocaleProvider';
 import { LocaleSwitcher } from './i18n/LocaleSwitcher';
 import { localizeWebsiteHref } from '@/lib/i18n';
@@ -109,6 +110,8 @@ const Navbar = () => {
   const { locale, messages } = useWebsiteI18n();
   const nav = messages.navbar;
   const cta = useCta();
+  const { theme } = useTheme();
+  const logoSrc = theme === 'light' ? '/logos/sundae-wordmark.svg' : '/logos/sundae-wordmark-white.svg';
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
@@ -214,7 +217,7 @@ const Navbar = () => {
           <Link href={localizeHref('/')} className="flex items-center group">
             <div className="relative">
               <Image
-                src="/logos/sundae-wordmark-white.svg"
+                src={logoSrc}
                 alt="Sundae – Decision Intelligence for Restaurants"
                 width={160}
                 height={46}
@@ -226,10 +229,13 @@ const Navbar = () => {
                 onMouseLeave={() => setIsLogoHovered(false)}
                 priority
               />
-              {/* Subtle shimmer effect on hover */}
-              <div className={`absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent transition-all duration-600 ease-out ${
-                isLogoHovered ? 'translate-x-full opacity-15' : '-translate-x-full opacity-0'
-              }`}></div>
+              {/* Subtle shimmer effect on hover — theme-aware via --shape-tint */}
+              <div
+                style={{ background: 'linear-gradient(to right, transparent, color-mix(in srgb, var(--shape-tint) 20%, transparent), transparent)' }}
+                className={`absolute inset-0 transition-all duration-600 ease-out ${
+                  isLogoHovered ? 'translate-x-full opacity-15' : '-translate-x-full opacity-0'
+                }`}
+              ></div>
             </div>
           </Link>
 
@@ -538,7 +544,7 @@ const Navbar = () => {
           {/* Drawer Header with Close Button */}
           <div className="flex items-center justify-between px-4 py-4 border-b border-[var(--border-default)] flex-shrink-0">
             <Image
-              src="/logos/sundae-wordmark-white.svg"
+              src={logoSrc}
               alt="Sundae"
               width={130}
               height={38}

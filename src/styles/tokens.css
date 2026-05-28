@@ -79,6 +79,12 @@
   --coral: #FF6D5A;
   --aqua: #3CC8E2;
 
+  /* ─── Decorative Shape Tokens (ElegantShape, hero overlays) ─── */
+  --shape-tint: #FFFFFF;
+  --shape-tint-line: rgba(255, 255, 255, 0.15);
+  --shape-glow: rgba(255, 255, 255, 0.06);
+  --shape-glow-inner: rgba(255, 255, 255, 0.12);
+
   /* ─── Product Colors ─── */
   --color-pulse: #EF4444;
   --color-benchmarks: #3B82F6;
@@ -201,6 +207,12 @@ html.light {
 
   /* ─── Electric blue stays the same ─── */
   --electric-blue: #1C47FF;
+
+  /* ─── Decorative Shape Tokens (light mode — dark tints on white) ─── */
+  --shape-tint: #0F172A;
+  --shape-tint-line: rgba(15, 23, 42, 0.08);
+  --shape-glow: rgba(15, 23, 42, 0.05);
+  --shape-glow-inner: rgba(15, 23, 42, 0.08);
 
   color-scheme: light;
 }

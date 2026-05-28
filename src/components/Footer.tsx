@@ -9,6 +9,7 @@ import { PRICING_URL } from '@/lib/links';
 import { SIGNUP_URL } from '@/lib/urls';
 import { useWebsiteI18n } from './i18n/LocaleProvider';
 import { LocaleSwitcher } from './i18n/LocaleSwitcher';
+import { useTheme } from './ui/ThemeProvider';
 
 /**
  * Pages that ship their own bespoke closing CTA — Footer pre-CTA is suppressed
@@ -42,6 +43,8 @@ const Footer = () => {
   const footer = messages.footer;
   const nav = messages.navbar;
   const cta = useCta();
+  const { theme } = useTheme();
+  const logoSrc = theme === 'light' ? '/logos/sundae-wordmark.svg' : '/logos/sundae-wordmark-white.svg';
   const currentYear = new Date().getFullYear();
   const localizeHref = (href: string) => localizeWebsiteHref(href, locale);
   const pathname = usePathname() ?? '/';
@@ -109,7 +112,7 @@ const Footer = () => {
           <div className="col-span-1 sm:col-span-2 md:col-span-4 lg:col-span-2">
             <Link href={localizeHref('/')} className="inline-block mb-4" aria-label="Sundae - Return to homepage">
               <Image
-                src="/logos/sundae-wordmark-white.svg"
+                src={logoSrc}
                 alt="Sundae"
                 width={110}
                 height={26}

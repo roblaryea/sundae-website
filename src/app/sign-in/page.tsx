@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FormField } from '@/components/auth/FormField';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
+import { useTheme } from '@/components/ui/ThemeProvider';
 import type { RequiredEnglishLocalizedRecord } from '@/lib/i18n';
 import { APP_URL, SIGNIN_URL, SIGNUP_URL } from '@/lib/urls';
 
@@ -60,6 +61,8 @@ export default function SignInPage() {
  const { messages, locale } = useWebsiteI18n();
  const copy = messages.pages.signIn;
  const shellCopy = localizedShellCopy[locale as keyof typeof localizedShellCopy] ?? localizedShellCopy.en;
+ const { theme } = useTheme();
+ const logoSrc = theme === 'light' ? '/logos/sundae-wordmark.svg' : '/logos/sundae-wordmark-white.svg';
  const [email, setEmail] = useState('');
  const [password, setPassword] = useState('');
  const [remember, setRemember] = useState(false);
@@ -136,7 +139,7 @@ async function handleSubmit(e: FormEvent) {
  className="absolute inset-0 opacity-[0.07]"
  style={{
  backgroundImage:
- 'linear-gradient(rgba(255,255,255,.15) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.15) 1px, transparent 1px)',
+ 'linear-gradient(var(--shape-tint-line) 1px, transparent 1px), linear-gradient(90deg, var(--shape-tint-line) 1px, transparent 1px)',
  backgroundSize: '40px 40px',
  }}
  />
@@ -148,7 +151,7 @@ async function handleSubmit(e: FormEvent) {
  <div>
  <Link href="/" aria-label={shellCopy.homeLabel}>
  <Image
- src="/logos/sundae-wordmark-white.svg"
+ src={logoSrc}
  alt="Sundae"
  width={140}
  height={40}
@@ -163,7 +166,7 @@ async function handleSubmit(e: FormEvent) {
  <h2 className="text-3xl xl:text-4xl font-bold text-[var(--text-primary)] leading-tight mb-4">
  {copy.brandTitle}
  </h2>
- <p className="text-blue-200/90 text-base leading-relaxed mb-8 max-w-sm">
+ <p className="text-[var(--text-secondary)] text-base leading-relaxed mb-8 max-w-sm">
  {copy.brandDescription}
  </p>
 
@@ -187,7 +190,7 @@ async function handleSubmit(e: FormEvent) {
  <div className="w-8 h-8 rounded-lg bg-[var(--navy-deep)]/10 flex items-center justify-center flex-shrink-0">
  <point.icon />
  </div>
- <span className="text-sm text-blue-100/90">{point.label}</span>
+ <span className="text-sm text-[var(--text-secondary)]">{point.label}</span>
  </div>
  ))}
  </div>
@@ -202,7 +205,7 @@ async function handleSubmit(e: FormEvent) {
  <div className="lg:hidden flex items-center justify-between px-6 pt-6">
  <Link href="/" aria-label={shellCopy.homeLabel}>
  <Image
- src="/logos/sundae-wordmark-white.svg"
+ src={logoSrc}
  alt="Sundae"
  width={120}
  height={34}
