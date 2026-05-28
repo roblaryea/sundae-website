@@ -1,5 +1,7 @@
 import type { SundaeIconName } from '@/components/icons';
 import type { RequiredEnglishLocalizedRecord, WebsiteLocale } from '@/lib/i18n';
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/content_faqContent'
 
 export type FaqItem = {
   title: string;
@@ -1339,7 +1341,7 @@ export function getLocalizedFaqSections(
   locale: WebsiteLocale,
   categoryTitles: readonly string[],
 ): LocalizedFaqSection[] {
-  const sections = localizedFaqSections[locale as keyof typeof localizedFaqSections] ?? localizedFaqSections.en;
+  const sections = localizedFaqSections[locale as keyof typeof localizedFaqSections] ?? getGeneratedLocalCopy(localizedFaqSections, generatedLocalCopy.localizedFaqSections, locale) ?? localizedFaqSections.en;
 
   return sections.map((section, index) => ({
     ...section,

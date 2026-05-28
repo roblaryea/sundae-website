@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { cookies } from "next/headers";
 import { resolveWebsiteLocale } from "@/lib/i18n";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_solutions_multi_location_groups_layout'
 
 const copy = {
   en: {
@@ -27,7 +29,7 @@ const copy = {
 
 export async function generateMetadata(): Promise<Metadata> {
   const locale = resolveWebsiteLocale(await cookies());
-  return copy[locale as keyof typeof copy] ?? copy.en;
+  return copy[locale as keyof typeof copy] ?? getGeneratedLocalCopy(copy, generatedLocalCopy.copy, locale) ?? copy.en;
 }
 
 export default function MultiLocationLayout({ children }: { children: React.ReactNode }) {

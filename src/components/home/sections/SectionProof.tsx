@@ -1,6 +1,8 @@
 "use client";
 
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/components_home_sections_SectionProof'
 
 type LocalizedProof = {
   eyebrow: string;
@@ -111,7 +113,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
 
 export function SectionProof() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
 
   return (
     <section aria-labelledby="proof-headline" className="relative">

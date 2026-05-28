@@ -7,6 +7,8 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { SundaeIcon } from "@/components/icons";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { type RequiredEnglishLocalizedRecord } from '@/lib/i18n';
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_tools_breakeven_covers_page'
 
 type BreakEvenCopy = {
   back: string;
@@ -186,7 +188,7 @@ const localizedCopy: RequiredEnglishLocalizedRecord<BreakEvenCopy> = {
 
 export default function BreakEvenCalculator() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
   const [fixedCosts, setFixedCosts] = useState("");
   const [variableCost, setVariableCost] = useState("");
   const [avgPrice, setAvgPrice] = useState("");

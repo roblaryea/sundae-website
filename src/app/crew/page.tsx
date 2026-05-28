@@ -9,6 +9,8 @@ import { ElegantShape } from "@/components/ui/ElegantShape";
 import { CrewDashboardMockup } from "@/components/ui/MockupFrame";
 import { REPORT_APP_URL } from "@/lib/urls";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_crew_page'
 
 /* ─── Structural data (icons / accents stay constant across locales) ─── */
 
@@ -494,7 +496,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
 export default function CrewPage() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
 
   return (
     <MotionConfig reducedMotion="user">

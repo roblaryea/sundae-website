@@ -7,6 +7,8 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { SundaeIcon } from "@/components/icons";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { type RequiredEnglishLocalizedRecord } from '@/lib/i18n';
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_tools_multi_location_uplift_page'
 
 type UpliftCopy = {
   back: string;
@@ -179,7 +181,7 @@ const localizedCopy: RequiredEnglishLocalizedRecord<UpliftCopy> = {
 
 export default function MultiLocationUpliftPage() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
   const [locations, setLocations] = useState("");
   const [avgRevenue, setAvgRevenue] = useState("");
   const [targetImprovement, setTargetImprovement] = useState("");

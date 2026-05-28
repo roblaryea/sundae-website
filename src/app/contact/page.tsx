@@ -7,6 +7,8 @@ import { SundaeIcon } from "@/components/icons";
 import { PRICING_URL } from "@/lib/links";
 import { PageHero, PageCTA, FadeUp } from "@/components/ui/PageAnimations";
 import { resolveWebsiteLocale, type WebsiteLocale } from "@/lib/i18n";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_contact_page'
 
 const contactCopy = {
   en: {
@@ -104,7 +106,7 @@ const contactCopy = {
 } as const;
 
 function getContactCopy(locale: WebsiteLocale) {
-  return contactCopy[locale as keyof typeof contactCopy] ?? contactCopy.en;
+  return contactCopy[locale as keyof typeof contactCopy] ?? getGeneratedLocalCopy(contactCopy, generatedLocalCopy.contactCopy, locale) ?? contactCopy.en;
 }
 
 export async function generateMetadata(): Promise<Metadata> {

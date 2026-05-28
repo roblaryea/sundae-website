@@ -5,10 +5,35 @@ const root = process.cwd()
 const i18nPath = path.join(root, 'src/lib/i18n.ts')
 const source = fs.readFileSync(i18nPath, 'utf8')
 
-const requiredLocales = ['en', 'ar', 'fr', 'es', 'de', 'nl', 'pt', 'hi', 'ur']
+const requiredLocales = [
+  'en',
+  'ar',
+  'fr',
+  'es',
+  'de',
+  'nl',
+  'pt',
+  'hi',
+  'ur',
+  'it',
+  'pl',
+  'tr',
+  'zh-Hans',
+  'ja',
+  'ko',
+  'id',
+  'vi',
+  'ro',
+  'sv',
+  'bn',
+  'th',
+  'ms',
+]
 const profileMatch = source.match(/export const websiteLocaleProfiles = \{([\s\S]*?)\n\} as const/)
 const profileBody = profileMatch?.[1] ?? ''
-const profileLocales = [...profileBody.matchAll(/\n\s{2}([a-z]{2}):\s*\{/g)].map((match) => match[1])
+const profileLocales = [...profileBody.matchAll(/\n\s{2}(?:'([^']+)'|([A-Za-z-]+)):\s*\{/g)].map(
+  (match) => match[1] ?? match[2],
+)
 const missingLocales = requiredLocales.filter((locale) => !profileLocales.includes(locale))
 
 const failures = []
@@ -23,8 +48,9 @@ for (const locale of ['ar', 'ur']) {
   }
 }
 
-for (const locale of ['de', 'nl', 'pt', 'hi', 'ur']) {
-  const overridePattern = new RegExp(`\\n\\s{2}${locale}: \\{[\\s\\S]*?metadata:`)
+for (const locale of requiredLocales.filter((item) => !['en', 'ar', 'fr', 'es'].includes(item))) {
+  const escapedLocale = locale.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+  const overridePattern = new RegExp(`\\n\\s{2}(?:${escapedLocale}|'${escapedLocale}'): \\{[\\s\\S]*?metadata:`)
   if (!overridePattern.test(source)) {
     failures.push(`Missing expanded message override for ${locale}`)
   }

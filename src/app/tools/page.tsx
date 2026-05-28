@@ -7,6 +7,8 @@ import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { PageHero, PageCTA, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { type RequiredEnglishLocalizedRecord } from '@/lib/i18n';
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_tools_page'
 
 type ToolCard = {
   title: string;
@@ -163,7 +165,7 @@ const localizedCopy: RequiredEnglishLocalizedRecord<ToolsPageCopy> = {
 
 export default function ToolsPage() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">

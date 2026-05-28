@@ -13,6 +13,8 @@ import {
 } from "@/components/ui/MockupFrame";
 import { SundaeWordmark } from "./SundaeWordmark";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/components_home_sections_SectionPersonaSwitcher'
 
 /**
  * Section 2 — Persona Switcher (homepage-spec-v1.1).
@@ -134,7 +136,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedPersonaSwitcher>
 export function SectionPersonaSwitcher() {
   const reduceMotion = useReducedMotion();
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
   const [activeIdx, setActiveIdx] = useState<number>(0);
   const active = copy.personas[activeIdx];
   const activeStructure = personaStructure[activeIdx];

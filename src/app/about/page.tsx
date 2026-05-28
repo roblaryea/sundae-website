@@ -6,6 +6,8 @@ import { Card, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { resolveWebsiteLocale, type WebsiteLocale } from "@/lib/i18n";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_about_page'
 
 const aboutCopy = {
   en: {
@@ -263,7 +265,7 @@ const aboutCopy = {
 } as const;
 
 function getAboutCopy(locale: WebsiteLocale) {
-  return aboutCopy[locale as keyof typeof aboutCopy] ?? aboutCopy.en;
+  return aboutCopy[locale as keyof typeof aboutCopy] ?? getGeneratedLocalCopy(aboutCopy, generatedLocalCopy.aboutCopy, locale) ?? aboutCopy.en;
 }
 
 export async function generateMetadata(): Promise<Metadata> {

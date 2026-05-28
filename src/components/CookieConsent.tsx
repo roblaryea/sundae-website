@@ -4,6 +4,8 @@ import { useCallback, useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import type { RequiredEnglishLocalizedRecord } from '@/lib/i18n';
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/components_CookieConsent'
 
 const CONSENT_KEY = "sundae_cookie_consent";
 
@@ -80,7 +82,7 @@ function dispatchConsentEvent(status: ConsentStatus) {
 export function CookieConsent() {
   const { locale } = useWebsiteI18n();
   const pathname = usePathname();
-  const copy = cookieConsentCopy[locale as keyof typeof cookieConsentCopy] ?? cookieConsentCopy.en;
+  const copy = cookieConsentCopy[locale as keyof typeof cookieConsentCopy] ?? getGeneratedLocalCopy(cookieConsentCopy, generatedLocalCopy.cookieConsentCopy, locale) ?? cookieConsentCopy.en;
   const [visible, setVisible] = useState(() => {
     if (typeof window === "undefined") return false;
     return getConsentStatus() === null;

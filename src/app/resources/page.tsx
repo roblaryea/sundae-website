@@ -3,6 +3,8 @@ import { Button } from "@/components/ui/Button";
 import { Card, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_resources_page'
 
 type CaseStudy = {
   segment: string;
@@ -83,8 +85,8 @@ const localizedResourcesUi = {
 export default function ResourcesPage() {
   const { locale, messages } = useWebsiteI18n();
   const copy = messages.pages.resources;
-  const caseStudies = localizedCaseStudies[locale as keyof typeof localizedCaseStudies] ?? localizedCaseStudies.en;
-  const ui = localizedResourcesUi[locale as keyof typeof localizedResourcesUi] ?? localizedResourcesUi.en;
+  const caseStudies = localizedCaseStudies[locale as keyof typeof localizedCaseStudies] ?? getGeneratedLocalCopy(localizedCaseStudies, generatedLocalCopy.localizedCaseStudies, locale) ?? localizedCaseStudies.en;
+  const ui = localizedResourcesUi[locale as keyof typeof localizedResourcesUi] ?? getGeneratedLocalCopy(localizedResourcesUi, generatedLocalCopy.localizedResourcesUi, locale) ?? localizedResourcesUi.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">

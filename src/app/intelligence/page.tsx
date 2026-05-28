@@ -8,6 +8,8 @@ import { SIGNUP_URL } from "@/lib/urls";
 import { IntelligenceChatMockup } from "@/components/ui/MockupFrame";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_intelligence_page'
 
 const localizedChatCopy = {
   en: {
@@ -319,7 +321,7 @@ const localizedChatCopy = {
 export default function ChatWithDataPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const ui = localizedChatCopy[locale as keyof typeof localizedChatCopy] ?? localizedChatCopy.en;
+  const ui = localizedChatCopy[locale as keyof typeof localizedChatCopy] ?? getGeneratedLocalCopy(localizedChatCopy, generatedLocalCopy.localizedChatCopy, locale) ?? localizedChatCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">

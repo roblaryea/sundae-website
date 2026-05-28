@@ -6,6 +6,8 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/com
 import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from '@/components/ui/PageAnimations';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_product_forge_page'
 
 type ForgeCopy = {
   heroBadge: string;
@@ -205,7 +207,7 @@ const localizedForgeCopy: Record<'en' | 'ar' | 'fr' | 'es', ForgeCopy> = {
 
 export default function ForgePage() {
   const { locale } = useWebsiteI18n();
-  const ui = localizedForgeCopy[locale as keyof typeof localizedForgeCopy] ?? localizedForgeCopy.en;
+  const ui = localizedForgeCopy[locale as keyof typeof localizedForgeCopy] ?? getGeneratedLocalCopy(localizedForgeCopy, generatedLocalCopy.localizedForgeCopy, locale) ?? localizedForgeCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">

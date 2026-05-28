@@ -8,6 +8,9 @@ import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/comp
 import { useCta } from "@/lib/cta";
 import { PRICING_URL } from "@/lib/urls";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_product_watchtower_page'
+import { generatedUiLabels } from "@/lib/generatedUiLabels";
 
 const localizedWatchtowerCopy = {
   en: {
@@ -481,7 +484,8 @@ const localizedWatchtowerCopy = {
 export default function WatchtowerPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const ui = localizedWatchtowerCopy[locale as keyof typeof localizedWatchtowerCopy] ?? localizedWatchtowerCopy.en;
+  const ui = localizedWatchtowerCopy[locale as keyof typeof localizedWatchtowerCopy] ?? getGeneratedLocalCopy(localizedWatchtowerCopy, generatedLocalCopy.localizedWatchtowerCopy, locale) ?? localizedWatchtowerCopy.en;
+  const labels = generatedUiLabels[locale as keyof typeof generatedUiLabels] ?? generatedUiLabels.en;
   const pricingCards = [...(ui.pricingCards as readonly { name: string; price: string; perLoc: string; highlight?: boolean }[])];
 
   return (
@@ -574,7 +578,7 @@ export default function WatchtowerPage() {
                     <CardDescription className="text-[var(--text-supporting)] text-lg mb-6">{block.description}</CardDescription>
                   </CardHeader>
                   <CardContent>
-                    <h4 className="font-semibold text-[var(--text-primary)] mb-3">Key capabilities:</h4>
+                    <h4 className="font-semibold text-[var(--text-primary)] mb-3">{labels.keyCapabilities}</h4>
                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-2">
                       {block.capabilities.map((cap, idx) => (
                         <li key={idx} className="flex items-start space-x-2">
@@ -604,7 +608,7 @@ export default function WatchtowerPage() {
                 <h3 className={`font-semibold mb-2 ${item.highlight ? "text-white" : "text-[var(--text-primary)]"}`}>{item.name}</h3>
                 <p className={`text-3xl font-bold mb-1 ${item.highlight ? "text-white" : "text-[var(--text-primary)]"}`}>{item.price}</p>
                 <p className={`text-sm ${item.highlight ? "text-red-100" : "text-[var(--text-muted)]"}`}>/month {item.perLoc}</p>
-                {item.highlight && <p className="text-xs text-red-200 mt-2">Save ~18% vs. individual</p>}
+                {item.highlight && <p className="text-xs text-red-200 mt-2">{labels.save18}</p>}
               </StaggerItem>
             ))}
           </StaggerContainer>
@@ -637,7 +641,7 @@ export default function WatchtowerPage() {
               <SundaeIcon name="cost" size="lg" className="text-white" />
             </div>
             <h3 className="font-semibold text-[var(--text-primary)] mb-2 text-center">{ui.ctaAdd}</h3>
-            <p className="text-sm text-[var(--text-supporting)] mb-4 text-center">See Watchtower pricing for your operation</p>
+            <p className="text-sm text-[var(--text-supporting)] mb-4 text-center">{labels.seeWatchtowerPricing}</p>
             <Button variant="primary" size="md" className="w-full" href={PRICING_URL}>
               {ui.heroPrimary} →
             </Button>
@@ -647,7 +651,7 @@ export default function WatchtowerPage() {
               <SundaeIcon name="visibility" size="lg" className="text-white" />
             </div>
             <h3 className="font-semibold text-[var(--text-primary)] mb-2 text-center">{ui.ctaDemo}</h3>
-            <p className="text-sm text-[var(--text-supporting)] mb-4 text-center">Watch Watchtower demo</p>
+            <p className="text-sm text-[var(--text-supporting)] mb-4 text-center">{labels.watchWatchtowerDemo}</p>
             <Button
               variant="outline"
               size="md"
@@ -662,7 +666,7 @@ export default function WatchtowerPage() {
               <SundaeIcon name="conversation" size="lg" className="text-white" />
             </div>
             <h3 className="font-semibold text-[var(--text-primary)] mb-2 text-center">{ui.ctaSales}</h3>
-            <p className="text-sm text-[var(--text-supporting)] mb-4 text-center">Custom Watchtower configuration</p>
+            <p className="text-sm text-[var(--text-supporting)] mb-4 text-center">{labels.customWatchtowerConfiguration}</p>
             <Button
               variant="outline"
               size="md"

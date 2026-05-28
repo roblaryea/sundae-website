@@ -13,6 +13,8 @@ import {
 } from "framer-motion";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { useTheme } from "@/components/ui/ThemeProvider";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/components_home_sections_SectionSpeedQualityCost'
 
 /* ─── i18n copy ─── */
 
@@ -145,7 +147,7 @@ export function SectionSpeedQualityCost() {
   const reduceMotion = useReducedMotion();
   const { locale } = useWebsiteI18n();
   const { theme } = useTheme();
-  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
 
   // Theme-aware SVG fills: white pops on dark, navy on light.
   const isLight = theme === "light";

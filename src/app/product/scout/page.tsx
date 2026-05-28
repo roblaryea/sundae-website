@@ -6,6 +6,8 @@ import { Button } from '@/components/ui/Button';
 import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from '@/components/ui/PageAnimations';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_product_scout_page'
 
 const localizedScoutCopy = {
   en: {
@@ -148,7 +150,7 @@ const localizedScoutCopy = {
 
 export default function ScoutPage() {
   const { locale } = useWebsiteI18n();
-  const ui = localizedScoutCopy[locale as keyof typeof localizedScoutCopy] ?? localizedScoutCopy.en;
+  const ui = localizedScoutCopy[locale as keyof typeof localizedScoutCopy] ?? getGeneratedLocalCopy(localizedScoutCopy, generatedLocalCopy.localizedScoutCopy, locale) ?? localizedScoutCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">

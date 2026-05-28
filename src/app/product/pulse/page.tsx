@@ -14,6 +14,8 @@ import {
   MockupTable,
   MockupAlert,
 } from "@/components/ui/MockupFrame";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_product_pulse_page'
 
 const localizedPulseCopy = {
   en: {
@@ -1201,7 +1203,7 @@ function ShiftCostMockup() {
 
 function LocalizedPulseDashboardMockup() {
   const { locale } = useWebsiteI18n();
-  const ui = localizedPulseCopy[locale as keyof typeof localizedPulseCopy] ?? localizedPulseCopy.en;
+  const ui = localizedPulseCopy[locale as keyof typeof localizedPulseCopy] ?? getGeneratedLocalCopy(localizedPulseCopy, generatedLocalCopy.localizedPulseCopy, locale) ?? localizedPulseCopy.en;
   const mockup = ui.heroMockup;
 
   return (
@@ -1237,7 +1239,7 @@ function LocalizedPulseDashboardMockup() {
 export default function PulsePage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const ui = localizedPulseCopy[locale as keyof typeof localizedPulseCopy] ?? localizedPulseCopy.en;
+  const ui = localizedPulseCopy[locale as keyof typeof localizedPulseCopy] ?? getGeneratedLocalCopy(localizedPulseCopy, generatedLocalCopy.localizedPulseCopy, locale) ?? localizedPulseCopy.en;
   const featureMockups = [
     AdaptiveTargetsMockup,
     SalesPacingMockup,

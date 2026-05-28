@@ -3,6 +3,8 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/components_home_sections_Section4DScene'
 
 /**
  * Section 6 — 4D Intelligence Model (homepage-spec-v1.1, polish r4 refactor).
@@ -188,7 +190,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedFourD> = {
 export function Section4DScene() {
   const reduceMotion = useReducedMotion();
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
   const dimensions = copy.dimensions;
   const [activeIdx, setActiveIdx] = useState(0);
   const [paused, setPaused] = useState(false);

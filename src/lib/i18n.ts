@@ -1,3 +1,5 @@
+import { generatedWebsiteMessageOverrides } from './generatedWebsiteMessageOverrides'
+
 export const websiteLocaleProfiles = {
   en: { name: 'English', nativeName: 'English', dir: 'ltr', intlLocale: 'en-US', currency: 'USD' },
   ar: { name: 'Arabic', nativeName: 'العربية', dir: 'rtl', intlLocale: 'ar-AE', currency: 'AED' },
@@ -8,6 +10,19 @@ export const websiteLocaleProfiles = {
   pt: { name: 'Portuguese', nativeName: 'Português', dir: 'ltr', intlLocale: 'pt-BR', currency: 'BRL' },
   hi: { name: 'Hindi', nativeName: 'हिन्दी', dir: 'ltr', intlLocale: 'hi-IN', currency: 'INR' },
   ur: { name: 'Urdu', nativeName: 'اردو', dir: 'rtl', intlLocale: 'ur-PK', currency: 'PKR' },
+  it: { name: 'Italian', nativeName: 'Italiano', dir: 'ltr', intlLocale: 'it-IT', currency: 'EUR' },
+  pl: { name: 'Polish', nativeName: 'Polski', dir: 'ltr', intlLocale: 'pl-PL', currency: 'PLN' },
+  tr: { name: 'Turkish', nativeName: 'Türkçe', dir: 'ltr', intlLocale: 'tr-TR', currency: 'TRY' },
+  'zh-Hans': { name: 'Chinese (Simplified)', nativeName: '简体中文', dir: 'ltr', intlLocale: 'zh-Hans-CN', currency: 'CNY' },
+  ja: { name: 'Japanese', nativeName: '日本語', dir: 'ltr', intlLocale: 'ja-JP', currency: 'JPY' },
+  ko: { name: 'Korean', nativeName: '한국어', dir: 'ltr', intlLocale: 'ko-KR', currency: 'KRW' },
+  id: { name: 'Indonesian', nativeName: 'Bahasa Indonesia', dir: 'ltr', intlLocale: 'id-ID', currency: 'IDR' },
+  vi: { name: 'Vietnamese', nativeName: 'Tiếng Việt', dir: 'ltr', intlLocale: 'vi-VN', currency: 'VND' },
+  ro: { name: 'Romanian', nativeName: 'Română', dir: 'ltr', intlLocale: 'ro-RO', currency: 'RON' },
+  sv: { name: 'Swedish', nativeName: 'Svenska', dir: 'ltr', intlLocale: 'sv-SE', currency: 'SEK' },
+  bn: { name: 'Bengali', nativeName: 'বাংলা', dir: 'ltr', intlLocale: 'bn-BD', currency: 'BDT' },
+  th: { name: 'Thai', nativeName: 'ไทย', dir: 'ltr', intlLocale: 'th-TH', currency: 'THB' },
+  ms: { name: 'Malay', nativeName: 'Bahasa Melayu', dir: 'ltr', intlLocale: 'ms-MY', currency: 'MYR' },
 } as const
 
 export type WebsiteLocale = keyof typeof websiteLocaleProfiles
@@ -81,17 +96,36 @@ export const websiteIntlLocales = Object.fromEntries(
   websiteLocales.map((locale) => [locale, websiteLocaleProfiles[locale].intlLocale]),
 ) as Record<WebsiteLocale, string>
 
+const websiteLocaleLookup = new Map<string, WebsiteLocale>(
+  websiteLocales.flatMap((locale) => {
+    const lower = locale.toLowerCase()
+    const intl = websiteLocaleProfiles[locale].intlLocale.toLowerCase()
+    return [
+      [lower, locale],
+      [intl, locale],
+    ]
+  }),
+)
+
+websiteLocaleLookup.set('zh', 'zh-Hans')
+websiteLocaleLookup.set('zh-cn', 'zh-Hans')
+websiteLocaleLookup.set('zh-sg', 'zh-Hans')
+websiteLocaleLookup.set('zh-hans-cn', 'zh-Hans')
+websiteLocaleLookup.set('in', 'id')
+
+function matchWebsiteLocaleSegment(segment?: string | null): WebsiteLocale | null {
+  if (!segment) return null
+  return websiteLocaleLookup.get(segment.trim().replace('_', '-').toLowerCase()) ?? null
+}
+
 export function normalizeWebsiteLocale(locale?: string | null): WebsiteLocale {
   if (!locale) return defaultWebsiteLocale
-  const normalized = locale.trim().toLowerCase()
-  if ((websiteLocales as readonly string[]).includes(normalized)) {
-    return normalized as WebsiteLocale
-  }
+  const normalized = locale.trim().replace('_', '-').toLowerCase()
+  const directMatch = websiteLocaleLookup.get(normalized)
+  if (directMatch) return directMatch
+
   const prefix = normalized.split('-')[0]
-  if ((websiteLocales as readonly string[]).includes(prefix)) {
-    return prefix as WebsiteLocale
-  }
-  return defaultWebsiteLocale
+  return websiteLocaleLookup.get(prefix) ?? defaultWebsiteLocale
 }
 
 export function getWebsiteCurrency(locale: WebsiteLocale): string {
@@ -145,12 +179,12 @@ export function parseWebsiteLocaleFromPathname(pathname?: string | null): {
   const normalizedPathname = normalizeWebsitePathname(pathname)
   const segments = normalizedPathname.split('/').filter(Boolean)
   const firstSegment = segments[0]
+  const segmentLocale = matchWebsiteLocaleSegment(firstSegment)
 
-  if ((websiteLocales as readonly string[]).includes(firstSegment)) {
-    const locale = firstSegment as WebsiteLocale
+  if (segmentLocale) {
     const pathnameWithoutLocale = `/${segments.slice(1).join('/')}` || '/'
     return {
-      locale,
+      locale: segmentLocale,
       pathname: normalizeWebsitePathname(pathnameWithoutLocale),
     }
   }
@@ -2291,10 +2325,545 @@ const expandedLocaleMessageOverrides = {
       copyrightSuffix: 'جملہ حقوق محفوظ ہیں۔',
     },
   },
+  it: {
+    metadata: {
+      title: 'Sundae - intelligence decisionale per ristoranti',
+      description:
+        'La piattaforma AI che trasforma i dati dei ristoranti in azione: unifica POS, personale, costi e operazioni per confrontare le prestazioni e ottenere insight immediati.',
+    },
+    layout: { skipToContent: 'Vai al contenuto principale', languageSelector: 'Lingua' },
+    navbar: {
+      products: 'Prodotti',
+      solutions: 'Soluzioni',
+      resources: 'Risorse',
+      company: 'Azienda',
+      intelligence: 'Intelligence',
+      plans: 'Piani',
+      bySegment: 'Per segmento',
+      byRole: 'Per ruolo',
+      learn: 'Impara',
+      pricing: 'Prezzi',
+      about: 'Chi siamo',
+      signIn: 'Accedi',
+      bookDemo: 'Prenota demo',
+      comparePlans: 'Confronta piani →',
+      startFree: 'Inizia gratis →',
+    },
+    footer: {
+      readyTitle: 'Pronto a vedere cosa ti stai perdendo?',
+      readyDescription: 'Unisciti agli operatori che sono passati dalle ipotesi alla chiarezza.',
+      bookDemo: 'Prenota demo',
+      startFree: 'Inizia gratis con Report',
+      global: 'Globale',
+      allCurrencies: 'Tutte le valute',
+      sectionProduct: 'Prodotto',
+      sectionSolutions: 'Soluzioni',
+      sectionResources: 'Risorse',
+      sectionCompany: 'Azienda',
+      pricing: 'Prezzi',
+      privacy: 'Privacy',
+      terms: 'Termini',
+      copyrightSuffix: 'Tutti i diritti riservati.',
+    },
+  },
+  pl: {
+    metadata: {
+      title: 'Sundae - inteligencja decyzyjna dla restauracji',
+      description:
+        'Platforma AI, która zamienia dane restauracyjne w działania: łączy POS, pracowników, koszty i operacje, aby porównywać wyniki i dostarczać natychmiastowe wnioski.',
+    },
+    layout: { skipToContent: 'Przejdź do treści głównej', languageSelector: 'Język' },
+    navbar: {
+      products: 'Produkty',
+      solutions: 'Rozwiązania',
+      resources: 'Zasoby',
+      company: 'Firma',
+      intelligence: 'Inteligencja',
+      plans: 'Plany',
+      bySegment: 'Według segmentu',
+      byRole: 'Według roli',
+      learn: 'Nauka',
+      pricing: 'Cennik',
+      about: 'O nas',
+      signIn: 'Zaloguj',
+      bookDemo: 'Umów demo',
+      comparePlans: 'Porównaj plany →',
+      startFree: 'Zacznij za darmo →',
+    },
+    footer: {
+      readyTitle: 'Gotowy zobaczyć, co Ci umyka?',
+      readyDescription: 'Dołącz do operatorów, którzy przeszli od zgadywania do jasnych decyzji.',
+      bookDemo: 'Umów demo',
+      startFree: 'Zacznij za darmo z Report',
+      global: 'Globalnie',
+      allCurrencies: 'Wszystkie waluty',
+      sectionProduct: 'Produkt',
+      sectionSolutions: 'Rozwiązania',
+      sectionResources: 'Zasoby',
+      sectionCompany: 'Firma',
+      pricing: 'Cennik',
+      privacy: 'Prywatność',
+      terms: 'Warunki',
+      copyrightSuffix: 'Wszelkie prawa zastrzeżone.',
+    },
+  },
+  tr: {
+    metadata: {
+      title: 'Sundae - restoranlar için karar zekası',
+      description:
+        'Restoran verilerini aksiyona dönüştüren AI platformu: POS, ekip, maliyet ve operasyon verilerini birleştirir, performansı kıyaslar ve anında içgörüler sunar.',
+    },
+    layout: { skipToContent: 'Ana içeriğe geç', languageSelector: 'Dil' },
+    navbar: {
+      products: 'Ürünler',
+      solutions: 'Çözümler',
+      resources: 'Kaynaklar',
+      company: 'Şirket',
+      intelligence: 'Zeka',
+      plans: 'Planlar',
+      bySegment: 'Segmente göre',
+      byRole: 'Role göre',
+      learn: 'Öğren',
+      pricing: 'Fiyatlandırma',
+      about: 'Hakkımızda',
+      signIn: 'Giriş yap',
+      bookDemo: 'Demo al',
+      comparePlans: 'Planları karşılaştır →',
+      startFree: 'Ücretsiz başla →',
+    },
+    footer: {
+      readyTitle: 'Neyi kaçırdığınızı görmeye hazır mısınız?',
+      readyDescription: 'Tahminden net karara geçen operatörlere katılın.',
+      bookDemo: 'Demo al',
+      startFree: 'Report ile ücretsiz başla',
+      global: 'Küresel',
+      allCurrencies: 'Tüm para birimleri',
+      sectionProduct: 'Ürün',
+      sectionSolutions: 'Çözümler',
+      sectionResources: 'Kaynaklar',
+      sectionCompany: 'Şirket',
+      pricing: 'Fiyatlandırma',
+      privacy: 'Gizlilik',
+      terms: 'Şartlar',
+      copyrightSuffix: 'Tüm hakları saklıdır.',
+    },
+  },
+  'zh-Hans': {
+    metadata: {
+      title: 'Sundae - 面向餐厅的决策智能',
+      description:
+        '将餐厅数据转化为行动的 AI 平台：统一 POS、人员、成本和运营数据，对比绩效并获得即时洞察。',
+    },
+    layout: { skipToContent: '跳到主要内容', languageSelector: '语言' },
+    navbar: {
+      products: '产品',
+      solutions: '解决方案',
+      resources: '资源',
+      company: '公司',
+      intelligence: '智能',
+      plans: '方案',
+      bySegment: '按细分',
+      byRole: '按角色',
+      learn: '学习',
+      pricing: '价格',
+      about: '关于我们',
+      signIn: '登录',
+      bookDemo: '预约演示',
+      comparePlans: '比较方案 →',
+      startFree: '免费开始 →',
+    },
+    footer: {
+      readyTitle: '准备好看看您错过了什么吗？',
+      readyDescription: '加入已经从猜测转向清晰决策的运营者。',
+      bookDemo: '预约演示',
+      startFree: '从 Report 免费开始',
+      global: '全球',
+      allCurrencies: '所有货币',
+      sectionProduct: '产品',
+      sectionSolutions: '解决方案',
+      sectionResources: '资源',
+      sectionCompany: '公司',
+      pricing: '价格',
+      privacy: '隐私',
+      terms: '条款',
+      copyrightSuffix: '保留所有权利。',
+    },
+  },
+  ja: {
+    metadata: {
+      title: 'Sundae - レストランのための意思決定インテリジェンス',
+      description:
+        'レストランデータを行動に変える AI プラットフォーム。POS、人員、コスト、運営データを統合し、成果を比較して即時のインサイトを提供します。',
+    },
+    layout: { skipToContent: 'メインコンテンツへ移動', languageSelector: '言語' },
+    navbar: {
+      products: '製品',
+      solutions: 'ソリューション',
+      resources: 'リソース',
+      company: '会社',
+      intelligence: 'インテリジェンス',
+      plans: 'プラン',
+      bySegment: 'セグメント別',
+      byRole: '役割別',
+      learn: '学ぶ',
+      pricing: '料金',
+      about: '会社情報',
+      signIn: 'サインイン',
+      bookDemo: 'デモを予約',
+      comparePlans: 'プランを比較 →',
+      startFree: '無料で開始 →',
+    },
+    footer: {
+      readyTitle: '見落としているものを確認しませんか？',
+      readyDescription: '勘に頼る運営から、確かな判断へ移行したオペレーターに加わりましょう。',
+      bookDemo: 'デモを予約',
+      startFree: 'Report で無料開始',
+      global: 'グローバル',
+      allCurrencies: 'すべての通貨',
+      sectionProduct: '製品',
+      sectionSolutions: 'ソリューション',
+      sectionResources: 'リソース',
+      sectionCompany: '会社',
+      pricing: '料金',
+      privacy: 'プライバシー',
+      terms: '利用規約',
+      copyrightSuffix: 'All rights reserved.',
+    },
+  },
+  ko: {
+    metadata: {
+      title: 'Sundae - 레스토랑을 위한 의사결정 인텔리전스',
+      description:
+        '레스토랑 데이터를 실행으로 바꾸는 AI 플랫폼입니다. POS, 인력, 비용, 운영 데이터를 통합하고 성과를 비교해 즉시 인사이트를 제공합니다.',
+    },
+    layout: { skipToContent: '본문으로 건너뛰기', languageSelector: '언어' },
+    navbar: {
+      products: '제품',
+      solutions: '솔루션',
+      resources: '리소스',
+      company: '회사',
+      intelligence: '인텔리전스',
+      plans: '플랜',
+      bySegment: '세그먼트별',
+      byRole: '역할별',
+      learn: '학습',
+      pricing: '가격',
+      about: '회사 소개',
+      signIn: '로그인',
+      bookDemo: '데모 예약',
+      comparePlans: '플랜 비교 →',
+      startFree: '무료 시작 →',
+    },
+    footer: {
+      readyTitle: '놓치고 있는 것을 확인할 준비가 되셨나요?',
+      readyDescription: '감이 아닌 명확한 판단으로 전환한 운영자들과 함께하세요.',
+      bookDemo: '데모 예약',
+      startFree: 'Report로 무료 시작',
+      global: '글로벌',
+      allCurrencies: '모든 통화',
+      sectionProduct: '제품',
+      sectionSolutions: '솔루션',
+      sectionResources: '리소스',
+      sectionCompany: '회사',
+      pricing: '가격',
+      privacy: '개인정보',
+      terms: '약관',
+      copyrightSuffix: '모든 권리 보유.',
+    },
+  },
+  id: {
+    metadata: {
+      title: 'Sundae - intelijen keputusan untuk restoran',
+      description:
+        'Platform AI yang mengubah data restoran menjadi aksi: satukan POS, tenaga kerja, biaya, dan operasi untuk membandingkan kinerja serta mendapatkan insight instan.',
+    },
+    layout: { skipToContent: 'Lewati ke konten utama', languageSelector: 'Bahasa' },
+    navbar: {
+      products: 'Produk',
+      solutions: 'Solusi',
+      resources: 'Sumber daya',
+      company: 'Perusahaan',
+      intelligence: 'Intelijen',
+      plans: 'Paket',
+      bySegment: 'Menurut segmen',
+      byRole: 'Menurut peran',
+      learn: 'Pelajari',
+      pricing: 'Harga',
+      about: 'Tentang',
+      signIn: 'Masuk',
+      bookDemo: 'Pesan demo',
+      comparePlans: 'Bandingkan paket →',
+      startFree: 'Mulai gratis →',
+    },
+    footer: {
+      readyTitle: 'Siap melihat apa yang Anda lewatkan?',
+      readyDescription: 'Bergabunglah dengan operator yang beralih dari menebak ke keputusan yang jelas.',
+      bookDemo: 'Pesan demo',
+      startFree: 'Mulai gratis dengan Report',
+      global: 'Global',
+      allCurrencies: 'Semua mata uang',
+      sectionProduct: 'Produk',
+      sectionSolutions: 'Solusi',
+      sectionResources: 'Sumber daya',
+      sectionCompany: 'Perusahaan',
+      pricing: 'Harga',
+      privacy: 'Privasi',
+      terms: 'Ketentuan',
+      copyrightSuffix: 'Hak cipta dilindungi.',
+    },
+  },
+  vi: {
+    metadata: {
+      title: 'Sundae - trí tuệ quyết định cho nhà hàng',
+      description:
+        'Nền tảng AI biến dữ liệu nhà hàng thành hành động: hợp nhất POS, nhân sự, chi phí và vận hành để so sánh hiệu suất và nhận insight tức thì.',
+    },
+    layout: { skipToContent: 'Chuyển đến nội dung chính', languageSelector: 'Ngôn ngữ' },
+    navbar: {
+      products: 'Sản phẩm',
+      solutions: 'Giải pháp',
+      resources: 'Tài nguyên',
+      company: 'Công ty',
+      intelligence: 'Trí tuệ',
+      plans: 'Gói',
+      bySegment: 'Theo phân khúc',
+      byRole: 'Theo vai trò',
+      learn: 'Tìm hiểu',
+      pricing: 'Giá',
+      about: 'Giới thiệu',
+      signIn: 'Đăng nhập',
+      bookDemo: 'Đặt demo',
+      comparePlans: 'So sánh gói →',
+      startFree: 'Bắt đầu miễn phí →',
+    },
+    footer: {
+      readyTitle: 'Sẵn sàng xem bạn đang bỏ lỡ điều gì?',
+      readyDescription: 'Tham gia cùng các nhà vận hành đã chuyển từ phỏng đoán sang quyết định rõ ràng.',
+      bookDemo: 'Đặt demo',
+      startFree: 'Bắt đầu miễn phí với Report',
+      global: 'Toàn cầu',
+      allCurrencies: 'Tất cả tiền tệ',
+      sectionProduct: 'Sản phẩm',
+      sectionSolutions: 'Giải pháp',
+      sectionResources: 'Tài nguyên',
+      sectionCompany: 'Công ty',
+      pricing: 'Giá',
+      privacy: 'Quyền riêng tư',
+      terms: 'Điều khoản',
+      copyrightSuffix: 'Đã đăng ký bản quyền.',
+    },
+  },
+  ro: {
+    metadata: {
+      title: 'Sundae - inteligență decizională pentru restaurante',
+      description:
+        'Platforma AI care transformă datele restaurantelor în acțiune: unește POS, personal, costuri și operațiuni pentru a compara performanța și a oferi insighturi instant.',
+    },
+    layout: { skipToContent: 'Sari la conținutul principal', languageSelector: 'Limbă' },
+    navbar: {
+      products: 'Produse',
+      solutions: 'Soluții',
+      resources: 'Resurse',
+      company: 'Companie',
+      intelligence: 'Inteligență',
+      plans: 'Planuri',
+      bySegment: 'După segment',
+      byRole: 'După rol',
+      learn: 'Învață',
+      pricing: 'Prețuri',
+      about: 'Despre',
+      signIn: 'Autentificare',
+      bookDemo: 'Programează demo',
+      comparePlans: 'Compară planuri →',
+      startFree: 'Începe gratuit →',
+    },
+    footer: {
+      readyTitle: 'Gata să vezi ce îți scapă?',
+      readyDescription: 'Alătură-te operatorilor care au trecut de la presupuneri la claritate.',
+      bookDemo: 'Programează demo',
+      startFree: 'Începe gratuit cu Report',
+      global: 'Global',
+      allCurrencies: 'Toate monedele',
+      sectionProduct: 'Produs',
+      sectionSolutions: 'Soluții',
+      sectionResources: 'Resurse',
+      sectionCompany: 'Companie',
+      pricing: 'Prețuri',
+      privacy: 'Confidențialitate',
+      terms: 'Termeni',
+      copyrightSuffix: 'Toate drepturile rezervate.',
+    },
+  },
+  sv: {
+    metadata: {
+      title: 'Sundae - beslutsintelligens för restauranger',
+      description:
+        'AI-plattformen som gör restaurangdata till handling: förena POS, personal, kostnader och drift för att jämföra resultat och få omedelbara insikter.',
+    },
+    layout: { skipToContent: 'Gå till huvudinnehåll', languageSelector: 'Språk' },
+    navbar: {
+      products: 'Produkter',
+      solutions: 'Lösningar',
+      resources: 'Resurser',
+      company: 'Företag',
+      intelligence: 'Intelligens',
+      plans: 'Planer',
+      bySegment: 'Efter segment',
+      byRole: 'Efter roll',
+      learn: 'Lär dig',
+      pricing: 'Priser',
+      about: 'Om oss',
+      signIn: 'Logga in',
+      bookDemo: 'Boka demo',
+      comparePlans: 'Jämför planer →',
+      startFree: 'Starta gratis →',
+    },
+    footer: {
+      readyTitle: 'Redo att se vad du missar?',
+      readyDescription: 'Gå med operatörer som gått från gissningar till tydlighet.',
+      bookDemo: 'Boka demo',
+      startFree: 'Starta gratis med Report',
+      global: 'Globalt',
+      allCurrencies: 'Alla valutor',
+      sectionProduct: 'Produkt',
+      sectionSolutions: 'Lösningar',
+      sectionResources: 'Resurser',
+      sectionCompany: 'Företag',
+      pricing: 'Priser',
+      privacy: 'Integritet',
+      terms: 'Villkor',
+      copyrightSuffix: 'Alla rättigheter förbehållna.',
+    },
+  },
+  bn: {
+    metadata: {
+      title: 'Sundae - রেস্তোরাঁর জন্য সিদ্ধান্ত বুদ্ধিমত্তা',
+      description:
+        'AI প্ল্যাটফর্ম যা রেস্তোরাঁর ডেটাকে কাজে রূপান্তর করে: POS, কর্মী, খরচ ও অপারেশন একত্র করে পারফরম্যান্স তুলনা করুন এবং তাৎক্ষণিক ইনসাইট পান।',
+    },
+    layout: { skipToContent: 'মূল কনটেন্টে যান', languageSelector: 'ভাষা' },
+    navbar: {
+      products: 'পণ্য',
+      solutions: 'সমাধান',
+      resources: 'রিসোর্স',
+      company: 'কোম্পানি',
+      intelligence: 'ইন্টেলিজেন্স',
+      plans: 'প্ল্যান',
+      bySegment: 'সেগমেন্ট অনুযায়ী',
+      byRole: 'ভূমিকা অনুযায়ী',
+      learn: 'শিখুন',
+      pricing: 'মূল্য',
+      about: 'সম্পর্কে',
+      signIn: 'সাইন ইন',
+      bookDemo: 'ডেমো বুক করুন',
+      comparePlans: 'প্ল্যান তুলনা করুন →',
+      startFree: 'বিনামূল্যে শুরু করুন →',
+    },
+    footer: {
+      readyTitle: 'আপনি কী মিস করছেন তা দেখতে প্রস্তুত?',
+      readyDescription: 'যারা অনুমান থেকে স্পষ্ট সিদ্ধান্তে গেছে, সেই অপারেটরদের সাথে যোগ দিন।',
+      bookDemo: 'ডেমো বুক করুন',
+      startFree: 'Report দিয়ে বিনামূল্যে শুরু করুন',
+      global: 'গ্লোবাল',
+      allCurrencies: 'সব মুদ্রা',
+      sectionProduct: 'পণ্য',
+      sectionSolutions: 'সমাধান',
+      sectionResources: 'রিসোর্স',
+      sectionCompany: 'কোম্পানি',
+      pricing: 'মূল্য',
+      privacy: 'গোপনীয়তা',
+      terms: 'শর্তাবলি',
+      copyrightSuffix: 'সর্বস্বত্ব সংরক্ষিত।',
+    },
+  },
+  th: {
+    metadata: {
+      title: 'Sundae - ข่าวกรองการตัดสินใจสำหรับร้านอาหาร',
+      description:
+        'แพลตฟอร์ม AI ที่เปลี่ยนข้อมูลร้านอาหารให้เป็นการลงมือทำ: รวม POS พนักงาน ต้นทุน และการดำเนินงาน เพื่อเปรียบเทียบผลงานและรับอินไซต์ทันที',
+    },
+    layout: { skipToContent: 'ข้ามไปยังเนื้อหาหลัก', languageSelector: 'ภาษา' },
+    navbar: {
+      products: 'ผลิตภัณฑ์',
+      solutions: 'โซลูชัน',
+      resources: 'แหล่งข้อมูล',
+      company: 'บริษัท',
+      intelligence: 'อินเทลลิเจนซ์',
+      plans: 'แพ็กเกจ',
+      bySegment: 'ตามกลุ่ม',
+      byRole: 'ตามบทบาท',
+      learn: 'เรียนรู้',
+      pricing: 'ราคา',
+      about: 'เกี่ยวกับ',
+      signIn: 'เข้าสู่ระบบ',
+      bookDemo: 'จองเดโม',
+      comparePlans: 'เปรียบเทียบแพ็กเกจ →',
+      startFree: 'เริ่มฟรี →',
+    },
+    footer: {
+      readyTitle: 'พร้อมดูสิ่งที่คุณพลาดไปหรือยัง?',
+      readyDescription: 'เข้าร่วมกับผู้ประกอบการที่เปลี่ยนจากการคาดเดาเป็นความชัดเจน',
+      bookDemo: 'จองเดโม',
+      startFree: 'เริ่มฟรีด้วย Report',
+      global: 'ทั่วโลก',
+      allCurrencies: 'ทุกสกุลเงิน',
+      sectionProduct: 'ผลิตภัณฑ์',
+      sectionSolutions: 'โซลูชัน',
+      sectionResources: 'แหล่งข้อมูล',
+      sectionCompany: 'บริษัท',
+      pricing: 'ราคา',
+      privacy: 'ความเป็นส่วนตัว',
+      terms: 'ข้อกำหนด',
+      copyrightSuffix: 'สงวนลิขสิทธิ์',
+    },
+  },
+  ms: {
+    metadata: {
+      title: 'Sundae - kecerdasan keputusan untuk restoran',
+      description:
+        'Platform AI yang menukar data restoran kepada tindakan: satukan POS, tenaga kerja, kos dan operasi untuk membandingkan prestasi serta mendapatkan insight segera.',
+    },
+    layout: { skipToContent: 'Langkau ke kandungan utama', languageSelector: 'Bahasa' },
+    navbar: {
+      products: 'Produk',
+      solutions: 'Penyelesaian',
+      resources: 'Sumber',
+      company: 'Syarikat',
+      intelligence: 'Kecerdasan',
+      plans: 'Pelan',
+      bySegment: 'Mengikut segmen',
+      byRole: 'Mengikut peranan',
+      learn: 'Belajar',
+      pricing: 'Harga',
+      about: 'Tentang',
+      signIn: 'Log masuk',
+      bookDemo: 'Tempah demo',
+      comparePlans: 'Bandingkan pelan →',
+      startFree: 'Mula percuma →',
+    },
+    footer: {
+      readyTitle: 'Bersedia melihat apa yang anda terlepas?',
+      readyDescription: 'Sertai operator yang telah beralih daripada tekaan kepada kejelasan.',
+      bookDemo: 'Tempah demo',
+      startFree: 'Mula percuma dengan Report',
+      global: 'Global',
+      allCurrencies: 'Semua mata wang',
+      sectionProduct: 'Produk',
+      sectionSolutions: 'Penyelesaian',
+      sectionResources: 'Sumber',
+      sectionCompany: 'Syarikat',
+      pricing: 'Harga',
+      privacy: 'Privasi',
+      terms: 'Terma',
+      copyrightSuffix: 'Hak cipta terpelihara.',
+    },
+  },
 } satisfies Partial<Record<WebsiteLocale, DeepPartial<WebsiteMessagesBase>>>
 
-const expandedLocaleOverridesByLocale =
-  expandedLocaleMessageOverrides as Partial<Record<WebsiteLocale, DeepPartial<WebsiteMessagesBase>>>
+const expandedLocaleOverridesByLocale = {
+  ...expandedLocaleMessageOverrides,
+  ...generatedWebsiteMessageOverrides,
+} as unknown as Partial<Record<WebsiteLocale, DeepPartial<WebsiteMessagesBase>>>
 
 function mergeDeep<T>(base: T, override?: DeepPartial<T>): T {
   if (!override) return base

@@ -8,6 +8,8 @@ import { Button } from "@/components/ui/Button";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { ElegantShape } from "@/components/ui/ElegantShape";
+import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { generatedUiLabels } from "@/lib/generatedUiLabels";
 
 export type SolutionCopy = {
   badge: string;
@@ -65,6 +67,9 @@ export function SolutionPageLayout({
   secondaryCtaHref = REPORT_APP_URL,
   ctaButtonHref = "/demo",
 }: Props) {
+  const { locale } = useWebsiteI18n();
+  const labels = generatedUiLabels[locale as keyof typeof generatedUiLabels] ?? generatedUiLabels.en;
+
   return (
     <MotionConfig reducedMotion="user">
       <div className="min-h-screen bg-[var(--navy-deep)] overflow-x-hidden">
@@ -146,7 +151,7 @@ export function SolutionPageLayout({
           <div className="absolute inset-0 bg-mesh" />
           <div className="relative z-10 max-w-7xl mx-auto">
             <FadeUp className="text-center mb-14">
-              <p className="eyebrow mb-4">HOW SUNDAE HELPS</p>
+              <p className="eyebrow mb-4">{labels.howSundaeHelps}</p>
               <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.howTitle}</h2>
               <p className="body-lg text-[var(--text-supporting)] max-w-2xl mx-auto">{copy.howDescription}</p>
             </FadeUp>
@@ -178,7 +183,7 @@ export function SolutionPageLayout({
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(34,197,94,0.05),transparent_60%)]" />
           <div className="relative z-10 max-w-7xl mx-auto">
             <FadeUp className="text-center mb-14">
-              <p className="eyebrow mb-4">WHAT CHANGES</p>
+              <p className="eyebrow mb-4">{labels.whatChanges}</p>
               <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.outcomesTitle}</h2>
               <p className="body-lg text-[var(--text-supporting)] max-w-2xl mx-auto">{copy.outcomesDescription}</p>
             </FadeUp>

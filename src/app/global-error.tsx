@@ -10,6 +10,8 @@ import {
   type RequiredEnglishLocalizedRecord,
   type WebsiteLocale,
 } from "@/lib/i18n";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_global_error'
 
 const globalErrorCopy: RequiredEnglishLocalizedRecord<
   {
@@ -67,7 +69,7 @@ export default function GlobalError({
   reset: () => void;
 }) {
   const locale = resolveClientLocale();
-  const copy = globalErrorCopy[locale as keyof typeof globalErrorCopy] ?? globalErrorCopy.en;
+  const copy = globalErrorCopy[locale as keyof typeof globalErrorCopy] ?? getGeneratedLocalCopy(globalErrorCopy, generatedLocalCopy.globalErrorCopy, locale) ?? globalErrorCopy.en;
 
   useEffect(() => {
     Sentry.captureException(error);

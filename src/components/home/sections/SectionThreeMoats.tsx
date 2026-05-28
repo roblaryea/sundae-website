@@ -2,6 +2,8 @@
 
 import { motion, useReducedMotion } from "framer-motion";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/components_home_sections_SectionThreeMoats'
 
 /**
  * Mini thumbnails — each is a small visual artifact paired with the moat copy
@@ -199,7 +201,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedMoats> = {
 export function SectionThreeMoats() {
   const reduceMotion = useReducedMotion();
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
 
   return (
     <section aria-labelledby="moats-headline" className="relative">

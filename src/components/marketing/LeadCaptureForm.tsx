@@ -5,6 +5,8 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { COUNTRY_CODES } from '@/lib/countryCodes';
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/components_marketing_LeadCaptureForm'
 
 interface LeadCaptureFormProps {
   ctaLabel: string;
@@ -228,7 +230,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
   className = '',
 }) => {
   const { locale } = useWebsiteI18n();
-  const copy = formCopy[locale as keyof typeof formCopy] ?? formCopy.en;
+  const copy = formCopy[locale as keyof typeof formCopy] ?? getGeneratedLocalCopy(formCopy, generatedLocalCopy.formCopy, locale) ?? formCopy.en;
   const [formData, setFormData] = useState<FormData>({
     name: '',
     email: '',

@@ -7,6 +7,8 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/com
 import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from '@/components/ui/PageAnimations';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_product_canvas_page'
 
 const localizedCanvasCopy = {
   en: {
@@ -177,7 +179,7 @@ const localizedCanvasCopy = {
 
 export default function CanvasPage() {
   const { locale } = useWebsiteI18n();
-  const ui = localizedCanvasCopy[locale as keyof typeof localizedCanvasCopy] ?? localizedCanvasCopy.en;
+  const ui = localizedCanvasCopy[locale as keyof typeof localizedCanvasCopy] ?? getGeneratedLocalCopy(localizedCanvasCopy, generatedLocalCopy.localizedCanvasCopy, locale) ?? localizedCanvasCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">

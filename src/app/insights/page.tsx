@@ -6,6 +6,8 @@ import { motion } from "framer-motion";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { useCta } from "@/lib/cta";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_insights_page'
 
 const localizedInsightsUi = {
   en: {
@@ -664,8 +666,8 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
 export default function InsightsPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const ui = localizedInsightsUi[locale as keyof typeof localizedInsightsUi] ?? localizedInsightsUi.en;
-  const modules = localizedModulesCopy[locale as keyof typeof localizedModulesCopy] ?? localizedModulesCopy.en;
+  const ui = localizedInsightsUi[locale as keyof typeof localizedInsightsUi] ?? getGeneratedLocalCopy(localizedInsightsUi, generatedLocalCopy.localizedInsightsUi, locale) ?? localizedInsightsUi.en;
+  const modules = localizedModulesCopy[locale as keyof typeof localizedModulesCopy] ?? getGeneratedLocalCopy(localizedModulesCopy, generatedLocalCopy.localizedModulesCopy, locale) ?? localizedModulesCopy.en;
 
   const whoItsFor: { icon: SundaeIconName; title: string; description: string }[] = [
     { icon: "owners", title: ui.whoItsFor[0].title, description: ui.whoItsFor[0].description },

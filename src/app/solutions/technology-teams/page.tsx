@@ -3,6 +3,8 @@
 import { IntegrationsHubMockup } from "@/components/ui/MockupFrame";
 import { SolutionPageLayout, type SolutionCopy } from "@/components/solutions/SolutionPageLayout";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_solutions_technology_teams_page'
 
 const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
   en: {
@@ -153,6 +155,6 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
 
 export default function TechnologyTeamsPage() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
   return <SolutionPageLayout copy={copy} mockup={<IntegrationsHubMockup />} />;
 }

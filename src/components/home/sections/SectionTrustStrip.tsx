@@ -3,6 +3,8 @@
 import { FadeUp } from "@/components/ui/PageAnimations";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/components_home_sections_SectionTrustStrip'
 
 type LocalizedCopy = {
   eyebrow: string;
@@ -65,7 +67,7 @@ const icons: SundaeIconName[] = ["support", "report", "integration", "speed", "b
 
 export function SectionTrustStrip() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
 
   return (
     <section aria-labelledby="trust-headline" className="relative py-14 px-4 sm:px-6 lg:px-8 border-y border-[var(--border-default)]">

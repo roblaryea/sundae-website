@@ -8,6 +8,8 @@ import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { useTheme } from '@/components/ui/ThemeProvider';
 import type { RequiredEnglishLocalizedRecord } from '@/lib/i18n';
 import { APP_URL, SIGNIN_URL, SIGNUP_URL } from '@/lib/urls';
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_sign_in_page'
 
 /* ---------------------------------------------------------------
  Feature flags — flip when backend / SSO is ready
@@ -60,7 +62,7 @@ const localizedShellCopy: RequiredEnglishLocalizedRecord<
 export default function SignInPage() {
  const { messages, locale } = useWebsiteI18n();
  const copy = messages.pages.signIn;
- const shellCopy = localizedShellCopy[locale as keyof typeof localizedShellCopy] ?? localizedShellCopy.en;
+ const shellCopy = localizedShellCopy[locale as keyof typeof localizedShellCopy] ?? getGeneratedLocalCopy(localizedShellCopy, generatedLocalCopy.localizedShellCopy, locale) ?? localizedShellCopy.en;
  const { theme } = useTheme();
  const logoSrc = theme === 'light' ? '/logos/sundae-wordmark.svg' : '/logos/sundae-wordmark-white.svg';
  const [email, setEmail] = useState('');

@@ -8,6 +8,8 @@ import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/comp
 import { useCta } from "@/lib/cta";
 import { PRICING_URL } from "@/lib/urls";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_product_foresight_page'
 
 type ForesightMockupCopy = {
   timeline: {
@@ -564,7 +566,7 @@ const mockupRenderers = [
 export default function ForesightPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const ui = localizedForesightCopy[locale as keyof typeof localizedForesightCopy] ?? localizedForesightCopy.en;
+  const ui = localizedForesightCopy[locale as keyof typeof localizedForesightCopy] ?? getGeneratedLocalCopy(localizedForesightCopy, generatedLocalCopy.localizedForesightCopy, locale) ?? localizedForesightCopy.en;
   const mockups = ui.mockups;
 
   return (

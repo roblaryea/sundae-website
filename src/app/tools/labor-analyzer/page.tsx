@@ -7,6 +7,8 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { SundaeIcon } from "@/components/icons";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { type RequiredEnglishLocalizedRecord } from '@/lib/i18n';
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_tools_labor_analyzer_page'
 
 type LaborAnalyzerCopy = {
   back: string;
@@ -239,7 +241,7 @@ const localizedCopy: RequiredEnglishLocalizedRecord<LaborAnalyzerCopy> = {
 
 export default function LaborAnalyzerPage() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
   const [actualLabor, setActualLabor] = useState("");
   const [revenue, setRevenue] = useState("");
   const [targetLabor, setTargetLabor] = useState("");

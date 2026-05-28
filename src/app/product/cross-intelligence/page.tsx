@@ -8,6 +8,8 @@ import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/comp
 import { useCta } from "@/lib/cta";
 import { PRICING_URL } from "@/lib/urls";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_product_cross_intelligence_page'
 
 // ─── Inline Mockups ─────────────────────────────────────────────────────────
 
@@ -1143,10 +1145,10 @@ const crossIntelligenceCopy = {
 export default function CrossIntelligencePage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const ui = crossIntelligenceCopy[locale as keyof typeof crossIntelligenceCopy] ?? crossIntelligenceCopy.en;
-  const components = localizedCrossIntelligenceComponents[locale as keyof typeof localizedCrossIntelligenceComponents] ?? localizedCrossIntelligenceComponents.en;
-  const tierComparison = localizedTierComparison[locale as keyof typeof localizedTierComparison] ?? localizedTierComparison.en;
-  const mockupCopy = localizedCrossIntelligenceMockups[locale as keyof typeof localizedCrossIntelligenceMockups] ?? localizedCrossIntelligenceMockups.en;
+  const ui = crossIntelligenceCopy[locale as keyof typeof crossIntelligenceCopy] ?? getGeneratedLocalCopy(crossIntelligenceCopy, generatedLocalCopy.crossIntelligenceCopy, locale) ?? crossIntelligenceCopy.en;
+  const components = localizedCrossIntelligenceComponents[locale as keyof typeof localizedCrossIntelligenceComponents] ?? getGeneratedLocalCopy(localizedCrossIntelligenceComponents, generatedLocalCopy.localizedCrossIntelligenceComponents, locale) ?? localizedCrossIntelligenceComponents.en;
+  const tierComparison = localizedTierComparison[locale as keyof typeof localizedTierComparison] ?? getGeneratedLocalCopy(localizedTierComparison, generatedLocalCopy.localizedTierComparison, locale) ?? localizedTierComparison.en;
+  const mockupCopy = localizedCrossIntelligenceMockups[locale as keyof typeof localizedCrossIntelligenceMockups] ?? getGeneratedLocalCopy(localizedCrossIntelligenceMockups, generatedLocalCopy.localizedCrossIntelligenceMockups, locale) ?? localizedCrossIntelligenceMockups.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">

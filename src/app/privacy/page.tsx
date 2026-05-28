@@ -6,6 +6,7 @@ import { Card, CardContent } from '@/components/ui/Card';
 import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 import { COMPANY } from '@/lib/company';
 import { resolveWebsiteLocale, type NonEnglishWebsiteLocale } from '@/lib/i18n';
+import { generatedPrivacyCopy } from '@/generated-locales/app_privacy_page_legal';
 
 const companyAddressLines = [
   COMPANY.address.line1,
@@ -1057,14 +1058,31 @@ function LocalizedPrivacyPage({ copy }: { copy: PrivacyCopy }) {
   );
 }
 
+function normalizePrivacyCopy(copy: PrivacyCopy): PrivacyCopy {
+  const cardAnchors = localizedPrivacyCopy.fr?.cards ?? copy.cards;
+  return {
+    ...copy,
+    cards: copy.cards.map((card, index) => ({
+      ...card,
+      value: cardAnchors[index]?.value ?? card.value,
+      icon: cardAnchors[index]?.icon ?? card.icon,
+      href: cardAnchors[index]?.href ?? card.href,
+    })),
+  };
+}
+
 export default async function PrivacyPage() {
   const cookieStore = await cookies();
   const locale = resolveWebsiteLocale(cookieStore);
   const lastUpdated = "March 3, 2026";
 
-  const localizedCopy = locale === 'en' ? undefined : localizedPrivacyCopy[locale];
+  const localizedCopy =
+    locale === 'en'
+      ? undefined
+      : localizedPrivacyCopy[locale] ??
+        (generatedPrivacyCopy[locale as keyof typeof generatedPrivacyCopy] as unknown as PrivacyCopy | undefined);
   if (localizedCopy) {
-    return <LocalizedPrivacyPage copy={localizedCopy} />;
+    return <LocalizedPrivacyPage copy={normalizePrivacyCopy(localizedCopy)} />;
   }
 
   return (

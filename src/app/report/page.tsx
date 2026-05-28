@@ -9,6 +9,9 @@ import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/comp
 import { useCta } from "@/lib/cta";
 import { REPORT_APP_URL, PRICING_URL, SIGNUP_URL } from "@/lib/urls";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_report_page'
+import { generatedUiLabels } from "@/lib/generatedUiLabels";
 
 const reportPageCopy = {
   en: {
@@ -286,7 +289,8 @@ const reportPageCopy = {
 export default function ReportProductPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const ui = reportPageCopy[locale as keyof typeof reportPageCopy] ?? reportPageCopy.en;
+  const ui = reportPageCopy[locale as keyof typeof reportPageCopy] ?? getGeneratedLocalCopy(reportPageCopy, generatedLocalCopy.reportPageCopy, locale) ?? reportPageCopy.en;
+  const labels = generatedUiLabels[locale as keyof typeof generatedUiLabels] ?? generatedUiLabels.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
@@ -392,15 +396,15 @@ export default function ReportProductPage() {
                   <CardContent>
                     <div className="space-y-3">
                       <div>
-                        <div className="text-sm font-medium text-[var(--text-secondary)] mb-1">What we found:</div>
+                        <div className="text-sm font-medium text-[var(--text-secondary)] mb-1">{labels.whatWeFound}</div>
                         <p className="text-[var(--text-supporting)]">{insight.insight}</p>
                       </div>
                       <div>
-                        <div className="text-sm font-medium text-[var(--text-secondary)] mb-1">Recommendation:</div>
+                        <div className="text-sm font-medium text-[var(--text-secondary)] mb-1">{labels.recommendation}</div>
                         <p className="text-[var(--text-supporting)]">{insight.recommendation}</p>
                       </div>
                       <div className="bg-green-500/10 rounded-lg p-3">
-                        <div className="text-sm font-medium text-green-400 mb-1">Potential Impact:</div>
+                        <div className="text-sm font-medium text-green-400 mb-1">{labels.potentialImpact}</div>
                         <p className="text-green-400 font-medium">{insight.impact}</p>
                       </div>
                     </div>

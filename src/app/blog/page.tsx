@@ -10,6 +10,8 @@ import { getLocalizedBlogPosts } from "@/lib/blogTranslations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { getLocalizedPathname, type RequiredEnglishLocalizedRecord } from '@/lib/i18n';
 import { PageHero, PageCTA, FadeUp } from "@/components/ui/PageAnimations";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_blog_page'
 
 type BlogPageCopy = {
   badge: string;
@@ -126,7 +128,7 @@ const localizedBlogPageCopy: RequiredEnglishLocalizedRecord<BlogPageCopy> = {
 export default function BlogPage() {
   const { locale } = useWebsiteI18n();
   const [selectedCategory, setSelectedCategory] = useState<BlogCategory | 'All'>('All');
-  const copy = localizedBlogPageCopy[locale as keyof typeof localizedBlogPageCopy] ?? localizedBlogPageCopy.en;
+  const copy = localizedBlogPageCopy[locale as keyof typeof localizedBlogPageCopy] ?? getGeneratedLocalCopy(localizedBlogPageCopy, generatedLocalCopy.localizedBlogPageCopy, locale) ?? localizedBlogPageCopy.en;
   const localizedPosts = getLocalizedBlogPosts(locale);
   const blogHref = (slug: string) => getLocalizedPathname(`/blog/${slug}`, locale);
   const englishBlogHref = getLocalizedPathname('/blog', 'en');

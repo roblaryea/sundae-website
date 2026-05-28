@@ -3,6 +3,8 @@
 import { motion, useReducedMotion } from "framer-motion";
 import { SundaeWordmark } from "./SundaeWordmark";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/components_home_sections_SectionOldWaySundaeWay'
 
 type LocalizedCopy = {
   eyebrow: string;
@@ -121,7 +123,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
 export function SectionOldWaySundaeWay() {
   const reduceMotion = useReducedMotion();
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
 
   return (
     <section aria-labelledby="oldway-headline" className="relative">

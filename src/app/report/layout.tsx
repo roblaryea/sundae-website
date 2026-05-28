@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { cookies } from "next/headers";
 import { resolveWebsiteLocale, type RequiredEnglishLocalizedRecord } from "@/lib/i18n";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_report_layout'
 
 const reportMetadataByLocale: RequiredEnglishLocalizedRecord<
   {
@@ -32,7 +34,7 @@ const reportMetadataByLocale: RequiredEnglishLocalizedRecord<
 
 export async function generateMetadata(): Promise<Metadata> {
   const locale = resolveWebsiteLocale(await cookies());
-  const metadata = reportMetadataByLocale[locale as keyof typeof reportMetadataByLocale] ?? reportMetadataByLocale.en;
+  const metadata = reportMetadataByLocale[locale as keyof typeof reportMetadataByLocale] ?? getGeneratedLocalCopy(reportMetadataByLocale, generatedLocalCopy.reportMetadataByLocale, locale) ?? reportMetadataByLocale.en;
   return {
     title: metadata.title,
     description: metadata.description,

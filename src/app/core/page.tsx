@@ -9,6 +9,8 @@ import { PRICING_URL } from "@/lib/urls";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { PulseDashboardMockup } from "@/components/ui/MockupFrame";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_core_page'
 
 const localizedCoreCopy = {
   en: {
@@ -528,7 +530,7 @@ const localizedCoreCopy = {
 export default function CoreProductPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const ui = localizedCoreCopy[locale as keyof typeof localizedCoreCopy] ?? localizedCoreCopy.en;
+  const ui = localizedCoreCopy[locale as keyof typeof localizedCoreCopy] ?? getGeneratedLocalCopy(localizedCoreCopy, generatedLocalCopy.localizedCoreCopy, locale) ?? localizedCoreCopy.en;
   const coreTiers = ui.tiers.items;
   const fourDimensions = ui.dimensions.items;
   const modules = ui.modules.items;

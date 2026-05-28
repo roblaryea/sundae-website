@@ -6,6 +6,8 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/Button";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import type { RequiredEnglishLocalizedRecord } from "@/lib/i18n";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_not_found'
 
 const notFoundCopy: RequiredEnglishLocalizedRecord<
   {
@@ -48,7 +50,7 @@ const notFoundCopy: RequiredEnglishLocalizedRecord<
 
 export default function NotFound() {
   const { locale } = useWebsiteI18n();
-  const copy = notFoundCopy[locale as keyof typeof notFoundCopy] ?? notFoundCopy.en;
+  const copy = notFoundCopy[locale as keyof typeof notFoundCopy] ?? getGeneratedLocalCopy(notFoundCopy, generatedLocalCopy.notFoundCopy, locale) ?? notFoundCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)] flex items-center justify-center px-4">

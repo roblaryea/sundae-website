@@ -8,6 +8,8 @@ import { SundaeIcon } from "@/components/icons";
 import { PageCTA } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { type RequiredEnglishLocalizedRecord } from '@/lib/i18n';
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_tools_labor_cost_page'
 
 type LaborCostCopy = {
   back: string;
@@ -200,7 +202,7 @@ const localizedCopy: RequiredEnglishLocalizedRecord<LaborCostCopy> = {
 
 export default function LaborCostCalculator() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
   const [laborCost, setLaborCost] = useState("");
   const [totalSales, setTotalSales] = useState("");
   const [result, setResult] = useState<{ percentage: number; interpretation: string; color: string } | null>(null);

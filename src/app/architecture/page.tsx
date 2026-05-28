@@ -6,6 +6,8 @@ import { motion } from 'framer-motion';
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_architecture_page'
 
 type ArchitectureLayer = {
   title: string;
@@ -351,7 +353,7 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
 
 export default function ArchitecturePage() {
   const { locale } = useWebsiteI18n();
-  const ui = localizedArchitectureCopy[locale as keyof typeof localizedArchitectureCopy] ?? localizedArchitectureCopy.en;
+  const ui = localizedArchitectureCopy[locale as keyof typeof localizedArchitectureCopy] ?? getGeneratedLocalCopy(localizedArchitectureCopy, generatedLocalCopy.localizedArchitectureCopy, locale) ?? localizedArchitectureCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
