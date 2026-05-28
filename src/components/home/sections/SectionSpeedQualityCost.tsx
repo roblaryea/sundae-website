@@ -12,6 +12,7 @@ import {
   useReducedMotion,
 } from "framer-motion";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { useTheme } from "@/components/ui/ThemeProvider";
 
 /* ─── i18n copy ─── */
 
@@ -143,7 +144,17 @@ function ballAt(progress: number) {
 export function SectionSpeedQualityCost() {
   const reduceMotion = useReducedMotion();
   const { locale } = useWebsiteI18n();
+  const { theme } = useTheme();
   const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? localizedCopy.en;
+
+  // Theme-aware SVG fills: white pops on dark, navy on light.
+  const isLight = theme === "light";
+  const vertexFillActive = isLight ? "#0F172A" : "#FFFFFF";
+  const vertexFillIdle = isLight ? "rgba(15,23,42,0.45)" : "rgba(255,255,255,0.45)";
+  const vertexDotFillIdle = isLight ? "rgba(15,23,42,0.55)" : "rgba(255,255,255,0.55)";
+  const tracerBallFill = isLight ? "#1C47FF" : "#FFFFFF";
+  const triHighlightStrong = isLight ? "rgba(28,71,255,0.18)" : "rgba(255,255,255,0.25)";
+  const triHighlightMid = isLight ? "rgba(28,71,255,0.05)" : "rgba(255,255,255,0.06)";
   const vertices = copy.vertices;
   const [activeIdx, setActiveIdx] = useState(0);
   const [paused, setPaused] = useState(false);
@@ -354,8 +365,8 @@ export function SectionSpeedQualityCost() {
                 </radialGradient>
                 {/* Top-vertex specular highlight — sharp, focused */}
                 <radialGradient id="triHighlight" cx="50%" cy="20%" r="42%">
-                  <stop offset="0%" stopColor="rgba(255,255,255,0.25)" />
-                  <stop offset="40%" stopColor="rgba(255,255,255,0.06)" />
+                  <stop offset="0%" stopColor={triHighlightStrong} />
+                  <stop offset="40%" stopColor={triHighlightMid} />
                   <stop offset="100%" stopColor="rgba(255,255,255,0)" />
                 </radialGradient>
                 {/* Ball glow filter */}
@@ -463,7 +474,7 @@ export function SectionSpeedQualityCost() {
               {useAnimated && (
                 <>
                   <motion.circle r="13" fill="#60A5FA" opacity="0.45" filter="url(#tracerGlow)" cx={ballX} cy={ballY} />
-                  <motion.circle r="8" fill="#FFFFFF" cx={ballX} cy={ballY} />
+                  <motion.circle r="8" fill={tracerBallFill} cx={ballX} cy={ballY} />
                 </>
               )}
 
@@ -530,7 +541,7 @@ export function SectionSpeedQualityCost() {
                       cx={p.x}
                       cy={p.y}
                       r={isActive ? 9 : 7}
-                      fill={isActive ? "#FFFFFF" : "rgba(255,255,255,0.55)"}
+                      fill={isActive ? vertexFillActive : vertexDotFillIdle}
                       style={{ transition: "all 0.45s ease-out" }}
                     />
                     {/* Label — premium typography: bumped for mobile legibility */}
@@ -541,7 +552,7 @@ export function SectionSpeedQualityCost() {
                       fontSize={isActive ? "28" : "22"}
                       fontWeight="700"
                       letterSpacing="0.24em"
-                      fill={isActive ? "#FFFFFF" : "rgba(255,255,255,0.45)"}
+                      fill={isActive ? vertexFillActive : vertexFillIdle}
                       style={{ transition: "all 0.55s cubic-bezier(0.22, 1, 0.36, 1)" }}
                     >
                       {v.label.toUpperCase()}

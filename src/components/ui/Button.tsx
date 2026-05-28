@@ -46,13 +46,13 @@ export const Button: React.FC<ButtonProps> = (props) => {
     primary: 'bg-gradient-to-r from-[#0A1E8C] via-[#1C47FF] to-[#3B82F6] text-white shadow-[0_0_30px_rgba(28,71,255,0.3)] hover:shadow-[0_0_50px_rgba(28,71,255,0.4)] hover:-translate-y-0.5 active:translate-y-0',
 
     // Secondary — subtle glass
-    secondary: 'bg-[var(--surface-hover)] text-[var(--text-secondary)] border border-white/[0.1] hover:bg-white/[0.1] hover:text-[var(--text-primary)] hover:border-white/[0.2] hover:-translate-y-0.5 active:translate-y-0',
+    secondary: 'bg-[var(--surface-hover)] text-[var(--text-secondary)] border border-[var(--border-default)] hover:bg-[var(--surface-emphasis)] hover:text-[var(--text-primary)] hover:border-[var(--border-emphasis)] hover:-translate-y-0.5 active:translate-y-0',
 
     // Outline — clean border on dark
-    outline: 'border border-[var(--border-emphasis)] text-[var(--text-secondary)] bg-transparent hover:border-white/[0.3] hover:text-[var(--text-primary)] hover:bg-[var(--surface-subtle)]',
+    outline: 'border border-[var(--border-emphasis)] text-[var(--text-secondary)] bg-transparent hover:border-[var(--border-emphasis)] hover:text-[var(--text-primary)] hover:bg-[var(--surface-subtle)]',
 
     // Outline Light — brighter for dark sections
-    'outline-light': 'border border-white/[0.25] text-[var(--text-primary)] bg-transparent hover:bg-[var(--surface-emphasis)] hover:border-white/[0.4] active:bg-[var(--surface-subtle)]',
+    'outline-light': 'border border-[var(--border-emphasis)] text-[var(--text-primary)] bg-transparent hover:bg-[var(--surface-emphasis)] hover:border-[var(--text-muted)] active:bg-[var(--surface-subtle)]',
 
     // Ghost — subtle
     ghost: 'text-[var(--text-supporting)] hover:bg-[var(--surface-hover)] hover:text-[var(--text-primary)]',
