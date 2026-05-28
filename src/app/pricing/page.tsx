@@ -198,14 +198,6 @@ const pricingAddOns: PricingAddon[] = [
     color: "from-purple-500 to-cyan-600",
   },
   {
-    name: "Sundae Crew",
-    description:
-      "The operational substrate that feeds your decision intelligence. Scheduling, T&A, multi-region payroll (US · Canada · UK · EU · GCC on one engine), HR casework, comms, and a free employee portal. Workforce signal lands in Labor Intelligence automatically.",
-    note: "Modules: Operations · T&A · Payroll. Bundle discount when all three attach.",
-    icon: "operators",
-    color: "from-emerald-500 to-emerald-600",
-  },
-  {
     name: "Credit Top-Ups",
     description: "Need more intelligence queries? Purchase additional credits as add-ons to any plan.",
     note: "Available on all tiers",
@@ -359,8 +351,7 @@ const localizedPricingPageContent: Partial<
       { ...pricingAddOns[0], description: "ذكاء خارجي يشمل تتبع المنافسين وتأثير الطقس وتقويم الفعاليات وإحاطات الذكاء الاصطناعي.", note: "يتطلب Core" },
       { ...pricingAddOns[1], name: "وحدات متخصصة", description: "14 وحدة متخصصة تشمل الإيرادات والعمالة والمخزون والمشتريات والتسويق والحجوزات والربح وضمان الإيرادات والتوصيل وتجربة الضيف وGuest CRM وCross-Intelligence وForesight Intelligence وExecutive Summary.", note: "يتطلب Core. التسعير لكل وحدة." },
       { ...pricingAddOns[2], description: "محرك ترابط يُفعَّل تلقائيًا ويكشف العلاقات المخفية بين الوحدات. النسخة الأساسية مجانية مع 3+ وحدات، وPro تضيف الإسناد الكامل واكتشاف التآكل.", note: "يتطلب Core مع 3+ وحدات. Pro: 199$/شهر + 19$/موقع" },
-      { ...pricingAddOns[3], name: "Sundae Crew", description: "الركيزة التشغيلية التي تغذي ذكاء قراراتك. الجدولة، الوقت والحضور، رواتب متعددة المناطق (الولايات المتحدة · كندا · المملكة المتحدة · الاتحاد الأوروبي · دول الخليج على محرك واحد)، حالات HR، اتصالات، وبوابة موظفين مجانية. إشارة القوى العاملة تصل إلى Labor Intelligence تلقائياً.", note: "الوحدات: العمليات · الوقت والحضور · الرواتب. خصم الحزمة عند ضم الثلاثة." },
-      { ...pricingAddOns[4], name: "إضافات الأرصدة", description: "هل تحتاج إلى استفسارات ذكاء أكثر؟ اشترِ أرصدة إضافية لأي خطة.", note: "متاحة في جميع الخطط" },
+      { ...pricingAddOns[3], name: "إضافات الأرصدة", description: "هل تحتاج إلى استفسارات ذكاء أكثر؟ اشترِ أرصدة إضافية لأي خطة.", note: "متاحة في جميع الخطط" },
     ],
     faqs: [
       { title: "ماذا يحدث بعد الفترة المجانية؟", content: "Report Lite مجانية دائمًا، بلا تجربة وبلا انتهاء. وعندما تحتاج المزيد، يمكنك الترقية إلى أي خطة مدفوعة. بلا التزام ويمكن الإلغاء في أي وقت." },
@@ -467,8 +458,7 @@ const localizedPricingPageContent: Partial<
       { ...pricingAddOns[0], description: "Intelligence externe avec suivi concurrentiel, impact meteo, calendrier d evenements et briefings IA.", note: "Necessite Core" },
       { ...pricingAddOns[1], name: "Modules specialises", description: "14 modules specialises incluant revenu, main-d oeuvre, stock, achats, marketing, reservations, profit, assurance revenu, livraison, experience client, Guest CRM, Cross-Intelligence, Foresight Intelligence et Executive Summary.", note: "Necessite Core. Tarif par module." },
       { ...pricingAddOns[2], description: "Moteur de correlation auto-active qui revele les connexions cachees entre modules. La base est gratuite a partir de 3 modules ; Pro ajoute attribution complete et detection de cannibalisation.", note: "Necessite Core avec 3+ modules. Pro : 199$/mois + 19$/site" },
-      { ...pricingAddOns[3], name: "Sundae Crew", description: "Le substrat operationnel qui alimente votre intelligence de decision. Planning, T&A, paie multi-regions (US, Canada, UK, UE, GCC sur un seul moteur), casework RH, comms et un portail employe gratuit. Le signal main-d oeuvre arrive automatiquement dans Labor Intelligence.", note: "Modules : Operations, T&A, Paie. Remise bundle quand les trois sont attaches." },
-      { ...pricingAddOns[4], name: "Recharges de credits", description: "Besoin de plus de requetes d intelligence ? Achetez des credits supplementaires pour n importe quelle offre.", note: "Disponible sur toutes les offres" },
+      { ...pricingAddOns[3], name: "Recharges de credits", description: "Besoin de plus de requetes d intelligence ? Achetez des credits supplementaires pour n importe quelle offre.", note: "Disponible sur toutes les offres" },
     ],
     faqs: [
       { title: "Que se passe-t-il apres la periode gratuite ?", content: "Report Lite est gratuit a vie - pas d essai, pas d expiration. Quand vous etes pret a passer a l etape suivante, vous pouvez passer a une offre payante. Sans engagement et resiliable a tout moment." },
@@ -575,8 +565,7 @@ const localizedPricingPageContent: Partial<
       { ...pricingAddOns[0], description: "Inteligencia externa con seguimiento de competidores, impacto del clima, calendario de eventos y briefings de IA.", note: "Requiere Core" },
       { ...pricingAddOns[1], name: "Módulos especializados", description: "14 módulos especializados que incluyen ingresos, mano de obra, inventario, compras, marketing, reservas, beneficio, revenue assurance, delivery, experiencia del cliente, Guest CRM, Cross-Intelligence, Foresight Intelligence y Executive Summary.", note: "Requiere Core. Precio por módulo." },
       { ...pricingAddOns[2], description: "Motor de correlación que se desbloquea automáticamente y revela conexiones ocultas entre módulos. La base es gratis con 3+ módulos; Pro añade atribución completa y detección de canibalización.", note: "Requiere Core con 3+ módulos. Pro: 199$/mes + 19$/local" },
-      { ...pricingAddOns[3], name: "Sundae Crew", description: "El sustrato operativo que alimenta tu inteligencia de decisión. Horarios, T&A, nómina multi-región (US, Canadá, UK, UE, GCC sobre un solo motor), casework de RR.HH., comms y un portal de empleados gratis. La señal de la fuerza laboral llega a Labor Intelligence automáticamente.", note: "Módulos: Operaciones, T&A, Nómina. Descuento de bundle cuando los tres se conectan." },
-      { ...pricingAddOns[4], name: "Recargas de créditos", description: "¿Necesitas más consultas de inteligencia? Compra créditos adicionales para cualquier plan.", note: "Disponible en todos los planes" },
+      { ...pricingAddOns[3], name: "Recargas de créditos", description: "¿Necesitas más consultas de inteligencia? Compra créditos adicionales para cualquier plan.", note: "Disponible en todos los planes" },
     ],
     faqs: [
       { title: "¿Qué pasa después del periodo gratuito?", content: "Report Lite es gratis para siempre, sin prueba ni vencimiento. Cuando necesites más, puedes pasar a cualquier plan de pago. Sin permanencia y cancelable en cualquier momento." },
