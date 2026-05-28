@@ -45,6 +45,7 @@ type LocalizedCrew = {
   description: string;
   primaryCta: string;
   secondaryCta: string;
+  heroProof: { value: string; label: string }[];
 
   loopEyebrow: string;
   loopTitle: string;
@@ -62,6 +63,12 @@ type LocalizedCrew = {
 
   coverageLabel: string;
   coverageItems: { title: string; body: string }[];
+
+  retiresEyebrow: string;
+  retiresTitle: string;
+  retiresDescription: string;
+  retiresItems: { label: string; title: string; body: string }[];
+  retiresClosing: string;
 
   payrollEyebrow: string;
   payrollTitle: string;
@@ -111,6 +118,12 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     description: "Crew runs your people, schedules, time, HR operations, payroll readiness, and employee support. Every action becomes operating data that feeds Sundae's decision intelligence — a loop standalone HR or payroll vendors cannot close.",
     primaryCta: "Book a Crew Walkthrough",
     secondaryCta: "See Crew in Action",
+    heroProof: [
+      { value: "5", label: "Regions live" },
+      { value: "36", label: "Country / region packs" },
+      { value: "5", label: "Statutory export formats" },
+      { value: "9+", label: "Year-end form families" },
+    ],
 
     loopEyebrow: "WHY CREW SITS IN SUNDAE",
     loopTitle: "The operational layer that powers the intelligence layer.",
@@ -123,7 +136,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
     pillarsEyebrow: "WHAT SHIPS TODAY",
     pillarsTitle: "Six surfaces. One operational substrate.",
-    pillarsDescription: "Every Crew page is at depth-5 standard or on the rebuild backlog tracked publicly. No demo-only screens.",
+    pillarsDescription: "Production-grade surfaces with audit-ready workflows — built for daily operator use, not for demos.",
     pillars: [
       { title: "Scheduling", body: "AI Builder composes the schedule from demand forecast, role mix, and eligibility — then the manager edits the four view modes that matter (overview, by-person, by-shift, by-role). Recurrence, eligibility checks, conflict warnings, public-holiday overlays.", chips: ["AI Builder", "4 view modes", "Demand-matched", "Recurrence"] },
       { title: "Time & Attendance", body: "Mobile PWA clock-in with geo-fence and WebAuthn biometric. Break tracking, missed-punch flow, manager approval. Live trust scores feeding Workforce Health.", chips: ["Mobile PWA", "Geo-fence", "Biometric", "Trust scores"] },
@@ -143,6 +156,19 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
       { title: "Org tree & permissions", body: "Photo-card org view, reassign with cascade preview, Owner / HR-Admin / Manager / Employee permission tiers." },
       { title: "Admin & governance", body: "SSO, audit feed, RBAC, billing console, imports & bulk edit, multi-outlet management." },
     ],
+
+    retiresEyebrow: "WHAT CREW RETIRES",
+    retiresTitle: "Stop running workforce ops in parallel systems.",
+    retiresDescription: "Most operators run scheduling, T&A, payroll readiness, HR casework, employee comms, and workforce analytics in separate tools that don't talk to each other. Crew consolidates the operational substrate so the same workforce data flows through to decision intelligence.",
+    retiresItems: [
+      { label: "Scheduling", title: "Stand-alone scheduler", body: "Recurring shifts, AI builder, eligibility checks, swap marketplace, public-holiday overlays. One source of truth for the schedule." },
+      { label: "Time & Attendance", title: "Punch clock + spreadsheet variance", body: "Mobile PWA clock-in with geo-fence + WebAuthn biometric. Trust scores feed Workforce Health automatically." },
+      { label: "Payroll readiness", title: "Spreadsheet exports per region", body: "Multi-region engine produces NACHA / EFT / HMRC RTI / SEPA / WPS files + year-end forms. Cycle proof packs replace QA mail threads." },
+      { label: "HR casework", title: "Tickets in a generic helpdesk", body: "Ask-HR queue with private channels, attestations, disciplinary workflow, evidence packs — separate from product support." },
+      { label: "Comms", title: "Shift announcements over text", body: "Briefings with topology audience picker, team feed, kudos, surveys — operator-controlled, not employees screenshotting WhatsApp." },
+      { label: "Workforce analytics", title: "BI dashboards that can't see HR", body: "Labor Intelligence reads payroll cycle status, no-show risk, schedule pipeline, trust scores, open punches — without a separate ETL." },
+    ],
+    retiresClosing: "Crew is optional — bring your own HR (Bayzat, Personio, Pento, Gusto) and Sundae still consolidates the signal. Optional, not parallel.",
 
     payrollEyebrow: "MULTI-REGION PAYROLL",
     payrollTitle: "Payroll readiness across regions.",
@@ -182,11 +208,12 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
     personasEyebrow: "WHO RUNS CREW",
     personasTitle: "Built for the people who actually run the floor.",
-    personasDescription: "Four roles. Four scoped views. One source of truth.",
+    personasDescription: "Five roles. Five scoped views. One source of truth.",
     personas: [
       { title: "HR & People Lead", outcome: "Hire-to-retire in one platform — onboarding, performance, talent, payroll readiness, offboarding — feeding Labor Intelligence in the same breath.", metric: "60+ HR surfaces" },
       { title: "Operations Manager", outcome: "Schedule for demand, not for last week. AI Builder, eligibility-checked assignment, swap marketplace, manager actions queue.", metric: "AI-built schedules" },
       { title: "Payroll Admin", outcome: "Close payroll readiness without spreadsheet chaos. Multi-region packs — US, Canada, UK, EU, GCC — organize statutory exports, year-end surfaces, evidence, and partner handoff workflows.", metric: "US · CA · UK · EU · GCC" },
+      { title: "Finance Lead / CFO", outcome: "Close the month across every jurisdiction on the same readiness check. AI-explained cycle preview, proof packs per close, statutory exports + year-end forms standardized — month-end without the per-region scramble.", metric: "Multi-region close control" },
       { title: "Employees", outcome: "Free Sundae self-service portal. View shift, request time-off, swap, see payslip, attest policies, clock in via mobile PWA with biometric.", metric: "Free · always" },
     ],
 
@@ -208,6 +235,12 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     description: "Crew يدير موظفيك وجداولك وحضورك ورواتبك. كل فعل يصبح بيانات تشغيلية تغذي ذكاء قرارات Sundae — حلقة لا يستطيع موردو HR أو الرواتب القائمون بذاتهم إغلاقها.",
     primaryCta: "احجز جولة Crew",
     secondaryCta: "شاهد Crew في العمل",
+    heroProof: [
+      { value: "5", label: "مناطق فعّالة" },
+      { value: "36", label: "حزم دول / مناطق" },
+      { value: "5", label: "صيغ تصدير قانونية" },
+      { value: "9+", label: "عائلات نماذج نهاية السنة" },
+    ],
 
     loopEyebrow: "لماذا Crew داخل Sundae",
     loopTitle: "الطبقة التشغيلية التي تشغل طبقة الذكاء.",
@@ -220,7 +253,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
     pillarsEyebrow: "ما يُشحن اليوم",
     pillarsTitle: "ست واجهات. ركيزة تشغيلية واحدة.",
-    pillarsDescription: "كل صفحة Crew في معيار العمق-5 أو على قائمة إعادة البناء المُتتبعة علناً. لا شاشات للعرض فقط.",
+    pillarsDescription: "واجهات بمستوى الإنتاج وسير عمل جاهز للتدقيق — مبنية للاستخدام التشغيلي اليومي، لا للعروض.",
     pillars: [
       { title: "الجدولة", body: "AI Builder يؤلف الجدول من توقع الطلب ومزيج الأدوار والأهلية — ثم يحرر المدير الأنماط الأربعة (نظرة عامة، حسب الشخص، حسب الوردية، حسب الدور). تكرار، فحص أهلية، تحذيرات تعارض، تداخل عطل رسمية.", chips: ["AI Builder", "4 أنماط عرض", "متطابق مع الطلب", "تكرار"] },
       { title: "الوقت والحضور", body: "PWA جوال للتسجيل مع geo-fence وWebAuthn بيومتري. تتبع استراحات، تدفق ضربة فائتة، موافقة المدير. درجات ثقة حية تغذي Workforce Health.", chips: ["PWA جوال", "Geo-fence", "بيومتري", "درجات الثقة"] },
@@ -240,6 +273,19 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
       { title: "شجرة المنظمة والصلاحيات", body: "عرض بطاقة صور، إعادة تعيين بمعاينة سلسلة، طبقات صلاحيات: مالك / مدير HR / مدير / موظف." },
       { title: "الإدارة والحوكمة", body: "SSO، تغذية تدقيق، RBAC، وحدة فوترة، استيراد وتعديل دفعي، إدارة متعددة المواقع." },
     ],
+
+    retiresEyebrow: "ما يستغني عنه Crew",
+    retiresTitle: "أوقف تشغيل عمليات القوى العاملة في أنظمة متوازية.",
+    retiresDescription: "معظم المشغلين يديرون الجدولة، الوقت والحضور، جاهزية الرواتب، حالات HR، اتصالات الموظفين، وتحليلات القوى العاملة في أدوات منفصلة لا تتحدث. Crew يدمج الركيزة التشغيلية لتتدفق نفس البيانات إلى ذكاء القرار.",
+    retiresItems: [
+      { label: "الجدولة", title: "مجدول مستقل", body: "ورديات متكررة، AI Builder، فحوص أهلية، سوق تبديل، عُطل رسمية. مصدر واحد للجدول." },
+      { label: "الوقت والحضور", title: "ساعة دق + تباين Excel", body: "PWA جوال للتسجيل مع geo-fence وبيومتري WebAuthn. درجات الثقة تغذي Workforce Health تلقائياً." },
+      { label: "جاهزية الرواتب", title: "تصديرات Excel لكل منطقة", body: "محرك متعدد المناطق ينتج ملفات NACHA / EFT / HMRC RTI / SEPA / WPS ونماذج نهاية السنة. حزم إثبات الدورة تستبدل سلاسل بريد الجودة." },
+      { label: "حالات HR", title: "تذاكر في helpdesk عام", body: "طابور Ask-HR بقنوات خاصة، إقرارات، سير عمل تأديبي، حزم أدلة — منفصل عن دعم المنتج." },
+      { label: "الاتصالات", title: "إعلانات الورديات عبر النص", body: "إحاطات بمنتقي جمهور طوبولوجي، تغذية فريق، تقدير، استبيانات — يتحكم بها المشغل، لا لقطات شاشة WhatsApp." },
+      { label: "تحليلات القوى العاملة", title: "لوحات BI لا ترى HR", body: "Labor Intelligence يقرأ حالة دورة الرواتب، مخاطر الغياب، أنبوب الجدولة، درجات الثقة، الضربات المفتوحة — بدون ETL منفصل." },
+    ],
+    retiresClosing: "Crew اختياري — أحضر HR الخاص بك (Bayzat، Personio، Pento، Gusto) ويبقى Sundae يدمج الإشارة. اختياري لا موازٍ.",
 
     payrollEyebrow: "رواتب متعددة المناطق",
     payrollTitle: "جاهزية الرواتب عبر المناطق.",
@@ -279,11 +325,12 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
     personasEyebrow: "من يدير Crew",
     personasTitle: "مصمم للأشخاص الذين يديرون الأرضية فعلاً.",
-    personasDescription: "أربعة أدوار. أربع نظرات محددة. مصدر حقيقة واحد.",
+    personasDescription: "خمسة أدوار. خمس نظرات محددة. مصدر حقيقة واحد.",
     personas: [
       { title: "قائد HR", outcome: "من التعيين إلى التقاعد في منصة واحدة — تعيين، أداء، مواهب، جاهزية رواتب، إنهاء — يغذي Labor Intelligence في نفس النفس.", metric: "+60 واجهة HR" },
       { title: "مدير العمليات", outcome: "جدول للطلب لا للأسبوع الماضي. AI Builder، تعيين بفحص أهلية، سوق تبديل، طابور إجراءات المدير.", metric: "جداول AI" },
       { title: "مسؤول الرواتب", outcome: "أقفل جاهزية الرواتب بلا فوضى الجداول. حزم متعددة المناطق — الولايات المتحدة، كندا، المملكة المتحدة، الاتحاد الأوروبي، دول الخليج — تنظم التصديرات القانونية، أسطح نهاية السنة، الأدلة، وتسليم الشركاء.", metric: "US · CA · UK · EU · GCC" },
+      { title: "قائد المالية / CFO", outcome: "أغلق الشهر عبر كل ولاية قضائية بنفس فحص الجاهزية. معاينة دورة بشرح ذكي، حزم إثبات لكل إغلاق، تصديرات قانونية ونماذج نهاية السنة موحدة — نهاية الشهر بدون التسرع الإقليمي.", metric: "تحكم إغلاق متعدد المناطق" },
       { title: "الموظفون", outcome: "بوابة Sundae خدمة ذاتية مجانية. مشاهدة وردية، طلب إجازة، تبديل، رؤية كشف راتب، إقرار سياسات، تسجيل عبر PWA جوال ببيومتري.", metric: "مجاناً · دائماً" },
     ],
 
@@ -305,6 +352,12 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     description: "Crew fait tourner vos équipes, plannings, temps et paie. Chaque action devient donnée opérationnelle qui nourrit l'intelligence décisionnelle de Sundae — une boucle qu'aucun fournisseur RH ou paie autonome ne peut fermer.",
     primaryCta: "Réserver une visite Crew",
     secondaryCta: "Voir Crew en action",
+    heroProof: [
+      { value: "5", label: "Régions en production" },
+      { value: "36", label: "Packs pays / régions" },
+      { value: "5", label: "Formats d'export statutaires" },
+      { value: "9+", label: "Familles de formulaires fin d'année" },
+    ],
 
     loopEyebrow: "POURQUOI CREW EST DANS SUNDAE",
     loopTitle: "La couche opérationnelle qui alimente la couche d'intelligence.",
@@ -317,7 +370,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
     pillarsEyebrow: "CE QUI EXPÉDIE AUJOURD'HUI",
     pillarsTitle: "Six surfaces. Un seul substrat opérationnel.",
-    pillarsDescription: "Chaque page Crew est au standard profondeur-5 ou sur le backlog de refonte tracé publiquement. Pas d'écrans démo uniquement.",
+    pillarsDescription: "Surfaces production-grade et workflows audit-ready — conçues pour l'usage opérateur quotidien, pas pour les démos.",
     pillars: [
       { title: "Planification", body: "AI Builder compose le planning depuis prévision demande, mix de rôles et éligibilité — puis le manager édite les quatre modes (vue d'ensemble, par personne, par service, par rôle). Récurrence, contrôles d'éligibilité, alertes conflits, jours fériés.", chips: ["AI Builder", "4 modes", "Demande-adapté", "Récurrence"] },
       { title: "Temps & Présence", body: "PWA mobile pour pointage avec géo-fence et biométrie WebAuthn. Pauses, flux pointage manqué, approbation manager. Scores de confiance live alimentant Workforce Health.", chips: ["PWA mobile", "Géo-fence", "Biométrie", "Scores"] },
@@ -337,6 +390,19 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
       { title: "Org tree & permissions", body: "Vue carte-photo, réassignation avec cascade, tiers : Propriétaire / Admin RH / Manager / Employé." },
       { title: "Admin & gouvernance", body: "SSO, feed d'audit, RBAC, console de facturation, imports & édition en masse, multi-site." },
     ],
+
+    retiresEyebrow: "CE QUE CREW RETIRE",
+    retiresTitle: "Arrêtez de faire tourner les ops main-d'œuvre en systèmes parallèles.",
+    retiresDescription: "La plupart des opérateurs gèrent planification, T&A, préparation paie, casework RH, comms employés et analytics main-d'œuvre dans des outils séparés qui ne se parlent pas. Crew consolide le substrat opérationnel pour que les mêmes données alimentent la décision intelligence.",
+    retiresItems: [
+      { label: "Planning", title: "Planificateur autonome", body: "Récurrences, AI Builder, vérifs éligibilité, marketplace swap, jours fériés. Une seule source de vérité." },
+      { label: "Temps & Présence", title: "Pointage + variance tableur", body: "Pointage PWA mobile avec géo-fence + biométrie WebAuthn. Scores de confiance alimentent Workforce Health." },
+      { label: "Préparation paie", title: "Exports tableur par région", body: "Moteur multi-régions produit fichiers NACHA / EFT / HMRC RTI / SEPA / WPS + formulaires fin d'année. Proof packs remplacent les threads mail QA." },
+      { label: "Casework RH", title: "Tickets dans un helpdesk générique", body: "Queue Ask-HR avec canaux privés, attestations, workflow disciplinaire, evidence packs — séparé du support produit." },
+      { label: "Comms", title: "Annonces par SMS", body: "Briefings avec picker audience topologique, fil d'équipe, kudos, sondages — opérateur-contrôlé, pas screenshots WhatsApp." },
+      { label: "Analytics main-d'œuvre", title: "BI qui ne voit pas la RH", body: "Labor Intelligence lit cycle paie, no-show risk, pipeline planning, scores de confiance, punches ouverts — sans ETL séparé." },
+    ],
+    retiresClosing: "Crew est optionnel — BYO-HR (Bayzat, Personio, Pento, Gusto) et Sundae consolide quand même le signal. Optionnel, pas parallèle.",
 
     payrollEyebrow: "PAIE MULTI-RÉGIONS",
     payrollTitle: "Préparation paie à travers les régions.",
@@ -376,11 +442,12 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
     personasEyebrow: "QUI PILOTE CREW",
     personasTitle: "Conçu pour les gens qui font tourner le sol.",
-    personasDescription: "Quatre rôles. Quatre vues scopées. Une seule source de vérité.",
+    personasDescription: "Cinq rôles. Cinq vues scopées. Une seule source de vérité.",
     personas: [
       { title: "Responsable RH", outcome: "Hire-to-retire dans une plateforme — onboarding, performance, talents, paie-ready, offboarding — alimentant Labor Intelligence dans le même souffle.", metric: "60+ surfaces RH" },
       { title: "Manager opérations", outcome: "Planifier pour la demande, pas pour la semaine passée. AI Builder, assignation éligibilité, marketplace de swap, queue d'actions manager.", metric: "Plannings IA" },
       { title: "Admin paie", outcome: "Clore la préparation paie sans chaos de tableurs. Les packs multi-régions — États-Unis, Canada, Royaume-Uni, Union européenne, GCC — organisent exports statutaires, surfaces fin d'année, preuves et handoffs partenaires.", metric: "US · CA · UK · EU · GCC" },
+      { title: "Responsable Finance / CFO", outcome: "Cloturer le mois sur chaque juridiction avec le même check de readiness. Aperçu cycle expliqué par IA, proof packs par close, exports statutaires + formulaires fin d'année standardisés — fin de mois sans bousculade régionale.", metric: "Contrôle multi-régions" },
       { title: "Employés", outcome: "Portail Sundae self-service gratuit. Voir shifts, demander congés, swap, voir bulletin, attester policies, pointer via PWA mobile biométrique.", metric: "Gratuit · toujours" },
     ],
 
@@ -402,6 +469,12 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
     description: "Crew opera tu personal, horarios, tiempo y nómina. Cada acción se vuelve dato operativo que alimenta la inteligencia de decisión de Sundae — un bucle que ningún proveedor de RR.HH. o nómina por sí solo puede cerrar.",
     primaryCta: "Reservar recorrido Crew",
     secondaryCta: "Ver Crew en acción",
+    heroProof: [
+      { value: "5", label: "Regiones en producción" },
+      { value: "36", label: "Paquetes país / región" },
+      { value: "5", label: "Formatos de exporte estatutario" },
+      { value: "9+", label: "Familias de formularios fin de año" },
+    ],
 
     loopEyebrow: "POR QUÉ CREW VIVE EN SUNDAE",
     loopTitle: "La capa operativa que alimenta la capa de inteligencia.",
@@ -414,7 +487,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
     pillarsEyebrow: "LO QUE SE ENVÍA HOY",
     pillarsTitle: "Seis superficies. Un sustrato operativo.",
-    pillarsDescription: "Cada página de Crew está en estándar profundidad-5 o en el backlog de reconstrucción rastreado públicamente. Sin pantallas solo-demo.",
+    pillarsDescription: "Superficies de producción con flujos auditables — construidas para el uso operativo diario, no para demos.",
     pillars: [
       { title: "Horarios", body: "AI Builder compone el horario desde pronóstico de demanda, mix de roles y elegibilidad — luego el manager edita los cuatro modos (vista general, por persona, por turno, por rol). Recurrencia, verificación elegibilidad, alertas conflicto, festivos.", chips: ["AI Builder", "4 modos", "Demanda-ajustado", "Recurrencia"] },
       { title: "Tiempo y Asistencia", body: "PWA móvil para fichar con geo-cerca y biometría WebAuthn. Descansos, flujo de fichaje perdido, aprobación manager. Scores de confianza en vivo alimentando Workforce Health.", chips: ["PWA móvil", "Geo-cerca", "Biometría", "Scores"] },
@@ -434,6 +507,19 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
       { title: "Org tree y permisos", body: "Vista tarjeta-foto, reasignación con cascada, niveles: Propietario / Admin RR.HH. / Manager / Empleado." },
       { title: "Admin y gobierno", body: "SSO, feed de auditoría, RBAC, consola de facturación, importes y edición masiva, multi-local." },
     ],
+
+    retiresEyebrow: "QUÉ RETIRA CREW",
+    retiresTitle: "Deja de operar la fuerza laboral en sistemas paralelos.",
+    retiresDescription: "La mayoría de operadores corren horarios, T&A, readiness de nómina, casework RR.HH., comms de empleados y analítica laboral en herramientas separadas que no se hablan. Crew consolida el sustrato operativo para que los mismos datos fluyan a la inteligencia de decisión.",
+    retiresItems: [
+      { label: "Horarios", title: "Programador independiente", body: "Recurrencias, AI Builder, verificación de elegibilidad, marketplace de swap, festivos. Una fuente de verdad." },
+      { label: "Tiempo & Asistencia", title: "Reloj + varianza Excel", body: "Fichaje PWA móvil con geo-cerca + biometría WebAuthn. Scores de confianza alimentan Workforce Health." },
+      { label: "Readiness de nómina", title: "Exportes Excel por región", body: "Motor multi-región produce archivos NACHA / EFT / HMRC RTI / SEPA / WPS + formularios fin de año. Proof packs reemplazan hilos QA." },
+      { label: "Casework RR.HH.", title: "Tickets en helpdesk genérico", body: "Cola Ask-HR con canales privados, attestations, workflow disciplinario, evidence packs — separado del soporte producto." },
+      { label: "Comms", title: "Anuncios por SMS", body: "Briefings con picker de audiencia topológico, feed de equipo, kudos, encuestas — operador-controlado, no screenshots de WhatsApp." },
+      { label: "Analítica laboral", title: "BI que no ve RR.HH.", body: "Labor Intelligence lee ciclo de nómina, riesgo no-show, pipeline de horarios, scores de confianza, punches abiertos — sin ETL separado." },
+    ],
+    retiresClosing: "Crew es opcional — BYO-HR (Bayzat, Personio, Pento, Gusto) y Sundae sigue consolidando la señal. Opcional, no paralelo.",
 
     payrollEyebrow: "NÓMINA MULTI-REGIÓN",
     payrollTitle: "Preparación de nómina entre regiones.",
@@ -473,11 +559,12 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 
     personasEyebrow: "QUIÉN OPERA CREW",
     personasTitle: "Construido para quienes realmente operan el piso.",
-    personasDescription: "Cuatro roles. Cuatro vistas scopeadas. Una fuente de verdad.",
+    personasDescription: "Cinco roles. Cinco vistas scopeadas. Una fuente de verdad.",
     personas: [
       { title: "Líder RR.HH.", outcome: "Hire-to-retire en una plataforma — onboarding, performance, talento, ready de nómina, offboarding — alimentando Labor Intelligence en el mismo aliento.", metric: "60+ superficies RR.HH." },
       { title: "Manager operaciones", outcome: "Programar para la demanda, no para la semana pasada. AI Builder, asignación con elegibilidad, marketplace de swap, cola de acciones manager.", metric: "Horarios IA" },
       { title: "Admin nómina", outcome: "Cerrar la preparación de nómina sin caos de hojas de cálculo. Los paquetes multi-región — Estados Unidos, Canadá, Reino Unido, Unión Europea, GCC — organizan exportes estatutarios, superficies fin de año, evidencia y handoffs a partners.", metric: "US · CA · UK · EU · GCC" },
+      { title: "Líder Finanzas / CFO", outcome: "Cierra el mes en cada jurisdicción con el mismo check de readiness. Preview de ciclo explicado por IA, proof packs por close, exportes estatutarios + formularios fin de año estandarizados — cierre sin la carrera regional.", metric: "Control multi-región" },
       { title: "Empleados", outcome: "Portal Sundae self-service gratis. Ver turno, pedir vacaciones, swap, ver nómina, attest policies, fichar vía PWA móvil biométrico.", metric: "Gratis · siempre" },
     ],
 
@@ -533,6 +620,21 @@ export default function CrewPage() {
                 <Link href="/demo"><Button variant="primary" size="lg">{copy.primaryCta}</Button></Link>
                 <a href={REPORT_APP_URL}><Button variant="outline-light" size="lg">{copy.secondaryCta}</Button></a>
               </motion.div>
+
+              {/* Hero proof strip — quantified depth of the multi-region payroll shipment */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.45 }}
+                className="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-xl"
+              >
+                {copy.heroProof.map((p) => (
+                  <div key={p.label} className="rounded-xl bg-white/[0.04] dark:bg-white/[0.04] border border-[var(--border-default)] px-3 py-3">
+                    <div className="text-2xl sm:text-[28px] font-bold leading-none text-[var(--text-primary)]">{p.value}</div>
+                    <div className="mt-1.5 text-[10.5px] uppercase tracking-[0.08em] text-[var(--text-muted)] font-semibold leading-tight">{p.label}</div>
+                  </div>
+                ))}
+              </motion.div>
             </div>
             <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1, ease: [0.22, 1, 0.36, 1], delay: 0.4 }} className="lg:pl-4" style={{ perspective: "1200px" }}>
               <motion.div initial={{ rotateX: 6 }} animate={{ rotateX: 1.5 }} transition={{ duration: 1.2, delay: 0.5, ease: [0.25, 0.1, 0.25, 1] }}>
@@ -577,62 +679,9 @@ export default function CrewPage() {
         </section>
 
         {/* ════════════════════════════════════════════════
-            PILLARS — 6 feature surfaces
-        ════════════════════════════════════════════════ */}
-        <section className="relative py-20 px-4 sm:px-6 lg:px-8">
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(28,71,255,0.04),transparent_60%)]" />
-          <div className="relative z-10 max-w-7xl mx-auto">
-            <FadeUp className="text-center max-w-3xl mx-auto mb-14">
-              <p className="eyebrow mb-4">{copy.pillarsEyebrow}</p>
-              <h2 className="section-h2 text-balance mb-5">{copy.pillarsTitle}</h2>
-              <p className="body-lg max-w-2xl mx-auto">{copy.pillarsDescription}</p>
-            </FadeUp>
-
-            <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-              {copy.pillars.map((p, i) => (
-                <StaggerItem key={i}>
-                  <div className="group h-full p-6 rounded-2xl bg-white/[0.03] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:border-[rgba(28,71,255,0.25)] hover:shadow-[0_0_30px_rgba(28,71,255,0.08)] transition-all duration-300">
-                    <div className={`w-11 h-11 rounded-xl bg-gradient-to-br ${featurePillars[i].accent} flex items-center justify-center text-white shadow-lg mb-5`}>
-                      <SundaeIcon name={featurePillars[i].icon} size="md" className="text-white" />
-                    </div>
-                    <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-3 leading-snug">{p.title}</h3>
-                    <p className="text-sm text-[var(--text-muted)] leading-relaxed mb-4">{p.body}</p>
-                    <div className="flex flex-wrap gap-1.5 pt-3 border-t border-white/[0.06]">
-                      {p.chips.map((chip) => (
-                        <span key={chip} className="text-[10px] font-semibold px-2 py-0.5 rounded-md bg-[var(--electric-blue)]/15 text-[#60A5FA] border border-[var(--electric-blue)]/25">
-                          {chip}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                </StaggerItem>
-              ))}
-            </StaggerContainer>
-
-            {/* COVERAGE STRIP — what else ships with every Crew deployment */}
-            <FadeUp delay={0.2} className="mt-12 max-w-6xl mx-auto">
-              <div className="rounded-2xl p-6 sm:p-7 bg-white/[0.025] border border-[var(--border-default)]">
-                <p className="text-[11px] uppercase tracking-[0.18em] text-[var(--text-muted)] font-semibold mb-5 text-center">
-                  + {copy.coverageLabel}
-                </p>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
-                  {copy.coverageItems.map((item) => (
-                    <div key={item.title} className="flex items-start gap-3">
-                      <svg className="w-4 h-4 text-[#60A5FA] flex-shrink-0 mt-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M20 6 9 17l-5-5" /></svg>
-                      <div>
-                        <div className="text-sm font-semibold text-[var(--text-primary)] mb-1 leading-snug">{item.title}</div>
-                        <div className="text-[12px] text-[var(--text-muted)] leading-snug">{item.body}</div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </FadeUp>
-          </div>
-        </section>
-
-        {/* ════════════════════════════════════════════════
             PAYROLL MOAT — multi-region clusters + capability strips
+            Promoted above pillars (2026-05-29) so the strongest proof
+            lands before the breadth pillars.
         ════════════════════════════════════════════════ */}
         <section className="relative py-20 px-4 sm:px-6 lg:px-8">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(34,197,94,0.05),transparent_60%)]" />
@@ -712,6 +761,89 @@ export default function CrewPage() {
 
             <p className="mt-12 text-center text-sm sm:text-base text-[var(--text-muted)] max-w-3xl mx-auto italic">
               {copy.payrollClosing}
+            </p>
+          </div>
+        </section>
+
+        {/* ════════════════════════════════════════════════
+            PILLARS — 6 feature surfaces + coverage strip
+        ════════════════════════════════════════════════ */}
+        <section className="relative py-20 px-4 sm:px-6 lg:px-8">
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(28,71,255,0.04),transparent_60%)]" />
+          <div className="relative z-10 max-w-7xl mx-auto">
+            <FadeUp className="text-center max-w-3xl mx-auto mb-14">
+              <p className="eyebrow mb-4">{copy.pillarsEyebrow}</p>
+              <h2 className="section-h2 text-balance mb-5">{copy.pillarsTitle}</h2>
+              <p className="body-lg max-w-2xl mx-auto">{copy.pillarsDescription}</p>
+            </FadeUp>
+
+            <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+              {copy.pillars.map((p, i) => (
+                <StaggerItem key={i}>
+                  <div className="group h-full p-6 rounded-2xl bg-white/[0.03] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:border-[rgba(28,71,255,0.25)] hover:shadow-[0_0_30px_rgba(28,71,255,0.08)] transition-all duration-300">
+                    <div className={`w-11 h-11 rounded-xl bg-gradient-to-br ${featurePillars[i].accent} flex items-center justify-center text-white shadow-lg mb-5`}>
+                      <SundaeIcon name={featurePillars[i].icon} size="md" className="text-white" />
+                    </div>
+                    <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-3 leading-snug">{p.title}</h3>
+                    <p className="text-sm text-[var(--text-muted)] leading-relaxed mb-4">{p.body}</p>
+                    <div className="flex flex-wrap gap-1.5 pt-3 border-t border-white/[0.06]">
+                      {p.chips.map((chip) => (
+                        <span key={chip} className="text-[10px] font-semibold px-2 py-0.5 rounded-md bg-[var(--electric-blue)]/15 text-[#60A5FA] border border-[var(--electric-blue)]/25">
+                          {chip}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </StaggerItem>
+              ))}
+            </StaggerContainer>
+
+            {/* COVERAGE STRIP — what else ships with every Crew deployment */}
+            <FadeUp delay={0.2} className="mt-12 max-w-6xl mx-auto">
+              <div className="rounded-2xl p-6 sm:p-7 bg-white/[0.025] border border-[var(--border-default)]">
+                <p className="text-[11px] uppercase tracking-[0.18em] text-[var(--text-muted)] font-semibold mb-5 text-center">
+                  + {copy.coverageLabel}
+                </p>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
+                  {copy.coverageItems.map((item) => (
+                    <div key={item.title} className="flex items-start gap-3">
+                      <svg className="w-4 h-4 text-[#60A5FA] flex-shrink-0 mt-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M20 6 9 17l-5-5" /></svg>
+                      <div>
+                        <div className="text-sm font-semibold text-[var(--text-primary)] mb-1 leading-snug">{item.title}</div>
+                        <div className="text-[12px] text-[var(--text-muted)] leading-snug">{item.body}</div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </FadeUp>
+          </div>
+        </section>
+
+        {/* ════════════════════════════════════════════════
+            WHAT CREW RETIRES — parallel-systems framing
+        ════════════════════════════════════════════════ */}
+        <section className="relative py-20 px-4 sm:px-6 lg:px-8">
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(245,158,11,0.04),transparent_60%)]" />
+          <div className="relative z-10 max-w-6xl mx-auto">
+            <FadeUp className="text-center max-w-3xl mx-auto mb-12">
+              <p className="eyebrow mb-4">{copy.retiresEyebrow}</p>
+              <h2 className="section-h2 text-balance mb-5">{copy.retiresTitle}</h2>
+              <p className="body-lg max-w-2xl mx-auto">{copy.retiresDescription}</p>
+            </FadeUp>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {copy.retiresItems.map((item) => (
+                <div key={item.title} className="rounded-2xl p-5 bg-[var(--surface-subtle)] border border-[var(--border-default)]">
+                  <div className="text-[10px] uppercase tracking-wider font-bold text-[#F59E0B] mb-2">{item.label}</div>
+                  <div className="text-sm font-semibold text-[var(--text-primary)] mb-1 leading-snug">{item.title}</div>
+                  <div className="text-[12px] text-[var(--text-muted)] leading-snug">{item.body}</div>
+                </div>
+              ))}
+            </div>
+
+            <p className="mt-10 text-center text-sm sm:text-base text-[var(--text-muted)] max-w-3xl mx-auto italic">
+              {copy.retiresClosing}
             </p>
           </div>
         </section>
