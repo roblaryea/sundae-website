@@ -1,18 +1,28 @@
+/**
+ * CTA submission endpoint — receives lead-capture form submissions from
+ * the marketing site and forwards them to the Sundae backend at
+ * POST /api/v1/public/marketing/leads (HMAC-signed).
+ *
+ * The Sundae backend:
+ *   - persists to `marketing_leads`
+ *   - sends the branded auto-response from sales@sundaetechnologies.com
+ *     via Microsoft Graph send-as
+ *   - notifies the admin pool (email + in-app + telegram)
+ *
+ * Admins triage and follow up from /admin/marketing/leads in sundae-app.
+ *
+ * The legacy ClickUp + Google Sheets integration was removed on cutover.
+ */
+
 import { NextRequest, NextResponse } from 'next/server';
 import { randomUUID } from 'crypto';
 import {
-  saveSubmissionUnified,
-  checkStorageHealth
-} from '@/lib/unifiedSubmissionStore';
-import { createClickUpTask, type ClickUpTaskPayload } from '@/lib/clickupClient';
-import {
   isSundaeBackendConfigured,
-  leadBackendMode,
   submitLeadToSundae,
   type SundaeLeadPayload,
 } from '@/lib/sundaeLeadClient';
 
-// Force Node.js runtime (required for crypto and Google Auth)
+// Force Node.js runtime (required for crypto)
 export const runtime = 'nodejs';
 
 // ------------------------------------
@@ -34,60 +44,10 @@ function isRateLimited(ip: string): boolean {
   return false;
 }
 
-// Resilient custom field ID constants with hard-coded fallbacks
-const CLICKUP_CF_CTA_LABEL_ID =
-  process.env.CLICKUP_CF_CTA_LABEL ?? '36f1fbf8-f073-4f59-b8eb-4c6437a9837d';
-const CLICKUP_CF_SOURCE_PAGE_ID =
-  process.env.CLICKUP_CF_SOURCE_PAGE ?? '78b29945-620e-4482-b0b8-968e5dab1177';
-const CLICKUP_CF_UTM_SOURCE_ID =
-  process.env.CLICKUP_CF_UTM_SOURCE ?? '398fcea4-120f-4fdb-8a80-4592039dd0eb';
-const CLICKUP_CF_UTM_MEDIUM_ID =
-  process.env.CLICKUP_CF_UTM_MEDIUM ?? '6904cc9c-248a-43d4-808e-673a18d983b6';
-const CLICKUP_CF_UTM_CAMPAIGN_ID =
-  process.env.CLICKUP_CF_UTM_CAMPAIGN ?? '679bdacd-8e4c-49c1-b86f-b271db411c18';
-
-const CLICKUP_FIELD_FULL_NAME_ID =
-  process.env.CLICKUP_FIELD_FULL_NAME ?? '0232fd57-5fd3-41b8-971d-b0029b5b4e36';
-const CLICKUP_FIELD_EMAIL_ID =
-  process.env.CLICKUP_FIELD_EMAIL ?? 'f713606f-9fa4-4365-98f2-7164be62b28e';
-const CLICKUP_FIELD_COMPANY_ID =
-  process.env.CLICKUP_FIELD_COMPANY ?? 'e3404ef6-a6d7-4cbc-8a4f-d8ade43d9ef0';
-const CLICKUP_FIELD_ROLE_ID =
-  process.env.CLICKUP_FIELD_ROLE ?? 'a926c39d-a9b7-4f2f-8e07-80e63404be95';
-const CLICKUP_FIELD_PHONE_ID =
-  process.env.CLICKUP_FIELD_PHONE ?? 'c27b9f74-0edc-4835-a806-ffacdad62b06';
-const CLICKUP_FIELD_COUNTRY_ID =
-  process.env.CLICKUP_FIELD_COUNTRY ?? 'beeceb60-b563-404f-81fd-261aeab7768b';
-const CLICKUP_FIELD_POS_ID =
-  process.env.CLICKUP_FIELD_POS ?? '3d0c2c5e-71ca-4ed1-85e2-c89049c8a4a9';
-const CLICKUP_FIELD_LOCATIONS_ID =
-  process.env.CLICKUP_FIELD_LOCATIONS ?? 'f261fec2-638b-49e8-bca6-c2a6c9beb0a1';
-const CLICKUP_FIELD_MESSAGE_ID =
-  process.env.CLICKUP_FIELD_MESSAGE ?? '20f58b0c-1c6c-4e3d-b989-5b93efb1ba53';
-
-/**
- * Check required ClickUp configuration
- * Returns list of missing env vars (never reveals actual values)
- */
-function getMissingClickUpConfig(): string[] {
-  const missing: string[] = [];
-  if (!process.env.CLICKUP_API_TOKEN) missing.push('CLICKUP_API_TOKEN');
-  if (!process.env.CLICKUP_LIST_ID) missing.push('CLICKUP_LIST_ID');
-  return missing;
-}
-
-function getErrorMessage(error: unknown): string {
-  return error instanceof Error ? error.message : 'Unknown error';
-}
-
 export async function POST(request: NextRequest) {
-  // Generate unique request ID for tracking
   const requestId = randomUUID();
   const startTime = Date.now();
 
-  // ------------------------------------
-  // Rate limit check (by IP)
-  // ------------------------------------
   const forwarded = request.headers.get('x-forwarded-for');
   const ip = forwarded?.split(',')[0]?.trim() || request.headers.get('x-real-ip') || 'unknown';
 
@@ -105,22 +65,19 @@ export async function POST(request: NextRequest) {
 
   console.log(`[${requestId}] ===== CTA SUBMISSION START =====`);
 
-  // Log configuration status (without secrets)
-  const storageHealth = checkStorageHealth();
-  const missingClickUp = getMissingClickUpConfig();
-  
-  console.log(`[${requestId}] Config check:`, {
-    clickupConfigured: missingClickUp.length === 0,
-    missingClickUp: missingClickUp.length > 0 ? missingClickUp : undefined,
-    storageType: storageHealth.type,
-    storageConfigured: storageHealth.configured,
-    storageWarnings: storageHealth.warnings.length > 0 ? storageHealth.warnings : undefined,
-  });
+  if (!isSundaeBackendConfigured()) {
+    console.error(`[${requestId}] Sundae backend not configured: SUNDAE_BACKEND_URL + MARKETING_LEAD_HMAC_SECRET required`);
+    return NextResponse.json(
+      {
+        success: false,
+        error: 'Lead capture backend is misconfigured. Please contact support.',
+        requestId,
+      },
+      { status: 503 }
+    );
+  }
 
   try {
-    // =========================================
-    // STEP 1: Parse and validate request body
-    // =========================================
     const body = await request.json();
     const {
       name,
@@ -128,6 +85,7 @@ export async function POST(request: NextRequest) {
       company,
       role,
       country,
+      countryCode,
       phone,
       numberOfLocations,
       primaryPOS,
@@ -154,8 +112,8 @@ export async function POST(request: NextRequest) {
     if (missingFields.length > 0) {
       console.error(`[${requestId}] Validation failed: missing fields`, missingFields);
       return NextResponse.json(
-        { 
-          success: false, 
+        {
+          success: false,
           error: 'Missing or invalid required fields',
           invalidFields: missingFields,
           requestId,
@@ -164,13 +122,11 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Validate email format
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
-      console.error(`[${requestId}] Validation failed: invalid email`);
       return NextResponse.json(
-        { 
-          success: false, 
+        {
+          success: false,
           error: 'Invalid email address',
           invalidFields: ['email'],
           requestId,
@@ -179,13 +135,11 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Validate phone number (must have at least 6 digits)
-    const phoneDigits = phone.replace(/[\s\-\(\)]/g, '');
+    const phoneDigits = phone.replace(/[\s\-()]/g, '');
     if (!/\d{6,}/.test(phoneDigits)) {
-      console.error(`[${requestId}] Validation failed: invalid phone`);
       return NextResponse.json(
-        { 
-          success: false, 
+        {
+          success: false,
           error: 'Invalid phone number',
           invalidFields: ['phone'],
           requestId,
@@ -196,327 +150,64 @@ export async function POST(request: NextRequest) {
 
     console.log(`[${requestId}] Validation passed for ${email}`);
 
-    // Prepare submission data
-    const submissionData = {
-      name,
+    const sundaePayload: SundaeLeadPayload = {
+      fullName: name,
       email,
-      company,
-      role,
-      country,
-      phone,
-      numberOfLocations,
-      primaryPOS,
-      message,
-      ctaLabel,
-      sourcePage,
-      utmSource,
-      utmMedium,
-      utmCampaign,
+      company: company || null,
+      role: role || null,
+      country: country || null,
+      countryCode: countryCode || null,
+      phone: phone || null,
+      primaryPos: primaryPOS || null,
+      numberOfLocations: numberOfLocations || null,
+      message: message || null,
+      ctaLabel: ctaLabel || null,
+      sourcePage: sourcePage || null,
+      utmSource: utmSource || null,
+      utmMedium: utmMedium || null,
+      utmCampaign: utmCampaign || null,
+      referrerUrl: request.headers.get('referer'),
+      metadata: { requestId, websiteIp: ip },
     };
 
-    // =========================================
-    // STEP 1.5: Forward to Sundae backend (new primary path)
-    // =========================================
-    // Wire to api.sundaetech.ai/api/v1/public/marketing/leads behind LEAD_BACKEND
-    // flag. The Sundae backend persists to marketing_leads, fires the branded
-    // auto-response email, and pings the admin pool — no ClickUp dependency.
-    // ClickUp path stays as a rollback option when LEAD_BACKEND=clickup, and
-    // can run in parallel when LEAD_BACKEND=both for migration testing.
-    const mode = leadBackendMode();
-    const sundaeConfigured = isSundaeBackendConfigured();
+    const sundaeResult = await submitLeadToSundae(sundaePayload);
+    console.log(`[${requestId}] Sundae backend submit:`, {
+      ok: sundaeResult.ok,
+      status: sundaeResult.status,
+      leadId: sundaeResult.leadId,
+      error: sundaeResult.error,
+      durationMs: Date.now() - startTime,
+    });
 
-    if ((mode === 'sundae' || mode === 'both') && sundaeConfigured) {
-      const sundaePayload: SundaeLeadPayload = {
-        fullName: name,
-        email,
-        company: company || null,
-        role: role || null,
-        country: country || null,
-        phone: phone || null,
-        primaryPos: primaryPOS || null,
-        numberOfLocations: numberOfLocations || null,
-        message: message || null,
-        ctaLabel: ctaLabel || null,
-        sourcePage: sourcePage || null,
-        utmSource: utmSource || null,
-        utmMedium: utmMedium || null,
-        utmCampaign: utmCampaign || null,
-        referrerUrl: request.headers.get('referer'),
-        metadata: { requestId, websiteIp: ip },
-      };
-      const sundaeResult = await submitLeadToSundae(sundaePayload);
-      console.log(`[${requestId}] Sundae backend submit:`, {
-        ok: sundaeResult.ok,
-        status: sundaeResult.status,
-        leadId: sundaeResult.leadId,
-        error: sundaeResult.error,
-      });
-      if (sundaeResult.ok && mode === 'sundae') {
-        // Sundae owns the lead. Best-effort archive to local storage, then return.
-        try {
-          await saveSubmissionUnified(
-            submissionData,
-            'success',
-            sundaeResult.leadId,
-            undefined,
-            requestId
-          );
-        } catch (storageErr: unknown) {
-          console.warn(`[${requestId}] Storage archive failed:`, getErrorMessage(storageErr));
-        }
-        return NextResponse.json({
-          success: true,
-          message: 'Your request has been received. A Sundae specialist will respond within 24 hours.',
-          leadId: sundaeResult.leadId,
-          leadNumber: sundaeResult.leadNumber,
-          submissionId: sundaeResult.leadId,
+    if (!sundaeResult.ok) {
+      // Surface a generic error to the user but keep the request_id so
+      // admins can trace through Vercel logs + Railway logs to find the
+      // root cause. The form will let the user retry.
+      return NextResponse.json(
+        {
+          success: false,
+          error: 'We could not record your request right now. Please try again in a few minutes.',
           requestId,
-        });
-      }
-      if (!sundaeResult.ok && mode === 'sundae') {
-        console.error(`[${requestId}] Sundae backend failed; falling back to ClickUp path.`);
-        // Intentional fall-through to ClickUp legacy flow below for redundancy
-        // during the migration window. Once LEAD_BACKEND=sundae is stable in
-        // prod, the ClickUp code below can be deleted.
-      }
-    }
-
-    // =========================================
-    // STEP 2: Check ClickUp configuration
-    // =========================================
-    const apiToken = process.env.CLICKUP_API_TOKEN;
-    const listId = process.env.CLICKUP_LIST_ID;
-
-    if (!apiToken || !listId) {
-      console.error(`[${requestId}] ClickUp not configured:`, missingClickUp);
-      
-      // Try to save to storage anyway (best-effort)
-      let submissionId = `no-clickup-${randomUUID()}`;
-      try {
-        const submission = await saveSubmissionUnified(
-          submissionData, 
-          'failed', 
-          undefined, 
-          `ClickUp not configured: ${missingClickUp.join(', ')}`,
-          requestId
-        );
-        submissionId = submission.id;
-        console.log(`[${requestId}] Saved to storage despite ClickUp missing:`, {
-          id: submission.id,
-          type: submission.storageType,
-        });
-      } catch (storageErr: unknown) {
-        console.error(`[${requestId}] Storage also failed:`, getErrorMessage(storageErr));
-      }
-
-      // Return success to user - we at least tried to store it
-      return NextResponse.json({
-        success: true,
-        message: 'Your request has been received and will be processed shortly.',
-        submissionId,
-        requestId,
-      });
-    }
-
-    // =========================================
-    // STEP 3: Create ClickUp task (PRIMARY GOAL)
-    // =========================================
-    
-    // Build task description
-    const description = `
-**Lead Information**
-----------------
-- **Name:** ${name}
-- **Email:** ${email}
-- **Company:** ${company}
-- **Role:** ${role}
-- **Country:** ${country}
-- **Phone:** ${phone}
-- **Number of Locations:** ${numberOfLocations}
-- **Primary POS/System:** ${primaryPOS}
-
-**Message:**
-${message}
-
-**Source Information**
-----------------
-- **CTA Label:** ${ctaLabel || 'Website Lead'}
-- **Source Page:** ${sourcePage || 'Unknown'}
-- **UTM Source:** ${utmSource || 'N/A'}
-- **UTM Medium:** ${utmMedium || 'N/A'}
-- **UTM Campaign:** ${utmCampaign || 'N/A'}
-
-**Submitted:** ${new Date().toISOString()}
-**Request ID:** ${requestId}
-    `.trim();
-
-    // Prepare ClickUp task payload
-    const taskPayload: ClickUpTaskPayload = {
-      name: `${ctaLabel || 'Website Lead'} – ${name}`,
-      description,
-      priority: 3,
-    };
-
-    // Build custom fields array
-    const customFields: { id: string; value: string }[] = [];
-    
-    if (CLICKUP_FIELD_FULL_NAME_ID && name) {
-      customFields.push({ id: CLICKUP_FIELD_FULL_NAME_ID, value: name });
-    }
-    if (CLICKUP_FIELD_EMAIL_ID && email) {
-      customFields.push({ id: CLICKUP_FIELD_EMAIL_ID, value: email });
-    }
-    if (CLICKUP_FIELD_COMPANY_ID && company) {
-      customFields.push({ id: CLICKUP_FIELD_COMPANY_ID, value: company });
-    }
-    if (CLICKUP_FIELD_ROLE_ID && role) {
-      customFields.push({ id: CLICKUP_FIELD_ROLE_ID, value: role });
-    }
-    if (CLICKUP_FIELD_PHONE_ID && phone) {
-      customFields.push({ id: CLICKUP_FIELD_PHONE_ID, value: phone });
-    }
-    if (CLICKUP_FIELD_COUNTRY_ID && country) {
-      customFields.push({ id: CLICKUP_FIELD_COUNTRY_ID, value: country });
-    }
-    if (CLICKUP_FIELD_POS_ID && primaryPOS) {
-      customFields.push({ id: CLICKUP_FIELD_POS_ID, value: primaryPOS });
-    }
-    if (CLICKUP_FIELD_LOCATIONS_ID && numberOfLocations) {
-      customFields.push({ id: CLICKUP_FIELD_LOCATIONS_ID, value: numberOfLocations });
-    }
-    if (CLICKUP_FIELD_MESSAGE_ID && message) {
-      customFields.push({ id: CLICKUP_FIELD_MESSAGE_ID, value: message });
-    }
-    
-    // Source tracking fields
-    if (CLICKUP_CF_CTA_LABEL_ID && ctaLabel) {
-      customFields.push({ id: CLICKUP_CF_CTA_LABEL_ID, value: ctaLabel });
-    }
-    if (CLICKUP_CF_SOURCE_PAGE_ID && sourcePage) {
-      customFields.push({ id: CLICKUP_CF_SOURCE_PAGE_ID, value: sourcePage });
-    }
-    if (CLICKUP_CF_UTM_SOURCE_ID && utmSource) {
-      customFields.push({ id: CLICKUP_CF_UTM_SOURCE_ID, value: utmSource });
-    }
-    if (CLICKUP_CF_UTM_MEDIUM_ID && utmMedium) {
-      customFields.push({ id: CLICKUP_CF_UTM_MEDIUM_ID, value: utmMedium });
-    }
-    if (CLICKUP_CF_UTM_CAMPAIGN_ID && utmCampaign) {
-      customFields.push({ id: CLICKUP_CF_UTM_CAMPAIGN_ID, value: utmCampaign });
-    }
-
-    if (customFields.length > 0) {
-      taskPayload.custom_fields = customFields;
-    }
-
-    console.log(`[${requestId}] Creating ClickUp task...`);
-
-    // Call ClickUp API with automatic retries
-    const result = await createClickUpTask(apiToken, listId, taskPayload, requestId);
-
-    // =========================================
-    // STEP 4: Save to storage (BEST-EFFORT)
-    // =========================================
-    // Storage happens AFTER ClickUp - it should never block ClickUp success
-    
-    let submissionId = `clickup-${result.success ? result.task?.id : 'failed'}-${randomUUID().slice(0, 8)}`;
-    let storageWarning: string | undefined;
-
-    try {
-      const submission = await saveSubmissionUnified(
-        submissionData,
-        result.success ? 'success' : 'failed',
-        result.success ? result.task?.id : undefined,
-        result.success ? undefined : result.error?.message,
-        requestId
+        },
+        { status: 502 }
       );
-      submissionId = submission.id;
-      
-      if (submission.storageError) {
-        storageWarning = submission.storageError;
-        console.warn(`[${requestId}] [STORAGE_WARNING] Storage degraded:`, storageWarning);
-      } else {
-        console.log(`[${requestId}] Saved to storage (${submission.storageType}): ${submission.id}`);
-      }
-    } catch (storageErr: unknown) {
-      // This should never happen with the new best-effort storage, but handle it anyway
-      const storageErrorMessage = getErrorMessage(storageErr);
-      storageWarning = `Storage exception: ${storageErrorMessage}`;
-      console.error(`[${requestId}] [STORAGE_ERROR] Unexpected storage failure:`, storageErrorMessage);
     }
 
-    // =========================================
-    // STEP 5: Return response
-    // =========================================
-    const duration = Date.now() - startTime;
-
-    if (result.success) {
-      console.log(`[${requestId}] ===== SUCCESS (${duration}ms) =====`);
-      console.log(`[${requestId}] ClickUp Task ID: ${result.task.id}`);
-      console.log(`[${requestId}] ClickUp Task URL: ${result.task.url}`);
-      if (storageWarning) {
-        console.warn(`[${requestId}] Storage warning: ${storageWarning}`);
-      }
-
-      return NextResponse.json({
-        success: true,
-        message: 'Thank you! We have received your request.',
-        submissionId,
-        taskId: result.task.id,
-        taskUrl: result.task.url,
-        requestId,
-      });
-    } else {
-      // ClickUp failed, but we still saved the submission
-      const { error } = result;
-      
-      console.error(`[${requestId}] ClickUp sync failed:`, {
-        type: error.type,
-        message: error.message,
-        retryable: error.retryable,
-      });
-
-      console.log(`[${requestId}] ===== PARTIAL SUCCESS (${duration}ms) =====`);
-      console.log(`[${requestId}] Submission saved but ClickUp sync failed`);
-
-      // IMPORTANT: Still return success to user!
-      // We saved the submission, admin can manually create ClickUp task later
-      return NextResponse.json({
-        success: true,
-        message: 'Your request has been received and will be processed shortly.',
-        submissionId,
-        requestId,
-      });
-    }
-
-  } catch (error: unknown) {
-    const duration = Date.now() - startTime;
-    const err = error as Error & { code?: string };
-    
-    console.error(`[${requestId}] ===== ERROR (${duration}ms) =====`);
-    console.error(`[${requestId}] Error name:`, err.name);
-    console.error(`[${requestId}] Error message:`, err.message);
-    
-    // Determine error type for safe logging
-    let errorCode = 'INTERNAL_ERROR';
-    if (err.message?.includes('not configured')) {
-      errorCode = 'CONFIG_ERROR';
-    } else if (err.message?.includes('validation')) {
-      errorCode = 'VALIDATION_ERROR';
-    } else if (err.name === 'TypeError') {
-      errorCode = 'TYPE_ERROR';
-    } else if (err.name === 'SyntaxError') {
-      errorCode = 'JSON_PARSE_ERROR';
-    }
-    
-    console.error(`[${requestId}] Error code:`, errorCode);
-
+    return NextResponse.json({
+      success: true,
+      message: 'Your request has been received. A Sundae specialist will respond within 24 hours.',
+      leadId: sundaeResult.leadId,
+      leadNumber: sundaeResult.leadNumber,
+      submissionId: sundaeResult.leadId,
+      requestId,
+    });
+  } catch (err) {
+    console.error(`[${requestId}] Unexpected error:`, err instanceof Error ? err.message : err);
     return NextResponse.json(
-      { 
-        success: false, 
-        error: 'We encountered an issue processing your request. Please try again or contact support.',
+      {
+        success: false,
+        error: 'An unexpected error occurred. Please try again.',
         requestId,
-        code: errorCode,
       },
       { status: 500 }
     );
