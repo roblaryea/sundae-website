@@ -8,11 +8,12 @@
     "start": "next start",
     "lint": "eslint",
     "linkcheck": "node scripts/linkcheck.mjs",
+    "lead:preflight": "node scripts/check-lead-capture-env.mjs",
     "qa:blog-copy": "node scripts/qa-blog-copy.mjs",
     "qa:blog-locales": "node scripts/blog-locale-status.mjs",
     "qa:i18n": "node scripts/qa-i18n-stack.mjs",
     "qa:page-copy": "node scripts/qa-page-copy.mjs",
-    "quality": "npm run lint && npm run qa:blog-copy && npm run qa:blog-locales && npm run qa:i18n && npm run qa:page-copy && npm run build"
+    "quality": "npm run lint && npm run lead:preflight && npm run qa:blog-copy && npm run qa:blog-locales && npm run qa:i18n && npm run qa:page-copy && npm run build"
   },
   "dependencies": {
     "@sentry/nextjs": "^10.42.0",
