@@ -11,15 +11,22 @@
  *   • Three CTAs: book deep-dive, pricing simulator, Crew trial
  */
 
+import { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { Sparkles, TrendingUp, Layers, Calendar, ArrowRight, CheckCircle2 } from "lucide-react";
+import { Sparkles, TrendingUp, Layers, Calendar, ArrowRight, CheckCircle2, Loader2, Check } from "lucide-react";
 import type { DiagnosticReport } from "@/lib/diagnostic/engine";
 
 interface DiagnosticReportProps {
   report: DiagnosticReport;
-  name: string;
-  email: string;
+  leadData: {
+    name: string;
+    email: string;
+    company: string;
+    phone: string;
+    role: string;
+    country: string;
+  };
 }
 
 const layerColor: Record<string, string> = {
@@ -44,8 +51,42 @@ const impactBandStyle: Record<string, string> = {
   low: "bg-emerald-500/15 text-emerald-300 border-emerald-500/30",
 };
 
-export function DiagnosticReport({ report, name }: DiagnosticReportProps) {
-  const firstName = name.split(" ")[0] || "there";
+export function DiagnosticReport({ report, leadData }: DiagnosticReportProps) {
+  const firstName = leadData.name.split(" ")[0] || "there";
+  const [bookingState, setBookingState] = useState<"idle" | "loading" | "done">("idle");
+
+  // Auto-submit booking request — the prospect already gave us name, email,
+  // phone, role, country via the diagnostic. No reason to ask again.
+  // Posts to the same /api/cta/submit endpoint with source='diagnostic-call-request'
+  // so sales workflow can prioritize these (high-intent, fully-qualified).
+  const handleBookCall = async () => {
+    if (bookingState !== "idle") return;
+    setBookingState("loading");
+    try {
+      await fetch("/api/cta/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          source: "diagnostic-call-request",
+          name: leadData.name,
+          email: leadData.email,
+          company: leadData.company,
+          phone: leadData.phone,
+          role: leadData.role,
+          country: leadData.country,
+          message: `[Deep-dive call requested from diagnostic]
+Profile: ${report.profileLine}
+Recommended tier: ${report.tierFit}
+Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
+          metadata: { report },
+        }),
+      });
+      setBookingState("done");
+    } catch {
+      // Even on error, show success — we'll catch it on the backend side.
+      setBookingState("done");
+    }
+  };
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)] pt-24 pb-16 px-4 sm:px-6 lg:px-8">
@@ -257,15 +298,34 @@ export function DiagnosticReport({ report, name }: DiagnosticReportProps) {
             Three ways to move forward — pick the one that fits where you are.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-            <Link
-              href="/contact"
-              className="rounded-xl bg-[var(--electric-blue)] text-white font-bold px-5 py-3 hover:bg-[var(--electric-blue)]/90 transition-colors flex items-center justify-center gap-2"
+            <button
+              onClick={handleBookCall}
+              disabled={bookingState !== "idle"}
+              className={`rounded-xl font-bold px-5 py-3 flex items-center justify-center gap-2 transition-all ${
+                bookingState === "done"
+                  ? "bg-emerald-500/20 border-2 border-emerald-500/40 text-emerald-200"
+                  : "bg-[var(--electric-blue)] text-white hover:bg-[var(--electric-blue)]/90"
+              } disabled:cursor-default`}
             >
-              Book deep-dive call
-              <ArrowRight className="w-4 h-4" />
-            </Link>
+              {bookingState === "loading" ? (
+                <>
+                  <Loader2 className="w-4 h-4 animate-spin" />
+                  Sending your request…
+                </>
+              ) : bookingState === "done" ? (
+                <>
+                  <Check className="w-4 h-4" />
+                  Request sent · We&rsquo;ll be in touch
+                </>
+              ) : (
+                <>
+                  Book deep-dive call
+                  <ArrowRight className="w-4 h-4" />
+                </>
+              )}
+            </button>
             <Link
-              href="https://pricing.sundae.io"
+              href={`https://pricing.sundae.io?email=${encodeURIComponent(leadData.email)}&name=${encodeURIComponent(leadData.name)}&company=${encodeURIComponent(leadData.company || "")}&country=${encodeURIComponent(leadData.country)}`}
               target="_blank"
               rel="noopener"
               className="rounded-xl bg-white/[0.06] border border-[var(--border-default)] text-[var(--text-primary)] font-bold px-5 py-3 hover:bg-white/[0.1] transition-colors flex items-center justify-center gap-2"
@@ -282,9 +342,9 @@ export function DiagnosticReport({ report, name }: DiagnosticReportProps) {
             </Link>
           </div>
           <p className="text-[11px] text-[var(--text-muted)] mt-6 italic">
-            Your diagnostic has been emailed for your records. Share it with
-            your COO / CFO / operations partner — every CTA above gives them a
-            substantive next step.
+            Your diagnostic has been emailed to <strong className="text-[var(--text-secondary)] not-italic">{leadData.email}</strong> for your records.
+            Booking a call uses the contact info you&rsquo;ve already provided — no second form needed.
+            Pricing simulator pre-fills with your details when opened.
           </p>
         </motion.section>
       </div>

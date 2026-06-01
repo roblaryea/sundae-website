@@ -17,11 +17,11 @@
  * captures or persona-specific synthetic-data variants.
  */
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, X, Maximize2, ChevronLeft, ChevronRight } from "lucide-react";
 import { FadeUp } from "@/components/ui/PageAnimations";
 
 type Persona =
@@ -114,13 +114,13 @@ const GALLERY: GalleryItem[] = [
   {
     id: "benchmark-forecast",
     src: "/images/product/benchmark-forecast.png",
-    alt: "Foresight forecasting — 14-90 day projection",
-    caption: "Foresight — Forecasting",
+    alt: "Benchmark forecast view — peer-anchored projection",
+    caption: "Benchmark — Forecast View",
     whatYouSee:
-      "14–90 day forecasts per outlet with confidence bands, scenario modeling, and what-if simulation.",
+      "Peer-anchored projections with confidence bands. Where peer cohort data feeds the forecast — distinct from the in-product Foresight scenario modeling surface.",
     personas: ["cfo", "c_suite"],
-    productHref: "/product/foresight",
-    productLabel: "Foresight →",
+    productHref: "/benchmarking",
+    productLabel: "Benchmark →",
   },
   {
     id: "watchtower",
@@ -191,11 +191,26 @@ const PERSONA_FILTERS: { id: Persona | "all"; label: string }[] = [
 
 export function SectionProductGallery() {
   const [activePersona, setActivePersona] = useState<Persona | "all">("all");
+  const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
 
   const filtered = useMemo(() => {
     if (activePersona === "all") return GALLERY;
     return GALLERY.filter((item) => item.personas.includes(activePersona));
   }, [activePersona]);
+
+  const lightboxItem = lightboxIndex !== null ? filtered[lightboxIndex] : null;
+
+  // Keyboard navigation for lightbox
+  useEffect(() => {
+    if (lightboxIndex === null) return;
+    const handler = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setLightboxIndex(null);
+      if (e.key === "ArrowRight") setLightboxIndex((i) => (i === null ? null : (i + 1) % filtered.length));
+      if (e.key === "ArrowLeft") setLightboxIndex((i) => (i === null ? null : (i - 1 + filtered.length) % filtered.length));
+    };
+    window.addEventListener("keydown", handler);
+    return () => window.removeEventListener("keydown", handler);
+  }, [lightboxIndex, filtered.length]);
 
   return (
     <section
@@ -252,8 +267,12 @@ export function SectionProductGallery() {
                 transition={{ delay: i * 0.04, duration: 0.3 }}
                 className="group rounded-2xl border border-[var(--border-default)] bg-[var(--navy-deep)] overflow-hidden hover:border-[var(--electric-blue)]/40 transition-colors"
               >
-                {/* Image */}
-                <div className="relative aspect-[16/10] bg-black overflow-hidden">
+                {/* Image — click to open lightbox */}
+                <button
+                  onClick={() => setLightboxIndex(i)}
+                  className="relative aspect-[16/10] bg-black overflow-hidden w-full block cursor-zoom-in"
+                  aria-label={`Open ${item.caption} at full size`}
+                >
                   <Image
                     src={item.src}
                     alt={item.alt}
@@ -262,7 +281,13 @@ export function SectionProductGallery() {
                     className="object-cover object-top group-hover:scale-[1.02] transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[var(--navy-deep)] via-transparent to-transparent opacity-60" />
-                </div>
+                  {/* Zoom indicator overlay */}
+                  <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                    <div className="bg-[var(--electric-blue)] text-white rounded-full p-3 shadow-2xl">
+                      <Maximize2 className="w-5 h-5" />
+                    </div>
+                  </div>
+                </button>
 
                 {/* Caption */}
                 <div className="p-5">
@@ -299,14 +324,93 @@ export function SectionProductGallery() {
 
         {/* Footer note */}
         <p className="text-center text-xs text-[var(--text-muted)] mt-10 italic max-w-2xl mx-auto">
-          Screenshots represent live in-product surfaces. Synthetic data shown
-          for illustration. Take the{" "}
+          Screenshots represent live in-product surfaces. Click any image to enlarge.
+          Synthetic data shown for illustration. Take the{" "}
           <Link href="/diagnostic" className="text-[var(--electric-blue)] hover:underline font-semibold not-italic">
             Operations Diagnostic
           </Link>{" "}
           to see what your view would look like.
         </p>
       </div>
+
+      {/* Lightbox modal */}
+      <AnimatePresence>
+        {lightboxItem && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            className="fixed inset-0 z-[100] bg-black/95 backdrop-blur-sm flex items-center justify-center p-4 md:p-8"
+            onClick={() => setLightboxIndex(null)}
+          >
+            {/* Close button */}
+            <button
+              onClick={() => setLightboxIndex(null)}
+              className="absolute top-4 right-4 md:top-6 md:right-6 z-10 p-3 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
+              aria-label="Close lightbox"
+            >
+              <X className="w-5 h-5 text-white" />
+            </button>
+
+            {/* Prev / Next */}
+            {filtered.length > 1 && (
+              <>
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setLightboxIndex((i) => (i === null ? null : (i - 1 + filtered.length) % filtered.length));
+                  }}
+                  className="absolute left-4 md:left-8 z-10 p-3 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
+                  aria-label="Previous image"
+                >
+                  <ChevronLeft className="w-6 h-6 text-white" />
+                </button>
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setLightboxIndex((i) => (i === null ? null : (i + 1) % filtered.length));
+                  }}
+                  className="absolute right-4 md:right-8 z-10 p-3 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
+                  aria-label="Next image"
+                >
+                  <ChevronRight className="w-6 h-6 text-white" />
+                </button>
+              </>
+            )}
+
+            {/* Image + caption */}
+            <motion.div
+              initial={{ scale: 0.95, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.95, opacity: 0 }}
+              transition={{ duration: 0.2 }}
+              className="relative max-w-6xl w-full max-h-[90vh] flex flex-col"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div className="relative flex-1 min-h-0 bg-black rounded-xl overflow-hidden">
+                <Image
+                  src={lightboxItem.src}
+                  alt={lightboxItem.alt}
+                  width={1600}
+                  height={1000}
+                  className="w-full h-auto max-h-[80vh] object-contain"
+                  priority
+                />
+              </div>
+              <div className="mt-4 text-center">
+                <h3 className="text-lg font-bold text-white mb-1">{lightboxItem.caption}</h3>
+                <p className="text-sm text-white/70 max-w-2xl mx-auto">{lightboxItem.whatYouSee}</p>
+                {lightboxIndex !== null && (
+                  <p className="text-[10px] text-white/40 mt-3 uppercase tracking-wider">
+                    {lightboxIndex + 1} / {filtered.length} · Esc to close · ← → to navigate
+                  </p>
+                )}
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </section>
   );
 }

@@ -21,6 +21,7 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { SundaeIcon } from "@/components/icons";
+import { CURRENCIES, CURRENCY_REGIONS, getCurrencySymbol } from "@/lib/currencies";
 
 type CategoryId = "appetizers" | "sides" | "drinks" | "desserts" | "addons";
 
@@ -44,20 +45,19 @@ const DEFAULT_CATEGORIES: CategoryInput[] = [
   { id: "addons",     label: "Add-ons / Upgrades",    healthyMin: 25, healthyMax: 45, avgTicketImpact: 3,  currentAttach: "12" },
 ];
 
-const CURRENCY_OPTIONS = [
-  { code: "USD", symbol: "$" }, { code: "EUR", symbol: "€" }, { code: "GBP", symbol: "£" },
-  { code: "AED", symbol: "AED " }, { code: "SAR", symbol: "SAR " }, { code: "QAR", symbol: "QAR " },
-  { code: "OMR", symbol: "OMR " }, { code: "BHD", symbol: "BHD " }, { code: "KWD", symbol: "KWD " },
-  { code: "CAD", symbol: "C$" }, { code: "SGD", symbol: "S$" }, { code: "JPY", symbol: "¥" },
-  { code: "MXN", symbol: "MX$" }, { code: "BRL", symbol: "R$" },
-];
+// Realistic close-rate on the gap to healthy attach (you don't close the
+// full gap with training + nudges — research and operator data put the
+// achievable lift at 25–45% of the identified gap in the first 6 months).
+const CLOSE_RATE_LOW = 0.25;
+const CLOSE_RATE_HIGH = 0.45;
+const OPERATING_DAYS = 350;
 
 export default function UpsellOpportunityIndexPage() {
   const [dailyCovers, setDailyCovers] = useState("280");
   const [outletCount, setOutletCount] = useState("1");
   const [currency, setCurrency] = useState("USD");
   const [categories, setCategories] = useState<CategoryInput[]>(DEFAULT_CATEGORIES);
-  const symbol = CURRENCY_OPTIONS.find((c) => c.code === currency)?.symbol ?? "$";
+  const symbol = getCurrencySymbol(currency);
 
   const analysis = useMemo(() => {
     const covers = parseFloat(dailyCovers) || 0;
@@ -66,32 +66,25 @@ export default function UpsellOpportunityIndexPage() {
 
     const rows = categories.map((cat) => {
       const current = parseFloat(cat.currentAttach) || 0;
-      // Gap to bottom of healthy range (more conservative target)
       const gapToHealthy = Math.max(0, cat.healthyMin - current);
-      // Additional attached orders/day if gap closed
       const incrementalAttaches = covers * (gapToHealthy / 100);
-      const dailyOpportunity = incrementalAttaches * cat.avgTicketImpact;
-      const annualOpportunity = dailyOpportunity * 365 * outlets;
+      const dailyFullClose = incrementalAttaches * cat.avgTicketImpact;
+      // Realistic recovery range — only 25-45% of the gap closes typically
+      const annualLow = dailyFullClose * CLOSE_RATE_LOW * OPERATING_DAYS * outlets;
+      const annualHigh = dailyFullClose * CLOSE_RATE_HIGH * OPERATING_DAYS * outlets;
+      const annualMid = (annualLow + annualHigh) / 2;
       const status: "healthy" | "low" | "very_low" =
         current >= cat.healthyMin ? "healthy" :
         current >= cat.healthyMin - 10 ? "low" : "very_low";
 
-      return {
-        ...cat,
-        current,
-        gapToHealthy,
-        incrementalAttaches,
-        dailyOpportunity,
-        annualOpportunity,
-        status,
-      };
+      return { ...cat, current, gapToHealthy, incrementalAttaches, annualLow, annualHigh, annualMid, status };
     });
 
-    const totalAnnualOpportunity = rows.reduce((sum, r) => sum + r.annualOpportunity, 0);
-    const ranked = [...rows].sort((a, b) => b.annualOpportunity - a.annualOpportunity);
-    const topThree = ranked.slice(0, 3).filter((r) => r.annualOpportunity > 0);
+    const totalAnnualLow = rows.reduce((sum, r) => sum + r.annualLow, 0);
+    const totalAnnualHigh = rows.reduce((sum, r) => sum + r.annualHigh, 0);
+    const ranked = [...rows].sort((a, b) => b.annualMid - a.annualMid);
+    const topThree = ranked.slice(0, 3).filter((r) => r.annualMid > 0);
 
-    // Index score: 0-100 based on weighted attach-rate health
     const indexScore = Math.round(
       (rows.reduce((sum, r) => {
         const healthyRatio = Math.min(1, r.current / r.healthyMin);
@@ -99,7 +92,7 @@ export default function UpsellOpportunityIndexPage() {
       }, 0) / rows.length) * 100,
     );
 
-    return { rows, ranked, topThree, totalAnnualOpportunity, indexScore, outlets };
+    return { rows, ranked, topThree, totalAnnualLow, totalAnnualHigh, indexScore, outlets };
   }, [categories, dailyCovers, outletCount]);
 
   const fmt = (n: number) => `${symbol}${Math.round(n).toLocaleString()}`;
@@ -145,7 +138,11 @@ export default function UpsellOpportunityIndexPage() {
                 <div>
                   <label className="block text-[11px] font-semibold text-[var(--text-muted)] uppercase tracking-wider mb-1.5">Currency</label>
                   <select value={currency} onChange={(e) => setCurrency(e.target.value)} className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--electric-blue)]">
-                    {CURRENCY_OPTIONS.map((c) => <option key={c.code} value={c.code}>{c.code}</option>)}
+                    {CURRENCY_REGIONS.map((region) => (
+                      <optgroup key={region} label={region}>
+                        {CURRENCIES.filter((c) => c.region === region).map((c) => <option key={c.code} value={c.code}>{c.code} — {c.symbol}</option>)}
+                      </optgroup>
+                    ))}
                   </select>
                 </div>
               </div>
@@ -212,17 +209,20 @@ export default function UpsellOpportunityIndexPage() {
                   </div>
                 </div>
 
-                {/* Annual opportunity */}
+                {/* Annual recoverable revenue · range */}
                 <div className="rounded-2xl border border-emerald-500/30 bg-emerald-500/[0.04] p-5">
                   <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-emerald-300 mb-2">
-                    Annual revenue gap
+                    Recoverable annual revenue · range
                   </p>
-                  <div className="text-3xl font-bold text-[var(--text-primary)] tabular-nums mb-1">
-                    {fmt(analysis.totalAnnualOpportunity)}
+                  <div className="text-xl font-bold text-[var(--text-primary)] tabular-nums mb-1">
+                    {fmt(analysis.totalAnnualLow)} <span className="text-base text-[var(--text-muted)] font-medium">to</span> {fmt(analysis.totalAnnualHigh)}
                   </div>
                   <div className="text-xs text-[var(--text-muted)]">
-                    {analysis.outlets > 1 ? <>across {analysis.outlets} outlets</> : <>per outlet · scales linearly</>}
+                    {analysis.outlets > 1 ? <>across {analysis.outlets} outlets</> : <>per outlet</>} · {OPERATING_DAYS} operating days/yr
                   </div>
+                  <p className="text-[10px] text-[var(--text-muted)] italic mt-2 leading-snug">
+                    Assumes {Math.round(CLOSE_RATE_LOW * 100)}–{Math.round(CLOSE_RATE_HIGH * 100)}% of the identified attach-gap closes in the first 6 months with training + nudges.
+                  </p>
                 </div>
 
                 {/* Top 3 priorities */}
@@ -243,7 +243,7 @@ export default function UpsellOpportunityIndexPage() {
                           <div className="flex-1 min-w-0">
                             <div className="text-sm font-semibold text-[var(--text-primary)]">{r.label}</div>
                             <div className="text-[11px] text-[var(--text-muted)] leading-snug">
-                              Lift attach from <span className="text-[var(--text-secondary)] font-semibold">{r.current.toFixed(0)}%</span> → <span className="text-emerald-300 font-semibold">{r.healthyMin}%</span> · gain <span className="text-emerald-300 font-semibold">{fmt(r.annualOpportunity)}/yr</span>
+                              Lift attach from <span className="text-[var(--text-secondary)] font-semibold">{r.current.toFixed(0)}%</span> → <span className="text-emerald-300 font-semibold">{r.healthyMin}%</span> · recover <span className="text-emerald-300 font-semibold">{fmt(r.annualLow)}–{fmt(r.annualHigh)}/yr</span>
                             </div>
                           </div>
                         </li>
@@ -264,14 +264,14 @@ export default function UpsellOpportunityIndexPage() {
       <section className="px-4 sm:px-6 lg:px-8 pb-16">
         <div className="max-w-4xl mx-auto rounded-xl border border-[var(--border-default)] bg-white/[0.015] p-4">
           <p className="text-[11px] text-[var(--text-muted)] leading-relaxed">
-            <strong className="text-[var(--text-secondary)]">Methodology:</strong>{" "}
-            Index = average of each category's (current / healthy-floor) ratio,
-            capped at 1. Gap revenue = covers × (healthy-floor − current) ÷ 100 ×
-            avg ticket impact × 365. Healthy attach ranges are full-service /
-            fast-casual industry medians; Sundae Guest CRM + Revenue Intelligence
-            calibrate against your specific menu mix and daypart in production —
-            the in-product version is sharper than this estimate by a factor of
-            2–3x typically.
+            <strong className="text-[var(--text-secondary)]">Methodology (conservative defaults):</strong>{" "}
+            Index = average of each category&rsquo;s (current / healthy-floor) ratio, capped at 1.
+            Gap-close revenue = covers × (healthy-floor − current) ÷ 100 × avg ticket impact ×
+            close-rate range ({Math.round(CLOSE_RATE_LOW * 100)}–{Math.round(CLOSE_RATE_HIGH * 100)}% — what training + nudges actually move) ×
+            {OPERATING_DAYS} operating days/yr. Output is a range, not a single optimistic figure.
+            Healthy attach ranges are full-service / fast-casual industry medians; Sundae Guest CRM +
+            Revenue Intelligence calibrate against your specific menu mix, daypart, and tenure cohort
+            in production.
           </p>
         </div>
       </section>

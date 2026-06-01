@@ -306,7 +306,7 @@ export const websiteMessages = {
       resourcesList: [
         { name: 'Blog', href: '/blog' },
         { name: 'Documentation', href: '/docs' },
-        { name: 'Case Studies', href: '/resources' },
+        { name: 'Industry Outcomes', href: '/resources' },
         { name: 'FAQ', href: '/faq' },
         { name: 'Free Tools & Calculators', href: '/tools' },
       ],

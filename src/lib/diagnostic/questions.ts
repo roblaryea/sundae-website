@@ -271,4 +271,52 @@ export const QUESTIONS: Question[] = [
     maxLength: 280,
     optional: false,
   },
+
+  // ─── Decision context (3) ───────────────────────────────────────────
+  // Added to deepen insight quality on the multi-select answers above.
+  {
+    id: "timeline",
+    dimension: "tech",
+    kind: "single",
+    prompt: "When do you want to be live with a new operations stack?",
+    helper: "Shapes urgency framing in your diagnostic and routing to the right Sundae motion.",
+    options: [
+      { value: "asap",          label: "Right now — actively evaluating" },
+      { value: "next_quarter",  label: "Next quarter" },
+      { value: "next_6_months", label: "Next 6 months" },
+      { value: "this_year",     label: "Before end of year" },
+      { value: "exploring",     label: "Just exploring · No timeline" },
+    ],
+  },
+  {
+    id: "decision_lag",
+    dimension: "tech",
+    kind: "single",
+    prompt: "How long does it take you to make a meaningful operational decision today?",
+    helper: "From signal to action — measures the lag Sundae compresses.",
+    options: [
+      { value: "minutes",  label: "Minutes — we react in-shift" },
+      { value: "hours",    label: "Hours — same day" },
+      { value: "days",     label: "Days — weekly review cycle" },
+      { value: "weeks",    label: "Weeks — monthly close cycle" },
+      { value: "months",   label: "Months — quarterly review only" },
+    ],
+  },
+  {
+    id: "budget_band",
+    dimension: "tech",
+    kind: "single",
+    prompt: "What's your current annual ops tech spend (POS + analytics + scheduling + payroll)?",
+    helper: "Helps Sundae position the right tier — answers stay private.",
+    optional: true,
+    options: [
+      { value: "under_10k",     label: "Under $10K" },
+      { value: "10_25k",        label: "$10–25K" },
+      { value: "25_50k",        label: "$25–50K" },
+      { value: "50_100k",       label: "$50–100K" },
+      { value: "100_250k",      label: "$100–250K" },
+      { value: "250k_plus",     label: "$250K+" },
+      { value: "unsure",        label: "Not sure" },
+    ],
+  },
 ];

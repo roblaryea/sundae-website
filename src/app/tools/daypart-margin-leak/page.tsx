@@ -24,6 +24,7 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { SundaeIcon } from "@/components/icons";
+import { CURRENCIES, CURRENCY_REGIONS, getCurrencySymbol } from "@/lib/currencies";
 
 type DaypartId = "morning" | "lunch" | "afternoon" | "dinner" | "lateNight";
 
@@ -43,40 +44,47 @@ const DEFAULT_DAYPARTS: DaypartInput[] = [
   { id: "lateNight",  label: "Late Night",  hours: "22:00–01:00", revenuePct: "6",  staffFte: "5" },
 ];
 
-const CURRENCY_OPTIONS = [
-  { code: "USD", symbol: "$" },
-  { code: "EUR", symbol: "€" },
-  { code: "GBP", symbol: "£" },
-  { code: "AED", symbol: "AED " },
-  { code: "SAR", symbol: "SAR " },
-  { code: "QAR", symbol: "QAR " },
-  { code: "OMR", symbol: "OMR " },
-  { code: "BHD", symbol: "BHD " },
-  { code: "KWD", symbol: "KWD " },
-  { code: "CAD", symbol: "C$" },
-  { code: "SGD", symbol: "S$" },
-  { code: "JPY", symbol: "¥" },
-  { code: "MXN", symbol: "MX$" },
-  { code: "BRL", symbol: "R$" },
-];
+// Segment-aware target labor cost % — replaces the prior single 28% heuristic
+// with industry-honest ranges. Used as the upper-bound target (anything
+// above this band is potentially trimmable, conservatively).
+const SEGMENT_TARGETS: Record<string, { label: string; targetPct: number }> = {
+  qsr:          { label: "QSR / Fast food",       targetPct: 0.25 },
+  fast_casual:  { label: "Fast-casual",           targetPct: 0.28 },
+  casual:       { label: "Casual dining",         targetPct: 0.32 },
+  fine_dining:  { label: "Fine dining",           targetPct: 0.36 },
+  hotel_fb:     { label: "Hotel F&B",             targetPct: 0.34 },
+  cloud:        { label: "Cloud kitchen",         targetPct: 0.22 },
+  cafe_bakery:  { label: "Café / Bakery",         targetPct: 0.27 },
+};
+
+// Conservative recovery factor: only ~35-50% of identified overspend
+// is realistically recoverable in the first quarter (you can't fully
+// match staffing to demand without breaking service or coverage floors).
+const RECOVERY_FACTOR_LOW = 0.35;
+const RECOVERY_FACTOR_HIGH = 0.50;
+// Account for closed days — most operators close 10-20 days a year
+// for holidays, deep cleans, renovations.
+const OPERATING_DAYS = 350;
 
 export default function DaypartMarginLeakPage() {
   const [dailyRevenue, setDailyRevenue] = useState("4500");
   const [hourlyLaborCost, setHourlyLaborCost] = useState("18");
   const [outletCount, setOutletCount] = useState("1");
   const [currency, setCurrency] = useState("USD");
+  const [segment, setSegment] = useState<keyof typeof SEGMENT_TARGETS>("casual");
   const [dayparts, setDayparts] = useState<DaypartInput[]>(DEFAULT_DAYPARTS);
-  const symbol = CURRENCY_OPTIONS.find((c) => c.code === currency)?.symbol ?? "$";
+  const symbol = getCurrencySymbol(currency);
+  const segmentTargetPct = SEGMENT_TARGETS[segment]?.targetPct ?? 0.32;
 
   // Calculation: revenue density per daypart × current staff FTE → identify
-  // overstaffing (low revenue density + high FTE = leak).
+  // overstaffing. Output is a RANGE (low → high) using conservative
+  // recovery factors, not a single optimistic number.
   const analysis = useMemo(() => {
     const rev = parseFloat(dailyRevenue) || 0;
     const wage = parseFloat(hourlyLaborCost) || 0;
     const outlets = parseInt(outletCount) || 1;
     if (rev <= 0 || wage <= 0) return null;
 
-    // Compute hours per daypart from the label (rough heuristic — fixed durations).
     const HOURS_PER_DAYPART: Record<DaypartId, number> = {
       morning: 4.5, lunch: 3.5, afternoon: 2.5, dinner: 5, lateNight: 3,
     };
@@ -87,43 +95,48 @@ export default function DaypartMarginLeakPage() {
       const durationHrs = HOURS_PER_DAYPART[dp.id];
       const dayRev = rev * (revPct / 100);
       const laborCost = fte * durationHrs * wage;
-      const productivity = laborCost > 0 ? dayRev / laborCost : 0;
-      // Ideal labor cost target = 28% of daypart revenue
-      const targetLaborCost = dayRev * 0.28;
-      const overspend = Math.max(0, laborCost - targetLaborCost);
-      // Estimated FTE-hours that could be trimmed (rough: overspend / hourly wage)
-      const trimmableFteHours = wage > 0 ? overspend / wage : 0;
+      // Target labor cost based on segment (not a flat 28%)
+      const targetLaborCost = dayRev * segmentTargetPct;
+      // Identified overspend (before applying recovery factor)
+      const identifiedOverspend = Math.max(0, laborCost - targetLaborCost);
+      // Conservative recovery range — only a fraction is realistically trimmable
+      const recoverableLow = identifiedOverspend * RECOVERY_FACTOR_LOW;
+      const recoverableHigh = identifiedOverspend * RECOVERY_FACTOR_HIGH;
+      // Trim suggestion based on midpoint
+      const recoverableMid = (recoverableLow + recoverableHigh) / 2;
+      const trimmableFteHours = wage > 0 ? recoverableMid / wage : 0;
       return {
         ...dp,
         durationHrs,
         dayRev,
         laborCost,
-        productivity,
         targetLaborCost,
-        overspend,
+        identifiedOverspend,
+        recoverableLow,
+        recoverableHigh,
         trimmableFteHours,
       };
     });
 
-    const totalDailyLeak = rows.reduce((sum, r) => sum + r.overspend, 0);
-    const annualLeakPerOutlet = totalDailyLeak * 365;
-    const annualLeakAllOutlets = annualLeakPerOutlet * outlets;
+    const totalDailyLeakLow = rows.reduce((sum, r) => sum + r.recoverableLow, 0);
+    const totalDailyLeakHigh = rows.reduce((sum, r) => sum + r.recoverableHigh, 0);
+    const annualLeakLow = totalDailyLeakLow * OPERATING_DAYS * outlets;
+    const annualLeakHigh = totalDailyLeakHigh * OPERATING_DAYS * outlets;
+    const annualLeakPerOutletMid = ((totalDailyLeakLow + totalDailyLeakHigh) / 2) * OPERATING_DAYS;
 
-    // Highest-leak daypart drives the recommendation
-    const worst = [...rows].sort((a, b) => b.overspend - a.overspend)[0];
+    const worst = [...rows].sort((a, b) => b.identifiedOverspend - a.identifiedOverspend)[0];
 
     return {
       rows,
-      totalDailyLeak,
-      annualLeakPerOutlet,
-      annualLeakAllOutlets,
+      annualLeakLow,
+      annualLeakHigh,
+      annualLeakPerOutletMid,
       worst,
       outlets,
     };
-  }, [dayparts, dailyRevenue, hourlyLaborCost, outletCount]);
+  }, [dayparts, dailyRevenue, hourlyLaborCost, outletCount, segmentTargetPct]);
 
-  const fmt = (n: number) =>
-    `${symbol}${Math.round(n).toLocaleString()}`;
+  const fmt = (n: number) => `${symbol}${Math.round(n).toLocaleString()}`;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
@@ -164,26 +177,54 @@ export default function DaypartMarginLeakPage() {
               <p className="text-xs text-[var(--text-muted)] mb-4">
                 Per outlet, current operating average.
               </p>
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-                <div className="col-span-1 sm:col-span-2">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-3">
+                <div className="col-span-2">
+                  <label className="block text-[11px] font-semibold text-[var(--text-muted)] uppercase tracking-wider mb-1.5">
+                    Segment
+                  </label>
+                  <select
+                    value={segment}
+                    onChange={(e) => setSegment(e.target.value as keyof typeof SEGMENT_TARGETS)}
+                    className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--electric-blue)]"
+                  >
+                    {Object.entries(SEGMENT_TARGETS).map(([k, v]) => (
+                      <option key={k} value={k}>{v.label} ({Math.round(v.targetPct * 100)}% target)</option>
+                    ))}
+                  </select>
+                </div>
+                <div className="col-span-2">
+                  <label className="block text-[11px] font-semibold text-[var(--text-muted)] uppercase tracking-wider mb-1.5">
+                    Currency
+                  </label>
+                  <select
+                    value={currency}
+                    onChange={(e) => setCurrency(e.target.value)}
+                    className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--electric-blue)]"
+                  >
+                    {CURRENCY_REGIONS.map((region) => (
+                      <optgroup key={region} label={region}>
+                        {CURRENCIES.filter((c) => c.region === region).map((c) => (
+                          <option key={c.code} value={c.code}>{c.code} — {c.symbol}</option>
+                        ))}
+                      </optgroup>
+                    ))}
+                  </select>
+                </div>
+              </div>
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                <div>
                   <label className="block text-[11px] font-semibold text-[var(--text-muted)] uppercase tracking-wider mb-1.5">
                     Daily revenue / outlet
                   </label>
                   <div className="flex">
-                    <select
-                      value={currency}
-                      onChange={(e) => setCurrency(e.target.value)}
-                      className="bg-white/[0.04] border border-[var(--border-default)] border-r-0 rounded-l-lg px-2 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--electric-blue)]"
-                    >
-                      {CURRENCY_OPTIONS.map((c) => (
-                        <option key={c.code} value={c.code}>{c.code}</option>
-                      ))}
-                    </select>
+                    <span className="bg-white/[0.04] border border-[var(--border-default)] border-r-0 rounded-l-lg px-3 py-2 text-sm text-[var(--text-muted)]">
+                      {symbol}
+                    </span>
                     <input
                       type="number"
                       value={dailyRevenue}
                       onChange={(e) => setDailyRevenue(e.target.value)}
-                      className="flex-1 bg-white/[0.04] border border-[var(--border-default)] rounded-r-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--electric-blue)]"
+                      className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-r-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--electric-blue)]"
                     />
                   </div>
                 </div>
@@ -283,18 +324,21 @@ export default function DaypartMarginLeakPage() {
               <div className="lg:sticky lg:top-32 space-y-4">
                 <div className="rounded-2xl border-2 border-[var(--electric-blue)]/40 bg-gradient-to-br from-[var(--electric-blue)]/8 to-transparent p-6">
                   <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-[var(--electric-blue)] mb-2">
-                    Estimated annual leakage
+                    Recoverable annual labor cost · range
                   </p>
-                  <div className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] tabular-nums mb-1">
-                    {fmt(analysis.annualLeakAllOutlets)}
+                  <div className="text-xl sm:text-2xl font-bold text-[var(--text-primary)] tabular-nums mb-1">
+                    {fmt(analysis.annualLeakLow)} <span className="text-base text-[var(--text-muted)] font-medium">to</span> {fmt(analysis.annualLeakHigh)}
                   </div>
-                  <div className="text-xs text-[var(--text-muted)]">
+                  <div className="text-xs text-[var(--text-muted)] leading-relaxed">
                     {analysis.outlets > 1 ? (
-                      <>across {analysis.outlets} outlets · {fmt(analysis.annualLeakPerOutlet)} per outlet</>
+                      <>across {analysis.outlets} outlets · midpoint ≈ {fmt(analysis.annualLeakPerOutletMid)}/yr per outlet · over {OPERATING_DAYS} operating days</>
                     ) : (
-                      <>per outlet · scale up by adding more</>
+                      <>per outlet · {OPERATING_DAYS} operating days/yr · conservative recovery factor applied</>
                     )}
                   </div>
+                  <p className="text-[10px] text-[var(--text-muted)] italic mt-2 leading-snug">
+                    Assumes {Math.round(RECOVERY_FACTOR_LOW * 100)}–{Math.round(RECOVERY_FACTOR_HIGH * 100)}% of identified overspend is realistically recoverable in the first quarter — the rest is service-floor staffing you can&rsquo;t trim without breaking coverage.
+                  </p>
                 </div>
 
                 {/* Daypart heatmap */}
@@ -304,9 +348,11 @@ export default function DaypartMarginLeakPage() {
                   </h3>
                   <div className="space-y-2">
                     {analysis.rows.map((r) => {
-                      const maxLeak = Math.max(...analysis.rows.map((x) => x.overspend), 1);
-                      const widthPct = (r.overspend / maxLeak) * 100;
-                      const isWorst = r.id === analysis.worst?.id && r.overspend > 0;
+                      const maxLeak = Math.max(...analysis.rows.map((x) => x.identifiedOverspend), 1);
+                      const widthPct = (r.identifiedOverspend / maxLeak) * 100;
+                      const isWorst = r.id === analysis.worst?.id && r.identifiedOverspend > 0;
+                      // Show recoverable midpoint, not raw overspend
+                      const recoverableMid = (r.recoverableLow + r.recoverableHigh) / 2;
                       return (
                         <div key={r.id}>
                           <div className="flex justify-between text-[11px] mb-0.5">
@@ -314,7 +360,7 @@ export default function DaypartMarginLeakPage() {
                               {r.label}
                             </span>
                             <span className="text-[var(--text-muted)] tabular-nums">
-                              {fmt(r.overspend)}/day
+                              {fmt(recoverableMid)}/day recoverable
                             </span>
                           </div>
                           <div className="h-1.5 rounded-full bg-white/[0.04] overflow-hidden">
@@ -331,34 +377,22 @@ export default function DaypartMarginLeakPage() {
                   </div>
                 </div>
 
-                {/* What Sundae would do */}
-                {analysis.worst && analysis.worst.overspend > 0 && (
+                {/* What Sundae would do — softer, range-based */}
+                {analysis.worst && analysis.worst.identifiedOverspend > 0 && (
                   <div className="rounded-2xl border border-emerald-500/30 bg-emerald-500/[0.04] p-5">
                     <div className="flex items-center gap-2 mb-2">
                       <SundaeIcon name="speed" size="sm" className="text-emerald-300" />
                       <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-emerald-300">
-                        What Sundae would do
+                        What Sundae would investigate first
                       </p>
                     </div>
                     <p className="text-sm text-[var(--text-primary)] leading-relaxed mb-3">
-                      <strong className="text-emerald-200">{analysis.worst.label}</strong> is your highest-leak window — trim{" "}
-                      <strong className="text-emerald-200">
-                        {Math.ceil(analysis.worst.trimmableFteHours)} FTE-hours
-                      </strong>{" "}
-                      next week to save{" "}
-                      <strong className="text-emerald-200">
-                        {fmt(analysis.worst.overspend * 7)}/wk
-                      </strong>{" "}
-                      ·{" "}
-                      <strong className="text-emerald-200">
-                        {fmt(analysis.worst.overspend * 365 * analysis.outlets)}/yr
-                      </strong>{" "}
-                      across all outlets.
+                      <strong className="text-emerald-200">{analysis.worst.label}</strong> shows the largest gap to the {Math.round(segmentTargetPct * 100)}% {SEGMENT_TARGETS[segment].label} target. A trim of ~<strong className="text-emerald-200">{Math.ceil(analysis.worst.trimmableFteHours)} FTE-hours</strong> would recover an estimated{" "}
+                      <strong className="text-emerald-200">{fmt(analysis.worst.recoverableLow * 7)}–{fmt(analysis.worst.recoverableHigh * 7)}/wk</strong>{" "}
+                      per outlet — pending a coverage-floor review.
                     </p>
                     <p className="text-[11px] text-[var(--text-muted)] leading-relaxed">
-                      Sundae Pulse runs this calculation every 5 minutes, against
-                      live POS + scheduling data, and surfaces the right shift to
-                      cut <em>before</em> the week even starts.
+                      In production, Sundae Pulse calibrates the target against your historical productivity curves (not a fixed segment band), respects per-outlet coverage floors, and surfaces the candidate shift before payroll is locked.
                     </p>
                   </div>
                 )}
@@ -376,13 +410,15 @@ export default function DaypartMarginLeakPage() {
       <section className="px-4 sm:px-6 lg:px-8 pb-16">
         <div className="max-w-4xl mx-auto rounded-xl border border-[var(--border-default)] bg-white/[0.015] p-4">
           <p className="text-[11px] text-[var(--text-muted)] leading-relaxed">
-            <strong className="text-[var(--text-secondary)]">Methodology:</strong>{" "}
-            Daypart leak = (current labor cost) − (28% of daypart revenue). Trimmable
-            FTE-hours = leak ÷ hourly labor cost. Annualized = daily leak × 365. The
-            28% target is a starting heuristic; Sundae Pulse calibrates the target
-            per-outlet using your historical productivity curves rather than a fixed
-            industry average — the in-product version is consistently sharper than
-            this estimator.
+            <strong className="text-[var(--text-secondary)]">Methodology (conservative defaults):</strong>{" "}
+            Daypart labor cost = FTE × duration × hourly wage. Target = segment-specific labor % of daypart revenue
+            (QSR 25% → fine dining 36%). Identified overspend = current − target. Only{" "}
+            {Math.round(RECOVERY_FACTOR_LOW * 100)}–{Math.round(RECOVERY_FACTOR_HIGH * 100)}%
+            of identified overspend is counted as realistically recoverable — the rest is
+            service-floor staffing or unavoidable coverage. Annualized over {OPERATING_DAYS} operating days/yr.
+            Output is a range, never a single optimistic figure. Sundae Pulse calibrates against your historical
+            productivity curves per-outlet and respects per-shift coverage floors — the in-product version is
+            consistently sharper and more conservative than this estimator.
           </p>
         </div>
       </section>

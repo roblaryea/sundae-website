@@ -22,8 +22,53 @@ interface DiagnosticFlowProps {
     email: string;
     name: string;
     company: string;
+    phone: string;
+    role: string;
+    country: string;
   }) => void;
 }
+
+// Common roles for the role dropdown — covers ICP buyer titles.
+const ROLE_OPTIONS = [
+  "CEO / Founder / Owner",
+  "COO / Operations Director",
+  "CFO / Finance Director",
+  "Regional / Area Manager",
+  "Franchise Owner",
+  "Head of People / HR",
+  "Head of Marketing",
+  "Head of Technology / Data",
+  "General Manager",
+  "Consultant / Advisor",
+  "Other",
+];
+
+// Common countries — leads with our strategic hubs and expansion markets.
+const COUNTRY_OPTIONS = [
+  "United Arab Emirates",
+  "Saudi Arabia",
+  "Qatar",
+  "Kuwait",
+  "Bahrain",
+  "Oman",
+  "Egypt",
+  "United States",
+  "Canada",
+  "United Kingdom",
+  "Netherlands",
+  "Germany",
+  "France",
+  "Spain",
+  "Italy",
+  "Singapore",
+  "Japan",
+  "Australia",
+  "India",
+  "Mexico",
+  "Brazil",
+  "South Africa",
+  "Other",
+];
 
 const DIMENSION_LABELS: Record<string, string> = {
   profile: "Operation profile",
@@ -40,6 +85,9 @@ export function DiagnosticFlow({ onComplete }: DiagnosticFlowProps) {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [company, setCompany] = useState("");
+  const [phone, setPhone] = useState("");
+  const [role, setRole] = useState("");
+  const [country, setCountry] = useState("");
 
   const total = QUESTIONS.length;
   const q = QUESTIONS[step];
@@ -91,8 +139,8 @@ export function DiagnosticFlow({ onComplete }: DiagnosticFlowProps) {
   };
 
   const handleSubmit = () => {
-    if (email.trim() && name.trim()) {
-      onComplete({ responses, email, name, company });
+    if (email.trim() && name.trim() && phone.trim() && role.trim() && country.trim()) {
+      onComplete({ responses, email, name, company, phone, role, country });
     }
   };
 
@@ -202,30 +250,77 @@ export function DiagnosticFlow({ onComplete }: DiagnosticFlowProps) {
                 your team.
               </p>
 
-              <div className="space-y-4 mb-8">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
                 <div>
                   <label className="block text-[11px] font-semibold uppercase tracking-wider text-[var(--text-muted)] mb-1.5">
-                    Your name
+                    Full name *
                   </label>
                   <input
                     type="text"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     placeholder="Full name"
+                    required
                     className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--electric-blue)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none"
                   />
                 </div>
                 <div>
                   <label className="block text-[11px] font-semibold uppercase tracking-wider text-[var(--text-muted)] mb-1.5">
-                    Work email
+                    Role / Title *
+                  </label>
+                  <select
+                    value={role}
+                    onChange={(e) => setRole(e.target.value)}
+                    required
+                    className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--electric-blue)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none"
+                  >
+                    <option value="">Select your role…</option>
+                    {ROLE_OPTIONS.map((r) => (
+                      <option key={r} value={r}>{r}</option>
+                    ))}
+                  </select>
+                </div>
+                <div>
+                  <label className="block text-[11px] font-semibold uppercase tracking-wider text-[var(--text-muted)] mb-1.5">
+                    Work email *
                   </label>
                   <input
                     type="email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="you@company.com"
+                    required
                     className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--electric-blue)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none"
                   />
+                </div>
+                <div>
+                  <label className="block text-[11px] font-semibold uppercase tracking-wider text-[var(--text-muted)] mb-1.5">
+                    Phone (with country code) *
+                  </label>
+                  <input
+                    type="tel"
+                    value={phone}
+                    onChange={(e) => setPhone(e.target.value)}
+                    placeholder="+971 50 123 4567"
+                    required
+                    className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--electric-blue)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none"
+                  />
+                </div>
+                <div>
+                  <label className="block text-[11px] font-semibold uppercase tracking-wider text-[var(--text-muted)] mb-1.5">
+                    Country *
+                  </label>
+                  <select
+                    value={country}
+                    onChange={(e) => setCountry(e.target.value)}
+                    required
+                    className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--electric-blue)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none"
+                  >
+                    <option value="">Select country…</option>
+                    {COUNTRY_OPTIONS.map((c) => (
+                      <option key={c} value={c}>{c}</option>
+                    ))}
+                  </select>
                 </div>
                 <div>
                   <label className="block text-[11px] font-semibold uppercase tracking-wider text-[var(--text-muted)] mb-1.5">
@@ -240,6 +335,9 @@ export function DiagnosticFlow({ onComplete }: DiagnosticFlowProps) {
                   />
                 </div>
               </div>
+              <p className="text-[11px] text-[var(--text-muted)] text-center mb-6 italic">
+                Fields marked * are required. Your information is captured once here and reused across the diagnostic CTAs — no second forms to fill.
+              </p>
             </motion.div>
           )}
         </AnimatePresence>
@@ -257,7 +355,7 @@ export function DiagnosticFlow({ onComplete }: DiagnosticFlowProps) {
           {showCapture ? (
             <button
               onClick={handleSubmit}
-              disabled={!email.trim() || !name.trim()}
+              disabled={!email.trim() || !name.trim() || !phone.trim() || !role.trim() || !country.trim()}
               className="flex items-center gap-2 px-6 py-2.5 bg-gradient-to-r from-[var(--electric-blue)] to-emerald-500 text-white font-bold rounded-xl shadow-lg disabled:opacity-40 disabled:cursor-not-allowed hover:shadow-xl transition-all"
             >
               Generate my diagnostic

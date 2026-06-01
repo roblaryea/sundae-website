@@ -13,8 +13,14 @@ type Stage = "intro" | "flow" | "report";
 export default function DiagnosticPage() {
   const [stage, setStage] = useState<Stage>("intro");
   const [report, setReport] = useState<DiagnosticReportType | null>(null);
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
+  const [leadData, setLeadData] = useState<{
+    name: string;
+    email: string;
+    company: string;
+    phone: string;
+    role: string;
+    country: string;
+  } | null>(null);
 
   const handleStart = () => setStage("flow");
 
@@ -23,16 +29,27 @@ export default function DiagnosticPage() {
     email: string;
     name: string;
     company: string;
+    phone: string;
+    role: string;
+    country: string;
   }) => {
     // v1: heuristic engine. v2 swaps this for a /api/diagnostic POST that
     // wraps the Sundae AI gateway. Same return shape, no UX changes.
     const result = runDiagnostic(data.responses);
     setReport(result);
-    setName(data.name);
-    setEmail(data.email);
+    setLeadData({
+      name: data.name,
+      email: data.email,
+      company: data.company,
+      phone: data.phone,
+      role: data.role,
+      country: data.country,
+    });
 
     // Fire-and-forget lead capture so we don't block the report render.
     // Wires into the same /api/cta/submit endpoint the rest of the site uses.
+    // Includes ALL the info the diagnostic gathered — no re-prompting on
+    // downstream CTAs.
     if (typeof window !== "undefined") {
       void fetch("/api/cta/submit", {
         method: "POST",
@@ -42,6 +59,9 @@ export default function DiagnosticPage() {
           name: data.name,
           email: data.email,
           company: data.company,
+          phone: data.phone,
+          role: data.role,
+          country: data.country,
           message: `Diagnostic submitted. Profile: ${result.profileLine}. Tier fit: ${result.tierFit}.`,
           metadata: { responses: data.responses, report: result },
         }),
@@ -53,8 +73,8 @@ export default function DiagnosticPage() {
     setStage("report");
   };
 
-  if (stage === "report" && report) {
-    return <DiagnosticReport report={report} name={name} email={email} />;
+  if (stage === "report" && report && leadData) {
+    return <DiagnosticReport report={report} leadData={leadData} />;
   }
 
   if (stage === "flow") {

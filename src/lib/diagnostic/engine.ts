@@ -325,11 +325,26 @@ export function runDiagnostic(responses: DiagnosticResponses): DiagnosticReport 
     });
   }
 
-  // ─── Summary narrative ───────────────────────────────────────────
+  // ─── Summary narrative — incorporates new context ────────────────
   const blindSpotLine = responses.blind_spot
     ? ` You flagged: "${(responses.blind_spot as string).slice(0, 120)}". That's exactly the kind of blind spot Sundae's Decision Intelligence layer is designed to surface.`
     : "";
-  const summary = `${profileLine}. Based on your responses, the highest-leverage moves are ${ranked.length > 0 ? ranked[0].title.toLowerCase() : "consolidating decision flow on Sundae"}${ranked.length > 1 ? ` and ${ranked[1].title.toLowerCase()}` : ""}.${blindSpotLine} Your recommended stack starts with ${tierFit}.`;
+  const lagLine = (() => {
+    const lag = responses.decision_lag as string | undefined;
+    if (lag === "weeks" || lag === "months") {
+      return ` At your current decision lag (${lag === "weeks" ? "weekly close cycle" : "quarterly review only"}), the margin is already booked before you can act — Sundae compresses signal-to-action to minutes.`;
+    }
+    if (lag === "days") {
+      return " Sundae shifts you from a weekly close cycle to live signal-to-action.";
+    }
+    return "";
+  })();
+  const timelineLine = (() => {
+    const t = responses.timeline as string | undefined;
+    if (t === "asap" || t === "next_quarter") return " Given your timeline, the fastest path is starting with the highest-leak module above and layering up.";
+    return "";
+  })();
+  const summary = `${profileLine}. Based on your responses, the highest-leverage moves are ${ranked.length > 0 ? ranked[0].title.toLowerCase() : "consolidating decision flow on Sundae"}${ranked.length > 1 ? ` and ${ranked[1].title.toLowerCase()}` : ""}.${blindSpotLine}${lagLine}${timelineLine} Your recommended stack starts with ${tierFit}.`;
 
   return {
     summary,
