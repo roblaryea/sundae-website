@@ -20,6 +20,7 @@ import { Section4DScene } from "./sections/Section4DScene";
 import { SectionPersonaSwitcher } from "./sections/SectionPersonaSwitcher";
 import { SectionProof } from "./sections/SectionProof";
 import { SectionTrustStrip } from "./sections/SectionTrustStrip";
+import { SectionCommercialHubs } from "./sections/SectionCommercialHubs";
 
 /* ─── Data ─────────────────────────────────────────────────────── */
 
@@ -382,6 +383,12 @@ export default function HomeContent() {
             6b. TRUST STRIP — Enterprise-grade signal before CTA
         ════════════════════════════════════════════════ */}
         <SectionTrustStrip />
+
+        {/* ════════════════════════════════════════════════
+            6c. COMMERCIAL HUBS — Regional commercial presence
+            (Operating today + Coming soon expansion markets)
+        ════════════════════════════════════════════════ */}
+        <SectionCommercialHubs />
 
         {/* ════════════════════════════════════════════════
             7. CLOSING CTA

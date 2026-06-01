@@ -682,11 +682,11 @@ export const websiteMessages = {
             'Access guides, reports, and tools to help you make smarter decisions for your restaurant business.',
           getStarted: 'Get Started with Sundae',
           freeReport: 'Get Free Benchmark Report',
-          caseStudies: 'Case Studies',
+          caseStudies: 'Industry Outcome Examples',
           caseStudiesDescription:
-            'See how operators use Sundae to improve performance, margins, and decision-making.',
+            'How operators use Sundae to improve performance, margins, and decision-making — drawn from real engagement patterns.',
           caseStudiesNote:
-            'Representative examples based on real operator challenges; specific client names omitted.',
+            'Anonymized examples representative of real operator engagements. Specific customer names withheld until pilots agree to attribution.',
           segment: 'Segment',
           challenge: 'Challenge:',
           solution: 'Sundae Solution:',
