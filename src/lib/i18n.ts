@@ -269,7 +269,7 @@ export const websiteMessages = {
       pricing: 'Pricing',
       about: 'About',
       signIn: 'Sign In',
-      bookDemo: 'Book a Working Session',
+      bookDemo: 'Book a Demo',
       comparePlans: 'Compare Plans →',
       startFree: 'Start with Report Lite',
       openMenu: 'Open menu',

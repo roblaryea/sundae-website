@@ -239,8 +239,10 @@ const Navbar = () => {
             </div>
           </Link>
 
-          {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-8">
+          {/* Desktop Navigation — tighter spacing (space-x-6) so the right-side
+              CTA cluster doesn't collide with the Resources dropdown at narrow
+              widths; min-w-0 lets the row shrink instead of overflow */}
+          <div className="hidden lg:flex items-center space-x-6 min-w-0">
             {/* Products Mega Menu */}
             <div className="relative group" onMouseLeave={() => setActiveDropdown(null)}>
               <button
@@ -452,22 +454,26 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* CTA Buttons */}
-          <div className="hidden lg:flex items-center space-x-4">
+          {/* CTA Buttons — flex-shrink-0 + ml-6 so they don't collide with the
+              nav links section; whitespace-nowrap on every button so
+              "Sign In" / "Book a Demo" stay on one line at all widths */}
+          <div className="hidden lg:flex items-center space-x-3 flex-shrink-0 ml-6">
             <LocaleSwitcher />
             <ThemeToggle />
             <Button
               variant="outline"
               size="sm"
+              className="whitespace-nowrap"
               onClick={() => cta(localizeHref("/sign-in"), "sign_in_navbar", { location: "navbar" })}
               data-cta="sign_in_navbar"
               data-source="navbar"
             >
               {nav.signIn}
             </Button>
-            <Button 
-              variant="primary" 
+            <Button
+              variant="primary"
               size="sm"
+              className="whitespace-nowrap"
               onClick={() => cta(localizeHref("/demo"), "book_demo_navbar", { location: "navbar" })}
               data-cta="book_demo_navbar"
               data-source="navbar"
