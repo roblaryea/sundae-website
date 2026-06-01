@@ -6,9 +6,10 @@ import Link from "next/link";
 import { Sparkles, Clock, FileText, ShieldCheck } from "lucide-react";
 import { DiagnosticFlow } from "@/components/diagnostic/DiagnosticFlow";
 import { DiagnosticReport } from "@/components/diagnostic/DiagnosticReport";
+import { DiagnosticGenerating } from "@/components/diagnostic/DiagnosticGenerating";
 import { runDiagnostic, type DiagnosticResponses, type DiagnosticReport as DiagnosticReportType } from "@/lib/diagnostic/engine";
 
-type Stage = "intro" | "flow" | "report";
+type Stage = "intro" | "flow" | "generating" | "report";
 
 export default function DiagnosticPage() {
   const [stage, setStage] = useState<Stage>("intro");
@@ -24,7 +25,7 @@ export default function DiagnosticPage() {
 
   const handleStart = () => setStage("flow");
 
-  const handleComplete = (data: {
+  const handleComplete = async (data: {
     responses: DiagnosticResponses;
     email: string;
     name: string;
@@ -33,23 +34,44 @@ export default function DiagnosticPage() {
     role: string;
     country: string;
   }) => {
-    // v1: heuristic engine. v2 swaps this for a /api/diagnostic POST that
-    // wraps the Sundae AI gateway. Same return shape, no UX changes.
-    const result = runDiagnostic(data.responses);
-    setReport(result);
-    setLeadData({
+    const lead = {
       name: data.name,
       email: data.email,
       company: data.company,
       phone: data.phone,
       role: data.role,
       country: data.country,
-    });
+    };
+    setLeadData(lead);
+    setStage("generating");
 
-    // Fire-and-forget lead capture so we don't block the report render.
-    // Wires into the same /api/cta/submit endpoint the rest of the site uses.
-    // Includes ALL the info the diagnostic gathered — no re-prompting on
-    // downstream CTAs.
+    // Call AI gateway (Sonnet 4.6 primary → GPT-5 fallback → heuristic safety net).
+    // The API route guarantees a report is always returned — graceful degradation
+    // across all three engines means we never error to the user.
+    let result: DiagnosticReportType;
+    try {
+      const res = await fetch("/api/diagnostic", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          responses: data.responses,
+          leadData: { name: data.name, role: data.role, country: data.country, company: data.company },
+        }),
+      });
+      if (!res.ok) throw new Error(`AI gateway returned ${res.status}`);
+      const payload = await res.json();
+      result = payload.report as DiagnosticReportType;
+    } catch (err) {
+      // Client-side last-resort fallback if even the API endpoint is unreachable
+      console.error("[diagnostic] API unreachable, falling to client heuristic:", err);
+      result = runDiagnostic(data.responses);
+    }
+
+    setReport(result);
+
+    // Fire-and-forget lead capture. Includes the AI-generated report in
+    // metadata so sales sees both the responses and the personalised
+    // diagnostic the prospect just saw.
     if (typeof window !== "undefined") {
       void fetch("/api/cta/submit", {
         method: "POST",
@@ -65,9 +87,7 @@ export default function DiagnosticPage() {
           message: `Diagnostic submitted. Profile: ${result.profileLine}. Tier fit: ${result.tierFit}.`,
           metadata: { responses: data.responses, report: result },
         }),
-      }).catch(() => {
-        // Non-fatal — diagnostic still renders even if lead capture fails.
-      });
+      }).catch(() => {});
     }
 
     setStage("report");
@@ -75,6 +95,10 @@ export default function DiagnosticPage() {
 
   if (stage === "report" && report && leadData) {
     return <DiagnosticReport report={report} leadData={leadData} />;
+  }
+
+  if (stage === "generating" && leadData) {
+    return <DiagnosticGenerating name={leadData.name} />;
   }
 
   if (stage === "flow") {

@@ -20,8 +20,11 @@ import { Section4DScene } from "./sections/Section4DScene";
 import { SectionPersonaSwitcher } from "./sections/SectionPersonaSwitcher";
 import { SectionProof } from "./sections/SectionProof";
 import { SectionTrustStrip } from "./sections/SectionTrustStrip";
-import { SectionCommercialHubs } from "./sections/SectionCommercialHubs";
-import { SectionProductGallery } from "./sections/SectionProductGallery";
+import { SectionProductPreview } from "./sections/SectionProductPreview";
+// SectionProductGallery (the full 18-card persona-filtered version) is
+// preserved at its original path for reuse on product + solutions pages.
+// Homepage shows only the slim 4-card teaser per Option B from review.
+// SectionCommercialHubs moved to /about page (presence section).
 
 /* ─── Data ─────────────────────────────────────────────────────── */
 
@@ -386,16 +389,10 @@ export default function HomeContent() {
         <SectionTrustStrip />
 
         {/* ════════════════════════════════════════════════
-            6c. COMMERCIAL HUBS — Regional commercial presence
-            (Operating today + Coming soon expansion markets)
+            6c. PRODUCT PREVIEW — Slim 4-card teaser with lightbox
+            (full per-product galleries live on the product pages)
         ════════════════════════════════════════════════ */}
-        <SectionCommercialHubs />
-
-        {/* ════════════════════════════════════════════════
-            6d. PRODUCT GALLERY — Persona-tagged screenshots
-            with deep links into product surfaces
-        ════════════════════════════════════════════════ */}
-        <SectionProductGallery />
+        <SectionProductPreview />
 
         {/* ════════════════════════════════════════════════
             7. CLOSING CTA

@@ -39,8 +39,8 @@ const aboutCopy = {
     journeyDescription: "The company grew out of operator pain, then into a platform used across multiple markets.",
     valuesTitle: "What We Stand For",
     valuesDescription: "Principles that shape product decisions and show up in how we build.",
-    presenceTitle: "Where We Operate",
-    presenceDescription: "Active in the Middle East and North America. Expanding into major global hospitality markets.",
+    presenceTitle: "Where Sundae shows up",
+    presenceDescription: "Built across continents, operating where it counts. Active commercial coverage today, with a clear expansion path into the world's busiest hospitality regions.",
     ctaTitle: "See What Unified Intelligence Looks Like",
     ctaDescription: "30 minutes to review your data together and see where Sundae could be genuinely useful.",
     ctaPrimary: "Book a Demo",
@@ -66,11 +66,20 @@ const aboutCopy = {
       { title: "Real-Time Decisions", description: "Weekly reports cost you money. The operators who win are the ones who see problems while they can still fix them.", proof: "Pulse refreshes every 5 minutes across every location.", icon: "speed" },
       { title: "Raise the Standard", description: "We want restaurant teams to expect more from their data stack than another static dashboard.", proof: "Active across 3 countries with enterprise groups adopting platform-wide.", icon: "growth" },
     ],
+    presenceSubheadings: {
+      active: "Active markets",
+      expanding: "Expansion markets",
+    },
+    presenceFootnote: "Active markets include physical operations (Amsterdam, Dubai) and legal & commercial footprint (United States, Canada). Expansion markets are strategic priorities on the roadmap; engagement begins from existing hubs.",
     regions: [
-      { region: "Middle East", countries: "UAE, KSA, Qatar", label: "Active" },
-      { region: "North America", countries: "USA, Canada", label: "Active" },
-      { region: "Europe", countries: "UK, Germany, France", label: "Target" },
-      { region: "Asia Pacific", countries: "Australia, Singapore", label: "Target" },
+      { region: "Amsterdam",     countries: "Europe hub",      label: "Active",      tier: "active" },
+      { region: "Dubai",         countries: "MEA hub",         label: "Active",      tier: "active" },
+      { region: "United States", countries: "Delaware C-Corp", label: "Active",      tier: "active" },
+      { region: "Canada",        countries: "Operating base",  label: "Active",      tier: "active" },
+      { region: "Singapore",     countries: "APAC",            label: "Coming soon", tier: "expanding" },
+      { region: "Tokyo",         countries: "APAC",            label: "Coming soon", tier: "expanding" },
+      { region: "Mexico City",   countries: "LATAM",           label: "Coming soon", tier: "expanding" },
+      { region: "São Paulo",     countries: "LATAM",           label: "Coming soon", tier: "expanding" },
     ],
   },
   ar: {
@@ -483,25 +492,69 @@ export default async function AboutPage() {
       <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
-            <div className="text-center mb-16">
+            <div className="text-center mb-12">
               <h2 className="section-h2 text-[var(--text-primary)] mb-6">{copy.presenceTitle}</h2>
               <p className="body-xl text-[var(--text-secondary)] max-w-3xl mx-auto">{copy.presenceDescription}</p>
             </div>
           </FadeUp>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
-            {copy.regions.map((region, index) => (
-              <FadeUp key={region.region} delay={index * 0.1}>
-                <div className="text-center hover:-translate-y-2 transition-transform duration-300">
-                  <div className={`w-20 h-20 ${index < 2 ? "bg-green-600" : index === 2 ? "bg-violet-600" : "bg-orange-600"} rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg`}>
-                    <SundaeIcon name="network" size="lg" className="text-white" />
-                  </div>
-                  <span className={`inline-block text-[10px] font-bold uppercase tracking-wider mb-2 px-2 py-0.5 rounded-full ${region.label === (locale === "ar" ? "نشط" : locale === "fr" ? "Actif" : locale === "es" ? "Activo" : "Active") ? "bg-green-500/20 text-green-400" : "bg-[var(--surface-subtle)] text-[var(--text-muted)]"}`}>{region.label}</span>
-                  <h3 className="font-bold text-[var(--text-primary)] text-lg mb-2">{region.region}</h3>
-                  <p className="text-sm text-[var(--text-supporting)]">{region.countries}</p>
+
+          {/* Render in 2 tiers when the locale has the tier field, otherwise
+              fall back to the flat 4-column layout. EN ships the tier
+              structure; other locales pick it up via the translation
+              pipeline regeneration. */}
+          {(() => {
+            type RegionEntry = { region: string; countries: string; label: string; tier?: string };
+            const all = copy.regions as unknown as RegionEntry[];
+            const hasTiers = all.some((r) => r.tier);
+            const activeMarkets = hasTiers ? all.filter((r) => r.tier === 'active') : all;
+            const expandingMarkets = hasTiers ? all.filter((r) => r.tier === 'expanding') : [];
+            const subheadings = (copy as typeof copy & { presenceSubheadings?: { active: string; expanding: string } }).presenceSubheadings;
+            const footnote = (copy as typeof copy & { presenceFootnote?: string }).presenceFootnote;
+
+            const renderRow = (markets: RegionEntry[], title: string | undefined, isExpanding: boolean) => (
+              <div className={isExpanding ? 'mb-2' : 'mb-12'}>
+                {title && (
+                  <p className="eyebrow text-center mb-6 text-[var(--text-muted)]">
+                    <span className={`inline-block w-1.5 h-1.5 rounded-full ${isExpanding ? 'bg-[#60A5FA]' : 'bg-emerald-400'} mr-2 align-middle`} />
+                    {title}
+                  </p>
+                )}
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-6 lg:gap-8 max-w-5xl mx-auto">
+                  {markets.map((region, index) => {
+                    return (
+                      <FadeUp key={region.region} delay={index * 0.08}>
+                        <div className={`text-center hover:-translate-y-1 transition-transform duration-300 ${isExpanding ? 'opacity-90' : ''}`}>
+                          <div
+                            className="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-4"
+                            style={{ backgroundColor: isExpanding ? 'rgba(96,165,250,0.12)' : 'rgba(16,185,129,0.12)', border: isExpanding ? '1px dashed rgba(96,165,250,0.3)' : '1px solid rgba(16,185,129,0.25)' }}
+                          >
+                            <SundaeIcon name="network" size="md" className={isExpanding ? "text-[#60A5FA]/80" : "text-emerald-300"} />
+                          </div>
+                          <h3 className={`font-bold text-base mb-0.5 leading-tight ${isExpanding ? 'text-[var(--text-secondary)]' : 'text-[var(--text-primary)]'}`}>
+                            {region.region}
+                            {isExpanding && <span className="text-[#60A5FA] ml-0.5">*</span>}
+                          </h3>
+                          <p className="text-xs text-[var(--text-muted)] uppercase tracking-wider">{region.countries}</p>
+                        </div>
+                      </FadeUp>
+                    );
+                  })}
                 </div>
-              </FadeUp>
-            ))}
-          </div>
+              </div>
+            );
+
+            return (
+              <>
+                {renderRow(activeMarkets, subheadings?.active, false)}
+                {expandingMarkets.length > 0 && renderRow(expandingMarkets, subheadings?.expanding, true)}
+                {footnote && (
+                  <p className="text-[11px] text-center text-[var(--text-muted)] mt-6 italic max-w-3xl mx-auto leading-relaxed">
+                    <span className="text-[#60A5FA]">*</span> {footnote}
+                  </p>
+                )}
+              </>
+            );
+          })()}
         </div>
       </section>
 
