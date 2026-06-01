@@ -139,7 +139,10 @@ export function DiagnosticFlow({ onComplete }: DiagnosticFlowProps) {
   };
 
   const handleSubmit = () => {
-    if (email.trim() && name.trim() && phone.trim() && role.trim() && country.trim()) {
+    if (
+      email.trim() && name.trim() && phone.trim() && role.trim() &&
+      country.trim() && company.trim()
+    ) {
       onComplete({ responses, email, name, company, phone, role, country });
     }
   };
@@ -324,13 +327,14 @@ export function DiagnosticFlow({ onComplete }: DiagnosticFlowProps) {
                 </div>
                 <div>
                   <label className="block text-[11px] font-semibold uppercase tracking-wider text-[var(--text-muted)] mb-1.5">
-                    Company <span className="text-[var(--text-muted)] normal-case font-normal">(optional)</span>
+                    Company *
                   </label>
                   <input
                     type="text"
                     value={company}
                     onChange={(e) => setCompany(e.target.value)}
                     placeholder="Restaurant group / brand"
+                    required
                     className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--electric-blue)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none"
                   />
                 </div>
@@ -355,7 +359,7 @@ export function DiagnosticFlow({ onComplete }: DiagnosticFlowProps) {
           {showCapture ? (
             <button
               onClick={handleSubmit}
-              disabled={!email.trim() || !name.trim() || !phone.trim() || !role.trim() || !country.trim()}
+              disabled={!email.trim() || !name.trim() || !phone.trim() || !role.trim() || !country.trim() || !company.trim()}
               className="flex items-center gap-2 px-6 py-2.5 bg-gradient-to-r from-[var(--electric-blue)] to-emerald-500 text-white font-bold rounded-xl shadow-lg disabled:opacity-40 disabled:cursor-not-allowed hover:shadow-xl transition-all"
             >
               Generate my diagnostic

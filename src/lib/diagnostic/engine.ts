@@ -74,29 +74,42 @@ const outletCountValue = (v?: string): number => {
   }
 };
 
-const segmentLabel = (v?: string): string => {
+const segmentLabel = (vals: string[]): string => {
   const map: Record<string, string> = {
     qsr: "QSR", fast_casual: "fast-casual", casual: "casual-dining",
     fine_dining: "fine-dining", cloud: "cloud-kitchen", hotel_fb: "hotel F&B",
-    multi: "multi-concept", cafe_bakery: "café / bakery",
+    cafe_bakery: "café / bakery", bar_nightlife: "bar / nightlife",
+    catering: "catering", ghost_brand: "ghost brand", franchise: "franchise",
   };
-  return map[v ?? ""] ?? "hospitality";
+  const labels = vals.map((v) => map[v]).filter(Boolean);
+  if (labels.length === 0) return "hospitality";
+  if (labels.length === 1) return labels[0];
+  if (labels.length === 2) return `${labels[0]} + ${labels[1]}`;
+  return `multi-segment (${labels.slice(0, 2).join(", ")} + ${labels.length - 2} more)`;
 };
 
-const regionLabel = (v?: string): string => {
+const regionLabel = (vals: string[]): string => {
   const map: Record<string, string> = {
-    us: "US", canada: "Canadian", europe: "European", uk: "UK",
-    mea: "Middle East / GCC", apac: "APAC", latam: "LATAM",
-    africa: "African", multi: "multi-region",
+    us: "US", canada: "Canada", uk: "UK", ireland: "Ireland",
+    europe_west: "Western Europe", europe_nord: "Nordics", europe_east: "Eastern Europe",
+    uae: "UAE", ksa: "Saudi Arabia", qatar: "Qatar", kuwait: "Kuwait",
+    bahrain: "Bahrain", oman: "Oman", egypt: "Egypt", africa: "Africa",
+    sea: "Southeast Asia", india: "India", japan: "Japan", korea: "Korea",
+    china_hk: "China / HK", anzac: "ANZ", mexico: "Mexico", brazil: "Brazil",
+    latam_other: "LATAM",
   };
-  return map[v ?? ""] ?? "regional";
+  const labels = vals.map((v) => map[v]).filter(Boolean);
+  if (labels.length === 0) return "regional";
+  if (labels.length === 1) return labels[0];
+  if (labels.length <= 3) return labels.join(" + ");
+  return `multi-region (${labels.length} markets including ${labels.slice(0, 2).join(", ")})`;
 };
 
 // ─── Engine ─────────────────────────────────────────────────────────
 export function runDiagnostic(responses: DiagnosticResponses): DiagnosticReport {
   const outlets = outletCountValue(responses.outlets as string | undefined);
-  const segment = segmentLabel(responses.segment as string | undefined);
-  const region = regionLabel(responses.region as string | undefined);
+  const segment = segmentLabel(arr(responses.segment));
+  const region = regionLabel(arr(responses.region));
 
   // Profile line
   const profileLine = `${segment.charAt(0).toUpperCase() + segment.slice(1)} operator · ${outlets} outlet${outlets === 1 ? "" : "s"} · ${region}`;
@@ -242,8 +255,8 @@ export function runDiagnostic(responses: DiagnosticResponses): DiagnosticReport 
     });
   }
 
-  // Intelligence if NL-to-SQL use case
-  if (responses.decision_data === "spreadsheet" || responses.decision_data === "pos_report" || responses.decision_data === "bi_dashboard") {
+  // Intelligence if NL-to-SQL use case — decision_data is now multi-select
+  if (has(responses.decision_data, "spreadsheet") || has(responses.decision_data, "pos_report") || has(responses.decision_data, "bi_dashboard") || has(responses.decision_data, "in_house_data")) {
     recommendedStack.push({
       layer: "intelligence",
       label: "Sundae Intelligence",
