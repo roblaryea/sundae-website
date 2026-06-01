@@ -44,33 +44,61 @@ type GalleryItem = {
   productLabel: string;
 };
 
+// Gallery references fresh screenshots captured directly from
+// dev.sundaetech.ai (org 33, user 97) on 2026-06-01. These reflect the
+// current production UI/UX, not the older mockups previously in
+// public/images/product/. Each item below is a real Sundae surface
+// with seeded fictitious operator data ("Demo Org", Amber Glow US,
+// Palmstone Grillhouse, etc.).
 const GALLERY: GalleryItem[] = [
   {
+    id: "core-overview",
+    src: "/images/product/2026-fresh/core-overview.png",
+    alt: "Sundae Core — operator landing surface with morning brief",
+    caption: "Sundae Core — Overview",
+    whatYouSee:
+      "Operator landing surface: active outlets, exceptions, data health, integrations, Watchtower signals, open tickets — plus a personalised morning brief.",
+    personas: ["c_suite", "multi_loc", "operations"],
+    productHref: "/core",
+    productLabel: "Sundae Core →",
+  },
+  {
+    id: "daily-insights",
+    src: "/images/product/2026-fresh/daily-insights.png",
+    alt: "Daily Insights — what-changed surface",
+    caption: "Daily Insights — Morning Brief",
+    whatYouSee:
+      "AI-generated daily brief: yesterday's performance, today's risks, this week's priorities. One page for the executive office.",
+    personas: ["c_suite", "multi_loc"],
+    productHref: "/core",
+    productLabel: "Sundae Core →",
+  },
+  {
     id: "pulse-wallboard",
-    src: "/images/product/pulse-wallboard.png",
-    alt: "Pulse wallboard — live shift performance display",
+    src: "/images/product/2026-fresh/pulse-wallboard.png",
+    alt: "Pulse — live shift wallboard",
     caption: "Pulse — Live Wallboard",
     whatYouSee:
-      "Live revenue pacing, labor %, and exception flags across every outlet on a single shift-floor display.",
+      "Real-time revenue pacing, labor %, and exception flags across every outlet on a single shift-floor display.",
     personas: ["operations", "multi_loc"],
     productHref: "/product/pulse",
     productLabel: "Pulse →",
   },
   {
     id: "pulse-coach",
-    src: "/images/product/pulse_coach.png",
-    alt: "Pulse Coach — AI shift coaching surface",
+    src: "/images/product/2026-fresh/pulse-coach.png",
+    alt: "Pulse Coach — shift coaching nudges",
     caption: "Pulse — AI Coach",
     whatYouSee:
-      "Specific shift-level coaching nudges generated from server-level performance signals — not generic dashboards.",
+      "Specific shift-level coaching nudges generated from server + cover performance signals — not generic dashboards.",
     personas: ["operations"],
     productHref: "/product/pulse",
     productLabel: "Pulse →",
   },
   {
     id: "pulse-leakage",
-    src: "/images/product/pulse-leakage.png",
-    alt: "Pulse leakage detection — margin leak surface",
+    src: "/images/product/2026-fresh/pulse-leakage.png",
+    alt: "Pulse Leakage — voids, comps, discount audit",
     caption: "Pulse — Leakage Detection",
     whatYouSee:
       "Voids, comps, discounts, and overrides surfaced as leak vectors with dollar impact and corrective action.",
@@ -79,103 +107,125 @@ const GALLERY: GalleryItem[] = [
     productLabel: "Pulse →",
   },
   {
-    id: "core-overview",
-    src: "/images/product/core-overview.png",
-    alt: "Sundae Core — overview dashboard",
-    caption: "Sundae Core — Overview",
-    whatYouSee:
-      "The unified operator dashboard. Performance, operations, and competitive intelligence in one view.",
-    personas: ["c_suite", "multi_loc"],
-    productHref: "/core",
-    productLabel: "Sundae Core →",
-  },
-  {
-    id: "core-insights-hub",
-    src: "/images/product/core-insights-hub.png",
-    alt: "Sundae Insights — 12-module intelligence hub",
-    caption: "Insights — Module Hub",
-    whatYouSee:
-      "12 deep analytics modules + 6 cross-cutting views — revenue, labor, inventory, marketing, profitability, and more.",
-    personas: ["c_suite", "cfo"],
-    productHref: "/insights",
-    productLabel: "Insights →",
-  },
-  {
-    id: "benchmark-overview",
-    src: "/images/product/benchmark-overview.png",
-    alt: "Sundae Benchmark — peer benchmarking",
-    caption: "Benchmark — Peer Coverage",
-    whatYouSee:
-      "Anonymous peer benchmarks across 30+ metrics. Know where you stand against your real cohort.",
-    personas: ["c_suite", "multi_loc"],
-    productHref: "/benchmarking",
-    productLabel: "Benchmark →",
-  },
-  {
-    id: "benchmark-forecast",
-    src: "/images/product/benchmark-forecast.png",
-    alt: "Benchmark forecast view — peer-anchored projection",
-    caption: "Benchmark — Forecast View",
-    whatYouSee:
-      "Peer-anchored projections with confidence bands. Where peer cohort data feeds the forecast — distinct from the in-product Foresight scenario modeling surface.",
-    personas: ["cfo", "c_suite"],
-    productHref: "/benchmarking",
-    productLabel: "Benchmark →",
-  },
-  {
-    id: "watchtower",
-    src: "/images/product/watchtower.png",
-    alt: "Watchtower — market intelligence surface",
-    caption: "Watchtower — Market Signal",
-    whatYouSee:
-      "Competitor pricing, weather, events, and market trends — before they hit your numbers.",
-    personas: ["marketing", "c_suite"],
-    productHref: "/product/watchtower",
-    productLabel: "Watchtower →",
-  },
-  {
-    id: "chat-with-data",
-    src: "/images/product/chat-with-data.png",
-    alt: "Sundae Intelligence — natural language to SQL",
-    caption: "Sundae Intelligence",
-    whatYouSee:
-      "Ask your data anything. Source-cited answers in seconds — replaces the spreadsheet-pull → analyst → answer loop.",
-    personas: ["operations", "cfo", "c_suite"],
-    productHref: "/intelligence",
-    productLabel: "Sundae Intelligence →",
-  },
-  {
-    id: "daily-insights",
-    src: "/images/product/daily-insights.png",
-    alt: "Daily Insights — morning brief surface",
-    caption: "Daily Insights — Morning Brief",
-    whatYouSee:
-      "AI-generated morning brief: yesterday's performance, today's risks, this week's priorities. One page.",
-    personas: ["c_suite", "multi_loc"],
-    productHref: "/core",
-    productLabel: "Sundae Core →",
-  },
-  {
-    id: "crew-people",
-    src: "/images/product/crew-people.png",
-    alt: "Crew — people management surface",
-    caption: "Crew — People",
-    whatYouSee:
-      "HR records, credentials, certifications, and assets in one place. Sub-page of the workforce operational suite.",
-    personas: ["hr"],
-    productHref: "/crew",
-    productLabel: "Sundae Crew →",
-  },
-  {
     id: "pulse-leaderboard",
-    src: "/images/product/pulse-leaderboard.png",
-    alt: "Pulse leaderboard — server performance ranking",
+    src: "/images/product/2026-fresh/pulse-leaderboard.png",
+    alt: "Pulse Leaderboard — server performance ranking",
     caption: "Pulse — Server Leaderboard",
     whatYouSee:
       "Server-level performance ranked by sales, upsell %, and avg check. Coaching gets specific and actionable.",
     personas: ["operations"],
     productHref: "/product/pulse",
     productLabel: "Pulse →",
+  },
+  {
+    id: "insights-hub",
+    src: "/images/product/2026-fresh/insights-hub.png",
+    alt: "Sundae Insights — 12 module hub",
+    caption: "Insights — Module Hub",
+    whatYouSee:
+      "Twelve enabled intelligence modules: Revenue, Labor, Inventory, Purchasing, Marketing, Reservations, Profit, Revenue Assurance, Delivery, Cross-Intelligence — plus Executive Summary and Performance Report.",
+    personas: ["c_suite", "cfo"],
+    productHref: "/insights",
+    productLabel: "Insights →",
+  },
+  {
+    id: "insights-cross",
+    src: "/images/product/2026-fresh/insights-cross.png",
+    alt: "Cross-Intelligence — multi-module correlation engine",
+    caption: "Insights — Cross-Intelligence",
+    whatYouSee:
+      "Cross-module correlation engine — impact timelines, attribution waterfalls, and cannibalization detection across every Insights module.",
+    personas: ["c_suite", "cfo"],
+    productHref: "/insights",
+    productLabel: "Insights →",
+  },
+  {
+    id: "insights-exec-summary",
+    src: "/images/product/2026-fresh/insights-exec-summary.png",
+    alt: "Executive Summary — bird's-eye KPI surface",
+    caption: "Insights — Executive Summary",
+    whatYouSee:
+      "Bird's-eye view of KPIs, health scores, and alerts across every intelligence module. The C-suite's one-page read.",
+    personas: ["c_suite"],
+    productHref: "/insights",
+    productLabel: "Insights →",
+  },
+  {
+    id: "benchmark-overview",
+    src: "/images/product/2026-fresh/benchmark-overview.png",
+    alt: "Sundae Benchmark — peer cohort overview",
+    caption: "Benchmark — Peer Coverage",
+    whatYouSee:
+      "Anonymous peer benchmarks across 30+ metrics. Know exactly where you stand against operators of your size and segment.",
+    personas: ["c_suite", "multi_loc"],
+    productHref: "/benchmarking",
+    productLabel: "Benchmark →",
+  },
+  {
+    id: "watchtower-competitive",
+    src: "/images/product/2026-fresh/watchtower-competitive.png",
+    alt: "Watchtower — competitive intelligence surface",
+    caption: "Watchtower — Competitive Intelligence",
+    whatYouSee:
+      "Competitor pricing, menu changes, promotional moves, and market positioning — surfaced before they hit your numbers.",
+    personas: ["marketing", "c_suite"],
+    productHref: "/product/watchtower",
+    productLabel: "Watchtower →",
+  },
+  {
+    id: "foresight",
+    src: "/images/product/2026-fresh/foresight.png",
+    alt: "Foresight Intelligence — forecasting + scenario modelling",
+    caption: "Foresight — Forecasting + Scenarios",
+    whatYouSee:
+      "Integrated forecasting, scenario simulation, and predictive intelligence. Pick an outlet, run planning intake, generate briefings — the calm forecast layer for what-if modelling and exec sign-off.",
+    personas: ["cfo", "c_suite"],
+    productHref: "/product/foresight",
+    productLabel: "Foresight →",
+  },
+  {
+    id: "intelligence",
+    src: "/images/product/2026-fresh/intelligence.png",
+    alt: "Sundae Intelligence — conversational decision intelligence",
+    caption: "Sundae Intelligence",
+    whatYouSee:
+      "AI-powered decision intelligence with conversation threads, suggested questions, and source-cited answers. Replaces the spreadsheet-pull → analyst → answer loop.",
+    personas: ["operations", "cfo", "c_suite"],
+    productHref: "/intelligence",
+    productLabel: "Sundae Intelligence →",
+  },
+  {
+    id: "intelligence-simulator",
+    src: "/images/product/2026-fresh/intelligence-simulator.png",
+    alt: "Sundae Intelligence Simulator — scenario what-if",
+    caption: "Intelligence — Scenario Simulator",
+    whatYouSee:
+      "What-if simulation surface for menu, pricing, staffing, and promo decisions — model the impact before you commit.",
+    personas: ["cfo", "operations"],
+    productHref: "/intelligence",
+    productLabel: "Sundae Intelligence →",
+  },
+  {
+    id: "crew-scheduling",
+    src: "/images/product/2026-fresh/crew-scheduling.png",
+    alt: "Crew — workforce scheduling surface",
+    caption: "Crew — Scheduling",
+    whatYouSee:
+      "Depth-5 scheduling reference: four view modes, eligibility-checked assignment, AI Builder Sheet, headcount chart, marketplace + swap workflows.",
+    personas: ["operations", "hr"],
+    productHref: "/crew",
+    productLabel: "Sundae Crew →",
+  },
+  {
+    id: "crew-people",
+    src: "/images/product/2026-fresh/crew-people.png",
+    alt: "Crew — HR records + people management",
+    caption: "Crew — People",
+    whatYouSee:
+      "HR records, credentials, certifications, and assets in one place. The people-side of the workforce operational suite.",
+    personas: ["hr"],
+    productHref: "/crew",
+    productLabel: "Sundae Crew →",
   },
 ];
 
