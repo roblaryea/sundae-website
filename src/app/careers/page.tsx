@@ -5,6 +5,9 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { resolveWebsiteLocale } from "@/lib/i18n";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_careers_page'
+import { generatedUiLabels } from "@/lib/generatedUiLabels";
 
 const careersCopy = {
   en: {
@@ -167,7 +170,8 @@ const careersCopy = {
 
 export default async function CareersPage() {
   const locale = resolveWebsiteLocale(await cookies());
-  const ui = careersCopy[locale] ?? careersCopy.en;
+  const ui = careersCopy[locale as keyof typeof careersCopy] ?? getGeneratedLocalCopy(careersCopy, generatedLocalCopy.careersCopy, locale) ?? careersCopy.en;
+  const labels = generatedUiLabels[locale as keyof typeof generatedUiLabels] ?? generatedUiLabels.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
@@ -213,7 +217,7 @@ export default async function CareersPage() {
                     </div>
                     <CardDescription className="text-[var(--text-supporting)] leading-relaxed">{position.description}</CardDescription>
                     <Link href={`mailto:careers@sundae.io?subject=${encodeURIComponent(`Application for ${position.title}`)}`}>
-                      <Button variant="outline" size="sm" className="w-full">Apply Now</Button>
+                      <Button variant="outline" size="sm" className="w-full">{labels.applyNow}</Button>
                     </Link>
                   </CardContent>
                 </Card>

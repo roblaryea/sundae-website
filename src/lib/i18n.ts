@@ -1,5 +1,34 @@
-export const websiteLocales = ['en', 'ar', 'fr', 'es'] as const
-export type WebsiteLocale = (typeof websiteLocales)[number]
+import { generatedWebsiteMessageOverrides } from './generatedWebsiteMessageOverrides'
+
+export const websiteLocaleProfiles = {
+  en: { name: 'English', nativeName: 'English', dir: 'ltr', intlLocale: 'en-US', currency: 'USD' },
+  ar: { name: 'Arabic', nativeName: 'العربية', dir: 'rtl', intlLocale: 'ar-AE', currency: 'AED' },
+  fr: { name: 'French', nativeName: 'Français', dir: 'ltr', intlLocale: 'fr-FR', currency: 'EUR' },
+  es: { name: 'Spanish', nativeName: 'Español', dir: 'ltr', intlLocale: 'es-ES', currency: 'EUR' },
+  de: { name: 'German', nativeName: 'Deutsch', dir: 'ltr', intlLocale: 'de-DE', currency: 'EUR' },
+  nl: { name: 'Dutch', nativeName: 'Nederlands', dir: 'ltr', intlLocale: 'nl-NL', currency: 'EUR' },
+  pt: { name: 'Portuguese', nativeName: 'Português', dir: 'ltr', intlLocale: 'pt-BR', currency: 'BRL' },
+  hi: { name: 'Hindi', nativeName: 'हिन्दी', dir: 'ltr', intlLocale: 'hi-IN', currency: 'INR' },
+  ur: { name: 'Urdu', nativeName: 'اردو', dir: 'rtl', intlLocale: 'ur-PK', currency: 'PKR' },
+  it: { name: 'Italian', nativeName: 'Italiano', dir: 'ltr', intlLocale: 'it-IT', currency: 'EUR' },
+  pl: { name: 'Polish', nativeName: 'Polski', dir: 'ltr', intlLocale: 'pl-PL', currency: 'PLN' },
+  tr: { name: 'Turkish', nativeName: 'Türkçe', dir: 'ltr', intlLocale: 'tr-TR', currency: 'TRY' },
+  'zh-Hans': { name: 'Chinese (Simplified)', nativeName: '简体中文', dir: 'ltr', intlLocale: 'zh-Hans-CN', currency: 'CNY' },
+  ja: { name: 'Japanese', nativeName: '日本語', dir: 'ltr', intlLocale: 'ja-JP', currency: 'JPY' },
+  ko: { name: 'Korean', nativeName: '한국어', dir: 'ltr', intlLocale: 'ko-KR', currency: 'KRW' },
+  id: { name: 'Indonesian', nativeName: 'Bahasa Indonesia', dir: 'ltr', intlLocale: 'id-ID', currency: 'IDR' },
+  vi: { name: 'Vietnamese', nativeName: 'Tiếng Việt', dir: 'ltr', intlLocale: 'vi-VN', currency: 'VND' },
+  ro: { name: 'Romanian', nativeName: 'Română', dir: 'ltr', intlLocale: 'ro-RO', currency: 'RON' },
+  sv: { name: 'Swedish', nativeName: 'Svenska', dir: 'ltr', intlLocale: 'sv-SE', currency: 'SEK' },
+  bn: { name: 'Bengali', nativeName: 'বাংলা', dir: 'ltr', intlLocale: 'bn-BD', currency: 'BDT' },
+  th: { name: 'Thai', nativeName: 'ไทย', dir: 'ltr', intlLocale: 'th-TH', currency: 'THB' },
+  ms: { name: 'Malay', nativeName: 'Bahasa Melayu', dir: 'ltr', intlLocale: 'ms-MY', currency: 'MYR' },
+} as const
+
+export type WebsiteLocale = keyof typeof websiteLocaleProfiles
+export const websiteLocales = Object.keys(websiteLocaleProfiles) as WebsiteLocale[]
+export type NonEnglishWebsiteLocale = Exclude<WebsiteLocale, 'en'>
+export type RequiredEnglishLocalizedRecord<T> = Partial<Record<WebsiteLocale, T>> & { en: T }
 export const defaultWebsiteLocale: WebsiteLocale = 'en'
 export const WEBSITE_LOCALE_HEADER = 'x-sundae-locale'
 export const WEBSITE_PUBLIC_PATH_HEADER = 'x-sundae-public-path'
@@ -51,31 +80,85 @@ export function persistWebsiteLocalePreference(locale: WebsiteLocale) {
   window.localStorage.setItem(WEBSITE_LOCALE_COOKIE, locale)
 }
 
-export const websiteLocaleNames: Record<WebsiteLocale, string> = {
-  en: 'English',
-  ar: 'العربية',
-  fr: 'Français',
-  es: 'Español',
-}
+export const websiteLocaleNames = Object.fromEntries(
+  websiteLocales.map((locale) => [locale, websiteLocaleProfiles[locale].nativeName]),
+) as Record<WebsiteLocale, string>
 
-export const websiteLocaleDirection: Record<WebsiteLocale, 'ltr' | 'rtl'> = {
-  en: 'ltr',
-  ar: 'rtl',
-  fr: 'ltr',
-  es: 'ltr',
+export const websiteLocaleDirection = Object.fromEntries(
+  websiteLocales.map((locale) => [locale, websiteLocaleProfiles[locale].dir]),
+) as Record<WebsiteLocale, 'ltr' | 'rtl'>
+
+export const websiteLocaleCurrencies = Object.fromEntries(
+  websiteLocales.map((locale) => [locale, websiteLocaleProfiles[locale].currency]),
+) as Record<WebsiteLocale, string>
+
+export const websiteIntlLocales = Object.fromEntries(
+  websiteLocales.map((locale) => [locale, websiteLocaleProfiles[locale].intlLocale]),
+) as Record<WebsiteLocale, string>
+
+const websiteLocaleLookup = new Map<string, WebsiteLocale>(
+  websiteLocales.flatMap((locale) => {
+    const lower = locale.toLowerCase()
+    const intl = websiteLocaleProfiles[locale].intlLocale.toLowerCase()
+    return [
+      [lower, locale],
+      [intl, locale],
+    ]
+  }),
+)
+
+websiteLocaleLookup.set('zh', 'zh-Hans')
+websiteLocaleLookup.set('zh-cn', 'zh-Hans')
+websiteLocaleLookup.set('zh-sg', 'zh-Hans')
+websiteLocaleLookup.set('zh-hans-cn', 'zh-Hans')
+websiteLocaleLookup.set('in', 'id')
+
+function matchWebsiteLocaleSegment(segment?: string | null): WebsiteLocale | null {
+  if (!segment) return null
+  return websiteLocaleLookup.get(segment.trim().replace('_', '-').toLowerCase()) ?? null
 }
 
 export function normalizeWebsiteLocale(locale?: string | null): WebsiteLocale {
   if (!locale) return defaultWebsiteLocale
-  const normalized = locale.trim().toLowerCase()
-  if ((websiteLocales as readonly string[]).includes(normalized)) {
-    return normalized as WebsiteLocale
-  }
+  const normalized = locale.trim().replace('_', '-').toLowerCase()
+  const directMatch = websiteLocaleLookup.get(normalized)
+  if (directMatch) return directMatch
+
   const prefix = normalized.split('-')[0]
-  if ((websiteLocales as readonly string[]).includes(prefix)) {
-    return prefix as WebsiteLocale
-  }
-  return defaultWebsiteLocale
+  return websiteLocaleLookup.get(prefix) ?? defaultWebsiteLocale
+}
+
+export function getWebsiteCurrency(locale: WebsiteLocale): string {
+  return websiteLocaleCurrencies[locale] ?? websiteLocaleCurrencies[defaultWebsiteLocale]
+}
+
+export function getWebsiteIntlLocale(locale: WebsiteLocale): string {
+  return websiteIntlLocales[locale] ?? websiteIntlLocales[defaultWebsiteLocale]
+}
+
+export function getLocalizedCopy<T>(
+  copyByLocale: RequiredEnglishLocalizedRecord<T>,
+  locale: WebsiteLocale,
+): T {
+  return copyByLocale[locale] ?? copyByLocale.en
+}
+
+export function formatWebsiteCurrency(
+  value: number,
+  locale: WebsiteLocale,
+  options?: Intl.NumberFormatOptions & { currency?: string },
+): string {
+  const currency = options?.currency ?? getWebsiteCurrency(locale)
+  return new Intl.NumberFormat(getWebsiteIntlLocale(locale), {
+    style: 'currency',
+    currency,
+    maximumFractionDigits: Number.isInteger(value) ? 0 : 2,
+    ...options,
+  }).format(value)
+}
+
+export function formatWebsiteNumber(value: number, locale: WebsiteLocale): string {
+  return new Intl.NumberFormat(getWebsiteIntlLocale(locale)).format(value)
 }
 
 export function resolveWebsiteLocale(cookieStore?: CookieStoreLike | null) {
@@ -96,12 +179,12 @@ export function parseWebsiteLocaleFromPathname(pathname?: string | null): {
   const normalizedPathname = normalizeWebsitePathname(pathname)
   const segments = normalizedPathname.split('/').filter(Boolean)
   const firstSegment = segments[0]
+  const segmentLocale = matchWebsiteLocaleSegment(firstSegment)
 
-  if ((websiteLocales as readonly string[]).includes(firstSegment)) {
-    const locale = firstSegment as WebsiteLocale
+  if (segmentLocale) {
     const pathnameWithoutLocale = `/${segments.slice(1).join('/')}` || '/'
     return {
-      locale,
+      locale: segmentLocale,
       pathname: normalizeWebsitePathname(pathnameWithoutLocale),
     }
   }
@@ -204,6 +287,7 @@ export const websiteMessages = {
       plansList: [
         { name: 'Sundae Report', description: 'Free, historical analysis', href: '/report' },
         { name: 'Sundae Core', description: 'Real-time operations', href: '/core' },
+        { name: 'Sundae Crew', description: 'Operational substrate · people, schedules, payroll', href: '/crew' },
       ],
       solutionsSegments: [
         { name: 'Multi-location Restaurants', href: '/solutions/multi-location-groups' },
@@ -260,14 +344,15 @@ export const websiteMessages = {
       titleTop: 'Decision Intelligence',
       titleBottom: 'for Restaurants',
       description:
-        'Your data lives in 5–10 disconnected systems. Your team makes million-dollar decisions by gut feel.',
-      descriptionEmphasis: 'Sundae fixes that.',
+        'Your data lives in 5–10 disconnected systems. Your team decides by gut while margins leak daily.',
+      descriptionEmphasis: 'That’s the tradeoff Sundae removes.',
+      narrativeAnchor: 'From reporting lag to ops speed.',
       startFree: 'Start Free',
       bookDemo: 'Book a Demo',
       noCard: 'No credit card required',
       proofStats: [
-        { number: '250+', label: 'Locations piloting' },
-        { number: '24+', label: 'Production modules' },
+        { number: '6', label: 'Intelligence layers' },
+        { number: '30+', label: 'Analytics modules' },
         { number: '12', label: 'Data domains unified' },
         { number: '5 min', label: 'Shift refresh cycle' },
       ],
@@ -283,18 +368,19 @@ export const websiteMessages = {
         ],
       },
       platform: {
-        eyebrow: 'PLATFORM',
+        eyebrow: '6 LAYERS · ONE TRUTH',
         heading: 'Six layers. One truth.',
-        description: 'Everything a restaurant group needs to understand, predict, and act — from real-time shifts to long-range strategy.',
+        description: 'From the live shift to the long-range plan — one stack, six layers that talk to each other.',
+        countLabel: 'of 6',
         exploreModules: 'Explore all modules',
         learnMore: 'Learn more',
         layers: [
-          { name: 'Pulse', subtitle: 'Real-Time Operations', description: 'Live sales pacing, adaptive AI targets, server performance, and leakage detection — shift by shift, outlet by outlet.', href: '/product/pulse' },
-          { name: 'Benchmarks', subtitle: 'Competitive Intelligence', description: 'Anonymous peer benchmarks for RevPASH, check size, labor productivity, and 30+ metrics. Know exactly where you stand.', href: '/benchmarking' },
-          { name: 'Watchtower', subtitle: 'Market Intelligence', description: 'Competitor monitoring, weather impact, event intelligence, and AI daily briefings — before the impact hits your numbers.', href: '/product/watchtower' },
-          { name: 'Insights', subtitle: '30+ Analytics Modules', description: 'Revenue, labor, inventory, purchasing, marketing, reservations, delivery, guest experience — each with AI recommendations.', href: '/insights' },
-          { name: 'Sundae Intelligence', subtitle: 'Conversational AI', description: 'Ask your data anything. Get answers in seconds — on web, Slack, Teams, or Telegram.', href: '/intelligence' },
-          { name: 'Foresight', subtitle: 'Predictive Intelligence', description: '14–90 day forecasts for revenue, labor, and profit. What-if scenarios, executive briefings, and self-correcting accuracy.', href: '/product/foresight' },
+          { name: 'Pulse', subtitle: 'Real-time operations', description: 'Live pacing, adaptive targets, server performance, leakage — shift by shift.', href: '/product/pulse' },
+          { name: 'Benchmarks', subtitle: 'Competitive intelligence', description: 'Anonymous peer benchmarks across 30+ metrics. Know where you stand.', href: '/benchmarking' },
+          { name: 'Watchtower', subtitle: 'Market intelligence', description: 'Competitors, weather, events — before they hit your numbers.', href: '/product/watchtower' },
+          { name: 'Insights', subtitle: '30+ analytics modules', description: 'Revenue, labor, inventory, marketing, delivery — each with AI recommendations.', href: '/insights' },
+          { name: 'Sundae Intelligence', subtitle: 'Conversational AI', description: 'Ask your data anything. Answers in seconds on web, Slack, or Teams.', href: '/intelligence' },
+          { name: 'Foresight', subtitle: 'Predictive intelligence', description: '14–90 day forecasts, what-if scenarios, exec briefings that correct themselves.', href: '/product/foresight' },
         ],
       },
       modules: {
@@ -317,24 +403,24 @@ export const websiteMessages = {
         ],
       },
       personas: {
-        eyebrow: 'BUILT FOR',
+        eyebrow: 'WHAT WE HEAR FROM OPERATORS',
         heading: 'Every role. One platform.',
-        description: 'Sundae speaks the language of your entire team — from shift managers to the C-suite.',
+        description: 'Different teams, different questions. One source of truth.',
         roles: [
-          { title: 'Operations Leaders', pain: "You can't be in every restaurant at once.", outcome: 'Live pacing, labor productivity, and server performance across every outlet — know which location needs help right now.' },
-          { title: 'Finance & FP&A', pain: '3 days to close the books? That is 3 days too many.', outcome: 'Real-time margin intelligence, shift-level labor costs, and variance analysis connected to root causes.' },
-          { title: 'C-Suite & Owners', pain: 'Your worst-performing outlet is invisible until Thursday.', outcome: 'Portfolio dashboards, AI daily briefings, competitive intelligence, and strategic views across every brand.' },
-          { title: 'Data & Technology', pain: '12 vendor APIs. 5 data formats. Zero unified schema.', outcome: 'Clean pipelines, governed metrics, public API, webhooks, and RBAC controls out of the box.' },
+          { title: 'Operations Leaders', pain: "You can't be in every restaurant at once.", outcome: 'Live pacing and server performance across every outlet — see who needs help right now.', attribution: 'Pattern across multi-location operators' },
+          { title: 'Finance & FP&A', pain: '3 days to close the books? That is 3 days too many.', outcome: 'Real-time margins, shift-level labor cost, variance tied to root cause.', attribution: 'Pattern across CFO conversations' },
+          { title: 'C-Suite & Owners', pain: 'Your worst outlet is invisible until Thursday.', outcome: 'Portfolio view, daily AI briefings, market signal — across every brand you run.', attribution: 'Pattern across founders and group CEOs' },
+          { title: 'Data & Technology', pain: '12 vendor APIs. 5 formats. Zero unified schema.', outcome: 'Clean pipelines, governed metrics, public API, webhooks, RBAC out of the box.', attribution: 'Pattern across heads of data' },
         ],
       },
       howItWorks: {
         eyebrow: 'HOW IT WORKS',
-        heading: 'From data to decisions in four steps',
+        heading: 'From data to decision in four steps',
         steps: [
-          { step: '01', title: 'Connect', description: 'POS, labor, inventory, delivery — most integrations take under 5 minutes. Sundae cleans and unifies everything.' },
-          { step: '02', title: 'Understand', description: 'AI surfaces anomalies, detects seasonality, and layers in weather, events, and competitor signals.' },
-          { step: '03', title: 'Decide', description: 'Specific recommendations — adaptive targets, staffing changes, menu adjustments — with explainable logic.' },
-          { step: '04', title: 'Improve', description: 'Every decision feeds the system. Playbooks get sharper. Benchmarks get more precise. Your operation compounds.' },
+          { step: '01', title: 'Connect', description: 'POS, labor, inventory, delivery — most integrations under 5 minutes.' },
+          { step: '02', title: 'Understand', description: 'AI surfaces anomalies and layers in weather, events, and competitor signals.' },
+          { step: '03', title: 'Decide', description: 'Specific, explainable recommendations — targets, staffing, menu, pricing.' },
+          { step: '04', title: 'Improve', description: 'Every decision feeds the system. Playbooks get sharper, forecasts get more precise.' },
         ],
       },
       mockup: {
@@ -355,8 +441,8 @@ export const websiteMessages = {
         ],
         coachAlert: 'James K. upsell rate is 14% below shift average. Consider pairing with Sarah for the next 2 tables.',
       },
-      closingTitle: 'Stop running your restaurant on gut feel.',
-      closingDescription: '30 minutes to review your data together and see where Sundae could be genuinely useful.',
+      closingTitle: 'Stop running on yesterday’s numbers.',
+      closingDescription: '30 minutes. Your data. What Sundae would actually change for the team.',
       pages: {
         signIn: {
           metadataTitle: 'Sign In — Sundae',
@@ -665,6 +751,7 @@ export const websiteMessages = {
       plansList: [
         { name: 'Sundae Report', description: 'تحليل تاريخي مجاني', href: '/report' },
         { name: 'Sundae Core', description: 'عمليات في الوقت الحقيقي', href: '/core' },
+        { name: 'Sundae Crew', description: 'ركيزة تشغيلية · موظفون، جدولة، رواتب', href: '/crew' },
       ],
       solutionsSegments: [
         { name: 'مطاعم متعددة الفروع', href: '/solutions/multi-location-groups' },
@@ -721,14 +808,15 @@ export const websiteMessages = {
       titleTop: 'ذكاء القرار',
       titleBottom: 'للمطاعم',
       description:
-        'بياناتك موزعة عبر 5 إلى 10 أنظمة منفصلة، وفريقك يتخذ قرارات بملايين الدولارات بالاعتماد على الحدس فقط.',
-      descriptionEmphasis: 'صنداي يصلح ذلك.',
+        'بياناتك موزعة على 5 إلى 10 أنظمة منفصلة. فريقك يقرر بالحدس بينما تتسرب الهوامش يومياً.',
+      descriptionEmphasis: 'هذه المقايضة هي ما يلغيه صنداي.',
+      narrativeAnchor: 'من تأخر التقارير إلى سرعة العمليات.',
       startFree: 'ابدأ مجاناً',
       bookDemo: 'احجز عرضاً',
       noCard: 'لا حاجة إلى بطاقة ائتمان',
       proofStats: [
-        { number: '250+', label: 'مواقع تجريبية' },
-        { number: '24+', label: 'وحدة إنتاجية' },
+        { number: '6', label: 'طبقات ذكاء' },
+        { number: '+30', label: 'وحدة تحليلية' },
         { number: '12', label: 'مجال بيانات موحّد' },
         { number: '5 د', label: 'دورة تحديث الوردية' },
       ],
@@ -744,18 +832,19 @@ export const websiteMessages = {
         ],
       },
       platform: {
-        eyebrow: 'المنصة',
+        eyebrow: '٦ طبقات · حقيقة واحدة',
         heading: 'ست طبقات. حقيقة واحدة.',
-        description: 'كل ما تحتاجه مجموعة المطاعم للفهم والتنبؤ واتخاذ القرار — من الوردية الفورية إلى الاستراتيجية طويلة المدى.',
+        description: 'من الوردية الحية إلى الخطة طويلة المدى — منصة واحدة، ست طبقات تتحدث مع بعضها.',
+        countLabel: 'من ٦',
         exploreModules: 'استعرض كل الوحدات',
         learnMore: 'اعرف المزيد',
         layers: [
-          { name: 'Pulse', subtitle: 'العمليات في الوقت الحقيقي', description: 'وتيرة المبيعات الحية، أهداف الذكاء الاصطناعي التكيفية، أداء الموظفين، واكتشاف التسرب — من وردية إلى أخرى، ومن موقع إلى آخر.', href: '/product/pulse' },
-          { name: 'Benchmarks', subtitle: 'الذكاء التنافسي', description: 'مقارنات نظراء مجهولة لـ RevPASH، وحجم الفاتورة، وإنتاجية العمل، وأكثر من 30 مقياساً. اعرف موقعك بدقة.', href: '/benchmarking' },
-          { name: 'Watchtower', subtitle: 'ذكاء السوق', description: 'مراقبة المنافسين، وتأثير الطقس، وذكاء الأحداث، وتقارير يومية من الذكاء الاصطناعي — قبل أن يصل الأثر إلى أرقامك.', href: '/product/watchtower' },
-          { name: 'Insights', subtitle: 'أكثر من 30 وحدة تحليلية', description: 'الإيرادات، العمالة، المخزون، المشتريات، التسويق، الحجوزات، التوصيل، تجربة الضيف — وكل منها مع توصيات ذكية.', href: '/insights' },
-          { name: 'Sundae Intelligence', subtitle: 'ذكاء محادثي', description: 'اسأل بياناتك أي شيء. احصل على إجابات خلال ثوانٍ — عبر الويب أو Slack أو Teams أو Telegram.', href: '/intelligence' },
-          { name: 'Foresight', subtitle: 'ذكاء استباقي', description: 'توقعات من 14 إلى 90 يوماً للإيرادات والعمالة والربح. سيناريوهات ماذا لو، وإحاطات تنفيذية، ودقة تصحح نفسها.', href: '/product/foresight' },
+          { name: 'Pulse', subtitle: 'العمليات الفورية', description: 'وتيرة حية، أهداف تكيفية، أداء الموظفين، اكتشاف التسرب — وردية بوردية.', href: '/product/pulse' },
+          { name: 'Benchmarks', subtitle: 'الذكاء التنافسي', description: 'مقارنات نظراء مجهولة عبر أكثر من 30 مقياساً. اعرف موقعك بدقة.', href: '/benchmarking' },
+          { name: 'Watchtower', subtitle: 'ذكاء السوق', description: 'المنافسون، الطقس، الأحداث — قبل أن تصل إلى أرقامك.', href: '/product/watchtower' },
+          { name: 'Insights', subtitle: 'أكثر من 30 وحدة تحليلية', description: 'الإيرادات، العمالة، المخزون، التسويق، التوصيل — وكل منها مع توصيات ذكية.', href: '/insights' },
+          { name: 'Sundae Intelligence', subtitle: 'ذكاء محادثي', description: 'اسأل بياناتك أي شيء. إجابات في ثوانٍ على الويب أو Slack أو Teams.', href: '/intelligence' },
+          { name: 'Foresight', subtitle: 'ذكاء استباقي', description: 'توقعات 14–90 يوماً، سيناريوهات ماذا لو، إحاطات تنفيذية تصحح نفسها.', href: '/product/foresight' },
         ],
       },
       modules: {
@@ -778,24 +867,24 @@ export const websiteMessages = {
         ],
       },
       personas: {
-        eyebrow: 'مصمم لـ',
+        eyebrow: 'ما نسمعه من المشغّلين',
         heading: 'كل دور. منصة واحدة.',
-        description: 'يتحدث Sundae لغة فريقك بالكامل — من مديري الورديات إلى الإدارة التنفيذية.',
+        description: 'فِرَق مختلفة، أسئلة مختلفة. مصدر حقيقة واحد.',
         roles: [
-          { title: 'قادة العمليات', pain: 'لا يمكنك أن تكون في كل مطعم في الوقت نفسه.', outcome: 'وتيرة حية، وإنتاجية العمالة، وأداء الموظفين عبر كل موقع — اعرف أي موقع يحتاج إلى المساعدة الآن.' },
-          { title: 'المالية و FP&A', pain: '3 أيام لإغلاق الحسابات؟ هذا وقت أكثر من اللازم.', outcome: 'ذكاء هامش فوري، وتكاليف العمالة على مستوى الوردية، وتحليل الانحرافات مرتبط بالأسباب الجذرية.' },
-          { title: 'الإدارة العليا والمالكون', pain: 'أسوأ موقع أداء لا يظهر حتى يوم الخميس.', outcome: 'لوحات محفظة، وإحاطات يومية بالذكاء الاصطناعي، وذكاء تنافسي، ورؤى استراتيجية عبر كل علامة.' },
-          { title: 'البيانات والتقنية', pain: '12 واجهة API من الموردين. 5 صيغ بيانات. لا مخطط موحد.', outcome: 'مسارات نظيفة، ومقاييس محكومة، وواجهة API عامة، وwebhooks، وضوابط RBAC جاهزة.' },
+          { title: 'قادة العمليات', pain: 'لا يمكنك أن تكون في كل مطعم في الوقت نفسه.', outcome: 'وتيرة حية وأداء الموظفين عبر كل موقع — اعرف من يحتاج المساعدة الآن.', attribution: 'نمط متكرر عبر مجموعات المطاعم متعددة المواقع' },
+          { title: 'المالية و FP&A', pain: '3 أيام لإغلاق الحسابات؟ هذا وقت أكثر من اللازم.', outcome: 'هوامش فورية، تكلفة عمالة على مستوى الوردية، انحرافات مرتبطة بالأسباب الجذرية.', attribution: 'نمط متكرر في حوارات المدراء الماليين' },
+          { title: 'الإدارة العليا والمالكون', pain: 'أسوأ موقع أداء لا يظهر حتى يوم الخميس.', outcome: 'نظرة محفظة، إحاطات يومية بالذكاء الاصطناعي، إشارات سوق — عبر كل علامة.', attribution: 'نمط متكرر بين المؤسسين والرؤساء التنفيذيين' },
+          { title: 'البيانات والتقنية', pain: '12 واجهة API. 5 صيغ. لا مخطط موحد.', outcome: 'مسارات نظيفة، مقاييس محكومة، API عامة، webhooks، وضوابط RBAC جاهزة.', attribution: 'نمط متكرر بين قادة البيانات' },
         ],
       },
       howItWorks: {
         eyebrow: 'كيف يعمل',
         heading: 'من البيانات إلى القرار في أربع خطوات',
         steps: [
-          { step: '01', title: 'اتصل', description: 'نقاط البيع، العمالة، المخزون، التوصيل — معظم التكاملات تستغرق أقل من 5 دقائق. يقوم Sundae بتنظيف كل شيء وتوحيده.' },
-          { step: '02', title: 'افهم', description: 'يكتشف الذكاء الاصطناعي الحالات الشاذة، ويفهم الموسمية، ويضيف الطقس والأحداث وإشارات المنافسين.' },
-          { step: '03', title: 'قرر', description: 'توصيات محددة — أهداف تكيفية، تغييرات في الجدولة، وتعديلات في القائمة — بمنطق قابل للتفسير.' },
-          { step: '04', title: 'تحسن', description: 'كل قرار يغذي النظام. تصبح خطط العمل أدق. وتصبح المقارنات أكثر دقة. وتتراكم قوة عملياتك.' },
+          { step: '01', title: 'اتصل', description: 'نقاط البيع، العمالة، المخزون، التوصيل — معظم التكاملات أقل من 5 دقائق.' },
+          { step: '02', title: 'افهم', description: 'يكتشف الذكاء الاصطناعي الشذوذ ويضيف الطقس والأحداث وإشارات المنافسين.' },
+          { step: '03', title: 'قرر', description: 'توصيات محددة وقابلة للتفسير — أهداف، جدولة، قائمة، تسعير.' },
+          { step: '04', title: 'تحسن', description: 'كل قرار يغذي النظام. خطط العمل تصبح أدق، والتوقعات أكثر دقة.' },
         ],
       },
       mockup: {
@@ -816,8 +905,8 @@ export const websiteMessages = {
         ],
         coachAlert: 'معدل البيع الإضافي لدى James K. أقل بـ 14% من متوسط الوردية. فكر في إقرانه مع Sarah للطلبتين القادمتين.',
       },
-      closingTitle: 'توقف عن إدارة مطعمك بالحدس فقط.',
-      closingDescription: '30 دقيقة مع بياناتك. رؤى حقيقية. بلا عرض مبيعات.',
+      closingTitle: 'توقف عن إدارة مطعمك بأرقام الأمس.',
+      closingDescription: '30 دقيقة. بياناتك. ما الذي سيتغير فعلياً لفريقك مع Sundae.',
       pages: {
         signIn: {
           metadataTitle: 'تسجيل الدخول - Sundae',
@@ -1106,6 +1195,7 @@ export const websiteMessages = {
       plansList: [
         { name: 'Sundae Report', description: 'Analyse historique gratuite', href: '/report' },
         { name: 'Sundae Core', description: 'Operations en temps reel', href: '/core' },
+        { name: 'Sundae Crew', description: 'Substrat operationnel · equipes, plannings, paie', href: '/crew' },
       ],
       solutionsSegments: [
         { name: 'Restaurants multi-sites', href: '/solutions/multi-location-groups' },
@@ -1162,16 +1252,17 @@ export const websiteMessages = {
       titleTop: 'Intelligence decisionnelle',
       titleBottom: 'pour les restaurants',
       description:
-        'Vos donnees vivent dans 5 a 10 systemes deconnectes. Votre equipe prend des decisions critiques au feeling.',
-      descriptionEmphasis: 'Sundae change cela.',
+        'Vos donnees vivent dans 5 a 10 systemes deconnectes. Votre equipe decide au feeling pendant que les marges fuient.',
+      descriptionEmphasis: 'C est l arbitrage que Sundae supprime.',
+      narrativeAnchor: 'Du retard de reporting a la vitesse operationnelle.',
       startFree: 'Commencer',
       bookDemo: 'Demander une demo',
       noCard: 'Aucune carte bancaire requise',
       proofStats: [
-        { number: '250+', label: 'Sites pilotes' },
-        { number: '24+', label: 'Modules en production' },
+        { number: '6', label: 'Couches d intelligence' },
+        { number: '30+', label: 'Modules analytiques' },
         { number: '12', label: 'Domaines de donnees unifies' },
-        { number: '5 min', label: 'Cycle de rafraichissement par service' },
+        { number: '5 min', label: 'Rafraichissement par service' },
       ],
       problem: {
         eyebrow: 'LE PROBLEME',
@@ -1185,18 +1276,19 @@ export const websiteMessages = {
         ],
       },
       platform: {
-        eyebrow: 'PLATEFORME',
+        eyebrow: '6 COUCHES · UNE SEULE VERITE',
         heading: 'Six couches. Une seule verite.',
-        description: 'Tout ce dont un groupe de restaurants a besoin pour comprendre, anticiper et agir — des services en temps reel a la strategie long terme.',
+        description: 'Du service en direct au plan long terme — une plateforme, six couches qui se parlent.',
+        countLabel: 'sur 6',
         exploreModules: 'Explorer tous les modules',
         learnMore: 'En savoir plus',
         layers: [
-          { name: 'Pulse', subtitle: 'Operations en temps reel', description: 'Rythme des ventes en direct, objectifs IA adaptatifs, performance des serveurs et detection des fuites — service par service, site par site.', href: '/product/pulse' },
-          { name: 'Benchmarks', subtitle: 'Intelligence concurrentielle', description: 'Benchmarks anonymes de pairs pour le RevPASH, la taille de cheque, la productivite de la main-d oeuvre et plus de 30 indicateurs. Sachez exactement ou vous vous situez.', href: '/benchmarking' },
-          { name: 'Watchtower', subtitle: 'Intelligence marche', description: 'Surveillance des concurrents, impact meteo, intelligence evenements et briefings quotidiens IA — avant que l impact n atteigne vos chiffres.', href: '/product/watchtower' },
-          { name: 'Insights', subtitle: 'Plus de 30 modules analytiques', description: 'Revenu, main-d oeuvre, stock, achats, marketing, reservations, livraison, experience client — chacun avec des recommandations IA.', href: '/insights' },
-          { name: 'Sundae Intelligence', subtitle: 'IA conversationnelle', description: 'Posez n importe quelle question a vos donnees. Obtenez des reponses en quelques secondes — sur le web, Slack, Teams ou Telegram.', href: '/intelligence' },
-          { name: 'Foresight', subtitle: 'Intelligence predictive', description: 'Previsions sur 14 a 90 jours pour le revenu, la main-d oeuvre et le profit. Scenarios hypothese, briefings execs et precision auto-correctrice.', href: '/product/foresight' },
+          { name: 'Pulse', subtitle: 'Operations en temps reel', description: 'Rythme live, objectifs adaptatifs, performance serveurs, detection des fuites — service par service.', href: '/product/pulse' },
+          { name: 'Benchmarks', subtitle: 'Intelligence concurrentielle', description: 'Benchmarks anonymes de pairs sur 30+ indicateurs. Sachez ou vous vous situez.', href: '/benchmarking' },
+          { name: 'Watchtower', subtitle: 'Intelligence marche', description: 'Concurrents, meteo, evenements — avant que cela touche vos chiffres.', href: '/product/watchtower' },
+          { name: 'Insights', subtitle: '30+ modules analytiques', description: 'Revenu, main-d oeuvre, stock, marketing, livraison — chacun avec des recommandations IA.', href: '/insights' },
+          { name: 'Sundae Intelligence', subtitle: 'IA conversationnelle', description: 'Posez n importe quelle question. Reponses en secondes sur le web, Slack ou Teams.', href: '/intelligence' },
+          { name: 'Foresight', subtitle: 'Intelligence predictive', description: 'Previsions 14–90 jours, scenarios hypothese, briefings execs auto-correctifs.', href: '/product/foresight' },
         ],
       },
       modules: {
@@ -1219,24 +1311,24 @@ export const websiteMessages = {
         ],
       },
       personas: {
-        eyebrow: 'CONCU POUR',
+        eyebrow: 'CE QUE NOUS ENTENDONS DES OPERATEURS',
         heading: 'Chaque role. Une seule plateforme.',
-        description: 'Sundae parle le langage de toute votre equipe — des responsables de service jusqu a la direction.',
+        description: 'Equipes differentes, questions differentes. Une seule source de verite.',
         roles: [
-          { title: 'Leaders operations', pain: 'Vous ne pouvez pas etre dans chaque restaurant a la fois.', outcome: 'Rythme live, productivite de la main-d oeuvre et performance des serveurs dans chaque site — sachez quel lieu a besoin d aide maintenant.' },
-          { title: 'Finance & FP&A', pain: '3 jours pour cloturer les comptes ? C est 3 jours de trop.', outcome: 'Intelligence de marge en temps reel, couts de main-d oeuvre par service et analyse des ecarts reliee aux causes profondes.' },
-          { title: 'Direction & proprietaires', pain: 'Votre pire site reste invisible jusqu a jeudi.', outcome: 'Tableaux de portefeuille, briefings IA quotidiens, intelligence concurrentielle et vues strategiques pour chaque marque.' },
-          { title: 'Donnees & technologie', pain: '12 API fournisseurs. 5 formats de donnees. Aucun schema unifie.', outcome: 'Pipelines propres, metriques gouvernees, API publique, webhooks et controles RBAC prets a l emploi.' },
+          { title: 'Leaders operations', pain: 'Vous ne pouvez pas etre dans chaque restaurant a la fois.', outcome: 'Rythme live et performance serveurs sur chaque site — voyez qui a besoin d aide maintenant.', attribution: 'Motif recurrent chez les operateurs multi-sites' },
+          { title: 'Finance & FP&A', pain: '3 jours pour cloturer les comptes ? C est 3 jours de trop.', outcome: 'Marge live, cout main-d oeuvre par service, ecarts relies aux causes profondes.', attribution: 'Motif recurrent dans les conversations DAF' },
+          { title: 'Direction & proprietaires', pain: 'Votre pire site reste invisible jusqu a jeudi.', outcome: 'Vue portefeuille, briefings IA quotidiens, signaux de marche — pour chaque marque.', attribution: 'Motif recurrent chez les fondateurs et CEO' },
+          { title: 'Donnees & technologie', pain: '12 API fournisseurs. 5 formats. Aucun schema unifie.', outcome: 'Pipelines propres, metriques gouvernees, API publique, webhooks, RBAC prets a l emploi.', attribution: 'Motif recurrent chez les responsables data' },
         ],
       },
       howItWorks: {
         eyebrow: 'COMMENT CA MARCHE',
-        heading: 'Des donnees aux decisions en quatre etapes',
+        heading: 'Des donnees a la decision en quatre etapes',
         steps: [
-          { step: '01', title: 'Connecter', description: 'POS, main-d oeuvre, stock, livraison — la plupart des integrations prennent moins de 5 minutes. Sundae nettoie et unifie tout.' },
-          { step: '02', title: 'Comprendre', description: 'L IA revele les anomalies, detecte la saisonnalite et superpose meteo, evenements et signaux concurrents.' },
-          { step: '03', title: 'Decider', description: 'Des recommandations specifiques — objectifs adaptatifs, changements de planning, ajustements de menu — avec une logique explicable.' },
-          { step: '04', title: 'Ameliorer', description: 'Chaque decision nourrit le systeme. Les playbooks s affinent. Les benchmarks deviennent plus precis. Votre operation se compose.' },
+          { step: '01', title: 'Connecter', description: 'POS, main-d oeuvre, stock, livraison — la plupart des integrations en moins de 5 minutes.' },
+          { step: '02', title: 'Comprendre', description: 'L IA revele les anomalies et superpose meteo, evenements et signaux concurrents.' },
+          { step: '03', title: 'Decider', description: 'Recommandations specifiques et explicables — objectifs, planning, menu, pricing.' },
+          { step: '04', title: 'Ameliorer', description: 'Chaque decision nourrit le systeme. Les playbooks s affinent, les previsions se precisent.' },
         ],
       },
       mockup: {
@@ -1257,8 +1349,8 @@ export const websiteMessages = {
         ],
         coachAlert: 'Le taux d upsell de James K. est 14% sous la moyenne du service. Envisagez de le faire travailler avec Sarah pour les 2 prochaines tables.',
       },
-      closingTitle: 'Ne pilotez plus votre restaurant au feeling.',
-      closingDescription: 'Trente minutes pour regarder vos donnees ensemble et voir ou Sundae peut aider concretement.',
+      closingTitle: 'Arretez de piloter sur les chiffres d hier.',
+      closingDescription: '30 minutes. Vos donnees. Ce que Sundae changerait concretement pour l equipe.',
       pages: {
         signIn: {
           metadataTitle: 'Connexion - Sundae',
@@ -1566,6 +1658,7 @@ export const websiteMessages = {
       plansList: [
         { name: 'Sundae Report', description: 'Analisis historico gratuito', href: '/report' },
         { name: 'Sundae Core', description: 'Operaciones en tiempo real', href: '/core' },
+        { name: 'Sundae Crew', description: 'Sustrato operativo · personal, horarios, nomina', href: '/crew' },
       ],
       solutionsSegments: [
         { name: 'Restaurantes multilocal', href: '/solutions/multi-location-groups' },
@@ -1622,16 +1715,17 @@ export const websiteMessages = {
       titleTop: 'Inteligencia de decision',
       titleBottom: 'para restaurantes',
       description:
-        'Tus datos viven en 5 a 10 sistemas desconectados. Tu equipo toma decisiones millonarias por intuicion.',
-      descriptionEmphasis: 'Sundae corrige eso.',
+        'Tus datos viven en 5 a 10 sistemas desconectados. Tu equipo decide por intuicion mientras el margen se fuga cada dia.',
+      descriptionEmphasis: 'Esa es la concesion que Sundae elimina.',
+      narrativeAnchor: 'Del retraso del reporting a la velocidad operativa.',
       startFree: 'Empezar gratis',
       bookDemo: 'Reservar demo',
       noCard: 'No se requiere tarjeta de credito',
       proofStats: [
-        { number: '250+', label: 'Locales piloto' },
-        { number: '24+', label: 'Modulos en produccion' },
+        { number: '6', label: 'Capas de inteligencia' },
+        { number: '30+', label: 'Modulos analiticos' },
         { number: '12', label: 'Dominios de datos unificados' },
-        { number: '5 min', label: 'Ciclo de actualizacion por turno' },
+        { number: '5 min', label: 'Refresco por turno' },
       ],
       problem: {
         eyebrow: 'EL PROBLEMA',
@@ -1645,18 +1739,19 @@ export const websiteMessages = {
         ],
       },
       platform: {
-        eyebrow: 'PLATAFORMA',
+        eyebrow: '6 CAPAS · UNA VERDAD',
         heading: 'Seis capas. Una verdad.',
-        description: 'Todo lo que un grupo de restaurantes necesita para entender, predecir y actuar: desde turnos en tiempo real hasta estrategia a largo plazo.',
+        description: 'Del turno en vivo al plan a largo plazo — una plataforma, seis capas que se hablan entre si.',
+        countLabel: 'de 6',
         exploreModules: 'Explorar todos los modulos',
         learnMore: 'Saber mas',
         layers: [
-          { name: 'Pulse', subtitle: 'Operaciones en tiempo real', description: 'Ritmo de ventas en vivo, objetivos de IA adaptativos, rendimiento del personal y deteccion de fugas: turno por turno, local por local.', href: '/product/pulse' },
-          { name: 'Benchmarks', subtitle: 'Inteligencia competitiva', description: 'Benchmarks anonimos de pares para RevPASH, tamano de ticket, productividad laboral y mas de 30 metricas. Sabe exactamente donde esta parado.', href: '/benchmarking' },
-          { name: 'Watchtower', subtitle: 'Inteligencia de mercado', description: 'Monitoreo de competencia, impacto del clima, inteligencia de eventos e informes diarios con IA, antes de que el impacto llegue a tus numeros.', href: '/product/watchtower' },
-          { name: 'Insights', subtitle: 'Mas de 30 modulos analiticos', description: 'Ingresos, personal, inventario, compras, marketing, reservas, delivery y experiencia del cliente, cada uno con recomendaciones de IA.', href: '/insights' },
-          { name: 'Sundae Intelligence', subtitle: 'IA conversacional', description: 'Preguntale cualquier cosa a tus datos. Obtiene respuestas en segundos, en web, Slack, Teams o Telegram.', href: '/intelligence' },
-          { name: 'Foresight', subtitle: 'Inteligencia predictiva', description: 'Pronosticos de 14 a 90 dias para ingresos, personal y beneficio. Escenarios hipoteticos, briefings ejecutivos y precision autocorregible.', href: '/product/foresight' },
+          { name: 'Pulse', subtitle: 'Operaciones en tiempo real', description: 'Ritmo en vivo, objetivos adaptativos, rendimiento del personal, fugas — turno a turno.', href: '/product/pulse' },
+          { name: 'Benchmarks', subtitle: 'Inteligencia competitiva', description: 'Benchmarks anonimos de pares en 30+ metricas. Sabe exactamente donde estas.', href: '/benchmarking' },
+          { name: 'Watchtower', subtitle: 'Inteligencia de mercado', description: 'Competencia, clima, eventos — antes de que toquen tus numeros.', href: '/product/watchtower' },
+          { name: 'Insights', subtitle: '30+ modulos analiticos', description: 'Ingresos, personal, inventario, marketing, delivery — cada uno con recomendaciones de IA.', href: '/insights' },
+          { name: 'Sundae Intelligence', subtitle: 'IA conversacional', description: 'Preguntale cualquier cosa a tus datos. Respuestas en segundos en web, Slack o Teams.', href: '/intelligence' },
+          { name: 'Foresight', subtitle: 'Inteligencia predictiva', description: 'Pronosticos 14–90 dias, escenarios hipoteticos, briefings ejecutivos autocorregibles.', href: '/product/foresight' },
         ],
       },
       modules: {
@@ -1679,24 +1774,24 @@ export const websiteMessages = {
         ],
       },
       personas: {
-        eyebrow: 'DISEÑADO PARA',
+        eyebrow: 'LO QUE ESCUCHAMOS DE OPERADORES',
         heading: 'Cada rol. Una sola plataforma.',
-        description: 'Sundae habla el lenguaje de todo tu equipo, desde gerentes de turno hasta la alta direccion.',
+        description: 'Equipos distintos, preguntas distintas. Una sola fuente de verdad.',
         roles: [
-          { title: 'Lideres de operaciones', pain: 'No puedes estar en todos los restaurantes al mismo tiempo.', outcome: 'Ritmo en vivo, productividad laboral y rendimiento del personal en cada local: sabe que ubicacion necesita ayuda ahora mismo.' },
-          { title: 'Finanzas y FP&A', pain: '3 dias para cerrar libros? Eso es demasiado tiempo.', outcome: 'Inteligencia de margen en tiempo real, costos laborales por turno y analisis de variaciones conectados con la causa raiz.' },
-          { title: 'C-suite y propietarios', pain: 'Tu peor local no es visible hasta el jueves.', outcome: 'Paneles de cartera, briefings diarios con IA, inteligencia competitiva y vistas estrategicas por marca.' },
-          { title: 'Datos y tecnologia', pain: '12 APIs de proveedores. 5 formatos de datos. Cero esquema unificado.', outcome: 'Pipelines limpios, metricas gobernadas, API publica, webhooks y controles RBAC listos para usar.' },
+          { title: 'Lideres de operaciones', pain: 'No puedes estar en todos los restaurantes al mismo tiempo.', outcome: 'Ritmo en vivo y rendimiento del personal en cada local — sabe quien necesita ayuda ahora.', attribution: 'Patron entre operadores multilocal' },
+          { title: 'Finanzas y FP&A', pain: '3 dias para cerrar libros? Eso es demasiado tiempo.', outcome: 'Margen en tiempo real, costo laboral por turno, variaciones ligadas a la causa raiz.', attribution: 'Patron en conversaciones con CFO' },
+          { title: 'C-suite y propietarios', pain: 'Tu peor local no es visible hasta el jueves.', outcome: 'Vista de portafolio, briefings diarios con IA, senales de mercado — por cada marca.', attribution: 'Patron entre fundadores y CEOs' },
+          { title: 'Datos y tecnologia', pain: '12 APIs. 5 formatos. Cero esquema unificado.', outcome: 'Pipelines limpios, metricas gobernadas, API publica, webhooks y RBAC listos.', attribution: 'Patron entre lideres de datos' },
         ],
       },
       howItWorks: {
         eyebrow: 'COMO FUNCIONA',
-        heading: 'De los datos a las decisiones en cuatro pasos',
+        heading: 'De los datos a la decision en cuatro pasos',
         steps: [
-          { step: '01', title: 'Conectar', description: 'POS, personal, inventario, delivery: la mayoria de integraciones tardan menos de 5 minutos. Sundae limpia y unifica todo.' },
-          { step: '02', title: 'Entender', description: 'La IA detecta anomalías, identifica estacionalidad y suma clima, eventos y señales de competencia.' },
-          { step: '03', title: 'Decidir', description: 'Recomendaciones concretas: objetivos adaptativos, cambios de staffing y ajustes de menu, con logica explicable.' },
-          { step: '04', title: 'Mejorar', description: 'Cada decision alimenta el sistema. Los playbooks mejoran. Los benchmarks se vuelven mas precisos. Tu operacion se compone.' },
+          { step: '01', title: 'Conectar', description: 'POS, personal, inventario, delivery — la mayoria de integraciones en menos de 5 minutos.' },
+          { step: '02', title: 'Entender', description: 'La IA detecta anomalias y suma clima, eventos y senales de competencia.' },
+          { step: '03', title: 'Decidir', description: 'Recomendaciones concretas y explicables — objetivos, staffing, menu, pricing.' },
+          { step: '04', title: 'Mejorar', description: 'Cada decision alimenta el sistema. Los playbooks afinan, los pronosticos se precisan.' },
         ],
       },
       mockup: {
@@ -1717,8 +1812,8 @@ export const websiteMessages = {
         ],
         coachAlert: 'La tasa de upsell de James K. esta 14% por debajo del promedio del turno. Considera emparejarlo con Sarah para las proximas 2 mesas.',
       },
-      closingTitle: 'Deja de operar tu restaurante por intuicion.',
-      closingDescription: 'Treinta minutos para revisar tus datos contigo y ver donde Sundae puede aportar de verdad.',
+      closingTitle: 'Deja de operar con los numeros de ayer.',
+      closingDescription: '30 minutos. Tus datos. Lo que Sundae cambiaria realmente para tu equipo.',
       pages: {
         signIn: {
           metadataTitle: 'Iniciar sesion - Sundae',
@@ -1987,14 +2082,818 @@ export const websiteMessages = {
   },
 } as const
 
-type WebsiteMessagesBase = typeof websiteMessages.en
+type WidenLiterals<T> =
+  T extends string ? string :
+  T extends number ? number :
+  T extends boolean ? boolean :
+  T extends readonly (infer U)[] ? WidenLiterals<U>[] :
+  T extends object ? { [K in keyof T]: WidenLiterals<T[K]> } :
+  T
+
+type WebsiteMessagesBase = WidenLiterals<typeof websiteMessages.en>
 
 export type WebsiteMessages = WebsiteMessagesBase & {
   pages: WebsiteMessagesBase['home']['pages']
 }
 
+type DeepPartial<T> = {
+  [K in keyof T]?: T[K] extends readonly (infer U)[]
+    ? readonly DeepPartial<U>[]
+    : T[K] extends object
+      ? DeepPartial<T[K]>
+      : T[K]
+}
+
+const expandedLocaleMessageOverrides = {
+  de: {
+    metadata: {
+      title: 'Sundae – Entscheidungsintelligenz für Restaurants',
+      description:
+        'Die KI-Plattform, die Restaurantdaten in konkrete Entscheidungen übersetzt: POS-, Personal-, Kosten- und Betriebsdaten vereinheitlichen, Leistung vergleichen und sofortige Insights erhalten.',
+    },
+    layout: {
+      skipToContent: 'Zum Hauptinhalt springen',
+      languageSelector: 'Sprache',
+    },
+    navbar: {
+      products: 'Produkte',
+      solutions: 'Lösungen',
+      resources: 'Ressourcen',
+      company: 'Unternehmen',
+      intelligence: 'Intelligenz',
+      plans: 'Pläne',
+      bySegment: 'Nach Segment',
+      byRole: 'Nach Rolle',
+      learn: 'Lernen',
+      pricing: 'Preise',
+      about: 'Über uns',
+      signIn: 'Anmelden',
+      bookDemo: 'Demo buchen',
+      comparePlans: 'Pläne vergleichen →',
+      startFree: 'Kostenlos starten →',
+    },
+    footer: {
+      readyTitle: 'Bereit zu sehen, was Ihnen entgeht?',
+      readyDescription: 'Schließen Sie sich Betreibern an, die vom Raten zum Wissen gewechselt sind.',
+      bookDemo: 'Demo buchen',
+      startFree: 'Kostenlos mit Report starten',
+      global: 'Global',
+      allCurrencies: 'Alle Währungen',
+      sectionProduct: 'Produkt',
+      sectionSolutions: 'Lösungen',
+      sectionResources: 'Ressourcen',
+      sectionCompany: 'Unternehmen',
+      pricing: 'Preise',
+      privacy: 'Datenschutz',
+      terms: 'Bedingungen',
+      copyrightSuffix: 'Alle Rechte vorbehalten.',
+    },
+  },
+  nl: {
+    metadata: {
+      title: 'Sundae – beslissingsintelligentie voor restaurants',
+      description:
+        'Het AI-platform dat restaurantdata omzet in actie: POS-, personeels-, kosten- en operationele data samenbrengen, prestaties benchmarken en direct inzicht krijgen.',
+    },
+    layout: {
+      skipToContent: 'Ga naar hoofdinhoud',
+      languageSelector: 'Taal',
+    },
+    navbar: {
+      products: 'Producten',
+      solutions: 'Oplossingen',
+      resources: 'Bronnen',
+      company: 'Bedrijf',
+      intelligence: 'Intelligentie',
+      plans: 'Pakketten',
+      bySegment: 'Per segment',
+      byRole: 'Per rol',
+      learn: 'Leren',
+      pricing: 'Prijzen',
+      about: 'Over ons',
+      signIn: 'Inloggen',
+      bookDemo: 'Demo boeken',
+      comparePlans: 'Pakketten vergelijken →',
+      startFree: 'Gratis starten →',
+    },
+    footer: {
+      readyTitle: 'Klaar om te zien wat u mist?',
+      readyDescription: 'Sluit u aan bij operators die niet meer gokken maar weten.',
+      bookDemo: 'Demo boeken',
+      startFree: 'Gratis starten met Report',
+      global: 'Wereldwijd',
+      allCurrencies: 'Alle valuta',
+      sectionProduct: 'Product',
+      sectionSolutions: 'Oplossingen',
+      sectionResources: 'Bronnen',
+      sectionCompany: 'Bedrijf',
+      pricing: 'Prijzen',
+      privacy: 'Privacy',
+      terms: 'Voorwaarden',
+      copyrightSuffix: 'Alle rechten voorbehouden.',
+    },
+  },
+  pt: {
+    metadata: {
+      title: 'Sundae – inteligência de decisão para restaurantes',
+      description:
+        'A plataforma de IA que transforma dados de restaurantes em ação: unifique POS, equipe, custos e operações para comparar desempenho e obter insights imediatos.',
+    },
+    layout: {
+      skipToContent: 'Ir para o conteúdo principal',
+      languageSelector: 'Idioma',
+    },
+    navbar: {
+      products: 'Produtos',
+      solutions: 'Soluções',
+      resources: 'Recursos',
+      company: 'Empresa',
+      intelligence: 'Inteligência',
+      plans: 'Planos',
+      bySegment: 'Por segmento',
+      byRole: 'Por função',
+      learn: 'Aprender',
+      pricing: 'Preços',
+      about: 'Sobre',
+      signIn: 'Entrar',
+      bookDemo: 'Agendar demo',
+      comparePlans: 'Comparar planos →',
+      startFree: 'Começar grátis →',
+    },
+    footer: {
+      readyTitle: 'Pronto para ver o que está faltando?',
+      readyDescription: 'Junte-se a operadores que saíram do palpite e passaram a decidir com clareza.',
+      bookDemo: 'Agendar demo',
+      startFree: 'Começar grátis com Report',
+      global: 'Global',
+      allCurrencies: 'Todas as moedas',
+      sectionProduct: 'Produto',
+      sectionSolutions: 'Soluções',
+      sectionResources: 'Recursos',
+      sectionCompany: 'Empresa',
+      pricing: 'Preços',
+      privacy: 'Privacidade',
+      terms: 'Termos',
+      copyrightSuffix: 'Todos os direitos reservados.',
+    },
+  },
+  hi: {
+    metadata: {
+      title: 'Sundae – रेस्टोरेंट्स के लिए निर्णय इंटेलिजेंस',
+      description:
+        'AI प्लेटफॉर्म जो रेस्टोरेंट डेटा को कार्रवाई में बदलता है: POS, श्रम, लागत और ऑपरेशनल डेटा को जोड़ें, प्रदर्शन की तुलना करें और तुरंत इनसाइट पाएं.',
+    },
+    layout: {
+      skipToContent: 'मुख्य सामग्री पर जाएं',
+      languageSelector: 'भाषा',
+    },
+    navbar: {
+      products: 'उत्पाद',
+      solutions: 'समाधान',
+      resources: 'संसाधन',
+      company: 'कंपनी',
+      intelligence: 'इंटेलिजेंस',
+      plans: 'प्लान',
+      bySegment: 'सेगमेंट के अनुसार',
+      byRole: 'भूमिका के अनुसार',
+      learn: 'सीखें',
+      pricing: 'कीमतें',
+      about: 'परिचय',
+      signIn: 'साइन इन',
+      bookDemo: 'डेमो बुक करें',
+      comparePlans: 'प्लान तुलना करें →',
+      startFree: 'मुफ्त शुरू करें →',
+    },
+    footer: {
+      readyTitle: 'क्या आप देखना चाहते हैं कि आप क्या मिस कर रहे हैं?',
+      readyDescription: 'उन ऑपरेटरों से जुड़ें जो अनुमान से स्पष्ट निर्णय तक पहुंच चुके हैं.',
+      bookDemo: 'डेमो बुक करें',
+      startFree: 'Report के साथ मुफ्त शुरू करें',
+      global: 'वैश्विक',
+      allCurrencies: 'सभी मुद्राएं',
+      sectionProduct: 'उत्पाद',
+      sectionSolutions: 'समाधान',
+      sectionResources: 'संसाधन',
+      sectionCompany: 'कंपनी',
+      pricing: 'कीमतें',
+      privacy: 'गोपनीयता',
+      terms: 'शर्तें',
+      copyrightSuffix: 'सर्वाधिकार सुरक्षित.',
+    },
+  },
+  ur: {
+    metadata: {
+      title: 'Sundae – ریستورانوں کے لیے فیصلہ سازی انٹیلیجنس',
+      description:
+        'AI پلیٹ فارم جو ریستوران کے ڈیٹا کو عمل میں بدلتا ہے: POS، عملہ، لاگت اور آپریشنل ڈیٹا کو یکجا کریں، کارکردگی کا موازنہ کریں اور فوری بصیرت حاصل کریں۔',
+    },
+    layout: {
+      skipToContent: 'مرکزی مواد پر جائیں',
+      languageSelector: 'زبان',
+    },
+    navbar: {
+      products: 'مصنوعات',
+      solutions: 'حل',
+      resources: 'وسائل',
+      company: 'کمپنی',
+      intelligence: 'انٹیلیجنس',
+      plans: 'پلانز',
+      bySegment: 'طبقے کے حساب سے',
+      byRole: 'کردار کے حساب سے',
+      learn: 'سیکھیں',
+      pricing: 'قیمتیں',
+      about: 'تعارف',
+      signIn: 'سائن ان',
+      bookDemo: 'ڈیمو بک کریں',
+      comparePlans: 'پلانز کا موازنہ →',
+      startFree: 'مفت شروع کریں →',
+    },
+    footer: {
+      readyTitle: 'کیا آپ دیکھنا چاہتے ہیں کہ آپ سے کیا رہ رہا ہے؟',
+      readyDescription: 'ان آپریٹرز میں شامل ہوں جو اندازے سے یقین تک پہنچ چکے ہیں۔',
+      bookDemo: 'ڈیمو بک کریں',
+      startFree: 'Report کے ساتھ مفت شروع کریں',
+      global: 'عالمی',
+      allCurrencies: 'تمام کرنسیاں',
+      sectionProduct: 'مصنوعات',
+      sectionSolutions: 'حل',
+      sectionResources: 'وسائل',
+      sectionCompany: 'کمپنی',
+      pricing: 'قیمتیں',
+      privacy: 'رازداری',
+      terms: 'شرائط',
+      copyrightSuffix: 'جملہ حقوق محفوظ ہیں۔',
+    },
+  },
+  it: {
+    metadata: {
+      title: 'Sundae - intelligence decisionale per ristoranti',
+      description:
+        'La piattaforma AI che trasforma i dati dei ristoranti in azione: unifica POS, personale, costi e operazioni per confrontare le prestazioni e ottenere insight immediati.',
+    },
+    layout: { skipToContent: 'Vai al contenuto principale', languageSelector: 'Lingua' },
+    navbar: {
+      products: 'Prodotti',
+      solutions: 'Soluzioni',
+      resources: 'Risorse',
+      company: 'Azienda',
+      intelligence: 'Intelligence',
+      plans: 'Piani',
+      bySegment: 'Per segmento',
+      byRole: 'Per ruolo',
+      learn: 'Impara',
+      pricing: 'Prezzi',
+      about: 'Chi siamo',
+      signIn: 'Accedi',
+      bookDemo: 'Prenota demo',
+      comparePlans: 'Confronta piani →',
+      startFree: 'Inizia gratis →',
+    },
+    footer: {
+      readyTitle: 'Pronto a vedere cosa ti stai perdendo?',
+      readyDescription: 'Unisciti agli operatori che sono passati dalle ipotesi alla chiarezza.',
+      bookDemo: 'Prenota demo',
+      startFree: 'Inizia gratis con Report',
+      global: 'Globale',
+      allCurrencies: 'Tutte le valute',
+      sectionProduct: 'Prodotto',
+      sectionSolutions: 'Soluzioni',
+      sectionResources: 'Risorse',
+      sectionCompany: 'Azienda',
+      pricing: 'Prezzi',
+      privacy: 'Privacy',
+      terms: 'Termini',
+      copyrightSuffix: 'Tutti i diritti riservati.',
+    },
+  },
+  pl: {
+    metadata: {
+      title: 'Sundae - inteligencja decyzyjna dla restauracji',
+      description:
+        'Platforma AI, która zamienia dane restauracyjne w działania: łączy POS, pracowników, koszty i operacje, aby porównywać wyniki i dostarczać natychmiastowe wnioski.',
+    },
+    layout: { skipToContent: 'Przejdź do treści głównej', languageSelector: 'Język' },
+    navbar: {
+      products: 'Produkty',
+      solutions: 'Rozwiązania',
+      resources: 'Zasoby',
+      company: 'Firma',
+      intelligence: 'Inteligencja',
+      plans: 'Plany',
+      bySegment: 'Według segmentu',
+      byRole: 'Według roli',
+      learn: 'Nauka',
+      pricing: 'Cennik',
+      about: 'O nas',
+      signIn: 'Zaloguj',
+      bookDemo: 'Umów demo',
+      comparePlans: 'Porównaj plany →',
+      startFree: 'Zacznij za darmo →',
+    },
+    footer: {
+      readyTitle: 'Gotowy zobaczyć, co Ci umyka?',
+      readyDescription: 'Dołącz do operatorów, którzy przeszli od zgadywania do jasnych decyzji.',
+      bookDemo: 'Umów demo',
+      startFree: 'Zacznij za darmo z Report',
+      global: 'Globalnie',
+      allCurrencies: 'Wszystkie waluty',
+      sectionProduct: 'Produkt',
+      sectionSolutions: 'Rozwiązania',
+      sectionResources: 'Zasoby',
+      sectionCompany: 'Firma',
+      pricing: 'Cennik',
+      privacy: 'Prywatność',
+      terms: 'Warunki',
+      copyrightSuffix: 'Wszelkie prawa zastrzeżone.',
+    },
+  },
+  tr: {
+    metadata: {
+      title: 'Sundae - restoranlar için karar zekası',
+      description:
+        'Restoran verilerini aksiyona dönüştüren AI platformu: POS, ekip, maliyet ve operasyon verilerini birleştirir, performansı kıyaslar ve anında içgörüler sunar.',
+    },
+    layout: { skipToContent: 'Ana içeriğe geç', languageSelector: 'Dil' },
+    navbar: {
+      products: 'Ürünler',
+      solutions: 'Çözümler',
+      resources: 'Kaynaklar',
+      company: 'Şirket',
+      intelligence: 'Zeka',
+      plans: 'Planlar',
+      bySegment: 'Segmente göre',
+      byRole: 'Role göre',
+      learn: 'Öğren',
+      pricing: 'Fiyatlandırma',
+      about: 'Hakkımızda',
+      signIn: 'Giriş yap',
+      bookDemo: 'Demo al',
+      comparePlans: 'Planları karşılaştır →',
+      startFree: 'Ücretsiz başla →',
+    },
+    footer: {
+      readyTitle: 'Neyi kaçırdığınızı görmeye hazır mısınız?',
+      readyDescription: 'Tahminden net karara geçen operatörlere katılın.',
+      bookDemo: 'Demo al',
+      startFree: 'Report ile ücretsiz başla',
+      global: 'Küresel',
+      allCurrencies: 'Tüm para birimleri',
+      sectionProduct: 'Ürün',
+      sectionSolutions: 'Çözümler',
+      sectionResources: 'Kaynaklar',
+      sectionCompany: 'Şirket',
+      pricing: 'Fiyatlandırma',
+      privacy: 'Gizlilik',
+      terms: 'Şartlar',
+      copyrightSuffix: 'Tüm hakları saklıdır.',
+    },
+  },
+  'zh-Hans': {
+    metadata: {
+      title: 'Sundae - 面向餐厅的决策智能',
+      description:
+        '将餐厅数据转化为行动的 AI 平台：统一 POS、人员、成本和运营数据，对比绩效并获得即时洞察。',
+    },
+    layout: { skipToContent: '跳到主要内容', languageSelector: '语言' },
+    navbar: {
+      products: '产品',
+      solutions: '解决方案',
+      resources: '资源',
+      company: '公司',
+      intelligence: '智能',
+      plans: '方案',
+      bySegment: '按细分',
+      byRole: '按角色',
+      learn: '学习',
+      pricing: '价格',
+      about: '关于我们',
+      signIn: '登录',
+      bookDemo: '预约演示',
+      comparePlans: '比较方案 →',
+      startFree: '免费开始 →',
+    },
+    footer: {
+      readyTitle: '准备好看看您错过了什么吗？',
+      readyDescription: '加入已经从猜测转向清晰决策的运营者。',
+      bookDemo: '预约演示',
+      startFree: '从 Report 免费开始',
+      global: '全球',
+      allCurrencies: '所有货币',
+      sectionProduct: '产品',
+      sectionSolutions: '解决方案',
+      sectionResources: '资源',
+      sectionCompany: '公司',
+      pricing: '价格',
+      privacy: '隐私',
+      terms: '条款',
+      copyrightSuffix: '保留所有权利。',
+    },
+  },
+  ja: {
+    metadata: {
+      title: 'Sundae - レストランのための意思決定インテリジェンス',
+      description:
+        'レストランデータを行動に変える AI プラットフォーム。POS、人員、コスト、運営データを統合し、成果を比較して即時のインサイトを提供します。',
+    },
+    layout: { skipToContent: 'メインコンテンツへ移動', languageSelector: '言語' },
+    navbar: {
+      products: '製品',
+      solutions: 'ソリューション',
+      resources: 'リソース',
+      company: '会社',
+      intelligence: 'インテリジェンス',
+      plans: 'プラン',
+      bySegment: 'セグメント別',
+      byRole: '役割別',
+      learn: '学ぶ',
+      pricing: '料金',
+      about: '会社情報',
+      signIn: 'サインイン',
+      bookDemo: 'デモを予約',
+      comparePlans: 'プランを比較 →',
+      startFree: '無料で開始 →',
+    },
+    footer: {
+      readyTitle: '見落としているものを確認しませんか？',
+      readyDescription: '勘に頼る運営から、確かな判断へ移行したオペレーターに加わりましょう。',
+      bookDemo: 'デモを予約',
+      startFree: 'Report で無料開始',
+      global: 'グローバル',
+      allCurrencies: 'すべての通貨',
+      sectionProduct: '製品',
+      sectionSolutions: 'ソリューション',
+      sectionResources: 'リソース',
+      sectionCompany: '会社',
+      pricing: '料金',
+      privacy: 'プライバシー',
+      terms: '利用規約',
+      copyrightSuffix: 'All rights reserved.',
+    },
+  },
+  ko: {
+    metadata: {
+      title: 'Sundae - 레스토랑을 위한 의사결정 인텔리전스',
+      description:
+        '레스토랑 데이터를 실행으로 바꾸는 AI 플랫폼입니다. POS, 인력, 비용, 운영 데이터를 통합하고 성과를 비교해 즉시 인사이트를 제공합니다.',
+    },
+    layout: { skipToContent: '본문으로 건너뛰기', languageSelector: '언어' },
+    navbar: {
+      products: '제품',
+      solutions: '솔루션',
+      resources: '리소스',
+      company: '회사',
+      intelligence: '인텔리전스',
+      plans: '플랜',
+      bySegment: '세그먼트별',
+      byRole: '역할별',
+      learn: '학습',
+      pricing: '가격',
+      about: '회사 소개',
+      signIn: '로그인',
+      bookDemo: '데모 예약',
+      comparePlans: '플랜 비교 →',
+      startFree: '무료 시작 →',
+    },
+    footer: {
+      readyTitle: '놓치고 있는 것을 확인할 준비가 되셨나요?',
+      readyDescription: '감이 아닌 명확한 판단으로 전환한 운영자들과 함께하세요.',
+      bookDemo: '데모 예약',
+      startFree: 'Report로 무료 시작',
+      global: '글로벌',
+      allCurrencies: '모든 통화',
+      sectionProduct: '제품',
+      sectionSolutions: '솔루션',
+      sectionResources: '리소스',
+      sectionCompany: '회사',
+      pricing: '가격',
+      privacy: '개인정보',
+      terms: '약관',
+      copyrightSuffix: '모든 권리 보유.',
+    },
+  },
+  id: {
+    metadata: {
+      title: 'Sundae - intelijen keputusan untuk restoran',
+      description:
+        'Platform AI yang mengubah data restoran menjadi aksi: satukan POS, tenaga kerja, biaya, dan operasi untuk membandingkan kinerja serta mendapatkan insight instan.',
+    },
+    layout: { skipToContent: 'Lewati ke konten utama', languageSelector: 'Bahasa' },
+    navbar: {
+      products: 'Produk',
+      solutions: 'Solusi',
+      resources: 'Sumber daya',
+      company: 'Perusahaan',
+      intelligence: 'Intelijen',
+      plans: 'Paket',
+      bySegment: 'Menurut segmen',
+      byRole: 'Menurut peran',
+      learn: 'Pelajari',
+      pricing: 'Harga',
+      about: 'Tentang',
+      signIn: 'Masuk',
+      bookDemo: 'Pesan demo',
+      comparePlans: 'Bandingkan paket →',
+      startFree: 'Mulai gratis →',
+    },
+    footer: {
+      readyTitle: 'Siap melihat apa yang Anda lewatkan?',
+      readyDescription: 'Bergabunglah dengan operator yang beralih dari menebak ke keputusan yang jelas.',
+      bookDemo: 'Pesan demo',
+      startFree: 'Mulai gratis dengan Report',
+      global: 'Global',
+      allCurrencies: 'Semua mata uang',
+      sectionProduct: 'Produk',
+      sectionSolutions: 'Solusi',
+      sectionResources: 'Sumber daya',
+      sectionCompany: 'Perusahaan',
+      pricing: 'Harga',
+      privacy: 'Privasi',
+      terms: 'Ketentuan',
+      copyrightSuffix: 'Hak cipta dilindungi.',
+    },
+  },
+  vi: {
+    metadata: {
+      title: 'Sundae - trí tuệ quyết định cho nhà hàng',
+      description:
+        'Nền tảng AI biến dữ liệu nhà hàng thành hành động: hợp nhất POS, nhân sự, chi phí và vận hành để so sánh hiệu suất và nhận insight tức thì.',
+    },
+    layout: { skipToContent: 'Chuyển đến nội dung chính', languageSelector: 'Ngôn ngữ' },
+    navbar: {
+      products: 'Sản phẩm',
+      solutions: 'Giải pháp',
+      resources: 'Tài nguyên',
+      company: 'Công ty',
+      intelligence: 'Trí tuệ',
+      plans: 'Gói',
+      bySegment: 'Theo phân khúc',
+      byRole: 'Theo vai trò',
+      learn: 'Tìm hiểu',
+      pricing: 'Giá',
+      about: 'Giới thiệu',
+      signIn: 'Đăng nhập',
+      bookDemo: 'Đặt demo',
+      comparePlans: 'So sánh gói →',
+      startFree: 'Bắt đầu miễn phí →',
+    },
+    footer: {
+      readyTitle: 'Sẵn sàng xem bạn đang bỏ lỡ điều gì?',
+      readyDescription: 'Tham gia cùng các nhà vận hành đã chuyển từ phỏng đoán sang quyết định rõ ràng.',
+      bookDemo: 'Đặt demo',
+      startFree: 'Bắt đầu miễn phí với Report',
+      global: 'Toàn cầu',
+      allCurrencies: 'Tất cả tiền tệ',
+      sectionProduct: 'Sản phẩm',
+      sectionSolutions: 'Giải pháp',
+      sectionResources: 'Tài nguyên',
+      sectionCompany: 'Công ty',
+      pricing: 'Giá',
+      privacy: 'Quyền riêng tư',
+      terms: 'Điều khoản',
+      copyrightSuffix: 'Đã đăng ký bản quyền.',
+    },
+  },
+  ro: {
+    metadata: {
+      title: 'Sundae - inteligență decizională pentru restaurante',
+      description:
+        'Platforma AI care transformă datele restaurantelor în acțiune: unește POS, personal, costuri și operațiuni pentru a compara performanța și a oferi insighturi instant.',
+    },
+    layout: { skipToContent: 'Sari la conținutul principal', languageSelector: 'Limbă' },
+    navbar: {
+      products: 'Produse',
+      solutions: 'Soluții',
+      resources: 'Resurse',
+      company: 'Companie',
+      intelligence: 'Inteligență',
+      plans: 'Planuri',
+      bySegment: 'După segment',
+      byRole: 'După rol',
+      learn: 'Învață',
+      pricing: 'Prețuri',
+      about: 'Despre',
+      signIn: 'Autentificare',
+      bookDemo: 'Programează demo',
+      comparePlans: 'Compară planuri →',
+      startFree: 'Începe gratuit →',
+    },
+    footer: {
+      readyTitle: 'Gata să vezi ce îți scapă?',
+      readyDescription: 'Alătură-te operatorilor care au trecut de la presupuneri la claritate.',
+      bookDemo: 'Programează demo',
+      startFree: 'Începe gratuit cu Report',
+      global: 'Global',
+      allCurrencies: 'Toate monedele',
+      sectionProduct: 'Produs',
+      sectionSolutions: 'Soluții',
+      sectionResources: 'Resurse',
+      sectionCompany: 'Companie',
+      pricing: 'Prețuri',
+      privacy: 'Confidențialitate',
+      terms: 'Termeni',
+      copyrightSuffix: 'Toate drepturile rezervate.',
+    },
+  },
+  sv: {
+    metadata: {
+      title: 'Sundae - beslutsintelligens för restauranger',
+      description:
+        'AI-plattformen som gör restaurangdata till handling: förena POS, personal, kostnader och drift för att jämföra resultat och få omedelbara insikter.',
+    },
+    layout: { skipToContent: 'Gå till huvudinnehåll', languageSelector: 'Språk' },
+    navbar: {
+      products: 'Produkter',
+      solutions: 'Lösningar',
+      resources: 'Resurser',
+      company: 'Företag',
+      intelligence: 'Intelligens',
+      plans: 'Planer',
+      bySegment: 'Efter segment',
+      byRole: 'Efter roll',
+      learn: 'Lär dig',
+      pricing: 'Priser',
+      about: 'Om oss',
+      signIn: 'Logga in',
+      bookDemo: 'Boka demo',
+      comparePlans: 'Jämför planer →',
+      startFree: 'Starta gratis →',
+    },
+    footer: {
+      readyTitle: 'Redo att se vad du missar?',
+      readyDescription: 'Gå med operatörer som gått från gissningar till tydlighet.',
+      bookDemo: 'Boka demo',
+      startFree: 'Starta gratis med Report',
+      global: 'Globalt',
+      allCurrencies: 'Alla valutor',
+      sectionProduct: 'Produkt',
+      sectionSolutions: 'Lösningar',
+      sectionResources: 'Resurser',
+      sectionCompany: 'Företag',
+      pricing: 'Priser',
+      privacy: 'Integritet',
+      terms: 'Villkor',
+      copyrightSuffix: 'Alla rättigheter förbehållna.',
+    },
+  },
+  bn: {
+    metadata: {
+      title: 'Sundae - রেস্তোরাঁর জন্য সিদ্ধান্ত বুদ্ধিমত্তা',
+      description:
+        'AI প্ল্যাটফর্ম যা রেস্তোরাঁর ডেটাকে কাজে রূপান্তর করে: POS, কর্মী, খরচ ও অপারেশন একত্র করে পারফরম্যান্স তুলনা করুন এবং তাৎক্ষণিক ইনসাইট পান।',
+    },
+    layout: { skipToContent: 'মূল কনটেন্টে যান', languageSelector: 'ভাষা' },
+    navbar: {
+      products: 'পণ্য',
+      solutions: 'সমাধান',
+      resources: 'রিসোর্স',
+      company: 'কোম্পানি',
+      intelligence: 'ইন্টেলিজেন্স',
+      plans: 'প্ল্যান',
+      bySegment: 'সেগমেন্ট অনুযায়ী',
+      byRole: 'ভূমিকা অনুযায়ী',
+      learn: 'শিখুন',
+      pricing: 'মূল্য',
+      about: 'সম্পর্কে',
+      signIn: 'সাইন ইন',
+      bookDemo: 'ডেমো বুক করুন',
+      comparePlans: 'প্ল্যান তুলনা করুন →',
+      startFree: 'বিনামূল্যে শুরু করুন →',
+    },
+    footer: {
+      readyTitle: 'আপনি কী মিস করছেন তা দেখতে প্রস্তুত?',
+      readyDescription: 'যারা অনুমান থেকে স্পষ্ট সিদ্ধান্তে গেছে, সেই অপারেটরদের সাথে যোগ দিন।',
+      bookDemo: 'ডেমো বুক করুন',
+      startFree: 'Report দিয়ে বিনামূল্যে শুরু করুন',
+      global: 'গ্লোবাল',
+      allCurrencies: 'সব মুদ্রা',
+      sectionProduct: 'পণ্য',
+      sectionSolutions: 'সমাধান',
+      sectionResources: 'রিসোর্স',
+      sectionCompany: 'কোম্পানি',
+      pricing: 'মূল্য',
+      privacy: 'গোপনীয়তা',
+      terms: 'শর্তাবলি',
+      copyrightSuffix: 'সর্বস্বত্ব সংরক্ষিত।',
+    },
+  },
+  th: {
+    metadata: {
+      title: 'Sundae - ข่าวกรองการตัดสินใจสำหรับร้านอาหาร',
+      description:
+        'แพลตฟอร์ม AI ที่เปลี่ยนข้อมูลร้านอาหารให้เป็นการลงมือทำ: รวม POS พนักงาน ต้นทุน และการดำเนินงาน เพื่อเปรียบเทียบผลงานและรับอินไซต์ทันที',
+    },
+    layout: { skipToContent: 'ข้ามไปยังเนื้อหาหลัก', languageSelector: 'ภาษา' },
+    navbar: {
+      products: 'ผลิตภัณฑ์',
+      solutions: 'โซลูชัน',
+      resources: 'แหล่งข้อมูล',
+      company: 'บริษัท',
+      intelligence: 'อินเทลลิเจนซ์',
+      plans: 'แพ็กเกจ',
+      bySegment: 'ตามกลุ่ม',
+      byRole: 'ตามบทบาท',
+      learn: 'เรียนรู้',
+      pricing: 'ราคา',
+      about: 'เกี่ยวกับ',
+      signIn: 'เข้าสู่ระบบ',
+      bookDemo: 'จองเดโม',
+      comparePlans: 'เปรียบเทียบแพ็กเกจ →',
+      startFree: 'เริ่มฟรี →',
+    },
+    footer: {
+      readyTitle: 'พร้อมดูสิ่งที่คุณพลาดไปหรือยัง?',
+      readyDescription: 'เข้าร่วมกับผู้ประกอบการที่เปลี่ยนจากการคาดเดาเป็นความชัดเจน',
+      bookDemo: 'จองเดโม',
+      startFree: 'เริ่มฟรีด้วย Report',
+      global: 'ทั่วโลก',
+      allCurrencies: 'ทุกสกุลเงิน',
+      sectionProduct: 'ผลิตภัณฑ์',
+      sectionSolutions: 'โซลูชัน',
+      sectionResources: 'แหล่งข้อมูล',
+      sectionCompany: 'บริษัท',
+      pricing: 'ราคา',
+      privacy: 'ความเป็นส่วนตัว',
+      terms: 'ข้อกำหนด',
+      copyrightSuffix: 'สงวนลิขสิทธิ์',
+    },
+  },
+  ms: {
+    metadata: {
+      title: 'Sundae - kecerdasan keputusan untuk restoran',
+      description:
+        'Platform AI yang menukar data restoran kepada tindakan: satukan POS, tenaga kerja, kos dan operasi untuk membandingkan prestasi serta mendapatkan insight segera.',
+    },
+    layout: { skipToContent: 'Langkau ke kandungan utama', languageSelector: 'Bahasa' },
+    navbar: {
+      products: 'Produk',
+      solutions: 'Penyelesaian',
+      resources: 'Sumber',
+      company: 'Syarikat',
+      intelligence: 'Kecerdasan',
+      plans: 'Pelan',
+      bySegment: 'Mengikut segmen',
+      byRole: 'Mengikut peranan',
+      learn: 'Belajar',
+      pricing: 'Harga',
+      about: 'Tentang',
+      signIn: 'Log masuk',
+      bookDemo: 'Tempah demo',
+      comparePlans: 'Bandingkan pelan →',
+      startFree: 'Mula percuma →',
+    },
+    footer: {
+      readyTitle: 'Bersedia melihat apa yang anda terlepas?',
+      readyDescription: 'Sertai operator yang telah beralih daripada tekaan kepada kejelasan.',
+      bookDemo: 'Tempah demo',
+      startFree: 'Mula percuma dengan Report',
+      global: 'Global',
+      allCurrencies: 'Semua mata wang',
+      sectionProduct: 'Produk',
+      sectionSolutions: 'Penyelesaian',
+      sectionResources: 'Sumber',
+      sectionCompany: 'Syarikat',
+      pricing: 'Harga',
+      privacy: 'Privasi',
+      terms: 'Terma',
+      copyrightSuffix: 'Hak cipta terpelihara.',
+    },
+  },
+} satisfies Partial<Record<WebsiteLocale, DeepPartial<WebsiteMessagesBase>>>
+
+const expandedLocaleOverridesByLocale = {
+  ...expandedLocaleMessageOverrides,
+  ...generatedWebsiteMessageOverrides,
+} as unknown as Partial<Record<WebsiteLocale, DeepPartial<WebsiteMessagesBase>>>
+
+function mergeDeep<T>(base: T, override?: DeepPartial<T>): T {
+  if (!override) return base
+  const merged: Record<string, unknown> = { ...(base as Record<string, unknown>) }
+
+  for (const [key, value] of Object.entries(override)) {
+    if (value === undefined) continue
+    const baseValue = merged[key]
+    const canMergeObject =
+      value !== null &&
+      typeof value === 'object' &&
+      !Array.isArray(value) &&
+      baseValue !== null &&
+      typeof baseValue === 'object' &&
+      !Array.isArray(baseValue)
+
+    merged[key] = canMergeObject
+      ? mergeDeep(baseValue, value as DeepPartial<typeof baseValue>)
+      : value
+  }
+
+  return merged as T
+}
+
 export function getWebsiteMessages(locale: WebsiteLocale): WebsiteMessages {
-  const messages = websiteMessages[locale] as WebsiteMessagesBase
+  const sourceMessages =
+    locale in websiteMessages
+      ? websiteMessages[locale as keyof typeof websiteMessages]
+      : mergeDeep(websiteMessages.en as unknown as WebsiteMessagesBase, expandedLocaleOverridesByLocale[locale])
+  const messages = sourceMessages as WebsiteMessagesBase
   return {
     ...messages,
     pages: messages.home.pages,

@@ -10,10 +10,10 @@ import type {
 
 // Locale-specific overrides stay sparse so posts can be migrated one at a time.
 // Missing entries fall back to the English source while still exposing status.
-export const blogLocaleTranslations: Record<
+export const blogLocaleTranslations: Partial<Record<
   NonEnglishBlogLocale,
   BlogLocaleTranslations
-> = {
+>> = {
   ar: arBlogTranslations,
   fr: frBlogTranslations,
   es: esBlogTranslations,

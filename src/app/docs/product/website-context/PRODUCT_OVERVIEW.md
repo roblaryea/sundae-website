@@ -1,19 +1,18 @@
 # Sundae — Product Overview
 
-> Last refreshed: 2026-02-18 | Source: codebase inspection of `sundae-app` and `sundae-backend`
+> Last refreshed: 2026-05-22 | Source: codebase inspection of `sundae-app`, `sundae-backend`, and marketing pricing catalogs
 
 ---
 
 ## What Is Sundae?
 
-Sundae is a **Decision Intelligence platform** for restaurant and hospitality operators. 
-It ingests internal operational data (POS, labor, inventory, finance) and external signals (benchmarks, delivery aggregators, footfall, weather, pricing, reviews, currency, competitor activity, events), transforming fragmented information into real-time decision views, AI-powered analysis, operational monitoring (Pulse), and conversational access (via Sundae Intelligence).
+Sundae is a **Decision Intelligence platform** for restaurant and hospitality operators. It unifies internal operational data, external market signals, workforce operations, and AI support into one operating system for decisions: Performance Reports, Pulse, Benchmark, Watchtower, Insights, Foresight, Sundae Intelligence, Integrations Hub, Crew, and shared support knowledge.
 
 ## Tech Stack (customer-relevant)
 
 | Layer | Technology |
 |---|---|
-| Frontend | Next.js 15 (App Router), React 19, Tailwind CSS 4, Radix UI |
+| Frontend | Next.js App Router, React 19, Tailwind CSS 4, Radix UI |
 | Backend | AdonisJS 6, TypeScript, PostgreSQL (Neon-compatible) |
 | AI | SundaeAI (via Vercel AI SDK) |
 | Hosting | Render.io (backend), Vercel-compatible (frontend) |
@@ -30,7 +29,7 @@ Performance comparison against configurable competitive sets ("compsets"). Inclu
 Tracks competitor activity (ratings, reviews, menu pricing), weather with predicted revenue impact, local events (holidays, sports, seasonal), and generates AI-powered briefings (daily, weekly, event prep, Ramadan).
 
 ### 4. Insights — Intelligence Modules
-Analytical dashboards for deep-diving into specific operational domains. Performance Report is live; additional modules (Revenue, Labor, Inventory, Purchasing, Marketing, Reservations, Profit, Revenue Assurance, Delivery, Economic, Guest Experience, Accounting, Guest CRM) are coming soon.
+Analytical dashboards for deep-diving into operational domains. The codebase includes Performance Report, Revenue, Labor, Inventory, Purchasing, Marketing, Reservations, Profit, Revenue Assurance, Delivery, Guest Experience, Guest CRM, item profitability, executive summary, franchise health, outlet viability, cross-intelligence, and Foresight routes.
 
 ### 5. Sundae Intelligence — AI-Powered Analytics
 Natural-language querying of restaurant data. Available via the web app and through Telegram, Slack, and Microsoft Teams bots. Supports conversation history, folders, scheduled queries, multi-outlet scope selection, and link-code sharing.
@@ -38,11 +37,14 @@ Natural-language querying of restaurant data. Available via the web app and thro
 ### 6. Integrations Hub — 12-Domain Data Ingestion
 A vendor-agnostic integration engine supporting POS, Labor, Service Flow, Inventory, Purchasing, Reservations, Delivery, Marketing, Guest Experience, Guest CRM, and Accounting. Each domain supports webhook-based custom integrations.
 
-### 7. Crew — Organization & Team Management
-Multi-organization, multi-restaurant hierarchy management. Includes departments, job roles, teams, member profiles, org charts, role-based access control (RBAC), and an invitation system.
+### 7. Crew — Workforce Operations
+Crew is the workforce operating layer: scheduling, availability, swaps, shift offers, time and attendance, payroll readiness, statutory exports, HR operations, employee documents, Ask-HR helpdesk, e-sign, credentials, assets, attestations, onboarding/offboarding, performance, talent, benefits, compensation, recruiting, skills, training, recognition, and Crew Intelligence/Compliance surfaces.
 
 ### 8. Billing & Pricing
-Tiered subscription plans with module-based and per-restaurant pricing. Supports add-ons, AI credit wallets, promo codes, and self-serve checkout.
+Report/Core plans use base + per-location pricing, AI seats, AI credits, Core modules, Watchtower packs, and bundle discounts. Crew is sold as six workforce SKUs: Crew Lite, Scheduling, Operations, Time & Attendance, Payroll, and People Intelligence, with Operating and Complete bundles. Billing supports AI credit wallets, promo codes, employee overage, setup fees, and self-serve checkout where available.
+
+### 9. Support & Knowledge
+Core and Crew both expose SundaeAI Support. `/core/support` and `/crew/support` use the shared support API, KB index, AI agent, ticket escalation, ratings, and admin support table. Crew also has Ask-HR helpdesk for internal employee HR requests, stored separately from product-support tickets.
 
 ## Target Audience
 

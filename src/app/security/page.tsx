@@ -3,6 +3,8 @@ import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { Button } from "@/components/ui/Button";
 import { PageHero, PageCTA, FadeUp } from "@/components/ui/PageAnimations";
 import { resolveWebsiteLocale } from "@/lib/i18n";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_security_page'
 
 type SecurityPillar = {
   icon: SundaeIconName;
@@ -140,7 +142,7 @@ const securityCopy: Record<"en" | "ar" | "fr" | "es", SecurityCopy> = {
 
 export default async function SecurityPage() {
   const locale = resolveWebsiteLocale(await cookies());
-  const copy = securityCopy[locale] ?? securityCopy.en;
+  const copy = securityCopy[locale as keyof typeof securityCopy] ?? getGeneratedLocalCopy(securityCopy, generatedLocalCopy.securityCopy, locale) ?? securityCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">

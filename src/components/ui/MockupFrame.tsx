@@ -55,11 +55,11 @@ interface MockupKPIProps {
 
 export function MockupKPI({ label, value, trend, trendUp, color = "#1C47FF" }: MockupKPIProps) {
   return (
-    <div className="bg-white/[0.03] rounded-lg p-4 border border-[var(--border-default)]">
-      <div className="text-[11px] text-[var(--text-muted)] uppercase tracking-wider mb-1">{label}</div>
-      <div className="text-2xl font-bold font-mono" style={{ color }}>{value}</div>
+    <div className="bg-white/[0.03] rounded-lg p-2.5 sm:p-3.5 lg:p-4 border border-[var(--border-default)] min-w-0 overflow-hidden">
+      <div className="text-[9px] sm:text-[11px] text-[var(--text-muted)] uppercase tracking-wider mb-1 truncate">{label}</div>
+      <div className="text-base sm:text-lg lg:text-2xl font-bold font-mono truncate" style={{ color }}>{value}</div>
       {trend && (
-        <div className={`text-[11px] mt-1 ${trendUp ? "text-[#22C55E]" : "text-[#FF5450]"}`}>
+        <div className={`text-[10px] sm:text-[11px] mt-0.5 sm:mt-1 truncate ${trendUp ? "text-[#22C55E]" : "text-[#FF5450]"}`}>
           {trendUp ? "▲" : "▼"} {trend}
         </div>
       )}
@@ -80,10 +80,10 @@ export function MockupPaceBar({ label, current, target, unit = "" }: MockupPaceB
   const isAhead = current >= target;
 
   return (
-    <div className="space-y-1.5">
-      <div className="flex justify-between text-[11px]">
-        <span className="text-[var(--text-muted)]">{label}</span>
-        <span className="text-[var(--text-secondary)] font-mono">
+    <div className="space-y-1.5 min-w-0">
+      <div className="flex justify-between items-baseline gap-2 text-[10px] sm:text-[11px]">
+        <span className="text-[var(--text-muted)] truncate flex-shrink-0">{label}</span>
+        <span className="text-[var(--text-secondary)] font-mono truncate text-right">
           {unit}{current.toLocaleString()} / {unit}{target.toLocaleString()}
         </span>
       </div>
@@ -140,7 +140,7 @@ export function MockupTable({ headers, rows }: MockupTableProps) {
     <div className="rounded-lg border border-[var(--border-default)] overflow-hidden">
       <div className="flex bg-[var(--surface-subtle)] border-b border-[var(--border-default)]">
         {headers.map((h, i) => (
-          <div key={i} className="flex-1 px-3 py-2 text-[10px] text-[var(--text-muted)] uppercase tracking-wider font-semibold">
+          <div key={i} className="flex-1 min-w-0 px-1.5 sm:px-3 py-2 text-[9px] sm:text-[10px] text-[var(--text-muted)] uppercase tracking-wider font-semibold truncate">
             {h}
           </div>
         ))}
@@ -148,7 +148,7 @@ export function MockupTable({ headers, rows }: MockupTableProps) {
       {rows.map((row, ri) => (
         <div key={ri} className={`flex ${ri % 2 === 1 ? "bg-[var(--surface-faint)]" : ""} border-b border-[var(--border-default)] last:border-0`}>
           {row.map((cell, ci) => (
-            <div key={ci} className="flex-1 px-3 py-2 text-[12px] text-[var(--text-supporting)] font-mono">
+            <div key={ci} className="flex-1 min-w-0 px-1.5 sm:px-3 py-2 text-[10px] sm:text-[12px] text-[var(--text-supporting)] font-mono truncate">
               {cell}
             </div>
           ))}
@@ -233,7 +233,7 @@ export function PulseDashboardMockup() {
         </div>
 
         {/* KPI row */}
-        <div className="grid grid-cols-4 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3">
           <MockupKPI label={revenue} value="$14,280" trend={locale === "ar" ? "+12% مقابل الهدف" : locale === "fr" ? "+12% vs objectif" : locale === "es" ? "+12% vs objetivo" : "+12% vs target"} trendUp />
           <MockupKPI label={covers} value="287" trend={locale === "ar" ? "+12 مقابل الخطة" : locale === "fr" ? "+12 vs plan" : locale === "es" ? "+12 vs plan" : "+12 vs plan"} trendUp color="#22C55E" />
           <MockupKPI label={avgCheck} value="$49.50" trend="-2.1%" trendUp={false} color="#FBBF24" />
@@ -267,7 +267,7 @@ export function BenchmarkDashboardMockup() {
   return (
     <MockupFrame label="Benchmarks — Competitive Position">
       <div className="space-y-4">
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
           <MockupKPI label="RevPASH Index" value="112" trend="12% above peers" trendUp color="#22C55E" />
           <MockupKPI label="Seat Occupancy" value="74%" trend="vs 68% market" trendUp color="#1C47FF" />
           <MockupKPI label="Avg Check Index" value="98" trend="2% below peers" trendUp={false} color="#FBBF24" />
@@ -298,7 +298,7 @@ export function WatchtowerMockup() {
           <span className="text-[10px] text-[var(--text-muted)] font-mono">Signals: 14 active</span>
         </div>
 
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
           <MockupKPI label="Competitor Changes" value="7" color="#F59E0B" />
           <MockupKPI label="Weather Impact" value="-12%" trend="Rain forecast Fri" trendUp={false} color="#FF5450" />
           <MockupKPI label="Local Events" value="3" trend="High-impact weekend" trendUp color="#22C55E" />
@@ -339,7 +339,7 @@ export function InsightsModuleMockup() {
   return (
     <MockupFrame label="Insights — 12 Intelligence Modules">
       <div className="space-y-4">
-        <div className="grid grid-cols-3 gap-2">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
           {modules.map((m) => (
             <div key={m.name} className="bg-white/[0.03] rounded-lg p-3 border border-[var(--border-default)]">
               <div className="text-[9px] text-[var(--text-muted)] uppercase tracking-wider">{m.name}</div>
@@ -414,7 +414,7 @@ export function RevenueAssuranceMockup() {
   return (
     <MockupFrame label="Revenue Assurance — Leakage Detection">
       <div className="space-y-4">
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
           <MockupKPI label="Total Leakage" value="$2,630" color="#FF5450" />
           <MockupKPI label="Void Rate" value="3.2%" trend="+0.8% vs avg" trendUp={false} color="#FBBF24" />
           <MockupKPI label="Exceptions" value="14" color="#FF5450" />
@@ -442,7 +442,7 @@ export function ForesightDashboardMockup() {
   return (
     <MockupFrame label="Foresight — 14-Day Revenue Forecast">
       <div className="space-y-4">
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
           <MockupKPI label="Forecast Revenue" value="$248K" trend="+6.2% vs last period" trendUp />
           <MockupKPI label="Confidence" value="91%" color="#22C55E" />
           <MockupKPI label="MAPE" value="3.8%" trend="↓ from 5.1%" trendUp color="#22C55E" />
@@ -490,8 +490,6 @@ export function ForesightDashboardMockup() {
   );
 }
 
-/* ─── Marketing Performance Mockup (Marketing persona — Insights:Marketing) ─── */
-
 export function MarketingPerformanceMockup() {
   return (
     <MockupFrame label="Marketing Performance — Campaign ROI">
@@ -501,7 +499,7 @@ export function MarketingPerformanceMockup() {
           <span className="text-[10px] text-[var(--text-muted)] font-mono">Last 7 days</span>
         </div>
 
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
           <MockupKPI label="Blended ROAS" value="4.2x" trend="+0.6 vs LW" trendUp color="#22C55E" />
           <MockupKPI label="Attributed covers" value="1,840" trend="38% of total" trendUp color="#1C47FF" />
           <MockupKPI label="Cost per cover" value="$2.10" trend="−$0.40 vs LW" trendUp color="#22C55E" />
@@ -536,7 +534,7 @@ export function RevenueIntelligenceMockup() {
           <span className="text-[10px] text-[var(--text-muted)] font-mono">Today · vs forecast</span>
         </div>
 
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
           <MockupKPI label="Net revenue today" value="$184K" trend="+3.2% vs forecast" trendUp color="#22C55E" />
           <MockupKPI label="Gross margin" value="62.4%" trend="−0.8pp WoW" trendUp={false} color="#FBBF24" />
           <MockupKPI label="Variance MTD" value="+$5.8K" trend="vs plan" trendUp color="#22C55E" />
@@ -571,7 +569,7 @@ export function LaborOpsMockup() {
           <span className="text-[10px] text-[var(--text-muted)] font-mono">Saturday · 1:24 PM</span>
         </div>
 
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
           <MockupKPI label="Labor % portfolio" value="29.6%" trend="+1.2pp vs target" trendUp={false} color="#FBBF24" />
           <MockupKPI label="OT exposure" value="$840" trend="3 locations" trendUp={false} color="#FF5450" />
           <MockupKPI label="Productivity" value="6.8" trend="covers per FOH hr" trendUp color="#22C55E" />
@@ -617,7 +615,7 @@ export function IntegrationsHubMockup() {
           <span className="text-[10px] text-[var(--text-muted)] font-mono">Last sync: 14m ago</span>
         </div>
 
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
           <MockupKPI label="Active sources" value="14" trend="12 domains" trendUp color="#1C47FF" />
           <MockupKPI label="Sync rate (7d)" value="99.4%" trend="SLO: 99%" trendUp color="#22C55E" />
           <MockupKPI label="p95 lag" value="4.2m" color="#1C47FF" />
@@ -644,6 +642,154 @@ export function IntegrationsHubMockup() {
         <MockupAlert type="info">
           179 governed data models · public API · webhooks · RBAC · audit trails
         </MockupAlert>
+      </div>
+    </MockupFrame>
+  );
+}
+
+
+/* ─── Executive Briefing Mockup (C-Suite persona) ─── */
+/**
+ * Premium executive briefing — portfolio rollup + AI daily brief + market signal + forecast.
+ * Designed for the C-Suite Executives solution page hero. Not a chat; a synthesized briefing.
+ */
+export function ExecutiveBriefingMockup() {
+  return (
+    <MockupFrame label="Executive Briefing — Tuesday · 6:42 AM" glow>
+      <div className="space-y-4">
+        {/* Live indicator + briefing date */}
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <MockupLiveDot />
+            <span className="text-[10px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
+              Portfolio · 4 brands · 38 locations
+            </span>
+          </div>
+          <span className="text-[10px] text-[var(--text-muted)] font-mono">Auto-generated</span>
+        </div>
+
+        {/* Portfolio rollup — 4 brand KPI tiles */}
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+          {[
+            { brand: "Brand A", value: "$1.84M", delta: "+4.2%", up: true, color: "#22C55E" },
+            { brand: "Brand B", value: "$972K", delta: "+1.8%", up: true, color: "#22C55E" },
+            { brand: "Brand C", value: "$614K", delta: "-2.6%", up: false, color: "#FF5450" },
+            { brand: "Brand D", value: "$408K", delta: "+0.9%", up: true, color: "#1C47FF" },
+          ].map((b) => (
+            <div key={b.brand} className="bg-white/[0.03] rounded-lg p-2 sm:p-2.5 border border-[var(--border-default)] min-w-0 overflow-hidden">
+              <div className="text-[9px] uppercase tracking-wider text-[var(--text-muted)] mb-0.5 truncate">{b.brand}</div>
+              <div className="text-xs sm:text-sm font-bold font-mono text-[var(--text-primary)] tabular-nums truncate">{b.value}</div>
+              <div className="text-[10px] font-semibold truncate" style={{ color: b.color }}>
+                {b.up ? "▲" : "▼"} {b.delta}
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* AI Daily Brief — synthesized executive insight with source pills */}
+        <div className="rounded-lg p-4 border" style={{ background: "linear-gradient(135deg, rgba(28,71,255,0.10), rgba(28,71,255,0.02))", borderColor: "rgba(28,71,255,0.25)" }}>
+          <div className="flex items-center gap-2 mb-2">
+            <div className="w-5 h-5 rounded bg-gradient-to-br from-[#1C47FF] to-[#3B82F6] flex items-center justify-center text-white text-[8px] font-bold">SI</div>
+            <span className="text-[10px] uppercase tracking-wider text-[#60A5FA] font-bold">Sundae Intelligence · Daily Brief</span>
+          </div>
+          <p className="text-[12px] text-[var(--text-primary)] leading-relaxed">
+            Portfolio net revenue is pacing <span className="font-bold text-[#22C55E]">+2.4% vs forecast</span>, driven by Brand A dine-in strength. <span className="font-bold text-[#FF5450]">Brand C margin compressed 2.6pp</span> on labor over-coverage Mon–Tue; a 2-shift trim recovers ~$8.4K this week.
+          </p>
+          <div className="flex flex-wrap items-center gap-1.5 mt-3">
+            <span className="text-[9px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">Sources:</span>
+            <span className="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/[0.04] border border-[var(--border-default)] text-[var(--text-secondary)]">Pulse · live</span>
+            <span className="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/[0.04] border border-[var(--border-default)] text-[var(--text-secondary)]">Insights · Labor</span>
+            <span className="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/[0.04] border border-[var(--border-default)] text-[var(--text-secondary)]">Foresight · 14d</span>
+          </div>
+        </div>
+
+        {/* Watchtower + Foresight strip */}
+        <div className="grid grid-cols-2 gap-2">
+          <div className="rounded-lg p-3 border-l-2" style={{ background: "rgba(245,158,11,0.08)", borderColor: "#F59E0B" }}>
+            <div className="text-[9px] uppercase tracking-wider font-bold text-[#F59E0B] mb-1">Watchtower · Risk</div>
+            <p className="text-[11px] text-[var(--text-secondary)] leading-snug">
+              3 competitors dropped lunch combos in Brand C trade area.
+            </p>
+          </div>
+          <div className="rounded-lg p-3 border-l-2" style={{ background: "rgba(34,197,94,0.06)", borderColor: "#22C55E" }}>
+            <div className="text-[9px] uppercase tracking-wider font-bold text-[#22C55E] mb-1">Foresight · 14d</div>
+            <p className="text-[11px] text-[var(--text-secondary)] leading-snug">
+              Portfolio EBITDA tracking <span className="font-bold text-[var(--text-primary)]">+1.6%</span> above plan if Brand C recovers.
+            </p>
+          </div>
+        </div>
+      </div>
+    </MockupFrame>
+  );
+}
+
+/* ─── Crew Operations Mockup (Crew page) ─── */
+/**
+ * Composite Crew dashboard showing the operational substrate: live
+ * shift attendance, payroll cycle status, schedule grid, and a
+ * recent-activity feed. Designed for the /crew page hero.
+ */
+export function CrewDashboardMockup() {
+  return (
+    <MockupFrame label="Crew — Today · Downtown" glow>
+      <div className="space-y-3 sm:space-y-4">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <MockupLiveDot />
+            <span className="text-[10px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
+              Wed · Lunch service · 28 on shift
+            </span>
+          </div>
+          <span className="text-[10px] text-[var(--text-muted)] font-mono">Auto-synced</span>
+        </div>
+
+        {/* KPI strip: on-shift / on-time / OT exposure / payroll cycle */}
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3">
+          <MockupKPI label="On shift" value="28 / 30" trend="2 absences" trendUp={false} color="#FBBF24" />
+          <MockupKPI label="On time" value="96.4%" trend="↑ 1.8 WoW" trendUp color="#22C55E" />
+          <MockupKPI label="OT this week" value="$612" trend="3 locations" trendUp={false} color="#FF5450" />
+          <MockupKPI label="Payroll cycle" value="Day 18 / 30" trend="On track" trendUp color="#1C47FF" />
+        </div>
+
+        {/* Mini schedule strip — coverage by daypart */}
+        <div className="rounded-lg p-3 bg-white/[0.03] border border-[var(--border-default)]">
+          <div className="flex items-center justify-between mb-2">
+            <span className="text-[10px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">Coverage · today</span>
+            <span className="text-[10px] text-[#22C55E] font-mono">Demand-matched · AI</span>
+          </div>
+          <div className="grid grid-cols-12 gap-px h-7 rounded overflow-hidden">
+            {[60, 70, 85, 100, 100, 95, 80, 100, 100, 90, 65, 50].map((h, i) => {
+              const isHovered = i === 4 || i === 8;
+              return (
+                <div
+                  key={i}
+                  className="relative"
+                  style={{
+                    background: isHovered
+                      ? "linear-gradient(180deg, rgba(28,71,255,0.8), rgba(28,71,255,0.5))"
+                      : "linear-gradient(180deg, rgba(34,197,94,0.5), rgba(34,197,94,0.25))",
+                    transform: `scaleY(${h / 100})`,
+                    transformOrigin: "bottom",
+                  }}
+                />
+              );
+            })}
+          </div>
+          <div className="flex justify-between text-[9px] text-[var(--text-muted)] font-mono mt-1">
+            <span>6a</span><span>10a</span><span>2p</span><span>6p</span><span>10p</span>
+          </div>
+        </div>
+
+        {/* Activity feed */}
+        <div className="rounded-lg p-3 border-l-2 space-y-1.5" style={{ background: "rgba(28,71,255,0.06)", borderColor: "#1C47FF" }}>
+          <div className="text-[10px] uppercase tracking-wider text-[#60A5FA] font-bold mb-0.5">Sundae Coach · live</div>
+          <p className="text-[11px] text-[var(--text-primary)] leading-snug">
+            <span className="font-semibold">Marcus J.</span> swap requested 2pm shift → <span className="font-semibold">Sarah M.</span> · eligible · auto-approved.
+          </p>
+          <p className="text-[11px] text-[var(--text-secondary)] leading-snug">
+            UAE WPS export ready · 142 employees · 0 readiness blockers.
+          </p>
+        </div>
       </div>
     </MockupFrame>
   );

@@ -5,7 +5,8 @@ import { Button } from '@/components/ui/Button';
 import { Card, CardContent } from '@/components/ui/Card';
 import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 import { COMPANY } from '@/lib/company';
-import { resolveWebsiteLocale, type WebsiteLocale } from '@/lib/i18n';
+import { resolveWebsiteLocale, type NonEnglishWebsiteLocale } from '@/lib/i18n';
+import { generatedTermsCopy } from '@/generated-locales/app_terms_page_legal';
 
 const companyAddressLines = [
   COMPANY.address.line1,
@@ -50,7 +51,7 @@ type TermsCopy = {
   };
 };
 
-const localizedTermsCopy: Record<Exclude<WebsiteLocale, 'en'>, TermsCopy> = {
+const localizedTermsCopy: Partial<Record<NonEnglishWebsiteLocale, TermsCopy>> = {
   ar: {
     badge: 'القانونية',
     title: 'شروط الخدمة',
@@ -1153,8 +1154,13 @@ export default async function TermsPage() {
   const locale = resolveWebsiteLocale(cookieStore);
   const lastUpdated = "March 3, 2026";
 
-  if (locale !== 'en') {
-    return <LocalizedTermsPage copy={localizedTermsCopy[locale]} />;
+  const localizedCopy =
+    locale === 'en'
+      ? undefined
+      : localizedTermsCopy[locale] ??
+        (generatedTermsCopy[locale as keyof typeof generatedTermsCopy] as unknown as TermsCopy | undefined);
+  if (localizedCopy) {
+    return <LocalizedTermsPage copy={normalizeTermsCopy(localizedCopy)} />;
   }
 
   return (
@@ -1891,4 +1897,17 @@ function LocalizedTermsPage({ copy }: { copy: TermsCopy }) {
       </section>
     </div>
   );
+}
+
+function normalizeTermsCopy(copy: TermsCopy): TermsCopy {
+  const cardAnchors = localizedTermsCopy.fr?.cards ?? copy.cards;
+  return {
+    ...copy,
+    cards: copy.cards.map((card, index) => ({
+      ...card,
+      value: cardAnchors[index]?.value ?? card.value,
+      icon: cardAnchors[index]?.icon ?? card.icon,
+      href: cardAnchors[index]?.href ?? card.href,
+    })),
+  };
 }

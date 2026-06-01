@@ -8,8 +8,10 @@ import { motion } from "framer-motion";
 import type { BlogCategory } from "@/content/blog/types";
 import { getLocalizedBlogPosts } from "@/lib/blogTranslations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import { getLocalizedPathname, type WebsiteLocale } from "@/lib/i18n";
+import { getLocalizedPathname, type RequiredEnglishLocalizedRecord } from '@/lib/i18n';
 import { PageHero, PageCTA, FadeUp } from "@/components/ui/PageAnimations";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_blog_page'
 
 type BlogPageCopy = {
   badge: string;
@@ -28,7 +30,7 @@ type BlogPageCopy = {
   contactUs: string;
 };
 
-const localizedBlogPageCopy: Record<WebsiteLocale, BlogPageCopy> = {
+const localizedBlogPageCopy: RequiredEnglishLocalizedRecord<BlogPageCopy> = {
   en: {
     badge: 'Blog',
     title: 'Decision Intelligence Insights',
@@ -126,7 +128,7 @@ const localizedBlogPageCopy: Record<WebsiteLocale, BlogPageCopy> = {
 export default function BlogPage() {
   const { locale } = useWebsiteI18n();
   const [selectedCategory, setSelectedCategory] = useState<BlogCategory | 'All'>('All');
-  const copy = localizedBlogPageCopy[locale];
+  const copy = localizedBlogPageCopy[locale as keyof typeof localizedBlogPageCopy] ?? getGeneratedLocalCopy(localizedBlogPageCopy, generatedLocalCopy.localizedBlogPageCopy, locale) ?? localizedBlogPageCopy.en;
   const localizedPosts = getLocalizedBlogPosts(locale);
   const blogHref = (slug: string) => getLocalizedPathname(`/blog/${slug}`, locale);
   const englishBlogHref = getLocalizedPathname('/blog', 'en');

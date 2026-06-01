@@ -1,6 +1,6 @@
 # Sundae — Feature Catalog
 
-> Last refreshed: 2026-02-18 | Source: codebase inspection of UI pages, module tiles, and route definitions
+> Last refreshed: 2026-05-22 | Source: codebase inspection of UI pages, module tiles, route definitions, and pricing catalogs
 
 ---
 
@@ -118,19 +118,20 @@
 | Module | Description | Status |
 |---|---|---|
 | Performance Report | Visualize sales data, monitor revenue, guest activity, and channel mix | Live |
-| Revenue Intelligence | Revenue drivers, pricing analysis, and optimization opportunities | Coming Soon |
-| Labor Intelligence | Workforce analytics, labor cost optimization, and scheduling efficiency | Coming Soon |
-| Inventory Intelligence | Stock levels, waste tracking, and inventory turnover analysis | Coming Soon |
-| Purchasing Intelligence | Supplier performance, purchase order analysis, and cost benchmarking | Coming Soon |
-| Marketing Performance | Campaign ROI, channel effectiveness, and customer acquisition cost | Coming Soon |
-| Reservations Intelligence | Booking patterns, no-show rates, and table utilization | Coming Soon |
-| Profit Intelligence | Margin analysis, P&L breakdowns, and profitability optimization | Coming Soon |
-| Revenue Assurance | Leakage detection, void analysis, discount tracking, revenue protection | Coming Soon |
-| Delivery Intelligence | Delivery platform performance, commission analysis, channel comparison | Coming Soon |
-| Economic Intelligence | Market trends, economic indicators, and macro-level impact analysis | Coming Soon |
-| Guest Experience Intelligence | Review sentiment, satisfaction scores, and guest feedback analysis | Coming Soon |
-| Accounting Intelligence | Financial reconciliation, GL mapping, and automated reporting | Coming Soon |
-| Guest CRM Intelligence | Customer segmentation, loyalty insights, and lifetime value analysis | Coming Soon |
+| Revenue Intelligence | Revenue drivers, pricing analysis, and optimization opportunities | Live |
+| Labor Intelligence | Workforce analytics, labor cost optimization, and scheduling efficiency | Live |
+| Inventory Intelligence | Stock levels, waste tracking, and inventory turnover analysis | Live |
+| Purchasing Intelligence | Supplier performance, purchase order analysis, and cost benchmarking | Live |
+| Marketing Performance | Campaign ROI, channel effectiveness, and customer acquisition cost | Live |
+| Reservations Intelligence | Booking patterns, no-show rates, and table utilization | Live |
+| Profit Intelligence | Margin analysis, P&L breakdowns, and profitability optimization | Live |
+| Revenue Assurance | Leakage detection, void analysis, discount tracking, revenue protection | Live |
+| Delivery Intelligence | Delivery platform performance, commission analysis, channel comparison | Live |
+| Guest Experience Intelligence | Review sentiment, satisfaction scores, and guest feedback analysis | Live |
+| Guest CRM Intelligence | Customer segmentation, loyalty insights, and lifetime value analysis | Live |
+| Item Profitability | Recipe costing, engineering matrix, and channel variance | Live |
+| Foresight Intelligence | Forecast accuracy and forward-looking operating signals | Live |
+| Cross-Intelligence | Cross-module correlations and executive views | Live |
 
 ---
 
@@ -175,7 +176,7 @@ See [CUSTOMER_FACING_API_AND_INTEGRATIONS.md](./CUSTOMER_FACING_API_AND_INTEGRAT
 
 ---
 
-## 7. Crew — Organization & Team Management
+## 7. Crew — Workforce Operations
 
 > Route: `/crew/*`
 
@@ -183,13 +184,20 @@ See [CUSTOMER_FACING_API_AND_INTEGRATIONS.md](./CUSTOMER_FACING_API_AND_INTEGRAT
 |---|---|---|---|
 | Restaurants | Add, edit, and manage restaurant locations | `restaurants:view` | Live |
 | People (Member Profiles) | Employee directory with job roles and department assignments | `users:view` | Live |
+| Scheduling | Schedule, availability, swaps, shift offers, and marketplace coverage | `crew:schedule:view` | Live |
+| Time & Attendance | Attendance dashboard, break reviews, and payroll-readiness evidence | `crew:attendance:view` | Live |
+| Payroll | Payroll readiness, statutory exports, filing calendar, tips, expenses, loans, and employee payroll surfaces | `crew:payroll:view_readiness` | Live |
+| HR Operations | Leave, credentials, assets, attestations, Ask-HR helpdesk, disciplinary, e-sign, and whistleblower workflows | `crew:hr:view_confidential` | Live |
+| Talent & Growth | Performance, talent, compensation, surveys, benefits, recruiting, mobility, referrals, skills, training, and recognition | `crew:performance:view` | Live |
+| Crew Intelligence & Compliance | Decision Replay, variance, operational memory, scorecard, forecast accuracy, evidence pack, and Crew Benchmark | `crew:copilot:operator_intents` | Live |
+| SundaeAI Support | Product support, KB search, AI answer, escalation, and shared support tickets | `support:view` | Live |
 | Organization Settings | Org name, logo, timezone, currency, address | `org:settings` | Live |
 | Departments | Create and manage organizational departments | `org:settings` | Live |
 | Job Roles | Define job titles and positions | `org:settings` | Live |
 | Teams | Create teams and assign members | `org:settings` | Live |
 | Organization Chart | Visual tree hierarchy of org structure | `org:settings` | Live |
 | Roles & Permissions | RBAC with custom role definitions | `roles:manage` | Live |
-| Billing & Usage | Credit usage, plan details, AI usage panel | `billing:view` | Live |
+| Billing & Usage | Crew SKUs, bundles, employee overage, credit usage, plan details, AI usage panel | `billing:view` | Live |
 | Internal Messages | Team messaging with threads and reactions | Org member | Live |
 | Pending Invitations | Track and manage org invite links | `org:settings` | Live |
 | Transfer Ownership | Transfer org ownership to another member | Owner only | Live |
@@ -235,11 +243,23 @@ See [CUSTOMER_FACING_API_AND_INTEGRATIONS.md](./CUSTOMER_FACING_API_AND_INTEGRAT
 | AI Credit Wallet | Per-org credit balance with top-up add-ons | Live |
 | Promo Codes | Validate and apply promotional codes | Live |
 | Usage Tracking | Per-feature and per-day usage metering | Live |
-| Add-ons | Supplementary modules and credit top-ups | Live |
+| Core Add-ons | 11 Core modules, Watchtower packs, bundles, and credit top-ups | Live |
+| Crew SKUs | Crew Lite, Scheduling, Operations, Time & Attendance, Payroll, People Intelligence, and Crew bundles | Live |
 
 ---
 
-## 11. Platform Events (Notification Triggers)
+## 11. Support & Knowledge
+
+| Feature | Description | Route | Status |
+|---|---|---|---|
+| Core SundaeAI Support | Product support, KB search, AI ticket creation, ratings, and escalation | `/core/support` | Live |
+| Crew SundaeAI Support | Crew product support using the shared support engine and support ticket table | `/crew/support` | Live |
+| Crew Ask-HR Helpdesk | HR/private employee request queue and replies | `/crew/helpdesk`, `/crew/me/helpdesk` | Live |
+| Admin Support Hub | Inbox, support tickets, KB, learning, model/config controls, and response drafting | `/admin/support/*` | Live |
+
+---
+
+## 12. Platform Events (Notification Triggers)
 
 | Event Group | Events |
 |---|---|

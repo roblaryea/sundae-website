@@ -5,7 +5,9 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import { type WebsiteLocale } from "@/lib/i18n";
+import { type RequiredEnglishLocalizedRecord } from '@/lib/i18n';
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_why_sundae_page'
 
 type WhySundaeCopy = {
   hero: {
@@ -38,7 +40,7 @@ type WhySundaeCopy = {
   };
 };
 
-const localizedCopy: Record<WebsiteLocale, WhySundaeCopy> = {
+const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
   en: {
     hero: {
       badge: "Why Sundae",
@@ -228,7 +230,7 @@ const localizedCopy: Record<WebsiteLocale, WhySundaeCopy> = {
 
 export default function WhySundaePage() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">

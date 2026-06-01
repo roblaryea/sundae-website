@@ -3,7 +3,9 @@
 import { useCallback, useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import type { WebsiteLocale } from "@/lib/i18n";
+import type { RequiredEnglishLocalizedRecord } from '@/lib/i18n';
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/components_CookieConsent'
 
 const CONSENT_KEY = "sundae_cookie_consent";
 
@@ -16,7 +18,7 @@ type CookieConsentCopy = {
   accept: string;
 };
 
-const cookieConsentCopy: Record<WebsiteLocale, CookieConsentCopy> = {
+const cookieConsentCopy: RequiredEnglishLocalizedRecord<CookieConsentCopy> = {
   en: {
     ariaLabel: "Cookie consent",
     message: "We use cookies to improve your experience and analyze site usage.",
@@ -80,20 +82,18 @@ function dispatchConsentEvent(status: ConsentStatus) {
 export function CookieConsent() {
   const { locale } = useWebsiteI18n();
   const pathname = usePathname();
-  const copy = cookieConsentCopy[locale] ?? cookieConsentCopy.en;
-  const [visible, setVisible] = useState(false);
+  const copy = cookieConsentCopy[locale as keyof typeof cookieConsentCopy] ?? getGeneratedLocalCopy(cookieConsentCopy, generatedLocalCopy.cookieConsentCopy, locale) ?? cookieConsentCopy.en;
+  const [visible, setVisible] = useState(() => {
+    if (typeof window === "undefined") return false;
+    return getConsentStatus() === null;
+  });
 
   useEffect(() => {
     const status = getConsentStatus();
     if (status === "accepted") {
       loadGA4();
       dispatchConsentEvent("accepted");
-      return;
     }
-    // localStorage is client-only; render nothing for SSR/first client render,
-    // then reveal the banner after hydration if no consent decision exists.
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setVisible(status === null);
   }, []);
 
   const handleAccept = useCallback(() => {
@@ -115,16 +115,16 @@ export function CookieConsent() {
     <div
       role="dialog"
       aria-label={copy.ariaLabel}
-      className="fixed bottom-0 left-0 right-0 z-[9999] border-t border-white/10 bg-slate-900/95 backdrop-blur-md"
+      className="fixed bottom-0 left-0 right-0 z-[9999] border-t border-[var(--border-default)] bg-[var(--navy-surface)]/95 backdrop-blur-md"
     >
       <div className="mx-auto flex max-w-5xl flex-col items-center gap-4 px-4 py-4 sm:flex-row sm:justify-between sm:px-6">
-        <p className="text-sm text-slate-300 text-center sm:text-left">
+        <p className="text-sm text-[var(--text-secondary)] text-center sm:text-left">
           {copy.message}
         </p>
         <div className="flex shrink-0 gap-3">
           <button
             onClick={handleDecline}
-            className="rounded-lg border border-white/20 px-4 py-2 text-sm font-medium text-slate-300 transition-colors hover:bg-white/5 hover:text-white focus:outline-none focus:ring-2 focus:ring-white/30"
+            className="rounded-lg border border-[var(--border-emphasis)] px-4 py-2 text-sm font-medium text-[var(--text-secondary)] transition-colors hover:bg-[var(--surface-hover)] hover:text-[var(--text-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--electric-blue)]/40"
           >
             {copy.decline}
           </button>

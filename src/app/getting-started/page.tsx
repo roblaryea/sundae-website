@@ -7,6 +7,9 @@ import { useCta } from "@/lib/cta";
 import { REPORT_APP_URL, PRICING_URL } from "@/lib/urls";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_getting_started_page'
+import { generatedUiLabels } from "@/lib/generatedUiLabels";
 
 type Step = {
   number: number;
@@ -307,7 +310,8 @@ const localizedGettingStartedCopy: Record<"en" | "ar" | "fr" | "es", GettingStar
 export default function GettingStartedPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const copy = localizedGettingStartedCopy[locale] ?? localizedGettingStartedCopy.en;
+  const copy = localizedGettingStartedCopy[locale as keyof typeof localizedGettingStartedCopy] ?? getGeneratedLocalCopy(localizedGettingStartedCopy, generatedLocalCopy.localizedGettingStartedCopy, locale) ?? localizedGettingStartedCopy.en;
+  const labels = generatedUiLabels[locale as keyof typeof generatedUiLabels] ?? generatedUiLabels.en;
 
   const handleFinalCardClick = (href?: string) => {
     if (href === "/report") {
@@ -374,7 +378,7 @@ export default function GettingStartedPage() {
                       <p className="text-lg font-semibold text-[var(--text-supporting)] mb-4">{step.subtitle}</p>
                       <p className="text-[var(--text-secondary)] mb-6 leading-relaxed">{step.description}</p>
                       <div className="bg-[var(--surface-faint)] rounded-lg p-4">
-                        <p className="text-sm font-semibold text-[var(--text-muted)] uppercase mb-3">What You'll Do:</p>
+                        <p className="text-sm font-semibold text-[var(--text-muted)] uppercase mb-3">{labels.whatYoullDo}</p>
                         <ul className="space-y-2">
                           {step.actions.map((action, idx) => (
                             <li key={idx} className="flex items-start space-x-2">
@@ -387,7 +391,7 @@ export default function GettingStartedPage() {
                     </div>
                     <div className="lg:col-span-3 bg-[var(--surface-subtle)] p-6 flex flex-col justify-between">
                       <div>
-                        <p className="text-xs font-semibold text-[var(--text-muted)] uppercase mb-2">Timeline</p>
+                        <p className="text-xs font-semibold text-[var(--text-muted)] uppercase mb-2">{labels.timeline}</p>
                         <p className="text-lg font-bold text-[var(--text-primary)] mb-6">{step.timeline}</p>
                       </div>
                       <Button

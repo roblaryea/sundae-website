@@ -5827,7 +5827,7 @@ Top-quartile RevPASH performers share common practices:
 
 Delivery has become a permanent fixture of GCC restaurant operations, but profitability varies enormously based on platform, concept, and operational execution.
 
-### Delivery Economics by Platform Type (GCC-Wide)
+### Delivery Intelligence by Platform Type (GCC-Wide)
 
 | Channel | Avg. Commission | Avg. Basket Size (AED) | Est. Contribution Margin |
 |---|---|---|---|

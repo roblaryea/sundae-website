@@ -79,27 +79,27 @@
   --coral: #FF6D5A;
   --aqua: #3CC8E2;
 
-  /* ─── Intelligence Layer Colors (customer-facing products) ─── */
+  /* ─── Decorative Shape Tokens (ElegantShape, hero overlays) ─── */
+  --shape-tint: #FFFFFF;
+  --shape-tint-line: rgba(255, 255, 255, 0.15);
+  --shape-glow: rgba(255, 255, 255, 0.06);
+  --shape-glow-inner: rgba(255, 255, 255, 0.12);
+  --shape-strength-boost: 1; /* dark mode reads at 1x — white-on-navy at 3-8% is visible */
+
+  /* ─── Product Colors ─── */
   --color-pulse: #EF4444;
   --color-benchmarks: #3B82F6;
   --color-watchtower: #F59E0B;
   --color-insights: #8B5CF6;
   --color-intelligence: #22C55E;
-  --color-foresight: #0EA5E9;
-  --color-foresight-light: rgba(14, 165, 233, 0.15);
-  --color-foresight-dark: #7DD3FC;
 
-  /* ─── Package / Tier Colors (Sundae Report, Sundae Core) ─── */
-  /* Used for product-line branding, tier badges, and pricing surfaces. */
+  /* Legacy product tokens (keeping for existing pages during migration) */
   --color-report: #7C3AED;
   --color-report-light: rgba(124, 58, 237, 0.15);
   --color-report-dark: #C4B5FD;
   --color-core: #2563EB;
   --color-core-light: rgba(37, 99, 235, 0.15);
   --color-core-dark: #93C5FD;
-
-  /* DRIFT — stale tokens using the old red Watchtower color.
-     Current Watchtower is amber (#F59E0B). Audit usage before retiring. */
   --color-watchtower-light: rgba(220, 38, 38, 0.15);
   --color-watchtower-dark: #FCA5A5;
 
@@ -208,6 +208,13 @@ html.light {
 
   /* ─── Electric blue stays the same ─── */
   --electric-blue: #1C47FF;
+
+  /* ─── Decorative Shape Tokens (light mode — dark tints on white) ─── */
+  --shape-tint: #0F172A;
+  --shape-tint-line: rgba(15, 23, 42, 0.08);
+  --shape-glow: rgba(15, 23, 42, 0.05);
+  --shape-glow-inner: rgba(15, 23, 42, 0.08);
+  --shape-strength-boost: 2.5; /* light mode needs ~2.5x boost so navy tints stay visible on white */
 
   color-scheme: light;
 }

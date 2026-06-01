@@ -32,10 +32,10 @@ export const Card: React.FC<CardProps> = ({
  default: 'bg-[var(--surface-subtle)] border border-[var(--border-default)] backdrop-blur-sm',
 
  // Elevated — slightly brighter surface
- elevated: 'bg-[var(--surface-hover)] border border-white/[0.1] backdrop-blur-sm shadow-lg shadow-black/20',
+ elevated: 'bg-[var(--surface-hover)] border border-[var(--border-default)] backdrop-blur-sm shadow-lg shadow-[var(--shadow-color)]',
 
  // Outlined — minimal with hover effect
- outlined: 'bg-transparent border border-white/[0.1] hover:border-white/[0.2] backdrop-blur-sm',
+ outlined: 'bg-transparent border border-[var(--border-default)] hover:border-[var(--border-emphasis)] backdrop-blur-sm',
 
  // Glass — frosted glass effect
  glass: 'bg-[var(--surface-subtle)] backdrop-blur-xl border border-[var(--border-default)]',
@@ -47,7 +47,7 @@ export const Card: React.FC<CardProps> = ({
  feature: 'bg-[var(--surface-subtle)] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:border-[rgba(28,71,255,0.3)]',
 
  // Pricing — for pricing cards
- pricing: 'bg-[var(--surface-subtle)] border border-white/[0.1] backdrop-blur-sm shadow-xl shadow-black/20',
+ pricing: 'bg-[var(--surface-subtle)] border border-[var(--border-default)] backdrop-blur-sm shadow-xl shadow-[var(--shadow-color)]',
  };
 
  const hoverStyles = hover

@@ -1,10 +1,11 @@
 'use client';
 
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import type { WebsiteLocale } from "@/lib/i18n";
+import type { RequiredEnglishLocalizedRecord } from "@/lib/i18n";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_error'
 
-const errorCopy: Record<
-  WebsiteLocale,
+const errorCopy: RequiredEnglishLocalizedRecord<
   {
     title: string;
     description: string;
@@ -41,7 +42,7 @@ export default function Error({
   reset: () => void;
 }) {
   const { locale } = useWebsiteI18n();
-  const copy = errorCopy[locale] ?? errorCopy.en;
+  const copy = errorCopy[locale as keyof typeof errorCopy] ?? getGeneratedLocalCopy(errorCopy, generatedLocalCopy.errorCopy, locale) ?? errorCopy.en;
 
   console.error("Application error:", error);
 

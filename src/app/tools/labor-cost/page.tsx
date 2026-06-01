@@ -7,7 +7,9 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { SundaeIcon } from "@/components/icons";
 import { PageCTA } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import { type WebsiteLocale } from "@/lib/i18n";
+import { type RequiredEnglishLocalizedRecord } from '@/lib/i18n';
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_tools_labor_cost_page'
 
 type LaborCostCopy = {
   back: string;
@@ -47,7 +49,7 @@ type LaborCostCopy = {
   };
 };
 
-const localizedCopy: Record<WebsiteLocale, LaborCostCopy> = {
+const localizedCopy: RequiredEnglishLocalizedRecord<LaborCostCopy> = {
   en: {
     back: "Back to Tools",
     hero: {
@@ -200,7 +202,7 @@ const localizedCopy: Record<WebsiteLocale, LaborCostCopy> = {
 
 export default function LaborCostCalculator() {
   const { locale } = useWebsiteI18n();
-  const copy = localizedCopy[locale] ?? localizedCopy.en;
+  const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
   const [laborCost, setLaborCost] = useState("");
   const [totalSales, setTotalSales] = useState("");
   const [result, setResult] = useState<{ percentage: number; interpretation: string; color: string } | null>(null);

@@ -5,6 +5,8 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { COUNTRY_CODES } from '@/lib/countryCodes';
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/components_marketing_LeadCaptureForm'
 
 interface LeadCaptureFormProps {
   ctaLabel: string;
@@ -228,7 +230,7 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
   className = '',
 }) => {
   const { locale } = useWebsiteI18n();
-  const copy = formCopy[locale] ?? formCopy.en;
+  const copy = formCopy[locale as keyof typeof formCopy] ?? getGeneratedLocalCopy(formCopy, generatedLocalCopy.formCopy, locale) ?? formCopy.en;
   const [formData, setFormData] = useState<FormData>({
     name: '',
     email: '',
@@ -385,13 +387,13 @@ export const LeadCaptureForm: React.FC<LeadCaptureFormProps> = ({
       <div className={`max-w-2xl mx-auto ${className}`}>
         <div className="rounded-2xl border-2 border-green-200 bg-gradient-to-br from-green-50 to-emerald-50 p-8 text-center shadow-lg">
           <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-green-500">
-            <svg className="h-8 w-8 text-[var(--text-primary)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="h-8 w-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
             </svg>
           </div>
-          <h3 className="mb-3 text-2xl font-bold text-[var(--text-primary)]">{copy.successTitle}</h3>
-          <p className="mb-2 text-lg text-[var(--text-secondary)]">{copy.successBody}</p>
-          <p className="text-sm text-[var(--text-supporting)]">{copy.successNote}</p>
+          <h3 className="mb-3 text-2xl font-bold text-green-950">{copy.successTitle}</h3>
+          <p className="mb-2 text-lg text-green-900">{copy.successBody}</p>
+          <p className="text-sm text-green-800">{copy.successNote}</p>
         </div>
       </div>
     );

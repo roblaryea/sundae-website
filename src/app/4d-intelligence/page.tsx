@@ -7,6 +7,8 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/com
 import { motion } from 'framer-motion';
 import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_4d_intelligence_page'
 
 const localized4DCopy = {
   en: {
@@ -237,7 +239,7 @@ const localized4DCopy = {
 
 export default function FourDIntelligencePage() {
   const { locale } = useWebsiteI18n();
-  const ui = localized4DCopy[locale] ?? localized4DCopy.en;
+  const ui = localized4DCopy[locale as keyof typeof localized4DCopy] ?? getGeneratedLocalCopy(localized4DCopy, generatedLocalCopy.localized4DCopy, locale) ?? localized4DCopy.en;
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">

@@ -2,6 +2,8 @@ import { SundaeIcon } from "@/components/icons";
 import { Button } from "@/components/ui/Button";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_integrations_page'
 
 const integrationCategoriesByLocale = {
   en: [
@@ -92,8 +94,8 @@ const localizedIntegrationCopy = {
 export default function IntegrationsPage() {
   const { locale, messages } = useWebsiteI18n();
   const copy = messages.pages.integrations;
-  const integrationCategories = integrationCategoriesByLocale[locale] ?? integrationCategoriesByLocale.en;
-  const ui = localizedIntegrationCopy[locale] ?? localizedIntegrationCopy.en;
+  const integrationCategories = integrationCategoriesByLocale[locale as keyof typeof integrationCategoriesByLocale] ?? getGeneratedLocalCopy(integrationCategoriesByLocale, generatedLocalCopy.integrationCategoriesByLocale, locale) ?? integrationCategoriesByLocale.en;
+  const ui = localizedIntegrationCopy[locale as keyof typeof localizedIntegrationCopy] ?? getGeneratedLocalCopy(localizedIntegrationCopy, generatedLocalCopy.localizedIntegrationCopy, locale) ?? localizedIntegrationCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">

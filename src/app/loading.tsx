@@ -1,7 +1,9 @@
 import { cookies } from "next/headers";
-import { resolveWebsiteLocale, type WebsiteLocale } from "@/lib/i18n";
+import { resolveWebsiteLocale, type RequiredEnglishLocalizedRecord } from '@/lib/i18n';
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_loading'
 
-const loadingMessages: Record<WebsiteLocale, string> = {
+const loadingMessages: RequiredEnglishLocalizedRecord<string> = {
   en: "Loading...",
   ar: "جارٍ التحميل...",
   fr: "Chargement...",
@@ -10,7 +12,7 @@ const loadingMessages: Record<WebsiteLocale, string> = {
 
 export default async function Loading() {
   const locale = resolveWebsiteLocale(await cookies());
-  const message = loadingMessages[locale] ?? loadingMessages.en;
+  const message = loadingMessages[locale as keyof typeof loadingMessages] ?? getGeneratedLocalCopy(loadingMessages, generatedLocalCopy.loadingMessages, locale) ?? loadingMessages.en;
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-white">

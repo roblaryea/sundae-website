@@ -11,12 +11,10 @@ import { useCta } from '@/lib/cta';
 import { PRICING_URL } from '@/lib/links';
 import { REPORT_APP_URL, SIGNUP_URL } from '@/lib/urls';
 import { ThemeToggle } from './ui/ThemeToggle';
+import { useTheme } from './ui/ThemeProvider';
 import { useWebsiteI18n } from './i18n/LocaleProvider';
 import { LocaleSwitcher } from './i18n/LocaleSwitcher';
 import { localizeWebsiteHref } from '@/lib/i18n';
-import { SolutionsMegaMenu } from './nav/SolutionsMegaMenu';
-import { ROLE_META, SEGMENT_META } from './nav/solutionsMeta';
-import { SundaeWordmark } from './redesign/v2/SundaeWordmark';
 
 type NavbarLink = {
   name: string;
@@ -112,6 +110,8 @@ const Navbar = () => {
   const { locale, messages } = useWebsiteI18n();
   const nav = messages.navbar;
   const cta = useCta();
+  const { theme } = useTheme();
+  const logoSrc = theme === 'light' ? '/logos/sundae-wordmark.svg' : '/logos/sundae-wordmark-white.svg';
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
@@ -214,28 +214,33 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo - Left Aligned with Animation */}
-          <Link
-            href={localizeHref('/')}
-            className="flex items-center group text-[var(--text-primary)]"
-            aria-label="Sundae – Decision Intelligence for Restaurants"
-          >
-            <div className="relative overflow-hidden">
-              <SundaeWordmark
-                onMouseEnter={() => setIsLogoHovered(true)}
-                onMouseLeave={() => setIsLogoHovered(false)}
-                className={`h-[34px] w-auto transition-opacity duration-300 ${
+          <Link href={localizeHref('/')} className="flex items-center group">
+            <div className="relative">
+              <Image
+                src={logoSrc}
+                alt="Sundae – Decision Intelligence for Restaurants"
+                width={160}
+                height={46}
+                className={`transition-all duration-300 ${
                   isLogoHovered ? 'opacity-85' : 'opacity-100'
                 }`}
+                style={{ height: '46px', width: 'auto' }}
+                onMouseEnter={() => setIsLogoHovered(true)}
+                onMouseLeave={() => setIsLogoHovered(false)}
+                priority
               />
-              {/* Subtle shimmer effect on hover */}
-              <div className={`absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent transition-all duration-600 ease-out ${
-                isLogoHovered ? 'translate-x-full opacity-15' : '-translate-x-full opacity-0'
-              }`}></div>
+              {/* Subtle shimmer effect on hover — theme-aware via --shape-tint */}
+              <div
+                style={{ background: 'linear-gradient(to right, transparent, color-mix(in srgb, var(--shape-tint) 20%, transparent), transparent)' }}
+                className={`absolute inset-0 transition-all duration-600 ease-out ${
+                  isLogoHovered ? 'translate-x-full opacity-15' : '-translate-x-full opacity-0'
+                }`}
+              ></div>
             </div>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center lg:space-x-5 xl:space-x-6 2xl:space-x-8">
+          <div className="hidden lg:flex items-center space-x-8">
             {/* Products Mega Menu */}
             <div className="relative group" onMouseLeave={() => setActiveDropdown(null)}>
               <button
@@ -288,7 +293,7 @@ const Navbar = () => {
                     <h3 className="eyebrow text-[var(--text-muted)] mb-3">
                       {nav.plans}
                     </h3>
-                    <div className="grid grid-cols-2 gap-1 mb-3">
+                    <div className="grid grid-cols-3 gap-1 mb-3">
                       {plans.map((plan) => (
                         <Link
                           key={plan.name}
@@ -342,20 +347,56 @@ const Navbar = () => {
               
               {activeDropdown === 'solutions' && (
                 <div
-                  className="absolute top-full left-1/2 -translate-x-1/2 pt-2 w-[860px] max-w-[calc(100vw-2rem)] z-50"
+                  className="absolute top-full left-0 pt-2 w-[420px] z-50"
                   onMouseEnter={() => setActiveDropdown('solutions')}
                   onMouseLeave={() => setActiveDropdown(null)}
                 >
-                  <SolutionsMegaMenu
-                    segments={solutionsSegments}
-                    roles={solutionsRoles}
-                    bySegmentLabel={nav.bySegment}
-                    byRoleLabel={nav.byRole}
-                    comparePlansLabel={nav.comparePlans.replace(' →', '')}
-                    startFreeLabel={nav.startFree}
-                    localizeHref={localizeHref}
-                    onClose={() => setActiveDropdown(null)}
-                  />
+                <div className="bg-[var(--navy)]/95 backdrop-blur-xl rounded-xl shadow-[0_8px_40px_rgba(0,0,0,0.4)] border border-[var(--border-default)] px-6 py-6 animate-dropdown-in">
+                  {/* Segments */}
+                  <div className="mb-4">
+                    <h3 className="eyebrow text-[var(--text-muted)] mb-3">
+                      {nav.bySegment}
+                    </h3>
+                    <div className="grid grid-cols-2 gap-1">
+                      {solutionsSegments.map((solution) => (
+                        <Link
+                          key={solution.name}
+                          href={localizeHref(solution.href)}
+                          className="block p-3 rounded-lg hover:bg-[var(--surface-hover)] transition-colors duration-200"
+                          onClick={() => setActiveDropdown(null)}
+                        >
+                          <div className="font-semibold text-[var(--text-primary)] text-sm leading-snug">
+                            {solution.name}
+                          </div>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Separator */}
+                  <div className="border-t border-[var(--border-default)] my-4"></div>
+
+                  {/* Roles */}
+                  <div>
+                    <h3 className="eyebrow text-[var(--text-muted)] mb-3">
+                      {nav.byRole}
+                    </h3>
+                    <div className="grid grid-cols-2 gap-1">
+                      {solutionsRoles.map((solution) => (
+                        <Link
+                          key={solution.name}
+                          href={localizeHref(solution.href)}
+                          className="block p-3 rounded-lg hover:bg-[var(--surface-hover)] transition-colors duration-200"
+                          onClick={() => setActiveDropdown(null)}
+                        >
+                          <div className="font-semibold text-[var(--text-primary)] text-sm leading-snug">
+                            {solution.name}
+                          </div>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                </div>
                 </div>
               )}
             </div>
@@ -411,14 +452,12 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* CTA Buttons — secondary (acquisition) + primary (high-intent).
-              Secondary renders at 2xl+ so laptop-width nav never clips the
-              high-intent working-session CTA. */}
-          <div className="hidden lg:flex items-center space-x-2 xl:space-x-3 shrink-0">
+          {/* CTA Buttons */}
+          <div className="hidden lg:flex items-center space-x-4">
             <LocaleSwitcher />
             <ThemeToggle />
             <Button
-              variant="ghost"
+              variant="outline"
               size="sm"
               onClick={() => cta(localizeHref("/sign-in"), "sign_in_navbar", { location: "navbar" })}
               data-cta="sign_in_navbar"
@@ -426,22 +465,9 @@ const Navbar = () => {
             >
               {nav.signIn}
             </Button>
-            <span className="hidden 2xl:inline-flex">
-              <Button
-                variant="outline-light"
-                size="sm"
-                href={REPORT_APP_URL}
-                onClick={() => cta(REPORT_APP_URL, "free_benchmark_navbar", { location: "navbar" })}
-                data-cta="free_benchmark_navbar"
-                data-source="navbar"
-              >
-                {nav.startFree}
-              </Button>
-            </span>
-            <Button
-              variant="primary"
+            <Button 
+              variant="primary" 
               size="sm"
-              className="whitespace-nowrap"
               onClick={() => cta(localizeHref("/demo"), "book_demo_navbar", { location: "navbar" })}
               data-cta="book_demo_navbar"
               data-source="navbar"
@@ -518,7 +544,7 @@ const Navbar = () => {
           {/* Drawer Header with Close Button */}
           <div className="flex items-center justify-between px-4 py-4 border-b border-[var(--border-default)] flex-shrink-0">
             <Image
-              src="/logos/sundae-wordmark-white.svg"
+              src={logoSrc}
               alt="Sundae"
               width={130}
               height={38}
@@ -600,63 +626,31 @@ const Navbar = () => {
               isExpanded={expandedSections.solutions}
               onToggle={() => toggleSection('solutions')}
             >
-              <div className="px-4 pt-1 pb-2">
+              <div className="px-4 pt-1 pb-1">
                 <span className="eyebrow text-[var(--text-muted)]">{nav.bySegment}</span>
               </div>
-              {solutionsSegments.map((solution) => {
-                const meta = SEGMENT_META[solution.href];
-                if (!meta) return null;
-                const Icon = meta.Icon;
-                return (
-                  <Link
-                    key={solution.name}
-                    href={localizeHref(solution.href)}
-                    onClick={handleMobileNavClick}
-                    className="flex items-start gap-3 px-4 py-2.5 hover:bg-[var(--surface-hover)] transition-colors"
-                  >
-                    <div className="w-9 h-9 rounded-md bg-[var(--electric-blue)]/15 text-[var(--electric-blue)] flex items-center justify-center shrink-0">
-                      <Icon className="w-[18px] h-[18px]" strokeWidth={2.2} />
-                    </div>
-                    <div className="flex-1 min-w-0">
-                      <div className="font-semibold text-[var(--text-primary)] text-sm">
-                        {solution.name}
-                      </div>
-                      <div className="text-[12px] text-[var(--text-supporting)] leading-snug">
-                        {meta.description}
-                      </div>
-                    </div>
-                  </Link>
-                );
-              })}
-              <div className="border-t border-[var(--border-default)] my-3 mx-4"></div>
-              <div className="px-4 pt-1 pb-2">
+              {solutionsSegments.map((solution) => (
+                <MobileNavLink
+                  key={solution.name}
+                  href={localizeHref(solution.href)}
+                  onClick={handleMobileNavClick}
+                >
+                  {solution.name}
+                </MobileNavLink>
+              ))}
+              <div className="border-t border-[var(--border-default)] my-2 mx-4"></div>
+              <div className="px-4 pt-1 pb-1">
                 <span className="eyebrow text-[var(--text-muted)]">{nav.byRole}</span>
               </div>
-              {solutionsRoles.map((solution) => {
-                const meta = ROLE_META[solution.href];
-                if (!meta) return null;
-                const Icon = meta.Icon;
-                return (
-                  <Link
-                    key={solution.name}
-                    href={localizeHref(solution.href)}
-                    onClick={handleMobileNavClick}
-                    className="flex items-start gap-3 px-4 py-2.5 hover:bg-[var(--surface-hover)] transition-colors"
-                  >
-                    <div className="w-9 h-9 rounded-md bg-[var(--electric-blue)]/15 text-[var(--electric-blue)] flex items-center justify-center shrink-0">
-                      <Icon className="w-[18px] h-[18px]" strokeWidth={2.2} />
-                    </div>
-                    <div className="flex-1 min-w-0">
-                      <div className="font-semibold text-[var(--text-primary)] text-sm">
-                        {solution.name}
-                      </div>
-                      <div className="text-[12px] text-[var(--text-supporting)] leading-snug">
-                        {meta.description}
-                      </div>
-                    </div>
-                  </Link>
-                );
-              })}
+              {solutionsRoles.map((solution) => (
+                <MobileNavLink
+                  key={solution.name}
+                  href={localizeHref(solution.href)}
+                  onClick={handleMobileNavClick}
+                >
+                  {solution.name}
+                </MobileNavLink>
+              ))}
             </AccordionSection>
 
             {/* Resources Section */}
@@ -725,20 +719,6 @@ const Navbar = () => {
                 {nav.bookDemo}
               </Button>
               </div>
-              <Button
-                variant="outline-light"
-                size="sm"
-                fullWidth
-                href={REPORT_APP_URL}
-                onClick={() => {
-                  cta(REPORT_APP_URL, "free_benchmark_mobile_nav", { location: "mobile-nav" });
-                  setIsMenuOpen(false);
-                }}
-                data-cta="free_benchmark_mobile_nav"
-                data-source="mobile-nav"
-              >
-                {nav.startFree}
-              </Button>
             </div>
           </div>
         </nav>

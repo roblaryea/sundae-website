@@ -8,13 +8,10 @@ import {
   getSourceBlogPost,
   getSourceBlogPosts,
 } from '@/lib/blogTranslations';
-import {
-  buildWebsiteAlternateUrls,
-  getLocalizedPathname,
-  resolveWebsiteLocale,
-  type WebsiteLocale,
-} from '@/lib/i18n';
+import { buildWebsiteAlternateUrls, getLocalizedPathname, resolveWebsiteLocale, type RequiredEnglishLocalizedRecord } from '@/lib/i18n';
 import { BlogContent } from './BlogContent';
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_blog_slug_page'
 
 interface BlogPostPageProps {
   params: Promise<{
@@ -38,7 +35,7 @@ type BlogPostPageCopy = {
   categories: Record<string, string>;
 };
 
-const localizedBlogPostPageCopy: Record<WebsiteLocale, BlogPostPageCopy> = {
+const localizedBlogPostPageCopy: RequiredEnglishLocalizedRecord<BlogPostPageCopy> = {
   en: {
     backToBlog: '← Back to Blog',
     backToAllPosts: '← Back to All Posts',
@@ -125,7 +122,7 @@ export default async function BlogPostPage({
   const resolvedSearchParams = searchParams ? await searchParams : undefined;
   const forcedEnglish = resolvedSearchParams?.lang === 'en';
   const locale = forcedEnglish ? 'en' : resolveWebsiteLocale(await cookies());
-  const copy = localizedBlogPostPageCopy[locale];
+  const copy = localizedBlogPostPageCopy[locale as keyof typeof localizedBlogPostPageCopy] ?? getGeneratedLocalCopy(localizedBlogPostPageCopy, generatedLocalCopy.localizedBlogPostPageCopy, locale) ?? localizedBlogPostPageCopy.en;
   const post = getLocalizedBlogPost(slug, locale);
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://sundae.io';
   const localizedBlogPath = getLocalizedPathname('/blog', locale);

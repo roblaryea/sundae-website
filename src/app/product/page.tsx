@@ -17,6 +17,8 @@ import {
   IntelligenceChatMockup,
   ForesightDashboardMockup,
 } from "@/components/ui/MockupFrame";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_product_page'
 
 type Pillar = {
   name: string;
@@ -196,8 +198,8 @@ const localizedPillars: Record<'en' | 'ar' | 'fr' | 'es', Pillar[]> = {
 export default function ProductPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const ui = copyMap[locale] ?? copyMap.en;
-  const pillars = localizedPillars[locale] ?? localizedPillars.en;
+  const ui = copyMap[locale as keyof typeof copyMap] ?? getGeneratedLocalCopy(copyMap, generatedLocalCopy.copyMap, locale) ?? copyMap.en;
+  const pillars = localizedPillars[locale as keyof typeof localizedPillars] ?? getGeneratedLocalCopy(localizedPillars, generatedLocalCopy.localizedPillars, locale) ?? localizedPillars.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">

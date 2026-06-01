@@ -7,6 +7,8 @@ import { PageHero, PageCTA, FadeUp } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { useCta } from "@/lib/cta";
 import { REPORT_APP_URL, PRICING_URL } from "@/lib/urls";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_report_vs_core_page'
 
 type ComparisonRow = {
   category: string;
@@ -757,7 +759,7 @@ const localizedReportVsCoreCopy: Record<"en" | "ar" | "fr" | "es", ReportVsCoreC
 export default function ReportVsCorePage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const copy = localizedReportVsCoreCopy[locale] ?? localizedReportVsCoreCopy.en;
+  const copy = localizedReportVsCoreCopy[locale as keyof typeof localizedReportVsCoreCopy] ?? getGeneratedLocalCopy(localizedReportVsCoreCopy, generatedLocalCopy.localizedReportVsCoreCopy, locale) ?? localizedReportVsCoreCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">

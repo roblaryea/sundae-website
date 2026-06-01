@@ -8,6 +8,8 @@ import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/comp
 import { useCta } from "@/lib/cta";
 import { REPORT_APP_URL } from "@/lib/urls";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
+import { generatedLocalCopy } from '@/generated-locales/app_benchmarking_page'
 
 const localizedBenchmarkCopy = {
   en: {
@@ -163,7 +165,7 @@ const localizedBenchmarkCopy = {
 export default function BenchmarkingPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
-  const ui = localizedBenchmarkCopy[locale] ?? localizedBenchmarkCopy.en;
+  const ui = localizedBenchmarkCopy[locale as keyof typeof localizedBenchmarkCopy] ?? getGeneratedLocalCopy(localizedBenchmarkCopy, generatedLocalCopy.localizedBenchmarkCopy, locale) ?? localizedBenchmarkCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">

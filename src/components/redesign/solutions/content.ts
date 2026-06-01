@@ -1,5 +1,5 @@
 import type { SolutionPageData } from "./SolutionPageTemplate";
-import type { WebsiteLocale } from "@/lib/i18n";
+import type { RequiredEnglishLocalizedRecord } from "@/lib/i18n";
 
 /**
  * Solutions page content — locale-keyed, pure data.
@@ -2236,7 +2236,11 @@ const es: SolutionsContent = {
   },
 };
 
-export const solutionsContent: Record<WebsiteLocale, SolutionsContent> = {
+// Polish branch built solutions content for en/ar/fr/es before main expanded
+// the locale list to 22. Using RequiredEnglishLocalizedRecord (Partial + en
+// required) keeps the v2 preview compiling without needing 18 stub locales.
+// New translations get layered in via the translation pipeline workstream.
+export const solutionsContent: RequiredEnglishLocalizedRecord<SolutionsContent> = {
   en,
   ar,
   fr,
