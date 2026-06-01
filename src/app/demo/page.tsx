@@ -24,7 +24,7 @@ export default async function DemoPage() {
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
+      <section className="pt-32 pb-12 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto text-center">
           <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase text-[var(--electric-blue)] mb-4">{copy.badge}</span>
           <h1 className="hero-h1 text-[var(--text-primary)] mb-6">
@@ -32,6 +32,36 @@ export default async function DemoPage() {
           </h1>
           <p className="body-xl text-[var(--text-supporting)] mb-8 max-w-3xl mx-auto">
             {copy.description}
+          </p>
+        </div>
+      </section>
+
+      {/* AI Operations Diagnostic — primary path */}
+      <section className="px-4 sm:px-6 lg:px-8 pb-16">
+        <div className="max-w-4xl mx-auto rounded-3xl bg-gradient-to-br from-[var(--electric-blue)]/15 via-[var(--electric-blue)]/8 to-emerald-500/8 border border-[var(--electric-blue)]/30 p-6 md:p-10 text-center">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[var(--electric-blue)]/15 border border-[var(--electric-blue)]/30 mb-4">
+            <span className="text-[10px] font-bold uppercase tracking-[0.16em] text-[var(--electric-blue)]">
+              ✦ Recommended · 10 minutes · Premium report
+            </span>
+          </div>
+          <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)] mb-3 text-balance">
+            Want substance before the call?
+          </h2>
+          <p className="text-base text-[var(--text-supporting)] mb-6 max-w-2xl mx-auto">
+            Take the Sundae Operations Diagnostic — 15 strategic questions →
+            personalized report showing the margin leaks we&rsquo;d surface, the
+            recommended stack, and a 30/60/90 plan. Same outcome as a discovery
+            call, on your time, with a shareable artifact at the end.
+          </p>
+          <a
+            href="/diagnostic"
+            className="inline-flex items-center gap-2 px-7 py-3.5 bg-gradient-to-r from-[var(--electric-blue)] to-emerald-500 text-white font-bold rounded-xl shadow-xl shadow-[var(--electric-blue)]/20 hover:shadow-[var(--electric-blue)]/40 transition-all"
+          >
+            Start your diagnostic
+            <span aria-hidden>→</span>
+          </a>
+          <p className="text-[11px] text-[var(--text-muted)] mt-3">
+            No credit card · Output is a directional read, never a promise
           </p>
         </div>
       </section>
