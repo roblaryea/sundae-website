@@ -21,6 +21,7 @@ import { SectionPersonaSwitcher } from "./sections/SectionPersonaSwitcher";
 import { SectionProof } from "./sections/SectionProof";
 import { SectionTrustStrip } from "./sections/SectionTrustStrip";
 import { SectionCommercialHubs } from "./sections/SectionCommercialHubs";
+import { SectionProductGallery } from "./sections/SectionProductGallery";
 
 /* ─── Data ─────────────────────────────────────────────────────── */
 
@@ -389,6 +390,12 @@ export default function HomeContent() {
             (Operating today + Coming soon expansion markets)
         ════════════════════════════════════════════════ */}
         <SectionCommercialHubs />
+
+        {/* ════════════════════════════════════════════════
+            6d. PRODUCT GALLERY — Persona-tagged screenshots
+            with deep links into product surfaces
+        ════════════════════════════════════════════════ */}
+        <SectionProductGallery />
 
         {/* ════════════════════════════════════════════════
             7. CLOSING CTA

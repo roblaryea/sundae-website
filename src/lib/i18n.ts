@@ -351,10 +351,10 @@ export const websiteMessages = {
       bookDemo: 'Book a Demo',
       noCard: 'No credit card required',
       proofStats: [
-        { number: '6', label: 'Intelligence layers' },
-        { number: '30+', label: 'Analytics modules' },
-        { number: '12', label: 'Data domains unified' },
-        { number: '5 min', label: 'Shift refresh cycle' },
+        { number: '5 min', label: 'From signal to action' },
+        { number: '30+', label: 'Decisions, not dashboards' },
+        { number: '12', label: 'Operational domains unified' },
+        { number: '6', label: 'Intelligence layers, one truth' },
       ],
       problem: {
         eyebrow: 'THE PROBLEM',
@@ -385,8 +385,8 @@ export const websiteMessages = {
       },
       modules: {
         eyebrow: 'INTELLIGENCE MODULES',
-        heading: '30+ modules across 12 domains',
-        description: 'Every dimension of restaurant performance — analyzed, benchmarked, and actionable.',
+        heading: '30+ modules. One action loop.',
+        description: 'Every dimension of restaurant performance — surfaced as a decision, not a chart. Benchmarked against your real cohort, ranked by margin impact, and routed to the right person on the floor.',
         categories: [
           { name: 'Revenue Intelligence', count: '4 modules' },
           { name: 'Labor Intelligence', count: '5 modules' },
