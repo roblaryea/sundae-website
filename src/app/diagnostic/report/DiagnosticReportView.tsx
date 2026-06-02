@@ -122,9 +122,6 @@ export function DiagnosticReportView({
                   {n.label}
                 </a>
               ))}
-              <a href="https://www.sundae.io/contact" className="mt-3 flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold transition-colors">
-                Book a walkthrough <ArrowUpRight className="w-3.5 h-3.5" />
-              </a>
             </div>
           </nav>
 
