@@ -181,6 +181,17 @@ const GALLERY: GalleryItem[] = [
     productHref: "/insights",
     productLabel: "Insights →",
   },
+  {
+    id: "marketing-channels",
+    src: "/images/product/2026-fresh/marketing-channels.png",
+    alt: "Marketing Intelligence — channel attribution and efficiency frontier",
+    caption: "Insights — Channel Attribution",
+    whatYouSee:
+      "Channel Performance across 5 channels — AED 2.16M spend → AED 581K listed revenue, 0.3x avg ROAS, 364,607 conversions. Meta is top performer (AED 122,923 · 21.2% of revenue) ahead of TikTok, with an Efficiency Frontier scatter and a Budget Optimizer surfacing where the next dollar should go.",
+    personas: ["marketing"],
+    productHref: "/insights",
+    productLabel: "Insights →",
+  },
 
   // ─── Foresight — Predictive intelligence ─────────────────────
   {
@@ -271,6 +282,28 @@ const GALLERY: GalleryItem[] = [
     caption: "Crew — People",
     whatYouSee:
       "122 active headcount, 0 onboarding in progress. Filter by department / role / state / outlet. Employee table: Mateo Rivera (Cleaning), Noura Saleh (Operations Manager), Khalid Mansour (Operations Manager), Fatima Qureshi (Kitchen), etc. — with role / department / outlet / manager columns.",
+    personas: ["hr"],
+    productHref: "/crew",
+    productLabel: "Sundae Crew →",
+  },
+  {
+    id: "crew-leave",
+    src: "/images/product/2026-fresh/crew-leave.png",
+    alt: "Crew Leave Admin — liability, policies, and per-employee balances",
+    caption: "Crew — Leave Admin",
+    whatYouSee:
+      "Total leave liability 2,870.5 days across 60 staff, 3 active policies / 5 leave types, holidays mapped to country packs. Per-employee balances (Annual / Sick / Unpaid) with Adjust and Ledger actions — accrual jobs and public-holiday calendars run per jurisdiction.",
+    personas: ["hr"],
+    productHref: "/crew",
+    productLabel: "Sundae Crew →",
+  },
+  {
+    id: "crew-benefits",
+    src: "/images/product/2026-fresh/crew-benefits.png",
+    alt: "Crew Benefits — enrollments, plans, and employer cost",
+    caption: "Crew — Benefits",
+    whatYouSee:
+      "20 active enrollments, AED 10,200 employer cost / month, 2 renewals in 90 days. A provider-neutral adapter (Bayzat-backed here) lists each member's plan — Standard / Premium Health — with EE AED 150 and ER AED 450 monthly splits, effective dates, and Enroll / Terminate controls.",
     personas: ["hr"],
     productHref: "/crew",
     productLabel: "Sundae Crew →",
