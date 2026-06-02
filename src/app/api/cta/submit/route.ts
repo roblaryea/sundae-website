@@ -95,6 +95,7 @@ export async function POST(request: NextRequest) {
       utmSource,
       utmMedium,
       utmCampaign,
+      metadata,
     } = body;
 
     // Validate required fields
@@ -167,7 +168,14 @@ export async function POST(request: NextRequest) {
       utmMedium: utmMedium || null,
       utmCampaign: utmCampaign || null,
       referrerUrl: request.headers.get('referer'),
-      metadata: { requestId, websiteIp: ip },
+      // Merge caller-supplied metadata (e.g. the diagnostic responses + AI
+      // report + internal aiSource) so the backend can email the branded
+      // report and surface the assessment in admin. Our own keys win.
+      metadata: {
+        ...(metadata && typeof metadata === 'object' ? (metadata as Record<string, unknown>) : {}),
+        requestId,
+        websiteIp: ip,
+      },
     };
 
     const sundaeResult = await submitLeadToSundae(sundaePayload);

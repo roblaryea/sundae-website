@@ -49,6 +49,9 @@ export default function DiagnosticPage() {
     // The API route guarantees a report is always returned — graceful degradation
     // across all three engines means we never error to the user.
     let result: DiagnosticReportType;
+    // Internal-only: which engine produced the report (for sales/debug). Never
+    // surfaced to the prospect — only attached to the lead metadata.
+    let aiSource: string | null = null;
     try {
       const res = await fetch("/api/diagnostic", {
         method: "POST",
@@ -61,31 +64,57 @@ export default function DiagnosticPage() {
       if (!res.ok) throw new Error(`AI gateway returned ${res.status}`);
       const payload = await res.json();
       result = payload.report as DiagnosticReportType;
+      aiSource = typeof payload.source === "string" ? payload.source : null;
     } catch (err) {
       // Client-side last-resort fallback if even the API endpoint is unreachable
       console.error("[diagnostic] API unreachable, falling to client heuristic:", err);
       result = runDiagnostic(data.responses);
+      aiSource = "client-heuristic";
     }
 
     setReport(result);
 
     // Fire-and-forget lead capture. Includes the AI-generated report in
-    // metadata so sales sees both the responses and the personalised
-    // diagnostic the prospect just saw.
+    // metadata so the backend can email the branded report AND sales sees the
+    // full assessment in admin. numberOfLocations + primaryPOS are required by
+    // /api/cta/submit, so derive them from the responses (the flow doesn't
+    // collect them as separate capture fields).
     if (typeof window !== "undefined") {
+      const OUTLET_LABELS: Record<string, string> = {
+        "1": "1", "2_5": "2-5", "6_15": "6-15",
+        "16_50": "16-50", "51_150": "51-150", "150_plus": "150+",
+      };
+      const outletsRaw = Array.isArray(data.responses.outlets)
+        ? data.responses.outlets[0]
+        : data.responses.outlets;
+      const numberOfLocations = OUTLET_LABELS[String(outletsRaw ?? "")] ?? "Not specified";
+      const posRaw = Array.isArray(data.responses.pos)
+        ? data.responses.pos
+        : data.responses.pos
+          ? [data.responses.pos]
+          : [];
+      const primaryPOS = posRaw[0]
+        ? String(posRaw[0]).charAt(0).toUpperCase() + String(posRaw[0]).slice(1)
+        : "Not specified";
+
       void fetch("/api/cta/submit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          source: "diagnostic",
           name: data.name,
           email: data.email,
           company: data.company,
           phone: data.phone,
           role: data.role,
           country: data.country,
+          numberOfLocations,
+          primaryPOS,
+          ctaLabel: "Operations Diagnostic",
+          sourcePage: "/diagnostic",
           message: `Diagnostic submitted. Profile: ${result.profileLine}. Tier fit: ${result.tierFit}.`,
-          metadata: { responses: data.responses, report: result },
+          // report → branded email + admin AI Assessment drawer.
+          // aiSource is internal-only (engine used); never shown to the prospect.
+          metadata: { responses: data.responses, report: result, aiSource },
         }),
       }).catch(() => {});
     }
