@@ -203,7 +203,7 @@ export async function POST(request: NextRequest) {
 
     return NextResponse.json({
       success: true,
-      message: 'Your request has been received. A Sundae specialist will respond within 24 hours.',
+      message: 'Your request has been received. A Sundae specialist will respond within 48 hours.',
       leadId: sundaeResult.leadId,
       leadNumber: sundaeResult.leadNumber,
       submissionId: sundaeResult.leadId,
