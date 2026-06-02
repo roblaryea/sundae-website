@@ -555,7 +555,15 @@ export default function ChatWithDataPage() {
       </section>
 
       {/* Product gallery — Intelligence surfaces in detail */}
-      <SectionProductGallery productFilter="/intelligence" />
+      <SectionProductGallery
+        productFilter="/intelligence"
+        hideFilter
+        headingOverride={{
+          eyebrow: "SEE INTELLIGENCE IN ACTION",
+          title: "Every Intelligence surface, in detail.",
+          subtitle: "Real decision surfaces from the live product.",
+        }}
+      />
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
         <Button variant="cta" size="lg" href={SIGNUP_URL}>{ui.heroPrimary}</Button>

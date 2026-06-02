@@ -844,7 +844,15 @@ export default function CoreProductPage() {
       </section>
 
       {/* Product gallery — Core surfaces in detail */}
-      <SectionProductGallery productFilter="/core" />
+      <SectionProductGallery
+        productFilter="/core"
+        hideFilter
+        headingOverride={{
+          eyebrow: "SEE CORE IN ACTION",
+          title: "Every Core surface, in detail.",
+          subtitle: "Real operator-workspace surfaces from the live product.",
+        }}
+      />
 
       {/* CTA */}
       <PageCTA

@@ -636,7 +636,15 @@ export default function WatchtowerPage() {
       </section>
 
       {/* Product gallery — Watchtower surfaces in detail */}
-      <SectionProductGallery productFilter="/product/watchtower" />
+      <SectionProductGallery
+        productFilter="/product/watchtower"
+        hideFilter
+        headingOverride={{
+          eyebrow: "SEE WATCHTOWER IN ACTION",
+          title: "Every Watchtower surface, in detail.",
+          subtitle: "Real competitive-intelligence surfaces from the live product.",
+        }}
+      />
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
         <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-6">

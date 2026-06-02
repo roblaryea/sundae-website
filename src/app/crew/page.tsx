@@ -949,7 +949,15 @@ export default function CrewPage() {
         </section>
 
         {/* Product gallery — Crew surfaces in detail */}
-        <SectionProductGallery productFilter="/crew" />
+        <SectionProductGallery
+          productFilter="/crew"
+          hideFilter
+          headingOverride={{
+            eyebrow: "SEE CREW IN ACTION",
+            title: "Every Crew surface, in detail.",
+            subtitle: "Real workforce-ops surfaces from the live product.",
+          }}
+        />
 
         {/* ════════════════════════════════════════════════
             CLOSING CTA

@@ -16,6 +16,8 @@
     "quality": "npm run lint && npm run lead:preflight && npm run qa:blog-copy && npm run qa:blog-locales && npm run qa:i18n && npm run qa:page-copy && npm run build"
   },
   "dependencies": {
+    "@ai-sdk/anthropic": "^3.0.81",
+    "@ai-sdk/openai": "^3.0.67",
     "@sentry/nextjs": "^10.42.0",
     "@vercel/analytics": "^1.6.1",
     "ai": "^6.0.193",

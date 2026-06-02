@@ -913,7 +913,15 @@ export default function InsightsPage() {
       </section>
 
       {/* Product gallery — Insights surfaces in detail */}
-      <SectionProductGallery productFilter="/insights" />
+      <SectionProductGallery
+        productFilter="/insights"
+        hideFilter
+        headingOverride={{
+          eyebrow: "SEE INSIGHTS IN ACTION",
+          title: "Every Insights module, in detail.",
+          subtitle: "Real analytics surfaces from the live product.",
+        }}
+      />
 
       {/* CTA Band */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] text-[var(--text-primary)]">

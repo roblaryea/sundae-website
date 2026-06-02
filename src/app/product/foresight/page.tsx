@@ -692,7 +692,15 @@ export default function ForesightPage() {
       </section>
 
       {/* Product gallery — Foresight surfaces in detail */}
-      <SectionProductGallery productFilter="/product/foresight" />
+      <SectionProductGallery
+        productFilter="/product/foresight"
+        hideFilter
+        headingOverride={{
+          eyebrow: "SEE FORESIGHT IN ACTION",
+          title: "Every Foresight surface, in detail.",
+          subtitle: "Real predictive-modelling surfaces from the live product.",
+        }}
+      />
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
         <Button variant="cta" size="lg" onClick={() => cta("/demo", "book_demo_foresight_cta", { page: "/product/foresight" })}>{ui.ctaPrimary}</Button>

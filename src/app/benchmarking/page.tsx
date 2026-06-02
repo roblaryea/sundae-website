@@ -284,7 +284,15 @@ export default function BenchmarkingPage() {
       </section>
 
       {/* Product gallery — Benchmarking surfaces in detail */}
-      <SectionProductGallery productFilter="/benchmarking" />
+      <SectionProductGallery
+        productFilter="/benchmarking"
+        hideFilter
+        headingOverride={{
+          eyebrow: "SEE BENCHMARK IN ACTION",
+          title: "Every Benchmark surface, in detail.",
+          subtitle: "Real peer-comparison surfaces from the live product.",
+        }}
+      />
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
         <Button variant="cta" size="lg" className="bg-[var(--navy-deep)] text-[var(--text-primary)] hover:bg-[var(--surface-subtle)]" onClick={() => cta(REPORT_APP_URL, "start_free_benchmarks_cta", { page: "/benchmarking" })}>
