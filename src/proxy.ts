@@ -25,7 +25,19 @@ function withLocaleHeaders(request: NextRequest, locale: string, publicPathname:
   return requestHeaders
 }
 
+// Canonical marketing domain. The site is also reachable on sundaetech.ai
+// (legacy/company domain); send those to the brand domain with a permanent
+// redirect so there's one canonical host (no duplicate-content split).
+const CANONICAL_HOST = 'www.sundae.io'
+const REDIRECT_HOSTS = new Set(['sundaetech.ai', 'www.sundaetech.ai'])
+
 export function proxy(request: NextRequest) {
+  const host = request.headers.get('host')?.toLowerCase().split(':')[0]
+  if (host && REDIRECT_HOSTS.has(host)) {
+    const target = new URL(`${request.nextUrl.pathname}${request.nextUrl.search}`, `https://${CANONICAL_HOST}`)
+    return NextResponse.redirect(target, 308)
+  }
+
   const { pathname, search } = request.nextUrl
   const { locale: localeFromPath, pathname: internalPathname } = parseWebsiteLocaleFromPathname(pathname)
   const cookieLocale = normalizeWebsiteLocale(request.cookies.get(WEBSITE_LOCALE_COOKIE)?.value)
