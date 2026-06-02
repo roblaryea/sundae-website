@@ -192,6 +192,17 @@ const GALLERY: GalleryItem[] = [
     productHref: "/insights",
     productLabel: "Insights →",
   },
+  {
+    id: "marketing-customers",
+    src: "/images/product/2026-fresh/marketing-customers.png",
+    alt: "Marketing Intelligence — customer segments, retention, and lifetime value",
+    caption: "Insights — Customer Intelligence",
+    whatYouSee:
+      "Acquisition vs Retention — 153 new, 207 returning, +360 net growth — over a cohort retention curve, beside Customer Segment Cards: regular (LTV AED 954K · 33 visits/mo), corporate (AED 538K · 18.5/mo), casual (AED 232K), tourist (AED 58K). Spend, frequency and lifetime value per segment, here for Amber Glow US + Mallow & Mint Cafe.",
+    personas: ["marketing"],
+    productHref: "/insights",
+    productLabel: "Insights →",
+  },
 
   // ─── Foresight — Predictive intelligence ─────────────────────
   {
@@ -304,6 +315,39 @@ const GALLERY: GalleryItem[] = [
     caption: "Crew — Benefits",
     whatYouSee:
       "20 active enrollments, AED 10,200 employer cost / month, 2 renewals in 90 days. A provider-neutral adapter (Bayzat-backed here) lists each member's plan — Standard / Premium Health — with EE AED 150 and ER AED 450 monthly splits, effective dates, and Enroll / Terminate controls.",
+    personas: ["hr"],
+    productHref: "/crew",
+    productLabel: "Sundae Crew →",
+  },
+  {
+    id: "crew-attendance",
+    src: "/images/product/2026-fresh/crew-attendance.png",
+    alt: "Crew Time & Attendance — geofenced biometric clock-in",
+    caption: "Crew — Time & Attendance",
+    whatYouSee:
+      "Outlet-scoped punch for Amber Ash & Eatery · Dubai with geofence enforcement — \"Location permission denied — clock-in may be blocked if your outlet enforces a geofence.\" Biometric clock-in via passkey (fingerprint / Face ID) plus optional photo evidence, with Manager override, Roster, Anomalies and Timesheets tabs alongside.",
+    personas: ["hr", "operations"],
+    productHref: "/crew",
+    productLabel: "Sundae Crew →",
+  },
+  {
+    id: "crew-workflows",
+    src: "/images/product/2026-fresh/crew-workflows.png",
+    alt: "Crew Workflow Engine — event-driven HR automations",
+    caption: "Crew — Workflow Engine",
+    whatYouSee:
+      "Event-driven HR automation — \"when X happens, do Y\" on member.hired, member.terminated, credential.expiring, payroll_cycle.closed and shift no-show risk. 9 active workflows with Simulate, AI-propose and Templates, plus Run history and Audit. Actions notify managers, open helpdesk tickets, or fire downstream events.",
+    personas: ["hr", "tech"],
+    productHref: "/crew",
+    productLabel: "Sundae Crew →",
+  },
+  {
+    id: "crew-me-timeoff",
+    src: "/images/product/2026-fresh/crew-me-timeoff.png",
+    alt: "Crew employee self-service — My time off balances and requests",
+    caption: "Crew — Employee Self-Service",
+    whatYouSee:
+      "What the employee sees: 3 days available, time-off requests tracked by status (2 approved, 1 pending) — Sick Leave May 20–22, Annual Leave May 19–20 — with one-tap \"Request time off\" and Asks / Announcements / Requests tabs. The self-service side of Crew that feeds the same data managers and Labor Intelligence act on.",
     personas: ["hr"],
     productHref: "/crew",
     productLabel: "Sundae Crew →",
