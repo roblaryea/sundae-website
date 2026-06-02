@@ -288,16 +288,54 @@ const PERSONA_FILTERS: { id: Persona | "all"; label: string }[] = [
   { id: "marketing",  label: "Marketing" },
 ];
 
-export function SectionProductGallery() {
-  const [activePersona, setActivePersona] = useState<Persona | "all">("all");
+interface SectionProductGalleryProps {
+  /**
+   * When set, restricts the gallery to cards whose productHref matches
+   * this prefix (e.g. "/product/pulse" → only Pulse cards). Used on
+   * product pages to surface just the relevant surfaces.
+   */
+  productFilter?: string;
+  /** Pre-select a persona chip — used on solutions pages */
+  defaultPersona?: Persona | "all";
+  /** Override the section heading (defaults to the homepage copy) */
+  headingOverride?: { eyebrow?: string; title?: string; subtitle?: string };
+  /** Hide the persona filter row (useful for product-specific galleries) */
+  hideFilter?: boolean;
+}
+
+export function SectionProductGallery({
+  productFilter,
+  defaultPersona = "all",
+  headingOverride,
+  hideFilter = false,
+}: SectionProductGalleryProps = {}) {
+  const [activePersona, setActivePersona] = useState<Persona | "all">(defaultPersona);
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
 
+  // First apply productFilter (if set), then persona filter
+  const productScoped = useMemo(
+    () =>
+      productFilter
+        ? GALLERY.filter((item) => item.productHref.startsWith(productFilter))
+        : GALLERY,
+    [productFilter],
+  );
+
   const filtered = useMemo(() => {
-    if (activePersona === "all") return GALLERY;
-    return GALLERY.filter((item) => item.personas.includes(activePersona));
-  }, [activePersona]);
+    if (activePersona === "all") return productScoped;
+    const matches = productScoped.filter((item) => item.personas.includes(activePersona));
+    // Never render an empty grid: if a pre-selected persona (e.g. solutions
+    // pages) has no tagged surfaces, fall back to the full product-scoped set.
+    return matches.length > 0 ? matches : productScoped;
+  }, [activePersona, productScoped]);
 
   const lightboxItem = lightboxIndex !== null ? filtered[lightboxIndex] : null;
+
+  // When a product page filters to a surface set we have no captures for yet
+  // (e.g. /product/watchtower, /benchmarking), render nothing rather than an
+  // empty heading + blank grid. The section lights up automatically once a
+  // matching screenshot is added to GALLERY.
+  const isEmpty = productScoped.length === 0;
 
   // Keyboard navigation for lightbox
   useEffect(() => {
@@ -311,6 +349,8 @@ export function SectionProductGallery() {
     return () => window.removeEventListener("keydown", handler);
   }, [lightboxIndex, filtered.length]);
 
+  if (isEmpty) return null;
+
   return (
     <section
       aria-labelledby="product-gallery-headline"
@@ -318,20 +358,19 @@ export function SectionProductGallery() {
     >
       <div className="max-w-7xl mx-auto">
         <FadeUp className="text-center mb-10">
-          <p className="eyebrow mb-3">SEE THE PRODUCT</p>
+          <p className="eyebrow mb-3">{headingOverride?.eyebrow ?? "SEE THE PRODUCT"}</p>
           <h2
             id="product-gallery-headline"
             className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] text-balance mb-3"
           >
-            This is what your team actually sees.
+            {headingOverride?.title ?? "This is what your team actually sees."}
           </h2>
           <p className="text-base sm:text-lg text-[var(--text-supporting)] max-w-2xl mx-auto">
-            Filter by who&rsquo;s logging in. Every surface deep-links to the
-            relevant product page so you can dig in.
+            {headingOverride?.subtitle ?? "Filter by who's logging in. Every surface deep-links to the relevant product page so you can dig in."}
           </p>
         </FadeUp>
 
-        {/* Persona filter chips */}
+        {!hideFilter && (
         <div className="flex flex-wrap justify-center gap-2 mb-10">
           {PERSONA_FILTERS.map((p) => (
             <button
@@ -347,6 +386,7 @@ export function SectionProductGallery() {
             </button>
           ))}
         </div>
+        )}
 
         {/* Gallery grid */}
         <AnimatePresence mode="wait">

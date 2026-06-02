@@ -8,6 +8,7 @@ import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/comp
 import { useCta } from "@/lib/cta";
 import { PRICING_URL } from "@/lib/urls";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_product_watchtower_page'
 import { generatedUiLabels } from "@/lib/generatedUiLabels";
@@ -633,6 +634,9 @@ export default function WatchtowerPage() {
           </div>
         </div>
       </section>
+
+      {/* Product gallery — Watchtower surfaces in detail */}
+      <SectionProductGallery productFilter="/product/watchtower" />
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
         <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-6">

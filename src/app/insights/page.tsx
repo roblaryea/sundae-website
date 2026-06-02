@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { useCta } from "@/lib/cta";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_insights_page'
 
@@ -910,6 +911,9 @@ export default function InsightsPage() {
           </div>
         </div>
       </section>
+
+      {/* Product gallery — Insights surfaces in detail */}
+      <SectionProductGallery productFilter="/insights" />
 
       {/* CTA Band */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] text-[var(--text-primary)]">

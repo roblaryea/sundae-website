@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
@@ -49,6 +50,19 @@ const Footer = () => {
   const localizeHref = (href: string) => localizeWebsiteHref(href, locale);
   const pathname = usePathname() ?? '/';
   const hidePreCta = shouldHideFooterPreCta(pathname);
+
+  // Mobile-collapse: sections start closed on narrow viewports and the toggle
+  // controls visibility there. At md+ the content is always visible (the
+  // `hidden md:block` content + `md:pointer-events-none` header), so this state
+  // is a pure mobile affordance — desktop ignores it entirely.
+  const [openSections, setOpenSections] = useState<Set<string>>(new Set());
+  const toggleSection = (key: string) =>
+    setOpenSections((prev) => {
+      const next = new Set(prev);
+      if (next.has(key)) next.delete(key);
+      else next.add(key);
+      return next;
+    });
 
   const pillarLinks = [
     ...nav.pillars.slice(0, 5).map((item) => ({ name: item.name, href: item.href })),
@@ -157,13 +171,19 @@ const Footer = () => {
           </div>
 
           {/* Products Column — collapsible on mobile, expanded on md+ */}
-          <details open className="group footer-section md:open">
-            <summary className="flex items-center justify-between cursor-pointer md:cursor-default list-none md:pointer-events-none">
+          <div className="footer-section">
+            <button
+              type="button"
+              onClick={() => toggleSection('product')}
+              aria-expanded={openSections.has('product')}
+              className="flex items-center justify-between w-full text-left cursor-pointer md:cursor-default md:pointer-events-none"
+            >
               <h3 className="text-[11px] font-semibold tracking-[0.12em] uppercase text-[var(--text-muted)] mb-3">{footer.sectionProduct}</h3>
-              <svg className="w-4 h-4 text-[var(--text-muted)] transition-transform group-open:rotate-180 md:hidden -mt-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className={`w-4 h-4 text-[var(--text-muted)] transition-transform md:hidden -mt-3 ${openSections.has('product') ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
               </svg>
-            </summary>
+            </button>
+            <div className={openSections.has('product') ? 'block' : 'hidden md:block'}>
             <ul className="space-y-2">
               {pillarLinks.map((link) => (
                 <li key={link.name}>
@@ -188,16 +208,23 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-          </details>
+            </div>
+          </div>
 
           {/* Solutions Column */}
-          <details open className="group footer-section md:open">
-            <summary className="flex items-center justify-between cursor-pointer md:cursor-default list-none md:pointer-events-none">
+          <div className="footer-section">
+            <button
+              type="button"
+              onClick={() => toggleSection('solutions')}
+              aria-expanded={openSections.has('solutions')}
+              className="flex items-center justify-between w-full text-left cursor-pointer md:cursor-default md:pointer-events-none"
+            >
               <h3 className="text-[11px] font-semibold tracking-[0.12em] uppercase text-[var(--text-muted)] mb-3">{footer.sectionSolutions}</h3>
-              <svg className="w-4 h-4 text-[var(--text-muted)] transition-transform group-open:rotate-180 md:hidden -mt-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className={`w-4 h-4 text-[var(--text-muted)] transition-transform md:hidden -mt-3 ${openSections.has('solutions') ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
               </svg>
-            </summary>
+            </button>
+            <div className={openSections.has('solutions') ? 'block' : 'hidden md:block'}>
             <ul className="space-y-2">
               {solutionsBySegment.map((link) => (
                 <li key={link.name}>
@@ -217,16 +244,23 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-          </details>
+            </div>
+          </div>
 
           {/* Resources & Company */}
-          <details open className="group footer-section md:open">
-            <summary className="flex items-center justify-between cursor-pointer md:cursor-default list-none md:pointer-events-none">
+          <div className="footer-section">
+            <button
+              type="button"
+              onClick={() => toggleSection('resources')}
+              aria-expanded={openSections.has('resources')}
+              className="flex items-center justify-between w-full text-left cursor-pointer md:cursor-default md:pointer-events-none"
+            >
               <h3 className="text-[11px] font-semibold tracking-[0.12em] uppercase text-[var(--text-muted)] mb-3">{footer.sectionResources}</h3>
-              <svg className="w-4 h-4 text-[var(--text-muted)] transition-transform group-open:rotate-180 md:hidden -mt-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className={`w-4 h-4 text-[var(--text-muted)] transition-transform md:hidden -mt-3 ${openSections.has('resources') ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
               </svg>
-            </summary>
+            </button>
+            <div className={openSections.has('resources') ? 'block' : 'hidden md:block'}>
             <ul className="space-y-2">
               {resourceLinks.map((link) => (
                 <li key={link.name}>
@@ -256,7 +290,8 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-          </details>
+            </div>
+          </div>
         </div>
 
         {/* Bottom Section */}

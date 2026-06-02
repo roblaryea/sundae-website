@@ -8,6 +8,7 @@ import { SIGNUP_URL } from "@/lib/urls";
 import { IntelligenceChatMockup } from "@/components/ui/MockupFrame";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_intelligence_page'
 
@@ -552,6 +553,9 @@ export default function ChatWithDataPage() {
           </FadeUp>
         </div>
       </section>
+
+      {/* Product gallery — Intelligence surfaces in detail */}
+      <SectionProductGallery productFilter="/intelligence" />
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
         <Button variant="cta" size="lg" href={SIGNUP_URL}>{ui.heroPrimary}</Button>

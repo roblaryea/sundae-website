@@ -6,6 +6,7 @@ import { useCta } from "@/lib/cta";
 import { REPORT_APP_URL } from "@/lib/urls";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import {
   MockupFrame,
   MockupKPI,
@@ -1424,6 +1425,17 @@ export default function PulsePage() {
           </FadeUp>
         </div>
       </section>
+
+      {/* Product gallery — every Pulse surface in detail */}
+      <SectionProductGallery
+        productFilter="/product/pulse"
+        hideFilter
+        headingOverride={{
+          eyebrow: "SEE PULSE IN ACTION",
+          title: "Every Pulse surface, in detail.",
+          subtitle: "Real shift-floor surfaces from the live product.",
+        }}
+      />
 
       {/* CTA */}
       <PageCTA

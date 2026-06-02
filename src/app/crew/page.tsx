@@ -9,6 +9,7 @@ import { ElegantShape } from "@/components/ui/ElegantShape";
 import { CrewDashboardMockup } from "@/components/ui/MockupFrame";
 import { REPORT_APP_URL } from "@/lib/urls";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_crew_page'
 
@@ -946,6 +947,9 @@ export default function CrewPage() {
             </div>
           </div>
         </section>
+
+        {/* Product gallery — Crew surfaces in detail */}
+        <SectionProductGallery productFilter="/crew" />
 
         {/* ════════════════════════════════════════════════
             CLOSING CTA

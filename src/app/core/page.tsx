@@ -9,6 +9,7 @@ import { PRICING_URL } from "@/lib/urls";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { PulseDashboardMockup } from "@/components/ui/MockupFrame";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_core_page'
 
@@ -841,6 +842,9 @@ export default function CoreProductPage() {
           </div>
         </div>
       </section>
+
+      {/* Product gallery — Core surfaces in detail */}
+      <SectionProductGallery productFilter="/core" />
 
       {/* CTA */}
       <PageCTA

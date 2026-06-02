@@ -50,6 +50,12 @@ interface Props {
   primaryCtaHref?: string;
   secondaryCtaHref?: string;
   ctaButtonHref?: string;
+  /**
+   * Optional product gallery — renders between the Crew callout and the
+   * Closing CTA. Persona pages pass a <SectionProductGallery> pre-filtered
+   * to the relevant persona so visitors see the real surfaces for their role.
+   */
+  gallery?: ReactNode;
 }
 
 /**
@@ -66,6 +72,7 @@ export function SolutionPageLayout({
   primaryCtaHref = "/demo",
   secondaryCtaHref = REPORT_APP_URL,
   ctaButtonHref = "/demo",
+  gallery,
 }: Props) {
   const { locale } = useWebsiteI18n();
   const labels = generatedUiLabels[locale as keyof typeof generatedUiLabels] ?? generatedUiLabels.en;
@@ -241,6 +248,11 @@ export function SolutionPageLayout({
             </div>
           </section>
         )}
+
+        {/* ════════════════════════════════════════════════
+            OPTIONAL: PRODUCT GALLERY — only renders when gallery is set
+        ════════════════════════════════════════════════ */}
+        {gallery}
 
         {/* ════════════════════════════════════════════════
             CLOSING CTA
