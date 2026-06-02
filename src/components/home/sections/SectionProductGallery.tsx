@@ -239,6 +239,32 @@ const GALLERY: GalleryItem[] = [
     productLabel: "Sundae Intelligence →",
   },
 
+  // ─── Watchtower — Competitive & market intelligence ──────────
+  {
+    id: "watchtower-command-center",
+    src: "/images/product/2026-fresh/watchtower-command-center.png",
+    alt: "Watchtower Command Center — competitor, weather, and market signals",
+    caption: "Watchtower — Command Center",
+    whatYouSee:
+      "What changed outside your four walls today. A Morning Briefing with live weather (18°C, 56% humidity) over the day's signal strip — Events Today 11, Yesterday Revenue AED 15,295 (+5.3% vs target), MTD Goal 105.3% (on track). Tabs for Position, Actions (12), Signals (28) and Automations (4), auto-refreshing across competitors, events and market signals.",
+    personas: ["c_suite", "operations", "multi_loc"],
+    productHref: "/product/watchtower",
+    productLabel: "Watchtower →",
+  },
+
+  // ─── Benchmark — Network-effect peer comparison ──────────────
+  {
+    id: "benchmark-network-pulse",
+    src: "/images/product/2026-fresh/benchmark-network-pulse.png",
+    alt: "Benchmark — RevPASH index and peer comparison",
+    caption: "Benchmark — Network Pulse",
+    whatYouSee:
+      "Compare against anonymized peers: RevPASH Index 152 (P93 vs cohort — above 100 means outperforming the market), Health Score 59, 2 open insights, 1 competitive set. Network Pulse flags \"seat occupancy outpaces compset\" and \"top-quartile RevPASH,\" with Overview, Performance, Trends, Forecast, Market Intel and Portfolio all live.",
+    personas: ["c_suite", "cfo", "multi_loc"],
+    productHref: "/benchmarking",
+    productLabel: "Benchmark →",
+  },
+
   // ─── Topology-aware (multi-brand / multi-region moat) ───────
   {
     id: "topology-franchise-health",
@@ -349,6 +375,17 @@ const GALLERY: GalleryItem[] = [
     whatYouSee:
       "What the employee sees: 3 days available, time-off requests tracked by status (2 approved, 1 pending) — Sick Leave May 20–22, Annual Leave May 19–20 — with one-tap \"Request time off\" and Asks / Announcements / Requests tabs. The self-service side of Crew that feeds the same data managers and Labor Intelligence act on.",
     personas: ["hr"],
+    productHref: "/crew",
+    productLabel: "Sundae Crew →",
+  },
+  {
+    id: "crew-scheduling",
+    src: "/images/product/2026-fresh/crew-scheduling-grid.png",
+    alt: "Crew Scheduling — weekly shift grid with AI Shift Builder",
+    caption: "Crew — Scheduling",
+    whatYouSee:
+      "The week at a glance for Abu Dhabi Mall — Morning / Afternoon / Evening shift blocks (07:00–23:00) across Mon–Sun, with an AI Shift Builder, Copy-forward, a 5.5/10 coverage quality score and one-click Publish week. Four view modes (Schedule / by person / by role / Focus) over a source-synced roster.",
+    personas: ["operations", "hr"],
     productHref: "/crew",
     productLabel: "Sundae Crew →",
   },
