@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import { Geist, Geist_Mono } from "next/font/google";
 import { cookies, headers } from "next/headers";
 import { Analytics } from "@vercel/analytics/next";
+import { BotIdClient } from "botid/client";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -129,6 +130,10 @@ export default async function RootLayout({
     <html lang={locale} dir={dir} className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning>
       <head>
         <ThemeScript />
+        {/* Vercel BotID — instruments the expensive AI diagnostic endpoint so
+            bots/crawlers are classified client-side and rejected server-side
+            (see src/app/api/diagnostic/route.ts) before any paid model call. */}
+        <BotIdClient protect={[{ path: "/api/diagnostic", method: "POST" }]} />
         <link rel="preload" href="/logos/sundae-wordmark-white.svg" as="image" />
         <link rel="preload" href="/logos/sundae-orb.png" as="image" />
       </head>

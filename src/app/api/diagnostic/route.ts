@@ -21,9 +21,11 @@ import { NextResponse } from 'next/server';
 import { generateObject, type LanguageModel } from 'ai';
 import { anthropic } from '@ai-sdk/anthropic';
 import { openai } from '@ai-sdk/openai';
+import { checkBotId } from 'botid/server';
 import { DiagnosticReportSchema } from '@/lib/diagnostic/schema';
 import { SYSTEM_PROMPT, buildUserMessage } from '@/lib/diagnostic/promptBuilder';
 import { runDiagnostic, type DiagnosticResponses } from '@/lib/diagnostic/engine';
+import { getClientIp, isSameOrigin, checkRateLimit } from '@/lib/diagnostic/abuse-guard';
 
 export const runtime = 'nodejs';
 // The residual gateway path can spend up to ~60s on a plan-blocked model before
@@ -96,6 +98,38 @@ async function generateWithModel(
 }
 
 export async function POST(req: Request) {
+  // ─── Anti-abuse guards (run BEFORE any paid model call) ───────
+  // 1) Same-origin: block direct/cross-site POSTs (most scripted abuse).
+  if (!isSameOrigin(req)) {
+    return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
+  }
+
+  // 2) Rate limit: per-IP cap + global hourly circuit-breaker on spend.
+  const rate = checkRateLimit(getClientIp(req), Date.now());
+  if (!rate.ok) {
+    return NextResponse.json(
+      {
+        error:
+          rate.scope === 'global'
+            ? 'The diagnostic is experiencing high demand. Please try again later.'
+            : 'Too many diagnostics from your network. Please try again later.',
+      },
+      { status: 429, headers: { 'Retry-After': String(rate.retryAfter) } },
+    );
+  }
+
+  // 3) Vercel BotID: classify and block bots/crawlers that spoof a same-origin
+  //    header. Fail-open (never let a classifier outage break real prospects);
+  //    bypass in development so local runs are never blocked.
+  try {
+    const verdict = await checkBotId({ developmentOptions: { bypass: 'HUMAN' } });
+    if (verdict.isBot) {
+      return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
+    }
+  } catch (botErr) {
+    console.error('[diagnostic] BotID check errored (failing open):', botErr);
+  }
+
   let body: { responses: DiagnosticResponses; leadData: LeadData };
   try {
     body = (await req.json()) as typeof body;

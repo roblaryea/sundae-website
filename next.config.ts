@@ -1,5 +1,6 @@
 import type { NextConfig } from "next";
 import { withSentryConfig } from "@sentry/nextjs";
+import { withBotId } from "botid/next/config";
 
 const pricingUrl = (process.env.NEXT_PUBLIC_PRICING_URL || 'https://pricing.sundae.io').replace(/\/+$/, '');
 
@@ -98,11 +99,13 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default withSentryConfig(nextConfig, {
-  org: process.env.SENTRY_ORG,
-  project: process.env.SENTRY_PROJECT,
-  silent: !process.env.CI,
-  sourcemaps: {
-    filesToDeleteAfterUpload: ["./next/**/*.map"],
-  },
-});
+export default withBotId(
+  withSentryConfig(nextConfig, {
+    org: process.env.SENTRY_ORG,
+    project: process.env.SENTRY_PROJECT,
+    silent: !process.env.CI,
+    sourcemaps: {
+      filesToDeleteAfterUpload: ["./next/**/*.map"],
+    },
+  }),
+);

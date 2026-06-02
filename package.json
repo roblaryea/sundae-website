@@ -21,6 +21,7 @@
     "@sentry/nextjs": "^10.42.0",
     "@vercel/analytics": "^1.6.1",
     "ai": "^6.0.193",
+    "botid": "^1.5.11",
     "framer-motion": "^12.35.1",
     "googleapis": "^168.0.0",
     "gsap": "^3.15.0",
