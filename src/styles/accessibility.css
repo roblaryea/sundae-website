@@ -69,11 +69,14 @@ nav a {
   justify-content: center;
 }
 
+/* Footer links are dense secondary nav — the 44px AAA touch target made the
+   footer ~25% taller than needed on desktop AND mobile. Tighten to a still-
+   tappable ~30px (above the WCAG 2.5.8 AA 24px minimum). */
 footer a {
-  padding: 8px 0;
+  padding: 4px 0;
   display: inline-block;
-  min-height: 44px;
-  line-height: 28px;
+  min-height: 30px;
+  line-height: 1.4;
 }
 
 .btn-sm {
