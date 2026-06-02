@@ -251,6 +251,28 @@ const GALLERY: GalleryItem[] = [
     productHref: "/product/watchtower",
     productLabel: "Watchtower →",
   },
+  {
+    id: "watchtower-competitor-intel",
+    src: "/images/product/2026-fresh/watchtower-competitor-intel.png",
+    alt: "Watchtower Competitor Intelligence — rank, ratings, promos, delivery",
+    caption: "Watchtower — Competitor Intelligence",
+    whatYouSee:
+      "Who's competing for your guests within a 5km catchment — 8 competitors tracked, Your Rank #6 of 8, Avg Competitor Rating 4.7. Price Position vs Market (above / at / below), a live Promo Radar surfacing rivals' deals (deepest cut −50%), Delivery Rank across Deliveroo / Noon / Talabat, and a Win/Loss narrative of why guests choose them.",
+    personas: ["c_suite", "marketing", "operations"],
+    productHref: "/product/watchtower",
+    productLabel: "Watchtower →",
+  },
+  {
+    id: "watchtower-market-trends",
+    src: "/images/product/2026-fresh/watchtower-market-trends.png",
+    alt: "Watchtower Market Trends — supply, cuisine landscape, demand",
+    caption: "Watchtower — Market Trends",
+    whatYouSee:
+      "The dining landscape around you — 60 restaurants tracked in-area, Area Avg Rating 4.4 (top 44%), a Supply Monitor (openings / closures, 0.76/100 saturation — low) and a Cuisine Landscape across 8 cuisine types. Dashboard / Trends / Signals / Map views over supply, pricing tiers, cuisine demand and delivery penetration.",
+    personas: ["c_suite", "marketing", "multi_loc"],
+    productHref: "/product/watchtower",
+    productLabel: "Watchtower →",
+  },
 
   // ─── Benchmark — Network-effect peer comparison ──────────────
   {
