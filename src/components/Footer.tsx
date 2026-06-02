@@ -64,8 +64,10 @@ const Footer = () => {
       return next;
     });
 
+  // Show ALL pillars (incl. Foresight) so the footer stays in sync with the
+  // header's product menu — both read from navbar.pillars.
   const pillarLinks = [
-    ...nav.pillars.slice(0, 5).map((item) => ({ name: item.name, href: item.href })),
+    ...nav.pillars.map((item) => ({ name: item.name, href: item.href })),
   ];
 
   const planLinks = [
