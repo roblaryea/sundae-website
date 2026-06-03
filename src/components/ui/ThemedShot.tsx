@@ -16,6 +16,10 @@ interface ThemedShotProps {
   className?: string;
   /** Wrap in a rounded, theme-aware bordered frame with shadow (hero chrome). */
   framed?: boolean;
+  /** Use next/image fill mode (parent must be position:relative). Ignores width/height. */
+  fill?: boolean;
+  /** sizes attribute, for fill mode responsive loading. */
+  sizes?: string;
 }
 
 /**
@@ -45,23 +49,24 @@ export function ThemedShot({
   priority = false,
   className = '',
   framed = false,
+  fill = false,
+  sizes,
 }: ThemedShotProps) {
   const imgClass = framed ? 'w-full h-auto' : className;
+  const dims = fill ? { fill: true as const, sizes } : { width, height };
   const inner = (
     <>
       <Image
         src={dark}
         alt={alt}
-        width={width}
-        height={height}
+        {...dims}
         priority={priority}
         className={`block [html.light_&]:hidden ${imgClass}`}
       />
       <Image
         src={light}
         alt={alt}
-        width={width}
-        height={height}
+        {...dims}
         loading="lazy"
         aria-hidden
         className={`hidden [html.light_&]:block ${imgClass}`}

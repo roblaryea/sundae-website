@@ -18,11 +18,26 @@
  */
 
 import { useState, useMemo, useEffect } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowUpRight, X, Maximize2, ChevronLeft, ChevronRight } from "lucide-react";
 import { FadeUp } from "@/components/ui/PageAnimations";
+import { ThemedShot } from "@/components/ui/ThemedShot";
+
+// Cards whose dark twin can't be captured cleanly fall back to the light shot
+// in both themes: the Watchtower detail subroutes render an empty shell
+// standalone, and the Wallboard sits behind a "launch mode" gate.
+const NO_DARK_TWIN = new Set([
+  "watchtower-competitor-intel",
+  "watchtower-market-trends",
+  "pulse-wallboard",
+]);
+
+/** Resolve the dark-theme twin for a gallery src, or fall back to light. */
+function darkTwin(src: string): string {
+  const base = src.replace(/^.*\//, "").replace(/\.png$/, "");
+  return NO_DARK_TWIN.has(base) ? src : src.replace(/\.png$/, "-dark.png");
+}
 
 type Persona =
   | "operations"
@@ -550,10 +565,11 @@ export function SectionProductGallery({
                   className="relative aspect-[16/10] bg-black overflow-hidden w-full block cursor-zoom-in"
                   aria-label={`Open ${item.caption} at full size`}
                 >
-                  <Image
-                    src={item.src}
-                    alt={item.alt}
+                  <ThemedShot
                     fill
+                    dark={darkTwin(item.src)}
+                    light={item.src}
+                    alt={item.alt}
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     className="object-cover object-top group-hover:scale-[1.02] transition-transform duration-500"
                   />
@@ -666,8 +682,9 @@ export function SectionProductGallery({
               onClick={(e) => e.stopPropagation()}
             >
               <div className="relative flex-1 min-h-0 bg-black rounded-xl overflow-hidden">
-                <Image
-                  src={lightboxItem.src}
+                <ThemedShot
+                  dark={darkTwin(lightboxItem.src)}
+                  light={lightboxItem.src}
                   alt={lightboxItem.alt}
                   width={1600}
                   height={1000}
