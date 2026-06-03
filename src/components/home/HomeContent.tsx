@@ -1,5 +1,6 @@
 'use client';
 
+import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 import { motion, useInView, MotionConfig } from "framer-motion";
 import { useRef } from "react";
@@ -91,6 +92,29 @@ export default function HomeContent() {
             <ElegantShape delay={0.3} width={600} height={140} rotate={12} gradient="from-white/[0.03]" className="left-[-10%] top-[15%]" />
             <ElegantShape delay={0.5} width={500} height={120} rotate={-15} gradient="from-white/[0.02]" className="right-[-5%] top-[70%]" />
             <ElegantShape delay={0.4} width={300} height={80} rotate={-8} gradient="from-white/[0.025]" className="left-[5%] bottom-[5%]" />
+          </div>
+
+          {/* Editorial backdrop — grounds the product hero in the restaurant world.
+              Heavily darkened, blurred and vignetted into the page bg so it reads as
+              atmosphere, never as a stock photo; the dashboard (z-20) floats over it. */}
+          <div aria-hidden className="absolute inset-x-0 bottom-0 top-[30%] z-0 overflow-hidden pointer-events-none">
+            <Image
+              src="/images/editorial/dining-candlelit.jpg"
+              alt=""
+              fill
+              priority
+              sizes="100vw"
+              className="object-cover object-center scale-110 blur-[3px] opacity-[0.20] [html.light_&]:opacity-[0.06]"
+            />
+            {/* feather the photo into the page on every side (var flips per theme) */}
+            <div
+              className="absolute inset-0"
+              style={{
+                background:
+                  'radial-gradient(ellipse 75% 85% at 50% 65%, transparent 0%, color-mix(in srgb, var(--navy-deep) 70%, transparent) 62%, var(--navy-deep) 100%)',
+              }}
+            />
+            <div className="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-[var(--navy-deep)] to-transparent" />
           </div>
 
           <div className="max-w-5xl mx-auto text-center relative z-20">
@@ -256,7 +280,14 @@ export default function HomeContent() {
         {/* ════════════════════════════════════════════════
             2a. HUMANIZED EDITORIAL BAND — the real restaurant world
         ════════════════════════════════════════════════ */}
-        <SectionEditorialBand />
+        <SectionEditorialBand
+          src="/images/editorial/chef-sauce.jpg"
+          alt="A chef finishing a plated dish on the kitchen pass during service"
+          eyebrow="From the pass to the P&L"
+          headline="The intelligence layer for the restaurant you actually run."
+          sub="Not another dashboard to check. Sundae reads every shift, cover, and line item — and tells you the next right move while it still matters."
+          priority
+        />
 
         {/* ════════════════════════════════════════════════
             2b. FROM REPORTING LAG TO OPS SPEED — Old Way vs Sundae Way
@@ -337,6 +368,17 @@ export default function HomeContent() {
         </section>
 
         {/* ════════════════════════════════════════════════
+            3a-band. HUMAN MOMENT — the brigade on the line
+        ════════════════════════════════════════════════ */}
+        <SectionEditorialBand
+          src="/images/editorial/kitchen-brigade.jpg"
+          alt="A kitchen brigade working the line during service"
+          eyebrow="Built for the line, not the boardroom"
+          headline="Your team is already moving fast. Sundae moves with them."
+          sub="Live pacing, labor, and exceptions across every outlet — so the call you make at 7pm is the right one, not the one you second-guess at midnight."
+        />
+
+        {/* ════════════════════════════════════════════════
             3b. BEYOND DASHBOARDS — Three Moats (Pulse / Watchtower / Benchmarks)
         ════════════════════════════════════════════════ */}
         <SectionThreeMoats />
@@ -399,6 +441,19 @@ export default function HomeContent() {
             (full per-product galleries live on the product pages)
         ════════════════════════════════════════════════ */}
         <SectionProductPreview />
+
+        {/* ════════════════════════════════════════════════
+            6d. CLOSER — the floor, before we ask for the meeting
+        ════════════════════════════════════════════════ */}
+        <SectionEditorialBand
+          src="/images/editorial/service-warm.jpg"
+          light="/images/editorial/service-plates.jpg"
+          alt="A host attending to guests in a warmly lit dining room"
+          eyebrow="Your floor, your call"
+          headline="The best operators don't have more hours. They have better information."
+          sub="Sundae gives you the read on your business that great instincts deserve — across every outlet, in real time."
+          ratio="aspect-[16/11] sm:aspect-[5/2] lg:aspect-[3/1]"
+        />
 
         {/* ════════════════════════════════════════════════
             7. CLOSING CTA

@@ -56,21 +56,38 @@ grain opacity) use the `[html.light_&]:` variant.
 
 ## Placement map (homepage)
 
-| location                         | image(s)                                  | overlay | why                                              |
-|----------------------------------|-------------------------------------------|---------|--------------------------------------------------|
-| Editorial band (after hero)      | `plating.jpg`                             | `text`  | first real-world breath; operator-truth headline |
-| Proof section (stats → claims)   | `atmosphere.jpg` (dark) / `dining-room.jpg` (light) | `blend` | grounds the proof in a real room, per-theme      |
+Five deliberate moments, one consistent art direction, each blended into the page:
 
-## Asset library — `public/images/editorial/`
+| location                          | image(s)                                            | treatment        | why                                                     |
+|-----------------------------------|-----------------------------------------------------|------------------|---------------------------------------------------------|
+| **Hero backdrop** (behind dash)   | `dining-candlelit.jpg`                              | darkened/blurred | grounds the product hero in the restaurant world; dashboard floats over it |
+| **Band** — after hero             | `chef-sauce.jpg`                                    | `text`           | first full-bleed human moment; "from the pass to the P&L" |
+| **Band** — mid-page (brigade)     | `kitchen-brigade.jpg`                               | `text`           | breaks the text-dense middle; the team on the line       |
+| **Proof** — stats → claims        | `dining-night.jpg` (dark) / `dining-room.jpg` (light) | `blend`        | a real room, mode-matched (lamp/linen stay legible dark) |
+| **Closer** — before final CTA     | `service-warm.jpg` (dark) / `service-plates.jpg` (light) | `text`      | emotional close on the floor before asking for the meeting |
 
-All free commercial-license (Pexels), curated by visual review:
+The hero backdrop is a raw `next/image` (not `<EditorialImage>`) because it wants
+heavier blur + a radial vignette into the page rather than a framed card.
 
-| file              | frame                                         | best for          |
-|-------------------|-----------------------------------------------|-------------------|
-| `kitchen-pass.jpg`| chef hands plating a steak on the pass         | both themes       |
-| `plating.jpg`     | chef garnishing with tweezers, pro kitchen     | both themes (band)|
-| `dining-room.jpg` | warm amber bistro interior, set table          | **light** mode    |
-| `atmosphere.jpg`  | moody upscale room, staff in white, blue tones | **dark** mode     |
+## Asset library — `public/images/editorial/` (12 frames)
+
+All free commercial-license (Pexels), curated one-by-one by visual review. The
+tattooed-chef frames are a single shoot — reuse them together for cohesion.
+
+| file                   | frame                                              | role / best for          |
+|------------------------|----------------------------------------------------|--------------------------|
+| `kitchen-pass.jpg`     | tattooed chef hands plating a steak on the pass     | hero/library (both)      |
+| `chef-sauce.jpg`       | chef finishing a plate w/ sauce, neg-space (series) | **band** (text overlay)  |
+| `plating.jpg`          | chef garnishing with tweezers (series)              | library (both)           |
+| `chef-detail.jpg`      | tight tweezers + soup detail (series)               | detail accent            |
+| `kitchen-brigade.jpg`  | three cooks on the line, big window, steam          | **mid band** (team)      |
+| `kitchen-flame.jpg`    | cook flambéing, drama/energy                        | library (energy accent)  |
+| `dining-candlelit.jpg` | refined warm dining room, candle + depth            | **hero backdrop** / warm |
+| `dining-room.jpg`      | warm amber bistro interior, set table               | **proof — light**        |
+| `dining-night.jpg`     | blue night table, glowing lamp (legible under scrim)| **proof — dark**         |
+| `atmosphere.jpg`       | moody upscale room, staff in white, blue tones      | library (dark)           |
+| `service-warm.jpg`     | host attending guests under a warm pendant          | **closer — dark**        |
+| `service-plates.jpg`   | waiter carrying plates, airy window-lit room        | **closer — light**       |
 
 ## Pending follow-ups
 
