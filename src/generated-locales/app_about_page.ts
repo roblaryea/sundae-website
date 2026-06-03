@@ -13,7 +13,7 @@ export const generatedLocalCopy = {
           "label": "Plattform-Säulen"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "Intelligenzmodule"
         },
         {
@@ -69,7 +69,7 @@ export const generatedLocalCopy = {
         "Echtzeit-Operationen",
         "Wettbewerbsintelligenz",
         "Marktintelligenz",
-        "30+ Analyse-Module",
+        "12 Analyse-Module",
         "Konversationelle KI",
         "Prädiktive Intelligenz"
       ],
@@ -136,7 +136,7 @@ export const generatedLocalCopy = {
         },
         {
           "year": "2026",
-          "title": "30+ Module live",
+          "title": "12 Module live",
           "description": "Umsatz, Personal, Inventar, Lieferung, Reservierungen, Einkauf, Marketing und Gewinnintelligenz - alles vereint über 12 operative Bereiche."
         },
         {
@@ -210,7 +210,7 @@ export const generatedLocalCopy = {
           "label": "Piliers de la plateforme"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "Modules d'intelligence"
         },
         {
@@ -333,7 +333,7 @@ export const generatedLocalCopy = {
         },
         {
           "year": "2026",
-          "title": "30+ Modules Actifs",
+          "title": "12 Modules Actifs",
           "description": "Revenus, main-d'œuvre, inventaire, livraison, réservations, achats, marketing et intelligence des profits - tous unifiés à travers 12 domaines opérationnels."
         },
         {
@@ -407,7 +407,7 @@ export const generatedLocalCopy = {
           "label": "Pilares de la Plataforma"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "Módulos de Inteligencia"
         },
         {
@@ -530,7 +530,7 @@ export const generatedLocalCopy = {
         },
         {
           "year": "2026",
-          "title": "30+ Módulos Activos",
+          "title": "12 Módulos Activos",
           "description": "Inteligencia de ingresos, mano de obra, inventario, entrega, reservas, compras, marketing y beneficios - todo unificado en 12 dominios operativos."
         },
         {
@@ -604,7 +604,7 @@ export const generatedLocalCopy = {
           "label": "أعمدة المنصة"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "وحدات الذكاء"
         },
         {
@@ -727,7 +727,7 @@ export const generatedLocalCopy = {
         },
         {
           "year": "2026",
-          "title": "30+ وحدة حية",
+          "title": "12 وحدة حية",
           "description": "الإيرادات، العمالة، المخزون، التوصيل، الحجوزات، الشراء، التسويق، وذكاء الأرباح - جميعها موحدة عبر 12 مجالاً تشغيلياً."
         },
         {
@@ -801,7 +801,7 @@ export const generatedLocalCopy = {
           "label": "Platformpijlers"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "Intelligentiemodules"
         },
         {
@@ -857,7 +857,7 @@ export const generatedLocalCopy = {
         "Realtime Operaties",
         "Concurrentie-informatie",
         "Marktinformatie",
-        "30+ Analysemodules",
+        "12 Analysemodules",
         "Conversational AI",
         "Voorspellende Intelligentie"
       ],
@@ -924,7 +924,7 @@ export const generatedLocalCopy = {
         },
         {
           "year": "2026",
-          "title": "30+ Modules Live",
+          "title": "12 Modules Live",
           "description": "Omzet, arbeid, voorraad, levering, reserveringen, inkoop, marketing en winstintelligentie - allemaal verenigd over 12 operationele domeinen."
         },
         {
@@ -948,7 +948,7 @@ export const generatedLocalCopy = {
         {
           "title": "Intelligentie Eerst",
           "description": "Verspreide data is duur. We transformeren 12 systemen in één intelligente laag die daadwerkelijk beslissingen aandrijft.",
-          "proof": "30+ modules over 12 operationele domeinen - van omzet tot reserveringen.",
+          "proof": "12 modules over 12 operationele domeinen - van omzet tot reserveringen.",
           "icon": "insights"
         },
         {
@@ -998,7 +998,7 @@ export const generatedLocalCopy = {
           "label": "Pilares da Plataforma"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "Módulos de Inteligência"
         },
         {
@@ -1054,7 +1054,7 @@ export const generatedLocalCopy = {
         "Operações em Tempo Real",
         "Inteligência Competitiva",
         "Inteligência de Mercado",
-        "30+ Módulos de Análise",
+        "12 Módulos de Análise",
         "IA Conversacional",
         "Inteligência Preditiva"
       ],
@@ -1121,7 +1121,7 @@ export const generatedLocalCopy = {
         },
         {
           "year": "2026",
-          "title": "30+ Módulos Ativos",
+          "title": "12 Módulos Ativos",
           "description": "Receita, mão de obra, inventário, entrega, reservas, compras, marketing e inteligência de lucro - tudo unificado em 12 domínios operacionais."
         },
         {
@@ -1195,7 +1195,7 @@ export const generatedLocalCopy = {
           "label": "پلیٹ فارم کے ستون"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "انٹیلی جنس ماڈیولز"
         },
         {
@@ -1251,7 +1251,7 @@ export const generatedLocalCopy = {
         "حقیقی وقت کی کارروائیاں",
         "مقابلہ جاتی ذہانت",
         "بازار کی ذہانت",
-        "30+ تجزیاتی ماڈیولز",
+        "12 تجزیاتی ماڈیولز",
         "بات چیت کرنے والی AI",
         "پیش گوئی کرنے والی ذہانت"
       ],
@@ -1318,7 +1318,7 @@ export const generatedLocalCopy = {
         },
         {
           "year": "2026",
-          "title": "30+ ماڈیولز فعال",
+          "title": "12 ماڈیولز فعال",
           "description": "آمدنی، مزدوری، انوینٹری، ترسیل، ریزرویشن، خریداری، مارکیٹنگ، اور منافع کی ذہانت - 12 عملیاتی ڈومینز میں سب متحد۔"
         },
         {
@@ -1342,7 +1342,7 @@ export const generatedLocalCopy = {
         {
           "title": "ذہانت پہلے",
           "description": "پھیلا ہوا ڈیٹا مہنگا ہے۔ ہم 12 سسٹمز کو ایک ذہین پرت میں تبدیل کرتے ہیں جو واقعی فیصلے کرتی ہے۔",
-          "proof": "12 عملیاتی ڈومینز میں 30+ ماڈیولز - آمدنی سے لے کر ریزرویشن تک۔",
+          "proof": "12 عملیاتی ڈومینز میں 12 ماڈیولز - آمدنی سے لے کر ریزرویشن تک۔",
           "icon": "insights"
         },
         {
@@ -1392,7 +1392,7 @@ export const generatedLocalCopy = {
           "label": "प्लेटफ़ॉर्म के स्तंभ"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "इंटेलिजेंस मॉड्यूल"
         },
         {
@@ -1448,7 +1448,7 @@ export const generatedLocalCopy = {
         "वास्तविक समय संचालन",
         "प्रतिस्पर्धात्मक बुद्धिमत्ता",
         "बाजार बुद्धिमत्ता",
-        "30+ विश्लेषणात्मक मॉड्यूल",
+        "12 विश्लेषणात्मक मॉड्यूल",
         "संवादी एआई",
         "पूर्वानुमानित बुद्धिमत्ता"
       ],
@@ -1515,7 +1515,7 @@ export const generatedLocalCopy = {
         },
         {
           "year": "2026",
-          "title": "30+ मॉड्यूल लाइव",
+          "title": "12 मॉड्यूल लाइव",
           "description": "राजस्व, श्रम, इन्वेंटरी, डिलीवरी, आरक्षण, खरीदारी, मार्केटिंग, और लाभ बुद्धिमत्ता - सभी 12 परिचालन क्षेत्रों में एकीकृत।"
         },
         {
@@ -1539,7 +1539,7 @@ export const generatedLocalCopy = {
         {
           "title": "बुद्धिमत्ता पहले",
           "description": "बिखरे हुए डेटा की कीमत होती है। हम 12 सिस्टम्स को एक बुद्धिमान परत में बदलते हैं जो वास्तव में निर्णय लेने में मदद करती है।",
-          "proof": "राजस्व से लेकर आरक्षण तक - 12 परिचालन क्षेत्रों में 30+ मॉड्यूल।",
+          "proof": "राजस्व से लेकर आरक्षण तक - 12 परिचालन क्षेत्रों में 12 मॉड्यूल।",
           "icon": "insights"
         },
         {
@@ -1589,7 +1589,7 @@ export const generatedLocalCopy = {
           "label": "Pilastri della Piattaforma"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "Moduli di Intelligenza"
         },
         {
@@ -1645,7 +1645,7 @@ export const generatedLocalCopy = {
         "Operazioni in Tempo Reale",
         "Intelligenza Competitiva",
         "Intelligenza di Mercato",
-        "30+ Moduli di Analisi",
+        "12 Moduli di Analisi",
         "AI Conversazionale",
         "Intelligenza Predittiva"
       ],
@@ -1712,7 +1712,7 @@ export const generatedLocalCopy = {
         },
         {
           "year": "2026",
-          "title": "30+ Moduli Attivi",
+          "title": "12 Moduli Attivi",
           "description": "Intelligence su ricavi, manodopera, inventario, consegne, prenotazioni, acquisti, marketing e profitti - tutto unificato in 12 domini operativi."
         },
         {
@@ -1786,7 +1786,7 @@ export const generatedLocalCopy = {
           "label": "Filary platformy"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "Moduły inteligencji"
         },
         {
@@ -1909,7 +1909,7 @@ export const generatedLocalCopy = {
         },
         {
           "year": "2026",
-          "title": "30+ modułów na żywo",
+          "title": "12 modułów na żywo",
           "description": "Przychody, praca, zapasy, dostawy, rezerwacje, zakupy, marketing i inteligencja zysków - wszystko zintegrowane w 12 obszarach operacyjnych."
         },
         {
@@ -1983,7 +1983,7 @@ export const generatedLocalCopy = {
           "label": "Platform Temelleri"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "Zeka Modülleri"
         },
         {
@@ -2039,7 +2039,7 @@ export const generatedLocalCopy = {
         "Gerçek Zamanlı Operasyonlar",
         "Rekabetçi Zeka",
         "Pazar Zekası",
-        "30+ Analitik Modül",
+        "12 Analitik Modül",
         "Konuşma AI",
         "Öngörücü Zeka"
       ],
@@ -2106,7 +2106,7 @@ export const generatedLocalCopy = {
         },
         {
           "year": "2026",
-          "title": "30+ Modül Canlı",
+          "title": "12 Modül Canlı",
           "description": "Gelir, iş gücü, envanter, teslimat, rezervasyonlar, satın alma, pazarlama ve kâr zekası - 12 operasyonel alan boyunca birleştirildi."
         },
         {
@@ -2130,7 +2130,7 @@ export const generatedLocalCopy = {
         {
           "title": "Zeka Öncelikli",
           "description": "Dağınık veriler pahalıdır. 12 sistemi, gerçekten kararları yönlendiren tek bir zeki katmana dönüştürüyoruz.",
-          "proof": "Gelirden rezervasyonlara kadar 12 operasyonel alanda 30+ modül.",
+          "proof": "Gelirden rezervasyonlara kadar 12 operasyonel alanda 12 modül.",
           "icon": "insights"
         },
         {
@@ -2180,7 +2180,7 @@ export const generatedLocalCopy = {
           "label": "平台支柱"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "智能模块"
         },
         {
@@ -2236,7 +2236,7 @@ export const generatedLocalCopy = {
         "实时运营",
         "竞争情报",
         "市场情报",
-        "30+ 分析模块",
+        "12 分析模块",
         "对话式人工智能",
         "预测智能"
       ],
@@ -2303,7 +2303,7 @@ export const generatedLocalCopy = {
         },
         {
           "year": "2026",
-          "title": "30+模块上线",
+          "title": "12模块上线",
           "description": "收入、劳动力、库存、配送、预订、采购、营销和利润智能 - 在12个运营领域中统一。"
         },
         {
@@ -2574,7 +2574,7 @@ export const generatedLocalCopy = {
           "label": "Pilar Platform"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "Modul Intelijen"
         },
         {
@@ -2630,7 +2630,7 @@ export const generatedLocalCopy = {
         "Operasi Waktu Nyata",
         "Intelijen Kompetitif",
         "Intelijen Pasar",
-        "30+ Modul Analitik",
+        "12 Modul Analitik",
         "AI Percakapan",
         "Intelijen Prediktif"
       ],
@@ -2697,7 +2697,7 @@ export const generatedLocalCopy = {
         },
         {
           "year": "2026",
-          "title": "30+ Modul Aktif",
+          "title": "12 Modul Aktif",
           "description": "Pendapatan, tenaga kerja, inventaris, pengiriman, reservasi, pembelian, pemasaran, dan intelijen keuntungan - semuanya terintegrasi di 12 domain operasional."
         },
         {
@@ -2721,7 +2721,7 @@ export const generatedLocalCopy = {
         {
           "title": "Intelligence Pertama",
           "description": "Data yang tersebar itu mahal. Kami mengubah 12 sistem menjadi satu lapisan cerdas yang benar-benar mendorong keputusan.",
-          "proof": "30+ modul di 12 domain operasional - dari pendapatan hingga reservasi.",
+          "proof": "12 modul di 12 domain operasional - dari pendapatan hingga reservasi.",
           "icon": "insights"
         },
         {
@@ -2771,7 +2771,7 @@ export const generatedLocalCopy = {
           "label": "Trụ cột Nền tảng"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "Mô-đun Trí tuệ"
         },
         {
@@ -2827,7 +2827,7 @@ export const generatedLocalCopy = {
         "Hoạt động Thời gian Thực",
         "Thông tin Cạnh tranh",
         "Thông tin Thị trường",
-        "30+ Mô-đun Phân tích",
+        "12 Mô-đun Phân tích",
         "AI Đàm thoại",
         "Trí tuệ Dự đoán"
       ],
@@ -2968,7 +2968,7 @@ export const generatedLocalCopy = {
           "label": "플랫폼 기둥"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "인텔리전스 모듈"
         },
         {
@@ -3165,7 +3165,7 @@ export const generatedLocalCopy = {
           "label": "Pilonii platformei"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "Module de inteligență"
         },
         {
@@ -3221,7 +3221,7 @@ export const generatedLocalCopy = {
         "Operațiuni în Timp Real",
         "Inteligență Competitivă",
         "Inteligență de Piață",
-        "30+ Module de Analiză",
+        "12 Module de Analiză",
         "AI Conversațional",
         "Inteligență Predictivă"
       ],
@@ -3288,7 +3288,7 @@ export const generatedLocalCopy = {
         },
         {
           "year": "2026",
-          "title": "30+ Module Active",
+          "title": "12 Module Active",
           "description": "Venituri, forță de muncă, inventar, livrare, rezervări, achiziții, marketing și inteligență a profitului - toate unificate în 12 domenii operaționale."
         },
         {
@@ -3362,7 +3362,7 @@ export const generatedLocalCopy = {
           "label": "Plattformssäkerheter"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "Intelligensmoduler"
         },
         {
@@ -3418,7 +3418,7 @@ export const generatedLocalCopy = {
         "Verksamhet i realtid",
         "Konkurrensintelligens",
         "Marknadsintelligens",
-        "30+ analysmoduler",
+        "12 analysmoduler",
         "Konverserande AI",
         "Prediktiv intelligens"
       ],
@@ -3485,7 +3485,7 @@ export const generatedLocalCopy = {
         },
         {
           "year": "2026",
-          "title": "30+ Moduler Aktiva",
+          "title": "12 Moduler Aktiva",
           "description": "Intäkter, arbetskraft, lager, leverans, reservationer, inköp, marknadsföring och vinstintelligens - allt enat över 12 operativa domäner."
         },
         {
@@ -3559,7 +3559,7 @@ export const generatedLocalCopy = {
           "label": "প্ল্যাটফর্মের স্তম্ভ"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "বুদ্ধিমত্তা মডিউল"
         },
         {
@@ -3682,7 +3682,7 @@ export const generatedLocalCopy = {
         },
         {
           "year": "2026",
-          "title": "30+ মডিউল লাইভ",
+          "title": "12 মডিউল লাইভ",
           "description": "রাজস্ব, শ্রম, ইনভেন্টরি, ডেলিভারি, রিজার্ভেশন, ক্রয়, বিপণন এবং লাভের বুদ্ধিমত্তা - 12টি অপারেশনাল ডোমেইনের মধ্যে সবকিছু একত্রিত।"
         },
         {
@@ -3756,7 +3756,7 @@ export const generatedLocalCopy = {
           "label": "เสาหลักของแพลตฟอร์ม"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "โมดูลอัจฉริยะ"
         },
         {
@@ -3812,7 +3812,7 @@ export const generatedLocalCopy = {
         "การดำเนินงานแบบเรียลไทม์",
         "ข้อมูลเชิงแข่งขัน",
         "ข้อมูลเชิงตลาด",
-        "โมดูลการวิเคราะห์ 30+",
+        "โมดูลการวิเคราะห์ 12",
         "AI เชิงสนทนา",
         "ข้อมูลเชิงพยากรณ์"
       ],
@@ -3879,7 +3879,7 @@ export const generatedLocalCopy = {
         },
         {
           "year": "2026",
-          "title": "โมดูล 30+ ตัวใช้งานได้",
+          "title": "โมดูล 12 ตัวใช้งานได้",
           "description": "ข้อมูลรายได้ แรงงาน สินค้าคงคลัง การจัดส่ง การจอง การซื้อ การตลาด และข้อมูลกำไร - รวมกันใน 12 ด้านการดำเนินงาน."
         },
         {
@@ -3953,7 +3953,7 @@ export const generatedLocalCopy = {
           "label": "Tiang Platform"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "Modul Kecerdasan"
         },
         {
@@ -4009,7 +4009,7 @@ export const generatedLocalCopy = {
         "Operasi Masa Nyata",
         "Inteligensia Kompetitif",
         "Inteligensia Pasaran",
-        "30+ Modul Analitik",
+        "12 Modul Analitik",
         "AI Perbualan",
         "Inteligensia Ramalan"
       ],
@@ -4076,7 +4076,7 @@ export const generatedLocalCopy = {
         },
         {
           "year": "2026",
-          "title": "30+ Modul Aktif",
+          "title": "12 Modul Aktif",
           "description": "Pendapatan, buruh, inventori, penghantaran, tempahan, pembelian, pemasaran, dan kecerdasan keuntungan - semua disatukan merentasi 12 domain operasi."
         },
         {
@@ -4100,7 +4100,7 @@ export const generatedLocalCopy = {
         {
           "title": "Kecerdasan Pertama",
           "description": "Data yang tersebar adalah mahal. Kami mengubah 12 sistem menjadi satu lapisan pintar yang benar-benar memandu keputusan.",
-          "proof": "30+ modul merentasi 12 domain operasi - dari pendapatan hingga tempahan.",
+          "proof": "12 modul merentasi 12 domain operasi - dari pendapatan hingga tempahan.",
           "icon": "insights"
         },
         {

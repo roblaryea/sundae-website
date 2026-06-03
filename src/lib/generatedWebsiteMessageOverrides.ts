@@ -208,8 +208,8 @@ export const generatedWebsiteMessageOverrides = {
           "label": "Intelligenzschichten"
         },
         {
-          "number": "30+",
-          "label": "Analyse-Module"
+          "number": "18",
+          "label": "Entscheidungen, keine Dashboards"
         },
         {
           "number": "12",
@@ -279,7 +279,7 @@ export const generatedWebsiteMessageOverrides = {
           },
           {
             "name": "Insights",
-            "subtitle": "30+ Analyse-Module",
+            "subtitle": "12 Analyse-Module",
             "description": "Umsatz, Personal, Inventar, Marketing, Lieferung — jedes mit KI-Empfehlungen.",
             "href": "/insights"
           },
@@ -950,8 +950,8 @@ export const generatedWebsiteMessageOverrides = {
           "label": "Intelligentielaag"
         },
         {
-          "number": "30+",
-          "label": "Analysemodules"
+          "number": "18",
+          "label": "Beslissingen, geen dashboards"
         },
         {
           "number": "12",
@@ -1021,7 +1021,7 @@ export const generatedWebsiteMessageOverrides = {
           },
           {
             "name": "Insights",
-            "subtitle": "30+ analysemodule",
+            "subtitle": "12 analysemodule",
             "description": "Omzet, arbeid, voorraad, marketing, levering — elk met AI-aanbevelingen.",
             "href": "/insights"
           },
@@ -1041,7 +1041,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "INTELLIGENTIE MODULES",
-        "heading": "30+ modules in 12 domeinen",
+        "heading": "12 modules in 12 domeinen",
         "description": "Elke dimensie van restaurantprestaties — geanalyseerd, vergeleken en actiegericht.",
         "categories": [
           {
@@ -1421,7 +1421,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "Integraties — Sundae",
           "badge": "Integraties",
           "title": "Verbind Alles. Vereenvoudig Jouw Gegevens.",
-          "description": "Sundae integreert met 30+ restaurantsystemen op het gebied van POS, arbeid, inventaris, reserveringen, levering en meer.",
+          "description": "Sundae integreert met 250+ restaurantsystemen op het gebied van POS, arbeid, inventaris, reserveringen, levering en meer.",
           "process": [
             {
               "step": "1",
@@ -1692,8 +1692,8 @@ export const generatedWebsiteMessageOverrides = {
           "label": "Camadas de inteligência"
         },
         {
-          "number": "30+",
-          "label": "Módulos de análise"
+          "number": "18",
+          "label": "Decisões, não painéis"
         },
         {
           "number": "12",
@@ -1763,7 +1763,7 @@ export const generatedWebsiteMessageOverrides = {
           },
           {
             "name": "Insights",
-            "subtitle": "30+ módulos de análise",
+            "subtitle": "12 módulos de análise",
             "description": "Receita, mão de obra, inventário, marketing, entrega — cada um com recomendações de IA.",
             "href": "/insights"
           },
@@ -1783,7 +1783,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "MÓDULOS DE INTELIGÊNCIA",
-        "heading": "30+ módulos em 12 domínios",
+        "heading": "12 módulos em 12 domínios",
         "description": "Cada dimensão do desempenho do restaurante — analisada, comparada e acionável.",
         "categories": [
           {
@@ -2434,8 +2434,8 @@ export const generatedWebsiteMessageOverrides = {
           "label": "इंटेलिजेंस परतें"
         },
         {
-          "number": "30+",
-          "label": "विश्लेषणात्मक मॉड्यूल"
+          "number": "18",
+          "label": "निर्णय, डैशबोर्ड नहीं"
         },
         {
           "number": "12",
@@ -2505,7 +2505,7 @@ export const generatedWebsiteMessageOverrides = {
           },
           {
             "name": "Insights",
-            "subtitle": "30+ विश्लेषणात्मक मॉड्यूल्स",
+            "subtitle": "12 विश्लेषणात्मक मॉड्यूल्स",
             "description": "राजस्व, श्रम, इन्वेंटरी, मार्केटिंग, डिलीवरी — प्रत्येक में AI सिफारिशें।",
             "href": "/insights"
           },
@@ -2525,7 +2525,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "इंटेलिजेंस मॉड्यूल्स",
-        "heading": "12 क्षेत्रों में 30+ मॉड्यूल्स",
+        "heading": "12 क्षेत्रों में 12 मॉड्यूल्स",
         "description": "रेस्टोरेंट प्रदर्शन का हर आयाम — विश्लेषित, बेंचमार्क किया गया, और क्रियाशील।",
         "categories": [
           {
@@ -2905,7 +2905,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "एकीकरण — Sundae",
           "badge": "एकीकरण",
           "title": "सब कुछ कनेक्ट करें। अपने डेटा को एकीकृत करें।",
-          "description": "Sundae 30+ रेस्टोरेंट सिस्टम के साथ POS, श्रम, इन्वेंटरी, आरक्षण, डिलीवरी, और अधिक में एकीकृत होता है।",
+          "description": "Sundae 250+ रेस्टोरेंट सिस्टम के साथ POS, श्रम, इन्वेंटरी, आरक्षण, डिलीवरी, और अधिक में एकीकृत होता है।",
           "process": [
             {
               "step": "1",
@@ -3176,8 +3176,8 @@ export const generatedWebsiteMessageOverrides = {
           "label": "انٹیلی جنس کی تہیں"
         },
         {
-          "number": "30+",
-          "label": "تجزیاتی ماڈیول"
+          "number": "18",
+          "label": "فیصلے، ڈیش بورڈ نہیں"
         },
         {
           "number": "12",
@@ -3247,7 +3247,7 @@ export const generatedWebsiteMessageOverrides = {
           },
           {
             "name": "Insights",
-            "subtitle": "30+ تجزیاتی ماڈیولز",
+            "subtitle": "12 تجزیاتی ماڈیولز",
             "description": "آمدنی، محنت، انوینٹری، مارکیٹنگ، ترسیل — ہر ایک کے ساتھ AI کی سفارشات۔",
             "href": "/insights"
           },
@@ -3267,7 +3267,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "انٹیلیجنس ماڈیولز",
-        "heading": "12 شعبوں میں 30+ ماڈیولز",
+        "heading": "12 شعبوں میں 12 ماڈیولز",
         "description": "ریستوران کی کارکردگی کا ہر پہلو — تجزیہ، معیار، اور عمل درآمد کے قابل۔",
         "categories": [
           {
@@ -3647,7 +3647,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "انضمام — Sundae",
           "badge": "انضمام",
           "title": "سب کچھ جڑیں۔ اپنے ڈیٹا کو متحد کریں۔",
-          "description": "Sundae 30+ ریستوران کے نظاموں کے ساتھ POS، مزدوری، انوینٹری، ریزرویشن، ترسیل، اور مزید کے ذریعے انضمام کرتا ہے۔",
+          "description": "Sundae 250+ ریستوران کے نظاموں کے ساتھ POS، مزدوری، انوینٹری، ریزرویشن، ترسیل، اور مزید کے ذریعے انضمام کرتا ہے۔",
           "process": [
             {
               "step": "1",
@@ -3918,8 +3918,8 @@ export const generatedWebsiteMessageOverrides = {
           "label": "Livelli di intelligenza"
         },
         {
-          "number": "30+",
-          "label": "Moduli di analisi"
+          "number": "18",
+          "label": "Decisioni, non dashboard"
         },
         {
           "number": "12",
@@ -4009,7 +4009,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "MODULI DI INTELLIGENZA",
-        "heading": "30+ moduli in 12 aree",
+        "heading": "12 moduli in 12 aree",
         "description": "Ogni dimensione delle performance del ristorante — analizzata, confrontata e attuabile.",
         "categories": [
           {
@@ -4660,8 +4660,8 @@ export const generatedWebsiteMessageOverrides = {
           "label": "Warstwy inteligencji"
         },
         {
-          "number": "30+",
-          "label": "Moduły analityczne"
+          "number": "18",
+          "label": "Decyzje, nie pulpity"
         },
         {
           "number": "12",
@@ -5402,8 +5402,8 @@ export const generatedWebsiteMessageOverrides = {
           "label": "Zeka katmanları"
         },
         {
-          "number": "30+",
-          "label": "Analitik modüller"
+          "number": "18",
+          "label": "Gösterge panoları değil, kararlar"
         },
         {
           "number": "12",
@@ -5493,7 +5493,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "İSTİHDAM MODÜLLERİ",
-        "heading": "12 alanda 30+ modül",
+        "heading": "12 alanda 12 modül",
         "description": "Restoran performansının her boyutu — analiz edildi, karşılaştırıldı ve uygulanabilir hale getirildi.",
         "categories": [
           {
@@ -6144,8 +6144,8 @@ export const generatedWebsiteMessageOverrides = {
           "label": "智能层"
         },
         {
-          "number": "30+",
-          "label": "分析模块"
+          "number": "18",
+          "label": "决策，而非仪表板"
         },
         {
           "number": "12",
@@ -6215,7 +6215,7 @@ export const generatedWebsiteMessageOverrides = {
           },
           {
             "name": "Insights",
-            "subtitle": "30+ 分析模块",
+            "subtitle": "12 分析模块",
             "description": "收入、劳动力、库存、营销、配送 — 每个模块都有 AI 推荐。",
             "href": "/insights"
           },
@@ -6235,7 +6235,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "智能模块",
-        "heading": "12个领域的30+模块",
+        "heading": "12个领域的12模块",
         "description": "餐厅绩效的每个维度——分析、基准和可操作。",
         "categories": [
           {
@@ -6886,8 +6886,8 @@ export const generatedWebsiteMessageOverrides = {
           "label": "インテリジェンスレイヤー"
         },
         {
-          "number": "30+",
-          "label": "分析モジュール"
+          "number": "18",
+          "label": "ダッシュボードではなく意思決定"
         },
         {
           "number": "12",
@@ -7628,8 +7628,8 @@ export const generatedWebsiteMessageOverrides = {
           "label": "인텔리전스 레이어"
         },
         {
-          "number": "30+",
-          "label": "분석 모듈"
+          "number": "18",
+          "label": "대시보드가 아닌 의사 결정"
         },
         {
           "number": "12",
@@ -8370,8 +8370,8 @@ export const generatedWebsiteMessageOverrides = {
           "label": "Lapisan intelijen"
         },
         {
-          "number": "30+",
-          "label": "Modul analitik"
+          "number": "18",
+          "label": "Keputusan, bukan dasbor"
         },
         {
           "number": "12",
@@ -8441,7 +8441,7 @@ export const generatedWebsiteMessageOverrides = {
           },
           {
             "name": "Insights",
-            "subtitle": "30+ modul analitik",
+            "subtitle": "12 modul analitik",
             "description": "Pendapatan, tenaga kerja, inventaris, pemasaran, pengiriman — masing-masing dengan rekomendasi AI.",
             "href": "/insights"
           },
@@ -8461,7 +8461,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "MODUL INTELIGENSI",
-        "heading": "30+ modul di 12 domain",
+        "heading": "12 modul di 12 domain",
         "description": "Setiap dimensi kinerja restoran — dianalisis, dibandingkan, dan dapat ditindaklanjuti.",
         "categories": [
           {
@@ -8841,7 +8841,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "Integrasi — Sundae",
           "badge": "Integrasi",
           "title": "Sambungkan Segalanya. Satukan Data Anda.",
-          "description": "Sundae terintegrasi dengan 30+ sistem restoran di seluruh POS, tenaga kerja, inventaris, reservasi, pengiriman, dan lainnya.",
+          "description": "Sundae terintegrasi dengan 250+ sistem restoran di seluruh POS, tenaga kerja, inventaris, reservasi, pengiriman, dan lainnya.",
           "process": [
             {
               "step": "1",
@@ -9112,8 +9112,8 @@ export const generatedWebsiteMessageOverrides = {
           "label": "Lớp trí tuệ"
         },
         {
-          "number": "30+",
-          "label": "Mô-đun phân tích"
+          "number": "18",
+          "label": "Quyết định, không phải bảng điều khiển"
         },
         {
           "number": "12",
@@ -9183,7 +9183,7 @@ export const generatedWebsiteMessageOverrides = {
           },
           {
             "name": "Insights",
-            "subtitle": "30+ mô-đun phân tích",
+            "subtitle": "12 mô-đun phân tích",
             "description": "Doanh thu, lao động, tồn kho, tiếp thị, giao hàng — mỗi mô-đun đều có khuyến nghị AI.",
             "href": "/insights"
           },
@@ -9854,8 +9854,8 @@ export const generatedWebsiteMessageOverrides = {
           "label": "Straturi de inteligență"
         },
         {
-          "number": "30+",
-          "label": "Module de analiză"
+          "number": "18",
+          "label": "Decizii, nu tablouri de bord"
         },
         {
           "number": "12",
@@ -9925,7 +9925,7 @@ export const generatedWebsiteMessageOverrides = {
           },
           {
             "name": "Insights",
-            "subtitle": "30+ module de analiză",
+            "subtitle": "12 module de analiză",
             "description": "Venituri, muncă, inventar, marketing, livrare — fiecare cu recomandări AI.",
             "href": "/insights"
           },
@@ -9945,7 +9945,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "MODULE DE INTELIGENȚĂ",
-        "heading": "30+ module în 12 domenii",
+        "heading": "12 module în 12 domenii",
         "description": "Fiecare dimensiune a performanței restaurantului — analizată, comparată și acționabilă.",
         "categories": [
           {
@@ -10596,8 +10596,8 @@ export const generatedWebsiteMessageOverrides = {
           "label": "Intelligenslager"
         },
         {
-          "number": "30+",
-          "label": "Analysmoduler"
+          "number": "18",
+          "label": "Beslut, inte instrumentpaneler"
         },
         {
           "number": "12",
@@ -10667,7 +10667,7 @@ export const generatedWebsiteMessageOverrides = {
           },
           {
             "name": "Insights",
-            "subtitle": "30+ analysmoduler",
+            "subtitle": "12 analysmoduler",
             "description": "Intäkter, arbetskraft, lager, marknadsföring, leverans — var och en med AI-rekommendationer.",
             "href": "/insights"
           },
@@ -10687,7 +10687,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "INTELLIGENS MODULER",
-        "heading": "30+ moduler över 12 områden",
+        "heading": "12 moduler över 12 områden",
         "description": "Varje dimension av restaurangprestanda — analyserad, benchmarkad och handlingsbar.",
         "categories": [
           {
@@ -11067,7 +11067,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "Integrationer — Sundae",
           "badge": "Integrationer",
           "title": "Anslut Allt. Enhetlig Din Data.",
-          "description": "Sundae integreras med 30+ restaurangsystem över POS, arbetskraft, lager, reservationer, leverans och mer.",
+          "description": "Sundae integreras med 250+ restaurangsystem över POS, arbetskraft, lager, reservationer, leverans och mer.",
           "process": [
             {
               "step": "1",
@@ -11338,8 +11338,8 @@ export const generatedWebsiteMessageOverrides = {
           "label": "বুদ্ধিমত্তার স্তর"
         },
         {
-          "number": "30+",
-          "label": "বিশ্লেষণ মডিউল"
+          "number": "18",
+          "label": "সিদ্ধান্ত, ড্যাশবোর্ড নয়"
         },
         {
           "number": "12",
@@ -11809,7 +11809,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "ইন্টিগ্রেশন — Sundae",
           "badge": "ইন্টিগ্রেশন",
           "title": "সবকিছু সংযুক্ত করুন। আপনার ডেটা একীভূত করুন।",
-          "description": "Sundae 30+ রেস্তোরাঁর সিস্টেমের সাথে POS, শ্রম, ইনভেন্টরি, রিজার্ভেশন, ডেলিভারি এবং আরও অনেক কিছুর সাথে ইন্টিগ্রেট করে।",
+          "description": "Sundae 250+ রেস্তোরাঁর সিস্টেমের সাথে POS, শ্রম, ইনভেন্টরি, রিজার্ভেশন, ডেলিভারি এবং আরও অনেক কিছুর সাথে ইন্টিগ্রেট করে।",
           "process": [
             {
               "step": "1",
@@ -12080,8 +12080,8 @@ export const generatedWebsiteMessageOverrides = {
           "label": "ชั้นข้อมูลเชิงลึก"
         },
         {
-          "number": "30+",
-          "label": "โมดูลการวิเคราะห์"
+          "number": "18",
+          "label": "การตัดสินใจ ไม่ใช่แดชบอร์ด"
         },
         {
           "number": "12",
@@ -12171,7 +12171,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "โมดูลข้อมูลเชิงลึก",
-        "heading": "30+ โมดูลใน 12 ด้าน",
+        "heading": "12 โมดูลใน 12 ด้าน",
         "description": "ทุกมิติของประสิทธิภาพร้านอาหาร — วิเคราะห์, เปรียบเทียบ, และนำไปใช้ได้จริง.",
         "categories": [
           {
@@ -12822,8 +12822,8 @@ export const generatedWebsiteMessageOverrides = {
           "label": "Lapisan kecerdasan"
         },
         {
-          "number": "30+",
-          "label": "Modul analitik"
+          "number": "18",
+          "label": "Keputusan, bukan papan pemuka"
         },
         {
           "number": "12",
@@ -12893,7 +12893,7 @@ export const generatedWebsiteMessageOverrides = {
           },
           {
             "name": "Insights",
-            "subtitle": "30+ modul analitik",
+            "subtitle": "12 modul analitik",
             "description": "Pendapatan, buruh, inventori, pemasaran, penghantaran — setiap satu dengan cadangan AI.",
             "href": "/insights"
           },
@@ -12913,7 +12913,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "MODUL INTELLIGENSI",
-        "heading": "30+ modul merentasi 12 domain",
+        "heading": "12 modul merentasi 12 domain",
         "description": "Setiap dimensi prestasi restoran — dianalisis, dibandingkan, dan boleh dilaksanakan.",
         "categories": [
           {
@@ -13293,7 +13293,7 @@ export const generatedWebsiteMessageOverrides = {
           "metadataTitle": "Integrasi — Sundae",
           "badge": "Integrasi",
           "title": "Sambungkan Segalanya. Satukan Data Anda.",
-          "description": "Sundae berintegrasi dengan 30+ sistem restoran merentasi POS, buruh, inventori, tempahan, penghantaran, dan banyak lagi.",
+          "description": "Sundae berintegrasi dengan 250+ sistem restoran merentasi POS, buruh, inventori, tempahan, penghantaran, dan banyak lagi.",
           "process": [
             {
               "step": "1",

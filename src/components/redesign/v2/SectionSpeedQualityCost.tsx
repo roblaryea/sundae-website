@@ -47,8 +47,8 @@ const vertices: Vertex[] = [
     id: "quality",
     label: "Quality",
     headline: "Built for restaurants. Governed for decisions.",
-    body: "Sundae ships with 179+ governed restaurant data models, peer-anchored benchmarks, and source-cited AI answers — so teams are not building from a blank BI canvas.",
-    chips: ["179+ models", "Source-cited AI", "Peer benchmarks"],
+    body: "Sundae ships with 500+ governed restaurant data models, peer-anchored benchmarks, and source-cited AI answers — so teams are not building from a blank BI canvas.",
+    chips: ["500+ models", "Source-cited AI", "Peer benchmarks"],
   },
   {
     id: "cost",

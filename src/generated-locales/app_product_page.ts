@@ -4,7 +4,7 @@ export const generatedLocalCopy = {
   "copyMap": {
     "de": {
       "heroBadge": "Die Sundae-Plattform",
-      "heroTitle": "179 Datenmodelle. 12 Domänen. Eine Wahrheit.",
+      "heroTitle": "500 Datenmodelle. 12 Domänen. Eine Wahrheit.",
       "heroDescription": "Sechs Intelligenzebenen, die fragmentierte Restaurantdaten in Entscheidungen umwandeln, die sich ergänzen – Schicht für Schicht, Filiale für Filiale.",
       "heroPrimary": "Start with Report Lite",
       "heroSecondary": "Buchen Sie eine Demo",
@@ -17,7 +17,7 @@ export const generatedLocalCopy = {
       "coreLabel": "AM BELIEBTESTEN",
       "coreTitle": "Sundae Core",
       "coreSubtitle": "Echtzeitoperationen und -intelligenz",
-      "coreDescription": "Alles im Report, plus Live-Operationen. Intraday-Taktung, Marktsignale, 14 Intelligenzmodule, prädiktive Prognosen und Sundae Coach-Empfehlungen.",
+      "coreDescription": "Alles im Report, plus Live-Operationen. Intraday-Taktung, Marktsignale, 12 Intelligenzmodule, prädiktive Prognosen und Sundae Coach-Empfehlungen.",
       "coreIncludes": "Alles im Bericht, plus:",
       "coreCta": "Entdecken Sie Sundae Core →",
       "compareCta": "Vergleichen Sie Bericht mit Kern →",
@@ -29,7 +29,7 @@ export const generatedLocalCopy = {
     },
     "es": {
       "heroBadge": "La plataforma Sundae",
-      "heroTitle": "179 modelos de datos. 12 dominios. Una verdad.",
+      "heroTitle": "500 modelos de datos. 12 dominios. Una verdad.",
       "heroDescription": "Seis capas de inteligencia que convierten datos fragmentados de restaurantes en decisiones que se combinan: turno tras turno, establecimiento tras establecimiento.",
       "heroPrimary": "Start with Report Lite",
       "heroSecondary": "Reserve una demostración",
@@ -42,7 +42,7 @@ export const generatedLocalCopy = {
       "coreLabel": "MÁS POPULAR",
       "coreTitle": "Sundae Core",
       "coreSubtitle": "Operaciones e inteligencia en tiempo real",
-      "coreDescription": "Todo en Report, más operaciones en vivo. Ritmo intradiario, señales de mercado, 14 módulos de inteligencia, pronóstico predictivo y recomendaciones de Sundae Coach.",
+      "coreDescription": "Todo en Report, más operaciones en vivo. Ritmo intradiario, señales de mercado, 12 módulos de inteligencia, pronóstico predictivo y recomendaciones de Sundae Coach.",
       "coreIncludes": "Todo en Report, más:",
       "coreCta": "Explore Sundae Core →",
       "compareCta": "Comparar informe vs núcleo →",
@@ -54,7 +54,7 @@ export const generatedLocalCopy = {
     },
     "fr": {
       "heroBadge": "The Sundae Platform",
-      "heroTitle": "179 Modèles de données. 12 domaines. Une vérité.",
+      "heroTitle": "500 Modèles de données. 12 domaines. Une vérité.",
       "heroDescription": "Six couches d'intelligence qui transforment les données fragmentées des restaurants en décisions complexes - équipe par équipe, point de vente par point de vente.",
       "heroPrimary": "Start with Report Lite",
       "heroSecondary": "Réservez une démo",
@@ -67,7 +67,7 @@ export const generatedLocalCopy = {
       "coreLabel": "LE PLUS POPULAIRE",
       "coreTitle": "Sundae Core",
       "coreSubtitle": "Opérations et renseignement en temps réel",
-      "coreDescription": "Tout dans Report, plus les opérations en direct. Rythme intrajournalier, signaux du marché, 14 modules de renseignement, prévisions prédictives et recommandations Sundae Coach.",
+      "coreDescription": "Tout dans Report, plus les opérations en direct. Rythme intrajournalier, signaux du marché, 12 modules de renseignement, prévisions prédictives et recommandations Sundae Coach.",
       "coreIncludes": "Tout dans le rapport, plus :",
       "coreCta": "Explorer Sundae Core →",
       "compareCta": "Comparer le rapport et le noyau →",
@@ -79,7 +79,7 @@ export const generatedLocalCopy = {
     },
     "ar": {
       "heroBadge": "منصة Sundae",
-      "heroTitle": "179 نماذج البيانات. 12 المجالات. حقيقة واحدة.",
+      "heroTitle": "500 نماذج البيانات. 12 المجالات. حقيقة واحدة.",
       "heroDescription": "ست طبقات استخباراتية تعمل على تحويل بيانات المطاعم المجزأة إلى قرارات تتضاعف - تحولًا تلو الآخر، ومنفذًا تلو الآخر.",
       "heroPrimary": "Start with Report Lite",
       "heroSecondary": "احجز عرضًا توضيحيًا",
@@ -92,7 +92,7 @@ export const generatedLocalCopy = {
       "coreLabel": "الأكثر شعبية",
       "coreTitle": "Sundae Core",
       "coreSubtitle": "العمليات والاستخبارات في الوقت الحقيقي",
-      "coreDescription": "كل شيء في التقرير، بالإضافة إلى العمليات الحية. السرعة خلال اليوم، وإشارات السوق، و14 وحدة استخباراتية، والتنبؤ التنبؤي، وتوصيات Sundae Coach.",
+      "coreDescription": "كل شيء في التقرير، بالإضافة إلى العمليات الحية. السرعة خلال اليوم، وإشارات السوق، و12 وحدة استخباراتية، والتنبؤ التنبؤي، وتوصيات Sundae Coach.",
       "coreIncludes": "كل شيء في التقرير، بالإضافة إلى:",
       "coreCta": "اكتشف Sundae Core →",
       "compareCta": "قارن التقرير مقابل الأساسية →",
@@ -104,7 +104,7 @@ export const generatedLocalCopy = {
     },
     "pt": {
       "heroBadge": "A plataforma Sundae",
-      "heroTitle": "179 Modelos de Dados. 12 Domínios. Uma verdade.",
+      "heroTitle": "500 Modelos de Dados. 12 Domínios. Uma verdade.",
       "heroDescription": "Seis camadas de inteligência que transformam dados fragmentados de restaurantes em decisões compostas - turno por turno, ponto de venda por ponto de venda.",
       "heroPrimary": "Start with Report Lite",
       "heroSecondary": "Agende uma demonstração",
@@ -117,7 +117,7 @@ export const generatedLocalCopy = {
       "coreLabel": "MAIS POPULAR",
       "coreTitle": "Sundae Core",
       "coreSubtitle": "Operações e inteligência em tempo real",
-      "coreDescription": "Tudo no Relatório, além de operações ao vivo. Ritmo intradiário, sinais de mercado, 14 módulos de inteligência, previsão preditiva e recomendações do Sundae Coach.",
+      "coreDescription": "Tudo no Relatório, além de operações ao vivo. Ritmo intradiário, sinais de mercado, 12 módulos de inteligência, previsão preditiva e recomendações do Sundae Coach.",
       "coreIncludes": "Tudo no relatório, mais:",
       "coreCta": "Explore o Sundae Core →",
       "compareCta": "Compare o relatório com o principal →",
@@ -129,7 +129,7 @@ export const generatedLocalCopy = {
     },
     "nl": {
       "heroBadge": "Het Sundae-platform",
-      "heroTitle": "179 gegevensmodellen. 12 domeinen. Eén waarheid.",
+      "heroTitle": "500 gegevensmodellen. 12 domeinen. Eén waarheid.",
       "heroDescription": "Zes intelligentielagen die gefragmenteerde restaurantgegevens omzetten in beslissingen die steeds groter worden: ploeg voor ploeg, verkooppunt voor verkooppunt.",
       "heroPrimary": "Start with Report Lite",
       "heroSecondary": "Boek een demo",
@@ -142,7 +142,7 @@ export const generatedLocalCopy = {
       "coreLabel": "MEEST POPULAIR",
       "coreTitle": "Sundae Core",
       "coreSubtitle": "Realtime operaties en inlichtingen",
-      "coreDescription": "Alles in Report, plus live operaties. Intraday-stimulatie, marktsignalen, 14 intelligentiemodules, voorspellende prognoses en Sundae Coach-aanbevelingen.",
+      "coreDescription": "Alles in Report, plus live operaties. Intraday-stimulatie, marktsignalen, 12 intelligentiemodules, voorspellende prognoses en Sundae Coach-aanbevelingen.",
       "coreIncludes": "Alles in Rapport, plus:",
       "coreCta": "Ontdek Sundae Core →",
       "compareCta": "Vergelijk rapport versus kern →",
@@ -154,7 +154,7 @@ export const generatedLocalCopy = {
     },
     "ur": {
       "heroBadge": "Sundae پلیٹ فارم",
-      "heroTitle": "179 ڈیٹا ماڈلز۔ 12 ڈومینز۔ ایک سچائی۔",
+      "heroTitle": "500 ڈیٹا ماڈلز۔ 12 ڈومینز۔ ایک سچائی۔",
       "heroDescription": "چھ انٹیلی جنس پرتیں جو بکھرے ہوئے ریستوراں کے ڈیٹا کو ان فیصلوں میں تبدیل کرتی ہیں جو مرکب ہیں - شفٹ بہ شفٹ، آؤٹ لیٹ بہ دکان۔",
       "heroPrimary": "Start with Report Lite",
       "heroSecondary": "ایک ڈیمو بک کرو",
@@ -179,7 +179,7 @@ export const generatedLocalCopy = {
     },
     "it": {
       "heroBadge": "The Sundae Platform",
-      "heroTitle": "179 modelli di dati. 12 domini. Una verità.",
+      "heroTitle": "500 modelli di dati. 12 domini. Una verità.",
       "heroDescription": "Sei livelli di intelligence che trasformano i dati frammentati dei ristoranti in decisioni che si combinano, turno dopo turno, punto vendita dopo punto vendita.",
       "heroPrimary": "Start with Report Lite",
       "heroSecondary": "Prenota una dimostrazione",
@@ -192,7 +192,7 @@ export const generatedLocalCopy = {
       "coreLabel": "PIÙ POPOLARE",
       "coreTitle": "Sundae Core",
       "coreSubtitle": "Operazioni e intelligence in tempo reale",
-      "coreDescription": "Tutto in Report, oltre alle operazioni in tempo reale. Ritmo giornaliero, segnali di mercato, 14 moduli di intelligence, previsioni predittive e consigli del Sundae Coach.",
+      "coreDescription": "Tutto in Report, oltre alle operazioni in tempo reale. Ritmo giornaliero, segnali di mercato, 12 moduli di intelligence, previsioni predittive e consigli del Sundae Coach.",
       "coreIncludes": "Tutto in Report, più:",
       "coreCta": "Esplora Sundae Core →",
       "compareCta": "Confronta Report e Core →",
@@ -204,7 +204,7 @@ export const generatedLocalCopy = {
     },
     "tr": {
       "heroBadge": "Sundae Platformu",
-      "heroTitle": "179 Veri Modelleri. 12 Alan Adı. Tek Gerçek.",
+      "heroTitle": "500 Veri Modelleri. 12 Alan Adı. Tek Gerçek.",
       "heroDescription": "Parçalanmış restoran verilerini vardiyadan vardiyaya, mağazadan satış noktasına kadar birleştiren kararlara dönüştüren altı zeka katmanı.",
       "heroPrimary": "Start with Report Lite",
       "heroSecondary": "Demo Rezervasyonu Yapın",
@@ -229,7 +229,7 @@ export const generatedLocalCopy = {
     },
     "pl": {
       "heroBadge": "The Sundae Platform",
-      "heroTitle": "179 modeli danych. 12 domen. Jedna prawda.",
+      "heroTitle": "500 modeli danych. 12 domen. Jedna prawda.",
       "heroDescription": "Sześć warstw inteligencji, które przekształcają fragmentaryczne dane dotyczące restauracji w złożone decyzje – zmiana po zmianie, punkt sprzedaży po punkcie.",
       "heroPrimary": "Start with Report Lite",
       "heroSecondary": "Zarezerwuj wersję demonstracyjną",
@@ -254,7 +254,7 @@ export const generatedLocalCopy = {
     },
     "hi": {
       "heroBadge": "Sundae प्लेटफार्म",
-      "heroTitle": "179 डेटा मॉडल। 12 डोमेन. एक सत्य.",
+      "heroTitle": "500 डेटा मॉडल। 12 डोमेन. एक सत्य.",
       "heroDescription": "छह खुफिया परतें जो खंडित रेस्तरां डेटा को उन निर्णयों में बदल देती हैं जो मिश्रित होते हैं - शिफ्ट दर शिफ्ट, आउटलेट दर आउटलेट।",
       "heroPrimary": "Start with Report Lite",
       "heroSecondary": "एक डेमो बुक करें",
@@ -279,7 +279,7 @@ export const generatedLocalCopy = {
     },
     "zh-Hans": {
       "heroBadge": "Sundae平台",
-      "heroTitle": "179 数据模型。 12 个域。一个真理。",
+      "heroTitle": "500 数据模型。 12 个域。一个真理。",
       "heroDescription": "六个智能层将分散的餐厅数据转化为复合决策 - 轮班、店面。",
       "heroPrimary": "Start with Report Lite",
       "heroSecondary": "预订演示",
@@ -304,7 +304,7 @@ export const generatedLocalCopy = {
     },
     "ko": {
       "heroBadge": "The Sundae Platform",
-      "heroTitle": "179 데이터 모델. 12개의 도메인. 하나의 진실.",
+      "heroTitle": "500 데이터 모델. 12개의 도메인. 하나의 진실.",
       "heroDescription": "단편화된 레스토랑 데이터를 교대 근무별, 매장별 이동을 통해 복합적인 의사 결정으로 전환하는 6개의 인텔리전스 계층입니다.",
       "heroPrimary": "Start with Report Lite",
       "heroSecondary": "데모 예약",
@@ -317,7 +317,7 @@ export const generatedLocalCopy = {
       "coreLabel": "가장 인기 있는",
       "coreTitle": "Sundae Core",
       "coreSubtitle": "실시간 운영 및 인텔리전스",
-      "coreDescription": "Everything in Report, plus live operations. Intraday pacing, market signals, 14 intelligence modules, predictive forecasting, and Sundae Coach recommendations.",
+      "coreDescription": "Everything in Report, plus live operations. Intraday pacing, market signals, 12 intelligence modules, predictive forecasting, and Sundae Coach recommendations.",
       "coreIncludes": "보고서의 모든 내용과 다음 사항:",
       "coreCta": "Explore Sundae Core →",
       "compareCta": "보고서와 핵심 비교 →",
@@ -329,7 +329,7 @@ export const generatedLocalCopy = {
     },
     "id": {
       "heroBadge": "Platform Sundae",
-      "heroTitle": "179 Model Data. 12 Domain. Satu Kebenaran.",
+      "heroTitle": "500 Model Data. 12 Domain. Satu Kebenaran.",
       "heroDescription": "Enam lapisan intelijen yang mengubah data restoran yang terfragmentasi menjadi keputusan yang rumit - shift demi shift, gerai demi gerai.",
       "heroPrimary": "Start with Report Lite",
       "heroSecondary": "Pesan Demo",
@@ -342,7 +342,7 @@ export const generatedLocalCopy = {
       "coreLabel": "PALING POPULER",
       "coreTitle": "Sundae Core",
       "coreSubtitle": "Operasi & Intelijen Waktu Nyata",
-      "coreDescription": "Semuanya ada di Laporan, ditambah operasi langsung. Kecepatan harian, sinyal pasar, 14 modul intelijen, perkiraan prediktif, dan rekomendasi Sundae Coach.",
+      "coreDescription": "Semuanya ada di Laporan, ditambah operasi langsung. Kecepatan harian, sinyal pasar, 12 modul intelijen, perkiraan prediktif, dan rekomendasi Sundae Coach.",
       "coreIncludes": "Semua yang ada di Laporan, ditambah:",
       "coreCta": "Jelajahi Sundae Core →",
       "compareCta": "Bandingkan Laporan vs Inti →",
@@ -354,7 +354,7 @@ export const generatedLocalCopy = {
     },
     "ja": {
       "heroBadge": "Sundaeプラットフォーム",
-      "heroTitle": "179 データモデル。 12 のドメイン。一つの真実。",
+      "heroTitle": "500 データモデル。 12 のドメイン。一つの真実。",
       "heroDescription": "断片化されたレストランのデータを、シフトごと、店舗ごとに複合的な意思決定に変換する 6 つのインテリジェンス レイヤー。",
       "heroPrimary": "Start with Report Lite",
       "heroSecondary": "デモを予約する",
@@ -379,7 +379,7 @@ export const generatedLocalCopy = {
     },
     "sv": {
       "heroBadge": "Sundae-plattformen",
-      "heroTitle": "179 Datamodeller. 12 domäner. En sanning.",
+      "heroTitle": "500 Datamodeller. 12 domäner. En sanning.",
       "heroDescription": "Sex intelligenslager som förvandlar fragmenterad restaurangdata till beslut som sammanfogar - skift för skift, utgång för utgång.",
       "heroPrimary": "Start with Report Lite",
       "heroSecondary": "Boka en demo",
@@ -392,7 +392,7 @@ export const generatedLocalCopy = {
       "coreLabel": "MEST POPULÄRT",
       "coreTitle": "Sundae Core",
       "coreSubtitle": "Drift och intelligens i realtid",
-      "coreDescription": "Allt i Rapport, plus direktdrift. Intradagstempo, marknadssignaler, 14 intelligensmoduler, prediktiva prognoser och Sundae Coach-rekommendationer.",
+      "coreDescription": "Allt i Rapport, plus direktdrift. Intradagstempo, marknadssignaler, 12 intelligensmoduler, prediktiva prognoser och Sundae Coach-rekommendationer.",
       "coreIncludes": "Allt i rapporten, plus:",
       "coreCta": "Utforska Sundae Core →",
       "compareCta": "Jämför rapport vs kärna →",
@@ -404,7 +404,7 @@ export const generatedLocalCopy = {
     },
     "ro": {
       "heroBadge": "Platforma Sundae",
-      "heroTitle": "179 Modele de date. 12 domenii. Un Adevăr.",
+      "heroTitle": "500 Modele de date. 12 domenii. Un Adevăr.",
       "heroDescription": "Șase straturi de inteligență care transformă datele fragmentate ale restaurantelor în decizii care se agravează - schimb cu schimb, punct de vânzare cu punct de vânzare.",
       "heroPrimary": "Start with Report Lite",
       "heroSecondary": "Rezervați o demonstrație",
@@ -417,7 +417,7 @@ export const generatedLocalCopy = {
       "coreLabel": "CEL MAI POPULAR",
       "coreTitle": "Sundae Core",
       "coreSubtitle": "Operațiuni și inteligență în timp real",
-      "coreDescription": "Totul din Raport, plus operațiuni live. Ritmul intraday, semnale de piață, 14 module de informații, prognoză predictivă și recomandări Sundae Coach.",
+      "coreDescription": "Totul din Raport, plus operațiuni live. Ritmul intraday, semnale de piață, 12 module de informații, prognoză predictivă și recomandări Sundae Coach.",
       "coreIncludes": "Totul din Raport, plus:",
       "coreCta": "Explorați Sundae Core →",
       "compareCta": "Comparați raportul vs core →",
@@ -429,7 +429,7 @@ export const generatedLocalCopy = {
     },
     "vi": {
       "heroBadge": "Nền tảng Sundae",
-      "heroTitle": "179 Mô hình dữ liệu. 12 tên miền. Một Sự Thật.",
+      "heroTitle": "500 Mô hình dữ liệu. 12 tên miền. Một Sự Thật.",
       "heroDescription": "Sáu lớp thông minh biến dữ liệu nhà hàng bị phân mảnh thành các quyết định tổng hợp - thay đổi theo ca, từng cửa hàng.",
       "heroPrimary": "Start with Report Lite",
       "heroSecondary": "Đặt bản demo",
@@ -442,7 +442,7 @@ export const generatedLocalCopy = {
       "coreLabel": "PHỔ BIẾN NHẤT",
       "coreTitle": "Sundae Core",
       "coreSubtitle": "Hoạt động và thông tin thời gian thực",
-      "coreDescription": "Mọi thứ đều có trong Báo cáo, cộng với các hoạt động trực tiếp. Nhịp độ trong ngày, tín hiệu thị trường, 14 mô-đun thông minh, dự báo dự đoán và khuyến nghị của Sundae Coach.",
+      "coreDescription": "Mọi thứ đều có trong Báo cáo, cộng với các hoạt động trực tiếp. Nhịp độ trong ngày, tín hiệu thị trường, 12 mô-đun thông minh, dự báo dự đoán và khuyến nghị của Sundae Coach.",
       "coreIncludes": "Mọi thứ trong Báo cáo, cộng thêm:",
       "coreCta": "Explore Sundae Core →",
       "compareCta": "So sánh Báo cáo và Cốt lõi →",
@@ -454,7 +454,7 @@ export const generatedLocalCopy = {
     },
     "bn": {
       "heroBadge": "Sundae প্ল্যাটফর্ম",
-      "heroTitle": "179 ডেটা মডেল। 12টি ডোমেন। এক সত্য।",
+      "heroTitle": "500 ডেটা মডেল। 12টি ডোমেন। এক সত্য।",
       "heroDescription": "ছয়টি বুদ্ধিমত্তা স্তর যা খণ্ডিত রেস্তোরাঁর ডেটাকে সিদ্ধান্তে পরিণত করে যা যৌগিক - শিফট বাই শিফট, আউটলেট বাই আউটলেট।",
       "heroPrimary": "Start with Report Lite",
       "heroSecondary": "একটি ডেমো বুক করুন",
@@ -479,7 +479,7 @@ export const generatedLocalCopy = {
     },
     "th": {
       "heroBadge": "แพลตฟอร์มSundae",
-      "heroTitle": "179 โมเดลข้อมูล 12 โดเมน ความจริงประการหนึ่ง",
+      "heroTitle": "500 โมเดลข้อมูล 12 โดเมน ความจริงประการหนึ่ง",
       "heroDescription": "ข้อมูลอัจฉริยะหกชั้นที่เปลี่ยนข้อมูลร้านอาหารที่กระจัดกระจายให้กลายเป็นการตัดสินใจที่ประกอบกัน กะต่อกะ ทีละร้าน",
       "heroPrimary": "Start with Report Lite",
       "heroSecondary": "จองการสาธิต",
@@ -492,7 +492,7 @@ export const generatedLocalCopy = {
       "coreLabel": "ยอดนิยมที่สุด",
       "coreTitle": "Sundae Core",
       "coreSubtitle": "การดำเนินงานและข่าวกรองแบบเรียลไทม์",
-      "coreDescription": "ทุกอย่างในรายงาน รวมถึงการปฏิบัติงานจริง อัตราความเร็วระหว่างวัน สัญญาณตลาด โมดูลอัจฉริยะ 14 โมดูล การพยากรณ์เชิงคาดการณ์ และคำแนะนำ Sundae Coach",
+      "coreDescription": "ทุกอย่างในรายงาน รวมถึงการปฏิบัติงานจริง อัตราความเร็วระหว่างวัน สัญญาณตลาด โมดูลอัจฉริยะ 12 โมดูล การพยากรณ์เชิงคาดการณ์ และคำแนะนำ Sundae Coach",
       "coreIncludes": "ทุกอย่างในรายงาน รวมถึง:",
       "coreCta": "Explore Sundae Core →",
       "compareCta": "เปรียบเทียบรายงานเทียบกับแกนหลัก →",
@@ -504,7 +504,7 @@ export const generatedLocalCopy = {
     },
     "ms": {
       "heroBadge": "Platform Sundae",
-      "heroTitle": "179 Model Data. 12 Domain. Satu Kebenaran.",
+      "heroTitle": "500 Model Data. 12 Domain. Satu Kebenaran.",
       "heroDescription": "Enam lapisan kecerdasan yang menukar data restoran yang berpecah-belah menjadi keputusan yang menggabungkan - beralih mengikut syif, keluar demi outlet.",
       "heroPrimary": "Start with Report Lite",
       "heroSecondary": "Tempah Demo",
@@ -517,7 +517,7 @@ export const generatedLocalCopy = {
       "coreLabel": "PALING POPULAR",
       "coreTitle": "Sundae Core",
       "coreSubtitle": "Operasi Masa Nyata & Perisikan",
-      "coreDescription": "Segala-galanya dalam Laporan, serta operasi langsung. Langkah urusniaga harian, isyarat pasaran, 14 modul perisikan, ramalan ramalan dan cadangan Jurulatih Sundae.",
+      "coreDescription": "Segala-galanya dalam Laporan, serta operasi langsung. Langkah urusniaga harian, isyarat pasaran, 12 modul perisikan, ramalan ramalan dan cadangan Jurulatih Sundae.",
       "coreIncludes": "Segala-galanya dalam Laporan, ditambah:",
       "coreCta": "Terokai Sundae Core →",
       "compareCta": "Bandingkan Laporan vs Teras →",
@@ -591,7 +591,7 @@ export const generatedLocalCopy = {
           "إسناد عائد الاستثمار التسويقي",
           "Cross-Intelligence correlation engine"
         ],
-        "stat": "179+",
+        "stat": "500+",
         "statLabel": "نماذج البيانات عبر 12 المجالات"
       },
       {
@@ -689,7 +689,7 @@ export const generatedLocalCopy = {
           "Atribución del ROI de marketing",
           "Cross-Intelligence correlation engine"
         ],
-        "stat": "179+",
+        "stat": "500+",
         "statLabel": "modelos de datos en 12 dominios"
       },
       {
@@ -787,7 +787,7 @@ export const generatedLocalCopy = {
           "Zuordnung des Marketing-ROI",
           "Cross-Intelligence-Korrelations-Engine"
         ],
-        "stat": "179+",
+        "stat": "500+",
         "statLabel": "Datenmodelle in 12 Domänen"
       },
       {
@@ -885,7 +885,7 @@ export const generatedLocalCopy = {
           "Attribution du ROI marketing",
           "Moteur de corrélation Cross-Intelligence"
         ],
-        "stat": "179+",
+        "stat": "500+",
         "statLabel": "modèles de données dans 12 domaines"
       },
       {
@@ -983,7 +983,7 @@ export const generatedLocalCopy = {
           "Atribuição de ROI de marketing",
           "Cross-Intelligence correlation engine"
         ],
-        "stat": "179+",
+        "stat": "500+",
         "statLabel": "modelos de dados em 12 domínios"
       },
       {
@@ -1081,7 +1081,7 @@ export const generatedLocalCopy = {
           "Toeschrijving van marketing-ROI",
           "Cross-Intelligence-correlatie-engine"
         ],
-        "stat": "179+",
+        "stat": "500+",
         "statLabel": "datamodellen over 12 domeinen"
       },
       {
@@ -1179,7 +1179,7 @@ export const generatedLocalCopy = {
           "مارکیٹنگ ROI انتساب",
           "Cross-Intelligence correlation engine"
         ],
-        "stat": "179+",
+        "stat": "500+",
         "statLabel": "12 ڈومینز میں ڈیٹا ماڈلز"
       },
       {
@@ -1277,7 +1277,7 @@ export const generatedLocalCopy = {
           "Attribuzione del ROI di marketing",
           "Cross-Intelligence correlation engine"
         ],
-        "stat": "179+",
+        "stat": "500+",
         "statLabel": "modelli di dati in 12 domini"
       },
       {
@@ -1375,7 +1375,7 @@ export const generatedLocalCopy = {
           "मार्केटिंग आरओआई एट्रिब्यूशन",
           "Cross-Intelligence correlation engine"
         ],
-        "stat": "179+",
+        "stat": "500+",
         "statLabel": "12 डोमेन में डेटा मॉडल"
       },
       {
@@ -1473,7 +1473,7 @@ export const generatedLocalCopy = {
           "Przypisanie ROI marketingu",
           "Cross-Intelligence correlation engine"
         ],
-        "stat": "179+",
+        "stat": "500+",
         "statLabel": "modele danych w 12 domenach"
       },
       {
@@ -1571,7 +1571,7 @@ export const generatedLocalCopy = {
           "营销投资回报率归因",
           "Cross-Intelligence correlation engine"
         ],
-        "stat": "179+",
+        "stat": "500+",
         "statLabel": "跨 12 个领域的数据模型"
       },
       {
@@ -1669,7 +1669,7 @@ export const generatedLocalCopy = {
           "Pazarlama yatırım getirisi ilişkilendirmesi",
           "Cross-Intelligence correlation engine"
         ],
-        "stat": "179+",
+        "stat": "500+",
         "statLabel": "12 alandaki veri modelleri"
       },
       {
@@ -1767,7 +1767,7 @@ export const generatedLocalCopy = {
           "Atribusi ROI pemasaran",
           "Cross-Intelligence correlation engine"
         ],
-        "stat": "179+",
+        "stat": "500+",
         "statLabel": "model data di 12 domain"
       },
       {
@@ -1865,7 +1865,7 @@ export const generatedLocalCopy = {
           "マーケティング ROI の帰属",
           "Cross-Intelligence correlation engine"
         ],
-        "stat": "179+",
+        "stat": "500+",
         "statLabel": "12のドメインにわたるデータモデル"
       },
       {
@@ -1963,7 +1963,7 @@ export const generatedLocalCopy = {
           "마케팅 ROI 기여",
           "Cross-Intelligence correlation engine"
         ],
-        "stat": "179+",
+        "stat": "500+",
         "statLabel": "12개 도메인에 걸친 데이터 모델"
       },
       {
@@ -2061,7 +2061,7 @@ export const generatedLocalCopy = {
           "Atribuirea rentabilității investiției în marketing",
           "Motor de corelare Cross-Intelligence"
         ],
-        "stat": "179+",
+        "stat": "500+",
         "statLabel": "modele de date pe 12 domenii"
       },
       {
@@ -2159,7 +2159,7 @@ export const generatedLocalCopy = {
           "Phân bổ ROI tiếp thị",
           "Cross-Intelligence correlation engine"
         ],
-        "stat": "179+",
+        "stat": "500+",
         "statLabel": "mô hình dữ liệu trên 12 miền"
       },
       {
@@ -2257,7 +2257,7 @@ export const generatedLocalCopy = {
           "বিপণন ROI অ্যাট্রিবিউশন",
           "Cross-Intelligence correlation engine"
         ],
-        "stat": "179+",
+        "stat": "500+",
         "statLabel": "12টি ডোমেন জুড়ে ডেটা মডেল"
       },
       {
@@ -2355,7 +2355,7 @@ export const generatedLocalCopy = {
           "Marknadsföring ROI attribution",
           "Cross-Intelligence korrelationsmotor"
         ],
-        "stat": "179+",
+        "stat": "500+",
         "statLabel": "datamodeller över 12 domäner"
       },
       {
@@ -2453,7 +2453,7 @@ export const generatedLocalCopy = {
           "การระบุแหล่งที่มา ROI ทางการตลาด",
           "Cross-Intelligence correlation engine"
         ],
-        "stat": "179+",
+        "stat": "500+",
         "statLabel": "แบบจำลองข้อมูลใน 12 โดเมน"
       },
       {
@@ -2551,7 +2551,7 @@ export const generatedLocalCopy = {
           "Atribusi ROI pemasaran",
           "Cross-Intelligence correlation engine"
         ],
-        "stat": "179+",
+        "stat": "500+",
         "statLabel": "model data merentas 12 domain"
       },
       {

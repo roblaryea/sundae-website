@@ -14,7 +14,7 @@ import { HeroPulseMockup } from "./HeroPulseMockup";
  * Claims used (claims-bank.md):
  *   CLM-001 (12 data domains) APPROVED PUBLIC
  *   CLM-006 (Live Core refresh) CAPABILITY CLAIM ONLY · FN-1 footnote
- *   CLM-002 (179 restaurant data models) APPROVED PUBLIC
+ *   CLM-002 (500 restaurant data models) APPROVED PUBLIC
  *   CLM-004 (500+ represented locations) APPROVED PUBLIC — lives in §7 proof,
  *   not in the hero proof strip.
  *
@@ -114,7 +114,7 @@ export function Hero() {
                 </span>
                 <span>
                   <strong className="text-[var(--text-primary)] font-semibold">
-                    179+
+                    500+
                   </strong>{" "}
                   restaurant data models
                 </span>

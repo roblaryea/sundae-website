@@ -33,7 +33,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
     ],
     withSundae: [
       "Six intelligence layers, restaurant-native",
-      "179+ governed restaurant data models",
+      "500+ governed restaurant data models",
       "Source-cited answers in seconds",
       "12 data domains unified in one ledger",
       "Live shift intelligence, not Friday recaps",
@@ -55,7 +55,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
     ],
     withSundae: [
       "ست طبقات ذكاء، أصيلة للمطاعم",
-      "أكثر من 179 نموذج بيانات مطعم محكوم",
+      "أكثر من 500 نموذج بيانات مطعم محكوم",
       "إجابات بمصادر في ثوانٍ",
       "12 مجال بيانات موحد في دفتر واحد",
       "ذكاء وردية حي لا تقارير الجمعة",
@@ -77,7 +77,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
     ],
     withSundae: [
       "Six couches d'intelligence, natives restaurant",
-      "179+ modèles de données restaurant gouvernés",
+      "500+ modèles de données restaurant gouvernés",
       "Réponses sourcées en secondes",
       "12 domaines de données dans un seul livre",
       "Intelligence de service live, pas récap vendredi",
@@ -99,7 +99,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
     ],
     withSundae: [
       "Seis capas de inteligencia, nativas para restaurantes",
-      "179+ modelos de datos de restaurante gobernados",
+      "500+ modelos de datos de restaurante gobernados",
       "Respuestas con fuente en segundos",
       "12 dominios de datos unificados en un libro",
       "Inteligencia de turno en vivo, no recap del viernes",

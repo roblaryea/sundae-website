@@ -28,7 +28,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "نموذج محكوم",
-          "supporting": "179+ نموذج بيانات مطعم"
+          "supporting": "500+ نموذج بيانات مطعم"
         }
       ]
     },
@@ -58,7 +58,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Schéma gouverné",
-          "supporting": "179+ modèles de données de restaurant"
+          "supporting": "500+ modèles de données de restaurant"
         }
       ]
     },
@@ -88,7 +88,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Esquema Gobernado",
-          "supporting": "Más de 179 modelos de datos de restaurantes"
+          "supporting": "Más de 500 modelos de datos de restaurantes"
         }
       ]
     },
@@ -118,7 +118,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Governing Schema",
-          "supporting": "179+ Restaurantdatenmodelle"
+          "supporting": "500+ Restaurantdatenmodelle"
         }
       ]
     },
@@ -148,7 +148,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Geregeerde Schema",
-          "supporting": "179+ restaurantdatamodellen"
+          "supporting": "500+ restaurantdatamodellen"
         }
       ]
     },
@@ -178,7 +178,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Esquema Governado",
-          "supporting": "Modelos de dados de 179+ restaurantes"
+          "supporting": "Modelos de dados de 500+ restaurantes"
         }
       ]
     },
@@ -208,7 +208,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "शासित स्कीमा",
-          "supporting": "179+ रेस्तरां डेटा मॉडल"
+          "supporting": "500+ रेस्तरां डेटा मॉडल"
         }
       ]
     },
@@ -238,7 +238,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "حکومتی اسکیمہ",
-          "supporting": "179+ ریستوراں کے ڈیٹا ماڈلز"
+          "supporting": "500+ ریستوراں کے ڈیٹا ماڈلز"
         }
       ]
     },
@@ -268,7 +268,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Schema Governato",
-          "supporting": "179+ modelli di dati per ristoranti"
+          "supporting": "500+ modelli di dati per ristoranti"
         }
       ]
     },
@@ -298,7 +298,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Zarządzany schemat",
-          "supporting": "179+ modeli danych restauracji"
+          "supporting": "500+ modeli danych restauracji"
         }
       ]
     },
@@ -328,7 +328,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Yönetilen Şema",
-          "supporting": "179+ restoran veri modeli"
+          "supporting": "500+ restoran veri modeli"
         }
       ]
     },
@@ -358,7 +358,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "受管模式",
-          "supporting": "179+ 餐厅数据模型"
+          "supporting": "500+ 餐厅数据模型"
         }
       ]
     },
@@ -388,7 +388,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "管理されたスキーマ",
-          "supporting": "179以上のレストランデータモデル"
+          "supporting": "500以上のレストランデータモデル"
         }
       ]
     },
@@ -418,7 +418,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "관리되는 스키마",
-          "supporting": "179개 이상의 레스토랑 데이터 모델"
+          "supporting": "500개 이상의 레스토랑 데이터 모델"
         }
       ]
     },
@@ -448,7 +448,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Skema Teratur",
-          "supporting": "179+ model data restoran"
+          "supporting": "500+ model data restoran"
         }
       ]
     },
@@ -478,7 +478,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Schema được quản lý",
-          "supporting": "Hơn 179 mô hình dữ liệu nhà hàng"
+          "supporting": "Hơn 500 mô hình dữ liệu nhà hàng"
         }
       ]
     },
@@ -508,7 +508,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Schema guvernată",
-          "supporting": "179+ modele de date pentru restaurante"
+          "supporting": "500+ modele de date pentru restaurante"
         }
       ]
     },
@@ -538,7 +538,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Styrd Schema",
-          "supporting": "179+ restaurangdatamodeller"
+          "supporting": "500+ restaurangdatamodeller"
         }
       ]
     },
@@ -568,7 +568,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "শাসিত স্কিমা",
-          "supporting": "179+ রেস্তোরাঁর ডেটা মডেল"
+          "supporting": "500+ রেস্তোরাঁর ডেটা মডেল"
         }
       ]
     },
@@ -598,7 +598,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Governed Schema",
-          "supporting": "โมเดลข้อมูลร้านอาหาร 179+"
+          "supporting": "โมเดลข้อมูลร้านอาหาร 500+"
         }
       ]
     },
@@ -628,7 +628,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Skema Terurus",
-          "supporting": "179+ model data restoran"
+          "supporting": "500+ model data restoran"
         }
       ]
     }

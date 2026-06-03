@@ -18,8 +18,8 @@
  *
  * Claims used:
  *   CLM-001 (12 data domains) APPROVED PUBLIC
- *   CLM-002 (179 data models) APPROVED PUBLIC
- *   CLM-003 (30+ modules · 14 specialized in current bundle) APPROVED PUBLIC
+ *   CLM-002 (500 data models) APPROVED PUBLIC
+ *   CLM-003 (12 modules · 14 specialized in current bundle) APPROVED PUBLIC
  *   CLM-004 (Built with operators across 500+ restaurant locations) APPROVED PUBLIC
  *   CLM-005 (5-min refresh on Core Pro) CAPABILITY CLAIM ONLY · FN-1
  *   CLM-009 (6 intelligence layers) APPROVED PUBLIC — derived from locked taxonomy
@@ -35,11 +35,11 @@ const stats = [
     label: "data domains unified",
   },
   {
-    value: "179+",
+    value: "500+",
     label: "restaurant-specific data models",
   },
   {
-    value: "30+",
+    value: "12",
     label: "analytics modules",
     footnoteMarker: "†",
   },
@@ -131,7 +131,7 @@ export function SectionProof() {
         <p className="mt-10 text-center text-[11px] text-[var(--text-muted)] italic max-w-3xl mx-auto leading-relaxed">
           *Refresh frequency varies by Core tier. See pricing for details.
           {" "}
-          †30+ analytics modules across the platform; 14 specialized modules
+          †12 analytics modules across the platform; 12 specialized modules
           included in the current pricing bundle.
           {" "}
           ‡Industry observations are general restaurant-industry patterns

@@ -1043,7 +1043,7 @@ export const generatedLocalCopy = {
       },
       "integrations": {
         "heading": "Verbind al uw systemen",
-        "description": "Core verbindt met 12 datadomeinen en 80+ leveranciersintegraties.",
+        "description": "Core verbindt met 12 datadomeinen en 250+ leveranciersintegraties.",
         "items": [
           {
             "category": "POS-systemen",
@@ -2191,7 +2191,7 @@ export const generatedLocalCopy = {
       },
       "integrations": {
         "heading": "अपने सभी सिस्टम कनेक्ट करें",
-        "description": "Core 12 डेटा डोमेन में 80+ विक्रेता एकीकरण के साथ कनेक्ट करता है।",
+        "description": "Core 12 डेटा डोमेन में 250+ विक्रेता एकीकरण के साथ कनेक्ट करता है।",
         "items": [
           {
             "category": "POS सिस्टम",
@@ -2478,7 +2478,7 @@ export const generatedLocalCopy = {
       },
       "integrations": {
         "heading": "اپنے تمام نظاموں کو جوڑیں",
-        "description": "Core 12 ڈیٹا ڈومینز میں 80+ فروشندہ انضمام کے ساتھ جڑتا ہے۔",
+        "description": "Core 12 ڈیٹا ڈومینز میں 250+ فروشندہ انضمام کے ساتھ جڑتا ہے۔",
         "items": [
           {
             "category": "POS سسٹمز",

@@ -38,7 +38,7 @@ export const generatedLocalCopy = {
       "howDescription": "Une plateforme, douze domaines, zéro plomberie.",
       "howSundaeHelps": [
         {
-          "title": "Modèles de données de restaurant gouvernés 179+",
+          "title": "Modèles de données de restaurant gouvernés 500+",
           "description": "Schéma unifié à travers POS, main-d'œuvre, inventaire, livraison, réservations, comptabilité. Chaque métrique définie une fois, utilisée partout.",
           "product": "Sundae Core",
           "icon": "data"
@@ -126,7 +126,7 @@ export const generatedLocalCopy = {
       "howDescription": "Eine Plattform, zwölf Bereiche, null Aufwand.",
       "howSundaeHelps": [
         {
-          "title": "179+ verwaltete Restaurantdatenmodelle",
+          "title": "500+ verwaltete Restaurantdatenmodelle",
           "description": "Einheitliches Schema für POS, Personal, Inventar, Lieferung, Reservierungen, Buchhaltung. Jede Kennzahl einmal definiert, überall verwendet.",
           "product": "Sundae Core",
           "icon": "data"
@@ -214,7 +214,7 @@ export const generatedLocalCopy = {
       "howDescription": "منصة واحدة، اثنا عشر مجالًا، صفر أنابيب.",
       "howSundaeHelps": [
         {
-          "title": "179+ نماذج بيانات مطاعم مُدارة",
+          "title": "500+ نماذج بيانات مطاعم مُدارة",
           "description": "نموذج موحد عبر نظام POS، العمالة، المخزون، التوصيل، الحجوزات، المحاسبة. كل مقياس مُعرف مرة واحدة، مستخدم في كل مكان.",
           "product": "Sundae Core",
           "icon": "data"
@@ -302,7 +302,7 @@ export const generatedLocalCopy = {
       "howDescription": "Una plataforma, doce dominios, cero plomería.",
       "howSundaeHelps": [
         {
-          "title": "Más de 179 modelos de datos de restaurantes gobernados",
+          "title": "Más de 500 modelos de datos de restaurantes gobernados",
           "description": "Esquema unificado a través de POS, mano de obra, inventario, entrega, reservas, contabilidad. Cada métrica definida una vez, utilizada en todas partes.",
           "product": "Sundae Core",
           "icon": "data"
@@ -390,7 +390,7 @@ export const generatedLocalCopy = {
       "howDescription": "Eén platform, twaalf datadomeinen, geen losse pijplijnen.",
       "howSundaeHelps": [
         {
-          "title": "179+ beheerde restaurantdatamodellen",
+          "title": "500+ beheerde restaurantdatamodellen",
           "description": "Geünificeerd schema voor POS, personeel, voorraad, levering, reserveringen, boekhouding. Elke metriek één keer gedefinieerd, overal gebruikt.",
           "product": "Sundae Core",
           "icon": "data"
@@ -478,7 +478,7 @@ export const generatedLocalCopy = {
       "howDescription": "Uma plataforma, doze domínios, zero encanamento.",
       "howSundaeHelps": [
         {
-          "title": "179+ modelos de dados de restaurante governados",
+          "title": "500+ modelos de dados de restaurante governados",
           "description": "Esquema unificado em POS, mão de obra, inventário, entrega, reservas, contabilidade. Cada métrica definida uma vez, usada em todos os lugares.",
           "product": "Sundae Core",
           "icon": "data"
@@ -566,7 +566,7 @@ export const generatedLocalCopy = {
       "howDescription": "ایک پلیٹ فارم، بارہ ڈومین، صفر پلمبنگ۔",
       "howSundaeHelps": [
         {
-          "title": "179+ منظم ریستوران ڈیٹا ماڈلز",
+          "title": "500+ منظم ریستوران ڈیٹا ماڈلز",
           "description": "POS، لیبر، انوینٹری، ترسیل، ریزرویشنز، اکاؤنٹنگ میں متحدہ اسکیمہ۔ ہر میٹرک ایک بار متعین، ہر جگہ استعمال ہوتا ہے۔",
           "product": "Sundae Core",
           "icon": "data"
@@ -654,7 +654,7 @@ export const generatedLocalCopy = {
       "howDescription": "एक प्लेटफ़ॉर्म, बारह डोमेन, शून्य प्लंबिंग।",
       "howSundaeHelps": [
         {
-          "title": "179+ नियंत्रित रेस्तरां डेटा मॉडल",
+          "title": "500+ नियंत्रित रेस्तरां डेटा मॉडल",
           "description": "POS, श्रम, इन्वेंटरी, डिलीवरी, आरक्षण, लेखांकन में एकीकृत स्कीमा। हर मीट्रिक एक बार परिभाषित, हर जगह उपयोग किया गया।",
           "product": "Sundae Core",
           "icon": "data"
@@ -742,7 +742,7 @@ export const generatedLocalCopy = {
       "howDescription": "Una piattaforma, dodici domini, zero tubature.",
       "howSundaeHelps": [
         {
-          "title": "Modelli di dati ristorativi governati 179+",
+          "title": "Modelli di dati ristorativi governati 500+",
           "description": "Schema unificato tra POS, lavoro, inventario, consegne, prenotazioni, contabilità. Ogni metrica definita una sola volta, utilizzata ovunque.",
           "product": "Sundae Core",
           "icon": "data"
@@ -830,7 +830,7 @@ export const generatedLocalCopy = {
       "howDescription": "Jedna platforma, dwanaście obszarów, zero hydrauliki.",
       "howSundaeHelps": [
         {
-          "title": "179+ zarządzanych modeli danych restauracyjnych",
+          "title": "500+ zarządzanych modeli danych restauracyjnych",
           "description": "Zunifikowany schemat dla POS, pracy, zapasów, dostaw, rezerwacji, księgowości. Każda metryka zdefiniowana raz, używana wszędzie.",
           "product": "Sundae Core",
           "icon": "data"
@@ -918,7 +918,7 @@ export const generatedLocalCopy = {
       "howDescription": "Tek bir platform, on iki alan, sıfır altyapı.",
       "howSundaeHelps": [
         {
-          "title": "179+ yönetilen restoran veri modeli",
+          "title": "500+ yönetilen restoran veri modeli",
           "description": "POS, iş gücü, envanter, teslimat, rezervasyon, muhasebe için birleşik şema. Her metrik bir kez tanımlanır, her yerde kullanılır.",
           "product": "Sundae Core",
           "icon": "data"
@@ -1006,7 +1006,7 @@ export const generatedLocalCopy = {
       "howDescription": "一个平台，十二个领域，零复杂性。",
       "howSundaeHelps": [
         {
-          "title": "179+ 受管控的餐厅数据模型",
+          "title": "500+ 受管控的餐厅数据模型",
           "description": "在POS、劳动力、库存、配送、预订、会计之间统一的架构。每个指标定义一次，处处可用。",
           "product": "Sundae Core",
           "icon": "data"
@@ -1094,7 +1094,7 @@ export const generatedLocalCopy = {
       "howDescription": "1つのプラットフォーム、12のドメイン、配管は不要。",
       "howSundaeHelps": [
         {
-          "title": "179以上の管理されたレストランデータモデル",
+          "title": "500以上の管理されたレストランデータモデル",
           "description": "POS、労働、在庫、配達、予約、会計にわたる統一スキーマ。すべての指標は一度定義され、どこでも使用されます。",
           "product": "Sundae Core",
           "icon": "data"
@@ -1182,7 +1182,7 @@ export const generatedLocalCopy = {
       "howDescription": "Satu platform, dua belas domain, tanpa kerumitan.",
       "howSundaeHelps": [
         {
-          "title": "179+ model data restoran yang dikelola",
+          "title": "500+ model data restoran yang dikelola",
           "description": "Skema terpadu di seluruh POS, tenaga kerja, inventaris, pengiriman, reservasi, akuntansi. Setiap metrik didefinisikan sekali, digunakan di mana saja.",
           "product": "Sundae Core",
           "icon": "data"
@@ -1270,7 +1270,7 @@ export const generatedLocalCopy = {
       "howDescription": "Một nền tảng, mười hai lĩnh vực, không cần lắp đặt.",
       "howSundaeHelps": [
         {
-          "title": "179+ mô hình dữ liệu nhà hàng được quản lý",
+          "title": "500+ mô hình dữ liệu nhà hàng được quản lý",
           "description": "Lược đồ thống nhất trên POS, lao động, tồn kho, giao hàng, đặt chỗ, kế toán. Mỗi chỉ số được định nghĩa một lần, sử dụng ở mọi nơi.",
           "product": "Sundae Core",
           "icon": "data"
@@ -1358,7 +1358,7 @@ export const generatedLocalCopy = {
       "howDescription": "하나의 플랫폼, 열두 개의 도메인, 제로 배관.",
       "howSundaeHelps": [
         {
-          "title": "179개 이상의 관리되는 레스토랑 데이터 모델",
+          "title": "500개 이상의 관리되는 레스토랑 데이터 모델",
           "description": "POS, 인력, 재고, 배달, 예약, 회계에 걸쳐 통합된 스키마. 모든 지표는 한 번 정의되고 어디서나 사용됩니다.",
           "product": "Sundae Core",
           "icon": "data"
@@ -1446,7 +1446,7 @@ export const generatedLocalCopy = {
       "howDescription": "En plattform, tolv domäner, ingen rördragning.",
       "howSundaeHelps": [
         {
-          "title": "179+ styrda restaurangdatamodeller",
+          "title": "500+ styrda restaurangdatamodeller",
           "description": "Enhetligt schema över POS, arbetskraft, lager, leverans, reservationer, bokföring. Varje mått definieras en gång, används överallt.",
           "product": "Sundae Core",
           "icon": "data"
@@ -1534,7 +1534,7 @@ export const generatedLocalCopy = {
       "howDescription": "O platformă, douăsprezece domenii, zero instalații.",
       "howSundaeHelps": [
         {
-          "title": "179+ modele de date pentru restaurante guvernate",
+          "title": "500+ modele de date pentru restaurante guvernate",
           "description": "Schema unificată pentru POS, muncă, inventar, livrare, rezervări, contabilitate. Fiecare metric definit o singură dată, folosit peste tot.",
           "product": "Sundae Core",
           "icon": "data"
@@ -1710,7 +1710,7 @@ export const generatedLocalCopy = {
       "howDescription": "แพลตฟอร์มเดียว สิบสองโดเมน ไม่มีการเดินสาย.",
       "howSundaeHelps": [
         {
-          "title": "โมเดลข้อมูลร้านอาหารที่มีการควบคุมมากกว่า 179 รายการ",
+          "title": "โมเดลข้อมูลร้านอาหารที่มีการควบคุมมากกว่า 500 รายการ",
           "description": "สคีมาที่รวมกันทั่วทั้ง POS, แรงงาน, สินค้าคงคลัง, การจัดส่ง, การจอง, การบัญชี ทุกเมตริกถูกกำหนดไว้เพียงครั้งเดียว ใช้ได้ทุกที่",
           "product": "Sundae Core",
           "icon": "data"
@@ -1798,7 +1798,7 @@ export const generatedLocalCopy = {
       "howDescription": "Satu platform, dua belas domain, tiada paip.",
       "howSundaeHelps": [
         {
-          "title": "179+ model data restoran yang dikawal",
+          "title": "500+ model data restoran yang dikawal",
           "description": "Skema bersatu merentasi POS, tenaga kerja, inventori, penghantaran, tempahan, perakaunan. Setiap metrik ditakrifkan sekali, digunakan di mana-mana.",
           "product": "Sundae Core",
           "icon": "data"

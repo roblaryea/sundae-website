@@ -118,7 +118,7 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
       { title: "Foundation / Infrastructure", subtitle: "Base Layer", description: "Secure pipelines, API ingestion, normalization, governance", color: "bg-gradient-to-r from-amber-700 to-orange-800", icon: "network" },
     ],
     steps: [
-      { step: "1", title: "Data Collection", description: "Scout connects to 30+ restaurant systems across 12 data domains and external sources", icon: "integration" },
+      { step: "1", title: "Data Collection", description: "Scout connects to 250+ restaurant systems across 12 data domains and external sources", icon: "integration" },
       { step: "2", title: "AI Processing", description: "Multi-agent AI analyzes patterns and generates insights", icon: "intelligence" },
       { step: "3", title: "Intelligence Delivery", description: "Actionable recommendations delivered through language and visualizations", icon: "insights" },
     ],
@@ -128,7 +128,7 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
       { name: "Context Agents", description: "Understand operational context, location specifics, and business rules to provide relevant insights", icon: "intelligence" },
     ],
     modules: [
-      { name: "Scout", description: "Universal data integration layer connecting 30+ restaurant systems across 12 data domains", icon: "scout", features: ["POS Integration", "Labor Systems", "Inventory", "Real-time Sync"], colorClass: "component-icon--scout" },
+      { name: "Scout", description: "Universal data integration layer connecting 250+ restaurant systems across 12 data domains", icon: "scout", features: ["POS Integration", "Labor Systems", "Inventory", "Real-time Sync"], colorClass: "component-icon--scout" },
       { name: "Pulse", description: "AI-powered anomaly detection and real-time alert system", icon: "pulse", features: ["Anomaly Detection", "Real-time Alerts", "Pattern Analysis", "Threshold Monitoring"], colorClass: "component-icon--pulse" },
       { name: "Forge", description: "Conversational AI engine for natural language intelligence", icon: "forge", features: ["Natural Language", "Context Understanding", "Query Engine", "AI Responses"], colorClass: "component-icon--forge" },
       { name: "Canvas", description: "Dynamic visualization and dashboard intelligence layer", icon: "canvas", features: ["Real-time Dashboards", "Custom Views", "Visual Analytics", "Interactive Reports"], colorClass: "component-icon--canvas" },
@@ -258,7 +258,7 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
       { name: "Agents de contexte", description: "Comprennent le contexte opérationnel, les spécificités de site et les règles métier", icon: "intelligence" },
     ],
     modules: [
-      { name: "Scout", description: "Couche d'intégration universelle reliant 30+ systèmes sur 12 domaines", icon: "scout", features: ["Intégration POS", "Systèmes de main-d'oeuvre", "Stock", "Synchronisation temps réel"], colorClass: "component-icon--scout" },
+      { name: "Scout", description: "Couche d'intégration universelle reliant 250+ systèmes sur 12 domaines", icon: "scout", features: ["Intégration POS", "Systèmes de main-d'oeuvre", "Stock", "Synchronisation temps réel"], colorClass: "component-icon--scout" },
       { name: "Pulse", description: "Détection d'anomalies assistée par IA et alertes en temps réel", icon: "pulse", features: ["Détection d'anomalies", "Alertes temps réel", "Analyse de motifs", "Surveillance des seuils"], colorClass: "component-icon--pulse" },
       { name: "Forge", description: "Moteur d'IA conversationnelle en langage naturel", icon: "forge", features: ["Langage naturel", "Compréhension du contexte", "Moteur de requête", "Réponses IA"], colorClass: "component-icon--forge" },
       { name: "Canvas", description: "Couche de visualisation dynamique et d'intelligence de dashboard", icon: "canvas", features: ["Dashboards temps réel", "Vues personnalisées", "Analytique visuelle", "Rapports interactifs"], colorClass: "component-icon--canvas" },

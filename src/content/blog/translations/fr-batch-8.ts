@@ -829,7 +829,7 @@ Le passage des dashboards à l’intelligence décisionnelle a des implications 
 
 Sundae n’est pas un meilleur dashboard. Ce n’est pas un outil BI plus joli. Ce n’est pas une autre plateforme d’analytics avec une couche restauration.
 
-Sundae est une intelligence décisionnelle conçue pour les opérations restauration. Six couches - Pulse pour le monitoring temps réel, Benchmarks pour le contexte concurrentiel, Watchtower pour l’intelligence marché, Insights pour l’analyse approfondie sur 14 modules, Intelligence pour l’IA conversationnelle, et Foresight pour les modèles prédictifs et prescriptifs - qui travaillent ensemble pour délivrer l’unique chose qui compte: **de meilleures décisions, plus vite**.
+Sundae est une intelligence décisionnelle conçue pour les opérations restauration. Six couches - Pulse pour le monitoring temps réel, Benchmarks pour le contexte concurrentiel, Watchtower pour l’intelligence marché, Insights pour l’analyse approfondie sur 12 modules, Intelligence pour l’IA conversationnelle, et Foresight pour les modèles prédictifs et prescriptifs - qui travaillent ensemble pour délivrer l’unique chose qui compte: **de meilleures décisions, plus vite**.
 
 Le framework 4D Intelligence - Actual, Plan, Benchmark et Prediction - garantit que chaque métrique affichée arrive avec le contexte complet nécessaire à l’action. Pas seulement "ce qui s’est passé", mais "ce que cela signifie, pourquoi c’est important et ce que vous devriez faire".
 

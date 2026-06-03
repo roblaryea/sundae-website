@@ -5,10 +5,40 @@ import ts from 'typescript'
 const root = process.cwd()
 const generatedDir = path.join(root, 'src/generated-locales')
 
+const requiredLocales = [
+  'en',
+  'ar',
+  'fr',
+  'es',
+  'de',
+  'nl',
+  'pt',
+  'hi',
+  'ur',
+  'it',
+  'pl',
+  'tr',
+  'zh-Hans',
+  'ja',
+  'ko',
+  'id',
+  'vi',
+  'ro',
+  'sv',
+  'bn',
+  'th',
+  'ms',
+]
+
 const provenanceFiles = [
   'src/lib/generatedWebsiteMessageOverrides.ts',
   'src/lib/generatedUiLabels.ts',
   ...fs.readdirSync(generatedDir).filter((item) => item.endsWith('.ts')).map((item) => `src/generated-locales/${item}`),
+]
+
+const localizedCopyExports = [
+  { relativePath: 'src/components/home/heroDashboardCopy.ts', exportName: 'heroDashboardCopy' },
+  { relativePath: 'src/components/home/sections/editorialCopy.ts', exportName: 'editorialCopy' },
 ]
 
 const structuralKeys = new Set([
@@ -29,6 +59,19 @@ const structuralKeys = new Set([
   'variant',
   'type',
   'trendUp',
+])
+
+const allowedIdenticalLocalizedStrings = new Set([
+  'Sundae',
+  'Sundae Coach',
+  'Pulse',
+  'P&L',
+  'NPS',
+  'POS',
+  'Live',
+  'Service',
+  'Marketing',
+  'Upsell',
 ])
 
 const protectedTerms = [
@@ -196,6 +239,79 @@ function stringContainsLiteralPhrase(value, phrase) {
   return value.includes(phrase)
 }
 
+function placeholders(value) {
+  if (typeof value !== 'string') return []
+  return [...value.matchAll(/\{[^}]+\}/g)].map((match) => match[0]).sort()
+}
+
+function isAllowedIdenticalLocalizedString(value) {
+  if (typeof value !== 'string') return true
+  if (allowedIdenticalLocalizedStrings.has(value)) return true
+  if (!/[A-Za-z]{3,}/.test(value)) return true
+  if (/^[-+]?[$€£A-Z]{0,4}\s?[0-9.,%\s/+:-]+(?:vs\s[A-Za-z]+)?$/i.test(value)) return true
+  return false
+}
+
+function auditLocalizedCopyExport({ relativePath, exportName }, failures) {
+  const absolutePath = path.join(root, relativePath)
+  if (!fs.existsSync(absolutePath)) {
+    failures.push(`${relativePath}: localized copy export file is missing`)
+    return
+  }
+
+  const localizedCopy = parseExport(absolutePath, exportName)
+  if (!localizedCopy || typeof localizedCopy !== 'object') {
+    failures.push(`${relativePath}: export "${exportName}" could not be parsed as a locale map`)
+    return
+  }
+
+  const missingLocales = requiredLocales.filter((locale) => !(locale in localizedCopy))
+  if (missingLocales.length) {
+    failures.push(`${relativePath}.${exportName}: missing locale(s): ${missingLocales.join(', ')}`)
+  }
+
+  const english = localizedCopy.en
+  if (!english) return
+
+  for (const locale of requiredLocales.filter((item) => item !== 'en')) {
+    const localized = localizedCopy[locale]
+    if (!localized) continue
+
+    walk(localized, (value, parts) => {
+      if (typeof value !== 'string') return
+
+      const englishValue = getAtPath(english, parts)
+      const pathLabel = `${relativePath}.${exportName}.${locale}.${parts.join('.')}`
+      if (typeof englishValue !== 'string') return
+
+      const englishPlaceholders = placeholders(englishValue)
+      const localizedPlaceholders = placeholders(value)
+      if (englishPlaceholders.join('|') !== localizedPlaceholders.join('|')) {
+        failures.push(
+          `${pathLabel}: placeholder mismatch, expected ${englishPlaceholders.join(', ') || 'none'} but found ${
+            localizedPlaceholders.join(', ') || 'none'
+          }`,
+        )
+      }
+
+      const key = parts.at(-1)
+      if (structuralKeys.has(String(key)) && value !== englishValue) {
+        failures.push(`${pathLabel}: structural value changed from "${englishValue}" to "${value}"`)
+      }
+
+      if (value === englishValue && !isAllowedIdenticalLocalizedString(value)) {
+        failures.push(`${pathLabel}: untranslated English copy "${value}"`)
+      }
+
+      for (const phrase of literalPhraseRules[locale] ?? []) {
+        if (stringContainsLiteralPhrase(value, phrase)) {
+          failures.push(`${pathLabel}: literal/awkward phrase "${phrase}"`)
+        }
+      }
+    })
+  }
+}
+
 function auditGeneratedFile(filePath, failures) {
   const text = fs.readFileSync(filePath, 'utf8')
   const rel = path.relative(root, filePath)
@@ -257,6 +373,10 @@ for (const relativePath of provenanceFiles) {
 
 for (const file of fs.readdirSync(generatedDir).filter((item) => item.endsWith('.ts'))) {
   auditGeneratedFile(path.join(generatedDir, file), failures)
+}
+
+for (const localizedCopyExport of localizedCopyExports) {
+  auditLocalizedCopyExport(localizedCopyExport, failures)
 }
 
 if (failures.length) {

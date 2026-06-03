@@ -640,7 +640,7 @@ export function IntegrationsHubMockup() {
         </div>
 
         <MockupAlert type="info">
-          179 governed data models · public API · webhooks · RBAC · audit trails
+          500 governed data models · public API · webhooks · RBAC · audit trails
         </MockupAlert>
       </div>
     </MockupFrame>

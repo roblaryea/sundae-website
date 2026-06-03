@@ -97,7 +97,7 @@ const localizedCoreCopy = {
     },
     integrations: {
       heading: "Connect All Your Systems",
-      description: "Core connects across 12 data domains with 80+ vendor integrations.",
+      description: "Core connects across 12 data domains with 250+ vendor integrations.",
       items: [
         { category: "POS Systems", examples: "Oracle MICROS Simphony, Square, Toast, Clover, plus direct database connectors", icon: "integration" as SundaeIconName },
         { category: "Labor/Workforce", examples: "7shifts, HotSchedules, Deputy", icon: "benchmarking" as SundaeIconName },

@@ -18,7 +18,7 @@ const aboutCopy = {
     description: "Restaurant data usually lives in a dozen disconnected systems. Sundae pulls that operating picture into one place so teams can make decisions with current numbers, market context, and forward-looking signals.",
     stats: [
       { value: "6", label: "Platform Pillars" },
-      { value: "30+", label: "Intelligence Modules" },
+      { value: "12", label: "Intelligence Modules" },
       { value: "12", label: "Data Domains" },
       { value: "3", label: "Countries Active" },
     ],
@@ -46,7 +46,7 @@ const aboutCopy = {
     ctaPrimary: "Book a Demo",
     ctaSecondary: "We're Hiring",
     pillars: ["Pulse", "Benchmarks", "Watchtower", "Insights", "Intelligence", "Foresight"],
-    pillarsSubtitle: ["Real-Time Operations", "Competitive Intelligence", "Market Intelligence", "30+ Analytics Modules", "Conversational AI", "Predictive Intelligence"],
+    pillarsSubtitle: ["Real-Time Operations", "Competitive Intelligence", "Market Intelligence", "12 Analytics Modules", "Conversational AI", "Predictive Intelligence"],
     leadership: [
       { name: "Robert Laryea", role: "Founder & CEO", location: "Dubai", image: "/team/robert-laryea.jpg", bullets: ["Scaled multi-unit restaurant concepts from zero to $10M+ annual revenue", "Saw first-hand how fragmented data costs operators millions in margin leakage", "20+ years leading transformation programs across consulting and F&B", "Built Sundae to give restaurant groups the operating intelligence he wished they had earlier"] },
       { name: "Daanish Siddiqui", role: "Chief Growth Officer", location: "Dubai", image: "/team/daanish-siddiqui.jpg", bullets: ["5x founder with 2 successful exits and experience building businesses past $100M", "Specialist in 0→1 category creation and product-led growth", "18+ years in product, marketing, and go-to-market execution", "Leads Sundae's market position across restaurant intelligence and growth"] },
@@ -56,13 +56,13 @@ const aboutCopy = {
     milestones: [
       { year: "2025", title: "Sundae Founded", description: "Built from direct operator pain - fragmented data costing multi-unit groups millions in invisible margin loss." },
       { year: "2025", title: "First Deployments", description: "Partnered with multi-brand restaurant groups across UAE and Canada. Real data, real operators, real decisions from day one." },
-      { year: "2026", title: "30+ Modules Live", description: "Revenue, labor, inventory, delivery, reservations, purchasing, marketing, and profit intelligence - all unified across 12 operational domains." },
+      { year: "2026", title: "12 Modules Live", description: "Revenue, labor, inventory, delivery, reservations, purchasing, marketing, and profit intelligence - all unified across 12 operational domains." },
       { year: "2026", title: "GCC & North America", description: "Enterprise hospitality groups adopting Sundae platform-wide across UAE, KSA, Qatar, and North America." },
       { year: "2027+", title: "Global Expansion", description: "Scaling into Europe and Asia Pacific. Enterprise intelligence for multi-country restaurant brands." },
     ],
     values: [
       { title: "Operators First", description: "Every feature exists because an operator needed it. We don't build for demos - we build for shifts.", proof: "Built by a team that scaled restaurants to $10M+ before writing a line of code.", icon: "owners" },
-      { title: "Intelligence First", description: "Scattered data is expensive. We turn 12 systems into one intelligent layer that actually drives decisions.", proof: "30+ modules across 12 operational domains - from revenue to reservations.", icon: "insights" },
+      { title: "Intelligence First", description: "Scattered data is expensive. We turn 12 systems into one intelligent layer that actually drives decisions.", proof: "12 modules across 12 operational domains - from revenue to reservations.", icon: "insights" },
       { title: "Real-Time Decisions", description: "Weekly reports cost you money. The operators who win are the ones who see problems while they can still fix them.", proof: "Pulse refreshes every 5 minutes across every location.", icon: "speed" },
       { title: "Raise the Standard", description: "We want restaurant teams to expect more from their data stack than another static dashboard.", proof: "Active across 3 countries with enterprise groups adopting platform-wide.", icon: "growth" },
     ],
@@ -90,7 +90,7 @@ const aboutCopy = {
     description: "بياناتك موزعة عبر أكثر من 12 نظامًا منفصلًا، بينما يتخذ فريقك قرارات كبيرة كل يوم. تجمع Sundae هذه الصورة في مكان واحد حتى تعتمد القرارات على بيانات لحظية وسياق سوقي وتوقعات أوضح.",
     stats: [
       { value: "6", label: "دعائم المنصة" },
-      { value: "30+", label: "وحدات الذكاء" },
+      { value: "12", label: "وحدات الذكاء" },
       { value: "12", label: "مجالات البيانات" },
       { value: "3", label: "دول نشطة" },
     ],
@@ -118,7 +118,7 @@ const aboutCopy = {
     ctaPrimary: "احجز عرضًا",
     ctaSecondary: "نحن نوظف",
     pillars: ["Pulse", "Benchmarks", "Watchtower", "Insights", "Intelligence", "Foresight"],
-    pillarsSubtitle: ["عمليات لحظية", "ذكاء تنافسي", "ذكاء سوقي", "30+ وحدة تحليل", "ذكاء محادثي", "ذكاء تنبؤي"],
+    pillarsSubtitle: ["عمليات لحظية", "ذكاء تنافسي", "ذكاء سوقي", "12 وحدة تحليل", "ذكاء محادثي", "ذكاء تنبؤي"],
     leadership: [
       { name: "Robert Laryea", role: "المؤسس والرئيس التنفيذي", location: "دبي", image: "/team/robert-laryea.jpg", bullets: ["وسّع مفاهيم مطاعم متعددة الفروع من الصفر إلى أكثر من 10 ملايين دولار سنويًا", "رأى كيف تكلف البيانات المجزأة المشغلين ملايين في خسائر هامشية غير مرئية", "أكثر من 20 سنة في برامج التحول العالمية عبر الاستشارات والمأكولات والمشروبات", "بنى Sundae ليمنح مجموعات المطاعم نظام قرار موحدًا كان ينقصها في التشغيل اليومي"] },
       { name: "Daanish Siddiqui", role: "الرئيس التنفيذي للنمو", location: "دبي", image: "/team/daanish-siddiqui.jpg", bullets: ["مؤسس 5 مرات مع خروجين ناجحين - حوّل الأفكار إلى أعمال تتجاوز 100 مليون دولار", "متخصص في بناء الفئات من الصفر والنمو بقيادة المنتج", "18+ سنة في المنتج والتسويق والتنفيذ السوقي", "يقود تموضع Sundae كمنصة مميزة لذكاء المطاعم"] },
@@ -153,7 +153,7 @@ const aboutCopy = {
     description: "Vos données vivent dans plus de 12 systèmes déconnectés, alors que vos équipes prennent des décisions importantes tous les jours. Sundae remet cette vue au même endroit pour que chaque décision s'appuie sur des données temps réel, du contexte marché et une lecture plus claire de la suite.",
     stats: [
       { value: "6", label: "Piliers de la plateforme" },
-      { value: "30+", label: "Modules d'intelligence" },
+      { value: "12", label: "Modules d'intelligence" },
       { value: "12", label: "Domaines de données" },
       { value: "3", label: "Pays actifs" },
     ],
@@ -181,7 +181,7 @@ const aboutCopy = {
     ctaPrimary: "Reserver une demo",
     ctaSecondary: "Nous recrutons",
     pillars: ["Pulse", "Benchmarks", "Watchtower", "Insights", "Intelligence", "Foresight"],
-    pillarsSubtitle: ["Opérations temps réel", "Intelligence concurrentielle", "Intelligence marché", "30+ modules analytiques", "IA conversationnelle", "Intelligence prédictive"],
+    pillarsSubtitle: ["Opérations temps réel", "Intelligence concurrentielle", "Intelligence marché", "12 modules analytiques", "IA conversationnelle", "Intelligence prédictive"],
     leadership: [
       { name: "Robert Laryea", role: "Fondateur & CEO", location: "Dubaï", image: "/team/robert-laryea.jpg", bullets: ["A développé des concepts restaurant multi-sites de zéro à plus de 10 M$ de revenus annuels", "A constaté combien les données fragmentées coûtent aux opérateurs en marge invisible", "20+ ans à diriger des programmes de transformation mondiaux en conseil et F&B", "A créé Sundae pour donner aux groupes restaurant un système de décision unifié qui manquait dans l'exploitation quotidienne"] },
       { name: "Daanish Siddiqui", role: "Chief Growth Officer", location: "Dubaï", image: "/team/daanish-siddiqui.jpg", bullets: ["Fondateur 5 fois avec 2 sorties réussies - a transformé des idées en entreprises à 100 M$+", "Spécialiste de la création de catégories et du product-led growth", "18+ ans en produit, marketing et go-to-market", "Pilote le positionnement de Sundae auprès des groupes qui veulent structurer leurs décisions à grande échelle"] },
@@ -191,13 +191,13 @@ const aboutCopy = {
     milestones: [
       { year: "2025", title: "Fondation de Sundae", description: "Née d'une douleur opérateur directe - des données fragmentées coûtant des millions en marge invisible." },
       { year: "2025", title: "Premiers déploiements", description: "Partenariats avec des groupes multi-marques aux Émirats et au Canada. Vraies données, vrais opérateurs, vraies décisions dès le premier jour." },
-      { year: "2026", title: "30+ modules en ligne", description: "Intelligence revenus, main-d'oeuvre, stock, livraison, réservations, achats, marketing et profit - unifiée sur 12 domaines." },
+      { year: "2026", title: "12 modules en ligne", description: "Intelligence revenus, main-d'oeuvre, stock, livraison, réservations, achats, marketing et profit - unifiée sur 12 domaines." },
       { year: "2026", title: "GCC et Amérique du Nord", description: "Des groupes hospitality adoptent Sundae à l'échelle plateforme aux Émirats, en KSA, au Qatar et en Amérique du Nord." },
       { year: "2027+", title: "Expansion mondiale", description: "Expansion vers l'Europe et l'Asie-Pacifique. Intelligence enterprise pour marques multi-pays." },
     ],
     values: [
       { title: "Opérateurs d'abord", description: "Chaque fonctionnalité existe parce qu'un opérateur en avait besoin. Nous ne construisons pas pour les démos - nous construisons pour les services.", proof: "Construit par une équipe qui a porté des restaurants à plus de 10 M$ avant d'écrire une ligne de code.", icon: "owners" },
-      { title: "Intelligence d'abord", description: "Les données dispersées coûtent cher. Nous transformons 12 systèmes en une couche intelligente qui aide vraiment à décider.", proof: "30+ modules sur 12 domaines opérationnels - du revenu aux réservations.", icon: "insights" },
+      { title: "Intelligence d'abord", description: "Les données dispersées coûtent cher. Nous transformons 12 systèmes en une couche intelligente qui aide vraiment à décider.", proof: "12 modules sur 12 domaines opérationnels - du revenu aux réservations.", icon: "insights" },
       { title: "Décisions temps réel", description: "Les rapports hebdomadaires vous coûtent de l'argent. Les opérateurs qui gagnent voient les problèmes à temps pour les corriger.", proof: "Pulse se rafraîchit toutes les 5 minutes sur chaque site.", icon: "speed" },
       { title: "Relever le standard", description: "Nous définissons la référence de la décision opérationnelle pour les groupes restaurant du monde entier.", proof: "Actifs dans 3 pays avec des groupes enterprise qui adoptent la plateforme.", icon: "growth" },
     ],
@@ -216,7 +216,7 @@ const aboutCopy = {
     description: "Tus datos viven en más de 12 sistemas desconectados y tu equipo toma decisiones importantes todos los días. Sundae reúne esa visión en un solo lugar para que cada decisión se apoye en datos en tiempo real, contexto de mercado y una lectura más clara de lo que viene.",
     stats: [
       { value: "6", label: "Pilares de la plataforma" },
-      { value: "30+", label: "Módulos de inteligencia" },
+      { value: "12", label: "Módulos de inteligencia" },
       { value: "12", label: "Dominios de datos" },
       { value: "3", label: "Países activos" },
     ],
@@ -244,7 +244,7 @@ const aboutCopy = {
     ctaPrimary: "Reservar una demo",
     ctaSecondary: "Estamos contratando",
     pillars: ["Pulse", "Benchmarks", "Watchtower", "Insights", "Intelligence", "Foresight"],
-    pillarsSubtitle: ["Operaciones en tiempo real", "Inteligencia competitiva", "Inteligencia de mercado", "30+ módulos analíticos", "IA conversacional", "Inteligencia predictiva"],
+    pillarsSubtitle: ["Operaciones en tiempo real", "Inteligencia competitiva", "Inteligencia de mercado", "12 módulos analíticos", "IA conversacional", "Inteligencia predictiva"],
     leadership: [
       { name: "Robert Laryea", role: "Fundador y CEO", location: "Dubái", image: "/team/robert-laryea.jpg", bullets: ["Escaló conceptos de restaurantes multilocal desde cero hasta más de 10 M$ en ingresos anuales", "Vio cómo los datos fragmentados cuestan a los operadores millones en fuga de margen", "Más de 20 años liderando programas de transformación global en consultoría y F&B", "Creó Sundae para dar a los grupos de restaurantes un sistema de decisiones unificado que faltaba en la operación diaria"] },
       { name: "Daanish Siddiqui", role: "Chief Growth Officer", location: "Dubái", image: "/team/daanish-siddiqui.jpg", bullets: ["Fundador 5 veces con 2 salidas exitosas - convirtió ideas en empresas de más de 100 M$", "Especialista en creación de categorías y crecimiento liderado por producto", "18+ años en producto, marketing y go-to-market", "Lidera el posicionamiento de Sundae para grupos que quieren ordenar sus decisiones a gran escala"] },
@@ -254,13 +254,13 @@ const aboutCopy = {
     milestones: [
       { year: "2025", title: "Fundación de Sundae", description: "Nacida del dolor directo del operador - datos fragmentados costando millones en margen invisible." },
       { year: "2025", title: "Primeros despliegues", description: "Alianzas con grupos multi-marca en EAU y Canadá. Datos reales, operadores reales, decisiones reales desde el primer día." },
-      { year: "2026", title: "30+ módulos en vivo", description: "Inteligencia de ingresos, personal, inventario, delivery, reservas, compras, marketing y beneficio - unificada en 12 dominios." },
+      { year: "2026", title: "12 módulos en vivo", description: "Inteligencia de ingresos, personal, inventario, delivery, reservas, compras, marketing y beneficio - unificada en 12 dominios." },
       { year: "2026", title: "GCC y Norteamérica", description: "Grupos hospitality adoptan Sundae a nivel de plataforma en EAU, KSA, Qatar y Norteamérica." },
       { year: "2027+", title: "Expansión global", description: "Expansión a Europa y Asia Pacífico. Inteligencia empresarial para marcas multinacionales de restaurantes." },
     ],
     values: [
       { title: "Operadores primero", description: "Cada función existe porque un operador la necesitó. No construimos para demos - construimos para los turnos.", proof: "Construido por un equipo que escaló restaurantes a más de 10 M$ antes de escribir una sola línea de código.", icon: "owners" },
-      { title: "Inteligencia primero", description: "Los datos dispersos cuestan dinero. Convertimos 12 sistemas en una sola capa inteligente que realmente impulsa decisiones.", proof: "30+ módulos en 12 dominios operativos - de ingresos a reservas.", icon: "insights" },
+      { title: "Inteligencia primero", description: "Los datos dispersos cuestan dinero. Convertimos 12 sistemas en una sola capa inteligente que realmente impulsa decisiones.", proof: "12 módulos en 12 dominios operativos - de ingresos a reservas.", icon: "insights" },
       { title: "Decisiones en tiempo real", description: "Los informes semanales te cuestan dinero. Los operadores que ganan ven los problemas a tiempo para arreglarlos.", proof: "Pulse se refresca cada 5 minutos en todas las ubicaciones.", icon: "speed" },
       { title: "Subir el estándar", description: "Estamos definiendo cómo los grupos de restaurantes toman decisiones operativas en todo el mundo.", proof: "Activos en 3 países con grupos enterprise adoptando la plataforma completa.", icon: "growth" },
     ],

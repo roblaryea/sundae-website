@@ -58,7 +58,7 @@ export const generatedLocalCopy = {
           "pain": "Zwölf Anbieter-APIs. Fünf Datenformate. Null einheitliches Schema.",
           "painCopy": "Jede neue Dashboard-Anfrage wird zu einem sechs Wochen dauernden Integrationsprojekt.",
           "outcome": "Eine Plattform, zwölf Bereiche, null Aufwand.",
-          "outcomeCopy": "POS, Personal, Inventar, Lieferung, Buchhaltung, Reservierungen — vereint in 179 verwalteten Datenmodellen. RBAC, Prüfprotokolle, öffentliche API, Webhooks. Fertig konfiguriert."
+          "outcomeCopy": "POS, Personal, Inventar, Lieferung, Buchhaltung, Reservierungen — vereint in 500 verwalteten Datenmodellen. RBAC, Prüfprotokolle, öffentliche API, Webhooks. Fertig konfiguriert."
         }
       ]
     },
@@ -118,7 +118,7 @@ export const generatedLocalCopy = {
           "pain": "Douze API de fournisseurs. Cinq formats de données. Aucun schéma unifié.",
           "painCopy": "Chaque nouvelle demande de tableau de bord devient un projet d'intégration de six semaines.",
           "outcome": "Une plateforme, douze domaines, aucune plomberie.",
-          "outcomeCopy": "POS, main-d'œuvre, inventaire, livraison, comptabilité, réservations — unifiés en 179 modèles de données régis. RBAC, pistes d'audit, API publique, webhooks. Prêt à l'emploi."
+          "outcomeCopy": "POS, main-d'œuvre, inventaire, livraison, comptabilité, réservations — unifiés en 500 modèles de données régis. RBAC, pistes d'audit, API publique, webhooks. Prêt à l'emploi."
         }
       ]
     },
@@ -178,7 +178,7 @@ export const generatedLocalCopy = {
           "pain": "Twaalf leveranciers-API's. Vijf gegevensformaten. Geen uniforme schema.",
           "painCopy": "Elke nieuwe dashboardaanvraag wordt een integratieproject van zes weken.",
           "outcome": "Één platform, twaalf domeinen, geen gedoe.",
-          "outcomeCopy": "POS, arbeid, voorraad, levering, boekhouding, reserveringen — verenigd in 179 beheerde datamodellen. RBAC, auditsporen, openbare API, webhooks. Klaar voor gebruik."
+          "outcomeCopy": "POS, arbeid, voorraad, levering, boekhouding, reserveringen — verenigd in 500 beheerde datamodellen. RBAC, auditsporen, openbare API, webhooks. Klaar voor gebruik."
         }
       ]
     },
@@ -238,7 +238,7 @@ export const generatedLocalCopy = {
           "pain": "اثنا عشر واجهة برمجة تطبيقات للبائعين. خمسة تنسيقات بيانات. صفر مخطط موحد.",
           "painCopy": "كل طلب لوحة معلومات جديدة يصبح مشروع تكامل يستغرق ستة أسابيع.",
           "outcome": "منصة واحدة، اثنا عشر مجالًا، صفر أنابيب.",
-          "outcomeCopy": "POS، العمل، المخزون، التسليم، المحاسبة، الحجوزات - موحدة في 179 نموذج بيانات محكوم. RBAC، مسارات التدقيق، واجهة برمجة التطبيقات العامة، webhooks. جاهز للاستخدام."
+          "outcomeCopy": "POS، العمل، المخزون، التسليم، المحاسبة، الحجوزات - موحدة في 500 نموذج بيانات محكوم. RBAC، مسارات التدقيق، واجهة برمجة التطبيقات العامة، webhooks. جاهز للاستخدام."
         }
       ]
     },
@@ -298,7 +298,7 @@ export const generatedLocalCopy = {
           "pain": "Doce APIs de proveedores. Cinco formatos de datos. Cero esquema unificado.",
           "painCopy": "Cada nueva solicitud de panel se convierte en un proyecto de integración de seis semanas.",
           "outcome": "Una plataforma, doce dominios, cero plomería.",
-          "outcomeCopy": "POS, mano de obra, inventario, entrega, contabilidad, reservas — unificados en 179 modelos de datos gobernados. RBAC, registros de auditoría, API pública, webhooks. Listo para usar."
+          "outcomeCopy": "POS, mano de obra, inventario, entrega, contabilidad, reservas — unificados en 500 modelos de datos gobernados. RBAC, registros de auditoría, API pública, webhooks. Listo para usar."
         }
       ]
     },
@@ -358,7 +358,7 @@ export const generatedLocalCopy = {
           "pain": "Doze APIs de fornecedores. Cinco formatos de dados. Nenhum esquema unificado.",
           "painCopy": "Cada nova solicitação de dashboard se torna um projeto de integração de seis semanas.",
           "outcome": "Uma plataforma, doze domínios, nenhuma complexidade.",
-          "outcomeCopy": "POS, mão de obra, inventário, entrega, contabilidade, reservas — unificados em 179 modelos de dados governados. RBAC, trilhas de auditoria, API pública, webhooks. Pronto para uso."
+          "outcomeCopy": "POS, mão de obra, inventário, entrega, contabilidade, reservas — unificados em 500 modelos de dados governados. RBAC, trilhas de auditoria, API pública, webhooks. Pronto para uso."
         }
       ]
     },
@@ -418,7 +418,7 @@ export const generatedLocalCopy = {
           "pain": "بارہ وینڈر APIs۔ پانچ ڈیٹا فارمیٹس۔ صفر متحد اسکیمہ۔",
           "painCopy": "ہر نئے ڈیش بورڈ کی درخواست چھ ہفتوں کے انضمام کے پروجیکٹ میں تبدیل ہو جاتی ہے۔",
           "outcome": "ایک پلیٹ فارم، بارہ ڈومین، صفر پلمبنگ۔",
-          "outcomeCopy": "POS، محنت، انوینٹری، ترسیل، اکاؤنٹنگ، ریزرویشنز — 179 منظم کردہ ڈیٹا ماڈلز میں متحد۔ RBAC، آڈٹ ٹریلز، عوامی API، ویب ہکس۔ باکس سے باہر۔"
+          "outcomeCopy": "POS، محنت، انوینٹری، ترسیل، اکاؤنٹنگ، ریزرویشنز — 500 منظم کردہ ڈیٹا ماڈلز میں متحد۔ RBAC، آڈٹ ٹریلز، عوامی API، ویب ہکس۔ باکس سے باہر۔"
         }
       ]
     },
@@ -478,7 +478,7 @@ export const generatedLocalCopy = {
           "pain": "बारह विक्रेता API। पांच डेटा प्रारूप। शून्य एकीकृत स्कीमा।",
           "painCopy": "हर नए डैशबोर्ड अनुरोध एक छह-सप्ताह का एकीकरण प्रोजेक्ट बन जाता है।",
           "outcome": "एक प्लेटफ़ॉर्म, बारह डोमेन, शून्य प्लंबिंग।",
-          "outcomeCopy": "POS, श्रम, इन्वेंटरी, डिलीवरी, लेखांकन, आरक्षण — 179 शासित डेटा मॉडल में एकीकृत। RBAC, ऑडिट ट्रेल्स, सार्वजनिक API, वेबहुक। बॉक्स से बाहर।"
+          "outcomeCopy": "POS, श्रम, इन्वेंटरी, डिलीवरी, लेखांकन, आरक्षण — 500 शासित डेटा मॉडल में एकीकृत। RBAC, ऑडिट ट्रेल्स, सार्वजनिक API, वेबहुक। बॉक्स से बाहर।"
         }
       ]
     },
@@ -538,7 +538,7 @@ export const generatedLocalCopy = {
           "pain": "On iki satıcı API'si. Beş veri formatı. Sıfır birleşik şema.",
           "painCopy": "Her yeni gösterge paneli talebi altı haftalık bir entegrasyon projesine dönüşüyor.",
           "outcome": "Bir platform, on iki alan, sıfır altyapı.",
-          "outcomeCopy": "POS, iş gücü, envanter, teslimat, muhasebe, rezervasyon — 179 yönetilen veri modeline birleştirildi. RBAC, denetim izleri, genel API, web kancaları. Kutudan çıktığı gibi."
+          "outcomeCopy": "POS, iş gücü, envanter, teslimat, muhasebe, rezervasyon — 500 yönetilen veri modeline birleştirildi. RBAC, denetim izleri, genel API, web kancaları. Kutudan çıktığı gibi."
         }
       ]
     },
@@ -598,7 +598,7 @@ export const generatedLocalCopy = {
           "pain": "Dodici API di fornitori. Cinque formati di dati. Zero schema unificato.",
           "painCopy": "Ogni nuova richiesta di dashboard diventa un progetto di integrazione di sei settimane.",
           "outcome": "Una piattaforma, dodici domini, zero complessità.",
-          "outcomeCopy": "POS, lavoro, inventario, consegna, contabilità, prenotazioni — unificati in 179 modelli di dati governati. RBAC, registri di audit, API pubblica, webhook. Pronto all'uso."
+          "outcomeCopy": "POS, lavoro, inventario, consegna, contabilità, prenotazioni — unificati in 500 modelli di dati governati. RBAC, registri di audit, API pubblica, webhook. Pronto all'uso."
         }
       ]
     },
@@ -658,7 +658,7 @@ export const generatedLocalCopy = {
           "pain": "十二个供应商API。五种数据格式。零统一架构。",
           "painCopy": "每个新的仪表板请求都变成了六周的集成项目。",
           "outcome": "一个平台，十二个领域，零管道。",
-          "outcomeCopy": "POS、劳动力、库存、交付、会计、预订 — 统一为179个受管数据模型。RBAC、审计跟踪、公共API、webhooks。开箱即用。"
+          "outcomeCopy": "POS、劳动力、库存、交付、会计、预订 — 统一为500个受管数据模型。RBAC、审计跟踪、公共API、webhooks。开箱即用。"
         }
       ]
     },
@@ -718,7 +718,7 @@ export const generatedLocalCopy = {
           "pain": "Dwanaście API dostawców. Pięć formatów danych. Zero zjednoczonego schematu.",
           "painCopy": "Każda nowa prośba o pulpit staje się sześciotygodniowym projektem integracyjnym.",
           "outcome": "Jedna platforma, dwanaście obszarów, zero rur.",
-          "outcomeCopy": "POS, praca, zapasy, dostawy, księgowość, rezerwacje — zjednoczone w 179 zarządzanych modelach danych. RBAC, ścieżki audytu, publiczne API, webhooki. Gotowe do użycia."
+          "outcomeCopy": "POS, praca, zapasy, dostawy, księgowość, rezerwacje — zjednoczone w 500 zarządzanych modelach danych. RBAC, ścieżki audytu, publiczne API, webhooki. Gotowe do użycia."
         }
       ]
     },
@@ -778,7 +778,7 @@ export const generatedLocalCopy = {
           "pain": "12のベンダーAPI。5つのデータ形式。統一されたスキーマはゼロ。",
           "painCopy": "新しいダッシュボードのリクエストは、6週間の統合プロジェクトになります。",
           "outcome": "1つのプラットフォーム、12のドメイン、配管はゼロ。",
-          "outcomeCopy": "POS、労働、在庫、配送、会計、予約 — 179の管理されたデータモデルに統合。RBAC、監査証跡、公開API、Webhook。すぐに使用可能。"
+          "outcomeCopy": "POS、労働、在庫、配送、会計、予約 — 500の管理されたデータモデルに統合。RBAC、監査証跡、公開API、Webhook。すぐに使用可能。"
         }
       ]
     },
@@ -838,7 +838,7 @@ export const generatedLocalCopy = {
           "pain": "열두 개의 공급업체 API. 다섯 가지 데이터 형식. 통합 스키마 없음.",
           "painCopy": "모든 새로운 대시보드 요청은 6주간의 통합 프로젝트가 됩니다.",
           "outcome": "하나의 플랫폼, 열두 개의 도메인, 배관 없음.",
-          "outcomeCopy": "POS, 인력, 재고, 배송, 회계, 예약 — 179개의 관리 데이터 모델로 통합. RBAC, 감사 추적, 공개 API, 웹후크. 즉시 사용 가능."
+          "outcomeCopy": "POS, 인력, 재고, 배송, 회계, 예약 — 500개의 관리 데이터 모델로 통합. RBAC, 감사 추적, 공개 API, 웹후크. 즉시 사용 가능."
         }
       ]
     },
@@ -898,7 +898,7 @@ export const generatedLocalCopy = {
           "pain": "Mười hai API nhà cung cấp. Năm định dạng dữ liệu. Không có sơ đồ thống nhất.",
           "painCopy": "Mỗi yêu cầu bảng điều khiển mới trở thành một dự án tích hợp kéo dài sáu tuần.",
           "outcome": "Một nền tảng, mười hai miền, không cần ống dẫn.",
-          "outcomeCopy": "POS, lao động, tồn kho, giao hàng, kế toán, đặt chỗ — được thống nhất thành 179 mô hình dữ liệu được quản lý. RBAC, nhật ký kiểm toán, API công khai, webhook. Sẵn sàng sử dụng."
+          "outcomeCopy": "POS, lao động, tồn kho, giao hàng, kế toán, đặt chỗ — được thống nhất thành 500 mô hình dữ liệu được quản lý. RBAC, nhật ký kiểm toán, API công khai, webhook. Sẵn sàng sử dụng."
         }
       ]
     },
@@ -958,7 +958,7 @@ export const generatedLocalCopy = {
           "pain": "Dua belas API vendor. Lima format data. Tidak ada skema terpadu.",
           "painCopy": "Setiap permintaan dasbor baru menjadi proyek integrasi enam minggu.",
           "outcome": "Satu platform, dua belas domain, tanpa kerumitan.",
-          "outcomeCopy": "POS, tenaga kerja, inventaris, pengiriman, akuntansi, reservasi — disatukan dalam 179 model data yang diatur. RBAC, jejak audit, API publik, webhook. Siap pakai."
+          "outcomeCopy": "POS, tenaga kerja, inventaris, pengiriman, akuntansi, reservasi — disatukan dalam 500 model data yang diatur. RBAC, jejak audit, API publik, webhook. Siap pakai."
         }
       ]
     },
@@ -1018,7 +1018,7 @@ export const generatedLocalCopy = {
           "pain": "Douăsprezece API-uri de furnizori. Cinci formate de date. Zero schemă unificată.",
           "painCopy": "Fiecare nouă solicitare de tablou devine un proiect de integrare de șase săptămâni.",
           "outcome": "O platformă, douăsprezece domenii, zero instalații.",
-          "outcomeCopy": "POS, muncă, inventar, livrare, contabilitate, rezervări — unificate în 179 de modele de date guvernate. RBAC, trail-uri de audit, API public, webhooks. Din cutie."
+          "outcomeCopy": "POS, muncă, inventar, livrare, contabilitate, rezervări — unificate în 500 de modele de date guvernate. RBAC, trail-uri de audit, API public, webhooks. Din cutie."
         }
       ]
     },
@@ -1138,7 +1138,7 @@ export const generatedLocalCopy = {
           "pain": "API ของผู้ขายสิบสองราย รูปแบบข้อมูลห้ารายการ ไม่มีสคีมาที่รวมกัน",
           "painCopy": "คำขอแดชบอร์ดใหม่แต่ละครั้งกลายเป็นโครงการรวมระบบที่ใช้เวลาหกสัปดาห์",
           "outcome": "แพลตฟอร์มเดียว สิบสองโดเมน ไม่มีการเชื่อมต่อที่ซับซ้อน",
-          "outcomeCopy": "POS แรงงาน สินค้าคงคลัง การจัดส่ง การบัญชี การจอง — รวมอยู่ในโมเดลข้อมูลที่มีการควบคุม 179 โมเดล RBAC บันทึกการตรวจสอบ API สาธารณะ เว็บฮุค ใช้งานได้ทันที."
+          "outcomeCopy": "POS แรงงาน สินค้าคงคลัง การจัดส่ง การบัญชี การจอง — รวมอยู่ในโมเดลข้อมูลที่มีการควบคุม 500 โมเดล RBAC บันทึกการตรวจสอบ API สาธารณะ เว็บฮุค ใช้งานได้ทันที."
         }
       ]
     },
@@ -1198,7 +1198,7 @@ export const generatedLocalCopy = {
           "pain": "Tolv leverantörs-API:er. Fem dataformat. Noll enhetligt schema.",
           "painCopy": "Varje ny dashboardförfrågan blir ett sex veckors integrationsprojekt.",
           "outcome": "En plattform, tolv domäner, noll rörledning.",
-          "outcomeCopy": "POS, arbetskraft, lager, leverans, bokföring, reservationer — enhetligt i 179 styrda datamodeller. RBAC, revisionsspår, offentlig API, webhooks. Direkt ur lådan."
+          "outcomeCopy": "POS, arbetskraft, lager, leverans, bokföring, reservationer — enhetligt i 500 styrda datamodeller. RBAC, revisionsspår, offentlig API, webhooks. Direkt ur lådan."
         }
       ]
     },
@@ -1258,7 +1258,7 @@ export const generatedLocalCopy = {
           "pain": "Dua belas API vendor. Lima format data. Tiada skema bersatu.",
           "painCopy": "Setiap permintaan papan pemuka baru menjadi projek integrasi enam minggu.",
           "outcome": "Satu platform, dua belas domain, tiada paip.",
-          "outcomeCopy": "POS, buruh, inventori, penghantaran, perakaunan, tempahan — disatukan dalam 179 model data yang dikawal. RBAC, jejak audit, API awam, webhook. Siap sedia."
+          "outcomeCopy": "POS, buruh, inventori, penghantaran, perakaunan, tempahan — disatukan dalam 500 model data yang dikawal. RBAC, jejak audit, API awam, webhook. Siap sedia."
         }
       ]
     }

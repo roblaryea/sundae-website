@@ -23,9 +23,9 @@ export const generatedLocalCopy = {
         {
           "label": "الجودة",
           "headline": "مصمم للمطاعم. مُدار للقرارات.",
-          "body": "تأتي Sundae مع أكثر من 179 نموذج بيانات مطعم مُدار، ومعايير مرجعية قائمة على الأقران، وإجابات AI موثقة بالمصادر - لذا فإن الفرق لا تبني من لوحة BI فارغة.",
+          "body": "تأتي Sundae مع أكثر من 500 نموذج بيانات مطعم مُدار، ومعايير مرجعية قائمة على الأقران، وإجابات AI موثقة بالمصادر - لذا فإن الفرق لا تبني من لوحة BI فارغة.",
           "chips": [
-            "179+ نموذج",
+            "500+ نموذج",
             "AI موثقة بالمصادر",
             "معايير مرجعية من الأقران"
           ]
@@ -63,9 +63,9 @@ export const generatedLocalCopy = {
         {
           "label": "Qualité",
           "headline": "Conçu pour les restaurants. Régulé pour les décisions.",
-          "body": "Sundae est livré avec plus de 179 modèles de données de restaurants régulés, des benchmarks ancrés par les pairs, et des réponses AI citées par des sources — ainsi, les équipes ne partent pas d'une toile vierge de BI.",
+          "body": "Sundae est livré avec plus de 500 modèles de données de restaurants régulés, des benchmarks ancrés par les pairs, et des réponses AI citées par des sources — ainsi, les équipes ne partent pas d'une toile vierge de BI.",
           "chips": [
-            "Plus de 179 modèles",
+            "Plus de 500 modèles",
             "AI cité par des sources",
             "Benchmarks par les pairs"
           ]
@@ -103,9 +103,9 @@ export const generatedLocalCopy = {
         {
           "label": "Calidad",
           "headline": "Construido para restaurantes. Gobernado para decisiones.",
-          "body": "Sundae incluye más de 179 modelos de datos de restaurantes gobernados, benchmarks anclados en pares y respuestas de IA citadas por fuentes — así que los equipos no están construyendo desde un lienzo en blanco de BI.",
+          "body": "Sundae incluye más de 500 modelos de datos de restaurantes gobernados, benchmarks anclados en pares y respuestas de IA citadas por fuentes — así que los equipos no están construyendo desde un lienzo en blanco de BI.",
           "chips": [
-            "Más de 179 modelos",
+            "Más de 500 modelos",
             "IA citada por fuentes",
             "Benchmarks de pares"
           ]
@@ -143,9 +143,9 @@ export const generatedLocalCopy = {
         {
           "label": "Qualität",
           "headline": "Für Restaurants gebaut. Für Entscheidungen geregelt.",
-          "body": "Sundae wird mit über 179 geregelten Restaurantdatenmodellen, peer-gestützten Benchmarks und quellenzitierten KI-Antworten geliefert – sodass Teams nicht von einer leeren BI-Leinwand aus arbeiten müssen.",
+          "body": "Sundae wird mit über 500 geregelten Restaurantdatenmodellen, peer-gestützten Benchmarks und quellenzitierten KI-Antworten geliefert – sodass Teams nicht von einer leeren BI-Leinwand aus arbeiten müssen.",
           "chips": [
-            "Über 179 Modelle",
+            "Über 500 Modelle",
             "Quellenzitierte KI",
             "Peer-Benchmarks"
           ]
@@ -183,9 +183,9 @@ export const generatedLocalCopy = {
         {
           "label": "Kwaliteit",
           "headline": "Gebouwd voor restaurants. Beheerd voor beslissingen.",
-          "body": "Sundae wordt geleverd met 179+ beheerde restaurantdatamodellen, peer-gebaseerde benchmarks en bronvermelde AI-antwoorden — zodat teams niet vanaf een blanco BI-canvas hoeven te bouwen.",
+          "body": "Sundae wordt geleverd met 500+ beheerde restaurantdatamodellen, peer-gebaseerde benchmarks en bronvermelde AI-antwoorden — zodat teams niet vanaf een blanco BI-canvas hoeven te bouwen.",
           "chips": [
-            "179+ modellen",
+            "500+ modellen",
             "Bronvermelde AI",
             "Peer benchmarks"
           ]
@@ -223,9 +223,9 @@ export const generatedLocalCopy = {
         {
           "label": "Qualidade",
           "headline": "Construído para restaurantes. Governado para decisões.",
-          "body": "A Sundae vem com mais de 179 modelos de dados de restaurantes governados, benchmarks ancorados por pares e respostas de IA citadas por fontes — para que as equipes não construam a partir de uma tela em branco de BI.",
+          "body": "A Sundae vem com mais de 500 modelos de dados de restaurantes governados, benchmarks ancorados por pares e respostas de IA citadas por fontes — para que as equipes não construam a partir de uma tela em branco de BI.",
           "chips": [
-            "Mais de 179 modelos",
+            "Mais de 500 modelos",
             "IA citada por fontes",
             "Benchmarks de pares"
           ]
@@ -263,9 +263,9 @@ export const generatedLocalCopy = {
         {
           "label": "गुणवत्ता",
           "headline": "रेस्टोरेंट्स के लिए बनाया गया। निर्णयों के लिए शासित।",
-          "body": "Sundae 179+ शासित रेस्टोरेंट डेटा मॉडल, समकक्ष बेंचमार्क और स्रोत-उल्लेखित AI उत्तरों के साथ आता है — ताकि टीमें एक खाली BI कैनवास से न बनाएं।",
+          "body": "Sundae 500+ शासित रेस्टोरेंट डेटा मॉडल, समकक्ष बेंचमार्क और स्रोत-उल्लेखित AI उत्तरों के साथ आता है — ताकि टीमें एक खाली BI कैनवास से न बनाएं।",
           "chips": [
-            "179+ मॉडल",
+            "500+ मॉडल",
             "स्रोत-उल्लेखित AI",
             "समकक्ष बेंचमार्क"
           ]
@@ -303,9 +303,9 @@ export const generatedLocalCopy = {
         {
           "label": "معیار",
           "headline": "ریستورانوں کے لیے بنایا گیا۔ فیصلوں کے لیے منظم۔",
-          "body": "Sundae 179+ منظم ریستورانی ڈیٹا ماڈلز، ہم مرتبہ کی بنیاد پر بینچ مارکس، اور ماخذ کے حوالے سے AI جوابات کے ساتھ آتا ہے — تاکہ ٹیمیں خالی BI کینوس سے تعمیر نہ کریں۔",
+          "body": "Sundae 500+ منظم ریستورانی ڈیٹا ماڈلز، ہم مرتبہ کی بنیاد پر بینچ مارکس، اور ماخذ کے حوالے سے AI جوابات کے ساتھ آتا ہے — تاکہ ٹیمیں خالی BI کینوس سے تعمیر نہ کریں۔",
           "chips": [
-            "179+ ماڈلز",
+            "500+ ماڈلز",
             "ماخذ کے حوالے سے AI",
             "ہم مرتبہ بینچ مارکس"
           ]
@@ -343,9 +343,9 @@ export const generatedLocalCopy = {
         {
           "label": "Qualità",
           "headline": "Progettato per i ristoranti. Governato per le decisioni.",
-          "body": "Sundae viene fornito con oltre 179 modelli di dati governati per ristoranti, benchmark ancorati tra pari e risposte AI citate da fonti — così i team non devono partire da una tela BI vuota.",
+          "body": "Sundae viene fornito con oltre 500 modelli di dati governati per ristoranti, benchmark ancorati tra pari e risposte AI citate da fonti — così i team non devono partire da una tela BI vuota.",
           "chips": [
-            "Oltre 179 modelli",
+            "Oltre 500 modelli",
             "AI citata da fonti",
             "Benchmark tra pari"
           ]
@@ -383,9 +383,9 @@ export const generatedLocalCopy = {
         {
           "label": "Jakość",
           "headline": "Stworzone dla restauracji. Zarządzane dla decyzji.",
-          "body": "Sundae dostarcza 179+ zarządzanych modeli danych restauracyjnych, benchmarki oparte na rówieśnikach i odpowiedzi AI z cytatami źródłowymi — dzięki czemu zespoły nie budują z pustego płótna BI.",
+          "body": "Sundae dostarcza 500+ zarządzanych modeli danych restauracyjnych, benchmarki oparte na rówieśnikach i odpowiedzi AI z cytatami źródłowymi — dzięki czemu zespoły nie budują z pustego płótna BI.",
           "chips": [
-            "179+ modeli",
+            "500+ modeli",
             "AI z cytatami źródłowymi",
             "Benchmarki rówieśników"
           ]
@@ -423,9 +423,9 @@ export const generatedLocalCopy = {
         {
           "label": "Kalite",
           "headline": "Restoranlar için tasarlandı. Kararlar için yönetildi.",
-          "body": "Sundae, 179'dan fazla yönetilen restoran veri modeli, akran destekli kıyaslamalar ve kaynak belirtilmiş AI yanıtları ile birlikte gelir — böylece ekipler boş bir BI tuvali üzerinden inşa etmek zorunda kalmazlar.",
+          "body": "Sundae, 500'dan fazla yönetilen restoran veri modeli, akran destekli kıyaslamalar ve kaynak belirtilmiş AI yanıtları ile birlikte gelir — böylece ekipler boş bir BI tuvali üzerinden inşa etmek zorunda kalmazlar.",
           "chips": [
-            "179+ model",
+            "500+ model",
             "Kaynak belirtilmiş AI",
             "Akran kıyaslamaları"
           ]
@@ -463,9 +463,9 @@ export const generatedLocalCopy = {
         {
           "label": "质量",
           "headline": "为餐厅而建。为决策而管控。",
-          "body": "Sundae 配备 179+ 个受管控的餐厅数据模型、同行基准和来源引用的 AI 答案——这样团队就不必从空白的 BI 画布开始构建。",
+          "body": "Sundae 配备 500+ 个受管控的餐厅数据模型、同行基准和来源引用的 AI 答案——这样团队就不必从空白的 BI 画布开始构建。",
           "chips": [
-            "179+ 模型",
+            "500+ 模型",
             "来源引用的 AI",
             "同行基准"
           ]
@@ -503,9 +503,9 @@ export const generatedLocalCopy = {
         {
           "label": "品質",
           "headline": "レストランのために構築。意思決定のために管理。",
-          "body": "Sundaeは、179以上の管理されたレストランデータモデル、ピアに基づくベンチマーク、情報源を引用したAI回答を搭載しているため、チームは空白のBIキャンバスから構築する必要がありません。",
+          "body": "Sundaeは、500以上の管理されたレストランデータモデル、ピアに基づくベンチマーク、情報源を引用したAI回答を搭載しているため、チームは空白のBIキャンバスから構築する必要がありません。",
           "chips": [
-            "179以上のモデル",
+            "500以上のモデル",
             "情報源を引用したAI",
             "ピアベンチマーク"
           ]
@@ -543,9 +543,9 @@ export const generatedLocalCopy = {
         {
           "label": "품질",
           "headline": "레스토랑을 위해 구축되었습니다. 결정을 위해 관리됩니다.",
-          "body": "Sundae는 179개 이상의 관리된 레스토랑 데이터 모델, 동료 기반 벤치마크 및 출처 인용 AI 답변을 제공합니다 — 따라서 팀은 빈 BI 캔버스에서 시작하지 않습니다.",
+          "body": "Sundae는 500개 이상의 관리된 레스토랑 데이터 모델, 동료 기반 벤치마크 및 출처 인용 AI 답변을 제공합니다 — 따라서 팀은 빈 BI 캔버스에서 시작하지 않습니다.",
           "chips": [
-            "179개 이상의 모델",
+            "500개 이상의 모델",
             "출처 인용 AI",
             "동료 벤치마크"
           ]
@@ -583,9 +583,9 @@ export const generatedLocalCopy = {
         {
           "label": "Kualitas",
           "headline": "Dibangun untuk restoran. Dikelola untuk keputusan.",
-          "body": "Sundae dilengkapi dengan 179+ model data restoran yang dikelola, tolok ukur yang terhubung dengan rekan, dan jawaban AI yang bersumber — sehingga tim tidak membangun dari kanvas BI yang kosong.",
+          "body": "Sundae dilengkapi dengan 500+ model data restoran yang dikelola, tolok ukur yang terhubung dengan rekan, dan jawaban AI yang bersumber — sehingga tim tidak membangun dari kanvas BI yang kosong.",
           "chips": [
-            "179+ model",
+            "500+ model",
             "AI bersumber",
             "Tolok ukur rekan"
           ]
@@ -623,9 +623,9 @@ export const generatedLocalCopy = {
         {
           "label": "Chất lượng",
           "headline": "Xây dựng cho các nhà hàng. Quản lý cho các quyết định.",
-          "body": "Sundae đi kèm với hơn 179 mô hình dữ liệu nhà hàng được quản lý, các tiêu chuẩn so sánh từ đồng nghiệp, và các câu trả lời AI có nguồn gốc — vì vậy các đội không phải xây dựng từ một bảng BI trống.",
+          "body": "Sundae đi kèm với hơn 500 mô hình dữ liệu nhà hàng được quản lý, các tiêu chuẩn so sánh từ đồng nghiệp, và các câu trả lời AI có nguồn gốc — vì vậy các đội không phải xây dựng từ một bảng BI trống.",
           "chips": [
-            "Hơn 179 mô hình",
+            "Hơn 500 mô hình",
             "AI có nguồn gốc",
             "Tiêu chuẩn từ đồng nghiệp"
           ]
@@ -663,9 +663,9 @@ export const generatedLocalCopy = {
         {
           "label": "Calitate",
           "headline": "Construit pentru restaurante. Reglementat pentru decizii.",
-          "body": "Sundae vine cu 179+ modele de date reglementate pentru restaurante, benchmark-uri ancorate de colegi și răspunsuri AI citate din surse — astfel echipele nu construiesc de la un canvas BI gol.",
+          "body": "Sundae vine cu 500+ modele de date reglementate pentru restaurante, benchmark-uri ancorate de colegi și răspunsuri AI citate din surse — astfel echipele nu construiesc de la un canvas BI gol.",
           "chips": [
-            "179+ modele",
+            "500+ modele",
             "AI citat din surse",
             "Benchmark-uri de colegi"
           ]
@@ -703,9 +703,9 @@ export const generatedLocalCopy = {
         {
           "label": "Kvalitet",
           "headline": "Byggd för restauranger. Styrd för beslut.",
-          "body": "Sundae levereras med 179+ styrda restaurangdatamodeller, peer-ankrade riktmärken och källciterade AI-svar — så teamen bygger inte från en tom BI-canvas.",
+          "body": "Sundae levereras med 500+ styrda restaurangdatamodeller, peer-ankrade riktmärken och källciterade AI-svar — så teamen bygger inte från en tom BI-canvas.",
           "chips": [
-            "179+ modeller",
+            "500+ modeller",
             "Källciterad AI",
             "Peer-riktmärken"
           ]
@@ -743,9 +743,9 @@ export const generatedLocalCopy = {
         {
           "label": "গুণমান",
           "headline": "রেস্তোরাঁর জন্য তৈরি। সিদ্ধান্তের জন্য পরিচালিত।",
-          "body": "Sundae 179+ পরিচালিত রেস্তোরাঁর ডেটা মডেল, সহকর্মী-অঙ্কিত বেঞ্চমার্ক এবং সূত্র-উল্লেখিত AI উত্তর সহ আসে — তাই দলগুলি খালি BI ক্যানভাস থেকে তৈরি করছে না।",
+          "body": "Sundae 500+ পরিচালিত রেস্তোরাঁর ডেটা মডেল, সহকর্মী-অঙ্কিত বেঞ্চমার্ক এবং সূত্র-উল্লেখিত AI উত্তর সহ আসে — তাই দলগুলি খালি BI ক্যানভাস থেকে তৈরি করছে না।",
           "chips": [
-            "179+ মডেল",
+            "500+ মডেল",
             "সূত্র-উল্লেখিত AI",
             "সহকর্মী বেঞ্চমার্ক"
           ]
@@ -783,9 +783,9 @@ export const generatedLocalCopy = {
         {
           "label": "คุณภาพ",
           "headline": "สร้างขึ้นสำหรับร้านอาหาร มีการควบคุมสำหรับการตัดสินใจ",
-          "body": "Sundae มาพร้อมกับโมเดลข้อมูลร้านอาหารที่มีการควบคุมมากกว่า 179 โมเดล มาตรฐานที่ยึดตามเพื่อน และคำตอบ AI ที่อ้างอิงแหล่งที่มา — ดังนั้นทีมจึงไม่ต้องสร้างจากผืนผ้าใบ BI ที่ว่างเปล่า",
+          "body": "Sundae มาพร้อมกับโมเดลข้อมูลร้านอาหารที่มีการควบคุมมากกว่า 500 โมเดล มาตรฐานที่ยึดตามเพื่อน และคำตอบ AI ที่อ้างอิงแหล่งที่มา — ดังนั้นทีมจึงไม่ต้องสร้างจากผืนผ้าใบ BI ที่ว่างเปล่า",
           "chips": [
-            "โมเดลมากกว่า 179",
+            "โมเดลมากกว่า 500",
             "AI ที่อ้างอิงแหล่งที่มา",
             "มาตรฐานจากเพื่อน"
           ]
@@ -823,9 +823,9 @@ export const generatedLocalCopy = {
         {
           "label": "Kualiti",
           "headline": "Dibina untuk restoran. Dikenakan untuk keputusan.",
-          "body": "Sundae dilengkapi dengan 179+ model data restoran yang dikawal, penanda aras yang dipandu rakan sebaya, dan jawapan AI yang dirujuk sumber — jadi pasukan tidak membina dari kanvas BI yang kosong.",
+          "body": "Sundae dilengkapi dengan 500+ model data restoran yang dikawal, penanda aras yang dipandu rakan sebaya, dan jawapan AI yang dirujuk sumber — jadi pasukan tidak membina dari kanvas BI yang kosong.",
           "chips": [
-            "179+ model",
+            "500+ model",
             "AI yang dirujuk sumber",
             "Penanda aras rakan sebaya"
           ]

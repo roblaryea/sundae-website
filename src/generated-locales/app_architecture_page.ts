@@ -1661,7 +1661,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "ڈیٹا اکٹھا کرنا",
-          "description": "Scout 12 ڈیٹا ڈومینز اور بیرونی ذرائع میں 30+ ریسٹورنٹ سسٹمز سے جڑتا ہے۔",
+          "description": "Scout 12 ڈیٹا ڈومینز اور بیرونی ذرائع میں 250+ ریسٹورنٹ سسٹمز سے جڑتا ہے۔",
           "icon": "integration"
         },
         {
@@ -1697,7 +1697,7 @@ export const generatedLocalCopy = {
       "modules": [
         {
           "name": "Scout",
-          "description": "یونیورسل ڈیٹا انٹیگریشن پرت 12 ڈیٹا ڈومینز میں 30+ ریسٹورنٹ سسٹم کو جوڑتی ہے۔",
+          "description": "یونیورسل ڈیٹا انٹیگریشن پرت 12 ڈیٹا ڈومینز میں 250+ ریسٹورنٹ سسٹم کو جوڑتی ہے۔",
           "icon": "scout",
           "features": [
             "POS انٹیگریشن",
@@ -2193,7 +2193,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "डेटा संग्रहण",
-          "description": "Scout 12 डेटा डोमेन और बाहरी स्रोतों में 30+ रेस्तरां सिस्टम से जुड़ता है",
+          "description": "Scout 12 डेटा डोमेन और बाहरी स्रोतों में 250+ रेस्तरां सिस्टम से जुड़ता है",
           "icon": "integration"
         },
         {
@@ -2229,7 +2229,7 @@ export const generatedLocalCopy = {
       "modules": [
         {
           "name": "Scout",
-          "description": "यूनिवर्सल डेटा एकीकरण परत 12 डेटा डोमेन में 30+ रेस्तरां सिस्टम को जोड़ती है",
+          "description": "यूनिवर्सल डेटा एकीकरण परत 12 डेटा डोमेन में 250+ रेस्तरां सिस्टम को जोड़ती है",
           "icon": "scout",
           "features": [
             "POS एकीकरण",
@@ -4055,7 +4055,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Pengumpulan Data",
-          "description": "Scout terhubung ke 30+ sistem restoran di 12 domain data dan sumber eksternal",
+          "description": "Scout terhubung ke 250+ sistem restoran di 12 domain data dan sumber eksternal",
           "icon": "integration"
         },
         {
@@ -4091,7 +4091,7 @@ export const generatedLocalCopy = {
       "modules": [
         {
           "name": "Scout",
-          "description": "Lapisan integrasi data universal yang menghubungkan 30+ sistem restoran di 12 domain data",
+          "description": "Lapisan integrasi data universal yang menghubungkan 250+ sistem restoran di 12 domain data",
           "icon": "scout",
           "features": [
             "Integrasi POS",
@@ -4587,7 +4587,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "তথ্য সংগ্রহ",
-          "description": "Scout 12টি ডেটা ডোমেন এবং বাহ্যিক উত্স জুড়ে 30+ রেস্তোরাঁ সিস্টেমের সাথে সংযোগ করে৷",
+          "description": "Scout 12টি ডেটা ডোমেন এবং বাহ্যিক উত্স জুড়ে 250+ রেস্তোরাঁ সিস্টেমের সাথে সংযোগ করে৷",
           "icon": "integration"
         },
         {
@@ -4623,7 +4623,7 @@ export const generatedLocalCopy = {
       "modules": [
         {
           "name": "Scout",
-          "description": "ইউনিভার্সাল ডেটা ইন্টিগ্রেশন লেয়ার 12টি ডেটা ডোমেন জুড়ে 30+ রেস্তোরাঁ সিস্টেমকে সংযুক্ত করে",
+          "description": "ইউনিভার্সাল ডেটা ইন্টিগ্রেশন লেয়ার 12টি ডেটা ডোমেন জুড়ে 250+ রেস্তোরাঁ সিস্টেমকে সংযুক্ত করে",
           "icon": "scout",
           "features": [
             "POS ইন্টিগ্রেশন",
@@ -4853,7 +4853,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Datainsamling",
-          "description": "Scout ansluter till 30+ restaurangsystem över 12 datadomäner och externa källor",
+          "description": "Scout ansluter till 250+ restaurangsystem över 12 datadomäner och externa källor",
           "icon": "integration"
         },
         {
@@ -4889,7 +4889,7 @@ export const generatedLocalCopy = {
       "modules": [
         {
           "name": "Scout",
-          "description": "Universellt dataintegrationslager som förbinder 30+ restaurangsystem över 12 datadomäner",
+          "description": "Universellt dataintegrationslager som förbinder 250+ restaurangsystem över 12 datadomäner",
           "icon": "scout",
           "features": [
             "POS-integration",
@@ -5385,7 +5385,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Pengumpulan Data",
-          "description": "Scout menyambung kepada 30+ sistem restoran merentas 12 domain data dan sumber luaran",
+          "description": "Scout menyambung kepada 250+ sistem restoran merentas 12 domain data dan sumber luaran",
           "icon": "integration"
         },
         {
@@ -5421,7 +5421,7 @@ export const generatedLocalCopy = {
       "modules": [
         {
           "name": "Scout",
-          "description": "Lapisan integrasi data universal yang menghubungkan 30+ sistem restoran merentas 12 domain data",
+          "description": "Lapisan integrasi data universal yang menghubungkan 250+ sistem restoran merentas 12 domain data",
           "icon": "scout",
           "features": [
             "Integrasi POS",

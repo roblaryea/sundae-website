@@ -184,7 +184,7 @@ const pricingAddOns: PricingAddon[] = [
   {
     name: "Specialized Modules",
     description:
-      "14 specialized modules including Revenue, Labor, Inventory, Purchasing, Marketing, Reservations, Profit, Revenue Assurance, Delivery, Guest Experience, Guest CRM, Cross-Intelligence, Foresight Intelligence, and Executive Summary.",
+      "12 specialized modules including Revenue, Labor, Inventory, Purchasing, Marketing, Reservations, Profit, Revenue Assurance, Delivery, Guest Experience, Guest CRM, Cross-Intelligence, Foresight Intelligence, and Executive Summary.",
     note: "Requires Core tier. Priced per module.",
     icon: "data",
     color: "from-purple-500 to-purple-600",
@@ -349,7 +349,7 @@ const localizedPricingPageContent: Partial<
     ],
     addOns: [
       { ...pricingAddOns[0], description: "ذكاء خارجي يشمل تتبع المنافسين وتأثير الطقس وتقويم الفعاليات وإحاطات الذكاء الاصطناعي.", note: "يتطلب Core" },
-      { ...pricingAddOns[1], name: "وحدات متخصصة", description: "14 وحدة متخصصة تشمل الإيرادات والعمالة والمخزون والمشتريات والتسويق والحجوزات والربح وضمان الإيرادات والتوصيل وتجربة الضيف وGuest CRM وCross-Intelligence وForesight Intelligence وExecutive Summary.", note: "يتطلب Core. التسعير لكل وحدة." },
+      { ...pricingAddOns[1], name: "وحدات متخصصة", description: "12 وحدة متخصصة تشمل الإيرادات والعمالة والمخزون والمشتريات والتسويق والحجوزات والربح وضمان الإيرادات والتوصيل وتجربة الضيف وGuest CRM وCross-Intelligence وForesight Intelligence وExecutive Summary.", note: "يتطلب Core. التسعير لكل وحدة." },
       { ...pricingAddOns[2], description: "محرك ترابط يُفعَّل تلقائيًا ويكشف العلاقات المخفية بين الوحدات. النسخة الأساسية مجانية مع 3+ وحدات، وPro تضيف الإسناد الكامل واكتشاف التآكل.", note: "يتطلب Core مع 3+ وحدات. Pro: 199$/شهر + 19$/موقع" },
       { ...pricingAddOns[3], name: "إضافات الأرصدة", description: "هل تحتاج إلى استفسارات ذكاء أكثر؟ اشترِ أرصدة إضافية لأي خطة.", note: "متاحة في جميع الخطط" },
     ],
@@ -456,7 +456,7 @@ const localizedPricingPageContent: Partial<
     ],
     addOns: [
       { ...pricingAddOns[0], description: "Intelligence externe avec suivi concurrentiel, impact meteo, calendrier d evenements et briefings IA.", note: "Necessite Core" },
-      { ...pricingAddOns[1], name: "Modules specialises", description: "14 modules specialises incluant revenu, main-d oeuvre, stock, achats, marketing, reservations, profit, assurance revenu, livraison, experience client, Guest CRM, Cross-Intelligence, Foresight Intelligence et Executive Summary.", note: "Necessite Core. Tarif par module." },
+      { ...pricingAddOns[1], name: "Modules specialises", description: "12 modules specialises incluant revenu, main-d oeuvre, stock, achats, marketing, reservations, profit, assurance revenu, livraison, experience client, Guest CRM, Cross-Intelligence, Foresight Intelligence et Executive Summary.", note: "Necessite Core. Tarif par module." },
       { ...pricingAddOns[2], description: "Moteur de correlation auto-active qui revele les connexions cachees entre modules. La base est gratuite a partir de 3 modules ; Pro ajoute attribution complete et detection de cannibalisation.", note: "Necessite Core avec 3+ modules. Pro : 199$/mois + 19$/site" },
       { ...pricingAddOns[3], name: "Recharges de credits", description: "Besoin de plus de requetes d intelligence ? Achetez des credits supplementaires pour n importe quelle offre.", note: "Disponible sur toutes les offres" },
     ],
@@ -563,7 +563,7 @@ const localizedPricingPageContent: Partial<
     ],
     addOns: [
       { ...pricingAddOns[0], description: "Inteligencia externa con seguimiento de competidores, impacto del clima, calendario de eventos y briefings de IA.", note: "Requiere Core" },
-      { ...pricingAddOns[1], name: "Módulos especializados", description: "14 módulos especializados que incluyen ingresos, mano de obra, inventario, compras, marketing, reservas, beneficio, revenue assurance, delivery, experiencia del cliente, Guest CRM, Cross-Intelligence, Foresight Intelligence y Executive Summary.", note: "Requiere Core. Precio por módulo." },
+      { ...pricingAddOns[1], name: "Módulos especializados", description: "12 módulos especializados que incluyen ingresos, mano de obra, inventario, compras, marketing, reservas, beneficio, revenue assurance, delivery, experiencia del cliente, Guest CRM, Cross-Intelligence, Foresight Intelligence y Executive Summary.", note: "Requiere Core. Precio por módulo." },
       { ...pricingAddOns[2], description: "Motor de correlación que se desbloquea automáticamente y revela conexiones ocultas entre módulos. La base es gratis con 3+ módulos; Pro añade atribución completa y detección de canibalización.", note: "Requiere Core con 3+ módulos. Pro: 199$/mes + 19$/local" },
       { ...pricingAddOns[3], name: "Recargas de créditos", description: "¿Necesitas más consultas de inteligencia? Compra créditos adicionales para cualquier plan.", note: "Disponible en todos los planes" },
     ],

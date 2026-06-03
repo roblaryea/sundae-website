@@ -17,7 +17,7 @@ export const generatedLocalCopy = {
       ],
       "withSundae": [
         "Sechs Intelligenzschichten, restaurant-nativ",
-        "Über 179 verwaltete Restaurantdatenmodelle",
+        "Über 500 verwaltete Restaurantdatenmodelle",
         "Quellenzitierten Antworten in Sekunden",
         "12 Datenbereiche in einem Hauptbuch vereint",
         "Echtzeit-Schichtintelligenz, keine Freitagszusammenfassungen"
@@ -39,7 +39,7 @@ export const generatedLocalCopy = {
       ],
       "withSundae": [
         "Zes intelligentielaag, restaurant-native",
-        "179+ beheerde restaurantdatamodellen",
+        "500+ beheerde restaurantdatamodellen",
         "Bronvermeld antwoorden in seconden",
         "12 datadomeinen verenigd in één grootboek",
         "Live shift-intelligentie, geen vrijdag samenvattingen"
@@ -61,7 +61,7 @@ export const generatedLocalCopy = {
       ],
       "withSundae": [
         "ستة طبقات من الذكاء، أصلية للمطاعم",
-        "179+ نموذج بيانات مطعم مُدار",
+        "500+ نموذج بيانات مطعم مُدار",
         "إجابات موثقة بالمصدر في ثوانٍ",
         "12 مجال بيانات موحد في دفتر واحد",
         "ذكاء التحول المباشر، وليس ملخصات الجمعة"
@@ -83,7 +83,7 @@ export const generatedLocalCopy = {
       ],
       "withSundae": [
         "Seis camadas de inteligência, nativas de restaurante",
-        "Modelos de dados de restaurante governados com mais de 179",
+        "Modelos de dados de restaurante governados com mais de 500",
         "Respostas com fontes citadas em segundos",
         "12 domínios de dados unificados em um livro razão",
         "Inteligência de turno ao vivo, não resumos de sexta-feira"
@@ -105,7 +105,7 @@ export const generatedLocalCopy = {
       ],
       "withSundae": [
         "Six couches d'intelligence, natives des restaurants",
-        "Modèles de données de restaurant gouvernés de 179+",
+        "Modèles de données de restaurant gouvernés de 500+",
         "Réponses sourcées en quelques secondes",
         "12 domaines de données unifiés dans un grand livre",
         "Intelligence de shift en direct, pas de récapitulatifs du vendredi"
@@ -127,7 +127,7 @@ export const generatedLocalCopy = {
       ],
       "withSundae": [
         "Seis capas de inteligencia, nativas del restaurante",
-        "Más de 179 modelos de datos de restaurantes gobernados",
+        "Más de 500 modelos de datos de restaurantes gobernados",
         "Respuestas con citas de fuentes en segundos",
         "12 dominios de datos unificados en un libro mayor",
         "Inteligencia de turnos en vivo, no resúmenes del viernes"
@@ -149,7 +149,7 @@ export const generatedLocalCopy = {
       ],
       "withSundae": [
         "छह इंटेलिजेंस परतें, रेस्टोरेंट-नैटिव",
-        "179+ नियंत्रित रेस्टोरेंट डेटा मॉडल",
+        "500+ नियंत्रित रेस्टोरेंट डेटा मॉडल",
         "सेकंडों में स्रोत-उद्धृत उत्तर",
         "एक लेजर में 12 डेटा डोमेन एकीकृत",
         "लाइव शिफ्ट इंटेलिजेंस, शुक्रवार के पुनर्कथन नहीं"
@@ -171,7 +171,7 @@ export const generatedLocalCopy = {
       ],
       "withSundae": [
         "چھ ذہانت کی تہیں، ریستوراں کے لیے مقامی",
-        "179+ منظم ریستوراں کے ڈیٹا ماڈلز",
+        "500+ منظم ریستوراں کے ڈیٹا ماڈلز",
         "سیکنڈز میں ماخذ حوالہ جات کے جوابات",
         "ایک لیجر میں 12 ڈیٹا ڈومینز متحد",
         "لائیو شفٹ کی ذہانت، جمعہ کے خلاصے نہیں"
@@ -193,7 +193,7 @@ export const generatedLocalCopy = {
       ],
       "withSundae": [
         "Sei livelli di intelligenza, nativi del ristorante",
-        "Modelli di dati governati per ristoranti 179+",
+        "Modelli di dati governati per ristoranti 500+",
         "Risposte con citazione della fonte in pochi secondi",
         "12 domini di dati unificati in un libro mastro",
         "Intelligenza in tempo reale, non riepiloghi del venerdì"
@@ -215,7 +215,7 @@ export const generatedLocalCopy = {
       ],
       "withSundae": [
         "六个智能层，餐厅原生",
-        "179+ 受管控的餐厅数据模型",
+        "500+ 受管控的餐厅数据模型",
         "几秒钟内提供来源引用的答案",
         "12 个数据领域统一在一个账本中",
         "实时班次智能，而不是周五回顾"
@@ -237,7 +237,7 @@ export const generatedLocalCopy = {
       ],
       "withSundae": [
         "Sześć warstw inteligencji, natywne dla restauracji",
-        "Ponad 179 zarządzanych modeli danych restauracyjnych",
+        "Ponad 500 zarządzanych modeli danych restauracyjnych",
         "Odpowiedzi z cytatami źródłowymi w kilka sekund",
         "12 domen danych zjednoczonych w jednym rejestrze",
         "Inteligencja na żywo w czasie zmiany, a nie podsumowania w piątek"
@@ -259,7 +259,7 @@ export const generatedLocalCopy = {
       ],
       "withSundae": [
         "6つのインテリジェンスレイヤー、レストランネイティブ",
-        "179以上の管理されたレストランデータモデル",
+        "500以上の管理されたレストランデータモデル",
         "数秒での出典付きの回答",
         "1つの元帳に統合された12のデータドメイン",
         "金曜日の振り返りではなく、ライブシフトインテリジェンス"
@@ -281,7 +281,7 @@ export const generatedLocalCopy = {
       ],
       "withSundae": [
         "Enam lapisan intelijen, asli restoran",
-        "179+ model data restoran yang dikelola",
+        "500+ model data restoran yang dikelola",
         "Jawaban dengan sumber dalam hitungan detik",
         "12 domain data disatukan dalam satu buku besar",
         "Intelijen shift langsung, bukan rekap Jumat"
@@ -303,7 +303,7 @@ export const generatedLocalCopy = {
       ],
       "withSundae": [
         "Sáu lớp thông tin, bản địa nhà hàng",
-        "179+ mô hình dữ liệu nhà hàng được quản lý",
+        "500+ mô hình dữ liệu nhà hàng được quản lý",
         "Câu trả lời có nguồn trích dẫn trong vài giây",
         "12 miền dữ liệu được thống nhất trong một sổ cái",
         "Thông tin ca trực trực tiếp, không phải tổng kết thứ Sáu"
@@ -325,7 +325,7 @@ export const generatedLocalCopy = {
       ],
       "withSundae": [
         "Altı zeka katmanı, restoran yerel",
-        "179+ yönetilen restoran veri modeli",
+        "500+ yönetilen restoran veri modeli",
         "Kaynak belirtilmiş cevaplar saniyeler içinde",
         "Tek bir defterde birleştirilmiş 12 veri alanı",
         "Canlı vardiya zekası, Cuma özetleri değil"
@@ -347,7 +347,7 @@ export const generatedLocalCopy = {
       ],
       "withSundae": [
         "Șase straturi de inteligență, native restaurantului",
-        "179+ modele de date guvernate pentru restaurante",
+        "500+ modele de date guvernate pentru restaurante",
         "Răspunsuri cu sursă citată în câteva secunde",
         "12 domenii de date unificate într-un singur registru",
         "Inteligență live pentru schimburi, nu recapitulări de vineri"
@@ -369,7 +369,7 @@ export const generatedLocalCopy = {
       ],
       "withSundae": [
         "여섯 개의 인텔리전스 레이어, 레스토랑 네이티브",
-        "179개 이상의 관리된 레스토랑 데이터 모델",
+        "500개 이상의 관리된 레스토랑 데이터 모델",
         "몇 초 만에 출처가 인용된 답변",
         "하나의 원장에 통합된 12개 데이터 도메인",
         "금요일 요약이 아닌 실시간 근무 인텔리전스"
@@ -391,7 +391,7 @@ export const generatedLocalCopy = {
       ],
       "withSundae": [
         "Sex intelligenslager, restaurang-inbyggda",
-        "179+ styrda restaurangdatamodeller",
+        "500+ styrda restaurangdatamodeller",
         "Källhänvisade svar på sekunder",
         "12 datadomäner enade i en huvudbok",
         "Live skiftintelligens, inte fredagsåterkopplingar"
@@ -413,7 +413,7 @@ export const generatedLocalCopy = {
       ],
       "withSundae": [
         "ชั้นข้อมูลหกชั้น, เนทีฟสำหรับร้านอาหาร",
-        "โมเดลข้อมูลร้านอาหารที่มีการควบคุมกว่า 179+ โมเดล",
+        "โมเดลข้อมูลร้านอาหารที่มีการควบคุมกว่า 500+ โมเดล",
         "คำตอบที่มีแหล่งอ้างอิงในไม่กี่วินาที",
         "โดเมนข้อมูล 12 โดเมนรวมอยู่ในบัญชีเดียว",
         "ข้อมูลเชิงลึกแบบสดในช่วงเปลี่ยนงาน ไม่ใช่การสรุปวันศุกร์"
@@ -457,7 +457,7 @@ export const generatedLocalCopy = {
       ],
       "withSundae": [
         "Enam lapisan kecerdasan, asli restoran",
-        "179+ model data restoran yang dikawal",
+        "500+ model data restoran yang dikawal",
         "Jawapan yang dirujuk sumber dalam beberapa saat",
         "12 domain data disatukan dalam satu lejar",
         "Kecerdasan shift langsung, bukan ringkasan Jumaat"

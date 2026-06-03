@@ -94,7 +94,7 @@ const localizedFaqSections: RequiredEnglishLocalizedRecord<FaqSectionTemplate[]>
         {
           title: 'What POS systems do you integrate with?',
           content:
-            "Sundae currently supports **4 POS platforms** with live adapters: Oracle MICROS Simphony, Square, Toast, and Clover. We also support **direct database connectors** for PostgreSQL and SQL Server / Azure SQL when a POS system exposes database access.\n\nBeyond POS, Sundae's **12-domain integration engine** connects to 30+ vendors across labor, inventory, reservations, delivery, marketing, guest experience, CRM, and accounting.\n\nIf you do not see your system listed, Enterprise tier can include custom integration work and webhook-based ingestion.",
+            "Sundae currently supports **4 POS platforms** with live adapters: Oracle MICROS Simphony, Square, Toast, and Clover. We also support **direct database connectors** for PostgreSQL and SQL Server / Azure SQL when a POS system exposes database access.\n\nBeyond POS, Sundae's **12-domain integration engine** connects to 250+ vendors across labor, inventory, reservations, delivery, marketing, guest experience, CRM, and accounting.\n\nIf you do not see your system listed, Enterprise tier can include custom integration work and webhook-based ingestion.",
         },
         {
           title: 'Can I use Sundae with multiple POS systems?',

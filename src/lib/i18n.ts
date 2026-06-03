@@ -250,7 +250,7 @@ export const websiteMessages = {
     metadata: {
       title: 'Sundae – Decision Intelligence for Restaurants',
       description:
-        'The AI platform that turns restaurant data into action — unify POS, labor, cost, and operational data to benchmark performance and get instant insights.',
+        'The decision intelligence platform for restaurants — unify POS, labor, cost, and operational data to benchmark performance and turn it into the next right move.',
     },
     layout: {
       skipToContent: 'Skip to main content',
@@ -352,7 +352,7 @@ export const websiteMessages = {
       noCard: 'No credit card required',
       proofStats: [
         { number: '5 min', label: 'From signal to action' },
-        { number: '30+', label: 'Decisions, not dashboards' },
+        { number: '18', label: 'Decisions, not dashboards' },
         { number: '12', label: 'Operational domains unified' },
         { number: '6', label: 'Intelligence layers, one truth' },
       ],
@@ -378,14 +378,14 @@ export const websiteMessages = {
           { name: 'Pulse', subtitle: 'Real-time operations', description: 'Live pacing, adaptive targets, server performance, leakage — shift by shift.', href: '/product/pulse' },
           { name: 'Benchmarks', subtitle: 'Competitive intelligence', description: 'Anonymous peer benchmarks across 30+ metrics. Know where you stand.', href: '/benchmarking' },
           { name: 'Watchtower', subtitle: 'Market intelligence', description: 'Competitors, weather, events — before they hit your numbers.', href: '/product/watchtower' },
-          { name: 'Insights', subtitle: '30+ analytics modules', description: 'Revenue, labor, inventory, marketing, delivery — each with AI recommendations.', href: '/insights' },
+          { name: 'Insights', subtitle: '12 analytics modules', description: 'Revenue, labor, inventory, marketing, delivery — each with AI recommendations.', href: '/insights' },
           { name: 'Sundae Intelligence', subtitle: 'Conversational AI', description: 'Ask your data anything. Answers in seconds on web, Slack, or Teams.', href: '/intelligence' },
           { name: 'Foresight', subtitle: 'Predictive intelligence', description: '14–90 day forecasts, what-if scenarios, exec briefings that correct themselves.', href: '/product/foresight' },
         ],
       },
       modules: {
         eyebrow: 'INTELLIGENCE MODULES',
-        heading: '30+ modules. One action loop.',
+        heading: '12 modules. One action loop.',
         description: 'Every dimension of restaurant performance — surfaced as a decision, not a chart. Benchmarked against your real cohort, ranked by margin impact, and routed to the right person on the floor.',
         categories: [
           { name: 'Revenue Intelligence', count: '4 modules' },
@@ -647,7 +647,7 @@ export const websiteMessages = {
           badge: 'Integrations',
           title: 'Connect Everything. Unify Your Data.',
           description:
-            'Sundae integrates with 30+ restaurant systems across POS, labor, inventory, reservations, delivery, and more.',
+            'Sundae integrates with 250+ restaurant systems across POS, labor, inventory, reservations, delivery, and more.',
           process: [
             { step: '1', title: 'Connect', description: 'Authenticate your platforms with OAuth or API key - most integrations take under 5 minutes.' },
             { step: '2', title: 'Normalize', description: 'Scout, our data layer, cleans, maps, and unifies every data source into a consistent schema.' },
@@ -714,7 +714,7 @@ export const websiteMessages = {
     metadata: {
       title: 'صنداي - ذكاء القرار للمطاعم',
       description:
-        'منصة ذكاء اصطناعي تحول بيانات المطاعم إلى قرارات عملية عبر توحيد نقاط البيع والعمل والتكاليف والعمليات.',
+        'منصة ذكاء القرار للمطاعم — توحّد نقاط البيع والعمالة والتكاليف والعمليات لمقارنة الأداء وتحويله إلى الخطوة الصحيحة التالية.',
     },
     layout: {
       skipToContent: 'انتقل إلى المحتوى الرئيسي',
@@ -816,7 +816,7 @@ export const websiteMessages = {
       noCard: 'لا حاجة إلى بطاقة ائتمان',
       proofStats: [
         { number: '6', label: 'طبقات ذكاء' },
-        { number: '+30', label: 'وحدة تحليلية' },
+        { number: '18', label: 'قرارات، لا لوحات معلومات' },
         { number: '12', label: 'مجال بيانات موحّد' },
         { number: '5 د', label: 'دورة تحديث الوردية' },
       ],
@@ -1158,7 +1158,7 @@ export const websiteMessages = {
     metadata: {
       title: 'Sundae - Intelligence decisionnelle pour la restauration',
       description:
-        "La plateforme IA qui transforme les donnees restaurant en actions en unifiant POS, main-d'oeuvre, couts et operations.",
+        "La plateforme d'intelligence décisionnelle pour les restaurants — unifie POS, main-d'œuvre, coûts et opérations pour comparer les performances et en faire la prochaine bonne décision.",
     },
     layout: {
       skipToContent: 'Aller au contenu principal',
@@ -1177,7 +1177,7 @@ export const websiteMessages = {
       pricing: 'Tarifs',
       about: 'A propos',
       signIn: 'Se connecter',
-      bookDemo: 'Reserver une session de travail',
+      bookDemo: 'Réserver une démo',
       comparePlans: 'Comparer les offres →',
       startFree: 'Commencer avec Report Lite',
       openMenu: 'Ouvrir le menu',
@@ -1260,7 +1260,7 @@ export const websiteMessages = {
       noCard: 'Aucune carte bancaire requise',
       proofStats: [
         { number: '6', label: 'Couches d intelligence' },
-        { number: '30+', label: 'Modules analytiques' },
+        { number: '18', label: 'Des décisions, pas des tableaux de bord' },
         { number: '12', label: 'Domaines de donnees unifies' },
         { number: '5 min', label: 'Rafraichissement par service' },
       ],
@@ -1286,7 +1286,7 @@ export const websiteMessages = {
           { name: 'Pulse', subtitle: 'Operations en temps reel', description: 'Rythme live, objectifs adaptatifs, performance serveurs, detection des fuites — service par service.', href: '/product/pulse' },
           { name: 'Benchmarks', subtitle: 'Intelligence concurrentielle', description: 'Benchmarks anonymes de pairs sur 30+ indicateurs. Sachez ou vous vous situez.', href: '/benchmarking' },
           { name: 'Watchtower', subtitle: 'Intelligence marche', description: 'Concurrents, meteo, evenements — avant que cela touche vos chiffres.', href: '/product/watchtower' },
-          { name: 'Insights', subtitle: '30+ modules analytiques', description: 'Revenu, main-d oeuvre, stock, marketing, livraison — chacun avec des recommandations IA.', href: '/insights' },
+          { name: 'Insights', subtitle: '12 modules analytiques', description: 'Revenu, main-d oeuvre, stock, marketing, livraison — chacun avec des recommandations IA.', href: '/insights' },
           { name: 'Sundae Intelligence', subtitle: 'IA conversationnelle', description: 'Posez n importe quelle question. Reponses en secondes sur le web, Slack ou Teams.', href: '/intelligence' },
           { name: 'Foresight', subtitle: 'Intelligence predictive', description: 'Previsions 14–90 jours, scenarios hypothese, briefings execs auto-correctifs.', href: '/product/foresight' },
         ],
@@ -1621,7 +1621,7 @@ export const websiteMessages = {
     metadata: {
       title: 'Sundae - Inteligencia de decision para restaurantes',
       description:
-        'La plataforma de IA que convierte los datos del restaurante en accion al unificar POS, mano de obra, costos y operaciones.',
+        'La plataforma de inteligencia de decisiones para restaurantes — unifica POS, mano de obra, costos y operaciones para comparar el desempeño y convertirlo en el próximo movimiento acertado.',
     },
     layout: {
       skipToContent: 'Ir al contenido principal',
@@ -1640,7 +1640,7 @@ export const websiteMessages = {
       pricing: 'Precios',
       about: 'Acerca de',
       signIn: 'Iniciar sesion',
-      bookDemo: 'Reservar una sesion de trabajo',
+      bookDemo: 'Reservar demo',
       comparePlans: 'Comparar planes →',
       startFree: 'Comienza con Report Lite',
       openMenu: 'Abrir menu',
@@ -1723,7 +1723,7 @@ export const websiteMessages = {
       noCard: 'No se requiere tarjeta de credito',
       proofStats: [
         { number: '6', label: 'Capas de inteligencia' },
-        { number: '30+', label: 'Modulos analiticos' },
+        { number: '18', label: 'Decisiones, no paneles' },
         { number: '12', label: 'Dominios de datos unificados' },
         { number: '5 min', label: 'Refresco por turno' },
       ],
@@ -1749,7 +1749,7 @@ export const websiteMessages = {
           { name: 'Pulse', subtitle: 'Operaciones en tiempo real', description: 'Ritmo en vivo, objetivos adaptativos, rendimiento del personal, fugas — turno a turno.', href: '/product/pulse' },
           { name: 'Benchmarks', subtitle: 'Inteligencia competitiva', description: 'Benchmarks anonimos de pares en 30+ metricas. Sabe exactamente donde estas.', href: '/benchmarking' },
           { name: 'Watchtower', subtitle: 'Inteligencia de mercado', description: 'Competencia, clima, eventos — antes de que toquen tus numeros.', href: '/product/watchtower' },
-          { name: 'Insights', subtitle: '30+ modulos analiticos', description: 'Ingresos, personal, inventario, marketing, delivery — cada uno con recomendaciones de IA.', href: '/insights' },
+          { name: 'Insights', subtitle: '12 modulos analiticos', description: 'Ingresos, personal, inventario, marketing, delivery — cada uno con recomendaciones de IA.', href: '/insights' },
           { name: 'Sundae Intelligence', subtitle: 'IA conversacional', description: 'Preguntale cualquier cosa a tus datos. Respuestas en segundos en web, Slack o Teams.', href: '/intelligence' },
           { name: 'Foresight', subtitle: 'Inteligencia predictiva', description: 'Pronosticos 14–90 dias, escenarios hipoteticos, briefings ejecutivos autocorregibles.', href: '/product/foresight' },
         ],
@@ -2109,7 +2109,7 @@ const expandedLocaleMessageOverrides = {
     metadata: {
       title: 'Sundae – Entscheidungsintelligenz für Restaurants',
       description:
-        'Die KI-Plattform, die Restaurantdaten in konkrete Entscheidungen übersetzt: POS-, Personal-, Kosten- und Betriebsdaten vereinheitlichen, Leistung vergleichen und sofortige Insights erhalten.',
+        'Die Entscheidungsintelligenz-Plattform für Restaurants — vereinheitlicht POS-, Personal-, Kosten- und Betriebsdaten, vergleicht die Leistung und macht daraus den nächsten richtigen Schritt.',
     },
     layout: {
       skipToContent: 'Zum Hauptinhalt springen',
@@ -2153,7 +2153,7 @@ const expandedLocaleMessageOverrides = {
     metadata: {
       title: 'Sundae – beslissingsintelligentie voor restaurants',
       description:
-        'Het AI-platform dat restaurantdata omzet in actie: POS-, personeels-, kosten- en operationele data samenbrengen, prestaties benchmarken en direct inzicht krijgen.',
+        'Het beslissingsintelligentie-platform voor restaurants — brengt POS-, personeels-, kosten- en operationele data samen, benchmarkt prestaties en maakt er de juiste volgende stap van.',
     },
     layout: {
       skipToContent: 'Ga naar hoofdinhoud',
@@ -2197,7 +2197,7 @@ const expandedLocaleMessageOverrides = {
     metadata: {
       title: 'Sundae – inteligência de decisão para restaurantes',
       description:
-        'A plataforma de IA que transforma dados de restaurantes em ação: unifique POS, equipe, custos e operações para comparar desempenho e obter insights imediatos.',
+        'A plataforma de inteligência de decisão para restaurantes — unifica POS, equipe, custos e operações para comparar o desempenho e transformá-lo no próximo passo certo.',
     },
     layout: {
       skipToContent: 'Ir para o conteúdo principal',
@@ -2241,7 +2241,7 @@ const expandedLocaleMessageOverrides = {
     metadata: {
       title: 'Sundae – रेस्टोरेंट्स के लिए निर्णय इंटेलिजेंस',
       description:
-        'AI प्लेटफॉर्म जो रेस्टोरेंट डेटा को कार्रवाई में बदलता है: POS, श्रम, लागत और ऑपरेशनल डेटा को जोड़ें, प्रदर्शन की तुलना करें और तुरंत इनसाइट पाएं.',
+        'रेस्टोरेंट के लिए डिसीज़न इंटेलिजेंस प्लेटफॉर्म — POS, श्रम, लागत और ऑपरेशनल डेटा को जोड़कर प्रदर्शन की तुलना करें और उसे अगले सही कदम में बदलें।',
     },
     layout: {
       skipToContent: 'मुख्य सामग्री पर जाएं',
@@ -2285,7 +2285,7 @@ const expandedLocaleMessageOverrides = {
     metadata: {
       title: 'Sundae – ریستورانوں کے لیے فیصلہ سازی انٹیلیجنس',
       description:
-        'AI پلیٹ فارم جو ریستوران کے ڈیٹا کو عمل میں بدلتا ہے: POS، عملہ، لاگت اور آپریشنل ڈیٹا کو یکجا کریں، کارکردگی کا موازنہ کریں اور فوری بصیرت حاصل کریں۔',
+        'ریستورانوں کے لیے ڈیسیژن انٹیلی جنس پلیٹ فارم — POS، عملہ، لاگت اور آپریشنل ڈیٹا کو یکجا کر کے کارکردگی کا موازنہ کریں اور اسے اگلے درست قدم میں بدلیں۔',
     },
     layout: {
       skipToContent: 'مرکزی مواد پر جائیں',
@@ -2329,7 +2329,7 @@ const expandedLocaleMessageOverrides = {
     metadata: {
       title: 'Sundae - intelligence decisionale per ristoranti',
       description:
-        'La piattaforma AI che trasforma i dati dei ristoranti in azione: unifica POS, personale, costi e operazioni per confrontare le prestazioni e ottenere insight immediati.',
+        'La piattaforma di decision intelligence per i ristoranti — unifica POS, personale, costi e operazioni per confrontare le prestazioni e trasformarle nella prossima mossa giusta.',
     },
     layout: { skipToContent: 'Vai al contenuto principale', languageSelector: 'Lingua' },
     navbar: {
@@ -2370,7 +2370,7 @@ const expandedLocaleMessageOverrides = {
     metadata: {
       title: 'Sundae - inteligencja decyzyjna dla restauracji',
       description:
-        'Platforma AI, która zamienia dane restauracyjne w działania: łączy POS, pracowników, koszty i operacje, aby porównywać wyniki i dostarczać natychmiastowe wnioski.',
+        'Platforma decision intelligence dla restauracji — łączy POS, pracowników, koszty i operacje, aby porównywać wyniki i zamieniać je w kolejny właściwy ruch.',
     },
     layout: { skipToContent: 'Przejdź do treści głównej', languageSelector: 'Język' },
     navbar: {
@@ -2411,7 +2411,7 @@ const expandedLocaleMessageOverrides = {
     metadata: {
       title: 'Sundae - restoranlar için karar zekası',
       description:
-        'Restoran verilerini aksiyona dönüştüren AI platformu: POS, ekip, maliyet ve operasyon verilerini birleştirir, performansı kıyaslar ve anında içgörüler sunar.',
+        'Restoranlar için karar zekâsı platformu — POS, ekip, maliyet ve operasyon verilerini birleştirir, performansı kıyaslar ve bir sonraki doğru hamleye dönüştürür.',
     },
     layout: { skipToContent: 'Ana içeriğe geç', languageSelector: 'Dil' },
     navbar: {
@@ -2452,7 +2452,7 @@ const expandedLocaleMessageOverrides = {
     metadata: {
       title: 'Sundae - 面向餐厅的决策智能',
       description:
-        '将餐厅数据转化为行动的 AI 平台：统一 POS、人员、成本和运营数据，对比绩效并获得即时洞察。',
+        '面向餐厅的决策智能平台——统一 POS、人员、成本和运营数据，对比绩效，并将其转化为下一步正确的行动。',
     },
     layout: { skipToContent: '跳到主要内容', languageSelector: '语言' },
     navbar: {
@@ -2493,7 +2493,7 @@ const expandedLocaleMessageOverrides = {
     metadata: {
       title: 'Sundae - レストランのための意思決定インテリジェンス',
       description:
-        'レストランデータを行動に変える AI プラットフォーム。POS、人員、コスト、運営データを統合し、成果を比較して即時のインサイトを提供します。',
+        'レストランのための意思決定インテリジェンス・プラットフォーム。POS、人員、コスト、運営データを統合し、成果を比較して次の最善手に変えます。',
     },
     layout: { skipToContent: 'メインコンテンツへ移動', languageSelector: '言語' },
     navbar: {
@@ -2534,7 +2534,7 @@ const expandedLocaleMessageOverrides = {
     metadata: {
       title: 'Sundae - 레스토랑을 위한 의사결정 인텔리전스',
       description:
-        '레스토랑 데이터를 실행으로 바꾸는 AI 플랫폼입니다. POS, 인력, 비용, 운영 데이터를 통합하고 성과를 비교해 즉시 인사이트를 제공합니다.',
+        '레스토랑을 위한 의사결정 인텔리전스 플랫폼입니다. POS, 인력, 비용, 운영 데이터를 통합하고 성과를 비교해 다음 최선의 결정으로 바꿉니다.',
     },
     layout: { skipToContent: '본문으로 건너뛰기', languageSelector: '언어' },
     navbar: {
@@ -2575,7 +2575,7 @@ const expandedLocaleMessageOverrides = {
     metadata: {
       title: 'Sundae - intelijen keputusan untuk restoran',
       description:
-        'Platform AI yang mengubah data restoran menjadi aksi: satukan POS, tenaga kerja, biaya, dan operasi untuk membandingkan kinerja serta mendapatkan insight instan.',
+        'Platform decision intelligence untuk restoran — menyatukan POS, tenaga kerja, biaya, dan operasi untuk membandingkan kinerja dan mengubahnya menjadi langkah tepat berikutnya.',
     },
     layout: { skipToContent: 'Lewati ke konten utama', languageSelector: 'Bahasa' },
     navbar: {
@@ -2616,7 +2616,7 @@ const expandedLocaleMessageOverrides = {
     metadata: {
       title: 'Sundae - trí tuệ quyết định cho nhà hàng',
       description:
-        'Nền tảng AI biến dữ liệu nhà hàng thành hành động: hợp nhất POS, nhân sự, chi phí và vận hành để so sánh hiệu suất và nhận insight tức thì.',
+        'Nền tảng trí tuệ quyết định cho nhà hàng — hợp nhất POS, nhân sự, chi phí và vận hành để so sánh hiệu suất và biến nó thành nước đi đúng tiếp theo.',
     },
     layout: { skipToContent: 'Chuyển đến nội dung chính', languageSelector: 'Ngôn ngữ' },
     navbar: {
@@ -2657,7 +2657,7 @@ const expandedLocaleMessageOverrides = {
     metadata: {
       title: 'Sundae - inteligență decizională pentru restaurante',
       description:
-        'Platforma AI care transformă datele restaurantelor în acțiune: unește POS, personal, costuri și operațiuni pentru a compara performanța și a oferi insighturi instant.',
+        'Platforma de decision intelligence pentru restaurante — unește POS, personal, costuri și operațiuni pentru a compara performanța și a o transforma în următoarea mișcare corectă.',
     },
     layout: { skipToContent: 'Sari la conținutul principal', languageSelector: 'Limbă' },
     navbar: {
@@ -2698,7 +2698,7 @@ const expandedLocaleMessageOverrides = {
     metadata: {
       title: 'Sundae - beslutsintelligens för restauranger',
       description:
-        'AI-plattformen som gör restaurangdata till handling: förena POS, personal, kostnader och drift för att jämföra resultat och få omedelbara insikter.',
+        'Beslutsintelligens-plattformen för restauranger — förenar POS, personal, kostnader och drift för att jämföra resultat och göra det till nästa rätta drag.',
     },
     layout: { skipToContent: 'Gå till huvudinnehåll', languageSelector: 'Språk' },
     navbar: {
@@ -2739,7 +2739,7 @@ const expandedLocaleMessageOverrides = {
     metadata: {
       title: 'Sundae - রেস্তোরাঁর জন্য সিদ্ধান্ত বুদ্ধিমত্তা',
       description:
-        'AI প্ল্যাটফর্ম যা রেস্তোরাঁর ডেটাকে কাজে রূপান্তর করে: POS, কর্মী, খরচ ও অপারেশন একত্র করে পারফরম্যান্স তুলনা করুন এবং তাৎক্ষণিক ইনসাইট পান।',
+        'রেস্তোরাঁর জন্য ডিসিশন ইন্টেলিজেন্স প্ল্যাটফর্ম — POS, কর্মী, খরচ ও অপারেশন একত্র করে পারফরম্যান্স তুলনা করুন এবং তা পরের সঠিক পদক্ষেপে রূপান্তর করুন।',
     },
     layout: { skipToContent: 'মূল কনটেন্টে যান', languageSelector: 'ভাষা' },
     navbar: {

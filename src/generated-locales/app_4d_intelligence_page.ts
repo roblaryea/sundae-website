@@ -1173,7 +1173,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "یونیفائیڈ ڈیٹا لیئر",
-          "description": "Scout 25+ سسٹمز - POS، لیبر، انوینٹری، بجٹ، اور بیرونی ذرائع - کو ایک ذہین بنیاد میں ضم کرتا ہے۔",
+          "description": "Scout 250+ سسٹمز - POS، لیبر، انوینٹری، بجٹ، اور بیرونی ذرائع - کو ایک ذہین بنیاد میں ضم کرتا ہے۔",
           "icon": "integration"
         },
         {
@@ -1343,7 +1343,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "एकीकृत डेटा परत",
-          "description": "Scout 25+ प्रणालियों - POS, श्रम, इन्वेंट्री, बजट और बाहरी स्रोतों - को एक बुद्धिमान नींव में एकीकृत करता है।",
+          "description": "Scout 250+ प्रणालियों - POS, श्रम, इन्वेंट्री, बजट और बाहरी स्रोतों - को एक बुद्धिमान नींव में एकीकृत करता है।",
           "icon": "integration"
         },
         {
@@ -2533,7 +2533,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Lapisan Data Terpadu",
-          "description": "Scout mengintegrasikan 25+ sistem - POS, tenaga kerja, inventaris, anggaran, dan sumber eksternal - ke dalam satu landasan cerdas.",
+          "description": "Scout mengintegrasikan 250+ sistem - POS, tenaga kerja, inventaris, anggaran, dan sumber eksternal - ke dalam satu landasan cerdas.",
           "icon": "integration"
         },
         {
@@ -3043,7 +3043,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Unified Data Layer",
-          "description": "Scout integrerar 25+ system - POS, arbetskraft, lager, budgetar och externa källor - i en intelligent grund.",
+          "description": "Scout integrerar 250+ system - POS, arbetskraft, lager, budgetar och externa källor - i en intelligent grund.",
           "icon": "integration"
         },
         {
@@ -3213,7 +3213,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "ইউনিফাইড ডেটা লেয়ার",
-          "description": "স্কাউট 25+ সিস্টেমকে একীভূত করে - POS, শ্রম, ইনভেন্টরি, বাজেট এবং বাহ্যিক উত্স - একটি বুদ্ধিমান ভিত্তিতে। (Scout)",
+          "description": "স্কাউট 250+ সিস্টেমকে একীভূত করে - POS, শ্রম, ইনভেন্টরি, বাজেট এবং বাহ্যিক উত্স - একটি বুদ্ধিমান ভিত্তিতে। (Scout)",
           "icon": "integration"
         },
         {
@@ -3553,7 +3553,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Lapisan Data Bersatu",
-          "description": "Scout menyepadukan 25+ sistem - POS, buruh, inventori, belanjawan dan sumber luaran - ke dalam satu asas pintar.",
+          "description": "Scout menyepadukan 250+ sistem - POS, buruh, inventori, belanjawan dan sumber luaran - ke dalam satu asas pintar.",
           "icon": "integration"
         },
         {

@@ -11,7 +11,7 @@ export const generatedLocalCopy = {
       "featuresDescription": "طبقة بيانات واحدة تربط وتنظف وتوحد كل ما يعمل عليه مطعمك",
       "features": [
         {
-          "title": "30+ موصلات مسبقة الصنع",
+          "title": "250+ موصلات مسبقة الصنع",
           "description": "نقاط البيع، والعمالة، والمخزون، والحجوزات، والتسليم، والتسويق، والمحاسبة - يتحدث Scout عن الأنظمة التي تستخدمها بالفعل.",
           "icon": "التكامل"
         },
@@ -284,7 +284,7 @@ export const generatedLocalCopy = {
       "featuresDescription": "Eén datalaag die alles waar uw restaurant op draait, verbindt, opschoont en verenigt",
       "features": [
         {
-          "title": "30+ vooraf gebouwde connectoren",
+          "title": "250+ vooraf gebouwde connectoren",
           "description": "POS, arbeid, inventaris, reserveringen, bezorging, marketing, boekhouding - Scout spreekt met de systemen die u al gebruikt.",
           "icon": "integratie"
         },
@@ -557,7 +557,7 @@ export const generatedLocalCopy = {
       "featuresDescription": "ایک ڈیٹا پرت جو آپ کے ریستوراں میں چلنے والی ہر چیز کو جوڑتی ہے، صاف کرتی ہے اور متحد کرتی ہے۔",
       "features": [
         {
-          "title": "30+ پری بلٹ کنیکٹرز",
+          "title": "250+ پری بلٹ کنیکٹرز",
           "description": "پی او ایس، لیبر، انوینٹری، ریزرویشنز، ڈیلیوری، مارکیٹنگ، اکاؤنٹنگ - اسکاؤٹ ان سسٹمز سے بات کرتا ہے جو آپ پہلے سے استعمال کرتے ہیں۔",
           "icon": "انضمام"
         },
@@ -739,7 +739,7 @@ export const generatedLocalCopy = {
       "featuresDescription": "एक डेटा परत जो आपके रेस्तरां द्वारा संचालित हर चीज़ को जोड़ती है, साफ़ करती है और एकीकृत करती है",
       "features": [
         {
-          "title": "30+ पूर्व-निर्मित कनेक्टर",
+          "title": "250+ पूर्व-निर्मित कनेक्टर",
           "description": "पीओएस, श्रम, इन्वेंट्री, आरक्षण, वितरण, विपणन, लेखांकन - स्काउट उन प्रणालियों के बारे में बात करता है जिनका आप पहले से उपयोग करते हैं।",
           "icon": "एकीकरण"
         },
@@ -1194,7 +1194,7 @@ export const generatedLocalCopy = {
       "featuresDescription": "Satu lapisan data yang menghubungkan, membersihkan, dan menyatukan semua yang dijalankan restoran Anda",
       "features": [
         {
-          "title": "30+ Konektor Pra-Built",
+          "title": "250+ Konektor Pra-Built",
           "description": "POS, tenaga kerja, inventaris, reservasi, pengiriman, pemasaran, akuntansi - Scout berbicara kepada sistem yang sudah Anda gunakan.",
           "icon": "integrasi"
         },
@@ -1558,7 +1558,7 @@ export const generatedLocalCopy = {
       "featuresDescription": "Ett datalager som ansluter, rensar och förenar allt din restaurang körs på",
       "features": [
         {
-          "title": "30+ förbyggda kontakter",
+          "title": "250+ förbyggda kontakter",
           "description": "POS, arbete, inventering, reservationer, leverans, marknadsföring, redovisning - Scout talar till de system du redan använder.",
           "icon": "integration"
         },
@@ -1649,7 +1649,7 @@ export const generatedLocalCopy = {
       "featuresDescription": "একটি ডেটা লেয়ার যা আপনার রেস্তোরাঁর সমস্ত কিছুকে সংযুক্ত করে, পরিষ্কার করে এবং একত্রিত করে",
       "features": [
         {
-          "title": "30+ প্রাক-নির্মিত সংযোগকারী",
+          "title": "250+ প্রাক-নির্মিত সংযোগকারী",
           "description": "POS, শ্রম, ইনভেন্টরি, রিজার্ভেশন, ডেলিভারি, মার্কেটিং, অ্যাকাউন্টিং - স্কাউট আপনি ইতিমধ্যে ব্যবহার করা সিস্টেমগুলির সাথে কথা বলে৷",
           "icon": "ইন্টিগ্রেশন"
         },
@@ -1831,7 +1831,7 @@ export const generatedLocalCopy = {
       "featuresDescription": "Satu lapisan data yang menghubungkan, membersihkan dan menyatukan semua yang dijalankan oleh restoran anda",
       "features": [
         {
-          "title": "30+ Penyambung Pra-Bina",
+          "title": "250+ Penyambung Pra-Bina",
           "description": "POS, buruh, inventori, tempahan, penghantaran, pemasaran, perakaunan - Scout bercakap dengan sistem yang telah anda gunakan.",
           "icon": "integrasi"
         },

@@ -49,7 +49,7 @@ const localizedInsightsUi = {
     badge: 'وحدات الذكاء من Sundae',
     title: 'تعمق أكثر في كل جزء من عملياتك',
     description:
-      '14 وحدة متخصصة تشمل الإيرادات والعمالة والمخزون والمشتريات والتسويق والحجوزات والربحية والتوصيل وتجربة الضيف وCRM وضمان الإيرادات والذكاء المتقاطع وذكاء التوقعات والملخص التنفيذي.',
+      '12 وحدة متخصصة تشمل الإيرادات والعمالة والمخزون والمشتريات والتسويق والحجوزات والربحية والتوصيل وتجربة الضيف وCRM وضمان الإيرادات والذكاء المتقاطع وذكاء التوقعات والملخص التنفيذي.',
     bookDemo: 'احجز عرضًا',
     seeModules: 'عرض تسعير الوحدات',
     categories: ['الإيرادات', 'العمالة', 'المخزون', 'المشتريات', 'التسويق', 'الحجوزات', 'الربحية', 'ضمان الإيرادات', 'التوصيل', 'تجربة الضيف', 'CRM الضيوف', 'الذكاء المتقاطع'],
@@ -83,7 +83,7 @@ const localizedInsightsUi = {
     badge: 'MODULES SUNDAE',
     title: 'Allez plus loin dans chaque partie de votre activité',
     description:
-      '14 modules spécialisés couvrant le revenu, la main-d&apos;œuvre, les stocks, les achats, le marketing, les réservations, la profitabilité, la livraison, l&apos;expérience client, le CRM, la garantie du revenu, l&apos;intelligence croisée, la prévision et le résumé exécutif.',
+      '12 modules spécialisés couvrant le revenu, la main-d&apos;œuvre, les stocks, les achats, le marketing, les réservations, la profitabilité, la livraison, l&apos;expérience client, le CRM, la garantie du revenu, l&apos;intelligence croisée, la prévision et le résumé exécutif.',
     bookDemo: 'Réserver une démo',
     seeModules: 'Voir les tarifs des modules',
     categories: ['Revenu', 'Main-d&apos;œuvre', 'Stocks', 'Achats', 'Marketing', 'Réservations', 'Profit', 'Garantie du revenu', 'Livraison', 'Expérience client', 'CRM clients', 'Cross-Intel'],
@@ -117,7 +117,7 @@ const localizedInsightsUi = {
     badge: 'MODULOS SUNDAE',
     title: 'Profundiza en cada parte de tu operacion',
     description:
-      '14 modulos especializados: ingresos, personal, inventario, compras, marketing, reservas, beneficio, delivery, experiencia de clientes, CRM, aseguramiento de ingresos, inteligencia cruzada, previsiones y resumen ejecutivo.',
+      '12 modulos especializados: ingresos, personal, inventario, compras, marketing, reservas, beneficio, delivery, experiencia de clientes, CRM, aseguramiento de ingresos, inteligencia cruzada, previsiones y resumen ejecutivo.',
     bookDemo: 'Reservar una demo',
     seeModules: 'Ver precios de modulos',
     categories: ['Ingresos', 'Personal', 'Inventario', 'Compras', 'Marketing', 'Reservas', 'Beneficio', 'Aseguramiento', 'Delivery', 'Experiencia', 'CRM', 'Cross-Intel'],

@@ -27,7 +27,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     howTitle: "How Sundae works for tech & data teams",
     howDescription: "One platform, twelve domains, zero plumbing.",
     howSundaeHelps: [
-      { title: "179+ governed restaurant data models", description: "Unified schema across POS, labor, inventory, delivery, reservations, accounting. Every metric defined once, used everywhere.", product: "Sundae Core", icon: "data" },
+      { title: "500+ governed restaurant data models", description: "Unified schema across POS, labor, inventory, delivery, reservations, accounting. Every metric defined once, used everywhere.", product: "Sundae Core", icon: "data" },
       { title: "Public API + webhooks out of the box", description: "REST endpoints for every entity. Webhook events on order, shift, void, comp. RBAC and audit trails built in.", product: "Sundae Core · API", icon: "integration" },
       { title: "Live Core refresh", description: "Pulse runs on a 5-minute refresh on Core Pro. No batch ETL, no nightly job, no \"why is the dashboard 6 hours behind\".", product: "Pulse", icon: "speed" },
       { title: "AI you can govern", description: "Sundae Intelligence answers cite the source row, the metric definition, and the query. Auditable AI, not a black box.", product: "Sundae Intelligence", icon: "intelligence" },
@@ -63,7 +63,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     howTitle: "كيف يعمل Sundae لفِرَق التقنية والبيانات",
     howDescription: "منصة واحدة، اثنا عشر مجالاً، صفر سباكة.",
     howSundaeHelps: [
-      { title: "179+ نموذج بيانات مطعم محكوم", description: "مخطط موحد عبر POS وعمالة ومخزون وتوصيل وحجوزات ومحاسبة. كل مقياس معرف مرة، يُستخدم في كل مكان.", product: "Sundae Core", icon: "data" },
+      { title: "500+ نموذج بيانات مطعم محكوم", description: "مخطط موحد عبر POS وعمالة ومخزون وتوصيل وحجوزات ومحاسبة. كل مقياس معرف مرة، يُستخدم في كل مكان.", product: "Sundae Core", icon: "data" },
       { title: "API عامة + webhooks جاهزة", description: "نقاط REST لكل كيان. أحداث webhook على الطلب والوردية والتجاوز والتعويض. RBAC وتتبع مدمجان.", product: "Sundae Core · API", icon: "integration" },
       { title: "تحديث Core حي", description: "Pulse يعمل بتحديث كل 5 دقائق على Core Pro. لا ETL دفعي، لا مهمة ليلية، لا \"لماذا اللوحة متأخرة 6 ساعات\".", product: "Pulse", icon: "speed" },
       { title: "ذكاء يمكن حوكمته", description: "إجابات Sundae Intelligence تستشهد بالصف المصدر وتعريف المقياس والاستعلام. ذكاء قابل للتدقيق لا صندوق أسود.", product: "Sundae Intelligence", icon: "intelligence" },
@@ -99,7 +99,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     howTitle: "Comment Sundae sert Tech & Data",
     howDescription: "Une plateforme, douze domaines, zéro plomberie.",
     howSundaeHelps: [
-      { title: "179+ modèles de données restaurant gouvernés", description: "Schéma unifié sur POS, main-d'œuvre, stocks, livraison, réservations, compta. Une définition, partout.", product: "Sundae Core", icon: "data" },
+      { title: "500+ modèles de données restaurant gouvernés", description: "Schéma unifié sur POS, main-d'œuvre, stocks, livraison, réservations, compta. Une définition, partout.", product: "Sundae Core", icon: "data" },
       { title: "API publique + webhooks prêts", description: "REST sur chaque entité. Webhooks sur commande, shift, annulation, comp. RBAC et audit inclus.", product: "Sundae Core · API", icon: "integration" },
       { title: "Refresh Core live", description: "Pulse en 5 min sur Core Pro. Pas d'ETL batch, pas de job nuit, pas de \"pourquoi le dashboard est en retard de 6h\".", product: "Pulse", icon: "speed" },
       { title: "IA gouvernable", description: "Réponses Sundae Intelligence avec source, définition, requête. IA auditable, pas boîte noire.", product: "Sundae Intelligence", icon: "intelligence" },
@@ -135,7 +135,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     howTitle: "Cómo trabaja Sundae para Tecnología y Data",
     howDescription: "Una plataforma, doce dominios, cero plomería.",
     howSundaeHelps: [
-      { title: "179+ modelos de datos restaurante gobernados", description: "Esquema unificado en POS, personal, inventario, delivery, reservas, contabilidad. Una definición, en todas partes.", product: "Sundae Core", icon: "data" },
+      { title: "500+ modelos de datos restaurante gobernados", description: "Esquema unificado en POS, personal, inventario, delivery, reservas, contabilidad. Una definición, en todas partes.", product: "Sundae Core", icon: "data" },
       { title: "API pública + webhooks listos", description: "REST en cada entidad. Webhooks en pedido, turno, anulación, comp. RBAC y auditoría incluidos.", product: "Sundae Core · API", icon: "integration" },
       { title: "Refresh Core en vivo", description: "Pulse en 5 min en Core Pro. Sin ETL batch, sin job nocturno, sin \"por qué el dashboard va 6 horas tarde\".", product: "Pulse", icon: "speed" },
       { title: "IA gobernable", description: "Respuestas de Sundae Intelligence con fuente, definición, query. IA auditable, no caja negra.", product: "Sundae Intelligence", icon: "intelligence" },

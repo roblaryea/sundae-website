@@ -6262,7 +6262,7 @@ The shift from dashboards to Decision Intelligence has implications beyond techn
 
 Sundae is not a better dashboard. It is not a prettier BI tool. It is not another analytics platform with a restaurant skin.
 
-Sundae is Decision Intelligence built for restaurant operations. Six layers  -  Pulse for real-time monitoring, Benchmarks for competitive context, Watchtower for market intelligence, Insights for deep analytics across 14 modules, Intelligence for conversational AI, and Foresight for predictive and prescriptive models  -  that work together to deliver the only thing that matters: **better decisions, faster**.
+Sundae is Decision Intelligence built for restaurant operations. Six layers  -  Pulse for real-time monitoring, Benchmarks for competitive context, Watchtower for market intelligence, Insights for deep analytics across 12 modules, Intelligence for conversational AI, and Foresight for predictive and prescriptive models  -  that work together to deliver the only thing that matters: **better decisions, faster**.
 
 The 4D Intelligence framework  -  Actual, Plan, Benchmark, and Prediction  -  ensures every metric you see comes with the full context needed for action. Not just "what happened" but "what it means, why it matters, and what you should do about it."
 

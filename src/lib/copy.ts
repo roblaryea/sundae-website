@@ -170,7 +170,7 @@ export const PROOF_POINTS = {
     customers: "Designed for multi-unit restaurant operators and hospitality groups",
     locations: "Built to support portfolios across many locations",
     dataPoints: "Built for continuous operational data ingestion and analysis",
-    integrations: "80+ integrations across POS, labor, delivery, marketing, reservations, guest, and finance systems"
+    integrations: "250+ integrations across POS, labor, delivery, marketing, reservations, guest, and finance systems"
   },
   
   // Customer quotes (anonymized templates)

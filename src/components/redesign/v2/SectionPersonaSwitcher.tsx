@@ -119,7 +119,7 @@ const personas: Persona[] = [
       "Every new dashboard request becomes a six-week integration project.",
     outcome: "One platform, twelve domains, zero plumbing.",
     outcomeCopy:
-      "POS, labor, inventory, delivery, accounting, reservations — unified into 179 governed data models. RBAC, audit trails, public API, webhooks. Out of the box.",
+      "POS, labor, inventory, delivery, accounting, reservations — unified into 500 governed data models. RBAC, audit trails, public API, webhooks. Out of the box.",
     intelLayers: ["All layers"],
     Mockup: IntegrationsHubMockup,
   },

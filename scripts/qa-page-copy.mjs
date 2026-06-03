@@ -6,7 +6,6 @@ const pageFiles = [
   'src/app/about/page.tsx',
   'src/app/architecture/page.tsx',
   'src/app/benchmarking/page.tsx',
-  'src/app/canvas/page.tsx',
   'src/app/careers/page.tsx',
   'src/app/faq/page.tsx',
   'src/app/insights/page.tsx',
@@ -15,6 +14,21 @@ const pageFiles = [
   'src/app/product/cross-intelligence/page.tsx',
   'src/app/product/pulse/page.tsx',
 ];
+
+function existingPageFiles(files) {
+  const missing = [];
+  const existing = files.filter((filePath) => {
+    if (fs.existsSync(path.join(process.cwd(), filePath))) return true;
+    missing.push(filePath);
+    return false;
+  });
+
+  if (missing.length) {
+    console.warn(`Skipping ${missing.length} retired page-copy target(s): ${missing.join(', ')}`);
+  }
+
+  return existing;
+}
 
 function countMatches(text, pattern) {
   return text.match(pattern)?.length ?? 0;
@@ -67,7 +81,8 @@ function analyzeText(text) {
   return issues;
 }
 
-const results = pageFiles.map((filePath) => {
+const scannedPageFiles = existingPageFiles(pageFiles);
+const results = scannedPageFiles.map((filePath) => {
   const absolutePath = path.join(process.cwd(), filePath);
   const source = fs.readFileSync(absolutePath, 'utf8');
   const issues = analyzeText(extractEnglishSlice(source));

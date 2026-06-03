@@ -12,11 +12,11 @@ export const generatedLocalCopy = {
           "label": "Datenbereiche vereinheitlicht"
         },
         {
-          "value": "179+",
+          "value": "500+",
           "label": "restaurantspezifische Datenmodelle"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "Analysemodule",
           "footnoteMarker": "†"
         },
@@ -45,7 +45,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights verbindet Umsatz, Arbeitskosten, Lebensmittelkosten, Rabatte und Preisgestaltung, damit Teams die Ursache sehen können, während sie noch handlungsfähig ist."
         }
       ],
-      "footnote": "*Die Aktualisierungsfrequenz variiert je nach Core-Stufe. Siehe Preisgestaltung für Details. †Über 30 Analyse-Module auf der Plattform; 14 spezialisierte Module sind im aktuellen Preisbundle enthalten. ‡Brancheneinsichten sind allgemeine Muster der Restaurantbranche, die aus öffentlichen Forschungen und Beratungsfeedback abgeleitet wurden. Benannte Pilotresultate und validierte Kundenergebnisse werden diesen Abschnitt ersetzen, sobald sie verfügbar sind."
+      "footnote": "*Die Aktualisierungsfrequenz variiert je nach Core-Stufe. Siehe Preisgestaltung für Details. †Über 30 Analyse-Module auf der Plattform; 12 spezialisierte Module sind im aktuellen Preisbundle enthalten. ‡Brancheneinsichten sind allgemeine Muster der Restaurantbranche, die aus öffentlichen Forschungen und Beratungsfeedback abgeleitet wurden. Benannte Pilotresultate und validierte Kundenergebnisse werden diesen Abschnitt ersetzen, sobald sie verfügbar sind."
     },
     "fr": {
       "eyebrow": "CONSTRUIT AVEC DES OPÉRATEURS",
@@ -57,11 +57,11 @@ export const generatedLocalCopy = {
           "label": "domaines de données unifiés"
         },
         {
-          "value": "179+",
+          "value": "500+",
           "label": "modèles de données spécifiques aux restaurants"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "modules d'analyse",
           "footnoteMarker": "†"
         },
@@ -90,7 +90,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights connecte les revenus, la main-d'œuvre, le coût des aliments, les remises et les prix afin que les équipes puissent voir la cause tant qu'elle est encore actionnable."
         }
       ],
-      "footnote": "*La fréquence de rafraîchissement varie selon le niveau de Core. Voir les tarifs pour plus de détails. †Plus de 30 modules d'analyse sur la plateforme ; 14 modules spécialisés inclus dans le forfait tarifaire actuel. ‡Les observations sectorielles sont des tendances générales de l'industrie de la restauration tirées de recherches publiques et de retours d'experts. Les résultats des pilotes nommés et les résultats validés des clients remplaceront cette section dès qu'ils seront disponibles."
+      "footnote": "*La fréquence de rafraîchissement varie selon le niveau de Core. Voir les tarifs pour plus de détails. †Plus de 30 modules d'analyse sur la plateforme ; 12 modules spécialisés inclus dans le forfait tarifaire actuel. ‡Les observations sectorielles sont des tendances générales de l'industrie de la restauration tirées de recherches publiques et de retours d'experts. Les résultats des pilotes nommés et les résultats validés des clients remplaceront cette section dès qu'ils seront disponibles."
     },
     "es": {
       "eyebrow": "CONSTRUIDO CON OPERADORES",
@@ -102,11 +102,11 @@ export const generatedLocalCopy = {
           "label": "dominios de datos unificados"
         },
         {
-          "value": "179+",
+          "value": "500+",
           "label": "modelos de datos específicos para restaurantes"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "módulos de análisis",
           "footnoteMarker": "†"
         },
@@ -135,7 +135,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights conecta ingresos, mano de obra, costo de alimentos, descuentos y precios para que los equipos puedan ver la causa mientras aún es accionable."
         }
       ],
-      "footnote": "*La frecuencia de actualización varía según el nivel de Core. Consulta los precios para más detalles. †Más de 30 módulos de análisis en la plataforma; 14 módulos especializados incluidos en el paquete de precios actual. ‡Las observaciones de la industria son patrones generales de la industria restaurantera extraídos de investigaciones públicas y comentarios de asesoría. Los resultados de pilotos nombrados y los resultados validados de clientes reemplazarán esta sección a medida que estén disponibles."
+      "footnote": "*La frecuencia de actualización varía según el nivel de Core. Consulta los precios para más detalles. †Más de 30 módulos de análisis en la plataforma; 12 módulos especializados incluidos en el paquete de precios actual. ‡Las observaciones de la industria son patrones generales de la industria restaurantera extraídos de investigaciones públicas y comentarios de asesoría. Los resultados de pilotos nombrados y los resultados validados de clientes reemplazarán esta sección a medida que estén disponibles."
     },
     "nl": {
       "eyebrow": "GEBOUWD MET OPERATORS",
@@ -147,11 +147,11 @@ export const generatedLocalCopy = {
           "label": "geünificeerde datadomeinen"
         },
         {
-          "value": "179+",
+          "value": "500+",
           "label": "restaurantspecifieke datamodellen"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "analysemodules",
           "footnoteMarker": "†"
         },
@@ -180,7 +180,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights verbindt omzet, arbeid, voedselkosten, kortingen en prijzen, zodat teams de oorzaak kunnen zien terwijl deze nog actiegericht is."
         }
       ],
-      "footnote": "*De verversingsfrequentie varieert per Core-niveau. Zie de prijsinformatie voor details. †30+ analysemodule's op het platform; 14 gespecialiseerde module's zijn inbegrepen in het huidige prijsbundel. ‡Sectorobservaties zijn algemene patronen uit de restaurantsector, gebaseerd op openbaar onderzoek en adviesfeedback. Genoemde pilotresultaten en gevalideerde klantresultaten zullen deze sectie vervangen zodra ze beschikbaar komen."
+      "footnote": "*De verversingsfrequentie varieert per Core-niveau. Zie de prijsinformatie voor details. †12 analysemodule's op het platform; 12 gespecialiseerde module's zijn inbegrepen in het huidige prijsbundel. ‡Sectorobservaties zijn algemene patronen uit de restaurantsector, gebaseerd op openbaar onderzoek en adviesfeedback. Genoemde pilotresultaten en gevalideerde klantresultaten zullen deze sectie vervangen zodra ze beschikbaar komen."
     },
     "pt": {
       "eyebrow": "CONSTRUÍDO COM OPERADORES",
@@ -192,11 +192,11 @@ export const generatedLocalCopy = {
           "label": "domínios de dados unificados"
         },
         {
-          "value": "179+",
+          "value": "500+",
           "label": "modelos de dados específicos para restaurantes"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "módulos de análise",
           "footnoteMarker": "†"
         },
@@ -225,7 +225,7 @@ export const generatedLocalCopy = {
           "sundae": "O Insights conecta receita, mão de obra, custo de alimentos, descontos e preços para que as equipes possam ver a causa enquanto ainda é acionável."
         }
       ],
-      "footnote": "*A frequência de atualização varia de acordo com o nível do Core. Veja os preços para mais detalhes. †Mais de 30 módulos de análise na plataforma; 14 módulos especializados incluídos no pacote de preços atual. ‡As observações da indústria são padrões gerais do setor de restaurantes extraídos de pesquisas públicas e feedback de consultoria. Resultados de pilotos nomeados e resultados validados de clientes substituirão esta seção à medida que se tornarem disponíveis."
+      "footnote": "*A frequência de atualização varia de acordo com o nível do Core. Veja os preços para mais detalhes. †Mais de 30 módulos de análise na plataforma; 12 módulos especializados incluídos no pacote de preços atual. ‡As observações da indústria são padrões gerais do setor de restaurantes extraídos de pesquisas públicas e feedback de consultoria. Resultados de pilotos nomeados e resultados validados de clientes substituirão esta seção à medida que se tornarem disponíveis."
     },
     "hi": {
       "eyebrow": "ऑपरेटरों के साथ निर्मित",
@@ -237,11 +237,11 @@ export const generatedLocalCopy = {
           "label": "डेटा डोमेन एकीकृत"
         },
         {
-          "value": "179+",
+          "value": "500+",
           "label": "रेस्टोरेंट-विशिष्ट डेटा मॉडल"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "विश्लेषणात्मक मॉड्यूल",
           "footnoteMarker": "†"
         },
@@ -270,7 +270,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights राजस्व, श्रम, खाद्य लागत, छूट और मूल्य निर्धारण को जोड़ता है ताकि टीमें कारण देख सकें जब यह अभी भी कार्रवाई योग्य हो।"
         }
       ],
-      "footnote": "*रीफ्रेश आवृत्ति कोर स्तर के अनुसार भिन्न होती है। विवरण के लिए मूल्य निर्धारण देखें। †प्लेटफ़ॉर्म पर 30+ एनालिटिक्स मॉड्यूल; वर्तमान मूल्य निर्धारण बंडल में 14 विशेष मॉड्यूल शामिल हैं। ‡उद्योग अवलोकन सामान्य रेस्तरां-उद्योग पैटर्न हैं जो सार्वजनिक अनुसंधान और सलाहकार फीडबैक से निकाले गए हैं। नामित पायलट परिणाम और मान्यताप्राप्त ग्राहक परिणाम इस अनुभाग को तब प्रतिस्थापित करेंगे जब वे उपलब्ध होंगे।"
+      "footnote": "*रीफ्रेश आवृत्ति कोर स्तर के अनुसार भिन्न होती है। विवरण के लिए मूल्य निर्धारण देखें। †प्लेटफ़ॉर्म पर 12 एनालिटिक्स मॉड्यूल; वर्तमान मूल्य निर्धारण बंडल में 14 विशेष मॉड्यूल शामिल हैं। ‡उद्योग अवलोकन सामान्य रेस्तरां-उद्योग पैटर्न हैं जो सार्वजनिक अनुसंधान और सलाहकार फीडबैक से निकाले गए हैं। नामित पायलट परिणाम और मान्यताप्राप्त ग्राहक परिणाम इस अनुभाग को तब प्रतिस्थापित करेंगे जब वे उपलब्ध होंगे।"
     },
     "it": {
       "eyebrow": "CREATO CON GLI OPERATORI",
@@ -282,11 +282,11 @@ export const generatedLocalCopy = {
           "label": "domini dati unificati"
         },
         {
-          "value": "179+",
+          "value": "500+",
           "label": "modelli di dati specifici per ristoranti"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "moduli di analisi",
           "footnoteMarker": "†"
         },
@@ -315,7 +315,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights collega entrate, lavoro, costo del cibo, sconti e prezzi in modo che i team possano vedere la causa mentre è ancora azionabile."
         }
       ],
-      "footnote": "*La frequenza di aggiornamento varia in base al livello di Core. Vedi i prezzi per i dettagli. †Oltre 30 moduli di analisi sulla piattaforma; 14 moduli specializzati inclusi nel pacchetto di prezzo attuale. ‡Le osservazioni del settore sono modelli generali dell'industria della ristorazione tratti da ricerche pubbliche e feedback di consulenza. I risultati dei progetti pilota nominati e gli esiti dei clienti convalidati sostituiranno questa sezione man mano che saranno disponibili."
+      "footnote": "*La frequenza di aggiornamento varia in base al livello di Core. Vedi i prezzi per i dettagli. †Oltre 30 moduli di analisi sulla piattaforma; 12 moduli specializzati inclusi nel pacchetto di prezzo attuale. ‡Le osservazioni del settore sono modelli generali dell'industria della ristorazione tratti da ricerche pubbliche e feedback di consulenza. I risultati dei progetti pilota nominati e gli esiti dei clienti convalidati sostituiranno questa sezione man mano che saranno disponibili."
     },
     "ar": {
       "eyebrow": "مبني مع المشغلين",
@@ -327,11 +327,11 @@ export const generatedLocalCopy = {
           "label": "مجالات البيانات الموحدة"
         },
         {
-          "value": "179+",
+          "value": "500+",
           "label": "نماذج بيانات خاصة بالمطاعم"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "وحدات التحليلات",
           "footnoteMarker": "†"
         },
@@ -360,7 +360,7 @@ export const generatedLocalCopy = {
           "sundae": "تربط Insights الإيرادات، والعمالة، وتكاليف الطعام، والخصومات، والأسعار حتى تتمكن الفرق من رؤية السبب بينما لا يزال قابلاً للتنفيذ."
         }
       ],
-      "footnote": "*تختلف ترددات التحديث حسب مستوى Core. راجع التسعير للحصول على التفاصيل. †أكثر من 30 وحدة تحليلية عبر المنصة؛ 14 وحدة متخصصة مدرجة في حزمة التسعير الحالية. ‡الملاحظات الصناعية هي أنماط عامة في صناعة المطاعم مستمدة من الأبحاث العامة وتعليقات الاستشاريين. ستستبدل نتائج التجارب المسماة والنتائج المعتمدة من العملاء هذا القسم عند توفرها."
+      "footnote": "*تختلف ترددات التحديث حسب مستوى Core. راجع التسعير للحصول على التفاصيل. †أكثر من 30 وحدة تحليلية عبر المنصة؛ 12 وحدة متخصصة مدرجة في حزمة التسعير الحالية. ‡الملاحظات الصناعية هي أنماط عامة في صناعة المطاعم مستمدة من الأبحاث العامة وتعليقات الاستشاريين. ستستبدل نتائج التجارب المسماة والنتائج المعتمدة من العملاء هذا القسم عند توفرها."
     },
     "ur": {
       "eyebrow": "آپریٹرز کے ساتھ بنایا گیا",
@@ -372,11 +372,11 @@ export const generatedLocalCopy = {
           "label": "ڈیٹا ڈومینز متحد"
         },
         {
-          "value": "179+",
+          "value": "500+",
           "label": "ریستوران کے مخصوص ڈیٹا ماڈلز"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "تجزیاتی ماڈیولز",
           "footnoteMarker": "†"
         },
@@ -405,7 +405,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights آمدنی، مزدوری، خوراک کی قیمت، رعایتیں، اور قیمتوں کو جوڑتا ہے تاکہ ٹیمیں دیکھ سکیں کہ وجہ کیا ہے جب یہ ابھی بھی عمل درآمد کے قابل ہو۔"
         }
       ],
-      "footnote": "*تازہ کاری کی فریکوئنسی Core کی سطح کے لحاظ سے مختلف ہوتی ہے۔ تفصیلات کے لیے قیمتوں کو دیکھیں۔ †پلیٹ فارم پر 30+ تجزیاتی ماڈیولز؛ موجودہ قیمتوں کے پیکج میں 14 خصوصی ماڈیول شامل ہیں۔ ‡صنعتی مشاہدات عمومی ریستوراں کی صنعت کے پیٹرن ہیں جو عوامی تحقیق اور مشاورتی فیڈبیک سے حاصل کیے گئے ہیں۔ نامزد پائلٹ کے نتائج اور تصدیق شدہ صارف کے نتائج اس سیکشن کی جگہ لیں گے جب وہ دستیاب ہوں گے۔"
+      "footnote": "*تازہ کاری کی فریکوئنسی Core کی سطح کے لحاظ سے مختلف ہوتی ہے۔ تفصیلات کے لیے قیمتوں کو دیکھیں۔ †پلیٹ فارم پر 12 تجزیاتی ماڈیولز؛ موجودہ قیمتوں کے پیکج میں 14 خصوصی ماڈیول شامل ہیں۔ ‡صنعتی مشاہدات عمومی ریستوراں کی صنعت کے پیٹرن ہیں جو عوامی تحقیق اور مشاورتی فیڈبیک سے حاصل کیے گئے ہیں۔ نامزد پائلٹ کے نتائج اور تصدیق شدہ صارف کے نتائج اس سیکشن کی جگہ لیں گے جب وہ دستیاب ہوں گے۔"
     },
     "tr": {
       "eyebrow": "OPERATÖRLERLE İNŞA EDİLDİ",
@@ -417,11 +417,11 @@ export const generatedLocalCopy = {
           "label": "veri alanları birleştirildi"
         },
         {
-          "value": "179+",
+          "value": "500+",
           "label": "restoran spesifik veri modelleri"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "analitik modüller",
           "footnoteMarker": "†"
         },
@@ -462,11 +462,11 @@ export const generatedLocalCopy = {
           "label": "zunifikowane domeny danych"
         },
         {
-          "value": "179+",
+          "value": "500+",
           "label": "specyficzne modele danych dla restauracji"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "moduły analityczne",
           "footnoteMarker": "†"
         },
@@ -507,11 +507,11 @@ export const generatedLocalCopy = {
           "label": "データドメインの統合"
         },
         {
-          "value": "179+",
+          "value": "500+",
           "label": "レストラン特化型データモデル"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "分析モジュール",
           "footnoteMarker": "†"
         },
@@ -552,11 +552,11 @@ export const generatedLocalCopy = {
           "label": "数据领域统一"
         },
         {
-          "value": "179+",
+          "value": "500+",
           "label": "餐厅特定数据模型"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "分析模块",
           "footnoteMarker": "†"
         },
@@ -597,11 +597,11 @@ export const generatedLocalCopy = {
           "label": "domain data yang terintegrasi"
         },
         {
-          "value": "179+",
+          "value": "500+",
           "label": "model data khusus restoran"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "modul analitik",
           "footnoteMarker": "†"
         },
@@ -630,7 +630,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights menghubungkan pendapatan, tenaga kerja, biaya makanan, diskon, dan harga sehingga tim dapat melihat penyebabnya saat masih dapat ditindaklanjuti."
         }
       ],
-      "footnote": "*Frekuensi penyegaran bervariasi berdasarkan tingkat Core. Lihat harga untuk detailnya. †30+ modul analitik di seluruh platform; 14 modul khusus termasuk dalam paket harga saat ini. ‡Observasi industri adalah pola umum industri restoran yang diambil dari penelitian publik dan umpan balik penasihat. Hasil pilot yang dinamai dan hasil pelanggan yang divalidasi akan menggantikan bagian ini saat tersedia."
+      "footnote": "*Frekuensi penyegaran bervariasi berdasarkan tingkat Core. Lihat harga untuk detailnya. †12 modul analitik di seluruh platform; 12 modul khusus termasuk dalam paket harga saat ini. ‡Observasi industri adalah pola umum industri restoran yang diambil dari penelitian publik dan umpan balik penasihat. Hasil pilot yang dinamai dan hasil pelanggan yang divalidasi akan menggantikan bagian ini saat tersedia."
     },
     "ko": {
       "eyebrow": "운영자와 함께 구축됨",
@@ -642,11 +642,11 @@ export const generatedLocalCopy = {
           "label": "통합된 데이터 도메인"
         },
         {
-          "value": "179+",
+          "value": "500+",
           "label": "레스토랑 전용 데이터 모델"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "분석 모듈",
           "footnoteMarker": "†"
         },
@@ -687,11 +687,11 @@ export const generatedLocalCopy = {
           "label": "miền dữ liệu thống nhất"
         },
         {
-          "value": "179+",
+          "value": "500+",
           "label": "mô hình dữ liệu cụ thể cho nhà hàng"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "mô-đun phân tích",
           "footnoteMarker": "†"
         },
@@ -720,7 +720,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights kết nối doanh thu, lao động, chi phí thực phẩm, giảm giá và giá cả để các nhóm có thể thấy nguyên nhân khi nó vẫn còn có thể hành động."
         }
       ],
-      "footnote": "*Tần suất làm mới thay đổi theo cấp độ Core. Xem giá để biết chi tiết. †Hơn 30 mô-đun phân tích trên toàn nền tảng; 14 mô-đun chuyên biệt được bao gồm trong gói giá hiện tại. ‡Những quan sát trong ngành là các mẫu chung của ngành nhà hàng được rút ra từ nghiên cứu công khai và phản hồi tư vấn. Kết quả thí điểm đã đặt tên và kết quả khách hàng đã xác thực sẽ thay thế phần này khi có sẵn."
+      "footnote": "*Tần suất làm mới thay đổi theo cấp độ Core. Xem giá để biết chi tiết. †Hơn 30 mô-đun phân tích trên toàn nền tảng; 12 mô-đun chuyên biệt được bao gồm trong gói giá hiện tại. ‡Những quan sát trong ngành là các mẫu chung của ngành nhà hàng được rút ra từ nghiên cứu công khai và phản hồi tư vấn. Kết quả thí điểm đã đặt tên và kết quả khách hàng đã xác thực sẽ thay thế phần này khi có sẵn."
     },
     "ro": {
       "eyebrow": "CONSTRUIT CU OPERATORI",
@@ -732,11 +732,11 @@ export const generatedLocalCopy = {
           "label": "domenii de date unificate"
         },
         {
-          "value": "179+",
+          "value": "500+",
           "label": "modele de date specifice restaurantelor"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "module de analiză",
           "footnoteMarker": "†"
         },
@@ -765,7 +765,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights conectează veniturile, forța de muncă, costul alimentelor, reducerile și prețurile, astfel încât echipele să poată vedea cauza în timp ce este încă acționabilă."
         }
       ],
-      "footnote": "*Frecvența de actualizare variază în funcție de nivelul Core. Consultați prețurile pentru detalii. †30+ module de analiză pe întreaga platformă; 14 module specializate incluse în pachetul de prețuri actual. ‡Observațiile din industrie sunt modele generale din industria restaurantelor extrase din cercetări publice și feedback de consultanță. Rezultatele pilot numite și rezultatele validate ale clienților vor înlocui această secțiune pe măsură ce devin disponibile."
+      "footnote": "*Frecvența de actualizare variază în funcție de nivelul Core. Consultați prețurile pentru detalii. †12 module de analiză pe întreaga platformă; 12 module specializate incluse în pachetul de prețuri actual. ‡Observațiile din industrie sunt modele generale din industria restaurantelor extrase din cercetări publice și feedback de consultanță. Rezultatele pilot numite și rezultatele validate ale clienților vor înlocui această secțiune pe măsură ce devin disponibile."
     },
     "sv": {
       "eyebrow": "BYGGD MED OPERATÖRER",
@@ -777,11 +777,11 @@ export const generatedLocalCopy = {
           "label": "dataområden enade"
         },
         {
-          "value": "179+",
+          "value": "500+",
           "label": "restaurangspecifika datamodeller"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "analysmoduler",
           "footnoteMarker": "†"
         },
@@ -810,7 +810,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights kopplar samman intäkter, arbetskraft, matkostnader, rabatter och prissättning så att team kan se orsaken medan den fortfarande är handlingsbar."
         }
       ],
-      "footnote": "*Uppdateringsfrekvensen varierar beroende på Core-nivå. Se prissättning för detaljer. †30+ analysmoduler över plattformen; 14 specialiserade moduler ingår i det aktuella prispaketet. ‡Branschobservationer är allmänna mönster inom restaurangbranschen baserade på offentlig forskning och rådgivande feedback. Namngivna pilotresultat och validerade kundresultat kommer att ersätta denna sektion när de blir tillgängliga."
+      "footnote": "*Uppdateringsfrekvensen varierar beroende på Core-nivå. Se prissättning för detaljer. †12 analysmoduler över plattformen; 12 specialiserade moduler ingår i det aktuella prispaketet. ‡Branschobservationer är allmänna mönster inom restaurangbranschen baserade på offentlig forskning och rådgivande feedback. Namngivna pilotresultat och validerade kundresultat kommer att ersätta denna sektion när de blir tillgängliga."
     },
     "bn": {
       "eyebrow": "অপারেটরদের দ্বারা নির্মিত",
@@ -855,7 +855,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights রাজস্ব, শ্রম, খাদ্য খরচ, ডিসকাউন্ট এবং মূল্য নির্ধারণকে সংযুক্ত করে যাতে টিমগুলো কারণটি দেখতে পারে যখন এটি এখনও কার্যকর।"
         }
       ],
-      "footnote": "*রিফ্রেশ ফ্রিকোয়েন্সি Core স্তরের দ্বারা পরিবর্তিত হয়। বিস্তারিত জানার জন্য মূল্য নির্ধারণ দেখুন। †প্ল্যাটফর্ম জুড়ে 30+ বিশ্লেষণ মডিউল; বর্তমান মূল্য প্যাকেজে 14টি বিশেষায়িত মডিউল অন্তর্ভুক্ত। ‡শিল্প পর্যবেক্ষণ সাধারণ রেস্তোরাঁ শিল্পের প্যাটার্ন যা পাবলিক গবেষণা এবং পরামর্শমূলক প্রতিক্রিয়া থেকে নেওয়া হয়েছে। নামকৃত পাইলট ফলাফল এবং যাচাইকৃত গ্রাহক ফলাফলগুলি উপলব্ধ হলে এই বিভাগটি প্রতিস্থাপন করবে।"
+      "footnote": "*রিফ্রেশ ফ্রিকোয়েন্সি Core স্তরের দ্বারা পরিবর্তিত হয়। বিস্তারিত জানার জন্য মূল্য নির্ধারণ দেখুন। †প্ল্যাটফর্ম জুড়ে 12 বিশ্লেষণ মডিউল; বর্তমান মূল্য প্যাকেজে 14টি বিশেষায়িত মডিউল অন্তর্ভুক্ত। ‡শিল্প পর্যবেক্ষণ সাধারণ রেস্তোরাঁ শিল্পের প্যাটার্ন যা পাবলিক গবেষণা এবং পরামর্শমূলক প্রতিক্রিয়া থেকে নেওয়া হয়েছে। নামকৃত পাইলট ফলাফল এবং যাচাইকৃত গ্রাহক ফলাফলগুলি উপলব্ধ হলে এই বিভাগটি প্রতিস্থাপন করবে।"
     },
     "th": {
       "eyebrow": "สร้างขึ้นโดยผู้ดำเนินการ",
@@ -867,11 +867,11 @@ export const generatedLocalCopy = {
           "label": "โดเมนข้อมูลที่รวมกัน"
         },
         {
-          "value": "179+",
+          "value": "500+",
           "label": "โมเดลข้อมูลเฉพาะร้านอาหาร"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "โมดูลการวิเคราะห์",
           "footnoteMarker": "†"
         },
@@ -900,7 +900,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights เชื่อมโยงรายได้ แรงงาน ต้นทุนอาหาร ส่วนลด และการตั้งราคา เพื่อให้ทีมสามารถเห็นสาเหตุในขณะที่ยังสามารถดำเนินการได้."
         }
       ],
-      "footnote": "*ความถี่ในการรีเฟรชจะแตกต่างกันไปตามระดับ Core ดูรายละเอียดราคาได้ที่นี่ †โมดูลการวิเคราะห์กว่า 30 โมดูลทั่วทั้งแพลตฟอร์ม; โมดูลเฉพาะทาง 14 โมดูลรวมอยู่ในแพ็คเกจราคาปัจจุบัน ‡การสังเกตอุตสาหกรรมเป็นรูปแบบทั่วไปในอุตสาหกรรมร้านอาหารที่ได้มาจากการวิจัยสาธารณะและข้อเสนอแนะแบบที่ปรึกษา ผลลัพธ์จากการทดลองที่ตั้งชื่อและผลลัพธ์ที่ได้รับการตรวจสอบจากลูกค้าจะมาแทนที่ส่วนนี้เมื่อมีให้บริการ."
+      "footnote": "*ความถี่ในการรีเฟรชจะแตกต่างกันไปตามระดับ Core ดูรายละเอียดราคาได้ที่นี่ †โมดูลการวิเคราะห์กว่า 30 โมดูลทั่วทั้งแพลตฟอร์ม; โมดูลเฉพาะทาง 12 โมดูลรวมอยู่ในแพ็คเกจราคาปัจจุบัน ‡การสังเกตอุตสาหกรรมเป็นรูปแบบทั่วไปในอุตสาหกรรมร้านอาหารที่ได้มาจากการวิจัยสาธารณะและข้อเสนอแนะแบบที่ปรึกษา ผลลัพธ์จากการทดลองที่ตั้งชื่อและผลลัพธ์ที่ได้รับการตรวจสอบจากลูกค้าจะมาแทนที่ส่วนนี้เมื่อมีให้บริการ."
     },
     "ms": {
       "eyebrow": "DIBINA DENGAN OPERATORS",
@@ -912,11 +912,11 @@ export const generatedLocalCopy = {
           "label": "domain data disatukan"
         },
         {
-          "value": "179+",
+          "value": "500+",
           "label": "model data khusus restoran"
         },
         {
-          "value": "30+",
+          "value": "12",
           "label": "modul analitik",
           "footnoteMarker": "†"
         },
@@ -945,7 +945,7 @@ export const generatedLocalCopy = {
           "sundae": "Insights menghubungkan hasil, buruh, kos makanan, diskaun, dan penetapan harga supaya pasukan dapat melihat punca semasa ia masih boleh diambil tindakan."
         }
       ],
-      "footnote": "*Kekerapan penyegaran berbeza mengikut tahap Core. Lihat harga untuk butiran. †30+ modul analitik di seluruh platform; 14 modul khusus termasuk dalam pakej harga semasa. ‡Pemerhatian industri adalah corak umum industri restoran yang diambil dari penyelidikan awam dan maklum balas penasihat. Hasil percubaan yang dinamakan dan hasil pelanggan yang disahkan akan menggantikan bahagian ini apabila ia tersedia."
+      "footnote": "*Kekerapan penyegaran berbeza mengikut tahap Core. Lihat harga untuk butiran. †12 modul analitik di seluruh platform; 12 modul khusus termasuk dalam pakej harga semasa. ‡Pemerhatian industri adalah corak umum industri restoran yang diambil dari penyelidikan awam dan maklum balas penasihat. Hasil percubaan yang dinamakan dan hasil pelanggan yang disahkan akan menggantikan bahagian ini apabila ia tersedia."
     }
   }
 } as const
