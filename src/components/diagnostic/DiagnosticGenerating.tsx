@@ -9,27 +9,35 @@
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Sparkles, CheckCircle2 } from 'lucide-react';
+import type { WebsiteLocale } from '@/lib/i18n';
+import { getDiagnosticCopy } from '@/lib/diagnostic/i18n';
 
 interface DiagnosticGeneratingProps {
   name: string;
+  locale: WebsiteLocale;
 }
 
-const STEPS = [
-  { id: 'read',     label: 'Reading your 18 responses',                  durationMs: 1800 },
-  { id: 'leaks',    label: 'Identifying margin leak hypotheses',         durationMs: 3000 },
-  { id: 'stack',    label: 'Mapping your stack against Sundae modules',  durationMs: 3000 },
-  { id: 'plan',     label: 'Drafting your 30/60/90 plan',                durationMs: 3000 },
-  { id: 'polish',   label: 'Polishing the report for your team',         durationMs: 2200 },
+const STEP_TIMINGS = [
+  { id: 'read', durationMs: 1800 },
+  { id: 'leaks', durationMs: 3000 },
+  { id: 'stack', durationMs: 3000 },
+  { id: 'plan', durationMs: 3000 },
+  { id: 'polish', durationMs: 2200 },
 ];
 
-export function DiagnosticGenerating({ name }: DiagnosticGeneratingProps) {
+export function DiagnosticGenerating({ name, locale }: DiagnosticGeneratingProps) {
+  const copy = getDiagnosticCopy(locale);
+  const steps = STEP_TIMINGS.map((step, index) => ({
+    ...step,
+    label: copy.generating.steps[index] ?? step.id,
+  }));
   const [activeStep, setActiveStep] = useState(0);
   const firstName = name.split(' ')[0] || 'there';
 
   useEffect(() => {
     let cumulative = 0;
     const timers: ReturnType<typeof setTimeout>[] = [];
-    STEPS.forEach((step, i) => {
+    STEP_TIMINGS.forEach((step, i) => {
       cumulative += step.durationMs;
       const t = setTimeout(() => setActiveStep(i + 1), cumulative);
       timers.push(t);
@@ -53,15 +61,14 @@ export function DiagnosticGenerating({ name }: DiagnosticGeneratingProps) {
               <Sparkles className="w-3.5 h-3.5 text-[var(--electric-blue)]" />
             </motion.span>
             <span className="text-[11px] font-bold uppercase tracking-[0.16em] text-[var(--electric-blue)]">
-              Sundae AI · Generating
+              {copy.generating.eyebrow}
             </span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] mb-3 text-balance">
-            {firstName}, our AI is reading your responses now.
+            {copy.generating.title(firstName)}
           </h1>
           <p className="text-base sm:text-lg text-[var(--text-supporting)]">
-            This usually takes 8–15 seconds. We&rsquo;ll have your personalised
-            diagnostic ready in a moment.
+            {copy.generating.body}
           </p>
         </motion.div>
 
@@ -69,7 +76,7 @@ export function DiagnosticGenerating({ name }: DiagnosticGeneratingProps) {
         <div className="rounded-2xl bg-white/[0.02] border border-[var(--border-default)] p-6 md:p-8">
           <ul className="space-y-3">
             <AnimatePresence>
-              {STEPS.map((step, i) => {
+              {steps.map((step, i) => {
                 const status = i < activeStep ? 'done' : i === activeStep ? 'active' : 'pending';
                 return (
                   <motion.li
@@ -113,7 +120,7 @@ export function DiagnosticGenerating({ name }: DiagnosticGeneratingProps) {
         </div>
 
         <p className="text-center text-[11px] text-[var(--text-muted)] mt-6 italic">
-          Powered by Sundae&rsquo;s AI gateway · Claude Sonnet 4.6 with GPT-5 fallback
+          {copy.generating.footer}
         </p>
       </div>
     </div>

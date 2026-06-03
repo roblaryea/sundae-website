@@ -35,6 +35,7 @@ export interface SundaeLeadPayload {
   utmMedium?: string | null;
   utmCampaign?: string | null;
   referrerUrl?: string | null;
+  locale?: string | null;
   metadata?: Record<string, unknown>;
 }
 

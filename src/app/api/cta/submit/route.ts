@@ -21,6 +21,7 @@ import {
   submitLeadToSundae,
   type SundaeLeadPayload,
 } from '@/lib/sundaeLeadClient';
+import { normalizeWebsiteLocale } from '@/lib/i18n';
 
 // Force Node.js runtime (required for crypto)
 export const runtime = 'nodejs';
@@ -95,8 +96,10 @@ export async function POST(request: NextRequest) {
       utmSource,
       utmMedium,
       utmCampaign,
+      locale,
       metadata,
     } = body;
+    const normalizedLocale = normalizeWebsiteLocale(locale);
 
     // Validate required fields
     const missingFields: string[] = [];
@@ -168,11 +171,13 @@ export async function POST(request: NextRequest) {
       utmMedium: utmMedium || null,
       utmCampaign: utmCampaign || null,
       referrerUrl: request.headers.get('referer'),
+      locale: normalizedLocale,
       // Merge caller-supplied metadata (e.g. the diagnostic responses + AI
       // report + internal aiSource) so the backend can email the branded
       // report and surface the assessment in admin. Our own keys win.
       metadata: {
         ...(metadata && typeof metadata === 'object' ? (metadata as Record<string, unknown>) : {}),
+        locale: normalizedLocale,
         requestId,
         websiteIp: ip,
       },

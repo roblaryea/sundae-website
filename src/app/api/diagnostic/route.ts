@@ -26,6 +26,7 @@ import { DiagnosticReportSchema } from '@/lib/diagnostic/schema';
 import { SYSTEM_PROMPT, buildUserMessage } from '@/lib/diagnostic/promptBuilder';
 import { runDiagnostic, type DiagnosticResponses } from '@/lib/diagnostic/engine';
 import { getClientIp, isSameOrigin, checkRateLimit } from '@/lib/diagnostic/abuse-guard';
+import { normalizeWebsiteLocale, type WebsiteLocale } from '@/lib/i18n';
 
 export const runtime = 'nodejs';
 // The residual gateway path can spend up to ~60s on a plan-blocked model before
@@ -77,8 +78,9 @@ async function generateWithModel(
   attempt: Attempt,
   responses: DiagnosticResponses,
   leadData: LeadData,
+  locale: WebsiteLocale,
 ) {
-  const userMessage = buildUserMessage(responses, leadData);
+  const userMessage = buildUserMessage(responses, leadData, locale);
 
   // Vercel AI SDK with structured output. A LanguageModel instance from
   // @ai-sdk/anthropic / @ai-sdk/openai uses the direct provider key
@@ -130,7 +132,7 @@ export async function POST(req: Request) {
     console.error('[diagnostic] BotID check errored (failing open):', botErr);
   }
 
-  let body: { responses: DiagnosticResponses; leadData: LeadData };
+  let body: { responses: DiagnosticResponses; leadData: LeadData; locale?: string | null };
   try {
     body = (await req.json()) as typeof body;
   } catch {
@@ -138,6 +140,7 @@ export async function POST(req: Request) {
   }
 
   const { responses, leadData } = body;
+  const locale = normalizeWebsiteLocale(body.locale);
   if (!responses || !leadData) {
     return NextResponse.json({ error: 'Missing responses or leadData' }, { status: 400 });
   }
@@ -146,18 +149,25 @@ export async function POST(req: Request) {
   const chain = buildChain();
   for (const attempt of chain) {
     try {
-      const report = await generateWithModel(attempt, responses, leadData);
+      const report = await generateWithModel(attempt, responses, leadData, locale);
       return NextResponse.json({ report, source: attempt.source });
     } catch (err) {
       console.error(`[diagnostic] ${attempt.source} failed:`, err);
     }
   }
 
-  // ─── Final safety net: deterministic heuristic engine ─────────
-  // Diagnostics ALWAYS produce something. The heuristic engine guarantees
-  // a usable report even if every AI path is down — no error pages.
+  if (locale !== 'en') {
+    return NextResponse.json(
+      { error: 'Localized diagnostic generation is temporarily unavailable' },
+      { status: 503 },
+    );
+  }
+
+  // ─── Final safety net: deterministic English heuristic engine ─────────
+  // The heuristic engine is intentionally English-only. Non-English locales
+  // fail cleanly above rather than receiving an English report.
   try {
-    const report = runDiagnostic(responses);
+    const report = runDiagnostic(responses, locale);
     return NextResponse.json({
       report,
       source: 'heuristic-fallback',

@@ -15,8 +15,11 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight, CheckCircle2 } from "lucide-react";
 import { QUESTIONS } from "@/lib/diagnostic/questions";
 import type { DiagnosticResponses } from "@/lib/diagnostic/engine";
+import { getWebsiteIntlLocale, type WebsiteLocale } from "@/lib/i18n";
+import { getDiagnosticCatalogCopy, getDiagnosticQuestionCopy } from "@/lib/diagnostic/questionTranslations";
 
 interface DiagnosticFlowProps {
+  locale: WebsiteLocale;
   onComplete: (data: {
     responses: DiagnosticResponses;
     email: string;
@@ -70,15 +73,37 @@ const COUNTRY_OPTIONS = [
   "Other",
 ];
 
-const DIMENSION_LABELS: Record<string, string> = {
-  profile: "Operation profile",
-  crew: "Workforce",
-  core: "Decision intelligence",
-  foresight: "Foresight",
-  tech: "Tech stack",
+const COUNTRY_REGION_CODES: Record<string, string> = {
+  "United Arab Emirates": "AE",
+  "Saudi Arabia": "SA",
+  Qatar: "QA",
+  Kuwait: "KW",
+  Bahrain: "BH",
+  Oman: "OM",
+  Egypt: "EG",
+  "United States": "US",
+  Canada: "CA",
+  "United Kingdom": "GB",
+  Netherlands: "NL",
+  Germany: "DE",
+  France: "FR",
+  Spain: "ES",
+  Italy: "IT",
+  Singapore: "SG",
+  Japan: "JP",
+  Australia: "AU",
+  India: "IN",
+  Mexico: "MX",
+  Brazil: "BR",
+  "South Africa": "ZA",
 };
 
-export function DiagnosticFlow({ onComplete }: DiagnosticFlowProps) {
+export function DiagnosticFlow({ onComplete, locale }: DiagnosticFlowProps) {
+  const catalog = getDiagnosticCatalogCopy(locale);
+  const regionNames =
+    typeof Intl.DisplayNames !== "undefined"
+      ? new Intl.DisplayNames([getWebsiteIntlLocale(locale)], { type: "region" })
+      : null;
   const [step, setStep] = useState(0);
   const [responses, setResponses] = useState<DiagnosticResponses>({});
   const [showCapture, setShowCapture] = useState(false);
@@ -91,6 +116,7 @@ export function DiagnosticFlow({ onComplete }: DiagnosticFlowProps) {
 
   const total = QUESTIONS.length;
   const q = QUESTIONS[step];
+  const localizedQuestion = q ? getDiagnosticQuestionCopy(locale, q.id) : undefined;
   const progress = ((step + (showCapture ? 1 : 0)) / (total + 1)) * 100;
 
   const currentValue = responses[q?.id];
@@ -153,7 +179,7 @@ export function DiagnosticFlow({ onComplete }: DiagnosticFlowProps) {
       <div className="max-w-3xl mx-auto mb-8">
         <div className="flex justify-between items-center mb-3">
           <span className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-muted)]">
-            {showCapture ? "Final step · Almost done" : DIMENSION_LABELS[q?.dimension ?? "profile"]}
+            {showCapture ? catalog.navigation.finalStep : catalog.dimensions[q?.dimension ?? "profile"]}
           </span>
           <span className="text-[11px] text-[var(--text-muted)] tabular-nums">
             {showCapture ? total + 1 : step + 1} / {total + 1}
@@ -180,10 +206,10 @@ export function DiagnosticFlow({ onComplete }: DiagnosticFlowProps) {
               transition={{ duration: 0.25 }}
             >
               <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)] mb-2 text-balance">
-                {q.prompt}
+                {localizedQuestion?.prompt ?? q.prompt}
               </h2>
-              {q.helper && (
-                <p className="text-sm text-[var(--text-muted)] mb-8">{q.helper}</p>
+              {(localizedQuestion?.helper ?? q.helper) && (
+                <p className="text-sm text-[var(--text-muted)] mb-8">{localizedQuestion?.helper ?? q.helper}</p>
               )}
 
               {/* Chip select */}
@@ -208,7 +234,7 @@ export function DiagnosticFlow({ onComplete }: DiagnosticFlowProps) {
                         }`}>
                           {isSelected && <CheckCircle2 className="w-3 h-3 text-white" />}
                         </span>
-                        <span className="text-sm font-medium">{opt.label}</span>
+                        <span className="text-sm font-medium">{localizedQuestion?.options?.[opt.value] ?? opt.label}</span>
                       </button>
                     );
                   })}
@@ -221,7 +247,7 @@ export function DiagnosticFlow({ onComplete }: DiagnosticFlowProps) {
                   <textarea
                     value={(currentValue as string) ?? ""}
                     onChange={(e) => handleText(e.target.value)}
-                    placeholder={q.placeholder}
+                    placeholder={localizedQuestion?.placeholder ?? q.placeholder}
                     maxLength={q.maxLength}
                     rows={3}
                     className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--electric-blue)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none resize-none"
@@ -245,31 +271,29 @@ export function DiagnosticFlow({ onComplete }: DiagnosticFlowProps) {
               transition={{ duration: 0.25 }}
             >
               <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)] mb-2 text-balance">
-                Where should we send your diagnostic?
+                {catalog.capture.title}
               </h2>
               <p className="text-sm text-[var(--text-muted)] mb-8">
-                Your personalized Sundae Operations Diagnostic is ready. We&rsquo;ll
-                show it on the next screen and email a copy you can share with
-                your team.
+                {catalog.capture.helper}
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
                 <div>
                   <label className="block text-[11px] font-semibold uppercase tracking-wider text-[var(--text-muted)] mb-1.5">
-                    Full name *
+                    {catalog.capture.fields.name}
                   </label>
                   <input
                     type="text"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
-                    placeholder="Full name"
+                    placeholder={catalog.capture.placeholders.name}
                     required
                     className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--electric-blue)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none"
                   />
                 </div>
                 <div>
                   <label className="block text-[11px] font-semibold uppercase tracking-wider text-[var(--text-muted)] mb-1.5">
-                    Role / Title *
+                    {catalog.capture.fields.role}
                   </label>
                   <select
                     value={role}
@@ -277,41 +301,41 @@ export function DiagnosticFlow({ onComplete }: DiagnosticFlowProps) {
                     required
                     className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--electric-blue)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none"
                   >
-                    <option value="">Select your role…</option>
+                    <option value="">{catalog.capture.placeholders.role}</option>
                     {ROLE_OPTIONS.map((r) => (
-                      <option key={r} value={r}>{r}</option>
+                      <option key={r} value={r}>{catalog.roles[r] ?? r}</option>
                     ))}
                   </select>
                 </div>
                 <div>
                   <label className="block text-[11px] font-semibold uppercase tracking-wider text-[var(--text-muted)] mb-1.5">
-                    Work email *
+                    {catalog.capture.fields.email}
                   </label>
                   <input
                     type="email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                    placeholder="you@company.com"
+                    placeholder={catalog.capture.placeholders.email}
                     required
                     className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--electric-blue)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none"
                   />
                 </div>
                 <div>
                   <label className="block text-[11px] font-semibold uppercase tracking-wider text-[var(--text-muted)] mb-1.5">
-                    Phone (with country code) *
+                    {catalog.capture.fields.phone}
                   </label>
                   <input
                     type="tel"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
-                    placeholder="+971 50 123 4567"
+                    placeholder={catalog.capture.placeholders.phone}
                     required
                     className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--electric-blue)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none"
                   />
                 </div>
                 <div>
                   <label className="block text-[11px] font-semibold uppercase tracking-wider text-[var(--text-muted)] mb-1.5">
-                    Country *
+                    {catalog.capture.fields.country}
                   </label>
                   <select
                     value={country}
@@ -319,28 +343,32 @@ export function DiagnosticFlow({ onComplete }: DiagnosticFlowProps) {
                     required
                     className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--electric-blue)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none"
                   >
-                    <option value="">Select country…</option>
+                    <option value="">{catalog.capture.placeholders.country}</option>
                     {COUNTRY_OPTIONS.map((c) => (
-                      <option key={c} value={c}>{c}</option>
+                      <option key={c} value={c}>
+                        {COUNTRY_REGION_CODES[c] && regionNames
+                          ? regionNames.of(COUNTRY_REGION_CODES[c]) ?? c
+                          : catalog.countries[c] ?? c}
+                      </option>
                     ))}
                   </select>
                 </div>
                 <div>
                   <label className="block text-[11px] font-semibold uppercase tracking-wider text-[var(--text-muted)] mb-1.5">
-                    Company *
+                    {catalog.capture.fields.company}
                   </label>
                   <input
                     type="text"
                     value={company}
                     onChange={(e) => setCompany(e.target.value)}
-                    placeholder="Restaurant group / brand"
+                    placeholder={catalog.capture.placeholders.company}
                     required
                     className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--electric-blue)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none"
                   />
                 </div>
               </div>
               <p className="text-[11px] text-[var(--text-muted)] text-center mb-6 italic">
-                Fields marked * are required. Your information is captured once here and reused across the diagnostic CTAs — no second forms to fill.
+                {catalog.capture.requiredNote}
               </p>
             </motion.div>
           )}
@@ -354,7 +382,7 @@ export function DiagnosticFlow({ onComplete }: DiagnosticFlowProps) {
             className="flex items-center gap-1.5 px-4 py-2 text-sm text-[var(--text-muted)] hover:text-[var(--text-primary)] disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
           >
             <ChevronLeft className="w-4 h-4" />
-            Back
+            {catalog.navigation.back}
           </button>
           {showCapture ? (
             <button
@@ -362,7 +390,7 @@ export function DiagnosticFlow({ onComplete }: DiagnosticFlowProps) {
               disabled={!email.trim() || !name.trim() || !phone.trim() || !role.trim() || !country.trim() || !company.trim()}
               className="flex items-center gap-2 px-6 py-2.5 bg-gradient-to-r from-[var(--electric-blue)] to-emerald-500 text-white font-bold rounded-xl shadow-lg disabled:opacity-40 disabled:cursor-not-allowed hover:shadow-xl transition-all"
             >
-              Generate my diagnostic
+              {catalog.navigation.generate}
               <ChevronRight className="w-4 h-4" />
             </button>
           ) : (
@@ -371,7 +399,7 @@ export function DiagnosticFlow({ onComplete }: DiagnosticFlowProps) {
               disabled={!canAdvance}
               className="flex items-center gap-2 px-6 py-2.5 bg-[var(--electric-blue)] text-white font-semibold rounded-xl disabled:opacity-40 disabled:cursor-not-allowed hover:bg-[var(--electric-blue)]/90 transition-colors"
             >
-              {step === total - 1 ? "Continue" : "Next"}
+              {step === total - 1 ? catalog.navigation.continue : catalog.navigation.next}
               <ChevronRight className="w-4 h-4" />
             </button>
           )}

@@ -15,6 +15,7 @@
  * changes needed.
  */
 
+import { normalizeWebsiteLocale, type WebsiteLocale } from "@/lib/i18n";
 import { QUESTIONS } from "./questions";
 
 export type DiagnosticResponses = Record<string, string | string[]>;
@@ -187,7 +188,11 @@ function computeEconomics(
   };
 }
 
-export function runDiagnostic(responses: DiagnosticResponses): DiagnosticReport {
+export function runDiagnostic(
+  responses: DiagnosticResponses,
+  locale: WebsiteLocale | string = "en",
+): DiagnosticReport {
+  const resolvedLocale = normalizeWebsiteLocale(locale);
   const outlets = outletCountValue(responses.outlets as string | undefined);
   const segment = segmentLabel(arr(responses.segment));
   const region = regionLabel(arr(responses.region));
@@ -440,7 +445,7 @@ export function runDiagnostic(responses: DiagnosticResponses): DiagnosticReport 
   })();
   const summary = `${profileLine}. Based on your responses, the highest-leverage moves are ${ranked.length > 0 ? ranked[0].title.toLowerCase() : "consolidating decision flow on Sundae"}${ranked.length > 1 ? ` and ${ranked[1].title.toLowerCase()}` : ""}.${blindSpotLine}${lagLine}${timelineLine} Your recommended stack starts with ${tierFit}.`;
 
-  return {
+  const report: DiagnosticReport = {
     summary,
     profileLine,
     topLeaks: ranked,
@@ -449,6 +454,13 @@ export function runDiagnostic(responses: DiagnosticResponses): DiagnosticReport 
     quickWins,
     tierFit,
     economics: computeEconomics(responses, recommendedStack, outlets),
+  };
+
+  if (resolvedLocale === "en") return report;
+
+  return {
+    ...report,
+    summary: `${report.summary}\n\nFallback note: the live diagnostic generation path was unavailable, so Sundae returned this deterministic safety-net report. Regenerate the diagnostic to receive the fully localized native-language narrative.`,
   };
 }
 

@@ -16,9 +16,12 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { Sparkles, TrendingUp, Layers, Calendar, ArrowRight, CheckCircle2, Loader2, Check, Wallet, PiggyBank, Heart } from "lucide-react";
 import type { DiagnosticReport } from "@/lib/diagnostic/engine";
+import type { WebsiteLocale } from "@/lib/i18n";
+import { getDiagnosticCopy } from "@/lib/diagnostic/i18n";
 
 interface DiagnosticReportProps {
   report: DiagnosticReport;
+  locale: WebsiteLocale;
   leadData: {
     name: string;
     email: string;
@@ -51,7 +54,8 @@ const impactBandStyle: Record<string, string> = {
   low: "bg-emerald-500/15 text-emerald-300 border-emerald-500/30",
 };
 
-export function DiagnosticReport({ report, leadData }: DiagnosticReportProps) {
+export function DiagnosticReport({ report, leadData, locale }: DiagnosticReportProps) {
+  const copy = getDiagnosticCopy(locale);
   const firstName = leadData.name.split(" ")[0] || "there";
   const [bookingState, setBookingState] = useState<"idle" | "loading" | "done">("idle");
 
@@ -74,11 +78,12 @@ export function DiagnosticReport({ report, leadData }: DiagnosticReportProps) {
           phone: leadData.phone,
           role: leadData.role,
           country: leadData.country,
+          locale,
           message: `[Deep-dive call requested from diagnostic]
 Profile: ${report.profileLine}
 Recommended tier: ${report.tierFit}
 Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
-          metadata: { report },
+          metadata: { report, locale },
         }),
       });
       setBookingState("done");
@@ -101,11 +106,11 @@ Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[var(--electric-blue)]/12 border border-[var(--electric-blue)]/30 mb-4">
             <Sparkles className="w-3.5 h-3.5 text-[var(--electric-blue)]" />
             <span className="text-[11px] font-bold uppercase tracking-[0.16em] text-[var(--electric-blue)]">
-              Sundae Operations Diagnostic
+              {copy.report.eyebrow}
             </span>
           </div>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[var(--text-primary)] mb-3 text-balance">
-            {firstName}, here&rsquo;s what Sundae would surface.
+            {copy.report.title(firstName)}
           </h1>
           <p className="text-base sm:text-lg text-[var(--text-supporting)] max-w-2xl mx-auto">
             {report.profileLine}
@@ -135,7 +140,7 @@ Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
             <div className="flex items-center gap-2 mb-4">
               <TrendingUp className="w-5 h-5 text-[var(--electric-blue)]" />
               <h2 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)]">
-                Top {report.topLeaks.length} margin-leak hypotheses
+                {copy.report.leaksTitle(report.topLeaks.length)}
               </h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -152,7 +157,7 @@ Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
                       {i + 1}
                     </span>
                     <span className={`text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full border ${impactBandStyle[leak.impactBand]}`}>
-                      {leak.impactBand} impact
+                      {leak.impactBand} {copy.report.impactSuffix}
                     </span>
                   </div>
                   <h3 className="text-base font-bold text-[var(--text-primary)] mb-2">
@@ -182,12 +187,12 @@ Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
           <div className="flex items-center gap-2 mb-4">
             <Layers className="w-5 h-5 text-[var(--electric-blue)]" />
             <h2 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)]">
-              Recommended Sundae stack
+              {copy.report.recommendedStack}
             </h2>
           </div>
           <div className="rounded-2xl border-2 border-dashed border-[var(--electric-blue)]/30 bg-[var(--electric-blue)]/[0.04] p-5 mb-4">
             <p className="text-[11px] uppercase tracking-[0.16em] font-bold text-[var(--electric-blue)] mb-1">
-              Tier fit
+              {copy.report.tierFit}
             </p>
             <p className="text-lg font-bold text-[var(--text-primary)]">{report.tierFit}</p>
           </div>
@@ -227,12 +232,11 @@ Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
           <div className="flex items-center gap-2 mb-4">
             <CheckCircle2 className="w-5 h-5 text-emerald-400" />
             <h2 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)]">
-              Expected impact ranges
+              {copy.report.expectedImpact}
             </h2>
           </div>
           <p className="text-xs text-[var(--text-muted)] mb-4 italic">
-            Directional ranges derived from comparable operator engagements.
-            Not customer-specific projections.
+            {copy.report.expectedImpactNote}
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {report.expectedImpact.map((item) => (
@@ -259,7 +263,7 @@ Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
           <div className="flex items-center gap-2 mb-4">
             <Calendar className="w-5 h-5 text-[var(--electric-blue)]" />
             <h2 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)]">
-              30/60/90-day plan
+              {copy.report.planTitle}
             </h2>
           </div>
           <div className="space-y-3">
@@ -273,7 +277,7 @@ Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
               >
                 <div className="flex-shrink-0 w-14 h-14 rounded-xl bg-[var(--electric-blue)]/12 border border-[var(--electric-blue)]/30 flex flex-col items-center justify-center">
                   <span className="text-lg font-bold text-[var(--electric-blue)] leading-none tabular-nums">{win.horizon}</span>
-                  <span className="text-[9px] uppercase text-[var(--electric-blue)]/70 tracking-wider">days</span>
+                  <span className="text-[9px] uppercase text-[var(--electric-blue)]/70 tracking-wider">{copy.report.days}</span>
                 </div>
                 <div className="flex-1 min-w-0">
                   <h4 className="text-sm font-bold text-[var(--text-primary)] mb-1">{win.title}</h4>
@@ -295,18 +299,18 @@ Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
             <div className="flex items-center gap-2 mb-1">
               <Wallet className="w-5 h-5 text-[var(--electric-blue)]" />
               <h2 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)]">
-                What it costs &amp; returns
+                {copy.report.economicsTitle}
               </h2>
             </div>
             <p className="text-xs text-[var(--text-muted)] mb-4 italic">
-              Directional ranges from comparable operators and list pricing — not a customer-specific quote.
+              {copy.report.economicsNote}
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mb-3">
               {[
-                { icon: Wallet, tint: "text-[var(--electric-blue)]", ring: "border-[var(--electric-blue)]/25 bg-[var(--electric-blue)]/[0.05]", label: "Est. monthly cost", value: report.economics.monthlyCost.range, basis: report.economics.monthlyCost.basis },
-                { icon: PiggyBank, tint: "text-emerald-300", ring: "border-emerald-500/25 bg-emerald-500/[0.05]", label: "Monthly savings vs current stack", value: report.economics.monthlySavings.range, basis: report.economics.monthlySavings.basis },
-                { icon: TrendingUp, tint: "text-amber-300", ring: "border-amber-500/25 bg-amber-500/[0.05]", label: "EBITDA uplift", value: report.economics.ebitdaUplift.amountRange, basis: report.economics.ebitdaUplift.basis, sub: report.economics.ebitdaUplift.pctRange },
+                { icon: Wallet, tint: "text-[var(--electric-blue)]", ring: "border-[var(--electric-blue)]/25 bg-[var(--electric-blue)]/[0.05]", label: copy.report.monthlyCost, value: report.economics.monthlyCost.range, basis: report.economics.monthlyCost.basis },
+                { icon: PiggyBank, tint: "text-emerald-300", ring: "border-emerald-500/25 bg-emerald-500/[0.05]", label: copy.report.monthlySavings, value: report.economics.monthlySavings.range, basis: report.economics.monthlySavings.basis },
+                { icon: TrendingUp, tint: "text-amber-300", ring: "border-amber-500/25 bg-amber-500/[0.05]", label: copy.report.ebitdaUplift, value: report.economics.ebitdaUplift.amountRange, basis: report.economics.ebitdaUplift.basis, sub: report.economics.ebitdaUplift.pctRange },
               ].map((c) => (
                 <div key={c.label} className={`rounded-2xl border p-5 ${c.ring}`}>
                   <div className="flex items-center gap-2 mb-2">
@@ -324,7 +328,7 @@ Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
               <div className="rounded-2xl bg-white/[0.025] border border-[var(--border-default)] p-5">
                 <div className="flex items-center gap-2 mb-3">
                   <Heart className="w-4 h-4 text-rose-300" />
-                  <p className="text-[11px] font-bold uppercase tracking-wider text-[var(--text-supporting)]">Beyond the numbers</p>
+                  <p className="text-[11px] font-bold uppercase tracking-wider text-[var(--text-supporting)]">{copy.report.beyondNumbers}</p>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3">
                   {report.economics.softUplifts.map((u) => (
@@ -350,10 +354,10 @@ Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
           className="rounded-3xl bg-gradient-to-br from-[var(--electric-blue)]/15 via-[var(--electric-blue)]/8 to-emerald-500/8 border border-[var(--electric-blue)]/30 p-6 md:p-10 text-center"
         >
           <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)] mb-2 text-balance">
-            Want to see this on your real data?
+            {copy.report.ctaTitle}
           </h2>
           <p className="text-sm sm:text-base text-[var(--text-supporting)] mb-6 max-w-2xl mx-auto">
-            Three ways to move forward — pick the one that fits where you are.
+            {copy.report.ctaBody}
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
             <button
@@ -368,16 +372,16 @@ Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
               {bookingState === "loading" ? (
                 <>
                   <Loader2 className="w-4 h-4 animate-spin" />
-                  Sending your request…
+                  {copy.report.sending}
                 </>
               ) : bookingState === "done" ? (
                 <>
                   <Check className="w-4 h-4" />
-                  Request sent · We&rsquo;ll be in touch
+                  {copy.report.sent}
                 </>
               ) : (
                 <>
-                  Book deep-dive call
+                  {copy.report.bookCall}
                   <ArrowRight className="w-4 h-4" />
                 </>
               )}
@@ -388,21 +392,19 @@ Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
               rel="noopener"
               className="rounded-xl bg-white/[0.06] border-2 border-[var(--electric-blue)]/45 text-[var(--text-primary)] font-bold px-5 py-3 hover:bg-[var(--electric-blue)]/10 hover:border-[var(--electric-blue)]/75 transition-colors flex items-center justify-center gap-2"
             >
-              Open pricing simulator
+              {copy.report.pricing}
               <ArrowRight className="w-4 h-4" />
             </Link>
             <Link
               href="/crew"
               className="rounded-xl bg-white/[0.06] border-2 border-[var(--electric-blue)]/45 text-[var(--text-primary)] font-bold px-5 py-3 hover:bg-[var(--electric-blue)]/10 hover:border-[var(--electric-blue)]/75 transition-colors flex items-center justify-center gap-2"
             >
-              Start with Crew Lite
+              {copy.report.crewLite}
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
           <p className="text-[11px] text-[var(--text-muted)] mt-6 italic">
-            Your diagnostic has been emailed to <strong className="text-[var(--text-secondary)] not-italic">{leadData.email}</strong> for your records.
-            Booking a call uses the contact info you&rsquo;ve already provided — no second form needed.
-            Pricing simulator pre-fills with your details when opened.
+            {copy.report.emailed(leadData.email)}
           </p>
         </motion.section>
       </div>

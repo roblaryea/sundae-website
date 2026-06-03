@@ -13,6 +13,8 @@ import {
   Sun, Moon, ChevronDown, TrendingDown, Gauge, Layers,
   CalendarClock, Sparkles, ArrowUpRight, Target, Wallet, CheckCircle2,
 } from "lucide-react";
+import type { WebsiteLocale } from "@/lib/i18n";
+import { getDiagnosticCopy } from "@/lib/diagnostic/i18n";
 
 type Leak = { title: string; detail: string; impactBand: "high" | "medium" | "low"; impactCopy: string };
 export type DiagnosticReport = {
@@ -70,10 +72,14 @@ function Section({
 }
 
 export function DiagnosticReportView({
-  report, company, name,
+  report, company, name, locale,
 }: {
-  report: DiagnosticReport; company?: string | null; name?: string | null;
+  report: DiagnosticReport;
+  company?: string | null;
+  name?: string | null;
+  locale: WebsiteLocale;
 }) {
+  const copy = getDiagnosticCopy(locale);
   const [dark, setDark] = useState(true);
   // Collapsible section state lifted here so the rail can open + scroll to a
   // section. Summary is always open (not collapsible). Leaks open by default.
@@ -102,17 +108,20 @@ export function DiagnosticReportView({
   const rule = dark ? "border-white/10" : "border-gray-200";
 
   const navItems = [
-    { id: "summary", label: "Summary" },
-    { id: "leaks", label: "Margin leaks" },
-    { id: "impact", label: "What it's worth" },
-    { id: "stack", label: "Recommended stack" },
-    { id: "plan", label: "30 / 60 / 90" },
+    { id: "summary", label: copy.share.navSummary },
+    { id: "leaks", label: copy.share.navLeaks },
+    { id: "impact", label: copy.share.navImpact },
+    { id: "stack", label: copy.share.navStack },
+    { id: "plan", label: copy.share.navPlan },
   ];
+  if (report.economics) navItems.push({ id: "economics", label: copy.share.navEconomics });
 
   return (
     <div
       className={`fixed inset-0 z-50 flex flex-col transition-colors ${dark ? "bg-[#020617] text-slate-100" : "bg-gray-50 text-gray-900"}`}
       style={{ colorScheme: dark ? "dark" : "light" }}
+      lang={locale}
+      dir={copy.dir}
     >
       {/* App top bar */}
       <header className={`shrink-0 border-b ${dark ? "bg-[#020617] border-white/10" : "bg-white border-gray-200"}`}>
@@ -120,13 +129,13 @@ export function DiagnosticReportView({
           <div className="flex items-center gap-2.5 min-w-0">
             <span className="text-lg font-extrabold tracking-tight">sundae<span className="text-blue-500">.</span></span>
             <span className={`hidden sm:inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wider px-2 py-1 rounded-full ${dark ? "bg-blue-500/15 text-blue-300" : "bg-blue-50 text-blue-600"}`}>
-              <Sparkles className="w-3 h-3" /> Operations Diagnostic
+              <Sparkles className="w-3 h-3" /> {copy.share.title}
             </span>
           </div>
           <button
             onClick={() => setDark((d) => !d)}
             className={`grid place-items-center w-9 h-9 rounded-lg border transition-colors ${dark ? "border-white/10 hover:bg-white/5 text-slate-300" : "border-gray-200 hover:bg-gray-100 text-gray-600"}`}
-            aria-label="Toggle light / dark"
+            aria-label={copy.share.darkToggle}
           >
             {dark ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
           </button>
@@ -150,7 +159,7 @@ export function DiagnosticReportView({
             href="https://www.sundae.io/contact"
             className="mt-3 flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold transition-colors"
           >
-            Book a walkthrough <ArrowUpRight className="w-3.5 h-3.5" />
+            {copy.share.book} <ArrowUpRight className="w-3.5 h-3.5" />
           </a>
         </nav>
 
@@ -158,8 +167,8 @@ export function DiagnosticReportView({
         <main className="flex-1 min-w-0 overflow-y-auto px-4 sm:px-6 py-8 space-y-4">
           {/* Hero */}
           <div>
-            <p className={`text-xs font-semibold uppercase tracking-wider ${muted}`}>{company || "Your operation"}</p>
-            <h1 className={`text-2xl sm:text-3xl font-bold mt-1 ${heading}`}>Operations Diagnostic</h1>
+            <p className={`text-xs font-semibold uppercase tracking-wider ${muted}`}>{company || copy.share.operationFallback}</p>
+            <h1 className={`text-2xl sm:text-3xl font-bold mt-1 ${heading}`}>{copy.share.title}</h1>
             <p className={`text-sm mt-1.5 ${body}`}>{report.profileLine}</p>
           </div>
 
@@ -169,30 +178,30 @@ export function DiagnosticReportView({
               <p className={`text-[15px] leading-relaxed ${dark ? "text-slate-200" : "text-gray-700"}`}>{report.summary}</p>
               <div className={`mt-4 pt-4 border-t flex flex-wrap items-center gap-2 ${rule}`}>
                 <Target className={`w-4 h-4 ${dark ? "text-blue-300" : "text-blue-600"}`} />
-                <span className={`text-xs font-semibold uppercase tracking-wider ${muted}`}>Recommended tier</span>
+                <span className={`text-xs font-semibold uppercase tracking-wider ${muted}`}>{copy.share.recommendedTier}</span>
                 <span className={`text-sm font-bold ${heading}`}>{report.tierFit}</span>
               </div>
             </div>
           </section>
 
-          <Section id="leaks" icon={TrendingDown} title="Where the margin is leaking" subtitle={`${report.topLeaks.length} prioritised hypotheses`} dark={dark} open={openIds.has("leaks")} onToggle={() => toggle("leaks")}>
+          <Section id="leaks" icon={TrendingDown} title={copy.share.leaksTitle} subtitle={copy.share.leaksSubtitle(report.topLeaks.length)} dark={dark} open={openIds.has("leaks")} onToggle={() => toggle("leaks")}>
             <div className="space-y-3 mt-2">
               {report.topLeaks.map((l, i) => (
                 <div key={i} className={`rounded-xl border p-4 ${rule} ${dark ? "bg-white/[0.02]" : "bg-gray-50/50"}`}>
                   <span className={`inline-block text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full border mb-2 ${band[l.impactBand]}`}>
-                    {l.impactBand} impact
+                    {l.impactBand} {copy.report.impactSuffix}
                   </span>
                   <h3 className={`text-sm font-bold mb-1 ${heading}`}>{l.title}</h3>
                   <p className={`text-sm leading-relaxed mb-2.5 ${body}`}>{l.detail}</p>
                   <p className={`text-xs pt-2.5 border-t ${rule} ${muted}`}>
-                    <span className={`font-semibold ${dark ? "text-slate-300" : "text-gray-700"}`}>Typical range:</span> {l.impactCopy}
+                    <span className={`font-semibold ${dark ? "text-slate-300" : "text-gray-700"}`}>{copy.share.typicalRange}</span> {l.impactCopy}
                   </p>
                 </div>
               ))}
             </div>
           </Section>
 
-          <Section id="impact" icon={Gauge} title="What it's worth" subtitle="Directional ranges from comparable operators" dark={dark} open={openIds.has("impact")} onToggle={() => toggle("impact")}>
+          <Section id="impact" icon={Gauge} title={copy.share.impactTitle} subtitle={copy.share.impactSubtitle} dark={dark} open={openIds.has("impact")} onToggle={() => toggle("impact")}>
             <dl className={`divide-y mt-1 ${dark ? "divide-white/10" : "divide-gray-100"}`}>
               {report.expectedImpact.map((row, i) => (
                 <div key={i} className="py-2.5">
@@ -203,7 +212,7 @@ export function DiagnosticReportView({
             </dl>
           </Section>
 
-          <Section id="stack" icon={Layers} title="Recommended stack" subtitle={`${report.recommendedStack.length} layers`} dark={dark} open={openIds.has("stack")} onToggle={() => toggle("stack")}>
+          <Section id="stack" icon={Layers} title={copy.share.stackTitle} subtitle={copy.share.stackSubtitle(report.recommendedStack.length)} dark={dark} open={openIds.has("stack")} onToggle={() => toggle("stack")}>
             <div className="space-y-3 mt-1">
               {report.recommendedStack.map((s, i) => (
                 <div key={i} className={`pb-3 ${i < report.recommendedStack.length - 1 ? `border-b ${rule}` : ""}`}>
@@ -215,7 +224,7 @@ export function DiagnosticReportView({
             </div>
           </Section>
 
-          <Section id="plan" icon={CalendarClock} title="Your 30 / 60 / 90 plan" subtitle="Sequenced for fastest payback" dark={dark} open={openIds.has("plan")} onToggle={() => toggle("plan")}>
+          <Section id="plan" icon={CalendarClock} title={copy.share.planTitle} subtitle={copy.share.planSubtitle} dark={dark} open={openIds.has("plan")} onToggle={() => toggle("plan")}>
             <div className="space-y-3 mt-1">
               {report.quickWins.map((w, i) => (
                 <div key={i} className="flex gap-3">
@@ -230,12 +239,12 @@ export function DiagnosticReportView({
           </Section>
 
           {report.economics && (
-            <Section id="economics" icon={Wallet} title="What it costs & returns" subtitle="Directional — list pricing, not a quote" dark={dark} open={openIds.has("economics")} onToggle={() => toggle("economics")}>
+            <Section id="economics" icon={Wallet} title={copy.share.economicsTitle} subtitle={copy.share.economicsSubtitle} dark={dark} open={openIds.has("economics")} onToggle={() => toggle("economics")}>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-1">
                 {[
-                  { label: "Est. monthly cost", value: report.economics.monthlyCost.range, basis: report.economics.monthlyCost.basis },
-                  { label: "Monthly savings vs current stack", value: report.economics.monthlySavings.range, basis: report.economics.monthlySavings.basis },
-                  { label: "EBITDA uplift", value: report.economics.ebitdaUplift.amountRange, sub: report.economics.ebitdaUplift.pctRange, basis: report.economics.ebitdaUplift.basis },
+                  { label: copy.report.monthlyCost, value: report.economics.monthlyCost.range, basis: report.economics.monthlyCost.basis },
+                  { label: copy.report.monthlySavings, value: report.economics.monthlySavings.range, basis: report.economics.monthlySavings.basis },
+                  { label: copy.report.ebitdaUplift, value: report.economics.ebitdaUplift.amountRange, sub: report.economics.ebitdaUplift.pctRange, basis: report.economics.ebitdaUplift.basis },
                 ].map((c) => (
                   <div key={c.label} className={`rounded-xl border p-3.5 ${dark ? "border-white/10 bg-white/[0.02]" : "border-gray-200 bg-gray-50"}`}>
                     <p className={`text-[11px] font-bold uppercase tracking-wide ${muted}`}>{c.label}</p>
@@ -263,13 +272,13 @@ export function DiagnosticReportView({
 
           {/* Footer CTA — mobile only (the frozen rail carries it on desktop, so it never duplicates) */}
           <div className={`lg:hidden rounded-2xl border p-5 text-center ${dark ? "border-white/10 bg-white/[0.02]" : "border-gray-200 bg-white"}`}>
-            <p className={`text-sm ${body}`}>Want to see these surfaces on your real data?</p>
+            <p className={`text-sm ${body}`}>{copy.share.mobileCta}</p>
             <a href="https://www.sundae.io/contact" className="inline-flex items-center gap-1.5 mt-3 px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-sm font-bold transition-colors">
-              Book a walkthrough <ArrowUpRight className="w-4 h-4" />
+              {copy.share.book} <ArrowUpRight className="w-4 h-4" />
             </a>
           </div>
           <p className={`text-[11px] leading-relaxed text-center pb-4 ${dark ? "text-slate-600" : "text-gray-400"}`}>
-            Generated by Sundae AI from {name ? `${name.split(" ")[0]}'s` : "your"} diagnostic answers. Directional ranges from comparable operator engagements — not customer-specific projections.
+            {copy.share.footer(name)}
           </p>
         </main>
       </div>

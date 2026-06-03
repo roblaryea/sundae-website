@@ -6,6 +6,8 @@
 
 import type { DiagnosticResponses } from './engine';
 import { QUESTIONS } from './questions';
+import type { WebsiteLocale } from '@/lib/i18n';
+import { getDiagnosticPromptInstruction } from './i18n';
 
 export const SYSTEM_PROMPT = `You are the diagnostic engine for Sundae Technologies — a Decision Intelligence platform for restaurants.
 
@@ -114,6 +116,7 @@ function labelize(qid: string, vals: string[]): string {
 export function buildUserMessage(
   responses: DiagnosticResponses,
   leadData: { name: string; role: string; country: string; company: string },
+  locale: WebsiteLocale = 'en',
 ): string {
   const segments = arr(responses.segment);
   const regions = arr(responses.region);
@@ -171,6 +174,9 @@ export function buildUserMessage(
   lines.push('');
 
   lines.push(`# Now generate the diagnostic`);
+  lines.push(``);
+  lines.push(`## Language and glossary`);
+  lines.push(getDiagnosticPromptInstruction(locale));
   lines.push(``);
   lines.push(`Return a structured JSON object matching the DiagnosticReport schema. Remember:`);
   lines.push(`- Address the operation as "you" / "your operation" / "the group". You may use the first name "${leadData.name.split(' ')[0]}" ONCE, in the summary only — never again anywhere in the report (hard limit).`)

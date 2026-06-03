@@ -5,6 +5,8 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { DiagnosticReportView, type DiagnosticReport } from "./DiagnosticReportView";
+import { getDiagnosticCopy } from "@/lib/diagnostic/i18n";
+import { normalizeWebsiteLocale, type WebsiteLocale } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "Your Operations Diagnostic · Sundae",
@@ -13,7 +15,12 @@ export const metadata: Metadata = {
 
 const BACKEND = (process.env.SUNDAE_BACKEND_URL || "https://api.sundaetech.ai").replace(/\/$/, "");
 
-type ReportResponse = { report: DiagnosticReport; company?: string | null; name?: string | null };
+type ReportResponse = {
+  report: DiagnosticReport;
+  company?: string | null;
+  name?: string | null;
+  locale?: string | null;
+};
 
 async function fetchReport(token: string): Promise<ReportResponse | null> {
   if (!token) return null;
@@ -30,17 +37,18 @@ async function fetchReport(token: string): Promise<ReportResponse | null> {
   }
 }
 
-function NotFound() {
+function NotFound({ locale }: { locale: WebsiteLocale }) {
+  const copy = getDiagnosticCopy(locale);
   return (
-    <div className="min-h-screen bg-[#020617] text-slate-100 grid place-items-center px-6">
+    <div className="min-h-screen bg-[#020617] text-slate-100 grid place-items-center px-6" dir={copy.dir}>
       <div className="text-center max-w-md">
         <span className="text-2xl font-extrabold tracking-tight">sundae<span className="text-blue-500">.</span></span>
-        <h1 className="text-xl font-bold mt-6">This diagnostic link isn&rsquo;t valid</h1>
+        <h1 className="text-xl font-bold mt-6">{copy.share.notFoundTitle}</h1>
         <p className="text-sm text-slate-400 mt-2">
-          The link may have expired or been mistyped. Run a fresh Operations Diagnostic to get your report.
+          {copy.share.notFoundBody}
         </p>
         <Link href="/diagnostic" className="inline-flex items-center gap-1.5 mt-6 px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-sm font-bold transition-colors">
-          Start your diagnostic
+          {copy.share.notFoundCta}
         </Link>
       </div>
     </div>
@@ -50,10 +58,11 @@ function NotFound() {
 export default async function DiagnosticReportPage({
   searchParams,
 }: {
-  searchParams: Promise<{ token?: string }>;
+  searchParams: Promise<{ token?: string; locale?: string }>;
 }) {
-  const { token } = await searchParams;
+  const { token, locale: queryLocale } = await searchParams;
   const data = await fetchReport(token ?? "");
-  if (!data) return <NotFound />;
-  return <DiagnosticReportView report={data.report} company={data.company} name={data.name} />;
+  const locale = normalizeWebsiteLocale(data?.locale ?? queryLocale);
+  if (!data) return <NotFound locale={locale} />;
+  return <DiagnosticReportView report={data.report} company={data.company} name={data.name} locale={locale} />;
 }
