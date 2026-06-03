@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useSyncExternalStore } from "react";
 import { usePathname } from "next/navigation";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import type { RequiredEnglishLocalizedRecord } from '@/lib/i18n';
@@ -79,18 +79,31 @@ function dispatchConsentEvent(status: ConsentStatus) {
   window.dispatchEvent(new CustomEvent("sundae_consent_change", { detail: status }));
 }
 
+// Subscribe to consent changes (other tabs via "storage", this tab via our event)
+// so useSyncExternalStore re-reads after the user accepts/declines.
+function subscribeConsent(onStoreChange: () => void): () => void {
+  if (typeof window === "undefined") return () => {};
+  window.addEventListener("storage", onStoreChange);
+  window.addEventListener("sundae_consent_change", onStoreChange);
+  return () => {
+    window.removeEventListener("storage", onStoreChange);
+    window.removeEventListener("sundae_consent_change", onStoreChange);
+  };
+}
+
 export function CookieConsent() {
   const { locale } = useWebsiteI18n();
   const pathname = usePathname();
   const copy = cookieConsentCopy[locale as keyof typeof cookieConsentCopy] ?? getGeneratedLocalCopy(cookieConsentCopy, generatedLocalCopy.cookieConsentCopy, locale) ?? cookieConsentCopy.en;
-  const [visible, setVisible] = useState(() => {
-    if (typeof window === "undefined") return false;
-    return getConsentStatus() === null;
-  });
+  // Read consent via useSyncExternalStore: getServerSnapshot returns null on the
+  // server AND the first client render, so the SSR/hydration HTML always agree
+  // (no banner) — eliminating the hydration mismatch (React #418) that otherwise
+  // forced the whole tree to regenerate client-side. After hydration it reads the
+  // real localStorage value, and re-reads when accept/decline fires our event.
+  const consent = useSyncExternalStore(subscribeConsent, getConsentStatus, () => null);
 
   useEffect(() => {
-    const status = getConsentStatus();
-    if (status === "accepted") {
+    if (getConsentStatus() === "accepted") {
       loadGA4();
       dispatchConsentEvent("accepted");
     }
@@ -98,18 +111,16 @@ export function CookieConsent() {
 
   const handleAccept = useCallback(() => {
     localStorage.setItem(CONSENT_KEY, "accepted");
-    setVisible(false);
     loadGA4();
     dispatchConsentEvent("accepted");
   }, []);
 
   const handleDecline = useCallback(() => {
     localStorage.setItem(CONSENT_KEY, "declined");
-    setVisible(false);
     dispatchConsentEvent("declined");
   }, []);
 
-  if (!visible || pathname === "/tiktok-review") return null;
+  if (consent !== null || pathname === "/tiktok-review") return null;
 
   return (
     <div
