@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { motion, useReducedMotion } from "framer-motion";
+import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 
 interface HeroLiveDashboardProps {
   kpis: Array<{
@@ -49,6 +49,7 @@ export function HeroLiveDashboard({
   const [revenue, setRevenue] = useState(14280);
   const [serviceProgress, setServiceProgress] = useState(0.62); // fraction of service elapsed
   const [tickKey, setTickKey] = useState(0);
+  const [coachIdx, setCoachIdx] = useState(0);
 
   useEffect(() => {
     if (reduceMotion) return;
@@ -63,6 +64,26 @@ export function HeroLiveDashboard({
     }, TICK_MS);
     return () => clearInterval(id);
   }, [reduceMotion]);
+
+  // Sundae Coach rotates on its own cadence so it reads as a stream of AI
+  // recommendations (decision intelligence) rather than a static dashboard.
+  useEffect(() => {
+    if (reduceMotion) return;
+    const id = setInterval(() => setCoachIdx((i) => i + 1), 5200);
+    return () => clearInterval(id);
+  }, [reduceMotion]);
+
+  // Recommendation #1 is the localized coachAlert; the rest demonstrate the
+  // breadth of what Sundae Coach surfaces across labor, inventory, service,
+  // and marketing — positioning Sundae as a recommendation engine, not a chart.
+  const coachItems: Array<{ tag: string; text: string }> = [
+    { tag: "Upsell", text: coachAlert },
+    { tag: "Labor", text: "Tracking 1.5 labor hours under budget — safe to hold the 9 PM cut without risking service." },
+    { tag: "Inventory", text: "Ribeye is selling 22% faster than forecast — 86 risk by 8:30 PM. Prep 6 more portions now." },
+    { tag: "Service", text: "Table 12 has been seated 47 min with no entrée fired — nudge the kitchen before it turns." },
+    { tag: "Marketing", text: "Last Tuesday's happy-hour promo lifted covers 9% — worth repeating before the weekend." },
+  ];
+  const coach = coachItems[coachIdx % coachItems.length];
 
   // Derived — every figure flows from the three state values above
   const avgCheck = revenue / covers;
@@ -154,20 +175,18 @@ export function HeroLiveDashboard({
             animate={{ width: `${fillPct}%` }}
             transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
           />
-          {/* EXPECTED marker */}
+          {/* EXPECTED pace marker — labelled by the caption below to avoid
+              colliding with the target value above the bar */}
           <div
-            className="absolute -top-1 -bottom-1 w-px bg-[var(--text-supporting)]/70"
-            style={{ left: `${expectedPct}%` }}
-          >
-            <span className="absolute -top-[18px] left-1/2 -translate-x-1/2 whitespace-nowrap text-[7.5px] sm:text-[8.5px] font-semibold uppercase tracking-wider text-[var(--text-muted)]">
-              Expected
-            </span>
-          </div>
+            className="absolute -top-1.5 -bottom-1.5 w-0.5 rounded-full bg-[var(--text-primary)]/85"
+            style={{ left: `calc(${expectedPct}% - 1px)` }}
+          />
         </div>
 
         <div className="flex items-center justify-between mt-2.5">
-          <span className="text-[9px] sm:text-[10px] text-[var(--text-muted)] font-mono">
-            Expected {fmt(expected)}
+          <span className="text-[9px] sm:text-[10px] text-[var(--text-muted)] font-mono inline-flex items-center gap-1.5">
+            <span className="inline-block w-2 h-[2px] rounded-full bg-[var(--text-primary)]/85" />
+            Expected pace {fmt(expected)}
           </span>
           <span
             className={`text-[9px] sm:text-[10px] font-semibold font-mono rounded-md px-1.5 py-0.5 ${
@@ -248,14 +267,47 @@ export function HeroLiveDashboard({
         </div>
       )}
 
-      {/* ── Coach insight ── */}
-      <div className="flex items-start gap-2.5 rounded-xl border border-[#1C47FF]/25 bg-[#1C47FF]/[0.06] p-3">
-        <span className="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-md bg-[#1C47FF]/15 text-[#5B8DEF] text-[11px]">
-          ✦
-        </span>
-        <p className="text-[11px] sm:text-xs text-[var(--text-supporting)] leading-snug">
-          {coachAlert}
-        </p>
+      {/* ── Sundae Coach — rotating AI recommendations (decision intelligence) ── */}
+      <div className="rounded-xl border border-[#1C47FF]/30 bg-gradient-to-br from-[#1C47FF]/[0.10] to-[#1C47FF]/[0.03] p-3 sm:p-3.5">
+        <div className="flex items-center gap-2 mb-2">
+          <span className="flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-md bg-[#1C47FF]/20 text-[#5B8DEF] text-[11px]">
+            ✦
+          </span>
+          <span className="text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-[#5B8DEF]">
+            Sundae Coach
+          </span>
+          <span className="ml-auto text-[8.5px] sm:text-[9px] font-semibold uppercase tracking-wider text-[var(--text-supporting)] rounded px-1.5 py-0.5 bg-white/[0.06] border border-[var(--border-default)]">
+            {coach.tag}
+          </span>
+        </div>
+        <div className="min-h-[2.6em] sm:min-h-[2.4em]">
+          <AnimatePresence mode="wait">
+            <motion.p
+              key={coachIdx}
+              initial={reduceMotion ? false : { opacity: 0, y: 6 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={reduceMotion ? undefined : { opacity: 0, y: -6 }}
+              transition={{ duration: 0.35, ease: "easeOut" }}
+              className="text-[11px] sm:text-xs text-[var(--text-primary)] leading-snug"
+            >
+              {coach.text}
+            </motion.p>
+          </AnimatePresence>
+        </div>
+        {!reduceMotion && (
+          <div className="flex gap-1 mt-2.5" aria-hidden>
+            {coachItems.map((_, di) => (
+              <span
+                key={di}
+                className={`h-1 rounded-full transition-all duration-300 ${
+                  di === coachIdx % coachItems.length
+                    ? "w-4 bg-[#5B8DEF]"
+                    : "w-1 bg-[var(--text-primary)]/15"
+                }`}
+              />
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );
