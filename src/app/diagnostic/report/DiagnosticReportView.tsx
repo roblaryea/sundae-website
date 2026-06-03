@@ -11,7 +11,7 @@
 import { useState } from "react";
 import {
   Sun, Moon, ChevronDown, TrendingDown, Gauge, Layers,
-  CalendarClock, Sparkles, ArrowUpRight, Target,
+  CalendarClock, Sparkles, ArrowUpRight, Target, Wallet, CheckCircle2,
 } from "lucide-react";
 
 type Leak = { title: string; detail: string; impactBand: "high" | "medium" | "low"; impactCopy: string };
@@ -23,6 +23,12 @@ export type DiagnosticReport = {
   expectedImpact: { metric: string; range: string }[];
   quickWins: { horizon: "30" | "60" | "90"; title: string; detail: string }[];
   tierFit: string;
+  economics?: {
+    monthlyCost: { range: string; basis: string };
+    monthlySavings: { range: string; basis: string };
+    ebitdaUplift: { pctRange: string; amountRange: string; basis: string };
+    softUplifts: { label: string; detail: string }[];
+  };
 };
 
 const BAND = {
@@ -222,6 +228,38 @@ export function DiagnosticReportView({
               ))}
             </div>
           </Section>
+
+          {report.economics && (
+            <Section id="economics" icon={Wallet} title="What it costs & returns" subtitle="Directional — list pricing, not a quote" dark={dark} open={openIds.has("economics")} onToggle={() => toggle("economics")}>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-1">
+                {[
+                  { label: "Est. monthly cost", value: report.economics.monthlyCost.range, basis: report.economics.monthlyCost.basis },
+                  { label: "Monthly savings vs current stack", value: report.economics.monthlySavings.range, basis: report.economics.monthlySavings.basis },
+                  { label: "EBITDA uplift", value: report.economics.ebitdaUplift.amountRange, sub: report.economics.ebitdaUplift.pctRange, basis: report.economics.ebitdaUplift.basis },
+                ].map((c) => (
+                  <div key={c.label} className={`rounded-xl border p-3.5 ${dark ? "border-white/10 bg-white/[0.02]" : "border-gray-200 bg-gray-50"}`}>
+                    <p className={`text-[11px] font-bold uppercase tracking-wide ${muted}`}>{c.label}</p>
+                    <p className={`text-base font-bold mt-1 ${heading}`}>{c.value}</p>
+                    {c.sub && <p className={`text-xs font-semibold mt-0.5 ${dark ? "text-blue-300" : "text-blue-700"}`}>{c.sub}</p>}
+                    <p className={`text-[11px] mt-1.5 ${muted}`}>{c.basis}</p>
+                  </div>
+                ))}
+              </div>
+              {report.economics.softUplifts.length > 0 && (
+                <div className={`mt-3 grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-2`}>
+                  {report.economics.softUplifts.map((u, i) => (
+                    <div key={i} className="flex gap-2">
+                      <CheckCircle2 className={`w-4 h-4 shrink-0 mt-0.5 ${dark ? "text-emerald-400" : "text-emerald-600"}`} />
+                      <div>
+                        <p className={`text-sm font-semibold ${heading}`}>{u.label}</p>
+                        <p className={`text-xs ${body}`}>{u.detail}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </Section>
+          )}
 
           {/* Footer CTA — mobile only (the frozen rail carries it on desktop, so it never duplicates) */}
           <div className={`lg:hidden rounded-2xl border p-5 text-center ${dark ? "border-white/10 bg-white/[0.02]" : "border-gray-200 bg-white"}`}>

@@ -30,6 +30,28 @@ export const ExpectedImpactSchema = z.object({
   range: z.string().describe('Directional range e.g. "5–14% in first quarter"'),
 });
 
+export const SoftUpliftSchema = z.object({
+  label: z.string().describe('Short benefit e.g. "Lower turnover & re-training cost"'),
+  detail: z.string().describe('One sentence tied to a specific response (pain, tool, segment)'),
+});
+
+export const EconomicsSchema = z.object({
+  monthlyCost: z.object({
+    range: z.string().describe('Indicative Sundae monthly list cost as a range e.g. "$1,400–2,100 / mo"'),
+    basis: z.string().describe('One line: which SKUs × outlet band drove it'),
+  }),
+  monthlySavings: z.object({
+    range: z.string().describe('Replaced-tooling / consolidation savings vs current stack e.g. "$600–1,500 / mo"'),
+    basis: z.string().describe('One line referencing their stated SaaS spend band and the tools Sundae consolidates'),
+  }),
+  ebitdaUplift: z.object({
+    pctRange: z.string().describe('EBITDA-margin point uplift range e.g. "+1.5–3.5 margin points"'),
+    amountRange: z.string().describe('Absolute monthly uplift across the group e.g. "$9K–24K / mo"'),
+    basis: z.string().describe('One line: estimated revenue (AUV × outlets) × the impact ranges; note it is illustrative'),
+  }),
+  softUplifts: z.array(SoftUpliftSchema).min(2).max(5).describe('Non-financial uplifts: happier/better-trained staff, happier guests, faster decisions'),
+}).describe('Directional economics — ranges derived from comparable operators and list pricing, never a customer-specific quote');
+
 export const DiagnosticReportSchema = z.object({
   profileLine: z.string().describe('One-line summary: "QSR + casual operator · 16 outlets · UAE + KSA"'),
   summary: z.string().describe('2-3 sentence summary referencing their specific blind spot and priority'),
@@ -38,4 +60,5 @@ export const DiagnosticReportSchema = z.object({
   expectedImpact: z.array(ExpectedImpactSchema).min(2).max(4),
   quickWins: z.array(QuickWinSchema).length(3).describe('Exactly one entry per horizon: 30, 60, 90'),
   tierFit: z.string().describe('One-line stack summary e.g. "Core Plus + Crew Operating Suite + Watchtower"'),
+  economics: EconomicsSchema.optional().describe('Cost / savings / EBITDA uplift / soft uplifts — always include unless inputs are too sparse'),
 });

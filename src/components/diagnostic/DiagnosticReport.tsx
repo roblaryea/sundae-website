@@ -14,7 +14,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { Sparkles, TrendingUp, Layers, Calendar, ArrowRight, CheckCircle2, Loader2, Check } from "lucide-react";
+import { Sparkles, TrendingUp, Layers, Calendar, ArrowRight, CheckCircle2, Loader2, Check, Wallet, PiggyBank, Heart } from "lucide-react";
 import type { DiagnosticReport } from "@/lib/diagnostic/engine";
 
 interface DiagnosticReportProps {
@@ -284,6 +284,64 @@ Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
           </div>
         </motion.section>
 
+        {/* Economics — cost / savings / EBITDA / soft uplifts */}
+        {report.economics && (
+          <motion.section
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.95, duration: 0.5 }}
+            className="mb-10"
+          >
+            <div className="flex items-center gap-2 mb-1">
+              <Wallet className="w-5 h-5 text-[var(--electric-blue)]" />
+              <h2 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)]">
+                What it costs &amp; returns
+              </h2>
+            </div>
+            <p className="text-xs text-[var(--text-muted)] mb-4 italic">
+              Directional ranges from comparable operators and list pricing — not a customer-specific quote.
+            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mb-3">
+              {[
+                { icon: Wallet, tint: "text-[var(--electric-blue)]", ring: "border-[var(--electric-blue)]/25 bg-[var(--electric-blue)]/[0.05]", label: "Est. monthly cost", value: report.economics.monthlyCost.range, basis: report.economics.monthlyCost.basis },
+                { icon: PiggyBank, tint: "text-emerald-300", ring: "border-emerald-500/25 bg-emerald-500/[0.05]", label: "Monthly savings vs current stack", value: report.economics.monthlySavings.range, basis: report.economics.monthlySavings.basis },
+                { icon: TrendingUp, tint: "text-amber-300", ring: "border-amber-500/25 bg-amber-500/[0.05]", label: "EBITDA uplift", value: report.economics.ebitdaUplift.amountRange, basis: report.economics.ebitdaUplift.basis, sub: report.economics.ebitdaUplift.pctRange },
+              ].map((c) => (
+                <div key={c.label} className={`rounded-2xl border p-5 ${c.ring}`}>
+                  <div className="flex items-center gap-2 mb-2">
+                    <c.icon className={`w-4 h-4 ${c.tint}`} />
+                    <p className="text-[11px] font-bold uppercase tracking-wider text-[var(--text-supporting)]">{c.label}</p>
+                  </div>
+                  <p className="text-xl font-bold text-[var(--text-primary)] leading-tight">{c.value}</p>
+                  {c.sub && <p className={`text-xs font-semibold mt-0.5 ${c.tint}`}>{c.sub}</p>}
+                  <p className="text-[11px] text-[var(--text-muted)] leading-snug mt-2 pt-2 border-t border-white/[0.06]">{c.basis}</p>
+                </div>
+              ))}
+            </div>
+
+            {report.economics.softUplifts.length > 0 && (
+              <div className="rounded-2xl bg-white/[0.025] border border-[var(--border-default)] p-5">
+                <div className="flex items-center gap-2 mb-3">
+                  <Heart className="w-4 h-4 text-rose-300" />
+                  <p className="text-[11px] font-bold uppercase tracking-wider text-[var(--text-supporting)]">Beyond the numbers</p>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3">
+                  {report.economics.softUplifts.map((u) => (
+                    <div key={u.label} className="flex gap-2.5">
+                      <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />
+                      <div>
+                        <p className="text-sm font-semibold text-[var(--text-primary)] leading-snug">{u.label}</p>
+                        <p className="text-xs text-[var(--text-supporting)] leading-relaxed">{u.detail}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+          </motion.section>
+        )}
+
         {/* CTAs */}
         <motion.section
           initial={{ opacity: 0, y: 20 }}
@@ -328,14 +386,14 @@ Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
               href={`https://pricing.sundae.io?email=${encodeURIComponent(leadData.email)}&name=${encodeURIComponent(leadData.name)}&company=${encodeURIComponent(leadData.company || "")}&country=${encodeURIComponent(leadData.country)}`}
               target="_blank"
               rel="noopener"
-              className="rounded-xl bg-white/[0.06] border border-[var(--border-default)] text-[var(--text-primary)] font-bold px-5 py-3 hover:bg-white/[0.1] transition-colors flex items-center justify-center gap-2"
+              className="rounded-xl bg-white/[0.06] border-2 border-[var(--electric-blue)]/45 text-[var(--text-primary)] font-bold px-5 py-3 hover:bg-[var(--electric-blue)]/10 hover:border-[var(--electric-blue)]/75 transition-colors flex items-center justify-center gap-2"
             >
               Open pricing simulator
               <ArrowRight className="w-4 h-4" />
             </Link>
             <Link
               href="/crew"
-              className="rounded-xl bg-white/[0.06] border border-[var(--border-default)] text-[var(--text-primary)] font-bold px-5 py-3 hover:bg-white/[0.1] transition-colors flex items-center justify-center gap-2"
+              className="rounded-xl bg-white/[0.06] border-2 border-[var(--electric-blue)]/45 text-[var(--text-primary)] font-bold px-5 py-3 hover:bg-[var(--electric-blue)]/10 hover:border-[var(--electric-blue)]/75 transition-colors flex items-center justify-center gap-2"
             >
               Start with Crew Lite
               <ArrowRight className="w-4 h-4" />

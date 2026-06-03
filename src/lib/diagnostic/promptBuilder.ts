@@ -5,6 +5,7 @@
 // can reason over them.
 
 import type { DiagnosticResponses } from './engine';
+import { QUESTIONS } from './questions';
 
 export const SYSTEM_PROMPT = `You are the diagnostic engine for Sundae Technologies — a Decision Intelligence platform for restaurants.
 
@@ -36,6 +37,14 @@ Generate a personalised diagnostic report from a prospect's responses to a 15-qu
 - **Crew Operating Suite** — Operations + T&A + Payroll bundle
 - **Crew Complete Suite** — + People Intelligence
 
+# List pricing (monthly USD; base + per-location — for the economics block)
+- Report Lite $0 · Report Plus $79 + $39/loc · Report Pro $159 + $59/loc
+- Core Lite $279 + $79/loc · Core Pro $449 + $89/loc
+- Specialized Insights module ~$149 + $14/loc each · Cross-Intelligence Pro $199 + $19/loc
+- Watchtower add-on (Core-gated; indicative ~$199 + $19/loc)
+- Crew Lite $99 + $19/loc · Crew Operating Suite $502 + $102/loc · Crew Complete $701 + $133/loc
+Treat these as indicative list pricing for sizing a range — never a quote.
+
 # Output rules (NON-NEGOTIABLE)
 
 1. **Honest ranges only** — Every quantified impact must be a directional range derived from comparable operator engagements. NEVER a customer-specific projection. Use phrases like "Operators with similar profiles typically..." or "Comparable engagements show..."
@@ -55,6 +64,12 @@ Generate a personalised diagnostic report from a prospect's responses to a 15-qu
 11. **Name discipline** — Reference the operator by first name AT MOST TWICE in the entire report; everywhere else use "you" / "your operation" / "the group". Repeating the name in every section reads like a mail-merge, not a consultant who knows the business.
 12. **Vendor neutrality** — NEVER name the AI model, provider, or vendor behind this analysis, and never describe the output as "AI-generated" or "powered by [X]". You are Sundae's diagnostic engine — speak as Sundae, in the first person plural where natural ("we'd surface…").
 13. **Timeline awareness** — If a go-live timeline is provided, let it shape urgency in the summary or the 30-day quick-win (tie the first move to their stated window). Never invent specific calendar dates.
+14. **Economics block (always include unless inputs are far too sparse)** — Populate \`economics\`:
+    - **monthlyCost** — a range from the recommended stack × their outlet band against the list pricing above. State the basis (which SKUs × ~N outlets).
+    - **monthlySavings** — 30–60% consolidation of their stated annual SaaS spend (÷12), framed as the BI / scheduling / reporting tooling Sundae replaces. If spend isn't given, estimate from outlet count and say so in the basis.
+    - **ebitdaUplift** — give BOTH a margin-point range (\`pctRange\`) AND an absolute monthly $ range (\`amountRange\`). Derive from estimated revenue (their AUV × outlets; if AUV isn't given, estimate from segment averages and say it's illustrative) applied to the \`expectedImpact\` ranges. Never a customer-specific projection.
+    - **softUplifts** — 2–4 non-financial wins tied to their selected pains: lower turnover & re-training, better-trained staff, happier guests, faster/calmer decisions.
+    Every figure is a directional range from comparable operators + list pricing — never a quote. Keep ranges honest and conservative.
 
 # Tone
 
@@ -74,31 +89,18 @@ function arr(v: string | string[] | undefined): string[] {
   return Array.isArray(v) ? v : v ? [v] : [];
 }
 
-const LABEL_MAPS = {
-  segment: {
-    qsr: 'QSR / Fast food', fast_casual: 'Fast-casual', casual: 'Casual dining',
-    fine_dining: 'Fine dining', cloud: 'Cloud kitchen', hotel_fb: 'Hotel F&B',
-    cafe_bakery: 'Café / Bakery', bar_nightlife: 'Bar / Nightlife',
-    catering: 'Catering / Events', ghost_brand: 'Ghost / Virtual brand',
-    franchise: 'Franchise / Master franchisee',
-  },
-  outlets: {
-    '1': '1 outlet', '2_5': '2-5 outlets', '6_15': '6-15 outlets',
-    '16_50': '16-50 outlets', '51_150': '51-150 outlets', '150_plus': '150+ outlets',
-  },
-  region: {
-    us: 'United States', canada: 'Canada', uk: 'UK', ireland: 'Ireland',
-    europe_west: 'Western Europe', europe_nord: 'Nordics', europe_east: 'Eastern Europe',
-    uae: 'UAE', ksa: 'Saudi Arabia', qatar: 'Qatar', kuwait: 'Kuwait',
-    bahrain: 'Bahrain', oman: 'Oman', egypt: 'Egypt', africa: 'Africa',
-    sea: 'Southeast Asia', india: 'India', japan: 'Japan', korea: 'Korea',
-    china_hk: 'China / Hong Kong', anzac: 'Australia / New Zealand',
-    mexico: 'Mexico', brazil: 'Brazil', latam_other: 'LATAM (other)',
-  },
-} as Record<string, Record<string, string>>;
+// Value→label lookup derived from the question catalog — single source of
+// truth, so the model always reads human labels (e.g. "Real-time labor
+// productivity (sales per labor hour)") rather than raw slugs.
+const OPTION_LABELS: Record<string, Record<string, string>> = {};
+for (const q of QUESTIONS) {
+  if (!q.options) continue;
+  OPTION_LABELS[q.id] = {};
+  for (const o of q.options) OPTION_LABELS[q.id][o.value] = o.label;
+}
 
 function labelize(qid: string, vals: string[]): string {
-  const map = LABEL_MAPS[qid];
+  const map = OPTION_LABELS[qid];
   if (!map) return vals.join(', ');
   return vals.map((v) => map[v] ?? v).join(', ');
 }
@@ -128,25 +130,26 @@ export function buildUserMessage(
 
   lines.push(`## Operation profile`);
   lines.push(`- **Segments:** ${labelize('segment', segments) || '(not specified)'}`);
-  lines.push(`- **Outlets:** ${LABEL_MAPS.outlets[outlets ?? ''] ?? '(not specified)'}`);
+  lines.push(`- **Outlets:** ${labelize('outlets', arr(outlets)) || '(not specified)'}`);
+  lines.push(`- **Avg revenue per outlet (AUV):** ${labelize('avg_unit_volume', arr(responses.avg_unit_volume)) || '(not provided — estimate from segment averages for the EBITDA range and say it is illustrative)'}`);
   lines.push(`- **Regions:** ${labelize('region', regions) || '(not specified)'}`);
   lines.push('');
 
   lines.push(`## Workforce / Crew`);
-  lines.push(`- **Scheduling tools today:** ${arr(responses.scheduling_tool).join(', ') || '(not specified)'}`);
-  lines.push(`- **Labor pain points:** ${arr(responses.labor_pain).join(', ') || '(none flagged)'}`);
-  lines.push(`- **Payroll regions:** ${arr(responses.payroll_regions).join(', ') || '(none flagged)'}`);
+  lines.push(`- **Scheduling tools today:** ${labelize('scheduling_tool', arr(responses.scheduling_tool)) || '(not specified)'}`);
+  lines.push(`- **Labor pain points:** ${labelize('labor_pain', arr(responses.labor_pain)) || '(none flagged)'}`);
+  lines.push(`- **Payroll regions:** ${labelize('payroll_regions', arr(responses.payroll_regions)) || '(none flagged)'}`);
   lines.push('');
 
   lines.push(`## Decision intelligence`);
-  lines.push(`- **KPIs tracked today:** ${arr(responses.kpis_measured).join(', ') || '(not specified)'}`);
-  lines.push(`- **KPIs they WISH they could measure but can't (THE GAP — read carefully):** ${arr(responses.kpis_wished).join(', ') || '(none flagged)'}`);
-  lines.push(`- **Last major decision — data sources used:** ${arr(responses.decision_data).join(', ') || '(not specified)'}`);
+  lines.push(`- **KPIs tracked today:** ${labelize('kpis_measured', arr(responses.kpis_measured)) || '(not specified)'}`);
+  lines.push(`- **KPIs they WISH they could measure but can't (THE GAP — read carefully):** ${labelize('kpis_wished', arr(responses.kpis_wished)) || '(none flagged)'}`);
+  lines.push(`- **Last major decision — data sources used:** ${labelize('decision_data', arr(responses.decision_data)) || '(not specified)'}`);
   lines.push('');
 
   lines.push(`## Foresight / Strategy`);
-  lines.push(`- **Forecasting approach:** ${responses.forecasting ?? '(not specified)'}`);
-  lines.push(`- **What-if scenarios they wish they could model:** ${arr(responses.scenario_wish).join(', ') || '(none flagged)'}`);
+  lines.push(`- **Forecasting approach:** ${labelize('forecasting', arr(responses.forecasting)) || responses.forecasting || '(not specified)'}`);
+  lines.push(`- **What-if scenarios they wish they could model:** ${labelize('scenario_wish', arr(responses.scenario_wish)) || '(none flagged)'}`);
   if (responses.blind_spot) {
     lines.push(`- **BIGGEST BLIND SPOT (operator's own words — TIE A LEAK HYPOTHESIS DIRECTLY TO THIS):**`);
     lines.push(`  > "${String(responses.blind_spot).trim()}"`);
@@ -154,11 +157,11 @@ export function buildUserMessage(
   lines.push('');
 
   lines.push(`## Tech stack + context`);
-  lines.push(`- **POS systems:** ${arr(responses.pos).join(', ') || '(not specified)'}`);
-  lines.push(`- **Other ops tools:** ${arr(responses.ops_tools).join(', ') || '(none flagged)'}`);
-  lines.push(`- **Timeline to be live:** ${responses.timeline ?? '(not specified)'}`);
-  lines.push(`- **Current decision lag (signal-to-action):** ${responses.decision_lag ?? '(not specified)'}`);
-  lines.push(`- **Annual ops tech spend (software/SaaS):** ${responses.budget_band ?? '(not specified)'}`);
+  lines.push(`- **POS systems:** ${labelize('pos', arr(responses.pos)) || '(not specified)'}`);
+  lines.push(`- **Other ops tools:** ${labelize('ops_tools', arr(responses.ops_tools)) || '(none flagged)'}`);
+  lines.push(`- **Timeline to be live:** ${labelize('timeline', arr(responses.timeline)) || responses.timeline || '(not specified)'}`);
+  lines.push(`- **Current decision lag (signal-to-action):** ${labelize('decision_lag', arr(responses.decision_lag)) || responses.decision_lag || '(not specified)'}`);
+  lines.push(`- **Annual ops tech spend (software/SaaS):** ${labelize('budget_band', arr(responses.budget_band)) || responses.budget_band || '(not specified)'}`);
   lines.push(`- **In-house tech headcount (analysts, BI devs, data engineers):** ${responses.tech_headcount ?? '(not specified)'}`);
   if (responses.priority) {
     lines.push('');

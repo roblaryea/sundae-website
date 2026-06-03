@@ -42,6 +42,18 @@ export interface QuickWin {
   detail: string;
 }
 
+export interface SoftUplift {
+  label: string;
+  detail: string;
+}
+
+export interface Economics {
+  monthlyCost: { range: string; basis: string };
+  monthlySavings: { range: string; basis: string };
+  ebitdaUplift: { pctRange: string; amountRange: string; basis: string };
+  softUplifts: SoftUplift[];
+}
+
 export interface DiagnosticReport {
   /** Short narrative — one paragraph */
   summary: string;
@@ -53,6 +65,8 @@ export interface DiagnosticReport {
   quickWins: QuickWin[];
   /** Tier suggestion, e.g. "Core Plus + Crew Operating Suite" */
   tierFit: string;
+  /** Directional economics — cost, savings, EBITDA uplift, soft uplifts. Optional: present on the AI path and the heuristic path, absent only on sparse input. */
+  economics?: Economics;
 }
 
 // ─── Helpers ────────────────────────────────────────────────────────
@@ -106,6 +120,71 @@ const regionLabel = (vals: string[]): string => {
 };
 
 // ─── Engine ─────────────────────────────────────────────────────────
+// ─── Economics helpers (directional list-pricing math) ──────────────
+const AUV_MID: Record<string, number> = {
+  under_500k: 400_000, "500k_1m": 750_000, "1m_2m": 1_500_000,
+  "2m_4m": 3_000_000, "4m_7m": 5_500_000, "7m_plus": 9_000_000,
+};
+const BUDGET_MID: Record<string, number> = {
+  under_10k: 7_000, "10_25k": 17_000, "25_50k": 37_000, "50_100k": 75_000,
+  "100_250k": 175_000, "250_500k": 375_000, "500k_1m": 750_000, "1m_plus": 1_300_000,
+};
+const money = (n: number): string =>
+  n >= 1_000_000 ? `$${(n / 1_000_000).toFixed(n >= 10_000_000 ? 0 : 1)}M`
+  : n >= 1_000 ? `$${Math.round(n / 1000)}K`
+  : `$${Math.round(n / 10) * 10}`;
+
+function computeEconomics(
+  responses: DiagnosticResponses,
+  stack: StackRecommendation[],
+  outlets: number,
+): Economics {
+  const hasCrew = stack.some((s) => s.layer === "crew");
+  const hasWatch = stack.some((s) => s.layer === "watchtower");
+  const moduleCount = stack.filter((s) => s.layer === "intelligence" || s.layer === "foresight").length;
+
+  const coreTier = outlets <= 1 ? "Report Pro" : outlets <= 15 ? "Core Lite" : "Core Pro";
+  const [base, perLoc] = outlets <= 1 ? [159, 59] : outlets <= 15 ? [279, 79] : [449, 89];
+  let monthly = base + perLoc * outlets;
+  if (hasCrew) monthly += 502 + 102 * outlets;        // Crew Operating Suite
+  if (hasWatch) monthly += 199 + 19 * outlets;        // Watchtower add-on (indicative)
+  monthly += moduleCount * (149 + 14 * outlets) * 0.5; // specialized modules, dampened
+
+  const budgetAnnual = BUDGET_MID[String(responses.budget_band ?? "")];
+  const savings = budgetAnnual
+    ? { range: `${money((budgetAnnual / 12) * 0.3)}–${money((budgetAnnual / 12) * 0.6)} / mo`,
+        basis: `Consolidating roughly 30–60% of your ~${money(budgetAnnual / 12)}/mo current ops-tech spend (BI, scheduling, reporting).` }
+    : { range: `${money(120 * outlets)}–${money(300 * outlets)} / mo`,
+        basis: `Typical replaced-tooling savings across ~${outlets} outlets (BI, scheduling, reporting). Add your SaaS spend for a tighter figure.` };
+
+  const auv = AUV_MID[String(responses.avg_unit_volume ?? "")];
+  const ebitdaUplift = auv
+    ? { pctRange: "+1.5–3.5 margin points",
+        amountRange: `${money(((auv * outlets) / 12) * 0.015)}–${money(((auv * outlets) / 12) * 0.035)} / mo`,
+        basis: `Est. ${money(auv * outlets)} annual revenue (${money(auv)} AUV × ${outlets} outlets) × the impact ranges above. Illustrative, not a quote.` }
+    : { pctRange: "+1.5–3.5 margin points",
+        amountRange: "Add your AUV to size this",
+        basis: "Share average revenue per outlet to convert the margin-point range into a monthly figure." };
+
+  const softUplifts: SoftUplift[] = [];
+  if (has(responses.labor_pain, "turnover")) {
+    softUplifts.push({ label: "Lower turnover & re-training cost", detail: "Fairer, demand-matched scheduling cuts churn and the re-hire/retrain treadmill." });
+  }
+  softUplifts.push({ label: "Better-trained, more confident staff", detail: "Shift-level coaching and consistent playbooks raise floor execution without adding headcount." });
+  softUplifts.push({ label: "Happier guests", detail: "Faster service and fewer stockouts/voids lift the experience that drives repeat visits." });
+  softUplifts.push({ label: "Faster, calmer decisions", detail: "Signal-to-action drops from weekly close to same-day — the team acts before margin is booked." });
+
+  return {
+    monthlyCost: {
+      range: `${money(monthly * 0.85)}–${money(monthly * 1.2)} / mo`,
+      basis: `${coreTier}${hasCrew ? " + Crew Operating Suite" : ""}${hasWatch ? " + Watchtower" : ""} across ~${outlets} outlets (list pricing).`,
+    },
+    monthlySavings: savings,
+    ebitdaUplift,
+    softUplifts: softUplifts.slice(0, 4),
+  };
+}
+
 export function runDiagnostic(responses: DiagnosticResponses): DiagnosticReport {
   const outlets = outletCountValue(responses.outlets as string | undefined);
   const segment = segmentLabel(arr(responses.segment));
@@ -367,6 +446,7 @@ export function runDiagnostic(responses: DiagnosticResponses): DiagnosticReport 
     expectedImpact,
     quickWins,
     tierFit,
+    economics: computeEconomics(responses, recommendedStack, outlets),
   };
 }
 
