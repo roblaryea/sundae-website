@@ -9,15 +9,7 @@ import { ElegantShape } from "@/components/ui/ElegantShape";
 import { FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { REPORT_APP_URL } from "@/lib/urls";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
-import {
-  ExecutiveBriefingMockup,
-  RevenueIntelligenceMockup,
-  PulseDashboardMockup,
-  LaborOpsMockup,
-  IntegrationsHubMockup,
-  MarketingPerformanceMockup,
-  BenchmarkDashboardMockup,
-} from "@/components/ui/MockupFrame";
+import { ThemedShot } from "@/components/ui/ThemedShot";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_solutions_page'
 
@@ -334,14 +326,17 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
 
 /* ─── Rotating hero mockup ─── */
 
-const ROTATING_MOCKUPS = [
-  ExecutiveBriefingMockup,
-  RevenueIntelligenceMockup,
-  PulseDashboardMockup,
-  MarketingPerformanceMockup,
-  LaborOpsMockup,
-  IntegrationsHubMockup,
-  BenchmarkDashboardMockup,
+// Real Sundae surface per rotating persona (order matches copy.rotatingLabels:
+// C-Suite / Finance / Operations / Marketing / People & HR / Tech / Multi-brand)
+const IMG = "/images/product/2026-fresh";
+const ROTATING_SHOTS = [
+  { t: "insights-exec-summary", alt: "Executive Summary — portfolio health, alerts, and module scorecards" },
+  { t: "insights-revenue", alt: "Revenue Intelligence — net revenue, average check, RevPASH, and covers" },
+  { t: "pulse-leaderboard", alt: "Pulse Portfolio Leaderboard — every outlet ranked live by revenue vs target" },
+  { t: "marketing-channels", alt: "Marketing Intelligence — channel ROAS and spend efficiency frontier" },
+  { t: "insights-labor", alt: "Labor Intelligence — labor cost %, sales per labor hour, and productivity index" },
+  { t: "integrations", alt: "Data & Integrations — POS, labor, inventory, and delivery unified" },
+  { t: "benchmark-overview", alt: "Benchmark — RevPASH index and peer-cohort comparison across brands and markets" },
 ];
 const ROTATION_MS = 5000;
 
@@ -349,12 +344,12 @@ export default function SolutionsHubPage() {
   const { locale } = useWebsiteI18n();
   const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
   const [activeIdx, setActiveIdx] = useState(0);
-  const ActiveMockup = ROTATING_MOCKUPS[activeIdx];
+  const activeShot = ROTATING_SHOTS[activeIdx];
   const activeLabel = copy.rotatingLabels[activeIdx] ?? "";
 
   useEffect(() => {
     const id = setInterval(() => {
-      setActiveIdx((i) => (i + 1) % ROTATING_MOCKUPS.length);
+      setActiveIdx((i) => (i + 1) % ROTATING_SHOTS.length);
     }, ROTATION_MS);
     return () => clearInterval(id);
   }, []);
@@ -372,7 +367,7 @@ export default function SolutionsHubPage() {
             <ElegantShape delay={0.4} width={300} height={80} rotate={-8} gradient="from-white/[0.025]" className="left-[5%] bottom-[10%]" />
           </div>
 
-          <div className="max-w-7xl mx-auto relative z-10 grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)] gap-10 lg:gap-16 items-center">
+          <div className="max-w-7xl mx-auto relative z-10 grid lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.3fr)] gap-10 lg:gap-16 items-center">
             <div>
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }} className="mb-6">
                 <span className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-semibold tracking-wide uppercase bg-[rgba(28,71,255,0.12)] border border-[rgba(28,71,255,0.2)] text-[#60A5FA]">
@@ -405,7 +400,15 @@ export default function SolutionsHubPage() {
               <motion.div initial={{ rotateX: 6 }} animate={{ rotateX: 1.5 }} transition={{ duration: 1.2, delay: 0.5, ease: [0.25, 0.1, 0.25, 1] }}>
                 <AnimatePresence mode="wait">
                   <motion.div key={activeIdx} initial={{ opacity: 0, scale: 0.97 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0, scale: 0.97 }} transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}>
-                    <ActiveMockup />
+                    <ThemedShot
+                      framed
+                      priority
+                      width={1600}
+                      height={1000}
+                      dark={`${IMG}/${activeShot.t}-dark.png`}
+                      light={`${IMG}/${activeShot.t}.png`}
+                      alt={activeShot.alt}
+                    />
                   </motion.div>
                 </AnimatePresence>
               </motion.div>
