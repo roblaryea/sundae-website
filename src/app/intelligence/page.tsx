@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/Card";
 import { useCta } from "@/lib/cta";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { SIGNUP_URL } from "@/lib/urls";
-import { IntelligenceChatMockup } from "@/components/ui/MockupFrame";
+import Image from "next/image";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
@@ -346,8 +346,15 @@ export default function ChatWithDataPage() {
 
       <section className="px-4 sm:px-6 lg:px-8 -mt-12 relative z-10 pb-16">
         <FadeUp delay={0.3}>
-          <div className="max-w-5xl mx-auto">
-            <IntelligenceChatMockup />
+          <div className="max-w-5xl mx-auto rounded-2xl border border-[var(--border-default)] overflow-hidden shadow-2xl shadow-black/50 ring-1 ring-white/5">
+            <Image
+              src="/images/product/2026-fresh/intelligence-dark.png"
+              alt="Sundae Intelligence — ask your data anything in plain English and get structured visual answers"
+              width={1600}
+              height={1000}
+              className="w-full h-auto"
+              priority
+            />
           </div>
         </FadeUp>
       </section>
