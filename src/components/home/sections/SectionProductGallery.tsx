@@ -286,6 +286,17 @@ const GALLERY: GalleryItem[] = [
     productHref: "/benchmarking",
     productLabel: "Benchmark →",
   },
+  {
+    id: "benchmark-performance",
+    src: "/images/product/2026-fresh/benchmark-performance.png",
+    alt: "Benchmark — per-metric YOU vs market with percentile rank",
+    caption: "Benchmark — Performance Percentiles",
+    whatYouSee:
+      "Every metric ranked against the anonymized market — YOU vs MARKET vs INDEX, with colour-coded index badges and percentile bars: Average Check AED 78.41 (index 118, P68), RevPASH AED 8.00 (P37), Transactions index 86 (P31). 3/6 above median, with the biggest opportunity (Transactions) called out to drill into.",
+    personas: ["c_suite", "cfo", "multi_loc"],
+    productHref: "/benchmarking",
+    productLabel: "Benchmark →",
+  },
 
   // ─── Spatial Floor Intelligence — one floor plan, every lens ─
   {
@@ -399,39 +410,6 @@ const GALLERY: GalleryItem[] = [
     whatYouSee:
       "Outlet-scoped punch for Amber Ash & Eatery · Dubai with geofence enforcement — \"Location permission denied — clock-in may be blocked if your outlet enforces a geofence.\" Biometric clock-in via passkey (fingerprint / Face ID) plus optional photo evidence, with Manager override, Roster, Anomalies and Timesheets tabs alongside.",
     personas: ["hr", "operations"],
-    productHref: "/crew",
-    productLabel: "Sundae Crew →",
-  },
-  {
-    id: "crew-workflows",
-    src: "/images/product/2026-fresh/crew-workflows.png",
-    alt: "Crew Workflow Engine — event-driven HR automations",
-    caption: "Crew — Workflow Engine",
-    whatYouSee:
-      "Event-driven HR automation — \"when X happens, do Y\" on member.hired, member.terminated, credential.expiring, payroll_cycle.closed and shift no-show risk. 9 active workflows with Simulate, AI-propose and Templates, plus Run history and Audit. Actions notify managers, open helpdesk tickets, or fire downstream events.",
-    personas: ["hr", "tech"],
-    productHref: "/crew",
-    productLabel: "Sundae Crew →",
-  },
-  {
-    id: "crew-me-timeoff",
-    src: "/images/product/2026-fresh/crew-me-timeoff.png",
-    alt: "Crew employee self-service — My time off balances and requests",
-    caption: "Crew — Employee Self-Service",
-    whatYouSee:
-      "What the employee sees: 3 days available, time-off requests tracked by status (2 approved, 1 pending) — Sick Leave May 20–22, Annual Leave May 19–20 — with one-tap \"Request time off\" and Asks / Announcements / Requests tabs. The self-service side of Crew that feeds the same data managers and Labor Intelligence act on.",
-    personas: ["hr"],
-    productHref: "/crew",
-    productLabel: "Sundae Crew →",
-  },
-  {
-    id: "crew-scheduling",
-    src: "/images/product/2026-fresh/crew-scheduling-grid.png",
-    alt: "Crew Scheduling — weekly shift grid with AI Shift Builder",
-    caption: "Crew — Scheduling",
-    whatYouSee:
-      "The week at a glance for Abu Dhabi Mall — Morning / Afternoon / Evening shift blocks (07:00–23:00) across Mon–Sun, with an AI Shift Builder, Copy-forward, a 5.5/10 coverage quality score and one-click Publish week. Four view modes (Schedule / by person / by role / Focus) over a source-synced roster.",
-    personas: ["operations", "hr"],
     productHref: "/crew",
     productLabel: "Sundae Crew →",
   },
