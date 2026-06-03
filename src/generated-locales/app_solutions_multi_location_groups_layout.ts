@@ -24,7 +24,7 @@ export const generatedLocalCopy = {
     },
     "nl": {
       "title": "Restaurantgroepen met meerdere locaties – uniforme intelligentie op elke locatie",
-      "description": "Sundae geeft restaurantexploitanten met meerdere locaties één overzicht van de prestaties op alle locaties: benchmark locaties, spoor uitschieters op en standaardiseer wat werkt."
+      "description": "Sundae geeft restaurantgroepen met meerdere locaties één overzicht van de prestaties per locatie: vergelijk locaties met benchmarks, volg uitschieters en standaardiseer wat werkt."
     },
     "ur": {
       "title": "ملٹی لوکیشن ریستوراں گروپس - ہر سائٹ پر متحد انٹیلی جنس",

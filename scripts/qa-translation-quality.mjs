@@ -5,6 +5,12 @@ import ts from 'typescript'
 const root = process.cwd()
 const generatedDir = path.join(root, 'src/generated-locales')
 
+const provenanceFiles = [
+  'src/lib/generatedWebsiteMessageOverrides.ts',
+  'src/lib/generatedUiLabels.ts',
+  ...fs.readdirSync(generatedDir).filter((item) => item.endsWith('.ts')).map((item) => `src/generated-locales/${item}`),
+]
+
 const structuralKeys = new Set([
   'id',
   'key',
@@ -88,6 +94,12 @@ const literalPhraseRules = {
     'proof packs',
   ],
 }
+
+const disallowedProvenancePatterns = [
+  [/\/tmp\/generate/i, 'temporary /tmp translation generator provenance'],
+  [/Google Translate fallback/i, 'fallback translation engine provenance'],
+  [/OpenAI generated completed chunks/i, 'quota-driven partial generation provenance'],
+]
 
 function unwrap(node) {
   while (
@@ -234,6 +246,15 @@ function auditGeneratedFile(filePath, failures) {
 }
 
 const failures = []
+for (const relativePath of provenanceFiles) {
+  const absolutePath = path.join(root, relativePath)
+  if (!fs.existsSync(absolutePath)) continue
+  const text = fs.readFileSync(absolutePath, 'utf8')
+  for (const [pattern, label] of disallowedProvenancePatterns) {
+    if (pattern.test(text)) failures.push(`${relativePath}: ${label}`)
+  }
+}
+
 for (const file of fs.readdirSync(generatedDir).filter((item) => item.endsWith('.ts'))) {
   auditGeneratedFile(path.join(generatedDir, file), failures)
 }
