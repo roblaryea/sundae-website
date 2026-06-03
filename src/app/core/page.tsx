@@ -7,7 +7,7 @@ import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { useCta } from "@/lib/cta";
 import { PRICING_URL } from "@/lib/urls";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
-import { PulseDashboardMockup } from "@/components/ui/MockupFrame";
+import { ThemedShot } from "@/components/ui/ThemedShot";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
@@ -713,7 +713,14 @@ export default function CoreProductPage() {
           </FadeUp>
 
           <div className="max-w-4xl mx-auto mb-12">
-            <PulseDashboardMockup />
+            <ThemedShot
+              framed
+              width={1600}
+              height={1000}
+              dark="/images/product/2026-fresh/pulse-sales-dark.png"
+              light="/images/product/2026-fresh/pulse-sales.png"
+              alt="Pulse — live shift command center: actual vs target pacing, end-of-day projection, and net sales, covers, and average check"
+            />
           </div>
 
           <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">

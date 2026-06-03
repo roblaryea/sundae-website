@@ -51,3 +51,6 @@ node_modules/
 .env
 .DS_Store
 npm-debug.log
+
+# Playwright auth state (contains session tokens — never commit)
+tests/.auth/

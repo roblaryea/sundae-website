@@ -1,6 +1,6 @@
 "use client";
 
-import { LaborOpsMockup } from "@/components/ui/MockupFrame";
+import { ThemedShot } from "@/components/ui/ThemedShot";
 import { SolutionPageLayout, type SolutionCopy } from "@/components/solutions/SolutionPageLayout";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
@@ -181,5 +181,5 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
 export default function HrTeamsPage() {
   const { locale } = useWebsiteI18n();
   const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
-  return <SolutionPageLayout copy={copy} mockup={<LaborOpsMockup />} gallery={<SectionProductGallery defaultPersona="hr" />} />;
+  return <SolutionPageLayout copy={copy} mockup={<ThemedShot framed priority width={1600} height={1000} dark="/images/product/2026-fresh/insights-labor-dark.png" light="/images/product/2026-fresh/insights-labor.png" alt="Labor Intelligence — labor cost %, sales per labor hour, overtime, and productivity index" />} gallery={<SectionProductGallery defaultPersona="hr" />} />;
 }

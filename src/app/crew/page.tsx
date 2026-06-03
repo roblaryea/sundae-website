@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/Button";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { ElegantShape } from "@/components/ui/ElegantShape";
-import { CrewDashboardMockup } from "@/components/ui/MockupFrame";
+import { ThemedShot } from "@/components/ui/ThemedShot";
 import { REPORT_APP_URL } from "@/lib/urls";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
@@ -642,7 +642,15 @@ export default function CrewPage() {
             </div>
             <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1, ease: [0.22, 1, 0.36, 1], delay: 0.4 }} className="lg:pl-4" style={{ perspective: "1200px" }}>
               <motion.div initial={{ rotateX: 6 }} animate={{ rotateX: 1.5 }} transition={{ duration: 1.2, delay: 0.5, ease: [0.25, 0.1, 0.25, 1] }}>
-                <CrewDashboardMockup />
+                <ThemedShot
+                  framed
+                  dark="/images/product/2026-fresh/crew-people-dark.png"
+                  light="/images/product/2026-fresh/crew-people.png"
+                  alt="Sundae Crew — People Management: 123 active headcount, full employee roster with roles, departments, outlets, and lifecycle status"
+                  width={1600}
+                  height={1000}
+                  priority
+                />
               </motion.div>
             </motion.div>
           </div>

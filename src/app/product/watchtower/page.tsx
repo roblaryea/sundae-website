@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { WatchtowerMockup } from "@/components/ui/MockupFrame";
+import { ThemedShot } from "@/components/ui/ThemedShot";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { useCta } from "@/lib/cta";
 import { PRICING_URL } from "@/lib/urls";
@@ -508,7 +509,15 @@ export default function WatchtowerPage() {
           </Button>
         </div>
         <div className="max-w-4xl mx-auto">
-          <WatchtowerMockup />
+          <ThemedShot
+            framed
+            priority
+            width={1600}
+            height={1000}
+            dark="/images/product/2026-fresh/watchtower-command-center-dark.png"
+            light="/images/product/2026-fresh/watchtower-command-center.png"
+            alt="Watchtower command center — live competitor, event, weather, and market signals with daily actions across the portfolio"
+          />
         </div>
       </PageHero>
 

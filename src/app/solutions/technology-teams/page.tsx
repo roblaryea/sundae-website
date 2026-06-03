@@ -1,6 +1,6 @@
 "use client";
 
-import { IntegrationsHubMockup } from "@/components/ui/MockupFrame";
+import { ThemedShot } from "@/components/ui/ThemedShot";
 import { SolutionPageLayout, type SolutionCopy } from "@/components/solutions/SolutionPageLayout";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
@@ -157,5 +157,5 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
 export default function TechnologyTeamsPage() {
   const { locale } = useWebsiteI18n();
   const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
-  return <SolutionPageLayout copy={copy} mockup={<IntegrationsHubMockup />} gallery={<SectionProductGallery defaultPersona="tech" />} />;
+  return <SolutionPageLayout copy={copy} mockup={<ThemedShot framed priority width={1600} height={1000} dark="/images/product/2026-fresh/integrations-dark.png" light="/images/product/2026-fresh/integrations.png" alt="Data & Integrations — POS, labor, inventory, and delivery unified across dozens of governed connectors" />} gallery={<SectionProductGallery defaultPersona="tech" />} />;
 }

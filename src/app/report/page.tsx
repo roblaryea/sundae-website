@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
-import { BenchmarkDashboardMockup } from "@/components/ui/MockupFrame";
+import { ThemedShot } from "@/components/ui/ThemedShot";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { useCta } from "@/lib/cta";
 import { REPORT_APP_URL, PRICING_URL, SIGNUP_URL } from "@/lib/urls";
@@ -311,7 +311,15 @@ export default function ReportProductPage() {
           </Button>
         </div>
         <div className="max-w-4xl mx-auto">
-          <BenchmarkDashboardMockup />
+          <ThemedShot
+            framed
+            priority
+            width={1600}
+            height={1000}
+            dark="/images/product/2026-fresh/benchmark-overview-dark.png"
+            light="/images/product/2026-fresh/benchmark-overview.png"
+            alt="Sundae Report — benchmark overview with RevPASH index, health score, and peer-cohort comparison"
+          />
         </div>
       </PageHero>
 

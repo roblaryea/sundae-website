@@ -14,6 +14,8 @@ interface ThemedShotProps {
   priority?: boolean;
   /** Classes applied to BOTH <Image> layers (sizing, rounding, etc.) */
   className?: string;
+  /** Wrap in a rounded, theme-aware bordered frame with shadow (hero chrome). */
+  framed?: boolean;
 }
 
 /**
@@ -42,8 +44,10 @@ export function ThemedShot({
   height = 1000,
   priority = false,
   className = '',
+  framed = false,
 }: ThemedShotProps) {
-  return (
+  const imgClass = framed ? 'w-full h-auto' : className;
+  const inner = (
     <>
       <Image
         src={dark}
@@ -51,7 +55,7 @@ export function ThemedShot({
         width={width}
         height={height}
         priority={priority}
-        className={`block [html.light_&]:hidden ${className}`}
+        className={`block [html.light_&]:hidden ${imgClass}`}
       />
       <Image
         src={light}
@@ -60,8 +64,18 @@ export function ThemedShot({
         height={height}
         loading="lazy"
         aria-hidden
-        className={`hidden [html.light_&]:block ${className}`}
+        className={`hidden [html.light_&]:block ${imgClass}`}
       />
     </>
+  );
+
+  if (!framed) return inner;
+
+  return (
+    <div
+      className={`rounded-2xl border border-[var(--border-default)] overflow-hidden shadow-2xl shadow-black/50 [html.light_&]:shadow-black/10 ring-1 ring-white/5 [html.light_&]:ring-black/5 ${className}`}
+    >
+      {inner}
+    </div>
   );
 }
