@@ -17,7 +17,9 @@ import { useWebsiteI18n } from './LocaleProvider'
  * The trigger shows a globe + the 2-letter base code (EN, FR, ZH…) so its width
  * is identical in every locale — this is what keeps the navbar from overflowing
  * when a language has long labels (e.g. fr "Réserver une session de travail").
- * Full native names stay in the dropdown for clarity.
+ * Full native names + language code (e.g. "Deutsch · DE") stay in the dropdown
+ * for clarity and quick scanning. No country flags — flags map to countries,
+ * not languages, and our locales (ar, es, en, pt-BR, zh-Hans…) span many.
  *
  * Accessibility: a real <select> is layered transparently over the visual chip so
  * we keep the native, keyboard-operable dropdown and screen-reader semantics — the
@@ -83,7 +85,7 @@ export function LocaleSwitcher() {
       >
         {websiteLocales.map((item) => (
           <option key={item} value={item} className="text-slate-900">
-            {websiteLocaleNames[item]}
+            {`${websiteLocaleNames[item]} · ${localeShortCode(item)}`}
           </option>
         ))}
       </select>
