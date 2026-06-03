@@ -14,6 +14,8 @@ import { FadeUp } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { HeroLiveDashboard } from "./HeroLiveDashboard";
 import { SectionEditorialBand } from "./sections/SectionEditorialBand";
+import { SectionEditorialSplit } from "./sections/SectionEditorialSplit";
+import { SundaeWordmark } from "./sections/SundaeWordmark";
 import { SectionOldWaySundaeWay } from "./sections/SectionOldWaySundaeWay";
 import { SectionSpeedQualityCost } from "./sections/SectionSpeedQualityCost";
 import { SectionWhatYouRetire } from "./sections/SectionWhatYouRetire";
@@ -29,6 +31,22 @@ import { SectionProductPreview } from "./sections/SectionProductPreview";
 // SectionCommercialHubs moved to /about page (presence section).
 
 /* ─── Data ─────────────────────────────────────────────────────── */
+
+/**
+ * Render copy with the standalone brand name "Sundae" swapped for the wordmark
+ * (where Sundae is the subject). Brand name is constant across all 22 locales, so
+ * splitting on it is locale-safe; the product lockup "Sundae Intelligence" is left
+ * as text so the wordmark never breaks a product name.
+ */
+function withWordmark(text: string, markClassName: string) {
+  return text.split(/(\bSundae\b(?!\s+Intelligence))/g).map((part, i) =>
+    part === "Sundae" ? (
+      <SundaeWordmark key={i} className={markClassName} />
+    ) : (
+      <span key={i}>{part}</span>
+    )
+  );
+}
 
 /* ─── Component ────────────────────────────────────────────────── */
 
@@ -104,7 +122,7 @@ export default function HomeContent() {
               fill
               priority
               sizes="100vw"
-              className="object-cover object-center scale-110 blur-[3px] opacity-[0.20] [html.light_&]:opacity-[0.06]"
+              className="object-cover object-center scale-110 blur-[2px] opacity-[0.32] [html.light_&]:opacity-[0.07]"
             />
             {/* feather the photo into the page on every side (var flips per theme) */}
             <div
@@ -156,7 +174,7 @@ export default function HomeContent() {
             >
               <p className="body-xl max-w-2xl mx-auto mb-10">
                 {home.description}
-                <span className="text-[var(--text-primary)] font-medium"> {home.descriptionEmphasis}</span>
+                <span className="text-[var(--text-primary)] font-medium"> {withWordmark(home.descriptionEmphasis, "h-[0.82em] w-auto inline-block align-[-0.06em] mx-[0.06em] text-[var(--text-primary)]")}</span>
               </p>
             </motion.div>
 
@@ -371,10 +389,15 @@ export default function HomeContent() {
             3a-band. HUMAN MOMENT — the brigade on the line
         ════════════════════════════════════════════════ */}
         <SectionEditorialBand
-          src="/images/editorial/kitchen-brigade.jpg"
-          alt="A kitchen brigade working the line during service"
+          src="/images/editorial/kitchen-pass.jpg"
+          alt="A chef working the line on the kitchen pass during service"
           eyebrow="Built for the line, not the boardroom"
-          headline="Your team is already moving fast. Sundae moves with them."
+          headline={
+            <>
+              Your team is already moving fast.{" "}
+              <SundaeWordmark className="h-[0.78em] w-auto inline-block align-middle text-white" /> moves with them.
+            </>
+          }
           sub="Live pacing, labor, and exceptions across every outlet — so the call you make at 7pm is the right one, not the one you second-guess at midnight."
         />
 
@@ -443,16 +466,21 @@ export default function HomeContent() {
         <SectionProductPreview />
 
         {/* ════════════════════════════════════════════════
-            6d. CLOSER — the floor, before we ask for the meeting
+            6d. CLOSER — the floor, before we ask for the meeting (split)
         ════════════════════════════════════════════════ */}
-        <SectionEditorialBand
+        <SectionEditorialSplit
           src="/images/editorial/service-warm.jpg"
           light="/images/editorial/service-plates.jpg"
           alt="A host attending to guests in a warmly lit dining room"
           eyebrow="Your floor, your call"
-          headline="The best operators don't have more hours. They have better information."
+          headline={
+            <>
+              The best operators don&apos;t have more hours.{" "}
+              <span className="text-[var(--electric-blue)]">They have better information.</span>
+            </>
+          }
           sub="Sundae gives you the read on your business that great instincts deserve — across every outlet, in real time."
-          ratio="aspect-[16/11] sm:aspect-[5/2] lg:aspect-[3/1]"
+          imageSide="right"
         />
 
         {/* ════════════════════════════════════════════════

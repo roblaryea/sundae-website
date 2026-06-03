@@ -101,7 +101,7 @@ export function EditorialImage({
       {overlay !== 'none' && (
         <div
           aria-hidden
-          className="absolute inset-0 mix-blend-soft-light opacity-[0.5] [html.light_&]:opacity-[0.28]"
+          className="absolute inset-0 mix-blend-soft-light opacity-[0.3] [html.light_&]:opacity-[0.16]"
           style={{
             background:
               'radial-gradient(120% 90% at 15% 0%, rgba(28,71,255,0.20) 0%, transparent 55%)',
@@ -109,28 +109,43 @@ export function EditorialImage({
         />
       )}
 
-      {/* Edge-blend — feather into the page bg (var flips per theme) ---- */}
+      {/* Edge-blend — feather into the page bg (var flips per theme).
+          Kept light so the photograph stays the subject, not the scrim. ---- */}
       {overlay === 'blend' && (
         <div
           aria-hidden
           className="absolute inset-0"
           style={{
             background:
-              'linear-gradient(180deg, color-mix(in srgb, var(--navy-deep) 55%, transparent) 0%, transparent 22%, transparent 64%, color-mix(in srgb, var(--navy-deep) 72%, transparent) 100%)',
+              'linear-gradient(180deg, color-mix(in srgb, var(--navy-deep) 30%, transparent) 0%, transparent 30%, transparent 72%, color-mix(in srgb, var(--navy-deep) 42%, transparent) 100%)',
           }}
         />
       )}
 
-      {/* Text scrim — heavier bottom gradient for legible overlaid copy - */}
+      {/* Text scrim — FIXED dark gradient (theme-independent) so white overlaid
+          copy stays legible in BOTH modes. Must not use var(--navy-deep): that
+          flips to white in light mode and erased the white headline. A photo is
+          a photo in either theme, so the legibility scrim is always dark. */}
       {overlay === 'text' && (
-        <div
-          aria-hidden
-          className="absolute inset-0"
-          style={{
-            background:
-              'linear-gradient(180deg, color-mix(in srgb, var(--navy-deep) 30%, transparent) 0%, transparent 38%, color-mix(in srgb, var(--navy-deep) 78%, transparent) 82%, color-mix(in srgb, var(--navy-deep) 92%, transparent) 100%)',
-          }}
-        />
+        <>
+          <div
+            aria-hidden
+            className="absolute inset-0"
+            style={{
+              background:
+                'linear-gradient(180deg, rgba(6,10,18,0.30) 0%, rgba(6,10,18,0.04) 30%, rgba(6,10,18,0.58) 64%, rgba(6,10,18,0.90) 100%)',
+            }}
+          />
+          {/* gentle left-side wash so bottom-left copy holds on busy frames */}
+          <div
+            aria-hidden
+            className="absolute inset-0"
+            style={{
+              background:
+                'linear-gradient(90deg, rgba(6,10,18,0.55) 0%, rgba(6,10,18,0.12) 42%, transparent 70%)',
+            }}
+          />
+        </>
       )}
 
       {/* Duotone — stronger brand wash for cohesion on busy frames ------ */}

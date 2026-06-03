@@ -140,13 +140,14 @@ export function SectionProof() {
         </div>
 
         {/* Theme-matched editorial anchor — warm room in light, moody room in dark.
-            Each mode keeps its own first-class image (no conflation). */}
-        <div className="mt-12 sm:mt-16 max-w-5xl mx-auto">
+            Each mode keeps its own first-class image (no conflation). Portrait
+            frames, so the ratio stays portrait-tolerant rather than a wide slice. */}
+        <div className="mt-12 sm:mt-16 max-w-3xl mx-auto">
           <EditorialImage
             src="/images/editorial/dining-night.jpg"
             light="/images/editorial/dining-room.jpg"
             alt="An operator's dining room mid-service"
-            ratio="aspect-[16/11] sm:aspect-[21/9]"
+            ratio="aspect-[4/3] sm:aspect-[3/2]"
             overlay="blend"
             rounded="rounded-[24px]"
           />

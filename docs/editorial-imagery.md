@@ -56,18 +56,35 @@ grain opacity) use the `[html.light_&]:` variant.
 
 ## Placement map (homepage)
 
-Five deliberate moments, one consistent art direction, each blended into the page:
+Five deliberate moments, one consistent art direction, each blended into the page.
+**Orientation drives layout**: wide cinematic bands take LANDSCAPE frames only;
+PORTRAIT frames go in splits or portrait-tolerant ratios (a portrait force-cropped
+into a 21/9 band collapses to a dead slice).
 
-| location                          | image(s)                                            | treatment        | why                                                     |
-|-----------------------------------|-----------------------------------------------------|------------------|---------------------------------------------------------|
-| **Hero backdrop** (behind dash)   | `dining-candlelit.jpg`                              | darkened/blurred | grounds the product hero in the restaurant world; dashboard floats over it |
-| **Band** — after hero             | `chef-sauce.jpg`                                    | `text`           | first full-bleed human moment; "from the pass to the P&L" |
-| **Band** — mid-page (brigade)     | `kitchen-brigade.jpg`                               | `text`           | breaks the text-dense middle; the team on the line       |
-| **Proof** — stats → claims        | `dining-night.jpg` (dark) / `dining-room.jpg` (light) | `blend`        | a real room, mode-matched (lamp/linen stay legible dark) |
-| **Closer** — before final CTA     | `service-warm.jpg` (dark) / `service-plates.jpg` (light) | `text`      | emotional close on the floor before asking for the meeting |
+| location                          | image(s)                                            | layout                | why                                                     |
+|-----------------------------------|-----------------------------------------------------|-----------------------|---------------------------------------------------------|
+| **Hero backdrop** (behind dash)   | `dining-candlelit.jpg` (landscape)                  | raw blur + vignette   | grounds the product hero; dashboard floats over it      |
+| **Band** — after hero             | `chef-sauce.jpg` (landscape)                        | wide band, `text`     | first full-bleed human moment; "from the pass to the P&L" |
+| **Band** — mid-page               | `kitchen-pass.jpg` (landscape)                      | wide band, `text`     | breaks the text-dense middle; the line. Wordmark headline |
+| **Proof** — stats → claims        | `dining-night.jpg` (dark) / `dining-room.jpg` (light) | centered 3/2, `blend` | a real room, mode-matched (both portrait → 3/2 frame)   |
+| **Closer** — before final CTA     | `service-warm.jpg` (dark) / `service-plates.jpg` (light) | **split** 4/5 + copy | portrait service shot beside copy on the page bg        |
+
+Two layout primitives:
+- **`<SectionEditorialBand>`** — wide/landscape, copy overlaid on the photo (always
+  a fixed DARK `text` scrim so white copy is legible in both themes).
+- **`<SectionEditorialSplit>`** — portrait photo beside a text column on the page bg
+  (copy inherits theme-aware colors; no white-on-photo).
 
 The hero backdrop is a raw `next/image` (not `<EditorialImage>`) because it wants
 heavier blur + a radial vignette into the page rather than a framed card.
+
+### Wordmark in headlines
+
+Where **Sundae is the subject** of a headline/emphasis, the text "Sundae" is swapped
+for the inline `<SundaeWordmark>` (currentColor typeface + red dot). Applied to the
+hero emphasis ("the tradeoff **Sundae** removes") and the mid band ("**Sundae** moves
+with them") via `withWordmark()`, which is locale-safe (the brand name is constant
+across all 22 locales) and leaves the "Sundae Intelligence" product lockup as text.
 
 ## Asset library — `public/images/editorial/` (12 frames)
 
