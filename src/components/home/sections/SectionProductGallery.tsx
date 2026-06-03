@@ -336,6 +336,94 @@ const GALLERY: GalleryItem[] = [
     productHref: "/insights",
     productLabel: "Insights →",
   },
+  {
+    id: "floor-live",
+    src: "/images/product/2026-fresh/floor-live.png",
+    alt: "Live Floor — real-time table occupancy on the published floor plan",
+    caption: "Spatial — Live Floor",
+    whatYouSee:
+      "Live table occupancy on your floor plan — 11 of 22 tables seated, AED 3,856 open on the floor right now, refreshing every 30 seconds. See what's seated, turning, or free at a glance and act before the rush turns.",
+    personas: ["operations", "c_suite"],
+    productHref: "/insights",
+    productLabel: "Insights →",
+  },
+  {
+    id: "floor-table-turn",
+    src: "/images/product/2026-fresh/floor-table-turn.png",
+    alt: "Table Turn & Dwell — turn rate and dwell time per table",
+    caption: "Spatial — Table Turn & Dwell",
+    whatYouSee:
+      "Turn rate and dwell time, table by table — 3,595 turns analysed, with fast-flipping and slow-sitting tables surfaced spatially so you can find the seats quietly costing you covers each service.",
+    personas: ["operations", "cfo"],
+    productHref: "/insights",
+    productLabel: "Insights →",
+  },
+  {
+    id: "floor-section-optimizer",
+    src: "/images/product/2026-fresh/floor-section-optimizer.png",
+    alt: "Server-Section Optimizer — balance sections across the team",
+    caption: "Spatial — Server-Section Optimizer",
+    whatYouSee:
+      "Balance the floor across your team — Indoor 3 / Outdoor 3 / Terrace 2 servers at a 62% balance score, with rebalancing moves suggested so no server is buried while another idles.",
+    personas: ["operations", "multi_loc"],
+    productHref: "/insights",
+    productLabel: "Insights →",
+  },
+  {
+    id: "floor-demand-forecast",
+    src: "/images/product/2026-fresh/floor-demand-forecast.png",
+    alt: "Demand Forecast — forward covers and revenue on the floor",
+    caption: "Spatial — Demand Forecast",
+    whatYouSee:
+      "Forward demand on the floor — 3,156 covers and AED 192K projected over the next 7 days, broken out by daypart, so you can staff and prep to the curve instead of reacting to it.",
+    personas: ["operations", "c_suite", "cfo"],
+    productHref: "/insights",
+    productLabel: "Insights →",
+  },
+  {
+    id: "floor-capacity-simulator",
+    src: "/images/product/2026-fresh/floor-capacity-simulator.png",
+    alt: "Capacity Simulator — model floor changes before you make them",
+    caption: "Spatial — Capacity Simulator",
+    whatYouSee:
+      "Model floor changes before you commit to them — adding 8 seats projects +AED 41.5K over 30 days, with the layout impact rendered right on the plan so the trade-off is visible.",
+    personas: ["c_suite", "cfo", "operations"],
+    productHref: "/insights",
+    productLabel: "Insights →",
+  },
+  {
+    id: "floor-seat-viability",
+    src: "/images/product/2026-fresh/floor-seat-viability.png",
+    alt: "Seat Viability — per-seat contribution economics",
+    caption: "Spatial — Seat Viability",
+    whatYouSee:
+      "Per-seat economics on the floor plan — 102 of 102 seats viable, +AED 140K contribution, so you can see which seats earn their keep and which to rethink before the next refit.",
+    personas: ["cfo", "c_suite"],
+    productHref: "/insights",
+    productLabel: "Insights →",
+  },
+  {
+    id: "floor-skim-detection",
+    src: "/images/product/2026-fresh/floor-skim-detection.png",
+    alt: "Skim Detection — revenue-assurance heatmap on the floor",
+    caption: "Spatial — Skim Detection",
+    whatYouSee:
+      "Revenue assurance, mapped to the floor — Table 7 flagged as a skim hotspot and server EMP-016 at a 57% void rate / 2.7× the peer average, surfaced spatially so loss patterns are impossible to miss.",
+    personas: ["cfo", "operations"],
+    productHref: "/insights",
+    productLabel: "Insights →",
+  },
+  {
+    id: "floor-vip-seating",
+    src: "/images/product/2026-fresh/floor-vip-seating.png",
+    alt: "VIP Seating — know your VIP guests by table",
+    caption: "Spatial — VIP Seating",
+    whatYouSee:
+      "Know your VIPs by table — 9 VIP guests on the floor tonight, Tables 3 and 9 the top-value seats, so the team can prioritise service exactly where it counts.",
+    personas: ["operations", "marketing", "c_suite"],
+    productHref: "/insights",
+    productLabel: "Insights →",
+  },
 
   // ─── Topology-aware (multi-brand / multi-region moat) ───────
   {
