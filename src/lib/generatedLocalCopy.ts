@@ -8,6 +8,7 @@ const STRUCTURAL_COPY_KEYS = new Set([
   'path',
   'ctaLink',
   'link',
+  'product',
   'icon',
   'iconName',
   'color',

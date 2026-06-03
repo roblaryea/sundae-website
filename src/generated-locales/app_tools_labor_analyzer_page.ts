@@ -215,7 +215,7 @@ export const generatedLocalCopy = {
         "recSlightlyHigh": "Los costos laborales están ligeramente por encima del objetivo. Monitorea las tendencias y busca oportunidades de optimización.",
         "recLow": "Los costos laborales están significativamente por debajo del objetivo. Asegúrate de tener niveles de personal adecuados para mantener la calidad del servicio.",
         "nextStepTitle": "Próximo Paso:",
-        "nextStepOnTarget": "¡Estás listo para comenzar a establecer puntos de referencia! Considera programar una demostración para ver cómo Sundae puede ayudar.",
+        "nextStepOnTarget": "¡Estás listo para comenzar a establecer benchmarks! Considera programar una demostración para ver cómo Sundae puede ayudar.",
         "nextStepBelow": "Enfócate en las recomendaciones anteriores, luego vuelve a realizar esta evaluación en 3-6 meses."
       },
       "cta": {

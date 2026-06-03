@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/app/sign-in/page.tsx.
-// Do not edit by hand; regenerate from the English local copy source.
+// Structural fields and protected glossary terms normalized from English source; review prose translations before release.
 export const generatedLocalCopy = {
   "localizedShellCopy": {
     "ar": {
@@ -45,8 +45,8 @@ export const generatedLocalCopy = {
       "redirectedToApp": "आपको पुनः निर्देशित किया जाएगा"
     },
     "ur": {
-      "homeLabel": "سندے کا ہوم",
-      "productShotAlt": "سندے کور ڈیش بورڈ",
+      "homeLabel": "Sundae home",
+      "productShotAlt": "Sundae Core dashboard",
       "ssoDivider": "یا",
       "redirectedToApp": "آپ کو ری ڈائریکٹ کیا جائے گا"
     },
@@ -111,8 +111,8 @@ export const generatedLocalCopy = {
       "redirectedToApp": "Du kommer att bli omdirigerad till"
     },
     "bn": {
-      "homeLabel": "সান্ডে হোম",
-      "productShotAlt": "সান্ডে কোর ড্যাশবোর্ড",
+      "homeLabel": "Sundae home",
+      "productShotAlt": "Sundae Core dashboard",
       "ssoDivider": "অথবা",
       "redirectedToApp": "আপনাকে পুনঃনির্দেশিত করা হবে"
     },

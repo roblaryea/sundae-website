@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/app/insights/page.tsx.
-// Do not edit by hand; regenerate from the English local copy source.
+// Structural fields and protected glossary terms normalized from English source; review prose translations before release.
 export const generatedLocalCopy = {
   "localizedInsightsUi": {
     "de": {
@@ -72,7 +72,7 @@ export const generatedLocalCopy = {
     "es": {
       "badge": "INSIGHTS DE SUNDAE",
       "title": "Profundiza en Cada Parte de Tu Operación",
-      "description": "Catorce módulos especializados cubren ingresos, mano de obra, inventario, compras, marketing, reservas, ganancias, entrega, experiencia del cliente, CRM, aseguramiento de ingresos, inteligencia cruzada, inteligencia de previsión y resumen ejecutivo. Cada módulo está diseñado para un dominio operativo.",
+      "description": "Catorce módulos especializados cubren ingresos, mano de obra, inventario, compras, marketing, reservas, ganancias, entrega, experiencia del cliente, CRM, aseguramiento de ingresos, inteligencia cruzada, inteligencia de Foresight y resumen ejecutivo. Cada módulo está diseñado para un dominio operativo.",
       "bookDemo": "Reservar una demostración",
       "seeModules": "Ver precios de módulos",
       "categories": [
@@ -1510,7 +1510,7 @@ export const generatedLocalCopy = {
           "P&L-Intelligenz auf Standortebene"
         ],
         "category": "Super Premium",
-        "color": "von-amber-500 bis-amber-600"
+        "color": "from-amber-500 to-amber-600"
       },
       {
         "name": "Umsatzsicherung",
@@ -1752,7 +1752,7 @@ export const generatedLocalCopy = {
           "Puntuación de salud multi-módulo"
         ],
         "category": "Plataforma",
-        "color": "de-cyan-500 a-cyan-600"
+        "color": "from-cyan-500 to-cyan-600"
       }
     ],
     "fr": [
@@ -1940,7 +1940,7 @@ export const generatedLocalCopy = {
           "Voorspelling van omzettrends"
         ],
         "category": "Kernoperaties",
-        "color": "van-emerald-500 naar-emerald-600"
+        "color": "from-emerald-500 to-emerald-600"
       },
       {
         "name": "Arbeidsintelligentie",
@@ -1955,7 +1955,7 @@ export const generatedLocalCopy = {
           "Vroegtijdige waarschuwingen voor overuren"
         ],
         "category": "Kernoperaties",
-        "color": "van-blauw-500 naar-blauw-600"
+        "color": "from-blue-500 to-blue-600"
       },
       {
         "name": "Voorraadintelligentie",
@@ -1970,7 +1970,7 @@ export const generatedLocalCopy = {
           "Optimalisatie van voorraadrotatie"
         ],
         "category": "Kernoperaties",
-        "color": "van-paars-500 naar-paars-600"
+        "color": "from-purple-500 to-purple-600"
       },
       {
         "name": "Inkoopintelligentie",
@@ -1998,7 +1998,7 @@ export const generatedLocalCopy = {
           "Meten van promotionele impact"
         ],
         "category": "Groei",
-        "color": "van-oranje-500 naar-oranje-600"
+        "color": "from-orange-500 to-orange-600"
       },
       {
         "name": "Reserveringen Inzicht",
@@ -2012,7 +2012,7 @@ export const generatedLocalCopy = {
           "Analyse van binnenlopers versus reserveringen"
         ],
         "category": "Ondersteuning",
-        "color": "van-teal-500 naar-teal-600"
+        "color": "from-teal-500 to-teal-600"
       },
       {
         "name": "Winstintelligentie",
@@ -2026,7 +2026,7 @@ export const generatedLocalCopy = {
           "P&L-intelligentie op locatie-niveau"
         ],
         "category": "Super Premium",
-        "color": "van-amber-500 naar-amber-600"
+        "color": "from-amber-500 to-amber-600"
       },
       {
         "name": "Omzetgarantie",
@@ -2040,7 +2040,7 @@ export const generatedLocalCopy = {
           "Score voor omzetbescherming"
         ],
         "category": "Bescherming",
-        "color": "van-rood-500 naar-rood-600"
+        "color": "from-red-500 to-red-600"
       },
       {
         "name": "Leveringsintelligentie",
@@ -2082,7 +2082,7 @@ export const generatedLocalCopy = {
           "Triggers voor retentiecampagnes"
         ],
         "category": "Inzicht",
-        "color": "van-roze-500 naar-roze-600"
+        "color": "from-rose-500 to-rose-600"
       },
       {
         "name": "Cross-Intelligence",
@@ -2096,7 +2096,7 @@ export const generatedLocalCopy = {
           "Multi-module gezondheidscores"
         ],
         "category": "Platform",
-        "color": "van-cyaan-500 naar-cyaan-600"
+        "color": "from-cyan-500 to-cyan-600"
       }
     ],
     "pt": [
@@ -2268,7 +2268,7 @@ export const generatedLocalCopy = {
           "Pontuação de saúde multi-módulo"
         ],
         "category": "Plataforma",
-        "color": "de-ciano-500 a-ciano-600"
+        "color": "from-cyan-500 to-cyan-600"
       }
     ],
     "ur": [
@@ -2539,7 +2539,7 @@ export const generatedLocalCopy = {
           "वास्तविक समय लाभ मार्जिन ट्रैकिंग",
           "शिफ्ट-स्तरीय लाभप्रदता विश्लेषण",
           "मेनू आइटम योगदान विश्लेषण",
-          "स्थान-स्तरीय पी&एल इंटेलिजेंस"
+          "Location-level P&L intelligence"
         ],
         "category": "सुपर प्रीमियम",
         "color": "from-amber-500 to-amber-600"
@@ -2643,7 +2643,7 @@ export const generatedLocalCopy = {
           "Avvisi anticipati sulle ore straordinarie"
         ],
         "category": "Operazioni Fondamentali",
-        "color": "da-blue-500 a-blue-600"
+        "color": "from-blue-500 to-blue-600"
       },
       {
         "name": "Intelligenza dell'Inventario",
@@ -2714,7 +2714,7 @@ export const generatedLocalCopy = {
           "Intelligenza P&L a livello di località"
         ],
         "category": "Super Premium",
-        "color": "da-ambra-500 a-ambra-600"
+        "color": "from-amber-500 to-amber-600"
       },
       {
         "name": "Garanzia dei Ricavi",
@@ -2742,7 +2742,7 @@ export const generatedLocalCopy = {
           "Ottimizzazione del menu di consegna"
         ],
         "category": "Canale",
-        "color": "da-indigo-500 a-indigo-600"
+        "color": "from-indigo-500 to-indigo-600"
       },
       {
         "name": "Esperienza Ospite",
@@ -2883,7 +2883,7 @@ export const generatedLocalCopy = {
           "实时利润率跟踪",
           "班次级盈利分析",
           "菜单项贡献分析",
-          "地点级损益智能"
+          "Location-level P&L intelligence"
         ],
         "category": "超级高级",
         "color": "from-amber-500 to-amber-600"
@@ -3227,7 +3227,7 @@ export const generatedLocalCopy = {
           "リアルタイムの利益率追跡",
           "シフトレベルの収益性分析",
           "メニューアイテムの貢献分析",
-          "場所別の損益インテリジェンス"
+          "Location-level P&L intelligence"
         ],
         "category": "スーパープレミアム",
         "color": "from-amber-500 to-amber-600"
@@ -3574,7 +3574,7 @@ export const generatedLocalCopy = {
           "Inteligensi P&L tingkat lokasi"
         ],
         "category": "Super Premium",
-        "color": "dari-amber-500 ke-amber-600"
+        "color": "from-amber-500 to-amber-600"
       },
       {
         "name": "Jaminan Pendapatan",
@@ -3644,7 +3644,7 @@ export const generatedLocalCopy = {
           "Penilaian kesehatan multi-modul"
         ],
         "category": "Platform",
-        "color": "dari-cyan-500 ke-cyan-600"
+        "color": "from-cyan-500 to-cyan-600"
       }
     ],
     "vi": [
@@ -3746,7 +3746,7 @@ export const generatedLocalCopy = {
           "Thông tin P&L theo địa điểm"
         ],
         "category": "Siêu Cao Cấp",
-        "color": "từ-amber-500 đến-amber-600"
+        "color": "from-amber-500 to-amber-600"
       },
       {
         "name": "Đảm bảo Doanh Thu",
@@ -3847,7 +3847,7 @@ export const generatedLocalCopy = {
           "Alerte timpurii pentru ore suplimentare"
         ],
         "category": "Operațiuni de Bază",
-        "color": "de la-blue-500 la-blue-600"
+        "color": "from-blue-500 to-blue-600"
       },
       {
         "name": "Inteligența Inventarului",
@@ -3946,7 +3946,7 @@ export const generatedLocalCopy = {
           "Optimizarea meniului de livrare"
         ],
         "category": "Canal",
-        "color": "de-indigo-500 la-indigo-600"
+        "color": "from-indigo-500 to-indigo-600"
       },
       {
         "name": "Experiența Oaspeților",
@@ -3988,7 +3988,7 @@ export const generatedLocalCopy = {
           "Scorarea sănătății multi-modul"
         ],
         "category": "Platformă",
-        "color": "de-la-cyan-500 la-cyan-600"
+        "color": "from-cyan-500 to-cyan-600"
       }
     ],
     "bn": [
@@ -4363,7 +4363,7 @@ export const generatedLocalCopy = {
           "การเตือนล่วงหน้าเกี่ยวกับเวลาทำงานล่วงเวลา"
         ],
         "category": "การดำเนินงานหลัก",
-        "color": "จากสีน้ำเงิน-500 ถึงสีน้ำเงิน-600"
+        "color": "from-blue-500 to-blue-600"
       },
       {
         "name": "ปัญญาการจัดการสินค้าคงคลัง",
@@ -4420,7 +4420,7 @@ export const generatedLocalCopy = {
           "การวิเคราะห์การเดินเข้ามา vs. การจอง"
         ],
         "category": "สนับสนุน",
-        "color": "จาก-teal-500 ถึง-teal-600"
+        "color": "from-teal-500 to-teal-600"
       },
       {
         "name": "ปัญญากำไร",
@@ -4434,7 +4434,7 @@ export const generatedLocalCopy = {
           "ข้อมูล P&L ระดับสถานที่"
         ],
         "category": "ซูเปอร์พรีเมียม",
-        "color": "จาก-สีเหลือง-500 ถึง-สีเหลือง-600"
+        "color": "from-amber-500 to-amber-600"
       },
       {
         "name": "การรับประกันรายได้",
@@ -4462,7 +4462,7 @@ export const generatedLocalCopy = {
           "การปรับแต่งเมนูการจัดส่ง"
         ],
         "category": "ช่องทาง",
-        "color": "จาก-indigo-500 ถึง-indigo-600"
+        "color": "from-indigo-500 to-indigo-600"
       },
       {
         "name": "ประสบการณ์ของแขก",
@@ -4490,7 +4490,7 @@ export const generatedLocalCopy = {
           "การกระตุ้นแคมเปญการรักษาลูกค้า"
         ],
         "category": "ข้อมูลเชิงลึก",
-        "color": "จาก-โรส-500 ถึง-โรส-600"
+        "color": "from-rose-500 to-rose-600"
       },
       {
         "name": "Cross-Intelligence",
@@ -4504,7 +4504,7 @@ export const generatedLocalCopy = {
           "การให้คะแนนสุขภาพหลายโมดูล"
         ],
         "category": "แพลตฟอร์ม",
-        "color": "จากสีฟ้า-500 ถึงสีฟ้า-600"
+        "color": "from-cyan-500 to-cyan-600"
       }
     ],
     "ms": [
@@ -4722,7 +4722,7 @@ export const generatedLocalCopy = {
           "تحسين دوران المخزون"
         ],
         "category": "العمليات الأساسية",
-        "color": "من-purple-500 إلى-purple-600"
+        "color": "from-purple-500 to-purple-600"
       },
       {
         "name": "ذكاء الشراء",
@@ -4775,10 +4775,10 @@ export const generatedLocalCopy = {
           "تتبع هامش الربح في الوقت الحقيقي",
           "تحليل ربحية على مستوى الوردية",
           "تحليل مساهمة عنصر القائمة",
-          "ذكاء الأرباح والخسائر على مستوى الموقع"
+          "Location-level P&L intelligence"
         ],
         "category": "فائق الجودة",
-        "color": "من-الكهرماني-500 إلى-الكهرماني-600"
+        "color": "from-amber-500 to-amber-600"
       },
       {
         "name": "ضمان الإيرادات",
@@ -4848,7 +4848,7 @@ export const generatedLocalCopy = {
           "تقييم صحة الوحدات المتعددة"
         ],
         "category": "منصة",
-        "color": "من الأزرق السماوي-500 إلى الأزرق السماوي-600"
+        "color": "from-cyan-500 to-cyan-600"
       }
     ],
     "ko": [
@@ -4947,7 +4947,7 @@ export const generatedLocalCopy = {
           "실시간 이익률 추적",
           "교대별 수익성 분석",
           "메뉴 항목 기여도 분석",
-          "위치별 손익 분석"
+          "Location-level P&L intelligence"
         ],
         "category": "슈퍼 프리미엄",
         "color": "from-amber-500 to-amber-600"

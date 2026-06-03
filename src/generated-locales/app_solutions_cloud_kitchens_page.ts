@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/app/solutions/cloud-kitchens/page.tsx.
-// Do not edit by hand; regenerate from the English local copy source.
+// Structural fields and protected glossary terms normalized from English source; review prose translations before release.
 export const generatedLocalCopy = {
   "localizedCopy": {
     "fr": {
@@ -40,19 +40,19 @@ export const generatedLocalCopy = {
         {
           "title": "Marge nette par plateforme, par marque",
           "description": "Commandes, commissions, emballages, main-d'œuvre allouée et coût des aliments — pour la marge nette à l'intersection du canal × marque. La vérité que aucun tableau de bord de plateforme ne montre.",
-          "product": "Insights · Livraison + Profit",
+          "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
         {
           "title": "Contribution de la marque virtuelle",
           "description": "Répartir équitablement les coûts entre les marques virtuelles partageant une cuisine. La marque qui semble occupée peut subventionner celle qui est rentable.",
-          "product": "Insights · Rentabilité des articles",
+          "product": "Insights · Item Profitability",
           "icon": "performance"
         },
         {
           "title": "Surveillance de la santé de la plateforme",
           "description": "Taux de conversion, taille du panier, taux d'acceptation par plateforme — signalé lorsqu'ils dérivent. Le changement de bascule apparaît le lendemain matin, pas la semaine suivante.",
-          "product": "Watchtower · Plateformes",
+          "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
@@ -216,19 +216,19 @@ export const generatedLocalCopy = {
         {
           "title": "Netto-Marge pro Plattform, pro Marke",
           "description": "Bestellungen, Provisionen, Verpackung, zugewiesene Arbeits- und Lebensmittelkosten — zur Netto-Marge an der Schnittstelle von Kanal und Marke. Die Wahrheit, die kein Plattform-Dashboard zeigt.",
-          "product": "Insights · Lieferung + Gewinn",
+          "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
         {
           "title": "Beitrag der virtuellen Marke",
           "description": "Kosten fair auf virtuelle Marken verteilen, die eine Küche teilen. Die Marke, die beschäftigt aussieht, könnte die profitable Marke subventionieren.",
-          "product": "Insights · Artikelrentabilität",
+          "product": "Insights · Item Profitability",
           "icon": "performance"
         },
         {
           "title": "Überwachung der Plattformgesundheit",
           "description": "Konversionsrate, Warenkorbgröße, Akzeptanzrate pro Plattform — markiert, wenn sie abweichen. Die Änderung des Schalters zeigt sich am nächsten Morgen, nicht nächste Woche.",
-          "product": "Watchtower · Plattformen",
+          "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
@@ -304,19 +304,19 @@ export const generatedLocalCopy = {
         {
           "title": "هامش الربح الصافي لكل منصة، لكل علامة تجارية",
           "description": "الطلبات، العمولات، التعبئة، العمالة المخصصة وتكاليف الطعام — إلى هامش الربح عند تقاطع القناة × العلامة التجارية. الحقيقة التي لا تظهرها أي لوحة تحكم منصة.",
-          "product": "رؤى · التوصيل + الربح",
+          "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
         {
           "title": "مساهمة العلامة التجارية الافتراضية",
           "description": "توزيع التكاليف بشكل عادل عبر العلامات التجارية الافتراضية التي تشارك مطبخًا واحدًا. العلامة التجارية التي تبدو مشغولة قد تكون تدعم تلك التي تحقق أرباحًا.",
-          "product": "رؤى · ربحية العناصر",
+          "product": "Insights · Item Profitability",
           "icon": "performance"
         },
         {
           "title": "مراقبة صحة المنصة",
           "description": "معدل التحويل، حجم السلة، معدل القبول لكل منصة — يتم تنبيهها عند الانحراف. يظهر تغيير التبديل في صباح اليوم التالي، وليس الأسبوع المقبل.",
-          "product": "Watchtower · المنصات",
+          "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
@@ -392,13 +392,13 @@ export const generatedLocalCopy = {
         {
           "title": "Netto marge per platform, per merk",
           "description": "Bestellingen, commissies, verpakkingen, toegewezen arbeid en voedselkosten — tot netto marge op het snijpunt van kanaal × merk. De waarheid die geen enkel platformdashboard toont.",
-          "product": "Insights · Levering + Winst",
+          "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
         {
           "title": "Bijdrage van virtuele merken",
           "description": "Kosten eerlijk toewijzen over virtuele merken die één keuken delen. Het merk dat druk lijkt, kan het merk dat winstgevend is subsidiëren.",
-          "product": "Insights · Artikel Winstgevendheid",
+          "product": "Insights · Item Profitability",
           "icon": "performance"
         },
         {
@@ -480,19 +480,19 @@ export const generatedLocalCopy = {
         {
           "title": "Margem líquida por plataforma, por marca",
           "description": "Pedidos, comissões, embalagem, mão de obra alocada e custo de alimentos — para a margem líquida na interseção canal × marca. A verdade que nenhum painel de plataforma mostra.",
-          "product": "Insights · Entrega + Lucro",
+          "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
         {
           "title": "Contribuição da marca virtual",
           "description": "Alocar custos de forma justa entre marcas virtuais que compartilham uma cozinha. A marca que parece movimentada pode estar subsidiando a que é lucrativa.",
-          "product": "Insights · Rentabilidade de Itens",
+          "product": "Insights · Item Profitability",
           "icon": "performance"
         },
         {
           "title": "Monitoramento da saúde da plataforma",
           "description": "Taxa de conversão, tamanho do carrinho, taxa de aceitação por plataforma — sinalizado quando eles se desviam. A mudança de alternância aparece na manhã seguinte, não na próxima semana.",
-          "product": "Watchtower · Plataformas",
+          "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
@@ -562,7 +562,7 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         }
       ],
-      "howTitle": "سندے کلاؤڈ کچنز کے لیے کیسے کام کرتا ہے",
+      "howTitle": "How Sundae works for cloud kitchens",
       "howDescription": "چینل کی سطح کا مارجن، برانڈ کی سطح کا تعاون، براہ راست آپریشنل صحت۔",
       "howSundaeHelps": [
         {
@@ -738,7 +738,7 @@ export const generatedLocalCopy = {
           "icon": "watchtower"
         }
       ],
-      "howTitle": "संडे क्लाउड किचन के लिए कैसे काम करता है",
+      "howTitle": "Sundae क्लाउड किचन के लिए कैसे काम करता है",
       "howDescription": "चैनल-स्तरीय मार्जिन, ब्रांड-स्तरीय योगदान, लाइव संचालन स्वास्थ्य।",
       "howSundaeHelps": [
         {
@@ -832,19 +832,19 @@ export const generatedLocalCopy = {
         {
           "title": "Marża netto na platformę, na markę",
           "description": "Zamówienia, prowizje, opakowania, przydzielona praca i koszty żywności — do marży netto na przecięciu kanału × marki. Prawda, której żaden pulpit platformy nie pokazuje.",
-          "product": "Insights · Dostawa + Zysk",
+          "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
         {
           "title": "Wkład wirtualnej marki",
           "description": "Sprawiedliwy podział kosztów między wirtualnymi markami dzielącymi jedną kuchnię. Marka, która wygląda na zajętą, może subsydiować tę, która jest zyskowna.",
-          "product": "Insights · Rentowność pozycji",
+          "product": "Insights · Item Profitability",
           "icon": "performance"
         },
         {
           "title": "Monitorowanie zdrowia platformy",
           "description": "Wskaźnik konwersji, rozmiar koszyka, wskaźnik akceptacji na platformie — oznaczone, gdy się zmieniają. Zmiana przełącznika pojawia się następnego ranka, a nie w przyszłym tygodniu.",
-          "product": "Watchtower · Platformy",
+          "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
@@ -920,19 +920,19 @@ export const generatedLocalCopy = {
         {
           "title": "Platform başına, marka başına net marj",
           "description": "Siparişler, komisyonlar, ambalaj, tahsis edilen iş gücü ve gıda maliyeti — kanal × marka kesişiminde net marj. Hiçbir platform gösterge panelinin göstermediği gerçek.",
-          "product": "Insights · Teslimat + Kar",
+          "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
         {
           "title": "Sanal marka katkısı",
           "description": "Tek bir mutfağı paylaşan sanal markalar arasında maliyetleri adil bir şekilde dağıtın. Meşgul görünen marka, kârlı olanı sübvanse ediyor olabilir.",
-          "product": "Insights · Ürün Kârlılığı",
+          "product": "Insights · Item Profitability",
           "icon": "performance"
         },
         {
           "title": "Platform sağlık izleme",
           "description": "Dönüşüm oranı, sepet büyüklüğü, platform başına kabul oranı — sapma olduğunda işaretlenir. Değişiklik, ertesi sabah görünür, bir hafta sonra değil.",
-          "product": "Watchtower · Platformlar",
+          "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
@@ -1008,25 +1008,25 @@ export const generatedLocalCopy = {
         {
           "title": "每个平台，每个品牌的净利润",
           "description": "订单、佣金、包装、分配的劳动力和食品成本 — 在渠道与品牌交集处的净利润。没有哪个平台仪表板能显示的真相。",
-          "product": "洞察 · 交付 + 利润",
+          "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
         {
           "title": "虚拟品牌贡献",
           "description": "在共享一个厨房的虚拟品牌之间公平分配成本。看起来繁忙的品牌可能在补贴盈利的品牌。",
-          "product": "洞察 · 项目盈利能力",
+          "product": "Insights · Item Profitability",
           "icon": "performance"
         },
         {
           "title": "平台健康监测",
           "description": "每个平台的转化率、购物篮大小、接受率 — 当它们偏离时会被标记。切换更改会在第二天早上显示，而不是下周。",
-          "product": "监视塔 · 平台",
+          "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
           "title": "实时运营节奏",
           "description": "订单量、准备时间、每小时的延迟订单。厨房看到形成的高峰 — 而不是事后分析。",
-          "product": "脉搏",
+          "product": "Pulse",
           "icon": "chart"
         }
       ],
@@ -1096,25 +1096,25 @@ export const generatedLocalCopy = {
         {
           "title": "プラットフォームごとの純利益（ブランド別）",
           "description": "注文、手数料、パッケージ、割り当てられた労働力と食材費 — チャンネル×ブランドの交差点での純利益。どのプラットフォームのダッシュボードにも表示されない真実。",
-          "product": "インサイト · 配送 + 利益",
+          "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
         {
           "title": "バーチャルブランドの貢献度",
           "description": "1つのキッチンを共有するバーチャルブランド間で公正にコストを配分。忙しそうに見えるブランドが、利益を上げているブランドを補助しているかもしれません。",
-          "product": "インサイト · アイテムの収益性",
+          "product": "Insights · Item Profitability",
           "icon": "performance"
         },
         {
           "title": "プラットフォームの健康状態モニタリング",
           "description": "プラットフォームごとのコンバージョン率、バスケットサイズ、受け入れ率 — それらが逸脱したときにフラグが立てられます。トグルの変更は翌朝に反映され、来週ではありません。",
-          "product": "ウォッチタワー · プラットフォーム",
+          "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
           "title": "ライブオペレーショナルペーシング",
           "description": "注文量、準備時間、時間ごとの遅延注文。キッチンはスパイクが形成されるのを見ています — 事後分析ではありません。",
-          "product": "パルス",
+          "product": "Pulse",
           "icon": "chart"
         }
       ],
@@ -1184,19 +1184,19 @@ export const generatedLocalCopy = {
         {
           "title": "Margin bersih per platform, per merek",
           "description": "Pesanan, komisi, kemasan, tenaga kerja yang dialokasikan, dan biaya makanan — untuk margin bersih di persimpangan saluran × merek. Kebenaran yang tidak ditunjukkan oleh dasbor platform mana pun.",
-          "product": "Insights · Pengiriman + Keuntungan",
+          "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
         {
           "title": "Kontribusi merek virtual",
           "description": "Mengalokasikan biaya secara adil di antara merek virtual yang berbagi satu dapur. Merek yang terlihat sibuk mungkin mensubsidi yang menguntungkan.",
-          "product": "Insights · Profitabilitas Item",
+          "product": "Insights · Item Profitability",
           "icon": "performance"
         },
         {
           "title": "Pemantauan kesehatan platform",
           "description": "Tingkat konversi, ukuran keranjang, tingkat penerimaan per platform — ditandai saat mereka menyimpang. Perubahan toggle muncul keesokan paginya, bukan minggu depan.",
-          "product": "Watchtower · Platform",
+          "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
@@ -1272,19 +1272,19 @@ export const generatedLocalCopy = {
         {
           "title": "Marja netă pe platformă, pe brand",
           "description": "Comenzi, comisioane, ambalare, costuri alocate pentru muncă și alimente — pentru marja netă la intersecția canal × brand. Adevărul pe care niciun tablou de bord al platformei nu îl arată.",
-          "product": "Insights · Livrare + Profit",
+          "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
         {
           "title": "Contribuția brandului virtual",
           "description": "Alocarea corectă a costurilor între brandurile virtuale care împărtășesc o bucătărie. Brandul care pare ocupat poate subvenționa pe cel care este profitabil.",
-          "product": "Insights · Profitabilitatea articolelor",
+          "product": "Insights · Item Profitability",
           "icon": "performance"
         },
         {
           "title": "Monitorizarea sănătății platformei",
           "description": "Rata de conversie, dimensiunea coșului, rata de acceptare pe platformă — semnalizate atunci când deviază. Schimbarea comutatorului apare a doua zi dimineața, nu săptămâna viitoare.",
-          "product": "Watchtower · Platforme",
+          "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
@@ -1360,19 +1360,19 @@ export const generatedLocalCopy = {
         {
           "title": "Biên lợi nhuận ròng theo nền tảng, theo thương hiệu",
           "description": "Đơn hàng, hoa hồng, chi phí bao bì, lao động phân bổ và chi phí thực phẩm — để biên lợi nhuận tại giao điểm kênh × thương hiệu. Sự thật mà không bảng điều khiển nền tảng nào hiển thị.",
-          "product": "Insights · Giao hàng + Lợi nhuận",
+          "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
         {
           "title": "Đóng góp của thương hiệu ảo",
           "description": "Phân bổ chi phí công bằng giữa các thương hiệu ảo chia sẻ một bếp. Thương hiệu trông đông đúc có thể đang trợ cấp cho thương hiệu có lợi nhuận.",
-          "product": "Insights · Lợi nhuận theo mặt hàng",
+          "product": "Insights · Item Profitability",
           "icon": "performance"
         },
         {
           "title": "Giám sát sức khỏe nền tảng",
           "description": "Tỷ lệ chuyển đổi, kích thước giỏ hàng, tỷ lệ chấp nhận theo nền tảng — được đánh dấu khi chúng lệch. Thay đổi công tắc sẽ hiển thị vào sáng hôm sau, không phải tuần sau.",
-          "product": "Watchtower · Nền tảng",
+          "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
@@ -1448,19 +1448,19 @@ export const generatedLocalCopy = {
         {
           "title": "Netto marginal per plattform, per varumärke",
           "description": "Beställningar, provisioner, förpackningar, fördelad arbetskraft och matkostnad — till netto marginal vid kanal × varumärkesintersektionen. Sanningen som ingen plattformsdashboard visar.",
-          "product": "Insights · Leverans + Vinst",
+          "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
         {
           "title": "Bidrag från virtuella varumärken",
           "description": "Kostnadsallokera rättvist mellan virtuella varumärken som delar på ett kök. Det varumärke som ser upptaget ut kan subventionera det som är lönsamt.",
-          "product": "Insights · Artikel Lönsamhet",
+          "product": "Insights · Item Profitability",
           "icon": "performance"
         },
         {
           "title": "Övervakning av plattforms hälsa",
           "description": "Konverteringsgrad, kundvagnsstorlek, acceptansgrad per plattform — flaggas när de avviker. Ändringen visas nästa morgon, inte nästa vecka.",
-          "product": "Watchtower · Plattformar",
+          "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
@@ -1800,19 +1800,19 @@ export const generatedLocalCopy = {
         {
           "title": "Margin bersih setiap platform, setiap jenama",
           "description": "Pesanan, komisen, pembungkusan, buruh yang diperuntukkan dan kos makanan — untuk margin bersih di persimpangan saluran × jenama. Kebenaran yang tidak ditunjukkan oleh mana-mana papan pemuka platform.",
-          "product": "Insights · Penghantaran + Keuntungan",
+          "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
         {
           "title": "Sumbangan jenama maya",
           "description": "Peruntukkan kos secara adil di antara jenama maya yang berkongsi satu dapur. Jenama yang kelihatan sibuk mungkin menyubsidi yang menguntungkan.",
-          "product": "Insights · Keuntungan Item",
+          "product": "Insights · Item Profitability",
           "icon": "performance"
         },
         {
           "title": "Pemantauan kesihatan platform",
           "description": "Kadar penukaran, saiz bakul, kadar penerimaan setiap platform — ditandakan apabila mereka menyimpang. Perubahan toggle muncul keesokan paginya, bukan minggu depan.",
-          "product": "Watchtower · Platform",
+          "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {

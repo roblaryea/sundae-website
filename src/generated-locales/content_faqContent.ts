@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/content/faqContent.ts.
-// Do not edit by hand; regenerate from the English local copy source.
+// Structural fields and protected glossary terms normalized from English source; review prose translations before release.
 export const generatedLocalCopy = {
   "localizedFaqSections": {
     "de": [
@@ -47,13 +47,13 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Was ist das 4D-Intelligenzmodell?",
-            "content": "Sundaes Rahmenwerk für Entscheidungsintelligenz:\n\n**1D: Was ist passiert** - Verkaufs-, Arbeits- und Kostendaten\n**2D: Plan vs. Ist** - Budget- und Prognoseabweichung\n**3D: Markt-Kontext** - Benchmarks, Peers und Wettbewerber\n**4D: Was kommt als Nächstes** - Vorhersagen und Empfehlungen\n\n**Report:** Vollständige 1D und 2D plus eingeschränkte 3D und 4D\n**Core:** Voller Zugriff auf alle 4 Dimensionen."
+            "content": "Sundaes Rahmenwerk für Entscheidungsintelligenz:\n\n**1D: Was ist passiert** - Verkaufs-, Arbeits- und Kostendaten\n**2D: Plan vs. Ist** - Budget- und Prognoseabweichung\n**3D: Markt-Kontext** - Benchmarks, Peers und Wettbewerber\n**4D: Was kommt als Nächstes** - Vorhersagen und Empfehlungen\n\n**Report:** Vollständige 1D und 2D plus eingeschränkte 3D und 4D\n**Core:** Voller Zugriff auf alle 4 Dimensionen. (Sundae)"
           }
         ]
       },
       {
-        "id": "Datenintegration",
-        "icon": "Integration",
+        "id": "data-integration",
+        "icon": "integration",
         "faqs": [
           {
             "title": "Welche Daten benötigt Sundae?",
@@ -330,8 +330,8 @@ export const generatedLocalCopy = {
         ]
       },
       {
-        "id": "intégration-des-données",
-        "icon": "intégration",
+        "id": "data-integration",
+        "icon": "integration",
         "faqs": [
           {
             "title": "Quelles données Sundae nécessite-t-il ?",
@@ -608,8 +608,8 @@ export const generatedLocalCopy = {
         ]
       },
       {
-        "id": "integración-de-datos",
-        "icon": "integración",
+        "id": "data-integration",
+        "icon": "integration",
         "faqs": [
           {
             "title": "¿Qué datos necesita Sundae?",
@@ -699,7 +699,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "¿Cuánto cuesta Sundae?",
-            "content": "El precio depende de:\n• Reporte vs Core\n• Número de ubicaciones\n• Módulos seleccionados\n• Si se incluye Watchtower\n\n**Reporte Lite:** Gratis para siempre\n\nPara precios precisos, utiliza pricing.sundae.io."
+            "content": "El precio depende de:\n• Reporte vs Core\n• Número de ubicaciones\n• Módulos seleccionados\n• Si se incluye Watchtower\n\n**Report Lite:** Gratis para siempre\n\nPara precios precisos, utiliza pricing.sundae.io."
           },
           {
             "title": "¿Hay tarifas de configuración?",
@@ -801,7 +801,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "¿Cómo se diferencia Sundae de los informes de POS?",
-            "content": "**Informes de POS:** Un sistema, contexto limitado, interpretación manual\n\n**Informe de Sundae:** Análisis de POS más benchmarks, recomendaciones y detección de patrones\n\n**Sundae Core:** Todo en Informe más datos unificados de mano de obra, inventario, marketing, reservas y otros sistemas con actualizaciones más rápidas"
+            "content": "**Informes de POS:** Un sistema, contexto limitado, interpretación manual\n\n**Informe de Sundae:** Análisis de POS más benchmarks, recomendaciones y detección de patrones\n\n**Sundae Core:** Todo en Informe más datos unificados de mano de obra, inventario, marketing, reservas y otros sistemas con actualizaciones más rápidas (Sundae Report)"
           },
           {
             "title": "¿Cómo se diferencia Sundae de Excel?",
@@ -886,8 +886,8 @@ export const generatedLocalCopy = {
         ]
       },
       {
-        "id": "gegevensintegratie",
-        "icon": "integratie",
+        "id": "data-integration",
+        "icon": "integration",
         "faqs": [
           {
             "title": "Welke gegevens heeft Sundae nodig?",
@@ -1074,12 +1074,12 @@ export const generatedLocalCopy = {
         ]
       },
       {
-        "id": "vergelijkingen",
+        "id": "comparisons",
         "icon": "balance",
         "faqs": [
           {
             "title": "Hoe verschilt Sundae van POS-rapportage?",
-            "content": "**POS-rapporten:** Eén systeem, beperkte context, handmatige interpretatie\n\n**Sundae Rapport:** POS-analyse plus benchmarks, aanbevelingen en patroonherkenning\n\n**Sundae Core:** Alles in Rapport plus verenigde gegevens van arbeid, voorraad, marketing, reserveringen en andere systemen met snellere vernieuwing."
+            "content": "**POS-rapporten:** Eén systeem, beperkte context, handmatige interpretatie\n\n**Sundae Report:** POS-analyse plus benchmarks, aanbevelingen en patroonherkenning\n\n**Sundae Core:** Alles in Rapport plus verenigde gegevens van arbeid, voorraad, marketing, reserveringen en andere systemen met snellere vernieuwing."
           },
           {
             "title": "Hoe verschilt Sundae van Excel?",
@@ -1164,16 +1164,16 @@ export const generatedLocalCopy = {
         ]
       },
       {
-        "id": "تكامل البيانات",
-        "icon": "تكامل",
+        "id": "data-integration",
+        "icon": "integration",
         "faqs": [
           {
             "title": "ما البيانات التي يحتاجها Sundae؟",
-            "content": "**الحد الأدنى لتقرير Lite:**\n• بيانات مبيعات POS (تصدير CSV)\n\n**لـ Core:**\n• نظام POS عبر API\n• نظام العمل أو القوى العاملة\n• نظام المخزون\n• منصات التسويق\n• نظام الحجوزات\n\nتم بناء التقرير حول تحميلات POS. Core هو المكان الذي تتصل فيه بمجموعة التشغيل الأوسع."
+            "content": "**الحد الأدنى لReport Lite:**\n• بيانات مبيعات POS (تصدير CSV)\n\n**لـ Core:**\n• نظام POS عبر API\n• نظام العمل أو القوى العاملة\n• نظام المخزون\n• منصات التسويق\n• نظام الحجوزات\n\nتم بناء التقرير حول تحميلات POS. Core هو المكان الذي تتصل فيه بمجموعة التشغيل الأوسع."
           },
           {
             "title": "كيف يمكنني إدخال بياناتي إلى Sundae؟",
-            "content": "**تقرير Lite:** تحميل CSV يدوي\n\n**تقرير Plus:** تحميل ملفات PDF أو Excel أو لقطات الشاشة. يقوم Sundae باستخراج البيانات وتراجعها قبل المعالجة.\n\n**تقرير Pro و Core:** استيعاب تلقائي من خلال اتصالات API"
+            "content": "**Report Lite:** تحميل CSV يدوي\n\n**Report Plus:** تحميل ملفات PDF أو Excel أو لقطات الشاشة. يقوم Sundae باستخراج البيانات وتراجعها قبل المعالجة.\n\n**Report Pro و Core:** استيعاب تلقائي من خلال اتصالات API"
           },
           {
             "title": "ما أنظمة POS التي تتكاملون معها؟",
@@ -1185,7 +1185,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "كم من الوقت يستغرق التنفيذ؟",
-            "content": "**تقرير Lite:** فوري بعد التحميل\n**تقرير Plus / Pro:** 1-2 يوم\n**Core Lite / Pro:** 1-2 أسبوع\n**Enterprise:** 2-4 أسابيع حسب النطاق"
+            "content": "**Report Lite:** فوري بعد التحميل\n**Report Plus / Pro:** 1-2 يوم\n**Core Lite / Pro:** 1-2 أسبوع\n**Enterprise:** 2-4 أسابيع حسب النطاق"
           },
           {
             "title": "ماذا يحدث لبياناتي إذا قمت بالإلغاء؟",
@@ -1245,7 +1245,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "هل يتطلب Watchtower Core؟",
-            "content": "نعم. يعمل Watchtower بشكل أفضل عندما تكون إشارات السوق الخاصة به مدمجة مباشرة مع بيانات التشغيل الحية، وهو ما يوفره Core.\n\nإذا كنت بحاجة فقط إلى تحليل نقاط البيع التاريخية المحملة، فإن Report يكفي. إذا كنت تريد سياق السوق مرتبطًا بالعمليات اليومية، انتقل إلى Core."
+            "content": "نعم. يعمل Watchtower بشكل أفضل عندما تكون إشارات السوق الخاصة به مدمجة مباشرة مع بيانات التشغيل الحية، وهو ما يوفره Core.\n\nإذا كنت بحاجة فقط إلى تحليل POS التاريخية المحملة، فإن Report يكفي. إذا كنت تريد سياق السوق مرتبطًا بالعمليات اليومية، انتقل إلى Core."
           }
         ]
       },
@@ -1281,19 +1281,19 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "كيف تعمل اعتمادات الذكاء؟",
-            "content": "تدعم اعتمادات الذكاء الأسئلة والتحليلات والتوصيات.\n\n**تقرير لايت:** 250 أساسي + 80 لكل موقع\n**تقرير بلس:** 1,200 أساسي + 300 لكل موقع\n**تقرير برو:** 3,500 أساسي + 800 لكل موقع\n**كور لايت:** 8,000 أساسي + 1,600 لكل موقع\n**كور برو:** 14,000 أساسي + 2,800 لكل موقع\n**مؤسسة:** 50,000+ أساسي + تخصيص مخصص"
+            "content": "تدعم اعتمادات الذكاء الأسئلة والتحليلات والتوصيات.\n\n**تقرير لايت:** 250 أساسي + 80 لكل موقع\n**تقرير بلس:** 1,200 أساسي + 300 لكل موقع\n**تقرير برو:** 3,500 أساسي + 800 لكل موقع\n**كور لايت:** 8,000 أساسي + 1,600 لكل موقع\n**كور برو:** 14,000 أساسي + 2,800 لكل موقع\n**مؤسسة:** 50,000+ أساسي + تخصيص مخصص (Report Lite) (Report Plus) (Report Pro) (Core Lite) (Core Pro)"
           },
           {
             "title": "كم من الوصول التاريخي أحصل عليه؟",
-            "content": "**تقرير لايت:** 90 يومًا\n**تقرير بلس:** سنة واحدة\n**تقرير برو:** سنتان\n**كور لايت:** سنتان\n**كور برو:** 3 سنوات\n**مؤسسة:** 5+ سنوات أو احتفاظ مخصص"
+            "content": "**تقرير لايت:** 90 يومًا\n**تقرير بلس:** سنة واحدة\n**تقرير برو:** سنتان\n**كور لايت:** سنتان\n**كور برو:** 3 سنوات\n**مؤسسة:** 5+ سنوات أو احتفاظ مخصص (Report Lite) (Report Plus) (Report Pro) (Core Lite) (Core Pro)"
           },
           {
             "title": "كم مرة يتم تحديث البيانات؟",
-            "content": "**تقرير لايت:** تحميلات يدوية\n**تقرير بلس:** يدوية أو معالجة ذكية عند الطلب\n**تقرير برو:** تحديث تلقائي يومي\n**كور لايت:** كل 4 ساعات\n**كور برو:** كل ساعتين\n**مؤسسة:** وتيرة مخصصة، بما في ذلك الوقت الحقيقي عند تحديد النطاق"
+            "content": "**تقرير لايت:** تحميلات يدوية\n**تقرير بلس:** يدوية أو معالجة ذكية عند الطلب\n**تقرير برو:** تحديث تلقائي يومي\n**كور لايت:** كل 4 ساعات\n**كور برو:** كل ساعتين\n**مؤسسة:** وتيرة مخصصة، بما في ذلك الوقت الحقيقي عند تحديد النطاق (Report Lite) (Report Plus) (Report Pro) (Core Lite) (Core Pro)"
           },
           {
             "title": "هل أحصل على لوحات معلومات مخصصة؟",
-            "content": "**مستويات التقرير:** لوحات معلومات مسبقة البناء\n**كور لايت:** حتى 30 لوحة معلومات مخصصة\n**كور برو:** حتى 75 لوحة معلومات مخصصة\n**مؤسسة:** لوحات معلومات مخصصة غير محدودة."
+            "content": "**مستويات التقرير:** لوحات معلومات مسبقة البناء\n**كور لايت:** حتى 30 لوحة معلومات مخصصة\n**كور برو:** حتى 75 لوحة معلومات مخصصة\n**مؤسسة:** لوحات معلومات مخصصة غير محدودة. (Core Lite) (Core Pro)"
           }
         ]
       },
@@ -1356,8 +1356,8 @@ export const generatedLocalCopy = {
         "icon": "balance",
         "faqs": [
           {
-            "title": "كيف يختلف Sundae عن تقارير نقاط البيع؟",
-            "content": "**تقارير نقاط البيع:** نظام واحد، سياق محدود، تفسير يدوي\n\n**تقرير Sundae:** تحليل نقاط البيع بالإضافة إلى المعايير، التوصيات، واكتشاف الأنماط\n\n**Sundae Core:** كل شيء في التقرير بالإضافة إلى بيانات موحدة من العمل، المخزون، التسويق، الحجوزات، وأنظمة أخرى مع تحديث أسرع"
+            "title": "كيف يختلف Sundae عن تقارير POS؟",
+            "content": "**تقارير POS:** نظام واحد، سياق محدود، تفسير يدوي\n\n**Sundae Report:** تحليل POS بالإضافة إلى المعايير، التوصيات، واكتشاف الأنماط\n\n**Sundae Core:** كل شيء في التقرير بالإضافة إلى بيانات موحدة من العمل، المخزون، التسويق، الحجوزات، وأنظمة أخرى مع تحديث أسرع"
           },
           {
             "title": "كيف يختلف Sundae عن Excel؟",
@@ -1442,8 +1442,8 @@ export const generatedLocalCopy = {
         ]
       },
       {
-        "id": "integração-de-dados",
-        "icon": "integração",
+        "id": "data-integration",
+        "icon": "integration",
         "faqs": [
           {
             "title": "Quais dados o Sundae precisa?",
@@ -1635,7 +1635,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Como o Sundae é diferente dos relatórios de POS?",
-            "content": "**Relatórios de POS:** Um sistema, contexto limitado, interpretação manual\n\n**Relatório Sundae:** Análise de POS mais benchmarks, recomendações e detecção de padrões\n\n**Sundae Core:** Tudo no Relatório mais dados unificados de trabalho, inventário, marketing, reservas e outros sistemas com atualização mais rápida"
+            "content": "**Relatórios de POS:** Um sistema, contexto limitado, interpretação manual\n\n**Sundae Report:** Análise de POS mais benchmarks, recomendações e detecção de padrões\n\n**Sundae Core:** Tudo no Relatório mais dados unificados de trabalho, inventário, marketing, reservas e outros sistemas com atualização mais rápida"
           },
           {
             "title": "Como o Sundae é diferente do Excel?",
@@ -1720,16 +1720,16 @@ export const generatedLocalCopy = {
         ]
       },
       {
-        "id": "ڈیٹا-انضمام",
-        "icon": "انضمام",
+        "id": "data-integration",
+        "icon": "integration",
         "faqs": [
           {
             "title": "Sundae کو کون سا ڈیٹا درکار ہے؟",
-            "content": "**رپورٹ لائٹ کے لیے کم از کم:**\n• POS سیلز کا ڈیٹا (CSV ایکسپورٹ)\n\n**کور کے لیے:**\n• API کے ذریعے POS سسٹم\n• لیبر یا ورک فورس سسٹم\n• انوینٹری سسٹم\n• مارکیٹنگ پلیٹ فارم\n• ریزرویشن سسٹم\n\nرپورٹ POS اپ لوڈز کے گرد بنائی گئی ہے۔ کور وہ جگہ ہے جہاں آپ وسیع آپریٹنگ اسٹیک کو جوڑتے ہیں۔"
+            "content": "**Report Lite کے لیے کم از کم:**\n• POS سیلز کا ڈیٹا (CSV ایکسپورٹ)\n\n**کور کے لیے:**\n• API کے ذریعے POS سسٹم\n• لیبر یا ورک فورس سسٹم\n• انوینٹری سسٹم\n• مارکیٹنگ پلیٹ فارم\n• ریزرویشن سسٹم\n\nرپورٹ POS اپ لوڈز کے گرد بنائی گئی ہے۔ کور وہ جگہ ہے جہاں آپ وسیع آپریٹنگ اسٹیک کو جوڑتے ہیں۔"
           },
           {
             "title": "میں اپنے ڈیٹا کو Sundae میں کیسے شامل کروں؟",
-            "content": "**رپورٹ لائٹ:** دستی CSV اپ لوڈ\n\n**رپورٹ پلس:** PDFs، ایکسل فائلیں، یا اسکرین شاٹس اپ لوڈ کریں۔ Sundae ڈیٹا نکالتا ہے اور آپ اسے پروسیسنگ سے پہلے جائزہ لیتے ہیں۔\n\n**رپورٹ پرو اور کور:** API کنکشنز کے ذریعے خودکار انضمام"
+            "content": "**Report Lite:** دستی CSV اپ لوڈ\n\n**Report Plus:** PDFs، ایکسل فائلیں، یا اسکرین شاٹس اپ لوڈ کریں۔ Sundae ڈیٹا نکالتا ہے اور آپ اسے پروسیسنگ سے پہلے جائزہ لیتے ہیں۔\n\n**Report Pro اور کور:** API کنکشنز کے ذریعے خودکار انضمام"
           },
           {
             "title": "آپ کس POS سسٹم کے ساتھ انضمام کرتے ہیں؟",
@@ -1737,11 +1737,11 @@ export const generatedLocalCopy = {
           },
           {
             "title": "کیا میں Sundae کو متعدد POS سسٹمز کے ساتھ استعمال کر سکتا ہوں؟",
-            "content": "**کور لائٹ:** بہترین جب تمام مقامات ایک POS استعمال کرتے ہیں\n\n**کور پرو اور انٹرپرائز:** جی ہاں۔ مختلف مقامات پر مختلف POS سسٹمز کی حمایت کی جاتی ہے، اور Sundae ڈیٹا کو سیب سے سیب کے موازنہ کے لیے معمول پر لاتا ہے۔\n\n**رپورٹ:** کوئی بھی POS کام کرتا ہے کیونکہ اپ لوڈ دستی ہیں۔"
+            "content": "**Core Lite:** بہترین جب تمام مقامات ایک POS استعمال کرتے ہیں\n\n**Core Pro اور انٹرپرائز:** جی ہاں۔ مختلف مقامات پر مختلف POS سسٹمز کی حمایت کی جاتی ہے، اور Sundae ڈیٹا کو سیب سے سیب کے موازنہ کے لیے معمول پر لاتا ہے۔\n\n**رپورٹ:** کوئی بھی POS کام کرتا ہے کیونکہ اپ لوڈ دستی ہیں۔"
           },
           {
             "title": "عمل درآمد میں کتنا وقت لگتا ہے؟",
-            "content": "**رپورٹ لائٹ:** اپ لوڈ کے بعد فوری\n**رپورٹ پلس / پرو:** 1-2 دن\n**کور لائٹ / پرو:** 1-2 ہفتے\n**انٹرپرائز:** دائرہ کار کے لحاظ سے 2-4 ہفتے"
+            "content": "**Report Lite:** اپ لوڈ کے بعد فوری\n**Report Plus / پرو:** 1-2 دن\n**Core Lite / پرو:** 1-2 ہفتے\n**انٹرپرائز:** دائرہ کار کے لحاظ سے 2-4 ہفتے"
           },
           {
             "title": "اگر میں منسوخ کر دوں تو میرے ڈیٹا کا کیا ہوگا؟",
@@ -1811,7 +1811,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae کی قیمت کیا ہے؟",
-            "content": "قیمت درج ذیل پر منحصر ہے:\n• رپورٹ بمقابلہ کور\n• مقامات کی تعداد\n• منتخب کردہ ماڈیولز\n• آیا واچ ٹاور شامل ہے یا نہیں\n\n**رپورٹ لائٹ:** ہمیشہ کے لیے مفت\n\nصحیح قیمت کے لیے، pricing.sundae.io کا استعمال کریں."
+            "content": "قیمت درج ذیل پر منحصر ہے:\n• رپورٹ بمقابلہ کور\n• مقامات کی تعداد\n• منتخب کردہ ماڈیولز\n• آیا Watchtower شامل ہے یا نہیں\n\n**Report Lite:** ہمیشہ کے لیے مفت\n\nصحیح قیمت کے لیے، pricing.sundae.io کا استعمال کریں."
           },
           {
             "title": "کیا سیٹ اپ کی فیس ہے؟",
@@ -1837,19 +1837,19 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "انٹیلیجنس کریڈٹس کیسے کام کرتے ہیں؟",
-            "content": "انٹیلیجنس کریڈٹس سوالات، تجزیات، اور سفارشات کو طاقت دیتے ہیں۔\n\n**رپورٹ لائٹ:** 250 بنیادی + 80 فی مقام\n**رپورٹ پلس:** 1,200 بنیادی + 300 فی مقام\n**رپورٹ پرو:** 3,500 بنیادی + 800 فی مقام\n**کور لائٹ:** 8,000 بنیادی + 1,600 فی مقام\n**کور پرو:** 14,000 بنیادی + 2,800 فی مقام\n**انٹرپرائز:** 50,000+ بنیادی + حسب ضرورت مختص"
+            "content": "انٹیلیجنس کریڈٹس سوالات، تجزیات، اور سفارشات کو طاقت دیتے ہیں۔\n\n**Report Lite:** 250 بنیادی + 80 فی مقام\n**Report Plus:** 1,200 بنیادی + 300 فی مقام\n**Report Pro:** 3,500 بنیادی + 800 فی مقام\n**Core Lite:** 8,000 بنیادی + 1,600 فی مقام\n**Core Pro:** 14,000 بنیادی + 2,800 فی مقام\n**انٹرپرائز:** 50,000+ بنیادی + حسب ضرورت مختص"
           },
           {
             "title": "مجھے کتنا تاریخی رسائی ملتا ہے؟",
-            "content": "**رپورٹ لائٹ:** 90 دن\n**رپورٹ پلس:** 1 سال\n**رپورٹ پرو:** 2 سال\n**کور لائٹ:** 2 سال\n**کور پرو:** 3 سال\n**انٹرپرائز:** 5+ سال یا حسب ضرورت برقرار رکھنا"
+            "content": "**Report Lite:** 90 دن\n**Report Plus:** 1 سال\n**Report Pro:** 2 سال\n**Core Lite:** 2 سال\n**Core Pro:** 3 سال\n**انٹرپرائز:** 5+ سال یا حسب ضرورت برقرار رکھنا"
           },
           {
             "title": "ڈیٹا کتنی بار تازہ ہوتا ہے؟",
-            "content": "**رپورٹ لائٹ:** دستی اپ لوڈ\n**رپورٹ پلس:** دستی یا طلب پر سمارٹ پارس کیا گیا\n**رپورٹ پرو:** روزانہ خودکار تازہ کاری\n**کور لائٹ:** ہر 4 گھنٹے\n**کور پرو:** ہر 2 گھنٹے\n**انٹرپرائز:** حسب ضرورت رفتار، بشمول جب دائرہ کار میں حقیقی وقت"
+            "content": "**Report Lite:** دستی اپ لوڈ\n**Report Plus:** دستی یا طلب پر سمارٹ پارس کیا گیا\n**Report Pro:** روزانہ خودکار تازہ کاری\n**Core Lite:** ہر 4 گھنٹے\n**Core Pro:** ہر 2 گھنٹے\n**انٹرپرائز:** حسب ضرورت رفتار، بشمول جب دائرہ کار میں حقیقی وقت"
           },
           {
             "title": "کیا مجھے حسب ضرورت ڈیش بورڈ ملتے ہیں؟",
-            "content": "**رپورٹ کی اقسام:** پہلے سے بنے ہوئے ڈیش بورڈ\n**کور لائٹ:** 30 تک حسب ضرورت ڈیش بورڈ\n**کور پرو:** 75 تک حسب ضرورت ڈیش بورڈ\n**انٹرپرائز:** لامحدود حسب ضرورت ڈیش بورڈ."
+            "content": "**رپورٹ کی اقسام:** پہلے سے بنے ہوئے ڈیش بورڈ\n**Core Lite:** 30 تک حسب ضرورت ڈیش بورڈ\n**Core Pro:** 75 تک حسب ضرورت ڈیش بورڈ\n**انٹرپرائز:** لامحدود حسب ضرورت ڈیش بورڈ."
           }
         ]
       },
@@ -1913,7 +1913,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae، POS رپورٹنگ سے کس طرح مختلف ہے؟",
-            "content": "**POS رپورٹس:** ایک نظام، محدود سیاق و سباق، دستی تشریح\n\n**Sundae رپورٹ:** POS تجزیہ کے ساتھ بینچ مارک، سفارشات، اور پیٹرن کی شناخت\n\n**Sundae کور:** رپورٹ میں سب کچھ، ساتھ ہی مزدوری، انوینٹری، مارکیٹنگ، ریزرویشنز، اور دیگر نظاموں سے متحدہ ڈیٹا جس کی تازہ کاری تیز ہے۔"
+            "content": "**POS رپورٹس:** ایک نظام، محدود سیاق و سباق، دستی تشریح\n\n**Sundae Report:** POS تجزیہ کے ساتھ بینچ مارک، سفارشات، اور پیٹرن کی شناخت\n\n**Sundae Core:** رپورٹ میں سب کچھ، ساتھ ہی مزدوری، انوینٹری، مارکیٹنگ، ریزرویشنز، اور دیگر نظاموں سے متحدہ ڈیٹا جس کی تازہ کاری تیز ہے۔"
           },
           {
             "title": "Sundae، Excel سے کس طرح مختلف ہے؟",
@@ -1998,8 +1998,8 @@ export const generatedLocalCopy = {
         ]
       },
       {
-        "id": "integrazione-dati",
-        "icon": "integrazione",
+        "id": "data-integration",
+        "icon": "integration",
         "faqs": [
           {
             "title": "Quali dati sono necessari per Sundae?",
@@ -2276,8 +2276,8 @@ export const generatedLocalCopy = {
         ]
       },
       {
-        "id": "डेटा-इंटीग्रेशन",
-        "icon": "एकीकरण",
+        "id": "data-integration",
+        "icon": "integration",
         "faqs": [
           {
             "title": "Sundae को कौन सा डेटा चाहिए?",
@@ -2367,7 +2367,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae की कीमत कितनी है?",
-            "content": "कीमत इस पर निर्भर करती है:\n• रिपोर्ट बनाम कोर\n• स्थानों की संख्या\n• चयनित मॉड्यूल\n• क्या वॉचटॉवर शामिल है\n\n**रिपोर्ट लाइट:** हमेशा के लिए मुफ्त\n\nसटीक कीमत के लिए, pricing.sundae.io का उपयोग करें."
+            "content": "कीमत इस पर निर्भर करती है:\n• रिपोर्ट बनाम कोर\n• स्थानों की संख्या\n• चयनित मॉड्यूल\n• क्या वॉचटॉवर शामिल है\n\n**Report Lite:** हमेशा के लिए मुफ्त\n\nसटीक कीमत के लिए, pricing.sundae.io का उपयोग करें. (Watchtower)"
           },
           {
             "title": "क्या सेटअप शुल्क हैं?",
@@ -2393,19 +2393,19 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "इंटेलिजेंस क्रेडिट कैसे काम करते हैं?",
-            "content": "इंटेलिजेंस क्रेडिट प्रश्नों, विश्लेषणों और सिफारिशों को शक्ति देते हैं।\n\n**रिपोर्ट लाइट:** 250 बेस + 80 प्रति स्थान\n**रिपोर्ट प्लस:** 1,200 बेस + 300 प्रति स्थान\n**रिपोर्ट प्रो:** 3,500 बेस + 800 प्रति स्थान\n**कोर लाइट:** 8,000 बेस + 1,600 प्रति स्थान\n**कोर प्रो:** 14,000 बेस + 2,800 प्रति स्थान\n**एंटरप्राइज:** 50,000+ बेस + कस्टम आवंटन"
+            "content": "इंटेलिजेंस क्रेडिट प्रश्नों, विश्लेषणों और सिफारिशों को शक्ति देते हैं।\n\n**Report Lite:** 250 बेस + 80 प्रति स्थान\n**Report Plus:** 1,200 बेस + 300 प्रति स्थान\n**Report Pro:** 3,500 बेस + 800 प्रति स्थान\n**Core Lite:** 8,000 बेस + 1,600 प्रति स्थान\n**Core Pro:** 14,000 बेस + 2,800 प्रति स्थान\n**एंटरप्राइज:** 50,000+ बेस + कस्टम आवंटन"
           },
           {
             "title": "मुझे कितना ऐतिहासिक एक्सेस मिलता है?",
-            "content": "**रिपोर्ट लाइट:** 90 दिन\n**रिपोर्ट प्लस:** 1 वर्ष\n**रिपोर्ट प्रो:** 2 वर्ष\n**कोर लाइट:** 2 वर्ष\n**कोर प्रो:** 3 वर्ष\n**एंटरप्राइज:** 5+ वर्ष या कस्टम रिटेंशन"
+            "content": "**Report Lite:** 90 दिन\n**Report Plus:** 1 वर्ष\n**Report Pro:** 2 वर्ष\n**Core Lite:** 2 वर्ष\n**Core Pro:** 3 वर्ष\n**एंटरप्राइज:** 5+ वर्ष या कस्टम रिटेंशन"
           },
           {
             "title": "डेटा कितनी बार ताज़ा होता है?",
-            "content": "**रिपोर्ट लाइट:** मैनुअल अपलोड\n**रिपोर्ट प्लस:** मैनुअल या स्मार्ट-पार्स्ड मांग पर\n**रिपोर्ट प्रो:** दैनिक स्वचालित ताज़ा\n**कोर लाइट:** हर 4 घंटे\n**कोर प्रो:** हर 2 घंटे\n**एंटरप्राइज:** कस्टम कैडेंस, जिसमें स्कोप किए जाने पर वास्तविक समय शामिल है"
+            "content": "**Report Lite:** मैनुअल अपलोड\n**Report Plus:** मैनुअल या स्मार्ट-पार्स्ड मांग पर\n**Report Pro:** दैनिक स्वचालित ताज़ा\n**Core Lite:** हर 4 घंटे\n**Core Pro:** हर 2 घंटे\n**एंटरप्राइज:** कस्टम कैडेंस, जिसमें स्कोप किए जाने पर वास्तविक समय शामिल है"
           },
           {
             "title": "क्या मुझे कस्टम डैशबोर्ड मिलते हैं?",
-            "content": "**रिपोर्ट स्तर:** प्रीबिल्ट डैशबोर्ड\n**कोर लाइट:** 30 तक कस्टम डैशबोर्ड\n**कोर प्रो:** 75 तक कस्टम डैशबोर्ड\n**एंटरप्राइज:** अनलिमिटेड कस्टम डैशबोर्ड"
+            "content": "**रिपोर्ट स्तर:** प्रीबिल्ट डैशबोर्ड\n**Core Lite:** 30 तक कस्टम डैशबोर्ड\n**Core Pro:** 75 तक कस्टम डैशबोर्ड\n**एंटरप्राइज:** अनलिमिटेड कस्टम डैशबोर्ड"
           }
         ]
       },
@@ -2469,7 +2469,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae, POS रिपोर्टिंग से कैसे अलग है?",
-            "content": "**POS रिपोर्ट:** एक सिस्टम, सीमित संदर्भ, मैनुअल व्याख्या\n\n**Sundae रिपोर्ट:** POS विश्लेषण के साथ बेंचमार्क, सिफारिशें, और पैटर्न पहचान\n\n**Sundae कोर:** रिपोर्ट में सब कुछ, साथ ही श्रम, इन्वेंटरी, मार्केटिंग, आरक्षण, और अन्य सिस्टम से एकीकृत डेटा, तेज़ रिफ्रेश के साथ"
+            "content": "**POS रिपोर्ट:** एक सिस्टम, सीमित संदर्भ, मैनुअल व्याख्या\n\n**Sundae Report:** POS विश्लेषण के साथ बेंचमार्क, सिफारिशें, और पैटर्न पहचान\n\n**Sundae Core:** रिपोर्ट में सब कुछ, साथ ही श्रम, इन्वेंटरी, मार्केटिंग, आरक्षण, और अन्य सिस्टम से एकीकृत डेटा, तेज़ रिफ्रेश के साथ"
           },
           {
             "title": "Sundae, Excel से कैसे अलग है?",
@@ -2537,11 +2537,11 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae hangi ürünleri sunuyor?",
-            "content": "**Üç ana ürün:**\n\n1. **Sundae Raporu** (Lite / Plus / Pro) - Tarihsel analiz ve kıyaslama\n2. **Sundae Core** (Lite / Pro / Enterprise) - Gerçek zamanlı operasyonlar ve öngörücü zeka\n3. **Watchtower** (Rekabetçi / Etkinlik / Pazar) - Dış pazar zekası\n\n**Ek olarak:**\n\n4. **Modüller** - İş gücü, Envanter, Satın alma, Pazarlama ve Rezervasyon zekası."
+            "content": "**Üç ana ürün:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Tarihsel analiz ve kıyaslama\n2. **Sundae Core** (Lite / Pro / Enterprise) - Gerçek zamanlı operasyonlar ve öngörücü zeka\n3. **Watchtower** (Rekabetçi / Etkinlik / Pazar) - Dış pazar zekası\n\n**Ek olarak:**\n\n4. **Modüller** - İş gücü, Envanter, Satın alma, Pazarlama ve Rezervasyon zekası."
           },
           {
             "title": "Hangi katmanı seçmeliyim?",
-            "content": "**Eğer şunlar geçerliyse Rapor Lite ile başlayın:**\n• Sundae'yi test ediyorsanız\n• 1-2 lokasyon işletiyorsanız\n• Günlük veya haftalık raporlama yeterliyse\n\n**Eğer şunlar geçerliyse Rapor Plus veya Pro'ya geçin:**\n• Daha derin tarihsel zekaya ihtiyacınız varsa\n• Günlük raporlama hala yeterliyse\n\n**Eğer şunlar geçerliyse Core Lite veya Pro'yu seçin:**\n• 10+ lokasyon işletiyorsanız\n• Operasyonel hız önemliyse\n• Gerçek zamanlı bütçe takibi önemliyse\n\n**Eğer şunlar geçerliyse Enterprise'ı seçin:**\n• 100+ lokasyonunuz varsa\n• SSO veya beyaz etiket yeteneklerine ihtiyacınız varsa\n• Özel destek ve özel şartlar talep ediyorsanız"
+            "content": "**Eğer şunlar geçerliyse Report Lite ile başlayın:**\n• Sundae'yi test ediyorsanız\n• 1-2 lokasyon işletiyorsanız\n• Günlük veya haftalık raporlama yeterliyse\n\n**Eğer şunlar geçerliyse Report Plus veya Pro'ya geçin:**\n• Daha derin tarihsel zekaya ihtiyacınız varsa\n• Günlük raporlama hala yeterliyse\n\n**Eğer şunlar geçerliyse Core Lite veya Pro'yu seçin:**\n• 10+ lokasyon işletiyorsanız\n• Operasyonel hız önemliyse\n• Gerçek zamanlı bütçe takibi önemliyse\n\n**Eğer şunlar geçerliyse Enterprise'ı seçin:**\n• 100+ lokasyonunuz varsa\n• SSO veya beyaz etiket yeteneklerine ihtiyacınız varsa\n• Özel destek ve özel şartlar talep ediyorsanız"
           },
           {
             "title": "Sonradan yükseltebilir veya düşürebilir miyim?",
@@ -2554,16 +2554,16 @@ export const generatedLocalCopy = {
         ]
       },
       {
-        "id": "veri-entegre",
-        "icon": "entegrasyon",
+        "id": "data-integration",
+        "icon": "integration",
         "faqs": [
           {
             "title": "Sundae'nin hangi verilere ihtiyacı var?",
-            "content": "**Rapor Lite için minimum:**\n• POS satış verileri (CSV dışa aktarma)\n\n**Core için:**\n• API üzerinden POS sistemi\n• İş gücü veya iş gücü sistemi\n• Envanter sistemi\n• Pazarlama platformları\n• Rezervasyon sistemi\n\nRapor, POS yüklemeleri etrafında inşa edilmiştir. Core, daha geniş işletim yığınına bağlandığınız yerdir."
+            "content": "**Report Lite için minimum:**\n• POS satış verileri (CSV dışa aktarma)\n\n**Core için:**\n• API üzerinden POS sistemi\n• İş gücü veya iş gücü sistemi\n• Envanter sistemi\n• Pazarlama platformları\n• Rezervasyon sistemi\n\nRapor, POS yüklemeleri etrafında inşa edilmiştir. Core, daha geniş işletim yığınına bağlandığınız yerdir."
           },
           {
             "title": "Verilerimi Sundae'ye nasıl aktarabilirim?",
-            "content": "**Rapor Lite:** Manuel CSV yüklemesi\n\n**Rapor Plus:** PDF, Excel dosyaları veya ekran görüntüleri yükleyin. Sundae verileri çıkarır ve işlemden önce gözden geçirirsiniz.\n\n**Rapor Pro ve Core:** API bağlantıları aracılığıyla otomatik veri alımı"
+            "content": "**Report Lite:** Manuel CSV yüklemesi\n\n**Report Plus:** PDF, Excel dosyaları veya ekran görüntüleri yükleyin. Sundae verileri çıkarır ve işlemden önce gözden geçirirsiniz.\n\n**Report Pro ve Core:** API bağlantıları aracılığıyla otomatik veri alımı"
           },
           {
             "title": "Hangi POS sistemleriyle entegre oluyorsunuz?",
@@ -2575,7 +2575,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Uygulama süresi ne kadar?",
-            "content": "**Rapor Lite:** Yüklemeden hemen sonra\n**Rapor Plus / Pro:** 1-2 gün\n**Core Lite / Pro:** 1-2 hafta\n**Enterprise:** Kapsama bağlı olarak 2-4 hafta"
+            "content": "**Report Lite:** Yüklemeden hemen sonra\n**Report Plus / Pro:** 1-2 gün\n**Core Lite / Pro:** 1-2 hafta\n**Enterprise:** Kapsama bağlı olarak 2-4 hafta"
           },
           {
             "title": "İptal edersem verilerime ne olur?",
@@ -2584,7 +2584,7 @@ export const generatedLocalCopy = {
         ]
       },
       {
-        "id": "modüller",
+        "id": "modules",
         "icon": "network",
         "faqs": [
           {
@@ -2747,7 +2747,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae, POS raporlamasından nasıl farklıdır?",
-            "content": "**POS raporları:** Tek sistem, sınırlı bağlam, manuel yorumlama\n\n**Sundae Raporu:** POS analizi artı kıyaslamalar, öneriler ve desen tespiti\n\n**Sundae Core:** Rapor'daki her şey artı iş gücü, envanter, pazarlama, rezervasyonlar ve diğer sistemlerden hızlı güncellemelerle birleştirilmiş veriler"
+            "content": "**POS raporları:** Tek sistem, sınırlı bağlam, manuel yorumlama\n\n**Sundae Report:** POS analizi artı kıyaslamalar, öneriler ve desen tespiti\n\n**Sundae Core:** Rapor'daki her şey artı iş gücü, envanter, pazarlama, rezervasyonlar ve diğer sistemlerden hızlı güncellemelerle birleştirilmiş veriler"
           },
           {
             "title": "Sundae, Excel'den nasıl farklıdır?",
@@ -2832,8 +2832,8 @@ export const generatedLocalCopy = {
         ]
       },
       {
-        "id": "integracja-danych",
-        "icon": "integracja",
+        "id": "data-integration",
+        "icon": "integration",
         "faqs": [
           {
             "title": "Jakie dane potrzebuje Sundae?",
@@ -3025,7 +3025,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Jak Sundae różni się od raportowania POS?",
-            "content": "**Raporty POS:** Jeden system, ograniczony kontekst, ręczna interpretacja\n\n**Raport Sundae:** Analiza POS plus benchmarki, rekomendacje i wykrywanie wzorców\n\n**Sundae Core:** Wszystko w Raporcie plus zintegrowane dane z pracy, zapasów, marketingu, rezerwacji i innych systemów z szybszym odświeżaniem"
+            "content": "**Raporty POS:** Jeden system, ograniczony kontekst, ręczna interpretacja\n\n**Sundae Report:** Analiza POS plus benchmarki, rekomendacje i wykrywanie wzorców\n\n**Sundae Core:** Wszystko w Raporcie plus zintegrowane dane z pracy, zapasów, marketingu, rezerwacji i innych systemów z szybszym odświeżaniem"
           },
           {
             "title": "Jak Sundae różni się od Excela?",
@@ -3110,8 +3110,8 @@ export const generatedLocalCopy = {
         ]
       },
       {
-        "id": "数据集成",
-        "icon": "集成",
+        "id": "data-integration",
+        "icon": "integration",
         "faqs": [
           {
             "title": "Sundae需要什么数据？",
@@ -3227,19 +3227,19 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "智能积分如何运作？",
-            "content": "智能积分用于提问、分析和推荐。\n\n**报告Lite：** 250基础 + 每个地点80\n**报告Plus：** 1,200基础 + 每个地点300\n**报告Pro：** 3,500基础 + 每个地点800\n**核心Lite：** 8,000基础 + 每个地点1,600\n**核心Pro：** 14,000基础 + 每个地点2,800\n**企业版：** 50,000+基础 + 自定义分配"
+            "content": "智能积分用于提问、分析和推荐。\n\n**报告Lite：** 250基础 + 每个地点80\n**报告Plus：** 1,200基础 + 每个地点300\n**报告Pro：** 3,500基础 + 每个地点800\n**核心Lite：** 8,000基础 + 每个地点1,600\n**核心Pro：** 14,000基础 + 每个地点2,800\n**企业版：** 50,000+基础 + 自定义分配 (Report Lite) (Report Plus) (Report Pro) (Core Lite) (Core Pro)"
           },
           {
             "title": "我能获得多少历史访问权限？",
-            "content": "**报告Lite：** 90天\n**报告Plus：** 1年\n**报告Pro：** 2年\n**核心Lite：** 2年\n**核心Pro：** 3年\n**企业版：** 5年以上或自定义保留"
+            "content": "**报告Lite：** 90天\n**报告Plus：** 1年\n**报告Pro：** 2年\n**核心Lite：** 2年\n**核心Pro：** 3年\n**企业版：** 5年以上或自定义保留 (Report Lite) (Report Plus) (Report Pro) (Core Lite) (Core Pro)"
           },
           {
             "title": "数据多久刷新一次？",
-            "content": "**报告Lite：** 手动上传\n**报告Plus：** 手动或按需智能解析\n**报告Pro：** 每日自动刷新\n**核心Lite：** 每4小时\n**核心Pro：** 每2小时\n**企业版：** 自定义节奏，包括在范围内的实时更新"
+            "content": "**报告Lite：** 手动上传\n**报告Plus：** 手动或按需智能解析\n**报告Pro：** 每日自动刷新\n**核心Lite：** 每4小时\n**核心Pro：** 每2小时\n**企业版：** 自定义节奏，包括在范围内的实时更新 (Report Lite) (Report Plus) (Report Pro) (Core Lite) (Core Pro)"
           },
           {
             "title": "我能获得自定义仪表板吗？",
-            "content": "**报告层级：** 预构建仪表板\n**核心Lite：** 最多30个自定义仪表板\n**核心Pro：** 最多75个自定义仪表板\n**企业版：** 无限自定义仪表板"
+            "content": "**报告层级：** 预构建仪表板\n**核心Lite：** 最多30个自定义仪表板\n**核心Pro：** 最多75个自定义仪表板\n**企业版：** 无限自定义仪表板 (Core Lite) (Core Pro)"
           }
         ]
       },
@@ -3303,7 +3303,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae与POS报告有什么不同？",
-            "content": "**POS报告：** 一个系统，有限的上下文，手动解释\n\n**Sundae报告：** POS分析加基准、建议和模式检测\n\n**Sundae核心：** 报告中的所有内容加上来自劳动力、库存、营销、预订和其他系统的统一数据，刷新速度更快"
+            "content": "**POS报告：** 一个系统，有限的上下文，手动解释\n\n**Sundae Report：** POS分析加基准、建议和模式检测\n\n**Sundae Core：** 报告中的所有内容加上来自劳动力、库存、营销、预订和其他系统的统一数据，刷新速度更快"
           },
           {
             "title": "Sundae与Excel有什么不同？",
@@ -3388,8 +3388,8 @@ export const generatedLocalCopy = {
         ]
       },
       {
-        "id": "データ統合",
-        "icon": "統合",
+        "id": "data-integration",
+        "icon": "integration",
         "faqs": [
           {
             "title": "Sundaeにはどのデータが必要ですか？",
@@ -3581,7 +3581,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "SundaeはPOSレポートとどう違うのか？",
-            "content": "**POSレポート:** 一つのシステム、限られたコンテキスト、手動解釈\n\n**Sundae Report:** POS分析に加え、ベンチマーク、推奨事項、パターン検出"
+            "content": "**POSレポート:** 一つのシステム、限られたコンテキスト、手動解釈\n\n**Sundae Report:** POS分析に加え、ベンチマーク、推奨事項、パターン検出 (Sundae Core)"
           },
           {
             "title": "SundaeはExcelとどう違うのか？",
@@ -3666,8 +3666,8 @@ export const generatedLocalCopy = {
         ]
       },
       {
-        "id": "데이터 통합",
-        "icon": "통합",
+        "id": "data-integration",
+        "icon": "integration",
         "faqs": [
           {
             "title": "Sundae에 필요한 데이터는 무엇인가요?",
@@ -3783,19 +3783,19 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "인텔리전스 크레딧은 어떻게 작동하나요?",
-            "content": "인텔리전스 크레딧은 질문, 분석 및 추천을 지원합니다.\n\n**리포트 라이트:** 250 기본 + 위치당 80\n**리포트 플러스:** 1,200 기본 + 위치당 300\n**리포트 프로:** 3,500 기본 + 위치당 800\n**코어 라이트:** 8,000 기본 + 위치당 1,600\n**코어 프로:** 14,000 기본 + 위치당 2,800\n**엔터프라이즈:** 50,000+ 기본 + 맞춤 할당"
+            "content": "인텔리전스 크레딧은 질문, 분석 및 추천을 지원합니다.\n\n**Report Lite:** 250 기본 + 위치당 80\n**Report Plus:** 1,200 기본 + 위치당 300\n**Report Pro:** 3,500 기본 + 위치당 800\n**Core Lite:** 8,000 기본 + 위치당 1,600\n**Core Pro:** 14,000 기본 + 위치당 2,800\n**엔터프라이즈:** 50,000+ 기본 + 맞춤 할당"
           },
           {
             "title": "얼마나 많은 과거 데이터에 접근할 수 있나요?",
-            "content": "**리포트 라이트:** 90일\n**리포트 플러스:** 1년\n**리포트 프로:** 2년\n**코어 라이트:** 2년\n**코어 프로:** 3년\n**엔터프라이즈:** 5년 이상 또는 맞춤 보존"
+            "content": "**Report Lite:** 90일\n**Report Plus:** 1년\n**Report Pro:** 2년\n**Core Lite:** 2년\n**Core Pro:** 3년\n**엔터프라이즈:** 5년 이상 또는 맞춤 보존"
           },
           {
             "title": "데이터는 얼마나 자주 새로 고쳐지나요?",
-            "content": "**리포트 라이트:** 수동 업로드\n**리포트 플러스:** 수동 또는 필요 시 스마트 파싱\n**리포트 프로:** 매일 자동 새로 고침\n**코어 라이트:** 4시간마다\n**코어 프로:** 2시간마다\n**엔터프라이즈:** 맞춤 주기, 범위에 따라 실시간 포함"
+            "content": "**Report Lite:** 수동 업로드\n**Report Plus:** 수동 또는 필요 시 스마트 파싱\n**Report Pro:** 매일 자동 새로 고침\n**Core Lite:** 4시간마다\n**Core Pro:** 2시간마다\n**엔터프라이즈:** 맞춤 주기, 범위에 따라 실시간 포함"
           },
           {
             "title": "맞춤 대시보드를 받을 수 있나요?",
-            "content": "**리포트 계층:** 미리 구축된 대시보드\n**코어 라이트:** 최대 30개의 맞춤 대시보드\n**코어 프로:** 최대 75개의 맞춤 대시보드\n**엔터프라이즈:** 무제한 맞춤 대시보드"
+            "content": "**리포트 계층:** 미리 구축된 대시보드\n**Core Lite:** 최대 30개의 맞춤 대시보드\n**Core Pro:** 최대 75개의 맞춤 대시보드\n**엔터프라이즈:** 무제한 맞춤 대시보드"
           }
         ]
       },
@@ -3896,8 +3896,8 @@ export const generatedLocalCopy = {
     ],
     "id": [
       {
-        "id": "memulai",
-        "icon": "pertumbuhan",
+        "id": "getting-started",
+        "icon": "growth",
         "faqs": [
           {
             "title": "Apa itu Sundae?",
@@ -3944,8 +3944,8 @@ export const generatedLocalCopy = {
         ]
       },
       {
-        "id": "integrasi-data",
-        "icon": "integrasi",
+        "id": "data-integration",
+        "icon": "integration",
         "faqs": [
           {
             "title": "Data apa yang dibutuhkan Sundae?",
@@ -4056,20 +4056,20 @@ export const generatedLocalCopy = {
         ]
       },
       {
-        "id": "fitur",
-        "icon": "kecepatan",
+        "id": "features",
+        "icon": "speed",
         "faqs": [
           {
             "title": "Bagaimana cara kerja kredit intelijen?",
-            "content": "Kredit intelijen mendukung pertanyaan, analisis, dan rekomendasi.\n\n**Laporan Lite:** 250 dasar + 80 per lokasi\n**Laporan Plus:** 1.200 dasar + 300 per lokasi\n**Laporan Pro:** 3.500 dasar + 800 per lokasi\n**Core Lite:** 8.000 dasar + 1.600 per lokasi\n**Core Pro:** 14.000 dasar + 2.800 per lokasi\n**Enterprise:** 50.000+ dasar + alokasi kustom"
+            "content": "Kredit intelijen mendukung pertanyaan, analisis, dan rekomendasi.\n\n**Report Lite:** 250 dasar + 80 per lokasi\n**Report Plus:** 1.200 dasar + 300 per lokasi\n**Report Pro:** 3.500 dasar + 800 per lokasi\n**Core Lite:** 8.000 dasar + 1.600 per lokasi\n**Core Pro:** 14.000 dasar + 2.800 per lokasi\n**Enterprise:** 50.000+ dasar + alokasi kustom"
           },
           {
             "title": "Berapa banyak akses historis yang saya dapatkan?",
-            "content": "**Laporan Lite:** 90 hari\n**Laporan Plus:** 1 tahun\n**Laporan Pro:** 2 tahun\n**Core Lite:** 2 tahun\n**Core Pro:** 3 tahun\n**Enterprise:** 5+ tahun atau retensi kustom"
+            "content": "**Report Lite:** 90 hari\n**Report Plus:** 1 tahun\n**Report Pro:** 2 tahun\n**Core Lite:** 2 tahun\n**Core Pro:** 3 tahun\n**Enterprise:** 5+ tahun atau retensi kustom"
           },
           {
             "title": "Seberapa sering data diperbarui?",
-            "content": "**Laporan Lite:** Unggahan manual\n**Laporan Plus:** Manual atau diparsing cerdas sesuai permintaan\n**Laporan Pro:** Pembaruan otomatis harian\n**Core Lite:** Setiap 4 jam\n**Core Pro:** Setiap 2 jam\n**Enterprise:** Irama kustom, termasuk waktu nyata saat ditentukan"
+            "content": "**Report Lite:** Unggahan manual\n**Report Plus:** Manual atau diparsing cerdas sesuai permintaan\n**Report Pro:** Pembaruan otomatis harian\n**Core Lite:** Setiap 4 jam\n**Core Pro:** Setiap 2 jam\n**Enterprise:** Irama kustom, termasuk waktu nyata saat ditentukan"
           },
           {
             "title": "Apakah saya mendapatkan dasbor kustom?",
@@ -4132,8 +4132,8 @@ export const generatedLocalCopy = {
         ]
       },
       {
-        "id": "perbandingan",
-        "icon": "seimbang",
+        "id": "comparisons",
+        "icon": "balance",
         "faqs": [
           {
             "title": "Apa perbedaan Sundae dengan laporan POS?",
@@ -4222,8 +4222,8 @@ export const generatedLocalCopy = {
         ]
       },
       {
-        "id": "tích-hợp-dữ-liệu",
-        "icon": "tích hợp",
+        "id": "data-integration",
+        "icon": "integration",
         "faqs": [
           {
             "title": "Sundae cần dữ liệu gì?",
@@ -4500,8 +4500,8 @@ export const generatedLocalCopy = {
         ]
       },
       {
-        "id": "integrare-date",
-        "icon": "integrare",
+        "id": "data-integration",
+        "icon": "integration",
         "faqs": [
           {
             "title": "Ce date are nevoie Sundae?",
@@ -4773,7 +4773,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Vad är 4D Intelligence Model?",
-            "content": "Sundaes ramverk för beslutsintelligens:\n\n**1D: Vad hände** - Försäljning, arbete och kostnadssanning\n**2D: Plan vs Faktisk** - Budget och prognosavvikelse\n**3D: Marknadskontext** - Benchmarking, kollegor och konkurrenter\n**4D: Vad är nästa** - Prognoser och rekommendationer\n\n**Report:** Full 1D och 2D plus begränsad 3D och 4D\n**Core:** Full tillgång över alla 4 dimensioner"
+            "content": "Sundaes ramverk för beslutsintelligens:\n\n**1D: Vad hände** - Försäljning, arbete och kostnadssanning\n**2D: Plan vs Faktisk** - Budget och prognosavvikelse\n**3D: Marknadskontext** - Benchmarking, kollegor och konkurrenter\n**4D: Vad är nästa** - Prognoser och rekommendationer\n\n**Report:** Full 1D och 2D plus begränsad 3D och 4D\n**Core:** Full tillgång över alla 4 dimensioner (Sundae)"
           }
         ]
       },
@@ -4971,7 +4971,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Hur skiljer sig Sundae från POS-rapportering?",
-            "content": "**POS-rapporter:** Ett system, begränsad kontext, manuell tolkning\n\n**Sundae Rapport:** POS-analys plus benchmarks, rekommendationer och mönsterigenkänning\n\n**Sundae Core:** Allt i Rapport plus enhetliga data från arbetskraft, lager, marknadsföring, reservationer och andra system med snabbare uppdateringar"
+            "content": "**POS-rapporter:** Ett system, begränsad kontext, manuell tolkning\n\n**Sundae Report:** POS-analys plus benchmarks, rekommendationer och mönsterigenkänning\n\n**Sundae Core:** Allt i Rapport plus enhetliga data från arbetskraft, lager, marknadsföring, reservationer och andra system med snabbare uppdateringar"
           },
           {
             "title": "Hur skiljer sig Sundae från Excel?",
@@ -5017,11 +5017,11 @@ export const generatedLocalCopy = {
           },
           {
             "title": "আমি কীভাবে শুরু করব?",
-            "content": "আপনার তিনটি বিকল্প রয়েছে:\n\n1. **ফ্রি শুরু করুন** - রিপোর্ট লাইটের জন্য সাইন আপ করুন (চিরকাল ফ্রি) এবং আপনার অপারেশনাল ডেটা আপলোড করুন যাতে আপনি তাত্ক্ষণিক বেঞ্চমার্কিং দেখতে পারেন। ক্রেডিট কার্ডের প্রয়োজন নেই।\n\n2. **আপনার মূল্য দেখুন** - আপনার অপারেশনের জন্য সঠিক মূল্য দেখতে pricing.sundae.io এ আমাদের ইন্টারেক্টিভ প্রাইসিং ক্যালকুলেটর ব্যবহার করুন।\n\n3. **ডেমো বুক করুন** - আমাদের দলের সাথে ১৫ মিনিটের ওয়াকথ্রু নির্ধারণ করুন যাতে আপনি আপনার ডেটার সাথে Sundae কার্যকরীভাবে দেখতে পারেন।"
+            "content": "আপনার তিনটি বিকল্প রয়েছে:\n\n1. **ফ্রি শুরু করুন** - Report Liteের জন্য সাইন আপ করুন (চিরকাল ফ্রি) এবং আপনার অপারেশনাল ডেটা আপলোড করুন যাতে আপনি তাত্ক্ষণিক বেঞ্চমার্কিং দেখতে পারেন। ক্রেডিট কার্ডের প্রয়োজন নেই।\n\n2. **আপনার মূল্য দেখুন** - আপনার অপারেশনের জন্য সঠিক মূল্য দেখতে pricing.sundae.io এ আমাদের ইন্টারেক্টিভ প্রাইসিং ক্যালকুলেটর ব্যবহার করুন।\n\n3. **ডেমো বুক করুন** - আমাদের দলের সাথে ১৫ মিনিটের ওয়াকথ্রু নির্ধারণ করুন যাতে আপনি আপনার ডেটার সাথে Sundae কার্যকরীভাবে দেখতে পারেন।"
           },
           {
             "title": "কি সত্যিই একটি ফ্রি টিয়ার আছে?",
-            "content": "হ্যাঁ। রিপোর্ট লাইট চিরকাল ফ্রি। আপনার POS ডেটা আপলোড করুন এবং ৫টি মূল মেট্রিকের বিরুদ্ধে তাত্ক্ষণিক বেঞ্চমার্কিং পান। যুক্তিসঙ্গত অপারেশনাল ব্যবহারের জন্য ফেয়ার-ইউজ নীতি প্রযোজ্য।"
+            "content": "হ্যাঁ। Report Lite চিরকাল ফ্রি। আপনার POS ডেটা আপলোড করুন এবং ৫টি মূল মেট্রিকের বিরুদ্ধে তাত্ক্ষণিক বেঞ্চমার্কিং পান। যুক্তিসঙ্গত অপারেশনাল ব্যবহারের জন্য ফেয়ার-ইউজ নীতি প্রযোজ্য।"
           },
           {
             "title": "রিপোর্ট এবং কোরের মধ্যে পার্থক্য কী?",
@@ -5056,16 +5056,16 @@ export const generatedLocalCopy = {
         ]
       },
       {
-        "id": "ডেটা-ইন্টিগ্রেশন",
-        "icon": "ইন্টিগ্রেশন",
+        "id": "data-integration",
+        "icon": "integration",
         "faqs": [
           {
             "title": "Sundae-কে কোন তথ্যের প্রয়োজন?",
-            "content": "**রিপোর্ট লাইটের জন্য ন্যূনতম:**\n• POS বিক্রয় তথ্য (CSV রপ্তানি)\n\n**কোরের জন্য:**\n• API-এর মাধ্যমে POS সিস্টেম\n• শ্রম বা কর্মী সিস্টেম\n• ইনভেন্টরি সিস্টেম\n• মার্কেটিং প্ল্যাটফর্ম\n• রিজার্ভেশন সিস্টেম\n\nরিপোর্ট POS আপলোডের চারপাশে তৈরি। কোর হল যেখানে আপনি বৃহত্তর অপারেটিং স্ট্যাক সংযুক্ত করেন।"
+            "content": "**Report Liteের জন্য ন্যূনতম:**\n• POS বিক্রয় তথ্য (CSV রপ্তানি)\n\n**কোরের জন্য:**\n• API-এর মাধ্যমে POS সিস্টেম\n• শ্রম বা কর্মী সিস্টেম\n• ইনভেন্টরি সিস্টেম\n• মার্কেটিং প্ল্যাটফর্ম\n• রিজার্ভেশন সিস্টেম\n\nরিপোর্ট POS আপলোডের চারপাশে তৈরি। কোর হল যেখানে আপনি বৃহত্তর অপারেটিং স্ট্যাক সংযুক্ত করেন।"
           },
           {
             "title": "আমি কিভাবে আমার তথ্য Sundae-তে নিয়ে আসব?",
-            "content": "**রিপোর্ট লাইট:** ম্যানুয়াল CSV আপলোড\n\n**রিপোর্ট প্লাস:** PDF, Excel ফাইল, বা স্ক্রিনশট আপলোড করুন। Sundae তথ্য বের করে এবং আপনি প্রক্রিয়াকরণের আগে এটি পর্যালোচনা করেন।\n\n**রিপোর্ট প্রো এবং কোর:** API সংযোগের মাধ্যমে স্বয়ংক্রিয় গ্রহণ।"
+            "content": "**Report Lite:** ম্যানুয়াল CSV আপলোড\n\n**Report Plus:** PDF, Excel ফাইল, বা স্ক্রিনশট আপলোড করুন। Sundae তথ্য বের করে এবং আপনি প্রক্রিয়াকরণের আগে এটি পর্যালোচনা করেন।\n\n**Report Pro এবং কোর:** API সংযোগের মাধ্যমে স্বয়ংক্রিয় গ্রহণ।"
           },
           {
             "title": "আপনারা কোন POS সিস্টেমগুলির সাথে ইন্টিগ্রেট করেন?",
@@ -5073,11 +5073,11 @@ export const generatedLocalCopy = {
           },
           {
             "title": "আমি কি একাধিক POS সিস্টেমের সাথে Sundae ব্যবহার করতে পারি?",
-            "content": "**কোর লাইট:** যখন সব লোকেশন একটি POS ব্যবহার করে তখন এটি সেরা\n\n**কোর প্রো এবং এন্টারপ্রাইজ:** হ্যাঁ। বিভিন্ন লোকেশনে বিভিন্ন POS সিস্টেম সমর্থিত, এবং Sundae আপেল থেকে আপেল তুলনার জন্য তথ্য স্বাভাবিক করে।\n\n**রিপোর্ট:** যেকোনো POS কাজ করে কারণ আপলোডগুলি ম্যানুয়াল।"
+            "content": "**Core Lite:** যখন সব লোকেশন একটি POS ব্যবহার করে তখন এটি সেরা\n\n**Core Pro এবং এন্টারপ্রাইজ:** হ্যাঁ। বিভিন্ন লোকেশনে বিভিন্ন POS সিস্টেম সমর্থিত, এবং Sundae আপেল থেকে আপেল তুলনার জন্য তথ্য স্বাভাবিক করে।\n\n**রিপোর্ট:** যেকোনো POS কাজ করে কারণ আপলোডগুলি ম্যানুয়াল।"
           },
           {
             "title": "বাস্তবায়নে কত সময় লাগে?",
-            "content": "**রিপোর্ট লাইট:** আপলোডের পরে তাৎক্ষণিক\n**রিপোর্ট প্লাস / প্রো:** 1-2 দিন\n**কোর লাইট / প্রো:** 1-2 সপ্তাহ\n**এন্টারপ্রাইজ:** পরিধির উপর নির্ভর করে 2-4 সপ্তাহ"
+            "content": "**Report Lite:** আপলোডের পরে তাৎক্ষণিক\n**Report Plus / প্রো:** 1-2 দিন\n**Core Lite / প্রো:** 1-2 সপ্তাহ\n**এন্টারপ্রাইজ:** পরিধির উপর নির্ভর করে 2-4 সপ্তাহ"
           },
           {
             "title": "যদি আমি বাতিল করি তবে আমার তথ্যের কি হবে?",
@@ -5147,7 +5147,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae এর দাম কত?",
-            "content": "মূল্য নির্ভর করে:\n• রিপোর্ট বনাম কোর\n• অবস্থানের সংখ্যা\n• নির্বাচিত মডিউল\n• ওয়াচটাওয়ার অন্তর্ভুক্ত কিনা\n\n**রিপোর্ট লাইট:** চিরকাল ফ্রি\n\nনির্দিষ্ট মূল্য জানার জন্য, pricing.sundae.io ব্যবহার করুন."
+            "content": "মূল্য নির্ভর করে:\n• রিপোর্ট বনাম কোর\n• অবস্থানের সংখ্যা\n• নির্বাচিত মডিউল\n• Watchtower অন্তর্ভুক্ত কিনা\n\n**Report Lite:** চিরকাল ফ্রি\n\nনির্দিষ্ট মূল্য জানার জন্য, pricing.sundae.io ব্যবহার করুন."
           },
           {
             "title": "কোনও সেটআপ ফি আছে কি?",
@@ -5173,19 +5173,19 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "বুদ্ধিমত্তা ক্রেডিট কিভাবে কাজ করে?",
-            "content": "বুদ্ধিমত্তা ক্রেডিট প্রশ্ন, বিশ্লেষণ এবং সুপারিশকে শক্তি দেয়।\n\n**রিপোর্ট লাইট:** ২৫০ বেস + ৮০ প্রতি লোকেশন\n**রিপোর্ট প্লাস:** ১,২০০ বেস + ৩০০ প্রতি লোকেশন\n**রিপোর্ট প্রো:** ৩,৫০০ বেস + ৮০০ প্রতি লোকেশন\n**কোর লাইট:** ৮,০০০ বেস + ১,৬০০ প্রতি লোকেশন\n**কোর প্রো:** ১৪,০০০ বেস + ২,৮০০ প্রতি লোকেশন\n**এন্টারপ্রাইজ:** ৫০,০০০+ বেস + কাস্টম বরাদ্দ"
+            "content": "বুদ্ধিমত্তা ক্রেডিট প্রশ্ন, বিশ্লেষণ এবং সুপারিশকে শক্তি দেয়।\n\n**Report Lite:** ২৫০ বেস + ৮০ প্রতি লোকেশন\n**Report Plus:** ১,২০০ বেস + ৩০০ প্রতি লোকেশন\n**Report Pro:** ৩,৫০০ বেস + ৮০০ প্রতি লোকেশন\n**Core Lite:** ৮,০০০ বেস + ১,৬০০ প্রতি লোকেশন\n**Core Pro:** ১৪,০০০ বেস + ২,৮০০ প্রতি লোকেশন\n**এন্টারপ্রাইজ:** ৫০,০০০+ বেস + কাস্টম বরাদ্দ"
           },
           {
             "title": "আমি কতটা ঐতিহাসিক অ্যাক্সেস পাব?",
-            "content": "**রিপোর্ট লাইট:** ৯০ দিন\n**রিপোর্ট প্লাস:** ১ বছর\n**রিপোর্ট প্রো:** ২ বছর\n**কোর লাইট:** ২ বছর\n**কোর প্রো:** ৩ বছর\n**এন্টারপ্রাইজ:** ৫+ বছর বা কাস্টম রিটেনশন"
+            "content": "**Report Lite:** ৯০ দিন\n**Report Plus:** ১ বছর\n**Report Pro:** ২ বছর\n**Core Lite:** ২ বছর\n**Core Pro:** ৩ বছর\n**এন্টারপ্রাইজ:** ৫+ বছর বা কাস্টম রিটেনশন"
           },
           {
             "title": "ডেটা কত ঘন ঘন রিফ্রেশ হয়?",
-            "content": "**রিপোর্ট লাইট:** ম্যানুয়াল আপলোড\n**রিপোর্ট প্লাস:** ম্যানুয়াল বা স্মার্ট-পার্সড অন ডিমান্ড\n**রিপোর্ট প্রো:** দৈনিক স্বয়ংক্রিয় রিফ্রেশ\n**কোর লাইট:** প্রতি ৪ ঘণ্টায়\n**কোর প্রো:** প্রতি ২ ঘণ্টায়\n**এন্টারপ্রাইজ:** কাস্টম কেডেন্স, স্কোপ করা হলে রিয়েল টাইম সহ"
+            "content": "**Report Lite:** ম্যানুয়াল আপলোড\n**Report Plus:** ম্যানুয়াল বা স্মার্ট-পার্সড অন ডিমান্ড\n**Report Pro:** দৈনিক স্বয়ংক্রিয় রিফ্রেশ\n**Core Lite:** প্রতি ৪ ঘণ্টায়\n**Core Pro:** প্রতি ২ ঘণ্টায়\n**এন্টারপ্রাইজ:** কাস্টম কেডেন্স, স্কোপ করা হলে রিয়েল টাইম সহ"
           },
           {
             "title": "আমি কি কাস্টম ড্যাশবোর্ড পাব?",
-            "content": "**রিপোর্ট স্তর:** প্রিবিল্ট ড্যাশবোর্ড\n**কোর লাইট:** ৩০টি পর্যন্ত কাস্টম ড্যাশবোর্ড\n**কোর প্রো:** ৭৫টি পর্যন্ত কাস্টম ড্যাশবোর্ড\n**এন্টারপ্রাইজ:** অসীম কাস্টম ড্যাশবোর্ড"
+            "content": "**রিপোর্ট স্তর:** প্রিবিল্ট ড্যাশবোর্ড\n**Core Lite:** ৩০টি পর্যন্ত কাস্টম ড্যাশবোর্ড\n**Core Pro:** ৭৫টি পর্যন্ত কাস্টম ড্যাশবোর্ড\n**এন্টারপ্রাইজ:** অসীম কাস্টম ড্যাশবোর্ড"
           }
         ]
       },
@@ -5249,7 +5249,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae কীভাবে POS রিপোর্টিং থেকে আলাদা?",
-            "content": "**POS রিপোর্ট:** একটি সিস্টেম, সীমিত প্রসঙ্গ, ম্যানুয়াল ব্যাখ্যা\n\n**Sundae রিপোর্ট:** POS বিশ্লেষণ সহ বেঞ্চমার্ক, সুপারিশ এবং প্যাটার্ন সনাক্তকরণ\n\n**Sundae কোর:** রিপোর্টের সবকিছু সহ শ্রম, ইনভেন্টরি, মার্কেটিং, রিজার্ভেশন এবং অন্যান্য সিস্টেম থেকে একীভূত ডেটা যা দ্রুত রিফ্রেশ হয়"
+            "content": "**POS রিপোর্ট:** একটি সিস্টেম, সীমিত প্রসঙ্গ, ম্যানুয়াল ব্যাখ্যা\n\n**Sundae রিপোর্ট:** POS বিশ্লেষণ সহ বেঞ্চমার্ক, সুপারিশ এবং প্যাটার্ন সনাক্তকরণ\n\n**Sundae কোর:** রিপোর্টের সবকিছু সহ শ্রম, ইনভেন্টরি, মার্কেটিং, রিজার্ভেশন এবং অন্যান্য সিস্টেম থেকে একীভূত ডেটা যা দ্রুত রিফ্রেশ হয় (Sundae Report) (Sundae Core)"
           },
           {
             "title": "Sundae কীভাবে Excel থেকে আলাদা?",
@@ -5334,8 +5334,8 @@ export const generatedLocalCopy = {
         ]
       },
       {
-        "id": "การรวมข้อมูล",
-        "icon": "การรวมระบบ",
+        "id": "data-integration",
+        "icon": "integration",
         "faqs": [
           {
             "title": "Sundae ต้องการข้อมูลอะไร?",
@@ -5612,8 +5612,8 @@ export const generatedLocalCopy = {
         ]
       },
       {
-        "id": "integrasi-data",
-        "icon": "integrasi",
+        "id": "data-integration",
+        "icon": "integration",
         "faqs": [
           {
             "title": "Data apa yang diperlukan oleh Sundae?",

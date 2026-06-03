@@ -1,16 +1,16 @@
 // Generated website local copy overrides for src/app/integrations/page.tsx.
-// OpenAI generated completed chunks first; Google Translate fallback filled remaining quota-limited chunks.
+// Structural fields and protected glossary terms normalized from English source; review prose translations before release.
 export const generatedLocalCopy = {
   "integrationCategoriesByLocale": {
     "ar": [
       {
         "category": "نقطة البيع (POS)",
-        "icon": "مطعم",
+        "icon": "restaurant",
         "status": "مباشر",
         "systems": [
           "أوراكل ميكروس سيمفوني",
-          "مربع",
-          "نخب",
+          "Square",
+          "Toast",
           "البرسيم",
           "PostgreSQL (قاعدة البيانات المباشرة)",
           "SQL Server / Azure SQL (قاعدة بيانات مباشرة)"
@@ -18,7 +18,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "العمل والجدولة",
-        "icon": "العمل",
+        "icon": "labor",
         "status": "القادمة",
         "systems": [
           "7 تحولات",
@@ -28,7 +28,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "المخزون والتوافر",
-        "icon": "المخزون",
+        "icon": "inventory",
         "status": "القادمة",
         "systems": [
           "MarketMan",
@@ -38,7 +38,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "الشراء والتوريد",
-        "icon": "شراء",
+        "icon": "purchasing",
         "status": "القادمة",
         "systems": [
           "MarketMan"
@@ -46,7 +46,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "التسليم و 3PD",
-        "icon": "السرعة",
+        "icon": "speed",
         "status": "القادمة",
         "systems": [
           "تسليم مباشر",
@@ -57,7 +57,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "الحجوزات وتدفق الضيوف",
-        "icon": "التحفظات",
+        "icon": "reservations",
         "status": "القادمة",
         "systems": [
           "سبع غرف",
@@ -68,7 +68,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "التسويق والحملات",
-        "icon": "التسويق",
+        "icon": "marketing",
         "status": "القادمة",
         "systems": [
           "ميتا (فيسبوك/إنستغرام)",
@@ -78,7 +78,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "تجربة الضيوف وملاحظاتهم",
-        "icon": "محادثة",
+        "icon": "conversation",
         "status": "القادمة",
         "systems": [
           "تقييمات جوجل",
@@ -88,17 +88,17 @@ export const generatedLocalCopy = {
       },
       {
         "category": "ضيف إدارة علاقات العملاء",
-        "icon": "مشغلي",
+        "icon": "operators",
         "status": "القادمة",
         "systems": [
           "سبع غرف",
-          "نخب",
+          "Toast",
           "أولو"
         ]
       },
       {
         "category": "المحاسبة والمالية",
-        "icon": "تمويل",
+        "icon": "finance",
         "status": "القادمة",
         "systems": [
           "كويكبوكس",
@@ -111,12 +111,12 @@ export const generatedLocalCopy = {
     "es": [
       {
         "category": "Punto de Venta (POS)",
-        "icon": "restaurante",
+        "icon": "restaurant",
         "status": "en vivo",
         "systems": [
           "Sinfonía Oracle MICROS",
-          "cuadrado",
-          "Brindis",
+          "Square",
+          "Toast",
           "trébol",
           "PostgreSQL (base de datos directa)",
           "SQL Server/Azure SQL (base de datos directa)"
@@ -124,7 +124,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Trabajo y programación",
-        "icon": "mano de obra",
+        "icon": "labor",
         "status": "Próximo",
         "systems": [
           "7 turnos",
@@ -134,7 +134,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Inventario y disponibilidad",
-        "icon": "inventario",
+        "icon": "inventory",
         "status": "Próximo",
         "systems": [
           "hombre de mercado",
@@ -144,7 +144,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Compras y adquisiciones",
-        "icon": "comprando",
+        "icon": "purchasing",
         "status": "Próximo",
         "systems": [
           "hombre de mercado"
@@ -152,7 +152,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Entrega y 3PD",
-        "icon": "velocidad",
+        "icon": "speed",
         "status": "Próximo",
         "systems": [
           "Entregar",
@@ -163,7 +163,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Reservas y flujo de huéspedes",
-        "icon": "reservas",
+        "icon": "reservations",
         "status": "Próximo",
         "systems": [
           "Siete habitaciones",
@@ -174,7 +174,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Marketing y campañas",
-        "icon": "márketing",
+        "icon": "marketing",
         "status": "Próximo",
         "systems": [
           "Meta (Facebook/Instagram)",
@@ -184,7 +184,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Experiencia y comentarios de los huéspedes",
-        "icon": "conversación",
+        "icon": "conversation",
         "status": "Próximo",
         "systems": [
           "Reseñas de Google",
@@ -194,17 +194,17 @@ export const generatedLocalCopy = {
       },
       {
         "category": "CRM para invitados",
-        "icon": "operadores",
+        "icon": "operators",
         "status": "Próximo",
         "systems": [
           "Siete habitaciones",
-          "Brindis",
+          "Toast",
           "Olo"
         ]
       },
       {
         "category": "Contabilidad y Finanzas",
-        "icon": "finanzas",
+        "icon": "finance",
         "status": "Próximo",
         "systems": [
           "Libros rápidos",
@@ -221,7 +221,7 @@ export const generatedLocalCopy = {
         "status": "Leef",
         "systems": [
           "Orakel MICROS Simfonie",
-          "Vierkant",
+          "Square",
           "Toast",
           "Klaver",
           "PostgreSQL (directe database)",
@@ -230,7 +230,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Arbeid en planning",
-        "icon": "arbeid",
+        "icon": "labor",
         "status": "Aankomend",
         "systems": [
           "7 ploegen",
@@ -240,7 +240,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Inventaris & Beschikbaarheid",
-        "icon": "inventaris",
+        "icon": "inventory",
         "status": "Aankomend",
         "systems": [
           "MarktMan",
@@ -250,7 +250,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Inkoop en inkoop",
-        "icon": "inkoop",
+        "icon": "purchasing",
         "status": "Aankomend",
         "systems": [
           "MarktMan"
@@ -258,7 +258,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Levering & 3PD",
-        "icon": "snelheid",
+        "icon": "speed",
         "status": "Aankomend",
         "systems": [
           "Bezorgd",
@@ -269,7 +269,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Reserveringen en gastenstroom",
-        "icon": "reserveringen",
+        "icon": "reservations",
         "status": "Aankomend",
         "systems": [
           "Zeven Kamers",
@@ -290,7 +290,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Gastervaring en feedback",
-        "icon": "gesprek",
+        "icon": "conversation",
         "status": "Aankomend",
         "systems": [
           "Google-recensies",
@@ -300,7 +300,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Gast-CRM",
-        "icon": "exploitanten",
+        "icon": "operators",
         "status": "Aankomend",
         "systems": [
           "Zeven Kamers",
@@ -310,7 +310,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Boekhouding en Financiën",
-        "icon": "financiën",
+        "icon": "finance",
         "status": "Aankomend",
         "systems": [
           "Snelle Boeken",
@@ -322,13 +322,13 @@ export const generatedLocalCopy = {
     ],
     "pt": [
       {
-        "category": "Ponto de Venda (PDV)",
-        "icon": "restaurante",
+        "category": "Ponto de Venda (POS)",
+        "icon": "restaurant",
         "status": "Ao vivo",
         "systems": [
           "Oracle MICROS Simphony",
-          "Quadrado",
-          "Brinde",
+          "Square",
+          "Toast",
           "Trevo",
           "PostgreSQL (banco de dados direto)",
           "SQL Server/Azure SQL (banco de dados direto)"
@@ -336,7 +336,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Mão de obra e agendamento",
-        "icon": "trabalho",
+        "icon": "labor",
         "status": "Próximos",
         "systems": [
           "7 turnos",
@@ -346,7 +346,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Inventário e Disponibilidade",
-        "icon": "inventário",
+        "icon": "inventory",
         "status": "Próximos",
         "systems": [
           "Homem de Mercado",
@@ -356,7 +356,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Compras e aquisições",
-        "icon": "comprando",
+        "icon": "purchasing",
         "status": "Próximos",
         "systems": [
           "Homem de Mercado"
@@ -364,7 +364,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Entrega e 3PD",
-        "icon": "velocidade",
+        "icon": "speed",
         "status": "Próximos",
         "systems": [
           "Entregar",
@@ -375,7 +375,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Reservas e Fluxo de Hóspedes",
-        "icon": "reservas",
+        "icon": "reservations",
         "status": "Próximos",
         "systems": [
           "Sete Quartos",
@@ -396,7 +396,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Experiência e feedback dos hóspedes",
-        "icon": "conversa",
+        "icon": "conversation",
         "status": "Próximos",
         "systems": [
           "Avaliações do Google",
@@ -406,17 +406,17 @@ export const generatedLocalCopy = {
       },
       {
         "category": "CRM convidado",
-        "icon": "operadores",
+        "icon": "operators",
         "status": "Próximos",
         "systems": [
           "Sete Quartos",
-          "Brinde",
+          "Toast",
           "Olo"
         ]
       },
       {
         "category": "Contabilidade e Finanças",
-        "icon": "finanças",
+        "icon": "finance",
         "status": "Próximos",
         "systems": [
           "QuickBooks",
@@ -428,12 +428,12 @@ export const generatedLocalCopy = {
     ],
     "fr": [
       {
-        "category": "Point de vente (PDV)",
+        "category": "Point de vente (POS)",
         "icon": "restaurant",
         "status": "En direct",
         "systems": [
           "Oracle MICROS Simphonie",
-          "Carré",
+          "Square",
           "Toast",
           "Trèfle",
           "PostgreSQL (base de données directe)",
@@ -442,7 +442,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Travail et planning",
-        "icon": "travail",
+        "icon": "labor",
         "status": "À venir",
         "systems": [
           "7 équipes",
@@ -452,7 +452,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Inventaire et disponibilité",
-        "icon": "inventaire",
+        "icon": "inventory",
         "status": "À venir",
         "systems": [
           "Homme de marché",
@@ -462,7 +462,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Achats et approvisionnement",
-        "icon": "achat",
+        "icon": "purchasing",
         "status": "À venir",
         "systems": [
           "Homme de marché"
@@ -470,7 +470,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Livraison et 3PD",
-        "icon": "vitesse",
+        "icon": "speed",
         "status": "À venir",
         "systems": [
           "Délivrer",
@@ -481,7 +481,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Réservations et flux d'invités",
-        "icon": "réservations",
+        "icon": "reservations",
         "status": "À venir",
         "systems": [
           "Sept chambres",
@@ -492,7 +492,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Marketing et campagnes",
-        "icon": "commercialisation",
+        "icon": "marketing",
         "status": "À venir",
         "systems": [
           "Méta (Facebook / Instagram)",
@@ -512,7 +512,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "CRM invité",
-        "icon": "opérateurs",
+        "icon": "operators",
         "status": "À venir",
         "systems": [
           "Sept chambres",
@@ -522,7 +522,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Comptabilité et Finance",
-        "icon": "finances",
+        "icon": "finance",
         "status": "À venir",
         "systems": [
           "Livres rapides",
@@ -535,11 +535,11 @@ export const generatedLocalCopy = {
     "de": [
       {
         "category": "Point of Sale (POS)",
-        "icon": "Restaurant",
+        "icon": "restaurant",
         "status": "Lebe",
         "systems": [
           "Oracle MICROS Simphony",
-          "Quadratisch",
+          "Square",
           "Toast",
           "Klee",
           "PostgreSQL (Direct DB)",
@@ -548,7 +548,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Arbeit & Terminplanung",
-        "icon": "Arbeit",
+        "icon": "labor",
         "status": "Demnächst",
         "systems": [
           "7 Schichten",
@@ -558,7 +558,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Bestand und Verfügbarkeit",
-        "icon": "Inventar",
+        "icon": "inventory",
         "status": "Demnächst",
         "systems": [
           "MarketMan",
@@ -568,7 +568,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Einkauf & Beschaffung",
-        "icon": "Einkauf",
+        "icon": "purchasing",
         "status": "Demnächst",
         "systems": [
           "MarketMan"
@@ -576,7 +576,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Lieferung & 3PD",
-        "icon": "Geschwindigkeit",
+        "icon": "speed",
         "status": "Demnächst",
         "systems": [
           "Liefern",
@@ -587,7 +587,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Reservierungen und Gästefluss",
-        "icon": "Reservierungen",
+        "icon": "reservations",
         "status": "Demnächst",
         "systems": [
           "SiebenZimmer",
@@ -598,7 +598,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Marketing & Kampagnen",
-        "icon": "Marketing",
+        "icon": "marketing",
         "status": "Demnächst",
         "systems": [
           "Meta (Facebook / Instagram)",
@@ -608,7 +608,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Gästeerfahrung und Feedback",
-        "icon": "Gespräch",
+        "icon": "conversation",
         "status": "Demnächst",
         "systems": [
           "Google-Bewertungen",
@@ -618,7 +618,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Gast-CRM",
-        "icon": "Betreiber",
+        "icon": "operators",
         "status": "Demnächst",
         "systems": [
           "SiebenZimmer",
@@ -628,7 +628,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Buchhaltung und Finanzen",
-        "icon": "Finanzen",
+        "icon": "finance",
         "status": "Demnächst",
         "systems": [
           "QuickBooks",
@@ -641,12 +641,12 @@ export const generatedLocalCopy = {
     "ur": [
       {
         "category": "پوائنٹ آف سیل (POS)",
-        "icon": "ریستوراں",
+        "icon": "restaurant",
         "status": "جیو",
         "systems": [
           "اوریکل مائکروس سمفونی۔",
-          "مربع",
-          "ٹوسٹ",
+          "Square",
+          "Toast",
           "سہ شاخہ",
           "PostgreSQL (براہ راست DB)",
           "SQL سرور / Azure SQL (براہ راست DB)"
@@ -654,7 +654,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "لیبر اور شیڈولنگ",
-        "icon": "مزدوری",
+        "icon": "labor",
         "status": "آنے والا",
         "systems": [
           "7 شفٹیں",
@@ -664,7 +664,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "انوینٹری اور دستیابی",
-        "icon": "انوینٹری",
+        "icon": "inventory",
         "status": "آنے والا",
         "systems": [
           "مارکیٹ مین",
@@ -674,7 +674,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "خریداری اور حصولی",
-        "icon": "خریداری",
+        "icon": "purchasing",
         "status": "آنے والا",
         "systems": [
           "مارکیٹ مین"
@@ -682,7 +682,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "ڈیلیوری اور 3PD",
-        "icon": "رفتار",
+        "icon": "speed",
         "status": "آنے والا",
         "systems": [
           "پہنچانا",
@@ -693,7 +693,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "ریزرویشنز اور گیسٹ فلو",
-        "icon": "تحفظات",
+        "icon": "reservations",
         "status": "آنے والا",
         "systems": [
           "سیون رومز",
@@ -704,7 +704,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "مارکیٹنگ اور مہمات",
-        "icon": "مارکیٹنگ",
+        "icon": "marketing",
         "status": "آنے والا",
         "systems": [
           "میٹا (فیس بک / انسٹاگرام)",
@@ -714,7 +714,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "مہمان کا تجربہ اور تاثرات",
-        "icon": "بات چیت",
+        "icon": "conversation",
         "status": "آنے والا",
         "systems": [
           "گوگل کے جائزے",
@@ -724,17 +724,17 @@ export const generatedLocalCopy = {
       },
       {
         "category": "مہمان CRM",
-        "icon": "آپریٹرز",
+        "icon": "operators",
         "status": "آنے والا",
         "systems": [
           "سیون رومز",
-          "ٹوسٹ",
+          "Toast",
           "اولو"
         ]
       },
       {
         "category": "اکاؤنٹنگ اور فنانس",
-        "icon": "فنانس",
+        "icon": "finance",
         "status": "آنے والا",
         "systems": [
           "QuickBooks",
@@ -747,12 +747,12 @@ export const generatedLocalCopy = {
     "it": [
       {
         "category": "Punto vendita (POS)",
-        "icon": "ristorante",
+        "icon": "restaurant",
         "status": "Vivi",
         "systems": [
           "Sinfonia Oracle MICROS",
-          "Quadrato",
-          "Pane tostato",
+          "Square",
+          "Toast",
           "Trifoglio",
           "PostgreSQL (DB diretto)",
           "SQL Server/SQL di Azure (DB diretto)"
@@ -760,7 +760,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Lavoro e pianificazione",
-        "icon": "lavoro",
+        "icon": "labor",
         "status": "Prossimamente",
         "systems": [
           "7 turni",
@@ -770,7 +770,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Inventario e disponibilità",
-        "icon": "inventario",
+        "icon": "inventory",
         "status": "Prossimamente",
         "systems": [
           "MarketMan",
@@ -780,7 +780,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Acquisti e approvvigionamenti",
-        "icon": "acquisto",
+        "icon": "purchasing",
         "status": "Prossimamente",
         "systems": [
           "MarketMan"
@@ -788,7 +788,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Consegna e 3PD",
-        "icon": "velocità",
+        "icon": "speed",
         "status": "Prossimamente",
         "systems": [
           "Consegnare",
@@ -799,7 +799,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Prenotazioni e flusso degli ospiti",
-        "icon": "prenotazioni",
+        "icon": "reservations",
         "status": "Prossimamente",
         "systems": [
           "SetteStanze",
@@ -810,7 +810,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Marketing e campagne",
-        "icon": "commercializzazione",
+        "icon": "marketing",
         "status": "Prossimamente",
         "systems": [
           "Meta (Facebook/Instagram)",
@@ -820,7 +820,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Esperienza e feedback degli ospiti",
-        "icon": "conversazione",
+        "icon": "conversation",
         "status": "Prossimamente",
         "systems": [
           "Recensioni di Google",
@@ -830,17 +830,17 @@ export const generatedLocalCopy = {
       },
       {
         "category": "CRM ospite",
-        "icon": "operatori",
+        "icon": "operators",
         "status": "Prossimamente",
         "systems": [
           "SetteStanze",
-          "Pane tostato",
+          "Toast",
           "Olo"
         ]
       },
       {
         "category": "Contabilità e finanza",
-        "icon": "finanza",
+        "icon": "finance",
         "status": "Prossimamente",
         "systems": [
           "QuickBooks",
@@ -853,12 +853,12 @@ export const generatedLocalCopy = {
     "tr": [
       {
         "category": "Satış Noktası (POS)",
-        "icon": "restoran",
+        "icon": "restaurant",
         "status": "Canlı",
         "systems": [
           "Oracle MICROS Senfoni",
-          "Kare",
-          "Tost",
+          "Square",
+          "Toast",
           "Yonca",
           "PostgreSQL (Doğrudan Veritabanı)",
           "SQL Server / Azure SQL (Doğrudan Veritabanı)"
@@ -866,7 +866,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "İşgücü ve Planlama",
-        "icon": "emek",
+        "icon": "labor",
         "status": "Yaklaşan",
         "systems": [
           "7 vardiya",
@@ -876,7 +876,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Envanter ve Kullanılabilirlik",
-        "icon": "envanter",
+        "icon": "inventory",
         "status": "Yaklaşan",
         "systems": [
           "Pazar Adamı",
@@ -886,7 +886,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Satın Alma ve Tedarik",
-        "icon": "satın alma",
+        "icon": "purchasing",
         "status": "Yaklaşan",
         "systems": [
           "Pazar Adamı"
@@ -894,7 +894,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Teslimat ve 3PD",
-        "icon": "hız",
+        "icon": "speed",
         "status": "Yaklaşan",
         "systems": [
           "Teslimat",
@@ -905,7 +905,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Rezervasyonlar ve Misafir Akışı",
-        "icon": "rezervasyonlar",
+        "icon": "reservations",
         "status": "Yaklaşan",
         "systems": [
           "Yedi Oda",
@@ -916,7 +916,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Pazarlama ve Kampanyalar",
-        "icon": "pazarlama",
+        "icon": "marketing",
         "status": "Yaklaşan",
         "systems": [
           "Meta (Facebook / Instagram)",
@@ -926,7 +926,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Misafir Deneyimi ve Geri Bildirimi",
-        "icon": "konuşma",
+        "icon": "conversation",
         "status": "Yaklaşan",
         "systems": [
           "Google İncelemeleri",
@@ -936,17 +936,17 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Misafir CRM'si",
-        "icon": "operatörler",
+        "icon": "operators",
         "status": "Yaklaşan",
         "systems": [
           "Yedi Oda",
-          "Tost",
+          "Toast",
           "Olo"
         ]
       },
       {
         "category": "Muhasebe ve Finans",
-        "icon": "finans",
+        "icon": "finance",
         "status": "Yaklaşan",
         "systems": [
           "QuickBooks",
@@ -959,12 +959,12 @@ export const generatedLocalCopy = {
     "zh-Hans": [
       {
         "category": "销售点 (POS)",
-        "icon": "餐厅",
+        "icon": "restaurant",
         "status": "直播",
         "systems": [
           "甲骨文 MICROS Simphony",
-          "广场",
-          "吐司",
+          "Square",
+          "Toast",
           "三叶草",
           "PostgreSQL（直接数据库）",
           "SQL Server / Azure SQL（直接数据库）"
@@ -972,7 +972,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "劳动力与调度",
-        "icon": "劳工",
+        "icon": "labor",
         "status": "即将推出",
         "systems": [
           "7班",
@@ -982,7 +982,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "库存和供货情况",
-        "icon": "库存",
+        "icon": "inventory",
         "status": "即将推出",
         "systems": [
           "市场人",
@@ -992,7 +992,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "采购及采购",
-        "icon": "采购",
+        "icon": "purchasing",
         "status": "即将推出",
         "systems": [
           "市场人"
@@ -1000,7 +1000,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "交付和 3PD",
-        "icon": "速度",
+        "icon": "speed",
         "status": "即将推出",
         "systems": [
           "交付",
@@ -1011,7 +1011,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "预订及客流",
-        "icon": "预订",
+        "icon": "reservations",
         "status": "即将推出",
         "systems": [
           "七间房",
@@ -1022,7 +1022,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "营销与活动",
-        "icon": "营销",
+        "icon": "marketing",
         "status": "即将推出",
         "systems": [
           "元（Facebook / Instagram）",
@@ -1032,7 +1032,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "宾客体验与反馈",
-        "icon": "谈话",
+        "icon": "conversation",
         "status": "即将推出",
         "systems": [
           "谷歌评论",
@@ -1042,17 +1042,17 @@ export const generatedLocalCopy = {
       },
       {
         "category": "宾客客户关系管理",
-        "icon": "运营商",
+        "icon": "operators",
         "status": "即将推出",
         "systems": [
           "七间房",
-          "吐司",
+          "Toast",
           "奥洛"
         ]
       },
       {
         "category": "会计与金融",
-        "icon": "金融",
+        "icon": "finance",
         "status": "即将推出",
         "systems": [
           "快书",
@@ -1064,13 +1064,13 @@ export const generatedLocalCopy = {
     ],
     "hi": [
       {
-        "category": "बिक्री स्थल (पीओएस)",
-        "icon": "भोजनालय",
+        "category": "बिक्री स्थल (POS)",
+        "icon": "restaurant",
         "status": "जियो",
         "systems": [
           "ओरेकल माइक्रो सिम्फनी",
-          "चौकोर",
-          "टोस्ट",
+          "Square",
+          "Toast",
           "तिपतिया घास",
           "पोस्टग्रेएसक्यूएल (डायरेक्ट डीबी)",
           "SQL सर्वर / Azure SQL (डायरेक्ट DB)"
@@ -1078,7 +1078,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "श्रम एवं शेड्यूलिंग",
-        "icon": "श्रम",
+        "icon": "labor",
         "status": "आगामी",
         "systems": [
           "7 शिफ्ट",
@@ -1088,7 +1088,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "सूची एवं उपलब्धता",
-        "icon": "सूची",
+        "icon": "inventory",
         "status": "आगामी",
         "systems": [
           "मार्केटमैन",
@@ -1098,7 +1098,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "क्रय एवं अधिप्राप्ति",
-        "icon": "क्रय",
+        "icon": "purchasing",
         "status": "आगामी",
         "systems": [
           "मार्केटमैन"
@@ -1106,7 +1106,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "डिलिवरी एवं 3पीडी",
-        "icon": "गति",
+        "icon": "speed",
         "status": "आगामी",
         "systems": [
           "उद्धार",
@@ -1117,7 +1117,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "आरक्षण एवं अतिथि प्रवाह",
-        "icon": "आरक्षण",
+        "icon": "reservations",
         "status": "आगामी",
         "systems": [
           "सात कमरे",
@@ -1128,7 +1128,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "विपणन एवं अभियान",
-        "icon": "मार्केटिंग",
+        "icon": "marketing",
         "status": "आगामी",
         "systems": [
           "मेटा (फेसबुक/इंस्टाग्राम)",
@@ -1138,7 +1138,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "अतिथि अनुभव एवं प्रतिक्रिया",
-        "icon": "बातचीत",
+        "icon": "conversation",
         "status": "आगामी",
         "systems": [
           "गूगल समीक्षाएँ",
@@ -1148,17 +1148,17 @@ export const generatedLocalCopy = {
       },
       {
         "category": "अतिथि सी.आर.एम",
-        "icon": "संचालक",
+        "icon": "operators",
         "status": "आगामी",
         "systems": [
           "सात कमरे",
-          "टोस्ट",
+          "Toast",
           "ओलो"
         ]
       },
       {
         "category": "लेखांकन एवं वित्त",
-        "icon": "वित्त",
+        "icon": "finance",
         "status": "आगामी",
         "systems": [
           "त्वरित पुस्तकें",
@@ -1171,12 +1171,12 @@ export const generatedLocalCopy = {
     "pl": [
       {
         "category": "Punkt sprzedaży (POS)",
-        "icon": "restauracja",
+        "icon": "restaurant",
         "status": "Na żywo",
         "systems": [
           "Oracle MICROS Simphony",
-          "Kwadrat",
-          "Tost",
+          "Square",
+          "Toast",
           "Koniczyna",
           "PostgreSQL (bezpośrednia baza danych)",
           "SQL Server / Azure SQL (bezpośrednia baza danych)"
@@ -1184,7 +1184,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Praca i harmonogram",
-        "icon": "praca",
+        "icon": "labor",
         "status": "Nadchodzące",
         "systems": [
           "7 zmian",
@@ -1194,7 +1194,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Zapasy i dostępność",
-        "icon": "inwentarz",
+        "icon": "inventory",
         "status": "Nadchodzące",
         "systems": [
           "MarketMan",
@@ -1204,7 +1204,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Zakupy i zaopatrzenie",
-        "icon": "zakup",
+        "icon": "purchasing",
         "status": "Nadchodzące",
         "systems": [
           "MarketMan"
@@ -1212,7 +1212,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Dostawa i 3PD",
-        "icon": "prędkość",
+        "icon": "speed",
         "status": "Nadchodzące",
         "systems": [
           "Dostarcz",
@@ -1223,7 +1223,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Rezerwacje i przepływ gości",
-        "icon": "rezerwacje",
+        "icon": "reservations",
         "status": "Nadchodzące",
         "systems": [
           "Siedem pokoi",
@@ -1234,7 +1234,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Marketing i kampanie",
-        "icon": "marketingu",
+        "icon": "marketing",
         "status": "Nadchodzące",
         "systems": [
           "Meta (Facebook/Instagram)",
@@ -1244,7 +1244,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Doświadczenia i opinie gości",
-        "icon": "rozmowa",
+        "icon": "conversation",
         "status": "Nadchodzące",
         "systems": [
           "Recenzje Google",
@@ -1254,17 +1254,17 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Gość CRM",
-        "icon": "operatorzy",
+        "icon": "operators",
         "status": "Nadchodzące",
         "systems": [
           "Siedem pokoi",
-          "Tost",
+          "Toast",
           "Olo"
         ]
       },
       {
         "category": "Rachunkowość i finanse",
-        "icon": "finanse",
+        "icon": "finance",
         "status": "Nadchodzące",
         "systems": [
           "Szybkie Książki",
@@ -1277,12 +1277,12 @@ export const generatedLocalCopy = {
     "ko": [
       {
         "category": "POS(판매 시점)",
-        "icon": "레스토랑",
+        "icon": "restaurant",
         "status": "라이브",
         "systems": [
           "오라클 MICROS 심포니",
-          "광장",
-          "토스트",
+          "Square",
+          "Toast",
           "클로버",
           "PostgreSQL(다이렉트 DB)",
           "SQL Server/Azure SQL(다이렉트 DB)"
@@ -1290,7 +1290,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "노동 및 일정 조정",
-        "icon": "노동",
+        "icon": "labor",
         "status": "예정",
         "systems": [
           "7교대",
@@ -1300,7 +1300,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "재고 및 가용성",
-        "icon": "재고",
+        "icon": "inventory",
         "status": "예정",
         "systems": [
           "마켓맨",
@@ -1310,7 +1310,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "구매 및 조달",
-        "icon": "구매",
+        "icon": "purchasing",
         "status": "예정",
         "systems": [
           "마켓맨"
@@ -1318,7 +1318,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "배달 및 3PD",
-        "icon": "속도",
+        "icon": "speed",
         "status": "예정",
         "systems": [
           "배달하다",
@@ -1329,7 +1329,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "예약 및 손님 흐름",
-        "icon": "예약",
+        "icon": "reservations",
         "status": "예정",
         "systems": [
           "세븐룸스",
@@ -1340,7 +1340,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "마케팅 및 캠페인",
-        "icon": "마케팅",
+        "icon": "marketing",
         "status": "예정",
         "systems": [
           "메타(페이스북/인스타그램)",
@@ -1350,7 +1350,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "고객 경험 및 피드백",
-        "icon": "대화",
+        "icon": "conversation",
         "status": "예정",
         "systems": [
           "구글 리뷰",
@@ -1360,17 +1360,17 @@ export const generatedLocalCopy = {
       },
       {
         "category": "게스트 CRM",
-        "icon": "운영자",
+        "icon": "operators",
         "status": "예정",
         "systems": [
           "세븐룸스",
-          "토스트",
+          "Toast",
           "올로"
         ]
       },
       {
         "category": "회계 및 재무",
-        "icon": "금융",
+        "icon": "finance",
         "status": "예정",
         "systems": [
           "퀵북",
@@ -1383,12 +1383,12 @@ export const generatedLocalCopy = {
     "ja": [
       {
         "category": "販売時点管理 (POS)",
-        "icon": "レストラン",
+        "icon": "restaurant",
         "status": "ライブ",
         "systems": [
           "オラクル MICROS シンフォニー",
-          "正方形",
-          "乾杯",
+          "Square",
+          "Toast",
           "クローバー",
           "PostgreSQL（ダイレクトDB）",
           "SQL Server / Azure SQL (ダイレクト DB)"
@@ -1396,7 +1396,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "労働力とスケジュール管理",
-        "icon": "労働",
+        "icon": "labor",
         "status": "今後の予定",
         "systems": [
           "7交代制",
@@ -1406,7 +1406,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "在庫と在庫状況",
-        "icon": "在庫",
+        "icon": "inventory",
         "status": "今後の予定",
         "systems": [
           "マーケットマン",
@@ -1416,7 +1416,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "購買・調達",
-        "icon": "購入",
+        "icon": "purchasing",
         "status": "今後の予定",
         "systems": [
           "マーケットマン"
@@ -1424,7 +1424,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "配信&3PD",
-        "icon": "速度",
+        "icon": "speed",
         "status": "今後の予定",
         "systems": [
           "配達する",
@@ -1435,7 +1435,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "ご予約とゲストの流れ",
-        "icon": "予約",
+        "icon": "reservations",
         "status": "今後の予定",
         "systems": [
           "セブンルームズ",
@@ -1446,7 +1446,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "マーケティングとキャンペーン",
-        "icon": "マーケティング",
+        "icon": "marketing",
         "status": "今後の予定",
         "systems": [
           "メタ (Facebook / Instagram)",
@@ -1456,7 +1456,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "ゲストの体験とフィードバック",
-        "icon": "会話",
+        "icon": "conversation",
         "status": "今後の予定",
         "systems": [
           "Googleのレビュー",
@@ -1466,17 +1466,17 @@ export const generatedLocalCopy = {
       },
       {
         "category": "ゲストCRM",
-        "icon": "演算子",
+        "icon": "operators",
         "status": "今後の予定",
         "systems": [
           "セブンルームズ",
-          "乾杯",
+          "Toast",
           "オロ"
         ]
       },
       {
         "category": "会計と財務",
-        "icon": "金融",
+        "icon": "finance",
         "status": "今後の予定",
         "systems": [
           "クイックブック",
@@ -1493,8 +1493,8 @@ export const generatedLocalCopy = {
         "status": "În direct",
         "systems": [
           "Oracle MICROS Simphony",
-          "pătrat",
-          "Pâine prăjită",
+          "Square",
+          "Toast",
           "Trifoi",
           "PostgreSQL (DB direct)",
           "SQL Server / Azure SQL (DB direct)"
@@ -1502,7 +1502,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Muncă și programare",
-        "icon": "munca",
+        "icon": "labor",
         "status": "În viitor",
         "systems": [
           "7 schimburi",
@@ -1512,7 +1512,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Inventar și disponibilitate",
-        "icon": "inventar",
+        "icon": "inventory",
         "status": "În viitor",
         "systems": [
           "MarketMan",
@@ -1522,7 +1522,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Achiziții și achiziții",
-        "icon": "cumpărare",
+        "icon": "purchasing",
         "status": "În viitor",
         "systems": [
           "MarketMan"
@@ -1530,7 +1530,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Livrare și 3PD",
-        "icon": "viteza",
+        "icon": "speed",
         "status": "În viitor",
         "systems": [
           "Livrează",
@@ -1541,7 +1541,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Rezervări și flux de oaspeți",
-        "icon": "rezervări",
+        "icon": "reservations",
         "status": "În viitor",
         "systems": [
           "SevenRooms",
@@ -1562,7 +1562,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Experiență și feedback pentru oaspeți",
-        "icon": "conversație",
+        "icon": "conversation",
         "status": "În viitor",
         "systems": [
           "Recenzii Google",
@@ -1572,17 +1572,17 @@ export const generatedLocalCopy = {
       },
       {
         "category": "CRM pentru invitați",
-        "icon": "operatori",
+        "icon": "operators",
         "status": "În viitor",
         "systems": [
           "SevenRooms",
-          "Pâine prăjită",
+          "Toast",
           "Olo"
         ]
       },
       {
         "category": "Contabilitate si finante",
-        "icon": "finante",
+        "icon": "finance",
         "status": "În viitor",
         "systems": [
           "QuickBooks",
@@ -1595,12 +1595,12 @@ export const generatedLocalCopy = {
     "id": [
       {
         "category": "Tempat Penjualan (POS)",
-        "icon": "restoran",
+        "icon": "restaurant",
         "status": "Hidup",
         "systems": [
           "Oracle MICROS Simfoni",
-          "Persegi",
-          "Bersulang",
+          "Square",
+          "Toast",
           "semanggi",
           "PostgreSQL (DB Langsung)",
           "SQL Server/Azure SQL (DB Langsung)"
@@ -1608,7 +1608,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Tenaga Kerja & Penjadwalan",
-        "icon": "tenaga kerja",
+        "icon": "labor",
         "status": "Akan datang",
         "systems": [
           "7 shift",
@@ -1618,7 +1618,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Inventaris & Ketersediaan",
-        "icon": "inventaris",
+        "icon": "inventory",
         "status": "Akan datang",
         "systems": [
           "Manusia Pasar",
@@ -1628,7 +1628,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Pembelian & Pengadaan",
-        "icon": "pembelian",
+        "icon": "purchasing",
         "status": "Akan datang",
         "systems": [
           "Manusia Pasar"
@@ -1636,7 +1636,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Pengiriman & 3PD",
-        "icon": "kecepatan",
+        "icon": "speed",
         "status": "Akan datang",
         "systems": [
           "Kirim",
@@ -1647,7 +1647,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Reservasi & Alur Tamu",
-        "icon": "reservasi",
+        "icon": "reservations",
         "status": "Akan datang",
         "systems": [
           "Tujuh Kamar",
@@ -1658,7 +1658,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Pemasaran & Kampanye",
-        "icon": "pemasaran",
+        "icon": "marketing",
         "status": "Akan datang",
         "systems": [
           "Meta (Facebook/Instagram)",
@@ -1668,7 +1668,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Pengalaman & Umpan Balik Tamu",
-        "icon": "percakapan",
+        "icon": "conversation",
         "status": "Akan datang",
         "systems": [
           "Ulasan Google",
@@ -1678,17 +1678,17 @@ export const generatedLocalCopy = {
       },
       {
         "category": "CRM Tamu",
-        "icon": "operator",
+        "icon": "operators",
         "status": "Akan datang",
         "systems": [
           "Tujuh Kamar",
-          "Bersulang",
+          "Toast",
           "Olo"
         ]
       },
       {
         "category": "Akuntansi & Keuangan",
-        "icon": "keuangan",
+        "icon": "finance",
         "status": "Akan datang",
         "systems": [
           "Buku Cepat",
@@ -1701,12 +1701,12 @@ export const generatedLocalCopy = {
     "bn": [
       {
         "category": "পয়েন্ট অফ সেল (POS)",
-        "icon": "রেস্টুরেন্ট",
+        "icon": "restaurant",
         "status": "লাইভ",
         "systems": [
           "ওরাকল মাইক্রোস সিম্ফনি",
-          "বর্গক্ষেত্র",
-          "টোস্ট",
+          "Square",
+          "Toast",
           "ক্লোভার",
           "PostgreSQL (সরাসরি DB)",
           "SQL সার্ভার / Azure SQL (সরাসরি DB)"
@@ -1714,7 +1714,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "শ্রম ও সময়সূচী",
-        "icon": "শ্রম",
+        "icon": "labor",
         "status": "আসন্ন",
         "systems": [
           "7 শিফট",
@@ -1724,7 +1724,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "ইনভেন্টরি এবং উপলব্ধতা",
-        "icon": "জায়",
+        "icon": "inventory",
         "status": "আসন্ন",
         "systems": [
           "মার্কেটম্যান",
@@ -1734,7 +1734,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "ক্রয় এবং সংগ্রহ",
-        "icon": "ক্রয়",
+        "icon": "purchasing",
         "status": "আসন্ন",
         "systems": [
           "মার্কেটম্যান"
@@ -1742,7 +1742,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "ডেলিভারি এবং 3PD",
-        "icon": "গতি",
+        "icon": "speed",
         "status": "আসন্ন",
         "systems": [
           "বিতরণ করুন",
@@ -1753,7 +1753,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "রিজার্ভেশন এবং গেস্ট ফ্লো",
-        "icon": "সংরক্ষণ",
+        "icon": "reservations",
         "status": "আসন্ন",
         "systems": [
           "সেভেন রুম",
@@ -1764,7 +1764,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "বিপণন এবং প্রচারাভিযান",
-        "icon": "মার্কেটিং",
+        "icon": "marketing",
         "status": "আসন্ন",
         "systems": [
           "মেটা (ফেসবুক / ইনস্টাগ্রাম)",
@@ -1774,7 +1774,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "অতিথি অভিজ্ঞতা এবং প্রতিক্রিয়া",
-        "icon": "কথোপকথন",
+        "icon": "conversation",
         "status": "আসন্ন",
         "systems": [
           "Google পর্যালোচনা",
@@ -1784,17 +1784,17 @@ export const generatedLocalCopy = {
       },
       {
         "category": "অতিথি সিআরএম",
-        "icon": "অপারেটর",
+        "icon": "operators",
         "status": "আসন্ন",
         "systems": [
           "সেভেন রুম",
-          "টোস্ট",
+          "Toast",
           "ওলো"
         ]
       },
       {
         "category": "অ্যাকাউন্টিং এবং ফিনান্স",
-        "icon": "অর্থ",
+        "icon": "finance",
         "status": "আসন্ন",
         "systems": [
           "কুইকবুকস",
@@ -1807,12 +1807,12 @@ export const generatedLocalCopy = {
     "vi": [
       {
         "category": "Điểm bán hàng (POS)",
-        "icon": "nhà hàng",
+        "icon": "restaurant",
         "status": "Trực tiếp",
         "systems": [
           "Bản giao hưởng Oracle MICROS",
-          "hình vuông",
-          "bánh mì nướng",
+          "Square",
+          "Toast",
           "cỏ ba lá",
           "PostgreSQL (DB trực tiếp)",
           "Máy chủ SQL / Azure SQL (DB trực tiếp)"
@@ -1820,7 +1820,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Lao động & Lập kế hoạch",
-        "icon": "lao động",
+        "icon": "labor",
         "status": "Sắp tới",
         "systems": [
           "7 ca",
@@ -1830,7 +1830,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Hàng tồn kho & sẵn có",
-        "icon": "hàng tồn kho",
+        "icon": "inventory",
         "status": "Sắp tới",
         "systems": [
           "Người đàn ông thị trường",
@@ -1840,7 +1840,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Mua hàng & Mua sắm",
-        "icon": "mua sắm",
+        "icon": "purchasing",
         "status": "Sắp tới",
         "systems": [
           "Người đàn ông thị trường"
@@ -1848,7 +1848,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Giao hàng & 3PD",
-        "icon": "tốc độ",
+        "icon": "speed",
         "status": "Sắp tới",
         "systems": [
           "giao hàng",
@@ -1859,7 +1859,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Đặt chỗ & Luồng khách",
-        "icon": "đặt chỗ",
+        "icon": "reservations",
         "status": "Sắp tới",
         "systems": [
           "bảy phòng",
@@ -1870,7 +1870,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Tiếp thị & Chiến dịch",
-        "icon": "tiếp thị",
+        "icon": "marketing",
         "status": "Sắp tới",
         "systems": [
           "Meta (Facebook / Instagram)",
@@ -1880,7 +1880,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Trải nghiệm và phản hồi của khách",
-        "icon": "cuộc trò chuyện",
+        "icon": "conversation",
         "status": "Sắp tới",
         "systems": [
           "Bài đánh giá của Google",
@@ -1890,17 +1890,17 @@ export const generatedLocalCopy = {
       },
       {
         "category": "CRM khách",
-        "icon": "toán tử",
+        "icon": "operators",
         "status": "Sắp tới",
         "systems": [
           "bảy phòng",
-          "bánh mì nướng",
+          "Toast",
           "ồ"
         ]
       },
       {
         "category": "Kế toán & Tài chính",
-        "icon": "tài chính",
+        "icon": "finance",
         "status": "Sắp tới",
         "systems": [
           "Sách nhanh",
@@ -1913,12 +1913,12 @@ export const generatedLocalCopy = {
     "th": [
       {
         "category": "ระบบขายหน้าร้าน (POS)",
-        "icon": "ร้านอาหาร",
+        "icon": "restaurant",
         "status": "สด",
         "systems": [
           "ออราเคิลไมโครซิมโฟนี",
-          "สี่เหลี่ยมจัตุรัส",
-          "ขนมปังปิ้ง",
+          "Square",
+          "Toast",
           "โคลเวอร์",
           "PostgreSQL (ฐานข้อมูลโดยตรง)",
           "เซิร์ฟเวอร์ SQL / Azure SQL (DB โดยตรง)"
@@ -1926,7 +1926,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "แรงงานและการจัดตารางเวลา",
-        "icon": "แรงงาน",
+        "icon": "labor",
         "status": "ที่กำลังจะมีขึ้น",
         "systems": [
           "7 กะ",
@@ -1936,7 +1936,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "สินค้าคงคลังและห้องว่าง",
-        "icon": "สินค้าคงคลัง",
+        "icon": "inventory",
         "status": "ที่กำลังจะมีขึ้น",
         "systems": [
           "มาร์เก็ตแมน",
@@ -1946,7 +1946,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "การจัดซื้อและการจัดซื้อจัดจ้าง",
-        "icon": "การจัดซื้อ",
+        "icon": "purchasing",
         "status": "ที่กำลังจะมีขึ้น",
         "systems": [
           "มาร์เก็ตแมน"
@@ -1954,7 +1954,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "การจัดส่งและ 3PD",
-        "icon": "ความเร็ว",
+        "icon": "speed",
         "status": "ที่กำลังจะมีขึ้น",
         "systems": [
           "ส่งมอบ",
@@ -1965,7 +1965,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "การจองและการไหลของแขก",
-        "icon": "การจอง",
+        "icon": "reservations",
         "status": "ที่กำลังจะมีขึ้น",
         "systems": [
           "เซเว่นรูมส์",
@@ -1976,7 +1976,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "การตลาดและแคมเปญ",
-        "icon": "การตลาด",
+        "icon": "marketing",
         "status": "ที่กำลังจะมีขึ้น",
         "systems": [
           "เมตา (เฟสบุ๊ค / อินสตาแกรม)",
@@ -1986,7 +1986,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "ประสบการณ์แขกและข้อเสนอแนะ",
-        "icon": "บทสนทนา",
+        "icon": "conversation",
         "status": "ที่กำลังจะมีขึ้น",
         "systems": [
           "บทวิจารณ์ของ Google",
@@ -1996,17 +1996,17 @@ export const generatedLocalCopy = {
       },
       {
         "category": "CRM แขก",
-        "icon": "ตัวดำเนินการ",
+        "icon": "operators",
         "status": "ที่กำลังจะมีขึ้น",
         "systems": [
           "เซเว่นรูมส์",
-          "ขนมปังปิ้ง",
+          "Toast",
           "โอโล"
         ]
       },
       {
         "category": "การบัญชีและการเงิน",
-        "icon": "การเงิน",
+        "icon": "finance",
         "status": "ที่กำลังจะมีขึ้น",
         "systems": [
           "ควิกบุ๊คส์",
@@ -2019,12 +2019,12 @@ export const generatedLocalCopy = {
     "sv": [
       {
         "category": "Försäljningsställe (POS)",
-        "icon": "restaurang",
+        "icon": "restaurant",
         "status": "Live",
         "systems": [
           "Oracle MICROS Simphony",
           "Square",
-          "Rostat bröd",
+          "Toast",
           "Klöver",
           "PostgreSQL (Direkt DB)",
           "SQL Server / Azure SQL (Direkt DB)"
@@ -2032,7 +2032,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Arbete & Schemaläggning",
-        "icon": "arbetskraft",
+        "icon": "labor",
         "status": "Kommande",
         "systems": [
           "7 skift",
@@ -2042,7 +2042,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Inventering & tillgänglighet",
-        "icon": "inventering",
+        "icon": "inventory",
         "status": "Kommande",
         "systems": [
           "MarketMan",
@@ -2052,7 +2052,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Inköp & Upphandling",
-        "icon": "inköp",
+        "icon": "purchasing",
         "status": "Kommande",
         "systems": [
           "MarketMan"
@@ -2060,7 +2060,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Leverans & 3PD",
-        "icon": "hastighet",
+        "icon": "speed",
         "status": "Kommande",
         "systems": [
           "Leverera",
@@ -2071,7 +2071,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Bokningar och gästflöde",
-        "icon": "reservationer",
+        "icon": "reservations",
         "status": "Kommande",
         "systems": [
           "Sju rum",
@@ -2082,7 +2082,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Marknadsföring och kampanjer",
-        "icon": "marknadsföring",
+        "icon": "marketing",
         "status": "Kommande",
         "systems": [
           "Meta (Facebook / Instagram)",
@@ -2092,7 +2092,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Gästupplevelse och feedback",
-        "icon": "konversation",
+        "icon": "conversation",
         "status": "Kommande",
         "systems": [
           "Google recensioner",
@@ -2102,17 +2102,17 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Gäst CRM",
-        "icon": "operatörer",
+        "icon": "operators",
         "status": "Kommande",
         "systems": [
           "Sju rum",
-          "Rostat bröd",
+          "Toast",
           "Olo"
         ]
       },
       {
         "category": "Redovisning & Finans",
-        "icon": "finansiera",
+        "icon": "finance",
         "status": "Kommande",
         "systems": [
           "QuickBooks",
@@ -2125,12 +2125,12 @@ export const generatedLocalCopy = {
     "ms": [
       {
         "category": "Tempat Jualan (POS)",
-        "icon": "restoran",
+        "icon": "restaurant",
         "status": "Langsung",
         "systems": [
           "Oracle MICROS Simphony",
-          "Segi empat",
-          "Roti bakar",
+          "Square",
+          "Toast",
           "Semanggi",
           "PostgreSQL (Direct DB)",
           "SQL Server / Azure SQL (Direct DB)"
@@ -2138,7 +2138,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Buruh & Penjadualan",
-        "icon": "buruh",
+        "icon": "labor",
         "status": "Akan datang",
         "systems": [
           "7 syif",
@@ -2148,7 +2148,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Inventori & Ketersediaan",
-        "icon": "inventori",
+        "icon": "inventory",
         "status": "Akan datang",
         "systems": [
           "MarketMan",
@@ -2158,7 +2158,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Pembelian & Perolehan",
-        "icon": "pembelian",
+        "icon": "purchasing",
         "status": "Akan datang",
         "systems": [
           "MarketMan"
@@ -2166,7 +2166,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Penghantaran & 3PD",
-        "icon": "kelajuan",
+        "icon": "speed",
         "status": "Akan datang",
         "systems": [
           "Hantarkan",
@@ -2177,7 +2177,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Tempahan & Aliran Tetamu",
-        "icon": "tempahan",
+        "icon": "reservations",
         "status": "Akan datang",
         "systems": [
           "SevenRooms",
@@ -2188,7 +2188,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Pemasaran & Kempen",
-        "icon": "pemasaran",
+        "icon": "marketing",
         "status": "Akan datang",
         "systems": [
           "Meta (Facebook / Instagram)",
@@ -2198,7 +2198,7 @@ export const generatedLocalCopy = {
       },
       {
         "category": "Pengalaman & Maklum Balas Tetamu",
-        "icon": "perbualan",
+        "icon": "conversation",
         "status": "Akan datang",
         "systems": [
           "Ulasan Google",
@@ -2208,17 +2208,17 @@ export const generatedLocalCopy = {
       },
       {
         "category": "CRM tetamu",
-        "icon": "pengendali",
+        "icon": "operators",
         "status": "Akan datang",
         "systems": [
           "SevenRooms",
-          "Roti bakar",
+          "Toast",
           "Olo"
         ]
       },
       {
         "category": "Perakaunan & Kewangan",
-        "icon": "kewangan",
+        "icon": "finance",
         "status": "Akan datang",
         "systems": [
           "QuickBooks",
@@ -2234,7 +2234,7 @@ export const generatedLocalCopy = {
       "exploreProducts": "اكتشف المنتجات",
       "publicApiBullets": [
         "ملخص المبيعات ونقاط النهاية الاستثناء",
-        "حالة النبض وبيانات التنبيه",
+        "حالة الPulse وبيانات التنبيه",
         "حدود المعدل القابلة للتكوين ومفاتيح واجهة برمجة التطبيقات (API) ذات النطاق"
       ]
     },
@@ -2242,7 +2242,7 @@ export const generatedLocalCopy = {
       "exploreProducts": "Entdecken Sie Produkte",
       "publicApiBullets": [
         "Verkaufszusammenfassung und Ausnahmeendpunkte",
-        "Pulsstatus und Alarmdaten",
+        "Pulse status and alert data",
         "Konfigurierbare Ratenlimits und bereichsbezogene API-Schlüssel"
       ]
     },
@@ -2250,7 +2250,7 @@ export const generatedLocalCopy = {
       "exploreProducts": "Explorar productos",
       "publicApiBullets": [
         "Resumen de ventas y puntos finales de excepción",
-        "Estado del pulso y datos de alerta.",
+        "Pulse status and alert data",
         "Límites de velocidad configurables y claves API con alcance"
       ]
     },
@@ -2258,7 +2258,7 @@ export const generatedLocalCopy = {
       "exploreProducts": "Explorer les produits",
       "publicApiBullets": [
         "Récapitulatif des ventes et points de terminaison d’exception",
-        "État du pouls et données d’alerte",
+        "Pulse status and alert data",
         "Limites de débit configurables et clés API étendues"
       ]
     },
@@ -2266,7 +2266,7 @@ export const generatedLocalCopy = {
       "exploreProducts": "Explorar produtos",
       "publicApiBullets": [
         "Resumo de vendas e endpoints de exceção",
-        "Status de pulso e dados de alerta",
+        "Pulse status and alert data",
         "Limites de taxa configuráveis e chaves de API com escopo definido"
       ]
     },
@@ -2274,7 +2274,7 @@ export const generatedLocalCopy = {
       "exploreProducts": "مصنوعات دریافت کریں۔",
       "publicApiBullets": [
         "فروخت کا خلاصہ اور استثناء کے اختتامی نکات",
-        "نبض کی حیثیت اور الرٹ ڈیٹا",
+        "Pulse کی حیثیت اور الرٹ ڈیٹا",
         "قابل ترتیب شرح کی حدود اور دائرہ کار API کیز"
       ]
     },
@@ -2282,7 +2282,7 @@ export const generatedLocalCopy = {
       "exploreProducts": "Ontdek producten",
       "publicApiBullets": [
         "Verkoopsamenvatting en uitzonderingseindpunten",
-        "Pulsstatus en waarschuwingsgegevens",
+        "Pulse status and alert data",
         "Configureerbare snelheidslimieten en API-sleutels met bereik"
       ]
     },
@@ -2290,7 +2290,7 @@ export const generatedLocalCopy = {
       "exploreProducts": "Przeglądaj produkty",
       "publicApiBullets": [
         "Podsumowanie sprzedaży i punkty końcowe wyjątków",
-        "Stan tętna i dane alertów",
+        "Pulse status and alert data",
         "Konfigurowalne limity szybkości i klucze API o określonym zakresie"
       ]
     },
@@ -2298,7 +2298,7 @@ export const generatedLocalCopy = {
       "exploreProducts": "Ürünleri Keşfedin",
       "publicApiBullets": [
         "Satış özeti ve istisna uç noktaları",
-        "Nabız durumu ve uyarı verileri",
+        "Pulse status and alert data",
         "Yapılandırılabilir hız sınırları ve kapsamlı API anahtarları"
       ]
     },
@@ -2306,7 +2306,7 @@ export const generatedLocalCopy = {
       "exploreProducts": "Esplora i prodotti",
       "publicApiBullets": [
         "Riepilogo delle vendite ed endpoint delle eccezioni",
-        "Stato del polso e dati di allarme",
+        "Pulse status and alert data",
         "Limiti di velocità configurabili e chiavi API con ambito"
       ]
     },
@@ -2314,7 +2314,7 @@ export const generatedLocalCopy = {
       "exploreProducts": "제품 살펴보기",
       "publicApiBullets": [
         "판매 요약 및 예외 엔드포인트",
-        "펄스 상태 및 경고 데이터",
+        "Pulse 상태 및 경고 데이터",
         "구성 가능한 속도 제한 및 범위가 지정된 API 키"
       ]
     },
@@ -2322,7 +2322,7 @@ export const generatedLocalCopy = {
       "exploreProducts": "探索产品",
       "publicApiBullets": [
         "销售摘要和异常端点",
-        "脉冲状态和警报数据",
+        "Pulse status and alert data",
         "可配置的速率限制和范围 API 密钥"
       ]
     },
@@ -2330,7 +2330,7 @@ export const generatedLocalCopy = {
       "exploreProducts": "Jelajahi Produk",
       "publicApiBullets": [
         "Ringkasan penjualan dan titik akhir pengecualian",
-        "Status pulsa dan data peringatan",
+        "Pulse status and alert data",
         "Batas kapasitas yang dapat dikonfigurasi dan cakupan kunci API"
       ]
     },
@@ -2338,7 +2338,7 @@ export const generatedLocalCopy = {
       "exploreProducts": "製品を調べる",
       "publicApiBullets": [
         "売上概要と例外エンドポイント",
-        "脈拍ステータスとアラートデータ",
+        "Pulse status and alert data",
         "構成可能なレート制限と範囲指定された API キー"
       ]
     },
@@ -2346,7 +2346,7 @@ export const generatedLocalCopy = {
       "exploreProducts": "Explorați produsele",
       "publicApiBullets": [
         "Rezumatul vânzărilor și punctele finale de excepție",
-        "Starea pulsului și date de alertă",
+        "Pulse status and alert data",
         "Limite de rată configurabile și chei API definite"
       ]
     },
@@ -2354,7 +2354,7 @@ export const generatedLocalCopy = {
       "exploreProducts": "Utforska produkter",
       "publicApiBullets": [
         "Försäljningssammanfattning och undantagsslutpunkter",
-        "Pulsstatus och varningsdata",
+        "Pulse status and alert data",
         "Konfigurerbara hastighetsgränser och scoped API-nycklar"
       ]
     },
@@ -2362,7 +2362,7 @@ export const generatedLocalCopy = {
       "exploreProducts": "उत्पादों का अन्वेषण करें",
       "publicApiBullets": [
         "बिक्री सारांश और अपवाद समापन बिंदु",
-        "पल्स स्थिति और चेतावनी डेटा",
+        "Pulse स्थिति और चेतावनी डेटा",
         "कॉन्फ़िगर करने योग्य दर सीमाएँ और स्कोप्ड एपीआई कुंजियाँ"
       ]
     },
@@ -2370,7 +2370,7 @@ export const generatedLocalCopy = {
       "exploreProducts": "পণ্য অন্বেষণ",
       "publicApiBullets": [
         "বিক্রয় সারাংশ এবং ব্যতিক্রম শেষ পয়েন্ট",
-        "পালস স্থিতি এবং সতর্কতা ডেটা",
+        "Pulse status and alert data",
         "কনফিগারযোগ্য হার সীমা এবং স্কোপড API কী"
       ]
     },
@@ -2378,7 +2378,7 @@ export const generatedLocalCopy = {
       "exploreProducts": "Khám phá sản phẩm",
       "publicApiBullets": [
         "Tóm tắt doanh số và điểm cuối ngoại lệ",
-        "Trạng thái xung và dữ liệu cảnh báo",
+        "Pulse status and alert data",
         "Giới hạn tốc độ có thể định cấu hình và khóa API có phạm vi"
       ]
     },
@@ -2386,7 +2386,7 @@ export const generatedLocalCopy = {
       "exploreProducts": "สำรวจผลิตภัณฑ์",
       "publicApiBullets": [
         "สรุปการขายและจุดสิ้นสุดข้อยกเว้น",
-        "สถานะชีพจรและข้อมูลการแจ้งเตือน",
+        "Pulse status and alert data",
         "ขีดจำกัดอัตราที่กำหนดค่าได้และคีย์ API ที่กำหนดขอบเขต"
       ]
     },
@@ -2394,7 +2394,7 @@ export const generatedLocalCopy = {
       "exploreProducts": "Terokai Produk",
       "publicApiBullets": [
         "Ringkasan jualan dan titik akhir pengecualian",
-        "Status nadi dan data amaran",
+        "Pulse status and alert data",
         "Had kadar boleh dikonfigurasikan dan kunci API berskop"
       ]
     }

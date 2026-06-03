@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/app/report-vs-core/page.tsx.
-// Do not edit by hand; regenerate from the English local copy source.
+// Product/module translations manually reviewed for protected Sundae glossary terms and obvious literal phrasing.
 export const generatedLocalCopy = {
   "localizedReportVsCoreCopy": {
     "de": {
@@ -8,8 +8,8 @@ export const generatedLocalCopy = {
       "heroSuffix": "Wählen Sie Ihre Geschwindigkeit",
       "heroDescription": "Beide bieten Entscheidungsintelligenz. Report liefert historische Tiefe. Core bietet Echtzeit-Betriebsgeschwindigkeit. Wählen Sie basierend darauf, wie schnell Sie handeln müssen.",
       "heroPrimary": "Genaues Preismodell anzeigen",
-      "heroSecondary": "Kostenlos starten mit Report",
-      "reportSummaryTitle": "Sundae Bericht",
+      "heroSecondary": "Start with Report Lite",
+      "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "Historische Analyse & strategische Planung",
       "reportSummaryEyebrow": "Perfekt, wenn:",
       "reportSummaryBullets": [
@@ -20,7 +20,7 @@ export const generatedLocalCopy = {
       ],
       "reportSummaryNoteTitle": "Kostenlos starten für immer",
       "reportSummaryNoteDescription": "Report Lite kostet nichts. Beweisen Sie den Wert, und steigen Sie dann um.",
-      "coreSummaryTitle": "Sundae Kern",
+      "coreSummaryTitle": "Sundae Core",
       "coreSummaryDescription": "Echtzeitbetrieb & prädiktive Intelligenz",
       "coreSummaryEyebrow": "Perfekt, wenn:",
       "coreSummaryBullets": [
@@ -259,7 +259,7 @@ export const generatedLocalCopy = {
       "finalTitle": "Preise für Ihren Betrieb ansehen",
       "finalDescription": "Interaktiver Rechner zeigt die Kosten für beide Stufen basierend auf Ihrer Standortanzahl.",
       "finalPricing": "Preise anzeigen",
-      "finalStartFree": "Kostenlos starten",
+      "finalStartFree": "Start with Report Lite",
       "finalBookDemo": "Demo buchen"
     },
     "fr": {
@@ -268,8 +268,8 @@ export const generatedLocalCopy = {
       "heroSuffix": "Choisissez votre vitesse",
       "heroDescription": "Les deux offrent une intelligence décisionnelle. Report vous donne une profondeur historique. Core vous offre une rapidité opérationnelle en temps réel. Choisissez en fonction de la rapidité avec laquelle vous devez agir.",
       "heroPrimary": "Voir les prix exacts",
-      "heroSecondary": "Commencez gratuitement avec Report",
-      "reportSummaryTitle": "Rapport Sundae",
+      "heroSecondary": "Start with Report Lite",
+      "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "Analyse historique et planification stratégique",
       "reportSummaryEyebrow": "Parfait quand :",
       "reportSummaryBullets": [
@@ -506,8 +506,8 @@ export const generatedLocalCopy = {
       "upgradeTitle": "Pas sûr ? Commencez avec Report",
       "upgradeDescription": "De nombreux opérateurs commencent avec Report, prouvent la valeur avec Report Lite, puis passent à Core lorsqu'ils ont besoin de rapidité opérationnelle. Toutes les données historiques sont préservées lors de la mise à niveau, sans perte de données.",
       "upgradeLabels": {
-        "reportLite": "Rapport Lite",
-        "reportPlus": "Rapport Plus/Pro",
+        "reportLite": "Report Lite",
+        "reportPlus": "Report Plus/Pro",
         "core": "Core"
       },
       "upgradeDescriptions": {
@@ -519,7 +519,7 @@ export const generatedLocalCopy = {
       "finalTitle": "Voir les tarifs pour votre opération",
       "finalDescription": "Le calculateur interactif affiche les coûts pour les deux niveaux en fonction de votre nombre d'emplacements.",
       "finalPricing": "Voir les prix",
-      "finalStartFree": "Commencer gratuitement",
+      "finalStartFree": "Start with Report Lite",
       "finalBookDemo": "Réserver une démo"
     },
     "nl": {
@@ -528,8 +528,8 @@ export const generatedLocalCopy = {
       "heroSuffix": "Kies je snelheid",
       "heroDescription": "Beide bieden beslissingsintelligentie. Report biedt historische diepgang. Core biedt operationele snelheid in real-time. Kies op basis van hoe snel je moet handelen.",
       "heroPrimary": "Bekijk exacte prijzen",
-      "heroSecondary": "Begin gratis met Report",
-      "reportSummaryTitle": "Sundae Rapport",
+      "heroSecondary": "Start with Report Lite",
+      "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "Historische analyse & strategische planning",
       "reportSummaryEyebrow": "Perfect wanneer:",
       "reportSummaryBullets": [
@@ -540,7 +540,7 @@ export const generatedLocalCopy = {
       ],
       "reportSummaryNoteTitle": "Begin Gratis Voor Altijd",
       "reportSummaryNoteDescription": "Report Lite kost niets. Bewijs de waarde, en upgrade daarna.",
-      "coreSummaryTitle": "Sundae Kern",
+      "coreSummaryTitle": "Sundae Core",
       "coreSummaryDescription": "Realtime operaties & voorspellende intelligentie",
       "coreSummaryEyebrow": "Perfect wanneer:",
       "coreSummaryBullets": [
@@ -766,8 +766,8 @@ export const generatedLocalCopy = {
       "upgradeTitle": "Niet zeker? Begin met Report",
       "upgradeDescription": "Veel operators beginnen met Report, bewijzen de waarde met Report Lite en upgraden naar Core wanneer ze operationele snelheid nodig hebben. Alle historische gegevens worden bewaard bij de upgrade, zonder dataverlies.",
       "upgradeLabels": {
-        "reportLite": "Rapport Lite",
-        "reportPlus": "Rapport Plus/Pro",
+        "reportLite": "Report Lite",
+        "reportPlus": "Report Plus/Pro",
         "core": "Core"
       },
       "upgradeDescriptions": {
@@ -779,7 +779,7 @@ export const generatedLocalCopy = {
       "finalTitle": "Bekijk de prijzen voor uw operatie",
       "finalDescription": "Interactieve calculator toont kosten voor beide niveaus op basis van het aantal locaties.",
       "finalPricing": "Bekijk Prijzen",
-      "finalStartFree": "Begin Gratis",
+      "finalStartFree": "Start with Report Lite",
       "finalBookDemo": "Boek Demo"
     },
     "es": {
@@ -788,8 +788,8 @@ export const generatedLocalCopy = {
       "heroSuffix": "Elige tu velocidad",
       "heroDescription": "Ambos ofrecen inteligencia de decisiones. Report te proporciona profundidad histórica. Core te brinda velocidad operativa en tiempo real. Elige según la rapidez con la que necesites actuar.",
       "heroPrimary": "Ver precios exactos",
-      "heroSecondary": "Comienza gratis con Report",
-      "reportSummaryTitle": "Informe de Sundae",
+      "heroSecondary": "Start with Report Lite",
+      "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "Análisis histórico y planificación estratégica",
       "reportSummaryEyebrow": "Perfecto cuando:",
       "reportSummaryBullets": [
@@ -800,7 +800,7 @@ export const generatedLocalCopy = {
       ],
       "reportSummaryNoteTitle": "Comienza gratis para siempre",
       "reportSummaryNoteDescription": "Report Lite no cuesta nada. Demuestra el valor y luego actualiza.",
-      "coreSummaryTitle": "Sundae Núcleo",
+      "coreSummaryTitle": "Sundae Core",
       "coreSummaryDescription": "Operaciones en tiempo real e inteligencia predictiva",
       "coreSummaryEyebrow": "Perfecto cuando:",
       "coreSummaryBullets": [
@@ -1026,8 +1026,8 @@ export const generatedLocalCopy = {
       "upgradeTitle": "¿No estás seguro? Comienza con Report",
       "upgradeDescription": "Muchos operadores comienzan con Report, demuestran el valor con Report Lite y luego actualizan a Core cuando necesitan velocidad operativa. Todos los datos históricos se conservan al actualizar, sin pérdida de datos.",
       "upgradeLabels": {
-        "reportLite": "Informe Lite",
-        "reportPlus": "Informe Plus/Pro",
+        "reportLite": "Report Lite",
+        "reportPlus": "Report Plus/Pro",
         "core": "Core"
       },
       "upgradeDescriptions": {
@@ -1039,7 +1039,7 @@ export const generatedLocalCopy = {
       "finalTitle": "Consulta los precios para tu operación",
       "finalDescription": "La calculadora interactiva muestra los costos para ambos niveles según la cantidad de ubicaciones.",
       "finalPricing": "Ver precios",
-      "finalStartFree": "Comienza gratis",
+      "finalStartFree": "Start with Report Lite",
       "finalBookDemo": "Reservar demostración"
     },
     "ar": {
@@ -1048,8 +1048,8 @@ export const generatedLocalCopy = {
       "heroSuffix": "اختر سرعتك",
       "heroDescription": "كلاهما يوفر ذكاء القرار. يمنحك Report عمقًا تاريخيًا. يوفر لك Core سرعة تشغيلية في الوقت الفعلي. اختر بناءً على مدى سرعة حاجتك للعمل.",
       "heroPrimary": "رؤية الأسعار الدقيقة",
-      "heroSecondary": "ابدأ مجانًا مع Report",
-      "reportSummaryTitle": "تقرير سونداي",
+      "heroSecondary": "Start with Report Lite",
+      "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "تحليل تاريخي وتخطيط استراتيجي",
       "reportSummaryEyebrow": "مثالي عندما:",
       "reportSummaryBullets": [
@@ -1059,8 +1059,8 @@ export const generatedLocalCopy = {
         "أنت تدير من 1 إلى 5 مواقع"
       ],
       "reportSummaryNoteTitle": "ابدأ مجانًا إلى الأبد",
-      "reportSummaryNoteDescription": "تقرير لايت لا يكلف شيئًا. أثبت القيمة، ثم قم بالترقية.",
-      "coreSummaryTitle": "سنوداى كور",
+      "reportSummaryNoteDescription": "Report Lite costs nothing. Prove the value, then upgrade.",
+      "coreSummaryTitle": "Sundae Core",
       "coreSummaryDescription": "عمليات في الوقت الحقيقي وذكاء تنبؤي",
       "coreSummaryEyebrow": "مثالي عندما:",
       "coreSummaryBullets": [
@@ -1095,10 +1095,10 @@ export const generatedLocalCopy = {
         },
         {
           "category": "مصادر البيانات",
-          "report": "نقاط البيع فقط",
+          "report": "POS فقط",
           "reportDetail": "المبيعات، الإيرادات، عدد الزبائن من نظام نقاط البيع",
-          "core": "نقاط البيع + جميع الأنظمة",
-          "coreDetail": "نقاط البيع + العمالة + المخزون + التسويق + الحجوزات + الشراء",
+          "core": "POS + جميع الأنظمة",
+          "coreDetail": "POS + العمالة + المخزون + التسويق + الحجوزات + الشراء",
           "icon": "integration"
         },
         {
@@ -1262,11 +1262,11 @@ export const generatedLocalCopy = {
           "noReason": "التقارير اليومية كافية للتخطيط الاستراتيجي"
         },
         {
-          "question": "هل تحتاج إلى رؤى تفصيلية من نظام نقاط البيع بالإضافة إلى أنظمة أخرى؟",
+          "question": "هل تحتاج إلى رؤى تفصيلية من نظام POS بالإضافة إلى أنظمة أخرى؟",
           "yesAnswer": "Core",
           "yesReason": "يتكامل مع العمالة والمخزون والتسويق والحجوزات والمشتريات",
           "noAnswer": "Report",
-          "noReason": "بيانات نقاط البيع فقط تلبي احتياجاتك"
+          "noReason": "بيانات POS فقط تلبي احتياجاتك"
         },
         {
           "question": "هل تدير أكثر من 10 مواقع؟",
@@ -1286,8 +1286,8 @@ export const generatedLocalCopy = {
       "upgradeTitle": "لست متأكدًا؟ ابدأ بـ Report",
       "upgradeDescription": "يبدأ العديد من المشغلين باستخدام Report، ويثبتون القيمة مع Report Lite، ثم يترقون إلى Core عندما يحتاجون إلى سرعة التشغيل. يتم الاحتفاظ بجميع البيانات التاريخية عند الترقية، دون فقدان أي بيانات.",
       "upgradeLabels": {
-        "reportLite": "تقرير لايت",
-        "reportPlus": "تقرير بلس/برو",
+        "reportLite": "Report Lite",
+        "reportPlus": "Report Plus/Pro",
         "core": "النواة"
       },
       "upgradeDescriptions": {
@@ -1299,7 +1299,7 @@ export const generatedLocalCopy = {
       "finalTitle": "اطلع على الأسعار لعمليتك",
       "finalDescription": "يظهر الآلة الحاسبة التفاعلية التكاليف لكلا الفئتين بناءً على عدد المواقع لديك.",
       "finalPricing": "اطلع على الأسعار",
-      "finalStartFree": "ابدأ مجانًا",
+      "finalStartFree": "Start with Report Lite",
       "finalBookDemo": "احجز عرضًا تجريبيًا"
     },
     "pt": {
@@ -1308,8 +1308,8 @@ export const generatedLocalCopy = {
       "heroSuffix": "Escolha Sua Velocidade",
       "heroDescription": "Ambos oferecem inteligência de decisão. O Report fornece profundidade histórica. O Core oferece velocidade operacional em tempo real. Escolha com base na rapidez com que você precisa agir.",
       "heroPrimary": "Veja o Preço Exato",
-      "heroSecondary": "Comece grátis com o Report",
-      "reportSummaryTitle": "Relatório Sundae",
+      "heroSecondary": "Start with Report Lite",
+      "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "Análise histórica e planejamento estratégico",
       "reportSummaryEyebrow": "Perfeito quando:",
       "reportSummaryBullets": [
@@ -1546,8 +1546,8 @@ export const generatedLocalCopy = {
       "upgradeTitle": "Não tem certeza? Comece com o Report",
       "upgradeDescription": "Muitos operadores começam com o Report, comprovam o valor com o Report Lite e, em seguida, fazem upgrade para o Core quando precisam de velocidade operacional. Todos os dados históricos são preservados ao fazer o upgrade, sem perda de dados.",
       "upgradeLabels": {
-        "reportLite": "Relatório Lite",
-        "reportPlus": "Relatório Plus/Pro",
+        "reportLite": "Report Lite",
+        "reportPlus": "Report Plus/Pro",
         "core": "Core"
       },
       "upgradeDescriptions": {
@@ -1559,7 +1559,7 @@ export const generatedLocalCopy = {
       "finalTitle": "Veja os Preços para Sua Operação",
       "finalDescription": "O calculador interativo mostra os custos para ambos os níveis com base na contagem de sua localização.",
       "finalPricing": "Ver Preços",
-      "finalStartFree": "Comece Grátis",
+      "finalStartFree": "Start with Report Lite",
       "finalBookDemo": "Agendar Demonstração"
     },
     "ur": {
@@ -1568,8 +1568,8 @@ export const generatedLocalCopy = {
       "heroSuffix": "اپنی رفتار منتخب کریں",
       "heroDescription": "دونوں فیصلہ سازی کی ذہانت فراہم کرتے ہیں۔ Report آپ کو تاریخی گہرائی فراہم کرتا ہے۔ Core آپ کو حقیقی وقت کی عملی رفتار فراہم کرتا ہے۔ منتخب کریں کہ آپ کو عمل کرنے کی کتنی تیزی کی ضرورت ہے۔",
       "heroPrimary": "صحیح قیمتیں دیکھیں",
-      "heroSecondary": "رپورٹ کے ساتھ مفت شروع کریں",
-      "reportSummaryTitle": "سنڈے رپورٹ",
+      "heroSecondary": "Start with Report Lite",
+      "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "تاریخی تجزیہ اور حکمت عملی کی منصوبہ بندی",
       "reportSummaryEyebrow": "کمال جب:",
       "reportSummaryBullets": [
@@ -1579,8 +1579,8 @@ export const generatedLocalCopy = {
         "آپ 1-5 مقامات کا انتظام کر رہے ہیں"
       ],
       "reportSummaryNoteTitle": "ہمیشہ کے لیے مفت شروع کریں",
-      "reportSummaryNoteDescription": "رپورٹ لائٹ کی کوئی قیمت نہیں ہے۔ قیمت ثابت کریں، پھر اپ گریڈ کریں۔",
-      "coreSummaryTitle": "سنڈے کور",
+      "reportSummaryNoteDescription": "Report Lite costs nothing. Prove the value, then upgrade.",
+      "coreSummaryTitle": "Sundae Core",
       "coreSummaryDescription": "حقیقی وقت کی کارروائیاں اور پیش گوئی کی ذہانت",
       "coreSummaryEyebrow": "کمال جب:",
       "coreSummaryBullets": [
@@ -1603,7 +1603,7 @@ export const generatedLocalCopy = {
           "reportDetail": "اسٹریٹجک منصوبہ بندی اور تاریخی تجزیے کے لیے بہترین",
           "core": "2-4 گھنٹے کے چکر",
           "coreDetail": "عملی فیصلوں کے لیے قریب حقیقی وقت",
-          "icon": "رفتار"
+          "icon": "speed"
         },
         {
           "category": "انٹیلی جنس کے ابعاد",
@@ -1611,7 +1611,7 @@ export const generatedLocalCopy = {
           "reportDetail": "مکمل تاریخی ڈیٹا، بجٹ میں فرق، بنیادی پیش گوئیاں",
           "core": "مکمل 4D (تمام توسیع شدہ)",
           "coreDetail": "حقیقی وقت کا ڈیٹا + پیش گوئیاں + مارکیٹ کا سیاق و سباق + سفارشات",
-          "icon": "انٹیلی جنس"
+          "icon": "intelligence"
         },
         {
           "category": "ڈیٹا کے ذرائع",
@@ -1619,7 +1619,7 @@ export const generatedLocalCopy = {
           "reportDetail": "سیلز، آمدنی، پوائنٹ آف سیل سسٹم سے کوریج",
           "core": "POS + تمام سسٹمز",
           "coreDetail": "POS + محنت + انوینٹری + مارکیٹنگ + ریزرویشنز + خریداری",
-          "icon": "انضمام"
+          "icon": "integration"
         },
         {
           "category": "اہم استعمال کے کیسز",
@@ -1627,7 +1627,7 @@ export const generatedLocalCopy = {
           "reportDetail": "تاریخی رجحانات، بینچ مارکنگ، طویل مدتی منصوبہ بندی",
           "core": "عملی فیصلے",
           "coreDetail": "حقیقی وقت کا انتظام، پیشگی الرٹس، روزانہ کی کارروائیاں",
-          "icon": "بصیرت"
+          "icon": "insights"
         },
         {
           "category": "بہترین کے لیے",
@@ -1635,11 +1635,11 @@ export const generatedLocalCopy = {
           "reportDetail": "ثبوت تصور، Sundae کی جانچ، اسٹریٹجک تجزیہ",
           "core": "10+ مقامات",
           "coreDetail": "ایسی کارروائیاں جن میں رفتار اور کثیر مقامی پورٹ فولیو کی ضرورت ہو",
-          "icon": "کثیر مقامی"
+          "icon": "multiLocation"
         }
       ],
-      "pulseTitle": "پلس کی خصوصیات کی سطح کے لحاظ سے",
-      "pulseDescription": "پلس انٹرا ڈے آپریشنز مانیٹر ہے، جو کور کی سطحوں پر دستیاب ہے",
+      "pulseTitle": "Pulse کی خصوصیات کی سطح کے لحاظ سے",
+      "pulseDescription": "Pulse انٹرا ڈے آپریشنز مانیٹر ہے، جو کور کی سطحوں پر دستیاب ہے",
       "pulseColumns": {
         "report": "رپورٹ (مفت)",
         "core": "بنیادی"
@@ -1806,8 +1806,8 @@ export const generatedLocalCopy = {
       "upgradeTitle": "یقین نہیں؟ Report کے ساتھ شروع کریں",
       "upgradeDescription": "بہت سے آپریٹرز Report کے ساتھ شروع کرتے ہیں، Report Lite کے ذریعے قیمت ثابت کرتے ہیں، پھر جب انہیں آپریشنل رفتار کی ضرورت ہوتی ہے تو Core پر اپ گریڈ کرتے ہیں۔ جب آپ اپ گریڈ کرتے ہیں تو تمام تاریخی ڈیٹا محفوظ رہتا ہے، بغیر کسی ڈیٹا کے نقصان کے۔",
       "upgradeLabels": {
-        "reportLite": "رپورٹ لائٹ",
-        "reportPlus": "رپورٹ پلس/پرو",
+        "reportLite": "Report Lite",
+        "reportPlus": "Report Plus/Pro",
         "core": "کور"
       },
       "upgradeDescriptions": {
@@ -1819,7 +1819,7 @@ export const generatedLocalCopy = {
       "finalTitle": "اپریشن کے لیے قیمتیں دیکھیں",
       "finalDescription": "انٹرایکٹو کیلکولیٹر آپ کے مقام کی تعداد کی بنیاد پر دونوں سطحوں کے اخراجات دکھاتا ہے۔",
       "finalPricing": "قیمتیں دیکھیں",
-      "finalStartFree": "مفت شروع کریں",
+      "finalStartFree": "Start with Report Lite",
       "finalBookDemo": "ڈیمو بک کریں"
     },
     "hi": {
@@ -1828,8 +1828,8 @@ export const generatedLocalCopy = {
       "heroSuffix": "अपनी गति चुनें",
       "heroDescription": "दोनों निर्णय बुद्धिमत्ता प्रदान करते हैं। Report आपको ऐतिहासिक गहराई देता है। Core आपको वास्तविक समय में संचालन की गति प्रदान करता है। चुनें कि आपको कितनी तेजी से कार्य करने की आवश्यकता है।",
       "heroPrimary": "सटीक मूल्य देखें",
-      "heroSecondary": "रिपोर्ट के साथ मुफ्त में शुरू करें",
-      "reportSummaryTitle": "संडे रिपोर्ट",
+      "heroSecondary": "Start with Report Lite",
+      "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "ऐतिहासिक विश्लेषण और रणनीतिक योजना",
       "reportSummaryEyebrow": "सही जब:",
       "reportSummaryBullets": [
@@ -1839,8 +1839,8 @@ export const generatedLocalCopy = {
         "आप 1-5 स्थानों का प्रबंधन कर रहे हैं"
       ],
       "reportSummaryNoteTitle": "हमेशा के लिए मुफ्त शुरू करें",
-      "reportSummaryNoteDescription": "रिपोर्ट लाइट का कोई खर्च नहीं है। मूल्य साबित करें, फिर अपग्रेड करें।",
-      "coreSummaryTitle": "Sundae कोर",
+      "reportSummaryNoteDescription": "Report Lite costs nothing. Prove the value, then upgrade.",
+      "coreSummaryTitle": "Sundae Core",
       "coreSummaryDescription": "वास्तविक समय में संचालन और पूर्वानुमानित बुद्धिमत्ता",
       "coreSummaryEyebrow": "सही है जब:",
       "coreSummaryBullets": [
@@ -1863,7 +1863,7 @@ export const generatedLocalCopy = {
           "reportDetail": "स्ट्रैटेजिक योजना और ऐतिहासिक विश्लेषण के लिए उत्तम",
           "core": "2-4 घंटे के चक्र",
           "coreDetail": "संचालन निर्णयों के लिए लगभग वास्तविक समय",
-          "icon": "स्पीड"
+          "icon": "speed"
         },
         {
           "category": "इंटेलिजेंस डाइमेंशन्स",
@@ -1871,7 +1871,7 @@ export const generatedLocalCopy = {
           "reportDetail": "पूर्ण ऐतिहासिक डेटा, बजट भिन्नता, बुनियादी भविष्यवाणियाँ",
           "core": "पूर्ण 4D (सभी विस्तारित)",
           "coreDetail": "वास्तविक समय डेटा + भविष्यवाणियाँ + बाजार संदर्भ + सिफारिशें",
-          "icon": "इंटेलिजेंस"
+          "icon": "intelligence"
         },
         {
           "category": "डेटा स्रोत",
@@ -1879,7 +1879,7 @@ export const generatedLocalCopy = {
           "reportDetail": "बिक्री, राजस्व, कवर पॉइंट-ऑफ-सेल सिस्टम से",
           "core": "POS + सभी सिस्टम",
           "coreDetail": "POS + श्रम + इन्वेंटरी + मार्केटिंग + आरक्षण + खरीदारी",
-          "icon": "इंटीग्रेशन"
+          "icon": "integration"
         },
         {
           "category": "प्राथमिक उपयोग के मामले",
@@ -1887,7 +1887,7 @@ export const generatedLocalCopy = {
           "reportDetail": "ऐतिहासिक प्रवृत्तियाँ, बेंचमार्किंग, दीर्घकालिक योजना",
           "core": "संचालन निर्णय",
           "coreDetail": "वास्तविक समय प्रबंधन, सक्रिय अलर्ट, दैनिक संचालन",
-          "icon": "इनसाइट्स"
+          "icon": "insights"
         },
         {
           "category": "सर्वश्रेष्ठ के लिए",
@@ -1895,10 +1895,10 @@ export const generatedLocalCopy = {
           "reportDetail": "कॉन्सेप्ट का प्रमाण, Sundae का परीक्षण, स्ट्रैटेजिक विश्लेषण",
           "core": "10+ स्थान",
           "coreDetail": "जो संचालन गति और बहु-स्थान पोर्टफोलियो की आवश्यकता होती है",
-          "icon": "मल्टीलोकेशन"
+          "icon": "multiLocation"
         }
       ],
-      "pulseTitle": "पल्स फीचर्स द्वारा स्तर",
+      "pulseTitle": "Pulse फीचर्स द्वारा स्तर",
       "pulseDescription": "Pulse एक इंटरडे ऑपरेशंस मॉनिटर है, जो Core स्तरों पर उपलब्ध है",
       "pulseColumns": {
         "report": "रिपोर्ट (मुफ्त)",
@@ -1971,7 +1971,7 @@ export const generatedLocalCopy = {
           "core": "✓"
         }
       ],
-      "watchtowerTitle": "वॉचटावर सुविधाएँ स्तर के अनुसार",
+      "watchtowerTitle": "Watchtower Features by Tier",
       "watchtowerDescription": "बाहरी बुद्धिमत्ता, कोर स्तरों पर उपलब्ध",
       "watchtowerColumns": {
         "report": "रिपोर्ट (मुफ्त)",
@@ -2066,8 +2066,8 @@ export const generatedLocalCopy = {
       "upgradeTitle": "निश्चित नहीं? रिपोर्ट से शुरू करें",
       "upgradeDescription": "कई ऑपरेटर Report से शुरू करते हैं, Report Lite के साथ मूल्य साबित करते हैं, फिर जब उन्हें संचालन की गति की आवश्यकता होती है तो Core में अपग्रेड करते हैं। अपग्रेड करते समय सभी ऐतिहासिक डेटा सुरक्षित रहता है, बिना किसी डेटा हानि के।",
       "upgradeLabels": {
-        "reportLite": "रिपोर्ट लाइट",
-        "reportPlus": "रिपोर्ट प्लस/प्रो",
+        "reportLite": "Report Lite",
+        "reportPlus": "Report Plus/Pro",
         "core": "कोर"
       },
       "upgradeDescriptions": {
@@ -2079,7 +2079,7 @@ export const generatedLocalCopy = {
       "finalTitle": "अपने संचालन के लिए मूल्य देखें",
       "finalDescription": "इंटरएक्टिव कैलकुलेटर आपके स्थान की संख्या के आधार पर दोनों स्तरों के लिए लागत दिखाता है।",
       "finalPricing": "मूल्य देखें",
-      "finalStartFree": "मुफ्त शुरू करें",
+      "finalStartFree": "Start with Report Lite",
       "finalBookDemo": "डेमो बुक करें"
     },
     "it": {
@@ -2088,8 +2088,8 @@ export const generatedLocalCopy = {
       "heroSuffix": "Scegli la tua velocità",
       "heroDescription": "Entrambi offrono intelligenza decisionale. Report ti fornisce una profondità storica. Core ti offre velocità operativa in tempo reale. Scegli in base a quanto velocemente devi agire.",
       "heroPrimary": "Vedi Prezzi Esatti",
-      "heroSecondary": "Inizia gratis con Report",
-      "reportSummaryTitle": "Rapporto Sundae",
+      "heroSecondary": "Start with Report Lite",
+      "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "Analisi storica e pianificazione strategica",
       "reportSummaryEyebrow": "Perfetto quando:",
       "reportSummaryBullets": [
@@ -2339,7 +2339,7 @@ export const generatedLocalCopy = {
       "finalTitle": "Vedi i Prezzi per la Tua Operazione",
       "finalDescription": "Il calcolatore interattivo mostra i costi per entrambi i livelli in base al numero di sedi.",
       "finalPricing": "Vedi i prezzi",
-      "finalStartFree": "Inizia gratis",
+      "finalStartFree": "Start with Report Lite",
       "finalBookDemo": "Prenota una demo"
     },
     "pl": {
@@ -2348,8 +2348,8 @@ export const generatedLocalCopy = {
       "heroSuffix": "Wybierz swoją prędkość",
       "heroDescription": "Oba dostarczają inteligencji decyzyjnej. Report daje Ci historyczną głębię. Core zapewnia szybkość operacyjną w czasie rzeczywistym. Wybierz w zależności od tego, jak szybko musisz działać.",
       "heroPrimary": "Zobacz dokładne ceny",
-      "heroSecondary": "Rozpocznij za darmo z Report",
-      "reportSummaryTitle": "Raport Sundae",
+      "heroSecondary": "Start with Report Lite",
+      "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "Analiza historyczna i planowanie strategiczne",
       "reportSummaryEyebrow": "Idealne, gdy:",
       "reportSummaryBullets": [
@@ -2586,8 +2586,8 @@ export const generatedLocalCopy = {
       "upgradeTitle": "Niepewny? Zacznij od Raportu",
       "upgradeDescription": "Wielu operatorów zaczyna od Report, udowadnia wartość dzięki Report Lite, a następnie przechodzi do Core, gdy potrzebują szybkości operacyjnej. Wszystkie dane historyczne są zachowane podczas aktualizacji, bez utraty danych.",
       "upgradeLabels": {
-        "reportLite": "Raport Lite",
-        "reportPlus": "Raport Plus/Pro",
+        "reportLite": "Report Lite",
+        "reportPlus": "Report Plus/Pro",
         "core": "Core"
       },
       "upgradeDescriptions": {
@@ -2599,7 +2599,7 @@ export const generatedLocalCopy = {
       "finalTitle": "Zobacz ceny dla swojej operacji",
       "finalDescription": "Interaktywny kalkulator pokazuje koszty dla obu poziomów w zależności od liczby lokalizacji.",
       "finalPricing": "Zobacz ceny",
-      "finalStartFree": "Zacznij za darmo",
+      "finalStartFree": "Start with Report Lite",
       "finalBookDemo": "Zarezerwuj demo"
     },
     "tr": {
@@ -2608,8 +2608,8 @@ export const generatedLocalCopy = {
       "heroSuffix": "Hızınızı Seçin",
       "heroDescription": "Her ikisi de karar verme zekası sunar. Report, geçmişe dair derinlik sağlar. Core, gerçek zamanlı operasyon hızı sunar. Ne kadar hızlı hareket etmeniz gerektiğine göre seçim yapın.",
       "heroPrimary": "Kesin Fiyatları Gör",
-      "heroSecondary": "Rapor ile Ücretsiz Başlayın",
-      "reportSummaryTitle": "Sundae Raporu",
+      "heroSecondary": "Start with Report Lite",
+      "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "Tarihsel analiz ve stratejik planlama",
       "reportSummaryEyebrow": "Mükemmel olduğunda:",
       "reportSummaryBullets": [
@@ -2620,7 +2620,7 @@ export const generatedLocalCopy = {
       ],
       "reportSummaryNoteTitle": "Sonsuza Dek Ücretsiz Başlayın",
       "reportSummaryNoteDescription": "Report Lite hiçbir maliyeti yoktur. Değeri kanıtlayın, ardından yükseltin.",
-      "coreSummaryTitle": "Sundae Çekirdek",
+      "coreSummaryTitle": "Sundae Core",
       "coreSummaryDescription": "Gerçek zamanlı operasyonlar ve öngörücü zeka",
       "coreSummaryEyebrow": "Mükemmel olduğunda:",
       "coreSummaryBullets": [
@@ -2846,8 +2846,8 @@ export const generatedLocalCopy = {
       "upgradeTitle": "Emin Değil Misiniz? Report ile Başlayın",
       "upgradeDescription": "Birçok işletmeci Report ile başlar, Report Lite ile değerini kanıtlar ve ardından operasyonel hıza ihtiyaç duyduklarında Core'a yükselir. Yükseltme yaptığınızda tüm tarihsel veriler korunur, veri kaybı yaşanmaz.",
       "upgradeLabels": {
-        "reportLite": "Rapor Lite",
-        "reportPlus": "Rapor Plus/Pro",
+        "reportLite": "Report Lite",
+        "reportPlus": "Report Plus/Pro",
         "core": "Core"
       },
       "upgradeDescriptions": {
@@ -2859,7 +2859,7 @@ export const generatedLocalCopy = {
       "finalTitle": "İşletmeniz için Fiyatları Görüntüleyin",
       "finalDescription": "Etkileşimli hesaplayıcı, konum sayınıza göre her iki katmanın maliyetlerini gösterir.",
       "finalPricing": "Fiyatları Gör",
-      "finalStartFree": "Ücretsiz Başlayın",
+      "finalStartFree": "Start with Report Lite",
       "finalBookDemo": "Demo Rezervasyonu Yap"
     },
     "zh-Hans": {
@@ -2868,8 +2868,8 @@ export const generatedLocalCopy = {
       "heroSuffix": "选择您的速度",
       "heroDescription": "两者都提供决策智能。Report 提供历史深度。Core 提供实时操作速度。根据您需要采取行动的速度进行选择。",
       "heroPrimary": "查看确切价格",
-      "heroSecondary": "免费开始使用Report",
-      "reportSummaryTitle": "Sundae 报告",
+      "heroSecondary": "Start with Report Lite",
+      "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "历史分析与战略规划",
       "reportSummaryEyebrow": "完美适合于：",
       "reportSummaryBullets": [
@@ -2880,7 +2880,7 @@ export const generatedLocalCopy = {
       ],
       "reportSummaryNoteTitle": "永久免费开始",
       "reportSummaryNoteDescription": "Report Lite 免费。证明价值后再升级。",
-      "coreSummaryTitle": "Sundae 核心",
+      "coreSummaryTitle": "Sundae Core",
       "coreSummaryDescription": "实时运营与预测智能",
       "coreSummaryEyebrow": "完美适合于：",
       "coreSummaryBullets": [
@@ -3106,8 +3106,8 @@ export const generatedLocalCopy = {
       "upgradeTitle": "不确定？从报告开始",
       "upgradeDescription": "许多运营商从 Report 开始，通过 Report Lite 证明其价值，然后在需要运营速度时升级到 Core。升级时所有历史数据都将被保留，确保零数据丢失。",
       "upgradeLabels": {
-        "reportLite": "报告 Lite",
-        "reportPlus": "报告 Plus/Pro",
+        "reportLite": "Report Lite",
+        "reportPlus": "Report Plus/Pro",
         "core": "核心"
       },
       "upgradeDescriptions": {
@@ -3119,7 +3119,7 @@ export const generatedLocalCopy = {
       "finalTitle": "查看您运营的定价",
       "finalDescription": "交互式计算器根据您的位置数量显示两个级别的成本。",
       "finalPricing": "查看定价",
-      "finalStartFree": "免费开始",
+      "finalStartFree": "Start with Report Lite",
       "finalBookDemo": "预约演示"
     },
     "ja": {
@@ -3128,8 +3128,8 @@ export const generatedLocalCopy = {
       "heroSuffix": "スピードを選択してください",
       "heroDescription": "どちらも意思決定のインテリジェンスを提供します。Reportは過去の深さを提供し、Coreはリアルタイムの運用スピードを提供します。どれくらい迅速に行動する必要があるかに基づいて選択してください。",
       "heroPrimary": "正確な価格を見る",
-      "heroSecondary": "レポートで無料開始",
-      "reportSummaryTitle": "Sundae レポート",
+      "heroSecondary": "Start with Report Lite",
+      "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "歴史的分析と戦略的計画",
       "reportSummaryEyebrow": "完璧なタイミング:",
       "reportSummaryBullets": [
@@ -3140,7 +3140,7 @@ export const generatedLocalCopy = {
       ],
       "reportSummaryNoteTitle": "無料で始める",
       "reportSummaryNoteDescription": "Report Liteは無料です。価値を証明したら、アップグレードしてください。",
-      "coreSummaryTitle": "Sundae コア",
+      "coreSummaryTitle": "Sundae Core",
       "coreSummaryDescription": "リアルタイムのオペレーションと予測インテリジェンス",
       "coreSummaryEyebrow": "完璧な時:",
       "coreSummaryBullets": [
@@ -3198,7 +3198,7 @@ export const generatedLocalCopy = {
           "icon": "multiLocation"
         }
       ],
-      "pulseTitle": "ティア別のパルス機能",
+      "pulseTitle": "ティア別のPulse機能",
       "pulseDescription": "Pulseは、Coreプランで利用可能な日中のオペレーションモニターです。",
       "pulseColumns": {
         "report": "レポート（無料）",
@@ -3271,7 +3271,7 @@ export const generatedLocalCopy = {
           "core": "✓"
         }
       ],
-      "watchtowerTitle": "ウォッチタワーの機能（ティア別）",
+      "watchtowerTitle": "Watchtower Features by Tier",
       "watchtowerDescription": "コアプランで利用可能な外部インテリジェンス",
       "watchtowerColumns": {
         "report": "レポート（無料）",
@@ -3366,8 +3366,8 @@ export const generatedLocalCopy = {
       "upgradeTitle": "よくわからないですか？Reportから始めましょう",
       "upgradeDescription": "多くのオペレーターはReportから始め、Report Liteで価値を証明し、運用速度が必要になったときにCoreにアップグレードします。アップグレード時にはすべての履歴データが保持され、データ損失はありません。",
       "upgradeLabels": {
-        "reportLite": "レポートライト",
-        "reportPlus": "レポートプラス/プロ",
+        "reportLite": "Report Lite",
+        "reportPlus": "Report Plus/Pro",
         "core": "コア"
       },
       "upgradeDescriptions": {
@@ -3379,7 +3379,7 @@ export const generatedLocalCopy = {
       "finalTitle": "あなたのオペレーションの料金を見る",
       "finalDescription": "インタラクティブな計算機は、ロケーション数に基づいて両方のティアのコストを表示します。",
       "finalPricing": "価格を見る",
-      "finalStartFree": "無料で始める",
+      "finalStartFree": "Start with Report Lite",
       "finalBookDemo": "デモを予約する"
     },
     "ro": {
@@ -3388,8 +3388,8 @@ export const generatedLocalCopy = {
       "heroSuffix": "Alegeți Viteza Dvs.",
       "heroDescription": "Ambele oferă inteligență decizională. Report îți oferă profunzime istorică. Core îți oferă viteză operațională în timp real. Alege în funcție de cât de repede trebuie să acționezi.",
       "heroPrimary": "Vezi Prețul Exact",
-      "heroSecondary": "Începeți gratuit cu Report",
-      "reportSummaryTitle": "Raport Sundae",
+      "heroSecondary": "Start with Report Lite",
+      "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "Analiză istorică și planificare strategică",
       "reportSummaryEyebrow": "Perfect pentru:",
       "reportSummaryBullets": [
@@ -3626,8 +3626,8 @@ export const generatedLocalCopy = {
       "upgradeTitle": "Nu ești sigur? Începe cu Report",
       "upgradeDescription": "Mulți operatori încep cu Report, demonstrează valoarea cu Report Lite, apoi fac upgrade la Core când au nevoie de viteză operațională. Toate datele istorice sunt păstrate când faci upgrade, fără pierderi de date.",
       "upgradeLabels": {
-        "reportLite": "Raport Lite",
-        "reportPlus": "Raport Plus/Pro",
+        "reportLite": "Report Lite",
+        "reportPlus": "Report Plus/Pro",
         "core": "Core"
       },
       "upgradeDescriptions": {
@@ -3639,7 +3639,7 @@ export const generatedLocalCopy = {
       "finalTitle": "Vezi prețurile pentru operațiunea ta",
       "finalDescription": "Calculatorul interactiv arată costurile pentru ambele niveluri în funcție de numărul de locații.",
       "finalPricing": "Vezi Prețuri",
-      "finalStartFree": "Începe gratuit",
+      "finalStartFree": "Start with Report Lite",
       "finalBookDemo": "Rezervați o demonstrație"
     },
     "id": {
@@ -3648,8 +3648,8 @@ export const generatedLocalCopy = {
       "heroSuffix": "Pilih Kecepatan Anda",
       "heroDescription": "Keduanya memberikan kecerdasan keputusan. Report memberikan kedalaman historis. Core memberikan kecepatan operasional waktu nyata. Pilih berdasarkan seberapa cepat Anda perlu bertindak.",
       "heroPrimary": "Lihat Harga Tepat",
-      "heroSecondary": "Mulai Gratis dengan Report",
-      "reportSummaryTitle": "Laporan Sundae",
+      "heroSecondary": "Start with Report Lite",
+      "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "Analisis historis & perencanaan strategis",
       "reportSummaryEyebrow": "Sempurna ketika:",
       "reportSummaryBullets": [
@@ -3660,7 +3660,7 @@ export const generatedLocalCopy = {
       ],
       "reportSummaryNoteTitle": "Mulai Gratis Selamanya",
       "reportSummaryNoteDescription": "Report Lite tidak dikenakan biaya. Buktikan nilainya, lalu tingkatkan.",
-      "coreSummaryTitle": "Sundae Inti",
+      "coreSummaryTitle": "Sundae Core",
       "coreSummaryDescription": "Operasi waktu nyata & kecerdasan prediktif",
       "coreSummaryEyebrow": "Sempurna ketika:",
       "coreSummaryBullets": [
@@ -3886,8 +3886,8 @@ export const generatedLocalCopy = {
       "upgradeTitle": "Tidak Yakin? Mulai dengan Laporan",
       "upgradeDescription": "Banyak operator memulai dengan Report, membuktikan nilai dengan Report Lite, lalu meningkatkan ke Core saat mereka membutuhkan kecepatan operasional. Semua data historis akan dipertahankan saat Anda melakukan upgrade, tanpa kehilangan data.",
       "upgradeLabels": {
-        "reportLite": "Laporan Lite",
-        "reportPlus": "Laporan Plus/Pro",
+        "reportLite": "Report Lite",
+        "reportPlus": "Report Plus/Pro",
         "core": "Core"
       },
       "upgradeDescriptions": {
@@ -3899,7 +3899,7 @@ export const generatedLocalCopy = {
       "finalTitle": "Lihat Harga untuk Operasi Anda",
       "finalDescription": "Kalkulator interaktif menunjukkan biaya untuk kedua tingkat berdasarkan jumlah lokasi Anda.",
       "finalPricing": "Lihat Harga",
-      "finalStartFree": "Mulai Gratis",
+      "finalStartFree": "Start with Report Lite",
       "finalBookDemo": "Pesan Demo"
     },
     "vi": {
@@ -3908,8 +3908,8 @@ export const generatedLocalCopy = {
       "heroSuffix": "Chọn Tốc Độ Của Bạn",
       "heroDescription": "Cả hai đều cung cấp trí tuệ quyết định. Report mang đến chiều sâu lịch sử. Core cung cấp tốc độ vận hành theo thời gian thực. Hãy chọn dựa trên mức độ nhanh chóng bạn cần hành động.",
       "heroPrimary": "Xem Giá Chính Xác",
-      "heroSecondary": "Bắt đầu miễn phí với Report",
-      "reportSummaryTitle": "Báo cáo Sundae",
+      "heroSecondary": "Start with Report Lite",
+      "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "Phân tích lịch sử & lập kế hoạch chiến lược",
       "reportSummaryEyebrow": "Hoàn hảo khi:",
       "reportSummaryBullets": [
@@ -4146,8 +4146,8 @@ export const generatedLocalCopy = {
       "upgradeTitle": "Không chắc chắn? Bắt đầu với Report",
       "upgradeDescription": "Nhiều nhà điều hành bắt đầu với Report, chứng minh giá trị với Report Lite, sau đó nâng cấp lên Core khi họ cần tốc độ vận hành. Tất cả dữ liệu lịch sử được bảo tồn khi bạn nâng cấp, không mất dữ liệu.",
       "upgradeLabels": {
-        "reportLite": "Báo cáo Lite",
-        "reportPlus": "Báo cáo Plus/Pro",
+        "reportLite": "Report Lite",
+        "reportPlus": "Report Plus/Pro",
         "core": "Core"
       },
       "upgradeDescriptions": {
@@ -4159,7 +4159,7 @@ export const generatedLocalCopy = {
       "finalTitle": "Xem giá cho hoạt động của bạn",
       "finalDescription": "Máy tính tương tác hiển thị chi phí cho cả hai cấp độ dựa trên số lượng vị trí của bạn.",
       "finalPricing": "Xem giá",
-      "finalStartFree": "Bắt đầu miễn phí",
+      "finalStartFree": "Start with Report Lite",
       "finalBookDemo": "Đặt lịch Demo"
     },
     "ko": {
@@ -4168,8 +4168,8 @@ export const generatedLocalCopy = {
       "heroSuffix": "속도를 선택하세요",
       "heroDescription": "두 가지 모두 의사 결정 인사이트를 제공합니다. Report는 역사적 깊이를 제공합니다. Core는 실시간 운영 속도를 제공합니다. 얼마나 빠르게 행동해야 하는지에 따라 선택하세요.",
       "heroPrimary": "정확한 가격 보기",
-      "heroSecondary": "리포트로 무료 시작하기",
-      "reportSummaryTitle": "선데이 리포트",
+      "heroSecondary": "Start with Report Lite",
+      "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "역사적 분석 및 전략적 계획",
       "reportSummaryEyebrow": "완벽한 경우:",
       "reportSummaryBullets": [
@@ -4180,7 +4180,7 @@ export const generatedLocalCopy = {
       ],
       "reportSummaryNoteTitle": "영구 무료 시작",
       "reportSummaryNoteDescription": "Report Lite는 무료입니다. 가치를 증명한 후 업그레이드하세요.",
-      "coreSummaryTitle": "선데이 코어",
+      "coreSummaryTitle": "Sundae Core",
       "coreSummaryDescription": "실시간 운영 및 예측 지능",
       "coreSummaryEyebrow": "완벽한 경우:",
       "coreSummaryBullets": [
@@ -4238,7 +4238,7 @@ export const generatedLocalCopy = {
           "icon": "multiLocation"
         }
       ],
-      "pulseTitle": "티어별 펄스 기능",
+      "pulseTitle": "티어별 Pulse 기능",
       "pulseDescription": "Pulse는 Core 요금제에서 제공되는 일일 운영 모니터입니다.",
       "pulseColumns": {
         "report": "보고서 (무료)",
@@ -4406,8 +4406,8 @@ export const generatedLocalCopy = {
       "upgradeTitle": "잘 모르겠나요? Report로 시작하세요.",
       "upgradeDescription": "많은 운영자들이 Report로 시작하여 Report Lite로 가치를 입증한 후, 운영 속도가 필요할 때 Core로 업그레이드합니다. 업그레이드 시 모든 역사적 데이터가 보존되며, 데이터 손실이 없습니다.",
       "upgradeLabels": {
-        "reportLite": "리포트 라이트",
-        "reportPlus": "리포트 플러스/프로",
+        "reportLite": "Report Lite",
+        "reportPlus": "Report Plus/Pro",
         "core": "코어"
       },
       "upgradeDescriptions": {
@@ -4419,7 +4419,7 @@ export const generatedLocalCopy = {
       "finalTitle": "운영을 위한 가격 보기",
       "finalDescription": "인터랙티브 계산기는 위치 수에 따라 두 가지 요금제의 비용을 보여줍니다.",
       "finalPricing": "가격 보기",
-      "finalStartFree": "무료 시작",
+      "finalStartFree": "Start with Report Lite",
       "finalBookDemo": "데모 예약"
     },
     "sv": {
@@ -4428,8 +4428,8 @@ export const generatedLocalCopy = {
       "heroSuffix": "Välj din hastighet",
       "heroDescription": "Båda levererar beslutsintelligens. Report ger dig historisk djup. Core ger dig realtidsoperativ hastighet. Välj baserat på hur snabbt du behöver agera.",
       "heroPrimary": "Se exakta priser",
-      "heroSecondary": "Börja gratis med Report",
-      "reportSummaryTitle": "Sundae Rapport",
+      "heroSecondary": "Start with Report Lite",
+      "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "Historisk analys och strategisk planering",
       "reportSummaryEyebrow": "Perfekt när:",
       "reportSummaryBullets": [
@@ -4440,7 +4440,7 @@ export const generatedLocalCopy = {
       ],
       "reportSummaryNoteTitle": "Börja gratis för alltid",
       "reportSummaryNoteDescription": "Report Lite kostar ingenting. Bevisa värdet, och uppgradera sedan.",
-      "coreSummaryTitle": "Sundae Kärna",
+      "coreSummaryTitle": "Sundae Core",
       "coreSummaryDescription": "Verksamhet i realtid och prediktiv intelligens",
       "coreSummaryEyebrow": "Perfekt när:",
       "coreSummaryBullets": [
@@ -4666,8 +4666,8 @@ export const generatedLocalCopy = {
       "upgradeTitle": "Osäker? Börja med Report",
       "upgradeDescription": "Många operatörer börjar med Report, visar värdet med Report Lite och uppgraderar sedan till Core när de behöver operativ hastighet. All historisk data bevaras när du uppgraderar, utan dataförlust.",
       "upgradeLabels": {
-        "reportLite": "Rapport Lite",
-        "reportPlus": "Rapport Plus/Pro",
+        "reportLite": "Report Lite",
+        "reportPlus": "Report Plus/Pro",
         "core": "Kärna"
       },
       "upgradeDescriptions": {
@@ -4679,7 +4679,7 @@ export const generatedLocalCopy = {
       "finalTitle": "Se priser för din verksamhet",
       "finalDescription": "Interaktiv kalkylator visar kostnader för båda nivåerna baserat på ditt antal platser.",
       "finalPricing": "Se priser",
-      "finalStartFree": "Börja gratis",
+      "finalStartFree": "Start with Report Lite",
       "finalBookDemo": "Boka demo"
     },
     "bn": {
@@ -4688,8 +4688,8 @@ export const generatedLocalCopy = {
       "heroSuffix": "আপনার গতি নির্বাচন করুন",
       "heroDescription": "দুইটি সিদ্ধান্ত গ্রহণের বুদ্ধিমত্তা প্রদান করে। Report আপনাকে ঐতিহাসিক গভীরতা দেয়। Core আপনাকে বাস্তব সময়ের কার্যকরী গতি দেয়। আপনি কত দ্রুত কাজ করতে চান তার উপর ভিত্তি করে নির্বাচন করুন।",
       "heroPrimary": "নির্দিষ্ট মূল্য দেখুন",
-      "heroSecondary": "রিপোর্টের সাথে বিনামূল্যে শুরু করুন",
-      "reportSummaryTitle": "সান্ডে রিপোর্ট",
+      "heroSecondary": "Start with Report Lite",
+      "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "ঐতিহাসিক বিশ্লেষণ ও কৌশলগত পরিকল্পনা",
       "reportSummaryEyebrow": "সঠিক যখন:",
       "reportSummaryBullets": [
@@ -4699,8 +4699,8 @@ export const generatedLocalCopy = {
         "আপনি ১-৫টি অবস্থান পরিচালনা করছেন"
       ],
       "reportSummaryNoteTitle": "চিরকাল ফ্রি শুরু করুন",
-      "reportSummaryNoteDescription": "রিপোর্ট লাইটের কোনো খরচ নেই। মূল্য প্রমাণ করুন, তারপর আপগ্রেড করুন।",
-      "coreSummaryTitle": "সানডে কোর",
+      "reportSummaryNoteDescription": "Report Lite costs nothing. Prove the value, then upgrade.",
+      "coreSummaryTitle": "Sundae Core",
       "coreSummaryDescription": "রিয়েল-টাইম অপারেশন এবং পূর্বাভাসমূলক বুদ্ধিমত্তা",
       "coreSummaryEyebrow": "সঠিক যখন:",
       "coreSummaryBullets": [
@@ -4735,10 +4735,10 @@ export const generatedLocalCopy = {
         },
         {
           "category": "ডেটা সোর্স",
-          "report": "পিওএস শুধুমাত্র",
+          "report": "POS Only",
           "reportDetail": "বিক্রয়, রাজস্ব, পয়েন্ট-অফ-সেল সিস্টেম থেকে কভার",
-          "core": "পিওএস + সব সিস্টেম",
-          "coreDetail": "পিওএস + শ্রম + ইনভেন্টরি + মার্কেটিং + রিজার্ভেশন + ক্রয়",
+          "core": "POS + All Systems",
+          "coreDetail": "POS + Labor + Inventory + Marketing + Reservations + Purchasing",
           "icon": "integration"
         },
         {
@@ -4752,14 +4752,14 @@ export const generatedLocalCopy = {
         {
           "category": "সেরা জন্য",
           "report": "১-৫ লোকেশন",
-          "reportDetail": "প্রমাণের ধারণা, সান্ডে পরীক্ষা, কৌশলগত বিশ্লেষণ",
+          "reportDetail": "Proof of concept, testing Sundae, strategic analysis",
           "core": "১০+ লোকেশন",
           "coreDetail": "যেসব অপারেশন দ্রুততা এবং বহু-লোকেশন পোর্টফোলিও প্রয়োজন",
           "icon": "multiLocation"
         }
       ],
-      "pulseTitle": "পালস বৈশিষ্ট্য স্তর অনুযায়ী",
-      "pulseDescription": "পালস হল ইনট্রাডে অপারেশন মনিটর, যা কোর স্তরে উপলব্ধ",
+      "pulseTitle": "Pulse Features by Tier",
+      "pulseDescription": "Pulse is the intraday operations monitor, available on Core tiers",
       "pulseColumns": {
         "report": "রিপোর্ট (ফ্রি)",
         "core": "কোর"
@@ -4831,7 +4831,7 @@ export const generatedLocalCopy = {
           "core": "✓"
         }
       ],
-      "watchtowerTitle": "ওয়াচটাওয়ারের বৈশিষ্ট্য স্তর অনুযায়ী",
+      "watchtowerTitle": "Watchtower Features by Tier",
       "watchtowerDescription": "বাহ্যিক বুদ্ধিমত্তা, যা Core স্তরে উপলব্ধ",
       "watchtowerColumns": {
         "report": "রিপোর্ট (ফ্রি)",
@@ -4924,10 +4924,10 @@ export const generatedLocalCopy = {
         }
       ],
       "upgradeTitle": "নিশ্চিত নন? রিপোর্ট দিয়ে শুরু করুন",
-      "upgradeDescription": "অনেক অপারেটর রিপোর্ট দিয়ে শুরু করেন, রিপোর্ট লাইটের মাধ্যমে মূল্য প্রমাণ করেন, তারপর যখন তাদের অপারেশনাল গতি প্রয়োজন হয় তখন কোরে আপগ্রেড করেন। আপগ্রেড করার সময় সমস্ত ঐতিহাসিক তথ্য সংরক্ষিত থাকে, কোনো তথ্য হারানো হয় না।",
+      "upgradeDescription": "অনেক অপারেটর রিপোর্ট দিয়ে শুরু করেন, Report Liteের মাধ্যমে মূল্য প্রমাণ করেন, তারপর যখন তাদের অপারেশনাল গতি প্রয়োজন হয় তখন কোরে আপগ্রেড করেন। আপগ্রেড করার সময় সমস্ত ঐতিহাসিক তথ্য সংরক্ষিত থাকে, কোনো তথ্য হারানো হয় না।",
       "upgradeLabels": {
-        "reportLite": "রিপোর্ট লাইট",
-        "reportPlus": "রিপোর্ট প্লাস/প্রো",
+        "reportLite": "Report Lite",
+        "reportPlus": "Report Plus/Pro",
         "core": "কোর"
       },
       "upgradeDescriptions": {
@@ -4939,7 +4939,7 @@ export const generatedLocalCopy = {
       "finalTitle": "আপনার অপারেশনের জন্য মূল্য দেখুন",
       "finalDescription": "ইন্টারেক্টিভ ক্যালকুলেটর আপনার অবস্থানের সংখ্যা অনুযায়ী উভয় স্তরের জন্য খরচ দেখায়।",
       "finalPricing": "মূল্য দেখুন",
-      "finalStartFree": "ফ্রি শুরু করুন",
+      "finalStartFree": "Start with Report Lite",
       "finalBookDemo": "ডেমো বুক করুন"
     },
     "ms": {
@@ -4948,8 +4948,8 @@ export const generatedLocalCopy = {
       "heroSuffix": "Pilih Kelajuan Anda",
       "heroDescription": "Kedua-duanya memberikan kecerdasan keputusan. Report memberikan kedalaman sejarah. Core memberikan kelajuan operasi masa nyata. Pilih berdasarkan seberapa cepat anda perlu bertindak.",
       "heroPrimary": "Lihat Harga Tepat",
-      "heroSecondary": "Mula Percuma dengan Report",
-      "reportSummaryTitle": "Laporan Sundae",
+      "heroSecondary": "Start with Report Lite",
+      "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "Analisis sejarah & perancangan strategik",
       "reportSummaryEyebrow": "Sempurna apabila:",
       "reportSummaryBullets": [
@@ -4960,7 +4960,7 @@ export const generatedLocalCopy = {
       ],
       "reportSummaryNoteTitle": "Mula Percuma Selamanya",
       "reportSummaryNoteDescription": "Report Lite tidak dikenakan biaya. Buktikan nilai, kemudian tingkatkan.",
-      "coreSummaryTitle": "Sundae Inti",
+      "coreSummaryTitle": "Sundae Core",
       "coreSummaryDescription": "Operasi masa nyata & kecerdasan ramalan",
       "coreSummaryEyebrow": "Sempurna apabila:",
       "coreSummaryBullets": [
@@ -5186,8 +5186,8 @@ export const generatedLocalCopy = {
       "upgradeTitle": "Tidak Pasti? Mulakan dengan Laporan",
       "upgradeDescription": "Banyak pengendali bermula dengan Report, membuktikan nilai dengan Report Lite, kemudian menaik taraf ke Core apabila mereka memerlukan kelajuan operasi. Semua data sejarah dipelihara apabila anda menaik taraf, tanpa kehilangan data.",
       "upgradeLabels": {
-        "reportLite": "Laporan Lite",
-        "reportPlus": "Laporan Plus/Pro",
+        "reportLite": "Report Lite",
+        "reportPlus": "Report Plus/Pro",
         "core": "Core"
       },
       "upgradeDescriptions": {
@@ -5199,7 +5199,7 @@ export const generatedLocalCopy = {
       "finalTitle": "Lihat Harga untuk Operasi Anda",
       "finalDescription": "Kalkulator interaktif menunjukkan kos untuk kedua-dua tahap berdasarkan bilangan lokasi anda.",
       "finalPricing": "Lihat Harga",
-      "finalStartFree": "Mula Percuma",
+      "finalStartFree": "Start with Report Lite",
       "finalBookDemo": "Tempah Demo"
     },
     "th": {
@@ -5208,8 +5208,8 @@ export const generatedLocalCopy = {
       "heroSuffix": "เลือกความเร็วของคุณ",
       "heroDescription": "ทั้งสองให้ข้อมูลเชิงตัดสินใจ รายงานให้คุณเห็นข้อมูลในอดีต ขณะที่ Core ให้ความเร็วในการดำเนินงานแบบเรียลไทม์ เลือกตามความเร็วที่คุณต้องการดำเนินการ.",
       "heroPrimary": "ดูราคาแบบเจาะจง",
-      "heroSecondary": "เริ่มใช้งานฟรีกับ Report",
-      "reportSummaryTitle": "รายงาน Sundae",
+      "heroSecondary": "Start with Report Lite",
+      "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "การวิเคราะห์ประวัติศาสตร์และการวางแผนเชิงกลยุทธ์",
       "reportSummaryEyebrow": "เหมาะสำหรับเมื่อ:",
       "reportSummaryBullets": [
@@ -5220,7 +5220,7 @@ export const generatedLocalCopy = {
       ],
       "reportSummaryNoteTitle": "เริ่มใช้งานฟรีตลอดไป",
       "reportSummaryNoteDescription": "Report Lite ไม่มีค่าใช้จ่ายใดๆ แสดงให้เห็นถึงคุณค่า จากนั้นจึงอัปเกรด.",
-      "coreSummaryTitle": "ซันเดย์ คอร์",
+      "coreSummaryTitle": "Sundae Core",
       "coreSummaryDescription": "การดำเนินงานแบบเรียลไทม์และปัญญาเชิงพยากรณ์",
       "coreSummaryEyebrow": "เหมาะสำหรับเมื่อ:",
       "coreSummaryBullets": [
@@ -5446,8 +5446,8 @@ export const generatedLocalCopy = {
       "upgradeTitle": "ไม่แน่ใจ? เริ่มต้นด้วย Report",
       "upgradeDescription": "ผู้ประกอบการหลายคนเริ่มต้นด้วย Report, แสดงคุณค่าด้วย Report Lite, แล้วจึงอัปเกรดเป็น Core เมื่อพวกเขาต้องการความเร็วในการดำเนินงาน ข้อมูลประวัติทั้งหมดจะถูกเก็บรักษาเมื่อคุณอัปเกรด โดยไม่มีการสูญเสียข้อมูล.",
       "upgradeLabels": {
-        "reportLite": "รายงาน Lite",
-        "reportPlus": "รายงาน Plus/Pro",
+        "reportLite": "Report Lite",
+        "reportPlus": "Report Plus/Pro",
         "core": "Core"
       },
       "upgradeDescriptions": {
@@ -5459,7 +5459,7 @@ export const generatedLocalCopy = {
       "finalTitle": "ดูราคาสำหรับการดำเนินงานของคุณ",
       "finalDescription": "เครื่องคิดเลขแบบโต้ตอบแสดงต้นทุนสำหรับทั้งสองระดับตามจำนวนสถานที่ของคุณ.",
       "finalPricing": "ดูราคา",
-      "finalStartFree": "เริ่มใช้งานฟรี",
+      "finalStartFree": "Start with Report Lite",
       "finalBookDemo": "จองการสาธิต"
     }
   }

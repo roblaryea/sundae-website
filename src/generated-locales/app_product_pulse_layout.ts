@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/app/product/pulse/layout.tsx.
-// OpenAI generated completed chunks first; Google Translate fallback filled remaining quota-limited chunks.
+// Product/module translations manually reviewed for protected Sundae glossary terms and obvious literal phrasing.
 export const generatedLocalCopy = {
   "copy": {
     "ar": {
@@ -39,15 +39,15 @@ export const generatedLocalCopy = {
       "openGraphDescription": "Rythme des ventes en direct avec des objectifs d'IA adaptatifs, un suivi de la productivité du travail, des analyses des performances des serveurs, une surveillance des fuites et un coaching de changement d'IA."
     },
     "hi": {
-      "title": "संडे पल्स - रेस्तरां के लिए रीयल-टाइम इंट्राडे ऑपरेशंस मॉनिटर",
+      "title": "Sundae Pulse - रेस्तरां के लिए रीयल-टाइम इंट्राडे ऑपरेशंस मॉनिटर",
       "description": "अनुकूली एआई लक्ष्य, श्रम उत्पादकता ट्रैकिंग, सर्वर प्रदर्शन विश्लेषण, रिसाव निगरानी और एआई शिफ्ट कोचिंग के साथ लाइव बिक्री गति। हर शिफ्ट के लिए कमांड सेंटर।",
-      "openGraphTitle": "संडे पल्स - रीयल-टाइम इंट्राडे ऑपरेशंस मॉनिटर",
+      "openGraphTitle": "Sundae Pulse - रीयल-टाइम इंट्राडे ऑपरेशंस मॉनिटर",
       "openGraphDescription": "अनुकूली एआई लक्ष्य, श्रम उत्पादकता ट्रैकिंग, सर्वर प्रदर्शन विश्लेषण, रिसाव निगरानी और एआई शिफ्ट कोचिंग के साथ लाइव बिक्री गति।"
     },
     "ur": {
       "title": "Sundae Pulse — ریستوران کے لیے ریئل ٹائم انٹرا ڈے آپریشنز مانیٹر",
       "description": "انکولی AI اہداف، لیبر پروڈکٹیوٹی ٹریکنگ، سرور پرفارمنس اینالیٹکس، لیکیج مانیٹرنگ، اور AI شفٹ کوچنگ کے ساتھ لائیو سیلز پیسنگ۔ ہر شفٹ کے لیے کمانڈ سینٹر۔",
-      "openGraphTitle": "سنڈے پلس - ریئل ٹائم انٹرا ڈے آپریشنز مانیٹر",
+      "openGraphTitle": "Sundae Pulse - ریئل ٹائم انٹرا ڈے آپریشنز مانیٹر",
       "openGraphDescription": "انکولی AI اہداف، لیبر پروڈکٹیوٹی ٹریکنگ، سرور پرفارمنس اینالیٹکس، لیکیج مانیٹرنگ، اور AI شفٹ کوچنگ کے ساتھ لائیو سیلز پیسنگ۔"
     },
     "zh-Hans": {
@@ -105,9 +105,9 @@ export const generatedLocalCopy = {
       "openGraphDescription": "Tốc độ bán hàng trực tiếp với các mục tiêu AI thích ứng, theo dõi năng suất lao động, phân tích hiệu suất máy chủ, giám sát rò rỉ và huấn luyện chuyển đổi AI."
     },
     "bn": {
-      "title": "সানডে পালস — রেস্তোরাঁর জন্য রিয়েল-টাইম ইন্ট্রাডে অপারেশন মনিটর",
+      "title": "Sundae Pulse — Real-Time Intraday Operations Monitor for Restaurants",
       "description": "অভিযোজিত AI লক্ষ্যমাত্রা, শ্রম উৎপাদনশীলতা ট্র্যাকিং, সার্ভার কর্মক্ষমতা বিশ্লেষণ, ফুটো পর্যবেক্ষণ, এবং AI শিফট কোচিং সহ লাইভ সেলস পেসিং। প্রতিটি শিফটের জন্য কমান্ড সেন্টার।",
-      "openGraphTitle": "সানডে পালস — রিয়েল-টাইম ইন্ট্রাডে অপারেশন মনিটর",
+      "openGraphTitle": "Sundae Pulse — Real-Time Intraday Operations Monitor",
       "openGraphDescription": "অভিযোজিত AI লক্ষ্যমাত্রা, শ্রম উৎপাদনশীলতা ট্র্যাকিং, সার্ভার কর্মক্ষমতা বিশ্লেষণ, ফুটো পর্যবেক্ষণ, এবং AI শিফট কোচিং সহ লাইভ সেলস পেসিং।"
     },
     "sv": {
@@ -117,9 +117,9 @@ export const generatedLocalCopy = {
       "openGraphDescription": "Försäljningstakt i realtid med adaptiva AI-mål, spårning av arbetsproduktivitet, analys av serverprestanda, läckageövervakning och AI-skiftcoachning."
     },
     "ms": {
-      "title": "Nadi Sundae — Pemantau Operasi Seharian Masa Nyata untuk Restoran",
+      "title": "Sundae Pulse — Real-Time Intraday Operations Monitor for Restaurants",
       "description": "Rentak jualan langsung dengan sasaran AI adaptif, penjejakan produktiviti buruh, analitik prestasi pelayan, pemantauan kebocoran dan bimbingan peralihan AI. Pusat arahan untuk setiap syif.",
-      "openGraphTitle": "Nadi Sundae — Pemantau Operasi Seharian Masa Nyata",
+      "openGraphTitle": "Sundae Pulse — Real-Time Intraday Operations Monitor",
       "openGraphDescription": "Rentak jualan langsung dengan sasaran AI adaptif, penjejakan produktiviti buruh, analitik prestasi pelayan, pemantauan kebocoran dan bimbingan peralihan AI."
     },
     "th": {

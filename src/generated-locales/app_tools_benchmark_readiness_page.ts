@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/app/tools/benchmark-readiness/page.tsx.
-// Do not edit by hand; regenerate from the English local copy source.
+// Structural fields and protected glossary terms normalized from English source; review prose translations before release.
 export const generatedLocalCopy = {
   "localizedCopy": {
     "de": {
@@ -727,7 +727,7 @@ export const generatedLocalCopy = {
         },
         {
           "id": "systemIntegration",
-          "question": "ما مدى تكامل أنظمتك التشغيلية (نقاط البيع، الرواتب، المخزون)؟",
+          "question": "ما مدى تكامل أنظمتك التشغيلية (POS، الرواتب، المخزون)؟",
           "options": [
             {
               "value": "1",

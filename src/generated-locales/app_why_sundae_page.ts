@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/app/why-sundae/page.tsx.
-// Do not edit by hand; regenerate from the English local copy source.
+// Structural fields and protected glossary terms normalized from English source; review prose translations before release.
 export const generatedLocalCopy = {
   "localizedCopy": {
     "fr": {
@@ -80,7 +80,7 @@ export const generatedLocalCopy = {
             "title": "Sundae",
             "items": [
               "Modèle d'intelligence 4D",
-              "Surveillance en temps réel",
+              "Real-time Pulse monitoring",
               "Contexte de marché via Watchtower",
               "Recommandations intelligentes"
             ],
@@ -208,7 +208,7 @@ export const generatedLocalCopy = {
             "title": "Sundae",
             "items": [
               "Modelo de Inteligencia 4D",
-              "Monitoreo de Pulso en tiempo real",
+              "Real-time Pulse monitoring",
               "Contexto de mercado a través de Watchtower",
               "Recomendaciones inteligentes"
             ],
@@ -388,7 +388,7 @@ export const generatedLocalCopy = {
     },
     "ar": {
       "hero": {
-        "badge": "لماذا سونداي",
+        "badge": "لماذا Sundae",
         "title": "طبقة الذكاء التي لم تمتلكها المطاعم من قبل",
         "description": "تعيش بياناتك في صوامع غير متصلة. يقوم فريقك باتخاذ قرارات بملايين الدولارات بناءً على الحدس. لقد أنشأنا المنصة التي تغير ذلك."
       },
@@ -400,7 +400,7 @@ export const generatedLocalCopy = {
       "differentiators": [
         {
           "title": "استيعاب البيانات عبر 12 مجالاً",
-          "description": "نقاط البيع، العمالة، المخزون، الشراء، الحجوزات، التوصيل، التسويق، تجربة الضيوف، إدارة علاقات العملاء، المحاسبة - جميعها موحدة. لا مزيد من الأنظمة المنفصلة.",
+          "description": "POS، العمالة، المخزون، الشراء، الحجوزات، التوصيل، التسويق، تجربة الضيوف، إدارة علاقات العملاء، المحاسبة - جميعها موحدة. لا مزيد من الأنظمة المنفصلة.",
           "icon": "integration",
           "color": "bg-[#1C47FF]"
         },
@@ -464,7 +464,7 @@ export const generatedLocalCopy = {
             "title": "Sundae",
             "items": [
               "نموذج الذكاء الرباعي الأبعاد",
-              "مراقبة نبض الوقت الحقيقي",
+              "مراقبة Pulse الوقت الحقيقي",
               "سياق السوق عبر Watchtower",
               "توصيات ذكية"
             ],
@@ -592,7 +592,7 @@ export const generatedLocalCopy = {
             "title": "Sundae",
             "items": [
               "4D-Intelligenzmodell",
-              "Echtzeit-Pulsüberwachung",
+              "Echtzeit-Pulseüberwachung",
               "Marktkontext über Watchtower",
               "Intelligente Empfehlungen"
             ],
@@ -720,7 +720,7 @@ export const generatedLocalCopy = {
             "title": "Sundae",
             "items": [
               "Modelo de Inteligência 4D",
-              "Monitoramento de Pulso em tempo real",
+              "Real-time Pulse monitoring",
               "Contexto de mercado via Watchtower",
               "Recomendações inteligentes"
             ],
@@ -772,7 +772,7 @@ export const generatedLocalCopy = {
     },
     "ur": {
       "hero": {
-        "badge": "کیوں سنڈے",
+        "badge": "کیوں Sundae",
         "title": "وہ ذہانت کی تہہ جو ریستورانوں کے پاس کبھی نہیں تھی",
         "description": "آپ کا ڈیٹا الگ الگ سائلوز میں موجود ہے۔ آپ کی ٹیم لاکھوں ڈالر کے فیصلے احساس کی بنیاد پر کرتی ہے۔ ہم نے وہ پلیٹ فارم بنایا ہے جو یہ سب بدل دیتا ہے۔"
       },
@@ -795,13 +795,13 @@ export const generatedLocalCopy = {
           "color": "bg-purple-600"
         },
         {
-          "title": "پلس کے ذریعے حقیقی وقت کی کارروائیاں",
+          "title": "Pulse کے ذریعے حقیقی وقت کی کارروائیاں",
           "description": "انٹرا ڈے سیلز پیسنگ، محنت کی پیداوار، لیکیج کی شناخت، اور کوچنگ - شفٹ ختم ہونے سے پہلے۔",
           "icon": "speed",
           "color": "bg-green-600"
         },
         {
-          "title": "واچ ٹاور کے ذریعے خارجی انٹیلیجنس",
+          "title": "Watchtower کے ذریعے خارجی انٹیلیجنس",
           "description": "نیا حریف؟ موسم کی خرابیاں؟ کنسرٹ کا اعلان؟ آپ کو معلوم ہوگا کہ یہ آپ کے اعداد و شمار پر آنے سے پہلے۔",
           "icon": "watchtower",
           "color": "bg-red-600"
@@ -848,7 +848,7 @@ export const generatedLocalCopy = {
             "title": "Sundae",
             "items": [
               "4D انٹیلی جنس ماڈل",
-              "حقیقی وقت کی پلس مانیٹرنگ",
+              "حقیقی وقت کی Pulse مانیٹرنگ",
               "Watchtower کے ذریعے مارکیٹ کا سیاق و سباق",
               "ذہین سفارشات"
             ],
@@ -864,7 +864,7 @@ export const generatedLocalCopy = {
           {
             "title": "آپریشنز کے رہنما",
             "pain": "آپ ایک وقت میں ہر ریستوران میں نہیں ہو سکتے۔",
-            "description": "پلس اور پورٹ فولیو کے ذریعے ہر مقام پر حقیقی وقت کی بصیرت - جانیں کہ کس کو مدد کی ضرورت ہے اس سے پہلے کہ وہ پوچھیں۔",
+            "description": "Pulse اور پورٹ فولیو کے ذریعے ہر مقام پر حقیقی وقت کی بصیرت - جانیں کہ کس کو مدد کی ضرورت ہے اس سے پہلے کہ وہ پوچھیں۔",
             "icon": "multiLocation",
             "color": "bg-[#1C47FF]"
           },
@@ -893,14 +893,14 @@ export const generatedLocalCopy = {
       },
       "cta": {
         "title": "اپنے ریستوراں کو احساسات پر چلانا بند کریں۔",
-        "description": "اپنے ڈیٹا کا جائزہ لینے کے لیے 30 منٹ نکالیں اور دیکھیں کہ کیا سنڈے واقعی آپ کی ٹیم کی مدد کرے گا۔",
+        "description": "اپنے ڈیٹا کا جائزہ لینے کے لیے 30 منٹ نکالیں اور دیکھیں کہ کیا Sundae واقعی آپ کی ٹیم کی مدد کرے گا۔",
         "primary": "ڈیمو بک کریں",
         "secondary": "پروڈکٹس دریافت کریں"
       }
     },
     "hi": {
       "hero": {
-        "badge": "संडे क्यों",
+        "badge": "Sundae क्यों",
         "title": "इंटेलिजेंस लेयर जो रेस्तरां के पास कभी नहीं थी",
         "description": "आपका डेटा अलग-अलग साइलो में रहता है। आपकी टीम आंतरिक भावना से लाखों डॉलर के निर्णय लेती है। हमने वह प्लेटफ़ॉर्म बनाया है जो इसे बदलता है।"
       },
@@ -923,13 +923,13 @@ export const generatedLocalCopy = {
           "color": "bg-purple-600"
         },
         {
-          "title": "पल्स के माध्यम से वास्तविक समय संचालन",
+          "title": "Pulse के माध्यम से वास्तविक समय संचालन",
           "description": "इंट्राडे बिक्री की गति, श्रम उत्पादकता, लीक पहचान, और कोचिंग - शिफ्ट खत्म होने से पहले।",
           "icon": "speed",
           "color": "bg-green-600"
         },
         {
-          "title": "वॉचटॉवर के माध्यम से बाहरी इंटेलिजेंस",
+          "title": "External Intelligence via Watchtower",
           "description": "नया प्रतियोगी? मौसम खराब होने से कवर? कॉन्सर्ट की घोषणा? आप जानेंगे इससे पहले कि यह आपके नंबरों को प्रभावित करे।",
           "icon": "watchtower",
           "color": "bg-red-600"
@@ -976,7 +976,7 @@ export const generatedLocalCopy = {
             "title": "Sundae",
             "items": [
               "4D इंटेलिजेंस मॉडल",
-              "वास्तविक समय की पल्स निगरानी",
+              "वास्तविक समय की Pulse निगरानी",
               "Watchtower के माध्यम से बाजार संदर्भ",
               "बुद्धिमान सिफारिशें"
             ],
@@ -1104,7 +1104,7 @@ export const generatedLocalCopy = {
             "title": "Sundae",
             "items": [
               "Modello di Intelligenza 4D",
-              "Monitoraggio del Polso in tempo reale",
+              "Real-time Pulse monitoring",
               "Contesto di mercato tramite Watchtower",
               "Raccomandazioni intelligenti"
             ],
@@ -1232,7 +1232,7 @@ export const generatedLocalCopy = {
             "title": "Sundae",
             "items": [
               "4D Zeka Modeli",
-              "Gerçek zamanlı Nabız izleme",
+              "Real-time Pulse monitoring",
               "Watchtower aracılığıyla piyasa bağlamı",
               "Akıllı öneriler"
             ],
@@ -1360,7 +1360,7 @@ export const generatedLocalCopy = {
             "title": "Sundae",
             "items": [
               "4D智能模型",
-              "实时脉搏监测",
+              "实时Pulse监测",
               "通过Watchtower提供市场背景",
               "智能推荐"
             ],
@@ -1488,7 +1488,7 @@ export const generatedLocalCopy = {
             "title": "Sundae",
             "items": [
               "Model Inteligencji 4D",
-              "Monitorowanie Pulsu w czasie rzeczywistym",
+              "Real-time Pulse monitoring",
               "Kontekst rynkowy za pomocą Watchtower",
               "Inteligentne rekomendacje"
             ],
@@ -1616,7 +1616,7 @@ export const generatedLocalCopy = {
             "title": "Sundae",
             "items": [
               "4Dインテリジェンスモデル",
-              "リアルタイムパルス監視",
+              "リアルタイムPulse監視",
               "Watchtowerによる市場コンテキスト",
               "インテリジェントな推奨"
             ],
@@ -1744,7 +1744,7 @@ export const generatedLocalCopy = {
             "title": "Sundae",
             "items": [
               "Mô hình Trí Tuệ 4D",
-              "Giám sát Nhịp đập thời gian thực",
+              "Real-time Pulse monitoring",
               "Ngữ cảnh thị trường qua Watchtower",
               "Khuyến nghị thông minh"
             ],
@@ -2000,7 +2000,7 @@ export const generatedLocalCopy = {
             "title": "Sundae",
             "items": [
               "4D 인텔리전스 모델",
-              "실시간 맥박 모니터링",
+              "Real-time Pulse monitoring",
               "Watchtower를 통한 시장 맥락",
               "지능형 추천"
             ],
@@ -2128,7 +2128,7 @@ export const generatedLocalCopy = {
             "title": "Sundae",
             "items": [
               "Model de Inteligență 4D",
-              "Monitorizare Puls în timp real",
+              "Monitorizare Pulse în timp real",
               "Context de piață prin Watchtower",
               "Recomandări inteligente"
             ],
@@ -2256,7 +2256,7 @@ export const generatedLocalCopy = {
             "title": "Sundae",
             "items": [
               "4D Intelligence Model",
-              "Övervakning av realtids-Puls",
+              "Övervakning av realtids-Pulse",
               "Marknadskontext via Watchtower",
               "Intelligenta rekommendationer"
             ],
@@ -2308,7 +2308,7 @@ export const generatedLocalCopy = {
     },
     "bn": {
       "hero": {
-        "badge": "কেন সানডে",
+        "badge": "কেন Sundae",
         "title": "রেস্তোরাঁর জন্য অদৃশ্য বুদ্ধিমত্তা স্তর",
         "description": "আপনার ডেটা বিচ্ছিন্ন সাইলোতে থাকে। আপনার দল অন্তর্দৃষ্টি দ্বারা মিলিয়ন ডলারের সিদ্ধান্ত নেয়। আমরা সেই প্ল্যাটফর্ম তৈরি করেছি যা এটি পরিবর্তন করে।"
       },
@@ -2331,13 +2331,13 @@ export const generatedLocalCopy = {
           "color": "bg-purple-600"
         },
         {
-          "title": "পালসের মাধ্যমে রিয়েল-টাইম অপারেশন",
+          "title": "Real-Time Operations via Pulse",
           "description": "দিনের মধ্যে বিক্রয় পেসিং, শ্রম উৎপাদনশীলতা, লিকেজ সনাক্তকরণ, এবং কোচিং - শিফট শেষ হওয়ার আগে।",
           "icon": "speed",
           "color": "bg-green-600"
         },
         {
-          "title": "ওয়াচটাওয়ারের মাধ্যমে এক্সটার্নাল ইন্টেলিজেন্স",
+          "title": "External Intelligence via Watchtower",
           "description": "নতুন প্রতিযোগী? আবহাওয়া খারাপ হচ্ছে? কনসার্ট ঘোষণা করা হয়েছে? আপনি আপনার সংখ্যাগুলোর আগে জানবেন।",
           "icon": "watchtower",
           "color": "bg-red-600"
@@ -2384,7 +2384,7 @@ export const generatedLocalCopy = {
             "title": "Sundae",
             "items": [
               "4D ইন্টেলিজেন্স মডেল",
-              "রিয়েল-টাইম পালস মনিটরিং",
+              "Real-time Pulse monitoring",
               "Watchtower এর মাধ্যমে বাজারের প্রেক্ষাপট",
               "বুদ্ধিমান সুপারিশ"
             ],
@@ -2400,7 +2400,7 @@ export const generatedLocalCopy = {
           {
             "title": "অপারেশন নেতৃবৃন্দ",
             "pain": "আপনি একসাথে প্রতিটি রেস্টুরেন্টে থাকতে পারবেন না।",
-            "description": "পালস এবং পোর্টফোলিওর মাধ্যমে প্রতিটি অবস্থানের বাস্তব-সময়ের দৃশ্যমানতা - জানুন কে সাহায্য প্রয়োজন তার আগে।",
+            "description": "পালস এবং পোর্টফোলিওর মাধ্যমে প্রতিটি অবস্থানের বাস্তব-সময়ের দৃশ্যমানতা - জানুন কে সাহায্য প্রয়োজন তার আগে। (Pulse)",
             "icon": "multiLocation",
             "color": "bg-[#1C47FF]"
           },
@@ -2436,7 +2436,7 @@ export const generatedLocalCopy = {
     },
     "th": {
       "hero": {
-        "badge": "ทำไมซันเด",
+        "badge": "Why Sundae",
         "title": "ชั้นข้อมูลอัจฉริยะที่ร้านอาหารไม่เคยมี",
         "description": "ข้อมูลของคุณอยู่ในซิลอสที่ไม่เชื่อมต่อ ทีมของคุณตัดสินใจมูลค่าหลายล้านดอลลาร์จากความรู้สึก เราสร้างแพลตฟอร์มที่เปลี่ยนแปลงสิ่งนั้น."
       },

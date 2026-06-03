@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/app/architecture/page.tsx.
-// OpenAI generated completed chunks first; Google Translate fallback filled remaining quota-limited chunks.
+// Structural fields and protected glossary terms normalized from English source; review prose translations before release.
 export const generatedLocalCopy = {
   "localizedArchitectureCopy": {
     "ar": {
@@ -28,37 +28,37 @@ export const generatedLocalCopy = {
           "title": "ذكاء القرار",
           "subtitle": "الطبقة العليا",
           "description": "المعايير والرؤى والتنبؤ والقرارات الآلية",
-          "color": "bg-gradient-to-r من-pink-500 إلى-rose-500",
-          "icon": "الذكاء"
+          "color": "bg-gradient-to-r from-pink-500 to-rose-500",
+          "icon": "intelligence"
         },
         {
           "title": "معالجة الذكاء الاصطناعي",
           "subtitle": "طبقة الذكاء",
           "description": "الذكاء الاصطناعي متعدد الوكلاء، اكتشاف الأنماط، اكتشاف الشذوذ، الاستدلال",
-          "color": "bg-gradient-to-r من-slate-50 إلى-blue-50",
+          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
           "textColor": "نص-[فار(-نص أساسي)]",
-          "icon": "السرعة"
+          "icon": "speed"
         },
         {
           "title": "معالجة البيانات",
           "subtitle": "طبقة التحول",
           "description": "التنظيف والتحويل ومنطق المقاييس والإثراء",
-          "color": "bg-gradient-to-r من-yellow-400 إلى-amber-400",
+          "color": "bg-gradient-to-r from-yellow-400 to-amber-400",
           "icon": "data"
         },
         {
           "title": "تكامل البيانات",
           "subtitle": "طبقة التوحيد",
-          "description": "نقاط البيع، العمالة، المخزون، الحجوزات، مجمعات التسليم، توحيد البيانات الأولية",
-          "color": "bg-gradient-to-r من-orange-500 إلى-amber-600",
-          "icon": "التكامل"
+          "description": "POS، العمالة، المخزون، الحجوزات، مجمعات التسليم، توحيد البيانات الأولية",
+          "color": "bg-gradient-to-r from-orange-500 to-amber-600",
+          "icon": "integration"
         },
         {
           "title": "الأساس / البنية التحتية",
           "subtitle": "الطبقة الأساسية",
           "description": "تأمين خطوط الأنابيب، واستيعاب واجهة برمجة التطبيقات (API)، والتطبيع، والحوكمة",
-          "color": "bg-gradient-to-r من-amber-700 إلى-orange-800",
-          "icon": "شبكة"
+          "color": "bg-gradient-to-r from-amber-700 to-orange-800",
+          "icon": "network"
         }
       ],
       "steps": [
@@ -66,45 +66,45 @@ export const generatedLocalCopy = {
           "step": "1",
           "title": "جمع البيانات",
           "description": "يتصل Scout بأكثر من 30 نظام مطعم عبر 12 مجال بيانات ومصادر خارجية",
-          "icon": "التكامل"
+          "icon": "integration"
         },
         {
           "step": "2",
           "title": "معالجة الذكاء الاصطناعي",
           "description": "يقوم الذكاء الاصطناعي متعدد الوكلاء بتحليل الأنماط ويولد رؤى",
-          "icon": "الذكاء"
+          "icon": "intelligence"
         },
         {
           "step": "3",
           "title": "تسليم الاستخبارات",
           "description": "توصيات قابلة للتنفيذ يتم تقديمها من خلال اللغة والتصورات",
-          "icon": "رؤى"
+          "icon": "insights"
         }
       ],
       "agents": [
         {
           "name": "وكلاء الأنماط",
           "description": "تحديد الأنماط التشغيلية المتكررة، والاتجاهات الموسمية، والعلاقات المخفية عبر المواقع",
-          "icon": "الرؤية"
+          "icon": "visibility"
         },
         {
           "name": "وكلاء التنبؤ",
           "description": "توقع المبيعات واحتياجات العمالة ومتطلبات المخزون والطلب التشغيلي باستخدام نماذج تعلم الآلة",
-          "icon": "التنبؤ"
+          "icon": "forecasting"
         },
         {
           "name": "وكلاء السياق",
           "description": "فهم السياق التشغيلي وتفاصيل الموقع وقواعد العمل لتقديم الرؤى ذات الصلة",
-          "icon": "الذكاء"
+          "icon": "intelligence"
         }
       ],
       "modules": [
         {
-          "name": "الكشفية",
+          "name": "Scout",
           "description": "طبقة تكامل بيانات عالمية تربط أكثر من 30 نظامًا للمطاعم عبر 12 مجالًا للبيانات",
-          "icon": "كشاف",
+          "icon": "scout",
           "features": [
-            "تكامل نقاط البيع",
+            "تكامل POS",
             "أنظمة العمل",
             "المخزون",
             "مزامنة في الوقت الحقيقي"
@@ -112,9 +112,9 @@ export const generatedLocalCopy = {
           "colorClass": "رمز المكون - الكشفية"
         },
         {
-          "name": "نبض",
+          "name": "Pulse",
           "description": "الكشف عن الحالات الشاذة المدعومة بالذكاء الاصطناعي ونظام التنبيه في الوقت الفعلي",
-          "icon": "نبض",
+          "icon": "pulse",
           "features": [
             "كشف الشذوذ",
             "تنبيهات في الوقت الحقيقي",
@@ -126,7 +126,7 @@ export const generatedLocalCopy = {
         {
           "name": "صياغة",
           "description": "محرك الذكاء الاصطناعي للمحادثة لذكاء اللغة الطبيعية",
-          "icon": "صياغة",
+          "icon": "forge",
           "features": [
             "اللغة الطبيعية",
             "فهم السياق",
@@ -136,9 +136,9 @@ export const generatedLocalCopy = {
           "colorClass": "أيقونة المكون - صياغة"
         },
         {
-          "name": "قماش",
+          "name": "Canvas",
           "description": "التصور الديناميكي وطبقة ذكاء لوحة القيادة",
-          "icon": "قماش",
+          "icon": "canvas",
           "features": [
             "لوحات المعلومات في الوقت الحقيقي",
             "طرق عرض مخصصة",
@@ -150,7 +150,7 @@ export const generatedLocalCopy = {
         {
           "name": "Watchtower",
           "description": "استخبارات السوق ومحرك المقارنة المعيارية",
-          "icon": "برج المراقبة",
+          "icon": "watchtower",
           "features": [
             "رؤى السوق",
             "بيانات المنافس",
@@ -164,17 +164,17 @@ export const generatedLocalCopy = {
         {
           "title": "التشفير من النهاية إلى النهاية",
           "description": "تشفير AES-256 للبيانات أثناء النقل والراحة",
-          "icon": "التنبيهات"
+          "icon": "alerts"
         },
         {
           "title": "التحكم في الوصول",
           "description": "الوصول المستند إلى الدور مع مصادقة متعددة العوامل",
-          "icon": "التكامل"
+          "icon": "integration"
         },
         {
           "title": "معايير الامتثال",
           "description": "متوافق مع SOC 2 Type II وGDPR وCCPA",
-          "icon": "النجاح"
+          "icon": "success"
         }
       ],
       "certs": [
@@ -202,8 +202,8 @@ export const generatedLocalCopy = {
       "engineeringCards": [
         {
           "title": "الذكاء الاصطناعي متعدد الوكلاء",
-          "icon": "الذكاء",
-          "color": "من-أرجواني-500 إلى-أرجواني-600",
+          "icon": "intelligence",
+          "color": "from-purple-500 to-purple-600",
           "features": [
             "محرك الذكاء الاصطناعي متعدد الوكلاء",
             "نماذج التعلم المستمر",
@@ -213,8 +213,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "المعالجة في الوقت الحقيقي",
-          "icon": "السرعة",
-          "color": "من الأزرق 500 إلى الأزرق 600",
+          "icon": "speed",
+          "color": "from-blue-500 to-blue-600",
           "features": [
             "معالجة البيانات في الوقت الحقيقي",
             "أوقات الاستجابة دون الثانية",
@@ -224,8 +224,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "محرك التكامل",
-          "icon": "التكامل",
-          "color": "من-الأخضر-500 إلى-الأخضر-600",
+          "icon": "integration",
+          "color": "from-green-500 to-green-600",
           "features": [
             "12-موصلات بيانات المجال",
             "بنية واجهة برمجة تطبيقات RESTful",
@@ -235,8 +235,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "جوهر الذكاء",
-          "icon": "رؤى",
-          "color": "من -برتقالي-500 إلى-برتقالي-600",
+          "icon": "insights",
+          "color": "from-orange-500 to-orange-600",
           "features": [
             "خوارزميات متقدمة",
             "نماذج التعلم الآلي",
@@ -246,8 +246,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "طبقة التسليم",
-          "icon": "قماش",
-          "color": "من سماوي 500 إلى سماوي 600",
+          "icon": "canvas",
+          "color": "from-cyan-500 to-cyan-600",
           "features": [
             "لوحات المعلومات التفاعلية",
             "استعلامات اللغة الطبيعية",
@@ -257,8 +257,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "الأمن والحوكمة",
-          "icon": "الجودة",
-          "color": "من الأحمر 500 إلى الأحمر 600",
+          "icon": "quality",
+          "color": "from-red-500 to-red-600",
           "features": [
             "متوافق مع SOC 2 النوع II",
             "التشفير من النهاية إلى النهاية",
@@ -278,7 +278,7 @@ export const generatedLocalCopy = {
       "flowTitle": "De los datos a las decisiones",
       "flowDescription": "Cómo los datos sin procesar se convierten en inteligencia procesable en milisegundos",
       "agentsTitle": "Motor de IA multiagente",
-      "agentsDescription": "Agentes de IA especializados que trabajan juntos en detección, previsión y contexto.",
+      "agentsDescription": "Agentes de IA especializados que trabajan juntos en detección, pronóstico y contexto.",
       "modulesTitle": "Módulos de arquitectura",
       "modulesDescription": "Cinco módulos principales que impulsan Sundae Intelligence Stack",
       "securityTitle": "Seguridad y cumplimiento empresarial",
@@ -286,45 +286,45 @@ export const generatedLocalCopy = {
       "engineeringTitle": "Construido con ingeniería premium",
       "engineeringDescription": "Una pila de producción diseñada para brindar confiabilidad, velocidad y escala operativa.",
       "ctaTitle": "Vea la arquitectura en acción",
-      "ctaDescription": "Reserve un recorrido técnico con nuestro equipo.",
+      "ctaDescription": "Agenda una sesión técnica con nuestro equipo.",
       "ctaPrimary": "Reserve una demostración",
       "ctaSecondary": "Explorar productos",
       "layers": [
         {
           "title": "Inteligencia de decisiones",
           "subtitle": "Capa superior",
-          "description": "Puntos de referencia, conocimientos, previsiones, decisiones automatizadas",
-          "color": "bg-gradiente-a-r de-rosa-500 a-rosa-500",
-          "icon": "inteligencia"
+          "description": "Referencias comparativas, conocimientos, previsiones, decisiones automatizadas",
+          "color": "bg-gradient-to-r from-pink-500 to-rose-500",
+          "icon": "intelligence"
         },
         {
           "title": "Procesamiento de IA",
           "subtitle": "Capa de inteligencia",
           "description": "IA multiagente, detección de patrones, detección de anomalías, razonamiento",
-          "color": "bg-gradiente-a-r de-pizarra-50 a-azul-50",
+          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
           "textColor": "texto-[var(--texto-primario)]",
-          "icon": "velocidad"
+          "icon": "speed"
         },
         {
           "title": "Procesamiento de datos",
           "subtitle": "Capa de transformación",
           "description": "Limpieza, transformación, lógica de métricas, enriquecimiento.",
-          "color": "bg-gradiente-a-r de-amarillo-400 a-ámbar-400",
-          "icon": "datos"
+          "color": "bg-gradient-to-r from-yellow-400 to-amber-400",
+          "icon": "data"
         },
         {
           "title": "Integración de datos",
           "subtitle": "Capa de unificación",
           "description": "POS, mano de obra, inventario, reservas, agregadores de entrega, unificación de datos sin procesar",
-          "color": "bg-gradiente-a-r de-naranja-500 a-ámbar-600",
-          "icon": "integración"
+          "color": "bg-gradient-to-r from-orange-500 to-amber-600",
+          "icon": "integration"
         },
         {
           "title": "Fundación / Infraestructura",
           "subtitle": "Capa base",
           "description": "Canalizaciones seguras, ingesta de API, normalización, gobernanza",
-          "color": "bg-gradiente-a-r de-ámbar-700 a-naranja-800",
-          "icon": "red"
+          "color": "bg-gradient-to-r from-amber-700 to-orange-800",
+          "icon": "network"
         }
       ],
       "steps": [
@@ -332,43 +332,43 @@ export const generatedLocalCopy = {
           "step": "1",
           "title": "Recopilación de datos",
           "description": "Scout se conecta a más de 30 sistemas de restaurantes en 12 dominios de datos y fuentes externas",
-          "icon": "integración"
+          "icon": "integration"
         },
         {
           "step": "2",
           "title": "Procesamiento de IA",
           "description": "La IA multiagente analiza patrones y genera información",
-          "icon": "inteligencia"
+          "icon": "intelligence"
         },
         {
           "step": "3",
           "title": "Entrega de inteligencia",
           "description": "Recomendaciones prácticas entregadas a través de lenguaje y visualizaciones.",
-          "icon": "ideas"
+          "icon": "insights"
         }
       ],
       "agents": [
         {
           "name": "Agentes de patrones",
           "description": "Identifique patrones operativos recurrentes, tendencias estacionales y correlaciones ocultas entre ubicaciones",
-          "icon": "visibilidad"
+          "icon": "visibility"
         },
         {
           "name": "Agentes de pronóstico",
           "description": "Prediga las ventas, las necesidades de mano de obra, los requisitos de inventario y la demanda operativa utilizando modelos de aprendizaje automático.",
-          "icon": "pronóstico"
+          "icon": "forecasting"
         },
         {
           "name": "Agentes de contexto",
           "description": "Comprender el contexto operativo, las características específicas de la ubicación y las reglas comerciales para proporcionar información relevante.",
-          "icon": "inteligencia"
+          "icon": "intelligence"
         }
       ],
       "modules": [
         {
-          "name": "Explorador",
+          "name": "Scout",
           "description": "Capa de integración de datos universal que conecta más de 30 sistemas de restaurantes en 12 dominios de datos",
-          "icon": "explorar",
+          "icon": "scout",
           "features": [
             "Integración de POS",
             "Sistemas Laborales",
@@ -378,9 +378,9 @@ export const generatedLocalCopy = {
           "colorClass": "icono-componente--explorador"
         },
         {
-          "name": "Pulso",
+          "name": "Pulse",
           "description": "Sistema de alerta en tiempo real y detección de anomalías impulsado por IA",
-          "icon": "pulso",
+          "icon": "pulse",
           "features": [
             "Detección de anomalías",
             "Alertas en tiempo real",
@@ -392,7 +392,7 @@ export const generatedLocalCopy = {
         {
           "name": "forja",
           "description": "Motor de IA conversacional para inteligencia en lenguaje natural",
-          "icon": "forjar",
+          "icon": "forge",
           "features": [
             "Lenguaje natural",
             "Comprensión del contexto",
@@ -402,9 +402,9 @@ export const generatedLocalCopy = {
           "colorClass": "icono-componente--forja"
         },
         {
-          "name": "Lienzo",
+          "name": "Canvas",
           "description": "Visualización dinámica y capa de inteligencia del panel",
-          "icon": "lienzo",
+          "icon": "canvas",
           "features": [
             "Paneles en tiempo real",
             "Vistas personalizadas",
@@ -416,7 +416,7 @@ export const generatedLocalCopy = {
         {
           "name": "Watchtower",
           "description": "Motor de inteligencia de mercado y benchmarking competitivo",
-          "icon": "atalaya",
+          "icon": "watchtower",
           "features": [
             "Perspectivas del mercado",
             "Datos de la competencia",
@@ -430,17 +430,17 @@ export const generatedLocalCopy = {
         {
           "title": "Cifrado de extremo a extremo",
           "description": "Cifrado AES-256 para datos en tránsito y en reposo",
-          "icon": "alertas"
+          "icon": "alerts"
         },
         {
           "title": "Control de acceso",
           "description": "Acceso basado en roles con autenticación multifactor",
-          "icon": "integración"
+          "icon": "integration"
         },
         {
           "title": "Estándares de cumplimiento",
           "description": "Cumple con SOC 2 tipo II, GDPR y CCPA",
-          "icon": "éxito"
+          "icon": "success"
         }
       ],
       "certs": [
@@ -468,8 +468,8 @@ export const generatedLocalCopy = {
       "engineeringCards": [
         {
           "title": "IA multiagente",
-          "icon": "inteligencia",
-          "color": "de-morado-500 a-morado-600",
+          "icon": "intelligence",
+          "color": "from-purple-500 to-purple-600",
           "features": [
             "Motor de IA multiagente",
             "Modelos de aprendizaje continuo",
@@ -479,8 +479,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Procesamiento en tiempo real",
-          "icon": "velocidad",
-          "color": "de-azul-500 a-azul-600",
+          "icon": "speed",
+          "color": "from-blue-500 to-blue-600",
           "features": [
             "Procesamiento de datos en tiempo real",
             "Tiempos de respuesta inferiores a un segundo",
@@ -490,8 +490,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Motor de integración",
-          "icon": "integración",
-          "color": "de-verde-500 a-verde-600",
+          "icon": "integration",
+          "color": "from-green-500 to-green-600",
           "features": [
             "Conectores de datos de 12 dominios",
             "Arquitectura API RESTful",
@@ -501,8 +501,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Núcleo de inteligencia",
-          "icon": "ideas",
-          "color": "de-naranja-500 a-naranja-600",
+          "icon": "insights",
+          "color": "from-orange-500 to-orange-600",
           "features": [
             "Algoritmos avanzados",
             "Modelos de aprendizaje automático",
@@ -512,8 +512,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Capa de entrega",
-          "icon": "lienzo",
-          "color": "de-cian-500 a-cian-600",
+          "icon": "canvas",
+          "color": "from-cyan-500 to-cyan-600",
           "features": [
             "Paneles interactivos",
             "Consultas en lenguaje natural",
@@ -523,8 +523,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Seguridad y gobernanza",
-          "icon": "calidad",
-          "color": "de-rojo-500 a-rojo-600",
+          "icon": "quality",
+          "color": "from-red-500 to-red-600",
           "features": [
             "Cumple con SOC 2 Tipo II",
             "Cifrado de extremo a extremo",
@@ -560,37 +560,37 @@ export const generatedLocalCopy = {
           "title": "Intelligence décisionnelle",
           "subtitle": "Couche supérieure",
           "description": "Benchmarks, informations, prévisions, décisions automatisées",
-          "color": "bg-gradient-to-r de-rose-500 à-rose-500",
-          "icon": "renseignement"
+          "color": "bg-gradient-to-r from-pink-500 to-rose-500",
+          "icon": "intelligence"
         },
         {
           "title": "Traitement de l'IA",
           "subtitle": "Couche de renseignement",
           "description": "IA multi-agents, détection de modèles, détection d'anomalies, raisonnement",
-          "color": "bg-gradient-to-r de-slate-50 à-blue-50",
+          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
           "textColor": "texte-[var(--text-primary)]",
-          "icon": "vitesse"
+          "icon": "speed"
         },
         {
           "title": "Traitement des données",
           "subtitle": "Couche de transformation",
           "description": "Nettoyage, transformation, logique de métriques, enrichissement",
-          "color": "bg-gradient-to-r de-jaune-400 à-ambre-400",
-          "icon": "données"
+          "color": "bg-gradient-to-r from-yellow-400 to-amber-400",
+          "icon": "data"
         },
         {
           "title": "Intégration des données",
           "subtitle": "Couche d'unification",
           "description": "POS, main d'œuvre, inventaire, réservations, agrégateurs de livraison, unification des données brutes",
-          "color": "bg-gradient-to-r de-orange-500 à-ambre-600",
-          "icon": "intégration"
+          "color": "bg-gradient-to-r from-orange-500 to-amber-600",
+          "icon": "integration"
         },
         {
           "title": "Fondation / Infrastructure",
           "subtitle": "Couche de base",
           "description": "Pipelines sécurisés, ingestion d'API, normalisation, gouvernance",
-          "color": "bg-gradient-to-r de-ambre-700 à-orange-800",
-          "icon": "réseau"
+          "color": "bg-gradient-to-r from-amber-700 to-orange-800",
+          "icon": "network"
         }
       ],
       "steps": [
@@ -598,45 +598,45 @@ export const generatedLocalCopy = {
           "step": "1",
           "title": "Collecte de données",
           "description": "Scout se connecte à plus de 30 systèmes de restaurants dans 12 domaines de données et sources externes",
-          "icon": "intégration"
+          "icon": "integration"
         },
         {
           "step": "2",
           "title": "Traitement de l'IA",
           "description": "L'IA multi-agents analyse les modèles et génère des informations",
-          "icon": "renseignement"
+          "icon": "intelligence"
         },
         {
           "step": "3",
           "title": "Livraison de renseignements",
           "description": "Recommandations exploitables fournies via un langage et des visualisations",
-          "icon": "aperçus"
+          "icon": "insights"
         }
       ],
       "agents": [
         {
           "name": "Agents de modèles",
           "description": "Identifiez les modèles opérationnels récurrents, les tendances saisonnières et les corrélations cachées entre les sites",
-          "icon": "visibilité"
+          "icon": "visibility"
         },
         {
           "name": "Agents de prévision",
           "description": "Prédire les ventes, les besoins en main-d'œuvre, les besoins en stocks et la demande opérationnelle à l'aide de modèles ML",
-          "icon": "prévision"
+          "icon": "forecasting"
         },
         {
           "name": "Agents de contexte",
           "description": "Comprendre le contexte opérationnel, les spécificités de l'emplacement et les règles métier pour fournir des informations pertinentes",
-          "icon": "renseignement"
+          "icon": "intelligence"
         }
       ],
       "modules": [
         {
-          "name": "Éclaireur",
+          "name": "Scout",
           "description": "Couche d'intégration de données universelle connectant plus de 30 systèmes de restaurants sur 12 domaines de données",
-          "icon": "éclaireur",
+          "icon": "scout",
           "features": [
-            "Intégration PDV",
+            "Intégration POS",
             "Systèmes de travail",
             "Inventaire",
             "Synchronisation en temps réel"
@@ -644,9 +644,9 @@ export const generatedLocalCopy = {
           "colorClass": "icône de composant - scout"
         },
         {
-          "name": "Pouls",
+          "name": "Pulse",
           "description": "Système de détection des anomalies et d'alerte en temps réel alimenté par l'IA",
-          "icon": "pouls",
+          "icon": "pulse",
           "features": [
             "Détection des anomalies",
             "Alertes en temps réel",
@@ -658,7 +658,7 @@ export const generatedLocalCopy = {
         {
           "name": "Forger",
           "description": "Moteur d'IA conversationnelle pour l'intelligence du langage naturel",
-          "icon": "forger",
+          "icon": "forge",
           "features": [
             "Langue naturelle",
             "Compréhension du contexte",
@@ -668,9 +668,9 @@ export const generatedLocalCopy = {
           "colorClass": "icône de composant - forge"
         },
         {
-          "name": "Toile",
+          "name": "Canvas",
           "description": "Visualisation dynamique et couche d'intelligence du tableau de bord",
-          "icon": "toile",
+          "icon": "canvas",
           "features": [
             "Tableaux de bord en temps réel",
             "Vues personnalisées",
@@ -682,7 +682,7 @@ export const generatedLocalCopy = {
         {
           "name": "Watchtower",
           "description": "Moteur d’intelligence de marché et d’analyse comparative concurrentielle",
-          "icon": "tour de guet",
+          "icon": "watchtower",
           "features": [
             "Aperçus du marché",
             "Données des concurrents",
@@ -696,17 +696,17 @@ export const generatedLocalCopy = {
         {
           "title": "Chiffrement de bout en bout",
           "description": "Chiffrement AES-256 pour les données en transit et au repos",
-          "icon": "alertes"
+          "icon": "alerts"
         },
         {
           "title": "Contrôle d'accès",
           "description": "Accès basé sur les rôles avec authentification multifacteur",
-          "icon": "intégration"
+          "icon": "integration"
         },
         {
           "title": "Normes de conformité",
           "description": "Conforme SOC 2 Type II, RGPD et CCPA",
-          "icon": "succès"
+          "icon": "success"
         }
       ],
       "certs": [
@@ -734,8 +734,8 @@ export const generatedLocalCopy = {
       "engineeringCards": [
         {
           "title": "IA multi-agents",
-          "icon": "renseignement",
-          "color": "du-violet-500 au-violet-600",
+          "icon": "intelligence",
+          "color": "from-purple-500 to-purple-600",
           "features": [
             "Moteur d'IA multi-agents",
             "Modèles d'apprentissage continu",
@@ -745,8 +745,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Traitement en temps réel",
-          "icon": "vitesse",
-          "color": "du-bleu-500 au-bleu-600",
+          "icon": "speed",
+          "color": "from-blue-500 to-blue-600",
           "features": [
             "Traitement des données en temps réel",
             "Temps de réponse inférieurs à la seconde",
@@ -756,8 +756,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Moteur d'intégration",
-          "icon": "intégration",
-          "color": "du-vert-500 au-vert-600",
+          "icon": "integration",
+          "color": "from-green-500 to-green-600",
           "features": [
             "Connecteurs de données à 12 domaines",
             "Architecture API RESTful",
@@ -767,8 +767,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Cœur du renseignement",
-          "icon": "aperçus",
-          "color": "de-orange-500 à-orange-600",
+          "icon": "insights",
+          "color": "from-orange-500 to-orange-600",
           "features": [
             "Algorithmes avancés",
             "Modèles d'apprentissage automatique",
@@ -778,8 +778,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Couche de livraison",
-          "icon": "toile",
-          "color": "de-cyan-500 à-cyan-600",
+          "icon": "canvas",
+          "color": "from-cyan-500 to-cyan-600",
           "features": [
             "Tableaux de bord interactifs",
             "Requêtes en langage naturel",
@@ -789,8 +789,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Sécurité et gouvernance",
-          "icon": "qualité",
-          "color": "du-rouge-500 au-rouge-600",
+          "icon": "quality",
+          "color": "from-red-500 to-red-600",
           "features": [
             "Conforme SOC 2 Type II",
             "Chiffrement de bout en bout",
@@ -827,7 +827,7 @@ export const generatedLocalCopy = {
           "subtitle": "Oberste Schicht",
           "description": "Benchmarks, Erkenntnisse, Prognosen, automatisierte Entscheidungen",
           "color": "bg-gradient-to-r from-pink-500 to-rose-500",
-          "icon": "Intelligenz"
+          "icon": "intelligence"
         },
         {
           "title": "KI-Verarbeitung",
@@ -835,28 +835,28 @@ export const generatedLocalCopy = {
           "description": "Multi-Agent-KI, Mustererkennung, Anomalieerkennung, Argumentation",
           "color": "bg-gradient-to-r from-slate-50 to-blue-50",
           "textColor": "text-[var(--text-primary)]",
-          "icon": "Geschwindigkeit"
+          "icon": "speed"
         },
         {
           "title": "Datenverarbeitung",
           "subtitle": "Transformationsschicht",
           "description": "Bereinigung, Transformation, Metriklogik, Anreicherung",
-          "color": "bg-Gradient-zu-r von-gelb-400 bis-bernsteinfarben-400",
-          "icon": "Daten"
+          "color": "bg-gradient-to-r from-yellow-400 to-amber-400",
+          "icon": "data"
         },
         {
           "title": "Datenintegration",
           "subtitle": "Vereinigungsschicht",
           "description": "POS, Arbeit, Inventar, Reservierungen, Lieferaggregatoren, Rohdatenvereinheitlichung",
-          "color": "bg-Gradient-zu-r von-orange-500 bis-bernsteinfarben-600",
-          "icon": "Integration"
+          "color": "bg-gradient-to-r from-orange-500 to-amber-600",
+          "icon": "integration"
         },
         {
           "title": "Stiftung / Infrastruktur",
           "subtitle": "Basisschicht",
           "description": "Sichere Pipelines, API-Aufnahme, Normalisierung, Governance",
-          "color": "bg-Gradient-zu-r von-bernsteinfarben-700 bis-orange-800",
-          "icon": "Netzwerk"
+          "color": "bg-gradient-to-r from-amber-700 to-orange-800",
+          "icon": "network"
         }
       ],
       "steps": [
@@ -864,43 +864,43 @@ export const generatedLocalCopy = {
           "step": "1",
           "title": "Datenerfassung",
           "description": "Scout verbindet sich mit über 30 Restaurantsystemen über 12 Datendomänen und externe Quellen",
-          "icon": "Integration"
+          "icon": "integration"
         },
         {
           "step": "2",
           "title": "KI-Verarbeitung",
           "description": "Multiagenten-KI analysiert Muster und generiert Erkenntnisse",
-          "icon": "Intelligenz"
+          "icon": "intelligence"
         },
         {
           "step": "3",
           "title": "Bereitstellung von Informationen",
           "description": "Umsetzbare Empfehlungen durch Sprache und Visualisierungen",
-          "icon": "Einsichten"
+          "icon": "insights"
         }
       ],
       "agents": [
         {
           "name": "Musteragenten",
           "description": "Identifizieren Sie wiederkehrende Betriebsmuster, saisonale Trends und versteckte Korrelationen zwischen Standorten",
-          "icon": "Sichtbarkeit"
+          "icon": "visibility"
         },
         {
           "name": "Prognoseagenten",
           "description": "Prognostizieren Sie Umsätze, Arbeitskräftebedarf, Lagerbedarf und betriebliche Nachfrage mithilfe von ML-Modellen",
-          "icon": "Prognose"
+          "icon": "forecasting"
         },
         {
           "name": "Kontextagenten",
           "description": "Verstehen Sie den Betriebskontext, Standortspezifika und Geschäftsregeln, um relevante Erkenntnisse zu gewinnen",
-          "icon": "Intelligenz"
+          "icon": "intelligence"
         }
       ],
       "modules": [
         {
           "name": "Scout",
           "description": "Universelle Datenintegrationsschicht, die über 30 Restaurantsysteme über 12 Datendomänen hinweg verbindet",
-          "icon": "Pfadfinder",
+          "icon": "scout",
           "features": [
             "POS-Integration",
             "Arbeitssysteme",
@@ -910,9 +910,9 @@ export const generatedLocalCopy = {
           "colorClass": "Komponentensymbol-Scout"
         },
         {
-          "name": "Puls",
+          "name": "Pulse",
           "description": "KI-gestütztes Anomalieerkennungs- und Echtzeit-Warnsystem",
-          "icon": "Puls",
+          "icon": "pulse",
           "features": [
             "Anomalieerkennung",
             "Echtzeitwarnungen",
@@ -924,7 +924,7 @@ export const generatedLocalCopy = {
         {
           "name": "Schmiede",
           "description": "Konversations-KI-Engine für natürliche Sprachintelligenz",
-          "icon": "schmieden",
+          "icon": "forge",
           "features": [
             "Natürliche Sprache",
             "Kontextverständnis",
@@ -934,9 +934,9 @@ export const generatedLocalCopy = {
           "colorClass": "Komponenten-Icon--Forge"
         },
         {
-          "name": "Leinwand",
+          "name": "Canvas",
           "description": "Dynamische Visualisierung und Dashboard-Intelligence-Ebene",
-          "icon": "Leinwand",
+          "icon": "canvas",
           "features": [
             "Echtzeit-Dashboards",
             "Benutzerdefinierte Ansichten",
@@ -948,7 +948,7 @@ export const generatedLocalCopy = {
         {
           "name": "Watchtower",
           "description": "Marktinformationen und Wettbewerbs-Benchmarking-Engine",
-          "icon": "Wachturm",
+          "icon": "watchtower",
           "features": [
             "Markteinblicke",
             "Wettbewerbsdaten",
@@ -962,17 +962,17 @@ export const generatedLocalCopy = {
         {
           "title": "Ende-zu-Ende-Verschlüsselung",
           "description": "AES-256-Verschlüsselung für Daten während der Übertragung und im Ruhezustand",
-          "icon": "Warnungen"
+          "icon": "alerts"
         },
         {
           "title": "Zugangskontrolle",
           "description": "Rollenbasierter Zugriff mit Multi-Faktor-Authentifizierung",
-          "icon": "Integration"
+          "icon": "integration"
         },
         {
           "title": "Compliance-Standards",
           "description": "SOC 2 Typ II, DSGVO und CCPA-konform",
-          "icon": "Erfolg"
+          "icon": "success"
         }
       ],
       "certs": [
@@ -1000,8 +1000,8 @@ export const generatedLocalCopy = {
       "engineeringCards": [
         {
           "title": "Multi-Agent-KI",
-          "icon": "Intelligenz",
-          "color": "von-lila-500 bis-lila-600",
+          "icon": "intelligence",
+          "color": "from-purple-500 to-purple-600",
           "features": [
             "Multiagenten-KI-Engine",
             "Kontinuierliche Lernmodelle",
@@ -1011,8 +1011,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Echtzeitverarbeitung",
-          "icon": "Geschwindigkeit",
-          "color": "von-blau-500 bis-blau-600",
+          "icon": "speed",
+          "color": "from-blue-500 to-blue-600",
           "features": [
             "Datenverarbeitung in Echtzeit",
             "Reaktionszeiten von weniger als einer Sekunde",
@@ -1022,8 +1022,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Integrationsmaschine",
-          "icon": "Integration",
-          "color": "von-grün-500 bis-grün-600",
+          "icon": "integration",
+          "color": "from-green-500 to-green-600",
           "features": [
             "12-Domänen-Datenkonnektoren",
             "RESTful API-Architektur",
@@ -1033,8 +1033,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Intelligenzkern",
-          "icon": "Einsichten",
-          "color": "von-orange-500 bis-orange-600",
+          "icon": "insights",
+          "color": "from-orange-500 to-orange-600",
           "features": [
             "Erweiterte Algorithmen",
             "Modelle für maschinelles Lernen",
@@ -1044,8 +1044,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Lieferschicht",
-          "icon": "Leinwand",
-          "color": "von-cyan-500 bis-cyan-600",
+          "icon": "canvas",
+          "color": "from-cyan-500 to-cyan-600",
           "features": [
             "Interaktive Dashboards",
             "Abfragen in natürlicher Sprache",
@@ -1055,8 +1055,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Sicherheit und Governance",
-          "icon": "Qualität",
-          "color": "von-rot-500 bis-rot-600",
+          "icon": "quality",
+          "color": "from-red-500 to-red-600",
           "features": [
             "SOC 2 Typ II-konform",
             "Ende-zu-Ende-Verschlüsselung",
@@ -1092,37 +1092,37 @@ export const generatedLocalCopy = {
           "title": "Inteligência de Decisão",
           "subtitle": "Camada superior",
           "description": "Benchmarks, insights, previsões, decisões automatizadas",
-          "color": "bg-gradiente-para-r de-rosa-500 para-rosa-500",
-          "icon": "inteligência"
+          "color": "bg-gradient-to-r from-pink-500 to-rose-500",
+          "icon": "intelligence"
         },
         {
           "title": "Processamento de IA",
           "subtitle": "Camada de Inteligência",
           "description": "IA multiagente, detecção de padrões, detecção de anomalias, raciocínio",
-          "color": "bg-gradiente para r de ardósia-50 para azul-50",
+          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
           "textColor": "texto-[var(--texto-primário)]",
-          "icon": "velocidade"
+          "icon": "speed"
         },
         {
           "title": "Processamento de Dados",
           "subtitle": "Camada de Transformação",
           "description": "Limpeza, transformação, lógica de métricas, enriquecimento",
-          "color": "bg-gradiente para r de amarelo-400 a âmbar-400",
-          "icon": "dados"
+          "color": "bg-gradient-to-r from-yellow-400 to-amber-400",
+          "icon": "data"
         },
         {
           "title": "Integração de dados",
           "subtitle": "Camada de Unificação",
-          "description": "PDV, mão de obra, estoque, reservas, agregadores de entrega, unificação de dados brutos",
-          "color": "bg-gradiente para r de laranja-500 a âmbar-600",
-          "icon": "integração"
+          "description": "POS, mão de obra, estoque, reservas, agregadores de entrega, unificação de dados brutos",
+          "color": "bg-gradient-to-r from-orange-500 to-amber-600",
+          "icon": "integration"
         },
         {
           "title": "Fundação / Infraestrutura",
           "subtitle": "Camada Base",
           "description": "Pipelines seguros, ingestão de API, normalização, governança",
-          "color": "bg-gradiente para r de âmbar-700 a laranja-800",
-          "icon": "rede"
+          "color": "bg-gradient-to-r from-amber-700 to-orange-800",
+          "icon": "network"
         }
       ],
       "steps": [
@@ -1130,13 +1130,13 @@ export const generatedLocalCopy = {
           "step": "1",
           "title": "Coleta de dados",
           "description": "Scout se conecta a mais de 30 sistemas de restaurantes em 12 domínios de dados e fontes externas",
-          "icon": "integração"
+          "icon": "integration"
         },
         {
           "step": "2",
           "title": "Processamento de IA",
           "description": "A IA multiagente analisa padrões e gera insights",
-          "icon": "inteligência"
+          "icon": "intelligence"
         },
         {
           "step": "3",
@@ -1149,26 +1149,26 @@ export const generatedLocalCopy = {
         {
           "name": "Agentes Padrão",
           "description": "Identifique padrões operacionais recorrentes, tendências sazonais e correlações ocultas entre locais",
-          "icon": "visibilidade"
+          "icon": "visibility"
         },
         {
           "name": "Agentes Preditores",
           "description": "Preveja vendas, necessidades de mão de obra, requisitos de estoque e demanda operacional usando modelos de ML",
-          "icon": "previsão"
+          "icon": "forecasting"
         },
         {
           "name": "Agentes de Contexto",
           "description": "Entenda o contexto operacional, as especificidades do local e as regras de negócios para fornecer insights relevantes",
-          "icon": "inteligência"
+          "icon": "intelligence"
         }
       ],
       "modules": [
         {
-          "name": "Escoteiro",
+          "name": "Scout",
           "description": "Camada universal de integração de dados conectando mais de 30 sistemas de restaurantes em 12 domínios de dados",
-          "icon": "batedor",
+          "icon": "scout",
           "features": [
-            "Integração PDV",
+            "Integração POS",
             "Sistemas Trabalhistas",
             "Inventário",
             "Sincronização em tempo real"
@@ -1176,9 +1176,9 @@ export const generatedLocalCopy = {
           "colorClass": "ícone de componente - scout"
         },
         {
-          "name": "Pulso",
+          "name": "Pulse",
           "description": "Detecção de anomalias alimentada por IA e sistema de alerta em tempo real",
-          "icon": "pulso",
+          "icon": "pulse",
           "features": [
             "Detecção de anomalias",
             "Alertas em tempo real",
@@ -1190,7 +1190,7 @@ export const generatedLocalCopy = {
         {
           "name": "Forjar",
           "description": "Mecanismo de IA conversacional para inteligência de linguagem natural",
-          "icon": "forjar",
+          "icon": "forge",
           "features": [
             "Linguagem Natural",
             "Compreensão do contexto",
@@ -1200,9 +1200,9 @@ export const generatedLocalCopy = {
           "colorClass": "ícone de componente - forjar"
         },
         {
-          "name": "Tela",
+          "name": "Canvas",
           "description": "Visualização dinâmica e camada de inteligência do painel",
-          "icon": "tela",
+          "icon": "canvas",
           "features": [
             "Painéis em tempo real",
             "Visualizações personalizadas",
@@ -1214,7 +1214,7 @@ export const generatedLocalCopy = {
         {
           "name": "Watchtower",
           "description": "Inteligência de mercado e mecanismo de benchmarking competitivo",
-          "icon": "torre de vigia",
+          "icon": "watchtower",
           "features": [
             "Informações de mercado",
             "Dados do concorrente",
@@ -1228,17 +1228,17 @@ export const generatedLocalCopy = {
         {
           "title": "Criptografia ponta a ponta",
           "description": "Criptografia AES-256 para dados em trânsito e em repouso",
-          "icon": "alertas"
+          "icon": "alerts"
         },
         {
           "title": "Controle de acesso",
           "description": "Acesso baseado em função com autenticação multifator",
-          "icon": "integração"
+          "icon": "integration"
         },
         {
           "title": "Padrões de Conformidade",
           "description": "Compatível com SOC 2 Tipo II, GDPR e CCPA",
-          "icon": "sucesso"
+          "icon": "success"
         }
       ],
       "certs": [
@@ -1266,8 +1266,8 @@ export const generatedLocalCopy = {
       "engineeringCards": [
         {
           "title": "IA multiagente",
-          "icon": "inteligência",
-          "color": "de-roxo-500 a-roxo-600",
+          "icon": "intelligence",
+          "color": "from-purple-500 to-purple-600",
           "features": [
             "Mecanismo de IA multiagente",
             "Modelos de aprendizagem contínua",
@@ -1277,8 +1277,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Processamento em tempo real",
-          "icon": "velocidade",
-          "color": "de-azul-500 a-azul-600",
+          "icon": "speed",
+          "color": "from-blue-500 to-blue-600",
           "features": [
             "Processamento de dados em tempo real",
             "Tempos de resposta de menos de um segundo",
@@ -1288,8 +1288,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Mecanismo de Integração",
-          "icon": "integração",
-          "color": "de-verde-500 a-verde-600",
+          "icon": "integration",
+          "color": "from-green-500 to-green-600",
           "features": [
             "Conectores de dados de 12 domínios",
             "Arquitetura de API RESTful",
@@ -1300,7 +1300,7 @@ export const generatedLocalCopy = {
         {
           "title": "Núcleo de Inteligência",
           "icon": "insights",
-          "color": "de laranja-500 a laranja-600",
+          "color": "from-orange-500 to-orange-600",
           "features": [
             "Algoritmos avançados",
             "Modelos de aprendizado de máquina",
@@ -1310,8 +1310,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Camada de entrega",
-          "icon": "tela",
-          "color": "de-ciano-500 a-ciano-600",
+          "icon": "canvas",
+          "color": "from-cyan-500 to-cyan-600",
           "features": [
             "Painéis interativos",
             "Consultas em linguagem natural",
@@ -1321,8 +1321,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Segurança e Governança",
-          "icon": "qualidade",
-          "color": "de vermelho-500 a vermelho-600",
+          "icon": "quality",
+          "color": "from-red-500 to-red-600",
           "features": [
             "Compatível com SOC 2 Tipo II",
             "Criptografia ponta a ponta",
@@ -1358,37 +1358,37 @@ export const generatedLocalCopy = {
           "title": "Beslissingsinformatie",
           "subtitle": "Bovenste laag",
           "description": "Benchmarks, inzichten, forecasting, geautomatiseerde beslissingen",
-          "color": "bg-gradiënt-naar-r van-roze-500 naar-rose-500",
-          "icon": "intelligentie"
+          "color": "bg-gradient-to-r from-pink-500 to-rose-500",
+          "icon": "intelligence"
         },
         {
           "title": "AI-verwerking",
           "subtitle": "Intelligentielaag",
           "description": "Multi-agent AI, patroondetectie, detectie van afwijkingen, redenering",
-          "color": "bg-gradiënt-naar-r van-leisteen-50 naar-blauw-50",
+          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
           "textColor": "tekst-[var(--tekst-primair)]",
-          "icon": "snelheid"
+          "icon": "speed"
         },
         {
           "title": "Gegevensverwerking",
           "subtitle": "Transformatielaag",
           "description": "Opschoning, transformatie, metrische logica, verrijking",
-          "color": "bg-gradiënt-naar-r van-geel-400 naar-amber-400",
-          "icon": "gegevens"
+          "color": "bg-gradient-to-r from-yellow-400 to-amber-400",
+          "icon": "data"
         },
         {
           "title": "Gegevensintegratie",
           "subtitle": "Unificatielaag",
           "description": "POS, arbeid, inventaris, reserveringen, leveringsaggregators, unificatie van onbewerkte gegevens",
-          "color": "bg-gradiënt-naar-r van-oranje-500 naar-amber-600",
-          "icon": "integratie"
+          "color": "bg-gradient-to-r from-orange-500 to-amber-600",
+          "icon": "integration"
         },
         {
           "title": "Fundering / Infrastructuur",
           "subtitle": "Basislaag",
           "description": "Beveiligde pijplijnen, API-opname, normalisatie, beheer",
-          "color": "bg-gradiënt-naar-r van-amber-700 naar-oranje-800",
-          "icon": "netwerk"
+          "color": "bg-gradient-to-r from-amber-700 to-orange-800",
+          "icon": "network"
         }
       ],
       "steps": [
@@ -1396,43 +1396,43 @@ export const generatedLocalCopy = {
           "step": "1",
           "title": "Gegevensverzameling",
           "description": "Scout maakt verbinding met meer dan 30 restaurantsystemen in 12 datadomeinen en externe bronnen",
-          "icon": "integratie"
+          "icon": "integration"
         },
         {
           "step": "2",
           "title": "AI-verwerking",
           "description": "Multi-agent AI analyseert patronen en genereert inzichten",
-          "icon": "intelligentie"
+          "icon": "intelligence"
         },
         {
           "step": "3",
           "title": "Levering van inlichtingen",
           "description": "Bruikbare aanbevelingen geleverd door middel van taal en visualisaties",
-          "icon": "inzichten"
+          "icon": "insights"
         }
       ],
       "agents": [
         {
           "name": "Patroonagenten",
           "description": "Identificeer terugkerende operationele patronen, seizoenstrends en verborgen correlaties tussen locaties",
-          "icon": "zichtbaarheid"
+          "icon": "visibility"
         },
         {
           "name": "Voorspellende agenten",
           "description": "Voorspel verkopen, arbeidsbehoeften, voorraadvereisten en operationele vraag met behulp van ML-modellen",
-          "icon": "voorspellen"
+          "icon": "forecasting"
         },
         {
           "name": "Contextagenten",
           "description": "Begrijp de operationele context, locatiespecificaties en bedrijfsregels om relevante inzichten te bieden",
-          "icon": "intelligentie"
+          "icon": "intelligence"
         }
       ],
       "modules": [
         {
-          "name": "Verkenner",
+          "name": "Scout",
           "description": "Universele data-integratielaag die meer dan 30 restaurantsystemen verbindt in 12 datadomeinen",
-          "icon": "verkenner",
+          "icon": "scout",
           "features": [
             "POS-integratie",
             "Arbeidssystemen",
@@ -1442,9 +1442,9 @@ export const generatedLocalCopy = {
           "colorClass": "component-icoon--verkenner"
         },
         {
-          "name": "Puls",
+          "name": "Pulse",
           "description": "AI-aangedreven anomaliedetectie en realtime waarschuwingssysteem",
-          "icon": "pols",
+          "icon": "pulse",
           "features": [
             "Anomaliedetectie",
             "Realtime waarschuwingen",
@@ -1456,7 +1456,7 @@ export const generatedLocalCopy = {
         {
           "name": "Smeden",
           "description": "Conversationele AI-engine voor natuurlijke taalintelligentie",
-          "icon": "smeden",
+          "icon": "forge",
           "features": [
             "Natuurlijke taal",
             "Contextbegrip",
@@ -1466,9 +1466,9 @@ export const generatedLocalCopy = {
           "colorClass": "component-icoon--smeedstuk"
         },
         {
-          "name": "Doek",
+          "name": "Canvas",
           "description": "Dynamische visualisatie en dashboard-intelligentielaag",
-          "icon": "doek",
+          "icon": "canvas",
           "features": [
             "Realtime dashboards",
             "Aangepaste weergaven",
@@ -1480,7 +1480,7 @@ export const generatedLocalCopy = {
         {
           "name": "Watchtower",
           "description": "Marktinformatie en competitieve benchmarking-engine",
-          "icon": "uitkijktoren",
+          "icon": "watchtower",
           "features": [
             "Marktinzichten",
             "Gegevens van concurrenten",
@@ -1494,17 +1494,17 @@ export const generatedLocalCopy = {
         {
           "title": "End-to-end-codering",
           "description": "AES-256-codering voor gegevens die onderweg en in rust zijn",
-          "icon": "waarschuwingen"
+          "icon": "alerts"
         },
         {
           "title": "Toegangscontrole",
           "description": "Rolgebaseerde toegang met meervoudige authenticatie",
-          "icon": "integratie"
+          "icon": "integration"
         },
         {
           "title": "Nalevingsnormen",
           "description": "SOC 2 Type II, AVG- en CCPA-compatibel",
-          "icon": "succes"
+          "icon": "success"
         }
       ],
       "certs": [
@@ -1532,8 +1532,8 @@ export const generatedLocalCopy = {
       "engineeringCards": [
         {
           "title": "AI met meerdere agenten",
-          "icon": "intelligentie",
-          "color": "van-paars-500 tot-paars-600",
+          "icon": "intelligence",
+          "color": "from-purple-500 to-purple-600",
           "features": [
             "Multi-agent AI-engine",
             "Modellen voor continu leren",
@@ -1543,8 +1543,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Realtime verwerking",
-          "icon": "snelheid",
-          "color": "van-blauw-500 naar-blauw-600",
+          "icon": "speed",
+          "color": "from-blue-500 to-blue-600",
           "features": [
             "Realtime gegevensverwerking",
             "Reactietijden van minder dan een seconde",
@@ -1554,8 +1554,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Integratie-engine",
-          "icon": "integratie",
-          "color": "van-groen-500 naar-groen-600",
+          "icon": "integration",
+          "color": "from-green-500 to-green-600",
           "features": [
             "Dataconnectoren voor 12 domeinen",
             "RESTful API-architectuur",
@@ -1565,8 +1565,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Intelligentie kern",
-          "icon": "inzichten",
-          "color": "van-oranje-500 tot-oranje-600",
+          "icon": "insights",
+          "color": "from-orange-500 to-orange-600",
           "features": [
             "Geavanceerde algoritmen",
             "Machine learning-modellen",
@@ -1576,8 +1576,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Leveringslaag",
-          "icon": "doek",
-          "color": "van-cyaan-500 tot-cyaan-600",
+          "icon": "canvas",
+          "color": "from-cyan-500 to-cyan-600",
           "features": [
             "Interactieve dashboards",
             "Vragen in natuurlijke taal",
@@ -1587,8 +1587,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Beveiliging en bestuur",
-          "icon": "kwaliteit",
-          "color": "van-rood-500 tot-rood-600",
+          "icon": "quality",
+          "color": "from-red-500 to-red-600",
           "features": [
             "SOC 2 Type II-compatibel",
             "End-to-end-codering",
@@ -1602,7 +1602,7 @@ export const generatedLocalCopy = {
       "badge": "پلیٹ فارم آرکیٹیکچر",
       "title": "پانچ پرتوں کا آرکیٹیکچر اسٹیک",
       "description": "دیکھیں کہ Sundae کس طرح ریسٹورنٹ کے خام ڈیٹا سے پانچ آرکیٹیکچرل پرتوں میں کام کرنے والی ذہانت میں منتقل ہوتا ہے۔",
-      "stackTitle": "سنڈے انٹیلی جنس اسٹیک",
+      "stackTitle": "Sundae انٹیلی جنس اسٹیک",
       "stackDescription": "فن تعمیر کی پانچ پرتیں جو چھ انٹیلی جنس مصنوعات کو طاقت دیتی ہیں۔",
       "foundation": "سیکورٹی، گورننس، اور وشوسنییتا کی مضبوط بنیاد پر بنایا گیا ہے۔",
       "flowTitle": "ڈیٹا سے فیصلوں تک",
@@ -1624,37 +1624,37 @@ export const generatedLocalCopy = {
           "title": "فیصلہ انٹیلی جنس",
           "subtitle": "اوپر کی تہہ",
           "description": "بینچ مارکس، بصیرت، پیشن گوئی، خودکار فیصلے",
-          "color": "bg-gradient-to-r-pink-500 سے-rose-500 تک",
-          "icon": "ذہانت"
+          "color": "bg-gradient-to-r from-pink-500 to-rose-500",
+          "icon": "intelligence"
         },
         {
           "title": "AI پروسیسنگ",
           "subtitle": "انٹیلی جنس پرت",
           "description": "ملٹی ایجنٹ AI، پیٹرن کا پتہ لگانا، بے ضابطگی کا پتہ لگانا، استدلال",
-          "color": "bg-gradient-to-r-slate-50 سے-blue-50",
+          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
           "textColor": "متن-[var(--متن-پرائمری)]",
-          "icon": "رفتار"
+          "icon": "speed"
         },
         {
           "title": "ڈیٹا پروسیسنگ",
           "subtitle": "تبدیلی کی تہہ",
           "description": "صفائی، تبدیلی، میٹرکس منطق، افزودگی",
-          "color": "bg-gradient-to-r-yellow-400 سے-amber-400 تک",
-          "icon": "ڈیٹا"
+          "color": "bg-gradient-to-r from-yellow-400 to-amber-400",
+          "icon": "data"
         },
         {
           "title": "ڈیٹا انٹیگریشن",
           "subtitle": "یونیفیکیشن پرت",
-          "description": "پی او ایس، لیبر، انوینٹری، ریزرویشنز، ڈیلیوری ایگریگیٹرز، خام ڈیٹا یونیفیکیشن",
-          "color": "bg-gradient-to-r-اورنج-500 سے-امبر-600 تک",
-          "icon": "انضمام"
+          "description": "POS, labor, inventory, reservations, delivery aggregators, raw data unification",
+          "color": "bg-gradient-to-r from-orange-500 to-amber-600",
+          "icon": "integration"
         },
         {
           "title": "فاؤنڈیشن / انفراسٹرکچر",
           "subtitle": "بیس پرت",
           "description": "محفوظ پائپ لائنز، API ادخال، نارملائزیشن، گورننس",
-          "color": "bg-gradient-to-r-amber-700 سے-Orange-800 تک",
-          "icon": "نیٹ ورک"
+          "color": "bg-gradient-to-r from-amber-700 to-orange-800",
+          "icon": "network"
         }
       ],
       "steps": [
@@ -1662,43 +1662,43 @@ export const generatedLocalCopy = {
           "step": "1",
           "title": "ڈیٹا اکٹھا کرنا",
           "description": "Scout 12 ڈیٹا ڈومینز اور بیرونی ذرائع میں 30+ ریسٹورنٹ سسٹمز سے جڑتا ہے۔",
-          "icon": "انضمام"
+          "icon": "integration"
         },
         {
           "step": "2",
           "title": "AI پروسیسنگ",
           "description": "ملٹی ایجنٹ AI پیٹرن کا تجزیہ کرتا ہے اور بصیرت پیدا کرتا ہے۔",
-          "icon": "ذہانت"
+          "icon": "intelligence"
         },
         {
           "step": "3",
           "title": "انٹیلی جنس ڈیلیوری",
           "description": "قابل عمل سفارشات زبان اور تصورات کے ذریعے فراہم کی جاتی ہیں۔",
-          "icon": "بصیرت"
+          "icon": "insights"
         }
       ],
       "agents": [
         {
           "name": "پیٹرن ایجنٹس",
           "description": "بار بار چلنے والے آپریشنل پیٹرن، موسمی رجحانات، اور تمام مقامات پر پوشیدہ ارتباط کی شناخت کریں",
-          "icon": "مرئیت"
+          "icon": "visibility"
         },
         {
           "name": "پیشن گوئی کرنے والے ایجنٹ",
           "description": "ایم ایل ماڈلز کا استعمال کرتے ہوئے سیلز، لیبر کی ضروریات، انوینٹری کی ضروریات اور آپریشنل ڈیمانڈ کی پیش گوئی کریں۔",
-          "icon": "پیشن گوئی"
+          "icon": "forecasting"
         },
         {
           "name": "سیاق و سباق کے ایجنٹس",
           "description": "متعلقہ بصیرت فراہم کرنے کے لیے آپریشنل سیاق و سباق، مقام کی تفصیلات اور کاروباری قواعد کو سمجھیں۔",
-          "icon": "ذہانت"
+          "icon": "intelligence"
         }
       ],
       "modules": [
         {
-          "name": "سکاؤٹ",
+          "name": "Scout",
           "description": "یونیورسل ڈیٹا انٹیگریشن پرت 12 ڈیٹا ڈومینز میں 30+ ریسٹورنٹ سسٹم کو جوڑتی ہے۔",
-          "icon": "سکاؤٹ",
+          "icon": "scout",
           "features": [
             "POS انٹیگریشن",
             "لیبر سسٹمز",
@@ -1708,9 +1708,9 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--scout"
         },
         {
-          "name": "نبض",
+          "name": "Pulse",
           "description": "AI سے چلنے والی بے ضابطگی کا پتہ لگانے اور ریئل ٹائم الرٹ سسٹم",
-          "icon": "نبض",
+          "icon": "pulse",
           "features": [
             "بے ضابطگی کا پتہ لگانا",
             "ریئل ٹائم الرٹس",
@@ -1722,7 +1722,7 @@ export const generatedLocalCopy = {
         {
           "name": "جعلسازی",
           "description": "قدرتی زبان کی ذہانت کے لیے بات چیت کا AI انجن",
-          "icon": "جعلی",
+          "icon": "forge",
           "features": [
             "قدرتی زبان",
             "سیاق و سباق کی تفہیم",
@@ -1732,9 +1732,9 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--forge"
         },
         {
-          "name": "کینوس",
+          "name": "Canvas",
           "description": "ڈائنامک ویژولائزیشن اور ڈیش بورڈ انٹیلی جنس پرت",
-          "icon": "کینوس",
+          "icon": "canvas",
           "features": [
             "ریئل ٹائم ڈیش بورڈز",
             "حسب ضرورت نظارے۔",
@@ -1746,7 +1746,7 @@ export const generatedLocalCopy = {
         {
           "name": "Watchtower",
           "description": "مارکیٹ انٹیلی جنس اور مسابقتی بینچ مارکنگ انجن",
-          "icon": "واچ ٹاور",
+          "icon": "watchtower",
           "features": [
             "مارکیٹ بصیرت",
             "مسابقتی ڈیٹا",
@@ -1760,17 +1760,17 @@ export const generatedLocalCopy = {
         {
           "title": "اینڈ ٹو اینڈ انکرپشن",
           "description": "ٹرانزٹ اور آرام میں ڈیٹا کے لیے AES-256 انکرپشن",
-          "icon": "انتباہات"
+          "icon": "alerts"
         },
         {
           "title": "رسائی کنٹرول",
           "description": "کثیر عنصر کی توثیق کے ساتھ کردار پر مبنی رسائی",
-          "icon": "انضمام"
+          "icon": "integration"
         },
         {
           "title": "تعمیل کے معیارات",
           "description": "SOC 2 قسم II، GDPR، اور CCPA کے مطابق",
-          "icon": "کامیابی"
+          "icon": "success"
         }
       ],
       "certs": [
@@ -1798,8 +1798,8 @@ export const generatedLocalCopy = {
       "engineeringCards": [
         {
           "title": "ملٹی ایجنٹ AI",
-          "icon": "ذہانت",
-          "color": "جامنی -500 سے جامنی -600 تک",
+          "icon": "intelligence",
+          "color": "from-purple-500 to-purple-600",
           "features": [
             "ملٹی ایجنٹ AI انجن",
             "مسلسل سیکھنے کے ماڈل",
@@ -1809,8 +1809,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "ریئل ٹائم پروسیسنگ",
-          "icon": "رفتار",
-          "color": "نیلے-500 سے نیلے-600 تک",
+          "icon": "speed",
+          "color": "from-blue-500 to-blue-600",
           "features": [
             "ریئل ٹائم ڈیٹا پروسیسنگ",
             "ذیلی سیکنڈ جوابی اوقات",
@@ -1820,8 +1820,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "انٹیگریشن انجن",
-          "icon": "انضمام",
-          "color": "سبز-500 سے سبز-600 تک",
+          "icon": "integration",
+          "color": "from-green-500 to-green-600",
           "features": [
             "12 ڈومین ڈیٹا کنیکٹر",
             "RESTful API فن تعمیر",
@@ -1831,8 +1831,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "انٹیلی جنس کور",
-          "icon": "بصیرت",
-          "color": "نارنجی -500 سے نارنجی -600",
+          "icon": "insights",
+          "color": "from-orange-500 to-orange-600",
           "features": [
             "اعلی درجے کی الگورتھم",
             "مشین لرننگ ماڈلز",
@@ -1842,8 +1842,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "ڈیلیوری پرت",
-          "icon": "کینوس",
-          "color": "cyan-500 سے-cyan-600 تک",
+          "icon": "canvas",
+          "color": "from-cyan-500 to-cyan-600",
           "features": [
             "انٹرایکٹو ڈیش بورڈز",
             "فطری زبان کے سوالات",
@@ -1853,8 +1853,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "سیکیورٹی اور گورننس",
-          "icon": "معیار",
-          "color": "سرخ-500 سے سرخ-600 تک",
+          "icon": "quality",
+          "color": "from-red-500 to-red-600",
           "features": [
             "SOC 2 قسم II کے مطابق",
             "اینڈ ٹو اینڈ انکرپشن",
@@ -1890,37 +1890,37 @@ export const generatedLocalCopy = {
           "title": "Intelligenza decisionale",
           "subtitle": "Strato superiore",
           "description": "Benchmark, approfondimenti, previsioni, decisioni automatizzate",
-          "color": "bg-gradiente-a-r da-rosa-500 a-rosa-500",
-          "icon": "intelligenza"
+          "color": "bg-gradient-to-r from-pink-500 to-rose-500",
+          "icon": "intelligence"
         },
         {
           "title": "Elaborazione dell'intelligenza artificiale",
           "subtitle": "Livello di intelligenza",
           "description": "IA multi-agente, rilevamento di pattern, rilevamento di anomalie, ragionamento",
-          "color": "bg-gradiente-a-r da-ardesia-50 a-blu-50",
+          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
           "textColor": "testo-[var(--testo-primario)]",
-          "icon": "velocità"
+          "icon": "speed"
         },
         {
           "title": "Elaborazione dei dati",
           "subtitle": "Livello di trasformazione",
           "description": "Pulitura, trasformazione, logica metrica, arricchimento",
-          "color": "bg-gradiente-a-r da-giallo-400 ad-ambra-400",
-          "icon": "dati"
+          "color": "bg-gradient-to-r from-yellow-400 to-amber-400",
+          "icon": "data"
         },
         {
           "title": "Integrazione dei dati",
           "subtitle": "Livello di unificazione",
           "description": "POS, manodopera, inventario, prenotazioni, aggregatori di consegne, unificazione dei dati grezzi",
-          "color": "gradiente-bg-a-r da-arancione-500 ad-ambra-600",
-          "icon": "integrazione"
+          "color": "bg-gradient-to-r from-orange-500 to-amber-600",
+          "icon": "integration"
         },
         {
           "title": "Fondazione/Infrastruttura",
           "subtitle": "Strato di base",
           "description": "Pipeline sicure, inserimento di API, normalizzazione, governance",
-          "color": "gradiente-bg-a-r da ambra-700 a-arancione-800",
-          "icon": "rete"
+          "color": "bg-gradient-to-r from-amber-700 to-orange-800",
+          "icon": "network"
         }
       ],
       "steps": [
@@ -1928,43 +1928,43 @@ export const generatedLocalCopy = {
           "step": "1",
           "title": "Raccolta dati",
           "description": "Scout si connette a oltre 30 sistemi di ristoranti attraverso 12 domini di dati e fonti esterne",
-          "icon": "integrazione"
+          "icon": "integration"
         },
         {
           "step": "2",
           "title": "Elaborazione dell'intelligenza artificiale",
           "description": "L'intelligenza artificiale multi-agente analizza i modelli e genera approfondimenti",
-          "icon": "intelligenza"
+          "icon": "intelligence"
         },
         {
           "step": "3",
           "title": "Consegna dell'intelligence",
           "description": "Raccomandazioni attuabili fornite attraverso il linguaggio e le visualizzazioni",
-          "icon": "intuizioni"
+          "icon": "insights"
         }
       ],
       "agents": [
         {
           "name": "Agenti dei modelli",
           "description": "Identifica modelli operativi ricorrenti, tendenze stagionali e correlazioni nascoste tra località",
-          "icon": "visibilità"
+          "icon": "visibility"
         },
         {
           "name": "Agenti di previsione",
           "description": "Prevedi le vendite, le esigenze di manodopera, i requisiti di inventario e la domanda operativa utilizzando i modelli ML",
-          "icon": "previsione"
+          "icon": "forecasting"
         },
         {
           "name": "Agenti di contesto",
           "description": "Comprendere il contesto operativo, le specifiche della posizione e le regole aziendali per fornire approfondimenti pertinenti",
-          "icon": "intelligenza"
+          "icon": "intelligence"
         }
       ],
       "modules": [
         {
-          "name": "Esploratore",
+          "name": "Scout",
           "description": "Livello di integrazione dati universale che collega oltre 30 sistemi di ristoranti in 12 domini di dati",
-          "icon": "esploratore",
+          "icon": "scout",
           "features": [
             "Integrazione POS",
             "Sistemi di lavoro",
@@ -1974,9 +1974,9 @@ export const generatedLocalCopy = {
           "colorClass": "componente-icona--scout"
         },
         {
-          "name": "Impulso",
+          "name": "Pulse",
           "description": "Rilevamento di anomalie basato sull'intelligenza artificiale e sistema di avviso in tempo reale",
-          "icon": "impulso",
+          "icon": "pulse",
           "features": [
             "Rilevamento anomalie",
             "Avvisi in tempo reale",
@@ -1988,7 +1988,7 @@ export const generatedLocalCopy = {
         {
           "name": "Forgia",
           "description": "Motore di intelligenza artificiale conversazionale per l'intelligenza del linguaggio naturale",
-          "icon": "forgiare",
+          "icon": "forge",
           "features": [
             "Linguaggio naturale",
             "Comprensione del contesto",
@@ -1998,9 +1998,9 @@ export const generatedLocalCopy = {
           "colorClass": "componente-icona--forge"
         },
         {
-          "name": "Tela",
+          "name": "Canvas",
           "description": "Visualizzazione dinamica e livello di intelligenza del dashboard",
-          "icon": "tela",
+          "icon": "canvas",
           "features": [
             "Dashboard in tempo reale",
             "Viste personalizzate",
@@ -2012,7 +2012,7 @@ export const generatedLocalCopy = {
         {
           "name": "Watchtower",
           "description": "Market intelligence e motore di benchmarking competitivo",
-          "icon": "torre di guardia",
+          "icon": "watchtower",
           "features": [
             "Approfondimenti di mercato",
             "Dati della concorrenza",
@@ -2026,17 +2026,17 @@ export const generatedLocalCopy = {
         {
           "title": "Crittografia end-to-end",
           "description": "Crittografia AES-256 per i dati in transito e inattivi",
-          "icon": "avvisi"
+          "icon": "alerts"
         },
         {
           "title": "Controllo degli accessi",
           "description": "Accesso basato sui ruoli con autenticazione a più fattori",
-          "icon": "integrazione"
+          "icon": "integration"
         },
         {
           "title": "Standard di conformità",
           "description": "Conforme a SOC 2 Tipo II, GDPR e CCPA",
-          "icon": "successo"
+          "icon": "success"
         }
       ],
       "certs": [
@@ -2064,8 +2064,8 @@ export const generatedLocalCopy = {
       "engineeringCards": [
         {
           "title": "IA multiagente",
-          "icon": "intelligenza",
-          "color": "da-viola-500 a-viola-600",
+          "icon": "intelligence",
+          "color": "from-purple-500 to-purple-600",
           "features": [
             "Motore AI multi-agente",
             "Modelli di apprendimento continuo",
@@ -2075,8 +2075,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Elaborazione in tempo reale",
-          "icon": "velocità",
-          "color": "dal-blu-500 al-blu-600",
+          "icon": "speed",
+          "color": "from-blue-500 to-blue-600",
           "features": [
             "Elaborazione dei dati in tempo reale",
             "Tempi di risposta inferiori al secondo",
@@ -2086,8 +2086,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Motore di integrazione",
-          "icon": "integrazione",
-          "color": "da-verde-500 a-verde-600",
+          "icon": "integration",
+          "color": "from-green-500 to-green-600",
           "features": [
             "Connettori dati a 12 domini",
             "Architettura API RESTful",
@@ -2097,8 +2097,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Nucleo di intelligenza",
-          "icon": "intuizioni",
-          "color": "da-arancione-500 a-arancione-600",
+          "icon": "insights",
+          "color": "from-orange-500 to-orange-600",
           "features": [
             "Algoritmi avanzati",
             "Modelli di apprendimento automatico",
@@ -2108,8 +2108,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Livello di consegna",
-          "icon": "tela",
-          "color": "da-ciano-500 a-ciano-600",
+          "icon": "canvas",
+          "color": "from-cyan-500 to-cyan-600",
           "features": [
             "Cruscotti interattivi",
             "Query in linguaggio naturale",
@@ -2119,8 +2119,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Sicurezza e governance",
-          "icon": "qualità",
-          "color": "da-rosso-500 a-rosso-600",
+          "icon": "quality",
+          "color": "from-red-500 to-red-600",
           "features": [
             "Conforme a SOC 2 Tipo II",
             "Crittografia end-to-end",
@@ -2133,8 +2133,8 @@ export const generatedLocalCopy = {
     "hi": {
       "badge": "प्लेटफार्म वास्तुकला",
       "title": "फाइव-लेयर आर्किटेक्चर स्टैक",
-      "description": "देखें कि कैसे संडे कच्चे रेस्तरां डेटा से पांच वास्तुशिल्प परतों में कार्यशील बुद्धिमत्ता की ओर बढ़ता है।",
-      "stackTitle": "संडे इंटेलिजेंस स्टैक",
+      "description": "देखें कि कैसे Sundae कच्चे रेस्तरां डेटा से पांच वास्तुशिल्प परतों में कार्यशील बुद्धिमत्ता की ओर बढ़ता है।",
+      "stackTitle": "Sundae इंटेलिजेंस स्टैक",
       "stackDescription": "पांच वास्तुकला परतें जो छह खुफिया उत्पादों को शक्ति प्रदान करती हैं",
       "foundation": "सुरक्षा, शासन और विश्वसनीयता की ठोस नींव पर निर्मित",
       "flowTitle": "डेटा से निर्णय तक",
@@ -2142,7 +2142,7 @@ export const generatedLocalCopy = {
       "agentsTitle": "मल्टी-एजेंट एआई इंजन",
       "agentsDescription": "विशिष्ट एआई एजेंट पता लगाने, पूर्वानुमान और संदर्भ पर एक साथ काम कर रहे हैं।",
       "modulesTitle": "वास्तुकला मॉड्यूल",
-      "modulesDescription": "पांच मुख्य मॉड्यूल जो संडे इंटेलिजेंस स्टैक को शक्ति प्रदान करते हैं",
+      "modulesDescription": "पांच मुख्य मॉड्यूल जो Sundae इंटेलिजेंस स्टैक को शक्ति प्रदान करते हैं",
       "securityTitle": "उद्यम सुरक्षा एवं अनुपालन",
       "securityDescription": "संवेदनशील रेस्तरां संचालन डेटा के लिए सुरक्षा और अनुपालन नियंत्रण बनाए गए।",
       "engineeringTitle": "प्रीमियम इंजीनियरिंग से निर्मित",
@@ -2156,83 +2156,83 @@ export const generatedLocalCopy = {
           "title": "निर्णय बुद्धि",
           "subtitle": "शीर्ष परत",
           "description": "बेंचमार्क, अंतर्दृष्टि, पूर्वानुमान, स्वचालित निर्णय",
-          "color": "बीजी-ग्रेडिएंट-टू-आर से-गुलाबी-500 से-गुलाब-500 तक",
-          "icon": "बुद्धि"
+          "color": "bg-gradient-to-r from-pink-500 to-rose-500",
+          "icon": "intelligence"
         },
         {
           "title": "एआई प्रोसेसिंग",
           "subtitle": "खुफिया परत",
           "description": "मल्टी-एजेंट एआई, पैटर्न का पता लगाना, विसंगति का पता लगाना, तर्क करना",
-          "color": "बीजी-ग्रेडिएंट-टू-आर फ्रॉम-स्लेट-50 से-ब्लू-50",
+          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
           "textColor": "पाठ-[var(--पाठ-प्राथमिक)]",
-          "icon": "गति"
+          "icon": "speed"
         },
         {
           "title": "डाटा प्रोसेसिंग",
           "subtitle": "परिवर्तन परत",
           "description": "सफाई, परिवर्तन, मेट्रिक्स तर्क, संवर्धन",
-          "color": "बीजी-ग्रेडिएंट-टू-आर से-पीला-400 से-एम्बर-400 तक",
-          "icon": "डेटा"
+          "color": "bg-gradient-to-r from-yellow-400 to-amber-400",
+          "icon": "data"
         },
         {
           "title": "डेटा एकीकरण",
           "subtitle": "एकीकरण परत",
-          "description": "पीओएस, श्रम, इन्वेंट्री, आरक्षण, डिलीवरी एग्रीगेटर, कच्चा डेटा एकीकरण",
-          "color": "बीजी-ग्रेडिएंट-टू-आर फ्रॉम-ऑरेंज-500 से-एम्बर-600",
-          "icon": "एकीकरण"
+          "description": "POS, श्रम, इन्वेंट्री, आरक्षण, डिलीवरी एग्रीगेटर, कच्चा डेटा एकीकरण",
+          "color": "bg-gradient-to-r from-orange-500 to-amber-600",
+          "icon": "integration"
         },
         {
           "title": "फाउंडेशन/इंफ्रास्ट्रक्चर",
           "subtitle": "आधार परत",
           "description": "सुरक्षित पाइपलाइन, एपीआई अंतर्ग्रहण, सामान्यीकरण, शासन",
-          "color": "बीजी-ग्रेडिएंट-टू-आर फ्रॉम-एम्बर-700 से-ऑरेंज-800",
-          "icon": "नेटवर्क"
+          "color": "bg-gradient-to-r from-amber-700 to-orange-800",
+          "icon": "network"
         }
       ],
       "steps": [
         {
           "step": "1",
           "title": "डेटा संग्रहण",
-          "description": "स्काउट 12 डेटा डोमेन और बाहरी स्रोतों में 30+ रेस्तरां सिस्टम से जुड़ता है",
-          "icon": "एकीकरण"
+          "description": "Scout 12 डेटा डोमेन और बाहरी स्रोतों में 30+ रेस्तरां सिस्टम से जुड़ता है",
+          "icon": "integration"
         },
         {
           "step": "2",
           "title": "एआई प्रोसेसिंग",
           "description": "मल्टी-एजेंट एआई पैटर्न का विश्लेषण करता है और अंतर्दृष्टि उत्पन्न करता है",
-          "icon": "बुद्धि"
+          "icon": "intelligence"
         },
         {
           "step": "3",
           "title": "खुफिया डिलीवरी",
           "description": "भाषा और विज़ुअलाइज़ेशन के माध्यम से कार्रवाई योग्य अनुशंसाएँ प्रदान की गईं",
-          "icon": "अंतर्दृष्टि"
+          "icon": "insights"
         }
       ],
       "agents": [
         {
           "name": "पैटर्न एजेंट",
           "description": "सभी स्थानों पर आवर्ती परिचालन पैटर्न, मौसमी रुझान और छिपे हुए सहसंबंधों की पहचान करें",
-          "icon": "दृश्यता"
+          "icon": "visibility"
         },
         {
           "name": "पूर्वानुमान लगाने वाले एजेंट",
           "description": "एमएल मॉडल का उपयोग करके बिक्री, श्रम आवश्यकताओं, इन्वेंट्री आवश्यकताओं और परिचालन मांग की भविष्यवाणी करें",
-          "icon": "पूर्वानुमान"
+          "icon": "forecasting"
         },
         {
           "name": "प्रसंग एजेंट",
           "description": "प्रासंगिक अंतर्दृष्टि प्रदान करने के लिए परिचालन संदर्भ, स्थान विशिष्टताओं और व्यावसायिक नियमों को समझें",
-          "icon": "बुद्धि"
+          "icon": "intelligence"
         }
       ],
       "modules": [
         {
-          "name": "स्काउट",
+          "name": "Scout",
           "description": "यूनिवर्सल डेटा एकीकरण परत 12 डेटा डोमेन में 30+ रेस्तरां सिस्टम को जोड़ती है",
-          "icon": "स्काउट",
+          "icon": "scout",
           "features": [
-            "पीओएस एकीकरण",
+            "POS एकीकरण",
             "श्रम प्रणालियाँ",
             "इन्वेंटरी",
             "वास्तविक समय सिंक"
@@ -2240,9 +2240,9 @@ export const generatedLocalCopy = {
           "colorClass": "घटक-आइकन--स्काउट"
         },
         {
-          "name": "नाड़ी",
+          "name": "Pulse",
           "description": "एआई-संचालित विसंगति का पता लगाने और वास्तविक समय चेतावनी प्रणाली",
-          "icon": "पल्स",
+          "icon": "pulse",
           "features": [
             "विसंगति का पता लगाना",
             "वास्तविक समय अलर्ट",
@@ -2254,7 +2254,7 @@ export const generatedLocalCopy = {
         {
           "name": "फोर्ज",
           "description": "प्राकृतिक भाषा बुद्धि के लिए संवादात्मक एआई इंजन",
-          "icon": "जाली",
+          "icon": "forge",
           "features": [
             "प्राकृतिक भाषा",
             "प्रसंग समझ",
@@ -2264,9 +2264,9 @@ export const generatedLocalCopy = {
           "colorClass": "घटक-आइकन--फोर्ज"
         },
         {
-          "name": "कैनवास",
+          "name": "Canvas",
           "description": "गतिशील विज़ुअलाइज़ेशन और डैशबोर्ड इंटेलिजेंस परत",
-          "icon": "कैनवास",
+          "icon": "canvas",
           "features": [
             "वास्तविक समय डैशबोर्ड",
             "कस्टम दृश्य",
@@ -2278,7 +2278,7 @@ export const generatedLocalCopy = {
         {
           "name": "Watchtower",
           "description": "बाज़ार आसूचना और प्रतिस्पर्धी बेंचमार्किंग इंजन",
-          "icon": "प्रहरीदुर्ग",
+          "icon": "watchtower",
           "features": [
             "बाज़ार अंतर्दृष्टि",
             "प्रतियोगी डेटा",
@@ -2292,17 +2292,17 @@ export const generatedLocalCopy = {
         {
           "title": "एंड-टू-एंड एन्क्रिप्शन",
           "description": "पारगमन और आराम के दौरान डेटा के लिए AES-256 एन्क्रिप्शन",
-          "icon": "अलर्ट"
+          "icon": "alerts"
         },
         {
           "title": "अभिगम नियंत्रण",
           "description": "बहु-कारक प्रमाणीकरण के साथ भूमिका-आधारित पहुंच",
-          "icon": "एकीकरण"
+          "icon": "integration"
         },
         {
           "title": "अनुपालन मानक",
           "description": "एसओसी 2 टाइप II, जीडीपीआर और सीसीपीए के अनुरूप",
-          "icon": "सफलता"
+          "icon": "success"
         }
       ],
       "certs": [
@@ -2330,8 +2330,8 @@ export const generatedLocalCopy = {
       "engineeringCards": [
         {
           "title": "मल्टी-एजेंट एआई",
-          "icon": "बुद्धि",
-          "color": "बैंगनी-500 से बैंगनी-600 तक",
+          "icon": "intelligence",
+          "color": "from-purple-500 to-purple-600",
           "features": [
             "मल्टी-एजेंट एआई इंजन",
             "सतत सीखने के मॉडल",
@@ -2341,8 +2341,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "वास्तविक समय प्रसंस्करण",
-          "icon": "गति",
-          "color": "नीला-500 से नीला-600 तक",
+          "icon": "speed",
+          "color": "from-blue-500 to-blue-600",
           "features": [
             "वास्तविक समय डेटा प्रोसेसिंग",
             "उप-सेकेंड प्रतिक्रिया समय",
@@ -2352,8 +2352,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "एकीकरण इंजन",
-          "icon": "एकीकरण",
-          "color": "हरे-500 से हरे-600 तक",
+          "icon": "integration",
+          "color": "from-green-500 to-green-600",
           "features": [
             "12-डोमेन डेटा कनेक्टर",
             "रेस्टफुल एपीआई आर्किटेक्चर",
@@ -2363,8 +2363,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "इंटेलिजेंस कोर",
-          "icon": "अंतर्दृष्टि",
-          "color": "नारंगी-500 से नारंगी-600 तक",
+          "icon": "insights",
+          "color": "from-orange-500 to-orange-600",
           "features": [
             "उन्नत एल्गोरिदम",
             "मशीन लर्निंग मॉडल",
@@ -2374,8 +2374,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "डिलिवरी परत",
-          "icon": "कैनवास",
-          "color": "सियान-500 से सियान-600 तक",
+          "icon": "canvas",
+          "color": "from-cyan-500 to-cyan-600",
           "features": [
             "इंटरैक्टिव डैशबोर्ड",
             "प्राकृतिक भाषा संबंधी प्रश्न",
@@ -2385,8 +2385,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "सुरक्षा एवं शासन",
-          "icon": "गुणवत्ता",
-          "color": "लाल-500 से लाल-600 तक",
+          "icon": "quality",
+          "color": "from-red-500 to-red-600",
           "features": [
             "एसओसी 2 टाइप II के अनुरूप",
             "एंड-टू-एंड एन्क्रिप्शन",
@@ -2422,37 +2422,37 @@ export const generatedLocalCopy = {
           "title": "Karar Zekası",
           "subtitle": "Üst Katman",
           "description": "Karşılaştırmalar, öngörüler, tahminler, otomatik kararlar",
-          "color": "bg-gradient-to-r-pembe-500'den-rose-500'e",
-          "icon": "istihbarat"
+          "color": "bg-gradient-to-r from-pink-500 to-rose-500",
+          "icon": "intelligence"
         },
         {
           "title": "Yapay Zeka İşleme",
           "subtitle": "Zeka Katmanı",
           "description": "Çok aracılı yapay zeka, model tespiti, anormallik tespiti, muhakeme",
-          "color": "bg-gradyan-to-r-slate-50'den-mavi-50'ye",
+          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
           "textColor": "metin-[var(--text-birincil)]",
-          "icon": "hız"
+          "icon": "speed"
         },
         {
           "title": "Veri İşleme",
           "subtitle": "Dönüşüm Katmanı",
           "description": "Temizleme, dönüştürme, metrik mantığı, zenginleştirme",
-          "color": "bg-gradyan-to-r-sarı-400'den-amber-400'e",
-          "icon": "veri"
+          "color": "bg-gradient-to-r from-yellow-400 to-amber-400",
+          "icon": "data"
         },
         {
           "title": "Veri Entegrasyonu",
           "subtitle": "Birleştirme Katmanı",
           "description": "POS, işçilik, envanter, rezervasyonlar, teslimat toplayıcıları, ham veri birleştirme",
-          "color": "bg-gradient-to-r-turuncu-500'den-amber-600'e",
-          "icon": "entegrasyon"
+          "color": "bg-gradient-to-r from-orange-500 to-amber-600",
+          "icon": "integration"
         },
         {
           "title": "Temel / Altyapı",
           "subtitle": "Temel Katman",
           "description": "Güvenli işlem hatları, API alımı, normalleştirme, yönetişim",
-          "color": "bg-gradient-to-r-amber-700'den-orange-800'e",
-          "icon": "ağ"
+          "color": "bg-gradient-to-r from-amber-700 to-orange-800",
+          "icon": "network"
         }
       ],
       "steps": [
@@ -2460,43 +2460,43 @@ export const generatedLocalCopy = {
           "step": "1",
           "title": "Veri Toplama",
           "description": "Scout, 12 veri alanı ve harici kaynak üzerinden 30'dan fazla restoran sistemine bağlanır",
-          "icon": "entegrasyon"
+          "icon": "integration"
         },
         {
           "step": "2",
           "title": "Yapay Zeka İşleme",
           "description": "Çok aracılı yapay zeka, kalıpları analiz eder ve içgörüler üretir",
-          "icon": "istihbarat"
+          "icon": "intelligence"
         },
         {
           "step": "3",
           "title": "İstihbarat Teslimatı",
           "description": "Dil ve görselleştirme yoluyla sunulan eyleme dönüştürülebilir öneriler",
-          "icon": "görüşler"
+          "icon": "insights"
         }
       ],
       "agents": [
         {
           "name": "Desen Aracıları",
           "description": "Konumlar arasında yinelenen operasyonel kalıpları, mevsimsel eğilimleri ve gizli korelasyonları belirleyin",
-          "icon": "görünürlük"
+          "icon": "visibility"
         },
         {
           "name": "Tahmin Aracıları",
           "description": "ML modellerini kullanarak satışları, işgücü ihtiyaçlarını, envanter gereksinimlerini ve operasyonel talebi tahmin edin",
-          "icon": "tahmin"
+          "icon": "forecasting"
         },
         {
           "name": "Bağlam Aracıları",
           "description": "İlgili bilgiler sağlamak için operasyonel bağlamı, konum özelliklerini ve iş kurallarını anlayın",
-          "icon": "istihbarat"
+          "icon": "intelligence"
         }
       ],
       "modules": [
         {
-          "name": "izci",
+          "name": "Scout",
           "description": "12 veri alanında 30'dan fazla restoran sistemini birbirine bağlayan evrensel veri entegrasyon katmanı",
-          "icon": "izci",
+          "icon": "scout",
           "features": [
             "POS Entegrasyonu",
             "İşgücü Sistemleri",
@@ -2506,9 +2506,9 @@ export const generatedLocalCopy = {
           "colorClass": "bileşen simgesi -- izci"
         },
         {
-          "name": "Nabız",
+          "name": "Pulse",
           "description": "Yapay zeka destekli anormallik tespiti ve gerçek zamanlı uyarı sistemi",
-          "icon": "nabız",
+          "icon": "pulse",
           "features": [
             "Anormallik Tespiti",
             "Gerçek Zamanlı Uyarılar",
@@ -2520,7 +2520,7 @@ export const generatedLocalCopy = {
         {
           "name": "Dövmek",
           "description": "Doğal dil zekası için konuşmaya dayalı yapay zeka motoru",
-          "icon": "dövmek",
+          "icon": "forge",
           "features": [
             "Doğal Dil",
             "Bağlam Anlayışı",
@@ -2530,9 +2530,9 @@ export const generatedLocalCopy = {
           "colorClass": "bileşen simgesi - forge"
         },
         {
-          "name": "Kanvas",
+          "name": "Canvas",
           "description": "Dinamik görselleştirme ve kontrol paneli zeka katmanı",
-          "icon": "tuval",
+          "icon": "canvas",
           "features": [
             "Gerçek Zamanlı Kontrol Panelleri",
             "Özel Görünümler",
@@ -2544,7 +2544,7 @@ export const generatedLocalCopy = {
         {
           "name": "Watchtower",
           "description": "Pazar istihbaratı ve rekabetçi kıyaslama motoru",
-          "icon": "gözetleme kulesi",
+          "icon": "watchtower",
           "features": [
             "Pazar Bilgileri",
             "Rakip Verileri",
@@ -2558,17 +2558,17 @@ export const generatedLocalCopy = {
         {
           "title": "Uçtan Uca Şifreleme",
           "description": "Aktarılan ve kullanılmayan veriler için AES-256 şifrelemesi",
-          "icon": "uyarılar"
+          "icon": "alerts"
         },
         {
           "title": "Erişim Kontrolü",
           "description": "Çok faktörlü kimlik doğrulamayla rol tabanlı erişim",
-          "icon": "entegrasyon"
+          "icon": "integration"
         },
         {
           "title": "Uyumluluk Standartları",
           "description": "SOC 2 Tip II, GDPR ve CCPA uyumlu",
-          "icon": "başarı"
+          "icon": "success"
         }
       ],
       "certs": [
@@ -2596,8 +2596,8 @@ export const generatedLocalCopy = {
       "engineeringCards": [
         {
           "title": "Çok Aracılı Yapay Zeka",
-          "icon": "istihbarat",
-          "color": "mor-500'den mor-600'e",
+          "icon": "intelligence",
+          "color": "from-purple-500 to-purple-600",
           "features": [
             "Çok aracılı yapay zeka motoru",
             "Sürekli öğrenme modelleri",
@@ -2607,8 +2607,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Gerçek Zamanlı İşleme",
-          "icon": "hız",
-          "color": "mavi-500'den mavi-600'e",
+          "icon": "speed",
+          "color": "from-blue-500 to-blue-600",
           "features": [
             "Gerçek zamanlı veri işleme",
             "Saniyenin altında yanıt süreleri",
@@ -2618,8 +2618,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Entegrasyon Motoru",
-          "icon": "entegrasyon",
-          "color": "yeşil-500'den yeşil-600'e",
+          "icon": "integration",
+          "color": "from-green-500 to-green-600",
           "features": [
             "12 alanlı veri konnektörleri",
             "RESTful API mimarisi",
@@ -2629,8 +2629,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "İstihbarat Çekirdeği",
-          "icon": "görüşler",
-          "color": "turuncu-500'den-turuncu-600'e",
+          "icon": "insights",
+          "color": "from-orange-500 to-orange-600",
           "features": [
             "Gelişmiş algoritmalar",
             "Makine öğrenimi modelleri",
@@ -2640,8 +2640,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Teslimat Katmanı",
-          "icon": "tuval",
-          "color": "camgöbeği-500'den camgöbeği-600'e",
+          "icon": "canvas",
+          "color": "from-cyan-500 to-cyan-600",
           "features": [
             "Etkileşimli kontrol panelleri",
             "Doğal dil sorguları",
@@ -2651,8 +2651,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Güvenlik ve Yönetişim",
-          "icon": "kalite",
-          "color": "kırmızı-500'den kırmızı-600'e",
+          "icon": "quality",
+          "color": "from-red-500 to-red-600",
           "features": [
             "SOC 2 Tip II uyumlu",
             "Uçtan uca şifreleme",
@@ -2688,37 +2688,37 @@ export const generatedLocalCopy = {
           "title": "Inteligencja decyzyjna",
           "subtitle": "Górna warstwa",
           "description": "Benchmarki, spostrzeżenia, prognozowanie, zautomatyzowane decyzje",
-          "color": "bg-gradient-do-r od-różowego-500 do-różowego-500",
-          "icon": "inteligencja"
+          "color": "bg-gradient-to-r from-pink-500 to-rose-500",
+          "icon": "intelligence"
         },
         {
           "title": "Przetwarzanie AI",
           "subtitle": "Warstwa inteligencji",
           "description": "Wieloagentowa sztuczna inteligencja, wykrywanie wzorców, wykrywanie anomalii, wnioskowanie",
-          "color": "bg-gradient-to-r od-slate-50 do-blue-50",
+          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
           "textColor": "tekst-[var(--tekst-podstawowy)]",
-          "icon": "prędkość"
+          "icon": "speed"
         },
         {
           "title": "Przetwarzanie danych",
           "subtitle": "Warstwa transformacji",
           "description": "Czyszczenie, transformacja, logika metryk, wzbogacanie",
-          "color": "bg-gradient-to-r od-żółtego-400 do-bursztynowego-400",
-          "icon": "dane"
+          "color": "bg-gradient-to-r from-yellow-400 to-amber-400",
+          "icon": "data"
         },
         {
           "title": "Integracja danych",
           "subtitle": "Warstwa unifikacyjna",
           "description": "POS, praca, zapasy, rezerwacje, agregatory dostaw, ujednolicenie surowych danych",
-          "color": "bg-gradient-to-r od-pomarańczowego-500 do-bursztynowego-600",
-          "icon": "integracja"
+          "color": "bg-gradient-to-r from-orange-500 to-amber-600",
+          "icon": "integration"
         },
         {
           "title": "Fundacja / Infrastruktura",
           "subtitle": "Warstwa bazowa",
           "description": "Bezpieczne potoki, pozyskiwanie API, normalizacja, zarządzanie",
-          "color": "bg-gradient-to-r od-amber-700 do-orange-800",
-          "icon": "sieć"
+          "color": "bg-gradient-to-r from-amber-700 to-orange-800",
+          "icon": "network"
         }
       ],
       "steps": [
@@ -2726,45 +2726,45 @@ export const generatedLocalCopy = {
           "step": "1",
           "title": "Zbieranie danych",
           "description": "Scout łączy się z ponad 30 systemami restauracyjnymi w 12 domenach danych i źródłach zewnętrznych",
-          "icon": "integracja"
+          "icon": "integration"
         },
         {
           "step": "2",
           "title": "Przetwarzanie AI",
           "description": "Wieloagentowa sztuczna inteligencja analizuje wzorce i generuje spostrzeżenia",
-          "icon": "inteligencja"
+          "icon": "intelligence"
         },
         {
           "step": "3",
           "title": "Dostawa wywiadu",
           "description": "Praktyczne rekomendacje dostarczane za pomocą języka i wizualizacji",
-          "icon": "spostrzeżenia"
+          "icon": "insights"
         }
       ],
       "agents": [
         {
           "name": "Agenci wzorcowi",
           "description": "Identyfikuj powtarzające się wzorce operacyjne, trendy sezonowe i ukryte korelacje między lokalizacjami",
-          "icon": "widoczność"
+          "icon": "visibility"
         },
         {
           "name": "Agenci prognozujący",
           "description": "Przewiduj sprzedaż, zapotrzebowanie na siłę roboczą, wymagania dotyczące zapasów i zapotrzebowanie operacyjne, korzystając z modeli ML",
-          "icon": "prognozowanie"
+          "icon": "forecasting"
         },
         {
           "name": "Agenci kontekstowi",
           "description": "Zrozumienie kontekstu operacyjnego, specyfiki lokalizacji i reguł biznesowych, aby zapewnić przydatne informacje",
-          "icon": "inteligencja"
+          "icon": "intelligence"
         }
       ],
       "modules": [
         {
-          "name": "Zwiadowca",
+          "name": "Scout",
           "description": "Uniwersalna warstwa integracji danych łącząca ponad 30 systemów restauracyjnych w 12 domenach danych",
-          "icon": "zwiadowca",
+          "icon": "scout",
           "features": [
-            "Integracja punktów sprzedaży",
+            "POS Integration",
             "Systemy pracy",
             "Zapasy",
             "Synchronizacja w czasie rzeczywistym"
@@ -2772,9 +2772,9 @@ export const generatedLocalCopy = {
           "colorClass": "ikona komponentu — scout"
         },
         {
-          "name": "Puls",
+          "name": "Pulse",
           "description": "Wykrywanie anomalii i system ostrzegania w czasie rzeczywistym oparty na sztucznej inteligencji",
-          "icon": "puls",
+          "icon": "pulse",
           "features": [
             "Wykrywanie anomalii",
             "Alerty w czasie rzeczywistym",
@@ -2786,7 +2786,7 @@ export const generatedLocalCopy = {
         {
           "name": "Kuźnia",
           "description": "Konwersacyjny silnik AI zapewniający inteligencję języka naturalnego",
-          "icon": "wykuć",
+          "icon": "forge",
           "features": [
             "Język naturalny",
             "Zrozumienie kontekstu",
@@ -2796,9 +2796,9 @@ export const generatedLocalCopy = {
           "colorClass": "ikona komponentu - kuźnia"
         },
         {
-          "name": "Płótno",
+          "name": "Canvas",
           "description": "Dynamiczna wizualizacja i warstwa inteligencji dashboardu",
-          "icon": "płótno",
+          "icon": "canvas",
           "features": [
             "Pulpity nawigacyjne w czasie rzeczywistym",
             "Widoki niestandardowe",
@@ -2810,7 +2810,7 @@ export const generatedLocalCopy = {
         {
           "name": "Watchtower",
           "description": "Analiza rynku i silnik benchmarkingu konkurencyjnego",
-          "icon": "wieża strażnicza",
+          "icon": "watchtower",
           "features": [
             "Wgląd w rynek",
             "Dane konkurencji",
@@ -2824,17 +2824,17 @@ export const generatedLocalCopy = {
         {
           "title": "Szyfrowanie typu end-to-end",
           "description": "Szyfrowanie AES-256 dla danych przesyłanych i przechowywanych",
-          "icon": "alerty"
+          "icon": "alerts"
         },
         {
           "title": "Kontrola dostępu",
           "description": "Dostęp oparty na rolach z uwierzytelnianiem wieloskładnikowym",
-          "icon": "integracja"
+          "icon": "integration"
         },
         {
           "title": "Standardy zgodności",
           "description": "Zgodność z SOC 2 typu II, RODO i CCPA",
-          "icon": "sukces"
+          "icon": "success"
         }
       ],
       "certs": [
@@ -2862,8 +2862,8 @@ export const generatedLocalCopy = {
       "engineeringCards": [
         {
           "title": "Wieloagentowa sztuczna inteligencja",
-          "icon": "inteligencja",
-          "color": "od-fioletowego-500 do-fioletowego-600",
+          "icon": "intelligence",
+          "color": "from-purple-500 to-purple-600",
           "features": [
             "Wieloagentowy silnik AI",
             "Modele uczenia się ciągłego",
@@ -2873,8 +2873,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Przetwarzanie w czasie rzeczywistym",
-          "icon": "prędkość",
-          "color": "od-niebieskiego-500 do-niebieskiego-600",
+          "icon": "speed",
+          "color": "from-blue-500 to-blue-600",
           "features": [
             "Przetwarzanie danych w czasie rzeczywistym",
             "Czas reakcji poniżej sekundy",
@@ -2884,8 +2884,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Silnik integracji",
-          "icon": "integracja",
-          "color": "od-zielonego-500 do-zielonego-600",
+          "icon": "integration",
+          "color": "from-green-500 to-green-600",
           "features": [
             "12-domenowe złącza danych",
             "Architektura API RESTful",
@@ -2895,8 +2895,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Rdzeń Inteligencji",
-          "icon": "spostrzeżenia",
-          "color": "od-pomarańczowego-500 do pomarańczowego-600",
+          "icon": "insights",
+          "color": "from-orange-500 to-orange-600",
           "features": [
             "Zaawansowane algorytmy",
             "Modele uczenia maszynowego",
@@ -2906,8 +2906,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Warstwa dostawy",
-          "icon": "płótno",
-          "color": "od-cyjan-500 do-cyjan-600",
+          "icon": "canvas",
+          "color": "from-cyan-500 to-cyan-600",
           "features": [
             "Interaktywne dashboardy",
             "Zapytania w języku naturalnym",
@@ -2917,8 +2917,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Bezpieczeństwo i zarządzanie",
-          "icon": "jakość",
-          "color": "od-czerwonego-500 do-czerwonego-600",
+          "icon": "quality",
+          "color": "from-red-500 to-red-600",
           "features": [
             "Zgodny z SOC 2 typu II",
             "Szyfrowanie typu end-to-end",
@@ -2932,7 +2932,7 @@ export const generatedLocalCopy = {
       "badge": "平台架构",
       "title": "五层架构堆栈",
       "description": "了解 Sundae 如何从原始餐厅数据转变为跨五个架构层的工作智能。",
-      "stackTitle": "圣代智能堆栈",
+      "stackTitle": "Sundae智能堆栈",
       "stackDescription": "五个架构层为六种智能产品提供支持",
       "foundation": "建立在安全性、治理和可靠性的坚实基础之上",
       "flowTitle": "从数据到决策",
@@ -2940,7 +2940,7 @@ export const generatedLocalCopy = {
       "agentsTitle": "多智能体人工智能引擎",
       "agentsDescription": "专门的人工智能代理在检测、预测和背景方面协同工作。",
       "modulesTitle": "架构模块",
-      "modulesDescription": "为圣代智能堆栈提供动力的五个核心模块",
+      "modulesDescription": "为Sundae智能堆栈提供动力的五个核心模块",
       "securityTitle": "企业安全与合规性",
       "securityDescription": "为敏感的餐厅运营数据构建的安全和合规控制。",
       "engineeringTitle": "采用优质工程建造",
@@ -2954,37 +2954,37 @@ export const generatedLocalCopy = {
           "title": "决策智能",
           "subtitle": "顶层",
           "description": "基准、见解、预测、自动化决策",
-          "color": "bg-gradient-to-r 从-pink-500 到-rose-500",
-          "icon": "智力"
+          "color": "bg-gradient-to-r from-pink-500 to-rose-500",
+          "icon": "intelligence"
         },
         {
           "title": "人工智能处理",
           "subtitle": "智能层",
           "description": "多智能体人工智能、模式检测、异常检测、推理",
-          "color": "bg-gradient-to-r 从-slate-50 到-blue-50",
+          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
           "textColor": "文本-[var(--text-primary)]",
-          "icon": "速度"
+          "icon": "speed"
         },
         {
           "title": "数据处理",
           "subtitle": "转换层",
           "description": "清理、转换、指标逻辑、丰富",
-          "color": "bg-gradient-to-r 从-yellow-400 到-amber-400",
-          "icon": "数据"
+          "color": "bg-gradient-to-r from-yellow-400 to-amber-400",
+          "icon": "data"
         },
         {
           "title": "数据整合",
           "subtitle": "统一层",
           "description": "POS、人工、库存、预订、交付聚合器、原始数据统一",
-          "color": "bg-gradient-to-r 从orange-500 到amber-600",
-          "icon": "整合"
+          "color": "bg-gradient-to-r from-orange-500 to-amber-600",
+          "icon": "integration"
         },
         {
           "title": "地基/基础设施",
           "subtitle": "基础层",
           "description": "安全管道、API 摄取、标准化、治理",
-          "color": "bg-gradient-to-r 从-amber-700 到-orange-800",
-          "icon": "网络"
+          "color": "bg-gradient-to-r from-amber-700 to-orange-800",
+          "icon": "network"
         }
       ],
       "steps": [
@@ -2992,43 +2992,43 @@ export const generatedLocalCopy = {
           "step": "1",
           "title": "数据收集",
           "description": "Scout 连接到 12 个数据域和外部源的 30 多个餐厅系统",
-          "icon": "整合"
+          "icon": "integration"
         },
         {
           "step": "2",
           "title": "人工智能处理",
           "description": "多智能体人工智能分析模式并生成见解",
-          "icon": "智力"
+          "icon": "intelligence"
         },
         {
           "step": "3",
           "title": "情报传递",
           "description": "通过语言和可视化提供可行的建议",
-          "icon": "见解"
+          "icon": "insights"
         }
       ],
       "agents": [
         {
           "name": "模式代理",
           "description": "识别不同地点重复出现的运营模式、季节性趋势和隐藏的相关性",
-          "icon": "能见度"
+          "icon": "visibility"
         },
         {
           "name": "预测代理",
           "description": "使用机器学习模型预测销售、劳动力需求、库存需求和运营需求",
-          "icon": "预测"
+          "icon": "forecasting"
         },
         {
           "name": "上下文代理",
           "description": "了解运营环境、位置细节和业务规则以提供相关见解",
-          "icon": "智力"
+          "icon": "intelligence"
         }
       ],
       "modules": [
         {
-          "name": "侦察兵",
+          "name": "Scout",
           "description": "通用数据集成层连接 12 个数据域的 30 多个餐厅系统",
-          "icon": "侦察兵",
+          "icon": "scout",
           "features": [
             "POS 集成",
             "劳动制度",
@@ -3038,9 +3038,9 @@ export const generatedLocalCopy = {
           "colorClass": "组件图标--scout"
         },
         {
-          "name": "脉冲",
+          "name": "Pulse",
           "description": "人工智能驱动的异常检测和实时警报系统",
-          "icon": "脉冲",
+          "icon": "pulse",
           "features": [
             "异常检测",
             "实时警报",
@@ -3052,7 +3052,7 @@ export const generatedLocalCopy = {
         {
           "name": "锻造",
           "description": "用于自然语言智能的对话式人工智能引擎",
-          "icon": "锻造",
+          "icon": "forge",
           "features": [
             "自然语言",
             "语境理解",
@@ -3062,9 +3062,9 @@ export const generatedLocalCopy = {
           "colorClass": "组件图标--forge"
         },
         {
-          "name": "帆布",
+          "name": "Canvas",
           "description": "动态可视化和仪表板智能层",
-          "icon": "画布",
+          "icon": "canvas",
           "features": [
             "实时仪表板",
             "自定义视图",
@@ -3076,7 +3076,7 @@ export const generatedLocalCopy = {
         {
           "name": "Watchtower",
           "description": "市场情报和竞争基准引擎",
-          "icon": "了望塔",
+          "icon": "watchtower",
           "features": [
             "市场洞察",
             "竞争对手数据",
@@ -3090,17 +3090,17 @@ export const generatedLocalCopy = {
         {
           "title": "端到端加密",
           "description": "对传输中和静态数据进行 AES-256 加密",
-          "icon": "警报"
+          "icon": "alerts"
         },
         {
           "title": "访问控制",
           "description": "具有多重身份验证的基于角色的访问",
-          "icon": "整合"
+          "icon": "integration"
         },
         {
           "title": "合规标准",
           "description": "符合 SOC 2 Type II、GDPR 和 CCPA 标准",
-          "icon": "成功"
+          "icon": "success"
         }
       ],
       "certs": [
@@ -3128,8 +3128,8 @@ export const generatedLocalCopy = {
       "engineeringCards": [
         {
           "title": "多智能体人工智能",
-          "icon": "智力",
-          "color": "从紫色 500 到紫色 600",
+          "icon": "intelligence",
+          "color": "from-purple-500 to-purple-600",
           "features": [
             "多智能体人工智能引擎",
             "持续学习模式",
@@ -3139,8 +3139,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "实时处理",
-          "icon": "速度",
-          "color": "从-blue-500 到-blue-600",
+          "icon": "speed",
+          "color": "from-blue-500 to-blue-600",
           "features": [
             "实时数据处理",
             "亚秒级响应时间",
@@ -3150,8 +3150,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "集成引擎",
-          "icon": "整合",
-          "color": "从-green-500 到-green-600",
+          "icon": "integration",
+          "color": "from-green-500 to-green-600",
           "features": [
             "12域数据连接器",
             "RESTful API 架构",
@@ -3161,8 +3161,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "智能核心",
-          "icon": "见解",
-          "color": "从橙色 500 到橙色 600",
+          "icon": "insights",
+          "color": "from-orange-500 to-orange-600",
           "features": [
             "先进算法",
             "机器学习模型",
@@ -3172,8 +3172,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "交付层",
-          "icon": "画布",
-          "color": "从-cyan-500 到-cyan-600",
+          "icon": "canvas",
+          "color": "from-cyan-500 to-cyan-600",
           "features": [
             "交互式仪表板",
             "自然语言查询",
@@ -3183,8 +3183,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "安全与治理",
-          "icon": "品质",
-          "color": "从-red-500 到-red-600",
+          "icon": "quality",
+          "color": "from-red-500 to-red-600",
           "features": [
             "符合 SOC 2 Type II 标准",
             "端到端加密",
@@ -3198,7 +3198,7 @@ export const generatedLocalCopy = {
       "badge": "플랫폼 아키텍처",
       "title": "5계층 아키텍처 스택",
       "description": "Sundae가 원시 레스토랑 데이터에서 5개 아키텍처 계층에 걸쳐 작업 인텔리전스로 어떻게 이동하는지 알아보세요.",
-      "stackTitle": "순대 인텔리전스 스택",
+      "stackTitle": "The Sundae Intelligence Stack",
       "stackDescription": "6가지 인텔리전스 제품을 구동하는 5가지 아키텍처 계층",
       "foundation": "보안, 거버넌스, 안정성의 견고한 기반 위에 구축됨",
       "flowTitle": "데이터에서 의사결정까지",
@@ -3220,37 +3220,37 @@ export const generatedLocalCopy = {
           "title": "의사결정 인텔리전스",
           "subtitle": "최상위 레이어",
           "description": "벤치마크, 통찰력, 예측, 자동화된 의사결정",
-          "color": "bg-gradient-r-pink-500에서-rose-500까지",
-          "icon": "지능"
+          "color": "bg-gradient-to-r from-pink-500 to-rose-500",
+          "icon": "intelligence"
         },
         {
           "title": "AI 처리",
           "subtitle": "인텔리전스 레이어",
           "description": "멀티에이전트 AI, 패턴탐지, 이상탐지, 추론",
-          "color": "bg-gradient-r-slate-50에서-blue-50으로",
+          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
           "textColor": "텍스트-[var(--text-primary)]",
-          "icon": "속도"
+          "icon": "speed"
         },
         {
           "title": "데이터 처리",
           "subtitle": "변환 레이어",
           "description": "정리, 변환, 측정항목 논리, 강화",
-          "color": "bg-gradient-r-yellow-400에서-amber-400까지",
-          "icon": "데이터"
+          "color": "bg-gradient-to-r from-yellow-400 to-amber-400",
+          "icon": "data"
         },
         {
           "title": "데이터 통합",
           "subtitle": "통일층",
           "description": "POS, 인력, 재고, 예약, 배송 통합, 원시 데이터 통합",
-          "color": "bg-gradient-r에서-orange-500에서-amber-600으로",
-          "icon": "통합"
+          "color": "bg-gradient-to-r from-orange-500 to-amber-600",
+          "icon": "integration"
         },
         {
           "title": "기초/인프라",
           "subtitle": "기본 레이어",
           "description": "보안 파이프라인, API 수집, 정규화, 거버넌스",
-          "color": "bg-그라디언트-r-amber-700에서-orange-800",
-          "icon": "네트워크"
+          "color": "bg-gradient-to-r from-amber-700 to-orange-800",
+          "icon": "network"
         }
       ],
       "steps": [
@@ -3258,43 +3258,43 @@ export const generatedLocalCopy = {
           "step": "1",
           "title": "데이터 수집",
           "description": "Scout는 12개 데이터 도메인과 외부 소스를 통해 30개 이상의 레스토랑 시스템에 연결됩니다.",
-          "icon": "통합"
+          "icon": "integration"
         },
         {
           "step": "2",
           "title": "AI 처리",
           "description": "멀티 에이전트 AI가 패턴을 분석하고 통찰력을 생성합니다.",
-          "icon": "지능"
+          "icon": "intelligence"
         },
         {
           "step": "3",
           "title": "인텔리전스 전달",
           "description": "언어 및 시각화를 통해 제공되는 실행 가능한 권장 사항",
-          "icon": "통찰력"
+          "icon": "insights"
         }
       ],
       "agents": [
         {
           "name": "패턴 에이전트",
           "description": "위치 전반에 걸쳐 반복되는 운영 패턴, 계절적 추세 및 숨겨진 상관관계를 식별합니다.",
-          "icon": "가시성"
+          "icon": "visibility"
         },
         {
           "name": "예측 에이전트",
           "description": "ML 모델을 사용하여 판매, 인력 수요, 재고 요구 사항, 운영 수요 예측",
-          "icon": "예측"
+          "icon": "forecasting"
         },
         {
           "name": "컨텍스트 에이전트",
           "description": "운영 상황, 특정 위치, 비즈니스 규칙을 이해하여 관련 통찰력을 제공합니다.",
-          "icon": "지능"
+          "icon": "intelligence"
         }
       ],
       "modules": [
         {
-          "name": "스카우트",
+          "name": "Scout",
           "description": "12개 데이터 도메인에 걸쳐 30개 이상의 레스토랑 시스템을 연결하는 범용 데이터 통합 레이어",
-          "icon": "스카우트",
+          "icon": "scout",
           "features": [
             "POS 통합",
             "노동 시스템",
@@ -3304,9 +3304,9 @@ export const generatedLocalCopy = {
           "colorClass": "구성요소-아이콘--스카우트"
         },
         {
-          "name": "펄스",
+          "name": "Pulse",
           "description": "AI 기반 이상 징후 탐지 및 실시간 경고 시스템",
-          "icon": "맥박",
+          "icon": "pulse",
           "features": [
             "이상 탐지",
             "실시간 알림",
@@ -3318,7 +3318,7 @@ export const generatedLocalCopy = {
         {
           "name": "포지",
           "description": "자연어 지능을 위한 대화형 AI 엔진",
-          "icon": "위조하다",
+          "icon": "forge",
           "features": [
             "자연어",
             "맥락 이해",
@@ -3328,9 +3328,9 @@ export const generatedLocalCopy = {
           "colorClass": "구성요소-아이콘--위조"
         },
         {
-          "name": "캔버스",
+          "name": "Canvas",
           "description": "동적 시각화 및 대시보드 인텔리전스 계층",
-          "icon": "캔버스",
+          "icon": "canvas",
           "features": [
             "실시간 대시보드",
             "사용자 정의 보기",
@@ -3342,7 +3342,7 @@ export const generatedLocalCopy = {
         {
           "name": "Watchtower",
           "description": "시장 정보 및 경쟁력 있는 벤치마킹 엔진",
-          "icon": "망루",
+          "icon": "watchtower",
           "features": [
             "시장 통찰력",
             "경쟁사 데이터",
@@ -3356,17 +3356,17 @@ export const generatedLocalCopy = {
         {
           "title": "종단 간 암호화",
           "description": "전송 중 및 저장 중인 데이터에 대한 AES-256 암호화",
-          "icon": "경고"
+          "icon": "alerts"
         },
         {
           "title": "접근 제어",
           "description": "다단계 인증을 통한 역할 기반 액세스",
-          "icon": "통합"
+          "icon": "integration"
         },
         {
           "title": "규정 준수 표준",
           "description": "SOC 2 Type II, GDPR 및 CCPA 준수",
-          "icon": "성공"
+          "icon": "success"
         }
       ],
       "certs": [
@@ -3394,8 +3394,8 @@ export const generatedLocalCopy = {
       "engineeringCards": [
         {
           "title": "다중 에이전트 AI",
-          "icon": "지능",
-          "color": "보라색-500에서 보라색-600으로",
+          "icon": "intelligence",
+          "color": "from-purple-500 to-purple-600",
           "features": [
             "다중 에이전트 AI 엔진",
             "지속적인 학습 모델",
@@ -3405,8 +3405,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "실시간 처리",
-          "icon": "속도",
-          "color": "-블루-500에서-블루-600으로",
+          "icon": "speed",
+          "color": "from-blue-500 to-blue-600",
           "features": [
             "실시간 데이터 처리",
             "1초 미만의 응답 시간",
@@ -3416,8 +3416,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "통합 엔진",
-          "icon": "통합",
-          "color": "녹색-500에서-녹색-600으로",
+          "icon": "integration",
+          "color": "from-green-500 to-green-600",
           "features": [
             "12개 도메인 데이터 커넥터",
             "RESTful API 아키텍처",
@@ -3427,8 +3427,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "인텔리전스 코어",
-          "icon": "통찰력",
-          "color": "오렌지-500에서 오렌지-600으로",
+          "icon": "insights",
+          "color": "from-orange-500 to-orange-600",
           "features": [
             "고급 알고리즘",
             "기계 학습 모델",
@@ -3438,8 +3438,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "전달 계층",
-          "icon": "캔버스",
-          "color": "-시안-500에서-시안-600까지",
+          "icon": "canvas",
+          "color": "from-cyan-500 to-cyan-600",
           "features": [
             "대화형 대시보드",
             "자연어 쿼리",
@@ -3449,8 +3449,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "보안 및 거버넌스",
-          "icon": "품질",
-          "color": "-빨간색-500에서-빨간색-600까지",
+          "icon": "quality",
+          "color": "from-red-500 to-red-600",
           "features": [
             "SOC 2 유형 II 준수",
             "엔드투엔드 암호화",
@@ -3486,37 +3486,37 @@ export const generatedLocalCopy = {
           "title": "Inteligența de decizie",
           "subtitle": "Stratul superior",
           "description": "Benchmarkuri, perspective, previziuni, decizii automate",
-          "color": "bg-gradient-la-r de la-roz-500 la-trandafir-500",
-          "icon": "inteligenţă"
+          "color": "bg-gradient-to-r from-pink-500 to-rose-500",
+          "icon": "intelligence"
         },
         {
           "title": "Procesare AI",
           "subtitle": "Stratul de inteligență",
           "description": "AI multi-agent, detectarea modelelor, detectarea anomaliilor, raționament",
-          "color": "bg-gradient-to-r de la-ardezie-50 la-albastru-50",
+          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
           "textColor": "text-[var(--text-primary)]",
-          "icon": "viteza"
+          "icon": "speed"
         },
         {
           "title": "Prelucrarea datelor",
           "subtitle": "Stratul de transformare",
           "description": "Curățare, transformare, logica metrică, îmbogățire",
-          "color": "bg-gradient-la-r de la-galben-400 la-chihlimbar-400",
-          "icon": "date"
+          "color": "bg-gradient-to-r from-yellow-400 to-amber-400",
+          "icon": "data"
         },
         {
           "title": "Integrarea datelor",
           "subtitle": "Stratul de unificare",
           "description": "POS, manopera, inventar, rezervari, agregatoare de livrare, unificare de date brute",
-          "color": "bg-gradient-la-r de la portocaliu-500 la-chihlimbar-600",
-          "icon": "integrare"
+          "color": "bg-gradient-to-r from-orange-500 to-amber-600",
+          "icon": "integration"
         },
         {
           "title": "Fundație / Infrastructură",
           "subtitle": "Stratul de bază",
           "description": "Conducte securizate, asimilare API, normalizare, guvernare",
-          "color": "bg-gradient-la-r de la-chihlimbar-700 la-portocaliu-800",
-          "icon": "rețea"
+          "color": "bg-gradient-to-r from-amber-700 to-orange-800",
+          "icon": "network"
         }
       ],
       "steps": [
@@ -3524,43 +3524,43 @@ export const generatedLocalCopy = {
           "step": "1",
           "title": "Colectarea datelor",
           "description": "Scout se conectează la peste 30 de sisteme de restaurante din 12 domenii de date și surse externe",
-          "icon": "integrare"
+          "icon": "integration"
         },
         {
           "step": "2",
           "title": "Procesare AI",
           "description": "AI multi-agent analizează tiparele și generează informații",
-          "icon": "inteligenţă"
+          "icon": "intelligence"
         },
         {
           "step": "3",
           "title": "Livrare de informații",
           "description": "Recomandări acționabile furnizate prin limbaj și vizualizări",
-          "icon": "perspective"
+          "icon": "insights"
         }
       ],
       "agents": [
         {
           "name": "Agenți de modele",
           "description": "Identificați modele operaționale recurente, tendințele sezoniere și corelațiile ascunse între locații",
-          "icon": "vizibilitate"
+          "icon": "visibility"
         },
         {
           "name": "Agenți de prognoză",
           "description": "Preziceți vânzările, nevoile de forță de muncă, cerințele de stoc și cererea operațională folosind modele ML",
-          "icon": "prognoza"
+          "icon": "forecasting"
         },
         {
           "name": "Agenți de context",
           "description": "Înțelegeți contextul operațional, specificul locației și regulile de afaceri pentru a oferi informații relevante",
-          "icon": "inteligenţă"
+          "icon": "intelligence"
         }
       ],
       "modules": [
         {
-          "name": "Cercetaș",
+          "name": "Scout",
           "description": "Stratul universal de integrare a datelor care conectează peste 30 de sisteme de restaurante în 12 domenii de date",
-          "icon": "cercetaș",
+          "icon": "scout",
           "features": [
             "Integrare POS",
             "Sisteme de muncă",
@@ -3570,9 +3570,9 @@ export const generatedLocalCopy = {
           "colorClass": "pictogramă-componentă--cercetaș"
         },
         {
-          "name": "Puls",
+          "name": "Pulse",
           "description": "Sistem de detectare a anomaliilor alimentat de AI și sistem de alertă în timp real",
-          "icon": "puls",
+          "icon": "pulse",
           "features": [
             "Detectarea anomaliilor",
             "Alerte în timp real",
@@ -3584,7 +3584,7 @@ export const generatedLocalCopy = {
         {
           "name": "Forja",
           "description": "Motor AI conversațional pentru inteligența limbajului natural",
-          "icon": "forja",
+          "icon": "forge",
           "features": [
             "Limbajul natural",
             "Înțelegerea contextului",
@@ -3594,9 +3594,9 @@ export const generatedLocalCopy = {
           "colorClass": "componentă-icoană--forja"
         },
         {
-          "name": "Pânză",
+          "name": "Canvas",
           "description": "Vizualizare dinamică și strat inteligent de tablou de bord",
-          "icon": "pânză",
+          "icon": "canvas",
           "features": [
             "Tablouri de bord în timp real",
             "Vizualizări personalizate",
@@ -3608,7 +3608,7 @@ export const generatedLocalCopy = {
         {
           "name": "Watchtower",
           "description": "Inteligența pieței și motorul de benchmarking competitiv",
-          "icon": "turn de veghe",
+          "icon": "watchtower",
           "features": [
             "Informații despre piață",
             "Datele concurenței",
@@ -3622,17 +3622,17 @@ export const generatedLocalCopy = {
         {
           "title": "Criptare end-to-end",
           "description": "Criptare AES-256 pentru datele în tranzit și în repaus",
-          "icon": "alerte"
+          "icon": "alerts"
         },
         {
           "title": "Control acces",
           "description": "Acces bazat pe roluri cu autentificare multifactor",
-          "icon": "integrare"
+          "icon": "integration"
         },
         {
           "title": "Standarde de conformitate",
           "description": "Conform SOC 2 Tip II, GDPR și CCPA",
-          "icon": "succes"
+          "icon": "success"
         }
       ],
       "certs": [
@@ -3660,8 +3660,8 @@ export const generatedLocalCopy = {
       "engineeringCards": [
         {
           "title": "AI multi-agent",
-          "icon": "inteligenţă",
-          "color": "de la-violet-500 la-violet-600",
+          "icon": "intelligence",
+          "color": "from-purple-500 to-purple-600",
           "features": [
             "Motor AI multi-agent",
             "Modele de învățare continuă",
@@ -3671,8 +3671,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Procesare în timp real",
-          "icon": "viteza",
-          "color": "de la-albastru-500 la-albastru-600",
+          "icon": "speed",
+          "color": "from-blue-500 to-blue-600",
           "features": [
             "Prelucrarea datelor în timp real",
             "Timpi de răspuns sub secunde",
@@ -3682,8 +3682,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Motor de integrare",
-          "icon": "integrare",
-          "color": "de la-verde-500 la-verde-600",
+          "icon": "integration",
+          "color": "from-green-500 to-green-600",
           "features": [
             "conectori de date cu 12 domenii",
             "Arhitectură API RESTful",
@@ -3693,8 +3693,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Nucleul de inteligență",
-          "icon": "perspective",
-          "color": "de la-portocaliu-500 la-portocaliu-600",
+          "icon": "insights",
+          "color": "from-orange-500 to-orange-600",
           "features": [
             "Algoritmi avansati",
             "Modele de învățare automată",
@@ -3704,8 +3704,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Stratul de livrare",
-          "icon": "pânză",
-          "color": "de la-cian-500 la-cian-600",
+          "icon": "canvas",
+          "color": "from-cyan-500 to-cyan-600",
           "features": [
             "Tablouri de bord interactive",
             "Interogări în limbaj natural",
@@ -3715,8 +3715,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Securitate și guvernare",
-          "icon": "calitate",
-          "color": "de la-roșu-500 la-roșu-600",
+          "icon": "quality",
+          "color": "from-red-500 to-red-600",
           "features": [
             "Conform SOC 2 Tip II",
             "Criptare end-to-end",
@@ -3730,7 +3730,7 @@ export const generatedLocalCopy = {
       "badge": "プラットフォームのアーキテクチャ",
       "title": "5層アーキテクチャスタック",
       "description": "Sundae がレストランの生のデータから 5 つのアーキテクチャ層にわたる実用的なインテリジェンスにどのように移行するかをご覧ください。",
-      "stackTitle": "サンデー インテリジェンス スタック",
+      "stackTitle": "Sundae インテリジェンス スタック",
       "stackDescription": "6 つのインテリジェンス製品を強化する 5 つのアーキテクチャ層",
       "foundation": "セキュリティ、ガバナンス、信頼性の強固な基盤の上に構築",
       "flowTitle": "データから意思決定まで",
@@ -3738,7 +3738,7 @@ export const generatedLocalCopy = {
       "agentsTitle": "マルチエージェント AI エンジン",
       "agentsDescription": "専門の AI エージェントが連携して検出、予測、コンテキストを実行します。",
       "modulesTitle": "アーキテクチャモジュール",
-      "modulesDescription": "サンデー インテリジェンス スタックを強化する 5 つのコア モジュール",
+      "modulesDescription": "Sundae インテリジェンス スタックを強化する 5 つのコア モジュール",
       "securityTitle": "エンタープライズセキュリティとコンプライアンス",
       "securityDescription": "機密性の高いレストラン運営データ向けに構築されたセキュリティとコンプライアンスの管理。",
       "engineeringTitle": "プレミアムエンジニアリングで構築",
@@ -3753,7 +3753,7 @@ export const generatedLocalCopy = {
           "subtitle": "最上層",
           "description": "ベンチマーク、洞察、予測、自動化された意思決定",
           "color": "bg-gradient-to-r from-pink-500 to-rose-500",
-          "icon": "知性"
+          "icon": "intelligence"
         },
         {
           "title": "AI処理",
@@ -3761,28 +3761,28 @@ export const generatedLocalCopy = {
           "description": "マルチエージェントAI、パターン検出、異常検出、推論",
           "color": "bg-gradient-to-r from-slate-50 to-blue-50",
           "textColor": "text-[var(--text-primary)]",
-          "icon": "速度"
+          "icon": "speed"
         },
         {
           "title": "データ処理",
           "subtitle": "変換レイヤー",
           "description": "クリーニング、変換、メトリクスロジック、エンリッチメント",
-          "color": "bg-gradient-to-r from- yellow-400 to-amber-400",
-          "icon": "データ"
+          "color": "bg-gradient-to-r from-yellow-400 to-amber-400",
+          "icon": "data"
         },
         {
           "title": "データ統合",
           "subtitle": "統合レイヤー",
           "description": "POS、労働力、在庫、予約、配送アグリゲーター、生データの統合",
           "color": "bg-gradient-to-r from-orange-500 to-amber-600",
-          "icon": "統合"
+          "icon": "integration"
         },
         {
           "title": "基盤/インフラストラクチャー",
           "subtitle": "ベースレイヤー",
           "description": "安全なパイプライン、API インジェスト、正規化、ガバナンス",
           "color": "bg-gradient-to-r from-amber-700 to-orange-800",
-          "icon": "ネットワーク"
+          "icon": "network"
         }
       ],
       "steps": [
@@ -3790,43 +3790,43 @@ export const generatedLocalCopy = {
           "step": "1",
           "title": "データ収集",
           "description": "Scout は 12 のデータ ドメインと外部ソースにわたる 30 以上のレストラン システムに接続します",
-          "icon": "統合"
+          "icon": "integration"
         },
         {
           "step": "2",
           "title": "AI処理",
           "description": "マルチエージェント AI がパターンを分析し、洞察を生成します",
-          "icon": "知性"
+          "icon": "intelligence"
         },
         {
           "step": "3",
           "title": "インテリジェンスの提供",
           "description": "言語と視覚化を通じて実現可能な推奨事項を提供",
-          "icon": "洞察"
+          "icon": "insights"
         }
       ],
       "agents": [
         {
           "name": "パターンエージェント",
           "description": "繰り返される運用パターン、季節的傾向、場所間の隠れた相関関係を特定します。",
-          "icon": "可視性"
+          "icon": "visibility"
         },
         {
           "name": "予測エージェント",
           "description": "ML モデルを使用して、売上、労働需要、在庫要件、運用需要を予測します",
-          "icon": "予測する"
+          "icon": "forecasting"
         },
         {
           "name": "コンテキストエージェント",
           "description": "運用状況、場所の詳細、ビジネス ルールを理解して、関連する洞察を提供します",
-          "icon": "知性"
+          "icon": "intelligence"
         }
       ],
       "modules": [
         {
-          "name": "スカウト",
+          "name": "Scout",
           "description": "12のデータドメインにわたって30以上のレストランシステムを接続するユニバーサルデータ統合レイヤー",
-          "icon": "スカウト",
+          "icon": "scout",
           "features": [
             "POSの統合",
             "労働制度",
@@ -3836,9 +3836,9 @@ export const generatedLocalCopy = {
           "colorClass": "コンポーネント-アイコン--スカウト"
         },
         {
-          "name": "パルス",
+          "name": "Pulse",
           "description": "AI を活用した異常検出およびリアルタイム警告システム",
-          "icon": "パルス",
+          "icon": "pulse",
           "features": [
             "異常検出",
             "リアルタイムアラート",
@@ -3850,7 +3850,7 @@ export const generatedLocalCopy = {
         {
           "name": "鍛造する",
           "description": "自然言語インテリジェンスのための会話型 AI エンジン",
-          "icon": "鍛造する",
+          "icon": "forge",
           "features": [
             "自然言語",
             "コンテキストの理解",
@@ -3860,9 +3860,9 @@ export const generatedLocalCopy = {
           "colorClass": "コンポーネント-アイコン--フォージ"
         },
         {
-          "name": "キャンバス",
+          "name": "Canvas",
           "description": "動的視覚化とダッシュボード インテリジェンス レイヤー",
-          "icon": "キャンバス",
+          "icon": "canvas",
           "features": [
             "リアルタイムダッシュボード",
             "カスタムビュー",
@@ -3874,7 +3874,7 @@ export const generatedLocalCopy = {
         {
           "name": "Watchtower",
           "description": "市場インテリジェンスと競争力のあるベンチマーク エンジン",
-          "icon": "望楼",
+          "icon": "watchtower",
           "features": [
             "市場洞察",
             "競合他社のデータ",
@@ -3888,17 +3888,17 @@ export const generatedLocalCopy = {
         {
           "title": "エンドツーエンドの暗号化",
           "description": "転送中および保存中のデータに対する AES-256 暗号化",
-          "icon": "アラート"
+          "icon": "alerts"
         },
         {
           "title": "アクセス制御",
           "description": "多要素認証によるロールベースのアクセス",
-          "icon": "統合"
+          "icon": "integration"
         },
         {
           "title": "準拠基準",
           "description": "SOC 2 Type II、GDPR、および CCPA 準拠",
-          "icon": "成功"
+          "icon": "success"
         }
       ],
       "certs": [
@@ -3926,8 +3926,8 @@ export const generatedLocalCopy = {
       "engineeringCards": [
         {
           "title": "マルチエージェント AI",
-          "icon": "知性",
-          "color": "紫-500から紫-600まで",
+          "icon": "intelligence",
+          "color": "from-purple-500 to-purple-600",
           "features": [
             "マルチエージェントAIエンジン",
             "継続学習モデル",
@@ -3937,8 +3937,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "リアルタイム処理",
-          "icon": "速度",
-          "color": "ブルー-500からブルー-600まで",
+          "icon": "speed",
+          "color": "from-blue-500 to-blue-600",
           "features": [
             "リアルタイムデータ処理",
             "1 秒未満の応答時間",
@@ -3948,8 +3948,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "統合エンジン",
-          "icon": "統合",
-          "color": "緑-500 から緑-600 まで",
+          "icon": "integration",
+          "color": "from-green-500 to-green-600",
           "features": [
             "12 ドメインのデータ コネクタ",
             "RESTful API アーキテクチャ",
@@ -3959,8 +3959,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "インテリジェンスコア",
-          "icon": "洞察",
-          "color": "オレンジ-500からオレンジ-600まで",
+          "icon": "insights",
+          "color": "from-orange-500 to-orange-600",
           "features": [
             "高度なアルゴリズム",
             "機械学習モデル",
@@ -3970,8 +3970,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "配信層",
-          "icon": "キャンバス",
-          "color": "シアン-500 からシアン-600 まで",
+          "icon": "canvas",
+          "color": "from-cyan-500 to-cyan-600",
           "features": [
             "インタラクティブなダッシュボード",
             "自然言語クエリ",
@@ -3981,8 +3981,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "セキュリティとガバナンス",
-          "icon": "品質",
-          "color": "赤-500から赤-600まで",
+          "icon": "quality",
+          "color": "from-red-500 to-red-600",
           "features": [
             "SOC2タイプII準拠",
             "エンドツーエンドの暗号化",
@@ -4018,37 +4018,37 @@ export const generatedLocalCopy = {
           "title": "Kecerdasan Keputusan",
           "subtitle": "Lapisan Atas",
           "description": "Tolok ukur, wawasan, perkiraan, keputusan otomatis",
-          "color": "bg-gradien-ke-r dari-pink-500 ke-rose-500",
-          "icon": "intelijen"
+          "color": "bg-gradient-to-r from-pink-500 to-rose-500",
+          "icon": "intelligence"
         },
         {
           "title": "Pemrosesan AI",
           "subtitle": "Lapisan Intelijen",
           "description": "AI multi-agen, deteksi pola, deteksi anomali, penalaran",
-          "color": "bg-gradien-ke-r dari-slate-50 ke-biru-50",
+          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
           "textColor": "teks-[var(--teks-utama)]",
-          "icon": "kecepatan"
+          "icon": "speed"
         },
         {
           "title": "Pemrosesan Data",
           "subtitle": "Lapisan Transformasi",
           "description": "Pembersihan, transformasi, logika metrik, pengayaan",
-          "color": "bg-gradien-ke-r dari-kuning-400 ke-kuning-400",
+          "color": "bg-gradient-to-r from-yellow-400 to-amber-400",
           "icon": "data"
         },
         {
           "title": "Integrasi Data",
           "subtitle": "Lapisan Unifikasi",
           "description": "POS, tenaga kerja, inventaris, reservasi, agregator pengiriman, penyatuan data mentah",
-          "color": "bg-gradien-ke-r dari-oranye-500 ke-kuning-600",
-          "icon": "integrasi"
+          "color": "bg-gradient-to-r from-orange-500 to-amber-600",
+          "icon": "integration"
         },
         {
           "title": "Fondasi/Infrastruktur",
           "subtitle": "Lapisan Dasar",
           "description": "Mengamankan pipeline, penyerapan API, normalisasi, tata kelola",
-          "color": "bg-gradien-ke-r dari-kuning-700 ke-oranye-800",
-          "icon": "jaringan"
+          "color": "bg-gradient-to-r from-amber-700 to-orange-800",
+          "icon": "network"
         }
       ],
       "steps": [
@@ -4056,43 +4056,43 @@ export const generatedLocalCopy = {
           "step": "1",
           "title": "Pengumpulan Data",
           "description": "Scout terhubung ke 30+ sistem restoran di 12 domain data dan sumber eksternal",
-          "icon": "integrasi"
+          "icon": "integration"
         },
         {
           "step": "2",
           "title": "Pemrosesan AI",
           "description": "AI multi-agen menganalisis pola dan menghasilkan wawasan",
-          "icon": "intelijen"
+          "icon": "intelligence"
         },
         {
           "step": "3",
           "title": "Pengiriman Intelijen",
           "description": "Rekomendasi yang dapat ditindaklanjuti disampaikan melalui bahasa dan visualisasi",
-          "icon": "wawasan"
+          "icon": "insights"
         }
       ],
       "agents": [
         {
           "name": "Agen Pola",
           "description": "Identifikasi pola operasional berulang, tren musiman, dan korelasi tersembunyi di seluruh lokasi",
-          "icon": "visibilitas"
+          "icon": "visibility"
         },
         {
           "name": "Agen Peramalan",
           "description": "Prediksi penjualan, kebutuhan tenaga kerja, kebutuhan inventaris, dan permintaan operasional menggunakan model ML",
-          "icon": "peramalan"
+          "icon": "forecasting"
         },
         {
           "name": "Agen Konteks",
           "description": "Pahami konteks operasional, spesifik lokasi, dan aturan bisnis untuk memberikan wawasan yang relevan",
-          "icon": "intelijen"
+          "icon": "intelligence"
         }
       ],
       "modules": [
         {
-          "name": "Pramuka",
+          "name": "Scout",
           "description": "Lapisan integrasi data universal yang menghubungkan 30+ sistem restoran di 12 domain data",
-          "icon": "pramuka",
+          "icon": "scout",
           "features": [
             "Integrasi POS",
             "Sistem Ketenagakerjaan",
@@ -4102,9 +4102,9 @@ export const generatedLocalCopy = {
           "colorClass": "komponen-ikon--pramuka"
         },
         {
-          "name": "Denyut nadi",
+          "name": "Pulse",
           "description": "Deteksi anomali bertenaga AI dan sistem peringatan real-time",
-          "icon": "pulsa",
+          "icon": "pulse",
           "features": [
             "Deteksi Anomali",
             "Peringatan Waktu Nyata",
@@ -4116,7 +4116,7 @@ export const generatedLocalCopy = {
         {
           "name": "menempa",
           "description": "Mesin AI percakapan untuk kecerdasan bahasa alami",
-          "icon": "menempa",
+          "icon": "forge",
           "features": [
             "Bahasa Alami",
             "Pemahaman Konteks",
@@ -4126,9 +4126,9 @@ export const generatedLocalCopy = {
           "colorClass": "komponen-ikon--menempa"
         },
         {
-          "name": "Kanvas",
+          "name": "Canvas",
           "description": "Visualisasi dinamis dan lapisan kecerdasan dasbor",
-          "icon": "kanvas",
+          "icon": "canvas",
           "features": [
             "Dasbor Waktu Nyata",
             "Tampilan Kustom",
@@ -4140,7 +4140,7 @@ export const generatedLocalCopy = {
         {
           "name": "Watchtower",
           "description": "Kecerdasan pasar dan mesin pembandingan yang kompetitif",
-          "icon": "menara pengawal",
+          "icon": "watchtower",
           "features": [
             "Wawasan Pasar",
             "Data Pesaing",
@@ -4154,17 +4154,17 @@ export const generatedLocalCopy = {
         {
           "title": "Enkripsi ujung ke ujung",
           "description": "Enkripsi AES-256 untuk data saat transit dan saat istirahat",
-          "icon": "peringatan"
+          "icon": "alerts"
         },
         {
           "title": "Kontrol Akses",
           "description": "Akses berbasis peran dengan autentikasi multifaktor",
-          "icon": "integrasi"
+          "icon": "integration"
         },
         {
           "title": "Standar Kepatuhan",
           "description": "Sesuai SOC 2 Tipe II, GDPR, dan CCPA",
-          "icon": "sukses"
+          "icon": "success"
         }
       ],
       "certs": [
@@ -4192,8 +4192,8 @@ export const generatedLocalCopy = {
       "engineeringCards": [
         {
           "title": "AI Multi-Agen",
-          "icon": "intelijen",
-          "color": "dari-ungu-500 hingga-ungu-600",
+          "icon": "intelligence",
+          "color": "from-purple-500 to-purple-600",
           "features": [
             "Mesin AI multi-agen",
             "Model pembelajaran berkelanjutan",
@@ -4203,8 +4203,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Pemrosesan Waktu Nyata",
-          "icon": "kecepatan",
-          "color": "dari-biru-500 ke-biru-600",
+          "icon": "speed",
+          "color": "from-blue-500 to-blue-600",
           "features": [
             "Pemrosesan data waktu nyata",
             "Waktu respons sub-detik",
@@ -4214,8 +4214,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Mesin Integrasi",
-          "icon": "integrasi",
-          "color": "dari-hijau-500 ke-hijau-600",
+          "icon": "integration",
+          "color": "from-green-500 to-green-600",
           "features": [
             "Konektor data 12 domain",
             "Arsitektur API yang tenang",
@@ -4225,8 +4225,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Inti Intelijen",
-          "icon": "wawasan",
-          "color": "dari-oranye-500 ke-oranye-600",
+          "icon": "insights",
+          "color": "from-orange-500 to-orange-600",
           "features": [
             "Algoritma tingkat lanjut",
             "Model pembelajaran mesin",
@@ -4236,8 +4236,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Lapisan Pengiriman",
-          "icon": "kanvas",
-          "color": "dari-cyan-500 ke-cyan-600",
+          "icon": "canvas",
+          "color": "from-cyan-500 to-cyan-600",
           "features": [
             "Dasbor interaktif",
             "Kueri bahasa alami",
@@ -4247,8 +4247,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Keamanan & Tata Kelola",
-          "icon": "kualitas",
-          "color": "dari-merah-500 ke-merah-600",
+          "icon": "quality",
+          "color": "from-red-500 to-red-600",
           "features": [
             "Sesuai SOC 2 Tipe II",
             "Enkripsi ujung ke ujung",
@@ -4284,37 +4284,37 @@ export const generatedLocalCopy = {
           "title": "Quyết định thông minh",
           "subtitle": "Lớp trên cùng",
           "description": "Điểm chuẩn, thông tin chi tiết, dự báo, quyết định tự động",
-          "color": "bg-gradient-r từ-hồng-500 đến-rose-500",
-          "icon": "trí thông minh"
+          "color": "bg-gradient-to-r from-pink-500 to-rose-500",
+          "icon": "intelligence"
         },
         {
           "title": "Xử lý AI",
           "subtitle": "Lớp thông minh",
           "description": "AI đa tác nhân, phát hiện mẫu, phát hiện bất thường, lý luận",
-          "color": "bg-gradient-to-r từ-slate-50 đến-blue-50",
+          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
           "textColor": "văn bản-[var(--text-primary)]",
-          "icon": "tốc độ"
+          "icon": "speed"
         },
         {
           "title": "Xử lý dữ liệu",
           "subtitle": "Lớp chuyển đổi",
           "description": "Làm sạch, chuyển đổi, logic số liệu, làm giàu",
-          "color": "bg-gradient-to-r từ-vàng-400 đến-hổ phách-400",
-          "icon": "dữ liệu"
+          "color": "bg-gradient-to-r from-yellow-400 to-amber-400",
+          "icon": "data"
         },
         {
           "title": "Tích hợp dữ liệu",
           "subtitle": "Lớp hợp nhất",
           "description": "POS, lao động, hàng tồn kho, đặt chỗ, tổng hợp giao hàng, thống nhất dữ liệu thô",
-          "color": "bg-gradient-to-r từ-orange-500 đến-amber-600",
-          "icon": "hội nhập"
+          "color": "bg-gradient-to-r from-orange-500 to-amber-600",
+          "icon": "integration"
         },
         {
           "title": "Nền móng/Cơ sở hạ tầng",
           "subtitle": "Lớp nền",
           "description": "Quy trình bảo mật, nhập API, chuẩn hóa, quản trị",
-          "color": "bg-gradient-to-r từ-amber-700 đến-orange-800",
-          "icon": "mạng lưới"
+          "color": "bg-gradient-to-r from-amber-700 to-orange-800",
+          "icon": "network"
         }
       ],
       "steps": [
@@ -4322,43 +4322,43 @@ export const generatedLocalCopy = {
           "step": "1",
           "title": "Thu thập dữ liệu",
           "description": "Scout kết nối với hơn 30 hệ thống nhà hàng trên 12 miền dữ liệu và các nguồn bên ngoài",
-          "icon": "hội nhập"
+          "icon": "integration"
         },
         {
           "step": "2",
           "title": "Xử lý AI",
           "description": "AI đa tác nhân phân tích các mẫu và tạo ra thông tin chuyên sâu",
-          "icon": "trí thông minh"
+          "icon": "intelligence"
         },
         {
           "step": "3",
           "title": "Cung cấp thông tin tình báo",
           "description": "Các đề xuất có thể hành động được cung cấp thông qua ngôn ngữ và hình ảnh trực quan",
-          "icon": "hiểu biết sâu sắc"
+          "icon": "insights"
         }
       ],
       "agents": [
         {
           "name": "Đại lý mẫu",
           "description": "Xác định các mô hình hoạt động định kỳ, xu hướng theo mùa và mối tương quan tiềm ẩn giữa các địa điểm",
-          "icon": "khả năng hiển thị"
+          "icon": "visibility"
         },
         {
           "name": "Đại lý dự báo",
           "description": "Dự đoán doanh số, nhu cầu lao động, yêu cầu tồn kho và nhu cầu vận hành bằng mô hình ML",
-          "icon": "dự báo"
+          "icon": "forecasting"
         },
         {
           "name": "Đại lý bối cảnh",
           "description": "Hiểu bối cảnh hoạt động, chi tiết cụ thể về vị trí và quy tắc kinh doanh để cung cấp thông tin chi tiết có liên quan",
-          "icon": "trí thông minh"
+          "icon": "intelligence"
         }
       ],
       "modules": [
         {
-          "name": "trinh sát",
+          "name": "Scout",
           "description": "Lớp tích hợp dữ liệu toàn cầu kết nối hơn 30 hệ thống nhà hàng trên 12 miền dữ liệu",
-          "icon": "trinh sát",
+          "icon": "scout",
           "features": [
             "Tích hợp POS",
             "Hệ thống lao động",
@@ -4368,9 +4368,9 @@ export const generatedLocalCopy = {
           "colorClass": "biểu tượng thành phần--trinh sát"
         },
         {
-          "name": "Xung",
+          "name": "Pulse",
           "description": "Hệ thống phát hiện bất thường và cảnh báo theo thời gian thực được hỗ trợ bởi AI",
-          "icon": "mạch đập",
+          "icon": "pulse",
           "features": [
             "Phát hiện bất thường",
             "Cảnh báo thời gian thực",
@@ -4382,7 +4382,7 @@ export const generatedLocalCopy = {
         {
           "name": "lò rèn",
           "description": "Công cụ AI đàm thoại cho trí thông minh ngôn ngữ tự nhiên",
-          "icon": "rèn",
+          "icon": "forge",
           "features": [
             "Ngôn ngữ tự nhiên",
             "Hiểu bối cảnh",
@@ -4392,9 +4392,9 @@ export const generatedLocalCopy = {
           "colorClass": "biểu tượng thành phần--giả mạo"
         },
         {
-          "name": "Vải bạt",
+          "name": "Canvas",
           "description": "Lớp thông minh bảng điều khiển và trực quan hóa động",
-          "icon": "vải vẽ",
+          "icon": "canvas",
           "features": [
             "Trang tổng quan thời gian thực",
             "Chế độ xem tùy chỉnh",
@@ -4406,7 +4406,7 @@ export const generatedLocalCopy = {
         {
           "name": "Watchtower",
           "description": "Thông tin thị trường và công cụ đo điểm chuẩn cạnh tranh",
-          "icon": "tháp canh",
+          "icon": "watchtower",
           "features": [
             "Thông tin chi tiết về thị trường",
             "Dữ liệu đối thủ",
@@ -4420,17 +4420,17 @@ export const generatedLocalCopy = {
         {
           "title": "Mã hóa đầu cuối",
           "description": "Mã hóa AES-256 cho dữ liệu đang truyền và ở trạng thái nghỉ",
-          "icon": "cảnh báo"
+          "icon": "alerts"
         },
         {
           "title": "Kiểm soát truy cập",
           "description": "Truy cập dựa trên vai trò với xác thực đa yếu tố",
-          "icon": "hội nhập"
+          "icon": "integration"
         },
         {
           "title": "Tiêu chuẩn tuân thủ",
           "description": "Tuân thủ SOC 2 Loại II, GDPR và CCPA",
-          "icon": "sự thành công"
+          "icon": "success"
         }
       ],
       "certs": [
@@ -4458,8 +4458,8 @@ export const generatedLocalCopy = {
       "engineeringCards": [
         {
           "title": "AI đa tác nhân",
-          "icon": "trí thông minh",
-          "color": "từ-tím-500 đến-tím-600",
+          "icon": "intelligence",
+          "color": "from-purple-500 to-purple-600",
           "features": [
             "Công cụ AI đa tác nhân",
             "Mô hình học tập liên tục",
@@ -4469,8 +4469,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Xử lý thời gian thực",
-          "icon": "tốc độ",
-          "color": "từ-blue-500 đến-blue-600",
+          "icon": "speed",
+          "color": "from-blue-500 to-blue-600",
           "features": [
             "Xử lý dữ liệu thời gian thực",
             "Thời gian phản hồi dưới giây",
@@ -4480,8 +4480,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Công cụ tích hợp",
-          "icon": "hội nhập",
-          "color": "từ-xanh-500 đến-xanh-600",
+          "icon": "integration",
+          "color": "from-green-500 to-green-600",
           "features": [
             "Trình kết nối dữ liệu 12 miền",
             "Kiến trúc API RESTful",
@@ -4491,8 +4491,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Lõi thông minh",
-          "icon": "hiểu biết sâu sắc",
-          "color": "từ-cam-500 đến-cam-600",
+          "icon": "insights",
+          "color": "from-orange-500 to-orange-600",
           "features": [
             "Thuật toán nâng cao",
             "Mô hình học máy",
@@ -4502,8 +4502,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Lớp phân phối",
-          "icon": "vải vẽ",
-          "color": "từ-cyan-500 đến-cyan-600",
+          "icon": "canvas",
+          "color": "from-cyan-500 to-cyan-600",
           "features": [
             "Trang tổng quan tương tác",
             "Truy vấn ngôn ngữ tự nhiên",
@@ -4513,8 +4513,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "An ninh & Quản trị",
-          "icon": "chất lượng",
-          "color": "từ-đỏ-500 đến-đỏ-600",
+          "icon": "quality",
+          "color": "from-red-500 to-red-600",
           "features": [
             "Tuân thủ SOC 2 Loại II",
             "Mã hóa đầu cuối",
@@ -4528,7 +4528,7 @@ export const generatedLocalCopy = {
       "badge": "প্ল্যাটফর্ম আর্কিটেকচার",
       "title": "পাঁচ-স্তর আর্কিটেকচার স্ট্যাক",
       "description": "দেখুন কিভাবে Sundae কাঁচা রেস্তোরাঁর ডেটা থেকে পাঁচটি আর্কিটেকচারাল স্তর জুড়ে কাজের বুদ্ধিমত্তার দিকে চলে যায়৷",
-      "stackTitle": "সানডে ইন্টেলিজেন্স স্ট্যাক",
+      "stackTitle": "Sundae ইন্টেলিজেন্স স্ট্যাক",
       "stackDescription": "পাঁচটি স্থাপত্য স্তর যা ছয়টি বুদ্ধিমত্তা পণ্যকে শক্তি দেয়",
       "foundation": "নিরাপত্তা, শাসন এবং নির্ভরযোগ্যতার একটি শক্ত ভিত্তির উপর নির্মিত",
       "flowTitle": "ডেটা থেকে সিদ্ধান্ত পর্যন্ত",
@@ -4536,7 +4536,7 @@ export const generatedLocalCopy = {
       "agentsTitle": "মাল্টি-এজেন্ট এআই ইঞ্জিন",
       "agentsDescription": "বিশেষায়িত AI এজেন্টরা সনাক্তকরণ, পূর্বাভাস এবং প্রসঙ্গে একসাথে কাজ করে।",
       "modulesTitle": "আর্কিটেকচার মডিউল",
-      "modulesDescription": "পাঁচটি মূল মডিউল যা সানডে ইন্টেলিজেন্স স্ট্যাককে শক্তি দেয়",
+      "modulesDescription": "পাঁচটি মূল মডিউল যা Sundae ইন্টেলিজেন্স স্ট্যাককে শক্তি দেয়",
       "securityTitle": "এন্টারপ্রাইজ নিরাপত্তা এবং সম্মতি",
       "securityDescription": "সংবেদনশীল রেস্তোরাঁ অপারেটিং ডেটার জন্য তৈরি নিরাপত্তা এবং সম্মতি নিয়ন্ত্রণ।",
       "engineeringTitle": "প্রিমিয়াম ইঞ্জিনিয়ারিং দিয়ে তৈরি",
@@ -4550,37 +4550,37 @@ export const generatedLocalCopy = {
           "title": "সিদ্ধান্ত বুদ্ধিমত্তা",
           "subtitle": "শীর্ষ স্তর",
           "description": "বেঞ্চমার্ক, অন্তর্দৃষ্টি, পূর্বাভাস, স্বয়ংক্রিয় সিদ্ধান্ত",
-          "color": "বিজি-গ্রেডিয়েন্ট-টু-আর-পিঙ্ক-500 থেকে-রোজ-500",
-          "icon": "বুদ্ধিমত্তা"
+          "color": "bg-gradient-to-r from-pink-500 to-rose-500",
+          "icon": "intelligence"
         },
         {
           "title": "এআই প্রসেসিং",
           "subtitle": "বুদ্ধিমত্তা স্তর",
           "description": "মাল্টি-এজেন্ট এআই, প্যাটার্ন সনাক্তকরণ, অসঙ্গতি সনাক্তকরণ, যুক্তি",
-          "color": "বিজি-গ্রেডিয়েন্ট-টু-আর থেকে-স্লেট-50 থেকে-নীল-50",
+          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
           "textColor": "পাঠ্য-[var(--পাঠ্য-প্রাথমিক)]",
-          "icon": "গতি"
+          "icon": "speed"
         },
         {
           "title": "ডেটা প্রসেসিং",
           "subtitle": "রূপান্তর স্তর",
           "description": "পরিচ্ছন্নতা, রূপান্তর, মেট্রিক্স যুক্তি, সমৃদ্ধি",
-          "color": "bg-গ্রেডিয়েন্ট-টু-আর থেকে-হলুদ-400 থেকে-অ্যাম্বার-400",
-          "icon": "তথ্য"
+          "color": "bg-gradient-to-r from-yellow-400 to-amber-400",
+          "icon": "data"
         },
         {
           "title": "ডেটা ইন্টিগ্রেশন",
           "subtitle": "একীকরণ স্তর",
           "description": "POS, শ্রম, ইনভেন্টরি, রিজার্ভেশন, ডেলিভারি অ্যাগ্রিগেটর, কাঁচা ডেটা একীকরণ",
-          "color": "bg-গ্রেডিয়েন্ট-টু-আর থেকে-কমলা-500 থেকে-অ্যাম্বার-600",
-          "icon": "ইন্টিগ্রেশন"
+          "color": "bg-gradient-to-r from-orange-500 to-amber-600",
+          "icon": "integration"
         },
         {
           "title": "ভিত্তি / অবকাঠামো",
           "subtitle": "বেস লেয়ার",
           "description": "নিরাপদ পাইপলাইন, API ইনজেশন, স্বাভাবিকীকরণ, শাসন",
-          "color": "bg-গ্রেডিয়েন্ট-টু-আর থেকে-অ্যাম্বার-700 থেকে-কমলা-800",
-          "icon": "নেটওয়ার্ক"
+          "color": "bg-gradient-to-r from-amber-700 to-orange-800",
+          "icon": "network"
         }
       ],
       "steps": [
@@ -4588,43 +4588,43 @@ export const generatedLocalCopy = {
           "step": "1",
           "title": "তথ্য সংগ্রহ",
           "description": "Scout 12টি ডেটা ডোমেন এবং বাহ্যিক উত্স জুড়ে 30+ রেস্তোরাঁ সিস্টেমের সাথে সংযোগ করে৷",
-          "icon": "ইন্টিগ্রেশন"
+          "icon": "integration"
         },
         {
           "step": "2",
           "title": "এআই প্রসেসিং",
           "description": "মাল্টি-এজেন্ট এআই প্যাটার্ন বিশ্লেষণ করে এবং অন্তর্দৃষ্টি তৈরি করে",
-          "icon": "বুদ্ধিমত্তা"
+          "icon": "intelligence"
         },
         {
           "step": "3",
           "title": "ইন্টেলিজেন্স ডেলিভারি",
           "description": "ভাষা এবং ভিজ্যুয়ালাইজেশনের মাধ্যমে কার্যকরী সুপারিশ প্রদান করা হয়",
-          "icon": "অন্তর্দৃষ্টি"
+          "icon": "insights"
         }
       ],
       "agents": [
         {
           "name": "প্যাটার্ন এজেন্ট",
           "description": "পুনরাবৃত্ত অপারেশনাল প্যাটার্ন, ঋতুগত প্রবণতা এবং অবস্থান জুড়ে লুকানো পারস্পরিক সম্পর্ক সনাক্ত করুন",
-          "icon": "দৃশ্যমানতা"
+          "icon": "visibility"
         },
         {
           "name": "পূর্বাভাস এজেন্ট",
           "description": "এমএল মডেল ব্যবহার করে বিক্রয়, শ্রমের চাহিদা, জায় প্রয়োজনীয়তা এবং কর্মক্ষম চাহিদা ভবিষ্যদ্বাণী করুন",
-          "icon": "পূর্বাভাস"
+          "icon": "forecasting"
         },
         {
           "name": "প্রসঙ্গ এজেন্ট",
           "description": "প্রাসঙ্গিক অন্তর্দৃষ্টি প্রদানের জন্য অপারেশনাল প্রসঙ্গ, অবস্থানের সুনির্দিষ্ট এবং ব্যবসার নিয়মগুলি বুঝুন",
-          "icon": "বুদ্ধিমত্তা"
+          "icon": "intelligence"
         }
       ],
       "modules": [
         {
-          "name": "স্কাউট",
+          "name": "Scout",
           "description": "ইউনিভার্সাল ডেটা ইন্টিগ্রেশন লেয়ার 12টি ডেটা ডোমেন জুড়ে 30+ রেস্তোরাঁ সিস্টেমকে সংযুক্ত করে",
-          "icon": "স্কাউট",
+          "icon": "scout",
           "features": [
             "POS ইন্টিগ্রেশন",
             "শ্রম ব্যবস্থা",
@@ -4634,9 +4634,9 @@ export const generatedLocalCopy = {
           "colorClass": "কম্পোনেন্ট-আইকন--স্কাউট"
         },
         {
-          "name": "নাড়ি",
+          "name": "Pulse",
           "description": "এআই-চালিত অসঙ্গতি সনাক্তকরণ এবং রিয়েল-টাইম সতর্কতা সিস্টেম",
-          "icon": "নাড়ি",
+          "icon": "pulse",
           "features": [
             "অসঙ্গতি সনাক্তকরণ",
             "রিয়েল-টাইম সতর্কতা",
@@ -4648,7 +4648,7 @@ export const generatedLocalCopy = {
         {
           "name": "ফরজ",
           "description": "প্রাকৃতিক ভাষা বুদ্ধিমত্তার জন্য কথোপকথনমূলক এআই ইঞ্জিন",
-          "icon": "জাল",
+          "icon": "forge",
           "features": [
             "প্রাকৃতিক ভাষা",
             "প্রসঙ্গ বোঝা",
@@ -4658,9 +4658,9 @@ export const generatedLocalCopy = {
           "colorClass": "কম্পোনেন্ট-আইকন--ফার্জ"
         },
         {
-          "name": "ক্যানভাস",
+          "name": "Canvas",
           "description": "ডাইনামিক ভিজ্যুয়ালাইজেশন এবং ড্যাশবোর্ড ইন্টেলিজেন্স লেয়ার",
-          "icon": "ক্যানভাস",
+          "icon": "canvas",
           "features": [
             "রিয়েল-টাইম ড্যাশবোর্ড",
             "কাস্টম ভিউ",
@@ -4672,7 +4672,7 @@ export const generatedLocalCopy = {
         {
           "name": "Watchtower",
           "description": "বাজার বুদ্ধিমত্তা এবং প্রতিযোগিতামূলক বেঞ্চমার্কিং ইঞ্জিন",
-          "icon": "প্রহরী টাওয়ার",
+          "icon": "watchtower",
           "features": [
             "বাজার অন্তর্দৃষ্টি",
             "প্রতিযোগী ডেটা",
@@ -4686,17 +4686,17 @@ export const generatedLocalCopy = {
         {
           "title": "এন্ড-টু-এন্ড এনক্রিপশন",
           "description": "ট্রানজিট এবং বিশ্রামে ডেটার জন্য AES-256 এনক্রিপশন",
-          "icon": "সতর্কতা"
+          "icon": "alerts"
         },
         {
           "title": "অ্যাক্সেস কন্ট্রোল",
           "description": "মাল্টি-ফ্যাক্টর প্রমাণীকরণ সহ ভূমিকা-ভিত্তিক অ্যাক্সেস",
-          "icon": "ইন্টিগ্রেশন"
+          "icon": "integration"
         },
         {
           "title": "কমপ্লায়েন্স স্ট্যান্ডার্ড",
           "description": "SOC 2 প্রকার II, GDPR এবং CCPA অনুগত",
-          "icon": "সাফল্য"
+          "icon": "success"
         }
       ],
       "certs": [
@@ -4724,8 +4724,8 @@ export const generatedLocalCopy = {
       "engineeringCards": [
         {
           "title": "মাল্টি-এজেন্ট এআই",
-          "icon": "বুদ্ধিমত্তা",
-          "color": "বেগুনি-500 থেকে বেগুনি-600",
+          "icon": "intelligence",
+          "color": "from-purple-500 to-purple-600",
           "features": [
             "মাল্টি-এজেন্ট এআই ইঞ্জিন",
             "ক্রমাগত শেখার মডেল",
@@ -4735,8 +4735,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "রিয়েল-টাইম প্রসেসিং",
-          "icon": "গতি",
-          "color": "নীল-500 থেকে নীল-600",
+          "icon": "speed",
+          "color": "from-blue-500 to-blue-600",
           "features": [
             "রিয়েল-টাইম ডেটা প্রসেসিং",
             "সাব-সেকেন্ডের প্রতিক্রিয়া বার",
@@ -4746,8 +4746,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "ইন্টিগ্রেশন ইঞ্জিন",
-          "icon": "ইন্টিগ্রেশন",
-          "color": "সবুজ-500 থেকে সবুজ-600",
+          "icon": "integration",
+          "color": "from-green-500 to-green-600",
           "features": [
             "12-ডোমেন ডেটা সংযোগকারী",
             "RESTful API আর্কিটেকচার",
@@ -4757,8 +4757,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "ইন্টেলিজেন্স কোর",
-          "icon": "অন্তর্দৃষ্টি",
-          "color": "কমলা-500 থেকে কমলা-600",
+          "icon": "insights",
+          "color": "from-orange-500 to-orange-600",
           "features": [
             "উন্নত অ্যালগরিদম",
             "মেশিন লার্নিং মডেল",
@@ -4768,8 +4768,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "ডেলিভারি লেয়ার",
-          "icon": "ক্যানভাস",
-          "color": "সায়ান-500 থেকে সায়ান-600",
+          "icon": "canvas",
+          "color": "from-cyan-500 to-cyan-600",
           "features": [
             "ইন্টারেক্টিভ ড্যাশবোর্ড",
             "প্রাকৃতিক ভাষা প্রশ্ন",
@@ -4779,8 +4779,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "নিরাপত্তা ও শাসন",
-          "icon": "গুণমান",
-          "color": "লাল-৫০০ থেকে লাল-৬০০",
+          "icon": "quality",
+          "color": "from-red-500 to-red-600",
           "features": [
             "SOC 2 প্রকার II অনুগত",
             "এন্ড-টু-এন্ড এনক্রিপশন",
@@ -4816,37 +4816,37 @@ export const generatedLocalCopy = {
           "title": "Decision Intelligence",
           "subtitle": "Översta lagret",
           "description": "Benchmarks, insikter, prognoser, automatiserade beslut",
-          "color": "bg-gradient-to-r från-pink-500 till-rose-500",
-          "icon": "intelligens"
+          "color": "bg-gradient-to-r from-pink-500 to-rose-500",
+          "icon": "intelligence"
         },
         {
           "title": "AI-bearbetning",
           "subtitle": "Intelligenslager",
           "description": "Multi-agent AI, mönsterdetektering, anomalidetektering, resonemang",
-          "color": "bg-gradient-to-r från-skiffer-50 till-blå-50",
+          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
           "textColor": "text-[var(--text-primär)]",
-          "icon": "hastighet"
+          "icon": "speed"
         },
         {
           "title": "Databehandling",
           "subtitle": "Transformationslager",
           "description": "Rengöring, transformation, metrik logik, berikning",
-          "color": "bg-gradient-to-r från-yellow-400 till-amber-400",
+          "color": "bg-gradient-to-r from-yellow-400 to-amber-400",
           "icon": "data"
         },
         {
           "title": "Dataintegration",
           "subtitle": "Enhetsskikt",
           "description": "POS, arbetskraft, inventering, reservationer, leveransaggregatorer, sammanföring av rådata",
-          "color": "bg-gradient-to-r från-orange-500 till-amber-600",
+          "color": "bg-gradient-to-r from-orange-500 to-amber-600",
           "icon": "integration"
         },
         {
           "title": "Foundation / Infrastruktur",
           "subtitle": "Baslager",
           "description": "Säkra pipelines, API-intag, normalisering, styrning",
-          "color": "bg-gradient-to-r från-amber-700 till-orange-800",
-          "icon": "nätverk"
+          "color": "bg-gradient-to-r from-amber-700 to-orange-800",
+          "icon": "network"
         }
       ],
       "steps": [
@@ -4860,30 +4860,30 @@ export const generatedLocalCopy = {
           "step": "2",
           "title": "AI-bearbetning",
           "description": "Multi-agent AI analyserar mönster och genererar insikter",
-          "icon": "intelligens"
+          "icon": "intelligence"
         },
         {
           "step": "3",
           "title": "Intelligens leverans",
           "description": "Handlingsbara rekommendationer levererade genom språk och visualiseringar",
-          "icon": "insikter"
+          "icon": "insights"
         }
       ],
       "agents": [
         {
           "name": "Mönsteragenter",
           "description": "Identifiera återkommande driftsmönster, säsongsbetonade trender och dolda samband mellan olika platser",
-          "icon": "synlighet"
+          "icon": "visibility"
         },
         {
           "name": "Prognosagenter",
           "description": "Förutsäg försäljning, arbetsbehov, lagerkrav och operativ efterfrågan med hjälp av ML-modeller",
-          "icon": "prognoser"
+          "icon": "forecasting"
         },
         {
           "name": "Kontextagenter",
           "description": "Förstå operativa sammanhang, platsspecifikationer och affärsregler för att ge relevanta insikter",
-          "icon": "intelligens"
+          "icon": "intelligence"
         }
       ],
       "modules": [
@@ -4900,9 +4900,9 @@ export const generatedLocalCopy = {
           "colorClass": "komponent-ikon--scout"
         },
         {
-          "name": "Puls",
+          "name": "Pulse",
           "description": "AI-drivet anomalidetektering och varningssystem i realtid",
-          "icon": "puls",
+          "icon": "pulse",
           "features": [
             "Anomalidetektering",
             "Varningar i realtid",
@@ -4914,7 +4914,7 @@ export const generatedLocalCopy = {
         {
           "name": "Forge",
           "description": "Conversational AI-motor för naturlig språkintelligens",
-          "icon": "smida",
+          "icon": "forge",
           "features": [
             "Naturligt språk",
             "Kontextförståelse",
@@ -4926,7 +4926,7 @@ export const generatedLocalCopy = {
         {
           "name": "Canvas",
           "description": "Dynamisk visualisering och instrumentpanels intelligenslager",
-          "icon": "duk",
+          "icon": "canvas",
           "features": [
             "Instrumentpaneler i realtid",
             "Anpassade vyer",
@@ -4938,7 +4938,7 @@ export const generatedLocalCopy = {
         {
           "name": "Watchtower",
           "description": "Marknadsinformation och konkurrenskraftig benchmarkingmotor",
-          "icon": "vakttorn",
+          "icon": "watchtower",
           "features": [
             "Marknadsinsikter",
             "Konkurrentdata",
@@ -4952,7 +4952,7 @@ export const generatedLocalCopy = {
         {
           "title": "End-to-end-kryptering",
           "description": "AES-256-kryptering för data under överföring och vila",
-          "icon": "varningar"
+          "icon": "alerts"
         },
         {
           "title": "Åtkomstkontroll",
@@ -4962,7 +4962,7 @@ export const generatedLocalCopy = {
         {
           "title": "Överensstämmelsestandarder",
           "description": "SOC 2 Typ II, GDPR och CCPA-kompatibel",
-          "icon": "framgång"
+          "icon": "success"
         }
       ],
       "certs": [
@@ -4990,8 +4990,8 @@ export const generatedLocalCopy = {
       "engineeringCards": [
         {
           "title": "Multi-Agent AI",
-          "icon": "intelligens",
-          "color": "från-lila-500 till-lila-600",
+          "icon": "intelligence",
+          "color": "from-purple-500 to-purple-600",
           "features": [
             "Multiagent AI-motor",
             "Modeller för kontinuerligt lärande",
@@ -5001,8 +5001,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Realtidsbearbetning",
-          "icon": "hastighet",
-          "color": "från-blå-500 till-blå-600",
+          "icon": "speed",
+          "color": "from-blue-500 to-blue-600",
           "features": [
             "Databehandling i realtid",
             "Svarstider under en sekund",
@@ -5013,7 +5013,7 @@ export const generatedLocalCopy = {
         {
           "title": "Integrationsmotor",
           "icon": "integration",
-          "color": "från-grön-500 till-grön-600",
+          "color": "from-green-500 to-green-600",
           "features": [
             "12-domän dataanslutningar",
             "RESTful API-arkitektur",
@@ -5023,8 +5023,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Intelligens kärna",
-          "icon": "insikter",
-          "color": "från-orange-500 till-orange-600",
+          "icon": "insights",
+          "color": "from-orange-500 to-orange-600",
           "features": [
             "Avancerade algoritmer",
             "Maskininlärningsmodeller",
@@ -5034,8 +5034,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Leveranslager",
-          "icon": "duk",
-          "color": "från-cyan-500 till-cyan-600",
+          "icon": "canvas",
+          "color": "from-cyan-500 to-cyan-600",
           "features": [
             "Interaktiva instrumentpaneler",
             "Naturliga språkfrågor",
@@ -5045,8 +5045,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Säkerhet och styrning",
-          "icon": "kvalitet",
-          "color": "från-röd-500 till-röd-600",
+          "icon": "quality",
+          "color": "from-red-500 to-red-600",
           "features": [
             "SOC 2 Typ II-kompatibel",
             "End-to-end-kryptering",
@@ -5082,37 +5082,37 @@ export const generatedLocalCopy = {
           "title": "หน่วยสืบราชการลับในการตัดสินใจ",
           "subtitle": "ชั้นบนสุด",
           "description": "เกณฑ์มาตรฐาน ข้อมูลเชิงลึก การคาดการณ์ การตัดสินใจอัตโนมัติ",
-          "color": "bg-gradient-to-r จาก-pink-500 ถึง-rose-500",
-          "icon": "สติปัญญา"
+          "color": "bg-gradient-to-r from-pink-500 to-rose-500",
+          "icon": "intelligence"
         },
         {
           "title": "การประมวลผลเอไอ",
           "subtitle": "ชั้นสติปัญญา",
           "description": "AI หลายตัวแทน การตรวจจับรูปแบบ การตรวจจับความผิดปกติ การให้เหตุผล",
-          "color": "bg-gradient-to-r จาก-slate-50 ถึง-blue-50",
+          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
           "textColor": "ข้อความ - [var (-- ข้อความหลัก)]",
-          "icon": "ความเร็ว"
+          "icon": "speed"
         },
         {
           "title": "การประมวลผลข้อมูล",
           "subtitle": "เลเยอร์การเปลี่ยนแปลง",
           "description": "การทำความสะอาด การเปลี่ยนแปลง ตรรกะหน่วยเมตริก การเพิ่มคุณค่า",
-          "color": "bg-gradient-to-r จาก-เหลือง-400 ถึง-อำพัน-400",
-          "icon": "ข้อมูล"
+          "color": "bg-gradient-to-r from-yellow-400 to-amber-400",
+          "icon": "data"
         },
         {
           "title": "บูรณาการข้อมูล",
           "subtitle": "เลเยอร์การรวม",
           "description": "POS, แรงงาน, สินค้าคงคลัง, การจอง, ผู้รวบรวมการจัดส่ง, การรวมข้อมูลดิบ",
-          "color": "bg-gradient-to-r จาก-orange-500 ถึง-amber-600",
-          "icon": "บูรณาการ"
+          "color": "bg-gradient-to-r from-orange-500 to-amber-600",
+          "icon": "integration"
         },
         {
           "title": "รากฐาน / โครงสร้างพื้นฐาน",
           "subtitle": "ชั้นฐาน",
           "description": "ไปป์ไลน์ที่ปลอดภัย, การนำเข้า API, การทำให้เป็นมาตรฐาน, การกำกับดูแล",
-          "color": "bg-gradient-to-r จาก-amber-700 ถึง-orange-800",
-          "icon": "เครือข่าย"
+          "color": "bg-gradient-to-r from-amber-700 to-orange-800",
+          "icon": "network"
         }
       ],
       "steps": [
@@ -5120,43 +5120,43 @@ export const generatedLocalCopy = {
           "step": "1",
           "title": "การรวบรวมข้อมูล",
           "description": "Scout เชื่อมต่อกับระบบร้านอาหารมากกว่า 30 ระบบใน 12 โดเมนข้อมูลและแหล่งข้อมูลภายนอก",
-          "icon": "บูรณาการ"
+          "icon": "integration"
         },
         {
           "step": "2",
           "title": "การประมวลผลเอไอ",
           "description": "AI หลายตัวแทนวิเคราะห์รูปแบบและสร้างข้อมูลเชิงลึก",
-          "icon": "สติปัญญา"
+          "icon": "intelligence"
         },
         {
           "step": "3",
           "title": "การจัดส่งข่าวกรอง",
           "description": "คำแนะนำที่สามารถนำไปปฏิบัติได้ผ่านทางภาษาและการแสดงภาพ",
-          "icon": "ข้อมูลเชิงลึก"
+          "icon": "insights"
         }
       ],
       "agents": [
         {
           "name": "ตัวแทนรูปแบบ",
           "description": "ระบุรูปแบบการดำเนินงานที่เกิดซ้ำ แนวโน้มตามฤดูกาล และความสัมพันธ์ที่ซ่อนอยู่ในสถานที่ต่างๆ",
-          "icon": "การมองเห็น"
+          "icon": "visibility"
         },
         {
           "name": "ตัวแทนพยากรณ์",
           "description": "คาดการณ์ยอดขาย ความต้องการแรงงาน ความต้องการสินค้าคงคลัง และความต้องการในการดำเนินงานโดยใช้โมเดล ML",
-          "icon": "การพยากรณ์"
+          "icon": "forecasting"
         },
         {
           "name": "ตัวแทนบริบท",
           "description": "ทำความเข้าใจบริบทการปฏิบัติงาน เฉพาะสถานที่ และกฎเกณฑ์ทางธุรกิจเพื่อให้ข้อมูลเชิงลึกที่เกี่ยวข้อง",
-          "icon": "สติปัญญา"
+          "icon": "intelligence"
         }
       ],
       "modules": [
         {
-          "name": "ลูกเสือ",
+          "name": "Scout",
           "description": "เลเยอร์การรวมข้อมูลแบบสากลที่เชื่อมต่อระบบร้านอาหารมากกว่า 30 ระบบใน 12 โดเมนข้อมูล",
-          "icon": "ลูกเสือ",
+          "icon": "scout",
           "features": [
             "บูรณาการ POS",
             "ระบบแรงงาน",
@@ -5166,9 +5166,9 @@ export const generatedLocalCopy = {
           "colorClass": "องค์ประกอบไอคอน - ลูกเสือ"
         },
         {
-          "name": "ชีพจร",
+          "name": "Pulse",
           "description": "การตรวจจับความผิดปกติที่ขับเคลื่อนด้วย AI และระบบแจ้งเตือนแบบเรียลไทม์",
-          "icon": "ชีพจร",
+          "icon": "pulse",
           "features": [
             "การตรวจจับความผิดปกติ",
             "การแจ้งเตือนแบบเรียลไทม์",
@@ -5180,7 +5180,7 @@ export const generatedLocalCopy = {
         {
           "name": "ฟอร์จ",
           "description": "กลไกการสนทนา AI เพื่อความฉลาดทางภาษาธรรมชาติ",
-          "icon": "ปลอมแปลง",
+          "icon": "forge",
           "features": [
             "ภาษาธรรมชาติ",
             "ความเข้าใจบริบท",
@@ -5190,9 +5190,9 @@ export const generatedLocalCopy = {
           "colorClass": "องค์ประกอบไอคอน--ปลอมแปลง"
         },
         {
-          "name": "ผ้าใบ",
+          "name": "Canvas",
           "description": "การแสดงภาพแบบไดนามิกและชั้นข้อมูลแดชบอร์ดอัจฉริยะ",
-          "icon": "ผ้าใบ",
+          "icon": "canvas",
           "features": [
             "แดชบอร์ดแบบเรียลไทม์",
             "มุมมองที่กำหนดเอง",
@@ -5204,7 +5204,7 @@ export const generatedLocalCopy = {
         {
           "name": "Watchtower",
           "description": "ข้อมูลตลาดและเครื่องมือเปรียบเทียบการแข่งขัน",
-          "icon": "หอสังเกตการณ์",
+          "icon": "watchtower",
           "features": [
             "ข้อมูลเชิงลึกของตลาด",
             "ข้อมูลคู่แข่ง",
@@ -5218,17 +5218,17 @@ export const generatedLocalCopy = {
         {
           "title": "การเข้ารหัสจากต้นทางถึงปลายทาง",
           "description": "การเข้ารหัส AES-256 สำหรับข้อมูลระหว่างทางและที่เหลือ",
-          "icon": "การแจ้งเตือน"
+          "icon": "alerts"
         },
         {
           "title": "การควบคุมการเข้าถึง",
           "description": "การเข้าถึงตามบทบาทพร้อมการรับรองความถูกต้องแบบหลายปัจจัย",
-          "icon": "บูรณาการ"
+          "icon": "integration"
         },
         {
           "title": "มาตรฐานการปฏิบัติตาม",
           "description": "เป็นไปตาม SOC 2 Type II, GDPR และ CCPA",
-          "icon": "ความสำเร็จ"
+          "icon": "success"
         }
       ],
       "certs": [
@@ -5256,8 +5256,8 @@ export const generatedLocalCopy = {
       "engineeringCards": [
         {
           "title": "AI หลายตัวแทน",
-          "icon": "สติปัญญา",
-          "color": "จาก-ม่วง-500 ถึง-ม่วง-600",
+          "icon": "intelligence",
+          "color": "from-purple-500 to-purple-600",
           "features": [
             "เอ็นจิ้น AI หลายตัวแทน",
             "รูปแบบการเรียนรู้อย่างต่อเนื่อง",
@@ -5267,8 +5267,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "การประมวลผลแบบเรียลไทม์",
-          "icon": "ความเร็ว",
-          "color": "จาก-น้ำเงิน-500 ถึง-น้ำเงิน-600",
+          "icon": "speed",
+          "color": "from-blue-500 to-blue-600",
           "features": [
             "การประมวลผลข้อมูลแบบเรียลไทม์",
             "เวลาตอบสนองรองวินาที",
@@ -5278,8 +5278,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "เครื่องยนต์บูรณาการ",
-          "icon": "บูรณาการ",
-          "color": "จาก-เขียว-500 ถึง-เขียว-600",
+          "icon": "integration",
+          "color": "from-green-500 to-green-600",
           "features": [
             "ตัวเชื่อมต่อข้อมูล 12 โดเมน",
             "สถาปัตยกรรม RESTful API",
@@ -5289,8 +5289,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "แกนข่าวกรอง",
-          "icon": "ข้อมูลเชิงลึก",
-          "color": "จากสีส้ม-500 ถึงสีส้ม-600",
+          "icon": "insights",
+          "color": "from-orange-500 to-orange-600",
           "features": [
             "อัลกอริธึมขั้นสูง",
             "โมเดลการเรียนรู้ของเครื่อง",
@@ -5300,8 +5300,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "ชั้นจัดส่ง",
-          "icon": "ผ้าใบ",
-          "color": "จาก-cyan-500 ถึง-cyan-600",
+          "icon": "canvas",
+          "color": "from-cyan-500 to-cyan-600",
           "features": [
             "แดชบอร์ดแบบโต้ตอบ",
             "แบบสอบถามภาษาธรรมชาติ",
@@ -5311,8 +5311,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "การรักษาความปลอดภัยและการกำกับดูแล",
-          "icon": "คุณภาพ",
-          "color": "จาก-แดง-500 ถึง-แดง-600",
+          "icon": "quality",
+          "color": "from-red-500 to-red-600",
           "features": [
             "สอดคล้องตามมาตรฐาน SOC 2 ประเภท II",
             "การเข้ารหัสจากต้นทางถึงปลายทาง",
@@ -5348,8 +5348,8 @@ export const generatedLocalCopy = {
           "title": "Kepintaran Keputusan",
           "subtitle": "Lapisan Atas",
           "description": "Penanda aras, cerapan, ramalan, keputusan automatik",
-          "color": "bg-kecerunan-ke-r daripada-merah jambu-500 kepada-mawar-500",
-          "icon": "kecerdasan"
+          "color": "bg-gradient-to-r from-pink-500 to-rose-500",
+          "icon": "intelligence"
         },
         {
           "title": "Pemprosesan AI",
@@ -5357,28 +5357,28 @@ export const generatedLocalCopy = {
           "description": "AI berbilang ejen, pengesanan corak, pengesanan anomali, penaakulan",
           "color": "bg-gradient-to-r from-slate-50 to-blue-50",
           "textColor": "teks-[var(--teks-utama)]",
-          "icon": "kelajuan"
+          "icon": "speed"
         },
         {
           "title": "Pemprosesan Data",
           "subtitle": "Lapisan Transformasi",
           "description": "Pembersihan, transformasi, logik metrik, pengayaan",
-          "color": "bg-gradient-to-r daripada-kuning-400 kepada-amber-400",
+          "color": "bg-gradient-to-r from-yellow-400 to-amber-400",
           "icon": "data"
         },
         {
           "title": "Penyepaduan Data",
           "subtitle": "Lapisan Penyatuan",
           "description": "POS, buruh, inventori, tempahan, agregator penghantaran, penyatuan data mentah",
-          "color": "bg-gradient-to-r from-oren-500 to-amber-600",
-          "icon": "integrasi"
+          "color": "bg-gradient-to-r from-orange-500 to-amber-600",
+          "icon": "integration"
         },
         {
           "title": "Yayasan / Infrastruktur",
           "subtitle": "Lapisan asas",
           "description": "Talian paip selamat, pengingesan API, normalisasi, tadbir urus",
-          "color": "bg-gradient-to-r from-amber-700 to-oren-800",
-          "icon": "rangkaian"
+          "color": "bg-gradient-to-r from-amber-700 to-orange-800",
+          "icon": "network"
         }
       ],
       "steps": [
@@ -5386,43 +5386,43 @@ export const generatedLocalCopy = {
           "step": "1",
           "title": "Pengumpulan Data",
           "description": "Scout menyambung kepada 30+ sistem restoran merentas 12 domain data dan sumber luaran",
-          "icon": "integrasi"
+          "icon": "integration"
         },
         {
           "step": "2",
           "title": "Pemprosesan AI",
           "description": "AI berbilang ejen menganalisis corak dan menjana cerapan",
-          "icon": "kecerdasan"
+          "icon": "intelligence"
         },
         {
           "step": "3",
           "title": "Penyampaian Perisikan",
           "description": "Pengesyoran boleh diambil tindakan disampaikan melalui bahasa dan visualisasi",
-          "icon": "pandangan"
+          "icon": "insights"
         }
       ],
       "agents": [
         {
           "name": "Agen Corak",
           "description": "Kenal pasti corak operasi berulang, aliran bermusim dan korelasi tersembunyi merentas lokasi",
-          "icon": "keterlihatan"
+          "icon": "visibility"
         },
         {
           "name": "Agen Ramalan",
           "description": "Ramalkan jualan, keperluan buruh, keperluan inventori dan permintaan operasi menggunakan model ML",
-          "icon": "peramalan"
+          "icon": "forecasting"
         },
         {
           "name": "Agen Konteks",
           "description": "Fahami konteks operasi, spesifik lokasi dan peraturan perniagaan untuk memberikan cerapan yang berkaitan",
-          "icon": "kecerdasan"
+          "icon": "intelligence"
         }
       ],
       "modules": [
         {
-          "name": "Pengakap",
+          "name": "Scout",
           "description": "Lapisan integrasi data universal yang menghubungkan 30+ sistem restoran merentas 12 domain data",
-          "icon": "pengakap",
+          "icon": "scout",
           "features": [
             "Integrasi POS",
             "Sistem Buruh",
@@ -5432,9 +5432,9 @@ export const generatedLocalCopy = {
           "colorClass": "ikon komponen--pengakap"
         },
         {
-          "name": "nadi",
+          "name": "Pulse",
           "description": "Pengesanan anomali dikuasakan AI dan sistem amaran masa nyata",
-          "icon": "nadi",
+          "icon": "pulse",
           "features": [
             "Pengesanan Anomali",
             "Makluman masa nyata",
@@ -5446,7 +5446,7 @@ export const generatedLocalCopy = {
         {
           "name": "Tempa",
           "description": "Enjin AI perbualan untuk kecerdasan bahasa semula jadi",
-          "icon": "memalsukan",
+          "icon": "forge",
           "features": [
             "Bahasa Semulajadi",
             "Pemahaman Konteks",
@@ -5456,9 +5456,9 @@ export const generatedLocalCopy = {
           "colorClass": "ikon komponen--memalsukan"
         },
         {
-          "name": "Kanvas",
+          "name": "Canvas",
           "description": "Visualisasi dinamik dan lapisan kecerdasan papan pemuka",
-          "icon": "kanvas",
+          "icon": "canvas",
           "features": [
             "Papan Pemuka masa nyata",
             "Pandangan Tersuai",
@@ -5470,7 +5470,7 @@ export const generatedLocalCopy = {
         {
           "name": "Watchtower",
           "description": "Perisikan pasaran dan enjin penanda aras kompetitif",
-          "icon": "menara pengawas",
+          "icon": "watchtower",
           "features": [
             "Cerapan Pasaran",
             "Data Pesaing",
@@ -5484,17 +5484,17 @@ export const generatedLocalCopy = {
         {
           "title": "Penyulitan Hujung ke Hujung",
           "description": "Penyulitan AES-256 untuk data dalam transit dan dalam keadaan rehat",
-          "icon": "makluman"
+          "icon": "alerts"
         },
         {
           "title": "Kawalan Akses",
           "description": "Akses berasaskan peranan dengan pengesahan berbilang faktor",
-          "icon": "integrasi"
+          "icon": "integration"
         },
         {
           "title": "Piawaian Pematuhan",
           "description": "SOC 2 Type II, GDPR dan patuh CCPA",
-          "icon": "kejayaan"
+          "icon": "success"
         }
       ],
       "certs": [
@@ -5522,8 +5522,8 @@ export const generatedLocalCopy = {
       "engineeringCards": [
         {
           "title": "AI Berbilang Ejen",
-          "icon": "kecerdasan",
-          "color": "dari-ungu-500 kepada-ungu-600",
+          "icon": "intelligence",
+          "color": "from-purple-500 to-purple-600",
           "features": [
             "Enjin AI berbilang ejen",
             "Model pembelajaran berterusan",
@@ -5533,8 +5533,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Pemprosesan Masa Nyata",
-          "icon": "kelajuan",
-          "color": "dari-biru-500 kepada-biru-600",
+          "icon": "speed",
+          "color": "from-blue-500 to-blue-600",
           "features": [
             "Pemprosesan data masa nyata",
             "Masa tindak balas subsaat",
@@ -5544,8 +5544,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Enjin Integrasi",
-          "icon": "integrasi",
-          "color": "dari-hijau-500 kepada-hijau-600",
+          "icon": "integration",
+          "color": "from-green-500 to-green-600",
           "features": [
             "Penyambung data 12 domain",
             "Seni bina API RESTful",
@@ -5555,8 +5555,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Teras Perisikan",
-          "icon": "pandangan",
-          "color": "daripada-oren-500 kepada-oren-600",
+          "icon": "insights",
+          "color": "from-orange-500 to-orange-600",
           "features": [
             "Algoritma lanjutan",
             "Model pembelajaran mesin",
@@ -5566,8 +5566,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Lapisan Penghantaran",
-          "icon": "kanvas",
-          "color": "dari-cyan-500 kepada-cyan-600",
+          "icon": "canvas",
+          "color": "from-cyan-500 to-cyan-600",
           "features": [
             "Papan pemuka interaktif",
             "Pertanyaan bahasa semula jadi",
@@ -5577,8 +5577,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Keselamatan & Tadbir Urus",
-          "icon": "kualiti",
-          "color": "dari-merah-500 kepada-merah-600",
+          "icon": "quality",
+          "color": "from-red-500 to-red-600",
           "features": [
             "patuh SOC 2 Jenis II",
             "Penyulitan hujung ke hujung",

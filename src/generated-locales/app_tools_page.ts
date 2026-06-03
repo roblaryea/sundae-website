@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/app/tools/page.tsx.
-// Do not edit by hand; regenerate from the English local copy source.
+// Structural fields normalized from English source; review prose translations before release.
 export const generatedLocalCopy = {
   "localizedCopy": {
     "de": {
@@ -13,7 +13,7 @@ export const generatedLocalCopy = {
           "title": "Arbeitskosten % Rechner",
           "description": "Berechnen Sie Ihren Arbeitskostenanteil und sehen Sie, ob Sie im Vergleich zu den Branchenstandards im Zielbereich liegen.",
           "icon": "labor",
-          "href": "/tools/labor-cost",
+          "href": "/tools/daypart-margin-leak",
           "features": [
             "Arbeitskosten %",
             "Zielbenchmarks",
@@ -24,8 +24,8 @@ export const generatedLocalCopy = {
         {
           "title": "Arbeitskostenabweichungsanalysator",
           "description": "Vergleichen Sie die tatsächlichen Arbeitskosten mit den Zielen und erhalten Sie umsetzbare Einblicke in Abweichungen.",
-          "icon": "labor",
-          "href": "/tools/labor-analyzer",
+          "icon": "performance",
+          "href": "/tools/upsell-opportunity-index",
           "features": [
             "Abweichungsanalyse",
             "Zielvergleich",
@@ -36,8 +36,8 @@ export const generatedLocalCopy = {
         {
           "title": "Menüartikel-Margenrechner",
           "description": "Analysieren Sie die Rentabilität von Menüartikeln mit Margenberechnungen und Preisempfehlungen.",
-          "icon": "menu",
-          "href": "/tools/menu-margin",
+          "icon": "labor",
+          "href": "/tools/labor-cost",
           "features": [
             "Bruttogewinn",
             "Marge %",
@@ -48,8 +48,8 @@ export const generatedLocalCopy = {
         {
           "title": "Break-Even Covers Rechner",
           "description": "Berechnen Sie, wie viele Gäste Sie benötigen, um die Gewinnschwelle basierend auf fixen und variablen Kosten zu erreichen.",
-          "icon": "balance",
-          "href": "/tools/breakeven-covers",
+          "icon": "labor",
+          "href": "/tools/labor-analyzer",
           "features": [
             "Gewinnschwelle",
             "Deckungsbeitrag",
@@ -60,8 +60,8 @@ export const generatedLocalCopy = {
         {
           "title": "Benchmark-Bereitschaftsbewertung",
           "description": "Bewerten Sie die Bereitschaft Ihrer Organisation für Benchmarking und Leistungsüberwachung.",
-          "icon": "document",
-          "href": "/tools/benchmark-readiness",
+          "icon": "menu",
+          "href": "/tools/menu-margin",
           "features": [
             "Bereitschaftspunktzahl",
             "Lückenanalyse",
@@ -72,8 +72,8 @@ export const generatedLocalCopy = {
         {
           "title": "Multi-Standorte Umsatzsteigerungsrechner",
           "description": "Berechnen Sie die potenziellen Umsatzwirkungen von operativen Verbesserungen an mehreren Standorten.",
-          "icon": "performance",
-          "href": "/tools/multi-location-uplift",
+          "icon": "balance",
+          "href": "/tools/breakeven-covers",
           "features": [
             "Umsatzprognose",
             "Standortbezogene Auswirkungen",
@@ -100,7 +100,7 @@ export const generatedLocalCopy = {
           "title": "Calculateur de % de Coût de Main-d'œuvre",
           "description": "Calculez votre pourcentage de coût de main-d'œuvre et vérifiez si vous êtes dans les normes de l'industrie.",
           "icon": "labor",
-          "href": "/tools/labor-cost",
+          "href": "/tools/daypart-margin-leak",
           "features": [
             "% de coût de main-d'œuvre",
             "Normes cibles",
@@ -111,8 +111,8 @@ export const generatedLocalCopy = {
         {
           "title": "Analyseur de Variance de Main-d'œuvre",
           "description": "Comparez les coûts de main-d'œuvre réels par rapport aux cibles et obtenez des informations exploitables sur la variance.",
-          "icon": "labor",
-          "href": "/tools/labor-analyzer",
+          "icon": "performance",
+          "href": "/tools/upsell-opportunity-index",
           "features": [
             "Analyse de variance",
             "Comparaison des cibles",
@@ -123,8 +123,8 @@ export const generatedLocalCopy = {
         {
           "title": "Calculateur de Marge d'Article de Menu",
           "description": "Analysez la rentabilité des articles de menu avec des calculs de marge et des recommandations de prix.",
-          "icon": "menu",
-          "href": "/tools/menu-margin",
+          "icon": "labor",
+          "href": "/tools/labor-cost",
           "features": [
             "Bénéfice brut",
             "% de marge",
@@ -135,8 +135,8 @@ export const generatedLocalCopy = {
         {
           "title": "Calculateur de Couvert de Seuil de Rentabilité",
           "description": "Calculez combien de couverts vous devez pour atteindre le seuil de rentabilité en fonction des coûts fixes et variables.",
-          "icon": "balance",
-          "href": "/tools/breakeven-covers",
+          "icon": "labor",
+          "href": "/tools/labor-analyzer",
           "features": [
             "Point de seuil de rentabilité",
             "Marge de contribution",
@@ -147,8 +147,8 @@ export const generatedLocalCopy = {
         {
           "title": "Évaluation de Préparation au Benchmarking",
           "description": "Évaluez la préparation de votre organisation pour le benchmarking et le suivi des performances.",
-          "icon": "document",
-          "href": "/tools/benchmark-readiness",
+          "icon": "menu",
+          "href": "/tools/menu-margin",
           "features": [
             "Score de préparation",
             "Analyse des écarts",
@@ -159,8 +159,8 @@ export const generatedLocalCopy = {
         {
           "title": "Estimateur d'Amélioration Multi-Emplacements",
           "description": "Calculez l'impact potentiel des revenus des améliorations opérationnelles dans plusieurs emplacements.",
-          "icon": "performance",
-          "href": "/tools/multi-location-uplift",
+          "icon": "balance",
+          "href": "/tools/breakeven-covers",
           "features": [
             "Projection de revenus",
             "Impact par emplacement",
@@ -187,7 +187,7 @@ export const generatedLocalCopy = {
           "title": "Calculadora de % de Costo Laboral",
           "description": "Calcula tu porcentaje de costo laboral y verifica si estás en línea con los estándares de la industria.",
           "icon": "labor",
-          "href": "/tools/labor-cost",
+          "href": "/tools/daypart-margin-leak",
           "features": [
             "% de costo laboral",
             "Referencias objetivo",
@@ -198,8 +198,8 @@ export const generatedLocalCopy = {
         {
           "title": "Analizador de Variación Laboral",
           "description": "Compara los costos laborales reales con los objetivos y obtén información útil sobre la variación.",
-          "icon": "labor",
-          "href": "/tools/labor-analyzer",
+          "icon": "performance",
+          "href": "/tools/upsell-opportunity-index",
           "features": [
             "Análisis de variación",
             "Comparación de objetivos",
@@ -210,8 +210,8 @@ export const generatedLocalCopy = {
         {
           "title": "Calculadora de Margen de Artículo del Menú",
           "description": "Analiza la rentabilidad de los artículos del menú con cálculos de margen y recomendaciones de precios.",
-          "icon": "menu",
-          "href": "/tools/menu-margin",
+          "icon": "labor",
+          "href": "/tools/labor-cost",
           "features": [
             "Beneficio bruto",
             "% de margen",
@@ -222,8 +222,8 @@ export const generatedLocalCopy = {
         {
           "title": "Calculadora de Cubiertos para Punto de Equilibrio",
           "description": "Calcula cuántos cubiertos necesitas para alcanzar el punto de equilibrio según costos fijos y variables.",
-          "icon": "balance",
-          "href": "/tools/breakeven-covers",
+          "icon": "labor",
+          "href": "/tools/labor-analyzer",
           "features": [
             "Punto de equilibrio",
             "Margen de contribución",
@@ -234,8 +234,8 @@ export const generatedLocalCopy = {
         {
           "title": "Evaluación de Preparación para Benchmarking",
           "description": "Evalúa la preparación de tu organización para el benchmarking y el seguimiento del rendimiento.",
-          "icon": "document",
-          "href": "/tools/benchmark-readiness",
+          "icon": "menu",
+          "href": "/tools/menu-margin",
           "features": [
             "Puntuación de preparación",
             "Análisis de brechas",
@@ -246,8 +246,8 @@ export const generatedLocalCopy = {
         {
           "title": "Estimador de Incremento Multi-Sucursal",
           "description": "Calcula el impacto potencial en los ingresos de las mejoras operativas en múltiples sucursales.",
-          "icon": "performance",
-          "href": "/tools/multi-location-uplift",
+          "icon": "balance",
+          "href": "/tools/breakeven-covers",
           "features": [
             "Proyección de ingresos",
             "Impacto por sucursal",
@@ -274,7 +274,7 @@ export const generatedLocalCopy = {
           "title": "Arbeidskosten % Calculator",
           "description": "Bereken uw arbeidskostenpercentage en zie of u op koers ligt vergeleken met de industrienormen.",
           "icon": "labor",
-          "href": "/tools/labor-cost",
+          "href": "/tools/daypart-margin-leak",
           "features": [
             "Arbeidskosten %",
             "Doel benchmarks",
@@ -285,8 +285,8 @@ export const generatedLocalCopy = {
         {
           "title": "Arbeidsvariantie Analyzer",
           "description": "Vergelijk werkelijke arbeidskosten met doelstellingen en krijg bruikbare inzichten over variaties.",
-          "icon": "labor",
-          "href": "/tools/labor-analyzer",
+          "icon": "performance",
+          "href": "/tools/upsell-opportunity-index",
           "features": [
             "Variantieanalyse",
             "Doelvergelijking",
@@ -297,8 +297,8 @@ export const generatedLocalCopy = {
         {
           "title": "Menu-item Marge Calculator",
           "description": "Analyseer de winstgevendheid van menu-items met margecalculaties en prijsaanbevelingen.",
-          "icon": "menu",
-          "href": "/tools/menu-margin",
+          "icon": "labor",
+          "href": "/tools/labor-cost",
           "features": [
             "Brutowinst",
             "Marge %",
@@ -309,8 +309,8 @@ export const generatedLocalCopy = {
         {
           "title": "Break-Even Covers Calculator",
           "description": "Bereken hoeveel covers u nodig heeft om break-even te draaien op basis van vaste en variabele kosten.",
-          "icon": "balance",
-          "href": "/tools/breakeven-covers",
+          "icon": "labor",
+          "href": "/tools/labor-analyzer",
           "features": [
             "Break-even punt",
             "Bijdragemarge",
@@ -321,8 +321,8 @@ export const generatedLocalCopy = {
         {
           "title": "Benchmark Gereedheidsbeoordeling",
           "description": "Evalueer de gereedheid van uw organisatie voor benchmarking en prestatiemonitoring.",
-          "icon": "document",
-          "href": "/tools/benchmark-readiness",
+          "icon": "menu",
+          "href": "/tools/menu-margin",
           "features": [
             "Gereedheidsscore",
             "Kloofanalyse",
@@ -333,8 +333,8 @@ export const generatedLocalCopy = {
         {
           "title": "Multi-Locatie Uplift Schatter",
           "description": "Bereken de potentiële impact op de omzet van operationele verbeteringen op meerdere locaties.",
-          "icon": "performance",
-          "href": "/tools/multi-location-uplift",
+          "icon": "balance",
+          "href": "/tools/breakeven-covers",
           "features": [
             "Omzetprojectie",
             "Impact per locatie",
@@ -361,7 +361,7 @@ export const generatedLocalCopy = {
           "title": "Calculadora de % de Custo de Mão de Obra",
           "description": "Calcule a porcentagem do seu custo de mão de obra e veja se está dentro da meta em comparação com os padrões do setor.",
           "icon": "labor",
-          "href": "/tools/labor-cost",
+          "href": "/tools/daypart-margin-leak",
           "features": [
             "% de custo de mão de obra",
             "Referências de meta",
@@ -372,8 +372,8 @@ export const generatedLocalCopy = {
         {
           "title": "Analisador de Variação de Mão de Obra",
           "description": "Compare os custos reais de mão de obra com as metas e obtenha insights acionáveis sobre a variação.",
-          "icon": "labor",
-          "href": "/tools/labor-analyzer",
+          "icon": "performance",
+          "href": "/tools/upsell-opportunity-index",
           "features": [
             "Análise de variação",
             "Comparação de metas",
@@ -384,8 +384,8 @@ export const generatedLocalCopy = {
         {
           "title": "Calculadora de Margem de Item do Menu",
           "description": "Analise a lucratividade dos itens do menu com cálculos de margem e recomendações de preços.",
-          "icon": "menu",
-          "href": "/tools/menu-margin",
+          "icon": "labor",
+          "href": "/tools/labor-cost",
           "features": [
             "Lucro bruto",
             "Margem %",
@@ -396,8 +396,8 @@ export const generatedLocalCopy = {
         {
           "title": "Calculadora de Coberturas para Ponto de Equilíbrio",
           "description": "Calcule quantas coberturas você precisa para atingir o ponto de equilíbrio com base nos custos fixos e variáveis.",
-          "icon": "balance",
-          "href": "/tools/breakeven-covers",
+          "icon": "labor",
+          "href": "/tools/labor-analyzer",
           "features": [
             "Ponto de equilíbrio",
             "Margem de contribuição",
@@ -408,8 +408,8 @@ export const generatedLocalCopy = {
         {
           "title": "Avaliação de Prontidão para Benchmarking",
           "description": "Avalie a prontidão da sua organização para benchmarking e acompanhamento de desempenho.",
-          "icon": "document",
-          "href": "/tools/benchmark-readiness",
+          "icon": "menu",
+          "href": "/tools/menu-margin",
           "features": [
             "Pontuação de prontidão",
             "Análise de lacunas",
@@ -420,8 +420,8 @@ export const generatedLocalCopy = {
         {
           "title": "Estimador de Aumento Multi-localização",
           "description": "Calcule o impacto potencial na receita de melhorias operacionais em várias localizações.",
-          "icon": "performance",
-          "href": "/tools/multi-location-uplift",
+          "icon": "balance",
+          "href": "/tools/breakeven-covers",
           "features": [
             "Projeção de receita",
             "Impacto por local",
@@ -448,7 +448,7 @@ export const generatedLocalCopy = {
           "title": "حاسبة نسبة تكلفة العمالة",
           "description": "احسب نسبة تكلفة العمالة لديك وتحقق مما إذا كنت على المسار الصحيح مقارنة بالمعايير الصناعية.",
           "icon": "labor",
-          "href": "/tools/labor-cost",
+          "href": "/tools/daypart-margin-leak",
           "features": [
             "نسبة تكلفة العمالة",
             "معايير مستهدفة",
@@ -459,8 +459,8 @@ export const generatedLocalCopy = {
         {
           "title": "محلل تباين العمالة",
           "description": "قارن بين تكاليف العمالة الفعلية والأهداف واحصل على رؤى قابلة للتنفيذ حول التباين.",
-          "icon": "labor",
-          "href": "/tools/labor-analyzer",
+          "icon": "performance",
+          "href": "/tools/upsell-opportunity-index",
           "features": [
             "تحليل التباين",
             "مقارنة الأهداف",
@@ -471,8 +471,8 @@ export const generatedLocalCopy = {
         {
           "title": "حاسبة هامش عناصر القائمة",
           "description": "حلل ربحية عناصر القائمة مع حسابات الهامش وتوصيات التسعير.",
-          "icon": "menu",
-          "href": "/tools/menu-margin",
+          "icon": "labor",
+          "href": "/tools/labor-cost",
           "features": [
             "الربح الإجمالي",
             "نسبة الهامش",
@@ -483,8 +483,8 @@ export const generatedLocalCopy = {
         {
           "title": "حاسبة عدد الزبائن لنقطة التعادل",
           "description": "احسب عدد الزبائن الذين تحتاجهم للوصول إلى نقطة التعادل بناءً على التكاليف الثابتة والمتغيرة.",
-          "icon": "balance",
-          "href": "/tools/breakeven-covers",
+          "icon": "labor",
+          "href": "/tools/labor-analyzer",
           "features": [
             "نقطة التعادل",
             "هامش المساهمة",
@@ -495,8 +495,8 @@ export const generatedLocalCopy = {
         {
           "title": "تقييم جاهزية المعايير",
           "description": "قيم جاهزية مؤسستك للمعايير وتتبع الأداء.",
-          "icon": "document",
-          "href": "/tools/benchmark-readiness",
+          "icon": "menu",
+          "href": "/tools/menu-margin",
           "features": [
             "درجة الجاهزية",
             "تحليل الفجوات",
@@ -507,8 +507,8 @@ export const generatedLocalCopy = {
         {
           "title": "مقدر زيادة الإيرادات متعددة المواقع",
           "description": "احسب التأثير المحتمل للإيرادات من تحسينات العمليات عبر مواقع متعددة.",
-          "icon": "performance",
-          "href": "/tools/multi-location-uplift",
+          "icon": "balance",
+          "href": "/tools/breakeven-covers",
           "features": [
             "توقع الإيرادات",
             "التأثير لكل موقع",
@@ -535,7 +535,7 @@ export const generatedLocalCopy = {
           "title": "لیبر خرچ % کیلکولیٹر",
           "description": "اپنے لیبر خرچ کی فیصد کا حساب لگائیں اور دیکھیں کہ آیا آپ صنعت کے معیارات کے مقابلے میں ہدف پر ہیں۔",
           "icon": "labor",
-          "href": "/tools/labor-cost",
+          "href": "/tools/daypart-margin-leak",
           "features": [
             "لیبر خرچ %",
             "ہدف کے معیار",
@@ -546,8 +546,8 @@ export const generatedLocalCopy = {
         {
           "title": "لیبر ویرینس تجزیہ کار",
           "description": "حقیقی لیبر خرچوں کا ہدف کے ساتھ موازنہ کریں اور ویرینس پر عملی بصیرت حاصل کریں۔",
-          "icon": "labor",
-          "href": "/tools/labor-analyzer",
+          "icon": "performance",
+          "href": "/tools/upsell-opportunity-index",
           "features": [
             "ویرینس تجزیہ",
             "ہدف کا موازنہ",
@@ -558,8 +558,8 @@ export const generatedLocalCopy = {
         {
           "title": "مینیو آئٹم مارجن کیلکولیٹر",
           "description": "مارجن کے حسابات اور قیمتوں کی تجاویز کے ساتھ مینیو آئٹم کی منافعیت کا تجزیہ کریں۔",
-          "icon": "menu",
-          "href": "/tools/menu-margin",
+          "icon": "labor",
+          "href": "/tools/labor-cost",
           "features": [
             "مجموعی منافع",
             "مارجن %",
@@ -570,8 +570,8 @@ export const generatedLocalCopy = {
         {
           "title": "بریک ایون کوریج کیلکولیٹر",
           "description": "یہ حساب لگائیں کہ آپ کو بریک ایون ہونے کے لیے کتنی کوریج کی ضرورت ہے، مقررہ اور متغیر خرچوں کی بنیاد پر۔",
-          "icon": "balance",
-          "href": "/tools/breakeven-covers",
+          "icon": "labor",
+          "href": "/tools/labor-analyzer",
           "features": [
             "بریک ایون پوائنٹ",
             "شراکت مارجن",
@@ -582,8 +582,8 @@ export const generatedLocalCopy = {
         {
           "title": "بینچ مارک تیاری کا جائزہ",
           "description": "اپنی تنظیم کی بینچ مارکنگ اور کارکردگی کی نگرانی کے لیے تیاری کا جائزہ لیں۔",
-          "icon": "document",
-          "href": "/tools/benchmark-readiness",
+          "icon": "menu",
+          "href": "/tools/menu-margin",
           "features": [
             "تیاری کا اسکور",
             "خلا کا تجزیہ",
@@ -594,8 +594,8 @@ export const generatedLocalCopy = {
         {
           "title": "کئی مقامات کے لیے اضافہ کا تخمینہ",
           "description": "کئی مقامات پر آپریشنل بہتریوں کے ممکنہ آمدنی کے اثر کا حساب لگائیں۔",
-          "icon": "performance",
-          "href": "/tools/multi-location-uplift",
+          "icon": "balance",
+          "href": "/tools/breakeven-covers",
           "features": [
             "آمدنی کی پیش گوئی",
             "فی مقام اثر",
@@ -622,7 +622,7 @@ export const generatedLocalCopy = {
           "title": "श्रम लागत % कैलकुलेटर",
           "description": "अपनी श्रम लागत प्रतिशत की गणना करें और देखें कि क्या आप उद्योग मानकों की तुलना में लक्ष्य पर हैं।",
           "icon": "labor",
-          "href": "/tools/labor-cost",
+          "href": "/tools/daypart-margin-leak",
           "features": [
             "श्रम लागत %",
             "लक्ष्य बेंचमार्क",
@@ -633,8 +633,8 @@ export const generatedLocalCopy = {
         {
           "title": "श्रम भिन्नता विश्लेषक",
           "description": "लक्षित श्रम लागत की तुलना वास्तविक श्रम लागत से करें और भिन्नता पर कार्रवाई योग्य अंतर्दृष्टि प्राप्त करें।",
-          "icon": "labor",
-          "href": "/tools/labor-analyzer",
+          "icon": "performance",
+          "href": "/tools/upsell-opportunity-index",
           "features": [
             "भिन्नता विश्लेषण",
             "लक्ष्य तुलना",
@@ -645,8 +645,8 @@ export const generatedLocalCopy = {
         {
           "title": "मेनू आइटम मार्जिन कैलकुलेटर",
           "description": "मार्जिन गणनाओं और मूल्य निर्धारण सिफारिशों के साथ मेनू आइटम की लाभप्रदता का विश्लेषण करें।",
-          "icon": "menu",
-          "href": "/tools/menu-margin",
+          "icon": "labor",
+          "href": "/tools/labor-cost",
           "features": [
             "सकल लाभ",
             "मार्जिन %",
@@ -657,8 +657,8 @@ export const generatedLocalCopy = {
         {
           "title": "ब्रेक-ईवन कवर कैलकुलेटर",
           "description": "स्थिर और परिवर्तनीय लागत के आधार पर ब्रेक ईवन के लिए आपको कितने कवर की आवश्यकता है, इसकी गणना करें।",
-          "icon": "balance",
-          "href": "/tools/breakeven-covers",
+          "icon": "labor",
+          "href": "/tools/labor-analyzer",
           "features": [
             "ब्रेक-ईवन बिंदु",
             "योगदान मार्जिन",
@@ -669,8 +669,8 @@ export const generatedLocalCopy = {
         {
           "title": "बेंचमार्क तत्परता आकलन",
           "description": "बेंचमार्किंग और प्रदर्शन ट्रैकिंग के लिए आपकी संगठन की तत्परता का मूल्यांकन करें।",
-          "icon": "document",
-          "href": "/tools/benchmark-readiness",
+          "icon": "menu",
+          "href": "/tools/menu-margin",
           "features": [
             "तत्परता स्कोर",
             "गैप विश्लेषण",
@@ -681,8 +681,8 @@ export const generatedLocalCopy = {
         {
           "title": "मल्टी-लोकेशन अपलिफ्ट अनुमानक",
           "description": "कई स्थानों में संचालन में सुधार के संभावित राजस्व प्रभाव की गणना करें।",
-          "icon": "performance",
-          "href": "/tools/multi-location-uplift",
+          "icon": "balance",
+          "href": "/tools/breakeven-covers",
           "features": [
             "राजस्व प्रक्षेपण",
             "प्रति-स्थान प्रभाव",
@@ -709,7 +709,7 @@ export const generatedLocalCopy = {
           "title": "Calcolatore % Costo del Lavoro",
           "description": "Calcola la percentuale del costo del lavoro e verifica se sei in linea con gli standard del settore.",
           "icon": "labor",
-          "href": "/tools/labor-cost",
+          "href": "/tools/daypart-margin-leak",
           "features": [
             "% Costo del lavoro",
             "Benchmark di riferimento",
@@ -720,8 +720,8 @@ export const generatedLocalCopy = {
         {
           "title": "Analizzatore di Variazione del Lavoro",
           "description": "Confronta i costi del lavoro effettivi con gli obiettivi e ottieni approfondimenti utili sulle variazioni.",
-          "icon": "labor",
-          "href": "/tools/labor-analyzer",
+          "icon": "performance",
+          "href": "/tools/upsell-opportunity-index",
           "features": [
             "Analisi delle variazioni",
             "Confronto obiettivi",
@@ -732,8 +732,8 @@ export const generatedLocalCopy = {
         {
           "title": "Calcolatore di Margine per Articolo del Menu",
           "description": "Analizza la redditività degli articoli del menu con calcoli di margine e raccomandazioni sui prezzi.",
-          "icon": "menu",
-          "href": "/tools/menu-margin",
+          "icon": "labor",
+          "href": "/tools/labor-cost",
           "features": [
             "Profitto lordo",
             "% Margine",
@@ -744,8 +744,8 @@ export const generatedLocalCopy = {
         {
           "title": "Calcolatore di Coperti per Pareggio",
           "description": "Calcola quanti coperti sono necessari per raggiungere il pareggio in base ai costi fissi e variabili.",
-          "icon": "balance",
-          "href": "/tools/breakeven-covers",
+          "icon": "labor",
+          "href": "/tools/labor-analyzer",
           "features": [
             "Punto di pareggio",
             "Margine di contribuzione",
@@ -756,8 +756,8 @@ export const generatedLocalCopy = {
         {
           "title": "Valutazione di Prontezza al Benchmarking",
           "description": "Valuta la prontezza della tua organizzazione per il benchmarking e il monitoraggio delle performance.",
-          "icon": "document",
-          "href": "/tools/benchmark-readiness",
+          "icon": "menu",
+          "href": "/tools/menu-margin",
           "features": [
             "Punteggio di prontezza",
             "Analisi delle lacune",
@@ -768,8 +768,8 @@ export const generatedLocalCopy = {
         {
           "title": "Stimatore di Incremento Multi-Locazione",
           "description": "Calcola l'impatto potenziale sui ricavi dei miglioramenti operativi in più sedi.",
-          "icon": "performance",
-          "href": "/tools/multi-location-uplift",
+          "icon": "balance",
+          "href": "/tools/breakeven-covers",
           "features": [
             "Proiezione dei ricavi",
             "Impatto per sede",
@@ -796,7 +796,7 @@ export const generatedLocalCopy = {
           "title": "劳动力成本百分比计算器",
           "description": "计算您的劳动力成本百分比，并查看与行业标准的目标对比情况。",
           "icon": "labor",
-          "href": "/tools/labor-cost",
+          "href": "/tools/daypart-margin-leak",
           "features": [
             "劳动力成本 %",
             "目标基准",
@@ -807,8 +807,8 @@ export const generatedLocalCopy = {
         {
           "title": "劳动力差异分析器",
           "description": "将实际劳动力成本与目标进行比较，并获取有关差异的可操作见解。",
-          "icon": "labor",
-          "href": "/tools/labor-analyzer",
+          "icon": "performance",
+          "href": "/tools/upsell-opportunity-index",
           "features": [
             "差异分析",
             "目标比较",
@@ -819,8 +819,8 @@ export const generatedLocalCopy = {
         {
           "title": "菜单项目利润计算器",
           "description": "通过利润计算和定价建议分析菜单项目的盈利能力。",
-          "icon": "menu",
-          "href": "/tools/menu-margin",
+          "icon": "labor",
+          "href": "/tools/labor-cost",
           "features": [
             "毛利润",
             "利润 %",
@@ -831,8 +831,8 @@ export const generatedLocalCopy = {
         {
           "title": "盈亏平衡覆盖计算器",
           "description": "根据固定和可变成本计算您需要多少覆盖才能实现盈亏平衡。",
-          "icon": "balance",
-          "href": "/tools/breakeven-covers",
+          "icon": "labor",
+          "href": "/tools/labor-analyzer",
           "features": [
             "盈亏平衡点",
             "贡献利润",
@@ -843,8 +843,8 @@ export const generatedLocalCopy = {
         {
           "title": "基准准备评估",
           "description": "评估您的组织在基准测试和绩效跟踪方面的准备情况。",
-          "icon": "document",
-          "href": "/tools/benchmark-readiness",
+          "icon": "menu",
+          "href": "/tools/menu-margin",
           "features": [
             "准备评分",
             "差距分析",
@@ -855,8 +855,8 @@ export const generatedLocalCopy = {
         {
           "title": "多地点提升估算器",
           "description": "计算多个地点运营改善的潜在收入影响。",
-          "icon": "performance",
-          "href": "/tools/multi-location-uplift",
+          "icon": "balance",
+          "href": "/tools/breakeven-covers",
           "features": [
             "收入预测",
             "每地点影响",
@@ -883,7 +883,7 @@ export const generatedLocalCopy = {
           "title": "노동 비용 % 계산기",
           "description": "노동 비용 비율을 계산하고 업계 표준과 비교하여 목표에 도달했는지 확인하세요.",
           "icon": "labor",
-          "href": "/tools/labor-cost",
+          "href": "/tools/daypart-margin-leak",
           "features": [
             "노동 비용 %",
             "목표 벤치마크",
@@ -894,8 +894,8 @@ export const generatedLocalCopy = {
         {
           "title": "노동 변동 분석기",
           "description": "실제 노동 비용을 목표와 비교하고 변동에 대한 실행 가능한 통찰을 얻으세요.",
-          "icon": "labor",
-          "href": "/tools/labor-analyzer",
+          "icon": "performance",
+          "href": "/tools/upsell-opportunity-index",
           "features": [
             "변동 분석",
             "목표 비교",
@@ -906,8 +906,8 @@ export const generatedLocalCopy = {
         {
           "title": "메뉴 항목 마진 계산기",
           "description": "마진 계산 및 가격 추천을 통해 메뉴 항목의 수익성을 분석하세요.",
-          "icon": "menu",
-          "href": "/tools/menu-margin",
+          "icon": "labor",
+          "href": "/tools/labor-cost",
           "features": [
             "총 이익",
             "마진 %",
@@ -918,8 +918,8 @@ export const generatedLocalCopy = {
         {
           "title": "손익 분기점 커버 계산기",
           "description": "고정 비용과 변동 비용을 기반으로 손익 분기점에 필요한 커버 수를 계산하세요.",
-          "icon": "balance",
-          "href": "/tools/breakeven-covers",
+          "icon": "labor",
+          "href": "/tools/labor-analyzer",
           "features": [
             "손익 분기점",
             "기여 마진",
@@ -930,8 +930,8 @@ export const generatedLocalCopy = {
         {
           "title": "벤치마크 준비 상태 평가",
           "description": "벤치마킹 및 성과 추적을 위한 조직의 준비 상태를 평가하세요.",
-          "icon": "document",
-          "href": "/tools/benchmark-readiness",
+          "icon": "menu",
+          "href": "/tools/menu-margin",
           "features": [
             "준비 상태 점수",
             "갭 분석",
@@ -942,8 +942,8 @@ export const generatedLocalCopy = {
         {
           "title": "다중 위치 상승 추정기",
           "description": "여러 위치에서 운영 개선의 잠재적 수익 영향을 계산하세요.",
-          "icon": "performance",
-          "href": "/tools/multi-location-uplift",
+          "icon": "balance",
+          "href": "/tools/breakeven-covers",
           "features": [
             "수익 예측",
             "위치별 영향",
@@ -970,7 +970,7 @@ export const generatedLocalCopy = {
           "title": "İş Gücü Maliyeti % Hesaplayıcı",
           "description": "İş gücü maliyet yüzdenizi hesaplayın ve sektör standartlarıyla karşılaştırıldığında hedefinize ulaşıp ulaşmadığınızı görün.",
           "icon": "labor",
-          "href": "/tools/labor-cost",
+          "href": "/tools/daypart-margin-leak",
           "features": [
             "İş gücü maliyeti %",
             "Hedef kıyaslamaları",
@@ -981,8 +981,8 @@ export const generatedLocalCopy = {
         {
           "title": "İş Gücü Sapma Analizörü",
           "description": "Gerçek iş gücü maliyetlerini hedeflerle karşılaştırın ve sapmalar hakkında uygulanabilir içgörüler elde edin.",
-          "icon": "labor",
-          "href": "/tools/labor-analyzer",
+          "icon": "performance",
+          "href": "/tools/upsell-opportunity-index",
           "features": [
             "Sapma analizi",
             "Hedef karşılaştırması",
@@ -993,8 +993,8 @@ export const generatedLocalCopy = {
         {
           "title": "Menü Ürünü Karlılık Hesaplayıcı",
           "description": "Menü ürünlerinin karlılığını marj hesaplamaları ve fiyat önerileri ile analiz edin.",
-          "icon": "menu",
-          "href": "/tools/menu-margin",
+          "icon": "labor",
+          "href": "/tools/labor-cost",
           "features": [
             "Brüt kar",
             "Marj %",
@@ -1005,8 +1005,8 @@ export const generatedLocalCopy = {
         {
           "title": "Başabaş Kapsayıcı Hesaplayıcı",
           "description": "Sabit ve değişken maliyetlere dayanarak başabaş noktasına ulaşmak için gereken kapsayıcı sayısını hesaplayın.",
-          "icon": "balance",
-          "href": "/tools/breakeven-covers",
+          "icon": "labor",
+          "href": "/tools/labor-analyzer",
           "features": [
             "Başabaş noktası",
             "Katkı marjı",
@@ -1017,8 +1017,8 @@ export const generatedLocalCopy = {
         {
           "title": "Kıyaslama Hazırlık Değerlendirmesi",
           "description": "Kuruluşunuzun kıyaslama ve performans takibi için hazırlığını değerlendirin.",
-          "icon": "document",
-          "href": "/tools/benchmark-readiness",
+          "icon": "menu",
+          "href": "/tools/menu-margin",
           "features": [
             "Hazırlık puanı",
             "Açık analiz",
@@ -1029,8 +1029,8 @@ export const generatedLocalCopy = {
         {
           "title": "Çoklu Lokasyon Artış Tahmin Aracı",
           "description": "Birden fazla lokasyondaki operasyonel iyileştirmelerin potansiyel gelir etkisini hesaplayın.",
-          "icon": "performance",
-          "href": "/tools/multi-location-uplift",
+          "icon": "balance",
+          "href": "/tools/breakeven-covers",
           "features": [
             "Gelir projeksiyonu",
             "Lokasyon başına etki",
@@ -1057,7 +1057,7 @@ export const generatedLocalCopy = {
           "title": "Kalkulator % Kosztów Pracy",
           "description": "Oblicz procent kosztów pracy i sprawdź, czy jesteś na właściwej drodze w porównaniu do standardów branżowych.",
           "icon": "labor",
-          "href": "/tools/labor-cost",
+          "href": "/tools/daypart-margin-leak",
           "features": [
             "% Kosztów pracy",
             "Wskaźniki docelowe",
@@ -1068,8 +1068,8 @@ export const generatedLocalCopy = {
         {
           "title": "Analizator Odchyleń Kosztów Pracy",
           "description": "Porównaj rzeczywiste koszty pracy z celami i uzyskaj praktyczne informacje na temat odchyleń.",
-          "icon": "labor",
-          "href": "/tools/labor-analyzer",
+          "icon": "performance",
+          "href": "/tools/upsell-opportunity-index",
           "features": [
             "Analiza odchyleń",
             "Porównanie celów",
@@ -1080,8 +1080,8 @@ export const generatedLocalCopy = {
         {
           "title": "Kalkulator Marży Pozycji Menu",
           "description": "Analizuj rentowność pozycji menu za pomocą obliczeń marży i rekomendacji cenowych.",
-          "icon": "menu",
-          "href": "/tools/menu-margin",
+          "icon": "labor",
+          "href": "/tools/labor-cost",
           "features": [
             "Zysk brutto",
             "Marża %",
@@ -1092,8 +1092,8 @@ export const generatedLocalCopy = {
         {
           "title": "Kalkulator Punktu Równowagi",
           "description": "Oblicz, ile gości potrzebujesz, aby osiągnąć próg rentowności na podstawie kosztów stałych i zmiennych.",
-          "icon": "balance",
-          "href": "/tools/breakeven-covers",
+          "icon": "labor",
+          "href": "/tools/labor-analyzer",
           "features": [
             "Punkt równowagi",
             "Marża wkładu",
@@ -1104,8 +1104,8 @@ export const generatedLocalCopy = {
         {
           "title": "Ocena Gotowości do Benchmarkingu",
           "description": "Oceń gotowość swojej organizacji do benchmarkingu i śledzenia wydajności.",
-          "icon": "document",
-          "href": "/tools/benchmark-readiness",
+          "icon": "menu",
+          "href": "/tools/menu-margin",
           "features": [
             "Wynik gotowości",
             "Analiza luk",
@@ -1116,8 +1116,8 @@ export const generatedLocalCopy = {
         {
           "title": "Estimator Wzrostu dla Wielu Lokalizacji",
           "description": "Oblicz potencjalny wpływ przychodów z usprawnień operacyjnych w wielu lokalizacjach.",
-          "icon": "performance",
-          "href": "/tools/multi-location-uplift",
+          "icon": "balance",
+          "href": "/tools/breakeven-covers",
           "features": [
             "Prognoza przychodów",
             "Wpływ na lokalizację",
@@ -1144,7 +1144,7 @@ export const generatedLocalCopy = {
           "title": "Kalkulator Persentase Biaya Tenaga Kerja",
           "description": "Hitung persentase biaya tenaga kerja Anda dan lihat apakah Anda sesuai target dibandingkan dengan standar industri.",
           "icon": "labor",
-          "href": "/tools/labor-cost",
+          "href": "/tools/daypart-margin-leak",
           "features": [
             "Persentase biaya tenaga kerja",
             "Benchmark target",
@@ -1155,8 +1155,8 @@ export const generatedLocalCopy = {
         {
           "title": "Analyzer Varians Tenaga Kerja",
           "description": "Bandingkan biaya tenaga kerja aktual dengan target dan dapatkan wawasan yang dapat ditindaklanjuti tentang varians.",
-          "icon": "labor",
-          "href": "/tools/labor-analyzer",
+          "icon": "performance",
+          "href": "/tools/upsell-opportunity-index",
           "features": [
             "Analisis varians",
             "Perbandingan target",
@@ -1167,8 +1167,8 @@ export const generatedLocalCopy = {
         {
           "title": "Kalkulator Margin Item Menu",
           "description": "Analisis profitabilitas item menu dengan perhitungan margin dan rekomendasi harga.",
-          "icon": "menu",
-          "href": "/tools/menu-margin",
+          "icon": "labor",
+          "href": "/tools/labor-cost",
           "features": [
             "Laba kotor",
             "Margin %",
@@ -1179,8 +1179,8 @@ export const generatedLocalCopy = {
         {
           "title": "Kalkulator Jumlah Penutup Titik Impas",
           "description": "Hitung berapa banyak penutup yang Anda butuhkan untuk mencapai titik impas berdasarkan biaya tetap dan variabel.",
-          "icon": "balance",
-          "href": "/tools/breakeven-covers",
+          "icon": "labor",
+          "href": "/tools/labor-analyzer",
           "features": [
             "Titik impas",
             "Margin kontribusi",
@@ -1191,8 +1191,8 @@ export const generatedLocalCopy = {
         {
           "title": "Penilaian Kesiapan Benchmark",
           "description": "Evaluasi kesiapan organisasi Anda untuk benchmarking dan pelacakan kinerja.",
-          "icon": "document",
-          "href": "/tools/benchmark-readiness",
+          "icon": "menu",
+          "href": "/tools/menu-margin",
           "features": [
             "Skor kesiapan",
             "Analisis kesenjangan",
@@ -1203,8 +1203,8 @@ export const generatedLocalCopy = {
         {
           "title": "Estimasi Kenaikan Multi-Lokasi",
           "description": "Hitung dampak potensi pendapatan dari perbaikan operasional di beberapa lokasi.",
-          "icon": "performance",
-          "href": "/tools/multi-location-uplift",
+          "icon": "balance",
+          "href": "/tools/breakeven-covers",
           "features": [
             "Proyeksi pendapatan",
             "Dampak per lokasi",
@@ -1231,7 +1231,7 @@ export const generatedLocalCopy = {
           "title": "労働コスト % 計算機",
           "description": "労働コストの割合を計算し、業界基準と比較して目標に達しているか確認します。",
           "icon": "labor",
-          "href": "/tools/labor-cost",
+          "href": "/tools/daypart-margin-leak",
           "features": [
             "労働コスト %",
             "目標ベンチマーク",
@@ -1242,8 +1242,8 @@ export const generatedLocalCopy = {
         {
           "title": "労働差異分析ツール",
           "description": "実際の労働コストを目標と比較し、差異に関する実用的な洞察を得ます。",
-          "icon": "labor",
-          "href": "/tools/labor-analyzer",
+          "icon": "performance",
+          "href": "/tools/upsell-opportunity-index",
           "features": [
             "差異分析",
             "目標比較",
@@ -1254,8 +1254,8 @@ export const generatedLocalCopy = {
         {
           "title": "メニューアイテムマージン計算機",
           "description": "マージン計算と価格推奨を用いてメニューアイテムの収益性を分析します。",
-          "icon": "menu",
-          "href": "/tools/menu-margin",
+          "icon": "labor",
+          "href": "/tools/labor-cost",
           "features": [
             "粗利益",
             "マージン %",
@@ -1266,8 +1266,8 @@ export const generatedLocalCopy = {
         {
           "title": "ブレークイーブンカバー計算機",
           "description": "固定費と変動費に基づいて、ブレークイーブンに必要なカバー数を計算します。",
-          "icon": "balance",
-          "href": "/tools/breakeven-covers",
+          "icon": "labor",
+          "href": "/tools/labor-analyzer",
           "features": [
             "ブレークイーブンポイント",
             "貢献マージン",
@@ -1278,8 +1278,8 @@ export const generatedLocalCopy = {
         {
           "title": "ベンチマーク準備評価",
           "description": "ベンチマークとパフォーマンス追跡のための組織の準備状況を評価します。",
-          "icon": "document",
-          "href": "/tools/benchmark-readiness",
+          "icon": "menu",
+          "href": "/tools/menu-margin",
           "features": [
             "準備スコア",
             "ギャップ分析",
@@ -1290,8 +1290,8 @@ export const generatedLocalCopy = {
         {
           "title": "複数ロケーションアップリフト推定ツール",
           "description": "複数のロケーションでの運用改善による潜在的な収益影響を計算します。",
-          "icon": "performance",
-          "href": "/tools/multi-location-uplift",
+          "icon": "balance",
+          "href": "/tools/breakeven-covers",
           "features": [
             "収益予測",
             "ロケーションごとの影響",
@@ -1318,7 +1318,7 @@ export const generatedLocalCopy = {
           "title": "Calculator procentaj costuri de muncă",
           "description": "Calculează procentajul costurilor de muncă și vezi dacă ești pe drumul cel bun comparativ cu standardele din industrie.",
           "icon": "labor",
-          "href": "/tools/labor-cost",
+          "href": "/tools/daypart-margin-leak",
           "features": [
             "Procent costuri de muncă",
             "Referințe țintă",
@@ -1329,8 +1329,8 @@ export const generatedLocalCopy = {
         {
           "title": "Analizor de variație a costurilor de muncă",
           "description": "Compară costurile reale ale muncii cu țintele și obține informații utile despre variație.",
-          "icon": "labor",
-          "href": "/tools/labor-analyzer",
+          "icon": "performance",
+          "href": "/tools/upsell-opportunity-index",
           "features": [
             "Analiza variației",
             "Compararea țintelor",
@@ -1341,8 +1341,8 @@ export const generatedLocalCopy = {
         {
           "title": "Calculator marjă articol de meniu",
           "description": "Analizează rentabilitatea articolelor de meniu cu calcule de marjă și recomandări de preț.",
-          "icon": "menu",
-          "href": "/tools/menu-margin",
+          "icon": "labor",
+          "href": "/tools/labor-cost",
           "features": [
             "Profit brut",
             "Marjă %",
@@ -1353,8 +1353,8 @@ export const generatedLocalCopy = {
         {
           "title": "Calculator acoperiri punct de echilibru",
           "description": "Calculează câte acoperiri ai nevoie pentru a atinge punctul de echilibru pe baza costurilor fixe și variabile.",
-          "icon": "balance",
-          "href": "/tools/breakeven-covers",
+          "icon": "labor",
+          "href": "/tools/labor-analyzer",
           "features": [
             "Punct de echilibru",
             "Marja de contribuție",
@@ -1365,8 +1365,8 @@ export const generatedLocalCopy = {
         {
           "title": "Evaluare pregătire benchmark",
           "description": "Evaluează pregătirea organizației tale pentru benchmarking și urmărirea performanței.",
-          "icon": "document",
-          "href": "/tools/benchmark-readiness",
+          "icon": "menu",
+          "href": "/tools/menu-margin",
           "features": [
             "Scor de pregătire",
             "Analiza diferențelor",
@@ -1377,8 +1377,8 @@ export const generatedLocalCopy = {
         {
           "title": "Estimare creștere multi-locație",
           "description": "Calculează impactul potențial al veniturilor din îmbunătățirile operaționale în mai multe locații.",
-          "icon": "performance",
-          "href": "/tools/multi-location-uplift",
+          "icon": "balance",
+          "href": "/tools/breakeven-covers",
           "features": [
             "Proiecție a veniturilor",
             "Impact pe locație",
@@ -1405,7 +1405,7 @@ export const generatedLocalCopy = {
           "title": "Arbetskostnad % Kalkylator",
           "description": "Beräkna din arbetskostnadsprocent och se om du ligger i linje med branschstandarder.",
           "icon": "labor",
-          "href": "/tools/labor-cost",
+          "href": "/tools/daypart-margin-leak",
           "features": [
             "Arbetskostnad %",
             "Målbenchmarkar",
@@ -1416,8 +1416,8 @@ export const generatedLocalCopy = {
         {
           "title": "Arbetsavvikelseanalysator",
           "description": "Jämför faktiska arbetskostnader mot mål och få handlingsbara insikter om avvikelser.",
-          "icon": "labor",
-          "href": "/tools/labor-analyzer",
+          "icon": "performance",
+          "href": "/tools/upsell-opportunity-index",
           "features": [
             "Avvikelseanalys",
             "Måljämförelse",
@@ -1428,8 +1428,8 @@ export const generatedLocalCopy = {
         {
           "title": "Menyalternativ Marginal Kalkylator",
           "description": "Analysera lönsamheten för menyalternativ med marginalberäkningar och prissättningsrekommendationer.",
-          "icon": "menu",
-          "href": "/tools/menu-margin",
+          "icon": "labor",
+          "href": "/tools/labor-cost",
           "features": [
             "Bruttovinst",
             "Marginal %",
@@ -1440,8 +1440,8 @@ export const generatedLocalCopy = {
         {
           "title": "Break-Even Covers Kalkylator",
           "description": "Beräkna hur många gäster du behöver för att gå jämnt ut baserat på fasta och rörliga kostnader.",
-          "icon": "balance",
-          "href": "/tools/breakeven-covers",
+          "icon": "labor",
+          "href": "/tools/labor-analyzer",
           "features": [
             "Break-even punkt",
             "Bidragsmarginal",
@@ -1452,8 +1452,8 @@ export const generatedLocalCopy = {
         {
           "title": "Benchmark Beredskapsbedömning",
           "description": "Utvärdera din organisations beredskap för benchmarking och prestationsspårning.",
-          "icon": "document",
-          "href": "/tools/benchmark-readiness",
+          "icon": "menu",
+          "href": "/tools/menu-margin",
           "features": [
             "Beredskapsbetyg",
             "Gap-analys",
@@ -1464,8 +1464,8 @@ export const generatedLocalCopy = {
         {
           "title": "Multi-Plats Uplift Estimator",
           "description": "Beräkna potentiell intäktspåverkan av operationella förbättringar över flera platser.",
-          "icon": "performance",
-          "href": "/tools/multi-location-uplift",
+          "icon": "balance",
+          "href": "/tools/breakeven-covers",
           "features": [
             "Intäktsprognos",
             "Platsvis påverkan",
@@ -1492,7 +1492,7 @@ export const generatedLocalCopy = {
           "title": "শ্রম খরচ % ক্যালকুলেটর",
           "description": "আপনার শ্রম খরচের শতাংশ গণনা করুন এবং দেখুন আপনি শিল্প মানের তুলনায় লক্ষ্য পূরণ করছেন কিনা।",
           "icon": "labor",
-          "href": "/tools/labor-cost",
+          "href": "/tools/daypart-margin-leak",
           "features": [
             "শ্রম খরচ %",
             "লক্ষ্য বেঞ্চমার্ক",
@@ -1503,8 +1503,8 @@ export const generatedLocalCopy = {
         {
           "title": "শ্রম ভেরিয়েন্স বিশ্লেষক",
           "description": "বাস্তব শ্রম খরচের তুলনা লক্ষ্যগুলোর সাথে করুন এবং ভেরিয়েন্সের উপর কার্যকরী অন্তর্দৃষ্টি পান।",
-          "icon": "labor",
-          "href": "/tools/labor-analyzer",
+          "icon": "performance",
+          "href": "/tools/upsell-opportunity-index",
           "features": [
             "ভেরিয়েন্স বিশ্লেষণ",
             "লক্ষ্য তুলনা",
@@ -1515,8 +1515,8 @@ export const generatedLocalCopy = {
         {
           "title": "মেনু আইটেম মার্জিন ক্যালকুলেটর",
           "description": "মার্জিন গণনা এবং মূল্য সুপারিশের সাথে মেনু আইটেমের লাভজনকতা বিশ্লেষণ করুন।",
-          "icon": "menu",
-          "href": "/tools/menu-margin",
+          "icon": "labor",
+          "href": "/tools/labor-cost",
           "features": [
             "মোট লাভ",
             "মার্জিন %",
@@ -1527,8 +1527,8 @@ export const generatedLocalCopy = {
         {
           "title": "ব্রেক-ইভেন কভারস ক্যালকুলেটর",
           "description": "স্থির এবং পরিবর্তনশীল খরচের ভিত্তিতে ব্রেক ইভেন হতে কত কভার প্রয়োজন তা গণনা করুন।",
-          "icon": "balance",
-          "href": "/tools/breakeven-covers",
+          "icon": "labor",
+          "href": "/tools/labor-analyzer",
           "features": [
             "ব্রেক-ইভেন পয়েন্ট",
             "অবদান মার্জিন",
@@ -1539,8 +1539,8 @@ export const generatedLocalCopy = {
         {
           "title": "বেন্চমার্ক প্রস্তুতি মূল্যায়ন",
           "description": "বেন্চমার্কিং এবং কর্মক্ষমতা ট্র্যাকিংয়ের জন্য আপনার সংস্থার প্রস্তুতি মূল্যায়ন করুন।",
-          "icon": "document",
-          "href": "/tools/benchmark-readiness",
+          "icon": "menu",
+          "href": "/tools/menu-margin",
           "features": [
             "প্রস্তুতি স্কোর",
             "গ্যাপ বিশ্লেষণ",
@@ -1551,8 +1551,8 @@ export const generatedLocalCopy = {
         {
           "title": "মাল্টি-লোকেশন আপলিফট এস্টিমেটর",
           "description": "একাধিক অবস্থানে অপারেশনাল উন্নতির সম্ভাব্য রাজস্ব প্রভাব গণনা করুন।",
-          "icon": "performance",
-          "href": "/tools/multi-location-uplift",
+          "icon": "balance",
+          "href": "/tools/breakeven-covers",
           "features": [
             "রাজস্ব পূর্বাভাস",
             "প্রতি অবস্থানের প্রভাব",
@@ -1579,7 +1579,7 @@ export const generatedLocalCopy = {
           "title": "เครื่องคำนวณเปอร์เซ็นต์ต้นทุนแรงงาน",
           "description": "คำนวณเปอร์เซ็นต์ต้นทุนแรงงานของคุณและดูว่าคุณอยู่ในเป้าหมายเมื่อเปรียบเทียบกับมาตรฐานอุตสาหกรรมหรือไม่",
           "icon": "labor",
-          "href": "/tools/labor-cost",
+          "href": "/tools/daypart-margin-leak",
           "features": [
             "ต้นทุนแรงงาน %",
             "เกณฑ์เป้าหมาย",
@@ -1590,8 +1590,8 @@ export const generatedLocalCopy = {
         {
           "title": "เครื่องวิเคราะห์ความแปรผันของแรงงาน",
           "description": "เปรียบเทียบต้นทุนแรงงานจริงกับเป้าหมายและรับข้อมูลเชิงลึกที่สามารถดำเนินการได้เกี่ยวกับความแปรผัน",
-          "icon": "labor",
-          "href": "/tools/labor-analyzer",
+          "icon": "performance",
+          "href": "/tools/upsell-opportunity-index",
           "features": [
             "การวิเคราะห์ความแปรผัน",
             "การเปรียบเทียบเป้าหมาย",
@@ -1602,8 +1602,8 @@ export const generatedLocalCopy = {
         {
           "title": "เครื่องคำนวณกำไรจากรายการเมนู",
           "description": "วิเคราะห์ความสามารถในการทำกำไรของรายการเมนูด้วยการคำนวณกำไรและคำแนะนำด้านราคา",
-          "icon": "menu",
-          "href": "/tools/menu-margin",
+          "icon": "labor",
+          "href": "/tools/labor-cost",
           "features": [
             "กำไรขั้นต้น",
             "เปอร์เซ็นต์กำไร",
@@ -1614,8 +1614,8 @@ export const generatedLocalCopy = {
         {
           "title": "เครื่องคำนวณจำนวนที่ต้องขายเพื่อคืนทุน",
           "description": "คำนวณจำนวนที่คุณต้องขายเพื่อคืนทุนตามต้นทุนคงที่และต้นทุนผันแปร",
-          "icon": "balance",
-          "href": "/tools/breakeven-covers",
+          "icon": "labor",
+          "href": "/tools/labor-analyzer",
           "features": [
             "จุดคืนทุน",
             "ส่วนต่างการมีส่วนร่วม",
@@ -1626,8 +1626,8 @@ export const generatedLocalCopy = {
         {
           "title": "การประเมินความพร้อมสำหรับการเปรียบเทียบ",
           "description": "ประเมินความพร้อมขององค์กรของคุณสำหรับการเปรียบเทียบและการติดตามผลการดำเนินงาน",
-          "icon": "document",
-          "href": "/tools/benchmark-readiness",
+          "icon": "menu",
+          "href": "/tools/menu-margin",
           "features": [
             "คะแนนความพร้อม",
             "การวิเคราะห์ช่องว่าง",
@@ -1638,8 +1638,8 @@ export const generatedLocalCopy = {
         {
           "title": "เครื่องคำนวณการเพิ่มขึ้นหลายสถานที่",
           "description": "คำนวณผลกระทบด้านรายได้ที่อาจเกิดขึ้นจากการปรับปรุงการดำเนินงานในหลายสถานที่",
-          "icon": "performance",
-          "href": "/tools/multi-location-uplift",
+          "icon": "balance",
+          "href": "/tools/breakeven-covers",
           "features": [
             "การคาดการณ์รายได้",
             "ผลกระทบต่อสถานที่แต่ละแห่ง",
@@ -1666,7 +1666,7 @@ export const generatedLocalCopy = {
           "title": "Máy Tính Tỷ Lệ Chi Phí Lao Động",
           "description": "Tính toán tỷ lệ chi phí lao động của bạn và xem bạn có đạt mục tiêu so với tiêu chuẩn ngành không.",
           "icon": "labor",
-          "href": "/tools/labor-cost",
+          "href": "/tools/daypart-margin-leak",
           "features": [
             "Tỷ lệ chi phí lao động",
             "Tiêu chuẩn mục tiêu",
@@ -1677,8 +1677,8 @@ export const generatedLocalCopy = {
         {
           "title": "Phân Tích Biến Động Lao Động",
           "description": "So sánh chi phí lao động thực tế với mục tiêu và nhận thông tin chi tiết có thể hành động về biến động.",
-          "icon": "labor",
-          "href": "/tools/labor-analyzer",
+          "icon": "performance",
+          "href": "/tools/upsell-opportunity-index",
           "features": [
             "Phân tích biến động",
             "So sánh mục tiêu",
@@ -1689,8 +1689,8 @@ export const generatedLocalCopy = {
         {
           "title": "Máy Tính Lợi Nhuận Món Ăn",
           "description": "Phân tích lợi nhuận món ăn với các phép tính biên lợi nhuận và khuyến nghị giá cả.",
-          "icon": "menu",
-          "href": "/tools/menu-margin",
+          "icon": "labor",
+          "href": "/tools/labor-cost",
           "features": [
             "Lợi nhuận gộp",
             "Biên lợi nhuận %",
@@ -1701,8 +1701,8 @@ export const generatedLocalCopy = {
         {
           "title": "Máy Tính Số Lượng Để Hòa Vốn",
           "description": "Tính toán số lượng bạn cần để hòa vốn dựa trên chi phí cố định và biến đổi.",
-          "icon": "balance",
-          "href": "/tools/breakeven-covers",
+          "icon": "labor",
+          "href": "/tools/labor-analyzer",
           "features": [
             "Điểm hòa vốn",
             "Biên đóng góp",
@@ -1713,8 +1713,8 @@ export const generatedLocalCopy = {
         {
           "title": "Đánh Giá Sẵn Sàng So Sánh",
           "description": "Đánh giá mức độ sẵn sàng của tổ chức bạn cho việc so sánh và theo dõi hiệu suất.",
-          "icon": "document",
-          "href": "/tools/benchmark-readiness",
+          "icon": "menu",
+          "href": "/tools/menu-margin",
           "features": [
             "Điểm sẵn sàng",
             "Phân tích khoảng cách",
@@ -1725,8 +1725,8 @@ export const generatedLocalCopy = {
         {
           "title": "Máy Tính Tăng Trưởng Đa Địa Điểm",
           "description": "Tính toán tác động doanh thu tiềm năng của các cải tiến hoạt động trên nhiều địa điểm.",
-          "icon": "performance",
-          "href": "/tools/multi-location-uplift",
+          "icon": "balance",
+          "href": "/tools/breakeven-covers",
           "features": [
             "Dự đoán doanh thu",
             "Tác động theo địa điểm",
@@ -1753,7 +1753,7 @@ export const generatedLocalCopy = {
           "title": "Kalkulator % Kos Buruh",
           "description": "Kira peratusan kos buruh anda dan lihat jika anda mencapai sasaran berbanding dengan standard industri.",
           "icon": "labor",
-          "href": "/tools/labor-cost",
+          "href": "/tools/daypart-margin-leak",
           "features": [
             "% Kos buruh",
             "Penanda aras sasaran",
@@ -1764,8 +1764,8 @@ export const generatedLocalCopy = {
         {
           "title": "Penganalisis Varians Buruh",
           "description": "Bandingkan kos buruh sebenar dengan sasaran dan dapatkan pandangan yang boleh diambil tindakan mengenai varians.",
-          "icon": "labor",
-          "href": "/tools/labor-analyzer",
+          "icon": "performance",
+          "href": "/tools/upsell-opportunity-index",
           "features": [
             "Analisis varians",
             "Perbandingan sasaran",
@@ -1776,8 +1776,8 @@ export const generatedLocalCopy = {
         {
           "title": "Kalkulator Margin Item Menu",
           "description": "Analisis keuntungan item menu dengan pengiraan margin dan cadangan harga.",
-          "icon": "menu",
-          "href": "/tools/menu-margin",
+          "icon": "labor",
+          "href": "/tools/labor-cost",
           "features": [
             "Keuntungan kasar",
             "Margin %",
@@ -1788,8 +1788,8 @@ export const generatedLocalCopy = {
         {
           "title": "Kalkulator Penutup Titik Pulang Modal",
           "description": "Kira berapa banyak penutup yang anda perlukan untuk pulang modal berdasarkan kos tetap dan berubah.",
-          "icon": "balance",
-          "href": "/tools/breakeven-covers",
+          "icon": "labor",
+          "href": "/tools/labor-analyzer",
           "features": [
             "Titik pulang modal",
             "Margin sumbangan",
@@ -1800,8 +1800,8 @@ export const generatedLocalCopy = {
         {
           "title": "Penilaian Kesediaan Penanda Aras",
           "description": "Taksir kesediaan organisasi anda untuk penanda aras dan pemantauan prestasi.",
-          "icon": "document",
-          "href": "/tools/benchmark-readiness",
+          "icon": "menu",
+          "href": "/tools/menu-margin",
           "features": [
             "Skor kesediaan",
             "Analisis jurang",
@@ -1812,8 +1812,8 @@ export const generatedLocalCopy = {
         {
           "title": "Anggaran Kenaikan Multi-Lokasi",
           "description": "Kira impak potensi pendapatan dari penambahbaikan operasi di pelbagai lokasi.",
-          "icon": "performance",
-          "href": "/tools/multi-location-uplift",
+          "icon": "balance",
+          "href": "/tools/breakeven-covers",
           "features": [
             "Unjuran pendapatan",
             "Impak setiap lokasi",

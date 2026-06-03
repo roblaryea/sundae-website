@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/app/getting-started/layout.tsx.
-// OpenAI generated completed chunks first; Google Translate fallback filled remaining quota-limited chunks.
+// Structural fields and protected glossary terms normalized from English source; review prose translations before release.
 export const generatedLocalCopy = {
   "copy": {
     "es": {
@@ -8,11 +8,11 @@ export const generatedLocalCopy = {
     },
     "fr": {
       "title": "Commencer",
-      "description": "Soyez opérationnel avec Sundae en quelques minutes. Démarrez gratuitement avec Report Lite, connectez vos données de point de vente et consultez instantanément des analyses comparatives avec des restaurants comme le vôtre."
+      "description": "Soyez opérationnel avec Sundae en quelques minutes. Démarrez gratuitement avec Report Lite, connectez vos données de POS et consultez instantanément des analyses comparatives avec des restaurants comme le vôtre."
     },
     "pt": {
       "title": "Primeiros passos",
-      "description": "Comece a usar o Sundae em minutos. Comece gratuitamente com o Report Lite, conecte seus dados de PDV e veja comparações instantâneas com restaurantes como o seu."
+      "description": "Comece a usar o Sundae em minutos. Comece gratuitamente com o Report Lite, conecte seus dados de POS e veja comparações instantâneas com restaurantes como o seu."
     },
     "de": {
       "title": "Erste Schritte",
@@ -20,11 +20,11 @@ export const generatedLocalCopy = {
     },
     "ar": {
       "title": "البدء",
-      "description": "ابدأ العمل مع Sundae في دقائق. ابدأ مجانًا باستخدام Report Lite، واربط بيانات نقطة البيع الخاصة بك، وشاهد قياس الأداء الفوري مقابل المطاعم المشابهة لمطعمك."
+      "description": "ابدأ العمل مع Sundae في دقائق. ابدأ مجانًا باستخدام Report Lite، واربط بيانات POS الخاصة بك، وشاهد قياس الأداء الفوري مقابل المطاعم المشابهة لمطعمك."
     },
     "hi": {
       "title": "आरंभ करना",
-      "description": "मिनटों में संडे के साथ उठें और दौड़ें। रिपोर्ट लाइट के साथ निःशुल्क शुरुआत करें, अपना पीओएस डेटा कनेक्ट करें, और अपने जैसे रेस्तरां के विरुद्ध त्वरित बेंचमार्किंग देखें।"
+      "description": "मिनटों में Sundae के साथ उठें और दौड़ें। Report Lite के साथ निःशुल्क शुरुआत करें, अपना POS डेटा कनेक्ट करें, और अपने जैसे रेस्तरां के विरुद्ध त्वरित बेंचमार्किंग देखें।"
     },
     "nl": {
       "title": "Aan de slag",
@@ -32,7 +32,7 @@ export const generatedLocalCopy = {
     },
     "ur": {
       "title": "شروع کرنا",
-      "description": "منٹوں میں Sundae کے ساتھ اٹھو اور دوڑو۔ رپورٹ لائٹ کے ساتھ مفت شروع کریں، اپنا POS ڈیٹا جوڑیں، اور اپنے جیسے ریستوراں کے خلاف فوری بینچ مارکنگ دیکھیں۔"
+      "description": "منٹوں میں Sundae کے ساتھ اٹھو اور دوڑو۔ Report Lite کے ساتھ مفت شروع کریں، اپنا POS ڈیٹا جوڑیں، اور اپنے جیسے ریستوراں کے خلاف فوری بینچ مارکنگ دیکھیں۔"
     },
     "tr": {
       "title": "Başlarken",
@@ -48,7 +48,7 @@ export const generatedLocalCopy = {
     },
     "zh-Hans": {
       "title": "开始使用",
-      "description": "只需几分钟即可启动并运行圣代。免费开始使用 Report Lite，连接您的 POS 数据，并查看针对像您这样的餐厅的即时基准测试。"
+      "description": "只需几分钟即可启动并运行Sundae。免费开始使用 Report Lite，连接您的 POS 数据，并查看针对像您这样的餐厅的即时基准测试。"
     },
     "ko": {
       "title": "시작하기",
@@ -72,7 +72,7 @@ export const generatedLocalCopy = {
     },
     "bn": {
       "title": "শুরু করা",
-      "description": "উঠুন এবং কয়েক মিনিটের মধ্যে Sundae সঙ্গে চলমান. রিপোর্ট লাইট দিয়ে বিনামূল্যে শুরু করুন, আপনার POS ডেটা সংযুক্ত করুন এবং আপনার মতো রেস্তোরাঁর বিরুদ্ধে তাত্ক্ষণিক বেঞ্চমার্কিং দেখুন৷"
+      "description": "উঠুন এবং কয়েক মিনিটের মধ্যে Sundae সঙ্গে চলমান. Report Lite দিয়ে বিনামূল্যে শুরু করুন, আপনার POS ডেটা সংযুক্ত করুন এবং আপনার মতো রেস্তোরাঁর বিরুদ্ধে তাত্ক্ষণিক বেঞ্চমার্কিং দেখুন৷"
     },
     "th": {
       "title": "เริ่มต้นใช้งาน",

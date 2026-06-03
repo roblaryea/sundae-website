@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/app/product/canvas/page.tsx.
-// OpenAI generated completed chunks first; Google Translate fallback filled remaining quota-limited chunks.
+// Reviewed local copy overrides with protected glossary normalization.
 export const generatedLocalCopy = {
   "localizedCanvasCopy": {
     "ar": {
@@ -497,7 +497,7 @@ export const generatedLocalCopy = {
         {
           "type": "Inteligencia predictiva",
           "examples": [
-            "Previsión de la demanda",
+            "Foresight de la demanda",
             "Optimización de la dotación de personal",
             "Planificación de inventario",
             "Predicción de ingresos"

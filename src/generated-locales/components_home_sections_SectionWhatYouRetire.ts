@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/components/home/sections/SectionWhatYouRetire.tsx.
-// Do not edit by hand; regenerate from the English local copy source.
+// Structural fields and protected glossary terms normalized from English source; review prose translations before release.
 export const generatedLocalCopy = {
   "localizedCopy": {
     "de": {
@@ -53,7 +53,7 @@ export const generatedLocalCopy = {
       "todaysStackLabel": "مجموعة اليوم",
       "withSundaeLabel": "مع Sundae",
       "todaysStack": [
-        "لوحات معلومات Power BI / Tableau / Looker على تصديرات نقاط البيع",
+        "لوحات معلومات Power BI / Tableau / Looker على تصديرات POS",
         "جداول بيانات مبنية يدويًا لا يفتحها الفريق",
         "طابور محلل مخصص للأسئلة اليومية",
         "ستة بوابات بائعين مفتوحة في وقت واحد",
@@ -159,9 +159,9 @@ export const generatedLocalCopy = {
     "ur": {
       "eyebrow": "آپ کیا ریٹائر کرتے ہیں",
       "headline": "ریستوراں کے BI اسٹیک کو تبدیل کریں۔",
-      "description": "جنرل BI تجزیہ کاروں کے لیے بنایا گیا تھا۔ سنڈے ریستوراں چلانے والے لوگوں کے لیے بنایا گیا تھا۔",
+      "description": "جنرل BI تجزیہ کاروں کے لیے بنایا گیا تھا۔ Sundae ریستوراں چلانے والے لوگوں کے لیے بنایا گیا تھا۔",
       "todaysStackLabel": "آج کا اسٹیک",
-      "withSundaeLabel": "سنڈے کے ساتھ",
+      "withSundaeLabel": "Sundae کے ساتھ",
       "todaysStack": [
         "POS ایکسپورٹس پر پاور BI / ٹیبلاؤ / لوکر ڈیش بورڈز",
         "ہاتھ سے بنائی گئی اسپریڈشیٹس جو ٹیم نہیں کھولے گی",

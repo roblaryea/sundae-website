@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/components/home/sections/Section4DScene.tsx.
-// Do not edit by hand; regenerate from the English local copy source.
+// Structural fields and protected glossary terms normalized from English source; review prose translations before release.
 export const generatedLocalCopy = {
   "localizedCopy": {
     "de": {
@@ -192,7 +192,7 @@ export const generatedLocalCopy = {
           "body": "قم بتعديل العمالة إذا سمح التغطية، وادفع عرض الغداء، وامنح الفريق فرصة لاستعادة جزء من الفجوة قبل انتهاء الذروة."
         }
       ],
-      "visualHeader": "بULSE — وسط المدينة · خدمة الغداء",
+      "visualHeader": "Pulse — Downtown · Lunch Service",
       "visualLabels": {
         "coversChart": "وجبات الغداء - اليوم مقابل نفس اليوم من الأسبوع الماضي",
         "coversTrend": "−22% مقارنة بالأسبوع الماضي",
@@ -320,7 +320,7 @@ export const generatedLocalCopy = {
       "description": "Sundae प्रदर्शन, योजना, बाजार संदर्भ और अगली कार्रवाई को जोड़ता है - ताकि टीमें बदलाव खत्म होने से पहले आगे बढ़ सकें।",
       "scenarioTime": "मंगलवार · 9:14 पूर्वाह्न · डाउनटाउन",
       "scenarioHook": "दोपहर के भोजन की आय योजना से 14% पीछे है।",
-      "illustrativeNote": "संडे की क्षमताओं पर आधारित एक चित्रात्मक परिदृश्य।",
+      "illustrativeNote": "Sundae की क्षमताओं पर आधारित एक चित्रात्मक परिदृश्य।",
       "closing": "संकेत से कारण तक और फिर क्रिया तक — बदलाव समाप्त होने से पहले।",
       "dimensions": [
         {
@@ -348,7 +348,7 @@ export const generatedLocalCopy = {
           "body": "यदि कवरेज की अनुमति हो तो श्रम को समायोजित करें, लंच ऑफर को बढ़ावा दें, और टीम को पीक खत्म होने से पहले अंतर का कुछ हिस्सा पुनर्प्राप्त करने का मौका दें।"
         }
       ],
-      "visualHeader": "पल्स — डाउनटाउन · लंच सेवा",
+      "visualHeader": "Pulse — डाउनटाउन · लंच सेवा",
       "visualLabels": {
         "coversChart": "दोपहर के कवर — आज बनाम पिछले सप्ताह का वही दिन",
         "coversTrend": "−22% सप्ताह दर सप्ताह",
@@ -372,7 +372,7 @@ export const generatedLocalCopy = {
       "description": "Sundae کارکردگی، منصوبہ، مارکیٹ کے سیاق و سباق، اور اگلی کارروائی کو جوڑتا ہے — تاکہ ٹیمیں تبدیلی ختم ہونے سے پہلے آگے بڑھ سکیں۔",
       "scenarioTime": "منگل · 9:14 صبح · شہر کے وسط میں",
       "scenarioHook": "دوپہر کے کھانے کی آمدنی منصوبے سے 14% پیچھے ہے۔",
-      "illustrativeNote": "سندے کی صلاحیتوں پر مبنی وضاحتی منظرنامہ۔",
+      "illustrativeNote": "Illustrative scenario based on Sundae capabilities.",
       "closing": "سگنل سے سبب تک اور عمل تک — تبدیلی ختم ہونے سے پہلے۔",
       "dimensions": [
         {
@@ -400,7 +400,7 @@ export const generatedLocalCopy = {
           "body": "اگر کوریج کی اجازت ہو تو مزدوری کو ایڈجسٹ کریں، دوپہر کے کھانے کی پیشکش کو بڑھائیں، اور ٹیم کو چوٹی کے ختم ہونے سے پہلے فرق کا کچھ حصہ بحال کرنے کا موقع دیں۔"
         }
       ],
-      "visualHeader": "پلس — ڈاؤن ٹاؤن · دوپہر کا کھانا سروس",
+      "visualHeader": "Pulse — ڈاؤن ٹاؤن · دوپہر کا کھانا سروس",
       "visualLabels": {
         "coversChart": "دوپہر کے کھانے کے کوریج — آج بمقابلہ پچھلے ہفتے کے اسی دن",
         "coversTrend": "−22% ہفتہ وار",
@@ -608,7 +608,7 @@ export const generatedLocalCopy = {
           "body": "如果覆盖允许，调整劳动力，推动午餐优惠，并给团队一个机会在高峰结束前弥补部分差距。"
         }
       ],
-      "visualHeader": "脉动 — 市中心 · 午餐服务",
+      "visualHeader": "Pulse — Downtown · Lunch Service",
       "visualLabels": {
         "coversChart": "午餐覆盖人数 - 今天与上周同日对比",
         "coversTrend": "−22% 周比",
@@ -617,7 +617,7 @@ export const generatedLocalCopy = {
         "forecast": "预测",
         "actualRunRate": "实际运行率",
         "laborNote": "劳动力仍在基线水平 - 对于这个量来说人手过多。",
-        "watchtower": "观察塔",
+        "watchtower": "Watchtower",
         "watchtowerItem1": "3家竞争对手在2公里内昨天将午餐套餐降至$9.99",
         "watchtowerItem2": "办公大楼火灾演习定于11点至12点，距离2个街区",
         "coach": "Sundae 教练",
@@ -764,7 +764,7 @@ export const generatedLocalCopy = {
           "body": "カバレッジが許す場合は労働を調整し、ランチオファーを推進し、ピークが終わる前にチームにギャップの一部を回復する機会を与えます。"
         }
       ],
-      "visualHeader": "パルス — ダウンタウン · ランチサービス",
+      "visualHeader": "Pulse — ダウンタウン · ランチサービス",
       "visualLabels": {
         "coversChart": "ランチカバー - 今日 vs 先週同日",
         "coversTrend": "−22% WoW",
@@ -892,7 +892,7 @@ export const generatedLocalCopy = {
       "description": "Sundae কর্মক্ষমতা, পরিকল্পনা, বাজারের প্রেক্ষাপট এবং পরবর্তী পদক্ষেপকে সংযুক্ত করে — যাতে দলগুলি পরিবর্তনের আগে পদক্ষেপ নিতে পারে।",
       "scenarioTime": "মঙ্গলবার · ৯:১৪ AM · ডাউনটাউন",
       "scenarioHook": "দুপুরের খাবারের রাজস্ব পরিকল্পনার থেকে ১৪% পিছিয়ে রয়েছে।",
-      "illustrativeNote": "সুন্ডে-এর সক্ষমতার উপর ভিত্তি করে একটি চিত্রণমূলক দৃশ্য।",
+      "illustrativeNote": "Illustrative scenario based on Sundae capabilities.",
       "closing": "সংকেত থেকে কারণ পর্যন্ত এবং তারপর কার্যক্রম — পরিবর্তন শেষ হওয়ার আগে।",
       "dimensions": [
         {
@@ -920,7 +920,7 @@ export const generatedLocalCopy = {
           "body": "কভারেজ অনুমতি দিলে শ্রম সমন্বয় করুন, লাঞ্চ অফারটি প্রচার করুন, এবং দলের জন্য পিক শেষ হওয়ার আগে ফাঁকটির কিছু অংশ পুনরুদ্ধার করার সুযোগ দিন।"
         }
       ],
-      "visualHeader": "পালস — ডাউনটাউন · লাঞ্চ সার্ভিস",
+      "visualHeader": "Pulse — Downtown · Lunch Service",
       "visualLabels": {
         "coversChart": "লাঞ্চ কভার — আজ বনাম গত সপ্তাহের একই দিনে",
         "coversTrend": "−২২% সপ্তাহে সপ্তাহে",
@@ -929,7 +929,7 @@ export const generatedLocalCopy = {
         "forecast": "পূর্বাভাস",
         "actualRunRate": "বাস্তব রান-রেট",
         "laborNote": "শ্রম এখনও বেসলাইনে — এই পরিমাণের জন্য অতিরিক্ত কর্মী।",
-        "watchtower": "ওয়াচটাওয়ার",
+        "watchtower": "Watchtower",
         "watchtowerItem1": "২ কিমির মধ্যে ৩ প্রতিযোগী গতকাল লাঞ্চ কম্বো $9.99 এ নামিয়ে দিয়েছে",
         "watchtowerItem2": "অফিস-টাওয়ার ফায়ার ড্রিল ১১–১২, ২ ব্লক দূরে নির্ধারিত",
         "coach": "Sundae কোচ",
@@ -1024,7 +1024,7 @@ export const generatedLocalCopy = {
           "body": "커버가 허용된다면 인력을 조정하고, 점심 제안을 밀어주며, 피크가 끝나기 전에 팀이 격차의 일부를 회복할 기회를 줍니다."
         }
       ],
-      "visualHeader": "펄스 — 다운타운 · 점심 서비스",
+      "visualHeader": "Pulse — 다운타운 · 점심 서비스",
       "visualLabels": {
         "coversChart": "점심 커버 - 오늘 vs 지난주 같은 날",
         "coversTrend": "−22% 주간 변동",

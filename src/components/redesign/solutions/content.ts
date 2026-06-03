@@ -2248,8 +2248,8 @@ export const solutionsContent: RequiredEnglishLocalizedRecord<SolutionsContent> 
 };
 
 /* Backward-compat single-locale exports — kept for any non-i18n consumer
-   (e.g. the /solutions hub page meta or a future static export). All page
-   wrappers now read from `solutionsContent[locale]` instead. */
+   (e.g. the /solutions hub page meta or a future static export). Page
+   wrappers should resolve localized records through getLocalizedCopy. */
 export const operationsLeaders = en.operationsLeaders;
 export const financeTeams = en.financeTeams;
 export const cSuite = en.cSuite;

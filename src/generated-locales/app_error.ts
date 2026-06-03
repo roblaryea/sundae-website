@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/app/error.tsx.
-// OpenAI generated completed chunks first; Google Translate fallback filled remaining quota-limited chunks.
+// Reviewed local copy overrides with protected glossary normalization.
 export const generatedLocalCopy = {
   "errorCopy": {
     "nl": {

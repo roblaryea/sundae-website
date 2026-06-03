@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/app/solutions/multi-location-groups/layout.tsx.
-// OpenAI generated completed chunks first; Google Translate fallback filled remaining quota-limited chunks.
+// Structural fields and protected glossary terms normalized from English source; review prose translations before release.
 export const generatedLocalCopy = {
   "copy": {
     "es": {
@@ -40,7 +40,7 @@ export const generatedLocalCopy = {
     },
     "hi": {
       "title": "बहु-स्थान रेस्तरां समूह - प्रत्येक साइट पर एकीकृत इंटेलिजेंस",
-      "description": "संडे मल्टी-लोकेशन रेस्तरां संचालकों को सभी साइटों पर प्रदर्शन का एक ही दृष्टिकोण देता है - बेंचमार्क स्थान, स्पॉट आउटलेर, और जो काम करता है उसका मानकीकरण करता है।"
+      "description": "Sundae मल्टी-लोकेशन रेस्तरां संचालकों को सभी साइटों पर प्रदर्शन का एक ही दृष्टिकोण देता है - बेंचमार्क स्थान, स्पॉट आउटलेर, और जो काम करता है उसका मानकीकरण करता है।"
     },
     "ja": {
       "title": "複数の場所にあるレストラン グループ — すべてのサイトにわたる統合されたインテリジェンス",

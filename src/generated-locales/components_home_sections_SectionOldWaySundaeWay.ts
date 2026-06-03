@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/components/home/sections/SectionOldWaySundaeWay.tsx.
-// Do not edit by hand; regenerate from the English local copy source.
+// Structural fields and protected glossary terms normalized from English source; review prose translations before release.
 export const generatedLocalCopy = {
   "localizedCopy": {
     "de": {
@@ -157,7 +157,7 @@ export const generatedLocalCopy = {
       "headlinePre": "رپورٹس آپ کو بتاتی ہیں کہ کیا ہوا۔",
       "headlinePost": "آپ کو بتاتی ہیں کہ اگلا کیا کرنا ہے۔",
       "oldWayLabel": "پرانا طریقہ",
-      "sundaeWayLabel": "سندے کا طریقہ",
+      "sundaeWayLabel": "The Sundae way",
       "oldWay": [
         "اعداد و شمار برآمد کریں۔",
         "یہ بحث کریں کہ کون سا ڈیش بورڈ صحیح ہے۔",
@@ -175,7 +175,7 @@ export const generatedLocalCopy = {
       "replacesPrefix": "ڈیٹا اور عمل کے درمیان تاخیر کو تبدیل کرتا ہے:",
       "replaces": [
         "ایکسلی برآمدات",
-        "پی او ایس ڈیش بورڈز",
+        "POS dashboards",
         "بی آئی ڈیش بورڈز",
         "تجزیہ کار کی قطار",
         "ہفتہ وار جائزہ اجلاس"
@@ -205,7 +205,7 @@ export const generatedLocalCopy = {
       "replacesPrefix": "Substitui a demora entre dados e ação:",
       "replaces": [
         "exportações do Excel",
-        "painéis de PDV",
+        "painéis de POS",
         "painéis de BI",
         "fila de analistas",
         "reuniões de revisão semanais"
@@ -247,7 +247,7 @@ export const generatedLocalCopy = {
       "headlinePre": "रिपोर्ट्स आपको बताते हैं कि क्या हुआ।",
       "headlinePost": "आपको अगला कदम क्या उठाना है।",
       "oldWayLabel": "पुराना तरीका",
-      "sundaeWayLabel": "संडे का तरीका",
+      "sundaeWayLabel": "Sundae का तरीका",
       "oldWay": [
         "संख्याओं को निर्यात करें।",
         "यह बहस करें कि कौन सा डैशबोर्ड सही है।",
@@ -517,7 +517,7 @@ export const generatedLocalCopy = {
       "headlinePre": "রিপোর্টগুলি আপনাকে কী ঘটেছে তা জানায়।",
       "headlinePost": "আপনাকে পরবর্তী কী করতে হবে তা জানায়।",
       "oldWayLabel": "পুরানো পদ্ধতি",
-      "sundaeWayLabel": "সান্ডে পদ্ধতি",
+      "sundaeWayLabel": "The Sundae way",
       "oldWay": [
         "সংখ্যাগুলি রপ্তানি করুন।",
         "কোন ড্যাশবোর্ড সঠিক তা নিয়ে বিতর্ক করুন।",
@@ -535,7 +535,7 @@ export const generatedLocalCopy = {
       "replacesPrefix": "তথ্য এবং কর্মের মধ্যে বিলম্ব প্রতিস্থাপন করে:",
       "replaces": [
         "এক্সেল রপ্তানি",
-        "পিওএস ড্যাশবোর্ড",
+        "POS dashboards",
         "বিআই ড্যাশবোর্ড",
         "বিশ্লেষক কিউ",
         "সাপ্তাহিক পর্যালোচনা সভা"
@@ -547,7 +547,7 @@ export const generatedLocalCopy = {
       "headlinePre": "รายงานบอกคุณว่าเกิดอะไรขึ้น",
       "headlinePost": "บอกคุณว่าควรทำอะไรต่อไป",
       "oldWayLabel": "วิธีเก่า",
-      "sundaeWayLabel": "วิธีซันเด",
+      "sundaeWayLabel": "The Sundae way",
       "oldWay": [
         "ส่งออกตัวเลข",
         "ถกเถียงว่าดashboard ไหนถูกต้อง",

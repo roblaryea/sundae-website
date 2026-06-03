@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/app/product/watchtower/layout.tsx.
-// OpenAI generated completed chunks first; Google Translate fallback filled remaining quota-limited chunks.
+// Product/module translations manually reviewed for protected Sundae glossary terms and obvious literal phrasing.
 export const generatedLocalCopy = {
   "copy": {
     "es": {
@@ -39,15 +39,15 @@ export const generatedLocalCopy = {
       "openGraphDescription": "Codzienne odprawy oparte na sztucznej inteligencji, śledzenie nazwanej konkurencji, analiza wpływu wydarzeń lokalnych i analiza trendów rynkowych."
     },
     "ur": {
-      "title": "Sundae Watch Tower — ریستوراں کے لیے بیرونی انٹیلی جنس انجن",
+      "title": "Sundae Watchtower — External Intelligence Engine for Restaurants",
       "description": "AI سے چلنے والی روزانہ کی بریفنگ، جس کا نام مسابقتی ٹریکنگ، مقامی ایونٹ کے اثرات کا تجزیہ، اور مارکیٹ ٹرینڈ انٹیلی جنس۔ بیرونی دنیا، آپ کے ریستوراں کے لیے سیاق و سباق کے مطابق۔",
-      "openGraphTitle": "Sundae Watch Tower — ریستوراں کے لیے بیرونی انٹیلی جنس انجن",
+      "openGraphTitle": "Sundae Watchtower — External Intelligence Engine for Restaurants",
       "openGraphDescription": "AI سے چلنے والی روزانہ کی بریفنگ، جس کا نام مسابقتی ٹریکنگ، مقامی ایونٹ کے اثرات کا تجزیہ، اور مارکیٹ ٹرینڈ انٹیلی جنس۔"
     },
     "tr": {
-      "title": "Sundae Gözetleme Kulesi — Restoranlar için Dış İstihbarat Motoru",
+      "title": "Sundae Watchtower — External Intelligence Engine for Restaurants",
       "description": "Yapay zeka destekli günlük brifingler, adlandırılmış rakip takibi, yerel olay etkisi analizi ve pazar trendi istihbaratı. Restoranınız için bağlamsallaştırılmış dış dünya.",
-      "openGraphTitle": "Sundae Gözetleme Kulesi — Restoranlar için Dış İstihbarat Motoru",
+      "openGraphTitle": "Sundae Watchtower — External Intelligence Engine for Restaurants",
       "openGraphDescription": "Yapay zeka destekli günlük brifingler, adlandırılmış rakip takibi, yerel olay etkisi analizi ve pazar trendi istihbaratı."
     },
     "it": {
@@ -69,9 +69,9 @@ export const generatedLocalCopy = {
       "openGraphDescription": "由人工智能驱动的每日简报，称为竞争对手跟踪、本地事件影响分析和市场趋势情报。"
     },
     "hi": {
-      "title": "संडे वॉचटावर - रेस्तरां के लिए बाहरी खुफिया इंजन",
+      "title": "Sundae Watchtower — External Intelligence Engine for Restaurants",
       "description": "एआई-संचालित दैनिक ब्रीफिंग, जिसे प्रतिस्पर्धी ट्रैकिंग, स्थानीय घटना प्रभाव विश्लेषण और बाजार प्रवृत्ति खुफिया नाम दिया गया है। बाहरी दुनिया, आपके रेस्तरां के लिए प्रासंगिक।",
-      "openGraphTitle": "संडे वॉचटावर - रेस्तरां के लिए बाहरी खुफिया इंजन",
+      "openGraphTitle": "Sundae Watchtower — External Intelligence Engine for Restaurants",
       "openGraphDescription": "एआई-संचालित दैनिक ब्रीफिंग, जिसे प्रतिस्पर्धी ट्रैकिंग, स्थानीय घटना प्रभाव विश्लेषण और बाजार प्रवृत्ति खुफिया नाम दिया गया है।"
     },
     "sv": {
@@ -81,15 +81,15 @@ export const generatedLocalCopy = {
       "openGraphDescription": "AI-drivna dagliga genomgångar, namngivna konkurrentspårning, lokal händelseanalys och marknadstrendintelligens."
     },
     "id": {
-      "title": "Menara Pengawal Sundae — Mesin Intelijen Eksternal untuk Restoran",
+      "title": "Sundae Watchtower — External Intelligence Engine for Restaurants",
       "description": "Pengarahan harian yang didukung AI, pelacakan pesaing, analisis dampak peristiwa lokal, dan intelijen tren pasar. Dunia luar, dikontekstualisasikan untuk restoran Anda.",
-      "openGraphTitle": "Menara Pengawal Sundae — Mesin Intelijen Eksternal untuk Restoran",
+      "openGraphTitle": "Sundae Watchtower — External Intelligence Engine for Restaurants",
       "openGraphDescription": "Pengarahan harian yang didukung AI, pelacakan pesaing, analisis dampak peristiwa lokal, dan intelijen tren pasar."
     },
     "ja": {
-      "title": "Sunday Watchtower — レストラン向けの外部インテリジェンス エンジン",
+      "title": "Sundae Watchtower — External Intelligence Engine for Restaurants",
       "description": "AI を活用した毎日のブリーフィング、競合他社の追跡、ローカル イベントの影響分析、市場動向のインテリジェンス。レストランの状況に応じた外の世界。",
-      "openGraphTitle": "Sunday Watchtower — レストラン向けの外部インテリジェンス エンジン",
+      "openGraphTitle": "Sundae Watchtower — External Intelligence Engine for Restaurants",
       "openGraphDescription": "AI を活用した毎日のブリーフィング、競合他社の追跡、ローカル イベントの影響分析、市場動向のインテリジェンス。"
     },
     "ro": {
@@ -99,27 +99,27 @@ export const generatedLocalCopy = {
       "openGraphDescription": "Briefing-uri zilnice bazate pe inteligență artificială, urmărirea competitorilor numiți, analiza impactului evenimentelor locale și informații despre tendințele pieței."
     },
     "ko": {
-      "title": "순대파수대 — 레스토랑을 위한 외부 지능 엔진",
+      "title": "Sundae Watchtower — External Intelligence Engine for Restaurants",
       "description": "AI 기반 일일 브리핑, 경쟁사 추적, 지역 이벤트 영향 분석 및 시장 동향 인텔리전스. 레스토랑에 맞게 상황에 맞는 외부 세계.",
-      "openGraphTitle": "순대파수대 — 레스토랑을 위한 외부 지능 엔진",
+      "openGraphTitle": "Sundae Watchtower — External Intelligence Engine for Restaurants",
       "openGraphDescription": "AI 기반 일일 브리핑, 경쟁사 추적, 지역 이벤트 영향 분석 및 시장 동향 인텔리전스."
     },
     "vi": {
-      "title": "Tháp canh Sundae — Công cụ thông minh bên ngoài dành cho nhà hàng",
+      "title": "Sundae Watchtower — External Intelligence Engine for Restaurants",
       "description": "Các cuộc họp giao ban hàng ngày được hỗ trợ bởi AI, theo dõi đối thủ cạnh tranh được đặt tên, phân tích tác động của sự kiện địa phương và thông tin xu hướng thị trường. Thế giới bên ngoài, được bối cảnh hóa cho nhà hàng của bạn.",
-      "openGraphTitle": "Tháp canh Sundae — Công cụ thông minh bên ngoài dành cho nhà hàng",
+      "openGraphTitle": "Sundae Watchtower — External Intelligence Engine for Restaurants",
       "openGraphDescription": "Các cuộc họp giao ban hàng ngày được hỗ trợ bởi AI, theo dõi đối thủ cạnh tranh được đặt tên, phân tích tác động của sự kiện địa phương và thông tin xu hướng thị trường."
     },
     "bn": {
-      "title": "Sundae ওয়াচটাওয়ার — রেস্তোরাঁর জন্য বাহ্যিক বুদ্ধিমত্তা ইঞ্জিন",
+      "title": "Sundae Watchtower — External Intelligence Engine for Restaurants",
       "description": "এআই-চালিত দৈনিক ব্রিফিং, প্রতিযোগী ট্র্যাকিং, স্থানীয় ইভেন্ট প্রভাব বিশ্লেষণ এবং বাজারের প্রবণতা বুদ্ধিমত্তা। বাইরের বিশ্ব, আপনার রেস্তোরাঁর জন্য প্রাসঙ্গিক।",
-      "openGraphTitle": "Sundae ওয়াচটাওয়ার — রেস্তোরাঁর জন্য বাহ্যিক বুদ্ধিমত্তা ইঞ্জিন",
+      "openGraphTitle": "Sundae Watchtower — External Intelligence Engine for Restaurants",
       "openGraphDescription": "এআই-চালিত দৈনিক ব্রিফিং, প্রতিযোগী ট্র্যাকিং, স্থানীয় ইভেন্ট প্রভাব বিশ্লেষণ এবং বাজারের প্রবণতা বুদ্ধিমত্তা।"
     },
     "th": {
-      "title": "หอสังเกตการณ์ซุนแด - เครื่องมือข่าวกรองภายนอกสำหรับร้านอาหาร",
+      "title": "Sundae Watchtower — External Intelligence Engine for Restaurants",
       "description": "การบรรยายสรุปรายวันที่ขับเคลื่อนด้วย AI การติดตามคู่แข่งที่มีชื่อ การวิเคราะห์ผลกระทบของเหตุการณ์ในท้องถิ่น และข้อมูลแนวโน้มของตลาด โลกภายนอกตามบริบทสำหรับร้านอาหารของคุณ",
-      "openGraphTitle": "หอสังเกตการณ์ซุนแด - เครื่องมือข่าวกรองภายนอกสำหรับร้านอาหาร",
+      "openGraphTitle": "Sundae Watchtower — External Intelligence Engine for Restaurants",
       "openGraphDescription": "การบรรยายสรุปรายวันที่ขับเคลื่อนด้วย AI การติดตามคู่แข่งที่มีชื่อ การวิเคราะห์ผลกระทบของเหตุการณ์ในท้องถิ่น และข้อมูลแนวโน้มของตลาด"
     },
     "ms": {

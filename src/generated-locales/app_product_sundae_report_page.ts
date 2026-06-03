@@ -1,10 +1,10 @@
 // Generated website local copy overrides for src/app/product/sundae-report/page.tsx.
-// OpenAI generated completed chunks first; Google Translate fallback filled remaining quota-limited chunks.
+// Product/module translations manually reviewed for protected Sundae glossary terms and obvious literal phrasing.
 export const generatedLocalCopy = {
   "reportCopy": {
     "pt": {
       "badge": "Benchmarking gratuito de restaurantes",
-      "title": "Relatório Sundae",
+      "title": "Sundae Report",
       "description": "Obtenha um relatório de benchmarking gratuito comparando o desempenho do seu restaurante com os padrões do setor. Veja exatamente onde você está e o que melhorar.",
       "primary": "Gerar relatório gratuito",
       "secondary": "Saiba mais sobre o Sundae Core",
@@ -26,13 +26,13 @@ export const generatedLocalCopy = {
         {
           "name": "Desempenho de vendas",
           "metrics": [
-            "Receita por metro quadrado",
+            "Revenue per Square Foot",
             "Tamanho médio do cheque",
             "Contagem diária de transações",
             "Análise do horário de pico"
           ],
-          "icon": "finanças",
-          "color": "bg-verde-500"
+          "icon": "finance",
+          "color": "bg-green-500"
         },
         {
           "name": "Eficiência Trabalhista",
@@ -42,8 +42,8 @@ export const generatedLocalCopy = {
             "Produtividade da equipe",
             "Tendências de horas extras"
           ],
-          "icon": "trabalho",
-          "color": "bg-azul-500"
+          "icon": "labor",
+          "color": "bg-blue-500"
         },
         {
           "name": "Gestão de Custos Alimentares",
@@ -53,8 +53,8 @@ export const generatedLocalCopy = {
             "Rotatividade de estoque",
             "Análise de CPV"
           ],
-          "icon": "diminuir",
-          "color": "bg-laranja-500"
+          "icon": "decrease",
+          "color": "bg-orange-500"
         },
         {
           "name": "Métricas Operacionais",
@@ -64,8 +64,8 @@ export const generatedLocalCopy = {
             "Satisfação do Cliente",
             "Velocidade de serviço"
           ],
-          "icon": "velocidade",
-          "color": "bg-roxo-500"
+          "icon": "speed",
+          "color": "bg-purple-500"
         }
       ],
       "howItWorks": [
@@ -116,13 +116,13 @@ export const generatedLocalCopy = {
         {
           "title": "Obtenha insights acionáveis",
           "desc": "Receba recomendações específicas para melhorar",
-          "icon": "inteligência"
+          "icon": "intelligence"
         }
       ]
     },
     "ar": {
       "badge": "قياس أداء المطاعم مجانًا",
-      "title": "تقرير ساندي",
+      "title": "Sundae Report",
       "description": "احصل على تقرير قياس أداء مجاني يقارن أداء مطعمك بمعايير الصناعة. انظر بالضبط أين تقف وما الذي يجب تحسينه.",
       "primary": "إنشاء تقرير مجاني",
       "secondary": "تعرف على Sundae Core",
@@ -144,13 +144,13 @@ export const generatedLocalCopy = {
         {
           "name": "أداء المبيعات",
           "metrics": [
-            "الإيرادات لكل قدم مربع",
+            "Revenue per Square Foot",
             "متوسط حجم الشيك",
             "عدد المعاملات اليومية",
             "تحليل ساعة الذروة"
           ],
-          "icon": "تمويل",
-          "color": "بي جي-الأخضر-500"
+          "icon": "finance",
+          "color": "bg-green-500"
         },
         {
           "name": "كفاءة العمل",
@@ -160,8 +160,8 @@ export const generatedLocalCopy = {
             "إنتاجية الموظفين",
             "اتجاهات العمل الإضافي"
           ],
-          "icon": "العمل",
-          "color": "بي جي-الأزرق-500"
+          "icon": "labor",
+          "color": "bg-blue-500"
         },
         {
           "name": "إدارة تكاليف الغذاء",
@@ -171,8 +171,8 @@ export const generatedLocalCopy = {
             "دوران المخزون",
             "تحليل COGS"
           ],
-          "icon": "انخفاض",
-          "color": "بي جي-برتقالي-500"
+          "icon": "decrease",
+          "color": "bg-orange-500"
         },
         {
           "name": "المقاييس التشغيلية",
@@ -182,14 +182,14 @@ export const generatedLocalCopy = {
             "رضا العملاء",
             "سرعة الخدمة"
           ],
-          "icon": "السرعة",
-          "color": "بي جي-أرجواني-500"
+          "icon": "speed",
+          "color": "bg-purple-500"
         }
       ],
       "howItWorks": [
         {
           "title": "قم بتحميل بياناتك",
-          "description": "قم بتوصيل نظام نقاط البيع الخاص بك بشكل آمن أو قم بتحميل بيانات المبيعات والعمالة والتكلفة."
+          "description": "قم بتوصيل نظام POS الخاص بك بشكل آمن أو قم بتحميل بيانات المبيعات والعمالة والتكلفة."
         },
         {
           "title": "تحليل فوري",
@@ -224,26 +224,26 @@ export const generatedLocalCopy = {
         {
           "title": "تحديد الفرص",
           "desc": "حدد المجالات التي يمكنك تحسينها على الفور",
-          "icon": "التسويق"
+          "icon": "marketing"
         },
         {
           "title": "الأداء المعياري",
           "desc": "انظر كيف تتنافس مع المطاعم المماثلة",
-          "icon": "قياس الأداء"
+          "icon": "benchmarking"
         },
         {
           "title": "احصل على رؤى قابلة للتنفيذ",
           "desc": "تلقي توصيات محددة للتحسين",
-          "icon": "الذكاء"
+          "icon": "intelligence"
         }
       ]
     },
     "es": {
       "badge": "Evaluación comparativa de restaurantes gratuita",
-      "title": "Informe de helado",
+      "title": "Sundae Report",
       "description": "Obtenga un informe de evaluación comparativa gratuito que compara el desempeño de su restaurante con los estándares de la industria. Vea exactamente dónde se encuentra y qué puede mejorar.",
       "primary": "Generar informe gratuito",
-      "secondary": "Obtenga más información sobre el núcleo del helado",
+      "secondary": "Learn About Sundae Core",
       "compareTitle": "Vea cómo se compara",
       "compareDescription": "Compare su restaurante en categorías de rendimiento clave con empresas similares",
       "howTitle": "Cómo funciona",
@@ -256,19 +256,19 @@ export const generatedLocalCopy = {
       "potentialImpactLabel": "Impacto potencial:",
       "whyTitle": "¿Por qué gratis?",
       "whyDescription": "Creemos que cada restaurante debe entender su desempeño. Nuestro informe gratuito le ofrece una muestra de la inteligencia de decisiones que impulsa Sundae Core.",
-      "ctaTitle": "¿Listo para ver sus puntos de referencia?",
+      "ctaTitle": "¿Listo para ver sus benchmarks?",
       "ctaDescription": "Únase a miles de operadores de restaurantes que utilizan Sundae Report para comprender su desempeño. No se requiere tarjeta de crédito ni obligaciones: solo información.",
       "benchmarkCategories": [
         {
           "name": "Rendimiento de ventas",
           "metrics": [
-            "Ingresos por pie cuadrado",
+            "Revenue per Square Foot",
             "Tamaño promedio del cheque",
             "Recuento diario de transacciones",
             "Análisis de horas pico"
           ],
-          "icon": "finanzas",
-          "color": "bg-verde-500"
+          "icon": "finance",
+          "color": "bg-green-500"
         },
         {
           "name": "Eficiencia Laboral",
@@ -278,8 +278,8 @@ export const generatedLocalCopy = {
             "Productividad del personal",
             "Tendencias de horas extras"
           ],
-          "icon": "mano de obra",
-          "color": "bg-azul-500"
+          "icon": "labor",
+          "color": "bg-blue-500"
         },
         {
           "name": "Gestión de costos de alimentos",
@@ -289,8 +289,8 @@ export const generatedLocalCopy = {
             "Rotación de inventario",
             "Análisis de COGS"
           ],
-          "icon": "disminuir",
-          "color": "bg-naranja-500"
+          "icon": "decrease",
+          "color": "bg-orange-500"
         },
         {
           "name": "Métricas operativas",
@@ -300,8 +300,8 @@ export const generatedLocalCopy = {
             "Satisfacción del cliente",
             "Velocidad de servicio"
           ],
-          "icon": "velocidad",
-          "color": "bg-púrpura-500"
+          "icon": "speed",
+          "color": "bg-purple-500"
         }
       ],
       "howItWorks": [
@@ -342,23 +342,23 @@ export const generatedLocalCopy = {
         {
           "title": "Identificar oportunidades",
           "desc": "Identifica áreas donde puedas mejorar inmediatamente",
-          "icon": "márketing"
+          "icon": "marketing"
         },
         {
           "title": "Rendimiento de referencia",
           "desc": "Vea cómo se compara con restaurantes similares",
-          "icon": "evaluación comparativa"
+          "icon": "benchmarking"
         },
         {
           "title": "Obtenga información útil",
           "desc": "Recibir recomendaciones específicas para mejorar",
-          "icon": "inteligencia"
+          "icon": "intelligence"
         }
       ]
     },
     "fr": {
       "badge": "Analyse comparative gratuite des restaurants",
-      "title": "Rapport sur les coupes glacées",
+      "title": "Sundae Report",
       "description": "Obtenez un rapport d'analyse comparative gratuit comparant les performances de votre restaurant aux normes de l'industrie. Voyez exactement où vous en êtes et ce que vous devez améliorer.",
       "primary": "Générer un rapport gratuit",
       "secondary": "En savoir plus sur Sundae Core",
@@ -380,13 +380,13 @@ export const generatedLocalCopy = {
         {
           "name": "Performances commerciales",
           "metrics": [
-            "Revenu par pied carré",
+            "Revenue per Square Foot",
             "Taille moyenne des chèques",
             "Nombre de transactions quotidiennes",
             "Analyse des heures de pointe"
           ],
-          "icon": "finances",
-          "color": "bg-vert-500"
+          "icon": "finance",
+          "color": "bg-green-500"
         },
         {
           "name": "Efficacité du travail",
@@ -396,8 +396,8 @@ export const generatedLocalCopy = {
             "Productivité du personnel",
             "Tendances des heures supplémentaires"
           ],
-          "icon": "travail",
-          "color": "bg-bleu-500"
+          "icon": "labor",
+          "color": "bg-blue-500"
         },
         {
           "name": "Gestion des coûts alimentaires",
@@ -407,7 +407,7 @@ export const generatedLocalCopy = {
             "Rotation des stocks",
             "Analyse COGS"
           ],
-          "icon": "diminuer",
+          "icon": "decrease",
           "color": "bg-orange-500"
         },
         {
@@ -418,14 +418,14 @@ export const generatedLocalCopy = {
             "Satisfaction client",
             "Rapidité du service"
           ],
-          "icon": "vitesse",
-          "color": "bg-violet-500"
+          "icon": "speed",
+          "color": "bg-purple-500"
         }
       ],
       "howItWorks": [
         {
           "title": "Téléchargez vos données",
-          "description": "Connectez en toute sécurité votre système de point de vente ou téléchargez des données sur les ventes, la main-d'œuvre et les coûts."
+          "description": "Securely connect your POS system or upload sales, labor, and cost data."
         },
         {
           "title": "Analyse instantanée",
@@ -460,23 +460,23 @@ export const generatedLocalCopy = {
         {
           "title": "Identifier les opportunités",
           "desc": "Repérez les domaines dans lesquels vous pouvez vous améliorer immédiatement",
-          "icon": "commercialisation"
+          "icon": "marketing"
         },
         {
           "title": "Performance de référence",
           "desc": "Voyez comment vous vous situez par rapport à des restaurants similaires",
-          "icon": "analyse comparative"
+          "icon": "benchmarking"
         },
         {
           "title": "Obtenez des informations exploitables",
           "desc": "Recevez des recommandations spécifiques pour améliorer",
-          "icon": "renseignement"
+          "icon": "intelligence"
         }
       ]
     },
     "de": {
       "badge": "Kostenloses Restaurant-Benchmarking",
-      "title": "Eisbecher-Bericht",
+      "title": "Sundae Report",
       "description": "Erhalten Sie einen kostenlosen Benchmarking-Bericht, der die Leistung Ihres Restaurants mit Branchenstandards vergleicht. Sehen Sie genau, wo Sie stehen und was Sie verbessern können.",
       "primary": "Erstellen Sie einen kostenlosen Bericht",
       "secondary": "Erfahren Sie mehr über Sundae Core",
@@ -498,13 +498,13 @@ export const generatedLocalCopy = {
         {
           "name": "Vertriebsleistung",
           "metrics": [
-            "Umsatz pro Quadratfuß",
+            "Revenue per Square Foot",
             "Durchschnittliche Scheckgröße",
             "Tägliche Transaktionsanzahl",
             "Analyse der Spitzenzeiten"
           ],
-          "icon": "Finanzen",
-          "color": "bg-grün-500"
+          "icon": "finance",
+          "color": "bg-green-500"
         },
         {
           "name": "Arbeitseffizienz",
@@ -514,8 +514,8 @@ export const generatedLocalCopy = {
             "Mitarbeiterproduktivität",
             "Überstundentrends"
           ],
-          "icon": "Arbeit",
-          "color": "bg-blau-500"
+          "icon": "labor",
+          "color": "bg-blue-500"
         },
         {
           "name": "Lebensmittelkostenmanagement",
@@ -525,7 +525,7 @@ export const generatedLocalCopy = {
             "Lagerumschlag",
             "COGS-Analyse"
           ],
-          "icon": "abnehmen",
+          "icon": "decrease",
           "color": "bg-orange-500"
         },
         {
@@ -536,14 +536,14 @@ export const generatedLocalCopy = {
             "Kundenzufriedenheit",
             "Servicegeschwindigkeit"
           ],
-          "icon": "Geschwindigkeit",
-          "color": "bg-lila-500"
+          "icon": "speed",
+          "color": "bg-purple-500"
         }
       ],
       "howItWorks": [
         {
           "title": "Laden Sie Ihre Daten hoch",
-          "description": "Schließen Sie Ihr Kassensystem sicher an oder laden Sie Verkaufs-, Arbeits- und Kostendaten hoch."
+          "description": "Securely connect your POS system or upload sales, labor, and cost data."
         },
         {
           "title": "Sofortige Analyse",
@@ -578,23 +578,23 @@ export const generatedLocalCopy = {
         {
           "title": "Identifizieren Sie Chancen",
           "desc": "Erkennen Sie Bereiche, in denen Sie sich sofort verbessern können",
-          "icon": "Marketing"
+          "icon": "marketing"
         },
         {
           "title": "Benchmark-Leistung",
           "desc": "Sehen Sie, wie Sie im Vergleich zu ähnlichen Restaurants abschneiden",
-          "icon": "Benchmarking"
+          "icon": "benchmarking"
         },
         {
           "title": "Erhalten Sie umsetzbare Erkenntnisse",
           "desc": "Erhalten Sie konkrete Empfehlungen zur Verbesserung",
-          "icon": "Intelligenz"
+          "icon": "intelligence"
         }
       ]
     },
     "nl": {
       "badge": "Gratis restaurantbenchmarking",
-      "title": "Sundae-rapport",
+      "title": "Sundae Report",
       "description": "Ontvang een gratis benchmarkrapport waarin u de prestaties van uw restaurant vergelijkt met branchenormen. Bekijk precies waar u staat en wat u kunt verbeteren.",
       "primary": "Genereer een gratis rapport",
       "secondary": "Meer informatie over Sundae Core",
@@ -616,13 +616,13 @@ export const generatedLocalCopy = {
         {
           "name": "Verkoopprestaties",
           "metrics": [
-            "Opbrengst per vierkante voet",
+            "Revenue per Square Foot",
             "Gemiddelde chequegrootte",
             "Dagelijkse transactietelling",
             "Analyse van piekuren"
           ],
-          "icon": "financiën",
-          "color": "bg-groen-500"
+          "icon": "finance",
+          "color": "bg-green-500"
         },
         {
           "name": "Arbeidsefficiëntie",
@@ -632,8 +632,8 @@ export const generatedLocalCopy = {
             "Productiviteit van het personeel",
             "Trends over overuren"
           ],
-          "icon": "arbeid",
-          "color": "bg-blauw-500"
+          "icon": "labor",
+          "color": "bg-blue-500"
         },
         {
           "name": "Beheer van voedselkosten",
@@ -643,8 +643,8 @@ export const generatedLocalCopy = {
             "Voorraadomzet",
             "COGS-analyse"
           ],
-          "icon": "afnemen",
-          "color": "bg-oranje-500"
+          "icon": "decrease",
+          "color": "bg-orange-500"
         },
         {
           "name": "Operationele statistieken",
@@ -654,14 +654,14 @@ export const generatedLocalCopy = {
             "Klanttevredenheid",
             "Snelheid van service"
           ],
-          "icon": "snelheid",
-          "color": "bg-paars-500"
+          "icon": "speed",
+          "color": "bg-purple-500"
         }
       ],
       "howItWorks": [
         {
           "title": "Upload uw gegevens",
-          "description": "Verbind uw kassasysteem veilig of upload verkoop-, arbeids- en kostengegevens."
+          "description": "Securely connect your POS system or upload sales, labor, and cost data."
         },
         {
           "title": "Onmiddellijke analyse",
@@ -706,13 +706,13 @@ export const generatedLocalCopy = {
         {
           "title": "Krijg bruikbare inzichten",
           "desc": "Ontvang specifieke aanbevelingen om te verbeteren",
-          "icon": "intelligentie"
+          "icon": "intelligence"
         }
       ]
     },
     "ur": {
       "badge": "مفت ریستوراں بینچ مارکنگ",
-      "title": "سنڈے رپورٹ",
+      "title": "Sundae Report",
       "description": "صنعت کے معیارات کے خلاف اپنے ریستوراں کی کارکردگی کا موازنہ کرنے والی ایک مفت بینچ مارکنگ رپورٹ حاصل کریں۔ بالکل دیکھیں کہ آپ کہاں کھڑے ہیں اور کیا بہتر کرنا ہے۔",
       "primary": "مفت رپورٹ بنائیں",
       "secondary": "Sundae Core کے بارے میں جانیں۔",
@@ -729,17 +729,17 @@ export const generatedLocalCopy = {
       "whyTitle": "مفت کیوں؟",
       "whyDescription": "ہمارا ماننا ہے کہ ہر ریسٹورنٹ کو یہ سمجھنا چاہیے کہ وہ کیسا پرفارم کر رہے ہیں۔ ہماری مفت رپورٹ آپ کو فیصلہ کن ذہانت کا ذائقہ دیتی ہے جو Sundae Core کو طاقت دیتی ہے۔",
       "ctaTitle": "اپنے معیارات دیکھنے کے لیے تیار ہیں؟",
-      "ctaDescription": "ان ہزاروں ریستوراں آپریٹرز میں شامل ہوں جو اپنی کارکردگی کو سمجھنے کے لیے Sundae رپورٹ کا استعمال کرتے ہیں۔ کسی کریڈٹ کارڈ کی ضرورت نہیں، کوئی ذمہ داری نہیں - صرف بصیرت۔",
+      "ctaDescription": "ان ہزاروں ریستوراں آپریٹرز میں شامل ہوں جو اپنی کارکردگی کو سمجھنے کے لیے Sundae Report کا استعمال کرتے ہیں۔ کسی کریڈٹ کارڈ کی ضرورت نہیں، کوئی ذمہ داری نہیں - صرف بصیرت۔",
       "benchmarkCategories": [
         {
           "name": "سیلز کی کارکردگی",
           "metrics": [
-            "آمدنی فی مربع فٹ",
+            "Revenue per Square Foot",
             "اوسط چیک سائز",
             "روزانہ لین دین کی گنتی",
             "چوٹی کے اوقات کا تجزیہ"
           ],
-          "icon": "فنانس",
+          "icon": "finance",
           "color": "bg-green-500"
         },
         {
@@ -750,7 +750,7 @@ export const generatedLocalCopy = {
             "عملے کی پیداواری صلاحیت",
             "اوور ٹائم ٹرینڈز"
           ],
-          "icon": "مزدوری",
+          "icon": "labor",
           "color": "bg-blue-500"
         },
         {
@@ -761,8 +761,8 @@ export const generatedLocalCopy = {
             "انوینٹری ٹرن اوور",
             "COGS تجزیہ"
           ],
-          "icon": "کمی",
-          "color": "bg-اورنج-500"
+          "icon": "decrease",
+          "color": "bg-orange-500"
         },
         {
           "name": "آپریشنل میٹرکس",
@@ -772,7 +772,7 @@ export const generatedLocalCopy = {
             "گاہک کی اطمینان",
             "سروس کی رفتار"
           ],
-          "icon": "رفتار",
+          "icon": "speed",
           "color": "bg-purple-500"
         }
       ],
@@ -814,23 +814,23 @@ export const generatedLocalCopy = {
         {
           "title": "مواقع کی شناخت کریں۔",
           "desc": "جگہ جگہ جہاں آپ فوری طور پر بہتر کر سکتے ہیں",
-          "icon": "مارکیٹنگ"
+          "icon": "marketing"
         },
         {
           "title": "بینچ مارک کارکردگی",
           "desc": "دیکھیں کہ آپ ملتے جلتے ریستوراں کے خلاف کیسے کھڑے ہیں۔",
-          "icon": "بینچ مارکنگ"
+          "icon": "benchmarking"
         },
         {
           "title": "قابل عمل بصیرت حاصل کریں۔",
           "desc": "بہتر بنانے کے لیے مخصوص سفارشات حاصل کریں۔",
-          "icon": "ذہانت"
+          "icon": "intelligence"
         }
       ]
     },
     "it": {
       "badge": "Benchmarking gratuito dei ristoranti",
-      "title": "Rapporto sul gelato",
+      "title": "Sundae Report",
       "description": "Ottieni un rapporto di benchmarking gratuito che confronta le prestazioni del tuo ristorante rispetto agli standard del settore. Scopri esattamente a che punto sei e cosa migliorare.",
       "primary": "Genera report gratuito",
       "secondary": "Scopri di più sul Sundae Core",
@@ -852,13 +852,13 @@ export const generatedLocalCopy = {
         {
           "name": "Andamento delle vendite",
           "metrics": [
-            "Entrate per piede quadrato",
+            "Revenue per Square Foot",
             "Dimensione media dell'assegno",
             "Conteggio delle transazioni giornaliere",
             "Analisi delle ore di punta"
           ],
-          "icon": "finanza",
-          "color": "bg-verde-500"
+          "icon": "finance",
+          "color": "bg-green-500"
         },
         {
           "name": "Efficienza del lavoro",
@@ -868,8 +868,8 @@ export const generatedLocalCopy = {
             "Produttività del personale",
             "Tendenze sugli straordinari"
           ],
-          "icon": "lavoro",
-          "color": "bg-blu-500"
+          "icon": "labor",
+          "color": "bg-blue-500"
         },
         {
           "name": "Gestione dei costi alimentari",
@@ -879,8 +879,8 @@ export const generatedLocalCopy = {
             "Fatturato delle scorte",
             "Analisi COGS"
           ],
-          "icon": "diminuire",
-          "color": "bg-arancione-500"
+          "icon": "decrease",
+          "color": "bg-orange-500"
         },
         {
           "name": "Metriche operative",
@@ -890,8 +890,8 @@ export const generatedLocalCopy = {
             "Soddisfazione del cliente",
             "Velocità del servizio"
           ],
-          "icon": "velocità",
-          "color": "bg-viola-500"
+          "icon": "speed",
+          "color": "bg-purple-500"
         }
       ],
       "howItWorks": [
@@ -932,7 +932,7 @@ export const generatedLocalCopy = {
         {
           "title": "Identificare le opportunità",
           "desc": "Individua le aree in cui puoi migliorare immediatamente",
-          "icon": "commercializzazione"
+          "icon": "marketing"
         },
         {
           "title": "Prestazioni di riferimento",
@@ -942,13 +942,13 @@ export const generatedLocalCopy = {
         {
           "title": "Ottieni informazioni utili",
           "desc": "Ricevi consigli specifici per migliorare",
-          "icon": "intelligenza"
+          "icon": "intelligence"
         }
       ]
     },
     "tr": {
       "badge": "Ücretsiz restoran kıyaslaması",
-      "title": "Pazar Raporu",
+      "title": "Sundae Report",
       "description": "Restoranınızın performansını endüstri standartlarıyla karşılaştıran ücretsiz bir kıyaslama raporu alın. Tam olarak nerede durduğunuzu ve neleri geliştirmeniz gerektiğini görün.",
       "primary": "Ücretsiz Rapor Oluştur",
       "secondary": "Sundae Core Hakkında Bilgi Edinin",
@@ -970,12 +970,12 @@ export const generatedLocalCopy = {
         {
           "name": "Satış Performansı",
           "metrics": [
-            "Metrekare Başına Gelir",
+            "Revenue per Square Foot",
             "Ortalama Çek Boyutu",
             "Günlük İşlem Sayısı",
             "Yoğun Saat Analizi"
           ],
-          "icon": "finans",
+          "icon": "finance",
           "color": "bg-green-500"
         },
         {
@@ -986,8 +986,8 @@ export const generatedLocalCopy = {
             "Personel Verimliliği",
             "Fazla Mesai Eğilimleri"
           ],
-          "icon": "emek",
-          "color": "bg-mavi-500"
+          "icon": "labor",
+          "color": "bg-blue-500"
         },
         {
           "name": "Gıda Maliyet Yönetimi",
@@ -997,8 +997,8 @@ export const generatedLocalCopy = {
             "Envanter Devri",
             "SMM Analizi"
           ],
-          "icon": "azalma",
-          "color": "bg-turuncu-500"
+          "icon": "decrease",
+          "color": "bg-orange-500"
         },
         {
           "name": "Operasyonel Metrikler",
@@ -1008,8 +1008,8 @@ export const generatedLocalCopy = {
             "Müşteri Memnuniyeti",
             "Servis Hızı"
           ],
-          "icon": "hız",
-          "color": "bg-mor-500"
+          "icon": "speed",
+          "color": "bg-purple-500"
         }
       ],
       "howItWorks": [
@@ -1050,26 +1050,26 @@ export const generatedLocalCopy = {
         {
           "title": "Fırsatları Belirleyin",
           "desc": "Hemen geliştirebileceğiniz alanları tespit edin",
-          "icon": "pazarlama"
+          "icon": "marketing"
         },
         {
           "title": "Karşılaştırma Performansı",
           "desc": "Benzer restoranlara göre nasıl bir performans sergilediğinizi görün",
-          "icon": "kıyaslama"
+          "icon": "benchmarking"
         },
         {
           "title": "Uygulanabilir Bilgiler Alın",
           "desc": "İyileştirmeye yönelik özel öneriler alın",
-          "icon": "istihbarat"
+          "icon": "intelligence"
         }
       ]
     },
     "hi": {
       "badge": "निःशुल्क रेस्तरां बेंचमार्किंग",
-      "title": "संडे रिपोर्ट",
+      "title": "Sundae Report",
       "description": "उद्योग मानकों के विरुद्ध अपने रेस्तरां के प्रदर्शन की तुलना करने वाली एक निःशुल्क बेंचमार्किंग रिपोर्ट प्राप्त करें। ठीक से देखें कि आप कहां खड़े हैं और क्या सुधार करना है।",
       "primary": "निःशुल्क रिपोर्ट जनरेट करें",
-      "secondary": "संडे कोर के बारे में जानें",
+      "secondary": "Learn About Sundae Core",
       "compareTitle": "देखें आप कैसे तुलना करते हैं",
       "compareDescription": "समान व्यवसायों के मुकाबले प्रमुख प्रदर्शन श्रेणियों में अपने रेस्तरां को बेंचमार्क करें",
       "howTitle": "यह कैसे काम करता है",
@@ -1081,20 +1081,20 @@ export const generatedLocalCopy = {
       "recommendationLabel": "सिफ़ारिश:",
       "potentialImpactLabel": "संभावित प्रभाव:",
       "whyTitle": "मुफ़्त क्यों?",
-      "whyDescription": "हमारा मानना है कि प्रत्येक रेस्तरां को यह समझना चाहिए कि वे कैसा प्रदर्शन कर रहे हैं। हमारी निःशुल्क रिपोर्ट आपको संडे कोर को शक्ति प्रदान करने वाली निर्णय बुद्धिमत्ता का स्वाद चखाती है।",
+      "whyDescription": "हमारा मानना है कि प्रत्येक रेस्तरां को यह समझना चाहिए कि वे कैसा प्रदर्शन कर रहे हैं। हमारी निःशुल्क रिपोर्ट आपको Sundae Core को शक्ति प्रदान करने वाली निर्णय बुद्धिमत्ता का स्वाद चखाती है।",
       "ctaTitle": "क्या आप अपने बेंचमार्क देखने के लिए तैयार हैं?",
-      "ctaDescription": "उन हजारों रेस्तरां संचालकों से जुड़ें जो अपने प्रदर्शन को समझने के लिए संडे रिपोर्ट का उपयोग करते हैं। किसी क्रेडिट कार्ड की आवश्यकता नहीं, कोई दायित्व नहीं - बस अंतर्दृष्टि।",
+      "ctaDescription": "उन हजारों रेस्तरां संचालकों से जुड़ें जो अपने प्रदर्शन को समझने के लिए Sundae Report का उपयोग करते हैं। किसी क्रेडिट कार्ड की आवश्यकता नहीं, कोई दायित्व नहीं - बस अंतर्दृष्टि।",
       "benchmarkCategories": [
         {
           "name": "बिक्री प्रदर्शन",
           "metrics": [
-            "प्रति वर्ग फुट राजस्व",
+            "Revenue per Square Foot",
             "औसत चेक आकार",
             "दैनिक लेनदेन गणना",
             "पीक ऑवर विश्लेषण"
           ],
-          "icon": "वित्त",
-          "color": "बीजी-हरा-500"
+          "icon": "finance",
+          "color": "bg-green-500"
         },
         {
           "name": "श्रम दक्षता",
@@ -1104,8 +1104,8 @@ export const generatedLocalCopy = {
             "स्टाफ उत्पादकता",
             "ओवरटाइम रुझान"
           ],
-          "icon": "श्रम",
-          "color": "बीजी-नीला-500"
+          "icon": "labor",
+          "color": "bg-blue-500"
         },
         {
           "name": "खाद्य लागत प्रबंधन",
@@ -1115,8 +1115,8 @@ export const generatedLocalCopy = {
             "इन्वेंटरी टर्नओवर",
             "सीओजीएस विश्लेषण"
           ],
-          "icon": "कमी",
-          "color": "बीजी-नारंगी-500"
+          "icon": "decrease",
+          "color": "bg-orange-500"
         },
         {
           "name": "ऑपरेशनल मेट्रिक्स",
@@ -1126,14 +1126,14 @@ export const generatedLocalCopy = {
             "ग्राहक संतुष्टि",
             "सेवा की गति"
           ],
-          "icon": "गति",
-          "color": "बीजी-बैंगनी-500"
+          "icon": "speed",
+          "color": "bg-purple-500"
         }
       ],
       "howItWorks": [
         {
           "title": "अपना डेटा अपलोड करें",
-          "description": "अपने पीओएस सिस्टम को सुरक्षित रूप से कनेक्ट करें या बिक्री, श्रम और लागत डेटा अपलोड करें।"
+          "description": "अपने POS सिस्टम को सुरक्षित रूप से कनेक्ट करें या बिक्री, श्रम और लागत डेटा अपलोड करें।"
         },
         {
           "title": "त्वरित विश्लेषण",
@@ -1168,26 +1168,26 @@ export const generatedLocalCopy = {
         {
           "title": "अवसरों को पहचानें",
           "desc": "ऐसे क्षेत्र खोजें जहां आप तुरंत सुधार कर सकते हैं",
-          "icon": "मार्केटिंग"
+          "icon": "marketing"
         },
         {
           "title": "बेंचमार्क प्रदर्शन",
           "desc": "देखें कि आप समान रेस्तरां के सामने कैसे खड़े होते हैं",
-          "icon": "बेंचमार्किंग"
+          "icon": "benchmarking"
         },
         {
           "title": "कार्रवाई योग्य जानकारी प्राप्त करें",
           "desc": "सुधार के लिए विशिष्ट सिफ़ारिशें प्राप्त करें",
-          "icon": "बुद्धि"
+          "icon": "intelligence"
         }
       ]
     },
     "zh-Hans": {
       "badge": "免费餐厅基准测试",
-      "title": "圣代报告",
+      "title": "Sundae Report",
       "description": "获取免费的基准测试报告，将您餐厅的绩效与行业标准进行比较。准确了解您的立场以及需要改进的地方。",
       "primary": "生成免费报告",
-      "secondary": "了解圣代核心",
+      "secondary": "Learn About Sundae Core",
       "compareTitle": "看看你如何比较",
       "compareDescription": "根据类似企业的关键绩效类别对您的餐厅进行基准测试",
       "howTitle": "它是如何运作的",
@@ -1201,18 +1201,18 @@ export const generatedLocalCopy = {
       "whyTitle": "为什么免费？",
       "whyDescription": "我们相信每家餐厅都应该了解他们的表现。我们的免费报告让您体验为 Sundae Core 提供支持的决策智能。",
       "ctaTitle": "准备好查看您的基准了吗？",
-      "ctaDescription": "加入数千家使用圣代报告的餐厅经营者的行列，了解他们的业绩。不需要信用卡，没有义务——只有洞察力。",
+      "ctaDescription": "加入数千家使用Sundae Report的餐厅经营者的行列，了解他们的业绩。不需要信用卡，没有义务——只有洞察力。",
       "benchmarkCategories": [
         {
           "name": "销售业绩",
           "metrics": [
-            "每平方英尺收入",
+            "Revenue per Square Foot",
             "平均支票尺寸",
             "每日交易数",
             "高峰时段分析"
           ],
-          "icon": "金融",
-          "color": "BG-绿色-500"
+          "icon": "finance",
+          "color": "bg-green-500"
         },
         {
           "name": "劳动效率",
@@ -1222,8 +1222,8 @@ export const generatedLocalCopy = {
             "员工生产力",
             "加班趋势"
           ],
-          "icon": "劳工",
-          "color": "BG-蓝色-500"
+          "icon": "labor",
+          "color": "bg-blue-500"
         },
         {
           "name": "食品成本管理",
@@ -1233,8 +1233,8 @@ export const generatedLocalCopy = {
             "库存周转率",
             "销货成本分析"
           ],
-          "icon": "减少",
-          "color": "bg-橙色-500"
+          "icon": "decrease",
+          "color": "bg-orange-500"
         },
         {
           "name": "运营指标",
@@ -1244,8 +1244,8 @@ export const generatedLocalCopy = {
             "客户满意度",
             "服务速度"
           ],
-          "icon": "速度",
-          "color": "BG-紫色-500"
+          "icon": "speed",
+          "color": "bg-purple-500"
         }
       ],
       "howItWorks": [
@@ -1286,26 +1286,26 @@ export const generatedLocalCopy = {
         {
           "title": "识别机会",
           "desc": "找出可以立即改进的领域",
-          "icon": "营销"
+          "icon": "marketing"
         },
         {
           "title": "基准性能",
           "desc": "看看您与类似餐厅相比如何",
-          "icon": "标杆管理"
+          "icon": "benchmarking"
         },
         {
           "title": "获取可行的见解",
           "desc": "收到具体的改进建议",
-          "icon": "智力"
+          "icon": "intelligence"
         }
       ]
     },
     "pl": {
       "badge": "Bezpłatny benchmarking restauracji",
-      "title": "Raport z Lodów",
+      "title": "Sundae Report",
       "description": "Uzyskaj bezpłatny raport porównawczy porównujący wyniki Twojej restauracji ze standardami branżowymi. Zobacz dokładnie na czym stoisz i co poprawić.",
       "primary": "Wygeneruj bezpłatny raport",
-      "secondary": "Dowiedz się więcej o rdzeniu lodów",
+      "secondary": "Learn About Sundae Core",
       "compareTitle": "Zobacz, jak się porównujesz",
       "compareDescription": "Porównaj swoją restaurację pod względem kluczowych kategorii wyników z podobnymi firmami",
       "howTitle": "Jak to działa",
@@ -1319,17 +1319,17 @@ export const generatedLocalCopy = {
       "whyTitle": "Dlaczego za darmo?",
       "whyDescription": "Wierzymy, że każda restauracja powinna wiedzieć, jak sobie radzi. Nasz bezpłatny raport daje przedsmak inteligencji decyzyjnej, która napędza Sundae Core.",
       "ctaTitle": "Gotowy, aby zobaczyć swoje testy porównawcze?",
-      "ctaDescription": "Dołącz do tysięcy operatorów restauracji, którzy korzystają z raportu Sundae, aby zrozumieć swoje wyniki. Nie jest wymagana żadna karta kredytowa, żadnych zobowiązań – wystarczy wgląd.",
+      "ctaDescription": "Dołącz do tysięcy operatorów restauracji, którzy korzystają z raportu Sundae, aby zrozumieć swoje wyniki. Nie jest wymagana żadna karta kredytowa, żadnych zobowiązań – wystarczy wgląd. (Sundae Report)",
       "benchmarkCategories": [
         {
           "name": "Wyniki sprzedaży",
           "metrics": [
-            "Przychód na stopę kwadratową",
+            "Revenue per Square Foot",
             "Średni rozmiar czeku",
             "Dzienna liczba transakcji",
             "Analiza godzin szczytu"
           ],
-          "icon": "finanse",
+          "icon": "finance",
           "color": "bg-green-500"
         },
         {
@@ -1340,7 +1340,7 @@ export const generatedLocalCopy = {
             "Produktywność personelu",
             "Trendy w godzinach nadliczbowych"
           ],
-          "icon": "praca",
+          "icon": "labor",
           "color": "bg-blue-500"
         },
         {
@@ -1351,8 +1351,8 @@ export const generatedLocalCopy = {
             "Obrót zapasami",
             "Analiza COGS"
           ],
-          "icon": "zmniejszyć",
-          "color": "bg-pomarańczowy-500"
+          "icon": "decrease",
+          "color": "bg-orange-500"
         },
         {
           "name": "Metryki operacyjne",
@@ -1362,8 +1362,8 @@ export const generatedLocalCopy = {
             "Zadowolenie klienta",
             "Szybkość obsługi"
           ],
-          "icon": "prędkość",
-          "color": "bg-fioletowy-500"
+          "icon": "speed",
+          "color": "bg-purple-500"
         }
       ],
       "howItWorks": [
@@ -1404,7 +1404,7 @@ export const generatedLocalCopy = {
         {
           "title": "Identyfikuj możliwości",
           "desc": "Znajdź obszary, w których możesz natychmiast coś ulepszyć",
-          "icon": "marketingu"
+          "icon": "marketing"
         },
         {
           "title": "Wydajność wzorcowa",
@@ -1414,16 +1414,16 @@ export const generatedLocalCopy = {
         {
           "title": "Uzyskaj przydatne informacje",
           "desc": "Otrzymuj konkretne zalecenia dotyczące ulepszeń",
-          "icon": "inteligencja"
+          "icon": "intelligence"
         }
       ]
     },
     "ja": {
       "badge": "無料のレストランベンチマーク",
-      "title": "サンデーレポート",
+      "title": "Sundae Report",
       "description": "レストランのパフォーマンスを業界標準と比較するベンチマーク レポートを無料で入手できます。自分の現状と改善すべき点を正確に確認します。",
       "primary": "無料レポートの生成",
-      "secondary": "サンデーコアについて学ぶ",
+      "secondary": "Learn About Sundae Core",
       "compareTitle": "比較方法を確認してください",
       "compareDescription": "主要な業績カテゴリ全体でレストランを類似のビジネスと比較してベンチマークします。",
       "howTitle": "仕組み",
@@ -1437,18 +1437,18 @@ export const generatedLocalCopy = {
       "whyTitle": "なぜ無料なのか？",
       "whyDescription": "私たちは、すべてのレストランが自社の業績を理解する必要があると信じています。私たちの無料レポートでは、Sundae Core を強化する意思決定インテリジェンスを体験できます。",
       "ctaTitle": "ベンチマークを確認する準備はできましたか?",
-      "ctaDescription": "サンデー レポートを使用してパフォーマンスを把握している何千人ものレストラン経営者に加わってください。クレジット カードも義務も必要ありません。ただ洞察を得るだけです。",
+      "ctaDescription": "Sundae Reportを使用してパフォーマンスを把握している何千人ものレストラン経営者に加わってください。クレジット カードも義務も必要ありません。ただ洞察を得るだけです。",
       "benchmarkCategories": [
         {
           "name": "販売実績",
           "metrics": [
-            "平方フィートあたりの収益",
+            "Revenue per Square Foot",
             "平均小切手サイズ",
             "日次トランザクション数",
             "ピーク時間の分析"
           ],
-          "icon": "金融",
-          "color": "bg-グリーン-500"
+          "icon": "finance",
+          "color": "bg-green-500"
         },
         {
           "name": "労働効率",
@@ -1458,8 +1458,8 @@ export const generatedLocalCopy = {
             "スタッフの生産性",
             "残業の傾向"
           ],
-          "icon": "労働",
-          "color": "bg-ブルー-500"
+          "icon": "labor",
+          "color": "bg-blue-500"
         },
         {
           "name": "食費管理",
@@ -1469,8 +1469,8 @@ export const generatedLocalCopy = {
             "在庫回転率",
             "COGS分析"
           ],
-          "icon": "減少する",
-          "color": "bg-オレンジ-500"
+          "icon": "decrease",
+          "color": "bg-orange-500"
         },
         {
           "name": "運用指標",
@@ -1480,8 +1480,8 @@ export const generatedLocalCopy = {
             "顧客満足度",
             "サービスのスピード"
           ],
-          "icon": "速度",
-          "color": "bg-パープル-500"
+          "icon": "speed",
+          "color": "bg-purple-500"
         }
       ],
       "howItWorks": [
@@ -1522,26 +1522,26 @@ export const generatedLocalCopy = {
         {
           "title": "機会を特定する",
           "desc": "すぐに改善できる領域を特定する",
-          "icon": "マーケティング"
+          "icon": "marketing"
         },
         {
           "title": "ベンチマークパフォーマンス",
           "desc": "同様のレストランとの比較を確認してください",
-          "icon": "ベンチマーク"
+          "icon": "benchmarking"
         },
         {
           "title": "実用的な洞察を得る",
           "desc": "改善のための具体的な推奨事項を受け取る",
-          "icon": "知性"
+          "icon": "intelligence"
         }
       ]
     },
     "ko": {
       "badge": "무료 레스토랑 벤치마킹",
-      "title": "순대보고서",
+      "title": "Sundae Report",
       "description": "레스토랑의 성과를 업계 표준과 비교하는 무료 벤치마킹 보고서를 받아보세요. 현재 현재 위치와 개선할 점을 정확히 확인하세요.",
       "primary": "무료 보고서 생성",
-      "secondary": "순대코어에 대해 알아보세요",
+      "secondary": "Learn About Sundae Core",
       "compareTitle": "비교 방법 확인",
       "compareDescription": "유사한 비즈니스와 비교하여 주요 성과 카테고리에 걸쳐 레스토랑을 벤치마킹하세요.",
       "howTitle": "작동 방식",
@@ -1560,13 +1560,13 @@ export const generatedLocalCopy = {
         {
           "name": "판매실적",
           "metrics": [
-            "평방피트당 수익",
+            "Revenue per Square Foot",
             "평균 수표 크기",
             "일일 거래 수",
             "피크시간 분석"
           ],
-          "icon": "금융",
-          "color": "bg-녹색-500"
+          "icon": "finance",
+          "color": "bg-green-500"
         },
         {
           "name": "노동 효율성",
@@ -1576,7 +1576,7 @@ export const generatedLocalCopy = {
             "직원 생산성",
             "초과근무 동향"
           ],
-          "icon": "노동",
+          "icon": "labor",
           "color": "bg-blue-500"
         },
         {
@@ -1587,8 +1587,8 @@ export const generatedLocalCopy = {
             "재고 회전율",
             "매출원가 분석"
           ],
-          "icon": "감소하다",
-          "color": "bg-오렌지-500"
+          "icon": "decrease",
+          "color": "bg-orange-500"
         },
         {
           "name": "운영 지표",
@@ -1598,8 +1598,8 @@ export const generatedLocalCopy = {
             "고객 만족",
             "서비스 속도"
           ],
-          "icon": "속도",
-          "color": "bg-보라색-500"
+          "icon": "speed",
+          "color": "bg-purple-500"
         }
       ],
       "howItWorks": [
@@ -1640,26 +1640,26 @@ export const generatedLocalCopy = {
         {
           "title": "기회 식별",
           "desc": "즉시 개선할 수 있는 영역 찾기",
-          "icon": "마케팅"
+          "icon": "marketing"
         },
         {
           "title": "벤치마크 성능",
           "desc": "비슷한 레스토랑과 비교하여 비교해보세요.",
-          "icon": "벤치마킹"
+          "icon": "benchmarking"
         },
         {
           "title": "실행 가능한 통찰력 확보",
           "desc": "개선을 위한 구체적인 권장 사항 받기",
-          "icon": "지능"
+          "icon": "intelligence"
         }
       ]
     },
     "id": {
       "badge": "Pembandingan restoran gratis",
-      "title": "Laporan Sundae",
+      "title": "Sundae Report",
       "description": "Dapatkan laporan tolok ukur gratis yang membandingkan kinerja restoran Anda dengan standar industri. Lihat dengan tepat posisi Anda dan apa yang perlu ditingkatkan.",
       "primary": "Hasilkan Laporan Gratis",
-      "secondary": "Pelajari Tentang Sundae Inti",
+      "secondary": "Learn About Sundae Core",
       "compareTitle": "Lihat Bagaimana Anda Membandingkannya",
       "compareDescription": "Tolok ukur restoran Anda di seluruh kategori kinerja utama dibandingkan dengan bisnis serupa",
       "howTitle": "Cara Kerjanya",
@@ -1678,13 +1678,13 @@ export const generatedLocalCopy = {
         {
           "name": "Kinerja Penjualan",
           "metrics": [
-            "Pendapatan per Kaki Persegi",
+            "Revenue per Square Foot",
             "Ukuran Cek Rata-rata",
             "Jumlah Transaksi Harian",
             "Analisis Jam Puncak"
           ],
-          "icon": "keuangan",
-          "color": "bg-hijau-500"
+          "icon": "finance",
+          "color": "bg-green-500"
         },
         {
           "name": "Efisiensi Tenaga Kerja",
@@ -1694,8 +1694,8 @@ export const generatedLocalCopy = {
             "Produktivitas Staf",
             "Tren Lembur"
           ],
-          "icon": "tenaga kerja",
-          "color": "bg-biru-500"
+          "icon": "labor",
+          "color": "bg-blue-500"
         },
         {
           "name": "Manajemen Biaya Makanan",
@@ -1705,8 +1705,8 @@ export const generatedLocalCopy = {
             "Perputaran Persediaan",
             "Analisis HPP"
           ],
-          "icon": "menurun",
-          "color": "bg-oranye-500"
+          "icon": "decrease",
+          "color": "bg-orange-500"
         },
         {
           "name": "Metrik Operasional",
@@ -1716,8 +1716,8 @@ export const generatedLocalCopy = {
             "Kepuasan Pelanggan",
             "Kecepatan Pelayanan"
           ],
-          "icon": "kecepatan",
-          "color": "bg-ungu-500"
+          "icon": "speed",
+          "color": "bg-purple-500"
         }
       ],
       "howItWorks": [
@@ -1758,26 +1758,26 @@ export const generatedLocalCopy = {
         {
           "title": "Identifikasi Peluang",
           "desc": "Temukan area di mana Anda dapat segera meningkatkannya",
-          "icon": "pemasaran"
+          "icon": "marketing"
         },
         {
           "title": "Kinerja Tolok Ukur",
           "desc": "Lihat bagaimana Anda dibandingkan dengan restoran serupa",
-          "icon": "pembandingan"
+          "icon": "benchmarking"
         },
         {
           "title": "Dapatkan Wawasan yang Dapat Ditindaklanjuti",
           "desc": "Menerima rekomendasi spesifik untuk ditingkatkan",
-          "icon": "intelijen"
+          "icon": "intelligence"
         }
       ]
     },
     "vi": {
       "badge": "Điểm chuẩn nhà hàng miễn phí",
-      "title": "Báo cáo Sundae",
+      "title": "Sundae Report",
       "description": "Nhận báo cáo điểm chuẩn miễn phí so sánh hiệu suất của nhà hàng của bạn với các tiêu chuẩn ngành. Xem chính xác vị trí của bạn và những gì cần cải thiện.",
       "primary": "Tạo báo cáo miễn phí",
-      "secondary": "Tìm hiểu về lõi Sundae",
+      "secondary": "Learn About Sundae Core",
       "compareTitle": "Xem cách bạn so sánh",
       "compareDescription": "Đánh giá nhà hàng của bạn theo các danh mục hiệu suất chính so với các doanh nghiệp tương tự",
       "howTitle": "Nó hoạt động như thế nào",
@@ -1791,18 +1791,18 @@ export const generatedLocalCopy = {
       "whyTitle": "Tại sao miễn phí?",
       "whyDescription": "Chúng tôi tin rằng mọi nhà hàng nên hiểu rõ họ đang hoạt động như thế nào. Báo cáo miễn phí của chúng tôi mang đến cho bạn trải nghiệm về khả năng ra quyết định thông minh hỗ trợ Sundae Core.",
       "ctaTitle": "Sẵn sàng để xem điểm chuẩn của bạn?",
-      "ctaDescription": "Tham gia cùng hàng nghìn nhà điều hành nhà hàng sử dụng Báo cáo Sundae để hiểu hiệu quả hoạt động của họ. Không cần thẻ tín dụng, không có nghĩa vụ - chỉ cần hiểu biết sâu sắc.",
+      "ctaDescription": "Tham gia cùng hàng nghìn nhà điều hành nhà hàng sử dụng Sundae Report để hiểu hiệu quả hoạt động của họ. Không cần thẻ tín dụng, không có nghĩa vụ - chỉ cần hiểu biết sâu sắc.",
       "benchmarkCategories": [
         {
           "name": "Hiệu suất bán hàng",
           "metrics": [
-            "Doanh thu trên mỗi foot vuông",
+            "Revenue per Square Foot",
             "Kích thước kiểm tra trung bình",
             "Số lượng giao dịch hàng ngày",
             "Phân tích giờ cao điểm"
           ],
-          "icon": "tài chính",
-          "color": "bg-xanh-500"
+          "icon": "finance",
+          "color": "bg-green-500"
         },
         {
           "name": "Hiệu quả lao động",
@@ -1812,8 +1812,8 @@ export const generatedLocalCopy = {
             "Năng suất của nhân viên",
             "Xu hướng làm thêm giờ"
           ],
-          "icon": "lao động",
-          "color": "bg-xanh-500"
+          "icon": "labor",
+          "color": "bg-blue-500"
         },
         {
           "name": "Quản lý chi phí thực phẩm",
@@ -1823,8 +1823,8 @@ export const generatedLocalCopy = {
             "Vòng quay hàng tồn kho",
             "Phân tích giá vốn hàng bán"
           ],
-          "icon": "giảm",
-          "color": "bg-cam-500"
+          "icon": "decrease",
+          "color": "bg-orange-500"
         },
         {
           "name": "Số liệu hoạt động",
@@ -1834,8 +1834,8 @@ export const generatedLocalCopy = {
             "Sự hài lòng của khách hàng",
             "Tốc độ dịch vụ"
           ],
-          "icon": "tốc độ",
-          "color": "bg-tím-500"
+          "icon": "speed",
+          "color": "bg-purple-500"
         }
       ],
       "howItWorks": [
@@ -1876,23 +1876,23 @@ export const generatedLocalCopy = {
         {
           "title": "Xác định cơ hội",
           "desc": "Phát hiện những lĩnh vực mà bạn có thể cải thiện ngay lập tức",
-          "icon": "tiếp thị"
+          "icon": "marketing"
         },
         {
           "title": "Hiệu suất chuẩn",
           "desc": "Xem cách bạn so sánh với các nhà hàng tương tự",
-          "icon": "điểm chuẩn"
+          "icon": "benchmarking"
         },
         {
           "title": "Nhận thông tin chi tiết có thể hành động",
           "desc": "Nhận các khuyến nghị cụ thể để cải thiện",
-          "icon": "trí thông minh"
+          "icon": "intelligence"
         }
       ]
     },
     "ro": {
       "badge": "Benchmarking gratuit pentru restaurante",
-      "title": "Raport Sundae",
+      "title": "Sundae Report",
       "description": "Obțineți un raport gratuit de analiză comparativă care compară performanța restaurantului dvs. cu standardele din industrie. Vedeți exact unde vă aflați și ce să îmbunătățiți.",
       "primary": "Generați un raport gratuit",
       "secondary": "Aflați despre Sundae Core",
@@ -1914,13 +1914,13 @@ export const generatedLocalCopy = {
         {
           "name": "Performanța vânzărilor",
           "metrics": [
-            "Venitul pe picior pătrat",
+            "Revenue per Square Foot",
             "Dimensiunea medie a cecului",
             "Numărul zilnic de tranzacții",
             "Analiza orelor de vârf"
           ],
-          "icon": "finante",
-          "color": "bg-verde-500"
+          "icon": "finance",
+          "color": "bg-green-500"
         },
         {
           "name": "Eficiența muncii",
@@ -1930,8 +1930,8 @@ export const generatedLocalCopy = {
             "Productivitatea personalului",
             "Tendințe ore suplimentare"
           ],
-          "icon": "munca",
-          "color": "bg-albastru-500"
+          "icon": "labor",
+          "color": "bg-blue-500"
         },
         {
           "name": "Managementul costurilor alimentare",
@@ -1941,7 +1941,7 @@ export const generatedLocalCopy = {
             "Cifra de afaceri a stocurilor",
             "Analiza COGS"
           ],
-          "icon": "scăderea",
+          "icon": "decrease",
           "color": "bg-orange-500"
         },
         {
@@ -1952,8 +1952,8 @@ export const generatedLocalCopy = {
             "Satisfacția clientului",
             "Viteza serviciului"
           ],
-          "icon": "viteza",
-          "color": "bg-violet-500"
+          "icon": "speed",
+          "color": "bg-purple-500"
         }
       ],
       "howItWorks": [
@@ -2004,16 +2004,16 @@ export const generatedLocalCopy = {
         {
           "title": "Obțineți informații utile",
           "desc": "Primiți recomandări specifice pentru îmbunătățire",
-          "icon": "inteligenţă"
+          "icon": "intelligence"
         }
       ]
     },
     "bn": {
       "badge": "বিনামূল্যে রেস্টুরেন্ট বেঞ্চমার্কিং",
-      "title": "সানডে রিপোর্ট",
+      "title": "Sundae Report",
       "description": "শিল্পের মানগুলির সাথে আপনার রেস্তোরাঁর কর্মক্ষমতা তুলনা করে একটি বিনামূল্যের বেঞ্চমার্কিং রিপোর্ট পান৷ আপনি ঠিক কোথায় দাঁড়িয়ে আছেন এবং কী উন্নতি করবেন তা দেখুন।",
       "primary": "বিনামূল্যে রিপোর্ট তৈরি করুন",
-      "secondary": "সানডে কোর সম্পর্কে জানুন",
+      "secondary": "Learn About Sundae Core",
       "compareTitle": "আপনি কিভাবে তুলনা দেখুন",
       "compareDescription": "একই ধরনের ব্যবসার বিপরীতে আপনার রেস্তোরাঁর মূল পারফরম্যান্স বিভাগ জুড়ে বেঞ্চমার্ক করুন",
       "howTitle": "কিভাবে এটা কাজ করে",
@@ -2025,20 +2025,20 @@ export const generatedLocalCopy = {
       "recommendationLabel": "সুপারিশ:",
       "potentialImpactLabel": "সম্ভাব্য প্রভাব:",
       "whyTitle": "কেন বিনামূল্যে?",
-      "whyDescription": "আমরা বিশ্বাস করি প্রতিটি রেস্তোরাঁর বোঝা উচিত যে তারা কীভাবে পারফর্ম করছে৷ আমাদের বিনামূল্যের প্রতিবেদন আপনাকে সিদ্ধান্তের বুদ্ধিমত্তার স্বাদ দেয় যা Sundae কোরকে শক্তি দেয়।",
+      "whyDescription": "আমরা বিশ্বাস করি প্রতিটি রেস্তোরাঁর বোঝা উচিত যে তারা কীভাবে পারফর্ম করছে৷ আমাদের বিনামূল্যের প্রতিবেদন আপনাকে সিদ্ধান্তের বুদ্ধিমত্তার স্বাদ দেয় যা Sundae কোরকে শক্তি দেয়। (Sundae Core)",
       "ctaTitle": "আপনার বেঞ্চমার্ক দেখতে প্রস্তুত?",
-      "ctaDescription": "হাজার হাজার রেস্টুরেন্ট অপারেটরদের সাথে যোগ দিন যারা তাদের কর্মক্ষমতা বোঝার জন্য Sundae রিপোর্ট ব্যবহার করে। কোন ক্রেডিট কার্ডের প্রয়োজন নেই, কোন বাধ্যবাধকতা নেই - শুধু অন্তর্দৃষ্টি।",
+      "ctaDescription": "হাজার হাজার রেস্টুরেন্ট অপারেটরদের সাথে যোগ দিন যারা তাদের কর্মক্ষমতা বোঝার জন্য Sundae Report ব্যবহার করে। কোন ক্রেডিট কার্ডের প্রয়োজন নেই, কোন বাধ্যবাধকতা নেই - শুধু অন্তর্দৃষ্টি।",
       "benchmarkCategories": [
         {
           "name": "বিক্রয় কর্মক্ষমতা",
           "metrics": [
-            "প্রতি বর্গফুট আয়",
+            "Revenue per Square Foot",
             "গড় চেক আকার",
             "দৈনিক লেনদেনের সংখ্যা",
             "পিক আওয়ার বিশ্লেষণ"
           ],
-          "icon": "অর্থ",
-          "color": "বিজি-সবুজ-500"
+          "icon": "finance",
+          "color": "bg-green-500"
         },
         {
           "name": "শ্রম দক্ষতা",
@@ -2048,8 +2048,8 @@ export const generatedLocalCopy = {
             "কর্মীদের উত্পাদনশীলতা",
             "ওভারটাইম প্রবণতা"
           ],
-          "icon": "শ্রম",
-          "color": "বিজি-ব্লু-500"
+          "icon": "labor",
+          "color": "bg-blue-500"
         },
         {
           "name": "খাদ্য খরচ ব্যবস্থাপনা",
@@ -2059,8 +2059,8 @@ export const generatedLocalCopy = {
             "ইনভেন্টরি টার্নওভার",
             "COGS বিশ্লেষণ"
           ],
-          "icon": "হ্রাস",
-          "color": "bg-কমলা-500"
+          "icon": "decrease",
+          "color": "bg-orange-500"
         },
         {
           "name": "অপারেশনাল মেট্রিক্স",
@@ -2070,8 +2070,8 @@ export const generatedLocalCopy = {
             "গ্রাহক সন্তুষ্টি",
             "পরিষেবার গতি"
           ],
-          "icon": "গতি",
-          "color": "bg-বেগুনি-500"
+          "icon": "speed",
+          "color": "bg-purple-500"
         }
       ],
       "howItWorks": [
@@ -2112,23 +2112,23 @@ export const generatedLocalCopy = {
         {
           "title": "সুযোগ চিহ্নিত করুন",
           "desc": "স্পট এলাকা যেখানে আপনি অবিলম্বে উন্নতি করতে পারেন",
-          "icon": "মার্কেটিং"
+          "icon": "marketing"
         },
         {
           "title": "বেঞ্চমার্ক পারফরম্যান্স",
           "desc": "দেখুন কিভাবে আপনি অনুরূপ রেস্তোরাঁর বিরুদ্ধে স্ট্যাক আপ করেন",
-          "icon": "বেঞ্চমার্কিং"
+          "icon": "benchmarking"
         },
         {
           "title": "অ্যাকশনেবল ইনসাইট পান",
           "desc": "উন্নত করার জন্য নির্দিষ্ট সুপারিশ পান",
-          "icon": "বুদ্ধিমত্তা"
+          "icon": "intelligence"
         }
       ]
     },
     "sv": {
       "badge": "Gratis restaurangbenchmarking",
-      "title": "Sundae Rapport",
+      "title": "Sundae Report",
       "description": "Få en kostnadsfri benchmarkingrapport som jämför din restaurangs prestanda mot branschstandarder. Se exakt var du står och vad du kan förbättra.",
       "primary": "Skapa gratis rapport",
       "secondary": "Lär dig om Sundae Core",
@@ -2150,13 +2150,13 @@ export const generatedLocalCopy = {
         {
           "name": "Försäljningsprestanda",
           "metrics": [
-            "Intäkt per kvadratfot",
+            "Revenue per Square Foot",
             "Genomsnittlig kontrollstorlek",
             "Antal dagliga transaktioner",
             "Högtidsanalys"
           ],
-          "icon": "finansiera",
-          "color": "bg-grön-500"
+          "icon": "finance",
+          "color": "bg-green-500"
         },
         {
           "name": "Arbetskraftseffektivitet",
@@ -2166,8 +2166,8 @@ export const generatedLocalCopy = {
             "Personalens produktivitet",
             "Övertidstrender"
           ],
-          "icon": "arbetskraft",
-          "color": "bg-blå-500"
+          "icon": "labor",
+          "color": "bg-blue-500"
         },
         {
           "name": "Matkostnadshantering",
@@ -2177,7 +2177,7 @@ export const generatedLocalCopy = {
             "Lageromsättning",
             "COGS-analys"
           ],
-          "icon": "minska",
+          "icon": "decrease",
           "color": "bg-orange-500"
         },
         {
@@ -2188,8 +2188,8 @@ export const generatedLocalCopy = {
             "Kundnöjdhet",
             "Servicehastighet"
           ],
-          "icon": "hastighet",
-          "color": "bg-lila-500"
+          "icon": "speed",
+          "color": "bg-purple-500"
         }
       ],
       "howItWorks": [
@@ -2230,7 +2230,7 @@ export const generatedLocalCopy = {
         {
           "title": "Identifiera möjligheter",
           "desc": "Hitta områden där du kan förbättra omedelbart",
-          "icon": "marknadsföring"
+          "icon": "marketing"
         },
         {
           "title": "Benchmark prestanda",
@@ -2240,13 +2240,13 @@ export const generatedLocalCopy = {
         {
           "title": "Få handlingsbara insikter",
           "desc": "Få specifika rekommendationer för att förbättra",
-          "icon": "intelligens"
+          "icon": "intelligence"
         }
       ]
     },
     "th": {
       "badge": "เปรียบเทียบร้านอาหารฟรี",
-      "title": "รายงานซันเดย์",
+      "title": "Sundae Report",
       "description": "รับรายงานการเปรียบเทียบประสิทธิภาพฟรีเพื่อเปรียบเทียบประสิทธิภาพของร้านอาหารของคุณกับมาตรฐานอุตสาหกรรม ดูว่าจุดยืนของคุณอยู่ที่ไหนและสิ่งที่ต้องปรับปรุง",
       "primary": "สร้างรายงานฟรี",
       "secondary": "เรียนรู้เกี่ยวกับ Sundae Core",
@@ -2268,13 +2268,13 @@ export const generatedLocalCopy = {
         {
           "name": "ประสิทธิภาพการขาย",
           "metrics": [
-            "รายได้ต่อตารางฟุต",
+            "Revenue per Square Foot",
             "ขนาดเช็คเฉลี่ย",
             "จำนวนธุรกรรมรายวัน",
             "การวิเคราะห์ชั่วโมงเร่งด่วน"
           ],
-          "icon": "การเงิน",
-          "color": "บีจี-กรีน-500"
+          "icon": "finance",
+          "color": "bg-green-500"
         },
         {
           "name": "ประสิทธิภาพแรงงาน",
@@ -2284,8 +2284,8 @@ export const generatedLocalCopy = {
             "ผลผลิตของพนักงาน",
             "แนวโน้มการทำงานล่วงเวลา"
           ],
-          "icon": "แรงงาน",
-          "color": "บีจี-บลู-500"
+          "icon": "labor",
+          "color": "bg-blue-500"
         },
         {
           "name": "การจัดการต้นทุนอาหาร",
@@ -2295,8 +2295,8 @@ export const generatedLocalCopy = {
             "การหมุนเวียนสินค้าคงคลัง",
             "การวิเคราะห์ COGS"
           ],
-          "icon": "ลดลง",
-          "color": "บีจี-ส้ม-500"
+          "icon": "decrease",
+          "color": "bg-orange-500"
         },
         {
           "name": "ตัวชี้วัดการดำเนินงาน",
@@ -2306,8 +2306,8 @@ export const generatedLocalCopy = {
             "ความพึงพอใจของลูกค้า",
             "ความเร็วของการบริการ"
           ],
-          "icon": "ความเร็ว",
-          "color": "บีจี-ม่วง-500"
+          "icon": "speed",
+          "color": "bg-purple-500"
         }
       ],
       "howItWorks": [
@@ -2348,26 +2348,26 @@ export const generatedLocalCopy = {
         {
           "title": "ระบุโอกาส",
           "desc": "ค้นหาพื้นที่ที่คุณสามารถปรับปรุงได้ทันที",
-          "icon": "การตลาด"
+          "icon": "marketing"
         },
         {
           "title": "ประสิทธิภาพมาตรฐาน",
           "desc": "ดูว่าคุณจะแข่งขันกับร้านอาหารที่คล้ายกันได้อย่างไร",
-          "icon": "การเปรียบเทียบ"
+          "icon": "benchmarking"
         },
         {
           "title": "รับข้อมูลเชิงลึกที่นำไปปฏิบัติได้",
           "desc": "รับคำแนะนำเฉพาะเพื่อปรับปรุง",
-          "icon": "สติปัญญา"
+          "icon": "intelligence"
         }
       ]
     },
     "ms": {
       "badge": "Penanda aras restoran percuma",
-      "title": "Laporan Sundae",
+      "title": "Sundae Report",
       "description": "Dapatkan laporan penanda aras percuma yang membandingkan prestasi restoran anda dengan piawaian industri. Lihat dengan tepat kedudukan anda dan perkara yang perlu diperbaiki.",
       "primary": "Jana Laporan Percuma",
-      "secondary": "Ketahui Tentang Teras Sundae",
+      "secondary": "Learn About Sundae Core",
       "compareTitle": "Lihat Bagaimana Anda Membandingkan",
       "compareDescription": "Tanda aras restoran anda merentas kategori prestasi utama berbanding perniagaan yang serupa",
       "howTitle": "Bagaimana Ia Berfungsi",
@@ -2379,20 +2379,20 @@ export const generatedLocalCopy = {
       "recommendationLabel": "Syor:",
       "potentialImpactLabel": "Potensi Kesan:",
       "whyTitle": "Kenapa Percuma?",
-      "whyDescription": "Kami percaya setiap restoran harus memahami prestasi mereka. Laporan percuma kami memberi anda rasa perisikan keputusan yang menguatkan Teras Sundae.",
+      "whyDescription": "Kami percaya setiap restoran harus memahami prestasi mereka. Laporan percuma kami memberi anda rasa perisikan keputusan yang menguatkan Teras Sundae. (Sundae Core)",
       "ctaTitle": "Bersedia untuk Melihat Penanda Aras Anda?",
       "ctaDescription": "Sertai beribu-ribu pengendali restoran yang menggunakan Sundae Report untuk memahami prestasi mereka. Tiada kad kredit diperlukan, tiada kewajipan - hanya cerapan.",
       "benchmarkCategories": [
         {
           "name": "Prestasi Jualan",
           "metrics": [
-            "Hasil setiap Kaki Persegi",
+            "Revenue per Square Foot",
             "Saiz Cek Purata",
             "Kiraan Transaksi Harian",
             "Analisis Waktu Puncak"
           ],
-          "icon": "kewangan",
-          "color": "bg-hijau-500"
+          "icon": "finance",
+          "color": "bg-green-500"
         },
         {
           "name": "Kecekapan Buruh",
@@ -2402,8 +2402,8 @@ export const generatedLocalCopy = {
             "Produktiviti Kakitangan",
             "Trend Lebih Masa"
           ],
-          "icon": "buruh",
-          "color": "bg-biru-500"
+          "icon": "labor",
+          "color": "bg-blue-500"
         },
         {
           "name": "Pengurusan Kos Makanan",
@@ -2413,8 +2413,8 @@ export const generatedLocalCopy = {
             "Pusing Ganti Inventori",
             "Analisis COGS"
           ],
-          "icon": "berkurangan",
-          "color": "bg-oren-500"
+          "icon": "decrease",
+          "color": "bg-orange-500"
         },
         {
           "name": "Metrik Operasi",
@@ -2424,8 +2424,8 @@ export const generatedLocalCopy = {
             "Kepuasan Pelanggan",
             "Kepantasan Perkhidmatan"
           ],
-          "icon": "kelajuan",
-          "color": "bg-ungu-500"
+          "icon": "speed",
+          "color": "bg-purple-500"
         }
       ],
       "howItWorks": [
@@ -2466,17 +2466,17 @@ export const generatedLocalCopy = {
         {
           "title": "Kenalpasti Peluang",
           "desc": "Cari kawasan yang anda boleh perbaiki dengan segera",
-          "icon": "pemasaran"
+          "icon": "marketing"
         },
         {
           "title": "Prestasi Penanda Aras",
           "desc": "Lihat bagaimana anda bersaing dengan restoran yang serupa",
-          "icon": "penanda aras"
+          "icon": "benchmarking"
         },
         {
           "title": "Dapatkan Cerapan Boleh Ditindaklanjuti",
           "desc": "Terima cadangan khusus untuk menambah baik",
-          "icon": "kecerdasan"
+          "icon": "intelligence"
         }
       ]
     }

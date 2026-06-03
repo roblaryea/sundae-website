@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/app/solutions/page.tsx.
-// Do not edit by hand; regenerate from the English local copy source.
+// Structural fields and protected glossary terms normalized from English source; review prose translations before release.
 export const generatedLocalCopy = {
   "localizedCopy": {
     "fr": {
@@ -433,7 +433,7 @@ export const generatedLocalCopy = {
       "description": "ذكاء القرار مبني حول الشخص الذي يقرأه — من المكتب التنفيذي إلى أرضية العمل.",
       "nowShowingPrefix": "يعرض الآن:",
       "primaryCta": "احجز جلسة عمل",
-      "secondaryCta": "ابدأ مع تقرير لايت",
+      "secondaryCta": "Start with Report Lite",
       "shapedByLabel": "شكلها مشغلو المطاعم عبر",
       "formats": [
         "مطاعم سريعة",
@@ -1069,7 +1069,7 @@ export const generatedLocalCopy = {
       "description": "围绕阅读它的人构建的决策智能——从高管办公室到工作现场。",
       "nowShowingPrefix": "现在显示：",
       "primaryCta": "预约工作会议",
-      "secondaryCta": "从报告Lite开始",
+      "secondaryCta": "Start with Report Lite",
       "shapedByLabel": "由餐厅运营商塑造的",
       "formats": [
         "快餐",
@@ -1917,7 +1917,7 @@ export const generatedLocalCopy = {
       "description": "ফয়সালা বুদ্ধিমত্তা এমনভাবে তৈরি করা হয়েছে যে এটি পড়া ব্যক্তির চারপাশে — নির্বাহী অফিস থেকে মেঝে পর্যন্ত।",
       "nowShowingPrefix": "এখন দেখানো হচ্ছে:",
       "primaryCta": "একটি কাজের সেশন বুক করুন",
-      "secondaryCta": "রিপোর্ট লাইট দিয়ে শুরু করুন",
+      "secondaryCta": "Start with Report Lite",
       "shapedByLabel": "রেস্তোরাঁর অপারেটরদের দ্বারা গঠিত",
       "formats": [
         "কিউএসআর",
@@ -2023,7 +2023,7 @@ export const generatedLocalCopy = {
       "description": "Inteligensi keputusan dibina di sekitar orang yang membacanya — dari pejabat eksekutif hingga ke lantai.",
       "nowShowingPrefix": "Sedang ditayangkan:",
       "primaryCta": "Tempah Sesi Kerja",
-      "secondaryCta": "Mulakan dengan Laporan Lite",
+      "secondaryCta": "Start with Report Lite",
       "shapedByLabel": "Dibentuk oleh pengendali restoran di seluruh",
       "formats": [
         "QSR",

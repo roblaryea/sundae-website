@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/app/benchmarking/page.tsx.
-// Do not edit by hand; regenerate from the English local copy source.
+// Structural fields and protected glossary terms normalized from English source; review prose translations before release.
 export const generatedLocalCopy = {
   "localizedBenchmarkCopy": {
     "de": {
@@ -167,17 +167,17 @@ export const generatedLocalCopy = {
       "tiers": [
         {
           "label": "GRATIS",
-          "title": "Informe Lite",
+          "title": "Report Lite",
           "description": "5 métricas clave. Carga de CSV. Retención de 90 días."
         },
         {
           "label": "POPULAR",
-          "title": "Informe Plus",
+          "title": "Report Plus",
           "description": "15 métricas. Cargas auto-analizadas. Retención de 1 año."
         },
         {
           "label": "POTENCIA TOTAL",
-          "title": "Informe Pro / Core",
+          "title": "Report Pro / Core",
           "description": "30+ métricas. Integración de API. Retención de varios años."
         }
       ]
@@ -195,7 +195,7 @@ export const generatedLocalCopy = {
       "forecastTitle": "توقعات الإيرادات",
       "forecastDescription": "توقع الإيرادات باستخدام اتجاهاتك وبيانات السوق لتقدير الأداء المستقبلي.",
       "tiersTitle": "متاح عبر جميع الفئات",
-      "tiersDescription": "ابدأ تقييم الأداء مجانًا مع تقرير لايت. افتح ذكاءً أعمق مع نموك.",
+      "tiersDescription": "Start benchmarking for free with Report Lite. Unlock deeper intelligence as you grow.",
       "ctaTitle": "انظر أين تقف",
       "ctaDescription": "قم بتحميل بياناتك واحصل على أول معيار لك في دقائق. مجاني، لا حاجة لبطاقة ائتمان.",
       "startFree": "ابدأ تقييم مجاني",
@@ -235,7 +235,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "قم بتحميل بياناتك",
-          "description": "CSV، PDF، Excel، أو قم بتوصيل نظام نقاط البيع الخاص بك مباشرة. يتم التوحيد تلقائيًا."
+          "description": "CSV، PDF، Excel، أو قم بتوصيل نظام POS الخاص بك مباشرة. يتم التوحيد تلقائيًا."
         },
         {
           "step": "2",
@@ -257,17 +257,17 @@ export const generatedLocalCopy = {
       "tiers": [
         {
           "label": "مجاني",
-          "title": "تقرير لايت",
+          "title": "Report Lite",
           "description": "5 مقاييس أساسية. تحميل CSV. احتفاظ لمدة 90 يوم."
         },
         {
           "label": "شائع",
-          "title": "تقرير بلس",
+          "title": "Report Plus",
           "description": "15 مقياس. تحميلات تلقائية. احتفاظ لمدة سنة واحدة."
         },
         {
           "label": "قوة كاملة",
-          "title": "تقرير برو / كور",
+          "title": "Report Pro / Core",
           "description": "30+ مقياس. تكامل API. احتفاظ لعدة سنوات."
         }
       ]
@@ -458,14 +458,14 @@ export const generatedLocalCopy = {
       "description": "अपने नंबरों की तुलना गुमनाम समकक्ष डेटा के साथ करें, जिसमें RevPASH इंडेक्स, सीट अधिभोग, औसत चेक और राजस्व इंडेक्स शामिल हैं, साथ ही संदर्भ जो दिखाता है कि आप कहाँ खड़े हैं।",
       "heroPrimary": "नि:शुल्क बेंचमार्क आजमाएँ",
       "heroSecondary": "डेमो बुक करें",
-      "howTitle": "संडे बेंचमार्क कैसे काम करते हैं",
+      "howTitle": "Sundae बेंचमार्क कैसे काम करते हैं",
       "howDescription": "अपने डेटा को अपलोड करें। अपने जैसे रेस्तरां के खिलाफ तात्कालिक तुलना प्राप्त करें।",
       "metricsTitle": "आप क्या बेंचमार्क कर सकते हैं",
       "metricsDescription": "प्रदर्शन, दक्षता और बाजार स्थिति में 30+ मैट्रिक्स।",
       "forecastTitle": "राजस्व पूर्वानुमान",
       "forecastDescription": "आपके रुझानों और बाजार डेटा का उपयोग करके राजस्व की भविष्यवाणी करना ताकि भविष्य के प्रदर्शन का अनुमान लगाया जा सके।",
       "tiersTitle": "सभी स्तरों में उपलब्ध",
-      "tiersDescription": "रिपोर्ट लाइट के साथ मुफ्त में बेंचमार्किंग शुरू करें। जैसे-जैसे आप बढ़ते हैं, गहरी जानकारी अनलॉक करें।",
+      "tiersDescription": "Start benchmarking for free with Report Lite. Unlock deeper intelligence as you grow.",
       "ctaTitle": "देखें कि आप कहाँ खड़े हैं",
       "ctaDescription": "अपने डेटा को अपलोड करें और मिनटों में अपना पहला बेंचमार्क प्राप्त करें। मुफ्त, कोई क्रेडिट कार्ड की आवश्यकता नहीं।",
       "startFree": "मुफ्त बेंचमार्क शुरू करें",
@@ -527,17 +527,17 @@ export const generatedLocalCopy = {
       "tiers": [
         {
           "label": "मुफ्त",
-          "title": "रिपोर्ट लाइट",
+          "title": "Report Lite",
           "description": "5 मुख्य मैट्रिक्स। CSV अपलोड। 90-दिन की रिटेंशन।"
         },
         {
           "label": "लोकप्रिय",
-          "title": "रिपोर्ट प्लस",
+          "title": "Report Plus",
           "description": "15 मैट्रिक्स। ऑटो-पार्स किए गए अपलोड। 1-वर्ष की रिटेंशन।"
         },
         {
           "label": "पूर्ण शक्ति",
-          "title": "रिपोर्ट प्रो / कोर",
+          "title": "Report Pro / Core",
           "description": "30+ मैट्रिक्स। API एकीकरण। मल्टी-वर्ष की रिटेंशन।"
         }
       ]
@@ -617,17 +617,17 @@ export const generatedLocalCopy = {
       "tiers": [
         {
           "label": "GRATUITO",
-          "title": "Relatório Lite",
+          "title": "Report Lite",
           "description": "5 métricas principais. Upload em CSV. Retenção de 90 dias."
         },
         {
           "label": "POPULAR",
-          "title": "Relatório Plus",
+          "title": "Report Plus",
           "description": "15 métricas. Uploads auto-analisados. Retenção de 1 ano."
         },
         {
           "label": "POTÊNCIA TOTAL",
-          "title": "Relatório Pro / Core",
+          "title": "Report Pro / Core",
           "description": "30+ métricas. Integração com API. Retenção de vários anos."
         }
       ]
@@ -638,14 +638,14 @@ export const generatedLocalCopy = {
       "description": "اپنے اعداد و شمار کا موازنہ نامعلوم ساتھیوں کے ڈیٹا کے ساتھ کریں، جس میں RevPASH انڈیکس، نشست کی موجودگی، اوسط چیک، اور آمدنی کے انڈیکس شامل ہیں، اس سیاق و سباق کے ساتھ جو آپ کی حیثیت کو ظاہر کرتا ہے۔",
       "heroPrimary": "مفت بینچ مارکس آزمائیں",
       "heroSecondary": "ڈیمو بک کریں",
-      "howTitle": "سندے بینچ مارک کیسے کام کرتے ہیں",
+      "howTitle": "How Sundae Benchmarks Work",
       "howDescription": "اپنے ڈیٹا کو اپ لوڈ کریں۔ اپنے جیسے ریستورانوں کے خلاف فوری موازنہ حاصل کریں۔",
       "metricsTitle": "آپ کیا بینچ مارک کر سکتے ہیں",
       "metricsDescription": "کارکردگی، مؤثریت، اور مارکیٹ کی حیثیت میں 30+ میٹرکس۔",
       "forecastTitle": "آمدنی کی پیش گوئی",
       "forecastDescription": "آپ کے رجحانات اور مارکیٹ کے ڈیٹا کا استعمال کرتے ہوئے آمدنی کی پیش گوئی تاکہ مستقبل کی کارکردگی کا اندازہ لگایا جا سکے۔",
       "tiersTitle": "تمام سطحوں پر دستیاب",
-      "tiersDescription": "رپورٹ لائٹ کے ساتھ مفت بینچ مارکنگ شروع کریں۔ جیسے جیسے آپ ترقی کرتے ہیں، مزید گہرائی کی بصیرت حاصل کریں۔",
+      "tiersDescription": "Start benchmarking for free with Report Lite. Unlock deeper intelligence as you grow.",
       "ctaTitle": "دیکھیں آپ کہاں کھڑے ہیں",
       "ctaDescription": "اپنے ڈیٹا کو اپ لوڈ کریں اور چند منٹوں میں اپنا پہلا بینچ مارک حاصل کریں۔ مفت، کوئی کریڈٹ کارڈ درکار نہیں۔",
       "startFree": "مفت بینچ مارک شروع کریں",
@@ -707,17 +707,17 @@ export const generatedLocalCopy = {
       "tiers": [
         {
           "label": "مفت",
-          "title": "رپورٹ لائٹ",
+          "title": "Report Lite",
           "description": "5 بنیادی میٹرکس۔ CSV اپ لوڈ۔ 90 دن کی برقرار رکھنے کی مدت۔"
         },
         {
           "label": "مقبول",
-          "title": "رپورٹ پلس",
+          "title": "Report Plus",
           "description": "15 میٹرکس۔ خودکار تجزیہ کردہ اپ لوڈز۔ 1 سال کی برقرار رکھنے کی مدت۔"
         },
         {
           "label": "مکمل طاقت",
-          "title": "رپورٹ پرو / کور",
+          "title": "Report Pro / Core",
           "description": "30+ میٹرکس۔ API انضمام۔ کئی سالوں کی برقرار رکھنے کی مدت۔"
         }
       ]
@@ -887,17 +887,17 @@ export const generatedLocalCopy = {
       "tiers": [
         {
           "label": "ÜCRETSİZ",
-          "title": "Rapor Lite",
+          "title": "Report Lite",
           "description": "5 temel metrik. CSV yükleme. 90 günlük saklama."
         },
         {
           "label": "POPÜLER",
-          "title": "Rapor Plus",
+          "title": "Report Plus",
           "description": "15 metrik. Otomatik ayrıştırılan yüklemeler. 1 yıllık saklama."
         },
         {
           "label": "TAM GÜÇ",
-          "title": "Rapor Pro / Core",
+          "title": "Report Pro / Core",
           "description": "30+ metrik. API entegrasyonu. Çok yıllık saklama."
         }
       ]
@@ -977,17 +977,17 @@ export const generatedLocalCopy = {
       "tiers": [
         {
           "label": "DARMOWY",
-          "title": "Raport Lite",
+          "title": "Report Lite",
           "description": "5 podstawowych metryk. Przesyłanie CSV. Przechowywanie przez 90 dni."
         },
         {
           "label": "POPULARNY",
-          "title": "Raport Plus",
+          "title": "Report Plus",
           "description": "15 metryk. Automatyczne przesyłanie. Przechowywanie przez 1 rok."
         },
         {
           "label": "PEŁNA MOC",
-          "title": "Raport Pro / Core",
+          "title": "Report Pro / Core",
           "description": "30+ metryk. Integracja API. Przechowywanie przez wiele lat."
         }
       ]
@@ -1067,17 +1067,17 @@ export const generatedLocalCopy = {
       "tiers": [
         {
           "label": "免费",
-          "title": "报告精简版",
+          "title": "Report Lite",
           "description": "5个核心指标。CSV上传。90天保留。"
         },
         {
           "label": "热门",
-          "title": "报告增强版",
+          "title": "Report Plus",
           "description": "15个指标。自动解析上传。1年保留。"
         },
         {
           "label": "完全功能",
-          "title": "报告专业版 / Core",
+          "title": "Report Pro / Core",
           "description": "30+个指标。API集成。多年保留。"
         }
       ]
@@ -1157,17 +1157,17 @@ export const generatedLocalCopy = {
       "tiers": [
         {
           "label": "無料",
-          "title": "レポートライト",
+          "title": "Report Lite",
           "description": "5つの主要指標。CSVアップロード。90日間の保持。"
         },
         {
           "label": "人気",
-          "title": "レポートプラス",
+          "title": "Report Plus",
           "description": "15の指標。自動解析アップロード。1年間の保持。"
         },
         {
           "label": "フルパワー",
-          "title": "レポートプロ / コア",
+          "title": "Report Pro / Core",
           "description": "30以上の指標。API統合。複数年の保持。"
         }
       ]
@@ -1247,17 +1247,17 @@ export const generatedLocalCopy = {
       "tiers": [
         {
           "label": "GRATIS",
-          "title": "Laporan Lite",
+          "title": "Report Lite",
           "description": "5 metrik inti. Unggah CSV. Retensi 90 hari."
         },
         {
           "label": "POPULER",
-          "title": "Laporan Plus",
+          "title": "Report Plus",
           "description": "15 metrik. Unggah otomatis. Retensi 1 tahun."
         },
         {
           "label": "DAYA PENUH",
-          "title": "Laporan Pro / Core",
+          "title": "Report Pro / Core",
           "description": "30+ metrik. Integrasi API. Retensi multi-tahun."
         }
       ]
@@ -1337,17 +1337,17 @@ export const generatedLocalCopy = {
       "tiers": [
         {
           "label": "MIỄN PHÍ",
-          "title": "Báo cáo Lite",
+          "title": "Report Lite",
           "description": "5 chỉ số chính. Tải lên CSV. Lưu trữ 90 ngày."
         },
         {
           "label": "PHỔ BIẾN",
-          "title": "Báo cáo Plus",
+          "title": "Report Plus",
           "description": "15 chỉ số. Tải lên tự động phân tích. Lưu trữ 1 năm."
         },
         {
           "label": "CÔNG SUẤT ĐẦY ĐỦ",
-          "title": "Báo cáo Pro / Core",
+          "title": "Report Pro / Core",
           "description": "30+ chỉ số. Tích hợp API. Lưu trữ nhiều năm."
         }
       ]
@@ -1448,7 +1448,7 @@ export const generatedLocalCopy = {
       "description": "익명화된 동료 데이터와 함께 RevPASH 지수, 좌석 점유율, 평균 체크, 수익 지수 등을 비교하여 현재 위치를 보여주는 맥락을 제공합니다.",
       "heroPrimary": "무료 벤치마크 체험하기",
       "heroSecondary": "데모 예약하기",
-      "howTitle": "선데이 벤치마크 작동 방식",
+      "howTitle": "Sundae 벤치마크 작동 방식",
       "howDescription": "데이터를 업로드하세요. 귀하와 유사한 레스토랑과 즉시 비교할 수 있습니다.",
       "metricsTitle": "비교할 수 있는 항목",
       "metricsDescription": "성능, 효율성 및 시장 위치에 대한 30개 이상의 지표.",
@@ -1517,17 +1517,17 @@ export const generatedLocalCopy = {
       "tiers": [
         {
           "label": "무료",
-          "title": "리포트 라이트",
+          "title": "Report Lite",
           "description": "5개의 핵심 지표. CSV 업로드. 90일 보존."
         },
         {
           "label": "인기",
-          "title": "리포트 플러스",
+          "title": "Report Plus",
           "description": "15개의 지표. 자동 파싱 업로드. 1년 보존."
         },
         {
           "label": "전체 기능",
-          "title": "리포트 프로 / 코어",
+          "title": "Report Pro / Core",
           "description": "30개 이상의 지표. API 통합. 다년 보존."
         }
       ]
@@ -1628,14 +1628,14 @@ export const generatedLocalCopy = {
       "description": "আপনার সংখ্যা অজ্ঞাত সহকর্মীদের তথ্যের বিরুদ্ধে তুলনা করুন, যার মধ্যে রয়েছে RevPASH সূচক, আসন দখল, গড় চেক এবং রাজস্ব সূচক, সেই প্রসঙ্গে যা দেখায় আপনি কোথায় অবস্থান করছেন।",
       "heroPrimary": "ফ্রি বেঞ্চমার্ক চেষ্টা করুন",
       "heroSecondary": "ডেমো বুক করুন",
-      "howTitle": "সুন্ডে বেঞ্চমার্ক কিভাবে কাজ করে",
+      "howTitle": "How Sundae Benchmarks Work",
       "howDescription": "আপনার ডেটা আপলোড করুন। আপনার মতো রেস্টুরেন্টগুলোর বিরুদ্ধে তাত্ক্ষণিক তুলনা পান।",
       "metricsTitle": "আপনি কী পরিমাপ করতে পারেন",
       "metricsDescription": "পারফরম্যান্স, দক্ষতা এবং বাজার অবস্থানের মধ্যে 30+ মেট্রিক।",
       "forecastTitle": "আয় পূর্বাভাস",
       "forecastDescription": "আপনার প্রবণতা এবং বাজারের তথ্য ব্যবহার করে রাজস্ব পূর্বাভাস দেওয়া যাতে ভবিষ্যতের কর্মক্ষমতা অনুমান করা যায়।",
       "tiersTitle": "সব স্তরে উপলব্ধ",
-      "tiersDescription": "রিপোর্ট লাইটের সাথে বিনামূল্যে বেঞ্চমার্কিং শুরু করুন। আপনি যেমন বৃদ্ধি পাবেন, তেমন গভীর বুদ্ধিমত্তা আনলক করুন।",
+      "tiersDescription": "Start benchmarking for free with Report Lite. Unlock deeper intelligence as you grow.",
       "ctaTitle": "আপনি কোথায় আছেন দেখুন",
       "ctaDescription": "আপনার ডেটা আপলোড করুন এবং মিনিটের মধ্যে আপনার প্রথম বেঞ্চমার্ক পান। ফ্রি, ক্রেডিট কার্ডের প্রয়োজন নেই।",
       "startFree": "ফ্রি বেঞ্চমার্ক শুরু করুন",
@@ -1697,17 +1697,17 @@ export const generatedLocalCopy = {
       "tiers": [
         {
           "label": "মুক্ত",
-          "title": "রিপোর্ট লাইট",
+          "title": "Report Lite",
           "description": "৫টি মূল মেট্রিক। CSV আপলোড। ৯০ দিনের রিটেনশন।"
         },
         {
           "label": "জনপ্রিয়",
-          "title": "রিপোর্ট প্লাস",
+          "title": "Report Plus",
           "description": "১৫টি মেট্রিক। স্বয়ংক্রিয়ভাবে বিশ্লেষিত আপলোড। ১ বছরের রিটেনশন।"
         },
         {
           "label": "পূর্ণ শক্তি",
-          "title": "রিপোর্ট প্রো / কোর",
+          "title": "Report Pro / Core",
           "description": "৩০+ মেট্রিক। API ইন্টিগ্রেশন। বহু বছরের রিটেনশন।"
         }
       ]
@@ -1787,17 +1787,17 @@ export const generatedLocalCopy = {
       "tiers": [
         {
           "label": "PERCUMA",
-          "title": "Laporan Lite",
+          "title": "Report Lite",
           "description": "5 metrik utama. Muat naik CSV. Penahanan 90 hari."
         },
         {
           "label": "POPULER",
-          "title": "Laporan Plus",
+          "title": "Report Plus",
           "description": "15 metrik. Muat naik auto-parsed. Penahanan 1 tahun."
         },
         {
           "label": "KUASA PENUH",
-          "title": "Laporan Pro / Core",
+          "title": "Report Pro / Core",
           "description": "30+ metrik. Integrasi API. Penahanan pelbagai tahun."
         }
       ]
@@ -1877,17 +1877,17 @@ export const generatedLocalCopy = {
       "tiers": [
         {
           "label": "ฟรี",
-          "title": "รายงาน Lite",
+          "title": "Report Lite",
           "description": "5 เมตริกหลัก อัปโหลด CSV การเก็บข้อมูล 90 วัน"
         },
         {
           "label": "ยอดนิยม",
-          "title": "รายงาน Plus",
+          "title": "Report Plus",
           "description": "15 เมตริก อัปโหลดแบบอัตโนมัติ การเก็บข้อมูล 1 ปี"
         },
         {
           "label": "พลังเต็มที่",
-          "title": "รายงาน Pro / Core",
+          "title": "Report Pro / Core",
           "description": "30+ เมตริก การเชื่อมต่อ API การเก็บข้อมูลหลายปี"
         }
       ]

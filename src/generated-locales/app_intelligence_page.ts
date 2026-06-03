@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/app/intelligence/page.tsx.
-// Do not edit by hand; regenerate from the English local copy source.
+// Structural fields and protected glossary terms normalized from English source; review prose translations before release.
 export const generatedLocalCopy = {
   "localizedChatCopy": {
     "es": {
@@ -803,9 +803,9 @@ export const generatedLocalCopy = {
       ]
     },
     "ar": {
-      "heroBadge": "ذكاء سونداي",
+      "heroBadge": "ذكاء Sundae",
       "heroTitle": "اسأل بياناتك أي شيء. احصل على الإجابات في ثوان.",
-      "heroDescription": "أسئلة بلغة طبيعية، وإجابات بصرية منظمة - مدعومة من بيانات نظام نقاط البيع، والمخزون، والعمالة، والتوصيل في الوقت الحقيقي.",
+      "heroDescription": "أسئلة بلغة طبيعية، وإجابات بصرية منظمة - مدعومة من بيانات نظام POS، والمخزون، والعمالة، والتوصيل في الوقت الحقيقي.",
       "heroPrimary": "جربه مجانًا",
       "heroSecondary": "احجز عرضًا تجريبيًا",
       "platforms": [
@@ -877,7 +877,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "إدخال صوتي وكلمة تنبيه",
-          "description": "انقر على الميكروفون لكتابة الاستفسارات، أو قم بتمكين وضع \"هاي سونداي\" للاستماع الدائم لتشغيل بدون استخدام اليدين.",
+          "description": "انقر على الميكروفون لكتابة الاستفسارات، أو قم بتمكين وضع \"هاي Sundae\" للاستماع الدائم لتشغيل بدون استخدام اليدين.",
           "icon": "device"
         },
         {
@@ -1003,7 +1003,7 @@ export const generatedLocalCopy = {
       ]
     },
     "hi": {
-      "heroBadge": "संडे इंटेलिजेंस",
+      "heroBadge": "Sundae इंटेलिजेंस",
       "heroTitle": "अपने डेटा से कुछ भी पूछें। सेकंडों में उत्तर प्राप्त करें।",
       "heroDescription": "प्राकृतिक भाषा के प्रश्न, संरचित दृश्य उत्तर - आपके POS, इन्वेंटरी, श्रम और डिलीवरी डेटा द्वारा वास्तविक समय में संचालित।",
       "heroPrimary": "इसे मुफ्त में आजमाएँ",
@@ -1029,7 +1029,7 @@ export const generatedLocalCopy = {
       "briefingDescription": "हर नया सत्र एक व्यक्तिगत ब्रीफिंग के साथ शुरू होता है:",
       "collaborationTitle": "संस्थान और सहयोग",
       "collaborationDescription": "पिन करें, फ़ोल्डर, शेड्यूल करें और साझा करें - आपका इंटेलिजेंस कार्यक्षेत्र, आपके तरीके से व्यवस्थित।",
-      "differentiatorsTitle": "संडे इंटेलिजेंस क्यों अलग है",
+      "differentiatorsTitle": "Sundae इंटेलिजेंस क्यों अलग है",
       "differentiatorsDescription": "एक और डैशबोर्ड नहीं। निर्णय बुद्धिमत्ता के लिए एक मौलिक रूप से अलग दृष्टिकोण।",
       "marketTitle": "हर बाजार के लिए बनाया गया",
       "ctaTitle": "आपके डेटा में उत्तर हैं",
@@ -1077,7 +1077,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "वॉयस इनपुट और वेक वर्ड",
-          "description": "क्वेरी को डिक्टेट करने के लिए माइक्रोफ़ोन पर क्लिक करें, या हाथों से मुक्त संचालन के लिए \"हे सुंडे\" हमेशा सुनने वाले मोड को सक्षम करें।",
+          "description": "क्वेरी को डिक्टेट करने के लिए माइक्रोफ़ोन पर क्लिक करें, या हाथों से मुक्त संचालन के लिए \"हे सुंडे\" हमेशा सुनने वाले मोड को सक्षम करें। (Sundae)",
           "icon": "device"
         },
         {
@@ -1603,7 +1603,7 @@ export const generatedLocalCopy = {
       ]
     },
     "ur": {
-      "heroBadge": "سنڈے انٹیلیجنس",
+      "heroBadge": "Sundae انٹیلیجنس",
       "heroTitle": "اپنے ڈیٹا سے کچھ بھی پوچھیں۔ سیکنڈز میں جوابات حاصل کریں۔",
       "heroDescription": "قدرتی زبان کے سوالات، منظم بصری جوابات - آپ کے POS، انوینٹری، مزدوری، اور ترسیل کے ڈیٹا کی مدد سے حقیقی وقت میں.",
       "heroPrimary": "اسے مفت میں آزمائیں",
@@ -1629,7 +1629,7 @@ export const generatedLocalCopy = {
       "briefingDescription": "ہر نئی سیشن ایک ذاتی نوعیت کی بریفنگ کے ساتھ شروع ہوتی ہے:",
       "collaborationTitle": "تنظیم اور تعاون",
       "collaborationDescription": "پن، فولڈر، شیڈول، اور شیئر کریں - آپ کی ذہانت کی ورک اسپیس، آپ کے طریقے سے منظم۔",
-      "differentiatorsTitle": "سندے انٹیلیجنس کیوں مختلف ہے",
+      "differentiatorsTitle": "Why Sundae Intelligence Is Different",
       "differentiatorsDescription": "ایک اور ڈیش بورڈ نہیں۔ فیصلہ سازی کی ذہانت کے لیے ایک بنیادی طور پر مختلف نقطہ نظر۔",
       "marketTitle": "ہر مارکیٹ کے لیے بنایا گیا",
       "ctaTitle": "آپ کے ڈیٹا کے پاس جوابات ہیں",
@@ -2403,7 +2403,7 @@ export const generatedLocalCopy = {
       ]
     },
     "ja": {
-      "heroBadge": "サンデーインテリジェンス",
+      "heroBadge": "Sundaeインテリジェンス",
       "heroTitle": "データに何でも聞いてください。数秒で回答を得られます。",
       "heroDescription": "自然言語の質問、構造化された視覚的回答 - あなたのPOS、在庫、労働、配送データをリアルタイムで活用しています。",
       "heroPrimary": "無料で試す",
@@ -3403,7 +3403,7 @@ export const generatedLocalCopy = {
       ]
     },
     "bn": {
-      "heroBadge": "সানডে ইন্টেলিজেন্স",
+      "heroBadge": "Sundae ইন্টেলিজেন্স",
       "heroTitle": "আপনার ডেটা থেকে কিছু জিজ্ঞাসা করুন। সেকেন্ডের মধ্যে উত্তর পান।",
       "heroDescription": "প্রাকৃতিক ভাষার প্রশ্ন, কাঠামোবদ্ধ ভিজ্যুয়াল উত্তর - আপনার POS, ইনভেন্টরি, শ্রম এবং ডেলিভারি ডেটার মাধ্যমে বাস্তব সময়ে চালিত।",
       "heroPrimary": "এটি বিনামূল্যে চেষ্টা করুন",
@@ -3429,7 +3429,7 @@ export const generatedLocalCopy = {
       "briefingDescription": "প্রতিটি নতুন সেশন একটি ব্যক্তিগতকৃত ব্রিফিং দিয়ে শুরু হয়:",
       "collaborationTitle": "সংগঠন ও সহযোগিতা",
       "collaborationDescription": "পিন, ফোল্ডার, সময়সূচী এবং শেয়ার করুন - আপনার বুদ্ধিমত্তার কর্মক্ষেত্র, আপনার মতো করে সংগঠিত।",
-      "differentiatorsTitle": "সুন্ডে ইন্টেলিজেন্স কেন আলাদা",
+      "differentiatorsTitle": "Why Sundae Intelligence Is Different",
       "differentiatorsDescription": "আরেকটি ড্যাশবোর্ড নয়। সিদ্ধান্ত বুদ্ধিমত্তার জন্য একটি মৌলিকভাবে ভিন্ন পদ্ধতি।",
       "marketTitle": "প্রতিটি বাজারের জন্য নির্মিত",
       "ctaTitle": "আপনার ডেটার উত্তর আছে",
@@ -3477,7 +3477,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "ভয়েস ইনপুট ও ওয়েক ওয়ার্ড",
-          "description": "প্রশ্নগুলি বলার জন্য মাইক্রোফোনে ক্লিক করুন, অথবা \"হে সানডে\" সর্বদা-শ্রবণ মোড সক্ষম করুন হাত-মুক্ত অপারেশনের জন্য।",
+          "description": "প্রশ্নগুলি বলার জন্য মাইক্রোফোনে ক্লিক করুন, অথবা \"হে Sundae\" সর্বদা-শ্রবণ মোড সক্ষম করুন হাত-মুক্ত অপারেশনের জন্য।",
           "icon": "device"
         },
         {
@@ -3603,7 +3603,7 @@ export const generatedLocalCopy = {
       ]
     },
     "ko": {
-      "heroBadge": "선데이 인텔리전스",
+      "heroBadge": "Sundae 인텔리전스",
       "heroTitle": "데이터에 무엇이든 물어보세요. 몇 초 안에 답변을 받으세요.",
       "heroDescription": "자연어 질문, 구조화된 시각적 답변 - 실시간으로 귀하의 POS, 재고, 인력 및 배송 데이터를 기반으로 합니다.",
       "heroPrimary": "무료로 사용해 보세요",
@@ -3629,7 +3629,7 @@ export const generatedLocalCopy = {
       "briefingDescription": "모든 새로운 세션은 개인화된 브리핑으로 시작됩니다:",
       "collaborationTitle": "조직 및 협업",
       "collaborationDescription": "핀, 폴더, 일정 관리 및 공유 - 당신의 방식으로 구성된 인텔리전스 작업 공간.",
-      "differentiatorsTitle": "선데이 인텔리전스의 차별점",
+      "differentiatorsTitle": "Sundae 인텔리전스의 차별점",
       "differentiatorsDescription": "또 다른 대시보드가 아닙니다. 의사 결정 인텔리전스에 대한 근본적으로 다른 접근 방식입니다.",
       "marketTitle": "모든 시장을 위한 솔루션",
       "ctaTitle": "귀하의 데이터는 답을 가지고 있습니다",
@@ -4003,7 +4003,7 @@ export const generatedLocalCopy = {
       ]
     },
     "th": {
-      "heroBadge": "ซันเดย์ อินเทลลิเจนซ์",
+      "heroBadge": "Sundae อินเทลลิเจนซ์",
       "heroTitle": "ถามข้อมูลของคุณได้ทุกอย่าง รับคำตอบในไม่กี่วินาที.",
       "heroDescription": "คำถามด้วยภาษาธรรมชาติ คำตอบที่มีโครงสร้างแบบภาพ - ขับเคลื่อนโดยข้อมูล POS, สต็อก, แรงงาน และการจัดส่งของคุณแบบเรียลไทม์.",
       "heroPrimary": "ทดลองใช้ฟรี",

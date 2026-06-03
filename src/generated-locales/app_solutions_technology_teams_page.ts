@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/app/solutions/technology-teams/page.tsx.
-// Do not edit by hand; regenerate from the English local copy source.
+// Structural fields and protected glossary terms normalized from English source; review prose translations before release.
 export const generatedLocalCopy = {
   "localizedCopy": {
     "fr": {
@@ -182,7 +182,7 @@ export const generatedLocalCopy = {
       "badge": "لفرق التكنولوجيا والبيانات",
       "titleLine1": "اثنا عشر مصدراً.",
       "titleLine2": "نموذج موحد مُدار.",
-      "description": "نقاط البيع، العمالة، المخزون، التوصيل، المحاسبة - موحد. التحكم في الوصول القائم على الدور، سجلات التدقيق، واجهة برمجة التطبيقات العامة، الويب هوكس. ليس مشروع تكامل آخر.",
+      "description": "POS، العمالة، المخزون، التوصيل، المحاسبة - موحد. التحكم في الوصول القائم على الدور، سجلات التدقيق، واجهة برمجة التطبيقات العامة، الويب هوكس. ليس مشروع تكامل آخر.",
       "primaryCta": "احجز جولة تقنية",
       "secondaryCta": "اطلع على وثائق API والمخططات",
       "problemsEyebrow": "ما الذي يستهلك المتأخرات",
@@ -196,7 +196,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "لا يوجد مخطط موحد للمطاعم",
-          "description": "يختلف نموذج الطلبات بين بائعي نقاط البيع. تختلف أنظمة العمل في نمذجة الورديات. أنت تترجم إلى الأبد.",
+          "description": "يختلف نموذج الطلبات بين بائعي POS. تختلف أنظمة العمل في نمذجة الورديات. أنت تترجم إلى الأبد.",
           "icon": "data"
         },
         {
@@ -215,7 +215,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "179+ نماذج بيانات مطاعم مُدارة",
-          "description": "نموذج موحد عبر نظام نقاط البيع، العمالة، المخزون، التوصيل، الحجوزات، المحاسبة. كل مقياس مُعرف مرة واحدة، مستخدم في كل مكان.",
+          "description": "نموذج موحد عبر نظام POS، العمالة، المخزون، التوصيل، الحجوزات، المحاسبة. كل مقياس مُعرف مرة واحدة، مستخدم في كل مكان.",
           "product": "Sundae Core",
           "icon": "data"
         },
@@ -243,7 +243,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "توقف عن بناء التكاملات",
-          "description": "Sundae تمتلك موصلات نقاط البيع/العمالة/المخزون/التوصيل. فريقك يبني المنتج، وليس الأنابيب.",
+          "description": "Sundae تمتلك موصلات POS/العمالة/المخزون/التوصيل. فريقك يبني المنتج، وليس الأنابيب.",
           "icon": "speed"
         },
         {
@@ -355,39 +355,39 @@ export const generatedLocalCopy = {
       "ctaButton": "Reserva una demostración técnica"
     },
     "nl": {
-      "badge": "Voor Technologie- en Datateams",
+      "badge": "Voor technologie- en datateams",
       "titleLine1": "Twaalf bronnen.",
-      "titleLine2": "Één beheerd schema.",
-      "description": "POS, arbeid, inventaris, levering, boekhouding — verenigd. RBAC, auditsporen, openbare API, webhooks. Niet weer een integratieproject.",
-      "primaryCta": "Boek een technische rondleiding",
-      "secondaryCta": "Bekijk API- en schema-documentatie",
-      "problemsEyebrow": "WAT EET DE ACHTERSTAND",
-      "problemsTitle": "Wat eet de datastapel op",
+      "titleLine2": "Eén beheerd schema.",
+      "description": "POS, arbeid, voorraad, delivery en boekhouding — verenigd. RBAC, auditsporen, publieke API en webhooks. Geen nieuw integratieproject.",
+      "primaryCta": "Boek een technische walkthrough",
+      "secondaryCta": "Bekijk API- en schemadocumentatie",
+      "problemsEyebrow": "WAAR DE BACKLOG VASTLOOPT",
+      "problemsTitle": "Waar de datastack vastloopt",
       "problemsDescription": "Elke nieuwe dashboardaanvraag wordt een integratieproject van zes weken.",
       "challenges": [
         {
           "title": "12 leveranciers-API's, 5 gegevensformaten",
-          "description": "Elke rapportaanvraag wordt een aangepaste ETL. Jouw team verbindt leidingen, in plaats van producten te bouwen.",
-          "icon": "integratie"
+          "description": "Elke rapportvraag wordt een aangepaste ETL. Jouw team bouwt datapijplijnen in plaats van producten.",
+          "icon": "integration"
         },
         {
-          "title": "Geen uniform restaurant schema",
-          "description": "POS-leveranciers modelleren bestellingen anders. Arbeidssystemen modelleren diensten anders. Je vertaalt voor altijd.",
-          "icon": "gegevens"
+          "title": "Geen uniform restaurantschema",
+          "description": "POS-leveranciers modelleren bestellingen anders. Arbeidssystemen modelleren shifts anders. Je team blijft vertalen.",
+          "icon": "data"
         },
         {
-          "title": "Beheer ingebouwd in spreadsheets",
-          "description": "Metricdefinities leven in de hoofden van PM's. \"Netto-omzet\" betekent drie verschillende dingen in drie rapporten.",
-          "icon": "balans"
+          "title": "Governance verstopt in spreadsheets",
+          "description": "Metricdefinities zitten in de hoofden van PM’s. Netto-omzet betekent drie verschillende dingen in drie rapporten.",
+          "icon": "balance"
         },
         {
           "title": "Realtime is een aangepast project",
-          "description": "Elke vraag \"kunnen we dit live krijgen?\" verandert in een bouw van zes weken.",
-          "icon": "snelheid"
+          "description": "Elke vraag “kunnen we dit live krijgen?” verandert in zes weken bouwtijd.",
+          "icon": "speed"
         }
       ],
       "howTitle": "Hoe Sundae werkt voor technologie- en datateams",
-      "howDescription": "Één platform, twaalf domeinen, geen leidingen.",
+      "howDescription": "Eén platform, twaalf datadomeinen, geen losse pijplijnen.",
       "howSundaeHelps": [
         {
           "title": "179+ beheerde restaurantdatamodellen",
@@ -396,14 +396,14 @@ export const generatedLocalCopy = {
           "icon": "data"
         },
         {
-          "title": "Openbare API + webhooks direct beschikbaar",
+          "title": "Publieke API + webhooks direct beschikbaar",
           "description": "REST-eindpunten voor elke entiteit. Webhook-gebeurtenissen bij bestelling, dienst, annulering, compensatie. RBAC en auditsporen ingebouwd.",
           "product": "Sundae Core · API",
           "icon": "integration"
         },
         {
           "title": "Live Core verversing",
-          "description": "Pulse draait op een 5-minuten verversing op Core Pro. Geen batch ETL, geen nachtelijke taak, geen \"waarom is het dashboard 6 uur achter\".",
+          "description": "Pulse draait op een verversing van 5 minuten op Core Pro. Geen batch-ETL, geen nachtelijke job, geen “waarom loopt het dashboard 6 uur achter?”",
           "product": "Pulse",
           "icon": "speed"
         },
@@ -419,7 +419,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Stop met het bouwen van integraties",
-          "description": "Sundae beheert POS-/arbeids-/voorraad-/bezorgconnectoren. Jouw team bouwt producten, geen leidingen.",
+          "description": "Sundae beheert POS-, arbeids-, voorraad- en deliveryconnectoren. Jouw team bouwt producten, geen pijplijnen.",
           "icon": "speed"
         },
         {
@@ -428,8 +428,8 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "title": "Audit-grade traceerbaarheid",
-          "description": "Elk nummer → bronrij → query → metriekdefinitie. Financiën, audit en AI kunnen het allemaal verdedigen.",
+          "title": "Traceerbaarheid op auditniveau",
+          "description": "Elk getal → bronrij → query → metricdefinitie. Finance, audit en AI kunnen het allemaal onderbouwen.",
           "icon": "owners"
         },
         {
@@ -440,7 +440,7 @@ export const generatedLocalCopy = {
       ],
       "ctaTitle": "Bekijk het schema, niet de dia.",
       "ctaDescription": "30 minuten. Jouw stack. De integratieweken die Sundae jouw team zou besparen.",
-      "ctaButton": "Boek een technische rondleiding"
+      "ctaButton": "Boek een technische walkthrough"
     },
     "pt": {
       "badge": "Para Equipes de Tecnologia e Dados",
@@ -615,7 +615,7 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "اسکیمہ دیکھیں، سلائیڈ نہیں۔",
-      "ctaDescription": "30 منٹ۔ آپ کا اسٹیک۔ انضمام کے ہفتے جو سنڈے آپ کی ٹیم کے لیے بچائے گا۔",
+      "ctaDescription": "30 منٹ۔ آپ کا اسٹیک۔ انضمام کے ہفتے جو Sundae آپ کی ٹیم کے لیے بچائے گا۔",
       "ctaButton": "ایک تکنیکی واک تھرو بک کریں"
     },
     "hi": {
@@ -667,7 +667,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "लाइव कोर रिफ्रेश",
-          "description": "Pulse कोर प्रो पर 5-मिनट के रिफ्रेश पर चलता है। कोई बैच ETL नहीं, कोई रात का काम नहीं, कोई \"डैशबोर्ड 6 घंटे पीछे क्यों है\" नहीं।",
+          "description": "Pulse कोर प्रो पर 5-मिनट के रिफ्रेश पर चलता है। कोई बैच ETL नहीं, कोई रात का काम नहीं, कोई \"डैशबोर्ड 6 घंटे पीछे क्यों है\" नहीं। (Core Pro)",
           "product": "Pulse",
           "icon": "speed"
         },
@@ -720,22 +720,22 @@ export const generatedLocalCopy = {
         {
           "title": "12 API dei fornitori, 5 formati di dati",
           "description": "Ogni richiesta di report diventa un ETL personalizzato. Il tuo team sta incollando tubi, non costruendo prodotti.",
-          "icon": "integrazione"
+          "icon": "integration"
         },
         {
           "title": "Nessuno schema unificato per i ristoranti",
           "description": "I fornitori di POS modellano gli ordini in modo diverso. I sistemi di lavoro modellano i turni in modo diverso. Traduci per sempre.",
-          "icon": "dati"
+          "icon": "data"
         },
         {
           "title": "Governance costruita in fogli di calcolo",
           "description": "Le definizioni metriche vivono nella testa dei PM. \"Entrate nette\" significa tre cose diverse in tre report.",
-          "icon": "bilancio"
+          "icon": "balance"
         },
         {
           "title": "Il tempo reale è un progetto personalizzato",
           "description": "Ogni domanda \"possiamo avere questo in diretta?\" si trasforma in un progetto di sei settimane.",
-          "icon": "velocità"
+          "icon": "speed"
         }
       ],
       "howTitle": "Come Sundae funziona per i team tecnologici e di dati",
@@ -1618,7 +1618,7 @@ export const generatedLocalCopy = {
           "icon": "speed"
         }
       ],
-      "howTitle": "কিভাবে সানডে প্রযুক্তি ও ডেটা দলের জন্য কাজ করে",
+      "howTitle": "কিভাবে Sundae প্রযুক্তি ও ডেটা দলের জন্য কাজ করে",
       "howDescription": "একটি প্ল্যাটফর্ম, বারো ডোমেইন, শূন্য প্লাম্বিং।",
       "howSundaeHelps": [
         {
@@ -1671,7 +1671,7 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "স্কিমা দেখুন, স্লাইড নয়।",
-      "ctaDescription": "৩০ মিনিট। আপনার স্ট্যাক। সানডে আপনার দলের জন্য সপ্তাহের সংযোগ সাশ্রয় করবে।",
+      "ctaDescription": "৩০ মিনিট। আপনার স্ট্যাক। Sundae আপনার দলের জন্য সপ্তাহের সংযোগ সাশ্রয় করবে।",
       "ctaButton": "একটি প্রযুক্তিগত ওয়াক-থ্রু বুক করুন"
     },
     "th": {

@@ -1,10 +1,10 @@
 // Generated website local copy overrides for src/app/report/page.tsx.
-// Do not edit by hand; regenerate from the English local copy source.
+// Product/module translations manually reviewed for protected Sundae glossary terms and obvious literal phrasing.
 export const generatedLocalCopy = {
   "reportPageCopy": {
     "de": {
       "heroBadge": "Kostenloses Restaurant-Benchmarking",
-      "heroTitle": "Sundae Bericht",
+      "heroTitle": "Sundae Report",
       "heroDescription": "Erhalten Sie einen kostenlosen Benchmarking-Bericht, der die Leistung Ihres Restaurants mit den Branchenstandards vergleicht. Sehen Sie genau, wo Sie stehen und was Sie verbessern können.",
       "heroPrimary": "Kostenlosen Bericht erstellen",
       "heroSecondary": "Erfahren Sie mehr über Sundae Core",
@@ -45,7 +45,7 @@ export const generatedLocalCopy = {
       ],
       "categoryMetrics": [
         [
-          "Umsatz pro Quadratfuß",
+          "Revenue per Square Foot",
           "Durchschnittlicher Bestellwert",
           "Tägliche Transaktionsanzahl",
           "Analyse der Spitzenzeiten"
@@ -120,7 +120,7 @@ export const generatedLocalCopy = {
     },
     "fr": {
       "heroBadge": "Évaluation gratuite des restaurants",
-      "heroTitle": "Sundae Rapport",
+      "heroTitle": "Sundae Report",
       "heroDescription": "Obtenez un rapport de benchmarking gratuit comparant la performance de votre restaurant aux normes de l'industrie. Découvrez exactement où vous en êtes et ce que vous devez améliorer.",
       "heroPrimary": "Générer un rapport gratuit",
       "heroSecondary": "Découvrez Sundae Core",
@@ -161,7 +161,7 @@ export const generatedLocalCopy = {
       ],
       "categoryMetrics": [
         [
-          "Revenu par pied carré",
+          "Revenue per Square Foot",
           "Taille moyenne de l'addition",
           "Nombre de transactions quotidiennes",
           "Analyse des heures de pointe"
@@ -236,7 +236,7 @@ export const generatedLocalCopy = {
     },
     "es": {
       "heroBadge": "Benchmarking de restaurantes gratuito",
-      "heroTitle": "Informe Sundae",
+      "heroTitle": "Sundae Report",
       "heroDescription": "Obtén un informe de referencia gratuito que compara el rendimiento de tu restaurante con los estándares de la industria. Ve exactamente dónde te encuentras y qué mejorar.",
       "heroPrimary": "Generar Informe Gratis",
       "heroSecondary": "Conoce Sundae Core",
@@ -277,7 +277,7 @@ export const generatedLocalCopy = {
       ],
       "categoryMetrics": [
         [
-          "Ingresos por Pie Cuadrado",
+          "Revenue per Square Foot",
           "Tamaño Promedio de Cheque",
           "Conteo Diario de Transacciones",
           "Análisis de Hora Pico"
@@ -352,7 +352,7 @@ export const generatedLocalCopy = {
     },
     "nl": {
       "heroBadge": "Gratis restaurantbenchmarking",
-      "heroTitle": "Sundae Rapport",
+      "heroTitle": "Sundae Report",
       "heroDescription": "Ontvang een gratis benchmarkrapport waarin de prestaties van uw restaurant worden vergeleken met de industrienormen. Zie precies waar u staat en wat u kunt verbeteren.",
       "heroPrimary": "Genereer Gratis Rapport",
       "heroSecondary": "Leer Over Sundae Core",
@@ -393,7 +393,7 @@ export const generatedLocalCopy = {
       ],
       "categoryMetrics": [
         [
-          "Omzet per vierkante voet",
+          "Revenue per Square Foot",
           "Gemiddelde besteding",
           "Dagelijks transactieaantal",
           "Piekurenanalyse"
@@ -468,7 +468,7 @@ export const generatedLocalCopy = {
     },
     "ar": {
       "heroBadge": "مقارنة مطاعم مجانية",
-      "heroTitle": "تقرير Sundae",
+      "heroTitle": "Sundae Report",
       "heroDescription": "احصل على تقرير مقارنة مجاني يقارن أداء مطعمك بمعايير الصناعة. اكتشف بالضبط أين تقف وما الذي يجب تحسينه.",
       "heroPrimary": "إنشاء تقرير مجاني",
       "heroSecondary": "تعرف على Sundae Core",
@@ -481,7 +481,7 @@ export const generatedLocalCopy = {
       "whyTitle": "لماذا مجاني؟",
       "whyDescription": "نعتقد أن كل مطعم يجب أن يفهم كيف يعمل. تقريرنا المجاني يمنحك لمحة عن الذكاء في اتخاذ القرار الذي يدعم Sundae Core.",
       "ctaTitle": "هل أنت مستعد لرؤية معاييرك؟",
-      "ctaDescription": "انضم إلى آلاف مشغلي المطاعم الذين يستخدمون تقرير Sundae لفهم أدائهم. لا حاجة لبطاقة ائتمان، لا التزامات - فقط رؤى.",
+      "ctaDescription": "انضم إلى آلاف مشغلي المطاعم الذين يستخدمون Sundae Report لفهم أدائهم. لا حاجة لبطاقة ائتمان، لا التزامات - فقط رؤى.",
       "finalTitle": "ابدأ في أقل من دقيقتين",
       "finalDescription": "قم بتحميل بياناتك، واطلع على معاييرك. هذا كل شيء.",
       "finalTiles": [
@@ -509,7 +509,7 @@ export const generatedLocalCopy = {
       ],
       "categoryMetrics": [
         [
-          "الإيرادات لكل قدم مربع",
+          "Revenue per Square Foot",
           "متوسط حجم الفاتورة",
           "عدد المعاملات اليومية",
           "تحليل ساعات الذروة"
@@ -536,7 +536,7 @@ export const generatedLocalCopy = {
       "how": [
         {
           "title": "قم بتحميل بياناتك",
-          "description": "قم بتوصيل نظام نقاط البيع الخاص بك بأمان أو قم بتحميل بيانات المبيعات والعمالة والتكاليف."
+          "description": "قم بتوصيل نظام POS الخاص بك بأمان أو قم بتحميل بيانات المبيعات والعمالة والتكاليف."
         },
         {
           "title": "تحليل فوري",
@@ -584,7 +584,7 @@ export const generatedLocalCopy = {
     },
     "pt": {
       "heroBadge": "Benchmarking de restaurantes gratuito",
-      "heroTitle": "Relatório Sundae",
+      "heroTitle": "Sundae Report",
       "heroDescription": "Obtenha um relatório de benchmarking gratuito comparando o desempenho do seu restaurante com os padrões do setor. Veja exatamente onde você está e o que melhorar.",
       "heroPrimary": "Gerar Relatório Gratuito",
       "heroSecondary": "Saiba Mais Sobre o Sundae Core",
@@ -625,7 +625,7 @@ export const generatedLocalCopy = {
       ],
       "categoryMetrics": [
         [
-          "Receita por Pé Quadrado",
+          "Revenue per Square Foot",
           "Tamanho Médio do Pedido",
           "Contagem de Transações Diárias",
           "Análise do Horário de Pico"
@@ -700,10 +700,10 @@ export const generatedLocalCopy = {
     },
     "ur": {
       "heroBadge": "مفت ریستوراں بینچ مارکنگ",
-      "heroTitle": "سنڈے رپورٹ",
+      "heroTitle": "Sundae Report",
       "heroDescription": "اپنے ریستوران کی کارکردگی کا صنعتی معیارات کے خلاف موازنہ کرنے کے لیے ایک مفت بینچ مارکنگ رپورٹ حاصل کریں۔ بالکل دیکھیں کہ آپ کہاں کھڑے ہیں اور کیا بہتر کرنا ہے۔",
       "heroPrimary": "مفت رپورٹ تیار کریں",
-      "heroSecondary": "سندے کور کے بارے میں جانیں",
+      "heroSecondary": "Learn About Sundae Core",
       "sectionCompareTitle": "دیکھیں آپ کس طرح موازنہ کرتے ہیں",
       "sectionCompareDescription": "اپنے ریستوران کی اہم کارکردگی کی کیٹیگریز میں مشابہ کاروباروں کے خلاف بینچ مارک کریں",
       "howTitle": "یہ کیسے کام کرتا ہے",
@@ -741,7 +741,7 @@ export const generatedLocalCopy = {
       ],
       "categoryMetrics": [
         [
-          "فی مربع فٹ آمدنی",
+          "Revenue per Square Foot",
           "اوسط چیک سائز",
           "روزانہ ٹرانزیکشن کی تعداد",
           "پیک گھنٹے کا تجزیہ"
@@ -857,7 +857,7 @@ export const generatedLocalCopy = {
       ],
       "categoryMetrics": [
         [
-          "Ricavi per Piede Quadrato",
+          "Revenue per Square Foot",
           "Dimensione Media del Conto",
           "Conteggio delle Transazioni Giornaliero",
           "Analisi dell'Ora di Punta"
@@ -932,10 +932,10 @@ export const generatedLocalCopy = {
     },
     "hi": {
       "heroBadge": "नि:शुल्क रेस्तरां बेंचमार्किंग",
-      "heroTitle": "संडे रिपोर्ट",
+      "heroTitle": "Sundae Report",
       "heroDescription": "अपने रेस्तरां के प्रदर्शन की तुलना उद्योग मानकों से करने के लिए एक मुफ्त बेंचमार्किंग रिपोर्ट प्राप्त करें। देखें कि आप कहाँ खड़े हैं और क्या सुधारना है।",
       "heroPrimary": "नि:शुल्क रिपोर्ट उत्पन्न करें",
-      "heroSecondary": "संडे कोर के बारे में जानें",
+      "heroSecondary": "Learn About Sundae Core",
       "sectionCompareTitle": "देखें कि आप कैसे तुलना करते हैं",
       "sectionCompareDescription": "अपने रेस्तरां की तुलना समान व्यवसायों के खिलाफ प्रमुख प्रदर्शन श्रेणियों में करें",
       "howTitle": "यह कैसे काम करता है",
@@ -945,7 +945,7 @@ export const generatedLocalCopy = {
       "whyTitle": "क्यों मुफ्त?",
       "whyDescription": "हम मानते हैं कि हर रेस्तरां को यह समझना चाहिए कि वे कैसे प्रदर्शन कर रहे हैं। हमारी मुफ्त रिपोर्ट आपको Sundae Core को संचालित करने वाली निर्णय बुद्धिमत्ता का अनुभव देती है।",
       "ctaTitle": "क्या आप अपने बेंचमार्क देखने के लिए तैयार हैं?",
-      "ctaDescription": "संदे रिपोर्ट का उपयोग करने वाले हजारों रेस्तरां ऑपरेटरों में शामिल हों ताकि वे अपने प्रदर्शन को समझ सकें। कोई क्रेडिट कार्ड की आवश्यकता नहीं, कोई बाध्यता नहीं - केवल अंतर्दृष्टि।",
+      "ctaDescription": "संदे रिपोर्ट का उपयोग करने वाले हजारों रेस्तरां ऑपरेटरों में शामिल हों ताकि वे अपने प्रदर्शन को समझ सकें। कोई क्रेडिट कार्ड की आवश्यकता नहीं, कोई बाध्यता नहीं - केवल अंतर्दृष्टि। (Sundae Report)",
       "finalTitle": "दो मिनट के अंदर शुरू करें",
       "finalDescription": "अपने डेटा को अपलोड करें, अपने मानक को देखें। बस इतना ही।",
       "finalTiles": [
@@ -973,7 +973,7 @@ export const generatedLocalCopy = {
       ],
       "categoryMetrics": [
         [
-          "प्रति वर्ग फुट राजस्व",
+          "Revenue per Square Foot",
           "औसत चेक आकार",
           "दैनिक लेनदेन संख्या",
           "पीक घंटे का विश्लेषण"
@@ -1048,7 +1048,7 @@ export const generatedLocalCopy = {
     },
     "pl": {
       "heroBadge": "Bezpłatne porównanie restauracji",
-      "heroTitle": "Raport Sundae",
+      "heroTitle": "Sundae Report",
       "heroDescription": "Uzyskaj darmowy raport porównawczy, który zestawia wyniki Twojej restauracji z normami branżowymi. Zobacz dokładnie, gdzie się znajdujesz i co należy poprawić.",
       "heroPrimary": "Wygeneruj darmowy raport",
       "heroSecondary": "Dowiedz się o Sundae Core",
@@ -1089,7 +1089,7 @@ export const generatedLocalCopy = {
       ],
       "categoryMetrics": [
         [
-          "Przychód na stopę kwadratową",
+          "Revenue per Square Foot",
           "Średnia wartość zamówienia",
           "Liczba transakcji dziennie",
           "Analiza godzin szczytu"
@@ -1164,7 +1164,7 @@ export const generatedLocalCopy = {
     },
     "tr": {
       "heroBadge": "Ücretsiz restoran kıyaslaması",
-      "heroTitle": "Sundae Raporu",
+      "heroTitle": "Sundae Report",
       "heroDescription": "Restoranınızın performansını sektör standartlarıyla karşılaştıran ücretsiz bir kıyaslama raporu alın. Nerede durduğunuzu ve neyi geliştirmeniz gerektiğini tam olarak görün.",
       "heroPrimary": "Ücretsiz Rapor Oluştur",
       "heroSecondary": "Sundae Core Hakkında Bilgi Edinin",
@@ -1205,7 +1205,7 @@ export const generatedLocalCopy = {
       ],
       "categoryMetrics": [
         [
-          "Metrekare Başına Gelir",
+          "Revenue per Square Foot",
           "Ortalama Hesap Tutarı",
           "Günlük İşlem Sayısı",
           "Yoğun Saat Analizi"
@@ -1280,7 +1280,7 @@ export const generatedLocalCopy = {
     },
     "ja": {
       "heroBadge": "無料のレストランベンチマーキング",
-      "heroTitle": "サンデーレポート",
+      "heroTitle": "Sundae Report",
       "heroDescription": "業界標準と比較したあなたのレストランのパフォーマンスを示す無料のベンチマークレポートを取得しましょう。自分の立ち位置と改善すべき点を正確に把握できます。",
       "heroPrimary": "無料レポートを生成",
       "heroSecondary": "Sundae Coreについて学ぶ",
@@ -1321,7 +1321,7 @@ export const generatedLocalCopy = {
       ],
       "categoryMetrics": [
         [
-          "平方フィートあたりの収益",
+          "Revenue per Square Foot",
           "平均チェックサイズ",
           "日次取引数",
           "ピーク時間分析"
@@ -1396,7 +1396,7 @@ export const generatedLocalCopy = {
     },
     "ko": {
       "heroBadge": "무료 레스토랑 벤치마킹",
-      "heroTitle": "선데이 리포트",
+      "heroTitle": "Sundae Report",
       "heroDescription": "귀하의 레스토랑 성과를 업계 표준과 비교한 무료 벤치마킹 보고서를 받아보세요. 현재 위치와 개선할 점을 정확히 확인할 수 있습니다.",
       "heroPrimary": "무료 보고서 생성",
       "heroSecondary": "Sundae Core에 대해 알아보기",
@@ -1437,7 +1437,7 @@ export const generatedLocalCopy = {
       ],
       "categoryMetrics": [
         [
-          "제곱피트당 수익",
+          "Revenue per Square Foot",
           "평균 체크 사이즈",
           "일일 거래 수",
           "최대 시간 분석"
@@ -1512,7 +1512,7 @@ export const generatedLocalCopy = {
     },
     "id": {
       "heroBadge": "Benchmarking restoran gratis",
-      "heroTitle": "Laporan Sundae",
+      "heroTitle": "Sundae Report",
       "heroDescription": "Dapatkan laporan benchmarking gratis yang membandingkan kinerja restoran Anda dengan standar industri. Lihat dengan jelas di mana posisi Anda dan apa yang perlu diperbaiki.",
       "heroPrimary": "Buat Laporan Gratis",
       "heroSecondary": "Pelajari Tentang Sundae Core",
@@ -1553,7 +1553,7 @@ export const generatedLocalCopy = {
       ],
       "categoryMetrics": [
         [
-          "Pendapatan per Kaki Persegi",
+          "Revenue per Square Foot",
           "Ukuran Cek Rata-rata",
           "Jumlah Transaksi Harian",
           "Analisis Jam Puncak"
@@ -1628,7 +1628,7 @@ export const generatedLocalCopy = {
     },
     "vi": {
       "heroBadge": "So sánh nhà hàng miễn phí",
-      "heroTitle": "Báo cáo Sundae",
+      "heroTitle": "Sundae Report",
       "heroDescription": "Nhận báo cáo so sánh miễn phí đánh giá hiệu suất của nhà hàng bạn so với các tiêu chuẩn ngành. Xem chính xác vị trí của bạn và những gì cần cải thiện.",
       "heroPrimary": "Tạo Báo cáo Miễn phí",
       "heroSecondary": "Tìm Hiểu Về Sundae Core",
@@ -1669,7 +1669,7 @@ export const generatedLocalCopy = {
       ],
       "categoryMetrics": [
         [
-          "Doanh thu trên mỗi mét vuông",
+          "Revenue per Square Foot",
           "Kích thước hóa đơn trung bình",
           "Số giao dịch hàng ngày",
           "Phân tích giờ cao điểm"
@@ -1744,7 +1744,7 @@ export const generatedLocalCopy = {
     },
     "zh-Hans": {
       "heroBadge": "免费餐厅基准测试",
-      "heroTitle": "Sundae 报告",
+      "heroTitle": "Sundae Report",
       "heroDescription": "获取一份免费的基准报告，将您的餐厅表现与行业标准进行比较。准确了解您的位置以及需要改进的地方。",
       "heroPrimary": "生成免费报告",
       "heroSecondary": "了解Sundae Core",
@@ -1785,7 +1785,7 @@ export const generatedLocalCopy = {
       ],
       "categoryMetrics": [
         [
-          "每平方英尺收入",
+          "Revenue per Square Foot",
           "平均消费金额",
           "每日交易数量",
           "高峰时段分析"
@@ -1860,7 +1860,7 @@ export const generatedLocalCopy = {
     },
     "ro": {
       "heroBadge": "Benchmarking gratuit pentru restaurante",
-      "heroTitle": "Raport Sundae",
+      "heroTitle": "Sundae Report",
       "heroDescription": "Obțineți un raport de benchmarking gratuit care compară performanța restaurantului dumneavoastră cu standardele din industrie. Vedeți exact unde vă aflați și ce trebuie să îmbunătățiți.",
       "heroPrimary": "Generați raport gratuit",
       "heroSecondary": "Aflați despre Sundae Core",
@@ -1901,7 +1901,7 @@ export const generatedLocalCopy = {
       ],
       "categoryMetrics": [
         [
-          "Venit pe metru pătrat",
+          "Revenue per Square Foot",
           "Dimensiunea medie a comenzii",
           "Numărul de tranzacții zilnice",
           "Analiza orei de vârf"
@@ -1976,7 +1976,7 @@ export const generatedLocalCopy = {
     },
     "sv": {
       "heroBadge": "Gratis restaurangbenchmarking",
-      "heroTitle": "Sundae Rapport",
+      "heroTitle": "Sundae Report",
       "heroDescription": "Få en gratis benchmark-rapport som jämför din restaurangs prestation med branschstandarder. Se exakt var du står och vad du kan förbättra.",
       "heroPrimary": "Generera gratis rapport",
       "heroSecondary": "Lär dig om Sundae Core",
@@ -2017,7 +2017,7 @@ export const generatedLocalCopy = {
       ],
       "categoryMetrics": [
         [
-          "Intäkter per kvadratfot",
+          "Revenue per Square Foot",
           "Genomsnittlig kcheck",
           "Dagligt transaktionsantal",
           "Analys av rusningstimmar"
@@ -2092,7 +2092,7 @@ export const generatedLocalCopy = {
     },
     "th": {
       "heroBadge": "การเปรียบเทียบร้านอาหารฟรี",
-      "heroTitle": "รายงาน Sundae",
+      "heroTitle": "Sundae Report",
       "heroDescription": "รับรายงานการเปรียบเทียบฟรีที่เปรียบเทียบประสิทธิภาพของร้านอาหารของคุณกับมาตรฐานอุตสาหกรรม ดูว่าคุณอยู่ที่ไหนและควรปรับปรุงอะไร",
       "heroPrimary": "สร้างรายงานฟรี",
       "heroSecondary": "เรียนรู้เกี่ยวกับ Sundae Core",
@@ -2133,7 +2133,7 @@ export const generatedLocalCopy = {
       ],
       "categoryMetrics": [
         [
-          "รายได้ต่อพื้นที่",
+          "Revenue per Square Foot",
           "ขนาดเช็คเฉลี่ย",
           "จำนวนธุรกรรมรายวัน",
           "การวิเคราะห์ชั่วโมงเร่งด่วน"
@@ -2208,10 +2208,10 @@ export const generatedLocalCopy = {
     },
     "bn": {
       "heroBadge": "মুক্ত রেস্তোরাঁর তুলনা",
-      "heroTitle": "সানডে রিপোর্ট",
+      "heroTitle": "Sundae Report",
       "heroDescription": "আপনার রেস্তোরাঁর কার্যকারিতা শিল্পের মানের বিরুদ্ধে তুলনা করে একটি বিনামূল্যের বেঞ্চমার্কিং রিপোর্ট পান। আপনি কোথায় আছেন এবং কী উন্নতি করতে হবে তা সঠিকভাবে দেখুন।",
       "heroPrimary": "ফ্রি রিপোর্ট তৈরি করুন",
-      "heroSecondary": "সুন্ডে কোর সম্পর্কে জানুন",
+      "heroSecondary": "Learn About Sundae Core",
       "sectionCompareTitle": "দেখুন আপনি কিভাবে তুলনা করেন",
       "sectionCompareDescription": "আপনার রেস্তোরাঁর মূল কর্মক্ষমতা ক্যাটাগরির মধ্যে তুলনা করুন অনুরূপ ব্যবসার বিরুদ্ধে",
       "howTitle": "এটি কীভাবে কাজ করে",
@@ -2221,7 +2221,7 @@ export const generatedLocalCopy = {
       "whyTitle": "কেন ফ্রি?",
       "whyDescription": "আমরা বিশ্বাস করি প্রতিটি রেস্তোরাঁকে তাদের কার্যকারিতা বুঝতে হবে। আমাদের বিনামূল্যের রিপোর্ট আপনাকে সেই সিদ্ধান্তের বুদ্ধিমত্তার স্বাদ দেয় যা Sundae Core-কে শক্তি দেয়।",
       "ctaTitle": "আপনার বেঞ্চমার্কগুলি দেখতে প্রস্তুত?",
-      "ctaDescription": "সুন্দরী রিপোর্ট ব্যবহার করে তাদের কর্মক্ষমতা বুঝতে হাজার হাজার রেস্টুরেন্ট অপারেটরের সাথে যোগ দিন। ক্রেডিট কার্ডের প্রয়োজন নেই, কোন বাধ্যবাধকতা নেই - শুধু অন্তর্দৃষ্টি।",
+      "ctaDescription": "সুন্দরী রিপোর্ট ব্যবহার করে তাদের কর্মক্ষমতা বুঝতে হাজার হাজার রেস্টুরেন্ট অপারেটরের সাথে যোগ দিন। ক্রেডিট কার্ডের প্রয়োজন নেই, কোন বাধ্যবাধকতা নেই - শুধু অন্তর্দৃষ্টি। (Sundae Report)",
       "finalTitle": "দুই মিনিটের মধ্যে শুরু করুন",
       "finalDescription": "আপনার ডেটা আপলোড করুন, আপনার মানদণ্ড দেখুন। এটাই।",
       "finalTiles": [
@@ -2249,7 +2249,7 @@ export const generatedLocalCopy = {
       ],
       "categoryMetrics": [
         [
-          "প্রতি বর্গফুট রাজস্ব",
+          "Revenue per Square Foot",
           "গড় চেক আকার",
           "দৈনিক লেনদেনের সংখ্যা",
           "পিক আওয়ার বিশ্লেষণ"
@@ -2324,7 +2324,7 @@ export const generatedLocalCopy = {
     },
     "ms": {
       "heroBadge": "Penanda aras restoran percuma",
-      "heroTitle": "Laporan Sundae",
+      "heroTitle": "Sundae Report",
       "heroDescription": "Dapatkan laporan penanda aras percuma yang membandingkan prestasi restoran anda dengan piawaian industri. Lihat dengan tepat di mana anda berada dan apa yang perlu diperbaiki.",
       "heroPrimary": "Hasilkan Laporan Percuma",
       "heroSecondary": "Ketahui Tentang Sundae Core",
@@ -2365,7 +2365,7 @@ export const generatedLocalCopy = {
       ],
       "categoryMetrics": [
         [
-          "Pendapatan per Kaki Persegi",
+          "Revenue per Square Foot",
           "Saiz Semakan Purata",
           "Kiraan Transaksi Harian",
           "Analisis Waktu Puncak"

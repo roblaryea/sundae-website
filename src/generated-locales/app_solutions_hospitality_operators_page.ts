@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/app/solutions/hospitality-operators/page.tsx.
-// OpenAI generated completed chunks first; Google Translate fallback filled remaining quota-limited chunks.
+// Structural fields and protected glossary terms normalized from English source; review prose translations before release.
 export const generatedLocalCopy = {
   "localizedCopy": {
     "nl": {
@@ -52,7 +52,7 @@ export const generatedLocalCopy = {
         {
           "title": "Arbeidsproductiviteit per outlet",
           "description": "Toegewezen en directe arbeid per outlet, met covers per FOH-uur en productiviteitsvergelijkingen over het pand.",
-          "product": "Pulse · Arbeid",
+          "product": "Pulse · Labor",
           "icon": "balance"
         },
         {
@@ -280,22 +280,22 @@ export const generatedLocalCopy = {
         {
           "title": "آؤٹ لیٹس نے الگ الگ رپورٹ کیا، ایک ساتھ فیصلہ کیا",
           "description": "F&B P&L ایک ہی لائن تک چلتا ہے۔ اس کے پیچھے کی کہانی — ضیافت بمقابلہ IRD بمقابلہ لابی — گم ہو جاتی ہے۔",
-          "icon": "آپریٹرز"
+          "icon": "operators"
         },
         {
           "title": "ضیافت کی آمدنی نظام سے باہر رہتی ہے۔",
           "description": "ایک ٹول میں BEOs، دوسرے میں POS، اسپریڈشیٹ میں F&B GM ٹریکنگ مارجن۔",
-          "icon": "انضمام"
+          "icon": "integration"
         },
         {
           "title": "تمام دکانوں میں لیبر کا اشتراک",
           "description": "ایک باورچی دو آؤٹ لیٹس کو سپورٹ کرتا ہے۔ لاگت کی تقسیم تخمینی ہے۔ پیداواری صلاحیت مبہم رہتی ہے۔",
-          "icon": "توازن"
+          "icon": "balance"
         },
         {
           "title": "مہمانوں کا سفر آؤٹ لیٹس کراس کرتا ہے۔",
           "description": "ایک وفادار مہمان ریستوراں میں کھانا کھاتا ہے، لابی میں پیتا ہے، IRD کا آرڈر دیتا ہے۔ کوئی نظام تینوں کو نہیں دیکھتا۔",
-          "icon": "حمایت"
+          "icon": "support"
         }
       ],
       "howTitle": "Sundae مہمان نوازی F&B کے لیے کیسے کام کرتا ہے۔",
@@ -304,26 +304,26 @@ export const generatedLocalCopy = {
         {
           "title": "آؤٹ لیٹ بذریعہ آؤٹ لیٹ پیسنگ، ایک F&B منظر میں رولڈ",
           "description": "ہر آؤٹ لیٹ کے لیے لائیو ریونیو اور مارجن — ریستوراں، ضیافت، IRD، لابی بار، ریٹیل — ایک متحد پورٹ فولیو رول اپ کے ساتھ۔",
-          "product": "نبض",
-          "icon": "چارٹ"
+          "product": "Pulse",
+          "icon": "chart"
         },
         {
           "title": "ضیافت + BEO منسلک ہے۔",
           "description": "ضیافت کی آمدنی، IRD آرڈرز، اور ریستوراں POS کو ایک لیجر میں یکجا کر دیا گیا۔ F&B GM مفاہمت روکتا ہے، اسٹیئرنگ شروع کرتا ہے۔",
-          "product": "سنڈے کور",
-          "icon": "انضمام"
+          "product": "Sundae Core",
+          "icon": "integration"
         },
         {
           "title": "فی آؤٹ لیٹ لیبر کی پیداوری",
           "description": "آؤٹ لیٹ کے ذریعہ مختص اور براہ راست لیبر، فی FOH گھنٹے کے کور کے ساتھ اور پوری پراپرٹی میں پیداواری موازنہ۔",
-          "product": "نبض · محنت",
-          "icon": "توازن"
+          "product": "Pulse · Labor",
+          "icon": "balance"
         },
         {
           "title": "تمام آؤٹ لیٹس میں مہمان CRM",
           "description": "ریستوران، بار، IRD، اور ضیافت میں وفادار مہمان کے اخراجات کو سلائی کریں۔ ایک مہمان کا ریکارڈ، پانچ نہیں۔",
-          "product": "مہمان CRM انٹیلی جنس",
-          "icon": "حمایت"
+          "product": "Guest CRM Intelligence",
+          "icon": "support"
         }
       ],
       "outcomesTitle": "F&B قیادت کے لیے کیا تبدیلیاں؟",
@@ -332,22 +332,22 @@ export const generatedLocalCopy = {
         {
           "title": "آؤٹ لیٹ گرینولریٹی پر F&B کو آگے بڑھائیں۔",
           "description": "ریسٹورانٹ پھسلنا؟ لابی بار اوور پلان؟ آپ اسے آؤٹ لیٹ کے ذریعے، شفٹ میں دیکھتے ہیں۔",
-          "icon": "رفتار"
+          "icon": "speed"
         },
         {
           "title": "ضیافت بلیک باکس بن کر رک جاتی ہے۔",
           "description": "BEO ریونیو، کھانے کی قیمت میں فرق، اور لیبر اسی ڈیش بورڈ پر جس پر ریستوراں ہے۔",
-          "icon": "مالکان"
+          "icon": "owners"
         },
         {
           "title": "پیداواری صلاحیت کا موازنہ تمام آؤٹ لیٹس میں",
           "description": "مختص شدہ لیبر صحیح طریقے سے کی گئی - ایک ایماندارانہ کارکردگی پڑھنے کے لیے تقابلی کور/گھنٹہ۔",
-          "icon": "کارکردگی"
+          "icon": "performance"
         },
         {
           "title": "ہر آؤٹ لیٹ پر مہمان LTV",
           "description": "لائلٹی پروگرام جو F&B پر انعام دیتے ہیں، نہ صرف فی آؤٹ لیٹ۔ مہمانوں کا نوٹس۔ شرح کی چالوں کو دہرائیں۔",
-          "icon": "حمایت"
+          "icon": "support"
         }
       ],
       "ctaTitle": "ہر F&B آؤٹ لیٹ کو ایک ہی منظر میں دیکھیں۔",
@@ -363,27 +363,27 @@ export const generatedLocalCopy = {
       "secondaryCta": "انظر العرض التوضيحي للضيافة",
       "problemsEyebrow": "المأكولات والمشروبات داخل الضيافة",
       "problemsTitle": "ما يواجهه قادة المأكولات والمشروبات داخل الضيافة",
-      "problemsDescription": "العديد من المنافذ، ومجموعات PMS/POS المختلطة، ولا يوجد عرض موحد للربح والخسارة.",
+      "problemsDescription": "Many outlets, mixed PMS/POS stacks, no unified P&L view.",
       "challenges": [
         {
           "title": "تم الإبلاغ عن المنافذ بشكل منفصل، والحكم عليها معًا",
-          "description": "يتم عرض الربح والخسارة في F&B في سطر واحد. تضيع القصة وراء ذلك – المأدبة مقابل IRD مقابل الردهة.",
-          "icon": "مشغلي"
+          "description": "يتم عرض P&L في F&B في سطر واحد. تضيع القصة وراء ذلك – المأدبة مقابل IRD مقابل الردهة.",
+          "icon": "operators"
         },
         {
           "title": "تعيش إيرادات الولائم خارج النظام",
-          "description": "BEOs في إحدى الأدوات، ونقاط البيع في أداة أخرى، وهامش تتبع F&B GM في جدول بيانات.",
-          "icon": "التكامل"
+          "description": "BEOs في إحدى الأدوات، وPOS في أداة أخرى، وهامش تتبع F&B GM في جدول بيانات.",
+          "icon": "integration"
         },
         {
           "title": "العمل مشترك عبر المنافذ",
           "description": "طباخ واحد يدعم منفذين. تخصيص التكلفة تقريبي. الإنتاجية تبقى غامضة.",
-          "icon": "التوازن"
+          "icon": "balance"
         },
         {
           "title": "رحلة الضيف تعبر المنافذ",
           "description": "الضيف المخلص يتناول العشاء في المطعم، ويشرب في الردهة، ويطلب IRD. لا يوجد نظام يرى كل ثلاثة.",
-          "icon": "الدعم"
+          "icon": "support"
         }
       ],
       "howTitle": "كيف يعمل Sundae للضيافة F&B",
@@ -392,26 +392,26 @@ export const generatedLocalCopy = {
         {
           "title": "تسلسل منفذ تلو الآخر، يتم عرضه في عرض واحد للأطعمة والمشروبات",
           "description": "الإيرادات والهامش المباشر لكل منفذ - مطعم، ومأدبة، وIRD، وبار الردهة، وتجارة التجزئة - مع مجموعة مجمعة موحدة للمحفظة.",
-          "product": "نبض",
-          "icon": "مخطط"
+          "product": "Pulse",
+          "icon": "chart"
         },
         {
           "title": "مأدبة + BEO متصلة",
-          "description": "تم توحيد إيرادات الولائم وطلبات IRD ونقاط البيع الخاصة بالمطعم في دفتر أستاذ واحد. يتوقف F&B GM عن التوفيق، ويبدأ التوجيه.",
-          "product": "مثلجات الأساسية",
-          "icon": "التكامل"
+          "description": "تم توحيد إيرادات الولائم وطلبات IRD وPOS الخاصة بالمطعم في دفتر أستاذ واحد. يتوقف F&B GM عن التوفيق، ويبدأ التوجيه.",
+          "product": "Sundae Core",
+          "icon": "integration"
         },
         {
           "title": "إنتاجية العمل لكل منفذ",
           "description": "العمالة المخصصة والمباشرة حسب المنفذ، مع أغطية لكل ساعة عمل FOH ومقارنات الإنتاجية عبر العقار.",
-          "product": "نبض · العمل",
-          "icon": "التوازن"
+          "product": "Pulse · Labor",
+          "icon": "balance"
         },
         {
           "title": "إدارة علاقات العملاء (CRM) للضيف عبر المنافذ",
           "description": "قم بتجميع إنفاق الضيف المخلص عبر المطعم والبار وIRD والمأدبة. سجل ضيف واحد، وليس خمسة.",
-          "product": "ذكاء إدارة علاقات العملاء (CRM) للضيف",
-          "icon": "الدعم"
+          "product": "Guest CRM Intelligence",
+          "icon": "support"
         }
       ],
       "outcomesTitle": "ما هي التغييرات في قيادة الأغذية والمشروبات",
@@ -420,22 +420,22 @@ export const generatedLocalCopy = {
         {
           "title": "قم بتوجيه المأكولات والمشروبات إلى تفاصيل المنفذ",
           "description": "مطعم الانزلاق؟ شريط اللوبي على الخطة؟ تراه عن طريق المنفذ، في التحول.",
-          "icon": "السرعة"
+          "icon": "speed"
         },
         {
           "title": "تتوقف المأدبة عن كونها صندوقًا أسودًا",
           "description": "إيرادات BEO، وتباين تكلفة الطعام، والعمالة على نفس لوحة المعلومات الخاصة بالمطعم.",
-          "icon": "أصحاب"
+          "icon": "owners"
         },
         {
           "title": "إنتاجية قابلة للمقارنة عبر منافذ البيع",
           "description": "تم تنفيذ العمل المخصص بشكل صحيح - أغطية / ساعة قابلة للمقارنة للحصول على قراءة أداء صادقة.",
-          "icon": "الأداء"
+          "icon": "performance"
         },
         {
           "title": "القيمة الدائمة للضيوف عبر كل منفذ",
           "description": "برامج الولاء التي تقدم المكافآت عبر المأكولات والمشروبات، وليس فقط لكل منفذ. لاحظ الضيوف. كرر تحركات المعدل.",
-          "icon": "الدعم"
+          "icon": "support"
         }
       ],
       "ctaTitle": "شاهد كل منافذ المأكولات والمشروبات في عرض واحد.",
@@ -451,27 +451,27 @@ export const generatedLocalCopy = {
       "secondaryCta": "Siehe Hospitality-Demo",
       "problemsEyebrow": "F&B IN GASTFREUNDSCHAFT",
       "problemsTitle": "Womit F&B-Führungskräfte im Gastgewerbe konfrontiert sind",
-      "problemsDescription": "Viele Filialen, gemischte PMS/POS-Stapel, keine einheitliche GuV-Ansicht.",
+      "problemsDescription": "Many outlets, mixed PMS/POS stacks, no unified P&L view.",
       "challenges": [
         {
           "title": "Getrennt gemeldete Verkaufsstellen, gemeinsam beurteilt",
-          "description": "Die F&B-Gewinn- und Verlustrechnung wird in einer einzigen Zeile zusammengefasst. Die Geschichte dahinter – Bankett vs. IRD vs. Lobby – geht verloren.",
-          "icon": "Betreiber"
+          "description": "Die F&B-P&L wird in einer einzigen Zeile zusammengefasst. Die Geschichte dahinter – Bankett vs. IRD vs. Lobby – geht verloren.",
+          "icon": "operators"
         },
         {
           "title": "Die Banketteinnahmen leben außerhalb des Systems",
           "description": "BEOs in einem Tool, POS in einem anderen, F&B GM-Tracking-Marge in einer Tabelle.",
-          "icon": "Integration"
+          "icon": "integration"
         },
         {
           "title": "Arbeitsteilung zwischen den Filialen",
           "description": "Ein Koch unterstützt zwei Steckdosen. Die Kostenzuordnung ist ungefähr. Die Produktivität bleibt undurchsichtig.",
-          "icon": "Gleichgewicht"
+          "icon": "balance"
         },
         {
           "title": "Die Reise der Gäste führt über Outlets",
           "description": "Ein treuer Gast speist im Restaurant, trinkt in der Lobby und bestellt IRD. Kein System sieht alle drei.",
-          "icon": "Unterstützung"
+          "icon": "support"
         }
       ],
       "howTitle": "Wie Sundae für Gastronomie und Gastronomie funktioniert",
@@ -480,26 +480,26 @@ export const generatedLocalCopy = {
         {
           "title": "Abstufung von Filiale zu Filiale, zusammengefasst in einer F&B-Ansicht",
           "description": "Live-Umsatz und Marge für jede Filiale – Restaurant, Bankett, IRD, Lobbybar, Einzelhandel – mit einem einheitlichen Portfolio-Rollup.",
-          "product": "Puls",
-          "icon": "Diagramm"
+          "product": "Pulse",
+          "icon": "chart"
         },
         {
           "title": "Bankett + BEO verbunden",
           "description": "Banketteinnahmen, IRD-Bestellungen und Restaurant-POS in einem Hauptbuch vereint. Der F&B-GM hört mit der Versöhnung auf und beginnt zu lenken.",
-          "product": "Eisbecherkern",
-          "icon": "Integration"
+          "product": "Sundae Core",
+          "icon": "integration"
         },
         {
           "title": "Arbeitsproduktivität pro Filiale",
           "description": "Zugeteilte und direkte Arbeitskräfte nach Filiale, mit Deckungen pro FOH-Stunde und Produktivitätsvergleichen im gesamten Unternehmen.",
-          "product": "Puls · Wehen",
-          "icon": "Gleichgewicht"
+          "product": "Pulse · Labor",
+          "icon": "balance"
         },
         {
           "title": "Gäste-CRM in allen Filialen",
           "description": "Reduzieren Sie die Ausgaben Ihrer treuen Gäste für Restaurant, Bar, IRD und Bankett. Ein Gastrekord, nicht fünf.",
-          "product": "Gast-CRM-Intelligence",
-          "icon": "Unterstützung"
+          "product": "Guest CRM Intelligence",
+          "icon": "support"
         }
       ],
       "outcomesTitle": "Was sich für die F&B-Führung ändert",
@@ -508,22 +508,22 @@ export const generatedLocalCopy = {
         {
           "title": "Steuern Sie F&B auf Outlet-Granularität",
           "description": "Restaurant rutscht aus? Lobbybar über Plan? Sie sehen es am Ausgang, in der Schicht.",
-          "icon": "Geschwindigkeit"
+          "icon": "speed"
         },
         {
           "title": "Das Bankett ist keine Blackbox mehr",
           "description": "BEO-Umsatz, Lebensmittelkostenabweichung und Arbeitsaufwand auf demselben Dashboard wie das Restaurant.",
-          "icon": "Eigentümer"
+          "icon": "owners"
         },
         {
           "title": "Produktivität in allen Filialen vergleichbar",
           "description": "Zugeteilte Arbeit richtig ausgeführt – vergleichbare Deckungen/Stunde für eine ehrliche Leistungsmessung.",
-          "icon": "Leistung"
+          "icon": "performance"
         },
         {
           "title": "Gast-LTV in allen Filialen",
           "description": "Treueprogramme, die im gesamten F&B belohnen, nicht nur pro Filiale. Gäste merken es. Wiederholungsratenbewegungen.",
-          "icon": "Unterstützung"
+          "icon": "support"
         }
       ],
       "ctaTitle": "Sehen Sie alle F&B-Filialen auf einen Blick.",
@@ -539,55 +539,55 @@ export const generatedLocalCopy = {
       "secondaryCta": "आतिथ्य डेमो देखें",
       "problemsEyebrow": "आतिथ्य के अंदर एफ एंड बी",
       "problemsTitle": "आतिथ्य सत्कार में F&B नेताओं को किन समस्याओं का सामना करना पड़ता है",
-      "problemsDescription": "कई आउटलेट, मिश्रित पीएमएस/पीओएस स्टैक, कोई एकीकृत पी एंड एल दृश्य नहीं।",
+      "problemsDescription": "Many outlets, mixed PMS/POS stacks, no unified P&L view.",
       "challenges": [
         {
           "title": "आउटलेट्स ने अलग-अलग रिपोर्ट की, एक साथ निर्णय लिया गया",
           "description": "F&B P&L एक लाइन तक रोल करता है। इसके पीछे की कहानी - भोज बनाम आईआरडी बनाम लॉबी - लुप्त हो जाती है।",
-          "icon": "संचालक"
+          "icon": "operators"
         },
         {
           "title": "बैंक्वेट राजस्व ऑफ-सिस्टम रहता है",
-          "description": "एक टूल में बीईओ, दूसरे में पीओएस, एक स्प्रेडशीट में एफ एंड बी जीएम ट्रैकिंग मार्जिन।",
-          "icon": "एकीकरण"
+          "description": "एक टूल में बीईओ, दूसरे में POS, एक स्प्रेडशीट में एफ एंड बी जीएम ट्रैकिंग मार्जिन।",
+          "icon": "integration"
         },
         {
           "title": "श्रम को सभी दुकानों में साझा किया गया",
           "description": "एक रसोइया दो दुकानों को सहारा देता है। लागत आवंटन अनुमानित है. उत्पादकता अपारदर्शी रहती है.",
-          "icon": "संतुलन"
+          "icon": "balance"
         },
         {
           "title": "अतिथि यात्रा आउटलेट्स को पार करती है",
           "description": "एक वफादार मेहमान रेस्तरां में भोजन करता है, लॉबी में शराब पीता है, आईआरडी का ऑर्डर देता है। कोई भी सिस्टम इन तीनों को नहीं देखता.",
-          "icon": "समर्थन"
+          "icon": "support"
         }
       ],
-      "howTitle": "संडे आतिथ्य एफ एंड बी के लिए कैसे काम करता है",
+      "howTitle": "Sundae आतिथ्य एफ एंड बी के लिए कैसे काम करता है",
       "howDescription": "प्रत्येक आउटलेट, प्रत्येक चैनल, प्रत्येक राजस्व स्रोत पर एकीकृत लाइव दृश्य।",
       "howSundaeHelps": [
         {
           "title": "आउटलेट-दर-आउटलेट पेसिंग, एक F&B दृश्य पर लुढ़का",
           "description": "प्रत्येक आउटलेट के लिए लाइव राजस्व और मार्जिन - रेस्तरां, भोज, आईआरडी, लॉबी बार, खुदरा - एक एकीकृत पोर्टफोलियो रोलअप के साथ।",
-          "product": "नाड़ी",
-          "icon": "चार्ट"
+          "product": "Pulse",
+          "icon": "chart"
         },
         {
           "title": "भोज + बीईओ जुड़े",
-          "description": "भोज राजस्व, आईआरडी ऑर्डर और रेस्तरां पीओएस एक बही में एकीकृत हो गए। एफ एंड बी जीएम ने सामंजस्य बिठाना बंद कर दिया, स्टीयरिंग शुरू कर दी।",
-          "product": "संडे कोर",
-          "icon": "एकीकरण"
+          "description": "भोज राजस्व, आईआरडी ऑर्डर और रेस्तरां POS एक बही में एकीकृत हो गए। एफ एंड बी जीएम ने सामंजस्य बिठाना बंद कर दिया, स्टीयरिंग शुरू कर दी।",
+          "product": "Sundae Core",
+          "icon": "integration"
         },
         {
           "title": "प्रति आउटलेट श्रम उत्पादकता",
           "description": "आउटलेट द्वारा आवंटित और प्रत्यक्ष श्रम, प्रति एफओएच घंटे कवर और संपूर्ण संपत्ति में उत्पादकता तुलना के साथ।",
-          "product": "नाड़ी · श्रम",
-          "icon": "संतुलन"
+          "product": "Pulse · Labor",
+          "icon": "balance"
         },
         {
           "title": "सभी आउटलेट्स पर अतिथि सीआरएम",
           "description": "वफादार मेहमानों के खर्च को रेस्तरां, बार, आईआरडी और भोज में शामिल करें। एक अतिथि रिकॉर्ड, पाँच नहीं।",
-          "product": "अतिथि सीआरएम इंटेलिजेंस",
-          "icon": "समर्थन"
+          "product": "Guest CRM Intelligence",
+          "icon": "support"
         }
       ],
       "outcomesTitle": "F&B नेतृत्व के लिए क्या परिवर्तन",
@@ -596,22 +596,22 @@ export const generatedLocalCopy = {
         {
           "title": "आउटलेट ग्रैन्युलैरिटी पर F&B को संचालित करें",
           "description": "रेस्तरां फिसल रहा है? योजना से अधिक लॉबी बार? आप इसे आउटलेट द्वारा, शिफ्ट में देखते हैं।",
-          "icon": "गति"
+          "icon": "speed"
         },
         {
           "title": "भोज एक ब्लैक बॉक्स बनना बंद कर देता है",
           "description": "रेस्तरां के समान डैशबोर्ड पर बीईओ राजस्व, भोजन लागत भिन्नता और श्रम।",
-          "icon": "मालिक"
+          "icon": "owners"
         },
         {
           "title": "सभी आउटलेट्स पर उत्पादकता तुलनीय",
           "description": "आवंटित श्रम सही ढंग से किया गया - एक ईमानदार प्रदर्शन के लिए तुलनीय कवर/घंटा।",
-          "icon": "प्रदर्शन"
+          "icon": "performance"
         },
         {
           "title": "प्रत्येक आउटलेट पर अतिथि एलटीवी",
           "description": "वफादारी कार्यक्रम जो केवल प्रति आउटलेट नहीं, बल्कि F&B में पुरस्कृत करते हैं। मेहमान नोटिस करते हैं. बार-बार दर चालें।",
-          "icon": "समर्थन"
+          "icon": "support"
         }
       ],
       "ctaTitle": "प्रत्येक F&B आउटलेट को एक दृश्य में देखें।",
@@ -627,27 +627,27 @@ export const generatedLocalCopy = {
       "secondaryCta": "Veja a demonstração de hospitalidade",
       "problemsEyebrow": "F&B DENTRO DA HOSPITALIDADE",
       "problemsTitle": "O que os líderes de alimentos e bebidas enfrentam na hospitalidade",
-      "problemsDescription": "Muitos pontos de venda, pilhas mistas de PMS/POS, sem visão unificada de lucros e perdas.",
+      "problemsDescription": "Many outlets, mixed PMS/POS stacks, no unified P&L view.",
       "challenges": [
         {
           "title": "Pontos de venda relatados separadamente, julgados em conjunto",
           "description": "O P&L de F&B é acumulado em uma única linha. A história por trás disso – banquete vs IRD vs lobby – se perde.",
-          "icon": "operadores"
+          "icon": "operators"
         },
         {
           "title": "A receita do banquete vive fora do sistema",
           "description": "BEOs em uma ferramenta, POS em outra, margem de rastreamento do GM de alimentos e bebidas em uma planilha.",
-          "icon": "integração"
+          "icon": "integration"
         },
         {
           "title": "Mão de obra compartilhada entre pontos de venda",
           "description": "Um cozinheiro suporta duas saídas. A alocação de custos é aproximada. A produtividade permanece opaca.",
-          "icon": "equilíbrio"
+          "icon": "balance"
         },
         {
           "title": "A jornada do hóspede atravessa pontos de venda",
           "description": "Um hóspede fiel janta no restaurante, bebe no lobby, pede IRD. Nenhum sistema vê todos os três.",
-          "icon": "suporte"
+          "icon": "support"
         }
       ],
       "howTitle": "Como funciona o Sundae para alimentos e bebidas de hospitalidade",
@@ -656,26 +656,26 @@ export const generatedLocalCopy = {
         {
           "title": "Ritmo ponto por ponto, transferido para uma visualização de alimentos e bebidas",
           "description": "Receita e margem em tempo real para cada ponto de venda — restaurante, banquete, IRD, lobby bar, varejo — com um conjunto de portfólio unificado.",
-          "product": "Pulso",
-          "icon": "gráfico"
+          "product": "Pulse",
+          "icon": "chart"
         },
         {
           "title": "Banquete + BEO conectado",
-          "description": "Receita de banquetes, pedidos de IRD e PDV de restaurantes unificados em um único livro-razão. O F&B GM para de reconciliar e começa a orientar.",
-          "product": "Núcleo de Sundae",
-          "icon": "integração"
+          "description": "Receita de banquetes, pedidos de IRD e POS de restaurantes unificados em um único livro-razão. O F&B GM para de reconciliar e começa a orientar.",
+          "product": "Sundae Core",
+          "icon": "integration"
         },
         {
           "title": "Produtividade do trabalho por ponto de venda",
           "description": "Mão de obra alocada e direta por ponto de venda, com coberturas por hora FOH e comparações de produtividade em toda a propriedade.",
-          "product": "Pulso · Trabalho",
-          "icon": "equilíbrio"
+          "product": "Pulse · Labor",
+          "icon": "balance"
         },
         {
           "title": "CRM para convidados em todos os pontos de venda",
           "description": "Costure os gastos do hóspede fiel em restaurante, bar, IRD e banquete. Um registro de convidado, não cinco.",
-          "product": "Inteligência de CRM para convidados",
-          "icon": "suporte"
+          "product": "Guest CRM Intelligence",
+          "icon": "support"
         }
       ],
       "outcomesTitle": "O que muda para a liderança de F&B",
@@ -684,22 +684,22 @@ export const generatedLocalCopy = {
         {
           "title": "Orientar alimentos e bebidas na granularidade do outlet",
           "description": "Restaurante escorregando? Lobby bar acima do plano? Você vê pelo outlet, no turno.",
-          "icon": "velocidade"
+          "icon": "speed"
         },
         {
           "title": "O banquete deixa de ser uma caixa preta",
           "description": "Receita BEO, variação do custo dos alimentos e mão de obra no mesmo painel do restaurante.",
-          "icon": "proprietários"
+          "icon": "owners"
         },
         {
           "title": "Produtividade comparável entre pontos de venda",
           "description": "Mão de obra alocada bem feita – capas/hora comparáveis para uma leitura de desempenho honesta.",
-          "icon": "desempenho"
+          "icon": "performance"
         },
         {
           "title": "LTV de convidado em todos os pontos de venda",
           "description": "Programas de fidelidade que recompensam todos os alimentos e bebidas, não apenas por estabelecimento. Os convidados percebem. Movimentos de taxa de repetição.",
-          "icon": "suporte"
+          "icon": "support"
         }
       ],
       "ctaTitle": "Veja todos os estabelecimentos de F&B em uma única visualização.",
@@ -715,27 +715,27 @@ export const generatedLocalCopy = {
       "secondaryCta": "Vedi la demo dell'ospitalità",
       "problemsEyebrow": "F&B DENTRO L'OSPITALITÀ",
       "problemsTitle": "Cosa devono affrontare i leader del settore F&B nell'ambito dell'ospitalità",
-      "problemsDescription": "Molti punti vendita, stack PMS/POS misti, nessuna visione unificata dei profitti e delle perdite.",
+      "problemsDescription": "Many outlets, mixed PMS/POS stacks, no unified P&L view.",
       "challenges": [
         {
           "title": "Punti vendita riportati separatamente, giudicati insieme",
-          "description": "Il conto economico di F&B viene raggruppato su un'unica riga. La storia dietro di esso – banchetto vs IRD vs lobby – si perde.",
-          "icon": "operatori"
+          "description": "Il P&L di F&B viene raggruppato su un'unica riga. La storia dietro di esso – banchetto vs IRD vs lobby – si perde.",
+          "icon": "operators"
         },
         {
           "title": "Le entrate dei banchetti vivono fuori dal sistema",
           "description": "BEO in uno strumento, POS in un altro, margine di tracciabilità GM di F&B in un foglio di calcolo.",
-          "icon": "integrazione"
+          "icon": "integration"
         },
         {
           "title": "Manodopera condivisa tra i punti vendita",
           "description": "Un cuoco supporta due prese. L'allocazione dei costi è approssimativa. La produttività rimane opaca.",
-          "icon": "equilibrio"
+          "icon": "balance"
         },
         {
           "title": "Il viaggio degli ospiti attraversa i punti vendita",
           "description": "Un ospite fedele cena al ristorante, beve nella hall, ordina IRD. Nessun sistema li vede tutti e tre.",
-          "icon": "supporto"
+          "icon": "support"
         }
       ],
       "howTitle": "Come funziona Sundae per l'ospitalità F&B",
@@ -744,26 +744,26 @@ export const generatedLocalCopy = {
         {
           "title": "Stimolazione punto vendita per punto vendita, estesa a una visualizzazione F&B",
           "description": "Entrate e margine in tempo reale per ogni punto vendita: ristorante, banchetto, IRD, lobby bar, vendita al dettaglio, con un portafoglio unificato.",
-          "product": "Impulso",
-          "icon": "grafico"
+          "product": "Pulse",
+          "icon": "chart"
         },
         {
           "title": "Banchetto + BEO connessi",
           "description": "Entrate dei banchetti, ordini IRD e POS dei ristoranti unificati in un unico registro. Il GM di F&B smette di riconciliarsi e inizia a sterzare.",
-          "product": "Nucleo di gelato",
-          "icon": "integrazione"
+          "product": "Sundae Core",
+          "icon": "integration"
         },
         {
           "title": "Produttività del lavoro per punto vendita",
           "description": "Manodopera assegnata e diretta per punto vendita, con coperture per ora FOH e confronti di produttività all'interno della struttura.",
-          "product": "Polso · Travaglio",
-          "icon": "equilibrio"
+          "product": "Pulse · Labor",
+          "icon": "balance"
         },
         {
           "title": "CRM ospite tra i punti vendita",
           "description": "Riunisci la spesa dell'ospite fedele tra ristorante, bar, IRD e banchetto. Un record di ospiti, non cinque.",
-          "product": "Intelligenza CRM per gli ospiti",
-          "icon": "supporto"
+          "product": "Guest CRM Intelligence",
+          "icon": "support"
         }
       ],
       "outcomesTitle": "Cosa cambia per la leadership del F&B",
@@ -772,22 +772,22 @@ export const generatedLocalCopy = {
         {
           "title": "Orientare cibo e bevande alla granularità dell'outlet",
           "description": "Il ristorante scivola? Bar della hall oltre il piano? Lo vedi per sbocco, nel turno.",
-          "icon": "velocità"
+          "icon": "speed"
         },
         {
           "title": "Il banchetto smette di essere una scatola nera",
           "description": "Entrate BEO, varianza del costo del cibo e manodopera sulla stessa dashboard del ristorante.",
-          "icon": "proprietari"
+          "icon": "owners"
         },
         {
           "title": "Produttività paragonabile tra tutti i punti vendita",
           "description": "Manodopera assegnata eseguita correttamente: coperti/ora paragonabili per una lettura delle prestazioni onesta.",
-          "icon": "prestazione"
+          "icon": "performance"
         },
         {
           "title": "LTV ospite in ogni punto vendita",
           "description": "Programmi fedeltà che premiano tutto il settore F&B, non solo il punto vendita. Gli ospiti se ne accorgono. La velocità di ripetizione si sposta.",
-          "icon": "supporto"
+          "icon": "support"
         }
       ],
       "ctaTitle": "Guarda tutti i punti vendita di cibo e bevande in un'unica vista.",
@@ -803,55 +803,55 @@ export const generatedLocalCopy = {
       "secondaryCta": "查看酒店演示",
       "problemsEyebrow": "酒店内餐饮",
       "problemsTitle": "餐饮业领导者在酒店业面临什么",
-      "problemsDescription": "许多网点、混合的 PMS/POS 堆栈、没有统一的损益视图。",
+      "problemsDescription": "Many outlets, mixed PMS/POS stacks, no unified P&L view.",
       "challenges": [
         {
           "title": "各网点分别报道，共同评判",
-          "description": "F&B 损益汇总为一行。其背后的故事——宴会、税务局与大厅——被迷失了。",
-          "icon": "运营商"
+          "description": "F&B 损益汇总为一行。其背后的故事——宴会、税务局与大厅——被迷失了。 (P&L)",
+          "icon": "operators"
         },
         {
           "title": "宴会收入脱离系统",
           "description": "BEO 在一种工具中，POS 在另一种工具中，餐饮 GM 在电子表格中跟踪利润。",
-          "icon": "整合"
+          "icon": "integration"
         },
         {
           "title": "各网点共享劳动力",
           "description": "一名厨师支持两个门店。成本分配是近似的。生产力仍然不透明。",
-          "icon": "平衡"
+          "icon": "balance"
         },
         {
           "title": "宾客旅程穿越奥特莱斯",
           "description": "忠实的客人在餐厅用餐，在大堂喝酒，点 IRD。没有系统能同时看到这三者。",
-          "icon": "支持"
+          "icon": "support"
         }
       ],
-      "howTitle": "圣代如何在酒店餐饮业发挥作用",
+      "howTitle": "Sundae如何在酒店餐饮业发挥作用",
       "howDescription": "每个商店、每个渠道、每个收入来源的统一实时视图。",
       "howSundaeHelps": [
         {
           "title": "逐家分店节奏，滚动到一个餐饮视图",
           "description": "每个商店（餐厅、宴会厅、税务局、大堂酒吧、零售店）的实时收入和利润，以及统一的投资组合汇总。",
-          "product": "脉冲",
-          "icon": "图表"
+          "product": "Pulse",
+          "icon": "chart"
         },
         {
           "title": "宴会 + BEO 连接",
           "description": "宴会收入、IRD 订单和餐厅 POS 统一到一个分类账中。餐饮部总经理停止协调，开始指导。",
-          "product": "圣代核心",
-          "icon": "整合"
+          "product": "Sundae Core",
+          "icon": "integration"
         },
         {
           "title": "每个网点的劳动生产率",
           "description": "按渠道分配和直接劳动力，每个 FOH 小时的覆盖范围以及整个酒店的生产力比较。",
-          "product": "脉搏·劳动",
-          "icon": "平衡"
+          "product": "Pulse · Labor",
+          "icon": "balance"
         },
         {
           "title": "跨网点的宾客 CRM",
           "description": "整合忠实客人在餐厅、酒吧、IRD 和宴会上的消费。一位客人记录，而不是五位。",
-          "product": "宾客 CRM 智能",
-          "icon": "支持"
+          "product": "Guest CRM Intelligence",
+          "icon": "support"
         }
       ],
       "outcomesTitle": "餐饮领导层发生哪些变化",
@@ -860,22 +860,22 @@ export const generatedLocalCopy = {
         {
           "title": "以出口粒度引导餐饮",
           "description": "餐厅滑倒？大堂酒吧超出计划？你可以在轮班时通过出口看到它。",
-          "icon": "速度"
+          "icon": "speed"
         },
         {
           "title": "宴会不再是一个黑匣子",
           "description": "BEO 收入、食品成本差异和劳动力与餐厅在同一仪表板上。",
-          "icon": "业主"
+          "icon": "owners"
         },
         {
           "title": "各网点的生产力相当",
           "description": "正确分配的劳动力——覆盖/小时可与诚实的绩效阅读相媲美。",
-          "icon": "表现"
+          "icon": "performance"
         },
         {
           "title": "每个门店的宾客生命周期价值",
           "description": "忠诚度计划奖励整个餐饮业，而不仅仅是每个门店。客人注意到了。重复率移动。",
-          "icon": "支持"
+          "icon": "support"
         }
       ],
       "ctaTitle": "在一个视图中查看每个餐饮店。",
@@ -891,27 +891,27 @@ export const generatedLocalCopy = {
       "secondaryCta": "Zobacz demonstrację gościnności",
       "problemsEyebrow": "F&B WEWNĄTRZ Gościnności",
       "problemsTitle": "Z czym muszą się mierzyć liderzy branży F&B w branży hotelarsko-gastronomicznej",
-      "problemsDescription": "Wiele punktów sprzedaży, mieszane stosy PMS/POS, brak ujednoliconego widoku zysków i strat.",
+      "problemsDescription": "Many outlets, mixed PMS/POS stacks, no unified P&L view.",
       "challenges": [
         {
           "title": "Placówki zgłaszane osobno, oceniane łącznie",
-          "description": "Zyski i straty F&B sumują się do jednej linii. Kryjąca się za tym historia – bankiet vs IRD vs lobby – zostaje zatracona.",
-          "icon": "operatorzy"
+          "description": "Zyski i straty F&B sumują się do jednej linii. Kryjąca się za tym historia – bankiet vs IRD vs lobby – zostaje zatracona. (P&L)",
+          "icon": "operators"
         },
         {
           "title": "Przychody z bankietów żyją poza systemem",
           "description": "BEO w jednym narzędziu, POS w innym, margines śledzenia F&B GM w arkuszu kalkulacyjnym.",
-          "icon": "integracja"
+          "icon": "integration"
         },
         {
           "title": "Praca jest dzielona pomiędzy placówkami",
           "description": "Jeden kucharz obsługuje dwa gniazdka. Podział kosztów jest przybliżony. Produktywność pozostaje nieprzejrzysta.",
-          "icon": "równowaga"
+          "icon": "balance"
         },
         {
           "title": "Podróż gości krzyżuje rynki zbytu",
           "description": "Lojalny gość je obiad w restauracji, pije w lobby, zamawia IRD. Żaden system nie widzi wszystkich trzech.",
-          "icon": "wsparcie"
+          "icon": "support"
         }
       ],
       "howTitle": "Jak Sundae działa dla gościnności F&B",
@@ -920,26 +920,26 @@ export const generatedLocalCopy = {
         {
           "title": "Tempo sprzedaży według punktów sprzedaży, przeniesione do jednego widoku F&B",
           "description": "Przychody i marża na żywo dla każdego punktu sprzedaży — restauracji, bankietów, IRD, barów w lobby, sklepów detalicznych — dzięki ujednoliconemu pakietowi portfolio.",
-          "product": "Puls",
-          "icon": "wykres"
+          "product": "Pulse",
+          "icon": "chart"
         },
         {
           "title": "Bankiet + połączenie BEO",
-          "description": "Przychody z bankietów, zamówienia IRD i punkty sprzedaży w restauracjach zunifikowane w jednej księdze. F&B GM przestaje się godzić, zaczyna kierować.",
-          "product": "Rdzeń Lodowy",
-          "icon": "integracja"
+          "description": "Przychody z bankietów, zamówienia IRD i punkty sprzedaży w restauracjach zunifikowane w jednej księdze. F&B GM przestaje się godzić, zaczyna kierować. (POS)",
+          "product": "Sundae Core",
+          "icon": "integration"
         },
         {
           "title": "Wydajność pracy na placówkę",
           "description": "Przydzielana i bezpośrednia siła robocza według punktów sprzedaży, z pokryciem za godzinę FOH i porównaniem wydajności w całej nieruchomości.",
-          "product": "Puls · Praca",
-          "icon": "równowaga"
+          "product": "Pulse · Labor",
+          "icon": "balance"
         },
         {
           "title": "CRM dla gości we wszystkich placówkach",
           "description": "Połącz wydatki lojalnego gościa w restauracji, barze, IRD i bankiecie. Jeden rekord gościnny, a nie pięć.",
-          "product": "Inteligencja CRM dla gości",
-          "icon": "wsparcie"
+          "product": "Guest CRM Intelligence",
+          "icon": "support"
         }
       ],
       "outcomesTitle": "Jakie zmiany w kierownictwie F&B",
@@ -948,22 +948,22 @@ export const generatedLocalCopy = {
         {
           "title": "Steruj F&B na poziomie szczegółowości wylotu",
           "description": "Restauracja się poślizgnęła? Lobby bar ponad planem? Widzisz to przy wyjściu, na zmianie.",
-          "icon": "prędkość"
+          "icon": "speed"
         },
         {
           "title": "Bankiet przestaje być czarną skrzynką",
           "description": "Przychody BEO, różnice w kosztach żywności i siła robocza na tym samym pulpicie nawigacyjnym, co restauracja.",
-          "icon": "właściciele"
+          "icon": "owners"
         },
         {
           "title": "Wydajność porównywalna we wszystkich punktach sprzedaży",
           "description": "Przydzielona praca wykonana prawidłowo — okładki/godzinę porównywalne dla uczciwego odczytu wydajności.",
-          "icon": "wydajność"
+          "icon": "performance"
         },
         {
           "title": "LTV dla gości we wszystkich placówkach",
           "description": "Programy lojalnościowe, które nagradzają wszystkie produkty spożywcze, a nie tylko punkty sprzedaży. Uwaga goście. Powtarzaj ruchy stóp.",
-          "icon": "wsparcie"
+          "icon": "support"
         }
       ],
       "ctaTitle": "Zobacz wszystkie sklepy F&B w jednym widoku.",
@@ -979,55 +979,55 @@ export const generatedLocalCopy = {
       "secondaryCta": "ホスピタリティのデモを見る",
       "problemsEyebrow": "ホスピタリティ内の飲食",
       "problemsTitle": "飲食店のリーダーがホスピタリティの中で直面していること",
-      "problemsDescription": "多くの店舗、混在した PMS/POS スタック、統合された損益ビューはありません。",
+      "problemsDescription": "Many outlets, mixed PMS/POS stacks, no unified P&L view.",
       "challenges": [
         {
           "title": "アウトレットは個別に報告され、一緒に判断されます",
-          "description": "F&B 損益は単一行にロールアップされます。その背後にある物語、宴会対IRD対ロビーが失われています。",
-          "icon": "演算子"
+          "description": "F&B 損益は単一行にロールアップされます。その背後にある物語、宴会対IRD対ロビーが失われています。 (P&L)",
+          "icon": "operators"
         },
         {
           "title": "宴会の収益はシステム外に存在する",
           "description": "BEO はあるツールで、POS は別のツールで、F&B GM はスプレッドシートでマージンを追跡します。",
-          "icon": "統合"
+          "icon": "integration"
         },
         {
           "title": "店舗間で労働力を共有",
           "description": "1つのコックで2口コンセントに対応します。費用配分は概算です。生産性は不透明なままです。",
-          "icon": "バランス"
+          "icon": "balance"
         },
         {
           "title": "店舗をまたいだゲストの旅",
           "description": "忠実なゲストはレストランで食事をし、ロビーで飲み物を飲み、IRD を注文します。この 3 つすべてを認識できるシステムはありません。",
-          "icon": "サポート"
+          "icon": "support"
         }
       ],
-      "howTitle": "ホスピタリティ F&B におけるサンデーの仕組み",
+      "howTitle": "ホスピタリティ F&B におけるSundaeの仕組み",
       "howDescription": "すべての販売店、すべてのチャネル、すべての収益源にわたる統一されたライブビュー。",
       "howSundaeHelps": [
         {
           "title": "店舗ごとのペーシングを 1 つの F&B ビューに統合",
           "description": "統合されたポートフォリオ ロールアップにより、各店舗 (レストラン、バンケット、IRD、ロビーバー、小売店) のライブ収益と利益率を確認できます。",
-          "product": "パルス",
-          "icon": "チャート"
+          "product": "Pulse",
+          "icon": "chart"
         },
         {
           "title": "宴会 + BEO 接続",
           "description": "宴会の収益、IRDの注文、レストランのPOSを1つの台帳に統合。 F&B GM は和解をやめ、舵取りを開始します。",
-          "product": "サンデーコア",
-          "icon": "統合"
+          "product": "Sundae Core",
+          "icon": "integration"
         },
         {
           "title": "店舗ごとの労働生産性",
           "description": "店舗ごとに割り当てられ直接労働力が表示され、FOH 時間ごとのカバーと施設全体の生産性の比較が行われます。",
-          "product": "脈拍・陣痛",
-          "icon": "バランス"
+          "product": "Pulse · Labor",
+          "icon": "balance"
         },
         {
           "title": "店舗全体にわたるゲスト CRM",
           "description": "忠実なゲストのレストラン、バー、IRD、宴会の支出を統合します。ゲスト レコードは 5 つではなく 1 つです。",
-          "product": "ゲスト CRM インテリジェンス",
-          "icon": "サポート"
+          "product": "Guest CRM Intelligence",
+          "icon": "support"
         }
       ],
       "outcomesTitle": "F&B のリーダーにとって何が変わるのか",
@@ -1036,22 +1036,22 @@ export const generatedLocalCopy = {
         {
           "title": "アウトレットの粒度に応じて F&B を制御する",
           "description": "レストランが滑る？ロビーバーは計画を超えていますか？シフトのアウトレットごとにわかります。",
-          "icon": "速度"
+          "icon": "speed"
         },
         {
           "title": "宴会がブラックボックスになるのをやめる",
           "description": "BEO の収益、食材費の差異、人件費をレストランと同じダッシュボードに表示します。",
-          "icon": "所有者"
+          "icon": "owners"
         },
         {
           "title": "どの店舗でも同等の生産性",
           "description": "適切に割り当てられた労働力 - カバー/時間は、正直なパフォーマンスの測定値と同等です。",
-          "icon": "パフォーマンス"
+          "icon": "performance"
         },
         {
           "title": "すべての店舗におけるゲストの LTV",
           "description": "店舗ごとだけでなく、飲食店全体で報酬を与えるロイヤルティ プログラム。ゲストは気づきます。リピートレートの移動。",
-          "icon": "サポート"
+          "icon": "support"
         }
       ],
       "ctaTitle": "すべての F&B 店舗を 1 つのビューで確認できます。",
@@ -1067,55 +1067,55 @@ export const generatedLocalCopy = {
       "secondaryCta": "Hospitality 데모 보기",
       "problemsEyebrow": "F&B 내부 환대",
       "problemsTitle": "F&B 리더들이 Hospitality 업계에서 직면하는 일",
-      "problemsDescription": "많은 매장, 혼합된 PMS/POS 스택, 통합된 손익 보기 없음.",
+      "problemsDescription": "Many outlets, mixed PMS/POS stacks, no unified P&L view.",
       "challenges": [
         {
           "title": "판매점은 별도로 보고하고 함께 심사함",
-          "description": "F&B 손익은 단일 라인으로 롤업됩니다. 그 뒤에 숨겨진 이야기(연회, IRD, 로비)는 사라졌습니다.",
-          "icon": "운영자"
+          "description": "F&B 손익은 단일 라인으로 롤업됩니다. 그 뒤에 숨겨진 이야기(연회, IRD, 로비)는 사라졌습니다. (P&L)",
+          "icon": "operators"
         },
         {
           "title": "연회 수익은 시스템 외부에서 발생합니다.",
           "description": "한 도구의 BEO, 다른 도구의 POS, 스프레드시트의 F&B GM 추적 마진.",
-          "icon": "통합"
+          "icon": "integration"
         },
         {
           "title": "매장 간 노동력 공유",
           "description": "한 명의 요리사가 두 개의 콘센트를 지원합니다. 비용 할당은 대략적인 것입니다. 생산성은 불투명하게 유지됩니다.",
-          "icon": "균형"
+          "icon": "balance"
         },
         {
           "title": "고객 여정은 매장을 넘나듭니다",
           "description": "충성스러운 손님은 레스토랑에서 식사하고, 로비에서 술을 마시고, IRD를 주문합니다. 세 가지를 모두 볼 수 있는 시스템은 없습니다.",
-          "icon": "지원하다"
+          "icon": "support"
         }
       ],
-      "howTitle": "Hospitality F&B에서 순대가 작동하는 방식",
+      "howTitle": "How Sundae works for hospitality F&B",
       "howDescription": "모든 매장, 모든 채널, 모든 수익원에 걸쳐 통합된 실시간 보기를 제공합니다.",
       "howSundaeHelps": [
         {
           "title": "하나의 F&B 보기로 통합된 매장별 간격",
           "description": "통합 포트폴리오 롤업을 통해 레스토랑, 연회장, IRD, 로비 바, 소매점 등 각 매장의 실시간 수익 및 마진을 확인할 수 있습니다.",
-          "product": "펄스",
-          "icon": "차트"
+          "product": "Pulse",
+          "icon": "chart"
         },
         {
           "title": "연회 + BEO 연결",
           "description": "연회 수익, IRD 주문, 레스토랑 POS가 하나의 원장으로 통합되었습니다. F&B GM은 화해를 멈추고 조율을 시작합니다.",
-          "product": "순대코어",
-          "icon": "통합"
+          "product": "Sundae Core",
+          "icon": "integration"
         },
         {
           "title": "매장당 노동생산성",
           "description": "FOH 시간당 커버와 시설 전체의 생산성 비교를 통해 매장별로 할당된 직접 노동력.",
-          "product": "맥박·진통",
-          "icon": "균형"
+          "product": "Pulse · Labor",
+          "icon": "balance"
         },
         {
           "title": "매장 전반의 게스트 CRM",
           "description": "레스토랑, 바, IRD 및 연회 전반에 걸쳐 충성스러운 고객의 지출을 연결합니다. 5개가 아닌 1개의 게스트 레코드입니다.",
-          "product": "게스트 CRM 인텔리전스",
-          "icon": "지원하다"
+          "product": "Guest CRM Intelligence",
+          "icon": "support"
         }
       ],
       "outcomesTitle": "F&B 리더십의 변화",
@@ -1124,22 +1124,22 @@ export const generatedLocalCopy = {
         {
           "title": "F&B를 아웃렛 세분성으로 조정",
           "description": "식당이 미끄러지나요? 계획보다 로비 바? 교대로 콘센트에서 볼 수 있습니다.",
-          "icon": "속도"
+          "icon": "speed"
         },
         {
           "title": "연회는 더 이상 블랙박스가 아니다",
           "description": "BEO 수익, 음식 비용 차이 및 인건비는 레스토랑과 동일한 대시보드에서 확인할 수 있습니다.",
-          "icon": "소유자"
+          "icon": "owners"
         },
         {
           "title": "매장 전체에 걸쳐 비교할 수 있는 생산성",
           "description": "할당된 노동력이 올바르게 수행되었습니다. 정직한 성과 판독을 위해 커버/시간을 비교할 수 있습니다.",
-          "icon": "성능"
+          "icon": "performance"
         },
         {
           "title": "모든 매장의 게스트 LTV",
           "description": "매장별로뿐만 아니라 F&B 전반에 걸쳐 보상을 제공하는 로열티 프로그램입니다. 손님이 알아 차립니다. 반복 속도가 이동합니다.",
-          "icon": "지원하다"
+          "icon": "support"
         }
       ],
       "ctaTitle": "모든 F&B 매장을 한 눈에 볼 수 있습니다.",
@@ -1160,22 +1160,22 @@ export const generatedLocalCopy = {
         {
           "title": "Satış noktaları ayrı ayrı rapor edildi, birlikte değerlendirildi",
           "description": "F&B P&L tek bir satırda toplanır. Arkasındaki hikaye - ziyafete karşı IRD'ye karşı lobi - kayboluyor.",
-          "icon": "operatörler"
+          "icon": "operators"
         },
         {
           "title": "Ziyafet geliri sistem dışında kalıyor",
           "description": "Bir araçta BEO'lar, diğerinde POS, bir e-tabloda F&B GM marj takibi.",
-          "icon": "entegrasyon"
+          "icon": "integration"
         },
         {
           "title": "İşgücü satış noktaları arasında paylaştırılıyor",
           "description": "Bir aşçı iki çıkışı destekler. Maliyet tahsisi yaklaşıktır. Verimlilik opak kalır.",
-          "icon": "denge"
+          "icon": "balance"
         },
         {
           "title": "Misafir yolculuğu satış noktalarından geçiyor",
           "description": "Sadık bir misafir restoranda yemek yer, lobide içki içer, IRD siparişi verir. Hiçbir sistem üçünü de göremez.",
-          "icon": "destek"
+          "icon": "support"
         }
       ],
       "howTitle": "Sundae konaklama yiyecek ve içecek hizmetleri için nasıl çalışıyor?",
@@ -1184,26 +1184,26 @@ export const generatedLocalCopy = {
         {
           "title": "Tek bir Yiyecek ve İçecek görünümüne aktarılan satış noktalarına göre ilerleme hızı",
           "description": "Birleşik portföy toplamayla her bir satış noktası (restoran, ziyafet, IRD, lobi bar, perakende) için canlı gelir ve marj.",
-          "product": "Nabız",
-          "icon": "grafik"
+          "product": "Pulse",
+          "icon": "chart"
         },
         {
           "title": "Ziyafet + BEO bağlantılı",
           "description": "Ziyafet geliri, IRD siparişleri ve restoran POS'u tek bir defterde birleştirildi. F&B GM uzlaşmayı bırakır, yönlendirmeye başlar.",
-          "product": "Dondurma Çekirdeği",
-          "icon": "entegrasyon"
+          "product": "Sundae Core",
+          "icon": "integration"
         },
         {
           "title": "Çıkış başına işgücü verimliliği",
           "description": "FOH saati başına teminatlar ve tesis genelinde verimlilik karşılaştırmaları ile çıkışa göre tahsis edilen ve doğrudan işçilik.",
-          "product": "Nabız · İşgücü",
-          "icon": "denge"
+          "product": "Pulse · Labor",
+          "icon": "balance"
         },
         {
           "title": "Satış noktalarında misafir CRM'si",
           "description": "Sadık misafirinizin restoran, bar, IRD ve ziyafet harcamalarını karşılayın. Bir konuk kaydı, beş değil.",
-          "product": "Konuk CRM İstihbaratı",
-          "icon": "destek"
+          "product": "Guest CRM Intelligence",
+          "icon": "support"
         }
       ],
       "outcomesTitle": "F&B liderliğinde neler değişiyor?",
@@ -1212,22 +1212,22 @@ export const generatedLocalCopy = {
         {
           "title": "Yiyecek ve içecekleri çıkış ayrıntı düzeyine göre yönlendirin",
           "description": "Restoran mı kayıyor? Lobi bar planın üzerinde mi? Bunu vardiyada çıkışta görüyorsunuz.",
-          "icon": "hız"
+          "icon": "speed"
         },
         {
           "title": "Ziyafet kara kutu olmaktan çıkıyor",
           "description": "BEO geliri, yemek maliyeti farkı ve işçilik, restoranla aynı kontrol panelinde.",
-          "icon": "sahipleri"
+          "icon": "owners"
         },
         {
           "title": "Satış noktaları arasında karşılaştırılabilir üretkenlik",
           "description": "Tahsis edilen iş gücü doğru şekilde yapıldı; dürüst bir performans okuması için kapak/saat karşılaştırılabilir.",
-          "icon": "performans"
+          "icon": "performance"
         },
         {
           "title": "Her satış noktasında misafir YBD'si",
           "description": "Yalnızca satış noktası başına değil, F&B genelinde ödül veren sadakat programları. Misafirler fark eder. Hız hareketlerini tekrarlayın.",
-          "icon": "destek"
+          "icon": "support"
         }
       ],
       "ctaTitle": "Tüm F&B satış noktalarını tek görünümde görün.",
@@ -1248,22 +1248,22 @@ export const generatedLocalCopy = {
         {
           "title": "Outlet dilaporkan secara terpisah, dinilai bersama",
           "description": "F&B P&L digulung menjadi satu baris. Kisah dibaliknya – perjamuan vs IRD vs lobi – hilang.",
-          "icon": "operator"
+          "icon": "operators"
         },
         {
           "title": "Pendapatan perjamuan berada di luar sistem",
           "description": "BEO di satu alat, POS di alat lain, margin pelacakan GM F&B di spreadsheet.",
-          "icon": "integrasi"
+          "icon": "integration"
         },
         {
           "title": "Tenaga kerja dibagi ke seluruh outlet",
           "description": "Satu juru masak mendukung dua outlet. Alokasi biaya merupakan perkiraan. Produktivitas tetap buram.",
-          "icon": "keseimbangan"
+          "icon": "balance"
         },
         {
           "title": "Perjalanan tamu melintasi outlet",
           "description": "Tamu setia makan di restoran, minum di lobi, memesan IRD. Tidak ada sistem yang melihat ketiganya.",
-          "icon": "dukungan"
+          "icon": "support"
         }
       ],
       "howTitle": "Bagaimana Sundae bekerja untuk F&B perhotelan",
@@ -1272,26 +1272,26 @@ export const generatedLocalCopy = {
         {
           "title": "Kecepatan outlet demi outlet, digabung menjadi satu tampilan F&B",
           "description": "Pendapatan dan margin langsung untuk setiap outlet — restoran, jamuan makan, IRD, bar lobi, ritel — dengan kumpulan portofolio terpadu.",
-          "product": "Denyut nadi",
-          "icon": "bagan"
+          "product": "Pulse",
+          "icon": "chart"
         },
         {
           "title": "Perjamuan + BEO terhubung",
           "description": "Pendapatan jamuan makan, pesanan IRD, dan POS restoran disatukan menjadi satu buku besar. GM F&B berhenti berdamai, mulai mengarahkan.",
-          "product": "Inti Sundae",
-          "icon": "integrasi"
+          "product": "Sundae Core",
+          "icon": "integration"
         },
         {
           "title": "Produktivitas tenaga kerja per outlet",
           "description": "Tenaga kerja yang dialokasikan dan diarahkan berdasarkan outlet, dengan cakupan per jam FOH dan perbandingan produktivitas di seluruh properti.",
-          "product": "Denyut nadi · Tenaga Kerja",
-          "icon": "keseimbangan"
+          "product": "Pulse · Labor",
+          "icon": "balance"
         },
         {
           "title": "CRM Tamu di seluruh outlet",
           "description": "Gabungkan pembelanjaan tamu setia di restoran, bar, IRD, dan jamuan makan. Satu rekor tamu, bukan lima.",
-          "product": "Intelijen CRM Tamu",
-          "icon": "dukungan"
+          "product": "Guest CRM Intelligence",
+          "icon": "support"
         }
       ],
       "outcomesTitle": "Perubahan apa yang terjadi pada kepemimpinan F&B",
@@ -1300,22 +1300,22 @@ export const generatedLocalCopy = {
         {
           "title": "Arahkan F&B pada rincian outlet",
           "description": "Restoran tergelincir? Bar lobi melebihi rencana? Anda melihatnya berdasarkan outlet, dalam shift.",
-          "icon": "kecepatan"
+          "icon": "speed"
         },
         {
           "title": "Perjamuan tidak lagi menjadi kotak hitam",
           "description": "Pendapatan BEO, varian biaya makanan, dan tenaga kerja di dashboard yang sama dengan restoran.",
-          "icon": "pemilik"
+          "icon": "owners"
         },
         {
           "title": "Produktivitas sebanding di seluruh outlet",
           "description": "Alokasi tenaga kerja dilakukan dengan benar — sampul/jam sebanding dengan pembacaan kinerja yang jujur.",
-          "icon": "kinerja"
+          "icon": "performance"
         },
         {
           "title": "LTV tamu di setiap outlet",
           "description": "Program loyalitas yang memberi penghargaan pada seluruh F&B, tidak hanya per outlet. Pemberitahuan tamu. Pergerakan laju yang berulang.",
-          "icon": "dukungan"
+          "icon": "support"
         }
       ],
       "ctaTitle": "Lihat setiap outlet F&B dalam satu tampilan.",
@@ -1336,22 +1336,22 @@ export const generatedLocalCopy = {
         {
           "title": "আউটলেট পৃথকভাবে রিপোর্ট, একসঙ্গে বিচার",
           "description": "F&B P&L একটি একক লাইন পর্যন্ত রোল করে। এর পিছনের গল্প - ভোজ বনাম আইআরডি বনাম লবি - হারিয়ে যায়।",
-          "icon": "অপারেটর"
+          "icon": "operators"
         },
         {
           "title": "ভোজ রাজস্ব অফ-সিস্টেম জীবন",
           "description": "একটি টুলে BEO, আরেকটিতে POS, একটি স্প্রেডশীটে F&B GM ট্র্যাকিং মার্জিন।",
-          "icon": "ইন্টিগ্রেশন"
+          "icon": "integration"
         },
         {
           "title": "শ্রম আউটলেট জুড়ে ভাগ",
           "description": "একজন বাবুর্চি দুটি আউটলেট সমর্থন করে। খরচ বরাদ্দ আনুমানিক. উত্পাদনশীলতা অস্বচ্ছ থাকে।",
-          "icon": "ভারসাম্য"
+          "icon": "balance"
         },
         {
           "title": "গেস্ট যাত্রা আউটলেট অতিক্রম",
           "description": "একজন অনুগত অতিথি রেস্তোরাঁয় ভোজন করেন, লবিতে পান করেন, আইআরডি অর্ডার করেন। কোনো সিস্টেম তিনটিই দেখে না।",
-          "icon": "সমর্থন"
+          "icon": "support"
         }
       ],
       "howTitle": "কিভাবে Sundae আতিথেয়তা F&B এর জন্য কাজ করে",
@@ -1360,26 +1360,26 @@ export const generatedLocalCopy = {
         {
           "title": "আউটলেট-বাই-আউটলেট পেসিং, একটি F&B ভিউতে রোল করা হয়েছে",
           "description": "প্রতিটি আউটলেটের জন্য লাইভ আয় এবং মার্জিন — রেস্টুরেন্ট, ভোজ, IRD, লবি বার, খুচরা — একটি ইউনিফাইড পোর্টফোলিও রোলআপ সহ।",
-          "product": "নাড়ি",
-          "icon": "চার্ট"
+          "product": "Pulse",
+          "icon": "chart"
         },
         {
           "title": "ভোজ + BEO সংযুক্ত",
           "description": "ভোজ রাজস্ব, IRD আদেশ, এবং রেস্টুরেন্ট POS এক খাতায় একীভূত। F&B GM পুনর্মিলন বন্ধ করে, স্টিয়ারিং শুরু করে।",
-          "product": "সানডে কোর",
-          "icon": "ইন্টিগ্রেশন"
+          "product": "Sundae Core",
+          "icon": "integration"
         },
         {
           "title": "আউটলেট প্রতি শ্রম উত্পাদনশীলতা",
           "description": "আউটলেট দ্বারা বরাদ্দ এবং সরাসরি শ্রম, প্রতি FOH ঘন্টা কভার এবং সম্পত্তি জুড়ে উত্পাদনশীলতার তুলনা।",
-          "product": "পালস · শ্রম",
-          "icon": "ভারসাম্য"
+          "product": "Pulse · Labor",
+          "icon": "balance"
         },
         {
           "title": "আউটলেট জুড়ে অতিথি সিআরএম",
           "description": "রেস্তোরাঁ, বার, আইআরডি এবং ভোজসভা জুড়ে অনুগত অতিথির ব্যয় সেলাই করুন। একটি অতিথি রেকর্ড, পাঁচটি নয়।",
-          "product": "অতিথি সিআরএম ইন্টেলিজেন্স",
-          "icon": "সমর্থন"
+          "product": "Guest CRM Intelligence",
+          "icon": "support"
         }
       ],
       "outcomesTitle": "F&B নেতৃত্বের জন্য কি পরিবর্তন",
@@ -1388,22 +1388,22 @@ export const generatedLocalCopy = {
         {
           "title": "আউটলেট গ্রানুলারিটিতে F&B চালান",
           "description": "রেস্টুরেন্ট স্লিপিং? পরিকল্পনার উপর লবি বার? আপনি এটি আউটলেট দ্বারা, শিফটে দেখতে পাবেন।",
-          "icon": "গতি"
+          "icon": "speed"
         },
         {
           "title": "ভোজ একটি কালো বাক্স হচ্ছে বন্ধ",
           "description": "রেস্তোরাঁর মতো একই ড্যাশবোর্ডে BEO রাজস্ব, খাদ্য খরচের পার্থক্য এবং শ্রম।",
-          "icon": "মালিকদের"
+          "icon": "owners"
         },
         {
           "title": "উৎপাদনশীলতা আউটলেট জুড়ে তুলনীয়",
           "description": "বরাদ্দকৃত শ্রম সঠিকভাবে সম্পন্ন হয়েছে — কভার/ঘন্টা একটি সৎ কর্মক্ষমতা পড়ার জন্য তুলনীয়।",
-          "icon": "কর্মক্ষমতা"
+          "icon": "performance"
         },
         {
           "title": "প্রতিটি আউটলেট জুড়ে অতিথি এলটিভি",
           "description": "লয়্যালটি প্রোগ্রাম যা শুধুমাত্র প্রতি আউটলেট নয়, F&B জুড়ে পুরস্কার দেয়। গেস্ট নোটিশ. পুনরাবৃত্তি হার চালনা.",
-          "icon": "সমর্থন"
+          "icon": "support"
         }
       ],
       "ctaTitle": "প্রতিটি F&B আউটলেট এক দৃশ্যে দেখুন।",
@@ -1424,22 +1424,22 @@ export const generatedLocalCopy = {
         {
           "title": "Punctele de vânzare raportate separat, judecate împreună",
           "description": "P&L F&B se rulează la o singură linie. Povestea din spatele ei - banchet vs IRD vs lobby - se pierde.",
-          "icon": "operatori"
+          "icon": "operators"
         },
         {
           "title": "Veniturile din banchete trăiesc în afara sistemului",
           "description": "BEO într-un instrument, POS în altul, marja de urmărire a F&B GM într-o foaie de calcul.",
-          "icon": "integrare"
+          "icon": "integration"
         },
         {
           "title": "Forța de muncă împărțită între punctele de vânzare",
           "description": "Un bucătar suportă două prize. Alocarea costurilor este aproximativă. Productivitatea rămâne opaca.",
-          "icon": "echilibru"
+          "icon": "balance"
         },
         {
           "title": "Călătoria oaspeților traversează puncte de vânzare",
           "description": "Un oaspete fidel ia masa la restaurant, bea in hol, comanda IRD. Niciun sistem nu le vede pe toate trei.",
-          "icon": "sprijin"
+          "icon": "support"
         }
       ],
       "howTitle": "Cum funcționează Sundae pentru ospitalitate F&B",
@@ -1448,26 +1448,26 @@ export const generatedLocalCopy = {
         {
           "title": "Ritm priză-cu-priză, rulat la o singură vizualizare F&B",
           "description": "Venituri live și marjă pentru fiecare punct de vânzare - restaurant, banchet, IRD, lobby bar, retail - cu un portofoliu unificat.",
-          "product": "Puls",
-          "icon": "grafic"
+          "product": "Pulse",
+          "icon": "chart"
         },
         {
           "title": "Banchet + BEO conectat",
           "description": "Veniturile din banchete, comenzile IRD și POS-urile restaurantului unificate într-un singur registru. F&B GM oprește reconcilierea, începe direcția.",
           "product": "Sundae Core",
-          "icon": "integrare"
+          "icon": "integration"
         },
         {
           "title": "Productivitatea muncii pe punct de desfacere",
           "description": "Forță de muncă alocată și directă pe punct de vânzare, cu acoperiri pe oră FOH și comparații de productivitate în întreaga proprietate.",
-          "product": "Puls · Travaliu",
-          "icon": "echilibru"
+          "product": "Pulse · Labor",
+          "icon": "balance"
         },
         {
           "title": "CRM pentru oaspeți în toate punctele de vânzare",
           "description": "Îmbinați cheltuielile oaspeților fideli în restaurant, bar, IRD și banchet. Un record de invitați, nu cinci.",
-          "product": "Inteligența CRM pentru oaspeți",
-          "icon": "sprijin"
+          "product": "Guest CRM Intelligence",
+          "icon": "support"
         }
       ],
       "outcomesTitle": "Ce se schimbă pentru conducerea F&B",
@@ -1476,22 +1476,22 @@ export const generatedLocalCopy = {
         {
           "title": "Dirijați mâncarea și mâncarea la granularitatea de ieșire",
           "description": "Restaurantul alunecă? Barul din hol peste plan? O vezi prin priză, în tură.",
-          "icon": "viteza"
+          "icon": "speed"
         },
         {
           "title": "Banchetul încetează să mai fie o cutie neagră",
           "description": "Venitul BEO, variația costurilor cu alimente și forța de muncă pe același tablou de bord ca și restaurantul.",
-          "icon": "proprietarii"
+          "icon": "owners"
         },
         {
           "title": "Productivitate comparabilă între puncte de vânzare",
           "description": "Forța de muncă alocată făcută corect — acoperiri/oră comparabile pentru o citire cinstită de performanță.",
-          "icon": "performanta"
+          "icon": "performance"
         },
         {
           "title": "LTV invitat în fiecare punct de vânzare",
           "description": "Programe de loialitate care răsplătesc în întregul F&B, nu doar pentru fiecare punct de vânzare. Oaspeții observă. Repetați mișcările ratei.",
-          "icon": "sprijin"
+          "icon": "support"
         }
       ],
       "ctaTitle": "Vedeți fiecare magazin F&B într-o singură vizualizare.",
@@ -1512,7 +1512,7 @@ export const generatedLocalCopy = {
         {
           "title": "Uttag redovisas separat, bedömda tillsammans",
           "description": "F&B P&L rullar upp till en enda rad. Historien bakom det - bankett vs IRD vs lobby - går vilse.",
-          "icon": "operatörer"
+          "icon": "operators"
         },
         {
           "title": "Bankettintäkter lever utanför systemet",
@@ -1522,12 +1522,12 @@ export const generatedLocalCopy = {
         {
           "title": "Arbetskraften delas över försäljningsställena",
           "description": "En kock stödjer två utlopp. Kostnadsfördelningen är ungefärlig. Produktiviteten förblir ogenomskinlig.",
-          "icon": "balans"
+          "icon": "balance"
         },
         {
           "title": "Gästresa korsar butiker",
           "description": "En trogen gäst äter middag på restaurangen, drinkar i lobbyn, beställer IRD. Inget system ser alla tre.",
-          "icon": "stöd"
+          "icon": "support"
         }
       ],
       "howTitle": "Hur Sundae fungerar för gästfrihet F&B",
@@ -1536,8 +1536,8 @@ export const generatedLocalCopy = {
         {
           "title": "Outlet-by-outlet pacing, rullad till en F&B-vy",
           "description": "Liveintäkter och marginal för varje butik – restaurang, bankett, IRD, lobbybar, detaljhandel – med en enhetlig portföljuppsättning.",
-          "product": "Puls",
-          "icon": "diagram"
+          "product": "Pulse",
+          "icon": "chart"
         },
         {
           "title": "Bankett + BEO ansluten",
@@ -1548,14 +1548,14 @@ export const generatedLocalCopy = {
         {
           "title": "Arbetsproduktivitet per försäljningsställe",
           "description": "Tilldelad och direkt arbetskraft per butik, med täckningar per FOH-timme och produktivitetsjämförelser över hela fastigheten.",
-          "product": "Puls · Förlossning",
-          "icon": "balans"
+          "product": "Pulse · Labor",
+          "icon": "balance"
         },
         {
           "title": "Gäst-CRM över butiker",
           "description": "Sy ihop den lojala gästens utgifter för restaurang, bar, IRD och bankett. Ett gästrekord, inte fem.",
-          "product": "Gäst CRM Intelligence",
-          "icon": "stöd"
+          "product": "Guest CRM Intelligence",
+          "icon": "support"
         }
       ],
       "outcomesTitle": "Vad förändras för F&B ledarskap",
@@ -1564,22 +1564,22 @@ export const generatedLocalCopy = {
         {
           "title": "Styr F&B vid utloppets granularitet",
           "description": "Restaurang halkar? Lobbybar över plan? Du ser det vid uttag, i skiftet.",
-          "icon": "hastighet"
+          "icon": "speed"
         },
         {
           "title": "Bankett slutar vara en svart låda",
           "description": "BEO-intäkter, matkostnadsvariationer och arbete på samma instrumentpanel som restaurangen.",
-          "icon": "ägare"
+          "icon": "owners"
         },
         {
           "title": "Produktivitet jämförbar mellan olika butiker",
           "description": "Tilldelat arbete utfört på rätt sätt - omslag/timme jämförbara för en ärlig prestationsläsning.",
-          "icon": "prestanda"
+          "icon": "performance"
         },
         {
           "title": "Gäst-LTV över alla uttag",
           "description": "Lojalitetsprogram som belönar över F&B, inte bara per butik. Gästerna märker. Upprepa hastighetsrörelser.",
-          "icon": "stöd"
+          "icon": "support"
         }
       ],
       "ctaTitle": "Se alla F&B-butiker i en vy.",
@@ -1600,22 +1600,22 @@ export const generatedLocalCopy = {
         {
           "title": "ร้านค้ารายงานแยกกัน ตัดสินร่วมกัน",
           "description": "F&B P&L รวมกันเป็นบรรทัดเดียว เรื่องราวเบื้องหลัง – งานเลี้ยง vs IRD และล็อบบี้ – สูญหายไป",
-          "icon": "ตัวดำเนินการ"
+          "icon": "operators"
         },
         {
           "title": "รายได้จากงานเลี้ยงอยู่นอกระบบ",
           "description": "BEO ในเครื่องมือหนึ่ง POS ในอีกเครื่องมือหนึ่ง ส่วนต่างการติดตาม F&B GM ในสเปรดชีต",
-          "icon": "บูรณาการ"
+          "icon": "integration"
         },
         {
           "title": "มีการใช้แรงงานร่วมกันทั่วทั้งร้าน",
           "description": "พ่อครัวหนึ่งคนรองรับสองร้าน การจัดสรรต้นทุนเป็นการประมาณ ผลผลิตยังคงไม่ชัดเจน",
-          "icon": "ความสมดุล"
+          "icon": "balance"
         },
         {
           "title": "การเดินทางของแขกข้ามร้านค้า",
           "description": "แขกประจำรับประทานอาหารที่ร้านอาหาร ดื่มเครื่องดื่มในล็อบบี้ สั่ง IRD ไม่มีระบบใดมองเห็นทั้งสามอย่าง",
-          "icon": "สนับสนุน"
+          "icon": "support"
         }
       ],
       "howTitle": "Sundae ทำงานอย่างไรสำหรับอาหารและเครื่องดื่มเพื่อการต้อนรับ",
@@ -1624,26 +1624,26 @@ export const generatedLocalCopy = {
         {
           "title": "การเดินแบบทีละร้าน รวมกันเป็นมุมมอง F&B เดียว",
           "description": "รายได้สดและส่วนต่างสำหรับร้านค้าแต่ละแห่ง — ร้านอาหาร ห้องจัดเลี้ยง IRD ล็อบบี้บาร์ ร้านค้าปลีก — พร้อมการรวมพอร์ตโฟลิโอแบบรวม",
-          "product": "ชีพจร",
-          "icon": "แผนภูมิ"
+          "product": "Pulse",
+          "icon": "chart"
         },
         {
           "title": "เชื่อมต่องานเลี้ยง + BEO แล้ว",
           "description": "รายได้จากงานเลี้ยง คำสั่งซื้อ IRD และ POS ของร้านอาหารรวมอยู่ในบัญชีแยกประเภทเดียว GM ของ F&B หยุดการคืนดี เริ่มควบคุมทิศทาง",
-          "product": "ซันเดย์คอร์",
-          "icon": "บูรณาการ"
+          "product": "Sundae Core",
+          "icon": "integration"
         },
         {
           "title": "ผลิตภาพแรงงานต่อสาขา",
           "description": "จัดสรรแรงงานโดยตรงตามร้าน โดยครอบคลุมต่อชั่วโมง FOH และการเปรียบเทียบประสิทธิภาพทั่วทั้งสถานที่",
-          "product": "ชีพจร·แรงงาน",
-          "icon": "ความสมดุล"
+          "product": "Pulse · Labor",
+          "icon": "balance"
         },
         {
           "title": "Guest CRM ทั่วทั้งร้าน",
           "description": "รวมการใช้จ่ายของแขกประจำในร้านอาหาร บาร์ IRD และห้องจัดเลี้ยง บันทึกแขกหนึ่งคน ไม่ใช่ห้าคน",
-          "product": "ข้อมูลอัจฉริยะ CRM แขก",
-          "icon": "สนับสนุน"
+          "product": "Guest CRM Intelligence",
+          "icon": "support"
         }
       ],
       "outcomesTitle": "การเปลี่ยนแปลงอะไรสำหรับผู้นำด้านอาหารและเครื่องดื่ม",
@@ -1652,22 +1652,22 @@ export const generatedLocalCopy = {
         {
           "title": "คัดท้าย F&B ที่ความละเอียดของร้าน",
           "description": "ร้านอาหารลื่นไถล? ล็อบบี้บาร์เกินแผนเหรอ? คุณเห็นมันตามร้านในกะ",
-          "icon": "ความเร็ว"
+          "icon": "speed"
         },
         {
           "title": "งานเลี้ยงเลิกเป็นกล่องดำ",
           "description": "รายได้ BEO ผลต่างต้นทุนอาหาร และแรงงานบนแดชบอร์ดเดียวกันกับร้านอาหาร",
-          "icon": "เจ้าของ"
+          "icon": "owners"
         },
         {
           "title": "ผลผลิตเทียบเคียงได้ทั่วทั้งร้าน",
           "description": "แรงงานที่ได้รับการจัดสรรทำถูกต้อง — ครอบคลุม/ชั่วโมงเทียบเคียงได้สำหรับการอ่านผลงานที่ซื่อสัตย์",
-          "icon": "ประสิทธิภาพการทำงาน"
+          "icon": "performance"
         },
         {
           "title": "LTV ของแขกทั่วทุกสาขา",
           "description": "โปรแกรมสะสมคะแนนที่ให้รางวัลแก่ร้านอาหารและเครื่องดื่ม ไม่ใช่แค่ต่อสาขาเท่านั้น ผู้เข้าพักแจ้งให้ทราบล่วงหน้า ทำซ้ำอัตราการย้าย",
-          "icon": "สนับสนุน"
+          "icon": "support"
         }
       ],
       "ctaTitle": "ดูร้านอาหารและเครื่องดื่มทุกร้านในมุมมองเดียว",
@@ -1688,22 +1688,22 @@ export const generatedLocalCopy = {
         {
           "title": "Các cửa hàng báo cáo riêng biệt, đánh giá cùng nhau",
           "description": "F&B P&L cuộn thành một dòng duy nhất. Câu chuyện đằng sau nó - bữa tiệc với IRD và tiền sảnh - bị thất lạc.",
-          "icon": "toán tử"
+          "icon": "operators"
         },
         {
           "title": "Doanh thu tiệc nằm ngoài hệ thống",
           "description": "BEO trong một công cụ, POS trong một công cụ khác, biên độ theo dõi GM của F&B trong một bảng tính.",
-          "icon": "hội nhập"
+          "icon": "integration"
         },
         {
           "title": "Lao động được chia sẻ trên các cửa hàng",
           "description": "Một đầu bếp hỗ trợ hai cửa hàng. Phân bổ chi phí là gần đúng. Năng suất vẫn không rõ ràng.",
-          "icon": "cân bằng"
+          "icon": "balance"
         },
         {
           "title": "Hành trình của khách đi qua các cửa hàng",
           "description": "Một vị khách trung thành dùng bữa tại nhà hàng, uống rượu ở sảnh và gọi món IRD. Không có hệ thống nào nhìn thấy cả ba.",
-          "icon": "hỗ trợ"
+          "icon": "support"
         }
       ],
       "howTitle": "Sundae hoạt động như thế nào đối với ngành F&B khách sạn",
@@ -1712,26 +1712,26 @@ export const generatedLocalCopy = {
         {
           "title": "Tốc độ từng cửa hàng, được cuộn thành một chế độ xem F&B",
           "description": "Doanh thu và tỷ suất lợi nhuận trực tiếp cho từng cửa hàng — nhà hàng, tiệc chiêu đãi, IRD, quầy bar ở sảnh, cửa hàng bán lẻ — với danh mục đầu tư thống nhất.",
-          "product": "Xung",
-          "icon": "biểu đồ"
+          "product": "Pulse",
+          "icon": "chart"
         },
         {
           "title": "Tiệc + BEO kết nối",
           "description": "Doanh thu tiệc, đơn đặt hàng IRD và POS của nhà hàng được thống nhất thành một sổ cái. F&B GM ngừng hòa giải, bắt đầu chỉ đạo.",
-          "product": "Lõi Sundae",
-          "icon": "hội nhập"
+          "product": "Sundae Core",
+          "icon": "integration"
         },
         {
           "title": "Năng suất lao động trên mỗi đầu ra",
           "description": "Phân bổ và chỉ đạo lao động theo cửa hàng, với mức chi trả theo giờ FOH và so sánh năng suất trên toàn cơ sở.",
-          "product": "Xung · Lao động",
-          "icon": "cân bằng"
+          "product": "Pulse · Labor",
+          "icon": "balance"
         },
         {
           "title": "CRM khách trên khắp các cửa hàng",
           "description": "Sắp xếp chi tiêu của khách hàng trung thành ở nhà hàng, quán bar, IRD và bữa tiệc. Một bản ghi khách, không phải năm.",
-          "product": "Thông tin CRM dành cho khách",
-          "icon": "hỗ trợ"
+          "product": "Guest CRM Intelligence",
+          "icon": "support"
         }
       ],
       "outcomesTitle": "Lãnh đạo F&B có gì thay đổi",
@@ -1740,22 +1740,22 @@ export const generatedLocalCopy = {
         {
           "title": "Chỉ đạo F&B ở mức độ chi tiết của cửa hàng",
           "description": "Nhà hàng trượt? Quầy bar ở sảnh vượt quá kế hoạch? Bạn nhìn thấy nó ở cửa hàng, trong ca làm việc.",
-          "icon": "tốc độ"
+          "icon": "speed"
         },
         {
           "title": "Bữa tiệc không còn là hộp đen",
           "description": "Doanh thu BEO, chênh lệch chi phí thực phẩm và lao động trên cùng một bảng điều khiển với nhà hàng.",
-          "icon": "chủ sở hữu"
+          "icon": "owners"
         },
         {
           "title": "Năng suất có thể so sánh giữa các cửa hàng",
           "description": "Lao động được phân bổ được thực hiện đúng - số tiền/giờ có thể so sánh được để có kết quả đọc trung thực.",
-          "icon": "hiệu suất"
+          "icon": "performance"
         },
         {
           "title": "LTV của khách trên mọi cửa hàng",
           "description": "Các chương trình khách hàng thân thiết tặng thưởng cho toàn bộ ngành F&B, không chỉ cho mỗi cửa hàng. Quý khách lưu ý. Di chuyển tỷ lệ lặp lại.",
-          "icon": "hỗ trợ"
+          "icon": "support"
         }
       ],
       "ctaTitle": "Xem mọi cửa hàng F&B trong một chế độ xem.",
@@ -1776,22 +1776,22 @@ export const generatedLocalCopy = {
         {
           "title": "Outlet dilaporkan secara berasingan, dinilai bersama",
           "description": "F&B P&L digulung sehingga satu baris. Kisah di sebaliknya — jamuan vs IRD vs lobi — hilang.",
-          "icon": "pengendali"
+          "icon": "operators"
         },
         {
           "title": "Hasil jamuan hidup di luar sistem",
           "description": "BEO dalam satu alat, POS dalam satu lagi, margin penjejakan F&B GM dalam hamparan.",
-          "icon": "integrasi"
+          "icon": "integration"
         },
         {
           "title": "Buruh dikongsi di seluruh cawangan",
           "description": "Seorang tukang masak menyokong dua cawangan. Peruntukan kos adalah anggaran. Produktiviti kekal legap.",
-          "icon": "imbangan"
+          "icon": "balance"
         },
         {
           "title": "Perjalanan tetamu melintasi kedai",
           "description": "Tetamu setia menjamu selera di restoran, minum di lobi, memesan IRD. Tiada sistem melihat ketiga-tiganya.",
-          "icon": "sokongan"
+          "icon": "support"
         }
       ],
       "howTitle": "Cara Sundae berfungsi untuk F&B hospitaliti",
@@ -1800,26 +1800,26 @@ export const generatedLocalCopy = {
         {
           "title": "Langkah keluar demi alur keluar, digulung ke satu paparan F&B",
           "description": "Hasil langsung dan margin untuk setiap kedai — restoran, jamuan, IRD, bar lobi, runcit — dengan gabungan portfolio bersatu.",
-          "product": "nadi",
-          "icon": "carta"
+          "product": "Pulse",
+          "icon": "chart"
         },
         {
           "title": "Jamuan + BEO bersambung",
           "description": "Hasil jamuan, pesanan IRD dan POS restoran disatukan menjadi satu lejar. F&B GM berhenti mendamaikan, mula mengemudi.",
-          "product": "Teras Sundae",
-          "icon": "integrasi"
+          "product": "Sundae Core",
+          "icon": "integration"
         },
         {
           "title": "Produktiviti buruh setiap outlet",
           "description": "Buruh yang diperuntukkan dan langsung mengikut cawangan, dengan perlindungan setiap jam FOH dan perbandingan produktiviti di seluruh hartanah.",
-          "product": "Nadi · Buruh",
-          "icon": "imbangan"
+          "product": "Pulse · Labor",
+          "icon": "balance"
         },
         {
           "title": "CRM tetamu di seluruh cawangan",
           "description": "Jahit perbelanjaan tetamu setia merentasi restoran, bar, IRD dan jamuan. Satu rekod tetamu, bukan lima.",
-          "product": "Perisikan CRM Tetamu",
-          "icon": "sokongan"
+          "product": "Guest CRM Intelligence",
+          "icon": "support"
         }
       ],
       "outcomesTitle": "Apakah perubahan untuk kepimpinan F&B",
@@ -1828,22 +1828,22 @@ export const generatedLocalCopy = {
         {
           "title": "Pandu F&B di butiran outlet",
           "description": "Restoran tergelincir? Bar lobi atas rancangan? Anda melihatnya melalui saluran keluar, dalam syif.",
-          "icon": "kelajuan"
+          "icon": "speed"
         },
         {
           "title": "Jamuan berhenti menjadi kotak hitam",
           "description": "Hasil BEO, varians kos makanan dan tenaga kerja pada papan pemuka yang sama dengan restoran.",
-          "icon": "pemilik"
+          "icon": "owners"
         },
         {
           "title": "Produktiviti setanding di seluruh cawangan",
           "description": "Kerja yang diperuntukkan dilakukan dengan betul — perlindungan/jam setanding untuk bacaan prestasi yang jujur.",
-          "icon": "prestasi"
+          "icon": "performance"
         },
         {
           "title": "LTV tetamu di setiap cawangan",
           "description": "Program kesetiaan yang memberi ganjaran di seluruh F&B, bukan hanya setiap kedai. Tetamu perasan. Ulangi pergerakan kadar.",
-          "icon": "sokongan"
+          "icon": "support"
         }
       ],
       "ctaTitle": "Lihat setiap kedai F&B dalam satu paparan.",

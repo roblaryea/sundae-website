@@ -1,10 +1,10 @@
 // Generated website local copy overrides for src/app/why-sundae/layout.tsx.
-// Do not edit by hand; regenerate from the English local copy source.
+// Structural fields and protected glossary terms normalized from English source; review prose translations before release.
 export const generatedLocalCopy = {
   "copy": {
     "ar": {
-      "title": "لماذا سونداي",
-      "description": "اكتشف لماذا تختار مجموعات المطاعم الرائدة سونداي لذكاء القرار - بيانات موحدة، رؤى رباعية الأبعاد، ورؤية تشغيلية في الوقت الحقيقي."
+      "title": "لماذا Sundae",
+      "description": "اكتشف لماذا تختار مجموعات المطاعم الرائدة Sundae لذكاء القرار - بيانات موحدة، رؤى رباعية الأبعاد، ورؤية تشغيلية في الوقت الحقيقي."
     },
     "fr": {
       "title": "Pourquoi Sundae",
@@ -27,12 +27,12 @@ export const generatedLocalCopy = {
       "description": "Veja por que os principais grupos de restaurantes escolhem Sundae para Inteligência de Decisão — dados unificados, insights 4D e visibilidade operacional em tempo real."
     },
     "hi": {
-      "title": "संडे क्यों",
-      "description": "जानें कि प्रमुख रेस्तरां समूह निर्णय बुद्धिमत्ता के लिए संडे का चयन क्यों करते हैं - एकीकृत डेटा, 4D अंतर्दृष्टि, और वास्तविक समय की संचालन दृश्यता।"
+      "title": "Sundae क्यों",
+      "description": "जानें कि प्रमुख रेस्तरां समूह निर्णय बुद्धिमत्ता के लिए Sundae का चयन क्यों करते हैं - एकीकृत डेटा, 4D अंतर्दृष्टि, और वास्तविक समय की संचालन दृश्यता।"
     },
     "ur": {
-      "title": "سندے کیوں",
-      "description": "دیکھیں کہ کیوں معروف ریستوران گروپ فیصلہ سازی کی ذہانت کے لیے سندے کا انتخاب کرتے ہیں — متحدہ ڈیٹا، 4D بصیرت، اور حقیقی وقت کی عملی بصیرت۔"
+      "title": "Why Sundae",
+      "description": "دیکھیں کہ کیوں معروف ریستوران گروپ فیصلہ سازی کی ذہانت کے لیے سندے کا انتخاب کرتے ہیں — متحدہ ڈیٹا، 4D بصیرت، اور حقیقی وقت کی عملی بصیرت۔ (Sundae)"
     },
     "it": {
       "title": "Perché Sundae",
@@ -75,8 +75,8 @@ export const generatedLocalCopy = {
       "description": "Se varför ledande restauranggrupper väljer Sundae för beslutsintelligens – enhetliga data, 4D-insikter och realtidsoperativ synlighet."
     },
     "bn": {
-      "title": "কেন সানডে",
-      "description": "জানুন কেন শীর্ষ রেস্টুরেন্ট গ্রুপগুলি সিদ্ধান্ত গ্রহণের জন্য সানডে বেছে নেয় — একীভূত ডেটা, 4D অন্তর্দৃষ্টি, এবং বাস্তব সময়ের অপারেশনাল দৃশ্যমানতা।"
+      "title": "কেন Sundae",
+      "description": "জানুন কেন শীর্ষ রেস্টুরেন্ট গ্রুপগুলি সিদ্ধান্ত গ্রহণের জন্য Sundae বেছে নেয় — একীভূত ডেটা, 4D অন্তর্দৃষ্টি, এবং বাস্তব সময়ের অপারেশনাল দৃশ্যমানতা।"
     },
     "th": {
       "title": "ทำไมถึงเลือก Sundae",

@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/components/home/sections/SectionTrustStrip.tsx.
-// Do not edit by hand; regenerate from the English local copy source.
+// Structural fields and protected glossary terms normalized from English source; review prose translations before release.
 export const generatedLocalCopy = {
   "localizedCopy": {
     "ar": {
@@ -80,7 +80,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "99.4% SLO de Sincronización",
-          "supporting": "En el nivel Pro de Core"
+          "supporting": "On Core Pro tier"
         },
         {
           "title": "Encriptado",
@@ -200,7 +200,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "99.4% सिंक SLO",
-          "supporting": "कोर प्रो स्तर पर"
+          "supporting": "On Core Pro tier"
         },
         {
           "title": "एन्क्रिप्टेड",

@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/app/modules/page.tsx.
-// Do not edit by hand; regenerate from the English local copy source.
+// Product/module translations manually reviewed for protected Sundae glossary terms and obvious literal phrasing.
 export const generatedLocalCopy = {
   "localizedModulesCopy": {
     "fr": {
@@ -814,7 +814,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "Typische ROI: 8-12% vermindering van arbeidskosten",
           "bestFor": "Hoge-volume operaties met complexe planning",
-          "color": "van-blauw-500 naar-blauw-600"
+          "color": "from-blue-500 to-blue-600"
         },
         {
           "name": "Voorraadintelligentie",
@@ -846,7 +846,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "Typische ROI: 3-5% kostenreductie inkoop",
           "bestFor": "Groepen met meerdere locaties en inkoopkracht",
-          "color": "van-groen-500 naar-groen-600"
+          "color": "from-green-500 to-green-600"
         },
         {
           "name": "Marketing Intelligence",
@@ -862,7 +862,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "Typische ROI: 15-25% efficiëntieverbetering in marketing",
           "bestFor": "Marketinggedreven concepten met een multi-channel aanwezigheid",
-          "color": "van-oranje-500 naar-oranje-600"
+          "color": "from-orange-500 to-orange-600"
         },
         {
           "name": "Reserveringen Inzicht",
@@ -878,7 +878,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "Typische ROI: 10-15% stijging van de bezetting",
           "bestFor": "Reserveringsgestuurde restaurants en fine dining",
-          "color": "van-indigo-500 naar-indigo-600"
+          "color": "from-indigo-500 to-indigo-600"
         }
       ],
       "faqs": [
@@ -1533,7 +1533,7 @@ export const generatedLocalCopy = {
       "mixAndMatch": "اپنی ترجیحات کی بنیاد پر ملا کر منتخب کریں۔",
       "exploreAllModules": "تمام ماڈیولز کا جائزہ لیں",
       "calculateModuleRoi": "ماڈیول ROI کا حساب لگائیں",
-      "whatAreModules": "سندے ماڈیولز کیا ہیں؟",
+      "whatAreModules": "What Are Sundae Modules?",
       "whatAreModulesDescription": "ماڈیولز خصوصی ذہانت کے اضافے ہیں جو آپ کی مخصوص عملی شعبوں میں بصیرت کو گہرا کرتے ہیں۔",
       "pillars": [
         {
@@ -1727,7 +1727,7 @@ export const generatedLocalCopy = {
           "count": "3 ماڈیول"
         },
         {
-          "name": "کراس انٹیلیجنس",
+          "name": "Cross-Intelligence",
           "count": "Correlation engine"
         }
       ],
@@ -1787,7 +1787,7 @@ export const generatedLocalCopy = {
       "mixAndMatch": "अपनी प्राथमिकताओं के आधार पर मिलाएं और मिलाएं।",
       "exploreAllModules": "सभी मॉड्यूल्स का अन्वेषण करें",
       "calculateModuleRoi": "मॉड्यूल ROI की गणना करें",
-      "whatAreModules": "संडे मॉड्यूल क्या हैं?",
+      "whatAreModules": "Sundae मॉड्यूल क्या हैं?",
       "whatAreModulesDescription": "मॉड्यूल विशेषीकृत इंटेलिजेंस ऐड-ऑन हैं जो आपको विशिष्ट संचालन क्षेत्रों में गहरी अंतर्दृष्टि प्रदान करते हैं।",
       "pillars": [
         {
@@ -1981,7 +1981,7 @@ export const generatedLocalCopy = {
           "count": "3 मॉड्यूल"
         },
         {
-          "name": "क्रॉस-इंटेलिजेंस",
+          "name": "Cross-Intelligence",
           "count": "सहसंबंध इंजन"
         }
       ],
@@ -2386,7 +2386,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "ROI tipico: guadagno di efficienza marketing del 15-25%",
           "bestFor": "Concetti guidati dal marketing con presenza multi-canale",
-          "color": "da-orange-500 a-orange-600"
+          "color": "from-orange-500 to-orange-600"
         },
         {
           "name": "Intelligenza delle Prenotazioni",
@@ -2997,7 +2997,7 @@ export const generatedLocalCopy = {
           "count": "3 个模块"
         },
         {
-          "name": "跨智能",
+          "name": "Cross-Intelligence",
           "count": "相关性引擎"
         }
       ],
@@ -3251,7 +3251,7 @@ export const generatedLocalCopy = {
           "count": "3 モジュール"
         },
         {
-          "name": "クロスインテリジェンス",
+          "name": "Cross-Intelligence",
           "count": "相関エンジン"
         }
       ],
@@ -3402,7 +3402,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "ROI Tipikal: 15-25% peningkatan efisiensi pemasaran",
           "bestFor": "Konsep yang didorong oleh pemasaran dengan kehadiran multi-saluran",
-          "color": "dari-orange-500 ke-orange-600"
+          "color": "from-orange-500 to-orange-600"
         },
         {
           "name": "Inteligensi Reservasi",
@@ -4073,7 +4073,7 @@ export const generatedLocalCopy = {
       "mixAndMatch": "우선순위에 따라 조합하세요.",
       "exploreAllModules": "모든 모듈 탐색",
       "calculateModuleRoi": "모듈 ROI 계산하기",
-      "whatAreModules": "선데이 모듈이란 무엇인가요?",
+      "whatAreModules": "Sundae 모듈이란 무엇인가요?",
       "whatAreModulesDescription": "모듈은 특정 운영 분야에서 통찰력을 심화시키는 전문화된 인텔리전스 추가 기능입니다.",
       "pillars": [
         {
@@ -4267,7 +4267,7 @@ export const generatedLocalCopy = {
           "count": "3개 모듈"
         },
         {
-          "name": "크로스 인텔리전스",
+          "name": "Cross-Intelligence",
           "count": "상관 관계 엔진"
         }
       ],
@@ -4672,7 +4672,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "ROI ปกติ: 15-25% การเพิ่มประสิทธิภาพการตลาด",
           "bestFor": "แนวคิดที่ขับเคลื่อนด้วยการตลาดที่มีการปรากฏตัวในหลายช่องทาง",
-          "color": "จาก-orange-500 ถึง-orange-600"
+          "color": "from-orange-500 to-orange-600"
         },
         {
           "name": "ข้อมูลเชิงลึกการจอง",
@@ -4688,7 +4688,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "ROI ปกติ: การเพิ่มขึ้นของยอดขาย 10-15%",
           "bestFor": "ร้านอาหารที่ขับเคลื่อนด้วยการจองและร้านอาหารชั้นดี",
-          "color": "จาก-indigo-500 ถึง-indigo-600"
+          "color": "from-indigo-500 to-indigo-600"
         }
       ],
       "faqs": [
@@ -4775,7 +4775,7 @@ export const generatedLocalCopy = {
           "count": "3 โมดูล"
         },
         {
-          "name": "การวิเคราะห์ข้าม",
+          "name": "Cross-Intelligence",
           "count": "เครื่องมือวิเคราะห์ความสัมพันธ์"
         }
       ],
@@ -5089,7 +5089,7 @@ export const generatedLocalCopy = {
       "mixAndMatch": "আপনার অগ্রাধিকার অনুযায়ী মিশ্রণ এবং মেলান করুন।",
       "exploreAllModules": "সমস্ত মডিউল অন্বেষণ করুন",
       "calculateModuleRoi": "মডিউল ROI গণনা করুন",
-      "whatAreModules": "সান্ডে মডিউলগুলি কী?",
+      "whatAreModules": "What Are Sundae Modules?",
       "whatAreModulesDescription": "মডিউলগুলি বিশেষায়িত বুদ্ধিমত্তা অ্যাড-অন যা নির্দিষ্ট অপারেশনাল এলাকায় আপনার অন্তর্দৃষ্টি গভীর করে।",
       "pillars": [
         {
@@ -5283,7 +5283,7 @@ export const generatedLocalCopy = {
           "count": "৩টি মডিউল"
         },
         {
-          "name": "ক্রস-বুদ্ধিমত্তা",
+          "name": "Cross-Intelligence",
           "count": "সম্পর্কের ইঞ্জিন"
         }
       ],
@@ -5492,8 +5492,8 @@ export const generatedLocalCopy = {
         "अनलिमिटेड विशेष बुद्धिमत्ता के साथ कस्टम रिफ्रेश"
       ],
       "stackLabels": [
-        "कोर लाइट + मॉड्यूल",
-        "कोर प्रो + मॉड्यूल",
+        "Core Lite + Modules",
+        "Core Pro + Modules",
         "एंटरप्राइज + मॉड्यूल"
       ],
       "faqButtonLabel": "अक्सर पूछे जाने वाले प्रश्न"
@@ -5752,8 +5752,8 @@ export const generatedLocalCopy = {
         "কাস্টম রিফ্রেশ অসীম বিশেষায়িত ইন্টেলিজেন্স সহ"
       ],
       "stackLabels": [
-        "কোর লাইট + মডিউল",
-        "কোর প্রো + মডিউল",
+        "Core Lite + Modules",
+        "Core Pro + Modules",
         "এন্টারপ্রাইজ + মডিউল"
       ],
       "faqButtonLabel": "প্রায়শই জিজ্ঞাসিত প্রশ্ন"

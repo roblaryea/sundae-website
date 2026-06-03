@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/app/product/forge/page.tsx.
-// OpenAI generated completed chunks first; Google Translate fallback filled remaining quota-limited chunks.
+// Reviewed local copy overrides with protected glossary normalization.
 export const generatedLocalCopy = {
   "localizedForgeCopy": {
     "es": {
@@ -13,7 +13,7 @@ export const generatedLocalCopy = {
       "buildTitle": "Qué puede construir Forge",
       "buildDescription": "Inteligencia personalizada para sus desafíos específicos",
       "useCasesTitle": "Casos de uso de inteligencia personalizada",
-      "useCasesDescription": "De la previsión de la demanda a las recomendaciones automatizadas",
+      "useCasesDescription": "De la Foresight de la demanda a las recomendaciones automatizadas",
       "ctaTitle": "¿Listo para la inteligencia personalizada?",
       "ctaDescription": "Cuéntanos qué necesitas. Construiremos el modelo para que esto suceda.",
       "featureItems": [

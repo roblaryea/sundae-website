@@ -1,13 +1,13 @@
 // Generated website local copy overrides for src/components/ui/Breadcrumbs.tsx.
-// Do not edit by hand; regenerate from the English local copy source.
+// Structural fields normalized from English source; review prose translations before release.
 export const generatedLocalCopy = {
   "LABEL_MAP": {
     "ar": {
-      "product": "المنتجات",
+      "product": "Products",
       "solutions": "الحلول",
-      "report": "تقرير سونداي",
-      "core": "نواة سونداي",
-      "watchtower": "برج المراقبة",
+      "report": "Sundae Report",
+      "core": "Sundae Core",
+      "watchtower": "Watchtower",
       "blog": "مدونة",
       "company": "شركة",
       "about": "حول",
@@ -29,13 +29,13 @@ export const generatedLocalCopy = {
       "franchise-operators": "مشغلو الامتياز",
       "independent-operators": "المشغلون المستقلون",
       "architecture": "الهندسة المعمارية",
-      "scout": "الكشاف",
-      "pulse": "نبض",
+      "scout": "Scout",
+      "pulse": "Pulse",
       "forge": "المصنع",
-      "canvas": "اللوحة"
+      "canvas": "Canvas"
     },
     "fr": {
-      "product": "Produits",
+      "product": "Products",
       "solutions": "Solutions",
       "report": "Sundae Report",
       "core": "Sundae Core",
@@ -67,11 +67,11 @@ export const generatedLocalCopy = {
       "canvas": "Canvas"
     },
     "es": {
-      "product": "Productos",
+      "product": "Products",
       "solutions": "Soluciones",
-      "report": "Informe de Sundae",
-      "core": "Núcleo de Sundae",
-      "watchtower": "Torre de Vigilancia",
+      "report": "Sundae Report",
+      "core": "Sundae Core",
+      "watchtower": "Watchtower",
       "blog": "Blog",
       "company": "Empresa",
       "about": "Acerca de",
@@ -93,17 +93,17 @@ export const generatedLocalCopy = {
       "franchise-operators": "Operadores de Franquicias",
       "independent-operators": "Operadores Independientes",
       "architecture": "Arquitectura",
-      "scout": "Explorador",
-      "pulse": "Pulso",
+      "scout": "Scout",
+      "pulse": "Pulse",
       "forge": "Forjar",
-      "canvas": "Lienzo"
+      "canvas": "Canvas"
     },
     "de": {
-      "product": "Produkte",
+      "product": "Products",
       "solutions": "Lösungen",
-      "report": "Sundae Bericht",
-      "core": "Sundae Kern",
-      "watchtower": "Wachturm",
+      "report": "Sundae Report",
+      "core": "Sundae Core",
+      "watchtower": "Watchtower",
       "blog": "Blog",
       "company": "Unternehmen",
       "about": "Über",
@@ -131,10 +131,10 @@ export const generatedLocalCopy = {
       "canvas": "Canvas"
     },
     "nl": {
-      "product": "Producten",
+      "product": "Products",
       "solutions": "Oplossingen",
-      "report": "Sundae Rapport",
-      "core": "Sundae Kern",
+      "report": "Sundae Report",
+      "core": "Sundae Core",
       "watchtower": "Watchtower",
       "blog": "Blog",
       "company": "Bedrijf",
@@ -163,9 +163,9 @@ export const generatedLocalCopy = {
       "canvas": "Canvas"
     },
     "pt": {
-      "product": "Produtos",
+      "product": "Products",
       "solutions": "Soluções",
-      "report": "Relatório Sundae",
+      "report": "Sundae Report",
       "core": "Sundae Core",
       "watchtower": "Watchtower",
       "blog": "Blog",
@@ -195,10 +195,10 @@ export const generatedLocalCopy = {
       "canvas": "Canvas"
     },
     "hi": {
-      "product": "उत्पाद",
+      "product": "Products",
       "solutions": "समाधान",
-      "report": "Sundae रिपोर्ट",
-      "core": "Sundae कोर",
+      "report": "Sundae Report",
+      "core": "Sundae Core",
       "watchtower": "Watchtower",
       "blog": "ब्लॉग",
       "company": "कंपनी",
@@ -221,16 +221,16 @@ export const generatedLocalCopy = {
       "franchise-operators": "फ्रैंचाइज़ ऑपरेटर",
       "independent-operators": "स्वतंत्र ऑपरेटर",
       "architecture": "आर्किटेक्चर",
-      "scout": "स्काउट",
-      "pulse": "पल्स",
+      "scout": "Scout",
+      "pulse": "Pulse",
       "forge": "फोर्ज",
-      "canvas": "कैनवास"
+      "canvas": "Canvas"
     },
     "ur": {
-      "product": "مصنوعات",
+      "product": "Products",
       "solutions": "حلول",
-      "report": "Sundae رپورٹ",
-      "core": "Sundae بنیادی",
+      "report": "Sundae Report",
+      "core": "Sundae Core",
       "watchtower": "Watchtower",
       "blog": "بلاگ",
       "company": "کمپنی",
@@ -253,13 +253,13 @@ export const generatedLocalCopy = {
       "franchise-operators": "فرینچائز آپریٹرز",
       "independent-operators": "آزاد آپریٹرز",
       "architecture": "معماری",
-      "scout": "سکاؤٹ",
-      "pulse": "پلس",
+      "scout": "Scout",
+      "pulse": "Pulse",
       "forge": "فارج",
-      "canvas": "کینوس"
+      "canvas": "Canvas"
     },
     "it": {
-      "product": "Prodotti",
+      "product": "Products",
       "solutions": "Soluzioni",
       "report": "Sundae Report",
       "core": "Sundae Core",
@@ -291,9 +291,9 @@ export const generatedLocalCopy = {
       "canvas": "Canvas"
     },
     "pl": {
-      "product": "Produkty",
+      "product": "Products",
       "solutions": "Rozwiązania",
-      "report": "Raport Sundae",
+      "report": "Sundae Report",
       "core": "Sundae Core",
       "watchtower": "Watchtower",
       "blog": "Blog",
@@ -323,11 +323,11 @@ export const generatedLocalCopy = {
       "canvas": "Canvas"
     },
     "tr": {
-      "product": "Ürünler",
+      "product": "Products",
       "solutions": "Çözümler",
-      "report": "Sundae Raporu",
-      "core": "Sundae Temel",
-      "watchtower": "Gözetleme Kulesi",
+      "report": "Sundae Report",
+      "core": "Sundae Core",
+      "watchtower": "Watchtower",
       "blog": "Blog",
       "company": "Şirket",
       "about": "Hakkında",
@@ -349,17 +349,17 @@ export const generatedLocalCopy = {
       "franchise-operators": "Franchise Operatörleri",
       "independent-operators": "Bağımsız Operatörler",
       "architecture": "Mimari",
-      "scout": "Keşif",
-      "pulse": "Nabız",
+      "scout": "Scout",
+      "pulse": "Pulse",
       "forge": "Demirhane",
-      "canvas": "Tuval"
+      "canvas": "Canvas"
     },
     "zh-Hans": {
-      "product": "产品",
+      "product": "Products",
       "solutions": "解决方案",
-      "report": "Sundae 报告",
-      "core": "Sundae 核心",
-      "watchtower": "监视塔",
+      "report": "Sundae Report",
+      "core": "Sundae Core",
+      "watchtower": "Watchtower",
       "blog": "博客",
       "company": "公司",
       "about": "关于",
@@ -381,13 +381,13 @@ export const generatedLocalCopy = {
       "franchise-operators": "特许经营运营商",
       "independent-operators": "独立运营商",
       "architecture": "架构",
-      "scout": "侦察",
-      "pulse": "脉搏",
+      "scout": "Scout",
+      "pulse": "Pulse",
       "forge": "锻造",
-      "canvas": "画布"
+      "canvas": "Canvas"
     },
     "ja": {
-      "product": "製品",
+      "product": "Products",
       "solutions": "ソリューション",
       "report": "Sundae Report",
       "core": "Sundae Core",
@@ -413,16 +413,16 @@ export const generatedLocalCopy = {
       "franchise-operators": "フランチャイズオペレーター",
       "independent-operators": "独立オペレーター",
       "architecture": "アーキテクチャ",
-      "scout": "スカウト",
-      "pulse": "パルス",
+      "scout": "Scout",
+      "pulse": "Pulse",
       "forge": "フォージ",
-      "canvas": "キャンバス"
+      "canvas": "Canvas"
     },
     "ko": {
-      "product": "제품",
+      "product": "Products",
       "solutions": "솔루션",
-      "report": "Sundae 보고서",
-      "core": "Sundae 핵심",
+      "report": "Sundae Report",
+      "core": "Sundae Core",
       "watchtower": "Watchtower",
       "blog": "블로그",
       "company": "회사",
@@ -445,15 +445,15 @@ export const generatedLocalCopy = {
       "franchise-operators": "프랜차이즈 운영자",
       "independent-operators": "독립 운영자",
       "architecture": "아키텍처",
-      "scout": "스카우트",
-      "pulse": "펄스",
+      "scout": "Scout",
+      "pulse": "Pulse",
       "forge": "포지",
-      "canvas": "캔버스"
+      "canvas": "Canvas"
     },
     "id": {
-      "product": "Produk",
+      "product": "Products",
       "solutions": "Solusi",
-      "report": "Laporan Sundae",
+      "report": "Sundae Report",
       "core": "Sundae Core",
       "watchtower": "Watchtower",
       "blog": "Blog",
@@ -483,9 +483,9 @@ export const generatedLocalCopy = {
       "canvas": "Canvas"
     },
     "vi": {
-      "product": "Sản phẩm",
+      "product": "Products",
       "solutions": "Giải pháp",
-      "report": "Báo cáo Sundae",
+      "report": "Sundae Report",
       "core": "Sundae Core",
       "watchtower": "Watchtower",
       "blog": "Blog",
@@ -515,9 +515,9 @@ export const generatedLocalCopy = {
       "canvas": "Canvas"
     },
     "ro": {
-      "product": "Produse",
+      "product": "Products",
       "solutions": "Soluții",
-      "report": "Raport Sundae",
+      "report": "Sundae Report",
       "core": "Sundae Core",
       "watchtower": "Watchtower",
       "blog": "Blog",
@@ -547,10 +547,10 @@ export const generatedLocalCopy = {
       "canvas": "Canvas"
     },
     "sv": {
-      "product": "Produkter",
+      "product": "Products",
       "solutions": "Lösningar",
-      "report": "Sundae Rapport",
-      "core": "Sundae Kärna",
+      "report": "Sundae Report",
+      "core": "Sundae Core",
       "watchtower": "Watchtower",
       "blog": "Blogg",
       "company": "Företag",
@@ -579,10 +579,10 @@ export const generatedLocalCopy = {
       "canvas": "Canvas"
     },
     "bn": {
-      "product": "পণ্য",
+      "product": "Products",
       "solutions": "সমাধান",
-      "report": "Sundae রিপোর্ট",
-      "core": "Sundae কোর",
+      "report": "Sundae Report",
+      "core": "Sundae Core",
       "watchtower": "Watchtower",
       "blog": "ব্লগ",
       "company": "কোম্পানি",
@@ -605,15 +605,15 @@ export const generatedLocalCopy = {
       "franchise-operators": "ফ্র্যাঞ্চাইজি অপারেটর",
       "independent-operators": "স্বতন্ত্র অপারেটর",
       "architecture": "স্থাপত্য",
-      "scout": "স্কাউট",
-      "pulse": "পালস",
+      "scout": "Scout",
+      "pulse": "Pulse",
       "forge": "ফর্গ",
-      "canvas": "ক্যানভাস"
+      "canvas": "Canvas"
     },
     "th": {
-      "product": "ผลิตภัณฑ์",
+      "product": "Products",
       "solutions": "โซลูชัน",
-      "report": "รายงาน Sundae",
+      "report": "Sundae Report",
       "core": "Sundae Core",
       "watchtower": "Watchtower",
       "blog": "บล็อก",
@@ -637,16 +637,16 @@ export const generatedLocalCopy = {
       "franchise-operators": "ผู้ดำเนินการแฟรนไชส์",
       "independent-operators": "ผู้ดำเนินการอิสระ",
       "architecture": "สถาปัตยกรรม",
-      "scout": "สเกาท์",
-      "pulse": "พัลส์",
+      "scout": "Scout",
+      "pulse": "Pulse",
       "forge": "ฟอร์จ",
-      "canvas": "แคนวาส"
+      "canvas": "Canvas"
     },
     "ms": {
-      "product": "Produk",
+      "product": "Products",
       "solutions": "Penyelesaian",
-      "report": "Laporan Sundae",
-      "core": "Inti Sundae",
+      "report": "Sundae Report",
+      "core": "Sundae Core",
       "watchtower": "Watchtower",
       "blog": "Blog",
       "company": "Syarikat",
@@ -669,10 +669,10 @@ export const generatedLocalCopy = {
       "franchise-operators": "Pengendali Francais",
       "independent-operators": "Pengendali Bebas",
       "architecture": "Arkitektur",
-      "scout": "Pengintip",
-      "pulse": "Nadi",
+      "scout": "Scout",
+      "pulse": "Pulse",
       "forge": "Forge",
-      "canvas": "Kanvas"
+      "canvas": "Canvas"
     }
   }
 } as const

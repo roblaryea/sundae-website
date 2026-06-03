@@ -1,100 +1,100 @@
 // Generated website local copy overrides for src/app/solutions/multi-location-groups/page.tsx.
-// OpenAI generated completed chunks first; Google Translate fallback filled remaining quota-limited chunks.
+// Structural fields and protected glossary terms normalized from English source; review prose translations before release.
 export const generatedLocalCopy = {
   "localizedCopy": {
     "es": {
       "badge": "Para grupos de múltiples ubicaciones",
       "titleLine1": "Una plataforma.",
       "titleLine2": "Cada marca. Cada mercado.",
-      "description": "Resumen de cartera entre marcas, regiones y conceptos. Puntos de referencia marca versus marca. La visión estratégica que tu grupo no puede obtener desde un solo POS.",
-      "primaryCta": "Reserve un recorrido grupal",
-      "secondaryCta": "Ver demostración grupal",
-      "problemsEyebrow": "DONDE EL GRUPO PIERDE APALANCAMIENTO",
+      "description": "Vista consolidada de la cartera por marcas, regiones y conceptos. Comparativas entre marcas. La inteligencia estratégica que tu grupo no puede obtener desde un único POS.",
+      "primaryCta": "Agenda una sesión para grupos",
+      "secondaryCta": "Ver demo para grupos",
+      "problemsEyebrow": "DONDE EL GRUPO PIERDE ESCALA",
       "problemsTitle": "Donde el grupo pierde su ventaja de escala",
       "problemsDescription": "Informes marca por marca, sin comparación con pares, decisiones tomadas a nivel de marca en lugar de a nivel de cartera.",
       "challenges": [
         {
           "title": "Cada marca informa a su manera",
           "description": "Marca A en Toast, Marca B en Square, Marca C en Lightspeed. La oficina del grupo concilia a mano... o no.",
-          "icon": "integración"
+          "icon": "integration"
         },
         {
           "title": "Sin comparación de marca contra marca",
-          "description": "No se puede saber si el porcentaje de mano de obra de la marca B es bueno o malo sin contexto. Los puntos de referencia internos cambiarían la conversación.",
-          "icon": "equilibrio"
+          "description": "Sin contexto, no sabes si el porcentaje de mano de obra de la marca B es bueno o malo. Las referencias comparativas internas cambiarían la conversación.",
+          "icon": "balance"
         },
         {
           "title": "Las mejores prácticas operativas permanecen en una sola marca",
           "description": "La marca A calculó la rotación del almuerzo. La marca B todavía está luchando. El know-how nunca traspasa la línea de la marca.",
-          "icon": "apoyo"
+          "icon": "support"
         },
         {
-          "title": "La estrategia del grupo reacciona a las pérdidas y ganancias mensuales",
-          "description": "La inversión en marca, la entrada al mercado, las decisiones de formato, todo impulsado por datos del Q+1, no por señales en vivo.",
-          "icon": "rendimiento"
+          "title": "La estrategia del grupo reacciona al P&L mensual",
+          "description": "Inversión en marca, entrada a mercado y decisiones de formato: todo se decide con datos del mes siguiente, no con señales en vivo.",
+          "icon": "performance"
         }
       ],
       "howTitle": "Cómo funciona Sundae para grupos multimarca",
-      "howDescription": "Verdad de la cartera, puntos de referencia de marca contra marca, señal estratégica a nivel de grupo.",
+      "howDescription": "Una única verdad de cartera, comparativas entre marcas y señal estratégica a nivel de grupo.",
       "howSundaeHelps": [
         {
-          "title": "Resumen de cartera, marca por marca",
-          "description": "Ingresos, márgenes y mano de obra en vivo en cada marca, región y concepto, con definiciones consistentes para que la comparación realmente signifique algo.",
-          "product": "Núcleo de helado + pulso",
-          "icon": "gráfico"
+          "title": "Vista de cartera, marca por marca",
+          "description": "Ingresos, márgenes y mano de obra en vivo por marca, región y concepto, con definiciones consistentes para que la comparación tenga valor real.",
+          "product": "Sundae Core + Pulse",
+          "icon": "chart"
         },
         {
-          "title": "Puntos de referencia internos de sus marcas",
-          "description": "Marca B vs Marca A en productividad laboral. Marca C frente a sus pares del mercado en RevPASH. Las conversaciones que debería tener la oficina del grupo.",
-          "product": "Puntos de referencia",
-          "icon": "evaluación comparativa"
+          "title": "Benchmarks internos entre tus marcas",
+          "description": "Marca B frente a Marca A en productividad laboral. Marca C frente a pares de mercado en RevPASH. Las conversaciones que debería poder tener la oficina del grupo.",
+          "product": "Benchmarks",
+          "icon": "benchmarking"
         },
         {
-          "title": "Transferencia de práctica entre marcas",
-          "description": "Lo que funciona en la Marca A se propaga a la Marca B en días, no trimestralmente fuera de las instalaciones. Cross-Intelligence encuentra el patrón, Sundae lo encamina.",
+          "title": "Transferencia de mejores prácticas entre marcas",
+          "description": "Lo que funciona en la Marca A llega a la Marca B en días, no después de una revisión trimestral. Cross-Intelligence encuentra el patrón y Sundae lo dirige al equipo adecuado.",
           "product": "Cross-Intelligence",
-          "icon": "inteligencia"
+          "icon": "intelligence"
         },
         {
-          "title": "Previsión estratégica a nivel de grupo",
-          "description": "Foresight proyecta EBITDA por marca y en todo el portafolio. Ejecute hipótesis sobre un nuevo mercado, un concepto o un compromiso de CapEx.",
-          "product": "previsión",
-          "icon": "pronóstico"
+          "title": "Forecasting estratégico a nivel de grupo",
+          "description": "Foresight proyecta EBITDA por marca y en toda la cartera. Prueba escenarios para un nuevo mercado, un concepto o una decisión de CapEx antes de comprometer capital.",
+          "product": "Foresight",
+          "icon": "forecasting"
         }
       ],
-      "outcomesTitle": "Qué cambios para la oficina del grupo",
+      "outcomesTitle": "Qué cambia para la oficina del grupo",
       "outcomesDescription": "Se logra el apalancamiento de la cartera, se rompen los silos de marca y la estrategia recibe una señal en vivo.",
       "outcomes": [
         {
-          "title": "Gestionar como un portafolio, no como un portafolio de marcas",
+          "title": "Gestiona como una cartera, no como una suma de marcas",
           "description": "Mismas métricas en todas las marcas. El capital, el talento y la atención van a donde obtienen el mayor rendimiento.",
-          "icon": "velocidad"
+          "icon": "speed"
         },
         {
           "title": "Comparación entre marcas que se mantiene",
-          "description": "Los puntos de referencia internos de pares convierten las reseñas de marcas de anécdotas en evidencia.",
-          "icon": "rendimiento"
+          "description": "Los benchmarks internos entre pares convierten las revisiones de marca en conversaciones basadas en evidencia, no en anécdotas.",
+          "icon": "performance"
         },
         {
           "title": "Mejores prácticas para todo el grupo",
-          "description": "La inteligencia cruzada acelera lo que funciona en todas las líneas de marca, en lugar de una transferencia de conocimiento trimestral.",
-          "icon": "propietarios"
+          "description": "Cross-Intelligence acelera lo que funciona entre marcas, en lugar de esperar a una transferencia trimestral de conocimiento.",
+          "icon": "owners"
         },
         {
           "title": "Asignación de capital basada en pronósticos",
           "description": "Las proyecciones de EBITDA por marca informan dónde invertir, dónde desacelerar y dónde salir.",
-          "icon": "apoyo"
+          "icon": "support"
         }
       ],
-      "ctaTitle": "Vea su cartera en todas las marcas.",
-      "ctaDescription": "30 minutos. Tu grupo. La visión de marca versus marca que no podría obtener de ninguna P&L.",
-      "ctaButton": "Reserve un recorrido grupal"
+      "ctaTitle": "Ve tu cartera completa en todas las marcas.",
+      "ctaDescription": "30 minutos. Tu grupo. La visión marca a marca que no puedes obtener de ninguna P&L aislada.",
+      "ctaButton": "Agenda una sesión para grupos"
     },
     "ar": {
       "badge": "للمجموعات متعددة المواقع",
       "titleLine1": "منصة واحدة.",
       "titleLine2": "كل علامة تجارية. كل سوق.",
-      "description": "تجميع المحفظة عبر العلامات التجارية والمناطق والمفاهيم. معايير العلامة التجارية مقابل العلامة التجارية. العرض الاستراتيجي الذي لا تستطيع مجموعتك الحصول عليه من أي نقطة بيع واحدة.",
+      "description": "تجميع المحفظة عبر العلامات التجارية والمناطق والمفاهيم. معايير العلامة التجارية مقابل العلامة التجارية. العرض الاستراتيجي الذي لا تستطيع مجموعتك الحصول عليه من أي POS واحدة.",
       "primaryCta": "احجز جولة جماعية",
       "secondaryCta": "انظر العرض التوضيحي للمجموعة",
       "problemsEyebrow": "حيث تفقد المجموعة نفوذها",
@@ -103,23 +103,23 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "تقدم كل علامة تجارية طريقتها الخاصة",
-          "description": "العلامة التجارية \"أ\" على الخبز المحمص، والعلامة التجارية \"ب\" على المربع، والعلامة التجارية \"ج\" على Lightspeed. يقوم مكتب المجموعة بالتسوية يدويًا - أو لا يقوم بذلك.",
-          "icon": "التكامل"
+          "description": "العلامة التجارية \"أ\" على Toast، والعلامة التجارية \"ب\" على Square، والعلامة التجارية \"ج\" على Lightspeed. يقوم مكتب المجموعة بالتسوية يدويًا - أو لا يقوم بذلك.",
+          "icon": "integration"
         },
         {
           "title": "لا توجد مقارنة بين العلامة التجارية والعلامة التجارية",
           "description": "لا يمكنك معرفة ما إذا كانت نسبة العمالة لدى العلامة التجارية \"ب\" جيدة أم سيئة بدون سياق. المعايير الداخلية من شأنها أن تغير المحادثة.",
-          "icon": "التوازن"
+          "icon": "balance"
         },
         {
           "title": "تبقى أفضل ممارسات التشغيل في علامة تجارية واحدة",
           "description": "العلامة التجارية أ برزت معدل دوران الغداء. العلامة التجارية B لا تزال تكافح. الدراية لا تتجاوز خط العلامة التجارية أبدًا.",
-          "icon": "الدعم"
+          "icon": "support"
         },
         {
-          "title": "تتفاعل استراتيجية المجموعة مع الربح والخسارة الشهرية",
+          "title": "تتفاعل استراتيجية المجموعة مع P&L الشهرية",
           "description": "الاستثمار في العلامة التجارية، ودخول السوق، وقرارات التنسيق - كلها مدفوعة ببيانات Q+1، وليس الإشارة المباشرة.",
-          "icon": "الأداء"
+          "icon": "performance"
         }
       ],
       "howTitle": "كيف تعمل Sundae لمجموعات متعددة العلامات التجارية",
@@ -128,26 +128,26 @@ export const generatedLocalCopy = {
         {
           "title": "تجميع المحفظة، كل علامة تجارية على حدة",
           "description": "الإيرادات المباشرة والهامش والعمالة عبر كل علامة تجارية ومنطقة ومفهوم - مع تعريفات متسقة بحيث تكون المقارنة تعني شيئًا ما في الواقع.",
-          "product": "مثلجات كور + نبض",
-          "icon": "مخطط"
+          "product": "Sundae Core + Pulse",
+          "icon": "chart"
         },
         {
           "title": "المعايير الداخلية عبر العلامات التجارية الخاصة بك",
           "description": "العلامة التجارية B مقابل العلامة التجارية A على إنتاجية العمل. العلامة التجارية C مقابل أقرانها في السوق على RevPASH. المحادثات التي يجب أن يجريها مكتب المجموعة.",
-          "product": "المعايير",
-          "icon": "قياس الأداء"
+          "product": "Benchmarks",
+          "icon": "benchmarking"
         },
         {
           "title": "نقل الممارسة عبر العلامات التجارية",
           "description": "ما يعمل في العلامة التجارية (أ) ينتشر إلى العلامة التجارية (ب) خلال أيام، وليس ربع سنوي خارج المواقع. يجد نظام Cross-Intelligence النمط، ويقوم Sundae بتوجيهه.",
           "product": "Cross-Intelligence",
-          "icon": "الذكاء"
+          "icon": "intelligence"
         },
         {
           "title": "التنبؤ الاستراتيجي على مستوى المجموعة",
-          "description": "المشاريع الاستشرافية EBITDA لكل علامة تجارية وعبر المحفظة. قم بتشغيل ماذا لو في سوق جديد، أو مفهوم، أو التزام CapEx.",
-          "product": "البصيرة",
-          "icon": "التنبؤ"
+          "description": "المشاريع الاستشرافية EBITDA لكل علامة تجارية وعبر المحفظة. قم بتشغيل ماذا لو في سوق جديد، أو مفهوم، أو التزام CapEx. (Foresight)",
+          "product": "Foresight",
+          "icon": "forecasting"
         }
       ],
       "outcomesTitle": "ما التغييرات لمكتب المجموعة",
@@ -156,115 +156,115 @@ export const generatedLocalCopy = {
         {
           "title": "الإدارة كمحفظة، وليس كمحفظة من العلامات التجارية",
           "description": "نفس المقاييس عبر كل علامة تجارية. يذهب رأس المال والموهبة والاهتمام إلى حيث يحققون أعلى عائد.",
-          "icon": "السرعة"
+          "icon": "speed"
         },
         {
           "title": "مقارنة العلامة التجارية مقابل العلامة التجارية التي تحمل",
           "description": "تعمل معايير النظراء الداخلية على تحويل مراجعات العلامات التجارية من مجرد حكاية إلى دليل.",
-          "icon": "الأداء"
+          "icon": "performance"
         },
         {
           "title": "أفضل الممارسات على مستوى المجموعة",
           "description": "تعمل تقنية Cross-Intelligence على تسريع العمل عبر خطوط العلامة التجارية - بدلاً من نقل المعرفة ربع السنوي.",
-          "icon": "أصحاب"
+          "icon": "owners"
         },
         {
           "title": "تخصيص رأس المال يعتمد على التوقعات",
-          "description": "توضح توقعات الأرباح قبل الفوائد والضرائب والإهلاك والاستهلاك حسب العلامة التجارية مكان الاستثمار، وأين يجب التباطؤ، وأين الخروج.",
-          "icon": "الدعم"
+          "description": "EBITDA projections by brand inform where to invest, where to slow, where to exit.",
+          "icon": "support"
         }
       ],
       "ctaTitle": "شاهد محفظتك عبر كل علامة تجارية.",
-      "ctaDescription": "30 دقيقة. مجموعتك. رؤية العلامة التجارية مقابل العلامة التجارية التي لا يمكنك الحصول عليها من أي ربح وخسارة.",
+      "ctaDescription": "30 minutes. Your group. The brand-vs-brand insight you couldn't get from any one P&L.",
       "ctaButton": "احجز جولة جماعية"
     },
     "nl": {
       "badge": "Voor groepen met meerdere locaties",
       "titleLine1": "Eén platform.",
       "titleLine2": "Elk merk. Elke markt.",
-      "description": "Portfolio-combinatie voor merken, regio's en concepten. Merk-vs-merk benchmarks. Het strategische inzicht dat uw groep niet vanuit één enkel POS kan krijgen.",
-      "primaryCta": "Boek een groepswandeling",
-      "secondaryCta": "Zie Groepsdemo",
-      "problemsEyebrow": "WAAR DE GROEP HEFBOOM VERLIEST",
+      "description": "Een geconsolideerd portefeuilleoverzicht over merken, regio’s en concepten. Benchmarks per merk. Het strategische inzicht dat je groep nooit uit één afzonderlijk POS haalt.",
+      "primaryCta": "Boek een portfoliosessie",
+      "secondaryCta": "Bekijk de groepsdemo",
+      "problemsEyebrow": "WAAR SCHAALVOORDEEL WEGLEKT",
       "problemsTitle": "Waar de groep zijn schaalvoordeel verliest",
-      "problemsDescription": "Rapportage per merk, geen vergelijking met collega's, beslissingen worden genomen op merkniveau in plaats van op portefeuilleniveau.",
+      "problemsDescription": "Rapportage per merk, geen vergelijking met peers en beslissingen op merkniveau in plaats van op portefeuilleniveau.",
       "challenges": [
         {
           "title": "Elk merk rapporteert op zijn eigen manier",
-          "description": "Merk A op Toast, Merk B op Square, Merk C op Lightspeed. Het groepskantoor stemt handmatig af – of doet dat niet.",
-          "icon": "integratie"
+          "description": "Merk A draait op Toast, merk B op Square, merk C op Lightspeed. Het groepskantoor reconcilieert alles handmatig — of helemaal niet.",
+          "icon": "integration"
         },
         {
-          "title": "Geen merk-vs-merk vergelijking",
-          "description": "Zonder context kun je niet zeggen of het arbeidspercentage van merk B goed of slecht is. Interne benchmarks zouden het gesprek veranderen.",
-          "icon": "balans"
+          "title": "Geen vergelijking tussen merken",
+          "description": "Zonder context zie je niet of het arbeidspercentage van merk B goed of slecht is. Interne benchmarks veranderen dat gesprek.",
+          "icon": "balance"
         },
         {
-          "title": "De beste operationele praktijk blijft bij één merk",
-          "description": "Merk A berekende de lunchomzet. Merk B heeft het nog steeds moeilijk. De knowhow overschrijdt nooit de merklijn.",
-          "icon": "ondersteuning"
+          "title": "De beste operationele aanpak blijft binnen één merk",
+          "description": "Merk A heeft de lunchdoorloop op orde. Merk B blijft worstelen. Die kennis komt nooit over de merklijn heen.",
+          "icon": "support"
         },
         {
           "title": "De groepsstrategie reageert op de maandelijkse P&L",
-          "description": "Merkinvesteringen, marktintroductie, formaatbeslissingen – allemaal gedreven door Q+1-gegevens, niet door live signalen.",
-          "icon": "prestatie"
+          "description": "Merkinvesteringen, marktintroducties en formatkeuzes worden gestuurd door Q+1-data, niet door live signalen.",
+          "icon": "performance"
         }
       ],
       "howTitle": "Hoe Sundae werkt voor groepen met meerdere merken",
-      "howDescription": "Portfoliowaarheid, merk-vs-merk-benchmarks, strategisch signaal op groepsniveau.",
+      "howDescription": "Eén portefeuillesignaal, benchmarks tussen merken en strategisch inzicht op groepsniveau.",
       "howSundaeHelps": [
         {
-          "title": "Portfolio-overzicht, merk per merk",
-          "description": "Live omzet, marge, arbeid voor elk merk, regio en concept – met consistente definities zodat de vergelijking daadwerkelijk iets betekent.",
-          "product": "Sundae Kern + Puls",
-          "icon": "grafiek"
+          "title": "Portefeuilleoverzicht, merk voor merk",
+          "description": "Live omzet, marge en personeelskosten per merk, elke regio en elk concept — met consistente definities, zodat de vergelijking echt betekenis heeft.",
+          "product": "Sundae Core + Pulse",
+          "icon": "chart"
         },
         {
-          "title": "Interne benchmarks voor uw merken",
-          "description": "Merk B versus merk A op het gebied van arbeidsproductiviteit. Merk C versus marktgenoten op RevPASH. De gesprekken die het groepskantoor zou moeten voeren.",
+          "title": "Interne benchmarks tussen je merken",
+          "description": "Merk B tegenover merk A op arbeidsproductiviteit. Merk C tegenover marktgenoten op RevPASH. Precies de gesprekken die het groepskantoor hoort te voeren.",
           "product": "Benchmarks",
           "icon": "benchmarking"
         },
         {
-          "title": "Praktijkoverdracht tussen merken",
-          "description": "Wat werkt bij merk A, wordt binnen enkele dagen doorgegeven aan merk B, en niet elk kwartaal buiten de vestigingen. Cross-Intelligence vindt het patroon, Sundae spoort het op.",
+          "title": "Overdracht van werkwijzen tussen merken",
+          "description": "Wat werkt bij merk A bereikt merk B binnen dagen, niet pas na een kwartaaloverleg. Cross-Intelligence vindt het patroon, Sundae routeert het.",
           "product": "Cross-Intelligence",
-          "icon": "intelligentie"
+          "icon": "intelligence"
         },
         {
           "title": "Strategische forecasting op groepsniveau",
-          "description": "Foresight projecteert de EBITDA per merk en voor de hele portefeuille. Voer 'wat als' uit op een nieuwe markt, een concept of een CapEx-verplichting.",
-          "product": "Vooruitziende blik",
-          "icon": "voorspellen"
+          "description": "Foresight projecteert EBITDA per merk en over de hele portefeuille. Test scenario’s voor een nieuwe markt, een concept of een CapEx-besluit voordat je vastlegt.",
+          "product": "Foresight",
+          "icon": "forecasting"
         }
       ],
-      "outcomesTitle": "Wat verandert er voor het groepskantoor?",
-      "outcomesDescription": "Portfolio-hefboomwerking gerealiseerd, merkensilo’s doorbroken, strategie krijgt live signaal.",
+      "outcomesTitle": "Wat verandert er voor het groepskantoor",
+      "outcomesDescription": "Portefeuillevoordeel wordt zichtbaar, merksilo’s breken open en strategie krijgt een live signaal.",
       "outcomes": [
         {
-          "title": "Beheer als een portfolio, niet als een portfolio van merken",
-          "description": "Dezelfde statistieken voor elk merk. Kapitaal, talent en aandacht gaan daarheen waar ze het hoogste rendement opleveren.",
-          "icon": "snelheid"
+          "title": "Stuur als één portefeuille, niet als losse merken",
+          "description": "Dezelfde metrics voor elk merk. Kapitaal, talent en aandacht gaan naar de plekken met het hoogste rendement.",
+          "icon": "speed"
         },
         {
-          "title": "Merk-vs-merk-vergelijking die klopt",
-          "description": "Interne peer-benchmarks veranderen merkrecensies van anekdote in bewijs.",
-          "icon": "prestatie"
+          "title": "Vergelijkingen tussen merken die standhouden",
+          "description": "Interne peerbenchmarks maken merkreviews bewijsgericht in plaats van anekdotisch.",
+          "icon": "performance"
         },
         {
-          "title": "Beste praktijk voor de hele groep",
-          "description": "Cross-Intelligence versnelt wat werkt over de merklijnen heen – in plaats van driemaandelijkse kennisoverdracht.",
-          "icon": "eigenaren"
+          "title": "Best practices op groepsniveau",
+          "description": "Cross-Intelligence versnelt wat werkt over merklijnen heen, in plaats van te wachten op kennisoverdracht per kwartaal.",
+          "icon": "owners"
         },
         {
-          "title": "Kapitaalallocatie gebaseerd op prognoses",
-          "description": "EBITDA-projecties per merk geven aan waar te investeren, waar te vertragen en waar te stoppen.",
-          "icon": "ondersteuning"
+          "title": "Kapitaalallocatie op basis van prognoses",
+          "description": "EBITDA-projecties per merk laten zien waar je moet investeren, vertragen of uitstappen.",
+          "icon": "support"
         }
       ],
-      "ctaTitle": "Bekijk uw portfolio voor elk merk.",
-      "ctaDescription": "30 minuten. Jouw groep. Het merk-vs-merk-inzicht dat u met geen enkele P&L kunt verkrijgen.",
-      "ctaButton": "Boek een groepswandeling"
+      "ctaTitle": "Bekijk je portefeuille over elk merk heen.",
+      "ctaDescription": "30 minuten. Jouw groep. Het inzicht tussen merken dat je uit geen enkele afzonderlijke P&L haalt.",
+      "ctaButton": "Boek een portfoliosessie"
     },
     "de": {
       "badge": "Für Gruppen mit mehreren Standorten",
@@ -280,22 +280,22 @@ export const generatedLocalCopy = {
         {
           "title": "Jede Marke berichtet auf ihre eigene Weise",
           "description": "Marke A auf Toast, Marke B auf Square, Marke C auf Lightspeed. Das Gruppenbüro stimmt händisch ab – oder auch nicht.",
-          "icon": "Integration"
+          "icon": "integration"
         },
         {
           "title": "Kein Markenvergleich",
           "description": "Ohne Kontext kann man nicht sagen, ob der Arbeitsprozentsatz von Marke B gut oder schlecht ist. Interne Benchmarks würden die Diskussion verändern.",
-          "icon": "Gleichgewicht"
+          "icon": "balance"
         },
         {
           "title": "Best Operating Practice bleibt in einer Marke",
           "description": "Marke A hat den Mittagsumsatz ermittelt. Marke B hat immer noch Probleme. Das Know-how geht nie über die Markengrenze hinaus.",
-          "icon": "Unterstützung"
+          "icon": "support"
         },
         {
-          "title": "Die Konzernstrategie reagiert auf die monatliche Gewinn- und Verlustrechnung",
+          "title": "Group strategy reacts to monthly P&L",
           "description": "Markeninvestitionen, Markteintritt, Formatentscheidungen – alles gesteuert durch Q+1-Daten, nicht durch Live-Signale.",
-          "icon": "Leistung"
+          "icon": "performance"
         }
       ],
       "howTitle": "So funktioniert Sundae für Mehrmarkengruppen",
@@ -304,26 +304,26 @@ export const generatedLocalCopy = {
         {
           "title": "Portfolio-Rollup, Marke für Marke",
           "description": "Live-Umsatz, Marge, Arbeitsaufwand für jede Marke, Region und jedes Konzept – mit konsistenten Definitionen, damit der Vergleich tatsächlich etwas bedeutet.",
-          "product": "Eisbecherkern + Puls",
-          "icon": "Diagramm"
+          "product": "Sundae Core + Pulse",
+          "icon": "chart"
         },
         {
           "title": "Interne Benchmarks für Ihre Marken",
           "description": "Marke B vs. Marke A zur Arbeitsproduktivität. Marke C vs. Marktkollegen auf RevPASH. Die Gespräche, die das Gruppenbüro führen sollte.",
           "product": "Benchmarks",
-          "icon": "Benchmarking"
+          "icon": "benchmarking"
         },
         {
           "title": "Markenübergreifender Praxistransfer",
           "description": "Was bei Marke A funktioniert, überträgt sich innerhalb weniger Tage auf Marke B und nicht vierteljährlich an externe Standorte. Cross-Intelligence findet das Muster, Sundae leitet es weiter.",
           "product": "Cross-Intelligence",
-          "icon": "Intelligenz"
+          "icon": "intelligence"
         },
         {
           "title": "Strategische Prognose auf Gruppenebene",
-          "description": "Foresight prognostiziert das EBITDA pro Marke und für das gesamte Portfolio. Führen Sie eine Was-wäre-wenn-Analyse für einen neuen Markt, ein Konzept oder eine Investitionsverpflichtung durch.",
-          "product": "Weitblick",
-          "icon": "Prognose"
+          "description": "Foresight prognostiziert das EBITDA pro Marke und für das gesamte Portfolio. Führen Sie eine Was-wäre-wenn-Analyse für einen neuen Markt, ein Konzept oder eine Investitionsverpflichtung durch. (CapEx)",
+          "product": "Foresight",
+          "icon": "forecasting"
         }
       ],
       "outcomesTitle": "Was sich für das Gruppenbüro ändert",
@@ -332,33 +332,33 @@ export const generatedLocalCopy = {
         {
           "title": "Verwalten Sie als Portfolio, nicht als Markenportfolio",
           "description": "Gleiche Kennzahlen für jede Marke. Kapital, Talent und Aufmerksamkeit gehen dorthin, wo sie die höchste Rendite erzielen.",
-          "icon": "Geschwindigkeit"
+          "icon": "speed"
         },
         {
           "title": "Markenvergleich, der Bestand hat",
           "description": "Interne Peer-Benchmarks verwandeln Markenbewertungen von einer Anekdote in einen Beweis.",
-          "icon": "Leistung"
+          "icon": "performance"
         },
         {
           "title": "Gruppenweites Best Practice",
           "description": "Cross-Intelligence beschleunigt, was markenübergreifend funktioniert – anstelle eines vierteljährlichen Wissenstransfers.",
-          "icon": "Eigentümer"
+          "icon": "owners"
         },
         {
           "title": "Prognosebasierte Kapitalallokation",
           "description": "EBITDA-Prognosen nach Marken geben Aufschluss darüber, wo investiert, wo gedrosselt und wo ausgestiegen werden sollte.",
-          "icon": "Unterstützung"
+          "icon": "support"
         }
       ],
       "ctaTitle": "Sehen Sie sich Ihr Portfolio für jede Marke an.",
-      "ctaDescription": "30 Minuten. Deine Gruppe. Die Marke-gegen-Marke-Einsicht, die Sie mit keiner einzigen Gewinn- und Verlustrechnung erhalten könnten.",
+      "ctaDescription": "30 minutes. Your group. The brand-vs-brand insight you couldn't get from any one P&L.",
       "ctaButton": "Buchen Sie einen Gruppenrundgang"
     },
     "fr": {
       "badge": "Pour les groupes multi-sites",
       "titleLine1": "Une seule plateforme.",
       "titleLine2": "Chaque marque. Chaque marché.",
-      "description": "Regroupement du portefeuille entre les marques, les régions et les concepts. Benchmarks marque par marque. La vue stratégique que votre groupe ne peut obtenir d'un seul point de vente.",
+      "description": "Regroupement du portefeuille entre les marques, les régions et les concepts. Benchmarks marque par marque. La vue stratégique que votre groupe ne peut obtenir d'un seul point de vente. (POS)",
       "primaryCta": "Réservez une visite de groupe",
       "secondaryCta": "Voir la démo de groupe",
       "problemsEyebrow": "LÀ OÙ LE GROUPE PERD L’EFFET",
@@ -368,22 +368,22 @@ export const generatedLocalCopy = {
         {
           "title": "Chaque marque rapporte à sa manière",
           "description": "Marque A sur Toast, marque B sur Square, marque C sur Lightspeed. Le bureau du groupe effectue le rapprochement à la main – ou pas.",
-          "icon": "intégration"
+          "icon": "integration"
         },
         {
           "title": "Aucune comparaison marque/marque",
           "description": "Vous ne pouvez pas dire si le pourcentage de travail de la marque B est bon ou mauvais sans contexte. Des benchmarks internes changeraient la donne.",
-          "icon": "équilibre"
+          "icon": "balance"
         },
         {
           "title": "Les meilleures pratiques opérationnelles restent au sein d’une seule marque",
           "description": "La marque A a calculé le chiffre d'affaires du déjeuner. La marque B est toujours en difficulté. Le savoir-faire ne dépasse jamais les limites de la marque.",
-          "icon": "soutien"
+          "icon": "support"
         },
         {
           "title": "La stratégie du Groupe réagit au P&L mensuel",
           "description": "Investissement dans la marque, entrée sur le marché, décisions de format : tous motivés par les données du premier trimestre et non par un signal en direct.",
-          "icon": "performances"
+          "icon": "performance"
         }
       ],
       "howTitle": "Comment Sundae fonctionne pour les groupes multimarques",
@@ -393,25 +393,25 @@ export const generatedLocalCopy = {
           "title": "Regroupement du portefeuille, marque par marque",
           "description": "Chiffre d’affaires, marge et main-d’œuvre en direct pour chaque marque, région et concept – avec des définitions cohérentes pour que la comparaison ait réellement un sens.",
           "product": "Sundae Core + Pulse",
-          "icon": "graphique"
+          "icon": "chart"
         },
         {
           "title": "Benchmarks internes à travers vos marques",
           "description": "Marque B vs marque A sur la productivité du travail. Marque C par rapport aux pairs du marché sur RevPASH. Les conversations que le bureau de groupe devrait avoir.",
-          "product": "Repères",
-          "icon": "analyse comparative"
+          "product": "Benchmarks",
+          "icon": "benchmarking"
         },
         {
           "title": "Transfert de pratique cross-marque",
           "description": "Ce qui fonctionne chez la marque A se propage à la marque B en quelques jours, et non chaque trimestre hors site. Cross-Intelligence trouve le modèle, Sundae l'achemine.",
           "product": "Cross-Intelligence",
-          "icon": "renseignement"
+          "icon": "intelligence"
         },
         {
           "title": "Prévisions stratégiques au niveau du groupe",
           "description": "Foresight projette l’EBITDA par marque et dans l’ensemble du portefeuille. Exécutez des simulations sur un nouveau marché, un concept ou un engagement CapEx.",
-          "product": "Prospective",
-          "icon": "prévision"
+          "product": "Foresight",
+          "icon": "forecasting"
         }
       ],
       "outcomesTitle": "Quels changements pour le bureau du groupe",
@@ -420,22 +420,22 @@ export const generatedLocalCopy = {
         {
           "title": "Gérer comme un portefeuille, pas un portefeuille de marques",
           "description": "Mêmes mesures pour toutes les marques. Le capital, le talent et l’attention vont là où ils rapportent le plus.",
-          "icon": "vitesse"
+          "icon": "speed"
         },
         {
           "title": "Une comparaison marque contre marque qui tient",
           "description": "Les évaluations internes par les pairs transforment les évaluations de marque d'anecdote en preuve.",
-          "icon": "performances"
+          "icon": "performance"
         },
         {
           "title": "Bonnes pratiques à l'échelle du Groupe",
           "description": "Cross-Intelligence accélère ce qui fonctionne entre les lignes de marque, au lieu d'un transfert de connaissances trimestriel.",
-          "icon": "propriétaires"
+          "icon": "owners"
         },
         {
           "title": "Allocation de capital fondée sur les prévisions",
           "description": "Les projections d’EBITDA par marque indiquent où investir, où ralentir, où sortir.",
-          "icon": "soutien"
+          "icon": "support"
         }
       ],
       "ctaTitle": "Consultez votre portefeuille pour chaque marque.",
@@ -446,7 +446,7 @@ export const generatedLocalCopy = {
       "badge": "Para grupos com vários locais",
       "titleLine1": "Uma plataforma.",
       "titleLine2": "Cada marca. Cada mercado.",
-      "description": "Acumulação de portfólio entre marcas, regiões e conceitos. Benchmarks de marca versus marca. A visão estratégica que seu grupo não consegue obter em um único PDV.",
+      "description": "Acumulação de portfólio entre marcas, regiões e conceitos. Benchmarks de marca versus marca. A visão estratégica que seu grupo não consegue obter em um único POS.",
       "primaryCta": "Agende uma visita em grupo",
       "secondaryCta": "Veja a demonstração do grupo",
       "problemsEyebrow": "ONDE O GRUPO PERDE ALAVANCAGEM",
@@ -456,22 +456,22 @@ export const generatedLocalCopy = {
         {
           "title": "Cada marca reporta do seu jeito",
           "description": "Marca A no Toast, Marca B no Square, Marca C no Lightspeed. O escritório do grupo reconcilia manualmente – ou não.",
-          "icon": "integração"
+          "icon": "integration"
         },
         {
           "title": "Sem comparação entre marca e marca",
           "description": "Você não pode dizer se a% de mão de obra da Marca B é boa ou ruim sem contexto. Os benchmarks internos mudariam a conversa.",
-          "icon": "equilíbrio"
+          "icon": "balance"
         },
         {
           "title": "As melhores práticas operacionais permanecem em uma marca",
           "description": "A marca A calculou a rotatividade do almoço. A marca B ainda está lutando. O know-how nunca ultrapassa os limites da marca.",
-          "icon": "suporte"
+          "icon": "support"
         },
         {
           "title": "A estratégia do grupo reage ao P&L mensal",
           "description": "Investimento na marca, entrada no mercado, decisões de formato – tudo impulsionado por dados Q+1, não por sinal ao vivo.",
-          "icon": "desempenho"
+          "icon": "performance"
         }
       ],
       "howTitle": "Como o Sundae funciona para grupos multimarcas",
@@ -480,26 +480,26 @@ export const generatedLocalCopy = {
         {
           "title": "Acumulação de portfólio, marca por marca",
           "description": "Receita, margem e mão de obra em tempo real em cada marca, região e conceito — com definições consistentes para que a comparação realmente signifique algo.",
-          "product": "Sundae Core + Pulso",
-          "icon": "gráfico"
+          "product": "Sundae Core + Pulse",
+          "icon": "chart"
         },
         {
           "title": "Benchmarks internos de suas marcas",
           "description": "Marca B vs Marca A na produtividade do trabalho. Marca C versus pares de mercado no RevPASH. As conversas que o escritório do grupo deveria ter.",
-          "product": "Referências",
+          "product": "Benchmarks",
           "icon": "benchmarking"
         },
         {
           "title": "Transferência de prática entre marcas",
           "description": "O que está funcionando na Marca A se propaga para a Marca B em dias, e não trimestralmente fora dos locais. Cross-Intelligence encontra o padrão, Sundae o encaminha.",
           "product": "Cross-Intelligence",
-          "icon": "inteligência"
+          "icon": "intelligence"
         },
         {
           "title": "Previsão estratégica em nível de grupo",
           "description": "A Foresight projeta o EBITDA por marca e em todo o portfólio. Execute simulações em um novo mercado, um conceito ou um compromisso de CapEx.",
-          "product": "Previsão",
-          "icon": "previsão"
+          "product": "Foresight",
+          "icon": "forecasting"
         }
       ],
       "outcomesTitle": "O que muda para o escritório do grupo",
@@ -508,22 +508,22 @@ export const generatedLocalCopy = {
         {
           "title": "Gerencie como um portfólio, não como um portfólio de marcas",
           "description": "Mesmas métricas em todas as marcas. Capital, talento e atenção vão para onde obtêm o maior retorno.",
-          "icon": "velocidade"
+          "icon": "speed"
         },
         {
           "title": "Comparação marca x marca que vale",
           "description": "Os benchmarks internos de pares transformam as avaliações da marca de anedota em evidência.",
-          "icon": "desempenho"
+          "icon": "performance"
         },
         {
           "title": "Melhores práticas para todo o grupo",
           "description": "O Cross-Intelligence acelera o que funciona em todas as marcas — em vez da transferência trimestral de conhecimento.",
-          "icon": "proprietários"
+          "icon": "owners"
         },
         {
           "title": "Alocação de capital baseada em previsões",
           "description": "As projeções de EBITDA por marca informam onde investir, onde desacelerar, onde sair.",
-          "icon": "suporte"
+          "icon": "support"
         }
       ],
       "ctaTitle": "Veja seu portfólio em todas as marcas.",
@@ -543,23 +543,23 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "ہر برانڈ اپنے طریقے سے رپورٹ کرتا ہے۔",
-          "description": "ٹوسٹ پر برانڈ A، مربع پر برانڈ B، Lightspeed پر برانڈ C۔ گروپ آفس ہاتھ سے صلح کرتا ہے — یا نہیں کرتا۔",
-          "icon": "انضمام"
+          "description": "Toast پر برانڈ A، مربع پر برانڈ B، Lightspeed پر برانڈ C۔ گروپ آفس ہاتھ سے صلح کرتا ہے — یا نہیں کرتا۔ (Square)",
+          "icon": "integration"
         },
         {
           "title": "کوئی برانڈ بمقابلہ برانڈ موازنہ نہیں۔",
           "description": "آپ یہ نہیں بتا سکتے کہ آیا برانڈ B کا لیبر % سیاق و سباق کے بغیر اچھا ہے یا برا۔ اندرونی معیارات گفتگو کو بدل دیں گے۔",
-          "icon": "توازن"
+          "icon": "balance"
         },
         {
           "title": "بہترین آپریٹنگ پریکٹس ایک برانڈ میں رہتی ہے۔",
           "description": "برانڈ A نے دوپہر کے کھانے کے کاروبار کا پتہ لگایا۔ برانڈ بی اب بھی جدوجہد کر رہا ہے۔ جاننے کا طریقہ کبھی بھی برانڈ لائن کو عبور نہیں کرتا ہے۔",
-          "icon": "حمایت"
+          "icon": "support"
         },
         {
           "title": "گروپ کی حکمت عملی ماہانہ P&L پر ردعمل ظاہر کرتی ہے۔",
           "description": "برانڈ کی سرمایہ کاری، مارکیٹ میں داخلے، فارمیٹ کے فیصلے — سب Q+1 ڈیٹا سے چلتے ہیں، لائیو سگنل نہیں۔",
-          "icon": "کارکردگی"
+          "icon": "performance"
         }
       ],
       "howTitle": "Sundae ملٹی برانڈ گروپس کے لیے کیسے کام کرتا ہے۔",
@@ -568,26 +568,26 @@ export const generatedLocalCopy = {
         {
           "title": "پورٹ فولیو رول اپ، برانڈ بہ برانڈ",
           "description": "لائیو ریونیو، مارجن، لیبر ہر برانڈ، علاقے، اور تصور میں - مستقل تعریفوں کے ساتھ تاکہ موازنہ کا اصل مطلب کچھ ہو۔",
-          "product": "سنڈے کور + پلس",
-          "icon": "چارٹ"
+          "product": "Sundae Core + Pulse",
+          "icon": "chart"
         },
         {
           "title": "آپ کے تمام برانڈز کے اندرونی معیارات",
           "description": "لیبر کی پیداواری صلاحیت پر برانڈ B بمقابلہ برانڈ A۔ RevPASH پر برانڈ C بمقابلہ مارکیٹ پیئرز۔ گروپ آفس میں ہونے والی گفتگو۔",
-          "product": "بینچ مارکس",
-          "icon": "بینچ مارکنگ"
+          "product": "Benchmarks",
+          "icon": "benchmarking"
         },
         {
           "title": "کراس برانڈ پریکٹس ٹرانسفر",
-          "description": "برانڈ A میں جو کام کر رہا ہے وہ دنوں میں برانڈ B میں پھیلتا ہے، سہ ماہی آف سائٹس میں نہیں۔ کراس انٹیلی جنس پیٹرن کو تلاش کرتی ہے، Sundae اسے روٹ کرتا ہے۔",
+          "description": "برانڈ A میں جو کام کر رہا ہے وہ دنوں میں برانڈ B میں پھیلتا ہے، سہ ماہی آف سائٹس میں نہیں۔ Cross-Intelligence پیٹرن کو تلاش کرتی ہے، Sundae اسے روٹ کرتا ہے۔",
           "product": "Cross-Intelligence",
-          "icon": "ذہانت"
+          "icon": "intelligence"
         },
         {
           "title": "گروپ کی سطح پر اسٹریٹجک پیشن گوئی",
-          "description": "دور اندیشی پروجیکٹس EBITDA فی برانڈ اور پورے پورٹ فولیو میں۔ ایک نئی مارکیٹ، ایک تصور، یا CapEx عزم پر کیا ہو تو چلائیں۔",
-          "product": "دور اندیشی۔",
-          "icon": "پیشن گوئی"
+          "description": "دور اندیشی پروجیکٹس EBITDA فی برانڈ اور پورے پورٹ فولیو میں۔ ایک نئی مارکیٹ، ایک تصور، یا CapEx عزم پر کیا ہو تو چلائیں۔ (Foresight)",
+          "product": "Foresight",
+          "icon": "forecasting"
         }
       ],
       "outcomesTitle": "گروپ آفس کے لیے کیا تبدیلیاں ہیں۔",
@@ -596,22 +596,22 @@ export const generatedLocalCopy = {
         {
           "title": "ایک پورٹ فولیو کے طور پر نظم کریں، برانڈز کے پورٹ فولیو کے نہیں۔",
           "description": "ہر برانڈ پر ایک جیسے میٹرکس۔ سرمایہ، ہنر اور توجہ وہیں جاتی ہے جہاں وہ سب سے زیادہ منافع کماتے ہیں۔",
-          "icon": "رفتار"
+          "icon": "speed"
         },
         {
           "title": "برانڈ بمقابلہ برانڈ کا موازنہ جو رکھتا ہے۔",
           "description": "اندرونی ہم مرتبہ بینچ مارکس برانڈ کے جائزوں کو کہانی سے ثبوت میں بدل دیتے ہیں۔",
-          "icon": "کارکردگی"
+          "icon": "performance"
         },
         {
           "title": "گروپ بھر میں بہترین پریکٹس",
-          "description": "کراس انٹیلی جنس اس چیز کو تیز کرتی ہے جو برانڈ لائنوں میں کام کرتا ہے — سہ ماہی علم کی منتقلی کے بجائے۔",
-          "icon": "مالکان"
+          "description": "Cross-Intelligence اس چیز کو تیز کرتی ہے جو برانڈ لائنوں میں کام کرتا ہے — سہ ماہی علم کی منتقلی کے بجائے۔",
+          "icon": "owners"
         },
         {
           "title": "کیپیٹل ایلوکیشن پیشن گوئی پر مبنی ہے۔",
           "description": "برانڈ کے ذریعہ EBITDA تخمینے بتاتے ہیں کہ کہاں سرمایہ کاری کرنی ہے، کہاں سست کرنی ہے، کہاں سے باہر نکلنا ہے۔",
-          "icon": "حمایت"
+          "icon": "support"
         }
       ],
       "ctaTitle": "ہر برانڈ میں اپنا پورٹ فولیو دیکھیں۔",
@@ -622,7 +622,7 @@ export const generatedLocalCopy = {
       "badge": "Dla grup o wielu lokalizacjach",
       "titleLine1": "Jedna platforma.",
       "titleLine2": "Każda marka. Każdy rynek.",
-      "description": "Podsumowanie portfolio obejmujące marki, regiony i koncepcje. Porównanie marki z marką. Widok strategiczny, którego Twoja grupa nie może uzyskać z żadnego pojedynczego punktu sprzedaży.",
+      "description": "Podsumowanie portfolio obejmujące marki, regiony i koncepcje. Porównanie marki z marką. Widok strategiczny, którego Twoja grupa nie może uzyskać z żadnego pojedynczego punktu sprzedaży. (POS)",
       "primaryCta": "Zarezerwuj spacer grupowy",
       "secondaryCta": "Zobacz Demo grupowe",
       "problemsEyebrow": "GDY GRUPA TRACI DŹWIGNIE",
@@ -631,23 +631,23 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Każda marka raportuje na swój sposób",
-          "description": "Marka A na Toście, Marka B na Kwadracie, Marka C na Lightspeed. Biuro grupy uzgadnia ręcznie — lub nie.",
-          "icon": "integracja"
+          "description": "Marka A na Toście, Marka B na Kwadracie, Marka C na Lightspeed. Biuro grupy uzgadnia ręcznie — lub nie. (Toast) (Square)",
+          "icon": "integration"
         },
         {
           "title": "Brak porównania marki z marką",
           "description": "Bez kontekstu nie można stwierdzić, czy procent pracy Marki B jest dobry czy zły. Wewnętrzne testy porównawcze zmieniłyby dyskusję.",
-          "icon": "równowaga"
+          "icon": "balance"
         },
         {
           "title": "Najlepsze praktyki operacyjne pozostają w jednej marce",
           "description": "Marka A obliczyła obroty w porze lunchu. Marka B wciąż ma trudności. Know-how nigdy nie przekracza linii marki.",
-          "icon": "wsparcie"
+          "icon": "support"
         },
         {
-          "title": "Strategia Grupy reaguje na miesięczne zyski i straty",
+          "title": "Group strategy reacts to monthly P&L",
           "description": "Inwestycje w markę, wejście na rynek, decyzje dotyczące formatu – wszystko na podstawie danych z Q+1, a nie sygnału na żywo.",
-          "icon": "wydajność"
+          "icon": "performance"
         }
       ],
       "howTitle": "Jak Sundae działa w przypadku grup obejmujących wiele marek",
@@ -656,26 +656,26 @@ export const generatedLocalCopy = {
         {
           "title": "Rollup portfolio, marka po marce",
           "description": "Przychody na żywo, marża, siła robocza dla każdej marki, regionu i koncepcji — ze spójnymi definicjami, dzięki czemu porównanie faktycznie coś znaczy.",
-          "product": "Lody Rdzeń + Puls",
-          "icon": "wykres"
+          "product": "Sundae Core + Pulse",
+          "icon": "chart"
         },
         {
           "title": "Wewnętrzne testy porównawcze Twoich marek",
           "description": "Marka B kontra marka A w zakresie produktywności pracy. Marka C na tle innych konkurentów na RevPASH. Rozmowy, które powinno prowadzić biuro grupy.",
-          "product": "Testy porównawcze",
+          "product": "Benchmarks",
           "icon": "benchmarking"
         },
         {
           "title": "Transfer praktyk między markami",
-          "description": "To, co sprawdza się w marce A, trafia do marki B w ciągu kilku dni, a nie co kwartał poza siedzibą firmy. Wywiad krzyżowy znajduje wzór, Sundae go wyznacza.",
+          "description": "To, co sprawdza się w marce A, trafia do marki B w ciągu kilku dni, a nie co kwartał poza siedzibą firmy. Wywiad krzyżowy znajduje wzór, Sundae go wyznacza. (Cross-Intelligence)",
           "product": "Cross-Intelligence",
-          "icon": "inteligencja"
+          "icon": "intelligence"
         },
         {
           "title": "Prognozowanie strategiczne na poziomie grupy",
           "description": "Foresight prognozuje EBITDA na markę i w całym portfelu. Uruchom analizę typu „co by było, gdyby” na nowym rynku, koncepcji lub zaangażowaniu CapEx.",
           "product": "Foresight",
-          "icon": "prognozowanie"
+          "icon": "forecasting"
         }
       ],
       "outcomesTitle": "Jakie zmiany w biurze grupy",
@@ -684,26 +684,26 @@ export const generatedLocalCopy = {
         {
           "title": "Zarządzaj jak portfolio, a nie portfel marek",
           "description": "Te same wskaźniki dla każdej marki. Kapitał, talent i uwaga trafiają tam, gdzie przynoszą najwyższy zwrot.",
-          "icon": "prędkość"
+          "icon": "speed"
         },
         {
           "title": "Porównanie marki z marką, które sprawdza się",
           "description": "Wewnętrzne testy porównawcze zmieniają recenzje marek z anegdoty w dowody.",
-          "icon": "wydajność"
+          "icon": "performance"
         },
         {
           "title": "Najlepsze praktyki w całej grupie",
           "description": "Cross-Intelligence przyspiesza to, co działa w przypadku różnych marek – zamiast kwartalnego transferu wiedzy.",
-          "icon": "właściciele"
+          "icon": "owners"
         },
         {
           "title": "Alokacja kapitału oparta na prognozach",
           "description": "Projekcje EBITDA według marki informują, gdzie inwestować, gdzie zwolnić, gdzie wyjść.",
-          "icon": "wsparcie"
+          "icon": "support"
         }
       ],
       "ctaTitle": "Zobacz swoje portfolio dla każdej marki.",
-      "ctaDescription": "30 minut. Twoja grupa. Wgląd w porównanie marki z marką, którego nie można uzyskać z żadnego pojedynczego rachunku zysków i strat.",
+      "ctaDescription": "30 minutes. Your group. The brand-vs-brand insight you couldn't get from any one P&L.",
       "ctaButton": "Zarezerwuj spacer grupowy"
     },
     "it": {
@@ -720,22 +720,22 @@ export const generatedLocalCopy = {
         {
           "title": "Ogni marchio racconta a modo suo",
           "description": "Marchio A su Toast, marchio B su Square, marchio C su Lightspeed. L'ufficio del gruppo effettua la riconciliazione manualmente oppure no.",
-          "icon": "integrazione"
+          "icon": "integration"
         },
         {
           "title": "Nessun confronto tra marchio e marchio",
           "description": "Non puoi dire se la percentuale di manodopera del marchio B è buona o cattiva senza contesto. I benchmark interni cambierebbero la conversazione.",
-          "icon": "equilibrio"
+          "icon": "balance"
         },
         {
           "title": "Le migliori pratiche operative rimangono in un unico marchio",
           "description": "Il marchio A ha calcolato il turnover del pranzo. Il marchio B è ancora in difficoltà. Il know-how non supera mai i confini del marchio.",
-          "icon": "supporto"
+          "icon": "support"
         },
         {
           "title": "La strategia del gruppo reagisce al P&L mensile",
           "description": "Investimenti nel brand, ingresso nel mercato, decisioni sul formato: tutto guidato dai dati Q+1, non dal segnale in tempo reale.",
-          "icon": "prestazione"
+          "icon": "performance"
         }
       ],
       "howTitle": "Come funziona Sundae per i gruppi multimarca",
@@ -745,25 +745,25 @@ export const generatedLocalCopy = {
           "title": "Rollup del portafoglio, marchio per marchio",
           "description": "Entrate, margini e manodopera in tempo reale per ogni marchio, regione e concetto, con definizioni coerenti in modo che il confronto abbia effettivamente un significato.",
           "product": "Sundae Core + Pulse",
-          "icon": "grafico"
+          "icon": "chart"
         },
         {
           "title": "Benchmark interni tra i tuoi marchi",
           "description": "Marchio B vs marchio A sulla produttività del lavoro. Marchio C rispetto ai concorrenti di mercato su RevPASH. Le conversazioni che dovrebbe avere l'ufficio del gruppo.",
-          "product": "Benchmark",
+          "product": "Benchmarks",
           "icon": "benchmarking"
         },
         {
           "title": "Trasferimento della pratica tra marchi",
           "description": "Ciò che funziona nel marchio A si propaga al marchio B in pochi giorni, non trimestralmente fuori sede. Cross-Intelligence trova lo schema, Sundae lo instrada.",
           "product": "Cross-Intelligence",
-          "icon": "intelligenza"
+          "icon": "intelligence"
         },
         {
           "title": "Previsioni strategiche a livello di gruppo",
-          "description": "La previsione prevede l'EBITDA per marchio e in tutto il portafoglio. Esegui operazioni what-if su un nuovo mercato, un concetto o un impegno CapEx.",
-          "product": "Lungimiranza",
-          "icon": "previsione"
+          "description": "La Foresight prevede l'EBITDA per marchio e in tutto il portafoglio. Esegui operazioni what-if su un nuovo mercato, un concetto o un impegno CapEx.",
+          "product": "Foresight",
+          "icon": "forecasting"
         }
       ],
       "outcomesTitle": "Cosa cambia per la sede collettiva",
@@ -772,22 +772,22 @@ export const generatedLocalCopy = {
         {
           "title": "Gestire come un portafoglio, non un portafoglio di marchi",
           "description": "Stesse metriche per ogni marchio. Capitale, talento e attenzione vanno dove ottengono il rendimento più alto.",
-          "icon": "velocità"
+          "icon": "speed"
         },
         {
           "title": "Confronto marchio contro marchio che regge",
           "description": "I benchmark interni tra pari trasformano le recensioni del marchio da aneddoto a prova.",
-          "icon": "prestazione"
+          "icon": "performance"
         },
         {
           "title": "Best practice a livello di gruppo",
           "description": "Cross-Intelligence accelera ciò che funziona tra le linee di marchio, anziché il trasferimento trimestrale delle conoscenze.",
-          "icon": "proprietari"
+          "icon": "owners"
         },
         {
           "title": "Allocazione del capitale basata sulle previsioni",
           "description": "Le proiezioni dell’EBITDA per marchio informano su dove investire, dove rallentare, dove uscire.",
-          "icon": "supporto"
+          "icon": "support"
         }
       ],
       "ctaTitle": "Visualizza il tuo portafoglio per ogni marchio.",
@@ -808,50 +808,50 @@ export const generatedLocalCopy = {
         {
           "title": "每个品牌都有自己的报告方式",
           "description": "Toast 上的品牌 A、Square 上的品牌 B、Lightspeed 上的品牌 C。集团办公室手工核对——或者不手工核对。",
-          "icon": "整合"
+          "icon": "integration"
         },
         {
           "title": "没有品牌与品牌之间的比较",
           "description": "如果没有背景信息，你无法判断品牌 B 的劳动力百分比是好是坏。内部基准将会改变对话。",
-          "icon": "平衡"
+          "icon": "balance"
         },
         {
           "title": "最佳运营实践集中于一个品牌",
           "description": "品牌 A 计算出午餐营业额。 B品牌仍在苦苦挣扎。专业知识永远不会跨越品牌界限。",
-          "icon": "支持"
+          "icon": "support"
         },
         {
-          "title": "集团战略对每月损益做出反应",
+          "title": "Group strategy reacts to monthly P&L",
           "description": "品牌投资、市场进入、业态决策——所有这些都是由 Q+1 数据驱动的，而不是实时信号。",
-          "icon": "表现"
+          "icon": "performance"
         }
       ],
-      "howTitle": "圣代如何为多品牌集团运作",
+      "howTitle": "Sundae如何为多品牌集团运作",
       "howDescription": "产品组合真相、品牌对比基准、集团层面的战略信号。",
       "howSundaeHelps": [
         {
           "title": "产品组合汇总，逐个品牌",
           "description": "每个品牌、地区和概念的实时收入、利润率、劳动力——具有一致的定义，因此比较确实有意义。",
-          "product": "圣代核心 + 豆类",
-          "icon": "图表"
+          "product": "Sundae Core + Pulse",
+          "icon": "chart"
         },
         {
           "title": "整个品牌的内部基准",
           "description": "品牌 B 与品牌 A 的劳动生产率比较。品牌 C 在 RevPASH 上与市场同行进行比较。集团办公室应该进行的对话。",
-          "product": "基准测试",
-          "icon": "标杆管理"
+          "product": "Benchmarks",
+          "icon": "benchmarking"
         },
         {
           "title": "跨品牌实践转移",
-          "description": "品牌 A 的有效方法会在几天内传播到品牌 B，而不是每季度异地传播一次。交叉智能发现模式，圣代则路线它。",
+          "description": "品牌 A 的有效方法会在几天内传播到品牌 B，而不是每季度异地传播一次。交叉智能发现模式，Sundae则路线它。 (Cross-Intelligence)",
           "product": "Cross-Intelligence",
-          "icon": "智力"
+          "icon": "intelligence"
         },
         {
           "title": "集团层面的战略预测",
-          "description": "Foresight 预计每个品牌和整个产品组合的 EBITDA。对新市场、概念或资本支出承诺进行假设分析。",
-          "product": "远见",
-          "icon": "预测"
+          "description": "Foresight 预计每个品牌和整个产品组合的 EBITDA。对新市场、概念或CapEx承诺进行假设分析。",
+          "product": "Foresight",
+          "icon": "forecasting"
         }
       ],
       "outcomesTitle": "集团办公室有哪些变化",
@@ -860,26 +860,26 @@ export const generatedLocalCopy = {
         {
           "title": "作为投资组合而非品牌组合进行管理",
           "description": "每个品牌的指标都相同。资本、人才和注意力都流向能获得最高回报的地方。",
-          "icon": "速度"
+          "icon": "speed"
         },
         {
           "title": "品牌与品牌之间的比较是成立的",
           "description": "内部同行基准将品牌评价从轶事变成证据。",
-          "icon": "表现"
+          "icon": "performance"
         },
         {
           "title": "集团范围内的最佳实践",
-          "description": "交叉情报加速了跨品牌线的运作——而不是季度知识转移。",
-          "icon": "业主"
+          "description": "交叉情报加速了跨品牌线的运作——而不是季度知识转移。 (Cross-Intelligence)",
+          "icon": "owners"
         },
         {
           "title": "基于预测的资本配置",
           "description": "按品牌划分的 EBITDA 预测可告知在何处投资、在何处放缓、在何处退出。",
-          "icon": "支持"
+          "icon": "support"
         }
       ],
       "ctaTitle": "查看您的每个品牌的产品组合。",
-      "ctaDescription": "30分钟。你的团体。您无法从任何一份损益表中获得品牌与品牌之间的洞察。",
+      "ctaDescription": "30 minutes. Your group. The brand-vs-brand insight you couldn't get from any one P&L.",
       "ctaButton": "预约团体演练"
     },
     "tr": {
@@ -895,23 +895,23 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Her marka kendi yöntemini bildirir",
-          "description": "Tost'ta A Markası, Kare'de B Markası, Işık Hızı'nda C Markası. Grup ofisi uzlaştırmayı elle yapıyor ya da yapmıyor.",
-          "icon": "entegrasyon"
+          "description": "Toast'ta A Markası, Square'de B Markası, Işık Hızı'nda C Markası. Grup ofisi uzlaştırmayı elle yapıyor ya da yapmıyor. (Lightspeed)",
+          "icon": "integration"
         },
         {
           "title": "Marka-marka karşılaştırması yok",
           "description": "Bağlam olmadan B Markasının emek yüzdesinin iyi mi yoksa kötü mü olduğunu anlayamazsınız. Dahili kıyaslamalar konuşmayı değiştirecektir.",
-          "icon": "denge"
+          "icon": "balance"
         },
         {
           "title": "En iyi işletim uygulaması tek markada kalır",
           "description": "Marka A öğle yemeği cirosunu hesapladı. B markası hala mücadele ediyor. Know-how hiçbir zaman marka çizgisini aşmaz.",
-          "icon": "destek"
+          "icon": "support"
         },
         {
-          "title": "Grup stratejisi aylık kâr ve zarara tepki veriyor",
+          "title": "Group strategy reacts to monthly P&L",
           "description": "Marka yatırımı, pazara giriş, format kararlarının tümü canlı sinyale değil, Q+1 verilerine göre belirlenir.",
-          "icon": "performans"
+          "icon": "performance"
         }
       ],
       "howTitle": "Sundae çok markalı gruplar için nasıl çalışır?",
@@ -920,26 +920,26 @@ export const generatedLocalCopy = {
         {
           "title": "Portföy toplama, marka bazında",
           "description": "Karşılaştırmanın aslında bir anlam ifade etmesi için tutarlı tanımlarla her marka, bölge ve konseptte canlı gelir, marj ve işçilik.",
-          "product": "Dondurma Çekirdeği + Darbe",
-          "icon": "grafik"
+          "product": "Sundae Core + Pulse",
+          "icon": "chart"
         },
         {
           "title": "Markalarınız genelinde dahili karşılaştırmalar",
           "description": "Emek verimliliği konusunda Marka B ve Marka A. RevPASH'te C Markası ile pazardaki benzerleri karşılaştırıldığında. Grup ofisinin yapması gereken konuşmalar.",
-          "product": "Karşılaştırmalar",
-          "icon": "kıyaslama"
+          "product": "Benchmarks",
+          "icon": "benchmarking"
         },
         {
           "title": "Markalar arası uygulama aktarımı",
-          "description": "A Markasında işe yarayan şey, üç ayda bir saha dışında değil, birkaç gün içinde Marka B'ye yayılır. Çapraz İstihbarat modeli bulur, Sundae onu yönlendirir.",
+          "description": "A Markasında işe yarayan şey, üç ayda bir saha dışında değil, birkaç gün içinde Marka B'ye yayılır. Çapraz İstihbarat modeli bulur, Sundae onu yönlendirir. (Cross-Intelligence)",
           "product": "Cross-Intelligence",
-          "icon": "istihbarat"
+          "icon": "intelligence"
         },
         {
           "title": "Grup düzeyinde stratejik tahmin",
-          "description": "Öngörü projeleri marka başına ve portföy genelinde FAVÖK'tür. Yeni bir pazarda, bir konseptte veya bir Yatırım Harcama Taahhüdünde What-If'i çalıştırın.",
-          "product": "Öngörü",
-          "icon": "tahmin"
+          "description": "Foresight projeleri marka başına ve portföy genelinde FAVÖK'tür. Yeni bir pazarda, bir konseptte veya bir Yatırım Harcama Taahhüdünde What-If'i çalıştırın. (EBITDA) (CapEx)",
+          "product": "Foresight",
+          "icon": "forecasting"
         }
       ],
       "outcomesTitle": "Grup ofisi için ne gibi değişiklikler",
@@ -948,22 +948,22 @@ export const generatedLocalCopy = {
         {
           "title": "Marka portföyü olarak değil, portföy olarak yönetin",
           "description": "Her markada aynı ölçümler. Sermaye, yetenek ve dikkat, en yüksek getiriyi elde ettikleri yere gider.",
-          "icon": "hız"
+          "icon": "speed"
         },
         {
           "title": "Geçerli olan marka-marka karşılaştırması",
           "description": "Dahili akran kıyaslamaları, marka incelemelerini anekdottan kanıta dönüştürür.",
-          "icon": "performans"
+          "icon": "performance"
         },
         {
           "title": "Grup çapında en iyi uygulama",
-          "description": "Çapraz Zeka, üç ayda bir bilgi aktarımı yerine marka hatları genelinde işe yarayan işlemleri hızlandırır.",
-          "icon": "sahipleri"
+          "description": "Çapraz Zeka, üç ayda bir bilgi aktarımı yerine marka hatları genelinde işe yarayan işlemleri hızlandırır. (Cross-Intelligence)",
+          "icon": "owners"
         },
         {
           "title": "Tahmine dayalı sermaye tahsisi",
-          "description": "Markaya göre FAVÖK projeksiyonları nereye yatırım yapılacağı, nereye yavaşlanacağı ve nereden çıkılacağı konusunda bilgi veriyor.",
-          "icon": "destek"
+          "description": "EBITDA projections by brand inform where to invest, where to slow, where to exit.",
+          "icon": "support"
         }
       ],
       "ctaTitle": "Her markadaki portföyünüzü görün.",
@@ -974,7 +974,7 @@ export const generatedLocalCopy = {
       "badge": "बहु-स्थान समूहों के लिए",
       "titleLine1": "एक मंच.",
       "titleLine2": "हर ब्रांड. हर बाज़ार.",
-      "description": "ब्रांडों, क्षेत्रों और अवधारणाओं में पोर्टफोलियो रोलअप। ब्रांड-बनाम-ब्रांड बेंचमार्क। आपके समूह को रणनीतिक दृश्य किसी एक पीओएस से नहीं मिल सकता है।",
+      "description": "ब्रांडों, क्षेत्रों और अवधारणाओं में पोर्टफोलियो रोलअप। ब्रांड-बनाम-ब्रांड बेंचमार्क। आपके समूह को रणनीतिक दृश्य किसी एक POS से नहीं मिल सकता है।",
       "primaryCta": "ग्रुप वॉक-थ्रू बुक करें",
       "secondaryCta": "ग्रुप डेमो देखें",
       "problemsEyebrow": "जहां समूह उत्तोलन खो देता है",
@@ -983,51 +983,51 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "प्रत्येक ब्रांड अपने तरीके से रिपोर्ट करता है",
-          "description": "टोस्ट पर ब्रांड ए, स्क्वायर पर ब्रांड बी, लाइटस्पीड पर ब्रांड सी। समूह कार्यालय हाथ से समाधान करता है - या नहीं।",
-          "icon": "एकीकरण"
+          "description": "Toast पर ब्रांड ए, स्क्वायर पर ब्रांड बी, Lightspeed पर ब्रांड सी। समूह कार्यालय हाथ से समाधान करता है - या नहीं। (Square)",
+          "icon": "integration"
         },
         {
           "title": "कोई ब्रांड-बनाम-ब्रांड तुलना नहीं",
           "description": "बिना संदर्भ के आप यह नहीं बता सकते कि ब्रांड बी का श्रम प्रतिशत अच्छा है या बुरा। आंतरिक बेंचमार्क बातचीत को बदल देंगे।",
-          "icon": "संतुलन"
+          "icon": "balance"
         },
         {
           "title": "सर्वोत्तम परिचालन अभ्यास एक ब्रांड में रहता है",
           "description": "ब्रांड ए ने लंच टर्नओवर का पता लगाया। ब्रांड बी अभी भी संघर्ष कर रहा है। तकनीकी जानकारी कभी भी ब्रांड सीमा को पार नहीं करती।",
-          "icon": "समर्थन"
+          "icon": "support"
         },
         {
           "title": "समूह रणनीति मासिक P&L पर प्रतिक्रिया करती है",
           "description": "ब्रांड निवेश, बाज़ार में प्रवेश, प्रारूप निर्णय - सभी Q+1 डेटा द्वारा संचालित होते हैं, लाइव सिग्नल से नहीं।",
-          "icon": "प्रदर्शन"
+          "icon": "performance"
         }
       ],
-      "howTitle": "संडे मल्टी-ब्रांड समूहों के लिए कैसे काम करता है",
+      "howTitle": "Sundae मल्टी-ब्रांड समूहों के लिए कैसे काम करता है",
       "howDescription": "पोर्टफोलियो सच्चाई, ब्रांड-बनाम-ब्रांड बेंचमार्क, समूह-स्तरीय रणनीतिक संकेत।",
       "howSundaeHelps": [
         {
           "title": "पोर्टफोलियो रोलअप, ब्रांड-दर-ब्रांड",
           "description": "हर ब्रांड, क्षेत्र और अवधारणा में लाइव राजस्व, मार्जिन, श्रम - सुसंगत परिभाषाओं के साथ इसलिए तुलना का वास्तव में कुछ मतलब है।",
-          "product": "संडे कोर + पल्स",
-          "icon": "चार्ट"
+          "product": "Sundae Core + Pulse",
+          "icon": "chart"
         },
         {
           "title": "आपके ब्रांडों में आंतरिक बेंचमार्क",
           "description": "श्रम उत्पादकता पर ब्रांड बी बनाम ब्रांड ए। RevPASH पर ब्रांड C बनाम बाज़ार के साथी। समूह कार्यालय में जो बातचीत होनी चाहिए।",
-          "product": "बेंचमार्क",
-          "icon": "बेंचमार्किंग"
+          "product": "Benchmarks",
+          "icon": "benchmarking"
         },
         {
           "title": "क्रॉस-ब्रांड अभ्यास स्थानांतरण",
-          "description": "ब्रांड ए में जो काम कर रहा है वह कुछ ही दिनों में ब्रांड बी में प्रसारित हो जाता है, त्रैमासिक ऑफ-साइट पर नहीं। क्रॉस-इंटेलिजेंस पैटर्न ढूंढता है, संडे उसे रूट करता है।",
+          "description": "ब्रांड ए में जो काम कर रहा है वह कुछ ही दिनों में ब्रांड बी में प्रसारित हो जाता है, त्रैमासिक ऑफ-साइट पर नहीं। Cross-Intelligence पैटर्न ढूंढता है, Sundae उसे रूट करता है।",
           "product": "Cross-Intelligence",
-          "icon": "बुद्धि"
+          "icon": "intelligence"
         },
         {
           "title": "समूह स्तर पर रणनीतिक पूर्वानुमान",
-          "description": "दूरदर्शिता प्रति ब्रांड और संपूर्ण पोर्टफोलियो में EBITDA का अनुमान लगाती है। किसी नए बाज़ार, अवधारणा या CapEx प्रतिबद्धता पर व्हाट-इफ़ चलाएँ।",
-          "product": "दूरदर्शिता",
-          "icon": "पूर्वानुमान"
+          "description": "दूरदर्शिता प्रति ब्रांड और संपूर्ण पोर्टफोलियो में EBITDA का अनुमान लगाती है। किसी नए बाज़ार, अवधारणा या CapEx प्रतिबद्धता पर व्हाट-इफ़ चलाएँ। (Foresight)",
+          "product": "Foresight",
+          "icon": "forecasting"
         }
       ],
       "outcomesTitle": "समूह कार्यालय के लिए क्या परिवर्तन",
@@ -1036,22 +1036,22 @@ export const generatedLocalCopy = {
         {
           "title": "पोर्टफोलियो के रूप में प्रबंधित करें, ब्रांडों के पोर्टफोलियो के रूप में नहीं",
           "description": "हर ब्रांड में समान मेट्रिक्स। पूंजी, प्रतिभा और ध्यान वहां जाते हैं जहां वे सबसे अधिक रिटर्न कमाते हैं।",
-          "icon": "गति"
+          "icon": "speed"
         },
         {
           "title": "ब्रांड-बनाम-ब्रांड तुलना जो कायम रखती है",
           "description": "आंतरिक सहकर्मी बेंचमार्क ब्रांड समीक्षाओं को उपाख्यान से साक्ष्य में बदल देते हैं।",
-          "icon": "प्रदर्शन"
+          "icon": "performance"
         },
         {
           "title": "समूह-व्यापी सर्वोत्तम अभ्यास",
-          "description": "क्रॉस-इंटेलिजेंस त्रैमासिक ज्ञान हस्तांतरण के बजाय ब्रांड लाइनों में काम को गति देता है।",
-          "icon": "मालिक"
+          "description": "Cross-Intelligence त्रैमासिक ज्ञान हस्तांतरण के बजाय ब्रांड लाइनों में काम को गति देता है।",
+          "icon": "owners"
         },
         {
           "title": "पूर्वानुमान के आधार पर पूंजी आवंटन",
           "description": "ब्रांड द्वारा EBITDA अनुमान बताते हैं कि कहां निवेश करना है, कहां धीमा करना है, कहां से बाहर निकलना है।",
-          "icon": "समर्थन"
+          "icon": "support"
         }
       ],
       "ctaTitle": "प्रत्येक ब्रांड में अपना पोर्टफोलियो देखें।",
@@ -1077,17 +1077,17 @@ export const generatedLocalCopy = {
         {
           "title": "Ingen jämförelse mellan varumärke och varumärke",
           "description": "Du kan inte avgöra om Brand B:s arbetsprocent är bra eller dåligt utan sammanhang. Interna riktmärken skulle förändra konversationen.",
-          "icon": "balans"
+          "icon": "balance"
         },
         {
           "title": "Bästa driftpraxis förblir i ett varumärke",
           "description": "Brand A räknade ut lunchomsättningen. Märke B kämpar fortfarande. Kunskapen går aldrig över varumärkesgränsen.",
-          "icon": "stöd"
+          "icon": "support"
         },
         {
-          "title": "Koncernstrategin reagerar på månatliga resultat",
+          "title": "Group strategy reacts to monthly P&L",
           "description": "Varumärkesinvesteringar, marknadsinträde, formatbeslut – allt drivs av Q+1-data, inte livesignal.",
-          "icon": "prestanda"
+          "icon": "performance"
         }
       ],
       "howTitle": "Hur Sundae fungerar för grupper med flera varumärken",
@@ -1096,26 +1096,26 @@ export const generatedLocalCopy = {
         {
           "title": "Portföljsammanställning, varumärke för varumärke",
           "description": "Levande intäkter, marginal, arbetskraft över alla varumärken, regioner och koncept – med konsekventa definitioner så att jämförelsen faktiskt betyder något.",
-          "product": "Sundae Core + Puls",
-          "icon": "diagram"
+          "product": "Sundae Core + Pulse",
+          "icon": "chart"
         },
         {
           "title": "Interna riktmärken för dina varumärken",
           "description": "Varumärke B vs varumärke A på arbetsproduktivitet. Varumärke C kontra marknadskollegor på RevPASH. De samtal gruppkontoret ska ha.",
-          "product": "Riktmärken",
+          "product": "Benchmarks",
           "icon": "benchmarking"
         },
         {
           "title": "Överföring av praktik över varumärken",
           "description": "Det som fungerar på varumärke A sprider sig till varumärke B på dagar, inte kvartalsvis utanför webbplatser. Cross-Intelligence hittar mönstret, Sundae leder det.",
           "product": "Cross-Intelligence",
-          "icon": "intelligens"
+          "icon": "intelligence"
         },
         {
           "title": "Strategisk prognos på koncernnivå",
           "description": "Foresight projicerar EBITDA per varumärke och över hela portföljen. Kör what-if på en ny marknad, ett koncept eller ett CapEx-åtagande.",
-          "product": "Framsynthet",
-          "icon": "prognoser"
+          "product": "Foresight",
+          "icon": "forecasting"
         }
       ],
       "outcomesTitle": "Vad förändras för koncernkontoret",
@@ -1124,22 +1124,22 @@ export const generatedLocalCopy = {
         {
           "title": "Hantera som en portfölj, inte en portfölj av varumärken",
           "description": "Samma statistik över alla varumärken. Kapital, talang och uppmärksamhet går dit de tjänar högst avkastning.",
-          "icon": "hastighet"
+          "icon": "speed"
         },
         {
           "title": "Jämförelse mellan varumärke och varumärke som håller",
           "description": "Interna peer-riktmärken förvandlar varumärkesrecensioner från anekdot till bevis.",
-          "icon": "prestanda"
+          "icon": "performance"
         },
         {
           "title": "Koncernövergripande bästa praxis",
           "description": "Cross-Intelligence accelererar det som fungerar över varumärkeslinjer – istället för kvartalsvis kunskapsöverföring.",
-          "icon": "ägare"
+          "icon": "owners"
         },
         {
           "title": "Kapitalallokering grundad i prognos",
           "description": "EBITDA-prognoser per varumärke informerar om var man ska investera, var man ska bromsa, var man ska gå ur.",
-          "icon": "stöd"
+          "icon": "support"
         }
       ],
       "ctaTitle": "Se din portfölj över alla varumärken.",
@@ -1160,50 +1160,50 @@ export const generatedLocalCopy = {
         {
           "title": "各ブランドが独自の方法でレポートします",
           "description": "Toast ではブランド A、Square ではブランド B、Lightspeed ではブランド C。グループオフィスは手動で調整するか、または調整しません。",
-          "icon": "統合"
+          "icon": "integration"
         },
         {
           "title": "ブランドとブランドの比較はありません",
           "description": "ブランド B の労働率が良いか悪いかは、文脈がなければ判断できません。社内ベンチマークがあれば話は変わるだろう。",
-          "icon": "バランス"
+          "icon": "balance"
         },
         {
           "title": "ベストな運用慣行は 1 つのブランドにとどまる",
           "description": "ブランド A はランチの売上高を計算しました。ブランドBは依然として苦戦している。ノウハウはブランドの枠を越えることはありません。",
-          "icon": "サポート"
+          "icon": "support"
         },
         {
-          "title": "グループ戦略は毎月の損益に反応します",
+          "title": "Group strategy reacts to monthly P&L",
           "description": "ブランドへの投資、市場参入、フォーマットの決定はすべて、ライブシグナルではなく Q+1 データによって推進されます。",
-          "icon": "パフォーマンス"
+          "icon": "performance"
         }
       ],
-      "howTitle": "マルチブランド グループにおけるサンデーの仕組み",
+      "howTitle": "マルチブランド グループにおけるSundaeの仕組み",
       "howDescription": "ポートフォリオの真実、ブランド対ブランドのベンチマーク、グループレベルの戦略的シグナル。",
       "howSundaeHelps": [
         {
           "title": "ブランドごとのポートフォリオのロールアップ",
           "description": "あらゆるブランド、地域、コンセプトにわたる実際の収益、マージン、労働力を一貫した定義で把握できるため、比較には実際に意味があります。",
-          "product": "サンデーコア+パルス",
-          "icon": "チャート"
+          "product": "Sundae Core + Pulse",
+          "icon": "chart"
         },
         {
           "title": "ブランド全体の内部ベンチマーク",
           "description": "労働生産性に関するブランド B とブランド A の比較。 RevPASH におけるブランド C と競合他社の比較。グループオフィスが行うべき会話。",
-          "product": "ベンチマーク",
-          "icon": "ベンチマーク"
+          "product": "Benchmarks",
+          "icon": "benchmarking"
         },
         {
           "title": "ブランド間での業務移管",
           "description": "ブランド A で機能しているものは、四半期ごとのオフサイトではなく、数日でブランド B に伝播します。 Cross-Intelligence がパターンを見つけ、Sundae がそれをルーティングします。",
           "product": "Cross-Intelligence",
-          "icon": "知性"
+          "icon": "intelligence"
         },
         {
           "title": "グループレベルでの戦略的予測",
-          "description": "Foresight は、ブランドごとおよびポートフォリオ全体の EBITDA を予測します。新しい市場、コンセプト、または設備投資のコミットメントについて、仮定を実行します。",
-          "product": "先見の明",
-          "icon": "予測する"
+          "description": "Foresight は、ブランドごとおよびポートフォリオ全体の EBITDA を予測します。新しい市場、コンセプト、または設備投資のコミットメントについて、仮定を実行します。 (CapEx)",
+          "product": "Foresight",
+          "icon": "forecasting"
         }
       ],
       "outcomesTitle": "グループオフィスの変化",
@@ -1212,26 +1212,26 @@ export const generatedLocalCopy = {
         {
           "title": "ブランドのポートフォリオではなく、ポートフォリオとして管理する",
           "description": "どのブランドでも同じ指標。資本、才能、注目は、最も高い利益が得られるところに注ぎ込まれます。",
-          "icon": "速度"
+          "icon": "speed"
         },
         {
           "title": "当てはまるブランドとブランドの比較",
           "description": "社内の同業者ベンチマークにより、ブランド レビューが逸話から証拠に変わります。",
-          "icon": "パフォーマンス"
+          "icon": "performance"
         },
         {
           "title": "グループ全体のベストプラクティス",
-          "description": "クロスインテリジェンスは、四半期ごとの知識の伝達ではなく、ブランドライン全体で機能するものを加速します。",
-          "icon": "所有者"
+          "description": "Cross-Intelligenceは、四半期ごとの知識の伝達ではなく、ブランドライン全体で機能するものを加速します。",
+          "icon": "owners"
         },
         {
           "title": "予測に基づいた資本配分",
           "description": "ブランド別のEBITDA予測は、どこに投資するか、どこに減速するか、どこに撤退するかを示します。",
-          "icon": "サポート"
+          "icon": "support"
         }
       ],
       "ctaTitle": "すべてのブランドのポートフォリオを確認してください。",
-      "ctaDescription": "30分。あなたのグループ。単一の損益計算書からは得られなかったブランド対ブランドの洞察。",
+      "ctaDescription": "30 minutes. Your group. The brand-vs-brand insight you couldn't get from any one P&L.",
       "ctaButton": "グループウォークスルーを予約する"
     },
     "ro": {
@@ -1248,22 +1248,22 @@ export const generatedLocalCopy = {
         {
           "title": "Fiecare marcă își raportează propriul mod",
           "description": "Marca A pe Toast, Marca B pe Square, Marca C pe Lightspeed. Biroul grupului reconciliază manual - sau nu.",
-          "icon": "integrare"
+          "icon": "integration"
         },
         {
           "title": "Nicio comparație între marcă și marcă",
           "description": "Nu puteți spune dacă procentul de muncă al mărcii B este bun sau rău fără context. Benchmark-urile interne ar schimba conversația.",
-          "icon": "echilibru"
+          "icon": "balance"
         },
         {
           "title": "Cele mai bune practici de operare rămân într-un singur brand",
           "description": "Brand A și-a dat seama de cifra de afaceri pentru prânz. Marca B încă se luptă. Know-how-ul nu trece niciodată de linia mărcii.",
-          "icon": "sprijin"
+          "icon": "support"
         },
         {
           "title": "Strategia grupului reacționează la P&L lunar",
           "description": "Investiția în marcă, intrarea pe piață, deciziile de format — toate sunt determinate de date Q+1, nu de semnal live.",
-          "icon": "performanta"
+          "icon": "performance"
         }
       ],
       "howTitle": "Cum funcționează Sundae pentru grupuri cu mai multe mărci",
@@ -1273,25 +1273,25 @@ export const generatedLocalCopy = {
           "title": "Pachetul de portofoliu, marcă cu marcă",
           "description": "Venituri reale, marjă, forță de muncă pentru fiecare marcă, regiune și concept - cu definiții coerente, astfel încât comparația să însemne de fapt ceva.",
           "product": "Sundae Core + Pulse",
-          "icon": "grafic"
+          "icon": "chart"
         },
         {
           "title": "Benchmark-uri interne pentru mărcile dvs",
           "description": "Marca B vs Brand A privind productivitatea muncii. Marca C față de colegii de pe piață pe RevPASH. Conversațiile pe care biroul grupului ar trebui să le aibă.",
-          "product": "Benchmark-uri",
+          "product": "Benchmarks",
           "icon": "benchmarking"
         },
         {
           "title": "Transfer de practică între mărci",
           "description": "Ceea ce funcționează la Brand A se propagă la Brand B în zile, nu trimestrial în afara site-urilor. Cross-Intelligence găsește modelul, Sundae îl direcționează.",
           "product": "Cross-Intelligence",
-          "icon": "inteligenţă"
+          "icon": "intelligence"
         },
         {
           "title": "Prognoza strategică la nivel de grup",
           "description": "Foresight proiectează EBITDA pe marcă și pe întreg portofoliul. Rulați ce se întâmplă dacă pe o piață nouă, un concept sau un angajament de CapEx.",
-          "product": "Previziune",
-          "icon": "prognoza"
+          "product": "Foresight",
+          "icon": "forecasting"
         }
       ],
       "outcomesTitle": "Ce se schimbă pentru biroul grupului",
@@ -1300,22 +1300,22 @@ export const generatedLocalCopy = {
         {
           "title": "Gestionați ca un portofoliu, nu un portofoliu de mărci",
           "description": "Aceleași valori pentru fiecare marcă. Capitalul, talentul și atenția merg acolo unde câștigă cel mai mare profit.",
-          "icon": "viteza"
+          "icon": "speed"
         },
         {
           "title": "Comparație între marcă și marcă care este valabilă",
           "description": "Criteriile de referință interne transformă recenziile mărcii din anecdotă în dovezi.",
-          "icon": "performanta"
+          "icon": "performance"
         },
         {
           "title": "Cele mai bune practici la nivel de grup",
           "description": "Cross-Intelligence accelerează ceea ce funcționează pe liniile de brand - în loc de transferul trimestrial de cunoștințe.",
-          "icon": "proprietarii"
+          "icon": "owners"
         },
         {
           "title": "Alocarea capitalului bazată pe prognoză",
           "description": "Proiecțiile EBITDA în funcție de marcă informează unde să investești, unde să încetinești, unde să ieși.",
-          "icon": "sprijin"
+          "icon": "support"
         }
       ],
       "ctaTitle": "Vedeți-vă portofoliul pentru fiecare marcă.",
@@ -1336,50 +1336,50 @@ export const generatedLocalCopy = {
         {
           "title": "각 브랜드는 자신만의 방식으로 보고합니다.",
           "description": "Toast의 A 브랜드, Square의 B 브랜드, Lightspeed의 브랜드 C. 그룹 사무실은 직접 조정하거나 그렇지 않습니다.",
-          "icon": "통합"
+          "icon": "integration"
         },
         {
           "title": "브랜드 대 브랜드 비교 없음",
           "description": "브랜드 B의 노동력 %는 맥락 없이는 좋은지 나쁜지 알 수 없습니다. 내부 벤치마크는 대화를 바꿀 것입니다.",
-          "icon": "균형"
+          "icon": "balance"
         },
         {
           "title": "최고의 운영 관행은 하나의 브랜드에 유지됩니다.",
           "description": "브랜드 A는 점심 매출을 파악했습니다. B 브랜드는 여전히 어려움을 겪고 있습니다. 노하우는 결코 브랜드 라인을 넘지 않습니다.",
-          "icon": "지원하다"
+          "icon": "support"
         },
         {
-          "title": "그룹 전략은 월간 손익에 반응합니다.",
+          "title": "Group strategy reacts to monthly P&L",
           "description": "브랜드 투자, 시장 진입, 형식 결정 등 모두 실시간 신호가 아닌 Q+1 데이터를 기반으로 합니다.",
-          "icon": "성능"
+          "icon": "performance"
         }
       ],
-      "howTitle": "멀티 브랜드 그룹에서 순대가 작동하는 방식",
+      "howTitle": "How Sundae works for multi-brand groups",
       "howDescription": "포트폴리오 진실, 브랜드 대 브랜드 벤치마크, 그룹 수준의 전략적 신호.",
       "howSundaeHelps": [
         {
           "title": "브랜드별 포트폴리오 롤업",
           "description": "모든 브랜드, 지역 및 컨셉에 걸쳐 실시간 수익, 이윤, 노동력이 일관되게 정의되므로 비교가 실제로 의미가 있습니다.",
-          "product": "순대코어 + 펄스",
-          "icon": "차트"
+          "product": "Sundae Core + Pulse",
+          "icon": "chart"
         },
         {
           "title": "브랜드 전반에 걸친 내부 벤치마크",
           "description": "노동 생산성에 관한 브랜드 B 대 브랜드 A. RevPASH의 브랜드 C 대 시장 동료. 그룹 사무실에서 해야 할 대화입니다.",
-          "product": "벤치마크",
-          "icon": "벤치마킹"
+          "product": "Benchmarks",
+          "icon": "benchmarking"
         },
         {
           "title": "브랜드 간 실무 이전",
           "description": "브랜드 A에서 작동하는 내용은 분기별 오프 사이트가 아닌 며칠 만에 브랜드 B로 전파됩니다. Cross-Intelligence가 패턴을 찾고, Sundae가 이를 라우팅합니다.",
           "product": "Cross-Intelligence",
-          "icon": "지능"
+          "icon": "intelligence"
         },
         {
           "title": "그룹 차원의 전략적 예측",
           "description": "Foresight는 브랜드별 및 포트폴리오 전반에 걸쳐 EBITDA를 예측합니다. 새로운 시장, 개념 또는 CapEx 약속에 대해 가정(what-if)을 실행하세요.",
-          "product": "선견지명",
-          "icon": "예측"
+          "product": "Foresight",
+          "icon": "forecasting"
         }
       ],
       "outcomesTitle": "그룹 오피스에는 어떤 변화가 있나요?",
@@ -1388,26 +1388,26 @@ export const generatedLocalCopy = {
         {
           "title": "브랜드 포트폴리오가 아닌 포트폴리오로 관리",
           "description": "모든 브랜드에서 동일한 측정항목을 사용합니다. 자본, 재능, 관심은 가장 높은 수익을 얻는 곳으로 이동합니다.",
-          "icon": "속도"
+          "icon": "speed"
         },
         {
           "title": "브랜드 대 브랜드 비교",
           "description": "내부 동료 벤치마크는 브랜드 리뷰를 일화에서 증거로 바꿔줍니다.",
-          "icon": "성능"
+          "icon": "performance"
         },
         {
           "title": "그룹 차원의 모범 사례",
           "description": "Cross-Intelligence는 분기별 지식 이전 대신 브랜드 라인 전반에 걸쳐 작동하는 작업을 가속화합니다.",
-          "icon": "소유자"
+          "icon": "owners"
         },
         {
           "title": "예측에 근거한 자본 배분",
           "description": "브랜드별 EBITDA 예측은 투자할 곳, 둔화할 곳, 종료할 곳을 알려줍니다.",
-          "icon": "지원하다"
+          "icon": "support"
         }
       ],
       "ctaTitle": "모든 브랜드의 포트폴리오를 확인하세요.",
-      "ctaDescription": "30분. 귀하의 그룹. 어떤 손익에서도 얻을 수 없는 브랜드 대 브랜드 통찰력.",
+      "ctaDescription": "30 minutes. Your group. The brand-vs-brand insight you couldn't get from any one P&L.",
       "ctaButton": "그룹 워크스루 예약"
     },
     "id": {
@@ -1423,23 +1423,23 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Setiap merek melaporkan dengan caranya sendiri",
-          "description": "Merek A pada Toast, Merek B pada Kotak, Merek C pada Lightspeed. Kantor kelompok melakukan rekonsiliasi secara manual — atau tidak.",
-          "icon": "integrasi"
+          "description": "Merek A pada Toast, Merek B pada Kotak, Merek C pada Lightspeed. Kantor kelompok melakukan rekonsiliasi secara manual — atau tidak. (Square)",
+          "icon": "integration"
         },
         {
           "title": "Tidak ada perbandingan merek vs merek",
           "description": "Anda tidak dapat mengetahui apakah % tenaga kerja Merek B baik atau buruk tanpa konteks. Tolok ukur internal akan mengubah pembicaraan.",
-          "icon": "keseimbangan"
+          "icon": "balance"
         },
         {
           "title": "Praktik pengoperasian terbaik tetap pada satu merek",
           "description": "Merek A mengetahui perputaran makan siang. Merek B masih berjuang. Pengetahuannya tidak pernah melampaui batas merek.",
-          "icon": "dukungan"
+          "icon": "support"
         },
         {
-          "title": "Strategi grup bereaksi terhadap laba dan rugi bulanan",
+          "title": "Group strategy reacts to monthly P&L",
           "description": "Investasi merek, masuknya pasar, keputusan format — semuanya didorong oleh data Q+1, bukan sinyal langsung.",
-          "icon": "kinerja"
+          "icon": "performance"
         }
       ],
       "howTitle": "Cara Sundae bekerja untuk grup multi-merek",
@@ -1448,26 +1448,26 @@ export const generatedLocalCopy = {
         {
           "title": "Penggabungan portofolio, merek demi merek",
           "description": "Pendapatan nyata, margin, tenaga kerja di setiap merek, wilayah, dan konsep — dengan definisi yang konsisten sehingga perbandingannya benar-benar bermakna.",
-          "product": "Inti Sundae + Pulsa",
-          "icon": "bagan"
+          "product": "Sundae Core + Pulse",
+          "icon": "chart"
         },
         {
           "title": "Tolok ukur internal di seluruh merek Anda",
           "description": "Merek B vs Merek A pada produktivitas tenaga kerja. Merek C vs rekan pasar di RevPASH. Percakapan yang seharusnya dilakukan oleh kantor kelompok.",
-          "product": "Tolok ukur",
-          "icon": "pembandingan"
+          "product": "Benchmarks",
+          "icon": "benchmarking"
         },
         {
           "title": "Transfer praktik lintas merek",
-          "description": "Apa yang berhasil di Merek A menyebar ke Merek B dalam hitungan hari, bukan triwulanan di luar lokasi. Lintas Intelijen menemukan polanya, Sundae mengarahkannya.",
+          "description": "Apa yang berhasil di Merek A menyebar ke Merek B dalam hitungan hari, bukan triwulanan di luar lokasi. Lintas Intelijen menemukan polanya, Sundae mengarahkannya. (Cross-Intelligence)",
           "product": "Cross-Intelligence",
-          "icon": "intelijen"
+          "icon": "intelligence"
         },
         {
           "title": "Peramalan strategis di tingkat kelompok",
-          "description": "Pandangan ke depan memproyeksikan EBITDA per merek dan seluruh portofolio. Jalankan bagaimana-jika di pasar, konsep, atau komitmen Belanja Modal yang baru.",
-          "product": "Pandangan ke depan",
-          "icon": "peramalan"
+          "description": "Pandangan ke depan memproyeksikan EBITDA per merek dan seluruh portofolio. Jalankan bagaimana-jika di pasar, konsep, atau komitmen Belanja Modal yang baru. (Foresight) (CapEx)",
+          "product": "Foresight",
+          "icon": "forecasting"
         }
       ],
       "outcomesTitle": "Perubahan apa yang terjadi pada kantor grup",
@@ -1476,22 +1476,22 @@ export const generatedLocalCopy = {
         {
           "title": "Kelola sebagai portofolio, bukan portofolio merek",
           "description": "Metrik yang sama di setiap merek. Modal, bakat, dan perhatian disalurkan ke tempat yang menghasilkan keuntungan tertinggi.",
-          "icon": "kecepatan"
+          "icon": "speed"
         },
         {
           "title": "Perbandingan merek vs merek yang berlaku",
           "description": "Tolok ukur internal rekan mengubah ulasan merek dari anekdot menjadi bukti.",
-          "icon": "kinerja"
+          "icon": "performance"
         },
         {
           "title": "Praktik terbaik di seluruh grup",
           "description": "Cross-Intelligence mempercepat pekerjaan lintas lini merek — alih-alih transfer pengetahuan setiap triwulan.",
-          "icon": "pemilik"
+          "icon": "owners"
         },
         {
           "title": "Alokasi modal didasarkan pada perkiraan",
           "description": "Proyeksi EBITDA berdasarkan merek menginformasikan di mana harus berinvestasi, di mana harus memperlambat, di mana harus keluar.",
-          "icon": "dukungan"
+          "icon": "support"
         }
       ],
       "ctaTitle": "Lihat portofolio Anda di setiap merek.",
@@ -1512,22 +1512,22 @@ export const generatedLocalCopy = {
         {
           "title": "Mỗi thương hiệu báo cáo theo cách riêng của mình",
           "description": "Thương hiệu A trên Toast, Thương hiệu B trên Square, Thương hiệu C trên Lightspeed. Văn phòng nhóm hòa giải bằng tay — hoặc không.",
-          "icon": "hội nhập"
+          "icon": "integration"
         },
         {
           "title": "Không so sánh thương hiệu với thương hiệu",
           "description": "Bạn không thể biết % lao động của Thương hiệu B là tốt hay xấu nếu không có bối cảnh. Điểm chuẩn nội bộ sẽ thay đổi cuộc trò chuyện.",
-          "icon": "cân bằng"
+          "icon": "balance"
         },
         {
           "title": "Thực tiễn vận hành tốt nhất vẫn ở một thương hiệu",
           "description": "Thương hiệu A đã tính toán doanh thu bữa trưa. Thương hiệu B vẫn đang gặp khó khăn. Bí quyết không bao giờ vượt qua ranh giới thương hiệu.",
-          "icon": "hỗ trợ"
+          "icon": "support"
         },
         {
           "title": "Chiến lược nhóm phản ứng với P&L hàng tháng",
           "description": "Đầu tư thương hiệu, gia nhập thị trường, quyết định định dạng - tất cả đều được thúc đẩy bởi dữ liệu Q+1 chứ không phải tín hiệu trực tiếp.",
-          "icon": "hiệu suất"
+          "icon": "performance"
         }
       ],
       "howTitle": "Cách Sundae hoạt động cho các nhóm đa thương hiệu",
@@ -1536,26 +1536,26 @@ export const generatedLocalCopy = {
         {
           "title": "Tổng hợp danh mục đầu tư, theo từng thương hiệu",
           "description": "Doanh thu trực tiếp, lợi nhuận, lao động trên mọi thương hiệu, khu vực và khái niệm — với các định nghĩa nhất quán nên việc so sánh thực sự có ý nghĩa gì đó.",
-          "product": "Sundae lõi + xung",
-          "icon": "biểu đồ"
+          "product": "Sundae Core + Pulse",
+          "icon": "chart"
         },
         {
           "title": "Điểm chuẩn nội bộ trên các thương hiệu của bạn",
           "description": "Thương hiệu B và Thương hiệu A về năng suất lao động. Thương hiệu C so với các đối thủ trên thị trường trên RevPASH. Những cuộc trò chuyện mà văn phòng nhóm nên có.",
-          "product": "Điểm chuẩn",
-          "icon": "điểm chuẩn"
+          "product": "Benchmarks",
+          "icon": "benchmarking"
         },
         {
           "title": "Chuyển giao thực hành đa thương hiệu",
           "description": "Những gì đang hoạt động ở Thương hiệu A sẽ được truyền bá đến Thương hiệu B trong vài ngày chứ không phải hàng quý bên ngoài cơ sở. Cross-Intelligence tìm ra mô hình, Sundae định tuyến nó.",
           "product": "Cross-Intelligence",
-          "icon": "trí thông minh"
+          "icon": "intelligence"
         },
         {
           "title": "Dự báo chiến lược ở cấp độ nhóm",
-          "description": "Tầm nhìn xa dự đoán EBITDA cho mỗi thương hiệu và trên toàn bộ danh mục đầu tư. Chạy what-if trên một thị trường mới, một khái niệm hoặc cam kết CapEx.",
-          "product": "Tầm nhìn xa",
-          "icon": "dự báo"
+          "description": "Tầm nhìn xa dự đoán EBITDA cho mỗi thương hiệu và trên toàn bộ danh mục đầu tư. Chạy what-if trên một thị trường mới, một khái niệm hoặc cam kết CapEx. (Foresight)",
+          "product": "Foresight",
+          "icon": "forecasting"
         }
       ],
       "outcomesTitle": "Văn phòng nhóm có những thay đổi gì",
@@ -1564,22 +1564,22 @@ export const generatedLocalCopy = {
         {
           "title": "Quản lý như một danh mục đầu tư chứ không phải danh mục thương hiệu",
           "description": "Các số liệu giống nhau trên mọi thương hiệu. Vốn, tài năng và sự chú ý sẽ đến nơi họ kiếm được lợi nhuận cao nhất.",
-          "icon": "tốc độ"
+          "icon": "speed"
         },
         {
           "title": "So sánh thương hiệu với thương hiệu",
           "description": "Điểm chuẩn ngang hàng nội bộ biến đánh giá thương hiệu từ giai thoại thành bằng chứng.",
-          "icon": "hiệu suất"
+          "icon": "performance"
         },
         {
           "title": "Phương pháp thực hành tốt nhất trên toàn nhóm",
-          "description": "Trí tuệ chéo tăng tốc những gì hoạt động giữa các dòng thương hiệu — thay vì chuyển giao kiến thức hàng quý.",
-          "icon": "chủ sở hữu"
+          "description": "Trí tuệ chéo tăng tốc những gì hoạt động giữa các dòng thương hiệu — thay vì chuyển giao kiến thức hàng quý. (Cross-Intelligence)",
+          "icon": "owners"
         },
         {
           "title": "Phân bổ vốn dựa trên dự báo",
           "description": "Dự báo EBITDA theo thương hiệu cho biết nên đầu tư vào đâu, chậm lại ở đâu, thoát ra ở đâu.",
-          "icon": "hỗ trợ"
+          "icon": "support"
         }
       ],
       "ctaTitle": "Xem danh mục đầu tư của bạn trên mọi thương hiệu.",
@@ -1599,23 +1599,23 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "প্রতিটি ব্র্যান্ড তার নিজস্ব উপায় রিপোর্ট",
-          "description": "টোস্টে ব্র্যান্ড এ, স্কোয়ারে ব্র্যান্ড বি, লাইটস্পিডে ব্র্যান্ড সি। গ্রুপ অফিস হাত দ্বারা মিলন - বা না.",
-          "icon": "ইন্টিগ্রেশন"
+          "description": "টোস্টে ব্র্যান্ড এ, স্কোয়ারে ব্র্যান্ড বি, লাইটস্পিডে ব্র্যান্ড সি। গ্রুপ অফিস হাত দ্বারা মিলন - বা না. (Toast) (Square) (Lightspeed)",
+          "icon": "integration"
         },
         {
           "title": "কোনো ব্র্যান্ড-বনাম-ব্র্যান্ডের তুলনা নেই",
           "description": "প্রসঙ্গ ছাড়াই ব্র্যান্ড B-এর শ্রম% ভাল বা খারাপ তা আপনি বলতে পারবেন না। অভ্যন্তরীণ বেঞ্চমার্ক কথোপকথন পরিবর্তন করবে।",
-          "icon": "ভারসাম্য"
+          "icon": "balance"
         },
         {
           "title": "সেরা অপারেটিং অনুশীলন একটি ব্র্যান্ডে থাকে",
           "description": "ব্র্যান্ড A লাঞ্চ টার্নওভার বের করেছে। ব্র্যান্ড বি এখনও সংগ্রাম করছে। জ্ঞান কিভাবে ব্র্যান্ড লাইন অতিক্রম করে না.",
-          "icon": "সমর্থন"
+          "icon": "support"
         },
         {
           "title": "গ্রুপ কৌশল মাসিক P&L-এর প্রতি প্রতিক্রিয়া জানায়",
           "description": "ব্র্যান্ড ইনভেস্টমেন্ট, মার্কেট এন্ট্রি, ফরম্যাটের সিদ্ধান্ত — সবই Q+1 ডেটা দ্বারা চালিত, লাইভ সিগন্যাল নয়।",
-          "icon": "কর্মক্ষমতা"
+          "icon": "performance"
         }
       ],
       "howTitle": "কিভাবে Sundae মাল্টি-ব্র্যান্ড গ্রুপের জন্য কাজ করে",
@@ -1624,26 +1624,26 @@ export const generatedLocalCopy = {
         {
           "title": "পোর্টফোলিও রোলআপ, ব্র্যান্ড-বাই-ব্র্যান্ড",
           "description": "প্রতিটি ব্র্যান্ড, অঞ্চল এবং ধারণা জুড়ে লাইভ আয়, মার্জিন, শ্রম — সামঞ্জস্যপূর্ণ সংজ্ঞা সহ তাই তুলনা আসলে কিছু বোঝায়।",
-          "product": "সানডে কোর + পালস",
-          "icon": "চার্ট"
+          "product": "Sundae Core + Pulse",
+          "icon": "chart"
         },
         {
           "title": "আপনার ব্র্যান্ড জুড়ে অভ্যন্তরীণ বেঞ্চমার্ক",
           "description": "শ্রম উৎপাদনশীলতার উপর ব্র্যান্ড বি বনাম ব্র্যান্ড এ। RevPASH-এ ব্র্যান্ড সি বনাম মার্কেট পিয়ার। গ্রুপ অফিসে যে কথোপকথন করা উচিত।",
-          "product": "মানদণ্ড",
-          "icon": "বেঞ্চমার্কিং"
+          "product": "Benchmarks",
+          "icon": "benchmarking"
         },
         {
           "title": "ক্রস-ব্র্যান্ড অনুশীলন স্থানান্তর",
-          "description": "ব্র্যান্ড A-তে যা কাজ করছে তা দিনে দিনে ব্র্যান্ড B-তে প্রচার করে, ত্রৈমাসিক অফ-সাইট নয়। ক্রস-ইনটেলিজেন্স প্যাটার্ন খুঁজে পায়, সানডে এটিকে রুট করে।",
+          "description": "ব্র্যান্ড A-তে যা কাজ করছে তা দিনে দিনে ব্র্যান্ড B-তে প্রচার করে, ত্রৈমাসিক অফ-সাইট নয়। ক্রস-ইনটেলিজেন্স প্যাটার্ন খুঁজে পায়, Sundae এটিকে রুট করে। (Cross-Intelligence)",
           "product": "Cross-Intelligence",
-          "icon": "বুদ্ধিমত্তা"
+          "icon": "intelligence"
         },
         {
           "title": "গ্রুপ পর্যায়ে কৌশলগত পূর্বাভাস",
-          "description": "দূরদর্শিতা প্রজেক্ট প্রতি ব্র্যান্ড এবং পোর্টফোলিও জুড়ে EBITDA। একটি নতুন বাজারে, একটি ধারণা, বা একটি CapEx প্রতিশ্রুতিতে যা-ই হোক চালান৷",
-          "product": "দূরদর্শিতা",
-          "icon": "পূর্বাভাস"
+          "description": "দূরদর্শিতা প্রজেক্ট প্রতি ব্র্যান্ড এবং পোর্টফোলিও জুড়ে EBITDA। একটি নতুন বাজারে, একটি ধারণা, বা একটি CapEx প্রতিশ্রুতিতে যা-ই হোক চালান৷ (Foresight)",
+          "product": "Foresight",
+          "icon": "forecasting"
         }
       ],
       "outcomesTitle": "গ্রুপ অফিসের জন্য কি পরিবর্তন",
@@ -1652,22 +1652,22 @@ export const generatedLocalCopy = {
         {
           "title": "একটি পোর্টফোলিও হিসাবে পরিচালনা করুন, ব্র্যান্ডের পোর্টফোলিও নয়",
           "description": "প্রতিটি ব্র্যান্ড জুড়ে একই মেট্রিক। মূলধন, প্রতিভা, এবং মনোযোগ যেখানে তারা সর্বোচ্চ রিটার্ন অর্জন করে সেখানে যায়।",
-          "icon": "গতি"
+          "icon": "speed"
         },
         {
           "title": "ব্র্যান্ড-বনাম-ব্র্যান্ড তুলনা যে ধারণ করে",
           "description": "অভ্যন্তরীণ পিয়ার বেঞ্চমার্কগুলি ব্র্যান্ড পর্যালোচনাগুলিকে উপাখ্যান থেকে প্রমাণে পরিণত করে।",
-          "icon": "কর্মক্ষমতা"
+          "icon": "performance"
         },
         {
           "title": "গ্রুপ-ব্যাপী সেরা অনুশীলন",
-          "description": "ক্রস-ইনটেলিজেন্স ব্র্যান্ড লাইন জুড়ে যা কাজ করে তা ত্বরান্বিত করে — ত্রৈমাসিক জ্ঞান স্থানান্তরের পরিবর্তে।",
-          "icon": "মালিকদের"
+          "description": "ক্রস-ইনটেলিজেন্স ব্র্যান্ড লাইন জুড়ে যা কাজ করে তা ত্বরান্বিত করে — ত্রৈমাসিক জ্ঞান স্থানান্তরের পরিবর্তে। (Cross-Intelligence)",
+          "icon": "owners"
         },
         {
           "title": "পূর্বাভাসের ভিত্তিতে মূলধন বরাদ্দ",
           "description": "ব্র্যান্ড দ্বারা EBITDA অনুমানগুলি কোথায় বিনিয়োগ করতে হবে, কোথায় ধীরগতি করতে হবে, কোথায় প্রস্থান করতে হবে তা জানায়।",
-          "icon": "সমর্থন"
+          "icon": "support"
         }
       ],
       "ctaTitle": "প্রতিটি ব্র্যান্ড জুড়ে আপনার পোর্টফোলিও দেখুন।",
@@ -1687,23 +1687,23 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "แต่ละแบรนด์ก็รายงานแนวทางของตัวเอง",
-          "description": "แบรนด์ A บนขนมปังปิ้ง, แบรนด์ B บน Square, แบรนด์ C บน Lightspeed สำนักงานกลุ่มจะตกลงกันด้วยมือ — หรือไม่ก็ได้",
-          "icon": "บูรณาการ"
+          "description": "แบรนด์ A บนขนมปังปิ้ง, แบรนด์ B บน Square, แบรนด์ C บน Lightspeed สำนักงานกลุ่มจะตกลงกันด้วยมือ — หรือไม่ก็ได้ (Toast)",
+          "icon": "integration"
         },
         {
           "title": "ไม่มีการเปรียบเทียบแบรนด์กับแบรนด์",
           "description": "คุณไม่สามารถบอกได้ว่า % แรงงานของ Brand B ดีหรือไม่ดีหากไม่มีบริบท เกณฑ์มาตรฐานภายในจะเปลี่ยนการสนทนา",
-          "icon": "ความสมดุล"
+          "icon": "balance"
         },
         {
           "title": "แนวปฏิบัติที่ดีที่สุดในการดำเนินงานอยู่ในแบรนด์เดียว",
           "description": "แบรนด์ A คิดมูลค่าการซื้อขายอาหารกลางวัน แบรนด์ B ยังคงดิ้นรน ความรู้ความชำนาญไม่เคยล้ำเส้นแบรนด์",
-          "icon": "สนับสนุน"
+          "icon": "support"
         },
         {
-          "title": "กลยุทธ์กลุ่มตอบสนองต่อผลกำไรและขาดทุนรายเดือน",
+          "title": "Group strategy reacts to monthly P&L",
           "description": "การลงทุนในแบรนด์ การเข้าสู่ตลาด การตัดสินใจด้านรูปแบบ ทั้งหมดนี้ขับเคลื่อนโดยข้อมูล Q+1 ไม่ใช่สัญญาณสด",
-          "icon": "ประสิทธิภาพการทำงาน"
+          "icon": "performance"
         }
       ],
       "howTitle": "Sundae ทำงานอย่างไรสำหรับกลุ่มที่มีหลายแบรนด์",
@@ -1712,26 +1712,26 @@ export const generatedLocalCopy = {
         {
           "title": "การรวบรวมพอร์ตโฟลิโอแบรนด์ต่อแบรนด์",
           "description": "รายได้สด ส่วนต่าง แรงงานในทุกแบรนด์ ภูมิภาค และแนวคิด — ด้วยคำจำกัดความที่สอดคล้องกัน ดังนั้นการเปรียบเทียบจึงมีความหมายบางอย่างจริงๆ",
-          "product": "ซันเดย์คอร์ + พัลส์",
-          "icon": "แผนภูมิ"
+          "product": "Sundae Core + Pulse",
+          "icon": "chart"
         },
         {
           "title": "การวัดประสิทธิภาพภายในสำหรับแบรนด์ของคุณ",
           "description": "แบรนด์ B กับแบรนด์ A เกี่ยวกับผลิตภาพแรงงาน แบรนด์ C เทียบกับคู่แข่งในตลาดบน RevPASH บทสนทนาที่สำนักงานกลุ่มควรมี",
-          "product": "เกณฑ์มาตรฐาน",
-          "icon": "การเปรียบเทียบ"
+          "product": "Benchmarks",
+          "icon": "benchmarking"
         },
         {
           "title": "การถ่ายโอนการปฏิบัติข้ามแบรนด์",
-          "description": "สิ่งที่ได้ผลที่แบรนด์ A จะเผยแพร่ไปยังแบรนด์ B ภายในไม่กี่วัน ไม่ใช่นอกสถานที่รายไตรมาส Cross-Intelligence ค้นหารูปแบบ ซุนแดกำหนดเส้นทาง",
+          "description": "สิ่งที่ได้ผลที่แบรนด์ A จะเผยแพร่ไปยังแบรนด์ B ภายในไม่กี่วัน ไม่ใช่นอกสถานที่รายไตรมาส Cross-Intelligence ค้นหารูปแบบ ซุนแดกำหนดเส้นทาง (Sundae)",
           "product": "Cross-Intelligence",
-          "icon": "สติปัญญา"
+          "icon": "intelligence"
         },
         {
           "title": "การพยากรณ์เชิงกลยุทธ์ในระดับกลุ่ม",
-          "description": "การมองการณ์ไกลจะคาดการณ์ EBITDA ต่อแบรนด์และทั่วทั้งพอร์ตโฟลิโอ ดำเนินการแบบ what-if ในตลาดใหม่ แนวคิด หรือความมุ่งมั่น CapEx",
-          "product": "มองการณ์ไกล",
-          "icon": "การพยากรณ์"
+          "description": "การมองการณ์ไกลจะคาดการณ์ EBITDA ต่อแบรนด์และทั่วทั้งพอร์ตโฟลิโอ ดำเนินการแบบ what-if ในตลาดใหม่ แนวคิด หรือความมุ่งมั่น CapEx (Foresight)",
+          "product": "Foresight",
+          "icon": "forecasting"
         }
       ],
       "outcomesTitle": "การเปลี่ยนแปลงอะไรในสำนักงานกลุ่ม",
@@ -1740,22 +1740,22 @@ export const generatedLocalCopy = {
         {
           "title": "จัดการเป็นพอร์ตโฟลิโอ ไม่ใช่พอร์ตโฟลิโอของแบรนด์",
           "description": "ตัวชี้วัดเดียวกันในทุกแบรนด์ เงินทุน ความสามารถ และความเอาใจใส่จะไปในที่ที่พวกเขาได้รับผลตอบแทนสูงสุด",
-          "icon": "ความเร็ว"
+          "icon": "speed"
         },
         {
           "title": "การเปรียบเทียบระหว่างแบรนด์กับแบรนด์ที่มีอยู่",
           "description": "การวัดประสิทธิภาพโดยผู้ทรงคุณวุฒิภายในเปลี่ยนบทวิจารณ์ของแบรนด์จากเรื่องเล็ก ๆ น้อย ๆ มาเป็นหลักฐาน",
-          "icon": "ประสิทธิภาพการทำงาน"
+          "icon": "performance"
         },
         {
           "title": "แนวปฏิบัติที่ดีที่สุดทั่วทั้งกลุ่ม",
           "description": "Cross-Intelligence ช่วยเร่งการทำงานข้ามสายผลิตภัณฑ์ของแบรนด์ แทนที่จะถ่ายโอนความรู้รายไตรมาส",
-          "icon": "เจ้าของ"
+          "icon": "owners"
         },
         {
           "title": "การจัดสรรเงินทุนเป็นไปตามการคาดการณ์",
           "description": "การคาดการณ์ EBITDA ตามแบรนด์จะแจ้งให้ทราบว่าจะลงทุนที่ไหน ควรชะลอตัว และควรออกจากที่ใด",
-          "icon": "สนับสนุน"
+          "icon": "support"
         }
       ],
       "ctaTitle": "ดูผลงานของคุณในทุกแบรนด์",
@@ -1775,23 +1775,23 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Setiap jenama melaporkan caranya sendiri",
-          "description": "Jenama A pada Toast, Jenama B pada Dataran, Jenama C pada Lightspeed. Pejabat kumpulan mendamaikan dengan tangan — atau tidak.",
-          "icon": "integrasi"
+          "description": "Jenama A pada Toast, Jenama B pada Dataran, Jenama C pada Lightspeed. Pejabat kumpulan mendamaikan dengan tangan — atau tidak. (Square)",
+          "icon": "integration"
         },
         {
           "title": "Tiada perbandingan jenama-vs-jenama",
           "description": "Anda tidak dapat mengetahui sama ada % buruh Jenama B adalah baik atau buruk tanpa konteks. Penanda aras dalaman akan mengubah perbualan.",
-          "icon": "imbangan"
+          "icon": "balance"
         },
         {
           "title": "Amalan pengendalian terbaik kekal dalam satu jenama",
           "description": "Jenama A mengetahui perolehan makan tengah hari. Jenama B masih bergelut. Pengetahuan tidak pernah melepasi barisan jenama.",
-          "icon": "sokongan"
+          "icon": "support"
         },
         {
-          "title": "Strategi kumpulan bertindak balas terhadap P&P bulanan",
+          "title": "Group strategy reacts to monthly P&L",
           "description": "Pelaburan jenama, kemasukan pasaran, keputusan format — semuanya didorong oleh data Q+1, bukan isyarat langsung.",
-          "icon": "prestasi"
+          "icon": "performance"
         }
       ],
       "howTitle": "Cara Sundae berfungsi untuk kumpulan berbilang jenama",
@@ -1800,26 +1800,26 @@ export const generatedLocalCopy = {
         {
           "title": "Penggulungan portfolio, jenama demi jenama",
           "description": "Hasil langsung, margin, buruh merentas setiap jenama, wilayah dan konsep — dengan takrifan yang konsisten supaya perbandingan itu sebenarnya bermakna sesuatu.",
-          "product": "Teras Sundae + Nadi",
-          "icon": "carta"
+          "product": "Sundae Core + Pulse",
+          "icon": "chart"
         },
         {
           "title": "Penanda aras dalaman merentas jenama anda",
           "description": "Jenama B vs Jenama A mengenai produktiviti buruh. Jenama C lwn rakan pasaran pada RevPASH. Perbualan yang sepatutnya dilakukan oleh pejabat kumpulan.",
-          "product": "Penanda aras",
-          "icon": "penanda aras"
+          "product": "Benchmarks",
+          "icon": "benchmarking"
         },
         {
           "title": "Pemindahan amalan merentas jenama",
-          "description": "Perkara yang berfungsi di Jenama A disebarkan kepada Jenama B dalam beberapa hari, bukan suku tahunan di luar tapak. Kepintaran Silang mencari corak, laluan Sundae.",
+          "description": "Perkara yang berfungsi di Jenama A disebarkan kepada Jenama B dalam beberapa hari, bukan suku tahunan di luar tapak. Kepintaran Silang mencari corak, laluan Sundae. (Cross-Intelligence)",
           "product": "Cross-Intelligence",
-          "icon": "kecerdasan"
+          "icon": "intelligence"
         },
         {
           "title": "Ramalan strategik di peringkat kumpulan",
           "description": "Foresight mengunjurkan EBITDA bagi setiap jenama dan merentas portfolio. Jalankan bagaimana jika pada pasaran baharu, konsep atau komitmen CapEx.",
-          "product": "Pandangan jauh",
-          "icon": "peramalan"
+          "product": "Foresight",
+          "icon": "forecasting"
         }
       ],
       "outcomesTitle": "Apa yang berubah untuk pejabat kumpulan",
@@ -1828,22 +1828,22 @@ export const generatedLocalCopy = {
         {
           "title": "Urus sebagai portfolio, bukan portfolio jenama",
           "description": "Metrik yang sama merentas setiap jenama. Modal, bakat dan perhatian pergi ke tempat mereka memperoleh pulangan tertinggi.",
-          "icon": "kelajuan"
+          "icon": "speed"
         },
         {
           "title": "Perbandingan jenama-vs-jenama yang berlaku",
           "description": "Penanda aras rakan sebaya dalaman menukar ulasan jenama daripada anekdot kepada bukti.",
-          "icon": "prestasi"
+          "icon": "performance"
         },
         {
           "title": "Amalan terbaik seluruh kumpulan",
-          "description": "Kepintaran Silang mempercepatkan perkara yang berfungsi merentas barisan jenama — bukannya pemindahan pengetahuan suku tahunan.",
-          "icon": "pemilik"
+          "description": "Kepintaran Silang mempercepatkan perkara yang berfungsi merentas barisan jenama — bukannya pemindahan pengetahuan suku tahunan. (Cross-Intelligence)",
+          "icon": "owners"
         },
         {
           "title": "Peruntukan modal berdasarkan ramalan",
           "description": "Unjuran EBITDA mengikut jenama memaklumkan tempat untuk melabur, tempat untuk perlahan, tempat untuk keluar.",
-          "icon": "sokongan"
+          "icon": "support"
         }
       ],
       "ctaTitle": "Lihat portfolio anda merentas setiap jenama.",

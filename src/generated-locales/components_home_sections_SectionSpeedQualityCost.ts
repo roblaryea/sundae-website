@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/components/home/sections/SectionSpeedQualityCost.tsx.
-// Do not edit by hand; regenerate from the English local copy source.
+// Structural fields and protected glossary terms normalized from English source; review prose translations before release.
 export const generatedLocalCopy = {
   "localizedCopy": {
     "ar": {
@@ -213,7 +213,7 @@ export const generatedLocalCopy = {
         {
           "label": "Velocidade",
           "headline": "Implante em dias. Decida em segundos.",
-          "body": "Conecte sua pilha rapidamente. Atualizações em tempo real durante o turno, e a Sundae Intelligence responde com fontes em vez de enviar equipes de volta para a fila de relatórios.",
+          "body": "Conecte sua pilha rapidamente. Atualizações em tempo real durante o turno, e a Sundae Intelligence responde com fontes em vez de enviar equipes de volta para a fila de relatórios. (Pulse)",
           "chips": [
             "Dias para implantar",
             "Atualização ao vivo do Core",
@@ -253,7 +253,7 @@ export const generatedLocalCopy = {
         {
           "label": "गति",
           "headline": "दिनों में तैनात करें। सेकंड में निर्णय लें।",
-          "body": "अपने स्टैक को तेजी से कनेक्ट करें। शिफ्ट के दौरान पल्स अपडेट करें, और Sundae Intelligence स्रोतों के साथ जवाब देती है बजाय टीमों को रिपोर्ट कतार में वापस भेजने के।",
+          "body": "अपने स्टैक को तेजी से कनेक्ट करें। शिफ्ट के दौरान Pulse अपडेट करें, और Sundae Intelligence स्रोतों के साथ जवाब देती है बजाय टीमों को रिपोर्ट कतार में वापस भेजने के।",
           "chips": [
             "तैनाती के लिए दिन",
             "लाइव कोर रिफ्रेश",
@@ -293,7 +293,7 @@ export const generatedLocalCopy = {
         {
           "label": "رفتار",
           "headline": "دنوں میں تعینات کریں۔ سیکنڈز میں فیصلہ کریں۔",
-          "body": "اپنی اسٹیک کو تیزی سے جوڑیں۔ شفٹ کے دوران پلس اپ ڈیٹس، اور Sundae Intelligence ذرائع کے ساتھ جواب دیتا ہے بجائے اس کے کہ ٹیموں کو رپورٹ کی قطار میں واپس بھیجے۔",
+          "body": "اپنی اسٹیک کو تیزی سے جوڑیں۔ شفٹ کے دوران Pulse اپ ڈیٹس، اور Sundae Intelligence ذرائع کے ساتھ جواب دیتا ہے بجائے اس کے کہ ٹیموں کو رپورٹ کی قطار میں واپس بھیجے۔",
           "chips": [
             "تعیناتی کے لیے دن",
             "لائیو Core ریفریش",
@@ -453,7 +453,7 @@ export const generatedLocalCopy = {
         {
           "label": "速度",
           "headline": "几天内部署。几秒内决策。",
-          "body": "快速连接你的技术栈。在班次中实时更新，Sundae Intelligence 提供来源而不是将团队送回报告队列。",
+          "body": "快速连接你的技术栈。在班次中实时更新，Sundae Intelligence 提供来源而不是将团队送回报告队列。 (Pulse)",
           "chips": [
             "几天部署",
             "实时 Core 刷新",
@@ -613,7 +613,7 @@ export const generatedLocalCopy = {
         {
           "label": "Tốc độ",
           "headline": "Triển khai trong vài ngày. Quyết định trong vài giây.",
-          "body": "Kết nối nhanh chóng với hệ thống của bạn. Cập nhật liên tục trong ca làm việc, và Sundae Intelligence trả lời với các nguồn thay vì gửi đội ngũ quay lại hàng đợi báo cáo.",
+          "body": "Kết nối nhanh chóng với hệ thống của bạn. Cập nhật liên tục trong ca làm việc, và Sundae Intelligence trả lời với các nguồn thay vì gửi đội ngũ quay lại hàng đợi báo cáo. (Pulse)",
           "chips": [
             "Ngày để triển khai",
             "Làm mới Core trực tiếp",
@@ -693,7 +693,7 @@ export const generatedLocalCopy = {
         {
           "label": "Hastighet",
           "headline": "Implementera på dagar. Bestäm på sekunder.",
-          "body": "Anslut din stack snabbt. Pulsuppdateringar under skiftet, och Sundae Intelligence svarar med källor istället för att skicka team tillbaka till rapportkön.",
+          "body": "Anslut din stack snabbt. Pulseuppdateringar under skiftet, och Sundae Intelligence svarar med källor istället för att skicka team tillbaka till rapportkön. (Pulse)",
           "chips": [
             "Dagar att implementera",
             "Live Core-uppdatering",
@@ -733,7 +733,7 @@ export const generatedLocalCopy = {
         {
           "label": "গতি",
           "headline": "কিছু দিনের মধ্যে স্থাপন করুন। কয়েক সেকেন্ডে সিদ্ধান্ত নিন।",
-          "body": "আপনার স্ট্যাক দ্রুত সংযুক্ত করুন। পালস আপডেটগুলি শিফটের মাধ্যমে, এবং Sundae Intelligence সূত্রের সাথে উত্তর দেয়, দলের সদস্যদের রিপোর্টের কিউতে ফিরে পাঠায় না।",
+          "body": "আপনার স্ট্যাক দ্রুত সংযুক্ত করুন। পালস আপডেটগুলি শিফটের মাধ্যমে, এবং Sundae Intelligence সূত্রের সাথে উত্তর দেয়, দলের সদস্যদের রিপোর্টের কিউতে ফিরে পাঠায় না। (Pulse)",
           "chips": [
             "স্থাপনের জন্য দিন",
             "লাইভ Core রিফ্রেশ",

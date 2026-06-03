@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/app/core/page.tsx.
-// Do not edit by hand; regenerate from the English local copy source.
+// Product/module translations manually reviewed for protected Sundae glossary terms and obvious literal phrasing.
 export const generatedLocalCopy = {
   "localizedCoreCopy": {
     "fr": {
@@ -915,7 +915,7 @@ export const generatedLocalCopy = {
               "E-mail + Chat + Telefoon ondersteuning"
             ],
             "bestFor": "1-10 locaties, single-brand portefeuilles",
-            "color": "van-blauw-500 naar-blauw-600"
+            "color": "from-blue-500 to-blue-600"
           },
           {
             "name": "Core Pro",
@@ -931,7 +931,7 @@ export const generatedLocalCopy = {
               "Prioriteit telefoon ondersteuning (2u SLA)"
             ],
             "bestFor": "30-100 locaties, multi-brand operators",
-            "color": "van-paars-500 naar-paars-600"
+            "color": "from-purple-500 to-purple-600"
           },
           {
             "name": "Enterprise",
@@ -947,7 +947,7 @@ export const generatedLocalCopy = {
               "24/7 ondersteuning met aangepaste SLA's"
             ],
             "bestFor": "100+ locaties, multi-brand ondernemingen",
-            "color": "van-oranje-500 naar-oranje-600"
+            "color": "from-orange-500 to-orange-600"
           }
         ]
       },
@@ -1153,7 +1153,7 @@ export const generatedLocalCopy = {
     "ar": {
       "hero": {
         "badge": "Sundae Core",
-        "description": "متصل بنظام نقاط البيع، والعمالة، والمخزون، وكل نظام مهم. يتم تحديث Core كل 2-4 ساعات حتى تتمكن من التصرف خلال الوردية - وليس بعد حدوث الضرر.",
+        "description": "متصل بنظام POS، والعمالة، والمخزون، وكل نظام مهم. يتم تحديث Core كل 2-4 ساعات حتى تتمكن من التصرف خلال الوردية - وليس بعد حدوث الضرر.",
         "primary": "استكشاف مستويات Core",
         "secondary": "احجز عرضًا تجريبيًا"
       },
@@ -1333,7 +1333,7 @@ export const generatedLocalCopy = {
         "description": "يتصل Core عبر 12 مجال بيانات مع أكثر من 80 تكامل مع البائعين.",
         "items": [
           {
-            "category": "أنظمة نقاط البيع",
+            "category": "أنظمة POS",
             "examples": "Oracle MICROS Simphony، Square، Toast، Clover، بالإضافة إلى موصلات قاعدة البيانات المباشرة",
             "icon": "integration"
           },
@@ -1406,7 +1406,7 @@ export const generatedLocalCopy = {
         "items": [
           {
             "q": "ما الفرق بين Core Lite و Core Pro؟",
-            "a": "Core Lite: تحديث كل 4 ساعات، 600 رصيد أساسي، 30 لوحة تحكم، نقطة بيع واحدة. Core Pro: تحديث كل ساعتين، 1200 رصيد أساسي، 75 لوحة تحكم، دعم متعدد لنقاط البيع."
+            "a": "Core Lite: تحديث كل 4 ساعات، 600 رصيد أساسي، 30 لوحة تحكم، POS واحدة. Core Pro: تحديث كل ساعتين، 1200 رصيد أساسي، 75 لوحة تحكم، دعم متعدد لPOS."
           },
           {
             "q": "هل يمكنني الترقية من Report إلى Core؟",
@@ -1417,8 +1417,8 @@ export const generatedLocalCopy = {
             "a": "ليس مطلوبًا، ولكن يُوصى به إذا كنت بحاجة إلى سرعة تشغيل (تحديث كل 2-4 ساعات). يعمل Report بشكل رائع لـ 1-10 مواقع إذا كانت التقارير اليومية كافية."
           },
           {
-            "q": "هل يمكن لـ Core التعامل مع أنظمة نقاط بيع متعددة؟",
-            "a": "يدعم Core Pro وEnterprise بيئات متعددة لنقاط البيع. يدعم Core Lite نقطة بيع واحدة عبر جميع المواقع."
+            "q": "Can Core handle multiple POS systems?",
+            "a": "يدعم Core Pro وEnterprise بيئات متعددة لPOS. يدعم Core Lite POS واحدة عبر جميع المواقع."
           },
           {
             "q": "هل يمكنني استخدام Core مع Watchtower؟",
@@ -2050,7 +2050,7 @@ export const generatedLocalCopy = {
         "viewPrefix": "देखें",
         "items": [
           {
-            "name": "कोर लाइट",
+            "name": "Core Lite",
             "badge": "बढ़ती हुई संचालन",
             "subtitle": "1-29 स्थानों के लिए वास्तविक समय की जानकारी",
             "description": "रेस्टोरेंट समूहों के लिए जो एकल स्थान से बहु-स्थान संचालन में बढ़ रहे हैं। 4-घंटे के रिफ्रेश चक्र और एकल POS एकीकरण।",
@@ -2066,7 +2066,7 @@ export const generatedLocalCopy = {
             "color": "from-blue-500 to-blue-600"
           },
           {
-            "name": "कोर प्रो",
+            "name": "Core Pro",
             "badge": "सबसे लोकप्रिय",
             "subtitle": "30-100 स्थानों के पोर्टफोलियो के लिए अनुकूलित",
             "description": "स्थापित बहु-स्थान ऑपरेटरों के लिए जिन्हें ब्रांडों के बीच तेज रिफ्रेश चक्र और उन्नत पूर्वानुमान की आवश्यकता होती है।",
@@ -2082,7 +2082,7 @@ export const generatedLocalCopy = {
             "color": "from-purple-500 to-purple-600"
           },
           {
-            "name": "एंटरप्राइज",
+            "name": "Enterprise",
             "badge": "कस्टम सब कुछ",
             "subtitle": "100+ स्थानों के लिए निर्मित",
             "description": "बड़े पैमाने पर संचालन के लिए जो कस्टम रिफ्रेश आवृत्ति, असीमित डैशबोर्ड, व्हाइट-लेबल, SSO, और समर्पित समर्थन की आवश्यकता होती है।",
@@ -2123,7 +2123,7 @@ export const generatedLocalCopy = {
             "dimension": "3D",
             "title": "बाजार संदर्भ",
             "status": "विस्तारित",
-            "description": "पूर्ण बेंचमार्किंग सूट (30+ मैट्रिक्स)। पोर्टफोलियो तुलना। वॉचटॉवर के माध्यम से प्रतिस्पर्धात्मक संदर्भ।",
+            "description": "पूर्ण बेंचमार्किंग सूट (30+ मैट्रिक्स)। पोर्टफोलियो तुलना। वॉचटॉवर के माध्यम से प्रतिस्पर्धात्मक संदर्भ। (Watchtower)",
             "icon": "multiLocation",
             "color": "from-green-500 to-green-600"
           },
@@ -2139,7 +2139,7 @@ export const generatedLocalCopy = {
       },
       "pulse": {
         "badge": "कोर के साथ शामिल",
-        "heading": "पल्स: आपका शिफ्ट कमांड सेंटर",
+        "heading": "Pulse: आपका शिफ्ट कमांड सेंटर",
         "description": "जैसे ही विसंगतियाँ होती हैं, उन्हें देखें। अपने टीम को वास्तविक समय में कोच करें। शिफ्ट खत्म होने से पहले परिणामों की पुष्टि करें।",
         "features": [
           {
@@ -2173,7 +2173,7 @@ export const generatedLocalCopy = {
             "icon": "forecasting"
           },
           {
-            "name": "संडे कोच",
+            "name": "Sundae कोच",
             "description": "बिक्री, लीक और प्रवाह के लिए शिफ्ट-स्तरीय कोचिंग संकेत",
             "icon": "intelligence"
           },
@@ -2337,7 +2337,7 @@ export const generatedLocalCopy = {
         "viewPrefix": "دیکھیں",
         "items": [
           {
-            "name": "کور لائٹ",
+            "name": "Core Lite",
             "badge": "بڑھتی ہوئی کارروائیاں",
             "subtitle": "1-29 مقامات کے لیے حقیقی وقت کی معلومات",
             "description": "ریستوراں کے گروپوں کے لیے جو ایک مقام سے کئی مقامات کی کارروائیوں کی طرف بڑھ رہے ہیں۔ 4 گھنٹے کی تازہ کاری کے دورانیے اور ایک POS انضمام۔",
@@ -2353,7 +2353,7 @@ export const generatedLocalCopy = {
             "color": "from-blue-500 to-blue-600"
           },
           {
-            "name": "کور پرو",
+            "name": "Core Pro",
             "badge": "سب سے زیادہ مقبول",
             "subtitle": "30-100 مقامات کے پورٹ فولیو کے لیے بہتر بنایا گیا",
             "description": "موجودہ کئی مقامات کے آپریٹرز کے لیے جو تیز تر تازہ کاری کے دورانیے اور برانڈز کے درمیان جدید پیش گوئی کی ضرورت رکھتے ہیں۔",
@@ -2369,7 +2369,7 @@ export const generatedLocalCopy = {
             "color": "from-purple-500 to-purple-600"
           },
           {
-            "name": "انٹرپرائز",
+            "name": "Enterprise",
             "badge": "ہر چیز حسب ضرورت",
             "subtitle": "100+ مقامات کے لیے بنایا گیا",
             "description": "بڑے پیمانے پر کارروائیوں کے لیے جو حسب ضرورت تازہ کاری کی تعدد، لامحدود ڈیش بورڈ، وائٹ لیبل، SSO، اور مخصوص سپورٹ کی ضرورت ہوتی ہے۔",
@@ -2426,7 +2426,7 @@ export const generatedLocalCopy = {
       },
       "pulse": {
         "badge": "کور کے ساتھ شامل",
-        "heading": "پلس: آپ کا شفٹ کمانڈ سینٹر",
+        "heading": "Pulse: آپ کا شفٹ کمانڈ سینٹر",
         "description": "انحرافات کو اس لمحے دیکھیں جب وہ ہوتے ہیں۔ اپنے ٹیم کو حقیقی وقت میں تربیت دیں۔ شفٹ ختم ہونے سے پہلے نتائج کی تصدیق کریں۔",
         "features": [
           {
@@ -2460,7 +2460,7 @@ export const generatedLocalCopy = {
             "icon": "forecasting"
           },
           {
-            "name": "سنڈے کوچ",
+            "name": "Sundae کوچ",
             "description": "سیلز، لیکج، اور فلو کے لیے شفٹ کی سطح کے تربیتی اشارے",
             "icon": "intelligence"
           },
@@ -3772,7 +3772,7 @@ export const generatedLocalCopy = {
         "viewPrefix": "보기",
         "items": [
           {
-            "name": "코어 라이트",
+            "name": "Core Lite",
             "badge": "성장하는 운영",
             "subtitle": "1-29개 위치를 위한 실시간 인사이트",
             "description": "단일 위치에서 다수 위치 운영으로 확장하는 레스토랑 그룹을 위한 솔루션. 4시간 갱신 주기 및 단일 POS 통합.",
@@ -3788,7 +3788,7 @@ export const generatedLocalCopy = {
             "color": "from-blue-500 to-blue-600"
           },
           {
-            "name": "코어 프로",
+            "name": "Core Pro",
             "badge": "가장 인기 있는",
             "subtitle": "30-100개 위치 포트폴리오에 최적화됨",
             "description": "브랜드 전반에 걸쳐 더 빠른 갱신 주기와 고급 예측이 필요한 다수 위치 운영자를 위한 솔루션.",
@@ -3804,7 +3804,7 @@ export const generatedLocalCopy = {
             "color": "from-purple-500 to-purple-600"
           },
           {
-            "name": "엔터프라이즈",
+            "name": "Enterprise",
             "badge": "모든 것을 맞춤 설정",
             "subtitle": "100개 이상의 위치를 위한 솔루션",
             "description": "맞춤 갱신 주기, 무제한 대시보드, 화이트 라벨, SSO 및 전담 지원이 필요한 대규모 운영을 위한 솔루션.",
@@ -5296,7 +5296,7 @@ export const generatedLocalCopy = {
       },
       "pulse": {
         "badge": "কোরের সাথে অন্তর্ভুক্ত",
-        "heading": "পালস: আপনার শিফট কমান্ড সেন্টার",
+        "heading": "Pulse: Your Shift Command Center",
         "description": "ঘটনা ঘটার সাথে সাথে অস্বাভাবিকতা দেখুন। আপনার দলের প্রশিক্ষণ দিন বাস্তব সময়ে। শিফট শেষ হওয়ার আগে ফলাফল নিশ্চিত করুন।",
         "features": [
           {
@@ -5330,7 +5330,7 @@ export const generatedLocalCopy = {
             "icon": "forecasting"
           },
           {
-            "name": "সান্ডে কোচ",
+            "name": "Sundae Coach",
             "description": "বিক্রয়, লিকেজ, এবং ফ্লোর জন্য শিফট-স্তরের কোচিং সিগন্যাল",
             "icon": "intelligence"
           },

@@ -1,13 +1,12 @@
 import { NextRequest, NextResponse } from 'next/server'
 import {
-  fetchPublishStatus,
   isTikTokSessionExpiring,
-  publishTikTokVideoFromFile,
   refreshTikTokSession,
   sealTikTokSession,
   TIKTOK_SESSION_COOKIE,
   unsealTikTokSession,
 } from '@/lib/tiktok'
+import { fetchPublishStatus, publishTikTokVideoFromFile } from '@/lib/tiktokPublish'
 
 export const dynamic = 'force-dynamic'
 

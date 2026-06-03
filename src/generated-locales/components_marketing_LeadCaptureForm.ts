@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/components/marketing/LeadCaptureForm.tsx.
-// Do not edit by hand; regenerate from the English local copy source.
+// Structural fields and protected glossary terms normalized from English source; review prose translations before release.
 export const generatedLocalCopy = {
   "formCopy": {
     "ar": {
@@ -12,7 +12,7 @@ export const generatedLocalCopy = {
         "countryCode": "رمز البلد مطلوب",
         "phone": "رقم الهاتف مطلوب",
         "numberOfLocations": "عدد المواقع مطلوب",
-        "primaryPOS": "نظام/نقطة البيع الأساسية مطلوب",
+        "primaryPOS": "Primary POS/system is required",
         "message": "يرجى تقديم بعض السياق حول احتياجاتك"
       },
       "validEmail": "يرجى إدخال عنوان بريد إلكتروني صالح",
@@ -30,7 +30,7 @@ export const generatedLocalCopy = {
         "country": "البلد",
         "phone": "رقم الهاتف",
         "numberOfLocations": "عدد المواقع",
-        "primaryPOS": "نظام/نقطة البيع الأساسية المستخدمة",
+        "primaryPOS": "Primary POS/System Used",
         "message": "أخبرنا عن احتياجاتك"
       },
       "placeholders": {
@@ -41,7 +41,7 @@ export const generatedLocalCopy = {
         "country": "اختر بلدك",
         "phone": "555 123 4567",
         "numberOfLocations": "اختر عدد المواقع",
-        "primaryPOS": "مثل: توست، سكوير، أوراكل سيمفوني",
+        "primaryPOS": "e.g., Toast, Square, Oracle Simphony",
         "message": "أخبرنا عن تحدياتك، أهدافك، أو اهتماماتك المحددة..."
       },
       "locationOptions": [
@@ -383,7 +383,7 @@ export const generatedLocalCopy = {
         "country": "अपने देश का चयन करें",
         "phone": "555 123 4567",
         "numberOfLocations": "स्थान की संख्या का चयन करें",
-        "primaryPOS": "जैसे, टोस्ट, स्क्वायर, ओरेकल सिम्फनी",
+        "primaryPOS": "e.g., Toast, Square, Oracle Simphony",
         "message": "हमें अपनी चुनौतियों, लक्ष्यों या विशिष्ट रुचियों के बारे में बताएं..."
       },
       "locationOptions": [
@@ -440,7 +440,7 @@ export const generatedLocalCopy = {
         "country": "اپنا ملک منتخب کریں",
         "phone": "555 123 4567",
         "numberOfLocations": "مقامات کی تعداد منتخب کریں",
-        "primaryPOS": "مثلاً، ٹوسٹ، اسکوائر، اوریکل سمفونی",
+        "primaryPOS": "e.g., Toast, Square, Oracle Simphony",
         "message": "ہمیں اپنی چیلنجز، مقاصد، یا مخصوص دلچسپیوں کے بارے میں بتائیں..."
       },
       "locationOptions": [
@@ -1067,7 +1067,7 @@ export const generatedLocalCopy = {
         "country": "আপনার দেশ নির্বাচন করুন",
         "phone": "৫৫৫ ১২৩ ৪৫৬৭",
         "numberOfLocations": "অবস্থান সংখ্যা নির্বাচন করুন",
-        "primaryPOS": "যেমন, টোস্ট, স্কয়ার, অরাকল সিম্ফনি",
+        "primaryPOS": "e.g., Toast, Square, Oracle Simphony",
         "message": "আপনার চ্যালেঞ্জ, লক্ষ্য, বা নির্দিষ্ট আগ্রহ সম্পর্কে বলুন..."
       },
       "locationOptions": [

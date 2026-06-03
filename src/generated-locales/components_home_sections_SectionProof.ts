@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/components/home/sections/SectionProof.tsx.
-// Do not edit by hand; regenerate from the English local copy source.
+// Structural fields and protected glossary terms normalized from English source; review prose translations before release.
 export const generatedLocalCopy = {
   "localizedCopy": {
     "de": {
@@ -352,7 +352,7 @@ export const generatedLocalCopy = {
           "sundae": "تقدم Sundae Intelligence إجابات موثوقة المصدر للفرق في ثوانٍ، عبر الأنظمة التي يستخدمونها بالفعل."
         },
         {
-          "industry": "تعتبر الفجوات، والتعويضات، والخصومات، واستثناءات نقاط البيع صغيرة بمفردها. إذا تُركت دون مراجعة، يمكن أن تخلق بين 1-3% من تسرب الإيرادات والهامش.",
+          "industry": "تعتبر الفجوات، والتعويضات، والخصومات، واستثناءات POS صغيرة بمفردها. إذا تُركت دون مراجعة، يمكن أن تخلق بين 1-3% من تسرب الإيرادات والهامش.",
           "sundae": "يُشير Pulse إلى أنماط الاستثناءات خلال التحول، المنسوبة إلى النادل، أو فترة اليوم، أو الموقع، أو السلوك الذي يدفعها."
         },
         {
@@ -382,7 +382,7 @@ export const generatedLocalCopy = {
         },
         {
           "value": "5 منٹ",
-          "label": "کور پرو پر شفٹ ریفریش",
+          "label": "shift refresh on Core Pro",
           "footnoteMarker": "*"
         }
       ],
@@ -840,7 +840,7 @@ export const generatedLocalCopy = {
       "industryHeadline": "ডেটা বিদ্যমান। সিদ্ধান্ত এখনও দেরিতে আসে।",
       "industryDisclaimer": "অপারেটরদের কাছ থেকে আমরা যে প্যাটার্নগুলি শুনি এবং রেস্তোরাঁর রিপোর্টিং ওয়ার্কফ্লোগুলিতে দেখি। অ্যানোনিমাইজড এবং সাধারণীকৃত।",
       "industryTodayLabel": "আজকের শিল্প",
-      "withSundaeLabel": "সান্ডে সহ",
+      "withSundaeLabel": "With Sundae",
       "industryClaims": [
         {
           "industry": "টিমগুলো রিপোর্ট, এক্সপোর্ট বা বিশ্লেষক ফলো-আপের জন্য ২-৩ দিন অপেক্ষা করে। উত্তর আসার সময়, পরিবর্তন ইতিমধ্যেই ঘটে গেছে।",

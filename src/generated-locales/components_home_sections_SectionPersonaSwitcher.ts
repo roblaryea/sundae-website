@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/components/home/sections/SectionPersonaSwitcher.tsx.
-// Do not edit by hand; regenerate from the English local copy source.
+// Structural fields and protected glossary terms normalized from English source; review prose translations before release.
 export const generatedLocalCopy = {
   "localizedCopy": {
     "de": {
@@ -24,7 +24,7 @@ export const generatedLocalCopy = {
           "shortLabel": "CFO",
           "pluralLabel": "Finanz- & FP&A-Leiter",
           "pain": "Drei Tage für den Abschluss der Bücher sind drei Tage zu viel.",
-          "painCopy": "Abweichungen zeigen sich in der Gewinn- und Verlustrechnung des letzten Monats. Zu diesem Zeitpunkt sind die Kosten bereits verbucht.",
+          "painCopy": "Variance shows up in last month's P&L. By then the costs have already been booked.",
           "outcome": "Margenabweichung, am Tag, an dem sie passiert.",
           "outcomeCopy": "Arbeitskosten auf Schichtebene, Abweichungen bei den Lebensmittelkosten, Stornoraten — verbunden mit den Ereignissen, die sie verursacht haben. Schneller abschließen, mehr erklären."
         },
@@ -204,7 +204,7 @@ export const generatedLocalCopy = {
           "shortLabel": "المدير المالي",
           "pluralLabel": "قادة المالية والتخطيط والتحليل المالي",
           "pain": "ثلاثة أيام لإغلاق الحسابات هي ثلاثة أيام أكثر من اللازم.",
-          "painCopy": "تظهر الفروق في بيان الأرباح والخسائر للشهر الماضي. بحلول ذلك الوقت، تم تسجيل التكاليف بالفعل.",
+          "painCopy": "Variance shows up in last month's P&L. By then the costs have already been booked.",
           "outcome": "فرق الهامش، في اليوم الذي يحدث فيه.",
           "outcomeCopy": "تكلفة العمل على مستوى التحول، فرق تكلفة الطعام، معدلات الإلغاء - مرتبطة بالأحداث التي تسببت فيها. أغلق أسرع، واشرح أكثر."
         },
@@ -238,7 +238,7 @@ export const generatedLocalCopy = {
           "pain": "اثنا عشر واجهة برمجة تطبيقات للبائعين. خمسة تنسيقات بيانات. صفر مخطط موحد.",
           "painCopy": "كل طلب لوحة معلومات جديدة يصبح مشروع تكامل يستغرق ستة أسابيع.",
           "outcome": "منصة واحدة، اثنا عشر مجالًا، صفر أنابيب.",
-          "outcomeCopy": "نقاط البيع، العمل، المخزون، التسليم، المحاسبة، الحجوزات - موحدة في 179 نموذج بيانات محكوم. RBAC، مسارات التدقيق، واجهة برمجة التطبيقات العامة، webhooks. جاهز للاستخدام."
+          "outcomeCopy": "POS، العمل، المخزون، التسليم، المحاسبة، الحجوزات - موحدة في 179 نموذج بيانات محكوم. RBAC، مسارات التدقيق، واجهة برمجة التطبيقات العامة، webhooks. جاهز للاستخدام."
         }
       ]
     },
@@ -378,13 +378,13 @@ export const generatedLocalCopy = {
           "pain": "آپ ایک وقت میں ہر ریستوران میں نہیں ہو سکتے۔",
           "painCopy": "جب ہفتہ وار خلاصہ آتا ہے، تو خراب شفٹ ختم ہو چکی ہوتی ہے اور منافع ختم ہو چکا ہوتا ہے۔",
           "outcome": "ہر شفٹ میں براہ راست نظر۔",
-          "outcomeCopy": "پلس آپ کو دکھاتا ہے کہ کون سی جگہ کو ابھی مدد کی ضرورت ہے — رفتار، مزدوری، نقصان، سب شفٹ کے دوران اپ ڈیٹ ہوتے ہیں۔"
+          "outcomeCopy": "Pulse آپ کو دکھاتا ہے کہ کون سی جگہ کو ابھی مدد کی ضرورت ہے — رفتار، مزدوری، نقصان، سب شفٹ کے دوران اپ ڈیٹ ہوتے ہیں۔"
         },
         {
           "shortLabel": "سی ایف او",
           "pluralLabel": "مالی اور ایف پی اینڈ اے لیڈز",
           "pain": "کتابیں بند کرنے کے لیے تین دن بہت زیادہ ہیں۔",
-          "painCopy": "تبدیلی پچھلے مہینے کے پی اینڈ ایل میں ظاہر ہوتی ہے۔ اس وقت تک اخراجات پہلے ہی بک ہو چکے ہوتے ہیں۔",
+          "painCopy": "Variance shows up in last month's P&L. By then the costs have already been booked.",
           "outcome": "مارجن کی تبدیلی، جس دن یہ ہوتی ہے۔",
           "outcomeCopy": "شفٹ کی سطح پر مزدوری کی لاگت، خوراک کی لاگت کی تبدیلی، خالی نرخ — ان واقعات سے جڑے ہوئے جو انہیں پیدا کرتے ہیں۔ تیز بند کریں، مزید وضاحت کریں۔"
         },
@@ -410,7 +410,7 @@ export const generatedLocalCopy = {
           "pain": "محنت کی تبدیلی بہت دیر سے ظاہر ہوتی ہے۔",
           "painCopy": "شیڈول میں تبدیلیاں بدیہی طور پر ہوتی ہیں۔ جب تک رپورٹ واپس آتی ہے، اوور ٹائم پہلے ہی ادا کیا جا چکا ہوتا ہے۔",
           "outcome": "محنت کی تبدیلی، اس لمحے میں۔",
-          "outcomeCopy": "پلس ہر مقام، سرور کی پیداوار، اور اوور ٹائم کے خطرے کے لحاظ سے براہ راست محنت کی فیصد دکھاتا ہے — شفٹ کے لحاظ سے، مہینے کے لحاظ سے نہیں۔"
+          "outcomeCopy": "Pulse ہر مقام، سرور کی پیداوار، اور اوور ٹائم کے خطرے کے لحاظ سے براہ راست محنت کی فیصد دکھاتا ہے — شفٹ کے لحاظ سے، مہینے کے لحاظ سے نہیں۔"
         },
         {
           "shortLabel": "ٹیک",
@@ -427,7 +427,7 @@ export const generatedLocalCopy = {
       "headlineSee": "देखें",
       "headlineFor": "के लिए",
       "todayLabel": "आज",
-      "withSundaeLabel": "संडे के साथ",
+      "withSundaeLabel": "Sundae के साथ",
       "intelligencePrefix": "बुद्धिमत्ता:",
       "ctaPrefix": "देखें",
       "ctaSuffix": "डेमो →",
@@ -438,13 +438,13 @@ export const generatedLocalCopy = {
           "pain": "आप एक समय में हर रेस्तरां में नहीं हो सकते।",
           "painCopy": "जब साप्ताहिक पुनर्कथन आता है, तब खराब शिफ्ट खत्म हो चुकी होती है और लाभ चला जाता है।",
           "outcome": "हर शिफ्ट में लाइव दृश्यता।",
-          "outcomeCopy": "पल्स आपको दिखाता है कि किस स्थान को अभी मदद की जरूरत है — गति, श्रम, रिसाव, सभी शिफ्ट के दौरान अपडेट होते हैं।"
+          "outcomeCopy": "Pulse आपको दिखाता है कि किस स्थान को अभी मदद की जरूरत है — गति, श्रम, रिसाव, सभी शिफ्ट के दौरान अपडेट होते हैं।"
         },
         {
           "shortLabel": "सीएफओ",
           "pluralLabel": "वित्त और एफपी एंड ए लीड्स",
           "pain": "खातों को बंद करने में तीन दिन बहुत अधिक हैं।",
-          "painCopy": "भिन्नता पिछले महीने के पी एंड एल में दिखाई देती है। तब तक लागत पहले ही बुक हो चुकी होती है।",
+          "painCopy": "Variance shows up in last month's P&L. By then the costs have already been booked.",
           "outcome": "मार्जिन भिन्नता, जिस दिन यह होती है।",
           "outcomeCopy": "शिफ्ट-स्तरीय श्रम लागत, खाद्य लागत भिन्नता, शून्य दरें - उन घटनाओं से जुड़ी जो उन्हें उत्पन्न करती हैं। तेजी से बंद करें, अधिक स्पष्ट करें।"
         },
@@ -470,7 +470,7 @@ export const generatedLocalCopy = {
           "pain": "श्रम भिन्नता बहुत देर से दिखती है।",
           "painCopy": "कार्यक्रम परिवर्तन सहजता से होते हैं। जब तक रिपोर्ट वापस आती है, ओटी पहले ही भुगतान किया जा चुका होता है।",
           "outcome": "श्रम भिन्नता, उसी क्षण।",
-          "outcomeCopy": "पल्स स्थान, सर्वर उत्पादकता, और ओवरटाइम जोखिम के अनुसार लाइव श्रम% दिखाता है - शिफ्ट के अनुसार, महीने के अनुसार नहीं।"
+          "outcomeCopy": "Pulse स्थान, सर्वर उत्पादकता, और ओवरटाइम जोखिम के अनुसार लाइव श्रम% दिखाता है - शिफ्ट के अनुसार, महीने के अनुसार नहीं।"
         },
         {
           "shortLabel": "तकनीक",
@@ -624,7 +624,7 @@ export const generatedLocalCopy = {
           "shortLabel": "首席财务官",
           "pluralLabel": "财务与财务规划与分析负责人",
           "pain": "关闭账本需要三天，实在是太久了。",
-          "painCopy": "上个月的损益表出现了差异。到那时，成本已经被记录。",
+          "painCopy": "Variance shows up in last month's P&L. By then the costs have already been booked.",
           "outcome": "利润差异，发生的当天。",
           "outcomeCopy": "与导致这些差异的事件相关的班次级别劳动力成本、食品成本差异、作废率——更快地关闭账本，解释更多。"
         },
@@ -744,7 +744,7 @@ export const generatedLocalCopy = {
           "shortLabel": "CFO",
           "pluralLabel": "財務およびFP&Aリーダー",
           "pain": "帳簿を締めるのに3日かかるのは多すぎる。",
-          "painCopy": "前月の損益計算書に差異が現れます。その時にはコストはすでに計上されています。",
+          "painCopy": "Variance shows up in last month's P&L. By then the costs have already been booked.",
           "outcome": "発生したその日のマージン差異。",
           "outcomeCopy": "シフトレベルの労働コスト、食材コストの差異、無効率率 — それらを引き起こしたイベントに関連しています。より早く締め、より多くを説明します。"
         },
@@ -787,7 +787,7 @@ export const generatedLocalCopy = {
       "headlineSee": "보기",
       "headlineFor": "을 위한",
       "todayLabel": "오늘",
-      "withSundaeLabel": "선데이와 함께",
+      "withSundaeLabel": "Sundae와 함께",
       "intelligencePrefix": "인텔리전스:",
       "ctaPrefix": "보세요",
       "ctaSuffix": "데모 →",
@@ -804,7 +804,7 @@ export const generatedLocalCopy = {
           "shortLabel": "CFO",
           "pluralLabel": "재무 및 FP&A 리드",
           "pain": "장부 마감에 3일이 걸리는 것은 너무 많은 시간입니다.",
-          "painCopy": "차이는 지난 달 손익계산서에 나타납니다. 그때는 이미 비용이 기록되었습니다.",
+          "painCopy": "Variance shows up in last month's P&L. By then the costs have already been booked.",
           "outcome": "발생한 날의 마진 차이.",
           "outcomeCopy": "변동 인건비, 식품 비용 차이, 무효율 비율 — 이를 초래한 사건과 연결됩니다. 더 빠르게 마감하고, 더 많이 설명하세요."
         },
@@ -1027,7 +1027,7 @@ export const generatedLocalCopy = {
       "headlineSee": "দেখুন",
       "headlineFor": "জন্য",
       "todayLabel": "আজ",
-      "withSundaeLabel": "সান্ডে সহ",
+      "withSundaeLabel": "With Sundae",
       "intelligencePrefix": "বুদ্ধিমত্তা:",
       "ctaPrefix": "দেখুন",
       "ctaSuffix": "ডেমো →",
@@ -1038,13 +1038,13 @@ export const generatedLocalCopy = {
           "pain": "আপনি একসাথে প্রতিটি রেস্টুরেন্টে থাকতে পারবেন না।",
           "painCopy": "সাপ্তাহিক সারসংক্ষেপ আসার আগেই খারাপ শিফট শেষ হয়ে যায় এবং মার্জিন চলে যায়।",
           "outcome": "প্রতিটি শিফটে লাইভ দৃশ্যমানতা।",
-          "outcomeCopy": "পালস আপনাকে দেখায় কোন অবস্থানকে এখনই সাহায্য প্রয়োজন — পেসিং, শ্রম, লিকেজ, সব শিফটের মাধ্যমে আপডেট করা হয়েছে।"
+          "outcomeCopy": "পালস আপনাকে দেখায় কোন অবস্থানকে এখনই সাহায্য প্রয়োজন — পেসিং, শ্রম, লিকেজ, সব শিফটের মাধ্যমে আপডেট করা হয়েছে। (Pulse)"
         },
         {
           "shortLabel": "সিএফও",
           "pluralLabel": "অর্থ ও এফপি অ্যান্ড এ লিডস",
           "pain": "বই বন্ধ করতে তিন দিন লাগলে, তা খুব বেশি।",
-          "painCopy": "গত মাসের পিএন্ডএল-এ ভিন্নতা দেখা দেয়। তখন খরচ ইতিমধ্যেই বুক করা হয়ে গেছে।",
+          "painCopy": "Variance shows up in last month's P&L. By then the costs have already been booked.",
           "outcome": "মার্জিন ভিন্নতা, যখন এটি ঘটে।",
           "outcomeCopy": "শিফট-স্তরের শ্রম খরচ, খাদ্য খরচের ভিন্নতা, বাতিলের হার — এগুলোর কারণের সাথে সংযুক্ত। দ্রুত বন্ধ করুন, আরও ব্যাখ্যা করুন।"
         },
@@ -1070,7 +1070,7 @@ export const generatedLocalCopy = {
           "pain": "শ্রমের পরিবর্তন খুব দেরিতে দেখা দেয়।",
           "painCopy": "সূচি পরিবর্তন স্বতঃস্ফূর্তভাবে ঘটে। রিপোর্ট ফিরে আসার সময়, অতিরিক্ত সময় ইতিমধ্যেই পরিশোধিত হয়।",
           "outcome": "শ্রমের পরিবর্তন, মুহূর্তে।",
-          "outcomeCopy": "পালস স্থান অনুযায়ী লাইভ শ্রম% দেখায়, সার্ভার উৎপাদনশীলতা এবং অতিরিক্ত সময়ের ঝুঁকি — শিফট অনুযায়ী, মাস অনুযায়ী নয়।"
+          "outcomeCopy": "পালস স্থান অনুযায়ী লাইভ শ্রম% দেখায়, সার্ভার উৎপাদনশীলতা এবং অতিরিক্ত সময়ের ঝুঁকি — শিফট অনুযায়ী, মাস অনুযায়ী নয়। (Pulse)"
         },
         {
           "shortLabel": "প্রযুক্তি",
@@ -1104,7 +1104,7 @@ export const generatedLocalCopy = {
           "shortLabel": "CFO",
           "pluralLabel": "ผู้นำด้านการเงินและการวางแผนทางการเงิน",
           "pain": "สามวันในการปิดบัญชีคือเวลาที่มากเกินไป",
-          "painCopy": "ความแตกต่างปรากฏในงบกำไรขาดทุนของเดือนที่แล้ว ในขณะนั้นค่าใช้จ่ายได้ถูกบันทึกไว้แล้ว",
+          "painCopy": "Variance shows up in last month's P&L. By then the costs have already been booked.",
           "outcome": "ความแตกต่างของมาร์จิ้นในวันที่เกิดเหตุการณ์",
           "outcomeCopy": "ต้นทุนแรงงานระดับชั้น, ความแตกต่างของต้นทุนอาหาร, อัตราการยกเลิก — เชื่อมโยงกับเหตุการณ์ที่ทำให้เกิดมัน ปิดบัญชีให้เร็วขึ้น อธิบายให้มากขึ้น."
         },

@@ -1,5 +1,5 @@
 // Generated website local copy overrides for src/app/resources/page.tsx.
-// OpenAI generated completed chunks first; Google Translate fallback filled remaining quota-limited chunks.
+// Structural fields and protected glossary terms normalized from English source; review prose translations before release.
 export const generatedLocalCopy = {
   "localizedCaseStudies": {
     "es": [
@@ -10,7 +10,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core para paneles laborales en tiempo real",
           "Sundae Core para alertas de facturación y programación",
-          "Informe Sundae para la evaluación comparativa laboral"
+          "Sundae Report for labor benchmarking"
         ],
         "outcomes": [
           {
@@ -26,7 +26,7 @@ export const generatedLocalCopy = {
             "value": "3 veces más rápido"
           }
         ],
-        "icon": "franquicia",
+        "icon": "franchise",
         "color": "bg-[#1C47FF]"
       },
       {
@@ -36,7 +36,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core para análisis instantáneo de precios",
           "Sundae Core para seguimiento de márgenes",
-          "Informe Sundae para evaluaciones comparativas de categorías"
+          "Sundae Report for category benchmarks"
         ],
         "outcomes": [
           {
@@ -52,8 +52,8 @@ export const generatedLocalCopy = {
             "value": "en tiempo real"
           }
         ],
-        "icon": "multiubicación",
-        "color": "bg-verde-600"
+        "icon": "multiLocation",
+        "color": "bg-green-600"
       },
       {
         "segment": "Operador de cocina en la nube · Varias ciudades",
@@ -78,8 +78,8 @@ export const generatedLocalCopy = {
             "value": "+6%"
           }
         ],
-        "icon": "cocina",
-        "color": "bg-naranja-600"
+        "icon": "kitchen",
+        "color": "bg-orange-600"
       },
       {
         "segment": "Grupo Empresarial Hotelero · Regional",
@@ -87,7 +87,7 @@ export const generatedLocalCopy = {
         "description": "Operador hotelero con visibilidad limitada de los precios de la competencia, las tendencias de las categorías y la participación de mercado en 22 ubicaciones en mercados competitivos.",
         "solution": [
           "Sundae Watchtower para inteligencia de mercado",
-          "Informe Sundae para evaluación comparativa competitiva",
+          "Sundae Report for competitive benchmarking",
           "Sundae Core para análisis de mercado"
         ],
         "outcomes": [
@@ -104,8 +104,8 @@ export const generatedLocalCopy = {
             "value": "+4%"
           }
         ],
-        "icon": "evaluación comparativa",
-        "color": "bg-púrpura-600"
+        "icon": "benchmarking",
+        "color": "bg-purple-600"
       }
     ],
     "ar": [
@@ -116,7 +116,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core للوحات معلومات العمل في الوقت الفعلي",
           "Sundae Core لدوران وتنبيهات الجدولة",
-          "تقرير مثلجات لقياس العمل"
+          "Sundae Report for labor benchmarking"
         ],
         "outcomes": [
           {
@@ -132,8 +132,8 @@ export const generatedLocalCopy = {
             "value": "أسرع 3 مرات"
           }
         ],
-        "icon": "امتياز",
-        "color": "ب ج-[#1C47FF]"
+        "icon": "franchise",
+        "color": "bg-[#1C47FF]"
       },
       {
         "segment": "الامتياز العالمي · أكثر من 150 موقعًا",
@@ -142,7 +142,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core لتحليل الأسعار الفوري",
           "Sundae Core لتتبع الهامش",
-          "تقرير Sundae لمعايير الفئة"
+          "Sundae Report for category benchmarks"
         ],
         "outcomes": [
           {
@@ -159,7 +159,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "multiLocation",
-        "color": "بي جي-الأخضر-600"
+        "color": "bg-green-600"
       },
       {
         "segment": "مشغل المطبخ السحابي · متعدد المدن",
@@ -184,17 +184,17 @@ export const generatedLocalCopy = {
             "value": "+6%"
           }
         ],
-        "icon": "مطبخ",
-        "color": "بي جي-برتقالي-600"
+        "icon": "kitchen",
+        "color": "bg-orange-600"
       },
       {
         "segment": "مجموعة إنتربرايز للضيافة · إقليمية",
         "challenge": "تحديد المواقع في السوق",
         "description": "مشغل ضيافة يتمتع برؤية محدودة لأسعار المنافسين واتجاهات الفئات وحصة السوق عبر 22 موقعًا في الأسواق التنافسية.",
         "solution": [
-          "برج مراقبة مثلجات لاستخبارات السوق",
-          "تقرير Sundae لقياس الأداء التنافسي",
-          "مثلجات الأساسية لتحليل السوق"
+          "Sundae Watchtower for market intelligence",
+          "Sundae Report for competitive benchmarking",
+          "Sundae Core for market analysis"
         ],
         "outcomes": [
           {
@@ -210,8 +210,8 @@ export const generatedLocalCopy = {
             "value": "+4%"
           }
         ],
-        "icon": "قياس الأداء",
-        "color": "بي جي-أرجواني-600"
+        "icon": "benchmarking",
+        "color": "bg-purple-600"
       }
     ],
     "fr": [
@@ -222,7 +222,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core pour les tableaux de bord du travail en temps réel",
           "Sundae Core pour les alertes de chiffre d’affaires et de planification",
-          "Rapport Sundae pour l'analyse comparative du travail"
+          "Sundae Report for labor benchmarking"
         ],
         "outcomes": [
           {
@@ -248,7 +248,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core pour une analyse instantanée des prix",
           "Sundae Core pour le suivi des marges",
-          "Rapport Sundae pour les références de catégorie"
+          "Sundae Report for category benchmarks"
         ],
         "outcomes": [
           {
@@ -264,8 +264,8 @@ export const generatedLocalCopy = {
             "value": "En temps réel"
           }
         ],
-        "icon": "multiEmplacement",
-        "color": "bg-vert-600"
+        "icon": "multiLocation",
+        "color": "bg-green-600"
       },
       {
         "segment": "Opérateur Cloud Kitchen · Multi-villes",
@@ -290,7 +290,7 @@ export const generatedLocalCopy = {
             "value": "+6%"
           }
         ],
-        "icon": "cuisine",
+        "icon": "kitchen",
         "color": "bg-orange-600"
       },
       {
@@ -299,7 +299,7 @@ export const generatedLocalCopy = {
         "description": "Opérateur hôtelier avec une visibilité limitée sur les prix des concurrents, les tendances des catégories et la part de marché sur 22 sites sur des marchés concurrentiels.",
         "solution": [
           "Sundae Watchtower pour l'information sur le marché",
-          "Rapport Sundae pour une analyse comparative concurrentielle",
+          "Sundae Report for competitive benchmarking",
           "Sundae Core pour l’analyse du marché"
         ],
         "outcomes": [
@@ -316,8 +316,8 @@ export const generatedLocalCopy = {
             "value": "+4%"
           }
         ],
-        "icon": "analyse comparative",
-        "color": "bg-violet-600"
+        "icon": "benchmarking",
+        "color": "bg-purple-600"
       }
     ],
     "pt": [
@@ -328,7 +328,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core para painéis trabalhistas em tempo real",
           "Sundae Core para alertas de rotatividade e agendamento",
-          "Relatório Sundae para benchmarking trabalhista"
+          "Sundae Report for labor benchmarking"
         ],
         "outcomes": [
           {
@@ -344,7 +344,7 @@ export const generatedLocalCopy = {
             "value": "3x mais rápido"
           }
         ],
-        "icon": "franquia",
+        "icon": "franchise",
         "color": "bg-[#1C47FF]"
       },
       {
@@ -354,7 +354,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core para análise instantânea de preços",
           "Sundae Core para rastreamento de margem",
-          "Relatório Sundae para benchmarks de categoria"
+          "Sundae Report for category benchmarks"
         ],
         "outcomes": [
           {
@@ -371,7 +371,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "multiLocation",
-        "color": "bg-verde-600"
+        "color": "bg-green-600"
       },
       {
         "segment": "Operador de cozinha em nuvem · Várias cidades",
@@ -396,8 +396,8 @@ export const generatedLocalCopy = {
             "value": "+6%"
           }
         ],
-        "icon": "cozinha",
-        "color": "bg-laranja-600"
+        "icon": "kitchen",
+        "color": "bg-orange-600"
       },
       {
         "segment": "Grupo de hospitalidade empresarial · Regional",
@@ -405,7 +405,7 @@ export const generatedLocalCopy = {
         "description": "Operador de hotelaria com visibilidade limitada sobre preços de concorrentes, tendências de categoria e participação de mercado em 22 locais em mercados competitivos.",
         "solution": [
           "Sundae Watchtower para inteligência de mercado",
-          "Relatório Sundae para benchmarking competitivo",
+          "Sundae Report for competitive benchmarking",
           "Sundae Core para análise de mercado"
         ],
         "outcomes": [
@@ -423,7 +423,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "benchmarking",
-        "color": "bg-roxo-600"
+        "color": "bg-purple-600"
       }
     ],
     "de": [
@@ -434,7 +434,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core für Arbeits-Dashboards in Echtzeit",
           "Sundae Core für Umsatz- und Terminbenachrichtigungen",
-          "Sundae-Bericht für Arbeitsbenchmarking"
+          "Sundae Report for labor benchmarking"
         ],
         "outcomes": [
           {
@@ -450,7 +450,7 @@ export const generatedLocalCopy = {
             "value": "3x schneller"
           }
         ],
-        "icon": "Franchise",
+        "icon": "franchise",
         "color": "bg-[#1C47FF]"
       },
       {
@@ -476,8 +476,8 @@ export const generatedLocalCopy = {
             "value": "Echtzeit"
           }
         ],
-        "icon": "MultiLocation",
-        "color": "bg-grün-600"
+        "icon": "multiLocation",
+        "color": "bg-green-600"
       },
       {
         "segment": "Cloud-Küchenbetreiber · Multi-City",
@@ -502,7 +502,7 @@ export const generatedLocalCopy = {
             "value": "+6 %"
           }
         ],
-        "icon": "Küche",
+        "icon": "kitchen",
         "color": "bg-orange-600"
       },
       {
@@ -528,8 +528,8 @@ export const generatedLocalCopy = {
             "value": "+4 %"
           }
         ],
-        "icon": "Benchmarking",
-        "color": "bg-lila-600"
+        "icon": "benchmarking",
+        "color": "bg-purple-600"
       }
     ],
     "ur": [
@@ -540,7 +540,7 @@ export const generatedLocalCopy = {
         "solution": [
           "ریئل ٹائم لیبر ڈیش بورڈز کے لیے Sundae Core",
           "ٹرن اوور اور شیڈولنگ الرٹس کے لیے Sundae Core",
-          "سنڈی رپورٹ برائے لیبر بینچ مارکنگ"
+          "Sundae Report for labor benchmarking"
         ],
         "outcomes": [
           {
@@ -556,7 +556,7 @@ export const generatedLocalCopy = {
             "value": "3 گنا تیز"
           }
         ],
-        "icon": "فرنچائز",
+        "icon": "franchise",
         "color": "bg-[#1C47FF]"
       },
       {
@@ -566,7 +566,7 @@ export const generatedLocalCopy = {
         "solution": [
           "فوری قیمتوں کے تجزیہ کے لیے Sundae Core",
           "مارجن ٹریکنگ کے لیے Sundae Core",
-          "زمرہ بینچ مارکس کے لیے Sundae رپورٹ"
+          "Sundae Report for category benchmarks"
         ],
         "outcomes": [
           {
@@ -582,7 +582,7 @@ export const generatedLocalCopy = {
             "value": "حقیقی وقت"
           }
         ],
-        "icon": "ملٹی لوکیشن",
+        "icon": "multiLocation",
         "color": "bg-green-600"
       },
       {
@@ -590,7 +590,7 @@ export const generatedLocalCopy = {
         "challenge": "آپریشنل بلائنڈ سپاٹ",
         "description": "8 ڈیلیوری پلیٹ فارمز پر بکھرے ڈیٹا کے ساتھ تیزی سے بڑھتا ہوا کلاؤڈ کچن نیٹ ورک، کارکردگی کی پیمائش کو یکجا کرنے یا وینڈر کے مسائل کا پتہ لگانے سے قاصر ہے۔",
         "solution": [
-          "ڈیٹا انضمام کے لیے سنڈے سکاؤٹ",
+          "Sundae Scout for data integration",
           "ترسیل کی کارکردگی سے باخبر رہنے کے لیے Sundae Core",
           "متحد ڈیش بورڈز کے لیے Sundae Core"
         ],
@@ -608,16 +608,16 @@ export const generatedLocalCopy = {
             "value": "+6%"
           }
         ],
-        "icon": "باورچی خانے",
-        "color": "bg-اورنج-600"
+        "icon": "kitchen",
+        "color": "bg-orange-600"
       },
       {
         "segment": "انٹرپرائز ہاسپیٹلٹی گروپ · علاقائی",
         "challenge": "مارکیٹ پوزیشننگ",
         "description": "مسابقتی مارکیٹوں میں 22 مقامات پر مسابقتی قیمتوں، زمرے کے رجحانات، اور مارکیٹ شیئر میں محدود مرئیت کے ساتھ مہمان نوازی کا آپریٹر۔",
         "solution": [
-          "مارکیٹ انٹیلی جنس کے لیے سنڈے واچ ٹاور",
-          "مسابقتی بینچ مارکنگ کے لیے Sundae رپورٹ",
+          "مارکیٹ انٹیلی جنس کے لیے Sundae Watchtower",
+          "Sundae Report for competitive benchmarking",
           "مارکیٹ کے تجزیہ کے لیے Sundae Core"
         ],
         "outcomes": [
@@ -634,7 +634,7 @@ export const generatedLocalCopy = {
             "value": "+4%"
           }
         ],
-        "icon": "بینچ مارکنگ",
+        "icon": "benchmarking",
         "color": "bg-purple-600"
       }
     ],
@@ -672,7 +672,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core voor directe prijsanalyse",
           "Sundae Core voor het volgen van marges",
-          "Sundae-rapport voor categoriebenchmarks"
+          "Sundae Report for category benchmarks"
         ],
         "outcomes": [
           {
@@ -688,8 +688,8 @@ export const generatedLocalCopy = {
             "value": "Realtime"
           }
         ],
-        "icon": "multilocatie",
-        "color": "bg-groen-600"
+        "icon": "multiLocation",
+        "color": "bg-green-600"
       },
       {
         "segment": "Operator van een cloudkeuken · Meerdere steden",
@@ -714,8 +714,8 @@ export const generatedLocalCopy = {
             "value": "+6%"
           }
         ],
-        "icon": "keuken",
-        "color": "bg-oranje-600"
+        "icon": "kitchen",
+        "color": "bg-orange-600"
       },
       {
         "segment": "Enterprise Hospitality Group · Regionaal",
@@ -741,7 +741,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "benchmarking",
-        "color": "bg-paars-600"
+        "color": "bg-purple-600"
       }
     ],
     "tr": [
@@ -752,7 +752,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Gerçek zamanlı işgücü gösterge tabloları için Sundae Core",
           "Ciro ve planlama uyarıları için Sundae Core",
-          "İşgücü kıyaslaması için Sundae Raporu"
+          "Sundae Report for labor benchmarking"
         ],
         "outcomes": [
           {
@@ -768,7 +768,7 @@ export const generatedLocalCopy = {
             "value": "3 kat daha hızlı"
           }
         ],
-        "icon": "imtiyaz",
+        "icon": "franchise",
         "color": "bg-[#1C47FF]"
       },
       {
@@ -778,7 +778,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Anında fiyatlandırma analizi için Sundae Core",
           "Marj takibi için Sundae Core",
-          "Kategori karşılaştırmaları için Sundae Raporu"
+          "Sundae Report for category benchmarks"
         ],
         "outcomes": [
           {
@@ -794,7 +794,7 @@ export const generatedLocalCopy = {
             "value": "Gerçek zamanlı"
           }
         ],
-        "icon": "çoklu konum",
+        "icon": "multiLocation",
         "color": "bg-green-600"
       },
       {
@@ -820,8 +820,8 @@ export const generatedLocalCopy = {
             "value": "+%6"
           }
         ],
-        "icon": "mutfak",
-        "color": "bg-turuncu-600"
+        "icon": "kitchen",
+        "color": "bg-orange-600"
       },
       {
         "segment": "Kurumsal Konaklama Grubu · Bölgesel",
@@ -829,7 +829,7 @@ export const generatedLocalCopy = {
         "description": "Rekabetçi pazarlarda 22 konumdaki rakip fiyatları, kategori eğilimleri ve pazar payı konusunda sınırlı görünürlüğe sahip konaklama operatörü.",
         "solution": [
           "Pazar istihbaratı için Sundae Watchtower",
-          "Rekabetçi kıyaslama için Sundae Raporu",
+          "Sundae Report for competitive benchmarking",
           "Pazar analizi için Sundae Core"
         ],
         "outcomes": [
@@ -846,8 +846,8 @@ export const generatedLocalCopy = {
             "value": "+%4"
           }
         ],
-        "icon": "kıyaslama",
-        "color": "bg-mor-600"
+        "icon": "benchmarking",
+        "color": "bg-purple-600"
       }
     ],
     "hi": [
@@ -856,9 +856,9 @@ export const generatedLocalCopy = {
         "challenge": "श्रम लागत भिन्नता",
         "description": "35-स्थान रेस्तरां समूह मूल कारणों या शेड्यूलिंग दक्षता में कोई दृश्यता नहीं होने के कारण सभी स्थानों पर 18% श्रम लागत भिन्नता से जूझ रहा है।",
         "solution": [
-          "वास्तविक समय श्रम डैशबोर्ड के लिए संडे कोर",
-          "टर्नओवर और शेड्यूलिंग अलर्ट के लिए संडे कोर",
-          "श्रम बेंचमार्किंग के लिए संडे रिपोर्ट"
+          "Sundae Core for real-time labor dashboards",
+          "Sundae Core for turnover and scheduling alerts",
+          "Sundae Report for labor benchmarking"
         ],
         "outcomes": [
           {
@@ -874,17 +874,17 @@ export const generatedLocalCopy = {
             "value": "3 गुना तेज"
           }
         ],
-        "icon": "फ्रेंचाइजी",
-        "color": "बीजी-[#1सी47एफएफ]"
+        "icon": "franchise",
+        "color": "bg-[#1C47FF]"
       },
       {
         "segment": "वैश्विक फ्रेंचाइज़ · 150+ स्थान",
         "challenge": "मेनू मूल्य निर्धारण और मार्जिन क्षरण",
         "description": "मूल्य निर्धारण प्रभावशीलता और छूट के दुरुपयोग पर विलंबित अंतर्दृष्टि के साथ अंतर्राष्ट्रीय फ्रैंचाइज़ ऑपरेटर को विभिन्न क्षेत्रों में खाद्य लागत में 8% अंतर का सामना करना पड़ रहा है।",
         "solution": [
-          "तत्काल मूल्य निर्धारण विश्लेषण के लिए संडे कोर",
-          "मार्जिन ट्रैकिंग के लिए संडे कोर",
-          "श्रेणी बेंचमार्क के लिए संडे रिपोर्ट"
+          "Sundae Core for instant pricing analysis",
+          "Sundae Core for margin tracking",
+          "Sundae Report for category benchmarks"
         ],
         "outcomes": [
           {
@@ -900,17 +900,17 @@ export const generatedLocalCopy = {
             "value": "वास्तविक समय"
           }
         ],
-        "icon": "बहुस्थान",
-        "color": "बीजी-हरा-600"
+        "icon": "multiLocation",
+        "color": "bg-green-600"
       },
       {
         "segment": "क्लाउड किचन ऑपरेटर · मल्टी-सिटी",
         "challenge": "ऑपरेशनल ब्लाइंड स्पॉट",
         "description": "8 डिलीवरी प्लेटफार्मों पर खंडित डेटा के साथ तेजी से बढ़ता हुआ क्लाउड किचन नेटवर्क, प्रदर्शन मेट्रिक्स को एकीकृत करने या विक्रेता के मुद्दों का पता लगाने में असमर्थ है।",
         "solution": [
-          "डेटा एकीकरण के लिए संडे स्काउट",
-          "डिलीवरी प्रदर्शन ट्रैकिंग के लिए संडे कोर",
-          "एकीकृत डैशबोर्ड के लिए संडे कोर"
+          "डेटा एकीकरण के लिए Sundae Scout",
+          "Sundae Core for delivery performance tracking",
+          "Sundae Core for unified dashboards"
         ],
         "outcomes": [
           {
@@ -926,17 +926,17 @@ export const generatedLocalCopy = {
             "value": "+6%"
           }
         ],
-        "icon": "रसोई",
-        "color": "बीजी-नारंगी-600"
+        "icon": "kitchen",
+        "color": "bg-orange-600"
       },
       {
         "segment": "एंटरप्राइज हॉस्पिटैलिटी ग्रुप · क्षेत्रीय",
         "challenge": "बाज़ार स्थिति",
         "description": "प्रतिस्पर्धी बाजारों में 22 स्थानों पर प्रतिस्पर्धी मूल्य निर्धारण, श्रेणी के रुझान और बाजार हिस्सेदारी में सीमित दृश्यता के साथ आतिथ्य ऑपरेटर।",
         "solution": [
-          "बाजार की जानकारी के लिए संडे वॉचटावर",
-          "प्रतिस्पर्धी बेंचमार्किंग के लिए संडे रिपोर्ट",
-          "बाजार विश्लेषण के लिए संडे कोर"
+          "Sundae Watchtower for market intelligence",
+          "Sundae Report for competitive benchmarking",
+          "Sundae Core for market analysis"
         ],
         "outcomes": [
           {
@@ -952,8 +952,8 @@ export const generatedLocalCopy = {
             "value": "+4%"
           }
         ],
-        "icon": "बेंचमार्किंग",
-        "color": "बीजी-बैंगनी-600"
+        "icon": "benchmarking",
+        "color": "bg-purple-600"
       }
     ],
     "it": [
@@ -980,7 +980,7 @@ export const generatedLocalCopy = {
             "value": "3 volte più veloce"
           }
         ],
-        "icon": "franchising",
+        "icon": "franchise",
         "color": "bg-[#1C47FF]"
       },
       {
@@ -1006,8 +1006,8 @@ export const generatedLocalCopy = {
             "value": "In tempo reale"
           }
         ],
-        "icon": "multiLocalità",
-        "color": "bg-verde-600"
+        "icon": "multiLocation",
+        "color": "bg-green-600"
       },
       {
         "segment": "Operatore Cloud Kitchen · Multi-città",
@@ -1032,8 +1032,8 @@ export const generatedLocalCopy = {
             "value": "+6%"
           }
         ],
-        "icon": "cucina",
-        "color": "bg-arancione-600"
+        "icon": "kitchen",
+        "color": "bg-orange-600"
       },
       {
         "segment": "Gruppo di ospitalità aziendale · Regionale",
@@ -1059,7 +1059,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "benchmarking",
-        "color": "bg-viola-600"
+        "color": "bg-purple-600"
       }
     ],
     "zh-Hans": [
@@ -1070,7 +1070,7 @@ export const generatedLocalCopy = {
         "solution": [
           "用于实时劳动力仪表板的 Sundae Core",
           "Sundae Core 用于营业额和日程安排提醒",
-          "圣代劳工基准报告"
+          "Sundae Report for labor benchmarking"
         ],
         "outcomes": [
           {
@@ -1086,7 +1086,7 @@ export const generatedLocalCopy = {
             "value": "速度提高 3 倍"
           }
         ],
-        "icon": "特许经营权",
+        "icon": "franchise",
         "color": "bg-[#1C47FF]"
       },
       {
@@ -1094,9 +1094,9 @@ export const generatedLocalCopy = {
         "challenge": "菜单定价和利润侵蚀",
         "description": "国际特许经营运营商面临着不同地区 8% 的食品成本差异，对定价有效性和折扣滥用的洞察迟缓。",
         "solution": [
-          "圣代核心即时定价分析",
-          "用于保证金跟踪的圣代核心",
-          "圣代冰淇淋类别基准报告"
+          "Sundae Core for instant pricing analysis",
+          "Sundae Core for margin tracking",
+          "Sundae Report for category benchmarks"
         ],
         "outcomes": [
           {
@@ -1112,8 +1112,8 @@ export const generatedLocalCopy = {
             "value": "实时"
           }
         ],
-        "icon": "多地点",
-        "color": "BG-绿色-600"
+        "icon": "multiLocation",
+        "color": "bg-green-600"
       },
       {
         "segment": "云厨房运营商·多城市",
@@ -1138,17 +1138,17 @@ export const generatedLocalCopy = {
             "value": "+6%"
           }
         ],
-        "icon": "厨房",
-        "color": "BG-橙色-600"
+        "icon": "kitchen",
+        "color": "bg-orange-600"
       },
       {
         "segment": "企业酒店集团·区域",
         "challenge": "市场定位",
         "description": "酒店运营商对竞争市场中 22 个地点的竞争对手定价、类别趋势和市场份额的了解有限。",
         "solution": [
-          "圣代市场情报瞭望塔",
-          "圣代竞争基准报告",
-          "圣代核心市场分析"
+          "Sundae市场情报Watchtower",
+          "Sundae Report for competitive benchmarking",
+          "Sundae Core for market analysis"
         ],
         "outcomes": [
           {
@@ -1164,8 +1164,8 @@ export const generatedLocalCopy = {
             "value": "+4%"
           }
         ],
-        "icon": "标杆管理",
-        "color": "BG-紫色-600"
+        "icon": "benchmarking",
+        "color": "bg-purple-600"
       }
     ],
     "pl": [
@@ -1176,7 +1176,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core dla pulpitów nawigacyjnych pracy w czasie rzeczywistym",
           "Sundae Core do alertów o obrotach i planowaniu",
-          "Raport Sundae dotyczący analizy porównawczej pracy"
+          "Sundae Report for labor benchmarking"
         ],
         "outcomes": [
           {
@@ -1192,7 +1192,7 @@ export const generatedLocalCopy = {
             "value": "3x szybciej"
           }
         ],
-        "icon": "franczyza",
+        "icon": "franchise",
         "color": "bg-[#1C47FF]"
       },
       {
@@ -1202,7 +1202,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core do natychmiastowej analizy cen",
           "Sundae Core do śledzenia marży",
-          "Raport Sundae dotyczący wskaźników porównawczych kategorii"
+          "Sundae Report for category benchmarks"
         ],
         "outcomes": [
           {
@@ -1218,7 +1218,7 @@ export const generatedLocalCopy = {
             "value": "W czasie rzeczywistym"
           }
         ],
-        "icon": "wiele lokalizacji",
+        "icon": "multiLocation",
         "color": "bg-green-600"
       },
       {
@@ -1244,8 +1244,8 @@ export const generatedLocalCopy = {
             "value": "+6%"
           }
         ],
-        "icon": "kuchnia",
-        "color": "bg-pomarańczowy-600"
+        "icon": "kitchen",
+        "color": "bg-orange-600"
       },
       {
         "segment": "Grupa Enterprise Hospitality · Regionalna",
@@ -1253,7 +1253,7 @@ export const generatedLocalCopy = {
         "description": "Operator hotelarski z ograniczonym wglądem w ceny konkurencji, trendy w kategoriach i udział w rynku w 22 lokalizacjach na konkurencyjnych rynkach.",
         "solution": [
           "Sundae Watchtower w celu uzyskania informacji o rynku",
-          "Raport Sundae dotyczący porównań konkurencyjnych",
+          "Sundae Report for competitive benchmarking",
           "Sundae Core do analizy rynku"
         ],
         "outcomes": [
@@ -1271,7 +1271,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "benchmarking",
-        "color": "bg-fioletowy-600"
+        "color": "bg-purple-600"
       }
     ],
     "ja": [
@@ -1282,7 +1282,7 @@ export const generatedLocalCopy = {
         "solution": [
           "リアルタイム労働ダッシュボード用の Sundae Core",
           "売上高とスケジュールアラートのための Sundae Core",
-          "労働基準に関するサンデーレポート"
+          "Sundae Report for labor benchmarking"
         ],
         "outcomes": [
           {
@@ -1298,7 +1298,7 @@ export const generatedLocalCopy = {
             "value": "3倍高速"
           }
         ],
-        "icon": "フランチャイズ",
+        "icon": "franchise",
         "color": "bg-[#1C47FF]"
       },
       {
@@ -1307,8 +1307,8 @@ export const generatedLocalCopy = {
         "description": "国際的なフランチャイズ オペレーターは、価格設定の有効性と割引の乱用に関する洞察の遅れにより、地域間で 8% の食費の差異に直面しています。",
         "solution": [
           "インスタント価格分析のための Sundae Core",
-          "マージン追跡用のサンデーコア",
-          "カテゴリベンチマークのサンデーレポート"
+          "Sundae Core for margin tracking",
+          "Sundae Report for category benchmarks"
         ],
         "outcomes": [
           {
@@ -1324,8 +1324,8 @@ export const generatedLocalCopy = {
             "value": "リアルタイム"
           }
         ],
-        "icon": "マルチロケーション",
-        "color": "bg-グリーン-600"
+        "icon": "multiLocation",
+        "color": "bg-green-600"
       },
       {
         "segment": "クラウド キッチン オペレーター · 複数都市",
@@ -1350,17 +1350,17 @@ export const generatedLocalCopy = {
             "value": "+6%"
           }
         ],
-        "icon": "キッチン",
-        "color": "bg-オレンジ-600"
+        "icon": "kitchen",
+        "color": "bg-orange-600"
       },
       {
         "segment": "エンタープライズ ホスピタリティ グループ · 地域",
         "challenge": "市場での位置づけ",
         "description": "競合市場の 22 か所にわたる競合他社の価格設定、カテゴリの傾向、市場シェアに対する可視性が限られているホスピタリティ オペレーター。",
         "solution": [
-          "マーケットインテリジェンスのためのサンデーウォッチタワー",
-          "競合ベンチマーク用のサンデー レポート",
-          "市場分析のためのサンデーコア"
+          "Sundae Watchtower for market intelligence",
+          "Sundae Report for competitive benchmarking",
+          "Sundae Core for market analysis"
         ],
         "outcomes": [
           {
@@ -1376,8 +1376,8 @@ export const generatedLocalCopy = {
             "value": "+4%"
           }
         ],
-        "icon": "ベンチマーク",
-        "color": "bg-パープル-600"
+        "icon": "benchmarking",
+        "color": "bg-purple-600"
       }
     ],
     "ko": [
@@ -1386,9 +1386,9 @@ export const generatedLocalCopy = {
         "challenge": "인건비 차이",
         "description": "35개 지점의 레스토랑 그룹은 근본 원인이나 일정 효율성을 파악하지 못한 채 위치 간 18%의 인건비 차이로 인해 어려움을 겪었습니다.",
         "solution": [
-          "실시간 노동 대시보드를 위한 선대코어",
+          "Sundae Core for real-time labor dashboards",
           "매출 및 예약 알림을 위한 Sundae Core",
-          "노동 벤치마킹 순대보고서"
+          "Sundae Report for labor benchmarking"
         ],
         "outcomes": [
           {
@@ -1404,7 +1404,7 @@ export const generatedLocalCopy = {
             "value": "3배 더 빠르게"
           }
         ],
-        "icon": "프랜차이즈",
+        "icon": "franchise",
         "color": "bg-[#1C47FF]"
       },
       {
@@ -1412,9 +1412,9 @@ export const generatedLocalCopy = {
         "challenge": "메뉴 가격 및 마진 감소",
         "description": "가격 효율성 및 할인 남용에 대한 통찰력이 지연되면서 지역 간 8%의 식품 비용 차이에 직면한 국제 프랜차이즈 운영자입니다.",
         "solution": [
-          "즉각적인 가격 분석을 위한 선대 코어",
-          "마진추적용 순대코어",
-          "카테고리 벤치마크 순대 보고서"
+          "Sundae Core for instant pricing analysis",
+          "Sundae Core for margin tracking",
+          "Sundae Report for category benchmarks"
         ],
         "outcomes": [
           {
@@ -1430,16 +1430,16 @@ export const generatedLocalCopy = {
             "value": "실시간"
           }
         ],
-        "icon": "다중 위치",
-        "color": "bg-녹색-600"
+        "icon": "multiLocation",
+        "color": "bg-green-600"
       },
       {
         "segment": "클라우드 키친 운영자 · 다구간",
         "challenge": "운영 사각지대",
         "description": "8개 제공 플랫폼에 분산된 데이터로 인해 빠르게 성장하는 클라우드 키친 네트워크로 인해 성능 지표를 통합하거나 공급업체 문제를 감지할 수 없습니다.",
         "solution": [
-          "데이터 통합을 위한 순대스카우트",
-          "배송실적 추적을 위한 순대코어",
+          "Sundae Scout for data integration",
+          "Sundae Core for delivery performance tracking",
           "통합 대시보드를 위한 Sundae Core"
         ],
         "outcomes": [
@@ -1456,17 +1456,17 @@ export const generatedLocalCopy = {
             "value": "+6%"
           }
         ],
-        "icon": "부엌",
-        "color": "bg-오렌지-600"
+        "icon": "kitchen",
+        "color": "bg-orange-600"
       },
       {
         "segment": "Enterprise Hospitality Group · 지역",
         "challenge": "시장 포지셔닝",
         "description": "경쟁 시장의 22개 위치에 대한 경쟁사 가격, 카테고리 추세 및 시장 점유율에 대한 가시성이 제한적인 숙박업 운영업체입니다.",
         "solution": [
-          "시장정보를 위한 순대망루",
-          "경쟁 벤치마킹을 위한 순대 보고서",
-          "시장분석을 위한 순대코어"
+          "Sundae Watchtower for market intelligence",
+          "Sundae Report for competitive benchmarking",
+          "Sundae Core for market analysis"
         ],
         "outcomes": [
           {
@@ -1482,8 +1482,8 @@ export const generatedLocalCopy = {
             "value": "+4%"
           }
         ],
-        "icon": "벤치마킹",
-        "color": "bg-보라색-600"
+        "icon": "benchmarking",
+        "color": "bg-purple-600"
       }
     ],
     "id": [
@@ -1494,7 +1494,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core untuk dasbor tenaga kerja real-time",
           "Sundae Core untuk pemberitahuan pergantian dan penjadwalan",
-          "Laporan Sundae untuk tolok ukur tenaga kerja"
+          "Sundae Report for labor benchmarking"
         ],
         "outcomes": [
           {
@@ -1510,7 +1510,7 @@ export const generatedLocalCopy = {
             "value": "3x lebih cepat"
           }
         ],
-        "icon": "waralaba",
+        "icon": "franchise",
         "color": "bg-[#1C47FF]"
       },
       {
@@ -1520,7 +1520,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core untuk analisis harga instan",
           "Sundae Core untuk pelacakan margin",
-          "Laporan Sundae untuk tolok ukur kategori"
+          "Sundae Report for category benchmarks"
         ],
         "outcomes": [
           {
@@ -1536,8 +1536,8 @@ export const generatedLocalCopy = {
             "value": "Waktu nyata"
           }
         ],
-        "icon": "multiLokasi",
-        "color": "bg-hijau-600"
+        "icon": "multiLocation",
+        "color": "bg-green-600"
       },
       {
         "segment": "Operator Cloud Kitchen · Multi-Kota",
@@ -1562,16 +1562,16 @@ export const generatedLocalCopy = {
             "value": "+6%"
           }
         ],
-        "icon": "dapur",
-        "color": "bg-oranye-600"
+        "icon": "kitchen",
+        "color": "bg-orange-600"
       },
       {
         "segment": "Grup Perhotelan Perusahaan · Regional",
         "challenge": "Penentuan Posisi Pasar",
         "description": "Operator perhotelan dengan visibilitas terbatas terhadap harga pesaing, tren kategori, dan pangsa pasar di 22 lokasi di pasar kompetitif.",
         "solution": [
-          "Menara Pengawal Sundae untuk intelijen pasar",
-          "Laporan Sundae untuk tolok ukur kompetitif",
+          "Sundae Watchtower for market intelligence",
+          "Sundae Report for competitive benchmarking",
           "Sundae Core untuk analisis pasar"
         ],
         "outcomes": [
@@ -1588,8 +1588,8 @@ export const generatedLocalCopy = {
             "value": "+4%"
           }
         ],
-        "icon": "pembandingan",
-        "color": "bg-ungu-600"
+        "icon": "benchmarking",
+        "color": "bg-purple-600"
       }
     ],
     "bn": [
@@ -1599,8 +1599,8 @@ export const generatedLocalCopy = {
         "description": "35-অবস্থানের রেস্তোরাঁ গোষ্ঠী মূল কারণ বা সময়সূচী দক্ষতার কোন দৃশ্যমানতা ছাড়াই 18% শ্রম খরচের ভিন্নতার সাথে লড়াই করেছে।",
         "solution": [
           "রিয়েল-টাইম লেবার ড্যাশবোর্ডের জন্য Sundae Core",
-          "টার্নওভার এবং সময়সূচী সতর্কতা জন্য Sundae কোর",
-          "শ্রম বেঞ্চমার্কিং জন্য Sundae রিপোর্ট"
+          "Sundae Core for turnover and scheduling alerts",
+          "Sundae Report for labor benchmarking"
         ],
         "outcomes": [
           {
@@ -1616,7 +1616,7 @@ export const generatedLocalCopy = {
             "value": "3 গুণ দ্রুত"
           }
         ],
-        "icon": "ভোটাধিকার",
+        "icon": "franchise",
         "color": "bg-[#1C47FF]"
       },
       {
@@ -1624,9 +1624,9 @@ export const generatedLocalCopy = {
         "challenge": "মেনু মূল্য এবং মার্জিন ক্ষয়",
         "description": "আন্তর্জাতিক ফ্র্যাঞ্চাইজি অপারেটর মূল্য নির্ধারণের কার্যকারিতা এবং ডিসকাউন্ট অপব্যবহারের বিলম্বিত অন্তর্দৃষ্টি সহ বিভিন্ন অঞ্চলে 8% খাদ্য খরচ বৈচিত্র্যের সম্মুখীন।",
         "solution": [
-          "তাত্ক্ষণিক মূল্য বিশ্লেষণের জন্য Sundae কোর",
-          "মার্জিন ট্র্যাকিং জন্য Sundae কোর",
-          "বিভাগ বেঞ্চমার্ক জন্য Sundae রিপোর্ট"
+          "Sundae Core for instant pricing analysis",
+          "Sundae Core for margin tracking",
+          "Sundae Report for category benchmarks"
         ],
         "outcomes": [
           {
@@ -1642,17 +1642,17 @@ export const generatedLocalCopy = {
             "value": "রিয়েল-টাইম"
           }
         ],
-        "icon": "বহু অবস্থান",
-        "color": "বিজি-সবুজ-600"
+        "icon": "multiLocation",
+        "color": "bg-green-600"
       },
       {
         "segment": "ক্লাউড কিচেন অপারেটর · মাল্টি-সিটি",
         "challenge": "অপারেশনাল ব্লাইন্ড স্পট",
         "description": "8টি ডেলিভারি প্ল্যাটফর্ম জুড়ে খণ্ডিত ডেটা সহ দ্রুত বর্ধনশীল ক্লাউড কিচেন নেটওয়ার্ক, পারফরম্যান্স মেট্রিক্স একত্রিত করতে বা বিক্রেতার সমস্যাগুলি সনাক্ত করতে অক্ষম৷",
         "solution": [
-          "ডেটা ইন্টিগ্রেশনের জন্য সানডে স্কাউট",
-          "ডেলিভারি কর্মক্ষমতা ট্র্যাকিং জন্য Sundae কোর",
-          "ইউনিফাইড ড্যাশবোর্ডের জন্য Sundae কোর"
+          "Sundae Scout for data integration",
+          "Sundae Core for delivery performance tracking",
+          "Sundae Core for unified dashboards"
         ],
         "outcomes": [
           {
@@ -1668,17 +1668,17 @@ export const generatedLocalCopy = {
             "value": "+6%"
           }
         ],
-        "icon": "রান্নাঘর",
-        "color": "bg-কমলা-600"
+        "icon": "kitchen",
+        "color": "bg-orange-600"
       },
       {
         "segment": "এন্টারপ্রাইজ হসপিটালিটি গ্রুপ · আঞ্চলিক",
         "challenge": "মার্কেট পজিশনিং",
         "description": "প্রতিযোগী মূল্য, বিভাগ প্রবণতা, এবং প্রতিযোগিতামূলক বাজারে 22টি অবস্থান জুড়ে মার্কেট শেয়ারের মধ্যে সীমিত দৃশ্যমানতার সাথে আতিথেয়তা অপারেটর।",
         "solution": [
-          "বাজার বুদ্ধিমত্তার জন্য Sundae ওয়াচটাওয়ার",
-          "প্রতিযোগিতামূলক বেঞ্চমার্কিং জন্য Sundae রিপোর্ট",
-          "বাজার বিশ্লেষণের জন্য সানডে কোর"
+          "Sundae Watchtower for market intelligence",
+          "Sundae Report for competitive benchmarking",
+          "Sundae Core for market analysis"
         ],
         "outcomes": [
           {
@@ -1694,8 +1694,8 @@ export const generatedLocalCopy = {
             "value": "+4%"
           }
         ],
-        "icon": "বেঞ্চমার্কিং",
-        "color": "bg-বেগুনি-600"
+        "icon": "benchmarking",
+        "color": "bg-purple-600"
       }
     ],
     "ro": [
@@ -1706,7 +1706,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core pentru tablouri de bord ale forței de muncă în timp real",
           "Sundae Core pentru alerte privind cifra de afaceri și programare",
-          "Raport Sundae pentru evaluarea comparativă a muncii"
+          "Sundae Report for labor benchmarking"
         ],
         "outcomes": [
           {
@@ -1722,7 +1722,7 @@ export const generatedLocalCopy = {
             "value": "de 3 ori mai rapid"
           }
         ],
-        "icon": "franciza",
+        "icon": "franchise",
         "color": "bg-[#1C47FF]"
       },
       {
@@ -1732,7 +1732,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core pentru analiza instantanee a prețurilor",
           "Sundae Core pentru urmărirea marjei",
-          "Raport Sundae pentru reperele de categorie"
+          "Sundae Report for category benchmarks"
         ],
         "outcomes": [
           {
@@ -1749,7 +1749,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "multiLocation",
-        "color": "bg-verde-600"
+        "color": "bg-green-600"
       },
       {
         "segment": "Operator Bucătărie Cloud · Multi-City",
@@ -1774,7 +1774,7 @@ export const generatedLocalCopy = {
             "value": "+6%"
           }
         ],
-        "icon": "bucatarie",
+        "icon": "kitchen",
         "color": "bg-orange-600"
       },
       {
@@ -1783,7 +1783,7 @@ export const generatedLocalCopy = {
         "description": "Operator de ospitalitate cu vizibilitate limitată asupra prețurilor concurenților, tendințelor categoriei și cotei de piață în 22 de locații de pe piețe competitive.",
         "solution": [
           "Sundae Watchtower pentru informații despre piață",
-          "Raport Sundae pentru benchmarking competitiv",
+          "Sundae Report for competitive benchmarking",
           "Sundae Core pentru analiza pieței"
         ],
         "outcomes": [
@@ -1801,7 +1801,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "benchmarking",
-        "color": "bg-violet-600"
+        "color": "bg-purple-600"
       }
     ],
     "vi": [
@@ -1812,7 +1812,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core cho bảng thông tin lao động theo thời gian thực",
           "Sundae Core để thông báo doanh thu và lập kế hoạch",
-          "Báo cáo Sundae về tiêu chuẩn lao động"
+          "Sundae Report for labor benchmarking"
         ],
         "outcomes": [
           {
@@ -1828,7 +1828,7 @@ export const generatedLocalCopy = {
             "value": "nhanh hơn gấp 3 lần"
           }
         ],
-        "icon": "nhượng quyền thương mại",
+        "icon": "franchise",
         "color": "bg-[#1C47FF]"
       },
       {
@@ -1838,7 +1838,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core để phân tích giá ngay lập tức",
           "Sundae Core để theo dõi lợi nhuận",
-          "Báo cáo Sundae cho điểm chuẩn danh mục"
+          "Sundae Report for category benchmarks"
         ],
         "outcomes": [
           {
@@ -1854,8 +1854,8 @@ export const generatedLocalCopy = {
             "value": "thời gian thực"
           }
         ],
-        "icon": "đa vị trí",
-        "color": "bg-xanh-600"
+        "icon": "multiLocation",
+        "color": "bg-green-600"
       },
       {
         "segment": "Nhà điều hành Cloud Kitchen · Nhiều thành phố",
@@ -1880,16 +1880,16 @@ export const generatedLocalCopy = {
             "value": "+6%"
           }
         ],
-        "icon": "nhà bếp",
-        "color": "bg-cam-600"
+        "icon": "kitchen",
+        "color": "bg-orange-600"
       },
       {
         "segment": "Tập đoàn khách sạn doanh nghiệp · Khu vực",
         "challenge": "Định vị thị trường",
         "description": "Nhà điều hành khách sạn có khả năng hiển thị hạn chế về giá cả, xu hướng danh mục và thị phần của đối thủ cạnh tranh trên 22 địa điểm trong các thị trường cạnh tranh.",
         "solution": [
-          "Tháp canh Sundae cho thông tin thị trường",
-          "Báo cáo Sundae về điểm chuẩn cạnh tranh",
+          "Sundae Watchtower for market intelligence",
+          "Sundae Report for competitive benchmarking",
           "Sundae Core để phân tích thị trường"
         ],
         "outcomes": [
@@ -1906,8 +1906,8 @@ export const generatedLocalCopy = {
             "value": "+4%"
           }
         ],
-        "icon": "điểm chuẩn",
-        "color": "bg-tím-600"
+        "icon": "benchmarking",
+        "color": "bg-purple-600"
       }
     ],
     "sv": [
@@ -1918,7 +1918,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core för arbetsinstrumentpaneler i realtid",
           "Sundae Core för omsättnings- och schemaläggningsvarningar",
-          "Sundae-rapport för benchmarking av arbetskraft"
+          "Sundae Report for labor benchmarking"
         ],
         "outcomes": [
           {
@@ -1961,7 +1961,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "multiLocation",
-        "color": "bg-grön-600"
+        "color": "bg-green-600"
       },
       {
         "segment": "Cloud Kitchen Operator · Multi-City",
@@ -1986,7 +1986,7 @@ export const generatedLocalCopy = {
             "value": "+6 %"
           }
         ],
-        "icon": "kök",
+        "icon": "kitchen",
         "color": "bg-orange-600"
       },
       {
@@ -2013,7 +2013,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "benchmarking",
-        "color": "bg-lila-600"
+        "color": "bg-purple-600"
       }
     ],
     "th": [
@@ -2040,8 +2040,8 @@ export const generatedLocalCopy = {
             "value": "เร็วขึ้น 3 เท่า"
           }
         ],
-        "icon": "แฟรนไชส์",
-        "color": "บีจี-[#1C47FF]"
+        "icon": "franchise",
+        "color": "bg-[#1C47FF]"
       },
       {
         "segment": "แฟรนไชส์ระดับโลก · มากกว่า 150 แห่ง",
@@ -2050,7 +2050,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core สำหรับการวิเคราะห์ราคาทันที",
           "Sundae Core สำหรับการติดตามมาร์จิ้น",
-          "รายงาน Sundae สำหรับการวัดประสิทธิภาพหมวดหมู่"
+          "Sundae Report for category benchmarks"
         ],
         "outcomes": [
           {
@@ -2066,8 +2066,8 @@ export const generatedLocalCopy = {
             "value": "เรียลไทม์"
           }
         ],
-        "icon": "หลายตำแหน่ง",
-        "color": "บีจี-เขียว-600"
+        "icon": "multiLocation",
+        "color": "bg-green-600"
       },
       {
         "segment": "ผู้ดำเนินการ Cloud Kitchen · หลายเมือง",
@@ -2092,15 +2092,15 @@ export const generatedLocalCopy = {
             "value": "+6%"
           }
         ],
-        "icon": "ห้องครัว",
-        "color": "บีจี-ส้ม-600"
+        "icon": "kitchen",
+        "color": "bg-orange-600"
       },
       {
         "segment": "Enterprise Hospitality Group · ภูมิภาค",
         "challenge": "การวางตำแหน่งทางการตลาด",
         "description": "ผู้ประกอบการด้านการบริการซึ่งมีการมองเห็นราคาของคู่แข่ง แนวโน้มหมวดหมู่ และส่วนแบ่งการตลาดในสถานที่ตั้ง 22 แห่งในตลาดที่มีการแข่งขันอย่างจำกัด",
         "solution": [
-          "หอสังเกตการณ์ Sundae สำหรับข่าวกรองการตลาด",
+          "Sundae Watchtower for market intelligence",
           "Sundae Report สำหรับการเปรียบเทียบการแข่งขัน",
           "Sundae Core สำหรับการวิเคราะห์ตลาด"
         ],
@@ -2118,8 +2118,8 @@ export const generatedLocalCopy = {
             "value": "+4%"
           }
         ],
-        "icon": "การเปรียบเทียบ",
-        "color": "บีจี-ม่วง-600"
+        "icon": "benchmarking",
+        "color": "bg-purple-600"
       }
     ],
     "ms": [
@@ -2128,9 +2128,9 @@ export const generatedLocalCopy = {
         "challenge": "Varians Kos Buruh",
         "description": "Kumpulan restoran 35 lokasi bergelut dengan 18% varians kos buruh di seluruh lokasi tanpa keterlihatan kepada punca atau kecekapan penjadualan.",
         "solution": [
-          "Teras Sundae untuk papan pemuka buruh masa nyata",
+          "Sundae Core for real-time labor dashboards",
           "Sundae Core untuk makluman perolehan dan penjadualan",
-          "Laporan Sundae untuk penanda aras buruh"
+          "Sundae Report for labor benchmarking"
         ],
         "outcomes": [
           {
@@ -2146,7 +2146,7 @@ export const generatedLocalCopy = {
             "value": "3x lebih pantas"
           }
         ],
-        "icon": "francais",
+        "icon": "franchise",
         "color": "bg-[#1C47FF]"
       },
       {
@@ -2156,7 +2156,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core untuk analisis harga segera",
           "Sundae Core untuk penjejakan margin",
-          "Laporan Sundae untuk penanda aras kategori"
+          "Sundae Report for category benchmarks"
         ],
         "outcomes": [
           {
@@ -2172,17 +2172,17 @@ export const generatedLocalCopy = {
             "value": "Masa nyata"
           }
         ],
-        "icon": "berbilangLokasi",
-        "color": "bg-hijau-600"
+        "icon": "multiLocation",
+        "color": "bg-green-600"
       },
       {
         "segment": "Operator Dapur Awan · Berbilang Bandar",
         "challenge": "Bintik Buta Operasi",
         "description": "Rangkaian dapur awan yang berkembang pesat dengan data berpecah-belah merentas 8 platform penghantaran, tidak dapat menyatukan metrik prestasi atau mengesan isu vendor.",
         "solution": [
-          "Pengakap Sundae untuk penyepaduan data",
+          "Sundae Scout for data integration",
           "Sundae Core untuk penjejakan prestasi penghantaran",
-          "Teras Sundae untuk papan pemuka bersatu"
+          "Sundae Core for unified dashboards"
         ],
         "outcomes": [
           {
@@ -2198,8 +2198,8 @@ export const generatedLocalCopy = {
             "value": "+6%"
           }
         ],
-        "icon": "dapur",
-        "color": "bg-oren-600"
+        "icon": "kitchen",
+        "color": "bg-orange-600"
       },
       {
         "segment": "Kumpulan Hospitaliti Perusahaan · Serantau",
@@ -2207,7 +2207,7 @@ export const generatedLocalCopy = {
         "description": "Pengendali hospitaliti dengan keterlihatan terhad kepada harga pesaing, arah aliran kategori dan bahagian pasaran merentas 22 lokasi dalam pasaran yang kompetitif.",
         "solution": [
           "Sundae Watchtower untuk risikan pasaran",
-          "Laporan Sundae untuk penanda aras kompetitif",
+          "Sundae Report for competitive benchmarking",
           "Sundae Core untuk analisis pasaran"
         ],
         "outcomes": [
@@ -2224,8 +2224,8 @@ export const generatedLocalCopy = {
             "value": "+4%"
           }
         ],
-        "icon": "penanda aras",
-        "color": "bg-ungu-600"
+        "icon": "benchmarking",
+        "color": "bg-purple-600"
       }
     ]
   },
@@ -2233,20 +2233,20 @@ export const generatedLocalCopy = {
     "fr": {
       "productLinks": [
         {
-          "name": "Rapport sur les coupes glacées",
-          "href": "/rapport"
+          "name": "Sundae Report",
+          "href": "/report"
         },
         {
-          "name": "Noyau de coupe glacée",
-          "href": "/lien"
+          "name": "Sundae Core",
+          "href": "/product"
         },
         {
-          "name": "Aperçu des coupes glacées",
-          "href": "/informations"
+          "name": "Sundae Intelligence",
+          "href": "/intelligence"
         },
         {
-          "name": "Toile pour coupe glacée",
-          "href": "/toile"
+          "name": "Pulse",
+          "href": "/product/pulse"
         }
       ],
       "newsletterPlaceholder": "Entrez votre email"
@@ -2254,20 +2254,20 @@ export const generatedLocalCopy = {
     "ar": {
       "productLinks": [
         {
-          "name": "تقرير ساندي",
-          "href": "/تقرير"
+          "name": "Sundae Report",
+          "href": "/report"
         },
         {
-          "name": "مثلجات الأساسية",
-          "href": "/nexus"
+          "name": "Sundae Core",
+          "href": "/product"
         },
         {
-          "name": "رؤى مثلجات",
-          "href": "/رؤى"
+          "name": "رؤى Sundae",
+          "href": "/intelligence"
         },
         {
-          "name": "قماش مثلجات",
-          "href": "/canvas"
+          "name": "Pulse",
+          "href": "/product/pulse"
         }
       ],
       "newsletterPlaceholder": "أدخل بريدك الإلكتروني"
@@ -2275,20 +2275,20 @@ export const generatedLocalCopy = {
     "es": {
       "productLinks": [
         {
-          "name": "Informe de helado",
-          "href": "/informe"
+          "name": "Sundae Report",
+          "href": "/report"
         },
         {
-          "name": "Núcleo de helado",
-          "href": "/nexo"
+          "name": "Sundae Core",
+          "href": "/product"
         },
         {
-          "name": "Perspectivas del helado",
-          "href": "/perspectivas"
+          "name": "Sundae Intelligence",
+          "href": "/intelligence"
         },
         {
-          "name": "Lienzo de helado",
-          "href": "/lienzo"
+          "name": "Pulse",
+          "href": "/product/pulse"
         }
       ],
       "newsletterPlaceholder": "Introduce tu correo electrónico"
@@ -2296,20 +2296,20 @@ export const generatedLocalCopy = {
     "de": {
       "productLinks": [
         {
-          "name": "Eisbecher-Bericht",
-          "href": "/bericht"
+          "name": "Sundae Report",
+          "href": "/report"
         },
         {
-          "name": "Eisbecherkern",
-          "href": "/nexus"
+          "name": "Sundae Core",
+          "href": "/product"
         },
         {
-          "name": "Einblicke in Eisbecher",
-          "href": "/Einblicke"
+          "name": "Sundae Intelligence",
+          "href": "/intelligence"
         },
         {
-          "name": "Eisbecher-Leinwand",
-          "href": "/Leinwand"
+          "name": "Pulse",
+          "href": "/product/pulse"
         }
       ],
       "newsletterPlaceholder": "Geben Sie Ihre E-Mail-Adresse ein"
@@ -2317,20 +2317,20 @@ export const generatedLocalCopy = {
     "nl": {
       "productLinks": [
         {
-          "name": "Sundae-rapport",
-          "href": "/rapport"
+          "name": "Sundae Report",
+          "href": "/report"
         },
         {
-          "name": "Sundae Kern",
-          "href": "/nexus"
+          "name": "Sundae Core",
+          "href": "/product"
         },
         {
           "name": "Sundae-inzichten",
-          "href": "/inzichten"
+          "href": "/intelligence"
         },
         {
-          "name": "Ijscoupe canvas",
-          "href": "/doek"
+          "name": "Pulse",
+          "href": "/product/pulse"
         }
       ],
       "newsletterPlaceholder": "Voer uw e-mailadres in"
@@ -2338,20 +2338,20 @@ export const generatedLocalCopy = {
     "pt": {
       "productLinks": [
         {
-          "name": "Relatório Sundae",
-          "href": "/relatório"
+          "name": "Sundae Report",
+          "href": "/report"
         },
         {
-          "name": "Núcleo de Sundae",
-          "href": "/nexo"
+          "name": "Sundae Core",
+          "href": "/product"
         },
         {
           "name": "Informações sobre Sundae",
-          "href": "/insights"
+          "href": "/intelligence"
         },
         {
-          "name": "Tela de sundae",
-          "href": "/tela"
+          "name": "Pulse",
+          "href": "/product/pulse"
         }
       ],
       "newsletterPlaceholder": "Digite seu e-mail"
@@ -2359,20 +2359,20 @@ export const generatedLocalCopy = {
     "ur": {
       "productLinks": [
         {
-          "name": "سنڈے رپورٹ",
-          "href": "/رپورٹ"
+          "name": "Sundae Report",
+          "href": "/report"
         },
         {
-          "name": "سنڈے کور",
-          "href": "/ گٹھ جوڑ"
+          "name": "Sundae Core",
+          "href": "/product"
         },
         {
-          "name": "سنڈے انسائٹس",
-          "href": "/بصیرت"
+          "name": "Sundae انسائٹس",
+          "href": "/intelligence"
         },
         {
-          "name": "سنڈے کینوس",
-          "href": "/کینوس"
+          "name": "Pulse",
+          "href": "/product/pulse"
         }
       ],
       "newsletterPlaceholder": "اپنا ای میل درج کریں۔"
@@ -2380,20 +2380,20 @@ export const generatedLocalCopy = {
     "hi": {
       "productLinks": [
         {
-          "name": "संडे रिपोर्ट",
-          "href": "/रिपोर्ट"
+          "name": "Sundae Report",
+          "href": "/report"
         },
         {
-          "name": "संडे कोर",
-          "href": "/नेक्सस"
+          "name": "Sundae Core",
+          "href": "/product"
         },
         {
-          "name": "संडे इनसाइट्स",
-          "href": "/अंतर्दृष्टि"
+          "name": "Sundae इनसाइट्स",
+          "href": "/intelligence"
         },
         {
-          "name": "संडे कैनवास",
-          "href": "/कैनवस"
+          "name": "Pulse",
+          "href": "/product/pulse"
         }
       ],
       "newsletterPlaceholder": "अपना ईमेल दर्ज करें"
@@ -2401,20 +2401,20 @@ export const generatedLocalCopy = {
     "it": {
       "productLinks": [
         {
-          "name": "Rapporto sul gelato",
-          "href": "/rapporto"
+          "name": "Sundae Report",
+          "href": "/report"
         },
         {
-          "name": "Nucleo di gelato",
-          "href": "/nesso"
+          "name": "Sundae Core",
+          "href": "/product"
         },
         {
-          "name": "Approfondimenti sul gelato",
-          "href": "/approfondimenti"
+          "name": "Sundae Intelligence",
+          "href": "/intelligence"
         },
         {
-          "name": "Tela per gelato",
-          "href": "/tela"
+          "name": "Pulse",
+          "href": "/product/pulse"
         }
       ],
       "newsletterPlaceholder": "Inserisci la tua email"
@@ -2422,20 +2422,20 @@ export const generatedLocalCopy = {
     "pl": {
       "productLinks": [
         {
-          "name": "Raport z Lodów",
-          "href": "/raport"
+          "name": "Sundae Report",
+          "href": "/report"
         },
         {
-          "name": "Rdzeń Lodowy",
-          "href": "/połączenie"
+          "name": "Sundae Core",
+          "href": "/product"
         },
         {
-          "name": "Wgląd w lody",
-          "href": "/spostrzeżenia"
+          "name": "Sundae Intelligence",
+          "href": "/intelligence"
         },
         {
-          "name": "Płótno z deserami lodowymi",
-          "href": "/płótno"
+          "name": "Pulse",
+          "href": "/product/pulse"
         }
       ],
       "newsletterPlaceholder": "Wpisz swój adres e-mail"
@@ -2443,20 +2443,20 @@ export const generatedLocalCopy = {
     "zh-Hans": {
       "productLinks": [
         {
-          "name": "圣代报告",
-          "href": "/报告"
+          "name": "Sundae Report",
+          "href": "/report"
         },
         {
-          "name": "圣代核心",
-          "href": "/联系"
+          "name": "Sundae Core",
+          "href": "/product"
         },
         {
-          "name": "圣代洞察",
-          "href": "/见解"
+          "name": "Sundae洞察",
+          "href": "/intelligence"
         },
         {
-          "name": "圣代帆布",
-          "href": "/画布"
+          "name": "Pulse",
+          "href": "/product/pulse"
         }
       ],
       "newsletterPlaceholder": "输入您的电子邮件"
@@ -2464,20 +2464,20 @@ export const generatedLocalCopy = {
     "ko": {
       "productLinks": [
         {
-          "name": "순대보고서",
-          "href": "/보고"
+          "name": "Sundae Report",
+          "href": "/report"
         },
         {
-          "name": "순대코어",
-          "href": "/넥서스"
+          "name": "Sundae Core",
+          "href": "/product"
         },
         {
-          "name": "순대인사이트",
-          "href": "/인사이트"
+          "name": "Sundae Intelligence",
+          "href": "/intelligence"
         },
         {
-          "name": "순대캔버스",
-          "href": "/캔버스"
+          "name": "Pulse",
+          "href": "/product/pulse"
         }
       ],
       "newsletterPlaceholder": "이메일을 입력하세요"
@@ -2485,20 +2485,20 @@ export const generatedLocalCopy = {
     "tr": {
       "productLinks": [
         {
-          "name": "Pazar Raporu",
-          "href": "/rapor"
+          "name": "Sundae Report",
+          "href": "/report"
         },
         {
-          "name": "Dondurma Çekirdeği",
-          "href": "/nexus"
+          "name": "Sundae Core",
+          "href": "/product"
         },
         {
           "name": "Sundae İçgörüleri",
-          "href": "/analizler"
+          "href": "/intelligence"
         },
         {
-          "name": "Sundae Kanvas",
-          "href": "/tuval"
+          "name": "Pulse",
+          "href": "/product/pulse"
         }
       ],
       "newsletterPlaceholder": "E-postanızı girin"
@@ -2506,20 +2506,20 @@ export const generatedLocalCopy = {
     "ja": {
       "productLinks": [
         {
-          "name": "サンデーレポート",
-          "href": "/レポート"
+          "name": "Sundae Report",
+          "href": "/report"
         },
         {
-          "name": "サンデーコア",
-          "href": "/ネクサス"
+          "name": "Sundae Core",
+          "href": "/product"
         },
         {
-          "name": "サンデーの洞察",
-          "href": "/洞察"
+          "name": "Sundaeの洞察",
+          "href": "/intelligence"
         },
         {
-          "name": "サンデーキャンバス",
-          "href": "/キャンバス"
+          "name": "Pulse",
+          "href": "/product/pulse"
         }
       ],
       "newsletterPlaceholder": "メールアドレスを入力してください"
@@ -2527,20 +2527,20 @@ export const generatedLocalCopy = {
     "id": {
       "productLinks": [
         {
-          "name": "Laporan Sundae",
-          "href": "/laporan"
+          "name": "Sundae Report",
+          "href": "/report"
         },
         {
-          "name": "Inti Sundae",
-          "href": "/nexus"
+          "name": "Sundae Core",
+          "href": "/product"
         },
         {
           "name": "Wawasan Sundae",
-          "href": "/wawasan"
+          "href": "/intelligence"
         },
         {
-          "name": "Kanvas Sundae",
-          "href": "/kanvas"
+          "name": "Pulse",
+          "href": "/product/pulse"
         }
       ],
       "newsletterPlaceholder": "Masukkan email Anda"
@@ -2548,20 +2548,20 @@ export const generatedLocalCopy = {
     "vi": {
       "productLinks": [
         {
-          "name": "Báo cáo Sundae",
-          "href": "/báo cáo"
+          "name": "Sundae Report",
+          "href": "/report"
         },
         {
-          "name": "Lõi Sundae",
-          "href": "/nexus"
+          "name": "Sundae Core",
+          "href": "/product"
         },
         {
           "name": "Thông tin chi tiết về Sundae",
-          "href": "/thông tin chi tiết"
+          "href": "/intelligence"
         },
         {
-          "name": "Vải Sundae",
-          "href": "/canvas"
+          "name": "Pulse",
+          "href": "/product/pulse"
         }
       ],
       "newsletterPlaceholder": "Nhập email của bạn"
@@ -2569,20 +2569,20 @@ export const generatedLocalCopy = {
     "ro": {
       "productLinks": [
         {
-          "name": "Raport Sundae",
-          "href": "/raport"
+          "name": "Sundae Report",
+          "href": "/report"
         },
         {
           "name": "Sundae Core",
-          "href": "/nexus"
+          "href": "/product"
         },
         {
           "name": "Sundae Insights",
-          "href": "/insights"
+          "href": "/intelligence"
         },
         {
-          "name": "Sundae Canvas",
-          "href": "/pânză"
+          "name": "Pulse",
+          "href": "/product/pulse"
         }
       ],
       "newsletterPlaceholder": "Introduceți adresa dvs. de e-mail"
@@ -2590,20 +2590,20 @@ export const generatedLocalCopy = {
     "bn": {
       "productLinks": [
         {
-          "name": "সানডে রিপোর্ট",
-          "href": "/ প্রতিবেদন"
+          "name": "Sundae Report",
+          "href": "/report"
         },
         {
-          "name": "সানডে কোর",
-          "href": "/নেক্সাস"
+          "name": "Sundae Core",
+          "href": "/product"
         },
         {
-          "name": "সানডে ইনসাইটস",
-          "href": "/ অন্তর্দৃষ্টি"
+          "name": "Sundae ইনসাইটস",
+          "href": "/intelligence"
         },
         {
-          "name": "সানডে ক্যানভাস",
-          "href": "/ক্যানভাস"
+          "name": "Pulse",
+          "href": "/product/pulse"
         }
       ],
       "newsletterPlaceholder": "আপনার ইমেইল লিখুন"
@@ -2611,20 +2611,20 @@ export const generatedLocalCopy = {
     "sv": {
       "productLinks": [
         {
-          "name": "Sundae Rapport",
-          "href": "/rapport"
+          "name": "Sundae Report",
+          "href": "/report"
         },
         {
           "name": "Sundae Core",
-          "href": "/nexus"
+          "href": "/product"
         },
         {
           "name": "Sundae Insights",
-          "href": "/insikter"
+          "href": "/intelligence"
         },
         {
-          "name": "Sundae Canvas",
-          "href": "/canvas"
+          "name": "Pulse",
+          "href": "/product/pulse"
         }
       ],
       "newsletterPlaceholder": "Ange din e-postadress"
@@ -2632,20 +2632,20 @@ export const generatedLocalCopy = {
     "th": {
       "productLinks": [
         {
-          "name": "รายงานซันเดย์",
-          "href": "/รายงาน"
+          "name": "Sundae Report",
+          "href": "/report"
         },
         {
-          "name": "ซันเดย์คอร์",
-          "href": "/เน็กซัส"
+          "name": "Sundae Core",
+          "href": "/product"
         },
         {
-          "name": "ข้อมูลเชิงลึกของซุนแด",
-          "href": "/ข้อมูลเชิงลึก"
+          "name": "Sundae Intelligence",
+          "href": "/intelligence"
         },
         {
-          "name": "ซันเดย์แคนวาส",
-          "href": "/ผ้าใบ"
+          "name": "Pulse",
+          "href": "/product/pulse"
         }
       ],
       "newsletterPlaceholder": "ใส่อีเมลของคุณ"
@@ -2653,20 +2653,20 @@ export const generatedLocalCopy = {
     "ms": {
       "productLinks": [
         {
-          "name": "Laporan Sundae",
-          "href": "/laporan"
+          "name": "Sundae Report",
+          "href": "/report"
         },
         {
-          "name": "Teras Sundae",
-          "href": "/nexus"
+          "name": "Sundae Core",
+          "href": "/product"
         },
         {
           "name": "Wawasan Sundae",
-          "href": "/pandangan"
+          "href": "/intelligence"
         },
         {
-          "name": "Kanvas Sundae",
-          "href": "/kanvas"
+          "name": "Pulse",
+          "href": "/product/pulse"
         }
       ],
       "newsletterPlaceholder": "Masukkan e-mel anda"
