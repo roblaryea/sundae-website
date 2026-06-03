@@ -276,12 +276,12 @@ const GALLERY: GalleryItem[] = [
 
   // ─── Benchmark — Network-effect peer comparison ──────────────
   {
-    id: "benchmark-network-pulse",
-    src: "/images/product/2026-fresh/benchmark-network-pulse.png",
-    alt: "Benchmark — RevPASH index and peer comparison",
-    caption: "Benchmark — Network Pulse",
+    id: "benchmark-revpash-trend",
+    src: "/images/product/2026-fresh/benchmark-revpash-trend.png",
+    alt: "Benchmark — RevPASH vs compset over time with P25–P75 percentile band",
+    caption: "Benchmark — RevPASH vs Compset",
     whatYouSee:
-      "Compare against anonymized peers: RevPASH Index 152 (P93 vs cohort — above 100 means outperforming the market), Health Score 59, 2 open insights, 1 competitive set. Network Pulse flags \"seat occupancy outpaces compset\" and \"top-quartile RevPASH,\" with Overview, Performance, Trends, Forecast, Market Intel and Portfolio all live.",
+      "Your RevPASH tracked against the anonymized compset, week by week — your line against the market median over a shaded P25–P75 percentile band. Your Latest AED 7.37 vs Compset Median AED 7.63 (3.4% below — a 9-week streak), Avg Index 93.6, trend improving; click any week to drill in. The network-effect data moat, visualized.",
     personas: ["c_suite", "cfo", "multi_loc"],
     productHref: "/benchmarking",
     productLabel: "Benchmark →",
