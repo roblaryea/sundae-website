@@ -153,7 +153,7 @@ export default function DiagnosticPage() {
             Get your Sundae Operations Diagnostic.
           </h1>
           <p className="text-lg sm:text-xl text-[var(--text-supporting)] max-w-3xl mx-auto mb-10 text-balance">
-            Answer 15 strategic questions about your operation. Sundae generates
+            Answer 20 strategic questions about your operation. Sundae generates
             a personalized diagnostic showing the margin leaks we&rsquo;d surface,
             the recommended stack, and a 30/60/90 plan you can share with your
             team.
@@ -179,7 +179,7 @@ export default function DiagnosticPage() {
           className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-4"
         >
           {[
-            { icon: Clock, title: "10 minutes", detail: "15 chip-based questions across operation, workforce, decision intelligence, foresight, and tech stack." },
+            { icon: Clock, title: "10 minutes", detail: "20 questions across operation, workforce, decision intelligence, foresight, and tech stack." },
             { icon: FileText, title: "Premium report", detail: "Top-3 margin leak hypotheses, recommended Sundae stack, expected impact ranges, 30/60/90 plan — premium-styled and shareable." },
             { icon: ShieldCheck, title: "Honest output", detail: "Directional ranges only, never customer-specific projections. We tell you what we'd surface, not what we'd promise." },
           ].map((feat, i) => (

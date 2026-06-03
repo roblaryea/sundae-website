@@ -1,7 +1,7 @@
 /**
  * Sundae Operations Diagnostic — question framework.
  *
- * 15 chip-based questions across 5 dimensions (Operation profile, Crew,
+ * 20 questions (18 chip + 2 free-text) across 5 dimensions (Operation profile, Crew,
  * Core, Foresight, Tech stack). Designed for ~10-minute completion. Two
  * free-text fields max — everything else is chip selection (single or
  * multi).

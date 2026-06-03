@@ -48,7 +48,7 @@ export default async function DemoPage() {
             Want substance before the call?
           </h2>
           <p className="text-base text-[var(--text-supporting)] mb-6 max-w-2xl mx-auto">
-            Take the Sundae Operations Diagnostic — 15 strategic questions →
+            Take the Sundae Operations Diagnostic — 20 strategic questions →
             personalized report showing the margin leaks we&rsquo;d surface, the
             recommended stack, and a 30/60/90 plan. Same outcome as a discovery
             call, on your time, with a shareable artifact at the end.

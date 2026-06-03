@@ -45,9 +45,9 @@ export const EconomicsSchema = z.object({
     basis: z.string().describe('One line referencing their stated SaaS spend band and the tools Sundae consolidates'),
   }),
   ebitdaUplift: z.object({
-    pctRange: z.string().describe('EBITDA-margin point uplift range e.g. "+1.5–3.5 margin points"'),
-    amountRange: z.string().describe('Absolute monthly uplift across the group e.g. "$9K–24K / mo"'),
-    basis: z.string().describe('One line: estimated revenue (AUV × outlets) × the impact ranges; note it is illustrative'),
+    pctRange: z.string().describe('EBITDA-margin point uplift range, conservative and consistent with the expectedImpact margin lift e.g. "+1–3 margin points"'),
+    amountRange: z.string().describe('ANNUAL absolute uplift across the group e.g. "$1.0M–3.0M / yr" — pctRange applied to est. annual revenue. Never monthly (a monthly figure overstates).'),
+    basis: z.string().describe('Transparent ladder: pctRange × est. annual revenue (AUV × outlets). State it is an illustrative ceiling assuming full realisation over ~12 months, not a quote'),
   }),
   softUplifts: z.array(SoftUpliftSchema).min(2).max(5).describe('Non-financial uplifts: happier/better-trained staff, happier guests, faster decisions'),
 }).describe('Directional economics — ranges derived from comparable operators and list pricing, never a customer-specific quote');

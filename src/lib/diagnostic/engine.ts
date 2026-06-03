@@ -131,7 +131,8 @@ const BUDGET_MID: Record<string, number> = {
 };
 const money = (n: number): string =>
   n >= 1_000_000 ? `$${(n / 1_000_000).toFixed(n >= 10_000_000 ? 0 : 1)}M`
-  : n >= 1_000 ? `$${Math.round(n / 1000)}K`
+  : n >= 10_000 ? `$${Math.round(n / 1000)}K`
+  : n >= 1_000 ? `$${(n / 1000).toFixed(1)}K`   // sub-$10K: one decimal so ranges don't collapse
   : `$${Math.round(n / 10) * 10}`;
 
 function computeEconomics(
@@ -158,13 +159,14 @@ function computeEconomics(
         basis: `Typical replaced-tooling savings across ~${outlets} outlets (BI, scheduling, reporting). Add your SaaS spend for a tighter figure.` };
 
   const auv = AUV_MID[String(responses.avg_unit_volume ?? "")];
+  const annualRev = auv ? auv * outlets : 0;
   const ebitdaUplift = auv
-    ? { pctRange: "+1.5–3.5 margin points",
-        amountRange: `${money(((auv * outlets) / 12) * 0.015)}–${money(((auv * outlets) / 12) * 0.035)} / mo`,
-        basis: `Est. ${money(auv * outlets)} annual revenue (${money(auv)} AUV × ${outlets} outlets) × the impact ranges above. Illustrative, not a quote.` }
-    : { pctRange: "+1.5–3.5 margin points",
+    ? { pctRange: "+1–3 margin points",
+        amountRange: `${money(annualRev * 0.01)}–${money(annualRev * 0.03)} / yr`,
+        basis: `≈ the +1–3 margin-point range on est. ${money(annualRev)} revenue (${money(auv)} AUV × ${outlets} outlets). Illustrative ceiling assuming full realisation over ~12 months — not a quote.` }
+    : { pctRange: "+1–3 margin points",
         amountRange: "Add your AUV to size this",
-        basis: "Share average revenue per outlet to convert the margin-point range into a monthly figure." };
+        basis: "Share average revenue per outlet to convert the margin-point range into an annual figure." };
 
   const softUplifts: SoftUplift[] = [];
   if (has(responses.labor_pain, "turnover")) {
