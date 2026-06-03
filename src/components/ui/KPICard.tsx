@@ -117,7 +117,7 @@ export function KPICard({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-      className={`text-center ${className}`}
+      className={`text-center min-w-0 ${className}`}
     >
       <div ref={boxRef} className="overflow-hidden text-center">
         <span
