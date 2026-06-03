@@ -12,6 +12,7 @@ import { MockupFrame } from "@/components/ui/MockupFrame";
 import { FadeUp } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { HeroLiveDashboard } from "./HeroLiveDashboard";
+import { SectionEditorialBand } from "./sections/SectionEditorialBand";
 import { SectionOldWaySundaeWay } from "./sections/SectionOldWaySundaeWay";
 import { SectionSpeedQualityCost } from "./sections/SectionSpeedQualityCost";
 import { SectionWhatYouRetire } from "./sections/SectionWhatYouRetire";
@@ -251,6 +252,11 @@ export default function HomeContent() {
             </div>
           </div>
         </section>
+
+        {/* ════════════════════════════════════════════════
+            2a. HUMANIZED EDITORIAL BAND — the real restaurant world
+        ════════════════════════════════════════════════ */}
+        <SectionEditorialBand />
 
         {/* ════════════════════════════════════════════════
             2b. FROM REPORTING LAG TO OPS SPEED — Old Way vs Sundae Way

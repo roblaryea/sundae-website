@@ -1,6 +1,7 @@
 "use client";
 
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { EditorialImage } from "@/components/ui/EditorialImage";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/components_home_sections_SectionProof'
 
@@ -136,6 +137,19 @@ export function SectionProof() {
               <div className="mt-2 text-sm sm:text-base text-[var(--text-supporting)]">{s.label}</div>
             </div>
           ))}
+        </div>
+
+        {/* Theme-matched editorial anchor — warm room in light, moody room in dark.
+            Each mode keeps its own first-class image (no conflation). */}
+        <div className="mt-12 sm:mt-16 max-w-5xl mx-auto">
+          <EditorialImage
+            src="/images/editorial/atmosphere.jpg"
+            light="/images/editorial/dining-room.jpg"
+            alt="An operator's dining room mid-service"
+            ratio="aspect-[16/10] sm:aspect-[21/9]"
+            overlay="blend"
+            rounded="rounded-[24px]"
+          />
         </div>
 
         <div className="mt-16 sm:mt-20 max-w-5xl mx-auto">
