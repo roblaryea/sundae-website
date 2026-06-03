@@ -197,7 +197,7 @@ export function SectionPersonaSwitcher() {
           role="tabpanel"
           id={`persona-panel-${activeStructure.id}`}
           aria-labelledby={`persona-tab-${activeStructure.id}`}
-          className="grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)] gap-8 lg:gap-12 items-center max-w-6xl mx-auto"
+          className="grid lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.25fr)] gap-8 lg:gap-12 items-center max-w-7xl mx-auto"
         >
           <AnimatePresence mode="wait">
             <motion.div
