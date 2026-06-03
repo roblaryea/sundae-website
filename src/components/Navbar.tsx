@@ -242,7 +242,7 @@ const Navbar = () => {
           {/* Desktop Navigation — tighter spacing (space-x-6) so the right-side
               CTA cluster doesn't collide with the Resources dropdown at narrow
               widths; min-w-0 lets the row shrink instead of overflow */}
-          <div className="hidden lg:flex items-center space-x-6 min-w-0">
+          <div className="hidden xl:flex items-center space-x-5 min-w-0 whitespace-nowrap">
             {/* Products Mega Menu */}
             <div className="relative group" onMouseLeave={() => setActiveDropdown(null)}>
               <button
@@ -457,7 +457,7 @@ const Navbar = () => {
           {/* CTA Buttons — flex-shrink-0 + ml-6 so they don't collide with the
               nav links section; whitespace-nowrap on every button so
               "Sign In" / "Book a Demo" stay on one line at all widths */}
-          <div className="hidden lg:flex items-center space-x-3 flex-shrink-0 ml-6">
+          <div className="hidden xl:flex items-center space-x-2.5 flex-shrink-0 ml-4">
             <LocaleSwitcher />
             <ThemeToggle />
             <Button
@@ -482,8 +482,8 @@ const Navbar = () => {
             </Button>
           </div>
 
-          {/* Mobile: Menu Button */}
-          <div className="lg:hidden flex items-center gap-2">
+          {/* Mobile / tablet: Menu Button (inline nav shows at xl+) */}
+          <div className="xl:hidden flex items-center gap-2">
             <button
               type="button"
               className="inline-flex items-center justify-center p-2 rounded-lg text-[var(--text-primary)] hover:bg-[var(--surface-hover)] focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 relative z-50"
@@ -522,7 +522,7 @@ const Navbar = () => {
 
       {/* Mobile Menu Full-Screen Drawer */}
       <div
-        className={`fixed inset-0 z-[60] lg:hidden transition-opacity duration-300 ${
+        className={`fixed inset-0 z-[60] xl:hidden transition-opacity duration-300 ${
           isMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
         }`}
         aria-modal="true"

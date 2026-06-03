@@ -16,6 +16,8 @@ import { HeroLiveDashboard } from "./HeroLiveDashboard";
 import { SectionEditorialBand } from "./sections/SectionEditorialBand";
 import { SectionEditorialSplit } from "./sections/SectionEditorialSplit";
 import { SundaeWordmark } from "./sections/SundaeWordmark";
+import { editorialCopy, type EditorialCopy } from "./sections/editorialCopy";
+import { heroDashboardCopy } from "./heroDashboardCopy";
 import { SectionOldWaySundaeWay } from "./sections/SectionOldWaySundaeWay";
 import { SectionSpeedQualityCost } from "./sections/SectionSpeedQualityCost";
 import { SectionWhatYouRetire } from "./sections/SectionWhatYouRetire";
@@ -51,12 +53,14 @@ function withWordmark(text: string, markClassName: string) {
 /* ─── Component ────────────────────────────────────────────────── */
 
 export default function HomeContent() {
-  const { messages } = useWebsiteI18n();
+  const { messages, locale } = useWebsiteI18n();
   const home = messages.home;
+  const editorial: EditorialCopy =
+    editorialCopy[locale as keyof typeof editorialCopy] ?? editorialCopy.en;
   const problem = home.problem;
   const platform = home.platform;
   const modules = home.modules;
-  const mockup = home.mockup;
+  const heroDash = heroDashboardCopy[locale as keyof typeof heroDashboardCopy] ?? heroDashboardCopy.en;
   const cta = useCta();
   const painRef = useRef<HTMLDivElement>(null);
   const painInView = useInView(painRef, { once: true, margin: "-80px" });
@@ -174,7 +178,7 @@ export default function HomeContent() {
             >
               <p className="body-xl max-w-2xl mx-auto mb-10">
                 {home.description}
-                <span className="text-[var(--text-primary)] font-medium"> {withWordmark(home.descriptionEmphasis, "h-[0.82em] w-auto inline-block align-[-0.06em] mx-[0.06em] text-[var(--text-primary)]")}</span>
+                <span className="text-[var(--text-primary)] font-medium"> {withWordmark(home.descriptionEmphasis, "h-[0.8em] w-auto inline-block align-middle mx-[0.04em] text-[var(--text-primary)]")}</span>
               </p>
             </motion.div>
 
@@ -226,21 +230,8 @@ export default function HomeContent() {
               animate={{ rotateX: 1.5, scale: 1, opacity: 1 }}
               transition={{ duration: 1.2, delay: 1.1, ease: [0.25, 0.1, 0.25, 1] }}
             >
-              <MockupFrame label={mockup.frameLabel} glow>
-                <HeroLiveDashboard
-                  kpis={mockup.kpis.map((kpi) => ({
-                    label: kpi.label,
-                    value: kpi.value,
-                    trend: kpi.trend,
-                    trendUp: kpi.trendUp,
-                    color: "color" in kpi ? kpi.color : undefined,
-                  }))}
-                  paceLabel={mockup.paceLabel}
-                  tableHeaders={[...mockup.tableHeaders]}
-                  tableRows={mockup.tableRows.map((row) => [...row])}
-                  coachAlert={mockup.coachAlert}
-                  updatedAt={mockup.updatedAt}
-                />
+              <MockupFrame label={heroDash.frameLabel} glow>
+                <HeroLiveDashboard />
               </MockupFrame>
             </motion.div>
           </motion.div>
@@ -300,10 +291,10 @@ export default function HomeContent() {
         ════════════════════════════════════════════════ */}
         <SectionEditorialBand
           src="/images/editorial/chef-sauce.jpg"
-          alt="A chef finishing a plated dish on the kitchen pass during service"
-          eyebrow="From the pass to the P&L"
-          headline="The intelligence layer for the restaurant you actually run."
-          sub="Not another dashboard to check. Sundae reads every shift, cover, and line item — and tells you the next right move while it still matters."
+          alt={editorial.band1.alt}
+          eyebrow={editorial.band1.eyebrow}
+          headline={editorial.band1.headline}
+          sub={editorial.band1.sub}
           priority
         />
 
@@ -390,15 +381,13 @@ export default function HomeContent() {
         ════════════════════════════════════════════════ */}
         <SectionEditorialBand
           src="/images/editorial/kitchen-pass.jpg"
-          alt="A chef working the line on the kitchen pass during service"
-          eyebrow="Built for the line, not the boardroom"
-          headline={
-            <>
-              Your team is already moving fast.{" "}
-              <SundaeWordmark className="h-[0.78em] w-auto inline-block align-middle text-white" /> moves with them.
-            </>
-          }
-          sub="Live pacing, labor, and exceptions across every outlet — so the call you make at 7pm is the right one, not the one you second-guess at midnight."
+          alt={editorial.band2.alt}
+          eyebrow={editorial.band2.eyebrow}
+          headline={withWordmark(
+            editorial.band2.headline,
+            "h-[0.8em] w-auto inline-block align-middle text-white"
+          )}
+          sub={editorial.band2.sub}
         />
 
         {/* ════════════════════════════════════════════════
@@ -471,15 +460,15 @@ export default function HomeContent() {
         <SectionEditorialSplit
           src="/images/editorial/service-warm.jpg"
           light="/images/editorial/service-plates.jpg"
-          alt="A host attending to guests in a warmly lit dining room"
-          eyebrow="Your floor, your call"
+          alt={editorial.closer.alt}
+          eyebrow={editorial.closer.eyebrow}
           headline={
             <>
-              The best operators don&apos;t have more hours.{" "}
-              <span className="text-[var(--electric-blue)]">They have better information.</span>
+              {editorial.closer.headlineLead}{" "}
+              <span className="text-[var(--electric-blue)]">{editorial.closer.headlineEmphasis}</span>
             </>
           }
-          sub="Sundae gives you the read on your business that great instincts deserve — across every outlet, in real time."
+          sub={editorial.closer.sub}
           imageSide="right"
         />
 

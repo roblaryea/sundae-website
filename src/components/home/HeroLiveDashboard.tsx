@@ -2,21 +2,21 @@
 
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
+import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { heroDashboardCopy } from "./heroDashboardCopy";
 
-interface HeroLiveDashboardProps {
-  kpis: Array<{
-    label: string;
-    value: string;
-    trend: string;
-    trendUp: boolean;
-    color?: string;
-  }>;
-  paceLabel: string;
-  tableHeaders: string[];
-  tableRows: string[][];
-  coachAlert: string;
-  updatedAt: string;
-}
+/**
+ * The hero dashboard's TEXT is fully localized via heroDashboardCopy (resolved
+ * by the active locale) — this is the one product mockup we translate across all
+ * 22 locales to show Sundae's multilingual reach. The numeric figures animate
+ * locally and stay in USD ($) by design (it reads as a real product capture).
+ *
+ * KPI value/trend colors and the Coach tag colors are fixed by INDEX, so the
+ * translated tag labels never break the color mapping.
+ */
+const KPI_VALUE_COLORS = ["#1C47FF", "#22C55E", "#FBBF24", "#22C55E"];
+const KPI_TREND_UP = [true, true, false, true];
+const COACH_COLORS = ["#5B8DEF", "#22C55E", "#FBBF24", "#F472B6", "#A78BFA"];
 
 /**
  * Hero live dashboard — a product-accurate recreation of the real Sundae Pulse
@@ -39,12 +39,9 @@ const COACH_MS = 4600;
 const TARGET = 18200;
 const LABOR_COST_BASE = 4055; // ≈ 28.4% of the $14,280 baseline
 
-export function HeroLiveDashboard({
-  kpis,
-  paceLabel,
-  coachAlert,
-  updatedAt,
-}: HeroLiveDashboardProps) {
+export function HeroLiveDashboard() {
+  const { locale } = useWebsiteI18n();
+  const copy = heroDashboardCopy[locale as keyof typeof heroDashboardCopy] ?? heroDashboardCopy.en;
   const reduceMotion = useReducedMotion();
   const [covers, setCovers] = useState(287);
   const [revenue, setRevenue] = useState(14280);
@@ -83,32 +80,22 @@ export function HeroLiveDashboard({
   const expectedPct = Math.min(100, (expected / TARGET) * 100);
   const fmt = (n: number) => `$${Math.round(n).toLocaleString("en-US")}`;
 
-  const liveValues: Array<{ value: string; color: string }> = [
-    { value: fmt(revenue), color: kpis[0]?.color ?? "#1C47FF" },
-    { value: covers.toString(), color: kpis[1]?.color ?? "#22C55E" },
-    { value: `$${avgCheck.toFixed(2)}`, color: kpis[2]?.color ?? "#FBBF24" },
-    { value: `${laborPct.toFixed(1)}%`, color: kpis[3]?.color ?? "#22C55E" },
+  const liveValues: string[] = [
+    fmt(revenue),
+    covers.toString(),
+    `$${avgCheck.toFixed(2)}`,
+    `${laborPct.toFixed(1)}%`,
   ];
 
-  // Sundae Coach feed — recommendation #1 is the localized coachAlert; the rest
-  // demonstrate the breadth Sundae surfaces across the operation.
-  const coachItems: Array<{ tag: string; text: string; impact: string }> = [
-    { tag: "Upsell", text: coachAlert, impact: "+$420 / shift" },
-    { tag: "Labor", text: "Hold the 9 PM cut — you're tracking 1.5 labor hours under budget.", impact: "-$280 cost" },
-    { tag: "Inventory", text: "Ribeye is selling 22% ahead of forecast — 86 risk by 8:30 PM. Prep 6 more.", impact: "6 covers at risk" },
-    { tag: "Service", text: "Table 12 seated 47 min with no entrée fired — nudge the kitchen.", impact: "guest NPS" },
-    { tag: "Marketing", text: "Repeat last Tuesday's happy-hour — it lifted covers 9%.", impact: "+9% covers" },
-  ];
-  const at = (o: number) => coachItems[(((coachIdx - o) % coachItems.length) + coachItems.length) % coachItems.length];
-  const feed = [at(0), at(1), at(2)];
-
-  const tagColor: Record<string, string> = {
-    Upsell: "#5B8DEF",
-    Labor: "#22C55E",
-    Inventory: "#FBBF24",
-    Service: "#F472B6",
-    Marketing: "#A78BFA",
+  // Sundae Coach feed — localized; colored by original index so translated tag
+  // labels never break the color mapping. The feed cycles a new item to the top.
+  const coachItems = copy.coachItems;
+  const n = coachItems.length;
+  const at = (o: number) => {
+    const idx = (((coachIdx - o) % n) + n) % n;
+    return { ...coachItems[idx], idx };
   };
+  const feed = [at(0), at(1), at(2)];
 
   return (
     <div className="space-y-3">
@@ -116,10 +103,10 @@ export function HeroLiveDashboard({
       <div className="flex items-center justify-between gap-2">
         <div className="min-w-0">
           <div className="text-[12px] sm:text-sm font-semibold text-[var(--text-primary)] truncate">
-            {paceLabel}
+            {copy.paceLabel}
           </div>
           <div className="text-[9px] sm:text-[10px] text-[var(--text-muted)] font-mono mt-0.5">
-            {updatedAt}
+            {copy.updatedAt}
           </div>
         </div>
         <div className="flex items-center gap-2 flex-shrink-0">
@@ -130,7 +117,7 @@ export function HeroLiveDashboard({
                 : "bg-[#FBBF24]/12 text-[#FBBF24] border-[#FBBF24]/30"
             }`}
           >
-            {isAhead ? "On Track" : "Behind"}
+            {isAhead ? copy.statusOnTrack : copy.statusBehind}
           </span>
           <span className="inline-flex items-center gap-1.5 text-[9px] sm:text-[10px] text-[var(--text-muted)] font-semibold uppercase tracking-wider">
             {!reduceMotion && (
@@ -139,7 +126,7 @@ export function HeroLiveDashboard({
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-[#22C55E]" />
               </span>
             )}
-            Live
+            {copy.live}
           </span>
         </div>
       </div>
@@ -153,7 +140,7 @@ export function HeroLiveDashboard({
             <div className="flex items-end justify-between gap-3 mb-3">
               <div className="min-w-0">
                 <div className="text-[9px] sm:text-[10px] uppercase tracking-wider text-[var(--text-muted)] mb-1">
-                  Actual today
+                  {copy.actualToday}
                 </div>
                 <motion.div
                   key={`rev-${tickKey}`}
@@ -167,7 +154,7 @@ export function HeroLiveDashboard({
               </div>
               <div className="text-right flex-shrink-0">
                 <div className="text-[9px] sm:text-[10px] uppercase tracking-wider text-[var(--text-muted)] mb-1">
-                  Target
+                  {copy.target}
                 </div>
                 <div className="text-sm sm:text-base font-semibold font-mono tabular-nums text-[var(--text-supporting)]">
                   {fmt(TARGET)}
@@ -189,7 +176,7 @@ export function HeroLiveDashboard({
             <div className="flex items-center justify-between mt-2.5">
               <span className="text-[9px] sm:text-[10px] text-[var(--text-muted)] font-mono inline-flex items-center gap-1.5">
                 <span className="inline-block w-2 h-[2px] rounded-full bg-[var(--text-primary)]/85" />
-                Expected pace {fmt(expected)}
+                {copy.expectedPace} {fmt(expected)}
               </span>
               <span
                 className={`text-[9px] sm:text-[10px] font-semibold font-mono rounded-md px-1.5 py-0.5 ${
@@ -197,7 +184,7 @@ export function HeroLiveDashboard({
                 }`}
               >
                 {isAhead ? "+" : ""}
-                {fmt(aheadBy)} vs pace
+                {fmt(aheadBy)} {copy.vsPace}
               </span>
             </div>
           </div>
@@ -206,10 +193,10 @@ export function HeroLiveDashboard({
           <div className="rounded-xl border border-[var(--border-default)] bg-white/[0.025] p-3.5">
             <div className="flex items-center justify-between mb-1.5">
               <span className="text-[9px] sm:text-[10px] uppercase tracking-wider text-[var(--text-muted)]">
-                End-of-day projection
+                {copy.projectionTitle}
               </span>
               <span className="text-[8px] sm:text-[9px] font-semibold uppercase tracking-wider text-[#FBBF24] bg-[#FBBF24]/10 border border-[#FBBF24]/25 rounded px-1.5 py-0.5">
-                Pacing model
+                {copy.pacingModel}
               </span>
             </div>
             <motion.div
@@ -222,21 +209,21 @@ export function HeroLiveDashboard({
               {fmt(projection)}
             </motion.div>
             <div className="text-[9px] sm:text-[10px] text-[#22C55E] mt-1.5 font-medium">
-              ▲ Projected {fmt(aboveTarget)} above target
+              ▲ {copy.projectedAbove.replace("{amount}", fmt(aboveTarget))}
             </div>
           </div>
 
           {/* KPI strip */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
-            {kpis.map((kpi, i) => (
+            {copy.kpis.map((kpi, i) => (
               <LiveKPITile
-                key={kpi.label}
+                key={i}
                 tickKey={tickKey}
                 label={kpi.label}
-                value={liveValues[i]?.value ?? kpi.value}
+                value={liveValues[i] ?? ""}
                 trend={kpi.trend}
-                trendUp={kpi.trendUp}
-                color={liveValues[i]?.color ?? "#1C47FF"}
+                trendUp={KPI_TREND_UP[i] ?? true}
+                color={KPI_VALUE_COLORS[i] ?? "#1C47FF"}
                 reduceMotion={!!reduceMotion}
               />
             ))}
@@ -250,11 +237,11 @@ export function HeroLiveDashboard({
               ✦
             </span>
             <span className="text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-[#5B8DEF]">
-              Sundae Coach
+              {copy.coachTitle}
             </span>
             <span className="ml-auto inline-flex items-center gap-1 text-[8.5px] sm:text-[9px] font-semibold uppercase tracking-wider text-[var(--text-muted)]">
               {!reduceMotion && <span className="inline-block h-1.5 w-1.5 rounded-full bg-[#5B8DEF] animate-pulse" />}
-              Live
+              {copy.live}
             </span>
           </div>
 
@@ -276,11 +263,11 @@ export function HeroLiveDashboard({
                   <div className="flex items-center gap-1.5 mb-1">
                     <span
                       className="inline-block h-1.5 w-1.5 rounded-full flex-shrink-0"
-                      style={{ backgroundColor: tagColor[c.tag] ?? "#5B8DEF" }}
+                      style={{ backgroundColor: COACH_COLORS[c.idx] ?? "#5B8DEF" }}
                     />
                     <span
                       className="text-[8.5px] sm:text-[9px] font-bold uppercase tracking-wider"
-                      style={{ color: tagColor[c.tag] ?? "#5B8DEF" }}
+                      style={{ color: COACH_COLORS[c.idx] ?? "#5B8DEF" }}
                     >
                       {c.tag}
                     </span>
@@ -297,8 +284,8 @@ export function HeroLiveDashboard({
           </div>
 
           <div className="mt-2 pt-2 border-t border-[#1C47FF]/15 flex items-center justify-between text-[8.5px] sm:text-[9px] text-[var(--text-muted)] font-semibold uppercase tracking-wider">
-            <span>Decision intelligence</span>
-            <span className="font-mono">{12 + (coachIdx % 6)} signals today</span>
+            <span>{copy.decisionIntelligence}</span>
+            <span className="font-mono">{copy.signalsToday.replace("{n}", String(12 + (coachIdx % 6)))}</span>
           </div>
         </div>
       </div>
