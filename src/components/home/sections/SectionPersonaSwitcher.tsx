@@ -3,14 +3,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 import { Button } from "@/components/ui/Button";
-import {
-  PulseDashboardMockup,
-  RevenueIntelligenceMockup,
-  IntelligenceChatMockup,
-  MarketingPerformanceMockup,
-  LaborOpsMockup,
-  IntegrationsHubMockup,
-} from "@/components/ui/MockupFrame";
+import { ThemedShot } from "@/components/ui/ThemedShot";
 import { SundaeWordmark } from "./SundaeWordmark";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
@@ -36,14 +29,16 @@ import { generatedLocalCopy } from '@/generated-locales/components_home_sections
  * Claims used: CLM-401 through CLM-406 (all observational, APPROVED PUBLIC).
  */
 
-/* Structure — stable IDs, mockups, intel layer references */
+/* Structure — stable IDs, real theme-aware screenshots, intel layer refs.
+   Each `shot` is the live Sundae surface that matches that persona's outcome. */
+const IMG = "/images/product/2026-fresh";
 const personaStructure = [
-  { id: "coo", Mockup: PulseDashboardMockup, intelLayers: ["Pulse", "Watchtower"] },
-  { id: "cfo", Mockup: RevenueIntelligenceMockup, intelLayers: ["Insights", "Foresight"] },
-  { id: "ceo", Mockup: IntelligenceChatMockup, intelLayers: ["Sundae Intelligence", "Benchmarks"] },
-  { id: "marketing", Mockup: MarketingPerformanceMockup, intelLayers: ["Insights", "Sundae Intelligence"] },
-  { id: "hr", Mockup: LaborOpsMockup, intelLayers: ["Pulse", "Insights"] },
-  { id: "tech", Mockup: IntegrationsHubMockup, intelLayers: ["All layers"] },
+  { id: "coo", intelLayers: ["Pulse", "Watchtower"], shot: { t: "pulse-sales", alt: "Pulse — live sales pacing: actual vs target, end-of-day projection, net sales and covers" } },
+  { id: "cfo", intelLayers: ["Insights", "Foresight"], shot: { t: "insights-revenue", alt: "Revenue Intelligence — net revenue, average check, RevPASH, and covers with variance" } },
+  { id: "ceo", intelLayers: ["Sundae Intelligence", "Benchmarks"], shot: { t: "intelligence", alt: "Sundae Intelligence — morning briefing with today's revenue, orders, and top-selling item" } },
+  { id: "marketing", intelLayers: ["Insights", "Sundae Intelligence"], shot: { t: "marketing-channels", alt: "Marketing Intelligence — channel ROAS and spend efficiency frontier" } },
+  { id: "hr", intelLayers: ["Pulse", "Insights"], shot: { t: "pulse-labor", alt: "Pulse — live labor productivity: sales per labor hour, labor cost %, and productivity index" } },
+  { id: "tech", intelLayers: ["All layers"], shot: { t: "integrations", alt: "Data & Integrations — POS, labor, inventory, and delivery unified across governed connectors" } },
 ];
 
 type LocalizedPersonaSwitcher = {
@@ -140,7 +135,6 @@ export function SectionPersonaSwitcher() {
   const [activeIdx, setActiveIdx] = useState<number>(0);
   const active = copy.personas[activeIdx];
   const activeStructure = personaStructure[activeIdx];
-  const ActiveMockup = activeStructure.Mockup;
 
   return (
     <section
@@ -260,7 +254,14 @@ export function SectionPersonaSwitcher() {
               exit={reduceMotion ? undefined : { opacity: 0, scale: 0.97 }}
               transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
             >
-              <ActiveMockup />
+              <ThemedShot
+                framed
+                width={1600}
+                height={1000}
+                dark={`${IMG}/${activeStructure.shot.t}-dark.png`}
+                light={`${IMG}/${activeStructure.shot.t}.png`}
+                alt={activeStructure.shot.alt}
+              />
             </motion.div>
           </AnimatePresence>
         </div>
