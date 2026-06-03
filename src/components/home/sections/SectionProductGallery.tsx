@@ -287,6 +287,30 @@ const GALLERY: GalleryItem[] = [
     productLabel: "Benchmark →",
   },
 
+  // ─── Spatial Floor Intelligence — one floor plan, every lens ─
+  {
+    id: "floor-table-performance",
+    src: "/images/product/2026-fresh/floor-table-performance.png",
+    alt: "Table Performance Floor — per-table revenue on the published floor plan",
+    caption: "Spatial — Table Performance Floor",
+    whatYouSee:
+      "Your published floor plan becomes a revenue lens — per-table revenue colour-flowing across all 22 tables (Window Booth AED 47.1K, Table 20 AED 41.7K), AED 634,652 total over 10,449 covers. Section roll-up (Indoor / Terrace / Outdoor), a server leaderboard, and payment / daypart / category mix. Click any table for its full 360° KPI fingerprint.",
+    personas: ["c_suite", "operations", "cfo"],
+    productHref: "/insights",
+    productLabel: "Insights →",
+  },
+  {
+    id: "floor-guest-sentiment",
+    src: "/images/product/2026-fresh/floor-guest-sentiment.png",
+    alt: "Guest Sentiment Floor — per-table guest rating on the same floor plan",
+    caption: "Spatial — Guest Sentiment Floor",
+    whatYouSee:
+      "The same floor plan, now a guest-experience lens — average rating per table (Window Booth 4.6★ down to Table 19 3.2★), 4.1★ across 515 responses, 75% positive, with the lowest-rated tables surfaced for action. Publish one floor plan; Sundae turns it into a revenue, labor and guest lens — per table.",
+    personas: ["c_suite", "operations", "marketing"],
+    productHref: "/insights",
+    productLabel: "Insights →",
+  },
+
   // ─── Topology-aware (multi-brand / multi-region moat) ───────
   {
     id: "topology-franchise-health",
