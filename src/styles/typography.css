@@ -155,10 +155,10 @@ button, .btn { font-weight: 600; font-size: 16px; }
 
 .kpi-number {
   font-family: var(--font-geist-mono), "Geist Mono", ui-monospace, monospace;
-  font-size: 36px;
+  font-size: calc(36px * var(--kpi-scale, 1));
   font-weight: 700;
   line-height: 1;
-  letter-spacing: -0.03em;
+  letter-spacing: 0;
 }
 
 .kpi-label {
@@ -175,13 +175,13 @@ button, .btn { font-weight: 600; font-size: 16px; }
 }
 
 @media (min-width: 640px) {
-  .kpi-number { font-size: 48px; }
+  .kpi-number { font-size: calc(48px * var(--kpi-scale, 1)); }
   .kpi-label { font-size: 16px; }
   .kpi-supporting { font-size: 14px; }
 }
 
 @media (min-width: 768px) {
-  .kpi-number { font-size: 68px; }
+  .kpi-number { font-size: calc(68px * var(--kpi-scale, 1)); }
   .kpi-label { font-size: 20px; }
   .kpi-supporting { font-size: 16px; }
 }

@@ -22,6 +22,15 @@ type NavbarLink = {
   description?: string;
 };
 
+const dropdownLinkClass =
+  'block min-w-0 rounded-lg p-3 transition-colors duration-200 hover:bg-[var(--surface-hover)]';
+
+const dropdownTitleClass =
+  'font-semibold text-[var(--text-primary)] text-sm leading-snug break-words hyphens-auto';
+
+const dropdownDescriptionClass =
+  'mt-0.5 text-xs text-[var(--text-muted)] leading-snug break-words hyphens-auto';
+
 // Chevron Icon Component
 const ChevronIcon = ({ isOpen }: { isOpen: boolean }) => (
   <svg
@@ -258,7 +267,7 @@ const Navbar = () => {
 
               {activeDropdown === 'product' && (
                 <div
-                  className="absolute top-full left-0 pt-2 w-[420px] z-50"
+                  className="absolute top-full left-0 z-50 w-[min(56rem,calc(100vw-2rem))] pt-2"
                   onMouseEnter={() => setActiveDropdown('product')}
                   onMouseLeave={() => setActiveDropdown(null)}
                 >
@@ -273,13 +282,13 @@ const Navbar = () => {
                         <Link
                           key={pillar.name}
                           href={localizeHref(pillar.href)}
-                          className="block p-3 rounded-lg hover:bg-[var(--surface-hover)] transition-colors duration-200"
+                          className={dropdownLinkClass}
                           onClick={() => setActiveDropdown(null)}
                         >
-                          <div className="font-semibold text-[var(--text-primary)] text-sm leading-snug mb-0.5">
+                          <div className={dropdownTitleClass}>
                             {pillar.name}
                           </div>
-                          <div className="text-xs text-[var(--text-muted)] leading-snug">
+                          <div className={dropdownDescriptionClass}>
                             {pillar.description}
                           </div>
                         </Link>
@@ -300,29 +309,29 @@ const Navbar = () => {
                         <Link
                           key={plan.name}
                           href={localizeHref(plan.href)}
-                          className="block p-3 rounded-lg hover:bg-[var(--surface-hover)] transition-colors duration-200"
+                          className={dropdownLinkClass}
                           onClick={() => setActiveDropdown(null)}
                         >
-                          <div className="font-semibold text-[var(--text-primary)] text-sm leading-snug mb-0.5">
+                          <div className={dropdownTitleClass}>
                             {plan.name}
                           </div>
-                          <div className="text-xs text-[var(--text-muted)] leading-snug">
+                          <div className={dropdownDescriptionClass}>
                             {plan.description}
                           </div>
                         </Link>
                       ))}
                     </div>
-                    <div className="flex items-center gap-4 px-3">
+                    <div className="flex flex-wrap items-center gap-x-4 gap-y-2 px-3">
                       <Link
                         href={localizeHref('/report-vs-core')}
-                        className="text-sm font-medium text-[var(--text-supporting)] hover:text-[var(--text-primary)] transition-colors"
+                        className="min-w-0 text-sm font-medium text-[var(--text-supporting)] transition-colors hover:text-[var(--text-primary)] break-words"
                         onClick={() => setActiveDropdown(null)}
                       >
                         {nav.comparePlans}
                       </Link>
                       <a
                         href={REPORT_APP_URL}
-                        className="text-sm font-semibold text-[var(--text-primary)] hover:text-[var(--text-secondary)] transition-colors"
+                        className="min-w-0 text-sm font-semibold text-[var(--text-primary)] transition-colors hover:text-[var(--text-secondary)] break-words"
                         onClick={() => setActiveDropdown(null)}
                       >
                         {nav.startFree}
@@ -349,7 +358,7 @@ const Navbar = () => {
               
               {activeDropdown === 'solutions' && (
                 <div
-                  className="absolute top-full left-0 pt-2 w-[420px] z-50"
+                  className="absolute top-full left-0 z-50 w-[min(46rem,calc(100vw-2rem))] pt-2"
                   onMouseEnter={() => setActiveDropdown('solutions')}
                   onMouseLeave={() => setActiveDropdown(null)}
                 >
@@ -364,10 +373,10 @@ const Navbar = () => {
                         <Link
                           key={solution.name}
                           href={localizeHref(solution.href)}
-                          className="block p-3 rounded-lg hover:bg-[var(--surface-hover)] transition-colors duration-200"
+                          className={dropdownLinkClass}
                           onClick={() => setActiveDropdown(null)}
                         >
-                          <div className="font-semibold text-[var(--text-primary)] text-sm leading-snug">
+                          <div className={dropdownTitleClass}>
                             {solution.name}
                           </div>
                         </Link>
@@ -388,10 +397,10 @@ const Navbar = () => {
                         <Link
                           key={solution.name}
                           href={localizeHref(solution.href)}
-                          className="block p-3 rounded-lg hover:bg-[var(--surface-hover)] transition-colors duration-200"
+                          className={dropdownLinkClass}
                           onClick={() => setActiveDropdown(null)}
                         >
-                          <div className="font-semibold text-[var(--text-primary)] text-sm leading-snug">
+                          <div className={dropdownTitleClass}>
                             {solution.name}
                           </div>
                         </Link>
@@ -426,7 +435,7 @@ const Navbar = () => {
               
               {activeDropdown === 'resources' && (
                 <div
-                  className="absolute top-full left-0 pt-2 w-[240px] z-50"
+                  className="absolute top-full right-0 z-50 w-[min(28rem,calc(100vw-2rem))] pt-2"
                   onMouseEnter={() => setActiveDropdown('resources')}
                   onMouseLeave={() => setActiveDropdown(null)}
                 >
@@ -434,15 +443,15 @@ const Navbar = () => {
                   <h3 className="eyebrow text-[var(--text-muted)] mb-3">
                     {nav.learn}
                   </h3>
-                  <div className="space-y-1">
+                  <div className="flex flex-col gap-1">
                     {resources.map((resource) => (
                       <Link
                         key={resource.name}
                         href={localizeHref(resource.href)}
-                        className="block p-3 rounded-lg hover:bg-[var(--surface-hover)] transition-colors duration-200"
+                        className={dropdownLinkClass}
                         onClick={() => setActiveDropdown(null)}
                       >
-                        <div className="font-semibold text-[var(--text-primary)] text-sm leading-snug">
+                        <div className={dropdownTitleClass}>
                           {resource.name}
                         </div>
                       </Link>

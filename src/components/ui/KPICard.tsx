@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import type { CSSProperties } from "react";
 import { motion, useInView, useReducedMotion } from "framer-motion";
 
 interface KPICardProps {
@@ -49,7 +50,8 @@ export function KPICard({
       const available = box.clientWidth;
       const natural = num.scrollWidth;
       if (!available || !natural) return;
-      setScale(natural > available ? Math.max(0.5, available / natural) : 1);
+      const safeAvailable = Math.max(0, available - 12);
+      setScale(natural > safeAvailable ? Math.max(0.48, safeAvailable / natural) : 1);
     };
     fit();
     // Recompute once the monospace webfont finishes loading (metrics shift).
@@ -119,11 +121,11 @@ export function KPICard({
       transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
       className={`text-center min-w-0 ${className}`}
     >
-      <div ref={boxRef} className="overflow-hidden text-center">
+      <div ref={boxRef} className="overflow-visible text-center">
         <span
           ref={numRef}
           className={`kpi-number inline-block whitespace-nowrap ${colorMap[color]}`}
-          style={{ transform: scale < 1 ? `scale(${scale})` : undefined, transformOrigin: "center" }}
+          style={{ "--kpi-scale": scale } as CSSProperties}
         >
           {shouldAnimate ? displayValue : value}
         </span>
