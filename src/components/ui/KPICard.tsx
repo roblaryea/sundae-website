@@ -30,10 +30,36 @@ export function KPICard({
   animate = true,
 }: KPICardProps) {
   const ref = useRef<HTMLDivElement>(null);
+  const boxRef = useRef<HTMLDivElement>(null);
+  const numRef = useRef<HTMLSpanElement>(null);
   const isInView = useInView(ref, { once: true, margin: "-50px" });
   const prefersReducedMotion = useReducedMotion();
   const shouldAnimate = animate && !prefersReducedMotion && isInView;
   const [displayValue, setDisplayValue] = useState(value);
+  const [scale, setScale] = useState(1);
+
+  // Fit the (localized) value onto a single line: downscale only when the
+  // natural width overflows the card. Short values keep full size; long
+  // values (e.g. German "50.000 $+", "72 Std.") shrink instead of wrapping.
+  useEffect(() => {
+    const box = boxRef.current;
+    const num = numRef.current;
+    if (!box || !num) return;
+    const fit = () => {
+      const available = box.clientWidth;
+      const natural = num.scrollWidth;
+      if (!available || !natural) return;
+      setScale(natural > available ? Math.max(0.5, available / natural) : 1);
+    };
+    fit();
+    // Recompute once the monospace webfont finishes loading (metrics shift).
+    if (typeof document !== "undefined" && document.fonts?.ready) {
+      document.fonts.ready.then(fit).catch(() => {});
+    }
+    const ro = new ResizeObserver(fit);
+    ro.observe(box);
+    return () => ro.disconnect();
+  }, [value]);
 
   useEffect(() => {
     if (!shouldAnimate) {
@@ -93,8 +119,14 @@ export function KPICard({
       transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
       className={`text-center ${className}`}
     >
-      <div className={`kpi-number ${colorMap[color]}`}>
-        {shouldAnimate ? displayValue : value}
+      <div ref={boxRef} className="overflow-hidden text-center">
+        <span
+          ref={numRef}
+          className={`kpi-number inline-block whitespace-nowrap ${colorMap[color]}`}
+          style={{ transform: scale < 1 ? `scale(${scale})` : undefined, transformOrigin: "center" }}
+        >
+          {shouldAnimate ? displayValue : value}
+        </span>
       </div>
       <div className="kpi-label mt-2">{label}</div>
       {supporting && (

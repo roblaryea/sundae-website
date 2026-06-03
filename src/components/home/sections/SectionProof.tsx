@@ -51,7 +51,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedProof> = {
     stats: [
       { value: "12", label: "مجال بيانات موحد" },
       { value: "+500", label: "نموذج بيانات مطعم" },
-      { value: "+30", label: "وحدة تحليلية", footnoteMarker: "†" },
+      { value: "12", label: "وحدة تحليلية", footnoteMarker: "†" },
       { value: "5 د", label: "تحديث وردية على Core Pro", footnoteMarker: "*" },
     ],
     industryEyebrow: "ما نسمعه من المشغلين",
