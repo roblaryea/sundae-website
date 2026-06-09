@@ -10,9 +10,12 @@ import {
 
 export const dynamic = 'force-dynamic'
 
+const ADMIN_OAUTH_RELAY_BASE = process.env.ADMIN_OAUTH_RELAY_BASE || 'https://dev.sundaetech.ai'
+
 export async function GET(request: NextRequest) {
   const expectedState = request.cookies.get(TIKTOK_STATE_COOKIE)?.value
   const nextPath = sanitizeNextPath(request.cookies.get(TIKTOK_NEXT_COOKIE)?.value)
+  const state = request.nextUrl.searchParams.get('state')
 
   const finish = (params: Record<string, string>) => {
     const response = NextResponse.redirect(buildReturnUrl(request, nextPath, params))
@@ -24,14 +27,21 @@ export async function GET(request: NextRequest) {
   const error = request.nextUrl.searchParams.get('error')
   const errorDescription = request.nextUrl.searchParams.get('error_description')
   if (error) {
+    if (state && !statesMatch(expectedState, state)) {
+      return NextResponse.redirect(buildAdminRelayUrl(request, 'tiktok'))
+    }
+
     return finish({
       auth: 'error',
       error: errorDescription || error,
     })
   }
 
-  const state = request.nextUrl.searchParams.get('state')
   if (!statesMatch(expectedState, state)) {
+    if (state) {
+      return NextResponse.redirect(buildAdminRelayUrl(request, 'tiktok'))
+    }
+
     return finish({
       auth: 'error',
       error: 'TikTok authorization state did not match. Please try again.',
@@ -67,6 +77,15 @@ function sanitizeNextPath(value?: string | null) {
 function buildReturnUrl(request: NextRequest, nextPath: string, params: Record<string, string>) {
   const url = new URL(nextPath, request.nextUrl.origin)
   for (const [key, value] of Object.entries(params)) {
+    if (value) url.searchParams.set(key, value)
+  }
+  return url
+}
+
+function buildAdminRelayUrl(request: NextRequest, provider: 'tiktok') {
+  const url = new URL(`/api/auth/${provider}/callback`, ADMIN_OAUTH_RELAY_BASE)
+  for (const key of ['code', 'state', 'error', 'error_description']) {
+    const value = request.nextUrl.searchParams.get(key)
     if (value) url.searchParams.set(key, value)
   }
   return url
