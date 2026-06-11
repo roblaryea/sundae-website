@@ -150,7 +150,7 @@ export default function DaypartMarginLeakPage() {
             <SundaeIcon name="balance" size="sm" />
             Back to Tools
           </Link>
-          <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase text-[var(--electric-blue)] mb-3">
+          <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase text-[var(--warm-coral)] mb-3">
             INSIGHT-GRADE · LABOR INTELLIGENCE
           </span>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[var(--text-primary)] mb-3 text-balance">
@@ -185,7 +185,7 @@ export default function DaypartMarginLeakPage() {
                   <select
                     value={segment}
                     onChange={(e) => setSegment(e.target.value as keyof typeof SEGMENT_TARGETS)}
-                    className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--electric-blue)]"
+                    className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]"
                   >
                     {Object.entries(SEGMENT_TARGETS).map(([k, v]) => (
                       <option key={k} value={k}>{v.label} ({Math.round(v.targetPct * 100)}% target)</option>
@@ -199,7 +199,7 @@ export default function DaypartMarginLeakPage() {
                   <select
                     value={currency}
                     onChange={(e) => setCurrency(e.target.value)}
-                    className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--electric-blue)]"
+                    className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]"
                   >
                     {CURRENCY_REGIONS.map((region) => (
                       <optgroup key={region} label={region}>
@@ -224,7 +224,7 @@ export default function DaypartMarginLeakPage() {
                       type="number"
                       value={dailyRevenue}
                       onChange={(e) => setDailyRevenue(e.target.value)}
-                      className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-r-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--electric-blue)]"
+                      className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-r-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]"
                     />
                   </div>
                 </div>
@@ -240,7 +240,7 @@ export default function DaypartMarginLeakPage() {
                       type="number"
                       value={hourlyLaborCost}
                       onChange={(e) => setHourlyLaborCost(e.target.value)}
-                      className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-r-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--electric-blue)]"
+                      className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-r-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]"
                     />
                   </div>
                 </div>
@@ -253,7 +253,7 @@ export default function DaypartMarginLeakPage() {
                     min="1"
                     value={outletCount}
                     onChange={(e) => setOutletCount(e.target.value)}
-                    className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--electric-blue)]"
+                    className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]"
                   />
                 </div>
               </div>
@@ -286,7 +286,7 @@ export default function DaypartMarginLeakPage() {
                             next[i] = { ...dp, revenuePct: e.target.value };
                             setDayparts(next);
                           }}
-                          className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-l-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--electric-blue)]"
+                          className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-l-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]"
                           placeholder="Rev %"
                         />
                         <span className="bg-white/[0.04] border border-[var(--border-default)] border-l-0 rounded-r-lg px-2 py-2 text-xs text-[var(--text-muted)]">
@@ -304,7 +304,7 @@ export default function DaypartMarginLeakPage() {
                             next[i] = { ...dp, staffFte: e.target.value };
                             setDayparts(next);
                           }}
-                          className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-l-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--electric-blue)]"
+                          className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-l-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]"
                           placeholder="FTE"
                         />
                         <span className="bg-white/[0.04] border border-[var(--border-default)] border-l-0 rounded-r-lg px-2 py-2 text-xs text-[var(--text-muted)]">
@@ -322,8 +322,8 @@ export default function DaypartMarginLeakPage() {
           <div className="lg:col-span-2">
             {analysis && (
               <div className="lg:sticky lg:top-32 space-y-4">
-                <div className="rounded-2xl border-2 border-[var(--electric-blue)]/40 bg-gradient-to-br from-[var(--electric-blue)]/8 to-transparent p-6">
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-[var(--electric-blue)] mb-2">
+                <div className="rounded-2xl border-2 border-[var(--warm-coral)]/40 bg-gradient-to-br from-[var(--warm-coral)]/8 to-transparent p-6">
+                  <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-[var(--warm-coral)] mb-2">
                     Recoverable annual labor cost · range
                   </p>
                   <div className="text-xl sm:text-2xl font-bold text-[var(--text-primary)] tabular-nums mb-1">
@@ -366,7 +366,7 @@ export default function DaypartMarginLeakPage() {
                           <div className="h-1.5 rounded-full bg-white/[0.04] overflow-hidden">
                             <div
                               className={`h-full rounded-full transition-all ${
-                                isWorst ? "bg-red-400" : "bg-[var(--electric-blue)]/70"
+                                isWorst ? "bg-red-400" : "bg-[var(--warm-coral)]/70"
                               }`}
                               style={{ width: `${Math.max(2, widthPct)}%` }}
                             />

@@ -146,7 +146,7 @@ export function SectionPersonaSwitcher() {
             <span>See</span>
             <SundaeWordmark className="h-[0.78em] w-auto inline-block align-middle text-[var(--text-primary)]" />
             <span>for</span>
-            <span className="text-[var(--electric-blue)]">
+            <span className="text-[var(--warm-coral)]">
               {active.pluralLabel}.
             </span>
           </h2>
@@ -172,10 +172,10 @@ export function SectionPersonaSwitcher() {
                 className={`
                   px-4 sm:px-5 py-2.5 rounded-full text-sm font-semibold
                   whitespace-nowrap transition-all duration-200
-                  focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--electric-blue)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--navy-deep)]
+                  focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--warm-coral)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--navy-deep)]
                   ${
                     isActive
-                      ? "bg-[var(--electric-blue)] text-white shadow-[0_0_20px_rgba(28,71,255,0.4)]"
+                      ? "bg-[var(--warm-coral)] text-white shadow-[0_0_20px_rgba(255,92,77,0.4)]"
                       : "bg-[var(--surface-subtle)] border border-[var(--border-default)] text-[var(--text-supporting)] hover:bg-[var(--surface-hover)] hover:text-[var(--text-primary)] hover:border-[var(--border-emphasis)]"
                   }
                 `}
@@ -213,7 +213,7 @@ export function SectionPersonaSwitcher() {
 
               {/* Outcome */}
               <div className="pt-5 border-t border-[var(--border-default)]">
-                <div className="text-[11px] uppercase tracking-wider text-[var(--electric-blue)] font-bold mb-2">
+                <div className="text-[11px] uppercase tracking-wider text-[var(--warm-coral)] font-bold mb-2">
                   With Sundae
                 </div>
                 <h4 className="text-lg sm:text-xl font-semibold text-[var(--text-primary)] leading-tight mb-2">
@@ -229,7 +229,7 @@ export function SectionPersonaSwitcher() {
                   {active.intelLayers.map((layer) => (
                     <span
                       key={layer}
-                      className="text-[11px] font-semibold px-2.5 py-1 rounded-md bg-[var(--electric-blue)]/15 text-[var(--electric-blue)] border border-[var(--electric-blue)]/25"
+                      className="text-[11px] font-semibold px-2.5 py-1 rounded-md bg-[var(--warm-coral)]/15 text-[var(--warm-coral)] border border-[var(--warm-coral)]/25"
                     >
                       {layer}
                     </span>

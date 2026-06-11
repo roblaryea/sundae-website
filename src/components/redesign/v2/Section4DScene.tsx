@@ -98,7 +98,7 @@ export function Section4DScene() {
 
         {/* Compact scenario hook - one line, no dual-stack title */}
         <div className="text-center max-w-3xl mx-auto mb-5 sm:mb-6">
-          <div className="text-[12px] sm:text-[13px] uppercase tracking-[0.18em] text-[var(--electric-blue)] font-bold mb-3">
+          <div className="text-[12px] sm:text-[13px] uppercase tracking-[0.18em] text-[var(--warm-coral)] font-bold mb-3">
             TUESDAY · 9:14 AM · DOWNTOWN
           </div>
           <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[var(--text-primary)] text-balance leading-tight">
@@ -119,7 +119,7 @@ export function Section4DScene() {
           onFocus={() => setPaused(true)}
         >
           {/* Dimension breadcrumb - sentence case, "01 What happened" feel.
-              Active pill: blue bg + glow. Inactive: muted surface, easier to read. */}
+              Active pill: coral bg + glow. Inactive: muted surface, easier to read. */}
           <div className="flex flex-wrap justify-center items-center gap-x-2 gap-y-2 text-[13px] sm:text-[14px] mb-5 sm:mb-6">
             {dimensions.map((d, i) => {
               const isActive = i === activeIdx;
@@ -131,9 +131,9 @@ export function Section4DScene() {
                     setActiveIdx(i);
                     setPaused(true);
                   }}
-                  className={`px-4 py-1.5 rounded-full font-semibold transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--electric-blue)] ${
+                  className={`px-4 py-1.5 rounded-full font-semibold transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--warm-coral)] ${
                     isActive
-                      ? "bg-[var(--electric-blue)] text-white shadow-[0_0_18px_rgba(28,71,255,0.45)]"
+                      ? "bg-[var(--warm-coral)] text-white shadow-[0_0_18px_rgba(255,92,77,0.45)]"
                       : "bg-[var(--surface-subtle)] text-[var(--text-supporting)] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:text-[var(--text-primary)]"
                   }`}
                   aria-label={d.shortLabel}
@@ -149,7 +149,7 @@ export function Section4DScene() {
           </div>
 
           {/* Visual indicator: arrow connecting pills to the panel/visual below */}
-          <div className="flex justify-center -mt-2 mb-4 text-[var(--electric-blue)]/60" aria-hidden>
+          <div className="flex justify-center -mt-2 mb-4 text-[var(--warm-coral)]/60" aria-hidden>
             <svg width="18" height="14" viewBox="0 0 18 14" fill="none">
               <path d="M9 14L1 4h16L9 14z" fill="currentColor" />
             </svg>
@@ -203,7 +203,7 @@ export function Section4DScene() {
  */
 function SceneVisual({ activeIdx }: { activeIdx: number }) {
   return (
-    <div className="rounded-2xl border border-[var(--border-default)] bg-[var(--navy)] overflow-hidden shadow-[0_30px_80px_-20px_rgba(0,0,0,0.5),0_0_60px_rgba(28,71,255,0.12)]">
+    <div className="rounded-2xl border border-[var(--border-default)] bg-[var(--navy)] overflow-hidden shadow-[0_30px_80px_-20px_rgba(0,0,0,0.5),0_0_60px_rgba(255,92,77,0.12)]">
       {/* Title bar with subtle illustrative tag (CLM-501 disclosure, anchored
           to the visual rather than centered above the section) */}
       <div className="flex items-center gap-2 px-4 py-2.5 bg-black/40 border-b border-[var(--border-default)]">
@@ -321,11 +321,11 @@ function SceneVisual({ activeIdx }: { activeIdx: number }) {
               transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
               className="rounded-lg p-4 overflow-hidden"
               style={{
-                background: "rgba(28,71,255,0.08)",
-                borderLeft: "3px solid #1C47FF",
+                background: "rgba(255,92,77,0.08)",
+                borderLeft: "3px solid #FF5C4D",
               }}
             >
-              <div className="text-[10px] uppercase tracking-wider font-bold text-[var(--electric-blue)] mb-2">
+              <div className="text-[10px] uppercase tracking-wider font-bold text-[var(--warm-coral)] mb-2">
                 Sundae Coach
               </div>
               <p className="text-[12px] text-[var(--text-primary)] leading-relaxed">

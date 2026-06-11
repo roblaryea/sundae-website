@@ -38,7 +38,7 @@ export function BlogContent({ content }: { content: string }) {
           a: ({ href, children }) => (
             <a
               href={href}
-              className="text-blue-400 hover:text-blue-300 underline underline-offset-2 transition-colors"
+              className="text-[#FF8473] hover:text-[#FFB59E] underline underline-offset-2 transition-colors"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -59,7 +59,7 @@ export function BlogContent({ content }: { content: string }) {
             <li className="body-base leading-relaxed">{children}</li>
           ),
           blockquote: ({ children }) => (
-            <blockquote className="border-l-4 border-blue-500/50 pl-6 my-6 italic text-[var(--text-supporting)]">
+            <blockquote className="border-l-4 border-[#FF5C4D]/50 pl-6 my-6 italic text-[var(--text-supporting)]">
               {children}
             </blockquote>
           ),
@@ -98,7 +98,7 @@ export function BlogContent({ content }: { content: string }) {
             const isInline = !className;
             if (isInline) {
               return (
-                <code className="bg-white/10 text-blue-300 px-1.5 py-0.5 rounded text-sm font-mono">
+                <code className="bg-white/10 text-[#FFB59E] px-1.5 py-0.5 rounded text-sm font-mono">
                   {children}
                 </code>
               );

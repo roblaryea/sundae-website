@@ -31,7 +31,7 @@ export function HeroLiveKPI({
   suffix = "",
   trend,
   trendUp = true,
-  color = "#1C47FF",
+  color = "#FF5C4D",
   increment = 40,
   intervalMs = 6000,
 }: HeroLiveKPIProps) {

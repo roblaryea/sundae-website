@@ -192,7 +192,7 @@ export default function BenchmarkingPage() {
             {ui.steps.map((item) => (
               <StaggerItem key={item.step}>
                 <div className="text-center p-6">
-                  <div className="w-14 h-14 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
+                  <div className="w-14 h-14 bg-gradient-to-br from-[#FF5C4D] to-[#E9A24A] rounded-full flex items-center justify-center text-white text-xl font-bold mx-auto mb-4">
                     {item.step}
                   </div>
                   <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">{item.title}</h3>
@@ -216,7 +216,7 @@ export default function BenchmarkingPage() {
               <StaggerItem key={metric.name}>
                 <Card variant="elevated" className="h-full hover:shadow-lg transition-all duration-300">
                   <CardContent className="p-6">
-                    <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center mb-4">
+                    <div className="w-12 h-12 bg-gradient-to-br from-[#FF5C4D] to-[#E9A24A] rounded-xl flex items-center justify-center mb-4">
                       <SundaeIcon name={metric.icon as SundaeIconName} size="lg" className="text-white" />
                     </div>
                     <h3 className="font-bold text-[var(--text-primary)] mb-2">{metric.name}</h3>
@@ -252,7 +252,7 @@ export default function BenchmarkingPage() {
                     <MockupKPI label="Confidence" value="87%" trend="High" />
                     <MockupKPI label="vs Compset" value="+12%" trend="Above" trendUp />
                   </div>
-                  <MockupBarChart data={[{ label: "Wk 1", value: 72, color: "bg-blue-500" }, { label: "Wk 2", value: 78, color: "bg-blue-500" }, { label: "Wk 3", value: 65, color: "bg-blue-400/60" }, { label: "Wk 4", value: 82, color: "bg-blue-400/60" }]} />
+                  <MockupBarChart data={[{ label: "Wk 1", value: 72, color: "bg-[#FF5C4D]" }, { label: "Wk 2", value: 78, color: "bg-[#FF5C4D]" }, { label: "Wk 3", value: 65, color: "bg-[#FF8473]/60" }, { label: "Wk 4", value: 82, color: "bg-[#FF8473]/60" }]} />
                   <MockupTable headers={["Period", "Forecast", "Actual", "Variance"]} rows={[["This Week", "$34.2K", "$35.1K", "+2.6%"], ["Next Week", "$36.8K", "-", "-"], ["Wk 3", "$31.4K", "-", "-"]]} />
                   <MockupAlert type="coach">Revenue trending 8% above compset average. Weekend dinner is your strongest daypart - consider extending Friday hours.</MockupAlert>
                 </div>
@@ -272,8 +272,8 @@ export default function BenchmarkingPage() {
           <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {ui.tiers.map((tier, index) => (
               <StaggerItem key={tier.title}>
-                <div className={`bg-[var(--navy-deep)] rounded-xl p-6 border ${index === 1 ? "border-2 border-blue-500 shadow-md" : "border-[var(--border-default)]"}`}>
-                  <div className={`text-sm font-semibold mb-2 ${index === 0 ? "text-green-500" : index === 1 ? "text-[#60A5FA]" : "text-purple-400"}`}>{tier.label}</div>
+                <div className={`bg-[var(--navy-deep)] rounded-xl p-6 border ${index === 1 ? "border-2 border-[#FF5C4D] shadow-md" : "border-[var(--border-default)]"}`}>
+                  <div className={`text-sm font-semibold mb-2 ${index === 0 ? "text-green-500" : index === 1 ? "text-[#FF8473]" : "text-purple-400"}`}>{tier.label}</div>
                   <h3 className="text-lg font-bold text-[var(--text-primary)] mb-2">{tier.title}</h3>
                   <p className="text-sm text-[var(--text-supporting)]">{tier.description}</p>
                 </div>

@@ -596,7 +596,7 @@ export default function CrewPage() {
             HERO - split column with Crew dashboard mockup
         ════════════════════════════════════════════════ */}
         <section className="relative pt-32 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(28,71,255,0.12),transparent_60%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(255,92,77,0.12),transparent_60%)]" />
           <div className="absolute inset-0 bg-grid-texture" />
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
             <ElegantShape delay={0.3} width={600} height={140} rotate={12} gradient="from-white/[0.03]" className="left-[-10%] top-[15%]" />
@@ -607,15 +607,15 @@ export default function CrewPage() {
           <div className="max-w-7xl mx-auto relative z-10 grid lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.3fr)] gap-10 lg:gap-12 items-center">
             <div>
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }} className="mb-6">
-                <span className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-semibold tracking-wide uppercase bg-[rgba(28,71,255,0.12)] border border-[rgba(28,71,255,0.2)] text-[#60A5FA]">
-                  <span className="inline-block h-1.5 w-1.5 rounded-full bg-[#60A5FA] animate-pulse" />
+                <span className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-semibold tracking-wide uppercase bg-[rgba(255,92,77,0.12)] border border-[rgba(255,92,77,0.2)] text-[#FF8473]">
+                  <span className="inline-block h-1.5 w-1.5 rounded-full bg-[#FF8473] animate-pulse" />
                   {copy.badge}
                 </span>
               </motion.div>
               <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.1 }} className="hero-h1 mb-6 text-balance">
                 <span className="bg-clip-text text-transparent bg-gradient-to-b from-[var(--text-primary)] to-[var(--text-primary)]/80">{copy.heroLine1}</span>
                 <br />
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#60A5FA] via-[var(--text-primary)] to-[#93C5FD]">{copy.heroLine2}</span>
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#FF8473] via-[var(--text-primary)] to-[#FFB59E]">{copy.heroLine2}</span>
               </motion.h1>
               <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.2 }} className="body-xl max-w-xl mb-8">
                 {copy.description}
@@ -674,12 +674,12 @@ export default function CrewPage() {
                 <p className="text-sm text-[var(--text-muted)] leading-relaxed">{copy.loopLeftBody}</p>
               </div>
               <div className="hidden md:flex items-center justify-center px-1">
-                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#1C47FF] to-[#3B82F6] flex items-center justify-center shadow-[0_0_30px_rgba(28,71,255,0.4)]">
+                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#FF5C4D] to-[#FF7E6F] flex items-center justify-center shadow-[0_0_30px_rgba(255,92,77,0.4)]">
                   <svg className="w-4 h-4 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M5 12h14" /><path d="m13 5 7 7-7 7" /></svg>
                 </div>
               </div>
-              <div className="rounded-2xl p-6 sm:p-7 border border-[var(--electric-blue)]/30 bg-gradient-to-br from-[var(--electric-blue)]/[0.10] to-[var(--electric-blue)]/[0.02] shadow-[0_0_40px_rgba(28,71,255,0.10)]">
-                <div className="text-[11px] uppercase tracking-wider text-[var(--electric-blue)] font-bold mb-3">{copy.loopRightLabel}</div>
+              <div className="rounded-2xl p-6 sm:p-7 border border-[var(--warm-coral)]/30 bg-gradient-to-br from-[var(--warm-coral)]/[0.10] to-[var(--warm-coral)]/[0.02] shadow-[0_0_40px_rgba(255,92,77,0.10)]">
+                <div className="text-[11px] uppercase tracking-wider text-[var(--warm-coral)] font-bold mb-3">{copy.loopRightLabel}</div>
                 <p className="text-sm text-[var(--text-primary)] font-medium leading-relaxed">{copy.loopRightBody}</p>
               </div>
             </div>
@@ -745,7 +745,7 @@ export default function CrewPage() {
                 { label: copy.payrollGuaranteesLabel, items: copy.payrollGuaranteesItems },
               ].map((strip) => (
                 <div key={strip.label} className="rounded-xl p-5 bg-white/[0.03] border border-[var(--border-default)]">
-                  <div className="text-[10px] uppercase tracking-wider font-bold text-[#60A5FA] mb-3">{strip.label}</div>
+                  <div className="text-[10px] uppercase tracking-wider font-bold text-[#FF8473] mb-3">{strip.label}</div>
                   <div className="flex flex-wrap gap-1.5">
                     {strip.items.map((item) => (
                       <span key={item} className="text-[11px] font-medium px-2 py-1 rounded-md bg-white/[0.04] text-[var(--text-secondary)] border border-white/[0.06]">
@@ -758,13 +758,13 @@ export default function CrewPage() {
             </div>
 
             {/* Roadmap strip - single row, modest */}
-            <div className="max-w-3xl mx-auto rounded-xl p-4 border border-[var(--electric-blue)]/20 bg-[var(--electric-blue)]/[0.04]">
+            <div className="max-w-3xl mx-auto rounded-xl p-4 border border-[var(--warm-coral)]/20 bg-[var(--warm-coral)]/[0.04]">
               <div className="flex flex-col sm:flex-row sm:items-start gap-2 sm:gap-3">
-                <div className="text-[10px] uppercase tracking-wider font-bold text-[#60A5FA] flex-shrink-0 sm:pt-0.5">{copy.payrollRoadmapLabel}</div>
+                <div className="text-[10px] uppercase tracking-wider font-bold text-[#FF8473] flex-shrink-0 sm:pt-0.5">{copy.payrollRoadmapLabel}</div>
                 <div className="flex flex-wrap gap-x-4 gap-y-1">
                   {copy.payrollRoadmapItems.map((item) => (
                     <span key={item} className="text-[12px] text-[var(--text-secondary)] leading-snug">
-                      <span className="text-[#60A5FA] mr-1.5 font-mono">→</span>{item}
+                      <span className="text-[#FF8473] mr-1.5 font-mono">→</span>{item}
                     </span>
                   ))}
                 </div>
@@ -781,7 +781,7 @@ export default function CrewPage() {
             PILLARS - 6 feature surfaces + coverage strip
         ════════════════════════════════════════════════ */}
         <section className="relative py-20 px-4 sm:px-6 lg:px-8">
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(28,71,255,0.04),transparent_60%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,92,77,0.04),transparent_60%)]" />
           <div className="relative z-10 max-w-7xl mx-auto">
             <FadeUp className="text-center max-w-3xl mx-auto mb-14">
               <p className="eyebrow mb-4">{copy.pillarsEyebrow}</p>
@@ -792,7 +792,7 @@ export default function CrewPage() {
             <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
               {copy.pillars.map((p, i) => (
                 <StaggerItem key={i}>
-                  <div className="group h-full p-6 rounded-2xl bg-white/[0.03] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:border-[rgba(28,71,255,0.25)] hover:shadow-[0_0_30px_rgba(28,71,255,0.08)] transition-all duration-300">
+                  <div className="group h-full p-6 rounded-2xl bg-white/[0.03] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:border-[rgba(255,92,77,0.25)] hover:shadow-[0_0_30px_rgba(255,92,77,0.08)] transition-all duration-300">
                     <div className={`w-11 h-11 rounded-xl bg-gradient-to-br ${featurePillars[i].accent} flex items-center justify-center text-white shadow-lg mb-5`}>
                       <SundaeIcon name={featurePillars[i].icon} size="md" className="text-white" />
                     </div>
@@ -800,7 +800,7 @@ export default function CrewPage() {
                     <p className="text-sm text-[var(--text-muted)] leading-relaxed mb-4">{p.body}</p>
                     <div className="flex flex-wrap gap-1.5 pt-3 border-t border-white/[0.06]">
                       {p.chips.map((chip) => (
-                        <span key={chip} className="text-[10px] font-semibold px-2 py-0.5 rounded-md bg-[var(--electric-blue)]/15 text-[#60A5FA] border border-[var(--electric-blue)]/25">
+                        <span key={chip} className="text-[10px] font-semibold px-2 py-0.5 rounded-md bg-[var(--warm-coral)]/15 text-[#FF8473] border border-[var(--warm-coral)]/25">
                           {chip}
                         </span>
                       ))}
@@ -819,7 +819,7 @@ export default function CrewPage() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
                   {copy.coverageItems.map((item) => (
                     <div key={item.title} className="flex items-start gap-3">
-                      <svg className="w-4 h-4 text-[#60A5FA] flex-shrink-0 mt-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M20 6 9 17l-5-5" /></svg>
+                      <svg className="w-4 h-4 text-[#FF8473] flex-shrink-0 mt-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M20 6 9 17l-5-5" /></svg>
                       <div>
                         <div className="text-sm font-semibold text-[var(--text-primary)] mb-1 leading-snug">{item.title}</div>
                         <div className="text-[12px] text-[var(--text-muted)] leading-snug">{item.body}</div>
@@ -874,7 +874,7 @@ export default function CrewPage() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5 max-w-6xl mx-auto mb-10">
               {copy.modules.map((m, i) => (
-                <div key={m.name} className="rounded-2xl p-6 sm:p-7 bg-white/[0.03] border border-[var(--border-default)] hover:border-[rgba(28,71,255,0.25)] transition-colors duration-300">
+                <div key={m.name} className="rounded-2xl p-6 sm:p-7 bg-white/[0.03] border border-[var(--border-default)] hover:border-[rgba(255,92,77,0.25)] transition-colors duration-300">
                   <div className={`w-10 h-10 rounded-xl bg-gradient-to-br ${moduleAccents[i]} flex items-center justify-center text-white shadow-lg mb-4`}>
                     <span className="text-sm font-bold">{(i + 1).toString().padStart(2, "0")}</span>
                   </div>
@@ -883,7 +883,7 @@ export default function CrewPage() {
                   <ul className="space-y-1.5">
                     {m.included.map((inc) => (
                       <li key={inc} className="flex items-start gap-2">
-                        <svg className="w-3.5 h-3.5 text-[#60A5FA] flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M20 6 9 17l-5-5" /></svg>
+                        <svg className="w-3.5 h-3.5 text-[#FF8473] flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M20 6 9 17l-5-5" /></svg>
                         <span className="text-[12px] text-[var(--text-muted)] leading-snug">{inc}</span>
                       </li>
                     ))}
@@ -894,8 +894,8 @@ export default function CrewPage() {
 
             {/* Bundle + Free portal - side by side */}
             <div className="grid md:grid-cols-2 gap-4 max-w-5xl mx-auto">
-              <div className="rounded-2xl p-5 sm:p-6 border border-[var(--electric-blue)]/30 bg-gradient-to-br from-[var(--electric-blue)]/[0.10] to-[var(--electric-blue)]/[0.02] shadow-[0_0_30px_rgba(28,71,255,0.10)]">
-                <div className="text-[10px] uppercase tracking-wider text-[#60A5FA] font-bold mb-2">★ {copy.bundleLabel}</div>
+              <div className="rounded-2xl p-5 sm:p-6 border border-[var(--warm-coral)]/30 bg-gradient-to-br from-[var(--warm-coral)]/[0.10] to-[var(--warm-coral)]/[0.02] shadow-[0_0_30px_rgba(255,92,77,0.10)]">
+                <div className="text-[10px] uppercase tracking-wider text-[#FF8473] font-bold mb-2">★ {copy.bundleLabel}</div>
                 <p className="text-sm text-[var(--text-primary)] leading-snug">{copy.bundleDescription}</p>
               </div>
               <div className="rounded-2xl p-5 sm:p-6 border border-[#22C55E]/30 bg-gradient-to-br from-[#22C55E]/[0.08] to-[#22C55E]/[0.02]">
@@ -910,7 +910,7 @@ export default function CrewPage() {
             PERSONAS
         ════════════════════════════════════════════════ */}
         <section className="relative py-20 px-4 sm:px-6 lg:px-8">
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(28,71,255,0.04),transparent_60%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,92,77,0.04),transparent_60%)]" />
           <div className="relative z-10 max-w-7xl mx-auto">
             <FadeUp className="text-center max-w-3xl mx-auto mb-14">
               <p className="eyebrow mb-4">{copy.personasEyebrow}</p>
@@ -925,7 +925,7 @@ export default function CrewPage() {
                     <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-3 leading-snug">{p.title}</h3>
                     <p className="text-sm text-[var(--text-muted)] leading-relaxed mb-5">{p.outcome}</p>
                     <div className="pt-3 border-t border-white/[0.06]">
-                      <span className="text-[11px] uppercase tracking-wider text-[#60A5FA] font-bold">{p.metric}</span>
+                      <span className="text-[11px] uppercase tracking-wider text-[#FF8473] font-bold">{p.metric}</span>
                     </div>
                   </div>
                 </StaggerItem>
@@ -974,7 +974,7 @@ export default function CrewPage() {
           <div className="absolute inset-0 bg-grid-texture" />
           <ElegantShape delay={0} width={400} height={100} rotate={-12} gradient="from-white/[0.03]" className="left-[-8%] top-[20%]" />
           <ElegantShape delay={0.2} width={300} height={80} rotate={15} gradient="from-white/[0.02]" className="right-[-5%] bottom-[10%]" />
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(28,71,255,0.06),transparent_70%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,92,77,0.06),transparent_70%)]" />
           <div className="relative z-10 max-w-3xl mx-auto text-center">
             <FadeUp>
               <p className="eyebrow mb-4">{copy.ctaEyebrow}</p>

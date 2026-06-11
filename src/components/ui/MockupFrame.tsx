@@ -165,10 +165,10 @@ interface MockupAlertProps {
 }
 
 const alertColors = {
-  info: { border: "#1C47FF", bg: "rgba(28,71,255,0.08)", icon: "ℹ" },
+  info: { border: "#FF5C4D", bg: "rgba(255,92,77,0.08)", icon: "ℹ" },
   warning: { border: "#F59E0B", bg: "rgba(245,158,11,0.08)", icon: "⚠" },
   critical: { border: "#DC2626", bg: "rgba(220,38,38,0.08)", icon: "●" },
-  coach: { border: "#1C47FF", bg: "rgba(28,71,255,0.06)", icon: "💡" },
+  coach: { border: "#FF5C4D", bg: "rgba(255,92,77,0.06)", icon: "💡" },
 };
 
 export function MockupAlert({ type = "info", children }: MockupAlertProps) {
@@ -364,7 +364,7 @@ export function IntelligenceChatMockup() {
       <div className="space-y-3">
         {/* User message */}
         <div className="flex justify-end">
-          <div className="bg-[#1C47FF]/20 border border-[#1C47FF]/30 rounded-xl rounded-br-sm px-3 py-2 max-w-[75%]">
+          <div className="bg-[#FF5C4D]/20 border border-[#FF5C4D]/30 rounded-xl rounded-br-sm px-3 py-2 max-w-[75%]">
             <p className="text-[12px] text-[var(--text-secondary)]">
               What was my best performing outlet last week and why?
             </p>
@@ -375,7 +375,7 @@ export function IntelligenceChatMockup() {
         <div className="flex justify-start">
           <div className="bg-white/[0.04] border border-[var(--border-default)] rounded-xl rounded-bl-sm px-3 py-2.5 max-w-[85%]">
             <p className="text-[12px] text-[var(--text-secondary)] leading-relaxed">
-              <span className="text-[#1C47FF] font-semibold">Downtown</span> led with <span className="font-mono text-[#22C55E]">$127K</span> revenue (+14% WoW). Key drivers:
+              <span className="text-[#FF5C4D] font-semibold">Downtown</span> led with <span className="font-mono text-[#22C55E]">$127K</span> revenue (+14% WoW). Key drivers:
             </p>
             <ul className="text-[11px] text-[var(--text-muted)] mt-1.5 space-y-0.5 pl-3">
               <li>• Avg check up $4.20 from new prix fixe</li>
@@ -387,7 +387,7 @@ export function IntelligenceChatMockup() {
 
         {/* Follow-up */}
         <div className="flex justify-end">
-          <div className="bg-[#1C47FF]/20 border border-[#1C47FF]/30 rounded-xl rounded-br-sm px-3 py-2 max-w-[75%]">
+          <div className="bg-[#FF5C4D]/20 border border-[#FF5C4D]/30 rounded-xl rounded-br-sm px-3 py-2 max-w-[75%]">
             <p className="text-[12px] text-[var(--text-secondary)]">
               Replicate that prix fixe across all outlets?
             </p>
@@ -473,9 +473,9 @@ export function ForesightDashboardMockup() {
           </div>
         </div>
         {/* AI Briefing snippet */}
-        <div className="p-2.5 rounded-lg bg-[rgba(28,71,255,0.06)] border border-[rgba(28,71,255,0.15)]">
+        <div className="p-2.5 rounded-lg bg-[rgba(255,92,77,0.06)] border border-[rgba(255,92,77,0.15)]">
           <div className="flex items-center gap-1.5 mb-1.5">
-            <div className="w-4 h-4 rounded-full bg-[#1C47FF] flex items-center justify-center">
+            <div className="w-4 h-4 rounded-full bg-[#FF5C4D] flex items-center justify-center">
               <span className="text-[8px] text-white font-bold">S</span>
             </div>
             <span className="text-[10px] font-semibold text-[var(--text-secondary)]">Sundae Coach Briefing</span>
@@ -687,10 +687,10 @@ export function ExecutiveBriefingMockup() {
         </div>
 
         {/* AI Daily Brief - synthesized executive insight with source pills */}
-        <div className="rounded-lg p-4 border" style={{ background: "linear-gradient(135deg, rgba(28,71,255,0.10), rgba(28,71,255,0.02))", borderColor: "rgba(28,71,255,0.25)" }}>
+        <div className="rounded-lg p-4 border" style={{ background: "linear-gradient(135deg, rgba(255,92,77,0.10), rgba(255,92,77,0.02))", borderColor: "rgba(255,92,77,0.25)" }}>
           <div className="flex items-center gap-2 mb-2">
-            <div className="w-5 h-5 rounded bg-gradient-to-br from-[#1C47FF] to-[#3B82F6] flex items-center justify-center text-white text-[8px] font-bold">SI</div>
-            <span className="text-[10px] uppercase tracking-wider text-[#60A5FA] font-bold">Sundae Intelligence · Daily Brief</span>
+            <div className="w-5 h-5 rounded bg-gradient-to-br from-[#FF5C4D] to-[#FF7E6F] flex items-center justify-center text-white text-[8px] font-bold">SI</div>
+            <span className="text-[10px] uppercase tracking-wider text-[#FF8473] font-bold">Sundae Intelligence · Daily Brief</span>
           </div>
           <p className="text-[12px] text-[var(--text-primary)] leading-relaxed">
             Portfolio net revenue is pacing <span className="font-bold text-[#22C55E]">+2.4% vs forecast</span>, driven by Brand A dine-in strength. <span className="font-bold text-[#FF5450]">Brand C margin compressed 2.6pp</span> on labor over-coverage Mon-Tue; a 2-shift trim recovers ~$8.4K this week.
@@ -781,8 +781,8 @@ export function CrewDashboardMockup() {
         </div>
 
         {/* Activity feed */}
-        <div className="rounded-lg p-3 border-l-2 space-y-1.5" style={{ background: "rgba(28,71,255,0.06)", borderColor: "#1C47FF" }}>
-          <div className="text-[10px] uppercase tracking-wider text-[#60A5FA] font-bold mb-0.5">Sundae Coach · live</div>
+        <div className="rounded-lg p-3 border-l-2 space-y-1.5" style={{ background: "rgba(255,92,77,0.06)", borderColor: "#FF5C4D" }}>
+          <div className="text-[10px] uppercase tracking-wider text-[#FF8473] font-bold mb-0.5">Sundae Coach · live</div>
           <p className="text-[11px] text-[var(--text-primary)] leading-snug">
             <span className="font-semibold">Marcus J.</span> swap requested 2pm shift → <span className="font-semibold">Sarah M.</span> · eligible · auto-approved.
           </p>

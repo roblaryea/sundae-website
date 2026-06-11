@@ -194,7 +194,7 @@ export default function ToolsPage() {
               <StaggerItem key={tool.title}>
                 <Card variant="elevated" className="h-full hover:shadow-xl transition-all duration-300">
                   <CardHeader>
-                    <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl flex items-center justify-center mb-4 shadow-lg">
+                    <div className="w-16 h-16 bg-gradient-to-br from-[#FF5C4D] to-[#C2410C] rounded-2xl flex items-center justify-center mb-4 shadow-lg">
                       <SundaeIcon name={tool.icon} size="xl" className="text-white" />
                     </div>
                     <CardTitle className="text-2xl text-[var(--text-primary)] mb-3">{tool.title}</CardTitle>

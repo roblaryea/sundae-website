@@ -889,19 +889,19 @@ function AdaptiveTargetsMockup() {
     <MockupFrame label={label} glow={false}>
       <div className="space-y-4">
         <div className="grid grid-cols-3 gap-3">
-          <MockupKPI label={todayTarget} value="$18,200" color="#1C47FF" />
+          <MockupKPI label={todayTarget} value="$18,200" color="#FF5C4D" />
           <MockupKPI label={growthModifier} value="+8%" trend={locale === "ar" ? "مقابل الاساس" : locale === "fr" ? "vs base" : locale === "es" ? "vs base" : "vs base"} trendUp color="#22C55E" />
           <MockupKPI label={confidence} value="94%" color="#22C55E" />
         </div>
         <MockupBarChart
           data={[
-            { label: days[0], value: 15200, color: "#1C47FF" },
-            { label: days[1], value: 16800, color: "#1C47FF" },
+            { label: days[0], value: 15200, color: "#FF5C4D" },
+            { label: days[1], value: 16800, color: "#FF5C4D" },
             { label: days[2], value: 14900, color: "#FBBF24" },
-            { label: days[3], value: 17600, color: "#1C47FF" },
+            { label: days[3], value: 17600, color: "#FF5C4D" },
             { label: days[4], value: 21400, color: "#22C55E" },
             { label: days[5], value: 23100, color: "#22C55E" },
-            { label: days[6], value: 18900, color: "#1C47FF" },
+            { label: days[6], value: 18900, color: "#FF5C4D" },
           ]}
         />
         <MockupAlert type="info">
@@ -930,8 +930,8 @@ function SalesPacingMockup() {
         </div>
         <div className="grid grid-cols-3 gap-3">
           <MockupKPI label={actual} value="$14,280" trend={locale === "ar" ? "+12% مقابل الهدف" : locale === "fr" ? "+12% vs objectif" : locale === "es" ? "+12% vs objetivo" : "+12% vs target"} trendUp color="#22C55E" />
-          <MockupKPI label={expected} value="$12,740" color="#1C47FF" />
-          <MockupKPI label={dayTarget} value="$18,200" color="#1C47FF" />
+          <MockupKPI label={expected} value="$12,740" color="#FF5C4D" />
+          <MockupKPI label={dayTarget} value="$18,200" color="#FF5C4D" />
         </div>
         <MockupPaceBar label={revenuePace} current={14280} target={18200} unit="$" />
         <MockupPaceBar label={coversPace} current={287} target={340} />
@@ -967,7 +967,7 @@ function LaborMockup() {
       <div className="space-y-4">
         <div className="grid grid-cols-4 gap-3">
           <MockupKPI label="SPLH" value="$62.40" trend={locale === "ar" ? "+8% مقابل المتوسط" : locale === "fr" ? "+8% vs moyenne" : locale === "es" ? "+8% vs promedio" : "+8% vs avg"} trendUp color="#22C55E" />
-          <MockupKPI label="CPLH" value="4.2" color="#1C47FF" />
+          <MockupKPI label="CPLH" value="4.2" color="#FF5C4D" />
           <MockupKPI label={locale === "ar" ? "نسبة العمالة" : locale === "fr" ? "Main-d'oeuvre %" : locale === "es" ? "% Labor" : "Labor %"} value="28.1%" trend={locale === "ar" ? "اقل من 30%" : locale === "fr" ? "Sous 30%" : locale === "es" ? "Bajo 30%" : "Under 30%"} trendUp color="#22C55E" />
           <MockupKPI label={locale === "ar" ? "تكلفة الوردية" : locale === "fr" ? "Cout de service" : locale === "es" ? "Costo de turno" : "Shift Cost"} value="$1,840" color="#FBBF24" />
         </div>

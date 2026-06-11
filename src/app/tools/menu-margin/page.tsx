@@ -205,8 +205,8 @@ export default function MenuMarginCalculator() {
       bgColor = "bg-red-500/10";
     } else if (marginPercent <= 70) {
       interpretation = copy.results.healthy;
-      color = "text-[#60A5FA]";
-      bgColor = "bg-[rgba(28,71,255,0.1)]";
+      color = "text-[#FF8473]";
+      bgColor = "bg-[rgba(255,92,77,0.1)]";
     } else {
       interpretation = copy.results.strong;
       color = "text-green-400";
@@ -228,7 +228,7 @@ export default function MenuMarginCalculator() {
           </Link>
 
           <div className="text-center mb-12">
-            <div className="w-20 h-20 bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
+            <div className="w-20 h-20 bg-gradient-to-br from-[#FF5C4D] to-[#C2410C] rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
               <SundaeIcon name="chart" size="xl" className="text-white" />
             </div>
             <h1 className="hero-h1 text-[var(--text-primary)] mb-4">{copy.hero.title}</h1>

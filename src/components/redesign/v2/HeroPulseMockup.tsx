@@ -54,7 +54,7 @@ export function HeroPulseMockup() {
             trendUp
             color="#22C55E"
           />
-          <MockupKPI label="Covers" value="218" trend="vs 196 LW" trendUp color="#1C47FF" />
+          <MockupKPI label="Covers" value="218" trend="vs 196 LW" trendUp color="#FF5C4D" />
           <MockupKPI
             label="Pacing index"
             value="1.04"

@@ -35,7 +35,7 @@ const reportCopy = {
       'Join thousands of restaurant operators who use Sundae Report to understand their performance. No credit card required, no obligations - just insights.',
     benchmarkCategories: [
       { name: 'Sales Performance', metrics: ['Revenue per Square Foot', 'Average Check Size', 'Daily Transaction Count', 'Peak Hour Analysis'], icon: 'finance' as SundaeIconName, color: 'bg-green-500' },
-      { name: 'Labor Efficiency', metrics: ['Labor Cost %', 'Sales per Labor Hour', 'Staff Productivity', 'Overtime Trends'], icon: 'labor' as SundaeIconName, color: 'bg-blue-500' },
+      { name: 'Labor Efficiency', metrics: ['Labor Cost %', 'Sales per Labor Hour', 'Staff Productivity', 'Overtime Trends'], icon: 'labor' as SundaeIconName, color: 'bg-[#FF5C4D]' },
       { name: 'Food Cost Management', metrics: ['Food Cost %', 'Waste Percentage', 'Inventory Turnover', 'COGS Analysis'], icon: 'decrease' as SundaeIconName, color: 'bg-orange-500' },
       { name: 'Operational Metrics', metrics: ['Table Turn Time', 'Order Accuracy', 'Customer Satisfaction', 'Speed of Service'], icon: 'speed' as SundaeIconName, color: 'bg-purple-500' },
     ],
@@ -80,7 +80,7 @@ const reportCopy = {
       'انضم إلى آلاف مشغلي المطاعم الذين يستخدمون Sundae Report لفهم أدائهم. لا حاجة لبطاقة ائتمان ولا التزامات - فقط رؤى.',
     benchmarkCategories: [
       { name: 'أداء المبيعات', metrics: ['الإيرادات لكل قدم مربع', 'متوسط الفاتورة', 'عدد المعاملات اليومي', 'تحليل ساعات الذروة'], icon: 'finance' as SundaeIconName, color: 'bg-green-500' },
-      { name: 'كفاءة العمالة', metrics: ['نسبة تكلفة العمالة', 'المبيعات لكل ساعة عمل', 'إنتاجية الموظفين', 'اتجاهات العمل الإضافي'], icon: 'labor' as SundaeIconName, color: 'bg-blue-500' },
+      { name: 'كفاءة العمالة', metrics: ['نسبة تكلفة العمالة', 'المبيعات لكل ساعة عمل', 'إنتاجية الموظفين', 'اتجاهات العمل الإضافي'], icon: 'labor' as SundaeIconName, color: 'bg-[#FF5C4D]' },
       { name: 'إدارة تكلفة الطعام', metrics: ['نسبة تكلفة الطعام', 'نسبة الهدر', 'دوران المخزون', 'تحليل COGS'], icon: 'decrease' as SundaeIconName, color: 'bg-orange-500' },
       { name: 'المقاييس التشغيلية', metrics: ['زمن دوران الطاولة', 'دقة الطلب', 'رضا العملاء', 'سرعة الخدمة'], icon: 'speed' as SundaeIconName, color: 'bg-purple-500' },
     ],
@@ -125,7 +125,7 @@ const reportCopy = {
       'Rejoignez des milliers d operateurs qui utilisent Sundae Report pour comprendre leur performance. Aucune carte requise, aucune obligation - juste des insights.',
     benchmarkCategories: [
       { name: 'Performance des ventes', metrics: ['Revenu par pied carre', 'Taille de cheque moyenne', 'Nombre de transactions quotidiennes', 'Analyse des heures de pointe'], icon: 'finance' as SundaeIconName, color: 'bg-green-500' },
-      { name: 'Efficacite de la main-d oeuvre', metrics: ['Cout de main-d oeuvre %', 'Ventes par heure de main-d oeuvre', 'Productivite du personnel', 'Tendances des heures sup'], icon: 'labor' as SundaeIconName, color: 'bg-blue-500' },
+      { name: 'Efficacite de la main-d oeuvre', metrics: ['Cout de main-d oeuvre %', 'Ventes par heure de main-d oeuvre', 'Productivite du personnel', 'Tendances des heures sup'], icon: 'labor' as SundaeIconName, color: 'bg-[#FF5C4D]' },
       { name: 'Gestion du cout alimentaire', metrics: ['Cout alimentaire %', 'Pourcentage de gaspillage', 'Rotation des stocks', 'Analyse COGS'], icon: 'decrease' as SundaeIconName, color: 'bg-orange-500' },
       { name: 'Indicateurs operationnels', metrics: ['Temps de rotation des tables', 'Exactitude des commandes', 'Satisfaction client', 'Vitesse de service'], icon: 'speed' as SundaeIconName, color: 'bg-purple-500' },
     ],
@@ -170,7 +170,7 @@ const reportCopy = {
       'Únete a miles de operadores que usan Sundae Report para entender su rendimiento. No se requiere tarjeta ni compromiso - solo insights.',
     benchmarkCategories: [
       { name: 'Rendimiento de ventas', metrics: ['Ingresos por pie cuadrado', 'Ticket medio', 'Transacciones diarias', 'Analisis de horas punta'], icon: 'finance' as SundaeIconName, color: 'bg-green-500' },
-      { name: 'Eficiencia laboral', metrics: ['Coste laboral %', 'Ventas por hora laboral', 'Productividad del personal', 'Tendencias de horas extra'], icon: 'labor' as SundaeIconName, color: 'bg-blue-500' },
+      { name: 'Eficiencia laboral', metrics: ['Coste laboral %', 'Ventas por hora laboral', 'Productividad del personal', 'Tendencias de horas extra'], icon: 'labor' as SundaeIconName, color: 'bg-[#FF5C4D]' },
       { name: 'Gestión del coste de comida', metrics: ['Coste de comida %', 'Porcentaje de desperdicio', 'Rotacion de inventario', 'Analisis COGS'], icon: 'decrease' as SundaeIconName, color: 'bg-orange-500' },
       { name: 'Métricas operativas', metrics: ['Tiempo de rotacion de mesas', 'Exactitud de pedidos', 'Satisfaccion del cliente', 'Velocidad de servicio'], icon: 'speed' as SundaeIconName, color: 'bg-purple-500' },
     ],
@@ -258,7 +258,7 @@ export default function SundaeReportPage() {
                     <div className="w-16 h-16 bg-[var(--surface-subtle)] rounded-full flex items-center justify-center mx-auto mb-4">
                       <SundaeIcon name={["benchmarking", "intelligence", "insights"][index] as SundaeIconName} size="xl" className="text-white" />
                     </div>
-                    <div className="text-sm text-[#60A5FA] font-medium mb-2">{ui.howStepLabel} {index + 1}</div>
+                    <div className="text-sm text-[#FF8473] font-medium mb-2">{ui.howStepLabel} {index + 1}</div>
                     <CardTitle className="text-[var(--text-primary)]">{step.title}</CardTitle>
                   </CardHeader>
                   <CardContent>

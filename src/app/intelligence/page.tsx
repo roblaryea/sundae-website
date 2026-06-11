@@ -380,7 +380,7 @@ export default function ChatWithDataPage() {
                     </div>
                     <div className="flex items-center gap-2 mb-2">
                       <h3 className="font-bold text-[var(--text-primary)]">{mode.title}</h3>
-                      <span className="text-[10px] font-semibold uppercase tracking-wider bg-blue-500/20 text-blue-400 px-2 py-0.5 rounded-full">{mode.badge}</span>
+                      <span className="text-[10px] font-semibold uppercase tracking-wider bg-[#FF5C4D]/20 text-[#FF8473] px-2 py-0.5 rounded-full">{mode.badge}</span>
                     </div>
                     <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{mode.description}</p>
                   </CardContent>
@@ -402,7 +402,7 @@ export default function ChatWithDataPage() {
             {ui.queries.map((query) => (
               <StaggerItem key={query} className="bg-[var(--navy-deep)] rounded-xl p-4 text-left border border-[var(--border-default)]">
                 <p className="text-sm text-[var(--text-secondary)] font-mono">
-                  {query.startsWith('/') ? <><span className="text-blue-400 font-semibold">{query.split(' ')[0]}</span> {query.split(' ').slice(1).join(' ')}</> : <>&ldquo;{query}&rdquo;</>}
+                  {query.startsWith('/') ? <><span className="text-[#FF8473] font-semibold">{query.split(' ')[0]}</span> {query.split(' ').slice(1).join(' ')}</> : <>&ldquo;{query}&rdquo;</>}
                 </p>
               </StaggerItem>
             ))}
@@ -509,7 +509,7 @@ export default function ChatWithDataPage() {
                     <ul className="space-y-2">
                       {section.items.map((item) => (
                         <li key={item} className="flex items-start gap-2 text-sm text-[var(--text-supporting)]">
-                          <span className="text-blue-400 mt-0.5 flex-shrink-0">✓</span>
+                          <span className="text-[#FF8473] mt-0.5 flex-shrink-0">✓</span>
                           <span>{item}</span>
                         </li>
                       ))}

@@ -126,7 +126,7 @@ const coreTiers: Tier[] = [
     id: 'core_pro',
     name: "Core Pro",
     badge: "MOST POPULAR",
-    badgeClass: "bg-blue-500/20 text-blue-400",
+    badgeClass: "bg-[#FF5C4D]/20 text-[#FF8473]",
     basePrice: "$449",
     perLocation: "$89",
     aiCredits: "14,000",
@@ -202,7 +202,7 @@ const pricingAddOns: PricingAddon[] = [
     description: "Need more intelligence queries? Purchase additional credits as add-ons to any plan.",
     note: "Available on all tiers",
     icon: "intelligence",
-    color: "from-blue-500 to-blue-600",
+    color: "from-[#FF5C4D] to-[#E9A24A]",
   },
 ];
 
@@ -658,7 +658,7 @@ function PricingCard({
     : formatPricingCurrency(locNum, locale, currency);
 
   return (
-    <Card className={`h-full ${tier.highlight ? 'border-2 border-blue-500/50 shadow-2xl' : 'border border-[var(--border-default)] shadow-lg'} hover:shadow-xl transition-all`}>
+    <Card className={`h-full ${tier.highlight ? 'border-2 border-[#FF5C4D]/50 shadow-2xl' : 'border border-[var(--border-default)] shadow-lg'} hover:shadow-xl transition-all`}>
       <CardHeader className="pb-4">
         {tier.badge && (
           <div className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold mb-3 w-fit ${tier.badgeClass}`}>
@@ -813,7 +813,7 @@ export default function PricingPage() {
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-8">
-              <div className="inline-flex items-center space-x-2 bg-blue-500/20 text-blue-400 px-5 py-2 rounded-full text-sm font-semibold">
+              <div className="inline-flex items-center space-x-2 bg-[#FF5C4D]/20 text-[#FF8473] px-5 py-2 rounded-full text-sm font-semibold">
                 <SundaeIcon name="core" size="md" />
                 <span>{copy.coreBadge}</span>
               </div>
@@ -841,11 +841,11 @@ export default function PricingPage() {
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <FadeUp>
-            <Card className="border-2 border-blue-500/50 shadow-2xl bg-[var(--surface-faint)]">
+            <Card className="border-2 border-[#FF5C4D]/50 shadow-2xl bg-[var(--surface-faint)]">
               <CardContent className="p-8 md:p-12">
                 <div className="grid md:grid-cols-2 gap-8 items-center">
                   <div>
-                    <div className="inline-flex items-center space-x-2 bg-blue-500/20 text-blue-400 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                    <div className="inline-flex items-center space-x-2 bg-[#FF5C4D]/20 text-[#FF8473] px-4 py-2 rounded-full text-sm font-semibold mb-4">
                       <SundaeIcon name="franchise" size="md" />
                       <span>{copy.enterpriseBadge}</span>
                     </div>

@@ -44,16 +44,16 @@
 .animate-float { animation: float 3s ease-in-out infinite; }
 .animate-slide-in-up { animation: slideInUp 0.8s ease-out forwards; }
 
-/* --- Blue Glow Effects --- */
+/* --- Warm Glow Effects --- */
 
 @keyframes pulse-blue-glow {
-  0%, 100% { box-shadow: 0 0 40px rgba(28, 71, 255, 0.2); }
-  50% { box-shadow: 0 0 60px rgba(28, 71, 255, 0.4); }
+  0%, 100% { box-shadow: 0 0 40px rgba(255, 92, 77, 0.2); }
+  50% { box-shadow: 0 0 60px rgba(255, 92, 77, 0.4); }
 }
 
 @keyframes pulseGlow {
-  0%, 100% { box-shadow: 0 0 20px rgba(28, 71, 255, 0.2); }
-  50% { box-shadow: 0 0 40px rgba(28, 71, 255, 0.4); }
+  0%, 100% { box-shadow: 0 0 20px rgba(255, 92, 77, 0.2); }
+  50% { box-shadow: 0 0 40px rgba(255, 92, 77, 0.4); }
 }
 
 .animate-glow-pulse { animation: pulse-blue-glow 3s ease-in-out infinite; }
@@ -102,7 +102,7 @@
 /* --- Text Effects --- */
 
 .text-gradient {
-  background: linear-gradient(135deg, #1C47FF, #3B82F6);
+  background: linear-gradient(135deg, #FF5C4D, #E9A24A);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -110,7 +110,7 @@
 
 .text-accent-gradient,
 .accent-gradient {
-  background: linear-gradient(135deg, #1C47FF, #3B82F6);
+  background: linear-gradient(135deg, #FF5C4D, #E9A24A);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -123,7 +123,7 @@
 /* --- Background Effects --- */
 
 .gradient-mesh {
-  background: linear-gradient(135deg, #0A1E8C 0%, #1C47FF 50%, #0D1520 100%);
+  background: linear-gradient(135deg, #C2410C 0%, #FF5C4D 50%, #15110D 100%);
   background-size: 400% 400%;
   animation: gradientShift 8s ease infinite;
 }

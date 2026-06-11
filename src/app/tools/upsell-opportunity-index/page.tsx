@@ -105,7 +105,7 @@ export default function UpsellOpportunityIndexPage() {
             <SundaeIcon name="balance" size="sm" />
             Back to Tools
           </Link>
-          <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase text-[var(--electric-blue)] mb-3">
+          <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase text-[var(--warm-coral)] mb-3">
             INSIGHT-GRADE · GUEST + REVENUE INTELLIGENCE
           </span>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[var(--text-primary)] mb-3 text-balance">
@@ -129,15 +129,15 @@ export default function UpsellOpportunityIndexPage() {
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
                 <div>
                   <label className="block text-[11px] font-semibold text-[var(--text-muted)] uppercase tracking-wider mb-1.5">Daily covers / outlet</label>
-                  <input type="number" value={dailyCovers} onChange={(e) => setDailyCovers(e.target.value)} className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--electric-blue)]" />
+                  <input type="number" value={dailyCovers} onChange={(e) => setDailyCovers(e.target.value)} className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]" />
                 </div>
                 <div>
                   <label className="block text-[11px] font-semibold text-[var(--text-muted)] uppercase tracking-wider mb-1.5">Outlet count</label>
-                  <input type="number" min="1" value={outletCount} onChange={(e) => setOutletCount(e.target.value)} className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--electric-blue)]" />
+                  <input type="number" min="1" value={outletCount} onChange={(e) => setOutletCount(e.target.value)} className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]" />
                 </div>
                 <div>
                   <label className="block text-[11px] font-semibold text-[var(--text-muted)] uppercase tracking-wider mb-1.5">Currency</label>
-                  <select value={currency} onChange={(e) => setCurrency(e.target.value)} className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--electric-blue)]">
+                  <select value={currency} onChange={(e) => setCurrency(e.target.value)} className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]">
                     {CURRENCY_REGIONS.map((region) => (
                       <optgroup key={region} label={region}>
                         {CURRENCIES.filter((c) => c.region === region).map((c) => <option key={c.code} value={c.code}>{c.code} - {c.symbol}</option>)}
@@ -168,7 +168,7 @@ export default function UpsellOpportunityIndexPage() {
                             next[i] = { ...cat, currentAttach: e.target.value };
                             setCategories(next);
                           }}
-                          className="w-20 bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--electric-blue)]"
+                          className="w-20 bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]"
                         />
                         <span className="text-xs text-[var(--text-muted)]">%</span>
                         {/* Mini gauge */}
@@ -178,7 +178,7 @@ export default function UpsellOpportunityIndexPage() {
                             style={{ left: `${cat.healthyMin}%`, width: `${cat.healthyMax - cat.healthyMin}%` }}
                           />
                           <div
-                            className="absolute top-0 w-1 h-full bg-[var(--electric-blue)]"
+                            className="absolute top-0 w-1 h-full bg-[var(--warm-coral)]"
                             style={{ left: `${Math.min(100, parseFloat(cat.currentAttach) || 0)}%` }}
                           />
                         </div>
@@ -194,8 +194,8 @@ export default function UpsellOpportunityIndexPage() {
             {analysis && (
               <div className="lg:sticky lg:top-32 space-y-4">
                 {/* Index score */}
-                <div className="rounded-2xl border-2 border-[var(--electric-blue)]/40 bg-gradient-to-br from-[var(--electric-blue)]/8 to-transparent p-6 text-center">
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-[var(--electric-blue)] mb-2">
+                <div className="rounded-2xl border-2 border-[var(--warm-coral)]/40 bg-gradient-to-br from-[var(--warm-coral)]/8 to-transparent p-6 text-center">
+                  <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-[var(--warm-coral)] mb-2">
                     Upsell Opportunity Index
                   </p>
                   <div className="text-5xl font-bold text-[var(--text-primary)] tabular-nums mb-1">
@@ -229,7 +229,7 @@ export default function UpsellOpportunityIndexPage() {
                 {analysis.topThree.length > 0 && (
                   <div className="rounded-2xl border border-[var(--border-default)] bg-white/[0.02] p-5">
                     <div className="flex items-center gap-2 mb-3">
-                      <SundaeIcon name="performance" size="sm" className="text-[var(--electric-blue)]" />
+                      <SundaeIcon name="performance" size="sm" className="text-[var(--warm-coral)]" />
                       <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-[var(--text-muted)]">
                         What Sundae would do - top 3 priorities
                       </p>
@@ -237,7 +237,7 @@ export default function UpsellOpportunityIndexPage() {
                     <ol className="space-y-3">
                       {analysis.topThree.map((r, i) => (
                         <li key={r.id} className="flex gap-3">
-                          <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[var(--electric-blue)]/15 border border-[var(--electric-blue)]/30 text-[var(--electric-blue)] text-xs font-bold flex items-center justify-center">
+                          <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[var(--warm-coral)]/15 border border-[var(--warm-coral)]/30 text-[var(--warm-coral)] text-xs font-bold flex items-center justify-center">
                             {i + 1}
                           </span>
                           <div className="flex-1 min-w-0">

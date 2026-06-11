@@ -24,7 +24,7 @@ type PersonaStructure = {
 const groupStructure: { personas: PersonaStructure[] }[] = [
   {
     personas: [
-      { slug: "c-suite-executives", icon: "owners", accent: "from-[#1C47FF] to-[#3B82F6]" },
+      { slug: "c-suite-executives", icon: "owners", accent: "from-[#FF5C4D] to-[#E9A24A]" },
       { slug: "finance-teams", icon: "finance", accent: "from-[#0EA5E9] to-[#0284C7]" },
       { slug: "multi-location-groups", icon: "benchmarking", accent: "from-[#6366F1] to-[#4F46E5]" },
     ],
@@ -39,7 +39,7 @@ const groupStructure: { personas: PersonaStructure[] }[] = [
   {
     personas: [
       { slug: "marketing-teams", icon: "marketing", accent: "from-[#EC4899] to-[#BE185D]" },
-      { slug: "technology-teams", icon: "data", accent: "from-[#0EA5E9] to-[#3B82F6]" },
+      { slug: "technology-teams", icon: "data", accent: "from-[#0EA5E9] to-[#FF7E6F]" },
     ],
   },
   {
@@ -359,7 +359,7 @@ export default function SolutionsHubPage() {
       <div className="min-h-screen bg-[var(--navy-deep)] overflow-x-hidden">
         {/* HERO */}
         <section className="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(28,71,255,0.12),transparent_60%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(255,92,77,0.12),transparent_60%)]" />
           <div className="absolute inset-0 bg-grid-texture" />
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
             <ElegantShape delay={0.3} width={600} height={140} rotate={12} gradient="from-white/[0.03]" className="left-[-10%] top-[15%]" />
@@ -370,8 +370,8 @@ export default function SolutionsHubPage() {
           <div className="max-w-7xl mx-auto relative z-10 grid lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.3fr)] gap-10 lg:gap-16 items-center">
             <div>
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }} className="mb-6">
-                <span className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-semibold tracking-wide uppercase bg-[rgba(28,71,255,0.12)] border border-[rgba(28,71,255,0.2)] text-[#60A5FA]">
-                  <span className="inline-block h-1.5 w-1.5 rounded-full bg-[#60A5FA] animate-pulse" />
+                <span className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-semibold tracking-wide uppercase bg-[rgba(255,92,77,0.12)] border border-[rgba(255,92,77,0.2)] text-[#FF8473]">
+                  <span className="inline-block h-1.5 w-1.5 rounded-full bg-[#FF8473] animate-pulse" />
                   {copy.badge}
                 </span>
               </motion.div>
@@ -379,15 +379,15 @@ export default function SolutionsHubPage() {
               <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.1 }} className="hero-h1 mb-6 text-balance">
                 <span className="bg-clip-text text-transparent bg-gradient-to-b from-[var(--text-primary)] to-[var(--text-primary)]/80">{copy.titleLine1}</span>
                 <br />
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#60A5FA] via-[var(--text-primary)] to-[#93C5FD]">{copy.titleLine2}</span>
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#FF8473] via-[var(--text-primary)] to-[#FFB59E]">{copy.titleLine2}</span>
               </motion.h1>
 
               <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.2 }} className="body-xl max-w-xl mb-3">
                 {copy.description}
               </motion.p>
 
-              <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6, delay: 0.4 }} className="text-sm uppercase tracking-[0.2em] text-[#60A5FA]/80 mb-10 font-semibold">
-                {copy.nowShowingPrefix} <span className="text-[#60A5FA]">{activeLabel}</span>
+              <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6, delay: 0.4 }} className="text-sm uppercase tracking-[0.2em] text-[#FF8473]/80 mb-10 font-semibold">
+                {copy.nowShowingPrefix} <span className="text-[#FF8473]">{activeLabel}</span>
               </motion.p>
 
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.3 }} className="flex flex-col sm:flex-row gap-3">
@@ -438,7 +438,7 @@ export default function SolutionsHubPage() {
           const structure = groupStructure[gi];
           return (
             <section key={gi} className="relative py-20 px-4 sm:px-6 lg:px-8">
-              <div className={`absolute inset-0 ${gi % 2 === 0 ? "bg-[radial-gradient(ellipse_at_center,rgba(28,71,255,0.04),transparent_60%)]" : "bg-mesh"}`} />
+              <div className={`absolute inset-0 ${gi % 2 === 0 ? "bg-[radial-gradient(ellipse_at_center,rgba(255,92,77,0.04),transparent_60%)]" : "bg-mesh"}`} />
               <div className="relative z-10 max-w-7xl mx-auto">
                 <FadeUp className="text-center max-w-3xl mx-auto mb-12">
                   <p className="eyebrow mb-4">{group.eyebrow}</p>
@@ -454,13 +454,13 @@ export default function SolutionsHubPage() {
                     return (
                       <StaggerItem key={s.slug}>
                         <Link href={`/solutions/${s.slug}`} className="group block h-full">
-                          <div className="h-full p-6 sm:p-7 rounded-2xl bg-white/[0.03] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:border-[rgba(28,71,255,0.3)] hover:shadow-[0_0_40px_rgba(28,71,255,0.10)] transition-all duration-300 hover:-translate-y-1">
+                          <div className="h-full p-6 sm:p-7 rounded-2xl bg-white/[0.03] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:border-[rgba(255,92,77,0.3)] hover:shadow-[0_0_40px_rgba(255,92,77,0.10)] transition-all duration-300 hover:-translate-y-1">
                             <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${s.accent} flex items-center justify-center text-white shadow-lg mb-5`}>
                               <SundaeIcon name={s.icon} size="md" className="text-white" />
                             </div>
                             <h3 className="text-xl font-semibold text-[var(--text-primary)] mb-2 leading-snug">{p.title}</h3>
                             <p className="text-sm text-[var(--text-muted)] leading-relaxed mb-6">{p.tagline}</p>
-                            <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#60A5FA] group-hover:text-[var(--text-primary)] transition-colors">
+                            <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#FF8473] group-hover:text-[var(--text-primary)] transition-colors">
                               {group.seeSolutionPrefix} {p.title}
                               <span className="inline-block transition-transform group-hover:translate-x-1">→</span>
                             </span>
@@ -480,7 +480,7 @@ export default function SolutionsHubPage() {
           <div className="absolute inset-0 bg-grid-texture" />
           <ElegantShape delay={0} width={400} height={100} rotate={-12} gradient="from-white/[0.03]" className="left-[-8%] top-[20%]" />
           <ElegantShape delay={0.2} width={300} height={80} rotate={15} gradient="from-white/[0.02]" className="right-[-5%] bottom-[10%]" />
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(28,71,255,0.06),transparent_70%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,92,77,0.06),transparent_70%)]" />
           <div className="relative z-10 max-w-3xl mx-auto text-center">
             <FadeUp>
               <p className="eyebrow mb-4">{copy.closingEyebrow}</p>

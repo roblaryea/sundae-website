@@ -597,7 +597,7 @@ export default function CoreProductPage() {
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-16">
-              <p className="eyebrow text-[#60A5FA] mb-4">{ui.tiers.eyebrow}</p>
+              <p className="eyebrow text-[#FF8473] mb-4">{ui.tiers.eyebrow}</p>
               <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.tiers.heading}</h2>
               <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{ui.tiers.description}</p>
             </div>
@@ -756,7 +756,7 @@ export default function CoreProductPage() {
               <StaggerItem key={integration.category}>
                 <div className="p-6 bg-[var(--surface-subtle)] rounded-xl border border-[var(--border-default)]">
                   <div className="flex items-center gap-3 mb-3">
-                    <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+                    <div className="w-10 h-10 bg-gradient-to-br from-[#FF7E6F] to-purple-600 rounded-lg flex items-center justify-center">
                       <SundaeIcon name={integration.icon} size="md" className="text-white" />
                     </div>
                     <h3 className="font-semibold text-[var(--text-primary)]">{integration.category}</h3>
@@ -783,7 +783,7 @@ export default function CoreProductPage() {
             {modules.map((mod) => (
               <StaggerItem key={mod.name}>
                 <div className="flex items-start gap-3 p-5 bg-[var(--surface-faint)] rounded-xl border border-[var(--border-default)] h-full">
-                  <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 bg-gradient-to-br from-[#FF7E6F] to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
                     <SundaeIcon name={mod.icon} size="md" className="text-white" />
                   </div>
                   <div>

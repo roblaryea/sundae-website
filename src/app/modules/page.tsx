@@ -105,7 +105,7 @@ const localizedModulesCopy: Record<string, LocalizedModuleCopy> = {
         capabilities: ["AI-recommended schedules", "Real-time labor cost tracking", "14-30 day demand forecasting", "Shift performance analysis", "Overtime early warnings"],
         roi: "Typical ROI: 8-12% labor cost reduction",
         bestFor: "High-volume operations with complex scheduling",
-        color: "from-blue-500 to-blue-600",
+        color: "from-[#FF5C4D] to-[#E9A24A]",
       },
       {
         name: "Inventory Intelligence",
@@ -225,7 +225,7 @@ const localizedModulesCopy: Record<string, LocalizedModuleCopy> = {
     bookDemo: "احجز عرضًا",
     contactSales: "تواصل مع المبيعات",
     modules: [
-      { name: "ذكاء العمالة", icon: "benchmarking", headline: "حسّن الجدولة، وقلل العمل الإضافي، وتنبأ بالطلب.", description: "حوّل العمالة من أكبر مصاريفك إلى أكثر أصولك تحسينًا.", capabilities: ["جداول موصى بها بالذكاء الاصطناعي", "تتبع تكلفة العمالة لحظيًا", "تنبؤ 14-30 يومًا", "تحليل أداء الورديات", "تنبيهات مبكرة للعمل الإضافي"], roi: "عائد نموذجي: خفض 8-12% في تكلفة العمالة", bestFor: "العمليات عالية الحجم ذات الجدولة المعقدة", color: "from-blue-500 to-blue-600" },
+      { name: "ذكاء العمالة", icon: "benchmarking", headline: "حسّن الجدولة، وقلل العمل الإضافي، وتنبأ بالطلب.", description: "حوّل العمالة من أكبر مصاريفك إلى أكثر أصولك تحسينًا.", capabilities: ["جداول موصى بها بالذكاء الاصطناعي", "تتبع تكلفة العمالة لحظيًا", "تنبؤ 14-30 يومًا", "تحليل أداء الورديات", "تنبيهات مبكرة للعمل الإضافي"], roi: "عائد نموذجي: خفض 8-12% في تكلفة العمالة", bestFor: "العمليات عالية الحجم ذات الجدولة المعقدة", color: "from-[#FF5C4D] to-[#E9A24A]" },
       { name: "ذكاء المخزون", icon: "insights", headline: "تتبع الهدر، أتمتة المستويات المثلى، وخفض التكاليف.", description: "حوّل إدارة المخزون إلى نظام محسّن مع تتبع لحظي وتوصيات آلية.", capabilities: ["تتبع الهدر لحظيًا", "تعديل تلقائي للمستويات المثلى", "تكلفة على مستوى الوصفة", "مراقبة أداء الموردين", "تحسين دوران المخزون"], roi: "عائد نموذجي: خفض 5-7% في تكلفة الغذاء", bestFor: "عمليات عالية التكلفة وقوائم معقدة", color: "from-purple-500 to-purple-600" },
       { name: "ذكاء المشتريات", icon: "marketing", headline: "قارن الموردين، حسّن الأسعار، وأدر العقود.", description: "حوّل الشراء من طلب تفاعلي إلى توريد استراتيجي.", capabilities: ["مقارنة أسعار متعددة الموردين", "تتبع الأسعار التاريخية", "إدارة شروط العقود", "إنشاء أوامر شراء آليًا", "رؤية سلسلة الإمداد"], roi: "عائد نموذجي: خفض 3-5% في تكاليف الشراء", bestFor: "المجموعات متعددة المواقع ذات قوة الشراء", color: "from-green-500 to-green-600" },
       { name: "أداء التسويق", icon: "growth", headline: "تتبع عائد الحملات، حسّن الإنفاق، وافهم الإسناد.", description: "حوّل التسويق إلى محرك نمو قابل للقياس.", capabilities: ["تتبع عائد الحملات", "إسناد متعدد اللمسات", "تحليل تكلفة الاكتساب", "فعالية العروض الترويجية", "تقسيم الضيوف"], roi: "عائد نموذجي: تحسن 15-25% في كفاءة التسويق", bestFor: "العلامات التي تعتمد على التسويق متعدد القنوات", color: "from-orange-500 to-orange-600" },
@@ -304,7 +304,7 @@ const localizedModulesCopy: Record<string, LocalizedModuleCopy> = {
     bookDemo: "Reserver une demo",
     contactSales: "Contacter les ventes",
     modules: [
-      { name: "Intelligence de la main-d oeuvre", icon: "benchmarking", headline: "Optimisez la planification et reduisez les heures sup.", description: "Transformez la main-d oeuvre en actif optimise avec planification et previsions IA.", capabilities: ["Plannings recommandes par IA", "Suivi des couts en temps reel", "Previsions 14-30 jours", "Analyse de performance des services", "Alertes heures sup"], roi: "ROI typique : reduction de 8 à 12 % du cout main-d oeuvre", bestFor: "Operations à fort volume avec planification complexe", color: "from-blue-500 to-blue-600" },
+      { name: "Intelligence de la main-d oeuvre", icon: "benchmarking", headline: "Optimisez la planification et reduisez les heures sup.", description: "Transformez la main-d oeuvre en actif optimise avec planification et previsions IA.", capabilities: ["Plannings recommandes par IA", "Suivi des couts en temps reel", "Previsions 14-30 jours", "Analyse de performance des services", "Alertes heures sup"], roi: "ROI typique : reduction de 8 à 12 % du cout main-d oeuvre", bestFor: "Operations à fort volume avec planification complexe", color: "from-[#FF5C4D] to-[#E9A24A]" },
       { name: "Intelligence inventaire", icon: "insights", headline: "Suivez le gaspillage, automatisez les niveaux et optimisez les couts.", description: "Transformez la gestion des stocks en systeme optimise.", capabilities: ["Suivi du gaspillage en temps reel", "Ajustements automatiques des niveaux", "Cout par recette", "Suivi des performances fournisseurs", "Optimisation de la rotation"], roi: "ROI typique : reduction de 5 à 7 % du cout nourriture", bestFor: "Operations à cout matiere eleve", color: "from-purple-500 to-purple-600" },
       { name: "Intelligence achats", icon: "marketing", headline: "Comparez les fournisseurs, optimisez les prix et gerez les contrats.", description: "Passez des commandes reactives à l approvisionnement strategique.", capabilities: ["Comparaison multi-fournisseurs", "Suivi historique des prix", "Gestion des contrats", "Generation automatique des commandes", "Visibilite supply chain"], roi: "ROI typique : reduction de 3 à 5 % des couts d achat", bestFor: "Groupes multi-sites avec pouvoir d achat", color: "from-green-500 to-green-600" },
       { name: "Performance marketing", icon: "growth", headline: "Suivez le ROI des campagnes et optimisez les depenses.", description: "Transformez le marketing en moteur de croissance mesurable.", capabilities: ["Suivi du ROI des campagnes", "Attribution multi-touch", "Analyse du CAC", "Efficacite des promotions", "Segmentation clients"], roi: "ROI typique : gain d efficacite de 15 à 25 %", bestFor: "Concepts multi-canaux", color: "from-orange-500 to-orange-600" },
@@ -383,7 +383,7 @@ const localizedModulesCopy: Record<string, LocalizedModuleCopy> = {
     bookDemo: "Reservar una demo",
     contactSales: "Contactar ventas",
     modules: [
-      { name: "Inteligencia laboral", icon: "benchmarking", headline: "Optimiza la planificacion, reduce el overtime y pronostica la demanda.", description: "Convierte la mano de obra en tu activo mejor optimizado con planificacion y pronosticos de IA.", capabilities: ["Horarios recomendados por IA", "Seguimiento de costos laborales en tiempo real", "Pronostico de demanda 14-30 dias", "Analisis de rendimiento de turnos", "Alertas tempranas de overtime"], roi: "ROI tipico: reduccion del 8-12% en costos laborales", bestFor: "Operaciones de alto volumen con planificacion compleja", color: "from-blue-500 to-blue-600" },
+      { name: "Inteligencia laboral", icon: "benchmarking", headline: "Optimiza la planificacion, reduce el overtime y pronostica la demanda.", description: "Convierte la mano de obra en tu activo mejor optimizado con planificacion y pronosticos de IA.", capabilities: ["Horarios recomendados por IA", "Seguimiento de costos laborales en tiempo real", "Pronostico de demanda 14-30 dias", "Analisis de rendimiento de turnos", "Alertas tempranas de overtime"], roi: "ROI tipico: reduccion del 8-12% en costos laborales", bestFor: "Operaciones de alto volumen con planificacion compleja", color: "from-[#FF5C4D] to-[#E9A24A]" },
       { name: "Inteligencia de inventario", icon: "insights", headline: "Seguimiento de desperdicio, niveles automáticos y costos optimizados.", description: "Convierte la gestion de inventario en un sistema optimizado.", capabilities: ["Seguimiento de desperdicio en tiempo real", "Ajustes automaticos de niveles", "Costo por receta", "Monitoreo de proveedores", "Optimizacion de rotacion"], roi: "ROI tipico: reduccion del 5-7% en costo de alimentos", bestFor: "Operaciones con alto costo de inventario", color: "from-purple-500 to-purple-600" },
       { name: "Inteligencia de compras", icon: "marketing", headline: "Compara proveedores, optimiza precios y gestiona contratos.", description: "Pasa de pedidos reactivos a abastecimiento estrategico.", capabilities: ["Comparacion de precios multi-proveedor", "Seguimiento historico de precios", "Gestion de contratos", "Generacion automatica de pedidos", "Visibilidad de la cadena de suministro"], roi: "ROI tipico: reduccion del 3-5% en compras", bestFor: "Grupos multiubicacion con poder de compra", color: "from-green-500 to-green-600" },
       { name: "Rendimiento de marketing", icon: "growth", headline: "Seguimiento del ROI de campañas y optimizacion del gasto.", description: "Convierte el marketing en un motor de crecimiento medible.", capabilities: ["Seguimiento del ROI de campañas", "Atribucion multi-touch", "Analisis de CAC", "Efectividad de promociones", "Segmentacion de clientes"], roi: "ROI tipico: mejora del 15-25% en eficiencia de marketing", bestFor: "Conceptos con presencia multicanal", color: "from-orange-500 to-orange-600" },
@@ -516,16 +516,16 @@ export default function ModulesPage() {
   const ui = localizedModulesUi[locale as keyof typeof localizedModulesUi] ?? getGeneratedLocalCopy(localizedModulesUi, generatedLocalCopy.localizedModulesUi, locale) ?? localizedModulesUi.en;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-orange-50">
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50/80 via-purple-50/30 to-blue-50/60">
+      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-orange-50/80 via-purple-50/30 to-orange-50/60">
         <div className="max-w-7xl mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 px-5 py-2.5 rounded-full text-base font-semibold mb-6">
+            <div className="inline-flex items-center space-x-2 bg-[#FF5C4D]/12 text-[#C2410C] px-5 py-2.5 rounded-full text-base font-semibold mb-6">
               <SundaeIcon name="network" size="md" />
               <span>{page.badge}</span>
             </div>
@@ -567,8 +567,8 @@ export default function ModulesPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
-            <div className="text-center p-6 bg-[rgba(28,71,255,0.1)] rounded-xl">
-              <div className="w-12 h-12 bg-[#1C47FF] rounded-full flex items-center justify-center mx-auto mb-3">
+            <div className="text-center p-6 bg-[rgba(255,92,77,0.1)] rounded-xl">
+              <div className="w-12 h-12 bg-[#FF5C4D] rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="intelligence" size="lg" className="text-[var(--text-primary)]" />
               </div>
               <h3 className="font-semibold text-[var(--text-primary)] mb-2">{page.pillars[0].title}</h3>
@@ -647,7 +647,7 @@ export default function ModulesPage() {
                         </ul>
                       </div>
                       <div>
-                        <div className="bg-gradient-to-br from-green-50 to-blue-50 rounded-lg p-4 mb-4">
+                        <div className="bg-gradient-to-br from-green-50 to-orange-50 rounded-lg p-4 mb-4">
                           <h4 className="font-semibold text-[var(--text-primary)] mb-2">{copy.roi}</h4>
                           <p className="text-sm text-[var(--text-secondary)]">{module.roi}</p>
                         </div>
@@ -683,9 +683,9 @@ export default function ModulesPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-            <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl p-8">
+            <div className="bg-gradient-to-br from-orange-50 to-purple-50 rounded-xl p-8">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center text-white font-bold text-xl">
+                <div className="w-12 h-12 bg-gradient-to-br from-[#FF5C4D] to-purple-600 rounded-lg flex items-center justify-center text-white font-bold text-xl">
                   1
                 </div>
                 <h3 className="text-xl font-bold text-[var(--text-primary)]">{page.howItWorks[0].title}</h3>
@@ -703,9 +703,9 @@ export default function ModulesPage() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-indigo-50 to-blue-50 rounded-xl p-8">
+            <div className="bg-gradient-to-br from-indigo-50 to-orange-50 rounded-xl p-8">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="w-12 h-12 bg-gradient-to-br from-indigo-500 to-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-xl">
+                <div className="w-12 h-12 bg-gradient-to-br from-indigo-500 to-[#FF5C4D] rounded-lg flex items-center justify-center text-white font-bold text-xl">
                   2
                 </div>
                 <h3 className="text-xl font-bold text-[var(--text-primary)]">{page.howItWorks[1].title}</h3>
@@ -730,7 +730,7 @@ export default function ModulesPage() {
             </div>
           </div>
 
-          <div className="bg-gradient-to-r from-purple-50 to-blue-50 rounded-xl p-8">
+          <div className="bg-gradient-to-r from-purple-50 to-orange-50 rounded-xl p-8">
             <h3 className="text-2xl font-bold text-[var(--text-primary)] mb-4 text-center">{page.crossModuleTitle}</h3>
             <p className="text-[var(--text-secondary)] text-center mb-6">{page.crossModuleDescription}</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -752,7 +752,7 @@ export default function ModulesPage() {
       </section>
 
       {/* Module Selection Guide */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-50 to-purple-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-orange-50 to-purple-50">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">
@@ -774,7 +774,7 @@ export default function ModulesPage() {
               >
                 <div className="bg-[var(--navy-deep)] rounded-xl p-6 shadow-none hover:shadow-md transition-all duration-300 h-full">
               <p className="text-lg font-bold text-[var(--text-primary)] mb-2">{item.pain}</p>
-              <p className="text-[#60A5FA] font-semibold mb-2">→ {item.solution}</p>
+              <p className="text-[#FF8473] font-semibold mb-2">→ {item.solution}</p>
               <p className="text-sm text-[var(--text-supporting)]">{item.benefit}</p>
             </div>
           </motion.div>
@@ -822,7 +822,7 @@ export default function ModulesPage() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-blue-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-orange-50">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="section-h2 text-[var(--text-primary)] mb-6">
             {page.ctaTitle}
@@ -844,7 +844,7 @@ export default function ModulesPage() {
               </a>
             </div>
             <div className="p-6 bg-[var(--navy-deep)] rounded-xl shadow-none">
-              <div className="w-12 h-12 bg-[#1C47FF] rounded-full flex items-center justify-center mx-auto mb-3">
+              <div className="w-12 h-12 bg-[#FF5C4D] rounded-full flex items-center justify-center mx-auto mb-3">
                 <SundaeIcon name="document" size="lg" className="text-[var(--text-primary)]" />
               </div>
               <h3 className="font-semibold text-[var(--text-primary)] mb-2">{page.chooseStack}</h3>

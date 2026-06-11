@@ -40,18 +40,18 @@ export const Card: React.FC<CardProps> = ({
  // Glass - frosted glass effect
  glass: 'bg-[var(--surface-subtle)] backdrop-blur-xl border border-[var(--border-default)]',
 
- // Glow - highlighted/featured with blue glow
- glow: 'bg-[rgba(28,71,255,0.06)] border border-[rgba(28,71,255,0.2)] shadow-[0_0_60px_rgba(28,71,255,0.3)]',
+ // Glow - highlighted/featured with warm coral glow
+ glow: 'bg-[rgba(255,92,77,0.06)] border border-[rgba(255,92,77,0.2)] shadow-[0_0_60px_rgba(255,92,77,0.3)]',
 
  // Feature - for feature cards
- feature: 'bg-[var(--surface-subtle)] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:border-[rgba(28,71,255,0.3)]',
+ feature: 'bg-[var(--surface-subtle)] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:border-[rgba(255,92,77,0.3)]',
 
  // Pricing - for pricing cards
  pricing: 'bg-[var(--surface-subtle)] border border-[var(--border-default)] backdrop-blur-sm shadow-xl shadow-[var(--shadow-color)]',
  };
 
  const hoverStyles = hover
- ? 'hover:-translate-y-1 hover:bg-[var(--surface-hover)] hover:border-[rgba(28,71,255,0.3)] cursor-pointer'
+ ? 'hover:-translate-y-1 hover:bg-[var(--surface-hover)] hover:border-[rgba(255,92,77,0.3)] cursor-pointer'
  : '';
 
  const interactiveStyles = onClick ? 'cursor-pointer' : '';
@@ -126,7 +126,7 @@ interface CardIconProps {
 export const CardIcon: React.FC<CardIconProps> = ({ children, className = '', variant = 'gradient' }) => {
  const variants = {
  default: 'bg-[var(--surface-emphasis)] text-[var(--text-secondary)]',
- gradient: 'bg-gradient-to-br from-[#0A1E8C] to-[#1C47FF] text-white',
+ gradient: 'bg-gradient-to-br from-[#C2410C] to-[#FF5C4D] text-white',
  outlined: 'border border-[var(--border-emphasis)] bg-[var(--surface-subtle)] text-[var(--text-secondary)]',
  };
 

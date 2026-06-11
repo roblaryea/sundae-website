@@ -69,7 +69,7 @@ const localizedWatchtowerCopy = {
           "12-week competitive trend tracking",
         ],
         icon: "balance" as SundaeIconName,
-        color: "from-blue-500 to-blue-600",
+        color: "from-[#FF5C4D] to-[#E9A24A]",
       },
       {
         title: "Events & Calendar Intelligence",
@@ -199,7 +199,7 @@ const localizedWatchtowerCopy = {
           "تتبع اتجاهات تنافسية لمدة 12 أسبوعاً",
         ],
         icon: "balance" as SundaeIconName,
-        color: "from-blue-500 to-blue-600",
+        color: "from-[#FF5C4D] to-[#E9A24A]",
       },
       {
         title: "ذكاء الأحداث والتقويم",
@@ -311,7 +311,7 @@ const localizedWatchtowerCopy = {
           "Suivi de tendance sur 12 semaines",
         ],
         icon: "balance" as SundaeIconName,
-        color: "from-blue-500 to-blue-600",
+        color: "from-[#FF5C4D] to-[#E9A24A]",
       },
       {
         title: "Intelligence evenements et calendrier",
@@ -423,7 +423,7 @@ const localizedWatchtowerCopy = {
           "Seguimiento de tendencias durante 12 semanas",
         ],
         icon: "balance" as SundaeIconName,
-        color: "from-blue-500 to-blue-600",
+        color: "from-[#FF5C4D] to-[#E9A24A]",
       },
       {
         title: "Inteligencia de eventos y calendario",
@@ -668,7 +668,7 @@ export default function WatchtowerPage() {
             </Button>
           </StaggerItem>
           <StaggerItem className="p-6 border border-[var(--border-default)] rounded-xl">
-            <div className="w-12 h-12 bg-[#1C47FF] rounded-full flex items-center justify-center mx-auto mb-3">
+            <div className="w-12 h-12 bg-[#FF5C4D] rounded-full flex items-center justify-center mx-auto mb-3">
               <SundaeIcon name="visibility" size="lg" className="text-white" />
             </div>
             <h3 className="font-semibold text-[var(--text-primary)] mb-2 text-center">{ui.ctaDemo}</h3>

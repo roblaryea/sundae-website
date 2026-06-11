@@ -70,7 +70,7 @@ const localizedDocsCopy: RequiredEnglishLocalizedRecord<DocumentationCopy> = {
         title: "Getting Started",
         description: "Learn how to onboard to Sundae and connect your data sources",
         icon: "growth",
-        color: "bg-[#1C47FF]",
+        color: "bg-[#FF5C4D]",
         topics: [
           "Creating your Sundae account",
           "Connecting your POS system",
@@ -196,7 +196,7 @@ const localizedDocsCopy: RequiredEnglishLocalizedRecord<DocumentationCopy> = {
         title: "البدء",
         description: "تعرّف على كيفية الانضمام إلى Sundae وربط مصادر بياناتك",
         icon: "growth",
-        color: "bg-[#1C47FF]",
+        color: "bg-[#FF5C4D]",
         topics: [
           "إنشاء حساب Sundae الخاص بك",
           "ربط نظام نقاط البيع",
@@ -322,7 +322,7 @@ const localizedDocsCopy: RequiredEnglishLocalizedRecord<DocumentationCopy> = {
         title: "Premiers pas",
         description: "Apprenez a demarrer sur Sundae et a connecter vos sources de donnees",
         icon: "growth",
-        color: "bg-[#1C47FF]",
+        color: "bg-[#FF5C4D]",
         topics: [
           "Creer votre compte Sundae",
           "Connecter votre systeme POS",
@@ -448,7 +448,7 @@ const localizedDocsCopy: RequiredEnglishLocalizedRecord<DocumentationCopy> = {
         title: "Primeros pasos",
         description: "Aprende a incorporarte a Sundae y conectar tus fuentes de datos",
         icon: "growth",
-        color: "bg-[#1C47FF]",
+        color: "bg-[#FF5C4D]",
         topics: [
           "Crear tu cuenta de Sundae",
           "Conectar tu sistema POS",
@@ -585,7 +585,7 @@ export default function DocumentationPage() {
                         <SundaeIcon name={section.icon} size="lg" className="text-white" />
                       </div>
                       <div>
-                        <CardTitle className="text-xl text-[var(--text-primary)] group-hover:text-[#60A5FA] transition-colors duration-300">
+                        <CardTitle className="text-xl text-[var(--text-primary)] group-hover:text-[#FF8473] transition-colors duration-300">
                           {section.title}
                         </CardTitle>
                       </div>
@@ -600,7 +600,7 @@ export default function DocumentationPage() {
                       <ul className="space-y-2">
                         {section.topics.map((topic, idx) => (
                           <li key={idx} className="flex items-start space-x-2 text-sm text-[var(--text-supporting)]">
-                            <span className="text-[#60A5FA] mt-0.5">&rarr;</span>
+                            <span className="text-[#FF8473] mt-0.5">&rarr;</span>
                             <span>{topic}</span>
                           </li>
                         ))}
@@ -632,10 +632,10 @@ export default function DocumentationPage() {
               <StaggerItem key={index}>
                 <Card variant="elevated" className="text-center h-full">
                   <CardContent className="p-8">
-                    <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl flex items-center justify-center">
+                    <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-[#FF7E6F] to-purple-600 rounded-xl flex items-center justify-center">
                       <SundaeIcon name={item.icon} size="xl" className="text-white" />
                     </div>
-                    <div className="text-3xl font-bold text-[#60A5FA] mb-4">
+                    <div className="text-3xl font-bold text-[#FF8473] mb-4">
                       {copy.stepLabel} {item.step}
                     </div>
                     <h3 className="text-xl font-bold text-[var(--text-primary)] mb-3">{item.title}</h3>
@@ -652,7 +652,7 @@ export default function DocumentationPage() {
         <div className="max-w-4xl mx-auto text-center">
           <FadeUp>
             <div className="bg-[var(--surface-faint)] rounded-2xl p-12 border border-[var(--border-default)]">
-              <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center">
+              <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-[#FF5C4D] to-[#E03E48] rounded-xl flex items-center justify-center">
                 <SundaeIcon name="warning" size="xl" className="text-white" />
               </div>
               <h3 className="text-3xl font-bold text-[var(--text-primary)] mb-4">
@@ -663,7 +663,7 @@ export default function DocumentationPage() {
               </p>
               <p className="text-sm text-[var(--text-muted)]">
                 {copy.contactPrompt}{" "}
-                <Link href="/contact" className="text-[#60A5FA] font-medium hover:underline">
+                <Link href="/contact" className="text-[#FF8473] font-medium hover:underline">
                   {copy.contactLinkLabel} &rarr;
                 </Link>
               </p>

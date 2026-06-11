@@ -13,9 +13,9 @@
   --foreground: #FFFFFF;
 
   /* ─── Brand Primary ─── */
-  --electric-blue: #1C47FF;      /* Primary accent, CTAs, links, active states */
-  --deep-blue: #0A1E8C;          /* Gradient starts, secondary accent */
-  --brand-main: #151EA1;         /* Alternate blue for variety */
+  --electric-blue: #FF5C4D;      /* Primary accent (warm coral) - CTAs, links, active states */
+  --deep-blue: #C2410C;          /* Gradient starts - deep warm caramel */
+  --brand-main: #B23A1E;         /* Alternate warm for variety */
 
   /* ─── Brand Secondary ─── */
   --brand-yellow: #FFD232;       /* Highlight accent, enterprise badge */
@@ -50,9 +50,9 @@
   --surface-emphasis: rgba(255, 255, 255, 0.08);  /* Borders, dividers */
 
   /* ─── Gradients ─── */
-  --grad-primary: linear-gradient(135deg, #0A1E8C 0%, #1C47FF 50%, #3B82F6 100%);
-  --grad-cta: linear-gradient(to right, #0A1E8C, #3B82F6);
-  --grad-deep-blue: linear-gradient(180deg, #0A1E8C 0%, #0D1520 100%);
+  --grad-primary: linear-gradient(135deg, #C2410C 0%, #FF5C4D 50%, #E9A24A 100%);
+  --grad-cta: linear-gradient(to right, #C2410C, #FF7E6F);
+  --grad-deep-blue: linear-gradient(180deg, #5A2414 0%, #15110D 100%);
 
   /* Background mesh gradients (for sections) */
   --bg-mesh: radial-gradient(ellipse 80% 60% at 20% 40%, rgba(255,92,77,0.07) 0%, transparent 60%),
@@ -119,17 +119,17 @@
   --color-report: #7C3AED;
   --color-report-light: rgba(124, 58, 237, 0.15);
   --color-report-dark: #C4B5FD;
-  --color-core: #2563EB;
-  --color-core-light: rgba(37, 99, 235, 0.15);
-  --color-core-dark: #93C5FD;
+  --color-core: #FF5C4D;
+  --color-core-light: rgba(255, 92, 77, 0.15);
+  --color-core-dark: #FFB59E;
   --color-watchtower-light: rgba(220, 38, 38, 0.15);
   --color-watchtower-dark: #FCA5A5;
 
   /* Badge Colors (dark mode) */
   --badge-free: rgba(22, 163, 74, 0.15);
   --badge-free-text: #4ADE80;
-  --badge-popular: rgba(28, 71, 255, 0.15);
-  --badge-popular-text: #60A5FA;
+  --badge-popular: rgba(255, 92, 77, 0.15);
+  --badge-popular-text: #FF8473;
   --badge-addon: rgba(255, 255, 255, 0.06);
   --badge-addon-text: rgba(255, 255, 255, 0.6);
 
@@ -226,13 +226,13 @@ html.light {
   /* ─── Badge Colors (light mode) ─── */
   --badge-free: rgba(22, 163, 74, 0.1);
   --badge-free-text: #16A34A;
-  --badge-popular: rgba(28, 71, 255, 0.1);
-  --badge-popular-text: #1C47FF;
+  --badge-popular: rgba(255, 92, 77, 0.1);
+  --badge-popular-text: #C8392A;
   --badge-addon: rgba(15, 23, 42, 0.06);
   --badge-addon-text: rgba(15, 23, 42, 0.6);
 
-  /* ─── Electric blue stays the same ─── */
-  --electric-blue: #1C47FF;
+  /* ─── Warm coral accent (light) - deeper so it holds contrast on white ─── */
+  --electric-blue: #C8392A;
 
   /* ─── Decorative Shape Tokens (light mode - dark tints on white) ─── */
   --shape-tint: #0F172A;

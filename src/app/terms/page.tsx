@@ -1169,7 +1169,7 @@ export default async function TermsPage() {
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center space-x-2 bg-blue-500/20 text-blue-400 px-4 py-2 rounded-full text-sm font-medium mb-6">
+            <div className="inline-flex items-center space-x-2 bg-[#FF5C4D]/20 text-[#FF8473] px-4 py-2 rounded-full text-sm font-medium mb-6">
               <SundaeIcon name="document" size="md" />
               <span>Legal</span>
             </div>
@@ -1596,7 +1596,7 @@ export default async function TermsPage() {
                   You may terminate your account and stop using the Services at any time through your account settings or by contacting us. Any prepaid fees are non-refundable unless otherwise stated in writing.
                 </p>
                 <p className="text-[var(--text-secondary)] mb-4">
-                  You may request deletion of identifiable Customer Data by contacting us at <a href="mailto:legal@sundae.io" className="text-[#60A5FA] hover:underline">legal@sundae.io</a> within sixty (60) days of termination. You acknowledge that Customer Data is sourced from your own operational systems (POS, ERP, delivery platforms, etc.) and that you retain independent access to such data through those systems at all times. Sundae will use reasonable efforts to delete identifiable Customer Data within ninety (90) days of a valid deletion request, except where retention is required by law, necessary for dispute resolution, or still resides in customer-controlled or provider-managed backup systems outside Sundae's direct deletion control. For the avoidance of doubt, Aggregated Data and Benchmark Data that does not identify you or any individual is not subject to deletion requests and may be retained and used by Sundae indefinitely in accordance with Section 13.4.
+                  You may request deletion of identifiable Customer Data by contacting us at <a href="mailto:legal@sundae.io" className="text-[#FF8473] hover:underline">legal@sundae.io</a> within sixty (60) days of termination. You acknowledge that Customer Data is sourced from your own operational systems (POS, ERP, delivery platforms, etc.) and that you retain independent access to such data through those systems at all times. Sundae will use reasonable efforts to delete identifiable Customer Data within ninety (90) days of a valid deletion request, except where retention is required by law, necessary for dispute resolution, or still resides in customer-controlled or provider-managed backup systems outside Sundae's direct deletion control. For the avoidance of doubt, Aggregated Data and Benchmark Data that does not identify you or any individual is not subject to deletion requests and may be retained and used by Sundae indefinitely in accordance with Section 13.4.
                 </p>
                 
                 <h3 className="text-xl font-semibold text-[var(--text-primary)] mb-3">18.3 Termination or Suspension by Sundae</h3>
@@ -1689,7 +1689,7 @@ export default async function TermsPage() {
                     <strong>Sundae Technologies Inc.</strong><br />
                     1007 N Orange St, 4th Floor, Suite 1382<br />
                     Wilmington, DE 19801, United States<br />
-                    Email: <a href="mailto:legal@sundae.io" className="text-[#60A5FA] hover:underline">legal@sundae.io</a>
+                    Email: <a href="mailto:legal@sundae.io" className="text-[#FF8473] hover:underline">legal@sundae.io</a>
                   </p>
                 </div>
               </section>
@@ -1711,9 +1711,9 @@ export default async function TermsPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <Card variant="elevated">
               <CardContent className="p-6 text-center">
-                <div className="w-10 h-10 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center"><SundaeIcon name="support" size="lg" className="text-white" /></div>
+                <div className="w-10 h-10 mx-auto mb-4 bg-gradient-to-br from-[#FF5C4D] to-[#E03E48] rounded-lg flex items-center justify-center"><SundaeIcon name="support" size="lg" className="text-white" /></div>
                 <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">Email Us</h3>
-                <a href="mailto:legal@sundae.io" className="text-[#60A5FA] hover:underline">
+                <a href="mailto:legal@sundae.io" className="text-[#FF8473] hover:underline">
                   legal@sundae.io
                 </a>
               </CardContent>
@@ -1721,9 +1721,9 @@ export default async function TermsPage() {
             
             <Card variant="elevated">
               <CardContent className="p-6 text-center">
-                <div className="w-10 h-10 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center"><SundaeIcon name="support" size="lg" className="text-white" /></div>
+                <div className="w-10 h-10 mx-auto mb-4 bg-gradient-to-br from-[#FF5C4D] to-[#E03E48] rounded-lg flex items-center justify-center"><SundaeIcon name="support" size="lg" className="text-white" /></div>
                 <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">Call Us</h3>
-                <a href="tel:+97145017308" className="text-[#60A5FA] hover:underline">
+                <a href="tel:+97145017308" className="text-[#FF8473] hover:underline">
                   +971 (4) 501-7308
                 </a>
               </CardContent>
@@ -1731,7 +1731,7 @@ export default async function TermsPage() {
             
             <Card variant="elevated">
               <CardContent className="p-6 text-center">
-                <div className="w-10 h-10 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center"><SundaeIcon name="multiLocation" size="lg" className="text-white" /></div>
+                <div className="w-10 h-10 mx-auto mb-4 bg-gradient-to-br from-[#FF5C4D] to-[#E03E48] rounded-lg flex items-center justify-center"><SundaeIcon name="multiLocation" size="lg" className="text-white" /></div>
                 <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">Visit Us</h3>
                 <p className="text-[var(--text-supporting)] text-sm">
                   1007 N Orange St<br />
@@ -1805,7 +1805,7 @@ function LocalizedTermsPage({ copy }: { copy: TermsCopy }) {
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center space-x-2 bg-blue-500/20 text-blue-400 px-4 py-2 rounded-full text-sm font-medium mb-6">
+            <div className="inline-flex items-center space-x-2 bg-[#FF5C4D]/20 text-[#FF8473] px-4 py-2 rounded-full text-sm font-medium mb-6">
               <SundaeIcon name="document" size="md" />
               <span>{copy.badge}</span>
             </div>
@@ -1862,7 +1862,7 @@ function LocalizedTermsPage({ copy }: { copy: TermsCopy }) {
             {copy.cards.map((card) => (
               <Card key={card.title} variant="elevated">
                 <CardContent className="p-6 text-center">
-                  <div className="w-10 h-10 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center">
+                  <div className="w-10 h-10 mx-auto mb-4 bg-gradient-to-br from-[#FF5C4D] to-[#E03E48] rounded-lg flex items-center justify-center">
                     <SundaeIcon name={card.icon} size="lg" className="text-white" />
                   </div>
                   <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">{card.title}</h3>
@@ -1876,7 +1876,7 @@ function LocalizedTermsPage({ copy }: { copy: TermsCopy }) {
                       ))}
                     </p>
                   ) : (
-                    <a href={card.href ?? '#'} className="text-[#60A5FA] hover:underline">
+                    <a href={card.href ?? '#'} className="text-[#FF8473] hover:underline">
                       {card.value}
                     </a>
                   )}

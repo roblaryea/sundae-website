@@ -150,7 +150,7 @@ export function SectionSpeedQualityCost() {
               <div className="inline-flex items-center gap-2 text-[12px] uppercase tracking-[0.18em] text-[var(--text-muted)] line-through decoration-[var(--text-faint)] decoration-1">
                 Old rule: pick two
               </div>
-              <div className="mt-2 text-[13px] uppercase tracking-[0.18em] text-[var(--electric-blue)] font-bold">
+              <div className="mt-2 text-[13px] uppercase tracking-[0.18em] text-[var(--warm-coral)] font-bold">
                 ↓  Sundae rule: pick all three
               </div>
             </div>
@@ -163,14 +163,14 @@ export function SectionSpeedQualityCost() {
             >
               <defs>
                 <linearGradient id="triEdge" x1="0" y1="0" x2="1" y2="1">
-                  <stop offset="0%" stopColor="rgba(28,71,255,0.7)" />
-                  <stop offset="50%" stopColor="rgba(59,130,246,0.4)" />
+                  <stop offset="0%" stopColor="rgba(255,92,77,0.7)" />
+                  <stop offset="50%" stopColor="rgba(255,126,111,0.4)" />
                   <stop offset="100%" stopColor="rgba(255,255,255,0.12)" />
                 </linearGradient>
                 <radialGradient id="triFill" cx="50%" cy="60%" r="55%">
-                  <stop offset="0%" stopColor="rgba(28,71,255,0.18)" />
-                  <stop offset="60%" stopColor="rgba(28,71,255,0.05)" />
-                  <stop offset="100%" stopColor="rgba(28,71,255,0)" />
+                  <stop offset="0%" stopColor="rgba(255,92,77,0.18)" />
+                  <stop offset="60%" stopColor="rgba(255,92,77,0.05)" />
+                  <stop offset="100%" stopColor="rgba(255,92,77,0)" />
                 </radialGradient>
                 <filter id="tracerGlow" x="-100%" y="-100%" width="300%" height="300%">
                   <feGaussianBlur stdDeviation="6" result="blur" />
@@ -214,7 +214,7 @@ export function SectionSpeedQualityCost() {
                       cy={trianglePoints[activeIdx].y}
                       r="22"
                       fill="none"
-                      stroke="#3B82F6"
+                      stroke="#FF7E6F"
                       strokeWidth="1.5"
                       opacity="0"
                     >
@@ -244,7 +244,7 @@ export function SectionSpeedQualityCost() {
               {useAnimated && (
                 <>
                   {/* Bright glow halo */}
-                  <circle r="14" fill="#3B82F6" opacity="0.35" filter="url(#tracerGlow)">
+                  <circle r="14" fill="#FF7E6F" opacity="0.35" filter="url(#tracerGlow)">
                     <animateMotion
                       dur={`${TOTAL_LOOP_S}s`}
                       repeatCount="indefinite"
@@ -294,7 +294,7 @@ export function SectionSpeedQualityCost() {
                       cx={p.x}
                       cy={p.y}
                       r={isActive ? 50 : 24}
-                      fill="#1C47FF"
+                      fill="#FF5C4D"
                       opacity={isActive ? 0.28 : 0.08}
                       style={{ transition: "all 0.5s cubic-bezier(0.22, 1, 0.36, 1)" }}
                     />
@@ -303,7 +303,7 @@ export function SectionSpeedQualityCost() {
                       cx={p.x}
                       cy={p.y}
                       r={isActive ? 26 : 14}
-                      fill="#1C47FF"
+                      fill="#FF5C4D"
                       opacity={isActive ? 0.5 : 0.2}
                       style={{ transition: "all 0.5s cubic-bezier(0.22, 1, 0.36, 1)" }}
                     />
@@ -322,7 +322,7 @@ export function SectionSpeedQualityCost() {
                       textAnchor="middle"
                       fontSize="11"
                       fontWeight="800"
-                      fill={isActive ? "#1C47FF" : "rgba(28,71,255,0.5)"}
+                      fill={isActive ? "#FF5C4D" : "rgba(255,92,77,0.5)"}
                       style={{ transition: "fill 0.4s ease-out" }}
                     >
                       {i + 1}
@@ -358,7 +358,7 @@ export function SectionSpeedQualityCost() {
                   key={v.id}
                   className="rounded-xl border border-[var(--border-default)] bg-[var(--surface-subtle)] p-5"
                 >
-                  <div className="text-[11px] uppercase tracking-wider text-[var(--electric-blue)] font-bold mb-2">
+                  <div className="text-[11px] uppercase tracking-wider text-[var(--warm-coral)] font-bold mb-2">
                     {v.label}
                   </div>
                   <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">
@@ -369,7 +369,7 @@ export function SectionSpeedQualityCost() {
                     {v.chips.map((chip) => (
                       <span
                         key={chip}
-                        className="text-[11px] font-semibold px-2.5 py-1 rounded-full bg-[var(--electric-blue)]/15 text-[var(--electric-blue)] border border-[var(--electric-blue)]/25"
+                        className="text-[11px] font-semibold px-2.5 py-1 rounded-full bg-[var(--warm-coral)]/15 text-[var(--warm-coral)] border border-[var(--warm-coral)]/25"
                       >
                         {chip}
                       </span>
@@ -390,7 +390,7 @@ export function SectionSpeedQualityCost() {
                     exit={{ opacity: 0, y: -8 }}
                     transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
                   >
-                    <div className="text-[11px] uppercase tracking-wider text-[var(--electric-blue)] font-bold mb-3">
+                    <div className="text-[11px] uppercase tracking-wider text-[var(--warm-coral)] font-bold mb-3">
                       {vertices[activeIdx].label}
                     </div>
                     <h3 className="section-h3 mb-4">
@@ -416,7 +416,7 @@ export function SectionSpeedQualityCost() {
                   {vertices[activeIdx].chips.map((chip) => (
                     <span
                       key={chip}
-                      className="text-[12px] font-semibold px-3 py-1.5 rounded-full bg-[var(--electric-blue)]/15 text-[var(--electric-blue)] border border-[var(--electric-blue)]/25"
+                      className="text-[12px] font-semibold px-3 py-1.5 rounded-full bg-[var(--warm-coral)]/15 text-[var(--warm-coral)] border border-[var(--warm-coral)]/25"
                     >
                       {chip}
                     </span>

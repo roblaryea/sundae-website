@@ -26,7 +26,7 @@ export default async function DemoPage() {
       {/* Hero Section */}
       <section className="pt-32 pb-12 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto text-center">
-          <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase text-[var(--electric-blue)] mb-4">{copy.badge}</span>
+          <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase text-[var(--warm-coral)] mb-4">{copy.badge}</span>
           <h1 className="hero-h1 text-[var(--text-primary)] mb-6">
             {copy.title}
           </h1>
@@ -38,9 +38,9 @@ export default async function DemoPage() {
 
       {/* AI Operations Diagnostic - primary path */}
       <section className="px-4 sm:px-6 lg:px-8 pb-16">
-        <div className="max-w-4xl mx-auto rounded-3xl bg-gradient-to-br from-[var(--electric-blue)]/15 via-[var(--electric-blue)]/8 to-emerald-500/8 border border-[var(--electric-blue)]/30 p-6 md:p-10 text-center">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[var(--electric-blue)]/15 border border-[var(--electric-blue)]/30 mb-4">
-            <span className="text-[10px] font-bold uppercase tracking-[0.16em] text-[var(--electric-blue)]">
+        <div className="max-w-4xl mx-auto rounded-3xl bg-gradient-to-br from-[var(--warm-coral)]/15 via-[var(--warm-coral)]/8 to-emerald-500/8 border border-[var(--warm-coral)]/30 p-6 md:p-10 text-center">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[var(--warm-coral)]/15 border border-[var(--warm-coral)]/30 mb-4">
+            <span className="text-[10px] font-bold uppercase tracking-[0.16em] text-[var(--warm-coral)]">
               ✦ Recommended · 10 minutes · Premium report
             </span>
           </div>
@@ -55,7 +55,7 @@ export default async function DemoPage() {
           </p>
           <a
             href="/diagnostic"
-            className="inline-flex items-center gap-2 px-7 py-3.5 bg-gradient-to-r from-[var(--electric-blue)] to-emerald-500 text-white font-bold rounded-xl shadow-xl shadow-[var(--electric-blue)]/20 hover:shadow-[var(--electric-blue)]/40 transition-all"
+            className="inline-flex items-center gap-2 px-7 py-3.5 bg-gradient-to-r from-[var(--warm-coral)] to-emerald-500 text-white font-bold rounded-xl shadow-xl shadow-[var(--warm-coral)]/20 hover:shadow-[var(--warm-coral)]/40 transition-all"
           >
             Start your diagnostic
             <span aria-hidden>→</span>
@@ -100,7 +100,7 @@ export default async function DemoPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {copy.benefits.map((benefit, index: number) => (
               <div key={index} className="bg-[var(--navy-deep)] rounded-2xl p-8 border border-[var(--border-default)] shadow-none">
-                <div className="w-12 h-12 mb-5 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center">
+                <div className="w-12 h-12 mb-5 bg-gradient-to-br from-[#FF5C4D] to-[#C2410C] rounded-xl flex items-center justify-center">
                   <SundaeIcon name={(index === 0 ? 'canvas' : index === 1 ? 'insights' : 'support') as SundaeIconName} size="lg" className="text-white" />
                 </div>
                 <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">{benefit.title}</h3>

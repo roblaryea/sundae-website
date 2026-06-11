@@ -218,7 +218,7 @@ export default function ProductPage() {
           </div></FadeUp>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
-              <Card variant="elevated" className="h-full overflow-hidden border-2 border-blue-500/30">
+              <Card variant="elevated" className="h-full overflow-hidden border-2 border-[#FF5C4D]/30">
                 <div className="relative h-48 overflow-hidden bg-[var(--surface-subtle)] p-3">
                   <BenchmarkDashboardMockup />
                   <div className="absolute inset-0 bg-gradient-to-t from-[var(--surface-hover)] via-transparent to-transparent pointer-events-none" />
@@ -226,14 +226,14 @@ export default function ProductPage() {
                 </div>
                 <CardContent className="p-6">
                   <h3 className="text-2xl font-bold text-[var(--text-primary)] mb-2">{ui.freeTitle}</h3>
-                  <p className="text-sm text-[#60A5FA] font-semibold mb-3">{ui.freeSubtitle}</p>
+                  <p className="text-sm text-[#FF8473] font-semibold mb-3">{ui.freeSubtitle}</p>
                   <p className="text-[var(--text-supporting)] mb-4 leading-relaxed">{ui.freeDescription}</p>
                   <p className="text-sm font-medium text-[var(--text-primary)] mb-3">{ui.freeIncludes}</p>
                   <ul className="text-sm text-[var(--text-supporting)] space-y-1.5 mb-6">
-                    <li className="flex items-center gap-2"><span className="text-blue-500">✓</span> {locale === 'en' ? 'Benchmarks (competitive intelligence)' : locale === 'ar' ? 'المقارنات (الذكاء التنافسي)' : locale === 'fr' ? 'Benchmarks (intelligence concurrentielle)' : 'Benchmarks (inteligencia competitiva)'}</li>
-                    <li className="flex items-center gap-2"><span className="text-blue-500">✓</span> {locale === 'en' ? 'Performance Report' : locale === 'ar' ? 'تقرير الأداء' : locale === 'fr' ? 'Rapport de performance' : 'Informe de rendimiento'}</li>
-                    <li className="flex items-center gap-2"><span className="text-blue-500">✓</span> {locale === 'en' ? 'Sundae Intelligence' : locale === 'ar' ? 'Sundae Intelligence' : locale === 'fr' ? 'Sundae Intelligence' : 'Sundae Intelligence'}</li>
-                    <li className="flex items-center gap-2"><span className="text-blue-500">✓</span> {locale === 'en' ? 'Integrations Hub' : locale === 'ar' ? 'مركز التكاملات' : locale === 'fr' ? 'Hub des integrations' : 'Centro de integraciones'}</li>
+                    <li className="flex items-center gap-2"><span className="text-[#FF8473]">✓</span> {locale === 'en' ? 'Benchmarks (competitive intelligence)' : locale === 'ar' ? 'المقارنات (الذكاء التنافسي)' : locale === 'fr' ? 'Benchmarks (intelligence concurrentielle)' : 'Benchmarks (inteligencia competitiva)'}</li>
+                    <li className="flex items-center gap-2"><span className="text-[#FF8473]">✓</span> {locale === 'en' ? 'Performance Report' : locale === 'ar' ? 'تقرير الأداء' : locale === 'fr' ? 'Rapport de performance' : 'Informe de rendimiento'}</li>
+                    <li className="flex items-center gap-2"><span className="text-[#FF8473]">✓</span> {locale === 'en' ? 'Sundae Intelligence' : locale === 'ar' ? 'Sundae Intelligence' : locale === 'fr' ? 'Sundae Intelligence' : 'Sundae Intelligence'}</li>
+                    <li className="flex items-center gap-2"><span className="text-[#FF8473]">✓</span> {locale === 'en' ? 'Integrations Hub' : locale === 'ar' ? 'مركز التكاملات' : locale === 'fr' ? 'Hub des integrations' : 'Centro de integraciones'}</li>
                   </ul>
                   <Button variant="primary" className="w-full" onClick={() => cta("/report", "view_report_product", { page: "/product" })}>{ui.freeCta}</Button>
                 </CardContent>
@@ -272,7 +272,7 @@ export default function ProductPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp><div className="text-center mb-16">
-            <p className="eyebrow text-[#60A5FA] mb-4">{ui.layersEyebrow}</p>
+            <p className="eyebrow text-[#FF8473] mb-4">{ui.layersEyebrow}</p>
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.layersTitle}</h2>
             <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">{ui.layersDescription}</p>
           </div></FadeUp>

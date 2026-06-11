@@ -62,7 +62,7 @@ const AccordionSection = ({ title, id, isExpanded, onToggle, children }: Accordi
         type="button"
         id={headerId}
         onClick={onToggle}
-        className="w-full flex items-center justify-between py-3 px-4 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-blue-500"
+        className="w-full flex items-center justify-between py-3 px-4 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-[#FF5C4D]"
         aria-expanded={isExpanded}
         aria-controls={contentId}
       >
@@ -105,7 +105,7 @@ const MobileNavLink = ({ href, children, onClick, isHighlighted = false, dataAtt
     onClick={onClick}
     className={`block py-2.5 px-4 text-sm font-medium transition-colors duration-150 ${
       isHighlighted
-        ? 'text-[#60A5FA] hover:bg-[var(--surface-hover)]'
+        ? 'text-[#FF8473] hover:bg-[var(--surface-hover)]'
         : 'text-[var(--text-secondary)] hover:bg-[var(--surface-hover)]'
     }`}
     {...dataAttributes}
@@ -509,7 +509,7 @@ const Navbar = () => {
           <div className="xl:hidden flex items-center gap-2">
             <button
               type="button"
-              className="inline-flex items-center justify-center p-2 rounded-lg text-[var(--text-primary)] hover:bg-[var(--surface-hover)] focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 relative z-50"
+              className="inline-flex items-center justify-center p-2 rounded-lg text-[var(--text-primary)] hover:bg-[var(--surface-hover)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF5C4D] relative z-50"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               aria-label={isMenuOpen ? nav.closeMenu : nav.openMenu}
               aria-expanded={isMenuOpen}
@@ -591,7 +591,7 @@ const Navbar = () => {
             <button
               type="button"
               onClick={() => setIsMenuOpen(false)}
-              className="p-2 rounded-lg hover:bg-[var(--surface-hover)] transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+              className="p-2 rounded-lg hover:bg-[var(--surface-hover)] transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF5C4D]"
               aria-label={nav.closeNavigation}
             >
               <svg
@@ -651,7 +651,7 @@ const Navbar = () => {
               <a
                 href={SIGNUP_URL}
                 onClick={handleMobileNavClick}
-                className="block py-2.5 px-4 text-sm font-medium transition-colors duration-150 text-[#60A5FA] hover:bg-[var(--surface-hover)]"
+                className="block py-2.5 px-4 text-sm font-medium transition-colors duration-150 text-[#FF8473] hover:bg-[var(--surface-hover)]"
               >
                 {nav.startFree}
               </a>

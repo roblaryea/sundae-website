@@ -115,7 +115,7 @@ export function SectionProof() {
                   {c.industry}
                 </p>
                 <div className="pt-4 border-t border-[var(--border-default)]">
-                  <div className="text-[11px] uppercase tracking-wider text-[var(--electric-blue)] font-bold mb-2">
+                  <div className="text-[11px] uppercase tracking-wider text-[var(--warm-coral)] font-bold mb-2">
                     With Sundae
                   </div>
                   <p className="text-sm text-[var(--text-primary)] font-medium leading-snug">

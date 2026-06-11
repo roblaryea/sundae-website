@@ -84,7 +84,7 @@ export function SolutionPageLayout({
             HERO
         ════════════════════════════════════════════════ */}
         <section className="relative pt-32 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(28,71,255,0.10),transparent_60%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(255,92,77,0.10),transparent_60%)]" />
           <div className="absolute inset-0 bg-grid-texture" />
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
             <ElegantShape delay={0.3} width={600} height={140} rotate={12} gradient="from-white/[0.03]" className="left-[-10%] top-[15%]" />
@@ -94,15 +94,15 @@ export function SolutionPageLayout({
           <div className="max-w-7xl mx-auto relative z-10 grid lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.3fr)] gap-10 lg:gap-12 items-center">
             <div>
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }} className="mb-6">
-                <span className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-semibold tracking-wide uppercase bg-[rgba(28,71,255,0.12)] border border-[rgba(28,71,255,0.2)] text-[#60A5FA]">
-                  <span className="inline-block h-1.5 w-1.5 rounded-full bg-[#60A5FA] animate-pulse" />
+                <span className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-semibold tracking-wide uppercase bg-[rgba(255,92,77,0.12)] border border-[rgba(255,92,77,0.2)] text-[#FF8473]">
+                  <span className="inline-block h-1.5 w-1.5 rounded-full bg-[#FF8473] animate-pulse" />
                   {copy.badge}
                 </span>
               </motion.div>
               <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.1 }} className="hero-h1 mb-6 text-balance">
                 <span className="bg-clip-text text-transparent bg-gradient-to-b from-[var(--text-primary)] to-[var(--text-primary)]/80">{copy.titleLine1}</span>
                 <br />
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#60A5FA] via-[var(--text-primary)] to-[#93C5FD]">{copy.titleLine2}</span>
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#FF8473] via-[var(--text-primary)] to-[#FFB59E]">{copy.titleLine2}</span>
               </motion.h1>
               <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.2 }} className="body-xl max-w-xl mb-8">
                 {copy.description}
@@ -165,13 +165,13 @@ export function SolutionPageLayout({
             <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-5">
               {copy.howSundaeHelps.map((h, i) => (
                 <StaggerItem key={i}>
-                  <div className="group h-full p-6 rounded-2xl bg-white/[0.03] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:border-[rgba(28,71,255,0.25)] hover:shadow-[0_0_30px_rgba(28,71,255,0.08)] transition-all duration-300">
+                  <div className="group h-full p-6 rounded-2xl bg-white/[0.03] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:border-[rgba(255,92,77,0.25)] hover:shadow-[0_0_30px_rgba(255,92,77,0.08)] transition-all duration-300">
                     <div className="flex items-start gap-4">
-                      <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-[#1C47FF] to-[#3B82F6] flex items-center justify-center flex-shrink-0 shadow-lg">
+                      <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-[#FF5C4D] to-[#E9A24A] flex items-center justify-center flex-shrink-0 shadow-lg">
                         <SundaeIcon name={h.icon} size="md" className="text-white" />
                       </div>
                       <div className="flex-1">
-                        <div className="text-[10px] uppercase tracking-wider text-[#60A5FA] font-bold mb-1.5">{h.product}</div>
+                        <div className="text-[10px] uppercase tracking-wider text-[#FF8473] font-bold mb-1.5">{h.product}</div>
                         <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2 leading-snug">{h.title}</h3>
                         <p className="text-sm text-[var(--text-muted)] leading-relaxed">{h.description}</p>
                       </div>
@@ -222,10 +222,10 @@ export function SolutionPageLayout({
             <div className="absolute inset-0 bg-mesh" />
             <div className="relative z-10 max-w-5xl mx-auto">
               <FadeUp>
-                <div className="rounded-2xl p-7 sm:p-9 border border-[var(--electric-blue)]/30 bg-gradient-to-br from-[var(--electric-blue)]/[0.08] to-[var(--electric-blue)]/[0.02] shadow-[0_0_40px_rgba(28,71,255,0.10)]">
+                <div className="rounded-2xl p-7 sm:p-9 border border-[var(--warm-coral)]/30 bg-gradient-to-br from-[var(--warm-coral)]/[0.08] to-[var(--warm-coral)]/[0.02] shadow-[0_0_40px_rgba(255,92,77,0.10)]">
                   <div className="grid lg:grid-cols-[minmax(0,1fr)_auto] gap-6 items-center">
                     <div>
-                      <p className="text-[11px] uppercase tracking-[0.18em] text-[#60A5FA] font-bold mb-3">
+                      <p className="text-[11px] uppercase tracking-[0.18em] text-[#FF8473] font-bold mb-3">
                         {copy.crewCallout.eyebrow}
                       </p>
                       <h3 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)] mb-2 leading-tight">
@@ -261,7 +261,7 @@ export function SolutionPageLayout({
           <div className="absolute inset-0 bg-grid-texture" />
           <ElegantShape delay={0} width={400} height={100} rotate={-12} gradient="from-white/[0.03]" className="left-[-8%] top-[20%]" />
           <ElegantShape delay={0.2} width={300} height={80} rotate={15} gradient="from-white/[0.02]" className="right-[-5%] bottom-[10%]" />
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(28,71,255,0.06),transparent_70%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,92,77,0.06),transparent_70%)]" />
           <div className="relative z-10 max-w-3xl mx-auto text-center">
             <FadeUp>
               <h2 className="section-h2 mb-4">{copy.ctaTitle}</h2>

@@ -372,7 +372,7 @@ export default function ReportProductPage() {
                     <div className="w-16 h-16 bg-[var(--surface-subtle)] rounded-full flex items-center justify-center mx-auto mb-4">
                       <SundaeIcon name={["benchmarking","intelligence","insights"][index] as SundaeIconName} size="xl" className="text-white" />
                     </div>
-                    <div className="text-sm text-[#60A5FA] font-medium mb-2">Step {index + 1}</div>
+                    <div className="text-sm text-[#FF8473] font-medium mb-2">Step {index + 1}</div>
                     <CardTitle className="text-[var(--text-primary)]">{step.title}</CardTitle>
                   </CardHeader>
                   <CardContent>

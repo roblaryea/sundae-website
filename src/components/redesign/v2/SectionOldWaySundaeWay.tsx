@@ -12,7 +12,7 @@ import { SundaeWordmark } from "./SundaeWordmark";
  *
  * Reduced-motion fallback: both columns and the replaces strip render in
  * their final state on first paint. Contrast is preserved via styling
- * (Old Way muted, Sundae Way electric blue).
+ * (Old Way muted, Sundae Way warm coral).
  *
  * Claims used:
  *   CLM-202 ("The old way waits for reports...") APPROVED PUBLIC
@@ -108,9 +108,9 @@ export function SectionOldWaySundaeWay() {
               delay: 0.1,
               ease: [0.22, 1, 0.36, 1],
             }}
-            className="rounded-2xl border border-[var(--electric-blue)]/30 bg-gradient-to-br from-[var(--electric-blue)]/[0.10] to-[var(--electric-blue)]/[0.02] p-6 sm:p-8 shadow-[0_0_40px_rgba(28,71,255,0.12)]"
+            className="rounded-2xl border border-[var(--warm-coral)]/30 bg-gradient-to-br from-[var(--warm-coral)]/[0.10] to-[var(--warm-coral)]/[0.02] p-6 sm:p-8 shadow-[0_0_40px_rgba(255,92,77,0.12)]"
           >
-            <div className="text-[11px] uppercase tracking-wider text-[var(--electric-blue)] font-bold mb-4">
+            <div className="text-[11px] uppercase tracking-wider text-[var(--warm-coral)] font-bold mb-4">
               The Sundae way
             </div>
             <ul className="space-y-2.5">
@@ -131,7 +131,7 @@ export function SectionOldWaySundaeWay() {
                 </motion.li>
               ))}
             </ul>
-            <div className="mt-6 pt-4 border-t border-[var(--electric-blue)]/20 text-sm text-[var(--text-secondary)]">
+            <div className="mt-6 pt-4 border-t border-[var(--warm-coral)]/20 text-sm text-[var(--text-secondary)]">
               By 11:14 Tuesday.
             </div>
           </motion.div>

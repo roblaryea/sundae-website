@@ -112,7 +112,7 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
     ctaSecondary: "Explore Products",
     layers: [
       { title: "Decision Intelligence", subtitle: "Top Layer", description: "Benchmarks, insights, forecasting, automated decisions", color: "bg-gradient-to-r from-pink-500 to-rose-500", icon: "intelligence" },
-      { title: "AI Processing", subtitle: "Intelligence Layer", description: "Multi-agent AI, pattern detection, anomaly detection, reasoning", color: "bg-gradient-to-r from-slate-50 to-blue-50", textColor: "text-[var(--text-primary)]", icon: "speed" },
+      { title: "AI Processing", subtitle: "Intelligence Layer", description: "Multi-agent AI, pattern detection, anomaly detection, reasoning", color: "bg-gradient-to-r from-slate-50 to-orange-50", textColor: "text-[var(--text-primary)]", icon: "speed" },
       { title: "Data Processing", subtitle: "Transformation Layer", description: "Cleaning, transformation, metrics logic, enrichment", color: "bg-gradient-to-r from-yellow-400 to-amber-400", icon: "data" },
       { title: "Data Integration", subtitle: "Unification Layer", description: "POS, labor, inventory, reservations, delivery aggregators, raw data unification", color: "bg-gradient-to-r from-orange-500 to-amber-600", icon: "integration" },
       { title: "Foundation / Infrastructure", subtitle: "Base Layer", description: "Secure pipelines, API ingestion, normalization, governance", color: "bg-gradient-to-r from-amber-700 to-orange-800", icon: "network" },
@@ -141,13 +141,13 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
     ],
     certs: [
       { label: "SOC 2 Type II", state: "✓ Certified", stateClass: "text-green-600" },
-      { label: "GDPR", state: "✓ Compliant", stateClass: "text-[#60A5FA]" },
+      { label: "GDPR", state: "✓ Compliant", stateClass: "text-[#FF8473]" },
       { label: "CCPA", state: "✓ Compliant", stateClass: "text-purple-600" },
       { label: "ISO 27001", state: "In Progress", stateClass: "text-amber-600" },
     ],
     engineeringCards: [
       { title: "Multi-Agent AI", icon: "intelligence", color: "from-purple-500 to-purple-600", features: ["Multi-agent AI engine", "Continuous learning models", "Predictive analytics", "Natural language processing"] },
-      { title: "Real-Time Processing", icon: "speed", color: "from-blue-500 to-blue-600", features: ["Real-time data processing", "Sub-second response times", "Active monitoring and resilient infrastructure", "Auto-scaling infrastructure"] },
+      { title: "Real-Time Processing", icon: "speed", color: "from-[#FF5C4D] to-[#E9A24A]", features: ["Real-time data processing", "Sub-second response times", "Active monitoring and resilient infrastructure", "Auto-scaling infrastructure"] },
       { title: "Integration Engine", icon: "integration", color: "from-green-500 to-green-600", features: ["12-domain data connectors", "RESTful API architecture", "Webhook support", "Custom integration tools"] },
       { title: "Intelligence Core", icon: "insights", color: "from-orange-500 to-orange-600", features: ["Advanced algorithms", "Machine learning models", "Pattern recognition", "Anomaly detection"] },
       { title: "Delivery Layer", icon: "canvas", color: "from-cyan-500 to-cyan-600", features: ["Interactive dashboards", "Natural language queries", "Mobile-responsive design", "Real-time alerts"] },
@@ -177,7 +177,7 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
     ctaSecondary: "استعرض المنتجات",
     layers: [
       { title: "ذكاء القرار", subtitle: "الطبقة العليا", description: "مقارنات، رؤى، توقعات، وقرارات آلية", color: "bg-gradient-to-r from-pink-500 to-rose-500", icon: "intelligence" },
-      { title: "معالجة الذكاء الاصطناعي", subtitle: "طبقة الذكاء", description: "ذكاء متعدد الوكلاء، واكتشاف الأنماط، واكتشاف الشذوذ، والاستدلال", color: "bg-gradient-to-r from-slate-50 to-blue-50", textColor: "text-[var(--text-primary)]", icon: "speed" },
+      { title: "معالجة الذكاء الاصطناعي", subtitle: "طبقة الذكاء", description: "ذكاء متعدد الوكلاء، واكتشاف الأنماط، واكتشاف الشذوذ، والاستدلال", color: "bg-gradient-to-r from-slate-50 to-orange-50", textColor: "text-[var(--text-primary)]", icon: "speed" },
       { title: "معالجة البيانات", subtitle: "طبقة التحويل", description: "تنظيف، تحويل، منطق المقاييس، وإثراء البيانات", color: "bg-gradient-to-r from-yellow-400 to-amber-400", icon: "data" },
       { title: "تكامل البيانات", subtitle: "طبقة التوحيد", description: "POS والعمالة والمخزون والحجوزات والتوصيل وتوحيد البيانات الخام", color: "bg-gradient-to-r from-orange-500 to-amber-600", icon: "integration" },
       { title: "الأساس / البنية التحتية", subtitle: "طبقة الأساس", description: "مسارات آمنة، واستقبال عبر API، وتوحيد، وحوكمة", color: "bg-gradient-to-r from-amber-700 to-orange-800", icon: "network" },
@@ -206,13 +206,13 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
     ],
     certs: [
       { label: "SOC 2 Type II", state: "✓ معتمد", stateClass: "text-green-600" },
-      { label: "GDPR", state: "✓ متوافق", stateClass: "text-[#60A5FA]" },
+      { label: "GDPR", state: "✓ متوافق", stateClass: "text-[#FF8473]" },
       { label: "CCPA", state: "✓ متوافق", stateClass: "text-purple-600" },
       { label: "ISO 27001", state: "قيد التنفيذ", stateClass: "text-amber-600" },
     ],
     engineeringCards: [
       { title: "ذكاء متعدد الوكلاء", icon: "intelligence", color: "from-purple-500 to-purple-600", features: ["محرك ذكاء متعدد الوكلاء", "نماذج تتعلم باستمرار", "تحليلات تنبؤية", "معالجة لغة طبيعية"] },
-      { title: "معالجة فورية", icon: "speed", color: "from-blue-500 to-blue-600", features: ["معالجة بيانات لحظية", "استجابة في أقل من ثانية", "مراقبة نشطة وبنية مرنة", "بنية قابلة للتوسع تلقائيًا"] },
+      { title: "معالجة فورية", icon: "speed", color: "from-[#FF5C4D] to-[#E9A24A]", features: ["معالجة بيانات لحظية", "استجابة في أقل من ثانية", "مراقبة نشطة وبنية مرنة", "بنية قابلة للتوسع تلقائيًا"] },
       { title: "محرك التكامل", icon: "integration", color: "from-green-500 to-green-600", features: ["موصلات بيانات عبر 12 مجالًا", "معمارية RESTful", "دعم Webhook", "أدوات تكامل مخصصة"] },
       { title: "نواة الذكاء", icon: "insights", color: "from-orange-500 to-orange-600", features: ["خوارزميات متقدمة", "نماذج تعلم آلي", "التعرف على الأنماط", "اكتشاف الشذوذ"] },
       { title: "طبقة الإخراج", icon: "canvas", color: "from-cyan-500 to-cyan-600", features: ["لوحات تفاعلية", "استعلامات باللغة الطبيعية", "تصميم متجاوب للجوال", "تنبيهات فورية"] },
@@ -242,7 +242,7 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
     ctaSecondary: "Explorer les produits",
     layers: [
       { title: "Intelligence décisionnelle", subtitle: "Couche supérieure", description: "Benchmarks, insights, prévisions, décisions automatisées", color: "bg-gradient-to-r from-pink-500 to-rose-500", icon: "intelligence" },
-      { title: "Traitement IA", subtitle: "Couche intelligence", description: "IA multi-agents, détection de motifs, anomalies, raisonnement", color: "bg-gradient-to-r from-slate-50 to-blue-50", textColor: "text-[var(--text-primary)]", icon: "speed" },
+      { title: "Traitement IA", subtitle: "Couche intelligence", description: "IA multi-agents, détection de motifs, anomalies, raisonnement", color: "bg-gradient-to-r from-slate-50 to-orange-50", textColor: "text-[var(--text-primary)]", icon: "speed" },
       { title: "Traitement des données", subtitle: "Couche transformation", description: "Nettoyage, transformation, logique métrique, enrichissement", color: "bg-gradient-to-r from-yellow-400 to-amber-400", icon: "data" },
       { title: "Intégration des données", subtitle: "Couche unification", description: "POS, main-d'oeuvre, stock, réservations, livraison, unification brute", color: "bg-gradient-to-r from-orange-500 to-amber-600", icon: "integration" },
       { title: "Fondation / infrastructure", subtitle: "Couche de base", description: "Pipelines sécurisés, ingestion API, normalisation, gouvernance", color: "bg-gradient-to-r from-amber-700 to-orange-800", icon: "network" },
@@ -271,13 +271,13 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
     ],
     certs: [
       { label: "SOC 2 Type II", state: "✓ Certifié", stateClass: "text-green-600" },
-      { label: "GDPR", state: "✓ Conforme", stateClass: "text-[#60A5FA]" },
+      { label: "GDPR", state: "✓ Conforme", stateClass: "text-[#FF8473]" },
       { label: "CCPA", state: "✓ Conforme", stateClass: "text-purple-600" },
       { label: "ISO 27001", state: "En cours", stateClass: "text-amber-600" },
     ],
     engineeringCards: [
       { title: "IA multi-agents", icon: "intelligence", color: "from-purple-500 to-purple-600", features: ["Moteur IA multi-agents", "Modèles à apprentissage continu", "Analytique prédictive", "Traitement du langage naturel"] },
-      { title: "Traitement temps réel", icon: "speed", color: "from-blue-500 to-blue-600", features: ["Traitement temps réel", "Réponses sub-seconde", "Monitoring actif et infrastructure résiliente", "Auto-scaling"] },
+      { title: "Traitement temps réel", icon: "speed", color: "from-[#FF5C4D] to-[#E9A24A]", features: ["Traitement temps réel", "Réponses sub-seconde", "Monitoring actif et infrastructure résiliente", "Auto-scaling"] },
       { title: "Moteur d'intégration", icon: "integration", color: "from-green-500 to-green-600", features: ["Connecteurs 12 domaines", "Architecture API REST", "Support webhook", "Outils d'intégration personnalisés"] },
       { title: "Core intelligence", icon: "insights", color: "from-orange-500 to-orange-600", features: ["Algorithmes avancés", "Modèles ML", "Reconnaissance de motifs", "Détection d'anomalies"] },
       { title: "Couche de diffusion", icon: "canvas", color: "from-cyan-500 to-cyan-600", features: ["Dashboards interactifs", "Requêtes en langage naturel", "Design responsive", "Alertes temps réel"] },
@@ -307,7 +307,7 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
     ctaSecondary: "Explorar productos",
     layers: [
       { title: "Inteligencia de decisiones", subtitle: "Capa superior", description: "Benchmarks, insights, forecasting, decisiones automatizadas", color: "bg-gradient-to-r from-pink-500 to-rose-500", icon: "intelligence" },
-      { title: "Procesamiento de IA", subtitle: "Capa de inteligencia", description: "IA multiagente, detección de patrones, anomalías y razonamiento", color: "bg-gradient-to-r from-slate-50 to-blue-50", textColor: "text-[var(--text-primary)]", icon: "speed" },
+      { title: "Procesamiento de IA", subtitle: "Capa de inteligencia", description: "IA multiagente, detección de patrones, anomalías y razonamiento", color: "bg-gradient-to-r from-slate-50 to-orange-50", textColor: "text-[var(--text-primary)]", icon: "speed" },
       { title: "Procesamiento de datos", subtitle: "Capa de transformación", description: "Limpieza, transformación, lógica de métricas, enriquecimiento", color: "bg-gradient-to-r from-yellow-400 to-amber-400", icon: "data" },
       { title: "Integración de datos", subtitle: "Capa de unificación", description: "POS, personal, inventario, reservas, delivery y unificación de datos", color: "bg-gradient-to-r from-orange-500 to-amber-600", icon: "integration" },
       { title: "Base / infraestructura", subtitle: "Capa base", description: "Pipelines seguros, ingesta API, normalización, gobernanza", color: "bg-gradient-to-r from-amber-700 to-orange-800", icon: "network" },
@@ -336,13 +336,13 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
     ],
     certs: [
       { label: "SOC 2 Type II", state: "✓ Certificado", stateClass: "text-green-600" },
-      { label: "GDPR", state: "✓ Conforme", stateClass: "text-[#60A5FA]" },
+      { label: "GDPR", state: "✓ Conforme", stateClass: "text-[#FF8473]" },
       { label: "CCPA", state: "✓ Conforme", stateClass: "text-purple-600" },
       { label: "ISO 27001", state: "En progreso", stateClass: "text-amber-600" },
     ],
     engineeringCards: [
       { title: "IA multiagente", icon: "intelligence", color: "from-purple-500 to-purple-600", features: ["Motor IA multiagente", "Modelos de aprendizaje continuo", "Analítica predictiva", "Procesamiento de lenguaje natural"] },
-      { title: "Procesamiento en tiempo real", icon: "speed", color: "from-blue-500 to-blue-600", features: ["Procesamiento en tiempo real", "Respuesta en menos de un segundo", "Monitorización activa e infraestructura resiliente", "Autoescalado"] },
+      { title: "Procesamiento en tiempo real", icon: "speed", color: "from-[#FF5C4D] to-[#E9A24A]", features: ["Procesamiento en tiempo real", "Respuesta en menos de un segundo", "Monitorización activa e infraestructura resiliente", "Autoescalado"] },
       { title: "Motor de integración", icon: "integration", color: "from-green-500 to-green-600", features: ["Conectores de 12 dominios", "Arquitectura API REST", "Soporte de webhooks", "Herramientas de integración personalizadas"] },
       { title: "Núcleo de inteligencia", icon: "insights", color: "from-orange-500 to-orange-600", features: ["Algoritmos avanzados", "Modelos ML", "Reconocimiento de patrones", "Detección de anomalías"] },
       { title: "Capa de entrega", icon: "canvas", color: "from-cyan-500 to-cyan-600", features: ["Paneles interactivos", "Consultas en lenguaje natural", "Diseño responsive", "Alertas en tiempo real"] },
@@ -373,7 +373,7 @@ export default function ArchitecturePage() {
                   <div className={`${layer.color} ${layer.textColor || 'text-[var(--text-primary)]'} rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-[1.01]`}>
                     <div className="flex items-start space-x-6">
                       <div className="w-14 h-14 bg-[var(--navy-deep)]/20 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <SundaeIcon name={layer.icon as SundaeIconName} size="xl" className={layer.textColor === 'text-[var(--text-primary)]' ? 'text-[#60A5FA]' : 'text-[var(--text-primary)]'} />
+                        <SundaeIcon name={layer.icon as SundaeIconName} size="xl" className={layer.textColor === 'text-[var(--text-primary)]' ? 'text-[#FF8473]' : 'text-[var(--text-primary)]'} />
                       </div>
                       <div className="flex-grow">
                         <div className={`text-sm font-semibold mb-2 ${layer.textColor === 'text-[var(--text-primary)]' ? 'text-[var(--text-supporting)]' : 'opacity-90'}`}>{layer.subtitle}</div>
@@ -395,7 +395,7 @@ export default function ArchitecturePage() {
         </div>
       </section>
 
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-blue-50/30">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-orange-50/30">
         <div className="max-w-7xl mx-auto">
           <FadeUp className="text-center mb-16">
             <h2 className="text-[30px] md:text-[36px] font-bold text-[var(--text-primary)] mb-6">{ui.flowTitle}</h2>
@@ -428,7 +428,7 @@ export default function ArchitecturePage() {
               <StaggerItem key={agent.name}>
                 <Card variant="elevated" className="h-full hover:shadow-xl transition-all">
                   <CardHeader>
-                    <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center">
+                    <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-[#FF5C4D] to-[#E9A24A] rounded-xl flex items-center justify-center">
                       <SundaeIcon name={agent.icon as SundaeIconName} size="xl" className="text-[var(--text-primary)]" />
                     </div>
                     <CardTitle className="text-center text-xl text-[var(--text-primary)] mb-4">{agent.name}</CardTitle>
@@ -443,7 +443,7 @@ export default function ArchitecturePage() {
         </div>
       </section>
 
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-blue-50/30">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-orange-50/30">
         <div className="max-w-7xl mx-auto">
           <FadeUp className="text-center mb-16">
             <h2 className="text-[30px] md:text-[36px] font-bold text-[var(--text-primary)] mb-6">{ui.modulesTitle}</h2>
@@ -489,7 +489,7 @@ export default function ArchitecturePage() {
               <div className="space-y-6">
                 {ui.securityBullets.map((item) => (
                   <div key={item.title} className="flex items-start space-x-4">
-                    <div className="w-10 h-10 mt-1 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <div className="w-10 h-10 mt-1 bg-gradient-to-br from-[#FF5C4D] to-[#E9A24A] rounded-lg flex items-center justify-center flex-shrink-0">
                       <SundaeIcon name={item.icon as SundaeIconName} size="md" className="text-[var(--text-primary)]" />
                     </div>
                     <div>
@@ -502,9 +502,9 @@ export default function ArchitecturePage() {
             </FadeUp>
 
             <FadeUp delay={0.15}>
-              <div className="bg-gradient-to-br from-slate-50 to-blue-50/30 rounded-2xl p-8 shadow-xl border-2 border-[var(--border-default)]">
+              <div className="bg-gradient-to-br from-slate-50 to-orange-50/30 rounded-2xl p-8 shadow-xl border-2 border-[var(--border-default)]">
                 <div className="text-center mb-6">
-                  <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center">
+                  <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-[#FF5C4D] to-[#E9A24A] rounded-xl flex items-center justify-center">
                     <SundaeIcon name="success" size="xl" className="text-white" />
                   </div>
                   <h3 className="text-2xl font-bold text-[var(--text-primary)]">{locale === "ar" ? "الشهادات" : locale === "fr" ? "Certifications" : locale === "es" ? "Certificaciones" : "Certifications"}</h3>

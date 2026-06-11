@@ -187,7 +187,7 @@ export function DiagnosticFlow({ onComplete, locale }: DiagnosticFlowProps) {
         </div>
         <div className="h-1 bg-white/[0.05] rounded-full overflow-hidden">
           <motion.div
-            className="h-full bg-gradient-to-r from-[var(--electric-blue)] to-emerald-400"
+            className="h-full bg-gradient-to-r from-[var(--warm-coral)] to-emerald-400"
             initial={{ width: 0 }}
             animate={{ width: `${progress}%` }}
             transition={{ duration: 0.4, ease: "easeOut" }}
@@ -225,12 +225,12 @@ export function DiagnosticFlow({ onComplete, locale }: DiagnosticFlowProps) {
                         onClick={() => handleChipToggle(opt.value)}
                         className={`text-left px-4 py-3 rounded-xl border-2 transition-all flex items-center gap-3 ${
                           isSelected
-                            ? "bg-[var(--electric-blue)]/12 border-[var(--electric-blue)] text-[var(--text-primary)]"
-                            : "bg-white/[0.02] border-[var(--border-default)] text-[var(--text-secondary)] hover:border-[var(--electric-blue)]/40"
+                            ? "bg-[var(--warm-coral)]/12 border-[var(--warm-coral)] text-[var(--text-primary)]"
+                            : "bg-white/[0.02] border-[var(--border-default)] text-[var(--text-secondary)] hover:border-[var(--warm-coral)]/40"
                         }`}
                       >
                         <span className={`flex-shrink-0 w-4 h-4 rounded-full border-2 flex items-center justify-center ${
-                          isSelected ? "bg-[var(--electric-blue)] border-[var(--electric-blue)]" : "border-[var(--border-default)]"
+                          isSelected ? "bg-[var(--warm-coral)] border-[var(--warm-coral)]" : "border-[var(--border-default)]"
                         }`}>
                           {isSelected && <CheckCircle2 className="w-3 h-3 text-white" />}
                         </span>
@@ -250,7 +250,7 @@ export function DiagnosticFlow({ onComplete, locale }: DiagnosticFlowProps) {
                     placeholder={localizedQuestion?.placeholder ?? q.placeholder}
                     maxLength={q.maxLength}
                     rows={3}
-                    className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--electric-blue)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none resize-none"
+                    className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--warm-coral)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none resize-none"
                   />
                   {q.maxLength && (
                     <div className="text-right text-[10px] text-[var(--text-muted)] mt-1">
@@ -288,7 +288,7 @@ export function DiagnosticFlow({ onComplete, locale }: DiagnosticFlowProps) {
                     onChange={(e) => setName(e.target.value)}
                     placeholder={catalog.capture.placeholders.name}
                     required
-                    className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--electric-blue)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none"
+                    className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--warm-coral)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none"
                   />
                 </div>
                 <div>
@@ -299,7 +299,7 @@ export function DiagnosticFlow({ onComplete, locale }: DiagnosticFlowProps) {
                     value={role}
                     onChange={(e) => setRole(e.target.value)}
                     required
-                    className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--electric-blue)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none"
+                    className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--warm-coral)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none"
                   >
                     <option value="">{catalog.capture.placeholders.role}</option>
                     {ROLE_OPTIONS.map((r) => (
@@ -317,7 +317,7 @@ export function DiagnosticFlow({ onComplete, locale }: DiagnosticFlowProps) {
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder={catalog.capture.placeholders.email}
                     required
-                    className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--electric-blue)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none"
+                    className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--warm-coral)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none"
                   />
                 </div>
                 <div>
@@ -330,7 +330,7 @@ export function DiagnosticFlow({ onComplete, locale }: DiagnosticFlowProps) {
                     onChange={(e) => setPhone(e.target.value)}
                     placeholder={catalog.capture.placeholders.phone}
                     required
-                    className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--electric-blue)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none"
+                    className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--warm-coral)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none"
                   />
                 </div>
                 <div>
@@ -341,7 +341,7 @@ export function DiagnosticFlow({ onComplete, locale }: DiagnosticFlowProps) {
                     value={country}
                     onChange={(e) => setCountry(e.target.value)}
                     required
-                    className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--electric-blue)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none"
+                    className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--warm-coral)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none"
                   >
                     <option value="">{catalog.capture.placeholders.country}</option>
                     {COUNTRY_OPTIONS.map((c) => (
@@ -363,7 +363,7 @@ export function DiagnosticFlow({ onComplete, locale }: DiagnosticFlowProps) {
                     onChange={(e) => setCompany(e.target.value)}
                     placeholder={catalog.capture.placeholders.company}
                     required
-                    className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--electric-blue)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none"
+                    className="w-full bg-white/[0.04] border-2 border-[var(--border-default)] focus:border-[var(--warm-coral)] rounded-xl px-4 py-3 text-sm text-[var(--text-primary)] focus:outline-none"
                   />
                 </div>
               </div>
@@ -388,7 +388,7 @@ export function DiagnosticFlow({ onComplete, locale }: DiagnosticFlowProps) {
             <button
               onClick={handleSubmit}
               disabled={!email.trim() || !name.trim() || !phone.trim() || !role.trim() || !country.trim() || !company.trim()}
-              className="flex items-center gap-2 px-6 py-2.5 bg-gradient-to-r from-[var(--electric-blue)] to-emerald-500 text-white font-bold rounded-xl shadow-lg disabled:opacity-40 disabled:cursor-not-allowed hover:shadow-xl transition-all"
+              className="flex items-center gap-2 px-6 py-2.5 bg-gradient-to-r from-[var(--warm-coral)] to-emerald-500 text-white font-bold rounded-xl shadow-lg disabled:opacity-40 disabled:cursor-not-allowed hover:shadow-xl transition-all"
             >
               {catalog.navigation.generate}
               <ChevronRight className="w-4 h-4" />
@@ -397,7 +397,7 @@ export function DiagnosticFlow({ onComplete, locale }: DiagnosticFlowProps) {
             <button
               onClick={handleNext}
               disabled={!canAdvance}
-              className="flex items-center gap-2 px-6 py-2.5 bg-[var(--electric-blue)] text-white font-semibold rounded-xl disabled:opacity-40 disabled:cursor-not-allowed hover:bg-[var(--electric-blue)]/90 transition-colors"
+              className="flex items-center gap-2 px-6 py-2.5 bg-[var(--warm-coral)] text-white font-semibold rounded-xl disabled:opacity-40 disabled:cursor-not-allowed hover:bg-[var(--warm-coral)]/90 transition-colors"
             >
               {step === total - 1 ? catalog.navigation.continue : catalog.navigation.next}
               <ChevronRight className="w-4 h-4" />

@@ -61,7 +61,7 @@ export function BrowserFrame({
     <motion.div
       className={`rounded-xl overflow-hidden bg-[var(--navy)] border border-[var(--border-default)] ${
         glow
-          ? 'shadow-[0_0_60px_rgba(28,71,255,0.2),0_0_120px_rgba(28,71,255,0.08)]'
+          ? 'shadow-[0_0_60px_rgba(255,92,77,0.2),0_0_120px_rgba(255,92,77,0.08)]'
           : 'shadow-[0_20px_60px_-15px_rgba(0,0,0,0.4)]'
       } ${className}`}
       initial={v.initial}

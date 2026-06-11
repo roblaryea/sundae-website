@@ -54,7 +54,7 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
       description: "Every restaurant group we've worked with faces the same three challenges.",
     },
     differentiators: [
-      { title: "12-Domain Data Ingestion", description: "POS, labor, inventory, purchasing, reservations, delivery, marketing, guest experience, CRM, accounting - all unified. No more disconnected systems.", icon: "integration", color: "bg-[#1C47FF]" },
+      { title: "12-Domain Data Ingestion", description: "POS, labor, inventory, purchasing, reservations, delivery, marketing, guest experience, CRM, accounting - all unified. No more disconnected systems.", icon: "integration", color: "bg-[#FF5C4D]" },
       { title: "4D Intelligence Model", description: "What happened. How it compares to plan. Where you stand in the market. What to do next. Four dimensions of every decision.", icon: "intelligence", color: "bg-purple-600" },
       { title: "Real-Time Operations via Pulse", description: "Intraday sales pacing, labor productivity, leakage detection, and coaching - before the shift is over.", icon: "speed", color: "bg-green-600" },
       { title: "External Intelligence via Watchtower", description: "New competitor? Weather tanking covers? Concert announced? You’ll know before it hits your numbers.", icon: "watchtower", color: "bg-red-600" },
@@ -75,7 +75,7 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
       eyebrow: "BUILT FOR",
       title: "Built for every role in the organization",
       items: [
-        { title: "Operations Leaders", pain: "You can't be in every restaurant at once.", description: "Real-time visibility into every location via Pulse and Portfolio - know who needs help before they ask.", icon: "multiLocation", color: "bg-[#1C47FF]" },
+        { title: "Operations Leaders", pain: "You can't be in every restaurant at once.", description: "Real-time visibility into every location via Pulse and Portfolio - know who needs help before they ask.", icon: "multiLocation", color: "bg-[#FF5C4D]" },
         { title: "Finance & FP&A", pain: "3 days to close the books? That's 3 days too many.", description: "Real-time margin intelligence, shift-level labor costs, and variance analysis connected to root causes.", icon: "benchmarking", color: "bg-green-600" },
         { title: "C-Suite & Owners", pain: "Your worst-performing outlet is invisible until Thursday.", description: "Portfolio dashboards, daily briefings, competitive intelligence, and strategic decision views.", icon: "intelligence", color: "bg-purple-600" },
         { title: "Technology Teams", pain: "12 vendor APIs. 5 data formats. Zero unified schema.", description: "Public API, webhooks, 12-domain integrations, governed metrics, and RBAC controls out of the box.", icon: "integration", color: "bg-orange-600" },
@@ -100,7 +100,7 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
       description: "كل مجموعة مطاعم عملنا معها تواجه التحديات الثلاث نفسها.",
     },
     differentiators: [
-      { title: "إدخال البيانات عبر 12 مجالاً", description: "POS والعمالة والمخزون والشراء والحجوزات والتوصيل والتسويق وتجربة الضيف وCRM والمحاسبة - كلها موحّدة.", icon: "integration", color: "bg-[#1C47FF]" },
+      { title: "إدخال البيانات عبر 12 مجالاً", description: "POS والعمالة والمخزون والشراء والحجوزات والتوصيل والتسويق وتجربة الضيف وCRM والمحاسبة - كلها موحّدة.", icon: "integration", color: "bg-[#FF5C4D]" },
       { title: "نموذج ذكاء رباعي الأبعاد", description: "ماذا حدث. كيف يقارن بالخطة. أين تقف في السوق. ماذا تفعل بعد ذلك.", icon: "intelligence", color: "bg-purple-600" },
       { title: "عمليات لحظية عبر Pulse", description: "وتيرة المبيعات خلال اليوم، إنتاجية العمالة، كشف التسرب، والتوجيه - قبل انتهاء الوردية.", icon: "speed", color: "bg-green-600" },
       { title: "ذكاء خارجي عبر Watchtower", description: "منافس جديد؟ الطقس يهبط بالمبيعات؟ حفل أُعلن؟ ستعرف قبل أن يؤثر على أرقامك.", icon: "watchtower", color: "bg-red-600" },
@@ -121,7 +121,7 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
       eyebrow: "مبني لـ",
       title: "مبني لكل دور في المؤسسة",
       items: [
-        { title: "قادة العمليات", pain: "لا يمكنك أن تكون في كل مطعم في الوقت نفسه.", description: "رؤية لحظية لكل موقع عبر Pulse وPortfolio - تعرف من يحتاج المساعدة قبل أن يطلبها.", icon: "multiLocation", color: "bg-[#1C47FF]" },
+        { title: "قادة العمليات", pain: "لا يمكنك أن تكون في كل مطعم في الوقت نفسه.", description: "رؤية لحظية لكل موقع عبر Pulse وPortfolio - تعرف من يحتاج المساعدة قبل أن يطلبها.", icon: "multiLocation", color: "bg-[#FF5C4D]" },
         { title: "المالية وFP&A", pain: "ثلاثة أيام لإغلاق الدفاتر؟ هذا كثير جداً.", description: "ذكاء فوري للهامش، تكاليف العمالة على مستوى الوردية، وتحليل التباين مرتبط بالأسباب الجذرية.", icon: "benchmarking", color: "bg-green-600" },
         { title: "القيادة العليا والملّاك", pain: "أسوأ موقع أداءً يظل مخفياً حتى الخميس.", description: "لوحات محفظة، موجزات يومية، ذكاء تنافسي، ومنظورات قرار استراتيجية.", icon: "intelligence", color: "bg-purple-600" },
         { title: "فرق التقنية", pain: "12 واجهة API للموردين. 5 صيغ بيانات. لا مخطط موحد.", description: "واجهة عامة، webhooks، تكاملات عبر 12 مجالاً، مقاييس محكومة، وضوابط RBAC جاهزة.", icon: "integration", color: "bg-orange-600" },
@@ -146,7 +146,7 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
       description: "Tous les groupes de restaurants avec lesquels nous avons travaillé rencontrent les mêmes trois défis.",
     },
     differentiators: [
-      { title: "Ingestion de données sur 12 domaines", description: "POS, main-d'œuvre, stock, achats, réservations, livraison, marketing, expérience client, CRM, comptabilité - tout unifié.", icon: "integration", color: "bg-[#1C47FF]" },
+      { title: "Ingestion de données sur 12 domaines", description: "POS, main-d'œuvre, stock, achats, réservations, livraison, marketing, expérience client, CRM, comptabilité - tout unifié.", icon: "integration", color: "bg-[#FF5C4D]" },
       { title: "Modèle d'intelligence 4D", description: "Ce qui s'est passé. Comment cela se compare au plan. Où vous vous situez sur le marché. Que faire ensuite.", icon: "intelligence", color: "bg-purple-600" },
       { title: "Opérations en temps réel via Pulse", description: "Pacing des ventes dans la journée, productivité de la main-d'œuvre, détection des fuites et coaching - avant la fin du service.", icon: "speed", color: "bg-green-600" },
       { title: "Intelligence externe via Watchtower", description: "Nouveau concurrent ? Météo qui fait chuter les couverts ? Concert annoncé ? Vous le saurez avant l'impact.", icon: "watchtower", color: "bg-red-600" },
@@ -167,7 +167,7 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
       eyebrow: "CONÇU POUR",
       title: "Conçu pour chaque rôle de l'organisation",
       items: [
-        { title: "Leaders Ops", pain: "Vous ne pouvez pas être dans chaque restaurant à la fois.", description: "Visibilité en temps réel sur chaque site via Pulse et Portfolio - sachez qui a besoin d'aide avant qu'il ne la demande.", icon: "multiLocation", color: "bg-[#1C47FF]" },
+        { title: "Leaders Ops", pain: "Vous ne pouvez pas être dans chaque restaurant à la fois.", description: "Visibilité en temps réel sur chaque site via Pulse et Portfolio - sachez qui a besoin d'aide avant qu'il ne la demande.", icon: "multiLocation", color: "bg-[#FF5C4D]" },
         { title: "Finance & FP&A", pain: "3 jours pour clôturer les comptes ? C'est 3 jours de trop.", description: "Intelligence de marge en temps réel, coûts de main-d'œuvre par service et analyse des écarts reliée aux causes racines.", icon: "benchmarking", color: "bg-green-600" },
         { title: "Direction & propriétaires", pain: "Votre pire site reste invisible jusqu'au jeudi.", description: "Dashboards portefeuille, briefings quotidiens, intelligence concurrentielle et vues stratégiques.", icon: "intelligence", color: "bg-purple-600" },
         { title: "Équipes techniques", pain: "12 API fournisseurs. 5 formats de données. Aucun schéma unifié.", description: "API publique, webhooks, intégrations sur 12 domaines, métriques gouvernées et contrôles RBAC prêts à l'emploi.", icon: "integration", color: "bg-orange-600" },
@@ -192,7 +192,7 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
       description: "Todos los grupos de restaurantes con los que hemos trabajado enfrentan los mismos tres desafíos.",
     },
     differentiators: [
-      { title: "Ingesta de datos de 12 dominios", description: "POS, mano de obra, inventario, compras, reservas, delivery, marketing, experiencia del huésped, CRM, contabilidad: todo unificado.", icon: "integration", color: "bg-[#1C47FF]" },
+      { title: "Ingesta de datos de 12 dominios", description: "POS, mano de obra, inventario, compras, reservas, delivery, marketing, experiencia del huésped, CRM, contabilidad: todo unificado.", icon: "integration", color: "bg-[#FF5C4D]" },
       { title: "Modelo de inteligencia 4D", description: "Qué pasó. Cómo se compara con el plan. Dónde estás en el mercado. Qué hacer después.", icon: "intelligence", color: "bg-purple-600" },
       { title: "Operaciones en tiempo real via Pulse", description: "Pacing de ventas intradía, productividad laboral, detección de fugas y coaching, antes de que termine el turno.", icon: "speed", color: "bg-green-600" },
       { title: "Inteligencia externa via Watchtower", description: "¿Nuevo competidor? ¿El clima hunde cubiertos? ¿Se anunció un concierto? Lo sabrás antes de que afecte tus números.", icon: "watchtower", color: "bg-red-600" },
@@ -213,7 +213,7 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
       eyebrow: "DISEÑADO PARA",
       title: "Diseñado para cada rol de la organización",
       items: [
-        { title: "Líderes de operaciones", pain: "No puedes estar en todos los restaurantes al mismo tiempo.", description: "Visibilidad en tiempo real de cada ubicación via Pulse y Portfolio: sabe quién necesita ayuda antes de que la pida.", icon: "multiLocation", color: "bg-[#1C47FF]" },
+        { title: "Líderes de operaciones", pain: "No puedes estar en todos los restaurantes al mismo tiempo.", description: "Visibilidad en tiempo real de cada ubicación via Pulse y Portfolio: sabe quién necesita ayuda antes de que la pida.", icon: "multiLocation", color: "bg-[#FF5C4D]" },
         { title: "Finanzas y FP&A", pain: "¿3 días para cerrar los libros? Son 3 días de más.", description: "Inteligencia de margen en tiempo real, costos laborales por turno y análisis de variaciones conectados a causas raíz.", icon: "benchmarking", color: "bg-green-600" },
         { title: "C-Suite y propietarios", pain: "Tu peor ubicación pasa desapercibida hasta el jueves.", description: "Dashboards de portafolio, briefings diarios, inteligencia competitiva y vistas de decisión estratégica.", icon: "intelligence", color: "bg-purple-600" },
         { title: "Equipos de tecnología", pain: "12 APIs de proveedores. 5 formatos de datos. Cero esquema unificado.", description: "API pública, webhooks, integraciones de 12 dominios, métricas gobernadas y controles RBAC listos.", icon: "integration", color: "bg-orange-600" },
@@ -239,7 +239,7 @@ export default function WhySundaePage() {
       <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp className="text-center mb-16">
-            <p className="eyebrow text-[#60A5FA] mb-4">{copy.problems.eyebrow}</p>
+            <p className="eyebrow text-[#FF8473] mb-4">{copy.problems.eyebrow}</p>
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.problems.title}</h2>
             <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.problems.description}</p>
           </FadeUp>
@@ -281,7 +281,7 @@ export default function WhySundaePage() {
       <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp className="text-center mb-16">
-            <p className="eyebrow text-[#60A5FA] mb-4">DIFFERENTIATORS</p>
+            <p className="eyebrow text-[#FF8473] mb-4">DIFFERENTIATORS</p>
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.comparison.title}</h2>
             <p className="body-xl text-[var(--text-supporting)] max-w-3xl mx-auto">{copy.comparison.description}</p>
           </FadeUp>
@@ -289,22 +289,22 @@ export default function WhySundaePage() {
           <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {copy.comparison.columns.map((section) => (
               <StaggerItem key={section.title}>
-                <div className={`rounded-2xl p-8 text-center h-full ${section.highlight ? "bg-[#1C47FF]/20 border border-blue-500/30 ring-1 ring-blue-500/20" : "bg-[var(--surface-faint)] border border-[var(--border-default)]"}`}>
-                  <div className={`w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-5 ${section.highlight ? "bg-[#1C47FF]/30" : "bg-[var(--surface-subtle)]"}`}>
-                    <SundaeIcon name={section.icon} size="xl" className={section.highlight ? "text-blue-300" : "text-[var(--text-muted)]"} />
+                <div className={`rounded-2xl p-8 text-center h-full ${section.highlight ? "bg-[#FF5C4D]/20 border border-[#FF5C4D]/30 ring-1 ring-[#FF5C4D]/20" : "bg-[var(--surface-faint)] border border-[var(--border-default)]"}`}>
+                  <div className={`w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-5 ${section.highlight ? "bg-[#FF5C4D]/30" : "bg-[var(--surface-subtle)]"}`}>
+                    <SundaeIcon name={section.icon} size="xl" className={section.highlight ? "text-[#FFB59E]" : "text-[var(--text-muted)]"} />
                   </div>
-                  <h3 className={`font-bold text-lg mb-6 ${section.highlight ? "text-blue-200" : "text-[var(--text-secondary)]"}`}>{section.title}</h3>
+                  <h3 className={`font-bold text-lg mb-6 ${section.highlight ? "text-[#FFC9BA]" : "text-[var(--text-secondary)]"}`}>{section.title}</h3>
                   <ul className="space-y-3 text-left">
                     {section.items.map((item) => (
                       <li key={item} className="flex items-start gap-3 text-sm">
-                        <span className={`mt-0.5 ${section.highlight ? "text-blue-400" : "text-[var(--text-muted)]"}`}>{section.highlight ? "✓" : "•"}</span>
+                        <span className={`mt-0.5 ${section.highlight ? "text-[#FF8473]" : "text-[var(--text-muted)]"}`}>{section.highlight ? "✓" : "•"}</span>
                         <span className={section.highlight ? "text-white/90" : "text-[var(--text-muted)]"}>{item}</span>
                       </li>
                     ))}
                   </ul>
                   {section.highlight && section.cta && (
-                    <div className="mt-6 pt-4 border-t border-blue-500/20">
-                      <p className="text-xs font-semibold text-blue-300 uppercase tracking-wider">{section.cta}</p>
+                    <div className="mt-6 pt-4 border-t border-[#FF5C4D]/20">
+                      <p className="text-xs font-semibold text-[#FFB59E] uppercase tracking-wider">{section.cta}</p>
                     </div>
                   )}
                 </div>
@@ -317,7 +317,7 @@ export default function WhySundaePage() {
       <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp className="text-center mb-16">
-            <p className="eyebrow text-[#60A5FA] mb-4">{copy.roles.eyebrow}</p>
+            <p className="eyebrow text-[#FF8473] mb-4">{copy.roles.eyebrow}</p>
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">{copy.roles.title}</h2>
           </FadeUp>
 

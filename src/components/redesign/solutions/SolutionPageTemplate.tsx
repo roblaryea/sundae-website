@@ -239,9 +239,9 @@ export function SolutionPageTemplate({ data }: { data: SolutionPageData }) {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-80px" }}
               transition={{ duration: 0.6, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-              className="rounded-2xl border border-[var(--electric-blue)]/30 bg-gradient-to-br from-[var(--electric-blue)]/[0.10] to-[var(--electric-blue)]/[0.02] p-6 sm:p-8 shadow-[0_0_40px_rgba(28,71,255,0.12)]"
+              className="rounded-2xl border border-[var(--warm-coral)]/30 bg-gradient-to-br from-[var(--warm-coral)]/[0.10] to-[var(--warm-coral)]/[0.02] p-6 sm:p-8 shadow-[0_0_40px_rgba(255,92,77,0.12)]"
             >
-              <div className="text-[11px] uppercase tracking-wider text-[var(--electric-blue)] font-bold mb-4">
+              <div className="text-[11px] uppercase tracking-wider text-[var(--warm-coral)] font-bold mb-4">
                 {data.withSundaeTitle}
               </div>
               <ul className="space-y-2.5">
@@ -255,7 +255,7 @@ export function SolutionPageTemplate({ data }: { data: SolutionPageData }) {
                 ))}
               </ul>
               {data.withSundaeFooter && (
-                <div className="mt-6 pt-4 border-t border-[var(--electric-blue)]/20 text-sm text-[var(--text-secondary)]">
+                <div className="mt-6 pt-4 border-t border-[var(--warm-coral)]/20 text-sm text-[var(--text-secondary)]">
                   {data.withSundaeFooter}
                 </div>
               )}
@@ -283,13 +283,13 @@ export function SolutionPageTemplate({ data }: { data: SolutionPageData }) {
                   transition={{ duration: 0.6, delay: i * 0.1, ease: [0.22, 1, 0.36, 1] }}
                   className="group rounded-2xl border border-[var(--border-default)] bg-[var(--surface-subtle)] p-6 sm:p-7 hover:bg-[var(--surface-hover)] hover:border-[var(--border-hover)] hover:-translate-y-1 transition-all duration-300"
                 >
-                  <div className="w-11 h-11 rounded-lg bg-[var(--electric-blue)]/15 text-[var(--electric-blue)] flex items-center justify-center mb-4 group-hover:bg-[var(--electric-blue)]/25 group-hover:text-white transition-colors">
+                  <div className="w-11 h-11 rounded-lg bg-[var(--warm-coral)]/15 text-[var(--warm-coral)] flex items-center justify-center mb-4 group-hover:bg-[var(--warm-coral)]/25 group-hover:text-white transition-colors">
                     <Icon className="w-5 h-5" strokeWidth={2.2} />
                   </div>
                   <h3 className="section-h3 mb-3">{c.title}</h3>
                   <p className="body-base mb-4">{c.body}</p>
                   {c.intelLayer && (
-                    <div className="inline-flex items-center text-[11px] uppercase tracking-wider font-bold px-2.5 py-1 rounded-md bg-[var(--electric-blue)]/15 text-[var(--electric-blue)] border border-[var(--electric-blue)]/25">
+                    <div className="inline-flex items-center text-[11px] uppercase tracking-wider font-bold px-2.5 py-1 rounded-md bg-[var(--warm-coral)]/15 text-[var(--warm-coral)] border border-[var(--warm-coral)]/25">
                       {c.intelLayer}
                     </div>
                   )}

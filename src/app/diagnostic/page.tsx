@@ -153,7 +153,7 @@ export default function DiagnosticPage() {
           </p>
           <button
             onClick={() => setStage("flow")}
-            className="inline-flex items-center gap-2 px-6 py-3 bg-[var(--electric-blue)] text-white text-sm font-bold rounded-xl"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-[var(--warm-coral)] text-white text-sm font-bold rounded-xl"
           >
             {copy.share.notFoundCta}
           </button>
@@ -175,9 +175,9 @@ export default function DiagnosticPage() {
           transition={{ duration: 0.5 }}
           className="text-center"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[var(--electric-blue)]/12 border border-[var(--electric-blue)]/30 mb-6">
-            <Sparkles className="w-3.5 h-3.5 text-[var(--electric-blue)]" />
-            <span className="text-[11px] font-bold uppercase tracking-[0.16em] text-[var(--electric-blue)]">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[var(--warm-coral)]/12 border border-[var(--warm-coral)]/30 mb-6">
+            <Sparkles className="w-3.5 h-3.5 text-[var(--warm-coral)]" />
+            <span className="text-[11px] font-bold uppercase tracking-[0.16em] text-[var(--warm-coral)]">
               {copy.intro.eyebrow}
             </span>
           </div>
@@ -190,7 +190,7 @@ export default function DiagnosticPage() {
 
           <button
             onClick={handleStart}
-            className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-[var(--electric-blue)] to-emerald-500 text-white text-base font-bold rounded-xl shadow-2xl shadow-[var(--electric-blue)]/30 hover:shadow-[var(--electric-blue)]/50 transition-all"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-[var(--warm-coral)] to-emerald-500 text-white text-base font-bold rounded-xl shadow-2xl shadow-[var(--warm-coral)]/30 hover:shadow-[var(--warm-coral)]/50 transition-all"
           >
             {copy.intro.start}
             <Sparkles className="w-4 h-4" />
@@ -214,7 +214,7 @@ export default function DiagnosticPage() {
               key={i}
               className="rounded-2xl bg-white/[0.025] border border-[var(--border-default)] p-5"
             >
-              <Icon className="w-6 h-6 text-[var(--electric-blue)] mb-3" />
+              <Icon className="w-6 h-6 text-[var(--warm-coral)] mb-3" />
               <h3 className="text-base font-bold text-[var(--text-primary)] mb-2">{feat.title}</h3>
               <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{feat.detail}</p>
             </div>
@@ -251,7 +251,7 @@ export default function DiagnosticPage() {
         <div className="text-center mt-10">
           <p className="text-sm text-[var(--text-muted)]">
             {copy.intro.classicDemoLead}{" "}
-            <Link href="/demo" className="text-[var(--electric-blue)] hover:underline font-semibold">
+            <Link href="/demo" className="text-[var(--warm-coral)] hover:underline font-semibold">
               {copy.intro.classicDemoLink}
             </Link>
             .

@@ -796,10 +796,10 @@ export default function ReportVsCorePage() {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <FadeUp>
-              <Card variant="elevated" className="h-full border-2 border-blue-500/30">
+              <Card variant="elevated" className="h-full border-2 border-[#FF5C4D]/30">
                 <CardHeader>
                   <div className="flex items-center space-x-3 mb-3">
-                    <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center">
+                    <div className="w-12 h-12 bg-gradient-to-br from-[#FF5C4D] to-[#E9A24A] rounded-xl flex items-center justify-center">
                       <SundaeIcon name="report" size="lg" className="text-white" />
                     </div>
                     <CardTitle className="text-2xl text-[var(--text-primary)]">{copy.reportSummaryTitle}</CardTitle>
@@ -818,9 +818,9 @@ export default function ReportVsCorePage() {
                         ))}
                       </ul>
                     </div>
-                    <div className="bg-blue-500/10 rounded-lg p-4">
-                      <p className="text-sm font-semibold text-[#60A5FA] mb-1">{copy.reportSummaryNoteTitle}</p>
-                      <p className="text-sm text-blue-300">{copy.reportSummaryNoteDescription}</p>
+                    <div className="bg-[#FF5C4D]/10 rounded-lg p-4">
+                      <p className="text-sm font-semibold text-[#FF8473] mb-1">{copy.reportSummaryNoteTitle}</p>
+                      <p className="text-sm text-[#FFB59E]">{copy.reportSummaryNoteDescription}</p>
                     </div>
                   </div>
                 </CardContent>
@@ -875,7 +875,7 @@ export default function ReportVsCorePage() {
                 <Card variant="elevated" className="overflow-hidden">
                   <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-[var(--border-default)]">
                     <div className="p-6 bg-[var(--surface-faint)] flex items-center space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <div className="w-12 h-12 bg-gradient-to-br from-[#FF5C4D] to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
                         <SundaeIcon name={item.icon} size="lg" className="text-white" />
                       </div>
                       <div>
@@ -885,10 +885,10 @@ export default function ReportVsCorePage() {
 
                     <div className="p-6">
                       <div className="flex items-center space-x-2 mb-2">
-                        <div className="w-3 h-3 bg-blue-500 rounded-full" />
+                        <div className="w-3 h-3 bg-[#FF5C4D] rounded-full" />
                         <p className="font-bold text-[var(--text-primary)]">{copy.reportLabel}</p>
                       </div>
-                      <p className="text-lg font-semibold text-[#60A5FA] mb-2">{item.report}</p>
+                      <p className="text-lg font-semibold text-[#FF8473] mb-2">{item.report}</p>
                       <p className="text-sm text-[var(--text-supporting)]">{item.reportDetail}</p>
                     </div>
 
@@ -921,7 +921,7 @@ export default function ReportVsCorePage() {
                 <thead>
                   <tr className="border-b-2 border-[var(--border-default)]">
                     <th className="py-3 pr-4 text-sm font-semibold text-[var(--text-primary)]">{copy.featureLabel}</th>
-                    <th className="py-3 px-4 text-sm font-semibold text-[#60A5FA] text-center">{copy.pulseColumns.report}</th>
+                    <th className="py-3 px-4 text-sm font-semibold text-[#FF8473] text-center">{copy.pulseColumns.report}</th>
                     <th className="py-3 pl-4 text-sm font-semibold text-purple-400 text-center">{copy.pulseColumns.core}</th>
                   </tr>
                 </thead>
@@ -953,7 +953,7 @@ export default function ReportVsCorePage() {
                 <thead>
                   <tr className="border-b-2 border-[var(--border-default)]">
                     <th className="py-3 pr-4 text-sm font-semibold text-[var(--text-primary)]">{copy.featureLabel}</th>
-                    <th className="py-3 px-4 text-sm font-semibold text-[#60A5FA] text-center">{copy.watchtowerColumns.report}</th>
+                    <th className="py-3 px-4 text-sm font-semibold text-[#FF8473] text-center">{copy.watchtowerColumns.report}</th>
                     <th className="py-3 pl-4 text-sm font-semibold text-purple-400 text-center">{copy.watchtowerColumns.core}</th>
                   </tr>
                 </thead>
@@ -961,7 +961,7 @@ export default function ReportVsCorePage() {
                   {copy.watchtowerRows.map((row) => (
                     <tr key={row.feature} className="border-b border-[var(--border-default)]">
                       <td className="py-2.5 pr-4">{row.feature}</td>
-                      <td className={`py-2.5 px-4 text-center ${row.report === "✓" || row.report === "Limited" ? row.report === "Limited" ? "text-[#60A5FA]" : "text-green-500 font-semibold" : "text-[var(--text-muted)]"}`}>{row.report}</td>
+                      <td className={`py-2.5 px-4 text-center ${row.report === "✓" || row.report === "Limited" ? row.report === "Limited" ? "text-[#FF8473]" : "text-green-500 font-semibold" : "text-[var(--text-muted)]"}`}>{row.report}</td>
                       <td className={`py-2.5 pl-4 text-center ${row.core.includes("✓") ? "text-green-500 font-semibold" : "text-[var(--text-muted)]"}`}>{row.core}</td>
                     </tr>
                   ))}
@@ -997,10 +997,10 @@ export default function ReportVsCorePage() {
                         <p className="text-sm text-[var(--text-supporting)]">{decision.yesReason}</p>
                       </div>
 
-                      <div className="p-4 bg-blue-500/10 rounded-lg border-2 border-blue-500/30">
+                      <div className="p-4 bg-[#FF5C4D]/10 rounded-lg border-2 border-[#FF5C4D]/30">
                         <div className="flex items-center space-x-2 mb-2">
                           <span className="text-2xl">→</span>
-                          <p className="font-bold text-[#60A5FA]">{copy.decisionNo}</p>
+                          <p className="font-bold text-[#FF8473]">{copy.decisionNo}</p>
                         </div>
                         <p className="font-bold text-lg text-[var(--text-primary)] mb-2">→ {decision.noAnswer}</p>
                         <p className="text-sm text-[var(--text-supporting)]">{decision.noReason}</p>
@@ -1024,7 +1024,7 @@ export default function ReportVsCorePage() {
             <div className="bg-[var(--navy-deep)] rounded-xl p-8 border border-[var(--border-default)] max-w-2xl mx-auto">
               <div className="flex items-center justify-center space-x-4 mb-6">
                 <div className="text-center">
-                  <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-2">
+                  <div className="w-16 h-16 bg-[#FF5C4D] rounded-full flex items-center justify-center mx-auto mb-2">
                     <SundaeIcon name="report" size="xl" className="text-white" />
                   </div>
                   <p className="font-semibold text-[var(--text-primary)]">{copy.upgradeLabels.reportLite}</p>
