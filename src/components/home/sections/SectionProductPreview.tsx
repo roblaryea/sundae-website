@@ -14,6 +14,9 @@
  *
  * Click any card → lightbox showing the full screenshot at viewable
  * resolution. Same lightbox UX as the full gallery.
+ *
+ * All user-facing copy is resolved per locale (productPreviewCopy) with an
+ * English fallback; only the card identity (id / src / href) lives here.
  */
 
 import { useState, useEffect } from "react";
@@ -22,70 +25,66 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowUpRight, X, Maximize2, ChevronLeft, ChevronRight } from "lucide-react";
 import { FadeUp } from "@/components/ui/PageAnimations";
+import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { productPreviewCopy, type ProductPreviewCardCopy } from "./productPreviewCopy";
 
-type PreviewItem = {
+type PreviewCardKey = "execSummary" | "pulseWallboard" | "foresightScenarios" | "intelligence";
+
+type PreviewMeta = {
   id: string;
+  copyKey: PreviewCardKey;
   src: string;
-  alt: string;
-  caption: string;
-  whatYouSee: string;
   productHref: string;
-  productLabel: string;
 };
 
-const PREVIEW: PreviewItem[] = [
+type PreviewItem = PreviewMeta & ProductPreviewCardCopy;
+
+const PREVIEW_META: PreviewMeta[] = [
   {
     id: "exec-summary",
+    copyKey: "execSummary",
     src: "/images/product/2026-fresh/insights-exec-summary.png",
-    alt: "Executive Summary — KPIs, alerts, and health scores across every module",
-    caption: "Executive Summary",
-    whatYouSee:
-      "One health score across every module surfaces the one thing that needs you today — here, food-cost variance running well above where it should be — so nothing important hides in a report until it's too late.",
     productHref: "/insights",
-    productLabel: "See full Insights gallery →",
   },
   {
     id: "pulse-wallboard",
+    copyKey: "pulseWallboard",
     src: "/images/product/2026-fresh/pulse-sales.png",
-    alt: "Pulse — live sales pacing against target",
-    caption: "Pulse — Live Pacing",
-    whatYouSee:
-      "The live shift at a glance — sales against target for every outlet — with exactly what it takes to close the gap before close: the per-hour pace each location needs for the rest of service.",
     productHref: "/product/pulse",
-    productLabel: "See full Pulse gallery →",
   },
   {
     id: "foresight-scenarios",
+    copyKey: "foresightScenarios",
     src: "/images/product/2026-fresh/foresight-scenarios.png",
-    alt: "Foresight Scenarios — scenario library with 10 quick-start templates",
-    caption: "Foresight — Scenarios",
-    whatYouSee:
-      "Model the decision before you commit to it. Start from a template — a 5% price move, a 10% labor cut, a marketing push — and see the impact on revenue and margin before any of it is real.",
     productHref: "/product/foresight",
-    productLabel: "See full Foresight gallery →",
   },
   {
     id: "intelligence",
+    copyKey: "intelligence",
     src: "/images/product/2026-fresh/intelligence.png",
-    alt: "Sundae Intelligence — conversational decision interface",
-    caption: "Sundae Intelligence",
-    whatYouSee:
-      "Ask your business anything in plain English. Questions like \"what drove last night's revenue?\" come back with the answer, the numbers behind it, and the sources — a conversation, not a dashboard.",
     productHref: "/intelligence",
-    productLabel: "See full Intelligence gallery →",
   },
 ];
 
 export function SectionProductPreview() {
+  const { locale } = useWebsiteI18n();
+  const copy =
+    productPreviewCopy[locale as keyof typeof productPreviewCopy] ?? productPreviewCopy.en;
+
+  const preview: PreviewItem[] = PREVIEW_META.map((meta) => ({
+    ...meta,
+    ...copy.cards[meta.copyKey],
+  }));
+
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
-  const item = lightboxIndex !== null ? PREVIEW[lightboxIndex] : null;
+  const item = lightboxIndex !== null ? preview[lightboxIndex] : null;
 
   useEffect(() => {
     if (lightboxIndex === null) return;
     const handler = (e: KeyboardEvent) => {
       if (e.key === "Escape") setLightboxIndex(null);
-      if (e.key === "ArrowRight") setLightboxIndex((i) => (i === null ? null : (i + 1) % PREVIEW.length));
-      if (e.key === "ArrowLeft") setLightboxIndex((i) => (i === null ? null : (i - 1 + PREVIEW.length) % PREVIEW.length));
+      if (e.key === "ArrowRight") setLightboxIndex((i) => (i === null ? null : (i + 1) % PREVIEW_META.length));
+      if (e.key === "ArrowLeft") setLightboxIndex((i) => (i === null ? null : (i - 1 + PREVIEW_META.length) % PREVIEW_META.length));
     };
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
@@ -98,21 +97,20 @@ export function SectionProductPreview() {
     >
       <div className="max-w-7xl mx-auto">
         <FadeUp className="text-center mb-10">
-          <p className="eyebrow mb-3">SEE THE PRODUCT</p>
+          <p className="eyebrow mb-3">{copy.eyebrow}</p>
           <h2
             id="product-preview-headline"
             className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] text-balance mb-3"
           >
-            This is what your team actually sees.
+            {copy.headline}
           </h2>
           <p className="text-base sm:text-lg text-[var(--text-supporting)] max-w-2xl mx-auto">
-            Four surfaces from across the platform. Click any to enlarge —
-            then explore the full gallery on each product page.
+            {copy.sub}
           </p>
         </FadeUp>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-          {PREVIEW.map((p, i) => (
+          {preview.map((p, i) => (
             <motion.div
               key={p.id}
               initial={{ opacity: 0, y: 12 }}
@@ -124,7 +122,7 @@ export function SectionProductPreview() {
               <button
                 onClick={() => setLightboxIndex(i)}
                 className="relative aspect-[16/10] bg-black overflow-hidden w-full block cursor-zoom-in"
-                aria-label={`Open ${p.caption} at full size`}
+                aria-label={copy.openFullSize.replace("{caption}", p.caption)}
               >
                 <Image
                   src={p.src}
@@ -164,14 +162,14 @@ export function SectionProductPreview() {
         </div>
 
         <p className="mx-auto mt-10 max-w-2xl text-center text-sm text-[var(--text-secondary)]">
-          And these aren&apos;t fixed — every view adapts to the role and the way your team works, so a CEO, a GM, and a finance lead each see exactly what matters to them.
+          {copy.adaptsNote}
         </p>
         <p className="text-center text-xs text-[var(--text-muted)] mt-4 italic max-w-2xl mx-auto">
-          Live in-product surfaces. Synthetic data shown for illustration.{" "}
+          {copy.footnoteLead}{" "}
           <Link href="/diagnostic" className="text-[var(--warm-coral)] hover:underline font-semibold not-italic">
-            Take the Operations Diagnostic
+            {copy.diagnosticLink}
           </Link>{" "}
-          to see what your view would look like.
+          {copy.footnoteTail}
         </p>
       </div>
 
@@ -189,30 +187,30 @@ export function SectionProductPreview() {
             <button
               onClick={() => setLightboxIndex(null)}
               className="absolute top-4 right-4 md:top-6 md:right-6 z-10 p-3 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
-              aria-label="Close lightbox"
+              aria-label={copy.closeLightbox}
             >
               <X className="w-5 h-5 text-white" />
             </button>
 
-            {PREVIEW.length > 1 && (
+            {PREVIEW_META.length > 1 && (
               <>
                 <button
                   onClick={(e) => {
                     e.stopPropagation();
-                    setLightboxIndex((i) => (i === null ? null : (i - 1 + PREVIEW.length) % PREVIEW.length));
+                    setLightboxIndex((i) => (i === null ? null : (i - 1 + PREVIEW_META.length) % PREVIEW_META.length));
                   }}
                   className="absolute left-4 md:left-8 z-10 p-3 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
-                  aria-label="Previous image"
+                  aria-label={copy.prevImage}
                 >
                   <ChevronLeft className="w-6 h-6 text-white" />
                 </button>
                 <button
                   onClick={(e) => {
                     e.stopPropagation();
-                    setLightboxIndex((i) => (i === null ? null : (i + 1) % PREVIEW.length));
+                    setLightboxIndex((i) => (i === null ? null : (i + 1) % PREVIEW_META.length));
                   }}
                   className="absolute right-4 md:right-8 z-10 p-3 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
-                  aria-label="Next image"
+                  aria-label={copy.nextImage}
                 >
                   <ChevronRight className="w-6 h-6 text-white" />
                 </button>
@@ -242,7 +240,9 @@ export function SectionProductPreview() {
                 <p className="text-sm text-white/70 max-w-2xl mx-auto">{item.whatYouSee}</p>
                 {lightboxIndex !== null && (
                   <p className="text-[10px] text-white/40 mt-3 uppercase tracking-wider">
-                    {lightboxIndex + 1} / {PREVIEW.length} · Esc to close · ← → to navigate
+                    {copy.lightboxHint
+                      .replace("{index}", String(lightboxIndex + 1))
+                      .replace("{total}", String(PREVIEW_META.length))}
                   </p>
                 )}
               </div>

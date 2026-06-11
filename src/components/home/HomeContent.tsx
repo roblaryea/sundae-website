@@ -18,6 +18,7 @@ import { SectionEditorialSplit } from "./sections/SectionEditorialSplit";
 import { SectionCreamRelief } from "./sections/SectionCreamRelief";
 import { SundaeWordmark } from "./sections/SundaeWordmark";
 import { editorialCopy, type EditorialCopy } from "./sections/editorialCopy";
+import { closerLineCopy } from "./closerCopy";
 import { heroDashboardCopy } from "./heroDashboardCopy";
 import { SectionOldWaySundaeWay } from "./sections/SectionOldWaySundaeWay";
 import { SectionSpeedQualityCost } from "./sections/SectionSpeedQualityCost";
@@ -61,6 +62,7 @@ export default function HomeContent() {
   const problem = home.problem;
   const platform = home.platform;
   const heroDash = heroDashboardCopy[locale as keyof typeof heroDashboardCopy] ?? heroDashboardCopy.en;
+  const closerLine = closerLineCopy[locale as keyof typeof closerLineCopy] ?? closerLineCopy.en;
   const cta = useCta();
   const painRef = useRef<HTMLDivElement>(null);
   const painInView = useInView(painRef, { once: true, margin: "-80px" });
@@ -318,7 +320,7 @@ export default function HomeContent() {
         {/* ════════════════════════════════════════════════
             2b-relief. CREAM RELIEF — early warm/light break so the dark run never builds
         ════════════════════════════════════════════════ */}
-        <SectionCreamRelief />
+        <SectionCreamRelief variant="decisions" />
 
         {/* ════════════════════════════════════════════════
             2c. THE OLD TRADEOFF IS DEAD — Speed · Quality · Cost
@@ -420,19 +422,7 @@ export default function HomeContent() {
         {/* ════════════════════════════════════════════════
             4b-relief. SECOND CREAM BREAK — keeps warmth alive through the lower half
         ════════════════════════════════════════════════ */}
-        <SectionCreamRelief
-          label="One source of truth"
-          eyebrow="One source of truth"
-          statement={
-            <>
-              One screen the whole team{' '}
-              <em className="italic" style={{ color: 'var(--warm-cherry)' }}>actually trusts.</em>
-            </>
-          }
-          lede="POS, labor, inventory, delivery, reservations — Sundae unifies every system into a single decision surface. No more arguing about whose number is right; the team acts instead of reconciling spreadsheets."
-          trio={[]}
-          unify
-        />
+        <SectionCreamRelief variant="truth" unify />
 
         {/* ════════════════════════════════════════════════
             5. PERSONA SWITCHER — One Platform. Every Role. (6 personas, tabbed)
@@ -505,8 +495,7 @@ export default function HomeContent() {
             <FadeUp>
               <h2 className="section-h2 mb-4 !text-white">
                 {home.closingTitle}
-                {/* TODO(i18n): localize in the translation pass */}
-                <span className="mt-1 block text-[var(--ink)]">{withWordmark("Start making every day a Sundae.", "h-[0.66em] w-auto inline-block align-baseline translate-y-[0.04em]")}</span>
+                <span className="mt-1 block text-[var(--ink)]">{withWordmark(closerLine, "h-[0.66em] w-auto inline-block align-baseline translate-y-[0.04em]")}</span>
               </h2>
               <p className="body-lg mb-10 max-w-xl mx-auto !text-white/90">
                 {home.closingDescription}

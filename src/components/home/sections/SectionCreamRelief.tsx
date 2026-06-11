@@ -1,10 +1,12 @@
 'use client';
 
 import Image from 'next/image';
-import type { ReactNode } from 'react';
+import { Fragment, type ReactNode } from 'react';
 import { motion } from 'framer-motion';
 import { FadeUp } from '@/components/ui/PageAnimations';
+import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { SundaeWordmark } from './SundaeWordmark';
+import { creamReliefCopy, type UnifyVisualCopy } from './creamReliefCopy';
 
 /**
  * Cream "relief" zone — a deliberately light, warm break in the dark scroll.
@@ -14,56 +16,65 @@ import { SundaeWordmark } from './SundaeWordmark';
  * (the Mews lesson — impact builds in the details). Always cream (theme-independent)
  * so it reads as an intentional warm zone that breaks the monotony in both modes.
  *
- * Prop-driven so the homepage can place more than one beat (early + lower-half)
- * with distinct copy + imagery, keeping warmth distributed across the long page.
+ * Variant-driven so the homepage can place more than one beat:
+ *  - 'decisions' (early): the "decisions, not dashboards" belief + three macro frames.
+ *  - 'truth' (lower-half): the "one source of truth" belief + the animated UnifyVisual.
+ *
+ * All copy is resolved internally per locale (creamReliefCopy) with an English
+ * fallback — no copy is passed via props.
  */
+
 interface TrioItem {
   src: string;
   cap: string;
 }
 
-export interface CreamReliefProps {
-  /** aria-label for the section. */
-  label?: string;
-  eyebrow?: string;
-  /** The big editorial belief (ReactNode so it can carry <em> accents). */
-  statement?: ReactNode;
-  lede?: string;
-  /** Three macro frames. */
-  trio?: TrioItem[];
-  /** Render the "scattered systems → one surface → whole team trusts it" visual. */
-  unify?: boolean;
-}
-
-const DEFAULT_TRIO: TrioItem[] = [
-  { src: '/images/editorial/plating.jpg', cap: 'The plate' },
-  { src: '/images/editorial/kitchen-flame.jpg', cap: 'The line' },
-  { src: '/images/editorial/service-warm.jpg', cap: 'The room' },
+const TRIO_SRCS: [string, string, string] = [
+  '/images/editorial/plating.jpg',
+  '/images/editorial/kitchen-flame.jpg',
+  '/images/editorial/service-warm.jpg',
 ];
 
 const cherry = { color: 'var(--warm-cherry)' } as const;
 
-const DEFAULT_STATEMENT: ReactNode = (
-  <>
-    Every plate, every cover, every shift is a{' '}
-    <em className="italic" style={cherry}>
-      decision.
-    </em>{' '}
-    Sundae is in all of them — with you, on the floor.
-  </>
-);
+/**
+ * Render an editorial statement that carries a single `*...*` emphasis span,
+ * splitting on the marker so the wrapped phrase renders in cherry-italic <em>.
+ * The marker convention holds across every locale (see creamReliefCopy).
+ */
+function renderStatement(statement: string): ReactNode {
+  return statement.split(/\*([^*]+)\*/g).map((part, i) =>
+    i % 2 === 1 ? (
+      <em key={i} className="italic" style={cherry}>
+        {part}
+      </em>
+    ) : (
+      <Fragment key={i}>{part}</Fragment>
+    )
+  );
+}
 
-export function SectionCreamRelief({
-  label = 'Decisions, not dashboards',
-  eyebrow = 'Decisions, not dashboards',
-  statement = DEFAULT_STATEMENT,
-  lede = 'The work happens on the line, not in a dashboard. Sundae turns the live shift into the next right move — for the person who has to make it.',
-  trio = DEFAULT_TRIO,
-  unify = false,
-}: CreamReliefProps = {}) {
+export interface CreamReliefProps {
+  variant: 'decisions' | 'truth';
+  /** Render the "scattered systems → one surface → whole team trusts it" visual. */
+  unify?: boolean;
+}
+
+export function SectionCreamRelief({ variant, unify = false }: CreamReliefProps) {
+  const { locale } = useWebsiteI18n();
+  const copy =
+    creamReliefCopy[locale as keyof typeof creamReliefCopy] ?? creamReliefCopy.en;
+  const variantCopy = copy[variant];
+  const unifyCopy = copy.unify;
+
+  const trio: TrioItem[] =
+    variant === 'decisions'
+      ? variantCopy.trio.map((cap, i) => ({ src: TRIO_SRCS[i], cap }))
+      : [];
+
   return (
     <section
-      aria-label={label}
+      aria-label={variantCopy.eyebrow}
       className="relative overflow-hidden py-24 sm:py-32"
       style={{ background: 'var(--cream)', color: 'var(--ink)' }}
     >
@@ -86,25 +97,25 @@ export function SectionCreamRelief({
             className="mb-5 text-xs font-bold uppercase tracking-[0.2em] sm:text-sm"
             style={cherry}
           >
-            {eyebrow}
+            {variantCopy.eyebrow}
           </p>
           <h2
             className="font-display mx-auto max-w-3xl text-3xl font-medium leading-[1.12] tracking-[-0.02em] sm:text-4xl lg:text-[3.25rem]"
             style={{ color: 'var(--ink)' }}
           >
-            {statement}
+            {renderStatement(variantCopy.statement)}
           </h2>
           <p
             className="mx-auto mt-7 max-w-xl text-base leading-relaxed sm:text-lg"
             style={{ color: 'var(--ink-soft, rgba(26,20,15,0.64))' }}
           >
-            {lede}
+            {variantCopy.lede}
           </p>
         </FadeUp>
 
         {unify && (
           <FadeUp delay={0.15}>
-            <UnifyVisual />
+            <UnifyVisual copy={unifyCopy} />
           </FadeUp>
         )}
 
@@ -152,20 +163,32 @@ export function SectionCreamRelief({
  * decision surface that the whole team (every role) trusts. Cream-friendly,
  * warm-accented — signifies unification + team trust without a stock photo.
  */
-function UnifyVisual() {
-  const inputs = ['POS', 'Labor', 'Inventory', 'Delivery', 'Reservations'];
-  const roles = ['GM', 'Finance', 'Head chef', 'Owner', 'Regional'];
+function UnifyVisual({ copy }: { copy: UnifyVisualCopy }) {
+  const inputs = [
+    copy.inputs.pos,
+    copy.inputs.labor,
+    copy.inputs.inventory,
+    copy.inputs.delivery,
+    copy.inputs.reservations,
+  ];
+  const roles = [
+    copy.roles.gm,
+    copy.roles.finance,
+    copy.roles.headChef,
+    copy.roles.owner,
+    copy.roles.regional,
+  ];
   const kpis: [string, string, string][] = [
-    ['Revenue', '$128k', '+6%'],
-    ['Labor', '28.4%', 'on target'],
-    ['Margin', '21.2%', '+2.1%'],
+    [copy.kpis.revenue, '$128k', '+6%'],
+    [copy.kpis.labor, '28.4%', 'on target'],
+    [copy.kpis.margin, '21.2%', '+2.1%'],
   ];
   const xs = [8, 29, 50, 71, 92];
   return (
     <div className="mx-auto mt-14 w-full max-w-xl">
       {/* scattered inputs */}
       <p className="mb-3 text-center text-[11px] font-semibold uppercase tracking-[0.18em]" style={{ color: 'var(--ink-faint, rgba(26,20,15,0.42))' }}>
-        Your systems, scattered
+        {copy.scattered}
       </p>
       <div className="flex flex-wrap items-center justify-center gap-2">
         {inputs.map((x, i) => (
@@ -218,13 +241,13 @@ function UnifyVisual() {
           </span>
           <span className="ml-auto inline-flex items-center gap-1.5 text-[10px] font-semibold uppercase tracking-wider" style={{ color: 'var(--warm-cherry)' }}>
             <motion.span className="h-1.5 w-1.5 rounded-full" style={{ background: '#22C55E' }} animate={{ opacity: [1, 0.3, 1] }} transition={{ duration: 1.6, repeat: Infinity }} />
-            Live
+            {copy.live}
           </span>
         </div>
         <div className="p-4">
           <div className="mb-2.5 flex items-center justify-between">
-            <span className="text-[11px] font-semibold uppercase tracking-[0.14em]" style={{ color: 'var(--ink-faint, rgba(26,20,15,0.42))' }}>One decision surface</span>
-            <span className="text-[10px] font-semibold" style={{ color: 'var(--warm-coral)' }}>All outlets</span>
+            <span className="text-[11px] font-semibold uppercase tracking-[0.14em]" style={{ color: 'var(--ink-faint, rgba(26,20,15,0.42))' }}>{copy.decisionSurface}</span>
+            <span className="text-[10px] font-semibold" style={{ color: 'var(--warm-coral)' }}>{copy.allOutlets}</span>
           </div>
           <svg viewBox="0 0 200 44" preserveAspectRatio="none" className="mb-3 h-11 w-full" aria-hidden>
             <defs>
@@ -255,7 +278,7 @@ function UnifyVisual() {
 
       {/* whole team trusts it */}
       <p className="mb-2 mt-6 text-center text-[11px] font-semibold uppercase tracking-[0.18em]" style={{ color: 'var(--ink-faint, rgba(26,20,15,0.42))' }}>
-        One truth, the whole team
+        {copy.oneTruth}
       </p>
       <div className="flex flex-wrap items-center justify-center gap-2">
         {roles.map((r, i) => (
