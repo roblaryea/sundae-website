@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import type { ReactNode } from 'react';
+import { motion } from 'framer-motion';
 import { FadeUp } from '@/components/ui/PageAnimations';
 import { SundaeWordmark } from './SundaeWordmark';
 
@@ -154,89 +155,124 @@ export function SectionCreamRelief({
 function UnifyVisual() {
   const inputs = ['POS', 'Labor', 'Inventory', 'Delivery', 'Reservations'];
   const roles = ['GM', 'Finance', 'Head chef', 'Owner', 'Regional'];
+  const kpis: [string, string, string][] = [
+    ['Revenue', '$128k', '+6%'],
+    ['Labor', '28.4%', 'on target'],
+    ['Margin', '21.2%', '+2.1%'],
+  ];
+  const xs = [8, 29, 50, 71, 92];
   return (
     <div className="mx-auto mt-14 w-full max-w-xl">
-      <p
-        className="mb-3 text-center text-[11px] font-semibold uppercase tracking-[0.18em]"
-        style={{ color: 'var(--ink-faint, rgba(26,20,15,0.42))' }}
-      >
+      {/* scattered inputs */}
+      <p className="mb-3 text-center text-[11px] font-semibold uppercase tracking-[0.18em]" style={{ color: 'var(--ink-faint, rgba(26,20,15,0.42))' }}>
         Your systems, scattered
       </p>
       <div className="flex flex-wrap items-center justify-center gap-2">
-        {inputs.map((x) => (
-          <span
+        {inputs.map((x, i) => (
+          <motion.span
             key={x}
+            initial={{ opacity: 0, y: -6 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.4, delay: i * 0.08 }}
             className="rounded-full border px-3 py-1.5 text-xs font-semibold"
-            style={{
-              borderColor: 'rgba(26,20,15,0.14)',
-              color: 'var(--ink-soft, rgba(26,20,15,0.64))',
-              background: 'rgba(255,255,255,0.55)',
-            }}
+            style={{ borderColor: 'rgba(26,20,15,0.14)', color: 'var(--ink-soft, rgba(26,20,15,0.64))', background: 'rgba(255,255,255,0.55)' }}
           >
             {x}
-          </span>
+          </motion.span>
         ))}
       </div>
 
-      <svg
-        viewBox="0 0 100 34"
-        preserveAspectRatio="none"
-        aria-hidden
-        className="mx-auto my-2 h-9 w-full max-w-[260px]"
-      >
-        {[8, 29, 50, 71, 92].map((x, i) => (
-          <line key={i} x1={x} y1="1" x2="50" y2="33" stroke="rgba(255,92,77,0.5)" strokeWidth="0.7" />
+      {/* animated convergence — signals stream into one surface */}
+      <svg viewBox="0 0 100 46" preserveAspectRatio="none" aria-hidden className="mx-auto mt-1 h-14 w-full max-w-[300px]">
+        {xs.map((x, i) => (
+          <line key={'l' + i} x1={x} y1="2" x2="50" y2="44" stroke="rgba(255,92,77,0.28)" strokeWidth="0.5" />
+        ))}
+        {xs.map((x, i) => (
+          <motion.circle
+            key={'d' + i}
+            r="1.5"
+            fill="#FF5C4D"
+            initial={{ cx: x, cy: 2, opacity: 0 }}
+            animate={{ cx: [x, 50], cy: [2, 44], opacity: [0, 1, 1, 0] }}
+            transition={{ duration: 1.8, delay: i * 0.3, repeat: Infinity, repeatDelay: 0.5, ease: 'easeIn' }}
+          />
         ))}
       </svg>
 
-      <div
-        className="mx-auto max-w-sm rounded-2xl border bg-white p-4 shadow-[0_24px_48px_-24px_rgba(26,20,15,0.4)]"
+      {/* one live decision surface */}
+      <motion.div
+        initial={{ opacity: 0, y: 14 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: '-60px' }}
+        transition={{ duration: 0.5 }}
+        className="mx-auto max-w-sm overflow-hidden rounded-2xl border bg-white shadow-[0_30px_60px_-28px_rgba(26,20,15,0.45)]"
         style={{ borderColor: 'rgba(255,92,77,0.3)' }}
       >
-        <div
-          className="flex items-center justify-between border-b pb-3"
-          style={{ borderColor: 'rgba(26,20,15,0.08)' }}
-        >
-          <span className="inline-flex items-center" style={{ color: 'var(--ink)' }}>
-            <SundaeWordmark className="h-[14px] w-auto" />
+        <div className="flex items-center gap-1.5 border-b px-3.5 py-2.5" style={{ borderColor: 'rgba(26,20,15,0.07)', background: 'rgba(255,248,242,0.9)' }}>
+          <span className="h-2 w-2 rounded-full" style={{ background: '#FF5C4D' }} />
+          <span className="h-2 w-2 rounded-full" style={{ background: '#E9A24A' }} />
+          <span className="h-2 w-2 rounded-full" style={{ background: '#F6C66B' }} />
+          <span className="ml-2 inline-flex items-center" style={{ color: 'var(--ink)' }}>
+            <SundaeWordmark className="h-3.5 w-auto" />
           </span>
-          <span
-            className="text-[10px] font-semibold uppercase tracking-[0.14em]"
-            style={{ color: 'var(--warm-cherry)' }}
-          >
-            One decision surface
+          <span className="ml-auto inline-flex items-center gap-1.5 text-[10px] font-semibold uppercase tracking-wider" style={{ color: 'var(--warm-cherry)' }}>
+            <motion.span className="h-1.5 w-1.5 rounded-full" style={{ background: '#22C55E' }} animate={{ opacity: [1, 0.3, 1] }} transition={{ duration: 1.6, repeat: Infinity }} />
+            Live
           </span>
         </div>
-        <div className="mt-3 grid grid-cols-3 gap-2 text-center">
-          {['Revenue', 'Labor', 'Margin'].map((k) => (
-            <div key={k} className="rounded-lg py-2.5" style={{ background: 'rgba(233,162,74,0.12)' }}>
-              <div className="text-xs font-semibold" style={{ color: 'var(--ink)' }}>{k}</div>
-              <div className="text-[9px] uppercase tracking-wider" style={{ color: 'var(--ink-faint, rgba(26,20,15,0.42))' }}>
-                one source
+        <div className="p-4">
+          <div className="mb-2.5 flex items-center justify-between">
+            <span className="text-[11px] font-semibold uppercase tracking-[0.14em]" style={{ color: 'var(--ink-faint, rgba(26,20,15,0.42))' }}>One decision surface</span>
+            <span className="text-[10px] font-semibold" style={{ color: 'var(--warm-coral)' }}>All outlets</span>
+          </div>
+          <svg viewBox="0 0 200 44" preserveAspectRatio="none" className="mb-3 h-11 w-full" aria-hidden>
+            <defs>
+              <linearGradient id="uvspark" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stopColor="rgba(255,92,77,0.22)" />
+                <stop offset="100%" stopColor="rgba(255,92,77,0)" />
+              </linearGradient>
+            </defs>
+            <path d="M0 34 L28 30 L56 32 L84 24 L112 26 L140 16 L168 18 L200 8 L200 44 L0 44 Z" fill="url(#uvspark)" />
+            <motion.path
+              d="M0 34 L28 30 L56 32 L84 24 L112 26 L140 16 L168 18 L200 8"
+              fill="none" stroke="#FF5C4D" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+              initial={{ pathLength: 0 }} whileInView={{ pathLength: 1 }} viewport={{ once: true }} transition={{ duration: 1.1, ease: 'easeOut' }}
+            />
+            <motion.circle cx="200" cy="8" r="3" fill="#FF5C4D" animate={{ opacity: [1, 0.4, 1] }} transition={{ duration: 1.6, repeat: Infinity }} />
+          </svg>
+          <div className="grid grid-cols-3 gap-2 text-center">
+            {kpis.map(([k, v, d]) => (
+              <div key={k} className="rounded-lg py-2" style={{ background: 'rgba(233,162,74,0.1)' }}>
+                <div className="text-[9px] uppercase tracking-wider" style={{ color: 'var(--ink-faint, rgba(26,20,15,0.42))' }}>{k}</div>
+                <div className="font-display text-sm font-semibold" style={{ color: 'var(--ink)' }}>{v}</div>
+                <div className="text-[9px] font-semibold" style={{ color: 'var(--warm-cherry)' }}>{d}</div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
+      </motion.div>
 
-      <p
-        className="mb-2 mt-6 text-center text-[11px] font-semibold uppercase tracking-[0.18em]"
-        style={{ color: 'var(--ink-faint, rgba(26,20,15,0.42))' }}
-      >
+      {/* whole team trusts it */}
+      <p className="mb-2 mt-6 text-center text-[11px] font-semibold uppercase tracking-[0.18em]" style={{ color: 'var(--ink-faint, rgba(26,20,15,0.42))' }}>
         One truth, the whole team
       </p>
       <div className="flex flex-wrap items-center justify-center gap-2">
-        {roles.map((r) => (
-          <span
+        {roles.map((r, i) => (
+          <motion.span
             key={r}
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.3, delay: 0.2 + i * 0.1 }}
             className="inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-semibold"
-            style={{ background: 'rgba(255,92,77,0.10)', color: 'var(--ink)' }}
+            style={{ background: 'rgba(255,92,77,0.1)', color: 'var(--ink)' }}
           >
             <svg width="11" height="11" viewBox="0 0 12 12" fill="none">
               <path d="M2.5 6.5l2.5 2.5 4.5-5" stroke="var(--warm-coral)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
             {r}
-          </span>
+          </motion.span>
         ))}
       </div>
     </div>

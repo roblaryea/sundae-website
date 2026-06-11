@@ -506,7 +506,7 @@ export default function HomeContent() {
               <h2 className="section-h2 mb-4 !text-white">
                 {home.closingTitle}
                 {/* TODO(i18n): localize in the translation pass */}
-                <span className="mt-1 block text-[var(--ink)]">Start making every day a Sundae.</span>
+                <span className="mt-1 block text-[var(--ink)]">{withWordmark("Start making every day a Sundae.", "h-[0.66em] w-auto inline-block align-baseline translate-y-[0.04em]")}</span>
               </h2>
               <p className="body-lg mb-10 max-w-xl mx-auto !text-white/90">
                 {home.closingDescription}
