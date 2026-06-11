@@ -11,6 +11,8 @@ import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_benchmarking_page'
+import { CreamBreak } from "@/components/ui/CreamBreak";
+import { benchmarkingCreamCopy } from "./benchmarkingCreamCopy";
 
 const localizedBenchmarkCopy = {
   en: {
@@ -167,6 +169,7 @@ export default function BenchmarkingPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
   const ui = localizedBenchmarkCopy[locale as keyof typeof localizedBenchmarkCopy] ?? getGeneratedLocalCopy(localizedBenchmarkCopy, generatedLocalCopy.localizedBenchmarkCopy, locale) ?? localizedBenchmarkCopy.en;
+  const cream = benchmarkingCreamCopy[locale as keyof typeof benchmarkingCreamCopy] ?? benchmarkingCreamCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
@@ -203,6 +206,9 @@ export default function BenchmarkingPage() {
           </StaggerContainer>
         </div>
       </section>
+
+      {/* Cream relief - early warm break BEFORE the long dark metrics/forecast/tiers stretch (the volume system) */}
+      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">

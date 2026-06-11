@@ -12,6 +12,8 @@ import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_core_page'
+import { CreamBreak } from "@/components/ui/CreamBreak";
+import { coreCreamCopy } from "./coreCreamCopy";
 
 const localizedCoreCopy = {
   en: {
@@ -532,6 +534,7 @@ export default function CoreProductPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
   const ui = localizedCoreCopy[locale as keyof typeof localizedCoreCopy] ?? getGeneratedLocalCopy(localizedCoreCopy, generatedLocalCopy.localizedCoreCopy, locale) ?? localizedCoreCopy.en;
+  const cream = coreCreamCopy[locale as keyof typeof coreCreamCopy] ?? coreCreamCopy.en;
   const coreTiers = ui.tiers.items;
   const fourDimensions = ui.dimensions.items;
   const modules = ui.modules.items;
@@ -591,6 +594,9 @@ export default function CoreProductPage() {
           </StaggerContainer>
         </div>
       </section>
+
+      {/* Cream relief - early warm break BEFORE the long dark tiers/4D/Pulse stretch (the volume system) */}
+      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
 
       {/* Three Tiers */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">

@@ -12,6 +12,8 @@ import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_crew_page'
+import { CreamBreak } from "@/components/ui/CreamBreak";
+import { crewCreamCopy } from "./crewCreamCopy";
 
 /* ─── Structural data (icons / accents stay constant across locales) ─── */
 
@@ -588,6 +590,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCrew> = {
 export default function CrewPage() {
   const { locale } = useWebsiteI18n();
   const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const cream = crewCreamCopy[locale as keyof typeof crewCreamCopy] ?? crewCreamCopy.en;
 
   return (
     <MotionConfig reducedMotion="user">
@@ -689,6 +692,9 @@ export default function CrewPage() {
             </p>
           </div>
         </section>
+
+        {/* Cream relief - early warm break BEFORE the long dark payroll/pillars/retires stretch (the volume system) */}
+        <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
 
         {/* ════════════════════════════════════════════════
             PAYROLL MOAT - multi-region clusters + capability strips

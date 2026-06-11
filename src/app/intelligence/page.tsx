@@ -7,10 +7,12 @@ import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { SIGNUP_URL } from "@/lib/urls";
 import { ThemedShot } from "@/components/ui/ThemedShot";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
+import { CreamBreak } from "@/components/ui/CreamBreak";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_intelligence_page'
+import { intelligenceCreamCopy } from './intelligenceCreamCopy'
 
 const localizedChatCopy = {
   en: {
@@ -323,6 +325,7 @@ export default function ChatWithDataPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
   const ui = localizedChatCopy[locale as keyof typeof localizedChatCopy] ?? getGeneratedLocalCopy(localizedChatCopy, generatedLocalCopy.localizedChatCopy, locale) ?? localizedChatCopy.en;
+  const cream = intelligenceCreamCopy[locale as keyof typeof intelligenceCreamCopy] ?? intelligenceCreamCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
@@ -359,6 +362,9 @@ export default function ChatWithDataPage() {
           </div>
         </FadeUp>
       </section>
+
+      {/* Cream relief - early warm break after the hero + product shot, before the long dark modes/cards/differentiators stretch (the volume system) */}
+      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">

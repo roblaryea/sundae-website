@@ -9,6 +9,8 @@ import { useCta } from "@/lib/cta";
 import { PRICING_URL } from "@/lib/urls";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
+import { CreamBreak } from "@/components/ui/CreamBreak";
+import { foresightCreamCopy } from "../foresightCreamCopy";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_product_foresight_page'
 
@@ -568,6 +570,7 @@ export default function ForesightPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
   const ui = localizedForesightCopy[locale as keyof typeof localizedForesightCopy] ?? getGeneratedLocalCopy(localizedForesightCopy, generatedLocalCopy.localizedForesightCopy, locale) ?? localizedForesightCopy.en;
+  const cream = foresightCreamCopy[locale as keyof typeof foresightCreamCopy] ?? foresightCreamCopy.en;
   const mockups = ui.mockups;
 
   return (
@@ -601,6 +604,9 @@ export default function ForesightPage() {
           </StaggerContainer>
         </div>
       </section>
+
+      {/* Cream relief - early warm break BEFORE the long dark forecast-mockup stretch (the volume system) */}
+      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
 
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-5xl mx-auto">

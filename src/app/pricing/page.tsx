@@ -9,7 +9,9 @@ import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 import { formatWebsiteCurrency, formatWebsiteNumber, type WebsiteLocale } from '@/lib/i18n';
 import { PRICING_URL, SIGNUP_URL } from '@/lib/urls';
 import { PageHero, FadeUp, StaggerContainer, StaggerItem, PageCTA } from '@/components/ui/PageAnimations';
+import { CreamBreak } from '@/components/ui/CreamBreak';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
+import { pricingCreamCopy } from './pricingCreamCopy';
 
 type Tier = {
   id: string;
@@ -723,6 +725,7 @@ export default function PricingPage() {
   const perMonthLabel = localizedContent?.perMonthLabel ?? '/month';
   const perLocationLabel = localizedContent?.perLocationLabel ?? '/location/month';
   const creditsLabel = localizedContent?.creditsLabel ?? 'intelligence credits/month';
+  const cream = pricingCreamCopy[locale as keyof typeof pricingCreamCopy] ?? pricingCreamCopy.en;
 
   useEffect(() => {
     let cancelled = false
@@ -807,6 +810,9 @@ export default function PricingPage() {
           </StaggerContainer>
         </div>
       </section>
+
+      {/* Cream relief - early warm break after the Report tiers, before the long dark Core/Enterprise/Add-ons stretch (the volume system) */}
+      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
 
       {/* Sundae Core Tiers */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">

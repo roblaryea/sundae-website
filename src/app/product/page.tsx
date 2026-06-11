@@ -19,6 +19,8 @@ import {
 } from "@/components/ui/MockupFrame";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_product_page'
+import { CreamBreak } from '@/components/ui/CreamBreak';
+import { productCreamCopy } from './productCreamCopy';
 
 type Pillar = {
   name: string;
@@ -200,6 +202,7 @@ export default function ProductPage() {
   const { locale } = useWebsiteI18n();
   const ui = copyMap[locale as keyof typeof copyMap] ?? getGeneratedLocalCopy(copyMap, generatedLocalCopy.copyMap, locale) ?? copyMap.en;
   const pillars = localizedPillars[locale as keyof typeof localizedPillars] ?? getGeneratedLocalCopy(localizedPillars, generatedLocalCopy.localizedPillars, locale) ?? localizedPillars.en;
+  const cream = productCreamCopy[locale as keyof typeof productCreamCopy] ?? productCreamCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
@@ -268,6 +271,9 @@ export default function ProductPage() {
           </div>
         </div>
       </section>
+
+      {/* Cream relief - warm break before the long dark Six Intelligence Layers pillar run (the volume system) */}
+      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">

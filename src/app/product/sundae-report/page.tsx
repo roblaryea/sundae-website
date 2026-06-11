@@ -5,6 +5,8 @@ import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
+import { CreamBreak } from "@/components/ui/CreamBreak";
+import { sundaeReportCreamCopy } from "../sundaeReportCreamCopy";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_product_sundae_report_page'
@@ -195,6 +197,7 @@ const reportCopy = {
 export default function SundaeReportPage() {
   const { locale } = useWebsiteI18n();
   const ui = reportCopy[locale as keyof typeof reportCopy] ?? getGeneratedLocalCopy(reportCopy, generatedLocalCopy.reportCopy, locale) ?? reportCopy.en;
+  const cream = sundaeReportCreamCopy[locale as keyof typeof sundaeReportCreamCopy] ?? sundaeReportCreamCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
@@ -243,6 +246,9 @@ export default function SundaeReportPage() {
           </StaggerContainer>
         </div>
       </section>
+
+      {/* Cream relief - early warm break BEFORE the long dark scroll (the volume system) */}
+      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">

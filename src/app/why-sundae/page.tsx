@@ -4,10 +4,12 @@ import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
+import { CreamBreak } from "@/components/ui/CreamBreak";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { type RequiredEnglishLocalizedRecord } from '@/lib/i18n';
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_why_sundae_page'
+import { whySundaeCreamCopy } from './whySundaeCreamCopy'
 
 type WhySundaeCopy = {
   hero: {
@@ -231,10 +233,14 @@ const localizedCopy: RequiredEnglishLocalizedRecord<WhySundaeCopy> = {
 export default function WhySundaePage() {
   const { locale } = useWebsiteI18n();
   const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
+  const cream = whySundaeCreamCopy[locale as keyof typeof whySundaeCreamCopy] ?? whySundaeCreamCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
       <PageHero badge={copy.hero.badge} title={copy.hero.title} description={copy.hero.description} />
+
+      {/* Cream relief - early warm break right after the hero, before the long dark problems/comparison/roles stretch (the volume system) */}
+      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
 
       <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">

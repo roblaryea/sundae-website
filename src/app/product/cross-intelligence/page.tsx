@@ -8,6 +8,8 @@ import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/comp
 import { useCta } from "@/lib/cta";
 import { PRICING_URL } from "@/lib/urls";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { CreamBreak } from "@/components/ui/CreamBreak";
+import { crossIntelligenceCreamCopy } from "../crossIntelligenceCreamCopy";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_product_cross_intelligence_page'
 
@@ -1146,6 +1148,7 @@ export default function CrossIntelligencePage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
   const ui = crossIntelligenceCopy[locale as keyof typeof crossIntelligenceCopy] ?? getGeneratedLocalCopy(crossIntelligenceCopy, generatedLocalCopy.crossIntelligenceCopy, locale) ?? crossIntelligenceCopy.en;
+  const cream = crossIntelligenceCreamCopy[locale as keyof typeof crossIntelligenceCreamCopy] ?? crossIntelligenceCreamCopy.en;
   const components = localizedCrossIntelligenceComponents[locale as keyof typeof localizedCrossIntelligenceComponents] ?? getGeneratedLocalCopy(localizedCrossIntelligenceComponents, generatedLocalCopy.localizedCrossIntelligenceComponents, locale) ?? localizedCrossIntelligenceComponents.en;
   const tierComparison = localizedTierComparison[locale as keyof typeof localizedTierComparison] ?? getGeneratedLocalCopy(localizedTierComparison, generatedLocalCopy.localizedTierComparison, locale) ?? localizedTierComparison.en;
   const mockupCopy = localizedCrossIntelligenceMockups[locale as keyof typeof localizedCrossIntelligenceMockups] ?? getGeneratedLocalCopy(localizedCrossIntelligenceMockups, generatedLocalCopy.localizedCrossIntelligenceMockups, locale) ?? localizedCrossIntelligenceMockups.en;
@@ -1199,6 +1202,9 @@ export default function CrossIntelligencePage() {
           </StaggerContainer>
         </div>
       </section>
+
+      {/* Cream relief - early warm break BEFORE the long dark component-mockup stretch (the volume system) */}
+      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
 
       {/* Components */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">

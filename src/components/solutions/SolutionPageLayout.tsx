@@ -10,6 +10,8 @@ import { FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnima
 import { ElegantShape } from "@/components/ui/ElegantShape";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { generatedUiLabels } from "@/lib/generatedUiLabels";
+import { CreamBreak } from "@/components/ui/CreamBreak";
+import { solutionCreamCopy } from "./solutionCreamCopy";
 
 export type SolutionCopy = {
   badge: string;
@@ -76,6 +78,7 @@ export function SolutionPageLayout({
 }: Props) {
   const { locale } = useWebsiteI18n();
   const labels = generatedUiLabels[locale as keyof typeof generatedUiLabels] ?? generatedUiLabels.en;
+  const cream = solutionCreamCopy[locale as keyof typeof solutionCreamCopy] ?? solutionCreamCopy.en;
 
   return (
     <MotionConfig reducedMotion="user">
@@ -119,6 +122,12 @@ export function SolutionPageLayout({
             </motion.div>
           </div>
         </section>
+
+        {/* ════════════════════════════════════════════════
+            CREAM RELIEF - warm break after the hero, before the long
+            dark Problems -> How -> Outcomes card run (the volume system)
+        ════════════════════════════════════════════════ */}
+        <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
 
         {/* ════════════════════════════════════════════════
             PROBLEMS

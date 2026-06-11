@@ -9,6 +9,8 @@ import { useCta } from "@/lib/cta";
 import { REPORT_APP_URL, PRICING_URL } from "@/lib/urls";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_report_vs_core_page'
+import { CreamBreak } from "@/components/ui/CreamBreak";
+import { reportVsCoreCreamCopy } from "./reportVsCoreCreamCopy";
 
 type ComparisonRow = {
   category: string;
@@ -760,6 +762,7 @@ export default function ReportVsCorePage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
   const copy = localizedReportVsCoreCopy[locale as keyof typeof localizedReportVsCoreCopy] ?? getGeneratedLocalCopy(localizedReportVsCoreCopy, generatedLocalCopy.localizedReportVsCoreCopy, locale) ?? localizedReportVsCoreCopy.en;
+  const cream = reportVsCoreCreamCopy[locale as keyof typeof reportVsCoreCreamCopy] ?? reportVsCoreCreamCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
@@ -861,6 +864,9 @@ export default function ReportVsCorePage() {
           </div>
         </div>
       </section>
+
+      {/* Cream relief - early warm break BEFORE the long dark comparison/pulse/watchtower/decision stretch (the volume system) */}
+      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">

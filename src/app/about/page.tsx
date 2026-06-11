@@ -5,9 +5,11 @@ import { Button } from "@/components/ui/Button";
 import { Card, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
+import { CreamBreak } from "@/components/ui/CreamBreak";
 import { resolveWebsiteLocale, type WebsiteLocale } from "@/lib/i18n";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_about_page'
+import { aboutCreamCopy } from './aboutCreamCopy'
 
 const aboutCopy = {
   en: {
@@ -289,6 +291,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function AboutPage() {
   const locale = resolveWebsiteLocale(await cookies());
   const copy = getAboutCopy(locale);
+  const cream = aboutCreamCopy[locale as keyof typeof aboutCreamCopy] ?? aboutCreamCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
@@ -308,6 +311,9 @@ export default async function AboutPage() {
           </FadeUp>
         </div>
       </section>
+
+      {/* Cream relief - early warm break after the hero/stats, before the long dark built/mission/team stretch (the volume system) */}
+      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
 
       <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">

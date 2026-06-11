@@ -9,6 +9,8 @@ import { useCta } from "@/lib/cta";
 import { PRICING_URL } from "@/lib/urls";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_modules_page'
+import { CreamBreak } from "@/components/ui/CreamBreak";
+import { modulesCreamCopy } from "./modulesCreamCopy";
 
 type LocalizedModuleCopy = {
   badge: string;
@@ -514,6 +516,7 @@ export default function ModulesPage() {
   const copy = messages.pages.modules;
   const page = localizedModulesCopy[locale as keyof typeof localizedModulesCopy] ?? getGeneratedLocalCopy(localizedModulesCopy, generatedLocalCopy.localizedModulesCopy, locale) ?? localizedModulesCopy.en;
   const ui = localizedModulesUi[locale as keyof typeof localizedModulesUi] ?? getGeneratedLocalCopy(localizedModulesUi, generatedLocalCopy.localizedModulesUi, locale) ?? localizedModulesUi.en;
+  const cream = modulesCreamCopy[locale as keyof typeof modulesCreamCopy] ?? modulesCreamCopy.en;
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-orange-50">
@@ -591,6 +594,9 @@ export default function ModulesPage() {
           </div>
         </div>
       </section>
+
+      {/* Cream relief - early warm break BEFORE the long module stack + dark how-it-works stretch (the volume system) */}
+      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
 
       {/* The Five Modules */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">

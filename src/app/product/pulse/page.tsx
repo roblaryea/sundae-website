@@ -17,6 +17,8 @@ import {
 } from "@/components/ui/MockupFrame";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_product_pulse_page'
+import { CreamBreak } from "@/components/ui/CreamBreak";
+import { pulseCreamCopy } from "./pulseCreamCopy";
 
 const localizedPulseCopy = {
   en: {
@@ -1241,6 +1243,7 @@ export default function PulsePage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
   const ui = localizedPulseCopy[locale as keyof typeof localizedPulseCopy] ?? getGeneratedLocalCopy(localizedPulseCopy, generatedLocalCopy.localizedPulseCopy, locale) ?? localizedPulseCopy.en;
+  const cream = pulseCreamCopy[locale as keyof typeof pulseCreamCopy] ?? pulseCreamCopy.en;
   const featureMockups = [
     AdaptiveTargetsMockup,
     SalesPacingMockup,
@@ -1321,6 +1324,9 @@ export default function PulsePage() {
           </StaggerContainer>
         </div>
       </section>
+
+      {/* Cream relief - warm break before the long dark feature-block run (the volume system) */}
+      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
 
       {/* Feature Blocks - Detailed */}
       <section id="features" className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
