@@ -810,6 +810,9 @@ export default function InsightsPage() {
         </div>
       </section>
 
+      {/* Cream relief - early warm break BEFORE the long module grid (the volume system) */}
+      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
+
       {/* Intelligence Modules Grid */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-6xl mx-auto">
@@ -859,17 +862,15 @@ export default function InsightsPage() {
         </div>
       </section>
 
-      {/* Cream relief - warm volume break in the dark scroll (the homepage's volume system) */}
-      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
-
-      {/* How It Works */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-5xl mx-auto">
+      {/* How It Works - cream relief zone (second light break, after the module grid) */}
+      <section className="relative overflow-hidden py-24 px-4 sm:px-6 lg:px-8" style={{ background: 'var(--cream)', color: 'var(--ink)' }}>
+        <div aria-hidden className="absolute inset-0" style={{ background: 'radial-gradient(ellipse 55% 45% at 50% 22%, rgba(233,162,74,0.16) 0%, transparent 65%)' }} />
+        <div className="relative z-10 max-w-5xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
+            <h2 className="section-h2 mb-4" style={{ color: 'var(--ink)' }}>
               {ui.howTitle}
             </h2>
-            <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">
+            <p className="body-lg max-w-3xl mx-auto" style={{ color: 'var(--ink-soft, rgba(26,20,15,0.64))' }}>
               {ui.howDescription}
             </p>
           </div>
@@ -877,11 +878,11 @@ export default function InsightsPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {howItWorks.map((step, index) => (
               <div key={index} className="text-center">
-                <div className="w-12 h-12 bg-[var(--surface-subtle)] rounded-full flex items-center justify-center text-[var(--text-supporting)] text-lg font-bold mx-auto mb-4">
+                <div className="w-12 h-12 rounded-full flex items-center justify-center text-lg font-bold mx-auto mb-4" style={{ background: 'rgba(255,92,77,0.12)', color: 'var(--warm-cherry)' }}>
                   {step.step}
                 </div>
-                <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">{step.title}</h3>
-                <p className="text-sm text-[var(--text-supporting)]">{step.description}</p>
+                <h3 className="text-lg font-semibold mb-2" style={{ color: 'var(--ink)' }}>{step.title}</h3>
+                <p className="text-sm" style={{ color: 'var(--ink-soft, rgba(26,20,15,0.64))' }}>{step.description}</p>
               </div>
             ))}
           </div>
