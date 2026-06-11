@@ -97,14 +97,14 @@ export function EditorialImage({
         />
       )}
 
-      {/* Brand wash — whisper of electric blue for cohesion ------------- */}
+      {/* Brand wash — warm caramel→coral grade for cohesion ------------- */}
       {overlay !== 'none' && (
         <div
           aria-hidden
-          className="absolute inset-0 mix-blend-soft-light opacity-[0.3] [html.light_&]:opacity-[0.16]"
+          className="absolute inset-0 mix-blend-soft-light opacity-[0.5] [html.light_&]:opacity-[0.22]"
           style={{
             background:
-              'radial-gradient(120% 90% at 15% 0%, rgba(28,71,255,0.20) 0%, transparent 55%)',
+              'linear-gradient(120deg, rgba(233,162,74,0.55) 0%, rgba(255,92,77,0.34) 55%, transparent 100%)',
           }}
         />
       )}

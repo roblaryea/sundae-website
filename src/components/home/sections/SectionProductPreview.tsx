@@ -40,17 +40,17 @@ const PREVIEW: PreviewItem[] = [
     alt: "Executive Summary — KPIs, alerts, and health scores across every module",
     caption: "Executive Summary",
     whatYouSee:
-      "Bird's-eye view: 78/100 health, 10 open alerts, Revenue 93 / Labor 100 / Inventory 73 scorecards. \"Food cost variance at 19.2% exceeds 5% critical threshold.\"",
+      "One health score across every module surfaces the one thing that needs you today — here, food-cost variance running well above where it should be — so nothing important hides in a report until it's too late.",
     productHref: "/insights",
     productLabel: "See full Insights gallery →",
   },
   {
     id: "pulse-wallboard",
-    src: "/images/product/2026-fresh/pulse-wallboard.png",
-    alt: "Pulse — live shift wallboard with target gap",
-    caption: "Pulse — Live Wallboard",
+    src: "/images/product/2026-fresh/pulse-sales.png",
+    alt: "Pulse — live sales pacing against target",
+    caption: "Pulse — Live Pacing",
     whatYouSee:
-      "Actual AED 10,300 vs Target AED 28,000. \"Need AED 9,133.21/hr to hit target.\" 37% progress with outlet selector + behind status indicator.",
+      "The live shift at a glance — sales against target for every outlet — with exactly what it takes to close the gap before close: the per-hour pace each location needs for the rest of service.",
     productHref: "/product/pulse",
     productLabel: "See full Pulse gallery →",
   },
@@ -60,7 +60,7 @@ const PREVIEW: PreviewItem[] = [
     alt: "Foresight Scenarios — scenario library with 10 quick-start templates",
     caption: "Foresight — Scenarios",
     whatYouSee:
-      "5 scenarios saved, 10 quick-start templates (5% Price, 10% Labor Reduction, Marketing Push, Peak Season, Capacity Expansion). Sidebar: PREDICT / MODEL / TRUST / DECIDE.",
+      "Model the decision before you commit to it. Start from a template — a 5% price move, a 10% labor cut, a marketing push — and see the impact on revenue and margin before any of it is real.",
     productHref: "/product/foresight",
     productLabel: "See full Foresight gallery →",
   },
@@ -70,7 +70,7 @@ const PREVIEW: PreviewItem[] = [
     alt: "Sundae Intelligence — conversational decision interface",
     caption: "Sundae Intelligence",
     whatYouSee:
-      "AED 96,555 today's revenue, 379 orders, \"New York Strip (40 sold).\" Threads sidebar with Collections + suggested questions. Conversational decision intelligence.",
+      "Ask your business anything in plain English. Questions like \"what drove last night's revenue?\" come back with the answer, the numbers behind it, and the sources — a conversation, not a dashboard.",
     productHref: "/intelligence",
     productLabel: "See full Intelligence gallery →",
   },
@@ -119,7 +119,7 @@ export function SectionProductPreview() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-80px" }}
               transition={{ delay: i * 0.06, duration: 0.4 }}
-              className="group rounded-2xl border border-[var(--border-default)] bg-[var(--navy-deep)] overflow-hidden hover:border-[var(--electric-blue)]/40 transition-colors"
+              className="group rounded-2xl border border-[var(--border-default)] bg-[var(--navy-deep)] overflow-hidden hover:border-[var(--warm-coral)]/40 transition-colors"
             >
               <button
                 onClick={() => setLightboxIndex(i)}
@@ -133,9 +133,15 @@ export function SectionProductPreview() {
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                   className="object-cover object-top group-hover:scale-[1.02] transition-transform duration-500"
                 />
+                {/* warm grade — coheres the (blue) product UI with the warm site */}
+                <div
+                  aria-hidden
+                  className="pointer-events-none absolute inset-0 mix-blend-soft-light opacity-30"
+                  style={{ background: 'linear-gradient(135deg, rgba(233,162,74,0.5), rgba(255,92,77,0.26))' }}
+                />
                 <div className="absolute inset-0 bg-gradient-to-t from-[var(--navy-deep)] via-transparent to-transparent opacity-60" />
                 <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                  <div className="bg-[var(--electric-blue)] text-white rounded-full p-3 shadow-2xl">
+                  <div className="bg-[var(--warm-coral)] text-white rounded-full p-3 shadow-2xl">
                     <Maximize2 className="w-5 h-5" />
                   </div>
                 </div>
@@ -147,7 +153,7 @@ export function SectionProductPreview() {
                 </p>
                 <Link
                   href={p.productHref}
-                  className="inline-flex items-center gap-1.5 text-xs font-bold text-[var(--electric-blue)] hover:underline"
+                  className="inline-flex items-center gap-1.5 text-xs font-bold text-[var(--warm-coral)] hover:underline"
                 >
                   {p.productLabel}
                   <ArrowUpRight className="w-3.5 h-3.5" />
@@ -157,9 +163,12 @@ export function SectionProductPreview() {
           ))}
         </div>
 
-        <p className="text-center text-xs text-[var(--text-muted)] mt-10 italic max-w-2xl mx-auto">
+        <p className="mx-auto mt-10 max-w-2xl text-center text-sm text-[var(--text-secondary)]">
+          And these aren&apos;t fixed — every view adapts to the role and the way your team works, so a CEO, a GM, and a finance lead each see exactly what matters to them.
+        </p>
+        <p className="text-center text-xs text-[var(--text-muted)] mt-4 italic max-w-2xl mx-auto">
           Live in-product surfaces. Synthetic data shown for illustration.{" "}
-          <Link href="/diagnostic" className="text-[var(--electric-blue)] hover:underline font-semibold not-italic">
+          <Link href="/diagnostic" className="text-[var(--warm-coral)] hover:underline font-semibold not-italic">
             Take the Operations Diagnostic
           </Link>{" "}
           to see what your view would look like.

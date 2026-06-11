@@ -25,7 +25,7 @@ function PulseThumb() {
       <div className="grid grid-cols-3 gap-1.5 mb-2">
         <div className="bg-white/[0.04] rounded px-2 py-1.5">
           <div className="text-[8px] text-[var(--text-muted)] uppercase">Rev</div>
-          <div className="text-xs font-bold font-mono text-[#1C47FF]">$14.8K</div>
+          <div className="text-xs font-bold font-mono text-[#FF5C4D]">$14.8K</div>
         </div>
         <div className="bg-white/[0.04] rounded px-2 py-1.5">
           <div className="text-[8px] text-[var(--text-muted)] uppercase">Labor</div>
@@ -37,8 +37,8 @@ function PulseThumb() {
         </div>
       </div>
       <svg viewBox="0 0 200 30" className="w-full h-7" preserveAspectRatio="none" aria-hidden>
-        <path d="M0 22 L25 20 L50 18 L75 14 L100 11 L125 8 L150 6 L175 5 L200 4" stroke="#1C47FF" strokeWidth="1.5" fill="none" />
-        <path d="M0 22 L25 20 L50 18 L75 14 L100 11 L125 8 L150 6 L175 5 L200 4 L200 30 L0 30 Z" fill="rgba(28,71,255,0.15)" />
+        <path d="M0 22 L25 20 L50 18 L75 14 L100 11 L125 8 L150 6 L175 5 L200 4" stroke="#FF5C4D" strokeWidth="1.5" fill="none" />
+        <path d="M0 22 L25 20 L50 18 L75 14 L100 11 L125 8 L150 6 L175 5 L200 4 L200 30 L0 30 Z" fill="rgba(255,92,77,0.15)" />
       </svg>
     </div>
   );
@@ -58,7 +58,7 @@ function WatchtowerThumb() {
           3 competitors dropped lunch combos to $9.99
         </div>
       </div>
-      <div className="rounded px-2 py-1.5" style={{ background: "rgba(28,71,255,0.10)", borderLeft: "2px solid #1C47FF" }}>
+      <div className="rounded px-2 py-1.5" style={{ background: "rgba(255,92,77,0.10)", borderLeft: "2px solid #FF5C4D" }}>
         <div className="text-[10px] text-[var(--text-secondary)] leading-tight">
           Office tower fire drill, 2 blocks · 11–12
         </div>
@@ -90,8 +90,8 @@ function BenchmarkThumb() {
               className="flex-1 rounded-sm"
               style={{
                 height: `${h}%`,
-                background: isYou ? "#1C47FF" : "rgba(255,255,255,0.18)",
-                boxShadow: isYou ? "0 0 8px rgba(28,71,255,0.6)" : "none",
+                background: isYou ? "#FF5C4D" : "rgba(255,255,255,0.18)",
+                boxShadow: isYou ? "0 0 8px rgba(255,92,77,0.6)" : "none",
               }}
               aria-hidden
             />
@@ -100,7 +100,7 @@ function BenchmarkThumb() {
       </div>
       <div className="flex items-center justify-between text-[8px] text-[var(--text-muted)]">
         <span>Peer cohort (anon)</span>
-        <span className="text-[#1C47FF] font-semibold">You</span>
+        <span className="text-[#FF5C4D] font-semibold">You</span>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Fraunces, Hanken_Grotesk, Geist_Mono } from "next/font/google";
 import { cookies, headers } from "next/headers";
 import { Analytics } from "@vercel/analytics/next";
 import { BotIdClient } from "botid/client";
@@ -24,11 +24,22 @@ import {
 } from "@/lib/i18n";
 import { LocaleProvider } from "@/components/i18n/LocaleProvider";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+// Display — warm, optical serif for headlines & key numbers (the human, premium voice).
+const fraunces = Fraunces({
+  variable: "--font-fraunces",
   subsets: ["latin"],
+  style: ["normal", "italic"],
+  display: "swap",
 });
 
+// Body / UI — friendly, legible grotesk; the default sans (replaces Geist).
+const hankenGrotesk = Hanken_Grotesk({
+  variable: "--font-hanken",
+  subsets: ["latin"],
+  display: "swap",
+});
+
+// Mono — retained for tabular / data labels.
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
@@ -127,7 +138,7 @@ export default async function RootLayout({
   const dir = websiteLocaleDirection[locale];
 
   return (
-    <html lang={locale} dir={dir} className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning>
+    <html lang={locale} dir={dir} className={`${fraunces.variable} ${hankenGrotesk.variable} ${geistMono.variable}`} suppressHydrationWarning>
       <head>
         <ThemeScript />
         {/* Vercel BotID — instruments the expensive AI diagnostic endpoint so

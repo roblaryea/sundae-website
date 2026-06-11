@@ -15,6 +15,7 @@ import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { HeroLiveDashboard } from "./HeroLiveDashboard";
 import { SectionEditorialBand } from "./sections/SectionEditorialBand";
 import { SectionEditorialSplit } from "./sections/SectionEditorialSplit";
+import { SectionCreamRelief } from "./sections/SectionCreamRelief";
 import { SundaeWordmark } from "./sections/SundaeWordmark";
 import { editorialCopy, type EditorialCopy } from "./sections/editorialCopy";
 import { heroDashboardCopy } from "./heroDashboardCopy";
@@ -59,7 +60,6 @@ export default function HomeContent() {
     editorialCopy[locale as keyof typeof editorialCopy] ?? editorialCopy.en;
   const problem = home.problem;
   const platform = home.platform;
-  const modules = home.modules;
   const heroDash = heroDashboardCopy[locale as keyof typeof heroDashboardCopy] ?? heroDashboardCopy.en;
   const cta = useCta();
   const painRef = useRef<HTMLDivElement>(null);
@@ -75,28 +75,13 @@ export default function HomeContent() {
   };
 
   const layerAccents: Record<string, string> = {
-    Pulse: "from-[#1C47FF] to-[#3B82F6]",
+    Pulse: "from-[#FF5C4D] to-[#E03E48]",
     Benchmarks: "from-[#22C55E] to-[#16A34A]",
     Watchtower: "from-[#F59E0B] to-[#D97706]",
     Insights: "from-[#A855F7] to-[#7C3AED]",
     "Sundae Intelligence": "from-[#EC4899] to-[#BE185D]",
     Foresight: "from-[#0EA5E9] to-[#0284C7]",
   };
-
-  const moduleIcons: SundaeIconName[] = [
-    "revenue",
-    "labor",
-    "quality",
-    "inventory",
-    "purchasing",
-    "marketing",
-    "delivery",
-    "reservations",
-    "risk",
-    "cost",
-    "data",
-    "sync",
-  ];
 
   return (
     <MotionConfig reducedMotion="user">
@@ -106,7 +91,8 @@ export default function HomeContent() {
         ════════════════════════════════════════════════ */}
         <section className="relative min-h-[90vh] flex flex-col justify-center pt-32 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
           {/* Background layers */}
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(28,71,255,0.08),transparent_60%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(255,92,77,0.13),transparent_60%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_45%_at_82%_28%,rgba(242,166,90,0.10),transparent_55%)]" />
           <div className="absolute inset-0 bg-grid-texture" />
 
           {/* Floating shapes */}
@@ -119,24 +105,50 @@ export default function HomeContent() {
           {/* Editorial backdrop — grounds the product hero in the restaurant world.
               Heavily darkened, blurred and vignetted into the page bg so it reads as
               atmosphere, never as a stock photo; the dashboard (z-20) floats over it. */}
-          <div aria-hidden className="absolute inset-x-0 bottom-0 top-[30%] z-0 overflow-hidden pointer-events-none">
+          <div aria-hidden className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
+            {/* light mode: a clean warm-cream wash REPLACES the muddy faint photo */}
+            <div
+              className="absolute inset-0 hidden [html.light_&]:block"
+              style={{
+                background:
+                  'radial-gradient(ellipse 95% 80% at 50% -5%, #FFE7D8 0%, transparent 58%), linear-gradient(180deg, #FFF6EF 0%, #FFFFFF 62%)',
+              }}
+            />
             <Image
-              src="/images/editorial/dining-candlelit.jpg"
+              src="/images/editorial/atmosphere.jpg"
               alt=""
               fill
               priority
               sizes="100vw"
-              className="object-cover object-center scale-110 blur-[2px] opacity-[0.32] [html.light_&]:opacity-[0.07]"
+              className="object-cover object-center scale-105 opacity-[0.7] [html.light_&]:opacity-0"
             />
-            {/* feather the photo into the page on every side (var flips per theme) */}
+            {/* warm grade — strong caramel/coral so the room reads unmistakably warm (V2 feel) */}
+            <div
+              className="absolute inset-0 mix-blend-soft-light opacity-90 [html.light_&]:opacity-0"
+              style={{
+                background:
+                  'radial-gradient(ellipse 85% 75% at 64% 30%, rgba(233,162,74,0.65) 0%, transparent 62%), radial-gradient(ellipse 70% 60% at 18% 88%, rgba(255,92,77,0.5) 0%, transparent 60%)',
+              }}
+            />
+            {/* soft radial scrim ONLY behind the centered copy — keeps the photo visible */}
             <div
               className="absolute inset-0"
               style={{
                 background:
-                  'radial-gradient(ellipse 75% 85% at 50% 65%, transparent 0%, color-mix(in srgb, var(--navy-deep) 70%, transparent) 62%, var(--navy-deep) 100%)',
+                  'radial-gradient(ellipse 64% 52% at 50% 36%, color-mix(in srgb, var(--navy-deep) 80%, transparent) 0%, color-mix(in srgb, var(--navy-deep) 30%, transparent) 55%, transparent 75%)',
               }}
             />
-            <div className="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-[var(--navy-deep)] to-transparent" />
+            {/* light top + bottom grounding into the page bg */}
+            <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-[var(--navy-deep)] to-transparent" />
+            <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-[var(--navy-deep)] via-[var(--navy-deep)]/80 to-transparent" />
+            {/* gentle side feathers */}
+            <div
+              className="absolute inset-0"
+              style={{
+                background:
+                  'linear-gradient(90deg, var(--navy-deep) 0%, transparent 18%, transparent 82%, var(--navy-deep) 100%)',
+              }}
+            />
           </div>
 
           <div className="max-w-5xl mx-auto text-center relative z-20">
@@ -147,8 +159,8 @@ export default function HomeContent() {
               transition={{ duration: 1, delay: 0.5, ease: [0.25, 0.4, 0.25, 1] }}
               className="flex justify-center mb-8"
             >
-              <span className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-semibold tracking-wide uppercase bg-[rgba(28,71,255,0.12)] border border-[rgba(28,71,255,0.2)] text-[#60A5FA]">
-                <span className="inline-block h-1.5 w-1.5 rounded-full bg-[#60A5FA] animate-pulse" />
+              <span className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-semibold tracking-wide uppercase bg-[rgba(255,92,77,0.12)] border border-[rgba(255,92,77,0.28)] text-[#FF8473]">
+                <span className="inline-block h-1.5 w-1.5 rounded-full bg-[#FF8473] animate-pulse" />
                 {home.badge}
               </span>
             </motion.div>
@@ -164,7 +176,7 @@ export default function HomeContent() {
                   {home.titleTop}
                 </span>
                 <br />
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#60A5FA] via-[var(--text-primary)] to-[#93C5FD]">
+                <span className="italic bg-clip-text text-transparent bg-gradient-to-r from-[#E9A24A] via-[#FF7E6F] to-[#FF5C4D]">
                   {home.titleBottom}
                 </span>
               </h1>
@@ -178,7 +190,7 @@ export default function HomeContent() {
             >
               <p className="body-xl max-w-2xl mx-auto mb-10">
                 {home.description}
-                <span className="text-[var(--text-primary)] font-medium"> {withWordmark(home.descriptionEmphasis, "h-[0.8em] w-auto inline-block align-middle mx-[0.04em] text-[var(--text-primary)]")}</span>
+                <span className="text-[var(--text-primary)] font-medium"> {withWordmark(home.descriptionEmphasis, "h-[0.66em] w-auto inline-block align-baseline mx-[0.08em] translate-y-[0.02em] text-[var(--text-primary)]")}</span>
               </p>
             </motion.div>
 
@@ -223,7 +235,7 @@ export default function HomeContent() {
             transition={{ duration: 0.8, delay: 1.0 }}
             style={{ perspective: '1200px' }}
           >
-            <div className="absolute -inset-x-10 bottom-0 h-48 bg-gradient-to-t from-[rgba(28,71,255,0.08)] via-[rgba(28,71,255,0.04)] to-transparent blur-2xl pointer-events-none rounded-full" />
+            <div className="absolute -inset-x-10 bottom-0 h-48 bg-gradient-to-t from-[rgba(255,92,77,0.10)] via-[rgba(242,166,90,0.05)] to-transparent blur-2xl pointer-events-none rounded-full" />
 
             <motion.div
               initial={{ rotateX: 8, scale: 0.95, opacity: 0 }}
@@ -243,11 +255,11 @@ export default function HomeContent() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 1.4 }}
           >
-            <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
+            <div className="mx-auto flex max-w-3xl flex-wrap items-stretch justify-center divide-x divide-[var(--border-default)] overflow-hidden rounded-2xl border border-[var(--border-default)] bg-[var(--surface-subtle)] backdrop-blur">
               {home.proofStats.map((item) => (
-                <div key={item.label} className="text-center">
-                  <div className="text-lg sm:text-xl font-bold text-[var(--text-secondary)] tabular-nums">{item.number}</div>
-                  <div className="text-[10px] sm:text-xs text-[var(--text-muted)] uppercase tracking-wider font-medium">{item.label}</div>
+                <div key={item.label} className="min-w-[140px] flex-1 px-5 py-5 text-center sm:px-7">
+                  <div className="font-display bg-gradient-to-r from-[#E9A24A] to-[#FF5C4D] bg-clip-text text-3xl font-semibold tabular-nums text-transparent sm:text-4xl">{item.number}</div>
+                  <div className="mt-2 text-[10px] font-medium uppercase tracking-wider text-[var(--text-muted)] sm:text-xs">{item.label}</div>
                 </div>
               ))}
             </div>
@@ -302,6 +314,11 @@ export default function HomeContent() {
             2b. FROM REPORTING LAG TO OPS SPEED — Old Way vs Sundae Way
         ════════════════════════════════════════════════ */}
         <SectionOldWaySundaeWay />
+
+        {/* ════════════════════════════════════════════════
+            2b-relief. CREAM RELIEF — early warm/light break so the dark run never builds
+        ════════════════════════════════════════════════ */}
+        <SectionCreamRelief />
 
         {/* ════════════════════════════════════════════════
             2c. THE OLD TRADEOFF IS DEAD — Speed · Quality · Cost
@@ -385,7 +402,7 @@ export default function HomeContent() {
           eyebrow={editorial.band2.eyebrow}
           headline={withWordmark(
             editorial.band2.headline,
-            "h-[0.8em] w-auto inline-block align-middle text-white"
+            "h-[0.72em] w-auto inline-block align-baseline translate-y-[0.02em] text-white"
           )}
           sub={editorial.band2.sub}
         />
@@ -401,37 +418,21 @@ export default function HomeContent() {
         <Section4DScene />
 
         {/* ════════════════════════════════════════════════
-            4. MODULE GRID — 12 intelligence domains
+            4b-relief. SECOND CREAM BREAK — keeps warmth alive through the lower half
         ════════════════════════════════════════════════ */}
-        <section aria-labelledby="modules-heading" className="py-20 px-4 sm:px-6 lg:px-8 relative">
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(28,71,255,0.04),transparent_60%)]" />
-
-          <div className="max-w-6xl mx-auto relative z-10">
-            <FadeUp className="text-center mb-12">
-              <p className="eyebrow mb-4">{modules.eyebrow}</p>
-              <h2 id="modules-heading" className="section-h2 mb-5">
-                {modules.heading}
-              </h2>
-              <p className="body-lg max-w-2xl mx-auto">
-                {modules.description}
-              </p>
-            </FadeUp>
-
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
-              {modules.categories.map((mod, index: number) => (
-                <div key={mod.name}>
-                  <div className="group p-3 sm:p-4 rounded-xl bg-white/[0.03] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:border-[rgba(28,71,255,0.2)] transition-all duration-300">
-                    <div className="w-9 h-9 rounded-lg bg-[var(--surface-hover)] flex items-center justify-center mb-3">
-                      <SundaeIcon name={moduleIcons[index] || "sync"} size="sm" className="text-[var(--text-supporting)] group-hover:text-[#60A5FA] transition-colors" />
-                    </div>
-                    <h3 className="text-sm font-semibold text-[var(--text-primary)] mb-1">{mod.name}</h3>
-                    <p className="text-[11px] text-[var(--text-muted)]">{mod.count}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+        <SectionCreamRelief
+          label="One source of truth"
+          eyebrow="One source of truth"
+          statement={
+            <>
+              One screen the whole team{' '}
+              <em className="italic" style={{ color: 'var(--warm-cherry)' }}>actually trusts.</em>
+            </>
+          }
+          lede="POS, labor, inventory, delivery, reservations — Sundae unifies every system into a single decision surface. No more arguing about whose number is right; the team acts instead of reconciling spreadsheets."
+          trio={[]}
+          unify
+        />
 
         {/* ════════════════════════════════════════════════
             5. PERSONA SWITCHER — One Platform. Every Role. (6 personas, tabbed)
@@ -465,7 +466,7 @@ export default function HomeContent() {
           headline={
             <>
               {editorial.closer.headlineLead}{" "}
-              <span className="text-[var(--electric-blue)]">{editorial.closer.headlineEmphasis}</span>
+              <span className="text-[var(--warm-coral)]">{editorial.closer.headlineEmphasis}</span>
             </>
           }
           sub={editorial.closer.sub}
@@ -475,25 +476,44 @@ export default function HomeContent() {
         {/* ════════════════════════════════════════════════
             7. CLOSING CTA
         ════════════════════════════════════════════════ */}
-        <section className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden bg-grad-deep">
-          <div className="absolute inset-0 bg-grid-texture" />
+        <section className="relative py-24 sm:py-28 px-4 sm:px-6 lg:px-8 overflow-hidden text-white">
+          {/* photographic base — the floor, warm-graded */}
+          <Image
+            src="/images/editorial/dining-night.jpg"
+            alt=""
+            fill
+            sizes="100vw"
+            className="object-cover object-center brightness-[0.5]"
+          />
+          {/* warm gradient — the bold "punctuation" jolt that closes the page */}
+          <div
+            className="absolute inset-0 mix-blend-multiply"
+            style={{ background: 'linear-gradient(135deg, rgba(233,162,74,0.95) 0%, rgba(255,92,77,0.95) 52%, rgba(224,62,72,0.96) 100%)' }}
+          />
+          <div
+            className="absolute inset-0 opacity-75"
+            style={{ background: 'linear-gradient(135deg, var(--warm-caramel) 0%, var(--warm-coral) 52%, var(--warm-cherry) 100%)' }}
+          />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_80%_at_50%_0%,rgba(255,255,255,0.22),transparent_60%)]" />
 
-          <ElegantShape delay={0} width={400} height={100} rotate={-12} gradient="from-white/[0.03]" className="left-[-8%] top-[20%]" />
-          <ElegantShape delay={0.2} width={300} height={80} rotate={15} gradient="from-white/[0.02]" className="right-[-5%] bottom-[10%]" />
-
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(28,71,255,0.06),transparent_70%)]" />
+          {/* the mark as a layout device — bleeds into the corner, not a sticker */}
+          <div aria-hidden className="absolute -right-16 -bottom-24 w-[420px] sm:w-[520px] opacity-[0.12] text-white pointer-events-none">
+            <SundaeWordmark className="w-full h-auto" />
+          </div>
 
           <div className="max-w-3xl mx-auto text-center relative z-10">
             <FadeUp>
-              <h2 className="section-h2 mb-4">
+              <h2 className="section-h2 mb-4 !text-white">
                 {home.closingTitle}
+                {/* TODO(i18n): localize in the translation pass */}
+                <span className="mt-1 block text-[var(--ink)]">Start making every day a Sundae.</span>
               </h2>
-              <p className="body-lg mb-10 max-w-xl mx-auto">
+              <p className="body-lg mb-10 max-w-xl mx-auto !text-white/90">
                 {home.closingDescription}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button
-                  variant="cta"
+                  variant="ink"
                   size="lg"
                   onClick={() => cta("/demo", "book_demo_footer_cta", { page: "/home" })}
                 >
@@ -502,6 +522,7 @@ export default function HomeContent() {
                 <Button
                   variant="outline-light"
                   size="lg"
+                  className="!border-white/60 !text-white hover:!bg-white/15"
                   onClick={() => cta(SIGNUP_URL, "get_report_footer_cta", { page: "/home" })}
                 >
                   {home.startFree}
@@ -534,7 +555,7 @@ function LayerCard({ layer, icon, accent, learnMoreLabel, indexLabel, countLabel
       onClick={() => cta(layer.href, `view_${layer.name.toLowerCase().replace(/\s+/g, "_")}`, { page: "/home", section: "platform" })}
       onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); cta(layer.href, `view_${layer.name.toLowerCase().replace(/\s+/g, "_")}`, { page: "/home", section: "platform" }); } }}
     >
-      <div className="relative h-full p-6 rounded-2xl bg-white/[0.03] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:border-[rgba(28,71,255,0.25)] transition-all duration-300 hover:shadow-[0_0_30px_rgba(28,71,255,0.08)]">
+      <div className="relative h-full p-6 rounded-2xl bg-white/[0.03] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:border-[rgba(255,92,77,0.25)] transition-all duration-300 hover:shadow-[0_0_30px_rgba(255,92,77,0.10)]">
         {/* Layer count indicator — top right */}
         <div className="absolute top-4 right-5 text-[10px] font-mono tracking-wider text-[var(--text-muted)]/70">
           <span className="text-[var(--text-secondary)]">{indexLabel}</span>
@@ -553,7 +574,7 @@ function LayerCard({ layer, icon, accent, learnMoreLabel, indexLabel, countLabel
 
         <p className="text-sm text-[var(--text-muted)] leading-relaxed mb-4">{layer.description}</p>
 
-        <span className="text-sm font-medium text-[#60A5FA] group-hover:text-[var(--text-primary)] transition-colors">
+        <span className="text-sm font-medium text-[#FF8473] group-hover:text-[var(--text-primary)] transition-colors">
           {learnMoreLabel} <span className="inline-block transition-transform group-hover:translate-x-1">&rarr;</span>
         </span>
       </div>

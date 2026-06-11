@@ -42,7 +42,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
       alt: 'A chef finishing a plated dish on the kitchen pass during service',
     },
     band2: {
-      eyebrow: 'Built for the line, not the boardroom',
+      eyebrow: 'Built for the front-line, not only the boardroom',
       headline: 'Your team is already moving fast. Sundae moves with them.',
       sub: 'Live pacing, labor, and exceptions across every outlet — so the call you make at 7pm is the right one, not the one you second-guess at midnight.',
       alt: 'A chef working the line on the kitchen pass during service',

@@ -30,9 +30,9 @@ type LocalizedSQC = {
 
 const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
   en: {
-    eyebrow: "THE OLD TRADEOFF IS DEAD",
+    eyebrow: "THE FALSE CHOICE IS OVER",
     headline: "Fast. Right. Affordable. Pick all three.",
-    description: "Restaurants used to choose between speed, quality, and cost. Sundae was built to deliver all three at once — that's the entire point.",
+    description: "Getting real restaurant intelligence used to mean a tradeoff — fast to deploy, genuinely good, or affordable enough to justify. Pick two. Sundae was built to deliver all three at once — that's the entire point.",
     oldRule: "Old rule: pick two",
     sundaeRule: "↓  Sundae rule: pick all three",
     closing: "That's not a tradeoff. That's your operating advantage.",
@@ -154,9 +154,9 @@ export function SectionSpeedQualityCost() {
   const vertexFillActive = isLight ? "#0F172A" : "#FFFFFF";
   const vertexFillIdle = isLight ? "rgba(15,23,42,0.45)" : "rgba(255,255,255,0.45)";
   const vertexDotFillIdle = isLight ? "rgba(15,23,42,0.55)" : "rgba(255,255,255,0.55)";
-  const tracerBallFill = isLight ? "#1C47FF" : "#FFFFFF";
-  const triHighlightStrong = isLight ? "rgba(28,71,255,0.18)" : "rgba(255,255,255,0.25)";
-  const triHighlightMid = isLight ? "rgba(28,71,255,0.05)" : "rgba(255,255,255,0.06)";
+  const tracerBallFill = isLight ? "#FF5C4D" : "#FFFFFF";
+  const triHighlightStrong = isLight ? "rgba(255,92,77,0.18)" : "rgba(255,255,255,0.25)";
+  const triHighlightMid = isLight ? "rgba(255,92,77,0.05)" : "rgba(255,255,255,0.06)";
   const vertices = copy.vertices;
   const [activeIdx, setActiveIdx] = useState(0);
   const [paused, setPaused] = useState(false);
@@ -290,7 +290,7 @@ export function SectionSpeedQualityCost() {
               className="absolute inset-0 pointer-events-none"
               style={{
                 background:
-                  "radial-gradient(ellipse 70% 55% at 50% 42%, rgba(28,71,255,0.18) 0%, rgba(28,71,255,0.06) 35%, transparent 70%)",
+                  "radial-gradient(ellipse 70% 55% at 50% 42%, rgba(255,92,77,0.18) 0%, rgba(255,92,77,0.06) 35%, transparent 70%)",
                 filter: "blur(8px)",
               }}
             />
@@ -305,7 +305,7 @@ export function SectionSpeedQualityCost() {
                 transition={{ duration: 1.6, ease: "easeOut", delay: 0.1 }}
                 style={{
                   background:
-                    "radial-gradient(circle at center, rgba(96,165,250,0.45) 0%, rgba(28,71,255,0.18) 35%, transparent 65%)",
+                    "radial-gradient(circle at center, rgba(255,132,115,0.45) 0%, rgba(255,92,77,0.18) 35%, transparent 65%)",
                 }}
               />
             )}
@@ -315,7 +315,7 @@ export function SectionSpeedQualityCost() {
               <div className="inline-flex items-center gap-2 text-[12px] uppercase tracking-[0.18em] text-[var(--text-muted)] line-through decoration-[var(--text-faint)] decoration-1">
                 {copy.oldRule}
               </div>
-              <div className="mt-2 text-[13px] uppercase tracking-[0.18em] text-[var(--electric-blue)] font-bold">
+              <div className="mt-2 text-[13px] uppercase tracking-[0.18em] text-[var(--warm-coral)] font-bold">
                 {copy.sundaeRule}
               </div>
             </div>
@@ -338,7 +338,7 @@ export function SectionSpeedQualityCost() {
                   top: "70%",
                   height: "40%",
                   background:
-                    "radial-gradient(ellipse 50% 80% at 50% 0%, rgba(28,71,255,0.22) 0%, rgba(28,71,255,0.06) 40%, transparent 75%)",
+                    "radial-gradient(ellipse 50% 80% at 50% 0%, rgba(255,92,77,0.22) 0%, rgba(255,92,77,0.06) 40%, transparent 75%)",
                   filter: "blur(14px)",
                   transform: "translateZ(-30px)",
                 }}
@@ -353,17 +353,17 @@ export function SectionSpeedQualityCost() {
               <defs>
                 {/* Premium edge gradient — light-source at top-left for specular feel */}
                 <linearGradient id="triEdge" x1="0.15" y1="0.1" x2="0.85" y2="0.95">
-                  <stop offset="0%" stopColor="rgba(186,220,255,1)" />
-                  <stop offset="30%" stopColor="rgba(96,165,250,0.85)" />
-                  <stop offset="65%" stopColor="rgba(28,71,255,0.5)" />
-                  <stop offset="100%" stopColor="rgba(147,197,253,0.25)" />
+                  <stop offset="0%" stopColor="rgba(255,201,176,1)" />
+                  <stop offset="30%" stopColor="rgba(255,132,115,0.85)" />
+                  <stop offset="65%" stopColor="rgba(255,92,77,0.5)" />
+                  <stop offset="100%" stopColor="rgba(255,181,158,0.25)" />
                 </linearGradient>
                 {/* Multi-stop specular fill — gives the surface a "lit" 3D feel */}
                 <radialGradient id="triFill" cx="38%" cy="32%" r="75%">
-                  <stop offset="0%" stopColor="rgba(147,197,253,0.32)" />
-                  <stop offset="22%" stopColor="rgba(96,165,250,0.18)" />
-                  <stop offset="55%" stopColor="rgba(28,71,255,0.08)" />
-                  <stop offset="100%" stopColor="rgba(28,71,255,0)" />
+                  <stop offset="0%" stopColor="rgba(255,181,158,0.32)" />
+                  <stop offset="22%" stopColor="rgba(255,132,115,0.18)" />
+                  <stop offset="55%" stopColor="rgba(255,92,77,0.08)" />
+                  <stop offset="100%" stopColor="rgba(255,92,77,0)" />
                 </radialGradient>
                 {/* Top-vertex specular highlight — sharp, focused */}
                 <radialGradient id="triHighlight" cx="50%" cy="20%" r="42%">
@@ -387,7 +387,7 @@ export function SectionSpeedQualityCost() {
                 <filter id="triShadow" x="-30%" y="-30%" width="160%" height="160%">
                   <feGaussianBlur in="SourceAlpha" stdDeviation="10" />
                   <feOffset dx="0" dy="8" result="offsetBlur" />
-                  <feFlood floodColor="rgba(28,71,255,0.35)" />
+                  <feFlood floodColor="rgba(255,92,77,0.35)" />
                   <feComposite in2="offsetBlur" operator="in" />
                   <feMerge>
                     <feMergeNode />
@@ -456,7 +456,7 @@ export function SectionSpeedQualityCost() {
                       cy={trianglePoints[activeIdx].y}
                       r="20"
                       fill="none"
-                      stroke="#60A5FA"
+                      stroke="#FF8473"
                       strokeWidth="1.2"
                       initial={{ opacity: 0, scale: 1 }}
                       animate={{ opacity: [0, 0.55, 0], scale: [1, 3.2, 3.6] }}
@@ -475,7 +475,7 @@ export function SectionSpeedQualityCost() {
               {/* Tracer ball — position bound to motion value, perfect sync with activeIdx */}
               {useAnimated && (
                 <>
-                  <motion.circle r="13" fill="#60A5FA" opacity="0.45" filter="url(#tracerGlow)" cx={ballX} cy={ballY} />
+                  <motion.circle r="13" fill="#FF8473" opacity="0.45" filter="url(#tracerGlow)" cx={ballX} cy={ballY} />
                   <motion.circle r="8" fill={tracerBallFill} cx={ballX} cy={ballY} />
                 </>
               )}
@@ -522,7 +522,7 @@ export function SectionSpeedQualityCost() {
                       cx={p.x}
                       cy={p.y}
                       r={isActive ? 38 : 16}
-                      fill="#60A5FA"
+                      fill="#FF8473"
                       opacity={isActive ? 0.22 : 0.06}
                       filter="url(#vertexGlow)"
                       style={{ transition: "all 0.55s cubic-bezier(0.22, 1, 0.36, 1)" }}
@@ -533,7 +533,7 @@ export function SectionSpeedQualityCost() {
                       cy={p.y}
                       r={isActive ? 18 : 12}
                       fill="none"
-                      stroke="#60A5FA"
+                      stroke="#FF8473"
                       strokeWidth={isActive ? 1 : 0.8}
                       opacity={isActive ? 0.55 : 0.25}
                       style={{ transition: "all 0.55s cubic-bezier(0.22, 1, 0.36, 1)" }}
@@ -567,7 +567,7 @@ export function SectionSpeedQualityCost() {
                       fontSize="11"
                       fontWeight="600"
                       letterSpacing="0.32em"
-                      fill={isActive ? "#60A5FA" : "transparent"}
+                      fill={isActive ? "#FF8473" : "transparent"}
                       style={{ transition: "fill 0.4s ease-out" }}
                     >
                       0{i + 1}
@@ -588,7 +588,7 @@ export function SectionSpeedQualityCost() {
                   key={VERTEX_IDS[vi]}
                   className="rounded-xl border border-[var(--border-default)] bg-[var(--surface-subtle)] p-5"
                 >
-                  <div className="text-[11px] uppercase tracking-wider text-[var(--electric-blue)] font-bold mb-2">
+                  <div className="text-[11px] uppercase tracking-wider text-[var(--warm-coral)] font-bold mb-2">
                     {v.label}
                   </div>
                   <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">
@@ -599,7 +599,7 @@ export function SectionSpeedQualityCost() {
                     {v.chips.map((chip) => (
                       <span
                         key={chip}
-                        className="text-[11px] font-semibold px-2.5 py-1 rounded-full bg-[var(--electric-blue)]/15 text-[var(--electric-blue)] border border-[var(--electric-blue)]/25"
+                        className="text-[11px] font-semibold px-2.5 py-1 rounded-full bg-[var(--warm-coral)]/15 text-[var(--warm-coral)] border border-[var(--warm-coral)]/25"
                       >
                         {chip}
                       </span>
@@ -620,7 +620,7 @@ export function SectionSpeedQualityCost() {
                     exit={{ opacity: 0, y: -8 }}
                     transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
                   >
-                    <div className="text-[11px] uppercase tracking-wider text-[var(--electric-blue)] font-bold mb-3">
+                    <div className="text-[11px] uppercase tracking-wider text-[var(--warm-coral)] font-bold mb-3">
                       {vertices[activeIdx].label}
                     </div>
                     <h3 className="section-h3 mb-4">
@@ -646,7 +646,7 @@ export function SectionSpeedQualityCost() {
                   {vertices[activeIdx].chips.map((chip) => (
                     <span
                       key={chip}
-                      className="text-[12px] font-semibold px-3 py-1.5 rounded-full bg-[var(--electric-blue)]/15 text-[var(--electric-blue)] border border-[var(--electric-blue)]/25"
+                      className="text-[12px] font-semibold px-3 py-1.5 rounded-full bg-[var(--warm-coral)]/15 text-[var(--warm-coral)] border border-[var(--warm-coral)]/25"
                     >
                       {chip}
                     </span>

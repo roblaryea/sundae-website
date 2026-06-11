@@ -11,7 +11,6 @@ import { useCta } from '@/lib/cta';
 import { PRICING_URL } from '@/lib/links';
 import { REPORT_APP_URL, SIGNUP_URL } from '@/lib/urls';
 import { ThemeToggle } from './ui/ThemeToggle';
-import { useTheme } from './ui/ThemeProvider';
 import { useWebsiteI18n } from './i18n/LocaleProvider';
 import { LocaleSwitcher } from './i18n/LocaleSwitcher';
 import { localizeWebsiteHref } from '@/lib/i18n';
@@ -119,8 +118,8 @@ const Navbar = () => {
   const { locale, messages } = useWebsiteI18n();
   const nav = messages.navbar;
   const cta = useCta();
-  const { theme } = useTheme();
-  const logoSrc = theme === 'light' ? '/logos/sundae-wordmark.svg' : '/logos/sundae-wordmark-white.svg';
+  // Wordmark is CSS theme-swapped in the markup below (driven by the .light class,
+  // which is set before hydration) — no JS state, so no flash and no stale-src caching.
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
@@ -225,12 +224,27 @@ const Navbar = () => {
           {/* Logo - Left Aligned with Animation */}
           <Link href={localizeHref('/')} className="flex items-center group">
             <div className="relative">
+              {/* dark-mode wordmark (white letters) */}
               <Image
-                src={logoSrc}
+                src="/logos/sundae-wordmark-white.svg"
                 alt="Sundae – Decision Intelligence for Restaurants"
                 width={160}
                 height={46}
-                className={`transition-all duration-300 ${
+                className={`block [html.light_&]:hidden transition-all duration-300 ${
+                  isLogoHovered ? 'opacity-85' : 'opacity-100'
+                }`}
+                style={{ height: '46px', width: 'auto' }}
+                onMouseEnter={() => setIsLogoHovered(true)}
+                onMouseLeave={() => setIsLogoHovered(false)}
+                priority
+              />
+              {/* light-mode wordmark (warm ink letters) */}
+              <Image
+                src="/logos/sundae-wordmark.svg"
+                alt="Sundae – Decision Intelligence for Restaurants"
+                width={160}
+                height={46}
+                className={`hidden [html.light_&]:block transition-all duration-300 ${
                   isLogoHovered ? 'opacity-85' : 'opacity-100'
                 }`}
                 style={{ height: '46px', width: 'auto' }}
@@ -559,10 +573,19 @@ const Navbar = () => {
           {/* Drawer Header with Close Button */}
           <div className="flex items-center justify-between px-4 py-4 border-b border-[var(--border-default)] flex-shrink-0">
             <Image
-              src={logoSrc}
+              src="/logos/sundae-wordmark-white.svg"
               alt="Sundae"
               width={130}
               height={38}
+              className="block [html.light_&]:hidden"
+              style={{ height: '36px', width: 'auto' }}
+            />
+            <Image
+              src="/logos/sundae-wordmark.svg"
+              alt="Sundae"
+              width={130}
+              height={38}
+              className="hidden [html.light_&]:block"
               style={{ height: '36px', width: 'auto' }}
             />
             <button

@@ -1,27 +1,27 @@
 {
   "audiences": [
     {
-      "answer": "Performance Report gives you a ready-made weekly review with 6 tabs and AI insights. Pulse monitors every shift in real-time. Sundae Intelligence lets you ask any question in plain English. No spreadsheets, no waiting.",
-      "pain": "I have data in five different systems. I make most decisions on gut feel because pulling reports takes hours.",
+      "answer": "Sundae turns those scattered signals into a ranked decision loop: Pulse catches what is breaking during the shift, Insights explains why margin moved, and Sundae Intelligence answers in plain English with the recommended move and evidence behind it.",
+      "pain": "I have data in five different systems. I make most decisions on gut feel because pulling reports takes hours and the answer arrives after the shift is gone.",
       "persona": "Restaurant Owner / GM"
     },
     {
-      "answer": "Pulse Wallboard shows every outlet on one screen with auto-rotating TV mode. Portfolio Leaderboard ranks outlets by revenue, target %, labor %, with streak tracking. Exception Hub consolidates all 8 alert types across all locations. Benchmark shows how each outlet compares to peers.",
+      "answer": "Pulse shows every outlet on one screen, ranks what needs attention, routes the next move to the right owner, and lets Benchmark show whether an outlet is actually winning against peers.",
       "pain": "I manage 15 outlets and can't be everywhere. I only find out about problems in the weekly P&L.",
       "persona": "Multi-Unit Operator"
     },
     {
-      "answer": "Pulse AI Coach delivers shift-scoped coaching signals with confidence levels and talking points. Playbooks codify best-practice responses. Exception alerts catch what managers miss. Scorecard provides end-of-shift accountability.",
+      "answer": "Pulse AI Coach turns live shift signals into coaching prompts, Playbooks route the response, and Scorecard measures whether the manager recovered the shift.",
       "pain": "Our best managers recover slow shifts. Our worst managers watch them happen.",
       "persona": "Operations Manager"
     },
     {
-      "answer": "12 Insights modules deliver domain-specific analytics with Module Health Scores. Profit Intelligence combines labor + inventory for prime cost and break-even analysis. Revenue Assurance flags void, discount, and cash anomalies. Benchmark provides industry positioning with RevPASH percentile rankings.",
+      "answer": "Insights explains the prime-cost and revenue-assurance drivers behind the P&L, flags voids, discounts, food-cost variance, and labor waste early, and Benchmark shows whether the portfolio is improving against comparable peers.",
       "pain": "I spend 3 days assembling monthly reports from different systems to understand what happened.",
       "persona": "F&B CFO / Finance"
     },
     {
-      "answer": "Decision Intelligence platform — not a point solution. Spans 12 data domains across 6 intelligence layers with 17 Pulse sub-pages, 12 Insights modules, 7 Benchmark sections, 3 Watchtower sections. AI layer with 15 routes and conversational data access. Network-effect benchmarking. 179+ data models, 200+ services. No competitor plays in Decision Intelligence for restaurants.",
+      "answer": "Decision Intelligence platform — not a point solution. Spans 12 data domains across 6 intelligence layers with 17 Pulse sub-pages, 12 Insights modules, 7 Benchmark sections, 3 Watchtower sections. AI layer with 15 routes and conversational data access. Network-effect benchmarking. 458 data models, 420 services. No competitor plays in Decision Intelligence for restaurants.",
       "pain": "How is this different from Toast Analytics or Restaurant365?",
       "persona": "Investor / VC"
     },
@@ -31,7 +31,59 @@
       "persona": "Independent Restaurateur"
     }
   ],
-  "competitors": [],
+  "competitors": [
+    {
+      "gaps": [
+        "No real-time shift intelligence (Pulse)",
+        "No industry benchmarking (Benchmark)",
+        "No external/competitive intelligence (Watchtower)",
+        "No conversational data access (Sundae Intelligence)"
+      ],
+      "name": "Nory"
+    },
+    {
+      "gaps": [
+        "No real-time operations monitoring (Pulse)",
+        "No competitive intelligence (Watchtower)",
+        "No 12 deep analytics modules (Insights)",
+        "No NL-to-SQL conversational AI"
+      ],
+      "name": "Tenzo"
+    },
+    {
+      "gaps": [
+        "POS-first — no Decision Intelligence layer",
+        "No real-time ops (Pulse)",
+        "No benchmarking",
+        "No competitive intelligence"
+      ],
+      "name": "Foodics"
+    },
+    {
+      "gaps": [
+        "Inventory-only — no revenue intelligence",
+        "No real-time ops (Pulse)",
+        "No benchmarking",
+        "No competitive intelligence (Watchtower)"
+      ],
+      "name": "Supy"
+    },
+    {
+      "gaps": [
+        "Delivery/cloud kitchen focused only — no dine-in intelligence",
+        "No benchmarking",
+        "No competitive intelligence",
+        "No deep analytics"
+      ],
+      "name": "GrubTech"
+    },
+    {
+      "gaps": [
+        "Payment data source only, not a competitor"
+      ],
+      "name": "Qlub"
+    }
+  ],
   "cta": {
     "primary": "Book a Demo",
     "secondary": "Start Free Trial"
@@ -54,7 +106,7 @@
       "title": "Conversational AI"
     },
     {
-      "description": "$0 free tier to custom Enterprise, with 11 Core add-on modules, Watchtower packs, 6 Crew workforce SKUs, and Core/Crew bundles — operators buy what they need, expand as they grow",
+      "description": "$0 free tier to $349+ enterprise with 14 purchasable modules and 6 bundles — operators buy what they need, expand as they grow",
       "title": "Modular pricing"
     },
     {
@@ -62,7 +114,7 @@
       "title": "Multi-vertical architecture"
     },
     {
-      "description": "scheduling, time & attendance, HR operations, payroll readiness/statutory exports, Ask-HR helpdesk, and People Intelligence. Crew is sold as six workforce SKUs and turns shifts, hours, HR records, and pay-cycle evidence into signal feeding Labor Intelligence, Pulse, Watchtower, and Foresight — a loop a standalone HR/payroll vendor cannot close.",
+      "description": "scheduling, time & attendance, HR operations, product support, Ask-HR, People Intelligence, and a provider-neutral payroll readiness/statutory export engine with GCC country-pack workflows shipped; UK, EU, US, and Canada expansion scoped/on roadmap. Every shift, hour, HR record, and pay-cycle evidence point becomes signal feeding Labor Intelligence, Pulse, Watchtower, and Foresight — a loop a standalone HR/payroll vendor cannot close.",
       "title": "Operational substrate (Crew)"
     }
   ],
@@ -111,17 +163,27 @@
       "bullets": [],
       "name": "Insights",
       "tagline": "Twelve operational blind spots. Twelve intelligence modules. Each one pays for itself."
+    },
+    {
+      "bullets": [
+        "Predictive revenue and demand forecasting",
+        "Scenario modeling with what-if analysis",
+        "Cross-module cascade effects (labor, inventory, purchasing impacts)",
+        "Proactive recommendations based on predicted trends"
+      ],
+      "name": "Foresight",
+      "tagline": "Stop reacting to last week. Start preparing for next week."
     }
   ],
-  "generated_at": "2026-05-22T10:37:38.378Z",
+  "generated_at": "2026-06-09T07:53:48.698Z",
   "hero": {
     "bullets": [
-      "Ingests 12 operational data domains",
-      "6 intelligence layers: Performance Report, Pulse, Benchmark, Watchtower, Insights, Foresight",
-      "Conversational AI for plain-English data questions"
+      "Detects what matters before the P&L shows what went wrong",
+      "Recommends the move and routes it to the right operator",
+      "Measures the outcome so the next decision gets sharper"
     ],
-    "headline": "Sundae is A Decision Intelligence platform",
-    "subheadline": "Sundae is A Decision Intelligence platform that Connects POS, labor, inventory, delivery, and financial data into actionable intelligence with 12 analytics modules, real-time monitoring, and AI-powered insights"
+    "headline": "Sundae is The Decision Intelligence layer for restaurants",
+    "subheadline": "Sundae is The Decision Intelligence layer for restaurants that Connects operational data, detects what matters, recommends the move, routes it to the right operator, and measures the outcome"
   },
   "modules": [
     {
@@ -136,15 +198,14 @@
       "name": "Benchmark"
     },
     {
-      "blurb": "(Details pending)",
+      "blurb": "Predictive forecasting, scenario modeling, and cross-module cascading — from reactive to proactive intelligence.",
       "bullets": [
-        "Natural language query interface with three-panel layout",
-        "NL-to-SQL conversion and execution",
-        "Structured visual responses (KPI cards, charts, analysis cards, tables, HTML reports)",
-        "Voice input via Web Speech API",
-        "Conversation folders with pinning"
+        "Predictive revenue and demand forecasting",
+        "Scenario modeling with what-if analysis",
+        "Cross-module cascade effects (labor, inventory, purchasing impacts)",
+        "Proactive recommendations based on predicted trends"
       ],
-      "name": "Chat With Data"
+      "name": "Foresight"
     },
     {
       "blurb": "12 deep analytics modules + 6 cross-cutting views = 18 total Insights routes. Crew workforce signal folded into Labor Intelligence as Workforce Health + Payroll & Compliance sub-pages (not a 13th module).",
@@ -172,6 +233,17 @@
         "86'd items, critical low, prep shortage, velocity tracking"
       ],
       "name": "Pulse"
+    },
+    {
+      "blurb": "(Details pending)",
+      "bullets": [
+        "Natural language query interface with three-panel layout",
+        "NL-to-SQL conversion and execution (SELECT-only, 1000-row cap)",
+        "Structured visual responses (KPI cards, charts, analysis cards, tables, HTML reports)",
+        "Voice input via Web Speech API",
+        "Conversation folders with pinning"
+      ],
+      "name": "Sundae Intelligence"
     },
     {
       "blurb": "External market and competitive intelligence engine with 3 sections.",
@@ -221,44 +293,62 @@
   },
   "proof": {
     "bullets": [
-      "179+ data models in the platform",
-      "200+ backend services",
-      "100+ frontend pages",
+      "Crew turns schedules, punches, and pay cycles into labor truth for the decision loop.",
+      "Sundae Intelligence answers operator questions in plain English with the driver, recommendation, and evidence.",
+      "Watchtower turns competitors, events, weather, and reviews into weekly moves.",
+      "Insights explains why margin moved and what to do next.",
+      "Pulse catches the broken shift while there is still time to fix it.",
       "12 distinct data domains ingested",
-      "15 registered AI routes",
+      "209 integrations available across 12 data domains",
+      "57 POS connection options (native vendor adapters + direct-database connectors)",
       "10 registered AI chat modes",
       "18 Insights routes (12 deep analytics modules + 6 cross-cutting views) across 6 intelligence layers, plus Crew operational suite",
-      "6 @sundae/* SDK packages with VerticalConfig multi-vertical contract",
       "17 sub-pages in Pulse",
       "12 Insights deep analytics modules",
-      "Report Plus includes 3 AI seats",
-      "Crew is sold as six workforce SKUs: Crew Lite, Scheduling, Operations, Time & Attendance, Payroll, and People Intelligence, plus Operating and Complete bundles."
+      "Report Plus includes 3 AI seats"
+    ],
+    "investor_items": [
+      {
+        "claim": "458 data models in the platform",
+        "unit": "models",
+        "value": "458"
+      },
+      {
+        "claim": "420 backend services",
+        "unit": "services",
+        "value": "420"
+      },
+      {
+        "claim": "534 frontend pages",
+        "unit": "pages",
+        "value": "534"
+      },
+      {
+        "claim": "15 registered AI routes",
+        "unit": "routes",
+        "value": "15"
+      },
+      {
+        "claim": "6 @sundae/* SDK packages with VerticalConfig multi-vertical contract",
+        "unit": "packages",
+        "value": "6"
+      }
     ],
     "items": [
-      {
-        "claim": "179+ data models in the platform",
-        "unit": "models",
-        "value": "179+"
-      },
-      {
-        "claim": "200+ backend services",
-        "unit": "services",
-        "value": "200+"
-      },
-      {
-        "claim": "100+ frontend pages",
-        "unit": "pages",
-        "value": "100+"
-      },
       {
         "claim": "12 distinct data domains ingested",
         "unit": "domains",
         "value": "12"
       },
       {
-        "claim": "15 registered AI routes",
-        "unit": "routes",
-        "value": "15"
+        "claim": "209 integrations available across 12 data domains",
+        "unit": "integrations",
+        "value": "209"
+      },
+      {
+        "claim": "57 POS connection options (native vendor adapters + direct-database connectors)",
+        "unit": "POS systems",
+        "value": "57"
       },
       {
         "claim": "10 registered AI chat modes",
@@ -269,11 +359,6 @@
         "claim": "18 Insights routes (12 deep analytics modules + 6 cross-cutting views) across 6 intelligence layers, plus Crew operational suite",
         "unit": "Insights routes",
         "value": "18"
-      },
-      {
-        "claim": "6 @sundae/* SDK packages with VerticalConfig multi-vertical contract",
-        "unit": "packages",
-        "value": "6"
       },
       {
         "claim": "17 sub-pages in Pulse",
@@ -289,12 +374,8 @@
         "claim": "Report Plus includes 3 AI seats",
         "unit": "AI seats",
         "value": "3"
-      },
-      {
-        "claim": "Crew is sold as six workforce SKUs: Crew Lite, Scheduling, Operations, Time & Attendance, Payroll, and People Intelligence, plus Operating and Complete bundles.",
-        "unit": "Crew SKUs",
-        "value": "6"
       }
-    ]
+    ],
+    "operator_translation_rule": "Website/customer copy translates internal proof into operator outcomes. Raw architecture proof stays in investor/internal materials."
   }
 }

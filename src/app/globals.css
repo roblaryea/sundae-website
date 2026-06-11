@@ -31,7 +31,7 @@ html.light {
 body {
   background: var(--navy-deep);
   color: var(--text-primary);
-  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  font-family: var(--font-hanken), system-ui, sans-serif;
   font-size: 16px;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
@@ -51,6 +51,7 @@ body {
 .bg-top-glow { background: var(--bg-top-glow); }
 .bg-center-glow { background: var(--bg-center-glow); }
 .bg-grad-deep { background: var(--grad-deep-blue); }
+.bg-grad-warm { background: var(--grad-warm); }
 .theme-hero-surface {
   background:
     radial-gradient(ellipse 75% 55% at 50% 20%, rgba(28, 71, 255, 0.08) 0%, transparent 60%),
@@ -67,6 +68,13 @@ html.light .bg-grid-texture {
 /* Light mode: grad-deep becomes a soft blue gradient */
 html.light .bg-grad-deep {
   background: linear-gradient(180deg, #EEF2FF 0%, #FFFFFF 100%);
+}
+
+/* Light mode: warm closer becomes a soft, warm wash */
+html.light .bg-grad-warm {
+  background:
+    radial-gradient(ellipse 85% 60% at 50% 0%, rgba(255,92,77,0.08) 0%, transparent 62%),
+    linear-gradient(180deg, #FFF6EE 0%, #FFFFFF 64%);
 }
 
 html.light .theme-hero-surface {

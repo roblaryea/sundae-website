@@ -23,7 +23,7 @@ type LocalizedCopy = {
 
 const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
   en: {
-    eyebrow: "FROM REPORTING LAG TO OPERATING SPEED",
+    eyebrow: "FROM REPORTING LAG & GUT FEEL — TO OPERATING SPEED & INFORMED DECISIONS",
     headlinePre: "Reports tell you what happened.",
     headlinePost: "tells you what to do next.",
     oldWayLabel: "The old way",
@@ -135,7 +135,7 @@ export function SectionOldWaySundaeWay() {
             className="section-h2 text-balance flex flex-wrap items-center justify-center gap-x-2 sm:gap-x-2.5 gap-y-1.5"
           >
             <span>{copy.headlinePre}</span>
-            <SundaeWordmark className="h-[0.8em] w-auto inline-block align-middle text-[var(--text-primary)]" />
+            <SundaeWordmark className="h-[0.72em] w-auto inline-block align-baseline translate-y-[0.02em] text-[var(--text-primary)]" />
             <span>{copy.headlinePost}</span>
           </h2>
         </div>
@@ -175,9 +175,9 @@ export function SectionOldWaySundaeWay() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-80px" }}
             transition={{ duration: 0.6, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-            className="rounded-2xl border border-[var(--electric-blue)]/30 bg-gradient-to-br from-[var(--electric-blue)]/[0.10] to-[var(--electric-blue)]/[0.02] p-6 sm:p-8 shadow-[0_0_40px_rgba(28,71,255,0.12)]"
+            className="rounded-2xl border border-[var(--warm-coral)]/30 bg-gradient-to-br from-[var(--warm-coral)]/[0.10] to-[var(--warm-coral)]/[0.02] p-6 sm:p-8 shadow-[0_0_40px_rgba(255,92,77,0.12)]"
           >
-            <div className="text-[11px] uppercase tracking-wider text-[var(--electric-blue)] font-bold mb-4">
+            <div className="text-[11px] uppercase tracking-wider text-[var(--warm-coral)] font-bold mb-4">
               {copy.sundaeWayLabel}
             </div>
             <ul className="space-y-2.5">
@@ -194,7 +194,7 @@ export function SectionOldWaySundaeWay() {
                 </motion.li>
               ))}
             </ul>
-            <div className="mt-6 pt-4 border-t border-[var(--electric-blue)]/20 text-sm text-[var(--text-secondary)]">
+            <div className="mt-6 pt-4 border-t border-[var(--warm-coral)]/20 text-sm text-[var(--text-secondary)]">
               {copy.sundaeWayCaption}
             </div>
           </motion.div>

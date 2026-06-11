@@ -115,7 +115,7 @@ export function SectionWhatYouRetire() {
 
   return (
     <section aria-labelledby="retire-headline" className="relative py-20 px-4 sm:px-6 lg:px-8">
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(28,71,255,0.04),transparent_60%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,92,77,0.04),transparent_60%)]" />
 
       <div className="relative z-10 max-w-7xl mx-auto">
         <FadeUp className="text-center max-w-3xl mx-auto mb-14">
@@ -153,7 +153,7 @@ export function SectionWhatYouRetire() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
-              className="w-12 h-12 rounded-full bg-gradient-to-br from-[#1C47FF] to-[#3B82F6] flex items-center justify-center shadow-[0_0_30px_rgba(28,71,255,0.4)]"
+              className="w-12 h-12 rounded-full bg-gradient-to-br from-[#FF5C4D] to-[#E9A24A] flex items-center justify-center shadow-[0_0_30px_rgba(255,92,77,0.4)]"
             >
               <svg className="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
                 <path d="M5 12h14" />
@@ -167,15 +167,15 @@ export function SectionWhatYouRetire() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-80px" }}
             transition={{ duration: 0.7, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
-            className="rounded-2xl border border-[var(--electric-blue)]/30 bg-gradient-to-br from-[var(--electric-blue)]/[0.10] to-[var(--electric-blue)]/[0.02] p-7 sm:p-8 shadow-[0_0_40px_rgba(28,71,255,0.10)]"
+            className="rounded-2xl border border-[var(--warm-coral)]/30 bg-gradient-to-br from-[var(--warm-coral)]/[0.10] to-[var(--warm-coral)]/[0.02] p-7 sm:p-8 shadow-[0_0_40px_rgba(255,92,77,0.10)]"
           >
-            <div className="text-[11px] uppercase tracking-wider text-[var(--electric-blue)] font-bold mb-5">
+            <div className="text-[11px] uppercase tracking-wider text-[var(--warm-coral)] font-bold mb-5">
               {copy.withSundaeLabel}
             </div>
             <ul className="space-y-3.5">
               {copy.withSundae.map((item) => (
                 <li key={item} className="flex items-start gap-3">
-                  <svg className="w-4 h-4 text-[#60A5FA] flex-shrink-0 mt-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                  <svg className="w-4 h-4 text-[#FF8473] flex-shrink-0 mt-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
                     <path d="M20 6 9 17l-5-5" />
                   </svg>
                   <span className="text-[15px] text-[var(--text-primary)] font-medium leading-relaxed">{item}</span>

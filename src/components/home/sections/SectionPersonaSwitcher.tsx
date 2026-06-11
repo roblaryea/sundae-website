@@ -64,7 +64,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedPersonaSwitcher>
     ctaPrefix: "See the",
     ctaSuffix: "demo →",
     personas: [
-      { shortLabel: "COO", pluralLabel: "Operations Leaders", pain: "You can't be in every restaurant at once.", painCopy: "By the time the weekly recap lands, the bad shift is over and the margin is gone.", outcome: "Live visibility into every shift.", outcomeCopy: "Pulse shows you which location needs help right now — pacing, labor, leakage, all updated through the shift." },
+      { shortLabel: "COO", pluralLabel: "Operations Leaders", pain: "You can't be in every restaurant at once.", painCopy: "By the time the weekly recap lands, the bad shift is over and the margin is gone.", outcome: "Live visibility into every shift.", outcomeCopy: "Whether you're the GM on the floor or the COO over fifty outlets, Pulse shows which location needs help right now — pacing, labor, leakage, all updated through the shift." },
       { shortLabel: "CFO", pluralLabel: "Finance & FP&A Leads", pain: "Three days to close the books is three days too many.", painCopy: "Variance shows up in last month's P&L. By then the costs have already been booked.", outcome: "Margin variance, the day it happens.", outcomeCopy: "Shift-level labor cost, food cost variance, void rates — connected to the events that caused them. Close faster, explain more." },
       { shortLabel: "CEO", pluralLabel: "CEOs and Owners", pain: "Your worst location is invisible until Thursday's recap.", painCopy: "By the time you see it, three more days of margin have leaked.", outcome: "Portfolio truth, every morning.", outcomeCopy: "Daily AI briefings across every brand and location. Where you're winning, where you're leaking, what the market did to you, what to do today." },
       { shortLabel: "Marketing", pluralLabel: "Marketing Leads", pain: "By the time you measure the campaign, the budget is already spent.", painCopy: "ROI lands a week late. Next month's plan goes in before this month's data does.", outcome: "Campaign ROI, day-by-day.", outcomeCopy: "Tie campaign spend to covers, average check, and net margin — within 24 hours of activation. Re-allocate while the campaign is still running." },
@@ -149,9 +149,9 @@ export function SectionPersonaSwitcher() {
             className="section-h2 text-balance flex flex-wrap items-center justify-center gap-x-2.5 sm:gap-x-3.5 gap-y-1.5"
           >
             <span>{copy.headlineSee}</span>
-            <SundaeWordmark className="h-[0.78em] w-auto inline-block align-middle text-[var(--text-primary)]" />
+            <SundaeWordmark className="h-[0.72em] w-auto inline-block align-baseline translate-y-[0.02em] text-[var(--text-primary)]" />
             <span>{copy.headlineFor}</span>
-            <span className="text-[var(--electric-blue)]">
+            <span className="text-[var(--warm-coral)]">
               {active.pluralLabel}.
             </span>
           </h2>
@@ -178,10 +178,10 @@ export function SectionPersonaSwitcher() {
                 className={`
                   px-4 sm:px-5 py-2.5 rounded-full text-sm font-semibold
                   whitespace-nowrap transition-all duration-200
-                  focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--electric-blue)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--navy-deep)]
+                  focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--warm-coral)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--navy-deep)]
                   ${
                     isActive
-                      ? "bg-[var(--electric-blue)] text-white shadow-[0_0_20px_rgba(28,71,255,0.4)]"
+                      ? "bg-[var(--warm-coral)] text-white shadow-[0_0_20px_rgba(255,92,77,0.4)]"
                       : "bg-[var(--surface-subtle)] border border-[var(--border-default)] text-[var(--text-supporting)] hover:bg-[var(--surface-hover)] hover:text-[var(--text-primary)] hover:border-[var(--border-emphasis)]"
                   }
                 `}
@@ -217,7 +217,7 @@ export function SectionPersonaSwitcher() {
               <p className="body-base mb-6">{active.painCopy}</p>
 
               <div className="pt-5 border-t border-[var(--border-default)]">
-                <div className="text-[11px] uppercase tracking-wider text-[var(--electric-blue)] font-bold mb-2">
+                <div className="text-[11px] uppercase tracking-wider text-[var(--warm-coral)] font-bold mb-2">
                   {copy.withSundaeLabel}
                 </div>
                 <h4 className="text-lg sm:text-xl font-semibold text-[var(--text-primary)] leading-tight mb-2">
@@ -232,7 +232,7 @@ export function SectionPersonaSwitcher() {
                   {activeStructure.intelLayers.map((layer) => (
                     <span
                       key={layer}
-                      className="text-[11px] font-semibold px-2.5 py-1 rounded-md bg-[var(--electric-blue)]/15 text-[var(--electric-blue)] border border-[var(--electric-blue)]/25"
+                      className="text-[11px] font-semibold px-2.5 py-1 rounded-md bg-[var(--warm-coral)]/15 text-[var(--warm-coral)] border border-[var(--warm-coral)]/25"
                     >
                       {layer}
                     </span>

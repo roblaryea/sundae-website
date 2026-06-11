@@ -219,7 +219,7 @@ export function Section4DScene() {
 
         {/* Compact scenario hook */}
         <div className="text-center max-w-3xl mx-auto mb-5 sm:mb-6">
-          <div className="text-[12px] sm:text-[13px] uppercase tracking-[0.18em] text-[var(--electric-blue)] font-bold mb-3">
+          <div className="text-[12px] sm:text-[13px] uppercase tracking-[0.18em] text-[var(--warm-coral)] font-bold mb-3">
             {copy.scenarioTime}
           </div>
           <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[var(--text-primary)] text-balance leading-tight">
@@ -252,9 +252,9 @@ export function Section4DScene() {
                     setActiveIdx(i);
                     setPaused(true);
                   }}
-                  className={`px-4 py-1.5 rounded-full font-semibold transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--electric-blue)] ${
+                  className={`px-4 py-1.5 rounded-full font-semibold transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--warm-coral)] ${
                     isActive
-                      ? "bg-[var(--electric-blue)] text-white shadow-[0_0_18px_rgba(28,71,255,0.45)]"
+                      ? "bg-[var(--warm-coral)] text-white shadow-[0_0_18px_rgba(255,92,77,0.45)]"
                       : "bg-[var(--surface-subtle)] text-[var(--text-supporting)] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:text-[var(--text-primary)]"
                   }`}
                   aria-label={d.shortLabel}
@@ -270,7 +270,7 @@ export function Section4DScene() {
           </div>
 
           {/* Visual indicator: arrow connecting pills to the panel/visual below */}
-          <div className="flex justify-center -mt-2 mb-4 text-[var(--electric-blue)]/60" aria-hidden>
+          <div className="flex justify-center -mt-2 mb-4 text-[var(--warm-coral)]/60" aria-hidden>
             <svg width="18" height="14" viewBox="0 0 18 14" fill="none">
               <path d="M9 14L1 4h16L9 14z" fill="currentColor" />
             </svg>
@@ -322,7 +322,7 @@ export function Section4DScene() {
  */
 function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header: string; labels: LocalizedFourD["visualLabels"] }) {
   return (
-    <div className="rounded-2xl border border-[var(--border-default)] bg-[var(--navy)] overflow-hidden shadow-[0_30px_80px_-20px_rgba(0,0,0,0.5),0_0_60px_rgba(28,71,255,0.12)]">
+    <div className="rounded-2xl border border-[var(--border-default)] bg-[var(--navy)] overflow-hidden shadow-[0_30px_80px_-20px_rgba(0,0,0,0.5),0_0_60px_rgba(255,92,77,0.12)]">
       <div className="flex items-center gap-2 px-4 py-2.5 bg-black/40 border-b border-[var(--border-default)]">
         <span className="w-[10px] h-[10px] rounded-full bg-[#FF5F57]" />
         <span className="w-[10px] h-[10px] rounded-full bg-[#FFBD2E]" />
@@ -331,7 +331,9 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
         <span className="ml-auto text-[9px] uppercase tracking-[0.14em] font-bold text-[var(--brand-yellow)]/80">{labels.illustrative}</span>
       </div>
 
-      <div className="p-5 space-y-4">
+      {/* Fixed-height "screen": panels build up 1→4 INSIDE this container, so the
+          dashboard grows in place and never shifts the sections below it. */}
+      <div className="p-5 space-y-4 min-h-[440px] lg:min-h-[460px]">
         <div className="rounded-lg bg-[var(--surface-subtle)] border border-[var(--border-default)] p-4">
           <div className="flex items-center justify-between mb-3">
             <div className="text-[11px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
@@ -431,11 +433,11 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
               transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
               className="rounded-lg p-4 overflow-hidden"
               style={{
-                background: "rgba(28,71,255,0.08)",
-                borderLeft: "3px solid #1C47FF",
+                background: "rgba(255,92,77,0.08)",
+                borderLeft: "3px solid #FF5C4D",
               }}
             >
-              <div className="text-[10px] uppercase tracking-wider font-bold text-[var(--electric-blue)] mb-2">
+              <div className="text-[10px] uppercase tracking-wider font-bold text-[var(--warm-coral)] mb-2">
                 {labels.coach}
               </div>
               <p className="text-[12px] text-[var(--text-primary)] leading-relaxed">

@@ -61,7 +61,7 @@ export function SectionEditorialBand({
                   NOT the global `.eyebrow` class, which forces electric-blue text
                   that disappears over photography. */}
               <div className="mb-3.5 flex items-center gap-2.5">
-                <span className="h-px w-7 bg-[var(--electric-blue)]" />
+                <span className="h-px w-7 bg-[var(--warm-coral)]" />
                 <span className="text-[11px] sm:text-xs font-semibold uppercase tracking-[0.18em] text-white/90 [text-shadow:0_1px_8px_rgba(0,0,0,0.5)]">
                   {eyebrow}
                 </span>

@@ -332,7 +332,7 @@ export const websiteMessages = {
         { name: 'About', href: '/about' },
         { name: 'Careers', href: '/careers' },
         { name: 'Contact', href: '/contact' },
-        { name: 'Security', href: '/security' },
+        { name: 'Security & Compliance', href: '/security' },
         { name: 'Integrations', href: '/integrations' },
       ],
       extraResources: [
@@ -362,7 +362,7 @@ export const websiteMessages = {
         description: 'Every restaurant group we work with faces the same blind spots.',
         kpis: [
           { value: '12+', label: 'Data sources', supporting: 'Disconnected across your operation', color: 'red' },
-          { value: '72hrs', label: 'To close books', supporting: 'While margin leaks compound daily', color: 'amber' },
+          { value: '72hrs+', label: 'To close books', supporting: 'And it often takes longer than three days', color: 'amber' },
           { value: '0%', label: 'Market context', supporting: 'No peer benchmarks for your KPIs', color: 'red' },
           { value: '$50K+', label: 'Annual leakage', supporting: 'From voids, comps, and overrides', color: 'amber' },
         ],
@@ -483,7 +483,7 @@ export const websiteMessages = {
           ],
           footerTerms: 'Terms',
           footerPrivacy: 'Privacy',
-          footerSecurity: 'Security',
+          footerSecurity: 'Security & Compliance',
           footerSupport: 'Support',
           emailRequired: 'Email is required',
           emailInvalid: 'Enter a valid email address',
