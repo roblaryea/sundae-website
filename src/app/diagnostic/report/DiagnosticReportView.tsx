@@ -3,7 +3,7 @@
 /**
  * App-styled, shareable diagnostic report. Renders as a self-contained
  * full-viewport surface (fixed inset-0) so it reads like an in-product Sundae
- * screen — independent of the marketing site's chrome/theme — with a frozen
+ * screen - independent of the marketing site's chrome/theme - with a frozen
  * section rail, an internally-scrolling report canvas, working light/dark, and
  * collapsible sections that the rail can open + scroll to.
  */
@@ -270,7 +270,7 @@ export function DiagnosticReportView({
             </Section>
           )}
 
-          {/* Footer CTA — mobile only (the frozen rail carries it on desktop, so it never duplicates) */}
+          {/* Footer CTA - mobile only (the frozen rail carries it on desktop, so it never duplicates) */}
           <div className={`lg:hidden rounded-2xl border p-5 text-center ${dark ? "border-white/10 bg-white/[0.02]" : "border-gray-200 bg-white"}`}>
             <p className={`text-sm ${body}`}>{copy.share.mobileCta}</p>
             <a href="https://www.sundae.io/contact" className="inline-flex items-center gap-1.5 mt-3 px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-sm font-bold transition-colors">

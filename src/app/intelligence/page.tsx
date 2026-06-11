@@ -350,7 +350,7 @@ export default function ChatWithDataPage() {
             <ThemedShot
               dark="/images/product/2026-fresh/intelligence-dark.png"
               light="/images/product/2026-fresh/intelligence.png"
-              alt="Sundae Intelligence — ask your data anything in plain English and get structured visual answers"
+              alt="Sundae Intelligence - ask your data anything in plain English and get structured visual answers"
               width={1600}
               height={1000}
               className="w-full h-auto"
@@ -562,7 +562,7 @@ export default function ChatWithDataPage() {
         </div>
       </section>
 
-      {/* Product gallery — Intelligence surfaces in detail */}
+      {/* Product gallery - Intelligence surfaces in detail */}
       <SectionProductGallery
         productFilter="/intelligence"
         hideFilter

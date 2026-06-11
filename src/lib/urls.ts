@@ -6,11 +6,11 @@
  * works across local dev, preview deploys, and production.
  *
  * Required env vars (set in Vercel / .env.local):
- *   NEXT_PUBLIC_APP_URL        – Sundae web-app root  (default: https://app.sundaetech.ai)
- *   NEXT_PUBLIC_SITE_URL       – Marketing site root   (default: https://sundae.io)
- *   NEXT_PUBLIC_PRICING_URL    – Pricing micro-site    (default: https://pricing.sundae.io)
- *   NEXT_PUBLIC_REPORT_APP_URL – Report app root       (default: https://report.sundae.io)
- *   NEXT_PUBLIC_CORE_APP_URL   – Core app root         (default: https://core.sundae.io)
+ *   NEXT_PUBLIC_APP_URL        - Sundae web-app root  (default: https://app.sundaetech.ai)
+ *   NEXT_PUBLIC_SITE_URL       - Marketing site root   (default: https://sundae.io)
+ *   NEXT_PUBLIC_PRICING_URL    - Pricing micro-site    (default: https://pricing.sundae.io)
+ *   NEXT_PUBLIC_REPORT_APP_URL - Report app root       (default: https://report.sundae.io)
+ *   NEXT_PUBLIC_CORE_APP_URL   - Core app root         (default: https://core.sundae.io)
  */
 
 /** Strip trailing slashes so consumers can append paths safely. */
@@ -50,10 +50,10 @@ export const CORE_APP_URL = clean(
 /** Demo booking URL (if external) */
 export const DEMO_URL = '/demo'; // Internal for now
 
-/** Sign in URL — derived from APP_URL */
+/** Sign in URL - derived from APP_URL */
 export const SIGNIN_URL = `${APP_URL}/sign-in`;
 
-/** Sign up URL — derived from APP_URL */
+/** Sign up URL - derived from APP_URL */
 export const SIGNUP_URL = `${APP_URL}/sign-up`;
 
 /**

@@ -1,7 +1,7 @@
 "use client";
 
 /**
- * Upsell Opportunity Index — depth-grade replacement for the shallow
+ * Upsell Opportunity Index - depth-grade replacement for the shallow
  * menu-margin calculator. Quantifies the revenue Sundae's Guest Experience
  * + Revenue Intelligence modules would surface by analyzing attach-rate
  * gaps across menu categories.
@@ -46,8 +46,8 @@ const DEFAULT_CATEGORIES: CategoryInput[] = [
 ];
 
 // Realistic close-rate on the gap to healthy attach (you don't close the
-// full gap with training + nudges — research and operator data put the
-// achievable lift at 25–45% of the identified gap in the first 6 months).
+// full gap with training + nudges - research and operator data put the
+// achievable lift at 25-45% of the identified gap in the first 6 months).
 const CLOSE_RATE_LOW = 0.25;
 const CLOSE_RATE_HIGH = 0.45;
 const OPERATING_DAYS = 350;
@@ -69,7 +69,7 @@ export default function UpsellOpportunityIndexPage() {
       const gapToHealthy = Math.max(0, cat.healthyMin - current);
       const incrementalAttaches = covers * (gapToHealthy / 100);
       const dailyFullClose = incrementalAttaches * cat.avgTicketImpact;
-      // Realistic recovery range — only 25-45% of the gap closes typically
+      // Realistic recovery range - only 25-45% of the gap closes typically
       const annualLow = dailyFullClose * CLOSE_RATE_LOW * OPERATING_DAYS * outlets;
       const annualHigh = dailyFullClose * CLOSE_RATE_HIGH * OPERATING_DAYS * outlets;
       const annualMid = (annualLow + annualHigh) / 2;
@@ -113,8 +113,8 @@ export default function UpsellOpportunityIndexPage() {
           </h1>
           <p className="text-base sm:text-lg text-[var(--text-supporting)] max-w-2xl">
             Most operators feel they're under-attaching desserts, drinks, or add-ons
-            — but can't put a number on it. This estimator scores your menu attach
-            health 0–100 and quantifies the revenue gap to industry-healthy
+            - but can't put a number on it. This estimator scores your menu attach
+            health 0-100 and quantifies the revenue gap to industry-healthy
             attach rates.
           </p>
         </div>
@@ -140,7 +140,7 @@ export default function UpsellOpportunityIndexPage() {
                   <select value={currency} onChange={(e) => setCurrency(e.target.value)} className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--electric-blue)]">
                     {CURRENCY_REGIONS.map((region) => (
                       <optgroup key={region} label={region}>
-                        {CURRENCIES.filter((c) => c.region === region).map((c) => <option key={c.code} value={c.code}>{c.code} — {c.symbol}</option>)}
+                        {CURRENCIES.filter((c) => c.region === region).map((c) => <option key={c.code} value={c.code}>{c.code} - {c.symbol}</option>)}
                       </optgroup>
                     ))}
                   </select>
@@ -156,7 +156,7 @@ export default function UpsellOpportunityIndexPage() {
                   <div key={cat.id} className="grid grid-cols-3 gap-3 items-center">
                     <div>
                       <div className="text-sm font-semibold text-[var(--text-primary)]">{cat.label}</div>
-                      <div className="text-[10px] text-[var(--text-muted)]">Healthy: {cat.healthyMin}–{cat.healthyMax}%</div>
+                      <div className="text-[10px] text-[var(--text-muted)]">Healthy: {cat.healthyMin}-{cat.healthyMax}%</div>
                     </div>
                     <div className="col-span-2">
                       <div className="flex items-center gap-2">
@@ -221,7 +221,7 @@ export default function UpsellOpportunityIndexPage() {
                     {analysis.outlets > 1 ? <>across {analysis.outlets} outlets</> : <>per outlet</>} · {OPERATING_DAYS} operating days/yr
                   </div>
                   <p className="text-[10px] text-[var(--text-muted)] italic mt-2 leading-snug">
-                    Assumes {Math.round(CLOSE_RATE_LOW * 100)}–{Math.round(CLOSE_RATE_HIGH * 100)}% of the identified attach-gap closes in the first 6 months with training + nudges.
+                    Assumes {Math.round(CLOSE_RATE_LOW * 100)}-{Math.round(CLOSE_RATE_HIGH * 100)}% of the identified attach-gap closes in the first 6 months with training + nudges.
                   </p>
                 </div>
 
@@ -231,7 +231,7 @@ export default function UpsellOpportunityIndexPage() {
                     <div className="flex items-center gap-2 mb-3">
                       <SundaeIcon name="performance" size="sm" className="text-[var(--electric-blue)]" />
                       <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-[var(--text-muted)]">
-                        What Sundae would do — top 3 priorities
+                        What Sundae would do - top 3 priorities
                       </p>
                     </div>
                     <ol className="space-y-3">
@@ -243,7 +243,7 @@ export default function UpsellOpportunityIndexPage() {
                           <div className="flex-1 min-w-0">
                             <div className="text-sm font-semibold text-[var(--text-primary)]">{r.label}</div>
                             <div className="text-[11px] text-[var(--text-muted)] leading-snug">
-                              Lift attach from <span className="text-[var(--text-secondary)] font-semibold">{r.current.toFixed(0)}%</span> → <span className="text-emerald-300 font-semibold">{r.healthyMin}%</span> · recover <span className="text-emerald-300 font-semibold">{fmt(r.annualLow)}–{fmt(r.annualHigh)}/yr</span>
+                              Lift attach from <span className="text-[var(--text-secondary)] font-semibold">{r.current.toFixed(0)}%</span> → <span className="text-emerald-300 font-semibold">{r.healthyMin}%</span> · recover <span className="text-emerald-300 font-semibold">{fmt(r.annualLow)}-{fmt(r.annualHigh)}/yr</span>
                             </div>
                           </div>
                         </li>
@@ -267,7 +267,7 @@ export default function UpsellOpportunityIndexPage() {
             <strong className="text-[var(--text-secondary)]">Methodology (conservative defaults):</strong>{" "}
             Index = average of each category&rsquo;s (current / healthy-floor) ratio, capped at 1.
             Gap-close revenue = covers × (healthy-floor − current) ÷ 100 × avg ticket impact ×
-            close-rate range ({Math.round(CLOSE_RATE_LOW * 100)}–{Math.round(CLOSE_RATE_HIGH * 100)}% — what training + nudges actually move) ×
+            close-rate range ({Math.round(CLOSE_RATE_LOW * 100)}-{Math.round(CLOSE_RATE_HIGH * 100)}% - what training + nudges actually move) ×
             {OPERATING_DAYS} operating days/yr. Output is a range, not a single optimistic figure.
             Healthy attach ranges are full-service / fast-casual industry medians; Sundae Guest CRM +
             Revenue Intelligence calibrate against your specific menu mix, daypart, and tenure cohort

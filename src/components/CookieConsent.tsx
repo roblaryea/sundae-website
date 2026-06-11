@@ -97,7 +97,7 @@ export function CookieConsent() {
   const copy = cookieConsentCopy[locale as keyof typeof cookieConsentCopy] ?? getGeneratedLocalCopy(cookieConsentCopy, generatedLocalCopy.cookieConsentCopy, locale) ?? cookieConsentCopy.en;
   // Read consent via useSyncExternalStore: getServerSnapshot returns null on the
   // server AND the first client render, so the SSR/hydration HTML always agree
-  // (no banner) — eliminating the hydration mismatch (React #418) that otherwise
+  // (no banner) - eliminating the hydration mismatch (React #418) that otherwise
   // forced the whole tree to regenerate client-side. After hydration it reads the
   // real localStorage value, and re-reads when accept/decline fires our event.
   const consent = useSyncExternalStore(subscribeConsent, getConsentStatus, () => null);

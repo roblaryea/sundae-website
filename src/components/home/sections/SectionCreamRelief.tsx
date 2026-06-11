@@ -1,19 +1,19 @@
 'use client';
 
 import Image from 'next/image';
-import { Fragment, type ReactNode } from 'react';
-import { motion } from 'framer-motion';
+import { Fragment, useEffect, useState, type ReactNode } from 'react';
+import { motion, animate, useMotionValue, useMotionValueEvent } from 'framer-motion';
 import { FadeUp } from '@/components/ui/PageAnimations';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { SundaeWordmark } from './SundaeWordmark';
 import { creamReliefCopy, type UnifyVisualCopy } from './creamReliefCopy';
 
 /**
- * Cream "relief" zone — a deliberately light, warm break in the dark scroll.
+ * Cream "relief" zone - a deliberately light, warm break in the dark scroll.
  *
  * The volume-system "low" beat: after dense, dark product sections the eye gets a
  * breath, a single editorial belief, and three macro "considered detail" frames
- * (the Mews lesson — impact builds in the details). Always cream (theme-independent)
+ * (the Mews lesson - impact builds in the details). Always cream (theme-independent)
  * so it reads as an intentional warm zone that breaks the monotony in both modes.
  *
  * Variant-driven so the homepage can place more than one beat:
@@ -21,7 +21,7 @@ import { creamReliefCopy, type UnifyVisualCopy } from './creamReliefCopy';
  *  - 'truth' (lower-half): the "one source of truth" belief + the animated UnifyVisual.
  *
  * All copy is resolved internally per locale (creamReliefCopy) with an English
- * fallback — no copy is passed via props.
+ * fallback - no copy is passed via props.
  */
 
 interface TrioItem {
@@ -161,7 +161,7 @@ export function SectionCreamRelief({ variant, unify = false }: CreamReliefProps)
 /**
  * "One source of truth" visual: scattered systems converge into one Sundae
  * decision surface that the whole team (every role) trusts. Cream-friendly,
- * warm-accented — signifies unification + team trust without a stock photo.
+ * warm-accented - signifies unification + team trust without a stock photo.
  */
 function UnifyVisual({ copy }: { copy: UnifyVisualCopy }) {
   const inputs = [
@@ -178,10 +178,21 @@ function UnifyVisual({ copy }: { copy: UnifyVisualCopy }) {
     copy.roles.owner,
     copy.roles.regional,
   ];
-  const kpis: [string, string, string][] = [
-    [copy.kpis.revenue, '$128k', '+6%'],
-    [copy.kpis.labor, '28.4%', 'on target'],
-    [copy.kpis.margin, '21.2%', '+2.1%'],
+  const [vals, setVals] = useState({ rev: 128, lab: 28.4, mar: 21.2 });
+  useEffect(() => {
+    const id = setInterval(() => {
+      setVals({
+        rev: 122 + Math.round(Math.random() * 14),
+        lab: Math.round((27.4 + Math.random() * 2) * 10) / 10,
+        mar: Math.round((20.4 + Math.random() * 1.8) * 10) / 10,
+      });
+    }, 2400);
+    return () => clearInterval(id);
+  }, []);
+  const kpiConfig: { label: string; value: number; fmt: (n: number) => string; delta: string }[] = [
+    { label: copy.kpis.revenue, value: vals.rev, fmt: (n) => '$' + Math.round(n) + 'k', delta: '+6%' },
+    { label: copy.kpis.labor, value: vals.lab, fmt: (n) => n.toFixed(1) + '%', delta: 'on target' },
+    { label: copy.kpis.margin, value: vals.mar, fmt: (n) => n.toFixed(1) + '%', delta: '+2.1%' },
   ];
   const xs = [8, 29, 50, 71, 92];
   return (
@@ -206,7 +217,7 @@ function UnifyVisual({ copy }: { copy: UnifyVisualCopy }) {
         ))}
       </div>
 
-      {/* animated convergence — signals stream into one surface */}
+      {/* animated convergence - signals stream into one surface */}
       <svg viewBox="0 0 100 46" preserveAspectRatio="none" aria-hidden className="mx-auto mt-1 h-14 w-full max-w-[300px]">
         {xs.map((x, i) => (
           <line key={'l' + i} x1={x} y1="2" x2="50" y2="44" stroke="rgba(255,92,77,0.28)" strokeWidth="0.5" />
@@ -229,7 +240,7 @@ function UnifyVisual({ copy }: { copy: UnifyVisualCopy }) {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: '-60px' }}
         transition={{ duration: 0.5 }}
-        className="mx-auto max-w-sm overflow-hidden rounded-2xl border bg-white shadow-[0_30px_60px_-28px_rgba(26,20,15,0.45)]"
+        className="mx-auto max-w-md overflow-hidden rounded-2xl border bg-white shadow-[0_30px_60px_-28px_rgba(26,20,15,0.45)]"
         style={{ borderColor: 'rgba(255,92,77,0.3)' }}
       >
         <div className="flex items-center gap-1.5 border-b px-3.5 py-2.5" style={{ borderColor: 'rgba(26,20,15,0.07)', background: 'rgba(255,248,242,0.9)' }}>
@@ -249,7 +260,7 @@ function UnifyVisual({ copy }: { copy: UnifyVisualCopy }) {
             <span className="text-[11px] font-semibold uppercase tracking-[0.14em]" style={{ color: 'var(--ink-faint, rgba(26,20,15,0.42))' }}>{copy.decisionSurface}</span>
             <span className="text-[10px] font-semibold" style={{ color: 'var(--warm-coral)' }}>{copy.allOutlets}</span>
           </div>
-          <svg viewBox="0 0 200 44" preserveAspectRatio="none" className="mb-3 h-11 w-full" aria-hidden>
+          <svg viewBox="0 0 200 44" preserveAspectRatio="none" className="mb-3 h-16 w-full" aria-hidden>
             <defs>
               <linearGradient id="uvspark" x1="0" y1="0" x2="0" y2="1">
                 <stop offset="0%" stopColor="rgba(255,92,77,0.22)" />
@@ -264,12 +275,14 @@ function UnifyVisual({ copy }: { copy: UnifyVisualCopy }) {
             />
             <motion.circle cx="200" cy="8" r="3" fill="#FF5C4D" animate={{ opacity: [1, 0.4, 1] }} transition={{ duration: 1.6, repeat: Infinity }} />
           </svg>
-          <div className="grid grid-cols-3 gap-2 text-center">
-            {kpis.map(([k, v, d]) => (
-              <div key={k} className="rounded-lg py-2" style={{ background: 'rgba(233,162,74,0.1)' }}>
-                <div className="text-[9px] uppercase tracking-wider" style={{ color: 'var(--ink-faint, rgba(26,20,15,0.42))' }}>{k}</div>
-                <div className="font-display text-sm font-semibold" style={{ color: 'var(--ink)' }}>{v}</div>
-                <div className="text-[9px] font-semibold" style={{ color: 'var(--warm-cherry)' }}>{d}</div>
+          <div className="grid grid-cols-3 gap-2.5 text-center">
+            {kpiConfig.map(({ label, value, fmt, delta }) => (
+              <div key={label} className="rounded-xl py-3" style={{ background: 'rgba(233,162,74,0.1)' }}>
+                <div className="text-[10px] uppercase tracking-wider" style={{ color: 'var(--ink-faint, rgba(26,20,15,0.42))' }}>{label}</div>
+                <div className="font-display text-xl font-semibold tabular-nums" style={{ color: 'var(--ink)' }}>
+                  <LiveNumber value={value} format={fmt} />
+                </div>
+                <div className="text-[10px] font-semibold" style={{ color: 'var(--warm-cherry)' }}>{delta}</div>
               </div>
             ))}
           </div>
@@ -300,4 +313,16 @@ function UnifyVisual({ copy }: { copy: UnifyVisualCopy }) {
       </div>
     </div>
   );
+}
+
+/** A number that smoothly animates to its target whenever it changes (live ticker). */
+function LiveNumber({ value, format }: { value: number; format: (n: number) => string }) {
+  const mv = useMotionValue(value);
+  const [display, setDisplay] = useState(() => format(value));
+  useMotionValueEvent(mv, 'change', (v) => setDisplay(format(v)));
+  useEffect(() => {
+    const controls = animate(mv, value, { duration: 0.9, ease: 'easeOut' });
+    return () => controls.stop();
+  }, [value, mv]);
+  return <>{display}</>;
 }

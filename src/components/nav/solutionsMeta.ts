@@ -1,5 +1,5 @@
 /**
- * Solutions navigation metadata — icons + value-prop descriptions per
+ * Solutions navigation metadata - icons + value-prop descriptions per
  * role/segment, keyed by href so it composes with the existing i18n names
  * (`nav.solutionsRoles` / `nav.solutionsSegments`) without forcing translation
  * parity for the descriptions.

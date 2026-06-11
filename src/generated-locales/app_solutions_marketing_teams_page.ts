@@ -6,7 +6,7 @@ export const generatedLocalCopy = {
       "badge": "Pour les prospects marketing",
       "titleLine1": "Réaffectez les dépenses.",
       "titleLine2": "Avant la clôture du budget.",
-      "description": "ROI de la campagne lié aux couvertures et à la marge nette dans les 24 heures. Mix de chaînes, attribution et que faire ensuite – pas un récapitulatif mensuel.",
+      "description": "ROI de la campagne lié aux couvertures et à la marge nette dans les 24 heures. Mix de chaînes, attribution et que faire ensuite - pas un récapitulatif mensuel.",
       "primaryCta": "Réservez une visite marketing",
       "secondaryCta": "Voir la démo marketing",
       "problemsEyebrow": "OÙ LE BUDGET FUITE",
@@ -57,7 +57,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Signal de marché dans le brief",
-          "description": "Promotions des concurrents, événements locaux, météo – le tout dans la matinée afin que le plan de campagne reflète le marché, pas seulement le calendrier.",
+          "description": "Promotions des concurrents, événements locaux, météo - le tout dans la matinée afin que le plan de campagne reflète le marché, pas seulement le calendrier.",
           "product": "Watchtower",
           "icon": "watchtower"
         }
@@ -182,7 +182,7 @@ export const generatedLocalCopy = {
       "badge": "Für Marketing-Leads",
       "titleLine1": "Ordnen Sie die Ausgaben neu zu.",
       "titleLine2": "Bevor der Haushalt endet.",
-      "description": "Der Kampagnen-ROI ist an Deckungen und Nettomarge innerhalb von 24 Stunden gebunden. Kanalmix, Zuordnung und was als nächstes zu tun ist – keine monatliche Zusammenfassung.",
+      "description": "Der Kampagnen-ROI ist an Deckungen und Nettomarge innerhalb von 24 Stunden gebunden. Kanalmix, Zuordnung und was als nächstes zu tun ist - keine monatliche Zusammenfassung.",
       "primaryCta": "Buchen Sie einen Marketing-Rundgang",
       "secondaryCta": "Siehe Marketing-Demo",
       "problemsEyebrow": "Wo das Budget ausläuft",
@@ -201,12 +201,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Der Kanalmix wurde nach Instinkt entschieden",
-          "description": "Loyalität, bezahlte soziale Netzwerke, Suche, E-Mail – der Mix der letzten Woche wird standardmäßig fortgesetzt, nicht durch Analyse.",
+          "description": "Loyalität, bezahlte soziale Netzwerke, Suche, E-Mail - der Mix der letzten Woche wird standardmäßig fortgesetzt, nicht durch Analyse.",
           "icon": "performance"
         },
         {
           "title": "Lokales Marktsignal ignoriert",
-          "description": "Preise der Konkurrenz, Wetter, Veranstaltungen – nichts davon taucht im Markenbrief auf.",
+          "description": "Preise der Konkurrenz, Wetter, Veranstaltungen - nichts davon taucht im Markenbrief auf.",
           "icon": "watchtower"
         }
       ],
@@ -215,13 +215,13 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Zuordnung zur Nettomarge, nicht nur zur Deckung",
-          "description": "Jede Kampagne hängt von den zugeordneten Umschlägen, dem durchschnittlichen Scheck und der tatsächlich erzielten Marge dieser Umschläge ab. Geben Sie pro erworbenem Dollar Marge aus – nicht pro Klick.",
+          "description": "Jede Kampagne hängt von den zugeordneten Umschlägen, dem durchschnittlichen Scheck und der tatsächlich erzielten Marge dieser Umschläge ab. Geben Sie pro erworbenem Dollar Marge aus - nicht pro Klick.",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
           "title": "Kanalmix, den Sie live neu zuordnen können",
-          "description": "Treue, bezahlt, Suche, E-Mail – jeweils mit Live-ROAS, zugeordneten Abdeckungen und Kosten pro Abdeckung. Verschieben Sie das Budget, während die Kampagne noch läuft.",
+          "description": "Treue, bezahlt, Suche, E-Mail - jeweils mit Live-ROAS, zugeordneten Abdeckungen und Kosten pro Abdeckung. Verschieben Sie das Budget, während die Kampagne noch läuft.",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
@@ -233,7 +233,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Marktsignal im Brief",
-          "description": "Werbeaktionen der Konkurrenz, lokale Veranstaltungen, Wetter – alles im Vormittagsbriefing, damit der Kampagnenplan den Markt und nicht nur den Kalender widerspiegelt.",
+          "description": "Werbeaktionen der Konkurrenz, lokale Veranstaltungen, Wetter - alles im Vormittagsbriefing, damit der Kampagnenplan den Markt und nicht nur den Kalender widerspiegelt.",
           "product": "Watchtower",
           "icon": "watchtower"
         }
@@ -243,7 +243,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Budget innerhalb der Kampagne neu zuweisen",
-          "description": "Verschieben Sie die Ausgaben vor Monatsende aus dem leistungsschwachen Kanal – und nicht erst danach.",
+          "description": "Verschieben Sie die Ausgaben vor Monatsende aus dem leistungsschwachen Kanal - und nicht erst danach.",
           "icon": "speed"
         },
         {
@@ -253,12 +253,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Stapeln Sie Kanäle, die zusammenpassen",
-          "description": "Cross-Intelligence zeigt, welche Kanalkombinationen sich gegenseitig vervielfachen – und nicht nur, welche einzeln funktionieren.",
+          "description": "Cross-Intelligence zeigt, welche Kanalkombinationen sich gegenseitig vervielfachen - und nicht nur, welche einzeln funktionieren.",
           "icon": "performance"
         },
         {
           "title": "Markenbriefe basieren auf Marktsignalen",
-          "description": "Bei der Erstellung von Plänen wird berücksichtigt, was Wettbewerber und der lokale Markt tun – und nicht nur die Ausgaben des letzten Monats.",
+          "description": "Bei der Erstellung von Plänen wird berücksichtigt, was Wettbewerber und der lokale Markt tun - und nicht nur die Ausgaben des letzten Monats.",
           "icon": "support"
         }
       ],
@@ -358,7 +358,7 @@ export const generatedLocalCopy = {
       "badge": "Para leads de marketing",
       "titleLine1": "Realoque os gastos.",
       "titleLine2": "Antes que o orçamento feche.",
-      "description": "ROI da campanha vinculado a coberturas e margem líquida em 24 horas. Mix de canais, atribuição e o que fazer a seguir – não uma recapitulação mensal.",
+      "description": "ROI da campanha vinculado a coberturas e margem líquida em 24 horas. Mix de canais, atribuição e o que fazer a seguir - não uma recapitulação mensal.",
       "primaryCta": "Agende um guia de marketing",
       "secondaryCta": "Veja a demonstração de marketing",
       "problemsEyebrow": "ONDE O ORÇAMENTO VAGA",
@@ -377,12 +377,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Mix de canais decidido por instinto",
-          "description": "Fidelidade, redes sociais pagas, busca, e-mail – o mix da semana passada continua por padrão, não por análise.",
+          "description": "Fidelidade, redes sociais pagas, busca, e-mail - o mix da semana passada continua por padrão, não por análise.",
           "icon": "performance"
         },
         {
           "title": "Sinal do mercado local ignorado",
-          "description": "Preços do concorrente, clima, eventos – nada disso aparece no briefing da marca.",
+          "description": "Preços do concorrente, clima, eventos - nada disso aparece no briefing da marca.",
           "icon": "watchtower"
         }
       ],
@@ -391,13 +391,13 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Atribuição à margem líquida, não apenas às coberturas",
-          "description": "Cada campanha está vinculada às coberturas atribuídas, ao cheque médio e à margem que essas coberturas realmente ganharam. Gaste por dólar de margem adquirido – não por clique.",
+          "description": "Cada campanha está vinculada às coberturas atribuídas, ao cheque médio e à margem que essas coberturas realmente ganharam. Gaste por dólar de margem adquirido - não por clique.",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
           "title": "Mix de canais que você pode realocar ao vivo",
-          "description": "Fidelidade, pago, pesquisa, e-mail — cada um com ROAS ativo, coberturas atribuídas e custo por cobertura. Mova o orçamento enquanto a campanha ainda está em execução.",
+          "description": "Fidelidade, pago, pesquisa, e-mail - cada um com ROAS ativo, coberturas atribuídas e custo por cobertura. Mova o orçamento enquanto a campanha ainda está em execução.",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
@@ -409,7 +409,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Sinal de mercado no briefing",
-          "description": "Promoções dos concorrentes, eventos locais, previsão do tempo – tudo no resumo matinal para que o plano da campanha reflita o mercado, não apenas o calendário.",
+          "description": "Promoções dos concorrentes, eventos locais, previsão do tempo - tudo no resumo matinal para que o plano da campanha reflita o mercado, não apenas o calendário.",
           "product": "Watchtower",
           "icon": "watchtower"
         }
@@ -429,12 +429,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Empilhar canais que compõem",
-          "description": "Cross-Intelligence mostra quais combinações de canais se multiplicam – e não apenas quais funcionam sozinhas.",
+          "description": "Cross-Intelligence mostra quais combinações de canais se multiplicam - e não apenas quais funcionam sozinhas.",
           "icon": "performance"
         },
         {
           "title": "Resumos da marca baseados em sinais de mercado",
-          "description": "Os planos são elaborados sabendo o que os concorrentes e o mercado local estão fazendo – e não apenas os gastos do mês passado.",
+          "description": "Os planos são elaborados sabendo o que os concorrentes e o mercado local estão fazendo - e não apenas os gastos do mês passado.",
           "icon": "support"
         }
       ],
@@ -446,7 +446,7 @@ export const generatedLocalCopy = {
       "badge": "Voor marketingleads",
       "titleLine1": "Verdeel de uitgaven opnieuw.",
       "titleLine2": "Voordat de begroting sluit.",
-      "description": "Campagne-ROI gekoppeld aan covers en nettomarge binnen 24 uur. Kanaalmix, attributie en wat je vervolgens moet doen – geen maandelijkse samenvatting.",
+      "description": "Campagne-ROI gekoppeld aan covers en nettomarge binnen 24 uur. Kanaalmix, attributie en wat je vervolgens moet doen - geen maandelijkse samenvatting.",
       "primaryCta": "Boek een Marketing Walk-through",
       "secondaryCta": "Zie Marketingdemo",
       "problemsEyebrow": "WAAR DE BEGROTING LEKT",
@@ -479,13 +479,13 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Toerekening aan de nettomarge, niet alleen aan de dekkingen",
-          "description": "Elke campagne houdt verband met toegekende covers, gemiddelde cheques en de marge die deze covers daadwerkelijk hebben verdiend. Besteed per verworven dollar aan marge – niet per klik.",
+          "description": "Elke campagne houdt verband met toegekende covers, gemiddelde cheques en de marge die deze covers daadwerkelijk hebben verdiend. Besteed per verworven dollar aan marge - niet per klik.",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
           "title": "Kanaalmix die u live opnieuw kunt toewijzen",
-          "description": "Loyaliteit, betaald, zoeken, e-mail – elk met live ROAS, toegekende covers en kosten per dekking. Verplaats het budget terwijl de campagne nog loopt.",
+          "description": "Loyaliteit, betaald, zoeken, e-mail - elk met live ROAS, toegekende covers en kosten per dekking. Verplaats het budget terwijl de campagne nog loopt.",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
@@ -517,12 +517,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Stapel kanalen die verbinding maken",
-          "description": "Cross-Intelligence laat zien welke kanaalcombinaties elkaar vermenigvuldigen – en niet alleen welke op zichzelf werken.",
+          "description": "Cross-Intelligence laat zien welke kanaalcombinaties elkaar vermenigvuldigen - en niet alleen welke op zichzelf werken.",
           "icon": "performance"
         },
         {
           "title": "Merkinstructies gebaseerd op marktsignalen",
-          "description": "Plannen die zijn ontwikkeld op basis van wat concurrenten en de lokale markt doen – en niet alleen de uitgaven van de afgelopen maand.",
+          "description": "Plannen die zijn ontwikkeld op basis van wat concurrenten en de lokale markt doen - en niet alleen de uitgaven van de afgelopen maand.",
           "icon": "support"
         }
       ],
@@ -534,7 +534,7 @@ export const generatedLocalCopy = {
       "badge": "مارکیٹنگ لیڈز کے لیے",
       "titleLine1": "خرچ کو دوبارہ مختص کریں۔",
       "titleLine2": "بجٹ بند ہونے سے پہلے۔",
-      "description": "مہم کا ROI 24 گھنٹوں کے اندر کور اور خالص مارجن سے منسلک ہے۔ چینل مکس، انتساب، اور آگے کیا کرنا ہے — ماہانہ ریکاپ نہیں۔",
+      "description": "مہم کا ROI 24 گھنٹوں کے اندر کور اور خالص مارجن سے منسلک ہے۔ چینل مکس، انتساب، اور آگے کیا کرنا ہے - ماہانہ ریکاپ نہیں۔",
       "primaryCta": "مارکیٹنگ واک تھرو بک کریں۔",
       "secondaryCta": "مارکیٹنگ ڈیمو دیکھیں",
       "problemsEyebrow": "جہاں بجٹ لیک ہوتا ہے۔",
@@ -553,7 +553,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "چینل مکس نے جبلت پر فیصلہ کیا۔",
-          "description": "وفاداری، بامعاوضہ سماجی، تلاش، ای میل — پچھلے ہفتے کا مرکب بذریعہ ڈیفالٹ جاری ہے، تجزیہ کے ذریعے نہیں۔",
+          "description": "وفاداری، بامعاوضہ سماجی، تلاش، ای میل - پچھلے ہفتے کا مرکب بذریعہ ڈیفالٹ جاری ہے، تجزیہ کے ذریعے نہیں۔",
           "icon": "performance"
         },
         {
@@ -573,7 +573,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "چینل مکس آپ دوبارہ لائیو ایلوکیٹ کر سکتے ہیں۔",
-          "description": "وفاداری، ادائیگی، تلاش، ای میل — ہر ایک لائیو ROAS، منسوب کور، اور لاگت فی کور کے ساتھ۔ جب مہم چل رہی ہو بجٹ کو منتقل کریں۔",
+          "description": "وفاداری، ادائیگی، تلاش، ای میل - ہر ایک لائیو ROAS، منسوب کور، اور لاگت فی کور کے ساتھ۔ جب مہم چل رہی ہو بجٹ کو منتقل کریں۔",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
@@ -595,7 +595,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "مہم میں بجٹ کو دوبارہ مختص کریں۔",
-          "description": "مہینہ بند ہونے سے پہلے کم کارکردگی دکھانے والے چینل کو ختم کر دیں — بعد میں نہیں۔",
+          "description": "مہینہ بند ہونے سے پہلے کم کارکردگی دکھانے والے چینل کو ختم کر دیں - بعد میں نہیں۔",
           "icon": "speed"
         },
         {
@@ -605,12 +605,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "اسٹیک چینلز جو مرکب کرتے ہیں۔",
-          "description": "Cross-Intelligence سے پتہ چلتا ہے کہ کون سے چینل کے مجموعے ایک دوسرے کو ضرب دیتے ہیں — نہ صرف یہ کہ کون اکیلے کام کرتا ہے۔",
+          "description": "Cross-Intelligence سے پتہ چلتا ہے کہ کون سے چینل کے مجموعے ایک دوسرے کو ضرب دیتے ہیں - نہ صرف یہ کہ کون اکیلے کام کرتا ہے۔",
           "icon": "performance"
         },
         {
           "title": "برانڈ بریف مارکیٹ سگنل میں گراؤنڈ ہیں۔",
-          "description": "یہ جانتے ہوئے کہ حریف اور مقامی مارکیٹ کیا کر رہے ہیں منصوبے بنائے گئے — نہ صرف پچھلے مہینے کا خرچ۔",
+          "description": "یہ جانتے ہوئے کہ حریف اور مقامی مارکیٹ کیا کر رہے ہیں منصوبے بنائے گئے - نہ صرف پچھلے مہینے کا خرچ۔",
           "icon": "support"
         }
       ],
@@ -798,7 +798,7 @@ export const generatedLocalCopy = {
       "badge": "对于营销线索",
       "titleLine1": "重新分配支出。",
       "titleLine2": "在预算结束之前。",
-      "description": "活动投资回报率与 24 小时内的封面和净利润相关。渠道组合、归因以及下一步该做什么——而不是每月回顾。",
+      "description": "活动投资回报率与 24 小时内的封面和净利润相关。渠道组合、归因以及下一步该做什么--而不是每月回顾。",
       "primaryCta": "预约营销演练",
       "secondaryCta": "查看营销演示",
       "problemsEyebrow": "预算泄漏的地方",
@@ -817,12 +817,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "渠道组合取决于直觉",
-          "description": "忠诚度、付费社交、搜索、电子邮件——默认情况下，而不是分析，上周的组合仍在继续。",
+          "description": "忠诚度、付费社交、搜索、电子邮件--默认情况下，而不是分析，上周的组合仍在继续。",
           "icon": "performance"
         },
         {
           "title": "当地市场信号被忽视",
-          "description": "竞争对手的定价、天气、活动——这些都没有出现在品牌简介中。",
+          "description": "竞争对手的定价、天气、活动--这些都没有出现在品牌简介中。",
           "icon": "watchtower"
         }
       ],
@@ -831,13 +831,13 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "归因于净利润，而不仅仅是涵盖",
-          "description": "每个活动都与归因封面、平均支票以及这些封面实际赚取的利润有关。花费每一美元的保证金——而不是每次点击。",
+          "description": "每个活动都与归因封面、平均支票以及这些封面实际赚取的利润有关。花费每一美元的保证金--而不是每次点击。",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
           "title": "您可以重新分配直播频道组合",
-          "description": "忠诚度、付费、搜索、电子邮件——每项都具有实时 ROAS、归因封面和每次封面成本。在广告系列仍在运行时调整预算。",
+          "description": "忠诚度、付费、搜索、电子邮件--每项都具有实时 ROAS、归因封面和每次封面成本。在广告系列仍在运行时调整预算。",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
@@ -849,7 +849,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "简报中的市场信号",
-          "description": "竞争对手的促销、当地活动、天气——所有这些都在早上进行简要介绍，因此活动计划反映了市场，而不仅仅是日历。",
+          "description": "竞争对手的促销、当地活动、天气--所有这些都在早上进行简要介绍，因此活动计划反映了市场，而不仅仅是日历。",
           "product": "Watchtower",
           "icon": "watchtower"
         }
@@ -869,7 +869,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "复合的堆栈通道",
-          "description": "交叉智能显示哪些渠道组合可以相互叠加——而不仅仅是哪些单独发挥作用。 (Cross-Intelligence)",
+          "description": "交叉智能显示哪些渠道组合可以相互叠加--而不仅仅是哪些单独发挥作用。 (Cross-Intelligence)",
           "icon": "performance"
         },
         {
@@ -905,7 +905,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Kanal karışımı içgüdüsel olarak belirlendi",
-          "description": "Sadakat, ücretli sosyal medya, arama, e-posta — geçen haftanın karışımı analizle değil, varsayılan olarak devam ediyor.",
+          "description": "Sadakat, ücretli sosyal medya, arama, e-posta - geçen haftanın karışımı analizle değil, varsayılan olarak devam ediyor.",
           "icon": "performance"
         },
         {
@@ -925,7 +925,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Canlı olarak yeniden tahsis edebileceğiniz kanal karışımı",
-          "description": "Sadakat, ücretli, arama, e-posta — her biri canlı ROAS'a, atfedilen teminatlara ve teminat başına maliyete sahiptir. Kampanya devam ederken bütçeyi taşıyın.",
+          "description": "Sadakat, ücretli, arama, e-posta - her biri canlı ROAS'a, atfedilen teminatlara ve teminat başına maliyete sahiptir. Kampanya devam ederken bütçeyi taşıyın.",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
@@ -974,7 +974,7 @@ export const generatedLocalCopy = {
       "badge": "Dla leadów marketingowych",
       "titleLine1": "Zmień alokację wydatków.",
       "titleLine2": "Przed zamknięciem budżetu.",
-      "description": "ROI kampanii powiązane z pokryciem i marżą netto w ciągu 24 godzin. Zestaw kanałów, atrybucja i dalsze działania — a nie miesięczne podsumowanie.",
+      "description": "ROI kampanii powiązane z pokryciem i marżą netto w ciągu 24 godzin. Zestaw kanałów, atrybucja i dalsze działania - a nie miesięczne podsumowanie.",
       "primaryCta": "Zarezerwuj spacer marketingowy",
       "secondaryCta": "Zobacz Demo marketingowe",
       "problemsEyebrow": "GDZIE WYCIEKA BUDŻET",
@@ -993,12 +993,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "O miksie kanałów zdecydował instynkt",
-          "description": "Lojalność, płatne media społecznościowe, wyszukiwanie, e-mail — mieszanka z zeszłego tygodnia jest kontynuowana domyślnie, a nie na podstawie analizy.",
+          "description": "Lojalność, płatne media społecznościowe, wyszukiwanie, e-mail - mieszanka z zeszłego tygodnia jest kontynuowana domyślnie, a nie na podstawie analizy.",
           "icon": "performance"
         },
         {
           "title": "Zignorowano sygnał lokalnego rynku",
-          "description": "Ceny konkurencji, pogoda, wydarzenia – nic z tego nie pojawia się w briefie dotyczącym marki.",
+          "description": "Ceny konkurencji, pogoda, wydarzenia - nic z tego nie pojawia się w briefie dotyczącym marki.",
           "icon": "watchtower"
         }
       ],
@@ -1007,13 +1007,13 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Przypisanie do marży netto, a nie tylko pokrycia",
-          "description": "Każda kampania jest powiązana z przypisanymi okładkami, średnim czekiem i marżą faktycznie zarobioną przez te okładki. Wydatki na pozyskanego dolara marży – nie na kliknięcie.",
+          "description": "Każda kampania jest powiązana z przypisanymi okładkami, średnim czekiem i marżą faktycznie zarobioną przez te okładki. Wydatki na pozyskanego dolara marży - nie na kliknięcie.",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
           "title": "Miks kanałów, który możesz zmieniać na żywo",
-          "description": "Lojalność, płatne, wyszukiwanie, poczta e-mail — każda z rzeczywistym ROAS, przypisanymi osłonami i kosztem osłony. Zmień budżet, gdy kampania jest nadal aktywna.",
+          "description": "Lojalność, płatne, wyszukiwanie, poczta e-mail - każda z rzeczywistym ROAS, przypisanymi osłonami i kosztem osłony. Zmień budżet, gdy kampania jest nadal aktywna.",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
@@ -1025,7 +1025,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Sygnał rynkowy w briefie",
-          "description": "Promocje konkurencji, wydarzenia lokalne, pogoda – wszystko w porannym skrócie, aby plan kampanii odzwierciedlał rynek, a nie tylko kalendarz.",
+          "description": "Promocje konkurencji, wydarzenia lokalne, pogoda - wszystko w porannym skrócie, aby plan kampanii odzwierciedlał rynek, a nie tylko kalendarz.",
           "product": "Watchtower",
           "icon": "watchtower"
         }
@@ -1050,7 +1050,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Briefy marki oparte na sygnale rynkowym",
-          "description": "Plany budowano, wiedząc, co robią konkurenci i lokalny rynek — a nie tylko wydatki z ostatniego miesiąca.",
+          "description": "Plany budowano, wiedząc, co robią konkurenci i lokalny rynek - a nie tylko wydatki z ostatniego miesiąca.",
           "icon": "support"
         }
       ],
@@ -1081,7 +1081,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "본능에 따라 결정되는 채널 믹스",
-          "description": "충성도, 유료 소셜, 검색, 이메일 — 지난주의 혼합은 분석이 아닌 기본적으로 계속됩니다.",
+          "description": "충성도, 유료 소셜, 검색, 이메일 - 지난주의 혼합은 분석이 아닌 기본적으로 계속됩니다.",
           "icon": "performance"
         },
         {
@@ -1101,7 +1101,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "실시간으로 재할당할 수 있는 채널 믹스",
-          "description": "충성도, 유료, 검색, 이메일 — 각각 실시간 ROAS, 기여 보장, 보장당 비용이 포함됩니다. 캠페인이 진행되는 동안 예산을 이동하세요.",
+          "description": "충성도, 유료, 검색, 이메일 - 각각 실시간 ROAS, 기여 보장, 보장당 비용이 포함됩니다. 캠페인이 진행되는 동안 예산을 이동하세요.",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
@@ -1169,7 +1169,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "チャンネルミックスは直感で決める",
-          "description": "ロイヤルティ、有料ソーシャル、検索、電子メール — 先週の組み合わせは、分析ではなくデフォルトで継続しています。",
+          "description": "ロイヤルティ、有料ソーシャル、検索、電子メール - 先週の組み合わせは、分析ではなくデフォルトで継続しています。",
           "icon": "performance"
         },
         {
@@ -1238,7 +1238,7 @@ export const generatedLocalCopy = {
       "badge": "Untuk Pemimpin Pemasaran",
       "titleLine1": "Alokasikan kembali pembelanjaan.",
       "titleLine2": "Sebelum anggaran ditutup.",
-      "description": "ROI kampanye terkait dengan sampul dan margin bersih dalam waktu 24 jam. Campuran saluran, atribusi, dan tindakan selanjutnya — bukan rekap bulanan.",
+      "description": "ROI kampanye terkait dengan sampul dan margin bersih dalam waktu 24 jam. Campuran saluran, atribusi, dan tindakan selanjutnya - bukan rekap bulanan.",
       "primaryCta": "Pesan Panduan Pemasaran",
       "secondaryCta": "Lihat Demo Pemasaran",
       "problemsEyebrow": "DIMANA ANGGARANNYA KEBOCORAN",
@@ -1257,12 +1257,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Pencampuran saluran ditentukan berdasarkan insting",
-          "description": "Loyalitas, sosial berbayar, pencarian, email — campuran minggu lalu berlanjut secara default, bukan berdasarkan analisis.",
+          "description": "Loyalitas, sosial berbayar, pencarian, email - campuran minggu lalu berlanjut secara default, bukan berdasarkan analisis.",
           "icon": "performance"
         },
         {
           "title": "Sinyal pasar lokal diabaikan",
-          "description": "Harga pesaing, cuaca, acara — tidak ada satupun yang muncul dalam ringkasan merek.",
+          "description": "Harga pesaing, cuaca, acara - tidak ada satupun yang muncul dalam ringkasan merek.",
           "icon": "watchtower"
         }
       ],
@@ -1271,13 +1271,13 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Atribusi pada margin bersih, bukan sekedar cakupan",
-          "description": "Setiap kampanye terkait dengan sampul yang diatribusikan, cek rata-rata, dan margin yang sebenarnya diperoleh dari sampul tersebut. Belanjakan per dolar margin yang diperoleh — bukan per klik.",
+          "description": "Setiap kampanye terkait dengan sampul yang diatribusikan, cek rata-rata, dan margin yang sebenarnya diperoleh dari sampul tersebut. Belanjakan per dolar margin yang diperoleh - bukan per klik.",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
           "title": "Campuran saluran yang dapat Anda alokasikan ulang secara langsung",
-          "description": "Loyalitas, berbayar, penelusuran, email — masing-masing dengan ROAS langsung, sampul yang diatribusikan, dan biaya per sampul. Pindahkan anggaran saat kampanye masih berjalan.",
+          "description": "Loyalitas, berbayar, penelusuran, email - masing-masing dengan ROAS langsung, sampul yang diatribusikan, dan biaya per sampul. Pindahkan anggaran saat kampanye masih berjalan.",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
@@ -1289,7 +1289,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Sinyal pasar secara singkat",
-          "description": "Promo pesaing, acara lokal, cuaca — semuanya singkat di pagi hari sehingga rencana kampanye mencerminkan pasar, bukan hanya kalender.",
+          "description": "Promo pesaing, acara lokal, cuaca - semuanya singkat di pagi hari sehingga rencana kampanye mencerminkan pasar, bukan hanya kalender.",
           "product": "Watchtower",
           "icon": "watchtower"
         }
@@ -1299,7 +1299,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Alokasi ulang anggaran dalam kampanye",
-          "description": "Pindahkan pembelanjaan dari saluran yang berkinerja buruk sebelum penutupan bulan — bukan setelahnya.",
+          "description": "Pindahkan pembelanjaan dari saluran yang berkinerja buruk sebelum penutupan bulan - bukan setelahnya.",
           "icon": "speed"
         },
         {
@@ -1309,12 +1309,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Tumpuk saluran yang digabungkan",
-          "description": "Cross-Intelligence menunjukkan kombinasi saluran mana yang saling melipatgandakan — bukan hanya saluran mana yang berfungsi sendiri.",
+          "description": "Cross-Intelligence menunjukkan kombinasi saluran mana yang saling melipatgandakan - bukan hanya saluran mana yang berfungsi sendiri.",
           "icon": "performance"
         },
         {
           "title": "Ringkasan merek didasarkan pada sinyal pasar",
-          "description": "Rencana dibuat dengan mengetahui apa yang dilakukan pesaing dan pasar lokal — bukan hanya pembelanjaan bulan lalu.",
+          "description": "Rencana dibuat dengan mengetahui apa yang dilakukan pesaing dan pasar lokal - bukan hanya pembelanjaan bulan lalu.",
           "icon": "support"
         }
       ],
@@ -1326,7 +1326,7 @@ export const generatedLocalCopy = {
       "badge": "Dành cho trưởng nhóm tiếp thị",
       "titleLine1": "Phân bổ lại chi tiêu.",
       "titleLine2": "Trước khi đóng ngân sách.",
-      "description": "ROI của chiến dịch được gắn với bìa và lợi nhuận ròng trong vòng 24 giờ. Kết hợp kênh, phân bổ và việc cần làm tiếp theo — không phải là bản tóm tắt hàng tháng.",
+      "description": "ROI của chiến dịch được gắn với bìa và lợi nhuận ròng trong vòng 24 giờ. Kết hợp kênh, phân bổ và việc cần làm tiếp theo - không phải là bản tóm tắt hàng tháng.",
       "primaryCta": "Đặt một buổi hướng dẫn tiếp thị",
       "secondaryCta": "Xem bản trình diễn tiếp thị",
       "problemsEyebrow": "NƠI Rò Rỉ NGÂN SÁCH",
@@ -1359,13 +1359,13 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Ghi nhận lợi nhuận ròng, không chỉ bao gồm",
-          "description": "Mọi chiến dịch đều liên quan đến các bìa được phân bổ, số tiền trung bình và số tiền ký quỹ mà các bìa đó thực sự kiếm được. Chi tiêu cho mỗi đô la tiền ký quỹ thu được — không phải cho mỗi lần nhấp chuột.",
+          "description": "Mọi chiến dịch đều liên quan đến các bìa được phân bổ, số tiền trung bình và số tiền ký quỹ mà các bìa đó thực sự kiếm được. Chi tiêu cho mỗi đô la tiền ký quỹ thu được - không phải cho mỗi lần nhấp chuột.",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
           "title": "Kết hợp kênh bạn có thể phân bổ lại trực tiếp",
-          "description": "Mức độ trung thành, trả phí, tìm kiếm, email — mỗi loại đều có ROAS trực tiếp, bìa được phân bổ và giá mỗi bìa. Di chuyển ngân sách trong khi chiến dịch vẫn đang chạy.",
+          "description": "Mức độ trung thành, trả phí, tìm kiếm, email - mỗi loại đều có ROAS trực tiếp, bìa được phân bổ và giá mỗi bìa. Di chuyển ngân sách trong khi chiến dịch vẫn đang chạy.",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
@@ -1377,7 +1377,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Tín hiệu thị trường trong bản tóm tắt",
-          "description": "Quảng cáo của đối thủ cạnh tranh, sự kiện địa phương, thời tiết — tất cả đều được tóm tắt vào buổi sáng để kế hoạch chiến dịch phản ánh thị trường chứ không chỉ lịch.",
+          "description": "Quảng cáo của đối thủ cạnh tranh, sự kiện địa phương, thời tiết - tất cả đều được tóm tắt vào buổi sáng để kế hoạch chiến dịch phản ánh thị trường chứ không chỉ lịch.",
           "product": "Watchtower",
           "icon": "watchtower"
         }
@@ -1387,7 +1387,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Phân bổ lại ngân sách trong chiến dịch",
-          "description": "Chuyển chi tiêu khỏi kênh hoạt động kém trước khi tháng kết thúc — không phải sau đó.",
+          "description": "Chuyển chi tiêu khỏi kênh hoạt động kém trước khi tháng kết thúc - không phải sau đó.",
           "icon": "speed"
         },
         {
@@ -1402,7 +1402,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Tóm tắt thương hiệu căn cứ vào tín hiệu thị trường",
-          "description": "Các kế hoạch được xây dựng dựa trên những gì đối thủ cạnh tranh và thị trường địa phương đang làm — không chỉ chi tiêu của tháng trước.",
+          "description": "Các kế hoạch được xây dựng dựa trên những gì đối thủ cạnh tranh và thị trường địa phương đang làm - không chỉ chi tiêu của tháng trước.",
           "icon": "support"
         }
       ],
@@ -1414,7 +1414,7 @@ export const generatedLocalCopy = {
       "badge": "Pentru clienți potențiali de marketing",
       "titleLine1": "Realocați cheltuielile.",
       "titleLine2": "Înainte să se închidă bugetul.",
-      "description": "Rentabilitatea investiției campaniei este legată de acoperiri și marja netă în 24 de ore. Mix de canale, atribuire și ce trebuie făcut în continuare — nu o recapitulare lunară.",
+      "description": "Rentabilitatea investiției campaniei este legată de acoperiri și marja netă în 24 de ore. Mix de canale, atribuire și ce trebuie făcut în continuare - nu o recapitulare lunară.",
       "primaryCta": "Rezervați o prezentare de marketing",
       "secondaryCta": "Vedeți Demo de marketing",
       "problemsEyebrow": "UNDE SURGE BUGETUL",
@@ -1433,7 +1433,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Mixul de canale a decis pe instinct",
-          "description": "Loialitate, socializare plătită, căutare, e-mail — mixul de săptămâna trecută continuă în mod implicit, nu prin analiză.",
+          "description": "Loialitate, socializare plătită, căutare, e-mail - mixul de săptămâna trecută continuă în mod implicit, nu prin analiză.",
           "icon": "performance"
         },
         {
@@ -1465,7 +1465,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Semnalul pieței în brief",
-          "description": "Promoții ale concurenților, evenimente locale, vreme – toate în scurt timp de dimineață, astfel încât planul campaniei să reflecte piața, nu doar calendarul.",
+          "description": "Promoții ale concurenților, evenimente locale, vreme - toate în scurt timp de dimineață, astfel încât planul campaniei să reflecte piața, nu doar calendarul.",
           "product": "Watchtower",
           "icon": "watchtower"
         }
@@ -1485,12 +1485,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Stivuiți canalele care compun",
-          "description": "Cross-Intelligence arată ce combinații de canale se înmulțesc reciproc – nu doar care funcționează singur.",
+          "description": "Cross-Intelligence arată ce combinații de canale se înmulțesc reciproc - nu doar care funcționează singur.",
           "icon": "performance"
         },
         {
           "title": "Slipurile de marcă bazate pe semnalul pieței",
-          "description": "Planuri construite știind ce fac concurenții și piața locală – nu doar cheltuielile de luna trecută.",
+          "description": "Planuri construite știind ce fac concurenții și piața locală - nu doar cheltuielile de luna trecută.",
           "icon": "support"
         }
       ],
@@ -1502,7 +1502,7 @@ export const generatedLocalCopy = {
       "badge": "För marknadsledare",
       "titleLine1": "Omfördela utgifterna.",
       "titleLine2": "Innan budgeten stänger.",
-      "description": "Kampanjens ROI kopplad till omslag och nettomarginal inom 24 timmar. Kanalmix, tillskrivning och vad du ska göra härnäst – inte en månatlig sammanfattning.",
+      "description": "Kampanjens ROI kopplad till omslag och nettomarginal inom 24 timmar. Kanalmix, tillskrivning och vad du ska göra härnäst - inte en månatlig sammanfattning.",
       "primaryCta": "Boka en marknadsföringsgenomgång",
       "secondaryCta": "Se marknadsföringsdemo",
       "problemsEyebrow": "DÄR BUDGETEN LÄCKAR",
@@ -1521,7 +1521,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Kanalmix bestämde sig på instinkt",
-          "description": "Lojalitet, betald social, sökning, e-post — förra veckans mix fortsätter som standard, inte genom analys.",
+          "description": "Lojalitet, betald social, sökning, e-post - förra veckans mix fortsätter som standard, inte genom analys.",
           "icon": "performance"
         },
         {
@@ -1535,13 +1535,13 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Tillskrivning till nettomarginal, inte bara omslag",
-          "description": "Varje kampanj är kopplad till tillskrivna omslag, genomsnittlig check och marginalen som dessa omslag faktiskt tjänat in. Spendera per förvärvad dollar av marginal – inte per klick.",
+          "description": "Varje kampanj är kopplad till tillskrivna omslag, genomsnittlig check och marginalen som dessa omslag faktiskt tjänat in. Spendera per förvärvad dollar av marginal - inte per klick.",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
           "title": "Kanalmix du kan omfördela live",
-          "description": "Lojalitet, betald, sökning, e-post – alla med live-ROAS, tillskrivna täckningar och kostnad per täckning. Flytta budget medan kampanjen fortfarande körs.",
+          "description": "Lojalitet, betald, sökning, e-post - alla med live-ROAS, tillskrivna täckningar och kostnad per täckning. Flytta budget medan kampanjen fortfarande körs.",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
@@ -1553,7 +1553,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Marknadssignal i korthet",
-          "description": "Konkurrentkampanjer, lokala evenemang, väder – allt på morgonen så att kampanjplanen speglar marknaden, inte bara kalendern.",
+          "description": "Konkurrentkampanjer, lokala evenemang, väder - allt på morgonen så att kampanjplanen speglar marknaden, inte bara kalendern.",
           "product": "Watchtower",
           "icon": "watchtower"
         }
@@ -1563,7 +1563,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Omfördela budget i kampanjen",
-          "description": "Flytta utgifterna från den underpresterande kanalen innan månaden stängs – inte efter.",
+          "description": "Flytta utgifterna från den underpresterande kanalen innan månaden stängs - inte efter.",
           "icon": "speed"
         },
         {
@@ -1578,7 +1578,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Varumärkestrosor grundade i marknadssignal",
-          "description": "Planer byggda med att veta vad konkurrenterna och den lokala marknaden gör – inte bara förra månadens utgifter.",
+          "description": "Planer byggda med att veta vad konkurrenterna och den lokala marknaden gör - inte bara förra månadens utgifter.",
           "icon": "support"
         }
       ],
@@ -1590,7 +1590,7 @@ export const generatedLocalCopy = {
       "badge": "মার্কেটিং লিড জন্য",
       "titleLine1": "খরচ পুনরায় বরাদ্দ.",
       "titleLine2": "বাজেট বন্ধ হওয়ার আগেই।",
-      "description": "ক্যাম্পেইন ROI 24 ঘন্টার মধ্যে কভার এবং নেট মার্জিনের সাথে সংযুক্ত। চ্যানেল মিক্স, অ্যাট্রিবিউশন এবং পরবর্তীতে কী করতে হবে — মাসিক রিক্যাপ নয়।",
+      "description": "ক্যাম্পেইন ROI 24 ঘন্টার মধ্যে কভার এবং নেট মার্জিনের সাথে সংযুক্ত। চ্যানেল মিক্স, অ্যাট্রিবিউশন এবং পরবর্তীতে কী করতে হবে - মাসিক রিক্যাপ নয়।",
       "primaryCta": "একটি মার্কেটিং ওয়াক-থ্রু বুক করুন",
       "secondaryCta": "মার্কেটিং ডেমো দেখুন",
       "problemsEyebrow": "যেখানে বাজেট ফাঁস হয়",
@@ -1609,7 +1609,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "চ্যানেল মিশ্রণ প্রবৃত্তি উপর সিদ্ধান্ত নিয়েছে",
-          "description": "আনুগত্য, অর্থপ্রদানের সামাজিক, অনুসন্ধান, ইমেল — গত সপ্তাহের মিশ্রণটি ডিফল্টভাবে চলতে থাকে, বিশ্লেষণের মাধ্যমে নয়।",
+          "description": "আনুগত্য, অর্থপ্রদানের সামাজিক, অনুসন্ধান, ইমেল - গত সপ্তাহের মিশ্রণটি ডিফল্টভাবে চলতে থাকে, বিশ্লেষণের মাধ্যমে নয়।",
           "icon": "performance"
         },
         {
@@ -1629,7 +1629,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "চ্যানেল মিক্স আপনি লাইভ পুনরায় বরাদ্দ করতে পারেন",
-          "description": "আনুগত্য, অর্থপ্রদান, অনুসন্ধান, ইমেল — প্রতিটি লাইভ ROAS, অ্যাট্রিবিউটেড কভার এবং কভার-প্রতি খরচ সহ। প্রচারণা চালানোর সময় বাজেট সরান।",
+          "description": "আনুগত্য, অর্থপ্রদান, অনুসন্ধান, ইমেল - প্রতিটি লাইভ ROAS, অ্যাট্রিবিউটেড কভার এবং কভার-প্রতি খরচ সহ। প্রচারণা চালানোর সময় বাজেট সরান।",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
@@ -1641,7 +1641,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "সংক্ষেপে বাজার সংকেত",
-          "description": "প্রতিযোগী প্রচার, স্থানীয় ইভেন্ট, আবহাওয়া — সকালের সংক্ষিপ্ত সময়ে প্রচারাভিযানের পরিকল্পনাটি বাজারকে প্রতিফলিত করে, শুধু ক্যালেন্ডার নয়।",
+          "description": "প্রতিযোগী প্রচার, স্থানীয় ইভেন্ট, আবহাওয়া - সকালের সংক্ষিপ্ত সময়ে প্রচারাভিযানের পরিকল্পনাটি বাজারকে প্রতিফলিত করে, শুধু ক্যালেন্ডার নয়।",
           "product": "Watchtower",
           "icon": "watchtower"
         }
@@ -1661,12 +1661,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "স্ট্যাক চ্যানেল যে যৌগ",
-          "description": "ক্রস-ইনটেলিজেন্স দেখায় কোন চ্যানেলের সংমিশ্রণগুলি একে অপরকে বহুগুণ করে — শুধুমাত্র কোনটি একা কাজ করে না। (Cross-Intelligence)",
+          "description": "ক্রস-ইনটেলিজেন্স দেখায় কোন চ্যানেলের সংমিশ্রণগুলি একে অপরকে বহুগুণ করে - শুধুমাত্র কোনটি একা কাজ করে না। (Cross-Intelligence)",
           "icon": "performance"
         },
         {
           "title": "ব্র্যান্ড ব্রিফ বাজার সংকেত ভিত্তি করে",
-          "description": "প্রতিযোগীরা এবং স্থানীয় বাজার কী করছে তা জেনে পরিকল্পনা তৈরি করা হয়েছে — শুধু গত মাসের খরচ নয়।",
+          "description": "প্রতিযোগীরা এবং স্থানীয় বাজার কী করছে তা জেনে পরিকল্পনা তৈরি করা হয়েছে - শুধু গত মাসের খরচ নয়।",
           "icon": "support"
         }
       ],
@@ -1697,12 +1697,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "มิกซ์ช่องตัดสินใจโดยสัญชาตญาณ",
-          "description": "ความภักดี โซเชียลที่เสียค่าใช้จ่าย การค้นหา อีเมล — การผสมผสานของสัปดาห์ที่แล้วดำเนินต่อไปตามค่าเริ่มต้น ไม่ใช่โดยการวิเคราะห์",
+          "description": "ความภักดี โซเชียลที่เสียค่าใช้จ่าย การค้นหา อีเมล - การผสมผสานของสัปดาห์ที่แล้วดำเนินต่อไปตามค่าเริ่มต้น ไม่ใช่โดยการวิเคราะห์",
           "icon": "performance"
         },
         {
           "title": "สัญญาณตลาดท้องถิ่นถูกละเลย",
-          "description": "ราคา สภาพอากาศ กิจกรรมของคู่แข่ง — ไม่แสดงข้อมูลใดๆ ในบรีฟเกี่ยวกับแบรนด์",
+          "description": "ราคา สภาพอากาศ กิจกรรมของคู่แข่ง - ไม่แสดงข้อมูลใดๆ ในบรีฟเกี่ยวกับแบรนด์",
           "icon": "watchtower"
         }
       ],
@@ -1711,13 +1711,13 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "การระบุแหล่งที่มาของกำไรสุทธิ ไม่ใช่แค่ครอบคลุมเท่านั้น",
-          "description": "ทุกแคมเปญเชื่อมโยงกับความคุ้มครองที่ระบุ เช็คเฉลี่ย และส่วนต่างที่ได้รับตามจริง ใช้จ่ายต่อกำไรที่ได้มา — ไม่ใช่ต่อคลิก",
+          "description": "ทุกแคมเปญเชื่อมโยงกับความคุ้มครองที่ระบุ เช็คเฉลี่ย และส่วนต่างที่ได้รับตามจริง ใช้จ่ายต่อกำไรที่ได้มา - ไม่ใช่ต่อคลิก",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
           "title": "มิกซ์ช่องที่คุณสามารถจัดสรรสดได้",
-          "description": "ความภักดี การชำระเงิน การค้นหา อีเมล — แต่ละรายการมี ROAS แบบสด หน้าปกที่นำมาประกอบ และราคาต่อหน้าปก ย้ายงบประมาณในขณะที่แคมเปญยังทำงานอยู่",
+          "description": "ความภักดี การชำระเงิน การค้นหา อีเมล - แต่ละรายการมี ROAS แบบสด หน้าปกที่นำมาประกอบ และราคาต่อหน้าปก ย้ายงบประมาณในขณะที่แคมเปญยังทำงานอยู่",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
@@ -1739,7 +1739,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "จัดสรรงบประมาณใหม่ในแคมเปญ",
-          "description": "ย้ายการใช้จ่ายออกจากช่องทางที่มีประสิทธิภาพต่ำก่อนที่เดือนจะปิด — ไม่ใช่หลังจากนั้น",
+          "description": "ย้ายการใช้จ่ายออกจากช่องทางที่มีประสิทธิภาพต่ำก่อนที่เดือนจะปิด - ไม่ใช่หลังจากนั้น",
           "icon": "speed"
         },
         {
@@ -1766,7 +1766,7 @@ export const generatedLocalCopy = {
       "badge": "Untuk Pemimpin Pemasaran",
       "titleLine1": "Agihkan semula perbelanjaan.",
       "titleLine2": "Sebelum bajet ditutup.",
-      "description": "ROI kempen terikat pada muka depan dan margin bersih dalam masa 24 jam. Campuran saluran, atribusi dan perkara yang perlu dilakukan seterusnya — bukan rekap bulanan.",
+      "description": "ROI kempen terikat pada muka depan dan margin bersih dalam masa 24 jam. Campuran saluran, atribusi dan perkara yang perlu dilakukan seterusnya - bukan rekap bulanan.",
       "primaryCta": "Tempah Walk-through Pemasaran",
       "secondaryCta": "Lihat Demo Pemasaran",
       "problemsEyebrow": "MANA BAJET BOCOR",
@@ -1785,12 +1785,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Campuran saluran memutuskan naluri",
-          "description": "Kesetiaan, sosial berbayar, carian, e-mel — campuran minggu lalu diteruskan secara lalai, bukan melalui analisis.",
+          "description": "Kesetiaan, sosial berbayar, carian, e-mel - campuran minggu lalu diteruskan secara lalai, bukan melalui analisis.",
           "icon": "performance"
         },
         {
           "title": "Isyarat pasaran tempatan diabaikan",
-          "description": "Harga pesaing, cuaca, acara — tiada satu pun daripadanya dipaparkan dalam ringkasan jenama.",
+          "description": "Harga pesaing, cuaca, acara - tiada satu pun daripadanya dipaparkan dalam ringkasan jenama.",
           "icon": "watchtower"
         }
       ],
@@ -1799,13 +1799,13 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Atribusi kepada margin bersih, bukan hanya penutup",
-          "description": "Setiap kempen berkaitan dengan perlindungan yang diatributkan, semakan purata dan margin yang sebenarnya diperoleh oleh perlindungan tersebut. Perbelanjaan setiap dolar margin yang diperoleh — bukan setiap klik.",
+          "description": "Setiap kempen berkaitan dengan perlindungan yang diatributkan, semakan purata dan margin yang sebenarnya diperoleh oleh perlindungan tersebut. Perbelanjaan setiap dolar margin yang diperoleh - bukan setiap klik.",
           "product": "Insights · Marketing Performance",
           "icon": "marketing"
         },
         {
           "title": "Campuran saluran anda boleh mengagihkan semula secara langsung",
-          "description": "Kesetiaan, berbayar, carian, e-mel — masing-masing dengan ROAS langsung, perlindungan dikaitkan dan kos setiap perlindungan. Alihkan belanjawan semasa kempen masih berjalan.",
+          "description": "Kesetiaan, berbayar, carian, e-mel - masing-masing dengan ROAS langsung, perlindungan dikaitkan dan kos setiap perlindungan. Alihkan belanjawan semasa kempen masih berjalan.",
           "product": "Insights · Marketing",
           "icon": "performance"
         },
@@ -1817,7 +1817,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Isyarat pasaran dalam ringkasan",
-          "description": "Promosi pesaing, acara tempatan, cuaca — semuanya ringkas pada waktu pagi supaya rancangan kempen mencerminkan pasaran, bukan hanya kalendar.",
+          "description": "Promosi pesaing, acara tempatan, cuaca - semuanya ringkas pada waktu pagi supaya rancangan kempen mencerminkan pasaran, bukan hanya kalendar.",
           "product": "Watchtower",
           "icon": "watchtower"
         }
@@ -1827,7 +1827,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Agihkan semula belanjawan dalam kempen",
-          "description": "Alihkan perbelanjaan daripada saluran berprestasi rendah sebelum bulan ditutup — bukan selepasnya.",
+          "description": "Alihkan perbelanjaan daripada saluran berprestasi rendah sebelum bulan ditutup - bukan selepasnya.",
           "icon": "speed"
         },
         {
@@ -1837,12 +1837,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Susun saluran yang kompaun",
-          "description": "Kepintaran Silang menunjukkan gabungan saluran yang mendarab antara satu sama lain — bukan sahaja yang berfungsi secara bersendirian. (Cross-Intelligence)",
+          "description": "Kepintaran Silang menunjukkan gabungan saluran yang mendarab antara satu sama lain - bukan sahaja yang berfungsi secara bersendirian. (Cross-Intelligence)",
           "icon": "performance"
         },
         {
           "title": "Seluar jenama berasaskan isyarat pasaran",
-          "description": "Rancangan dibina mengetahui perkara yang pesaing dan pasaran tempatan lakukan — bukan hanya perbelanjaan bulan lepas.",
+          "description": "Rancangan dibina mengetahui perkara yang pesaing dan pasaran tempatan lakukan - bukan hanya perbelanjaan bulan lepas.",
           "icon": "support"
         }
       ],

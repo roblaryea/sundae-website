@@ -82,7 +82,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
     badge: "SOLUTIONS · BY ROLE",
     titleLine1: "One platform.",
     titleLine2: "Every role you run.",
-    description: "Decision intelligence built around the person reading it — from the executive office to the floor.",
+    description: "Decision intelligence built around the person reading it - from the executive office to the floor.",
     nowShowingPrefix: "Now showing:",
     primaryCta: "Book a Working Session",
     secondaryCta: "Start with Report Lite",
@@ -114,7 +114,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
         personas: [
           { title: "Regional & Area Managers", tagline: "Run twelve outlets like you're standing in one. Pacing flags the site that needs you now." },
           { title: "HR & People", tagline: "Live labor variance. OT risk flagged before it lands. Schedules built from demand." },
-          { title: "Hospitality Operators", tagline: "Every F&B outlet — restaurant, banquet, IRD, lobby — in one unified live view." },
+          { title: "Hospitality Operators", tagline: "Every F&B outlet - restaurant, banquet, IRD, lobby - in one unified live view." },
         ],
       },
       {
@@ -143,7 +143,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
     badge: "الحلول · حسب الدور",
     titleLine1: "منصة واحدة.",
     titleLine2: "لكل دور تديره.",
-    description: "ذكاء القرار مصمم حول الشخص الذي يقرأه — من المكتب التنفيذي إلى الموقع.",
+    description: "ذكاء القرار مصمم حول الشخص الذي يقرأه - من المكتب التنفيذي إلى الموقع.",
     nowShowingPrefix: "نعرض الآن:",
     primaryCta: "احجز جلسة عمل",
     secondaryCta: "ابدأ بـ Report Lite",
@@ -175,7 +175,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
         personas: [
           { title: "المدراء الإقليميون", tagline: "أدر اثني عشر موقعاً وكأنك في واحد. الوتيرة تنبه للموقع الذي يحتاجك الآن." },
           { title: "الموارد البشرية", tagline: "تباين عمالة حي. خطر OT يُكتشف قبل تسجيله. جداول مبنية من الطلب." },
-          { title: "مشغّلو الضيافة", tagline: "كل منفذ F&B — مطعم، بانكيت، خدمة غرف، لوبي — في عرض حي موحد." },
+          { title: "مشغّلو الضيافة", tagline: "كل منفذ F&B - مطعم، بانكيت، خدمة غرف، لوبي - في عرض حي موحد." },
         ],
       },
       {
@@ -204,7 +204,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
     badge: "SOLUTIONS · PAR RÔLE",
     titleLine1: "Une plateforme.",
     titleLine2: "Chaque rôle que vous pilotez.",
-    description: "L'intelligence décisionnelle pensée pour la personne qui la lit — du bureau exécutif jusqu'à la salle.",
+    description: "L'intelligence décisionnelle pensée pour la personne qui la lit - du bureau exécutif jusqu'à la salle.",
     nowShowingPrefix: "Affiché maintenant :",
     primaryCta: "Réserver une session de travail",
     secondaryCta: "Commencer avec Report Lite",
@@ -236,7 +236,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
         personas: [
           { title: "Managers régionaux", tagline: "Pilotez douze sites comme si vous y étiez. Le rythme signale le site qui a besoin de vous." },
           { title: "RH & People", tagline: "Variance main-d'œuvre live. Risque heures sup' avant la paie. Plannings tirés de la demande." },
-          { title: "Opérateurs hôtellerie", tagline: "Chaque point F&B — restaurant, banqueting, room service, lobby — dans une vue unifiée." },
+          { title: "Opérateurs hôtellerie", tagline: "Chaque point F&B - restaurant, banqueting, room service, lobby - dans une vue unifiée." },
         ],
       },
       {
@@ -265,7 +265,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
     badge: "SOLUCIONES · POR ROL",
     titleLine1: "Una plataforma.",
     titleLine2: "Cada rol que diriges.",
-    description: "Inteligencia de decisión construida alrededor de la persona que la lee — desde la dirección hasta el local.",
+    description: "Inteligencia de decisión construida alrededor de la persona que la lee - desde la dirección hasta el local.",
     nowShowingPrefix: "Mostrando ahora:",
     primaryCta: "Reservar sesión de trabajo",
     secondaryCta: "Empezar con Report Lite",
@@ -297,7 +297,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
         personas: [
           { title: "Gerentes regionales", tagline: "Opera doce locales como si estuvieras en uno. El ritmo señala el local que te necesita." },
           { title: "RR.HH. y People", tagline: "Varianza de personal en vivo. Riesgo OT antes del cierre. Horarios desde la demanda." },
-          { title: "Operadores de hospitalidad", tagline: "Cada punto A&B — restaurante, banquetes, room service, lobby — en una vista unificada." },
+          { title: "Operadores de hospitalidad", tagline: "Cada punto A&B - restaurante, banquetes, room service, lobby - en una vista unificada." },
         ],
       },
       {
@@ -330,13 +330,13 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
 // C-Suite / Finance / Operations / Marketing / People & HR / Tech / Multi-brand)
 const IMG = "/images/product/2026-fresh";
 const ROTATING_SHOTS = [
-  { t: "insights-exec-summary", alt: "Executive Summary — portfolio health, alerts, and module scorecards" },
-  { t: "insights-revenue", alt: "Revenue Intelligence — net revenue, average check, RevPASH, and covers" },
-  { t: "pulse-leaderboard", alt: "Pulse Portfolio Leaderboard — every outlet ranked live by revenue vs target" },
-  { t: "marketing-channels", alt: "Marketing Intelligence — channel ROAS and spend efficiency frontier" },
-  { t: "insights-labor", alt: "Labor Intelligence — labor cost %, sales per labor hour, and productivity index" },
-  { t: "integrations", alt: "Data & Integrations — POS, labor, inventory, and delivery unified" },
-  { t: "benchmark-overview", alt: "Benchmark — RevPASH index and peer-cohort comparison across brands and markets" },
+  { t: "insights-exec-summary", alt: "Executive Summary - portfolio health, alerts, and module scorecards" },
+  { t: "insights-revenue", alt: "Revenue Intelligence - net revenue, average check, RevPASH, and covers" },
+  { t: "pulse-leaderboard", alt: "Pulse Portfolio Leaderboard - every outlet ranked live by revenue vs target" },
+  { t: "marketing-channels", alt: "Marketing Intelligence - channel ROAS and spend efficiency frontier" },
+  { t: "insights-labor", alt: "Labor Intelligence - labor cost %, sales per labor hour, and productivity index" },
+  { t: "integrations", alt: "Data & Integrations - POS, labor, inventory, and delivery unified" },
+  { t: "benchmark-overview", alt: "Benchmark - RevPASH index and peer-cohort comparison across brands and markets" },
 ];
 const ROTATION_MS = 5000;
 

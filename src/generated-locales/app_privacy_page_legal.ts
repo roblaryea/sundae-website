@@ -224,7 +224,7 @@ export const generatedPrivacyCopy = {
             ]
           },
           {
-            "title": "12.2 EWR/UK – DSGVO",
+            "title": "12.2 EWR/UK - DSGVO",
             "paragraphs": [
               "Wenn Sie sich im EWR oder im Vereinigten Königreich befinden, gewähren Ihnen die DSGVO und die UK-DSGVO die in Abschnitt 7 beschriebenen Rechte und verlangen von uns, dass wir unsere Rechtsgrundlagen darlegen, die wir in Abschnitt 3 zusammengefasst haben: Vertrag, berechtigte Interessen, Einwilligung und rechtliche Verpflichtungen.",
               "Wenn Sie der Meinung sind, dass unsere Verarbeitung Ihrer personenbezogenen Daten gegen geltendes Recht verstößt, haben Sie das Recht, eine Beschwerde bei Ihrer örtlichen Aufsichtsbehörde einzureichen. Wir würden uns jedoch über die Gelegenheit freuen, zunächst auf Ihre Bedenken einzugehen."
@@ -752,7 +752,7 @@ export const generatedPrivacyCopy = {
           {
             "title": "4.2 Prestadores de serviços (subcontratados)",
             "paragraphs": [
-              "Utilizamos fornecedores terceirizados confiáveis ​​para serviços como hospedagem em nuvem, infraestrutura, armazenamento e backup, processamento de pagamentos, ferramentas de suporte e comunicação, análise e monitoramento, além de serviços de segurança e prevenção de fraudes.",
+              "Utilizamos fornecedores terceirizados confiáveis para serviços como hospedagem em nuvem, infraestrutura, armazenamento e backup, processamento de pagamentos, ferramentas de suporte e comunicação, análise e monitoramento, além de serviços de segurança e prevenção de fraudes.",
               "Estes prestadores de serviços são contratualmente obrigados a utilizar as informações apenas para nos fornecer serviços e protegê-las com medidas técnicas e organizacionais adequadas.",
               "Em certas regiões, a Sundae oferece assinaturas comerciais por meio de revendedores e parceiros regionais autorizados. Quando você assina por meio de um revendedor autorizado, o revendedor poderá atuar como subcontratado para fins administrativos, de cobrança e de suporte inicial limitados, com obrigações pelo menos tão protetoras quanto as desta Política."
             ]
@@ -778,7 +778,7 @@ export const generatedPrivacyCopy = {
           {
             "title": "4.5 Transferências comerciais",
             "paragraphs": [
-              "Se a Sundae Technologies Inc. ou uma de suas subsidiárias estiver envolvida em uma fusão, aquisição, financiamento, reestruturação ou venda de todo ou parte de seus negócios ou ativos, suas informações poderão ser transferidas como parte desta transação. Tomaremos medidas razoáveis ​​para garantir que o destinatário cumpra esta Política ou uma política substancialmente equivalente e notificaremos você quando exigido por lei."
+              "Se a Sundae Technologies Inc. ou uma de suas subsidiárias estiver envolvida em uma fusão, aquisição, financiamento, reestruturação ou venda de todo ou parte de seus negócios ou ativos, suas informações poderão ser transferidas como parte desta transação. Tomaremos medidas razoáveis para garantir que o destinatário cumpra esta Política ou uma política substancialmente equivalente e notificaremos você quando exigido por lei."
             ]
           }
         ]
@@ -795,14 +795,14 @@ export const generatedPrivacyCopy = {
         "paragraphs": [
           "Retemos suas informações pelo tempo razoavelmente necessário para fornecer e oferecer suporte aos Serviços, cumprir as finalidades descritas nesta Política, cumprir nossas obrigações legais e regulatórias, resolver disputas, fazer cumprir nossos acordos e manter registros comerciais e financeiros apropriados.",
           "Quando você encerra sua conta, excluímos ou anonimizamos suas informações pessoais dentro de um período de tempo razoável, geralmente dentro de 90 dias, a menos que a retenção seja necessária para obrigações legais, prevenção de fraudes, registros de incidentes de segurança, possíveis litígios ou backups periódicos.",
-          "Dados agregados anonimizados e dados de referência, que não identificam você ou seu(s) restaurante(s) ou qualquer indivíduo, e não podem ser razoavelmente reidentificados, podem ser retidos e usados ​​indefinidamente pela Sundae para fins comerciais legítimos, incluindo benchmarking, melhoria de produtos, treinamento de modelos, análises, pesquisas e análises de mercado, conforme licenciado em nossos Termos de Uso. Estes dados não estão sujeitos a pedidos de eliminação."
+          "Dados agregados anonimizados e dados de referência, que não identificam você ou seu(s) restaurante(s) ou qualquer indivíduo, e não podem ser razoavelmente reidentificados, podem ser retidos e usados indefinidamente pela Sundae para fins comerciais legítimos, incluindo benchmarking, melhoria de produtos, treinamento de modelos, análises, pesquisas e análises de mercado, conforme licenciado em nossos Termos de Uso. Estes dados não estão sujeitos a pedidos de eliminação."
         ]
       },
       {
         "title": "7. Seus direitos e escolhas",
         "paragraphs": [
           "Dependendo da sua localização e da legislação aplicável, você poderá ter alguns ou todos os seguintes direitos em relação às suas informações pessoais:",
-          "Para exercer esses direitos, entre em contato conosco pelo e-mail privacidade@sundae.io. Responderemos de acordo com as leis de proteção de dados aplicáveis ​​e poderemos precisar verificar sua identidade antes de processar sua solicitação.",
+          "Para exercer esses direitos, entre em contato conosco pelo e-mail privacidade@sundae.io. Responderemos de acordo com as leis de proteção de dados aplicáveis e poderemos precisar verificar sua identidade antes de processar sua solicitação.",
           "Você também pode ter o direito de apresentar uma reclamação à autoridade local de proteção de dados. Recomendamos que você entre em contato conosco primeiro para que possamos tentar resolver sua solicitação."
         ],
         "bullets": [
@@ -834,7 +834,7 @@ export const generatedPrivacyCopy = {
       {
         "title": "10. Links e serviços de terceiros",
         "paragraphs": [
-          "Nossos Serviços podem conter links para sites ou serviços de terceiros que não são de propriedade nem controlados pela Sundae. Não somos responsáveis ​​pelas práticas de privacidade desses terceiros.",
+          "Nossos Serviços podem conter links para sites ou serviços de terceiros que não são de propriedade nem controlados pela Sundae. Não somos responsáveis pelas práticas de privacidade desses terceiros.",
           "Recomendamos que você revise as políticas de privacidade dos serviços de terceiros que você acessa através de nossa plataforma. Esta Política se aplica apenas às informações coletadas pela Sundae."
         ]
       },
@@ -1102,7 +1102,7 @@ export const generatedPrivacyCopy = {
       {
         "title": "5. डेटा सुरक्षा",
         "paragraphs": [
-          "हम आपकी जानकारी को अनधिकृत पहुंच, परिवर्तन, प्रकटीकरण या विनाश से बचाने के लिए उचित तकनीकी और संगठनात्मक सुरक्षा उपाय लागू करते हैं। इन उपायों में पारगमन और आराम के दौरान डेटा का एन्क्रिप्शन, सुरक्षित भंडारण और बैकअप प्रक्रियाएं, पहुंच नियंत्रण और प्रमाणीकरण तंत्र, नियमित सुरक्षा मूल्यांकन और निगरानी, ​​सर्वोत्तम डेटा सुरक्षा प्रथाओं में कर्मचारी प्रशिक्षण, और घटना प्रतिक्रिया और उल्लंघन अधिसूचना प्रक्रियाएं शामिल हैं।",
+          "हम आपकी जानकारी को अनधिकृत पहुंच, परिवर्तन, प्रकटीकरण या विनाश से बचाने के लिए उचित तकनीकी और संगठनात्मक सुरक्षा उपाय लागू करते हैं। इन उपायों में पारगमन और आराम के दौरान डेटा का एन्क्रिप्शन, सुरक्षित भंडारण और बैकअप प्रक्रियाएं, पहुंच नियंत्रण और प्रमाणीकरण तंत्र, नियमित सुरक्षा मूल्यांकन और निगरानी, सर्वोत्तम डेटा सुरक्षा प्रथाओं में कर्मचारी प्रशिक्षण, और घटना प्रतिक्रिया और उल्लंघन अधिसूचना प्रक्रियाएं शामिल हैं।",
           "हमारे प्रयासों के बावजूद, कोई भी सुरक्षा उपाय पूर्ण या अचूक नहीं है। हम आपकी जानकारी की पूर्ण सुरक्षा की गारंटी नहीं दे सकते।"
         ]
       },
@@ -2120,7 +2120,7 @@ export const generatedPrivacyCopy = {
             ]
           },
           {
-            "title": "12.2 EOG/Wielka Brytania – RODO",
+            "title": "12.2 EOG/Wielka Brytania - RODO",
             "paragraphs": [
               "Jeśli przebywasz na terenie EOG lub Wielkiej Brytanii, RODO i RODO Wielkiej Brytanii przyznają Ci prawa opisane w sekcji 7 i wymagają od nas określenia naszych podstaw prawnych, które podsumowaliśmy w sekcji 3: umowa, uzasadnione interesy, zgoda i zobowiązania prawne.",
               "Jeśli uważasz, że przetwarzanie przez nas Twoich danych osobowych narusza obowiązujące prawo, masz prawo złożyć skargę do lokalnego organu nadzorczego. Będziemy jednak wdzięczni za możliwość omówienia w pierwszej kolejności Państwa wątpliwości."
@@ -4648,7 +4648,7 @@ export const generatedPrivacyCopy = {
             ]
           },
           {
-            "title": "12.2 EES/UK – GDPR",
+            "title": "12.2 EES/UK - GDPR",
             "paragraphs": [
               "Om du befinner dig i EES eller Storbritannien ger GDPR och UK GDPR dig de rättigheter som beskrivs i avsnitt 7 och kräver att vi anger våra rättsliga grunder, som vi har sammanfattat i avsnitt 3: kontrakt, legitima intressen, samtycke och juridiska skyldigheter.",
               "Om du anser att vår behandling av dina personuppgifter bryter mot gällande lag har du rätt att lämna in ett klagomål till din lokala tillsynsmyndighet. Vi skulle dock uppskatta möjligheten att ta itu med dina problem först."

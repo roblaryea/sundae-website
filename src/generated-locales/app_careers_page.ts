@@ -401,7 +401,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Erfahren Sie mehr über unser Produkt",
       "positions": [
         {
-          "title": "Leitender Software-Ingenieur – Intelligenz",
+          "title": "Leitender Software-Ingenieur - Intelligenz",
           "department": "Ingenieurwesen",
           "location": "Dubai, Vereinigte Arabische Emirate / abgelegen",
           "type": "Full-time",
@@ -437,7 +437,7 @@ export const generatedLocalCopy = {
           "color": "bg-orange-600"
         },
         {
-          "title": "Datenwissenschaftler – Restaurant Intelligence",
+          "title": "Datenwissenschaftler - Restaurant Intelligence",
           "department": "Datenwissenschaft",
           "location": "Dubai, Vereinigte Arabische Emirate / abgelegen",
           "type": "Full-time",
@@ -446,7 +446,7 @@ export const generatedLocalCopy = {
           "color": "bg-teal-600"
         },
         {
-          "title": "UX/UI-Designer – SaaS-Produkte",
+          "title": "UX/UI-Designer - SaaS-Produkte",
           "department": "Design",
           "location": "Toronto, Kanada / abgelegen",
           "type": "Full-time",
@@ -1308,7 +1308,7 @@ export const generatedLocalCopy = {
           "color": "bg-green-600"
         },
         {
-          "title": "Dyrektor ds. sprzedaży – przedsiębiorstwo",
+          "title": "Dyrektor ds. sprzedaży - przedsiębiorstwo",
           "department": "Sprzedaż",
           "location": "Wiele lokalizacji",
           "type": "Full-time",

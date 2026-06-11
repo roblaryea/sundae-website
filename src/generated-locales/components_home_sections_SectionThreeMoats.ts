@@ -10,7 +10,7 @@ export const generatedLocalCopy = {
       "layers": [
         {
           "title": "Intelligence de shift en direct",
-          "why": "Voyez le rythme, la main-d'œuvre, les fuites, les comparaisons, les annulations et les exceptions de service pendant que le shift est encore en cours — pas après le récapitulatif hebdomadaire."
+          "why": "Voyez le rythme, la main-d'œuvre, les fuites, les comparaisons, les annulations et les exceptions de service pendant que le shift est encore en cours - pas après le récapitulatif hebdomadaire."
         },
         {
           "title": "Intelligence du marché externe",
@@ -31,7 +31,7 @@ export const generatedLocalCopy = {
       "layers": [
         {
           "title": "Inteligencia de turno en vivo",
-          "why": "Ve el ritmo, la mano de obra, las fugas, las comparaciones, las anulaciones y las excepciones de servicio mientras el turno aún está en curso — no después del resumen semanal."
+          "why": "Ve el ritmo, la mano de obra, las fugas, las comparaciones, las anulaciones y las excepciones de servicio mientras el turno aún está en curso - no después del resumen semanal."
         },
         {
           "title": "Inteligencia del mercado externo",
@@ -52,7 +52,7 @@ export const generatedLocalCopy = {
       "layers": [
         {
           "title": "Live Schichtintelligenz",
-          "why": "Sieh dir das Tempo, die Arbeitskraft, Verluste, Vergleiche, Stornierungen und Serviceausnahmen an, während die Schicht noch läuft — nicht erst nach dem wöchentlichen Rückblick."
+          "why": "Sieh dir das Tempo, die Arbeitskraft, Verluste, Vergleiche, Stornierungen und Serviceausnahmen an, während die Schicht noch läuft - nicht erst nach dem wöchentlichen Rückblick."
         },
         {
           "title": "Externe Marktintelligenz",
@@ -73,7 +73,7 @@ export const generatedLocalCopy = {
       "layers": [
         {
           "title": "ذكاء التحول المباشر",
-          "why": "شاهد التقدم، والعمالة، والتسرب، والمقارنات، والفجوات، واستثناءات الخدمة بينما لا يزال التحول جاريًا — وليس بعد ملخص الأسبوع."
+          "why": "شاهد التقدم، والعمالة، والتسرب، والمقارنات، والفجوات، واستثناءات الخدمة بينما لا يزال التحول جاريًا - وليس بعد ملخص الأسبوع."
         },
         {
           "title": "ذكاء السوق الخارجي",
@@ -94,7 +94,7 @@ export const generatedLocalCopy = {
       "layers": [
         {
           "title": "Live shift intelligentie",
-          "why": "Zie pacing, arbeid, lekkage, vergelijkingen, annuleringen en service-uitzonderingen terwijl de shift nog loopt — niet pas na de wekelijkse samenvatting."
+          "why": "Zie pacing, arbeid, lekkage, vergelijkingen, annuleringen en service-uitzonderingen terwijl de shift nog loopt - niet pas na de wekelijkse samenvatting."
         },
         {
           "title": "Externe marktsignalen",
@@ -115,7 +115,7 @@ export const generatedLocalCopy = {
       "layers": [
         {
           "title": "Inteligência de turno ao vivo",
-          "why": "Veja o ritmo, mão de obra, vazamentos, comparações, anulações e exceções de serviço enquanto o turno ainda está em andamento — não após o resumo semanal."
+          "why": "Veja o ritmo, mão de obra, vazamentos, comparações, anulações e exceções de serviço enquanto o turno ainda está em andamento - não após o resumo semanal."
         },
         {
           "title": "Inteligência de mercado externa",
@@ -136,7 +136,7 @@ export const generatedLocalCopy = {
       "layers": [
         {
           "title": "Intelligenza in tempo reale",
-          "why": "Vedi il ritmo, il lavoro, le perdite, i confronti, le anomalie e le eccezioni di servizio mentre il turno è ancora in corso — non dopo il riepilogo settimanale."
+          "why": "Vedi il ritmo, il lavoro, le perdite, i confronti, le anomalie e le eccezioni di servizio mentre il turno è ancora in corso - non dopo il riepilogo settimanale."
         },
         {
           "title": "Intelligenza di mercato esterna",
@@ -157,7 +157,7 @@ export const generatedLocalCopy = {
       "layers": [
         {
           "title": "लाइव शिफ्ट इंटेलिजेंस",
-          "why": "शिफ्ट के चलने के दौरान पेसिंग, श्रम, रिसाव, समकक्ष, शून्य और सेवा अपवाद देखें — न कि साप्ताहिक पुनर्कथन के बाद।"
+          "why": "शिफ्ट के चलने के दौरान पेसिंग, श्रम, रिसाव, समकक्ष, शून्य और सेवा अपवाद देखें - न कि साप्ताहिक पुनर्कथन के बाद।"
         },
         {
           "title": "बाहरी मार्केट इंटेलिजेंस",
@@ -178,7 +178,7 @@ export const generatedLocalCopy = {
       "layers": [
         {
           "title": "زندہ شفٹ کی ذہانت",
-          "why": "شفٹ کے دوران پیسہ، مزدوری، لیکیج، موازنہ، خالی جگہیں، اور سروس کی استثنائیاں دیکھیں — ہفتہ وار خلاصے کے بعد نہیں۔"
+          "why": "شفٹ کے دوران پیسہ، مزدوری، لیکیج، موازنہ، خالی جگہیں، اور سروس کی استثنائیاں دیکھیں - ہفتہ وار خلاصے کے بعد نہیں۔"
         },
         {
           "title": "باہر کی مارکیٹ کی ذہانت",
@@ -199,7 +199,7 @@ export const generatedLocalCopy = {
       "layers": [
         {
           "title": "Inteligencja zmian na żywo",
-          "why": "Obserwuj tempo, pracowników, straty, porównania, braki i wyjątki w obsłudze, gdy zmiana nadal trwa — a nie po cotygodniowym podsumowaniu."
+          "why": "Obserwuj tempo, pracowników, straty, porównania, braki i wyjątki w obsłudze, gdy zmiana nadal trwa - a nie po cotygodniowym podsumowaniu."
         },
         {
           "title": "Zewnętrzna inteligencja rynkowa",
@@ -220,7 +220,7 @@ export const generatedLocalCopy = {
       "layers": [
         {
           "title": "Canlı vardiya zekası",
-          "why": "Vardiya hala devam ederken hız, iş gücü, kayıplar, karşılaştırmalar, iptaller ve hizmet istisnalarını görün — haftalık özetin ardından değil."
+          "why": "Vardiya hala devam ederken hız, iş gücü, kayıplar, karşılaştırmalar, iptaller ve hizmet istisnalarını görün - haftalık özetin ardından değil."
         },
         {
           "title": "Dış piyasa zekası",
@@ -262,7 +262,7 @@ export const generatedLocalCopy = {
       "layers": [
         {
           "title": "ライブシフトインテリジェンス",
-          "why": "シフトがまだ進行中の間に、ペーシング、労働、漏れ、比較、無効、サービス例外を確認できます — 週次のまとめの後ではありません。"
+          "why": "シフトがまだ進行中の間に、ペーシング、労働、漏れ、比較、無効、サービス例外を確認できます - 週次のまとめの後ではありません。"
         },
         {
           "title": "外部市場インテリジェンス",
@@ -283,7 +283,7 @@ export const generatedLocalCopy = {
       "layers": [
         {
           "title": "Inteligensi shift langsung",
-          "why": "Lihat kecepatan, tenaga kerja, kebocoran, perbandingan, voids, dan pengecualian layanan saat shift masih berjalan — bukan setelah rekap mingguan."
+          "why": "Lihat kecepatan, tenaga kerja, kebocoran, perbandingan, voids, dan pengecualian layanan saat shift masih berjalan - bukan setelah rekap mingguan."
         },
         {
           "title": "Inteligensi pasar eksternal",
@@ -304,7 +304,7 @@ export const generatedLocalCopy = {
       "layers": [
         {
           "title": "Thông tin ca làm việc trực tiếp",
-          "why": "Xem tiến độ, lao động, thất thoát, so sánh, khoảng trống và các ngoại lệ dịch vụ trong khi ca làm việc vẫn đang diễn ra — không phải sau khi tổng kết hàng tuần."
+          "why": "Xem tiến độ, lao động, thất thoát, so sánh, khoảng trống và các ngoại lệ dịch vụ trong khi ca làm việc vẫn đang diễn ra - không phải sau khi tổng kết hàng tuần."
         },
         {
           "title": "Thông tin thị trường bên ngoài",
@@ -325,7 +325,7 @@ export const generatedLocalCopy = {
       "layers": [
         {
           "title": "Inteligență live a schimbului",
-          "why": "Vezi ritmul, forța de muncă, pierderile, comparațiile, abaterile de la serviciu în timp ce schimbul este încă în desfășurare — nu după recapitularea săptămânală."
+          "why": "Vezi ritmul, forța de muncă, pierderile, comparațiile, abaterile de la serviciu în timp ce schimbul este încă în desfășurare - nu după recapitularea săptămânală."
         },
         {
           "title": "Inteligență externă de piață",
@@ -367,7 +367,7 @@ export const generatedLocalCopy = {
       "layers": [
         {
           "title": "Live skiftintelligens",
-          "why": "Se takten, arbetskraft, läckage, jämförelser, voids och serviceavvikelser medan skiftet fortfarande pågår — inte efter veckans sammanfattning."
+          "why": "Se takten, arbetskraft, läckage, jämförelser, voids och serviceavvikelser medan skiftet fortfarande pågår - inte efter veckans sammanfattning."
         },
         {
           "title": "Extern marknadsintelligens",
@@ -388,7 +388,7 @@ export const generatedLocalCopy = {
       "layers": [
         {
           "title": "লাইভ শিফট বুদ্ধিমত্তা",
-          "why": "শিফট চলাকালীন পেসিং, শ্রম, লিকেজ, তুলনা, শূন্যতা এবং পরিষেবা ব্যতিক্রম দেখুন — সাপ্তাহিক সারাংশের পরে নয়।"
+          "why": "শিফট চলাকালীন পেসিং, শ্রম, লিকেজ, তুলনা, শূন্যতা এবং পরিষেবা ব্যতিক্রম দেখুন - সাপ্তাহিক সারাংশের পরে নয়।"
         },
         {
           "title": "বহিরাগত বাজার বুদ্ধিমত্তা",
@@ -409,7 +409,7 @@ export const generatedLocalCopy = {
       "layers": [
         {
           "title": "ข้อมูลเชิงลึกการเปลี่ยนกะแบบสด",
-          "why": "ดูการจัดการแรงงาน การรั่วไหล การเปรียบเทียบ การยกเลิก และข้อยกเว้นการบริการในขณะที่กะยังดำเนินอยู่ — ไม่ใช่หลังจากการสรุปประจำสัปดาห์."
+          "why": "ดูการจัดการแรงงาน การรั่วไหล การเปรียบเทียบ การยกเลิก และข้อยกเว้นการบริการในขณะที่กะยังดำเนินอยู่ - ไม่ใช่หลังจากการสรุปประจำสัปดาห์."
         },
         {
           "title": "ข้อมูลเชิงลึกตลาดภายนอก",
@@ -430,7 +430,7 @@ export const generatedLocalCopy = {
       "layers": [
         {
           "title": "Inteligens pergeseran langsung",
-          "why": "Lihat kelajuan, tenaga kerja, kebocoran, perbandingan, kekosongan, dan pengecualian perkhidmatan semasa pergeseran masih berjalan — bukan selepas ringkasan mingguan."
+          "why": "Lihat kelajuan, tenaga kerja, kebocoran, perbandingan, kekosongan, dan pengecualian perkhidmatan semasa pergeseran masih berjalan - bukan selepas ringkasan mingguan."
         },
         {
           "title": "Inteligens pasaran luar",

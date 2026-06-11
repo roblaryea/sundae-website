@@ -190,7 +190,7 @@ export const HEADLINES = {
   // Home page
   home: {
     hero: "Decision Intelligence for Restaurants & Hospitality Operations",
-    subhero: "Clear, contextual, AI-powered visibility into your entire operation — instantly.",
+    subhero: "Clear, contextual, AI-powered visibility into your entire operation - instantly.",
     problem: "One platform. Zero guesswork. Sundae analyzes performance, predicts what's coming, and tells your team exactly what to do next.",
     solution: "Every data source. Every location. One operating layer."
   },
@@ -263,7 +263,7 @@ export const CTA_BLOCKS = {
   
   pricing: {
     headline: "Transparent Pricing for Every Size",
-    subheadline: "From single locations to enterprise groups—plans that scale with you",
+    subheadline: "From single locations to enterprise groups-plans that scale with you",
     cta: CTA_LABELS.viewPricing,
     secondaryCta: CTA_LABELS.bookDemo
   },

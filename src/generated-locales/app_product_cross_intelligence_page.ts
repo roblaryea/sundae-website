@@ -3948,7 +3948,7 @@ export const generatedLocalCopy = {
       {
         "title": "Zeitleiste der Marketingauswirkungen",
         "headline": "Sehen Sie sich die verzögerten Auswirkungen jedes Marketing-Dollars an",
-        "description": "Überlagern Sie Marketingausgaben, Kampagnen und Werbeaktionen auf Ihrer Umsatzzeitleiste. Cross-Intelligence deckt die 3–7-tägige Verzögerung zwischen Marketingmaßnahmen und Umsatzauswirkungen auf, die herkömmliche Dashboards völlig übersehen.",
+        "description": "Überlagern Sie Marketingausgaben, Kampagnen und Werbeaktionen auf Ihrer Umsatzzeitleiste. Cross-Intelligence deckt die 3-7-tägige Verzögerung zwischen Marketingmaßnahmen und Umsatzauswirkungen auf, die herkömmliche Dashboards völlig übersehen.",
         "capabilities": [
           "Umsatz- und Marketingausgaben-Overlay mit einstellbaren Verzögerungsfenstern",
           "Zuordnung des Kampagnen-ROI mit statistischen Konfidenzwerten",
@@ -4644,7 +4644,7 @@ export const generatedLocalCopy = {
       {
         "title": "Kalendarium wpływu marketingowego",
         "headline": "Zobacz opóźnione skutki każdego dolara marketingowego",
-        "description": "Nakładaj wydatki marketingowe, kampanie i promocje na oś czasu przychodów. Cross-Intelligence ujawnia 3–7-dniowe opóźnienie między działaniami marketingowymi a wpływem na przychody, którego tradycyjne kokpity menedżerskie całkowicie pomijają.",
+        "description": "Nakładaj wydatki marketingowe, kampanie i promocje na oś czasu przychodów. Cross-Intelligence ujawnia 3-7-dniowe opóźnienie między działaniami marketingowymi a wpływem na przychody, którego tradycyjne kokpity menedżerskie całkowicie pomijają.",
         "capabilities": [
           "Nakładka Przychody + wydatki marketingowe z regulowanymi oknami opóźnień",
           "Atrybucja ROI kampanii ze statystycznymi wynikami zaufania",
@@ -6798,7 +6798,7 @@ export const generatedLocalCopy = {
       "problemDescription": "Jedes Intelligence-Modul erklärt einen Teil des Geschäfts. Cross-Intelligence hilft Teams zu erkennen, wie sich diese Teile gegenseitig beeinflussen.",
       "problemStats": [
         {
-          "stat": "3–7 Tage",
+          "stat": "3-7 Tage",
           "label": "Durchschnittliche Verzögerung zwischen Marketingausgaben und Umsatzauswirkungen",
           "icon": "time"
         },
@@ -6839,7 +6839,7 @@ export const generatedLocalCopy = {
       "problemDescription": "Elke intelligentiemodule legt een deel van de bedrijfsvoering uit. Cross-Intelligence helpt teams te zien hoe deze onderdelen elkaar beïnvloeden.",
       "problemStats": [
         {
-          "stat": "3–7 dagen",
+          "stat": "3-7 dagen",
           "label": "Gemiddelde vertraging tussen marketinguitgaven en omzetimpact",
           "icon": "time"
         },
@@ -6880,7 +6880,7 @@ export const generatedLocalCopy = {
       "problemDescription": "Cada módulo de inteligência explica uma parte do negócio. O Cross-Intelligence ajuda as equipes a ver como essas partes afetam umas às outras.",
       "problemStats": [
         {
-          "stat": "3–7 dias",
+          "stat": "3-7 dias",
           "label": "Atraso médio entre os gastos com marketing e o impacto na receita",
           "icon": "time"
         },
@@ -7003,7 +7003,7 @@ export const generatedLocalCopy = {
       "problemDescription": "Ogni modulo di intelligence spiega una parte dell'attività. L'intelligenza incrociata aiuta i team a vedere come queste parti si influenzano a vicenda. (Cross-Intelligence)",
       "problemStats": [
         {
-          "stat": "3–7 giorni",
+          "stat": "3-7 giorni",
           "label": "Ritardo medio tra la spesa di marketing e l'impatto sulle entrate",
           "icon": "time"
         },
@@ -7044,7 +7044,7 @@ export const generatedLocalCopy = {
       "problemDescription": "Każdy moduł inteligencji wyjaśnia jedną część działalności. Inteligencja krzyżowa pomaga zespołom zobaczyć, jak te części wpływają na siebie nawzajem. (Cross-Intelligence)",
       "problemStats": [
         {
-          "stat": "3–7 dni",
+          "stat": "3-7 dni",
           "label": "Średnie opóźnienie między wydatkami marketingowymi a wpływem na przychody",
           "icon": "time"
         },
@@ -7085,7 +7085,7 @@ export const generatedLocalCopy = {
       "problemDescription": "Each intelligence module explains one part of the business. Cross-Intelligence helps teams see how those parts affect each other.",
       "problemStats": [
         {
-          "stat": "3–7 天",
+          "stat": "3-7 天",
           "label": "营销支出和收入影响之间的平均延迟",
           "icon": "time"
         },
@@ -7249,7 +7249,7 @@ export const generatedLocalCopy = {
       "problemDescription": "Mỗi mô-đun thông minh giải thích một phần của hoạt động kinh doanh. Trí tuệ chéo giúp các nhóm biết được những phần đó ảnh hưởng lẫn nhau như thế nào. (Cross-Intelligence)",
       "problemStats": [
         {
-          "stat": "3–7 ngày",
+          "stat": "3-7 ngày",
           "label": "Độ trễ trung bình giữa chi tiêu tiếp thị và tác động đến doanh thu",
           "icon": "time"
         },
@@ -7290,7 +7290,7 @@ export const generatedLocalCopy = {
       "problemDescription": "Fiecare modul de informații explică o parte a afacerii. Cross-Intelligence ajută echipele să vadă cum acele părți se afectează reciproc.",
       "problemStats": [
         {
-          "stat": "3–7 zile",
+          "stat": "3-7 zile",
           "label": "Întârziere medie între cheltuielile de marketing și impactul asupra veniturilor",
           "icon": "time"
         },
@@ -7331,7 +7331,7 @@ export const generatedLocalCopy = {
       "problemDescription": "Setiap modul intelijen menjelaskan satu bagian bisnis. Cross-Intelligence membantu tim melihat bagaimana bagian-bagian tersebut saling mempengaruhi.",
       "problemStats": [
         {
-          "stat": "3–7 hari",
+          "stat": "3-7 hari",
           "label": "Penundaan rata-rata antara pengeluaran pemasaran dan dampak pendapatan",
           "icon": "time"
         },
@@ -7413,7 +7413,7 @@ export const generatedLocalCopy = {
       "problemDescription": "Varje intelligensmodul förklarar en del av verksamheten. Cross-Intelligence hjälper team att se hur dessa delar påverkar varandra.",
       "problemStats": [
         {
-          "stat": "3–7 dagar",
+          "stat": "3-7 dagar",
           "label": "Genomsnittlig fördröjning mellan marknadsföringsutgifter och intäktseffekt",
           "icon": "time"
         },
@@ -7454,7 +7454,7 @@ export const generatedLocalCopy = {
       "problemDescription": "โมดูลอัจฉริยะแต่ละโมดูลจะอธิบายส่วนหนึ่งของธุรกิจ Cross-Intelligence ช่วยให้ทีมเห็นว่าส่วนต่างๆ เหล่านั้นส่งผลกระทบซึ่งกันและกันอย่างไร",
       "problemStats": [
         {
-          "stat": "3–7 วัน",
+          "stat": "3-7 วัน",
           "label": "ความล่าช้าโดยเฉลี่ยระหว่างการใช้จ่ายทางการตลาดและผลกระทบต่อรายได้",
           "icon": "time"
         },
@@ -7495,7 +7495,7 @@ export const generatedLocalCopy = {
       "problemDescription": "Setiap modul perisikan menerangkan satu bahagian perniagaan. Kepintaran Silang membantu pasukan melihat cara bahagian tersebut mempengaruhi satu sama lain. (Cross-Intelligence)",
       "problemStats": [
         {
-          "stat": "3–7 hari",
+          "stat": "3-7 hari",
           "label": "Purata kelewatan antara perbelanjaan pemasaran dan kesan hasil",
           "icon": "time"
         },

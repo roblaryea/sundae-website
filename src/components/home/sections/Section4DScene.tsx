@@ -7,7 +7,7 @@ import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/components_home_sections_Section4DScene'
 
 /**
- * Section 6 — 4D Intelligence Model (homepage-spec-v1.1, polish r4 refactor).
+ * Section 6 - 4D Intelligence Model (homepage-spec-v1.1, polish r4 refactor).
  *
  * Conversion job: explain product. ONE concrete operational scenario unfolds
  * across four dimensions (What happened → Plan vs actual → Market context →
@@ -16,9 +16,9 @@ import { generatedLocalCopy } from '@/generated-locales/components_home_sections
  * Polish r4 changes (vs r1 GSAP-pinned implementation):
  *   - Removed GSAP ScrollTrigger and the h-screen pin (was creating dead space
  *     and overstating section weight without adding clarity)
- *   - Added explicit section signposting — buyer now knows it's the "4D
+ *   - Added explicit section signposting - buyer now knows it's the "4D
  *     Intelligence Model" and what dimensions to expect before content starts
- *   - Auto-cycle every 5.5s with hover/click pause — section is alive without
+ *   - Auto-cycle every 5.5s with hover/click pause - section is alive without
  *     scroll dependency
  *   - Dimension eyebrows promoted to global eyebrow class (now 13/14/15px
  *     responsive) for proper hierarchy
@@ -60,31 +60,31 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedFourD> = {
   en: {
     eyebrow: "THE 4D INTELLIGENCE MODEL",
     headline: "Watch one revenue problem become a decision.",
-    description: "Sundae connects performance, plan, market context, and next action — so teams can move before the shift is over.",
+    description: "Sundae connects performance, plan, market context, and next action - so teams can move before the shift is over.",
     scenarioTime: "TUESDAY · 9:14 AM · DOWNTOWN",
     scenarioHook: "Lunch revenue is pacing 14% behind plan.",
     illustrativeNote: "Illustrative scenario based on Sundae capabilities.",
-    closing: "From signal to cause to action — before the shift ends.",
+    closing: "From signal to cause to action - before the shift ends.",
     dimensions: [
-      { shortLabel: "What happened", eyebrow: "WHAT HAPPENED", title: "Covers are down 22%.", body: "Average check is steady, so the issue is traffic — not pricing." },
+      { shortLabel: "What happened", eyebrow: "WHAT HAPPENED", title: "Covers are down 22%.", body: "Average check is steady, so the issue is traffic - not pricing." },
       { shortLabel: "Plan vs actual", eyebrow: "PLAN VS ACTUAL", title: "The location is $3,800 behind forecast.", body: "Labor is still staffed to baseline, so margin is eroding by the hour." },
       { shortLabel: "Market context", eyebrow: "MARKET CONTEXT", title: "The market explains the gap.", body: "Nearby competitors dropped lunch combos, and a local office event is reducing foot traffic." },
       { shortLabel: "Next action", eyebrow: "NEXT ACTION", title: "Sundae Coach recommends the next move.", body: "Adjust labor if coverage allows, push the lunch offer, and give the team a chance to recover part of the gap before peak ends." },
     ],
-    visualHeader: "Pulse — Downtown · Lunch Service",
+    visualHeader: "Pulse - Downtown · Lunch Service",
     visualLabels: {
-      coversChart: "Lunch covers — today vs same day last week",
+      coversChart: "Lunch covers - today vs same day last week",
       coversTrend: "−22% WoW",
       planVsActual: "Plan vs actual",
       planVsActualVariance: "−$3,800 vs forecast",
       forecast: "Forecast",
       actualRunRate: "Actual run-rate",
-      laborNote: "Labor still on baseline — overstaffed for this volume.",
+      laborNote: "Labor still on baseline - overstaffed for this volume.",
       watchtower: "Watchtower",
       watchtowerItem1: "3 competitors within 2km dropped lunch combos to $9.99 yesterday",
-      watchtowerItem2: "Office-tower fire drill scheduled 11–12, 2 blocks away",
+      watchtowerItem2: "Office-tower fire drill scheduled 11-12, 2 blocks away",
       coach: "Sundae Coach",
-      coachBody: "Adjust one line-cook shift from 11–2 if coverage allows. Push the $11.99 lunch combo via loyalty.",
+      coachBody: "Adjust one line-cook shift from 11-2 if coverage allows. Push the $11.99 lunch combo via loyalty.",
       coachProjection: "Projected impact: recover part of the gap if executed before lunch peak.",
       illustrative: "Illustrative",
     },
@@ -92,31 +92,31 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedFourD> = {
   ar: {
     eyebrow: "نموذج الذكاء رباعي الأبعاد",
     headline: "شاهد مشكلة إيرادات واحدة تتحول إلى قرار.",
-    description: "Sundae يربط الأداء والخطة وسياق السوق والخطوة التالية — فتستطيع الفِرَق التحرك قبل نهاية الوردية.",
+    description: "Sundae يربط الأداء والخطة وسياق السوق والخطوة التالية - فتستطيع الفِرَق التحرك قبل نهاية الوردية.",
     scenarioTime: "الثلاثاء · 9:14 صباحاً · وسط المدينة",
     scenarioHook: "إيرادات الغداء تتأخر 14% خلف الخطة.",
     illustrativeNote: "سيناريو توضيحي بناءً على قدرات Sundae.",
-    closing: "من إشارة إلى سبب إلى فعل — قبل نهاية الوردية.",
+    closing: "من إشارة إلى سبب إلى فعل - قبل نهاية الوردية.",
     dimensions: [
-      { shortLabel: "ما حدث", eyebrow: "ما حدث", title: "الضيوف انخفضوا 22%.", body: "متوسط الفاتورة ثابت، فالمشكلة في حركة الزبائن — لا التسعير." },
+      { shortLabel: "ما حدث", eyebrow: "ما حدث", title: "الضيوف انخفضوا 22%.", body: "متوسط الفاتورة ثابت، فالمشكلة في حركة الزبائن - لا التسعير." },
       { shortLabel: "الخطة مقابل الفعلي", eyebrow: "الخطة مقابل الفعلي", title: "الموقع يتأخر 3,800$ عن التوقع.", body: "العمالة ما زالت على الأساس، فالهامش يتآكل بالساعة." },
       { shortLabel: "سياق السوق", eyebrow: "سياق السوق", title: "السوق يفسر الفجوة.", body: "المنافسون القريبون خفضوا كومبو الغداء، وحدث مكتبي محلي يقلل حركة المرور." },
       { shortLabel: "الفعل التالي", eyebrow: "الفعل التالي", title: "Sundae Coach يوصي بالخطوة التالية.", body: "اضبط العمالة إن سمحت التغطية، اعرض الغداء، وامنح الفريق فرصة لاستعادة جزء من الفجوة قبل ذروة الغداء." },
     ],
-    visualHeader: "Pulse — وسط المدينة · خدمة الغداء",
+    visualHeader: "Pulse - وسط المدينة · خدمة الغداء",
     visualLabels: {
-      coversChart: "ضيوف الغداء — اليوم مقابل نفس اليوم الأسبوع الماضي",
+      coversChart: "ضيوف الغداء - اليوم مقابل نفس اليوم الأسبوع الماضي",
       coversTrend: "−22% أسبوعياً",
       planVsActual: "الخطة مقابل الفعلي",
       planVsActualVariance: "−3,800$ عن التوقع",
       forecast: "التوقع",
       actualRunRate: "المعدل الفعلي",
-      laborNote: "العمالة ما زالت على الأساس — زائدة لهذا الحجم.",
+      laborNote: "العمالة ما زالت على الأساس - زائدة لهذا الحجم.",
       watchtower: "Watchtower",
       watchtowerItem1: "3 منافسين ضمن 2 كم خفضوا كومبو الغداء إلى 9.99$ أمس",
-      watchtowerItem2: "تدريب حريق في برج مكاتب مجدول 11–12، على بُعد كتلتين",
+      watchtowerItem2: "تدريب حريق في برج مكاتب مجدول 11-12، على بُعد كتلتين",
       coach: "Sundae Coach",
-      coachBody: "اضبط وردية طاهي خط واحدة من 11–2 إن سمحت التغطية. اعرض كومبو الغداء بـ 11.99$ عبر الولاء.",
+      coachBody: "اضبط وردية طاهي خط واحدة من 11-2 إن سمحت التغطية. اعرض كومبو الغداء بـ 11.99$ عبر الولاء.",
       coachProjection: "الأثر المتوقع: استعادة جزء من الفجوة إذا نُفذ قبل ذروة الغداء.",
       illustrative: "توضيحي",
     },
@@ -124,31 +124,31 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedFourD> = {
   fr: {
     eyebrow: "LE MODÈLE D'INTELLIGENCE 4D",
     headline: "Regardez un problème de revenu devenir une décision.",
-    description: "Sundae connecte performance, plan, contexte marché et action suivante — pour que les équipes bougent avant la fin du service.",
+    description: "Sundae connecte performance, plan, contexte marché et action suivante - pour que les équipes bougent avant la fin du service.",
     scenarioTime: "MARDI · 9H14 · CENTRE-VILLE",
     scenarioHook: "Le revenu déjeuner est à 14% en dessous du plan.",
     illustrativeNote: "Scénario illustratif basé sur les capacités Sundae.",
-    closing: "Du signal à la cause à l'action — avant la fin du service.",
+    closing: "Du signal à la cause à l'action - avant la fin du service.",
     dimensions: [
-      { shortLabel: "Ce qui s'est passé", eyebrow: "CE QUI S'EST PASSÉ", title: "Les couverts ont baissé de 22%.", body: "Le ticket moyen est stable, le problème c'est le trafic — pas le prix." },
+      { shortLabel: "Ce qui s'est passé", eyebrow: "CE QUI S'EST PASSÉ", title: "Les couverts ont baissé de 22%.", body: "Le ticket moyen est stable, le problème c'est le trafic - pas le prix." },
       { shortLabel: "Plan vs réel", eyebrow: "PLAN VS RÉEL", title: "Le site est à 3 800$ derrière la prévision.", body: "La main-d'œuvre est toujours au baseline, la marge s'érode à l'heure." },
       { shortLabel: "Contexte marché", eyebrow: "CONTEXTE MARCHÉ", title: "Le marché explique l'écart.", body: "Les concurrents proches ont baissé les combos déjeuner et un événement bureau local réduit le passage." },
       { shortLabel: "Action suivante", eyebrow: "ACTION SUIVANTE", title: "Sundae Coach recommande le coup suivant.", body: "Ajustez la main-d'œuvre si la couverture le permet, poussez l'offre déjeuner et donnez à l'équipe une chance de récupérer avant la fin du peak." },
     ],
-    visualHeader: "Pulse — Centre-ville · Service déjeuner",
+    visualHeader: "Pulse - Centre-ville · Service déjeuner",
     visualLabels: {
-      coversChart: "Couverts déjeuner — aujourd'hui vs même jour la semaine dernière",
+      coversChart: "Couverts déjeuner - aujourd'hui vs même jour la semaine dernière",
       coversTrend: "−22% S/S",
       planVsActual: "Plan vs réel",
       planVsActualVariance: "−3 800$ vs prévision",
       forecast: "Prévision",
       actualRunRate: "Run-rate réel",
-      laborNote: "Main-d'œuvre au baseline — sur-effectifs pour ce volume.",
+      laborNote: "Main-d'œuvre au baseline - sur-effectifs pour ce volume.",
       watchtower: "Watchtower",
       watchtowerItem1: "3 concurrents à moins de 2km ont baissé les combos déjeuner à 9,99$ hier",
-      watchtowerItem2: "Exercice incendie tour de bureaux prévu 11h–12h, à 2 pâtés",
+      watchtowerItem2: "Exercice incendie tour de bureaux prévu 11h-12h, à 2 pâtés",
       coach: "Sundae Coach",
-      coachBody: "Ajustez une vacation de cuisinier de 11h–14h si la couverture le permet. Poussez le combo à 11,99$ via loyalty.",
+      coachBody: "Ajustez une vacation de cuisinier de 11h-14h si la couverture le permet. Poussez le combo à 11,99$ via loyalty.",
       coachProjection: "Impact projeté : récupération partielle si exécuté avant le pic.",
       illustrative: "Illustratif",
     },
@@ -156,31 +156,31 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedFourD> = {
   es: {
     eyebrow: "EL MODELO DE INTELIGENCIA 4D",
     headline: "Mira cómo un problema de ingresos se vuelve una decisión.",
-    description: "Sundae conecta rendimiento, plan, contexto de mercado y próxima acción — para que los equipos actúen antes de que termine el turno.",
+    description: "Sundae conecta rendimiento, plan, contexto de mercado y próxima acción - para que los equipos actúen antes de que termine el turno.",
     scenarioTime: "MARTES · 9:14 AM · CENTRO",
     scenarioHook: "El ingreso del almuerzo va 14% atrás del plan.",
     illustrativeNote: "Escenario ilustrativo basado en capacidades de Sundae.",
-    closing: "De señal a causa a acción — antes del fin del turno.",
+    closing: "De señal a causa a acción - antes del fin del turno.",
     dimensions: [
-      { shortLabel: "Qué pasó", eyebrow: "QUÉ PASÓ", title: "Los cubiertos bajaron 22%.", body: "El ticket medio está estable, el problema es tráfico — no precio." },
+      { shortLabel: "Qué pasó", eyebrow: "QUÉ PASÓ", title: "Los cubiertos bajaron 22%.", body: "El ticket medio está estable, el problema es tráfico - no precio." },
       { shortLabel: "Plan vs real", eyebrow: "PLAN VS REAL", title: "El local va $3,800 atrás del forecast.", body: "El personal sigue en baseline, así que el margen se erosiona por hora." },
       { shortLabel: "Contexto de mercado", eyebrow: "CONTEXTO DE MERCADO", title: "El mercado explica la brecha.", body: "Competidores cercanos bajaron combos de almuerzo y un evento de oficina local reduce el tráfico." },
       { shortLabel: "Próxima acción", eyebrow: "PRÓXIMA ACCIÓN", title: "Sundae Coach recomienda el siguiente movimiento.", body: "Ajusta personal si la cobertura lo permite, empuja la oferta de almuerzo y da al equipo una oportunidad de recuperar parte de la brecha antes del cierre del peak." },
     ],
-    visualHeader: "Pulse — Centro · Servicio de almuerzo",
+    visualHeader: "Pulse - Centro · Servicio de almuerzo",
     visualLabels: {
-      coversChart: "Cubiertos de almuerzo — hoy vs mismo día la semana pasada",
+      coversChart: "Cubiertos de almuerzo - hoy vs mismo día la semana pasada",
       coversTrend: "−22% S/S",
       planVsActual: "Plan vs real",
       planVsActualVariance: "−$3,800 vs forecast",
       forecast: "Forecast",
       actualRunRate: "Run-rate real",
-      laborNote: "Personal en baseline — sobreasignado para este volumen.",
+      laborNote: "Personal en baseline - sobreasignado para este volumen.",
       watchtower: "Watchtower",
       watchtowerItem1: "3 competidores en 2km bajaron combos de almuerzo a $9.99 ayer",
-      watchtowerItem2: "Simulacro de incendio en torre de oficinas 11–12, a 2 cuadras",
+      watchtowerItem2: "Simulacro de incendio en torre de oficinas 11-12, a 2 cuadras",
       coach: "Sundae Coach",
-      coachBody: "Ajusta un turno de cocinero de 11–2 si la cobertura lo permite. Empuja el combo de $11.99 vía loyalty.",
+      coachBody: "Ajusta un turno de cocinero de 11-2 si la cobertura lo permite. Empuja el combo de $11.99 vía loyalty.",
       coachProjection: "Impacto proyectado: recuperación parcial si se ejecuta antes del peak.",
       illustrative: "Ilustrativo",
     },
@@ -195,7 +195,7 @@ export function Section4DScene() {
   const [activeIdx, setActiveIdx] = useState(0);
   const [paused, setPaused] = useState(false);
 
-  // Auto-cycle through dimensions every 5.5s — pauses on hover/focus
+  // Auto-cycle through dimensions every 5.5s - pauses on hover/focus
   useEffect(() => {
     if (reduceMotion || paused) return;
     const id = setInterval(() => {
@@ -239,7 +239,7 @@ export function Section4DScene() {
           onMouseLeave={() => setPaused(false)}
           onFocus={() => setPaused(true)}
         >
-          {/* Dimension breadcrumb — sentence case, "01 What happened" feel.
+          {/* Dimension breadcrumb - sentence case, "01 What happened" feel.
               Active pill: blue bg + glow. Inactive: muted surface, easier to read. */}
           <div className="flex flex-wrap justify-center items-center gap-x-2 gap-y-2 text-[13px] sm:text-[14px] mb-5 sm:mb-6">
             {dimensions.map((d, i) => {
@@ -298,7 +298,7 @@ export function Section4DScene() {
               </AnimatePresence>
             </div>
 
-            {/* Visual — morphs with active dimension */}
+            {/* Visual - morphs with active dimension */}
             <div>
               <SceneVisual activeIdx={activeIdx} header={copy.visualHeader} labels={copy.visualLabels} />
             </div>
@@ -331,9 +331,10 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
         <span className="ml-auto text-[9px] uppercase tracking-[0.14em] font-bold text-[var(--brand-yellow)]/80">{labels.illustrative}</span>
       </div>
 
-      {/* Fixed-height "screen": panels build up 1→4 INSIDE this container, so the
-          dashboard grows in place and never shifts the sections below it. */}
-      <div className="p-5 space-y-4 min-h-[440px] lg:min-h-[460px]">
+      {/* Fixed "screen": all four panels are ALWAYS present (constant height),
+          so the section never resizes - the active context simply lights up as
+          the scenario advances 1 → 4. */}
+      <div className="p-5 space-y-4">
         <div className="rounded-lg bg-[var(--surface-subtle)] border border-[var(--border-default)] p-4">
           <div className="flex items-center justify-between mb-3">
             <div className="text-[11px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
@@ -358,97 +359,79 @@ function SceneVisual({ activeIdx, header, labels }: { activeIdx: number; header:
         </div>
 
         {/* Dimension 2: forecast variance */}
-        <AnimatePresence>
-          {activeIdx >= 1 && (
-            <motion.div
-              initial={{ opacity: 0, height: 0 }}
-              animate={{ opacity: 1, height: "auto" }}
-              exit={{ opacity: 0, height: 0 }}
-              transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-              className="rounded-lg bg-[var(--surface-subtle)] border border-[var(--border-default)] p-4 overflow-hidden"
-            >
-              <div className="flex items-center justify-between mb-2">
-                <div className="text-[11px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
-                  {labels.planVsActual}
-                </div>
-                <span className="text-[10px] text-[#FF5450] font-mono">
-                  {labels.planVsActualVariance}
-                </span>
-              </div>
-              <div className="grid grid-cols-2 gap-3 text-[12px]">
-                <div>
-                  <div className="text-[10px] text-[var(--text-muted)]">{labels.forecast}</div>
-                  <div className="font-mono text-[var(--text-secondary)]">$18,620</div>
-                </div>
-                <div>
-                  <div className="text-[10px] text-[var(--text-muted)]">{labels.actualRunRate}</div>
-                  <div className="font-mono text-[#FF5450]">$14,820</div>
-                </div>
-              </div>
-              <div className="mt-3 pt-3 border-t border-[var(--border-default)] text-[11px] text-[var(--text-muted)]">
-                {labels.laborNote}
-              </div>
-            </motion.div>
-          )}
-        </AnimatePresence>
+        <motion.div
+          animate={{ opacity: activeIdx >= 1 ? 1 : 0.12 }}
+          transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
+          className="rounded-lg bg-[var(--surface-subtle)] border border-[var(--border-default)] p-4"
+        >
+          <div className="flex items-center justify-between mb-2">
+            <div className="text-[11px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
+              {labels.planVsActual}
+            </div>
+            <span className="text-[10px] text-[#FF5450] font-mono">
+              {labels.planVsActualVariance}
+            </span>
+          </div>
+          <div className="grid grid-cols-2 gap-3 text-[12px]">
+            <div>
+              <div className="text-[10px] text-[var(--text-muted)]">{labels.forecast}</div>
+              <div className="font-mono text-[var(--text-secondary)]">$18,620</div>
+            </div>
+            <div>
+              <div className="text-[10px] text-[var(--text-muted)]">{labels.actualRunRate}</div>
+              <div className="font-mono text-[#FF5450]">$14,820</div>
+            </div>
+          </div>
+          <div className="mt-3 pt-3 border-t border-[var(--border-default)] text-[11px] text-[var(--text-muted)]">
+            {labels.laborNote}
+          </div>
+        </motion.div>
 
         {/* Dimension 3: market context */}
-        <AnimatePresence>
-          {activeIdx >= 2 && (
-            <motion.div
-              initial={{ opacity: 0, height: 0 }}
-              animate={{ opacity: 1, height: "auto" }}
-              exit={{ opacity: 0, height: 0 }}
-              transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-              className="rounded-lg p-4 overflow-hidden"
-              style={{
-                background: "rgba(245,158,11,0.08)",
-                borderLeft: "3px solid #F59E0B",
-              }}
-            >
-              <div className="flex items-center gap-2 mb-2">
-                <span className="text-[10px] uppercase tracking-wider font-bold text-[#F59E0B]">
-                  {labels.watchtower}
-                </span>
-              </div>
-              <ul className="text-[12px] text-[var(--text-secondary)] space-y-1">
-                <li>
-                  <span className="text-[var(--text-muted)]">·</span> {labels.watchtowerItem1}
-                </li>
-                <li>
-                  <span className="text-[var(--text-muted)]">·</span> {labels.watchtowerItem2}
-                </li>
-              </ul>
-            </motion.div>
-          )}
-        </AnimatePresence>
+        <motion.div
+          animate={{ opacity: activeIdx >= 2 ? 1 : 0.12 }}
+          transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
+          className="rounded-lg p-4"
+          style={{
+            background: "rgba(245,158,11,0.08)",
+            borderLeft: "3px solid #F59E0B",
+          }}
+        >
+          <div className="flex items-center gap-2 mb-2">
+            <span className="text-[10px] uppercase tracking-wider font-bold text-[#F59E0B]">
+              {labels.watchtower}
+            </span>
+          </div>
+          <ul className="text-[12px] text-[var(--text-secondary)] space-y-1">
+            <li>
+              <span className="text-[var(--text-muted)]">·</span> {labels.watchtowerItem1}
+            </li>
+            <li>
+              <span className="text-[var(--text-muted)]">·</span> {labels.watchtowerItem2}
+            </li>
+          </ul>
+        </motion.div>
 
         {/* Dimension 4: Sundae Coach recommendation */}
-        <AnimatePresence>
-          {activeIdx >= 3 && (
-            <motion.div
-              initial={{ opacity: 0, height: 0 }}
-              animate={{ opacity: 1, height: "auto" }}
-              exit={{ opacity: 0, height: 0 }}
-              transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-              className="rounded-lg p-4 overflow-hidden"
-              style={{
-                background: "rgba(255,92,77,0.08)",
-                borderLeft: "3px solid #FF5C4D",
-              }}
-            >
-              <div className="text-[10px] uppercase tracking-wider font-bold text-[var(--warm-coral)] mb-2">
-                {labels.coach}
-              </div>
-              <p className="text-[12px] text-[var(--text-primary)] leading-relaxed">
-                {labels.coachBody}{" "}
-                <span className="text-[var(--text-secondary)]">
-                  {labels.coachProjection}
-                </span>
-              </p>
-            </motion.div>
-          )}
-        </AnimatePresence>
+        <motion.div
+          animate={{ opacity: activeIdx >= 3 ? 1 : 0.12 }}
+          transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
+          className="rounded-lg p-4"
+          style={{
+            background: "rgba(255,92,77,0.08)",
+            borderLeft: "3px solid #FF5C4D",
+          }}
+        >
+          <div className="text-[10px] uppercase tracking-wider font-bold text-[var(--warm-coral)] mb-2">
+            {labels.coach}
+          </div>
+          <p className="text-[12px] text-[var(--text-primary)] leading-relaxed">
+            {labels.coachBody}{" "}
+            <span className="text-[var(--text-secondary)]">
+              {labels.coachProjection}
+            </span>
+          </p>
+        </motion.div>
       </div>
     </div>
   );

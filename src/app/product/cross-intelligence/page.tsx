@@ -1013,7 +1013,7 @@ const crossIntelligenceCopy = {
     problemDescription:
       'Each intelligence module explains one part of the business. Cross-Intelligence helps teams see how those parts affect each other.',
     problemStats: [
-      { stat: "3–7 days", label: "Average delay between marketing spend and revenue impact", icon: "time" as SundaeIconName },
+      { stat: "3-7 days", label: "Average delay between marketing spend and revenue impact", icon: "time" as SundaeIconName },
       { stat: "23%", label: "Of promotions show measurable cannibalization of existing items", icon: "warning" as SundaeIconName },
       { stat: "5x", label: "More causal factors identified vs single-module analysis", icon: "increase" as SundaeIconName },
     ],
@@ -1048,7 +1048,7 @@ const crossIntelligenceCopy = {
     problemDescription:
       'كل وحدة تمنحك قراءة قوية داخل مجال واحد مثل العمالة أو المخزون أو التسويق أو الإيرادات. لكن الصورة الأوضح تظهر عندما ترى كيف يؤثر كل مجال في الآخر.',
     problemStats: [
-      { stat: "3–7 أيام", label: "متوسط التأخير بين الإنفاق التسويقي وأثره على الإيرادات", icon: "time" as SundaeIconName },
+      { stat: "3-7 أيام", label: "متوسط التأخير بين الإنفاق التسويقي وأثره على الإيرادات", icon: "time" as SundaeIconName },
       { stat: "23%", label: "من العروض تُظهر استهلاكاً متبادلاً قابلاً للقياس", icon: "warning" as SundaeIconName },
       { stat: "5x", label: "عوامل سببية أكثر من التحليل أحادي الوحدة", icon: "increase" as SundaeIconName },
     ],
@@ -1083,7 +1083,7 @@ const crossIntelligenceCopy = {
     problemDescription:
       'Chaque module apporte une lecture utile sur un domaine, qu il s agisse de la main-d oeuvre, du stock, du marketing ou du revenu. Mais les decisions les plus solides viennent des liens entre ces domaines.',
     problemStats: [
-      { stat: "3–7 jours", label: "Delai moyen entre les depenses marketing et leur impact sur le revenu", icon: "time" as SundaeIconName },
+      { stat: "3-7 jours", label: "Delai moyen entre les depenses marketing et leur impact sur le revenu", icon: "time" as SundaeIconName },
       { stat: "23%", label: "Des promotions montrent une cannibalisation mesurable des articles existants", icon: "warning" as SundaeIconName },
       { stat: "5x", label: "De facteurs causaux identifies vs analyse mono-module", icon: "increase" as SundaeIconName },
     ],
@@ -1118,7 +1118,7 @@ const crossIntelligenceCopy = {
     problemDescription:
       'Cada modulo te da una lectura fuerte de un dominio, ya sea mano de obra, inventario, marketing o ingresos. Pero las decisiones mas solidas salen de ver como se afectan entre si.',
     problemStats: [
-      { stat: "3–7 dias", label: "Retraso promedio entre el gasto de marketing y su impacto en ingresos", icon: "time" as SundaeIconName },
+      { stat: "3-7 dias", label: "Retraso promedio entre el gasto de marketing y su impacto en ingresos", icon: "time" as SundaeIconName },
       { stat: "23%", label: "De las promociones muestran canibalizacion medible de articulos existentes", icon: "warning" as SundaeIconName },
       { stat: "5x", label: "Mas factores causales identificados frente al analisis de un solo modulo", icon: "increase" as SundaeIconName },
     ],
@@ -1307,7 +1307,7 @@ export default function CrossIntelligencePage() {
                     {tierComparison.map(f => (
                       <li key={f.feature} className="flex items-center gap-2 text-sm text-[var(--text-secondary)]">
                         <span className={f.pro ? "text-cyan-400" : "text-[var(--text-muted)]"}>
-                          {f.pro ? "✓" : "—"}
+                          {f.pro ? "✓" : "-"}
                         </span>
                         {f.feature}
                       </li>

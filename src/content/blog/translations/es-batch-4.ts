@@ -771,7 +771,7 @@ El labor representa entre 28% y 35% de los ingresos de un restaurante, lo que ha
 
 ## Por qué esto importa para los operadores de restaurantes
 
-Los errores en la previsión de labor se acumulan rápidamente en portafolios con múltiples ubicaciones. Un error de programación del 15% —típico con promedios históricos— significa que o estás desperdiciando 15% del presupuesto laboral en turnos lentos o estás perdiendo ingresos en turnos ocupados por subdotación. Para operadores multiubicación, los retos se multiplican:
+Los errores en la previsión de labor se acumulan rápidamente en portafolios con múltiples ubicaciones. Un error de programación del 15% -típico con promedios históricos- significa que o estás desperdiciando 15% del presupuesto laboral en turnos lentos o estás perdiendo ingresos en turnos ocupados por subdotación. Para operadores multiubicación, los retos se multiplican:
 
 - **Patrones de tráfico variables**: el mismo daypart se comporta distinto lunes vs viernes, primera semana vs última semana del mes
 - **Factores externos**: clima, eventos locales, calendarios escolares y feriados impactan la demanda de forma impredecible

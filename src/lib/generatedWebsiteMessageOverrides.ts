@@ -4,8 +4,8 @@
 export const generatedWebsiteMessageOverrides = {
   "de": {
     "metadata": {
-      "title": "Sundae – Entscheidungsintelligenz für Restaurants",
-      "description": "Die KI-Plattform, die Restaurantdaten in Aktionen umwandelt – vereinheitlichen Sie POS-, Arbeits-, Kosten- und Betriebsdaten, um die Leistung zu benchmarken und sofortige Einblicke zu erhalten."
+      "title": "Sundae - Entscheidungsintelligenz für Restaurants",
+      "description": "Die KI-Plattform, die Restaurantdaten in Aktionen umwandelt - vereinheitlichen Sie POS-, Arbeits-, Kosten- und Betriebsdaten, um die Leistung zu benchmarken und sofortige Einblicke zu erhalten."
     },
     "layout": {
       "skipToContent": "Zum Hauptinhalt springen",
@@ -196,7 +196,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "Entscheidungsintelligenz-Plattform",
       "titleTop": "Entscheidungsintelligenz",
       "titleBottom": "für Restaurants",
-      "description": "Ihre Daten leben in 5–10 getrennten Systemen. Ihr Team entscheidet aus dem Bauch heraus, während täglich Margen verloren gehen.",
+      "description": "Ihre Daten leben in 5-10 getrennten Systemen. Ihr Team entscheidet aus dem Bauch heraus, während täglich Margen verloren gehen.",
       "descriptionEmphasis": "Das ist der Kompromiss, den Sundae beseitigt.",
       "narrativeAnchor": "Von Berichterstattungslücken zu Betriebsgeschwindigkeit.",
       "startFree": "Kostenlos starten",
@@ -254,7 +254,7 @@ export const generatedWebsiteMessageOverrides = {
       "platform": {
         "eyebrow": "6 LAYER · EINE WAHRHEIT",
         "heading": "Sechs Lagen. Eine Wahrheit.",
-        "description": "Vom Live-Schicht bis zum langfristigen Plan — ein Stack, sechs Lagen, die miteinander kommunizieren.",
+        "description": "Vom Live-Schicht bis zum langfristigen Plan - ein Stack, sechs Lagen, die miteinander kommunizieren.",
         "countLabel": "von 6",
         "exploreModules": "Alle Module erkunden",
         "learnMore": "Mehr erfahren",
@@ -262,7 +262,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "Echtzeit-Operationen",
-            "description": "Live-Pacing, adaptive Ziele, Serverleistung, Leckagen — Schicht für Schicht.",
+            "description": "Live-Pacing, adaptive Ziele, Serverleistung, Leckagen - Schicht für Schicht.",
             "href": "/product/pulse"
           },
           {
@@ -274,13 +274,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Watchtower",
             "subtitle": "Marktintelligenz",
-            "description": "Wettbewerber, Wetter, Ereignisse — bevor sie Ihre Zahlen beeinflussen.",
+            "description": "Wettbewerber, Wetter, Ereignisse - bevor sie Ihre Zahlen beeinflussen.",
             "href": "/product/watchtower"
           },
           {
             "name": "Insights",
             "subtitle": "12 Analyse-Module",
-            "description": "Umsatz, Personal, Inventar, Marketing, Lieferung — jedes mit KI-Empfehlungen.",
+            "description": "Umsatz, Personal, Inventar, Marketing, Lieferung - jedes mit KI-Empfehlungen.",
             "href": "/insights"
           },
           {
@@ -292,7 +292,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Foresight",
             "subtitle": "Prädiktive Intelligenz",
-            "description": "14–90 Tage Vorhersagen, Was-wäre-wenn-Szenarien, Executive-Briefings, die sich selbst korrigieren.",
+            "description": "14-90 Tage Vorhersagen, Was-wäre-wenn-Szenarien, Executive-Briefings, die sich selbst korrigieren.",
             "href": "/product/foresight"
           }
         ]
@@ -300,7 +300,7 @@ export const generatedWebsiteMessageOverrides = {
       "modules": {
         "eyebrow": "INTELLIGENZMODULES",
         "heading": "Über 30 Module in 12 Bereichen",
-        "description": "Jede Dimension der Restaurantleistung — analysiert, benchmarked und umsetzbar.",
+        "description": "Jede Dimension der Restaurantleistung - analysiert, benchmarked und umsetzbar.",
         "categories": [
           {
             "name": "Umsatzintelligenz",
@@ -360,7 +360,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "Betriebsleiter",
             "pain": "Sie können nicht gleichzeitig in jedem Restaurant sein.",
-            "outcome": "Echtzeit-Überwachung der Leistung und der Server in jedem Standort — sehen Sie, wer jetzt Hilfe benötigt.",
+            "outcome": "Echtzeit-Überwachung der Leistung und der Server in jedem Standort - sehen Sie, wer jetzt Hilfe benötigt.",
             "attribution": "Muster bei Multi-Location-Betreibern"
           },
           {
@@ -372,7 +372,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "C-Suite & Eigentümer",
             "pain": "Ihr schlechtester Standort ist bis Donnerstag unsichtbar.",
-            "outcome": "Portfolioansicht, tägliche KI-Updates, Marktsignale — für jede Marke, die Sie führen.",
+            "outcome": "Portfolioansicht, tägliche KI-Updates, Marktsignale - für jede Marke, die Sie führen.",
             "attribution": "Muster bei Gründern und Gruppen-CEOs"
           },
           {
@@ -390,7 +390,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "01",
             "title": "Verbinden",
-            "description": "POS, Personal, Inventar, Lieferung — die meisten Integrationen in weniger als 5 Minuten."
+            "description": "POS, Personal, Inventar, Lieferung - die meisten Integrationen in weniger als 5 Minuten."
           },
           {
             "step": "02",
@@ -400,7 +400,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "03",
             "title": "Entscheiden",
-            "description": "Spezifische, erklärbare Empfehlungen — Ziele, Personal, Menü, Preisgestaltung."
+            "description": "Spezifische, erklärbare Empfehlungen - Ziele, Personal, Menü, Preisgestaltung."
           },
           {
             "step": "04",
@@ -410,7 +410,7 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "mockup": {
-        "frameLabel": "Pulse — Verkaufsentwicklung",
+        "frameLabel": "Pulse - Verkaufsentwicklung",
         "updatedAt": "Dienstag, 19:42 Uhr",
         "kpis": [
           {
@@ -474,10 +474,10 @@ export const generatedWebsiteMessageOverrides = {
       "closingDescription": "30 Minuten. Ihre Daten. Was Sundae tatsächlich für das Team ändern würde.",
       "pages": {
         "signIn": {
-          "metadataTitle": "Anmelden — Sundae",
-          "metadataDescription": "Melden Sie sich bei Sundae an — Ihrer einheitlichen Sicht auf Leistung, Betrieb und Wettbewerbsintelligenz für Restaurants.",
+          "metadataTitle": "Anmelden - Sundae",
+          "metadataDescription": "Melden Sie sich bei Sundae an - Ihrer einheitlichen Sicht auf Leistung, Betrieb und Wettbewerbsintelligenz für Restaurants.",
           "brandTitle": "Entscheidungsintelligenz für Restaurants",
-          "brandDescription": "Leistung, Betrieb und Wettbewerbsintelligenz — vereint auf einer Plattform.",
+          "brandDescription": "Leistung, Betrieb und Wettbewerbsintelligenz - vereint auf einer Plattform.",
           "trustPoints": [
             "Echtzeit-Betriebsintelligenz",
             "Benchmarking für mehrere Standorte",
@@ -586,7 +586,7 @@ export const generatedWebsiteMessageOverrides = {
           "viewPricing": "Preise ansehen"
         },
         "pricing": {
-          "metadataTitle": "Preise — Sundae",
+          "metadataTitle": "Preise - Sundae",
           "metadataDescription": "Einfache, transparente Preise für Sundae Report, Core, Watchtower und Module.",
           "badge": "Preise",
           "title": "Einfache, transparente Preise",
@@ -610,7 +610,7 @@ export const generatedWebsiteMessageOverrides = {
           "startFree": "Kostenlos starten"
         },
         "faq": {
-          "metadataTitle": "FAQ — Sundae",
+          "metadataTitle": "FAQ - Sundae",
           "metadataDescription": "Häufig gestellte Fragen zu Sundae - Preise, Integrationen, Datensicherheit, Onboarding und alles, was Restaurantbetreiber wissen müssen, bevor sie starten.",
           "badge": "Häufig gestellte Fragen",
           "title": "Alles, was Sie wissen müssen",
@@ -639,7 +639,7 @@ export const generatedWebsiteMessageOverrides = {
           ]
         },
         "modules": {
-          "metadataTitle": "Module — Sundae",
+          "metadataTitle": "Module - Sundae",
           "badge": "Spezialisierte Module",
           "title": "Gehen Sie tiefer, wo es am meisten zählt",
           "description": "Fügen Sie spezialisierte Module zu Sundae Core hinzu. Erhalten Sie tiefgehende Betriebsintelligenz in den Bereichen Personal, Inventar, Einkauf, Marketing und Reservierungen.",
@@ -676,7 +676,7 @@ export const generatedWebsiteMessageOverrides = {
           "contactSales": "Vertrieb kontaktieren"
         },
         "integrations": {
-          "metadataTitle": "Integrationen — Sundae",
+          "metadataTitle": "Integrationen - Sundae",
           "badge": "Integrationen",
           "title": "Alles verbinden. Ihre Daten vereinheitlichen.",
           "description": "Sundae integriert sich mit über 30 Restaurant-Systemen in den Bereichen POS, Personal, Inventar, Reservierungen, Lieferung und mehr.",
@@ -701,8 +701,8 @@ export const generatedWebsiteMessageOverrides = {
           "domainsDescription": "POS, Personal, Inventar, Einkauf, Reservierungen, Lieferung, Marketing, Gästeerfahrung, CRM, Buchhaltung und tägliche Verkaufszusammenfassungen - alles verbunden.",
           "live": "Live",
           "upcoming": "Demnächst",
-          "liveNow": "Live — jetzt verfügbar",
-          "roadmap": "Demnächst — auf unserem Fahrplan",
+          "liveNow": "Live - jetzt verfügbar",
+          "roadmap": "Demnächst - auf unserem Fahrplan",
           "roadmapDescription": "Kommende Integrationen sind aktiv in der Entwicklung. Zeitrahmen können variieren. Kontaktieren Sie uns, um Priorität für eine bestimmte Integration anzufordern.",
           "webhooksTitle": "Webhooks & öffentliche API",
           "webhooksDescription": "Erstellen Sie benutzerdefinierte Integrationen mit den Entwickler-Tools von Sundae.",
@@ -715,7 +715,7 @@ export const generatedWebsiteMessageOverrides = {
           "testPayloads": "Testpayloads und Lieferverfolgung"
         },
         "resources": {
-          "metadataTitle": "Ressourcen — Sundae",
+          "metadataTitle": "Ressourcen - Sundae",
           "badge": "Ressourcen & Tools",
           "title": "Ressourcen zur Entscheidungsintelligenz",
           "description": "Zugriff auf Leitfäden, Berichte und Tools, die Ihnen helfen, smartere Entscheidungen für Ihr Restaurantgeschäft zu treffen.",
@@ -746,8 +746,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "nl": {
     "metadata": {
-      "title": "Sundae – Besluitvormingsintelligentie voor Restaurants",
-      "description": "Het AI-platform dat restaurantdata omzet in actie — verenig POS-, arbeids-, kosten- en operationele gegevens om prestaties te benchmarken en directe inzichten te krijgen."
+      "title": "Sundae - Besluitvormingsintelligentie voor Restaurants",
+      "description": "Het AI-platform dat restaurantdata omzet in actie - verenig POS-, arbeids-, kosten- en operationele gegevens om prestaties te benchmarken en directe inzichten te krijgen."
     },
     "layout": {
       "skipToContent": "Overslaan naar hoofdinhoud",
@@ -938,7 +938,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "Beslissingsintelligentieplatform",
       "titleTop": "Beslissingsintelligentie",
       "titleBottom": "voor Restaurants",
-      "description": "Jouw data bevindt zich in 5–10 losse systemen. Jouw team beslist op gevoel terwijl de marges dagelijks leeglopen.",
+      "description": "Jouw data bevindt zich in 5-10 losse systemen. Jouw team beslist op gevoel terwijl de marges dagelijks leeglopen.",
       "descriptionEmphasis": "Dat is de afweging die Sundae wegneemt.",
       "narrativeAnchor": "Van rapportagevertraging naar operationele snelheid.",
       "startFree": "Begin Gratis",
@@ -996,7 +996,7 @@ export const generatedWebsiteMessageOverrides = {
       "platform": {
         "eyebrow": "6 LAGEN · ÉÉN WAARHEID",
         "heading": "Zes lagen. Één waarheid.",
-        "description": "Van de live shift tot het lange termijnplan — één stack, zes lagen die met elkaar communiceren.",
+        "description": "Van de live shift tot het lange termijnplan - één stack, zes lagen die met elkaar communiceren.",
         "countLabel": "van 6",
         "exploreModules": "Verken alle modules",
         "learnMore": "Meer leren",
@@ -1004,7 +1004,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "Realtime operaties",
-            "description": "Live pacing, adaptieve doelen, serverprestaties, lekken — shift voor shift.",
+            "description": "Live pacing, adaptieve doelen, serverprestaties, lekken - shift voor shift.",
             "href": "/product/pulse"
           },
           {
@@ -1016,13 +1016,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Watchtower",
             "subtitle": "Marktinformatie",
-            "description": "Concurrenten, weer, evenementen — voordat ze je cijfers beïnvloeden.",
+            "description": "Concurrenten, weer, evenementen - voordat ze je cijfers beïnvloeden.",
             "href": "/product/watchtower"
           },
           {
             "name": "Insights",
             "subtitle": "12 analysemodule",
-            "description": "Omzet, arbeid, voorraad, marketing, levering — elk met AI-aanbevelingen.",
+            "description": "Omzet, arbeid, voorraad, marketing, levering - elk met AI-aanbevelingen.",
             "href": "/insights"
           },
           {
@@ -1034,7 +1034,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Foresight",
             "subtitle": "Voorspellende intelligentie",
-            "description": "14–90 dagen voorspellingen, wat-als scenario's, executive briefings die zichzelf corrigeren.",
+            "description": "14-90 dagen voorspellingen, wat-als scenario's, executive briefings die zichzelf corrigeren.",
             "href": "/product/foresight"
           }
         ]
@@ -1042,7 +1042,7 @@ export const generatedWebsiteMessageOverrides = {
       "modules": {
         "eyebrow": "INTELLIGENTIE MODULES",
         "heading": "12 modules in 12 domeinen",
-        "description": "Elke dimensie van restaurantprestaties — geanalyseerd, vergeleken en actiegericht.",
+        "description": "Elke dimensie van restaurantprestaties - geanalyseerd, vergeleken en actiegericht.",
         "categories": [
           {
             "name": "Omzetintelligentie",
@@ -1102,7 +1102,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "Operationele Leiders",
             "pain": "Je kunt niet in elk restaurant tegelijk zijn.",
-            "outcome": "Live pacing en serverprestaties in elke vestiging — zie wie nu hulp nodig heeft.",
+            "outcome": "Live pacing en serverprestaties in elke vestiging - zie wie nu hulp nodig heeft.",
             "attribution": "Patroon bij multi-locatie operators"
           },
           {
@@ -1114,7 +1114,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "C-Suite & Eigenaren",
             "pain": "Je slechtste vestiging is onzichtbaar tot donderdag.",
-            "outcome": "Portefeuilleoverzicht, dagelijkse AI-briefings, marktsignalen — voor elk merk dat je runt.",
+            "outcome": "Portefeuilleoverzicht, dagelijkse AI-briefings, marktsignalen - voor elk merk dat je runt.",
             "attribution": "Patroon bij oprichters en groeps-CEO's"
           },
           {
@@ -1132,7 +1132,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "01",
             "title": "Verbinden",
-            "description": "POS, arbeid, voorraad, levering — de meeste integraties binnen 5 minuten."
+            "description": "POS, arbeid, voorraad, levering - de meeste integraties binnen 5 minuten."
           },
           {
             "step": "02",
@@ -1142,7 +1142,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "03",
             "title": "Beslissen",
-            "description": "Specifieke, verklaarbare aanbevelingen — doelen, personeel, menu, prijzen."
+            "description": "Specifieke, verklaarbare aanbevelingen - doelen, personeel, menu, prijzen."
           },
           {
             "step": "04",
@@ -1152,7 +1152,7 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "mockup": {
-        "frameLabel": "Pulse — Verkooptempo",
+        "frameLabel": "Pulse - Verkooptempo",
         "updatedAt": "Dinsdag, 19:42",
         "kpis": [
           {
@@ -1216,10 +1216,10 @@ export const generatedWebsiteMessageOverrides = {
       "closingDescription": "30 minuten. Jouw gegevens. Wat Sundae daadwerkelijk zou veranderen voor het team.",
       "pages": {
         "signIn": {
-          "metadataTitle": "Aanmelden — Sundae",
-          "metadataDescription": "Meld je aan bij Sundae — jouw uniforme weergave van prestaties, operaties en concurrentie-informatie voor restaurants.",
+          "metadataTitle": "Aanmelden - Sundae",
+          "metadataDescription": "Meld je aan bij Sundae - jouw uniforme weergave van prestaties, operaties en concurrentie-informatie voor restaurants.",
           "brandTitle": "Beslissingsintelligentie voor restaurants",
-          "brandDescription": "Prestaties, operaties en concurrentie-informatie — verenigd in één platform.",
+          "brandDescription": "Prestaties, operaties en concurrentie-informatie - verenigd in één platform.",
           "trustPoints": [
             "Informatie over operaties in real-time",
             "Benchmarking op meerdere locaties",
@@ -1328,7 +1328,7 @@ export const generatedWebsiteMessageOverrides = {
           "viewPricing": "Bekijk Prijzen"
         },
         "pricing": {
-          "metadataTitle": "Prijzen — Sundae",
+          "metadataTitle": "Prijzen - Sundae",
           "metadataDescription": "Eenvoudige, transparante prijzen voor Sundae Report, Core, Watchtower en modules.",
           "badge": "Prijzen",
           "title": "Eenvoudige, Transparante Prijzen",
@@ -1352,7 +1352,7 @@ export const generatedWebsiteMessageOverrides = {
           "startFree": "Begin Gratis"
         },
         "faq": {
-          "metadataTitle": "FAQ — Sundae",
+          "metadataTitle": "FAQ - Sundae",
           "metadataDescription": "Veelgestelde vragen over Sundae - prijzen, integraties, gegevensbeveiliging, onboarding en alles wat restaurantoperators moeten weten voordat ze beginnen.",
           "badge": "Veelgestelde Vragen",
           "title": "Alles Wat Je Moet Weten",
@@ -1381,7 +1381,7 @@ export const generatedWebsiteMessageOverrides = {
           ]
         },
         "modules": {
-          "metadataTitle": "Modules — Sundae",
+          "metadataTitle": "Modules - Sundae",
           "badge": "Gespecialiseerde Modules",
           "title": "Ga Dieper Waar Het Het Meest Telt",
           "description": "Voeg gespecialiseerde modules toe aan Sundae Core. Krijg diepgaande operationele intelligentie in arbeid, inventaris, inkoop, marketing en reserveringen.",
@@ -1418,7 +1418,7 @@ export const generatedWebsiteMessageOverrides = {
           "contactSales": "Neem Contact Op met Sales"
         },
         "integrations": {
-          "metadataTitle": "Integraties — Sundae",
+          "metadataTitle": "Integraties - Sundae",
           "badge": "Integraties",
           "title": "Verbind Alles. Vereenvoudig Jouw Gegevens.",
           "description": "Sundae integreert met 250+ restaurantsystemen op het gebied van POS, arbeid, inventaris, reserveringen, levering en meer.",
@@ -1443,8 +1443,8 @@ export const generatedWebsiteMessageOverrides = {
           "domainsDescription": "POS, arbeid, inventaris, inkoop, reserveringen, levering, marketing, gastenervaring, CRM, boekhouding en dagelijkse verkoopoverzichten - allemaal verbonden.",
           "live": "Live",
           "upcoming": "Komend",
-          "liveNow": "Live — nu beschikbaar",
-          "roadmap": "Komend — op onze roadmap",
+          "liveNow": "Live - nu beschikbaar",
+          "roadmap": "Komend - op onze roadmap",
           "roadmapDescription": "Komende integraties zijn actief in ontwikkeling. Tijdlijnen kunnen variëren. Neem contact met ons op om prioriteit te vragen voor een specifieke integratie.",
           "webhooksTitle": "Webhooks & Publieke API",
           "webhooksDescription": "Bouw aangepaste integraties met de ontwikkelaarstools van Sundae.",
@@ -1457,7 +1457,7 @@ export const generatedWebsiteMessageOverrides = {
           "testPayloads": "Test payloads en leveringstracking"
         },
         "resources": {
-          "metadataTitle": "Hulpmiddelen — Sundae",
+          "metadataTitle": "Hulpmiddelen - Sundae",
           "badge": "Hulpmiddelen & Tools",
           "title": "Beslissingsintelligentie Hulpmiddelen",
           "description": "Toegang tot gidsen, rapporten en tools om je te helpen slimmer te beslissen voor jouw restaurantbedrijf.",
@@ -1488,8 +1488,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "pt": {
     "metadata": {
-      "title": "Sundae – Inteligência de Decisão para Restaurantes",
-      "description": "A plataforma de IA que transforma dados de restaurantes em ações — unifique dados de POS, mão de obra, custos e operações para avaliar o desempenho e obter insights instantâneos."
+      "title": "Sundae - Inteligência de Decisão para Restaurantes",
+      "description": "A plataforma de IA que transforma dados de restaurantes em ações - unifique dados de POS, mão de obra, custos e operações para avaliar o desempenho e obter insights instantâneos."
     },
     "layout": {
       "skipToContent": "Pular para o conteúdo principal",
@@ -1738,7 +1738,7 @@ export const generatedWebsiteMessageOverrides = {
       "platform": {
         "eyebrow": "6 CAMADAS · UMA VERDADE",
         "heading": "Seis camadas. Uma verdade.",
-        "description": "Da operação ao vivo ao plano de longo prazo — uma pilha, seis camadas que se comunicam entre si.",
+        "description": "Da operação ao vivo ao plano de longo prazo - uma pilha, seis camadas que se comunicam entre si.",
         "countLabel": "de 6",
         "exploreModules": "Explore todos os módulos",
         "learnMore": "Saiba mais",
@@ -1746,7 +1746,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "Operações em tempo real",
-            "description": "Ritmo ao vivo, metas adaptativas, desempenho do servidor, vazamentos — turno a turno.",
+            "description": "Ritmo ao vivo, metas adaptativas, desempenho do servidor, vazamentos - turno a turno.",
             "href": "/product/pulse"
           },
           {
@@ -1758,13 +1758,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Watchtower",
             "subtitle": "Inteligência de mercado",
-            "description": "Concorrentes, clima, eventos — antes que afetem seus números.",
+            "description": "Concorrentes, clima, eventos - antes que afetem seus números.",
             "href": "/product/watchtower"
           },
           {
             "name": "Insights",
             "subtitle": "12 módulos de análise",
-            "description": "Receita, mão de obra, inventário, marketing, entrega — cada um com recomendações de IA.",
+            "description": "Receita, mão de obra, inventário, marketing, entrega - cada um com recomendações de IA.",
             "href": "/insights"
           },
           {
@@ -1784,7 +1784,7 @@ export const generatedWebsiteMessageOverrides = {
       "modules": {
         "eyebrow": "MÓDULOS DE INTELIGÊNCIA",
         "heading": "12 módulos em 12 domínios",
-        "description": "Cada dimensão do desempenho do restaurante — analisada, comparada e acionável.",
+        "description": "Cada dimensão do desempenho do restaurante - analisada, comparada e acionável.",
         "categories": [
           {
             "name": "Inteligência de Receita",
@@ -1844,7 +1844,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "Líderes de Operações",
             "pain": "Você não pode estar em todos os restaurantes ao mesmo tempo.",
-            "outcome": "Acompanhamento em tempo real e desempenho dos garçons em todos os locais — veja quem precisa de ajuda agora.",
+            "outcome": "Acompanhamento em tempo real e desempenho dos garçons em todos os locais - veja quem precisa de ajuda agora.",
             "attribution": "Padrão entre operadores de múltiplas localizações"
           },
           {
@@ -1856,7 +1856,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "C-Suite & Proprietários",
             "pain": "Seu pior local é invisível até quinta-feira.",
-            "outcome": "Visão do portfólio, briefings diários de IA, sinal de mercado — em todas as marcas que você administra.",
+            "outcome": "Visão do portfólio, briefings diários de IA, sinal de mercado - em todas as marcas que você administra.",
             "attribution": "Padrão entre fundadores e CEOs de grupos"
           },
           {
@@ -1874,7 +1874,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "01",
             "title": "Conectar",
-            "description": "POS, mão de obra, inventário, entrega — a maioria das integrações em menos de 5 minutos."
+            "description": "POS, mão de obra, inventário, entrega - a maioria das integrações em menos de 5 minutos."
           },
           {
             "step": "02",
@@ -1884,7 +1884,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "03",
             "title": "Decidir",
-            "description": "Recomendações específicas e explicáveis — metas, equipe, menu, preços."
+            "description": "Recomendações específicas e explicáveis - metas, equipe, menu, preços."
           },
           {
             "step": "04",
@@ -1894,7 +1894,7 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "mockup": {
-        "frameLabel": "Pulse — Ritmo de Vendas",
+        "frameLabel": "Pulse - Ritmo de Vendas",
         "updatedAt": "Terça-feira, 7:42 PM",
         "kpis": [
           {
@@ -1958,10 +1958,10 @@ export const generatedWebsiteMessageOverrides = {
       "closingDescription": "30 minutos. Seus dados. O que a Sundae realmente mudaria para a equipe.",
       "pages": {
         "signIn": {
-          "metadataTitle": "Entrar — Sundae",
-          "metadataDescription": "Faça login no Sundae — sua visão unificada de desempenho, operações e inteligência competitiva para restaurantes.",
+          "metadataTitle": "Entrar - Sundae",
+          "metadataDescription": "Faça login no Sundae - sua visão unificada de desempenho, operações e inteligência competitiva para restaurantes.",
           "brandTitle": "Inteligência de decisão para restaurantes",
-          "brandDescription": "Desempenho, operações e inteligência competitiva — unificados em uma plataforma.",
+          "brandDescription": "Desempenho, operações e inteligência competitiva - unificados em uma plataforma.",
           "trustPoints": [
             "Inteligência operacional em tempo real",
             "Benchmarking multi-localização",
@@ -2070,7 +2070,7 @@ export const generatedWebsiteMessageOverrides = {
           "viewPricing": "Ver Preços"
         },
         "pricing": {
-          "metadataTitle": "Preços — Sundae",
+          "metadataTitle": "Preços - Sundae",
           "metadataDescription": "Preços simples e transparentes para Sundae Report, Core, Watchtower e módulos.",
           "badge": "Preços",
           "title": "Preços Simples e Transparentes",
@@ -2094,7 +2094,7 @@ export const generatedWebsiteMessageOverrides = {
           "startFree": "Comece Grátis"
         },
         "faq": {
-          "metadataTitle": "FAQ — Sundae",
+          "metadataTitle": "FAQ - Sundae",
           "metadataDescription": "Perguntas frequentes sobre o Sundae - preços, integrações, segurança de dados, onboarding e tudo mais que os operadores de restaurantes precisam saber antes de começar.",
           "badge": "Perguntas Frequentes",
           "title": "Tudo Que Você Precisa Saber",
@@ -2123,7 +2123,7 @@ export const generatedWebsiteMessageOverrides = {
           ]
         },
         "modules": {
-          "metadataTitle": "Módulos — Sundae",
+          "metadataTitle": "Módulos - Sundae",
           "badge": "Módulos Especializados",
           "title": "Aprofunde-se Onde Mais Importa",
           "description": "Adicione módulos especializados ao Sundae Core. Obtenha inteligência operacional profunda em mão de obra, inventário, compras, marketing e reservas.",
@@ -2160,7 +2160,7 @@ export const generatedWebsiteMessageOverrides = {
           "contactSales": "Entre em Contato com Vendas"
         },
         "integrations": {
-          "metadataTitle": "Integrações — Sundae",
+          "metadataTitle": "Integrações - Sundae",
           "badge": "Integrações",
           "title": "Conecte Tudo. Unifique Seus Dados.",
           "description": "O Sundae integra-se com mais de 30 sistemas de restaurantes em POS, mão de obra, inventário, reservas, entrega e mais.",
@@ -2185,8 +2185,8 @@ export const generatedWebsiteMessageOverrides = {
           "domainsDescription": "POS, mão de obra, inventário, compras, reservas, entrega, marketing, experiência do cliente, CRM, contabilidade e resumos de vendas diárias - tudo conectado.",
           "live": "Ao Vivo",
           "upcoming": "Próximos",
-          "liveNow": "Ao Vivo — disponível agora",
-          "roadmap": "Próximos — em nosso roadmap",
+          "liveNow": "Ao Vivo - disponível agora",
+          "roadmap": "Próximos - em nosso roadmap",
           "roadmapDescription": "Integrações futuras estão ativamente em desenvolvimento. Os cronogramas podem variar. Entre em contato conosco para solicitar prioridade para uma integração específica.",
           "webhooksTitle": "Webhooks & API Pública",
           "webhooksDescription": "Construa integrações personalizadas com as ferramentas de desenvolvedor do Sundae.",
@@ -2199,7 +2199,7 @@ export const generatedWebsiteMessageOverrides = {
           "testPayloads": "Testar payloads e rastreamento de entrega"
         },
         "resources": {
-          "metadataTitle": "Recursos — Sundae",
+          "metadataTitle": "Recursos - Sundae",
           "badge": "Recursos & Ferramentas",
           "title": "Recursos de Inteligência de Decisão",
           "description": "Acesse guias, relatórios e ferramentas para ajudá-lo a tomar decisões mais inteligentes para o seu negócio de restaurante.",
@@ -2230,8 +2230,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "hi": {
     "metadata": {
-      "title": "Sundae – रेस्तरां के लिए निर्णय बुद्धिमत्ता",
-      "description": "AI प्लेटफ़ॉर्म जो रेस्तरां के डेटा को कार्रवाई में बदलता है — POS, श्रम, लागत, और संचालन डेटा को एकीकृत करें ताकि प्रदर्शन का मानक स्थापित किया जा सके और तात्कालिक अंतर्दृष्टि प्राप्त की जा सके।"
+      "title": "Sundae - रेस्तरां के लिए निर्णय बुद्धिमत्ता",
+      "description": "AI प्लेटफ़ॉर्म जो रेस्तरां के डेटा को कार्रवाई में बदलता है - POS, श्रम, लागत, और संचालन डेटा को एकीकृत करें ताकि प्रदर्शन का मानक स्थापित किया जा सके और तात्कालिक अंतर्दृष्टि प्राप्त की जा सके।"
     },
     "layout": {
       "skipToContent": "मुख्य सामग्री पर जाएं",
@@ -2422,7 +2422,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "निर्णय बुद्धिमत्ता प्लेटफ़ॉर्म",
       "titleTop": "निर्णय बुद्धिमत्ता",
       "titleBottom": "रेस्टोरेंट्स के लिए",
-      "description": "आपका डेटा 5–10 असंबंधित सिस्टम में है। आपकी टीम अंतर्ज्ञान से निर्णय लेती है जबकि लाभ रोज़ाना लीक होते हैं।",
+      "description": "आपका डेटा 5-10 असंबंधित सिस्टम में है। आपकी टीम अंतर्ज्ञान से निर्णय लेती है जबकि लाभ रोज़ाना लीक होते हैं।",
       "descriptionEmphasis": "यह वह व्यापारिक समझौता है जिसे Sundae समाप्त करता है।",
       "narrativeAnchor": "रिपोर्टिंग में देरी से संचालन की गति तक।",
       "startFree": "मुफ्त शुरू करें",
@@ -2480,7 +2480,7 @@ export const generatedWebsiteMessageOverrides = {
       "platform": {
         "eyebrow": "6 परतें · एक सत्य",
         "heading": "छह परतें। एक सत्य।",
-        "description": "लाइव शिफ्ट से लेकर दीर्घकालिक योजना तक — एक स्टैक, छह परतें जो आपस में बात करती हैं।",
+        "description": "लाइव शिफ्ट से लेकर दीर्घकालिक योजना तक - एक स्टैक, छह परतें जो आपस में बात करती हैं।",
         "countLabel": "6 में से",
         "exploreModules": "सभी मॉड्यूल्स का अन्वेषण करें",
         "learnMore": "और जानें",
@@ -2488,7 +2488,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "वास्तविक समय संचालन",
-            "description": "लाइव पेसिंग, अनुकूलन लक्ष्य, सर्वर प्रदर्शन, रिसाव — शिफ्ट दर शिफ्ट।",
+            "description": "लाइव पेसिंग, अनुकूलन लक्ष्य, सर्वर प्रदर्शन, रिसाव - शिफ्ट दर शिफ्ट।",
             "href": "/product/pulse"
           },
           {
@@ -2500,13 +2500,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Watchtower",
             "subtitle": "बाजार की बुद्धिमत्ता",
-            "description": "प्रतिस्पर्धी, मौसम, घटनाएं — आपके नंबरों पर आने से पहले।",
+            "description": "प्रतिस्पर्धी, मौसम, घटनाएं - आपके नंबरों पर आने से पहले।",
             "href": "/product/watchtower"
           },
           {
             "name": "Insights",
             "subtitle": "12 विश्लेषणात्मक मॉड्यूल्स",
-            "description": "राजस्व, श्रम, इन्वेंटरी, मार्केटिंग, डिलीवरी — प्रत्येक में AI सिफारिशें।",
+            "description": "राजस्व, श्रम, इन्वेंटरी, मार्केटिंग, डिलीवरी - प्रत्येक में AI सिफारिशें।",
             "href": "/insights"
           },
           {
@@ -2518,7 +2518,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Foresight",
             "subtitle": "पूर्वानुमानित बुद्धिमत्ता",
-            "description": "14–90 दिन की पूर्वानुमान, क्या-यदि परिदृश्य, कार्यकारी ब्रीफिंग जो स्वयं को सही करती हैं।",
+            "description": "14-90 दिन की पूर्वानुमान, क्या-यदि परिदृश्य, कार्यकारी ब्रीफिंग जो स्वयं को सही करती हैं।",
             "href": "/product/foresight"
           }
         ]
@@ -2526,7 +2526,7 @@ export const generatedWebsiteMessageOverrides = {
       "modules": {
         "eyebrow": "इंटेलिजेंस मॉड्यूल्स",
         "heading": "12 क्षेत्रों में 12 मॉड्यूल्स",
-        "description": "रेस्टोरेंट प्रदर्शन का हर आयाम — विश्लेषित, बेंचमार्क किया गया, और क्रियाशील।",
+        "description": "रेस्टोरेंट प्रदर्शन का हर आयाम - विश्लेषित, बेंचमार्क किया गया, और क्रियाशील।",
         "categories": [
           {
             "name": "राजस्व इंटेलिजेंस",
@@ -2586,7 +2586,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "ऑपरेशंस लीडर्स",
             "pain": "आप एक साथ हर रेस्तरां में नहीं हो सकते।",
-            "outcome": "हर आउटलेट में लाइव पेसिंग और सर्वर प्रदर्शन — देखें कि किसे अभी मदद की ज़रूरत है।",
+            "outcome": "हर आउटलेट में लाइव पेसिंग और सर्वर प्रदर्शन - देखें कि किसे अभी मदद की ज़रूरत है।",
             "attribution": "मल्टी-लोकेशन ऑपरेटरों के बीच पैटर्न"
           },
           {
@@ -2598,7 +2598,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "C-Suite और मालिक",
             "pain": "आपका सबसे खराब आउटलेट गुरुवार तक अदृश्य है।",
-            "outcome": "पोर्टफोलियो दृश्य, दैनिक AI ब्रीफिंग, बाजार संकेत — हर ब्रांड के लिए जो आप चलाते हैं।",
+            "outcome": "पोर्टफोलियो दृश्य, दैनिक AI ब्रीफिंग, बाजार संकेत - हर ब्रांड के लिए जो आप चलाते हैं।",
             "attribution": "संस्थापकों और समूह CEOs के बीच पैटर्न"
           },
           {
@@ -2616,7 +2616,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "01",
             "title": "जोड़ें",
-            "description": "POS, श्रम, इन्वेंटरी, डिलीवरी — अधिकांश एकीकरण 5 मिनट के भीतर।"
+            "description": "POS, श्रम, इन्वेंटरी, डिलीवरी - अधिकांश एकीकरण 5 मिनट के भीतर।"
           },
           {
             "step": "02",
@@ -2626,7 +2626,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "03",
             "title": "निर्णय लें",
-            "description": "विशिष्ट, स्पष्ट सिफारिशें — लक्ष्य, स्टाफिंग, मेनू, मूल्य निर्धारण।"
+            "description": "विशिष्ट, स्पष्ट सिफारिशें - लक्ष्य, स्टाफिंग, मेनू, मूल्य निर्धारण।"
           },
           {
             "step": "04",
@@ -2636,7 +2636,7 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "mockup": {
-        "frameLabel": "पल्स — बिक्री की गति",
+        "frameLabel": "पल्स - बिक्री की गति",
         "updatedAt": "मंगलवार, 7:42 PM",
         "kpis": [
           {
@@ -2700,10 +2700,10 @@ export const generatedWebsiteMessageOverrides = {
       "closingDescription": "30 मिनट। आपका डेटा। Sundae वास्तव में टीम के लिए क्या बदलेगा।",
       "pages": {
         "signIn": {
-          "metadataTitle": "साइन इन — Sundae",
-          "metadataDescription": "Sundae में साइन इन करें — आपके प्रदर्शन, संचालन और प्रतिस्पर्धात्मक बुद्धिमत्ता का एकीकृत दृश्य।",
+          "metadataTitle": "साइन इन - Sundae",
+          "metadataDescription": "Sundae में साइन इन करें - आपके प्रदर्शन, संचालन और प्रतिस्पर्धात्मक बुद्धिमत्ता का एकीकृत दृश्य।",
           "brandTitle": "रेस्टोरेंट के लिए निर्णय बुद्धिमत्ता",
-          "brandDescription": "प्रदर्शन, संचालन और प्रतिस्पर्धात्मक बुद्धिमत्ता — एक प्लेटफार्म में एकीकृत।",
+          "brandDescription": "प्रदर्शन, संचालन और प्रतिस्पर्धात्मक बुद्धिमत्ता - एक प्लेटफार्म में एकीकृत।",
           "trustPoints": [
             "वास्तविक समय संचालन बुद्धिमत्ता",
             "बहु-स्थान बेंचमार्किंग",
@@ -2812,7 +2812,7 @@ export const generatedWebsiteMessageOverrides = {
           "viewPricing": "मूल्य निर्धारण देखें"
         },
         "pricing": {
-          "metadataTitle": "मूल्य निर्धारण — Sundae",
+          "metadataTitle": "मूल्य निर्धारण - Sundae",
           "metadataDescription": "Sundae Report, Core, Watchtower, और मॉड्यूल के लिए सरल, पारदर्शी मूल्य निर्धारण।",
           "badge": "मूल्य निर्धारण",
           "title": "सरल, पारदर्शी मूल्य निर्धारण",
@@ -2836,7 +2836,7 @@ export const generatedWebsiteMessageOverrides = {
           "startFree": "मुफ्त में शुरू करें"
         },
         "faq": {
-          "metadataTitle": "FAQ — Sundae",
+          "metadataTitle": "FAQ - Sundae",
           "metadataDescription": "Sundae के बारे में अक्सर पूछे जाने वाले प्रश्न - मूल्य निर्धारण, एकीकरण, डेटा सुरक्षा, ऑनबोर्डिंग, और रेस्टोरेंट ऑपरेटरों को शुरू करने से पहले जानने की आवश्यकता है।",
           "badge": "अक्सर पूछे जाने वाले प्रश्न",
           "title": "आपको जानने की आवश्यकता है सब कुछ",
@@ -2865,7 +2865,7 @@ export const generatedWebsiteMessageOverrides = {
           ]
         },
         "modules": {
-          "metadataTitle": "मॉड्यूल — Sundae",
+          "metadataTitle": "मॉड्यूल - Sundae",
           "badge": "विशेषीकृत मॉड्यूल",
           "title": "जहाँ यह सबसे अधिक महत्वपूर्ण है, वहाँ गहराई में जाएं",
           "description": "Sundae Core में विशेषीकृत मॉड्यूल जोड़ें। श्रम, इन्वेंटरी, खरीद, मार्केटिंग, और आरक्षण में गहरी संचालन बुद्धिमत्ता प्राप्त करें।",
@@ -2902,7 +2902,7 @@ export const generatedWebsiteMessageOverrides = {
           "contactSales": "बिक्री से संपर्क करें"
         },
         "integrations": {
-          "metadataTitle": "एकीकरण — Sundae",
+          "metadataTitle": "एकीकरण - Sundae",
           "badge": "एकीकरण",
           "title": "सब कुछ कनेक्ट करें। अपने डेटा को एकीकृत करें।",
           "description": "Sundae 250+ रेस्टोरेंट सिस्टम के साथ POS, श्रम, इन्वेंटरी, आरक्षण, डिलीवरी, और अधिक में एकीकृत होता है।",
@@ -2927,8 +2927,8 @@ export const generatedWebsiteMessageOverrides = {
           "domainsDescription": "POS, श्रम, इन्वेंटरी, खरीद, आरक्षण, डिलीवरी, मार्केटिंग, अतिथि अनुभव, CRM, लेखांकन, और दैनिक बिक्री सारांश - सभी जुड़े हुए।",
           "live": "लाइव",
           "upcoming": "आगामी",
-          "liveNow": "लाइव — अभी उपलब्ध",
-          "roadmap": "आगामी — हमारे रोडमैप पर",
+          "liveNow": "लाइव - अभी उपलब्ध",
+          "roadmap": "आगामी - हमारे रोडमैप पर",
           "roadmapDescription": "आगामी एकीकरण सक्रिय रूप से विकास में हैं। समयसीमा भिन्न हो सकती है। किसी विशेष एकीकरण के लिए प्राथमिकता का अनुरोध करने के लिए हमसे संपर्क करें।",
           "webhooksTitle": "वेबहुक और सार्वजनिक API",
           "webhooksDescription": "Sundae के डेवलपर टूल के साथ कस्टम एकीकरण बनाएं।",
@@ -2941,7 +2941,7 @@ export const generatedWebsiteMessageOverrides = {
           "testPayloads": "परीक्षण पेलोड और डिलीवरी ट्रैकिंग"
         },
         "resources": {
-          "metadataTitle": "संसाधन — Sundae",
+          "metadataTitle": "संसाधन - Sundae",
           "badge": "संसाधन और उपकरण",
           "title": "निर्णय बुद्धिमत्ता संसाधन",
           "description": "अपने रेस्टोरेंट व्यवसाय के लिए स्मार्ट निर्णय लेने में मदद करने के लिए गाइड, रिपोर्ट, और उपकरणों तक पहुंचें।",
@@ -2972,8 +2972,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "ur": {
     "metadata": {
-      "title": "Sundae – ریستورانوں کے لیے فیصلہ سازی کی ذہانت",
-      "description": "AI پلیٹ فارم جو ریستوران کے ڈیٹا کو عمل میں تبدیل کرتا ہے — POS، مزدوری، لاگت، اور آپریشنل ڈیٹا کو یکجا کریں تاکہ کارکردگی کا معیار طے کریں اور فوری بصیرت حاصل کریں۔"
+      "title": "Sundae - ریستورانوں کے لیے فیصلہ سازی کی ذہانت",
+      "description": "AI پلیٹ فارم جو ریستوران کے ڈیٹا کو عمل میں تبدیل کرتا ہے - POS، مزدوری، لاگت، اور آپریشنل ڈیٹا کو یکجا کریں تاکہ کارکردگی کا معیار طے کریں اور فوری بصیرت حاصل کریں۔"
     },
     "layout": {
       "skipToContent": "اہم مواد پر جائیں",
@@ -3164,7 +3164,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "فیصلہ سازی کی ذہانت کا پلیٹ فارم",
       "titleTop": "فیصلہ سازی کی ذہانت",
       "titleBottom": "ریستورانوں کے لیے",
-      "description": "آپ کا ڈیٹا 5–10 غیر منسلک نظاموں میں موجود ہے۔ آپ کی ٹیم احساسات کی بنیاد پر فیصلے کرتی ہے جبکہ منافع روزانہ کم ہوتا ہے۔",
+      "description": "آپ کا ڈیٹا 5-10 غیر منسلک نظاموں میں موجود ہے۔ آپ کی ٹیم احساسات کی بنیاد پر فیصلے کرتی ہے جبکہ منافع روزانہ کم ہوتا ہے۔",
       "descriptionEmphasis": "یہ وہ تجارت ہے جسے Sundae ختم کرتا ہے۔",
       "narrativeAnchor": "رپورٹنگ کی تاخیر سے آپریشن کی رفتار تک۔",
       "startFree": "مفت شروع کریں",
@@ -3222,7 +3222,7 @@ export const generatedWebsiteMessageOverrides = {
       "platform": {
         "eyebrow": "6 تہیں · ایک سچائی",
         "heading": "چھ تہیں۔ ایک سچائی۔",
-        "description": "لائیو شفٹ سے طویل مدتی منصوبے تک — ایک اسٹیک، چھ تہیں جو آپس میں بات کرتی ہیں۔",
+        "description": "لائیو شفٹ سے طویل مدتی منصوبے تک - ایک اسٹیک، چھ تہیں جو آپس میں بات کرتی ہیں۔",
         "countLabel": "6 میں سے",
         "exploreModules": "تمام ماڈیولز کا جائزہ لیں",
         "learnMore": "مزید جانیں",
@@ -3230,7 +3230,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "حقیقی وقت کی کارروائیاں",
-            "description": "لائیو پیسنگ، موافق اہداف، سرور کی کارکردگی، لیکیج — شفٹ بہ شفٹ۔",
+            "description": "لائیو پیسنگ، موافق اہداف، سرور کی کارکردگی، لیکیج - شفٹ بہ شفٹ۔",
             "href": "/product/pulse"
           },
           {
@@ -3242,13 +3242,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Watchtower",
             "subtitle": "مارکیٹ کی ذہانت",
-            "description": "مقابلے، موسم، واقعات — آپ کی تعداد پر آنے سے پہلے۔",
+            "description": "مقابلے، موسم، واقعات - آپ کی تعداد پر آنے سے پہلے۔",
             "href": "/product/watchtower"
           },
           {
             "name": "Insights",
             "subtitle": "12 تجزیاتی ماڈیولز",
-            "description": "آمدنی، محنت، انوینٹری، مارکیٹنگ، ترسیل — ہر ایک کے ساتھ AI کی سفارشات۔",
+            "description": "آمدنی، محنت، انوینٹری، مارکیٹنگ، ترسیل - ہر ایک کے ساتھ AI کی سفارشات۔",
             "href": "/insights"
           },
           {
@@ -3260,7 +3260,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Foresight",
             "subtitle": "پیش گوئی کی ذہانت",
-            "description": "14–90 دن کی پیش گوئیاں، کیا-اگر کے منظرنامے، ایگزیکٹو بریفنگز جو خود کو درست کرتی ہیں۔",
+            "description": "14-90 دن کی پیش گوئیاں، کیا-اگر کے منظرنامے، ایگزیکٹو بریفنگز جو خود کو درست کرتی ہیں۔",
             "href": "/product/foresight"
           }
         ]
@@ -3268,7 +3268,7 @@ export const generatedWebsiteMessageOverrides = {
       "modules": {
         "eyebrow": "انٹیلیجنس ماڈیولز",
         "heading": "12 شعبوں میں 12 ماڈیولز",
-        "description": "ریستوران کی کارکردگی کا ہر پہلو — تجزیہ، معیار، اور عمل درآمد کے قابل۔",
+        "description": "ریستوران کی کارکردگی کا ہر پہلو - تجزیہ، معیار، اور عمل درآمد کے قابل۔",
         "categories": [
           {
             "name": "ریونیو انٹیلیجنس",
@@ -3328,7 +3328,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "آپریشنز کے رہنما",
             "pain": "آپ ایک وقت میں ہر ریستوران میں نہیں ہو سکتے۔",
-            "outcome": "ہر آؤٹ لیٹ میں براہ راست رفتار اور سرور کی کارکردگی — دیکھیں کہ کس کو ابھی مدد کی ضرورت ہے۔",
+            "outcome": "ہر آؤٹ لیٹ میں براہ راست رفتار اور سرور کی کارکردگی - دیکھیں کہ کس کو ابھی مدد کی ضرورت ہے۔",
             "attribution": "کئی مقامات کے آپریٹرز کے درمیان پیٹرن"
           },
           {
@@ -3340,7 +3340,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "سی-سویٹ اور مالکان",
             "pain": "آپ کا بدترین آؤٹ لیٹ جمعرات تک نظر نہیں آتا۔",
-            "outcome": "پورٹ فولیو کا منظر، روزانہ AI بریفنگ، مارکیٹ کا اشارہ — آپ کے چلائے جانے والے ہر برانڈ کے لیے۔",
+            "outcome": "پورٹ فولیو کا منظر، روزانہ AI بریفنگ، مارکیٹ کا اشارہ - آپ کے چلائے جانے والے ہر برانڈ کے لیے۔",
             "attribution": "بانیوں اور گروپ کے CEOs کے درمیان پیٹرن"
           },
           {
@@ -3358,7 +3358,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "01",
             "title": "جوڑیں",
-            "description": "POS، مزدوری، انوینٹری، ترسیل — زیادہ تر انضمام 5 منٹ سے کم میں۔"
+            "description": "POS، مزدوری، انوینٹری، ترسیل - زیادہ تر انضمام 5 منٹ سے کم میں۔"
           },
           {
             "step": "02",
@@ -3368,7 +3368,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "03",
             "title": "فیصلہ کریں",
-            "description": "خاص، وضاحت کے قابل سفارشات — ہدف، عملہ، مینو، قیمتیں۔"
+            "description": "خاص، وضاحت کے قابل سفارشات - ہدف، عملہ، مینو، قیمتیں۔"
           },
           {
             "step": "04",
@@ -3378,7 +3378,7 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "mockup": {
-        "frameLabel": "پلس — سیلز پیسنگ",
+        "frameLabel": "پلس - سیلز پیسنگ",
         "updatedAt": "منگل, 7:42 شام",
         "kpis": [
           {
@@ -3442,10 +3442,10 @@ export const generatedWebsiteMessageOverrides = {
       "closingDescription": "30 منٹ۔ آپ کا ڈیٹا۔ سنڈے واقعی ٹیم کے لیے کیا تبدیل کرے گا۔",
       "pages": {
         "signIn": {
-          "metadataTitle": "سائن ان — Sundae",
-          "metadataDescription": "Sundae میں سائن ان کریں — آپ کی کارکردگی، آپریشنز، اور ریستورانوں کے لیے مسابقتی ذہانت کا متحدہ منظر۔",
+          "metadataTitle": "سائن ان - Sundae",
+          "metadataDescription": "Sundae میں سائن ان کریں - آپ کی کارکردگی، آپریشنز، اور ریستورانوں کے لیے مسابقتی ذہانت کا متحدہ منظر۔",
           "brandTitle": "ریستورانوں کے لیے فیصلہ سازی کی ذہانت",
-          "brandDescription": "کارکردگی، آپریشنز، اور مسابقتی ذہانت — ایک پلیٹ فارم میں متحد۔",
+          "brandDescription": "کارکردگی، آپریشنز، اور مسابقتی ذہانت - ایک پلیٹ فارم میں متحد۔",
           "trustPoints": [
             "حقیقی وقت کی آپریشنز کی ذہانت",
             "کئی مقامات کی بینچ مارکنگ",
@@ -3554,7 +3554,7 @@ export const generatedWebsiteMessageOverrides = {
           "viewPricing": "قیمتیں دیکھیں"
         },
         "pricing": {
-          "metadataTitle": "قیمتیں — Sundae",
+          "metadataTitle": "قیمتیں - Sundae",
           "metadataDescription": "Sundae Report، Core، Watchtower، اور ماڈیولز کے لیے سادہ، شفاف قیمتیں۔",
           "badge": "قیمتیں",
           "title": "سادہ، شفاف قیمتیں",
@@ -3578,7 +3578,7 @@ export const generatedWebsiteMessageOverrides = {
           "startFree": "مفت شروع کریں"
         },
         "faq": {
-          "metadataTitle": "FAQ — Sundae",
+          "metadataTitle": "FAQ - Sundae",
           "metadataDescription": "Sundae کے بارے میں اکثر پوچھے جانے والے سوالات - قیمتیں، انضمام، ڈیٹا کی سیکیورٹی، آن بورڈنگ، اور ہر چیز جو ریستوران کے آپریٹرز کو شروع کرنے سے پہلے جاننے کی ضرورت ہے۔",
           "badge": "اکثر پوچھے جانے والے سوالات",
           "title": "آپ کو جاننے کی ضرورت ہے سب کچھ",
@@ -3607,7 +3607,7 @@ export const generatedWebsiteMessageOverrides = {
           ]
         },
         "modules": {
-          "metadataTitle": "ماڈیولز — Sundae",
+          "metadataTitle": "ماڈیولز - Sundae",
           "badge": "خصوصی ماڈیولز",
           "title": "جہاں یہ سب سے زیادہ اہم ہے وہاں گہرائی میں جائیں",
           "description": "Sundae Core میں خصوصی ماڈیولز شامل کریں۔ مزدوری، انوینٹری، خریداری، مارکیٹنگ، اور ریزرویشن میں گہری آپریشنل ذہانت حاصل کریں۔",
@@ -3644,7 +3644,7 @@ export const generatedWebsiteMessageOverrides = {
           "contactSales": "سیلز سے رابطہ کریں"
         },
         "integrations": {
-          "metadataTitle": "انضمام — Sundae",
+          "metadataTitle": "انضمام - Sundae",
           "badge": "انضمام",
           "title": "سب کچھ جڑیں۔ اپنے ڈیٹا کو متحد کریں۔",
           "description": "Sundae 250+ ریستوران کے نظاموں کے ساتھ POS، مزدوری، انوینٹری، ریزرویشن، ترسیل، اور مزید کے ذریعے انضمام کرتا ہے۔",
@@ -3669,8 +3669,8 @@ export const generatedWebsiteMessageOverrides = {
           "domainsDescription": "POS، مزدوری، انوینٹری، خریداری، ریزرویشن، ترسیل، مارکیٹنگ، مہمان کے تجربے، CRM، اکاؤنٹنگ، اور روزانہ کی فروخت کے خلاصے - سب جڑے ہوئے۔",
           "live": "براہ راست",
           "upcoming": "آنے والا",
-          "liveNow": "براہ راست — ابھی دستیاب",
-          "roadmap": "آنے والا — ہمارے روڈ میپ پر",
+          "liveNow": "براہ راست - ابھی دستیاب",
+          "roadmap": "آنے والا - ہمارے روڈ میپ پر",
           "roadmapDescription": "آنے والے انضمام فعال ترقی میں ہیں۔ ٹائم لائنز مختلف ہو سکتی ہیں۔ کسی مخصوص انضمام کے لیے ترجیح کی درخواست کرنے کے لیے ہم سے رابطہ کریں۔",
           "webhooksTitle": "ویب ہُک اور عوامی API",
           "webhooksDescription": "Sundae کے ڈویلپر ٹولز کے ساتھ حسب ضرورت انضمام بنائیں۔",
@@ -3683,7 +3683,7 @@ export const generatedWebsiteMessageOverrides = {
           "testPayloads": "ٹیسٹ پیلوڈز اور ترسیل کی ٹریکنگ"
         },
         "resources": {
-          "metadataTitle": "وسائل — Sundae",
+          "metadataTitle": "وسائل - Sundae",
           "badge": "وسائل اور ٹولز",
           "title": "فیصلہ سازی کی ذہانت کے وسائل",
           "description": "ایسے رہنما، رپورٹس، اور ٹولز تک رسائی حاصل کریں جو آپ کو اپنے ریستوران کے کاروبار کے لیے زیادہ ذہین فیصلے کرنے میں مدد کریں۔",
@@ -3714,8 +3714,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "it": {
     "metadata": {
-      "title": "Sundae – Intelligenza Decisionale per Ristoranti",
-      "description": "La piattaforma AI che trasforma i dati dei ristoranti in azioni — unifica i dati POS, di lavoro, di costo e operativi per valutare le performance e ottenere intuizioni immediate."
+      "title": "Sundae - Intelligenza Decisionale per Ristoranti",
+      "description": "La piattaforma AI che trasforma i dati dei ristoranti in azioni - unifica i dati POS, di lavoro, di costo e operativi per valutare le performance e ottenere intuizioni immediate."
     },
     "layout": {
       "skipToContent": "Salta al contenuto principale",
@@ -3906,7 +3906,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "Piattaforma di Intelligenza Decisionale",
       "titleTop": "Intelligenza Decisionale",
       "titleBottom": "per Ristoranti",
-      "description": "I tuoi dati vivono in 5–10 sistemi disconnessi. Il tuo team decide d'istinto mentre i margini si riducono quotidianamente.",
+      "description": "I tuoi dati vivono in 5-10 sistemi disconnessi. Il tuo team decide d'istinto mentre i margini si riducono quotidianamente.",
       "descriptionEmphasis": "Questo è il compromesso che Sundae elimina.",
       "narrativeAnchor": "Dalla lentezza dei report alla velocità operativa.",
       "startFree": "Inizia Gratis",
@@ -3964,7 +3964,7 @@ export const generatedWebsiteMessageOverrides = {
       "platform": {
         "eyebrow": "6 STRATI · UN'UNICA VERITÀ",
         "heading": "Sei strati. Un'unica verità.",
-        "description": "Dallo shift dal vivo al piano a lungo termine — un stack, sei strati che comunicano tra loro.",
+        "description": "Dallo shift dal vivo al piano a lungo termine - un stack, sei strati che comunicano tra loro.",
         "countLabel": "di 6",
         "exploreModules": "Esplora tutti i moduli",
         "learnMore": "Scopri di più",
@@ -3972,7 +3972,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "Operazioni in tempo reale",
-            "description": "Pacing dal vivo, obiettivi adattivi, prestazioni dei server, perdite — turno dopo turno.",
+            "description": "Pacing dal vivo, obiettivi adattivi, prestazioni dei server, perdite - turno dopo turno.",
             "href": "/product/pulse"
           },
           {
@@ -3984,13 +3984,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Watchtower",
             "subtitle": "Intelligenza di mercato",
-            "description": "Concorrenti, meteo, eventi — prima che colpiscano i tuoi numeri.",
+            "description": "Concorrenti, meteo, eventi - prima che colpiscano i tuoi numeri.",
             "href": "/product/watchtower"
           },
           {
             "name": "Insights",
             "subtitle": "Oltre 30 moduli analitici",
-            "description": "Entrate, lavoro, inventario, marketing, consegna — ognuno con raccomandazioni AI.",
+            "description": "Entrate, lavoro, inventario, marketing, consegna - ognuno con raccomandazioni AI.",
             "href": "/insights"
           },
           {
@@ -4010,7 +4010,7 @@ export const generatedWebsiteMessageOverrides = {
       "modules": {
         "eyebrow": "MODULI DI INTELLIGENZA",
         "heading": "12 moduli in 12 aree",
-        "description": "Ogni dimensione delle performance del ristorante — analizzata, confrontata e attuabile.",
+        "description": "Ogni dimensione delle performance del ristorante - analizzata, confrontata e attuabile.",
         "categories": [
           {
             "name": "Intelligenza dei Ricavi",
@@ -4070,7 +4070,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "Leader delle Operazioni",
             "pain": "Non puoi essere in ogni ristorante contemporaneamente.",
-            "outcome": "Monitoraggio in tempo reale e prestazioni dei server in ogni locale — vedi chi ha bisogno di aiuto adesso.",
+            "outcome": "Monitoraggio in tempo reale e prestazioni dei server in ogni locale - vedi chi ha bisogno di aiuto adesso.",
             "attribution": "Modello tra operatori multi-locazione"
           },
           {
@@ -4082,7 +4082,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "C-Suite & Proprietari",
             "pain": "Il tuo locale peggiore è invisibile fino a giovedì.",
-            "outcome": "Vista del portafoglio, briefing quotidiani dell'AI, segnali di mercato — per ogni brand che gestisci.",
+            "outcome": "Vista del portafoglio, briefing quotidiani dell'AI, segnali di mercato - per ogni brand che gestisci.",
             "attribution": "Modello tra fondatori e CEO di gruppo"
           },
           {
@@ -4100,7 +4100,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "01",
             "title": "Collegare",
-            "description": "POS, lavoro, inventario, consegna — la maggior parte delle integrazioni in meno di 5 minuti."
+            "description": "POS, lavoro, inventario, consegna - la maggior parte delle integrazioni in meno di 5 minuti."
           },
           {
             "step": "02",
@@ -4110,7 +4110,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "03",
             "title": "Decidere",
-            "description": "Raccomandazioni specifiche e spiegabili — obiettivi, personale, menu, prezzi."
+            "description": "Raccomandazioni specifiche e spiegabili - obiettivi, personale, menu, prezzi."
           },
           {
             "step": "04",
@@ -4120,7 +4120,7 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "mockup": {
-        "frameLabel": "Pulse — Andamento Vendite",
+        "frameLabel": "Pulse - Andamento Vendite",
         "updatedAt": "Martedì, 19:42",
         "kpis": [
           {
@@ -4184,10 +4184,10 @@ export const generatedWebsiteMessageOverrides = {
       "closingDescription": "30 minuti. I tuoi dati. Cosa cambierebbe realmente Sundae per il team.",
       "pages": {
         "signIn": {
-          "metadataTitle": "Accedi — Sundae",
-          "metadataDescription": "Accedi a Sundae — la tua vista unificata delle performance, delle operazioni e dell'intelligenza competitiva per i ristoranti.",
+          "metadataTitle": "Accedi - Sundae",
+          "metadataDescription": "Accedi a Sundae - la tua vista unificata delle performance, delle operazioni e dell'intelligenza competitiva per i ristoranti.",
           "brandTitle": "Intelligenza decisionale per i ristoranti",
-          "brandDescription": "Performance, operazioni e intelligenza competitiva — unificate in un'unica piattaforma.",
+          "brandDescription": "Performance, operazioni e intelligenza competitiva - unificate in un'unica piattaforma.",
           "trustPoints": [
             "Intelligenza operativa in tempo reale",
             "Benchmarking multi-sede",
@@ -4296,7 +4296,7 @@ export const generatedWebsiteMessageOverrides = {
           "viewPricing": "Visualizza i Prezzi"
         },
         "pricing": {
-          "metadataTitle": "Prezzi — Sundae",
+          "metadataTitle": "Prezzi - Sundae",
           "metadataDescription": "Prezzi semplici e trasparenti per Sundae Report, Core, Watchtower e moduli.",
           "badge": "Prezzi",
           "title": "Prezzi Semplici e Trasparenti",
@@ -4320,7 +4320,7 @@ export const generatedWebsiteMessageOverrides = {
           "startFree": "Inizia Gratis"
         },
         "faq": {
-          "metadataTitle": "FAQ — Sundae",
+          "metadataTitle": "FAQ - Sundae",
           "metadataDescription": "Domande frequenti su Sundae - prezzi, integrazioni, sicurezza dei dati, onboarding e tutto ciò che gli operatori di ristoranti devono sapere prima di iniziare.",
           "badge": "Domande Frequenti",
           "title": "Tutto Ciò che Devi Sapere",
@@ -4349,7 +4349,7 @@ export const generatedWebsiteMessageOverrides = {
           ]
         },
         "modules": {
-          "metadataTitle": "Moduli — Sundae",
+          "metadataTitle": "Moduli - Sundae",
           "badge": "Moduli Specializzati",
           "title": "Approfondisci Dove Conta di Più",
           "description": "Aggiungi moduli specializzati a Sundae Core. Ottieni un'intelligenza operativa profonda in lavoro, inventario, acquisti, marketing e prenotazioni.",
@@ -4386,7 +4386,7 @@ export const generatedWebsiteMessageOverrides = {
           "contactSales": "Contatta le Vendite"
         },
         "integrations": {
-          "metadataTitle": "Integrazioni — Sundae",
+          "metadataTitle": "Integrazioni - Sundae",
           "badge": "Integrazioni",
           "title": "Collega Tutto. Unifica i Tuoi Dati.",
           "description": "Sundae si integra con oltre 30 sistemi di ristorazione tra POS, lavoro, inventario, prenotazioni, consegne e altro.",
@@ -4411,8 +4411,8 @@ export const generatedWebsiteMessageOverrides = {
           "domainsDescription": "POS, lavoro, inventario, acquisti, prenotazioni, consegne, marketing, esperienza ospite, CRM, contabilità e riepiloghi delle vendite giornaliere - tutto connesso.",
           "live": "Live",
           "upcoming": "In arrivo",
-          "liveNow": "Live — disponibile ora",
-          "roadmap": "In arrivo — nella nostra roadmap",
+          "liveNow": "Live - disponibile ora",
+          "roadmap": "In arrivo - nella nostra roadmap",
           "roadmapDescription": "Le integrazioni in arrivo sono attivamente in sviluppo. Le tempistiche possono variare. Contattaci per richiedere priorità per un'integrazione specifica.",
           "webhooksTitle": "Webhook & API Pubblica",
           "webhooksDescription": "Costruisci integrazioni personalizzate con gli strumenti per sviluppatori di Sundae.",
@@ -4425,7 +4425,7 @@ export const generatedWebsiteMessageOverrides = {
           "testPayloads": "Testa i payload e il tracciamento delle consegne"
         },
         "resources": {
-          "metadataTitle": "Risorse — Sundae",
+          "metadataTitle": "Risorse - Sundae",
           "badge": "Risorse & Strumenti",
           "title": "Risorse di Intelligenza Decisionale",
           "description": "Accedi a guide, report e strumenti per aiutarti a prendere decisioni più intelligenti per il tuo business di ristorazione.",
@@ -4456,8 +4456,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "pl": {
     "metadata": {
-      "title": "Sundae – Inteligencja Decyzyjna dla Restauracji",
-      "description": "Platforma AI, która przekształca dane restauracyjne w działania — zjednocz dane POS, pracownicze, koszty i operacyjne, aby ocenić wydajność i uzyskać natychmiastowe spostrzeżenia."
+      "title": "Sundae - Inteligencja Decyzyjna dla Restauracji",
+      "description": "Platforma AI, która przekształca dane restauracyjne w działania - zjednocz dane POS, pracownicze, koszty i operacyjne, aby ocenić wydajność i uzyskać natychmiastowe spostrzeżenia."
     },
     "layout": {
       "skipToContent": "Przejdź do głównej treści",
@@ -4648,7 +4648,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "Platforma Inteligencji Decyzyjnej",
       "titleTop": "Inteligencja Decyzyjna",
       "titleBottom": "dla restauracji",
-      "description": "Twoje dane znajdują się w 5–10 odłączonych systemach. Twój zespół podejmuje decyzje intuicyjnie, podczas gdy marże codziennie uciekają.",
+      "description": "Twoje dane znajdują się w 5-10 odłączonych systemach. Twój zespół podejmuje decyzje intuicyjnie, podczas gdy marże codziennie uciekają.",
       "descriptionEmphasis": "To jest kompromis, który Sundae eliminuje.",
       "narrativeAnchor": "Od opóźnień w raportowaniu do szybkości operacji.",
       "startFree": "Zacznij za darmo",
@@ -4706,7 +4706,7 @@ export const generatedWebsiteMessageOverrides = {
       "platform": {
         "eyebrow": "6 WARSTW · JEDNA PRAWDA",
         "heading": "Sześć warstw. Jedna prawda.",
-        "description": "Od bieżącej zmiany do długoterminowego planu — jeden stos, sześć warstw, które ze sobą rozmawiają.",
+        "description": "Od bieżącej zmiany do długoterminowego planu - jeden stos, sześć warstw, które ze sobą rozmawiają.",
         "countLabel": "z 6",
         "exploreModules": "Zbadaj wszystkie moduły",
         "learnMore": "Dowiedz się więcej",
@@ -4714,7 +4714,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "Operacje w czasie rzeczywistym",
-            "description": "Na żywo, adaptacyjne cele, wydajność serwera, straty — zmiana po zmianie.",
+            "description": "Na żywo, adaptacyjne cele, wydajność serwera, straty - zmiana po zmianie.",
             "href": "/product/pulse"
           },
           {
@@ -4726,13 +4726,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Watchtower",
             "subtitle": "Inteligencja rynkowa",
-            "description": "Konkurenci, pogoda, wydarzenia — zanim wpłyną na Twoje wyniki.",
+            "description": "Konkurenci, pogoda, wydarzenia - zanim wpłyną na Twoje wyniki.",
             "href": "/product/watchtower"
           },
           {
             "name": "Insights",
             "subtitle": "Ponad 30 modułów analitycznych",
-            "description": "Przychody, praca, zapasy, marketing, dostawy — każdy z rekomendacjami AI.",
+            "description": "Przychody, praca, zapasy, marketing, dostawy - każdy z rekomendacjami AI.",
             "href": "/insights"
           },
           {
@@ -4744,7 +4744,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Foresight",
             "subtitle": "Inteligencja predykcyjna",
-            "description": "Prognozy na 14–90 dni, scenariusze co jeśli, briefingi dla kierownictwa, które się korygują.",
+            "description": "Prognozy na 14-90 dni, scenariusze co jeśli, briefingi dla kierownictwa, które się korygują.",
             "href": "/product/foresight"
           }
         ]
@@ -4752,7 +4752,7 @@ export const generatedWebsiteMessageOverrides = {
       "modules": {
         "eyebrow": "MODUŁY INTELIGENCJI",
         "heading": "Ponad 30 modułów w 12 obszarach",
-        "description": "Każdy wymiar wydajności restauracji — analizowany, porównywany i gotowy do działania.",
+        "description": "Każdy wymiar wydajności restauracji - analizowany, porównywany i gotowy do działania.",
         "categories": [
           {
             "name": "Inteligencja przychodów",
@@ -4812,7 +4812,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "Liderzy Operacji",
             "pain": "Nie możesz być w każdej restauracji jednocześnie.",
-            "outcome": "Na żywo śledzenie wydajności serwera w każdym lokalu — zobacz, kto potrzebuje pomocy teraz.",
+            "outcome": "Na żywo śledzenie wydajności serwera w każdym lokalu - zobacz, kto potrzebuje pomocy teraz.",
             "attribution": "Wzorzec wśród operatorów wielolokalowych"
           },
           {
@@ -4824,7 +4824,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "C-Suite i Właściciele",
             "pain": "Twój najgorszy lokal jest niewidoczny do czwartku.",
-            "outcome": "Widok portfela, codzienne briefingi AI, sygnały rynkowe — w każdej marce, którą prowadzisz.",
+            "outcome": "Widok portfela, codzienne briefingi AI, sygnały rynkowe - w każdej marce, którą prowadzisz.",
             "attribution": "Wzorzec wśród założycieli i dyrektorów grup"
           },
           {
@@ -4842,7 +4842,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "01",
             "title": "Połącz",
-            "description": "POS, praca, zapasy, dostawa — większość integracji w mniej niż 5 minut."
+            "description": "POS, praca, zapasy, dostawa - większość integracji w mniej niż 5 minut."
           },
           {
             "step": "02",
@@ -4852,7 +4852,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "03",
             "title": "Zdecyduj",
-            "description": "Konkretne, zrozumiałe rekomendacje — cele, zatrudnienie, menu, ceny."
+            "description": "Konkretne, zrozumiałe rekomendacje - cele, zatrudnienie, menu, ceny."
           },
           {
             "step": "04",
@@ -4862,7 +4862,7 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "mockup": {
-        "frameLabel": "Pulse — Tempo sprzedaży",
+        "frameLabel": "Pulse - Tempo sprzedaży",
         "updatedAt": "Wtorek, 19:42",
         "kpis": [
           {
@@ -4926,10 +4926,10 @@ export const generatedWebsiteMessageOverrides = {
       "closingDescription": "30 minut. Twoje dane. Co Sundae naprawdę zmieniłoby dla zespołu.",
       "pages": {
         "signIn": {
-          "metadataTitle": "Zaloguj się — Sundae",
-          "metadataDescription": "Zaloguj się do Sundae — twojego zintegrowanego widoku wydajności, operacji i inteligencji konkurencyjnej dla restauracji.",
+          "metadataTitle": "Zaloguj się - Sundae",
+          "metadataDescription": "Zaloguj się do Sundae - twojego zintegrowanego widoku wydajności, operacji i inteligencji konkurencyjnej dla restauracji.",
           "brandTitle": "Inteligencja decyzyjna dla restauracji",
-          "brandDescription": "Wydajność, operacje i inteligencja konkurencyjna — zintegrowane w jednej platformie.",
+          "brandDescription": "Wydajność, operacje i inteligencja konkurencyjna - zintegrowane w jednej platformie.",
           "trustPoints": [
             "Inteligencja operacyjna w czasie rzeczywistym",
             "Benchmarking wielu lokalizacji",
@@ -5038,7 +5038,7 @@ export const generatedWebsiteMessageOverrides = {
           "viewPricing": "Zobacz Cennik"
         },
         "pricing": {
-          "metadataTitle": "Cennik — Sundae",
+          "metadataTitle": "Cennik - Sundae",
           "metadataDescription": "Prosty, przejrzysty cennik dla Sundae Report, Core, Watchtower i modułów.",
           "badge": "Cennik",
           "title": "Prosty, Przejrzysty Cennik",
@@ -5062,7 +5062,7 @@ export const generatedWebsiteMessageOverrides = {
           "startFree": "Rozpocznij za darmo"
         },
         "faq": {
-          "metadataTitle": "FAQ — Sundae",
+          "metadataTitle": "FAQ - Sundae",
           "metadataDescription": "Często zadawane pytania dotyczące Sundae - ceny, integracje, bezpieczeństwo danych, onboarding i wszystko inne, co operatorzy restauracji muszą wiedzieć przed rozpoczęciem.",
           "badge": "Często Zadawane Pytania",
           "title": "Wszystko, Co Musisz Wiedzieć",
@@ -5091,7 +5091,7 @@ export const generatedWebsiteMessageOverrides = {
           ]
         },
         "modules": {
-          "metadataTitle": "Moduły — Sundae",
+          "metadataTitle": "Moduły - Sundae",
           "badge": "Specjalistyczne Moduły",
           "title": "Zgłębiaj Tematy, Które Mają Największe Znaczenie",
           "description": "Dodaj specjalistyczne moduły do Sundae Core. Uzyskaj głęboką inteligencję operacyjną w zakresie pracy, zapasów, zakupów, marketingu i rezerwacji.",
@@ -5128,7 +5128,7 @@ export const generatedWebsiteMessageOverrides = {
           "contactSales": "Skontaktuj się z Działem Sprzedaży"
         },
         "integrations": {
-          "metadataTitle": "Integracje — Sundae",
+          "metadataTitle": "Integracje - Sundae",
           "badge": "Integracje",
           "title": "Połącz Wszystko. Zjednocz Swoje Dane.",
           "description": "Sundae integruje się z ponad 30 systemami restauracyjnymi w zakresie POS, pracy, zapasów, rezerwacji, dostaw i nie tylko.",
@@ -5153,8 +5153,8 @@ export const generatedWebsiteMessageOverrides = {
           "domainsDescription": "POS, praca, zapasy, zakupy, rezerwacje, dostawy, marketing, doświadczenie gości, CRM, księgowość i codzienne podsumowania sprzedaży - wszystko połączone.",
           "live": "Na żywo",
           "upcoming": "Nadchodzące",
-          "liveNow": "Na żywo — dostępne teraz",
-          "roadmap": "Nadchodzące — w naszym planie rozwoju",
+          "liveNow": "Na żywo - dostępne teraz",
+          "roadmap": "Nadchodzące - w naszym planie rozwoju",
           "roadmapDescription": "Nadchodzące integracje są aktywnie w trakcie rozwoju. Terminy mogą się różnić. Skontaktuj się z nami, aby poprosić o priorytet dla konkretnej integracji.",
           "webhooksTitle": "Webhooks i Publiczne API",
           "webhooksDescription": "Buduj niestandardowe integracje za pomocą narzędzi deweloperskich Sundae.",
@@ -5167,7 +5167,7 @@ export const generatedWebsiteMessageOverrides = {
           "testPayloads": "Testuj ładunki i śledzenie dostaw"
         },
         "resources": {
-          "metadataTitle": "Zasoby — Sundae",
+          "metadataTitle": "Zasoby - Sundae",
           "badge": "Zasoby i Narzędzia",
           "title": "Zasoby Inteligencji Decyzyjnej",
           "description": "Uzyskaj dostęp do przewodników, raportów i narzędzi, które pomogą ci podejmować mądrzejsze decyzje dla twojej restauracji.",
@@ -5198,8 +5198,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "tr": {
     "metadata": {
-      "title": "Sundae – Restoranlar için Karar Zekası",
-      "description": "Restoran verilerini eyleme dönüştüren AI platformu — POS, iş gücü, maliyet ve operasyonel verileri birleştirerek performansı kıyaslayın ve anında içgörüler elde edin."
+      "title": "Sundae - Restoranlar için Karar Zekası",
+      "description": "Restoran verilerini eyleme dönüştüren AI platformu - POS, iş gücü, maliyet ve operasyonel verileri birleştirerek performansı kıyaslayın ve anında içgörüler elde edin."
     },
     "layout": {
       "skipToContent": "Ana içeriğe atla",
@@ -5448,7 +5448,7 @@ export const generatedWebsiteMessageOverrides = {
       "platform": {
         "eyebrow": "6 KATMAN · BİR GERÇEK",
         "heading": "Altı katman. Bir gerçek.",
-        "description": "Canlı vardiyadan uzun vadeli plana — tek bir yığın, birbirleriyle iletişim kuran altı katman.",
+        "description": "Canlı vardiyadan uzun vadeli plana - tek bir yığın, birbirleriyle iletişim kuran altı katman.",
         "countLabel": "6'nın içinde",
         "exploreModules": "Tüm modülleri keşfedin",
         "learnMore": "Daha fazla bilgi edinin",
@@ -5456,7 +5456,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "Gerçek zamanlı operasyonlar",
-            "description": "Canlı tempo, uyumlu hedefler, sunucu performansı, sızıntı — vardiya vardiya.",
+            "description": "Canlı tempo, uyumlu hedefler, sunucu performansı, sızıntı - vardiya vardiya.",
             "href": "/product/pulse"
           },
           {
@@ -5468,13 +5468,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Watchtower",
             "subtitle": "Pazar zekası",
-            "description": "Rakipler, hava durumu, etkinlikler — sayılarınızı etkilemeden önce.",
+            "description": "Rakipler, hava durumu, etkinlikler - sayılarınızı etkilemeden önce.",
             "href": "/product/watchtower"
           },
           {
             "name": "Insights",
             "subtitle": "30'dan fazla analiz modülü",
-            "description": "Gelir, iş gücü, envanter, pazarlama, teslimat — her biri AI önerileri ile.",
+            "description": "Gelir, iş gücü, envanter, pazarlama, teslimat - her biri AI önerileri ile.",
             "href": "/insights"
           },
           {
@@ -5486,7 +5486,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Foresight",
             "subtitle": "Öngörücü zeka",
-            "description": "14–90 gün tahminleri, olası senaryolar, kendini düzelten yönetici brifingleri.",
+            "description": "14-90 gün tahminleri, olası senaryolar, kendini düzelten yönetici brifingleri.",
             "href": "/product/foresight"
           }
         ]
@@ -5494,7 +5494,7 @@ export const generatedWebsiteMessageOverrides = {
       "modules": {
         "eyebrow": "İSTİHDAM MODÜLLERİ",
         "heading": "12 alanda 12 modül",
-        "description": "Restoran performansının her boyutu — analiz edildi, karşılaştırıldı ve uygulanabilir hale getirildi.",
+        "description": "Restoran performansının her boyutu - analiz edildi, karşılaştırıldı ve uygulanabilir hale getirildi.",
         "categories": [
           {
             "name": "Gelir İstihbaratı",
@@ -5554,7 +5554,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "Operasyon Liderleri",
             "pain": "Her restoranda aynı anda olamazsınız.",
-            "outcome": "Her noktada canlı hız ve sunucu performansı — şu anda kime yardım gerektiğini görün.",
+            "outcome": "Her noktada canlı hız ve sunucu performansı - şu anda kime yardım gerektiğini görün.",
             "attribution": "Çoklu lokasyon operatörleri arasında desen"
           },
           {
@@ -5566,7 +5566,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "C-Suite & Sahipler",
             "pain": "En kötü noktanız Perşembe'ye kadar görünmez.",
-            "outcome": "Portföy görünümü, günlük AI brifingleri, piyasa sinyali — yönettiğiniz her marka için.",
+            "outcome": "Portföy görünümü, günlük AI brifingleri, piyasa sinyali - yönettiğiniz her marka için.",
             "attribution": "Kurucular ve grup CEO'ları arasında desen"
           },
           {
@@ -5584,7 +5584,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "01",
             "title": "Bağlan",
-            "description": "POS, iş gücü, envanter, teslimat — çoğu entegrasyon 5 dakikadan kısa."
+            "description": "POS, iş gücü, envanter, teslimat - çoğu entegrasyon 5 dakikadan kısa."
           },
           {
             "step": "02",
@@ -5594,7 +5594,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "03",
             "title": "Karar Ver",
-            "description": "Belirli, açıklanabilir öneriler — hedefler, personel, menü, fiyatlandırma."
+            "description": "Belirli, açıklanabilir öneriler - hedefler, personel, menü, fiyatlandırma."
           },
           {
             "step": "04",
@@ -5604,7 +5604,7 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "mockup": {
-        "frameLabel": "Pulse — Satış Hızı",
+        "frameLabel": "Pulse - Satış Hızı",
         "updatedAt": "Salı, 19:42",
         "kpis": [
           {
@@ -5668,10 +5668,10 @@ export const generatedWebsiteMessageOverrides = {
       "closingDescription": "30 dakika. Verileriniz. Sundae'nin ekip için gerçekten değiştireceği şey.",
       "pages": {
         "signIn": {
-          "metadataTitle": "Giriş Yap — Sundae",
-          "metadataDescription": "Sundae'ye giriş yapın — restoranlar için performans, operasyonlar ve rekabetçi zeka hakkında birleşik bir görünüm.",
+          "metadataTitle": "Giriş Yap - Sundae",
+          "metadataDescription": "Sundae'ye giriş yapın - restoranlar için performans, operasyonlar ve rekabetçi zeka hakkında birleşik bir görünüm.",
           "brandTitle": "Restoranlar için karar zekası",
-          "brandDescription": "Performans, operasyonlar ve rekabetçi zeka — tek bir platformda birleştirildi.",
+          "brandDescription": "Performans, operasyonlar ve rekabetçi zeka - tek bir platformda birleştirildi.",
           "trustPoints": [
             "Gerçek zamanlı operasyon zekası",
             "Çoklu konum karşılaştırması",
@@ -5780,7 +5780,7 @@ export const generatedWebsiteMessageOverrides = {
           "viewPricing": "Fiyatları Görüntüle"
         },
         "pricing": {
-          "metadataTitle": "Fiyatlandırma — Sundae",
+          "metadataTitle": "Fiyatlandırma - Sundae",
           "metadataDescription": "Sundae Report, Core, Watchtower ve modüller için basit, şeffaf fiyatlandırma.",
           "badge": "Fiyatlandırma",
           "title": "Basit, Şeffaf Fiyatlandırma",
@@ -5804,7 +5804,7 @@ export const generatedWebsiteMessageOverrides = {
           "startFree": "Ücretsiz Başlayın"
         },
         "faq": {
-          "metadataTitle": "SSS — Sundae",
+          "metadataTitle": "SSS - Sundae",
           "metadataDescription": "Sundae hakkında sıkça sorulan sorular - fiyatlandırma, entegrasyonlar, veri güvenliği, başlangıç ve restoran operatörlerinin başlamadan önce bilmesi gereken her şey.",
           "badge": "Sıkça Sorulan Sorular",
           "title": "Bilmeniz Gereken Her Şey",
@@ -5833,7 +5833,7 @@ export const generatedWebsiteMessageOverrides = {
           ]
         },
         "modules": {
-          "metadataTitle": "Modüller — Sundae",
+          "metadataTitle": "Modüller - Sundae",
           "badge": "Özel Modüller",
           "title": "En Önemli Yerlerde Daha Derinlemesine İnceleyin",
           "description": "Sundae Core'a özel modüller ekleyin. İş gücü, envanter, satın alma, pazarlama ve rezervasyonlarda derin operasyonel zekaya sahip olun.",
@@ -5870,7 +5870,7 @@ export const generatedWebsiteMessageOverrides = {
           "contactSales": "Satışla İletişime Geçin"
         },
         "integrations": {
-          "metadataTitle": "Entegrasyonlar — Sundae",
+          "metadataTitle": "Entegrasyonlar - Sundae",
           "badge": "Entegrasyonlar",
           "title": "Her Şeyi Bağlayın. Verilerinizi Birleştirin.",
           "description": "Sundae, POS, iş gücü, envanter, rezervasyon, teslimat ve daha fazlası dahil olmak üzere 30'dan fazla restoran sistemiyle entegre olur.",
@@ -5895,8 +5895,8 @@ export const generatedWebsiteMessageOverrides = {
           "domainsDescription": "POS, iş gücü, envanter, satın alma, rezervasyon, teslimat, pazarlama, misafir deneyimi, CRM, muhasebe ve günlük satış özetleri - hepsi bağlı.",
           "live": "Canlı",
           "upcoming": "Yaklaşan",
-          "liveNow": "Canlı — şimdi mevcut",
-          "roadmap": "Yaklaşan — yol haritamızda",
+          "liveNow": "Canlı - şimdi mevcut",
+          "roadmap": "Yaklaşan - yol haritamızda",
           "roadmapDescription": "Yaklaşan entegrasyonlar aktif olarak geliştirilmekte. Zaman çizelgeleri değişebilir. Belirli bir entegrasyon için öncelik talep etmek üzere bizimle iletişime geçin.",
           "webhooksTitle": "Webhooks & Kamu API'si",
           "webhooksDescription": "Sundae'nin geliştirici araçlarıyla özel entegrasyonlar oluşturun.",
@@ -5909,7 +5909,7 @@ export const generatedWebsiteMessageOverrides = {
           "testPayloads": "Test yükleri ve teslimat takibi"
         },
         "resources": {
-          "metadataTitle": "Kaynaklar — Sundae",
+          "metadataTitle": "Kaynaklar - Sundae",
           "badge": "Kaynaklar & Araçlar",
           "title": "Karar Zekası Kaynakları",
           "description": "Restoran işiniz için daha akıllı kararlar almanıza yardımcı olacak kılavuzlara, raporlara ve araçlara erişim sağlayın.",
@@ -5940,8 +5940,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "zh-Hans": {
     "metadata": {
-      "title": "Sundae – 餐厅决策智能",
-      "description": "将餐厅数据转化为行动的AI平台 — 统一POS、劳动力、成本和运营数据，以基准性能并获得即时洞察。"
+      "title": "Sundae - 餐厅决策智能",
+      "description": "将餐厅数据转化为行动的AI平台 - 统一POS、劳动力、成本和运营数据，以基准性能并获得即时洞察。"
     },
     "layout": {
       "skipToContent": "跳到主要内容",
@@ -6190,7 +6190,7 @@ export const generatedWebsiteMessageOverrides = {
       "platform": {
         "eyebrow": "6 层 · 一个真相",
         "heading": "六层。一个真相。",
-        "description": "从实时班次到长期计划 — 一套系统，六层相互沟通。",
+        "description": "从实时班次到长期计划 - 一套系统，六层相互沟通。",
         "countLabel": "共 6",
         "exploreModules": "探索所有模块",
         "learnMore": "了解更多",
@@ -6198,7 +6198,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "实时运营",
-            "description": "实时节奏、自适应目标、服务员表现、漏损 — 每班次都在变化。",
+            "description": "实时节奏、自适应目标、服务员表现、漏损 - 每班次都在变化。",
             "href": "/product/pulse"
           },
           {
@@ -6210,13 +6210,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Watchtower",
             "subtitle": "市场情报",
-            "description": "竞争对手、天气、事件 — 在它们影响你的数据之前。",
+            "description": "竞争对手、天气、事件 - 在它们影响你的数据之前。",
             "href": "/product/watchtower"
           },
           {
             "name": "Insights",
             "subtitle": "12 分析模块",
-            "description": "收入、劳动力、库存、营销、配送 — 每个模块都有 AI 推荐。",
+            "description": "收入、劳动力、库存、营销、配送 - 每个模块都有 AI 推荐。",
             "href": "/insights"
           },
           {
@@ -6228,7 +6228,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Foresight",
             "subtitle": "预测智能",
-            "description": "14–90 天的预测、假设场景、自我修正的高管简报。",
+            "description": "14-90 天的预测、假设场景、自我修正的高管简报。",
             "href": "/product/foresight"
           }
         ]
@@ -6236,7 +6236,7 @@ export const generatedWebsiteMessageOverrides = {
       "modules": {
         "eyebrow": "智能模块",
         "heading": "12个领域的12模块",
-        "description": "餐厅绩效的每个维度——分析、基准和可操作。",
+        "description": "餐厅绩效的每个维度--分析、基准和可操作。",
         "categories": [
           {
             "name": "收入智能",
@@ -6296,7 +6296,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "运营领导",
             "pain": "你不可能同时在每个餐厅。",
-            "outcome": "实时的节奏和每个门店的服务员表现——查看谁现在需要帮助。",
+            "outcome": "实时的节奏和每个门店的服务员表现--查看谁现在需要帮助。",
             "attribution": "多地点运营商的模式"
           },
           {
@@ -6308,7 +6308,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "C级高管与所有者",
             "pain": "你最差的门店在周四之前是看不见的。",
-            "outcome": "投资组合视图，每日AI简报，市场信号——涵盖你运营的每个品牌。",
+            "outcome": "投资组合视图，每日AI简报，市场信号--涵盖你运营的每个品牌。",
             "attribution": "创始人和集团CEO的模式"
           },
           {
@@ -6326,7 +6326,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "01",
             "title": "连接",
-            "description": "POS、劳动力、库存、配送 — 大多数集成在5分钟内完成."
+            "description": "POS、劳动力、库存、配送 - 大多数集成在5分钟内完成."
           },
           {
             "step": "02",
@@ -6336,7 +6336,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "03",
             "title": "决策",
-            "description": "具体、可解释的建议 — 目标、人员配置、菜单、定价."
+            "description": "具体、可解释的建议 - 目标、人员配置、菜单、定价."
           },
           {
             "step": "04",
@@ -6346,7 +6346,7 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "mockup": {
-        "frameLabel": "脉动 — 销售进度",
+        "frameLabel": "脉动 - 销售进度",
         "updatedAt": "星期二, 7:42 PM",
         "kpis": [
           {
@@ -6410,10 +6410,10 @@ export const generatedWebsiteMessageOverrides = {
       "closingDescription": "30分钟。您的数据。Sundae 实际上会为团队带来什么变化。",
       "pages": {
         "signIn": {
-          "metadataTitle": "登录 — Sundae",
-          "metadataDescription": "登录Sundae — 您的餐厅绩效、运营和竞争情报的统一视图。",
+          "metadataTitle": "登录 - Sundae",
+          "metadataDescription": "登录Sundae - 您的餐厅绩效、运营和竞争情报的统一视图。",
           "brandTitle": "餐厅决策智能",
-          "brandDescription": "绩效、运营和竞争情报 — 在一个平台上统一。",
+          "brandDescription": "绩效、运营和竞争情报 - 在一个平台上统一。",
           "trustPoints": [
             "实时运营情报",
             "多地点基准测试",
@@ -6522,7 +6522,7 @@ export const generatedWebsiteMessageOverrides = {
           "viewPricing": "查看定价"
         },
         "pricing": {
-          "metadataTitle": "定价 — Sundae",
+          "metadataTitle": "定价 - Sundae",
           "metadataDescription": "Sundae Report、Core、Watchtower和模块的简单透明定价。",
           "badge": "定价",
           "title": "简单、透明的定价",
@@ -6546,7 +6546,7 @@ export const generatedWebsiteMessageOverrides = {
           "startFree": "免费开始"
         },
         "faq": {
-          "metadataTitle": "常见问题 — Sundae",
+          "metadataTitle": "常见问题 - Sundae",
           "metadataDescription": "关于Sundae的常见问题 - 定价、集成、数据安全、入职以及餐厅运营者在开始之前需要了解的其他一切。",
           "badge": "常见问题",
           "title": "您需要知道的一切",
@@ -6575,7 +6575,7 @@ export const generatedWebsiteMessageOverrides = {
           ]
         },
         "modules": {
-          "metadataTitle": "模块 — Sundae",
+          "metadataTitle": "模块 - Sundae",
           "badge": "专业模块",
           "title": "深入您最关心的领域",
           "description": "为Sundae Core添加专业模块。在劳动、库存、采购、营销和预订方面获得深度运营智能。",
@@ -6612,7 +6612,7 @@ export const generatedWebsiteMessageOverrides = {
           "contactSales": "联系销售"
         },
         "integrations": {
-          "metadataTitle": "集成 — Sundae",
+          "metadataTitle": "集成 - Sundae",
           "badge": "集成",
           "title": "连接一切。统一您的数据。",
           "description": "Sundae与30多个餐厅系统集成，涵盖POS、劳动、库存、预订、配送等。",
@@ -6651,7 +6651,7 @@ export const generatedWebsiteMessageOverrides = {
           "testPayloads": "测试有效负载和交付跟踪"
         },
         "resources": {
-          "metadataTitle": "资源 — Sundae",
+          "metadataTitle": "资源 - Sundae",
           "badge": "资源与工具",
           "title": "决策智能资源",
           "description": "访问指南、报告和工具，帮助您为餐厅业务做出更明智的决策。",
@@ -6682,8 +6682,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "ja": {
     "metadata": {
-      "title": "Sundae – レストランのための意思決定インテリジェンス",
-      "description": "レストランデータをアクションに変えるAIプラットフォーム — POS、労働、コスト、運用データを統合してパフォーマンスをベンチマークし、瞬時にインサイトを得る。"
+      "title": "Sundae - レストランのための意思決定インテリジェンス",
+      "description": "レストランデータをアクションに変えるAIプラットフォーム - POS、労働、コスト、運用データを統合してパフォーマンスをベンチマークし、瞬時にインサイトを得る。"
     },
     "layout": {
       "skipToContent": "メインコンテンツにスキップ",
@@ -6932,7 +6932,7 @@ export const generatedWebsiteMessageOverrides = {
       "platform": {
         "eyebrow": "6層 · 1つの真実",
         "heading": "6つの層。1つの真実。",
-        "description": "ライブシフトから長期計画まで — 1つのスタック、互いに連携する6つの層。",
+        "description": "ライブシフトから長期計画まで - 1つのスタック、互いに連携する6つの層。",
         "countLabel": "の6",
         "exploreModules": "すべてのモジュールを探る",
         "learnMore": "詳しく学ぶ",
@@ -6940,7 +6940,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "リアルタイムオペレーション",
-            "description": "ライブペーシング、適応ターゲット、サーバーパフォーマンス、漏れ — シフトごとに。",
+            "description": "ライブペーシング、適応ターゲット、サーバーパフォーマンス、漏れ - シフトごとに。",
             "href": "/product/pulse"
           },
           {
@@ -6952,13 +6952,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Watchtower",
             "subtitle": "市場情報",
-            "description": "競合、天候、イベント — あなたの数字に影響を与える前に。",
+            "description": "競合、天候、イベント - あなたの数字に影響を与える前に。",
             "href": "/product/watchtower"
           },
           {
             "name": "Insights",
             "subtitle": "30以上の分析モジュール",
-            "description": "収益、労働、在庫、マーケティング、配送 — それぞれにAIの推奨が付随。",
+            "description": "収益、労働、在庫、マーケティング、配送 - それぞれにAIの推奨が付随。",
             "href": "/insights"
           },
           {
@@ -7038,7 +7038,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "オペレーションリーダー",
             "pain": "すべてのレストランに同時にいることはできません。",
-            "outcome": "すべての店舗でのライブペーシングとサーバーのパフォーマンス — 今すぐ助けが必要な人を確認。",
+            "outcome": "すべての店舗でのライブペーシングとサーバーのパフォーマンス - 今すぐ助けが必要な人を確認。",
             "attribution": "複数のロケーションオペレーター間のパターン"
           },
           {
@@ -7050,7 +7050,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "C-suite & オーナー",
             "pain": "最も悪い店舗は木曜日まで見えません。",
-            "outcome": "ポートフォリオビュー、日々のAIブリーフィング、市場シグナル — あなたが運営するすべてのブランドにわたって。",
+            "outcome": "ポートフォリオビュー、日々のAIブリーフィング、市場シグナル - あなたが運営するすべてのブランドにわたって。",
             "attribution": "創業者やグループCEO間のパターン"
           },
           {
@@ -7068,7 +7068,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "01",
             "title": "接続",
-            "description": "POS、労働、在庫、配送 — ほとんどの統合は5分以内で完了します。"
+            "description": "POS、労働、在庫、配送 - ほとんどの統合は5分以内で完了します。"
           },
           {
             "step": "02",
@@ -7078,7 +7078,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "03",
             "title": "決定",
-            "description": "具体的で説明可能な推奨事項 — 目標、スタッフ、メニュー、価格設定。"
+            "description": "具体的で説明可能な推奨事項 - 目標、スタッフ、メニュー、価格設定。"
           },
           {
             "step": "04",
@@ -7088,7 +7088,7 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "mockup": {
-        "frameLabel": "パルス — 売上ペース",
+        "frameLabel": "パルス - 売上ペース",
         "updatedAt": "火曜日, 7:42 PM",
         "kpis": [
           {
@@ -7152,10 +7152,10 @@ export const generatedWebsiteMessageOverrides = {
       "closingDescription": "30分。あなたのデータ。Sundaeがチームのために実際に変えること。",
       "pages": {
         "signIn": {
-          "metadataTitle": "サインイン — Sundae",
-          "metadataDescription": "Sundaeにサインイン — レストランのパフォーマンス、オペレーション、競争インテリジェンスの統合ビュー。",
+          "metadataTitle": "サインイン - Sundae",
+          "metadataDescription": "Sundaeにサインイン - レストランのパフォーマンス、オペレーション、競争インテリジェンスの統合ビュー。",
           "brandTitle": "レストラン向けの意思決定インテリジェンス",
-          "brandDescription": "パフォーマンス、オペレーション、競争インテリジェンス — 1つのプラットフォームに統合。",
+          "brandDescription": "パフォーマンス、オペレーション、競争インテリジェンス - 1つのプラットフォームに統合。",
           "trustPoints": [
             "リアルタイムオペレーションインテリジェンス",
             "マルチロケーションベンチマーキング",
@@ -7264,7 +7264,7 @@ export const generatedWebsiteMessageOverrides = {
           "viewPricing": "価格を見る"
         },
         "pricing": {
-          "metadataTitle": "価格 — Sundae",
+          "metadataTitle": "価格 - Sundae",
           "metadataDescription": "Sundae Report、Core、Watchtower、およびモジュールのシンプルで透明な価格設定。",
           "badge": "価格",
           "title": "シンプルで透明な価格設定",
@@ -7288,7 +7288,7 @@ export const generatedWebsiteMessageOverrides = {
           "startFree": "無料で始める"
         },
         "faq": {
-          "metadataTitle": "FAQ — Sundae",
+          "metadataTitle": "FAQ - Sundae",
           "metadataDescription": "Sundaeに関するよくある質問 - 価格、統合、データセキュリティ、オンボーディング、そしてレストランオペレーターが始める前に知っておくべきすべて。",
           "badge": "よくある質問",
           "title": "知っておくべきすべて",
@@ -7317,7 +7317,7 @@ export const generatedWebsiteMessageOverrides = {
           ]
         },
         "modules": {
-          "metadataTitle": "モジュール — Sundae",
+          "metadataTitle": "モジュール - Sundae",
           "badge": "専門的なモジュール",
           "title": "最も重要なところを深く掘り下げる",
           "description": "Sundae Coreに専門的なモジュールを追加します。労働、在庫、購買、マーケティング、予約における深いオペレーショナルインテリジェンスを得る。",
@@ -7354,7 +7354,7 @@ export const generatedWebsiteMessageOverrides = {
           "contactSales": "営業に連絡"
         },
         "integrations": {
-          "metadataTitle": "統合 — Sundae",
+          "metadataTitle": "統合 - Sundae",
           "badge": "統合",
           "title": "すべてを接続。データを統合。",
           "description": "Sundaeは、POS、労働、在庫、予約、配達など、30以上のレストランシステムと統合します。",
@@ -7379,8 +7379,8 @@ export const generatedWebsiteMessageOverrides = {
           "domainsDescription": "POS、労働、在庫、購買、予約、配達、マーケティング、ゲスト体験、CRM、会計、日次売上サマリー - すべて接続されています。",
           "live": "ライブ",
           "upcoming": "今後",
-          "liveNow": "ライブ — 現在利用可能",
-          "roadmap": "今後 — 私たちのロードマップにあります",
+          "liveNow": "ライブ - 現在利用可能",
+          "roadmap": "今後 - 私たちのロードマップにあります",
           "roadmapDescription": "今後の統合は積極的に開発中です。タイムラインは異なる場合があります。特定の統合の優先リクエストはお問い合わせください。",
           "webhooksTitle": "WebhookとパブリックAPI",
           "webhooksDescription": "Sundaeの開発者ツールを使用してカスタム統合を構築します。",
@@ -7393,7 +7393,7 @@ export const generatedWebsiteMessageOverrides = {
           "testPayloads": "テストペイロードと配信追跡"
         },
         "resources": {
-          "metadataTitle": "リソース — Sundae",
+          "metadataTitle": "リソース - Sundae",
           "badge": "リソースとツール",
           "title": "意思決定インテリジェンスリソース",
           "description": "レストランビジネスのためによりスマートな意思決定を行うためのガイド、レポート、ツールにアクセスします。",
@@ -7424,8 +7424,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "ko": {
     "metadata": {
-      "title": "Sundae – 레스토랑을 위한 의사결정 인텔리전스",
-      "description": "레스토랑 데이터를 행동으로 전환하는 AI 플랫폼 — POS, 인력, 비용 및 운영 데이터를 통합하여 성과를 벤치마킹하고 즉각적인 통찰력을 얻으세요."
+      "title": "Sundae - 레스토랑을 위한 의사결정 인텔리전스",
+      "description": "레스토랑 데이터를 행동으로 전환하는 AI 플랫폼 - POS, 인력, 비용 및 운영 데이터를 통합하여 성과를 벤치마킹하고 즉각적인 통찰력을 얻으세요."
     },
     "layout": {
       "skipToContent": "주 콘텐츠로 건너뛰기",
@@ -7616,7 +7616,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "결정 지능 플랫폼",
       "titleTop": "결정 지능",
       "titleBottom": "레스토랑을 위한",
-      "description": "귀하의 데이터는 5–10개의 분리된 시스템에 존재합니다. 귀하의 팀은 직감에 따라 결정하며, 마진은 매일 유출됩니다.",
+      "description": "귀하의 데이터는 5-10개의 분리된 시스템에 존재합니다. 귀하의 팀은 직감에 따라 결정하며, 마진은 매일 유출됩니다.",
       "descriptionEmphasis": "그것이 Sundae가 제거하는 거래입니다.",
       "narrativeAnchor": "보고 지연에서 운영 속도로.",
       "startFree": "무료 시작",
@@ -7674,7 +7674,7 @@ export const generatedWebsiteMessageOverrides = {
       "platform": {
         "eyebrow": "6 레이어 · 하나의 진실",
         "heading": "여섯 개의 레이어. 하나의 진실.",
-        "description": "실시간 근무부터 장기 계획까지 — 하나의 스택, 서로 소통하는 여섯 개의 레이어.",
+        "description": "실시간 근무부터 장기 계획까지 - 하나의 스택, 서로 소통하는 여섯 개의 레이어.",
         "countLabel": "중 6",
         "exploreModules": "모든 모듈 탐색하기",
         "learnMore": "자세히 알아보기",
@@ -7682,7 +7682,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "실시간 운영",
-            "description": "실시간 페이싱, 적응형 목표, 서버 성능, 누수 — 근무별로.",
+            "description": "실시간 페이싱, 적응형 목표, 서버 성능, 누수 - 근무별로.",
             "href": "/product/pulse"
           },
           {
@@ -7694,13 +7694,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Watchtower",
             "subtitle": "시장 정보",
-            "description": "경쟁자, 날씨, 이벤트 — 당신의 수치에 영향을 미치기 전에.",
+            "description": "경쟁자, 날씨, 이벤트 - 당신의 수치에 영향을 미치기 전에.",
             "href": "/product/watchtower"
           },
           {
             "name": "Insights",
             "subtitle": "30개 이상의 분석 모듈",
-            "description": "수익, 인력, 재고, 마케팅, 배달 — 각각 AI 추천 포함.",
+            "description": "수익, 인력, 재고, 마케팅, 배달 - 각각 AI 추천 포함.",
             "href": "/insights"
           },
           {
@@ -7712,7 +7712,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Foresight",
             "subtitle": "예측 정보",
-            "description": "14–90일 예측, 가정 시나리오, 스스로 수정되는 경영진 브리핑.",
+            "description": "14-90일 예측, 가정 시나리오, 스스로 수정되는 경영진 브리핑.",
             "href": "/product/foresight"
           }
         ]
@@ -7720,7 +7720,7 @@ export const generatedWebsiteMessageOverrides = {
       "modules": {
         "eyebrow": "인텔리전스 모듈",
         "heading": "12개 분야의 30개 이상 모듈",
-        "description": "레스토랑 성과의 모든 차원 — 분석, 벤치마킹 및 실행 가능.",
+        "description": "레스토랑 성과의 모든 차원 - 분석, 벤치마킹 및 실행 가능.",
         "categories": [
           {
             "name": "수익 인텔리전스",
@@ -7780,7 +7780,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "운영 리더",
             "pain": "모든 레스토랑에 동시에 있을 수는 없습니다.",
-            "outcome": "모든 매장에서의 실시간 진행 상황 및 서버 성능 — 지금 도움이 필요한 사람을 확인하세요.",
+            "outcome": "모든 매장에서의 실시간 진행 상황 및 서버 성능 - 지금 도움이 필요한 사람을 확인하세요.",
             "attribution": "다중 위치 운영자 간의 패턴"
           },
           {
@@ -7792,7 +7792,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "C-스위트 및 소유자",
             "pain": "가장 나쁜 매장은 목요일까지 보이지 않습니다.",
-            "outcome": "포트폴리오 보기, 일일 AI 브리핑, 시장 신호 — 운영하는 모든 브랜드에서.",
+            "outcome": "포트폴리오 보기, 일일 AI 브리핑, 시장 신호 - 운영하는 모든 브랜드에서.",
             "attribution": "창립자 및 그룹 CEO 간의 패턴"
           },
           {
@@ -7810,7 +7810,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "01",
             "title": "연결",
-            "description": "POS, 인력, 재고, 배달 — 대부분의 통합이 5분 이내에 완료됩니다."
+            "description": "POS, 인력, 재고, 배달 - 대부분의 통합이 5분 이내에 완료됩니다."
           },
           {
             "step": "02",
@@ -7820,7 +7820,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "03",
             "title": "결정",
-            "description": "구체적이고 설명 가능한 추천 — 목표, 인력, 메뉴, 가격."
+            "description": "구체적이고 설명 가능한 추천 - 목표, 인력, 메뉴, 가격."
           },
           {
             "step": "04",
@@ -7830,7 +7830,7 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "mockup": {
-        "frameLabel": "펄스 — 매출 속도",
+        "frameLabel": "펄스 - 매출 속도",
         "updatedAt": "화요일, 오후 7:42",
         "kpis": [
           {
@@ -7894,10 +7894,10 @@ export const generatedWebsiteMessageOverrides = {
       "closingDescription": "30분. 당신의 데이터. Sundae가 팀을 위해 실제로 변경할 사항.",
       "pages": {
         "signIn": {
-          "metadataTitle": "로그인 — Sundae",
-          "metadataDescription": "Sundae에 로그인하세요 — 레스토랑의 성과, 운영 및 경쟁 정보에 대한 통합된 뷰입니다.",
+          "metadataTitle": "로그인 - Sundae",
+          "metadataDescription": "Sundae에 로그인하세요 - 레스토랑의 성과, 운영 및 경쟁 정보에 대한 통합된 뷰입니다.",
           "brandTitle": "레스토랑을 위한 의사결정 인텔리전스",
-          "brandDescription": "성과, 운영 및 경쟁 정보 — 하나의 플랫폼에 통합되었습니다.",
+          "brandDescription": "성과, 운영 및 경쟁 정보 - 하나의 플랫폼에 통합되었습니다.",
           "trustPoints": [
             "실시간 운영 인텔리전스",
             "다중 위치 벤치마킹",
@@ -8006,7 +8006,7 @@ export const generatedWebsiteMessageOverrides = {
           "viewPricing": "가격 보기"
         },
         "pricing": {
-          "metadataTitle": "가격 — Sundae",
+          "metadataTitle": "가격 - Sundae",
           "metadataDescription": "Sundae Report, Core, Watchtower 및 모듈에 대한 간단하고 투명한 가격.",
           "badge": "가격",
           "title": "간단하고 투명한 가격",
@@ -8030,7 +8030,7 @@ export const generatedWebsiteMessageOverrides = {
           "startFree": "무료 시작"
         },
         "faq": {
-          "metadataTitle": "FAQ — Sundae",
+          "metadataTitle": "FAQ - Sundae",
           "metadataDescription": "Sundae에 대한 자주 묻는 질문 - 가격, 통합, 데이터 보안, 온보딩 및 레스토랑 운영자가 시작하기 전에 알아야 할 모든 것.",
           "badge": "자주 묻는 질문",
           "title": "알아야 할 모든 것",
@@ -8059,7 +8059,7 @@ export const generatedWebsiteMessageOverrides = {
           ]
         },
         "modules": {
-          "metadataTitle": "모듈 — Sundae",
+          "metadataTitle": "모듈 - Sundae",
           "badge": "전문 모듈",
           "title": "가장 중요한 곳에서 더 깊이 들어가세요",
           "description": "Sundae Core에 전문 모듈을 추가하세요. 노동, 재고, 구매, 마케팅 및 예약에서 깊은 운영 인텔리전스를 얻으세요.",
@@ -8096,7 +8096,7 @@ export const generatedWebsiteMessageOverrides = {
           "contactSales": "영업팀에 문의"
         },
         "integrations": {
-          "metadataTitle": "통합 — Sundae",
+          "metadataTitle": "통합 - Sundae",
           "badge": "통합",
           "title": "모든 것을 연결하세요. 데이터를 통합하세요.",
           "description": "Sundae는 POS, 노동, 재고, 예약, 배달 등 30개 이상의 레스토랑 시스템과 통합됩니다.",
@@ -8121,8 +8121,8 @@ export const generatedWebsiteMessageOverrides = {
           "domainsDescription": "POS, 노동, 재고, 구매, 예약, 배달, 마케팅, 고객 경험, CRM, 회계 및 일일 판매 요약 - 모두 연결되어 있습니다.",
           "live": "실시간",
           "upcoming": "예정",
-          "liveNow": "실시간 — 지금 사용 가능",
-          "roadmap": "예정 — 우리의 로드맵에 있음",
+          "liveNow": "실시간 - 지금 사용 가능",
+          "roadmap": "예정 - 우리의 로드맵에 있음",
           "roadmapDescription": "예정된 통합은 현재 개발 중입니다. 일정은 다를 수 있습니다. 특정 통합에 대한 우선 요청은 저희에게 문의하세요.",
           "webhooksTitle": "웹후크 및 공개 API",
           "webhooksDescription": "Sundae의 개발자 도구로 맞춤형 통합을 구축하세요.",
@@ -8135,7 +8135,7 @@ export const generatedWebsiteMessageOverrides = {
           "testPayloads": "테스트 페이로드 및 배달 추적"
         },
         "resources": {
-          "metadataTitle": "리소스 — Sundae",
+          "metadataTitle": "리소스 - Sundae",
           "badge": "리소스 및 도구",
           "title": "의사결정 인텔리전스 리소스",
           "description": "레스토랑 비즈니스를 위한 더 스마트한 결정을 내리는 데 도움이 되는 가이드, 보고서 및 도구에 접근하세요.",
@@ -8166,8 +8166,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "id": {
     "metadata": {
-      "title": "Sundae – Kecerdasan Keputusan untuk Restoran",
-      "description": "Platform AI yang mengubah data restoran menjadi tindakan — menyatukan data POS, tenaga kerja, biaya, dan operasional untuk membandingkan kinerja dan mendapatkan wawasan instan."
+      "title": "Sundae - Kecerdasan Keputusan untuk Restoran",
+      "description": "Platform AI yang mengubah data restoran menjadi tindakan - menyatukan data POS, tenaga kerja, biaya, dan operasional untuk membandingkan kinerja dan mendapatkan wawasan instan."
     },
     "layout": {
       "skipToContent": "Lewati ke konten utama",
@@ -8358,7 +8358,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "Platform Intelijen Keputusan",
       "titleTop": "Kecerdasan Keputusan",
       "titleBottom": "untuk Restoran",
-      "description": "Data Anda berada di 5–10 sistem yang terpisah. Tim Anda mengambil keputusan berdasarkan insting sementara margin terus menurun setiap hari.",
+      "description": "Data Anda berada di 5-10 sistem yang terpisah. Tim Anda mengambil keputusan berdasarkan insting sementara margin terus menurun setiap hari.",
       "descriptionEmphasis": "Itulah kompromi yang dihilangkan oleh Sundae.",
       "narrativeAnchor": "Dari keterlambatan pelaporan ke kecepatan operasional.",
       "startFree": "Mulai Gratis",
@@ -8416,7 +8416,7 @@ export const generatedWebsiteMessageOverrides = {
       "platform": {
         "eyebrow": "6 LAPIS · SATU KEBENARAN",
         "heading": "Enam lapis. Satu kebenaran.",
-        "description": "Dari shift langsung hingga rencana jangka panjang — satu tumpukan, enam lapis yang saling terhubung.",
+        "description": "Dari shift langsung hingga rencana jangka panjang - satu tumpukan, enam lapis yang saling terhubung.",
         "countLabel": "dari 6",
         "exploreModules": "Jelajahi semua modul",
         "learnMore": "Pelajari lebih lanjut",
@@ -8424,7 +8424,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "Operasi waktu nyata",
-            "description": "Pacing langsung, target adaptif, kinerja server, kebocoran — shift demi shift.",
+            "description": "Pacing langsung, target adaptif, kinerja server, kebocoran - shift demi shift.",
             "href": "/product/pulse"
           },
           {
@@ -8436,13 +8436,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Watchtower",
             "subtitle": "Intelijen pasar",
-            "description": "Pesaing, cuaca, acara — sebelum mereka mempengaruhi angka Anda.",
+            "description": "Pesaing, cuaca, acara - sebelum mereka mempengaruhi angka Anda.",
             "href": "/product/watchtower"
           },
           {
             "name": "Insights",
             "subtitle": "12 modul analitik",
-            "description": "Pendapatan, tenaga kerja, inventaris, pemasaran, pengiriman — masing-masing dengan rekomendasi AI.",
+            "description": "Pendapatan, tenaga kerja, inventaris, pemasaran, pengiriman - masing-masing dengan rekomendasi AI.",
             "href": "/insights"
           },
           {
@@ -8454,7 +8454,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Foresight",
             "subtitle": "Intelijen prediktif",
-            "description": "Ramalan 14–90 hari, skenario what-if, briefing eksekutif yang memperbaiki diri sendiri.",
+            "description": "Ramalan 14-90 hari, skenario what-if, briefing eksekutif yang memperbaiki diri sendiri.",
             "href": "/product/foresight"
           }
         ]
@@ -8462,7 +8462,7 @@ export const generatedWebsiteMessageOverrides = {
       "modules": {
         "eyebrow": "MODUL INTELIGENSI",
         "heading": "12 modul di 12 domain",
-        "description": "Setiap dimensi kinerja restoran — dianalisis, dibandingkan, dan dapat ditindaklanjuti.",
+        "description": "Setiap dimensi kinerja restoran - dianalisis, dibandingkan, dan dapat ditindaklanjuti.",
         "categories": [
           {
             "name": "Intelijensi Pendapatan",
@@ -8522,7 +8522,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "Pemimpin Operasi",
             "pain": "Anda tidak bisa berada di setiap restoran sekaligus.",
-            "outcome": "Pemantauan langsung dan kinerja pelayan di setiap outlet — lihat siapa yang membutuhkan bantuan sekarang.",
+            "outcome": "Pemantauan langsung dan kinerja pelayan di setiap outlet - lihat siapa yang membutuhkan bantuan sekarang.",
             "attribution": "Pola di antara operator multi-lokasi"
           },
           {
@@ -8534,7 +8534,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "C-Suite & Pemilik",
             "pain": "Outlet terburuk Anda tidak terlihat sampai Kamis.",
-            "outcome": "Tampilan portofolio, pengarahan AI harian, sinyal pasar — di setiap merek yang Anda jalankan.",
+            "outcome": "Tampilan portofolio, pengarahan AI harian, sinyal pasar - di setiap merek yang Anda jalankan.",
             "attribution": "Pola di antara pendiri dan CEO grup"
           },
           {
@@ -8552,7 +8552,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "01",
             "title": "Sambungkan",
-            "description": "POS, tenaga kerja, inventaris, pengiriman — sebagian besar integrasi dalam waktu kurang dari 5 menit."
+            "description": "POS, tenaga kerja, inventaris, pengiriman - sebagian besar integrasi dalam waktu kurang dari 5 menit."
           },
           {
             "step": "02",
@@ -8562,7 +8562,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "03",
             "title": "Putuskan",
-            "description": "Rekomendasi yang spesifik dan dapat dijelaskan — target, staf, menu, harga."
+            "description": "Rekomendasi yang spesifik dan dapat dijelaskan - target, staf, menu, harga."
           },
           {
             "step": "04",
@@ -8572,7 +8572,7 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "mockup": {
-        "frameLabel": "Pulse — Pacing Penjualan",
+        "frameLabel": "Pulse - Pacing Penjualan",
         "updatedAt": "Selasa, 7:42 PM",
         "kpis": [
           {
@@ -8636,10 +8636,10 @@ export const generatedWebsiteMessageOverrides = {
       "closingDescription": "30 menit. Data Anda. Apa yang sebenarnya akan diubah Sundae untuk tim.",
       "pages": {
         "signIn": {
-          "metadataTitle": "Masuk — Sundae",
-          "metadataDescription": "Masuk ke Sundae — pandangan terpadu Anda tentang kinerja, operasi, dan intelijen kompetitif untuk restoran.",
+          "metadataTitle": "Masuk - Sundae",
+          "metadataDescription": "Masuk ke Sundae - pandangan terpadu Anda tentang kinerja, operasi, dan intelijen kompetitif untuk restoran.",
           "brandTitle": "Intelijen keputusan untuk restoran",
-          "brandDescription": "Kinerja, operasi, dan intelijen kompetitif — terpadu dalam satu platform.",
+          "brandDescription": "Kinerja, operasi, dan intelijen kompetitif - terpadu dalam satu platform.",
           "trustPoints": [
             "Intelijen operasi waktu nyata",
             "Benchmarking multi-lokasi",
@@ -8748,7 +8748,7 @@ export const generatedWebsiteMessageOverrides = {
           "viewPricing": "Lihat Harga"
         },
         "pricing": {
-          "metadataTitle": "Harga — Sundae",
+          "metadataTitle": "Harga - Sundae",
           "metadataDescription": "Harga yang sederhana dan transparan untuk Sundae Report, Core, Watchtower, dan modul-modul.",
           "badge": "Harga",
           "title": "Harga Sederhana dan Transparan",
@@ -8772,7 +8772,7 @@ export const generatedWebsiteMessageOverrides = {
           "startFree": "Mulai Gratis"
         },
         "faq": {
-          "metadataTitle": "FAQ — Sundae",
+          "metadataTitle": "FAQ - Sundae",
           "metadataDescription": "Pertanyaan yang sering diajukan tentang Sundae - harga, integrasi, keamanan data, onboarding, dan segala hal lain yang perlu diketahui operator restoran sebelum memulai.",
           "badge": "Pertanyaan yang Sering Diajukan",
           "title": "Segala yang Perlu Anda Ketahui",
@@ -8801,7 +8801,7 @@ export const generatedWebsiteMessageOverrides = {
           ]
         },
         "modules": {
-          "metadataTitle": "Modul — Sundae",
+          "metadataTitle": "Modul - Sundae",
           "badge": "Modul Khusus",
           "title": "Masuk Lebih Dalam di Tempat yang Paling Penting",
           "description": "Tambahkan modul khusus ke Sundae Core. Dapatkan intelijen operasional mendalam dalam tenaga kerja, inventaris, pembelian, pemasaran, dan reservasi.",
@@ -8838,7 +8838,7 @@ export const generatedWebsiteMessageOverrides = {
           "contactSales": "Hubungi Penjualan"
         },
         "integrations": {
-          "metadataTitle": "Integrasi — Sundae",
+          "metadataTitle": "Integrasi - Sundae",
           "badge": "Integrasi",
           "title": "Sambungkan Segalanya. Satukan Data Anda.",
           "description": "Sundae terintegrasi dengan 250+ sistem restoran di seluruh POS, tenaga kerja, inventaris, reservasi, pengiriman, dan lainnya.",
@@ -8863,8 +8863,8 @@ export const generatedWebsiteMessageOverrides = {
           "domainsDescription": "POS, tenaga kerja, inventaris, pembelian, reservasi, pengiriman, pemasaran, pengalaman tamu, CRM, akuntansi, dan ringkasan penjualan harian - semua terhubung.",
           "live": "Langsung",
           "upcoming": "Akan Datang",
-          "liveNow": "Langsung — tersedia sekarang",
-          "roadmap": "Akan Datang — dalam peta jalan kami",
+          "liveNow": "Langsung - tersedia sekarang",
+          "roadmap": "Akan Datang - dalam peta jalan kami",
           "roadmapDescription": "Integrasi yang akan datang sedang dalam pengembangan aktif. Jadwal dapat bervariasi. Hubungi kami untuk meminta prioritas untuk integrasi tertentu.",
           "webhooksTitle": "Webhooks & API Publik",
           "webhooksDescription": "Bangun integrasi kustom dengan alat pengembang Sundae.",
@@ -8877,7 +8877,7 @@ export const generatedWebsiteMessageOverrides = {
           "testPayloads": "Uji payload dan pelacakan pengiriman"
         },
         "resources": {
-          "metadataTitle": "Sumber Daya — Sundae",
+          "metadataTitle": "Sumber Daya - Sundae",
           "badge": "Sumber Daya & Alat",
           "title": "Sumber Daya Intelijen Keputusan",
           "description": "Akses panduan, laporan, dan alat untuk membantu Anda membuat keputusan yang lebih cerdas untuk bisnis restoran Anda.",
@@ -8908,8 +8908,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "vi": {
     "metadata": {
-      "title": "Sundae – Trí tuệ quyết định cho nhà hàng",
-      "description": "Nền tảng AI biến dữ liệu nhà hàng thành hành động — hợp nhất dữ liệu POS, lao động, chi phí và hoạt động để đánh giá hiệu suất và nhận thông tin ngay lập tức."
+      "title": "Sundae - Trí tuệ quyết định cho nhà hàng",
+      "description": "Nền tảng AI biến dữ liệu nhà hàng thành hành động - hợp nhất dữ liệu POS, lao động, chi phí và hoạt động để đánh giá hiệu suất và nhận thông tin ngay lập tức."
     },
     "layout": {
       "skipToContent": "Bỏ qua nội dung chính",
@@ -9100,7 +9100,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "Nền tảng Trí tuệ Quyết định",
       "titleTop": "Trí tuệ Quyết định",
       "titleBottom": "dành cho Nhà hàng",
-      "description": "Dữ liệu của bạn nằm trong 5–10 hệ thống không liên kết. Nhóm của bạn quyết định dựa trên cảm tính trong khi lợi nhuận bị rò rỉ hàng ngày.",
+      "description": "Dữ liệu của bạn nằm trong 5-10 hệ thống không liên kết. Nhóm của bạn quyết định dựa trên cảm tính trong khi lợi nhuận bị rò rỉ hàng ngày.",
       "descriptionEmphasis": "Đó là sự đánh đổi mà Sundae loại bỏ.",
       "narrativeAnchor": "Từ độ trễ báo cáo đến tốc độ vận hành.",
       "startFree": "Bắt đầu miễn phí",
@@ -9158,7 +9158,7 @@ export const generatedWebsiteMessageOverrides = {
       "platform": {
         "eyebrow": "6 LỚP · MỘT SỰ THẬT",
         "heading": "Sáu lớp. Một sự thật.",
-        "description": "Từ ca làm việc trực tiếp đến kế hoạch dài hạn — một hệ thống, sáu lớp tương tác với nhau.",
+        "description": "Từ ca làm việc trực tiếp đến kế hoạch dài hạn - một hệ thống, sáu lớp tương tác với nhau.",
         "countLabel": "trong số 6",
         "exploreModules": "Khám phá tất cả các mô-đun",
         "learnMore": "Tìm hiểu thêm",
@@ -9166,7 +9166,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "Hoạt động thời gian thực",
-            "description": "Theo dõi trực tiếp, mục tiêu thích ứng, hiệu suất phục vụ, rò rỉ — từng ca một.",
+            "description": "Theo dõi trực tiếp, mục tiêu thích ứng, hiệu suất phục vụ, rò rỉ - từng ca một.",
             "href": "/product/pulse"
           },
           {
@@ -9178,13 +9178,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Watchtower",
             "subtitle": "Thông tin thị trường",
-            "description": "Đối thủ, thời tiết, sự kiện — trước khi chúng ảnh hưởng đến số liệu của bạn.",
+            "description": "Đối thủ, thời tiết, sự kiện - trước khi chúng ảnh hưởng đến số liệu của bạn.",
             "href": "/product/watchtower"
           },
           {
             "name": "Insights",
             "subtitle": "12 mô-đun phân tích",
-            "description": "Doanh thu, lao động, tồn kho, tiếp thị, giao hàng — mỗi mô-đun đều có khuyến nghị AI.",
+            "description": "Doanh thu, lao động, tồn kho, tiếp thị, giao hàng - mỗi mô-đun đều có khuyến nghị AI.",
             "href": "/insights"
           },
           {
@@ -9196,7 +9196,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Foresight",
             "subtitle": "Thông tin dự đoán",
-            "description": "Dự báo 14–90 ngày, kịch bản giả định, báo cáo điều hành tự điều chỉnh.",
+            "description": "Dự báo 14-90 ngày, kịch bản giả định, báo cáo điều hành tự điều chỉnh.",
             "href": "/product/foresight"
           }
         ]
@@ -9204,7 +9204,7 @@ export const generatedWebsiteMessageOverrides = {
       "modules": {
         "eyebrow": "CÁC MÔ-ĐUN TRÍ TUỆ",
         "heading": "Hơn 30 mô-đun trên 12 lĩnh vực",
-        "description": "Mọi khía cạnh của hiệu suất nhà hàng — được phân tích, so sánh và có thể hành động.",
+        "description": "Mọi khía cạnh của hiệu suất nhà hàng - được phân tích, so sánh và có thể hành động.",
         "categories": [
           {
             "name": "Trí Tuệ Doanh Thu",
@@ -9264,7 +9264,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "Lãnh đạo Vận hành",
             "pain": "Bạn không thể có mặt ở mọi nhà hàng cùng một lúc.",
-            "outcome": "Theo dõi thời gian thực và hiệu suất phục vụ tại mọi điểm bán — xem ai cần giúp đỡ ngay bây giờ.",
+            "outcome": "Theo dõi thời gian thực và hiệu suất phục vụ tại mọi điểm bán - xem ai cần giúp đỡ ngay bây giờ.",
             "attribution": "Mô hình giữa các nhà vận hành đa địa điểm"
           },
           {
@@ -9276,7 +9276,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "C-Suite & Chủ sở hữu",
             "pain": "Điểm bán tệ nhất của bạn không thể nhìn thấy cho đến thứ Năm.",
-            "outcome": "Tổng quan danh mục, báo cáo AI hàng ngày, tín hiệu thị trường — trên mọi thương hiệu bạn điều hành.",
+            "outcome": "Tổng quan danh mục, báo cáo AI hàng ngày, tín hiệu thị trường - trên mọi thương hiệu bạn điều hành.",
             "attribution": "Mô hình giữa các nhà sáng lập và CEO nhóm"
           },
           {
@@ -9294,7 +9294,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "01",
             "title": "Kết nối",
-            "description": "POS, lao động, tồn kho, giao hàng — hầu hết các tích hợp dưới 5 phút."
+            "description": "POS, lao động, tồn kho, giao hàng - hầu hết các tích hợp dưới 5 phút."
           },
           {
             "step": "02",
@@ -9304,7 +9304,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "03",
             "title": "Quyết định",
-            "description": "Khuyến nghị cụ thể, dễ hiểu — mục tiêu, nhân sự, thực đơn, giá cả."
+            "description": "Khuyến nghị cụ thể, dễ hiểu - mục tiêu, nhân sự, thực đơn, giá cả."
           },
           {
             "step": "04",
@@ -9314,7 +9314,7 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "mockup": {
-        "frameLabel": "Pulse — Tốc độ doanh thu",
+        "frameLabel": "Pulse - Tốc độ doanh thu",
         "updatedAt": "Thứ Ba, 7:42 PM",
         "kpis": [
           {
@@ -9378,10 +9378,10 @@ export const generatedWebsiteMessageOverrides = {
       "closingDescription": "30 phút. Dữ liệu của bạn. Những gì Sundae thực sự sẽ thay đổi cho đội.",
       "pages": {
         "signIn": {
-          "metadataTitle": "Đăng Nhập — Sundae",
-          "metadataDescription": "Đăng nhập vào Sundae — cái nhìn tổng hợp về hiệu suất, hoạt động và thông tin cạnh tranh cho các nhà hàng.",
+          "metadataTitle": "Đăng Nhập - Sundae",
+          "metadataDescription": "Đăng nhập vào Sundae - cái nhìn tổng hợp về hiệu suất, hoạt động và thông tin cạnh tranh cho các nhà hàng.",
           "brandTitle": "Trí tuệ quyết định cho các nhà hàng",
-          "brandDescription": "Hiệu suất, hoạt động và thông tin cạnh tranh — hợp nhất trong một nền tảng.",
+          "brandDescription": "Hiệu suất, hoạt động và thông tin cạnh tranh - hợp nhất trong một nền tảng.",
           "trustPoints": [
             "Thông tin hoạt động theo thời gian thực",
             "So sánh đa địa điểm",
@@ -9490,7 +9490,7 @@ export const generatedWebsiteMessageOverrides = {
           "viewPricing": "Xem Giá Cả"
         },
         "pricing": {
-          "metadataTitle": "Giá Cả — Sundae",
+          "metadataTitle": "Giá Cả - Sundae",
           "metadataDescription": "Giá cả đơn giản, minh bạch cho Sundae Report, Core, Watchtower và các mô-đun.",
           "badge": "Giá Cả",
           "title": "Giá Cả Đơn Giản, Minh Bạch",
@@ -9514,7 +9514,7 @@ export const generatedWebsiteMessageOverrides = {
           "startFree": "Bắt Đầu Miễn Phí"
         },
         "faq": {
-          "metadataTitle": "Câu Hỏi Thường Gặp — Sundae",
+          "metadataTitle": "Câu Hỏi Thường Gặp - Sundae",
           "metadataDescription": "Các câu hỏi thường gặp về Sundae - giá cả, tích hợp, bảo mật dữ liệu, onboarding, và mọi thứ khác mà các nhà điều hành nhà hàng cần biết trước khi bắt đầu.",
           "badge": "Câu Hỏi Thường Gặp",
           "title": "Tất Cả Những Gì Bạn Cần Biết",
@@ -9543,7 +9543,7 @@ export const generatedWebsiteMessageOverrides = {
           ]
         },
         "modules": {
-          "metadataTitle": "Mô-đun — Sundae",
+          "metadataTitle": "Mô-đun - Sundae",
           "badge": "Mô-đun Chuyên Biệt",
           "title": "Đi Sâu Vào Những Nơi Quan Trọng Nhất",
           "description": "Thêm các mô-đun chuyên biệt vào Sundae Core. Nhận thông tin hoạt động sâu sắc về lao động, tồn kho, mua sắm, tiếp thị và đặt chỗ.",
@@ -9580,7 +9580,7 @@ export const generatedWebsiteMessageOverrides = {
           "contactSales": "Liên Hệ Với Bộ Phận Bán Hàng"
         },
         "integrations": {
-          "metadataTitle": "Tích Hợp — Sundae",
+          "metadataTitle": "Tích Hợp - Sundae",
           "badge": "Tích Hợp",
           "title": "Kết Nối Mọi Thứ. Hợp Nhất Dữ Liệu Của Bạn.",
           "description": "Sundae tích hợp với hơn 30 hệ thống nhà hàng trên POS, lao động, tồn kho, đặt chỗ, giao hàng và nhiều hơn nữa.",
@@ -9605,8 +9605,8 @@ export const generatedWebsiteMessageOverrides = {
           "domainsDescription": "POS, lao động, tồn kho, mua sắm, đặt chỗ, giao hàng, tiếp thị, trải nghiệm khách hàng, CRM, kế toán, và tóm tắt doanh thu hàng ngày - tất cả đều được kết nối.",
           "live": "Trực tiếp",
           "upcoming": "Sắp tới",
-          "liveNow": "Trực tiếp — có sẵn ngay bây giờ",
-          "roadmap": "Sắp tới — trong lộ trình của chúng tôi",
+          "liveNow": "Trực tiếp - có sẵn ngay bây giờ",
+          "roadmap": "Sắp tới - trong lộ trình của chúng tôi",
           "roadmapDescription": "Các tích hợp sắp tới đang được phát triển. Thời gian có thể thay đổi. Liên hệ với chúng tôi để yêu cầu ưu tiên cho một tích hợp cụ thể.",
           "webhooksTitle": "Webhooks & API Công Khai",
           "webhooksDescription": "Xây dựng các tích hợp tùy chỉnh với công cụ phát triển của Sundae.",
@@ -9619,7 +9619,7 @@ export const generatedWebsiteMessageOverrides = {
           "testPayloads": "Kiểm tra payload và theo dõi giao hàng"
         },
         "resources": {
-          "metadataTitle": "Tài Nguyên — Sundae",
+          "metadataTitle": "Tài Nguyên - Sundae",
           "badge": "Tài Nguyên & Công Cụ",
           "title": "Tài Nguyên Trí Tuệ Quyết Định",
           "description": "Truy cập hướng dẫn, báo cáo và công cụ để giúp bạn đưa ra quyết định thông minh hơn cho doanh nghiệp nhà hàng của bạn.",
@@ -9650,8 +9650,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "ro": {
     "metadata": {
-      "title": "Sundae – Inteligență Decizională pentru Restaurante",
-      "description": "Platforma AI care transformă datele restaurantelor în acțiune — unifică datele POS, de muncă, costurile și cele operaționale pentru a evalua performanța și a obține informații instantanee."
+      "title": "Sundae - Inteligență Decizională pentru Restaurante",
+      "description": "Platforma AI care transformă datele restaurantelor în acțiune - unifică datele POS, de muncă, costurile și cele operaționale pentru a evalua performanța și a obține informații instantanee."
     },
     "layout": {
       "skipToContent": "Sari la conținutul principal",
@@ -9842,7 +9842,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "Platforma de Inteligență Decizională",
       "titleTop": "Inteligența Decizională",
       "titleBottom": "pentru restaurante",
-      "description": "Datele tale se află în 5–10 sisteme deconectate. Echipa ta ia decizii pe baza intuiției, în timp ce marjele se pierd zilnic.",
+      "description": "Datele tale se află în 5-10 sisteme deconectate. Echipa ta ia decizii pe baza intuiției, în timp ce marjele se pierd zilnic.",
       "descriptionEmphasis": "Aceasta este compensarea pe care Sundae o elimină.",
       "narrativeAnchor": "De la întârzierea raportării la viteza operațiunilor.",
       "startFree": "Începe gratuit",
@@ -9900,7 +9900,7 @@ export const generatedWebsiteMessageOverrides = {
       "platform": {
         "eyebrow": "6 STRATURI · O SINGURĂ ADEVĂR",
         "heading": "Șase straturi. O singură adevăr.",
-        "description": "De la schimbul live la planul pe termen lung — un stivă, șase straturi care comunică între ele.",
+        "description": "De la schimbul live la planul pe termen lung - un stivă, șase straturi care comunică între ele.",
         "countLabel": "din 6",
         "exploreModules": "Explorează toate modulele",
         "learnMore": "Află mai multe",
@@ -9908,7 +9908,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "Operațiuni în timp real",
-            "description": "Pacing live, obiective adaptive, performanța serverului, pierderi — schimb cu schimb.",
+            "description": "Pacing live, obiective adaptive, performanța serverului, pierderi - schimb cu schimb.",
             "href": "/product/pulse"
           },
           {
@@ -9920,13 +9920,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Watchtower",
             "subtitle": "Inteligență de piață",
-            "description": "Concurenți, vreme, evenimente — înainte de a-ți afecta numerele.",
+            "description": "Concurenți, vreme, evenimente - înainte de a-ți afecta numerele.",
             "href": "/product/watchtower"
           },
           {
             "name": "Insights",
             "subtitle": "12 module de analiză",
-            "description": "Venituri, muncă, inventar, marketing, livrare — fiecare cu recomandări AI.",
+            "description": "Venituri, muncă, inventar, marketing, livrare - fiecare cu recomandări AI.",
             "href": "/insights"
           },
           {
@@ -9938,7 +9938,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Foresight",
             "subtitle": "Inteligență predictivă",
-            "description": "Previziuni de 14–90 de zile, scenarii ce-ar fi, briefing-uri executive care se corectează singure.",
+            "description": "Previziuni de 14-90 de zile, scenarii ce-ar fi, briefing-uri executive care se corectează singure.",
             "href": "/product/foresight"
           }
         ]
@@ -9946,7 +9946,7 @@ export const generatedWebsiteMessageOverrides = {
       "modules": {
         "eyebrow": "MODULE DE INTELIGENȚĂ",
         "heading": "12 module în 12 domenii",
-        "description": "Fiecare dimensiune a performanței restaurantului — analizată, comparată și acționabilă.",
+        "description": "Fiecare dimensiune a performanței restaurantului - analizată, comparată și acționabilă.",
         "categories": [
           {
             "name": "Inteligența Veniturilor",
@@ -10006,7 +10006,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "Lideri de Operațiuni",
             "pain": "Nu poți fi în fiecare restaurant în același timp.",
-            "outcome": "Performanța serverelor și ritmul în timp real în fiecare locație — vezi cine are nevoie de ajutor acum.",
+            "outcome": "Performanța serverelor și ritmul în timp real în fiecare locație - vezi cine are nevoie de ajutor acum.",
             "attribution": "Model comun între operatorii cu mai multe locații"
           },
           {
@@ -10018,7 +10018,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "C-Suite & Proprietari",
             "pain": "Cea mai proastă locație a ta este invizibilă până joi.",
-            "outcome": "Viziune de portofoliu, briefinguri zilnice AI, semnal de piață — pentru fiecare brand pe care îl gestionezi.",
+            "outcome": "Viziune de portofoliu, briefinguri zilnice AI, semnal de piață - pentru fiecare brand pe care îl gestionezi.",
             "attribution": "Model comun între fondatori și CEO de grup"
           },
           {
@@ -10036,7 +10036,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "01",
             "title": "Conectare",
-            "description": "POS, muncă, inventar, livrare — cele mai multe integrații în mai puțin de 5 minute."
+            "description": "POS, muncă, inventar, livrare - cele mai multe integrații în mai puțin de 5 minute."
           },
           {
             "step": "02",
@@ -10046,7 +10046,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "03",
             "title": "Decizie",
-            "description": "Recomandări specifice și explicabile — obiective, personal, meniu, prețuri."
+            "description": "Recomandări specifice și explicabile - obiective, personal, meniu, prețuri."
           },
           {
             "step": "04",
@@ -10056,7 +10056,7 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "mockup": {
-        "frameLabel": "Pulse — Ritmul Vânzărilor",
+        "frameLabel": "Pulse - Ritmul Vânzărilor",
         "updatedAt": "Marți, 7:42 PM",
         "kpis": [
           {
@@ -10120,10 +10120,10 @@ export const generatedWebsiteMessageOverrides = {
       "closingDescription": "30 de minute. Datele tale. Ce ar schimba de fapt Sundae pentru echipă.",
       "pages": {
         "signIn": {
-          "metadataTitle": "Conectare — Sundae",
-          "metadataDescription": "Conectează-te la Sundae — viziunea ta unificată asupra performanței, operațiunilor și inteligenței competitive pentru restaurante.",
+          "metadataTitle": "Conectare - Sundae",
+          "metadataDescription": "Conectează-te la Sundae - viziunea ta unificată asupra performanței, operațiunilor și inteligenței competitive pentru restaurante.",
           "brandTitle": "Inteligență decizională pentru restaurante",
-          "brandDescription": "Performanță, operațiuni și inteligență competitivă — unificate într-o singură platformă.",
+          "brandDescription": "Performanță, operațiuni și inteligență competitivă - unificate într-o singură platformă.",
           "trustPoints": [
             "Inteligență operațională în timp real",
             "Compararea între locații multiple",
@@ -10232,7 +10232,7 @@ export const generatedWebsiteMessageOverrides = {
           "viewPricing": "Vezi Prețurile"
         },
         "pricing": {
-          "metadataTitle": "Prețuri — Sundae",
+          "metadataTitle": "Prețuri - Sundae",
           "metadataDescription": "Prețuri simple și transparente pentru Sundae Report, Core, Watchtower și module.",
           "badge": "Prețuri",
           "title": "Prețuri Simple, Transparente",
@@ -10256,7 +10256,7 @@ export const generatedWebsiteMessageOverrides = {
           "startFree": "Începe Gratuit"
         },
         "faq": {
-          "metadataTitle": "Întrebări Frecvente — Sundae",
+          "metadataTitle": "Întrebări Frecvente - Sundae",
           "metadataDescription": "Întrebări frecvente despre Sundae - prețuri, integrare, securitatea datelor, onboarding și tot ce trebuie să știe operatorii de restaurante înainte de a începe.",
           "badge": "Întrebări Frecvente",
           "title": "Tot Ce Trebuie Să Știi",
@@ -10285,7 +10285,7 @@ export const generatedWebsiteMessageOverrides = {
           ]
         },
         "modules": {
-          "metadataTitle": "Module — Sundae",
+          "metadataTitle": "Module - Sundae",
           "badge": "Module Specializate",
           "title": "Aprofundează Acolo Unde Contează Cel Mai Mult",
           "description": "Adaugă module specializate la Sundae Core. Obține inteligență operațională profundă în muncă, inventar, achiziții, marketing și rezervări.",
@@ -10322,7 +10322,7 @@ export const generatedWebsiteMessageOverrides = {
           "contactSales": "Contactează Vânzările"
         },
         "integrations": {
-          "metadataTitle": "Integrări — Sundae",
+          "metadataTitle": "Integrări - Sundae",
           "badge": "Integrări",
           "title": "Conectează Totul. Unifică-ți Datele.",
           "description": "Sundae se integrează cu peste 30 de sisteme de restaurante din domeniul POS, muncă, inventar, rezervări, livrare și multe altele.",
@@ -10347,8 +10347,8 @@ export const generatedWebsiteMessageOverrides = {
           "domainsDescription": "POS, muncă, inventar, achiziții, rezervări, livrare, marketing, experiența clientului, CRM, contabilitate și rezumate zilnice de vânzări - toate conectate.",
           "live": "Live",
           "upcoming": "Următorul",
-          "liveNow": "Live — disponibil acum",
-          "roadmap": "Următor — pe harta noastră de dezvoltare",
+          "liveNow": "Live - disponibil acum",
+          "roadmap": "Următor - pe harta noastră de dezvoltare",
           "roadmapDescription": "Integrările viitoare sunt în dezvoltare activă. Termenele pot varia. Contactează-ne pentru a solicita prioritate pentru o integrare specifică.",
           "webhooksTitle": "Webhooks & API Public",
           "webhooksDescription": "Construiește integrații personalizate cu instrumentele pentru dezvoltatori ale Sundae.",
@@ -10361,7 +10361,7 @@ export const generatedWebsiteMessageOverrides = {
           "testPayloads": "Testează payload-uri și urmărirea livrării"
         },
         "resources": {
-          "metadataTitle": "Resurse — Sundae",
+          "metadataTitle": "Resurse - Sundae",
           "badge": "Resurse & Instrumente",
           "title": "Resurse de Inteligență Decizională",
           "description": "Accesează ghiduri, rapoarte și instrumente pentru a te ajuta să iei decizii mai inteligente pentru afacerea ta de restaurant.",
@@ -10392,8 +10392,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "sv": {
     "metadata": {
-      "title": "Sundae – Beslutsintelligens för Restauranger",
-      "description": "AI-plattformen som omvandlar restaurangdata till handling – förena POS, arbetskraft, kostnader och driftsdata för att jämföra prestanda och få omedelbara insikter."
+      "title": "Sundae - Beslutsintelligens för Restauranger",
+      "description": "AI-plattformen som omvandlar restaurangdata till handling - förena POS, arbetskraft, kostnader och driftsdata för att jämföra prestanda och få omedelbara insikter."
     },
     "layout": {
       "skipToContent": "Hoppa till huvudinnehåll",
@@ -10584,7 +10584,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "Beslutsintelligensplattform",
       "titleTop": "Beslutsintelligens",
       "titleBottom": "för restauranger",
-      "description": "Dina data finns i 5–10 avskilda system. Ditt team fattar beslut baserat på magkänsla medan marginalerna läcker dagligen.",
+      "description": "Dina data finns i 5-10 avskilda system. Ditt team fattar beslut baserat på magkänsla medan marginalerna läcker dagligen.",
       "descriptionEmphasis": "Det är den kompromiss som Sundae tar bort.",
       "narrativeAnchor": "Från rapporteringsfördröjning till operativ hastighet.",
       "startFree": "Börja gratis",
@@ -10642,7 +10642,7 @@ export const generatedWebsiteMessageOverrides = {
       "platform": {
         "eyebrow": "6 LAGER · EN SANNING",
         "heading": "Sex lager. En sanning.",
-        "description": "Från den aktuella skiftet till den långsiktiga planen — en stack, sex lager som kommunicerar med varandra.",
+        "description": "Från den aktuella skiftet till den långsiktiga planen - en stack, sex lager som kommunicerar med varandra.",
         "countLabel": "av 6",
         "exploreModules": "Utforska alla moduler",
         "learnMore": "Läs mer",
@@ -10650,7 +10650,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "Verksamhet i realtid",
-            "description": "Live-pacing, anpassningsbara mål, serverprestanda, läckage — skift för skift.",
+            "description": "Live-pacing, anpassningsbara mål, serverprestanda, läckage - skift för skift.",
             "href": "/product/pulse"
           },
           {
@@ -10662,13 +10662,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Watchtower",
             "subtitle": "Marknadsanalys",
-            "description": "Konkurrenter, väder, evenemang — innan de påverkar dina siffror.",
+            "description": "Konkurrenter, väder, evenemang - innan de påverkar dina siffror.",
             "href": "/product/watchtower"
           },
           {
             "name": "Insights",
             "subtitle": "12 analysmoduler",
-            "description": "Intäkter, arbetskraft, lager, marknadsföring, leverans — var och en med AI-rekommendationer.",
+            "description": "Intäkter, arbetskraft, lager, marknadsföring, leverans - var och en med AI-rekommendationer.",
             "href": "/insights"
           },
           {
@@ -10680,7 +10680,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Foresight",
             "subtitle": "Prediktiv intelligens",
-            "description": "14–90 dagars prognoser, vad-händer-scenarier, exekutiv sammanfattningar som rättar sig själva.",
+            "description": "14-90 dagars prognoser, vad-händer-scenarier, exekutiv sammanfattningar som rättar sig själva.",
             "href": "/product/foresight"
           }
         ]
@@ -10688,7 +10688,7 @@ export const generatedWebsiteMessageOverrides = {
       "modules": {
         "eyebrow": "INTELLIGENS MODULER",
         "heading": "12 moduler över 12 områden",
-        "description": "Varje dimension av restaurangprestanda — analyserad, benchmarkad och handlingsbar.",
+        "description": "Varje dimension av restaurangprestanda - analyserad, benchmarkad och handlingsbar.",
         "categories": [
           {
             "name": "Intäktsintelligens",
@@ -10748,7 +10748,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "Operationsledare",
             "pain": "Du kan inte vara på varje restaurang samtidigt.",
-            "outcome": "Live-pacing och serverprestanda över varje enhet — se vem som behöver hjälp just nu.",
+            "outcome": "Live-pacing och serverprestanda över varje enhet - se vem som behöver hjälp just nu.",
             "attribution": "Mönster bland flerplatsoperatörer"
           },
           {
@@ -10760,7 +10760,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "C-Suite & Ägare",
             "pain": "Din sämsta enhet är osynlig tills torsdag.",
-            "outcome": "Portföljvy, dagliga AI-briefingar, marknadssignal — över varje varumärke du driver.",
+            "outcome": "Portföljvy, dagliga AI-briefingar, marknadssignal - över varje varumärke du driver.",
             "attribution": "Mönster bland grundare och koncernchefer"
           },
           {
@@ -10778,7 +10778,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "01",
             "title": "Anslut",
-            "description": "POS, arbetskraft, lager, leverans — de flesta integrationer under 5 minuter."
+            "description": "POS, arbetskraft, lager, leverans - de flesta integrationer under 5 minuter."
           },
           {
             "step": "02",
@@ -10788,7 +10788,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "03",
             "title": "Besluta",
-            "description": "Specifika, förklarliga rekommendationer — mål, bemanning, meny, prissättning."
+            "description": "Specifika, förklarliga rekommendationer - mål, bemanning, meny, prissättning."
           },
           {
             "step": "04",
@@ -10798,7 +10798,7 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "mockup": {
-        "frameLabel": "Pulse — Försäljningshastighet",
+        "frameLabel": "Pulse - Försäljningshastighet",
         "updatedAt": "Tisdag, 19:42",
         "kpis": [
           {
@@ -10862,10 +10862,10 @@ export const generatedWebsiteMessageOverrides = {
       "closingDescription": "30 minuter. Dina data. Vad Sundae faktiskt skulle förändra för teamet.",
       "pages": {
         "signIn": {
-          "metadataTitle": "Logga in — Sundae",
-          "metadataDescription": "Logga in på Sundae — din enhetliga vy av prestanda, verksamhet och konkurrensintelligens för restauranger.",
+          "metadataTitle": "Logga in - Sundae",
+          "metadataDescription": "Logga in på Sundae - din enhetliga vy av prestanda, verksamhet och konkurrensintelligens för restauranger.",
           "brandTitle": "Beslutsintelligens för restauranger",
-          "brandDescription": "Prestanda, verksamhet och konkurrensintelligens — enhetligt i en plattform.",
+          "brandDescription": "Prestanda, verksamhet och konkurrensintelligens - enhetligt i en plattform.",
           "trustPoints": [
             "Intelligens för verksamhet i realtid",
             "Benchmarking för flera platser",
@@ -10974,7 +10974,7 @@ export const generatedWebsiteMessageOverrides = {
           "viewPricing": "Se Priser"
         },
         "pricing": {
-          "metadataTitle": "Priser — Sundae",
+          "metadataTitle": "Priser - Sundae",
           "metadataDescription": "Enkla, transparenta priser för Sundae Report, Core, Watchtower och moduler.",
           "badge": "Priser",
           "title": "Enkla, Transparenta Priser",
@@ -10998,7 +10998,7 @@ export const generatedWebsiteMessageOverrides = {
           "startFree": "Börja Gratis"
         },
         "faq": {
-          "metadataTitle": "FAQ — Sundae",
+          "metadataTitle": "FAQ - Sundae",
           "metadataDescription": "Vanliga frågor om Sundae - prissättning, integrationer, datasäkerhet, onboarding och allt annat restaurangoperatörer behöver veta innan de börjar.",
           "badge": "Vanliga Frågor",
           "title": "Allt Du Behöver Veta",
@@ -11027,7 +11027,7 @@ export const generatedWebsiteMessageOverrides = {
           ]
         },
         "modules": {
-          "metadataTitle": "Moduler — Sundae",
+          "metadataTitle": "Moduler - Sundae",
           "badge": "Specialiserade Moduler",
           "title": "Gå Djupare Där Det Räknas Mest",
           "description": "Lägg till specialiserade moduler till Sundae Core. Få djup operativ intelligens inom arbetskraft, lager, inköp, marknadsföring och reservationer.",
@@ -11064,7 +11064,7 @@ export const generatedWebsiteMessageOverrides = {
           "contactSales": "Kontakta Försäljning"
         },
         "integrations": {
-          "metadataTitle": "Integrationer — Sundae",
+          "metadataTitle": "Integrationer - Sundae",
           "badge": "Integrationer",
           "title": "Anslut Allt. Enhetlig Din Data.",
           "description": "Sundae integreras med 250+ restaurangsystem över POS, arbetskraft, lager, reservationer, leverans och mer.",
@@ -11089,8 +11089,8 @@ export const generatedWebsiteMessageOverrides = {
           "domainsDescription": "POS, arbetskraft, lager, inköp, reservationer, leverans, marknadsföring, gästupplevelse, CRM, bokföring och dagliga försäljningssammanfattningar - allt kopplat.",
           "live": "Live",
           "upcoming": "Kommande",
-          "liveNow": "Live — tillgänglig nu",
-          "roadmap": "Kommande — på vår vägkarta",
+          "liveNow": "Live - tillgänglig nu",
+          "roadmap": "Kommande - på vår vägkarta",
           "roadmapDescription": "Kommande integrationer är aktivt under utveckling. Tidslinjer kan variera. Kontakta oss för att begära prioritet för en specifik integration.",
           "webhooksTitle": "Webhooks & Offentlig API",
           "webhooksDescription": "Bygg anpassade integrationer med Sundaes utvecklarverktyg.",
@@ -11103,7 +11103,7 @@ export const generatedWebsiteMessageOverrides = {
           "testPayloads": "Testa payloads och leveransspårning"
         },
         "resources": {
-          "metadataTitle": "Resurser — Sundae",
+          "metadataTitle": "Resurser - Sundae",
           "badge": "Resurser & Verktyg",
           "title": "Resurser för Beslutsintelligens",
           "description": "Få tillgång till guider, rapporter och verktyg som hjälper dig att fatta smartare beslut för din restaurangverksamhet.",
@@ -11134,8 +11134,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "bn": {
     "metadata": {
-      "title": "Sundae – রেস্তোরাঁর জন্য সিদ্ধান্ত বুদ্ধিমত্তা",
-      "description": "এটি একটি AI প্ল্যাটফর্ম যা রেস্তোরাঁর ডেটাকে কার্যকরীতে রূপান্তরিত করে — POS, শ্রম, খরচ এবং অপারেশনাল ডেটাকে একত্রিত করে পারফরম্যান্সের মান নির্ধারণ করুন এবং তাত্ক্ষণিক অন্তর্দৃষ্টি পান।"
+      "title": "Sundae - রেস্তোরাঁর জন্য সিদ্ধান্ত বুদ্ধিমত্তা",
+      "description": "এটি একটি AI প্ল্যাটফর্ম যা রেস্তোরাঁর ডেটাকে কার্যকরীতে রূপান্তরিত করে - POS, শ্রম, খরচ এবং অপারেশনাল ডেটাকে একত্রিত করে পারফরম্যান্সের মান নির্ধারণ করুন এবং তাত্ক্ষণিক অন্তর্দৃষ্টি পান।"
     },
     "layout": {
       "skipToContent": "মুখ্য বিষয়বস্তুতে যান",
@@ -11326,7 +11326,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "সিদ্ধান্ত বুদ্ধিমত্তা প্ল্যাটফর্ম",
       "titleTop": "সিদ্ধান্ত বুদ্ধিমত্তা",
       "titleBottom": "রেস্তোরাঁর জন্য",
-      "description": "আপনার ডেটা ৫–১০টি বিচ্ছিন্ন সিস্টেমে থাকে। আপনার দল অন্তর্দৃষ্টি দ্বারা সিদ্ধান্ত নেয় যখন মার্জিন প্রতিদিন লিক হয়।",
+      "description": "আপনার ডেটা ৫-১০টি বিচ্ছিন্ন সিস্টেমে থাকে। আপনার দল অন্তর্দৃষ্টি দ্বারা সিদ্ধান্ত নেয় যখন মার্জিন প্রতিদিন লিক হয়।",
       "descriptionEmphasis": "এটাই সেই বিনিময় যা Sundae সরিয়ে দেয়।",
       "narrativeAnchor": "রিপোর্টিং বিলম্ব থেকে অপারেশন গতি।",
       "startFree": "ফ্রি শুরু করুন",
@@ -11384,7 +11384,7 @@ export const generatedWebsiteMessageOverrides = {
       "platform": {
         "eyebrow": "৬ স্তর · একটি সত্য",
         "heading": "ছয় স্তর। একটি সত্য।",
-        "description": "লাইভ শিফট থেকে দীর্ঘমেয়াদী পরিকল্পনা — একটি স্ট্যাক, ছয়টি স্তর যা একে অপরের সাথে কথা বলে।",
+        "description": "লাইভ শিফট থেকে দীর্ঘমেয়াদী পরিকল্পনা - একটি স্ট্যাক, ছয়টি স্তর যা একে অপরের সাথে কথা বলে।",
         "countLabel": "৬ এর মধ্যে",
         "exploreModules": "সমস্ত মডিউল অন্বেষণ করুন",
         "learnMore": "আরও জানুন",
@@ -11392,7 +11392,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "পালস",
             "subtitle": "রিয়েল-টাইম অপারেশন",
-            "description": "লাইভ পেসিং, অভিযোজিত লক্ষ্য, সার্ভার কর্মক্ষমতা, লিকেজ — শিফট বাই শিফট।",
+            "description": "লাইভ পেসিং, অভিযোজিত লক্ষ্য, সার্ভার কর্মক্ষমতা, লিকেজ - শিফট বাই শিফট।",
             "href": "/product/pulse"
           },
           {
@@ -11404,13 +11404,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "ওয়াচটাওয়ার",
             "subtitle": "বাজারের বুদ্ধিমত্তা",
-            "description": "প্রতিযোগীরা, আবহাওয়া, ইভেন্ট — আপনার সংখ্যাগুলোর আগে।",
+            "description": "প্রতিযোগীরা, আবহাওয়া, ইভেন্ট - আপনার সংখ্যাগুলোর আগে।",
             "href": "/product/watchtower"
           },
           {
             "name": "ইনসাইটস",
             "subtitle": "৩০+ বিশ্লেষণাত্মক মডিউল",
-            "description": "রাজস্ব, শ্রম, ইনভেন্টরি, মার্কেটিং, ডেলিভারি — প্রতিটি AI সুপারিশ সহ।",
+            "description": "রাজস্ব, শ্রম, ইনভেন্টরি, মার্কেটিং, ডেলিভারি - প্রতিটি AI সুপারিশ সহ।",
             "href": "/insights"
           },
           {
@@ -11422,7 +11422,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "ফোরসাইট",
             "subtitle": "পূর্বাভাসমূলক বুদ্ধিমত্তা",
-            "description": "১৪–৯০ দিনের পূর্বাভাস, কি-হলে পরিস্থিতি, নির্বাহী ব্রিফিং যা নিজেকে সংশোধন করে।",
+            "description": "১৪-৯০ দিনের পূর্বাভাস, কি-হলে পরিস্থিতি, নির্বাহী ব্রিফিং যা নিজেকে সংশোধন করে।",
             "href": "/product/foresight"
           }
         ]
@@ -11430,7 +11430,7 @@ export const generatedWebsiteMessageOverrides = {
       "modules": {
         "eyebrow": "ইন্টেলিজেন্স মডিউল",
         "heading": "১২টি ডোমেইনে ৩০+ মডিউল",
-        "description": "রেস্তোরাঁর কার্যকারিতার প্রতিটি মাত্রা — বিশ্লেষণ, তুলনা এবং কার্যকর।",
+        "description": "রেস্তোরাঁর কার্যকারিতার প্রতিটি মাত্রা - বিশ্লেষণ, তুলনা এবং কার্যকর।",
         "categories": [
           {
             "name": "রাজস্ব ইন্টেলিজেন্স",
@@ -11490,7 +11490,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "অপারেশন নেতারা",
             "pain": "আপনি একসাথে প্রতিটি রেস্টুরেন্টে থাকতে পারবেন না।",
-            "outcome": "প্রতিটি আউটলেটের মধ্যে লাইভ পেসিং এবং সার্ভার কর্মক্ষমতা — দেখুন কে এখন সাহায্যের প্রয়োজন।",
+            "outcome": "প্রতিটি আউটলেটের মধ্যে লাইভ পেসিং এবং সার্ভার কর্মক্ষমতা - দেখুন কে এখন সাহায্যের প্রয়োজন।",
             "attribution": "বহু-অবস্থান অপারেটরদের মধ্যে প্যাটার্ন"
           },
           {
@@ -11502,7 +11502,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "সি-সুইট ও মালিকরা",
             "pain": "আপনার সবচেয়ে খারাপ আউটলেট বৃহস্পতিবার পর্যন্ত অদৃশ্য।",
-            "outcome": "পোর্টফোলিও ভিউ, দৈনিক AI ব্রিফিং, বাজার সংকেত — আপনি যে প্রতিটি ব্র্যান্ড চালান।",
+            "outcome": "পোর্টফোলিও ভিউ, দৈনিক AI ব্রিফিং, বাজার সংকেত - আপনি যে প্রতিটি ব্র্যান্ড চালান।",
             "attribution": "প্রতিষ্ঠাতা এবং গ্রুপ CEOদের মধ্যে প্যাটার্ন"
           },
           {
@@ -11520,7 +11520,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "01",
             "title": "সংযোগ করুন",
-            "description": "POS, শ্রম, ইনভেন্টরি, ডেলিভারি — অধিকাংশ ইন্টিগ্রেশন ৫ মিনিটের মধ্যে।"
+            "description": "POS, শ্রম, ইনভেন্টরি, ডেলিভারি - অধিকাংশ ইন্টিগ্রেশন ৫ মিনিটের মধ্যে।"
           },
           {
             "step": "02",
@@ -11530,7 +11530,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "03",
             "title": "সিদ্ধান্ত নিন",
-            "description": "নির্দিষ্ট, ব্যাখ্যাযোগ্য সুপারিশ — লক্ষ্য, কর্মী, মেনু, মূল্য নির্ধারণ।"
+            "description": "নির্দিষ্ট, ব্যাখ্যাযোগ্য সুপারিশ - লক্ষ্য, কর্মী, মেনু, মূল্য নির্ধারণ।"
           },
           {
             "step": "04",
@@ -11540,7 +11540,7 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "mockup": {
-        "frameLabel": "পালস — বিক্রয় গতি",
+        "frameLabel": "পালস - বিক্রয় গতি",
         "updatedAt": "মঙ্গলবার, ৭:৪২ PM",
         "kpis": [
           {
@@ -11604,10 +11604,10 @@ export const generatedWebsiteMessageOverrides = {
       "closingDescription": "৩০ মিনিট। আপনার ডেটা। সান্ডে আসলে দলের জন্য কী পরিবর্তন করবে।",
       "pages": {
         "signIn": {
-          "metadataTitle": "সাইন ইন — Sundae",
-          "metadataDescription": "Sundae-এ সাইন ইন করুন — আপনার পারফরম্যান্স, অপারেশন এবং প্রতিযোগিতামূলক বুদ্ধিমত্তার একক দৃষ্টিভঙ্গি।",
+          "metadataTitle": "সাইন ইন - Sundae",
+          "metadataDescription": "Sundae-এ সাইন ইন করুন - আপনার পারফরম্যান্স, অপারেশন এবং প্রতিযোগিতামূলক বুদ্ধিমত্তার একক দৃষ্টিভঙ্গি।",
           "brandTitle": "রেস্তোরাঁর জন্য সিদ্ধান্ত বুদ্ধিমত্তা",
-          "brandDescription": "পারফরম্যান্স, অপারেশন এবং প্রতিযোগিতামূলক বুদ্ধিমত্তা — একটি প্ল্যাটফর্মে একত্রিত।",
+          "brandDescription": "পারফরম্যান্স, অপারেশন এবং প্রতিযোগিতামূলক বুদ্ধিমত্তা - একটি প্ল্যাটফর্মে একত্রিত।",
           "trustPoints": [
             "রিয়েল-টাইম অপারেশন বুদ্ধিমত্তা",
             "মাল্টি-লোকেশন বেঞ্চমার্কিং",
@@ -11716,7 +11716,7 @@ export const generatedWebsiteMessageOverrides = {
           "viewPricing": "মূল্য দেখুন"
         },
         "pricing": {
-          "metadataTitle": "মূল্য — Sundae",
+          "metadataTitle": "মূল্য - Sundae",
           "metadataDescription": "Sundae Report, Core, Watchtower এবং মডিউলের জন্য সহজ, স্বচ্ছ মূল্য।",
           "badge": "মূল্য",
           "title": "সহজ, স্বচ্ছ মূল্য",
@@ -11740,7 +11740,7 @@ export const generatedWebsiteMessageOverrides = {
           "startFree": "ফ্রি শুরু করুন"
         },
         "faq": {
-          "metadataTitle": "FAQ — Sundae",
+          "metadataTitle": "FAQ - Sundae",
           "metadataDescription": "Sundae সম্পর্কে প্রায়শই জিজ্ঞাসিত প্রশ্ন - মূল্য, ইন্টিগ্রেশন, ডেটা নিরাপত্তা, অনবোর্ডিং এবং রেস্তোরাঁর অপারেটরদের শুরু করার আগে জানার প্রয়োজনীয় সবকিছু।",
           "badge": "প্রায়শই জিজ্ঞাসিত প্রশ্ন",
           "title": "আপনার জানা প্রয়োজন সবকিছু",
@@ -11769,7 +11769,7 @@ export const generatedWebsiteMessageOverrides = {
           ]
         },
         "modules": {
-          "metadataTitle": "মডিউল — Sundae",
+          "metadataTitle": "মডিউল - Sundae",
           "badge": "বিশেষায়িত মডিউল",
           "title": "যেখানে সবচেয়ে গুরুত্বপূর্ণ সেখানে গভীরতা যান",
           "description": "Sundae Core-এ বিশেষায়িত মডিউল যোগ করুন। শ্রম, ইনভেন্টরি, ক্রয়, বিপণন এবং রিজার্ভেশনগুলিতে গভীর অপারেশনাল বুদ্ধিমত্তা পান।",
@@ -11806,7 +11806,7 @@ export const generatedWebsiteMessageOverrides = {
           "contactSales": "বিক্রয় যোগাযোগ করুন"
         },
         "integrations": {
-          "metadataTitle": "ইন্টিগ্রেশন — Sundae",
+          "metadataTitle": "ইন্টিগ্রেশন - Sundae",
           "badge": "ইন্টিগ্রেশন",
           "title": "সবকিছু সংযুক্ত করুন। আপনার ডেটা একীভূত করুন।",
           "description": "Sundae 250+ রেস্তোরাঁর সিস্টেমের সাথে POS, শ্রম, ইনভেন্টরি, রিজার্ভেশন, ডেলিভারি এবং আরও অনেক কিছুর সাথে ইন্টিগ্রেট করে।",
@@ -11831,8 +11831,8 @@ export const generatedWebsiteMessageOverrides = {
           "domainsDescription": "POS, শ্রম, ইনভেন্টরি, ক্রয়, রিজার্ভেশন, ডেলিভারি, বিপণন, অতিথি অভিজ্ঞতা, CRM, হিসাবরক্ষণ এবং দৈনিক বিক্রয় সারসংক্ষেপ - সব সংযুক্ত।",
           "live": "লাইভ",
           "upcoming": "আসন্ন",
-          "liveNow": "লাইভ — এখন উপলব্ধ",
-          "roadmap": "আসন্ন — আমাদের রোডম্যাপে",
+          "liveNow": "লাইভ - এখন উপলব্ধ",
+          "roadmap": "আসন্ন - আমাদের রোডম্যাপে",
           "roadmapDescription": "আসন্ন ইন্টিগ্রেশনগুলি সক্রিয়ভাবে উন্নয়নের মধ্যে রয়েছে। সময়সীমা পরিবর্তিত হতে পারে। একটি নির্দিষ্ট ইন্টিগ্রেশনের জন্য অগ্রাধিকার অনুরোধ করতে আমাদের সাথে যোগাযোগ করুন।",
           "webhooksTitle": "ওয়েবহুক এবং পাবলিক API",
           "webhooksDescription": "Sundae-এর ডেভেলপার টুলগুলির সাথে কাস্টম ইন্টিগ্রেশন তৈরি করুন।",
@@ -11845,7 +11845,7 @@ export const generatedWebsiteMessageOverrides = {
           "testPayloads": "টেস্ট পে লোড এবং ডেলিভারি ট্র্যাকিং"
         },
         "resources": {
-          "metadataTitle": "সম্পদ — Sundae",
+          "metadataTitle": "সম্পদ - Sundae",
           "badge": "সম্পদ ও টুল",
           "title": "সিদ্ধান্ত বুদ্ধিমত্তার সম্পদ",
           "description": "আপনার রেস্তোরাঁর ব্যবসার জন্য স্মার্ট সিদ্ধান্ত নিতে সহায়তা করার জন্য গাইড, রিপোর্ট এবং টুলগুলি অ্যাক্সেস করুন।",
@@ -11876,8 +11876,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "th": {
     "metadata": {
-      "title": "Sundae – ปัญญาประดิษฐ์ในการตัดสินใจสำหรับร้านอาหาร",
-      "description": "แพลตฟอร์ม AI ที่เปลี่ยนข้อมูลร้านอาหารให้เป็นการกระทำ — รวมข้อมูล POS, แรงงาน, ต้นทุน และข้อมูลการดำเนินงานเพื่อเปรียบเทียบประสิทธิภาพและรับข้อมูลเชิงลึกทันที."
+      "title": "Sundae - ปัญญาประดิษฐ์ในการตัดสินใจสำหรับร้านอาหาร",
+      "description": "แพลตฟอร์ม AI ที่เปลี่ยนข้อมูลร้านอาหารให้เป็นการกระทำ - รวมข้อมูล POS, แรงงาน, ต้นทุน และข้อมูลการดำเนินงานเพื่อเปรียบเทียบประสิทธิภาพและรับข้อมูลเชิงลึกทันที."
     },
     "layout": {
       "skipToContent": "ข้ามไปยังเนื้อหาหลัก",
@@ -12068,7 +12068,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "แพลตฟอร์มการตัดสินใจอัจฉริยะ",
       "titleTop": "ปัญญาการตัดสินใจ",
       "titleBottom": "สำหรับร้านอาหาร",
-      "description": "ข้อมูลของคุณอยู่ในระบบที่ไม่เชื่อมต่อกัน 5–10 ระบบ ทีมของคุณตัดสินใจจากสัญชาตญาณในขณะที่กำไรรั่วไหลทุกวัน.",
+      "description": "ข้อมูลของคุณอยู่ในระบบที่ไม่เชื่อมต่อกัน 5-10 ระบบ ทีมของคุณตัดสินใจจากสัญชาตญาณในขณะที่กำไรรั่วไหลทุกวัน.",
       "descriptionEmphasis": "นี่คือการแลกเปลี่ยนที่ Sundae กำจัดออกไป.",
       "narrativeAnchor": "จากความล่าช้าในการรายงานสู่ความเร็วในการดำเนินงาน.",
       "startFree": "เริ่มต้นฟรี",
@@ -12126,7 +12126,7 @@ export const generatedWebsiteMessageOverrides = {
       "platform": {
         "eyebrow": "6 ชั้น · ความจริงเดียว",
         "heading": "หกชั้น ความจริงเดียว",
-        "description": "จากการเปลี่ยนแปลงสดไปจนถึงแผนระยะยาว — หนึ่งชุด หกชั้นที่สื่อสารกัน",
+        "description": "จากการเปลี่ยนแปลงสดไปจนถึงแผนระยะยาว - หนึ่งชุด หกชั้นที่สื่อสารกัน",
         "countLabel": "จาก 6",
         "exploreModules": "สำรวจโมดูลทั้งหมด",
         "learnMore": "เรียนรู้เพิ่มเติม",
@@ -12134,7 +12134,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "การดำเนินงานแบบเรียลไทม์",
-            "description": "การติดตามแบบสด เป้าหมายที่ปรับเปลี่ยนได้ ประสิทธิภาพของเซิร์ฟเวอร์ การรั่วไหล — เปลี่ยนแปลงไปตามกะ",
+            "description": "การติดตามแบบสด เป้าหมายที่ปรับเปลี่ยนได้ ประสิทธิภาพของเซิร์ฟเวอร์ การรั่วไหล - เปลี่ยนแปลงไปตามกะ",
             "href": "/product/pulse"
           },
           {
@@ -12146,13 +12146,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Watchtower",
             "subtitle": "ข้อมูลเชิงตลาด",
-            "description": "คู่แข่ง สภาพอากาศ เหตุการณ์ — ก่อนที่มันจะกระทบตัวเลขของคุณ",
+            "description": "คู่แข่ง สภาพอากาศ เหตุการณ์ - ก่อนที่มันจะกระทบตัวเลขของคุณ",
             "href": "/product/watchtower"
           },
           {
             "name": "Insights",
             "subtitle": "โมดูลการวิเคราะห์ 30+",
-            "description": "รายได้ แรงงาน สินค้าคงคลัง การตลาด การจัดส่ง — แต่ละรายการมีคำแนะนำจาก AI",
+            "description": "รายได้ แรงงาน สินค้าคงคลัง การตลาด การจัดส่ง - แต่ละรายการมีคำแนะนำจาก AI",
             "href": "/insights"
           },
           {
@@ -12164,7 +12164,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Foresight",
             "subtitle": "ข้อมูลเชิงคาดการณ์",
-            "description": "การคาดการณ์ 14–90 วัน สถานการณ์ที่เป็นไปได้ การบรรยายสรุปผู้บริหารที่ปรับตัวเองได้",
+            "description": "การคาดการณ์ 14-90 วัน สถานการณ์ที่เป็นไปได้ การบรรยายสรุปผู้บริหารที่ปรับตัวเองได้",
             "href": "/product/foresight"
           }
         ]
@@ -12172,7 +12172,7 @@ export const generatedWebsiteMessageOverrides = {
       "modules": {
         "eyebrow": "โมดูลข้อมูลเชิงลึก",
         "heading": "12 โมดูลใน 12 ด้าน",
-        "description": "ทุกมิติของประสิทธิภาพร้านอาหาร — วิเคราะห์, เปรียบเทียบ, และนำไปใช้ได้จริง.",
+        "description": "ทุกมิติของประสิทธิภาพร้านอาหาร - วิเคราะห์, เปรียบเทียบ, และนำไปใช้ได้จริง.",
         "categories": [
           {
             "name": "ข้อมูลเชิงลึกด้านรายได้",
@@ -12232,7 +12232,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "ผู้นำด้านการดำเนินงาน",
             "pain": "คุณไม่สามารถอยู่ในทุกร้านอาหารได้ในครั้งเดียว.",
-            "outcome": "การติดตามแบบเรียลไทม์และประสิทธิภาพของเซิร์ฟเวอร์ในทุกสาขา — ดูว่าใครต้องการความช่วยเหลือในขณะนี้.",
+            "outcome": "การติดตามแบบเรียลไทม์และประสิทธิภาพของเซิร์ฟเวอร์ในทุกสาขา - ดูว่าใครต้องการความช่วยเหลือในขณะนี้.",
             "attribution": "รูปแบบที่พบในผู้ดำเนินการหลายสถานที่"
           },
           {
@@ -12244,7 +12244,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "C-Suite & เจ้าของ",
             "pain": "สาขาที่แย่ที่สุดของคุณมองไม่เห็นจนถึงวันพฤหัสบดี.",
-            "outcome": "มุมมองพอร์ตโฟลิโอ, การบรรยายสรุป AI รายวัน, สัญญาณตลาด — ในทุกแบรนด์ที่คุณดำเนินการ.",
+            "outcome": "มุมมองพอร์ตโฟลิโอ, การบรรยายสรุป AI รายวัน, สัญญาณตลาด - ในทุกแบรนด์ที่คุณดำเนินการ.",
             "attribution": "รูปแบบที่พบในผู้ก่อตั้งและ CEO กลุ่ม"
           },
           {
@@ -12262,7 +12262,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "01",
             "title": "เชื่อมต่อ",
-            "description": "POS, แรงงาน, สินค้าคงคลัง, การจัดส่ง — การเชื่อมต่อส่วนใหญ่ใช้เวลาไม่เกิน 5 นาที."
+            "description": "POS, แรงงาน, สินค้าคงคลัง, การจัดส่ง - การเชื่อมต่อส่วนใหญ่ใช้เวลาไม่เกิน 5 นาที."
           },
           {
             "step": "02",
@@ -12272,7 +12272,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "03",
             "title": "ตัดสินใจ",
-            "description": "คำแนะนำที่เฉพาะเจาะจงและอธิบายได้ — เป้าหมาย, การจัดการพนักงาน, เมนู, การตั้งราคา."
+            "description": "คำแนะนำที่เฉพาะเจาะจงและอธิบายได้ - เป้าหมาย, การจัดการพนักงาน, เมนู, การตั้งราคา."
           },
           {
             "step": "04",
@@ -12282,7 +12282,7 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "mockup": {
-        "frameLabel": "Pulse — การติดตามยอดขาย",
+        "frameLabel": "Pulse - การติดตามยอดขาย",
         "updatedAt": "วันอังคาร, 19:42 น.",
         "kpis": [
           {
@@ -12346,10 +12346,10 @@ export const generatedWebsiteMessageOverrides = {
       "closingDescription": "30 นาที ข้อมูลของคุณ สิ่งที่ Sundae จะเปลี่ยนแปลงสำหรับทีมจริงๆ",
       "pages": {
         "signIn": {
-          "metadataTitle": "เข้าสู่ระบบ — Sundae",
-          "metadataDescription": "เข้าสู่ระบบ Sundae — มุมมองที่รวมกันของประสิทธิภาพ การดำเนินงาน และข้อมูลเชิงแข่งขันสำหรับร้านอาหาร",
+          "metadataTitle": "เข้าสู่ระบบ - Sundae",
+          "metadataDescription": "เข้าสู่ระบบ Sundae - มุมมองที่รวมกันของประสิทธิภาพ การดำเนินงาน และข้อมูลเชิงแข่งขันสำหรับร้านอาหาร",
           "brandTitle": "ข้อมูลเชิงตัดสินใจสำหรับร้านอาหาร",
-          "brandDescription": "ประสิทธิภาพ การดำเนินงาน และข้อมูลเชิงแข่งขัน — รวมอยู่ในแพลตฟอร์มเดียว",
+          "brandDescription": "ประสิทธิภาพ การดำเนินงาน และข้อมูลเชิงแข่งขัน - รวมอยู่ในแพลตฟอร์มเดียว",
           "trustPoints": [
             "ข้อมูลเชิงปฏิบัติการแบบเรียลไทม์",
             "การเปรียบเทียบหลายสถานที่",
@@ -12458,7 +12458,7 @@ export const generatedWebsiteMessageOverrides = {
           "viewPricing": "ดูราคา"
         },
         "pricing": {
-          "metadataTitle": "ราคา — Sundae",
+          "metadataTitle": "ราคา - Sundae",
           "metadataDescription": "ราคาที่เรียบง่ายและโปร่งใสสำหรับ Sundae Report, Core, Watchtower และโมดูลต่างๆ",
           "badge": "ราคา",
           "title": "ราคาที่เรียบง่ายและโปร่งใส",
@@ -12482,7 +12482,7 @@ export const generatedWebsiteMessageOverrides = {
           "startFree": "เริ่มต้นฟรี"
         },
         "faq": {
-          "metadataTitle": "คำถามที่พบบ่อย — Sundae",
+          "metadataTitle": "คำถามที่พบบ่อย - Sundae",
           "metadataDescription": "คำถามที่พบบ่อยเกี่ยวกับ Sundae - ราคา การรวมข้อมูล ความปลอดภัยของข้อมูล การเริ่มต้นใช้งาน และทุกสิ่งที่ผู้ดำเนินการร้านอาหารต้องรู้ก่อนเริ่มต้น",
           "badge": "คำถามที่พบบ่อย",
           "title": "ทุกสิ่งที่คุณต้องรู้",
@@ -12511,7 +12511,7 @@ export const generatedWebsiteMessageOverrides = {
           ]
         },
         "modules": {
-          "metadataTitle": "โมดูล — Sundae",
+          "metadataTitle": "โมดูล - Sundae",
           "badge": "โมดูลเฉพาะทาง",
           "title": "เจาะลึกในสิ่งที่สำคัญที่สุด",
           "description": "เพิ่มโมดูลเฉพาะทางไปยัง Sundae Core รับข้อมูลเชิงปฏิบัติการที่ลึกซึ้งในด้านแรงงาน สินค้าคงคลัง การจัดซื้อ การตลาด และการจอง",
@@ -12548,7 +12548,7 @@ export const generatedWebsiteMessageOverrides = {
           "contactSales": "ติดต่อฝ่ายขาย"
         },
         "integrations": {
-          "metadataTitle": "การรวมข้อมูล — Sundae",
+          "metadataTitle": "การรวมข้อมูล - Sundae",
           "badge": "การรวมข้อมูล",
           "title": "เชื่อมต่อทุกอย่าง รวมข้อมูลของคุณ",
           "description": "Sundae รวมเข้ากับระบบร้านอาหารกว่า 30 ระบบทั่วทั้ง POS แรงงาน สินค้าคงคลัง การจอง การจัดส่ง และอื่นๆ",
@@ -12573,8 +12573,8 @@ export const generatedWebsiteMessageOverrides = {
           "domainsDescription": "POS แรงงาน สินค้าคงคลัง การจัดซื้อ การจอง การจัดส่ง การตลาด ประสบการณ์ของแขก CRM การบัญชี และสรุปยอดขายรายวัน - ทั้งหมดเชื่อมต่อกัน",
           "live": "สด",
           "upcoming": "กำลังจะมา",
-          "liveNow": "สด — พร้อมใช้งานแล้ว",
-          "roadmap": "กำลังจะมา — อยู่ในแผนงานของเรา",
+          "liveNow": "สด - พร้อมใช้งานแล้ว",
+          "roadmap": "กำลังจะมา - อยู่ในแผนงานของเรา",
           "roadmapDescription": "การรวมข้อมูลที่กำลังจะมามีการพัฒนาอย่างต่อเนื่อง ระยะเวลาอาจแตกต่างกัน ติดต่อเราเพื่อขอความสำคัญสำหรับการรวมข้อมูลเฉพาะ",
           "webhooksTitle": "Webhooks & API สาธารณะ",
           "webhooksDescription": "สร้างการรวมข้อมูลที่กำหนดเองด้วยเครื่องมือสำหรับนักพัฒนาของ Sundae",
@@ -12587,7 +12587,7 @@ export const generatedWebsiteMessageOverrides = {
           "testPayloads": "ทดสอบ payloads และติดตามการส่ง"
         },
         "resources": {
-          "metadataTitle": "ทรัพยากร — Sundae",
+          "metadataTitle": "ทรัพยากร - Sundae",
           "badge": "ทรัพยากรและเครื่องมือ",
           "title": "ทรัพยากรข้อมูลเชิงตัดสินใจ",
           "description": "เข้าถึงคู่มือ รายงาน และเครื่องมือเพื่อช่วยให้คุณตัดสินใจได้อย่างชาญฉลาดยิ่งขึ้นสำหรับธุรกิจร้านอาหารของคุณ",
@@ -12618,8 +12618,8 @@ export const generatedWebsiteMessageOverrides = {
   },
   "ms": {
     "metadata": {
-      "title": "Sundae – Kecerdasan Keputusan untuk Restoran",
-      "description": "Platform AI yang mengubah data restoran menjadi tindakan — menyatukan data POS, tenaga kerja, kos, dan operasi untuk menilai prestasi dan mendapatkan pandangan segera."
+      "title": "Sundae - Kecerdasan Keputusan untuk Restoran",
+      "description": "Platform AI yang mengubah data restoran menjadi tindakan - menyatukan data POS, tenaga kerja, kos, dan operasi untuk menilai prestasi dan mendapatkan pandangan segera."
     },
     "layout": {
       "skipToContent": "Lompat ke kandungan utama",
@@ -12810,7 +12810,7 @@ export const generatedWebsiteMessageOverrides = {
       "badge": "Platform Kecerdasan Keputusan",
       "titleTop": "Kecerdasan Keputusan",
       "titleBottom": "untuk Restoran",
-      "description": "Data anda berada dalam 5–10 sistem yang tidak terhubung. Pasukan anda membuat keputusan berdasarkan naluri sementara margin bocor setiap hari.",
+      "description": "Data anda berada dalam 5-10 sistem yang tidak terhubung. Pasukan anda membuat keputusan berdasarkan naluri sementara margin bocor setiap hari.",
       "descriptionEmphasis": "Itulah pertukaran yang dihapuskan oleh Sundae.",
       "narrativeAnchor": "Dari kelewatan laporan kepada kelajuan operasi.",
       "startFree": "Mula Percuma",
@@ -12868,7 +12868,7 @@ export const generatedWebsiteMessageOverrides = {
       "platform": {
         "eyebrow": "6 LAPIS · SATU KEBENARAN",
         "heading": "Enam lapisan. Satu kebenaran.",
-        "description": "Dari shift langsung ke pelan jangka panjang — satu tumpukan, enam lapisan yang berkomunikasi antara satu sama lain.",
+        "description": "Dari shift langsung ke pelan jangka panjang - satu tumpukan, enam lapisan yang berkomunikasi antara satu sama lain.",
         "countLabel": "daripada 6",
         "exploreModules": "Terokai semua modul",
         "learnMore": "Ketahui lebih lanjut",
@@ -12876,7 +12876,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "Operasi masa nyata",
-            "description": "Pacing langsung, sasaran adaptif, prestasi pelayan, kebocoran — shift demi shift.",
+            "description": "Pacing langsung, sasaran adaptif, prestasi pelayan, kebocoran - shift demi shift.",
             "href": "/product/pulse"
           },
           {
@@ -12888,13 +12888,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Watchtower",
             "subtitle": "Inteligens pasaran",
-            "description": "Pesaing, cuaca, acara — sebelum mereka mempengaruhi angka anda.",
+            "description": "Pesaing, cuaca, acara - sebelum mereka mempengaruhi angka anda.",
             "href": "/product/watchtower"
           },
           {
             "name": "Insights",
             "subtitle": "12 modul analitik",
-            "description": "Pendapatan, buruh, inventori, pemasaran, penghantaran — setiap satu dengan cadangan AI.",
+            "description": "Pendapatan, buruh, inventori, pemasaran, penghantaran - setiap satu dengan cadangan AI.",
             "href": "/insights"
           },
           {
@@ -12906,7 +12906,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Foresight",
             "subtitle": "Inteligens ramalan",
-            "description": "Ramalan 14–90 hari, senario apa-jika, taklimat eksekutif yang membetulkan diri sendiri.",
+            "description": "Ramalan 14-90 hari, senario apa-jika, taklimat eksekutif yang membetulkan diri sendiri.",
             "href": "/product/foresight"
           }
         ]
@@ -12914,7 +12914,7 @@ export const generatedWebsiteMessageOverrides = {
       "modules": {
         "eyebrow": "MODUL INTELLIGENSI",
         "heading": "12 modul merentasi 12 domain",
-        "description": "Setiap dimensi prestasi restoran — dianalisis, dibandingkan, dan boleh dilaksanakan.",
+        "description": "Setiap dimensi prestasi restoran - dianalisis, dibandingkan, dan boleh dilaksanakan.",
         "categories": [
           {
             "name": "Intelligensi Pendapatan",
@@ -12974,7 +12974,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "Pemimpin Operasi",
             "pain": "Anda tidak boleh berada di setiap restoran sekaligus.",
-            "outcome": "Pacing secara langsung dan prestasi pelayan di setiap outlet — lihat siapa yang memerlukan bantuan sekarang.",
+            "outcome": "Pacing secara langsung dan prestasi pelayan di setiap outlet - lihat siapa yang memerlukan bantuan sekarang.",
             "attribution": "Corak di kalangan operator multi-lokasi"
           },
           {
@@ -12986,7 +12986,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "C-Suite & Pemilik",
             "pain": "Outlet terburuk anda tidak kelihatan sehingga Khamis.",
-            "outcome": "Pandangan portfolio, taklimat AI harian, isyarat pasaran — di setiap jenama yang anda jalankan.",
+            "outcome": "Pandangan portfolio, taklimat AI harian, isyarat pasaran - di setiap jenama yang anda jalankan.",
             "attribution": "Corak di kalangan pengasas dan CEO kumpulan"
           },
           {
@@ -13004,7 +13004,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "01",
             "title": "Sambung",
-            "description": "POS, buruh, inventori, penghantaran — kebanyakan integrasi dalam masa kurang dari 5 minit."
+            "description": "POS, buruh, inventori, penghantaran - kebanyakan integrasi dalam masa kurang dari 5 minit."
           },
           {
             "step": "02",
@@ -13014,7 +13014,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "03",
             "title": "Putuskan",
-            "description": "Cadangan yang spesifik dan boleh dijelaskan — sasaran, pengambilan, menu, harga."
+            "description": "Cadangan yang spesifik dan boleh dijelaskan - sasaran, pengambilan, menu, harga."
           },
           {
             "step": "04",
@@ -13024,7 +13024,7 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "mockup": {
-        "frameLabel": "Pulse — Pacing Jualan",
+        "frameLabel": "Pulse - Pacing Jualan",
         "updatedAt": "Selasa, 7:42 PM",
         "kpis": [
           {
@@ -13088,10 +13088,10 @@ export const generatedWebsiteMessageOverrides = {
       "closingDescription": "30 minit. Data anda. Apa yang Sundae sebenarnya akan ubah untuk pasukan.",
       "pages": {
         "signIn": {
-          "metadataTitle": "Log Masuk — Sundae",
-          "metadataDescription": "Log masuk ke Sundae — pandangan bersatu anda tentang prestasi, operasi, dan intelijen kompetitif untuk restoran.",
+          "metadataTitle": "Log Masuk - Sundae",
+          "metadataDescription": "Log masuk ke Sundae - pandangan bersatu anda tentang prestasi, operasi, dan intelijen kompetitif untuk restoran.",
           "brandTitle": "Intelijen keputusan untuk restoran",
-          "brandDescription": "Prestasi, operasi, dan intelijen kompetitif — disatukan dalam satu platform.",
+          "brandDescription": "Prestasi, operasi, dan intelijen kompetitif - disatukan dalam satu platform.",
           "trustPoints": [
             "Intelijen operasi masa nyata",
             "Penanda aras pelbagai lokasi",
@@ -13200,7 +13200,7 @@ export const generatedWebsiteMessageOverrides = {
           "viewPricing": "Lihat Harga"
         },
         "pricing": {
-          "metadataTitle": "Harga — Sundae",
+          "metadataTitle": "Harga - Sundae",
           "metadataDescription": "Harga yang mudah dan telus untuk Sundae Report, Core, Watchtower, dan modul.",
           "badge": "Harga",
           "title": "Harga yang Mudah dan Telus",
@@ -13224,7 +13224,7 @@ export const generatedWebsiteMessageOverrides = {
           "startFree": "Mula Secara Percuma"
         },
         "faq": {
-          "metadataTitle": "FAQ — Sundae",
+          "metadataTitle": "FAQ - Sundae",
           "metadataDescription": "Soalan yang sering ditanya tentang Sundae - harga, integrasi, keselamatan data, onboarding, dan segala yang perlu diketahui oleh pengendali restoran sebelum memulakan.",
           "badge": "Soalan yang Sering Ditanya",
           "title": "Segala Yang Anda Perlu Tahu",
@@ -13253,7 +13253,7 @@ export const generatedWebsiteMessageOverrides = {
           ]
         },
         "modules": {
-          "metadataTitle": "Modul — Sundae",
+          "metadataTitle": "Modul - Sundae",
           "badge": "Modul Khusus",
           "title": "Masuk Lebih Dalam Di Tempat Yang Paling Penting",
           "description": "Tambah modul khusus ke Sundae Core. Dapatkan intelijen operasi mendalam dalam buruh, inventori, pembelian, pemasaran, dan tempahan.",
@@ -13290,7 +13290,7 @@ export const generatedWebsiteMessageOverrides = {
           "contactSales": "Hubungi Jualan"
         },
         "integrations": {
-          "metadataTitle": "Integrasi — Sundae",
+          "metadataTitle": "Integrasi - Sundae",
           "badge": "Integrasi",
           "title": "Sambungkan Segalanya. Satukan Data Anda.",
           "description": "Sundae berintegrasi dengan 250+ sistem restoran merentasi POS, buruh, inventori, tempahan, penghantaran, dan banyak lagi.",
@@ -13315,8 +13315,8 @@ export const generatedWebsiteMessageOverrides = {
           "domainsDescription": "POS, buruh, inventori, pembelian, tempahan, penghantaran, pemasaran, pengalaman tetamu, CRM, perakaunan, dan ringkasan jualan harian - semua disambungkan.",
           "live": "Langsung",
           "upcoming": "Akan Datang",
-          "liveNow": "Langsung — tersedia sekarang",
-          "roadmap": "Akan Datang — dalam peta jalan kami",
+          "liveNow": "Langsung - tersedia sekarang",
+          "roadmap": "Akan Datang - dalam peta jalan kami",
           "roadmapDescription": "Integrasi yang akan datang sedang dalam pembangunan aktif. Garis masa mungkin berbeza. Hubungi kami untuk meminta keutamaan bagi integrasi tertentu.",
           "webhooksTitle": "Webhooks & API Awam",
           "webhooksDescription": "Bina integrasi khusus dengan alat pemaju Sundae.",
@@ -13329,7 +13329,7 @@ export const generatedWebsiteMessageOverrides = {
           "testPayloads": "Uji payload dan penjejakan penghantaran"
         },
         "resources": {
-          "metadataTitle": "Sumber — Sundae",
+          "metadataTitle": "Sumber - Sundae",
           "badge": "Sumber & Alat",
           "title": "Sumber Intelijen Keputusan",
           "description": "Akses panduan, laporan, dan alat untuk membantu anda membuat keputusan yang lebih bijak untuk perniagaan restoran anda.",

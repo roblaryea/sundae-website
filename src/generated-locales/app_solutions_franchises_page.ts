@@ -127,13 +127,13 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Des benchmarks de réseau que chaque franchisé peut voir",
-          "description": "Chaque propriétaire-exploitant se voit classé de manière anonyme par rapport à ses pairs – en fonction des ventes, du pourcentage de main-d'œuvre, du RevPASH et du débit. Une saine concurrence sans dévoiler les noms.",
+          "description": "Chaque propriétaire-exploitant se voit classé de manière anonyme par rapport à ses pairs - en fonction des ventes, du pourcentage de main-d'œuvre, du RevPASH et du débit. Une saine concurrence sans dévoiler les noms.",
           "product": "Benchmarks",
           "icon": "benchmarking"
         },
         {
           "title": "Normes de marque comme mesures en direct",
-          "description": "Vitesse du service, conformité des menus, scores d'hygiène, satisfaction des clients – mesurés en continu et non lors d'un audit trimestriel.",
+          "description": "Vitesse du service, conformité des menus, scores d'hygiène, satisfaction des clients - mesurés en continu et non lors d'un audit trimestriel.",
           "product": "Pulse + Insights",
           "icon": "performance"
         },
@@ -303,19 +303,19 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Netzwerk-Benchmarks, die jeder Franchisenehmer sehen kann",
-          "description": "Jeder Eigentümer-Betreiber sieht sich anonym im Vergleich zu seinen Mitbewerbern – nach Umsatz, Arbeitsaufwand %, RevPASH, Durchsatz. Gesunder Wettbewerb, ohne Namen preiszugeben.",
+          "description": "Jeder Eigentümer-Betreiber sieht sich anonym im Vergleich zu seinen Mitbewerbern - nach Umsatz, Arbeitsaufwand %, RevPASH, Durchsatz. Gesunder Wettbewerb, ohne Namen preiszugeben.",
           "product": "Benchmarks",
           "icon": "benchmarking"
         },
         {
           "title": "Markenstandards als Live-Metriken",
-          "description": "Servicegeschwindigkeit, Menüeinhaltung, Hygienebewertungen, Gästezufriedenheit – kontinuierlich gemessen, nicht im Rahmen der vierteljährlichen Prüfung.",
+          "description": "Servicegeschwindigkeit, Menüeinhaltung, Hygienebewertungen, Gästezufriedenheit - kontinuierlich gemessen, nicht im Rahmen der vierteljährlichen Prüfung.",
           "product": "Pulse + Insights",
           "icon": "performance"
         },
         {
           "title": "Top-Performer-Playbooks verbreiten sich",
-          "description": "Wenn Site 12 die Upsell-Rate um 18 % steigert, bringt Sundae das Muster zum Vorschein, damit der Rest des Netzwerks davon lernt – ohne ein Memo.",
+          "description": "Wenn Site 12 die Upsell-Rate um 18 % steigert, bringt Sundae das Muster zum Vorschein, damit der Rest des Netzwerks davon lernt - ohne ein Memo.",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -331,12 +331,12 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Franchisenehmer konkurrieren um das Richtige",
-          "description": "Anonyme Benchmarks verwandeln den Gruppenzwang in einen positiven Schwung – das Netzwerk wächst zusammen.",
+          "description": "Anonyme Benchmarks verwandeln den Gruppenzwang in einen positiven Schwung - das Netzwerk wächst zusammen.",
           "icon": "speed"
         },
         {
           "title": "Kontinuierlich gemessene Standards",
-          "description": "Sie sehen, welche Filialen hinsichtlich Service, Menü oder Hygiene abweichen – ohne eine vierteljährliche Prüfung.",
+          "description": "Sie sehen, welche Filialen hinsichtlich Service, Menü oder Hygiene abweichen - ohne eine vierteljährliche Prüfung.",
           "icon": "performance"
         },
         {
@@ -391,19 +391,19 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Benchmarks de rede que todo franqueado pode ver",
-          "description": "Cada proprietário-operador se vê classificado anonimamente em relação aos pares – por vendas,% de mão de obra, RevPASH, rendimento. Competição saudável sem expor nomes.",
+          "description": "Cada proprietário-operador se vê classificado anonimamente em relação aos pares - por vendas,% de mão de obra, RevPASH, rendimento. Competição saudável sem expor nomes.",
           "product": "Benchmarks",
           "icon": "benchmarking"
         },
         {
           "title": "Padrões de marca como métricas ao vivo",
-          "description": "Velocidade do serviço, conformidade do cardápio, pontuações de higiene, satisfação dos hóspedes – medidos continuamente, não na auditoria trimestral.",
+          "description": "Velocidade do serviço, conformidade do cardápio, pontuações de higiene, satisfação dos hóspedes - medidos continuamente, não na auditoria trimestral.",
           "product": "Pulse + Insights",
           "icon": "performance"
         },
         {
           "title": "Propagação de manuais de melhor desempenho",
-          "description": "Quando o Site 12 aumenta a taxa de upsell em 18%, o Sundae revela o padrão para que o resto da rede aprenda – sem um memorando.",
+          "description": "Quando o Site 12 aumenta a taxa de upsell em 18%, o Sundae revela o padrão para que o resto da rede aprenda - sem um memorando.",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -419,12 +419,12 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Franqueados competem na coisa certa",
-          "description": "Benchmarks anônimos transformam a pressão dos pares em um volante positivo – a rede cresce junto.",
+          "description": "Benchmarks anônimos transformam a pressão dos pares em um volante positivo - a rede cresce junto.",
           "icon": "speed"
         },
         {
           "title": "Padrões medidos continuamente",
-          "description": "Você vê quais pontos de venda variam em termos de serviço, cardápio ou higiene – sem uma auditoria trimestral.",
+          "description": "Você vê quais pontos de venda variam em termos de serviço, cardápio ou higiene - sem uma auditoria trimestral.",
           "icon": "performance"
         },
         {
@@ -512,7 +512,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Normen worden continu gemeten",
-          "description": "U ziet welke verkooppunten afwijken op het gebied van service, menukaart of hygiëne – zonder driemaandelijkse audit.",
+          "description": "U ziet welke verkooppunten afwijken op het gebied van service, menukaart of hygiëne - zonder driemaandelijkse audit.",
           "icon": "performance"
         },
         {
@@ -567,19 +567,19 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "نیٹ ورک بینچ مارکس جو ہر فرنچائز دیکھ سکتا ہے۔",
-          "description": "ہر مالک آپریٹر اپنے آپ کو ساتھیوں کے مقابلے میں گمنام درجہ میں دیکھتا ہے — سیلز، لیبر %، RevPASH، تھرو پٹ کے لحاظ سے۔ نام ظاہر کیے بغیر صحت مند مقابلہ۔",
+          "description": "ہر مالک آپریٹر اپنے آپ کو ساتھیوں کے مقابلے میں گمنام درجہ میں دیکھتا ہے - سیلز، لیبر %، RevPASH، تھرو پٹ کے لحاظ سے۔ نام ظاہر کیے بغیر صحت مند مقابلہ۔",
           "product": "Benchmarks",
           "icon": "benchmarking"
         },
         {
           "title": "براہ راست میٹرکس کے طور پر برانڈ کے معیارات",
-          "description": "سروس کی رفتار، مینو کی تعمیل، حفظان صحت کے اسکورز، مہمانوں کی اطمینان — مسلسل ماپا جاتا ہے، سہ ماہی آڈٹ پر نہیں۔",
+          "description": "سروس کی رفتار، مینو کی تعمیل، حفظان صحت کے اسکورز، مہمانوں کی اطمینان - مسلسل ماپا جاتا ہے، سہ ماہی آڈٹ پر نہیں۔",
           "product": "Pulse + Insights",
           "icon": "performance"
         },
         {
           "title": "ٹاپ پرفارمر پلے بکس پروپیگنڈہ کرتے ہیں۔",
-          "description": "جب سائٹ 12 اپ سیل کی شرح کو 18% اٹھا لیتی ہے، تو Sundae پیٹرن کو ظاہر کرتا ہے تاکہ باقی نیٹ ورک سیکھے — بغیر میمو کے۔",
+          "description": "جب سائٹ 12 اپ سیل کی شرح کو 18% اٹھا لیتی ہے، تو Sundae پیٹرن کو ظاہر کرتا ہے تاکہ باقی نیٹ ورک سیکھے - بغیر میمو کے۔",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -919,19 +919,19 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Testy porównawcze sieci, które może zobaczyć każdy franczyzobiorca",
-          "description": "Każdy właściciel-operator porównuje się anonimowo ze swoimi konkurentami — według sprzedaży, % pracy, RevPASH i przepustowości. Zdrowa rywalizacja bez ujawniania nazwisk.",
+          "description": "Każdy właściciel-operator porównuje się anonimowo ze swoimi konkurentami - według sprzedaży, % pracy, RevPASH i przepustowości. Zdrowa rywalizacja bez ujawniania nazwisk.",
           "product": "Benchmarks",
           "icon": "benchmarking"
         },
         {
           "title": "Standardy marki jako metryki na żywo",
-          "description": "Szybkość obsługi, zgodność menu, wyniki higieny, zadowolenie gości — mierzone w sposób ciągły, a nie podczas kwartalnego audytu.",
+          "description": "Szybkość obsługi, zgodność menu, wyniki higieny, zadowolenie gości - mierzone w sposób ciągły, a nie podczas kwartalnego audytu.",
           "product": "Pulse + Insights",
           "icon": "performance"
         },
         {
           "title": "Propagowane są najskuteczniejsze podręczniki",
-          "description": "Kiedy witryna 12 podnosi wskaźnik sprzedaży dodatkowej o 18%, Sundae ujawnia wzór, dzięki czemu reszta sieci się uczy – bez notatki.",
+          "description": "Kiedy witryna 12 podnosi wskaźnik sprzedaży dodatkowej o 18%, Sundae ujawnia wzór, dzięki czemu reszta sieci się uczy - bez notatki.",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -947,7 +947,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Franczyzobiorcy konkurują w słusznej sprawie",
-          "description": "Anonimowe testy porównawcze zamieniają presję rówieśników w pozytywne koło zamachowe — sieć wspólnie się podnosi.",
+          "description": "Anonimowe testy porównawcze zamieniają presję rówieśników w pozytywne koło zamachowe - sieć wspólnie się podnosi.",
           "icon": "speed"
         },
         {
@@ -1007,19 +1007,19 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "每个加盟商都可以看到的网络基准",
-          "description": "每个业主经营者都会看到自己与同行相比的匿名排名——按销售额、劳动力百分比、RevPASH、吞吐量。不暴露姓名的良性竞争。",
+          "description": "每个业主经营者都会看到自己与同行相比的匿名排名--按销售额、劳动力百分比、RevPASH、吞吐量。不暴露姓名的良性竞争。",
           "product": "Benchmarks",
           "icon": "benchmarking"
         },
         {
           "title": "作为实时指标的品牌标准",
-          "description": "服务速度、菜单合规性、卫生评分、客人满意度——持续测量，而不是按季度审核。",
+          "description": "服务速度、菜单合规性、卫生评分、客人满意度--持续测量，而不是按季度审核。",
           "product": "Pulse + Insights",
           "icon": "performance"
         },
         {
           "title": "传播最佳表现的剧本",
-          "description": "当 Site 12 将追加销售率提高 18% 时，Sundae会展示该模式，以便网络的其他部分学习——无需备忘录。",
+          "description": "当 Site 12 将追加销售率提高 18% 时，Sundae会展示该模式，以便网络的其他部分学习--无需备忘录。",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -1035,7 +1035,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "特许经营商在正确的事情上竞争",
-          "description": "匿名基准将同行压力转化为积极的飞轮——网络一起提升。",
+          "description": "匿名基准将同行压力转化为积极的飞轮--网络一起提升。",
           "icon": "speed"
         },
         {
@@ -1183,19 +1183,19 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Tolok ukur jaringan yang dapat dilihat oleh setiap pewaralaba",
-          "description": "Setiap pemilik-operator melihat dirinya diperingkat secara anonim dibandingkan rekan-rekannya — berdasarkan penjualan,% tenaga kerja, RevPASH, throughput. Persaingan sehat tanpa membeberkan nama.",
+          "description": "Setiap pemilik-operator melihat dirinya diperingkat secara anonim dibandingkan rekan-rekannya - berdasarkan penjualan,% tenaga kerja, RevPASH, throughput. Persaingan sehat tanpa membeberkan nama.",
           "product": "Benchmarks",
           "icon": "benchmarking"
         },
         {
           "title": "Standar merek sebagai metrik langsung",
-          "description": "Kecepatan layanan, kepatuhan menu, skor kebersihan, kepuasan tamu — diukur secara terus menerus, bukan pada audit triwulanan.",
+          "description": "Kecepatan layanan, kepatuhan menu, skor kebersihan, kepuasan tamu - diukur secara terus menerus, bukan pada audit triwulanan.",
           "product": "Pulse + Insights",
           "icon": "performance"
         },
         {
           "title": "Buku pedoman berkinerja terbaik disebarkan",
-          "description": "Saat Situs 12 meningkatkan tingkat penjualan sebesar 18%, Sundae menampilkan pola tersebut sehingga seluruh jaringan mempelajarinya — tanpa memo.",
+          "description": "Saat Situs 12 meningkatkan tingkat penjualan sebesar 18%, Sundae menampilkan pola tersebut sehingga seluruh jaringan mempelajarinya - tanpa memo.",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -1211,12 +1211,12 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Penerima waralaba bersaing dalam hal yang benar",
-          "description": "Tolok ukur anonim mengubah tekanan sesama menjadi roda gila yang positif — jaringan meningkat bersama-sama.",
+          "description": "Tolok ukur anonim mengubah tekanan sesama menjadi roda gila yang positif - jaringan meningkat bersama-sama.",
           "icon": "speed"
         },
         {
           "title": "Standar diukur secara terus menerus",
-          "description": "Anda melihat outlet mana yang menyimpang dalam hal layanan, menu, atau kebersihan — tanpa audit triwulanan.",
+          "description": "Anda melihat outlet mana yang menyimpang dalam hal layanan, menu, atau kebersihan - tanpa audit triwulanan.",
           "icon": "performance"
         },
         {
@@ -1359,7 +1359,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Rețelele de referință pe care fiecare francizat le poate vedea",
-          "description": "Fiecare proprietar-operator se vede clasificat anonim în raport cu colegii — după vânzări, % forță de muncă, RevPASH, debit. Concurență sănătoasă fără a expune nume.",
+          "description": "Fiecare proprietar-operator se vede clasificat anonim în raport cu colegii - după vânzări, % forță de muncă, RevPASH, debit. Concurență sănătoasă fără a expune nume.",
           "product": "Benchmarks",
           "icon": "benchmarking"
         },
@@ -1447,7 +1447,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Điểm chuẩn mạng mà mọi bên nhận quyền đều có thể thấy",
-          "description": "Mỗi chủ sở hữu-điều hành tự thấy mình được xếp hạng ẩn danh so với các đồng nghiệp — theo doanh số, % lao động, RevPASH, thông lượng. Cạnh tranh lành mạnh không để lộ tên tuổi.",
+          "description": "Mỗi chủ sở hữu-điều hành tự thấy mình được xếp hạng ẩn danh so với các đồng nghiệp - theo doanh số, % lao động, RevPASH, thông lượng. Cạnh tranh lành mạnh không để lộ tên tuổi.",
           "product": "Benchmarks",
           "icon": "benchmarking"
         },
@@ -1459,7 +1459,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Những vở kịch có hiệu suất cao nhất được tuyên truyền",
-          "description": "Khi Trang 12 nâng tỷ lệ bán thêm lên 18%, Sundae sẽ hiển thị mô hình để phần còn lại của mạng tìm hiểu — mà không cần bản ghi nhớ.",
+          "description": "Khi Trang 12 nâng tỷ lệ bán thêm lên 18%, Sundae sẽ hiển thị mô hình để phần còn lại của mạng tìm hiểu - mà không cần bản ghi nhớ.",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -1475,12 +1475,12 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Bên nhượng quyền cạnh tranh về điều đúng đắn",
-          "description": "Điểm chuẩn ẩn danh biến áp lực ngang hàng thành bánh đà tích cực — mạng lưới cùng nhau nâng đỡ.",
+          "description": "Điểm chuẩn ẩn danh biến áp lực ngang hàng thành bánh đà tích cực - mạng lưới cùng nhau nâng đỡ.",
           "icon": "speed"
         },
         {
           "title": "Tiêu chuẩn được đo liên tục",
-          "description": "Bạn sẽ thấy những cửa hàng nào lơ là về dịch vụ, thực đơn hoặc vấn đề vệ sinh — mà không cần kiểm tra hàng quý.",
+          "description": "Bạn sẽ thấy những cửa hàng nào lơ là về dịch vụ, thực đơn hoặc vấn đề vệ sinh - mà không cần kiểm tra hàng quý.",
           "icon": "performance"
         },
         {
@@ -1535,19 +1535,19 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "নেটওয়ার্ক বেঞ্চমার্ক প্রতিটি ফ্র্যাঞ্চাইজি দেখতে পারে",
-          "description": "প্রতিটি মালিক-অপারেটর নিজেদেরকে সমবয়সীদের বিপরীতে বেনামে র‌্যাঙ্ক করে দেখেন — বিক্রয়, শ্রম %, RevPASH, থ্রুপুট দ্বারা। নাম প্রকাশ না করে স্বাস্থ্যকর প্রতিযোগিতা।",
+          "description": "প্রতিটি মালিক-অপারেটর নিজেদেরকে সমবয়সীদের বিপরীতে বেনামে র্যাঙ্ক করে দেখেন - বিক্রয়, শ্রম %, RevPASH, থ্রুপুট দ্বারা। নাম প্রকাশ না করে স্বাস্থ্যকর প্রতিযোগিতা।",
           "product": "Benchmarks",
           "icon": "benchmarking"
         },
         {
           "title": "লাইভ মেট্রিক্স হিসাবে ব্র্যান্ড মান",
-          "description": "পরিষেবার গতি, মেনু সম্মতি, স্বাস্থ্যবিধি স্কোর, অতিথি সন্তুষ্টি — ক্রমাগত পরিমাপ করা হয়, ত্রৈমাসিক অডিটে নয়।",
+          "description": "পরিষেবার গতি, মেনু সম্মতি, স্বাস্থ্যবিধি স্কোর, অতিথি সন্তুষ্টি - ক্রমাগত পরিমাপ করা হয়, ত্রৈমাসিক অডিটে নয়।",
           "product": "Pulse + Insights",
           "icon": "performance"
         },
         {
           "title": "টপ-পারফর্মার প্লেবুক প্রচার করে",
-          "description": "যখন সাইট 12 আপসেল রেট 18% বাড়িয়ে দেয়, তখন Sundae প্যাটার্নটি দেখায় যাতে বাকি নেটওয়ার্ক শিখতে পারে — কোনো মেমো ছাড়াই।",
+          "description": "যখন সাইট 12 আপসেল রেট 18% বাড়িয়ে দেয়, তখন Sundae প্যাটার্নটি দেখায় যাতে বাকি নেটওয়ার্ক শিখতে পারে - কোনো মেমো ছাড়াই।",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -1563,12 +1563,12 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "ফ্র্যাঞ্চাইজি সঠিক জিনিসের প্রতিদ্বন্দ্বিতা করে",
-          "description": "বেনামী বেঞ্চমার্ক পিয়ার চাপকে একটি ইতিবাচক ফ্লাইহুইলে পরিণত করে — নেটওয়ার্ক একসাথে উত্তোলন করে।",
+          "description": "বেনামী বেঞ্চমার্ক পিয়ার চাপকে একটি ইতিবাচক ফ্লাইহুইলে পরিণত করে - নেটওয়ার্ক একসাথে উত্তোলন করে।",
           "icon": "speed"
         },
         {
           "title": "মান ক্রমাগত পরিমাপ",
-          "description": "আপনি দেখতে পাচ্ছেন কোন আউটলেটগুলি পরিষেবা, মেনু বা স্বাস্থ্যবিধিতে প্রবাহিত হয়েছে — ত্রৈমাসিক অডিট ছাড়াই৷",
+          "description": "আপনি দেখতে পাচ্ছেন কোন আউটলেটগুলি পরিষেবা, মেনু বা স্বাস্থ্যবিধিতে প্রবাহিত হয়েছে - ত্রৈমাসিক অডিট ছাড়াই৷",
           "icon": "performance"
         },
         {
@@ -1582,7 +1582,7 @@ export const generatedLocalCopy = {
           "icon": "support"
         }
       ],
-      "ctaTitle": "এক র‌্যাঙ্কিংয়ে আপনার নেটওয়ার্ক দেখুন।",
+      "ctaTitle": "এক র্যাঙ্কিংয়ে আপনার নেটওয়ার্ক দেখুন।",
       "ctaDescription": "30 মিনিট আপনার ফ্র্যাঞ্চাইজি. মান আপনি স্খলন দাগ হবে.",
       "ctaButton": "একটি ফ্র্যাঞ্চাইজ ওয়াক-থ্রু বুক করুন"
     },
@@ -1629,13 +1629,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Varumärkesstandarder som livestatistik",
-          "description": "Servicehastighet, menyefterlevnad, hygienpoäng, gästtillfredsställelse – mäts kontinuerligt, inte på kvartalsrevisionen.",
+          "description": "Servicehastighet, menyefterlevnad, hygienpoäng, gästtillfredsställelse - mäts kontinuerligt, inte på kvartalsrevisionen.",
           "product": "Pulse + Insights",
           "icon": "performance"
         },
         {
           "title": "De bästa spelböckerna sprider sig",
-          "description": "När Site 12 höjer merförsäljningsgraden med 18 %, kommer Sundae fram till mönstret så att resten av nätverket lär sig – utan ett memo.",
+          "description": "När Site 12 höjer merförsäljningsgraden med 18 %, kommer Sundae fram till mönstret så att resten av nätverket lär sig - utan ett memo.",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -1651,12 +1651,12 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Franchisetagare tävlar om rätt sak",
-          "description": "Anonyma riktmärken förvandlar grupptryck till ett positivt svänghjul — nätverket lyfts ihop.",
+          "description": "Anonyma riktmärken förvandlar grupptryck till ett positivt svänghjul - nätverket lyfts ihop.",
           "icon": "speed"
         },
         {
           "title": "Standarder mäts kontinuerligt",
-          "description": "Du ser vilka butiker som driver på service, meny eller hygien – utan en kvartalsvis revision.",
+          "description": "Du ser vilka butiker som driver på service, meny eller hygien - utan en kvartalsvis revision.",
           "icon": "performance"
         },
         {
@@ -1711,7 +1711,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "มาตรฐานเครือข่ายที่ผู้รับสิทธิ์แฟรนไชส์ทุกคนสามารถดูได้",
-          "description": "เจ้าของ-ผู้ดำเนินการแต่ละรายมองว่าตนเองถูกจัดอันดับโดยไม่เปิดเผยตัวตนเทียบกับคู่แข่ง — ตามยอดขาย, % แรงงาน, RevPASH, ปริมาณงาน การแข่งขันที่ดีโดยไม่เปิดเผยชื่อ",
+          "description": "เจ้าของ-ผู้ดำเนินการแต่ละรายมองว่าตนเองถูกจัดอันดับโดยไม่เปิดเผยตัวตนเทียบกับคู่แข่ง - ตามยอดขาย, % แรงงาน, RevPASH, ปริมาณงาน การแข่งขันที่ดีโดยไม่เปิดเผยชื่อ",
           "product": "Benchmarks",
           "icon": "benchmarking"
         },
@@ -1739,7 +1739,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "แฟรนไชส์แข่งขันกันในสิ่งที่ถูกต้อง",
-          "description": "การวัดประสิทธิภาพแบบไม่เปิดเผยตัวตนเปลี่ยนความกดดันจากเพื่อนฝูงให้เป็นมู่เล่เชิงบวก — เครือข่ายจะรวมตัวกัน",
+          "description": "การวัดประสิทธิภาพแบบไม่เปิดเผยตัวตนเปลี่ยนความกดดันจากเพื่อนฝูงให้เป็นมู่เล่เชิงบวก - เครือข่ายจะรวมตัวกัน",
           "icon": "speed"
         },
         {
@@ -1799,19 +1799,19 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Penanda aras rangkaian boleh dilihat oleh setiap francaisi",
-          "description": "Setiap pemilik-pengendali melihat diri mereka berada di kedudukan tanpa nama berbanding rakan sebaya — mengikut jualan, % buruh, RevPASH, daya pengeluaran. Persaingan sihat tanpa mendedahkan nama.",
+          "description": "Setiap pemilik-pengendali melihat diri mereka berada di kedudukan tanpa nama berbanding rakan sebaya - mengikut jualan, % buruh, RevPASH, daya pengeluaran. Persaingan sihat tanpa mendedahkan nama.",
           "product": "Benchmarks",
           "icon": "benchmarking"
         },
         {
           "title": "Piawaian jenama sebagai metrik langsung",
-          "description": "Kelajuan perkhidmatan, pematuhan menu, skor kebersihan, kepuasan tetamu — diukur secara berterusan, bukan pada audit suku tahunan.",
+          "description": "Kelajuan perkhidmatan, pematuhan menu, skor kebersihan, kepuasan tetamu - diukur secara berterusan, bukan pada audit suku tahunan.",
           "product": "Pulse + Insights",
           "icon": "performance"
         },
         {
           "title": "Buku permainan berprestasi tinggi disebarkan",
-          "description": "Apabila Tapak 12 menaikkan kadar jualan naik 18%, Sundae memaparkan corak supaya rangkaian yang lain belajar — tanpa memo.",
+          "description": "Apabila Tapak 12 menaikkan kadar jualan naik 18%, Sundae memaparkan corak supaya rangkaian yang lain belajar - tanpa memo.",
           "product": "Cross-Intelligence",
           "icon": "intelligence"
         },
@@ -1827,12 +1827,12 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Francaisi bersaing pada perkara yang betul",
-          "description": "Penanda aras tanpa nama mengubah tekanan rakan sebaya menjadi roda tenaga yang positif — rangkaian meningkat bersama-sama.",
+          "description": "Penanda aras tanpa nama mengubah tekanan rakan sebaya menjadi roda tenaga yang positif - rangkaian meningkat bersama-sama.",
           "icon": "speed"
         },
         {
           "title": "Piawaian diukur secara berterusan",
-          "description": "Anda melihat kedai mana yang bergantung pada perkhidmatan, menu atau kebersihan — tanpa audit suku tahunan.",
+          "description": "Anda melihat kedai mana yang bergantung pada perkhidmatan, menu atau kebersihan - tanpa audit suku tahunan.",
           "icon": "performance"
         },
         {

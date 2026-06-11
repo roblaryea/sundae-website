@@ -1616,7 +1616,7 @@ export default async function TermsPage() {
                 </p>
                 <ul className="list-disc pl-6 text-[var(--text-secondary)] space-y-2">
                   <li>Your right to access and use the Services will immediately cease.</li>
-                  <li>Sections which by their nature should survive (including, without limitation, Sections 6.3, 8–11, 13.4, 14–18, 20–22) will survive.</li>
+                  <li>Sections which by their nature should survive (including, without limitation, Sections 6.3, 8-11, 13.4, 14-18, 20-22) will survive.</li>
                   <li>Aggregated Data and Benchmark Data previously created may be retained and used in accordance with these Terms.</li>
                 </ul>
               </section>

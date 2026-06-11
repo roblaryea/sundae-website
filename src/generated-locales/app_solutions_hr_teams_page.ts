@@ -57,7 +57,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "جدولة التوصيات من الطلب",
-          "description": "Foresight projects covers 14 days out — Sundae suggests the labor plan that matches.",
+          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -82,7 +82,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "الجداول الزمنية التي تتناسب مع الكلمة",
-          "description": "Demand-driven schedules built on Foresight projections — not last week's pattern.",
+          "description": "Demand-driven schedules built on Foresight projections - not last week's pattern.",
           "icon": "support"
         }
       ],
@@ -233,19 +233,19 @@ export const generatedLocalCopy = {
         },
         {
           "title": "OT-Exposition, bevor es zuschlägt",
-          "description": "Sundae prognostiziert die OT-Linie nach Standort für den Rest der Woche – so verteilen Sie die Stunden neu und tragen nicht die Kosten.",
+          "description": "Sundae prognostiziert die OT-Linie nach Standort für den Rest der Woche - so verteilen Sie die Stunden neu und tragen nicht die Kosten.",
           "product": "Insights · Labor",
           "icon": "balance"
         },
         {
           "title": "Produktivität pro FOH-Stunde und pro Server",
-          "description": "Deckungen/Stunde, Verkäufe/Stunde, Upsell-Rate – pro Server, pro Schicht. Coachen Sie mit Zahlen, nicht mit Eindrücken.",
+          "description": "Deckungen/Stunde, Verkäufe/Stunde, Upsell-Rate - pro Server, pro Schicht. Coachen Sie mit Zahlen, nicht mit Eindrücken.",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
           "title": "Planen Sie Empfehlungen basierend auf der Nachfrage",
-          "description": "Foresight-Projekte umfassen einen Zeitraum von 14 Tagen – Sundae schlägt den passenden Arbeitsplan vor.",
+          "description": "Foresight-Projekte umfassen einen Zeitraum von 14 Tagen - Sundae schlägt den passenden Arbeitsplan vor.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -270,14 +270,14 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Zeitpläne, die zum Boden passen",
-          "description": "Nachfragegesteuerte Zeitpläne, die auf Prognosen von Foresight basieren – nicht das Muster der letzten Woche.",
+          "description": "Nachfragegesteuerte Zeitpläne, die auf Prognosen von Foresight basieren - nicht das Muster der letzten Woche.",
           "icon": "support"
         }
       ],
       "crewCallout": {
         "eyebrow": "UNTERSTÜTZT VON SUNDAE CREW",
         "title": "Das operative Substrat, das diese Intelligenz speist.",
-        "description": "Das Team kümmert sich um Planung, Zeiterfassung, Gehaltsabrechnung in mehreren Regionen (USA, Kanada, Großbritannien, EU, GCC – eine Engine) und über 60 HR-Oberflächen – jede Schicht, jede Stunde und jeder Lohnzyklus wird zum Signal, das die Arbeitsinformationen auf dieser Seite antreibt. Optional: Bringen Sie Ihre eigene Personalabteilung mit (Bayzat, Personio, Gusto) und Sundae liest immer noch das gleiche Signal.",
+        "description": "Das Team kümmert sich um Planung, Zeiterfassung, Gehaltsabrechnung in mehreren Regionen (USA, Kanada, Großbritannien, EU, GCC - eine Engine) und über 60 HR-Oberflächen - jede Schicht, jede Stunde und jeder Lohnzyklus wird zum Signal, das die Arbeitsinformationen auf dieser Seite antreibt. Optional: Bringen Sie Ihre eigene Personalabteilung mit (Bayzat, Personio, Gusto) und Sundae liest immer noch das gleiche Signal.",
         "ctaText": "Entdecken Sie Sundae Crew"
       },
       "ctaTitle": "Erleben Sie Ihre Arbeit in Bewegung.",
@@ -327,19 +327,19 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Exposition OT avant qu'elle ne frappe",
-          "description": "Sundae prévoit la ligne OT par emplacement pour le reste de la semaine – vous redistribuez ainsi les heures, sans absorber les coûts.",
+          "description": "Sundae prévoit la ligne OT par emplacement pour le reste de la semaine - vous redistribuez ainsi les heures, sans absorber les coûts.",
           "product": "Insights · Labor",
           "icon": "balance"
         },
         {
           "title": "Productivité par heure FOH et par serveur",
-          "description": "Couvertures/heure, ventes/heure, taux de vente incitative — par serveur, par équipe. Entraînez-vous avec des chiffres, pas des impressions.",
+          "description": "Couvertures/heure, ventes/heure, taux de vente incitative - par serveur, par équipe. Entraînez-vous avec des chiffres, pas des impressions.",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
           "title": "Planifier des recommandations à partir de la demande",
-          "description": "Foresight projects covers 14 days out — Sundae suggests the labor plan that matches.",
+          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -364,14 +364,14 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Des horaires adaptés au sol",
-          "description": "Demand-driven schedules built on Foresight projections — not last week's pattern.",
+          "description": "Demand-driven schedules built on Foresight projections - not last week's pattern.",
           "icon": "support"
         }
       ],
       "crewCallout": {
         "eyebrow": "SOUTENU PAR L'ÉQUIPAGE SUNDAE",
         "title": "Le substrat opérationnel qui alimente cette intelligence.",
-        "description": "L'équipe gère la planification, le temps et les présences, la paie multirégionale (États-Unis, Canada, Royaume-Uni, UE, GCC — un seul moteur) et plus de 60 surfaces RH — chaque équipe, heure et cycle de paie devient le signal qui alimente l'intelligence du travail sur cette page. Facultatif : apportez votre propre HR (Bayzat, Personio, Gusto) et Sundae lit toujours le même signal.",
+        "description": "L'équipe gère la planification, le temps et les présences, la paie multirégionale (États-Unis, Canada, Royaume-Uni, UE, GCC - un seul moteur) et plus de 60 surfaces RH - chaque équipe, heure et cycle de paie devient le signal qui alimente l'intelligence du travail sur cette page. Facultatif : apportez votre propre HR (Bayzat, Personio, Gusto) et Sundae lit toujours le même signal.",
         "ctaText": "Explore Sundae Crew"
       },
       "ctaTitle": "Voyez votre travail en mouvement.",
@@ -421,19 +421,19 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Exposição OT antes de atingir",
-          "description": "Sundae prevê a linha OT por local para o resto da semana – para que você redistribua as horas, não absorva o custo.",
+          "description": "Sundae prevê a linha OT por local para o resto da semana - para que você redistribua as horas, não absorva o custo.",
           "product": "Insights · Labor",
           "icon": "balance"
         },
         {
           "title": "Produtividade por hora FOH, por servidor",
-          "description": "Coberturas/hora, vendas/hora, taxa de upsell — por servidor, por turno. Treine com números, não com impressões.",
+          "description": "Coberturas/hora, vendas/hora, taxa de upsell - por servidor, por turno. Treine com números, não com impressões.",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
           "title": "Programe recomendações a partir da demanda",
-          "description": "Foresight projects covers 14 days out — Sundae suggests the labor plan that matches.",
+          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -458,7 +458,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Horários que combinam com o andar",
-          "description": "Demand-driven schedules built on Foresight projections — not last week's pattern.",
+          "description": "Demand-driven schedules built on Foresight projections - not last week's pattern.",
           "icon": "support"
         }
       ],
@@ -521,13 +521,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Productiviteit per FOH-uur, per server",
-          "description": "Covers/uur, verkoop/uur, upsell-percentage – per server, per dienst. Coach met cijfers, niet met indrukken.",
+          "description": "Covers/uur, verkoop/uur, upsell-percentage - per server, per dienst. Coach met cijfers, niet met indrukken.",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
           "title": "Plan aanbevelingen op basis van de vraag",
-          "description": "Foresight-projecten bestrijken 14 dagen – Sundae stelt het arbeidsplan voor dat daarbij past.",
+          "description": "Foresight-projecten bestrijken 14 dagen - Sundae stelt het arbeidsplan voor dat daarbij past.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -552,14 +552,14 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Schema’s passend bij de vloer",
-          "description": "Demand-driven schedules built on Foresight projections — not last week's pattern.",
+          "description": "Demand-driven schedules built on Foresight projections - not last week's pattern.",
           "icon": "support"
         }
       ],
       "crewCallout": {
         "eyebrow": "GESTEUND DOOR SUNDAE-BEMANNING",
         "title": "Het operationele substraat dat deze intelligentie voedt.",
-        "description": "Crew beheert planning, tijdregistratie, loonadministratie voor meerdere regio's (VS, Canada, VK, EU, GCC – één engine) en meer dan 60 HR-oppervlakken – elke dienst, uur en betaalcyclus wordt een signaal dat de arbeidsintelligentie op deze pagina aanstuurt. Optioneel: neem je eigen HR mee (Bayzat, Personio, Gusto) en Sundae leest nog steeds hetzelfde signaal.",
+        "description": "Crew beheert planning, tijdregistratie, loonadministratie voor meerdere regio's (VS, Canada, VK, EU, GCC - één engine) en meer dan 60 HR-oppervlakken - elke dienst, uur en betaalcyclus wordt een signaal dat de arbeidsintelligentie op deze pagina aanstuurt. Optioneel: neem je eigen HR mee (Bayzat, Personio, Gusto) en Sundae leest nog steeds hetzelfde signaal.",
         "ctaText": "Ontdek Sundae Crew"
       },
       "ctaTitle": "Zie uw bevalling in beweging.",
@@ -609,19 +609,19 @@ export const generatedLocalCopy = {
         },
         {
           "title": "OT کی نمائش اس کے لگنے سے پہلے",
-          "description": "Sundae باقی ہفتے کے لیے مقام کے لحاظ سے OT لائن کی پیشن گوئی کرتا ہے — اس لیے آپ گھنٹے کی دوبارہ تقسیم کرتے ہیں، لاگت کو جذب نہیں کرتے۔",
+          "description": "Sundae باقی ہفتے کے لیے مقام کے لحاظ سے OT لائن کی پیشن گوئی کرتا ہے - اس لیے آپ گھنٹے کی دوبارہ تقسیم کرتے ہیں، لاگت کو جذب نہیں کرتے۔",
           "product": "Insights · Labor",
           "icon": "balance"
         },
         {
           "title": "پیداواری صلاحیت فی FOH گھنٹہ، فی سرور",
-          "description": "کور/گھنٹہ، سیلز/گھنٹہ، اپ سیل ریٹ — فی سرور، فی شفٹ۔ نمبروں کے ساتھ کوچ کریں، نقوش نہیں۔",
+          "description": "کور/گھنٹہ، سیلز/گھنٹہ، اپ سیل ریٹ - فی سرور، فی شفٹ۔ نمبروں کے ساتھ کوچ کریں، نقوش نہیں۔",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
           "title": "مانگ سے سفارشات کا شیڈول بنائیں",
-          "description": "Foresight projects covers 14 days out — Sundae suggests the labor plan that matches.",
+          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -646,14 +646,14 @@ export const generatedLocalCopy = {
         },
         {
           "title": "شیڈول جو فرش سے ملتے ہیں۔",
-          "description": "Demand-driven schedules built on Foresight projections — not last week's pattern.",
+          "description": "Demand-driven schedules built on Foresight projections - not last week's pattern.",
           "icon": "support"
         }
       ],
       "crewCallout": {
         "eyebrow": "SUNDAE کریو کی حمایت یافتہ",
         "title": "آپریشنل سبسٹریٹ جو اس ذہانت کو کھلاتا ہے۔",
-        "description": "عملہ شیڈولنگ، وقت اور حاضری، ملٹی ریجن پے رول (US, Canada, UK, EU, GCC — ایک انجن) اور 60+ HR سطحوں پر چلتا ہے — ہر شفٹ، گھنٹہ، اور پے سائیکل سگنل بنتا ہے جو اس صفحہ پر لیبر انٹیلی جنس کو طاقت دیتا ہے۔ اختیاری: اپنا HR لائیں (Bayzat, Personio, Gusto) اور Sundae پھر بھی وہی سگنل پڑھتا ہے۔",
+        "description": "عملہ شیڈولنگ، وقت اور حاضری، ملٹی ریجن پے رول (US, Canada, UK, EU, GCC - ایک انجن) اور 60+ HR سطحوں پر چلتا ہے - ہر شفٹ، گھنٹہ، اور پے سائیکل سگنل بنتا ہے جو اس صفحہ پر لیبر انٹیلی جنس کو طاقت دیتا ہے۔ اختیاری: اپنا HR لائیں (Bayzat, Personio, Gusto) اور Sundae پھر بھی وہی سگنل پڑھتا ہے۔",
         "ctaText": "Sundae Crew کو دریافت کریں۔"
       },
       "ctaTitle": "اپنی محنت کو حرکت میں دیکھیں۔",
@@ -715,7 +715,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "मांग से अनुसूची अनुशंसाएँ",
-          "description": "Foresight projects covers 14 days out — Sundae suggests the labor plan that matches.",
+          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -740,7 +740,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "अनुसूचियाँ जो फर्श से मेल खाती हैं",
-          "description": "Demand-driven schedules built on Foresight projections — not last week's pattern.",
+          "description": "Demand-driven schedules built on Foresight projections - not last week's pattern.",
           "icon": "support"
         }
       ],
@@ -803,13 +803,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Wydajność na godzinę FOH na serwer",
-          "description": "Obejmuje/godzinę, sprzedaż/godzinę, stawkę dodatkowej sprzedaży — na serwer, na zmianę. Trenuj liczbami, a nie wrażeniami.",
+          "description": "Obejmuje/godzinę, sprzedaż/godzinę, stawkę dodatkowej sprzedaży - na serwer, na zmianę. Trenuj liczbami, a nie wrażeniami.",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
           "title": "Zaplanuj rekomendacje na podstawie zapotrzebowania",
-          "description": "Foresight projects covers 14 days out — Sundae suggests the labor plan that matches.",
+          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -834,14 +834,14 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Harmonogramy dopasowane do podłogi",
-          "description": "Harmonogramy oparte na popycie oparte na prognozach Foresight – a nie na wzorcu z zeszłego tygodnia.",
+          "description": "Harmonogramy oparte na popycie oparte na prognozach Foresight - a nie na wzorcu z zeszłego tygodnia.",
           "icon": "support"
         }
       ],
       "crewCallout": {
         "eyebrow": "WSPARCIE PRZEZ ZAŁOGĘ SUNDAE",
         "title": "Podłoże operacyjne, które zasila tę inteligencję.",
-        "description": "Załoga zarządza harmonogramem, czasem i frekwencją, listą płac w wielu regionach (USA, Kanada, Wielka Brytania, UE, GCC — jeden silnik) i ponad 60 powierzchni HR — każda zmiana, godzina i cykl płac stają się sygnałem napędzającym wywiad pracowniczy na tej stronie. Opcjonalnie: przynieś swój własny HR (Bayzat, Personio, Gusto), a Sundae nadal odczytuje ten sam sygnał.",
+        "description": "Załoga zarządza harmonogramem, czasem i frekwencją, listą płac w wielu regionach (USA, Kanada, Wielka Brytania, UE, GCC - jeden silnik) i ponad 60 powierzchni HR - każda zmiana, godzina i cykl płac stają się sygnałem napędzającym wywiad pracowniczy na tej stronie. Opcjonalnie: przynieś swój własny HR (Bayzat, Personio, Gusto), a Sundae nadal odczytuje ten sam sygnał.",
         "ctaText": "Poznaj Sundae Crew"
       },
       "ctaTitle": "Zobacz swoją pracę w ruchu.",
@@ -903,7 +903,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Pianifica i consigli dalla domanda",
-          "description": "Foresight projects covers 14 days out — Sundae suggests the labor plan that matches.",
+          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -928,7 +928,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Orari che corrispondono al pavimento",
-          "description": "Demand-driven schedules built on Foresight projections — not last week's pattern.",
+          "description": "Demand-driven schedules built on Foresight projections - not last week's pattern.",
           "icon": "support"
         }
       ],
@@ -991,13 +991,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "每台服务器每 FOH 小时的生产力",
-          "description": "覆盖/小时、销售/小时、追加销售率——每台服务器、每班次。用数字而不是印象来指导。",
+          "description": "覆盖/小时、销售/小时、追加销售率--每台服务器、每班次。用数字而不是印象来指导。",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
           "title": "根据需求安排推荐",
-          "description": "Foresight 项目涵盖 14 天——Sundae 建议匹配的劳工计划。",
+          "description": "Foresight 项目涵盖 14 天--Sundae 建议匹配的劳工计划。",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1029,7 +1029,7 @@ export const generatedLocalCopy = {
       "crewCallout": {
         "eyebrow": "由圣代团队支持",
         "title": "提供这种情报的操作基础。",
-        "description": "Crew 负责调度、考勤、多地区薪资（美国、加拿大、英国、欧盟、海湾合作委员会 — 一个引擎）和 60 多个 HR 界面 — 每个班次、每个小时和薪资周期都成为为该页面上的劳动力情报提供动力的信号。可选：带上您自己的 HR（Bayzat、Personio、Gusto），Sundae仍然读取相同的信号。",
+        "description": "Crew 负责调度、考勤、多地区薪资（美国、加拿大、英国、欧盟、海湾合作委员会 - 一个引擎）和 60 多个 HR 界面 - 每个班次、每个小时和薪资周期都成为为该页面上的劳动力情报提供动力的信号。可选：带上您自己的 HR（Bayzat、Personio、Gusto），Sundae仍然读取相同的信号。",
         "ctaText": "Explore Sundae Crew"
       },
       "ctaTitle": "查看您的劳动动态。",
@@ -1085,13 +1085,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Sunucu başına FOH saati başına üretkenlik",
-          "description": "Kapsam/saat, satış/saat, ek satış oranı — sunucu başına, vardiya başına. Gösterimlerle değil, rakamlarla koçluk yapın.",
+          "description": "Kapsam/saat, satış/saat, ek satış oranı - sunucu başına, vardiya başına. Gösterimlerle değil, rakamlarla koçluk yapın.",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
           "title": "Talepten gelen önerileri planlayın",
-          "description": "Foresight projects covers 14 days out — Sundae suggests the labor plan that matches.",
+          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1116,14 +1116,14 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Zemine uygun programlar",
-          "description": "Demand-driven schedules built on Foresight projections — not last week's pattern.",
+          "description": "Demand-driven schedules built on Foresight projections - not last week's pattern.",
           "icon": "support"
         }
       ],
       "crewCallout": {
         "eyebrow": "SUNDAE EKİP TARAFINDAN DESTEKLENİYOR",
         "title": "Bu zekayı besleyen operasyonel alt tabaka.",
-        "description": "Mürettebat planlama, zaman ve katılım, çok bölgeli maaş bordrosu (ABD, Kanada, İngiltere, AB, GCC — tek motor) ve 60'tan fazla İK yüzeyini çalıştırır; her vardiya, saat ve maaş döngüsü bu sayfadaki iş zekasını güçlendiren bir sinyal haline gelir. İsteğe bağlı: Kendi HR'nizi (Bayzat, Personio, Gusto) getirin ve Sundae hala aynı sinyali okusun.",
+        "description": "Mürettebat planlama, zaman ve katılım, çok bölgeli maaş bordrosu (ABD, Kanada, İngiltere, AB, GCC - tek motor) ve 60'tan fazla İK yüzeyini çalıştırır; her vardiya, saat ve maaş döngüsü bu sayfadaki iş zekasını güçlendiren bir sinyal haline gelir. İsteğe bağlı: Kendi HR'nizi (Bayzat, Personio, Gusto) getirin ve Sundae hala aynı sinyali okusun.",
         "ctaText": "Sundae Crew'u keşfedin"
       },
       "ctaTitle": "Emeğinizi hareket halinde görün.",
@@ -1273,13 +1273,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Produktivitet per FOH-timme, per server",
-          "description": "Täcker/timme, försäljning/timme, merförsäljningshastighet – per server, per skift. Coach med siffror, inte intryck.",
+          "description": "Täcker/timme, försäljning/timme, merförsäljningshastighet - per server, per skift. Coach med siffror, inte intryck.",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
           "title": "Schemalägg rekommendationer från efterfrågan",
-          "description": "Foresight projects covers 14 days out — Sundae suggests the labor plan that matches.",
+          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1304,14 +1304,14 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Schema som matchar golvet",
-          "description": "Demand-driven schedules built on Foresight projections — not last week's pattern.",
+          "description": "Demand-driven schedules built on Foresight projections - not last week's pattern.",
           "icon": "support"
         }
       ],
       "crewCallout": {
         "eyebrow": "UPPSATS AV SUNDAE CREW",
         "title": "Det operativa substratet som matar denna intelligens.",
-        "description": "Besättningen kör schemaläggning, tid och närvaro, lönelista i flera regioner (USA, Kanada, Storbritannien, EU, GCC – en motor) och 60+ HR-ytor – varje skift, timme och lönecykel blir en signal som driver arbetsinformationen på den här sidan. Valfritt: ta med din egen HR (Bayzat, Personio, Gusto) och Sundae läser fortfarande samma signal.",
+        "description": "Besättningen kör schemaläggning, tid och närvaro, lönelista i flera regioner (USA, Kanada, Storbritannien, EU, GCC - en motor) och 60+ HR-ytor - varje skift, timme och lönecykel blir en signal som driver arbetsinformationen på den här sidan. Valfritt: ta med din egen HR (Bayzat, Personio, Gusto) och Sundae läser fortfarande samma signal.",
         "ctaText": "Utforska Sundae Crew"
       },
       "ctaTitle": "Se ditt arbete i rörelse.",
@@ -1361,19 +1361,19 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Paparan PL sebelum terjadi",
-          "description": "Sundae memperkirakan jalur Lembur berdasarkan lokasi untuk sisa minggu ini — jadi Anda mendistribusikan ulang jam kerja, bukan menanggung biayanya.",
+          "description": "Sundae memperkirakan jalur Lembur berdasarkan lokasi untuk sisa minggu ini - jadi Anda mendistribusikan ulang jam kerja, bukan menanggung biayanya.",
           "product": "Insights · Labor",
           "icon": "balance"
         },
         {
           "title": "Produktivitas per jam FOH, per server",
-          "description": "Penutupan/jam, penjualan/jam, tingkat penjualan — per server, per shift. Pelatih dengan angka, bukan kesan.",
+          "description": "Penutupan/jam, penjualan/jam, tingkat penjualan - per server, per shift. Pelatih dengan angka, bukan kesan.",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
           "title": "Jadwalkan rekomendasi dari permintaan",
-          "description": "Foresight projects covers 14 days out — Sundae suggests the labor plan that matches.",
+          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1398,14 +1398,14 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Jadwal yang sesuai dengan lantai",
-          "description": "Jadwal berdasarkan permintaan dibangun berdasarkan proyeksi Foresight — bukan pola minggu lalu.",
+          "description": "Jadwal berdasarkan permintaan dibangun berdasarkan proyeksi Foresight - bukan pola minggu lalu.",
           "icon": "support"
         }
       ],
       "crewCallout": {
         "eyebrow": "DIDUKUNG OLEH CREW SUNDAE",
         "title": "Substrat operasional yang mendukung kecerdasan ini.",
-        "description": "Kru menjalankan penjadwalan, waktu & kehadiran, penggajian multi-wilayah (AS, Kanada, Inggris, UE, GCC — satu mesin), dan 60+ permukaan SDM — setiap shift, jam, dan siklus pembayaran menjadi sinyal yang mendukung intelijen ketenagakerjaan di halaman ini. Opsional: bawa HR sendiri (Bayzat, Personio, Gusto) dan Sundae tetap membaca sinyal yang sama.",
+        "description": "Kru menjalankan penjadwalan, waktu & kehadiran, penggajian multi-wilayah (AS, Kanada, Inggris, UE, GCC - satu mesin), dan 60+ permukaan SDM - setiap shift, jam, dan siklus pembayaran menjadi sinyal yang mendukung intelijen ketenagakerjaan di halaman ini. Opsional: bawa HR sendiri (Bayzat, Personio, Gusto) dan Sundae tetap membaca sinyal yang sama.",
         "ctaText": "Explore Sundae Crew"
       },
       "ctaTitle": "Lihat proses persalinan Anda.",
@@ -1461,13 +1461,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "FOH 시간당, 서버당 생산성",
-          "description": "커버/시간, 판매/시간, 상향 판매율 — 서버당, 교대당. 노출이 아닌 숫자로 코치하세요.",
+          "description": "커버/시간, 판매/시간, 상향 판매율 - 서버당, 교대당. 노출이 아닌 숫자로 코치하세요.",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
           "title": "수요에 따른 추천 예약",
-          "description": "Foresight projects covers 14 days out — Sundae suggests the labor plan that matches.",
+          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1499,7 +1499,7 @@ export const generatedLocalCopy = {
       "crewCallout": {
         "eyebrow": "SUNDAE CREW의 지원",
         "title": "이 지능을 제공하는 작동 기반입니다.",
-        "description": "Crew는 일정 관리, 근태 관리, 다중 지역 급여(미국, 캐나다, 영국, EU, GCC — 단일 엔진) 및 60개 이상의 HR 표면을 실행합니다. 모든 교대, 시간 및 급여 주기는 이 페이지의 노동 인텔리전스를 강화하는 신호가 됩니다. 선택 사항: 자신의 HR(Bayzat, Personio, Gusto)을 가져와도 Sundae는 여전히 동일한 신호를 읽습니다.",
+        "description": "Crew는 일정 관리, 근태 관리, 다중 지역 급여(미국, 캐나다, 영국, EU, GCC - 단일 엔진) 및 60개 이상의 HR 표면을 실행합니다. 모든 교대, 시간 및 급여 주기는 이 페이지의 노동 인텔리전스를 강화하는 신호가 됩니다. 선택 사항: 자신의 HR(Bayzat, Personio, Gusto)을 가져와도 Sundae는 여전히 동일한 신호를 읽습니다.",
         "ctaText": "Explore Sundae Crew"
       },
       "ctaTitle": "당신의 노동이 어떻게 움직이는지 보십시오.",
@@ -1555,13 +1555,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Productivitate pe oră FOH, pe server",
-          "description": "Acoperiri/oră, vânzări/oră, rată de vânzare în plus — pe server, pe tură. Antrenor cu cifre, nu cu impresii.",
+          "description": "Acoperiri/oră, vânzări/oră, rată de vânzare în plus - pe server, pe tură. Antrenor cu cifre, nu cu impresii.",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
           "title": "Programează recomandări de la cerere",
-          "description": "Foresight projects covers 14 days out — Sundae suggests the labor plan that matches.",
+          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1586,14 +1586,14 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Programe care se potrivesc cu etajul",
-          "description": "Demand-driven schedules built on Foresight projections — not last week's pattern.",
+          "description": "Demand-driven schedules built on Foresight projections - not last week's pattern.",
           "icon": "support"
         }
       ],
       "crewCallout": {
         "eyebrow": "SPRIJUT DE ECHIPAJUL SUNDAE",
         "title": "Substratul operațional care alimentează această inteligență.",
-        "description": "Echipa rulează programare, timp și prezență, salarizare în mai multe regiuni (SUA, Canada, Marea Britanie, UE, GCC – un singur motor) și peste 60 de suprafețe HR – fiecare tură, oră și ciclu de plată devenind un semnal care alimentează inteligența muncii de pe această pagină. Opțional: aduceți-vă propriul HR (Bayzat, Personio, Gusto) și Sundae citește în continuare același semnal.",
+        "description": "Echipa rulează programare, timp și prezență, salarizare în mai multe regiuni (SUA, Canada, Marea Britanie, UE, GCC - un singur motor) și peste 60 de suprafețe HR - fiecare tură, oră și ciclu de plată devenind un semnal care alimentează inteligența muncii de pe această pagină. Opțional: aduceți-vă propriul HR (Bayzat, Personio, Gusto) și Sundae citește în continuare același semnal.",
         "ctaText": "Explorați Sundae Crew"
       },
       "ctaTitle": "Vedeți-vă munca în mișcare.",
@@ -1643,19 +1643,19 @@ export const generatedLocalCopy = {
         },
         {
           "title": "এটি আঘাত করার আগে OT এক্সপোজার",
-          "description": "Sundae সপ্তাহের বাকি অংশের জন্য অবস্থান অনুসারে OT লাইনের পূর্বাভাস দেয় — যাতে আপনি খরচ শোষণ না করে ঘন্টাগুলি পুনরায় বিতরণ করেন।",
+          "description": "Sundae সপ্তাহের বাকি অংশের জন্য অবস্থান অনুসারে OT লাইনের পূর্বাভাস দেয় - যাতে আপনি খরচ শোষণ না করে ঘন্টাগুলি পুনরায় বিতরণ করেন।",
           "product": "Insights · Labor",
           "icon": "balance"
         },
         {
           "title": "প্রতি FOH ঘন্টা, সার্ভার প্রতি উত্পাদনশীলতা",
-          "description": "কভার/ঘন্টা, বিক্রয়/ঘণ্টা, আপসেল রেট — প্রতি সার্ভার, প্রতি শিফট। সংখ্যা দিয়ে কোচ, ইমপ্রেশন নয়।",
+          "description": "কভার/ঘন্টা, বিক্রয়/ঘণ্টা, আপসেল রেট - প্রতি সার্ভার, প্রতি শিফট। সংখ্যা দিয়ে কোচ, ইমপ্রেশন নয়।",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
           "title": "চাহিদা থেকে সুপারিশ সময়সূচী",
-          "description": "Foresight projects covers 14 days out — Sundae suggests the labor plan that matches.",
+          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1680,14 +1680,14 @@ export const generatedLocalCopy = {
         },
         {
           "title": "মেঝে মেলে যে সময়সূচী",
-          "description": "Demand-driven schedules built on Foresight projections — not last week's pattern.",
+          "description": "Demand-driven schedules built on Foresight projections - not last week's pattern.",
           "icon": "support"
         }
       ],
       "crewCallout": {
         "eyebrow": "SUNDAE ক্রু দ্বারা ব্যাকড",
         "title": "অপারেশনাল সাবস্ট্রেট যে এই বুদ্ধিমত্তা ফিড.",
-        "description": "ক্রু সময়সূচী, সময় এবং উপস্থিতি, বহু-অঞ্চল বেতন (ইউএস, কানাডা, ইউকে, ইইউ, জিসিসি — একটি ইঞ্জিন), এবং 60+ এইচআর সারফেস চালায় — প্রতিটি শিফট, ঘন্টা, এবং বেতন-চক্র এই পৃষ্ঠায় শ্রম বুদ্ধিমত্তাকে শক্তি দেয় এমন সংকেত হয়ে উঠছে। ঐচ্ছিক: আপনার নিজস্ব HR (বায়যাত, পারসোনিও, গুস্টো) আনুন এবং Sundae এখনও একই সংকেত পড়ে।",
+        "description": "ক্রু সময়সূচী, সময় এবং উপস্থিতি, বহু-অঞ্চল বেতন (ইউএস, কানাডা, ইউকে, ইইউ, জিসিসি - একটি ইঞ্জিন), এবং 60+ এইচআর সারফেস চালায় - প্রতিটি শিফট, ঘন্টা, এবং বেতন-চক্র এই পৃষ্ঠায় শ্রম বুদ্ধিমত্তাকে শক্তি দেয় এমন সংকেত হয়ে উঠছে। ঐচ্ছিক: আপনার নিজস্ব HR (বায়যাত, পারসোনিও, গুস্টো) আনুন এবং Sundae এখনও একই সংকেত পড়ে।",
         "ctaText": "Explore Sundae Crew"
       },
       "ctaTitle": "গতিশীল আপনার শ্রম দেখুন.",
@@ -1737,7 +1737,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Tiếp xúc OT trước khi nó chạm tới",
-          "description": "Sundae dự báo tuyến OT theo địa điểm cho những ngày còn lại trong tuần — do đó, bạn phân bổ lại số giờ chứ không phải tính chi phí.",
+          "description": "Sundae dự báo tuyến OT theo địa điểm cho những ngày còn lại trong tuần - do đó, bạn phân bổ lại số giờ chứ không phải tính chi phí.",
           "product": "Insights · Labor",
           "icon": "balance"
         },
@@ -1749,7 +1749,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Lên lịch đề xuất từ nhu cầu",
-          "description": "Foresight projects covers 14 days out — Sundae suggests the labor plan that matches.",
+          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1774,7 +1774,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Lịch trình phù hợp với sàn",
-          "description": "Demand-driven schedules built on Foresight projections — not last week's pattern.",
+          "description": "Demand-driven schedules built on Foresight projections - not last week's pattern.",
           "icon": "support"
         }
       ],
@@ -1837,13 +1837,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "ผลผลิตต่อชั่วโมง FOH ต่อเซิร์ฟเวอร์",
-          "description": "ครอบคลุม/ชั่วโมง ยอดขาย/ชั่วโมง อัตราการขายต่อยอด — ต่อเซิร์ฟเวอร์ ต่อกะ โค้ชด้วยตัวเลข ไม่ใช่ความประทับใจ",
+          "description": "ครอบคลุม/ชั่วโมง ยอดขาย/ชั่วโมง อัตราการขายต่อยอด - ต่อเซิร์ฟเวอร์ ต่อกะ โค้ชด้วยตัวเลข ไม่ใช่ความประทับใจ",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
           "title": "กำหนดเวลาคำแนะนำจากความต้องการ",
-          "description": "โครงการ Foresight ครอบคลุม 14 วัน — Sundae แนะนำแผนแรงงานที่ตรงกัน",
+          "description": "โครงการ Foresight ครอบคลุม 14 วัน - Sundae แนะนำแผนแรงงานที่ตรงกัน",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1868,7 +1868,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "ตารางที่ตรงกับพื้น",
-          "description": "Demand-driven schedules built on Foresight projections — not last week's pattern.",
+          "description": "Demand-driven schedules built on Foresight projections - not last week's pattern.",
           "icon": "support"
         }
       ],
@@ -1925,19 +1925,19 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Pendedahan OT sebelum terkena",
-          "description": "Sundae meramalkan barisan OT mengikut lokasi untuk sepanjang minggu — jadi anda mengagihkan semula waktu kerja, bukan menyerap kos.",
+          "description": "Sundae meramalkan barisan OT mengikut lokasi untuk sepanjang minggu - jadi anda mengagihkan semula waktu kerja, bukan menyerap kos.",
           "product": "Insights · Labor",
           "icon": "balance"
         },
         {
           "title": "Produktiviti setiap jam FOH, setiap pelayan",
-          "description": "Perlindungan/jam, jualan/jam, kadar kenaikan jualan — setiap pelayan, setiap syif. Jurulatih dengan nombor, bukan teraan.",
+          "description": "Perlindungan/jam, jualan/jam, kadar kenaikan jualan - setiap pelayan, setiap syif. Jurulatih dengan nombor, bukan teraan.",
           "product": "Pulse · Server view",
           "icon": "performance"
         },
         {
           "title": "Jadualkan cadangan daripada permintaan",
-          "description": "Foresight projects covers 14 days out — Sundae suggests the labor plan that matches.",
+          "description": "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1962,14 +1962,14 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Jadual yang sepadan dengan lantai",
-          "description": "Jadual dipacu permintaan dibina pada unjuran Foresight — bukan corak minggu lepas.",
+          "description": "Jadual dipacu permintaan dibina pada unjuran Foresight - bukan corak minggu lepas.",
           "icon": "support"
         }
       ],
       "crewCallout": {
         "eyebrow": "DISOKONG OLEH SUNDAE CREW",
         "title": "Substrat operasi yang membekalkan kecerdasan ini.",
-        "description": "Krew menjalankan penjadualan, masa & kehadiran, senarai gaji berbilang wilayah (AS, Kanada, UK, EU, GCC — satu enjin) dan 60+ permukaan HR — setiap syif, jam dan kitaran gaji menjadi isyarat yang menguatkan kecerdasan buruh pada halaman ini. Pilihan: bawa HR anda sendiri (Bayzat, Personio, Gusto) dan Sundae masih membaca isyarat yang sama.",
+        "description": "Krew menjalankan penjadualan, masa & kehadiran, senarai gaji berbilang wilayah (AS, Kanada, UK, EU, GCC - satu enjin) dan 60+ permukaan HR - setiap syif, jam dan kitaran gaji menjadi isyarat yang menguatkan kecerdasan buruh pada halaman ini. Pilihan: bawa HR anda sendiri (Bayzat, Personio, Gusto) dan Sundae masih membaca isyarat yang sama.",
         "ctaText": "Terokai Sundae Crew"
       },
       "ctaTitle": "Lihat kerja anda bergerak.",

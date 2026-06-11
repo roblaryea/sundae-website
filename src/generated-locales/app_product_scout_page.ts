@@ -94,7 +94,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "عرض جميع المنتجات"
     },
     "fr": {
-      "heroBadge": "Scout — Couche de données",
+      "heroBadge": "Scout - Couche de données",
       "heroDescription": "Scout connecte vos plateformes de point de vente, de main-d'œuvre, d'inventaire, de réservation et de livraison en une seule couche de données propre - de sorte que chaque tableau de bord, alerte et recommandation commence par des données auxquelles vous pouvez faire confiance.",
       "heroPrimary": "Voir le scout en action",
       "heroSecondary": "Afficher toutes les intégrations",
@@ -166,7 +166,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Authentifier",
-          "description": "Connectez vos plateformes avec OAuth ou clé API. La plupart des intégrations prennent moins de 5 minutes – aucune ingénierie n'est requise."
+          "description": "Connectez vos plateformes avec OAuth ou clé API. La plupart des intégrations prennent moins de 5 minutes - aucune ingénierie n'est requise."
         },
         {
           "step": "2",
@@ -257,7 +257,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Autenticar",
-          "description": "Conecte suas plataformas com OAuth ou chave API. A maioria das integrações leva menos de 5 minutos – sem necessidade de engenharia."
+          "description": "Conecte suas plataformas com OAuth ou chave API. A maioria das integrações leva menos de 5 minutos - sem necessidade de engenharia."
         },
         {
           "step": "2",
@@ -276,7 +276,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Ver todos os produtos"
     },
     "nl": {
-      "heroBadge": "Scout — Gegevenslaag",
+      "heroBadge": "Scout - Gegevenslaag",
       "heroDescription": "Scout verbindt uw POS-, arbeids-, inventaris-, reserverings- en leveringsplatforms in één schone gegevenslaag, zodat elk dashboard, elke waarschuwing en elke aanbeveling begint met gegevens waarop u kunt vertrouwen.",
       "heroPrimary": "Zie Scout in actie",
       "heroSecondary": "Bekijk alle integraties",
@@ -367,8 +367,8 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Bekijk alle producten"
     },
     "de": {
-      "heroBadge": "Scout – Datenschicht",
-      "heroDescription": "Scout verbindet Ihre POS-, Arbeits-, Lager-, Reservierungs- und Lieferplattformen in einer sauberen Datenschicht – sodass jedes Dashboard, jede Warnung und jede Empfehlung mit vertrauenswürdigen Daten beginnt.",
+      "heroBadge": "Scout - Datenschicht",
+      "heroDescription": "Scout verbindet Ihre POS-, Arbeits-, Lager-, Reservierungs- und Lieferplattformen in einer sauberen Datenschicht - sodass jedes Dashboard, jede Warnung und jede Empfehlung mit vertrauenswürdigen Daten beginnt.",
       "heroPrimary": "Sehen Sie Scout in Aktion",
       "heroSecondary": "Alle Integrationen anzeigen",
       "featuresHeading": "Was Scout macht",
@@ -376,7 +376,7 @@ export const generatedLocalCopy = {
       "features": [
         {
           "title": "Über 30 vorgefertigte Anschlüsse",
-          "description": "POS, Arbeit, Inventar, Reservierungen, Lieferung, Marketing, Buchhaltung – Scout spricht mit den Systemen, die Sie bereits verwenden.",
+          "description": "POS, Arbeit, Inventar, Reservierungen, Lieferung, Marketing, Buchhaltung - Scout spricht mit den Systemen, die Sie bereits verwenden.",
           "icon": "Integration"
         },
         {
@@ -396,7 +396,7 @@ export const generatedLocalCopy = {
         }
       ],
       "integrationsHeading": "Verbundene Plattformen",
-      "integrationsDescription": "Die meisten Integrationen dauern weniger als 5 Minuten. OAuth- oder API-Schlüssel – authentifizieren und loslegen.",
+      "integrationsDescription": "Die meisten Integrationen dauern weniger als 5 Minuten. OAuth- oder API-Schlüssel - authentifizieren und loslegen.",
       "integrations": [
         {
           "category": "Verkaufsstelle",
@@ -439,7 +439,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Authentifizieren",
-          "description": "Verbinden Sie Ihre Plattformen mit OAuth oder API-Schlüssel. Die meisten Integrationen dauern weniger als 5 Minuten – es ist kein Engineering erforderlich."
+          "description": "Verbinden Sie Ihre Plattformen mit OAuth oder API-Schlüssel. Die meisten Integrationen dauern weniger als 5 Minuten - es ist kein Engineering erforderlich."
         },
         {
           "step": "2",
@@ -822,7 +822,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "सभी उत्पाद देखें"
     },
     "tr": {
-      "heroBadge": "Scout — Veri Katmanı",
+      "heroBadge": "Scout - Veri Katmanı",
       "heroDescription": "Scout, POS'unuzu, işçiliğinizi, envanterinizi, rezervasyonlarınızı ve teslimat platformlarınızı tek bir temiz veri katmanına bağlar; böylece her kontrol paneli, uyarı ve öneri güvenebileceğiniz verilerle başlar.",
       "heroPrimary": "Scout'u İş Başında Görün",
       "heroSecondary": "Tüm Entegrasyonları Görüntüle",
@@ -913,7 +913,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Tüm Ürünleri Görüntüle"
     },
     "zh-Hans": {
-      "heroBadge": "Scout — 数据层",
+      "heroBadge": "Scout - 数据层",
       "heroDescription": "Scout 将您的 POS、人工、库存、预订和交付平台连接到一个干净的数据层 - 因此每个仪表板、警报和建议都始于您可以信任的数据。",
       "heroPrimary": "查看侦察兵的实际行动",
       "heroSecondary": "查看所有集成",
@@ -1004,8 +1004,8 @@ export const generatedLocalCopy = {
       "ctaSecondary": "查看所有产品"
     },
     "pl": {
-      "heroBadge": "Scout — warstwa danych",
-      "heroDescription": "Scout łączy platformy POS, pracy, zapasów, rezerwacji i dostaw w jedną przejrzystą warstwę danych — dzięki czemu każdy pulpit nawigacyjny, alert i rekomendacja zaczynają się od danych, którym możesz zaufać.",
+      "heroBadge": "Scout - warstwa danych",
+      "heroDescription": "Scout łączy platformy POS, pracy, zapasów, rezerwacji i dostaw w jedną przejrzystą warstwę danych - dzięki czemu każdy pulpit nawigacyjny, alert i rekomendacja zaczynają się od danych, którym możesz zaufać.",
       "heroPrimary": "Zobacz Skauta w akcji",
       "heroSecondary": "Zobacz wszystkie integracje",
       "featuresHeading": "Co robi Skaut",
@@ -1076,7 +1076,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Uwierzytelnij",
-          "description": "Połącz swoje platformy za pomocą OAuth lub klucza API. Większość integracji zajmuje mniej niż 5 minut — nie jest wymagana żadna inżynieria."
+          "description": "Połącz swoje platformy za pomocą OAuth lub klucza API. Większość integracji zajmuje mniej niż 5 minut - nie jest wymagana żadna inżynieria."
         },
         {
           "step": "2",
@@ -1095,7 +1095,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Zobacz wszystkie produkty"
     },
     "ja": {
-      "heroBadge": "スカウト — データレイヤー",
+      "heroBadge": "スカウト - データレイヤー",
       "heroDescription": "Scout は、POS、労働力、在庫、予約、配送のプラットフォームを 1 つのクリーンなデータ レイヤーに接続します。そのため、すべてのダッシュボード、アラート、推奨事項は信頼できるデータから始まります。",
       "heroPrimary": "スカウトの活躍を見る",
       "heroSecondary": "すべての統合を表示",
@@ -1186,7 +1186,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "すべての製品を見る"
     },
     "id": {
-      "heroBadge": "Pramuka — Lapisan Data",
+      "heroBadge": "Pramuka - Lapisan Data",
       "heroDescription": "Scout menghubungkan POS, tenaga kerja, inventaris, reservasi, dan platform pengiriman Anda ke dalam satu lapisan data yang bersih - sehingga setiap dasbor, peringatan, dan rekomendasi dimulai dengan data yang dapat Anda percayai.",
       "heroPrimary": "Lihat Pramuka Beraksi",
       "heroSecondary": "Lihat Semua Integrasi",
@@ -1368,7 +1368,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "모든 제품 보기"
     },
     "ro": {
-      "heroBadge": "Scout — Stratul de date",
+      "heroBadge": "Scout - Stratul de date",
       "heroDescription": "Scout conectează platformele dvs. POS, forță de muncă, inventar, rezervări și livrare într-un singur strat de date curat - astfel încât fiecare tablou de bord, alertă și recomandare începe cu date în care puteți avea încredere.",
       "heroPrimary": "Vezi Scout în acțiune",
       "heroSecondary": "Vedeți toate integrările",
@@ -1550,7 +1550,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Xem tất cả sản phẩm"
     },
     "sv": {
-      "heroBadge": "Scout — Datalager",
+      "heroBadge": "Scout - Datalager",
       "heroDescription": "Scout kopplar ihop dina POS-, arbets-, lager-, reservations- och leveransplattformar till ett rent datalager - så varje instrumentpanel, varning och rekommendation börjar med data som du kan lita på.",
       "heroPrimary": "Se Scout in Action",
       "heroSecondary": "Visa alla integrationer",
@@ -1732,7 +1732,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "সমস্ত পণ্য দেখুন"
     },
     "th": {
-      "heroBadge": "ลูกเสือ — ชั้นข้อมูล",
+      "heroBadge": "ลูกเสือ - ชั้นข้อมูล",
       "heroDescription": "Scout เชื่อมต่อ POS, แรงงาน, สินค้าคงคลัง, การจอง และแพลตฟอร์มการจัดส่งของคุณไว้ในชั้นข้อมูลที่สะอาดเพียงชั้นเดียว ดังนั้นทุกแดชบอร์ด การแจ้งเตือน และคำแนะนำจะเริ่มต้นด้วยข้อมูลที่คุณเชื่อถือได้",
       "heroPrimary": "ดูการดำเนินการลูกเสือ",
       "heroSecondary": "ดูการบูรณาการทั้งหมด",
@@ -1823,7 +1823,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "ดูผลิตภัณฑ์ทั้งหมด"
     },
     "ms": {
-      "heroBadge": "Pengakap — Lapisan Data",
+      "heroBadge": "Pengakap - Lapisan Data",
       "heroDescription": "Scout menghubungkan platform POS, buruh, inventori, tempahan dan penghantaran anda ke dalam satu lapisan data yang bersih - jadi setiap papan pemuka, makluman dan pengesyoran bermula dengan data yang boleh anda percayai.",
       "heroPrimary": "Lihat Scout in Action",
       "heroSecondary": "Lihat Semua Integrasi",

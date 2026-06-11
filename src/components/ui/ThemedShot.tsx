@@ -3,9 +3,9 @@
 import Image from 'next/image';
 
 interface ThemedShotProps {
-  /** Dark-theme screenshot (the site default — eager-loaded) */
+  /** Dark-theme screenshot (the site default - eager-loaded) */
   dark: string;
-  /** Light-theme screenshot (lazy — only fetched if the visitor flips to light) */
+  /** Light-theme screenshot (lazy - only fetched if the visitor flips to light) */
   light: string;
   alt: string;
   width?: number;
@@ -24,7 +24,7 @@ interface ThemedShotProps {
 
 /**
  * Theme-aware screenshot. Renders both the dark and light captures and swaps
- * them purely in CSS off the `html.light` class that ThemeProvider toggles —
+ * them purely in CSS off the `html.light` class that ThemeProvider toggles -
  * so there is zero hydration flash and no JS race on theme change.
  *
  * Loading strategy: dark (site default) loads first; light is `loading="lazy"`
@@ -36,7 +36,7 @@ interface ThemedShotProps {
  *   <ThemedShot
  *     dark="/images/product/2026-fresh/intelligence-dark.png"
  *     light="/images/product/2026-fresh/intelligence.png"
- *     alt="Sundae Intelligence — ask your data anything in plain English"
+ *     alt="Sundae Intelligence - ask your data anything in plain English"
  *     width={1600} height={1000} priority
  *   />
  */
@@ -80,7 +80,7 @@ export function ThemedShot({
     <div
       className={`rounded-2xl overflow-hidden bg-[var(--navy-surface)] border border-[var(--warm-coral)]/20 [html.light_&]:border-[var(--warm-coral)]/30 shadow-[0_40px_80px_-30px_rgba(0,0,0,0.7),0_0_50px_-12px_rgba(255,92,77,0.18)] [html.light_&]:shadow-[0_30px_60px_-24px_rgba(194,65,12,0.28)] ring-1 ring-white/5 [html.light_&]:ring-black/5 ${className}`}
     >
-      {/* warm browser chrome — frames the (blue) product UI as "the app", on-brand */}
+      {/* warm browser chrome - frames the (blue) product UI as "the app", on-brand */}
       <div className="flex items-center gap-1.5 h-8 px-3.5 bg-[var(--navy-surface)] border-b border-[var(--border-default)]">
         <span className="w-2.5 h-2.5 rounded-full bg-[#FF5C4D]/85" />
         <span className="w-2.5 h-2.5 rounded-full bg-[#E9A24A]/85" />

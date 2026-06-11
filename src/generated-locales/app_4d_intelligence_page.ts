@@ -388,7 +388,7 @@ export const generatedLocalCopy = {
           "id": "2D",
           "title": "Real vs Plano",
           "subtitle": "O que deveria ter acontecido?",
-          "description": "Acrescente seus orçamentos, previsões e metas. Agora você pode ver a variação – você está adiantado ou atrasado no plano? Isto acrescenta contexto de planeamento, mas ainda não há inteligência de mercado ou poder preditivo.",
+          "description": "Acrescente seus orçamentos, previsões e metas. Agora você pode ver a variação - você está adiantado ou atrasado no plano? Isto acrescenta contexto de planeamento, mas ainda não há inteligência de mercado ou poder preditivo.",
           "examples": [
             "Orçamento versus variação real de vendas",
             "% de custo de mão de obra em relação às metas",
@@ -493,7 +493,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Camada de dados unificada",
-          "description": "O Scout integra mais de 25 sistemas – POS, mão de obra, estoque, orçamentos e fontes externas – em uma base inteligente.",
+          "description": "O Scout integra mais de 25 sistemas - POS, mão de obra, estoque, orçamentos e fontes externas - em uma base inteligente.",
           "icon": "integration"
         },
         {
@@ -558,7 +558,7 @@ export const generatedLocalCopy = {
           "id": "2D",
           "title": "Ist vs. Plan",
           "subtitle": "Was hätte passieren sollen?",
-          "description": "Fügen Sie Ihre Budgets, Prognosen und Ziele hinzu. Jetzt können Sie Abweichungen erkennen – liegen Sie vor oder hinter dem Plan? Dies fügt Planungskontext hinzu, aber immer noch keine Marktinformationen oder Vorhersagekraft.",
+          "description": "Fügen Sie Ihre Budgets, Prognosen und Ziele hinzu. Jetzt können Sie Abweichungen erkennen - liegen Sie vor oder hinter dem Plan? Dies fügt Planungskontext hinzu, aber immer noch keine Marktinformationen oder Vorhersagekraft.",
           "examples": [
             "Abweichung zwischen Budget und tatsächlichem Umsatz",
             "Arbeitskosten % im Vergleich zu den Zielen",
@@ -663,7 +663,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Einheitliche Datenschicht",
-          "description": "Scout integriert über 25 Systeme – POS, Personal, Inventar, Budgets und externe Quellen – in einer intelligenten Grundlage.",
+          "description": "Scout integriert über 25 Systeme - POS, Personal, Inventar, Budgets und externe Quellen - in einer intelligenten Grundlage.",
           "icon": "integration"
         },
         {
@@ -678,7 +678,7 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "Bereit für das Gesamtbild?",
-      "ctaDescription": "Sehen Sie 4D Intelligence mit Ihren Daten. Vergangenheit, Plan, Kollegen und Vorhersagen – alles in einer Ansicht.",
+      "ctaDescription": "Sehen Sie 4D Intelligence mit Ihren Daten. Vergangenheit, Plan, Kollegen und Vorhersagen - alles in einer Ansicht.",
       "ctaPrimary": "Buchen Sie eine Demo",
       "ctaSecondary": "Entdecken Sie die Architektur"
     },
@@ -1578,7 +1578,7 @@ export const generatedLocalCopy = {
           "id": "2D",
           "title": "Rzeczywisty kontra plan",
           "subtitle": "Co powinno się stać?",
-          "description": "Wprowadź swoje budżety, prognozy i cele. Teraz możesz zobaczyć rozbieżności – czy wyprzedzasz plan, czy opóźniasz go? Dodaje to kontekst planowania, ale nadal nie zapewnia wiedzy rynkowej ani mocy prognostycznej.",
+          "description": "Wprowadź swoje budżety, prognozy i cele. Teraz możesz zobaczyć rozbieżności - czy wyprzedzasz plan, czy opóźniasz go? Dodaje to kontekst planowania, ale nadal nie zapewnia wiedzy rynkowej ani mocy prognostycznej.",
           "examples": [
             "Budżet a rzeczywista rozbieżność sprzedaży",
             "% kosztów pracy w stosunku do celów",
@@ -1683,7 +1683,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Ujednolicona warstwa danych",
-          "description": "Scout integruje ponad 25 systemów – POS, siły roboczej, zapasów, budżetów i źródeł zewnętrznych – w jedną inteligentną podstawę.",
+          "description": "Scout integruje ponad 25 systemów - POS, siły roboczej, zapasów, budżetów i źródeł zewnętrznych - w jedną inteligentną podstawę.",
           "icon": "integration"
         },
         {
@@ -1698,7 +1698,7 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "Gotowy na pełny obraz?",
-      "ctaDescription": "Zobacz 4D Intelligence ze swoimi danymi. Przeszłość, plany, współpracownicy i prognozy – wszystko w jednym widoku.",
+      "ctaDescription": "Zobacz 4D Intelligence ze swoimi danymi. Przeszłość, plany, współpracownicy i prognozy - wszystko w jednym widoku.",
       "ctaPrimary": "Zarezerwuj wersję demonstracyjną",
       "ctaSecondary": "Poznaj architekturę"
     },

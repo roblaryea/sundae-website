@@ -110,8 +110,8 @@ export const generatedLocalCopy = {
       "ctaSecondary": "عرض كافة الوحدات"
     },
     "pt": {
-      "heroBadge": "Canvas — Mecanismo de visualização",
-      "heroDescription": "Uma fonte de verdade para cada equipe. O Canvas oferece painéis ao vivo para executivos, operações e finanças – sempre atualizados, sempre alinhados.",
+      "heroBadge": "Canvas - Mecanismo de visualização",
+      "heroDescription": "Uma fonte de verdade para cada equipe. O Canvas oferece painéis ao vivo para executivos, operações e finanças - sempre atualizados, sempre alinhados.",
       "heroPrimary": "Explorar tela",
       "heroSecondary": "Ver Arquitetura",
       "featuresHeading": "Criado para saber como as equipes realmente funcionam",
@@ -217,8 +217,8 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Ver todos os módulos"
     },
     "de": {
-      "heroBadge": "Canvas – Visualisierungs-Engine",
-      "heroDescription": "Eine Quelle der Wahrheit für jedes Team. Canvas liefert Live-Dashboards für Führungskräfte, Betrieb und Finanzen – immer aktuell, immer ausgerichtet.",
+      "heroBadge": "Canvas - Visualisierungs-Engine",
+      "heroDescription": "Eine Quelle der Wahrheit für jedes Team. Canvas liefert Live-Dashboards für Führungskräfte, Betrieb und Finanzen - immer aktuell, immer ausgerichtet.",
       "heroPrimary": "Entdecken Sie Canvas",
       "heroSecondary": "Architektur ansehen",
       "featuresHeading": "Entwickelt für die tatsächliche Arbeitsweise von Teams",
@@ -324,8 +324,8 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Alle Module anzeigen"
     },
     "fr": {
-      "heroBadge": "Canvas — Moteur de visualisation",
-      "heroDescription": "Une source de vérité pour chaque équipe. Canvas fournit des tableaux de bord en direct pour les dirigeants, les opérations et les finances – toujours à jour et toujours alignés.",
+      "heroBadge": "Canvas - Moteur de visualisation",
+      "heroDescription": "Une source de vérité pour chaque équipe. Canvas fournit des tableaux de bord en direct pour les dirigeants, les opérations et les finances - toujours à jour et toujours alignés.",
       "heroPrimary": "Explorer la toile",
       "heroSecondary": "Voir l'architecture",
       "featuresHeading": "Conçu pour le fonctionnement réel des équipes",
@@ -538,7 +538,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Ver todos los módulos"
     },
     "nl": {
-      "heroBadge": "Canvas — Visualisatie-engine",
+      "heroBadge": "Canvas - Visualisatie-engine",
       "heroDescription": "Eén bron van waarheid voor elk team. Canvas levert live dashboards voor leidinggevenden, operationele afdelingen en financiën - altijd actueel en altijd afgestemd.",
       "heroPrimary": "Ontdek Canvas",
       "heroSecondary": "Bekijk Architectuur",
@@ -645,7 +645,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Bekijk alle modules"
     },
     "ur": {
-      "heroBadge": "کینوس — ویژولائزیشن انجن",
+      "heroBadge": "کینوس - ویژولائزیشن انجن",
       "heroDescription": "ہر ٹیم کے لیے سچائی کا ایک ذریعہ۔ کینوس ایگزیکٹوز، آپریشنز، اور فنانس کے لیے لائیو ڈیش بورڈ فراہم کرتا ہے - ہمیشہ موجودہ، ہمیشہ منسلک۔",
       "heroPrimary": "کینوس کو دریافت کریں۔",
       "heroSecondary": "آرکیٹیکچر دیکھیں",
@@ -966,8 +966,8 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Visualizza tutti i moduli"
     },
     "pl": {
-      "heroBadge": "Canvas — silnik wizualizacji",
-      "heroDescription": "Jedno źródło prawdy dla każdego zespołu. Canvas udostępnia pulpity nawigacyjne na żywo dla kadry kierowniczej, operacji i finansów — zawsze aktualne i zawsze dopasowane.",
+      "heroBadge": "Canvas - silnik wizualizacji",
+      "heroDescription": "Jedno źródło prawdy dla każdego zespołu. Canvas udostępnia pulpity nawigacyjne na żywo dla kadry kierowniczej, operacji i finansów - zawsze aktualne i zawsze dopasowane.",
       "heroPrimary": "Przeglądaj Canvas",
       "heroSecondary": "Zobacz architekturę",
       "featuresHeading": "Stworzony z myślą o tym, jak faktycznie działają zespoły",
@@ -1073,7 +1073,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Wyświetl wszystkie moduły"
     },
     "tr": {
-      "heroBadge": "Kanvas — Görselleştirme Motoru",
+      "heroBadge": "Kanvas - Görselleştirme Motoru",
       "heroDescription": "Her takım için tek bir gerçek kaynağı. Canvas, yöneticiler, operasyonlar ve finans için canlı kontrol panelleri sunar; her zaman güncel, her zaman uyumlu.",
       "heroPrimary": "Canvas'ı keşfedin",
       "heroSecondary": "Mimariyi Görüntüle",
@@ -1180,7 +1180,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Tüm Modülleri Görüntüle"
     },
     "zh-Hans": {
-      "heroBadge": "Canvas — 可视化引擎",
+      "heroBadge": "Canvas - 可视化引擎",
       "heroDescription": "每个团队都有一个真相来源。 Canvas 为高管、运营和财务人员提供实时仪表板 - 始终保持最新、始终保持一致。",
       "heroPrimary": "探索画布",
       "heroSecondary": "查看架构",
@@ -1287,7 +1287,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "查看所有模块"
     },
     "ja": {
-      "heroBadge": "Canvas — 視覚化エンジン",
+      "heroBadge": "Canvas - 視覚化エンジン",
       "heroDescription": "すべてのチームに 1 つの真実の情報源。 Canvas は、経営幹部、運用担当者、財務担当者向けに、常に最新の、常に調整されたライブ ダッシュボードを提供します。",
       "heroPrimary": "キャンバスを探索する",
       "heroSecondary": "アーキテクチャを見る",
@@ -1394,7 +1394,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "すべてのモジュールを表示"
     },
     "id": {
-      "heroBadge": "Kanvas — Mesin Visualisasi",
+      "heroBadge": "Kanvas - Mesin Visualisasi",
       "heroDescription": "Satu sumber kebenaran untuk setiap tim. Canvas menghadirkan dasbor langsung untuk eksekutif, operasi, dan keuangan - selalu terkini, selalu selaras.",
       "heroPrimary": "Jelajahi Kanvas",
       "heroSecondary": "Lihat Arsitektur",
@@ -1501,7 +1501,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Lihat Semua Modul"
     },
     "ko": {
-      "heroBadge": "캔버스 — 시각화 엔진",
+      "heroBadge": "캔버스 - 시각화 엔진",
       "heroDescription": "모든 팀을 위한 하나의 정보 소스. Canvas는 임원, 운영 및 재무를 위한 실시간 대시보드를 제공하며 항상 최신 상태를 유지합니다.",
       "heroPrimary": "캔버스 탐색",
       "heroSecondary": "아키텍처 보기",
@@ -1608,7 +1608,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "모든 모듈 보기"
     },
     "sv": {
-      "heroBadge": "Canvas — Visualiseringsmotor",
+      "heroBadge": "Canvas - Visualiseringsmotor",
       "heroDescription": "En källa till sanning för varje lag. Canvas levererar live-dashboards för chefer, operationer och finanser - alltid aktuella, alltid i linje.",
       "heroPrimary": "Utforska Canvas",
       "heroSecondary": "Se arkitektur",
@@ -1715,7 +1715,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Visa alla moduler"
     },
     "vi": {
-      "heroBadge": "Canvas — Công cụ trực quan hóa",
+      "heroBadge": "Canvas - Công cụ trực quan hóa",
       "heroDescription": "Một nguồn sự thật cho mọi đội. Canvas cung cấp bảng thông tin trực tiếp cho các nhà điều hành, vận hành và tài chính - luôn cập nhật, luôn phù hợp.",
       "heroPrimary": "Khám phá Canvas",
       "heroSecondary": "Xem kiến trúc",
@@ -1822,7 +1822,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Xem tất cả các mô-đun"
     },
     "ro": {
-      "heroBadge": "Canvas — Motor de vizualizare",
+      "heroBadge": "Canvas - Motor de vizualizare",
       "heroDescription": "O sursă de adevăr pentru fiecare echipă. Canvas oferă tablouri de bord live pentru directori, operațiuni și finanțe - întotdeauna actuale, întotdeauna aliniate.",
       "heroPrimary": "Explorați Canvas",
       "heroSecondary": "Vedeți Arhitectura",
@@ -2143,7 +2143,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "ดูโมดูลทั้งหมด"
     },
     "ms": {
-      "heroBadge": "Kanvas — Enjin Visualisasi",
+      "heroBadge": "Kanvas - Enjin Visualisasi",
       "heroDescription": "Satu sumber kebenaran untuk setiap pasukan. Canvas menyampaikan papan pemuka langsung untuk eksekutif, operasi dan kewangan - sentiasa terkini, sentiasa sejajar.",
       "heroPrimary": "Terokai Kanvas",
       "heroSecondary": "Lihat Seni Bina",

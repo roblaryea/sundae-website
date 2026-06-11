@@ -124,7 +124,7 @@ const en: DiagnosticCatalogCopy = {
     helper:
       "Your personalized Sundae Operations Diagnostic is ready. We'll show it on the next screen and email a copy you can share with your team.",
     requiredNote:
-      "Fields marked * are required. Your information is captured once here and reused across the diagnostic CTAs — no second forms to fill.",
+      "Fields marked * are required. Your information is captured once here and reused across the diagnostic CTAs - no second forms to fill.",
     fields: {
       name: "Full name *",
       role: "Role / Title *",

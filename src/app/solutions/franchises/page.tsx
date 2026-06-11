@@ -27,16 +27,16 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     howTitle: "How Sundae works for franchise networks",
     howDescription: "Network-wide visibility, peer benchmarks, automated royalty reconciliation.",
     howSundaeHelps: [
-      { title: "Network benchmarks every franchisee can see", description: "Each owner-operator sees themselves ranked anonymously against peers — by sales, labor %, RevPASH, throughput. Healthy competition without exposing names.", product: "Benchmarks", icon: "benchmarking" },
-      { title: "Brand standards as live metrics", description: "Service speed, menu compliance, hygiene scores, guest satisfaction — measured continuously, not on the quarterly audit.", product: "Pulse + Insights", icon: "performance" },
-      { title: "Top-performer playbooks propagate", description: "When Site 12 lifts upsell rate 18%, Sundae surfaces the pattern so the rest of the network learns — without a memo.", product: "Cross-Intelligence", icon: "intelligence" },
+      { title: "Network benchmarks every franchisee can see", description: "Each owner-operator sees themselves ranked anonymously against peers - by sales, labor %, RevPASH, throughput. Healthy competition without exposing names.", product: "Benchmarks", icon: "benchmarking" },
+      { title: "Brand standards as live metrics", description: "Service speed, menu compliance, hygiene scores, guest satisfaction - measured continuously, not on the quarterly audit.", product: "Pulse + Insights", icon: "performance" },
+      { title: "Top-performer playbooks propagate", description: "When Site 12 lifts upsell rate 18%, Sundae surfaces the pattern so the rest of the network learns - without a memo.", product: "Cross-Intelligence", icon: "intelligence" },
       { title: "Royalty reconciliation, automated", description: "Net revenue computed from the same source across every franchisee. Royalty becomes a calculation, not a negotiation.", product: "Sundae Core", icon: "balance" },
     ],
     outcomesTitle: "What changes for the franchise system",
     outcomesDescription: "Stronger network, less friction, brand standards that hold.",
     outcomes: [
-      { title: "Franchisees compete on the right thing", description: "Anonymous benchmarks turn peer pressure into a positive flywheel — the network lifts together.", icon: "speed" },
-      { title: "Standards measured continuously", description: "You see which outlets drift on service, menu, or hygiene — without a quarterly audit.", icon: "performance" },
+      { title: "Franchisees compete on the right thing", description: "Anonymous benchmarks turn peer pressure into a positive flywheel - the network lifts together.", icon: "speed" },
+      { title: "Standards measured continuously", description: "You see which outlets drift on service, menu, or hygiene - without a quarterly audit.", icon: "performance" },
       { title: "Best practices propagate organically", description: "Cross-Intelligence finds what's working at the top performer and routes it to the rest.", icon: "owners" },
       { title: "Royalty disputes drop to near-zero", description: "One source of truth on net revenue. The conversation becomes coaching, not auditing.", icon: "support" },
     ],
@@ -63,16 +63,16 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     howTitle: "كيف يعمل Sundae لشبكات الامتياز",
     howDescription: "رؤية على مستوى الشبكة، معايير نظراء، تسوية إتاوة آلية.",
     howSundaeHelps: [
-      { title: "معايير شبكة يراها كل حامل امتياز", description: "كل مشغّل-مالك يرى نفسه مرتباً بشكل مجهول مقابل النظراء — بالمبيعات، نسبة العمالة، RevPASH، الإنتاجية.", product: "Benchmarks", icon: "benchmarking" },
-      { title: "معايير العلامة كمقاييس حية", description: "سرعة الخدمة، الالتزام بالقائمة، النظافة، رضا الضيف — مقاسة باستمرار لا في التدقيق الربعي.", product: "Pulse + Insights", icon: "performance" },
+      { title: "معايير شبكة يراها كل حامل امتياز", description: "كل مشغّل-مالك يرى نفسه مرتباً بشكل مجهول مقابل النظراء - بالمبيعات، نسبة العمالة، RevPASH، الإنتاجية.", product: "Benchmarks", icon: "benchmarking" },
+      { title: "معايير العلامة كمقاييس حية", description: "سرعة الخدمة، الالتزام بالقائمة، النظافة، رضا الضيف - مقاسة باستمرار لا في التدقيق الربعي.", product: "Pulse + Insights", icon: "performance" },
       { title: "كتب أفضل المشغّلين تنتشر", description: "حين يرفع الموقع 12 معدل البيع الإضافي 18%، Sundae يكشف النمط فتتعلم بقية الشبكة.", product: "Cross-Intelligence", icon: "intelligence" },
       { title: "تسوية إتاوة آلية", description: "صافي الإيرادات محسوب من نفس المصدر عبر كل حامل امتياز. الإتاوة حساب لا مفاوضة.", product: "Sundae Core", icon: "balance" },
     ],
     outcomesTitle: "ما يتغير لنظام الامتياز",
     outcomesDescription: "شبكة أقوى، احتكاك أقل، معايير علامة صامدة.",
     outcomes: [
-      { title: "حاملو الامتياز يتنافسون على الشيء الصحيح", description: "معايير مجهولة تحول ضغط النظراء إلى دولاب طيران إيجابي — الشبكة ترتفع معاً.", icon: "speed" },
-      { title: "معايير مقاسة باستمرار", description: "ترى أي منفذ ينحرف عن الخدمة أو القائمة أو النظافة — بدون تدقيق ربعي.", icon: "performance" },
+      { title: "حاملو الامتياز يتنافسون على الشيء الصحيح", description: "معايير مجهولة تحول ضغط النظراء إلى دولاب طيران إيجابي - الشبكة ترتفع معاً.", icon: "speed" },
+      { title: "معايير مقاسة باستمرار", description: "ترى أي منفذ ينحرف عن الخدمة أو القائمة أو النظافة - بدون تدقيق ربعي.", icon: "performance" },
       { title: "أفضل الممارسات تنتشر عضوياً", description: "Cross-Intelligence يجد ما يعمل عند الأفضل ويوجهه للبقية.", icon: "owners" },
       { title: "نزاعات الإتاوة تنخفض إلى الصفر تقريباً", description: "مصدر حقيقة واحد على صافي الإيرادات. المحادثة تصبح تدريباً لا تدقيقاً.", icon: "support" },
     ],
@@ -99,16 +99,16 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     howTitle: "Comment Sundae sert les réseaux de franchise",
     howDescription: "Visibilité réseau, benchmarks de pairs, rapprochement royalties automatisé.",
     howSundaeHelps: [
-      { title: "Benchmarks réseau visibles par chaque franchisé", description: "Chaque propriétaire-opérateur se voit classé anonymement contre ses pairs — ventes, % main-d'œuvre, RevPASH, débit.", product: "Benchmarks", icon: "benchmarking" },
-      { title: "Standards de marque en métriques live", description: "Rapidité de service, conformité menu, hygiène, satisfaction — mesurés en continu, pas à l'audit trimestriel.", product: "Pulse + Insights", icon: "performance" },
-      { title: "Playbooks des meilleurs se propagent", description: "Quand le Site 12 monte l'upsell de 18%, Sundae remonte le pattern pour que le réseau apprenne — sans memo.", product: "Cross-Intelligence", icon: "intelligence" },
+      { title: "Benchmarks réseau visibles par chaque franchisé", description: "Chaque propriétaire-opérateur se voit classé anonymement contre ses pairs - ventes, % main-d'œuvre, RevPASH, débit.", product: "Benchmarks", icon: "benchmarking" },
+      { title: "Standards de marque en métriques live", description: "Rapidité de service, conformité menu, hygiène, satisfaction - mesurés en continu, pas à l'audit trimestriel.", product: "Pulse + Insights", icon: "performance" },
+      { title: "Playbooks des meilleurs se propagent", description: "Quand le Site 12 monte l'upsell de 18%, Sundae remonte le pattern pour que le réseau apprenne - sans memo.", product: "Cross-Intelligence", icon: "intelligence" },
       { title: "Rapprochement royalties automatisé", description: "Revenu net calculé depuis la même source sur chaque franchisé. La royaltie devient un calcul, pas une négociation.", product: "Sundae Core", icon: "balance" },
     ],
     outcomesTitle: "Ce qui change pour le système franchise",
     outcomesDescription: "Réseau plus fort, moins de friction, standards qui tiennent.",
     outcomes: [
       { title: "Les franchisés se concurrencent sur ce qui compte", description: "Les benchmarks anonymes transforment la pression entre pairs en volant positif.", icon: "speed" },
-      { title: "Standards mesurés en continu", description: "Vous voyez quels points dérivent — sans audit trimestriel.", icon: "performance" },
+      { title: "Standards mesurés en continu", description: "Vous voyez quels points dérivent - sans audit trimestriel.", icon: "performance" },
       { title: "Les meilleures pratiques se propagent", description: "Cross-Intelligence trouve ce qui marche chez le meilleur et le route vers les autres.", icon: "owners" },
       { title: "Disputes royalties quasi nulles", description: "Une source de vérité sur le revenu net. La conversation devient coaching, pas audit.", icon: "support" },
     ],
@@ -135,16 +135,16 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     howTitle: "Cómo trabaja Sundae para redes de franquicia",
     howDescription: "Visibilidad de red, benchmarks de pares, conciliación de regalías automatizada.",
     howSundaeHelps: [
-      { title: "Benchmarks de red visibles para cada franquiciado", description: "Cada operador-propietario se ve clasificado anónimamente contra pares — ventas, % personal, RevPASH, throughput.", product: "Benchmarks", icon: "benchmarking" },
-      { title: "Estándares de marca como métricas en vivo", description: "Velocidad de servicio, cumplimiento de menú, higiene, satisfacción — medidos continuamente, no en auditoría trimestral.", product: "Pulse + Insights", icon: "performance" },
-      { title: "Playbooks de los mejores se propagan", description: "Cuando el Local 12 sube el upsell 18%, Sundae saca el patrón para que la red aprenda — sin memo.", product: "Cross-Intelligence", icon: "intelligence" },
+      { title: "Benchmarks de red visibles para cada franquiciado", description: "Cada operador-propietario se ve clasificado anónimamente contra pares - ventas, % personal, RevPASH, throughput.", product: "Benchmarks", icon: "benchmarking" },
+      { title: "Estándares de marca como métricas en vivo", description: "Velocidad de servicio, cumplimiento de menú, higiene, satisfacción - medidos continuamente, no en auditoría trimestral.", product: "Pulse + Insights", icon: "performance" },
+      { title: "Playbooks de los mejores se propagan", description: "Cuando el Local 12 sube el upsell 18%, Sundae saca el patrón para que la red aprenda - sin memo.", product: "Cross-Intelligence", icon: "intelligence" },
       { title: "Conciliación de regalías automatizada", description: "Ingreso neto calculado desde la misma fuente en cada franquiciado. La regalía es cálculo, no negociación.", product: "Sundae Core", icon: "balance" },
     ],
     outcomesTitle: "Qué cambia para el sistema de franquicia",
     outcomesDescription: "Red más fuerte, menos fricción, estándares que se sostienen.",
     outcomes: [
       { title: "Los franquiciados compiten en lo correcto", description: "Benchmarks anónimos convierten la presión de pares en un volante positivo.", icon: "speed" },
-      { title: "Estándares medidos continuamente", description: "Ves qué locales se desvían — sin auditoría trimestral.", icon: "performance" },
+      { title: "Estándares medidos continuamente", description: "Ves qué locales se desvían - sin auditoría trimestral.", icon: "performance" },
       { title: "Las mejores prácticas se propagan orgánicamente", description: "Cross-Intelligence encuentra lo que funciona en el mejor y lo enruta al resto.", icon: "owners" },
       { title: "Disputas de regalías casi cero", description: "Una fuente de verdad en ingreso neto. La conversación es coaching, no auditoría.", icon: "support" },
     ],
@@ -157,5 +157,5 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
 export default function FranchisesPage() {
   const { locale } = useWebsiteI18n();
   const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
-  return <SolutionPageLayout copy={copy} mockup={<ThemedShot framed priority width={1600} height={1000} dark="/images/product/2026-fresh/topology-franchise-health-dark.png" light="/images/product/2026-fresh/topology-franchise-health.png" alt="Franchise Health — per-unit composite health ranking across the network with revenue and margin" />} gallery={<SectionProductGallery defaultPersona="multi_loc" />} />;
+  return <SolutionPageLayout copy={copy} mockup={<ThemedShot framed priority width={1600} height={1000} dark="/images/product/2026-fresh/topology-franchise-health-dark.png" light="/images/product/2026-fresh/topology-franchise-health.png" alt="Franchise Health - per-unit composite health ranking across the network with revenue and margin" />} gallery={<SectionProductGallery defaultPersona="multi_loc" />} />;
 }

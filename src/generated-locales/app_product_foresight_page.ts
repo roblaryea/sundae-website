@@ -731,7 +731,7 @@ export const generatedLocalCopy = {
       "stats": [
         {
           "stat": "91%",
-          "label": "Precisão da previsão – melhorando semanalmente por meio da autocorreção",
+          "label": "Precisão da previsão - melhorando semanalmente por meio da autocorreção",
           "icon": "performance"
         },
         {
@@ -757,7 +757,7 @@ export const generatedLocalCopy = {
         {
           "step": "02",
           "title": "Projetos adiante",
-          "description": "Gera previsões para 17 métricas ao longo de 14 a 90 dias com faixas de confiança. Camadas em sinais externos – clima, eventos locais, atividade da concorrência – e mapas de dependências entre módulos.",
+          "description": "Gera previsões para 17 métricas ao longo de 14 a 90 dias com faixas de confiança. Camadas em sinais externos - clima, eventos locais, atividade da concorrência - e mapas de dependências entre módulos.",
           "icon": "forecasting"
         },
         {
@@ -773,7 +773,7 @@ export const generatedLocalCopy = {
       "components": [
         {
           "title": "Cronograma de previsão unificado",
-          "headline": "Receita, mão de obra, custo dos alimentos – uma visão prospectiva",
+          "headline": "Receita, mão de obra, custo dos alimentos - uma visão prospectiva",
           "description": "Veja os próximos 14, 30 ou 90 dias em 17 métricas de negócios em um único cronograma. As faixas de confiança diminuem à medida que a Foresight aprende seus padrões.",
           "capabilities": [
             "22 métricas: receita, coberturas, custo de mão de obra, custo de alimentação, lucro, SPLH, RevPASH e muito mais",
@@ -788,7 +788,7 @@ export const generatedLocalCopy = {
         {
           "title": "Construtor de cenários hipotéticos",
           "headline": "Teste as decisões antes de tomá-las",
-          "description": "Altere qualquer suposição – preços, pessoal, capacidade, gastos com marketing – e veja o impacto em cascata nas receitas, coberturas, custos e lucros.",
+          "description": "Altere qualquer suposição - preços, pessoal, capacidade, gastos com marketing - e veja o impacto em cascata nas receitas, coberturas, custos e lucros.",
           "capabilities": [
             "Ajuste as premissas de preços, capacidade, marketing, pessoal e custos",
             "Impacto em cascata na receita, mão de obra, custo dos alimentos e lucro",
@@ -801,7 +801,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Registro de Suposição",
-          "headline": "Cada suposição de previsão – visível, editável, auditável",
+          "headline": "Cada suposição de previsão - visível, editável, auditável",
           "description": "O Foresight detecta automaticamente 11 categorias de suposições de seus dados e permite substituir qualquer coisa enquanto rastreia o que mudou e por quê.",
           "capabilities": [
             "Suposições detectadas automaticamente a partir de padrões históricos",
@@ -902,7 +902,7 @@ export const generatedLocalCopy = {
           "perLocation": "US$ 24",
           "description": "Para operadores de múltiplas unidades com pilha completa de inteligência.",
           "enhancements": [
-            "Atualização de dados em 5 minutos – recalibração mais rápida",
+            "Atualização de dados em 5 minutos - recalibração mais rápida",
             "14.000 créditos de IA/mês - mais simulações",
             "Dados históricos de 3 anos - maior precisão",
             "150 consultas de previsão/dia",
@@ -1082,15 +1082,15 @@ export const generatedLocalCopy = {
     "de": {
       "heroBadge": "Prädiktive Intelligenz",
       "heroTitle": "Hören Sie auf zu reagieren. Beginnen Sie mit der Vorfreude.",
-      "heroDescription": "Vorausschauende Prognosen für alle wichtigen Kennzahlen – Umsatz, Arbeitsaufwand, Lebensmittelkosten, Gewinn. Konfidenzbänder, die sich mit der Zeit verschärfen, Was-wäre-wenn-Szenarien, die Sie testen können, bevor Sie sich verpflichten, und wöchentliche Briefings für Führungskräfte, die Ihnen sagen, was Sie tun müssen.",
+      "heroDescription": "Vorausschauende Prognosen für alle wichtigen Kennzahlen - Umsatz, Arbeitsaufwand, Lebensmittelkosten, Gewinn. Konfidenzbänder, die sich mit der Zeit verschärfen, Was-wäre-wenn-Szenarien, die Sie testen können, bevor Sie sich verpflichten, und wöchentliche Briefings für Führungskräfte, die Ihnen sagen, was Sie tun müssen.",
       "heroPrimary": "Buchen Sie eine Demo",
       "heroSecondary": "Siehe Preisrechner",
       "problemTitle": "Your P&L Tells You What Happened. Not What's Coming.",
-      "problemDescription": "Wenn die Zahlen des letzten Monats vorliegen, ist der Schaden angerichtet. Foresight blickt nicht nur zurück. Es projiziert vorwärts – mit den gleichen Daten, die Sie bereits haben.",
+      "problemDescription": "Wenn die Zahlen des letzten Monats vorliegen, ist der Schaden angerichtet. Foresight blickt nicht nur zurück. Es projiziert vorwärts - mit den gleichen Daten, die Sie bereits haben.",
       "stats": [
         {
           "stat": "91 %",
-          "label": "Prognosegenauigkeit – wöchentliche Verbesserung durch Selbstkorrektur",
+          "label": "Prognosegenauigkeit - wöchentliche Verbesserung durch Selbstkorrektur",
           "icon": "performance"
         },
         {
@@ -1110,13 +1110,13 @@ export const generatedLocalCopy = {
         {
           "step": "01",
           "title": "Lernt Ihre Muster",
-          "description": "Foresight erfasst Ihre historischen Daten und erkennt automatisch 11 Kategorien von Annahmen – Saisonalität, Tagesmischung, Kanalaufteilung, Preistrends, Personalmuster.",
+          "description": "Foresight erfasst Ihre historischen Daten und erkennt automatisch 11 Kategorien von Annahmen - Saisonalität, Tagesmischung, Kanalaufteilung, Preistrends, Personalmuster.",
           "icon": "intelligence"
         },
         {
           "step": "02",
           "title": "Projekte vorwärts",
-          "description": "Erstellt Prognosen für 17 Metriken über einen Zeitraum von 14 bis 90 Tagen mit Konfidenzbändern. Überlagert externe Signale – Wetter, lokale Ereignisse, Konkurrenzaktivitäten – und bildet modulübergreifende Abhängigkeiten ab.",
+          "description": "Erstellt Prognosen für 17 Metriken über einen Zeitraum von 14 bis 90 Tagen mit Konfidenzbändern. Überlagert externe Signale - Wetter, lokale Ereignisse, Konkurrenzaktivitäten - und bildet modulübergreifende Abhängigkeiten ab.",
           "icon": "forecasting"
         },
         {
@@ -1128,17 +1128,17 @@ export const generatedLocalCopy = {
       ],
       "componentsEyebrow": "17 UNTERSEITEN · 32 PROGNOSEBILDER",
       "componentsTitle": "Prognose. Simulieren. Knapp. Akt.",
-      "componentsDescription": "Von einheitlichen Prognosezeitplänen über Monte-Carlo-Risikoanalysen, prognosegesteuerte Planung und Einkauf bis hin zu Briefings für Führungskräfte – alle Tools, die ein Betreiber benötigt, um zukunftsorientierte Entscheidungen zu treffen.",
+      "componentsDescription": "Von einheitlichen Prognosezeitplänen über Monte-Carlo-Risikoanalysen, prognosegesteuerte Planung und Einkauf bis hin zu Briefings für Führungskräfte - alle Tools, die ein Betreiber benötigt, um zukunftsorientierte Entscheidungen zu treffen.",
       "components": [
         {
           "title": "Einheitliche Prognosezeitleiste",
-          "headline": "Umsatz, Arbeit, Lebensmittelkosten – eine zukunftsweisende Sichtweise",
+          "headline": "Umsatz, Arbeit, Lebensmittelkosten - eine zukunftsweisende Sichtweise",
           "description": "Sehen Sie sich die nächsten 14, 30 oder 90 Tage anhand von 17 Geschäftskennzahlen in einer einzigen Zeitleiste an. Die Vertrauensbänder schrumpfen, wenn Foresight Ihre Muster lernt.",
           "capabilities": [
             "22 Kennzahlen: Umsatz, Deckungen, Arbeitskosten, Lebensmittelkosten, Gewinn, SPLH, RevPASH und mehr",
-            "14–365-Tage-Horizonte mit adaptiven Konfidenzstufen",
+            "14-365-Tage-Horizonte mit adaptiven Konfidenzstufen",
             "Konfidenzbänder, die mit zunehmender Genauigkeit enger werden",
-            "Überlagerung von tatsächlichem und prognostiziertem Wert – täglich aktualisiert",
+            "Überlagerung von tatsächlichem und prognostiziertem Wert - täglich aktualisiert",
             "Granularität von 15-Minuten-Slots bis hin zu monatlichen Aggregaten"
           ],
           "icon": "forecasting",
@@ -1147,7 +1147,7 @@ export const generatedLocalCopy = {
         {
           "title": "Was-wäre-wenn-Szenario-Builder",
           "headline": "Testen Sie Entscheidungen, bevor Sie sie treffen",
-          "description": "Ändern Sie alle Annahmen – Preise, Personal, Kapazität, Marketingausgaben – und sehen Sie die kaskadierenden Auswirkungen auf Umsatz, Deckungen, Kosten und Gewinn.",
+          "description": "Ändern Sie alle Annahmen - Preise, Personal, Kapazität, Marketingausgaben - und sehen Sie die kaskadierenden Auswirkungen auf Umsatz, Deckungen, Kosten und Gewinn.",
           "capabilities": [
             "Passen Sie Preise, Kapazität, Marketing, Personal und Kostenannahmen an",
             "Kaskadierende Auswirkungen auf Umsatz, Arbeit, Lebensmittelkosten und Gewinn",
@@ -1160,7 +1160,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Annahmeregister",
-          "headline": "Jede Prognoseannahme – sichtbar, bearbeitbar, überprüfbar",
+          "headline": "Jede Prognoseannahme - sichtbar, bearbeitbar, überprüfbar",
           "description": "Foresight erkennt automatisch 11 Kategorien von Annahmen aus Ihren Daten und ermöglicht es Ihnen, alles zu überschreiben und gleichzeitig zu verfolgen, was sich geändert hat und warum.",
           "capabilities": [
             "Automatisch erkannte Annahmen aus historischen Mustern",
@@ -1200,7 +1200,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Executive Briefing",
-          "headline": "Ihre kommende Woche – zusammengefasst mit Aktionen",
+          "headline": "Ihre kommende Woche - zusammengefasst mit Aktionen",
           "description": "Jeden Montag um 6 Uhr erstellt Foresight ein Executive Briefing: eine Zusammenfassung der Foresight, wichtige Risiken, Chancen und priorisierte Maßnahmen.",
           "capabilities": [
             "Wöchentliches narratives Briefing, erstellt von Sundae Coach",
@@ -1214,7 +1214,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Externe Signalintegration",
-          "headline": "Wetter, Ereignisse, Teilnehmer, Feiertage – quantifiziert",
+          "headline": "Wetter, Ereignisse, Teilnehmer, Feiertage - quantifiziert",
           "description": "Foresight erfasst externe Signale und schätzt deren Umsatzauswirkungen anhand von Konfidenzwerten.",
           "capabilities": [
             "Wetterauswirkungsmodelle mit stündlicher Granularität",
@@ -1261,9 +1261,9 @@ export const generatedLocalCopy = {
           "perLocation": "24 $",
           "description": "Für Betreiber mehrerer Einheiten mit dem kompletten Intelligenz-Stack.",
           "enhancements": [
-            "5-minütige Datenaktualisierung – schnellere Neukalibrierung",
-            "14.000 KI-Credits/Monat – mehr Simulationen",
-            "3 Jahre historische Daten – höhere Genauigkeit",
+            "5-minütige Datenaktualisierung - schnellere Neukalibrierung",
+            "14.000 KI-Credits/Monat - mehr Simulationen",
+            "3 Jahre historische Daten - höhere Genauigkeit",
             "150 Prognoseabfragen/Tag",
             "Intelligenzmodi für Analysten und Strategen",
             "Native Multi-POS-Unterstützung"
@@ -1290,7 +1290,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Alle Module anzeigen",
       "mockups": {
         "timeline": {
-          "label": "Einheitliche Prognosezeitleiste – 30 Tage",
+          "label": "Einheitliche Prognosezeitleiste - 30 Tage",
           "forecastRev": "Prognose Rev",
           "confidence": "Vertrauen",
           "accuracy": "Genauigkeit",
@@ -1375,13 +1375,13 @@ export const generatedLocalCopy = {
           "rollingMape": "Rollende Karte",
           "bias": "Voreingenommenheit",
           "corrections": "Korrekturen",
-          "trend": "Rollender 12-Wochen-Genauigkeitstrend – wöchentliche Selbstkorrektur"
+          "trend": "Rollender 12-Wochen-Genauigkeitstrend - wöchentliche Selbstkorrektur"
         },
         "briefing": {
-          "label": "Executive Briefing – Wöchentlich",
+          "label": "Executive Briefing - Wöchentlich",
           "coach": "Sundae Coach",
           "week": "Woche vom 17. März",
-          "summary": "Der Umsatz wird auf 248.000 US-Dollar prognostiziert (+6,2 % gegenüber dem Vorjahr). Am Donnerstag besteht ein Abwärtsrisiko von 12 % – zwei Mitarbeiterurlaube überschneiden sich mit einer ausverkauften Veranstaltung nebenan. Gute Wochenendaussichten: Das lokale Food-Festival dürfte den Fußgängerverkehr um 15 % steigern.",
+          "summary": "Der Umsatz wird auf 248.000 US-Dollar prognostiziert (+6,2 % gegenüber dem Vorjahr). Am Donnerstag besteht ein Abwärtsrisiko von 12 % - zwei Mitarbeiterurlaube überschneiden sich mit einer ausverkauften Veranstaltung nebenan. Gute Wochenendaussichten: Das lokale Food-Festival dürfte den Fußgängerverkehr um 15 % steigern.",
           "actionItems": "Aktionselemente",
           "opportunity": "Gelegenheit",
           "risk": "Risiko"
@@ -1559,7 +1559,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Briefing exécutif",
-          "headline": "Votre semaine à venir – résumée avec des actions",
+          "headline": "Votre semaine à venir - résumée avec des actions",
           "description": "Chaque lundi à 6 heures du matin, Foresight génère un briefing exécutif : résumé des prévisions, principaux risques, opportunités et actions prioritaires.",
           "capabilities": [
             "Briefing narratif hebdomadaire généré par Sundae Coach",
@@ -1865,7 +1865,7 @@ export const generatedLocalCopy = {
         {
           "title": "What-If-scenariobouwer",
           "headline": "Test beslissingen voordat u ze neemt",
-          "description": "Verander elke veronderstelling – prijzen, personeel, capaciteit, marketinguitgaven – en zie de trapsgewijze impact op omzet, dekking, kosten en winst.",
+          "description": "Verander elke veronderstelling - prijzen, personeel, capaciteit, marketinguitgaven - en zie de trapsgewijze impact op omzet, dekking, kosten en winst.",
           "capabilities": [
             "Pas de aannames op het gebied van prijzen, capaciteit, marketing, personeel en kosten aan",
             "Trapsgewijze impact op omzet, arbeid, voedselkosten en winst",
@@ -3641,11 +3641,11 @@ export const generatedLocalCopy = {
       ],
       "componentsEyebrow": "17 个子页面 · 32 个预测图像",
       "componentsTitle": "预测。模拟。简短的。行为。",
-      "componentsDescription": "从统一的预测时间表到蒙特卡罗风险分析、预测驱动的调度和采购以及执行简报——运营商做出前瞻性决策所需的每一个工具。",
+      "componentsDescription": "从统一的预测时间表到蒙特卡罗风险分析、预测驱动的调度和采购以及执行简报--运营商做出前瞻性决策所需的每一个工具。",
       "components": [
         {
           "title": "统一预测时间表",
-          "headline": "收入、劳动力、食品成本——一种前瞻性观点",
+          "headline": "收入、劳动力、食品成本--一种前瞻性观点",
           "description": "在单个时间线中查看未来 14、30 或 90 天的 17 个业务指标。当 Foresight 了解你的模式时，置信区间会缩小。",
           "capabilities": [
             "22 个指标：收入、覆盖率、劳动力成本、食品成本、利润、SPLH、RevPASH 等",
@@ -3660,7 +3660,7 @@ export const generatedLocalCopy = {
         {
           "title": "假设情景生成器",
           "headline": "在做出决定之前先测试一下",
-          "description": "改变任何假设——定价、人员配置、容量、营销支出——并查看对收入、覆盖范围、成本和利润的级联影响。",
+          "description": "改变任何假设--定价、人员配置、容量、营销支出--并查看对收入、覆盖范围、成本和利润的级联影响。",
           "capabilities": [
             "调整定价、产能、营销、人员配置和成本假设",
             "对收入、劳动力、食品成本和利润的连锁影响",
@@ -3954,11 +3954,11 @@ export const generatedLocalCopy = {
     "pl": {
       "heroBadge": "Inteligencja prognostyczna",
       "heroTitle": "Przestań reagować. Zacznij przewidywać.",
-      "heroDescription": "Prognozy wybiegające w przyszłość dla każdego istotnego wskaźnika – przychodów, pracy, kosztów żywności, zysku. Przedziały ufności, które z czasem się zawężają, scenariusze typu „co by było, gdyby” można przetestować przed zatwierdzeniem oraz cotygodniowe odprawy dla kadry kierowniczej, które informują, gdzie należy działać.",
+      "heroDescription": "Prognozy wybiegające w przyszłość dla każdego istotnego wskaźnika - przychodów, pracy, kosztów żywności, zysku. Przedziały ufności, które z czasem się zawężają, scenariusze typu „co by było, gdyby” można przetestować przed zatwierdzeniem oraz cotygodniowe odprawy dla kadry kierowniczej, które informują, gdzie należy działać.",
       "heroPrimary": "Zarezerwuj wersję demonstracyjną",
       "heroSecondary": "Zobacz Kalkulator cen",
       "problemTitle": "Your P&L Tells You What Happened. Not What's Coming.",
-      "problemDescription": "Zanim pojawią się liczby z poprzedniego miesiąca, szkody zostaną już wyrządzone. Foresight nie patrzy tylko wstecz. Projektuje do przodu – z tymi samymi danymi, które już posiadasz.",
+      "problemDescription": "Zanim pojawią się liczby z poprzedniego miesiąca, szkody zostaną już wyrządzone. Foresight nie patrzy tylko wstecz. Projektuje do przodu - z tymi samymi danymi, które już posiadasz.",
       "stats": [
         {
           "stat": "91%",
@@ -3982,13 +3982,13 @@ export const generatedLocalCopy = {
         {
           "step": "01",
           "title": "Uczy się Twoich wzorców",
-          "description": "Foresight analizuje dane historyczne i automatycznie wykrywa 11 kategorii założeń – sezonowość, zestawienie pór dnia, podział kanałów, trendy cenowe, wzorce zatrudnienia.",
+          "description": "Foresight analizuje dane historyczne i automatycznie wykrywa 11 kategorii założeń - sezonowość, zestawienie pór dnia, podział kanałów, trendy cenowe, wzorce zatrudnienia.",
           "icon": "intelligence"
         },
         {
           "step": "02",
           "title": "Projekty do przodu",
-          "description": "Generuje prognozy dla 17 wskaźników na okres 14–90 dni z przedziałami ufności. Warstwy sygnałów zewnętrznych — pogoda, wydarzenia lokalne, aktywność konkurencji — i mapują zależności między modułami.",
+          "description": "Generuje prognozy dla 17 wskaźników na okres 14-90 dni z przedziałami ufności. Warstwy sygnałów zewnętrznych - pogoda, wydarzenia lokalne, aktywność konkurencji - i mapują zależności między modułami.",
           "icon": "forecasting"
         },
         {
@@ -4000,17 +4000,17 @@ export const generatedLocalCopy = {
       ],
       "componentsEyebrow": "17 PODSTRON · 32 WIZUALNE PROGNOZY",
       "componentsTitle": "Prognoza. Symulować. Krótki. Działać.",
-      "componentsDescription": "Od ujednoliconych harmonogramów prognoz po analizę ryzyka Monte Carlo, planowanie i zakupy oparte na prognozach oraz odprawy dla kadry kierowniczej – każde narzędzie potrzebne operatorowi do podejmowania przyszłościowych decyzji.",
+      "componentsDescription": "Od ujednoliconych harmonogramów prognoz po analizę ryzyka Monte Carlo, planowanie i zakupy oparte na prognozach oraz odprawy dla kadry kierowniczej - każde narzędzie potrzebne operatorowi do podejmowania przyszłościowych decyzji.",
       "components": [
         {
           "title": "Ujednolicony harmonogram prognozy",
-          "headline": "Przychody, praca, koszty żywności – spojrzenie w przyszłość",
+          "headline": "Przychody, praca, koszty żywności - spojrzenie w przyszłość",
           "description": "Zobacz następne 14, 30 lub 90 dni w oparciu o 17 wskaźników biznesowych na jednej osi czasu. Przedziały ufności kurczą się, gdy Foresight uczy się Twoich wzorców.",
           "capabilities": [
             "22 wskaźniki: przychody, pokrycie, koszty pracy, koszty żywności, zysk, SPLH, RevPASH i inne",
-            "Horyzonty 14–365 dni z adaptacyjnymi poziomami ufności",
+            "Horyzonty 14-365 dni z adaptacyjnymi poziomami ufności",
             "Pasma ufności zacieśniają się wraz ze wzrostem dokładności",
-            "Nakładka stanu faktycznego i prognozy – aktualizowana codziennie",
+            "Nakładka stanu faktycznego i prognozy - aktualizowana codziennie",
             "Szczegółowość od przedziałów 15-minutowych do agregatów miesięcznych"
           ],
           "icon": "forecasting",
@@ -4019,7 +4019,7 @@ export const generatedLocalCopy = {
         {
           "title": "Kreator scenariuszy „co by było, gdyby”.",
           "headline": "Testuj decyzje, zanim je podejmiesz",
-          "description": "Zmień dowolne założenia – ceny, personel, wydajność, wydatki marketingowe – i zobacz kaskadowy wpływ na przychody, pokrycie, koszty i zysk.",
+          "description": "Zmień dowolne założenia - ceny, personel, wydajność, wydatki marketingowe - i zobacz kaskadowy wpływ na przychody, pokrycie, koszty i zysk.",
           "capabilities": [
             "Dostosuj założenia dotyczące cen, wydajności, marketingu, personelu i kosztów",
             "Kaskadowy wpływ na przychody, siłę roboczą, koszty żywności i zysk",
@@ -4072,7 +4072,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Odprawa wykonawcza",
-          "headline": "Twój nadchodzący tydzień — podsumowanie działań",
+          "headline": "Twój nadchodzący tydzień - podsumowanie działań",
           "description": "W każdy poniedziałek o 6 rano Foresight generuje odprawę dla kadry kierowniczej: podsumowanie Foresight, kluczowe ryzyka, możliwości i priorytetowe elementy działań.",
           "capabilities": [
             "Cotygodniowa odprawa narracyjna generowana przez Sundae Coach",
@@ -4086,7 +4086,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Integracja sygnału zewnętrznego",
-          "headline": "Pogoda, wydarzenia, zawodnicy, święta – ilościowo",
+          "headline": "Pogoda, wydarzenia, zawodnicy, święta - ilościowo",
           "description": "Foresight wykorzystuje sygnały zewnętrzne i szacuje ich wpływ na przychody za pomocą wskaźników pewności.",
           "capabilities": [
             "Modele wpływu pogody z dokładnością godzinową",
@@ -4133,9 +4133,9 @@ export const generatedLocalCopy = {
           "perLocation": "24 dolarów",
           "description": "Dla operatorów wielojednostkowych z pełnym stosem inteligencji.",
           "enhancements": [
-            "Odświeżanie danych w 5 minut – szybsza rekalibracja",
-            "14 000 kredytów AI/mies. – więcej symulacji",
-            "Dane historyczne z 3 lat – większa dokładność",
+            "Odświeżanie danych w 5 minut - szybsza rekalibracja",
+            "14 000 kredytów AI/mies. - więcej symulacji",
+            "Dane historyczne z 3 lat - większa dokładność",
             "150 zapytań o prognozę dziennie",
             "Tryby inteligencji analityka i stratega",
             "Native multi-POS support"
@@ -4162,7 +4162,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Wyświetl wszystkie moduły",
       "mockups": {
         "timeline": {
-          "label": "Ujednolicony harmonogram prognozy — 30 dni",
+          "label": "Ujednolicony harmonogram prognozy - 30 dni",
           "forecastRev": "Prognoza ks",
           "confidence": "Zaufanie",
           "accuracy": "Dokładność",
@@ -4247,13 +4247,13 @@ export const generatedLocalCopy = {
           "rollingMape": "Tocząca się MAPA",
           "bias": "Stronniczość",
           "corrections": "Poprawki",
-          "trend": "Kroczący 12-tygodniowy trend dokładności – cotygodniowa samokorekta"
+          "trend": "Kroczący 12-tygodniowy trend dokładności - cotygodniowa samokorekta"
         },
         "briefing": {
-          "label": "Odprawa wykonawcza — cotygodniowa",
+          "label": "Odprawa wykonawcza - cotygodniowa",
           "coach": "Trener Sundae",
           "week": "Tydzień 17 marca",
-          "summary": "Prognozowane przychody na poziomie 248 tys. USD (+6,2% w porównaniu z poprzednimi). Czwartek wiąże się z 12% ryzykiem poniesienia straty – 2 urlopy pracowników pokrywają się z wyprzedanym wydarzeniem w sąsiednim lokalu. Perspektywy na weekend dobre: ​​oczekuje się, że lokalny festiwal żywności zwiększy ruch pieszy o 15%.",
+          "summary": "Prognozowane przychody na poziomie 248 tys. USD (+6,2% w porównaniu z poprzednimi). Czwartek wiąże się z 12% ryzykiem poniesienia straty - 2 urlopy pracowników pokrywają się z wyprzedanym wydarzeniem w sąsiednim lokalu. Perspektywy na weekend dobre: oczekuje się, że lokalny festiwal żywności zwiększy ruch pieszy o 15%.",
           "actionItems": "Przedmioty akcji",
           "opportunity": "Okazja",
           "risk": "Ryzyko"
@@ -4494,7 +4494,7 @@ export const generatedLocalCopy = {
           "enhancements": [
             "5 分間のデータ更新 - 再キャリブレーションの高速化",
             "14,000 AI クレジット/月 - より多くのシミュレーション",
-            "3 年間の履歴データ – より高い精度",
+            "3 年間の履歴データ - より高い精度",
             "150 予測クエリ/日",
             "アナリストおよびストラテジストのインテリジェンス モード",
             "ネイティブマルチPOSサポート"
@@ -4971,7 +4971,7 @@ export const generatedLocalCopy = {
           "label": "Tóm tắt điều hành - Hàng tuần",
           "coach": "Huấn luyện viên Sundae",
           "week": "Tuần 17 tháng 3",
-          "summary": "Doanh thu dự kiến là $248K (+6,2% so với trước đó). Thứ Năm có rủi ro giảm giá 12% - 2 kỳ nghỉ của nhân viên trùng với một sự kiện đã bán hết vé ở địa điểm bên cạnh. Triển vọng cuối tuần mạnh mẽ: lễ hội ẩm thực địa phương dự kiến ​​sẽ thúc đẩy lưu lượng khách đến cửa hàng +15%.",
+          "summary": "Doanh thu dự kiến là $248K (+6,2% so với trước đó). Thứ Năm có rủi ro giảm giá 12% - 2 kỳ nghỉ của nhân viên trùng với một sự kiện đã bán hết vé ở địa điểm bên cạnh. Triển vọng cuối tuần mạnh mẽ: lễ hội ẩm thực địa phương dự kiến sẽ thúc đẩy lưu lượng khách đến cửa hàng +15%.",
           "actionItems": "Mục hành động",
           "opportunity": "Cơ hội",
           "risk": "Rủi ro"
@@ -5096,7 +5096,7 @@ export const generatedLocalCopy = {
         {
           "title": "Pembuat Skenario Bagaimana-Jika",
           "headline": "Uji Keputusan Sebelum Anda Membuatnya",
-          "description": "Ubah asumsi apa pun – penetapan harga, staf, kapasitas, belanja pemasaran – dan lihat dampaknya terhadap pendapatan, perlindungan, biaya, dan keuntungan.",
+          "description": "Ubah asumsi apa pun - penetapan harga, staf, kapasitas, belanja pemasaran - dan lihat dampaknya terhadap pendapatan, perlindungan, biaya, dan keuntungan.",
           "capabilities": [
             "Sesuaikan asumsi harga, kapasitas, pemasaran, staf, dan biaya",
             "Dampak yang berjenjang pada pendapatan, tenaga kerja, biaya makanan, dan keuntungan",
@@ -5394,7 +5394,7 @@ export const generatedLocalCopy = {
       "heroPrimary": "Boka en demo",
       "heroSecondary": "Se priskalkylator",
       "problemTitle": "Din P&L berättar vad som hände. Inte vad som kommer.",
-      "problemDescription": "När förra månadens siffror landar är skadan skedd. Foresight ser inte bara bakåt. Den projicerar framåt – med samma data som du redan har.",
+      "problemDescription": "När förra månadens siffror landar är skadan skedd. Foresight ser inte bara bakåt. Den projicerar framåt - med samma data som du redan har.",
       "stats": [
         {
           "stat": "91 %",
@@ -5424,7 +5424,7 @@ export const generatedLocalCopy = {
         {
           "step": "02",
           "title": "Projekt framåt",
-          "description": "Genererar prognoser för 17 mätvärden över 14–90 dagar med konfidensband. Lager i externa signaler - väder, lokala evenemang, konkurrentaktivitet - och kartlägger beroenden mellan olika moduler.",
+          "description": "Genererar prognoser för 17 mätvärden över 14-90 dagar med konfidensband. Lager i externa signaler - väder, lokala evenemang, konkurrentaktivitet - och kartlägger beroenden mellan olika moduler.",
           "icon": "forecasting"
         },
         {
@@ -5508,7 +5508,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Executive Briefing",
-          "headline": "Din vecka framåt – sammanfattad med åtgärder",
+          "headline": "Din vecka framåt - sammanfattad med åtgärder",
           "description": "Varje måndag kl. 06.00 genererar Foresight en ledningsgenomgång: prognossammanfattning, viktiga risker, möjligheter och prioriterade åtgärder.",
           "capabilities": [
             "Veckovis narrativ genomgång genererad av Sundae Coach",
@@ -5569,7 +5569,7 @@ export const generatedLocalCopy = {
           "perLocation": "24 USD",
           "description": "För operatörer med flera enheter med hela intelligensstacken.",
           "enhancements": [
-            "5 minuters datauppdatering – snabbare omkalibrering",
+            "5 minuters datauppdatering - snabbare omkalibrering",
             "14 000 AI-poäng/månad - fler simuleringar",
             "3 års historiska data - djupare noggrannhet",
             "150 prognosfrågor/dag",

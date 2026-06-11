@@ -89,7 +89,7 @@ export default function HomeContent() {
     <MotionConfig reducedMotion="user">
       <>
         {/* ════════════════════════════════════════════════
-            1. HERO — Dark, category-defining
+            1. HERO - Dark, category-defining
         ════════════════════════════════════════════════ */}
         <section className="relative min-h-[90vh] flex flex-col justify-center pt-32 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
           {/* Background layers */}
@@ -104,7 +104,7 @@ export default function HomeContent() {
             <ElegantShape delay={0.4} width={300} height={80} rotate={-8} gradient="from-white/[0.025]" className="left-[5%] bottom-[5%]" />
           </div>
 
-          {/* Editorial backdrop — grounds the product hero in the restaurant world.
+          {/* Editorial backdrop - grounds the product hero in the restaurant world.
               Heavily darkened, blurred and vignetted into the page bg so it reads as
               atmosphere, never as a stock photo; the dashboard (z-20) floats over it. */}
           <div aria-hidden className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
@@ -124,7 +124,7 @@ export default function HomeContent() {
               sizes="100vw"
               className="object-cover object-center scale-105 opacity-[0.7] [html.light_&]:opacity-0"
             />
-            {/* warm grade — strong caramel/coral so the room reads unmistakably warm (V2 feel) */}
+            {/* warm grade - strong caramel/coral so the room reads unmistakably warm (V2 feel) */}
             <div
               className="absolute inset-0 mix-blend-soft-light opacity-90 [html.light_&]:opacity-0"
               style={{
@@ -132,7 +132,7 @@ export default function HomeContent() {
                   'radial-gradient(ellipse 85% 75% at 64% 30%, rgba(233,162,74,0.65) 0%, transparent 62%), radial-gradient(ellipse 70% 60% at 18% 88%, rgba(255,92,77,0.5) 0%, transparent 60%)',
               }}
             />
-            {/* soft radial scrim ONLY behind the centered copy — keeps the photo visible */}
+            {/* soft radial scrim ONLY behind the centered copy - keeps the photo visible */}
             <div
               className="absolute inset-0"
               style={{
@@ -229,7 +229,7 @@ export default function HomeContent() {
             </motion.p>
           </div>
 
-          {/* Hero CSS Mockup — Pulse Dashboard */}
+          {/* Hero CSS Mockup - Pulse Dashboard */}
           <motion.div
             className="max-w-5xl mx-auto mt-16 relative z-20 px-4"
             initial={{ opacity: 0, y: 40 }}
@@ -269,7 +269,7 @@ export default function HomeContent() {
         </section>
 
         {/* ════════════════════════════════════════════════
-            2. THE PROBLEM — Pain KPIs with animated numbers
+            2. THE PROBLEM - Pain KPIs with animated numbers
         ════════════════════════════════════════════════ */}
         <section ref={painRef} aria-labelledby="problem-heading" className="py-20 px-4 sm:px-6 lg:px-8 relative">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,rgba(255,84,80,0.04),transparent_60%)]" />
@@ -301,7 +301,7 @@ export default function HomeContent() {
         </section>
 
         {/* ════════════════════════════════════════════════
-            2a. HUMANIZED EDITORIAL BAND — the real restaurant world
+            2a. HUMANIZED EDITORIAL BAND - the real restaurant world
         ════════════════════════════════════════════════ */}
         <SectionEditorialBand
           src="/images/editorial/chef-sauce.jpg"
@@ -313,27 +313,27 @@ export default function HomeContent() {
         />
 
         {/* ════════════════════════════════════════════════
-            2b. FROM REPORTING LAG TO OPS SPEED — Old Way vs Sundae Way
+            2b. FROM REPORTING LAG TO OPS SPEED - Old Way vs Sundae Way
         ════════════════════════════════════════════════ */}
         <SectionOldWaySundaeWay />
 
         {/* ════════════════════════════════════════════════
-            2b-relief. CREAM RELIEF — early warm/light break so the dark run never builds
+            2b-relief. CREAM RELIEF - early warm/light break so the dark run never builds
         ════════════════════════════════════════════════ */}
         <SectionCreamRelief variant="decisions" />
 
         {/* ════════════════════════════════════════════════
-            2c. THE OLD TRADEOFF IS DEAD — Speed · Quality · Cost
+            2c. THE OLD TRADEOFF IS DEAD - Speed · Quality · Cost
         ════════════════════════════════════════════════ */}
         <SectionSpeedQualityCost />
 
         {/* ════════════════════════════════════════════════
-            2d. WHAT YOU RETIRE — Explicit BI-replacement positioning
+            2d. WHAT YOU RETIRE - Explicit BI-replacement positioning
         ════════════════════════════════════════════════ */}
         <SectionWhatYouRetire />
 
         {/* ════════════════════════════════════════════════
-            3. SIX LAYERS — Platform pillars
+            3. SIX LAYERS - Platform pillars
         ════════════════════════════════════════════════ */}
         <section aria-labelledby="platform-heading" className="py-20 px-4 sm:px-6 lg:px-8 relative">
           <div className="absolute inset-0 bg-mesh" />
@@ -396,7 +396,7 @@ export default function HomeContent() {
         </section>
 
         {/* ════════════════════════════════════════════════
-            3a-band. HUMAN MOMENT — the brigade on the line
+            3a-band. HUMAN MOMENT - the brigade on the line
         ════════════════════════════════════════════════ */}
         <SectionEditorialBand
           src="/images/editorial/kitchen-pass.jpg"
@@ -410,43 +410,43 @@ export default function HomeContent() {
         />
 
         {/* ════════════════════════════════════════════════
-            3b. BEYOND DASHBOARDS — Three Moats (Pulse / Watchtower / Benchmarks)
+            3b. BEYOND DASHBOARDS - Three Moats (Pulse / Watchtower / Benchmarks)
         ════════════════════════════════════════════════ */}
         <SectionThreeMoats />
 
         {/* ════════════════════════════════════════════════
-            3c. 4D INTELLIGENCE MODEL — scenario walk-through
+            3c. 4D INTELLIGENCE MODEL - scenario walk-through
         ════════════════════════════════════════════════ */}
         <Section4DScene />
 
         {/* ════════════════════════════════════════════════
-            4b-relief. SECOND CREAM BREAK — keeps warmth alive through the lower half
+            4b-relief. SECOND CREAM BREAK - keeps warmth alive through the lower half
         ════════════════════════════════════════════════ */}
         <SectionCreamRelief variant="truth" unify />
 
         {/* ════════════════════════════════════════════════
-            5. PERSONA SWITCHER — One Platform. Every Role. (6 personas, tabbed)
+            5. PERSONA SWITCHER - One Platform. Every Role. (6 personas, tabbed)
         ════════════════════════════════════════════════ */}
         <SectionPersonaSwitcher />
 
         {/* ════════════════════════════════════════════════
-            6. PROOF — Industry vs Sundae + capability stats
+            6. PROOF - Industry vs Sundae + capability stats
         ════════════════════════════════════════════════ */}
         <SectionProof />
 
         {/* ════════════════════════════════════════════════
-            6b. TRUST STRIP — Enterprise-grade signal before CTA
+            6b. TRUST STRIP - Enterprise-grade signal before CTA
         ════════════════════════════════════════════════ */}
         <SectionTrustStrip />
 
         {/* ════════════════════════════════════════════════
-            6c. PRODUCT PREVIEW — Slim 4-card teaser with lightbox
+            6c. PRODUCT PREVIEW - Slim 4-card teaser with lightbox
             (full per-product galleries live on the product pages)
         ════════════════════════════════════════════════ */}
         <SectionProductPreview />
 
         {/* ════════════════════════════════════════════════
-            6d. CLOSER — the floor, before we ask for the meeting (split)
+            6d. CLOSER - the floor, before we ask for the meeting (split)
         ════════════════════════════════════════════════ */}
         <SectionEditorialSplit
           src="/images/editorial/service-warm.jpg"
@@ -467,7 +467,7 @@ export default function HomeContent() {
             7. CLOSING CTA
         ════════════════════════════════════════════════ */}
         <section className="relative py-24 sm:py-28 px-4 sm:px-6 lg:px-8 overflow-hidden text-white">
-          {/* photographic base — the floor, warm-graded */}
+          {/* photographic base - the floor, warm-graded */}
           <Image
             src="/images/editorial/dining-night.jpg"
             alt=""
@@ -475,7 +475,7 @@ export default function HomeContent() {
             sizes="100vw"
             className="object-cover object-center brightness-[0.5]"
           />
-          {/* warm gradient — the bold "punctuation" jolt that closes the page */}
+          {/* warm gradient - the bold "punctuation" jolt that closes the page */}
           <div
             className="absolute inset-0 mix-blend-multiply"
             style={{ background: 'linear-gradient(135deg, rgba(233,162,74,0.95) 0%, rgba(255,92,77,0.95) 52%, rgba(224,62,72,0.96) 100%)' }}
@@ -486,7 +486,7 @@ export default function HomeContent() {
           />
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_80%_at_50%_0%,rgba(255,255,255,0.22),transparent_60%)]" />
 
-          {/* the mark as a layout device — bleeds into the corner, not a sticker */}
+          {/* the mark as a layout device - bleeds into the corner, not a sticker */}
           <div aria-hidden className="absolute -right-16 -bottom-24 w-[420px] sm:w-[520px] opacity-[0.12] text-white pointer-events-none">
             <SundaeWordmark className="w-full h-auto" />
           </div>
@@ -545,7 +545,7 @@ function LayerCard({ layer, icon, accent, learnMoreLabel, indexLabel, countLabel
       onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); cta(layer.href, `view_${layer.name.toLowerCase().replace(/\s+/g, "_")}`, { page: "/home", section: "platform" }); } }}
     >
       <div className="relative h-full p-6 rounded-2xl bg-white/[0.03] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:border-[rgba(255,92,77,0.25)] transition-all duration-300 hover:shadow-[0_0_30px_rgba(255,92,77,0.10)]">
-        {/* Layer count indicator — top right */}
+        {/* Layer count indicator - top right */}
         <div className="absolute top-4 right-5 text-[10px] font-mono tracking-wider text-[var(--text-muted)]/70">
           <span className="text-[var(--text-secondary)]">{indexLabel}</span>
           <span className="opacity-50"> {countLabel}</span>

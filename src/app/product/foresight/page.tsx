@@ -463,7 +463,7 @@ function BriefingCardMockup({ copy }: { copy: ForesightMockupCopy }) {
         <div className="p-3 rounded-lg bg-[rgba(28,71,255,0.06)] border border-[rgba(28,71,255,0.15)]">
           <div className="flex items-center gap-1.5 mb-2">
             <div className="w-5 h-5 rounded-full bg-[#1C47FF] flex items-center justify-center"><span className="text-[9px] text-white font-bold">S</span></div>
-            <span className="text-[10px] font-semibold text-[var(--text-secondary)]">{copy.briefing.coach} — {copy.briefing.week}</span>
+            <span className="text-[10px] font-semibold text-[var(--text-secondary)]">{copy.briefing.coach} - {copy.briefing.week}</span>
           </div>
           <p className="text-[9px] text-[var(--text-supporting)] leading-relaxed mb-2">{copy.briefing.summary}</p>
           <div className="space-y-1">
@@ -691,7 +691,7 @@ export default function ForesightPage() {
         </div>
       </section>
 
-      {/* Product gallery — Foresight surfaces in detail */}
+      {/* Product gallery - Foresight surfaces in detail */}
       <SectionProductGallery
         productFilter="/product/foresight"
         hideFilter

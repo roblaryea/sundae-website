@@ -12,7 +12,7 @@ import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_sign_in_page'
 
 /* ---------------------------------------------------------------
- Feature flags — flip when backend / SSO is ready
+ Feature flags - flip when backend / SSO is ready
  --------------------------------------------------------------- */
 const ENABLE_SSO = false;
 // TODO: When a real auth API exists, set this to the endpoint URL
@@ -105,7 +105,7 @@ async function handleSubmit(e: FormEvent) {
  setIsLoading(true);
 
  try {
- // Real auth endpoint — POST credentials, handle token/session
+ // Real auth endpoint - POST credentials, handle token/session
  const res = await fetch(AUTH_API_URL, {
  method: 'POST',
  headers: { 'Content-Type': 'application/json' },
@@ -133,7 +133,7 @@ async function handleSubmit(e: FormEvent) {
  return (
  <div className="min-h-screen flex flex-col lg:flex-row">
  {/* ================================================================
- LEFT — Branding Panel (desktop only)
+ LEFT - Branding Panel (desktop only)
  ================================================================ */}
  <div className="hidden lg:flex lg:w-[480px] xl:w-[520px] flex-shrink-0 relative overflow-hidden bg-[var(--navy-deep)]">
  {/* Subtle grid pattern */}
@@ -200,7 +200,7 @@ async function handleSubmit(e: FormEvent) {
  </div>
 
  {/* ================================================================
- RIGHT — Sign-in Form
+ RIGHT - Sign-in Form
  ================================================================ */}
  <div className="flex-1 flex flex-col min-h-screen bg-[var(--navy-deep)]">
  {/* Mobile header */}

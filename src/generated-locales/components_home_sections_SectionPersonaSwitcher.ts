@@ -18,7 +18,7 @@ export const generatedLocalCopy = {
           "pain": "Sie können nicht gleichzeitig in jedem Restaurant sein.",
           "painCopy": "Bis das wöchentliche Resümee eintrifft, ist die schlechte Schicht vorbei und die Marge verloren.",
           "outcome": "Echtzeit-Transparenz für jede Schicht.",
-          "outcomeCopy": "Ob Sie der Filialleiter vor Ort sind oder der COO von fünfzig Standorten – Pulse zeigt Ihnen, welcher Standort gerade jetzt Hilfe braucht: Tempo, Personal, Verluste, alles wird während der Schicht aktualisiert."
+          "outcomeCopy": "Ob Sie der Filialleiter vor Ort sind oder der COO von fünfzig Standorten - Pulse zeigt Ihnen, welcher Standort gerade jetzt Hilfe braucht: Tempo, Personal, Verluste, alles wird während der Schicht aktualisiert."
         },
         {
           "shortLabel": "CFO",
@@ -26,7 +26,7 @@ export const generatedLocalCopy = {
           "pain": "Drei Tage für den Abschluss der Bücher sind drei Tage zu viel.",
           "painCopy": "Variance shows up in last month's P&L. By then the costs have already been booked.",
           "outcome": "Margenabweichung, am Tag, an dem sie passiert.",
-          "outcomeCopy": "Arbeitskosten auf Schichtebene, Abweichungen bei den Lebensmittelkosten, Stornoraten — verbunden mit den Ereignissen, die sie verursacht haben. Schneller abschließen, mehr erklären."
+          "outcomeCopy": "Arbeitskosten auf Schichtebene, Abweichungen bei den Lebensmittelkosten, Stornoraten - verbunden mit den Ereignissen, die sie verursacht haben. Schneller abschließen, mehr erklären."
         },
         {
           "shortLabel": "CEO",
@@ -42,7 +42,7 @@ export const generatedLocalCopy = {
           "pain": "Bis Sie die Kampagne messen, ist das Budget bereits aufgebraucht.",
           "painCopy": "Der ROI kommt eine Woche zu spät. Der Plan für den nächsten Monat wird eingereicht, bevor die Daten für diesen Monat vorliegen.",
           "outcome": "Kampagnen-ROI, Tag für Tag.",
-          "outcomeCopy": "Verknüpfen Sie die Kampagnenausgaben mit den Gästen, dem durchschnittlichen Umsatz und der Nettomarge – innerhalb von 24 Stunden nach Aktivierung. Neu zuweisen, während die Kampagne noch läuft."
+          "outcomeCopy": "Verknüpfen Sie die Kampagnenausgaben mit den Gästen, dem durchschnittlichen Umsatz und der Nettomarge - innerhalb von 24 Stunden nach Aktivierung. Neu zuweisen, während die Kampagne noch läuft."
         },
         {
           "shortLabel": "HR / Personal",
@@ -50,7 +50,7 @@ export const generatedLocalCopy = {
           "pain": "Arbeitsabweichungen zeigen sich zu spät.",
           "painCopy": "Änderungen im Dienstplan erfolgen instinktiv. Bis der Bericht zurückkommt, ist die Überstundenvergütung bereits gezahlt.",
           "outcome": "Arbeitsabweichungen in Echtzeit.",
-          "outcomeCopy": "Pulse zeigt live den Arbeitsanteil nach Standort, die Produktivität der Mitarbeiter und das Risiko von Überstunden — nach Schicht, nicht nach Monat."
+          "outcomeCopy": "Pulse zeigt live den Arbeitsanteil nach Standort, die Produktivität der Mitarbeiter und das Risiko von Überstunden - nach Schicht, nicht nach Monat."
         },
         {
           "shortLabel": "Technologie",
@@ -58,7 +58,7 @@ export const generatedLocalCopy = {
           "pain": "Zwölf Anbieter-APIs. Fünf Datenformate. Null einheitliches Schema.",
           "painCopy": "Jede neue Dashboard-Anfrage wird zu einem sechs Wochen dauernden Integrationsprojekt.",
           "outcome": "Eine Plattform, zwölf Bereiche, null Aufwand.",
-          "outcomeCopy": "POS, Personal, Inventar, Lieferung, Buchhaltung, Reservierungen — vereint in 500 verwalteten Datenmodellen. RBAC, Prüfprotokolle, öffentliche API, Webhooks. Fertig konfiguriert."
+          "outcomeCopy": "POS, Personal, Inventar, Lieferung, Buchhaltung, Reservierungen - vereint in 500 verwalteten Datenmodellen. RBAC, Prüfprotokolle, öffentliche API, Webhooks. Fertig konfiguriert."
         }
       ]
     },
@@ -78,7 +78,7 @@ export const generatedLocalCopy = {
           "pain": "Vous ne pouvez pas être dans chaque restaurant en même temps.",
           "painCopy": "Au moment où le récapitulatif hebdomadaire arrive, le mauvais service est terminé et la marge est perdue.",
           "outcome": "Visibilité en temps réel sur chaque service.",
-          "outcomeCopy": "Que vous soyez le directeur sur le terrain ou le COO de cinquante points de vente, Pulse montre quel emplacement a besoin d'aide en ce moment — cadence, main-d'œuvre, fuites, le tout mis à jour pendant le service."
+          "outcomeCopy": "Que vous soyez le directeur sur le terrain ou le COO de cinquante points de vente, Pulse montre quel emplacement a besoin d'aide en ce moment - cadence, main-d'œuvre, fuites, le tout mis à jour pendant le service."
         },
         {
           "shortLabel": "CFO",
@@ -86,7 +86,7 @@ export const generatedLocalCopy = {
           "pain": "Trois jours pour clôturer les comptes, c'est trois jours de trop.",
           "painCopy": "La variance apparaît dans le P&L du mois dernier. D'ici là, les coûts ont déjà été enregistrés.",
           "outcome": "Variance de marge, le jour où cela se produit.",
-          "outcomeCopy": "Coût de main-d'œuvre au niveau du changement, variance de coût des aliments, taux d'annulation — liés aux événements qui les ont causés. Clôturez plus rapidement, expliquez davantage."
+          "outcomeCopy": "Coût de main-d'œuvre au niveau du changement, variance de coût des aliments, taux d'annulation - liés aux événements qui les ont causés. Clôturez plus rapidement, expliquez davantage."
         },
         {
           "shortLabel": "PDG",
@@ -102,7 +102,7 @@ export const generatedLocalCopy = {
           "pain": "Au moment où vous mesurez la campagne, le budget est déjà dépensé.",
           "painCopy": "Le ROI arrive une semaine en retard. Le plan du mois prochain est établi avant que les données de ce mois-ci ne soient disponibles.",
           "outcome": "ROI de la campagne, jour par jour.",
-          "outcomeCopy": "Liez les dépenses de la campagne aux couverts, au ticket moyen et à la marge nette — dans les 24 heures suivant l'activation. Réaffectez pendant que la campagne est encore en cours."
+          "outcomeCopy": "Liez les dépenses de la campagne aux couverts, au ticket moyen et à la marge nette - dans les 24 heures suivant l'activation. Réaffectez pendant que la campagne est encore en cours."
         },
         {
           "shortLabel": "RH / Personnel",
@@ -110,7 +110,7 @@ export const generatedLocalCopy = {
           "pain": "La variance de main-d'œuvre apparaît trop tard.",
           "painCopy": "Les changements d'horaire se font par instinct. Au moment où le rapport revient, les heures supplémentaires sont déjà payées.",
           "outcome": "Variance de main-d'œuvre, en temps réel.",
-          "outcomeCopy": "Pulse affiche en direct le pourcentage de main-d'œuvre par emplacement, la productivité des serveurs et le risque d'heures supplémentaires — par quart, pas par mois."
+          "outcomeCopy": "Pulse affiche en direct le pourcentage de main-d'œuvre par emplacement, la productivité des serveurs et le risque d'heures supplémentaires - par quart, pas par mois."
         },
         {
           "shortLabel": "Technologie",
@@ -118,7 +118,7 @@ export const generatedLocalCopy = {
           "pain": "Douze API de fournisseurs. Cinq formats de données. Aucun schéma unifié.",
           "painCopy": "Chaque nouvelle demande de tableau de bord devient un projet d'intégration de six semaines.",
           "outcome": "Une plateforme, douze domaines, aucune plomberie.",
-          "outcomeCopy": "POS, main-d'œuvre, inventaire, livraison, comptabilité, réservations — unifiés en 500 modèles de données régis. RBAC, pistes d'audit, API publique, webhooks. Prêt à l'emploi."
+          "outcomeCopy": "POS, main-d'œuvre, inventaire, livraison, comptabilité, réservations - unifiés en 500 modèles de données régis. RBAC, pistes d'audit, API publique, webhooks. Prêt à l'emploi."
         }
       ]
     },
@@ -138,7 +138,7 @@ export const generatedLocalCopy = {
           "pain": "Je kunt niet in elk restaurant tegelijk zijn.",
           "painCopy": "Tegen de tijd dat de wekelijkse samenvatting binnenkomt, is de slechte shift voorbij en is de marge verdwenen.",
           "outcome": "Live inzicht in elke shift.",
-          "outcomeCopy": "Of u nu de bedrijfsleider op de vloer bent of de COO over vijftig vestigingen — Pulse toont u welke locatie nu hulp nodig heeft: tempo, personeel, lekkage, allemaal bijgewerkt tijdens de shift."
+          "outcomeCopy": "Of u nu de bedrijfsleider op de vloer bent of de COO over vijftig vestigingen - Pulse toont u welke locatie nu hulp nodig heeft: tempo, personeel, lekkage, allemaal bijgewerkt tijdens de shift."
         },
         {
           "shortLabel": "CFO",
@@ -146,7 +146,7 @@ export const generatedLocalCopy = {
           "pain": "Drie dagen om de boeken te sluiten is drie dagen te veel.",
           "painCopy": "Afwijkingen verschijnen in de P&L van vorige maand. Tegen die tijd zijn de kosten al geboekt.",
           "outcome": "Marginale afwijking, de dag dat het gebeurt.",
-          "outcomeCopy": "Arbeidskosten per shift, afwijkingen in voedselkosten, annuleringen — verbonden met de gebeurtenissen die ze hebben veroorzaakt. Sneller afsluiten, meer uitleggen."
+          "outcomeCopy": "Arbeidskosten per shift, afwijkingen in voedselkosten, annuleringen - verbonden met de gebeurtenissen die ze hebben veroorzaakt. Sneller afsluiten, meer uitleggen."
         },
         {
           "shortLabel": "CEO",
@@ -162,7 +162,7 @@ export const generatedLocalCopy = {
           "pain": "Tegen de tijd dat je de campagne meet, is het budget al op.",
           "painCopy": "ROI komt een week te laat binnen. Het plan voor volgende maand gaat in voordat de gegevens van deze maand binnen zijn.",
           "outcome": "Campagne ROI, dag na dag.",
-          "outcomeCopy": "Koppel de campagne-uitgaven aan de dekkingen, gemiddelde besteding en nettomarge — binnen 24 uur na activatie. Herallocateer terwijl de campagne nog loopt."
+          "outcomeCopy": "Koppel de campagne-uitgaven aan de dekkingen, gemiddelde besteding en nettomarge - binnen 24 uur na activatie. Herallocateer terwijl de campagne nog loopt."
         },
         {
           "shortLabel": "HR / Personeel",
@@ -170,7 +170,7 @@ export const generatedLocalCopy = {
           "pain": "Arbeidsvariantie komt te laat aan.",
           "painCopy": "Roosterwijzigingen gebeuren op gevoel. Tegen de tijd dat het rapport terugkomt, is de overuren al betaald.",
           "outcome": "Arbeidsvariantie, op het moment zelf.",
-          "outcomeCopy": "Pulse toont live arbeids% per locatie, serverproductiviteit en risico op overuren — per shift, niet per maand."
+          "outcomeCopy": "Pulse toont live arbeids% per locatie, serverproductiviteit en risico op overuren - per shift, niet per maand."
         },
         {
           "shortLabel": "Technologie",
@@ -178,7 +178,7 @@ export const generatedLocalCopy = {
           "pain": "Twaalf leveranciers-API's. Vijf gegevensformaten. Geen uniforme schema.",
           "painCopy": "Elke nieuwe dashboardaanvraag wordt een integratieproject van zes weken.",
           "outcome": "Één platform, twaalf domeinen, geen gedoe.",
-          "outcomeCopy": "POS, arbeid, voorraad, levering, boekhouding, reserveringen — verenigd in 500 beheerde datamodellen. RBAC, auditsporen, openbare API, webhooks. Klaar voor gebruik."
+          "outcomeCopy": "POS, arbeid, voorraad, levering, boekhouding, reserveringen - verenigd in 500 beheerde datamodellen. RBAC, auditsporen, openbare API, webhooks. Klaar voor gebruik."
         }
       ]
     },
@@ -198,7 +198,7 @@ export const generatedLocalCopy = {
           "pain": "لا يمكنك أن تكون في كل مطعم في آن واحد.",
           "painCopy": "بحلول الوقت الذي تصل فيه ملخص الأسبوع، تكون الوردية السيئة قد انتهت وذهبت الهوامش.",
           "outcome": "رؤية حية لكل وردية.",
-          "outcomeCopy": "سواء كنت مدير الفرع على الأرض أو الرئيس التنفيذي للعمليات على خمسين فرعاً، يظهر لك Pulse أي موقع يحتاج إلى مساعدة الآن — وتيرة، عمالة، تسرب، كل ذلك يتم تحديثه خلال الوردية."
+          "outcomeCopy": "سواء كنت مدير الفرع على الأرض أو الرئيس التنفيذي للعمليات على خمسين فرعاً، يظهر لك Pulse أي موقع يحتاج إلى مساعدة الآن - وتيرة، عمالة، تسرب، كل ذلك يتم تحديثه خلال الوردية."
         },
         {
           "shortLabel": "المدير المالي",
@@ -230,7 +230,7 @@ export const generatedLocalCopy = {
           "pain": "تظهر فروقات العمل في وقت متأخر جداً.",
           "painCopy": "تحدث تغييرات الجدول بناءً على الحدس. بحلول الوقت الذي يعود فيه التقرير، يكون قد تم دفع ساعات العمل الإضافية بالفعل.",
           "outcome": "فروقات العمل، في الوقت الحالي.",
-          "outcomeCopy": "يظهر Pulse نسبة العمل الحية حسب الموقع، وإنتاجية الخادم، ومخاطر الساعات الإضافية — حسب الوردية، وليس حسب الشهر."
+          "outcomeCopy": "يظهر Pulse نسبة العمل الحية حسب الموقع، وإنتاجية الخادم، ومخاطر الساعات الإضافية - حسب الوردية، وليس حسب الشهر."
         },
         {
           "shortLabel": "تكنولوجيا",
@@ -266,7 +266,7 @@ export const generatedLocalCopy = {
           "pain": "Tres días para cerrar los libros son tres días de más.",
           "painCopy": "La variación aparece en el P&L del mes pasado. Para entonces, los costos ya han sido registrados.",
           "outcome": "Variación de margen, el día que ocurre.",
-          "outcomeCopy": "Costo laboral a nivel de turno, variación de costo de alimentos, tasas de anulación — conectados a los eventos que las causaron. Cierra más rápido, explica más."
+          "outcomeCopy": "Costo laboral a nivel de turno, variación de costo de alimentos, tasas de anulación - conectados a los eventos que las causaron. Cierra más rápido, explica más."
         },
         {
           "shortLabel": "CEO",
@@ -282,7 +282,7 @@ export const generatedLocalCopy = {
           "pain": "Para cuando midas la campaña, el presupuesto ya se ha gastado.",
           "painCopy": "El ROI llega una semana tarde. El plan del próximo mes se presenta antes de que lleguen los datos de este mes.",
           "outcome": "ROI de la campaña, día a día.",
-          "outcomeCopy": "Vincula el gasto de la campaña a las cubiertas, el cheque promedio y el margen neto — dentro de las 24 horas posteriores a la activación. Reasigna mientras la campaña aún está en marcha."
+          "outcomeCopy": "Vincula el gasto de la campaña a las cubiertas, el cheque promedio y el margen neto - dentro de las 24 horas posteriores a la activación. Reasigna mientras la campaña aún está en marcha."
         },
         {
           "shortLabel": "RRHH / Personas",
@@ -290,7 +290,7 @@ export const generatedLocalCopy = {
           "pain": "La variación laboral aparece demasiado tarde.",
           "painCopy": "Los cambios de horario ocurren por instinto. Para cuando el informe regresa, ya se ha pagado la OT.",
           "outcome": "Variación laboral, en el momento.",
-          "outcomeCopy": "Pulse muestra el % de mano de obra en vivo por ubicación, productividad del servidor y riesgo de horas extras — por turno, no por mes."
+          "outcomeCopy": "Pulse muestra el % de mano de obra en vivo por ubicación, productividad del servidor y riesgo de horas extras - por turno, no por mes."
         },
         {
           "shortLabel": "Tecnología",
@@ -298,7 +298,7 @@ export const generatedLocalCopy = {
           "pain": "Doce APIs de proveedores. Cinco formatos de datos. Cero esquema unificado.",
           "painCopy": "Cada nueva solicitud de panel se convierte en un proyecto de integración de seis semanas.",
           "outcome": "Una plataforma, doce dominios, cero plomería.",
-          "outcomeCopy": "POS, mano de obra, inventario, entrega, contabilidad, reservas — unificados en 500 modelos de datos gobernados. RBAC, registros de auditoría, API pública, webhooks. Listo para usar."
+          "outcomeCopy": "POS, mano de obra, inventario, entrega, contabilidad, reservas - unificados en 500 modelos de datos gobernados. RBAC, registros de auditoría, API pública, webhooks. Listo para usar."
         }
       ]
     },
@@ -318,7 +318,7 @@ export const generatedLocalCopy = {
           "pain": "Você não pode estar em todos os restaurantes ao mesmo tempo.",
           "painCopy": "Quando o resumo semanal chega, o turno ruim já acabou e a margem se foi.",
           "outcome": "Visibilidade em tempo real de cada turno.",
-          "outcomeCopy": "Seja você o gerente no salão ou o COO de cinquenta unidades, o Pulse mostra qual local precisa de ajuda agora — ritmo, mão de obra, vazamentos, tudo atualizado durante o turno."
+          "outcomeCopy": "Seja você o gerente no salão ou o COO de cinquenta unidades, o Pulse mostra qual local precisa de ajuda agora - ritmo, mão de obra, vazamentos, tudo atualizado durante o turno."
         },
         {
           "shortLabel": "CFO",
@@ -326,7 +326,7 @@ export const generatedLocalCopy = {
           "pain": "Três dias para fechar as contas é tempo demais.",
           "painCopy": "A variação aparece no P&L do mês passado. Até lá, os custos já foram registrados.",
           "outcome": "Variação de margem, no dia em que acontece.",
-          "outcomeCopy": "Custo de mão de obra por turno, variação de custo de alimentos, taxas de cancelamento — conectados aos eventos que os causaram. Feche mais rápido, explique mais."
+          "outcomeCopy": "Custo de mão de obra por turno, variação de custo de alimentos, taxas de cancelamento - conectados aos eventos que os causaram. Feche mais rápido, explique mais."
         },
         {
           "shortLabel": "CEO",
@@ -342,7 +342,7 @@ export const generatedLocalCopy = {
           "pain": "Quando você mede a campanha, o orçamento já foi gasto.",
           "painCopy": "O ROI chega uma semana atrasado. O plano do próximo mês é feito antes dos dados deste mês.",
           "outcome": "ROI da campanha, dia a dia.",
-          "outcomeCopy": "Vincule os gastos da campanha a coberturas, ticket médio e margem líquida — dentro de 24 horas após a ativação. Realoque enquanto a campanha ainda está em andamento."
+          "outcomeCopy": "Vincule os gastos da campanha a coberturas, ticket médio e margem líquida - dentro de 24 horas após a ativação. Realoque enquanto a campanha ainda está em andamento."
         },
         {
           "shortLabel": "RH / Pessoas",
@@ -350,7 +350,7 @@ export const generatedLocalCopy = {
           "pain": "A variação de mão de obra aparece tarde demais.",
           "painCopy": "Mudanças de horário acontecem por instinto. Quando o relatório chega, as horas extras já foram pagas.",
           "outcome": "Variação de mão de obra, no momento.",
-          "outcomeCopy": "O Pulse mostra a porcentagem de mão de obra ao vivo por localização, produtividade do servidor e risco de horas extras — por turno, não por mês."
+          "outcomeCopy": "O Pulse mostra a porcentagem de mão de obra ao vivo por localização, produtividade do servidor e risco de horas extras - por turno, não por mês."
         },
         {
           "shortLabel": "Tecnologia",
@@ -358,7 +358,7 @@ export const generatedLocalCopy = {
           "pain": "Doze APIs de fornecedores. Cinco formatos de dados. Nenhum esquema unificado.",
           "painCopy": "Cada nova solicitação de dashboard se torna um projeto de integração de seis semanas.",
           "outcome": "Uma plataforma, doze domínios, nenhuma complexidade.",
-          "outcomeCopy": "POS, mão de obra, inventário, entrega, contabilidade, reservas — unificados em 500 modelos de dados governados. RBAC, trilhas de auditoria, API pública, webhooks. Pronto para uso."
+          "outcomeCopy": "POS, mão de obra, inventário, entrega, contabilidade, reservas - unificados em 500 modelos de dados governados. RBAC, trilhas de auditoria, API pública, webhooks. Pronto para uso."
         }
       ]
     },
@@ -378,7 +378,7 @@ export const generatedLocalCopy = {
           "pain": "آپ ایک وقت میں ہر ریستوران میں نہیں ہو سکتے۔",
           "painCopy": "جب ہفتہ وار خلاصہ آتا ہے، تو خراب شفٹ ختم ہو چکی ہوتی ہے اور منافع ختم ہو چکا ہوتا ہے۔",
           "outcome": "ہر شفٹ میں براہ راست نظر۔",
-          "outcomeCopy": "چاہے آپ فلور پر جنرل مینیجر ہوں یا پچاس آؤٹ لیٹس کے سی او او، Pulse آپ کو دکھاتا ہے کہ کون سی جگہ کو ابھی مدد کی ضرورت ہے — رفتار، مزدوری، نقصان، سب شفٹ کے دوران اپ ڈیٹ ہوتے ہیں۔"
+          "outcomeCopy": "چاہے آپ فلور پر جنرل مینیجر ہوں یا پچاس آؤٹ لیٹس کے سی او او، Pulse آپ کو دکھاتا ہے کہ کون سی جگہ کو ابھی مدد کی ضرورت ہے - رفتار، مزدوری، نقصان، سب شفٹ کے دوران اپ ڈیٹ ہوتے ہیں۔"
         },
         {
           "shortLabel": "سی ایف او",
@@ -386,7 +386,7 @@ export const generatedLocalCopy = {
           "pain": "کتابیں بند کرنے کے لیے تین دن بہت زیادہ ہیں۔",
           "painCopy": "Variance shows up in last month's P&L. By then the costs have already been booked.",
           "outcome": "مارجن کی تبدیلی، جس دن یہ ہوتی ہے۔",
-          "outcomeCopy": "شفٹ کی سطح پر مزدوری کی لاگت، خوراک کی لاگت کی تبدیلی، خالی نرخ — ان واقعات سے جڑے ہوئے جو انہیں پیدا کرتے ہیں۔ تیز بند کریں، مزید وضاحت کریں۔"
+          "outcomeCopy": "شفٹ کی سطح پر مزدوری کی لاگت، خوراک کی لاگت کی تبدیلی، خالی نرخ - ان واقعات سے جڑے ہوئے جو انہیں پیدا کرتے ہیں۔ تیز بند کریں، مزید وضاحت کریں۔"
         },
         {
           "shortLabel": "سی ای او",
@@ -402,7 +402,7 @@ export const generatedLocalCopy = {
           "pain": "جب آپ مہم کی پیمائش کرتے ہیں، بجٹ پہلے ہی خرچ ہو چکا ہوتا ہے۔",
           "painCopy": "ROI ایک ہفتہ دیر سے آتا ہے۔ اگلے مہینے کا منصوبہ اس مہینے کے ڈیٹا سے پہلے آتا ہے۔",
           "outcome": "مہم کا ROI، دن بہ دن۔",
-          "outcomeCopy": "مہم کے خرچ کو کوریج، اوسط چیک، اور خالص مارجن سے جوڑیں — چالک کے 24 گھنٹوں کے اندر۔ جب تک مہم چل رہی ہو دوبارہ مختص کریں۔"
+          "outcomeCopy": "مہم کے خرچ کو کوریج، اوسط چیک، اور خالص مارجن سے جوڑیں - چالک کے 24 گھنٹوں کے اندر۔ جب تک مہم چل رہی ہو دوبارہ مختص کریں۔"
         },
         {
           "shortLabel": "ایچ آر / لوگ",
@@ -410,7 +410,7 @@ export const generatedLocalCopy = {
           "pain": "محنت کی تبدیلی بہت دیر سے ظاہر ہوتی ہے۔",
           "painCopy": "شیڈول میں تبدیلیاں بدیہی طور پر ہوتی ہیں۔ جب تک رپورٹ واپس آتی ہے، اوور ٹائم پہلے ہی ادا کیا جا چکا ہوتا ہے۔",
           "outcome": "محنت کی تبدیلی، اس لمحے میں۔",
-          "outcomeCopy": "Pulse ہر مقام، سرور کی پیداوار، اور اوور ٹائم کے خطرے کے لحاظ سے براہ راست محنت کی فیصد دکھاتا ہے — شفٹ کے لحاظ سے، مہینے کے لحاظ سے نہیں۔"
+          "outcomeCopy": "Pulse ہر مقام، سرور کی پیداوار، اور اوور ٹائم کے خطرے کے لحاظ سے براہ راست محنت کی فیصد دکھاتا ہے - شفٹ کے لحاظ سے، مہینے کے لحاظ سے نہیں۔"
         },
         {
           "shortLabel": "ٹیک",
@@ -418,7 +418,7 @@ export const generatedLocalCopy = {
           "pain": "بارہ وینڈر APIs۔ پانچ ڈیٹا فارمیٹس۔ صفر متحد اسکیمہ۔",
           "painCopy": "ہر نئے ڈیش بورڈ کی درخواست چھ ہفتوں کے انضمام کے پروجیکٹ میں تبدیل ہو جاتی ہے۔",
           "outcome": "ایک پلیٹ فارم، بارہ ڈومین، صفر پلمبنگ۔",
-          "outcomeCopy": "POS، محنت، انوینٹری، ترسیل، اکاؤنٹنگ، ریزرویشنز — 500 منظم کردہ ڈیٹا ماڈلز میں متحد۔ RBAC، آڈٹ ٹریلز، عوامی API، ویب ہکس۔ باکس سے باہر۔"
+          "outcomeCopy": "POS، محنت، انوینٹری، ترسیل، اکاؤنٹنگ، ریزرویشنز - 500 منظم کردہ ڈیٹا ماڈلز میں متحد۔ RBAC، آڈٹ ٹریلز، عوامی API، ویب ہکس۔ باکس سے باہر۔"
         }
       ]
     },
@@ -438,7 +438,7 @@ export const generatedLocalCopy = {
           "pain": "आप एक समय में हर रेस्तरां में नहीं हो सकते।",
           "painCopy": "जब साप्ताहिक पुनर्कथन आता है, तब खराब शिफ्ट खत्म हो चुकी होती है और लाभ चला जाता है।",
           "outcome": "हर शिफ्ट में लाइव दृश्यता।",
-          "outcomeCopy": "चाहे आप फ्लोर पर जीएम हों या पचास आउटलेट्स के सीओओ, Pulse आपको दिखाता है कि अभी किस लोकेशन को मदद की ज़रूरत है — गति, श्रम, रिसाव, सभी शिफ्ट के दौरान अपडेट होते हैं।"
+          "outcomeCopy": "चाहे आप फ्लोर पर जीएम हों या पचास आउटलेट्स के सीओओ, Pulse आपको दिखाता है कि अभी किस लोकेशन को मदद की ज़रूरत है - गति, श्रम, रिसाव, सभी शिफ्ट के दौरान अपडेट होते हैं।"
         },
         {
           "shortLabel": "सीएफओ",
@@ -478,7 +478,7 @@ export const generatedLocalCopy = {
           "pain": "बारह विक्रेता API। पांच डेटा प्रारूप। शून्य एकीकृत स्कीमा।",
           "painCopy": "हर नए डैशबोर्ड अनुरोध एक छह-सप्ताह का एकीकरण प्रोजेक्ट बन जाता है।",
           "outcome": "एक प्लेटफ़ॉर्म, बारह डोमेन, शून्य प्लंबिंग।",
-          "outcomeCopy": "POS, श्रम, इन्वेंटरी, डिलीवरी, लेखांकन, आरक्षण — 500 शासित डेटा मॉडल में एकीकृत। RBAC, ऑडिट ट्रेल्स, सार्वजनिक API, वेबहुक। बॉक्स से बाहर।"
+          "outcomeCopy": "POS, श्रम, इन्वेंटरी, डिलीवरी, लेखांकन, आरक्षण - 500 शासित डेटा मॉडल में एकीकृत। RBAC, ऑडिट ट्रेल्स, सार्वजनिक API, वेबहुक। बॉक्स से बाहर।"
         }
       ]
     },
@@ -498,7 +498,7 @@ export const generatedLocalCopy = {
           "pain": "Her restoranda aynı anda olamazsınız.",
           "painCopy": "Haftalık özet geldiğinde, kötü vardiya sona ermiş ve kar gitmiştir.",
           "outcome": "Her vardiya için canlı görünürlük.",
-          "outcomeCopy": "İster sahadaki müdür olun ister elli şubenin COO'su, Pulse hangi lokasyonun şu anda yardıma ihtiyacı olduğunu gösterir — tempo, iş gücü, kayıplar, hepsi vardiya boyunca güncellenir."
+          "outcomeCopy": "İster sahadaki müdür olun ister elli şubenin COO'su, Pulse hangi lokasyonun şu anda yardıma ihtiyacı olduğunu gösterir - tempo, iş gücü, kayıplar, hepsi vardiya boyunca güncellenir."
         },
         {
           "shortLabel": "CFO",
@@ -506,7 +506,7 @@ export const generatedLocalCopy = {
           "pain": "Defterleri kapatmak için üç gün, çok fazla bir süre.",
           "painCopy": "Sapma, geçen ayın P&L'inde ortaya çıkıyor. O zamana kadar maliyetler zaten kaydedilmiş oluyor.",
           "outcome": "Marj sapması, gerçekleştiği gün.",
-          "outcomeCopy": "Seviye bazında iş gücü maliyeti, gıda maliyeti sapması, iptal oranları — bunlara neden olan olaylarla bağlantılı. Daha hızlı kapatın, daha fazla açıklama yapın."
+          "outcomeCopy": "Seviye bazında iş gücü maliyeti, gıda maliyeti sapması, iptal oranları - bunlara neden olan olaylarla bağlantılı. Daha hızlı kapatın, daha fazla açıklama yapın."
         },
         {
           "shortLabel": "CEO",
@@ -522,7 +522,7 @@ export const generatedLocalCopy = {
           "pain": "Kampanyayı ölçtüğünüzde, bütçe çoktan harcanmış oluyor.",
           "painCopy": "ROI bir hafta gecikmeli geliyor. Gelecek ayın planı, bu ayın verileri gelmeden önce devreye giriyor.",
           "outcome": "Kampanya ROI'si, gün gün.",
-          "outcomeCopy": "Kampanya harcamasını, kapama sayısına, ortalama kontrol ve net marja bağlayın — aktivasyondan itibaren 24 saat içinde. Kampanya devam ederken yeniden tahsis edin."
+          "outcomeCopy": "Kampanya harcamasını, kapama sayısına, ortalama kontrol ve net marja bağlayın - aktivasyondan itibaren 24 saat içinde. Kampanya devam ederken yeniden tahsis edin."
         },
         {
           "shortLabel": "İK / İnsan Kaynakları",
@@ -530,7 +530,7 @@ export const generatedLocalCopy = {
           "pain": "İş gücü varyansı çok geç ortaya çıkıyor.",
           "painCopy": "Program değişiklikleri içgüdüyle gerçekleşiyor. Rapor geri geldiğinde, fazla mesai zaten ödenmiş oluyor.",
           "outcome": "Anlık iş gücü varyansı.",
-          "outcomeCopy": "Pulse, lokasyona göre canlı iş gücü yüzdesini, sunucu verimliliğini ve fazla mesai riskini — vardiya bazında, ay bazında değil — gösterir."
+          "outcomeCopy": "Pulse, lokasyona göre canlı iş gücü yüzdesini, sunucu verimliliğini ve fazla mesai riskini - vardiya bazında, ay bazında değil - gösterir."
         },
         {
           "shortLabel": "Teknoloji",
@@ -538,7 +538,7 @@ export const generatedLocalCopy = {
           "pain": "On iki satıcı API'si. Beş veri formatı. Sıfır birleşik şema.",
           "painCopy": "Her yeni gösterge paneli talebi altı haftalık bir entegrasyon projesine dönüşüyor.",
           "outcome": "Bir platform, on iki alan, sıfır altyapı.",
-          "outcomeCopy": "POS, iş gücü, envanter, teslimat, muhasebe, rezervasyon — 500 yönetilen veri modeline birleştirildi. RBAC, denetim izleri, genel API, web kancaları. Kutudan çıktığı gibi."
+          "outcomeCopy": "POS, iş gücü, envanter, teslimat, muhasebe, rezervasyon - 500 yönetilen veri modeline birleştirildi. RBAC, denetim izleri, genel API, web kancaları. Kutudan çıktığı gibi."
         }
       ]
     },
@@ -558,7 +558,7 @@ export const generatedLocalCopy = {
           "pain": "Non puoi essere in ogni ristorante contemporaneamente.",
           "painCopy": "Quando arriva il riepilogo settimanale, il turno problematico è già finito e il margine è andato.",
           "outcome": "Visibilità in tempo reale su ogni turno.",
-          "outcomeCopy": "Che tu sia il direttore in sala o il COO di cinquanta punti vendita, Pulse ti mostra quale sede ha bisogno di aiuto proprio adesso — ritmo, personale, perdite, tutto aggiornato durante il turno."
+          "outcomeCopy": "Che tu sia il direttore in sala o il COO di cinquanta punti vendita, Pulse ti mostra quale sede ha bisogno di aiuto proprio adesso - ritmo, personale, perdite, tutto aggiornato durante il turno."
         },
         {
           "shortLabel": "CFO",
@@ -566,7 +566,7 @@ export const generatedLocalCopy = {
           "pain": "Tre giorni per chiudere i conti sono tre giorni di troppo.",
           "painCopy": "La variazione appare nel P&L del mese scorso. A quel punto i costi sono già stati registrati.",
           "outcome": "Variazione del margine, il giorno in cui accade.",
-          "outcomeCopy": "Costo del lavoro a livello di turno, variazione del costo del cibo, tassi di annullamento — collegati agli eventi che li hanno causati. Chiudi più velocemente, spiega di più."
+          "outcomeCopy": "Costo del lavoro a livello di turno, variazione del costo del cibo, tassi di annullamento - collegati agli eventi che li hanno causati. Chiudi più velocemente, spiega di più."
         },
         {
           "shortLabel": "CEO",
@@ -582,7 +582,7 @@ export const generatedLocalCopy = {
           "pain": "Quando misuri la campagna, il budget è già esaurito.",
           "painCopy": "Il ROI arriva con una settimana di ritardo. Il piano del mese prossimo viene inviato prima dei dati di questo mese.",
           "outcome": "ROI della campagna, giorno per giorno.",
-          "outcomeCopy": "Collega la spesa della campagna a coperti, spesa media e margine netto — entro 24 ore dall'attivazione. Riassegna mentre la campagna è ancora in corso."
+          "outcomeCopy": "Collega la spesa della campagna a coperti, spesa media e margine netto - entro 24 ore dall'attivazione. Riassegna mentre la campagna è ancora in corso."
         },
         {
           "shortLabel": "HR / Persone",
@@ -590,7 +590,7 @@ export const generatedLocalCopy = {
           "pain": "La variazione del lavoro si manifesta troppo tardi.",
           "painCopy": "Le modifiche al programma avvengono per istinto. Quando il report torna, l'OT è già stato pagato.",
           "outcome": "Variazione del lavoro, in tempo reale.",
-          "outcomeCopy": "Pulse mostra la percentuale di lavoro in tempo reale per posizione, produttività dei server e rischio di straordinario — per turno, non per mese."
+          "outcomeCopy": "Pulse mostra la percentuale di lavoro in tempo reale per posizione, produttività dei server e rischio di straordinario - per turno, non per mese."
         },
         {
           "shortLabel": "Tecnologia",
@@ -598,7 +598,7 @@ export const generatedLocalCopy = {
           "pain": "Dodici API di fornitori. Cinque formati di dati. Zero schema unificato.",
           "painCopy": "Ogni nuova richiesta di dashboard diventa un progetto di integrazione di sei settimane.",
           "outcome": "Una piattaforma, dodici domini, zero complessità.",
-          "outcomeCopy": "POS, lavoro, inventario, consegna, contabilità, prenotazioni — unificati in 500 modelli di dati governati. RBAC, registri di audit, API pubblica, webhook. Pronto all'uso."
+          "outcomeCopy": "POS, lavoro, inventario, consegna, contabilità, prenotazioni - unificati in 500 modelli di dati governati. RBAC, registri di audit, API pubblica, webhook. Pronto all'uso."
         }
       ]
     },
@@ -618,7 +618,7 @@ export const generatedLocalCopy = {
           "pain": "您无法同时在每个餐厅。",
           "painCopy": "当每周回顾到达时，糟糕的班次已经结束，利润也消失了。",
           "outcome": "实时查看每个班次。",
-          "outcomeCopy": "无论你是店面经理，还是管着五十家门店的首席运营官，Pulse 都会告诉你此刻哪个门店需要帮助——节奏、人力、损耗，全部在班次中实时更新。"
+          "outcomeCopy": "无论你是店面经理，还是管着五十家门店的首席运营官，Pulse 都会告诉你此刻哪个门店需要帮助--节奏、人力、损耗，全部在班次中实时更新。"
         },
         {
           "shortLabel": "首席财务官",
@@ -626,7 +626,7 @@ export const generatedLocalCopy = {
           "pain": "关闭账本需要三天，实在是太久了。",
           "painCopy": "Variance shows up in last month's P&L. By then the costs have already been booked.",
           "outcome": "利润差异，发生的当天。",
-          "outcomeCopy": "与导致这些差异的事件相关的班次级别劳动力成本、食品成本差异、作废率——更快地关闭账本，解释更多。"
+          "outcomeCopy": "与导致这些差异的事件相关的班次级别劳动力成本、食品成本差异、作废率--更快地关闭账本，解释更多。"
         },
         {
           "shortLabel": "首席执行官",
@@ -658,7 +658,7 @@ export const generatedLocalCopy = {
           "pain": "十二个供应商API。五种数据格式。零统一架构。",
           "painCopy": "每个新的仪表板请求都变成了六周的集成项目。",
           "outcome": "一个平台，十二个领域，零管道。",
-          "outcomeCopy": "POS、劳动力、库存、交付、会计、预订 — 统一为500个受管数据模型。RBAC、审计跟踪、公共API、webhooks。开箱即用。"
+          "outcomeCopy": "POS、劳动力、库存、交付、会计、预订 - 统一为500个受管数据模型。RBAC、审计跟踪、公共API、webhooks。开箱即用。"
         }
       ]
     },
@@ -678,7 +678,7 @@ export const generatedLocalCopy = {
           "pain": "Nie możesz być w każdej restauracji jednocześnie.",
           "painCopy": "Zanim cotygodniowe podsumowanie dotrze, zła zmiana już minęła, a marża zniknęła.",
           "outcome": "Na żywo widoczność każdej zmiany.",
-          "outcomeCopy": "Niezależnie od tego, czy jesteś kierownikiem na sali, czy COO pięćdziesięciu lokali, Pulse pokazuje, która lokalizacja potrzebuje pomocy właśnie teraz — tempo, obsada, straty, wszystko aktualizowane w trakcie zmiany."
+          "outcomeCopy": "Niezależnie od tego, czy jesteś kierownikiem na sali, czy COO pięćdziesięciu lokali, Pulse pokazuje, która lokalizacja potrzebuje pomocy właśnie teraz - tempo, obsada, straty, wszystko aktualizowane w trakcie zmiany."
         },
         {
           "shortLabel": "CFO",
@@ -686,7 +686,7 @@ export const generatedLocalCopy = {
           "pain": "Trzy dni na zamknięcie ksiąg to za dużo.",
           "painCopy": "Odchylenie pojawia się w P&L z zeszłego miesiąca. Do tego czasu koszty zostały już zaksięgowane.",
           "outcome": "Odchylenie marży, w dniu, w którym się zdarza.",
-          "outcomeCopy": "Koszt pracy na poziomie zmiany, odchylenie kosztów żywności, wskaźniki anulacji — powiązane z wydarzeniami, które je spowodowały. Zamykaj szybciej, wyjaśniaj więcej."
+          "outcomeCopy": "Koszt pracy na poziomie zmiany, odchylenie kosztów żywności, wskaźniki anulacji - powiązane z wydarzeniami, które je spowodowały. Zamykaj szybciej, wyjaśniaj więcej."
         },
         {
           "shortLabel": "CEO",
@@ -702,7 +702,7 @@ export const generatedLocalCopy = {
           "pain": "W momencie, gdy mierzysz kampanię, budżet jest już wydany.",
           "painCopy": "ROI przychodzi z tygodniowym opóźnieniem. Plan na przyszły miesiąc jest gotowy zanim dane z tego miesiąca będą dostępne.",
           "outcome": "ROI kampanii, dzień po dniu.",
-          "outcomeCopy": "Powiąż wydatki na kampanię z liczbą gości, średnim rachunkiem i marżą netto — w ciągu 24 godzin od aktywacji. Przeznacz środki ponownie, gdy kampania wciąż trwa."
+          "outcomeCopy": "Powiąż wydatki na kampanię z liczbą gości, średnim rachunkiem i marżą netto - w ciągu 24 godzin od aktywacji. Przeznacz środki ponownie, gdy kampania wciąż trwa."
         },
         {
           "shortLabel": "HR / Ludzie",
@@ -710,7 +710,7 @@ export const generatedLocalCopy = {
           "pain": "Wariancja pracy pojawia się za późno.",
           "painCopy": "Zmiany w harmonogramie są podejmowane instynktownie. W momencie, gdy raport wraca, nadgodziny są już wypłacone.",
           "outcome": "Wariancja pracy, w danym momencie.",
-          "outcomeCopy": "Pulse pokazuje na żywo % pracy według lokalizacji, produktywność serwerów i ryzyko nadgodzin — według zmiany, a nie miesiąca."
+          "outcomeCopy": "Pulse pokazuje na żywo % pracy według lokalizacji, produktywność serwerów i ryzyko nadgodzin - według zmiany, a nie miesiąca."
         },
         {
           "shortLabel": "Technologia",
@@ -718,7 +718,7 @@ export const generatedLocalCopy = {
           "pain": "Dwanaście API dostawców. Pięć formatów danych. Zero zjednoczonego schematu.",
           "painCopy": "Każda nowa prośba o pulpit staje się sześciotygodniowym projektem integracyjnym.",
           "outcome": "Jedna platforma, dwanaście obszarów, zero rur.",
-          "outcomeCopy": "POS, praca, zapasy, dostawy, księgowość, rezerwacje — zjednoczone w 500 zarządzanych modelach danych. RBAC, ścieżki audytu, publiczne API, webhooki. Gotowe do użycia."
+          "outcomeCopy": "POS, praca, zapasy, dostawy, księgowość, rezerwacje - zjednoczone w 500 zarządzanych modelach danych. RBAC, ścieżki audytu, publiczne API, webhooki. Gotowe do użycia."
         }
       ]
     },
@@ -738,7 +738,7 @@ export const generatedLocalCopy = {
           "pain": "すべてのレストランに同時にいることはできません。",
           "painCopy": "週次のまとめが届く頃には、悪いシフトは終わり、利益は失われています。",
           "outcome": "すべてのシフトをリアルタイムで把握できます。",
-          "outcomeCopy": "現場の店長でも、50店舗を統括するCOOでも、Pulseは今どの店舗が支援を必要としているかを示します——ペース、人員、漏れ、すべてシフトを通じて更新されます。"
+          "outcomeCopy": "現場の店長でも、50店舗を統括するCOOでも、Pulseは今どの店舗が支援を必要としているかを示します--ペース、人員、漏れ、すべてシフトを通じて更新されます。"
         },
         {
           "shortLabel": "CFO",
@@ -746,7 +746,7 @@ export const generatedLocalCopy = {
           "pain": "帳簿を締めるのに3日かかるのは多すぎる。",
           "painCopy": "Variance shows up in last month's P&L. By then the costs have already been booked.",
           "outcome": "発生したその日のマージン差異。",
-          "outcomeCopy": "シフトレベルの労働コスト、食材コストの差異、無効率率 — それらを引き起こしたイベントに関連しています。より早く締め、より多くを説明します。"
+          "outcomeCopy": "シフトレベルの労働コスト、食材コストの差異、無効率率 - それらを引き起こしたイベントに関連しています。より早く締め、より多くを説明します。"
         },
         {
           "shortLabel": "CEO",
@@ -762,7 +762,7 @@ export const generatedLocalCopy = {
           "pain": "キャンペーンを測定する頃には、予算はすでに使い切っています。",
           "painCopy": "ROIは1週間遅れで届きます。来月の計画は今月のデータが出る前に進められます。",
           "outcome": "キャンペーンROIを日ごとに。",
-          "outcomeCopy": "キャンペーンの支出をカバー数、平均チェック、純利益に結びつけます — 活動開始から24時間以内に。キャンペーンがまだ実施中の間に再配分します。"
+          "outcomeCopy": "キャンペーンの支出をカバー数、平均チェック、純利益に結びつけます - 活動開始から24時間以内に。キャンペーンがまだ実施中の間に再配分します。"
         },
         {
           "shortLabel": "人事 / 人々",
@@ -778,7 +778,7 @@ export const generatedLocalCopy = {
           "pain": "12のベンダーAPI。5つのデータ形式。統一されたスキーマはゼロ。",
           "painCopy": "新しいダッシュボードのリクエストは、6週間の統合プロジェクトになります。",
           "outcome": "1つのプラットフォーム、12のドメイン、配管はゼロ。",
-          "outcomeCopy": "POS、労働、在庫、配送、会計、予約 — 500の管理されたデータモデルに統合。RBAC、監査証跡、公開API、Webhook。すぐに使用可能。"
+          "outcomeCopy": "POS、労働、在庫、配送、会計、予約 - 500の管理されたデータモデルに統合。RBAC、監査証跡、公開API、Webhook。すぐに使用可能。"
         }
       ]
     },
@@ -798,7 +798,7 @@ export const generatedLocalCopy = {
           "pain": "모든 레스토랑에 동시에 있을 수는 없습니다.",
           "painCopy": "주간 요약이 도착할 때쯤이면 나쁜 근무는 끝나고 마진은 사라집니다.",
           "outcome": "모든 근무에 대한 실시간 가시성.",
-          "outcomeCopy": "현장의 점장이든 매장 50곳을 총괄하는 COO든, Pulse는 지금 어느 매장이 도움이 필요한지 보여줍니다 — 속도, 인력, 누수까지 모두 근무 중에 업데이트됩니다."
+          "outcomeCopy": "현장의 점장이든 매장 50곳을 총괄하는 COO든, Pulse는 지금 어느 매장이 도움이 필요한지 보여줍니다 - 속도, 인력, 누수까지 모두 근무 중에 업데이트됩니다."
         },
         {
           "shortLabel": "CFO",
@@ -806,7 +806,7 @@ export const generatedLocalCopy = {
           "pain": "장부 마감에 3일이 걸리는 것은 너무 많은 시간입니다.",
           "painCopy": "Variance shows up in last month's P&L. By then the costs have already been booked.",
           "outcome": "발생한 날의 마진 차이.",
-          "outcomeCopy": "변동 인건비, 식품 비용 차이, 무효율 비율 — 이를 초래한 사건과 연결됩니다. 더 빠르게 마감하고, 더 많이 설명하세요."
+          "outcomeCopy": "변동 인건비, 식품 비용 차이, 무효율 비율 - 이를 초래한 사건과 연결됩니다. 더 빠르게 마감하고, 더 많이 설명하세요."
         },
         {
           "shortLabel": "CEO",
@@ -822,7 +822,7 @@ export const generatedLocalCopy = {
           "pain": "캠페인을 측정할 때쯤 예산은 이미 소진되었습니다.",
           "painCopy": "ROI는 일주일 늦게 도착합니다. 다음 달 계획은 이번 달 데이터보다 먼저 진행됩니다.",
           "outcome": "캠페인 ROI, 일별로.",
-          "outcomeCopy": "캠페인 지출을 커버 수, 평균 체크, 순 마진에 연결하세요 — 활성화 후 24시간 이내에. 캠페인이 진행 중일 때 재배치하세요."
+          "outcomeCopy": "캠페인 지출을 커버 수, 평균 체크, 순 마진에 연결하세요 - 활성화 후 24시간 이내에. 캠페인이 진행 중일 때 재배치하세요."
         },
         {
           "shortLabel": "인사 / 인력",
@@ -830,7 +830,7 @@ export const generatedLocalCopy = {
           "pain": "노동 변동이 너무 늦게 나타납니다.",
           "painCopy": "일정 변경이 본능적으로 발생합니다. 보고서가 돌아올 때쯤에는 이미 초과 근무 수당이 지급됩니다.",
           "outcome": "즉각적인 노동 변동.",
-          "outcomeCopy": "Pulse는 위치별, 서버 생산성 및 초과 근무 위험을 실시간으로 보여줍니다 — 월별이 아닌 교대별로."
+          "outcomeCopy": "Pulse는 위치별, 서버 생산성 및 초과 근무 위험을 실시간으로 보여줍니다 - 월별이 아닌 교대별로."
         },
         {
           "shortLabel": "기술",
@@ -838,7 +838,7 @@ export const generatedLocalCopy = {
           "pain": "열두 개의 공급업체 API. 다섯 가지 데이터 형식. 통합 스키마 없음.",
           "painCopy": "모든 새로운 대시보드 요청은 6주간의 통합 프로젝트가 됩니다.",
           "outcome": "하나의 플랫폼, 열두 개의 도메인, 배관 없음.",
-          "outcomeCopy": "POS, 인력, 재고, 배송, 회계, 예약 — 500개의 관리 데이터 모델로 통합. RBAC, 감사 추적, 공개 API, 웹후크. 즉시 사용 가능."
+          "outcomeCopy": "POS, 인력, 재고, 배송, 회계, 예약 - 500개의 관리 데이터 모델로 통합. RBAC, 감사 추적, 공개 API, 웹후크. 즉시 사용 가능."
         }
       ]
     },
@@ -858,7 +858,7 @@ export const generatedLocalCopy = {
           "pain": "Bạn không thể có mặt ở mọi nhà hàng cùng một lúc.",
           "painCopy": "Khi bản tóm tắt hàng tuần đến, ca làm việc tồi tệ đã kết thúc và lợi nhuận đã mất.",
           "outcome": "Khả năng nhìn thấy trực tiếp mọi ca làm việc.",
-          "outcomeCopy": "Dù bạn là quản lý tại cửa hàng hay COO của năm mươi chi nhánh, Pulse cho biết địa điểm nào cần giúp đỡ ngay lúc này — nhịp độ, nhân sự, thất thoát, tất cả được cập nhật trong ca làm việc."
+          "outcomeCopy": "Dù bạn là quản lý tại cửa hàng hay COO của năm mươi chi nhánh, Pulse cho biết địa điểm nào cần giúp đỡ ngay lúc này - nhịp độ, nhân sự, thất thoát, tất cả được cập nhật trong ca làm việc."
         },
         {
           "shortLabel": "CFO",
@@ -866,7 +866,7 @@ export const generatedLocalCopy = {
           "pain": "Ba ngày để hoàn tất sổ sách là quá nhiều.",
           "painCopy": "Sự biến động xuất hiện trong báo cáo P&L của tháng trước. Đến lúc đó, chi phí đã được ghi nhận.",
           "outcome": "Biến động biên lợi nhuận, ngay khi nó xảy ra.",
-          "outcomeCopy": "Chi phí lao động theo ca, biến động chi phí thực phẩm, tỷ lệ hủy — liên kết với các sự kiện đã gây ra chúng. Đóng sổ nhanh hơn, giải thích nhiều hơn."
+          "outcomeCopy": "Chi phí lao động theo ca, biến động chi phí thực phẩm, tỷ lệ hủy - liên kết với các sự kiện đã gây ra chúng. Đóng sổ nhanh hơn, giải thích nhiều hơn."
         },
         {
           "shortLabel": "Giám đốc điều hành",
@@ -882,7 +882,7 @@ export const generatedLocalCopy = {
           "pain": "Khi bạn đo lường chiến dịch, ngân sách đã tiêu hết.",
           "painCopy": "ROI đến muộn một tuần. Kế hoạch tháng sau được thực hiện trước khi dữ liệu tháng này có sẵn.",
           "outcome": "ROI chiến dịch, từng ngày một.",
-          "outcomeCopy": "Liên kết chi tiêu chiến dịch với số lượng khách, hóa đơn trung bình và biên lợi nhuận — trong vòng 24 giờ sau khi kích hoạt. Phân bổ lại trong khi chiến dịch vẫn đang chạy."
+          "outcomeCopy": "Liên kết chi tiêu chiến dịch với số lượng khách, hóa đơn trung bình và biên lợi nhuận - trong vòng 24 giờ sau khi kích hoạt. Phân bổ lại trong khi chiến dịch vẫn đang chạy."
         },
         {
           "shortLabel": "Nhân sự / Con người",
@@ -890,7 +890,7 @@ export const generatedLocalCopy = {
           "pain": "Biến động lao động xuất hiện quá muộn.",
           "painCopy": "Các thay đổi lịch trình xảy ra theo bản năng. Đến khi báo cáo trở lại, tiền làm thêm giờ đã được trả.",
           "outcome": "Biến động lao động, ngay tại thời điểm.",
-          "outcomeCopy": "Pulse hiển thị tỷ lệ lao động trực tiếp theo vị trí, năng suất phục vụ và rủi ro làm thêm giờ — theo ca, không phải theo tháng."
+          "outcomeCopy": "Pulse hiển thị tỷ lệ lao động trực tiếp theo vị trí, năng suất phục vụ và rủi ro làm thêm giờ - theo ca, không phải theo tháng."
         },
         {
           "shortLabel": "Công nghệ",
@@ -898,7 +898,7 @@ export const generatedLocalCopy = {
           "pain": "Mười hai API nhà cung cấp. Năm định dạng dữ liệu. Không có sơ đồ thống nhất.",
           "painCopy": "Mỗi yêu cầu bảng điều khiển mới trở thành một dự án tích hợp kéo dài sáu tuần.",
           "outcome": "Một nền tảng, mười hai miền, không cần ống dẫn.",
-          "outcomeCopy": "POS, lao động, tồn kho, giao hàng, kế toán, đặt chỗ — được thống nhất thành 500 mô hình dữ liệu được quản lý. RBAC, nhật ký kiểm toán, API công khai, webhook. Sẵn sàng sử dụng."
+          "outcomeCopy": "POS, lao động, tồn kho, giao hàng, kế toán, đặt chỗ - được thống nhất thành 500 mô hình dữ liệu được quản lý. RBAC, nhật ký kiểm toán, API công khai, webhook. Sẵn sàng sử dụng."
         }
       ]
     },
@@ -918,7 +918,7 @@ export const generatedLocalCopy = {
           "pain": "Anda tidak bisa berada di setiap restoran sekaligus.",
           "painCopy": "Saat ringkasan mingguan tiba, shift buruk sudah berakhir dan margin hilang.",
           "outcome": "Visibilitas langsung ke setiap shift.",
-          "outcomeCopy": "Baik Anda manajer di lantai maupun COO atas lima puluh outlet, Pulse menunjukkan lokasi mana yang membutuhkan bantuan saat ini — kecepatan, tenaga kerja, kebocoran, semua diperbarui sepanjang shift."
+          "outcomeCopy": "Baik Anda manajer di lantai maupun COO atas lima puluh outlet, Pulse menunjukkan lokasi mana yang membutuhkan bantuan saat ini - kecepatan, tenaga kerja, kebocoran, semua diperbarui sepanjang shift."
         },
         {
           "shortLabel": "CFO",
@@ -926,7 +926,7 @@ export const generatedLocalCopy = {
           "pain": "Tiga hari untuk menutup buku adalah tiga hari terlalu banyak.",
           "painCopy": "Varians muncul di P&L bulan lalu. Pada saat itu, biaya sudah dicatat.",
           "outcome": "Varians margin, pada hari terjadinya.",
-          "outcomeCopy": "Biaya tenaga kerja tingkat shift, varians biaya makanan, tingkat void — terhubung dengan peristiwa yang menyebabkannya. Tutup lebih cepat, jelaskan lebih banyak."
+          "outcomeCopy": "Biaya tenaga kerja tingkat shift, varians biaya makanan, tingkat void - terhubung dengan peristiwa yang menyebabkannya. Tutup lebih cepat, jelaskan lebih banyak."
         },
         {
           "shortLabel": "CEO",
@@ -942,7 +942,7 @@ export const generatedLocalCopy = {
           "pain": "Saat Anda mengukur kampanye, anggaran sudah habis.",
           "painCopy": "ROI datang seminggu terlambat. Rencana bulan depan masuk sebelum data bulan ini tersedia.",
           "outcome": "ROI kampanye, hari demi hari.",
-          "outcomeCopy": "Hubungkan pengeluaran kampanye dengan jumlah tamu, rata-rata cek, dan margin bersih — dalam 24 jam setelah aktivasi. Alokasikan kembali saat kampanye masih berjalan."
+          "outcomeCopy": "Hubungkan pengeluaran kampanye dengan jumlah tamu, rata-rata cek, dan margin bersih - dalam 24 jam setelah aktivasi. Alokasikan kembali saat kampanye masih berjalan."
         },
         {
           "shortLabel": "HR / Orang",
@@ -950,7 +950,7 @@ export const generatedLocalCopy = {
           "pain": "Variansi tenaga kerja muncul terlambat.",
           "painCopy": "Perubahan jadwal terjadi berdasarkan insting. Begitu laporan kembali, lembur sudah dibayar.",
           "outcome": "Variansi tenaga kerja, saat itu juga.",
-          "outcomeCopy": "Pulse menunjukkan persentase tenaga kerja secara langsung berdasarkan lokasi, produktivitas pelayan, dan risiko lembur — berdasarkan shift, bukan berdasarkan bulan."
+          "outcomeCopy": "Pulse menunjukkan persentase tenaga kerja secara langsung berdasarkan lokasi, produktivitas pelayan, dan risiko lembur - berdasarkan shift, bukan berdasarkan bulan."
         },
         {
           "shortLabel": "Teknologi",
@@ -958,7 +958,7 @@ export const generatedLocalCopy = {
           "pain": "Dua belas API vendor. Lima format data. Tidak ada skema terpadu.",
           "painCopy": "Setiap permintaan dasbor baru menjadi proyek integrasi enam minggu.",
           "outcome": "Satu platform, dua belas domain, tanpa kerumitan.",
-          "outcomeCopy": "POS, tenaga kerja, inventaris, pengiriman, akuntansi, reservasi — disatukan dalam 500 model data yang diatur. RBAC, jejak audit, API publik, webhook. Siap pakai."
+          "outcomeCopy": "POS, tenaga kerja, inventaris, pengiriman, akuntansi, reservasi - disatukan dalam 500 model data yang diatur. RBAC, jejak audit, API publik, webhook. Siap pakai."
         }
       ]
     },
@@ -978,7 +978,7 @@ export const generatedLocalCopy = {
           "pain": "Nu poți fi în fiecare restaurant în același timp.",
           "painCopy": "Până când recapitularea săptămânală ajunge, tura proastă s-a terminat și marja a dispărut.",
           "outcome": "Vizibilitate în timp real asupra fiecărei ture.",
-          "outcomeCopy": "Fie că ești managerul din locație, fie COO peste cincizeci de locații, Pulse îți arată ce locație are nevoie de ajutor chiar acum — ritm, personal, pierderi, toate actualizate pe parcursul turei."
+          "outcomeCopy": "Fie că ești managerul din locație, fie COO peste cincizeci de locații, Pulse îți arată ce locație are nevoie de ajutor chiar acum - ritm, personal, pierderi, toate actualizate pe parcursul turei."
         },
         {
           "shortLabel": "CFO",
@@ -986,7 +986,7 @@ export const generatedLocalCopy = {
           "pain": "Trei zile pentru a închide cărțile este prea mult.",
           "painCopy": "Varianta apare în P&L-ul de luna trecută. Până atunci, costurile au fost deja înregistrate.",
           "outcome": "Varianta de marjă, în ziua în care se întâmplă.",
-          "outcomeCopy": "Costul forței de muncă la nivel de schimb, varianta costului alimentelor, ratele de anulare — conectate la evenimentele care le-au cauzat. Închide mai repede, explică mai mult."
+          "outcomeCopy": "Costul forței de muncă la nivel de schimb, varianta costului alimentelor, ratele de anulare - conectate la evenimentele care le-au cauzat. Închide mai repede, explică mai mult."
         },
         {
           "shortLabel": "CEO",
@@ -1002,7 +1002,7 @@ export const generatedLocalCopy = {
           "pain": "Până măsori campania, bugetul este deja cheltuit.",
           "painCopy": "ROI-ul ajunge cu o săptămână întârziere. Planul de luna viitoare intră înainte ca datele din luna aceasta să fie disponibile.",
           "outcome": "ROI-ul campaniei, zi de zi.",
-          "outcomeCopy": "Leagă cheltuielile campaniei de acoperiri, cecul mediu și marja netă — în termen de 24 de ore de la activare. Re-alocă în timp ce campania este încă activă."
+          "outcomeCopy": "Leagă cheltuielile campaniei de acoperiri, cecul mediu și marja netă - în termen de 24 de ore de la activare. Re-alocă în timp ce campania este încă activă."
         },
         {
           "shortLabel": "HR / Oameni",
@@ -1010,7 +1010,7 @@ export const generatedLocalCopy = {
           "pain": "Varianta de muncă apare prea târziu.",
           "painCopy": "Schimbările de program se fac pe instinct. Până când raportul revine, orele suplimentare sunt deja plătite.",
           "outcome": "Varianta de muncă, în timp real.",
-          "outcomeCopy": "Pulse arată procentul de muncă în timp real pe locație, productivitatea serverului și riscul de ore suplimentare — pe schimb, nu pe lună."
+          "outcomeCopy": "Pulse arată procentul de muncă în timp real pe locație, productivitatea serverului și riscul de ore suplimentare - pe schimb, nu pe lună."
         },
         {
           "shortLabel": "Tehnologie",
@@ -1018,7 +1018,7 @@ export const generatedLocalCopy = {
           "pain": "Douăsprezece API-uri de furnizori. Cinci formate de date. Zero schemă unificată.",
           "painCopy": "Fiecare nouă solicitare de tablou devine un proiect de integrare de șase săptămâni.",
           "outcome": "O platformă, douăsprezece domenii, zero instalații.",
-          "outcomeCopy": "POS, muncă, inventar, livrare, contabilitate, rezervări — unificate în 500 de modele de date guvernate. RBAC, trail-uri de audit, API public, webhooks. Din cutie."
+          "outcomeCopy": "POS, muncă, inventar, livrare, contabilitate, rezervări - unificate în 500 de modele de date guvernate. RBAC, trail-uri de audit, API public, webhooks. Din cutie."
         }
       ]
     },
@@ -1038,7 +1038,7 @@ export const generatedLocalCopy = {
           "pain": "আপনি একসাথে প্রতিটি রেস্টুরেন্টে থাকতে পারবেন না।",
           "painCopy": "সাপ্তাহিক সারসংক্ষেপ আসার আগেই খারাপ শিফট শেষ হয়ে যায় এবং মার্জিন চলে যায়।",
           "outcome": "প্রতিটি শিফটে লাইভ দৃশ্যমানতা।",
-          "outcomeCopy": "আপনি ফ্লোরের জিএম হোন বা পঞ্চাশটি আউটলেটের সিওও, Pulse আপনাকে দেখায় এই মুহূর্তে কোন লোকেশনের সাহায্য দরকার — গতি, শ্রম, লিকেজ, সব শিফটের মধ্যেই আপডেট হয়।"
+          "outcomeCopy": "আপনি ফ্লোরের জিএম হোন বা পঞ্চাশটি আউটলেটের সিওও, Pulse আপনাকে দেখায় এই মুহূর্তে কোন লোকেশনের সাহায্য দরকার - গতি, শ্রম, লিকেজ, সব শিফটের মধ্যেই আপডেট হয়।"
         },
         {
           "shortLabel": "সিএফও",
@@ -1046,7 +1046,7 @@ export const generatedLocalCopy = {
           "pain": "বই বন্ধ করতে তিন দিন লাগলে, তা খুব বেশি।",
           "painCopy": "Variance shows up in last month's P&L. By then the costs have already been booked.",
           "outcome": "মার্জিন ভিন্নতা, যখন এটি ঘটে।",
-          "outcomeCopy": "শিফট-স্তরের শ্রম খরচ, খাদ্য খরচের ভিন্নতা, বাতিলের হার — এগুলোর কারণের সাথে সংযুক্ত। দ্রুত বন্ধ করুন, আরও ব্যাখ্যা করুন।"
+          "outcomeCopy": "শিফট-স্তরের শ্রম খরচ, খাদ্য খরচের ভিন্নতা, বাতিলের হার - এগুলোর কারণের সাথে সংযুক্ত। দ্রুত বন্ধ করুন, আরও ব্যাখ্যা করুন।"
         },
         {
           "shortLabel": "সিইও",
@@ -1062,7 +1062,7 @@ export const generatedLocalCopy = {
           "pain": "যখন আপনি ক্যাম্পেইন পরিমাপ করেন, বাজেট ইতিমধ্যেই খরচ হয়ে গেছে।",
           "painCopy": "ROI এক সপ্তাহ পরে আসে। আগামী মাসের পরিকল্পনা এই মাসের ডেটার আগে চলে যায়।",
           "outcome": "ক্যাম্পেইনের ROI, দিন-প্রতি-দিন।",
-          "outcomeCopy": "ক্যাম্পেইন খরচকে কভার, গড় চেক এবং নিট মার্জিনের সাথে যুক্ত করুন — সক্রিয়করণের ২৪ ঘণ্টার মধ্যে। ক্যাম্পেইন চলাকালীন পুনঃবণ্টন করুন।"
+          "outcomeCopy": "ক্যাম্পেইন খরচকে কভার, গড় চেক এবং নিট মার্জিনের সাথে যুক্ত করুন - সক্রিয়করণের ২৪ ঘণ্টার মধ্যে। ক্যাম্পেইন চলাকালীন পুনঃবণ্টন করুন।"
         },
         {
           "shortLabel": "এইচআর / মানুষ",
@@ -1070,7 +1070,7 @@ export const generatedLocalCopy = {
           "pain": "শ্রমের পরিবর্তন খুব দেরিতে দেখা দেয়।",
           "painCopy": "সূচি পরিবর্তন স্বতঃস্ফূর্তভাবে ঘটে। রিপোর্ট ফিরে আসার সময়, অতিরিক্ত সময় ইতিমধ্যেই পরিশোধিত হয়।",
           "outcome": "শ্রমের পরিবর্তন, মুহূর্তে।",
-          "outcomeCopy": "পালস স্থান অনুযায়ী লাইভ শ্রম% দেখায়, সার্ভার উৎপাদনশীলতা এবং অতিরিক্ত সময়ের ঝুঁকি — শিফট অনুযায়ী, মাস অনুযায়ী নয়। (Pulse)"
+          "outcomeCopy": "পালস স্থান অনুযায়ী লাইভ শ্রম% দেখায়, সার্ভার উৎপাদনশীলতা এবং অতিরিক্ত সময়ের ঝুঁকি - শিফট অনুযায়ী, মাস অনুযায়ী নয়। (Pulse)"
         },
         {
           "shortLabel": "প্রযুক্তি",
@@ -1078,7 +1078,7 @@ export const generatedLocalCopy = {
           "pain": "বারোটি ভেন্ডর API। পাঁচটি ডেটা ফরম্যাট। শূন্য একক স্কিমা।",
           "painCopy": "প্রতিটি নতুন ড্যাশবোর্ডের অনুরোধ একটি ছয়-সপ্তাহের ইন্টিগ্রেশন প্রকল্পে পরিণত হয়।",
           "outcome": "একটি প্ল্যাটফর্ম, বারোটি ডোমেইন, শূন্য প্লাম্বিং।",
-          "outcomeCopy": "POS, শ্রম, ইনভেন্টরি, ডেলিভারি, হিসাবরক্ষণ, রিজার্ভেশন — ১৭৯টি শাসিত ডেটা মডেলে একত্রিত। RBAC, অডিট ট্রেইল, পাবলিক API, ওয়েবহুক। বক্স থেকে বেরিয়ে।"
+          "outcomeCopy": "POS, শ্রম, ইনভেন্টরি, ডেলিভারি, হিসাবরক্ষণ, রিজার্ভেশন - ১৭৯টি শাসিত ডেটা মডেলে একত্রিত। RBAC, অডিট ট্রেইল, পাবলিক API, ওয়েবহুক। বক্স থেকে বেরিয়ে।"
         }
       ]
     },
@@ -1098,7 +1098,7 @@ export const generatedLocalCopy = {
           "pain": "คุณไม่สามารถอยู่ในทุกร้านอาหารได้ในครั้งเดียว.",
           "painCopy": "เมื่อสรุปรายสัปดาห์มาถึง กะที่ไม่ดีนั้นก็จบลงและกำไรก็หายไปแล้ว.",
           "outcome": "มองเห็นการทำงานแบบเรียลไทม์ในทุกกะ.",
-          "outcomeCopy": "ไม่ว่าคุณจะเป็นผู้จัดการหน้าร้านหรือ COO ที่ดูแลห้าสิบสาขา Pulse ก็แสดงให้เห็นว่าสาขาไหนต้องการความช่วยเหลือในตอนนี้ — จังหวะ กำลังคน การรั่วไหล ทั้งหมดอัปเดตตลอดกะ"
+          "outcomeCopy": "ไม่ว่าคุณจะเป็นผู้จัดการหน้าร้านหรือ COO ที่ดูแลห้าสิบสาขา Pulse ก็แสดงให้เห็นว่าสาขาไหนต้องการความช่วยเหลือในตอนนี้ - จังหวะ กำลังคน การรั่วไหล ทั้งหมดอัปเดตตลอดกะ"
         },
         {
           "shortLabel": "CFO",
@@ -1106,7 +1106,7 @@ export const generatedLocalCopy = {
           "pain": "สามวันในการปิดบัญชีคือเวลาที่มากเกินไป",
           "painCopy": "Variance shows up in last month's P&L. By then the costs have already been booked.",
           "outcome": "ความแตกต่างของมาร์จิ้นในวันที่เกิดเหตุการณ์",
-          "outcomeCopy": "ต้นทุนแรงงานระดับชั้น, ความแตกต่างของต้นทุนอาหาร, อัตราการยกเลิก — เชื่อมโยงกับเหตุการณ์ที่ทำให้เกิดมัน ปิดบัญชีให้เร็วขึ้น อธิบายให้มากขึ้น."
+          "outcomeCopy": "ต้นทุนแรงงานระดับชั้น, ความแตกต่างของต้นทุนอาหาร, อัตราการยกเลิก - เชื่อมโยงกับเหตุการณ์ที่ทำให้เกิดมัน ปิดบัญชีให้เร็วขึ้น อธิบายให้มากขึ้น."
         },
         {
           "shortLabel": "CEO",
@@ -1122,7 +1122,7 @@ export const generatedLocalCopy = {
           "pain": "เมื่อคุณวัดผลแคมเปญ งบประมาณก็ใช้ไปหมดแล้ว",
           "painCopy": "ROI มาถึงช้าไปหนึ่งสัปดาห์ แผนเดือนหน้าจะถูกวางก่อนข้อมูลของเดือนนี้",
           "outcome": "ROI ของแคมเปญ รายวัน",
-          "outcomeCopy": "เชื่อมโยงการใช้จ่ายแคมเปญกับจำนวนผู้เข้าร่วม เช็คเฉลี่ย และกำไรสุทธิ — ภายใน 24 ชั่วโมงหลังจากเปิดใช้งาน ปรับงบประมาณในขณะที่แคมเปญยังดำเนินอยู่."
+          "outcomeCopy": "เชื่อมโยงการใช้จ่ายแคมเปญกับจำนวนผู้เข้าร่วม เช็คเฉลี่ย และกำไรสุทธิ - ภายใน 24 ชั่วโมงหลังจากเปิดใช้งาน ปรับงบประมาณในขณะที่แคมเปญยังดำเนินอยู่."
         },
         {
           "shortLabel": "HR / บุคคล",
@@ -1130,7 +1130,7 @@ export const generatedLocalCopy = {
           "pain": "ความแปรปรวนของแรงงานปรากฏขึ้นช้าเกินไป.",
           "painCopy": "การเปลี่ยนแปลงตารางเวลามักเกิดจากสัญชาตญาณ เมื่อรายงานกลับมา แรงงานโอทีถูกจ่ายไปแล้ว.",
           "outcome": "ความแปรปรวนของแรงงานในขณะนั้น.",
-          "outcomeCopy": "Pulse แสดงเปอร์เซ็นต์แรงงานสดตามสถานที่ ผลผลิตของพนักงาน และความเสี่ยงโอที — ตามกะ ไม่ใช่ตามเดือน."
+          "outcomeCopy": "Pulse แสดงเปอร์เซ็นต์แรงงานสดตามสถานที่ ผลผลิตของพนักงาน และความเสี่ยงโอที - ตามกะ ไม่ใช่ตามเดือน."
         },
         {
           "shortLabel": "เทคโนโลยี",
@@ -1138,7 +1138,7 @@ export const generatedLocalCopy = {
           "pain": "API ของผู้ขายสิบสองราย รูปแบบข้อมูลห้ารายการ ไม่มีสคีมาที่รวมกัน",
           "painCopy": "คำขอแดชบอร์ดใหม่แต่ละครั้งกลายเป็นโครงการรวมระบบที่ใช้เวลาหกสัปดาห์",
           "outcome": "แพลตฟอร์มเดียว สิบสองโดเมน ไม่มีการเชื่อมต่อที่ซับซ้อน",
-          "outcomeCopy": "POS แรงงาน สินค้าคงคลัง การจัดส่ง การบัญชี การจอง — รวมอยู่ในโมเดลข้อมูลที่มีการควบคุม 500 โมเดล RBAC บันทึกการตรวจสอบ API สาธารณะ เว็บฮุค ใช้งานได้ทันที."
+          "outcomeCopy": "POS แรงงาน สินค้าคงคลัง การจัดส่ง การบัญชี การจอง - รวมอยู่ในโมเดลข้อมูลที่มีการควบคุม 500 โมเดล RBAC บันทึกการตรวจสอบ API สาธารณะ เว็บฮุค ใช้งานได้ทันที."
         }
       ]
     },
@@ -1158,7 +1158,7 @@ export const generatedLocalCopy = {
           "pain": "Du kan inte vara på varje restaurang samtidigt.",
           "painCopy": "När veckosammanfattningen kommer har den dåliga skiftet redan passerat och marginalen är borta.",
           "outcome": "Live-insyn i varje skift.",
-          "outcomeCopy": "Oavsett om du är platschefen på golvet eller COO över femtio enheter visar Pulse vilken plats som behöver hjälp just nu — takt, bemanning, läckage, allt uppdaterat under skiftet."
+          "outcomeCopy": "Oavsett om du är platschefen på golvet eller COO över femtio enheter visar Pulse vilken plats som behöver hjälp just nu - takt, bemanning, läckage, allt uppdaterat under skiftet."
         },
         {
           "shortLabel": "CFO",
@@ -1166,7 +1166,7 @@ export const generatedLocalCopy = {
           "pain": "Tre dagar för att stänga böckerna är tre dagar för mycket.",
           "painCopy": "Avvikelse visas i förra månadens P&L. Vid det laget har kostnaderna redan bokförts.",
           "outcome": "Marginalavvikelse, den dagen det händer.",
-          "outcomeCopy": "Arbetskostnad på skift, avvikelse i matkostnader, avbokningsfrekvenser — kopplade till de händelser som orsakade dem. Stäng snabbare, förklara mer."
+          "outcomeCopy": "Arbetskostnad på skift, avvikelse i matkostnader, avbokningsfrekvenser - kopplade till de händelser som orsakade dem. Stäng snabbare, förklara mer."
         },
         {
           "shortLabel": "VD",
@@ -1182,7 +1182,7 @@ export const generatedLocalCopy = {
           "pain": "När du mäter kampanjen är budgeten redan förbrukad.",
           "painCopy": "ROI kommer en vecka för sent. Nästa månads plan går in innan denna månads data gör det.",
           "outcome": "Kampanjens ROI, dag för dag.",
-          "outcomeCopy": "Koppla kampanjens utgifter till gäster, genomsnittlig nota och nettomarginal — inom 24 timmar efter aktivering. Omfördela medan kampanjen fortfarande pågår."
+          "outcomeCopy": "Koppla kampanjens utgifter till gäster, genomsnittlig nota och nettomarginal - inom 24 timmar efter aktivering. Omfördela medan kampanjen fortfarande pågår."
         },
         {
           "shortLabel": "HR / Personal",
@@ -1190,7 +1190,7 @@ export const generatedLocalCopy = {
           "pain": "Arbetsavvikelser syns för sent.",
           "painCopy": "Schemaändringar sker på instinkt. När rapporten kommer tillbaka har övertiden redan betalats.",
           "outcome": "Arbetsavvikelser, i realtid.",
-          "outcomeCopy": "Pulse visar live arbets% per plats, serverproduktivitet och övertidsrisk — per skift, inte per månad."
+          "outcomeCopy": "Pulse visar live arbets% per plats, serverproduktivitet och övertidsrisk - per skift, inte per månad."
         },
         {
           "shortLabel": "Teknik",
@@ -1198,7 +1198,7 @@ export const generatedLocalCopy = {
           "pain": "Tolv leverantörs-API:er. Fem dataformat. Noll enhetligt schema.",
           "painCopy": "Varje ny dashboardförfrågan blir ett sex veckors integrationsprojekt.",
           "outcome": "En plattform, tolv domäner, noll rörledning.",
-          "outcomeCopy": "POS, arbetskraft, lager, leverans, bokföring, reservationer — enhetligt i 500 styrda datamodeller. RBAC, revisionsspår, offentlig API, webhooks. Direkt ur lådan."
+          "outcomeCopy": "POS, arbetskraft, lager, leverans, bokföring, reservationer - enhetligt i 500 styrda datamodeller. RBAC, revisionsspår, offentlig API, webhooks. Direkt ur lådan."
         }
       ]
     },
@@ -1218,7 +1218,7 @@ export const generatedLocalCopy = {
           "pain": "Anda tidak boleh berada di setiap restoran sekaligus.",
           "painCopy": "Pada masa ringkasan mingguan tiba, shift yang buruk sudah berakhir dan margin telah hilang.",
           "outcome": "Keterlihatan langsung ke dalam setiap shift.",
-          "outcomeCopy": "Sama ada anda pengurus di lantai atau COO bagi lima puluh cawangan, Pulse menunjukkan lokasi mana yang memerlukan bantuan sekarang — rentak, tenaga kerja, kebocoran, semua dikemas kini sepanjang shift."
+          "outcomeCopy": "Sama ada anda pengurus di lantai atau COO bagi lima puluh cawangan, Pulse menunjukkan lokasi mana yang memerlukan bantuan sekarang - rentak, tenaga kerja, kebocoran, semua dikemas kini sepanjang shift."
         },
         {
           "shortLabel": "CFO",
@@ -1226,7 +1226,7 @@ export const generatedLocalCopy = {
           "pain": "Tiga hari untuk menutup buku adalah tiga hari yang terlalu banyak.",
           "painCopy": "Perbezaan muncul dalam P&L bulan lepas. Pada ketika itu, kos sudah pun dicatat.",
           "outcome": "Perbezaan margin, pada hari ia berlaku.",
-          "outcomeCopy": "Kos buruh per tahap, perbezaan kos makanan, kadar void — berkaitan dengan peristiwa yang menyebabkannya. Tutup lebih cepat, jelaskan lebih banyak."
+          "outcomeCopy": "Kos buruh per tahap, perbezaan kos makanan, kadar void - berkaitan dengan peristiwa yang menyebabkannya. Tutup lebih cepat, jelaskan lebih banyak."
         },
         {
           "shortLabel": "CEO",
@@ -1242,7 +1242,7 @@ export const generatedLocalCopy = {
           "pain": "Pada masa anda mengukur kempen, bajet sudah dibelanjakan.",
           "painCopy": "ROI tiba seminggu lewat. Rancangan bulan depan dimasukkan sebelum data bulan ini.",
           "outcome": "ROI kempen, hari demi hari.",
-          "outcomeCopy": "Sambungkan perbelanjaan kempen kepada jumlah pelanggan, cek purata, dan margin bersih — dalam 24 jam selepas pengaktifan. Alokasikan semula semasa kempen masih berjalan."
+          "outcomeCopy": "Sambungkan perbelanjaan kempen kepada jumlah pelanggan, cek purata, dan margin bersih - dalam 24 jam selepas pengaktifan. Alokasikan semula semasa kempen masih berjalan."
         },
         {
           "shortLabel": "HR / Orang",
@@ -1250,7 +1250,7 @@ export const generatedLocalCopy = {
           "pain": "Varians buruh muncul terlalu lewat.",
           "painCopy": "Perubahan jadual berlaku secara naluri. Pada masa laporan kembali, OT sudah dibayar.",
           "outcome": "Varians buruh, pada saat itu.",
-          "outcomeCopy": "Pulse menunjukkan peratusan buruh secara langsung mengikut lokasi, produktiviti pelayan, dan risiko overtime — mengikut syift, bukan mengikut bulan."
+          "outcomeCopy": "Pulse menunjukkan peratusan buruh secara langsung mengikut lokasi, produktiviti pelayan, dan risiko overtime - mengikut syift, bukan mengikut bulan."
         },
         {
           "shortLabel": "Teknologi",
@@ -1258,7 +1258,7 @@ export const generatedLocalCopy = {
           "pain": "Dua belas API vendor. Lima format data. Tiada skema bersatu.",
           "painCopy": "Setiap permintaan papan pemuka baru menjadi projek integrasi enam minggu.",
           "outcome": "Satu platform, dua belas domain, tiada paip.",
-          "outcomeCopy": "POS, buruh, inventori, penghantaran, perakaunan, tempahan — disatukan dalam 500 model data yang dikawal. RBAC, jejak audit, API awam, webhook. Siap sedia."
+          "outcomeCopy": "POS, buruh, inventori, penghantaran, perakaunan, tempahan - disatukan dalam 500 model data yang dikawal. RBAC, jejak audit, API awam, webhook. Siap sedia."
         }
       ]
     }

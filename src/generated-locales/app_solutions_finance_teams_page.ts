@@ -82,7 +82,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "توقعات قمت بتوقيع اسمك عليها",
-          "description": "Foresight reasons over operating data + market signal — and tells you its confidence band.",
+          "description": "Foresight reasons over operating data + market signal - and tells you its confidence band.",
           "icon": "support"
         }
       ],
@@ -227,7 +227,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Automated POS reconciliation",
-          "description": "POS, main-d'œuvre, inventaire, comptabilité — unifiés dans un seul grand livre afin que les cycles de clôture se déroulent en heures et non en jours.",
+          "description": "POS, main-d'œuvre, inventaire, comptabilité - unifiés dans un seul grand livre afin que les cycles de clôture se déroulent en heures et non en jours.",
           "product": "Sundae Core",
           "icon": "integration"
         },
@@ -248,7 +248,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Capturer une fuite de marge pendant le quart de travail",
-          "description": "Vides, compositions, surcouverture — signalés sur place pendant qu'il est encore temps d'agir.",
+          "description": "Vides, compositions, surcouverture - signalés sur place pendant qu'il est encore temps d'agir.",
           "icon": "owners"
         },
         {
@@ -258,7 +258,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Prévisions auxquelles vous signez votre nom",
-          "description": "Foresight reasons over operating data + market signal — and tells you its confidence band.",
+          "description": "Foresight reasons over operating data + market signal - and tells you its confidence band.",
           "icon": "support"
         }
       ],
@@ -289,7 +289,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Exportações de POS costuradas à mão",
-          "description": "Metade do ciclo de fechamento envolve pessoas colando planilhas – não análises.",
+          "description": "Metade do ciclo de fechamento envolve pessoas colando planilhas - não análises.",
           "icon": "integration"
         },
         {
@@ -303,7 +303,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Inteligência de margem ao vivo",
-          "description": "Receita líquida,% do custo dos alimentos,% do trabalho e atualização da margem de contribuição por turno – não por mês. Variação sinalizada no momento em que é aberta.",
+          "description": "Receita líquida,% do custo dos alimentos,% do trabalho e atualização da margem de contribuição por turno - não por mês. Variação sinalizada no momento em que é aberta.",
           "product": "Insights · Revenue + Profit",
           "icon": "chart"
         },
@@ -315,7 +315,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Reconciliação automatizada de POS",
-          "description": "POS, mão de obra, estoque, contabilidade – unificados em um único livro-razão para que ciclos próximos sejam executados em horas, não em dias.",
+          "description": "POS, mão de obra, estoque, contabilidade - unificados em um único livro-razão para que ciclos próximos sejam executados em horas, não em dias.",
           "product": "Sundae Core",
           "icon": "integration"
         },
@@ -336,7 +336,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Capturar vazamento de margem no turno",
-          "description": "Vazios, compensações, cobertura excessiva – sinalizados no local enquanto ainda há tempo para agir.",
+          "description": "Vazios, compensações, cobertura excessiva - sinalizados no local enquanto ainda há tempo para agir.",
           "icon": "owners"
         },
         {
@@ -377,7 +377,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Handgenähte POS-Exporte",
-          "description": "Der halbe Abschlusszyklus besteht darin, dass Menschen Tabellenkalkulationen zusammenkleben – nicht Analysen.",
+          "description": "Der halbe Abschlusszyklus besteht darin, dass Menschen Tabellenkalkulationen zusammenkleben - nicht Analysen.",
           "icon": "integration"
         },
         {
@@ -391,7 +391,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Live-Margin-Intelligence",
-          "description": "Nettoumsatz, Lebensmittelkosten %, Arbeitsaufwand % und Deckungsbeitrag werden nach Schicht aktualisiert – nicht nach Monat. Variance wurde beim Öffnen markiert.",
+          "description": "Nettoumsatz, Lebensmittelkosten %, Arbeitsaufwand % und Deckungsbeitrag werden nach Schicht aktualisiert - nicht nach Monat. Variance wurde beim Öffnen markiert.",
           "product": "Insights · Revenue + Profit",
           "icon": "chart"
         },
@@ -403,13 +403,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Automatisierter POS-Abgleich",
-          "description": "POS, Arbeit, Inventar, Buchhaltung – vereint in einem Hauptbuch, sodass enge Zyklen in Stunden und nicht in Tagen ablaufen.",
+          "description": "POS, Arbeit, Inventar, Buchhaltung - vereint in einem Hauptbuch, sodass enge Zyklen in Stunden und nicht in Tagen ablaufen.",
           "product": "Sundae Core",
           "icon": "integration"
         },
         {
           "title": "Prognosen, die der Vorstand verteidigen kann",
-          "description": "14–90-Tage-EBITDA-Prognosen, geschichtet mit Marktsignalen, selbstkorrigierend bei wöchentlicher Lieferung.",
+          "description": "14-90-Tage-EBITDA-Prognosen, geschichtet mit Marktsignalen, selbstkorrigierend bei wöchentlicher Lieferung.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -424,7 +424,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Margenleck in der Schicht auffangen",
-          "description": "Lücken, Vergütungen, Überdeckung – werden vor Ort gemeldet, solange noch Zeit zum Handeln bleibt.",
+          "description": "Lücken, Vergütungen, Überdeckung - werden vor Ort gemeldet, solange noch Zeit zum Handeln bleibt.",
           "icon": "owners"
         },
         {
@@ -434,7 +434,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Prognosen, bei denen Sie mit Ihrem Namen unterschreiben",
-          "description": "Foresight reasons over operating data + market signal — and tells you its confidence band.",
+          "description": "Foresight reasons over operating data + market signal - and tells you its confidence band.",
           "icon": "support"
         }
       ],
@@ -465,12 +465,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Met de hand gestikte POS-exports",
-          "description": "De helft van de afsluitingscyclus bestaat uit mensen die spreadsheets aan elkaar plakken – niet uit analyses.",
+          "description": "De helft van de afsluitingscyclus bestaat uit mensen die spreadsheets aan elkaar plakken - niet uit analyses.",
           "icon": "integration"
         },
         {
           "title": "Geen vooruitzicht op de EBITDA",
-          "description": "De voorspelling is gebaseerd op de gegevens van het afgelopen kwartaal. Het bestuur vraagt ​​naar volgend kwartaal.",
+          "description": "De voorspelling is gebaseerd op de gegevens van het afgelopen kwartaal. Het bestuur vraagt naar volgend kwartaal.",
           "icon": "forecasting"
         }
       ],
@@ -479,7 +479,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Live marge-informatie",
-          "description": "De netto-inkomsten, het percentage voedselkosten, het percentage arbeid en de contributiemarge worden bijgewerkt per ploegendienst – niet per maand. Variantie wordt gemarkeerd zodra deze wordt geopend.",
+          "description": "De netto-inkomsten, het percentage voedselkosten, het percentage arbeid en de contributiemarge worden bijgewerkt per ploegendienst - niet per maand. Variantie wordt gemarkeerd zodra deze wordt geopend.",
           "product": "Insights · Revenue + Profit",
           "icon": "chart"
         },
@@ -522,7 +522,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Prognoses waar u uw naam voor tekent",
-          "description": "Foresight redeneert over bedrijfsgegevens + marktsignaal – en vertelt u de vertrouwensband.",
+          "description": "Foresight redeneert over bedrijfsgegevens + marktsignaal - en vertelt u de vertrouwensband.",
           "icon": "support"
         }
       ],
@@ -553,7 +553,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "ہاتھ سے سلی ہوئی POS برآمدات",
-          "description": "آدھے قریبی دور میں لوگ اسپریڈشیٹ کو اکٹھا کرتے ہیں — تجزیہ نہیں۔",
+          "description": "آدھے قریبی دور میں لوگ اسپریڈشیٹ کو اکٹھا کرتے ہیں - تجزیہ نہیں۔",
           "icon": "integration"
         },
         {
@@ -567,7 +567,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "لائیو مارجن انٹیلی جنس",
-          "description": "خالص آمدنی، خوراک کی قیمت %، مزدوری %، اور شراکت کے مارجن کو شفٹ کے ذریعے اپ ڈیٹ کریں — مہینے کے لحاظ سے نہیں۔ ویرینس نے اس کے کھلتے ہی جھنڈا لگایا۔",
+          "description": "خالص آمدنی، خوراک کی قیمت %، مزدوری %، اور شراکت کے مارجن کو شفٹ کے ذریعے اپ ڈیٹ کریں - مہینے کے لحاظ سے نہیں۔ ویرینس نے اس کے کھلتے ہی جھنڈا لگایا۔",
           "product": "Insights · Revenue + Profit",
           "icon": "chart"
         },
@@ -579,7 +579,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "خودکار POS مفاہمت",
-          "description": "پی او ایس، لیبر، انوینٹری، اکاؤنٹنگ — ایک لیجر میں متحد ہیں اس لیے قریبی سائیکل دنوں میں نہیں بلکہ گھنٹوں میں چلتے ہیں۔ (POS)",
+          "description": "پی او ایس، لیبر، انوینٹری، اکاؤنٹنگ - ایک لیجر میں متحد ہیں اس لیے قریبی سائیکل دنوں میں نہیں بلکہ گھنٹوں میں چلتے ہیں۔ (POS)",
           "product": "Sundae Core",
           "icon": "integration"
         },
@@ -600,7 +600,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "شفٹ میں مارجن لیک کو پکڑیں۔",
-          "description": "voids, comps, over-courage — مقام پر جھنڈا لگا دیا گیا ہے جبکہ ابھی عمل کرنے کا وقت ہے۔",
+          "description": "voids, comps, over-courage - مقام پر جھنڈا لگا دیا گیا ہے جبکہ ابھی عمل کرنے کا وقت ہے۔",
           "icon": "owners"
         },
         {
@@ -610,7 +610,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "پیشین گوئیاں جن پر آپ اپنے نام پر دستخط کرتے ہیں۔",
-          "description": "Foresight reasons over operating data + market signal — and tells you its confidence band.",
+          "description": "Foresight reasons over operating data + market signal - and tells you its confidence band.",
           "icon": "support"
         }
       ],
@@ -698,7 +698,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "जिन पूर्वानुमानों पर आप अपना नाम हस्ताक्षरित करते हैं",
-          "description": "Foresight reasons over operating data + market signal — and tells you its confidence band.",
+          "description": "Foresight reasons over operating data + market signal - and tells you its confidence band.",
           "icon": "support"
         }
       ],
@@ -786,7 +786,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Previsioni a cui firmi",
-          "description": "Foresight reasons over operating data + market signal — and tells you its confidence band.",
+          "description": "Foresight reasons over operating data + market signal - and tells you its confidence band.",
           "icon": "support"
         }
       ],
@@ -843,7 +843,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Otomatik POS mutabakatı",
-          "description": "POS, işçilik, envanter, muhasebe — tek bir defterde birleştirildi, böylece yakın döngüler günler değil saatler içinde gerçekleştirilir.",
+          "description": "POS, işçilik, envanter, muhasebe - tek bir defterde birleştirildi, böylece yakın döngüler günler değil saatler içinde gerçekleştirilir.",
           "product": "Sundae Core",
           "icon": "integration"
         },
@@ -874,7 +874,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Adınızı imzaladığınız tahminler",
-          "description": "Foresight reasons over operating data + market signal — and tells you its confidence band.",
+          "description": "Foresight reasons over operating data + market signal - and tells you its confidence band.",
           "icon": "support"
         }
       ],
@@ -931,7 +931,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "自动 POS 对账",
-          "description": "POS、劳动力、库存、会计——统一到一个分类账中，这样紧密的周期只需几小时而不是几天即可运行。",
+          "description": "POS、劳动力、库存、会计--统一到一个分类账中，这样紧密的周期只需几小时而不是几天即可运行。",
           "product": "Sundae Core",
           "icon": "integration"
         },
@@ -952,7 +952,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "捕捉班次中的边际泄漏",
-          "description": "空洞、补偿、过度覆盖——在仍有时间采取行动时在该位置进行标记。",
+          "description": "空洞、补偿、过度覆盖--在仍有时间采取行动时在该位置进行标记。",
           "icon": "owners"
         },
         {
@@ -962,7 +962,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "您签名的预测",
-          "description": "Foresight reasons over operating data + market signal — and tells you its confidence band.",
+          "description": "Foresight reasons over operating data + market signal - and tells you its confidence band.",
           "icon": "support"
         }
       ],
@@ -1019,13 +1019,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Automated POS reconciliation",
-          "description": "Punkt sprzedaży, praca, zapasy, księgowość — zunifikowane w jednej księdze, dzięki czemu cykle trwają godzinami, a nie dniami. (POS)",
+          "description": "Punkt sprzedaży, praca, zapasy, księgowość - zunifikowane w jednej księdze, dzięki czemu cykle trwają godzinami, a nie dniami. (POS)",
           "product": "Sundae Core",
           "icon": "integration"
         },
         {
           "title": "Prognozy, których zarząd może bronić",
-          "description": "Projekcje EBITDA na okres 14–90 dni z uwzględnieniem sygnału rynkowego, samokorygujące przy dostawach cotygodniowych.",
+          "description": "Projekcje EBITDA na okres 14-90 dni z uwzględnieniem sygnału rynkowego, samokorygujące przy dostawach cotygodniowych.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1040,7 +1040,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Złap wyciek marginesu na zmianie",
-          "description": "Pustki, kompozycje, nadmierny zasięg — oznaczane na miejscu, dopóki jest jeszcze czas na działanie.",
+          "description": "Pustki, kompozycje, nadmierny zasięg - oznaczane na miejscu, dopóki jest jeszcze czas na działanie.",
           "icon": "owners"
         },
         {
@@ -1050,7 +1050,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Prognozy, pod którymi się podpisujesz",
-          "description": "Foresight opiera się na danych operacyjnych + sygnale rynkowym – i informuje o jego przedziale ufności.",
+          "description": "Foresight opiera się na danych operacyjnych + sygnale rynkowym - i informuje o jego przedziale ufności.",
           "icon": "support"
         }
       ],
@@ -1107,7 +1107,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "자동화된 POS 조정",
-          "description": "POS, 노동, 재고, 회계 — 하나의 원장으로 통합되어 마감 주기가 며칠이 아닌 몇 시간 내에 실행됩니다.",
+          "description": "POS, 노동, 재고, 회계 - 하나의 원장으로 통합되어 마감 주기가 며칠이 아닌 몇 시간 내에 실행됩니다.",
           "product": "Sundae Core",
           "icon": "integration"
         },
@@ -1128,7 +1128,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "교대근무 중 마진 누출을 잡아라",
-          "description": "무효, 보상, 과잉 보장 — 아직 조치를 취할 시간이 있는 동안 해당 위치에 표시됩니다.",
+          "description": "무효, 보상, 과잉 보장 - 아직 조치를 취할 시간이 있는 동안 해당 위치에 표시됩니다.",
           "icon": "owners"
         },
         {
@@ -1195,7 +1195,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "自動化されたPOS調整",
-          "description": "POS、労務、在庫、会計 — 1 つの台帳に統合されるため、緊密なサイクルは数日ではなく数時間で実行されます。",
+          "description": "POS、労務、在庫、会計 - 1 つの台帳に統合されるため、緊密なサイクルは数日ではなく数時間で実行されます。",
           "product": "Sundae Core",
           "icon": "integration"
         },
@@ -1216,7 +1216,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "シフト中のキャッチマージンリーク",
-          "description": "ボイド、コンプ、オーバーカバレッジ — 行動する時間がまだあるうちに、その場所でフラグが立てられます。",
+          "description": "ボイド、コンプ、オーバーカバレッジ - 行動する時間がまだあるうちに、その場所でフラグが立てられます。",
           "icon": "owners"
         },
         {
@@ -1257,7 +1257,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Ekspor POS jahitan tangan",
-          "description": "Setengah dari siklus penutupan adalah orang-orang menempelkan spreadsheet — bukan analisis.",
+          "description": "Setengah dari siklus penutupan adalah orang-orang menempelkan spreadsheet - bukan analisis.",
           "icon": "integration"
         },
         {
@@ -1271,7 +1271,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Kecerdasan margin langsung",
-          "description": "Pendapatan bersih,% biaya makanan,% tenaga kerja, dan margin kontribusi diperbarui berdasarkan shift — bukan berdasarkan bulan. Variance ditandai saat dibuka.",
+          "description": "Pendapatan bersih,% biaya makanan,% tenaga kerja, dan margin kontribusi diperbarui berdasarkan shift - bukan berdasarkan bulan. Variance ditandai saat dibuka.",
           "product": "Insights · Revenue + Profit",
           "icon": "chart"
         },
@@ -1283,13 +1283,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Rekonsiliasi POS otomatis",
-          "description": "POS, tenaga kerja, inventaris, akuntansi — disatukan menjadi satu buku besar sehingga siklus yang erat berjalan dalam hitungan jam, bukan hari.",
+          "description": "POS, tenaga kerja, inventaris, akuntansi - disatukan menjadi satu buku besar sehingga siklus yang erat berjalan dalam hitungan jam, bukan hari.",
           "product": "Sundae Core",
           "icon": "integration"
         },
         {
           "title": "Perkiraan yang dapat dipertahankan oleh dewan",
-          "description": "Proyeksi EBITDA 14–90 hari yang dilengkapi dengan sinyal pasar, terkoreksi sendiri pada pengiriman mingguan.",
+          "description": "Proyeksi EBITDA 14-90 hari yang dilengkapi dengan sinyal pasar, terkoreksi sendiri pada pengiriman mingguan.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1304,7 +1304,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Tangkap kebocoran margin dalam shift",
-          "description": "Void, comps, over-coverage — ditandai di lokasi selagi masih ada waktu untuk bertindak.",
+          "description": "Void, comps, over-coverage - ditandai di lokasi selagi masih ada waktu untuk bertindak.",
           "icon": "owners"
         },
         {
@@ -1314,7 +1314,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Perkiraan tempat Anda menandatangani nama Anda",
-          "description": "Foresight reasons over operating data + market signal — and tells you its confidence band.",
+          "description": "Foresight reasons over operating data + market signal - and tells you its confidence band.",
           "icon": "support"
         }
       ],
@@ -1371,13 +1371,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Reconciliere automată POS",
-          "description": "POS, forță de muncă, inventar, contabilitate — unificate într-un singur registru, astfel încât ciclurile apropiate se desfășoară în ore, nu în zile.",
+          "description": "POS, forță de muncă, inventar, contabilitate - unificate într-un singur registru, astfel încât ciclurile apropiate se desfășoară în ore, nu în zile.",
           "product": "Sundae Core",
           "icon": "integration"
         },
         {
           "title": "Prognozele pe care consiliul le poate apăra",
-          "description": "Proiecții EBITDA pe 14–90 de zile, stratificate cu semnalul pieței, care se auto-corectează la livrarea săptămânală.",
+          "description": "Proiecții EBITDA pe 14-90 de zile, stratificate cu semnalul pieței, care se auto-corectează la livrarea săptămânală.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1392,7 +1392,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Prinde scurgere de marjă în schimb",
-          "description": "Goluri, compoziții, supraacoperire — semnalate la locație cât mai aveți timp să acționați.",
+          "description": "Goluri, compoziții, supraacoperire - semnalate la locație cât mai aveți timp să acționați.",
           "icon": "owners"
         },
         {
@@ -1402,7 +1402,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Prognoze la care vă semnați numele",
-          "description": "Foresight reasons over operating data + market signal — and tells you its confidence band.",
+          "description": "Foresight reasons over operating data + market signal - and tells you its confidence band.",
           "icon": "support"
         }
       ],
@@ -1433,7 +1433,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "হাতে সেলাই করা POS রপ্তানি",
-          "description": "অর্ধেক ঘনিষ্ঠ চক্র মানুষ স্প্রেডশীট একসাথে আঠালো — বিশ্লেষণ নয়.",
+          "description": "অর্ধেক ঘনিষ্ঠ চক্র মানুষ স্প্রেডশীট একসাথে আঠালো - বিশ্লেষণ নয়.",
           "icon": "integration"
         },
         {
@@ -1447,7 +1447,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "লাইভ মার্জিন বুদ্ধিমত্তা",
-          "description": "নিট রাজস্ব, খাদ্য খরচ %, শ্রম %, এবং অবদানের মার্জিন পরিবর্তনের মাধ্যমে আপডেট করুন — মাসে নয়। ভ্যারিয়েন্স এটি খোলার মুহূর্তে ফ্ল্যাগ করেছে।",
+          "description": "নিট রাজস্ব, খাদ্য খরচ %, শ্রম %, এবং অবদানের মার্জিন পরিবর্তনের মাধ্যমে আপডেট করুন - মাসে নয়। ভ্যারিয়েন্স এটি খোলার মুহূর্তে ফ্ল্যাগ করেছে।",
           "product": "Insights · Revenue + Profit",
           "icon": "chart"
         },
@@ -1459,7 +1459,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "স্বয়ংক্রিয় POS পুনর্মিলন",
-          "description": "POS, শ্রম, ইনভেন্টরি, অ্যাকাউন্টিং — একটি লেজারে একীভূত করা হয়েছে তাই ঘনিষ্ঠ চক্র কয়েক ঘণ্টায় চলে, দিনে নয়।",
+          "description": "POS, শ্রম, ইনভেন্টরি, অ্যাকাউন্টিং - একটি লেজারে একীভূত করা হয়েছে তাই ঘনিষ্ঠ চক্র কয়েক ঘণ্টায় চলে, দিনে নয়।",
           "product": "Sundae Core",
           "icon": "integration"
         },
@@ -1480,7 +1480,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "শিফটে মার্জিন লিক ধরুন",
-          "description": "Voids, comps, ওভার-কভারেজ — অবস্থানে পতাকাঙ্কিত যখন এখনও কাজ করার সময় আছে।",
+          "description": "Voids, comps, ওভার-কভারেজ - অবস্থানে পতাকাঙ্কিত যখন এখনও কাজ করার সময় আছে।",
           "icon": "owners"
         },
         {
@@ -1490,7 +1490,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "আপনি আপনার নাম সাইন ইন পূর্বাভাস",
-          "description": "Foresight reasons over operating data + market signal — and tells you its confidence band.",
+          "description": "Foresight reasons over operating data + market signal - and tells you its confidence band.",
           "icon": "support"
         }
       ],
@@ -1553,7 +1553,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Những dự đoán mà hội đồng quản trị có thể bảo vệ",
-          "description": "Dự báo EBITDA 14–90 ngày được xếp lớp với tín hiệu thị trường, tự điều chỉnh khi phân phối hàng tuần.",
+          "description": "Dự báo EBITDA 14-90 ngày được xếp lớp với tín hiệu thị trường, tự điều chỉnh khi phân phối hàng tuần.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1568,7 +1568,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Bắt rò rỉ lề trong ca",
-          "description": "Vô hiệu, bù đắp, phủ sóng quá mức — được gắn cờ tại vị trí trong khi vẫn còn thời gian để hành động.",
+          "description": "Vô hiệu, bù đắp, phủ sóng quá mức - được gắn cờ tại vị trí trong khi vẫn còn thời gian để hành động.",
           "icon": "owners"
         },
         {
@@ -1578,7 +1578,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Dự đoán bạn ký tên vào",
-          "description": "Foresight reasons over operating data + market signal — and tells you its confidence band.",
+          "description": "Foresight reasons over operating data + market signal - and tells you its confidence band.",
           "icon": "support"
         }
       ],
@@ -1609,7 +1609,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Handsydda POS-exporter",
-          "description": "Halva den nära cykeln är människor som limmar ihop kalkylblad – inte analys.",
+          "description": "Halva den nära cykeln är människor som limmar ihop kalkylblad - inte analys.",
           "icon": "integration"
         },
         {
@@ -1623,7 +1623,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Live marginalintelligens",
-          "description": "Uppdatering av nettointäkter, matkostnadsprocent, arbetskraftsprocent och täckningsbidrag per skift – inte per månad. Varians flaggas när den öppnas.",
+          "description": "Uppdatering av nettointäkter, matkostnadsprocent, arbetskraftsprocent och täckningsbidrag per skift - inte per månad. Varians flaggas när den öppnas.",
           "product": "Insights · Revenue + Profit",
           "icon": "chart"
         },
@@ -1635,13 +1635,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Automatiserad POS-avstämning",
-          "description": "POS, arbete, inventering, redovisning – samlat i en reskontra så nära cykler går i timmar, inte dagar.",
+          "description": "POS, arbete, inventering, redovisning - samlat i en reskontra så nära cykler går i timmar, inte dagar.",
           "product": "Sundae Core",
           "icon": "integration"
         },
         {
           "title": "Prognoser styrelsen kan försvara",
-          "description": "14–90 dagars EBITDA-prognoser i lager med marknadssignal, självkorrigerande vid veckoleverans.",
+          "description": "14-90 dagars EBITDA-prognoser i lager med marknadssignal, självkorrigerande vid veckoleverans.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1656,7 +1656,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Fånga marginalläcka i skiftet",
-          "description": "Tomrum, komp, övertäckning – flaggad på platsen medan det fortfarande finns tid att agera.",
+          "description": "Tomrum, komp, övertäckning - flaggad på platsen medan det fortfarande finns tid att agera.",
           "icon": "owners"
         },
         {
@@ -1666,7 +1666,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Prognoser du skriver ditt namn till",
-          "description": "Foresight reasons over operating data + market signal — and tells you its confidence band.",
+          "description": "Foresight reasons over operating data + market signal - and tells you its confidence band.",
           "icon": "support"
         }
       ],
@@ -1711,7 +1711,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "หน่วยข่าวกรองมาร์จิ้นสด",
-          "description": "รายได้สุทธิ % ต้นทุนอาหาร % แรงงาน และส่วนต่างกำไรที่อัปเดตตามกะ — ไม่ใช่รายเดือน ความแปรปรวนจะติดธงทันทีที่เปิด",
+          "description": "รายได้สุทธิ % ต้นทุนอาหาร % แรงงาน และส่วนต่างกำไรที่อัปเดตตามกะ - ไม่ใช่รายเดือน ความแปรปรวนจะติดธงทันทีที่เปิด",
           "product": "Insights · Revenue + Profit",
           "icon": "chart"
         },
@@ -1723,13 +1723,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "การกระทบยอด POS อัตโนมัติ",
-          "description": "POS, แรงงาน, สินค้าคงคลัง, การบัญชี — รวมเป็นหนึ่งบัญชีแยกประเภท เพื่อให้รอบการปิดดำเนินการเป็นชั่วโมง ไม่ใช่วัน",
+          "description": "POS, แรงงาน, สินค้าคงคลัง, การบัญชี - รวมเป็นหนึ่งบัญชีแยกประเภท เพื่อให้รอบการปิดดำเนินการเป็นชั่วโมง ไม่ใช่วัน",
           "product": "Sundae Core",
           "icon": "integration"
         },
         {
           "title": "การคาดการณ์ที่บอร์ดสามารถป้องกันได้",
-          "description": "ประมาณการ EBITDA ใน 14–90 วันพร้อมสัญญาณตลาด แก้ไขด้วยตนเองในการส่งมอบรายสัปดาห์",
+          "description": "ประมาณการ EBITDA ใน 14-90 วันพร้อมสัญญาณตลาด แก้ไขด้วยตนเองในการส่งมอบรายสัปดาห์",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1754,7 +1754,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "การคาดการณ์ที่คุณลงนามในชื่อของคุณ",
-          "description": "Foresight reasons over operating data + market signal — and tells you its confidence band.",
+          "description": "Foresight reasons over operating data + market signal - and tells you its confidence band.",
           "icon": "support"
         }
       ],
@@ -1785,7 +1785,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Eksport POS jahitan tangan",
-          "description": "Separuh kitaran rapat ialah orang yang melekatkan hamparan bersama — bukan analisis.",
+          "description": "Separuh kitaran rapat ialah orang yang melekatkan hamparan bersama - bukan analisis.",
           "icon": "integration"
         },
         {
@@ -1799,7 +1799,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Perisikan margin langsung",
-          "description": "Hasil bersih, % kos makanan, % buruh dan caruman kemas kini mengikut syif — bukan mengikut bulan. Variance dibenderakan sebaik sahaja ia dibuka.",
+          "description": "Hasil bersih, % kos makanan, % buruh dan caruman kemas kini mengikut syif - bukan mengikut bulan. Variance dibenderakan sebaik sahaja ia dibuka.",
           "product": "Insights · Revenue + Profit",
           "icon": "chart"
         },
@@ -1811,13 +1811,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Penyesuaian POS automatik",
-          "description": "POS, buruh, inventori, perakaunan — disatukan menjadi satu lejar supaya kitaran rapat berjalan dalam jam, bukan hari.",
+          "description": "POS, buruh, inventori, perakaunan - disatukan menjadi satu lejar supaya kitaran rapat berjalan dalam jam, bukan hari.",
           "product": "Sundae Core",
           "icon": "integration"
         },
         {
           "title": "Ramalan lembaga boleh mempertahankan",
-          "description": "Unjuran EBITDA 14–90 hari berlapis dengan isyarat pasaran, pembetulan sendiri pada penghantaran mingguan.",
+          "description": "Unjuran EBITDA 14-90 hari berlapis dengan isyarat pasaran, pembetulan sendiri pada penghantaran mingguan.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1832,7 +1832,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Tangkap kebocoran margin dalam syif",
-          "description": "Kekosongan, kekosongan, liputan berlebihan — dibenderakan di lokasi sementara masih ada masa untuk bertindak.",
+          "description": "Kekosongan, kekosongan, liputan berlebihan - dibenderakan di lokasi sementara masih ada masa untuk bertindak.",
           "icon": "owners"
         },
         {
@@ -1842,7 +1842,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Ramalan yang anda tandatangani nama anda",
-          "description": "Foresight reasons over operating data + market signal — and tells you its confidence band.",
+          "description": "Foresight reasons over operating data + market signal - and tells you its confidence band.",
           "icon": "support"
         }
       ],

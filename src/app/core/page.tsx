@@ -698,7 +698,7 @@ export default function CoreProductPage() {
         </div>
       </section>
 
-      {/* Pulse — Included with Core */}
+      {/* Pulse - Included with Core */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
@@ -719,7 +719,7 @@ export default function CoreProductPage() {
               height={1000}
               dark="/images/product/2026-fresh/pulse-sales-dark.png"
               light="/images/product/2026-fresh/pulse-sales.png"
-              alt="Pulse — live shift command center: actual vs target pacing, end-of-day projection, and net sales, covers, and average check"
+              alt="Pulse - live shift command center: actual vs target pacing, end-of-day projection, and net sales, covers, and average check"
             />
           </div>
 
@@ -850,7 +850,7 @@ export default function CoreProductPage() {
         </div>
       </section>
 
-      {/* Product gallery — Core surfaces in detail */}
+      {/* Product gallery - Core surfaces in detail */}
       <SectionProductGallery
         productFilter="/core"
         hideFilter

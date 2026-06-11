@@ -24,7 +24,7 @@ import {
 } from "@/lib/i18n";
 import { LocaleProvider } from "@/components/i18n/LocaleProvider";
 
-// Display — warm, optical serif for headlines & key numbers (the human, premium voice).
+// Display - warm, optical serif for headlines & key numbers (the human, premium voice).
 const fraunces = Fraunces({
   variable: "--font-fraunces",
   subsets: ["latin"],
@@ -32,14 +32,14 @@ const fraunces = Fraunces({
   display: "swap",
 });
 
-// Body / UI — friendly, legible grotesk; the default sans (replaces Geist).
+// Body / UI - friendly, legible grotesk; the default sans (replaces Geist).
 const hankenGrotesk = Hanken_Grotesk({
   variable: "--font-hanken",
   subsets: ["latin"],
   display: "swap",
 });
 
-// Mono — retained for tabular / data labels.
+// Mono - retained for tabular / data labels.
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
@@ -141,7 +141,7 @@ export default async function RootLayout({
     <html lang={locale} dir={dir} className={`${fraunces.variable} ${hankenGrotesk.variable} ${geistMono.variable}`} suppressHydrationWarning>
       <head>
         <ThemeScript />
-        {/* Vercel BotID — instruments the expensive AI diagnostic endpoint so
+        {/* Vercel BotID - instruments the expensive AI diagnostic endpoint so
             bots/crawlers are classified client-side and rejected server-side
             (see src/app/api/diagnostic/route.ts) before any paid model call. */}
         <BotIdClient protect={[{ path: "/api/diagnostic", method: "POST" }]} />

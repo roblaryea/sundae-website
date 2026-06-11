@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 
 /**
- * Section 6 — 4D Intelligence Model (homepage-spec-v1.1, polish r4 refactor).
+ * Section 6 - 4D Intelligence Model (homepage-spec-v1.1, polish r4 refactor).
  *
  * Conversion job: explain product. ONE concrete operational scenario unfolds
  * across four dimensions (What happened → Plan vs actual → Market context →
@@ -13,9 +13,9 @@ import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
  * Polish r4 changes (vs r1 GSAP-pinned implementation):
  *   - Removed GSAP ScrollTrigger and the h-screen pin (was creating dead space
  *     and overstating section weight without adding clarity)
- *   - Added explicit section signposting — buyer now knows it's the "4D
+ *   - Added explicit section signposting - buyer now knows it's the "4D
  *     Intelligence Model" and what dimensions to expect before content starts
- *   - Auto-cycle every 5.5s with hover/click pause — section is alive without
+ *   - Auto-cycle every 5.5s with hover/click pause - section is alive without
  *     scroll dependency
  *   - Dimension eyebrows promoted to global eyebrow class (now 13/14/15px
  *     responsive) for proper hierarchy
@@ -39,7 +39,7 @@ const dimensions: Dimension[] = [
     shortLabel: "What happened",
     eyebrow: "WHAT HAPPENED",
     title: "Covers are down 22%.",
-    body: "Average check is steady, so the issue is traffic — not pricing.",
+    body: "Average check is steady, so the issue is traffic - not pricing.",
   },
   {
     id: 2,
@@ -69,7 +69,7 @@ export function Section4DScene() {
   const [activeIdx, setActiveIdx] = useState(0);
   const [paused, setPaused] = useState(false);
 
-  // Auto-cycle through dimensions every 5.5s — pauses on hover/focus
+  // Auto-cycle through dimensions every 5.5s - pauses on hover/focus
   useEffect(() => {
     if (reduceMotion || paused) return;
     const id = setInterval(() => {
@@ -84,7 +84,7 @@ export function Section4DScene() {
       className="relative bg-mesh"
     >
       <div className="max-w-7xl mx-auto px-6 sm:px-8 py-14 sm:py-18 lg:py-20">
-        {/* Section signposting — tightened to one headline + one-line subhead */}
+        {/* Section signposting - tightened to one headline + one-line subhead */}
         <div className="text-center max-w-3xl mx-auto mb-6 sm:mb-7">
           <div className="eyebrow mb-4">THE 4D INTELLIGENCE MODEL</div>
           <h2 id="fourD-headline" className="section-h2 text-balance mb-5">
@@ -92,11 +92,11 @@ export function Section4DScene() {
           </h2>
           <p className="body-lg max-w-2xl mx-auto">
             Sundae connects performance, plan, market context, and next
-            action — so teams can move before the shift is over.
+            action - so teams can move before the shift is over.
           </p>
         </div>
 
-        {/* Compact scenario hook — one line, no dual-stack title */}
+        {/* Compact scenario hook - one line, no dual-stack title */}
         <div className="text-center max-w-3xl mx-auto mb-5 sm:mb-6">
           <div className="text-[12px] sm:text-[13px] uppercase tracking-[0.18em] text-[var(--electric-blue)] font-bold mb-3">
             TUESDAY · 9:14 AM · DOWNTOWN
@@ -118,7 +118,7 @@ export function Section4DScene() {
           onMouseLeave={() => setPaused(false)}
           onFocus={() => setPaused(true)}
         >
-          {/* Dimension breadcrumb — sentence case, "01 What happened" feel.
+          {/* Dimension breadcrumb - sentence case, "01 What happened" feel.
               Active pill: blue bg + glow. Inactive: muted surface, easier to read. */}
           <div className="flex flex-wrap justify-center items-center gap-x-2 gap-y-2 text-[13px] sm:text-[14px] mb-5 sm:mb-6">
             {dimensions.map((d, i) => {
@@ -177,17 +177,17 @@ export function Section4DScene() {
               </AnimatePresence>
             </div>
 
-            {/* Visual — morphs with active dimension */}
+            {/* Visual - morphs with active dimension */}
             <div>
               <SceneVisual activeIdx={activeIdx} />
             </div>
           </div>
         </div>
 
-        {/* Closing line — section-level. Page-level closing CTA lives in the
+        {/* Closing line - section-level. Page-level closing CTA lives in the
             global Footer pre-CTA so we don't double up CTAs at the page bottom. */}
         <p className="text-center text-xl sm:text-2xl text-[var(--text-primary)] italic font-light max-w-2xl mx-auto mt-14 sm:mt-16">
-          From signal to cause to action — before the shift ends.
+          From signal to cause to action - before the shift ends.
         </p>
       </div>
     </section>
@@ -211,7 +211,7 @@ function SceneVisual({ activeIdx }: { activeIdx: number }) {
         <span className="w-[10px] h-[10px] rounded-full bg-[#FFBD2E]" />
         <span className="w-[10px] h-[10px] rounded-full bg-[#28C840]" />
         <span className="ml-3 text-[11px] text-[var(--text-muted)] font-medium">
-          Pulse — Downtown · Lunch Service
+          Pulse - Downtown · Lunch Service
         </span>
         <span className="ml-auto text-[9px] uppercase tracking-[0.14em] font-bold text-[var(--brand-yellow)]/80">
           Illustrative
@@ -223,7 +223,7 @@ function SceneVisual({ activeIdx }: { activeIdx: number }) {
         <div className="rounded-lg bg-[var(--surface-subtle)] border border-[var(--border-default)] p-4">
           <div className="flex items-center justify-between mb-3">
             <div className="text-[11px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
-              Lunch covers — today vs same day last week
+              Lunch covers - today vs same day last week
             </div>
             <span className="text-[10px] text-[#FF5450] font-mono">−22% WoW</span>
           </div>
@@ -272,7 +272,7 @@ function SceneVisual({ activeIdx }: { activeIdx: number }) {
                 </div>
               </div>
               <div className="mt-3 pt-3 border-t border-[var(--border-default)] text-[11px] text-[var(--text-muted)]">
-                Labor still on baseline — overstaffed for this volume.
+                Labor still on baseline - overstaffed for this volume.
               </div>
             </motion.div>
           )}
@@ -304,7 +304,7 @@ function SceneVisual({ activeIdx }: { activeIdx: number }) {
                 </li>
                 <li>
                   <span className="text-[var(--text-muted)]">·</span>{" "}
-                  Office-tower fire drill scheduled 11–12, 2 blocks away
+                  Office-tower fire drill scheduled 11-12, 2 blocks away
                 </li>
               </ul>
             </motion.div>
@@ -329,7 +329,7 @@ function SceneVisual({ activeIdx }: { activeIdx: number }) {
                 Sundae Coach
               </div>
               <p className="text-[12px] text-[var(--text-primary)] leading-relaxed">
-                Adjust one line-cook shift from 11–2 if coverage allows. Push
+                Adjust one line-cook shift from 11-2 if coverage allows. Push
                 the $11.99 lunch combo via loyalty.{" "}
                 <span className="text-[var(--text-secondary)]">
                   Projected impact: recover part of the gap if executed before

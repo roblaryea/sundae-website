@@ -5,7 +5,7 @@ export const generatedLocalCopy = {
     "de": {
       "eyebrow": "GEBAUT FÜR BETREIBER",
       "headline": "Von Restaurantbetreibern in allen Formaten geprägt.",
-      "description": "QSR, Casual Dining, Fine Dining, Cloud Kitchens und Gastronomiegruppen informieren die Intelligenzschicht, die Restaurants tatsächlich benötigen – von Einzelbetrieben bis hin zu Multi-Brand-Portfolios.",
+      "description": "QSR, Casual Dining, Fine Dining, Cloud Kitchens und Gastronomiegruppen informieren die Intelligenzschicht, die Restaurants tatsächlich benötigen - von Einzelbetrieben bis hin zu Multi-Brand-Portfolios.",
       "stats": [
         {
           "value": "12",
@@ -33,11 +33,11 @@ export const generatedLocalCopy = {
       "withSundaeLabel": "Mit Sundae",
       "industryClaims": [
         {
-          "industry": "Teams warten 2–3 Tage auf Berichte, Exporte oder Analysten-Nachverfolgungen. Bis die Antwort eintrifft, hat bereits der Schichtwechsel stattgefunden.",
+          "industry": "Teams warten 2-3 Tage auf Berichte, Exporte oder Analysten-Nachverfolgungen. Bis die Antwort eintrifft, hat bereits der Schichtwechsel stattgefunden.",
           "sundae": "Sundae Intelligence liefert Teams in Sekunden quellenbasierte Antworten über die Systeme, die sie bereits nutzen."
         },
         {
-          "industry": "Stornierungen, Kompensationen, Rabatte und POS-Ausnahmen sind für sich genommen gering. Unüberprüft können sie zwischen 1–3 % des Umsatzes und Margenverlusts verursachen.",
+          "industry": "Stornierungen, Kompensationen, Rabatte und POS-Ausnahmen sind für sich genommen gering. Unüberprüft können sie zwischen 1-3 % des Umsatzes und Margenverlusts verursachen.",
           "sundae": "Pulse kennzeichnet Ausnahme-Muster während der Schicht, die dem Server, der Tageszeit, dem Standort oder dem Verhalten zugeordnet sind, das sie verursacht."
         },
         {
@@ -50,7 +50,7 @@ export const generatedLocalCopy = {
     "fr": {
       "eyebrow": "CONSTRUIT AVEC DES OPÉRATEURS",
       "headline": "Façonné par des opérateurs de restaurant dans tous les formats.",
-      "description": "Les QSR, la restauration décontractée, la haute cuisine, les cuisines cloud et les groupes hôteliers informent la couche d'intelligence dont les restaurants ont réellement besoin — des opérateurs de magasins uniques aux portefeuilles multi-marques.",
+      "description": "Les QSR, la restauration décontractée, la haute cuisine, les cuisines cloud et les groupes hôteliers informent la couche d'intelligence dont les restaurants ont réellement besoin - des opérateurs de magasins uniques aux portefeuilles multi-marques.",
       "stats": [
         {
           "value": "12",
@@ -140,7 +140,7 @@ export const generatedLocalCopy = {
     "nl": {
       "eyebrow": "GEBOUWD MET OPERATORS",
       "headline": "Vormgegeven door restaurantoperators in elk formaat.",
-      "description": "QSR, casual dining, fine dining, cloudkeukens en horecagroepen informeren de intelligentielaag die restaurants daadwerkelijk nodig hebben — van eenpersoonszaken tot multi-merkportefeuilles.",
+      "description": "QSR, casual dining, fine dining, cloudkeukens en horecagroepen informeren de intelligentielaag die restaurants daadwerkelijk nodig hebben - van eenpersoonszaken tot multi-merkportefeuilles.",
       "stats": [
         {
           "value": "12",
@@ -168,11 +168,11 @@ export const generatedLocalCopy = {
       "withSundaeLabel": "Met Sundae",
       "industryClaims": [
         {
-          "industry": "Teams wachten 2–3 dagen op rapporten, exports of follow-ups van analisten. Tegen de tijd dat het antwoord arriveert, is de shift al voorbij.",
+          "industry": "Teams wachten 2-3 dagen op rapporten, exports of follow-ups van analisten. Tegen de tijd dat het antwoord arriveert, is de shift al voorbij.",
           "sundae": "Sundae Intelligence geeft teams binnen enkele seconden bronvermelde antwoorden, via de systemen die ze al gebruiken."
         },
         {
-          "industry": "Voids, comps, kortingen en POS-uitzonderingen zijn op zichzelf klein. Onbeoordeeld kunnen ze tussen de 1–3% van de omzet en margeverlies veroorzaken.",
+          "industry": "Voids, comps, kortingen en POS-uitzonderingen zijn op zichzelf klein. Onbeoordeeld kunnen ze tussen de 1-3% van de omzet en margeverlies veroorzaken.",
           "sundae": "Pulse markeert uitzonderingpatronen tijdens de shift, toegeschreven aan de server, dagdeel, locatie of gedrag dat ze veroorzaakt."
         },
         {
@@ -185,7 +185,7 @@ export const generatedLocalCopy = {
     "pt": {
       "eyebrow": "CONSTRUÍDO COM OPERADORES",
       "headline": "Formado por operadores de restaurantes de todos os formatos.",
-      "description": "QSR, restaurantes informais, alta gastronomia, cozinhas cloud e grupos de hospitalidade informam a camada de inteligência que os restaurantes realmente precisam — desde operadores de uma única loja até portfólios de várias marcas.",
+      "description": "QSR, restaurantes informais, alta gastronomia, cozinhas cloud e grupos de hospitalidade informam a camada de inteligência que os restaurantes realmente precisam - desde operadores de uma única loja até portfólios de várias marcas.",
       "stats": [
         {
           "value": "12",
@@ -230,7 +230,7 @@ export const generatedLocalCopy = {
     "hi": {
       "eyebrow": "ऑपरेटरों के साथ निर्मित",
       "headline": "हर प्रारूप में रेस्तरां संचालकों द्वारा आकारित।",
-      "description": "QSR, कैजुअल डाइनिंग, फाइन डाइनिंग, क्लाउड किचन और हॉस्पिटैलिटी समूहों से मिली जानकारी वह बुद्धिमत्ता परत है जिसकी रेस्तरां को वास्तव में आवश्यकता है — एकल-शॉप ऑपरेटर से लेकर मल्टी-ब्रांड पोर्टफोलियो तक।",
+      "description": "QSR, कैजुअल डाइनिंग, फाइन डाइनिंग, क्लाउड किचन और हॉस्पिटैलिटी समूहों से मिली जानकारी वह बुद्धिमत्ता परत है जिसकी रेस्तरां को वास्तव में आवश्यकता है - एकल-शॉप ऑपरेटर से लेकर मल्टी-ब्रांड पोर्टफोलियो तक।",
       "stats": [
         {
           "value": "12",
@@ -275,7 +275,7 @@ export const generatedLocalCopy = {
     "it": {
       "eyebrow": "CREATO CON GLI OPERATORI",
       "headline": "Modellato dagli operatori di ristoranti in ogni formato.",
-      "description": "QSR, ristorazione informale, ristorazione di alta classe, cucine cloud e gruppi di ospitalità informano il livello di intelligenza di cui i ristoranti hanno realmente bisogno — da operatori singoli a portafogli multi-brand.",
+      "description": "QSR, ristorazione informale, ristorazione di alta classe, cucine cloud e gruppi di ospitalità informano il livello di intelligenza di cui i ristoranti hanno realmente bisogno - da operatori singoli a portafogli multi-brand.",
       "stats": [
         {
           "value": "12",
@@ -303,7 +303,7 @@ export const generatedLocalCopy = {
       "withSundaeLabel": "Con Sundae",
       "industryClaims": [
         {
-          "industry": "I team aspettano 2–3 giorni per report, esportazioni o follow-up degli analisti. Quando arriva la risposta, il turno è già passato.",
+          "industry": "I team aspettano 2-3 giorni per report, esportazioni o follow-up degli analisti. Quando arriva la risposta, il turno è già passato.",
           "sundae": "Sundae Intelligence fornisce risposte con fonti citate in pochi secondi, attraverso i sistemi che già utilizzano."
         },
         {
@@ -320,7 +320,7 @@ export const generatedLocalCopy = {
     "ar": {
       "eyebrow": "مبني مع المشغلين",
       "headline": "شكلته مشغلي المطاعم عبر كل صيغة.",
-      "description": "تساعد مطاعم الوجبات السريعة، والمطاعم غير الرسمية، والمطاعم الراقية، والمطابخ السحابية، ومجموعات الضيافة في تشكيل طبقة الذكاء التي تحتاجها المطاعم فعليًا — من مشغلي المتاجر الفردية إلى محافظ العلامات التجارية المتعددة.",
+      "description": "تساعد مطاعم الوجبات السريعة، والمطاعم غير الرسمية، والمطاعم الراقية، والمطابخ السحابية، ومجموعات الضيافة في تشكيل طبقة الذكاء التي تحتاجها المطاعم فعليًا - من مشغلي المتاجر الفردية إلى محافظ العلامات التجارية المتعددة.",
       "stats": [
         {
           "value": "12",
@@ -365,7 +365,7 @@ export const generatedLocalCopy = {
     "ur": {
       "eyebrow": "آپریٹرز کے ساتھ بنایا گیا",
       "headline": "ہر شکل میں ریستوران کے آپریٹرز کے ذریعہ تشکیل دیا گیا۔",
-      "description": "QSR، غیر رسمی کھانے، عمدہ کھانے، کلاؤڈ کچنز، اور مہمان نوازی کے گروپ وہ ذہانت کی تہہ فراہم کرتے ہیں جس کی ریستورانوں کو واقعی ضرورت ہے — ایک دکان کے آپریٹرز سے لے کر کثیر برانڈ پورٹ فولیوز تک۔",
+      "description": "QSR، غیر رسمی کھانے، عمدہ کھانے، کلاؤڈ کچنز، اور مہمان نوازی کے گروپ وہ ذہانت کی تہہ فراہم کرتے ہیں جس کی ریستورانوں کو واقعی ضرورت ہے - ایک دکان کے آپریٹرز سے لے کر کثیر برانڈ پورٹ فولیوز تک۔",
       "stats": [
         {
           "value": "12",
@@ -393,11 +393,11 @@ export const generatedLocalCopy = {
       "withSundaeLabel": "Sundae کے ساتھ",
       "industryClaims": [
         {
-          "industry": "ٹیمیں رپورٹس، برآمدات، یا تجزیہ کار کی پیروی کے لیے 2–3 دن انتظار کرتی ہیں۔ جواب آنے تک، تبدیلی پہلے ہی ہو چکی ہوتی ہے۔",
+          "industry": "ٹیمیں رپورٹس، برآمدات، یا تجزیہ کار کی پیروی کے لیے 2-3 دن انتظار کرتی ہیں۔ جواب آنے تک، تبدیلی پہلے ہی ہو چکی ہوتی ہے۔",
           "sundae": "Sundae Intelligence ٹیموں کو ان کے استعمال کردہ نظاموں میں سیکنڈز میں ماخذ حوالہ جات کے ساتھ جوابات فراہم کرتا ہے۔"
         },
         {
-          "industry": "خالی جگہیں، کمپ، رعایتیں، اور POS استثنائیاں اپنی جگہ پر چھوٹی ہوتی ہیں۔ اگر ان کا جائزہ نہ لیا جائے تو یہ آمدنی اور مارجن کی لیکیج کا 1–3% پیدا کر سکتی ہیں۔",
+          "industry": "خالی جگہیں، کمپ، رعایتیں، اور POS استثنائیاں اپنی جگہ پر چھوٹی ہوتی ہیں۔ اگر ان کا جائزہ نہ لیا جائے تو یہ آمدنی اور مارجن کی لیکیج کا 1-3% پیدا کر سکتی ہیں۔",
           "sundae": "Pulse تبدیلی کے دوران استثنائی پیٹرن کو سرور، دن کے حصے، مقام، یا رویے کے مطابق نشان زد کرتا ہے جو انہیں پیدا کرتا ہے۔"
         },
         {
@@ -410,7 +410,7 @@ export const generatedLocalCopy = {
     "tr": {
       "eyebrow": "OPERATÖRLERLE İNŞA EDİLDİ",
       "headline": "Her formatın restoran işletmecileri tarafından şekillendirilmiştir.",
-      "description": "QSR, rahat yemek, şık yemek, bulut mutfakları ve konaklama grupları, restoranların gerçekten ihtiyaç duyduğu zeka katmanını bilgilendirir — tek dükkan işletmelerinden çok markalı portföylere kadar.",
+      "description": "QSR, rahat yemek, şık yemek, bulut mutfakları ve konaklama grupları, restoranların gerçekten ihtiyaç duyduğu zeka katmanını bilgilendirir - tek dükkan işletmelerinden çok markalı portföylere kadar.",
       "stats": [
         {
           "value": "12",
@@ -455,7 +455,7 @@ export const generatedLocalCopy = {
     "pl": {
       "eyebrow": "ZBUDOWANE Z OPERATOREM",
       "headline": "Kształtowane przez operatorów restauracji w każdym formacie.",
-      "description": "QSR, casual dining, fine dining, chmury kuchenne i grupy hotelarskie informują warstwę inteligencji, której restauracje naprawdę potrzebują — od operatorów jednoosobowych po portfele wielomarkowe.",
+      "description": "QSR, casual dining, fine dining, chmury kuchenne i grupy hotelarskie informują warstwę inteligencji, której restauracje naprawdę potrzebują - od operatorów jednoosobowych po portfele wielomarkowe.",
       "stats": [
         {
           "value": "12",
@@ -483,7 +483,7 @@ export const generatedLocalCopy = {
       "withSundaeLabel": "Z Sundae",
       "industryClaims": [
         {
-          "industry": "Zespoły czekają 2–3 dni na raporty, eksporty lub odpowiedzi analityków. Kiedy odpowiedź przychodzi, zmiana już się odbyła.",
+          "industry": "Zespoły czekają 2-3 dni na raporty, eksporty lub odpowiedzi analityków. Kiedy odpowiedź przychodzi, zmiana już się odbyła.",
           "sundae": "Sundae Intelligence dostarcza zespołom odpowiedzi z cytatami źródłowymi w kilka sekund, w systemach, których już używają."
         },
         {
@@ -545,7 +545,7 @@ export const generatedLocalCopy = {
     "zh-Hans": {
       "eyebrow": "由运营商构建",
       "headline": "由各类餐厅运营商塑造。",
-      "description": "快餐、休闲餐饮、高档餐饮、云厨房和酒店集团为餐厅所需的智能层提供信息——从单店经营者到多品牌组合。",
+      "description": "快餐、休闲餐饮、高档餐饮、云厨房和酒店集团为餐厅所需的智能层提供信息--从单店经营者到多品牌组合。",
       "stats": [
         {
           "value": "12",
@@ -590,7 +590,7 @@ export const generatedLocalCopy = {
     "id": {
       "eyebrow": "DIBANGUN DENGAN OPERATOR",
       "headline": "Dibentuk oleh operator restoran di setiap format.",
-      "description": "QSR, santapan kasual, santapan mewah, dapur awan, dan kelompok perhotelan memberikan lapisan intelijen yang sebenarnya dibutuhkan restoran — dari operator tunggal hingga portofolio multi-merek.",
+      "description": "QSR, santapan kasual, santapan mewah, dapur awan, dan kelompok perhotelan memberikan lapisan intelijen yang sebenarnya dibutuhkan restoran - dari operator tunggal hingga portofolio multi-merek.",
       "stats": [
         {
           "value": "12",
@@ -618,11 +618,11 @@ export const generatedLocalCopy = {
       "withSundaeLabel": "Dengan Sundae",
       "industryClaims": [
         {
-          "industry": "Tim menunggu 2–3 hari untuk laporan, ekspor, atau tindak lanjut analis. Begitu jawaban tiba, pergeseran sudah terjadi.",
+          "industry": "Tim menunggu 2-3 hari untuk laporan, ekspor, atau tindak lanjut analis. Begitu jawaban tiba, pergeseran sudah terjadi.",
           "sundae": "Sundae Intelligence memberikan jawaban yang bersumber dalam hitungan detik, di seluruh sistem yang sudah mereka gunakan."
         },
         {
-          "industry": "Void, komponen gratis, diskon, dan pengecualian POS kecil jika dilihat secara terpisah. Jika tidak ditinjau, mereka dapat menyebabkan kebocoran pendapatan dan margin antara 1–3%.",
+          "industry": "Void, komponen gratis, diskon, dan pengecualian POS kecil jika dilihat secara terpisah. Jika tidak ditinjau, mereka dapat menyebabkan kebocoran pendapatan dan margin antara 1-3%.",
           "sundae": "Pulse menandai pola pengecualian selama pergeseran, yang dikaitkan dengan pelayan, waktu, lokasi, atau perilaku yang memicunya."
         },
         {
@@ -680,7 +680,7 @@ export const generatedLocalCopy = {
     "vi": {
       "eyebrow": "XÂY DỰNG BỞI CÁC NHÀ VẬN HÀNH",
       "headline": "Được hình thành bởi các nhà điều hành nhà hàng trên mọi định dạng.",
-      "description": "QSR, ẩm thực bình dân, ẩm thực cao cấp, bếp đám mây và các nhóm khách sạn cung cấp thông tin cho lớp trí tuệ mà các nhà hàng thực sự cần — từ các nhà điều hành cửa hàng đơn lẻ đến các danh mục đa thương hiệu.",
+      "description": "QSR, ẩm thực bình dân, ẩm thực cao cấp, bếp đám mây và các nhóm khách sạn cung cấp thông tin cho lớp trí tuệ mà các nhà hàng thực sự cần - từ các nhà điều hành cửa hàng đơn lẻ đến các danh mục đa thương hiệu.",
       "stats": [
         {
           "value": "12",
@@ -708,11 +708,11 @@ export const generatedLocalCopy = {
       "withSundaeLabel": "Với Sundae",
       "industryClaims": [
         {
-          "industry": "Các nhóm phải chờ 2–3 ngày để nhận báo cáo, xuất khẩu hoặc theo dõi từ nhà phân tích. Khi câu trả lời đến, ca làm việc đã thay đổi.",
+          "industry": "Các nhóm phải chờ 2-3 ngày để nhận báo cáo, xuất khẩu hoặc theo dõi từ nhà phân tích. Khi câu trả lời đến, ca làm việc đã thay đổi.",
           "sundae": "Sundae Intelligence cung cấp cho các nhóm câu trả lời có nguồn gốc trong vài giây, trên các hệ thống mà họ đã sử dụng."
         },
         {
-          "industry": "Các khoản hủy, bù trừ, giảm giá và ngoại lệ POS là nhỏ khi xem xét riêng lẻ. Nếu không được xem xét, chúng có thể tạo ra từ 1–3% doanh thu và lỗ biên.",
+          "industry": "Các khoản hủy, bù trừ, giảm giá và ngoại lệ POS là nhỏ khi xem xét riêng lẻ. Nếu không được xem xét, chúng có thể tạo ra từ 1-3% doanh thu và lỗ biên.",
           "sundae": "Pulse đánh dấu các mẫu ngoại lệ trong ca làm việc, được gán cho nhân viên phục vụ, thời gian trong ngày, địa điểm hoặc hành vi gây ra chúng."
         },
         {
@@ -725,7 +725,7 @@ export const generatedLocalCopy = {
     "ro": {
       "eyebrow": "CONSTRUIT CU OPERATORI",
       "headline": "Modelat de operatorii de restaurante din toate formatele.",
-      "description": "QSR, dining casual, dining rafinat, bucătării cloud și grupuri de ospitalitate informează stratul de inteligență de care au nevoie restaurantele — de la operatori unici la portofolii multi-brand.",
+      "description": "QSR, dining casual, dining rafinat, bucătării cloud și grupuri de ospitalitate informează stratul de inteligență de care au nevoie restaurantele - de la operatori unici la portofolii multi-brand.",
       "stats": [
         {
           "value": "12",
@@ -753,11 +753,11 @@ export const generatedLocalCopy = {
       "withSundaeLabel": "Cu Sundae",
       "industryClaims": [
         {
-          "industry": "Echipele așteaptă 2–3 zile pentru rapoarte, exporturi sau urmăriri ale analiștilor. Până când răspunsul ajunge, schimbul s-a întâmplat deja.",
+          "industry": "Echipele așteaptă 2-3 zile pentru rapoarte, exporturi sau urmăriri ale analiștilor. Până când răspunsul ajunge, schimbul s-a întâmplat deja.",
           "sundae": "Sundae Intelligence oferă echipelor răspunsuri cu surse citate în câteva secunde, în cadrul sistemelor pe care le folosesc deja."
         },
         {
-          "industry": "Anulările, compensațiile, reducerile și excepțiile POS sunt mici de sine stătătoare. Lăsate nesupravegheate, pot crea între 1–3% din pierderile de venituri și marje.",
+          "industry": "Anulările, compensațiile, reducerile și excepțiile POS sunt mici de sine stătătoare. Lăsate nesupravegheate, pot crea între 1-3% din pierderile de venituri și marje.",
           "sundae": "Pulse semnalează tiparele de excepție în timpul schimbului, atribuite serverului, perioadei din zi, locației sau comportamentului care le generează."
         },
         {
@@ -770,7 +770,7 @@ export const generatedLocalCopy = {
     "sv": {
       "eyebrow": "BYGGD MED OPERATÖRER",
       "headline": "Formad av restaurangoperatörer i alla format.",
-      "description": "QSR, avslappnad mat, fin mat, molnkök och gästfrihetsgrupper informerar det intelligenslager som restauranger faktiskt behöver — från enskilda operatörer till fler-märkesportföljer.",
+      "description": "QSR, avslappnad mat, fin mat, molnkök och gästfrihetsgrupper informerar det intelligenslager som restauranger faktiskt behöver - från enskilda operatörer till fler-märkesportföljer.",
       "stats": [
         {
           "value": "12",
@@ -798,11 +798,11 @@ export const generatedLocalCopy = {
       "withSundaeLabel": "Med Sundae",
       "industryClaims": [
         {
-          "industry": "Team väntar 2–3 dagar på rapporter, exporter eller analytikeruppföljningar. När svaret kommer har skiftet redan inträffat.",
+          "industry": "Team väntar 2-3 dagar på rapporter, exporter eller analytikeruppföljningar. När svaret kommer har skiftet redan inträffat.",
           "sundae": "Sundae Intelligence ger team källbelagda svar på sekunder, över de system de redan använder."
         },
         {
-          "industry": "Avdrag, kompensationer, rabatter och POS-undantag är små i sig. Om de lämnas ogranskade kan de skapa mellan 1–3% av intäkterna och marginalförluster.",
+          "industry": "Avdrag, kompensationer, rabatter och POS-undantag är små i sig. Om de lämnas ogranskade kan de skapa mellan 1-3% av intäkterna och marginalförluster.",
           "sundae": "Pulse flaggar undantagsmönster under skiftet, tillskrivna servern, tidsperioden, platsen eller beteendet som driver dem."
         },
         {
@@ -815,7 +815,7 @@ export const generatedLocalCopy = {
     "bn": {
       "eyebrow": "অপারেটরদের দ্বারা নির্মিত",
       "headline": "প্রতিটি ফরম্যাটের রেস্তোরাঁ অপারেটরদের দ্বারা গঠিত।",
-      "description": "QSR, ক্যাজুয়াল ডাইনিং, ফাইন ডাইনিং, ক্লাউড কিচেন এবং হসপিটালিটি গ্রুপগুলি সেই বুদ্ধিমত্তা স্তরকে জানায় যা রেস্তোরাঁগুলোর আসলে প্রয়োজন — একক দোকানের অপারেটর থেকে শুরু করে বহু ব্র্যান্ডের পোর্টফোলিও পর্যন্ত।",
+      "description": "QSR, ক্যাজুয়াল ডাইনিং, ফাইন ডাইনিং, ক্লাউড কিচেন এবং হসপিটালিটি গ্রুপগুলি সেই বুদ্ধিমত্তা স্তরকে জানায় যা রেস্তোরাঁগুলোর আসলে প্রয়োজন - একক দোকানের অপারেটর থেকে শুরু করে বহু ব্র্যান্ডের পোর্টফোলিও পর্যন্ত।",
       "stats": [
         {
           "value": "১২",
@@ -860,7 +860,7 @@ export const generatedLocalCopy = {
     "th": {
       "eyebrow": "สร้างขึ้นโดยผู้ดำเนินการ",
       "headline": "ถูกกำหนดโดยผู้ดำเนินการร้านอาหารในทุกฟอร์แมต.",
-      "description": "QSR, ร้านอาหารสบายๆ, ร้านอาหารหรู, ครัวคลาวด์, และกลุ่มการบริการให้ข้อมูลชั้นเชิงที่ร้านอาหารต้องการจริงๆ — ตั้งแต่ผู้ประกอบการร้านเดียวไปจนถึงพอร์ตโฟลิโอหลายแบรนด์.",
+      "description": "QSR, ร้านอาหารสบายๆ, ร้านอาหารหรู, ครัวคลาวด์, และกลุ่มการบริการให้ข้อมูลชั้นเชิงที่ร้านอาหารต้องการจริงๆ - ตั้งแต่ผู้ประกอบการร้านเดียวไปจนถึงพอร์ตโฟลิโอหลายแบรนด์.",
       "stats": [
         {
           "value": "12",
@@ -888,11 +888,11 @@ export const generatedLocalCopy = {
       "withSundaeLabel": "กับ Sundae",
       "industryClaims": [
         {
-          "industry": "ทีมรอ 2–3 วันสำหรับรายงาน การส่งออก หรือการติดตามจากนักวิเคราะห์ เมื่อคำตอบมาถึง การเปลี่ยนแปลงก็เกิดขึ้นแล้ว",
+          "industry": "ทีมรอ 2-3 วันสำหรับรายงาน การส่งออก หรือการติดตามจากนักวิเคราะห์ เมื่อคำตอบมาถึง การเปลี่ยนแปลงก็เกิดขึ้นแล้ว",
           "sundae": "Sundae Intelligence ให้คำตอบที่มีแหล่งอ้างอิงในไม่กี่วินาที ผ่านระบบที่พวกเขาใช้แล้ว."
         },
         {
-          "industry": "การยกเลิก การชดเชย ส่วนลด และข้อยกเว้นจาก POS เป็นเรื่องเล็กน้อยในตัวมันเอง หากไม่ถูกตรวจสอบ อาจสร้างรายได้และการรั่วไหลของกำไรระหว่าง 1–3%",
+          "industry": "การยกเลิก การชดเชย ส่วนลด และข้อยกเว้นจาก POS เป็นเรื่องเล็กน้อยในตัวมันเอง หากไม่ถูกตรวจสอบ อาจสร้างรายได้และการรั่วไหลของกำไรระหว่าง 1-3%",
           "sundae": "Pulse จะทำการติดธงรูปแบบข้อยกเว้นระหว่างการเปลี่ยนแปลง โดยระบุถึงเซิร์ฟเวอร์ ช่วงเวลา สถานที่ หรือพฤติกรรมที่ทำให้เกิดข้อยกเว้นเหล่านั้น."
         },
         {
@@ -905,7 +905,7 @@ export const generatedLocalCopy = {
     "ms": {
       "eyebrow": "DIBINA DENGAN OPERATORS",
       "headline": "Dibentuk oleh pengendali restoran di setiap format.",
-      "description": "QSR, makan santai, makan mewah, dapur awan, dan kumpulan hospitaliti memberikan lapisan intelijen yang sebenarnya diperlukan restoran — dari pengendali kedai tunggal hingga portfolio pelbagai jenama.",
+      "description": "QSR, makan santai, makan mewah, dapur awan, dan kumpulan hospitaliti memberikan lapisan intelijen yang sebenarnya diperlukan restoran - dari pengendali kedai tunggal hingga portfolio pelbagai jenama.",
       "stats": [
         {
           "value": "12",
@@ -933,11 +933,11 @@ export const generatedLocalCopy = {
       "withSundaeLabel": "Dengan Sundae",
       "industryClaims": [
         {
-          "industry": "Pasukan menunggu 2–3 hari untuk laporan, eksport, atau susulan penganalisis. Pada masa jawapan tiba, peralihan sudah pun berlaku.",
+          "industry": "Pasukan menunggu 2-3 hari untuk laporan, eksport, atau susulan penganalisis. Pada masa jawapan tiba, peralihan sudah pun berlaku.",
           "sundae": "Sundae Intelligence memberikan jawapan yang dirujuk sumber dalam beberapa saat, merentasi sistem yang mereka sudah gunakan."
         },
         {
-          "industry": "Kos tidak terpakai, komponen, diskaun, dan pengecualian POS adalah kecil jika dilihat secara individu. Jika tidak disemak, ia boleh menyebabkan antara 1–3% daripada hasil dan kebocoran margin.",
+          "industry": "Kos tidak terpakai, komponen, diskaun, dan pengecualian POS adalah kecil jika dilihat secara individu. Jika tidak disemak, ia boleh menyebabkan antara 1-3% daripada hasil dan kebocoran margin.",
           "sundae": "Pulse menandakan corak pengecualian semasa peralihan, yang dikaitkan dengan pelayan, waktu hari, lokasi, atau tingkah laku yang mempengaruhi mereka."
         },
         {

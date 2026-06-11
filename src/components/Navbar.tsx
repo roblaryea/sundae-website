@@ -119,7 +119,7 @@ const Navbar = () => {
   const nav = messages.navbar;
   const cta = useCta();
   // Wordmark is CSS theme-swapped in the markup below (driven by the .light class,
-  // which is set before hydration) — no JS state, so no flash and no stale-src caching.
+  // which is set before hydration) - no JS state, so no flash and no stale-src caching.
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
@@ -227,7 +227,7 @@ const Navbar = () => {
               {/* dark-mode wordmark (white letters) */}
               <Image
                 src="/logos/sundae-wordmark-white.svg"
-                alt="Sundae – Decision Intelligence for Restaurants"
+                alt="Sundae - Decision Intelligence for Restaurants"
                 width={160}
                 height={46}
                 className={`block [html.light_&]:hidden transition-all duration-300 ${
@@ -241,7 +241,7 @@ const Navbar = () => {
               {/* light-mode wordmark (warm ink letters) */}
               <Image
                 src="/logos/sundae-wordmark.svg"
-                alt="Sundae – Decision Intelligence for Restaurants"
+                alt="Sundae - Decision Intelligence for Restaurants"
                 width={160}
                 height={46}
                 className={`hidden [html.light_&]:block transition-all duration-300 ${
@@ -252,7 +252,7 @@ const Navbar = () => {
                 onMouseLeave={() => setIsLogoHovered(false)}
                 priority
               />
-              {/* Subtle shimmer effect on hover — theme-aware via --shape-tint */}
+              {/* Subtle shimmer effect on hover - theme-aware via --shape-tint */}
               <div
                 style={{ background: 'linear-gradient(to right, transparent, color-mix(in srgb, var(--shape-tint) 20%, transparent), transparent)' }}
                 className={`absolute inset-0 transition-all duration-600 ease-out ${
@@ -262,7 +262,7 @@ const Navbar = () => {
             </div>
           </Link>
 
-          {/* Desktop Navigation — tighter spacing (space-x-6) so the right-side
+          {/* Desktop Navigation - tighter spacing (space-x-6) so the right-side
               CTA cluster doesn't collide with the Resources dropdown at narrow
               widths; min-w-0 lets the row shrink instead of overflow */}
           <div className="hidden xl:flex items-center space-x-5 min-w-0 whitespace-nowrap">
@@ -477,7 +477,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* CTA Buttons — flex-shrink-0 + ml-6 so they don't collide with the
+          {/* CTA Buttons - flex-shrink-0 + ml-6 so they don't collide with the
               nav links section; whitespace-nowrap on every button so
               "Sign In" / "Book a Demo" stay on one line at all widths */}
           <div className="hidden xl:flex items-center space-x-2.5 flex-shrink-0 ml-4">

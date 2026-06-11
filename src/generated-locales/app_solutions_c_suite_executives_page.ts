@@ -196,7 +196,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Sistemas de 12 fornecedores, alinhamento zero",
-          "description": "POS, mão de obra, estoque, entrega – cada sistema fala um dialeto diferente.",
+          "description": "POS, mão de obra, estoque, entrega - cada sistema fala um dialeto diferente.",
           "icon": "integration"
         },
         {
@@ -221,7 +221,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Sinal do mercado antes de atingir",
-          "description": "Concorrentes, clima, eventos, passos – sintetizados em um resumo matinal para que você aja antes que o impacto chegue ao seu P&L.",
+          "description": "Concorrentes, clima, eventos, passos - sintetizados em um resumo matinal para que você aja antes que o impacto chegue ao seu P&L.",
           "product": "Watchtower",
           "icon": "watchtower"
         },
@@ -233,7 +233,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Previsões de 14 a 90 dias que você pode defender",
-          "description": "A Foresight projeta receita, mão de obra e EBITDA. Execute simulações em um novo mercado, uma mudança de preço ou um programa de custos – antes de comprometer capital.",
+          "description": "A Foresight projeta receita, mão de obra e EBITDA. Execute simulações em um novo mercado, uma mudança de preço ou um programa de custos - antes de comprometer capital.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -248,7 +248,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Portfólio mais restrito, menos surpresas",
-          "description": "Os locais com baixo desempenho aparecem no briefing matinal – não na revisão trimestral.",
+          "description": "Os locais com baixo desempenho aparecem no briefing matinal - não na revisão trimestral.",
           "icon": "performance"
         },
         {
@@ -284,7 +284,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "12 Anbietersysteme, Nullausrichtung",
-          "description": "POS, Arbeit, Inventar, Lieferung – jedes System spricht einen anderen Dialekt.",
+          "description": "POS, Arbeit, Inventar, Lieferung - jedes System spricht einen anderen Dialekt.",
           "icon": "integration"
         },
         {
@@ -309,7 +309,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Marktsignal, bevor es eintrifft",
-          "description": "Konkurrenten, Wetter, Ereignisse, Besucherfrequenz – zusammengefasst in einem Morgenbriefing, damit Sie handeln können, bevor sich die Auswirkungen auf Ihre P&L auswirken.",
+          "description": "Konkurrenten, Wetter, Ereignisse, Besucherfrequenz - zusammengefasst in einem Morgenbriefing, damit Sie handeln können, bevor sich die Auswirkungen auf Ihre P&L auswirken.",
           "product": "Watchtower",
           "icon": "watchtower"
         },
@@ -320,8 +320,8 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "Prognosen für 14–90 Tage, die Sie verteidigen können",
-          "description": "Foresight prognostiziert Umsatz, Arbeit und EBITDA. Führen Sie Was-wäre-wenn-Analysen für einen neuen Markt, eine Preisänderung oder ein Kostenprogramm durch – bevor Sie Kapital binden.",
+          "title": "Prognosen für 14-90 Tage, die Sie verteidigen können",
+          "description": "Foresight prognostiziert Umsatz, Arbeit und EBITDA. Führen Sie Was-wäre-wenn-Analysen für einen neuen Markt, eine Preisänderung oder ein Kostenprogramm durch - bevor Sie Kapital binden.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -336,12 +336,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Engeres Portfolio, weniger Überraschungen",
-          "description": "Standorte mit schlechter Leistung tauchen im Morgenbrief auf – nicht in der vierteljährlichen Überprüfung.",
+          "description": "Standorte mit schlechter Leistung tauchen im Morgenbrief auf - nicht in der vierteljährlichen Überprüfung.",
           "icon": "performance"
         },
         {
           "title": "Prognosen, denen Ihr Vorstand vertraut",
-          "description": "Prognosen für 14–90 Tage, basierend auf Ihren eigenen Betriebsdaten und Marktsignalen.",
+          "description": "Prognosen für 14-90 Tage, basierend auf Ihren eigenen Betriebsdaten und Marktsignalen.",
           "icon": "owners"
         },
         {
@@ -397,7 +397,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Signal du marché avant qu’il n’atteigne",
-          "description": "Concurrents, météo, événements, fréquentation – synthétisés dans un briefing matinal afin que vous agissez avant que l'impact n'affecte votre P&L.",
+          "description": "Concurrents, météo, événements, fréquentation - synthétisés dans un briefing matinal afin que vous agissez avant que l'impact n'affecte votre P&L.",
           "product": "Watchtower",
           "icon": "watchtower"
         },
@@ -409,7 +409,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Des prévisions sur 14 à 90 jours que vous pouvez défendre",
-          "description": "La prospective projette les revenus, la main-d'œuvre et l'EBITDA. Exécutez des simulations sur un nouveau marché, une évolution des prix ou un programme de coûts – avant d’engager du capital. (Foresight)",
+          "description": "La prospective projette les revenus, la main-d'œuvre et l'EBITDA. Exécutez des simulations sur un nouveau marché, une évolution des prix ou un programme de coûts - avant d’engager du capital. (Foresight)",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -424,7 +424,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Portefeuille plus restreint, moins de surprises",
-          "description": "Les emplacements sous-performants font surface dans le briefing du matin – et non dans l’examen trimestriel.",
+          "description": "Les emplacements sous-performants font surface dans le briefing du matin - et non dans l’examen trimestriel.",
           "icon": "performance"
         },
         {
@@ -548,7 +548,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "12 وینڈر سسٹمز، صفر سیدھ",
-          "description": "POS, labor, inventory, delivery — every system speaks a different dialect.",
+          "description": "POS, labor, inventory, delivery - every system speaks a different dialect.",
           "icon": "integration"
         },
         {
@@ -573,7 +573,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "اس سے پہلے کہ مارکیٹ کا سگنل مارا جائے۔",
-          "description": "حریف، موسم، واقعات، فٹ فال — کو صبح کے بریف میں ترکیب کیا گیا تاکہ آپ اپنے P&L میں اثر انداز ہونے سے پہلے عمل کریں۔",
+          "description": "حریف، موسم، واقعات، فٹ فال - کو صبح کے بریف میں ترکیب کیا گیا تاکہ آپ اپنے P&L میں اثر انداز ہونے سے پہلے عمل کریں۔",
           "product": "Watchtower",
           "icon": "watchtower"
         },
@@ -760,7 +760,7 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "Previsioni a 14–90 giorni che puoi difendere",
+          "title": "Previsioni a 14-90 giorni che puoi difendere",
           "description": "La Foresight prevede ricavi, manodopera ed EBITDA. Esegui operazioni what-if su un nuovo mercato, un movimento di prezzo o un programma di costi, prima di impegnare capitale.",
           "product": "Foresight",
           "icon": "forecasting"
@@ -812,7 +812,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "12 个供应商系统，零对齐",
-          "description": "POS、人工、库存、交付——每个系统都有不同的方言。",
+          "description": "POS、人工、库存、交付--每个系统都有不同的方言。",
           "icon": "integration"
         },
         {
@@ -837,7 +837,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "市场信号到来之前",
-          "description": "竞争对手、天气、活动、客流量——综合到早间简报中，以便您在影响影响损益表之前采取行动。 (P&L)",
+          "description": "竞争对手、天气、活动、客流量--综合到早间简报中，以便您在影响影响损益表之前采取行动。 (P&L)",
           "product": "Watchtower",
           "icon": "watchtower"
         },
@@ -900,7 +900,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Systemy 12 dostawców, wyrównanie zerowe",
-          "description": "POS, labor, inventory, delivery — every system speaks a different dialect.",
+          "description": "POS, labor, inventory, delivery - every system speaks a different dialect.",
           "icon": "integration"
         },
         {
@@ -925,7 +925,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Sygnał rynkowy, zanim uderzy",
-          "description": "Konkurencja, pogoda, wydarzenia, liczba odwiedzających – zebrane w poranny brief, dzięki czemu możesz działać, zanim wpływ odnotuje Twoje zyski i straty. (P&L)",
+          "description": "Konkurencja, pogoda, wydarzenia, liczba odwiedzających - zebrane w poranny brief, dzięki czemu możesz działać, zanim wpływ odnotuje Twoje zyski i straty. (P&L)",
           "product": "Watchtower",
           "icon": "watchtower"
         },
@@ -936,7 +936,7 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "Prognozy na 14–90 dni, których możesz obronić",
+          "title": "Prognozy na 14-90 dni, których możesz obronić",
           "description": "Projekty Foresight dotyczą przychodów, pracy i EBITDA. Zanim zainwestujesz kapitał, przeprowadź analizę typu „co by było, gdyby” na nowym rynku, w przypadku zmiany cen lub programu kosztowego.",
           "product": "Foresight",
           "icon": "forecasting"
@@ -957,7 +957,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Prognozuje zaufanie zarządu",
-          "description": "Prognozy na okres 14–90 dni oparte na własnych danych operacyjnych i sygnałach rynkowych.",
+          "description": "Prognozy na okres 14-90 dni oparte na własnych danych operacyjnych i sygnałach rynkowych.",
           "icon": "owners"
         },
         {
@@ -1076,7 +1076,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "12 ベンダー システム、ゼロアライメント",
-          "description": "POS、労働力、在庫、配送 — すべてのシステムは異なる言語を話します。",
+          "description": "POS、労働力、在庫、配送 - すべてのシステムは異なる言語を話します。",
           "icon": "integration"
         },
         {
@@ -1164,7 +1164,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "12 sisteme de furnizori, aliniere zero",
-          "description": "POS, forță de muncă, inventar, livrare — fiecare sistem vorbește un dialect diferit.",
+          "description": "POS, forță de muncă, inventar, livrare - fiecare sistem vorbește un dialect diferit.",
           "icon": "integration"
         },
         {
@@ -1189,7 +1189,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Semnal de piață înainte de a lovi",
-          "description": "Concurenți, vreme, evenimente, picior – sintetizat într-un brief de dimineață, astfel încât să acționați înainte ca impactul să aterizeze în P&L.",
+          "description": "Concurenți, vreme, evenimente, picior - sintetizat într-un brief de dimineață, astfel încât să acționați înainte ca impactul să aterizeze în P&L.",
           "product": "Watchtower",
           "icon": "watchtower"
         },
@@ -1299,7 +1299,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "몇 주가 아닌 몇 시간 안에 결정",
-          "description": "월별 마감 마진에서 실시간 마진으로 이동합니다. 결정은 여전히 ​​중요할 때 내려집니다.",
+          "description": "월별 마감 마진에서 실시간 마진으로 이동합니다. 결정은 여전히 중요할 때 내려집니다.",
           "icon": "speed"
         },
         {
@@ -1340,7 +1340,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "12 leverantörssystem, nolljustering",
-          "description": "POS, arbete, lager, leverans – varje system talar olika dialekter.",
+          "description": "POS, arbete, lager, leverans - varje system talar olika dialekter.",
           "icon": "integration"
         },
         {
@@ -1365,7 +1365,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Marknadssignal innan den slår",
-          "description": "Konkurrenter, väder, evenemang, fotfall – syntetiserat till en morgonkalas så att du agerar innan nedslaget landar i din P&L.",
+          "description": "Konkurrenter, väder, evenemang, fotfall - syntetiserat till en morgonkalas så att du agerar innan nedslaget landar i din P&L.",
           "product": "Watchtower",
           "icon": "watchtower"
         },
@@ -1376,8 +1376,8 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "14–90 dagars prognoser du kan försvara",
-          "description": "Foresight projicerar intäkter, arbete och EBITDA. Kör vad som händer på en ny marknad, en prisrörelse eller ett kostnadsprogram — innan du binder kapital.",
+          "title": "14-90 dagars prognoser du kan försvara",
+          "description": "Foresight projicerar intäkter, arbete och EBITDA. Kör vad som händer på en ny marknad, en prisrörelse eller ett kostnadsprogram - innan du binder kapital.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1392,12 +1392,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Tätare portfölj, färre överraskningar",
-          "description": "Underpresterande platser dyker upp i morgonrapporten – inte kvartalsöversynen.",
+          "description": "Underpresterande platser dyker upp i morgonrapporten - inte kvartalsöversynen.",
           "icon": "performance"
         },
         {
           "title": "Prognoser din styrelse litar på",
-          "description": "14–90 dagars prognoser grundade i din egen driftsdata plus marknadssignal.",
+          "description": "14-90 dagars prognoser grundade i din egen driftsdata plus marknadssignal.",
           "icon": "owners"
         },
         {
@@ -1453,7 +1453,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Tín hiệu thị trường trước khi nó chạm tới",
-          "description": "Đối thủ, thời tiết, sự kiện, lượng người tham gia — được tổng hợp thành bản tóm tắt buổi sáng để bạn hành động trước khi tác động đến P&L của bạn.",
+          "description": "Đối thủ, thời tiết, sự kiện, lượng người tham gia - được tổng hợp thành bản tóm tắt buổi sáng để bạn hành động trước khi tác động đến P&L của bạn.",
           "product": "Watchtower",
           "icon": "watchtower"
         },
@@ -1464,8 +1464,8 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "Dự báo 14–90 ngày bạn có thể bảo vệ",
-          "description": "Dự báo tầm nhìn xa về doanh thu, lao động và EBITDA. Thực hiện giả định trên một thị trường mới, biến động giá hoặc chương trình chi phí — trước khi bạn cam kết vốn. (Foresight)",
+          "title": "Dự báo 14-90 ngày bạn có thể bảo vệ",
+          "description": "Dự báo tầm nhìn xa về doanh thu, lao động và EBITDA. Thực hiện giả định trên một thị trường mới, biến động giá hoặc chương trình chi phí - trước khi bạn cam kết vốn. (Foresight)",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1485,7 +1485,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Dự báo sự tin tưởng của hội đồng quản trị của bạn",
-          "description": "Dự báo 14–90 ngày dựa trên dữ liệu hoạt động của chính bạn cộng với tín hiệu thị trường.",
+          "description": "Dự báo 14-90 ngày dựa trên dữ liệu hoạt động của chính bạn cộng với tín hiệu thị trường.",
           "icon": "owners"
         },
         {
@@ -1516,7 +1516,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "12 বিক্রেতা সিস্টেম, শূন্য প্রান্তিককরণ",
-          "description": "POS, শ্রম, ইনভেন্টরি, ডেলিভারি — প্রতিটি সিস্টেম আলাদা উপভাষা বলে।",
+          "description": "POS, শ্রম, ইনভেন্টরি, ডেলিভারি - প্রতিটি সিস্টেম আলাদা উপভাষা বলে।",
           "icon": "integration"
         },
         {
@@ -1541,7 +1541,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "এটা হিট আগে বাজার সংকেত",
-          "description": "প্রতিযোগী, আবহাওয়া, ইভেন্ট, ফুটফল — একটি সকালের সংক্ষিপ্ত আকারে সংশ্লেষিত হয় যাতে আপনি আপনার P&L-এ প্রভাব পড়ার আগে কাজ করেন।",
+          "description": "প্রতিযোগী, আবহাওয়া, ইভেন্ট, ফুটফল - একটি সকালের সংক্ষিপ্ত আকারে সংশ্লেষিত হয় যাতে আপনি আপনার P&L-এ প্রভাব পড়ার আগে কাজ করেন।",
           "product": "Watchtower",
           "icon": "watchtower"
         },
@@ -1629,7 +1629,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "สัญญาณตลาดก่อนโดน",
-          "description": "คู่แข่ง สภาพอากาศ กิจกรรม การก้าวเท้า — สังเคราะห์เป็นสรุปช่วงเช้าเพื่อให้คุณดำเนินการก่อนที่ผลกระทบจะเข้าสู่ P&L ของคุณ",
+          "description": "คู่แข่ง สภาพอากาศ กิจกรรม การก้าวเท้า - สังเคราะห์เป็นสรุปช่วงเช้าเพื่อให้คุณดำเนินการก่อนที่ผลกระทบจะเข้าสู่ P&L ของคุณ",
           "product": "Watchtower",
           "icon": "watchtower"
         },
@@ -1640,7 +1640,7 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "การคาดการณ์ 14–90 วันที่คุณสามารถปกป้องได้",
+          "title": "การคาดการณ์ 14-90 วันที่คุณสามารถปกป้องได้",
           "description": "การมองการณ์ไกลคาดการณ์รายได้ แรงงาน และ EBITDA ดำเนินการแบบ what-if ในตลาดใหม่ การเคลื่อนไหวของราคา หรือโปรแกรมต้นทุน ก่อนที่คุณจะตัดสินใจลงทุน (Foresight)",
           "product": "Foresight",
           "icon": "forecasting"
@@ -1661,7 +1661,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "คาดการณ์ที่บอร์ดของคุณไว้วางใจ",
-          "description": "การคาดการณ์ในช่วง 14–90 วันมีพื้นฐานมาจากข้อมูลการดำเนินงานของคุณและสัญญาณตลาด",
+          "description": "การคาดการณ์ในช่วง 14-90 วันมีพื้นฐานมาจากข้อมูลการดำเนินงานของคุณและสัญญาณตลาด",
           "icon": "owners"
         },
         {
@@ -1692,7 +1692,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "12 sistem vendor, penyelarasan nol",
-          "description": "POS, tenaga kerja, inventaris, pengiriman — setiap sistem menggunakan dialek yang berbeda.",
+          "description": "POS, tenaga kerja, inventaris, pengiriman - setiap sistem menggunakan dialek yang berbeda.",
           "icon": "integration"
         },
         {
@@ -1717,7 +1717,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Sinyal pasar sebelum terjadi",
-          "description": "Pesaing, cuaca, acara, langkah kaki — disintesis menjadi ringkasan pagi sehingga Anda bertindak sebelum dampaknya mencapai P&L Anda.",
+          "description": "Pesaing, cuaca, acara, langkah kaki - disintesis menjadi ringkasan pagi sehingga Anda bertindak sebelum dampaknya mencapai P&L Anda.",
           "product": "Watchtower",
           "icon": "watchtower"
         },
@@ -1728,8 +1728,8 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "Prakiraan 14–90 hari yang dapat Anda pertahankan",
-          "description": "Pandangan ke depan memproyeksikan pendapatan, tenaga kerja, dan EBITDA. Jalankan bagaimana-jika di pasar baru, pergerakan harga, atau program biaya — sebelum Anda memberikan modal. (Foresight)",
+          "title": "Prakiraan 14-90 hari yang dapat Anda pertahankan",
+          "description": "Pandangan ke depan memproyeksikan pendapatan, tenaga kerja, dan EBITDA. Jalankan bagaimana-jika di pasar baru, pergerakan harga, atau program biaya - sebelum Anda memberikan modal. (Foresight)",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1744,12 +1744,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Portofolio yang lebih ketat, lebih sedikit kejutan",
-          "description": "Lokasi yang berkinerja buruk muncul dalam laporan singkat pagi hari — bukan tinjauan triwulanan.",
+          "description": "Lokasi yang berkinerja buruk muncul dalam laporan singkat pagi hari - bukan tinjauan triwulanan.",
           "icon": "performance"
         },
         {
           "title": "Perkiraan yang dipercaya oleh dewan Anda",
-          "description": "Proyeksi 14–90 hari didasarkan pada data operasional Anda ditambah sinyal pasar.",
+          "description": "Proyeksi 14-90 hari didasarkan pada data operasional Anda ditambah sinyal pasar.",
           "icon": "owners"
         },
         {
@@ -1780,7 +1780,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "12 sistem vendor, penjajaran sifar",
-          "description": "POS, buruh, inventori, penghantaran — setiap sistem bercakap dialek yang berbeza.",
+          "description": "POS, buruh, inventori, penghantaran - setiap sistem bercakap dialek yang berbeza.",
           "icon": "integration"
         },
         {
@@ -1805,7 +1805,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Isyarat pasaran sebelum mencecah",
-          "description": "Pesaing, cuaca, acara, jejak kaki — disintesis ke dalam ringkasan pagi supaya anda bertindak sebelum impak mendarat dalam P&L anda.",
+          "description": "Pesaing, cuaca, acara, jejak kaki - disintesis ke dalam ringkasan pagi supaya anda bertindak sebelum impak mendarat dalam P&L anda.",
           "product": "Watchtower",
           "icon": "watchtower"
         },
@@ -1816,8 +1816,8 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "title": "Ramalan 14–90 hari yang boleh anda pertahankan",
-          "description": "Foresight mengunjurkan hasil, buruh dan EBITDA. Jalankan bagaimana jika di pasaran baharu, pergerakan harga atau program kos — sebelum anda melakukan modal.",
+          "title": "Ramalan 14-90 hari yang boleh anda pertahankan",
+          "description": "Foresight mengunjurkan hasil, buruh dan EBITDA. Jalankan bagaimana jika di pasaran baharu, pergerakan harga atau program kos - sebelum anda melakukan modal.",
           "product": "Foresight",
           "icon": "forecasting"
         }
@@ -1832,12 +1832,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Portfolio yang lebih ketat, lebih sedikit kejutan",
-          "description": "Lokasi yang kurang berprestasi muncul pada waktu pagi — bukan ulasan suku tahunan.",
+          "description": "Lokasi yang kurang berprestasi muncul pada waktu pagi - bukan ulasan suku tahunan.",
           "icon": "performance"
         },
         {
           "title": "Meramalkan kepercayaan lembaga anda",
-          "description": "Unjuran 14–90 hari berdasarkan data operasi anda sendiri serta isyarat pasaran.",
+          "description": "Unjuran 14-90 hari berdasarkan data operasi anda sendiri serta isyarat pasaran.",
           "icon": "owners"
         },
         {

@@ -59,7 +59,7 @@ export function DiagnosticReport({ report, leadData, locale }: DiagnosticReportP
   const firstName = leadData.name.split(" ")[0] || "there";
   const [bookingState, setBookingState] = useState<"idle" | "loading" | "done">("idle");
 
-  // Auto-submit booking request — the prospect already gave us name, email,
+  // Auto-submit booking request - the prospect already gave us name, email,
   // phone, role, country via the diagnostic. No reason to ask again.
   // Posts to the same /api/cta/submit endpoint with source='diagnostic-call-request'
   // so sales workflow can prioritize these (high-intent, fully-qualified).
@@ -82,13 +82,13 @@ export function DiagnosticReport({ report, leadData, locale }: DiagnosticReportP
           message: `[Deep-dive call requested from diagnostic]
 Profile: ${report.profileLine}
 Recommended tier: ${report.tierFit}
-Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
+Top leak: ${report.topLeaks[0]?.title ?? "-"}`,
           metadata: { report, locale },
         }),
       });
       setBookingState("done");
     } catch {
-      // Even on error, show success — we'll catch it on the backend side.
+      // Even on error, show success - we'll catch it on the backend side.
       setBookingState("done");
     }
   };
@@ -288,7 +288,7 @@ Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
           </div>
         </motion.section>
 
-        {/* Economics — cost / savings / EBITDA / soft uplifts */}
+        {/* Economics - cost / savings / EBITDA / soft uplifts */}
         {report.economics && (
           <motion.section
             initial={{ opacity: 0, y: 20 }}

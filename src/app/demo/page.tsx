@@ -36,7 +36,7 @@ export default async function DemoPage() {
         </div>
       </section>
 
-      {/* AI Operations Diagnostic — primary path */}
+      {/* AI Operations Diagnostic - primary path */}
       <section className="px-4 sm:px-6 lg:px-8 pb-16">
         <div className="max-w-4xl mx-auto rounded-3xl bg-gradient-to-br from-[var(--electric-blue)]/15 via-[var(--electric-blue)]/8 to-emerald-500/8 border border-[var(--electric-blue)]/30 p-6 md:p-10 text-center">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[var(--electric-blue)]/15 border border-[var(--electric-blue)]/30 mb-4">
@@ -48,7 +48,7 @@ export default async function DemoPage() {
             Want substance before the call?
           </h2>
           <p className="text-base text-[var(--text-supporting)] mb-6 max-w-2xl mx-auto">
-            Take the Sundae Operations Diagnostic — 20 strategic questions →
+            Take the Sundae Operations Diagnostic - 20 strategic questions →
             personalized report showing the margin leaks we&rsquo;d surface, the
             recommended stack, and a 30/60/90 plan. Same outcome as a discovery
             call, on your time, with a shareable artifact at the end.

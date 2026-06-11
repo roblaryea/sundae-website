@@ -7,8 +7,8 @@
  * product + solutions pages) per Option B from the marketing review:
  * "thin teaser on homepage + full galleries on product/solutions pages".
  *
- * Picks the 4 highest-impact product surfaces — Executive Summary,
- * Pulse Wallboard, Foresight Scenarios, Sundae Intelligence — each
+ * Picks the 4 highest-impact product surfaces - Executive Summary,
+ * Pulse Wallboard, Foresight Scenarios, Sundae Intelligence - each
  * deep-linking to its product page where the prospect can see the full
  * gallery of that area.
  *
@@ -131,7 +131,7 @@ export function SectionProductPreview() {
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                   className="object-cover object-top group-hover:scale-[1.02] transition-transform duration-500"
                 />
-                {/* warm grade — coheres the (blue) product UI with the warm site */}
+                {/* warm grade - coheres the (blue) product UI with the warm site */}
                 <div
                   aria-hidden
                   className="pointer-events-none absolute inset-0 mix-blend-soft-light opacity-30"

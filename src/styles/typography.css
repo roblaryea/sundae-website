@@ -1,5 +1,5 @@
 /* ==============================================
-   TYPOGRAPHY SYSTEM — Dark Mode
+   TYPOGRAPHY SYSTEM - Dark Mode
    Uses Geist Sans via --font-geist-sans.
    Bumped ~15% from previous scale for premium feel.
    ============================================== */
@@ -45,7 +45,7 @@
   color: var(--text-primary);
 }
 
-/* Display face (Fraunces) for all headings — warm, editorial, premium.
+/* Display face (Fraunces) for all headings - warm, editorial, premium.
    Weights stay per-heading; only the family + optical sizing are unified. */
 .hero-h1,
 .hero-h2,

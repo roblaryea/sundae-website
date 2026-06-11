@@ -5,7 +5,7 @@ import { FadeUp } from '@/components/ui/PageAnimations';
 import { EditorialImage } from '@/components/ui/EditorialImage';
 
 /**
- * Editorial split — a premium portrait image beside a text column.
+ * Editorial split - a premium portrait image beside a text column.
  *
  * The counterpart to <SectionEditorialBand>: bands are wide/landscape with copy
  * overlaid; splits are for PORTRAIT photography (which crops badly in a wide band)

@@ -9,7 +9,7 @@ interface EditorialImageProps {
   src: string;
   /**
    * Optional light-theme twin. When set, this image is shown under `html.light`
-   * and `src` is treated as the dark-theme image — mirroring <ThemedShot> so each
+   * and `src` is treated as the dark-theme image - mirroring <ThemedShot> so each
    * mode gets premium, mode-matched imagery with zero hydration flash.
    */
   light?: string;
@@ -42,7 +42,7 @@ interface EditorialImageProps {
 /**
  * Premium editorial photography wrapper for the marketing site.
  *
- * The treatment is deliberately restrained — real restaurant imagery should read
+ * The treatment is deliberately restrained - real restaurant imagery should read
  * as natural and premium, not as heavily-filtered stock. Two jobs:
  *   1. Blend: a gradient built from `var(--navy-deep)` (which flips white↔navy per
  *      theme) feathers the image edges into the page background, so a photo never
@@ -97,7 +97,7 @@ export function EditorialImage({
         />
       )}
 
-      {/* Brand wash — warm caramel→coral grade for cohesion ------------- */}
+      {/* Brand wash - warm caramel→coral grade for cohesion ------------- */}
       {overlay !== 'none' && (
         <div
           aria-hidden
@@ -109,7 +109,7 @@ export function EditorialImage({
         />
       )}
 
-      {/* Edge-blend — feather into the page bg (var flips per theme).
+      {/* Edge-blend - feather into the page bg (var flips per theme).
           Kept light so the photograph stays the subject, not the scrim. ---- */}
       {overlay === 'blend' && (
         <div
@@ -122,7 +122,7 @@ export function EditorialImage({
         />
       )}
 
-      {/* Text scrim — FIXED dark gradient (theme-independent) so white overlaid
+      {/* Text scrim - FIXED dark gradient (theme-independent) so white overlaid
           copy stays legible in BOTH modes. Must not use var(--navy-deep): that
           flips to white in light mode and erased the white headline. A photo is
           a photo in either theme, so the legibility scrim is always dark. */}
@@ -148,7 +148,7 @@ export function EditorialImage({
         </>
       )}
 
-      {/* Duotone — stronger brand wash for cohesion on busy frames ------ */}
+      {/* Duotone - stronger brand wash for cohesion on busy frames ------ */}
       {overlay === 'duotone' && (
         <div
           aria-hidden
@@ -160,7 +160,7 @@ export function EditorialImage({
         />
       )}
 
-      {/* Film grain — subtle, editorial, kills the synthetic-stock feel - */}
+      {/* Film grain - subtle, editorial, kills the synthetic-stock feel - */}
       {grain && (
         <div
           aria-hidden

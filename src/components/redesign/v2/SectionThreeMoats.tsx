@@ -3,7 +3,7 @@
 import { motion, useReducedMotion } from "framer-motion";
 
 /**
- * Mini thumbnails — each is a small visual artifact paired with the moat copy
+ * Mini thumbnails - each is a small visual artifact paired with the moat copy
  * so the section reads as evidence, not just three text cards. Inline SVG
  * keeps these zero-dependency and CLS-free.
  */
@@ -57,7 +57,7 @@ function WatchtowerThumb() {
       </div>
       <div className="rounded px-2 py-1.5" style={{ background: "rgba(28,71,255,0.10)", borderLeft: "2px solid #1C47FF" }}>
         <div className="text-[10px] text-[var(--text-secondary)] leading-tight">
-          Office tower fire drill, 2 blocks · 11–12
+          Office tower fire drill, 2 blocks · 11-12
         </div>
       </div>
       <div className="rounded px-2 py-1.5" style={{ background: "rgba(34,197,94,0.10)", borderLeft: "2px solid #22C55E" }}>
@@ -104,7 +104,7 @@ function BenchmarkThumb() {
 }
 
 /**
- * Section 5 — Beyond Dashboards (formerly "The Three Moats").
+ * Section 5 - Beyond Dashboards (formerly "The Three Moats").
  *
  * Conversion job: explain product. Reframes "Sundae has lots of features"
  * into "Sundae adds three layers BI tools structurally don't ship." Cards
@@ -112,18 +112,18 @@ function BenchmarkThumb() {
  *
  * r7+1 update: language reframed from investor-flavored ("moats", "category
  * difference") to buyer-facing ("layers", "operating advantage"). The
- * underlying strategic concept is still about defensible advantages — but
+ * underlying strategic concept is still about defensible advantages - but
  * operators don't buy moats, they buy the things they can finally do.
  *
  * Claims used:
  *   CLM-204 (eyebrow) APPROVED PUBLIC
  *   CLM-205 (headline) APPROVED PUBLIC
- *   CLM-103 (Pulse — shift-aware language) APPROVED PUBLIC
+ *   CLM-103 (Pulse - shift-aware language) APPROVED PUBLIC
  *   CLM-104 (Watchtower capabilities) APPROVED PUBLIC
- *   CLM-207 (Benchmarks — cohort framing) APPROVED PUBLIC
- *   CLM-208 (closing line — restaurant intelligence layer) APPROVED PUBLIC
+ *   CLM-207 (Benchmarks - cohort framing) APPROVED PUBLIC
+ *   CLM-208 (closing line - restaurant intelligence layer) APPROVED PUBLIC
  *
- * Excluded (awaiting Legal — CLM-203a/b):
+ * Excluded (awaiting Legal - CLM-203a/b):
  *   Named Power BI + Tableau competitor sentence reserved for `/compare/*`
  *   pages and will swap into Section 5 subhead after Legal review.
  */
@@ -139,7 +139,7 @@ const layers: Array<{
     badge: "Pulse",
     badgeColor: "var(--color-pulse)",
     title: "Live shift intelligence",
-    why: "See pacing, labor, leakage, comps, voids, and service exceptions while the shift is still running — not after the weekly recap.",
+    why: "See pacing, labor, leakage, comps, voids, and service exceptions while the shift is still running - not after the weekly recap.",
     Thumb: PulseThumb,
   },
   {
@@ -197,7 +197,7 @@ export function SectionThreeMoats() {
                   color: m.badgeColor,
                 }}
               >
-                Layer {i + 1} — {m.badge}
+                Layer {i + 1} - {m.badge}
               </div>
               <h3 className="section-h3 mb-3">{m.title}</h3>
               <p className="body-base">{m.why}</p>

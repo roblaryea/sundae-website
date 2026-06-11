@@ -5,15 +5,15 @@ import { Button } from "@/components/ui/Button";
 import { REPORT_APP_URL } from "@/lib/urls";
 
 /**
- * Section 8 — CTA (homepage-spec-v1.1).
+ * Section 8 - CTA (homepage-spec-v1.1).
  *
- * Conversion job: NONE (intentionally static — buyer has decided by here).
+ * Conversion job: NONE (intentionally static - buyer has decided by here).
  * Only the section enter has a soft fade-in. CTAs use the existing Button
  * hover/focus micro-interactions.
  *
  * Claims used:
  *   CLM-214 ("Stop running your restaurants on yesterday's numbers.") APPROVED PUBLIC
- *   CLM-303 (working-session format) NEEDS VALIDATION — Sales must confirm
+ *   CLM-303 (working-session format) NEEDS VALIDATION - Sales must confirm
  *
  * Note: this section is not currently rendered by /preview/v2/home; the global
  * footer pre-CTA is the closing CTA. Keep this component in sync so it is safe

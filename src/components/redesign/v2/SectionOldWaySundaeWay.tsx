@@ -4,10 +4,10 @@ import { motion, useReducedMotion } from "framer-motion";
 import { SundaeWordmark } from "./SundaeWordmark";
 
 /**
- * Section 4 — Old Way vs Sundae Way (homepage-spec-v1.1).
+ * Section 4 - Old Way vs Sundae Way (homepage-spec-v1.1).
  *
  * Conversion job: dramatize urgency. The Old Way list reveals slowly (each
- * line ~250ms), then the Sundae Way snaps in ~3× faster — the contrast in
+ * line ~250ms), then the Sundae Way snaps in ~3× faster - the contrast in
  * pacing IS the message.
  *
  * Reduced-motion fallback: both columns and the replaces strip render in
@@ -18,7 +18,7 @@ import { SundaeWordmark } from "./SundaeWordmark";
  *   CLM-202 ("The old way waits for reports...") APPROVED PUBLIC
  *   CLM-211 ("Same data. Different verdict.") APPROVED PUBLIC
  *   CLM-212 ("THE REAL ENEMY IS DASHBOARD BUREAUCRACY") APPROVED PUBLIC
- *   CLM-215 (replaces strip — generic, no named vendor) APPROVED PUBLIC
+ *   CLM-215 (replaces strip - generic, no named vendor) APPROVED PUBLIC
  */
 
 const oldWay = [
@@ -64,7 +64,7 @@ export function SectionOldWaySundaeWay() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-4 sm:gap-6 max-w-5xl mx-auto">
-          {/* Old Way — slow stagger (250ms per line) */}
+          {/* Old Way - slow stagger (250ms per line) */}
           <motion.div
             initial={reduceMotion ? false : { opacity: 0, x: -16 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -98,7 +98,7 @@ export function SectionOldWaySundaeWay() {
             </div>
           </motion.div>
 
-          {/* Sundae Way — fast snap (~80ms per line, ~3× faster) */}
+          {/* Sundae Way - fast snap (~80ms per line, ~3× faster) */}
           <motion.div
             initial={reduceMotion ? false : { opacity: 0, x: 16 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -137,7 +137,7 @@ export function SectionOldWaySundaeWay() {
           </motion.div>
         </div>
 
-        {/* Replaces line — single sentence, less tag-cloud-y than the previous row */}
+        {/* Replaces line - single sentence, less tag-cloud-y than the previous row */}
         <p className="mt-12 sm:mt-14 max-w-4xl mx-auto text-center text-sm sm:text-base text-[var(--text-supporting)]">
           <span className="font-semibold text-[var(--text-primary)]">
             Replaces the delay between data and action:

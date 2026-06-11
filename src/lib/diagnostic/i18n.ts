@@ -471,7 +471,7 @@ const overrides: Partial<Record<WebsiteLocale, Partial<DiagnosticCopy>>> = {
       ebitdaUplift: "Amélioration EBITDA",
       beyondNumbers: "Au-delà des chiffres",
       ctaTitle: "Voulez-vous voir cela sur vos vraies données ?",
-      ctaBody: "Trois façons d'avancer — choisissez celle qui correspond à votre étape.",
+      ctaBody: "Trois façons d'avancer - choisissez celle qui correspond à votre étape.",
       sending: "Envoi de la demande...",
       sent: "Demande envoyée · Nous vous recontacterons",
       bookCall: "Réserver un échange approfondi",

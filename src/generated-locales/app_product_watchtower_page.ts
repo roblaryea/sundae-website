@@ -3,7 +3,7 @@
 export const generatedLocalCopy = {
   "localizedWatchtowerCopy": {
     "ar": {
-      "heroBadge": "Watchtower — محرك الاستخبارات الخارجية",
+      "heroBadge": "Watchtower - محرك الاستخبارات الخارجية",
       "heroDescription": "يتم تتبع تغييرات أسعار المنافسين يوميًا. حفل موسيقي في نهاية هذا الأسبوع. ويبدأ شهر رمضان الأسبوع المقبل. يقوم Watchtower بتجميع الإشارات الخارجية مع بياناتك الداخلية في ملخص استخباراتي يومي - ما يحدث، وسبب أهميته، وما يجب فعله حيال ذلك. تتدفق الإشارات تلقائيًا إلى افتراضات Foresight.",
       "heroNote": "متوفر على المستويات الأساسية. اختر أنواع الذكاء الفردية أو حزمة Watchtower الكاملة.",
       "heroPrimary": "أضف Watchtower",
@@ -51,7 +51,7 @@ export const generatedLocalCopy = {
         {
           "title": "الذكاء التنافسي",
           "headline": "تعرف على ما يفعله منافسوك",
-          "description": "تتبع المنافسين المحددين - وليس المتوسطات المجهولة. يراقب Watchtower تقييماتهم على Google ومراجعاتهم وساعات عملهم وتواجدهم العام يوميًا. يستخلص تحليل المشاعر ما يحبه العملاء ويكرهونه في كل منافس. احصل على تنبيه عندما ينخفض ​​تقييم أحد المنافسين أو عندما يتم افتتاح مطعم جديد بالقرب منك.",
+          "description": "تتبع المنافسين المحددين - وليس المتوسطات المجهولة. يراقب Watchtower تقييماتهم على Google ومراجعاتهم وساعات عملهم وتواجدهم العام يوميًا. يستخلص تحليل المشاعر ما يحبه العملاء ويكرهونه في كل منافس. احصل على تنبيه عندما ينخفض تقييم أحد المنافسين أو عندما يتم افتتاح مطعم جديد بالقرب منك.",
           "capabilities": [
             "تتبع ما يصل إلى 10+ من المنافسين المحددين لكل منفذ",
             "اكتشاف المنافسين تلقائيًا حسب الموقع والمطبخ والنطاق السعري",
@@ -81,7 +81,7 @@ export const generatedLocalCopy = {
         {
           "title": "السوق والاتجاهات",
           "headline": "السوق الخاص بك في لمحة",
-          "description": "كم عدد المطاعم التي تعمل على مسافة 5 كيلومترات منك؟ ما هو متوسط ​​التقييم؟ من افتتح الشهر الماضي ومن أغلق؟ يبني Watchtower صورة حية لمشهد مطعمك المحلي ويظهر الإشارات عندما يتغير شيء مهم.",
+          "description": "كم عدد المطاعم التي تعمل على مسافة 5 كيلومترات منك؟ ما هو متوسط التقييم؟ من افتتح الشهر الماضي ومن أغلق؟ يبني Watchtower صورة حية لمشهد مطعمك المحلي ويظهر الإشارات عندما يتغير شيء مهم.",
           "capabilities": [
             "رسم خرائط للمناظر الطبيعية للمطاعم على مستوى المنطقة",
             "كشف الفتح والإغلاق الجديد",
@@ -153,7 +153,7 @@ export const generatedLocalCopy = {
       "ctaSales": "تحدث إلى المبيعات"
     },
     "fr": {
-      "heroBadge": "Watchtower — Moteur de renseignement externe",
+      "heroBadge": "Watchtower - Moteur de renseignement externe",
       "heroDescription": "Les changements de prix des concurrents sont suivis quotidiennement. Un concert ce week-end. Le Ramadan commence la semaine prochaine. Watchtower synthétise les signaux externes avec vos données internes dans un briefing quotidien de renseignement : ce qui se passe, pourquoi c'est important et que faire à ce sujet. Les signaux se répercutent automatiquement dans les Foresight.",
       "heroNote": "Disponible sur les niveaux Core. Choisissez des types d’intelligence individuels ou le pack complet Watchtower.",
       "heroPrimary": "Ajouter une Watchtower",
@@ -201,7 +201,7 @@ export const generatedLocalCopy = {
         {
           "title": "Veille concurrentielle",
           "headline": "Sachez ce que font vos concurrents",
-          "description": "Suivez les concurrents nommés – et non les moyennes anonymes. Watchtower surveille quotidiennement leurs notes, avis, heures d'ouverture et présence publique sur Google. L'analyse des sentiments extrait ce que les clients aiment et détestent chez chaque concurrent. Soyez alerté lorsque la note d'un concurrent baisse ou qu'un nouveau restaurant ouvre à proximité.",
+          "description": "Suivez les concurrents nommés - et non les moyennes anonymes. Watchtower surveille quotidiennement leurs notes, avis, heures d'ouverture et présence publique sur Google. L'analyse des sentiments extrait ce que les clients aiment et détestent chez chaque concurrent. Soyez alerté lorsque la note d'un concurrent baisse ou qu'un nouveau restaurant ouvre à proximité.",
           "capabilities": [
             "Suivez jusqu'à plus de 10 concurrents nommés par point de vente",
             "Découvrez automatiquement les concurrents par emplacement, cuisine et gamme de prix",
@@ -238,7 +238,7 @@ export const generatedLocalCopy = {
             "Tendances moyennes des notes et des prix par segment de cuisine",
             "Signaux macroéconomiques (inflation, confiance des consommateurs)",
             "Des signaux d’information sur le marché ont fait surface de manière proactive",
-            "Cascade de renseignements croisés — Les signaux de la Watchtower alimentent les hypothèses de Foresight avec un score de confiance",
+            "Cascade de renseignements croisés - Les signaux de la Watchtower alimentent les hypothèses de Foresight avec un score de confiance",
             "Visuels financiers spécifiques à la TVA, aux hôtels et aux franchises"
           ],
           "icon": "multiLocation",
@@ -453,13 +453,13 @@ export const generatedLocalCopy = {
       "ctaSales": "Habla con Ventas"
     },
     "de": {
-      "heroBadge": "Watchtower – Externe Intelligenzmaschine",
-      "heroDescription": "Preisänderungen der Wettbewerber werden täglich verfolgt. Ein Konzert dieses Wochenende. Der Ramadan beginnt nächste Woche. Watchtower synthetisiert externe Signale mit Ihren internen Daten zu einem täglichen Geheimdienstbriefing – was passiert, warum es wichtig ist und was man dagegen tun kann. Signale werden automatisch in Foresight-Annahmen übertragen.",
+      "heroBadge": "Watchtower - Externe Intelligenzmaschine",
+      "heroDescription": "Preisänderungen der Wettbewerber werden täglich verfolgt. Ein Konzert dieses Wochenende. Der Ramadan beginnt nächste Woche. Watchtower synthetisiert externe Signale mit Ihren internen Daten zu einem täglichen Geheimdienstbriefing - was passiert, warum es wichtig ist und was man dagegen tun kann. Signale werden automatisch in Foresight-Annahmen übertragen.",
       "heroNote": "Verfügbar auf den Core-Stufen. Wählen Sie einzelne Intelligenztypen oder das vollständige Watchtower-Paket.",
       "heroPrimary": "Watchtower hinzufügen",
       "heroSecondary": "Buchen Sie eine Demo",
       "introHeading": "Was ist Watchtower?",
-      "introDescription": "Ihre externe Informationsschicht – Einblick in alles außerhalb Ihrer vier Wände, das sich auf Ihr Unternehmen auswirkt. Während Pulse Ihnen mitteilt, was in Ihrem Unternehmen passiert, deckt Watchtower die Wettbewerbslandschaft, das lokale Umfeld und den breiteren Markt ab.",
+      "introDescription": "Ihre externe Informationsschicht - Einblick in alles außerhalb Ihrer vier Wände, das sich auf Ihr Unternehmen auswirkt. Während Pulse Ihnen mitteilt, was in Ihrem Unternehmen passiert, deckt Watchtower die Wettbewerbslandschaft, das lokale Umfeld und den breiteren Markt ab.",
       "introCards": [
         {
           "icon": "visibility",
@@ -479,7 +479,7 @@ export const generatedLocalCopy = {
       ],
       "internalEyebrow": "INNEN + AUSSEN",
       "internalHeading": "Die einzige Plattform, die beide Seiten sieht",
-      "internalDescription": "Interne Plattformen zeigen Ihnen, was passiert ist. Markttools zeigen Ihnen, was da draußen ist. Sundae ist die einzige Entscheidungsintelligenzplattform, die beides – die Kombination Ihrer POS-, Arbeits- und Betriebsdaten mit Live-Konkurrenzverfolgung, lokalen Ereignisinformationen, Wettervorhersagen und Markttrenddaten – in einem einzigen Briefing zusammenfasst, das Ihnen sagt, was das alles für die heutige Schicht bedeutet.",
+      "internalDescription": "Interne Plattformen zeigen Ihnen, was passiert ist. Markttools zeigen Ihnen, was da draußen ist. Sundae ist die einzige Entscheidungsintelligenzplattform, die beides - die Kombination Ihrer POS-, Arbeits- und Betriebsdaten mit Live-Konkurrenzverfolgung, lokalen Ereignisinformationen, Wettervorhersagen und Markttrenddaten - in einem einzigen Briefing zusammenfasst, das Ihnen sagt, was das alles für die heutige Schicht bedeutet.",
       "featureEyebrow": "VIER INTELLIGENZTYPEN",
       "featureHeading": "Externe Intelligenz, automatisiert",
       "featureDescription": "Wählen Sie einen, zwei oder alle vier Intelligenztypen für vollständige externe Sichtbarkeit",
@@ -487,7 +487,7 @@ export const generatedLocalCopy = {
         {
           "title": "Kommandozentrale und tägliches Briefing",
           "headline": "Ihr morgendliches Geheimdienstbriefing",
-          "description": "Jeden Morgen fasst Watchtower alles zusammen – den gestrigen Umsatz und das Tempo von Pulse, die heutige Wettervorhersage, bevorstehende Veranstaltungen in der Nähe Ihres Restaurants, aktuelle Aktivitäten von Mitbewerbern und Marktsignale – in einem einzigen, priorisierten Briefing. Kein Dashboard, das Sie überprüfen müssen. Intelligenz, die zu Ihnen kommt.",
+          "description": "Jeden Morgen fasst Watchtower alles zusammen - den gestrigen Umsatz und das Tempo von Pulse, die heutige Wettervorhersage, bevorstehende Veranstaltungen in der Nähe Ihres Restaurants, aktuelle Aktivitäten von Mitbewerbern und Marktsignale - in einem einzigen, priorisierten Briefing. Kein Dashboard, das Sie überprüfen müssen. Intelligenz, die zu Ihnen kommt.",
           "capabilities": [
             "Tägliches Briefing, das interne und externe Daten kombiniert",
             "Priorisierte Empfehlungen, sortiert nach Umsatzauswirkungen",
@@ -501,11 +501,11 @@ export const generatedLocalCopy = {
         {
           "title": "Wettbewerbsintelligenz",
           "headline": "Wissen Sie, was Ihre Konkurrenten tun",
-          "description": "Verfolgen Sie benannte Konkurrenten – keine anonymen Durchschnittswerte. Watchtower überwacht täglich ihre Google-Bewertungen, Rezensionen, Öffnungszeiten und öffentlichen Auftritt. Die Stimmungsanalyse extrahiert, was Kunden an jedem Konkurrenten lieben und hassen. Lassen Sie sich benachrichtigen, wenn die Bewertung eines Konkurrenten sinkt oder ein neues Restaurant in der Nähe eröffnet.",
+          "description": "Verfolgen Sie benannte Konkurrenten - keine anonymen Durchschnittswerte. Watchtower überwacht täglich ihre Google-Bewertungen, Rezensionen, Öffnungszeiten und öffentlichen Auftritt. Die Stimmungsanalyse extrahiert, was Kunden an jedem Konkurrenten lieben und hassen. Lassen Sie sich benachrichtigen, wenn die Bewertung eines Konkurrenten sinkt oder ein neues Restaurant in der Nähe eröffnet.",
           "capabilities": [
             "Verfolgen Sie bis zu 10+ namentlich genannte Konkurrenten pro Filiale",
             "Entdecken Sie Konkurrenten automatisch nach Standort, Küche und Preisklasse",
-            "Preisverfolgung von Mitbewerbermenüs – kontinuierliche Überwachung von Preisänderungen in Bezug auf Ausmaß und Zeitpunkt",
+            "Preisverfolgung von Mitbewerbermenüs - kontinuierliche Überwachung von Preisänderungen in Bezug auf Ausmaß und Zeitpunkt",
             "Tägliche Bewertungs- und Rezensionsüberwachung",
             "Überprüfen Sie die Stimmungsanalyse nach Themen",
             "Benachrichtigungen über Mitbewerberaktivitäten (Bewertungsänderungen, Schließungen, Bewertungsspitzen, Preisänderungen)",
@@ -538,7 +538,7 @@ export const generatedLocalCopy = {
             "Durchschnittliche Bewertung und Preistrends nach Küchensegmenten",
             "Makroökonomische Signale (Inflation, Verbrauchervertrauen)",
             "Marktintelligenzsignale tauchten proaktiv auf",
-            "Interintelligenzübergreifende Kaskade – Watchtower-Signale fließen mit Vertrauensbewertung in Foresight-Annahmen ein",
+            "Interintelligenzübergreifende Kaskade - Watchtower-Signale fließen mit Vertrauensbewertung in Foresight-Annahmen ein",
             "Umsatzsteuer-, Hotel- und Franchise-spezifische Finanzvisualisierungen"
           ],
           "icon": "multiLocation",
@@ -589,7 +589,7 @@ export const generatedLocalCopy = {
         },
         {
           "q": "Kann ich nur einen Intelligenztyp verwenden?",
-          "a": "Ja. Wählen Sie einzeln „Competitive Intelligence“, „Events & Kalendersignale“ oder „Markttrends“ – oder holen Sie sich das komplette Watchtower-Paket für ca. 18 % Ersparnis."
+          "a": "Ja. Wählen Sie einzeln „Competitive Intelligence“, „Events & Kalendersignale“ oder „Markttrends“ - oder holen Sie sich das komplette Watchtower-Paket für ca. 18 % Ersparnis."
         },
         {
           "q": "Wie funktioniert das tägliche Briefing?",
@@ -603,7 +603,7 @@ export const generatedLocalCopy = {
       "ctaSales": "Sprechen Sie mit dem Vertrieb"
     },
     "nl": {
-      "heroBadge": "Watchtower — External Intelligence Engine",
+      "heroBadge": "Watchtower - External Intelligence Engine",
       "heroDescription": "Prijswijzigingen van concurrenten worden dagelijks bijgehouden. Dit weekend een concert. Volgende week begint de Ramadan. Watchtower synthetiseert externe signalen met uw interne gegevens tot een dagelijkse inlichtingenbriefing: wat er gebeurt, waarom het ertoe doet en wat u eraan kunt doen. Signalen worden automatisch omgezet in Foresight-aannames.",
       "heroNote": "Beschikbaar op Core-lagen. Kies individuele intelligentietypes of de volledige Watchtower-bundel.",
       "heroPrimary": "Add Watchtower",
@@ -637,7 +637,7 @@ export const generatedLocalCopy = {
         {
           "title": "Commandocentrum en dagelijkse briefing",
           "headline": "Uw ochtendinlichtingenbriefing",
-          "description": "Elke ochtend synthetiseert Watchtower alles – de omzet en het tempo van gisteren van Pulse, de weersvoorspelling van vandaag, aankomende evenementen in de buurt van uw restaurant, recente activiteiten van concurrenten en marktsignalen – in één enkele, geprioriteerde briefing. Geen dashboard dat je hoeft te controleren. Intelligentie die naar je toe komt.",
+          "description": "Elke ochtend synthetiseert Watchtower alles - de omzet en het tempo van gisteren van Pulse, de weersvoorspelling van vandaag, aankomende evenementen in de buurt van uw restaurant, recente activiteiten van concurrenten en marktsignalen - in één enkele, geprioriteerde briefing. Geen dashboard dat je hoeft te controleren. Intelligentie die naar je toe komt.",
           "capabilities": [
             "Dagelijkse briefing waarbij interne en externe gegevens worden gecombineerd",
             "Geprioriteerde aanbevelingen gerangschikt op omzetimpact",
@@ -688,7 +688,7 @@ export const generatedLocalCopy = {
             "Gemiddelde beoordeling en prijstrends per keukensegment",
             "Macro-economische signalen (inflatie, consumentenvertrouwen)",
             "Marktinformatiesignalen kwamen proactief naar boven",
-            "Cross-intelligence cascade – Watchtower-signalen worden meegenomen in de aannames van Foresight met vertrouwensscores",
+            "Cross-intelligence cascade - Watchtower-signalen worden meegenomen in de aannames van Foresight met vertrouwensscores",
             "BTW-, hotel- en franchisespecifieke financiële visuals"
           ],
           "icon": "multiLocation",
@@ -753,13 +753,13 @@ export const generatedLocalCopy = {
       "ctaSales": "Praat met Verkoop"
     },
     "pt": {
-      "heroBadge": "Watchtower – Mecanismo de Inteligência Externa",
-      "heroDescription": "Mudanças nos preços dos concorrentes monitoradas diariamente. Um concerto neste fim de semana. O Ramadã começa na próxima semana. A Watchtower sintetiza sinais externos com seus dados internos em um briefing diário de inteligência – o que está acontecendo, por que é importante e o que fazer a respeito. Os sinais se transformam automaticamente em Foresight.",
+      "heroBadge": "Watchtower - Mecanismo de Inteligência Externa",
+      "heroDescription": "Mudanças nos preços dos concorrentes monitoradas diariamente. Um concerto neste fim de semana. O Ramadã começa na próxima semana. A Watchtower sintetiza sinais externos com seus dados internos em um briefing diário de inteligência - o que está acontecendo, por que é importante e o que fazer a respeito. Os sinais se transformam automaticamente em Foresight.",
       "heroNote": "Disponível nas camadas Core. Escolha tipos de inteligência individuais ou o pacote completo da Watchtower.",
       "heroPrimary": "Adicionar Watchtower",
       "heroSecondary": "Agende uma demonstração",
       "introHeading": "O que é a Watchtower?",
-      "introDescription": "Sua camada de inteligência externa – visibilidade de tudo que está fora de suas quatro paredes e que impacta seus negócios. Enquanto o Pulse informa o que está acontecendo dentro de sua operação, a Watchtower cobre o cenário competitivo, o ambiente local e o mercado mais amplo.",
+      "introDescription": "Sua camada de inteligência externa - visibilidade de tudo que está fora de suas quatro paredes e que impacta seus negócios. Enquanto o Pulse informa o que está acontecendo dentro de sua operação, a Watchtower cobre o cenário competitivo, o ambiente local e o mercado mais amplo.",
       "introCards": [
         {
           "icon": "visibility",
@@ -838,7 +838,7 @@ export const generatedLocalCopy = {
             "Classificação média e tendências de preços por segmento de cozinha",
             "Sinais macroeconómicos (inflação, confiança do consumidor)",
             "Sinais de inteligência de mercado surgiram de forma proativa",
-            "Cascata de inteligência cruzada — Os sinais da Watchtower alimentam as Foresight com pontuação de confiança",
+            "Cascata de inteligência cruzada - Os sinais da Watchtower alimentam as Foresight com pontuação de confiança",
             "Visuais financeiros específicos de IVA, hotel e franquia"
           ],
           "icon": "multiLocation",
@@ -988,7 +988,7 @@ export const generatedLocalCopy = {
             "کھانے کے طبقے کے لحاظ سے اوسط درجہ بندی اور قیمتوں کے رجحانات",
             "میکرو اکنامک سگنلز (افراط زر، صارفین کا اعتماد)",
             "مارکیٹ انٹیلی جنس سگنل فعال طور پر سامنے آئے",
-            "کراس انٹیلی جنس جھڑپ — Watchtower سگنلز اعتماد کے اسکورنگ کے ساتھ Foresight کے مفروضوں کو پورا کرتے ہیں",
+            "کراس انٹیلی جنس جھڑپ - Watchtower سگنلز اعتماد کے اسکورنگ کے ساتھ Foresight کے مفروضوں کو پورا کرتے ہیں",
             "VAT، ہوٹل، اور فرنچائز کے لیے مخصوص مالیاتی وژن"
           ],
           "icon": "multiLocation",
@@ -1053,7 +1053,7 @@ export const generatedLocalCopy = {
       "ctaSales": "سیلز سے بات کریں۔"
     },
     "hi": {
-      "heroBadge": "Watchtower — External Intelligence Engine",
+      "heroBadge": "Watchtower - External Intelligence Engine",
       "heroDescription": "प्रतिस्पर्धियों के मूल्य निर्धारण परिवर्तन को प्रतिदिन ट्रैक किया जाता है। इस सप्ताह के अंत में एक संगीत कार्यक्रम। अगले सप्ताह से रमज़ान शुरू हो रहा है. Watchtower आपके आंतरिक डेटा के साथ बाहरी संकेतों को दैनिक खुफिया ब्रीफिंग में संश्लेषित करता है - क्या हो रहा है, यह क्यों मायने रखता है, और इसके बारे में क्या करना है। सिग्नल स्वचालित रूप से Foresight धारणाओं में प्रवाहित होते हैं।",
       "heroNote": "Available on Core tiers. Choose individual intelligence types or the full Watchtower bundle.",
       "heroPrimary": "Add Watchtower",
@@ -1203,7 +1203,7 @@ export const generatedLocalCopy = {
       "ctaSales": "सेल्स से बात करें"
     },
     "tr": {
-      "heroBadge": "Watchtower — External Intelligence Engine",
+      "heroBadge": "Watchtower - External Intelligence Engine",
       "heroDescription": "Rakip fiyat değişiklikleri günlük olarak takip edilir. Bu hafta sonu konser var. Önümüzdeki hafta Ramazan başlıyor. Watchtower, harici sinyalleri dahili verilerinizle sentezleyerek günlük bir istihbarat brifingine dönüştürür: neler oluyor, neden önemli ve bu konuda ne yapılması gerekiyor. Sinyaller otomatik olarak Foresight aktarılır.",
       "heroNote": "Çekirdek katmanlarında mevcuttur. Bireysel zeka türlerini veya Watchtower paketinin tamamını seçin.",
       "heroPrimary": "Add Watchtower",
@@ -1288,7 +1288,7 @@ export const generatedLocalCopy = {
             "Mutfak segmentine göre ortalama derecelendirme ve fiyatlandırma eğilimleri",
             "Makro ekonomik sinyaller (enflasyon, tüketici güveni)",
             "Pazar istihbaratı sinyalleri proaktif bir şekilde ortaya çıktı",
-            "Çapraz istihbarat kademesi — Watchtower sinyalleri, güven puanlamasıyla Foresight besler",
+            "Çapraz istihbarat kademesi - Watchtower sinyalleri, güven puanlamasıyla Foresight besler",
             "KDV, otel ve franchise'a özel finansal görseller"
           ],
           "icon": "multiLocation",
@@ -1353,7 +1353,7 @@ export const generatedLocalCopy = {
       "ctaSales": "Satışla Konuşun"
     },
     "it": {
-      "heroBadge": "Watchtower – Motore di intelligence esterna",
+      "heroBadge": "Watchtower - Motore di intelligence esterna",
       "heroDescription": "Le modifiche ai prezzi della concorrenza vengono monitorate quotidianamente. Un concerto questo fine settimana. Il Ramadan inizierà la prossima settimana. La Watchtower sintetizza i segnali esterni con i tuoi dati interni in un briefing quotidiano di intelligence: cosa sta succedendo, perché è importante e cosa fare al riguardo. I segnali si riversano automaticamente nelle ipotesi di Foresight.",
       "heroNote": "Disponibile sui livelli Core. Scegli i singoli tipi di intelligence o il pacchetto completo Watchtower.",
       "heroPrimary": "Add Watchtower",
@@ -1503,13 +1503,13 @@ export const generatedLocalCopy = {
       "ctaSales": "Parla con le vendite"
     },
     "pl": {
-      "heroBadge": "Watchtower — External Intelligence Engine",
-      "heroDescription": "Zmiany cen konkurencji śledzone codziennie. Koncert już w ten weekend. Ramadan zaczyna się w przyszłym tygodniu. Watchtower łączy sygnały zewnętrzne z Twoimi danymi wewnętrznymi w codzienną odprawę wywiadowczą – co się dzieje, dlaczego jest to ważne i co z tym zrobić. Sygnały automatycznie kaskadują się do założeń Foresight.",
+      "heroBadge": "Watchtower - External Intelligence Engine",
+      "heroDescription": "Zmiany cen konkurencji śledzone codziennie. Koncert już w ten weekend. Ramadan zaczyna się w przyszłym tygodniu. Watchtower łączy sygnały zewnętrzne z Twoimi danymi wewnętrznymi w codzienną odprawę wywiadowczą - co się dzieje, dlaczego jest to ważne i co z tym zrobić. Sygnały automatycznie kaskadują się do założeń Foresight.",
       "heroNote": "Dostępne na poziomach podstawowych. Wybierz indywidualne typy inteligencji lub pełny pakiet Watchtower.",
       "heroPrimary": "Add Watchtower",
       "heroSecondary": "Zarezerwuj wersję demonstracyjną",
       "introHeading": "What is Watchtower?",
-      "introDescription": "Twoja zewnętrzna warstwa inteligencji – wgląd we wszystko, co ma wpływ na Twój biznes poza Twoimi czterema ścianami. Podczas gdy Pulse informuje Cię, co dzieje się w Twojej firmie, Watchtower opisuje krajobraz konkurencyjny, środowisko lokalne i szerszy rynek.",
+      "introDescription": "Twoja zewnętrzna warstwa inteligencji - wgląd we wszystko, co ma wpływ na Twój biznes poza Twoimi czterema ścianami. Podczas gdy Pulse informuje Cię, co dzieje się w Twojej firmie, Watchtower opisuje krajobraz konkurencyjny, środowisko lokalne i szerszy rynek.",
       "introCards": [
         {
           "icon": "visibility",
@@ -1529,7 +1529,7 @@ export const generatedLocalCopy = {
       ],
       "internalEyebrow": "WEWNĘTRZNE + ZEWNĘTRZNE",
       "internalHeading": "Jedyna platforma, która widzi obie strony",
-      "internalDescription": "Platformy wewnętrzne pokazują, co się stało. Narzędzia rynkowe pokazują, co jest na rynku. Sundae to jedyna platforma analizy decyzji, która syntetyzuje oba elementy – łącząc dane z punktów sprzedaży, pracy i operacji ze śledzeniem konkurencji na żywo, analizą wydarzeń lokalnych, prognozami pogody i danymi o trendach rynkowych – w jedną odprawę, która informuje, co to wszystko oznacza dla dzisiejszej zmiany. (POS)",
+      "internalDescription": "Platformy wewnętrzne pokazują, co się stało. Narzędzia rynkowe pokazują, co jest na rynku. Sundae to jedyna platforma analizy decyzji, która syntetyzuje oba elementy - łącząc dane z punktów sprzedaży, pracy i operacji ze śledzeniem konkurencji na żywo, analizą wydarzeń lokalnych, prognozami pogody i danymi o trendach rynkowych - w jedną odprawę, która informuje, co to wszystko oznacza dla dzisiejszej zmiany. (POS)",
       "featureEyebrow": "CZTERY TYPY INTELIGENCJI",
       "featureHeading": "Inteligencja zewnętrzna, zautomatyzowana",
       "featureDescription": "Wybierz jeden, dwa lub wszystkie cztery typy inteligencji, aby uzyskać pełną widoczność na zewnątrz",
@@ -1537,7 +1537,7 @@ export const generatedLocalCopy = {
         {
           "title": "Centrum dowodzenia i codzienna odprawa",
           "headline": "Twoja poranna odprawa wywiadowcza",
-          "description": "Każdego ranka Watchtower syntetyzuje wszystko – wczorajsze przychody i tempo pracy z Pulse, dzisiejszą prognozę pogody, nadchodzące wydarzenia w pobliżu Twojej restauracji, ostatnią aktywność konkurencji i sygnały rynkowe – w jedną, priorytetową odprawę. To nie deska rozdzielcza, którą musisz sprawdzać. Inteligencja, która do Ciebie przychodzi.",
+          "description": "Każdego ranka Watchtower syntetyzuje wszystko - wczorajsze przychody i tempo pracy z Pulse, dzisiejszą prognozę pogody, nadchodzące wydarzenia w pobliżu Twojej restauracji, ostatnią aktywność konkurencji i sygnały rynkowe - w jedną, priorytetową odprawę. To nie deska rozdzielcza, którą musisz sprawdzać. Inteligencja, która do Ciebie przychodzi.",
           "capabilities": [
             "Codzienny briefing łączący dane wewnętrzne i zewnętrzne",
             "Rekomendacje z priorytetami uszeregowane według wpływu na przychody",
@@ -1555,7 +1555,7 @@ export const generatedLocalCopy = {
           "capabilities": [
             "Śledź do 10+ nazwanych konkurentów na każdy punkt sprzedaży",
             "Automatycznie odkrywaj konkurentów według lokalizacji, kuchni i przedziału cenowego",
-            "Śledzenie cen w menu konkurencji – ciągłe monitorowanie zmian cen pod względem wielkości i czasu",
+            "Śledzenie cen w menu konkurencji - ciągłe monitorowanie zmian cen pod względem wielkości i czasu",
             "Codzienne monitorowanie ocen i recenzji",
             "Przejrzyj analizę nastrojów według tematu",
             "Alerty o aktywności konkurencji (zmiany ocen, zamknięcia, skoki recenzji, zmiany cen)",
@@ -1588,7 +1588,7 @@ export const generatedLocalCopy = {
             "Średnia ocena i trendy cenowe według segmentu kuchni",
             "Sygnały makroekonomiczne (inflacja, zaufanie konsumentów)",
             "Sygnały pochodzące z analizy rynku pojawiały się proaktywnie",
-            "Kaskada międzywywiadowcza — sygnały Watchtower są uwzględniane w założeniach Foresight z punktacją pewności",
+            "Kaskada międzywywiadowcza - sygnały Watchtower są uwzględniane w założeniach Foresight z punktacją pewności",
             "Wizualizacje finansowe dotyczące podatku VAT, hoteli i franczyzy"
           ],
           "icon": "multiLocation",
@@ -1639,7 +1639,7 @@ export const generatedLocalCopy = {
         },
         {
           "q": "Czy mogę używać tylko jednego typu inteligencji?",
-          "a": "Tak. Wybierz indywidualnie analizę konkurencji, wydarzenia i sygnały kalendarza lub trendy rynkowe — lub zdobądź pełny pakiet Watchtower, aby zaoszczędzić ~18%."
+          "a": "Tak. Wybierz indywidualnie analizę konkurencji, wydarzenia i sygnały kalendarza lub trendy rynkowe - lub zdobądź pełny pakiet Watchtower, aby zaoszczędzić ~18%."
         },
         {
           "q": "Jak wygląda codzienna odprawa?",
@@ -1653,7 +1653,7 @@ export const generatedLocalCopy = {
       "ctaSales": "Porozmawiaj z działem sprzedaży"
     },
     "zh-Hans": {
-      "heroBadge": "Watchtower——外部情报引擎",
+      "heroBadge": "Watchtower--外部情报引擎",
       "heroDescription": "每天跟踪竞争对手的定价变化。这个周末有一场音乐会。斋月下周开始。 Watchtower 将外部信号与您的内部数据合成为每日情报简报 - 正在发生什么、为什么重要以及如何应对。信号自动级联成 Foresight 假设。",
       "heroNote": "在核心层可用。 Choose individual intelligence types or the full Watchtower bundle.",
       "heroPrimary": "Add Watchtower",
@@ -1738,7 +1738,7 @@ export const generatedLocalCopy = {
             "按美食细分市场划分的平均评分和定价趋势",
             "宏观经济信号（通货膨胀、消费者信心）",
             "市场情报信号主动显现",
-            "跨情报级联——Watchtower信号通过置信度评分反馈到 Foresight 假设中",
+            "跨情报级联--Watchtower信号通过置信度评分反馈到 Foresight 假设中",
             "增值税、酒店和特许经营特定的财务视觉效果"
           ],
           "icon": "multiLocation",
@@ -1803,7 +1803,7 @@ export const generatedLocalCopy = {
       "ctaSales": "与销售人员交谈"
     },
     "ja": {
-      "heroBadge": "Watchtower — 外部インテリジェンス エンジン",
+      "heroBadge": "Watchtower - 外部インテリジェンス エンジン",
       "heroDescription": "競合他社の価格変更は毎日追跡されます。今週末はコンサート。来週からラマダンが始まります。 Watchtower は、外部シグナルと内部データを合成して、何が起こっているのか、なぜそれが重要なのか、そしてそれに対して何をすべきなのかを毎日の情報ブリーフィングにまとめます。シグナルは自動的に Foresight の仮定にカスケードされます。",
       "heroNote": "コア層で利用可能です。個別のインテリジェンス タイプまたは完全な Watchtower バンドルを選択します。",
       "heroPrimary": "Add Watchtower",
@@ -1888,7 +1888,7 @@ export const generatedLocalCopy = {
             "料理分野別の平均評価と価格傾向",
             "マクロ経済シグナル（インフレ、消費者信頼感）",
             "市場インテリジェンスのシグナルが積極的に表面化",
-            "Cross-intelligence cascade — Watchtower signals feed into Foresight assumptions with confidence scoring",
+            "Cross-intelligence cascade - Watchtower signals feed into Foresight assumptions with confidence scoring",
             "VAT、ホテル、フランチャイズ固有の財務ビジュアル"
           ],
           "icon": "multiLocation",
@@ -1953,7 +1953,7 @@ export const generatedLocalCopy = {
       "ctaSales": "営業担当者に相談する"
     },
     "ko": {
-      "heroBadge": "Watchtower — External Intelligence Engine",
+      "heroBadge": "Watchtower - External Intelligence Engine",
       "heroDescription": "경쟁사 가격 변동은 매일 추적됩니다. 이번 주말에 콘서트가 있어요. 다음주부터 라마단이 시작됩니다. Watchtower는 외부 신호와 내부 데이터를 종합하여 무슨 일이 일어나고 있는지, 그것이 왜 중요한지, 이에 대해 무엇을 해야 하는지에 대한 일일 정보 브리핑을 제공합니다. 신호는 Foresight 가정에 자동으로 적용됩니다.",
       "heroNote": "코어 계층에서 사용할 수 있습니다. 개별 정보 유형 또는 전체 Watchtower 번들을 선택하십시오.",
       "heroPrimary": "Add Watchtower",
@@ -1979,7 +1979,7 @@ export const generatedLocalCopy = {
       ],
       "internalEyebrow": "내부 + 외부",
       "internalHeading": "양면을 모두 볼 수 있는 유일한 플랫폼",
-      "internalDescription": "내부 플랫폼은 무슨 일이 일어났는지 보여줍니다. 시장 도구는 거기에 무엇이 있는지 보여줍니다. Sundae는 POS, 인력, 운영 데이터를 실시간 경쟁사 추적, 지역 이벤트 인텔리전스, 일기예보 및 시장 동향 데이터와 결합하여 오늘날의 변화에 ​​대한 모든 의미를 알려주는 단일 브리핑으로 통합하는 유일한 의사결정 인텔리전스 플랫폼입니다.",
+      "internalDescription": "내부 플랫폼은 무슨 일이 일어났는지 보여줍니다. 시장 도구는 거기에 무엇이 있는지 보여줍니다. Sundae는 POS, 인력, 운영 데이터를 실시간 경쟁사 추적, 지역 이벤트 인텔리전스, 일기예보 및 시장 동향 데이터와 결합하여 오늘날의 변화에 대한 모든 의미를 알려주는 단일 브리핑으로 통합하는 유일한 의사결정 인텔리전스 플랫폼입니다.",
       "featureEyebrow": "4가지 지능 유형",
       "featureHeading": "외부 인텔리전스, 자동화",
       "featureDescription": "완전한 외부 가시성을 위해 하나, 둘 또는 네 가지 인텔리전스 유형 모두 선택",
@@ -1987,7 +1987,7 @@ export const generatedLocalCopy = {
         {
           "title": "지휘센터 및 일일 브리핑",
           "headline": "당신의 아침 정보브리핑",
-          "description": "매일 아침 Watchtower는 어제의 수익과 Pulse의 속도, 오늘의 일기 예보, 레스토랑 근처에서 예정된 이벤트, 최근 경쟁업체 활동, 시장 신호 등 모든 것을 우선순위가 지정된 단일 브리핑으로 종합합니다. 확인해야 할 대시보드가 ​​아닙니다. 당신에게 찾아오는 지능.",
+          "description": "매일 아침 Watchtower는 어제의 수익과 Pulse의 속도, 오늘의 일기 예보, 레스토랑 근처에서 예정된 이벤트, 최근 경쟁업체 활동, 시장 신호 등 모든 것을 우선순위가 지정된 단일 브리핑으로 종합합니다. 확인해야 할 대시보드가 아닙니다. 당신에게 찾아오는 지능.",
           "capabilities": [
             "내부 + 외부 데이터를 결합한 일일 브리핑",
             "수익 영향에 따라 순위가 매겨진 우선순위 추천",
@@ -2038,7 +2038,7 @@ export const generatedLocalCopy = {
             "요리 부문별 평균 평점 및 가격 동향",
             "거시 경제 신호(인플레이션, 소비자 신뢰)",
             "시장 정보 신호가 적극적으로 나타났습니다.",
-            "교차 지능 캐스케이드 — Watchtower 신호는 신뢰도 점수를 통해 Foresight 가정에 반영됩니다.",
+            "교차 지능 캐스케이드 - Watchtower 신호는 신뢰도 점수를 통해 Foresight 가정에 반영됩니다.",
             "VAT, 호텔, 프랜차이즈별 금융 영상"
           ],
           "icon": "multiLocation",
@@ -2103,7 +2103,7 @@ export const generatedLocalCopy = {
       "ctaSales": "영업팀에 문의하세요"
     },
     "id": {
-      "heroBadge": "Watchtower — External Intelligence Engine",
+      "heroBadge": "Watchtower - External Intelligence Engine",
       "heroDescription": "Perubahan harga pesaing dilacak setiap hari. Konser akhir pekan ini. Ramadhan dimulai minggu depan. Watchtower menyatukan sinyal eksternal dengan data internal Anda ke dalam pengarahan intelijen harian - apa yang terjadi, mengapa hal itu penting, dan apa yang harus dilakukan untuk mengatasinya. Sinyal secara otomatis mengalir ke asumsi Foresight.",
       "heroNote": "Tersedia di tingkat Inti. Pilih jenis kecerdasan individu atau paket lengkap Watchtower.",
       "heroPrimary": "Add Watchtower",
@@ -2188,7 +2188,7 @@ export const generatedLocalCopy = {
             "Peringkat rata-rata dan tren harga berdasarkan segmen masakan",
             "Sinyal ekonomi makro (inflasi, kepercayaan konsumen)",
             "Sinyal intelijen pasar muncul secara proaktif",
-            "Aliran lintas intelijen — Sinyal Watchtower dimasukkan ke dalam asumsi Foresight dengan penilaian keyakinan",
+            "Aliran lintas intelijen - Sinyal Watchtower dimasukkan ke dalam asumsi Foresight dengan penilaian keyakinan",
             "Visual keuangan khusus PPN, hotel, dan waralaba"
           ],
           "icon": "multiLocation",
@@ -2253,7 +2253,7 @@ export const generatedLocalCopy = {
       "ctaSales": "Bicaralah dengan Penjualan"
     },
     "ro": {
-      "heroBadge": "Watchtower — External Intelligence Engine",
+      "heroBadge": "Watchtower - External Intelligence Engine",
       "heroDescription": "Modificările prețurilor concurenței sunt urmărite zilnic. Un concert în acest weekend. Ramadanul începe săptămâna viitoare. Watchtower sintetizează semnalele externe cu datele tale interne într-un briefing zilnic de informații - ce se întâmplă, de ce contează și ce să faci în acest sens. Semnalele se încadrează automat în ipoteze de Foresight.",
       "heroNote": "Disponibil pe nivelurile de bază. Alegeți tipuri individuale de informații sau pachetul complet Watchtower.",
       "heroPrimary": "Add Watchtower",
@@ -2338,7 +2338,7 @@ export const generatedLocalCopy = {
             "Evaluarea medie și tendințele prețurilor pe segmentul de bucătărie",
             "Semnale macroeconomice (inflație, încrederea consumatorilor)",
             "Semnalele de informații despre piață au apărut în mod proactiv",
-            "Cascada de informații încrucișate — Semnalele Watchtower alimentează ipotezele de Foresight cu punctaj de încredere",
+            "Cascada de informații încrucișate - Semnalele Watchtower alimentează ipotezele de Foresight cu punctaj de încredere",
             "Imagini financiare specifice pentru TVA, hotel și francize"
           ],
           "icon": "multiLocation",
@@ -2403,7 +2403,7 @@ export const generatedLocalCopy = {
       "ctaSales": "Vorbește cu vânzări"
     },
     "vi": {
-      "heroBadge": "Watchtower — External Intelligence Engine",
+      "heroBadge": "Watchtower - External Intelligence Engine",
       "heroDescription": "Thay đổi giá của đối thủ cạnh tranh được theo dõi hàng ngày. Một buổi hòa nhạc vào cuối tuần này. Tháng Ramadan bắt đầu vào tuần tới. Watchtower tổng hợp các tín hiệu bên ngoài với dữ liệu nội bộ của bạn thành bản tóm tắt thông tin hàng ngày - điều gì đang xảy ra, tại sao nó quan trọng và phải làm gì với nó. Tín hiệu tự động chuyển thành các giả định Foresight.",
       "heroNote": "Có sẵn trên các tầng Core. Chọn loại trí thông minh riêng lẻ hoặc gói Watchtower đầy đủ.",
       "heroPrimary": "Add Watchtower",
@@ -2553,7 +2553,7 @@ export const generatedLocalCopy = {
       "ctaSales": "Nói chuyện với bộ phận bán hàng"
     },
     "sv": {
-      "heroBadge": "Watchtower — External Intelligence Engine",
+      "heroBadge": "Watchtower - External Intelligence Engine",
       "heroDescription": "Konkurrentens prisändringar spåras dagligen. En konsert i helgen. Ramadan börjar nästa vecka. Watchtower syntetiserar externa signaler med dina interna data till en daglig underrättelseinformation - vad som händer, varför det är viktigt och vad du ska göra åt det. Signaler går automatiskt över i Foresight.",
       "heroNote": "Tillgänglig på Core-nivåer. Välj individuella intelligenstyper eller hela Watchtower-paketet.",
       "heroPrimary": "Lägg till Watchtower",
@@ -2587,7 +2587,7 @@ export const generatedLocalCopy = {
         {
           "title": "Kommandocentral och daglig information",
           "headline": "Din Morgon Intelligence Briefing",
-          "description": "Varje morgon syntetiserar Watchtower allt – gårdagens intäkter och takt från Pulse, dagens väderprognos, kommande evenemang nära din restaurang, senaste konkurrentaktivitet och marknadssignaler – till en enda, prioriterad genomgång. Inte en instrumentpanel du måste kolla. Intelligens som kommer till dig.",
+          "description": "Varje morgon syntetiserar Watchtower allt - gårdagens intäkter och takt från Pulse, dagens väderprognos, kommande evenemang nära din restaurang, senaste konkurrentaktivitet och marknadssignaler - till en enda, prioriterad genomgång. Inte en instrumentpanel du måste kolla. Intelligens som kommer till dig.",
           "capabilities": [
             "Daglig briefing som kombinerar intern + extern data",
             "Prioriterade rekommendationer rangordnade efter intäktseffekt",
@@ -2638,7 +2638,7 @@ export const generatedLocalCopy = {
             "Genomsnittligt betyg och pristrender per kökssegment",
             "Makroekonomiska signaler (inflation, konsumentförtroende)",
             "Marknadsinformationssignaler dök upp proaktivt",
-            "Cross-intelligence-kaskad – Watchtower signaler matas in i Foresight med förtroendepoäng",
+            "Cross-intelligence-kaskad - Watchtower signaler matas in i Foresight med förtroendepoäng",
             "Moms-, hotell- och franchisespecifika finansiella bilder"
           ],
           "icon": "multiLocation",
@@ -2703,7 +2703,7 @@ export const generatedLocalCopy = {
       "ctaSales": "Prata med försäljningen"
     },
     "bn": {
-      "heroBadge": "Watchtower — External Intelligence Engine",
+      "heroBadge": "Watchtower - External Intelligence Engine",
       "heroDescription": "প্রতিযোগী মূল্য পরিবর্তন প্রতিদিন ট্র্যাক করা হয়. এই সপ্তাহান্তে একটি কনসার্ট। আগামী সপ্তাহে শুরু হচ্ছে রমজান মাস। Watchtower আপনার অভ্যন্তরীণ ডেটা সহ বাহ্যিক সংকেতগুলিকে একটি দৈনিক গোয়েন্দা ব্রিফিং-এ সংশ্লেষিত করে - কী ঘটছে, কেন এটি গুরুত্বপূর্ণ এবং এটি সম্পর্কে কী করতে হবে৷ সংকেত স্বয়ংক্রিয়ভাবে Foresight অনুমানের মধ্যে ক্যাসকেড হয়।",
       "heroNote": "মূল স্তরে উপলব্ধ। পৃথক বুদ্ধিমত্তার ধরন বা সম্পূর্ণ Watchtower বান্ডিল বেছে নিন।",
       "heroPrimary": "Add Watchtower",
@@ -2740,7 +2740,7 @@ export const generatedLocalCopy = {
           "description": "প্রতিদিন সকালে, Watchtower সবকিছু সংশ্লেষিত করে - গতকালের আয় এবং Pulse থেকে গতি, আজকের আবহাওয়ার পূর্বাভাস, আপনার রেস্তোরাঁর কাছে আসন্ন ঘটনা, সাম্প্রতিক প্রতিযোগী কার্যকলাপ এবং বাজার সংকেত - একটি একক, অগ্রাধিকারযুক্ত ব্রিফিংয়ে। ড্যাশবোর্ড নয় আপনাকে চেক করতে হবে। আপনার কাছে যে বুদ্ধি আসে।",
           "capabilities": [
             "অভ্যন্তরীণ + বাহ্যিক ডেটার সমন্বয়ে দৈনিক ব্রিফিং",
-            "রাজস্ব প্রভাব দ্বারা র‌্যাঙ্ক করা অগ্রাধিকারযুক্ত সুপারিশ",
+            "রাজস্ব প্রভাব দ্বারা র্যাঙ্ক করা অগ্রাধিকারযুক্ত সুপারিশ",
             "ইমেল, টেলিগ্রাম, স্ল্যাক বা ইন-অ্যাপের মাধ্যমে বিতরণ করা হয়েছে",
             "বরখাস্ত এবং স্বীকার কর্ম সহ সংকেত ফিড",
             "সাপ্তাহিক প্রতিযোগিতামূলক বুদ্ধিমত্তা ডাইজেস্ট"
@@ -2788,7 +2788,7 @@ export const generatedLocalCopy = {
             "রন্ধনপ্রণালী বিভাগ দ্বারা গড় রেটিং এবং মূল্যের প্রবণতা",
             "ম্যাক্রো অর্থনৈতিক সংকেত (মুদ্রাস্ফীতি, ভোক্তা আস্থা)",
             "বাজারের বুদ্ধিমত্তার সংকেত সক্রিয়ভাবে প্রকাশিত হয়েছে",
-            "ক্রস-ইন্টেলিজেন্স ক্যাসকেড — Watchtower সিগন্যালগুলি আত্মবিশ্বাসের স্কোরিংয়ের সাথে Foresightর অনুমানগুলিতে ফিড করে",
+            "ক্রস-ইন্টেলিজেন্স ক্যাসকেড - Watchtower সিগন্যালগুলি আত্মবিশ্বাসের স্কোরিংয়ের সাথে Foresightর অনুমানগুলিতে ফিড করে",
             "ভ্যাট, হোটেল এবং ফ্র্যাঞ্চাইজি-নির্দিষ্ট আর্থিক ভিজ্যুয়াল"
           ],
           "icon": "multiLocation",
@@ -2853,7 +2853,7 @@ export const generatedLocalCopy = {
       "ctaSales": "সেলসের সাথে কথা বলুন"
     },
     "th": {
-      "heroBadge": "Watchtower — External Intelligence Engine",
+      "heroBadge": "Watchtower - External Intelligence Engine",
       "heroDescription": "ติดตามการเปลี่ยนแปลงราคาของคู่แข่งทุกวัน คอนเสิร์ตสุดสัปดาห์นี้ รอมฎอนเริ่มสัปดาห์หน้า Watchtowerสังเคราะห์สัญญาณภายนอกด้วยข้อมูลภายในของคุณในการสรุปข่าวกรองรายวัน - เกิดอะไรขึ้น เหตุใดจึงสำคัญ และต้องทำอย่างไร สัญญาณจะไหลเข้าสู่สมมติฐานForesightโดยอัตโนมัติ",
       "heroNote": "มีให้ใช้งานในระดับ Core เลือกประเภทสติปัญญาส่วนบุคคลหรือชุดรวมWatchtowerทั้งหมด",
       "heroPrimary": "Add Watchtower",
@@ -2938,7 +2938,7 @@ export const generatedLocalCopy = {
             "คะแนนเฉลี่ยและแนวโน้มการกำหนดราคาตามกลุ่มอาหาร",
             "สัญญาณเศรษฐกิจมหภาค (เงินเฟ้อ ความเชื่อมั่นผู้บริโภค)",
             "สัญญาณข่าวกรองทางการตลาดปรากฏขึ้นในเชิงรุก",
-            "น้ำตกแบบข้ามหน่วยสืบราชการลับ — Watchtowerส่งสัญญาณเข้าสู่สมมติฐาน Foresight ด้วยคะแนนความมั่นใจ",
+            "น้ำตกแบบข้ามหน่วยสืบราชการลับ - Watchtowerส่งสัญญาณเข้าสู่สมมติฐาน Foresight ด้วยคะแนนความมั่นใจ",
             "ภาพทางการเงินเฉพาะภาษีมูลค่าเพิ่ม โรงแรม และแฟรนไชส์"
           ],
           "icon": "multiLocation",
@@ -3003,7 +3003,7 @@ export const generatedLocalCopy = {
       "ctaSales": "Talk to Sales"
     },
     "ms": {
-      "heroBadge": "Watchtower — External Intelligence Engine",
+      "heroBadge": "Watchtower - External Intelligence Engine",
       "heroDescription": "Perubahan harga pesaing dijejaki setiap hari. Konsert hujung minggu ini. Ramadan bermula minggu hadapan. Watchtower mensintesis isyarat luaran dengan data dalaman anda ke dalam taklimat risikan harian - perkara yang berlaku, sebab ia penting dan perkara yang perlu dilakukan mengenainya. Isyarat secara automatik mengalir ke dalam andaian Foresight.",
       "heroNote": "Tersedia pada peringkat Teras. Pilih jenis kecerdasan individu atau himpunan penuh Watchtower.",
       "heroPrimary": "Add Watchtower",
@@ -3088,7 +3088,7 @@ export const generatedLocalCopy = {
             "Purata rating dan aliran harga mengikut segmen masakan",
             "Isyarat ekonomi makro (inflasi, keyakinan pengguna)",
             "Isyarat risikan pasaran muncul secara proaktif",
-            "Lata kecerdasan silang — Isyarat Watchtower memberi masukan kepada andaian Foresight dengan pemarkahan keyakinan",
+            "Lata kecerdasan silang - Isyarat Watchtower memberi masukan kepada andaian Foresight dengan pemarkahan keyakinan",
             "VAT, hotel dan visual kewangan khusus francais"
           ],
           "icon": "multiLocation",

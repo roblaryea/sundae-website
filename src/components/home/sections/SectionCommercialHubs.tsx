@@ -1,7 +1,7 @@
 "use client";
 
 /**
- * Commercial Hubs strip — regional commercial presence signal.
+ * Commercial Hubs strip - regional commercial presence signal.
  *
  * Two-row structure:
  *   • Operating today: cities/countries where Sundae has live commercial activity
@@ -12,7 +12,7 @@
  * where you operate". Addresses the marketing-feedback critique about the
  * site reading as "globally vague" without regional commercial anchors.
  *
- * Copy is English-only by design — translations come through the i18n
+ * Copy is English-only by design - translations come through the i18n
  * pipeline workstream once copy is locked.
  */
 
@@ -28,13 +28,13 @@ type Hub = {
 };
 
 const HUBS: Hub[] = [
-  // Physical operations — team on the ground
+  // Physical operations - team on the ground
   { city: "Amsterdam", region: "Europe", kind: "physical" },
   { city: "Dubai",     region: "MEA",    kind: "physical" },
-  // Legal & commercial footprint — entities, contracts, partner networks
+  // Legal & commercial footprint - entities, contracts, partner networks
   { city: "United States", region: "Delaware C-Corp", kind: "footprint" },
   { city: "Canada",        region: "Operating base",  kind: "footprint" },
-  // Expansion markets — coming soon, strategic priority
+  // Expansion markets - coming soon, strategic priority
   { city: "Singapore",   region: "APAC",  kind: "expanding" },
   { city: "Tokyo",       region: "APAC",  kind: "expanding" },
   { city: "Mexico City", region: "LATAM", kind: "expanding" },

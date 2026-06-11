@@ -45,10 +45,10 @@ import {
  * Shared layout for every /solutions/* role and segment page.
  *
  * Mirrors the new homepage's voice and structure:
- *   1. Hero            — eyebrow + pain headline + outcome subhead + CTAs + mockup
- *   2. Today vs Sundae — pacing-contrast comparison (mirrors homepage §4)
- *   3. Capabilities    — 3 cards with icon + title + body + intel-layer chip
- *   4. Closing         — italic line; footer carries page-level CTA
+ *   1. Hero            - eyebrow + pain headline + outcome subhead + CTAs + mockup
+ *   2. Today vs Sundae - pacing-contrast comparison (mirrors homepage §4)
+ *   3. Capabilities    - 3 cards with icon + title + body + intel-layer chip
+ *   4. Closing         - italic line; footer carries page-level CTA
  *
  * Each page is a thin (server component) wrapper that imports plain data
  * (string keys for icons + mockups) and renders this client template.
@@ -124,10 +124,10 @@ export interface SolutionPageData {
   capabilitiesHeadline: string;
   capabilities: [SolutionCapability, SolutionCapability, SolutionCapability];
 
-  // Mockup (string key — looked up in mockupRegistry)
+  // Mockup (string key - looked up in mockupRegistry)
   mockupKey: MockupKey;
 
-  // Connected systems — proof/depth strip showing data sources Sundae unifies
+  // Connected systems - proof/depth strip showing data sources Sundae unifies
   // for this persona. Renders as a chip row above the closing line.
   connectedSystemsEyebrow?: string;
   connectedSystems?: string[];
@@ -192,7 +192,7 @@ export function SolutionPageTemplate({ data }: { data: SolutionPageData }) {
               </motion.div>
             </div>
 
-            {/* Mockup — looked up via registry to avoid passing React
+            {/* Mockup - looked up via registry to avoid passing React
                 component refs through props from server pages */}
             <div className="lg:pl-4">
               <Mockup />

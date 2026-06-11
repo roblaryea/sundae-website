@@ -16,7 +16,7 @@ import { generatedUiLabels } from "@/lib/generatedUiLabels";
 
 const localizedWatchtowerCopy = {
   en: {
-    heroBadge: "Watchtower — External Intelligence Engine",
+    heroBadge: "Watchtower - External Intelligence Engine",
     heroTitle: <>10+ Competitors Tracked Daily.<br />Zero Manual Research.</>,
     heroDescription:
       "Competitor pricing changes tracked daily. A concert this weekend. Ramadan starts next week. Watchtower synthesizes external signals with your internal data into a daily intelligence briefing - what's happening, why it matters, and what to do about it. Signals automatically cascade into Foresight assumptions.",
@@ -97,7 +97,7 @@ const localizedWatchtowerCopy = {
           "Average rating and pricing trends by cuisine segment",
           "Macro economic signals (inflation, consumer confidence)",
           "Market intelligence signals surfaced proactively",
-          "Cross-intelligence cascade — Watchtower signals feed into Foresight assumptions with confidence scoring",
+          "Cross-intelligence cascade - Watchtower signals feed into Foresight assumptions with confidence scoring",
           "VAT, hotel, and franchise-specific financial visuals",
         ],
         icon: "multiLocation" as SundaeIconName,
@@ -146,7 +146,7 @@ const localizedWatchtowerCopy = {
     ctaSales: "Talk to Sales",
   },
   ar: {
-    heroBadge: "Watchtower — محرك الذكاء الخارجي",
+    heroBadge: "Watchtower - محرك الذكاء الخارجي",
     heroTitle: <>أكثر من 10 منافسين تتم متابعتهم يومياً.<br />من دون أي بحث يدوي.</>,
     heroDescription:
       "تُتابَع تغييرات أسعار المنافسين يومياً. حفل هذا الأسبوع. يبدأ رمضان الأسبوع المقبل. يدمج Watchtower الإشارات الخارجية مع بياناتك الداخلية في موجز ذكاء يومي - ما الذي يحدث، ولماذا يهم، وما الذي يجب فعله بشأنه. تنتقل الإشارات تلقائياً إلى افتراضات Foresight.",
@@ -516,7 +516,7 @@ export default function WatchtowerPage() {
             height={1000}
             dark="/images/product/2026-fresh/watchtower-command-center-dark.png"
             light="/images/product/2026-fresh/watchtower-command-center.png"
-            alt="Watchtower command center — live competitor, event, weather, and market signals with daily actions across the portfolio"
+            alt="Watchtower command center - live competitor, event, weather, and market signals with daily actions across the portfolio"
           />
         </div>
       </PageHero>
@@ -644,7 +644,7 @@ export default function WatchtowerPage() {
         </div>
       </section>
 
-      {/* Product gallery — Watchtower surfaces in detail */}
+      {/* Product gallery - Watchtower surfaces in detail */}
       <SectionProductGallery
         productFilter="/product/watchtower"
         hideFilter

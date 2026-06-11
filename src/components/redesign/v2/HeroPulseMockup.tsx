@@ -9,20 +9,20 @@ import {
 import { HeroLiveKPI } from "./HeroLiveKPI";
 
 /**
- * Hero mockup — Pulse "shift command" view at 11:14am Tuesday, Downtown.
+ * Hero mockup - Pulse "shift command" view at 11:14am Tuesday, Downtown.
  *
  * Aligns with homepage-spec-v1.1 §1 mockup spec and threads the same
  * operational scene picked up by the §6 4D scroll-scene later in the page.
  *
  * Animation discipline: ONE live tile (Revenue Today) ticks every 6s with a
- * 200–600ms green flash. Reduced-motion fallback disables the tick and the
+ * 200-600ms green flash. Reduced-motion fallback disables the tick and the
  * green status dot, leaving the initial composed state visible.
  */
 export function HeroPulseMockup() {
   return (
-    <MockupFrame label="Pulse — Lunch Service · Downtown" glow>
+    <MockupFrame label="Pulse - Lunch Service · Downtown" glow>
       <div className="space-y-4">
-        {/* Header — context + live indicator */}
+        {/* Header - context + live indicator */}
         <div className="flex items-center justify-between">
           <div>
             <div className="text-[11px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">
@@ -38,7 +38,7 @@ export function HeroPulseMockup() {
           </span>
         </div>
 
-        {/* KPI row — Revenue Today is the live ticker */}
+        {/* KPI row - Revenue Today is the live ticker */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
           <HeroLiveKPI
             label="Revenue today"
@@ -64,7 +64,7 @@ export function HeroPulseMockup() {
           />
         </div>
 
-        {/* Pace bar — revenue progress vs lunch target */}
+        {/* Pace bar - revenue progress vs lunch target */}
         <MockupPaceBar
           label="Lunch revenue pacing"
           current={14820}
@@ -72,22 +72,22 @@ export function HeroPulseMockup() {
           unit="$"
         />
 
-        {/* Exception list — Watchtower + server upsell */}
+        {/* Exception list - Watchtower + server upsell */}
         <div className="space-y-2">
           <MockupAlert type="warning">
             <span className="font-semibold">Server #4 upsell -22%</span> this
-            shift — pair with senior server for the next two tables.
+            shift - pair with senior server for the next two tables.
           </MockupAlert>
           <MockupAlert type="info">
             <span className="font-semibold">Watchtower:</span> 2-block office
-            tower has a fire drill scheduled 11–12. Expect a brief dip.
+            tower has a fire drill scheduled 11-12. Expect a brief dip.
           </MockupAlert>
         </div>
 
-        {/* Sundae Coach card — adjusted v1.1 copy (no "cut" language) */}
+        {/* Sundae Coach card - adjusted v1.1 copy (no "cut" language) */}
         <MockupAlert type="coach">
           <span className="font-semibold">Sundae Coach:</span> adjust one
-          line-cook shift from 11–2 if coverage allows. Push the $11.99 lunch
+          line-cook shift from 11-2 if coverage allows. Push the $11.99 lunch
           combo via your loyalty app. <span className="opacity-80">Projected
           impact: recover part of the gap if executed before lunch peak.</span>
         </MockupAlert>

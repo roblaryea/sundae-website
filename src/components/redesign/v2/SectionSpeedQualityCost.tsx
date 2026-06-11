@@ -8,10 +8,10 @@ import {
 } from "framer-motion";
 
 /**
- * Section 3 — Speed / Quality / Cost Triangle (homepage-spec-v1.1, polish r4).
+ * Section 3 - Speed / Quality / Cost Triangle (homepage-spec-v1.1, polish r4).
  *
  * Conversion job: prove differentiation. The triangle visualizes Sundae
- * collapsing the classic "fast, good, cheap — pick two" tradeoff into all
+ * collapsing the classic "fast, good, cheap - pick two" tradeoff into all
  * three at once.
  *
  * Polish r4 changes:
@@ -47,7 +47,7 @@ const vertices: Vertex[] = [
     id: "quality",
     label: "Quality",
     headline: "Built for restaurants. Governed for decisions.",
-    body: "Sundae ships with 500+ governed restaurant data models, peer-anchored benchmarks, and source-cited AI answers — so teams are not building from a blank BI canvas.",
+    body: "Sundae ships with 500+ governed restaurant data models, peer-anchored benchmarks, and source-cited AI answers - so teams are not building from a blank BI canvas.",
     chips: ["500+ models", "Source-cited AI", "Peer benchmarks"],
   },
   {
@@ -59,12 +59,12 @@ const vertices: Vertex[] = [
   },
 ];
 
-// Triangle geometry — viewBox 700×540 with generous label margins.
+// Triangle geometry - viewBox 700×540 with generous label margins.
 //   middle = label centered above top vertex
 //   start  = label starts at labelX, extends RIGHT (bottom-right vertex)
 //   end    = label ends at labelX, extends LEFT (bottom-left vertex)
 //
-// Tiny stat sublabels under the labels were removed in r7 — the proof chips
+// Tiny stat sublabels under the labels were removed in r7 - the proof chips
 // in the rotating right-side card carry that information more readably and
 // the labels were visually colliding with the active-vertex glow.
 const trianglePoints: { x: number; y: number; labelX: number; labelY: number; anchor: "middle" | "start" | "end" }[] = [
@@ -133,7 +133,7 @@ export function SectionSpeedQualityCost() {
           </h2>
           <p className="body-lg max-w-2xl mx-auto">
             Restaurants used to choose between speed, quality, and cost. Sundae
-            was built to deliver all three at once — that&apos;s the entire
+            was built to deliver all three at once - that&apos;s the entire
             point.
           </p>
         </div>
@@ -180,7 +180,7 @@ export function SectionSpeedQualityCost() {
                     <feMergeNode in="SourceGraphic" />
                   </feMerge>
                 </filter>
-                {/* Hidden path — SMIL animateMotion follows this triangle perimeter */}
+                {/* Hidden path - SMIL animateMotion follows this triangle perimeter */}
                 <path
                   id="sqcTracerPath"
                   d={`M ${trianglePoints[0].x} ${trianglePoints[0].y} L ${trianglePoints[1].x} ${trianglePoints[1].y} L ${trianglePoints[2].x} ${trianglePoints[2].y} Z`}
@@ -238,7 +238,7 @@ export function SectionSpeedQualityCost() {
                 </g>
               )}
 
-              {/* Tracer dots — SMIL animateMotion drives continuous orbit
+              {/* Tracer dots - SMIL animateMotion drives continuous orbit
                   along the triangle perimeter. 15s for a full loop = 5s per
                   segment, in sync with the activeIdx interval. */}
               {useAnimated && (
@@ -266,7 +266,7 @@ export function SectionSpeedQualityCost() {
                 </>
               )}
 
-              {/* Vertices — clickable, with stat callouts */}
+              {/* Vertices - clickable, with stat callouts */}
               {trianglePoints.map((p, i) => {
                 const isActive = !useAnimated || i === activeIdx;
                 const v = vertices[i];
@@ -327,7 +327,7 @@ export function SectionSpeedQualityCost() {
                     >
                       {i + 1}
                     </text>
-                    {/* Label — grows when active for emphasis. Sublabel was
+                    {/* Label - grows when active for emphasis. Sublabel was
                         removed in r7 because tiny SVG text was clipping near
                         the active glow; proof chips in the right-side card
                         now carry that info more readably. */}
@@ -401,7 +401,7 @@ export function SectionSpeedQualityCost() {
                 </AnimatePresence>
               </div>
 
-              {/* Proof chips for the active dimension — replaces dot
+              {/* Proof chips for the active dimension - replaces dot
                   indicators with concrete factual signals. Triangle vertices
                   remain clickable for direct navigation. */}
               <AnimatePresence mode="wait">

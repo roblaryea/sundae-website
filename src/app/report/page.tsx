@@ -318,7 +318,7 @@ export default function ReportProductPage() {
             height={1000}
             dark="/images/product/2026-fresh/benchmark-overview-dark.png"
             light="/images/product/2026-fresh/benchmark-overview.png"
-            alt="Sundae Report — benchmark overview with RevPASH index, health score, and peer-cohort comparison"
+            alt="Sundae Report - benchmark overview with RevPASH index, health score, and peer-cohort comparison"
           />
         </div>
       </PageHero>

@@ -919,7 +919,7 @@ export const generatedLocalCopy = {
             "Musteranalyse",
             "Schwellenwertüberwachung"
           ],
-          "colorClass": "Komponentensymbol – Impuls"
+          "colorClass": "Komponentensymbol - Impuls"
         },
         {
           "name": "Schmiede",
@@ -2769,7 +2769,7 @@ export const generatedLocalCopy = {
             "Zapasy",
             "Synchronizacja w czasie rzeczywistym"
           ],
-          "colorClass": "ikona komponentu — scout"
+          "colorClass": "ikona komponentu - scout"
         },
         {
           "name": "Pulse",
@@ -2805,7 +2805,7 @@ export const generatedLocalCopy = {
             "Analityka wizualna",
             "Interaktywne raporty"
           ],
-          "colorClass": "ikona komponentu — płótno"
+          "colorClass": "ikona komponentu - płótno"
         },
         {
           "name": "Watchtower",

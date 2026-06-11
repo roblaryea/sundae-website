@@ -15,7 +15,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Vous ne pouvez pas être dans tous les restaurants à la fois",
-          "description": "Au moment où le mauvais quart de travail est terminé, vous le découvrez grâce au récapitulatif – et non au sol.",
+          "description": "Au moment où le mauvais quart de travail est terminé, vous le découvrez grâce au récapitulatif - et non au sol.",
           "icon": "operators"
         },
         {
@@ -25,7 +25,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "La fuite se cache dans le bruit",
-          "description": "Vides, compensations, remises, surcouverture – petits par quart de travail, chers sur un mois.",
+          "description": "Vides, compensations, remises, surcouverture - petits par quart de travail, chers sur un mois.",
           "icon": "balance"
         },
         {
@@ -39,7 +39,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Rythme en direct dans toute la région",
-          "description": "Les revenus, les couvertures et la main d'œuvre de chaque site – mis à jour tout au long du changement. Le site qui glisse est signalé dans votre brief du matin, pas dans l'examen de vendredi.",
+          "description": "Les revenus, les couvertures et la main d'œuvre de chaque site - mis à jour tout au long du changement. Le site qui glisse est signalé dans votre brief du matin, pas dans l'examen de vendredi.",
           "product": "Pulse",
           "icon": "chart"
         },
@@ -51,7 +51,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Fuite repérée dans le quart de travail",
-          "description": "Des courses vides, des clusters de comp, des remises hors modèle – ont fait surface sur place pendant qu'il est encore temps de parler au directeur général.",
+          "description": "Des courses vides, des clusters de comp, des remises hors modèle - ont fait surface sur place pendant qu'il est encore temps de parler au directeur général.",
           "product": "Insights · Revenue Assurance",
           "icon": "owners"
         },
@@ -279,7 +279,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Je kunt niet in elk restaurant tegelijk zijn",
-          "description": "Tegen de tijd dat de slechte dienst voorbij is, kom je erachter uit de samenvatting – niet uit de vloer.",
+          "description": "Tegen de tijd dat de slechte dienst voorbij is, kom je erachter uit de samenvatting - niet uit de vloer.",
           "icon": "operators"
         },
         {
@@ -293,7 +293,7 @@ export const generatedLocalCopy = {
           "icon": "balance"
         },
         {
-          "title": "Elke site vraagt ​​in één keer om hulp",
+          "title": "Elke site vraagt in één keer om hulp",
           "description": "Zonder zicht op het tempo, beoordeelt u op instinct, niet op welke locatie daadwerkelijk uitglijdt.",
           "icon": "support"
         }
@@ -321,7 +321,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Sundae Coach geeft de volgende zet",
-          "description": "Wanneer een site 14% achterloopt, beveelt Coach een specifieke actie aan – aangepaste arbeid, een loyaliteitsactie, een menuwissel – op basis van wat eerder heeft gewerkt.",
+          "description": "Wanneer een site 14% achterloopt, beveelt Coach een specifieke actie aan - aangepaste arbeid, een loyaliteitsactie, een menuwissel - op basis van wat eerder heeft gewerkt.",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         }
@@ -377,7 +377,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "O vazamento se esconde no barulho",
-          "description": "Vazios, compensações, descontos, cobertura excessiva – pequenos por turno, caros em um mês.",
+          "description": "Vazios, compensações, descontos, cobertura excessiva - pequenos por turno, caros em um mês.",
           "icon": "balance"
         },
         {
@@ -391,7 +391,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Ritmo ao vivo em toda a região",
-          "description": "Receita, coberturas e mão de obra de cada local — atualizadas durante o turno. O site que está escorregando é sinalizado em seu briefing matinal, não na revisão de sexta-feira.",
+          "description": "Receita, coberturas e mão de obra de cada local - atualizadas durante o turno. O site que está escorregando é sinalizado em seu briefing matinal, não na revisão de sexta-feira.",
           "product": "Pulse",
           "icon": "chart"
         },
@@ -403,13 +403,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Vazamento detectado no turno",
-          "description": "Execuções nulas, clusters de compensação, descontos fora do padrão – surgiram no local enquanto ainda há tempo para falar com o GM.",
+          "description": "Execuções nulas, clusters de compensação, descontos fora do padrão - surgiram no local enquanto ainda há tempo para falar com o GM.",
           "product": "Insights · Revenue Assurance",
           "icon": "owners"
         },
         {
           "title": "Sundae Coach dá o próximo passo",
-          "description": "Quando um site está 14% atrasado, o Coach recomenda uma jogada específica – mão de obra ajustada, um impulso de fidelidade, uma troca de menu – com base no que funcionou antes.",
+          "description": "Quando um site está 14% atrasado, o Coach recomenda uma jogada específica - mão de obra ajustada, um impulso de fidelidade, uma troca de menu - com base no que funcionou antes.",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         }
@@ -434,7 +434,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Recupere vazamentos que você não sabia que tinha",
-          "description": "1–3% da receita normalmente fica oculta em anulações, composições e substituições. Sundae aparece turno por turno.",
+          "description": "1-3% da receita normalmente fica oculta em anulações, composições e substituições. Sundae aparece turno por turno.",
           "icon": "owners"
         }
       ],
@@ -455,7 +455,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Man kann nicht in jedem Restaurant gleichzeitig sein",
-          "description": "Wenn die schlechte Schicht vorbei ist, erfahren Sie es aus der Zusammenfassung – nicht aus dem Wortlaut.",
+          "description": "Wenn die schlechte Schicht vorbei ist, erfahren Sie es aus der Zusammenfassung - nicht aus dem Wortlaut.",
           "icon": "operators"
         },
         {
@@ -465,7 +465,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Leckagen verbergen sich im Lärm",
-          "description": "Fehlzeiten, Vergütungen, Rabatte, Überdeckung – klein pro Schicht, teuer über einen Monat hinweg.",
+          "description": "Fehlzeiten, Vergütungen, Rabatte, Überdeckung - klein pro Schicht, teuer über einen Monat hinweg.",
           "icon": "balance"
         },
         {
@@ -479,7 +479,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Live-Pacing in der gesamten Region",
-          "description": "Die Einnahmen, Deckungen und Arbeitskräfte jedes Standorts – aktualisiert während der Schicht. Die fehlerhafte Website wird in Ihrem morgendlichen Briefing markiert, nicht in der Rezension vom Freitag.",
+          "description": "Die Einnahmen, Deckungen und Arbeitskräfte jedes Standorts - aktualisiert während der Schicht. Die fehlerhafte Website wird in Ihrem morgendlichen Briefing markiert, nicht in der Rezension vom Freitag.",
           "product": "Pulse",
           "icon": "chart"
         },
@@ -491,13 +491,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Leckage in der Schicht entdeckt",
-          "description": "Leere Läufe, Comp-Cluster, Rabatte außerhalb des Musters – werden vor Ort aufgetaucht, solange noch Zeit ist, mit dem GM zu sprechen.",
+          "description": "Leere Läufe, Comp-Cluster, Rabatte außerhalb des Musters - werden vor Ort aufgetaucht, solange noch Zeit ist, mit dem GM zu sprechen.",
           "product": "Insights · Revenue Assurance",
           "icon": "owners"
         },
         {
           "title": "Sundae Coach gibt den nächsten Schritt",
-          "description": "Wenn eine Website 14 % hinterherhinkt, empfiehlt Coach einen bestimmten Ansatz – angepasste Arbeitskräfte, einen Treueschub, einen Menüwechsel – basierend auf dem, was zuvor funktioniert hat.",
+          "description": "Wenn eine Website 14 % hinterherhinkt, empfiehlt Coach einen bestimmten Ansatz - angepasste Arbeitskräfte, einen Treueschub, einen Menüwechsel - basierend auf dem, was zuvor funktioniert hat.",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         }
@@ -522,7 +522,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Beseitigen Sie Leckagen, von denen Sie nicht wussten, dass Sie sie haben",
-          "description": "1–3 % des Umsatzes verbergen sich typischerweise in Stornos, Kompensationen und Außerkraftsetzungen. Sundae bringt es Schicht für Schicht zum Vorschein.",
+          "description": "1-3 % des Umsatzes verbergen sich typischerweise in Stornos, Kompensationen und Außerkraftsetzungen. Sundae bringt es Schicht für Schicht zum Vorschein.",
           "icon": "owners"
         }
       ],
@@ -543,7 +543,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "آپ ایک ساتھ ہر ریستوراں میں نہیں ہو سکتے",
-          "description": "جب تک برا شفٹ ختم ہو جائے، آپ کو ریکیپ سے پتہ چل جاتا ہے — فرش سے نہیں۔",
+          "description": "جب تک برا شفٹ ختم ہو جائے، آپ کو ریکیپ سے پتہ چل جاتا ہے - فرش سے نہیں۔",
           "icon": "operators"
         },
         {
@@ -567,7 +567,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "پورے خطے میں لائیو پیسنگ",
-          "description": "ہر مقام کی آمدنی، کور، اور لیبر — شفٹ کے ذریعے اپ ڈیٹ ہوتے ہیں۔ جو سائٹ پھسل رہی ہے اسے آپ کے صبح کے بریف میں جھنڈا لگایا جاتا ہے، جمعہ کے جائزے میں نہیں۔",
+          "description": "ہر مقام کی آمدنی، کور، اور لیبر - شفٹ کے ذریعے اپ ڈیٹ ہوتے ہیں۔ جو سائٹ پھسل رہی ہے اسے آپ کے صبح کے بریف میں جھنڈا لگایا جاتا ہے، جمعہ کے جائزے میں نہیں۔",
           "product": "Pulse",
           "icon": "chart"
         },
@@ -579,13 +579,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "شفٹ میں رساو دیکھا گیا۔",
-          "description": "باطل رنز، کمپ کلسٹرز، آف پیٹرن ڈسکاؤنٹس — اس مقام پر سامنے آئے جب کہ GM سے بات کرنے کے لیے ابھی بھی وقت ہے۔",
+          "description": "باطل رنز، کمپ کلسٹرز، آف پیٹرن ڈسکاؤنٹس - اس مقام پر سامنے آئے جب کہ GM سے بات کرنے کے لیے ابھی بھی وقت ہے۔",
           "product": "Insights · Revenue Assurance",
           "icon": "owners"
         },
         {
           "title": "Sundae کوچ اگلا اقدام دیتا ہے۔",
-          "description": "جب کوئی سائٹ 14% پیچھے ہوتی ہے، تو کوچ ایک مخصوص کھیل کی تجویز کرتا ہے — ایڈجسٹ لیبر، ایک لائلٹی پش، ایک مینو سویپ — اس کی بنیاد پر جو پہلے کام کر چکے ہیں۔",
+          "description": "جب کوئی سائٹ 14% پیچھے ہوتی ہے، تو کوچ ایک مخصوص کھیل کی تجویز کرتا ہے - ایڈجسٹ لیبر، ایک لائلٹی پش، ایک مینو سویپ - اس کی بنیاد پر جو پہلے کام کر چکے ہیں۔",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         }
@@ -610,7 +610,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "رساو کو بازیافت کریں جس کے بارے میں آپ کو معلوم نہیں تھا کہ آپ کے پاس ہے۔",
-          "description": "آمدنی کا 1–3% عام طور پر voids، comps، اور overrides میں چھپ جاتا ہے۔ Sundae اسے شفٹ بہ شفٹ بناتا ہے۔",
+          "description": "آمدنی کا 1-3% عام طور پر voids، comps، اور overrides میں چھپ جاتا ہے۔ Sundae اسے شفٹ بہ شفٹ بناتا ہے۔",
           "icon": "owners"
         }
       ],
@@ -786,7 +786,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Recupera le perdite che non sapevi di avere",
-          "description": "L'1–3% delle entrate in genere si nasconde in vuoti, composizioni e sostituzioni. Il gelato emerge turno dopo turno. (Sundae)",
+          "description": "L'1-3% delle entrate in genere si nasconde in vuoti, composizioni e sostituzioni. Il gelato emerge turno dopo turno. (Sundae)",
           "icon": "owners"
         }
       ],
@@ -807,7 +807,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "你不可能同时去过所有餐厅",
-          "description": "当糟糕的转变结束时，你会从回顾中发现——而不是地板。",
+          "description": "当糟糕的转变结束时，你会从回顾中发现--而不是地板。",
           "icon": "operators"
         },
         {
@@ -817,7 +817,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "泄漏隐藏在噪音中",
-          "description": "空缺、补偿、折扣、超额覆盖——每个班次很小，一个月就很贵。",
+          "description": "空缺、补偿、折扣、超额覆盖--每个班次很小，一个月就很贵。",
           "icon": "balance"
         },
         {
@@ -831,7 +831,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "整个地区的实时节奏",
-          "description": "每个地点的收入、覆盖范围和劳动力——通过轮班更新。下滑的网站会在你的早间简报中标记出来，而不是周五的评论中。",
+          "description": "每个地点的收入、覆盖范围和劳动力--通过轮班更新。下滑的网站会在你的早间简报中标记出来，而不是周五的评论中。",
           "product": "Pulse",
           "icon": "chart"
         },
@@ -843,13 +843,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "班次发现泄漏",
-          "description": "空运行、补偿集群、不合时宜的折扣——在仍有时间与总经理交谈的同时就在该地点浮现出来。",
+          "description": "空运行、补偿集群、不合时宜的折扣--在仍有时间与总经理交谈的同时就在该地点浮现出来。",
           "product": "Insights · Revenue Assurance",
           "icon": "owners"
         },
         {
           "title": "Sundae教练给出了下一步行动",
-          "description": "当一个网站的速度落后 14% 时，Coach 会根据之前的效果推荐特定的策略——调整劳动力、忠诚度推动、菜单交换。",
+          "description": "当一个网站的速度落后 14% 时，Coach 会根据之前的效果推荐特定的策略--调整劳动力、忠诚度推动、菜单交换。",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         }
@@ -905,7 +905,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Wyciek ukrywa się w hałasie",
-          "description": "Pustki, rabaty, rabaty, nadmierne pokrycie — małe w przeliczeniu na zmianę, drogie w ciągu miesiąca.",
+          "description": "Pustki, rabaty, rabaty, nadmierne pokrycie - małe w przeliczeniu na zmianę, drogie w ciągu miesiąca.",
           "icon": "balance"
         },
         {
@@ -919,7 +919,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Transmisja na żywo w całym regionie",
-          "description": "Przychody, osłony i siła robocza każdej lokalizacji — aktualizowane w trakcie zmiany. Witryna, która się poślizgnęła, zostanie oznaczona w porannym briefie, a nie w piątkowej recenzji.",
+          "description": "Przychody, osłony i siła robocza każdej lokalizacji - aktualizowane w trakcie zmiany. Witryna, która się poślizgnęła, zostanie oznaczona w porannym briefie, a nie w piątkowej recenzji.",
           "product": "Pulse",
           "icon": "chart"
         },
@@ -931,13 +931,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Wyciek zauważony podczas zmiany biegów",
-          "description": "Puste przebiegi, klastry kompilacji, nietypowe rabaty – wypłynęły na powierzchnię, póki jest jeszcze czas na rozmowę z GMem.",
+          "description": "Puste przebiegi, klastry kompilacji, nietypowe rabaty - wypłynęły na powierzchnię, póki jest jeszcze czas na rozmowę z GMem.",
           "product": "Insights · Revenue Assurance",
           "icon": "owners"
         },
         {
           "title": "Sundae Coach wykonuje kolejny ruch",
-          "description": "Kiedy witryna pozostaje w tyle za 14%, Coach zaleca konkretną zabawę — skorygowaną pracę, zachętę do lojalności, zmianę menu — w oparciu o to, co sprawdziło się wcześniej.",
+          "description": "Kiedy witryna pozostaje w tyle za 14%, Coach zaleca konkretną zabawę - skorygowaną pracę, zachętę do lojalności, zmianę menu - w oparciu o to, co sprawdziło się wcześniej.",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         }
@@ -962,7 +962,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Usuń wyciek, o którym nie miałeś pojęcia",
-          "description": "1–3% przychodów zazwyczaj kryje się w pustkach, kompilacjach i nadpisaniach. Sundae wychodzi na powierzchnię, zmiana po zmianie.",
+          "description": "1-3% przychodów zazwyczaj kryje się w pustkach, kompilacjach i nadpisaniach. Sundae wychodzi na powierzchnię, zmiana po zmianie.",
           "icon": "owners"
         }
       ],
@@ -1159,7 +1159,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Anda tidak bisa berada di setiap restoran sekaligus",
-          "description": "Pada saat perubahan buruk selesai, Anda mengetahuinya dari rekap — bukan dari dasar.",
+          "description": "Pada saat perubahan buruk selesai, Anda mengetahuinya dari rekap - bukan dari dasar.",
           "icon": "operators"
         },
         {
@@ -1169,7 +1169,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Kebocoran bersembunyi di balik kebisingan",
-          "description": "Kekosongan, kompensasi, diskon, cakupan berlebih — kecil per shift, mahal dalam sebulan.",
+          "description": "Kekosongan, kompensasi, diskon, cakupan berlebih - kecil per shift, mahal dalam sebulan.",
           "icon": "balance"
         },
         {
@@ -1183,7 +1183,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Hidup mondar-mandir di seluruh wilayah",
-          "description": "Pendapatan, cakupan, dan tenaga kerja setiap lokasi — diperbarui melalui shift. Situs yang tergelincir akan ditandai dalam ringkasan pagi Anda, bukan ulasan hari Jumat.",
+          "description": "Pendapatan, cakupan, dan tenaga kerja setiap lokasi - diperbarui melalui shift. Situs yang tergelincir akan ditandai dalam ringkasan pagi Anda, bukan ulasan hari Jumat.",
           "product": "Pulse",
           "icon": "chart"
         },
@@ -1195,13 +1195,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Kebocoran terlihat di shift",
-          "description": "Void run, comp cluster, diskon di luar pola — muncul di lokasi selagi masih ada waktu untuk berbicara dengan GM.",
+          "description": "Void run, comp cluster, diskon di luar pola - muncul di lokasi selagi masih ada waktu untuk berbicara dengan GM.",
           "product": "Insights · Revenue Assurance",
           "icon": "owners"
         },
         {
           "title": "Pelatih Sundae memberikan langkah selanjutnya",
-          "description": "Ketika sebuah situs tertinggal 14%, Coach merekomendasikan permainan tertentu — penyesuaian tenaga kerja, dorongan loyalitas, pertukaran menu — berdasarkan apa yang telah berhasil sebelumnya.",
+          "description": "Ketika sebuah situs tertinggal 14%, Coach merekomendasikan permainan tertentu - penyesuaian tenaga kerja, dorongan loyalitas, pertukaran menu - berdasarkan apa yang telah berhasil sebelumnya.",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         }
@@ -1226,7 +1226,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Pulihkan kebocoran yang tidak Anda sadari",
-          "description": "1–3% dari pendapatan biasanya tersembunyi dalam kekosongan, kompensasi, dan penggantian. Sundae memunculkannya shift demi shift.",
+          "description": "1-3% dari pendapatan biasanya tersembunyi dalam kekosongan, kompensasi, dan penggantian. Sundae memunculkannya shift demi shift.",
           "icon": "owners"
         }
       ],
@@ -1359,7 +1359,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Nhịp độ trực tiếp trên toàn khu vực",
-          "description": "Doanh thu, trang bìa và nhân công của mỗi địa điểm — được cập nhật qua ca làm việc. Trang web bị trượt sẽ bị gắn cờ trong bản tóm tắt buổi sáng của bạn chứ không phải bài đánh giá vào thứ Sáu.",
+          "description": "Doanh thu, trang bìa và nhân công của mỗi địa điểm - được cập nhật qua ca làm việc. Trang web bị trượt sẽ bị gắn cờ trong bản tóm tắt buổi sáng của bạn chứ không phải bài đánh giá vào thứ Sáu.",
           "product": "Pulse",
           "icon": "chart"
         },
@@ -1377,7 +1377,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Huấn luyện viên Sundae đưa ra động thái tiếp theo",
-          "description": "Khi một trang web có tốc độ chậm 14%, Huấn luyện viên đề xuất một cách chơi cụ thể — lao động được điều chỉnh, thúc đẩy lòng trung thành, hoán đổi menu — dựa trên những gì đã hoạt động trước đó.",
+          "description": "Khi một trang web có tốc độ chậm 14%, Huấn luyện viên đề xuất một cách chơi cụ thể - lao động được điều chỉnh, thúc đẩy lòng trung thành, hoán đổi menu - dựa trên những gì đã hoạt động trước đó.",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         }
@@ -1402,7 +1402,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Khôi phục rò rỉ mà bạn không biết là mình đã có",
-          "description": "1–3% doanh thu thường ẩn trong các khoảng trống, phần bù và phần ghi đè. Sundae trình bày nó theo từng ca.",
+          "description": "1-3% doanh thu thường ẩn trong các khoảng trống, phần bù và phần ghi đè. Sundae trình bày nó theo từng ca.",
           "icon": "owners"
         }
       ],
@@ -1423,7 +1423,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "আপনি একবারে প্রতিটি রেস্টুরেন্টে থাকতে পারবেন না",
-          "description": "খারাপ শিফট শেষ হওয়ার সময়, আপনি রিক্যাপ থেকে খুঁজে পাবেন — মেঝে নয়।",
+          "description": "খারাপ শিফট শেষ হওয়ার সময়, আপনি রিক্যাপ থেকে খুঁজে পাবেন - মেঝে নয়।",
           "icon": "operators"
         },
         {
@@ -1433,7 +1433,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "ফুটো আওয়াজে লুকিয়ে থাকে",
-          "description": "শূন্যতা, কম্পস, ডিসকাউন্ট, ওভার-কভারেজ — প্রতি শিফটে ছোট, এক মাসের বেশি ব্যয়বহুল।",
+          "description": "শূন্যতা, কম্পস, ডিসকাউন্ট, ওভার-কভারেজ - প্রতি শিফটে ছোট, এক মাসের বেশি ব্যয়বহুল।",
           "icon": "balance"
         },
         {
@@ -1447,7 +1447,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "অঞ্চল জুড়ে লাইভ পেসিং",
-          "description": "প্রতিটি অবস্থানের আয়, কভার এবং শ্রম — শিফটের মাধ্যমে আপডেট করা হয়। যে সাইটটি স্লিপ হচ্ছে সেটি আপনার সকালের সংক্ষিপ্ত বিবরণে ফ্ল্যাগ করা হবে, শুক্রবারের পর্যালোচনা নয়।",
+          "description": "প্রতিটি অবস্থানের আয়, কভার এবং শ্রম - শিফটের মাধ্যমে আপডেট করা হয়। যে সাইটটি স্লিপ হচ্ছে সেটি আপনার সকালের সংক্ষিপ্ত বিবরণে ফ্ল্যাগ করা হবে, শুক্রবারের পর্যালোচনা নয়।",
           "product": "Pulse",
           "icon": "chart"
         },
@@ -1459,13 +1459,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "শিফটে ফুটো দেখা গেছে",
-          "description": "অকার্যকর রান, কম্প ক্লাস্টার, অফ-প্যাটার্ন ডিসকাউন্ট — জিএম-এর সাথে কথা বলার সময় এখনও লোকেশনে দেখা গেছে।",
+          "description": "অকার্যকর রান, কম্প ক্লাস্টার, অফ-প্যাটার্ন ডিসকাউন্ট - জিএম-এর সাথে কথা বলার সময় এখনও লোকেশনে দেখা গেছে।",
           "product": "Insights · Revenue Assurance",
           "icon": "owners"
         },
         {
           "title": "Sundae কোচ পরবর্তী পদক্ষেপ দেয়",
-          "description": "যখন একটি সাইট 14% পিছিয়ে যায়, তখন কোচ একটি নির্দিষ্ট খেলার সুপারিশ করেন — সামঞ্জস্যপূর্ণ শ্রম, একটি আনুগত্য পুশ, একটি মেনু অদলবদল — আগে যা কাজ করেছে তার উপর ভিত্তি করে।",
+          "description": "যখন একটি সাইট 14% পিছিয়ে যায়, তখন কোচ একটি নির্দিষ্ট খেলার সুপারিশ করেন - সামঞ্জস্যপূর্ণ শ্রম, একটি আনুগত্য পুশ, একটি মেনু অদলবদল - আগে যা কাজ করেছে তার উপর ভিত্তি করে।",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         }
@@ -1521,7 +1521,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Scurgerea se ascunde în zgomot",
-          "description": "Anulări, compensații, reduceri, supraacoperire — mici pe tură, scumpe peste o lună.",
+          "description": "Anulări, compensații, reduceri, supraacoperire - mici pe tură, scumpe peste o lună.",
           "icon": "balance"
         },
         {
@@ -1535,7 +1535,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Ritmul live în întreaga regiune",
-          "description": "Veniturile, acoperirile și forța de muncă ale fiecărei locații – actualizate pe parcursul schimbului. Site-ul care alunecă este semnalat în rezumatul de dimineață, nu în recenzia de vineri.",
+          "description": "Veniturile, acoperirile și forța de muncă ale fiecărei locații - actualizate pe parcursul schimbului. Site-ul care alunecă este semnalat în rezumatul de dimineață, nu în recenzia de vineri.",
           "product": "Pulse",
           "icon": "chart"
         },
@@ -1578,7 +1578,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Recuperați scurgerile pe care nu știați că aveți",
-          "description": "1–3% din venituri se ascunde de obicei în goluri, compuși și suprascrieri. Sundae iese la suprafață schimb cu schimb.",
+          "description": "1-3% din venituri se ascunde de obicei în goluri, compuși și suprascrieri. Sundae iese la suprafață schimb cu schimb.",
           "icon": "owners"
         }
       ],
@@ -1599,7 +1599,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Du kan inte vara på varje restaurang samtidigt",
-          "description": "När det dåliga skiftet är över får du reda på det från sammanfattningen – inte golvet.",
+          "description": "När det dåliga skiftet är över får du reda på det från sammanfattningen - inte golvet.",
           "icon": "operators"
         },
         {
@@ -1623,7 +1623,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Live pacing över hela regionen",
-          "description": "Varje orts intäkter, täckningar och arbete – uppdaterade under skiftet. Webbplatsen som halkar flaggas i din morgonrapport, inte fredagens recension.",
+          "description": "Varje orts intäkter, täckningar och arbete - uppdaterade under skiftet. Webbplatsen som halkar flaggas i din morgonrapport, inte fredagens recension.",
           "product": "Pulse",
           "icon": "chart"
         },
@@ -1641,7 +1641,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Sundae Coach ger nästa drag",
-          "description": "När en sajt ligger 14 % efter, rekommenderar Coach ett specifikt spel – anpassat arbete, en lojalitetspress, ett menybyte – baserat på vad som har fungerat tidigare.",
+          "description": "När en sajt ligger 14 % efter, rekommenderar Coach ett specifikt spel - anpassat arbete, en lojalitetspress, ett menybyte - baserat på vad som har fungerat tidigare.",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         }
@@ -1666,7 +1666,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Återställ läckage som du inte visste att du hade",
-          "description": "1–3 % av intäkterna döljer sig vanligtvis i tomrum, sammanställningar och åsidosättningar. Sundae ytor det skift-för-skift.",
+          "description": "1-3 % av intäkterna döljer sig vanligtvis i tomrum, sammanställningar och åsidosättningar. Sundae ytor det skift-för-skift.",
           "icon": "owners"
         }
       ],
@@ -1697,7 +1697,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Kebocoran bersembunyi dalam bunyi",
-          "description": "Kekosongan, comps, diskaun, lebihan liputan — kecil setiap syif, mahal selama sebulan.",
+          "description": "Kekosongan, comps, diskaun, lebihan liputan - kecil setiap syif, mahal selama sebulan.",
           "icon": "balance"
         },
         {
@@ -1711,7 +1711,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Pacing secara langsung di seluruh wilayah",
-          "description": "Hasil, perlindungan dan tenaga kerja setiap lokasi — dikemas kini melalui syif. Tapak yang tergelincir akan dibenderakan dalam ringkasan pagi anda, bukan ulasan Jumaat.",
+          "description": "Hasil, perlindungan dan tenaga kerja setiap lokasi - dikemas kini melalui syif. Tapak yang tergelincir akan dibenderakan dalam ringkasan pagi anda, bukan ulasan Jumaat.",
           "product": "Pulse",
           "icon": "chart"
         },
@@ -1723,13 +1723,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Kebocoran dikesan dalam syif",
-          "description": "Larian tidak sah, kelompok comp, diskaun luar corak — muncul di lokasi sementara masih ada masa untuk bercakap dengan GM.",
+          "description": "Larian tidak sah, kelompok comp, diskaun luar corak - muncul di lokasi sementara masih ada masa untuk bercakap dengan GM.",
           "product": "Insights · Revenue Assurance",
           "icon": "owners"
         },
         {
           "title": "Jurulatih Sundae memberikan langkah seterusnya",
-          "description": "Apabila tapak bergerak 14% di belakang, Jurulatih mengesyorkan permainan tertentu — buruh terlaras, tolakan kesetiaan, pertukaran menu — berdasarkan perkara yang telah berjaya sebelum ini.",
+          "description": "Apabila tapak bergerak 14% di belakang, Jurulatih mengesyorkan permainan tertentu - buruh terlaras, tolakan kesetiaan, pertukaran menu - berdasarkan perkara yang telah berjaya sebelum ini.",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         }
@@ -1754,7 +1754,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Pulihkan kebocoran yang anda tidak tahu yang anda alami",
-          "description": "1–3% daripada hasil biasanya bersembunyi dalam kekosongan, comps dan override. Sundae memaparkannya anjakan demi anjakan.",
+          "description": "1-3% daripada hasil biasanya bersembunyi dalam kekosongan, comps dan override. Sundae memaparkannya anjakan demi anjakan.",
           "icon": "owners"
         }
       ],
@@ -1785,7 +1785,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "การรั่วไหลซ่อนอยู่ในเสียง",
-          "description": "ช่องว่าง คอมพ์ ส่วนลด ความคุ้มครองที่มากเกินไป — เพียงเล็กน้อยต่อกะ ราคาแพงในหนึ่งเดือน",
+          "description": "ช่องว่าง คอมพ์ ส่วนลด ความคุ้มครองที่มากเกินไป - เพียงเล็กน้อยต่อกะ ราคาแพงในหนึ่งเดือน",
           "icon": "balance"
         },
         {
@@ -1799,7 +1799,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "ถ่ายทอดสดทั่วภูมิภาค",
-          "description": "รายได้ ความคุ้มครอง และแรงงานของแต่ละสถานที่ — อัปเดตตลอดการเปลี่ยนแปลง ไซต์ที่ลื่นไถลจะถูกทำเครื่องหมายในช่วงเช้าของคุณ ไม่ใช่บทวิจารณ์ในวันศุกร์",
+          "description": "รายได้ ความคุ้มครอง และแรงงานของแต่ละสถานที่ - อัปเดตตลอดการเปลี่ยนแปลง ไซต์ที่ลื่นไถลจะถูกทำเครื่องหมายในช่วงเช้าของคุณ ไม่ใช่บทวิจารณ์ในวันศุกร์",
           "product": "Pulse",
           "icon": "chart"
         },
@@ -1811,13 +1811,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "พบการรั่วไหลในกะ",
-          "description": "การรัน Void, คลัสเตอร์คอมพ์, ส่วนลดนอกรูปแบบ — ปรากฏที่สถานที่ในขณะที่ยังมีเวลาพูดคุยกับ GM",
+          "description": "การรัน Void, คลัสเตอร์คอมพ์, ส่วนลดนอกรูปแบบ - ปรากฏที่สถานที่ในขณะที่ยังมีเวลาพูดคุยกับ GM",
           "product": "Insights · Revenue Assurance",
           "icon": "owners"
         },
         {
           "title": "Sundaeโค้ชให้การเคลื่อนไหวต่อไป",
-          "description": "เมื่อไซต์ดำเนินการตามหลังถึง 14% Coach จะแนะนำการเล่นที่เฉพาะเจาะจง — ปรับแรงงาน การผลักดันความภักดี การสลับเมนู — โดยพิจารณาจากสิ่งที่เคยใช้มาก่อน",
+          "description": "เมื่อไซต์ดำเนินการตามหลังถึง 14% Coach จะแนะนำการเล่นที่เฉพาะเจาะจง - ปรับแรงงาน การผลักดันความภักดี การสลับเมนู - โดยพิจารณาจากสิ่งที่เคยใช้มาก่อน",
           "product": "Sundae Intelligence",
           "icon": "intelligence"
         }
@@ -1842,7 +1842,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "กู้คืนการรั่วไหลที่คุณไม่รู้ว่าคุณมี",
-          "description": "โดยทั่วไปแล้ว 1–3% ของรายได้จะซ่อนอยู่ในช่องว่าง คอมพ์ และการแทนที่ ไอศกรีมใส่ผลไม้วางแผงทีละกะ (Sundae)",
+          "description": "โดยทั่วไปแล้ว 1-3% ของรายได้จะซ่อนอยู่ในช่องว่าง คอมพ์ และการแทนที่ ไอศกรีมใส่ผลไม้วางแผงทีละกะ (Sundae)",
           "icon": "owners"
         }
       ],

@@ -1,5 +1,5 @@
 /**
- * Shared currency catalog — used by the insight calculators and the
+ * Shared currency catalog - used by the insight calculators and the
  * diagnostic. Covers GCC + Americas + Europe + APAC + LATAM + Africa.
  * Grouped for the dropdown UX so users can find their currency fast.
  */

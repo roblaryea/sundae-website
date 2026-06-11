@@ -29,7 +29,7 @@ export type SolutionCopy = {
   outcomesDescription: string;
   outcomes: { title: string; description: string; icon: SundaeIconName }[];
   /**
-   * Optional Crew callout — renders a small strip between Outcomes and Closing CTA.
+   * Optional Crew callout - renders a small strip between Outcomes and Closing CTA.
    * Use to cross-reference /crew from persona pages where Crew is naturally relevant
    * (e.g. HR & People, Operations Leaders). Omit on personas where Crew is incidental.
    */
@@ -51,7 +51,7 @@ interface Props {
   secondaryCtaHref?: string;
   ctaButtonHref?: string;
   /**
-   * Optional product gallery — renders between the Crew callout and the
+   * Optional product gallery - renders between the Crew callout and the
    * Closing CTA. Persona pages pass a <SectionProductGallery> pre-filtered
    * to the relevant persona so visitors see the real surfaces for their role.
    */
@@ -62,8 +62,8 @@ interface Props {
  * Shared visual layout for /solutions/* persona pages.
  *
  * The copy lives per-page so each page remains a discrete file (Option B
- * discipline). Only the visual frame — gradient hero, ElegantShape floats,
- * mockup column, three content sections, closing CTA — is shared, so the
+ * discipline). Only the visual frame - gradient hero, ElegantShape floats,
+ * mockup column, three content sections, closing CTA - is shared, so the
  * persona pages stay visually consistent without per-page JSX drift.
  */
 export function SolutionPageLayout({
@@ -215,7 +215,7 @@ export function SolutionPageLayout({
         </section>
 
         {/* ════════════════════════════════════════════════
-            OPTIONAL: CREW CALLOUT — only renders when copy.crewCallout is set
+            OPTIONAL: CREW CALLOUT - only renders when copy.crewCallout is set
         ════════════════════════════════════════════════ */}
         {copy.crewCallout && (
           <section className="relative py-16 px-4 sm:px-6 lg:px-8">
@@ -250,7 +250,7 @@ export function SolutionPageLayout({
         )}
 
         {/* ════════════════════════════════════════════════
-            OPTIONAL: PRODUCT GALLERY — only renders when gallery is set
+            OPTIONAL: PRODUCT GALLERY - only renders when gallery is set
         ════════════════════════════════════════════════ */}
         {gallery}
 

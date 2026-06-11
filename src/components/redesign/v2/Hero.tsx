@@ -6,21 +6,21 @@ import { REPORT_APP_URL } from "@/lib/urls";
 import { HeroPulseMockup } from "./HeroPulseMockup";
 
 /**
- * Section 1 — Hero (homepage-spec-v1.1).
+ * Section 1 - Hero (homepage-spec-v1.1).
  *
  * Conversion job: explain product (subtle live data tick on the mockup).
- * Universal claim — persona-flexed subhead handled in §2 (Persona Switcher).
+ * Universal claim - persona-flexed subhead handled in §2 (Persona Switcher).
  *
  * Claims used (claims-bank.md):
  *   CLM-001 (12 data domains) APPROVED PUBLIC
  *   CLM-006 (Live Core refresh) CAPABILITY CLAIM ONLY · FN-1 footnote
  *   CLM-002 (500 restaurant data models) APPROVED PUBLIC
- *   CLM-004 (500+ represented locations) APPROVED PUBLIC — lives in §7 proof,
+ *   CLM-004 (500+ represented locations) APPROVED PUBLIC - lives in §7 proof,
  *   not in the hero proof strip.
  *
  * CTA hierarchy:
- *   Primary  — `Book a Working Session` (high-intent, sales-led)
- *   Secondary — `Start with Report Lite` (acquisition)
+ *   Primary  - `Book a Working Session` (high-intent, sales-led)
+ *   Secondary - `Start with Report Lite` (acquisition)
  */
 export function Hero() {
   const reduceMotion = useReducedMotion();
@@ -34,7 +34,7 @@ export function Hero() {
 
       <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 pt-24 sm:pt-28 lg:pt-32 pb-16 sm:pb-20">
         <div className="grid lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] gap-10 lg:gap-12 xl:gap-16 items-center">
-          {/* Left column — copy, CTAs, proof strip */}
+          {/* Left column - copy, CTAs, proof strip */}
           <div>
             <motion.div
               initial={reduceMotion ? false : { opacity: 0, y: 24 }}
@@ -90,7 +90,7 @@ export function Hero() {
               Free to start. Build your benchmark profile as your data connects.
             </p>
 
-            {/* Proof strip — static, no animation (credibility numbers don't fade) */}
+            {/* Proof strip - static, no animation (credibility numbers don't fade) */}
             <div className="mt-7 sm:mt-9">
               <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm sm:text-base text-[var(--text-supporting)]">
                 <span>
@@ -125,7 +125,7 @@ export function Hero() {
             </div>
           </div>
 
-          {/* Right column — hero mockup, visible in first viewport on desktop */}
+          {/* Right column - hero mockup, visible in first viewport on desktop */}
           <div className="lg:pl-4">
             <HeroPulseMockup />
           </div>

@@ -77,7 +77,7 @@ export function StaggerItem({
   );
 }
 
-// Premium dark hero section with floating shapes — for inner pages
+// Premium dark hero section with floating shapes - for inner pages
 export function PageHero({
   badge,
   title,
@@ -180,7 +180,7 @@ export function PageHero({
   );
 }
 
-// Dark CTA section with floating shapes — for page bottoms
+// Dark CTA section with floating shapes - for page bottoms
 export function PageCTA({
   title,
   description,

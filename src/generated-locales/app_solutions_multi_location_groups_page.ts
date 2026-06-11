@@ -191,7 +191,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Elk merk rapporteert op zijn eigen manier",
-          "description": "Merk A draait op Toast, merk B op Square, merk C op Lightspeed. Het groepskantoor reconcilieert alles handmatig — of helemaal niet.",
+          "description": "Merk A draait op Toast, merk B op Square, merk C op Lightspeed. Het groepskantoor reconcilieert alles handmatig - of helemaal niet.",
           "icon": "integration"
         },
         {
@@ -215,7 +215,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Portefeuilleoverzicht, merk voor merk",
-          "description": "Live omzet, marge en personeelskosten per merk, elke regio en elk concept — met consistente definities, zodat de vergelijking echt betekenis heeft.",
+          "description": "Live omzet, marge en personeelskosten per merk, elke regio en elk concept - met consistente definities, zodat de vergelijking echt betekenis heeft.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -279,7 +279,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Jede Marke berichtet auf ihre eigene Weise",
-          "description": "Marke A auf Toast, Marke B auf Square, Marke C auf Lightspeed. Das Gruppenbüro stimmt händisch ab – oder auch nicht.",
+          "description": "Marke A auf Toast, Marke B auf Square, Marke C auf Lightspeed. Das Gruppenbüro stimmt händisch ab - oder auch nicht.",
           "icon": "integration"
         },
         {
@@ -294,7 +294,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Group strategy reacts to monthly P&L",
-          "description": "Markeninvestitionen, Markteintritt, Formatentscheidungen – alles gesteuert durch Q+1-Daten, nicht durch Live-Signale.",
+          "description": "Markeninvestitionen, Markteintritt, Formatentscheidungen - alles gesteuert durch Q+1-Daten, nicht durch Live-Signale.",
           "icon": "performance"
         }
       ],
@@ -303,7 +303,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Portfolio-Rollup, Marke für Marke",
-          "description": "Live-Umsatz, Marge, Arbeitsaufwand für jede Marke, Region und jedes Konzept – mit konsistenten Definitionen, damit der Vergleich tatsächlich etwas bedeutet.",
+          "description": "Live-Umsatz, Marge, Arbeitsaufwand für jede Marke, Region und jedes Konzept - mit konsistenten Definitionen, damit der Vergleich tatsächlich etwas bedeutet.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -341,7 +341,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Gruppenweites Best Practice",
-          "description": "Cross-Intelligence beschleunigt, was markenübergreifend funktioniert – anstelle eines vierteljährlichen Wissenstransfers.",
+          "description": "Cross-Intelligence beschleunigt, was markenübergreifend funktioniert - anstelle eines vierteljährlichen Wissenstransfers.",
           "icon": "owners"
         },
         {
@@ -367,7 +367,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Chaque marque rapporte à sa manière",
-          "description": "Marque A sur Toast, marque B sur Square, marque C sur Lightspeed. Le bureau du groupe effectue le rapprochement à la main – ou pas.",
+          "description": "Marque A sur Toast, marque B sur Square, marque C sur Lightspeed. Le bureau du groupe effectue le rapprochement à la main - ou pas.",
           "icon": "integration"
         },
         {
@@ -391,7 +391,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Regroupement du portefeuille, marque par marque",
-          "description": "Chiffre d’affaires, marge et main-d’œuvre en direct pour chaque marque, région et concept – avec des définitions cohérentes pour que la comparaison ait réellement un sens.",
+          "description": "Chiffre d’affaires, marge et main-d’œuvre en direct pour chaque marque, région et concept - avec des définitions cohérentes pour que la comparaison ait réellement un sens.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -455,7 +455,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Cada marca reporta do seu jeito",
-          "description": "Marca A no Toast, Marca B no Square, Marca C no Lightspeed. O escritório do grupo reconcilia manualmente – ou não.",
+          "description": "Marca A no Toast, Marca B no Square, Marca C no Lightspeed. O escritório do grupo reconcilia manualmente - ou não.",
           "icon": "integration"
         },
         {
@@ -470,7 +470,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "A estratégia do grupo reage ao P&L mensal",
-          "description": "Investimento na marca, entrada no mercado, decisões de formato – tudo impulsionado por dados Q+1, não por sinal ao vivo.",
+          "description": "Investimento na marca, entrada no mercado, decisões de formato - tudo impulsionado por dados Q+1, não por sinal ao vivo.",
           "icon": "performance"
         }
       ],
@@ -479,7 +479,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Acumulação de portfólio, marca por marca",
-          "description": "Receita, margem e mão de obra em tempo real em cada marca, região e conceito — com definições consistentes para que a comparação realmente signifique algo.",
+          "description": "Receita, margem e mão de obra em tempo real em cada marca, região e conceito - com definições consistentes para que a comparação realmente signifique algo.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -517,7 +517,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Melhores práticas para todo o grupo",
-          "description": "O Cross-Intelligence acelera o que funciona em todas as marcas — em vez da transferência trimestral de conhecimento.",
+          "description": "O Cross-Intelligence acelera o que funciona em todas as marcas - em vez da transferência trimestral de conhecimento.",
           "icon": "owners"
         },
         {
@@ -543,7 +543,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "ہر برانڈ اپنے طریقے سے رپورٹ کرتا ہے۔",
-          "description": "Toast پر برانڈ A، مربع پر برانڈ B، Lightspeed پر برانڈ C۔ گروپ آفس ہاتھ سے صلح کرتا ہے — یا نہیں کرتا۔ (Square)",
+          "description": "Toast پر برانڈ A، مربع پر برانڈ B، Lightspeed پر برانڈ C۔ گروپ آفس ہاتھ سے صلح کرتا ہے - یا نہیں کرتا۔ (Square)",
           "icon": "integration"
         },
         {
@@ -558,7 +558,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "گروپ کی حکمت عملی ماہانہ P&L پر ردعمل ظاہر کرتی ہے۔",
-          "description": "برانڈ کی سرمایہ کاری، مارکیٹ میں داخلے، فارمیٹ کے فیصلے — سب Q+1 ڈیٹا سے چلتے ہیں، لائیو سگنل نہیں۔",
+          "description": "برانڈ کی سرمایہ کاری، مارکیٹ میں داخلے، فارمیٹ کے فیصلے - سب Q+1 ڈیٹا سے چلتے ہیں، لائیو سگنل نہیں۔",
           "icon": "performance"
         }
       ],
@@ -605,7 +605,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "گروپ بھر میں بہترین پریکٹس",
-          "description": "Cross-Intelligence اس چیز کو تیز کرتی ہے جو برانڈ لائنوں میں کام کرتا ہے — سہ ماہی علم کی منتقلی کے بجائے۔",
+          "description": "Cross-Intelligence اس چیز کو تیز کرتی ہے جو برانڈ لائنوں میں کام کرتا ہے - سہ ماہی علم کی منتقلی کے بجائے۔",
           "icon": "owners"
         },
         {
@@ -631,7 +631,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Każda marka raportuje na swój sposób",
-          "description": "Marka A na Toście, Marka B na Kwadracie, Marka C na Lightspeed. Biuro grupy uzgadnia ręcznie — lub nie. (Toast) (Square)",
+          "description": "Marka A na Toście, Marka B na Kwadracie, Marka C na Lightspeed. Biuro grupy uzgadnia ręcznie - lub nie. (Toast) (Square)",
           "icon": "integration"
         },
         {
@@ -646,7 +646,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Group strategy reacts to monthly P&L",
-          "description": "Inwestycje w markę, wejście na rynek, decyzje dotyczące formatu – wszystko na podstawie danych z Q+1, a nie sygnału na żywo.",
+          "description": "Inwestycje w markę, wejście na rynek, decyzje dotyczące formatu - wszystko na podstawie danych z Q+1, a nie sygnału na żywo.",
           "icon": "performance"
         }
       ],
@@ -655,7 +655,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Rollup portfolio, marka po marce",
-          "description": "Przychody na żywo, marża, siła robocza dla każdej marki, regionu i koncepcji — ze spójnymi definicjami, dzięki czemu porównanie faktycznie coś znaczy.",
+          "description": "Przychody na żywo, marża, siła robocza dla każdej marki, regionu i koncepcji - ze spójnymi definicjami, dzięki czemu porównanie faktycznie coś znaczy.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -693,7 +693,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Najlepsze praktyki w całej grupie",
-          "description": "Cross-Intelligence przyspiesza to, co działa w przypadku różnych marek – zamiast kwartalnego transferu wiedzy.",
+          "description": "Cross-Intelligence przyspiesza to, co działa w przypadku różnych marek - zamiast kwartalnego transferu wiedzy.",
           "icon": "owners"
         },
         {
@@ -807,7 +807,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "每个品牌都有自己的报告方式",
-          "description": "Toast 上的品牌 A、Square 上的品牌 B、Lightspeed 上的品牌 C。集团办公室手工核对——或者不手工核对。",
+          "description": "Toast 上的品牌 A、Square 上的品牌 B、Lightspeed 上的品牌 C。集团办公室手工核对--或者不手工核对。",
           "icon": "integration"
         },
         {
@@ -822,7 +822,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Group strategy reacts to monthly P&L",
-          "description": "品牌投资、市场进入、业态决策——所有这些都是由 Q+1 数据驱动的，而不是实时信号。",
+          "description": "品牌投资、市场进入、业态决策--所有这些都是由 Q+1 数据驱动的，而不是实时信号。",
           "icon": "performance"
         }
       ],
@@ -831,7 +831,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "产品组合汇总，逐个品牌",
-          "description": "每个品牌、地区和概念的实时收入、利润率、劳动力——具有一致的定义，因此比较确实有意义。",
+          "description": "每个品牌、地区和概念的实时收入、利润率、劳动力--具有一致的定义，因此比较确实有意义。",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -869,7 +869,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "集团范围内的最佳实践",
-          "description": "交叉情报加速了跨品牌线的运作——而不是季度知识转移。 (Cross-Intelligence)",
+          "description": "交叉情报加速了跨品牌线的运作--而不是季度知识转移。 (Cross-Intelligence)",
           "icon": "owners"
         },
         {
@@ -1071,7 +1071,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Varje varumärke rapporterar sitt eget sätt",
-          "description": "Märke A på Toast, Märke B på Square, Märke C på Lightspeed. Gruppkontoret stämmer av för hand — eller inte.",
+          "description": "Märke A på Toast, Märke B på Square, Märke C på Lightspeed. Gruppkontoret stämmer av för hand - eller inte.",
           "icon": "integration"
         },
         {
@@ -1086,7 +1086,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Group strategy reacts to monthly P&L",
-          "description": "Varumärkesinvesteringar, marknadsinträde, formatbeslut – allt drivs av Q+1-data, inte livesignal.",
+          "description": "Varumärkesinvesteringar, marknadsinträde, formatbeslut - allt drivs av Q+1-data, inte livesignal.",
           "icon": "performance"
         }
       ],
@@ -1095,7 +1095,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Portföljsammanställning, varumärke för varumärke",
-          "description": "Levande intäkter, marginal, arbetskraft över alla varumärken, regioner och koncept – med konsekventa definitioner så att jämförelsen faktiskt betyder något.",
+          "description": "Levande intäkter, marginal, arbetskraft över alla varumärken, regioner och koncept - med konsekventa definitioner så att jämförelsen faktiskt betyder något.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -1133,7 +1133,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Koncernövergripande bästa praxis",
-          "description": "Cross-Intelligence accelererar det som fungerar över varumärkeslinjer – istället för kvartalsvis kunskapsöverföring.",
+          "description": "Cross-Intelligence accelererar det som fungerar över varumärkeslinjer - istället för kvartalsvis kunskapsöverföring.",
           "icon": "owners"
         },
         {
@@ -1262,7 +1262,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Strategia grupului reacționează la P&L lunar",
-          "description": "Investiția în marcă, intrarea pe piață, deciziile de format — toate sunt determinate de date Q+1, nu de semnal live.",
+          "description": "Investiția în marcă, intrarea pe piață, deciziile de format - toate sunt determinate de date Q+1, nu de semnal live.",
           "icon": "performance"
         }
       ],
@@ -1423,7 +1423,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Setiap merek melaporkan dengan caranya sendiri",
-          "description": "Merek A pada Toast, Merek B pada Kotak, Merek C pada Lightspeed. Kantor kelompok melakukan rekonsiliasi secara manual — atau tidak. (Square)",
+          "description": "Merek A pada Toast, Merek B pada Kotak, Merek C pada Lightspeed. Kantor kelompok melakukan rekonsiliasi secara manual - atau tidak. (Square)",
           "icon": "integration"
         },
         {
@@ -1438,7 +1438,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Group strategy reacts to monthly P&L",
-          "description": "Investasi merek, masuknya pasar, keputusan format — semuanya didorong oleh data Q+1, bukan sinyal langsung.",
+          "description": "Investasi merek, masuknya pasar, keputusan format - semuanya didorong oleh data Q+1, bukan sinyal langsung.",
           "icon": "performance"
         }
       ],
@@ -1447,7 +1447,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Penggabungan portofolio, merek demi merek",
-          "description": "Pendapatan nyata, margin, tenaga kerja di setiap merek, wilayah, dan konsep — dengan definisi yang konsisten sehingga perbandingannya benar-benar bermakna.",
+          "description": "Pendapatan nyata, margin, tenaga kerja di setiap merek, wilayah, dan konsep - dengan definisi yang konsisten sehingga perbandingannya benar-benar bermakna.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -1485,7 +1485,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Praktik terbaik di seluruh grup",
-          "description": "Cross-Intelligence mempercepat pekerjaan lintas lini merek — alih-alih transfer pengetahuan setiap triwulan.",
+          "description": "Cross-Intelligence mempercepat pekerjaan lintas lini merek - alih-alih transfer pengetahuan setiap triwulan.",
           "icon": "owners"
         },
         {
@@ -1511,7 +1511,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Mỗi thương hiệu báo cáo theo cách riêng của mình",
-          "description": "Thương hiệu A trên Toast, Thương hiệu B trên Square, Thương hiệu C trên Lightspeed. Văn phòng nhóm hòa giải bằng tay — hoặc không.",
+          "description": "Thương hiệu A trên Toast, Thương hiệu B trên Square, Thương hiệu C trên Lightspeed. Văn phòng nhóm hòa giải bằng tay - hoặc không.",
           "icon": "integration"
         },
         {
@@ -1535,7 +1535,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Tổng hợp danh mục đầu tư, theo từng thương hiệu",
-          "description": "Doanh thu trực tiếp, lợi nhuận, lao động trên mọi thương hiệu, khu vực và khái niệm — với các định nghĩa nhất quán nên việc so sánh thực sự có ý nghĩa gì đó.",
+          "description": "Doanh thu trực tiếp, lợi nhuận, lao động trên mọi thương hiệu, khu vực và khái niệm - với các định nghĩa nhất quán nên việc so sánh thực sự có ý nghĩa gì đó.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -1573,7 +1573,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Phương pháp thực hành tốt nhất trên toàn nhóm",
-          "description": "Trí tuệ chéo tăng tốc những gì hoạt động giữa các dòng thương hiệu — thay vì chuyển giao kiến thức hàng quý. (Cross-Intelligence)",
+          "description": "Trí tuệ chéo tăng tốc những gì hoạt động giữa các dòng thương hiệu - thay vì chuyển giao kiến thức hàng quý. (Cross-Intelligence)",
           "icon": "owners"
         },
         {
@@ -1614,7 +1614,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "গ্রুপ কৌশল মাসিক P&L-এর প্রতি প্রতিক্রিয়া জানায়",
-          "description": "ব্র্যান্ড ইনভেস্টমেন্ট, মার্কেট এন্ট্রি, ফরম্যাটের সিদ্ধান্ত — সবই Q+1 ডেটা দ্বারা চালিত, লাইভ সিগন্যাল নয়।",
+          "description": "ব্র্যান্ড ইনভেস্টমেন্ট, মার্কেট এন্ট্রি, ফরম্যাটের সিদ্ধান্ত - সবই Q+1 ডেটা দ্বারা চালিত, লাইভ সিগন্যাল নয়।",
           "icon": "performance"
         }
       ],
@@ -1623,7 +1623,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "পোর্টফোলিও রোলআপ, ব্র্যান্ড-বাই-ব্র্যান্ড",
-          "description": "প্রতিটি ব্র্যান্ড, অঞ্চল এবং ধারণা জুড়ে লাইভ আয়, মার্জিন, শ্রম — সামঞ্জস্যপূর্ণ সংজ্ঞা সহ তাই তুলনা আসলে কিছু বোঝায়।",
+          "description": "প্রতিটি ব্র্যান্ড, অঞ্চল এবং ধারণা জুড়ে লাইভ আয়, মার্জিন, শ্রম - সামঞ্জস্যপূর্ণ সংজ্ঞা সহ তাই তুলনা আসলে কিছু বোঝায়।",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -1661,7 +1661,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "গ্রুপ-ব্যাপী সেরা অনুশীলন",
-          "description": "ক্রস-ইনটেলিজেন্স ব্র্যান্ড লাইন জুড়ে যা কাজ করে তা ত্বরান্বিত করে — ত্রৈমাসিক জ্ঞান স্থানান্তরের পরিবর্তে। (Cross-Intelligence)",
+          "description": "ক্রস-ইনটেলিজেন্স ব্র্যান্ড লাইন জুড়ে যা কাজ করে তা ত্বরান্বিত করে - ত্রৈমাসিক জ্ঞান স্থানান্তরের পরিবর্তে। (Cross-Intelligence)",
           "icon": "owners"
         },
         {
@@ -1687,7 +1687,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "แต่ละแบรนด์ก็รายงานแนวทางของตัวเอง",
-          "description": "แบรนด์ A บนขนมปังปิ้ง, แบรนด์ B บน Square, แบรนด์ C บน Lightspeed สำนักงานกลุ่มจะตกลงกันด้วยมือ — หรือไม่ก็ได้ (Toast)",
+          "description": "แบรนด์ A บนขนมปังปิ้ง, แบรนด์ B บน Square, แบรนด์ C บน Lightspeed สำนักงานกลุ่มจะตกลงกันด้วยมือ - หรือไม่ก็ได้ (Toast)",
           "icon": "integration"
         },
         {
@@ -1711,7 +1711,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "การรวบรวมพอร์ตโฟลิโอแบรนด์ต่อแบรนด์",
-          "description": "รายได้สด ส่วนต่าง แรงงานในทุกแบรนด์ ภูมิภาค และแนวคิด — ด้วยคำจำกัดความที่สอดคล้องกัน ดังนั้นการเปรียบเทียบจึงมีความหมายบางอย่างจริงๆ",
+          "description": "รายได้สด ส่วนต่าง แรงงานในทุกแบรนด์ ภูมิภาค และแนวคิด - ด้วยคำจำกัดความที่สอดคล้องกัน ดังนั้นการเปรียบเทียบจึงมีความหมายบางอย่างจริงๆ",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -1775,7 +1775,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Setiap jenama melaporkan caranya sendiri",
-          "description": "Jenama A pada Toast, Jenama B pada Dataran, Jenama C pada Lightspeed. Pejabat kumpulan mendamaikan dengan tangan — atau tidak. (Square)",
+          "description": "Jenama A pada Toast, Jenama B pada Dataran, Jenama C pada Lightspeed. Pejabat kumpulan mendamaikan dengan tangan - atau tidak. (Square)",
           "icon": "integration"
         },
         {
@@ -1790,7 +1790,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Group strategy reacts to monthly P&L",
-          "description": "Pelaburan jenama, kemasukan pasaran, keputusan format — semuanya didorong oleh data Q+1, bukan isyarat langsung.",
+          "description": "Pelaburan jenama, kemasukan pasaran, keputusan format - semuanya didorong oleh data Q+1, bukan isyarat langsung.",
           "icon": "performance"
         }
       ],
@@ -1799,7 +1799,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Penggulungan portfolio, jenama demi jenama",
-          "description": "Hasil langsung, margin, buruh merentas setiap jenama, wilayah dan konsep — dengan takrifan yang konsisten supaya perbandingan itu sebenarnya bermakna sesuatu.",
+          "description": "Hasil langsung, margin, buruh merentas setiap jenama, wilayah dan konsep - dengan takrifan yang konsisten supaya perbandingan itu sebenarnya bermakna sesuatu.",
           "product": "Sundae Core + Pulse",
           "icon": "chart"
         },
@@ -1837,7 +1837,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Amalan terbaik seluruh kumpulan",
-          "description": "Kepintaran Silang mempercepatkan perkara yang berfungsi merentas barisan jenama — bukannya pemindahan pengetahuan suku tahunan. (Cross-Intelligence)",
+          "description": "Kepintaran Silang mempercepatkan perkara yang berfungsi merentas barisan jenama - bukannya pemindahan pengetahuan suku tahunan. (Cross-Intelligence)",
           "icon": "owners"
         },
         {

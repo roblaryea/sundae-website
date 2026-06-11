@@ -1,4 +1,4 @@
-// Shareable diagnostic web report — the full depth the teaser email links to.
+// Shareable diagnostic web report - the full depth the teaser email links to.
 // Server-fetches the report from the backend by signed token, then hands off
 // to the app-styled client view (light/dark, collapsible sections).
 

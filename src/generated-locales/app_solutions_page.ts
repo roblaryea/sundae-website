@@ -6,7 +6,7 @@ export const generatedLocalCopy = {
       "badge": "SOLUTIONS · PAR RÔLE",
       "titleLine1": "Une plateforme.",
       "titleLine2": "Chaque rôle que vous exécutez.",
-      "description": "Intelligence décisionnelle centrée sur la personne qui la lit — du bureau exécutif au terrain.",
+      "description": "Intelligence décisionnelle centrée sur la personne qui la lit - du bureau exécutif au terrain.",
       "nowShowingPrefix": "Maintenant à l'affiche :",
       "primaryCta": "Réservez une session de travail",
       "secondaryCta": "Commencez avec Report Lite",
@@ -70,7 +70,7 @@ export const generatedLocalCopy = {
             },
             {
               "title": "Opérateurs de l'hôtellerie",
-              "tagline": "Chaque point de vente F&B — restaurant, banquet, IRD, hall — dans une vue unifiée en temps réel."
+              "tagline": "Chaque point de vente F&B - restaurant, banquet, IRD, hall - dans une vue unifiée en temps réel."
             }
           ]
         },
@@ -112,7 +112,7 @@ export const generatedLocalCopy = {
       "badge": "LÖSUNGEN · NACH ROLLE",
       "titleLine1": "Eine Plattform.",
       "titleLine2": "Jede Rolle, die Sie ausführen.",
-      "description": "Entscheidungsintelligenz, die sich um die Person dreht, die sie liest – vom Vorstandsbüro bis zur Etage.",
+      "description": "Entscheidungsintelligenz, die sich um die Person dreht, die sie liest - vom Vorstandsbüro bis zur Etage.",
       "nowShowingPrefix": "Jetzt anzeigen:",
       "primaryCta": "Buchen Sie eine Arbeitsbesprechung",
       "secondaryCta": "Beginnen Sie mit Report Lite",
@@ -176,7 +176,7 @@ export const generatedLocalCopy = {
             },
             {
               "title": "Gastgewerbe-Betreiber",
-              "tagline": "Jeder F&B-Standort — Restaurant, Bankett, IRD, Lobby — in einer einheitlichen Live-Ansicht."
+              "tagline": "Jeder F&B-Standort - Restaurant, Bankett, IRD, Lobby - in einer einheitlichen Live-Ansicht."
             }
           ]
         },
@@ -282,7 +282,7 @@ export const generatedLocalCopy = {
             },
             {
               "title": "Operadores de Hospitalidad",
-              "tagline": "Cada punto de venta de F&B — restaurante, banquete, IRD, vestíbulo — en una vista unificada en vivo."
+              "tagline": "Cada punto de venta de F&B - restaurante, banquete, IRD, vestíbulo - en una vista unificada en vivo."
             }
           ]
         },
@@ -324,7 +324,7 @@ export const generatedLocalCopy = {
       "badge": "OPLOSSINGEN · OP ROL",
       "titleLine1": "Één platform.",
       "titleLine2": "Elke rol die je uitvoert.",
-      "description": "Besluitvorming intelligentie gebouwd rondom de persoon die het leest — van het directiekantoor tot de werkvloer.",
+      "description": "Besluitvorming intelligentie gebouwd rondom de persoon die het leest - van het directiekantoor tot de werkvloer.",
       "nowShowingPrefix": "Nu te zien:",
       "primaryCta": "Boek een Werk Sessie",
       "secondaryCta": "Begin met Report Lite",
@@ -388,7 +388,7 @@ export const generatedLocalCopy = {
             },
             {
               "title": "Hospitality Operators",
-              "tagline": "Elke F&B-vestiging — restaurant, banket, IRD, lobby — in één uniforme live weergave."
+              "tagline": "Elke F&B-vestiging - restaurant, banket, IRD, lobby - in één uniforme live weergave."
             }
           ]
         },
@@ -430,7 +430,7 @@ export const generatedLocalCopy = {
       "badge": "الحلول · حسب الدور",
       "titleLine1": "منصة واحدة.",
       "titleLine2": "كل دور تقوم بتشغيله.",
-      "description": "ذكاء القرار مبني حول الشخص الذي يقرأه — من المكتب التنفيذي إلى أرضية العمل.",
+      "description": "ذكاء القرار مبني حول الشخص الذي يقرأه - من المكتب التنفيذي إلى أرضية العمل.",
       "nowShowingPrefix": "يعرض الآن:",
       "primaryCta": "احجز جلسة عمل",
       "secondaryCta": "Start with Report Lite",
@@ -494,7 +494,7 @@ export const generatedLocalCopy = {
             },
             {
               "title": "مشغلو الضيافة",
-              "tagline": "كل منفذ للغذاء والشراب — مطعم، حفل، خدمة الغرف، ردهة — في عرض موحد مباشر."
+              "tagline": "كل منفذ للغذاء والشراب - مطعم، حفل، خدمة الغرف، ردهة - في عرض موحد مباشر."
             }
           ]
         },
@@ -536,7 +536,7 @@ export const generatedLocalCopy = {
       "badge": "SOLUÇÕES · POR FUNÇÃO",
       "titleLine1": "Uma plataforma.",
       "titleLine2": "Cada função que você executa.",
-      "description": "Inteligência de decisão construída em torno da pessoa que a lê — do escritório executivo até o chão de fábrica.",
+      "description": "Inteligência de decisão construída em torno da pessoa que a lê - do escritório executivo até o chão de fábrica.",
       "nowShowingPrefix": "Agora exibindo:",
       "primaryCta": "Agende uma Sessão de Trabalho",
       "secondaryCta": "Comece com o Report Lite",
@@ -600,7 +600,7 @@ export const generatedLocalCopy = {
             },
             {
               "title": "Operadores de Hospitalidade",
-              "tagline": "Cada ponto de F&B — restaurante, banquete, IRD, lobby — em uma visão unificada ao vivo."
+              "tagline": "Cada ponto de F&B - restaurante, banquete, IRD, lobby - em uma visão unificada ao vivo."
             }
           ]
         },
@@ -642,7 +642,7 @@ export const generatedLocalCopy = {
       "badge": "حل · کردار کے لحاظ سے",
       "titleLine1": "ایک پلیٹ فارم۔",
       "titleLine2": "ہر کردار جو آپ چلاتے ہیں۔",
-      "description": "فیصلہ سازی کی ذہانت اس شخص کے گرد بنائی گئی ہے جو اسے پڑھ رہا ہے — ایگزیکٹو دفتر سے لے کر فرش تک۔",
+      "description": "فیصلہ سازی کی ذہانت اس شخص کے گرد بنائی گئی ہے جو اسے پڑھ رہا ہے - ایگزیکٹو دفتر سے لے کر فرش تک۔",
       "nowShowingPrefix": "اب دکھا رہے ہیں:",
       "primaryCta": "ایک ورکنگ سیشن بک کریں",
       "secondaryCta": "Report Lite کے ساتھ شروع کریں",
@@ -706,7 +706,7 @@ export const generatedLocalCopy = {
             },
             {
               "title": "ہاسپیٹیلٹی آپریٹرز",
-              "tagline": "ہر ایف اینڈ بی آؤٹ لیٹ — ریستوران، بینکویٹ، آئی آر ڈی، لابی — ایک متحدہ براہ راست منظر میں۔"
+              "tagline": "ہر ایف اینڈ بی آؤٹ لیٹ - ریستوران، بینکویٹ، آئی آر ڈی، لابی - ایک متحدہ براہ راست منظر میں۔"
             }
           ]
         },
@@ -748,7 +748,7 @@ export const generatedLocalCopy = {
       "badge": "समाधान · भूमिका द्वारा",
       "titleLine1": "एक प्लेटफ़ॉर्म।",
       "titleLine2": "आप जो भी भूमिका निभाते हैं।",
-      "description": "निर्णय बुद्धिमत्ता उस व्यक्ति के चारों ओर बनाई गई है जो इसे पढ़ रहा है — कार्यकारी कार्यालय से लेकर फर्श तक।",
+      "description": "निर्णय बुद्धिमत्ता उस व्यक्ति के चारों ओर बनाई गई है जो इसे पढ़ रहा है - कार्यकारी कार्यालय से लेकर फर्श तक।",
       "nowShowingPrefix": "अब दिखा रहे हैं:",
       "primaryCta": "कार्य सत्र बुक करें",
       "secondaryCta": "Report Lite से शुरू करें",
@@ -812,7 +812,7 @@ export const generatedLocalCopy = {
             },
             {
               "title": "हॉस्पिटैलिटी ऑपरेटर",
-              "tagline": "हर एफ एंड बी आउटलेट — रेस्तरां, बैनक्वेट, आईआरडी, लॉबी — एक एकीकृत लाइव दृश्य में।"
+              "tagline": "हर एफ एंड बी आउटलेट - रेस्तरां, बैनक्वेट, आईआरडी, लॉबी - एक एकीकृत लाइव दृश्य में।"
             }
           ]
         },
@@ -854,7 +854,7 @@ export const generatedLocalCopy = {
       "badge": "SOLUZIONI · PER RUOLO",
       "titleLine1": "Un'unica piattaforma.",
       "titleLine2": "Ogni ruolo che gestisci.",
-      "description": "Intelligenza decisionale costruita attorno alla persona che la legge — dall'ufficio esecutivo al piano.",
+      "description": "Intelligenza decisionale costruita attorno alla persona che la legge - dall'ufficio esecutivo al piano.",
       "nowShowingPrefix": "Ora in mostra:",
       "primaryCta": "Prenota una Sessione di Lavoro",
       "secondaryCta": "Inizia con Report Lite",
@@ -918,7 +918,7 @@ export const generatedLocalCopy = {
             },
             {
               "title": "Operatori dell'Ospitalità",
-              "tagline": "Ogni punto F&B — ristorante, banchetto, IRD, lobby — in un'unica vista live unificata."
+              "tagline": "Ogni punto F&B - ristorante, banchetto, IRD, lobby - in un'unica vista live unificata."
             }
           ]
         },
@@ -960,7 +960,7 @@ export const generatedLocalCopy = {
       "badge": "ÇÖZÜMLER · ROL GÖRE",
       "titleLine1": "Tek bir platform.",
       "titleLine2": "Yürüttüğünüz her rol.",
-      "description": "Okuyucu etrafında inşa edilmiş karar zekası — yönetim ofisinden zemin katına kadar.",
+      "description": "Okuyucu etrafında inşa edilmiş karar zekası - yönetim ofisinden zemin katına kadar.",
       "nowShowingPrefix": "Şu anda gösteriliyor:",
       "primaryCta": "Çalışma Oturumu Rezervasyonu Yap",
       "secondaryCta": "Report Lite ile başlayın",
@@ -1024,7 +1024,7 @@ export const generatedLocalCopy = {
             },
             {
               "title": "Misafirperverlik Operatörleri",
-              "tagline": "Her F&B noktası — restoran, banket, IRD, lobide — tek bir birleşik canlı görünümde."
+              "tagline": "Her F&B noktası - restoran, banket, IRD, lobide - tek bir birleşik canlı görünümde."
             }
           ]
         },
@@ -1066,7 +1066,7 @@ export const generatedLocalCopy = {
       "badge": "解决方案 · 按角色",
       "titleLine1": "一个平台。",
       "titleLine2": "您执行的每个角色。",
-      "description": "围绕阅读它的人构建的决策智能——从高管办公室到工作现场。",
+      "description": "围绕阅读它的人构建的决策智能--从高管办公室到工作现场。",
       "nowShowingPrefix": "现在显示：",
       "primaryCta": "预约工作会议",
       "secondaryCta": "Start with Report Lite",
@@ -1130,7 +1130,7 @@ export const generatedLocalCopy = {
             },
             {
               "title": "酒店运营商",
-              "tagline": "每个餐饮门店——餐厅、宴会、客房送餐、大堂——在一个统一的实时视图中。"
+              "tagline": "每个餐饮门店--餐厅、宴会、客房送餐、大堂--在一个统一的实时视图中。"
             }
           ]
         },
@@ -1172,7 +1172,7 @@ export const generatedLocalCopy = {
       "badge": "ソリューション · 役割別",
       "titleLine1": "一つのプラットフォーム。",
       "titleLine2": "あなたが実行するすべての役割。",
-      "description": "読む人を中心に構築された意思決定インテリジェンス — 経営陣のオフィスから現場まで。",
+      "description": "読む人を中心に構築された意思決定インテリジェンス - 経営陣のオフィスから現場まで。",
       "nowShowingPrefix": "現在表示中:",
       "primaryCta": "作業セッションを予約する",
       "secondaryCta": "Report Liteを始める",
@@ -1236,7 +1236,7 @@ export const generatedLocalCopy = {
             },
             {
               "title": "ホスピタリティオペレーター",
-              "tagline": "すべてのF&Bアウトレット — レストラン、バンケット、IRD、ロビー — を1つの統合されたライブビューで。"
+              "tagline": "すべてのF&Bアウトレット - レストラン、バンケット、IRD、ロビー - を1つの統合されたライブビューで。"
             }
           ]
         },
@@ -1278,7 +1278,7 @@ export const generatedLocalCopy = {
       "badge": "ROZWIĄZANIA · Z PERSPEKTYWY ROLI",
       "titleLine1": "Jedna platforma.",
       "titleLine2": "Każda rola, którą prowadzisz.",
-      "description": "Inteligencja decyzyjna skoncentrowana na osobie, która ją czyta — od biura zarządu po halę.",
+      "description": "Inteligencja decyzyjna skoncentrowana na osobie, która ją czyta - od biura zarządu po halę.",
       "nowShowingPrefix": "Teraz wyświetlane:",
       "primaryCta": "Zarezerwuj sesję roboczą",
       "secondaryCta": "Zacznij od Report Lite",
@@ -1342,7 +1342,7 @@ export const generatedLocalCopy = {
             },
             {
               "title": "Operatorzy gastronomiczni",
-              "tagline": "Każdy lokal F&B — restauracja, bankiet, IRD, hol — w jednym zintegrowanym widoku na żywo."
+              "tagline": "Każdy lokal F&B - restauracja, bankiet, IRD, hol - w jednym zintegrowanym widoku na żywo."
             }
           ]
         },
@@ -1384,7 +1384,7 @@ export const generatedLocalCopy = {
       "badge": "SOLUSI · MENURUT PERAN",
       "titleLine1": "Satu platform.",
       "titleLine2": "Setiap peran yang Anda jalankan.",
-      "description": "Inteligensi keputusan yang dibangun di sekitar orang yang membacanya — dari kantor eksekutif hingga ke lapangan.",
+      "description": "Inteligensi keputusan yang dibangun di sekitar orang yang membacanya - dari kantor eksekutif hingga ke lapangan.",
       "nowShowingPrefix": "Sedang ditampilkan:",
       "primaryCta": "Pesan Sesi Kerja",
       "secondaryCta": "Mulai dengan Report Lite",
@@ -1448,7 +1448,7 @@ export const generatedLocalCopy = {
             },
             {
               "title": "Operator Perhotelan",
-              "tagline": "Setiap outlet F&B — restoran, banket, IRD, lobi — dalam satu tampilan langsung yang terintegrasi."
+              "tagline": "Setiap outlet F&B - restoran, banket, IRD, lobi - dalam satu tampilan langsung yang terintegrasi."
             }
           ]
         },
@@ -1490,7 +1490,7 @@ export const generatedLocalCopy = {
       "badge": "GIẢI PHÁP · THEO VAI TRÒ",
       "titleLine1": "Một nền tảng.",
       "titleLine2": "Mọi vai trò bạn thực hiện.",
-      "description": "Trí tuệ quyết định được xây dựng xung quanh người đọc — từ văn phòng điều hành đến sàn.",
+      "description": "Trí tuệ quyết định được xây dựng xung quanh người đọc - từ văn phòng điều hành đến sàn.",
       "nowShowingPrefix": "Đang hiển thị:",
       "primaryCta": "Đặt một Buổi Làm Việc",
       "secondaryCta": "Bắt đầu với Report Lite",
@@ -1554,7 +1554,7 @@ export const generatedLocalCopy = {
             },
             {
               "title": "Nhà điều hành Khách sạn",
-              "tagline": "Mỗi cơ sở F&B — nhà hàng, tiệc, IRD, sảnh — trong một cái nhìn trực tiếp thống nhất."
+              "tagline": "Mỗi cơ sở F&B - nhà hàng, tiệc, IRD, sảnh - trong một cái nhìn trực tiếp thống nhất."
             }
           ]
         },
@@ -1596,7 +1596,7 @@ export const generatedLocalCopy = {
       "badge": "SOLUȚII · DUPĂ ROL",
       "titleLine1": "O platformă.",
       "titleLine2": "Fiecare rol pe care îl desfășori.",
-      "description": "Inteligența decizională construită în jurul persoanei care o citește — de la biroul executiv până la teren.",
+      "description": "Inteligența decizională construită în jurul persoanei care o citește - de la biroul executiv până la teren.",
       "nowShowingPrefix": "Acum se afișează:",
       "primaryCta": "Rezervați o sesiune de lucru",
       "secondaryCta": "Începe cu Report Lite",
@@ -1660,7 +1660,7 @@ export const generatedLocalCopy = {
             },
             {
               "title": "Operatori de Hospitality",
-              "tagline": "Fiecare locație F&B — restaurant, banchet, IRD, hol — într-o vedere unificată în timp real."
+              "tagline": "Fiecare locație F&B - restaurant, banchet, IRD, hol - într-o vedere unificată în timp real."
             }
           ]
         },
@@ -1702,7 +1702,7 @@ export const generatedLocalCopy = {
       "badge": "솔루션 · 역할별",
       "titleLine1": "하나의 플랫폼.",
       "titleLine2": "당신이 수행하는 모든 역할.",
-      "description": "읽는 사람을 중심으로 구축된 의사 결정 인텔리전스 — 경영진 사무실에서 현장까지.",
+      "description": "읽는 사람을 중심으로 구축된 의사 결정 인텔리전스 - 경영진 사무실에서 현장까지.",
       "nowShowingPrefix": "현재 상영 중:",
       "primaryCta": "작업 세션 예약하기",
       "secondaryCta": "Report Lite로 시작하기",
@@ -1766,7 +1766,7 @@ export const generatedLocalCopy = {
             },
             {
               "title": "환대 운영자",
-              "tagline": "모든 F&B 매장 — 레스토랑, 연회, 객실 서비스, 로비 — 하나의 통합된 실시간 보기."
+              "tagline": "모든 F&B 매장 - 레스토랑, 연회, 객실 서비스, 로비 - 하나의 통합된 실시간 보기."
             }
           ]
         },
@@ -1808,7 +1808,7 @@ export const generatedLocalCopy = {
       "badge": "LÖSNINGAR · EFTER ROLL",
       "titleLine1": "En plattform.",
       "titleLine2": "Varje roll du kör.",
-      "description": "Beslutsintelligens byggd kring personen som läser den — från ledningskontoret till golvet.",
+      "description": "Beslutsintelligens byggd kring personen som läser den - från ledningskontoret till golvet.",
       "nowShowingPrefix": "Visar nu:",
       "primaryCta": "Boka en arbetsession",
       "secondaryCta": "Börja med Report Lite",
@@ -1872,7 +1872,7 @@ export const generatedLocalCopy = {
             },
             {
               "title": "Gästfrihetsoperatörer",
-              "tagline": "Varje F&B-enhet — restaurang, bankett, IRD, lobby — i en enhetlig livevy."
+              "tagline": "Varje F&B-enhet - restaurang, bankett, IRD, lobby - i en enhetlig livevy."
             }
           ]
         },
@@ -1914,7 +1914,7 @@ export const generatedLocalCopy = {
       "badge": "সমাধান · ভূমিকা অনুযায়ী",
       "titleLine1": "একটি প্ল্যাটফর্ম।",
       "titleLine2": "আপনি যে কোনো ভূমিকা পরিচালনা করুন।",
-      "description": "ফয়সালা বুদ্ধিমত্তা এমনভাবে তৈরি করা হয়েছে যে এটি পড়া ব্যক্তির চারপাশে — নির্বাহী অফিস থেকে মেঝে পর্যন্ত।",
+      "description": "ফয়সালা বুদ্ধিমত্তা এমনভাবে তৈরি করা হয়েছে যে এটি পড়া ব্যক্তির চারপাশে - নির্বাহী অফিস থেকে মেঝে পর্যন্ত।",
       "nowShowingPrefix": "এখন দেখানো হচ্ছে:",
       "primaryCta": "একটি কাজের সেশন বুক করুন",
       "secondaryCta": "Start with Report Lite",
@@ -1978,7 +1978,7 @@ export const generatedLocalCopy = {
             },
             {
               "title": "হাসপাতালিটি অপারেটর",
-              "tagline": "প্রতিটি এফ অ্যান্ড বি আউটলেট — রেস্তোরাঁ, ব্যাংকুয়েট, আইআরডি, লবি — একটি একক লাইভ ভিউতে।"
+              "tagline": "প্রতিটি এফ অ্যান্ড বি আউটলেট - রেস্তোরাঁ, ব্যাংকুয়েট, আইআরডি, লবি - একটি একক লাইভ ভিউতে।"
             }
           ]
         },
@@ -2020,7 +2020,7 @@ export const generatedLocalCopy = {
       "badge": "PENYELESAIAN · MENGIKUT PERAN",
       "titleLine1": "Satu platform.",
       "titleLine2": "Setiap peranan yang anda jalankan.",
-      "description": "Inteligensi keputusan dibina di sekitar orang yang membacanya — dari pejabat eksekutif hingga ke lantai.",
+      "description": "Inteligensi keputusan dibina di sekitar orang yang membacanya - dari pejabat eksekutif hingga ke lantai.",
       "nowShowingPrefix": "Sedang ditayangkan:",
       "primaryCta": "Tempah Sesi Kerja",
       "secondaryCta": "Start with Report Lite",
@@ -2084,7 +2084,7 @@ export const generatedLocalCopy = {
             },
             {
               "title": "Pengendali Hospitaliti",
-              "tagline": "Setiap outlet F&B — restoran, jamuan, IRD, lobi — dalam satu pandangan langsung yang bersatu."
+              "tagline": "Setiap outlet F&B - restoran, jamuan, IRD, lobi - dalam satu pandangan langsung yang bersatu."
             }
           ]
         },
@@ -2126,7 +2126,7 @@ export const generatedLocalCopy = {
       "badge": "โซลูชัน · ตามบทบาท",
       "titleLine1": "แพลตฟอร์มเดียว.",
       "titleLine2": "ทุกบทบาทที่คุณดำเนินการ.",
-      "description": "ปัญญาการตัดสินใจที่สร้างขึ้นรอบตัวบุคคลที่อ่านมัน — ตั้งแต่สำนักงานผู้บริหารไปจนถึงพื้น.",
+      "description": "ปัญญาการตัดสินใจที่สร้างขึ้นรอบตัวบุคคลที่อ่านมัน - ตั้งแต่สำนักงานผู้บริหารไปจนถึงพื้น.",
       "nowShowingPrefix": "กำลังแสดง:",
       "primaryCta": "จองเซสชันการทำงาน",
       "secondaryCta": "เริ่มต้นด้วย Report Lite",
@@ -2190,7 +2190,7 @@ export const generatedLocalCopy = {
             },
             {
               "title": "ผู้ดำเนินการด้านการบริการ",
-              "tagline": "ทุกสาขา F&B — ร้านอาหาร, งานเลี้ยง, IRD, ล็อบบี้ — ในมุมมองแบบเรียลไทม์ที่รวมกัน."
+              "tagline": "ทุกสาขา F&B - ร้านอาหาร, งานเลี้ยง, IRD, ล็อบบี้ - ในมุมมองแบบเรียลไทม์ที่รวมกัน."
             }
           ]
         },

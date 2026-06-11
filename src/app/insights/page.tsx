@@ -912,7 +912,7 @@ export default function InsightsPage() {
         </div>
       </section>
 
-      {/* Product gallery — Insights surfaces in detail */}
+      {/* Product gallery - Insights surfaces in detail */}
       <SectionProductGallery
         productFilter="/insights"
         hideFilter

@@ -123,7 +123,7 @@ export const generatedLocalCopy = {
         {
           "title": "بطاقة أداء التحول",
           "headline": "ملخص أداء نهاية المناوبة",
-          "description": "يتم تصنيف كل تحول. الإيرادات، والأغطية، ومتوسط ​​الفحص، وتكلفة العمالة، والتسرب، وأبرز ميزات الخادم - ملخصة في عرض واحد. شاركها مع فريقك أو قم بمراجعتها في صباح اليوم التالي.",
+          "description": "يتم تصنيف كل تحول. الإيرادات، والأغطية، ومتوسط الفحص، وتكلفة العمالة، والتسرب، وأبرز ميزات الخادم - ملخصة في عرض واحد. شاركها مع فريقك أو قم بمراجعتها في صباح اليوم التالي.",
           "capabilities": [
             "ملخص مؤشرات الأداء الرئيسية عبر جميع المنافذ",
             "درجة التحول مع الضوء والضوء",
@@ -241,7 +241,7 @@ export const generatedLocalCopy = {
     },
     "es": {
       "hero": {
-        "badge": "Pulse — Intraday Operations",
+        "badge": "Pulse - Intraday Operations",
         "title": "$2,000 perdidos por turno incorrecto. Pulse lo capta en vivo.",
         "description": "Ritmo de ingresos, coste laboral, rendimiento del servidor y detección de fugas: actualización cada 5 minutos. Objetivos adaptables que aprenden sus patrones, estacionalidad y eventos locales. Actúa antes de que te cueste.",
         "primary": "Reserve una demostración",
@@ -418,7 +418,7 @@ export const generatedLocalCopy = {
         "secondary": "Start with Report Lite"
       },
       "heroMockup": {
-        "label": "Pulse — Sales Pacing",
+        "label": "Pulse - Sales Pacing",
         "live": "EN VIVO",
         "updatedAt": "Martes, 19:42",
         "kpis": [
@@ -478,9 +478,9 @@ export const generatedLocalCopy = {
     },
     "de": {
       "hero": {
-        "badge": "Pulse – Intraday-Operationen",
+        "badge": "Pulse - Intraday-Operationen",
         "title": "2.000 $ Verlust pro fehlerhafter Schicht. Pulse fängt es live ein.",
-        "description": "Umsatzsteuerung, Arbeitskosten, Serverleistung und Leckageerkennung – Aktualisierung alle 5 Minuten. Adaptive Ziele, die Ihre Muster, Saisonalität und lokalen Ereignisse lernen. Handeln Sie, bevor es Sie kostet.",
+        "description": "Umsatzsteuerung, Arbeitskosten, Serverleistung und Leckageerkennung - Aktualisierung alle 5 Minuten. Adaptive Ziele, die Ihre Muster, Saisonalität und lokalen Ereignisse lernen. Handeln Sie, bevor es Sie kostet.",
         "primary": "Buchen Sie eine Demo",
         "secondary": "Sehen Sie Pulse in Aktion",
         "note": "Verfügbar für Sundae Core-Pläne."
@@ -522,7 +522,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Verkaufs- und Tempoverfolgung",
-          "headline": "Wissen Sie, wo Sie stehen – jede Stunde",
+          "headline": "Wissen Sie, wo Sie stehen - jede Stunde",
           "description": "Umsatzabstimmung in Echtzeit anhand Ihrer Ziele, aufgeschlüsselt nach Tagesabschnitten. Erwarteter Umsatz zu diesem Zeitpunkt der Umstellung, Abstand zum Ziel, benötigtes Erholungstempo und ob Sie tendenziell den Tag übertreffen oder verpassen.",
           "capabilities": [
             "Intraday-Taktung mit konfigurierbaren Tagesabschnitten",
@@ -552,7 +552,7 @@ export const generatedLocalCopy = {
           "capabilities": [
             "Filtern Sie nach Stunde, Phase oder benutzerdefiniertem Bereich",
             "Vergleichen Sie mit gestern oder dem 4-Wochen-Durchschnitt",
-            "Zusammengesetzter Produktivitätswert (0–100)",
+            "Zusammengesetzter Produktivitätswert (0-100)",
             "Einzelne Serverdetails mit Diagrammen",
             "Stärken und Verbesserungsbereiche werden automatisch erkannt"
           ],
@@ -560,8 +560,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Leckageüberwachung",
-          "headline": "Jeden Monat entgehen 2–5 % der Einnahmen",
-          "description": "Stornierungen, Rabatte, Vergütungen und Rückerstattungen – in Echtzeit anhand Ihrer Basislinien verfolgt. Pulse meldet, wenn die Leakage-Rate ansteigt, identifiziert die beteiligten Server, Elemente und Zeitfenster und warnt Sie, bevor kleine Probleme zu teuren Mustern werden.",
+          "headline": "Jeden Monat entgehen 2-5 % der Einnahmen",
+          "description": "Stornierungen, Rabatte, Vergütungen und Rückerstattungen - in Echtzeit anhand Ihrer Basislinien verfolgt. Pulse meldet, wenn die Leakage-Rate ansteigt, identifiziert die beteiligten Server, Elemente und Zeitfenster und warnt Sie, bevor kleine Probleme zu teuren Mustern werden.",
           "capabilities": [
             "Stornierungs-, Rabatt- und Vergütungsverfolgung in Echtzeit",
             "Leckagezuordnung auf Serverebene",
@@ -573,7 +573,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae Coach",
           "headline": "Priorisierte Aktionen, keine Dashboards",
-          "description": "Sundae Coach überwacht alle Signale in Echtzeit und liefert priorisierte, umsetzbare Empfehlungen basierend auf Live-Daten. Keine allgemeinen Tipps – spezifische Aktionen, die sich auf das beziehen, was gerade in Ihrer Etage passiert.",
+          "description": "Sundae Coach überwacht alle Signale in Echtzeit und liefert priorisierte, umsetzbare Empfehlungen basierend auf Live-Daten. Keine allgemeinen Tipps - spezifische Aktionen, die sich auf das beziehen, was gerade in Ihrer Etage passiert.",
           "capabilities": [
             "Kontextbezogene Empfehlungen in Echtzeit",
             "Priorisiert nach Umsatzauswirkungen",
@@ -585,7 +585,7 @@ export const generatedLocalCopy = {
         {
           "title": "Warnungen und Playbooks",
           "headline": "Automatisierte Antworten, wenn es darauf ankommt",
-          "description": "Schwellenwerte definieren. Lassen Sie sich benachrichtigen. Handeln Sie schnell. Automatisierte Reaktionsworkflows, die durch Ausnahmen ausgelöst werden – von Lückenanomalien bis hin zu Arbeitskostenspitzen – mit integrierten Eskalationspfaden.",
+          "description": "Schwellenwerte definieren. Lassen Sie sich benachrichtigen. Handeln Sie schnell. Automatisierte Reaktionsworkflows, die durch Ausnahmen ausgelöst werden - von Lückenanomalien bis hin zu Arbeitskostenspitzen - mit integrierten Eskalationspfaden.",
           "capabilities": [
             "Benutzerdefinierte schwellenwertbasierte Alarmauslöser",
             "Automatisierte Benachrichtigungsworkflows",
@@ -597,7 +597,7 @@ export const generatedLocalCopy = {
         {
           "title": "Schicht-Scorecard",
           "headline": "Zusammenfassung der Leistung am Ende der Schicht",
-          "description": "Jede Schicht wird benotet. Einnahmen, Deckungen, durchschnittlicher Scheck, Arbeitskosten, Leckagen und Server-Highlights – zusammengefasst in einer Ansicht. Teilen Sie es mit Ihrem Team oder überprüfen Sie es am nächsten Morgen.",
+          "description": "Jede Schicht wird benotet. Einnahmen, Deckungen, durchschnittlicher Scheck, Arbeitskosten, Leckagen und Server-Highlights - zusammengefasst in einer Ansicht. Teilen Sie es mit Ihrem Team oder überprüfen Sie es am nächsten Morgen.",
           "capabilities": [
             "KPI-Zusammenfassung über alle Filialen hinweg",
             "Schichtstufe mit Highlights und Lowlights",
@@ -609,7 +609,7 @@ export const generatedLocalCopy = {
         {
           "title": "Portfolio-Bestenliste",
           "headline": "Vergleichen Sie jedes Outlet live",
-          "description": "Leistungsvergleich mehrerer Filialen mit Streak-Tracking und Wettbewerbsranking. Sehen Sie, welche Verkaufsstellen in Flammen stehen und welche Ihrer Aufmerksamkeit bedürfen – noch vor Tagesende.",
+          "description": "Leistungsvergleich mehrerer Filialen mit Streak-Tracking und Wettbewerbsranking. Sehen Sie, welche Verkaufsstellen in Flammen stehen und welche Ihrer Aufmerksamkeit bedürfen - noch vor Tagesende.",
           "capabilities": [
             "Filialübergreifendes Leistungsranking",
             "Streak-Tracking und Trendindikatoren",
@@ -635,27 +635,27 @@ export const generatedLocalCopy = {
         "targets": {
           "eyebrow": "INTELLIGENZ, DIE LERNT",
           "heading": "Ziele, die jede Woche intelligenter werden",
-          "description": "Auf den meisten Plattformen müssen Sie Ziele manuell festlegen – oder letzte Woche kopieren. Die Adaptive Intelligence Engine von Sundae scannt Ihre gesamte Verkaufshistorie, erkennt Anomalien und Saisonalität, ordnet Kalenderereignisse ihren tatsächlichen Umsatzauswirkungen zu und generiert zukunftsgerichtete Ziele, die Ihren tatsächlichen Geschäftsrhythmus widerspiegeln. Markieren Sie ein einmaliges Ereignis und es wird ausgeschlossen. Markieren Sie ein wiederkehrendes Ereignis und das System passt sich im nächsten Jahr automatisch an."
+          "description": "Auf den meisten Plattformen müssen Sie Ziele manuell festlegen - oder letzte Woche kopieren. Die Adaptive Intelligence Engine von Sundae scannt Ihre gesamte Verkaufshistorie, erkennt Anomalien und Saisonalität, ordnet Kalenderereignisse ihren tatsächlichen Umsatzauswirkungen zu und generiert zukunftsgerichtete Ziele, die Ihren tatsächlichen Geschäftsrhythmus widerspiegeln. Markieren Sie ein einmaliges Ereignis und es wird ausgeschlossen. Markieren Sie ein wiederkehrendes Ereignis und das System passt sich im nächsten Jahr automatisch an."
         },
         "server": {
           "eyebrow": "SERVER-INTELLIGENZ",
           "heading": "Vom Leaderboard zum Coaching-Tool",
-          "description": "Sehen Sie in Echtzeit, wer Ihren Umsatz steigert und wer Unterstützung benötigt. Filtern Sie nach Stunde, nach Servicephase oder vergleichen Sie mit der letzten Woche. Jeder Server erhält eine Produktivitätsbewertung, eine stündliche Aufschlüsselung sowie automatisch erkannte Stärken und Verbesserungsbereiche. Die besten Restaurants überwachen nicht nur die Kellner – sie entwickeln sie auch."
+          "description": "Sehen Sie in Echtzeit, wer Ihren Umsatz steigert und wer Unterstützung benötigt. Filtern Sie nach Stunde, nach Servicephase oder vergleichen Sie mit der letzten Woche. Jeder Server erhält eine Produktivitätsbewertung, eine stündliche Aufschlüsselung sowie automatisch erkannte Stärken und Verbesserungsbereiche. Die besten Restaurants überwachen nicht nur die Kellner - sie entwickeln sie auch."
         },
         "cost": {
           "eyebrow": "Schichtkalkulation",
           "heading": "Wissen Sie, was jede Schicht kostet",
-          "description": "In Ihrer Frühschicht arbeiten 4 Mitarbeiter 8 Stunden lang. Ihr Abend läuft 8 für 5 Stunden. Welches ist tatsächlich profitabel? Pulse schlüsselt die Kosten jeder Schicht auf – nach Rolle, nach Einzelperson – und ordnet sie den Einnahmen zu, die diese Schicht generiert. Sehen Sie sich Ihr Arbeitskostenverhältnis pro Schicht an, erkennen Sie Überbesetzungen und treffen Sie intelligentere Planungsentscheidungen."
+          "description": "In Ihrer Frühschicht arbeiten 4 Mitarbeiter 8 Stunden lang. Ihr Abend läuft 8 für 5 Stunden. Welches ist tatsächlich profitabel? Pulse schlüsselt die Kosten jeder Schicht auf - nach Rolle, nach Einzelperson - und ordnet sie den Einnahmen zu, die diese Schicht generiert. Sehen Sie sich Ihr Arbeitskostenverhältnis pro Schicht an, erkennen Sie Überbesetzungen und treffen Sie intelligentere Planungsentscheidungen."
         }
       },
       "cta": {
         "title": "Hören Sie auf, Schichten blind zu verwalten",
-        "description": "Pulse ist in jedem Sundae Core-Plan enthalten. Sehen Sie, was jetzt passiert – nicht erst am Ende des Tages.",
+        "description": "Pulse ist in jedem Sundae Core-Plan enthalten. Sehen Sie, was jetzt passiert - nicht erst am Ende des Tages.",
         "primary": "Buchen Sie eine Demo",
         "secondary": "Start with Report Lite"
       },
       "heroMockup": {
-        "label": "Pulse – Verkaufsförderung",
+        "label": "Pulse - Verkaufsförderung",
         "live": "LEBEN",
         "updatedAt": "Dienstag, 19:42 Uhr",
         "kpis": [
@@ -715,7 +715,7 @@ export const generatedLocalCopy = {
     },
     "fr": {
       "hero": {
-        "badge": "Pulse — Opérations Intrajournalières",
+        "badge": "Pulse - Opérations Intrajournalières",
         "title": "2 000 $ perdus par mauvais quart de travail. Pulse l'attrape en direct.",
         "description": "Rythme des revenus, coût de la main d'œuvre, performances du serveur et détection des fuites - mise à jour toutes les 5 minutes. Des cibles adaptatives qui apprennent vos modèles, votre saisonnalité et vos événements locaux. Agissez avant que cela ne vous coûte.",
         "primary": "Réservez une démo",
@@ -759,7 +759,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Suivi des ventes et du rythme",
-          "headline": "Sachez où vous en êtes – toutes les heures",
+          "headline": "Sachez où vous en êtes - toutes les heures",
           "description": "Rythme des ventes en temps réel par rapport à vos objectifs, ventilé par tranche horaire. Revenus attendus à ce stade du changement, écart par rapport à l'objectif, rythme de récupération nécessaire et si vous avez tendance à battre ou à manquer la journée.",
           "capabilities": [
             "Rythme intrajournalier avec tranches horaires configurables",
@@ -798,7 +798,7 @@ export const generatedLocalCopy = {
         {
           "title": "Surveillance des fuites",
           "headline": "2 à 5 % de fuites de revenus chaque mois",
-          "description": "Annulations, remises, compensations et remboursements – suivis en temps réel par rapport à vos références. Pulse signale lorsque les taux de fuite augmentent, identifie les serveurs, les éléments et les fenêtres horaires impliqués et vous alerte avant que de petits problèmes ne deviennent des modèles coûteux.",
+          "description": "Annulations, remises, compensations et remboursements - suivis en temps réel par rapport à vos références. Pulse signale lorsque les taux de fuite augmentent, identifie les serveurs, les éléments et les fenêtres horaires impliqués et vous alerte avant que de petits problèmes ne deviennent des modèles coûteux.",
           "capabilities": [
             "Suivi des annulations, des remises et des compensations en temps réel",
             "Attribution des fuites au niveau du serveur",
@@ -846,7 +846,7 @@ export const generatedLocalCopy = {
         {
           "title": "Classement du portefeuille",
           "headline": "Comparez chaque point de vente, en direct",
-          "description": "Comparaison des performances multi-points de vente avec suivi des séquences et classement compétitif. Vérifiez quels points de vente sont en feu et lesquels nécessitent une attention – avant la fin de la journée.",
+          "description": "Comparaison des performances multi-points de vente avec suivi des séquences et classement compétitif. Vérifiez quels points de vente sont en feu et lesquels nécessitent une attention - avant la fin de la journée.",
           "capabilities": [
             "Classement des performances multi-points de vente",
             "Suivi des séquences et indicateurs de tendance",
@@ -872,7 +872,7 @@ export const generatedLocalCopy = {
         "targets": {
           "eyebrow": "L'INTELLIGENCE QUI APPREND",
           "heading": "Des objectifs qui deviennent plus intelligents chaque semaine",
-          "description": "La plupart des plateformes vous obligent à définir des objectifs manuellement – ou à copier la semaine dernière. Le moteur d'intelligence adaptative de Sundae analyse l'historique complet de vos ventes, détecte les anomalies et la saisonnalité, mappe les événements du calendrier à leur impact réel sur les revenus et génère des objectifs prospectifs qui reflètent le rythme réel de votre entreprise. Marquez un événement ponctuel et il est exclu. Marquez un événement récurrent et le système s’ajuste automatiquement l’année prochaine."
+          "description": "La plupart des plateformes vous obligent à définir des objectifs manuellement - ou à copier la semaine dernière. Le moteur d'intelligence adaptative de Sundae analyse l'historique complet de vos ventes, détecte les anomalies et la saisonnalité, mappe les événements du calendrier à leur impact réel sur les revenus et génère des objectifs prospectifs qui reflètent le rythme réel de votre entreprise. Marquez un événement ponctuel et il est exclu. Marquez un événement récurrent et le système s’ajuste automatiquement l’année prochaine."
         },
         "server": {
           "eyebrow": "INTELLIGENCE DU SERVEUR",
@@ -882,17 +882,17 @@ export const generatedLocalCopy = {
         "cost": {
           "eyebrow": "Coûts de transfert",
           "heading": "Sachez combien coûte chaque quart de travail",
-          "description": "Votre équipe du matin compte 4 employés pendant 8 heures. Votre soirée dure 8 heures pendant 5 heures. Lequel est réellement rentable ? Pulse décompose le coût de chaque changement – ​​par rôle, par individu – et le compare aux revenus générés par le changement. Consultez votre ratio de coûts de main-d'œuvre par équipe, identifiez les excédents de personnel et prenez des décisions de planification plus judicieuses."
+          "description": "Votre équipe du matin compte 4 employés pendant 8 heures. Votre soirée dure 8 heures pendant 5 heures. Lequel est réellement rentable ? Pulse décompose le coût de chaque changement - par rôle, par individu - et le compare aux revenus générés par le changement. Consultez votre ratio de coûts de main-d'œuvre par équipe, identifiez les excédents de personnel et prenez des décisions de planification plus judicieuses."
         }
       },
       "cta": {
         "title": "Arrêtez de gérer les quarts de travail à l'aveugle",
-        "description": "Pulse est présent sur tous les forfaits Sundae Core. Voyez ce qui se passe maintenant – pas en fin de journée.",
+        "description": "Pulse est présent sur tous les forfaits Sundae Core. Voyez ce qui se passe maintenant - pas en fin de journée.",
         "primary": "Réservez une démo",
         "secondary": "Start with Report Lite"
       },
       "heroMockup": {
-        "label": "Pulse — Rythme des ventes",
+        "label": "Pulse - Rythme des ventes",
         "live": "EN DIRECT",
         "updatedAt": "mardi, 19h42",
         "kpis": [
@@ -952,9 +952,9 @@ export const generatedLocalCopy = {
     },
     "pt": {
       "hero": {
-        "badge": "Pulse — Intraday Operations",
+        "badge": "Pulse - Intraday Operations",
         "title": "$ 2 mil perdidos por turno ruim. Pulse pega ao vivo.",
-        "description": "Ritmo de receita, custo de mão de obra, desempenho do servidor e detecção de vazamentos – atualização a cada 5 minutos. Alvos adaptáveis ​​que aprendem seus padrões, sazonalidade e eventos locais. Aja antes que isso lhe custe.",
+        "description": "Ritmo de receita, custo de mão de obra, desempenho do servidor e detecção de vazamentos - atualização a cada 5 minutos. Alvos adaptáveis que aprendem seus padrões, sazonalidade e eventos locais. Aja antes que isso lhe custe.",
         "primary": "Agende uma demonstração",
         "secondary": "See Pulse in Action",
         "note": "Disponível nos planos Sundae Core."
@@ -1047,7 +1047,7 @@ export const generatedLocalCopy = {
         {
           "title": "Treinador de Sundae",
           "headline": "Ações priorizadas, não painéis",
-          "description": "O Sundae Coach monitora todos os sinais em tempo real e apresenta recomendações priorizadas e acionáveis com base em dados ao vivo. Não são dicas genéricas – ações específicas ligadas ao que está acontecendo no seu andar no momento.",
+          "description": "O Sundae Coach monitora todos os sinais em tempo real e apresenta recomendações priorizadas e acionáveis com base em dados ao vivo. Não são dicas genéricas - ações específicas ligadas ao que está acontecendo no seu andar no momento.",
           "capabilities": [
             "Recomendações contextuais em tempo real",
             "Priorizado pelo impacto na receita",
@@ -1059,7 +1059,7 @@ export const generatedLocalCopy = {
         {
           "title": "Alertas e manuais",
           "headline": "Respostas automatizadas quando é importante",
-          "description": "Defina limites. Seja notificado. Aja rápido. Fluxos de trabalho de resposta automatizados acionados por exceções – desde anomalias nulas até picos de custos de mão de obra – com caminhos de escalonamento integrados.",
+          "description": "Defina limites. Seja notificado. Aja rápido. Fluxos de trabalho de resposta automatizados acionados por exceções - desde anomalias nulas até picos de custos de mão de obra - com caminhos de escalonamento integrados.",
           "capabilities": [
             "Gatilhos de alerta personalizados baseados em limites",
             "Fluxos de trabalho de notificação automatizados",
@@ -1109,27 +1109,27 @@ export const generatedLocalCopy = {
         "targets": {
           "eyebrow": "INTELIGÊNCIA QUE APRENDE",
           "heading": "Alvos que ficam mais inteligentes a cada semana",
-          "description": "A maioria das plataformas exige que você defina metas manualmente – ou copie na semana passada. O Adaptive Intelligence Engine da Sundae verifica todo o seu histórico de vendas, detecta anomalias e sazonalidade, mapeia eventos do calendário para seu impacto real na receita e gera metas prospectivas que refletem seu ritmo real de negócios. Marque um evento único e ele será excluído. Marque um evento recorrente e o sistema se ajustará no próximo ano, automaticamente."
+          "description": "A maioria das plataformas exige que você defina metas manualmente - ou copie na semana passada. O Adaptive Intelligence Engine da Sundae verifica todo o seu histórico de vendas, detecta anomalias e sazonalidade, mapeia eventos do calendário para seu impacto real na receita e gera metas prospectivas que refletem seu ritmo real de negócios. Marque um evento único e ele será excluído. Marque um evento recorrente e o sistema se ajustará no próximo ano, automaticamente."
         },
         "server": {
           "eyebrow": "INTELIGÊNCIA DO SERVIDOR",
           "heading": "Do placar à ferramenta de coaching",
-          "description": "Veja quem está gerando sua receita e quem precisa de suporte – em tempo real. Filtre por hora, por fase de serviço ou compare com a semana passada. Cada servidor recebe uma pontuação de produtividade, um detalhamento por hora e pontos fortes e áreas de melhoria detectados automaticamente. Os melhores restaurantes não apenas rastreiam os servidores – eles os desenvolvem."
+          "description": "Veja quem está gerando sua receita e quem precisa de suporte - em tempo real. Filtre por hora, por fase de serviço ou compare com a semana passada. Cada servidor recebe uma pontuação de produtividade, um detalhamento por hora e pontos fortes e áreas de melhoria detectados automaticamente. Os melhores restaurantes não apenas rastreiam os servidores - eles os desenvolvem."
         },
         "cost": {
           "eyebrow": "CUSTO DE TURNO",
           "heading": "Saiba quanto custa cada turno",
-          "description": "Seu turno da manhã conta com 4 funcionários por 8 horas. Sua noite dura 8 horas por 5 horas. Qual deles é realmente lucrativo? O Pulse detalha o custo de cada turno – por função, por indivíduo – e mapeia-o em relação à receita gerada por esse turno. Veja o índice de custos de mão de obra por turno, identifique excesso de pessoal e tome decisões de agendamento mais inteligentes."
+          "description": "Seu turno da manhã conta com 4 funcionários por 8 horas. Sua noite dura 8 horas por 5 horas. Qual deles é realmente lucrativo? O Pulse detalha o custo de cada turno - por função, por indivíduo - e mapeia-o em relação à receita gerada por esse turno. Veja o índice de custos de mão de obra por turno, identifique excesso de pessoal e tome decisões de agendamento mais inteligentes."
         }
       },
       "cta": {
         "title": "Pare de gerenciar turnos às cegas",
-        "description": "Pulse está em todos os planos Sundae Core. Veja o que está acontecendo agora – não no final do dia.",
+        "description": "Pulse está em todos os planos Sundae Core. Veja o que está acontecendo agora - não no final do dia.",
         "primary": "Agende uma demonstração",
         "secondary": "Start with Report Lite"
       },
       "heroMockup": {
-        "label": "Pulse — Sales Pacing",
+        "label": "Pulse - Sales Pacing",
         "live": "AO VIVO",
         "updatedAt": "Terça-feira, 19h42",
         "kpis": [
@@ -1189,7 +1189,7 @@ export const generatedLocalCopy = {
     },
     "nl": {
       "hero": {
-        "badge": "Pulse — Intraday-operaties",
+        "badge": "Pulse - Intraday-operaties",
         "title": "$ 2K verloren per slechte dienst. Pulse ziet het live.",
         "description": "Inkomstentempo, arbeidskosten, serverprestaties en lekdetectie - elke 5 minuten bijgewerkt. Adaptieve doelen die uw patronen, seizoensinvloeden en lokale gebeurtenissen leren kennen. Handel voordat het u geld kost.",
         "primary": "Boek een demo",
@@ -1320,7 +1320,7 @@ export const generatedLocalCopy = {
         {
           "title": "Portfolio-klassement",
           "headline": "Vergelijk elk verkooppunt, live",
-          "description": "Prestatievergelijking bij meerdere verkooppunten met streak-tracking en competitieve ranking. Bekijk vóór het einde van de dag welke stopcontacten in brand staan ​​en welke aandacht behoeven.",
+          "description": "Prestatievergelijking bij meerdere verkooppunten met streak-tracking en competitieve ranking. Bekijk vóór het einde van de dag welke stopcontacten in brand staan en welke aandacht behoeven.",
           "capabilities": [
             "Prestatierangschikking voor meerdere verkooppunten",
             "Streak-tracking en trendindicatoren",
@@ -1332,7 +1332,7 @@ export const generatedLocalCopy = {
         {
           "title": "Wallboard-modus",
           "headline": "Zet Pulse op het grote scherm",
-          "description": "Een tv-geoptimaliseerd display ontworpen voor keukenpassages, managerskantoren en personeelsruimtes. Roteert automatisch door verkooppunten, geeft prioriteit aan risicolocaties en geeft het team een ​​gedeeld beeld van de dienst.",
+          "description": "Een tv-geoptimaliseerd display ontworpen voor keukenpassages, managerskantoren en personeelsruimtes. Roteert automatisch door verkooppunten, geeft prioriteit aan risicolocaties en geeft het team een gedeeld beeld van de dienst.",
           "capabilities": [
             "TV-geoptimaliseerd 16:9-scherm",
             "Automatisch roteren tussen stopcontacten",
@@ -1346,7 +1346,7 @@ export const generatedLocalCopy = {
         "targets": {
           "eyebrow": "INTELLIGENTIE DIE LEERT",
           "heading": "Doelen die elke week slimmer worden",
-          "description": "Bij de meeste platforms moet je handmatig doelen instellen – of vorige week kopiëren. Sundae's Adaptive Intelligence Engine scant uw volledige verkoopgeschiedenis, detecteert afwijkingen en seizoensinvloeden, brengt agendagebeurtenissen in kaart aan hun werkelijke omzetimpact en genereert toekomstgerichte doelstellingen die uw echte bedrijfsritme weerspiegelen. Tag een eenmalig evenement en deze wordt uitgesloten. Tag een terugkerend evenement en het systeem past zich volgend jaar automatisch aan."
+          "description": "Bij de meeste platforms moet je handmatig doelen instellen - of vorige week kopiëren. Sundae's Adaptive Intelligence Engine scant uw volledige verkoopgeschiedenis, detecteert afwijkingen en seizoensinvloeden, brengt agendagebeurtenissen in kaart aan hun werkelijke omzetimpact en genereert toekomstgerichte doelstellingen die uw echte bedrijfsritme weerspiegelen. Tag een eenmalig evenement en deze wordt uitgesloten. Tag een terugkerend evenement en het systeem past zich volgend jaar automatisch aan."
         },
         "server": {
           "eyebrow": "SERVER-INTELLIGENTIE",
@@ -1356,7 +1356,7 @@ export const generatedLocalCopy = {
         "cost": {
           "eyebrow": "VERSCHUIVINGSKOSTEN",
           "heading": "Weet wat elke dienst kost",
-          "description": "Jouw ochtendploeg bestaat uit 4 medewerkers gedurende 8 uur. Je avond duurt 8 uur voor 5 uur. Welke is eigenlijk winstgevend? Pulse splitst de kosten van elke dienst op – per rol, per individu – en zet deze af tegen de inkomsten die de dienst genereert. Bekijk uw arbeidskostenverhouding per ploegendienst, identificeer overbezetting en neem slimmere planningsbeslissingen."
+          "description": "Jouw ochtendploeg bestaat uit 4 medewerkers gedurende 8 uur. Je avond duurt 8 uur voor 5 uur. Welke is eigenlijk winstgevend? Pulse splitst de kosten van elke dienst op - per rol, per individu - en zet deze af tegen de inkomsten die de dienst genereert. Bekijk uw arbeidskostenverhouding per ploegendienst, identificeer overbezetting en neem slimmere planningsbeslissingen."
         }
       },
       "cta": {
@@ -1366,7 +1366,7 @@ export const generatedLocalCopy = {
         "secondary": "Start with Report Lite"
       },
       "heroMockup": {
-        "label": "Pulse – Verkooptempo",
+        "label": "Pulse - Verkooptempo",
         "live": "LEEF",
         "updatedAt": "Dinsdag, 19:42 uur",
         "kpis": [
@@ -1598,7 +1598,7 @@ export const generatedLocalCopy = {
       },
       "cta": {
         "title": "شفٹ بلائنڈ کا انتظام کرنا بند کریں۔",
-        "description": "Pulse is on every Sundae Core plan. See what's happening now — not at end-of-day.",
+        "description": "Pulse is on every Sundae Core plan. See what's happening now - not at end-of-day.",
         "primary": "ایک ڈیمو بک کرو",
         "secondary": "Start with Report Lite"
       },
@@ -1835,7 +1835,7 @@ export const generatedLocalCopy = {
       },
       "cta": {
         "title": "शिफ्ट ब्लाइंड का प्रबंधन करना बंद करें",
-        "description": "Pulse is on every Sundae Core plan. See what's happening now — not at end-of-day.",
+        "description": "Pulse is on every Sundae Core plan. See what's happening now - not at end-of-day.",
         "primary": "एक डेमो बुक करें",
         "secondary": "Start with Report Lite"
       },
@@ -2007,7 +2007,7 @@ export const generatedLocalCopy = {
         {
           "title": "Avvisi e playbook",
           "headline": "Risposte automatizzate quando è importante",
-          "description": "Definire le soglie. Ricevi una notifica. Agisci velocemente. Flussi di lavoro di risposta automatizzati attivati ​​da eccezioni, dalle anomalie di annullamento ai picchi del costo della manodopera, con percorsi di escalation integrati.",
+          "description": "Definire le soglie. Ricevi una notifica. Agisci velocemente. Flussi di lavoro di risposta automatizzati attivati da eccezioni, dalle anomalie di annullamento ai picchi del costo della manodopera, con percorsi di escalation integrati.",
           "capabilities": [
             "Attivazioni di avvisi personalizzati basati su soglie",
             "Flussi di lavoro di notifica automatizzati",
@@ -2077,7 +2077,7 @@ export const generatedLocalCopy = {
         "secondary": "Start with Report Lite"
       },
       "heroMockup": {
-        "label": "Pulse — Sales Pacing",
+        "label": "Pulse - Sales Pacing",
         "live": "VIVI",
         "updatedAt": "Martedì, 19:42",
         "kpis": [
@@ -2137,7 +2137,7 @@ export const generatedLocalCopy = {
     },
     "tr": {
       "hero": {
-        "badge": "Pulse — Intraday Operations",
+        "badge": "Pulse - Intraday Operations",
         "title": "$2K Lost Per Bad Shift. Pulse Catches It Live.",
         "description": "Gelir ilerleme hızı, işçilik maliyeti, sunucu performansı ve sızıntı tespiti - her 5 dakikada bir güncellenir. Kalıplarınızı, mevsimselliğinizi ve yerel etkinliklerinizi öğrenen uyarlanabilir hedefler. Size maliyeti olmadan önce harekete geçin.",
         "primary": "Demo Rezervasyonu Yapın",
@@ -2309,12 +2309,12 @@ export const generatedLocalCopy = {
       },
       "cta": {
         "title": "Vardiyaları Kör Olarak Yönetmeyi Durdurun",
-        "description": "Pulse is on every Sundae Core plan. See what's happening now — not at end-of-day.",
+        "description": "Pulse is on every Sundae Core plan. See what's happening now - not at end-of-day.",
         "primary": "Demo Rezervasyonu Yapın",
         "secondary": "Start with Report Lite"
       },
       "heroMockup": {
-        "label": "Pulse — Sales Pacing",
+        "label": "Pulse - Sales Pacing",
         "live": "CANLI",
         "updatedAt": "Salı, 19:42",
         "kpis": [
@@ -2374,9 +2374,9 @@ export const generatedLocalCopy = {
     },
     "pl": {
       "hero": {
-        "badge": "Pulse — Operacje śróddzienne",
+        "badge": "Pulse - Operacje śróddzienne",
         "title": "Strata 2 tys. dolarów na złą zmianę. Pulse łapie to na żywo.",
-        "description": "Tempo przychodów, koszty pracy, wydajność serwera i wykrywanie wycieków — aktualizacja co 5 minut. Cele adaptacyjne, które uczą się Twoich wzorców, sezonowości i wydarzeń lokalnych. Działaj, zanim będzie Cię to kosztować.",
+        "description": "Tempo przychodów, koszty pracy, wydajność serwera i wykrywanie wycieków - aktualizacja co 5 minut. Cele adaptacyjne, które uczą się Twoich wzorców, sezonowości i wydarzeń lokalnych. Działaj, zanim będzie Cię to kosztować.",
         "primary": "Zarezerwuj wersję demonstracyjną",
         "secondary": "Zobacz Pulse w akcji",
         "note": "Dostępne w planach Sundae Core."
@@ -2418,7 +2418,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Śledzenie sprzedaży i tempa",
-          "headline": "Wiedz, na czym stoisz – co godzinę",
+          "headline": "Wiedz, na czym stoisz - co godzinę",
           "description": "Tempo sprzedaży w czasie rzeczywistym względem Twoich celów, z podziałem na pory dnia. Oczekiwane przychody na tym etapie zmiany, różnica w stosunku do celu, potrzebne tempo regeneracji oraz to, czy masz tendencję do pobicia, czy przegapienia dnia.",
           "capabilities": [
             "Tempo w ciągu dnia z konfigurowalnymi porami dnia",
@@ -2457,7 +2457,7 @@ export const generatedLocalCopy = {
         {
           "title": "Monitorowanie wycieków",
           "headline": "2-5% wycieków przychodów każdego miesiąca",
-          "description": "Anulacje, rabaty, rabaty i zwroty pieniędzy – śledzone w czasie rzeczywistym w stosunku do wartości bazowych. Wysyła sygnał Pulse w przypadku gwałtownego wzrostu poziomu wycieków, identyfikuje serwery, elementy i okna czasowe, których to dotyczy, oraz ostrzega, zanim drobne problemy staną się kosztownymi wzorcami.",
+          "description": "Anulacje, rabaty, rabaty i zwroty pieniędzy - śledzone w czasie rzeczywistym w stosunku do wartości bazowych. Wysyła sygnał Pulse w przypadku gwałtownego wzrostu poziomu wycieków, identyfikuje serwery, elementy i okna czasowe, których to dotyczy, oraz ostrzega, zanim drobne problemy staną się kosztownymi wzorcami.",
           "capabilities": [
             "Śledzenie pustek, zniżek i zamówień w czasie rzeczywistym",
             "Atrybucja wycieków na poziomie serwera",
@@ -2469,7 +2469,7 @@ export const generatedLocalCopy = {
         {
           "title": "Trener Sundae",
           "headline": "Priorytetowe działania, a nie pulpity nawigacyjne",
-          "description": "Sundae Coach monitoruje wszystkie sygnały w czasie rzeczywistym i przedstawia priorytetowe, praktyczne rekomendacje oparte na bieżących danych. Nie ogólne wskazówki – konkretne działania powiązane z tym, co dzieje się obecnie na Twoim piętrze.",
+          "description": "Sundae Coach monitoruje wszystkie sygnały w czasie rzeczywistym i przedstawia priorytetowe, praktyczne rekomendacje oparte na bieżących danych. Nie ogólne wskazówki - konkretne działania powiązane z tym, co dzieje się obecnie na Twoim piętrze.",
           "capabilities": [
             "Rekomendacje kontekstowe w czasie rzeczywistym",
             "Priorytet według wpływu na przychody",
@@ -2481,7 +2481,7 @@ export const generatedLocalCopy = {
         {
           "title": "Alerty i podręczniki",
           "headline": "Automatyczne odpowiedzi, gdy ma to znaczenie",
-          "description": "Zdefiniuj progi. Otrzymuj powiadomienia. Działaj szybko. Zautomatyzowane przepływy pracy odpowiedzi wyzwalane przez wyjątki – od nieprawidłowych anomalii po skoki kosztów pracy – z wbudowanymi ścieżkami eskalacji.",
+          "description": "Zdefiniuj progi. Otrzymuj powiadomienia. Działaj szybko. Zautomatyzowane przepływy pracy odpowiedzi wyzwalane przez wyjątki - od nieprawidłowych anomalii po skoki kosztów pracy - z wbudowanymi ścieżkami eskalacji.",
           "capabilities": [
             "Niestandardowe wyzwalacze alertów oparte na progach",
             "Zautomatyzowane przepływy powiadomień",
@@ -2493,7 +2493,7 @@ export const generatedLocalCopy = {
         {
           "title": "Karta wyników zmiany",
           "headline": "Podsumowanie wydajności na koniec zmiany",
-          "description": "Każda zmiana jest oceniana. Przychody, pokrycie, średni czek, koszt robocizny, wycieki i najważniejsze informacje o serwerach – podsumowane w jednym widoku. Podziel się nim ze swoim zespołem lub przejrzyj go następnego ranka.",
+          "description": "Każda zmiana jest oceniana. Przychody, pokrycie, średni czek, koszt robocizny, wycieki i najważniejsze informacje o serwerach - podsumowane w jednym widoku. Podziel się nim ze swoim zespołem lub przejrzyj go następnego ranka.",
           "capabilities": [
             "Podsumowanie KPI we wszystkich placówkach",
             "Zmiana stopnia z podświetleniami i słabymi światłami",
@@ -2505,7 +2505,7 @@ export const generatedLocalCopy = {
         {
           "title": "Tabela liderów portfela",
           "headline": "Porównaj każdy outlet, na żywo",
-          "description": "Porównanie wydajności wielu punktów sprzedaży ze śledzeniem serii i rankingiem konkurencji. Zobacz, które gniazdka się palą, a które wymagają interwencji – jeszcze przed końcem dnia.",
+          "description": "Porównanie wydajności wielu punktów sprzedaży ze śledzeniem serii i rankingiem konkurencji. Zobacz, które gniazdka się palą, a które wymagają interwencji - jeszcze przed końcem dnia.",
           "capabilities": [
             "Ranking wyników wielu placówek",
             "Śledzenie smug i wskaźniki trendów",
@@ -2531,17 +2531,17 @@ export const generatedLocalCopy = {
         "targets": {
           "eyebrow": "INTELIGENCJA, KTÓRA UCZY SIĘ",
           "heading": "Cele, które stają się mądrzejsze z każdym tygodniem",
-          "description": "Większość platform pozwala ustawić cele ręcznie – lub skopiować je w zeszłym tygodniu. Silnik Adaptive Intelligence Engine firmy Sundae skanuje pełną historię sprzedaży, wykrywa anomalie i sezonowość, odwzorowuje wydarzenia w kalendarzu na ich rzeczywisty wpływ na przychody i generuje przyszłościowe cele, które odzwierciedlają rzeczywisty rytm biznesowy. Oznacz wydarzenie jednorazowe, a zostanie ono wykluczone. Oznacz wydarzenie cykliczne, a system automatycznie dostosuje się do nich w przyszłym roku."
+          "description": "Większość platform pozwala ustawić cele ręcznie - lub skopiować je w zeszłym tygodniu. Silnik Adaptive Intelligence Engine firmy Sundae skanuje pełną historię sprzedaży, wykrywa anomalie i sezonowość, odwzorowuje wydarzenia w kalendarzu na ich rzeczywisty wpływ na przychody i generuje przyszłościowe cele, które odzwierciedlają rzeczywisty rytm biznesowy. Oznacz wydarzenie jednorazowe, a zostanie ono wykluczone. Oznacz wydarzenie cykliczne, a system automatycznie dostosuje się do nich w przyszłym roku."
         },
         "server": {
           "eyebrow": "INTELIGENCJA SERWERA",
           "heading": "Od tablicy wyników do narzędzia coachingowego",
-          "description": "Zobacz, kto generuje Twoje przychody i kto potrzebuje wsparcia – w czasie rzeczywistym. Filtruj według godziny, fazy serwisowej lub porównaj z zeszłym tygodniem. Każdy serwer otrzymuje ocenę produktywności, zestawienie godzinowe oraz automatycznie wykryte mocne strony i obszary wymagające ulepszeń. Najlepsze restauracje nie tylko śledzą serwery – one je rozwijają."
+          "description": "Zobacz, kto generuje Twoje przychody i kto potrzebuje wsparcia - w czasie rzeczywistym. Filtruj według godziny, fazy serwisowej lub porównaj z zeszłym tygodniem. Każdy serwer otrzymuje ocenę produktywności, zestawienie godzinowe oraz automatycznie wykryte mocne strony i obszary wymagające ulepszeń. Najlepsze restauracje nie tylko śledzą serwery - one je rozwijają."
         },
         "cost": {
           "eyebrow": "KOSZT ZMIANY",
           "heading": "Dowiedz się, ile kosztuje każda zmiana",
-          "description": "Na Twojej porannej zmianie pracuje 4 pracowników przez 8 godzin. Twój wieczór trwa 8 przez 5 godzin. Który z nich faktycznie jest opłacalny? Pulse rozkłada koszty każdej zmiany – według roli i osoby – i porównuje je z przychodami generowanymi przez tę zmianę. Sprawdź swój współczynnik kosztów pracy według zmiany, zidentyfikuj nadmierne zatrudnienie i podejmuj mądrzejsze decyzje dotyczące planowania."
+          "description": "Na Twojej porannej zmianie pracuje 4 pracowników przez 8 godzin. Twój wieczór trwa 8 przez 5 godzin. Który z nich faktycznie jest opłacalny? Pulse rozkłada koszty każdej zmiany - według roli i osoby - i porównuje je z przychodami generowanymi przez tę zmianę. Sprawdź swój współczynnik kosztów pracy według zmiany, zidentyfikuj nadmierne zatrudnienie i podejmuj mądrzejsze decyzje dotyczące planowania."
         }
       },
       "cta": {
@@ -2551,7 +2551,7 @@ export const generatedLocalCopy = {
         "secondary": "Start with Report Lite"
       },
       "heroMockup": {
-        "label": "Pulse – dynamika sprzedaży",
+        "label": "Pulse - dynamika sprzedaży",
         "live": "NA ŻYWO",
         "updatedAt": "Wtorek, 19:42",
         "kpis": [
@@ -2611,7 +2611,7 @@ export const generatedLocalCopy = {
     },
     "zh-Hans": {
       "hero": {
-        "badge": "Pulse — Intraday Operations",
+        "badge": "Pulse - Intraday Operations",
         "title": "$2K Lost Per Bad Shift. Pulse Catches It Live.",
         "description": "收入节奏、劳动力成本、服务器性能和泄漏检测 - 每 5 分钟更新一次。自适应目标可了解您的模式、季节性和当地事件。在付出代价之前采取行动。",
         "primary": "预订演示",
@@ -2768,7 +2768,7 @@ export const generatedLocalCopy = {
         "targets": {
           "eyebrow": "学习的智慧",
           "heading": "每周变得更智能的目标",
-          "description": "大多数平台都让你手动设定目标——或者复制上周的目标。Sundae的自适应智能引擎会扫描您的完整销售历史记录，检测异常情况和季节性，将日历事件与其实际收入影响相对应，并生成反映您真实业务节奏的前瞻性目标。标记一次性事件并将其排除。标记重复发生的事件，系统会在明年自动进行调整。"
+          "description": "大多数平台都让你手动设定目标--或者复制上周的目标。Sundae的自适应智能引擎会扫描您的完整销售历史记录，检测异常情况和季节性，将日历事件与其实际收入影响相对应，并生成反映您真实业务节奏的前瞻性目标。标记一次性事件并将其排除。标记重复发生的事件，系统会在明年自动进行调整。"
         },
         "server": {
           "eyebrow": "服务器智能",
@@ -2783,12 +2783,12 @@ export const generatedLocalCopy = {
       },
       "cta": {
         "title": "停止盲目管理班次",
-        "description": "Pulse is on every Sundae Core plan. See what's happening now — not at end-of-day.",
+        "description": "Pulse is on every Sundae Core plan. See what's happening now - not at end-of-day.",
         "primary": "预订演示",
         "secondary": "Start with Report Lite"
       },
       "heroMockup": {
-        "label": "Pulse——销售节奏",
+        "label": "Pulse--销售节奏",
         "live": "现场直播",
         "updatedAt": "星期二晚上 7:42",
         "kpis": [
@@ -2848,7 +2848,7 @@ export const generatedLocalCopy = {
     },
     "ja": {
       "hero": {
-        "badge": "Pulse — 日中オペレーション",
+        "badge": "Pulse - 日中オペレーション",
         "title": "悪いシフトごとに 2,000 ドルの損失。Pulse・キャッチ・イット・ライブ。",
         "description": "収益ペース、人件費、サーバーのパフォーマンス、漏洩検出 - 5 分ごとに更新されます。パターン、季節性、地域のイベントを学習する適応ターゲット。費用がかかる前に行動しましょう。",
         "primary": "デモを予約する",
@@ -3025,7 +3025,7 @@ export const generatedLocalCopy = {
         "secondary": "Start with Report Lite"
       },
       "heroMockup": {
-        "label": "Pulse — 販売ペース",
+        "label": "Pulse - 販売ペース",
         "live": "ライブ",
         "updatedAt": "火曜日、午後 7 時 42 分",
         "kpis": [
@@ -3085,7 +3085,7 @@ export const generatedLocalCopy = {
     },
     "ko": {
       "hero": {
-        "badge": "Pulse — 일중 운영",
+        "badge": "Pulse - 일중 운영",
         "title": "잘못된 교대 근무당 $2K 손실. Pulse가 실시간으로 포착합니다.",
         "description": "수익 속도, 인건비, 서버 성능 및 누출 감지 - 5분마다 업데이트됩니다. 패턴, 계절성, 지역 이벤트를 학습하는 적응형 타겟입니다. 비용이 발생하기 전에 행동하십시오.",
         "primary": "데모 예약",
@@ -3262,7 +3262,7 @@ export const generatedLocalCopy = {
         "secondary": "Start with Report Lite"
       },
       "heroMockup": {
-        "label": "Pulse — 판매 속도",
+        "label": "Pulse - 판매 속도",
         "live": "라이브",
         "updatedAt": "화요일 오후 7시 42분",
         "kpis": [
@@ -3322,7 +3322,7 @@ export const generatedLocalCopy = {
     },
     "id": {
       "hero": {
-        "badge": "Pulse — Intraday Operations",
+        "badge": "Pulse - Intraday Operations",
         "title": "$2K Hilang Per Shift Buruk. Pulse Menangkapnya Secara Langsung.",
         "description": "Kecepatan pendapatan, biaya tenaga kerja, kinerja server, dan deteksi kebocoran - diperbarui setiap 5 menit. Target adaptif yang mempelajari pola, musim, dan peristiwa lokal Anda. Bertindaklah sebelum hal itu merugikan Anda.",
         "primary": "Pesan Demo",
@@ -3499,7 +3499,7 @@ export const generatedLocalCopy = {
         "secondary": "Start with Report Lite"
       },
       "heroMockup": {
-        "label": "Pulse — Sales Pacing",
+        "label": "Pulse - Sales Pacing",
         "live": "LANGSUNG",
         "updatedAt": "Selasa, 19:42",
         "kpis": [
@@ -3559,7 +3559,7 @@ export const generatedLocalCopy = {
     },
     "vi": {
       "hero": {
-        "badge": "Pulse — Hoạt động trong ngày",
+        "badge": "Pulse - Hoạt động trong ngày",
         "title": "Mất $2K cho mỗi ca làm việc tồi. Pulse bắt nó sống.",
         "description": "Tốc độ doanh thu, chi phí nhân công, hiệu suất máy chủ và phát hiện rò rỉ - cập nhật 5 phút một lần. Các mục tiêu thích ứng tìm hiểu mô hình, tính thời vụ và sự kiện địa phương của bạn. Hãy hành động trước khi bạn phải trả giá.",
         "primary": "Đặt bản demo",
@@ -3604,7 +3604,7 @@ export const generatedLocalCopy = {
         {
           "title": "Theo dõi doanh số & tốc độ",
           "headline": "Biết mình đang đứng ở đâu - Mỗi giờ",
-          "description": "Tốc độ bán hàng theo thời gian thực so với mục tiêu của bạn, được chia nhỏ theo thời gian trong ngày. Doanh thu dự kiến ​​tại thời điểm này trong ca làm việc, khoảng cách so với mục tiêu, tốc độ phục hồi cần thiết và liệu bạn có xu hướng vượt qua hay bỏ lỡ ngày đó.",
+          "description": "Tốc độ bán hàng theo thời gian thực so với mục tiêu của bạn, được chia nhỏ theo thời gian trong ngày. Doanh thu dự kiến tại thời điểm này trong ca làm việc, khoảng cách so với mục tiêu, tốc độ phục hồi cần thiết và liệu bạn có xu hướng vượt qua hay bỏ lỡ ngày đó.",
           "capabilities": [
             "Nhịp độ trong ngày với thời gian trong ngày có thể định cấu hình",
             "Tính toán khoảng cách đến mục tiêu theo thời gian thực",
@@ -3736,7 +3736,7 @@ export const generatedLocalCopy = {
         "secondary": "Start with Report Lite"
       },
       "heroMockup": {
-        "label": "Pulse — Sales Pacing",
+        "label": "Pulse - Sales Pacing",
         "live": "TRỰC TIẾP",
         "updatedAt": "Thứ Ba, 7:42 tối",
         "kpis": [
@@ -3796,7 +3796,7 @@ export const generatedLocalCopy = {
     },
     "sv": {
       "hero": {
-        "badge": "Pulse — Intraday Operations",
+        "badge": "Pulse - Intraday Operations",
         "title": "$2K förlorade per dåligt skift. Pulse fångar det live.",
         "description": "Intäktstakt, arbetskostnad, serverprestanda och läckagedetektering - uppdatering var 5:e minut. Anpassningsbara mål som lär dig dina mönster, säsongsvariationer och lokala evenemang. Agera innan det kostar dig.",
         "primary": "Boka en demo",
@@ -3891,7 +3891,7 @@ export const generatedLocalCopy = {
         {
           "title": "Sundae tränare",
           "headline": "Prioriterade åtgärder, inte instrumentpaneler",
-          "description": "Sundae Coach övervakar alla signaler i realtid och ytor prioriterade, handlingsbara rekommendationer baserade på livedata. Inte allmänna tips – specifika åtgärder kopplade till vad som händer på ditt golv just nu.",
+          "description": "Sundae Coach övervakar alla signaler i realtid och ytor prioriterade, handlingsbara rekommendationer baserade på livedata. Inte allmänna tips - specifika åtgärder kopplade till vad som händer på ditt golv just nu.",
           "capabilities": [
             "Kontextuella rekommendationer i realtid",
             "Prioriteras efter intäktseffekt",
@@ -3903,7 +3903,7 @@ export const generatedLocalCopy = {
         {
           "title": "Varningar & Playbooks",
           "headline": "Automatiserade svar när det gäller",
-          "description": "Definiera trösklar. Bli meddelad. Agera snabbt. Automatiserade svarsarbetsflöden som utlöses av undantag – från ogiltigförklaringar till arbetskostnadstoppar – med inbyggda eskaleringsvägar.",
+          "description": "Definiera trösklar. Bli meddelad. Agera snabbt. Automatiserade svarsarbetsflöden som utlöses av undantag - från ogiltigförklaringar till arbetskostnadstoppar - med inbyggda eskaleringsvägar.",
           "capabilities": [
             "Anpassade tröskelbaserade varningsutlösare",
             "Automatiserade aviseringsarbetsflöden",
@@ -3915,7 +3915,7 @@ export const generatedLocalCopy = {
         {
           "title": "Shift Scorecard",
           "headline": "Sammanfattning av prestanda vid slutet av skiftet",
-          "description": "Varje skift får betyg. Intäkter, omslag, genomsnittlig kontroll, arbetskostnad, läckage och serverhöjdpunkter – sammanfattade i en vy. Dela den med ditt team eller granska den nästa morgon.",
+          "description": "Varje skift får betyg. Intäkter, omslag, genomsnittlig kontroll, arbetskostnad, läckage och serverhöjdpunkter - sammanfattade i en vy. Dela den med ditt team eller granska den nästa morgon.",
           "capabilities": [
             "KPI-sammanfattning över alla butiker",
             "Skift grad med högdagrar och lågljus",
@@ -3953,12 +3953,12 @@ export const generatedLocalCopy = {
         "targets": {
           "eyebrow": "INTELLIGENS SOM LÄR",
           "heading": "Mål som blir smartare varje vecka",
-          "description": "De flesta plattformar gör att du ställer in mål manuellt – eller kopierar förra veckan. Sundae Adaptive Intelligence Engine skannar hela din försäljningshistorik, upptäcker avvikelser och säsongsvariationer, kartlägger kalenderhändelser till deras faktiska intäktseffekt och genererar framåtblickande mål som återspeglar din verkliga affärsrytm. Tagga ett engångshändelse så är det uteslutet. Tagga ett återkommande evenemang och systemet anpassar sig nästa år, automatiskt."
+          "description": "De flesta plattformar gör att du ställer in mål manuellt - eller kopierar förra veckan. Sundae Adaptive Intelligence Engine skannar hela din försäljningshistorik, upptäcker avvikelser och säsongsvariationer, kartlägger kalenderhändelser till deras faktiska intäktseffekt och genererar framåtblickande mål som återspeglar din verkliga affärsrytm. Tagga ett engångshändelse så är det uteslutet. Tagga ett återkommande evenemang och systemet anpassar sig nästa år, automatiskt."
         },
         "server": {
           "eyebrow": "SERVERINTELLIGENS",
           "heading": "Från Leaderboard till Coaching Tool",
-          "description": "Se vem som driver dina intäkter och vem som behöver support – i realtid. Filtrera efter timme, efter servicefas eller jämför med förra veckan. Varje server får ett produktivitetspoäng, en uppdelning varje timme och autodetekterade styrkor och förbättringsområden. De bästa restaurangerna spårar inte bara servrar – de utvecklar dem."
+          "description": "Se vem som driver dina intäkter och vem som behöver support - i realtid. Filtrera efter timme, efter servicefas eller jämför med förra veckan. Varje server får ett produktivitetspoäng, en uppdelning varje timme och autodetekterade styrkor och förbättringsområden. De bästa restaurangerna spårar inte bara servrar - de utvecklar dem."
         },
         "cost": {
           "eyebrow": "SKIFTSKOSTNAD",
@@ -3973,7 +3973,7 @@ export const generatedLocalCopy = {
         "secondary": "Start with Report Lite"
       },
       "heroMockup": {
-        "label": "Pulse — Försäljningstempo",
+        "label": "Pulse - Försäljningstempo",
         "live": "LIVE",
         "updatedAt": "Tisdag, 19:42",
         "kpis": [
@@ -4033,7 +4033,7 @@ export const generatedLocalCopy = {
     },
     "ro": {
       "hero": {
-        "badge": "Pulse – Operațiuni în cursul zilei",
+        "badge": "Pulse - Operațiuni în cursul zilei",
         "title": "$2K Lost Per Bad Shift. Pulse Catches It Live.",
         "description": "Ritmul veniturilor, costul forței de muncă, performanța serverului și detectarea scurgerilor - se actualizează la fiecare 5 minute. Ținte adaptabile care vă învață tiparele, sezonalitatea și evenimentele locale. Acționează înainte să te coste.",
         "primary": "Rezervați o demonstrație",
@@ -4210,7 +4210,7 @@ export const generatedLocalCopy = {
         "secondary": "Start with Report Lite"
       },
       "heroMockup": {
-        "label": "Pulse – ritmul vânzărilor",
+        "label": "Pulse - ritmul vânzărilor",
         "live": "LIVE",
         "updatedAt": "Marți, ora 19:42",
         "kpis": [
@@ -4270,7 +4270,7 @@ export const generatedLocalCopy = {
     },
     "bn": {
       "hero": {
-        "badge": "Pulse — Intraday Operations",
+        "badge": "Pulse - Intraday Operations",
         "title": "$2K Lost Per Bad Shift. Pulse Catches It Live.",
         "description": "রাজস্ব পেসিং, শ্রম খরচ, সার্ভারের কর্মক্ষমতা, এবং ফুটো সনাক্তকরণ - প্রতি 5 মিনিটে আপডেট করা হচ্ছে। অভিযোজিত লক্ষ্যগুলি যা আপনার নিদর্শন, ঋতু এবং স্থানীয় ইভেন্টগুলি শিখতে পারে। এটা আপনার খরচ আগে কাজ.",
         "primary": "একটি ডেমো বুক করুন",
@@ -4340,7 +4340,7 @@ export const generatedLocalCopy = {
         {
           "title": "সার্ভার কর্মক্ষমতা",
           "headline": "কে ড্রাইভিং রাজস্ব দেখুন",
-          "description": "আয়, গড় চেক, কভার, আপসেল রেট এবং একটি যৌগিক উত্পাদনশীলতা স্কোর দ্বারা একটি লাইভ লিডারবোর্ড র‌্যাঙ্কিং সার্ভার। ঘন্টা, পরিষেবা পর্যায়, বা তুলনা সময় অনুসারে ফিল্টার করুন। কোচিং, ইনসেনটিভ এবং স্টাফিং সিদ্ধান্তের জন্য এটি ব্যবহার করুন।",
+          "description": "আয়, গড় চেক, কভার, আপসেল রেট এবং একটি যৌগিক উত্পাদনশীলতা স্কোর দ্বারা একটি লাইভ লিডারবোর্ড র্যাঙ্কিং সার্ভার। ঘন্টা, পরিষেবা পর্যায়, বা তুলনা সময় অনুসারে ফিল্টার করুন। কোচিং, ইনসেনটিভ এবং স্টাফিং সিদ্ধান্তের জন্য এটি ব্যবহার করুন।",
           "capabilities": [
             "ঘন্টা, ফেজ, বা কাস্টম পরিসীমা দ্বারা ফিল্টার করুন",
             "গতকাল বা 4-সপ্তাহের গড় বনাম তুলনা করুন",
@@ -4401,9 +4401,9 @@ export const generatedLocalCopy = {
         {
           "title": "পোর্টফোলিও লিডারবোর্ড",
           "headline": "প্রতিটি আউটলেট তুলনা করুন, লাইভ",
-          "description": "স্ট্রিক ট্র্যাকিং এবং প্রতিযোগিতামূলক র‌্যাঙ্কিংয়ের সাথে মাল্টি-আউটলেট পারফরম্যান্সের তুলনা। কোন আউটলেটে আগুন লেগেছে এবং কোনটিতে মনোযোগ দেওয়া দরকার তা দেখুন - দিনের শেষের আগে।",
+          "description": "স্ট্রিক ট্র্যাকিং এবং প্রতিযোগিতামূলক র্যাঙ্কিংয়ের সাথে মাল্টি-আউটলেট পারফরম্যান্সের তুলনা। কোন আউটলেটে আগুন লেগেছে এবং কোনটিতে মনোযোগ দেওয়া দরকার তা দেখুন - দিনের শেষের আগে।",
           "capabilities": [
-            "ক্রস-আউটলেট কর্মক্ষমতা র‌্যাঙ্কিং",
+            "ক্রস-আউটলেট কর্মক্ষমতা র্যাঙ্কিং",
             "স্ট্রিক ট্র্যাকিং এবং প্রবণতা সূচক",
             "পৃথক আউটলেট মেট্রিক্সে ড্রিল-ডাউন",
             "ঝুঁকিপূর্ণ আউটলেট ফ্ল্যাগিং"
@@ -4442,12 +4442,12 @@ export const generatedLocalCopy = {
       },
       "cta": {
         "title": "শিফট ব্লাইন্ড পরিচালনা বন্ধ করুন",
-        "description": "Pulse is on every Sundae Core plan. See what's happening now — not at end-of-day.",
+        "description": "Pulse is on every Sundae Core plan. See what's happening now - not at end-of-day.",
         "primary": "একটি ডেমো বুক করুন",
         "secondary": "Start with Report Lite"
       },
       "heroMockup": {
-        "label": "Pulse — Sales Pacing",
+        "label": "Pulse - Sales Pacing",
         "live": "লাইভ",
         "updatedAt": "মঙ্গলবার, 7:42 PM",
         "kpis": [
@@ -4507,7 +4507,7 @@ export const generatedLocalCopy = {
     },
     "th": {
       "hero": {
-        "badge": "Pulse — การดำเนินงานระหว่างวัน",
+        "badge": "Pulse - การดำเนินงานระหว่างวัน",
         "title": "สูญเสีย $2K ต่อการเปลี่ยนแปลงที่ไม่ถูกต้อง Pulse จับมันได้สด",
         "description": "อัตรารายได้ ค่าแรง ประสิทธิภาพของเซิร์ฟเวอร์ และการตรวจจับการรั่วไหล - อัปเดตทุกๆ 5 นาที เป้าหมายแบบปรับเปลี่ยนได้ซึ่งจะเรียนรู้รูปแบบ ฤดูกาล และกิจกรรมในท้องถิ่นของคุณ ดำเนินการก่อนที่จะเสียค่าใช้จ่าย",
         "primary": "จองการสาธิต",
@@ -4744,7 +4744,7 @@ export const generatedLocalCopy = {
     },
     "ms": {
       "hero": {
-        "badge": "Pulse — Intraday Operations",
+        "badge": "Pulse - Intraday Operations",
         "title": "$2K Lost Per Bad Shift. Pulse Catches It Live.",
         "description": "Rentak hasil, kos buruh, prestasi pelayan dan pengesanan kebocoran - dikemas kini setiap 5 minit. Sasaran penyesuaian yang mempelajari corak, kemusiman dan acara setempat anda. Bertindak sebelum ia merugikan anda.",
         "primary": "Tempah Demo",
@@ -4921,7 +4921,7 @@ export const generatedLocalCopy = {
         "secondary": "Start with Report Lite"
       },
       "heroMockup": {
-        "label": "Pulse — Sales Pacing",
+        "label": "Pulse - Sales Pacing",
         "live": "LIVE",
         "updatedAt": "Selasa, 7:42 PM",
         "kpis": [

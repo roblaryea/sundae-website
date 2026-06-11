@@ -647,7 +647,7 @@ export const generatedTermsCopy = {
           {
             "title": "13.6 Beperkingen",
             "paragraphs": [
-              "Naast de algemene beperkingen in Hoofdstuk 5 mag u de toegang tot Sundae Report of de Benchmarkgegevens ervan niet doorverkopen, herdistribueren of in sublicentie geven aan derden, behalve om rapporten intern te delen; proberen de anonimisering van benchmarkgegevens of geaggregeerde gegevens ongedaan te maken om andere restaurants of deelnemers te identificeren; of de Benchmarkgegevens gebruiken om een ​​concurrerende dienst te creëren of te exploiteren zonder onze voorafgaande schriftelijke toestemming."
+              "Naast de algemene beperkingen in Hoofdstuk 5 mag u de toegang tot Sundae Report of de Benchmarkgegevens ervan niet doorverkopen, herdistribueren of in sublicentie geven aan derden, behalve om rapporten intern te delen; proberen de anonimisering van benchmarkgegevens of geaggregeerde gegevens ongedaan te maken om andere restaurants of deelnemers te identificeren; of de Benchmarkgegevens gebruiken om een concurrerende dienst te creëren of te exploiteren zonder onze voorafgaande schriftelijke toestemming."
             ]
           }
         ]
@@ -1019,7 +1019,7 @@ export const generatedTermsCopy = {
             "title": "13.3 Anonimização e agregação",
             "paragraphs": [
               "Antes de incluir seus dados nos Dados de Benchmark e compartilhá-los nos resultados de benchmarking, nós os anonimizamos e agregamos para remover identificadores diretos do seu restaurante, como nome, endereço exato, dados de propriedade ou nomes de funcionários.",
-              "Aplicamos limites razoáveis ​​de tamanho de grupo e outras técnicas para reduzir o risco de reidentificação; para evitar dúvidas, os Dados Agregados e os Dados de Referência anonimizados de acordo com esta seção não constituem dados pessoais nem Dados do Cliente na acepção destas Condições."
+              "Aplicamos limites razoáveis de tamanho de grupo e outras técnicas para reduzir o risco de reidentificação; para evitar dúvidas, os Dados Agregados e os Dados de Referência anonimizados de acordo com esta seção não constituem dados pessoais nem Dados do Cliente na acepção destas Condições."
             ]
           },
           {
@@ -1088,7 +1088,7 @@ export const generatedTermsCopy = {
             "title": "18.2 Rescisão por você",
             "paragraphs": [
               "Você pode encerrar sua conta e parar de usar os Serviços a qualquer momento através das configurações de sua conta ou entrando em contato conosco. As taxas pagas antecipadamente não são reembolsáveis, salvo indicação em contrário por escrito.",
-              "Você pode solicitar a exclusão de Dados identificáveis do Cliente escrevendo para legal@sundae.io dentro de sessenta (60) dias após a rescisão. Você entende que os Dados do Cliente provêm de seus próprios sistemas operacionais e que você mantém acesso independente a eles em todos os momentos. A Sundae envidará esforços razoáveis ​​para excluir Dados identificáveis ​​do Cliente no prazo de noventa (90) dias a partir de uma solicitação válida, exceto quando a retenção for necessária por lei, para resolver disputas ou para backups de rotina. Os Dados Agregados Não identificáveis ​​e os Dados de Referência não estão sujeitos a solicitações de exclusão e podem ser retidos indefinidamente de acordo com a Seção 13.4."
+              "Você pode solicitar a exclusão de Dados identificáveis do Cliente escrevendo para legal@sundae.io dentro de sessenta (60) dias após a rescisão. Você entende que os Dados do Cliente provêm de seus próprios sistemas operacionais e que você mantém acesso independente a eles em todos os momentos. A Sundae envidará esforços razoáveis para excluir Dados identificáveis do Cliente no prazo de noventa (90) dias a partir de uma solicitação válida, exceto quando a retenção for necessária por lei, para resolver disputas ou para backups de rotina. Os Dados Agregados Não identificáveis e os Dados de Referência não estão sujeitos a solicitações de exclusão e podem ser retidos indefinidamente de acordo com a Seção 13.4."
             ]
           },
           {
@@ -1100,7 +1100,7 @@ export const generatedTermsCopy = {
           {
             "title": "18.4 Efeitos da rescisão",
             "paragraphs": [
-              "Após a rescisão do Contrato, o seu direito de acessar e usar os Serviços cessa imediatamente. As seções que por sua natureza devem sobreviver permanecerão em vigor, incluindo, sem limitação, as Seções 6.3, 8 a 11, 13.4 e 14 a 22. Dados agregados e dados de referência já criados podem ser retidos e usados ​​de acordo com estes Termos."
+              "Após a rescisão do Contrato, o seu direito de acessar e usar os Serviços cessa imediatamente. As seções que por sua natureza devem sobreviver permanecerão em vigor, incluindo, sem limitação, as Seções 6.3, 8 a 11, 13.4 e 14 a 22. Dados agregados e dados de referência já criados podem ser retidos e usados de acordo com estes Termos."
             ]
           }
         ]
@@ -2664,7 +2664,7 @@ export const generatedTermsCopy = {
           {
             "title": "18.4 Skutki wypowiedzenia",
             "paragraphs": [
-              "Po rozwiązaniu Umowy Twoje prawo do dostępu do Usług i korzystania z nich natychmiast wygasa. Sekcje, które ze względu na swój charakter powinny obowiązywać, pozostaną w mocy, w tym między innymi sekcje 6.3, 8–11, 13.4 i 14–22. Już utworzone dane zagregowane i dane porównawcze mogą być przechowywane i wykorzystywane zgodnie z niniejszymi Warunkami."
+              "Po rozwiązaniu Umowy Twoje prawo do dostępu do Usług i korzystania z nich natychmiast wygasa. Sekcje, które ze względu na swój charakter powinny obowiązywać, pozostaną w mocy, w tym między innymi sekcje 6.3, 8-11, 13.4 i 14-22. Już utworzone dane zagregowane i dane porównawcze mogą być przechowywane i wykorzystywane zgodnie z niniejszymi Warunkami."
             ]
           }
         ]
@@ -5807,7 +5807,7 @@ export const generatedTermsCopy = {
       {
         "title": "20. Ändringar av villkoren",
         "paragraphs": [
-          "Vi kan komma att ändra dessa villkor från tid till annan. Om vi ​​gör väsentliga ändringar kommer vi att meddela dig, till exempel via e-post, avisering i appen eller genom att uppdatera datumet \"Senast uppdaterad\".",
+          "Vi kan komma att ändra dessa villkor från tid till annan. Om vi gör väsentliga ändringar kommer vi att meddela dig, till exempel via e-post, avisering i appen eller genom att uppdatera datumet \"Senast uppdaterad\".",
           "Om du fortsätter att komma åt eller använda tjänsterna efter att de uppdaterade villkoren träder i kraft, samtycker du till att vara bunden av den reviderade versionen. Om du inte samtycker måste du sluta använda Tjänsterna."
         ]
       },

@@ -1,13 +1,13 @@
 /* ==============================================
-   DESIGN TOKENS — Dark Mode Foundation
+   DESIGN TOKENS - Dark Mode Foundation
    Brand colors, surfaces, text hierarchy, glows
    ============================================== */
 
 :root {
   /* ─── Foundation ─── */
-  --navy-deep: #15110D;          /* Page background — WARM dark (was cool navy #0D1520) */
-  --navy: #1F1A15;               /* Card/surface background — warm */
-  --navy-surface: #29221B;       /* Elevated surfaces, nav, footer — warm */
+  --navy-deep: #15110D;          /* Page background - WARM dark (was cool navy #0D1520) */
+  --navy: #1F1A15;               /* Card/surface background - warm */
+  --navy-surface: #29221B;       /* Elevated surfaces, nav, footer - warm */
 
   --background: #15110D;
   --foreground: #FFFFFF;
@@ -82,12 +82,12 @@
   /* ─── WARM SIGNATURE (primary brand warmth · design/warm-signature) ───
      On-name (a "sundae" is warm) and already latent in the wordmark accent (#FF5450).
      Electric blue is demoted to data/links; warmth now carries brand + CTA + accents. */
-  --warm-coral: #FF5C4D;        /* primary signature — CTAs, accents, eyebrows */
+  --warm-coral: #FF5C4D;        /* primary signature - CTAs, accents, eyebrows */
   --warm-cherry: #E03E48;       /* gradient depth */
   --warm-caramel: #E9A24A;      /* warm secondary */
   --warm-amber: #F6C66B;        /* warm highlight (reclaims the brand-yellow role) */
   --warm-rose: #F7A088;
-  --cream: #F6F1E8;             /* relief surface — inverted human moments */
+  --cream: #F6F1E8;             /* relief surface - inverted human moments */
   --cream-edge: #EAE0CE;
   --ink: #1A140F;              /* warm near-black on cream (never cold slate) */
   --accent-warm: var(--warm-coral);
@@ -106,7 +106,7 @@
   --shape-tint-line: rgba(255, 255, 255, 0.15);
   --shape-glow: rgba(255, 255, 255, 0.06);
   --shape-glow-inner: rgba(255, 255, 255, 0.12);
-  --shape-strength-boost: 1; /* dark mode reads at 1x — white-on-navy at 3-8% is visible */
+  --shape-strength-boost: 1; /* dark mode reads at 1x - white-on-navy at 3-8% is visible */
 
   /* ─── Product Colors ─── */
   --color-pulse: #EF4444;
@@ -234,7 +234,7 @@ html.light {
   /* ─── Electric blue stays the same ─── */
   --electric-blue: #1C47FF;
 
-  /* ─── Decorative Shape Tokens (light mode — dark tints on white) ─── */
+  /* ─── Decorative Shape Tokens (light mode - dark tints on white) ─── */
   --shape-tint: #0F172A;
   --shape-tint-line: rgba(15, 23, 42, 0.08);
   --shape-glow: rgba(15, 23, 42, 0.05);

@@ -56,7 +56,7 @@ export default function DiagnosticPage() {
     // rather than showing an English report.
     let result: DiagnosticReportType;
     // Internal-only: which engine produced the report (for sales/debug). Never
-    // surfaced to the prospect — only attached to the lead metadata.
+    // surfaced to the prospect - only attached to the lead metadata.
     let aiSource: string | null = null;
     try {
       const res = await fetch("/api/diagnostic", {

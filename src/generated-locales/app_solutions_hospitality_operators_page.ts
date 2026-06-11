@@ -6,7 +6,7 @@ export const generatedLocalCopy = {
       "badge": "Voor Hospitality Operators",
       "titleLine1": "Één intelligentielaag.",
       "titleLine2": "Elke F&B-locatie.",
-      "description": "Hotelrestaurants, banketten, IRD, lobbybar — een uniforme live-weergave van elke omzetbron. Marge, mix en arbeid in één overzicht.",
+      "description": "Hotelrestaurants, banketten, IRD, lobbybar - een uniforme live-weergave van elke omzetbron. Marge, mix en arbeid in één overzicht.",
       "primaryCta": "Boek een Hospitality Rondleiding",
       "secondaryCta": "Bekijk de Hospitality Demo",
       "problemsEyebrow": "F&B BINNEN DE HOSPITALITY",
@@ -15,7 +15,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Vestigingen afzonderlijk gerapporteerd, samen beoordeeld",
-          "description": "F&B P&L wordt samengevoegd tot één regel. Het verhaal erachter — banquet vs IRD vs lobby — gaat verloren.",
+          "description": "F&B P&L wordt samengevoegd tot één regel. Het verhaal erachter - banquet vs IRD vs lobby - gaat verloren.",
           "icon": "operators"
         },
         {
@@ -39,7 +39,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Outlet-voor-outlet pacing, samengevoegd in één F&B overzicht",
-          "description": "Live omzet en marge voor elke outlet — restaurant, banket, IRD, lobbybar, retail — met een verenigde portfolio-samenvatting.",
+          "description": "Live omzet en marge voor elke outlet - restaurant, banket, IRD, lobbybar, retail - met een verenigde portfolio-samenvatting.",
           "product": "Pulse",
           "icon": "chart"
         },
@@ -77,7 +77,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Productiviteit vergelijkbaar tussen outlets",
-          "description": "Toegewezen arbeid goed geregeld — dekkingen/uur vergelijkbaar voor een eerlijke prestatiebeoordeling.",
+          "description": "Toegewezen arbeid goed geregeld - dekkingen/uur vergelijkbaar voor een eerlijke prestatiebeoordeling.",
           "icon": "performance"
         },
         {
@@ -103,7 +103,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Los puntos de venta se informan por separado, se juzgan juntos",
-          "description": "El P&L de F&B se resume en una sola línea. La historia detrás de esto — banquete vs IRD vs vestíbulo — se pierde.",
+          "description": "El P&L de F&B se resume en una sola línea. La historia detrás de esto - banquete vs IRD vs vestíbulo - se pierde.",
           "icon": "operators"
         },
         {
@@ -182,7 +182,7 @@ export const generatedLocalCopy = {
       "badge": "Pour les opérateurs de l'hospitalité",
       "titleLine1": "Une couche d'intelligence.",
       "titleLine2": "Chaque point de vente F&B.",
-      "description": "Restaurants d'hôtel, banquets, service en chambre, bar du hall — vue en direct unifiée de chaque point de vente. Marge, mix et main-d'œuvre dans un seul cadre.",
+      "description": "Restaurants d'hôtel, banquets, service en chambre, bar du hall - vue en direct unifiée de chaque point de vente. Marge, mix et main-d'œuvre dans un seul cadre.",
       "primaryCta": "Réservez une visite de l'hospitalité",
       "secondaryCta": "Voir la démonstration de l'hospitalité",
       "problemsEyebrow": "R&D DANS L'HOSPITALITÉ",
@@ -191,7 +191,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Les points de vente rapportés séparément, jugés ensemble",
-          "description": "Le P&L F&B se résume à une seule ligne. L'histoire derrière — banquet vs IRD vs hall — se perd.",
+          "description": "Le P&L F&B se résume à une seule ligne. L'histoire derrière - banquet vs IRD vs hall - se perd.",
           "icon": "operators"
         },
         {
@@ -215,7 +215,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Suivi des performances par point de vente, consolidé en une vue F&B",
-          "description": "Revenus et marges en temps réel pour chaque point de vente — restaurant, banquet, IRD, bar du hall, vente au détail — avec un regroupement de portefeuille unifié.",
+          "description": "Revenus et marges en temps réel pour chaque point de vente - restaurant, banquet, IRD, bar du hall, vente au détail - avec un regroupement de portefeuille unifié.",
           "product": "Pulse",
           "icon": "chart"
         },
@@ -253,7 +253,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Productivité comparable entre les points de vente",
-          "description": "Main-d'œuvre allouée correctement — couvertures/heure comparables pour une évaluation honnête de la performance.",
+          "description": "Main-d'œuvre allouée correctement - couvertures/heure comparables pour une évaluation honnête de la performance.",
           "icon": "performance"
         },
         {
@@ -279,7 +279,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "آؤٹ لیٹس نے الگ الگ رپورٹ کیا، ایک ساتھ فیصلہ کیا",
-          "description": "F&B P&L ایک ہی لائن تک چلتا ہے۔ اس کے پیچھے کی کہانی — ضیافت بمقابلہ IRD بمقابلہ لابی — گم ہو جاتی ہے۔",
+          "description": "F&B P&L ایک ہی لائن تک چلتا ہے۔ اس کے پیچھے کی کہانی - ضیافت بمقابلہ IRD بمقابلہ لابی - گم ہو جاتی ہے۔",
           "icon": "operators"
         },
         {
@@ -303,7 +303,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "آؤٹ لیٹ بذریعہ آؤٹ لیٹ پیسنگ، ایک F&B منظر میں رولڈ",
-          "description": "ہر آؤٹ لیٹ کے لیے لائیو ریونیو اور مارجن — ریستوراں، ضیافت، IRD، لابی بار، ریٹیل — ایک متحد پورٹ فولیو رول اپ کے ساتھ۔",
+          "description": "ہر آؤٹ لیٹ کے لیے لائیو ریونیو اور مارجن - ریستوراں، ضیافت، IRD، لابی بار، ریٹیل - ایک متحد پورٹ فولیو رول اپ کے ساتھ۔",
           "product": "Pulse",
           "icon": "chart"
         },
@@ -367,7 +367,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "تم الإبلاغ عن المنافذ بشكل منفصل، والحكم عليها معًا",
-          "description": "يتم عرض P&L في F&B في سطر واحد. تضيع القصة وراء ذلك – المأدبة مقابل IRD مقابل الردهة.",
+          "description": "يتم عرض P&L في F&B في سطر واحد. تضيع القصة وراء ذلك - المأدبة مقابل IRD مقابل الردهة.",
           "icon": "operators"
         },
         {
@@ -446,7 +446,7 @@ export const generatedLocalCopy = {
       "badge": "Für Hotelbetreiber",
       "titleLine1": "Eine Geheimdienstschicht.",
       "titleLine2": "Jede F&B-Filiale.",
-      "description": "Hotelrestaurants, Bankette, IRD, Lobbybar – einheitliche Live-Ansicht aller Verkaufsstellen. Marge, Mischung und Arbeit in einem Rahmen.",
+      "description": "Hotelrestaurants, Bankette, IRD, Lobbybar - einheitliche Live-Ansicht aller Verkaufsstellen. Marge, Mischung und Arbeit in einem Rahmen.",
       "primaryCta": "Buchen Sie einen Hospitality-Rundgang",
       "secondaryCta": "Siehe Hospitality-Demo",
       "problemsEyebrow": "F&B IN GASTFREUNDSCHAFT",
@@ -455,7 +455,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Getrennt gemeldete Verkaufsstellen, gemeinsam beurteilt",
-          "description": "Die F&B-P&L wird in einer einzigen Zeile zusammengefasst. Die Geschichte dahinter – Bankett vs. IRD vs. Lobby – geht verloren.",
+          "description": "Die F&B-P&L wird in einer einzigen Zeile zusammengefasst. Die Geschichte dahinter - Bankett vs. IRD vs. Lobby - geht verloren.",
           "icon": "operators"
         },
         {
@@ -479,7 +479,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Abstufung von Filiale zu Filiale, zusammengefasst in einer F&B-Ansicht",
-          "description": "Live-Umsatz und Marge für jede Filiale – Restaurant, Bankett, IRD, Lobbybar, Einzelhandel – mit einem einheitlichen Portfolio-Rollup.",
+          "description": "Live-Umsatz und Marge für jede Filiale - Restaurant, Bankett, IRD, Lobbybar, Einzelhandel - mit einem einheitlichen Portfolio-Rollup.",
           "product": "Pulse",
           "icon": "chart"
         },
@@ -517,7 +517,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Produktivität in allen Filialen vergleichbar",
-          "description": "Zugeteilte Arbeit richtig ausgeführt – vergleichbare Deckungen/Stunde für eine ehrliche Leistungsmessung.",
+          "description": "Zugeteilte Arbeit richtig ausgeführt - vergleichbare Deckungen/Stunde für eine ehrliche Leistungsmessung.",
           "icon": "performance"
         },
         {
@@ -622,7 +622,7 @@ export const generatedLocalCopy = {
       "badge": "Para operadores de hospitalidade",
       "titleLine1": "Uma camada de inteligência.",
       "titleLine2": "Cada loja de F&B.",
-      "description": "Restaurantes de hotéis, banquetes, IRD, lobby bar — visualização ao vivo unificada em todos os pontos de receita. Margem, mixagem e trabalho em um quadro.",
+      "description": "Restaurantes de hotéis, banquetes, IRD, lobby bar - visualização ao vivo unificada em todos os pontos de receita. Margem, mixagem e trabalho em um quadro.",
       "primaryCta": "Reserve um passeio de hospitalidade",
       "secondaryCta": "Veja a demonstração de hospitalidade",
       "problemsEyebrow": "F&B DENTRO DA HOSPITALIDADE",
@@ -631,7 +631,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Pontos de venda relatados separadamente, julgados em conjunto",
-          "description": "O P&L de F&B é acumulado em uma única linha. A história por trás disso – banquete vs IRD vs lobby – se perde.",
+          "description": "O P&L de F&B é acumulado em uma única linha. A história por trás disso - banquete vs IRD vs lobby - se perde.",
           "icon": "operators"
         },
         {
@@ -655,7 +655,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Ritmo ponto por ponto, transferido para uma visualização de alimentos e bebidas",
-          "description": "Receita e margem em tempo real para cada ponto de venda — restaurante, banquete, IRD, lobby bar, varejo — com um conjunto de portfólio unificado.",
+          "description": "Receita e margem em tempo real para cada ponto de venda - restaurante, banquete, IRD, lobby bar, varejo - com um conjunto de portfólio unificado.",
           "product": "Pulse",
           "icon": "chart"
         },
@@ -693,7 +693,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Produtividade comparável entre pontos de venda",
-          "description": "Mão de obra alocada bem feita – capas/hora comparáveis para uma leitura de desempenho honesta.",
+          "description": "Mão de obra alocada bem feita - capas/hora comparáveis para uma leitura de desempenho honesta.",
           "icon": "performance"
         },
         {
@@ -719,7 +719,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Punti vendita riportati separatamente, giudicati insieme",
-          "description": "Il P&L di F&B viene raggruppato su un'unica riga. La storia dietro di esso – banchetto vs IRD vs lobby – si perde.",
+          "description": "Il P&L di F&B viene raggruppato su un'unica riga. La storia dietro di esso - banchetto vs IRD vs lobby - si perde.",
           "icon": "operators"
         },
         {
@@ -798,7 +798,7 @@ export const generatedLocalCopy = {
       "badge": "对于酒店经营者",
       "titleLine1": "一层智能层。",
       "titleLine2": "每个餐饮店。",
-      "description": "酒店餐厅、宴会厅、IRD、大堂酒吧——每个收入网点的统一实时视图。边际、混合和劳动力都集中在一个框架中。",
+      "description": "酒店餐厅、宴会厅、IRD、大堂酒吧--每个收入网点的统一实时视图。边际、混合和劳动力都集中在一个框架中。",
       "primaryCta": "预订接待演练",
       "secondaryCta": "查看酒店演示",
       "problemsEyebrow": "酒店内餐饮",
@@ -807,7 +807,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "各网点分别报道，共同评判",
-          "description": "F&B 损益汇总为一行。其背后的故事——宴会、税务局与大厅——被迷失了。 (P&L)",
+          "description": "F&B 损益汇总为一行。其背后的故事--宴会、税务局与大厅--被迷失了。 (P&L)",
           "icon": "operators"
         },
         {
@@ -869,7 +869,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "各网点的生产力相当",
-          "description": "正确分配的劳动力——覆盖/小时可与诚实的绩效阅读相媲美。",
+          "description": "正确分配的劳动力--覆盖/小时可与诚实的绩效阅读相媲美。",
           "icon": "performance"
         },
         {
@@ -886,7 +886,7 @@ export const generatedLocalCopy = {
       "badge": "Dla operatorów hotelarskich",
       "titleLine1": "Jedna warstwa inteligencji.",
       "titleLine2": "Każdy lokal F&B.",
-      "description": "Restauracje hotelowe, bankiety, IRD, bar w holu — ujednolicony podgląd na żywo we wszystkich punktach sprzedaży. Margines, miks i praca w jednej ramce.",
+      "description": "Restauracje hotelowe, bankiety, IRD, bar w holu - ujednolicony podgląd na żywo we wszystkich punktach sprzedaży. Margines, miks i praca w jednej ramce.",
       "primaryCta": "Zarezerwuj wycieczkę po hotelarstwie",
       "secondaryCta": "Zobacz demonstrację gościnności",
       "problemsEyebrow": "F&B WEWNĄTRZ Gościnności",
@@ -895,7 +895,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Placówki zgłaszane osobno, oceniane łącznie",
-          "description": "Zyski i straty F&B sumują się do jednej linii. Kryjąca się za tym historia – bankiet vs IRD vs lobby – zostaje zatracona. (P&L)",
+          "description": "Zyski i straty F&B sumują się do jednej linii. Kryjąca się za tym historia - bankiet vs IRD vs lobby - zostaje zatracona. (P&L)",
           "icon": "operators"
         },
         {
@@ -919,7 +919,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Tempo sprzedaży według punktów sprzedaży, przeniesione do jednego widoku F&B",
-          "description": "Przychody i marża na żywo dla każdego punktu sprzedaży — restauracji, bankietów, IRD, barów w lobby, sklepów detalicznych — dzięki ujednoliconemu pakietowi portfolio.",
+          "description": "Przychody i marża na żywo dla każdego punktu sprzedaży - restauracji, bankietów, IRD, barów w lobby, sklepów detalicznych - dzięki ujednoliconemu pakietowi portfolio.",
           "product": "Pulse",
           "icon": "chart"
         },
@@ -957,7 +957,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Wydajność porównywalna we wszystkich punktach sprzedaży",
-          "description": "Przydzielona praca wykonana prawidłowo — okładki/godzinę porównywalne dla uczciwego odczytu wydajności.",
+          "description": "Przydzielona praca wykonana prawidłowo - okładki/godzinę porównywalne dla uczciwego odczytu wydajności.",
           "icon": "performance"
         },
         {
@@ -1062,7 +1062,7 @@ export const generatedLocalCopy = {
       "badge": "숙박업체 운영자용",
       "titleLine1": "하나의 지능 계층.",
       "titleLine2": "모든 F&B 매장.",
-      "description": "호텔 레스토랑, 연회장, IRD, 로비 바 — 모든 매출처에 대한 통합 라이브 뷰를 제공합니다. 하나의 프레임에서 여백, 혼합 및 작업을 수행합니다.",
+      "description": "호텔 레스토랑, 연회장, IRD, 로비 바 - 모든 매출처에 대한 통합 라이브 뷰를 제공합니다. 하나의 프레임에서 여백, 혼합 및 작업을 수행합니다.",
       "primaryCta": "환대 체험 예약하기",
       "secondaryCta": "Hospitality 데모 보기",
       "problemsEyebrow": "F&B 내부 환대",
@@ -1150,7 +1150,7 @@ export const generatedLocalCopy = {
       "badge": "Konaklama İşletmecileri için",
       "titleLine1": "Bir zeka katmanı.",
       "titleLine2": "Her F&B çıkışı.",
-      "description": "Otel restoranları, ziyafetler, IRD, lobi bar — her gelir noktasında birleşik canlı görüntü. Tek karede marj, karışım ve işçilik.",
+      "description": "Otel restoranları, ziyafetler, IRD, lobi bar - her gelir noktasında birleşik canlı görüntü. Tek karede marj, karışım ve işçilik.",
       "primaryCta": "Konukseverlik Gezintisi rezervasyonu yaptırın",
       "secondaryCta": "Ağırlama Demosunu Görün",
       "problemsEyebrow": "F&B INSİDE AĞIRLAMA",
@@ -1238,7 +1238,7 @@ export const generatedLocalCopy = {
       "badge": "Untuk Operator Perhotelan",
       "titleLine1": "Satu lapisan intelijen.",
       "titleLine2": "Setiap outlet F&B.",
-      "description": "Restoran hotel, jamuan makan, IRD, bar lobi — tampilan langsung terpadu di setiap outlet pendapatan. Margin, campur, dan kerjakan dalam satu frame.",
+      "description": "Restoran hotel, jamuan makan, IRD, bar lobi - tampilan langsung terpadu di setiap outlet pendapatan. Margin, campur, dan kerjakan dalam satu frame.",
       "primaryCta": "Pesan Panduan Perhotelan",
       "secondaryCta": "Lihat Demo Perhotelan",
       "problemsEyebrow": "F&B DI DALAM PERHOTELAN",
@@ -1247,7 +1247,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Outlet dilaporkan secara terpisah, dinilai bersama",
-          "description": "F&B P&L digulung menjadi satu baris. Kisah dibaliknya – perjamuan vs IRD vs lobi – hilang.",
+          "description": "F&B P&L digulung menjadi satu baris. Kisah dibaliknya - perjamuan vs IRD vs lobi - hilang.",
           "icon": "operators"
         },
         {
@@ -1271,7 +1271,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Kecepatan outlet demi outlet, digabung menjadi satu tampilan F&B",
-          "description": "Pendapatan dan margin langsung untuk setiap outlet — restoran, jamuan makan, IRD, bar lobi, ritel — dengan kumpulan portofolio terpadu.",
+          "description": "Pendapatan dan margin langsung untuk setiap outlet - restoran, jamuan makan, IRD, bar lobi, ritel - dengan kumpulan portofolio terpadu.",
           "product": "Pulse",
           "icon": "chart"
         },
@@ -1309,7 +1309,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Produktivitas sebanding di seluruh outlet",
-          "description": "Alokasi tenaga kerja dilakukan dengan benar — sampul/jam sebanding dengan pembacaan kinerja yang jujur.",
+          "description": "Alokasi tenaga kerja dilakukan dengan benar - sampul/jam sebanding dengan pembacaan kinerja yang jujur.",
           "icon": "performance"
         },
         {
@@ -1326,7 +1326,7 @@ export const generatedLocalCopy = {
       "badge": "আতিথেয়তা অপারেটরদের জন্য",
       "titleLine1": "এক গোয়েন্দা স্তর।",
       "titleLine2": "প্রতিটি F&B আউটলেট।",
-      "description": "হোটেল রেস্তোরাঁ, ভোজ, IRD, লবি বার — প্রতিটি রাজস্ব আউটলেট জুড়ে ইউনিফাইড লাইভ ভিউ। মার্জিন, মিশ্রণ এবং শ্রম এক ফ্রেমে।",
+      "description": "হোটেল রেস্তোরাঁ, ভোজ, IRD, লবি বার - প্রতিটি রাজস্ব আউটলেট জুড়ে ইউনিফাইড লাইভ ভিউ। মার্জিন, মিশ্রণ এবং শ্রম এক ফ্রেমে।",
       "primaryCta": "একটি হসপিটালিটি ওয়াক-থ্রু বুক করুন",
       "secondaryCta": "আতিথেয়তা ডেমো দেখুন",
       "problemsEyebrow": "হাসপাতালের ভিতরে F&B",
@@ -1359,7 +1359,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "আউটলেট-বাই-আউটলেট পেসিং, একটি F&B ভিউতে রোল করা হয়েছে",
-          "description": "প্রতিটি আউটলেটের জন্য লাইভ আয় এবং মার্জিন — রেস্টুরেন্ট, ভোজ, IRD, লবি বার, খুচরা — একটি ইউনিফাইড পোর্টফোলিও রোলআপ সহ।",
+          "description": "প্রতিটি আউটলেটের জন্য লাইভ আয় এবং মার্জিন - রেস্টুরেন্ট, ভোজ, IRD, লবি বার, খুচরা - একটি ইউনিফাইড পোর্টফোলিও রোলআপ সহ।",
           "product": "Pulse",
           "icon": "chart"
         },
@@ -1397,7 +1397,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "উৎপাদনশীলতা আউটলেট জুড়ে তুলনীয়",
-          "description": "বরাদ্দকৃত শ্রম সঠিকভাবে সম্পন্ন হয়েছে — কভার/ঘন্টা একটি সৎ কর্মক্ষমতা পড়ার জন্য তুলনীয়।",
+          "description": "বরাদ্দকৃত শ্রম সঠিকভাবে সম্পন্ন হয়েছে - কভার/ঘন্টা একটি সৎ কর্মক্ষমতা পড়ার জন্য তুলনীয়।",
           "icon": "performance"
         },
         {
@@ -1414,7 +1414,7 @@ export const generatedLocalCopy = {
       "badge": "Pentru operatorii de ospitalitate",
       "titleLine1": "Un singur strat de inteligență.",
       "titleLine2": "Fiecare magazin F&B.",
-      "description": "Restaurante de hotel, banchet, IRD, bar în hol — vizualizare live unificată pentru fiecare punct de vânzare. Marja, amestecul și forța de muncă într-un singur cadru.",
+      "description": "Restaurante de hotel, banchet, IRD, bar în hol - vizualizare live unificată pentru fiecare punct de vânzare. Marja, amestecul și forța de muncă într-un singur cadru.",
       "primaryCta": "Rezervați o prezentare pentru ospitalitate",
       "secondaryCta": "Vedeți demonstrația pentru ospitalitate",
       "problemsEyebrow": "F&B IN INSIDE HOSPITALITY",
@@ -1485,7 +1485,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Productivitate comparabilă între puncte de vânzare",
-          "description": "Forța de muncă alocată făcută corect — acoperiri/oră comparabile pentru o citire cinstită de performanță.",
+          "description": "Forța de muncă alocată făcută corect - acoperiri/oră comparabile pentru o citire cinstită de performanță.",
           "icon": "performance"
         },
         {
@@ -1502,7 +1502,7 @@ export const generatedLocalCopy = {
       "badge": "För hotelloperatörer",
       "titleLine1": "Ett intelligenslager.",
       "titleLine2": "Varje F&B-butik.",
-      "description": "Hotellrestauranger, bankett, IRD, lobbybar – enhetlig livevy över alla försäljningsställen. Marginal, blanda och arbeta i en ram.",
+      "description": "Hotellrestauranger, bankett, IRD, lobbybar - enhetlig livevy över alla försäljningsställen. Marginal, blanda och arbeta i en ram.",
       "primaryCta": "Boka en gästfrihetsgenomgång",
       "secondaryCta": "Se gästfrihetsdemo",
       "problemsEyebrow": "F&B INNE GÄSTFRIHET",
@@ -1535,7 +1535,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Outlet-by-outlet pacing, rullad till en F&B-vy",
-          "description": "Liveintäkter och marginal för varje butik – restaurang, bankett, IRD, lobbybar, detaljhandel – med en enhetlig portföljuppsättning.",
+          "description": "Liveintäkter och marginal för varje butik - restaurang, bankett, IRD, lobbybar, detaljhandel - med en enhetlig portföljuppsättning.",
           "product": "Pulse",
           "icon": "chart"
         },
@@ -1590,7 +1590,7 @@ export const generatedLocalCopy = {
       "badge": "สำหรับผู้ประกอบการด้านการบริการ",
       "titleLine1": "ชั้นสติปัญญาหนึ่งชั้น",
       "titleLine2": "ร้านอาหารและเครื่องดื่มทุกสาขา",
-      "description": "ร้านอาหารในโรงแรม ห้องจัดเลี้ยง IRD ล็อบบี้บาร์ — มุมมองสดแบบรวมศูนย์ทุกช่องทางรายได้ ขอบ ผสม และแรงงานในเฟรมเดียว",
+      "description": "ร้านอาหารในโรงแรม ห้องจัดเลี้ยง IRD ล็อบบี้บาร์ - มุมมองสดแบบรวมศูนย์ทุกช่องทางรายได้ ขอบ ผสม และแรงงานในเฟรมเดียว",
       "primaryCta": "จองการต้อนรับแบบ Walk-through",
       "secondaryCta": "ดูการสาธิตการบริการ",
       "problemsEyebrow": "F&B ภายในโรงพยาบาล",
@@ -1599,7 +1599,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "ร้านค้ารายงานแยกกัน ตัดสินร่วมกัน",
-          "description": "F&B P&L รวมกันเป็นบรรทัดเดียว เรื่องราวเบื้องหลัง – งานเลี้ยง vs IRD และล็อบบี้ – สูญหายไป",
+          "description": "F&B P&L รวมกันเป็นบรรทัดเดียว เรื่องราวเบื้องหลัง - งานเลี้ยง vs IRD และล็อบบี้ - สูญหายไป",
           "icon": "operators"
         },
         {
@@ -1623,7 +1623,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "การเดินแบบทีละร้าน รวมกันเป็นมุมมอง F&B เดียว",
-          "description": "รายได้สดและส่วนต่างสำหรับร้านค้าแต่ละแห่ง — ร้านอาหาร ห้องจัดเลี้ยง IRD ล็อบบี้บาร์ ร้านค้าปลีก — พร้อมการรวมพอร์ตโฟลิโอแบบรวม",
+          "description": "รายได้สดและส่วนต่างสำหรับร้านค้าแต่ละแห่ง - ร้านอาหาร ห้องจัดเลี้ยง IRD ล็อบบี้บาร์ ร้านค้าปลีก - พร้อมการรวมพอร์ตโฟลิโอแบบรวม",
           "product": "Pulse",
           "icon": "chart"
         },
@@ -1661,7 +1661,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "ผลผลิตเทียบเคียงได้ทั่วทั้งร้าน",
-          "description": "แรงงานที่ได้รับการจัดสรรทำถูกต้อง — ครอบคลุม/ชั่วโมงเทียบเคียงได้สำหรับการอ่านผลงานที่ซื่อสัตย์",
+          "description": "แรงงานที่ได้รับการจัดสรรทำถูกต้อง - ครอบคลุม/ชั่วโมงเทียบเคียงได้สำหรับการอ่านผลงานที่ซื่อสัตย์",
           "icon": "performance"
         },
         {
@@ -1678,7 +1678,7 @@ export const generatedLocalCopy = {
       "badge": "Dành cho nhà điều hành khách sạn",
       "titleLine1": "Một lớp thông minh.",
       "titleLine2": "Mọi cửa hàng F&B.",
-      "description": "Nhà hàng khách sạn, tiệc chiêu đãi, IRD, quầy bar ở sảnh — chế độ xem trực tiếp thống nhất trên mọi cửa hàng doanh thu. Lề, trộn và lao động trong một khung.",
+      "description": "Nhà hàng khách sạn, tiệc chiêu đãi, IRD, quầy bar ở sảnh - chế độ xem trực tiếp thống nhất trên mọi cửa hàng doanh thu. Lề, trộn và lao động trong một khung.",
       "primaryCta": "Đặt một buổi hướng dẫn khách sạn",
       "secondaryCta": "Xem Demo Khách sạn",
       "problemsEyebrow": "F&B BÊN TRONG BỆNH VIỆN",
@@ -1711,7 +1711,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Tốc độ từng cửa hàng, được cuộn thành một chế độ xem F&B",
-          "description": "Doanh thu và tỷ suất lợi nhuận trực tiếp cho từng cửa hàng — nhà hàng, tiệc chiêu đãi, IRD, quầy bar ở sảnh, cửa hàng bán lẻ — với danh mục đầu tư thống nhất.",
+          "description": "Doanh thu và tỷ suất lợi nhuận trực tiếp cho từng cửa hàng - nhà hàng, tiệc chiêu đãi, IRD, quầy bar ở sảnh, cửa hàng bán lẻ - với danh mục đầu tư thống nhất.",
           "product": "Pulse",
           "icon": "chart"
         },
@@ -1766,7 +1766,7 @@ export const generatedLocalCopy = {
       "badge": "Untuk Operator Hospitaliti",
       "titleLine1": "Satu lapisan kecerdasan.",
       "titleLine2": "Setiap kedai F&B.",
-      "description": "Restoran hotel, jamuan, IRD, bar lobi — paparan langsung bersatu merentas setiap saluran pendapatan. Margin, gaul dan kerja dalam satu bingkai.",
+      "description": "Restoran hotel, jamuan, IRD, bar lobi - paparan langsung bersatu merentas setiap saluran pendapatan. Margin, gaul dan kerja dalam satu bingkai.",
       "primaryCta": "Tempah Walk-through Hospitaliti",
       "secondaryCta": "Lihat Demo Hospitaliti",
       "problemsEyebrow": "F&B DALAM HOSPITALITI",
@@ -1775,7 +1775,7 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Outlet dilaporkan secara berasingan, dinilai bersama",
-          "description": "F&B P&L digulung sehingga satu baris. Kisah di sebaliknya — jamuan vs IRD vs lobi — hilang.",
+          "description": "F&B P&L digulung sehingga satu baris. Kisah di sebaliknya - jamuan vs IRD vs lobi - hilang.",
           "icon": "operators"
         },
         {
@@ -1799,7 +1799,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Langkah keluar demi alur keluar, digulung ke satu paparan F&B",
-          "description": "Hasil langsung dan margin untuk setiap kedai — restoran, jamuan, IRD, bar lobi, runcit — dengan gabungan portfolio bersatu.",
+          "description": "Hasil langsung dan margin untuk setiap kedai - restoran, jamuan, IRD, bar lobi, runcit - dengan gabungan portfolio bersatu.",
           "product": "Pulse",
           "icon": "chart"
         },
@@ -1837,7 +1837,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Produktiviti setanding di seluruh cawangan",
-          "description": "Kerja yang diperuntukkan dilakukan dengan betul — perlindungan/jam setanding untuk bacaan prestasi yang jujur.",
+          "description": "Kerja yang diperuntukkan dilakukan dengan betul - perlindungan/jam setanding untuk bacaan prestasi yang jujur.",
           "icon": "performance"
         },
         {

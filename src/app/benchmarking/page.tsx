@@ -245,7 +245,7 @@ export default function BenchmarkingPage() {
               </ul>
             </FadeUp>
             <FadeUp delay={0.2}>
-              <MockupFrame label="Benchmarks — Revenue Forecast" glow>
+              <MockupFrame label="Benchmarks - Revenue Forecast" glow>
                 <div className="space-y-3">
                   <div className="grid grid-cols-3 gap-2">
                     <MockupKPI label="Projected Rev" value="$142K" trend="+8%" trendUp />
@@ -253,7 +253,7 @@ export default function BenchmarkingPage() {
                     <MockupKPI label="vs Compset" value="+12%" trend="Above" trendUp />
                   </div>
                   <MockupBarChart data={[{ label: "Wk 1", value: 72, color: "bg-blue-500" }, { label: "Wk 2", value: 78, color: "bg-blue-500" }, { label: "Wk 3", value: 65, color: "bg-blue-400/60" }, { label: "Wk 4", value: 82, color: "bg-blue-400/60" }]} />
-                  <MockupTable headers={["Period", "Forecast", "Actual", "Variance"]} rows={[["This Week", "$34.2K", "$35.1K", "+2.6%"], ["Next Week", "$36.8K", "—", "—"], ["Wk 3", "$31.4K", "—", "—"]]} />
+                  <MockupTable headers={["Period", "Forecast", "Actual", "Variance"]} rows={[["This Week", "$34.2K", "$35.1K", "+2.6%"], ["Next Week", "$36.8K", "-", "-"], ["Wk 3", "$31.4K", "-", "-"]]} />
                   <MockupAlert type="coach">Revenue trending 8% above compset average. Weekend dinner is your strongest daypart - consider extending Friday hours.</MockupAlert>
                 </div>
               </MockupFrame>
@@ -283,7 +283,7 @@ export default function BenchmarkingPage() {
         </div>
       </section>
 
-      {/* Product gallery — Benchmarking surfaces in detail */}
+      {/* Product gallery - Benchmarking surfaces in detail */}
       <SectionProductGallery
         productFilter="/benchmarking"
         hideFilter

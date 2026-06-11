@@ -1,4 +1,4 @@
-# Sundae — Customer-Facing API & Integrations
+# Sundae - Customer-Facing API & Integrations
 
 > Last refreshed: 2026-02-18 | Source: `sundae-backend/start/routes.ts`, controllers, and `sundae-app/src/lib/integrations/`
 

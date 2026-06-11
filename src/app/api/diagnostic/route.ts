@@ -2,20 +2,20 @@
 //
 // POST /api/diagnostic
 //   Body: { responses: DiagnosticResponses, leadData: { name, role, country, company } }
-//   Returns: DiagnosticReport (same shape as the heuristic engine — UI-compatible)
+//   Returns: DiagnosticReport (same shape as the heuristic engine - UI-compatible)
 //
 // Resolution chain (direct provider keys first; gateway is a residual fallback):
 //   1. Direct Anthropic  (ANTHROPIC_API_KEY)  → claude-sonnet-4-6  [primary voice]
 //   2. Direct OpenAI     (OPENAI_API_KEY)      → gpt-5             [cross-provider resilience]
 //   3. Vercel AI Gateway (AI_GATEWAY_API_KEY / VERCEL_OIDC_TOKEN) → bare "provider/model"
-//      strings via ai-gateway.vercel.sh. Residual only — used when no direct key is set.
+//      strings via ai-gateway.vercel.sh. Residual only - used when no direct key is set.
 //      (Gateway model access is plan-gated; the free tier 403s anthropic/claude-sonnet-4-6.)
-//   4. Deterministic heuristic engine — guarantees a report is ALWAYS produced.
+//   4. Deterministic heuristic engine - guarantees a report is ALWAYS produced.
 //
 // Env vars (set per environment in the Vercel project):
-//   ANTHROPIC_API_KEY  — direct Anthropic key (sk-ant-…). Primary path.
-//   OPENAI_API_KEY     — direct OpenAI key (sk-…). Fallback path.
-//   AI_GATEWAY_API_KEY — optional Vercel AI Gateway key (residual path only).
+//   ANTHROPIC_API_KEY  - direct Anthropic key (sk-ant-...). Primary path.
+//   OPENAI_API_KEY     - direct OpenAI key (sk-...). Fallback path.
+//   AI_GATEWAY_API_KEY - optional Vercel AI Gateway key (residual path only).
 
 import { NextResponse } from 'next/server';
 import { generateObject, type LanguageModel } from 'ai';
@@ -61,7 +61,7 @@ function buildChain(): Attempt[] {
     chain.push({ source: 'sonnet-4.6', model: anthropic(ANTHROPIC_MODEL), temperature: 0.6 });
   }
   if (hasKey('OPENAI_API_KEY')) {
-    // gpt-5 is a reasoning model — omit temperature (it can reject non-default values).
+    // gpt-5 is a reasoning model - omit temperature (it can reject non-default values).
     chain.push({ source: 'gpt-5', model: openai(OPENAI_MODEL) });
   }
 
@@ -86,7 +86,7 @@ async function generateWithModel(
   // @ai-sdk/anthropic / @ai-sdk/openai uses the direct provider key
   // (ANTHROPIC_API_KEY / OPENAI_API_KEY). A bare "provider/model" string is
   // instead resolved by the SDK's default Gateway provider and routed through
-  // the Vercel AI Gateway — that is the residual path only.
+  // the Vercel AI Gateway - that is the residual path only.
   const result = await generateObject({
     model: attempt.model,
     schema: DiagnosticReportSchema,
@@ -171,7 +171,7 @@ export async function POST(req: Request) {
     return NextResponse.json({
       report,
       source: 'heuristic-fallback',
-      warning: 'AI providers unavailable — using deterministic engine. Quality may be lower.',
+      warning: 'AI providers unavailable - using deterministic engine. Quality may be lower.',
     });
   } catch (heuristicErr) {
     console.error('[diagnostic] Heuristic engine also failed:', heuristicErr);

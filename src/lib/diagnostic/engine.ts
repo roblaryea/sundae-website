@@ -1,5 +1,5 @@
 /**
- * Sundae Operations Diagnostic — analysis engine.
+ * Sundae Operations Diagnostic - analysis engine.
  *
  * Maps response patterns to:
  *   • A short narrative summary
@@ -11,7 +11,7 @@
  * Built as a deterministic heuristic engine for the v1 ship. The
  * `/api/diagnostic/route.ts` POST endpoint wraps this and is the
  * swap-point: in v2 the engine call gets replaced with a live AI
- * gateway call that returns the same DiagnosticReport shape — no UI
+ * gateway call that returns the same DiagnosticReport shape - no UI
  * changes needed.
  */
 
@@ -25,7 +25,7 @@ export interface LeakHypothesis {
   title: string;
   detail: string;
   impactBand: "high" | "medium" | "low";
-  /** Directional only — never promised. */
+  /** Directional only - never promised. */
   impactCopy: string;
 }
 
@@ -56,7 +56,7 @@ export interface Economics {
 }
 
 export interface DiagnosticReport {
-  /** Short narrative — one paragraph */
+  /** Short narrative - one paragraph */
   summary: string;
   /** Sundae's read of their profile in one line */
   profileLine: string;
@@ -66,7 +66,7 @@ export interface DiagnosticReport {
   quickWins: QuickWin[];
   /** Tier suggestion, e.g. "Core Plus + Crew Operating Suite" */
   tierFit: string;
-  /** Directional economics — cost, savings, EBITDA uplift, soft uplifts. Optional: present on the AI path and the heuristic path, absent only on sparse input. */
+  /** Directional economics - cost, savings, EBITDA uplift, soft uplifts. Optional: present on the AI path and the heuristic path, absent only on sparse input. */
   economics?: Economics;
 }
 
@@ -154,18 +154,18 @@ function computeEconomics(
 
   const budgetAnnual = BUDGET_MID[String(responses.budget_band ?? "")];
   const savings = budgetAnnual
-    ? { range: `${money((budgetAnnual / 12) * 0.3)}–${money((budgetAnnual / 12) * 0.6)} / mo`,
-        basis: `Consolidating roughly 30–60% of your ~${money(budgetAnnual / 12)}/mo current ops-tech spend (BI, scheduling, reporting).` }
-    : { range: `${money(120 * outlets)}–${money(300 * outlets)} / mo`,
+    ? { range: `${money((budgetAnnual / 12) * 0.3)}-${money((budgetAnnual / 12) * 0.6)} / mo`,
+        basis: `Consolidating roughly 30-60% of your ~${money(budgetAnnual / 12)}/mo current ops-tech spend (BI, scheduling, reporting).` }
+    : { range: `${money(120 * outlets)}-${money(300 * outlets)} / mo`,
         basis: `Typical replaced-tooling savings across ~${outlets} outlets (BI, scheduling, reporting). Add your SaaS spend for a tighter figure.` };
 
   const auv = AUV_MID[String(responses.avg_unit_volume ?? "")];
   const annualRev = auv ? auv * outlets : 0;
   const ebitdaUplift = auv
-    ? { pctRange: "+1–3 margin points",
-        amountRange: `${money(annualRev * 0.01)}–${money(annualRev * 0.03)} / yr`,
-        basis: `≈ the +1–3 margin-point range on est. ${money(annualRev)} revenue (${money(auv)} AUV × ${outlets} outlets). Illustrative ceiling assuming full realisation over ~12 months — not a quote.` }
-    : { pctRange: "+1–3 margin points",
+    ? { pctRange: "+1-3 margin points",
+        amountRange: `${money(annualRev * 0.01)}-${money(annualRev * 0.03)} / yr`,
+        basis: `≈ the +1-3 margin-point range on est. ${money(annualRev)} revenue (${money(auv)} AUV × ${outlets} outlets). Illustrative ceiling assuming full realisation over ~12 months - not a quote.` }
+    : { pctRange: "+1-3 margin points",
         amountRange: "Add your AUV to size this",
         basis: "Share average revenue per outlet to convert the margin-point range into an annual figure." };
 
@@ -175,11 +175,11 @@ function computeEconomics(
   }
   softUplifts.push({ label: "Better-trained, more confident staff", detail: "Shift-level coaching and consistent playbooks raise floor execution without adding headcount." });
   softUplifts.push({ label: "Happier guests", detail: "Faster service and fewer stockouts/voids lift the experience that drives repeat visits." });
-  softUplifts.push({ label: "Faster, calmer decisions", detail: "Signal-to-action drops from weekly close to same-day — the team acts before margin is booked." });
+  softUplifts.push({ label: "Faster, calmer decisions", detail: "Signal-to-action drops from weekly close to same-day - the team acts before margin is booked." });
 
   return {
     monthlyCost: {
-      range: `${money(monthly * 0.85)}–${money(monthly * 1.2)} / mo`,
+      range: `${money(monthly * 0.85)}-${money(monthly * 1.2)} / mo`,
       basis: `${coreTier}${hasCrew ? " + Crew Operating Suite" : ""}${hasWatch ? " + Watchtower" : ""} across ~${outlets} outlets (list pricing).`,
     },
     monthlySavings: savings,
@@ -211,8 +211,8 @@ export function runDiagnostic(
       detail: "Slow windows are running with peak-hour FTE counts. Sundae Pulse identifies these in real time and surfaces the shift to cut before payroll is locked.",
       impactBand: "high",
       impactCopy: outlets >= 6
-        ? `Operators with similar profiles typically recover 5–14% of weekly labor cost — at ${outlets} outlets this compounds significantly.`
-        : "Operators with similar profiles typically recover 5–14% of weekly labor cost.",
+        ? `Operators with similar profiles typically recover 5-14% of weekly labor cost - at ${outlets} outlets this compounds significantly.`
+        : "Operators with similar profiles typically recover 5-14% of weekly labor cost.",
     });
   }
 
@@ -223,7 +223,7 @@ export function runDiagnostic(
       title: "Overtime leakage",
       detail: "OT often compounds because schedule + actual hours aren't visible until payroll close. Sundae T&A + Pulse expose this live, before the threshold is crossed.",
       impactBand: "high",
-      impactCopy: "Operators with similar profiles report 18–32% reduction in OT spend in the first quarter.",
+      impactCopy: "Operators with similar profiles report 18-32% reduction in OT spend in the first quarter.",
     });
   }
 
@@ -232,9 +232,9 @@ export function runDiagnostic(
     topLeaks.push({
       id: "real_time_margin",
       title: "Real-time margin blindness",
-      detail: "You decide on yesterday's numbers. Sundae Pulse + Core surface live margin per shift — the leak gets caught while it can still be fixed.",
+      detail: "You decide on yesterday's numbers. Sundae Pulse + Core surface live margin per shift - the leak gets caught while it can still be fixed.",
       impactBand: "medium",
-      impactCopy: "Sub-week visibility consistently shaves 1–3 margin points across pilots.",
+      impactCopy: "Sub-week visibility consistently shaves 1-3 margin points across pilots.",
     });
   }
 
@@ -244,7 +244,7 @@ export function runDiagnostic(
       title: "Item-level profitability gap",
       detail: "Without true item-level profit data, menu engineering decisions are made on gut. Sundae Insights → Item Profitability quantifies the gap per dish.",
       impactBand: "medium",
-      impactCopy: "Typical 2–6 menu items account for 30%+ of margin drag and are usually invisible without this lens.",
+      impactCopy: "Typical 2-6 menu items account for 30%+ of margin drag and are usually invisible without this lens.",
     });
   }
 
@@ -255,7 +255,7 @@ export function runDiagnostic(
       title: "Guest retention blind spot",
       detail: "Guest CRM Intelligence surfaces churn-at-risk cohorts before they go silent. The cost of losing a 12-month guest is consistently underestimated.",
       impactBand: "medium",
-      impactCopy: "Recovered guest cohorts typically lift repeat-revenue 4–11% in the first 6 months.",
+      impactCopy: "Recovered guest cohorts typically lift repeat-revenue 4-11% in the first 6 months.",
     });
   }
 
@@ -266,7 +266,7 @@ export function runDiagnostic(
       title: "Void + comp audit signal",
       detail: "Operators who track voids almost always under-detect override abuse. Sundae Revenue Assurance flags the patterns automatically.",
       impactBand: "low",
-      impactCopy: "Typical recovery: $0.20–$0.80 per cover.",
+      impactCopy: "Typical recovery: $0.20-$0.80 per cover.",
     });
   }
 
@@ -275,9 +275,9 @@ export function runDiagnostic(
     topLeaks.push({
       id: "forecast_gap",
       title: "No formal forecasting",
-      detail: "Without forecasts you're firefighting variance instead of preventing it. Sundae Foresight projects 14–90 days out with confidence bands.",
+      detail: "Without forecasts you're firefighting variance instead of preventing it. Sundae Foresight projects 14-90 days out with confidence bands.",
       impactBand: "medium",
-      impactCopy: "Forecast-driven operators consistently outperform peer cohorts on labor % and food cost % by 2–4 points.",
+      impactCopy: "Forecast-driven operators consistently outperform peer cohorts on labor % and food cost % by 2-4 points.",
     });
   }
 
@@ -293,7 +293,7 @@ export function runDiagnostic(
     layer: "core",
     label: "Sundae Core",
     detail: outlets >= 16 ? "Core Plus" : outlets >= 2 ? "Core Lite" : "Report Pro",
-    why: "Unifies POS + labor + cost + ops into one decision substrate — replaces the BI/dashboard layer entirely.",
+    why: "Unifies POS + labor + cost + ops into one decision substrate - replaces the BI/dashboard layer entirely.",
   });
 
   // Pulse always
@@ -341,7 +341,7 @@ export function runDiagnostic(
     });
   }
 
-  // Intelligence if NL-to-SQL use case — decision_data is now multi-select
+  // Intelligence if NL-to-SQL use case - decision_data is now multi-select
   if (has(responses.decision_data, "spreadsheet") || has(responses.decision_data, "pos_report") || has(responses.decision_data, "bi_dashboard") || has(responses.decision_data, "in_house_data")) {
     recommendedStack.push({
       layer: "intelligence",
@@ -356,7 +356,7 @@ export function runDiagnostic(
     recommendedStack.push({
       layer: "foresight",
       label: "Foresight",
-      detail: "14–90 day forecasts + scenario modeling",
+      detail: "14-90 day forecasts + scenario modeling",
       why: "Lets you stress-test new locations, menu changes, and staffing models before committing.",
     });
   }
@@ -373,21 +373,21 @@ export function runDiagnostic(
   // ─── Expected impact ─────────────────────────────────────────────
   const expectedImpact: { metric: string; range: string }[] = [];
   if (ranked.some((l) => l.id === "daypart_overstaffing" || l.id === "ot_leakage")) {
-    expectedImpact.push({ metric: "Labor cost reduction", range: "5–14% in first quarter" });
+    expectedImpact.push({ metric: "Labor cost reduction", range: "5-14% in first quarter" });
   }
   if (ranked.some((l) => l.id === "real_time_margin")) {
-    expectedImpact.push({ metric: "Margin point lift", range: "1–3 points across 6 months" });
+    expectedImpact.push({ metric: "Margin point lift", range: "1-3 points across 6 months" });
   }
   if (has(responses.kpis_wished, "forecast_per_outlet") || responses.forecasting === "lyear_gut") {
-    expectedImpact.push({ metric: "Forecast accuracy", range: "+18–32% week-over-week" });
+    expectedImpact.push({ metric: "Forecast accuracy", range: "+18-32% week-over-week" });
   }
   if (ranked.some((l) => l.id === "guest_retention")) {
-    expectedImpact.push({ metric: "Repeat-guest revenue", range: "+4–11% in 6 months" });
+    expectedImpact.push({ metric: "Repeat-guest revenue", range: "+4-11% in 6 months" });
   }
   // Default if empty
   if (expectedImpact.length === 0) {
     expectedImpact.push({ metric: "Decision speed", range: "Weekly close → Live (sub-shift)" });
-    expectedImpact.push({ metric: "Tool consolidation", range: "Replaces 3–5 disconnected dashboards" });
+    expectedImpact.push({ metric: "Tool consolidation", range: "Replaces 3-5 disconnected dashboards" });
   }
 
   // ─── Quick wins (30/60/90) ───────────────────────────────────────
@@ -401,7 +401,7 @@ export function runDiagnostic(
     quickWins.push({
       horizon: "60",
       title: "Crew live across pilot outlets",
-      detail: "Scheduling + T&A live on 2–3 pilot outlets. Pulse surfaces the first labor leak fix in week 1.",
+      detail: "Scheduling + T&A live on 2-3 pilot outlets. Pulse surfaces the first labor leak fix in week 1.",
     });
   } else {
     quickWins.push({
@@ -424,14 +424,14 @@ export function runDiagnostic(
     });
   }
 
-  // ─── Summary narrative — incorporates new context ────────────────
+  // ─── Summary narrative - incorporates new context ────────────────
   const blindSpotLine = responses.blind_spot
     ? ` You flagged: "${(responses.blind_spot as string).slice(0, 120)}". That's exactly the kind of blind spot Sundae's Decision Intelligence layer is designed to surface.`
     : "";
   const lagLine = (() => {
     const lag = responses.decision_lag as string | undefined;
     if (lag === "weeks" || lag === "months") {
-      return ` At your current decision lag (${lag === "weeks" ? "weekly close cycle" : "quarterly review only"}), the margin is already booked before you can act — Sundae compresses signal-to-action to minutes.`;
+      return ` At your current decision lag (${lag === "weeks" ? "weekly close cycle" : "quarterly review only"}), the margin is already booked before you can act - Sundae compresses signal-to-action to minutes.`;
     }
     if (lag === "days") {
       return " Sundae shifts you from a weekly close cycle to live signal-to-action.";

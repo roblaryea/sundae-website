@@ -6,14 +6,14 @@ export const generatedLocalCopy = {
       "badge": "ÉQUIPE · SUBSTRAT OPÉRATIONNEL",
       "heroLine1": "Chaque service",
       "heroLine2": "devenez un signal.",
-      "description": "Crew gère vos équipes, plannings, temps, opérations RH, préparation de la paie et support aux employés. Chaque action devient une donnée opérationnelle qui alimente l'intelligence décisionnelle de Sundae — une boucle que les fournisseurs RH ou de paie autonomes ne peuvent pas fermer.",
+      "description": "Crew gère vos équipes, plannings, temps, opérations RH, préparation de la paie et support aux employés. Chaque action devient une donnée opérationnelle qui alimente l'intelligence décisionnelle de Sundae - une boucle que les fournisseurs RH ou de paie autonomes ne peuvent pas fermer.",
       "primaryCta": "Réservez une visite guidée de l'équipe",
       "secondaryCta": "Voir l'équipe en action",
       "loopEyebrow": "POURQUOI CREW EST DANS SUNDAE",
       "loopTitle": "La couche opérationnelle qui alimente la couche d'intelligence.",
-      "loopDescription": "Les outils RH autonomes voient les plannings. Les outils d'analyse autonomes voient le POS. Sundae relie les deux — et cet effet de boucle devient l'avantage défendable.",
+      "loopDescription": "Les outils RH autonomes voient les plannings. Les outils d'analyse autonomes voient le POS. Sundae relie les deux - et cet effet de boucle devient l'avantage défendable.",
       "loopLeftLabel": "Ressources humaines / paie autonome",
-      "loopLeftBody": "Possède les horaires, les heures, la paie. Les rapports s'arrêtent à la main-d'œuvre. Marge, contexte de la demande, qualité des décisions — ce n'est pas leur travail.",
+      "loopLeftBody": "Possède les horaires, les heures, la paie. Les rapports s'arrêtent à la main-d'œuvre. Marge, contexte de la demande, qualité des décisions - ce n'est pas leur travail.",
       "loopRightLabel": "Équipe à l'intérieur de Sundae",
       "loopRightBody": "Chaque service, heure, échange, attestation et cycle de paie devient un signal. Labor Intelligence le lit. Pulse l'alerte. Foresight l'utilise pour prévoir. Toute la plateforme gagne en précision.",
       "loopClosing": "Même données sur la main-d'œuvre. Intelligence cumulative.",
@@ -23,7 +23,7 @@ export const generatedLocalCopy = {
       "pillars": [
         {
           "title": "Planification",
-          "body": "AI Builder compose le planning à partir des prévisions de demande, du mélange de rôles et de l'éligibilité — puis le manager édite les quatre modes de vue importants (vue d'ensemble, par personne, par poste, par rôle). Récurrence, vérifications d'éligibilité, alertes de conflit, superpositions de jours fériés.",
+          "body": "AI Builder compose le planning à partir des prévisions de demande, du mélange de rôles et de l'éligibilité - puis le manager édite les quatre modes de vue importants (vue d'ensemble, par personne, par poste, par rôle). Récurrence, vérifications d'éligibilité, alertes de conflit, superpositions de jours fériés.",
           "chips": [
             "AI Builder",
             "4 modes de vue",
@@ -63,7 +63,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Coach d'Équipe + Relecture des Décisions",
-          "body": "Coach d'Équipe est votre partenaire IA dans le domaine de la main-d'œuvre — demandes en langage naturel, réponses citées, recommandations qu'un manager peut défendre. La Relecture des Décisions enregistre chaque action : qui a décidé, ce qui a changé, ce que le modèle a dit. Prêt pour l'audit par défaut.",
+          "body": "Coach d'Équipe est votre partenaire IA dans le domaine de la main-d'œuvre - demandes en langage naturel, réponses citées, recommandations qu'un manager peut défendre. La Relecture des Décisions enregistre chaque action : qui a décidé, ce qui a changé, ce que le modèle a dit. Prêt pour l'audit par défaut.",
           "chips": [
             "assistant IA",
             "Cité en source",
@@ -86,7 +86,7 @@ export const generatedLocalCopy = {
       "coverageItems": [
         {
           "title": "Portail mobile des employés",
-          "body": "Chaque employé obtient un compte Sundae gratuit — consulter les horaires, demander des congés, échanger, bulletins de salaire, attestations, pointage biométrique."
+          "body": "Chaque employé obtient un compte Sundae gratuit - consulter les horaires, demander des congés, échanger, bulletins de salaire, attestations, pointage biométrique."
         },
         {
           "title": "Communications",
@@ -313,14 +313,14 @@ export const generatedLocalCopy = {
       "bundleLabel": "Équipe Opérationnelle + Équipe Complète",
       "bundleDescription": "Operating combine les opérations, la gestion du temps et la paie. Complete ajoute l'intelligence des personnes pour une boucle complète d'intelligence de la main-d'œuvre.",
       "freeTierLabel": "Gratuit pour chaque employé",
-      "freeTierDescription": "Chaque employé de Crew bénéficie d'un compte auto-service Sundae gratuit — consulter les horaires, demander des congés, voir les bulletins de salaire, pointer. Identité de la main-d'œuvre de bas en haut, inclus.",
+      "freeTierDescription": "Chaque employé de Crew bénéficie d'un compte auto-service Sundae gratuit - consulter les horaires, demander des congés, voir les bulletins de salaire, pointer. Identité de la main-d'œuvre de bas en haut, inclus.",
       "personasEyebrow": "QUI DIRIGE CREW",
       "personasTitle": "Conçu pour les personnes qui gèrent réellement le service.",
       "personasDescription": "Quatre rôles. Quatre vues spécifiques. Une source de vérité.",
       "personas": [
         {
           "title": "Responsable RH & Personnel",
-          "outcome": "Embaucher et gérer le personnel sur une seule plateforme — intégration, performance, talents, préparation de la paie, départ — alimentant l'Intelligence du Travail dans le même souffle.",
+          "outcome": "Embaucher et gérer le personnel sur une seule plateforme - intégration, performance, talents, préparation de la paie, départ - alimentant l'Intelligence du Travail dans le même souffle.",
           "metric": "60+ surfaces RH"
         },
         {
@@ -330,7 +330,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Administrateur de la paie",
-          "outcome": "Finalisez la préparation de la paie sans le chaos des tableurs. Packs multi-régions — États-Unis, Canada, Royaume-Uni, UE, CCG — organisent les exports légaux, les surfaces de fin d'année, les preuves et les flux de travail de transfert aux partenaires.",
+          "outcome": "Finalisez la préparation de la paie sans le chaos des tableurs. Packs multi-régions - États-Unis, Canada, Royaume-Uni, UE, CCG - organisent les exports légaux, les surfaces de fin d'année, les preuves et les flux de travail de transfert aux partenaires.",
           "metric": "US · CA · UK · UE · CCG"
         },
         {
@@ -341,7 +341,7 @@ export const generatedLocalCopy = {
       ],
       "byohrEyebrow": "DÉJÀ SUR BAYZAT, PERSONIO OU GUSTO ?",
       "byohrTitle": "L'équipe est optionnelle. La boucle d'intelligence ne l'est pas.",
-      "byohrDescription": "Apportez votre propre RH. Le contrat de domaine RH canonique de Sundae se lit à partir de tout adaptateur conforme — et Labor Intelligence reste 5 à 10 fois plus riche que les concurrents qui ne voient que le POS.",
+      "byohrDescription": "Apportez votre propre RH. Le contrat de domaine RH canonique de Sundae se lit à partir de tout adaptateur conforme - et Labor Intelligence reste 5 à 10 fois plus riche que les concurrents qui ne voient que le POS.",
       "byohrItems": [
         "Bayzat (hôtellerie MEA)",
         "Personio (UE)",
@@ -365,9 +365,9 @@ export const generatedLocalCopy = {
       "secondaryCta": "Ver al equipo en acción",
       "loopEyebrow": "POR QUÉ CREW ESTÁ EN SUNDAE",
       "loopTitle": "La capa operativa que impulsa la capa de inteligencia.",
-      "loopDescription": "Los proveedores de RR. HH. aislados ven horarios. Las herramientas de análisis aisladas ven el POS. Sundae cierra el ciclo — y ese ciclo se convierte en una ventaja defendible.",
+      "loopDescription": "Los proveedores de RR. HH. aislados ven horarios. Las herramientas de análisis aisladas ven el POS. Sundae cierra el ciclo - y ese ciclo se convierte en una ventaja defendible.",
       "loopLeftLabel": "RRHH / nómina independiente",
-      "loopLeftBody": "Posee horarios, horas, nómina. Los informes se detienen en la fuerza laboral. Margen, contexto de demanda, calidad de decisión — no es su trabajo.",
+      "loopLeftBody": "Posee horarios, horas, nómina. Los informes se detienen en la fuerza laboral. Margen, contexto de demanda, calidad de decisión - no es su trabajo.",
       "loopRightLabel": "Equipo dentro de Sundae",
       "loopRightBody": "Cada turno, hora, cambio, certificación y ciclo de nómina se convierte en una señal. Labor Intelligence la lee. Pulse la alerta. Foresight la usa para proyectar. Toda la plataforma gana precisión.",
       "loopClosing": "Los mismos datos de la fuerza laboral. Inteligencia acumulativa.",
@@ -674,7 +674,7 @@ export const generatedLocalCopy = {
       "personas": [
         {
           "title": "Líder de Recursos Humanos y Personas",
-          "outcome": "Contratación hasta la jubilación en una plataforma: incorporación, rendimiento, talento, preparación de nómina, desvinculación — alimentando la Inteligencia Laboral en el mismo instante.",
+          "outcome": "Contratación hasta la jubilación en una plataforma: incorporación, rendimiento, talento, preparación de nómina, desvinculación - alimentando la Inteligencia Laboral en el mismo instante.",
           "metric": "60+ superficies de RRHH"
         },
         {
@@ -684,7 +684,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Administrador de Nómina",
-          "outcome": "Cerrar la preparación de nómina sin el caos de hojas de cálculo. Paquetes multi-región — EE. UU., Canadá, Reino Unido, UE, CCG — organizan exportaciones legales, superficies de fin de año, evidencias y flujos de trabajo de entrega a socios.",
+          "outcome": "Cerrar la preparación de nómina sin el caos de hojas de cálculo. Paquetes multi-región - EE. UU., Canadá, Reino Unido, UE, CCG - organizan exportaciones legales, superficies de fin de año, evidencias y flujos de trabajo de entrega a socios.",
           "metric": "EE. UU. · CA · RU · UE · CCG"
         },
         {
@@ -695,7 +695,7 @@ export const generatedLocalCopy = {
       ],
       "byohrEyebrow": "¿YA ESTÁS EN BAYZAT, PERSONIO O GUSTO?",
       "byohrTitle": "El equipo es opcional. El bucle de inteligencia no lo es.",
-      "byohrDescription": "Trae tu propio RRHH. El contrato de dominio de RRHH canónico de Sundae se lee desde cualquier adaptador compatible, y Labor Intelligence sigue siendo 5–10 veces más rico que los competidores que solo ven POS.",
+      "byohrDescription": "Trae tu propio RRHH. El contrato de dominio de RRHH canónico de Sundae se lee desde cualquier adaptador compatible, y Labor Intelligence sigue siendo 5-10 veces más rico que los competidores que solo ven POS.",
       "byohrItems": [
         "Bayzat (hospitalidad MEA)",
         "Personio (UE)",
@@ -714,14 +714,14 @@ export const generatedLocalCopy = {
       "badge": "CREW · BETRIEBSSUBSTRAT",
       "heroLine1": "Jede Schicht",
       "heroLine2": "wird zum Signal.",
-      "description": "Crew verwaltet Ihre Mitarbeiter, Zeitpläne, Zeit, HR-Operationen, die Bereitschaft zur Gehaltsabrechnung und die Unterstützung der Mitarbeiter. Jede Aktion wird zu Betriebsdaten, die die Entscheidungsintelligenz von Sundae speisen – ein Kreislauf, den eigenständige HR- oder Gehaltsabrechnungsanbieter nicht schließen können.",
+      "description": "Crew verwaltet Ihre Mitarbeiter, Zeitpläne, Zeit, HR-Operationen, die Bereitschaft zur Gehaltsabrechnung und die Unterstützung der Mitarbeiter. Jede Aktion wird zu Betriebsdaten, die die Entscheidungsintelligenz von Sundae speisen - ein Kreislauf, den eigenständige HR- oder Gehaltsabrechnungsanbieter nicht schließen können.",
       "primaryCta": "Buchen Sie eine Crew-Durchführung",
       "secondaryCta": "Crew in Aktion sehen",
       "loopEyebrow": "WARUM CREW BEI SUNDAE SITZT",
       "loopTitle": "Die Betriebsschicht, die die Intelligenzschicht antreibt.",
-      "loopDescription": "Eigenständige HR-Anbieter sehen Dienstpläne. Eigenständige Analysetools sehen das POS. Sundae schließt den Kreislauf — und genau dieser Kreislauf wird zum verteidigbaren Vorteil.",
+      "loopDescription": "Eigenständige HR-Anbieter sehen Dienstpläne. Eigenständige Analysetools sehen das POS. Sundae schließt den Kreislauf - und genau dieser Kreislauf wird zum verteidigbaren Vorteil.",
       "loopLeftLabel": "Eigenständige HR / Lohnabrechnung",
-      "loopLeftBody": "Besitzt Zeitpläne, Stunden, Löhne. Berichte enden bei der Belegschaft. Marge, Nachfragesituation, Entscheidungsqualität — nicht ihr Job.",
+      "loopLeftBody": "Besitzt Zeitpläne, Stunden, Löhne. Berichte enden bei der Belegschaft. Marge, Nachfragesituation, Entscheidungsqualität - nicht ihr Job.",
       "loopRightLabel": "Crew innerhalb von Sundae",
       "loopRightBody": "Jede Schicht, jede Stunde, jeder Tausch, jede Bestätigung und jeder Abrechnungszyklus wird zum Signal. Labor Intelligence liest es. Pulse meldet es. Foresight prognostiziert darauf aufbauend. Die gesamte Plattform wird präziser.",
       "loopClosing": "Die gleichen Mitarbeiterdaten. Verknüpfte Intelligenz.",
@@ -731,7 +731,7 @@ export const generatedLocalCopy = {
       "pillars": [
         {
           "title": "Planung",
-          "body": "Der AI Builder erstellt den Zeitplan basierend auf der Nachfrageprognose, der Rollenverteilung und der Berechtigung – anschließend bearbeitet der Manager die vier relevanten Ansichtsmodi (Übersicht, nach Person, nach Schicht, nach Rolle). Wiederholungen, Berechtigungsprüfungen, Konfliktwarnungen, Überlagerungen für Feiertage.",
+          "body": "Der AI Builder erstellt den Zeitplan basierend auf der Nachfrageprognose, der Rollenverteilung und der Berechtigung - anschließend bearbeitet der Manager die vier relevanten Ansichtsmodi (Übersicht, nach Person, nach Schicht, nach Rolle). Wiederholungen, Berechtigungsprüfungen, Konfliktwarnungen, Überlagerungen für Feiertage.",
           "chips": [
             "AI Builder",
             "4 Ansichtsmodi",
@@ -771,7 +771,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Crew Coach + Entscheidungswiedergabe",
-          "body": "Crew Coach ist Ihr KI-Partner im Bereich der Arbeitskräfte – Anfragen in natürlicher Sprache, quellenbasierte Antworten, Empfehlungen, die ein Manager verteidigen kann. Die Entscheidungswiedergabe protokolliert jede Aktion: wer entschieden hat, was sich geändert hat, was das Modell gesagt hat. Standardmäßig auditbereit.",
+          "body": "Crew Coach ist Ihr KI-Partner im Bereich der Arbeitskräfte - Anfragen in natürlicher Sprache, quellenbasierte Antworten, Empfehlungen, die ein Manager verteidigen kann. Die Entscheidungswiedergabe protokolliert jede Aktion: wer entschieden hat, was sich geändert hat, was das Modell gesagt hat. Standardmäßig auditbereit.",
           "chips": [
             "KI-Assistent",
             "Quellenbasiert",
@@ -794,7 +794,7 @@ export const generatedLocalCopy = {
       "coverageItems": [
         {
           "title": "Mitarbeiter-Mobilportal",
-          "body": "Jeder Mitarbeiter erhält ein kostenloses Sundae-Konto – Schichten einsehen, Urlaub anfragen, tauschen, Gehaltsabrechnungen, Bescheinigungen, biometrisches Einloggen."
+          "body": "Jeder Mitarbeiter erhält ein kostenloses Sundae-Konto - Schichten einsehen, Urlaub anfragen, tauschen, Gehaltsabrechnungen, Bescheinigungen, biometrisches Einloggen."
         },
         {
           "title": "Kommunikation",
@@ -1021,14 +1021,14 @@ export const generatedLocalCopy = {
       "bundleLabel": "Crew Betrieb + Crew Komplett",
       "bundleDescription": "Betrieb vereint Betrieb, T&A und Lohnabrechnung. Komplett fügt People Intelligence für den vollständigen Kreislauf der Mitarbeiterintelligenz hinzu.",
       "freeTierLabel": "Kostenlos für jeden Mitarbeiter",
-      "freeTierDescription": "Jeder Crew-Mitarbeiter erhält ein kostenloses Sundae-Self-Service-Konto – Schichten einsehen, Urlaub anfragen, Gehaltsabrechnungen einsehen, ein- und ausstempeln. Identität der Belegschaft von unten nach oben, inklusive.",
+      "freeTierDescription": "Jeder Crew-Mitarbeiter erhält ein kostenloses Sundae-Self-Service-Konto - Schichten einsehen, Urlaub anfragen, Gehaltsabrechnungen einsehen, ein- und ausstempeln. Identität der Belegschaft von unten nach oben, inklusive.",
       "personasEyebrow": "WER LEITET CREW",
       "personasTitle": "Für die Menschen, die tatsächlich den Service leiten.",
       "personasDescription": "Vier Rollen. Vier spezifische Ansichten. Eine einzige Quelle der Wahrheit.",
       "personas": [
         {
           "title": "HR & People Lead",
-          "outcome": "Einstellen bis zur Rente auf einer Plattform – Einarbeitung, Leistung, Talent, Gehaltsabreitungsbereitschaft, Offboarding – Labor Intelligence im gleichen Atemzug speisen.",
+          "outcome": "Einstellen bis zur Rente auf einer Plattform - Einarbeitung, Leistung, Talent, Gehaltsabreitungsbereitschaft, Offboarding - Labor Intelligence im gleichen Atemzug speisen.",
           "metric": "60+ HR-Oberflächen"
         },
         {
@@ -1038,7 +1038,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Payroll Admin",
-          "outcome": "Gehaltsabreitungsbereitschaft ohne Chaos in Tabellenkalkulationen abschließen. Multi-Region-Pakete – USA, Kanada, UK, EU, GCC – organisieren gesetzliche Exporte, Jahresendoberflächen, Nachweise und Partnerübergabe-Workflows.",
+          "outcome": "Gehaltsabreitungsbereitschaft ohne Chaos in Tabellenkalkulationen abschließen. Multi-Region-Pakete - USA, Kanada, UK, EU, GCC - organisieren gesetzliche Exporte, Jahresendoberflächen, Nachweise und Partnerübergabe-Workflows.",
           "metric": "USA · CA · UK · EU · GCC"
         },
         {
@@ -1049,7 +1049,7 @@ export const generatedLocalCopy = {
       ],
       "byohrEyebrow": "BEREITS BEI BAYZAT, PERSONIO ODER GUSTO?",
       "byohrTitle": "Crew ist optional. Der Intelligenzzyklus ist es nicht.",
-      "byohrDescription": "Bringen Sie Ihre eigene HR mit. Der kanonische HR-Domainvertrag von Sundae liest von jedem konformen Adapter – und Labor Intelligence wird immer noch 5–10× reicher als Wettbewerber, die nur POS sehen.",
+      "byohrDescription": "Bringen Sie Ihre eigene HR mit. Der kanonische HR-Domainvertrag von Sundae liest von jedem konformen Adapter - und Labor Intelligence wird immer noch 5-10× reicher als Wettbewerber, die nur POS sehen.",
       "byohrItems": [
         "Bayzat (MEA Gastgewerbe)",
         "Personio (EU)",
@@ -1068,14 +1068,14 @@ export const generatedLocalCopy = {
       "badge": "CREW · OPERATIONELE SUBSTRATE",
       "heroLine1": "Elke dienst",
       "heroLine2": "wordt signaal.",
-      "description": "Crew beheert uw personeel, planningen, tijd, HR-operaties, salarisgereedheid en werknemersondersteuning. Elke actie wordt operationele data die de besluitvormingsintelligentie van Sundae voedt — een cyclus die zelfstandige HR- of salarisleveranciers niet kunnen sluiten.",
+      "description": "Crew beheert uw personeel, planningen, tijd, HR-operaties, salarisgereedheid en werknemersondersteuning. Elke actie wordt operationele data die de besluitvormingsintelligentie van Sundae voedt - een cyclus die zelfstandige HR- of salarisleveranciers niet kunnen sluiten.",
       "primaryCta": "Boek een Crew Rondleiding",
       "secondaryCta": "Bekijk het Team in Actie",
       "loopEyebrow": "WAAROM CREW IN SUNDAE ZIT",
       "loopTitle": "De operationele laag die de intelligentielaag aandrijft.",
-      "loopDescription": "Losse HR-leveranciers zien roosters. Losse analysetools zien het POS. Sundae sluit de cyclus — en die cyclus wordt het verdedigbare voordeel.",
+      "loopDescription": "Losse HR-leveranciers zien roosters. Losse analysetools zien het POS. Sundae sluit de cyclus - en die cyclus wordt het verdedigbare voordeel.",
       "loopLeftLabel": "Standalone HR / salarisadministratie",
-      "loopLeftBody": "Beheert roosters, uren, loonadministratie. Rapporten stoppen bij de workforce. Marge, vraagcontext, besluitvorming — dat is niet hun taak.",
+      "loopLeftBody": "Beheert roosters, uren, loonadministratie. Rapporten stoppen bij de workforce. Marge, vraagcontext, besluitvorming - dat is niet hun taak.",
       "loopRightLabel": "Crew binnen Sundae",
       "loopRightBody": "Elke dienst, elk uur, elke ruil, elke attestatie en elke looncyclus wordt een signaal. Labor Intelligence leest het. Pulse meldt het. Foresight voorspelt erop. Het hele platform wordt scherper.",
       "loopClosing": "Dezelfde personeelsgegevens. Samengestelde intelligentie.",
@@ -1085,7 +1085,7 @@ export const generatedLocalCopy = {
       "pillars": [
         {
           "title": "Planning",
-          "body": "AI Builder stelt het rooster samen op basis van vraagvoorspelling, rolmix en geschiktheid — vervolgens bewerkt de manager de vier belangrijke weergavemodi (overzicht, per persoon, per dienst, per rol). Herhaling, geschiktheidcontroles, conflicwaarschuwingen, feestdagen-overlays.",
+          "body": "AI Builder stelt het rooster samen op basis van vraagvoorspelling, rolmix en geschiktheid - vervolgens bewerkt de manager de vier belangrijke weergavemodi (overzicht, per persoon, per dienst, per rol). Herhaling, geschiktheidcontroles, conflicwaarschuwingen, feestdagen-overlays.",
           "chips": [
             "AI Builder",
             "4 weergavemodi",
@@ -1125,7 +1125,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Crew Coach + Besluit Replay",
-          "body": "Crew Coach is je AI-partner binnen het personeelsdomein — verzoeken in natuurlijke taal, bronvermelde antwoorden, aanbevelingen die een manager kan onderbouwen. Besluit Replay registreert elke actie: wie besloot, wat veranderde, wat het model zei. Standaard audit-klaar.",
+          "body": "Crew Coach is je AI-partner binnen het personeelsdomein - verzoeken in natuurlijke taal, bronvermelde antwoorden, aanbevelingen die een manager kan onderbouwen. Besluit Replay registreert elke actie: wie besloot, wat veranderde, wat het model zei. Standaard audit-klaar.",
           "chips": [
             "AI-assistent",
             "Bronvermeld",
@@ -1148,7 +1148,7 @@ export const generatedLocalCopy = {
       "coverageItems": [
         {
           "title": "Medewerker mobiel portaal",
-          "body": "Elke medewerker krijgt een gratis Sundae-account — bekijk diensten, vraag verlof aan, wissel, loonstroken, attestaties, biometrische klok-in."
+          "body": "Elke medewerker krijgt een gratis Sundae-account - bekijk diensten, vraag verlof aan, wissel, loonstroken, attestaties, biometrische klok-in."
         },
         {
           "title": "Communicatie",
@@ -1375,14 +1375,14 @@ export const generatedLocalCopy = {
       "bundleLabel": "Crew Operatie + Crew Compleet",
       "bundleDescription": "Operating combineert Operations, T&A en Payroll. Complete voegt People Intelligence toe voor de volledige workforce intelligence cyclus.",
       "freeTierLabel": "Gratis voor elke werknemer",
-      "freeTierDescription": "Elke Crew-medewerker krijgt een gratis Sundae self-service account — bekijk diensten, vraag verlof aan, bekijk loonstroken, klokken in. Bottom-up werknemersidentiteit, inbegrepen.",
+      "freeTierDescription": "Elke Crew-medewerker krijgt een gratis Sundae self-service account - bekijk diensten, vraag verlof aan, bekijk loonstroken, klokken in. Bottom-up werknemersidentiteit, inbegrepen.",
       "personasEyebrow": "WIE BEHEERT CREW",
       "personasTitle": "Gebouwd voor de mensen die daadwerkelijk de vloer runnen.",
       "personasDescription": "Vier rollen. Vier afgebakende weergaven. Eén enkele bron van waarheid.",
       "personas": [
         {
           "title": "HR & People Lead",
-          "outcome": "Haal alles in één platform — onboarding, prestaties, talent, salarisgereedheid, offboarding — en voed Labor Intelligence in één adem.",
+          "outcome": "Haal alles in één platform - onboarding, prestaties, talent, salarisgereedheid, offboarding - en voed Labor Intelligence in één adem.",
           "metric": "60+ HR-oppervlakken"
         },
         {
@@ -1392,7 +1392,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Payroll Admin",
-          "outcome": "Sluit salarisgereedheid af zonder spreadsheetchaos. Multi-regio pakketten — VS, Canada, VK, EU, GCC — organiseren wettelijke exports, jaar-einde oppervlakken, bewijs en workflows voor overdracht aan partners.",
+          "outcome": "Sluit salarisgereedheid af zonder spreadsheetchaos. Multi-regio pakketten - VS, Canada, VK, EU, GCC - organiseren wettelijke exports, jaar-einde oppervlakken, bewijs en workflows voor overdracht aan partners.",
           "metric": "VS · CA · VK · EU · GCC"
         },
         {
@@ -1403,7 +1403,7 @@ export const generatedLocalCopy = {
       ],
       "byohrEyebrow": "AL REEDS OP BAYZAT, PERSONIO OF GUSTO?",
       "byohrTitle": "Crew is optioneel. De intelligentiecyclus is dat niet.",
-      "byohrDescription": "Breng je eigen HR mee. Het standaard HR-domeincontract van Sundae leest van elke conforme adapter — en Labor Intelligence blijft 5–10× rijker dan concurrenten die alleen POS zien.",
+      "byohrDescription": "Breng je eigen HR mee. Het standaard HR-domeincontract van Sundae leest van elke conforme adapter - en Labor Intelligence blijft 5-10× rijker dan concurrenten die alleen POS zien.",
       "byohrItems": [
         "Bayzat (MEA hospitality)",
         "Personio (EU)",
@@ -1427,7 +1427,7 @@ export const generatedLocalCopy = {
       "secondaryCta": "شاهد الطاقم في العمل",
       "loopEyebrow": "لماذا يجلس الطاقم في سونداي",
       "loopTitle": "الطبقة التشغيلية التي تدعم طبقة الذكاء.",
-      "loopDescription": "مزودو HR المنفصلون يرون الجداول. أدوات التحليل المنفصلة ترى POS. Sundae يغلق الحلقة — وهذه الحلقة تصبح ميزة يصعب نسخها.",
+      "loopDescription": "مزودو HR المنفصلون يرون الجداول. أدوات التحليل المنفصلة ترى POS. Sundae يغلق الحلقة - وهذه الحلقة تصبح ميزة يصعب نسخها.",
       "loopLeftLabel": "إدارة الموارد البشرية / الرواتب المستقلة",
       "loopLeftBody": "يمتلك الجداول، والساعات، والرواتب. تتوقف التقارير عند القوى العاملة. الهامش، وسياق الطلب، وجودة القرار - ليست وظيفتهم.",
       "loopRightLabel": "الطاقم داخل Sundae",
@@ -1439,7 +1439,7 @@ export const generatedLocalCopy = {
       "pillars": [
         {
           "title": "جدولة",
-          "body": "يعمل AI Builder على إعداد الجدول الزمني بناءً على توقعات الطلب، وتوزيع الأدوار، والمعايير المؤهلة — ثم يقوم المدير بتحرير أوضاع العرض الأربعة المهمة (نظرة عامة، حسب الشخص، حسب الوردية، حسب الدور). التكرار، فحوصات الأهلية، تحذيرات التعارض، تداخلات العطلات العامة.",
+          "body": "يعمل AI Builder على إعداد الجدول الزمني بناءً على توقعات الطلب، وتوزيع الأدوار، والمعايير المؤهلة - ثم يقوم المدير بتحرير أوضاع العرض الأربعة المهمة (نظرة عامة، حسب الشخص، حسب الوردية، حسب الدور). التكرار، فحوصات الأهلية، تحذيرات التعارض، تداخلات العطلات العامة.",
           "chips": [
             "AI Builder",
             "4 أوضاع عرض",
@@ -1479,7 +1479,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "مدرب الطاقم + إعادة تشغيل القرار",
-          "body": "مدرب الطاقم هو شريكك الذكي في مجال القوى العاملة — طلبات بلغة طبيعية، إجابات موثوقة بالمصادر، توصيات يمكن للمدير الدفاع عنها. تسجل إعادة تشغيل القرار كل إجراء: من قرر، ماذا تغير، ماذا قال النموذج. جاهز للتدقيق بشكل افتراضي.",
+          "body": "مدرب الطاقم هو شريكك الذكي في مجال القوى العاملة - طلبات بلغة طبيعية، إجابات موثوقة بالمصادر، توصيات يمكن للمدير الدفاع عنها. تسجل إعادة تشغيل القرار كل إجراء: من قرر، ماذا تغير، ماذا قال النموذج. جاهز للتدقيق بشكل افتراضي.",
           "chips": [
             "مساعد ذكي",
             "موثوق بالمصادر",
@@ -1502,7 +1502,7 @@ export const generatedLocalCopy = {
       "coverageItems": [
         {
           "title": "بوابة الموظف المحمولة",
-          "body": "يحصل كل موظف على حساب مجاني في Sundae — عرض الورديات، طلب إجازة، تبديل، كشوف الرواتب، الشهادات، تسجيل الدخول البيومتري."
+          "body": "يحصل كل موظف على حساب مجاني في Sundae - عرض الورديات، طلب إجازة، تبديل، كشوف الرواتب، الشهادات، تسجيل الدخول البيومتري."
         },
         {
           "title": "الاتصالات",
@@ -1729,14 +1729,14 @@ export const generatedLocalCopy = {
       "bundleLabel": "طاقم التشغيل + طاقم كامل",
       "bundleDescription": "تشمل العمليات التشغيلية العمليات، وتوقيت العمل، والرواتب. يضيف الكمال ذكاء الأفراد لإكمال حلقة ذكاء القوى العاملة.",
       "freeTierLabel": "مجاني لكل موظف",
-      "freeTierDescription": "كل موظف في Crew يحصل على حساب مجاني لخدمة Sundae الذاتية — عرض الورديات، طلب إجازة، عرض قسائم الرواتب، تسجيل الدخول. هوية القوى العاملة من الأسفل إلى الأعلى، مشمولة.",
+      "freeTierDescription": "كل موظف في Crew يحصل على حساب مجاني لخدمة Sundae الذاتية - عرض الورديات، طلب إجازة، عرض قسائم الرواتب، تسجيل الدخول. هوية القوى العاملة من الأسفل إلى الأعلى، مشمولة.",
       "personasEyebrow": "من يدير الطاقم",
       "personasTitle": "مصمم للأشخاص الذين يديرون العمل فعليًا.",
       "personasDescription": "أربعة أدوار. أربع وجهات نظر محددة. مصدر واحد للحقيقة.",
       "personas": [
         {
           "title": "رئيس الموارد البشرية والأفراد",
-          "outcome": "التوظيف إلى التقاعد في منصة واحدة — التوجيه، الأداء، المواهب، جاهزية الرواتب، إنهاء الخدمة — تغذية ذكاء العمل في نفس الوقت.",
+          "outcome": "التوظيف إلى التقاعد في منصة واحدة - التوجيه، الأداء، المواهب، جاهزية الرواتب، إنهاء الخدمة - تغذية ذكاء العمل في نفس الوقت.",
           "metric": "60+ واجهات موارد بشرية"
         },
         {
@@ -1746,7 +1746,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "مدير الرواتب",
-          "outcome": "إغلاق جاهزية الرواتب بدون فوضى جداول البيانات. حزم متعددة المناطق — الولايات المتحدة، كندا، المملكة المتحدة، الاتحاد الأوروبي، مجلس التعاون الخليجي — تنظيم الصادرات القانونية، واجهات نهاية السنة، الأدلة، وتدفقات العمل لتسليم الشركاء.",
+          "outcome": "إغلاق جاهزية الرواتب بدون فوضى جداول البيانات. حزم متعددة المناطق - الولايات المتحدة، كندا، المملكة المتحدة، الاتحاد الأوروبي، مجلس التعاون الخليجي - تنظيم الصادرات القانونية، واجهات نهاية السنة، الأدلة، وتدفقات العمل لتسليم الشركاء.",
           "metric": "الولايات المتحدة · كندا · المملكة المتحدة · الاتحاد الأوروبي · مجلس التعاون الخليجي"
         },
         {
@@ -1776,14 +1776,14 @@ export const generatedLocalCopy = {
       "badge": "عملہ · عملیاتی بنیادی ڈھانچہ",
       "heroLine1": "ہر شفٹ",
       "heroLine2": "سگنل بن جاتا ہے۔",
-      "description": "کرو آپ کے لوگوں، شیڈولز، وقت، ایچ آر آپریشنز، تنخواہ کی تیاری، اور ملازم کی حمایت کو چلاتا ہے۔ ہر عمل آپریٹنگ ڈیٹا بن جاتا ہے جو Sundae کی فیصلہ سازی کی ذہانت کو فراہم کرتا ہے — ایک ایسا لوپ جسے خود مختار ایچ آر یا تنخواہ کے فراہم کنندگان بند نہیں کر سکتے۔",
+      "description": "کرو آپ کے لوگوں، شیڈولز، وقت، ایچ آر آپریشنز، تنخواہ کی تیاری، اور ملازم کی حمایت کو چلاتا ہے۔ ہر عمل آپریٹنگ ڈیٹا بن جاتا ہے جو Sundae کی فیصلہ سازی کی ذہانت کو فراہم کرتا ہے - ایک ایسا لوپ جسے خود مختار ایچ آر یا تنخواہ کے فراہم کنندگان بند نہیں کر سکتے۔",
       "primaryCta": "ایک عملے کی واک تھرو بک کریں",
       "secondaryCta": "عملے کو عمل میں دیکھیں",
       "loopEyebrow": "کیوں عملہ سنڈے میں بیٹھتا ہے",
       "loopTitle": "وہ عملی سطح جو ذہانت کی سطح کو طاقت دیتی ہے۔",
-      "loopDescription": "الگ HR وینڈرز شیڈول دیکھتے ہیں۔ الگ اینالیٹکس ٹولز POS دیکھتے ہیں۔ Sundae اس چکر کو مکمل کرتا ہے — اور یہی چکر قابل دفاع برتری بن جاتا ہے۔",
+      "loopDescription": "الگ HR وینڈرز شیڈول دیکھتے ہیں۔ الگ اینالیٹکس ٹولز POS دیکھتے ہیں۔ Sundae اس چکر کو مکمل کرتا ہے - اور یہی چکر قابل دفاع برتری بن جاتا ہے۔",
       "loopLeftLabel": "مستقل ایچ آر / تنخواہ",
-      "loopLeftBody": "شیڈولز، گھنٹے، تنخواہیں کنٹرول کرتا ہے۔ رپورٹس ورک فورس پر رک جاتی ہیں۔ مارجن، طلب کا سیاق و سباق، فیصلہ سازی کا معیار — یہ ان کا کام نہیں ہے۔",
+      "loopLeftBody": "شیڈولز، گھنٹے، تنخواہیں کنٹرول کرتا ہے۔ رپورٹس ورک فورس پر رک جاتی ہیں۔ مارجن، طلب کا سیاق و سباق، فیصلہ سازی کا معیار - یہ ان کا کام نہیں ہے۔",
       "loopRightLabel": "Sundae کے اندر عملہ",
       "loopRightBody": "ہر شفٹ، گھنٹہ، تبادلہ، تصدیق اور پے رول سائیکل ایک سگنل بن جاتا ہے۔ Labor Intelligence اسے پڑھتا ہے۔ Pulse اس پر الرٹ کرتا ہے۔ Foresight اسی بنیاد پر پیش گوئی کرتا ہے۔ پوری پلیٹ فارم زیادہ درست ہو جاتی ہے۔",
       "loopClosing": "ایک ہی ورک فورس کا ڈیٹا۔ جمع شدہ ذہانت۔",
@@ -1793,7 +1793,7 @@ export const generatedLocalCopy = {
       "pillars": [
         {
           "title": "شیڈولنگ",
-          "body": "AI Builder طلب کی پیش گوئی، کردار کے امتزاج، اور اہلیت سے شیڈول تیار کرتا ہے — پھر منیجر ان چار اہم دیکھنے کے طریقوں میں ترمیم کرتا ہے (جائزہ، شخص کے لحاظ سے، شفٹ کے لحاظ سے، کردار کے لحاظ سے)۔ تکرار، اہلیت کی جانچ، تنازعہ کی انتباہات، عوامی تعطیلات کی اوورلی۔",
+          "body": "AI Builder طلب کی پیش گوئی، کردار کے امتزاج، اور اہلیت سے شیڈول تیار کرتا ہے - پھر منیجر ان چار اہم دیکھنے کے طریقوں میں ترمیم کرتا ہے (جائزہ، شخص کے لحاظ سے، شفٹ کے لحاظ سے، کردار کے لحاظ سے)۔ تکرار، اہلیت کی جانچ، تنازعہ کی انتباہات، عوامی تعطیلات کی اوورلی۔",
           "chips": [
             "AI Builder",
             "4 دیکھنے کے طریقے",
@@ -1833,7 +1833,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "کرو کوچ + فیصلہ دوبارہ دیکھیں",
-          "body": "کرو کوچ آپ کا AI ساتھی ہے جو ورک فورس کے میدان میں ہے — قدرتی زبان کی درخواستیں، ماخذ کے حوالے سے جوابات، ایسی تجاویز جو ایک منیجر دفاع کر سکے۔ فیصلہ دوبارہ دیکھنے سے ہر عمل کا ریکارڈ ہوتا ہے: کس نے فیصلہ کیا، کیا بدلا، ماڈل نے کیا کہا۔ ڈیفالٹ کے طور پر آڈٹ کے لیے تیار۔",
+          "body": "کرو کوچ آپ کا AI ساتھی ہے جو ورک فورس کے میدان میں ہے - قدرتی زبان کی درخواستیں، ماخذ کے حوالے سے جوابات، ایسی تجاویز جو ایک منیجر دفاع کر سکے۔ فیصلہ دوبارہ دیکھنے سے ہر عمل کا ریکارڈ ہوتا ہے: کس نے فیصلہ کیا، کیا بدلا، ماڈل نے کیا کہا۔ ڈیفالٹ کے طور پر آڈٹ کے لیے تیار۔",
           "chips": [
             "AI معاون",
             "ماخذ کے حوالے سے",
@@ -1856,7 +1856,7 @@ export const generatedLocalCopy = {
       "coverageItems": [
         {
           "title": "ملازم موبائل پورٹل",
-          "body": "ہر ملازم کو ایک مفت Sundae اکاؤنٹ ملتا ہے — شفٹیں دیکھیں، چھٹی کی درخواست کریں، تبدیل کریں، تنخواہ کی سلپس، تصدیقیں، بایومیٹرک کلاک ان."
+          "body": "ہر ملازم کو ایک مفت Sundae اکاؤنٹ ملتا ہے - شفٹیں دیکھیں، چھٹی کی درخواست کریں، تبدیل کریں، تنخواہ کی سلپس، تصدیقیں، بایومیٹرک کلاک ان."
         },
         {
           "title": "مواصلات",
@@ -2083,14 +2083,14 @@ export const generatedLocalCopy = {
       "bundleLabel": "عملے کی کارروائی + عملے کی تکمیل",
       "bundleDescription": "آپریشنز، T&A، اور پے رول کو یکجا کرتا ہے۔ مکمل لوگوں کی ذہانت کو مکمل ورک فورس ذہانت کے چکر کے لیے شامل کرتا ہے۔",
       "freeTierLabel": "ہر ملازم کے لیے مفت",
-      "freeTierDescription": "ہر کریو ملازم کو ایک مفت Sundae خود سروس اکاؤنٹ ملتا ہے — شفٹیں دیکھیں، چھٹی کی درخواست کریں، تنخواہوں کی سلپس دیکھیں، وقت پر پہنچیں۔ نیچے سے اوپر کی ورک فورس شناخت، شامل ہے۔",
+      "freeTierDescription": "ہر کریو ملازم کو ایک مفت Sundae خود سروس اکاؤنٹ ملتا ہے - شفٹیں دیکھیں، چھٹی کی درخواست کریں، تنخواہوں کی سلپس دیکھیں، وقت پر پہنچیں۔ نیچے سے اوپر کی ورک فورس شناخت، شامل ہے۔",
       "personasEyebrow": "کون عملے کی قیادت کرتا ہے",
       "personasTitle": "ان لوگوں کے لیے بنایا گیا جو واقعی فرش کو چلاتے ہیں۔",
       "personasDescription": "چار کردار۔ چار مخصوص نظریات۔ ایک سچائی کا ماخذ۔",
       "personas": [
         {
           "title": "ایچ آر اور لوگوں کا رہنما",
-          "outcome": "ایک پلیٹ فارم میں بھرتی سے ریٹائرمنٹ — آن بورڈنگ، کارکردگی، ٹیلنٹ، تنخواہ کی تیاری، آف بورڈنگ — ایک ہی سانس میں لیبر انٹیلی جنس کو فراہم کرنا۔",
+          "outcome": "ایک پلیٹ فارم میں بھرتی سے ریٹائرمنٹ - آن بورڈنگ، کارکردگی، ٹیلنٹ، تنخواہ کی تیاری، آف بورڈنگ - ایک ہی سانس میں لیبر انٹیلی جنس کو فراہم کرنا۔",
           "metric": "60+ ایچ آر سطحیں"
         },
         {
@@ -2100,7 +2100,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "تنخواہ کے منتظم",
-          "outcome": "اسپریڈشیٹ کی افراتفری کے بغیر تنخواہ کی تیاری مکمل کریں۔ کثیر علاقائی پیک — امریکہ، کینیڈا، برطانیہ، یورپی یونین، جی سی سی — قانونی برآمدات، سال کے آخر کی سطحیں، شواہد، اور شراکت دار کی ہینڈ آف ورک فلو کو منظم کریں۔",
+          "outcome": "اسپریڈشیٹ کی افراتفری کے بغیر تنخواہ کی تیاری مکمل کریں۔ کثیر علاقائی پیک - امریکہ، کینیڈا، برطانیہ، یورپی یونین، جی سی سی - قانونی برآمدات، سال کے آخر کی سطحیں، شواہد، اور شراکت دار کی ہینڈ آف ورک فلو کو منظم کریں۔",
           "metric": "امریکہ · کینیڈا · برطانیہ · یورپی یونین · جی سی سی"
         },
         {
@@ -2111,7 +2111,7 @@ export const generatedLocalCopy = {
       ],
       "byohrEyebrow": "کیا آپ پہلے ہی BAYZAT، PERSONIO، یا GUSTO پر ہیں؟",
       "byohrTitle": "عملہ اختیاری ہے۔ ذہانت کا چکر نہیں ہے۔",
-      "byohrDescription": "اپنا HR لائیں۔ Sundae کا معیاری HR ڈومین معاہدہ کسی بھی تعمیل کرنے والے ایڈاپٹر سے پڑھتا ہے — اور Labor Intelligence اب بھی ان حریفوں سے 5–10× زیادہ امیر ہے جو صرف POS دیکھتے ہیں۔",
+      "byohrDescription": "اپنا HR لائیں۔ Sundae کا معیاری HR ڈومین معاہدہ کسی بھی تعمیل کرنے والے ایڈاپٹر سے پڑھتا ہے - اور Labor Intelligence اب بھی ان حریفوں سے 5-10× زیادہ امیر ہے جو صرف POS دیکھتے ہیں۔",
       "byohrItems": [
         "بیزات (MEA مہمان نوازی)",
         "پرسانیو (EU)",
@@ -2130,14 +2130,14 @@ export const generatedLocalCopy = {
       "badge": "EQUIPE · SUBSTRATO OPERACIONAL",
       "heroLine1": "Todo turno",
       "heroLine2": "torna-se sinal.",
-      "description": "O Crew gerencia sua equipe, horários, tempo, operações de RH, prontidão da folha de pagamento e suporte aos funcionários. Cada ação se torna um dado operacional que alimenta a inteligência de decisão da Sundae — um ciclo que fornecedores de RH ou folha de pagamento independentes não conseguem fechar.",
+      "description": "O Crew gerencia sua equipe, horários, tempo, operações de RH, prontidão da folha de pagamento e suporte aos funcionários. Cada ação se torna um dado operacional que alimenta a inteligência de decisão da Sundae - um ciclo que fornecedores de RH ou folha de pagamento independentes não conseguem fechar.",
       "primaryCta": "Agende uma Demonstração da Equipe",
       "secondaryCta": "Veja a Equipe em Ação",
       "loopEyebrow": "POR QUE A EQUIPE ESTÁ NO SUNDAE",
       "loopTitle": "A camada operacional que alimenta a camada de inteligência.",
-      "loopDescription": "Fornecedores de RH isolados veem escalas. Ferramentas de análise isoladas veem o POS. A Sundae fecha o ciclo — e esse ciclo se torna a vantagem defensável.",
+      "loopDescription": "Fornecedores de RH isolados veem escalas. Ferramentas de análise isoladas veem o POS. A Sundae fecha o ciclo - e esse ciclo se torna a vantagem defensável.",
       "loopLeftLabel": "RH / folha de pagamento autônomos",
-      "loopLeftBody": "Possui horários, horas, folha de pagamento. Relatórios param na força de trabalho. Margem, contexto de demanda, qualidade da decisão — não é trabalho deles.",
+      "loopLeftBody": "Possui horários, horas, folha de pagamento. Relatórios param na força de trabalho. Margem, contexto de demanda, qualidade da decisão - não é trabalho deles.",
       "loopRightLabel": "Equipe dentro do Sundae",
       "loopRightBody": "Cada turno, hora, troca, atestado e ciclo de folha vira um sinal. Labor Intelligence lê. Pulse alerta. Foresight projeta a partir dele. Toda a plataforma fica mais precisa.",
       "loopClosing": "Os mesmos dados da força de trabalho. Inteligência acumulada.",
@@ -2147,7 +2147,7 @@ export const generatedLocalCopy = {
       "pillars": [
         {
           "title": "Agendamento",
-          "body": "O AI Builder cria o cronograma a partir da previsão de demanda, mix de funções e elegibilidade — em seguida, o gerente edita os quatro modos de visualização que importam (visão geral, por pessoa, por turno, por função). Recorrência, verificações de elegibilidade, avisos de conflito, sobreposições de feriados públicos.",
+          "body": "O AI Builder cria o cronograma a partir da previsão de demanda, mix de funções e elegibilidade - em seguida, o gerente edita os quatro modos de visualização que importam (visão geral, por pessoa, por turno, por função). Recorrência, verificações de elegibilidade, avisos de conflito, sobreposições de feriados públicos.",
           "chips": [
             "AI Builder",
             "4 modos de visualização",
@@ -2187,7 +2187,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Treinador de Equipe + Replay de Decisão",
-          "body": "O Treinador de Equipe é seu parceiro de IA no domínio da força de trabalho — solicitações em linguagem natural, respostas com fontes citadas, recomendações que um gerente pode defender. O Replay de Decisão registra cada ação: quem decidiu, o que mudou, o que o modelo disse. Pronto para auditoria por padrão.",
+          "body": "O Treinador de Equipe é seu parceiro de IA no domínio da força de trabalho - solicitações em linguagem natural, respostas com fontes citadas, recomendações que um gerente pode defender. O Replay de Decisão registra cada ação: quem decidiu, o que mudou, o que o modelo disse. Pronto para auditoria por padrão.",
           "chips": [
             "assistente de IA",
             "com fontes citadas",
@@ -2210,7 +2210,7 @@ export const generatedLocalCopy = {
       "coverageItems": [
         {
           "title": "Portal móvel para funcionários",
-          "body": "Todo funcionário recebe uma conta gratuita no Sundae — veja turnos, solicite folgas, troque, contracheques, atestados, registro biométrico."
+          "body": "Todo funcionário recebe uma conta gratuita no Sundae - veja turnos, solicite folgas, troque, contracheques, atestados, registro biométrico."
         },
         {
           "title": "Comunicações",
@@ -2437,14 +2437,14 @@ export const generatedLocalCopy = {
       "bundleLabel": "Operação da Equipe + Equipe Completa",
       "bundleDescription": "O Operating combina Operações, T&A e Folha de Pagamento. O Complete adiciona Inteligência de Pessoas para o ciclo completo de inteligência da força de trabalho.",
       "freeTierLabel": "Grátis para todos os funcionários",
-      "freeTierDescription": "Todo funcionário da Crew recebe uma conta de autoatendimento Sundae gratuita — visualizar turnos, solicitar folgas, visualizar contracheques, registrar entrada. Identidade da força de trabalho de baixo para cima, incluída.",
+      "freeTierDescription": "Todo funcionário da Crew recebe uma conta de autoatendimento Sundae gratuita - visualizar turnos, solicitar folgas, visualizar contracheques, registrar entrada. Identidade da força de trabalho de baixo para cima, incluída.",
       "personasEyebrow": "QUEM MANDA NO CREW",
       "personasTitle": "Construído para as pessoas que realmente gerenciam o salão.",
       "personasDescription": "Quatro funções. Quatro visões específicas. Uma única fonte de verdade.",
       "personas": [
         {
           "title": "Líder de RH e Pessoas",
-          "outcome": "Contratação até a aposentadoria em uma plataforma — integração, desempenho, talento, prontidão da folha de pagamento, desligamento — alimentando a Inteligência Laboral ao mesmo tempo.",
+          "outcome": "Contratação até a aposentadoria em uma plataforma - integração, desempenho, talento, prontidão da folha de pagamento, desligamento - alimentando a Inteligência Laboral ao mesmo tempo.",
           "metric": "60+ superfícies de RH"
         },
         {
@@ -2454,7 +2454,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Administrador de Folha de Pagamento",
-          "outcome": "Finalize a prontidão da folha de pagamento sem a confusão de planilhas. Pacotes multi-região — EUA, Canadá, Reino Unido, UE, CCG — organizam exportações legais, superfícies de fim de ano, evidências e fluxos de trabalho de entrega a parceiros.",
+          "outcome": "Finalize a prontidão da folha de pagamento sem a confusão de planilhas. Pacotes multi-região - EUA, Canadá, Reino Unido, UE, CCG - organizam exportações legais, superfícies de fim de ano, evidências e fluxos de trabalho de entrega a parceiros.",
           "metric": "EUA · CA · RU · UE · CCG"
         },
         {
@@ -2465,7 +2465,7 @@ export const generatedLocalCopy = {
       ],
       "byohrEyebrow": "JÁ ESTÁ NO BAYZAT, PERSONIO OU GUSTO?",
       "byohrTitle": "A equipe é opcional. O ciclo de inteligência não é.",
-      "byohrDescription": "Traga seu próprio RH. O contrato de domínio de RH canônico da Sundae é lido a partir de qualquer adaptador compatível — e a Inteligência Laboral ainda se torna 5–10× mais rica do que os concorrentes que apenas veem o POS.",
+      "byohrDescription": "Traga seu próprio RH. O contrato de domínio de RH canônico da Sundae é lido a partir de qualquer adaptador compatível - e a Inteligência Laboral ainda se torna 5-10× mais rica do que os concorrentes que apenas veem o POS.",
       "byohrItems": [
         "Bayzat (hospitalidade MEA)",
         "Personio (UE)",
@@ -2484,14 +2484,14 @@ export const generatedLocalCopy = {
       "badge": "CREW · SOTTOSTRATO OPERATIVO",
       "heroLine1": "Ogni turno",
       "heroLine2": "diventa segnale.",
-      "description": "Crew gestisce il tuo personale, i programmi, il tempo, le operazioni HR, la preparazione delle buste paga e il supporto ai dipendenti. Ogni azione diventa dato operativo che alimenta l'intelligenza decisionale di Sundae — un ciclo che i fornitori HR o di buste paga standalone non possono chiudere.",
+      "description": "Crew gestisce il tuo personale, i programmi, il tempo, le operazioni HR, la preparazione delle buste paga e il supporto ai dipendenti. Ogni azione diventa dato operativo che alimenta l'intelligenza decisionale di Sundae - un ciclo che i fornitori HR o di buste paga standalone non possono chiudere.",
       "primaryCta": "Prenota una Visita Guidata del Team",
       "secondaryCta": "Guarda il Team in Azione",
       "loopEyebrow": "PERCHÉ CREW È IN SUNDAE",
       "loopTitle": "Il livello operativo che alimenta il livello di intelligenza.",
-      "loopDescription": "I fornitori HR separati vedono i turni. Gli strumenti di analisi separati vedono il POS. Sundae chiude il ciclo — e quel ciclo diventa il vantaggio difendibile.",
+      "loopDescription": "I fornitori HR separati vedono i turni. Gli strumenti di analisi separati vedono il POS. Sundae chiude il ciclo - e quel ciclo diventa il vantaggio difendibile.",
       "loopLeftLabel": "HR / busta paga autonoma",
-      "loopLeftBody": "Possiede programmi, ore, buste paga. I report si fermano alla forza lavoro. Margine, contesto della domanda, qualità delle decisioni — non è il loro lavoro.",
+      "loopLeftBody": "Possiede programmi, ore, buste paga. I report si fermano alla forza lavoro. Margine, contesto della domanda, qualità delle decisioni - non è il loro lavoro.",
       "loopRightLabel": "Equipaggio all'interno di Sundae",
       "loopRightBody": "Ogni turno, ora, cambio, attestazione e ciclo paghe diventa un segnale. Labor Intelligence lo legge. Pulse lo segnala. Foresight lo usa per prevedere. L'intera piattaforma diventa più precisa.",
       "loopClosing": "Stessi dati sulla forza lavoro. Intelligenza combinata.",
@@ -2501,7 +2501,7 @@ export const generatedLocalCopy = {
       "pillars": [
         {
           "title": "Pianificazione",
-          "body": "AI Builder compone il programma in base alla previsione della domanda, al mix di ruoli e all'idoneità — poi il manager modifica le quattro modalità di visualizzazione che contano (panoramica, per persona, per turno, per ruolo). Ricorrenza, controlli di idoneità, avvisi di conflitto, sovrapposizioni di festività pubbliche.",
+          "body": "AI Builder compone il programma in base alla previsione della domanda, al mix di ruoli e all'idoneità - poi il manager modifica le quattro modalità di visualizzazione che contano (panoramica, per persona, per turno, per ruolo). Ricorrenza, controlli di idoneità, avvisi di conflitto, sovrapposizioni di festività pubbliche.",
           "chips": [
             "AI Builder",
             "4 modalità di visualizzazione",
@@ -2541,7 +2541,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Crew Coach + Decision Replay",
-          "body": "Crew Coach è il tuo partner AI nel dominio della forza lavoro — richieste in linguaggio naturale, risposte con fonti citate, raccomandazioni che un manager può difendere. Decision Replay registra ogni azione: chi ha deciso, cosa è cambiato, cosa ha detto il modello. Pronto per l'audit per impostazione predefinita.",
+          "body": "Crew Coach è il tuo partner AI nel dominio della forza lavoro - richieste in linguaggio naturale, risposte con fonti citate, raccomandazioni che un manager può difendere. Decision Replay registra ogni azione: chi ha deciso, cosa è cambiato, cosa ha detto il modello. Pronto per l'audit per impostazione predefinita.",
           "chips": [
             "assistente AI",
             "con fonti citate",
@@ -2564,7 +2564,7 @@ export const generatedLocalCopy = {
       "coverageItems": [
         {
           "title": "Portale mobile per i dipendenti",
-          "body": "Ogni dipendente ottiene un account Sundae gratuito — visualizza i turni, richiedi permessi, scambia, buste paga, attestazioni, registrazione biometrica."
+          "body": "Ogni dipendente ottiene un account Sundae gratuito - visualizza i turni, richiedi permessi, scambia, buste paga, attestazioni, registrazione biometrica."
         },
         {
           "title": "Comunicazioni",
@@ -2791,14 +2791,14 @@ export const generatedLocalCopy = {
       "bundleLabel": "Operazioni Crew + Crew Completo",
       "bundleDescription": "Operating combina Operazioni, T&A e Payroll. Complete aggiunge People Intelligence per un ciclo completo di intelligenza della forza lavoro.",
       "freeTierLabel": "Gratuito per ogni dipendente",
-      "freeTierDescription": "Ogni dipendente di Crew ottiene un account self-service gratuito di Sundae — visualizza i turni, richiedi permessi, visualizza le buste paga, timbra l'entrata. Identità della forza lavoro dal basso, inclusa.",
+      "freeTierDescription": "Ogni dipendente di Crew ottiene un account self-service gratuito di Sundae - visualizza i turni, richiedi permessi, visualizza le buste paga, timbra l'entrata. Identità della forza lavoro dal basso, inclusa.",
       "personasEyebrow": "CHI GESTISCE CREW",
       "personasTitle": "Creato per le persone che gestiscono realmente il piano.",
       "personasDescription": "Quattro ruoli. Quattro viste specifiche. Una fonte di verità.",
       "personas": [
         {
           "title": "Responsabile HR e Persone",
-          "outcome": "Assumi e gestisci il ciclo di vita in un'unica piattaforma — onboarding, performance, talenti, preparazione buste paga, offboarding — alimentando l'Intelligenza del Lavoro nella stessa fase.",
+          "outcome": "Assumi e gestisci il ciclo di vita in un'unica piattaforma - onboarding, performance, talenti, preparazione buste paga, offboarding - alimentando l'Intelligenza del Lavoro nella stessa fase.",
           "metric": "60+ superfici HR"
         },
         {
@@ -2808,7 +2808,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Amministratore Buste Paga",
-          "outcome": "Chiudi la preparazione delle buste paga senza il caos dei fogli di calcolo. Pacchetti multi-regione — US, Canada, UK, UE, GCC — organizzano esportazioni statutarie, superfici di fine anno, evidenze e flussi di lavoro di passaggio ai partner.",
+          "outcome": "Chiudi la preparazione delle buste paga senza il caos dei fogli di calcolo. Pacchetti multi-regione - US, Canada, UK, UE, GCC - organizzano esportazioni statutarie, superfici di fine anno, evidenze e flussi di lavoro di passaggio ai partner.",
           "metric": "US · CA · UK · UE · GCC"
         },
         {
@@ -2819,7 +2819,7 @@ export const generatedLocalCopy = {
       ],
       "byohrEyebrow": "GIÀ SU BAYZAT, PERSONIO O GUSTO?",
       "byohrTitle": "Il team è facoltativo. Il ciclo di intelligenza non lo è.",
-      "byohrDescription": "Porta il tuo HR. Il contratto del dominio HR canonico di Sundae si legge da qualsiasi adattatore conforme — e Labor Intelligence continua a diventare 5–10 volte più ricco rispetto ai concorrenti che vedono solo il POS.",
+      "byohrDescription": "Porta il tuo HR. Il contratto del dominio HR canonico di Sundae si legge da qualsiasi adattatore conforme - e Labor Intelligence continua a diventare 5-10 volte più ricco rispetto ai concorrenti che vedono solo il POS.",
       "byohrItems": [
         "Bayzat (ospitalità MEA)",
         "Personio (UE)",
@@ -2843,7 +2843,7 @@ export const generatedLocalCopy = {
       "secondaryCta": "क्रू को कार्रवाई में देखें",
       "loopEyebrow": "क्यों क्रू सुंडे में बैठता है",
       "loopTitle": "वह संचालन स्तर जो बुद्धिमत्ता स्तर को संचालित करता है।",
-      "loopDescription": "अलग HR वेंडर शेड्यूल देखते हैं। अलग एनालिटिक्स टूल POS देखते हैं। Sundae इस चक्र को पूरा करता है — और यही चक्र बचाव योग्य बढ़त बन जाता है।",
+      "loopDescription": "अलग HR वेंडर शेड्यूल देखते हैं। अलग एनालिटिक्स टूल POS देखते हैं। Sundae इस चक्र को पूरा करता है - और यही चक्र बचाव योग्य बढ़त बन जाता है।",
       "loopLeftLabel": "स्वतंत्र एचआर / पेरोल",
       "loopLeftBody": "समय सारणी, घंटे, वेतन का स्वामित्व। रिपोर्टें कार्यबल पर रुकती हैं। मार्जिन, मांग संदर्भ, निर्णय गुणवत्ता - यह उनका काम नहीं है।",
       "loopRightLabel": "Sundae के अंदर क्रू",
@@ -2855,7 +2855,7 @@ export const generatedLocalCopy = {
       "pillars": [
         {
           "title": "शेड्यूलिंग",
-          "body": "AI Builder मांग पूर्वानुमान, भूमिका मिश्रण और पात्रता से शेड्यूल तैयार करता है — फिर प्रबंधक चार महत्वपूर्ण दृश्य मोड (सारांश, व्यक्ति के अनुसार, शिफ्ट के अनुसार, भूमिका के अनुसार) को संपादित करता है। पुनरावृत्ति, पात्रता जांच, संघर्ष चेतावनियाँ, सार्वजनिक छुट्टी ओवरले।",
+          "body": "AI Builder मांग पूर्वानुमान, भूमिका मिश्रण और पात्रता से शेड्यूल तैयार करता है - फिर प्रबंधक चार महत्वपूर्ण दृश्य मोड (सारांश, व्यक्ति के अनुसार, शिफ्ट के अनुसार, भूमिका के अनुसार) को संपादित करता है। पुनरावृत्ति, पात्रता जांच, संघर्ष चेतावनियाँ, सार्वजनिक छुट्टी ओवरले।",
           "chips": [
             "AI Builder",
             "4 दृश्य मोड",
@@ -2895,7 +2895,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "क्रू कोच + निर्णय पुनरावलोकन",
-          "body": "क्रू कोच आपके कार्यबल क्षेत्र में आपका AI साथी है — प्राकृतिक भाषा में अनुरोध, स्रोत-उल्लेखित उत्तर, सिफारिशें जिन्हें एक प्रबंधक बचा सकता है। निर्णय पुनरावलोकन हर क्रिया को लॉग करता है: किसने निर्णय लिया, क्या बदला, मॉडल ने क्या कहा। डिफ़ॉल्ट रूप से ऑडिट-तैयार।",
+          "body": "क्रू कोच आपके कार्यबल क्षेत्र में आपका AI साथी है - प्राकृतिक भाषा में अनुरोध, स्रोत-उल्लेखित उत्तर, सिफारिशें जिन्हें एक प्रबंधक बचा सकता है। निर्णय पुनरावलोकन हर क्रिया को लॉग करता है: किसने निर्णय लिया, क्या बदला, मॉडल ने क्या कहा। डिफ़ॉल्ट रूप से ऑडिट-तैयार।",
           "chips": [
             "AI सहायक",
             "स्रोत-उल्लेखित",
@@ -2918,7 +2918,7 @@ export const generatedLocalCopy = {
       "coverageItems": [
         {
           "title": "कर्मचारी मोबाइल पोर्टल",
-          "body": "हर कर्मचारी को एक मुफ्त Sundae खाता मिलता है — शिफ्ट देखें, समय-छुट्टी का अनुरोध करें, स्वैप करें, वेतन पर्ची, प्रमाणन, बायोमेट्रिक क्लॉक-इन।"
+          "body": "हर कर्मचारी को एक मुफ्त Sundae खाता मिलता है - शिफ्ट देखें, समय-छुट्टी का अनुरोध करें, स्वैप करें, वेतन पर्ची, प्रमाणन, बायोमेट्रिक क्लॉक-इन।"
         },
         {
           "title": "संचार",
@@ -3145,14 +3145,14 @@ export const generatedLocalCopy = {
       "bundleLabel": "क्रू संचालन + क्रू पूर्ण",
       "bundleDescription": "ऑपरेटिंग में ऑपरेशंस, टी एंड ए, और पेरोल शामिल हैं। कंप्लीट पूरे कार्यबल इंटेलिजेंस लूप के लिए पीपल इंटेलिजेंस जोड़ता है।",
       "freeTierLabel": "हर कर्मचारी के लिए मुफ्त",
-      "freeTierDescription": "हर क्रू कर्मचारी को एक मुफ्त Sundae स्व-सेवा खाता मिलता है — शिफ्ट देखें, समय-छुट्टी का अनुरोध करें, वेतन पर्ची देखें, समय दर्ज करें। नीचे से ऊपर की कार्यबल पहचान, शामिल है।",
+      "freeTierDescription": "हर क्रू कर्मचारी को एक मुफ्त Sundae स्व-सेवा खाता मिलता है - शिफ्ट देखें, समय-छुट्टी का अनुरोध करें, वेतन पर्ची देखें, समय दर्ज करें। नीचे से ऊपर की कार्यबल पहचान, शामिल है।",
       "personasEyebrow": "कौन क्रू चलाता है",
       "personasTitle": "उन लोगों के लिए बनाया गया है जो वास्तव में फर्श पर काम करते हैं।",
       "personasDescription": "चार भूमिकाएँ। चार सीमित दृश्य। एक सत्य का स्रोत।",
       "personas": [
         {
           "title": "एचआर और पीपल लीड",
-          "outcome": "एक प्लेटफॉर्म पर हायर-टू-रिटायर — ऑनबोर्डिंग, प्रदर्शन, प्रतिभा, पेरोल तैयारी, ऑफबोर्डिंग — एक ही सांस में लेबर इंटेलिजेंस को फीड करना।",
+          "outcome": "एक प्लेटफॉर्म पर हायर-टू-रिटायर - ऑनबोर्डिंग, प्रदर्शन, प्रतिभा, पेरोल तैयारी, ऑफबोर्डिंग - एक ही सांस में लेबर इंटेलिजेंस को फीड करना।",
           "metric": "60+ एचआर सतहें"
         },
         {
@@ -3162,7 +3162,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "पेरोल एडमिन",
-          "outcome": "स्प्रेडशीट अराजकता के बिना पेरोल तैयारी को बंद करें। मल्टी-क्षेत्रीय पैक — यूएस, कनाडा, यूके, ईयू, जीसीसी — वैधानिक निर्यात, वर्ष-समापन सतहें, साक्ष्य, और भागीदार हैंडऑफ वर्कफ़्लो को व्यवस्थित करें।",
+          "outcome": "स्प्रेडशीट अराजकता के बिना पेरोल तैयारी को बंद करें। मल्टी-क्षेत्रीय पैक - यूएस, कनाडा, यूके, ईयू, जीसीसी - वैधानिक निर्यात, वर्ष-समापन सतहें, साक्ष्य, और भागीदार हैंडऑफ वर्कफ़्लो को व्यवस्थित करें।",
           "metric": "यूएस · सीए · यूके · ईयू · जीसीसी"
         },
         {
@@ -3173,7 +3173,7 @@ export const generatedLocalCopy = {
       ],
       "byohrEyebrow": "क्या आप पहले से BAYZAT, PERSONIO, या GUSTO पर हैं?",
       "byohrTitle": "क्रू वैकल्पिक है। बुद्धिमत्ता चक्र नहीं है।",
-      "byohrDescription": "अपना खुद का एचआर लाएं। Sundae का मानक एचआर डोमेन अनुबंध किसी भी अनुपालन करने वाले एडेप्टर से पढ़ता है — और Labor Intelligence अभी भी उन प्रतिस्पर्धियों की तुलना में 5–10× अधिक समृद्ध होता है जो केवल POS देखते हैं।",
+      "byohrDescription": "अपना खुद का एचआर लाएं। Sundae का मानक एचआर डोमेन अनुबंध किसी भी अनुपालन करने वाले एडेप्टर से पढ़ता है - और Labor Intelligence अभी भी उन प्रतिस्पर्धियों की तुलना में 5-10× अधिक समृद्ध होता है जो केवल POS देखते हैं।",
       "byohrItems": [
         "बेज़ात (MEA हॉस्पिटैलिटी)",
         "पर्सोनियो (EU)",
@@ -3192,14 +3192,14 @@ export const generatedLocalCopy = {
       "badge": "EKİP · OPERASYON ALT YAPISI",
       "heroLine1": "Her vardiya",
       "heroLine2": "sinyal haline gelir.",
-      "description": "Crew, insan kaynaklarınızı, programlarınızı, zamanı, İK operasyonlarını, maaş hazırlığını ve çalışan desteğini yönetir. Her eylem, Sundae'nin karar alma zekasına beslenen işletme verisi haline gelir — bağımsız bir İK veya maaş sağlayıcısının kapatamayacağı bir döngü.",
+      "description": "Crew, insan kaynaklarınızı, programlarınızı, zamanı, İK operasyonlarını, maaş hazırlığını ve çalışan desteğini yönetir. Her eylem, Sundae'nin karar alma zekasına beslenen işletme verisi haline gelir - bağımsız bir İK veya maaş sağlayıcısının kapatamayacağı bir döngü.",
       "primaryCta": "Bir Ekip Geçişi Rezervasyonu Yap",
       "secondaryCta": "Ekibi Aksiyon Halinde Gör",
       "loopEyebrow": "NEDEN CREW SUNDAE'DE OTURUYOR",
       "loopTitle": "Zeka katmanını destekleyen operasyonel katman.",
-      "loopDescription": "Bağımsız HR sağlayıcıları çizelgeleri görür. Bağımsız analiz araçları POS'u görür. Sundae döngüyü kapatır — bu döngü de savunulabilir avantaja dönüşür.",
+      "loopDescription": "Bağımsız HR sağlayıcıları çizelgeleri görür. Bağımsız analiz araçları POS'u görür. Sundae döngüyü kapatır - bu döngü de savunulabilir avantaja dönüşür.",
       "loopLeftLabel": "Bağımsız İK / bordro",
-      "loopLeftBody": "Programları, saatleri, maaşları yönetir. Raporlar iş gücünde durur. Marj, talep bağlamı, karar kalitesi — bu onların işi değil.",
+      "loopLeftBody": "Programları, saatleri, maaşları yönetir. Raporlar iş gücünde durur. Marj, talep bağlamı, karar kalitesi - bu onların işi değil.",
       "loopRightLabel": "Sundae içindeki ekip",
       "loopRightBody": "Her vardiya, saat, değişim, onay ve bordro döngüsü bir sinyale dönüşür. Labor Intelligence bunu okur. Pulse uyarır. Foresight bunun üzerinden tahmin üretir. Tüm platform daha isabetli hale gelir.",
       "loopClosing": "Aynı iş gücü verisi. Birikimli zeka.",
@@ -3209,7 +3209,7 @@ export const generatedLocalCopy = {
       "pillars": [
         {
           "title": "Zamanlama",
-          "body": "AI Builder, talep tahmini, rol karışımı ve uygunluk bilgilerine dayanarak programı oluşturur — ardından yönetici, önemli olan dört görüntü modunu (genel bakış, kişiye göre, vardiyaya göre, role göre) düzenler. Tekrar, uygunluk kontrolleri, çakışma uyarıları, resmi tatil katmanları.",
+          "body": "AI Builder, talep tahmini, rol karışımı ve uygunluk bilgilerine dayanarak programı oluşturur - ardından yönetici, önemli olan dört görüntü modunu (genel bakış, kişiye göre, vardiyaya göre, role göre) düzenler. Tekrar, uygunluk kontrolleri, çakışma uyarıları, resmi tatil katmanları.",
           "chips": [
             "AI Builder",
             "4 görüntü modu",
@@ -3249,7 +3249,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Ekip Koçu + Karar Tekrarı",
-          "body": "Ekip Koçu, iş gücü alanında AI ortağınızdır — doğal dil talepleri, kaynak belirtilmiş yanıtlar, bir yöneticinin savunabileceği öneriler. Karar Tekrarı, her eylemi kaydeder: kim karar verdi, ne değişti, model ne söyledi. Varsayılan olarak denetim için hazır.",
+          "body": "Ekip Koçu, iş gücü alanında AI ortağınızdır - doğal dil talepleri, kaynak belirtilmiş yanıtlar, bir yöneticinin savunabileceği öneriler. Karar Tekrarı, her eylemi kaydeder: kim karar verdi, ne değişti, model ne söyledi. Varsayılan olarak denetim için hazır.",
           "chips": [
             "AI asistanı",
             "Kaynak belirtilmiş",
@@ -3272,7 +3272,7 @@ export const generatedLocalCopy = {
       "coverageItems": [
         {
           "title": "Çalışan mobil portalı",
-          "body": "Her çalışana ücretsiz bir Sundae hesabı verilir — vardiyaları görüntüle, izin talep et, değiş tokuş yap, maaş bordroları, onaylar, biyometrik giriş."
+          "body": "Her çalışana ücretsiz bir Sundae hesabı verilir - vardiyaları görüntüle, izin talep et, değiş tokuş yap, maaş bordroları, onaylar, biyometrik giriş."
         },
         {
           "title": "İletişim",
@@ -3506,7 +3506,7 @@ export const generatedLocalCopy = {
       "personas": [
         {
           "title": "İK ve İnsan Kaynakları Lideri",
-          "outcome": "Tek bir platformda işe alımdan emekliliğe — oryantasyon, performans, yetenek, maaş hazırlığı, işten çıkarma — İşgücü Zekası'na aynı anda katkıda bulunma.",
+          "outcome": "Tek bir platformda işe alımdan emekliliğe - oryantasyon, performans, yetenek, maaş hazırlığı, işten çıkarma - İşgücü Zekası'na aynı anda katkıda bulunma.",
           "metric": "60+ İK yüzeyi"
         },
         {
@@ -3516,7 +3516,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Maaş Yöneticisi",
-          "outcome": "Maaş hazırlığını tablo karmaşası olmadan kapatın. Çok bölgeli paketler — ABD, Kanada, Birleşik Krallık, AB, GCC — yasal ihracatları, yıl sonu yüzeylerini, kanıtları ve ortak devretme iş akışlarını düzenleyin.",
+          "outcome": "Maaş hazırlığını tablo karmaşası olmadan kapatın. Çok bölgeli paketler - ABD, Kanada, Birleşik Krallık, AB, GCC - yasal ihracatları, yıl sonu yüzeylerini, kanıtları ve ortak devretme iş akışlarını düzenleyin.",
           "metric": "ABD · CA · UK · AB · GCC"
         },
         {
@@ -3527,7 +3527,7 @@ export const generatedLocalCopy = {
       ],
       "byohrEyebrow": "ZATEN BAYZAT, PERSONIO VEYA GUSTO'DA MI?",
       "byohrTitle": "Ekip isteğe bağlıdır. Zeka döngüsü ise öyle değil.",
-      "byohrDescription": "Kendi İK'nizi getirin. Sundae'nin standart İK alanı sözleşmesi, uyumlu herhangi bir adaptörden veri alır — ve Labor Intelligence, yalnızca POS gören rakiplerden 5–10 kat daha zengin içerik sunar.",
+      "byohrDescription": "Kendi İK'nizi getirin. Sundae'nin standart İK alanı sözleşmesi, uyumlu herhangi bir adaptörden veri alır - ve Labor Intelligence, yalnızca POS gören rakiplerden 5-10 kat daha zengin içerik sunar.",
       "byohrItems": [
         "Bayzat (MEA misafirperverliği)",
         "Personio (AB)",
@@ -3546,14 +3546,14 @@ export const generatedLocalCopy = {
       "badge": "团队 · 运营基础",
       "heroLine1": "每个班次",
       "heroLine2": "成为信号。",
-      "description": "Crew 管理您的人员、日程、时间、人力资源操作、薪资准备和员工支持。每个操作都成为运营数据，为 Sundae 的决策智能提供支持——这是独立的人力资源或薪资供应商无法关闭的循环。",
+      "description": "Crew 管理您的人员、日程、时间、人力资源操作、薪资准备和员工支持。每个操作都成为运营数据，为 Sundae 的决策智能提供支持--这是独立的人力资源或薪资供应商无法关闭的循环。",
       "primaryCta": "预订团队演示",
       "secondaryCta": "查看团队的实际表现",
       "loopEyebrow": "为什么团队在Sundae中坐着",
       "loopTitle": "驱动智能层的操作层。",
-      "loopDescription": "独立的 HR 供应商只能看到排班。独立的分析工具只能看到 POS。Sundae 把这个闭环连起来 — 而这个闭环就是可防守的优势。",
+      "loopDescription": "独立的 HR 供应商只能看到排班。独立的分析工具只能看到 POS。Sundae 把这个闭环连起来 - 而这个闭环就是可防守的优势。",
       "loopLeftLabel": "独立人力资源 / 薪资",
-      "loopLeftBody": "拥有排班、工时和薪资。报告停留在劳动力层面。利润、需求背景、决策质量——这不是他们的工作。",
+      "loopLeftBody": "拥有排班、工时和薪资。报告停留在劳动力层面。利润、需求背景、决策质量--这不是他们的工作。",
       "loopRightLabel": "Sundae 内部团队",
       "loopRightBody": "每个班次、小时、换班、确认和薪资周期都会成为信号。Labor Intelligence 读取它。Pulse 发出提醒。Foresight 基于它预测。整个平台会越来越精准。",
       "loopClosing": "相同的员工数据。复合智能。",
@@ -3603,7 +3603,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "团队教练 + 决策回放",
-          "body": "团队教练是您在劳动力领域的AI伙伴——自然语言请求、来源引用的答案、经理可以辩护的建议。决策回放记录每个行动：谁做了决定、发生了什么变化、模型说了什么。默认情况下准备好审计。",
+          "body": "团队教练是您在劳动力领域的AI伙伴--自然语言请求、来源引用的答案、经理可以辩护的建议。决策回放记录每个行动：谁做了决定、发生了什么变化、模型说了什么。默认情况下准备好审计。",
           "chips": [
             "AI助手",
             "来源引用",
@@ -3626,7 +3626,7 @@ export const generatedLocalCopy = {
       "coverageItems": [
         {
           "title": "员工移动门户",
-          "body": "每位员工都可以获得一个免费的Sundae账户——查看班次，请假，换班，工资单，证明，生物识别打卡。"
+          "body": "每位员工都可以获得一个免费的Sundae账户--查看班次，请假，换班，工资单，证明，生物识别打卡。"
         },
         {
           "title": "沟通",
@@ -3853,14 +3853,14 @@ export const generatedLocalCopy = {
       "bundleLabel": "团队运营 + 团队完成",
       "bundleDescription": "运营结合了运营、考勤和薪资。完整版本增加了人员智能，实现全面的劳动力智能循环。",
       "freeTierLabel": "每位员工免费",
-      "freeTierDescription": "每位Crew员工都可以获得一个免费的Sundae自助账户——查看班次、申请休假、查看工资单、打卡。包含自下而上的员工身份管理。",
+      "freeTierDescription": "每位Crew员工都可以获得一个免费的Sundae自助账户--查看班次、申请休假、查看工资单、打卡。包含自下而上的员工身份管理。",
       "personasEyebrow": "谁在管理团队",
       "personasTitle": "为真正管理现场的人而打造。",
       "personasDescription": "四个角色。四个视图。一个真实来源。",
       "personas": [
         {
           "title": "人力资源与员工负责人",
-          "outcome": "在一个平台上实现从招聘到退休 — 入职、绩效、人才、薪资准备、离职 — 同时为劳动智能提供数据。",
+          "outcome": "在一个平台上实现从招聘到退休 - 入职、绩效、人才、薪资准备、离职 - 同时为劳动智能提供数据。",
           "metric": "60+ HR 表面"
         },
         {
@@ -3870,7 +3870,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "薪资管理员",
-          "outcome": "在没有电子表格混乱的情况下完成薪资准备。多地区包 — 美国、加拿大、英国、欧盟、海湾合作委员会 — 组织法定导出、年终表面、证据和合作伙伴交接工作流。",
+          "outcome": "在没有电子表格混乱的情况下完成薪资准备。多地区包 - 美国、加拿大、英国、欧盟、海湾合作委员会 - 组织法定导出、年终表面、证据和合作伙伴交接工作流。",
           "metric": "美国 · 加拿大 · 英国 · 欧盟 · 海湾合作委员会"
         },
         {
@@ -3881,7 +3881,7 @@ export const generatedLocalCopy = {
       ],
       "byohrEyebrow": "已经在 BAYZAT、PERSONIO 或 GUSTO 上了吗？",
       "byohrTitle": "团队是可选的，但智能循环不是。",
-      "byohrDescription": "自带人力资源。Sundae的标准人力资源领域合同可以从任何合规适配器读取——而劳动智能的丰富程度仍然比仅查看POS的竞争对手高出5-10倍。",
+      "byohrDescription": "自带人力资源。Sundae的标准人力资源领域合同可以从任何合规适配器读取--而劳动智能的丰富程度仍然比仅查看POS的竞争对手高出5-10倍。",
       "byohrItems": [
         "Bayzat（中东和北非酒店业）",
         "Personio（欧洲）",
@@ -3900,14 +3900,14 @@ export const generatedLocalCopy = {
       "badge": "ZAŁOGA · PODSTAWA OPERACYJNA",
       "heroLine1": "Każda zmiana",
       "heroLine2": "staje się sygnałem.",
-      "description": "Crew zarządza Twoimi pracownikami, harmonogramami, czasem, operacjami HR, gotowością płac oraz wsparciem dla pracowników. Każda akcja staje się danymi operacyjnymi, które zasilają inteligencję decyzyjną Sundae — pętla, której niezależni dostawcy HR lub płac nie mogą zamknąć.",
+      "description": "Crew zarządza Twoimi pracownikami, harmonogramami, czasem, operacjami HR, gotowością płac oraz wsparciem dla pracowników. Każda akcja staje się danymi operacyjnymi, które zasilają inteligencję decyzyjną Sundae - pętla, której niezależni dostawcy HR lub płac nie mogą zamknąć.",
       "primaryCta": "Zarezerwuj spacer z zespołem",
       "secondaryCta": "Zobacz zespół w akcji",
       "loopEyebrow": "DLACZEGO ZAŁOGA SIEDZI W SUNDAE",
       "loopTitle": "Warstwa operacyjna, która napędza warstwę inteligencji.",
-      "loopDescription": "Oddzielni dostawcy HR widzą grafiki. Oddzielne narzędzia analityczne widzą POS. Sundae domyka pętlę — a ta pętla staje się przewagą, którą trudno skopiować.",
+      "loopDescription": "Oddzielni dostawcy HR widzą grafiki. Oddzielne narzędzia analityczne widzą POS. Sundae domyka pętlę - a ta pętla staje się przewagą, którą trudno skopiować.",
       "loopLeftLabel": "Samodzielne HR / płace",
-      "loopLeftBody": "Zarządza harmonogramami, godzinami, wynagrodzeniami. Raporty kończą się na pracownikach. Marża, kontekst popytu, jakość decyzji — to nie ich zadanie.",
+      "loopLeftBody": "Zarządza harmonogramami, godzinami, wynagrodzeniami. Raporty kończą się na pracownikach. Marża, kontekst popytu, jakość decyzji - to nie ich zadanie.",
       "loopRightLabel": "Załoga w Sundae",
       "loopRightBody": "Każda zmiana, godzina, zamiana, potwierdzenie i cykl płacowy staje się sygnałem. Labor Intelligence go odczytuje. Pulse alarmuje. Foresight prognozuje na tej podstawie. Cała platforma staje się dokładniejsza.",
       "loopClosing": "Te same dane dotyczące pracowników. Złożona inteligencja.",
@@ -3917,7 +3917,7 @@ export const generatedLocalCopy = {
       "pillars": [
         {
           "title": "Harmonogramowanie",
-          "body": "AI Builder tworzy harmonogram na podstawie prognozy popytu, mieszanki ról i kwalifikacji — następnie menedżer edytuje cztery istotne tryby widoku (przegląd, według osoby, według zmiany, według roli). Powtarzalność, kontrole kwalifikacji, ostrzeżenia o konfliktach, nakładki na dni wolne od pracy.",
+          "body": "AI Builder tworzy harmonogram na podstawie prognozy popytu, mieszanki ról i kwalifikacji - następnie menedżer edytuje cztery istotne tryby widoku (przegląd, według osoby, według zmiany, według roli). Powtarzalność, kontrole kwalifikacji, ostrzeżenia o konfliktach, nakładki na dni wolne od pracy.",
           "chips": [
             "AI Builder",
             "4 tryby widoku",
@@ -3957,7 +3957,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Trener Zespołu + Odtwarzanie Decyzji",
-          "body": "Trener Zespołu to twój partner AI w obszarze siły roboczej — zapytania w języku naturalnym, odpowiedzi z cytatami źródłowymi, rekomendacje, które menedżer może uzasadnić. Odtwarzanie Decyzji rejestruje każdą akcję: kto zdecydował, co się zmieniło, co powiedział model. Gotowe do audytu domyślnie.",
+          "body": "Trener Zespołu to twój partner AI w obszarze siły roboczej - zapytania w języku naturalnym, odpowiedzi z cytatami źródłowymi, rekomendacje, które menedżer może uzasadnić. Odtwarzanie Decyzji rejestruje każdą akcję: kto zdecydował, co się zmieniło, co powiedział model. Gotowe do audytu domyślnie.",
           "chips": [
             "asystent AI",
             "cytaty źródłowe",
@@ -3980,7 +3980,7 @@ export const generatedLocalCopy = {
       "coverageItems": [
         {
           "title": "Mobilny portal pracownika",
-          "body": "Każdy pracownik otrzymuje darmowe konto Sundae — przeglądaj zmiany, wnioskuj o urlop, zamieniaj, odcinki płacowe, zaświadczenia, logowanie biometryczne."
+          "body": "Każdy pracownik otrzymuje darmowe konto Sundae - przeglądaj zmiany, wnioskuj o urlop, zamieniaj, odcinki płacowe, zaświadczenia, logowanie biometryczne."
         },
         {
           "title": "Komunikacja",
@@ -4207,14 +4207,14 @@ export const generatedLocalCopy = {
       "bundleLabel": "Zespół Operacyjny + Zespół Komplet",
       "bundleDescription": "Operacje łączą Operacje, T&A i Płace. Kompletne dodaje Inteligencję Ludzi dla pełnej pętli inteligencji siły roboczej.",
       "freeTierLabel": "Darmowe dla każdego pracownika",
-      "freeTierDescription": "Każdy pracownik Crew otrzymuje darmowe konto samoobsługowe Sundae — przeglądaj zmiany, składaj wnioski o urlop, przeglądaj paski płacowe, rejestruj czas pracy. Tożsamość pracowników od dołu, w zestawie.",
+      "freeTierDescription": "Każdy pracownik Crew otrzymuje darmowe konto samoobsługowe Sundae - przeglądaj zmiany, składaj wnioski o urlop, przeglądaj paski płacowe, rejestruj czas pracy. Tożsamość pracowników od dołu, w zestawie.",
       "personasEyebrow": "KTO ZARZĄDZA ZESPOŁEM",
       "personasTitle": "Stworzony dla ludzi, którzy naprawdę zarządzają salą.",
       "personasDescription": "Cztery role. Cztery widoki. Jedno źródło prawdy.",
       "personas": [
         {
           "title": "Lider HR i Zasobów Ludzkich",
-          "outcome": "Zatrudnianie do emerytury na jednej platformie — onboarding, wydajność, talenty, gotowość płacowa, offboarding — zasilając Labor Intelligence w tym samym czasie.",
+          "outcome": "Zatrudnianie do emerytury na jednej platformie - onboarding, wydajność, talenty, gotowość płacowa, offboarding - zasilając Labor Intelligence w tym samym czasie.",
           "metric": "60+ powierzchni HR"
         },
         {
@@ -4224,7 +4224,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Administrator Płac",
-          "outcome": "Zamknij gotowość płacową bez chaosu arkuszy kalkulacyjnych. Pakiety wieloregionowe — USA, Kanada, Wielka Brytania, UE, GCC — organizują eksporty ustawowe, powierzchnie roczne, dowody i przepływy pracy przekazywania partnerów.",
+          "outcome": "Zamknij gotowość płacową bez chaosu arkuszy kalkulacyjnych. Pakiety wieloregionowe - USA, Kanada, Wielka Brytania, UE, GCC - organizują eksporty ustawowe, powierzchnie roczne, dowody i przepływy pracy przekazywania partnerów.",
           "metric": "USA · CA · UK · UE · GCC"
         },
         {
@@ -4235,7 +4235,7 @@ export const generatedLocalCopy = {
       ],
       "byohrEyebrow": "JUŻ NA BAYZAT, PERSONIO LUB GUSTO?",
       "byohrTitle": "Załoga jest opcjonalna. Pętla inteligencji nie jest.",
-      "byohrDescription": "Przynieś własne HR. Kanoniczny kontrakt domeny HR Sundae odczytuje z dowolnego zgodnego adaptera — a Labor Intelligence wciąż zyskuje 5–10× więcej niż konkurenci, którzy widzą tylko POS.",
+      "byohrDescription": "Przynieś własne HR. Kanoniczny kontrakt domeny HR Sundae odczytuje z dowolnego zgodnego adaptera - a Labor Intelligence wciąż zyskuje 5-10× więcej niż konkurenci, którzy widzą tylko POS.",
       "byohrItems": [
         "Bayzat (MEA hospitality)",
         "Personio (EU)",
@@ -4261,7 +4261,7 @@ export const generatedLocalCopy = {
       "loopTitle": "インテリジェンス層を支える運用層。",
       "loopDescription": "単独の HR ベンダーはシフト表だけを見ます。単独の分析ツールは POS だけを見ます。Sundae はそのループをつなぎ、このループが守りやすい優位性になります。",
       "loopLeftLabel": "スタンドアロンの人事 / 給与",
-      "loopLeftBody": "スケジュール、時間、給与を管理します。レポートは労働力で止まります。マージン、需要の文脈、意思決定の質 — それは彼らの仕事ではありません。",
+      "loopLeftBody": "スケジュール、時間、給与を管理します。レポートは労働力で止まります。マージン、需要の文脈、意思決定の質 - それは彼らの仕事ではありません。",
       "loopRightLabel": "Sundaeのクルー",
       "loopRightBody": "すべてのシフト、時間、交代、証明、給与サイクルがシグナルになります。Labor Intelligence が読み取り、Pulse が通知し、Foresight がそれを基に予測します。プラットフォーム全体の精度が高まります。",
       "loopClosing": "同じ労働力データ。複合的なインテリジェンス。",
@@ -4311,7 +4311,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "クルーコーチ + デシジョンリプレイ",
-          "body": "クルーコーチは、労働力分野におけるあなたのAIパートナーです — 自然言語リクエスト、出典を明示した回答、マネージャーが擁護できる推奨事項。デシジョンリプレイは、誰が決定したか、何が変わったか、モデルが何を言ったかを記録します。デフォルトで監査対応済みです。",
+          "body": "クルーコーチは、労働力分野におけるあなたのAIパートナーです - 自然言語リクエスト、出典を明示した回答、マネージャーが擁護できる推奨事項。デシジョンリプレイは、誰が決定したか、何が変わったか、モデルが何を言ったかを記録します。デフォルトで監査対応済みです。",
           "chips": [
             "AIアシスタント",
             "出典明示",
@@ -4334,7 +4334,7 @@ export const generatedLocalCopy = {
       "coverageItems": [
         {
           "title": "従業員モバイルポータル",
-          "body": "すべての従業員には無料のSundaeアカウントが提供されます — シフトの確認、休暇のリクエスト、シフトの交換、給与明細、証明書、生体認証の打刻が可能です。"
+          "body": "すべての従業員には無料のSundaeアカウントが提供されます - シフトの確認、休暇のリクエスト、シフトの交換、給与明細、証明書、生体認証の打刻が可能です。"
         },
         {
           "title": "コミュニケーション",
@@ -4561,14 +4561,14 @@ export const generatedLocalCopy = {
       "bundleLabel": "クルー運営 + クルー完了",
       "bundleDescription": "オペレーティングは、オペレーション、T&A、給与を統合します。コンプリートは、フルワークフォースインテリジェンスループのために、ピープルインテリジェンスを追加します。",
       "freeTierLabel": "全ての従業員に無料",
-      "freeTierDescription": "すべてのCrew従業員は、無料のSundaeセルフサービスアカウントを取得できます — シフトの確認、休暇のリクエスト、給与明細の確認、打刻が可能です。ボトムアップの労働力アイデンティティが含まれています。",
+      "freeTierDescription": "すべてのCrew従業員は、無料のSundaeセルフサービスアカウントを取得できます - シフトの確認、休暇のリクエスト、給与明細の確認、打刻が可能です。ボトムアップの労働力アイデンティティが含まれています。",
       "personasEyebrow": "クルーを運営しているのは誰ですか",
       "personasTitle": "実際にフロアを運営する人々のために作られています。",
       "personasDescription": "4つの役割。4つのスコープされたビュー。1つの真実の源。",
       "personas": [
         {
           "title": "HR & People Lead",
-          "outcome": "採用から退職までを1つのプラットフォームで — オンボーディング、パフォーマンス、タレント、給与準備、オフボーディング — 労働インテリジェンスに同時にフィードします。",
+          "outcome": "採用から退職までを1つのプラットフォームで - オンボーディング、パフォーマンス、タレント、給与準備、オフボーディング - 労働インテリジェンスに同時にフィードします。",
           "metric": "60以上のHRサーフェス"
         },
         {
@@ -4578,7 +4578,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Payroll Admin",
-          "outcome": "スプレッドシートの混乱なしに給与準備を完了します。米国、カナダ、英国、EU、GCCのマルチリージョンパック — 法定エクスポート、年末サーフェス、証拠、パートナー引き渡しワークフローを整理します。",
+          "outcome": "スプレッドシートの混乱なしに給与準備を完了します。米国、カナダ、英国、EU、GCCのマルチリージョンパック - 法定エクスポート、年末サーフェス、証拠、パートナー引き渡しワークフローを整理します。",
           "metric": "米国 · カナダ · 英国 · EU · GCC"
         },
         {
@@ -4589,7 +4589,7 @@ export const generatedLocalCopy = {
       ],
       "byohrEyebrow": "すでにBAYZAT、PERSONIO、またはGUSTOをご利用ですか？",
       "byohrTitle": "クルーは任意ですが、インテリジェンスループは必須です。",
-      "byohrDescription": "自分のHRを持ち込む。Sundaeの標準HRドメイン契約は、すべての準拠アダプターから読み取ります — そして、Labor IntelligenceはPOSのみを見ている競合よりも5〜10倍豊富なデータを得ます。",
+      "byohrDescription": "自分のHRを持ち込む。Sundaeの標準HRドメイン契約は、すべての準拠アダプターから読み取ります - そして、Labor IntelligenceはPOSのみを見ている競合よりも5〜10倍豊富なデータを得ます。",
       "byohrItems": [
         "Bayzat (MEAホスピタリティ)",
         "Personio (EU)",
@@ -4608,14 +4608,14 @@ export const generatedLocalCopy = {
       "badge": "ĐỘI NGŨ · NỀN TẢNG VẬN HÀNH",
       "heroLine1": "Mỗi ca",
       "heroLine2": "trở thành tín hiệu.",
-      "description": "Crew quản lý nhân sự, lịch trình, thời gian, hoạt động nhân sự, chuẩn bị bảng lương và hỗ trợ nhân viên. Mỗi hành động trở thành dữ liệu hoạt động cung cấp cho trí tuệ quyết định của Sundae — một vòng lặp mà các nhà cung cấp HR hoặc bảng lương độc lập không thể khép lại.",
+      "description": "Crew quản lý nhân sự, lịch trình, thời gian, hoạt động nhân sự, chuẩn bị bảng lương và hỗ trợ nhân viên. Mỗi hành động trở thành dữ liệu hoạt động cung cấp cho trí tuệ quyết định của Sundae - một vòng lặp mà các nhà cung cấp HR hoặc bảng lương độc lập không thể khép lại.",
       "primaryCta": "Đặt một buổi hướng dẫn Crew",
       "secondaryCta": "Xem Đội Ngũ Hoạt Động",
       "loopEyebrow": "TẠI SAO CREW NGỒI TRONG SUNDAE",
       "loopTitle": "Lớp vận hành cung cấp sức mạnh cho lớp trí tuệ.",
-      "loopDescription": "Nhà cung cấp HR riêng lẻ chỉ thấy lịch làm việc. Công cụ phân tích riêng lẻ chỉ thấy POS. Sundae khép kín vòng lặp — và chính vòng lặp đó trở thành lợi thế khó sao chép.",
+      "loopDescription": "Nhà cung cấp HR riêng lẻ chỉ thấy lịch làm việc. Công cụ phân tích riêng lẻ chỉ thấy POS. Sundae khép kín vòng lặp - và chính vòng lặp đó trở thành lợi thế khó sao chép.",
       "loopLeftLabel": "HR / tiền lương độc lập",
-      "loopLeftBody": "Sở hữu lịch trình, giờ làm việc, bảng lương. Báo cáo dừng lại ở lực lượng lao động. Biên độ, ngữ cảnh nhu cầu, chất lượng quyết định — không phải việc của họ.",
+      "loopLeftBody": "Sở hữu lịch trình, giờ làm việc, bảng lương. Báo cáo dừng lại ở lực lượng lao động. Biên độ, ngữ cảnh nhu cầu, chất lượng quyết định - không phải việc của họ.",
       "loopRightLabel": "Đội ngũ bên trong Sundae",
       "loopRightBody": "Mỗi ca làm, giờ, lần đổi ca, xác nhận và chu kỳ lương đều trở thành một tín hiệu. Labor Intelligence đọc tín hiệu đó. Pulse cảnh báo. Foresight dự báo dựa trên tín hiệu đó. Toàn bộ nền tảng ngày càng chính xác hơn.",
       "loopClosing": "Dữ liệu lực lượng lao động giống nhau. Trí tuệ tích lũy.",
@@ -4625,7 +4625,7 @@ export const generatedLocalCopy = {
       "pillars": [
         {
           "title": "Lập lịch",
-          "body": "AI Builder tạo lịch từ dự báo nhu cầu, sự kết hợp vai trò và đủ điều kiện — sau đó quản lý chỉnh sửa bốn chế độ xem quan trọng (tổng quan, theo người, theo ca, theo vai trò). Kiểm tra tính đủ điều kiện, cảnh báo xung đột, lớp ngày lễ công cộng.",
+          "body": "AI Builder tạo lịch từ dự báo nhu cầu, sự kết hợp vai trò và đủ điều kiện - sau đó quản lý chỉnh sửa bốn chế độ xem quan trọng (tổng quan, theo người, theo ca, theo vai trò). Kiểm tra tính đủ điều kiện, cảnh báo xung đột, lớp ngày lễ công cộng.",
           "chips": [
             "AI Builder",
             "4 chế độ xem",
@@ -4665,7 +4665,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Huấn Luyện Viên Nhân Sự + Phát Lại Quyết Định",
-          "body": "Huấn Luyện Viên Nhân Sự là đối tác AI của bạn trong lĩnh vực lao động — yêu cầu bằng ngôn ngữ tự nhiên, câu trả lời có nguồn gốc, các khuyến nghị mà người quản lý có thể bảo vệ. Phát Lại Quyết Định ghi lại mọi hành động: ai đã quyết định, điều gì đã thay đổi, mô hình đã nói gì. Sẵn sàng kiểm toán theo mặc định.",
+          "body": "Huấn Luyện Viên Nhân Sự là đối tác AI của bạn trong lĩnh vực lao động - yêu cầu bằng ngôn ngữ tự nhiên, câu trả lời có nguồn gốc, các khuyến nghị mà người quản lý có thể bảo vệ. Phát Lại Quyết Định ghi lại mọi hành động: ai đã quyết định, điều gì đã thay đổi, mô hình đã nói gì. Sẵn sàng kiểm toán theo mặc định.",
           "chips": [
             "Trợ lý AI",
             "Có nguồn gốc",
@@ -4688,7 +4688,7 @@ export const generatedLocalCopy = {
       "coverageItems": [
         {
           "title": "Cổng thông tin di động cho nhân viên",
-          "body": "Mỗi nhân viên đều có một tài khoản Sundae miễn phí — xem ca làm, yêu cầu nghỉ phép, hoán đổi, bảng lương, xác nhận, điểm danh sinh trắc học."
+          "body": "Mỗi nhân viên đều có một tài khoản Sundae miễn phí - xem ca làm, yêu cầu nghỉ phép, hoán đổi, bảng lương, xác nhận, điểm danh sinh trắc học."
         },
         {
           "title": "Giao tiếp",
@@ -4915,14 +4915,14 @@ export const generatedLocalCopy = {
       "bundleLabel": "Vận hành Nhóm + Hoàn thành Nhóm",
       "bundleDescription": "Vận hành kết hợp các hoạt động, T&A và Bảng lương. Hoàn chỉnh thêm Trí tuệ Nhân sự cho vòng lặp trí tuệ lực lượng lao động đầy đủ.",
       "freeTierLabel": "Miễn phí cho mọi nhân viên",
-      "freeTierDescription": "Mỗi nhân viên Crew đều có một tài khoản tự phục vụ Sundae miễn phí — xem ca làm việc, yêu cầu nghỉ phép, xem bảng lương, chấm công. Danh tính lực lượng lao động từ dưới lên, đã bao gồm.",
+      "freeTierDescription": "Mỗi nhân viên Crew đều có một tài khoản tự phục vụ Sundae miễn phí - xem ca làm việc, yêu cầu nghỉ phép, xem bảng lương, chấm công. Danh tính lực lượng lao động từ dưới lên, đã bao gồm.",
       "personasEyebrow": "AI AI QUẢN LÝ CREW",
       "personasTitle": "Dành cho những người thực sự điều hành sàn.",
       "personasDescription": "Bốn vai trò. Bốn góc nhìn khác nhau. Một nguồn thông tin chính xác.",
       "personas": [
         {
           "title": "Lãnh đạo Nhân sự & Con người",
-          "outcome": "Từ tuyển dụng đến nghỉ hưu trên một nền tảng — onboarding, hiệu suất, tài năng, chuẩn bị trả lương, offboarding — cung cấp thông tin về Lao động trong cùng một lúc.",
+          "outcome": "Từ tuyển dụng đến nghỉ hưu trên một nền tảng - onboarding, hiệu suất, tài năng, chuẩn bị trả lương, offboarding - cung cấp thông tin về Lao động trong cùng một lúc.",
           "metric": "60+ bề mặt HR"
         },
         {
@@ -4932,7 +4932,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Quản trị viên Tiền lương",
-          "outcome": "Đóng chuẩn bị trả lương mà không có sự hỗn loạn của bảng tính. Gói đa vùng — Mỹ, Canada, Vương quốc Anh, EU, GCC — tổ chức xuất khẩu theo quy định, bề mặt cuối năm, chứng cứ và quy trình bàn giao đối tác.",
+          "outcome": "Đóng chuẩn bị trả lương mà không có sự hỗn loạn của bảng tính. Gói đa vùng - Mỹ, Canada, Vương quốc Anh, EU, GCC - tổ chức xuất khẩu theo quy định, bề mặt cuối năm, chứng cứ và quy trình bàn giao đối tác.",
           "metric": "Mỹ · CA · UK · EU · GCC"
         },
         {
@@ -4943,7 +4943,7 @@ export const generatedLocalCopy = {
       ],
       "byohrEyebrow": "ĐÃ CÓ TRÊN BAYZAT, PERSONIO, HOẶC GUSTO?",
       "byohrTitle": "Đội ngũ là tùy chọn. Vòng lặp trí tuệ thì không.",
-      "byohrDescription": "Mang theo HR của riêng bạn. Hợp đồng miền HR chuẩn của Sundae đọc từ bất kỳ bộ điều hợp tuân thủ nào — và Labor Intelligence vẫn có giá trị gấp 5–10 lần so với các đối thủ chỉ nhìn thấy POS.",
+      "byohrDescription": "Mang theo HR của riêng bạn. Hợp đồng miền HR chuẩn của Sundae đọc từ bất kỳ bộ điều hợp tuân thủ nào - và Labor Intelligence vẫn có giá trị gấp 5-10 lần so với các đối thủ chỉ nhìn thấy POS.",
       "byohrItems": [
         "Bayzat (khách sạn MEA)",
         "Personio (EU)",
@@ -4962,14 +4962,14 @@ export const generatedLocalCopy = {
       "badge": "ECHIPĂ · SUBSTRAT OPERAȚIONAL",
       "heroLine1": "Fiecare tură",
       "heroLine2": "devine semnal.",
-      "description": "Crew gestionează oamenii tăi, programările, timpul, operațiunile HR, pregătirea pentru salarii și suportul angajaților. Fiecare acțiune devine date operaționale care alimentează inteligența decizională a Sundae — un ciclu pe care furnizorii de HR sau salarii independenți nu îl pot închide.",
+      "description": "Crew gestionează oamenii tăi, programările, timpul, operațiunile HR, pregătirea pentru salarii și suportul angajaților. Fiecare acțiune devine date operaționale care alimentează inteligența decizională a Sundae - un ciclu pe care furnizorii de HR sau salarii independenți nu îl pot închide.",
       "primaryCta": "Rezervați un tur al echipei",
       "secondaryCta": "Vezi echipa în acțiune",
       "loopEyebrow": "DE CE CREW SE AFLĂ ÎN SUNDAE",
       "loopTitle": "Stratul operațional care susține stratul de inteligență.",
-      "loopDescription": "Furnizorii HR separați văd programările. Instrumentele de analiză separate văd POS. Sundae închide bucla — iar bucla devine avantajul greu de copiat.",
+      "loopDescription": "Furnizorii HR separați văd programările. Instrumentele de analiză separate văd POS. Sundae închide bucla - iar bucla devine avantajul greu de copiat.",
       "loopLeftLabel": "HR / salarii independente",
-      "loopLeftBody": "Deține programele, orele, salariile. Rapoartele se opresc la forța de muncă. Marja, contextul cererii, calitatea deciziilor — nu este treaba lor.",
+      "loopLeftBody": "Deține programele, orele, salariile. Rapoartele se opresc la forța de muncă. Marja, contextul cererii, calitatea deciziilor - nu este treaba lor.",
       "loopRightLabel": "Echipă în interiorul Sundae",
       "loopRightBody": "Fiecare tură, oră, schimb, atestare și ciclu de plată devine un semnal. Labor Intelligence îl citește. Pulse alertează. Foresight prognozează pe baza lui. Întreaga platformă devine mai precisă.",
       "loopClosing": "Aceleași date despre forța de muncă. Inteligență compusă.",
@@ -4979,7 +4979,7 @@ export const generatedLocalCopy = {
       "pillars": [
         {
           "title": "Programare",
-          "body": "AI Builder compune programul pe baza prognozei de cerere, mixului de roluri și eligibilității — apoi managerul editează cele patru moduri de vizualizare importante (prezentare generală, pe persoană, pe schimb, pe rol). Recurrență, verificări de eligibilitate, avertizări de conflict, suprapuneri de zile libere.",
+          "body": "AI Builder compune programul pe baza prognozei de cerere, mixului de roluri și eligibilității - apoi managerul editează cele patru moduri de vizualizare importante (prezentare generală, pe persoană, pe schimb, pe rol). Recurrență, verificări de eligibilitate, avertizări de conflict, suprapuneri de zile libere.",
           "chips": [
             "AI Builder",
             "4 moduri de vizualizare",
@@ -5019,7 +5019,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Antrenor de Echipă + Redare a Deciziilor",
-          "body": "Antrenorul de Echipă este partenerul tău AI în domeniul forței de muncă — cereri în limbaj natural, răspunsuri cu sursă citată, recomandări pe care un manager le poate susține. Redarea Deciziilor înregistrează fiecare acțiune: cine a decis, ce s-a schimbat, ce a spus modelul. Pregătit pentru audit din start.",
+          "body": "Antrenorul de Echipă este partenerul tău AI în domeniul forței de muncă - cereri în limbaj natural, răspunsuri cu sursă citată, recomandări pe care un manager le poate susține. Redarea Deciziilor înregistrează fiecare acțiune: cine a decis, ce s-a schimbat, ce a spus modelul. Pregătit pentru audit din start.",
           "chips": [
             "asistent AI",
             "surse citate",
@@ -5042,7 +5042,7 @@ export const generatedLocalCopy = {
       "coverageItems": [
         {
           "title": "Portal mobil pentru angajați",
-          "body": "Fiecare angajat primește un cont gratuit Sundae — vizualizează turele, solicită concediu, schimbă, fluturașe de salariu, atestări, înregistrare biometrică."
+          "body": "Fiecare angajat primește un cont gratuit Sundae - vizualizează turele, solicită concediu, schimbă, fluturașe de salariu, atestări, înregistrare biometrică."
         },
         {
           "title": "Comunicații",
@@ -5269,14 +5269,14 @@ export const generatedLocalCopy = {
       "bundleLabel": "Echipă Operațională + Echipă Completă",
       "bundleDescription": "Operațiunile combină Operațiuni, T&A și Salarizare. Complet adaugă Inteligența Oamenilor pentru întregul ciclu de inteligență a forței de muncă.",
       "freeTierLabel": "Gratuit pentru fiecare angajat",
-      "freeTierDescription": "Fiecare angajat din Crew primește un cont gratuit de auto-servire Sundae — vizualizează turele, solicită zile libere, vizualizează fluturașele de salariu, înregistrează prezența. Identitate a forței de muncă de jos în sus, inclusă.",
+      "freeTierDescription": "Fiecare angajat din Crew primește un cont gratuit de auto-servire Sundae - vizualizează turele, solicită zile libere, vizualizează fluturașele de salariu, înregistrează prezența. Identitate a forței de muncă de jos în sus, inclusă.",
       "personasEyebrow": "CINE GESTIONEAZĂ CREW",
       "personasTitle": "Construit pentru oamenii care de fapt conduc activitatea.",
       "personasDescription": "Patru roluri. Patru perspective definite. O sursă de adevăr.",
       "personas": [
         {
           "title": "HR & People Lead",
-          "outcome": "Angajare până la pensionare pe o singură platformă — integrare, performanță, talent, pregătire pentru salarii, ieșire — alimentând Inteligența Muncii în același timp.",
+          "outcome": "Angajare până la pensionare pe o singură platformă - integrare, performanță, talent, pregătire pentru salarii, ieșire - alimentând Inteligența Muncii în același timp.",
           "metric": "60+ suprafețe HR"
         },
         {
@@ -5286,7 +5286,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Payroll Admin",
-          "outcome": "Finalizați pregătirea pentru salarii fără haosul foilor de calcul. Pachete multi-regiune — SUA, Canada, Marea Britanie, UE, GCC — organizează exporturi legale, suprafețe de sfârșit de an, dovezi și fluxuri de predare către parteneri.",
+          "outcome": "Finalizați pregătirea pentru salarii fără haosul foilor de calcul. Pachete multi-regiune - SUA, Canada, Marea Britanie, UE, GCC - organizează exporturi legale, suprafețe de sfârșit de an, dovezi și fluxuri de predare către parteneri.",
           "metric": "SUA · CA · UK · UE · GCC"
         },
         {
@@ -5297,7 +5297,7 @@ export const generatedLocalCopy = {
       ],
       "byohrEyebrow": "DEJA PE BAYZAT, PERSONIO SAU GUSTO?",
       "byohrTitle": "Echipa este opțională. Ciclu de inteligență nu este.",
-      "byohrDescription": "Adu-ți propriul HR. Contractul de domeniu HR canonical al Sundae se citește din orice adaptor conform — iar Labor Intelligence rămâne cu 5–10× mai bogat decât concurenții care văd doar POS.",
+      "byohrDescription": "Adu-ți propriul HR. Contractul de domeniu HR canonical al Sundae se citește din orice adaptor conform - iar Labor Intelligence rămâne cu 5-10× mai bogat decât concurenții care văd doar POS.",
       "byohrItems": [
         "Bayzat (MEA hospitality)",
         "Personio (UE)",
@@ -5316,14 +5316,14 @@ export const generatedLocalCopy = {
       "badge": "CREW · SUBSTRAT OPERASIONAL",
       "heroLine1": "Setiap shift",
       "heroLine2": "menjadi sinyal.",
-      "description": "Crew mengelola orang, jadwal, waktu, operasi SDM, kesiapan penggajian, dan dukungan karyawan Anda. Setiap tindakan menjadi data operasional yang memberi informasi pada kecerdasan keputusan Sundae — sebuah siklus yang tidak dapat ditutup oleh vendor SDM atau penggajian mandiri.",
+      "description": "Crew mengelola orang, jadwal, waktu, operasi SDM, kesiapan penggajian, dan dukungan karyawan Anda. Setiap tindakan menjadi data operasional yang memberi informasi pada kecerdasan keputusan Sundae - sebuah siklus yang tidak dapat ditutup oleh vendor SDM atau penggajian mandiri.",
       "primaryCta": "Pesan Tur Tim",
       "secondaryCta": "Lihat Kru Beraksi",
       "loopEyebrow": "MENGAPA CREW SITS DI SUNDAE",
       "loopTitle": "Lapisan operasional yang mendukung lapisan intelijen.",
-      "loopDescription": "Vendor HR yang berdiri sendiri melihat jadwal. Alat analitik yang berdiri sendiri melihat POS. Sundae menutup siklusnya — dan siklus itu menjadi keunggulan yang sulit ditiru.",
+      "loopDescription": "Vendor HR yang berdiri sendiri melihat jadwal. Alat analitik yang berdiri sendiri melihat POS. Sundae menutup siklusnya - dan siklus itu menjadi keunggulan yang sulit ditiru.",
       "loopLeftLabel": "HR / penggajian Mandiri",
-      "loopLeftBody": "Mengelola jadwal, jam kerja, dan penggajian. Laporan berhenti di tenaga kerja. Margin, konteks permintaan, kualitas keputusan — bukan tugas mereka.",
+      "loopLeftBody": "Mengelola jadwal, jam kerja, dan penggajian. Laporan berhenti di tenaga kerja. Margin, konteks permintaan, kualitas keputusan - bukan tugas mereka.",
       "loopRightLabel": "Kru di dalam Sundae",
       "loopRightBody": "Setiap shift, jam, pertukaran, pernyataan, dan siklus penggajian menjadi sinyal. Labor Intelligence membacanya. Pulse memberi peringatan. Foresight membuat prediksi dari sinyal itu. Seluruh platform menjadi lebih akurat.",
       "loopClosing": "Data tenaga kerja yang sama. Kecerdasan yang saling menguatkan.",
@@ -5333,7 +5333,7 @@ export const generatedLocalCopy = {
       "pillars": [
         {
           "title": "Jadwal",
-          "body": "AI Builder menyusun jadwal dari perkiraan permintaan, campuran peran, dan kelayakan — kemudian manajer mengedit empat mode tampilan yang penting (ikhtisar, per orang, per shift, per peran). Pengulangan, pemeriksaan kelayakan, peringatan konflik, overlay hari libur umum.",
+          "body": "AI Builder menyusun jadwal dari perkiraan permintaan, campuran peran, dan kelayakan - kemudian manajer mengedit empat mode tampilan yang penting (ikhtisar, per orang, per shift, per peran). Pengulangan, pemeriksaan kelayakan, peringatan konflik, overlay hari libur umum.",
           "chips": [
             "AI Builder",
             "4 mode tampilan",
@@ -5373,7 +5373,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Pelatih Tim + Ulang Keputusan",
-          "body": "Pelatih Tim adalah mitra AI Anda di seluruh domain tenaga kerja — permintaan bahasa alami, jawaban yang disertai sumber, rekomendasi yang dapat dipertahankan oleh manajer. Ulang Keputusan mencatat setiap tindakan: siapa yang memutuskan, apa yang berubah, apa yang dikatakan model. Siap diaudit secara default.",
+          "body": "Pelatih Tim adalah mitra AI Anda di seluruh domain tenaga kerja - permintaan bahasa alami, jawaban yang disertai sumber, rekomendasi yang dapat dipertahankan oleh manajer. Ulang Keputusan mencatat setiap tindakan: siapa yang memutuskan, apa yang berubah, apa yang dikatakan model. Siap diaudit secara default.",
           "chips": [
             "Asisten AI",
             "Disertai sumber",
@@ -5396,7 +5396,7 @@ export const generatedLocalCopy = {
       "coverageItems": [
         {
           "title": "Portal seluler karyawan",
-          "body": "Setiap karyawan mendapatkan akun Sundae gratis — lihat jadwal, minta cuti, tukar, slip gaji, pernyataan, clock-in biometrik."
+          "body": "Setiap karyawan mendapatkan akun Sundae gratis - lihat jadwal, minta cuti, tukar, slip gaji, pernyataan, clock-in biometrik."
         },
         {
           "title": "Komunikasi",
@@ -5623,14 +5623,14 @@ export const generatedLocalCopy = {
       "bundleLabel": "Operasi Kru + Kru Lengkap",
       "bundleDescription": "Mengoperasikan menggabungkan Operasi, T&A, dan Penggajian. Lengkap menambahkan Kecerdasan Sumber Daya Manusia untuk siklus kecerdasan tenaga kerja yang lengkap.",
       "freeTierLabel": "Gratis untuk setiap karyawan",
-      "freeTierDescription": "Setiap karyawan Crew mendapatkan akun self-service Sundae gratis — melihat jadwal, meminta cuti, melihat slip gaji, dan mencatat waktu. Identitas tenaga kerja dari bawah ke atas, termasuk.",
+      "freeTierDescription": "Setiap karyawan Crew mendapatkan akun self-service Sundae gratis - melihat jadwal, meminta cuti, melihat slip gaji, dan mencatat waktu. Identitas tenaga kerja dari bawah ke atas, termasuk.",
       "personasEyebrow": "SIAPA YANG MENJALANKAN CREW",
       "personasTitle": "Dibuat untuk orang-orang yang benar-benar mengelola lantai.",
       "personasDescription": "Empat peran. Empat tampilan terfokus. Satu sumber kebenaran.",
       "personas": [
         {
           "title": "HR & People Lead",
-          "outcome": "Rekrut hingga pensiun dalam satu platform — orientasi, kinerja, bakat, kesiapan penggajian, offboarding — memberi umpan balik ke Labor Intelligence dalam satu nafas.",
+          "outcome": "Rekrut hingga pensiun dalam satu platform - orientasi, kinerja, bakat, kesiapan penggajian, offboarding - memberi umpan balik ke Labor Intelligence dalam satu nafas.",
           "metric": "60+ permukaan HR"
         },
         {
@@ -5640,7 +5640,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Payroll Admin",
-          "outcome": "Tutup kesiapan penggajian tanpa kekacauan spreadsheet. Paket multi-region — AS, Kanada, Inggris, UE, GCC — mengatur ekspor wajib, permukaan akhir tahun, bukti, dan alur kerja serah terima mitra.",
+          "outcome": "Tutup kesiapan penggajian tanpa kekacauan spreadsheet. Paket multi-region - AS, Kanada, Inggris, UE, GCC - mengatur ekspor wajib, permukaan akhir tahun, bukti, dan alur kerja serah terima mitra.",
           "metric": "AS · CA · UK · UE · GCC"
         },
         {
@@ -5651,7 +5651,7 @@ export const generatedLocalCopy = {
       ],
       "byohrEyebrow": "SUDAH MENGGUNAKAN BAYZAT, PERSONIO, ATAU GUSTO?",
       "byohrTitle": "Kru adalah opsional. Lingkaran kecerdasan tidak.",
-      "byohrDescription": "Bawa HR Anda sendiri. Kontrak domain HR kanonik Sundae membaca dari adapter yang sesuai — dan Labor Intelligence tetap mendapatkan 5–10× lebih kaya daripada pesaing yang hanya melihat POS.",
+      "byohrDescription": "Bawa HR Anda sendiri. Kontrak domain HR kanonik Sundae membaca dari adapter yang sesuai - dan Labor Intelligence tetap mendapatkan 5-10× lebih kaya daripada pesaing yang hanya melihat POS.",
       "byohrItems": [
         "Bayzat (MEA hospitality)",
         "Personio (EU)",
@@ -5677,7 +5677,7 @@ export const generatedLocalCopy = {
       "loopTitle": "지능 계층을 지원하는 운영 계층입니다.",
       "loopDescription": "별도 HR 공급업체는 일정만 봅니다. 별도 분석 도구는 POS만 봅니다. Sundae는 그 순환을 완성하고, 그 순환이 모방하기 어려운 경쟁력이 됩니다.",
       "loopLeftLabel": "독립형 인사 / 급여",
-      "loopLeftBody": "일정, 근무 시간, 급여를 관리합니다. 보고서는 인력에서 중단됩니다. 마진, 수요 맥락, 의사 결정 품질 — 그들의 일이 아닙니다.",
+      "loopLeftBody": "일정, 근무 시간, 급여를 관리합니다. 보고서는 인력에서 중단됩니다. 마진, 수요 맥락, 의사 결정 품질 - 그들의 일이 아닙니다.",
       "loopRightLabel": "Sundae 내부의 크루",
       "loopRightBody": "모든 근무, 시간, 교대, 확인, 급여 주기는 신호가 됩니다. Labor Intelligence가 이를 읽고, Pulse가 알림을 보내며, Foresight가 이를 바탕으로 예측합니다. 전체 플랫폼은 더 정교해집니다.",
       "loopClosing": "동일한 인력 데이터. 복합 지능.",
@@ -5727,7 +5727,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "크루 코치 + 결정 재생",
-          "body": "크루 코치는 인력 관리 분야에서 당신의 AI 파트너입니다 — 자연어 요청, 출처가 명시된 답변, 관리자가 방어할 수 있는 추천. 결정 재생은 모든 행동을 기록합니다: 누가 결정했는지, 무엇이 변경되었는지, 모델이 무엇을 말했는지. 기본적으로 감사 준비 완료입니다.",
+          "body": "크루 코치는 인력 관리 분야에서 당신의 AI 파트너입니다 - 자연어 요청, 출처가 명시된 답변, 관리자가 방어할 수 있는 추천. 결정 재생은 모든 행동을 기록합니다: 누가 결정했는지, 무엇이 변경되었는지, 모델이 무엇을 말했는지. 기본적으로 감사 준비 완료입니다.",
           "chips": [
             "AI 어시스턴트",
             "출처 명시",
@@ -5977,14 +5977,14 @@ export const generatedLocalCopy = {
       "bundleLabel": "크루 운영 + 크루 완료",
       "bundleDescription": "운영은 운영, T&A 및 급여를 결합합니다. 완전한 기능은 전체 인력 정보 루프를 위한 인사 정보를 추가합니다.",
       "freeTierLabel": "모든 직원에게 무료",
-      "freeTierDescription": "모든 Crew 직원은 무료 Sundae 셀프 서비스 계정을 받습니다 — 근무 시간을 확인하고, 휴가를 요청하며, 급여 명세서를 보고, 출근할 수 있습니다. 하향식 인력 신원, 포함되어 있습니다.",
+      "freeTierDescription": "모든 Crew 직원은 무료 Sundae 셀프 서비스 계정을 받습니다 - 근무 시간을 확인하고, 휴가를 요청하며, 급여 명세서를 보고, 출근할 수 있습니다. 하향식 인력 신원, 포함되어 있습니다.",
       "personasEyebrow": "크루를 운영하는 사람은 누구인가",
       "personasTitle": "실제로 현장을 운영하는 사람들을 위해 만들어졌습니다.",
       "personasDescription": "네 가지 역할. 네 가지 범위의 보기. 하나의 진실의 원천.",
       "personas": [
         {
           "title": "HR 및 인사 리드",
-          "outcome": "하나의 플랫폼에서 채용부터 퇴직까지 — 온보딩, 성과, 인재, 급여 준비, 오프보딩 — Labor Intelligence에 즉시 반영됩니다.",
+          "outcome": "하나의 플랫폼에서 채용부터 퇴직까지 - 온보딩, 성과, 인재, 급여 준비, 오프보딩 - Labor Intelligence에 즉시 반영됩니다.",
           "metric": "60개 이상의 HR 인터페이스"
         },
         {
@@ -5994,7 +5994,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "급여 관리자",
-          "outcome": "스프레드시트 혼란 없이 급여 준비 완료. 미국, 캐나다, 영국, EU, GCC의 다중 지역 패키지 — 법적 수출, 연말 보고서, 증거 및 파트너 인계 작업 흐름을 정리합니다.",
+          "outcome": "스프레드시트 혼란 없이 급여 준비 완료. 미국, 캐나다, 영국, EU, GCC의 다중 지역 패키지 - 법적 수출, 연말 보고서, 증거 및 파트너 인계 작업 흐름을 정리합니다.",
           "metric": "미국 · 캐나다 · 영국 · EU · GCC"
         },
         {
@@ -6005,7 +6005,7 @@ export const generatedLocalCopy = {
       ],
       "byohrEyebrow": "이미 BAYZAT, PERSONIO 또는 GUSTO에 가입하셨나요?",
       "byohrTitle": "크루는 선택 사항입니다. 인텔리전스 루프는 그렇지 않습니다.",
-      "byohrDescription": "자신의 HR을 가져오세요. Sundae의 표준 HR 도메인 계약은 모든 호환 어댑터에서 읽을 수 있으며, Labor Intelligence는 POS만 보는 경쟁사보다 5–10배 더 풍부한 데이터를 제공합니다.",
+      "byohrDescription": "자신의 HR을 가져오세요. Sundae의 표준 HR 도메인 계약은 모든 호환 어댑터에서 읽을 수 있으며, Labor Intelligence는 POS만 보는 경쟁사보다 5-10배 더 풍부한 데이터를 제공합니다.",
       "byohrItems": [
         "Bayzat (MEA 환대)",
         "Personio (EU)",
@@ -6024,14 +6024,14 @@ export const generatedLocalCopy = {
       "badge": "CREW · OPERATIVT UNDERLAG",
       "heroLine1": "Varje skift",
       "heroLine2": "blir signal.",
-      "description": "Crew hanterar dina medarbetare, scheman, tid, HR-operationer, löneberedskap och medarbetarstöd. Varje åtgärd blir driftsdata som matar Sundae beslutsintelligens — en loop som fristående HR- eller löneleverantörer inte kan stänga.",
+      "description": "Crew hanterar dina medarbetare, scheman, tid, HR-operationer, löneberedskap och medarbetarstöd. Varje åtgärd blir driftsdata som matar Sundae beslutsintelligens - en loop som fristående HR- eller löneleverantörer inte kan stänga.",
       "primaryCta": "Boka en Crew Genomgång",
       "secondaryCta": "Se Crew i aktion",
       "loopEyebrow": "VARFÖR CREW SITTER I SUNDAE",
       "loopTitle": "Den operativa lagret som driver intelligenslagret.",
-      "loopDescription": "Fristående HR-leverantörer ser scheman. Fristående analysverktyg ser POS. Sundae sluter loopen — och den loopen blir en försvarbar fördel.",
+      "loopDescription": "Fristående HR-leverantörer ser scheman. Fristående analysverktyg ser POS. Sundae sluter loopen - och den loopen blir en försvarbar fördel.",
       "loopLeftLabel": "Fristående HR / löner",
-      "loopLeftBody": "Äger scheman, timmar, löner. Rapportering stannar vid arbetskraft. Marginal, efterfrågekontext, beslutskvalitet — inte deras jobb.",
+      "loopLeftBody": "Äger scheman, timmar, löner. Rapportering stannar vid arbetskraft. Marginal, efterfrågekontext, beslutskvalitet - inte deras jobb.",
       "loopRightLabel": "Personal inuti Sundae",
       "loopRightBody": "Varje skift, timme, byte, intyg och lönecykel blir en signal. Labor Intelligence läser den. Pulse varnar. Foresight prognostiserar utifrån den. Hela plattformen blir mer träffsäker.",
       "loopClosing": "Samma arbetskraftdata. Sammanlagd intelligens.",
@@ -6041,7 +6041,7 @@ export const generatedLocalCopy = {
       "pillars": [
         {
           "title": "Schemaläggning",
-          "body": "AI Builder skapar schemat utifrån efterfrågeprognos, rollmix och behörighet — sedan redigerar chefen de fyra visningslägen som är viktiga (översikt, per person, per skift, per roll). Återkommande, behörighetskontroller, konfliktvarningar, överlagringar för allmänna helgdagar.",
+          "body": "AI Builder skapar schemat utifrån efterfrågeprognos, rollmix och behörighet - sedan redigerar chefen de fyra visningslägen som är viktiga (översikt, per person, per skift, per roll). Återkommande, behörighetskontroller, konfliktvarningar, överlagringar för allmänna helgdagar.",
           "chips": [
             "AI Builder",
             "4 visningslägen",
@@ -6081,7 +6081,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Crew Coach + Beslutsåterspel",
-          "body": "Crew Coach är din AI-partner inom arbetskraftsområdet — förfrågningar på naturligt språk, källbelagda svar, rekommendationer som en chef kan försvara. Beslutsåterspel loggar varje åtgärd: vem beslutade, vad ändrades, vad modellen sa. Redo för granskning som standard.",
+          "body": "Crew Coach är din AI-partner inom arbetskraftsområdet - förfrågningar på naturligt språk, källbelagda svar, rekommendationer som en chef kan försvara. Beslutsåterspel loggar varje åtgärd: vem beslutade, vad ändrades, vad modellen sa. Redo för granskning som standard.",
           "chips": [
             "AI-assistent",
             "Källbelagd",
@@ -6104,7 +6104,7 @@ export const generatedLocalCopy = {
       "coverageItems": [
         {
           "title": "Anställd mobilportal",
-          "body": "Varje anställd får ett gratis Sundae-konto — se skift, begära ledighet, byta, lönebesked, intyg, biometrisk inloggning."
+          "body": "Varje anställd får ett gratis Sundae-konto - se skift, begära ledighet, byta, lönebesked, intyg, biometrisk inloggning."
         },
         {
           "title": "Kommunikation",
@@ -6331,14 +6331,14 @@ export const generatedLocalCopy = {
       "bundleLabel": "Crew Drift + Crew Komplett",
       "bundleDescription": "Operating kombinerar Operations, T&A och Lön. Complete lägger till People Intelligence för hela arbetskraftens intelligensloop.",
       "freeTierLabel": "Gratis för varje anställd",
-      "freeTierDescription": "Varje Crew-anställd får ett gratis Sundae självbetjäningskonto — se skift, begär ledighet, se lönebesked, stämpla in. Identitet för arbetskraften underifrån, ingår.",
+      "freeTierDescription": "Varje Crew-anställd får ett gratis Sundae självbetjäningskonto - se skift, begär ledighet, se lönebesked, stämpla in. Identitet för arbetskraften underifrån, ingår.",
       "personasEyebrow": "VEM DRIVS AV CREW",
       "personasTitle": "Byggd för de som faktiskt driver verksamheten.",
       "personasDescription": "Fyra roller. Fyra avgränsade vyer. En sanningskälla.",
       "personas": [
         {
           "title": "HR & People Lead",
-          "outcome": "Anställning till pension på en plattform — onboarding, prestation, talang, löneberedskap, avsked — som matar Labor Intelligence i samma andetag.",
+          "outcome": "Anställning till pension på en plattform - onboarding, prestation, talang, löneberedskap, avsked - som matar Labor Intelligence i samma andetag.",
           "metric": "60+ HR-ytor"
         },
         {
@@ -6348,7 +6348,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Payroll Admin",
-          "outcome": "Stäng löneberedskapen utan kalkylbladskaos. Multi-region paket — USA, Kanada, Storbritannien, EU, GCC — organiserar lagstadgade exporter, årsslutsytor, bevis och partneröverföringsarbetsflöden.",
+          "outcome": "Stäng löneberedskapen utan kalkylbladskaos. Multi-region paket - USA, Kanada, Storbritannien, EU, GCC - organiserar lagstadgade exporter, årsslutsytor, bevis och partneröverföringsarbetsflöden.",
           "metric": "USA · CA · UK · EU · GCC"
         },
         {
@@ -6359,7 +6359,7 @@ export const generatedLocalCopy = {
       ],
       "byohrEyebrow": "REDAN PÅ BAYZAT, PERSONIO ELLER GUSTO?",
       "byohrTitle": "Crew är valfritt. Intelligenscykeln är det inte.",
-      "byohrDescription": "Ta med din egen HR. Sundae kanoniska HR-domänkontrakt läser från vilken kompatibel adapter som helst — och Labor Intelligence får fortfarande 5–10× rikare än konkurrenter som bara ser POS.",
+      "byohrDescription": "Ta med din egen HR. Sundae kanoniska HR-domänkontrakt läser från vilken kompatibel adapter som helst - och Labor Intelligence får fortfarande 5-10× rikare än konkurrenter som bara ser POS.",
       "byohrItems": [
         "Bayzat (MEA hospitality)",
         "Personio (EU)",
@@ -6378,14 +6378,14 @@ export const generatedLocalCopy = {
       "badge": "ক্রু · অপারেশনাল সাবস্ট্রেট",
       "heroLine1": "প্রতিটি শিফট",
       "heroLine2": "সিগন্যাল হয়ে ওঠে।",
-      "description": "ক্রু আপনার কর্মী, সময়সূচী, সময়, মানবসম্পদ কার্যক্রম, বেতন প্রস্তুতি এবং কর্মচারী সহায়তা পরিচালনা করে। প্রতিটি কার্যকলাপ অপারেটিং ডেটায় পরিণত হয় যা Sundaeর সিদ্ধান্ত বুদ্ধিমত্তাকে alimentar করে — একটি লুপ যা স্বতন্ত্র মানবসম্পদ বা বেতন বিক্রেতারা বন্ধ করতে পারে না।",
+      "description": "ক্রু আপনার কর্মী, সময়সূচী, সময়, মানবসম্পদ কার্যক্রম, বেতন প্রস্তুতি এবং কর্মচারী সহায়তা পরিচালনা করে। প্রতিটি কার্যকলাপ অপারেটিং ডেটায় পরিণত হয় যা Sundaeর সিদ্ধান্ত বুদ্ধিমত্তাকে alimentar করে - একটি লুপ যা স্বতন্ত্র মানবসম্পদ বা বেতন বিক্রেতারা বন্ধ করতে পারে না।",
       "primaryCta": "একটি ক্রু ওয়াকথ্রু বুক করুন",
       "secondaryCta": "ক্রুকে কার্যক্রমে দেখুন",
       "loopEyebrow": "কেন ক্রু সানডেতে বসে",
       "loopTitle": "যে কার্যকরী স্তর বুদ্ধিমত্তা স্তরকে শক্তি দেয়।",
-      "loopDescription": "স্বতন্ত্র HR সরবরাহকারীরা শুধু সময়সূচি দেখে। স্বতন্ত্র অ্যানালিটিক্স টুল শুধু POS দেখে। Sundae সেই চক্রটি সম্পূর্ণ করে — আর সেই চক্রই কঠিন-টু-কপি সুবিধা হয়ে ওঠে।",
+      "loopDescription": "স্বতন্ত্র HR সরবরাহকারীরা শুধু সময়সূচি দেখে। স্বতন্ত্র অ্যানালিটিক্স টুল শুধু POS দেখে। Sundae সেই চক্রটি সম্পূর্ণ করে - আর সেই চক্রই কঠিন-টু-কপি সুবিধা হয়ে ওঠে।",
       "loopLeftLabel": "স্বতন্ত্র HR / বেতন",
-      "loopLeftBody": "সময়সূচী, ঘণ্টা, বেতন পরিচালনা করে। রিপোর্ট কর্মশক্তিতে থেমে যায়। মার্জিন, চাহিদার প্রেক্ষাপট, সিদ্ধান্তের গুণমান — এটি তাদের কাজ নয়।",
+      "loopLeftBody": "সময়সূচী, ঘণ্টা, বেতন পরিচালনা করে। রিপোর্ট কর্মশক্তিতে থেমে যায়। মার্জিন, চাহিদার প্রেক্ষাপট, সিদ্ধান্তের গুণমান - এটি তাদের কাজ নয়।",
       "loopRightLabel": "Crew inside Sundae",
       "loopRightBody": "প্রতিটি শিফট, ঘণ্টা, বদলি, স্বীকৃতি ও পে-রোল চক্র একটি সংকেতে পরিণত হয়। Labor Intelligence সেটি পড়ে। Pulse সতর্ক করে। Foresight সেটির ওপর ভিত্তি করে পূর্বাভাস দেয়। পুরো প্ল্যাটফর্ম আরও নির্ভুল হয়।",
       "loopClosing": "একই কর্মশক্তির তথ্য। জটিল বুদ্ধিমত্তা।",
@@ -6395,7 +6395,7 @@ export const generatedLocalCopy = {
       "pillars": [
         {
           "title": "শিডিউলিং",
-          "body": "AI বিল্ডার চাহিদার পূর্বাভাস, ভূমিকার মিশ্রণ এবং যোগ্যতা থেকে শিডিউল তৈরি করে — তারপর ম্যানেজার চারটি গুরুত্বপূর্ণ ভিউ মোড (সারসংক্ষেপ, ব্যক্তি অনুযায়ী, শিফট অনুযায়ী, ভূমিকা অনুযায়ী) সম্পাদনা করেন। পুনরাবৃত্তি, যোগ্যতা পরীক্ষা, সংঘাত সতর্কতা, পাবলিক ছুটির ওভারলে।",
+          "body": "AI বিল্ডার চাহিদার পূর্বাভাস, ভূমিকার মিশ্রণ এবং যোগ্যতা থেকে শিডিউল তৈরি করে - তারপর ম্যানেজার চারটি গুরুত্বপূর্ণ ভিউ মোড (সারসংক্ষেপ, ব্যক্তি অনুযায়ী, শিফট অনুযায়ী, ভূমিকা অনুযায়ী) সম্পাদনা করেন। পুনরাবৃত্তি, যোগ্যতা পরীক্ষা, সংঘাত সতর্কতা, পাবলিক ছুটির ওভারলে।",
           "chips": [
             "AI বিল্ডার",
             "৪টি ভিউ মোড",
@@ -6435,7 +6435,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "ক্রু কোচ + সিদ্ধান্ত পুনরাবৃত্তি",
-          "body": "ক্রু কোচ আপনার কর্মশক্তির ক্ষেত্রে AI সহযোগী — প্রাকৃতিক ভাষার অনুরোধ, উৎস-উল্লেখিত উত্তর, সুপারিশ যা একজন ব্যবস্থাপক রক্ষা করতে পারে। সিদ্ধান্ত পুনরাবৃত্তি প্রতিটি ক্রিয়া লগ করে: কে সিদ্ধান্ত নিয়েছে, কী পরিবর্তন হয়েছে, মডেলটি কী বলেছে। ডিফল্টভাবে অডিট-প্রস্তুত।",
+          "body": "ক্রু কোচ আপনার কর্মশক্তির ক্ষেত্রে AI সহযোগী - প্রাকৃতিক ভাষার অনুরোধ, উৎস-উল্লেখিত উত্তর, সুপারিশ যা একজন ব্যবস্থাপক রক্ষা করতে পারে। সিদ্ধান্ত পুনরাবৃত্তি প্রতিটি ক্রিয়া লগ করে: কে সিদ্ধান্ত নিয়েছে, কী পরিবর্তন হয়েছে, মডেলটি কী বলেছে। ডিফল্টভাবে অডিট-প্রস্তুত।",
           "chips": [
             "AI সহকারী",
             "উৎস-উল্লেখিত",
@@ -6458,7 +6458,7 @@ export const generatedLocalCopy = {
       "coverageItems": [
         {
           "title": "কর্মচারী মোবাইল পোর্টাল",
-          "body": "প্রতিটি কর্মচারী একটি বিনামূল্যের Sundae অ্যাকাউন্ট পায় — শিফট দেখুন, ছুটির জন্য অনুরোধ করুন, পরিবর্তন করুন, বেতন স্লিপ, প্রত্যয়ন, বায়োমেট্রিক ক্লক-ইন।"
+          "body": "প্রতিটি কর্মচারী একটি বিনামূল্যের Sundae অ্যাকাউন্ট পায় - শিফট দেখুন, ছুটির জন্য অনুরোধ করুন, পরিবর্তন করুন, বেতন স্লিপ, প্রত্যয়ন, বায়োমেট্রিক ক্লক-ইন।"
         },
         {
           "title": "যোগাযোগ",
@@ -6685,14 +6685,14 @@ export const generatedLocalCopy = {
       "bundleLabel": "ক্রু অপারেটিং + ক্রু সম্পূর্ণ",
       "bundleDescription": "অপারেটিং অপারেশন, T&A, এবং পে-রোলকে একত্রিত করে। কমপ্লিট সম্পূর্ণ কর্মশক্তির বুদ্ধিমত্তার জন্য পিপল ইন্টেলিজেন্স যোগ করে।",
       "freeTierLabel": "প্রতি কর্মচারীর জন্য ফ্রি",
-      "freeTierDescription": "প্রতিটি ক্রু কর্মী একটি ফ্রি Sundae স্ব-সেবা অ্যাকাউন্ট পায় — শিফট দেখুন, ছুটি চেয়ে নিন, বেতন স্লিপ দেখুন, ক্লক ইন করুন। নিচ থেকে উপরে কর্মী পরিচয়, অন্তর্ভুক্ত।",
+      "freeTierDescription": "প্রতিটি ক্রু কর্মী একটি ফ্রি Sundae স্ব-সেবা অ্যাকাউন্ট পায় - শিফট দেখুন, ছুটি চেয়ে নিন, বেতন স্লিপ দেখুন, ক্লক ইন করুন। নিচ থেকে উপরে কর্মী পরিচয়, অন্তর্ভুক্ত।",
       "personasEyebrow": "কেউ ক্রু চালায়",
       "personasTitle": "যাদের আসলে মেঝে পরিচালনা করার জন্য তৈরি।",
       "personasDescription": "চারটি ভূমিকা। চারটি সীমিত দৃশ্য। একটি সত্যের উৎস।",
       "personas": [
         {
           "title": "এইচআর ও পিপল লিড",
-          "outcome": "একটি প্ল্যাটফর্মে নিয়োগ থেকে অবসরে — অনবোর্ডিং, কর্মক্ষমতা, প্রতিভা, বেতন প্রস্তুতি, অফবোর্ডিং — একই সাথে শ্রম বুদ্ধিমত্তা প্রদান।",
+          "outcome": "একটি প্ল্যাটফর্মে নিয়োগ থেকে অবসরে - অনবোর্ডিং, কর্মক্ষমতা, প্রতিভা, বেতন প্রস্তুতি, অফবোর্ডিং - একই সাথে শ্রম বুদ্ধিমত্তা প্রদান।",
           "metric": "60+ এইচআর সারফেস"
         },
         {
@@ -6702,7 +6702,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "পে-রোল অ্যাডমিন",
-          "outcome": "স্প্রেডশিটের বিশৃঙ্খলা ছাড়াই বেতন প্রস্তুতি সম্পন্ন করুন। মাল্টি-রিজিয়ন প্যাক — মার্কিন, কানাডা, যুক্তরাজ্য, ইউরোপ, জিসিসি — আইনগত রপ্তানি, বছরের শেষ সারফেস, প্রমাণ এবং অংশীদার হ্যান্ডঅফ ওয়ার্কফ্লো সংগঠিত করুন।",
+          "outcome": "স্প্রেডশিটের বিশৃঙ্খলা ছাড়াই বেতন প্রস্তুতি সম্পন্ন করুন। মাল্টি-রিজিয়ন প্যাক - মার্কিন, কানাডা, যুক্তরাজ্য, ইউরোপ, জিসিসি - আইনগত রপ্তানি, বছরের শেষ সারফেস, প্রমাণ এবং অংশীদার হ্যান্ডঅফ ওয়ার্কফ্লো সংগঠিত করুন।",
           "metric": "মার্কিন · কানাডা · যুক্তরাজ্য · ইউরোপ · জিসিসি"
         },
         {
@@ -6713,7 +6713,7 @@ export const generatedLocalCopy = {
       ],
       "byohrEyebrow": "বায়জ্যাট, পার্সোনিও, অথবা গাস্টোতে ইতিমধ্যেই আছেন?",
       "byohrTitle": "ক্রু ঐচ্ছিক। বুদ্ধিমত্তার লুপ নয়।",
-      "byohrDescription": "আপনার নিজস্ব HR নিয়ে আসুন। Sundae-এর মৌলিক HR ডোমেইন চুক্তি যেকোনো সম্মত অ্যাডাপ্টার থেকে পড়ে — এবং Labor Intelligence এখনও প্রতিযোগীদের তুলনায় ৫–১০ গুণ বেশি সমৃদ্ধ যারা শুধুমাত্র POS দেখে।",
+      "byohrDescription": "আপনার নিজস্ব HR নিয়ে আসুন। Sundae-এর মৌলিক HR ডোমেইন চুক্তি যেকোনো সম্মত অ্যাডাপ্টার থেকে পড়ে - এবং Labor Intelligence এখনও প্রতিযোগীদের তুলনায় ৫-১০ গুণ বেশি সমৃদ্ধ যারা শুধুমাত্র POS দেখে।",
       "byohrItems": [
         "বাইজাত (MEA হসপিটালিটি)",
         "পারসোনিও (EU)",
@@ -6732,14 +6732,14 @@ export const generatedLocalCopy = {
       "badge": "ทีมงาน · ฐานการดำเนินงาน",
       "heroLine1": "ทุกกะ",
       "heroLine2": "กลายเป็นสัญญาณ.",
-      "description": "Crew จัดการคนของคุณ ตารางเวลา เวลา การดำเนินงาน HR ความพร้อมในการจ่ายเงินเดือน และการสนับสนุนพนักงาน ทุกการกระทำกลายเป็นข้อมูลการดำเนินงานที่ช่วยเสริมสร้างปัญญาในการตัดสินใจของ Sundae — วงจรที่ผู้ให้บริการ HR หรือเงินเดือนแบบสแตนด์อโลนไม่สามารถปิดได้.",
+      "description": "Crew จัดการคนของคุณ ตารางเวลา เวลา การดำเนินงาน HR ความพร้อมในการจ่ายเงินเดือน และการสนับสนุนพนักงาน ทุกการกระทำกลายเป็นข้อมูลการดำเนินงานที่ช่วยเสริมสร้างปัญญาในการตัดสินใจของ Sundae - วงจรที่ผู้ให้บริการ HR หรือเงินเดือนแบบสแตนด์อโลนไม่สามารถปิดได้.",
       "primaryCta": "จองการเดินชมทีม",
       "secondaryCta": "ดูทีมทำงาน",
       "loopEyebrow": "ทำไมทีมงานถึงนั่งอยู่ในซันเด",
       "loopTitle": "ชั้นการดำเนินงานที่ขับเคลื่อนชั้นปัญญา.",
-      "loopDescription": "ผู้ให้บริการ HR แยกส่วนเห็นแค่ตารางงาน เครื่องมือวิเคราะห์แยกส่วนเห็นแค่ POS Sundae ปิดวงจรนี้ให้ครบ — และวงจรนี้กลายเป็นข้อได้เปรียบที่ลอกเลียนได้ยาก",
+      "loopDescription": "ผู้ให้บริการ HR แยกส่วนเห็นแค่ตารางงาน เครื่องมือวิเคราะห์แยกส่วนเห็นแค่ POS Sundae ปิดวงจรนี้ให้ครบ - และวงจรนี้กลายเป็นข้อได้เปรียบที่ลอกเลียนได้ยาก",
       "loopLeftLabel": "ระบบ HR / เงินเดือน แบบสแตนด์อโลน",
-      "loopLeftBody": "เป็นเจ้าของตารางเวลา ชั่วโมง และเงินเดือน รายงานหยุดที่แรงงาน ขอบเขตของกำไร ความต้องการ คุณภาพการตัดสินใจ — ไม่ใช่งานของพวกเขา.",
+      "loopLeftBody": "เป็นเจ้าของตารางเวลา ชั่วโมง และเงินเดือน รายงานหยุดที่แรงงาน ขอบเขตของกำไร ความต้องการ คุณภาพการตัดสินใจ - ไม่ใช่งานของพวกเขา.",
       "loopRightLabel": "ทีมงานภายใน Sundae",
       "loopRightBody": "ทุกกะ ทุกชั่วโมง การสลับกะ การรับรอง และรอบเงินเดือนกลายเป็นสัญญาณ Labor Intelligence อ่านสัญญาณนั้น Pulse แจ้งเตือน Foresight ใช้สัญญาณนั้นเพื่อคาดการณ์ แพลตฟอร์มทั้งหมดจึงแม่นยำขึ้น",
       "loopClosing": "ข้อมูลแรงงานเดียวกัน ความฉลาดที่เพิ่มขึ้น.",
@@ -6749,7 +6749,7 @@ export const generatedLocalCopy = {
       "pillars": [
         {
           "title": "การจัดตารางเวลา",
-          "body": "AI Builder สร้างตารางจากการคาดการณ์ความต้องการ, การผสมผสานบทบาท, และคุณสมบัติ — จากนั้นผู้จัดการสามารถแก้ไขโหมดการแสดงผลทั้งสี่ที่สำคัญ (ภาพรวม, ตามบุคคล, ตามกะ, ตามบทบาท). การเกิดซ้ำ, การตรวจสอบคุณสมบัติ, การเตือนความขัดแย้ง, การทับซ้อนวันหยุดสาธารณะ.",
+          "body": "AI Builder สร้างตารางจากการคาดการณ์ความต้องการ, การผสมผสานบทบาท, และคุณสมบัติ - จากนั้นผู้จัดการสามารถแก้ไขโหมดการแสดงผลทั้งสี่ที่สำคัญ (ภาพรวม, ตามบุคคล, ตามกะ, ตามบทบาท). การเกิดซ้ำ, การตรวจสอบคุณสมบัติ, การเตือนความขัดแย้ง, การทับซ้อนวันหยุดสาธารณะ.",
           "chips": [
             "AI Builder",
             "โหมดการแสดงผล 4 โหมด",
@@ -6789,7 +6789,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "โค้ชทีม + การเล่นซ้ำการตัดสินใจ",
-          "body": "โค้ชทีมคือคู่หู AI ของคุณในด้านแรงงาน — คำขอด้วยภาษาธรรมชาติ, คำตอบที่มีแหล่งอ้างอิง, คำแนะนำที่ผู้จัดการสามารถปกป้องได้ การเล่นซ้ำการตัดสินใจบันทึกทุกการกระทำ: ใครตัดสินใจ, อะไรเปลี่ยนแปลง, โมเดลพูดว่าอย่างไร พร้อมตรวจสอบได้โดยค่าเริ่มต้น.",
+          "body": "โค้ชทีมคือคู่หู AI ของคุณในด้านแรงงาน - คำขอด้วยภาษาธรรมชาติ, คำตอบที่มีแหล่งอ้างอิง, คำแนะนำที่ผู้จัดการสามารถปกป้องได้ การเล่นซ้ำการตัดสินใจบันทึกทุกการกระทำ: ใครตัดสินใจ, อะไรเปลี่ยนแปลง, โมเดลพูดว่าอย่างไร พร้อมตรวจสอบได้โดยค่าเริ่มต้น.",
           "chips": [
             "ผู้ช่วย AI",
             "มีแหล่งอ้างอิง",
@@ -6812,7 +6812,7 @@ export const generatedLocalCopy = {
       "coverageItems": [
         {
           "title": "พอร์ทัลมือถือสำหรับพนักงาน",
-          "body": "พนักงานทุกคนจะได้รับบัญชี Sundae ฟรี — ดูกะ, ขอเวลาหยุด, แลกเปลี่ยน, สลิปเงินเดือน, การรับรอง, การลงเวลาแบบชีวภาพ."
+          "body": "พนักงานทุกคนจะได้รับบัญชี Sundae ฟรี - ดูกะ, ขอเวลาหยุด, แลกเปลี่ยน, สลิปเงินเดือน, การรับรอง, การลงเวลาแบบชีวภาพ."
         },
         {
           "title": "การสื่อสาร",
@@ -7039,14 +7039,14 @@ export const generatedLocalCopy = {
       "bundleLabel": "การดำเนินงานของทีม + ทีมที่สมบูรณ์",
       "bundleDescription": "การดำเนินงานรวมถึงการดำเนินงาน, T&A, และการจ่ายเงินเดือน. Complete เพิ่ม People Intelligence เพื่อสร้างวงจรข้อมูลเชิงลึกของแรงงานทั้งหมด.",
       "freeTierLabel": "ฟรีสำหรับพนักงานทุกคน",
-      "freeTierDescription": "พนักงานทุกคนใน Crew จะได้รับบัญชี Sundae แบบบริการตนเองฟรี — ดูกะ, ขอเวลาหยุด, ดูสลิปเงินเดือน, เข้าทำงาน Bottom-up การระบุตัวตนของแรงงาน รวมอยู่ด้วย.",
+      "freeTierDescription": "พนักงานทุกคนใน Crew จะได้รับบัญชี Sundae แบบบริการตนเองฟรี - ดูกะ, ขอเวลาหยุด, ดูสลิปเงินเดือน, เข้าทำงาน Bottom-up การระบุตัวตนของแรงงาน รวมอยู่ด้วย.",
       "personasEyebrow": "ใครเป็นผู้ดูแล CREW",
       "personasTitle": "สร้างขึ้นสำหรับผู้ที่ทำงานจริงในพื้นที่.",
       "personasDescription": "สี่บทบาท สี่มุมมองที่กำหนดไว้ แหล่งข้อมูลเดียวที่เชื่อถือได้.",
       "personas": [
         {
           "title": "หัวหน้า HR & บุคคล",
-          "outcome": "จ้างจนถึงเกษียณในแพลตฟอร์มเดียว — การเริ่มงาน, ประสิทธิภาพ, ความสามารถ, ความพร้อมในการจ่ายเงินเดือน, การออกจากงาน — เสริมข้อมูลแรงงานในเวลาเดียวกัน.",
+          "outcome": "จ้างจนถึงเกษียณในแพลตฟอร์มเดียว - การเริ่มงาน, ประสิทธิภาพ, ความสามารถ, ความพร้อมในการจ่ายเงินเดือน, การออกจากงาน - เสริมข้อมูลแรงงานในเวลาเดียวกัน.",
           "metric": "60+ พื้นที่ HR"
         },
         {
@@ -7056,7 +7056,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "ผู้ดูแลเงินเดือน",
-          "outcome": "ปิดความพร้อมในการจ่ายเงินเดือนโดยไม่มีความยุ่งเหยิงของสเปรดชีต. แพ็คหลายภูมิภาค — สหรัฐอเมริกา, แคนาดา, สหราชอาณาจักร, สหภาพยุโรป, GCC — จัดระเบียบการส่งออกตามกฎหมาย, พื้นที่สิ้นปี, หลักฐาน, และการส่งมอบงานร่วมกับพันธมิตร.",
+          "outcome": "ปิดความพร้อมในการจ่ายเงินเดือนโดยไม่มีความยุ่งเหยิงของสเปรดชีต. แพ็คหลายภูมิภาค - สหรัฐอเมริกา, แคนาดา, สหราชอาณาจักร, สหภาพยุโรป, GCC - จัดระเบียบการส่งออกตามกฎหมาย, พื้นที่สิ้นปี, หลักฐาน, และการส่งมอบงานร่วมกับพันธมิตร.",
           "metric": "สหรัฐอเมริกา · แคนาดา · สหราชอาณาจักร · สหภาพยุโรป · GCC"
         },
         {
@@ -7067,7 +7067,7 @@ export const generatedLocalCopy = {
       ],
       "byohrEyebrow": "อยู่บน BAYZAT, PERSONIO หรือ GUSTO แล้วหรือ?",
       "byohrTitle": "การมีทีมงานเป็นทางเลือก แต่การมีวงจรข้อมูลเชิงลึกไม่ใช่",
-      "byohrDescription": "นำ HR ของคุณมาเอง สัญญาโดเมน HR มาตรฐานของ Sundae อ่านจากอะแดปเตอร์ที่สอดคล้อง — และ Labor Intelligence ยังคงมีข้อมูลที่มีค่า 5–10 เท่ากว่าคู่แข่งที่เห็นแค่ POS เท่านั้น.",
+      "byohrDescription": "นำ HR ของคุณมาเอง สัญญาโดเมน HR มาตรฐานของ Sundae อ่านจากอะแดปเตอร์ที่สอดคล้อง - และ Labor Intelligence ยังคงมีข้อมูลที่มีค่า 5-10 เท่ากว่าคู่แข่งที่เห็นแค่ POS เท่านั้น.",
       "byohrItems": [
         "Bayzat (MEA hospitality)",
         "Personio (EU)",
@@ -7086,14 +7086,14 @@ export const generatedLocalCopy = {
       "badge": "KUMPULAN · SUBSTRAT OPERASI",
       "heroLine1": "Setiap syif",
       "heroLine2": "menjadi isyarat.",
-      "description": "Crew menguruskan orang, jadual, masa, operasi HR, kesiapan gaji, dan sokongan pekerja anda. Setiap tindakan menjadi data operasi yang memberi maklumat kepada kecerdasan keputusan Sundae — satu gelung yang tidak dapat ditutup oleh vendor HR atau gaji yang berdiri sendiri.",
+      "description": "Crew menguruskan orang, jadual, masa, operasi HR, kesiapan gaji, dan sokongan pekerja anda. Setiap tindakan menjadi data operasi yang memberi maklumat kepada kecerdasan keputusan Sundae - satu gelung yang tidak dapat ditutup oleh vendor HR atau gaji yang berdiri sendiri.",
       "primaryCta": "Tempah Panduan Krew",
       "secondaryCta": "Lihat Krew Beraksi",
       "loopEyebrow": "MENGAPA CREW DUDUK DI SUNDAE",
       "loopTitle": "Lapisan operasi yang menggerakkan lapisan kecerdasan.",
-      "loopDescription": "Vendor HR yang berdiri sendiri melihat jadual. Alat analitik yang berdiri sendiri melihat POS. Sundae menutup kitaran — dan kitaran itu menjadi kelebihan yang sukar ditiru.",
+      "loopDescription": "Vendor HR yang berdiri sendiri melihat jadual. Alat analitik yang berdiri sendiri melihat POS. Sundae menutup kitaran - dan kitaran itu menjadi kelebihan yang sukar ditiru.",
       "loopLeftLabel": "HR / gaji berdiri sendiri",
-      "loopLeftBody": "Mengurus jadual, jam, gaji. Laporan berhenti di tenaga kerja. Margin, konteks permintaan, kualiti keputusan — bukan tugas mereka.",
+      "loopLeftBody": "Mengurus jadual, jam, gaji. Laporan berhenti di tenaga kerja. Margin, konteks permintaan, kualiti keputusan - bukan tugas mereka.",
       "loopRightLabel": "Krew di dalam Sundae",
       "loopRightBody": "Setiap syif, jam, pertukaran, pengesahan dan kitaran gaji menjadi isyarat. Labor Intelligence membacanya. Pulse memberi amaran. Foresight membuat ramalan berdasarkannya. Seluruh platform menjadi lebih tepat.",
       "loopClosing": "Data tenaga kerja yang sama. Kecerdasan yang bertambah.",
@@ -7103,7 +7103,7 @@ export const generatedLocalCopy = {
       "pillars": [
         {
           "title": "Jadual",
-          "body": "AI Builder menyusun jadual berdasarkan ramalan permintaan, campuran peranan, dan kelayakan — kemudian pengurus mengedit empat mod pandangan yang penting (ikhtisar, mengikut individu, mengikut shift, mengikut peranan). Kekerapan, semakan kelayakan, amaran konflik, lapisan cuti umum.",
+          "body": "AI Builder menyusun jadual berdasarkan ramalan permintaan, campuran peranan, dan kelayakan - kemudian pengurus mengedit empat mod pandangan yang penting (ikhtisar, mengikut individu, mengikut shift, mengikut peranan). Kekerapan, semakan kelayakan, amaran konflik, lapisan cuti umum.",
           "chips": [
             "AI Builder",
             "4 mod pandangan",
@@ -7143,7 +7143,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Jurulatih Krew + Ulangan Keputusan",
-          "body": "Jurulatih Krew adalah rakan AI anda dalam domain tenaga kerja — permintaan bahasa semula jadi, jawapan yang dirujuk sumber, cadangan yang boleh dipertahankan oleh pengurus. Ulangan Keputusan merekod setiap tindakan: siapa yang memutuskan, apa yang berubah, apa yang dikatakan oleh model. Sedia untuk diaudit secara lalai.",
+          "body": "Jurulatih Krew adalah rakan AI anda dalam domain tenaga kerja - permintaan bahasa semula jadi, jawapan yang dirujuk sumber, cadangan yang boleh dipertahankan oleh pengurus. Ulangan Keputusan merekod setiap tindakan: siapa yang memutuskan, apa yang berubah, apa yang dikatakan oleh model. Sedia untuk diaudit secara lalai.",
           "chips": [
             "Pembantu AI",
             "Dirujuk sumber",
@@ -7166,7 +7166,7 @@ export const generatedLocalCopy = {
       "coverageItems": [
         {
           "title": "Portal mudah alih pekerja",
-          "body": "Setiap pekerja mendapat akaun Sundae percuma — lihat jadual, minta cuti, tukar, penyata gaji, pengesahan, jam biometrik."
+          "body": "Setiap pekerja mendapat akaun Sundae percuma - lihat jadual, minta cuti, tukar, penyata gaji, pengesahan, jam biometrik."
         },
         {
           "title": "Komunikasi",
@@ -7393,14 +7393,14 @@ export const generatedLocalCopy = {
       "bundleLabel": "Operasi Krew + Krew Lengkap",
       "bundleDescription": "Operasi menggabungkan Operasi, T&A, dan Gaji. Lengkap menambah Kecerdasan Manusia untuk keseluruhan gelung kecerdasan tenaga kerja.",
       "freeTierLabel": "Percuma untuk setiap pekerja",
-      "freeTierDescription": "Setiap pekerja Crew mendapat akaun kendiri Sundae percuma — lihat jadual, minta cuti, lihat penyata gaji, daftar masuk. Identiti tenaga kerja dari bawah ke atas, termasuk.",
+      "freeTierDescription": "Setiap pekerja Crew mendapat akaun kendiri Sundae percuma - lihat jadual, minta cuti, lihat penyata gaji, daftar masuk. Identiti tenaga kerja dari bawah ke atas, termasuk.",
       "personasEyebrow": "SIAPA YANG MENGENDALIKAN CREW",
       "personasTitle": "Dibina untuk orang yang benar-benar mengendalikan lantai.",
       "personasDescription": "Empat peranan. Empat pandangan terhad. Satu sumber kebenaran.",
       "personas": [
         {
           "title": "Ketua HR & Orang",
-          "outcome": "Pengambilan hingga persaraan dalam satu platform — pengenalan, prestasi, bakat, kesiapan gaji, pemisahan — memberi maklumat Buruh dalam satu nafas.",
+          "outcome": "Pengambilan hingga persaraan dalam satu platform - pengenalan, prestasi, bakat, kesiapan gaji, pemisahan - memberi maklumat Buruh dalam satu nafas.",
           "metric": "60+ permukaan HR"
         },
         {
@@ -7410,7 +7410,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Pentadbir Gaji",
-          "outcome": "Tutup kesiapan gaji tanpa kekacauan spreadsheet. Pakej pelbagai wilayah — AS, Kanada, UK, EU, GCC — mengatur eksport statutori, permukaan akhir tahun, bukti, dan aliran kerja serah rakan kongsi.",
+          "outcome": "Tutup kesiapan gaji tanpa kekacauan spreadsheet. Pakej pelbagai wilayah - AS, Kanada, UK, EU, GCC - mengatur eksport statutori, permukaan akhir tahun, bukti, dan aliran kerja serah rakan kongsi.",
           "metric": "AS · CA · UK · EU · GCC"
         },
         {
@@ -7421,7 +7421,7 @@ export const generatedLocalCopy = {
       ],
       "byohrEyebrow": "SUDAH ADA DI BAYZAT, PERSONIO, ATAU GUSTO?",
       "byohrTitle": "Krew adalah pilihan. Gelung kecerdasan tidak.",
-      "byohrDescription": "Bawa HR anda sendiri. Kontrak domain HR kanonik Sundae membaca dari mana-mana penyesuai yang mematuhi — dan Cross-Intelligence masih mendapat 5–10× lebih kaya daripada pesaing yang hanya melihat POS.",
+      "byohrDescription": "Bawa HR anda sendiri. Kontrak domain HR kanonik Sundae membaca dari mana-mana penyesuai yang mematuhi - dan Cross-Intelligence masih mendapat 5-10× lebih kaya daripada pesaing yang hanya melihat POS.",
       "byohrItems": [
         "Bayzat (hospitaliti MEA)",
         "Personio (EU)",

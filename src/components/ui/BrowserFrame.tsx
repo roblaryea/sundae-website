@@ -12,7 +12,7 @@ interface BrowserFrameProps {
   className?: string;
   /** Animation on scroll: 'fade' (default), 'scale', 'slide-left', 'slide-right', 'none' */
   animate?: 'fade' | 'scale' | 'slide-left' | 'slide-right' | 'none';
-  /** Optional label shown in the title bar (e.g. "Pulse — Live Operations") */
+  /** Optional label shown in the title bar (e.g. "Pulse - Live Operations") */
   label?: string;
   /** Optional URL shown right-aligned in the title bar */
   url?: string;

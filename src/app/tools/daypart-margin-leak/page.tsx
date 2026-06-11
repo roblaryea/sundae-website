@@ -1,7 +1,7 @@
 "use client";
 
 /**
- * Daypart Margin Leak Estimator — depth-grade replacement for the shallow
+ * Daypart Margin Leak Estimator - depth-grade replacement for the shallow
  * labor-cost calculator. Computes daypart-level overstaffing leakage by
  * correlating labor hours against revenue density per daypart, then
  * projects annual leakage and surfaces the highest-leak daypart with a
@@ -31,20 +31,20 @@ type DaypartId = "morning" | "lunch" | "afternoon" | "dinner" | "lateNight";
 type DaypartInput = {
   id: DaypartId;
   label: string;
-  hours: string;       // e.g. "06:00–10:30"
+  hours: string;       // e.g. "06:00-10:30"
   revenuePct: string;  // 0-100, share of daily revenue
   staffFte: string;    // FTE during this window
 };
 
 const DEFAULT_DAYPARTS: DaypartInput[] = [
-  { id: "morning",    label: "Morning",     hours: "06:00–10:30", revenuePct: "8",  staffFte: "4" },
-  { id: "lunch",      label: "Lunch",       hours: "11:00–14:30", revenuePct: "32", staffFte: "9" },
-  { id: "afternoon",  label: "Afternoon",   hours: "14:30–17:00", revenuePct: "6",  staffFte: "7" },
-  { id: "dinner",     label: "Dinner",      hours: "17:00–22:00", revenuePct: "48", staffFte: "11" },
-  { id: "lateNight",  label: "Late Night",  hours: "22:00–01:00", revenuePct: "6",  staffFte: "5" },
+  { id: "morning",    label: "Morning",     hours: "06:00-10:30", revenuePct: "8",  staffFte: "4" },
+  { id: "lunch",      label: "Lunch",       hours: "11:00-14:30", revenuePct: "32", staffFte: "9" },
+  { id: "afternoon",  label: "Afternoon",   hours: "14:30-17:00", revenuePct: "6",  staffFte: "7" },
+  { id: "dinner",     label: "Dinner",      hours: "17:00-22:00", revenuePct: "48", staffFte: "11" },
+  { id: "lateNight",  label: "Late Night",  hours: "22:00-01:00", revenuePct: "6",  staffFte: "5" },
 ];
 
-// Segment-aware target labor cost % — replaces the prior single 28% heuristic
+// Segment-aware target labor cost % - replaces the prior single 28% heuristic
 // with industry-honest ranges. Used as the upper-bound target (anything
 // above this band is potentially trimmable, conservatively).
 const SEGMENT_TARGETS: Record<string, { label: string; targetPct: number }> = {
@@ -62,7 +62,7 @@ const SEGMENT_TARGETS: Record<string, { label: string; targetPct: number }> = {
 // match staffing to demand without breaking service or coverage floors).
 const RECOVERY_FACTOR_LOW = 0.35;
 const RECOVERY_FACTOR_HIGH = 0.50;
-// Account for closed days — most operators close 10-20 days a year
+// Account for closed days - most operators close 10-20 days a year
 // for holidays, deep cleans, renovations.
 const OPERATING_DAYS = 350;
 
@@ -99,7 +99,7 @@ export default function DaypartMarginLeakPage() {
       const targetLaborCost = dayRev * segmentTargetPct;
       // Identified overspend (before applying recovery factor)
       const identifiedOverspend = Math.max(0, laborCost - targetLaborCost);
-      // Conservative recovery range — only a fraction is realistically trimmable
+      // Conservative recovery range - only a fraction is realistically trimmable
       const recoverableLow = identifiedOverspend * RECOVERY_FACTOR_LOW;
       const recoverableHigh = identifiedOverspend * RECOVERY_FACTOR_HIGH;
       // Trim suggestion based on midpoint
@@ -159,7 +159,7 @@ export default function DaypartMarginLeakPage() {
           <p className="text-base sm:text-lg text-[var(--text-supporting)] max-w-2xl">
             Find the daypart bleeding margin from overstaffing. Most labor-cost
             calculators give you one aggregate %. This one breaks the day into
-            five windows and surfaces the worst offender — with a specific
+            five windows and surfaces the worst offender - with a specific
             corrective action and annualized impact.
           </p>
         </div>
@@ -204,7 +204,7 @@ export default function DaypartMarginLeakPage() {
                     {CURRENCY_REGIONS.map((region) => (
                       <optgroup key={region} label={region}>
                         {CURRENCIES.filter((c) => c.region === region).map((c) => (
-                          <option key={c.code} value={c.code}>{c.code} — {c.symbol}</option>
+                          <option key={c.code} value={c.code}>{c.code} - {c.symbol}</option>
                         ))}
                       </optgroup>
                     ))}
@@ -337,7 +337,7 @@ export default function DaypartMarginLeakPage() {
                     )}
                   </div>
                   <p className="text-[10px] text-[var(--text-muted)] italic mt-2 leading-snug">
-                    Assumes {Math.round(RECOVERY_FACTOR_LOW * 100)}–{Math.round(RECOVERY_FACTOR_HIGH * 100)}% of identified overspend is realistically recoverable in the first quarter — the rest is service-floor staffing you can&rsquo;t trim without breaking coverage.
+                    Assumes {Math.round(RECOVERY_FACTOR_LOW * 100)}-{Math.round(RECOVERY_FACTOR_HIGH * 100)}% of identified overspend is realistically recoverable in the first quarter - the rest is service-floor staffing you can&rsquo;t trim without breaking coverage.
                   </p>
                 </div>
 
@@ -377,7 +377,7 @@ export default function DaypartMarginLeakPage() {
                   </div>
                 </div>
 
-                {/* What Sundae would do — softer, range-based */}
+                {/* What Sundae would do - softer, range-based */}
                 {analysis.worst && analysis.worst.identifiedOverspend > 0 && (
                   <div className="rounded-2xl border border-emerald-500/30 bg-emerald-500/[0.04] p-5">
                     <div className="flex items-center gap-2 mb-2">
@@ -388,8 +388,8 @@ export default function DaypartMarginLeakPage() {
                     </div>
                     <p className="text-sm text-[var(--text-primary)] leading-relaxed mb-3">
                       <strong className="text-emerald-200">{analysis.worst.label}</strong> shows the largest gap to the {Math.round(segmentTargetPct * 100)}% {SEGMENT_TARGETS[segment].label} target. A trim of ~<strong className="text-emerald-200">{Math.ceil(analysis.worst.trimmableFteHours)} FTE-hours</strong> would recover an estimated{" "}
-                      <strong className="text-emerald-200">{fmt(analysis.worst.recoverableLow * 7)}–{fmt(analysis.worst.recoverableHigh * 7)}/wk</strong>{" "}
-                      per outlet — pending a coverage-floor review.
+                      <strong className="text-emerald-200">{fmt(analysis.worst.recoverableLow * 7)}-{fmt(analysis.worst.recoverableHigh * 7)}/wk</strong>{" "}
+                      per outlet - pending a coverage-floor review.
                     </p>
                     <p className="text-[11px] text-[var(--text-muted)] leading-relaxed">
                       In production, Sundae Pulse calibrates the target against your historical productivity curves (not a fixed segment band), respects per-outlet coverage floors, and surfaces the candidate shift before payroll is locked.
@@ -413,11 +413,11 @@ export default function DaypartMarginLeakPage() {
             <strong className="text-[var(--text-secondary)]">Methodology (conservative defaults):</strong>{" "}
             Daypart labor cost = FTE × duration × hourly wage. Target = segment-specific labor % of daypart revenue
             (QSR 25% → fine dining 36%). Identified overspend = current − target. Only{" "}
-            {Math.round(RECOVERY_FACTOR_LOW * 100)}–{Math.round(RECOVERY_FACTOR_HIGH * 100)}%
-            of identified overspend is counted as realistically recoverable — the rest is
+            {Math.round(RECOVERY_FACTOR_LOW * 100)}-{Math.round(RECOVERY_FACTOR_HIGH * 100)}%
+            of identified overspend is counted as realistically recoverable - the rest is
             service-floor staffing or unavoidable coverage. Annualized over {OPERATING_DAYS} operating days/yr.
             Output is a range, never a single optimistic figure. Sundae Pulse calibrates against your historical
-            productivity curves per-outlet and respects per-shift coverage floors — the in-product version is
+            productivity curves per-outlet and respects per-shift coverage floors - the in-product version is
             consistently sharper and more conservative than this estimator.
           </p>
         </div>

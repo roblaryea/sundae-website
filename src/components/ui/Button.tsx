@@ -42,25 +42,25 @@ export const Button: React.FC<ButtonProps> = (props) => {
   const baseStyles = 'inline-flex items-center justify-center font-semibold rounded-xl transition-all duration-200 ease-out focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#FF5C4D] focus-visible:ring-offset-[var(--navy-deep)]';
 
   const variants = {
-    // Primary — warm signature gradient with coral glow
+    // Primary - warm signature gradient with coral glow
     primary: 'bg-gradient-to-r from-[#E9A24A] via-[#FF5C4D] to-[#E03E48] text-white shadow-[0_10px_30px_-10px_rgba(255,92,77,0.5)] hover:shadow-[0_16px_40px_-10px_rgba(255,92,77,0.65)] hover:-translate-y-0.5 active:translate-y-0',
 
-    // Secondary — subtle glass
+    // Secondary - subtle glass
     secondary: 'bg-[var(--surface-hover)] text-[var(--text-secondary)] border border-[var(--border-default)] hover:bg-[var(--surface-emphasis)] hover:text-[var(--text-primary)] hover:border-[var(--border-emphasis)] hover:-translate-y-0.5 active:translate-y-0',
 
-    // Outline — clean border on dark
+    // Outline - clean border on dark
     outline: 'border border-[var(--border-emphasis)] text-[var(--text-secondary)] bg-transparent hover:border-[var(--border-emphasis)] hover:text-[var(--text-primary)] hover:bg-[var(--surface-subtle)]',
 
-    // Outline Light — brighter for dark sections
+    // Outline Light - brighter for dark sections
     'outline-light': 'border border-[var(--border-emphasis)] text-[var(--text-primary)] bg-transparent hover:bg-[var(--surface-emphasis)] hover:border-[var(--text-muted)] active:bg-[var(--surface-subtle)]',
 
-    // Ghost — subtle
+    // Ghost - subtle
     ghost: 'text-[var(--text-supporting)] hover:bg-[var(--surface-hover)] hover:text-[var(--text-primary)]',
 
-    // CTA — warm signature gradient with coral glow
+    // CTA - warm signature gradient with coral glow
     cta: 'bg-gradient-to-r from-[#E9A24A] via-[#FF5C4D] to-[#E03E48] text-white font-bold shadow-[0_12px_40px_-8px_rgba(255,92,77,0.5)] hover:shadow-[0_18px_50px_-8px_rgba(255,92,77,0.62)] hover:-translate-y-1 active:translate-y-0',
 
-    // Ink — solid warm-near-black; for primary actions placed on bright warm surfaces (closer)
+    // Ink - solid warm-near-black; for primary actions placed on bright warm surfaces (closer)
     ink: 'bg-[var(--ink)] text-white shadow-[0_12px_30px_-10px_rgba(0,0,0,0.55)] hover:-translate-y-1 active:translate-y-0',
   };
 

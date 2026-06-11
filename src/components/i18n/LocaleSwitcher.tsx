@@ -14,15 +14,15 @@ import { useWebsiteI18n } from './LocaleProvider'
 /**
  * Compact, length-invariant language switcher.
  *
- * The trigger shows a globe + the 2-letter base code (EN, FR, ZH…) so its width
- * is identical in every locale — this is what keeps the navbar from overflowing
+ * The trigger shows a globe + the 2-letter base code (EN, FR, ZH...) so its width
+ * is identical in every locale - this is what keeps the navbar from overflowing
  * when a language has long labels (e.g. fr "Réserver une session de travail").
  * Full native names + language code (e.g. "Deutsch · DE") stay in the dropdown
- * for clarity and quick scanning. No country flags — flags map to countries,
- * not languages, and our locales (ar, es, en, pt-BR, zh-Hans…) span many.
+ * for clarity and quick scanning. No country flags - flags map to countries,
+ * not languages, and our locales (ar, es, en, pt-BR, zh-Hans...) span many.
  *
  * Accessibility: a real <select> is layered transparently over the visual chip so
- * we keep the native, keyboard-operable dropdown and screen-reader semantics — the
+ * we keep the native, keyboard-operable dropdown and screen-reader semantics - the
  * chip is purely presentational (aria-hidden).
  */
 function localeShortCode(locale: WebsiteLocale): string {
@@ -39,7 +39,7 @@ export function LocaleSwitcher() {
     <label className="relative inline-flex items-center">
       <span className="sr-only">{messages.layout.languageSelector}</span>
 
-      {/* Presentational compact chip — width is constant across all locales */}
+      {/* Presentational compact chip - width is constant across all locales */}
       <span
         aria-hidden
         className="pointer-events-none inline-flex items-center gap-1.5 rounded-md border border-[var(--border-default)] bg-transparent px-2 py-1 text-xs font-medium text-[var(--text-secondary)] transition-colors"

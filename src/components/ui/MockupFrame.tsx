@@ -200,10 +200,10 @@ export function MockupLiveDot({ className = "" }: { className?: string }) {
 
 /* ─── Pre-built Dashboard Presets ─── */
 
-// Pulse Dashboard — the hero mockup
+// Pulse Dashboard - the hero mockup
 export function PulseDashboardMockup() {
   const { locale } = useWebsiteI18n();
-  const label = locale === "ar" ? "Pulse — وتيرة المبيعات" : locale === "fr" ? "Pulse - Rythme des ventes" : locale === "es" ? "Pulse - Ritmo de ventas" : "Pulse — Sales Pacing";
+  const label = locale === "ar" ? "Pulse - وتيرة المبيعات" : locale === "fr" ? "Pulse - Rythme des ventes" : locale === "es" ? "Pulse - Ritmo de ventas" : "Pulse - Sales Pacing";
   const live = locale === "ar" ? "مباشر" : locale === "fr" ? "EN DIRECT" : locale === "es" ? "EN VIVO" : "LIVE";
   const updatedAt = locale === "ar" ? "الثلاثاء، 7:42 مساءً" : locale === "fr" ? "Mardi, 19:42" : locale === "es" ? "Martes, 7:42 PM" : "Tuesday, 7:42 PM";
   const revenue = locale === "ar" ? "الايراد" : locale === "fr" ? "Revenu" : locale === "es" ? "Ingresos" : "Revenue";
@@ -265,7 +265,7 @@ export function PulseDashboardMockup() {
 // Benchmark Dashboard
 export function BenchmarkDashboardMockup() {
   return (
-    <MockupFrame label="Benchmarks — Competitive Position">
+    <MockupFrame label="Benchmarks - Competitive Position">
       <div className="space-y-4">
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
           <MockupKPI label="RevPASH Index" value="112" trend="12% above peers" trendUp color="#22C55E" />
@@ -291,7 +291,7 @@ export function BenchmarkDashboardMockup() {
 // Watchtower Command Center
 export function WatchtowerMockup() {
   return (
-    <MockupFrame label="Watchtower — Market Intelligence">
+    <MockupFrame label="Watchtower - Market Intelligence">
       <div className="space-y-4">
         <div className="flex items-center justify-between">
           <MockupLiveDot />
@@ -305,7 +305,7 @@ export function WatchtowerMockup() {
         </div>
 
         <MockupAlert type="warning">
-          Competitor &quot;Noma 2.0&quot; dropped lunch prices 15% — 0.3 mi away. Your footfall may shift.
+          Competitor &quot;Noma 2.0&quot; dropped lunch prices 15% - 0.3 mi away. Your footfall may shift.
         </MockupAlert>
 
         <MockupTable
@@ -337,7 +337,7 @@ export function InsightsModuleMockup() {
   ];
 
   return (
-    <MockupFrame label="Insights — 12 Intelligence Modules">
+    <MockupFrame label="Insights - 12 Intelligence Modules">
       <div className="space-y-4">
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
           {modules.map((m) => (
@@ -360,7 +360,7 @@ export function InsightsModuleMockup() {
 // Intelligence Chat Interface
 export function IntelligenceChatMockup() {
   return (
-    <MockupFrame label="Sundae Intelligence — Chat">
+    <MockupFrame label="Sundae Intelligence - Chat">
       <div className="space-y-3">
         {/* User message */}
         <div className="flex justify-end">
@@ -412,7 +412,7 @@ export function IntelligenceChatMockup() {
 // Revenue Assurance Dashboard
 export function RevenueAssuranceMockup() {
   return (
-    <MockupFrame label="Revenue Assurance — Leakage Detection">
+    <MockupFrame label="Revenue Assurance - Leakage Detection">
       <div className="space-y-4">
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
           <MockupKPI label="Total Leakage" value="$2,630" color="#FF5450" />
@@ -429,7 +429,7 @@ export function RevenueAssuranceMockup() {
           ]}
         />
         <MockupAlert type="critical">
-          James K. has 5 exceptions this shift — 3x the team average. Review recommended.
+          James K. has 5 exceptions this shift - 3x the team average. Review recommended.
         </MockupAlert>
       </div>
     </MockupFrame>
@@ -440,7 +440,7 @@ export function RevenueAssuranceMockup() {
 
 export function ForesightDashboardMockup() {
   return (
-    <MockupFrame label="Foresight — 14-Day Revenue Forecast">
+    <MockupFrame label="Foresight - 14-Day Revenue Forecast">
       <div className="space-y-4">
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
           <MockupKPI label="Forecast Revenue" value="$248K" trend="+6.2% vs last period" trendUp />
@@ -481,7 +481,7 @@ export function ForesightDashboardMockup() {
             <span className="text-[10px] font-semibold text-[var(--text-secondary)]">Sundae Coach Briefing</span>
           </div>
           <p className="text-[9px] text-[var(--text-supporting)] leading-relaxed">
-            Weekend revenue projected +8% above baseline. Thursday shows 12% downside risk — 2 staff vacations overlap with a local sports event. Consider calling in backup.
+            Weekend revenue projected +8% above baseline. Thursday shows 12% downside risk - 2 staff vacations overlap with a local sports event. Consider calling in backup.
           </p>
         </div>
         <MockupAlert type="info">3 scenarios simulated · Baseline confidence: 91% · Next briefing: Tomorrow 6:00 AM</MockupAlert>
@@ -492,7 +492,7 @@ export function ForesightDashboardMockup() {
 
 export function MarketingPerformanceMockup() {
   return (
-    <MockupFrame label="Marketing Performance — Campaign ROI">
+    <MockupFrame label="Marketing Performance - Campaign ROI">
       <div className="space-y-4">
         <div className="flex items-center justify-between">
           <MockupLiveDot />
@@ -523,11 +523,11 @@ export function MarketingPerformanceMockup() {
   );
 }
 
-/* ─── Revenue Intelligence Mockup (CFO persona — Insights:Revenue) ─── */
+/* ─── Revenue Intelligence Mockup (CFO persona - Insights:Revenue) ─── */
 
 export function RevenueIntelligenceMockup() {
   return (
-    <MockupFrame label="Revenue Intelligence — Portfolio Today">
+    <MockupFrame label="Revenue Intelligence - Portfolio Today">
       <div className="space-y-4">
         <div className="flex items-center justify-between">
           <MockupLiveDot />
@@ -562,7 +562,7 @@ export function RevenueIntelligenceMockup() {
 
 export function LaborOpsMockup() {
   return (
-    <MockupFrame label="Labor — Live Variance">
+    <MockupFrame label="Labor - Live Variance">
       <div className="space-y-4">
         <div className="flex items-center justify-between">
           <MockupLiveDot />
@@ -586,7 +586,7 @@ export function LaborOpsMockup() {
         />
 
         <MockupAlert type="warning">
-          Downtown schedule is 11% above plan for Sat 7–11pm. Reassign 2 covers to Marina staff or trim one shift.
+          Downtown schedule is 11% above plan for Sat 7-11pm. Reassign 2 covers to Marina staff or trim one shift.
         </MockupAlert>
       </div>
     </MockupFrame>
@@ -608,7 +608,7 @@ const INTEGRATIONS_STATUS: Array<[string, "OK" | "Lag 8m" | "OK"]> = [
 
 export function IntegrationsHubMockup() {
   return (
-    <MockupFrame label="Integrations — Data Health">
+    <MockupFrame label="Integrations - Data Health">
       <div className="space-y-4">
         <div className="flex items-center justify-between">
           <MockupLiveDot />
@@ -650,12 +650,12 @@ export function IntegrationsHubMockup() {
 
 /* ─── Executive Briefing Mockup (C-Suite persona) ─── */
 /**
- * Premium executive briefing — portfolio rollup + AI daily brief + market signal + forecast.
+ * Premium executive briefing - portfolio rollup + AI daily brief + market signal + forecast.
  * Designed for the C-Suite Executives solution page hero. Not a chat; a synthesized briefing.
  */
 export function ExecutiveBriefingMockup() {
   return (
-    <MockupFrame label="Executive Briefing — Tuesday · 6:42 AM" glow>
+    <MockupFrame label="Executive Briefing - Tuesday · 6:42 AM" glow>
       <div className="space-y-4">
         {/* Live indicator + briefing date */}
         <div className="flex items-center justify-between">
@@ -668,7 +668,7 @@ export function ExecutiveBriefingMockup() {
           <span className="text-[10px] text-[var(--text-muted)] font-mono">Auto-generated</span>
         </div>
 
-        {/* Portfolio rollup — 4 brand KPI tiles */}
+        {/* Portfolio rollup - 4 brand KPI tiles */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
           {[
             { brand: "Brand A", value: "$1.84M", delta: "+4.2%", up: true, color: "#22C55E" },
@@ -686,14 +686,14 @@ export function ExecutiveBriefingMockup() {
           ))}
         </div>
 
-        {/* AI Daily Brief — synthesized executive insight with source pills */}
+        {/* AI Daily Brief - synthesized executive insight with source pills */}
         <div className="rounded-lg p-4 border" style={{ background: "linear-gradient(135deg, rgba(28,71,255,0.10), rgba(28,71,255,0.02))", borderColor: "rgba(28,71,255,0.25)" }}>
           <div className="flex items-center gap-2 mb-2">
             <div className="w-5 h-5 rounded bg-gradient-to-br from-[#1C47FF] to-[#3B82F6] flex items-center justify-center text-white text-[8px] font-bold">SI</div>
             <span className="text-[10px] uppercase tracking-wider text-[#60A5FA] font-bold">Sundae Intelligence · Daily Brief</span>
           </div>
           <p className="text-[12px] text-[var(--text-primary)] leading-relaxed">
-            Portfolio net revenue is pacing <span className="font-bold text-[#22C55E]">+2.4% vs forecast</span>, driven by Brand A dine-in strength. <span className="font-bold text-[#FF5450]">Brand C margin compressed 2.6pp</span> on labor over-coverage Mon–Tue; a 2-shift trim recovers ~$8.4K this week.
+            Portfolio net revenue is pacing <span className="font-bold text-[#22C55E]">+2.4% vs forecast</span>, driven by Brand A dine-in strength. <span className="font-bold text-[#FF5450]">Brand C margin compressed 2.6pp</span> on labor over-coverage Mon-Tue; a 2-shift trim recovers ~$8.4K this week.
           </p>
           <div className="flex flex-wrap items-center gap-1.5 mt-3">
             <span className="text-[9px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">Sources:</span>
@@ -731,7 +731,7 @@ export function ExecutiveBriefingMockup() {
  */
 export function CrewDashboardMockup() {
   return (
-    <MockupFrame label="Crew — Today · Downtown" glow>
+    <MockupFrame label="Crew - Today · Downtown" glow>
       <div className="space-y-3 sm:space-y-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
@@ -751,7 +751,7 @@ export function CrewDashboardMockup() {
           <MockupKPI label="Payroll cycle" value="Day 18 / 30" trend="On track" trendUp color="#1C47FF" />
         </div>
 
-        {/* Mini schedule strip — coverage by daypart */}
+        {/* Mini schedule strip - coverage by daypart */}
         <div className="rounded-lg p-3 bg-white/[0.03] border border-[var(--border-default)]">
           <div className="flex items-center justify-between mb-2">
             <span className="text-[10px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">Coverage · today</span>

@@ -15,17 +15,17 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "La commission grignote la marge",
-          "description": "20–30 % par plateforme et par commande. La marge nette par canal est invisible — vous optimisez le brut et perdez de l'argent.",
+          "description": "20-30 % par plateforme et par commande. La marge nette par canal est invisible - vous optimisez le brut et perdez de l'argent.",
           "icon": "balance"
         },
         {
           "title": "Six plateformes, six tableaux de bord",
-          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, le vôtre — chacun avec une perspective différente, aucun avec la vérité.",
+          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, le vôtre - chacun avec une perspective différente, aucun avec la vérité.",
           "icon": "delivery"
         },
         {
           "title": "Performance de la marque virtuelle opaque",
-          "description": "Cinq marques d'une seule cuisine — mais laquelle contribue réellement ? Cachée par des coûts partagés et un débit partagé.",
+          "description": "Cinq marques d'une seule cuisine - mais laquelle contribue réellement ? Cachée par des coûts partagés et un débit partagé.",
           "icon": "performance"
         },
         {
@@ -39,7 +39,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Marge nette par plateforme, par marque",
-          "description": "Commandes, commissions, emballages, main-d'œuvre allouée et coût des aliments — pour la marge nette à l'intersection du canal × marque. La vérité que aucun tableau de bord de plateforme ne montre.",
+          "description": "Commandes, commissions, emballages, main-d'œuvre allouée et coût des aliments - pour la marge nette à l'intersection du canal × marque. La vérité que aucun tableau de bord de plateforme ne montre.",
           "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
@@ -51,13 +51,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Surveillance de la santé de la plateforme",
-          "description": "Taux de conversion, taille du panier, taux d'acceptation par plateforme — signalé lorsqu'ils dérivent. Le changement de bascule apparaît le lendemain matin, pas la semaine suivante.",
+          "description": "Taux de conversion, taille du panier, taux d'acceptation par plateforme - signalé lorsqu'ils dérivent. Le changement de bascule apparaît le lendemain matin, pas la semaine suivante.",
           "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
           "title": "Rythme opérationnel en direct",
-          "description": "Volume de commandes, temps de préparation, commandes en retard par heure. La cuisine voit le pic se former — pas le post-mortem.",
+          "description": "Volume de commandes, temps de préparation, commandes en retard par heure. La cuisine voit le pic se former - pas le post-mortem.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -67,7 +67,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Cessez de subventionner des canaux non rentables",
-          "description": "Réduisez, renégociez ou rééquilibrez en fonction de la marge nette — pas du volume de commandes.",
+          "description": "Réduisez, renégociez ou rééquilibrez en fonction de la marge nette - pas du volume de commandes.",
           "icon": "speed"
         },
         {
@@ -77,12 +77,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Détectez les changements de plateforme en 24 heures",
-          "description": "Modifiez les changements, les variations de classement, les mises à jour de frais — visibles le matin suivant, pas la semaine prochaine.",
+          "description": "Modifiez les changements, les variations de classement, les mises à jour de frais - visibles le matin suivant, pas la semaine prochaine.",
           "icon": "performance"
         },
         {
           "title": "Gérez une cuisine plus efficace",
-          "description": "Temps de préparation, débit, productivité du travail par heure — visible pendant que le service est encore en cours.",
+          "description": "Temps de préparation, débit, productivité du travail par heure - visible pendant que le service est encore en cours.",
           "icon": "support"
         }
       ],
@@ -103,17 +103,17 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "La comisión consume el margen",
-          "description": "20–30% por plataforma por pedido. El margen neto por canal es invisible: optimizas el bruto y pierdes dinero.",
+          "description": "20-30% por plataforma por pedido. El margen neto por canal es invisible: optimizas el bruto y pierdes dinero.",
           "icon": "balance"
         },
         {
           "title": "Seis plataformas, seis paneles",
-          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, el tuyo — cada uno con una perspectiva diferente, ninguno con la verdad.",
+          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, el tuyo - cada uno con una perspectiva diferente, ninguno con la verdad.",
           "icon": "delivery"
         },
         {
           "title": "Rendimiento de marca virtual opaco",
-          "description": "Cinco marcas de una cocina — pero, ¿cuál realmente contribuye? Oculto por costos compartidos y rendimiento compartido.",
+          "description": "Cinco marcas de una cocina - pero, ¿cuál realmente contribuye? Oculto por costos compartidos y rendimiento compartido.",
           "icon": "performance"
         },
         {
@@ -127,7 +127,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Margen neto por plataforma, por marca",
-          "description": "Órdenes, comisiones, empaques, mano de obra asignada y costo de alimentos — para el margen neto en la intersección de canal × marca. La verdad que ningún panel de plataforma muestra.",
+          "description": "Órdenes, comisiones, empaques, mano de obra asignada y costo de alimentos - para el margen neto en la intersección de canal × marca. La verdad que ningún panel de plataforma muestra.",
           "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
@@ -139,13 +139,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Monitoreo de salud de la plataforma",
-          "description": "Tasa de conversión, tamaño del carrito, tasa de aceptación por plataforma — señalados cuando se desvían. El cambio de alternancia se refleja a la mañana siguiente, no la próxima semana.",
+          "description": "Tasa de conversión, tamaño del carrito, tasa de aceptación por plataforma - señalados cuando se desvían. El cambio de alternancia se refleja a la mañana siguiente, no la próxima semana.",
           "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
           "title": "Ritmo operativo en vivo",
-          "description": "Volumen de pedidos, tiempo de preparación, pedidos tardíos por hora. La cocina ve el aumento formándose — no el post-mortem.",
+          "description": "Volumen de pedidos, tiempo de preparación, pedidos tardíos por hora. La cocina ve el aumento formándose - no el post-mortem.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -165,12 +165,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Detecta cambios en la plataforma en 24 horas",
-          "description": "Activa cambios, ajustes de clasificación, actualizaciones de tarifas — visibles la mañana siguiente, no la próxima semana.",
+          "description": "Activa cambios, ajustes de clasificación, actualizaciones de tarifas - visibles la mañana siguiente, no la próxima semana.",
           "icon": "performance"
         },
         {
           "title": "Opera una cocina más eficiente",
-          "description": "Tiempo de preparación, rendimiento, productividad laboral por hora — visible mientras el turno aún está en curso.",
+          "description": "Tiempo de preparación, rendimiento, productividad laboral por hora - visible mientras el turno aún está en curso.",
           "icon": "support"
         }
       ],
@@ -191,17 +191,17 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Provision frisst die Marge",
-          "description": "20–30% pro Plattform pro Bestellung. Nettomarge pro Kanal ist unsichtbar — Sie optimieren den Bruttobetrag und verlieren Geld.",
+          "description": "20-30% pro Plattform pro Bestellung. Nettomarge pro Kanal ist unsichtbar - Sie optimieren den Bruttobetrag und verlieren Geld.",
           "icon": "balance"
         },
         {
           "title": "Sechs Plattformen, sechs Dashboards",
-          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, Ihre eigene — jede mit einer anderen Perspektive, keine mit der Wahrheit.",
+          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, Ihre eigene - jede mit einer anderen Perspektive, keine mit der Wahrheit.",
           "icon": "delivery"
         },
         {
           "title": "Leistung der virtuellen Marke undurchsichtig",
-          "description": "Fünf Marken aus einer Küche — aber welche trägt tatsächlich bei? Versteckt durch gemeinsame Kosten und gemeinsamen Durchsatz.",
+          "description": "Fünf Marken aus einer Küche - aber welche trägt tatsächlich bei? Versteckt durch gemeinsame Kosten und gemeinsamen Durchsatz.",
           "icon": "performance"
         },
         {
@@ -215,7 +215,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Netto-Marge pro Plattform, pro Marke",
-          "description": "Bestellungen, Provisionen, Verpackung, zugewiesene Arbeits- und Lebensmittelkosten — zur Netto-Marge an der Schnittstelle von Kanal und Marke. Die Wahrheit, die kein Plattform-Dashboard zeigt.",
+          "description": "Bestellungen, Provisionen, Verpackung, zugewiesene Arbeits- und Lebensmittelkosten - zur Netto-Marge an der Schnittstelle von Kanal und Marke. Die Wahrheit, die kein Plattform-Dashboard zeigt.",
           "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
@@ -227,13 +227,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Überwachung der Plattformgesundheit",
-          "description": "Konversionsrate, Warenkorbgröße, Akzeptanzrate pro Plattform — markiert, wenn sie abweichen. Die Änderung des Schalters zeigt sich am nächsten Morgen, nicht nächste Woche.",
+          "description": "Konversionsrate, Warenkorbgröße, Akzeptanzrate pro Plattform - markiert, wenn sie abweichen. Die Änderung des Schalters zeigt sich am nächsten Morgen, nicht nächste Woche.",
           "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
           "title": "Live-Betriebsüberwachung",
-          "description": "Bestellvolumen, Vorbereitungszeit, verspätete Bestellungen nach Stunde. Die Küche sieht den Anstieg kommen — nicht die Nachbesprechung.",
+          "description": "Bestellvolumen, Vorbereitungszeit, verspätete Bestellungen nach Stunde. Die Küche sieht den Anstieg kommen - nicht die Nachbesprechung.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -243,7 +243,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Subventionieren Sie keine unrentablen Kanäle mehr",
-          "description": "Reduzieren, neu verhandeln oder neu ausbalancieren basierend auf der Nettomarge — nicht auf dem Bestellvolumen.",
+          "description": "Reduzieren, neu verhandeln oder neu ausbalancieren basierend auf der Nettomarge - nicht auf dem Bestellvolumen.",
           "icon": "speed"
         },
         {
@@ -253,12 +253,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Erfassen Sie Plattformänderungen innerhalb von 24 Stunden",
-          "description": "Änderungen, Ranking-Verschiebungen, Gebührenaktualisierungen — am Morgen danach sichtbar, nicht nächste Woche.",
+          "description": "Änderungen, Ranking-Verschiebungen, Gebührenaktualisierungen - am Morgen danach sichtbar, nicht nächste Woche.",
           "icon": "performance"
         },
         {
           "title": "Führen Sie eine schlankere Küche",
-          "description": "Vorbereitungszeit, Durchsatz, Arbeitsproduktivität pro Stunde — sichtbar, während die Schicht noch läuft.",
+          "description": "Vorbereitungszeit, Durchsatz, Arbeitsproduktivität pro Stunde - sichtbar, während die Schicht noch läuft.",
           "icon": "support"
         }
       ],
@@ -279,17 +279,17 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "العمولة تأكل الهامش",
-          "description": "20–30% لكل منصة لكل طلب. الهامش الصافي لكل قناة غير مرئي — تقوم بتحسين الإجمالي وتخسر المال.",
+          "description": "20-30% لكل منصة لكل طلب. الهامش الصافي لكل قناة غير مرئي - تقوم بتحسين الإجمالي وتخسر المال.",
           "icon": "balance"
         },
         {
           "title": "ست منصات، ست لوحات تحكم",
-          "description": "DoorDash، UberEats، Talabat، Deliveroo، JustEat، خاصتك — كل منها برؤية مختلفة، ولا واحدة منها تعكس الحقيقة.",
+          "description": "DoorDash، UberEats، Talabat، Deliveroo، JustEat، خاصتك - كل منها برؤية مختلفة، ولا واحدة منها تعكس الحقيقة.",
           "icon": "delivery"
         },
         {
           "title": "أداء العلامة التجارية الافتراضية غير واضح",
-          "description": "خمسة علامات تجارية من مطبخ واحد — لكن أي واحدة تساهم فعلاً؟ مخفية بتكاليف مشتركة وإنتاجية مشتركة.",
+          "description": "خمسة علامات تجارية من مطبخ واحد - لكن أي واحدة تساهم فعلاً؟ مخفية بتكاليف مشتركة وإنتاجية مشتركة.",
           "icon": "performance"
         },
         {
@@ -303,7 +303,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "هامش الربح الصافي لكل منصة، لكل علامة تجارية",
-          "description": "الطلبات، العمولات، التعبئة، العمالة المخصصة وتكاليف الطعام — إلى هامش الربح عند تقاطع القناة × العلامة التجارية. الحقيقة التي لا تظهرها أي لوحة تحكم منصة.",
+          "description": "الطلبات، العمولات، التعبئة، العمالة المخصصة وتكاليف الطعام - إلى هامش الربح عند تقاطع القناة × العلامة التجارية. الحقيقة التي لا تظهرها أي لوحة تحكم منصة.",
           "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
@@ -315,13 +315,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "مراقبة صحة المنصة",
-          "description": "معدل التحويل، حجم السلة، معدل القبول لكل منصة — يتم تنبيهها عند الانحراف. يظهر تغيير التبديل في صباح اليوم التالي، وليس الأسبوع المقبل.",
+          "description": "معدل التحويل، حجم السلة، معدل القبول لكل منصة - يتم تنبيهها عند الانحراف. يظهر تغيير التبديل في صباح اليوم التالي، وليس الأسبوع المقبل.",
           "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
           "title": "تسارع العمليات الحي",
-          "description": "حجم الطلبات، وقت التحضير، الطلبات المتأخرة حسب الساعة. يرى المطبخ الزيادة تتشكل — وليس التحليل اللاحق.",
+          "description": "حجم الطلبات، وقت التحضير، الطلبات المتأخرة حسب الساعة. يرى المطبخ الزيادة تتشكل - وليس التحليل اللاحق.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -367,17 +367,17 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Commissie slokt de marge op",
-          "description": "20–30% per platform per bestelling. Nettomarge per kanaal is onzichtbaar — je optimaliseert bruto en verliest geld.",
+          "description": "20-30% per platform per bestelling. Nettomarge per kanaal is onzichtbaar - je optimaliseert bruto en verliest geld.",
           "icon": "balance"
         },
         {
           "title": "Zes platforms, zes dashboards",
-          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, jouw eigen — elk met een andere lens, geen met de waarheid.",
+          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, jouw eigen - elk met een andere lens, geen met de waarheid.",
           "icon": "delivery"
         },
         {
           "title": "Prestaties van virtuele merken ondoorzichtig",
-          "description": "Vijf merken uit één keuken — maar welke draagt daadwerkelijk bij? Verborgen door gedeelde kosten en gedeelde doorvoer.",
+          "description": "Vijf merken uit één keuken - maar welke draagt daadwerkelijk bij? Verborgen door gedeelde kosten en gedeelde doorvoer.",
           "icon": "performance"
         },
         {
@@ -391,7 +391,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Netto marge per platform, per merk",
-          "description": "Bestellingen, commissies, verpakkingen, toegewezen arbeid en voedselkosten — tot netto marge op het snijpunt van kanaal × merk. De waarheid die geen enkel platformdashboard toont.",
+          "description": "Bestellingen, commissies, verpakkingen, toegewezen arbeid en voedselkosten - tot netto marge op het snijpunt van kanaal × merk. De waarheid die geen enkel platformdashboard toont.",
           "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
@@ -403,13 +403,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Monitoring van platformgezondheid",
-          "description": "Conversieratio, winkelwagentje grootte, acceptatiegraad per platform — gemarkeerd wanneer ze afwijken. De wijziging van de schakelaar verschijnt de volgende ochtend, niet volgende week.",
+          "description": "Conversieratio, winkelwagentje grootte, acceptatiegraad per platform - gemarkeerd wanneer ze afwijken. De wijziging van de schakelaar verschijnt de volgende ochtend, niet volgende week.",
           "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
           "title": "Live operationele pacing",
-          "description": "Bestelvolume, bereidingstijd, late bestellingen per uur. De keuken ziet de piek zich vormen — niet de post-mortem.",
+          "description": "Bestelvolume, bereidingstijd, late bestellingen per uur. De keuken ziet de piek zich vormen - niet de post-mortem.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -419,7 +419,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Stop met het subsidiëren van onrendabele kanalen",
-          "description": "Snijd, heronderhandel of herbalanceer op basis van nettomarge — niet op ordervolume.",
+          "description": "Snijd, heronderhandel of herbalanceer op basis van nettomarge - niet op ordervolume.",
           "icon": "speed"
         },
         {
@@ -429,12 +429,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Vang platformwijzigingen binnen 24 uur",
-          "description": "Schakel wijzigingen, rangschikkingsverschuivingen, kostenupdates in — zichtbaar de ochtend erna, niet volgende week.",
+          "description": "Schakel wijzigingen, rangschikkingsverschuivingen, kostenupdates in - zichtbaar de ochtend erna, niet volgende week.",
           "icon": "performance"
         },
         {
           "title": "Voer een slanker keukenbeheer",
-          "description": "Voorbereidingstijd, doorvoer, arbeidsproductiviteit per uur — zichtbaar terwijl de shift nog loopt.",
+          "description": "Voorbereidingstijd, doorvoer, arbeidsproductiviteit per uur - zichtbaar terwijl de shift nog loopt.",
           "icon": "support"
         }
       ],
@@ -455,17 +455,17 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "A comissão consome a margem",
-          "description": "20–30% por plataforma por pedido. A margem líquida por canal é invisível — você otimiza o bruto e perde dinheiro.",
+          "description": "20-30% por plataforma por pedido. A margem líquida por canal é invisível - você otimiza o bruto e perde dinheiro.",
           "icon": "balance"
         },
         {
           "title": "Seis plataformas, seis painéis",
-          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, o seu próprio — cada um com uma lente diferente, nenhum com a verdade.",
+          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, o seu próprio - cada um com uma lente diferente, nenhum com a verdade.",
           "icon": "delivery"
         },
         {
           "title": "Desempenho da marca virtual opaco",
-          "description": "Cinco marcas de uma cozinha — mas qual realmente contribui? Oculto por custos compartilhados e throughput compartilhado.",
+          "description": "Cinco marcas de uma cozinha - mas qual realmente contribui? Oculto por custos compartilhados e throughput compartilhado.",
           "icon": "performance"
         },
         {
@@ -479,7 +479,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Margem líquida por plataforma, por marca",
-          "description": "Pedidos, comissões, embalagem, mão de obra alocada e custo de alimentos — para a margem líquida na interseção canal × marca. A verdade que nenhum painel de plataforma mostra.",
+          "description": "Pedidos, comissões, embalagem, mão de obra alocada e custo de alimentos - para a margem líquida na interseção canal × marca. A verdade que nenhum painel de plataforma mostra.",
           "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
@@ -491,13 +491,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Monitoramento da saúde da plataforma",
-          "description": "Taxa de conversão, tamanho do carrinho, taxa de aceitação por plataforma — sinalizado quando eles se desviam. A mudança de alternância aparece na manhã seguinte, não na próxima semana.",
+          "description": "Taxa de conversão, tamanho do carrinho, taxa de aceitação por plataforma - sinalizado quando eles se desviam. A mudança de alternância aparece na manhã seguinte, não na próxima semana.",
           "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
           "title": "Ritmo operacional ao vivo",
-          "description": "Volume de pedidos, tempo de preparo, pedidos atrasados por hora. A cozinha vê o pico se formando — não o pós-morte.",
+          "description": "Volume de pedidos, tempo de preparo, pedidos atrasados por hora. A cozinha vê o pico se formando - não o pós-morte.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -507,7 +507,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Pare de subsidiar canais não lucrativos",
-          "description": "Corte, renegocie ou reequilibre com base na margem líquida — não no volume de pedidos.",
+          "description": "Corte, renegocie ou reequilibre com base na margem líquida - não no volume de pedidos.",
           "icon": "speed"
         },
         {
@@ -517,12 +517,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Detecte mudanças na plataforma em 24 horas",
-          "description": "Ative mudanças, alterações de classificação, atualizações de taxas — visíveis na manhã seguinte, não na próxima semana.",
+          "description": "Ative mudanças, alterações de classificação, atualizações de taxas - visíveis na manhã seguinte, não na próxima semana.",
           "icon": "performance"
         },
         {
           "title": "Administre uma cozinha mais enxuta",
-          "description": "Tempo de preparo, rendimento, produtividade da mão de obra por hora — visível enquanto o turno ainda está em andamento.",
+          "description": "Tempo de preparo, rendimento, produtividade da mão de obra por hora - visível enquanto o turno ainda está em andamento.",
           "icon": "support"
         }
       ],
@@ -543,17 +543,17 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "کمیشن منافع کھا جاتا ہے",
-          "description": "ہر پلیٹ فارم پر ہر آرڈر کے لیے 20–30%۔ ہر چینل کا نیٹ مارجن نظر نہیں آتا — آپ مجموعی کو بہتر بناتے ہیں اور پیسے کھو دیتے ہیں۔",
+          "description": "ہر پلیٹ فارم پر ہر آرڈر کے لیے 20-30%۔ ہر چینل کا نیٹ مارجن نظر نہیں آتا - آپ مجموعی کو بہتر بناتے ہیں اور پیسے کھو دیتے ہیں۔",
           "icon": "balance"
         },
         {
           "title": "چھ پلیٹ فارم، چھ ڈیش بورڈز",
-          "description": "DoorDash، UberEats، Talabat، Deliveroo، JustEat، آپ کا اپنا — ہر ایک مختلف زاویے سے، کوئی بھی حقیقت کے ساتھ نہیں۔",
+          "description": "DoorDash، UberEats، Talabat، Deliveroo، JustEat، آپ کا اپنا - ہر ایک مختلف زاویے سے، کوئی بھی حقیقت کے ساتھ نہیں۔",
           "icon": "delivery"
         },
         {
           "title": "ورچوئل برانڈ کی کارکردگی غیر واضح",
-          "description": "ایک کچن سے پانچ برانڈز — لیکن کون سا واقعی میں مدد کرتا ہے؟ مشترکہ لاگت اور مشترکہ تھروپٹ کے ذریعے چھپایا گیا۔",
+          "description": "ایک کچن سے پانچ برانڈز - لیکن کون سا واقعی میں مدد کرتا ہے؟ مشترکہ لاگت اور مشترکہ تھروپٹ کے ذریعے چھپایا گیا۔",
           "icon": "performance"
         },
         {
@@ -567,7 +567,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "ہر پلیٹ فارم، ہر برانڈ کے لیے نیٹ مارجن",
-          "description": "آرڈرز، کمیشن، پیکجنگ، مختص کردہ مزدوری اور خوراک کی قیمت — چینل × برانڈ کے انٹر سیکشن پر نیٹ مارجن۔ یہ سچائی ہے جو کوئی پلیٹ فارم ڈیش بورڈ نہیں دکھاتا۔",
+          "description": "آرڈرز، کمیشن، پیکجنگ، مختص کردہ مزدوری اور خوراک کی قیمت - چینل × برانڈ کے انٹر سیکشن پر نیٹ مارجن۔ یہ سچائی ہے جو کوئی پلیٹ فارم ڈیش بورڈ نہیں دکھاتا۔",
           "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
@@ -579,13 +579,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "پلیٹ فارم کی صحت کی نگرانی",
-          "description": "تبدیلی کی شرح، ٹوکری کا سائز، ہر پلیٹ فارم پر قبولیت کی شرح — جب وہ بھٹکیں تو نشان زد کریں۔ ٹوگل کی تبدیلی اگلی صبح ظاہر ہوتی ہے، نہ کہ اگلے ہفتے۔",
+          "description": "تبدیلی کی شرح، ٹوکری کا سائز، ہر پلیٹ فارم پر قبولیت کی شرح - جب وہ بھٹکیں تو نشان زد کریں۔ ٹوگل کی تبدیلی اگلی صبح ظاہر ہوتی ہے، نہ کہ اگلے ہفتے۔",
           "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
           "title": "لائیو آپریشنل پیسنگ",
-          "description": "آرڈر کی مقدار، تیاری کا وقت، گھنٹہ وار دیر سے آرڈرز۔ کچن میں ابھرتی ہوئی چوٹی کو دیکھا جا سکتا ہے — نہ کہ بعد کی جانچ۔",
+          "description": "آرڈر کی مقدار، تیاری کا وقت، گھنٹہ وار دیر سے آرڈرز۔ کچن میں ابھرتی ہوئی چوٹی کو دیکھا جا سکتا ہے - نہ کہ بعد کی جانچ۔",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -595,7 +595,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "غیر منافع بخش چینلز کی سبسڈی بند کریں",
-          "description": "نیٹ مارجن کی بنیاد پر کٹوتی کریں، دوبارہ مذاکرات کریں، یا توازن بنائیں — آرڈر کی مقدار نہیں۔",
+          "description": "نیٹ مارجن کی بنیاد پر کٹوتی کریں، دوبارہ مذاکرات کریں، یا توازن بنائیں - آرڈر کی مقدار نہیں۔",
           "icon": "speed"
         },
         {
@@ -605,12 +605,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "24 گھنٹوں میں پلیٹ فارم کی تبدیلیاں پکڑیں",
-          "description": "تبدیلیاں، درجہ بندی کی تبدیلیاں، فیس کی تازہ کاریوں کو ٹوگل کریں — صبح کے بعد سامنے آئیں، اگلے ہفتے نہیں۔",
+          "description": "تبدیلیاں، درجہ بندی کی تبدیلیاں، فیس کی تازہ کاریوں کو ٹوگل کریں - صبح کے بعد سامنے آئیں، اگلے ہفتے نہیں۔",
           "icon": "performance"
         },
         {
           "title": "ایک پتلا کچن چلائیں",
-          "description": "پریپ کا وقت، تھروپٹ، فی گھنٹہ لیبر کی پیداوار — شفٹ کے دوران نظر آنے والا۔",
+          "description": "پریپ کا وقت، تھروپٹ، فی گھنٹہ لیبر کی پیداوار - شفٹ کے دوران نظر آنے والا۔",
           "icon": "support"
         }
       ],
@@ -631,17 +631,17 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "La commissione erode il margine",
-          "description": "20–30% per piattaforma per ordine. Il margine netto per canale è invisibile — ottimizzi il lordo e perdi denaro.",
+          "description": "20-30% per piattaforma per ordine. Il margine netto per canale è invisibile - ottimizzi il lordo e perdi denaro.",
           "icon": "balance"
         },
         {
           "title": "Sei piattaforme, sei dashboard",
-          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, la tua — ognuna con una prospettiva diversa, nessuna con la verità.",
+          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, la tua - ognuna con una prospettiva diversa, nessuna con la verità.",
           "icon": "delivery"
         },
         {
           "title": "Prestazioni del marchio virtuale opache",
-          "description": "Cinque marchi da una cucina — ma quale contribuisce realmente? Nascosto da costi condivisi e throughput condiviso.",
+          "description": "Cinque marchi da una cucina - ma quale contribuisce realmente? Nascosto da costi condivisi e throughput condiviso.",
           "icon": "performance"
         },
         {
@@ -655,7 +655,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Margine netto per piattaforma, per marchio",
-          "description": "Ordini, commissioni, imballaggio, manodopera allocata e costo del cibo — per il margine netto all'intersezione canale × marchio. La verità che nessun dashboard di piattaforma mostra.",
+          "description": "Ordini, commissioni, imballaggio, manodopera allocata e costo del cibo - per il margine netto all'intersezione canale × marchio. La verità che nessun dashboard di piattaforma mostra.",
           "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
@@ -667,13 +667,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Monitoraggio della salute della piattaforma",
-          "description": "Tasso di conversione, dimensione del carrello, tasso di accettazione per piattaforma — segnalato quando si discosta. La modifica dell'interruttore appare la mattina dopo, non la settimana successiva.",
+          "description": "Tasso di conversione, dimensione del carrello, tasso di accettazione per piattaforma - segnalato quando si discosta. La modifica dell'interruttore appare la mattina dopo, non la settimana successiva.",
           "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
           "title": "Pacing operativo dal vivo",
-          "description": "Volume degli ordini, tempo di preparazione, ordini in ritardo per ora. La cucina vede il picco formarsi — non il post-mortem.",
+          "description": "Volume degli ordini, tempo di preparazione, ordini in ritardo per ora. La cucina vede il picco formarsi - non il post-mortem.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -683,7 +683,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Smetti di sovvenzionare canali non redditizi",
-          "description": "Taglia, rinegozia o riequilibra in base al margine netto — non al volume degli ordini.",
+          "description": "Taglia, rinegozia o riequilibra in base al margine netto - non al volume degli ordini.",
           "icon": "speed"
         },
         {
@@ -693,12 +693,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Rileva i cambiamenti della piattaforma in 24 ore",
-          "description": "Attiva cambiamenti, spostamenti di ranking, aggiornamenti delle commissioni — visibili la mattina dopo, non la settimana prossima.",
+          "description": "Attiva cambiamenti, spostamenti di ranking, aggiornamenti delle commissioni - visibili la mattina dopo, non la settimana prossima.",
           "icon": "performance"
         },
         {
           "title": "Gestisci una cucina più snella",
-          "description": "Tempo di preparazione, produttività oraria del lavoro — visibile mentre il turno è ancora in corso.",
+          "description": "Tempo di preparazione, produttività oraria del lavoro - visibile mentre il turno è ancora in corso.",
           "icon": "support"
         }
       ],
@@ -719,17 +719,17 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "कमिशन मार्जिन को खा जाता है",
-          "description": "प्रत्येक प्लेटफॉर्म पर प्रति ऑर्डर 20–30%। चैनल के अनुसार शुद्ध मार्जिन अदृश्य है — आप ग्रॉस को ऑप्टिमाइज़ करते हैं और पैसे खोते हैं।",
+          "description": "प्रत्येक प्लेटफॉर्म पर प्रति ऑर्डर 20-30%। चैनल के अनुसार शुद्ध मार्जिन अदृश्य है - आप ग्रॉस को ऑप्टिमाइज़ करते हैं और पैसे खोते हैं।",
           "icon": "balance"
         },
         {
           "title": "छह प्लेटफॉर्म, छह डैशबोर्ड",
-          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, आपका खुद का — प्रत्येक एक अलग दृष्टिकोण के साथ, कोई भी सच्चाई के साथ नहीं।",
+          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, आपका खुद का - प्रत्येक एक अलग दृष्टिकोण के साथ, कोई भी सच्चाई के साथ नहीं।",
           "icon": "delivery"
         },
         {
           "title": "वर्चुअल ब्रांड प्रदर्शन अस्पष्ट",
-          "description": "एक रसोई से पांच ब्रांड — लेकिन वास्तव में कौन योगदान देता है? साझा लागत और साझा थ्रूपुट द्वारा छिपा हुआ।",
+          "description": "एक रसोई से पांच ब्रांड - लेकिन वास्तव में कौन योगदान देता है? साझा लागत और साझा थ्रूपुट द्वारा छिपा हुआ।",
           "icon": "performance"
         },
         {
@@ -743,7 +743,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "प्रत्येक प्लेटफ़ॉर्म, प्रत्येक ब्रांड के लिए नेट मार्जिन",
-          "description": "ऑर्डर, कमीशन, पैकेजिंग, आवंटित श्रम और खाद्य लागत — चैनल × ब्रांड इंटरसेक्शन पर नेट मार्जिन। यह सच है जो कोई भी प्लेटफ़ॉर्म डैशबोर्ड नहीं दिखाता।",
+          "description": "ऑर्डर, कमीशन, पैकेजिंग, आवंटित श्रम और खाद्य लागत - चैनल × ब्रांड इंटरसेक्शन पर नेट मार्जिन। यह सच है जो कोई भी प्लेटफ़ॉर्म डैशबोर्ड नहीं दिखाता।",
           "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
@@ -755,13 +755,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "प्लेटफ़ॉर्म स्वास्थ्य निगरानी",
-          "description": "परिवर्तन दर, बास्केट आकार, प्रत्येक प्लेटफ़ॉर्म पर स्वीकृति दर — जब वे भटकते हैं तो झंडा लगाया जाता है। टॉगल परिवर्तन अगले सुबह दिखाई देता है, अगले सप्ताह नहीं।",
+          "description": "परिवर्तन दर, बास्केट आकार, प्रत्येक प्लेटफ़ॉर्म पर स्वीकृति दर - जब वे भटकते हैं तो झंडा लगाया जाता है। टॉगल परिवर्तन अगले सुबह दिखाई देता है, अगले सप्ताह नहीं।",
           "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
           "title": "लाइव ऑपरेशनल पेसिंग",
-          "description": "ऑर्डर मात्रा, तैयारी का समय, घंटे के अनुसार देर से ऑर्डर। रसोई में वृद्धि का आकार बनता हुआ दिखाई देता है — पोस्ट-मॉर्टम नहीं।",
+          "description": "ऑर्डर मात्रा, तैयारी का समय, घंटे के अनुसार देर से ऑर्डर। रसोई में वृद्धि का आकार बनता हुआ दिखाई देता है - पोस्ट-मॉर्टम नहीं।",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -771,7 +771,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "असफल चैनलों को सब्सिडी देना बंद करें",
-          "description": "नेट मार्जिन के आधार पर कटौती करें, पुनः बातचीत करें या संतुलन बनाएं — ऑर्डर मात्रा नहीं।",
+          "description": "नेट मार्जिन के आधार पर कटौती करें, पुनः बातचीत करें या संतुलन बनाएं - ऑर्डर मात्रा नहीं।",
           "icon": "speed"
         },
         {
@@ -781,12 +781,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "24 घंटे में प्लेटफ़ॉर्म परिवर्तनों को पकड़ें",
-          "description": "परिवर्तनों, रैंकिंग में बदलाव, शुल्क अपडेट को टॉगल करें — अगले सप्ताह नहीं, बल्कि सुबह के बाद।",
+          "description": "परिवर्तनों, रैंकिंग में बदलाव, शुल्क अपडेट को टॉगल करें - अगले सप्ताह नहीं, बल्कि सुबह के बाद।",
           "icon": "performance"
         },
         {
           "title": "एक पतली रसोई चलाएं",
-          "description": "प्रेप समय, थ्रूपुट, प्रति घंटे श्रम उत्पादकता — जब शिफ्ट अभी भी चल रही हो तब दिखाई दे।",
+          "description": "प्रेप समय, थ्रूपुट, प्रति घंटे श्रम उत्पादकता - जब शिफ्ट अभी भी चल रही हो तब दिखाई दे।",
           "icon": "support"
         }
       ],
@@ -807,17 +807,17 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Prowizja zjada marżę",
-          "description": "20–30% za platformę za zamówienie. Marża netto na kanale jest niewidoczna — optymalizujesz brutto i tracisz pieniądze.",
+          "description": "20-30% za platformę za zamówienie. Marża netto na kanale jest niewidoczna - optymalizujesz brutto i tracisz pieniądze.",
           "icon": "balance"
         },
         {
           "title": "Sześć platform, sześć pulpitów",
-          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, twoja własna — każda z innym spojrzeniem, żadna z prawdą.",
+          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, twoja własna - każda z innym spojrzeniem, żadna z prawdą.",
           "icon": "delivery"
         },
         {
           "title": "Wydajność marki wirtualnej nieprzejrzysta",
-          "description": "Pięć marek z jednej kuchni — ale która naprawdę wnosi? Ukryta przez wspólne koszty i wspólny przepływ.",
+          "description": "Pięć marek z jednej kuchni - ale która naprawdę wnosi? Ukryta przez wspólne koszty i wspólny przepływ.",
           "icon": "performance"
         },
         {
@@ -831,7 +831,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Marża netto na platformę, na markę",
-          "description": "Zamówienia, prowizje, opakowania, przydzielona praca i koszty żywności — do marży netto na przecięciu kanału × marki. Prawda, której żaden pulpit platformy nie pokazuje.",
+          "description": "Zamówienia, prowizje, opakowania, przydzielona praca i koszty żywności - do marży netto na przecięciu kanału × marki. Prawda, której żaden pulpit platformy nie pokazuje.",
           "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
@@ -843,13 +843,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Monitorowanie zdrowia platformy",
-          "description": "Wskaźnik konwersji, rozmiar koszyka, wskaźnik akceptacji na platformie — oznaczone, gdy się zmieniają. Zmiana przełącznika pojawia się następnego ranka, a nie w przyszłym tygodniu.",
+          "description": "Wskaźnik konwersji, rozmiar koszyka, wskaźnik akceptacji na platformie - oznaczone, gdy się zmieniają. Zmiana przełącznika pojawia się następnego ranka, a nie w przyszłym tygodniu.",
           "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
           "title": "Na żywo operacyjne tempo",
-          "description": "Wolumen zamówień, czas przygotowania, spóźnione zamówienia według godziny. Kuchnia widzi formujący się szczyt — a nie analizę po fakcie.",
+          "description": "Wolumen zamówień, czas przygotowania, spóźnione zamówienia według godziny. Kuchnia widzi formujący się szczyt - a nie analizę po fakcie.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -859,7 +859,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Przestań subsydiować nieopłacalne kanały",
-          "description": "Zredukuj, renegocjuj lub zrównoważ na podstawie marży netto — a nie wolumenu zamówień.",
+          "description": "Zredukuj, renegocjuj lub zrównoważ na podstawie marży netto - a nie wolumenu zamówień.",
           "icon": "speed"
         },
         {
@@ -869,12 +869,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Złap zmiany na platformie w 24 godziny",
-          "description": "Przełącz zmiany, przesunięcia w rankingach, aktualizacje opłat — ujawnione rano po, a nie w przyszłym tygodniu.",
+          "description": "Przełącz zmiany, przesunięcia w rankingach, aktualizacje opłat - ujawnione rano po, a nie w przyszłym tygodniu.",
           "icon": "performance"
         },
         {
           "title": "Prowadź bardziej efektywną kuchnię",
-          "description": "Czas przygotowania, wydajność, produktywność pracy na godzinę — widoczne podczas trwania zmiany.",
+          "description": "Czas przygotowania, wydajność, produktywność pracy na godzinę - widoczne podczas trwania zmiany.",
           "icon": "support"
         }
       ],
@@ -895,17 +895,17 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Komisyon marjı yer",
-          "description": "Her platformda sipariş başına %20–30. Kanal başına net marj görünmez — brütü optimize edersiniz ve para kaybedersiniz.",
+          "description": "Her platformda sipariş başına %20-30. Kanal başına net marj görünmez - brütü optimize edersiniz ve para kaybedersiniz.",
           "icon": "balance"
         },
         {
           "title": "Altı platform, altı gösterge paneli",
-          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, kendi platformunuz — her biri farklı bir bakış açısına sahip, hiçbiri gerçeği yansıtmıyor.",
+          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, kendi platformunuz - her biri farklı bir bakış açısına sahip, hiçbiri gerçeği yansıtmıyor.",
           "icon": "delivery"
         },
         {
           "title": "Sanal marka performansı belirsiz",
-          "description": "Bir mutfaktan beş marka — ama hangisi gerçekten katkıda bulunuyor? Paylaşılan maliyet ve paylaşılan verimlilikle gizlenmiş.",
+          "description": "Bir mutfaktan beş marka - ama hangisi gerçekten katkıda bulunuyor? Paylaşılan maliyet ve paylaşılan verimlilikle gizlenmiş.",
           "icon": "performance"
         },
         {
@@ -919,7 +919,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Platform başına, marka başına net marj",
-          "description": "Siparişler, komisyonlar, ambalaj, tahsis edilen iş gücü ve gıda maliyeti — kanal × marka kesişiminde net marj. Hiçbir platform gösterge panelinin göstermediği gerçek.",
+          "description": "Siparişler, komisyonlar, ambalaj, tahsis edilen iş gücü ve gıda maliyeti - kanal × marka kesişiminde net marj. Hiçbir platform gösterge panelinin göstermediği gerçek.",
           "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
@@ -931,13 +931,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Platform sağlık izleme",
-          "description": "Dönüşüm oranı, sepet büyüklüğü, platform başına kabul oranı — sapma olduğunda işaretlenir. Değişiklik, ertesi sabah görünür, bir hafta sonra değil.",
+          "description": "Dönüşüm oranı, sepet büyüklüğü, platform başına kabul oranı - sapma olduğunda işaretlenir. Değişiklik, ertesi sabah görünür, bir hafta sonra değil.",
           "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
           "title": "Canlı operasyon hızı",
-          "description": "Sipariş hacmi, hazırlık süresi, saat başına geç siparişler. Mutfak, oluşan zirveyi görüyor — sonrasında değil.",
+          "description": "Sipariş hacmi, hazırlık süresi, saat başına geç siparişler. Mutfak, oluşan zirveyi görüyor - sonrasında değil.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -947,7 +947,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Kârsız kanallara sübvansiyon vermeyi bırakın",
-          "description": "Net marj üzerinden kesinti yapın, yeniden müzakere edin veya dengeleyin — sipariş hacmine göre değil.",
+          "description": "Net marj üzerinden kesinti yapın, yeniden müzakere edin veya dengeleyin - sipariş hacmine göre değil.",
           "icon": "speed"
         },
         {
@@ -957,12 +957,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Platform değişikliklerini 24 saatte yakalayın",
-          "description": "Değişiklikleri, sıralama değişikliklerini, ücret güncellemelerini — ertesi sabah görün, gelecek hafta değil.",
+          "description": "Değişiklikleri, sıralama değişikliklerini, ücret güncellemelerini - ertesi sabah görün, gelecek hafta değil.",
           "icon": "performance"
         },
         {
           "title": "Daha verimli bir mutfak yönetin",
-          "description": "Hazırlık süresi, üretim hızı, saat başına iş gücü verimliliği — vardiya hala devam ederken görünür.",
+          "description": "Hazırlık süresi, üretim hızı, saat başına iş gücü verimliliği - vardiya hala devam ederken görünür.",
           "icon": "support"
         }
       ],
@@ -983,17 +983,17 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "佣金侵蚀利润",
-          "description": "每个平台每个订单20–30%。每个渠道的净利润不可见——你优化毛利却亏损。",
+          "description": "每个平台每个订单20-30%。每个渠道的净利润不可见--你优化毛利却亏损。",
           "icon": "balance"
         },
         {
           "title": "六个平台，六个仪表盘",
-          "description": "DoorDash、UberEats、Talabat、Deliveroo、JustEat、你自己的——每个都有不同的视角，没有一个是真实的。",
+          "description": "DoorDash、UberEats、Talabat、Deliveroo、JustEat、你自己的--每个都有不同的视角，没有一个是真实的。",
           "icon": "delivery"
         },
         {
           "title": "虚拟品牌表现不透明",
-          "description": "一个厨房五个品牌——但哪个品牌实际上有贡献？被共享成本和共享产出所掩盖。",
+          "description": "一个厨房五个品牌--但哪个品牌实际上有贡献？被共享成本和共享产出所掩盖。",
           "icon": "performance"
         },
         {
@@ -1007,7 +1007,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "每个平台，每个品牌的净利润",
-          "description": "订单、佣金、包装、分配的劳动力和食品成本 — 在渠道与品牌交集处的净利润。没有哪个平台仪表板能显示的真相。",
+          "description": "订单、佣金、包装、分配的劳动力和食品成本 - 在渠道与品牌交集处的净利润。没有哪个平台仪表板能显示的真相。",
           "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
@@ -1019,13 +1019,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "平台健康监测",
-          "description": "每个平台的转化率、购物篮大小、接受率 — 当它们偏离时会被标记。切换更改会在第二天早上显示，而不是下周。",
+          "description": "每个平台的转化率、购物篮大小、接受率 - 当它们偏离时会被标记。切换更改会在第二天早上显示，而不是下周。",
           "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
           "title": "实时运营节奏",
-          "description": "订单量、准备时间、每小时的延迟订单。厨房看到形成的高峰 — 而不是事后分析。",
+          "description": "订单量、准备时间、每小时的延迟订单。厨房看到形成的高峰 - 而不是事后分析。",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -1045,12 +1045,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "24小时内捕捉平台变化",
-          "description": "切换更改、排名变化、费用更新——在第二天早上显示，而不是下周。",
+          "description": "切换更改、排名变化、费用更新--在第二天早上显示，而不是下周。",
           "icon": "performance"
         },
         {
           "title": "运营更精简的厨房",
-          "description": "准备时间、产出、每小时劳动生产率——在班次仍在进行时可见。",
+          "description": "准备时间、产出、每小时劳动生产率--在班次仍在进行时可见。",
           "icon": "support"
         }
       ],
@@ -1076,12 +1076,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "6つのプラットフォーム、6つのダッシュボード",
-          "description": "DoorDash、UberEats、Talabat、Deliveroo、JustEat、あなた自身のもの — それぞれ異なる視点で、真実はどこにもない。",
+          "description": "DoorDash、UberEats、Talabat、Deliveroo、JustEat、あなた自身のもの - それぞれ異なる視点で、真実はどこにもない。",
           "icon": "delivery"
         },
         {
           "title": "バーチャルブランドのパフォーマンスが不透明",
-          "description": "1つのキッチンから5つのブランド — しかし、実際に貢献しているのはどれか？共有コストと共有スループットに隠されている。",
+          "description": "1つのキッチンから5つのブランド - しかし、実際に貢献しているのはどれか？共有コストと共有スループットに隠されている。",
           "icon": "performance"
         },
         {
@@ -1095,7 +1095,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "プラットフォームごとの純利益（ブランド別）",
-          "description": "注文、手数料、パッケージ、割り当てられた労働力と食材費 — チャンネル×ブランドの交差点での純利益。どのプラットフォームのダッシュボードにも表示されない真実。",
+          "description": "注文、手数料、パッケージ、割り当てられた労働力と食材費 - チャンネル×ブランドの交差点での純利益。どのプラットフォームのダッシュボードにも表示されない真実。",
           "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
@@ -1107,13 +1107,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "プラットフォームの健康状態モニタリング",
-          "description": "プラットフォームごとのコンバージョン率、バスケットサイズ、受け入れ率 — それらが逸脱したときにフラグが立てられます。トグルの変更は翌朝に反映され、来週ではありません。",
+          "description": "プラットフォームごとのコンバージョン率、バスケットサイズ、受け入れ率 - それらが逸脱したときにフラグが立てられます。トグルの変更は翌朝に反映され、来週ではありません。",
           "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
           "title": "ライブオペレーショナルペーシング",
-          "description": "注文量、準備時間、時間ごとの遅延注文。キッチンはスパイクが形成されるのを見ています — 事後分析ではありません。",
+          "description": "注文量、準備時間、時間ごとの遅延注文。キッチンはスパイクが形成されるのを見ています - 事後分析ではありません。",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -1133,12 +1133,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "24時間以内にプラットフォームの変更をキャッチ",
-          "description": "変更、ランキングのシフト、料金の更新を切り替え — 翌朝に表示、来週ではありません。",
+          "description": "変更、ランキングのシフト、料金の更新を切り替え - 翌朝に表示、来週ではありません。",
           "icon": "performance"
         },
         {
           "title": "より効率的なキッチンを運営",
-          "description": "準備時間、スループット、時間あたりの労働生産性 — シフトがまだ稼働中の間に可視化されます。",
+          "description": "準備時間、スループット、時間あたりの労働生産性 - シフトがまだ稼働中の間に可視化されます。",
           "icon": "support"
         }
       ],
@@ -1159,17 +1159,17 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Komisi menggerogoti margin",
-          "description": "20–30% per platform per pesanan. Margin bersih per saluran tidak terlihat — Anda mengoptimalkan bruto dan kehilangan uang.",
+          "description": "20-30% per platform per pesanan. Margin bersih per saluran tidak terlihat - Anda mengoptimalkan bruto dan kehilangan uang.",
           "icon": "balance"
         },
         {
           "title": "Enam platform, enam dasbor",
-          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, milik Anda sendiri — masing-masing dengan sudut pandang berbeda, tidak ada yang benar.",
+          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, milik Anda sendiri - masing-masing dengan sudut pandang berbeda, tidak ada yang benar.",
           "icon": "delivery"
         },
         {
           "title": "Kinerja merek virtual tidak jelas",
-          "description": "Lima merek dari satu dapur — tetapi yang mana yang sebenarnya berkontribusi? Tersembunyi oleh biaya bersama dan throughput bersama.",
+          "description": "Lima merek dari satu dapur - tetapi yang mana yang sebenarnya berkontribusi? Tersembunyi oleh biaya bersama dan throughput bersama.",
           "icon": "performance"
         },
         {
@@ -1183,7 +1183,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Margin bersih per platform, per merek",
-          "description": "Pesanan, komisi, kemasan, tenaga kerja yang dialokasikan, dan biaya makanan — untuk margin bersih di persimpangan saluran × merek. Kebenaran yang tidak ditunjukkan oleh dasbor platform mana pun.",
+          "description": "Pesanan, komisi, kemasan, tenaga kerja yang dialokasikan, dan biaya makanan - untuk margin bersih di persimpangan saluran × merek. Kebenaran yang tidak ditunjukkan oleh dasbor platform mana pun.",
           "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
@@ -1195,13 +1195,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Pemantauan kesehatan platform",
-          "description": "Tingkat konversi, ukuran keranjang, tingkat penerimaan per platform — ditandai saat mereka menyimpang. Perubahan toggle muncul keesokan paginya, bukan minggu depan.",
+          "description": "Tingkat konversi, ukuran keranjang, tingkat penerimaan per platform - ditandai saat mereka menyimpang. Perubahan toggle muncul keesokan paginya, bukan minggu depan.",
           "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
           "title": "Pacing operasional langsung",
-          "description": "Volume pesanan, waktu persiapan, pesanan terlambat per jam. Dapur melihat lonjakan yang terbentuk — bukan analisis pasca kejadian.",
+          "description": "Volume pesanan, waktu persiapan, pesanan terlambat per jam. Dapur melihat lonjakan yang terbentuk - bukan analisis pasca kejadian.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -1211,7 +1211,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Hentikan subsidi saluran yang tidak menguntungkan",
-          "description": "Potong, renegosiasi, atau seimbangkan berdasarkan margin bersih — bukan volume pesanan.",
+          "description": "Potong, renegosiasi, atau seimbangkan berdasarkan margin bersih - bukan volume pesanan.",
           "icon": "speed"
         },
         {
@@ -1221,12 +1221,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Tangkap perubahan platform dalam 24 jam",
-          "description": "Ubah toggle, pergeseran peringkat, pembaruan biaya — muncul pagi setelahnya, bukan minggu depan.",
+          "description": "Ubah toggle, pergeseran peringkat, pembaruan biaya - muncul pagi setelahnya, bukan minggu depan.",
           "icon": "performance"
         },
         {
           "title": "Jalankan dapur yang lebih ramping",
-          "description": "Waktu persiapan, throughput, produktivitas tenaga kerja per jam — terlihat saat shift masih berjalan.",
+          "description": "Waktu persiapan, throughput, produktivitas tenaga kerja per jam - terlihat saat shift masih berjalan.",
           "icon": "support"
         }
       ],
@@ -1247,17 +1247,17 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Comisionul mănâncă marja",
-          "description": "20–30% pe platformă per comandă. Marja netă pe canal este invizibilă — optimizezi brutul și pierzi bani.",
+          "description": "20-30% pe platformă per comandă. Marja netă pe canal este invizibilă - optimizezi brutul și pierzi bani.",
           "icon": "balance"
         },
         {
           "title": "Șase platforme, șase tablouri de bord",
-          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, al tău — fiecare cu o altă perspectivă, niciuna cu adevărul.",
+          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, al tău - fiecare cu o altă perspectivă, niciuna cu adevărul.",
           "icon": "delivery"
         },
         {
           "title": "Performanța brandului virtual opacă",
-          "description": "Cinci branduri dintr-o bucătărie — dar care contribuie de fapt? Ascunsă de costuri comune și flux comun.",
+          "description": "Cinci branduri dintr-o bucătărie - dar care contribuie de fapt? Ascunsă de costuri comune și flux comun.",
           "icon": "performance"
         },
         {
@@ -1271,7 +1271,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Marja netă pe platformă, pe brand",
-          "description": "Comenzi, comisioane, ambalare, costuri alocate pentru muncă și alimente — pentru marja netă la intersecția canal × brand. Adevărul pe care niciun tablou de bord al platformei nu îl arată.",
+          "description": "Comenzi, comisioane, ambalare, costuri alocate pentru muncă și alimente - pentru marja netă la intersecția canal × brand. Adevărul pe care niciun tablou de bord al platformei nu îl arată.",
           "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
@@ -1283,13 +1283,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Monitorizarea sănătății platformei",
-          "description": "Rata de conversie, dimensiunea coșului, rata de acceptare pe platformă — semnalizate atunci când deviază. Schimbarea comutatorului apare a doua zi dimineața, nu săptămâna viitoare.",
+          "description": "Rata de conversie, dimensiunea coșului, rata de acceptare pe platformă - semnalizate atunci când deviază. Schimbarea comutatorului apare a doua zi dimineața, nu săptămâna viitoare.",
           "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
           "title": "Pacing operațional în timp real",
-          "description": "Volumul comenzilor, timpul de pregătire, comenzile întârziate pe oră. Bucătăria vede formarea vârfului — nu analiza post-mortem.",
+          "description": "Volumul comenzilor, timpul de pregătire, comenzile întârziate pe oră. Bucătăria vede formarea vârfului - nu analiza post-mortem.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -1299,7 +1299,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Opriți subvenționarea canalelor neprofitabile",
-          "description": "Reduceți, renegociați sau reechilibrați în funcție de marja netă — nu de volumul de comenzi.",
+          "description": "Reduceți, renegociați sau reechilibrați în funcție de marja netă - nu de volumul de comenzi.",
           "icon": "speed"
         },
         {
@@ -1309,12 +1309,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Detectați schimbările platformei în 24 de ore",
-          "description": "Comutați schimbările, modificările de clasament, actualizările de taxe — afișate dimineața după, nu săptămâna viitoare.",
+          "description": "Comutați schimbările, modificările de clasament, actualizările de taxe - afișate dimineața după, nu săptămâna viitoare.",
           "icon": "performance"
         },
         {
           "title": "Funcționați cu o bucătărie mai eficientă",
-          "description": "Timp de pregătire, capacitate de procesare, productivitate a muncii pe oră — vizibile în timp ce schimbul este încă în desfășurare.",
+          "description": "Timp de pregătire, capacitate de procesare, productivitate a muncii pe oră - vizibile în timp ce schimbul este încă în desfășurare.",
           "icon": "support"
         }
       ],
@@ -1335,17 +1335,17 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Hoa hồng ăn vào biên lợi nhuận",
-          "description": "20–30% mỗi nền tảng mỗi đơn hàng. Biên lợi nhuận ròng theo kênh là không rõ ràng — bạn tối ưu hóa tổng và mất tiền.",
+          "description": "20-30% mỗi nền tảng mỗi đơn hàng. Biên lợi nhuận ròng theo kênh là không rõ ràng - bạn tối ưu hóa tổng và mất tiền.",
           "icon": "balance"
         },
         {
           "title": "Sáu nền tảng, sáu bảng điều khiển",
-          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, của riêng bạn — mỗi cái với một góc nhìn khác nhau, không cái nào có sự thật.",
+          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, của riêng bạn - mỗi cái với một góc nhìn khác nhau, không cái nào có sự thật.",
           "icon": "delivery"
         },
         {
           "title": "Hiệu suất thương hiệu ảo không rõ ràng",
-          "description": "Năm thương hiệu từ một bếp — nhưng thương hiệu nào thực sự đóng góp? Bị che khuất bởi chi phí chung và sản lượng chung.",
+          "description": "Năm thương hiệu từ một bếp - nhưng thương hiệu nào thực sự đóng góp? Bị che khuất bởi chi phí chung và sản lượng chung.",
           "icon": "performance"
         },
         {
@@ -1359,7 +1359,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Biên lợi nhuận ròng theo nền tảng, theo thương hiệu",
-          "description": "Đơn hàng, hoa hồng, chi phí bao bì, lao động phân bổ và chi phí thực phẩm — để biên lợi nhuận tại giao điểm kênh × thương hiệu. Sự thật mà không bảng điều khiển nền tảng nào hiển thị.",
+          "description": "Đơn hàng, hoa hồng, chi phí bao bì, lao động phân bổ và chi phí thực phẩm - để biên lợi nhuận tại giao điểm kênh × thương hiệu. Sự thật mà không bảng điều khiển nền tảng nào hiển thị.",
           "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
@@ -1371,13 +1371,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Giám sát sức khỏe nền tảng",
-          "description": "Tỷ lệ chuyển đổi, kích thước giỏ hàng, tỷ lệ chấp nhận theo nền tảng — được đánh dấu khi chúng lệch. Thay đổi công tắc sẽ hiển thị vào sáng hôm sau, không phải tuần sau.",
+          "description": "Tỷ lệ chuyển đổi, kích thước giỏ hàng, tỷ lệ chấp nhận theo nền tảng - được đánh dấu khi chúng lệch. Thay đổi công tắc sẽ hiển thị vào sáng hôm sau, không phải tuần sau.",
           "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
           "title": "Theo dõi hoạt động trực tiếp",
-          "description": "Khối lượng đơn hàng, thời gian chuẩn bị, đơn hàng trễ theo giờ. Bếp thấy sự gia tăng hình thành — không phải là phân tích sau khi sự việc xảy ra.",
+          "description": "Khối lượng đơn hàng, thời gian chuẩn bị, đơn hàng trễ theo giờ. Bếp thấy sự gia tăng hình thành - không phải là phân tích sau khi sự việc xảy ra.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -1387,7 +1387,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Ngừng trợ cấp cho các kênh không sinh lời",
-          "description": "Cắt giảm, đàm phán lại hoặc cân bằng dựa trên biên lợi nhuận — không phải khối lượng đơn hàng.",
+          "description": "Cắt giảm, đàm phán lại hoặc cân bằng dựa trên biên lợi nhuận - không phải khối lượng đơn hàng.",
           "icon": "speed"
         },
         {
@@ -1397,12 +1397,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Phát hiện thay đổi nền tảng trong 24 giờ",
-          "description": "Chuyển đổi thay đổi, thay đổi xếp hạng, cập nhật phí — được hiển thị vào sáng hôm sau, không phải tuần sau.",
+          "description": "Chuyển đổi thay đổi, thay đổi xếp hạng, cập nhật phí - được hiển thị vào sáng hôm sau, không phải tuần sau.",
           "icon": "performance"
         },
         {
           "title": "Vận hành bếp hiệu quả hơn",
-          "description": "Thời gian chuẩn bị, thông lượng, năng suất lao động mỗi giờ — hiển thị trong khi ca làm việc vẫn đang diễn ra.",
+          "description": "Thời gian chuẩn bị, thông lượng, năng suất lao động mỗi giờ - hiển thị trong khi ca làm việc vẫn đang diễn ra.",
           "icon": "support"
         }
       ],
@@ -1423,17 +1423,17 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Provisioner äter upp marginalen",
-          "description": "20–30% per plattform per beställning. Nettomarginal per kanal är osynlig — du optimerar brutto och förlorar pengar.",
+          "description": "20-30% per plattform per beställning. Nettomarginal per kanal är osynlig - du optimerar brutto och förlorar pengar.",
           "icon": "balance"
         },
         {
           "title": "Sex plattformar, sex instrumentpaneler",
-          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, din egen — var och en med en annan synvinkel, ingen med sanningen.",
+          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, din egen - var och en med en annan synvinkel, ingen med sanningen.",
           "icon": "delivery"
         },
         {
           "title": "Virtuell varumärkesprestanda otydlig",
-          "description": "Fem varumärken från ett kök — men vilket bidrar faktiskt? Dold av delade kostnader och delad genomströmning.",
+          "description": "Fem varumärken från ett kök - men vilket bidrar faktiskt? Dold av delade kostnader och delad genomströmning.",
           "icon": "performance"
         },
         {
@@ -1447,7 +1447,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Netto marginal per plattform, per varumärke",
-          "description": "Beställningar, provisioner, förpackningar, fördelad arbetskraft och matkostnad — till netto marginal vid kanal × varumärkesintersektionen. Sanningen som ingen plattformsdashboard visar.",
+          "description": "Beställningar, provisioner, förpackningar, fördelad arbetskraft och matkostnad - till netto marginal vid kanal × varumärkesintersektionen. Sanningen som ingen plattformsdashboard visar.",
           "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
@@ -1459,13 +1459,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Övervakning av plattforms hälsa",
-          "description": "Konverteringsgrad, kundvagnsstorlek, acceptansgrad per plattform — flaggas när de avviker. Ändringen visas nästa morgon, inte nästa vecka.",
+          "description": "Konverteringsgrad, kundvagnsstorlek, acceptansgrad per plattform - flaggas när de avviker. Ändringen visas nästa morgon, inte nästa vecka.",
           "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
           "title": "Live operativ taktkontroll",
-          "description": "Beställningsvolym, förberedelsetid, sena beställningar per timme. Köket ser toppen som bildas — inte efteranalysen.",
+          "description": "Beställningsvolym, förberedelsetid, sena beställningar per timme. Köket ser toppen som bildas - inte efteranalysen.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -1475,7 +1475,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Sluta subventionera olönsamma kanaler",
-          "description": "Skär ner, omförhandla eller balansera baserat på nettomarginal — inte ordervolym.",
+          "description": "Skär ner, omförhandla eller balansera baserat på nettomarginal - inte ordervolym.",
           "icon": "speed"
         },
         {
@@ -1485,12 +1485,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Fånga plattformsändringar inom 24 timmar",
-          "description": "Växla ändringar, rangordningsskift, avgiftsuppdateringar — synliga morgonen efter, inte nästa vecka.",
+          "description": "Växla ändringar, rangordningsskift, avgiftsuppdateringar - synliga morgonen efter, inte nästa vecka.",
           "icon": "performance"
         },
         {
           "title": "Driv ett smidigare kök",
-          "description": "Förberedelsetid, genomströmning, arbetsproduktivitet per timme — synligt medan skiftet fortfarande pågår.",
+          "description": "Förberedelsetid, genomströmning, arbetsproduktivitet per timme - synligt medan skiftet fortfarande pågår.",
           "icon": "support"
         }
       ],
@@ -1511,17 +1511,17 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "수수료가 마진을 잠식합니다",
-          "description": "주문당 플랫폼별 20–30%. 채널별 순 마진은 보이지 않으며, 총 마진을 최적화하다가 손해를 봅니다.",
+          "description": "주문당 플랫폼별 20-30%. 채널별 순 마진은 보이지 않으며, 총 마진을 최적화하다가 손해를 봅니다.",
           "icon": "balance"
         },
         {
           "title": "여섯 개 플랫폼, 여섯 개 대시보드",
-          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, 당신의 것 — 각각 다른 시각을 제공하지만 진실은 없습니다.",
+          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, 당신의 것 - 각각 다른 시각을 제공하지만 진실은 없습니다.",
           "icon": "delivery"
         },
         {
           "title": "가상 브랜드 성과 불투명",
-          "description": "하나의 주방에서 다섯 개 브랜드 — 하지만 실제로 기여하는 브랜드는 무엇인가요? 공유 비용과 공유 처리량에 가려져 있습니다.",
+          "description": "하나의 주방에서 다섯 개 브랜드 - 하지만 실제로 기여하는 브랜드는 무엇인가요? 공유 비용과 공유 처리량에 가려져 있습니다.",
           "icon": "performance"
         },
         {
@@ -1535,7 +1535,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "플랫폼별, 브랜드별 순이익",
-          "description": "주문, 수수료, 포장, 할당된 인건비 및 식품 비용 — 채널 × 브랜드 교차점에서의 순이익. 어떤 플랫폼 대시보드도 보여주지 않는 진실입니다.",
+          "description": "주문, 수수료, 포장, 할당된 인건비 및 식품 비용 - 채널 × 브랜드 교차점에서의 순이익. 어떤 플랫폼 대시보드도 보여주지 않는 진실입니다.",
           "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
@@ -1547,13 +1547,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "플랫폼 건강 모니터링",
-          "description": "플랫폼별 전환율, 장바구니 크기, 수락률 — 이탈할 때 경고합니다. 토글 변경 사항은 다음 주가 아닌 다음 날 아침에 나타납니다.",
+          "description": "플랫폼별 전환율, 장바구니 크기, 수락률 - 이탈할 때 경고합니다. 토글 변경 사항은 다음 주가 아닌 다음 날 아침에 나타납니다.",
           "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
           "title": "실시간 운영 속도 조절",
-          "description": "주문량, 준비 시간, 시간대별 지연 주문. 주방은 형성되는 급증을 보고 있습니다 — 사후 분석이 아닙니다.",
+          "description": "주문량, 준비 시간, 시간대별 지연 주문. 주방은 형성되는 급증을 보고 있습니다 - 사후 분석이 아닙니다.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -1573,12 +1573,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "24시간 내 플랫폼 변경 사항 파악",
-          "description": "변경 사항, 순위 변화, 수수료 업데이트 — 다음 주가 아닌 다음 날 아침에 확인하세요.",
+          "description": "변경 사항, 순위 변화, 수수료 업데이트 - 다음 주가 아닌 다음 날 아침에 확인하세요.",
           "icon": "performance"
         },
         {
           "title": "더 효율적인 주방 운영",
-          "description": "준비 시간, 처리량, 시간당 노동 생산성 — 교대 근무가 진행 중일 때 가시화됩니다.",
+          "description": "준비 시간, 처리량, 시간당 노동 생산성 - 교대 근무가 진행 중일 때 가시화됩니다.",
           "icon": "support"
         }
       ],
@@ -1599,17 +1599,17 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "কমিশন মার্জিন খেয়ে ফেলে",
-          "description": "প্রতিটি প্ল্যাটফর্মে প্রতি অর্ডারে ২০–৩০%। প্রতিটি চ্যানেলের নিট মার্জিন অদৃশ্য — আপনি মোট আয় অপ্টিমাইজ করেন এবং টাকা হারান।",
+          "description": "প্রতিটি প্ল্যাটফর্মে প্রতি অর্ডারে ২০-৩০%। প্রতিটি চ্যানেলের নিট মার্জিন অদৃশ্য - আপনি মোট আয় অপ্টিমাইজ করেন এবং টাকা হারান।",
           "icon": "balance"
         },
         {
           "title": "ছয়টি প্ল্যাটফর্ম, ছয়টি ড্যাশবোর্ড",
-          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, আপনার নিজস্ব — প্রতিটি ভিন্ন দৃষ্টিকোণ থেকে, সত্যের অভাব।",
+          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, আপনার নিজস্ব - প্রতিটি ভিন্ন দৃষ্টিকোণ থেকে, সত্যের অভাব।",
           "icon": "delivery"
         },
         {
           "title": "ভার্চুয়াল ব্র্যান্ডের কার্যকারিতা অস্পষ্ট",
-          "description": "একটি রান্নাঘর থেকে পাঁচটি ব্র্যান্ড — কিন্তু কোনটি আসলে অবদান রাখে? ভাগ করা খরচ এবং ভাগ করা থ্রুপুট দ্বারা লুকানো।",
+          "description": "একটি রান্নাঘর থেকে পাঁচটি ব্র্যান্ড - কিন্তু কোনটি আসলে অবদান রাখে? ভাগ করা খরচ এবং ভাগ করা থ্রুপুট দ্বারা লুকানো।",
           "icon": "performance"
         },
         {
@@ -1623,7 +1623,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "প্রতিটি প্ল্যাটফর্মে, প্রতিটি ব্র্যান্ডের জন্য নেট মার্জিন",
-          "description": "অর্ডার, কমিশন, প্যাকেজিং, বরাদ্দকৃত শ্রম এবং খাদ্য খরচ — চ্যানেল × ব্র্যান্ড ইন্টারসেকশনে নেট মার্জিন। সত্যি যা কোনো প্ল্যাটফর্ম ড্যাশবোর্ড দেখায় না।",
+          "description": "অর্ডার, কমিশন, প্যাকেজিং, বরাদ্দকৃত শ্রম এবং খাদ্য খরচ - চ্যানেল × ব্র্যান্ড ইন্টারসেকশনে নেট মার্জিন। সত্যি যা কোনো প্ল্যাটফর্ম ড্যাশবোর্ড দেখায় না।",
           "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
@@ -1635,13 +1635,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "প্ল্যাটফর্ম স্বাস্থ্য পর্যবেক্ষণ",
-          "description": "কনভার্সন রেট, বাস্কেট সাইজ, প্রতি প্ল্যাটফর্মে গ্রহণের হার — যখন সেগুলি বিচ্যুত হয় তখন ফ্ল্যাগ করা হয়। টগল পরিবর্তনটি পরের সকালে দেখা যায়, পরের সপ্তাহে নয়।",
+          "description": "কনভার্সন রেট, বাস্কেট সাইজ, প্রতি প্ল্যাটফর্মে গ্রহণের হার - যখন সেগুলি বিচ্যুত হয় তখন ফ্ল্যাগ করা হয়। টগল পরিবর্তনটি পরের সকালে দেখা যায়, পরের সপ্তাহে নয়।",
           "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
           "title": "লাইভ অপারেশনাল পেসিং",
-          "description": "অর্ডারের পরিমাণ, প্রস্তুতির সময়, প্রতি ঘণ্টায় দেরিতে অর্ডার। রান্নাঘরটি স্পাইকটি গঠন করতে দেখছে — পোস্ট-মর্টেম নয়।",
+          "description": "অর্ডারের পরিমাণ, প্রস্তুতির সময়, প্রতি ঘণ্টায় দেরিতে অর্ডার। রান্নাঘরটি স্পাইকটি গঠন করতে দেখছে - পোস্ট-মর্টেম নয়।",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -1651,7 +1651,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "অলাভজনক চ্যানেলগুলিকে আর্থিক সহায়তা বন্ধ করুন",
-          "description": "নেট মার্জিনের ভিত্তিতে কাটুন, পুনরায় আলোচনা করুন, বা পুনর্ব্যালেন্স করুন — অর্ডার ভলিউম নয়।",
+          "description": "নেট মার্জিনের ভিত্তিতে কাটুন, পুনরায় আলোচনা করুন, বা পুনর্ব্যালেন্স করুন - অর্ডার ভলিউম নয়।",
           "icon": "speed"
         },
         {
@@ -1661,12 +1661,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "২৪ ঘণ্টার মধ্যে প্ল্যাটফর্ম পরিবর্তনগুলি ধরুন",
-          "description": "পরিবর্তনগুলি, র‌্যাঙ্কিং পরিবর্তন, ফি আপডেট — পরের সপ্তাহে নয়, পরের সকালে প্রকাশিত।",
+          "description": "পরিবর্তনগুলি, র্যাঙ্কিং পরিবর্তন, ফি আপডেট - পরের সপ্তাহে নয়, পরের সকালে প্রকাশিত।",
           "icon": "performance"
         },
         {
           "title": "একটি পাতলা রান্নাঘর চালান",
-          "description": "প্রিপ টাইম, থ্রুপুট, প্রতি ঘণ্টায় শ্রম উৎপাদনশীলতা — শিফট চলাকালীন দৃশ্যমান।",
+          "description": "প্রিপ টাইম, থ্রুপুট, প্রতি ঘণ্টায় শ্রম উৎপাদনশীলতা - শিফট চলাকালীন দৃশ্যমান।",
           "icon": "support"
         }
       ],
@@ -1687,17 +1687,17 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "ค่าคอมมิชชั่นกัดกินกำไร",
-          "description": "20–30% ต่อแพลตฟอร์มต่อคำสั่งซื้อ กำไรสุทธิจากแต่ละช่องทางไม่สามารถมองเห็นได้ — คุณปรับปรุงยอดรวมและขาดทุน",
+          "description": "20-30% ต่อแพลตฟอร์มต่อคำสั่งซื้อ กำไรสุทธิจากแต่ละช่องทางไม่สามารถมองเห็นได้ - คุณปรับปรุงยอดรวมและขาดทุน",
           "icon": "balance"
         },
         {
           "title": "หกแพลตฟอร์ม หกแดชบอร์ด",
-          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, ของคุณเอง — แต่ละแพลตฟอร์มมีมุมมองที่แตกต่างกัน ไม่มีแพลตฟอร์มไหนที่ให้ความจริง",
+          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, ของคุณเอง - แต่ละแพลตฟอร์มมีมุมมองที่แตกต่างกัน ไม่มีแพลตฟอร์มไหนที่ให้ความจริง",
           "icon": "delivery"
         },
         {
           "title": "ประสิทธิภาพของแบรนด์เสมือนที่ไม่ชัดเจน",
-          "description": "ห้าแบรนด์จากครัวเดียว — แต่แบรนด์ไหนที่มีส่วนร่วมจริงๆ? ถูกซ่อนโดยต้นทุนร่วมและการผลิตร่วม",
+          "description": "ห้าแบรนด์จากครัวเดียว - แต่แบรนด์ไหนที่มีส่วนร่วมจริงๆ? ถูกซ่อนโดยต้นทุนร่วมและการผลิตร่วม",
           "icon": "performance"
         },
         {
@@ -1711,7 +1711,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "กำไรสุทธิแต่ละแพลตฟอร์มต่อแบรนด์",
-          "description": "คำสั่งซื้อ ค่าคอมมิชชั่น บรรจุภัณฑ์ ค่าแรงและต้นทุนอาหาร — เพื่อกำไรสุทธิที่จุดตัดของช่องทาง × แบรนด์ ความจริงที่ไม่มีแดชบอร์ดแพลตฟอร์มไหนแสดงให้เห็น",
+          "description": "คำสั่งซื้อ ค่าคอมมิชชั่น บรรจุภัณฑ์ ค่าแรงและต้นทุนอาหาร - เพื่อกำไรสุทธิที่จุดตัดของช่องทาง × แบรนด์ ความจริงที่ไม่มีแดชบอร์ดแพลตฟอร์มไหนแสดงให้เห็น",
           "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
@@ -1723,13 +1723,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "การตรวจสอบสุขภาพแพลตฟอร์ม",
-          "description": "อัตราการแปลง ขนาดตะกร้า อัตราการยอมรับต่อแพลตฟอร์ม — จะมีการแจ้งเตือนเมื่อมีการเปลี่ยนแปลง การเปลี่ยนแปลงจะปรากฏในเช้าวันถัดไป ไม่ใช่สัปดาห์หน้า",
+          "description": "อัตราการแปลง ขนาดตะกร้า อัตราการยอมรับต่อแพลตฟอร์ม - จะมีการแจ้งเตือนเมื่อมีการเปลี่ยนแปลง การเปลี่ยนแปลงจะปรากฏในเช้าวันถัดไป ไม่ใช่สัปดาห์หน้า",
           "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
           "title": "การติดตามการดำเนินงานแบบสด",
-          "description": "ปริมาณคำสั่งซื้อ เวลาการเตรียมการ คำสั่งซื้อที่ล่าชาตามชั่วโมง ครัวจะเห็นการเพิ่มขึ้นที่กำลังเกิดขึ้น — ไม่ใช่การวิเคราะห์หลังเหตุการณ์",
+          "description": "ปริมาณคำสั่งซื้อ เวลาการเตรียมการ คำสั่งซื้อที่ล่าชาตามชั่วโมง ครัวจะเห็นการเพิ่มขึ้นที่กำลังเกิดขึ้น - ไม่ใช่การวิเคราะห์หลังเหตุการณ์",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -1739,7 +1739,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "หยุดการสนับสนุนช่องทางที่ขาดทุน",
-          "description": "ตัด, เจรจาใหม่, หรือปรับสมดุลตามกำไรสุทธิ — ไม่ใช่ตามปริมาณการสั่งซื้อ.",
+          "description": "ตัด, เจรจาใหม่, หรือปรับสมดุลตามกำไรสุทธิ - ไม่ใช่ตามปริมาณการสั่งซื้อ.",
           "icon": "speed"
         },
         {
@@ -1749,12 +1749,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "จับการเปลี่ยนแปลงแพลตฟอร์มใน 24 ชั่วโมง",
-          "description": "เปลี่ยนแปลง, การจัดอันดับ, การปรับค่าธรรมเนียม — แสดงผลในเช้าวันถัดไป ไม่ใช่สัปดาห์หน้า.",
+          "description": "เปลี่ยนแปลง, การจัดอันดับ, การปรับค่าธรรมเนียม - แสดงผลในเช้าวันถัดไป ไม่ใช่สัปดาห์หน้า.",
           "icon": "performance"
         },
         {
           "title": "ทำครัวให้มีประสิทธิภาพมากขึ้น",
-          "description": "เวลาเตรียม, การผลิต, ประสิทธิภาพแรงงานต่อชั่วโมง — มองเห็นได้ในขณะที่การทำงานยังดำเนินอยู่.",
+          "description": "เวลาเตรียม, การผลิต, ประสิทธิภาพแรงงานต่อชั่วโมง - มองเห็นได้ในขณะที่การทำงานยังดำเนินอยู่.",
           "icon": "support"
         }
       ],
@@ -1775,17 +1775,17 @@ export const generatedLocalCopy = {
       "challenges": [
         {
           "title": "Komisen mengurangkan margin",
-          "description": "20–30% setiap platform setiap pesanan. Margin bersih setiap saluran tidak dapat dilihat — anda mengoptimumkan kasar dan kehilangan wang.",
+          "description": "20-30% setiap platform setiap pesanan. Margin bersih setiap saluran tidak dapat dilihat - anda mengoptimumkan kasar dan kehilangan wang.",
           "icon": "balance"
         },
         {
           "title": "Enam platform, enam papan pemuka",
-          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, milik anda sendiri — setiap satu dengan lensa yang berbeza, tiada yang benar.",
+          "description": "DoorDash, UberEats, Talabat, Deliveroo, JustEat, milik anda sendiri - setiap satu dengan lensa yang berbeza, tiada yang benar.",
           "icon": "delivery"
         },
         {
           "title": "Prestasi jenama maya tidak jelas",
-          "description": "Lima jenama dari satu dapur — tetapi yang mana sebenarnya menyumbang? Tersembunyi oleh kos bersama dan throughput bersama.",
+          "description": "Lima jenama dari satu dapur - tetapi yang mana sebenarnya menyumbang? Tersembunyi oleh kos bersama dan throughput bersama.",
           "icon": "performance"
         },
         {
@@ -1799,7 +1799,7 @@ export const generatedLocalCopy = {
       "howSundaeHelps": [
         {
           "title": "Margin bersih setiap platform, setiap jenama",
-          "description": "Pesanan, komisen, pembungkusan, buruh yang diperuntukkan dan kos makanan — untuk margin bersih di persimpangan saluran × jenama. Kebenaran yang tidak ditunjukkan oleh mana-mana papan pemuka platform.",
+          "description": "Pesanan, komisen, pembungkusan, buruh yang diperuntukkan dan kos makanan - untuk margin bersih di persimpangan saluran × jenama. Kebenaran yang tidak ditunjukkan oleh mana-mana papan pemuka platform.",
           "product": "Insights · Delivery + Profit",
           "icon": "delivery"
         },
@@ -1811,13 +1811,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Pemantauan kesihatan platform",
-          "description": "Kadar penukaran, saiz bakul, kadar penerimaan setiap platform — ditandakan apabila mereka menyimpang. Perubahan toggle muncul keesokan paginya, bukan minggu depan.",
+          "description": "Kadar penukaran, saiz bakul, kadar penerimaan setiap platform - ditandakan apabila mereka menyimpang. Perubahan toggle muncul keesokan paginya, bukan minggu depan.",
           "product": "Watchtower · Platforms",
           "icon": "watchtower"
         },
         {
           "title": "Pacing operasi secara langsung",
-          "description": "Jumlah pesanan, masa penyediaan, pesanan lewat mengikut jam. Dapur melihat lonjakan yang terbentuk — bukan pasca-mortem.",
+          "description": "Jumlah pesanan, masa penyediaan, pesanan lewat mengikut jam. Dapur melihat lonjakan yang terbentuk - bukan pasca-mortem.",
           "product": "Pulse",
           "icon": "chart"
         }
@@ -1827,7 +1827,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Hentikan subsidi saluran yang tidak menguntungkan",
-          "description": "Potong, runding semula, atau seimbangkan berdasarkan margin bersih — bukan jumlah pesanan.",
+          "description": "Potong, runding semula, atau seimbangkan berdasarkan margin bersih - bukan jumlah pesanan.",
           "icon": "speed"
         },
         {
@@ -1837,12 +1837,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Tangkap perubahan platform dalam 24 jam",
-          "description": "Togol perubahan, pergeseran ranking, kemas kini yuran — muncul pada pagi selepas, bukan minggu depan.",
+          "description": "Togol perubahan, pergeseran ranking, kemas kini yuran - muncul pada pagi selepas, bukan minggu depan.",
           "icon": "performance"
         },
         {
           "title": "Jalankan dapur yang lebih cekap",
-          "description": "Masa penyediaan, throughput, produktiviti buruh setiap jam — dapat dilihat semasa shift masih berjalan.",
+          "description": "Masa penyediaan, throughput, produktiviti buruh setiap jam - dapat dilihat semasa shift masih berjalan.",
           "icon": "support"
         }
       ],

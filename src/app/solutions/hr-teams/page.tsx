@@ -28,9 +28,9 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     howDescription: "Live labor signal, OT prevention, productivity at shift granularity.",
     howSundaeHelps: [
       { title: "Live labor % by location", description: "Hour-by-hour labor cost against demand. The site running over budget gets flagged while you can still trim.", product: "Pulse · Labor", icon: "operators" },
-      { title: "OT exposure before it hits", description: "Sundae forecasts the OT line by location for the rest of the week — so you redistribute hours, not absorb the cost.", product: "Insights · Labor", icon: "balance" },
-      { title: "Productivity per FOH hour, per server", description: "Covers/hour, sales/hour, upsell rate — per server, per shift. Coach with numbers, not impressions.", product: "Pulse · Server view", icon: "performance" },
-      { title: "Schedule recommendations from demand", description: "Foresight projects covers 14 days out — Sundae suggests the labor plan that matches.", product: "Foresight", icon: "forecasting" },
+      { title: "OT exposure before it hits", description: "Sundae forecasts the OT line by location for the rest of the week - so you redistribute hours, not absorb the cost.", product: "Insights · Labor", icon: "balance" },
+      { title: "Productivity per FOH hour, per server", description: "Covers/hour, sales/hour, upsell rate - per server, per shift. Coach with numbers, not impressions.", product: "Pulse · Server view", icon: "performance" },
+      { title: "Schedule recommendations from demand", description: "Foresight projects covers 14 days out - Sundae suggests the labor plan that matches.", product: "Foresight", icon: "forecasting" },
     ],
     outcomesTitle: "What changes for HR",
     outcomesDescription: "Tighter schedules, fewer surprises, productivity you can show.",
@@ -38,12 +38,12 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
       { title: "Cut OT exposure before it lands", description: "Reallocate hours mid-week, not after the payroll run.", icon: "speed" },
       { title: "Labor % closer to plan, every week", description: "Variance narrows from monthly chaos to weekly precision.", icon: "performance" },
       { title: "Server productivity you can compare", description: "Live, per-shift productivity that supports coaching, reviews, and promotion calls.", icon: "owners" },
-      { title: "Schedules that match the floor", description: "Demand-driven schedules built on Foresight projections — not last week's pattern.", icon: "support" },
+      { title: "Schedules that match the floor", description: "Demand-driven schedules built on Foresight projections - not last week's pattern.", icon: "support" },
     ],
     crewCallout: {
       eyebrow: "BACKED BY SUNDAE CREW",
       title: "The operational substrate that feeds this intelligence.",
-      description: "Crew runs scheduling, time & attendance, multi-region payroll (US, Canada, UK, EU, GCC — one engine), and 60+ HR surfaces — every shift, hour, and pay-cycle becoming signal that powers the labor intelligence on this page. Optional: bring your own HR (Bayzat, Personio, Gusto) and Sundae still reads the same signal.",
+      description: "Crew runs scheduling, time & attendance, multi-region payroll (US, Canada, UK, EU, GCC - one engine), and 60+ HR surfaces - every shift, hour, and pay-cycle becoming signal that powers the labor intelligence on this page. Optional: bring your own HR (Bayzat, Personio, Gusto) and Sundae still reads the same signal.",
       ctaText: "Explore Sundae Crew",
     },
     ctaTitle: "See your labor in motion.",
@@ -70,9 +70,9 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     howDescription: "إشارة عمالة حية، منع OT، إنتاجية بدقة الوردية.",
     howSundaeHelps: [
       { title: "نسبة عمالة حية لكل موقع", description: "تكلفة العمالة ساعة بساعة مقابل الطلب. الموقع المتجاوز يظهر بينما يمكنك تقليصه.", product: "Pulse · Labor", icon: "operators" },
-      { title: "تعرض OT قبل أن يُسجَّل", description: "Sundae يتوقع خط الوقت الإضافي بقية الأسبوع — فتعيد توزيع الساعات لا أن تستوعب التكلفة.", product: "Insights · Labor", icon: "balance" },
+      { title: "تعرض OT قبل أن يُسجَّل", description: "Sundae يتوقع خط الوقت الإضافي بقية الأسبوع - فتعيد توزيع الساعات لا أن تستوعب التكلفة.", product: "Insights · Labor", icon: "balance" },
       { title: "إنتاجية لكل ساعة وكل موظف", description: "ضيوف وساعات ومبيعات لكل موظف ووردية. درّب بالأرقام لا بالانطباعات.", product: "Pulse · Server view", icon: "performance" },
-      { title: "توصيات جدولة من الطلب", description: "Foresight يتوقع الضيوف لـ 14 يوماً — Sundae يقترح خطة العمالة المناسبة.", product: "Foresight", icon: "forecasting" },
+      { title: "توصيات جدولة من الطلب", description: "Foresight يتوقع الضيوف لـ 14 يوماً - Sundae يقترح خطة العمالة المناسبة.", product: "Foresight", icon: "forecasting" },
     ],
     outcomesTitle: "ما يتغير للموارد البشرية",
     outcomesDescription: "جداول أحكم، مفاجآت أقل، إنتاجية تستطيع عرضها.",
@@ -80,12 +80,12 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
       { title: "اقطع تعرض OT قبل الهبوط", description: "أعد توزيع الساعات في منتصف الأسبوع لا بعد الرواتب.", icon: "speed" },
       { title: "نسبة عمالة أقرب للخطة كل أسبوع", description: "التباين يضيق من فوضى شهرية إلى دقة أسبوعية.", icon: "performance" },
       { title: "إنتاجية موظفين قابلة للمقارنة", description: "إنتاجية حية تدعم التدريب والمراجعات.", icon: "owners" },
-      { title: "جداول تطابق الموقع", description: "جداول مدفوعة بالطلب من توقعات Foresight — لا نمط الأسبوع الماضي.", icon: "support" },
+      { title: "جداول تطابق الموقع", description: "جداول مدفوعة بالطلب من توقعات Foresight - لا نمط الأسبوع الماضي.", icon: "support" },
     ],
     crewCallout: {
       eyebrow: "مدعوم بـ Sundae Crew",
       title: "الركيزة التشغيلية التي تغذي هذا الذكاء.",
-      description: "Crew يدير الجدولة والوقت والحضور ورواتب متعددة المناطق (الولايات المتحدة، كندا، المملكة المتحدة، الاتحاد الأوروبي، دول الخليج — محرك واحد) وأكثر من 60 واجهة موارد بشرية — كل وردية وساعة ودورة راتب تصبح إشارة تغذي ذكاء العمالة في هذه الصفحة. اختياري: أحضر HR الخاص بك (Bayzat، Personio، Gusto) ويبقى Sundae يقرأ نفس الإشارة.",
+      description: "Crew يدير الجدولة والوقت والحضور ورواتب متعددة المناطق (الولايات المتحدة، كندا، المملكة المتحدة، الاتحاد الأوروبي، دول الخليج - محرك واحد) وأكثر من 60 واجهة موارد بشرية - كل وردية وساعة ودورة راتب تصبح إشارة تغذي ذكاء العمالة في هذه الصفحة. اختياري: أحضر HR الخاص بك (Bayzat، Personio، Gusto) ويبقى Sundae يقرأ نفس الإشارة.",
       ctaText: "اكتشف Sundae Crew",
     },
     ctaTitle: "شاهد عمالتك تتحرك.",
@@ -112,9 +112,9 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     howDescription: "Signal main-d'œuvre live, prévention heures sup', productivité à la granularité service.",
     howSundaeHelps: [
       { title: "% main-d'œuvre live par site", description: "Coût main-d'œuvre heure par heure vs demande. Le site en dépassement est signalé pendant que vous pouvez encore couper.", product: "Pulse · Labor", icon: "operators" },
-      { title: "Exposition heures sup' avant l'impact", description: "Sundae prévoit la ligne heures sup' pour la fin de semaine — redistribuez plutôt que d'absorber.", product: "Insights · Labor", icon: "balance" },
-      { title: "Productivité par heure et par serveur", description: "Couverts/h, ventes/h, upsell — par serveur, par service. Coachez avec des chiffres.", product: "Pulse · Server view", icon: "performance" },
-      { title: "Recommandations de planning depuis la demande", description: "Foresight projette les couverts à 14 jours — Sundae suggère le plan main-d'œuvre correspondant.", product: "Foresight", icon: "forecasting" },
+      { title: "Exposition heures sup' avant l'impact", description: "Sundae prévoit la ligne heures sup' pour la fin de semaine - redistribuez plutôt que d'absorber.", product: "Insights · Labor", icon: "balance" },
+      { title: "Productivité par heure et par serveur", description: "Couverts/h, ventes/h, upsell - par serveur, par service. Coachez avec des chiffres.", product: "Pulse · Server view", icon: "performance" },
+      { title: "Recommandations de planning depuis la demande", description: "Foresight projette les couverts à 14 jours - Sundae suggère le plan main-d'œuvre correspondant.", product: "Foresight", icon: "forecasting" },
     ],
     outcomesTitle: "Ce qui change pour les RH",
     outcomesDescription: "Plannings plus serrés, moins de surprises, productivité démontrable.",
@@ -122,12 +122,12 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
       { title: "Coupez l'exposition heures sup' avant la paie", description: "Redistribuez les heures en milieu de semaine, pas après le run.", icon: "speed" },
       { title: "% main-d'œuvre plus proche du plan", description: "La variance passe du chaos mensuel à la précision hebdomadaire.", icon: "performance" },
       { title: "Productivité serveurs comparable", description: "Productivité live par service pour coaching, revues, promotions.", icon: "owners" },
-      { title: "Plannings qui collent à la salle", description: "Plannings tirés de Foresight — pas du pattern de la semaine passée.", icon: "support" },
+      { title: "Plannings qui collent à la salle", description: "Plannings tirés de Foresight - pas du pattern de la semaine passée.", icon: "support" },
     ],
     crewCallout: {
       eyebrow: "ALIMENTÉ PAR SUNDAE CREW",
       title: "Le substrat opérationnel qui alimente cette intelligence.",
-      description: "Crew fait tourner planning, temps & présence, paie multi-régions (États-Unis, Canada, Royaume-Uni, Union européenne, GCC — un seul moteur), et 60+ surfaces RH — chaque service, heure et cycle de paie devient signal qui alimente l'intelligence main-d'œuvre de cette page. Optionnel : BYO-HR (Bayzat, Personio, Gusto) et Sundae lit le même signal.",
+      description: "Crew fait tourner planning, temps & présence, paie multi-régions (États-Unis, Canada, Royaume-Uni, Union européenne, GCC - un seul moteur), et 60+ surfaces RH - chaque service, heure et cycle de paie devient signal qui alimente l'intelligence main-d'œuvre de cette page. Optionnel : BYO-HR (Bayzat, Personio, Gusto) et Sundae lit le même signal.",
       ctaText: "Découvrir Sundae Crew",
     },
     ctaTitle: "Votre main-d'œuvre en mouvement.",
@@ -154,9 +154,9 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
     howDescription: "Señal de personal en vivo, prevención de OT, productividad por turno.",
     howSundaeHelps: [
       { title: "% personal en vivo por local", description: "Coste personal hora a hora vs demanda. El local sobrepasado se señala mientras puedes recortar.", product: "Pulse · Labor", icon: "operators" },
-      { title: "Exposición OT antes del impacto", description: "Sundae proyecta la línea OT del resto de la semana — redistribuyes en lugar de absorber.", product: "Insights · Labor", icon: "balance" },
-      { title: "Productividad por hora y por mesero", description: "Cubiertos/hora, ventas/hora, upsell — por mesero, por turno. Coachear con números.", product: "Pulse · Server view", icon: "performance" },
-      { title: "Recomendaciones de horario desde la demanda", description: "Foresight proyecta cubiertos a 14 días — Sundae sugiere el plan de personal correspondiente.", product: "Foresight", icon: "forecasting" },
+      { title: "Exposición OT antes del impacto", description: "Sundae proyecta la línea OT del resto de la semana - redistribuyes en lugar de absorber.", product: "Insights · Labor", icon: "balance" },
+      { title: "Productividad por hora y por mesero", description: "Cubiertos/hora, ventas/hora, upsell - por mesero, por turno. Coachear con números.", product: "Pulse · Server view", icon: "performance" },
+      { title: "Recomendaciones de horario desde la demanda", description: "Foresight proyecta cubiertos a 14 días - Sundae sugiere el plan de personal correspondiente.", product: "Foresight", icon: "forecasting" },
     ],
     outcomesTitle: "Qué cambia para RR.HH.",
     outcomesDescription: "Horarios más ajustados, menos sorpresas, productividad demostrable.",
@@ -164,12 +164,12 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
       { title: "Corta la exposición OT antes del cierre", description: "Redistribuye horas a mitad de semana, no después de la nómina.", icon: "speed" },
       { title: "% personal más cerca del plan", description: "La varianza pasa del caos mensual a la precisión semanal.", icon: "performance" },
       { title: "Productividad por mesero comparable", description: "Productividad en vivo por turno para coaching, revisiones, promociones.", icon: "owners" },
-      { title: "Horarios que coinciden con el local", description: "Horarios desde Foresight — no del patrón de la semana pasada.", icon: "support" },
+      { title: "Horarios que coinciden con el local", description: "Horarios desde Foresight - no del patrón de la semana pasada.", icon: "support" },
     ],
     crewCallout: {
       eyebrow: "RESPALDADO POR SUNDAE CREW",
       title: "El sustrato operativo que alimenta esta inteligencia.",
-      description: "Crew opera horarios, tiempo y asistencia, nómina multi-región (Estados Unidos, Canadá, Reino Unido, Unión Europea, GCC — un solo motor), y 60+ superficies de RR.HH. — cada turno, hora y ciclo de nómina se vuelve señal que energiza la inteligencia laboral en esta página. Opcional: BYO-HR (Bayzat, Personio, Gusto) y Sundae sigue leyendo la misma señal.",
+      description: "Crew opera horarios, tiempo y asistencia, nómina multi-región (Estados Unidos, Canadá, Reino Unido, Unión Europea, GCC - un solo motor), y 60+ superficies de RR.HH. - cada turno, hora y ciclo de nómina se vuelve señal que energiza la inteligencia laboral en esta página. Opcional: BYO-HR (Bayzat, Personio, Gusto) y Sundae sigue leyendo la misma señal.",
       ctaText: "Explorar Sundae Crew",
     },
     ctaTitle: "Tu personal en movimiento.",
@@ -181,5 +181,5 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", SolutionCopy> = {
 export default function HrTeamsPage() {
   const { locale } = useWebsiteI18n();
   const copy = localizedCopy[locale as keyof typeof localizedCopy] ?? getGeneratedLocalCopy(localizedCopy, generatedLocalCopy.localizedCopy, locale) ?? localizedCopy.en;
-  return <SolutionPageLayout copy={copy} mockup={<ThemedShot framed priority width={1600} height={1000} dark="/images/product/2026-fresh/insights-labor-dark.png" light="/images/product/2026-fresh/insights-labor.png" alt="Labor Intelligence — labor cost %, sales per labor hour, overtime, and productivity index" />} gallery={<SectionProductGallery defaultPersona="hr" />} />;
+  return <SolutionPageLayout copy={copy} mockup={<ThemedShot framed priority width={1600} height={1000} dark="/images/product/2026-fresh/insights-labor-dark.png" light="/images/product/2026-fresh/insights-labor.png" alt="Labor Intelligence - labor cost %, sales per labor hour, overtime, and productivity index" />} gallery={<SectionProductGallery defaultPersona="hr" />} />;
 }

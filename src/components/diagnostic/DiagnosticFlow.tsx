@@ -31,7 +31,7 @@ interface DiagnosticFlowProps {
   }) => void;
 }
 
-// Common roles for the role dropdown — covers ICP buyer titles.
+// Common roles for the role dropdown - covers ICP buyer titles.
 const ROLE_OPTIONS = [
   "CEO / Founder / Owner",
   "COO / Operations Director",
@@ -46,7 +46,7 @@ const ROLE_OPTIONS = [
   "Other",
 ];
 
-// Common countries — leads with our strategic hubs and expansion markets.
+// Common countries - leads with our strategic hubs and expansion markets.
 const COUNTRY_OPTIONS = [
   "United Arab Emirates",
   "Saudi Arabia",

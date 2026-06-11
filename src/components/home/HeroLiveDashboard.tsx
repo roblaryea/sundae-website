@@ -7,7 +7,7 @@ import { heroDashboardCopy } from "./heroDashboardCopy";
 
 /**
  * The hero dashboard's TEXT is fully localized via heroDashboardCopy (resolved
- * by the active locale) — this is the one product mockup we translate across all
+ * by the active locale) - this is the one product mockup we translate across all
  * 22 locales to show Sundae's multilingual reach. The numeric figures animate
  * locally and stay in USD ($) by design (it reads as a real product capture).
  *
@@ -19,12 +19,12 @@ const KPI_TREND_UP = [true, true, false, true];
 const COACH_COLORS = ["#FF8473", "#22C55E", "#FBBF24", "#F472B6", "#A78BFA"];
 
 /**
- * Hero live dashboard — a product-accurate recreation of the real Sundae Pulse
+ * Hero live dashboard - a product-accurate recreation of the real Sundae Pulse
  * "Sales Pacing" surface, in a two-column ops layout: a live pacing dashboard
  * on the left and a full-height **Sundae Coach** recommendation rail on the
  * right. The Coach is a co-equal half of the frame (not a footnote), so the
- * hero says "decision intelligence" — a stream of prioritized AI actions
- * across upsell, labor, inventory, service, and marketing — rather than just
+ * hero says "decision intelligence" - a stream of prioritized AI actions
+ * across upsell, labor, inventory, service, and marketing - rather than just
  * "a dashboard".
  *
  * Animated, not static: one source of truth (`revenue`, `covers`,
@@ -68,7 +68,7 @@ export function HeroLiveDashboard() {
     return () => clearInterval(id);
   }, [reduceMotion]);
 
-  // Derived — every figure flows from the three state values
+  // Derived - every figure flows from the three state values
   const avgCheck = revenue / covers;
   const laborPct = (LABOR_COST_BASE / revenue) * 100;
   const expected = TARGET * serviceProgress;
@@ -87,7 +87,7 @@ export function HeroLiveDashboard() {
     `${laborPct.toFixed(1)}%`,
   ];
 
-  // Sundae Coach feed — localized; colored by original index so translated tag
+  // Sundae Coach feed - localized; colored by original index so translated tag
   // labels never break the color mapping. The feed cycles a new item to the top.
   const coachItems = copy.coachItems;
   const n = coachItems.length;
@@ -133,7 +133,7 @@ export function HeroLiveDashboard() {
 
       {/* ── Two columns: pacing dashboard + Sundae Coach rail ── */}
       <div className="grid grid-cols-1 lg:grid-cols-[1.5fr_1fr] gap-3">
-        {/* LEFT — pacing dashboard */}
+        {/* LEFT - pacing dashboard */}
         <div className="space-y-3">
           {/* Pace block */}
           <div className="rounded-xl border border-[var(--border-default)] bg-white/[0.025] p-3.5">
@@ -230,7 +230,7 @@ export function HeroLiveDashboard() {
           </div>
         </div>
 
-        {/* RIGHT — Sundae Coach rail */}
+        {/* RIGHT - Sundae Coach rail */}
         <div className="rounded-xl border border-[#FF5C4D]/30 bg-gradient-to-b from-[#FF5C4D]/[0.10] to-[#FF5C4D]/[0.02] p-3 flex flex-col">
           <div className="flex items-center gap-2 mb-2.5">
             <span className="flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-md bg-[#FF5C4D]/20 text-[#FF8473] text-[11px]">

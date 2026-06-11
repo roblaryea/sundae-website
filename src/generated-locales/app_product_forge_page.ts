@@ -109,7 +109,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Ver todos los módulos"
     },
     "pt": {
-      "heroBadge": "Forge — Inteligência Personalizada",
+      "heroBadge": "Forge - Inteligência Personalizada",
       "heroTitle": "Modelos personalizados. Seus dados. Suas regras.",
       "heroDescription": "O Forge cria modelos personalizados treinados em seus dados. Previsões, recomendações e automações criadas especificamente para a forma como sua empresa opera.",
       "heroPrimary": "Experimente o Forge Chat",
@@ -321,7 +321,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "عرض كافة الوحدات"
     },
     "fr": {
-      "heroBadge": "Forge — Intelligence personnalisée",
+      "heroBadge": "Forge - Intelligence personnalisée",
       "heroTitle": "Modèles personnalisés. Vos données. Vos règles.",
       "heroDescription": "Forge crée des modèles personnalisés formés sur vos données. Prévisions, recommandations et automatisations conçues spécifiquement pour le fonctionnement de votre entreprise.",
       "heroPrimary": "Essayez Forge Chat",
@@ -427,7 +427,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Afficher tous les modules"
     },
     "de": {
-      "heroBadge": "Forge – Benutzerdefinierte Intelligenz",
+      "heroBadge": "Forge - Benutzerdefinierte Intelligenz",
       "heroTitle": "Benutzerdefinierte Modelle. Ihre Daten. Ihre Regeln.",
       "heroDescription": "Forge erstellt benutzerdefinierte Modelle, die auf Ihren Daten trainiert werden. Prognosen, Empfehlungen und Automatisierungen, die speziell auf die Funktionsweise Ihres Unternehmens zugeschnitten sind.",
       "heroPrimary": "Versuchen Sie Forge Chat",
@@ -745,7 +745,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "تمام ماڈیولز دیکھیں"
     },
     "tr": {
-      "heroBadge": "Forge — Özel Zeka",
+      "heroBadge": "Forge - Özel Zeka",
       "heroTitle": "Özel Modeller. Verileriniz. Kurallarınız.",
       "heroDescription": "Forge, verileriniz üzerinde eğitilmiş özel modeller oluşturur. İşletmenizin çalışma şekline göre özel olarak oluşturulmuş tahminler, öneriler ve otomasyonlar.",
       "heroPrimary": "Forge Chat'i deneyin",
@@ -1063,7 +1063,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "सभी मॉड्यूल देखें"
     },
     "zh-Hans": {
-      "heroBadge": "Forge — 定制智能",
+      "heroBadge": "Forge - 定制智能",
       "heroTitle": "定制模型。您的数据。你的规则。",
       "heroDescription": "Forge 构建根据您的数据进行训练的自定义模型。专门针对您的业务运营方式构建的预测、建议和自动化。",
       "heroPrimary": "尝试锻造聊天",
@@ -1169,7 +1169,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "查看所有模块"
     },
     "pl": {
-      "heroBadge": "Kuźnia — niestandardowa inteligencja",
+      "heroBadge": "Kuźnia - niestandardowa inteligencja",
       "heroTitle": "Modele niestandardowe. Twoje dane. Twoje zasady.",
       "heroDescription": "Forge buduje niestandardowe modele wytrenowane na Twoich danych. Prognozy, rekomendacje i automatyzacje opracowane specjalnie pod kątem sposobu działania Twojej firmy.",
       "heroPrimary": "Wypróbuj Czat Forge",
@@ -1212,7 +1212,7 @@ export const generatedLocalCopy = {
         },
         {
           "question": "Jak mogę obniżyć koszty pracy bez wpływu na jakość usług?",
-          "response": "Na podstawie Twoich wzorców: 1) Zmniejsz liczbę serwerów o 2 w dni powszednie w godzinach 14:00–16:00 (oszczędność 340 USD tygodniowo), 2) Przeszkol 3 pracowników na wiele ról, 3) Zoptymalizuj harmonogramy przerw. Przewidywane oszczędności: 1200 USD miesięcznie.",
+          "response": "Na podstawie Twoich wzorców: 1) Zmniejsz liczbę serwerów o 2 w dni powszednie w godzinach 14:00-16:00 (oszczędność 340 USD tygodniowo), 2) Przeszkol 3 pracowników na wiele ról, 3) Zoptymalizuj harmonogramy przerw. Przewidywane oszczędności: 1200 USD miesięcznie.",
           "context": "Wywiad dotyczący pracy + dane dotyczące wydajności"
         },
         {
@@ -1275,7 +1275,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Wyświetl wszystkie moduły"
     },
     "ro": {
-      "heroBadge": "Forge — Custom Intelligence",
+      "heroBadge": "Forge - Custom Intelligence",
       "heroTitle": "Modele personalizate. Datele dvs. Regulile tale.",
       "heroDescription": "Forge construiește modele personalizate instruite pe datele dvs. Prognoze, recomandări și automatizări create special pentru modul în care funcționează afacerea dvs.",
       "heroPrimary": "Încercați Forge Chat",
@@ -1381,7 +1381,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Vedeți toate modulele"
     },
     "ja": {
-      "heroBadge": "Forge — カスタム インテリジェンス",
+      "heroBadge": "Forge - カスタム インテリジェンス",
       "heroTitle": "カスタムモデル。あなたのデータ。あなたのルール。",
       "heroDescription": "Forge は、データに基づいてトレーニングされたカスタム モデルを構築します。ビジネスの運営方法に特化して構築された予測、推奨事項、自動化。",
       "heroPrimary": "フォージチャットを試してみる",
@@ -1487,7 +1487,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "すべてのモジュールを表示"
     },
     "vi": {
-      "heroBadge": "Forge — Thông tin tùy chỉnh",
+      "heroBadge": "Forge - Thông tin tùy chỉnh",
       "heroTitle": "Mô hình tùy chỉnh. Dữ liệu của bạn. Quy tắc của bạn.",
       "heroDescription": "Forge xây dựng các mô hình tùy chỉnh được đào tạo trên dữ liệu của bạn. Dự báo, đề xuất và tự động hóa được xây dựng riêng cho cách hoạt động kinh doanh của bạn.",
       "heroPrimary": "Hãy thử trò chuyện giả mạo",
@@ -1593,7 +1593,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Xem tất cả các mô-đun"
     },
     "id": {
-      "heroBadge": "Forge — Kecerdasan Khusus",
+      "heroBadge": "Forge - Kecerdasan Khusus",
       "heroTitle": "Model Khusus. Data Anda. Aturan Anda.",
       "heroDescription": "Forge membuat model khusus yang dilatih pada data Anda. Perkiraan, rekomendasi, dan otomatisasi yang dibuat khusus untuk cara bisnis Anda beroperasi.",
       "heroPrimary": "Coba Tempa Obrolan",
@@ -1699,7 +1699,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Lihat Semua Modul"
     },
     "ko": {
-      "heroBadge": "Forge — 맞춤형 인텔리전스",
+      "heroBadge": "Forge - 맞춤형 인텔리전스",
       "heroTitle": "맞춤형 모델. 귀하의 데이터. 귀하의 규칙.",
       "heroDescription": "Forge는 데이터에 대해 훈련된 맞춤형 모델을 구축합니다. 귀하의 비즈니스 운영 방식에 맞게 특별히 구축된 예측, 권장 사항 및 자동화입니다.",
       "heroPrimary": "Forge 채팅을 사용해 보세요",
@@ -1805,7 +1805,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "모든 모듈 보기"
     },
     "sv": {
-      "heroBadge": "Forge — Custom Intelligence",
+      "heroBadge": "Forge - Custom Intelligence",
       "heroTitle": "Anpassade modeller. Dina data. Dina regler.",
       "heroDescription": "Forge bygger anpassade modeller utbildade på dina data. Prognoser, rekommendationer och automatiseringar byggda specifikt för hur ditt företag fungerar.",
       "heroPrimary": "Testa Forge Chat",
@@ -1911,7 +1911,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Visa alla moduler"
     },
     "bn": {
-      "heroBadge": "ফরজ — কাস্টম বুদ্ধিমত্তা",
+      "heroBadge": "ফরজ - কাস্টম বুদ্ধিমত্তা",
       "heroTitle": "কাস্টম মডেল। আপনার ডেটা। আপনার নিয়ম.",
       "heroDescription": "Forge আপনার ডেটাতে প্রশিক্ষিত কাস্টম মডেল তৈরি করে। আপনার ব্যবসা কীভাবে কাজ করে তার জন্য বিশেষভাবে তৈরি পূর্বাভাস, সুপারিশ এবং অটোমেশন।",
       "heroPrimary": "Forge Chat চেষ্টা করুন",
@@ -2017,7 +2017,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "সমস্ত মডিউল দেখুন"
     },
     "th": {
-      "heroBadge": "Forge — ปัญญาแบบกำหนดเอง",
+      "heroBadge": "Forge - ปัญญาแบบกำหนดเอง",
       "heroTitle": "โมเดลที่กำหนดเอง ข้อมูลของคุณ กฎของคุณ",
       "heroDescription": "Forge สร้างโมเดลแบบกำหนดเองที่ได้รับการฝึกฝนเกี่ยวกับข้อมูลของคุณ การคาดการณ์ คำแนะนำ และระบบอัตโนมัติที่สร้างขึ้นโดยเฉพาะสำหรับการดำเนินธุรกิจของคุณ",
       "heroPrimary": "ลองฟอร์จแชท",
@@ -2123,7 +2123,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "ดูโมดูลทั้งหมด"
     },
     "ms": {
-      "heroBadge": "Forge — Perisikan Tersuai",
+      "heroBadge": "Forge - Perisikan Tersuai",
       "heroTitle": "Model Tersuai. Data Anda. Peraturan Anda.",
       "heroDescription": "Forge membina model tersuai yang dilatih pada data anda. Ramalan, pengesyoran dan automasi yang dibina khusus untuk cara perniagaan anda beroperasi.",
       "heroPrimary": "Cuba Forge Chat",

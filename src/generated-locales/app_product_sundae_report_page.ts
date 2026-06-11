@@ -493,7 +493,7 @@ export const generatedLocalCopy = {
       "whyTitle": "Warum kostenlos?",
       "whyDescription": "Wir glauben, dass jedes Restaurant seine Leistung verstehen sollte. Unser kostenloser Bericht gibt Ihnen einen Vorgeschmack auf die Entscheidungsintelligenz, die Sundae Core antreibt.",
       "ctaTitle": "Sind Sie bereit, Ihre Benchmarks zu sehen?",
-      "ctaDescription": "Schließen Sie sich Tausenden von Restaurantbetreibern an, die Sundae Report nutzen, um ihre Leistung zu verstehen. Keine Kreditkarte erforderlich, keine Verpflichtungen – nur Einblicke.",
+      "ctaDescription": "Schließen Sie sich Tausenden von Restaurantbetreibern an, die Sundae Report nutzen, um ihre Leistung zu verstehen. Keine Kreditkarte erforderlich, keine Verpflichtungen - nur Einblicke.",
       "benchmarkCategories": [
         {
           "name": "Vertriebsleistung",
@@ -1201,7 +1201,7 @@ export const generatedLocalCopy = {
       "whyTitle": "为什么免费？",
       "whyDescription": "我们相信每家餐厅都应该了解他们的表现。我们的免费报告让您体验为 Sundae Core 提供支持的决策智能。",
       "ctaTitle": "准备好查看您的基准了吗？",
-      "ctaDescription": "加入数千家使用Sundae Report的餐厅经营者的行列，了解他们的业绩。不需要信用卡，没有义务——只有洞察力。",
+      "ctaDescription": "加入数千家使用Sundae Report的餐厅经营者的行列，了解他们的业绩。不需要信用卡，没有义务--只有洞察力。",
       "benchmarkCategories": [
         {
           "name": "销售业绩",
@@ -1319,7 +1319,7 @@ export const generatedLocalCopy = {
       "whyTitle": "Dlaczego za darmo?",
       "whyDescription": "Wierzymy, że każda restauracja powinna wiedzieć, jak sobie radzi. Nasz bezpłatny raport daje przedsmak inteligencji decyzyjnej, która napędza Sundae Core.",
       "ctaTitle": "Gotowy, aby zobaczyć swoje testy porównawcze?",
-      "ctaDescription": "Dołącz do tysięcy operatorów restauracji, którzy korzystają z raportu Sundae, aby zrozumieć swoje wyniki. Nie jest wymagana żadna karta kredytowa, żadnych zobowiązań – wystarczy wgląd. (Sundae Report)",
+      "ctaDescription": "Dołącz do tysięcy operatorów restauracji, którzy korzystają z raportu Sundae, aby zrozumieć swoje wyniki. Nie jest wymagana żadna karta kredytowa, żadnych zobowiązań - wystarczy wgląd. (Sundae Report)",
       "benchmarkCategories": [
         {
           "name": "Wyniki sprzedaży",
@@ -1384,7 +1384,7 @@ export const generatedLocalCopy = {
         {
           "category": "Alert dotyczący kosztów pracy",
           "insight": "Koszt pracy jest o 8% wyższy niż w przypadku podobnych restauracji.",
-          "recommendation": "Rozważ optymalizację harmonogramu pracy personelu w godzinach 14:00–16:00.",
+          "recommendation": "Rozważ optymalizację harmonogramu pracy personelu w godzinach 14:00-16:00.",
           "impact": "Potencjalne oszczędności: 2400 USD miesięcznie"
         },
         {

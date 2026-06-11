@@ -269,7 +269,7 @@ const localizedPrivacyCopy: Partial<Record<NonEnglishWebsiteLocale, PrivacyCopy>
             ],
           },
           {
-            title: '12.2 المنطقة الاقتصادية الأوروبية/المملكة المتحدة – GDPR',
+            title: '12.2 المنطقة الاقتصادية الأوروبية/المملكة المتحدة - GDPR',
             paragraphs: [
               'إذا كنت في المنطقة الاقتصادية الأوروبية أو المملكة المتحدة، فإن GDPR و UK GDPR يمنحانك الحقوق الموضحة في القسم 7، ويتطلبان منا توضيح الأسس القانونية للمعالجة، وقد لخّصناها في القسم 3: العقد والمصالح المشروعة والموافقة والالتزامات القانونية.',
               'وإذا كنت تعتقد أن معالجتنا لمعلوماتك الشخصية تنتهك القانون المعمول به، فلديك الحق في تقديم شكوى إلى سلطة الرقابة المحلية لديك. ومع ذلك، نأمل أن تمنحنا فرصة لمعالجة مخاوفك أولًا.',
@@ -1436,7 +1436,7 @@ export default async function PrivacyPage() {
                   Sundae does not sell personal information as that term is generally defined under the CCPA. To exercise your California rights, you may contact us at <a href="mailto:privacy@sundae.io" className="text-[#60A5FA] hover:underline">privacy@sundae.io</a>.
                 </p>
 
-                <h3 className="text-xl font-semibold text-[var(--text-primary)] mb-3 mt-6">12.2 EEA/UK – GDPR</h3>
+                <h3 className="text-xl font-semibold text-[var(--text-primary)] mb-3 mt-6">12.2 EEA/UK - GDPR</h3>
                 <p className="text-[var(--text-secondary)] mb-4">
                   If you are in the EEA or UK, the General Data Protection Regulation (GDPR) and UK GDPR give you the rights described in Section 7, and require us to describe our lawful bases for processing, which we have summarized in Section 3 (contract, legitimate interests, consent, legal obligations).
                 </p>

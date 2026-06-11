@@ -1,4 +1,4 @@
-# Sundae — Copy Blocks for Marketing & Product Pages
+# Sundae - Copy Blocks for Marketing & Product Pages
 
 > Last refreshed: 2026-02-18 | Source: UI component strings, module tile descriptions, and page headers extracted from the codebase
 > All copy below is taken verbatim from the code. Use as-is or adapt for marketing pages.
@@ -20,7 +20,7 @@ It ingests internal operational data (POS, labor, inventory, finance) and extern
 > Source: `src/app/core/pulse/page.tsx:434-437`
 
 **Title:** "Pulse"
-**Subtitle:** "Intraday Operations Monitor — detect, act, confirm within the shift."
+**Subtitle:** "Intraday Operations Monitor - detect, act, confirm within the shift."
 
 ### Insights
 > Source: `src/app/core/insights/page.tsx:176-180`
@@ -43,7 +43,7 @@ It ingests internal operational data (POS, labor, inventory, finance) and extern
 
 ---
 
-## Pulse — Empty State Copy
+## Pulse - Empty State Copy
 
 > Source: `src/app/core/pulse/page.tsx:393-411`
 
@@ -61,7 +61,7 @@ It ingests internal operational data (POS, labor, inventory, finance) and extern
 **Header Title:** "Set up Benchmarking"
 **Subtitle:** "We've pre-filled your profile from restaurant settings"
 
-**Opt-in disclosure:** "Your anonymized data will be included in compsets. This is a data-for-data network — sharing is required to view benchmarks."
+**Opt-in disclosure:** "Your anonymized data will be included in compsets. This is a data-for-data network - sharing is required to view benchmarks."
 
 ---
 
@@ -101,7 +101,7 @@ It ingests internal operational data (POS, labor, inventory, finance) and extern
 
 ## Pulse Module Tile Descriptions
 
-> Source: `src/app/core/pulse/page.tsx:48-210` — All copy verbatim from MODULE_TILES
+> Source: `src/app/core/pulse/page.tsx:48-210` - All copy verbatim from MODULE_TILES
 
 ### Monitor Group
 | Tile | Description |
@@ -259,9 +259,9 @@ It ingests internal operational data (POS, labor, inventory, finance) and extern
 | `promo` | Promotional activity signal |
 
 ### Impact Levels
-- `positive` — Beneficial signal
-- `neutral` — Informational signal
-- `negative` — Adverse signal
+- `positive` - Beneficial signal
+- `neutral` - Informational signal
+- `negative` - Adverse signal
 
 ---
 
@@ -329,4 +329,4 @@ Standard "You don't have permission to access this page" error boundary.
 - All tile descriptions above are extracted verbatim from the codebase and represent the current UI copy.
 - "Coming Soon" modules have UI tiles but no functional pages behind them yet.
 - Vendor descriptions with status "Upcoming" represent planned integrations that are not yet connectable.
-- Needs Confirmation: Exact marketing tagline/hero text for a public-facing landing page was not found in the codebase — the app appears to be a logged-in SaaS product without a separate marketing site in this repo.
+- Needs Confirmation: Exact marketing tagline/hero text for a public-facing landing page was not found in the codebase - the app appears to be a logged-in SaaS product without a separate marketing site in this repo.

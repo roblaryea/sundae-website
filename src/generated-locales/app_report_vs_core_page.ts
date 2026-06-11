@@ -92,62 +92,62 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Echtzeit-Verkaufsüberwachung",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Grundlegende Ziele (manuell, automatisch)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Adaptive Intelligenz-Ziele",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Verfolgung der Mitarbeiteranzahl",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Produktivitätsintelligenz der Mitarbeiter (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Kostenaufstellung für Schichten",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Server-Rangliste (täglich)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Server-Rangliste (stündlich, nach Phase, mit Vergleich)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Überwachung von Verlusten",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sundae Shift Coach",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Benachrichtigungen & Handlungsanleitungen",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Wallboard-Modus",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -165,47 +165,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Tägliche Informationsbriefing",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Wettbewerbsverfolgung (bis zu 5)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Wettbewerbsverfolgung (bis zu 10+)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (stufenabhängig)"
         },
         {
           "feature": "Bewertungsstimmungsanalyse",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Entdeckung lokaler Veranstaltungen",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Bewertung der Veranstaltungswirkungen",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Religiöse Kalenderintelligenz",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Marktlandschaftsverfolgung",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Trend- und Makrosignale",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -352,62 +352,62 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Suivi des ventes en temps réel",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Objectifs de base (manuel, automatique)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Objectifs d'intelligence adaptative",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Suivi du nombre d'employés",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Intelligence de productivité du travail (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Répartition des coûts de service",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Classement des serveurs (quotidien)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Classement des serveurs (horaire, par phase, avec comparaison)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Suivi des fuites",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sundae Shift Coach",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Alertes et playbooks",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Mode tableau de bord",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -425,47 +425,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Briefing quotidien d'intelligence",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Suivi des concurrents (jusqu'à 5)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Suivi des concurrents (jusqu'à 10+)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (dépend du niveau)"
         },
         {
           "feature": "Analyse de sentiment des avis",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Découverte d'événements locaux",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Évaluations d'impact des événements",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Intelligence sur le calendrier religieux",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Suivi du paysage du marché",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Signaux de tendance et macro",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -612,62 +612,62 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Verkooptempo in real-time",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Basisdoelen (handmatig, automatisch)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Adaptieve Intelligentie Doelen",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Arbeidskrachten tracking",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Arbeidsproductiviteit Intelligentie (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Kostenoverzicht per dienst",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Server ranglijst (dagelijks)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Server ranglijst (uurlijk, per fase, met vergelijking)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Lekmonitoring",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sundae Shift Coach",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Waarschuwingen & playbooks",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Wallboard modus",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -685,47 +685,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Dagelijkse intelligence briefing",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Concurrentie tracking (tot 5)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Concurrentie tracking (tot 10+)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (afhankelijk van niveau)"
         },
         {
           "feature": "Review sentimentanalyse",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Ontdekking van lokale evenementen",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Beoordelingen van evenementimpact",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Intelligentie van religieuze kalenders",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Tracking van de marktlandschap",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Trend- en macro-signalen",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -872,62 +872,62 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Ritmo de ventas en tiempo real",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Objetivos básicos (manual, automático)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Objetivos de Inteligencia Adaptativa",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Seguimiento de la cantidad de empleados",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Inteligencia de Productividad Laboral (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Desglose de costos de turno",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Clasificación de servidores (diaria)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Clasificación de servidores (por hora, por fase, con comparación)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Monitoreo de fugas",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Entrenador de Turnos Sundae",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Alertas y manuales de procedimientos",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Modo de tablero",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -945,47 +945,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Informe diario de inteligencia",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Seguimiento de competidores (hasta 5)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Seguimiento de competidores (hasta 10+)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (dependiente del nivel)"
         },
         {
           "feature": "Análisis de sentimiento de reseñas",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Descubrimiento de eventos locales",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Evaluaciones del impacto de eventos",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Inteligencia del calendario religioso",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Seguimiento del paisaje del mercado",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Tendencias y señales macro",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -1132,62 +1132,62 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "تتبع المبيعات في الوقت الحقيقي",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "الأهداف الأساسية (يدوي، تلقائي)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "أهداف الذكاء التكيفي",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "تتبع عدد العمال",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "ذكاء إنتاجية العمال (SPLH، CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "تفصيل تكلفة الوردية",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "قائمة المتصدرين للخوادم (يومي)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "قائمة المتصدرين للخوادم (ساعي، حسب المرحلة، مع مقارنة)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "مراقبة التسرب",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "مدرب وردية Sundae",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "تنبيهات وكتب تشغيل",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "وضع لوحة المعلومات",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -1205,47 +1205,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "تقرير استخبارات يومي",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "تتبع المنافسين (حتى 5)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "تتبع المنافسين (حتى 10+)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (يعتمد على المستوى)"
         },
         {
           "feature": "تحليل مشاعر المراجعات",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "اكتشاف الأحداث المحلية",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "تقييم تأثير الأحداث",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "استخبارات التقويم الديني",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "تتبع مشهد السوق",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "الإشارات الاتجاهية والماكرو",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -1392,62 +1392,62 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Acompanhamento de vendas em tempo real",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Metas básicas (manual, automático)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Metas de Inteligência Adaptativa",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Rastreamento de contagem de funcionários",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Inteligência de Produtividade Laboral (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Detalhamento de custos de turno",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Classificação de servidores (diária)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Classificação de servidores (horária, por fase, com comparação)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Monitoramento de vazamentos",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Treinador de Turno Sundae",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Alertas e playbooks",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Modo de painel",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -1465,47 +1465,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Briefing diário de inteligência",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Monitoramento de concorrentes (até 5)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Monitoramento de concorrentes (até 10+)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (dependente de nível)"
         },
         {
           "feature": "Análise de sentimento de avaliações",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Descoberta de eventos locais",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Avaliações de impacto de eventos",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Inteligência do calendário religioso",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Monitoramento do panorama de mercado",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sinais de tendência e macro",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -1652,62 +1652,62 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "حقیقی وقت کی سیلز کی رفتار",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "بنیادی ہدف (ہاتھ سے، خودکار)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "ایڈاپٹیو انٹیلیجنس ٹارگٹس",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "مزدوروں کی تعداد کا ٹریکنگ",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "مزدوروں کی پیداوری انٹیلیجنس (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "شفٹ کی قیمت کی تفصیل",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "سرور لیڈر بورڈ (روزانہ)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "سرور لیڈر بورڈ (گھٹنے، مرحلے کے لحاظ سے، موازنہ کے ساتھ)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "لیکج مانیٹرنگ",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sundae شفٹ کوچ",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "الرٹس اور پلے بکس",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "وال بورڈ موڈ",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -1725,47 +1725,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "روزانہ کی انٹیلی جنس بریفنگ",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "مقابلہ کرنے والوں کی نگرانی (5 تک)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "مقابلہ کرنے والوں کی نگرانی (10+ تک)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (ٹیئر پر منحصر)"
         },
         {
           "feature": "جائزہ جذبات کا تجزیہ",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "مقامی ایونٹ کی دریافت",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "ایونٹ کے اثرات کا اندازہ",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "مذہبی کیلنڈر کی انٹیلی جنس",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "مارکیٹ کے منظر نامے کی نگرانی",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "رجحانات اور میکرو سگنلز",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -1912,62 +1912,62 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "वास्तविक समय बिक्री गति",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "बुनियादी लक्ष्य (हाथ से, स्वचालित)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "अनुकूलन बुद्धिमत्ता लक्ष्य",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "श्रम संख्या ट्रैकिंग",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "श्रम उत्पादकता बुद्धिमत्ता (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "शिफ्ट लागत का विवरण",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "सर्वर लीडरबोर्ड (दैनिक)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "सर्वर लीडरबोर्ड (घंटेवार, चरण के अनुसार, तुलना के साथ)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "लीकेज निगरानी",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sundae शिफ्ट कोच",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "अलर्ट और प्लेबुक",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "वॉलबोर्ड मोड",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -1985,47 +1985,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "दैनिक बुद्धिमत्ता ब्रीफिंग",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "प्रतिस्पर्धी ट्रैकिंग (5 तक)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "प्रतिस्पर्धी ट्रैकिंग (10+ तक)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (स्तर-निर्भर)"
         },
         {
           "feature": "समीक्षा भावना विश्लेषण",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "स्थानीय कार्यक्रम खोज",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "कार्यक्रम प्रभाव आकलन",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "धार्मिक कैलेंडर बुद्धिमत्ता",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "बाजार परिदृश्य ट्रैकिंग",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "प्रवृत्ति और मैक्रो संकेत",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -2172,62 +2172,62 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Monitoraggio delle vendite in tempo reale",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Obiettivi di base (manuali, automatici)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Obiettivi di Intelligenza Adattiva",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Monitoraggio del personale",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Intelligenza sulla produttività del lavoro (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Ripartizione dei costi per turno",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Classifica dei server (giornaliera)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Classifica dei server (oraria, per fase, con confronto)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Monitoraggio delle perdite",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sundae Shift Coach",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Avvisi e playbook",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Modalità Wallboard",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -2245,47 +2245,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Briefing quotidiano di intelligence",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Monitoraggio dei concorrenti (fino a 5)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Monitoraggio dei concorrenti (fino a 10+)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (dipendente dal livello)"
         },
         {
           "feature": "Analisi del sentiment delle recensioni",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Scoperta di eventi locali",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Valutazioni dell'impatto degli eventi",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Intelligence del calendario religioso",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Monitoraggio del panorama di mercato",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Tendenze e segnali macro",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -2432,62 +2432,62 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Pacing sprzedaży w czasie rzeczywistym",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Podstawowe cele (ręczne, automatyczne)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Cele Inteligencji Adaptacyjnej",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Śledzenie liczby pracowników",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Inteligencja wydajności pracy (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Szczegółowy koszt zmiany",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Ranking serwerów (codziennie)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Ranking serwerów (co godzinę, według fazy, z porównaniem)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Monitorowanie wycieków",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Trener zmiany Sundae",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Powiadomienia i podręczniki",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Tryb tablicy informacyjnej",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -2505,47 +2505,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Codzienne podsumowanie informacji",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Śledzenie konkurencji (do 5)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Śledzenie konkurencji (do 10+)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (zależne od poziomu)"
         },
         {
           "feature": "Analiza sentymentu recenzji",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Odkrywanie lokalnych wydarzeń",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Oceny wpływu wydarzeń",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Inteligencja kalendarza religijnego",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Śledzenie krajobrazu rynkowego",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Trendy i sygnały makroekonomiczne",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -2692,62 +2692,62 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Gerçek zamanlı satış hızı",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Temel hedefler (manuel, otomatik)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Uyarlanabilir Zeka Hedefleri",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "İş gücü sayımı takibi",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "İş gücü Verimliliği Zekası (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Vardiya maliyet analizi",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sunucu lider tablosu (günlük)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sunucu lider tablosu (saatlik, aşamaya göre, karşılaştırmalı)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Kaçak izleme",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sundae Vardiya Koçu",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Uyarılar ve oyun kılavuzları",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Duvar ekranı modu",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -2765,47 +2765,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Günlük istihbarat brifingi",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Rakip takibi (5'e kadar)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Rakip takibi (10+ ve üzeri)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (katman bağımlı)"
         },
         {
           "feature": "Yorum duygu analizi",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Yerel etkinlik keşfi",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Etkinlik etki değerlendirmeleri",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Dini takvim istihbaratı",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Pazar manzarası takibi",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Trend ve makro sinyaller",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -2952,62 +2952,62 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "实时销售进度",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "基本目标（手动，自动）",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "自适应智能目标",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "员工人数追踪",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "劳动生产力智能（每小时销售额，成本每小时）",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "班次成本细分",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "服务员排行榜（每日）",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "服务员排行榜（每小时，按阶段，带比较）",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "漏损监控",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sundae 班次教练",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "警报与行动手册",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "墙面显示模式",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -3025,47 +3025,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "每日情报简报",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "竞争对手追踪（最多 5 个）",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "竞争对手追踪（最多 10+ 个）",
-          "report": "—",
+          "report": "-",
           "core": "✓（依层级而定）"
         },
         {
           "feature": "评论情感分析",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "本地事件发现",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "事件影响评估",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "宗教日历情报",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "市场格局追踪",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "趋势和宏观信号",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -3212,62 +3212,62 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "リアルタイム売上ペーシング",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "基本目標（手動、自動）",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "適応型インテリジェンス目標",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "労働者数の追跡",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "労働生産性インテリジェンス（SPLH、CPLH）",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "シフトコストの内訳",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "サーバーリーダーボード（毎日）",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "サーバーリーダーボード（時間ごと、フェーズ別、比較付き）",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "漏洩監視",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sundaeシフトコーチ",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "アラートとプレイブック",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "ウォールボードモード",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -3285,47 +3285,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "日次インテリジェンスブリーフィング",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "競合追跡（最大5社）",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "競合追跡（最大10社以上）",
-          "report": "—",
+          "report": "-",
           "core": "✓（ティア依存）"
         },
         {
           "feature": "レビュー感情分析",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "ローカルイベント発見",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "イベント影響評価",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "宗教カレンダーインテリジェンス",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "市場の動向追跡",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "トレンドとマクロシグナル",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -3472,62 +3472,62 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Pacing vânzări în timp real",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Obiective de bază (manuale, automate)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Obiective de Inteligență Adaptivă",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Urmărirea numărului de angajați",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Inteligența Productivității Muncii (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Detalierea costurilor pe schimb",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Clasament servere (zilnic)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Clasament servere (pe oră, pe faze, cu comparație)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Monitorizarea pierderilor",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sundae Shift Coach",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Alerte și playbook-uri",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Mod tablă de afișaj",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -3545,47 +3545,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Briefing zilnic de inteligență",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Urmărirea competitorilor (până la 5)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Urmărirea competitorilor (până la 10+)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (în funcție de nivel)"
         },
         {
           "feature": "Analiza sentimentului recenzilor",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Descoperirea evenimentelor locale",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Evaluarea impactului evenimentelor",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Inteligența calendarului religios",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Urmărirea peisajului de piață",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Semnale de tendință și macro",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -3732,62 +3732,62 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Pacing penjualan real-time",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Target dasar (manual, otomatis)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Target Kecerdasan Adaptif",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Pelacakan jumlah tenaga kerja",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Kecerdasan Produktivitas Tenaga Kerja (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Rincian biaya shift",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Papan peringkat server (harian)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Papan peringkat server (per jam, berdasarkan fase, dengan perbandingan)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Pemantauan kebocoran",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Pelatih Shift Sundae",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Peringatan & buku panduan",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Mode papan dinding",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -3805,47 +3805,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Briefing intelijen harian",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Pelacakan pesaing (hingga 5)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Pelacakan pesaing (hingga 10+)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (tergantung tier)"
         },
         {
           "feature": "Analisis sentimen ulasan",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Penemuan acara lokal",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Penilaian dampak acara",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Intelijen kalender agama",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Pelacakan lanskap pasar",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Tren dan sinyal makro",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -3992,62 +3992,62 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Theo dõi doanh thu theo thời gian thực",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Mục tiêu cơ bản (thủ công, tự động)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Mục tiêu Trí tuệ thích ứng",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Theo dõi số lượng lao động",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Trí tuệ Năng suất Lao động (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Phân tích chi phí ca làm việc",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Bảng xếp hạng nhân viên (hàng ngày)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Bảng xếp hạng nhân viên (theo giờ, theo giai đoạn, có so sánh)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Giám sát rò rỉ",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Huấn luyện viên Ca Sundae",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Cảnh báo & sách hướng dẫn",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Chế độ bảng tường",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -4065,47 +4065,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Bản tin tình báo hàng ngày",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Theo dõi đối thủ (tối đa 5)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Theo dõi đối thủ (tối đa 10+)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (tùy thuộc vào cấp độ)"
         },
         {
           "feature": "Phân tích cảm xúc đánh giá",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Khám phá sự kiện địa phương",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Đánh giá tác động sự kiện",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Thông tin lịch tôn giáo",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Theo dõi bối cảnh thị trường",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Tín hiệu xu hướng và vĩ mô",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -4252,62 +4252,62 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "실시간 판매 진행 상황",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "기본 목표 (수동, 자동)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "적응형 인텔리전스 목표",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "노동 인원 추적",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "노동 생산성 인텔리전스 (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "교대 비용 분석",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "서버 리더보드 (일일)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "서버 리더보드 (시간별, 단계별, 비교 포함)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "누수 모니터링",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sundae Shift Coach",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "알림 및 플레이북",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "월보드 모드",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -4325,47 +4325,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "일일 인사이트 브리핑",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "경쟁사 추적 (최대 5개)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "경쟁사 추적 (최대 10개 이상)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (티어에 따라 다름)"
         },
         {
           "feature": "리뷰 감정 분석",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "지역 이벤트 발견",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "이벤트 영향 평가",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "종교 달력 인사이트",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "시장 환경 추적",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "트렌드 및 거시 신호",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -4512,62 +4512,62 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Försäljningspacing i realtid",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Grundläggande mål (manuellt, automatiskt)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Adaptiva intelligensmål",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Övervakning av arbetskraft",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Arbetsproduktivitet (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Kostnadsfördelning per skift",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Serverledartavla (dagligen)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Serverledartavla (timvis, per fas, med jämförelse)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Övervakning av läckage",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sundae Shift Coach",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Varningar & handböcker",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Wallboard-läge",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -4585,47 +4585,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Daglig intelligensrapport",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Konkurrentövervakning (upp till 5)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Konkurrentövervakning (upp till 10+)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (beroende av nivå)"
         },
         {
           "feature": "Analys av recensioners sentiment",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Upptäck lokala evenemang",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Bedömningar av evenemangspåverkan",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Religiös kalenderintelligens",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Övervakning av marknadslandskap",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Trend- och makrosignaler",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -4772,62 +4772,62 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "রিয়েল-টাইম বিক্রয় গতি",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "মৌলিক লক্ষ্য (ম্যানুয়াল, অটো)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "অ্যাডাপটিভ ইন্টেলিজেন্স লক্ষ্য",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "শ্রমের সংখ্যা ট্র্যাকিং",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "শ্রম উৎপাদনশীলতা ইন্টেলিজেন্স (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "শিফট খরচ বিশ্লেষণ",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "সার্ভার লিডারবোর্ড (দৈনিক)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "সার্ভার লিডারবোর্ড (প্রতি ঘণ্টা, পর্যায় অনুযায়ী, তুলনা সহ)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "লিকেজ মনিটরিং",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sundae শিফট কোচ",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "অ্যালার্ট ও প্লেবুক",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "ওয়ালবোর্ড মোড",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -4845,47 +4845,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "দৈনিক বুদ্ধিমত্তা ব্রিফিং",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "প্রতিযোগী ট্র্যাকিং (৫ পর্যন্ত)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "প্রতিযোগী ট্র্যাকিং (১০+ পর্যন্ত)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (টিয়ার-নির্ভর)"
         },
         {
           "feature": "রিভিউ অনুভূতি বিশ্লেষণ",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "স্থানীয় ইভেন্ট আবিষ্কার",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "ইভেন্ট প্রভাব মূল্যায়ন",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "ধর্মীয় ক্যালেন্ডার বুদ্ধিমত্তা",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "বাজারের দৃশ্যপট ট্র্যাকিং",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "প্রবণতা এবং ম্যাক্রো সংকেত",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -5032,62 +5032,62 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Pacing jualan masa nyata",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sasaran asas (manual, auto)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sasaran Kecerdasan Adaptif",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Pengiraan tenaga kerja",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Kecerdasan Produktiviti Tenaga Kerja (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Pecahan kos shift",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Papan pemimpin pelayan (harian)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Papan pemimpin pelayan (setiap jam, mengikut fasa, dengan perbandingan)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Pemantauan kebocoran",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Pelatih Shift Sundae",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Amaran & buku panduan",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Mod papan dinding",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -5105,47 +5105,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Ringkasan intelijen harian",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Pemantauan pesaing (sehingga 5)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Pemantauan pesaing (sehingga 10+)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (bergantung kepada tier)"
         },
         {
           "feature": "Analisis sentimen ulasan",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Penemuan acara tempatan",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Penilaian impak acara",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Intelijen kalendar agama",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Pemantauan landskap pasaran",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Isyarat trend dan makro",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -5292,62 +5292,62 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "การติดตามยอดขายแบบเรียลไทม์",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "เป้าหมายพื้นฐาน (แบบแมนนวล, อัตโนมัติ)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "เป้าหมายปัญญาประดิษฐ์ที่ปรับตัวได้",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "การติดตามจำนวนพนักงาน",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "ปัญญาประสิทธิภาพแรงงาน (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "การแยกต้นทุนการทำงานเป็นกะ",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "กระดานผู้นำพนักงาน (รายวัน)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "กระดานผู้นำพนักงาน (รายชั่วโมง, ตามช่วงเวลา, พร้อมการเปรียบเทียบ)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "การตรวจสอบการรั่วไหล",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "โค้ชการทำงานของ Sundae",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "การแจ้งเตือน & แผนการทำงาน",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "โหมดกระดานติดผนัง",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -5365,47 +5365,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "การสรุปข้อมูลข่าวกรองรายวัน",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "การติดตามคู่แข่ง (สูงสุด 5 ราย)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "การติดตามคู่แข่ง (สูงสุด 10+)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (ขึ้นอยู่กับระดับ)"
         },
         {
           "feature": "การวิเคราะห์ความรู้สึกจากรีวิว",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "การค้นหากิจกรรมท้องถิ่น",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "การประเมินผลกระทบของกิจกรรม",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "ข้อมูลข่าวกรองปฏิทินทางศาสนา",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "การติดตามภูมิทัศน์ตลาด",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "แนวโน้มและสัญญาณมหภาค",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
