@@ -9,6 +9,8 @@ import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_insights_page'
+import { CreamBreak } from '@/components/ui/CreamBreak';
+import { insightsCreamCopy } from './insightsCreamCopy';
 
 const localizedInsightsUi = {
   en: {
@@ -668,6 +670,7 @@ export default function InsightsPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
   const ui = localizedInsightsUi[locale as keyof typeof localizedInsightsUi] ?? getGeneratedLocalCopy(localizedInsightsUi, generatedLocalCopy.localizedInsightsUi, locale) ?? localizedInsightsUi.en;
+  const cream = insightsCreamCopy[locale as keyof typeof insightsCreamCopy] ?? insightsCreamCopy.en;
   const modules = localizedModulesCopy[locale as keyof typeof localizedModulesCopy] ?? getGeneratedLocalCopy(localizedModulesCopy, generatedLocalCopy.localizedModulesCopy, locale) ?? localizedModulesCopy.en;
 
   const whoItsFor: { icon: SundaeIconName; title: string; description: string }[] = [
@@ -856,6 +859,9 @@ export default function InsightsPage() {
         </div>
       </section>
 
+      {/* Cream relief - warm volume break in the dark scroll (the homepage's volume system) */}
+      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
+
       {/* How It Works */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-5xl mx-auto">
@@ -923,9 +929,10 @@ export default function InsightsPage() {
         }}
       />
 
-      {/* CTA Band */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] text-[var(--text-primary)]">
-        <div className="max-w-4xl mx-auto text-center">
+      {/* CTA Band - warm closer (matches the shared PageCTA scheme) */}
+      <section className="relative overflow-hidden bg-grad-deep py-24 px-4 sm:px-6 lg:px-8 text-[var(--text-primary)]">
+        <div aria-hidden className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,92,77,0.08),transparent_70%)]" />
+        <div className="relative z-10 max-w-4xl mx-auto text-center">
           <h2 className="section-h2 mb-6">
             {ui.ctaTitle}
           </h2>
@@ -934,9 +941,8 @@ export default function InsightsPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
-              variant="primary"
+              variant="cta"
               size="lg"
-              className="bg-[var(--navy-deep)] text-[var(--text-primary)] hover:bg-[var(--surface-subtle)]"
               onClick={() => cta("/demo", "book_demo_insights_cta", { page: "/insights" })}
             >
               {ui.ctaDemo}

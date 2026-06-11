@@ -344,17 +344,17 @@ function ForecastTimelineMockup({ copy }: { copy: ForesightMockupCopy }) {
         </div>
         <div className="relative h-24 bg-[var(--surface-faint)] rounded-lg overflow-hidden">
           <svg viewBox="0 0 200 70" className="w-full h-full" preserveAspectRatio="none">
-            <path d="M0,45 L15,42 L30,38 L45,35 L60,33 L75,30 L90,28 L105,25 L120,22 L135,20 L150,25 L165,28 L180,22 L200,20 L200,55 L180,48 L165,52 L150,50 L135,42 L120,45 L105,48 L90,50 L75,53 L60,55 L45,55 L30,57 L15,57 L0,60 Z" fill="rgba(28,71,255,0.1)" />
+            <path d="M0,45 L15,42 L30,38 L45,35 L60,33 L75,30 L90,28 L105,25 L120,22 L135,20 L150,25 L165,28 L180,22 L200,20 L200,55 L180,48 L165,52 L150,50 L135,42 L120,45 L105,48 L90,50 L75,53 L60,55 L45,55 L30,57 L15,57 L0,60 Z" fill="rgba(255,92,77,0.1)" />
             <path d="M0,52 L15,50 L30,47 L45,44 L60,43 L75,41 L90,38" fill="none" stroke="#22C55E" strokeWidth="1.5" />
-            <path d="M90,38 L105,36 L120,33 L135,30 L150,37 L165,40 L180,35 L200,30" fill="none" stroke="#1C47FF" strokeWidth="1.5" />
+            <path d="M90,38 L105,36 L120,33 L135,30 L150,37 L165,40 L180,35 L200,30" fill="none" stroke="#FF5C4D" strokeWidth="1.5" />
             <line x1="90" y1="0" x2="90" y2="70" stroke="rgba(255,255,255,0.15)" strokeWidth="0.5" strokeDasharray="2,2" />
             <text x="90" y="8" fill="rgba(255,255,255,0.35)" fontSize="4" textAnchor="middle">{copy.timeline.today}</text>
           </svg>
         </div>
         <div className="flex items-center gap-3 text-[9px] text-[var(--text-muted)]">
           <span className="flex items-center gap-1"><span className="w-3 h-0.5 rounded-full bg-[#22C55E]" /> {copy.timeline.actual}</span>
-          <span className="flex items-center gap-1"><span className="w-3 h-0.5 rounded-full bg-[#1C47FF]" /> {copy.timeline.forecast}</span>
-          <span className="flex items-center gap-1"><span className="w-3 h-1.5 rounded-sm bg-[rgba(28,71,255,0.1)]" /> {copy.timeline.band}</span>
+          <span className="flex items-center gap-1"><span className="w-3 h-0.5 rounded-full bg-[#FF5C4D]" /> {copy.timeline.forecast}</span>
+          <span className="flex items-center gap-1"><span className="w-3 h-1.5 rounded-sm bg-[rgba(255,92,77,0.1)]" /> {copy.timeline.band}</span>
         </div>
         <MockupAlert type="info">{copy.timeline.alert}</MockupAlert>
       </div>
@@ -367,7 +367,7 @@ function ScenarioComparisonMockup({ copy }: { copy: ForesightMockupCopy }) {
     <MockupFrame label={copy.scenario.label}>
       <div className="space-y-3">
         <div className="grid grid-cols-2 gap-2">
-          <MockupKPI label={copy.scenario.baselineRev} value="$248K" color="#1C47FF" />
+          <MockupKPI label={copy.scenario.baselineRev} value="$248K" color="#FF5C4D" />
           <MockupKPI label={copy.scenario.scenarioRev} value="$271K" trend="+$23K" trendUp color="#22C55E" />
         </div>
         <div className="space-y-1.5">
@@ -410,8 +410,8 @@ function DependencyGraphMockup({ copy }: { copy: ForesightMockupCopy }) {
       <div className="space-y-3">
         <div className="relative h-32 bg-[var(--surface-faint)] rounded-lg overflow-hidden p-3">
           <svg viewBox="0 0 200 90" className="w-full h-full">
-            <rect x="5" y="30" width="35" height="18" rx="4" fill="rgba(28,71,255,0.2)" stroke="#1C47FF" strokeWidth="0.5" />
-            <text x="22" y="42" fill="#60A5FA" fontSize="5" textAnchor="middle" fontWeight="600">{revenue}</text>
+            <rect x="5" y="30" width="35" height="18" rx="4" fill="rgba(255,92,77,0.2)" stroke="#FF5C4D" strokeWidth="0.5" />
+            <text x="22" y="42" fill="#FF8473" fontSize="5" textAnchor="middle" fontWeight="600">{revenue}</text>
             <rect x="55" y="10" width="30" height="18" rx="4" fill="rgba(168,85,247,0.2)" stroke="#A855F7" strokeWidth="0.5" />
             <text x="70" y="22" fill="#C084FC" fontSize="5" textAnchor="middle" fontWeight="600">{labor}</text>
             <rect x="55" y="52" width="35" height="18" rx="4" fill="rgba(34,197,94,0.2)" stroke="#22C55E" strokeWidth="0.5" />
@@ -526,13 +526,13 @@ function MonteCarloMockup({ copy }: { copy: ForesightMockupCopy }) {
       <div className="space-y-3">
         <div className="grid grid-cols-3 gap-2">
           <MockupKPI label={copy.monteCarlo.bestCase} value="$285K" color="#22C55E" />
-          <MockupKPI label={copy.monteCarlo.mostLikely} value="$248K" color="#1C47FF" />
+          <MockupKPI label={copy.monteCarlo.mostLikely} value="$248K" color="#FF5C4D" />
           <MockupKPI label={copy.monteCarlo.worstCase} value="$218K" color="#FF5450" />
         </div>
         <div className="relative h-16 bg-[var(--surface-faint)] rounded-lg overflow-hidden">
           <svg viewBox="0 0 200 50" className="w-full h-full" preserveAspectRatio="none">
-            <path d="M10,48 C30,48 50,45 70,35 C90,20 100,8 110,8 C120,8 130,20 150,35 C170,45 180,48 200,48" fill="rgba(28,71,255,0.15)" stroke="#1C47FF" strokeWidth="1" />
-            <line x1="110" y1="0" x2="110" y2="50" stroke="#1C47FF" strokeWidth="0.5" strokeDasharray="2,2" />
+            <path d="M10,48 C30,48 50,45 70,35 C90,20 100,8 110,8 C120,8 130,20 150,35 C170,45 180,48 200,48" fill="rgba(255,92,77,0.15)" stroke="#FF5C4D" strokeWidth="1" />
+            <line x1="110" y1="0" x2="110" y2="50" stroke="#FF5C4D" strokeWidth="0.5" strokeDasharray="2,2" />
             <text x="110" y="47" fill="rgba(255,255,255,0.4)" fontSize="4" textAnchor="middle">$248K</text>
             <line x1="55" y1="0" x2="55" y2="50" stroke="#FF5450" strokeWidth="0.3" strokeDasharray="1,2" />
             <text x="55" y="47" fill="rgba(255,84,80,0.5)" fontSize="3.5" textAnchor="middle">P10</text>

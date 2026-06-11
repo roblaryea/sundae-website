@@ -19,14 +19,13 @@ import { useTheme } from './ui/ThemeProvider';
  * Match logic strips any leading locale segment (/fr, /ar, /es) before testing.
  */
 function shouldHideFooterPreCta(pathname: string): boolean {
-  // Strip optional /<locale> prefix
+  // Nearly every content page ships its OWN bespoke closing CTA, so the global
+  // Footer pre-CTA is suppressed by DEFAULT to avoid a double-CTA stack at the
+  // bottom of the page. It is shown only on the few utility pages that have no
+  // closer of their own (kept in an explicit allow-list so it can never double).
   const stripped = pathname.replace(/^\/(en|fr|ar|es)(?=\/|$)/, '') || '/';
-  if (stripped === '/') return true;             // home
-  if (stripped === '/solutions') return true;    // hub
-  if (stripped.startsWith('/solutions/')) return true; // persona pages
-  if (stripped === '/crew') return true;         // crew page (own closing CTA)
-  if (stripped.startsWith('/diagnostic')) return true; // diagnostic report ships its own "Want to see this on your real data?" CTA
-  return false;
+  const SHOW_FOOTER_PRECTA = new Set<string>(['/faq']);
+  return !SHOW_FOOTER_PRECTA.has(stripped);
 }
 import { localizeWebsiteHref } from '@/lib/i18n';
 

@@ -345,17 +345,17 @@ export default function FourDIntelligencePage() {
                   <CardContent className="p-6">
                     <div className="flex items-start space-x-4">
                       <div className={`w-12 h-12 rounded-lg flex items-center justify-center mt-1 ${
-                        alert.severity === 'warning' ? 'bg-yellow-100' : alert.severity === 'success' ? 'bg-green-100' : 'bg-blue-100'
+                        alert.severity === 'warning' ? 'bg-yellow-100' : alert.severity === 'success' ? 'bg-green-100' : 'bg-[#FFE3DD]'
                       }`}>
                         <SundaeIcon name={alert.icon as SundaeIconName} size="lg" className={
-                          alert.severity === 'warning' ? 'text-yellow-600' : alert.severity === 'success' ? 'text-green-600' : 'text-[#60A5FA]'
+                          alert.severity === 'warning' ? 'text-yellow-600' : alert.severity === 'success' ? 'text-green-600' : 'text-[#FF8473]'
                         } />
                       </div>
                       <div className="flex-grow">
                         <div className="flex items-center justify-between mb-2">
                           <h3 className="text-xl font-bold text-[var(--text-primary)]">{alert.type}</h3>
                           <span className={`px-3 py-1 rounded-full text-sm font-medium ${
-                            alert.severity === 'warning' ? 'bg-yellow-100 text-yellow-800' : alert.severity === 'success' ? 'bg-green-100 text-green-800' : 'bg-blue-100 text-blue-800'
+                            alert.severity === 'warning' ? 'bg-yellow-100 text-yellow-800' : alert.severity === 'success' ? 'bg-green-100 text-green-800' : 'bg-[#FFE3DD] text-[#C2410C]'
                           }`}>
                             {alert.location}
                           </span>
