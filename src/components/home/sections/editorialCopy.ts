@@ -63,7 +63,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
       alt: 'طاهٍ يُنهي إعداد طبق عند ممر التقديم أثناء الخدمة',
     },
     band2: {
-      eyebrow: 'صُمم لخط الخدمة، لا لغرفة الاجتماعات',
+      eyebrow: 'صُمم لخط الخدمة الأمامي، لا لغرفة الاجتماعات وحدها',
       headline: 'فريقك يتحرك بسرعة بالفعل. Sundae يتحرك معه.',
       sub: 'إيقاع حي وعمالة واستثناءات عبر كل فرع — ليكون القرار الذي تتخذه في السابعة مساءً هو الصحيح، لا الذي تشكك فيه عند منتصف الليل.',
       alt: 'طاهٍ يعمل على خط المطبخ، عند ممر التقديم أثناء الخدمة',
@@ -84,7 +84,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
       alt: 'Un chef dressant une assiette au passe pendant le service',
     },
     band2: {
-      eyebrow: "Pensé pour le coup de feu, pas pour le conseil d'administration",
+      eyebrow: "Pensé pour le terrain, pas seulement pour le conseil d'administration",
       headline: 'Votre équipe avance déjà vite. Sundae avance avec elle.',
       sub: "Cadence en direct, main-d'œuvre et anomalies sur chaque point de vente — pour que la décision prise à 19 h soit la bonne, pas celle que vous remettez en question à minuit.",
       alt: 'Un chef au coup de feu, au passe pendant le service',
@@ -105,7 +105,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
       alt: 'Un chef terminando un plato en el pase durante el servicio',
     },
     band2: {
-      eyebrow: 'Hecho para el servicio, no para la sala de juntas',
+      eyebrow: 'Hecho para la primera línea, no solo para la sala de juntas',
       headline: 'Tu equipo ya se mueve rápido. Sundae se mueve con él.',
       sub: 'Ritmo en vivo, personal y excepciones en cada local — para que la decisión que tomas a las 7 de la tarde sea la correcta, no la que cuestionas a medianoche.',
       alt: 'Un chef trabajando en la cocina, en el pase durante el servicio',
@@ -126,7 +126,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
       alt: 'Ein Koch richtet am Pass während des Service einen Teller an',
     },
     band2: {
-      eyebrow: 'Für die Linie gemacht, nicht für den Sitzungssaal',
+      eyebrow: 'Für die Front gemacht, nicht nur für den Sitzungssaal',
       headline: 'Ihr Team ist längst in Bewegung. Sundae bewegt sich mit.',
       sub: 'Live-Tempo, Personal und Ausnahmen über jeden Standort — damit die Entscheidung um 19 Uhr die richtige ist und nicht die, die Sie um Mitternacht infrage stellen.',
       alt: 'Ein Koch arbeitet an der Linie, am Pass während des Service',
@@ -147,7 +147,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
       alt: 'Een chef maakt een gerecht af op de pass tijdens de service',
     },
     band2: {
-      eyebrow: 'Gemaakt voor de werkvloer, niet voor de bestuurskamer',
+      eyebrow: 'Gemaakt voor de werkvloer, niet alleen voor de bestuurskamer',
       headline: 'Uw team beweegt al snel. Sundae beweegt mee.',
       sub: 'Live tempo, personeel en uitzonderingen over elke vestiging — zodat de beslissing die u om 19.00 uur neemt de juiste is, niet die u om middernacht in twijfel trekt.',
       alt: 'Een chef werkt aan de lijn, op de pass tijdens de service',
@@ -168,7 +168,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
       alt: 'Um chef finalizando um prato na expedição durante o serviço',
     },
     band2: {
-      eyebrow: 'Feito para a operação, não para a diretoria',
+      eyebrow: 'Feito para a linha de frente, não só para a diretoria',
       headline: 'Sua equipe já está em ritmo acelerado. Sundae acompanha.',
       sub: 'Ritmo ao vivo, mão de obra e exceções em cada unidade — para que a decisão que você toma às 19h seja a certa, não aquela que você questiona à meia-noite.',
       alt: 'Um chef trabalhando na praça, na expedição durante o serviço',
@@ -189,7 +189,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
       alt: 'सर्विस के दौरान पास पर एक व्यंजन को अंतिम रूप देता शेफ',
     },
     band2: {
-      eyebrow: 'रसोई के लिए बना, बोर्डरूम के लिए नहीं',
+      eyebrow: 'फ्रंट-लाइन के लिए बना, सिर्फ़ बोर्डरूम के लिए नहीं',
       headline: 'आपकी टीम पहले से तेज़ चल रही है। Sundae उनके साथ चलता है।',
       sub: 'हर आउटलेट पर लाइव रफ्तार, स्टाफ और अपवाद — ताकि शाम 7 बजे आप जो फैसला लें वही सही हो, वह नहीं जिस पर आधी रात को आप दोबारा सोचें।',
       alt: 'सर्विस के दौरान रसोई की लाइन पर, पास पर काम करता शेफ',
@@ -210,7 +210,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
       alt: 'سروس کے دوران پاس پر ایک ڈش کو حتمی شکل دیتا شیف',
     },
     band2: {
-      eyebrow: 'کچن کے لیے بنایا گیا، بورڈ روم کے لیے نہیں',
+      eyebrow: 'فرنٹ لائن کے لیے بنایا گیا، صرف بورڈ روم کے لیے نہیں',
       headline: 'آپ کی ٹیم پہلے ہی تیزی سے کام کر رہی ہے۔ Sundae اُن کے ساتھ چلتا ہے۔',
       sub: 'ہر آؤٹ لیٹ پر لائیو رفتار، عملہ اور استثناءات — تاکہ شام 7 بجے آپ جو فیصلہ کریں وہی درست ہو، نہ کہ وہ جس پر آدھی رات کو آپ شک کریں۔',
       alt: 'سروس کے دوران کچن لائن پر، پاس پر کام کرتا شیف',
@@ -231,7 +231,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
       alt: 'Uno chef che completa un piatto al passe durante il servizio',
     },
     band2: {
-      eyebrow: 'Fatto per la linea, non per la sala riunioni',
+      eyebrow: 'Fatto per la prima linea, non solo per la sala riunioni',
       headline: 'Il tuo team si muove già in fretta. Sundae si muove con lui.',
       sub: 'Ritmo in tempo reale, personale ed eccezioni in ogni punto vendita — così la decisione che prendi alle 19 è quella giusta, non quella che metti in dubbio a mezzanotte.',
       alt: 'Uno chef al lavoro sulla linea, al passe durante il servizio',
@@ -252,7 +252,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
       alt: 'Kucharz kończy danie na wydawce podczas serwisu',
     },
     band2: {
-      eyebrow: 'Stworzone dla kuchni, nie dla sali zarządu',
+      eyebrow: 'Stworzone dla pierwszej linii, nie tylko dla sali zarządu',
       headline: 'Twój zespół już działa szybko. Sundae nadąża za nim.',
       sub: 'Tempo na żywo, obsada i wyjątki w każdym lokalu — żeby decyzja, którą podejmujesz o 19, była tą właściwą, a nie tą, którą kwestionujesz o północy.',
       alt: 'Kucharz pracuje na linii, przy wydawce podczas serwisu',
@@ -273,7 +273,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
       alt: 'Servis sırasında pasta bir tabağı tamamlayan şef',
     },
     band2: {
-      eyebrow: 'Sahaya göre tasarlandı, toplantı odasına göre değil',
+      eyebrow: 'Yalnızca toplantı odası için değil, sahanın ön saflarına göre tasarlandı',
       headline: 'Ekibiniz zaten hızlı hareket ediyor. Sundae onunla birlikte hareket eder.',
       sub: "Her şubede canlı tempo, iş gücü ve istisnalar — böylece akşam 19.00'da verdiğiniz karar doğru olanı olur, gece yarısı sorguladığınız değil.",
       alt: 'Servis sırasında mutfak hattında, pasta çalışan şef',
@@ -294,7 +294,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
       alt: '服务期间，厨师在出菜口完成摆盘',
     },
     band2: {
-      eyebrow: '为后厨而造，不为会议室',
+      eyebrow: '为一线而造，不只为会议室',
       headline: '你的团队早已快速运转。Sundae 与他们同步。',
       sub: '每一家门店的实时节奏、人力与异常一览无余——让你晚上七点做的决定就是对的那个，而不是半夜还在怀疑的那个。',
       alt: '服务期间，厨师在出餐线的出菜口忙碌',
@@ -315,7 +315,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
       alt: 'サービス中、パスで一皿を仕上げるシェフ',
     },
     band2: {
-      eyebrow: '会議室ではなく、現場のために',
+      eyebrow: '会議室だけでなく、現場の最前線のために',
       headline: 'あなたのチームはすでに速く動いている。Sundae はそれに合わせて動く。',
       sub: '全店舗のリアルタイムなペース、人員、例外を把握——夜7時に下す判断が正しいものになり、深夜に迷い直すことはありません。',
       alt: 'サービス中、厨房のラインのパスで働くシェフ',
@@ -336,7 +336,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
       alt: '서비스 중 패스에서 요리를 마무리하는 셰프',
     },
     band2: {
-      eyebrow: '회의실이 아니라 현장을 위해',
+      eyebrow: '회의실만이 아니라 현장 최전선을 위해',
       headline: '당신의 팀은 이미 빠르게 움직입니다. Sundae는 그 속도에 맞춰 함께 움직입니다.',
       sub: '모든 매장의 실시간 페이스, 인력, 예외 상황까지——저녁 7시에 내리는 결정이 옳은 결정이 되고, 자정에 다시 의심하는 결정이 되지 않도록.',
       alt: '서비스 중 주방 라인의 패스에서 일하는 셰프',
@@ -357,7 +357,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
       alt: 'Seorang koki menyelesaikan hidangan di pass saat layanan berlangsung',
     },
     band2: {
-      eyebrow: 'Dibuat untuk lini operasi, bukan ruang rapat',
+      eyebrow: 'Dibuat untuk garda depan, bukan hanya ruang rapat',
       headline: 'Tim Anda sudah bergerak cepat. Sundae bergerak bersama mereka.',
       sub: 'Tempo langsung, tenaga kerja, dan pengecualian di setiap outlet — agar keputusan yang Anda ambil pukul 7 malam adalah yang tepat, bukan yang Anda ragukan tengah malam.',
       alt: 'Seorang koki bekerja di lini dapur, di pass saat layanan',
@@ -378,7 +378,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
       alt: 'Một đầu bếp hoàn thiện món ăn tại quầy ra món trong giờ phục vụ',
     },
     band2: {
-      eyebrow: 'Tạo ra cho gian bếp, không phải phòng họp',
+      eyebrow: 'Tạo ra cho tuyến đầu, không chỉ cho phòng họp',
       headline: 'Đội ngũ của bạn vốn đã chạy rất nhanh. Sundae chạy cùng họ.',
       sub: 'Nhịp độ trực tiếp, nhân sự và ngoại lệ trên mọi chi nhánh — để quyết định bạn đưa ra lúc 7 giờ tối là quyết định đúng, không phải điều bạn hoài nghi lúc nửa đêm.',
       alt: 'Một đầu bếp làm việc trên dây chuyền bếp, tại quầy ra món trong giờ phục vụ',
@@ -399,7 +399,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
       alt: 'Un bucătar finalizează un preparat la pass în timpul serviciului',
     },
     band2: {
-      eyebrow: 'Făcut pentru linie, nu pentru sala de consiliu',
+      eyebrow: 'Făcut pentru prima linie, nu doar pentru sala de consiliu',
       headline: 'Echipa ta se mișcă deja repede. Sundae se mișcă odată cu ea.',
       sub: 'Ritm în timp real, personal și excepții în fiecare locație — astfel încât decizia pe care o iei la 19:00 să fie cea corectă, nu cea pe care o pui la îndoială la miezul nopții.',
       alt: 'Un bucătar lucrând la linie, la pass în timpul serviciului',
@@ -420,7 +420,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
       alt: 'En kock gör färdigt en tallrik vid passet under serveringen',
     },
     band2: {
-      eyebrow: 'Byggt för köket, inte för styrelserummet',
+      eyebrow: 'Byggt för frontlinjen, inte bara för styrelserummet',
       headline: 'Ditt team rör sig redan snabbt. Sundae rör sig med dem.',
       sub: 'Live-tempo, bemanning och avvikelser för varje enhet — så att beslutet du tar klockan 19 är det rätta, inte det du tvivlar på vid midnatt.',
       alt: 'En kock arbetar vid linjen, vid passet under serveringen',
@@ -441,7 +441,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
       alt: 'পরিবেশনের সময় পাসে একটি প্লেট সাজিয়ে শেষ করছেন একজন শেফ',
     },
     band2: {
-      eyebrow: 'রান্নাঘরের জন্য তৈরি, বোর্ডরুমের জন্য নয়',
+      eyebrow: 'ফ্রন্টলাইনের জন্য তৈরি, শুধু বোর্ডরুমের জন্য নয়',
       headline: 'আপনার দল ইতিমধ্যেই দ্রুত এগোচ্ছে। Sundae তাদের সঙ্গেই এগোয়।',
       sub: 'প্রতিটি আউটলেটে সরাসরি গতি, জনবল ও ব্যতিক্রম — যাতে সন্ধ্যা ৭টায় নেওয়া সিদ্ধান্তটি সঠিক হয়, মধ্যরাতে যেটি নিয়ে আপনি দ্বিধায় পড়েন সেটি নয়।',
       alt: 'পরিবেশনের সময় রান্নাঘরের লাইনে, পাসে কাজ করছেন একজন শেফ',
@@ -462,7 +462,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
       alt: 'เชฟกำลังจัดจานให้เสร็จที่หน้าจ่ายอาหารระหว่างการให้บริการ',
     },
     band2: {
-      eyebrow: 'สร้างมาเพื่อหน้างาน ไม่ใช่ห้องประชุมผู้บริหาร',
+      eyebrow: 'สร้างมาเพื่อแนวหน้า ไม่ใช่แค่ห้องประชุมผู้บริหาร',
       headline: 'ทีมของคุณเคลื่อนไหวเร็วอยู่แล้ว Sundae เคลื่อนไหวไปพร้อมกับพวกเขา',
       sub: 'จังหวะแบบเรียลไทม์ กำลังคน และข้อยกเว้นในทุกสาขา — เพื่อให้การตัดสินใจที่คุณทำตอนหนึ่งทุ่มเป็นการตัดสินใจที่ถูกต้อง ไม่ใช่สิ่งที่คุณมานั่งกังขาตอนเที่ยงคืน',
       alt: 'เชฟกำลังทำงานที่ไลน์ครัว ที่หน้าจ่ายอาหารระหว่างการให้บริการ',
@@ -483,7 +483,7 @@ export const editorialCopy: Record<WebsiteLocale, EditorialCopy> = {
       alt: 'Seorang cef menyiapkan hidangan di pass semasa servis',
     },
     band2: {
-      eyebrow: 'Dibina untuk barisan dapur, bukan bilik mesyuarat',
+      eyebrow: 'Dibina untuk barisan hadapan, bukan hanya bilik mesyuarat',
       headline: 'Pasukan anda sudah pun bergerak pantas. Sundae bergerak bersama mereka.',
       sub: 'Rentak langsung, tenaga kerja dan pengecualian di setiap cawangan — supaya keputusan yang anda buat pada pukul 7 malam adalah yang betul, bukan yang anda ragui pada tengah malam.',
       alt: 'Seorang cef bekerja di barisan dapur, di pass semasa servis',

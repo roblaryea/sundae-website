@@ -47,7 +47,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
     closing: "Same data. Faster decision. Better action.",
   },
   ar: {
-    eyebrow: "من تأخر التقارير إلى سرعة العمليات",
+    eyebrow: "من تأخر التقارير والحدس — إلى سرعة التشغيل والقرارات المدروسة",
     headlinePre: "التقارير تخبرك بما حدث.",
     headlinePost: "يخبرك بما تفعله تالياً.",
     oldWayLabel: "الطريقة القديمة",
@@ -71,7 +71,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
     closing: "نفس البيانات. قرار أسرع. فعل أفضل.",
   },
   fr: {
-    eyebrow: "DU RETARD DE REPORTING À LA VITESSE OPÉRATIONNELLE",
+    eyebrow: "DU RETARD DES RAPPORTS & DE L'INTUITION — À LA VITESSE D'EXÉCUTION & AUX DÉCISIONS ÉCLAIRÉES",
     headlinePre: "Les rapports vous disent ce qui s'est passé.",
     headlinePost: "vous dit quoi faire ensuite.",
     oldWayLabel: "L'ancienne méthode",
@@ -95,7 +95,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedCopy> = {
     closing: "Mêmes données. Décision plus rapide. Meilleure action.",
   },
   es: {
-    eyebrow: "DEL RETRASO DEL REPORTING A LA VELOCIDAD OPERATIVA",
+    eyebrow: "DEL RETRASO EN LOS REPORTES Y LA INTUICIÓN — A LA VELOCIDAD OPERATIVA Y LAS DECISIONES INFORMADAS",
     headlinePre: "Los reportes te dicen lo que pasó.",
     headlinePost: "te dice qué hacer a continuación.",
     oldWayLabel: "La forma antigua",

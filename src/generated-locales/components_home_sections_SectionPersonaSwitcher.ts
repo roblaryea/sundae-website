@@ -18,7 +18,7 @@ export const generatedLocalCopy = {
           "pain": "Sie können nicht gleichzeitig in jedem Restaurant sein.",
           "painCopy": "Bis das wöchentliche Resümee eintrifft, ist die schlechte Schicht vorbei und die Marge verloren.",
           "outcome": "Echtzeit-Transparenz für jede Schicht.",
-          "outcomeCopy": "Pulse zeigt Ihnen, welcher Standort jetzt Hilfe benötigt – Tempo, Personal, Verluste, alles wird während der Schicht aktualisiert."
+          "outcomeCopy": "Ob Sie der Filialleiter vor Ort sind oder der COO von fünfzig Standorten – Pulse zeigt Ihnen, welcher Standort gerade jetzt Hilfe braucht: Tempo, Personal, Verluste, alles wird während der Schicht aktualisiert."
         },
         {
           "shortLabel": "CFO",
@@ -78,7 +78,7 @@ export const generatedLocalCopy = {
           "pain": "Vous ne pouvez pas être dans chaque restaurant en même temps.",
           "painCopy": "Au moment où le récapitulatif hebdomadaire arrive, le mauvais service est terminé et la marge est perdue.",
           "outcome": "Visibilité en temps réel sur chaque service.",
-          "outcomeCopy": "Pulse vous montre quel emplacement a besoin d'aide en ce moment — rythme, main-d'œuvre, fuites, tout mis à jour pendant le service."
+          "outcomeCopy": "Que vous soyez le directeur sur le terrain ou le COO de cinquante points de vente, Pulse montre quel emplacement a besoin d'aide en ce moment — cadence, main-d'œuvre, fuites, le tout mis à jour pendant le service."
         },
         {
           "shortLabel": "CFO",
@@ -138,7 +138,7 @@ export const generatedLocalCopy = {
           "pain": "Je kunt niet in elk restaurant tegelijk zijn.",
           "painCopy": "Tegen de tijd dat de wekelijkse samenvatting binnenkomt, is de slechte shift voorbij en is de marge verdwenen.",
           "outcome": "Live inzicht in elke shift.",
-          "outcomeCopy": "Pulse toont je welke locatie nu hulp nodig heeft — tempo, arbeid, lekkage, allemaal bijgewerkt tijdens de shift."
+          "outcomeCopy": "Of u nu de bedrijfsleider op de vloer bent of de COO over vijftig vestigingen — Pulse toont u welke locatie nu hulp nodig heeft: tempo, personeel, lekkage, allemaal bijgewerkt tijdens de shift."
         },
         {
           "shortLabel": "CFO",
@@ -198,7 +198,7 @@ export const generatedLocalCopy = {
           "pain": "لا يمكنك أن تكون في كل مطعم في آن واحد.",
           "painCopy": "بحلول الوقت الذي تصل فيه ملخص الأسبوع، تكون الوردية السيئة قد انتهت وذهبت الهوامش.",
           "outcome": "رؤية حية لكل وردية.",
-          "outcomeCopy": "يظهر لك Pulse أي موقع يحتاج إلى مساعدة الآن — التقدم، العمالة، التسرب، كل ذلك يتم تحديثه خلال الوردية."
+          "outcomeCopy": "سواء كنت مدير الفرع على الأرض أو الرئيس التنفيذي للعمليات على خمسين فرعاً، يظهر لك Pulse أي موقع يحتاج إلى مساعدة الآن — وتيرة، عمالة، تسرب، كل ذلك يتم تحديثه خلال الوردية."
         },
         {
           "shortLabel": "المدير المالي",
@@ -258,7 +258,7 @@ export const generatedLocalCopy = {
           "pain": "No puedes estar en cada restaurante a la vez.",
           "painCopy": "Para cuando llega el resumen semanal, el mal turno ha terminado y el margen se ha ido.",
           "outcome": "Visibilidad en tiempo real de cada turno.",
-          "outcomeCopy": "Pulse te muestra qué ubicación necesita ayuda ahora mismo: ritmo, mano de obra, pérdidas, todo actualizado durante el turno."
+          "outcomeCopy": "Ya seas el gerente en el local o el COO de cincuenta sucursales, Pulse te muestra qué ubicación necesita ayuda ahora mismo: ritmo, mano de obra, pérdidas, todo actualizado durante el turno."
         },
         {
           "shortLabel": "CFO",
@@ -318,7 +318,7 @@ export const generatedLocalCopy = {
           "pain": "Você não pode estar em todos os restaurantes ao mesmo tempo.",
           "painCopy": "Quando o resumo semanal chega, o turno ruim já acabou e a margem se foi.",
           "outcome": "Visibilidade em tempo real de cada turno.",
-          "outcomeCopy": "O Pulse mostra qual local precisa de ajuda agora — ritmo, mão de obra, vazamentos, tudo atualizado durante o turno."
+          "outcomeCopy": "Seja você o gerente no salão ou o COO de cinquenta unidades, o Pulse mostra qual local precisa de ajuda agora — ritmo, mão de obra, vazamentos, tudo atualizado durante o turno."
         },
         {
           "shortLabel": "CFO",
@@ -378,7 +378,7 @@ export const generatedLocalCopy = {
           "pain": "آپ ایک وقت میں ہر ریستوران میں نہیں ہو سکتے۔",
           "painCopy": "جب ہفتہ وار خلاصہ آتا ہے، تو خراب شفٹ ختم ہو چکی ہوتی ہے اور منافع ختم ہو چکا ہوتا ہے۔",
           "outcome": "ہر شفٹ میں براہ راست نظر۔",
-          "outcomeCopy": "Pulse آپ کو دکھاتا ہے کہ کون سی جگہ کو ابھی مدد کی ضرورت ہے — رفتار، مزدوری، نقصان، سب شفٹ کے دوران اپ ڈیٹ ہوتے ہیں۔"
+          "outcomeCopy": "چاہے آپ فلور پر جنرل مینیجر ہوں یا پچاس آؤٹ لیٹس کے سی او او، Pulse آپ کو دکھاتا ہے کہ کون سی جگہ کو ابھی مدد کی ضرورت ہے — رفتار، مزدوری، نقصان، سب شفٹ کے دوران اپ ڈیٹ ہوتے ہیں۔"
         },
         {
           "shortLabel": "سی ایف او",
@@ -438,7 +438,7 @@ export const generatedLocalCopy = {
           "pain": "आप एक समय में हर रेस्तरां में नहीं हो सकते।",
           "painCopy": "जब साप्ताहिक पुनर्कथन आता है, तब खराब शिफ्ट खत्म हो चुकी होती है और लाभ चला जाता है।",
           "outcome": "हर शिफ्ट में लाइव दृश्यता।",
-          "outcomeCopy": "Pulse आपको दिखाता है कि किस स्थान को अभी मदद की जरूरत है — गति, श्रम, रिसाव, सभी शिफ्ट के दौरान अपडेट होते हैं।"
+          "outcomeCopy": "चाहे आप फ्लोर पर जीएम हों या पचास आउटलेट्स के सीओओ, Pulse आपको दिखाता है कि अभी किस लोकेशन को मदद की ज़रूरत है — गति, श्रम, रिसाव, सभी शिफ्ट के दौरान अपडेट होते हैं।"
         },
         {
           "shortLabel": "सीएफओ",
@@ -498,7 +498,7 @@ export const generatedLocalCopy = {
           "pain": "Her restoranda aynı anda olamazsınız.",
           "painCopy": "Haftalık özet geldiğinde, kötü vardiya sona ermiş ve kar gitmiştir.",
           "outcome": "Her vardiya için canlı görünürlük.",
-          "outcomeCopy": "Pulse, hangi lokasyonun şu anda yardıma ihtiyacı olduğunu gösterir — hız, iş gücü, kayıplar, hepsi vardiya boyunca güncellenir."
+          "outcomeCopy": "İster sahadaki müdür olun ister elli şubenin COO'su, Pulse hangi lokasyonun şu anda yardıma ihtiyacı olduğunu gösterir — tempo, iş gücü, kayıplar, hepsi vardiya boyunca güncellenir."
         },
         {
           "shortLabel": "CFO",
@@ -558,7 +558,7 @@ export const generatedLocalCopy = {
           "pain": "Non puoi essere in ogni ristorante contemporaneamente.",
           "painCopy": "Quando arriva il riepilogo settimanale, il turno problematico è già finito e il margine è andato.",
           "outcome": "Visibilità in tempo reale su ogni turno.",
-          "outcomeCopy": "Pulse ti mostra quale sede ha bisogno di aiuto in questo momento — andamento, manodopera, perdite, tutto aggiornato durante il turno."
+          "outcomeCopy": "Che tu sia il direttore in sala o il COO di cinquanta punti vendita, Pulse ti mostra quale sede ha bisogno di aiuto proprio adesso — ritmo, personale, perdite, tutto aggiornato durante il turno."
         },
         {
           "shortLabel": "CFO",
@@ -618,7 +618,7 @@ export const generatedLocalCopy = {
           "pain": "您无法同时在每个餐厅。",
           "painCopy": "当每周回顾到达时，糟糕的班次已经结束，利润也消失了。",
           "outcome": "实时查看每个班次。",
-          "outcomeCopy": "Pulse 显示哪个地点现在需要帮助——进度、劳动力、损失，所有信息在班次中实时更新。"
+          "outcomeCopy": "无论你是店面经理，还是管着五十家门店的首席运营官，Pulse 都会告诉你此刻哪个门店需要帮助——节奏、人力、损耗，全部在班次中实时更新。"
         },
         {
           "shortLabel": "首席财务官",
@@ -678,7 +678,7 @@ export const generatedLocalCopy = {
           "pain": "Nie możesz być w każdej restauracji jednocześnie.",
           "painCopy": "Zanim cotygodniowe podsumowanie dotrze, zła zmiana już minęła, a marża zniknęła.",
           "outcome": "Na żywo widoczność każdej zmiany.",
-          "outcomeCopy": "Pulse pokazuje, która lokalizacja potrzebuje pomocy teraz — tempo, praca, straty, wszystko aktualizowane w trakcie zmiany."
+          "outcomeCopy": "Niezależnie od tego, czy jesteś kierownikiem na sali, czy COO pięćdziesięciu lokali, Pulse pokazuje, która lokalizacja potrzebuje pomocy właśnie teraz — tempo, obsada, straty, wszystko aktualizowane w trakcie zmiany."
         },
         {
           "shortLabel": "CFO",
@@ -738,7 +738,7 @@ export const generatedLocalCopy = {
           "pain": "すべてのレストランに同時にいることはできません。",
           "painCopy": "週次のまとめが届く頃には、悪いシフトは終わり、利益は失われています。",
           "outcome": "すべてのシフトをリアルタイムで把握できます。",
-          "outcomeCopy": "Pulseは、どの店舗が今助けを必要としているかを示します — ペース、労働、漏れ、すべてシフトを通じて更新されます。"
+          "outcomeCopy": "現場の店長でも、50店舗を統括するCOOでも、Pulseは今どの店舗が支援を必要としているかを示します——ペース、人員、漏れ、すべてシフトを通じて更新されます。"
         },
         {
           "shortLabel": "CFO",
@@ -798,7 +798,7 @@ export const generatedLocalCopy = {
           "pain": "모든 레스토랑에 동시에 있을 수는 없습니다.",
           "painCopy": "주간 요약이 도착할 때쯤이면 나쁜 근무는 끝나고 마진은 사라집니다.",
           "outcome": "모든 근무에 대한 실시간 가시성.",
-          "outcomeCopy": "Pulse는 현재 어떤 위치가 도움이 필요한지 보여줍니다 — 속도, 인력, 유출, 모두 근무 중에 업데이트됩니다."
+          "outcomeCopy": "현장의 점장이든 매장 50곳을 총괄하는 COO든, Pulse는 지금 어느 매장이 도움이 필요한지 보여줍니다 — 속도, 인력, 누수까지 모두 근무 중에 업데이트됩니다."
         },
         {
           "shortLabel": "CFO",
@@ -858,7 +858,7 @@ export const generatedLocalCopy = {
           "pain": "Bạn không thể có mặt ở mọi nhà hàng cùng một lúc.",
           "painCopy": "Khi bản tóm tắt hàng tuần đến, ca làm việc tồi tệ đã kết thúc và lợi nhuận đã mất.",
           "outcome": "Khả năng nhìn thấy trực tiếp mọi ca làm việc.",
-          "outcomeCopy": "Pulse cho bạn biết địa điểm nào cần giúp đỡ ngay bây giờ — tốc độ, lao động, thất thoát, tất cả được cập nhật trong ca làm việc."
+          "outcomeCopy": "Dù bạn là quản lý tại cửa hàng hay COO của năm mươi chi nhánh, Pulse cho biết địa điểm nào cần giúp đỡ ngay lúc này — nhịp độ, nhân sự, thất thoát, tất cả được cập nhật trong ca làm việc."
         },
         {
           "shortLabel": "CFO",
@@ -918,7 +918,7 @@ export const generatedLocalCopy = {
           "pain": "Anda tidak bisa berada di setiap restoran sekaligus.",
           "painCopy": "Saat ringkasan mingguan tiba, shift buruk sudah berakhir dan margin hilang.",
           "outcome": "Visibilitas langsung ke setiap shift.",
-          "outcomeCopy": "Pulse menunjukkan lokasi mana yang membutuhkan bantuan saat ini — kecepatan, tenaga kerja, kebocoran, semua diperbarui melalui shift."
+          "outcomeCopy": "Baik Anda manajer di lantai maupun COO atas lima puluh outlet, Pulse menunjukkan lokasi mana yang membutuhkan bantuan saat ini — kecepatan, tenaga kerja, kebocoran, semua diperbarui sepanjang shift."
         },
         {
           "shortLabel": "CFO",
@@ -978,7 +978,7 @@ export const generatedLocalCopy = {
           "pain": "Nu poți fi în fiecare restaurant în același timp.",
           "painCopy": "Până când recapitularea săptămânală ajunge, tura proastă s-a terminat și marja a dispărut.",
           "outcome": "Vizibilitate în timp real asupra fiecărei ture.",
-          "outcomeCopy": "Pulse îți arată care locație are nevoie de ajutor acum — ritm, muncă, pierderi, toate actualizate pe parcursul turei."
+          "outcomeCopy": "Fie că ești managerul din locație, fie COO peste cincizeci de locații, Pulse îți arată ce locație are nevoie de ajutor chiar acum — ritm, personal, pierderi, toate actualizate pe parcursul turei."
         },
         {
           "shortLabel": "CFO",
@@ -1038,7 +1038,7 @@ export const generatedLocalCopy = {
           "pain": "আপনি একসাথে প্রতিটি রেস্টুরেন্টে থাকতে পারবেন না।",
           "painCopy": "সাপ্তাহিক সারসংক্ষেপ আসার আগেই খারাপ শিফট শেষ হয়ে যায় এবং মার্জিন চলে যায়।",
           "outcome": "প্রতিটি শিফটে লাইভ দৃশ্যমানতা।",
-          "outcomeCopy": "পালস আপনাকে দেখায় কোন অবস্থানকে এখনই সাহায্য প্রয়োজন — পেসিং, শ্রম, লিকেজ, সব শিফটের মাধ্যমে আপডেট করা হয়েছে। (Pulse)"
+          "outcomeCopy": "আপনি ফ্লোরের জিএম হোন বা পঞ্চাশটি আউটলেটের সিওও, Pulse আপনাকে দেখায় এই মুহূর্তে কোন লোকেশনের সাহায্য দরকার — গতি, শ্রম, লিকেজ, সব শিফটের মধ্যেই আপডেট হয়।"
         },
         {
           "shortLabel": "সিএফও",
@@ -1098,7 +1098,7 @@ export const generatedLocalCopy = {
           "pain": "คุณไม่สามารถอยู่ในทุกร้านอาหารได้ในครั้งเดียว.",
           "painCopy": "เมื่อสรุปรายสัปดาห์มาถึง กะที่ไม่ดีนั้นก็จบลงและกำไรก็หายไปแล้ว.",
           "outcome": "มองเห็นการทำงานแบบเรียลไทม์ในทุกกะ.",
-          "outcomeCopy": "Pulse แสดงให้คุณเห็นว่าสถานที่ไหนต้องการความช่วยเหลือในขณะนี้ — การดำเนินงาน, แรงงาน, การรั่วไหล, อัปเดตตลอดกะ."
+          "outcomeCopy": "ไม่ว่าคุณจะเป็นผู้จัดการหน้าร้านหรือ COO ที่ดูแลห้าสิบสาขา Pulse ก็แสดงให้เห็นว่าสาขาไหนต้องการความช่วยเหลือในตอนนี้ — จังหวะ กำลังคน การรั่วไหล ทั้งหมดอัปเดตตลอดกะ"
         },
         {
           "shortLabel": "CFO",
@@ -1158,7 +1158,7 @@ export const generatedLocalCopy = {
           "pain": "Du kan inte vara på varje restaurang samtidigt.",
           "painCopy": "När veckosammanfattningen kommer har den dåliga skiftet redan passerat och marginalen är borta.",
           "outcome": "Live-insyn i varje skift.",
-          "outcomeCopy": "Pulse visar dig vilken plats som behöver hjälp just nu — takten, arbetskraft, läckage, allt uppdaterat under skiftet."
+          "outcomeCopy": "Oavsett om du är platschefen på golvet eller COO över femtio enheter visar Pulse vilken plats som behöver hjälp just nu — takt, bemanning, läckage, allt uppdaterat under skiftet."
         },
         {
           "shortLabel": "CFO",
@@ -1218,7 +1218,7 @@ export const generatedLocalCopy = {
           "pain": "Anda tidak boleh berada di setiap restoran sekaligus.",
           "painCopy": "Pada masa ringkasan mingguan tiba, shift yang buruk sudah berakhir dan margin telah hilang.",
           "outcome": "Keterlihatan langsung ke dalam setiap shift.",
-          "outcomeCopy": "Pulse menunjukkan lokasi mana yang memerlukan bantuan sekarang — kelajuan, tenaga kerja, kebocoran, semua dikemas kini melalui shift."
+          "outcomeCopy": "Sama ada anda pengurus di lantai atau COO bagi lima puluh cawangan, Pulse menunjukkan lokasi mana yang memerlukan bantuan sekarang — rentak, tenaga kerja, kebocoran, semua dikemas kini sepanjang shift."
         },
         {
           "shortLabel": "CFO",

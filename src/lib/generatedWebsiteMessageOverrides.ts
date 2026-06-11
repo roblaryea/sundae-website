@@ -177,7 +177,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/contact"
         },
         {
-          "name": "Sicherheit",
+          "name": "Sicherheit & Compliance",
           "href": "/security"
         },
         {
@@ -232,9 +232,9 @@ export const generatedWebsiteMessageOverrides = {
             "color": "red"
           },
           {
-            "value": "72 Std.",
+            "value": "72 Std.+",
             "label": "Bücher schließen",
-            "supporting": "Während Margenverluste täglich zunehmen",
+            "supporting": "Und oft dauert es länger als drei Tage",
             "color": "amber"
           },
           {
@@ -508,7 +508,7 @@ export const generatedWebsiteMessageOverrides = {
           ],
           "footerTerms": "Nutzungsbedingungen",
           "footerPrivacy": "Datenschutz",
-          "footerSecurity": "Sicherheit",
+          "footerSecurity": "Sicherheit & Compliance",
           "footerSupport": "Support",
           "emailRequired": "E-Mail ist erforderlich",
           "emailInvalid": "Geben Sie eine gültige E-Mail-Adresse ein",
@@ -919,7 +919,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/contact"
         },
         {
-          "name": "Beveiliging",
+          "name": "Beveiliging & Naleving",
           "href": "/security"
         },
         {
@@ -974,9 +974,9 @@ export const generatedWebsiteMessageOverrides = {
             "color": "red"
           },
           {
-            "value": "72 uur",
+            "value": "72 uur+",
             "label": "Om boeken af te sluiten",
-            "supporting": "Terwijl marge-lekken dagelijks toenemen",
+            "supporting": "En vaak duurt het langer dan drie dagen",
             "color": "amber"
           },
           {
@@ -1250,7 +1250,7 @@ export const generatedWebsiteMessageOverrides = {
           ],
           "footerTerms": "Voorwaarden",
           "footerPrivacy": "Privacy",
-          "footerSecurity": "Beveiliging",
+          "footerSecurity": "Beveiliging & Naleving",
           "footerSupport": "Ondersteuning",
           "emailRequired": "E-mail is verplicht",
           "emailInvalid": "Voer een geldig e-mailadres in",
@@ -1661,7 +1661,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/contact"
         },
         {
-          "name": "Segurança",
+          "name": "Segurança & Conformidade",
           "href": "/security"
         },
         {
@@ -1716,9 +1716,9 @@ export const generatedWebsiteMessageOverrides = {
             "color": "red"
           },
           {
-            "value": "72hrs",
+            "value": "72hrs+",
             "label": "Para fechar os livros",
-            "supporting": "Enquanto as perdas de margem se acumulam diariamente",
+            "supporting": "E muitas vezes leva mais de três dias",
             "color": "amber"
           },
           {
@@ -1992,7 +1992,7 @@ export const generatedWebsiteMessageOverrides = {
           ],
           "footerTerms": "Termos",
           "footerPrivacy": "Privacidade",
-          "footerSecurity": "Segurança",
+          "footerSecurity": "Segurança & Conformidade",
           "footerSupport": "Suporte",
           "emailRequired": "Email é obrigatório",
           "emailInvalid": "Digite um endereço de email válido",
@@ -2403,7 +2403,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/contact"
         },
         {
-          "name": "सुरक्षा",
+          "name": "सुरक्षा और अनुपालन",
           "href": "/security"
         },
         {
@@ -2458,9 +2458,9 @@ export const generatedWebsiteMessageOverrides = {
             "color": "red"
           },
           {
-            "value": "72घंटे",
+            "value": "72घंटे+",
             "label": "बहीखाता बंद करने के लिए",
-            "supporting": "जबकि मार्जिन लीक रोजाना बढ़ते हैं",
+            "supporting": "और अक्सर इसमें तीन दिन से ज़्यादा लगते हैं",
             "color": "amber"
           },
           {
@@ -2734,7 +2734,7 @@ export const generatedWebsiteMessageOverrides = {
           ],
           "footerTerms": "नियम और शर्तें",
           "footerPrivacy": "गोपनीयता",
-          "footerSecurity": "सुरक्षा",
+          "footerSecurity": "सुरक्षा और अनुपालन",
           "footerSupport": "सहायता",
           "emailRequired": "ईमेल आवश्यक है",
           "emailInvalid": "एक मान्य ईमेल पता दर्ज करें",
@@ -3145,7 +3145,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/contact"
         },
         {
-          "name": "سیکیورٹی",
+          "name": "سیکیورٹی اور تعمیل",
           "href": "/security"
         },
         {
@@ -3200,9 +3200,9 @@ export const generatedWebsiteMessageOverrides = {
             "color": "red"
           },
           {
-            "value": "72hrs",
+            "value": "+72hrs",
             "label": "کتابیں بند کرنے کے لیے",
-            "supporting": "جبکہ مارجن کے نقصانات روزانہ بڑھتے ہیں",
+            "supporting": "اور اکثر اس میں تین دن سے زیادہ لگتے ہیں",
             "color": "amber"
           },
           {
@@ -3476,7 +3476,7 @@ export const generatedWebsiteMessageOverrides = {
           ],
           "footerTerms": "شرائط",
           "footerPrivacy": "رازداری",
-          "footerSecurity": "سیکیورٹی",
+          "footerSecurity": "سیکیورٹی اور تعمیل",
           "footerSupport": "مدد",
           "emailRequired": "ای میل درکار ہے",
           "emailInvalid": "ایک درست ای میل ایڈریس درج کریں",
@@ -3887,7 +3887,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/contact"
         },
         {
-          "name": "Sicurezza",
+          "name": "Sicurezza & Conformità",
           "href": "/security"
         },
         {
@@ -3942,9 +3942,9 @@ export const generatedWebsiteMessageOverrides = {
             "color": "red"
           },
           {
-            "value": "72ore",
+            "value": "72ore+",
             "label": "Per chiudere i conti",
-            "supporting": "Mentre le perdite di margine si accumulano quotidianamente",
+            "supporting": "E spesso ci vuole più di tre giorni",
             "color": "amber"
           },
           {
@@ -4218,7 +4218,7 @@ export const generatedWebsiteMessageOverrides = {
           ],
           "footerTerms": "Termini",
           "footerPrivacy": "Privacy",
-          "footerSecurity": "Sicurezza",
+          "footerSecurity": "Sicurezza & Conformità",
           "footerSupport": "Supporto",
           "emailRequired": "L'email è obbligatoria",
           "emailInvalid": "Inserisci un'email valida",
@@ -4629,7 +4629,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/contact"
         },
         {
-          "name": "Bezpieczeństwo",
+          "name": "Bezpieczeństwo i zgodność",
           "href": "/security"
         },
         {
@@ -4684,9 +4684,9 @@ export const generatedWebsiteMessageOverrides = {
             "color": "red"
           },
           {
-            "value": "72 godz.",
+            "value": "72 godz.+",
             "label": "Na zamknięcie ksiąg",
-            "supporting": "Podczas gdy straty marży kumulują się codziennie",
+            "supporting": "A często trwa to dłużej niż trzy dni",
             "color": "amber"
           },
           {
@@ -4960,7 +4960,7 @@ export const generatedWebsiteMessageOverrides = {
           ],
           "footerTerms": "Warunki",
           "footerPrivacy": "Prywatność",
-          "footerSecurity": "Bezpieczeństwo",
+          "footerSecurity": "Bezpieczeństwo i zgodność",
           "footerSupport": "Wsparcie",
           "emailRequired": "Email jest wymagany",
           "emailInvalid": "Wprowadź poprawny adres email",
@@ -5371,7 +5371,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/contact"
         },
         {
-          "name": "Güvenlik",
+          "name": "Güvenlik & Uyumluluk",
           "href": "/security"
         },
         {
@@ -5426,9 +5426,9 @@ export const generatedWebsiteMessageOverrides = {
             "color": "red"
           },
           {
-            "value": "72s",
+            "value": "72s+",
             "label": "Defter kapama süresi",
-            "supporting": "Marj kayıpları her gün birikiyor",
+            "supporting": "Ve çoğu zaman üç günden fazla sürer",
             "color": "amber"
           },
           {
@@ -5702,7 +5702,7 @@ export const generatedWebsiteMessageOverrides = {
           ],
           "footerTerms": "Şartlar",
           "footerPrivacy": "Gizlilik",
-          "footerSecurity": "Güvenlik",
+          "footerSecurity": "Güvenlik & Uyumluluk",
           "footerSupport": "Destek",
           "emailRequired": "E-posta gereklidir",
           "emailInvalid": "Geçerli bir e-posta adresi girin",
@@ -6113,7 +6113,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/contact"
         },
         {
-          "name": "安全",
+          "name": "安全与合规",
           "href": "/security"
         },
         {
@@ -6168,9 +6168,9 @@ export const generatedWebsiteMessageOverrides = {
             "color": "red"
           },
           {
-            "value": "72小时",
+            "value": "72小时+",
             "label": "结账时间",
-            "supporting": "而利润损失每天都在加剧",
+            "supporting": "而且往往要花上三天以上",
             "color": "amber"
           },
           {
@@ -6444,7 +6444,7 @@ export const generatedWebsiteMessageOverrides = {
           ],
           "footerTerms": "条款",
           "footerPrivacy": "隐私",
-          "footerSecurity": "安全",
+          "footerSecurity": "安全与合规",
           "footerSupport": "支持",
           "emailRequired": "电子邮件是必需的",
           "emailInvalid": "请输入有效的电子邮件地址",
@@ -6855,7 +6855,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/contact"
         },
         {
-          "name": "セキュリティ",
+          "name": "セキュリティとコンプライアンス",
           "href": "/security"
         },
         {
@@ -6910,9 +6910,9 @@ export const generatedWebsiteMessageOverrides = {
             "color": "red"
           },
           {
-            "value": "72時間",
+            "value": "72時間+",
             "label": "帳簿を締めるまで",
-            "supporting": "マージンの漏れが日々蓄積されています",
+            "supporting": "しかも三日以上かかることも多い",
             "color": "amber"
           },
           {
@@ -7186,7 +7186,7 @@ export const generatedWebsiteMessageOverrides = {
           ],
           "footerTerms": "利用規約",
           "footerPrivacy": "プライバシー",
-          "footerSecurity": "セキュリティ",
+          "footerSecurity": "セキュリティとコンプライアンス",
           "footerSupport": "サポート",
           "emailRequired": "メールは必須です",
           "emailInvalid": "有効なメールアドレスを入力してください",
@@ -7597,7 +7597,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/contact"
         },
         {
-          "name": "보안",
+          "name": "보안 및 규정 준수",
           "href": "/security"
         },
         {
@@ -7652,9 +7652,9 @@ export const generatedWebsiteMessageOverrides = {
             "color": "red"
           },
           {
-            "value": "72시간",
+            "value": "72시간+",
             "label": "장부 마감",
-            "supporting": "마진 누수가 매일 누적되는 동안",
+            "supporting": "게다가 사흘 넘게 걸리는 경우도 많습니다",
             "color": "amber"
           },
           {
@@ -7928,7 +7928,7 @@ export const generatedWebsiteMessageOverrides = {
           ],
           "footerTerms": "약관",
           "footerPrivacy": "개인정보 보호정책",
-          "footerSecurity": "보안",
+          "footerSecurity": "보안 및 규정 준수",
           "footerSupport": "지원",
           "emailRequired": "이메일은 필수입니다",
           "emailInvalid": "유효한 이메일 주소를 입력하세요",
@@ -8339,7 +8339,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/contact"
         },
         {
-          "name": "Keamanan",
+          "name": "Keamanan & Kepatuhan",
           "href": "/security"
         },
         {
@@ -8394,9 +8394,9 @@ export const generatedWebsiteMessageOverrides = {
             "color": "red"
           },
           {
-            "value": "72jam",
+            "value": "72jam+",
             "label": "Untuk menutup buku",
-            "supporting": "Sementara kebocoran margin bertambah setiap hari",
+            "supporting": "Dan sering kali butuh lebih dari tiga hari",
             "color": "amber"
           },
           {
@@ -8670,7 +8670,7 @@ export const generatedWebsiteMessageOverrides = {
           ],
           "footerTerms": "Syarat",
           "footerPrivacy": "Privasi",
-          "footerSecurity": "Keamanan",
+          "footerSecurity": "Keamanan & Kepatuhan",
           "footerSupport": "Dukungan",
           "emailRequired": "Email diperlukan",
           "emailInvalid": "Masukkan alamat email yang valid",
@@ -9081,7 +9081,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/contact"
         },
         {
-          "name": "Bảo mật",
+          "name": "Bảo mật & Tuân thủ",
           "href": "/security"
         },
         {
@@ -9136,9 +9136,9 @@ export const generatedWebsiteMessageOverrides = {
             "color": "red"
           },
           {
-            "value": "72 giờ",
+            "value": "72 giờ+",
             "label": "Để đóng sổ sách",
-            "supporting": "Trong khi lỗ biên lợi nhuận tích lũy hàng ngày",
+            "supporting": "Và thường mất hơn ba ngày",
             "color": "amber"
           },
           {
@@ -9412,7 +9412,7 @@ export const generatedWebsiteMessageOverrides = {
           ],
           "footerTerms": "Điều khoản",
           "footerPrivacy": "Quyền riêng tư",
-          "footerSecurity": "Bảo mật",
+          "footerSecurity": "Bảo mật & Tuân thủ",
           "footerSupport": "Hỗ trợ",
           "emailRequired": "Email là bắt buộc",
           "emailInvalid": "Nhập địa chỉ email hợp lệ",
@@ -9823,7 +9823,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/contact"
         },
         {
-          "name": "Securitate",
+          "name": "Securitate & Conformitate",
           "href": "/security"
         },
         {
@@ -9878,9 +9878,9 @@ export const generatedWebsiteMessageOverrides = {
             "color": "red"
           },
           {
-            "value": "72ore",
+            "value": "72ore+",
             "label": "Pentru închiderea cărților",
-            "supporting": "În timp ce pierderile de marjă se acumulează zilnic",
+            "supporting": "Și de multe ori durează mai mult de trei zile",
             "color": "amber"
           },
           {
@@ -10154,7 +10154,7 @@ export const generatedWebsiteMessageOverrides = {
           ],
           "footerTerms": "Termeni",
           "footerPrivacy": "Confidențialitate",
-          "footerSecurity": "Securitate",
+          "footerSecurity": "Securitate & Conformitate",
           "footerSupport": "Asistență",
           "emailRequired": "Emailul este necesar",
           "emailInvalid": "Introdu o adresă de email validă",
@@ -10565,7 +10565,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/contact"
         },
         {
-          "name": "Säkerhet",
+          "name": "Säkerhet & Efterlevnad",
           "href": "/security"
         },
         {
@@ -10620,9 +10620,9 @@ export const generatedWebsiteMessageOverrides = {
             "color": "red"
           },
           {
-            "value": "72 timmar",
+            "value": "72 timmar+",
             "label": "För att stänga böcker",
-            "supporting": "Medan marginalförlusterna ökar dagligen",
+            "supporting": "Och ofta tar det längre än tre dagar",
             "color": "amber"
           },
           {
@@ -10896,7 +10896,7 @@ export const generatedWebsiteMessageOverrides = {
           ],
           "footerTerms": "Villkor",
           "footerPrivacy": "Integritet",
-          "footerSecurity": "Säkerhet",
+          "footerSecurity": "Säkerhet & Efterlevnad",
           "footerSupport": "Support",
           "emailRequired": "E-post krävs",
           "emailInvalid": "Ange en giltig e-postadress",
@@ -11307,7 +11307,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/contact"
         },
         {
-          "name": "নিরাপত্তা",
+          "name": "নিরাপত্তা ও সম্মতি",
           "href": "/security"
         },
         {
@@ -11362,9 +11362,9 @@ export const generatedWebsiteMessageOverrides = {
             "color": "red"
           },
           {
-            "value": "৭২ ঘণ্টা",
+            "value": "৭২ ঘণ্টা+",
             "label": "বই বন্ধ করতে",
-            "supporting": "যখন মার্জিন লিক প্রতিদিন বাড়ছে",
+            "supporting": "আর প্রায়ই তিন দিনের বেশি সময় লাগে",
             "color": "amber"
           },
           {
@@ -11638,7 +11638,7 @@ export const generatedWebsiteMessageOverrides = {
           ],
           "footerTerms": "শর্তাবলী",
           "footerPrivacy": "গোপনীয়তা",
-          "footerSecurity": "নিরাপত্তা",
+          "footerSecurity": "নিরাপত্তা ও সম্মতি",
           "footerSupport": "সমর্থন",
           "emailRequired": "ইমেইল প্রয়োজন",
           "emailInvalid": "একটি বৈধ ইমেইল ঠিকানা প্রবেশ করুন",
@@ -12049,7 +12049,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/contact"
         },
         {
-          "name": "ความปลอดภัย",
+          "name": "ความปลอดภัยและการปฏิบัติตามข้อกำหนด",
           "href": "/security"
         },
         {
@@ -12104,9 +12104,9 @@ export const generatedWebsiteMessageOverrides = {
             "color": "red"
           },
           {
-            "value": "72ชม.",
+            "value": "72ชม.+",
             "label": "เพื่อปิดบัญชี",
-            "supporting": "ในขณะที่การรั่วไหลของกำไรเพิ่มขึ้นทุกวัน",
+            "supporting": "และบ่อยครั้งใช้เวลานานกว่าสามวัน",
             "color": "amber"
           },
           {
@@ -12380,7 +12380,7 @@ export const generatedWebsiteMessageOverrides = {
           ],
           "footerTerms": "ข้อกำหนด",
           "footerPrivacy": "ความเป็นส่วนตัว",
-          "footerSecurity": "ความปลอดภัย",
+          "footerSecurity": "ความปลอดภัยและการปฏิบัติตามข้อกำหนด",
           "footerSupport": "การสนับสนุน",
           "emailRequired": "ต้องกรอกอีเมล",
           "emailInvalid": "กรอกอีเมลที่ถูกต้อง",
@@ -12791,7 +12791,7 @@ export const generatedWebsiteMessageOverrides = {
           "href": "/contact"
         },
         {
-          "name": "Keselamatan",
+          "name": "Keselamatan & Pematuhan",
           "href": "/security"
         },
         {
@@ -12846,9 +12846,9 @@ export const generatedWebsiteMessageOverrides = {
             "color": "red"
           },
           {
-            "value": "72jam",
+            "value": "72jam+",
             "label": "Untuk menutup buku",
-            "supporting": "Sementara kebocoran margin bertambah setiap hari",
+            "supporting": "Dan selalunya mengambil masa lebih daripada tiga hari",
             "color": "amber"
           },
           {
@@ -13122,7 +13122,7 @@ export const generatedWebsiteMessageOverrides = {
           ],
           "footerTerms": "Terma",
           "footerPrivacy": "Privasi",
-          "footerSecurity": "Keselamatan",
+          "footerSecurity": "Keselamatan & Pematuhan",
           "footerSupport": "Sokongan",
           "emailRequired": "Emel diperlukan",
           "emailInvalid": "Masukkan alamat emel yang sah",
