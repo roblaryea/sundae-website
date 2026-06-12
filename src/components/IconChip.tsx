@@ -16,7 +16,7 @@ const sizeMap: Record<NonNullable<IconChipProps["size"]>, { container: string; i
 
 const variantMap: Record<NonNullable<IconChipProps["variant"]>, string> = {
  default: "bg-slate-100 text-slate-700",
- primary: "bg-blue-100 text-blue-700",
+ primary: "bg-[#FFEAE4] text-[#C2410C]",
  success: "bg-green-100 text-green-700",
  warning: "bg-amber-100 text-amber-700",
  danger: "bg-red-100 text-red-700",
@@ -43,10 +43,10 @@ interface GradientIconChipProps {
 }
 
 const gradientMap: Record<NonNullable<GradientIconChipProps["gradient"]>, string> = {
- blue: "bg-gradient-to-br from-blue-600 to-blue-700",
+ blue: "bg-gradient-to-br from-[#FF5C4D] to-[#E03E48]",
  green: "bg-gradient-to-br from-green-500 to-green-600",
  orange: "bg-gradient-to-br from-orange-500 to-red-500",
- purple: "bg-gradient-to-br from-purple-500 to-purple-600",
+ purple: "bg-gradient-to-br from-[#F2B45C] to-[#C2410C]",
 };
 
 export function GradientIconChip({ icon, gradient = "blue", size = "md" }: GradientIconChipProps) {

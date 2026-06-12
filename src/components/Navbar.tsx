@@ -11,7 +11,6 @@ import { useCta } from '@/lib/cta';
 import { PRICING_URL } from '@/lib/links';
 import { REPORT_APP_URL, SIGNUP_URL } from '@/lib/urls';
 import { ThemeToggle } from './ui/ThemeToggle';
-import { useTheme } from './ui/ThemeProvider';
 import { useWebsiteI18n } from './i18n/LocaleProvider';
 import { LocaleSwitcher } from './i18n/LocaleSwitcher';
 import { localizeWebsiteHref } from '@/lib/i18n';
@@ -63,7 +62,7 @@ const AccordionSection = ({ title, id, isExpanded, onToggle, children }: Accordi
         type="button"
         id={headerId}
         onClick={onToggle}
-        className="w-full flex items-center justify-between py-3 px-4 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-blue-500"
+        className="w-full flex items-center justify-between py-3 px-4 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-[#FF5C4D]"
         aria-expanded={isExpanded}
         aria-controls={contentId}
       >
@@ -106,7 +105,7 @@ const MobileNavLink = ({ href, children, onClick, isHighlighted = false, dataAtt
     onClick={onClick}
     className={`block py-2.5 px-4 text-sm font-medium transition-colors duration-150 ${
       isHighlighted
-        ? 'text-[#60A5FA] hover:bg-[var(--surface-hover)]'
+        ? 'text-[#FF8473] hover:bg-[var(--surface-hover)]'
         : 'text-[var(--text-secondary)] hover:bg-[var(--surface-hover)]'
     }`}
     {...dataAttributes}
@@ -119,8 +118,8 @@ const Navbar = () => {
   const { locale, messages } = useWebsiteI18n();
   const nav = messages.navbar;
   const cta = useCta();
-  const { theme } = useTheme();
-  const logoSrc = theme === 'light' ? '/logos/sundae-wordmark.svg' : '/logos/sundae-wordmark-white.svg';
+  // Wordmark is CSS theme-swapped in the markup below (driven by the .light class,
+  // which is set before hydration) - no JS state, so no flash and no stale-src caching.
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
@@ -225,12 +224,13 @@ const Navbar = () => {
           {/* Logo - Left Aligned with Animation */}
           <Link href={localizeHref('/')} className="flex items-center group">
             <div className="relative">
+              {/* dark-mode wordmark (white letters) */}
               <Image
-                src={logoSrc}
-                alt="Sundae – Decision Intelligence for Restaurants"
+                src="/logos/sundae-wordmark-white.svg"
+                alt="Sundae - Decision Intelligence for Restaurants"
                 width={160}
                 height={46}
-                className={`transition-all duration-300 ${
+                className={`block [html.light_&]:hidden transition-all duration-300 ${
                   isLogoHovered ? 'opacity-85' : 'opacity-100'
                 }`}
                 style={{ height: '46px', width: 'auto' }}
@@ -238,7 +238,21 @@ const Navbar = () => {
                 onMouseLeave={() => setIsLogoHovered(false)}
                 priority
               />
-              {/* Subtle shimmer effect on hover — theme-aware via --shape-tint */}
+              {/* light-mode wordmark (warm ink letters) */}
+              <Image
+                src="/logos/sundae-wordmark.svg"
+                alt="Sundae - Decision Intelligence for Restaurants"
+                width={160}
+                height={46}
+                className={`hidden [html.light_&]:block transition-all duration-300 ${
+                  isLogoHovered ? 'opacity-85' : 'opacity-100'
+                }`}
+                style={{ height: '46px', width: 'auto' }}
+                onMouseEnter={() => setIsLogoHovered(true)}
+                onMouseLeave={() => setIsLogoHovered(false)}
+                priority
+              />
+              {/* Subtle shimmer effect on hover - theme-aware via --shape-tint */}
               <div
                 style={{ background: 'linear-gradient(to right, transparent, color-mix(in srgb, var(--shape-tint) 20%, transparent), transparent)' }}
                 className={`absolute inset-0 transition-all duration-600 ease-out ${
@@ -248,7 +262,7 @@ const Navbar = () => {
             </div>
           </Link>
 
-          {/* Desktop Navigation — tighter spacing (space-x-6) so the right-side
+          {/* Desktop Navigation - tighter spacing (space-x-6) so the right-side
               CTA cluster doesn't collide with the Resources dropdown at narrow
               widths; min-w-0 lets the row shrink instead of overflow */}
           <div className="hidden xl:flex items-center space-x-5 min-w-0 whitespace-nowrap">
@@ -463,7 +477,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* CTA Buttons — flex-shrink-0 + ml-6 so they don't collide with the
+          {/* CTA Buttons - flex-shrink-0 + ml-6 so they don't collide with the
               nav links section; whitespace-nowrap on every button so
               "Sign In" / "Book a Demo" stay on one line at all widths */}
           <div className="hidden xl:flex items-center space-x-2.5 flex-shrink-0 ml-4">
@@ -495,7 +509,7 @@ const Navbar = () => {
           <div className="xl:hidden flex items-center gap-2">
             <button
               type="button"
-              className="inline-flex items-center justify-center p-2 rounded-lg text-[var(--text-primary)] hover:bg-[var(--surface-hover)] focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 relative z-50"
+              className="inline-flex items-center justify-center p-2 rounded-lg text-[var(--text-primary)] hover:bg-[var(--surface-hover)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF5C4D] relative z-50"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               aria-label={isMenuOpen ? nav.closeMenu : nav.openMenu}
               aria-expanded={isMenuOpen}
@@ -559,16 +573,25 @@ const Navbar = () => {
           {/* Drawer Header with Close Button */}
           <div className="flex items-center justify-between px-4 py-4 border-b border-[var(--border-default)] flex-shrink-0">
             <Image
-              src={logoSrc}
+              src="/logos/sundae-wordmark-white.svg"
               alt="Sundae"
               width={130}
               height={38}
+              className="block [html.light_&]:hidden"
+              style={{ height: '36px', width: 'auto' }}
+            />
+            <Image
+              src="/logos/sundae-wordmark.svg"
+              alt="Sundae"
+              width={130}
+              height={38}
+              className="hidden [html.light_&]:block"
               style={{ height: '36px', width: 'auto' }}
             />
             <button
               type="button"
               onClick={() => setIsMenuOpen(false)}
-              className="p-2 rounded-lg hover:bg-[var(--surface-hover)] transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+              className="p-2 rounded-lg hover:bg-[var(--surface-hover)] transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF5C4D]"
               aria-label={nav.closeNavigation}
             >
               <svg
@@ -628,7 +651,7 @@ const Navbar = () => {
               <a
                 href={SIGNUP_URL}
                 onClick={handleMobileNavClick}
-                className="block py-2.5 px-4 text-sm font-medium transition-colors duration-150 text-[#60A5FA] hover:bg-[var(--surface-hover)]"
+                className="block py-2.5 px-4 text-sm font-medium transition-colors duration-150 text-[#FF8473] hover:bg-[var(--surface-hover)]"
               >
                 {nav.startFree}
               </a>

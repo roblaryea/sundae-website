@@ -53,14 +53,14 @@ export function DiagnosticGenerating({ name, locale }: DiagnosticGeneratingProps
           animate={{ opacity: 1, y: 0 }}
           className="text-center mb-10"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[var(--electric-blue)]/12 border border-[var(--electric-blue)]/30 mb-6">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[var(--warm-coral)]/12 border border-[var(--warm-coral)]/30 mb-6">
             <motion.span
               animate={{ rotate: 360 }}
               transition={{ duration: 2, repeat: Infinity, ease: 'linear' }}
             >
-              <Sparkles className="w-3.5 h-3.5 text-[var(--electric-blue)]" />
+              <Sparkles className="w-3.5 h-3.5 text-[var(--warm-coral)]" />
             </motion.span>
-            <span className="text-[11px] font-bold uppercase tracking-[0.16em] text-[var(--electric-blue)]">
+            <span className="text-[11px] font-bold uppercase tracking-[0.16em] text-[var(--warm-coral)]">
               {copy.generating.eyebrow}
             </span>
           </div>
@@ -94,7 +94,7 @@ export function DiagnosticGenerating({ name, locale }: DiagnosticGeneratingProps
                         <motion.div
                           animate={{ rotate: 360 }}
                           transition={{ duration: 1, repeat: Infinity, ease: 'linear' }}
-                          className="w-5 h-5 border-2 border-[var(--electric-blue)] border-t-transparent rounded-full"
+                          className="w-5 h-5 border-2 border-[var(--warm-coral)] border-t-transparent rounded-full"
                         />
                       )}
                       {status === 'pending' && (

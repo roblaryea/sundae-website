@@ -195,7 +195,7 @@ Resultado: los operadores tienen más datos que nunca, pero menos inteligencia a
 
 Sundae proporciona una infraestructura de datos unificada diseñada específicamente para operaciones de restaurantes con múltiples ubicaciones:
 
-**Normalización automática**: Sundae Scout se conecta a todos los sistemas y normaliza automáticamente los datos entre distintos formatos y esquemas. No se requiere trabajo de integración a medida.
+**Normalización automática**: Sundae Core se conecta a todos los sistemas y normaliza automáticamente los datos entre distintos formatos y esquemas. No se requiere trabajo de integración a medida.
 
 **Fuente única de verdad**: Sundae Core ofrece una vista unificada de la operación, eliminando cifras contradictorias y la reconciliación manual.
 

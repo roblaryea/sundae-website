@@ -1,5 +1,5 @@
 /**
- * CTA submission endpoint — receives lead-capture form submissions from
+ * CTA submission endpoint - receives lead-capture form submissions from
  * the marketing site and forwards them to the Sundae backend at
  * POST /api/v1/public/marketing/leads (HMAC-signed).
  *

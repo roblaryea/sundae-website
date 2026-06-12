@@ -3,7 +3,7 @@
 /**
  * App-styled, shareable diagnostic report. Renders as a self-contained
  * full-viewport surface (fixed inset-0) so it reads like an in-product Sundae
- * screen — independent of the marketing site's chrome/theme — with a frozen
+ * screen - independent of the marketing site's chrome/theme - with a frozen
  * section rail, an internally-scrolling report canvas, working light/dark, and
  * collapsible sections that the rail can open + scroll to.
  */
@@ -36,12 +36,12 @@ export type DiagnosticReport = {
 const BAND = {
   light: {
     high: "bg-red-50 text-red-600 border-red-200",
-    medium: "bg-blue-50 text-blue-600 border-blue-200",
+    medium: "bg-[#FF5C4D]/10 text-[#C2410C] border-[#FF5C4D]/30",
     low: "bg-gray-100 text-gray-500 border-gray-200",
   },
   dark: {
     high: "bg-red-500/15 text-red-300 border-red-500/30",
-    medium: "bg-blue-500/15 text-blue-300 border-blue-500/30",
+    medium: "bg-[#FF5C4D]/15 text-[#FF8473] border-[#FF5C4D]/30",
     low: "bg-white/5 text-slate-400 border-white/10",
   },
 };
@@ -56,7 +56,7 @@ function Section({
     <section id={id} className="scroll-mt-4">
       <div className={`rounded-2xl border overflow-hidden transition-colors ${dark ? "border-white/10 bg-white/[0.02]" : "border-gray-200 bg-white"}`}>
         <button onClick={onToggle} className="w-full flex items-center gap-3 px-5 py-4 text-left" aria-expanded={open}>
-          <span className={`grid place-items-center w-9 h-9 rounded-lg ${dark ? "bg-blue-500/15 text-blue-300" : "bg-blue-50 text-blue-600"}`}>
+          <span className={`grid place-items-center w-9 h-9 rounded-lg ${dark ? "bg-[#FF5C4D]/15 text-[#FF8473]" : "bg-[#FF5C4D]/10 text-[#C2410C]"}`}>
             <Icon className="w-4 h-4" />
           </span>
           <span className="min-w-0 flex-1">
@@ -127,8 +127,8 @@ export function DiagnosticReportView({
       <header className={`shrink-0 border-b ${dark ? "bg-[#020617] border-white/10" : "bg-white border-gray-200"}`}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between gap-4">
           <div className="flex items-center gap-2.5 min-w-0">
-            <span className="text-lg font-extrabold tracking-tight">sundae<span className="text-blue-500">.</span></span>
-            <span className={`hidden sm:inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wider px-2 py-1 rounded-full ${dark ? "bg-blue-500/15 text-blue-300" : "bg-blue-50 text-blue-600"}`}>
+            <span className="text-lg font-extrabold tracking-tight">sundae<span className="text-[#FF5C4D]">.</span></span>
+            <span className={`hidden sm:inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wider px-2 py-1 rounded-full ${dark ? "bg-[#FF5C4D]/15 text-[#FF8473]" : "bg-[#FF5C4D]/10 text-[#C2410C]"}`}>
               <Sparkles className="w-3 h-3" /> {copy.share.title}
             </span>
           </div>
@@ -157,7 +157,7 @@ export function DiagnosticReportView({
           ))}
           <a
             href="https://www.sundae.io/contact"
-            className="mt-3 flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold transition-colors"
+            className="mt-3 flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-lg bg-[#FF5C4D] hover:bg-[#C2410C] text-white text-sm font-semibold transition-colors"
           >
             {copy.share.book} <ArrowUpRight className="w-3.5 h-3.5" />
           </a>
@@ -174,10 +174,10 @@ export function DiagnosticReportView({
 
           {/* Summary (always open) */}
           <section id="summary" className="scroll-mt-4">
-            <div className={`rounded-2xl border p-5 ${dark ? "border-white/10 bg-gradient-to-br from-blue-500/[0.07] to-transparent" : "border-gray-200 bg-white"}`}>
+            <div className={`rounded-2xl border p-5 ${dark ? "border-white/10 bg-gradient-to-br from-[#FF5C4D]/[0.07] to-transparent" : "border-gray-200 bg-white"}`}>
               <p className={`text-[15px] leading-relaxed ${dark ? "text-slate-200" : "text-gray-700"}`}>{report.summary}</p>
               <div className={`mt-4 pt-4 border-t flex flex-wrap items-center gap-2 ${rule}`}>
-                <Target className={`w-4 h-4 ${dark ? "text-blue-300" : "text-blue-600"}`} />
+                <Target className={`w-4 h-4 ${dark ? "text-[#FF8473]" : "text-[#C2410C]"}`} />
                 <span className={`text-xs font-semibold uppercase tracking-wider ${muted}`}>{copy.share.recommendedTier}</span>
                 <span className={`text-sm font-bold ${heading}`}>{report.tierFit}</span>
               </div>
@@ -216,7 +216,7 @@ export function DiagnosticReportView({
             <div className="space-y-3 mt-1">
               {report.recommendedStack.map((s, i) => (
                 <div key={i} className={`pb-3 ${i < report.recommendedStack.length - 1 ? `border-b ${rule}` : ""}`}>
-                  <p className={`text-sm font-bold ${dark ? "text-blue-300" : "text-blue-700"}`}>{s.label}</p>
+                  <p className={`text-sm font-bold ${dark ? "text-[#FF8473]" : "text-[#C2410C]"}`}>{s.label}</p>
                   <p className={`text-sm mt-0.5 ${body}`}>{s.why}</p>
                   {s.detail && <p className={`text-xs mt-1 ${muted}`}>{s.detail}</p>}
                 </div>
@@ -228,7 +228,7 @@ export function DiagnosticReportView({
             <div className="space-y-3 mt-1">
               {report.quickWins.map((w, i) => (
                 <div key={i} className="flex gap-3">
-                  <span className={`shrink-0 inline-flex h-7 min-w-[2.75rem] items-center justify-center rounded-full text-xs font-bold px-2 ${dark ? "bg-blue-500/15 text-blue-300" : "bg-blue-50 text-blue-700"}`}>{w.horizon}d</span>
+                  <span className={`shrink-0 inline-flex h-7 min-w-[2.75rem] items-center justify-center rounded-full text-xs font-bold px-2 ${dark ? "bg-[#FF5C4D]/15 text-[#FF8473]" : "bg-[#FF5C4D]/10 text-[#C2410C]"}`}>{w.horizon}d</span>
                   <div className="min-w-0">
                     <p className={`text-sm font-semibold ${heading}`}>{w.title}</p>
                     <p className={`text-sm mt-0.5 ${body}`}>{w.detail}</p>
@@ -249,7 +249,7 @@ export function DiagnosticReportView({
                   <div key={c.label} className={`rounded-xl border p-3.5 ${dark ? "border-white/10 bg-white/[0.02]" : "border-gray-200 bg-gray-50"}`}>
                     <p className={`text-[11px] font-bold uppercase tracking-wide ${muted}`}>{c.label}</p>
                     <p className={`text-base font-bold mt-1 ${heading}`}>{c.value}</p>
-                    {c.sub && <p className={`text-xs font-semibold mt-0.5 ${dark ? "text-blue-300" : "text-blue-700"}`}>{c.sub}</p>}
+                    {c.sub && <p className={`text-xs font-semibold mt-0.5 ${dark ? "text-[#FF8473]" : "text-[#C2410C]"}`}>{c.sub}</p>}
                     <p className={`text-[11px] mt-1.5 ${muted}`}>{c.basis}</p>
                   </div>
                 ))}
@@ -270,10 +270,10 @@ export function DiagnosticReportView({
             </Section>
           )}
 
-          {/* Footer CTA — mobile only (the frozen rail carries it on desktop, so it never duplicates) */}
+          {/* Footer CTA - mobile only (the frozen rail carries it on desktop, so it never duplicates) */}
           <div className={`lg:hidden rounded-2xl border p-5 text-center ${dark ? "border-white/10 bg-white/[0.02]" : "border-gray-200 bg-white"}`}>
             <p className={`text-sm ${body}`}>{copy.share.mobileCta}</p>
-            <a href="https://www.sundae.io/contact" className="inline-flex items-center gap-1.5 mt-3 px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-sm font-bold transition-colors">
+            <a href="https://www.sundae.io/contact" className="inline-flex items-center gap-1.5 mt-3 px-5 py-2.5 rounded-xl bg-[#FF5C4D] hover:bg-[#C2410C] text-white text-sm font-bold transition-colors">
               {copy.share.book} <ArrowUpRight className="w-4 h-4" />
             </a>
           </div>

@@ -14,7 +14,7 @@ interface KPICardProps {
 }
 
 const colorMap = {
-  blue: "text-[#1C47FF]",
+  blue: "text-[#FF5C4D]",
   green: "text-[#22C55E]",
   amber: "text-[#FBBF24]",
   red: "text-[#FF5450]",

@@ -39,6 +39,9 @@ const provenanceFiles = [
 const localizedCopyExports = [
   { relativePath: 'src/components/home/heroDashboardCopy.ts', exportName: 'heroDashboardCopy' },
   { relativePath: 'src/components/home/sections/editorialCopy.ts', exportName: 'editorialCopy' },
+  { relativePath: 'src/components/home/sections/creamReliefCopy.ts', exportName: 'creamReliefCopy' },
+  { relativePath: 'src/components/home/sections/productPreviewCopy.ts', exportName: 'productPreviewCopy' },
+  { relativePath: 'src/components/home/closerCopy.ts', exportName: 'closerLineCopy' },
 ]
 
 const structuralKeys = new Set([
@@ -64,6 +67,8 @@ const structuralKeys = new Set([
 const allowedIdenticalLocalizedStrings = new Set([
   'Sundae',
   'Sundae Coach',
+  // Product lockup kept untranslated across every locale (wordmark/glossary discipline).
+  'Sundae Intelligence',
   'Pulse',
   'P&L',
   'NPS',
@@ -72,6 +77,12 @@ const allowedIdenticalLocalizedStrings = new Set([
   'Service',
   'Marketing',
   'Upsell',
+  // Loanwords / international business terms that render identically to English in
+  // multiple target languages (the native, idiomatic form an operator there uses).
+  'Executive Summary',
+  'Delivery',
+  'Regional',
+  'Margin',
 ])
 
 const protectedTerms = [
@@ -82,8 +93,6 @@ const protectedTerms = [
   'Pulse',
   'Watchtower',
   'Foresight',
-  'Scout',
-  'Canvas',
   'Cross-Intelligence',
   'Report Lite',
   'Report Plus',

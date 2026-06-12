@@ -53,7 +53,7 @@ interface MockupKPIProps {
   color?: string;
 }
 
-export function MockupKPI({ label, value, trend, trendUp, color = "#1C47FF" }: MockupKPIProps) {
+export function MockupKPI({ label, value, trend, trendUp, color = "#FF5C4D" }: MockupKPIProps) {
   return (
     <div className="bg-white/[0.03] rounded-lg p-2.5 sm:p-3.5 lg:p-4 border border-[var(--border-default)] min-w-0 overflow-hidden">
       <div className="text-[9px] sm:text-[11px] text-[var(--text-muted)] uppercase tracking-wider mb-1 truncate">{label}</div>
@@ -94,7 +94,7 @@ export function MockupPaceBar({ label, current, target, unit = "" }: MockupPaceB
             width: `${pct}%`,
             background: isAhead
               ? "linear-gradient(90deg, #22C55E, #16A34A)"
-              : "linear-gradient(90deg, #1C47FF, #3B82F6)",
+              : "linear-gradient(90deg, #FF5C4D, #E9A24A)",
           }}
         />
       </div>
@@ -119,7 +119,7 @@ export function MockupBarChart({ data, maxHeight = 80 }: MockupBarChartProps) {
             className="w-full rounded-t-sm min-h-[4px] transition-all duration-700"
             style={{
               height: `${(d.value / max) * maxHeight * 0.85}px`,
-              background: d.color || "linear-gradient(180deg, #1C47FF, #0A1E8C)",
+              background: d.color || "linear-gradient(180deg, #FF5C4D, #C2410C)",
             }}
           />
           <span className="text-[9px] text-[var(--text-muted)] truncate w-full text-center">{d.label}</span>
@@ -165,10 +165,10 @@ interface MockupAlertProps {
 }
 
 const alertColors = {
-  info: { border: "#1C47FF", bg: "rgba(28,71,255,0.08)", icon: "ℹ" },
+  info: { border: "#FF5C4D", bg: "rgba(255,92,77,0.08)", icon: "ℹ" },
   warning: { border: "#F59E0B", bg: "rgba(245,158,11,0.08)", icon: "⚠" },
   critical: { border: "#DC2626", bg: "rgba(220,38,38,0.08)", icon: "●" },
-  coach: { border: "#1C47FF", bg: "rgba(28,71,255,0.06)", icon: "💡" },
+  coach: { border: "#FF5C4D", bg: "rgba(255,92,77,0.06)", icon: "💡" },
 };
 
 export function MockupAlert({ type = "info", children }: MockupAlertProps) {
@@ -200,10 +200,10 @@ export function MockupLiveDot({ className = "" }: { className?: string }) {
 
 /* ─── Pre-built Dashboard Presets ─── */
 
-// Pulse Dashboard — the hero mockup
+// Pulse Dashboard - the hero mockup
 export function PulseDashboardMockup() {
   const { locale } = useWebsiteI18n();
-  const label = locale === "ar" ? "Pulse — وتيرة المبيعات" : locale === "fr" ? "Pulse - Rythme des ventes" : locale === "es" ? "Pulse - Ritmo de ventas" : "Pulse — Sales Pacing";
+  const label = locale === "ar" ? "Pulse - وتيرة المبيعات" : locale === "fr" ? "Pulse - Rythme des ventes" : locale === "es" ? "Pulse - Ritmo de ventas" : "Pulse - Sales Pacing";
   const live = locale === "ar" ? "مباشر" : locale === "fr" ? "EN DIRECT" : locale === "es" ? "EN VIVO" : "LIVE";
   const updatedAt = locale === "ar" ? "الثلاثاء، 7:42 مساءً" : locale === "fr" ? "Mardi, 19:42" : locale === "es" ? "Martes, 7:42 PM" : "Tuesday, 7:42 PM";
   const revenue = locale === "ar" ? "الايراد" : locale === "fr" ? "Revenu" : locale === "es" ? "Ingresos" : "Revenue";
@@ -265,22 +265,22 @@ export function PulseDashboardMockup() {
 // Benchmark Dashboard
 export function BenchmarkDashboardMockup() {
   return (
-    <MockupFrame label="Benchmarks — Competitive Position">
+    <MockupFrame label="Benchmarks - Competitive Position">
       <div className="space-y-4">
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
           <MockupKPI label="RevPASH Index" value="112" trend="12% above peers" trendUp color="#22C55E" />
-          <MockupKPI label="Seat Occupancy" value="74%" trend="vs 68% market" trendUp color="#1C47FF" />
+          <MockupKPI label="Seat Occupancy" value="74%" trend="vs 68% market" trendUp color="#FF5C4D" />
           <MockupKPI label="Avg Check Index" value="98" trend="2% below peers" trendUp={false} color="#FBBF24" />
         </div>
         <MockupBarChart
           data={[
-            { label: "Mon", value: 65, color: "#1C47FF" },
-            { label: "Tue", value: 78, color: "#1C47FF" },
+            { label: "Mon", value: 65, color: "#FF5C4D" },
+            { label: "Tue", value: 78, color: "#FF5C4D" },
             { label: "Wed", value: 82, color: "#22C55E" },
             { label: "Thu", value: 91, color: "#22C55E" },
             { label: "Fri", value: 110, color: "#22C55E" },
             { label: "Sat", value: 105, color: "#22C55E" },
-            { label: "Sun", value: 72, color: "#1C47FF" },
+            { label: "Sun", value: 72, color: "#FF5C4D" },
           ]}
         />
       </div>
@@ -291,7 +291,7 @@ export function BenchmarkDashboardMockup() {
 // Watchtower Command Center
 export function WatchtowerMockup() {
   return (
-    <MockupFrame label="Watchtower — Market Intelligence">
+    <MockupFrame label="Watchtower - Market Intelligence">
       <div className="space-y-4">
         <div className="flex items-center justify-between">
           <MockupLiveDot />
@@ -305,7 +305,7 @@ export function WatchtowerMockup() {
         </div>
 
         <MockupAlert type="warning">
-          Competitor &quot;Noma 2.0&quot; dropped lunch prices 15% — 0.3 mi away. Your footfall may shift.
+          Competitor &quot;Noma 2.0&quot; dropped lunch prices 15% - 0.3 mi away. Your footfall may shift.
         </MockupAlert>
 
         <MockupTable
@@ -337,13 +337,13 @@ export function InsightsModuleMockup() {
   ];
 
   return (
-    <MockupFrame label="Insights — 12 Intelligence Modules">
+    <MockupFrame label="Insights - 12 Intelligence Modules">
       <div className="space-y-4">
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
           {modules.map((m) => (
             <div key={m.name} className="bg-white/[0.03] rounded-lg p-3 border border-[var(--border-default)]">
               <div className="text-[9px] text-[var(--text-muted)] uppercase tracking-wider">{m.name}</div>
-              <div className="text-lg font-bold font-mono text-[#1C47FF]">{m.value}</div>
+              <div className="text-lg font-bold font-mono text-[#FF5C4D]">{m.value}</div>
               <div className="text-[10px] text-[#22C55E]">▲ {m.trend}</div>
             </div>
           ))}
@@ -360,11 +360,11 @@ export function InsightsModuleMockup() {
 // Intelligence Chat Interface
 export function IntelligenceChatMockup() {
   return (
-    <MockupFrame label="Sundae Intelligence — Chat">
+    <MockupFrame label="Sundae Intelligence - Chat">
       <div className="space-y-3">
         {/* User message */}
         <div className="flex justify-end">
-          <div className="bg-[#1C47FF]/20 border border-[#1C47FF]/30 rounded-xl rounded-br-sm px-3 py-2 max-w-[75%]">
+          <div className="bg-[#FF5C4D]/20 border border-[#FF5C4D]/30 rounded-xl rounded-br-sm px-3 py-2 max-w-[75%]">
             <p className="text-[12px] text-[var(--text-secondary)]">
               What was my best performing outlet last week and why?
             </p>
@@ -375,7 +375,7 @@ export function IntelligenceChatMockup() {
         <div className="flex justify-start">
           <div className="bg-white/[0.04] border border-[var(--border-default)] rounded-xl rounded-bl-sm px-3 py-2.5 max-w-[85%]">
             <p className="text-[12px] text-[var(--text-secondary)] leading-relaxed">
-              <span className="text-[#1C47FF] font-semibold">Downtown</span> led with <span className="font-mono text-[#22C55E]">$127K</span> revenue (+14% WoW). Key drivers:
+              <span className="text-[#FF5C4D] font-semibold">Downtown</span> led with <span className="font-mono text-[#22C55E]">$127K</span> revenue (+14% WoW). Key drivers:
             </p>
             <ul className="text-[11px] text-[var(--text-muted)] mt-1.5 space-y-0.5 pl-3">
               <li>• Avg check up $4.20 from new prix fixe</li>
@@ -387,7 +387,7 @@ export function IntelligenceChatMockup() {
 
         {/* Follow-up */}
         <div className="flex justify-end">
-          <div className="bg-[#1C47FF]/20 border border-[#1C47FF]/30 rounded-xl rounded-br-sm px-3 py-2 max-w-[75%]">
+          <div className="bg-[#FF5C4D]/20 border border-[#FF5C4D]/30 rounded-xl rounded-br-sm px-3 py-2 max-w-[75%]">
             <p className="text-[12px] text-[var(--text-secondary)]">
               Replicate that prix fixe across all outlets?
             </p>
@@ -412,7 +412,7 @@ export function IntelligenceChatMockup() {
 // Revenue Assurance Dashboard
 export function RevenueAssuranceMockup() {
   return (
-    <MockupFrame label="Revenue Assurance — Leakage Detection">
+    <MockupFrame label="Revenue Assurance - Leakage Detection">
       <div className="space-y-4">
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
           <MockupKPI label="Total Leakage" value="$2,630" color="#FF5450" />
@@ -429,7 +429,7 @@ export function RevenueAssuranceMockup() {
           ]}
         />
         <MockupAlert type="critical">
-          James K. has 5 exceptions this shift — 3x the team average. Review recommended.
+          James K. has 5 exceptions this shift - 3x the team average. Review recommended.
         </MockupAlert>
       </div>
     </MockupFrame>
@@ -440,7 +440,7 @@ export function RevenueAssuranceMockup() {
 
 export function ForesightDashboardMockup() {
   return (
-    <MockupFrame label="Foresight — 14-Day Revenue Forecast">
+    <MockupFrame label="Foresight - 14-Day Revenue Forecast">
       <div className="space-y-4">
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
           <MockupKPI label="Forecast Revenue" value="$248K" trend="+6.2% vs last period" trendUp />
@@ -455,9 +455,9 @@ export function ForesightDashboardMockup() {
             <div className="absolute inset-0 flex items-end">
               <svg viewBox="0 0 200 60" className="w-full h-full" preserveAspectRatio="none">
                 {/* Confidence fill */}
-                <path d="M0,40 L15,38 L30,35 L45,32 L60,30 L75,28 L90,25 L105,22 L120,20 L135,18 L150,22 L165,25 L180,20 L200,18 L200,50 L180,42 L165,45 L150,44 L135,38 L120,40 L105,42 L90,45 L75,48 L60,50 L45,50 L30,52 L15,52 L0,54 Z" fill="rgba(28,71,255,0.12)" />
+                <path d="M0,40 L15,38 L30,35 L45,32 L60,30 L75,28 L90,25 L105,22 L120,20 L135,18 L150,22 L165,25 L180,20 L200,18 L200,50 L180,42 L165,45 L150,44 L135,38 L120,40 L105,42 L90,45 L75,48 L60,50 L45,50 L30,52 L15,52 L0,54 Z" fill="rgba(255,92,77,0.12)" />
                 {/* Forecast line */}
-                <path d="M0,47 L15,45 L30,43 L45,41 L60,40 L75,38 L90,35 L105,32 L120,30 L135,28 L150,33 L165,35 L180,31 L200,28" fill="none" stroke="#1C47FF" strokeWidth="1.5" />
+                <path d="M0,47 L15,45 L30,43 L45,41 L60,40 L75,38 L90,35 L105,32 L120,30 L135,28 L150,33 L165,35 L180,31 L200,28" fill="none" stroke="#FF5C4D" strokeWidth="1.5" />
                 {/* Actual line (past) */}
                 <path d="M0,47 L15,45 L30,43 L45,41 L60,40 L75,38 L90,35" fill="none" stroke="#22C55E" strokeWidth="1.5" strokeDasharray="3,2" />
                 {/* Today marker */}
@@ -468,20 +468,20 @@ export function ForesightDashboardMockup() {
           </div>
           <div className="flex items-center gap-3 text-[9px] text-[var(--text-muted)]">
             <span className="flex items-center gap-1"><span className="w-3 h-0.5 rounded-full bg-[#22C55E]" /> Actual</span>
-            <span className="flex items-center gap-1"><span className="w-3 h-0.5 rounded-full bg-[#1C47FF]" /> Forecast</span>
-            <span className="flex items-center gap-1"><span className="w-3 h-1.5 rounded-sm bg-[rgba(28,71,255,0.12)]" /> Confidence</span>
+            <span className="flex items-center gap-1"><span className="w-3 h-0.5 rounded-full bg-[#FF5C4D]" /> Forecast</span>
+            <span className="flex items-center gap-1"><span className="w-3 h-1.5 rounded-sm bg-[rgba(255,92,77,0.12)]" /> Confidence</span>
           </div>
         </div>
         {/* AI Briefing snippet */}
-        <div className="p-2.5 rounded-lg bg-[rgba(28,71,255,0.06)] border border-[rgba(28,71,255,0.15)]">
+        <div className="p-2.5 rounded-lg bg-[rgba(255,92,77,0.06)] border border-[rgba(255,92,77,0.15)]">
           <div className="flex items-center gap-1.5 mb-1.5">
-            <div className="w-4 h-4 rounded-full bg-[#1C47FF] flex items-center justify-center">
+            <div className="w-4 h-4 rounded-full bg-[#FF5C4D] flex items-center justify-center">
               <span className="text-[8px] text-white font-bold">S</span>
             </div>
             <span className="text-[10px] font-semibold text-[var(--text-secondary)]">Sundae Coach Briefing</span>
           </div>
           <p className="text-[9px] text-[var(--text-supporting)] leading-relaxed">
-            Weekend revenue projected +8% above baseline. Thursday shows 12% downside risk — 2 staff vacations overlap with a local sports event. Consider calling in backup.
+            Weekend revenue projected +8% above baseline. Thursday shows 12% downside risk - 2 staff vacations overlap with a local sports event. Consider calling in backup.
           </p>
         </div>
         <MockupAlert type="info">3 scenarios simulated · Baseline confidence: 91% · Next briefing: Tomorrow 6:00 AM</MockupAlert>
@@ -492,7 +492,7 @@ export function ForesightDashboardMockup() {
 
 export function MarketingPerformanceMockup() {
   return (
-    <MockupFrame label="Marketing Performance — Campaign ROI">
+    <MockupFrame label="Marketing Performance - Campaign ROI">
       <div className="space-y-4">
         <div className="flex items-center justify-between">
           <MockupLiveDot />
@@ -501,7 +501,7 @@ export function MarketingPerformanceMockup() {
 
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
           <MockupKPI label="Blended ROAS" value="4.2x" trend="+0.6 vs LW" trendUp color="#22C55E" />
-          <MockupKPI label="Attributed covers" value="1,840" trend="38% of total" trendUp color="#1C47FF" />
+          <MockupKPI label="Attributed covers" value="1,840" trend="38% of total" trendUp color="#FF5C4D" />
           <MockupKPI label="Cost per cover" value="$2.10" trend="−$0.40 vs LW" trendUp color="#22C55E" />
         </div>
 
@@ -523,11 +523,11 @@ export function MarketingPerformanceMockup() {
   );
 }
 
-/* ─── Revenue Intelligence Mockup (CFO persona — Insights:Revenue) ─── */
+/* ─── Revenue Intelligence Mockup (CFO persona - Insights:Revenue) ─── */
 
 export function RevenueIntelligenceMockup() {
   return (
-    <MockupFrame label="Revenue Intelligence — Portfolio Today">
+    <MockupFrame label="Revenue Intelligence - Portfolio Today">
       <div className="space-y-4">
         <div className="flex items-center justify-between">
           <MockupLiveDot />
@@ -562,7 +562,7 @@ export function RevenueIntelligenceMockup() {
 
 export function LaborOpsMockup() {
   return (
-    <MockupFrame label="Labor — Live Variance">
+    <MockupFrame label="Labor - Live Variance">
       <div className="space-y-4">
         <div className="flex items-center justify-between">
           <MockupLiveDot />
@@ -586,7 +586,7 @@ export function LaborOpsMockup() {
         />
 
         <MockupAlert type="warning">
-          Downtown schedule is 11% above plan for Sat 7–11pm. Reassign 2 covers to Marina staff or trim one shift.
+          Downtown schedule is 11% above plan for Sat 7-11pm. Reassign 2 covers to Marina staff or trim one shift.
         </MockupAlert>
       </div>
     </MockupFrame>
@@ -608,7 +608,7 @@ const INTEGRATIONS_STATUS: Array<[string, "OK" | "Lag 8m" | "OK"]> = [
 
 export function IntegrationsHubMockup() {
   return (
-    <MockupFrame label="Integrations — Data Health">
+    <MockupFrame label="Integrations - Data Health">
       <div className="space-y-4">
         <div className="flex items-center justify-between">
           <MockupLiveDot />
@@ -616,9 +616,9 @@ export function IntegrationsHubMockup() {
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
-          <MockupKPI label="Active sources" value="14" trend="12 domains" trendUp color="#1C47FF" />
+          <MockupKPI label="Active sources" value="14" trend="12 domains" trendUp color="#FF5C4D" />
           <MockupKPI label="Sync rate (7d)" value="99.4%" trend="SLO: 99%" trendUp color="#22C55E" />
-          <MockupKPI label="p95 lag" value="4.2m" color="#1C47FF" />
+          <MockupKPI label="p95 lag" value="4.2m" color="#FF5C4D" />
         </div>
 
         <div className="grid grid-cols-2 gap-2">
@@ -650,12 +650,12 @@ export function IntegrationsHubMockup() {
 
 /* ─── Executive Briefing Mockup (C-Suite persona) ─── */
 /**
- * Premium executive briefing — portfolio rollup + AI daily brief + market signal + forecast.
+ * Premium executive briefing - portfolio rollup + AI daily brief + market signal + forecast.
  * Designed for the C-Suite Executives solution page hero. Not a chat; a synthesized briefing.
  */
 export function ExecutiveBriefingMockup() {
   return (
-    <MockupFrame label="Executive Briefing — Tuesday · 6:42 AM" glow>
+    <MockupFrame label="Executive Briefing - Tuesday · 6:42 AM" glow>
       <div className="space-y-4">
         {/* Live indicator + briefing date */}
         <div className="flex items-center justify-between">
@@ -668,13 +668,13 @@ export function ExecutiveBriefingMockup() {
           <span className="text-[10px] text-[var(--text-muted)] font-mono">Auto-generated</span>
         </div>
 
-        {/* Portfolio rollup — 4 brand KPI tiles */}
+        {/* Portfolio rollup - 4 brand KPI tiles */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
           {[
             { brand: "Brand A", value: "$1.84M", delta: "+4.2%", up: true, color: "#22C55E" },
             { brand: "Brand B", value: "$972K", delta: "+1.8%", up: true, color: "#22C55E" },
             { brand: "Brand C", value: "$614K", delta: "-2.6%", up: false, color: "#FF5450" },
-            { brand: "Brand D", value: "$408K", delta: "+0.9%", up: true, color: "#1C47FF" },
+            { brand: "Brand D", value: "$408K", delta: "+0.9%", up: true, color: "#FF5C4D" },
           ].map((b) => (
             <div key={b.brand} className="bg-white/[0.03] rounded-lg p-2 sm:p-2.5 border border-[var(--border-default)] min-w-0 overflow-hidden">
               <div className="text-[9px] uppercase tracking-wider text-[var(--text-muted)] mb-0.5 truncate">{b.brand}</div>
@@ -686,14 +686,14 @@ export function ExecutiveBriefingMockup() {
           ))}
         </div>
 
-        {/* AI Daily Brief — synthesized executive insight with source pills */}
-        <div className="rounded-lg p-4 border" style={{ background: "linear-gradient(135deg, rgba(28,71,255,0.10), rgba(28,71,255,0.02))", borderColor: "rgba(28,71,255,0.25)" }}>
+        {/* AI Daily Brief - synthesized executive insight with source pills */}
+        <div className="rounded-lg p-4 border" style={{ background: "linear-gradient(135deg, rgba(255,92,77,0.10), rgba(255,92,77,0.02))", borderColor: "rgba(255,92,77,0.25)" }}>
           <div className="flex items-center gap-2 mb-2">
-            <div className="w-5 h-5 rounded bg-gradient-to-br from-[#1C47FF] to-[#3B82F6] flex items-center justify-center text-white text-[8px] font-bold">SI</div>
-            <span className="text-[10px] uppercase tracking-wider text-[#60A5FA] font-bold">Sundae Intelligence · Daily Brief</span>
+            <div className="w-5 h-5 rounded bg-gradient-to-br from-[#FF5C4D] to-[#FF7E6F] flex items-center justify-center text-white text-[8px] font-bold">SI</div>
+            <span className="text-[10px] uppercase tracking-wider text-[#FF8473] font-bold">Sundae Intelligence · Daily Brief</span>
           </div>
           <p className="text-[12px] text-[var(--text-primary)] leading-relaxed">
-            Portfolio net revenue is pacing <span className="font-bold text-[#22C55E]">+2.4% vs forecast</span>, driven by Brand A dine-in strength. <span className="font-bold text-[#FF5450]">Brand C margin compressed 2.6pp</span> on labor over-coverage Mon–Tue; a 2-shift trim recovers ~$8.4K this week.
+            Portfolio net revenue is pacing <span className="font-bold text-[#22C55E]">+2.4% vs forecast</span>, driven by Brand A dine-in strength. <span className="font-bold text-[#FF5450]">Brand C margin compressed 2.6pp</span> on labor over-coverage Mon-Tue; a 2-shift trim recovers ~$8.4K this week.
           </p>
           <div className="flex flex-wrap items-center gap-1.5 mt-3">
             <span className="text-[9px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">Sources:</span>
@@ -731,7 +731,7 @@ export function ExecutiveBriefingMockup() {
  */
 export function CrewDashboardMockup() {
   return (
-    <MockupFrame label="Crew — Today · Downtown" glow>
+    <MockupFrame label="Crew - Today · Downtown" glow>
       <div className="space-y-3 sm:space-y-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
@@ -748,10 +748,10 @@ export function CrewDashboardMockup() {
           <MockupKPI label="On shift" value="28 / 30" trend="2 absences" trendUp={false} color="#FBBF24" />
           <MockupKPI label="On time" value="96.4%" trend="↑ 1.8 WoW" trendUp color="#22C55E" />
           <MockupKPI label="OT this week" value="$612" trend="3 locations" trendUp={false} color="#FF5450" />
-          <MockupKPI label="Payroll cycle" value="Day 18 / 30" trend="On track" trendUp color="#1C47FF" />
+          <MockupKPI label="Payroll cycle" value="Day 18 / 30" trend="On track" trendUp color="#FF5C4D" />
         </div>
 
-        {/* Mini schedule strip — coverage by daypart */}
+        {/* Mini schedule strip - coverage by daypart */}
         <div className="rounded-lg p-3 bg-white/[0.03] border border-[var(--border-default)]">
           <div className="flex items-center justify-between mb-2">
             <span className="text-[10px] uppercase tracking-wider text-[var(--text-muted)] font-semibold">Coverage · today</span>
@@ -766,7 +766,7 @@ export function CrewDashboardMockup() {
                   className="relative"
                   style={{
                     background: isHovered
-                      ? "linear-gradient(180deg, rgba(28,71,255,0.8), rgba(28,71,255,0.5))"
+                      ? "linear-gradient(180deg, rgba(255,92,77,0.8), rgba(255,92,77,0.5))"
                       : "linear-gradient(180deg, rgba(34,197,94,0.5), rgba(34,197,94,0.25))",
                     transform: `scaleY(${h / 100})`,
                     transformOrigin: "bottom",
@@ -781,8 +781,8 @@ export function CrewDashboardMockup() {
         </div>
 
         {/* Activity feed */}
-        <div className="rounded-lg p-3 border-l-2 space-y-1.5" style={{ background: "rgba(28,71,255,0.06)", borderColor: "#1C47FF" }}>
-          <div className="text-[10px] uppercase tracking-wider text-[#60A5FA] font-bold mb-0.5">Sundae Coach · live</div>
+        <div className="rounded-lg p-3 border-l-2 space-y-1.5" style={{ background: "rgba(255,92,77,0.06)", borderColor: "#FF5C4D" }}>
+          <div className="text-[10px] uppercase tracking-wider text-[#FF8473] font-bold mb-0.5">Sundae Coach · live</div>
           <p className="text-[11px] text-[var(--text-primary)] leading-snug">
             <span className="font-semibold">Marcus J.</span> swap requested 2pm shift → <span className="font-semibold">Sarah M.</span> · eligible · auto-approved.
           </p>

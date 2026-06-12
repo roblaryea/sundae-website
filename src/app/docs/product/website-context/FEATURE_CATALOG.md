@@ -1,4 +1,4 @@
-# Sundae — Feature Catalog
+# Sundae - Feature Catalog
 
 > Last refreshed: 2026-05-22 | Source: codebase inspection of UI pages, module tiles, route definitions, and pricing catalogs
 
@@ -15,7 +15,7 @@
 
 ---
 
-## 1. Pulse — Real-Time Operations Center
+## 1. Pulse - Real-Time Operations Center
 
 > Route: `/core/pulse/*` | Permission: `pulse:view`
 
@@ -67,7 +67,7 @@
 
 ---
 
-## 2. Benchmarks — Competitive Intelligence
+## 2. Benchmarks - Competitive Intelligence
 
 > Route: `/core/benchmark/*` | Permission: `dashboards:view`
 
@@ -83,7 +83,7 @@
 
 ---
 
-## 3. Watchtower — External Signal Monitoring
+## 3. Watchtower - External Signal Monitoring
 
 > Route: `/core/watchtower/*` | Permission: `dashboards:view`
 
@@ -111,7 +111,7 @@
 
 ---
 
-## 4. Insights — Intelligence Modules
+## 4. Insights - Intelligence Modules
 
 > Route: `/core/insights/*` | Permission: `dashboards:view`
 
@@ -135,7 +135,7 @@
 
 ---
 
-## 5. Sundae Intelligence — AI-Powered Analytics
+## 5. Sundae Intelligence - AI-Powered Analytics
 
 > Route: `/core/intelligence/*` | Permission: `ai:use`
 
@@ -176,7 +176,7 @@ See [CUSTOMER_FACING_API_AND_INTEGRATIONS.md](./CUSTOMER_FACING_API_AND_INTEGRAT
 
 ---
 
-## 7. Crew — Workforce Operations
+## 7. Crew - Workforce Operations
 
 > Route: `/crew/*`
 
@@ -211,7 +211,7 @@ See [CUSTOMER_FACING_API_AND_INTEGRATIONS.md](./CUSTOMER_FACING_API_AND_INTEGRAT
 | Login | Email/password login | `/login` | Live |
 | Register (User) | Account creation for invited users | `/register` | Live |
 | Register (Organization) | 4-step wizard: Account, Email Verify, Org Setup, Tax Info | `/register-organization` | Live |
-| Onboarding | "Getting Started" — add first restaurant to unlock features | `/onboarding` | Live |
+| Onboarding | "Getting Started" - add first restaurant to unlock features | `/onboarding` | Live |
 | Forgot Password | Password reset via email | `/reset-password` | Live |
 | Invite Accept | Accept org invitation link | `/invite/accept` | Live |
 | Email Verification | Verify email with resend capability | (inline flow) | Live |

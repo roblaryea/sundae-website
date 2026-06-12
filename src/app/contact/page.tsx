@@ -138,7 +138,7 @@ export default async function ContactPage() {
               </div>
               <div className="space-y-6">
                 <div className="flex items-start space-x-4 p-4 rounded-xl bg-[var(--surface-faint)] border border-[var(--border-default)]">
-                  <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 bg-gradient-to-br from-[#FF5C4D] to-[#E9A24A] rounded-lg flex items-center justify-center flex-shrink-0">
                     <SundaeIcon name="support" size="sm" className="text-white" />
                   </div>
                   <div>
@@ -149,7 +149,7 @@ export default async function ContactPage() {
                 </div>
 
                 <div className="flex items-start space-x-4 p-4 rounded-xl bg-[var(--surface-faint)] border border-[var(--border-default)]">
-                  <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 bg-gradient-to-br from-[#FF5C4D] to-[#E9A24A] rounded-lg flex items-center justify-center flex-shrink-0">
                     <SundaeIcon name="multiLocation" size="sm" className="text-white" />
                   </div>
                   <div>
@@ -168,7 +168,7 @@ export default async function ContactPage() {
                 </div>
 
                 <div className="flex items-start space-x-4 p-4 rounded-xl bg-[var(--surface-faint)] border border-[var(--border-default)]">
-                  <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 bg-gradient-to-br from-[#FF5C4D] to-[#E9A24A] rounded-lg flex items-center justify-center flex-shrink-0">
                     <SundaeIcon name="time" size="sm" className="text-white" />
                   </div>
                   <div>

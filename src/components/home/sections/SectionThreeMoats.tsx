@@ -6,7 +6,7 @@ import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/components_home_sections_SectionThreeMoats'
 
 /**
- * Mini thumbnails — each is a small visual artifact paired with the moat copy
+ * Mini thumbnails - each is a small visual artifact paired with the moat copy
  * so the section reads as evidence, not just three text cards. Inline SVG
  * keeps these zero-dependency and CLS-free.
  */
@@ -25,7 +25,7 @@ function PulseThumb() {
       <div className="grid grid-cols-3 gap-1.5 mb-2">
         <div className="bg-white/[0.04] rounded px-2 py-1.5">
           <div className="text-[8px] text-[var(--text-muted)] uppercase">Rev</div>
-          <div className="text-xs font-bold font-mono text-[#1C47FF]">$14.8K</div>
+          <div className="text-xs font-bold font-mono text-[#FF5C4D]">$14.8K</div>
         </div>
         <div className="bg-white/[0.04] rounded px-2 py-1.5">
           <div className="text-[8px] text-[var(--text-muted)] uppercase">Labor</div>
@@ -37,8 +37,8 @@ function PulseThumb() {
         </div>
       </div>
       <svg viewBox="0 0 200 30" className="w-full h-7" preserveAspectRatio="none" aria-hidden>
-        <path d="M0 22 L25 20 L50 18 L75 14 L100 11 L125 8 L150 6 L175 5 L200 4" stroke="#1C47FF" strokeWidth="1.5" fill="none" />
-        <path d="M0 22 L25 20 L50 18 L75 14 L100 11 L125 8 L150 6 L175 5 L200 4 L200 30 L0 30 Z" fill="rgba(28,71,255,0.15)" />
+        <path d="M0 22 L25 20 L50 18 L75 14 L100 11 L125 8 L150 6 L175 5 L200 4" stroke="#FF5C4D" strokeWidth="1.5" fill="none" />
+        <path d="M0 22 L25 20 L50 18 L75 14 L100 11 L125 8 L150 6 L175 5 L200 4 L200 30 L0 30 Z" fill="rgba(255,92,77,0.15)" />
       </svg>
     </div>
   );
@@ -58,9 +58,9 @@ function WatchtowerThumb() {
           3 competitors dropped lunch combos to $9.99
         </div>
       </div>
-      <div className="rounded px-2 py-1.5" style={{ background: "rgba(28,71,255,0.10)", borderLeft: "2px solid #1C47FF" }}>
+      <div className="rounded px-2 py-1.5" style={{ background: "rgba(255,92,77,0.10)", borderLeft: "2px solid #FF5C4D" }}>
         <div className="text-[10px] text-[var(--text-secondary)] leading-tight">
-          Office tower fire drill, 2 blocks · 11–12
+          Office tower fire drill, 2 blocks · 11-12
         </div>
       </div>
       <div className="rounded px-2 py-1.5" style={{ background: "rgba(34,197,94,0.10)", borderLeft: "2px solid #22C55E" }}>
@@ -90,8 +90,8 @@ function BenchmarkThumb() {
               className="flex-1 rounded-sm"
               style={{
                 height: `${h}%`,
-                background: isYou ? "#1C47FF" : "rgba(255,255,255,0.18)",
-                boxShadow: isYou ? "0 0 8px rgba(28,71,255,0.6)" : "none",
+                background: isYou ? "#FF5C4D" : "rgba(255,255,255,0.18)",
+                boxShadow: isYou ? "0 0 8px rgba(255,92,77,0.6)" : "none",
               }}
               aria-hidden
             />
@@ -100,14 +100,14 @@ function BenchmarkThumb() {
       </div>
       <div className="flex items-center justify-between text-[8px] text-[var(--text-muted)]">
         <span>Peer cohort (anon)</span>
-        <span className="text-[#1C47FF] font-semibold">You</span>
+        <span className="text-[#FF5C4D] font-semibold">You</span>
       </div>
     </div>
   );
 }
 
 /**
- * Section 5 — Beyond Dashboards (formerly "The Three Moats").
+ * Section 5 - Beyond Dashboards (formerly "The Three Moats").
  *
  * Conversion job: explain product. Reframes "Sundae has lots of features"
  * into "Sundae adds three layers BI tools structurally don't ship." Cards
@@ -115,23 +115,23 @@ function BenchmarkThumb() {
  *
  * r7+1 update: language reframed from investor-flavored ("moats", "category
  * difference") to buyer-facing ("layers", "operating advantage"). The
- * underlying strategic concept is still about defensible advantages — but
+ * underlying strategic concept is still about defensible advantages - but
  * operators don't buy moats, they buy the things they can finally do.
  *
  * Claims used:
  *   CLM-204 (eyebrow) APPROVED PUBLIC
  *   CLM-205 (headline) APPROVED PUBLIC
- *   CLM-103 (Pulse — shift-aware language) APPROVED PUBLIC
+ *   CLM-103 (Pulse - shift-aware language) APPROVED PUBLIC
  *   CLM-104 (Watchtower capabilities) APPROVED PUBLIC
- *   CLM-207 (Benchmarks — cohort framing) APPROVED PUBLIC
- *   CLM-208 (closing line — restaurant intelligence layer) APPROVED PUBLIC
+ *   CLM-207 (Benchmarks - cohort framing) APPROVED PUBLIC
+ *   CLM-208 (closing line - restaurant intelligence layer) APPROVED PUBLIC
  *
- * Excluded (awaiting Legal — CLM-203a/b):
+ * Excluded (awaiting Legal - CLM-203a/b):
  *   Named Power BI + Tableau competitor sentence reserved for `/compare/*`
  *   pages and will swap into Section 5 subhead after Legal review.
  */
 
-/* Layer structure — badge labels and colors stay product-name (untranslated brand) */
+/* Layer structure - badge labels and colors stay product-name (untranslated brand) */
 const layerStructure = [
   { badge: "Pulse", badgeColor: "var(--color-pulse)", Thumb: PulseThumb },
   { badge: "Watchtower", badgeColor: "var(--color-watchtower)", Thumb: WatchtowerThumb },
@@ -154,7 +154,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedMoats> = {
     description: "Dashboards show what happened. Sundae adds the live operating context, market signals, and peer comparisons restaurants need to decide what to do next.",
     layerWord: "Layer",
     layers: [
-      { title: "Live shift intelligence", why: "See pacing, labor, leakage, comps, voids, and service exceptions while the shift is still running — not after the weekly recap." },
+      { title: "Live shift intelligence", why: "See pacing, labor, leakage, comps, voids, and service exceptions while the shift is still running - not after the weekly recap." },
       { title: "External market intelligence", why: "Add the market around each restaurant: weather, events, competitor pricing, footfall signals, and daily briefings your BI stack does not naturally know." },
       { title: "Peer benchmarks that compound", why: "Compare locations against anonymized peers by format, market, and performance metric. The network gets more useful as more restaurants join." },
     ],
@@ -166,7 +166,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedMoats> = {
     description: "اللوحات تُظهر ما حدث. Sundae يضيف السياق التشغيلي الحي وإشارات السوق ومقارنات النظراء التي تحتاجها المطاعم لتقرر ما تفعله تالياً.",
     layerWord: "طبقة",
     layers: [
-      { title: "ذكاء وردية حي", why: "شاهد الوتيرة والعمالة والتسرب والتعويضات والتجاوزات وحالات الخدمة الشاذة وهي تجري — لا بعد الملخص الأسبوعي." },
+      { title: "ذكاء وردية حي", why: "شاهد الوتيرة والعمالة والتسرب والتعويضات والتجاوزات وحالات الخدمة الشاذة وهي تجري - لا بعد الملخص الأسبوعي." },
       { title: "ذكاء سوق خارجي", why: "أضف السوق حول كل مطعم: الطقس والأحداث وتسعير المنافسين وحركة المرور وإحاطات يومية لا يعرفها BI طبيعياً." },
       { title: "معايير نظراء تتراكم", why: "قارن المواقع بنظراء مجهولين بالصيغة والسوق والمقياس. الشبكة تصبح أكثر فائدة كلما انضم المزيد." },
     ],
@@ -178,7 +178,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedMoats> = {
     description: "Les dashboards montrent ce qui s'est passé. Sundae ajoute le contexte opérationnel live, les signaux marché et les comparaisons pairs dont les restaurants ont besoin pour décider quoi faire ensuite.",
     layerWord: "Couche",
     layers: [
-      { title: "Intelligence service live", why: "Voyez rythme, main-d'œuvre, fuites, comps, annulations et exceptions pendant que le service tourne — pas après le récap de la semaine." },
+      { title: "Intelligence service live", why: "Voyez rythme, main-d'œuvre, fuites, comps, annulations et exceptions pendant que le service tourne - pas après le récap de la semaine." },
       { title: "Intelligence marché externe", why: "Ajoutez le marché autour de chaque restaurant : météo, événements, prix concurrents, signaux fréquentation et briefings quotidiens que votre BI ne connaît pas." },
       { title: "Benchmarks pairs qui se composent", why: "Comparez les sites à des pairs anonymisés par format, marché et métrique. Le réseau devient plus utile à mesure que plus de restaurants rejoignent." },
     ],
@@ -190,7 +190,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedMoats> = {
     description: "Los dashboards muestran lo que pasó. Sundae añade el contexto operativo en vivo, las señales de mercado y las comparaciones con pares que los restaurantes necesitan para decidir qué hacer a continuación.",
     layerWord: "Capa",
     layers: [
-      { title: "Inteligencia de turno en vivo", why: "Ve ritmo, personal, fugas, comps, anulaciones y excepciones de servicio mientras el turno corre — no después del recap semanal." },
+      { title: "Inteligencia de turno en vivo", why: "Ve ritmo, personal, fugas, comps, anulaciones y excepciones de servicio mientras el turno corre - no después del recap semanal." },
       { title: "Inteligencia de mercado externo", why: "Añade el mercado alrededor de cada restaurante: clima, eventos, precios de competencia, señales de tráfico y briefings diarios que tu BI no conoce." },
       { title: "Benchmarks de pares que se componen", why: "Compara locales contra pares anonimizados por formato, mercado y métrica. La red se vuelve más útil mientras más restaurantes se unen." },
     ],
@@ -231,7 +231,7 @@ export function SectionThreeMoats() {
                     color: s.badgeColor,
                   }}
                 >
-                  {copy.layerWord} {i + 1} — {s.badge}
+                  {copy.layerWord} {i + 1} - {s.badge}
                 </div>
                 <h3 className="section-h3 mb-3">{l.title}</h3>
                 <p className="body-base">{l.why}</p>

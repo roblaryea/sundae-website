@@ -78,7 +78,7 @@ export default function NotFound() {
               className="drop-shadow-lg rounded-full"
               priority
             />
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-400/10 to-purple-400/10 rounded-full blur-xl"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-[#FF8473]/10 to-[#F2B45C]/10 rounded-full blur-xl"></div>
           </motion.div>
         </motion.div>
 
@@ -108,7 +108,7 @@ export default function NotFound() {
         </motion.div>
 
         <motion.div
-          className="absolute top-20 left-20 w-32 h-32 bg-blue-500/10 rounded-full blur-2xl"
+          className="absolute top-20 left-20 w-32 h-32 bg-[#FF5C4D]/10 rounded-full blur-2xl"
           animate={{ x: [-20, 20, -20], y: [-10, 10, -10] }}
           transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
         />

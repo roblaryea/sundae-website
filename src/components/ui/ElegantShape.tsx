@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
  * defined in `tokens.css` (`--shape-tint`, `--shape-glow`, `--shape-glow-inner`)
  * so the shapes stay visible in both dark and light mode.
  *
- * The `gradient` prop is retained for backward-compatibility — it's used to
+ * The `gradient` prop is retained for backward-compatibility - it's used to
  * extract a strength hint (`from-white/[0.0X]` → opacity X) so heavier or
  * lighter callers still differentiate. The colour itself is always token-driven.
  *

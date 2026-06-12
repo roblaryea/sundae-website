@@ -186,7 +186,7 @@ export default function BenchmarkReadinessPage() {
   return (
     <div className="min-h-screen bg-[var(--navy-deep)] py-32 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
-        <Link href="/tools" className="inline-flex items-center text-[#60A5FA] hover:text-[#60A5FA] mb-6">
+        <Link href="/tools" className="inline-flex items-center text-[#FF8473] hover:text-[#FF8473] mb-6">
           ← {copy.back}
         </Link>
 
@@ -220,7 +220,7 @@ export default function BenchmarkReadinessPage() {
                           value={option.value}
                           checked={responses[q.id] === option.value}
                           onChange={(e) => setResponses({ ...responses, [q.id]: e.target.value })}
-                          className="w-4 h-4 text-[#60A5FA]"
+                          className="w-4 h-4 text-[#FF8473]"
                         />
                         <span className="text-[var(--text-secondary)]">{option.label}</span>
                       </label>
@@ -237,14 +237,14 @@ export default function BenchmarkReadinessPage() {
         </Card>
 
         {result && (
-          <Card variant="elevated" className="border-l-4 border-blue-500">
+          <Card variant="elevated" className="border-l-4 border-[#FF5C4D]">
             <CardHeader>
               <CardTitle>{copy.results.title}</CardTitle>
             </CardHeader>
             <CardContent className="space-y-6">
-              <div className="bg-[rgba(28,71,255,0.1)] rounded-lg p-6 text-center">
+              <div className="bg-[rgba(255,92,77,0.1)] rounded-lg p-6 text-center">
                 <div className="text-sm text-[var(--text-supporting)] mb-2">{copy.results.overall}</div>
-                <div className="text-5xl font-bold text-[#60A5FA] mb-2">{result.score}%</div>
+                <div className="text-5xl font-bold text-[#FF8473] mb-2">{result.score}%</div>
                 <div className="text-xl font-semibold text-[var(--text-primary)]">{result.level}</div>
               </div>
 
@@ -253,7 +253,7 @@ export default function BenchmarkReadinessPage() {
                 <ul className="space-y-2">
                   {result.recommendations.map((rec, idx) => (
                     <li key={idx} className="flex items-start space-x-2">
-                      <span className="text-[#60A5FA] mt-1">•</span>
+                      <span className="text-[#FF8473] mt-1">•</span>
                       <span className="text-[var(--text-supporting)]">{rec}</span>
                     </li>
                   ))}

@@ -4,21 +4,21 @@ import { motion, useReducedMotion } from "framer-motion";
 import { SundaeWordmark } from "./SundaeWordmark";
 
 /**
- * Section 4 — Old Way vs Sundae Way (homepage-spec-v1.1).
+ * Section 4 - Old Way vs Sundae Way (homepage-spec-v1.1).
  *
  * Conversion job: dramatize urgency. The Old Way list reveals slowly (each
- * line ~250ms), then the Sundae Way snaps in ~3× faster — the contrast in
+ * line ~250ms), then the Sundae Way snaps in ~3× faster - the contrast in
  * pacing IS the message.
  *
  * Reduced-motion fallback: both columns and the replaces strip render in
  * their final state on first paint. Contrast is preserved via styling
- * (Old Way muted, Sundae Way electric blue).
+ * (Old Way muted, Sundae Way warm coral).
  *
  * Claims used:
  *   CLM-202 ("The old way waits for reports...") APPROVED PUBLIC
  *   CLM-211 ("Same data. Different verdict.") APPROVED PUBLIC
  *   CLM-212 ("THE REAL ENEMY IS DASHBOARD BUREAUCRACY") APPROVED PUBLIC
- *   CLM-215 (replaces strip — generic, no named vendor) APPROVED PUBLIC
+ *   CLM-215 (replaces strip - generic, no named vendor) APPROVED PUBLIC
  */
 
 const oldWay = [
@@ -64,7 +64,7 @@ export function SectionOldWaySundaeWay() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-4 sm:gap-6 max-w-5xl mx-auto">
-          {/* Old Way — slow stagger (250ms per line) */}
+          {/* Old Way - slow stagger (250ms per line) */}
           <motion.div
             initial={reduceMotion ? false : { opacity: 0, x: -16 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -98,7 +98,7 @@ export function SectionOldWaySundaeWay() {
             </div>
           </motion.div>
 
-          {/* Sundae Way — fast snap (~80ms per line, ~3× faster) */}
+          {/* Sundae Way - fast snap (~80ms per line, ~3× faster) */}
           <motion.div
             initial={reduceMotion ? false : { opacity: 0, x: 16 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -108,9 +108,9 @@ export function SectionOldWaySundaeWay() {
               delay: 0.1,
               ease: [0.22, 1, 0.36, 1],
             }}
-            className="rounded-2xl border border-[var(--electric-blue)]/30 bg-gradient-to-br from-[var(--electric-blue)]/[0.10] to-[var(--electric-blue)]/[0.02] p-6 sm:p-8 shadow-[0_0_40px_rgba(28,71,255,0.12)]"
+            className="rounded-2xl border border-[var(--warm-coral)]/30 bg-gradient-to-br from-[var(--warm-coral)]/[0.10] to-[var(--warm-coral)]/[0.02] p-6 sm:p-8 shadow-[0_0_40px_rgba(255,92,77,0.12)]"
           >
-            <div className="text-[11px] uppercase tracking-wider text-[var(--electric-blue)] font-bold mb-4">
+            <div className="text-[11px] uppercase tracking-wider text-[var(--warm-coral)] font-bold mb-4">
               The Sundae way
             </div>
             <ul className="space-y-2.5">
@@ -131,13 +131,13 @@ export function SectionOldWaySundaeWay() {
                 </motion.li>
               ))}
             </ul>
-            <div className="mt-6 pt-4 border-t border-[var(--electric-blue)]/20 text-sm text-[var(--text-secondary)]">
+            <div className="mt-6 pt-4 border-t border-[var(--warm-coral)]/20 text-sm text-[var(--text-secondary)]">
               By 11:14 Tuesday.
             </div>
           </motion.div>
         </div>
 
-        {/* Replaces line — single sentence, less tag-cloud-y than the previous row */}
+        {/* Replaces line - single sentence, less tag-cloud-y than the previous row */}
         <p className="mt-12 sm:mt-14 max-w-4xl mx-auto text-center text-sm sm:text-base text-[var(--text-supporting)]">
           <span className="font-semibold text-[var(--text-primary)]">
             Replaces the delay between data and action:

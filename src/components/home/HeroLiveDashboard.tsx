@@ -7,24 +7,24 @@ import { heroDashboardCopy } from "./heroDashboardCopy";
 
 /**
  * The hero dashboard's TEXT is fully localized via heroDashboardCopy (resolved
- * by the active locale) — this is the one product mockup we translate across all
+ * by the active locale) - this is the one product mockup we translate across all
  * 22 locales to show Sundae's multilingual reach. The numeric figures animate
  * locally and stay in USD ($) by design (it reads as a real product capture).
  *
  * KPI value/trend colors and the Coach tag colors are fixed by INDEX, so the
  * translated tag labels never break the color mapping.
  */
-const KPI_VALUE_COLORS = ["#1C47FF", "#22C55E", "#FBBF24", "#22C55E"];
+const KPI_VALUE_COLORS = ["#FF5C4D", "#22C55E", "#FBBF24", "#22C55E"];
 const KPI_TREND_UP = [true, true, false, true];
-const COACH_COLORS = ["#5B8DEF", "#22C55E", "#FBBF24", "#F472B6", "#A78BFA"];
+const COACH_COLORS = ["#FF8473", "#22C55E", "#FBBF24", "#F472B6", "#A78BFA"];
 
 /**
- * Hero live dashboard — a product-accurate recreation of the real Sundae Pulse
+ * Hero live dashboard - a product-accurate recreation of the real Sundae Pulse
  * "Sales Pacing" surface, in a two-column ops layout: a live pacing dashboard
  * on the left and a full-height **Sundae Coach** recommendation rail on the
  * right. The Coach is a co-equal half of the frame (not a footnote), so the
- * hero says "decision intelligence" — a stream of prioritized AI actions
- * across upsell, labor, inventory, service, and marketing — rather than just
+ * hero says "decision intelligence" - a stream of prioritized AI actions
+ * across upsell, labor, inventory, service, and marketing - rather than just
  * "a dashboard".
  *
  * Animated, not static: one source of truth (`revenue`, `covers`,
@@ -68,7 +68,7 @@ export function HeroLiveDashboard() {
     return () => clearInterval(id);
   }, [reduceMotion]);
 
-  // Derived — every figure flows from the three state values
+  // Derived - every figure flows from the three state values
   const avgCheck = revenue / covers;
   const laborPct = (LABOR_COST_BASE / revenue) * 100;
   const expected = TARGET * serviceProgress;
@@ -87,7 +87,7 @@ export function HeroLiveDashboard() {
     `${laborPct.toFixed(1)}%`,
   ];
 
-  // Sundae Coach feed — localized; colored by original index so translated tag
+  // Sundae Coach feed - localized; colored by original index so translated tag
   // labels never break the color mapping. The feed cycles a new item to the top.
   const coachItems = copy.coachItems;
   const n = coachItems.length;
@@ -133,7 +133,7 @@ export function HeroLiveDashboard() {
 
       {/* ── Two columns: pacing dashboard + Sundae Coach rail ── */}
       <div className="grid grid-cols-1 lg:grid-cols-[1.5fr_1fr] gap-3">
-        {/* LEFT — pacing dashboard */}
+        {/* LEFT - pacing dashboard */}
         <div className="space-y-3">
           {/* Pace block */}
           <div className="rounded-xl border border-[var(--border-default)] bg-white/[0.025] p-3.5">
@@ -223,24 +223,24 @@ export function HeroLiveDashboard() {
                 value={liveValues[i] ?? ""}
                 trend={kpi.trend}
                 trendUp={KPI_TREND_UP[i] ?? true}
-                color={KPI_VALUE_COLORS[i] ?? "#1C47FF"}
+                color={KPI_VALUE_COLORS[i] ?? "#FF5C4D"}
                 reduceMotion={!!reduceMotion}
               />
             ))}
           </div>
         </div>
 
-        {/* RIGHT — Sundae Coach rail */}
-        <div className="rounded-xl border border-[#1C47FF]/30 bg-gradient-to-b from-[#1C47FF]/[0.10] to-[#1C47FF]/[0.02] p-3 flex flex-col">
+        {/* RIGHT - Sundae Coach rail */}
+        <div className="rounded-xl border border-[#FF5C4D]/30 bg-gradient-to-b from-[#FF5C4D]/[0.10] to-[#FF5C4D]/[0.02] p-3 flex flex-col">
           <div className="flex items-center gap-2 mb-2.5">
-            <span className="flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-md bg-[#1C47FF]/20 text-[#5B8DEF] text-[11px]">
+            <span className="flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-md bg-[#FF5C4D]/20 text-[#FF8473] text-[11px]">
               ✦
             </span>
-            <span className="text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-[#5B8DEF]">
+            <span className="text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-[#FF8473]">
               {copy.coachTitle}
             </span>
             <span className="ml-auto inline-flex items-center gap-1 text-[8.5px] sm:text-[9px] font-semibold uppercase tracking-wider text-[var(--text-muted)]">
-              {!reduceMotion && <span className="inline-block h-1.5 w-1.5 rounded-full bg-[#5B8DEF] animate-pulse" />}
+              {!reduceMotion && <span className="inline-block h-1.5 w-1.5 rounded-full bg-[#FF8473] animate-pulse" />}
               {copy.live}
             </span>
           </div>
@@ -256,18 +256,18 @@ export function HeroLiveDashboard() {
                   transition={{ duration: 0.4, ease: "easeOut" }}
                   className={`rounded-lg border p-2.5 ${
                     slot === 0
-                      ? "border-[#1C47FF]/35 bg-white/[0.04]"
+                      ? "border-[#FF5C4D]/35 bg-white/[0.04]"
                       : "border-[var(--border-default)] bg-transparent"
                   }`}
                 >
                   <div className="flex items-center gap-1.5 mb-1">
                     <span
                       className="inline-block h-1.5 w-1.5 rounded-full flex-shrink-0"
-                      style={{ backgroundColor: COACH_COLORS[c.idx] ?? "#5B8DEF" }}
+                      style={{ backgroundColor: COACH_COLORS[c.idx] ?? "#FF8473" }}
                     />
                     <span
                       className="text-[8.5px] sm:text-[9px] font-bold uppercase tracking-wider"
-                      style={{ color: COACH_COLORS[c.idx] ?? "#5B8DEF" }}
+                      style={{ color: COACH_COLORS[c.idx] ?? "#FF8473" }}
                     >
                       {c.tag}
                     </span>
@@ -283,7 +283,7 @@ export function HeroLiveDashboard() {
             </AnimatePresence>
           </div>
 
-          <div className="mt-2 pt-2 border-t border-[#1C47FF]/15 flex items-center justify-between text-[8.5px] sm:text-[9px] text-[var(--text-muted)] font-semibold uppercase tracking-wider">
+          <div className="mt-2 pt-2 border-t border-[#FF5C4D]/15 flex items-center justify-between text-[8.5px] sm:text-[9px] text-[var(--text-muted)] font-semibold uppercase tracking-wider">
             <span>{copy.decisionIntelligence}</span>
             <span className="font-mono">{copy.signalsToday.replace("{n}", String(12 + (coachIdx % 6)))}</span>
           </div>

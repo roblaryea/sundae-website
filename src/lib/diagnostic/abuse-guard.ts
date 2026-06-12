@@ -1,23 +1,23 @@
 // Anti-abuse guards for the expensive /api/diagnostic endpoint.
 //
 // Every diagnostic call hits a paid LLM (claude-sonnet-4-6 / gpt-5), so an
-// unprotected endpoint is a direct line to burning AI credits — scrapers,
+// unprotected endpoint is a direct line to burning AI credits - scrapers,
 // crawlers, and scripted abuse all cost real money per request. These guards
 // run BEFORE any model call so rejected traffic costs ~nothing:
 //
-//   1. Same-origin check — the request's Origin/Referer host must match the
+//   1. Same-origin check - the request's Origin/Referer host must match the
 //      deployment Host. Browsers always send Origin on a same-origin POST fetch;
 //      naive bots/crawlers that POST the API directly send none → blocked.
 //      Domain-agnostic: works for prod, every preview URL, and localhost.
-//   2. Rate limiting — per-IP cap + a global hourly circuit-breaker that caps
+//   2. Rate limiting - per-IP cap + a global hourly circuit-breaker that caps
 //      total spend even under a distributed/IP-rotating attack.
 //
-// Vercel BotID (applied in the route via checkBotId) is the third layer — it
+// Vercel BotID (applied in the route via checkBotId) is the third layer - it
 // classifies bots/crawlers that DO spoof a same-origin header.
 //
 // NOTE: the rate-limit state is in-memory, so it is per-instance (Vercel Fluid
 // Compute reuses instances but scales horizontally). It is a strong speed-bump,
-// not an airtight global limiter — BotID + the global circuit-breaker are the
+// not an airtight global limiter - BotID + the global circuit-breaker are the
 // real backstops. For a hard global cap, move this to Vercel KV / Upstash.
 
 const RATE_WINDOW_MS = 60 * 60 * 1000; // 1 hour
@@ -35,7 +35,7 @@ export function getClientIp(req: Request): string {
 /**
  * True when the request originates from the site itself (same-origin browser
  * fetch). Rejects requests with no Origin/Referer (typical of scripted bots)
- * and cross-site requests. Domain-agnostic — compares against the request's
+ * and cross-site requests. Domain-agnostic - compares against the request's
  * own Host header rather than a hard-coded allowlist.
  */
 export function isSameOrigin(req: Request): boolean {

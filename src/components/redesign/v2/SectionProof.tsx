@@ -1,7 +1,7 @@
 /**
- * Section 7 — Proof (homepage-spec-v1.1, r9 enhanced).
+ * Section 7 - Proof (homepage-spec-v1.1, r9 enhanced).
  *
- * Conversion job: NONE. Stats render in final state — animating credibility
+ * Conversion job: NONE. Stats render in final state - animating credibility
  * numbers undermines them and hides them in screenshot capture. No motion at
  * all in this section. Server-renders, never animates.
  *
@@ -13,7 +13,7 @@
  *
  * Stats-only per user direction (CLM-901 deferred, CLM-902 conditional).
  * No pilot quote ships in v1.1. Logo wall is conditionally hidden when
- * zero approved logos exist — at homepage launch this section ships as
+ * zero approved logos exist - at homepage launch this section ships as
  * stats-only and degrades cleanly.
  *
  * Claims used:
@@ -22,11 +22,11 @@
  *   CLM-003 (12 modules · 14 specialized in current bundle) APPROVED PUBLIC
  *   CLM-004 (Built with operators across 500+ restaurant locations) APPROVED PUBLIC
  *   CLM-005 (5-min refresh on Core Pro) CAPABILITY CLAIM ONLY · FN-1
- *   CLM-009 (6 intelligence layers) APPROVED PUBLIC — derived from locked taxonomy
+ *   CLM-009 (6 intelligence layers) APPROVED PUBLIC - derived from locked taxonomy
  *
  * Excluded:
- *   CLM-901 pilot quote — deferred until named operator approves
- *   CLM-902 logo wall — deferred until at least one approved logo
+ *   CLM-901 pilot quote - deferred until named operator approves
+ *   CLM-902 logo wall - deferred until at least one approved logo
  */
 
 const stats = [
@@ -87,7 +87,7 @@ export function SectionProof() {
           ))}
         </div>
 
-        {/* Industry-vs-Sundae contrast block — path C anchoring.
+        {/* Industry-vs-Sundae contrast block - path C anchoring.
             Heading is intentionally smaller than the section-h2 (~10-15%) so
             this reads as supporting evidence, not another hero. */}
         <div className="mt-16 sm:mt-20 max-w-5xl mx-auto">
@@ -115,7 +115,7 @@ export function SectionProof() {
                   {c.industry}
                 </p>
                 <div className="pt-4 border-t border-[var(--border-default)]">
-                  <div className="text-[11px] uppercase tracking-wider text-[var(--electric-blue)] font-bold mb-2">
+                  <div className="text-[11px] uppercase tracking-wider text-[var(--warm-coral)] font-bold mb-2">
                     With Sundae
                   </div>
                   <p className="text-sm text-[var(--text-primary)] font-medium leading-snug">
@@ -148,14 +148,14 @@ const industryClaims: Array<{ id: string; industry: string; sundae: string }> = 
   {
     id: "reporting-lag",
     industry:
-      "Teams wait 2–3 days for reports, exports, or analyst follow-ups. By the time the answer arrives, the shift has already happened.",
+      "Teams wait 2-3 days for reports, exports, or analyst follow-ups. By the time the answer arrives, the shift has already happened.",
     sundae:
       "Sundae Intelligence gives teams source-cited answers in seconds, across the systems they already use.",
   },
   {
     id: "leakage",
     industry:
-      "Voids, comps, discounts, and POS exceptions are small on their own. Left unreviewed, they can create between 1–3% of revenue and margin leakage.",
+      "Voids, comps, discounts, and POS exceptions are small on their own. Left unreviewed, they can create between 1-3% of revenue and margin leakage.",
     sundae:
       "Pulse flags exception patterns during the shift, attributed to the server, daypart, location, or behavior driving them.",
   },

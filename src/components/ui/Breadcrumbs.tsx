@@ -37,10 +37,10 @@ const LABEL_MAP: Record<string, Record<string, string>> = {
     'franchise-operators': 'Franchise Operators',
     'independent-operators': 'Independent Operators',
     architecture: 'Architecture',
-    scout: 'Scout',
+    scout: 'Sundae Core',
     pulse: 'Pulse',
-    forge: 'Forge',
-    canvas: 'Canvas',
+    forge: 'Sundae Intelligence',
+    canvas: 'Sundae Core',
   },
   ar: {
     product: 'المنتجات',
@@ -63,10 +63,10 @@ const LABEL_MAP: Record<string, Record<string, string>> = {
     'sign-in': 'تسجيل الدخول',
     signin: 'تسجيل الدخول',
     architecture: 'البنية',
-    scout: 'Scout',
+    scout: 'Sundae Core',
     pulse: 'Pulse',
-    forge: 'Forge',
-    canvas: 'Canvas',
+    forge: 'Sundae Intelligence',
+    canvas: 'Sundae Core',
   },
   fr: {
     product: 'Produits',
@@ -89,10 +89,10 @@ const LABEL_MAP: Record<string, Record<string, string>> = {
     'sign-in': 'Connexion',
     signin: 'Connexion',
     architecture: 'Architecture',
-    scout: 'Scout',
+    scout: 'Sundae Core',
     pulse: 'Pulse',
-    forge: 'Forge',
-    canvas: 'Canvas',
+    forge: 'Sundae Intelligence',
+    canvas: 'Sundae Core',
   },
   es: {
     product: 'Productos',
@@ -115,10 +115,10 @@ const LABEL_MAP: Record<string, Record<string, string>> = {
     'sign-in': 'Iniciar sesion',
     signin: 'Iniciar sesion',
     architecture: 'Arquitectura',
-    scout: 'Scout',
+    scout: 'Sundae Core',
     pulse: 'Pulse',
-    forge: 'Forge',
-    canvas: 'Canvas',
+    forge: 'Sundae Intelligence',
+    canvas: 'Sundae Core',
   },
 };
 
@@ -144,7 +144,7 @@ export function Breadcrumbs({ className = '' }: { className?: string }) {
   // Don't render on homepage
   if (unlocalizedPathname === '/') return null;
 
-  // Don't render on internal preview routes — keeps "Home / Preview / V2 / Home"
+  // Don't render on internal preview routes - keeps "Home / Preview / V2 / Home"
   // out of the redesign preview and avoids 404 prefetch noise on /preview itself.
   if (unlocalizedPathname.startsWith('/preview')) return null;
 

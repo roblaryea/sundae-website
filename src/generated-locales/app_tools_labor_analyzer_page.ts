@@ -16,7 +16,7 @@ export const generatedLocalCopy = {
         "actualPlaceholder": "z.B. 25000",
         "revenueLabel": "Gesamteinnahmen (€)",
         "revenuePlaceholder": "z.B. 100000",
-        "targetLabel": "Ziel-Arbeits% (optional)",
+        "targetLabel": "Ziel-Arbeitskosten % (optional)",
         "targetHint": "Der Branchenstandard liegt typischerweise bei 25-35% für Full-Service-Restaurants.",
         "targetPlaceholder": "z.B. 30",
         "buttonIdle": "Arbeitskostenabweichung analysieren"
@@ -171,7 +171,7 @@ export const generatedLocalCopy = {
         "recLow": "تكاليف العمالة أقل بكثير من الهدف. تأكد من وجود مستويات كافية من التوظيف للحفاظ على جودة الخدمة.",
         "nextStepTitle": "الخطوة التالية:",
         "nextStepOnTarget": "أنت مستعد لبدء القياس! ضع في اعتبارك جدولة عرض توضيحي لرؤية كيف يمكن أن تساعدك Sundae.",
-        "nextStepBelow": "ركز على التوصيات أعلاه، ثم أعد تقييم هذا التقييم بعد 3-6 أشهر."
+        "nextStepBelow": "ركز على التوصيات أعلاه، ثم أعد إجراء هذا التقييم بعد 3-6 أشهر."
       },
       "cta": {
         "intro": "هل تريد تحليلات عمالة أكثر تقدمًا عبر جميع المواقع؟",
@@ -306,7 +306,7 @@ export const generatedLocalCopy = {
         "recLow": "श्रम लागत लक्ष्य से काफी नीचे है। सेवा गुणवत्ता बनाए रखने के लिए पर्याप्त स्टाफिंग स्तर सुनिश्चित करें।",
         "nextStepTitle": "अगला कदम:",
         "nextStepOnTarget": "आप बेंचमार्किंग शुरू करने के लिए तैयार हैं! देखें कि Sundae आपकी कैसे मदद कर सकता है, इसके लिए एक डेमो शेड्यूल करने पर विचार करें।",
-        "nextStepBelow": "ऊपर दी गई सिफारिशों पर ध्यान केंद्रित करें, फिर 3-6 महीनों में इस आकलन को फिर से लें।"
+        "nextStepBelow": "ऊपर दी गई सिफारिशों पर ध्यान केंद्रित करें, फिर 3-6 महीनों में इस आकलन को दोबारा करें।"
       },
       "cta": {
         "intro": "क्या आप सभी स्थानों पर अधिक उन्नत श्रम विश्लेषण चाहते हैं?",
@@ -444,7 +444,7 @@ export const generatedLocalCopy = {
         "nextStepBelow": "Skup się na powyższych rekomendacjach, a następnie powtórz tę ocenę za 3-6 miesięcy."
       },
       "cta": {
-        "intro": "Chcesz bardziej zaawansowanej analizy pracy w wszystkich lokalizacjach?",
+        "intro": "Chcesz bardziej zaawansowanej analizy pracy we wszystkich lokalizacjach?",
         "button": "Zobacz platformę Sundae"
       },
       "alerts": {
@@ -495,7 +495,7 @@ export const generatedLocalCopy = {
       "alerts": {
         "invalidNumbers": "Lütfen geçerli sayılar girin"
       },
-      "tip": "Endüstri standardı genellikle %25-35'tir tam hizmet restoranları için."
+      "tip": "Tam hizmet restoranları için endüstri standardı genellikle %25-35'tir."
     },
     "zh-Hans": {
       "back": "返回工具",
@@ -576,7 +576,7 @@ export const generatedLocalCopy = {
         "recLow": "労働コストは目標を大幅に下回っています。サービスの質を維持するために十分なスタッフを確保してください。",
         "nextStepTitle": "次のステップ：",
         "nextStepOnTarget": "ベンチマークを開始する準備ができました！Sundaeがどのように役立つかを確認するためにデモをスケジュールすることを検討してください。",
-        "nextStepBelow": "上記の推奨事項に集中し、3-6ヶ月後に再度この評価を受けてください。"
+        "nextStepBelow": "上記の推奨事項に集中し、3-6ヶ月後にこの評価を再度実施してください。"
       },
       "cta": {
         "intro": "すべてのロケーションでより高度な労働分析が必要ですか？",
@@ -635,8 +635,8 @@ export const generatedLocalCopy = {
     "id": {
       "back": "Kembali ke Alat",
       "hero": {
-        "badge": "Inteligensi Tenaga Kerja",
-        "title": "Analyzer Varians Biaya Tenaga Kerja",
+        "badge": "Intelijen Tenaga Kerja",
+        "title": "Penganalisis Varians Biaya Tenaga Kerja",
         "description": "Bandingkan biaya tenaga kerja aktual Anda dengan target dan dapatkan wawasan yang dapat ditindaklanjuti."
       },
       "form": {
@@ -666,7 +666,7 @@ export const generatedLocalCopy = {
         "recLow": "Biaya tenaga kerja jauh di bawah target. Pastikan tingkat staf yang memadai untuk menjaga kualitas layanan.",
         "nextStepTitle": "Langkah Selanjutnya:",
         "nextStepOnTarget": "Anda siap untuk mulai membandingkan! Pertimbangkan untuk menjadwalkan demo untuk melihat bagaimana Sundae dapat membantu.",
-        "nextStepBelow": "Fokus pada rekomendasi di atas, lalu ambil penilaian ini lagi dalam 3-6 bulan."
+        "nextStepBelow": "Fokus pada rekomendasi di atas, lalu lakukan kembali penilaian ini dalam 3-6 bulan."
       },
       "cta": {
         "intro": "Ingin analitik tenaga kerja yang lebih canggih di semua lokasi?",
@@ -726,7 +726,7 @@ export const generatedLocalCopy = {
       "back": "Înapoi la Instrumente",
       "hero": {
         "badge": "Inteligența Forței de Muncă",
-        "title": "Analizator de Varianta Costurilor Forței de Muncă",
+        "title": "Analizator al Variației Costurilor Forței de Muncă",
         "description": "Compară costurile tale reale ale forței de muncă cu țintele și obține informații acționabile."
       },
       "form": {
@@ -736,7 +736,7 @@ export const generatedLocalCopy = {
         "actualPlaceholder": "de ex., 25000",
         "revenueLabel": "Venit Total ($)",
         "revenuePlaceholder": "de ex., 100000",
-        "targetLabel": "Target Forță de Muncă % (opțional)",
+        "targetLabel": "Țintă Forță de Muncă % (opțional)",
         "targetHint": "Standardul din industrie este de obicei 25-35% pentru restaurantele cu servicii complete.",
         "targetPlaceholder": "de ex., 30",
         "buttonIdle": "Analizează Variația Forței de Muncă"
@@ -771,12 +771,12 @@ export const generatedLocalCopy = {
       "back": "টুলসে ফিরে যান",
       "hero": {
         "badge": "শ্রম বুদ্ধিমত্তা",
-        "title": "শ্রম খরচ বৈচিত্র্য বিশ্লেষক",
-        "description": "আপনার প্রকৃত শ্রম খরচগুলি লক্ষ্যগুলির বিরুদ্ধে তুলনা করুন এবং কার্যকরী অন্তর্দৃষ্টি পান।"
+        "title": "শ্রম খরচ তারতম্য বিশ্লেষক",
+        "description": "আপনার প্রকৃত শ্রম খরচ লক্ষ্যের সাথে তুলনা করুন এবং কার্যকরী অন্তর্দৃষ্টি পান।"
       },
       "form": {
         "title": "আপনার শ্রম তথ্য প্রবেশ করুন",
-        "description": "বৈচিত্র্য বিশ্লেষণের জন্য আপনার প্রকৃত শ্রম খরচ এবং রাজস্ব প্রবেশ করুন।",
+        "description": "তারতম্য বিশ্লেষণের জন্য আপনার প্রকৃত শ্রম খরচ এবং রাজস্ব প্রবেশ করুন।",
         "actualLabel": "প্রকৃত শ্রম খরচ ($)",
         "actualPlaceholder": "যেমন, 25000",
         "revenueLabel": "মোট রাজস্ব ($)",
@@ -784,12 +784,12 @@ export const generatedLocalCopy = {
         "targetLabel": "লক্ষ্য শ্রম % (ঐচ্ছিক)",
         "targetHint": "পূর্ণ-সেবা রেস্তোরাঁর জন্য শিল্প মান সাধারণত 25-35%।",
         "targetPlaceholder": "যেমন, 30",
-        "buttonIdle": "শ্রম বৈচিত্র্য বিশ্লেষণ করুন"
+        "buttonIdle": "শ্রম তারতম্য বিশ্লেষণ করুন"
       },
       "results": {
         "title": "বিশ্লেষণ ফলাফল",
         "actualLabel": "প্রকৃত শ্রম খরচ %",
-        "varianceLabel": "লক্ষ্যের বিরুদ্ধে বৈচিত্র্য",
+        "varianceLabel": "লক্ষ্যের তুলনায় তারতম্য",
         "recommendationLabel": "সুপারিশ",
         "statusOnTarget": "লক্ষ্যের মধ্যে",
         "statusHigh": "উচ্চ",
@@ -801,7 +801,7 @@ export const generatedLocalCopy = {
         "recLow": "শ্রম খরচ লক্ষ্য থেকে উল্লেখযোগ্যভাবে কম। পরিষেবা মান বজায় রাখতে যথেষ্ট কর্মী স্তর নিশ্চিত করুন।",
         "nextStepTitle": "পরবর্তী পদক্ষেপ:",
         "nextStepOnTarget": "আপনি বেঞ্চমার্কিং শুরু করার জন্য প্রস্তুত! দেখুন কিভাবে Sundae সাহায্য করতে পারে তা দেখতে একটি ডেমো নির্ধারণ করার কথা বিবেচনা করুন।",
-        "nextStepBelow": "উপরের সুপারিশগুলিতে মনোযোগ দিন, তারপর 3-6 মাসের মধ্যে এই মূল্যায়নটি পুনরায় নিন।"
+        "nextStepBelow": "উপরের সুপারিশগুলিতে মনোযোগ দিন, তারপর 3-6 মাসের মধ্যে এই মূল্যায়নটি পুনরায় করুন।"
       },
       "cta": {
         "intro": "সমস্ত অবস্থানে আরও উন্নত শ্রম বিশ্লেষণ চান?",
@@ -871,7 +871,7 @@ export const generatedLocalCopy = {
         "actualPlaceholder": "t.ex. 25000",
         "revenueLabel": "Totala Intäkter ($)",
         "revenuePlaceholder": "t.ex. 100000",
-        "targetLabel": "Målarbets % (valfritt)",
+        "targetLabel": "Mål för arbetskostnad % (valfritt)",
         "targetHint": "Branschstandard ligger vanligtvis mellan 25-35% för fullservice-restauranger.",
         "targetPlaceholder": "t.ex. 30",
         "buttonIdle": "Analysera Arbetsavvikelse"
@@ -905,7 +905,7 @@ export const generatedLocalCopy = {
     "ms": {
       "back": "Kembali ke Alat",
       "hero": {
-        "badge": "Intelligence Tenaga Kerja",
+        "badge": "Kepintaran Tenaga Kerja",
         "title": "Penganalisis Varians Kos Tenaga Kerja",
         "description": "Bandingkan kos tenaga kerja sebenar anda dengan sasaran dan dapatkan wawasan yang boleh diambil tindakan."
       },
@@ -936,7 +936,7 @@ export const generatedLocalCopy = {
         "recLow": "Kos tenaga kerja jauh di bawah sasaran. Pastikan tahap kakitangan yang mencukupi untuk mengekalkan kualiti perkhidmatan.",
         "nextStepTitle": "Langkah Seterusnya:",
         "nextStepOnTarget": "Anda sudah bersedia untuk memulakan penanda aras! Pertimbangkan untuk menjadualkan demo untuk melihat bagaimana Sundae dapat membantu.",
-        "nextStepBelow": "Fokus pada cadangan di atas, kemudian ambil semula penilaian ini dalam 3-6 bulan."
+        "nextStepBelow": "Fokus pada cadangan di atas, kemudian lakukan semula penilaian ini dalam 3-6 bulan."
       },
       "cta": {
         "intro": "Mahukan analitik tenaga kerja yang lebih maju di semua lokasi?",

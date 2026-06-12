@@ -97,7 +97,7 @@ export async function submitLeadToSundae(
     try {
       body = await resp.json();
     } catch {
-      // empty / non-JSON body — leave defaults
+      // empty / non-JSON body - leave defaults
     }
 
     if (!resp.ok) {

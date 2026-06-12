@@ -1,7 +1,7 @@
 import type { SVGProps } from "react";
 
 /**
- * Inline Sundae wordmark — for use within text where the logotype should
+ * Inline Sundae wordmark - for use within text where the logotype should
  * sit alongside copy (e.g., "See [Sundae] for Operations Leaders.").
  *
  * Adapts to both light and dark modes via `currentColor` on the typeface

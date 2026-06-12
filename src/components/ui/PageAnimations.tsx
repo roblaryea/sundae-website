@@ -77,7 +77,7 @@ export function StaggerItem({
   );
 }
 
-// Premium dark hero section with floating shapes — for inner pages
+// Premium dark hero section with floating shapes - for inner pages
 export function PageHero({
   badge,
   title,
@@ -120,7 +120,7 @@ export function PageHero({
       </div>
 
       {/* Subtle radial glow */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(28,71,255,0.08),transparent_70%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,92,77,0.08),transparent_70%)]" />
 
       <div className="relative z-10 max-w-4xl mx-auto px-6 pt-32 pb-20 text-center">
         {badge && (
@@ -129,7 +129,7 @@ export function PageHero({
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
           >
-            <span className="inline-flex items-center px-4 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase bg-[rgba(28,71,255,0.15)] text-[#60A5FA] border border-[rgba(28,71,255,0.2)]">
+            <span className="inline-flex items-center px-4 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase bg-[rgba(255,92,77,0.15)] text-[#FF8473] border border-[rgba(255,92,77,0.2)]">
               {badge}
             </span>
           </motion.div>
@@ -180,7 +180,7 @@ export function PageHero({
   );
 }
 
-// Dark CTA section with floating shapes — for page bottoms
+// Dark CTA section with floating shapes - for page bottoms
 export function PageCTA({
   title,
   description,
@@ -215,7 +215,7 @@ export function PageCTA({
         />
       </div>
 
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(28,71,255,0.06),transparent_70%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,92,77,0.06),transparent_70%)]" />
 
       <div className="relative z-10 max-w-3xl mx-auto px-6 py-24 text-center">
         <FadeUp>

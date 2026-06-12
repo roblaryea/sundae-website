@@ -158,7 +158,7 @@ export default async function SecurityPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {copy.pillars.map((pillar) => (
                 <div key={pillar.title} className="p-6 rounded-2xl border border-[var(--border-default)] bg-[var(--navy-deep)] hover:shadow-md transition-shadow duration-300">
-                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center text-white mb-4 shadow-lg">
+                  <div className="w-12 h-12 bg-gradient-to-br from-[#FF5C4D] to-[#E03E48] rounded-xl flex items-center justify-center text-white mb-4 shadow-lg">
                     <SundaeIcon name={pillar.icon} size="lg" className="text-white" />
                   </div>
                   <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">{pillar.title}</h3>

@@ -1,0 +1,10 @@
+import { chromium } from 'playwright';
+const b = await chromium.launch();
+const ctx = await b.newContext({ viewport:{width:1300,height:850}, deviceScaleFactor:1.45 });
+const p = await ctx.newPage();
+await p.goto('http://localhost:3100/',{waitUntil:'load',timeout:60000}); await p.waitForTimeout(1800);
+await p.evaluate(async()=>{await new Promise(r=>{let y=0;const s=()=>{y+=innerHeight*0.8;scrollTo(0,y);y<7200?setTimeout(s,90):setTimeout(r,300);};s();});});
+await p.evaluate(()=>{const els=[...document.querySelectorAll('h2,h3')];const t=els.find(e=>/one truth|six layers/i.test(e.textContent||''));if(t)t.scrollIntoView({block:'start'});});
+await p.waitForTimeout(700);
+await p.screenshot({path:'design-pilot/review/cards-sixlayers.png', clip:{x:30,y:230,width:1240,height:430}});
+await b.close(); console.log('done');

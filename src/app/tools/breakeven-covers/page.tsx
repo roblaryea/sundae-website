@@ -230,7 +230,7 @@ export default function BreakEvenCalculator() {
         </Link>
 
         <div className="text-center mb-12">
-          <div className="w-20 h-20 bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
+          <div className="w-20 h-20 bg-gradient-to-br from-[#FF5C4D] to-[#C2410C] rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
             <SundaeIcon name="balance" size="xl" className="text-white" />
           </div>
           <h1 className="hero-h1 text-[var(--text-primary)] mb-4">{copy.hero.title}</h1>
@@ -287,9 +287,9 @@ export default function BreakEvenCalculator() {
               </div>
 
               <div className="grid md:grid-cols-2 gap-4">
-                <div className="p-4 bg-[rgba(28,71,255,0.1)] rounded-lg">
+                <div className="p-4 bg-[rgba(255,92,77,0.1)] rounded-lg">
                   <h5 className="font-semibold text-[var(--text-primary)] mb-2 text-sm">{copy.results.marginLabel}</h5>
-                  <div className="text-2xl font-bold text-[#60A5FA]">${result.contributionMargin.toFixed(2)}</div>
+                  <div className="text-2xl font-bold text-[#FF8473]">${result.contributionMargin.toFixed(2)}</div>
                   <p className="text-xs text-[var(--text-supporting)] mt-1">{copy.results.perCover}</p>
                 </div>
 

@@ -20,7 +20,7 @@ export default function FAQPage() {
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto text-center">
           <FadeUp>
-            <div className="inline-flex items-center space-x-2 bg-blue-500/20 text-blue-400 px-4 py-2 rounded-full text-sm font-medium mb-6">
+            <div className="inline-flex items-center space-x-2 bg-[#FF5C4D]/20 text-[#FF8473] px-4 py-2 rounded-full text-sm font-medium mb-6">
               <SundaeIcon name="conversation" size="sm" />
               <span>{copy.badge}</span>
             </div>
@@ -45,7 +45,7 @@ export default function FAQPage() {
                   const element = document.getElementById(category.id);
                   element?.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="px-4 py-2 bg-[var(--surface-subtle)] hover:bg-blue-500/20 text-[var(--text-secondary)] hover:text-blue-400 rounded-lg text-sm font-medium transition-colors duration-200 flex items-center space-x-2"
+                className="px-4 py-2 bg-[var(--surface-subtle)] hover:bg-[#FF5C4D]/20 text-[var(--text-secondary)] hover:text-[#FF8473] rounded-lg text-sm font-medium transition-colors duration-200 flex items-center space-x-2"
               >
                 <SundaeIcon name={category.icon} size="sm" />
                 <span>{category.title}</span>
@@ -62,12 +62,12 @@ export default function FAQPage() {
               <div id={category.id} className="scroll-mt-24">
                 <div className="mb-8">
                   <div className="flex items-center space-x-3 mb-3">
-                    <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+                    <div className="w-10 h-10 bg-gradient-to-br from-[#FF5C4D] to-purple-600 rounded-lg flex items-center justify-center">
                       <SundaeIcon name={category.icon} size="lg" className="text-white" />
                     </div>
                     <h2 className="text-3xl font-bold text-[var(--text-primary)]">{category.title}</h2>
                   </div>
-                  <div className="h-1 w-20 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full"></div>
+                  <div className="h-1 w-20 bg-gradient-to-r from-[#FF5C4D] to-purple-600 rounded-full"></div>
                 </div>
                 <Accordion items={category.faqs} />
               </div>
@@ -114,7 +114,7 @@ export default function FAQPage() {
           </div>
           <p className="text-sm text-[var(--text-muted)] mt-6">
             {copy.emailSupportPrefix}{" "}
-            <a href="mailto:support@sundae.io" className="text-blue-400 hover:underline">
+            <a href="mailto:support@sundae.io" className="text-[#FF8473] hover:underline">
               support@sundae.io
             </a>
           </p>

@@ -186,7 +186,7 @@ export default async function BlogPostPage({
           {/* Header */}
           <header className="mb-12">
             <div className="flex items-center gap-4 mb-6">
-              <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-blue-500/20 text-blue-400">
+              <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-[#FF5C4D]/20 text-[#FF8473]">
                 {copy.categories[post.category] ?? post.category}
               </span>
               <time className="text-[var(--text-supporting)] text-sm">

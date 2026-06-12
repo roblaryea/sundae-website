@@ -79,7 +79,7 @@ const localizedGettingStartedCopy: Record<"en" | "ar" | "fr" | "es", GettingStar
         cta: "Start Free",
         ctaLink: "/report",
         icon: "report",
-        color: "from-blue-500 to-blue-600",
+        color: "from-[#FF5C4D] to-[#C2410C]",
       },
       {
         number: 2,
@@ -91,7 +91,7 @@ const localizedGettingStartedCopy: Record<"en" | "ar" | "fr" | "es", GettingStar
         cta: "Learn About Report",
         ctaLink: "/report",
         icon: "benchmarking",
-        color: "from-purple-500 to-purple-600",
+        color: "from-[#F2B45C] to-[#C2410C]",
       },
       {
         number: 3,
@@ -127,7 +127,7 @@ const localizedGettingStartedCopy: Record<"en" | "ar" | "fr" | "es", GettingStar
         cta: "Learn About Watchtower",
         ctaLink: "/product/watchtower",
         icon: "watchtower",
-        color: "from-indigo-500 to-indigo-600",
+        color: "from-[#FF6B5B] to-[#E03E48]",
       },
       {
         number: 6,
@@ -139,7 +139,7 @@ const localizedGettingStartedCopy: Record<"en" | "ar" | "fr" | "es", GettingStar
         cta: "Contact Sales",
         ctaLink: "/contact",
         icon: "multiLocation",
-        color: "from-purple-500 to-pink-600",
+        color: "from-[#E9A24A] to-[#FF5C4D]",
       },
     ],
     noForcedTitle: "No Forced Timelines",
@@ -175,8 +175,8 @@ const localizedGettingStartedCopy: Record<"en" | "ar" | "fr" | "es", GettingStar
     finalDescription: "Begin with Report Lite (free forever) or calculate your custom path with the pricing calculator.",
     cards: [
       { title: "Start Free", description: "Report Lite, no credit card", button: "Start Free →", icon: "report", color: "bg-green-600", href: "/report" },
-      { title: "Calculate Your Path", description: "Interactive pricing calculator", button: "Calculate Pricing →", icon: "calculator", color: "bg-[#1C47FF]" },
-      { title: "Talk to an Expert", description: "Custom recommendations", button: "Book Demo →", icon: "conversation", color: "bg-purple-600", href: "/demo" },
+      { title: "Calculate Your Path", description: "Interactive pricing calculator", button: "Calculate Pricing →", icon: "calculator", color: "bg-[#FF5C4D]" },
+      { title: "Talk to an Expert", description: "Custom recommendations", button: "Book Demo →", icon: "conversation", color: "bg-[#FF5C4D]", href: "/demo" },
     ],
   },
   ar: {
@@ -189,12 +189,12 @@ const localizedGettingStartedCopy: Record<"en" | "ar" | "fr" | "es", GettingStar
     journeyTitle: "رحلة Sundae: 6 خطوات",
     journeyDescription: "من القياس المجاني إلى ذكاء المؤسسة",
     steps: [
-      { number: 1, title: "ابدأ مجانًا (Report Lite)", subtitle: "أثبت القيمة. لا تدفع شيئًا.", description: "ارفع بيانات نقاط البيع واحصل على قياس فوري. لا حاجة لبطاقة ائتمان.", actions: ["رفع بيانات POS بصيغة CSV", "قياس فوري مقابل أقرانك", "تحديد أفضل 3 فرص", "بناء حالة داخلية"], timeline: "فوري", cta: "ابدأ مجانًا", ctaLink: "/report", icon: "report", color: "from-blue-500 to-blue-600" },
-      { number: 2, title: "افهم خط الأساس", subtitle: "اعرف موقعك مقابل أقرانك.", description: "استخدم Report Lite لفهم الأداء عبر 5 مقاييس أساسية.", actions: ["قياس المبيعات لكل قدم مربع", "مقارنة نسبة تكلفة العمالة", "تحديد فرص الهامش", "مشاركة الرؤى مع القيادة"], timeline: "1-2 أسبوع لبناء الحالة", cta: "تعرف على Report", ctaLink: "/report", icon: "benchmarking", color: "from-purple-500 to-purple-600" },
+      { number: 1, title: "ابدأ مجانًا (Report Lite)", subtitle: "أثبت القيمة. لا تدفع شيئًا.", description: "ارفع بيانات نقاط البيع واحصل على قياس فوري. لا حاجة لبطاقة ائتمان.", actions: ["رفع بيانات POS بصيغة CSV", "قياس فوري مقابل أقرانك", "تحديد أفضل 3 فرص", "بناء حالة داخلية"], timeline: "فوري", cta: "ابدأ مجانًا", ctaLink: "/report", icon: "report", color: "from-[#FF5C4D] to-[#C2410C]" },
+      { number: 2, title: "افهم خط الأساس", subtitle: "اعرف موقعك مقابل أقرانك.", description: "استخدم Report Lite لفهم الأداء عبر 5 مقاييس أساسية.", actions: ["قياس المبيعات لكل قدم مربع", "مقارنة نسبة تكلفة العمالة", "تحديد فرص الهامش", "مشاركة الرؤى مع القيادة"], timeline: "1-2 أسبوع لبناء الحالة", cta: "تعرف على Report", ctaLink: "/report", icon: "benchmarking", color: "from-[#F2B45C] to-[#C2410C]" },
       { number: 3, title: "قرر مسار الترقية", subtitle: "Report Plus/Pro أم Core؟", description: "بعد إثبات القيمة، اختر مسار الترقية حسب السرعة والعمق.", actions: ["تحتاج رؤى ذكية؟ → Report Plus/Pro", "تحتاج سرعة تشغيلية؟ → Core", "تقارير يومية تكفي؟ → Report Plus/Pro", "أكثر من 10 مواقع؟ → Core"], timeline: "Report Plus/Pro: 1-2 يوم | Core: 1-2 أسبوع", cta: "قارن الخيارات", ctaLink: "/report-vs-core", icon: "balance", color: "from-green-500 to-green-600" },
       { number: 4, title: "أضف الوحدات (اختياري)", subtitle: "تعمق حيث يهمك أكثر.", description: "اختر وحدات متخصصة حسب أكبر نقاط الألم.", actions: ["تكلفة عمالة مرتفعة؟ → Labor Intelligence", "هدر/تكلفة طعام مرتفعة؟ → Inventory Intelligence", "موردون معقدون؟ → Purchasing Intelligence", "إنفاق تسويقي كبير؟ → Marketing Intelligence", "أعمال تعتمد على الحجوزات؟ → Reservations Intelligence"], timeline: "1-2 أسبوع لكل وحدة", cta: "استعرض الوحدات", ctaLink: "/modules", icon: "network", color: "from-orange-500 to-orange-600" },
-      { number: 5, title: "فكّر في Watchtower (اختياري)", subtitle: "أضف ذكاءً خارجيًا.", description: "تتبع المنافسين وتوقع الطلب من الأحداث وافهم ديناميكيات السوق.", actions: ["تتبع حتى 10 منافسين لكل موقع", "مراقبة الأسعار والعروض", "التنبؤ بالطلب من الطقس/الأحداث", "ذكاء سوقي استراتيجي"], timeline: "إعداد أسبوع واحد", cta: "تعرف على Watchtower", ctaLink: "/product/watchtower", icon: "watchtower", color: "from-indigo-500 to-indigo-600" },
-      { number: 6, title: "التوسع إلى Enterprise", subtitle: "100+ موقع أو احتياجات خاصة.", description: "تحديثات مخصصة وخيارات white-label وSSO ودعم 24/7.", actions: ["معدل تحديث مخصص", "أرصدة ولوحات غير محدودة", "White-label و SSO", "مدير نجاح عملاء مخصص", "دعم 24/7 باتفاقيات خدمة مخصصة"], timeline: "2-4 أسابيع (تنفيذ مخصص)", cta: "تواصل مع المبيعات", ctaLink: "/contact", icon: "multiLocation", color: "from-purple-500 to-pink-600" },
+      { number: 5, title: "فكّر في Watchtower (اختياري)", subtitle: "أضف ذكاءً خارجيًا.", description: "تتبع المنافسين وتوقع الطلب من الأحداث وافهم ديناميكيات السوق.", actions: ["تتبع حتى 10 منافسين لكل موقع", "مراقبة الأسعار والعروض", "التنبؤ بالطلب من الطقس/الأحداث", "ذكاء سوقي استراتيجي"], timeline: "إعداد أسبوع واحد", cta: "تعرف على Watchtower", ctaLink: "/product/watchtower", icon: "watchtower", color: "from-[#FF6B5B] to-[#E03E48]" },
+      { number: 6, title: "التوسع إلى Enterprise", subtitle: "100+ موقع أو احتياجات خاصة.", description: "تحديثات مخصصة وخيارات white-label وSSO ودعم 24/7.", actions: ["معدل تحديث مخصص", "أرصدة ولوحات غير محدودة", "White-label و SSO", "مدير نجاح عملاء مخصص", "دعم 24/7 باتفاقيات خدمة مخصصة"], timeline: "2-4 أسابيع (تنفيذ مخصص)", cta: "تواصل مع المبيعات", ctaLink: "/contact", icon: "multiLocation", color: "from-[#E9A24A] to-[#FF5C4D]" },
     ],
     noForcedTitle: "لا جداول زمنية مفروضة",
     noForcedDescription: "ابدأ بـ Report Lite اليوم، ثم ترقَّ إلى Report Plus/Pro في الشهر المقبل. أضف Core لاحقًا. التوسع حسب أولوياتك وميزانيتك.",
@@ -217,8 +217,8 @@ const localizedGettingStartedCopy: Record<"en" | "ar" | "fr" | "es", GettingStar
     finalDescription: "ابدأ بـ Report Lite (مجانًا دائمًا) أو احسب مسارك المخصص.",
     cards: [
       { title: "ابدأ مجانًا", description: "Report Lite، بدون بطاقة ائتمان", button: "ابدأ مجانًا →", icon: "report", color: "bg-green-600", href: "/report" },
-      { title: "احسب مسارك", description: "حاسبة تسعير تفاعلية", button: "احسب التسعير →", icon: "calculator", color: "bg-[#1C47FF]" },
-      { title: "تحدث مع خبير", description: "توصيات مخصصة", button: "احجز عرضًا →", icon: "conversation", color: "bg-purple-600", href: "/demo" },
+      { title: "احسب مسارك", description: "حاسبة تسعير تفاعلية", button: "احسب التسعير →", icon: "calculator", color: "bg-[#FF5C4D]" },
+      { title: "تحدث مع خبير", description: "توصيات مخصصة", button: "احجز عرضًا →", icon: "conversation", color: "bg-[#FF5C4D]", href: "/demo" },
     ],
   },
   fr: {
@@ -231,12 +231,12 @@ const localizedGettingStartedCopy: Record<"en" | "ar" | "fr" | "es", GettingStar
     journeyTitle: "Le parcours Sundae : 6 étapes",
     journeyDescription: "Du benchmark gratuit à l'intelligence entreprise",
     steps: [
-      { number: 1, title: "Commencer gratuitement (Report Lite)", subtitle: "Prouvez la valeur. Ne payez rien.", description: "Importez vos données POS et obtenez un benchmark immédiat.", actions: ["Importer des données POS (CSV)", "Benchmark immédiat", "Identifier les 3 meilleures opportunités", "Construire un business case"], timeline: "Immédiat", cta: "Commencer gratuitement", ctaLink: "/report", icon: "report", color: "from-blue-500 to-blue-600" },
-      { number: 2, title: "Comprendre votre base", subtitle: "Voir votre position vs vos pairs.", description: "Utilisez Report Lite pour comprendre vos performances sur 5 métriques.", actions: ["Comparer les ventes au pied carré", "Comparer le coût de la main-d'oeuvre", "Identifier les opportunités de marge", "Partager avec le leadership"], timeline: "1-2 semaines", cta: "Découvrir Report", ctaLink: "/report", icon: "benchmarking", color: "from-purple-500 to-purple-600" },
+      { number: 1, title: "Commencer gratuitement (Report Lite)", subtitle: "Prouvez la valeur. Ne payez rien.", description: "Importez vos données POS et obtenez un benchmark immédiat.", actions: ["Importer des données POS (CSV)", "Benchmark immédiat", "Identifier les 3 meilleures opportunités", "Construire un business case"], timeline: "Immédiat", cta: "Commencer gratuitement", ctaLink: "/report", icon: "report", color: "from-[#FF5C4D] to-[#C2410C]" },
+      { number: 2, title: "Comprendre votre base", subtitle: "Voir votre position vs vos pairs.", description: "Utilisez Report Lite pour comprendre vos performances sur 5 métriques.", actions: ["Comparer les ventes au pied carré", "Comparer le coût de la main-d'oeuvre", "Identifier les opportunités de marge", "Partager avec le leadership"], timeline: "1-2 semaines", cta: "Découvrir Report", ctaLink: "/report", icon: "benchmarking", color: "from-[#F2B45C] to-[#C2410C]" },
       { number: 3, title: "Choisir la montée de gamme", subtitle: "Report Plus/Pro ou Core ?", description: "Après avoir prouvé la valeur avec Report Lite, choisissez selon vos besoins de vitesse et de profondeur.", actions: ["Besoin d'insights ? → Report Plus/Pro", "Besoin de vitesse ? → Core", "Les rapports quotidiens suffisent ? → Report Plus/Pro", "10+ sites ? → Core"], timeline: "Report Plus/Pro : 1-2 jours | Core : 1-2 semaines", cta: "Comparer les options", ctaLink: "/report-vs-core", icon: "balance", color: "from-green-500 to-green-600" },
       { number: 4, title: "Ajouter des modules (optionnel)", subtitle: "Approfondir là où c'est le plus utile.", description: "Choisissez des modules spécialisés selon vos plus gros points de douleur.", actions: ["Main-d'oeuvre élevée ? → Labor Intelligence", "Coût/gaspillage alimentaire ? → Inventory Intelligence", "Fournisseurs complexes ? → Purchasing Intelligence", "Marketing intense ? → Marketing Intelligence", "Basé sur les réservations ? → Reservations Intelligence"], timeline: "1-2 semaines par module", cta: "Explorer les modules", ctaLink: "/modules", icon: "network", color: "from-orange-500 to-orange-600" },
-      { number: 5, title: "Considérer Watchtower (optionnel)", subtitle: "Ajouter une intelligence externe.", description: "Voir ce qui se passe hors de vos murs.", actions: ["Jusqu'à 10 concurrents par site", "Suivre prix et promos", "Prédire la demande via météo/événements", "Intelligence marché"], timeline: "1 semaine", cta: "Découvrir Watchtower", ctaLink: "/product/watchtower", icon: "watchtower", color: "from-indigo-500 to-indigo-600" },
-      { number: 6, title: "Passer à l'entreprise", subtitle: "100+ sites ou besoins sur mesure.", description: "Fréquence de rafraîchissement, crédits illimités, white-label, SSO, support dédié.", actions: ["Fréquence personnalisée", "Crédits et tableaux illimités", "White-label et SSO", "CSM dédié", "Support 24/7 avec SLA"], timeline: "2-4 semaines", cta: "Contacter les ventes", ctaLink: "/contact", icon: "multiLocation", color: "from-purple-500 to-pink-600" },
+      { number: 5, title: "Considérer Watchtower (optionnel)", subtitle: "Ajouter une intelligence externe.", description: "Voir ce qui se passe hors de vos murs.", actions: ["Jusqu'à 10 concurrents par site", "Suivre prix et promos", "Prédire la demande via météo/événements", "Intelligence marché"], timeline: "1 semaine", cta: "Découvrir Watchtower", ctaLink: "/product/watchtower", icon: "watchtower", color: "from-[#FF6B5B] to-[#E03E48]" },
+      { number: 6, title: "Passer à l'entreprise", subtitle: "100+ sites ou besoins sur mesure.", description: "Fréquence de rafraîchissement, crédits illimités, white-label, SSO, support dédié.", actions: ["Fréquence personnalisée", "Crédits et tableaux illimités", "White-label et SSO", "CSM dédié", "Support 24/7 avec SLA"], timeline: "2-4 semaines", cta: "Contacter les ventes", ctaLink: "/contact", icon: "multiLocation", color: "from-[#E9A24A] to-[#FF5C4D]" },
     ],
     noForcedTitle: "Aucun calendrier imposé",
     noForcedDescription: "Commencez avec Report Lite aujourd'hui, montez en gamme quand c'est pertinent. Vous gardez le contrôle.",
@@ -259,8 +259,8 @@ const localizedGettingStartedCopy: Record<"en" | "ar" | "fr" | "es", GettingStar
     finalDescription: "Commencez avec Report Lite (gratuit à vie) ou calculez votre parcours personnalisé.",
     cards: [
       { title: "Commencer gratuitement", description: "Report Lite, sans carte bancaire", button: "Commencer gratuitement →", icon: "report", color: "bg-green-600", href: "/report" },
-      { title: "Calculer votre parcours", description: "Calculateur de prix interactif", button: "Calculer le prix →", icon: "calculator", color: "bg-[#1C47FF]" },
-      { title: "Parler à un expert", description: "Recommandations personnalisées", button: "Réserver une démo →", icon: "conversation", color: "bg-purple-600", href: "/demo" },
+      { title: "Calculer votre parcours", description: "Calculateur de prix interactif", button: "Calculer le prix →", icon: "calculator", color: "bg-[#FF5C4D]" },
+      { title: "Parler à un expert", description: "Recommandations personnalisées", button: "Réserver une démo →", icon: "conversation", color: "bg-[#FF5C4D]", href: "/demo" },
     ],
   },
   es: {
@@ -273,12 +273,12 @@ const localizedGettingStartedCopy: Record<"en" | "ar" | "fr" | "es", GettingStar
     journeyTitle: "El viaje Sundae: 6 pasos",
     journeyDescription: "Del benchmarking gratuito a la inteligencia empresarial",
     steps: [
-      { number: 1, title: "Empieza gratis (Report Lite)", subtitle: "Demuestra el valor. No pagas nada.", description: "Sube tus datos de POS y obtén benchmarking inmediato.", actions: ["Subir datos POS (CSV)", "Benchmark instantáneo", "Identificar las 3 mejores oportunidades", "Construir caso interno"], timeline: "Inmediato", cta: "Empezar gratis", ctaLink: "/report", icon: "report", color: "from-blue-500 to-blue-600" },
-      { number: 2, title: "Entiende tu base", subtitle: "Ve dónde estás frente a tus pares.", description: "Usa Report Lite para entender tu rendimiento en 5 métricas clave.", actions: ["Comparar ventas por pie cuadrado", "Comparar % coste laboral", "Identificar oportunidades de margen", "Compartir insights con liderazgo"], timeline: "1-2 semanas para justificar", cta: "Conocer Report", ctaLink: "/report", icon: "benchmarking", color: "from-purple-500 to-purple-600" },
+      { number: 1, title: "Empieza gratis (Report Lite)", subtitle: "Demuestra el valor. No pagas nada.", description: "Sube tus datos de POS y obtén benchmarking inmediato.", actions: ["Subir datos POS (CSV)", "Benchmark instantáneo", "Identificar las 3 mejores oportunidades", "Construir caso interno"], timeline: "Inmediato", cta: "Empezar gratis", ctaLink: "/report", icon: "report", color: "from-[#FF5C4D] to-[#C2410C]" },
+      { number: 2, title: "Entiende tu base", subtitle: "Ve dónde estás frente a tus pares.", description: "Usa Report Lite para entender tu rendimiento en 5 métricas clave.", actions: ["Comparar ventas por pie cuadrado", "Comparar % coste laboral", "Identificar oportunidades de margen", "Compartir insights con liderazgo"], timeline: "1-2 semanas para justificar", cta: "Conocer Report", ctaLink: "/report", icon: "benchmarking", color: "from-[#F2B45C] to-[#C2410C]" },
       { number: 3, title: "Decide la subida", subtitle: "¿Report Plus/Pro o Core?", description: "Cuando hayas demostrado el valor, elige según velocidad y profundidad.", actions: ["¿Necesitas insights? → Report Plus/Pro", "¿Necesitas velocidad? → Core", "¿Informes diarios bastan? → Report Plus/Pro", "¿10+ ubicaciones? → Core"], timeline: "Report Plus/Pro: 1-2 días | Core: 1-2 semanas", cta: "Comparar opciones", ctaLink: "/report-vs-core", icon: "balance", color: "from-green-500 to-green-600" },
       { number: 4, title: "Añade módulos (opcional)", subtitle: "Profundiza donde importa más.", description: "Elige módulos especializados según tus mayores puntos de dolor.", actions: ["¿Coste laboral alto? → Labor Intelligence", "¿Coste/merma de comida alto? → Inventory Intelligence", "¿Proveedores complejos? → Purchasing Intelligence", "¿Marketing pesado? → Marketing Intelligence", "¿Negocio de reservas? → Reservations Intelligence"], timeline: "1-2 semanas por módulo", cta: "Explorar módulos", ctaLink: "/modules", icon: "network", color: "from-orange-500 to-orange-600" },
-      { number: 5, title: "Considera Watchtower (opcional)", subtitle: "Añade inteligencia externa.", description: "Ve qué ocurre fuera de tus paredes y comprende la dinámica del mercado.", actions: ["Hasta 10 competidores por ubicación", "Supervisar precios y promociones", "Predecir demanda por clima/eventos", "Inteligencia de mercado"], timeline: "1 semana", cta: "Conocer Watchtower", ctaLink: "/product/watchtower", icon: "watchtower", color: "from-indigo-500 to-indigo-600" },
-      { number: 6, title: "Escala a Enterprise", subtitle: "100+ ubicaciones o necesidades personalizadas.", description: "Frecuencia de actualización, créditos ilimitados, white-label, SSO y soporte dedicado.", actions: ["Frecuencia personalizada", "Créditos y dashboards ilimitados", "White-label y SSO", "CSM dedicado", "Soporte 24/7 con SLA"], timeline: "2-4 semanas", cta: "Contactar ventas", ctaLink: "/contact", icon: "multiLocation", color: "from-purple-500 to-pink-600" },
+      { number: 5, title: "Considera Watchtower (opcional)", subtitle: "Añade inteligencia externa.", description: "Ve qué ocurre fuera de tus paredes y comprende la dinámica del mercado.", actions: ["Hasta 10 competidores por ubicación", "Supervisar precios y promociones", "Predecir demanda por clima/eventos", "Inteligencia de mercado"], timeline: "1 semana", cta: "Conocer Watchtower", ctaLink: "/product/watchtower", icon: "watchtower", color: "from-[#FF6B5B] to-[#E03E48]" },
+      { number: 6, title: "Escala a Enterprise", subtitle: "100+ ubicaciones o necesidades personalizadas.", description: "Frecuencia de actualización, créditos ilimitados, white-label, SSO y soporte dedicado.", actions: ["Frecuencia personalizada", "Créditos y dashboards ilimitados", "White-label y SSO", "CSM dedicado", "Soporte 24/7 con SLA"], timeline: "2-4 semanas", cta: "Contactar ventas", ctaLink: "/contact", icon: "multiLocation", color: "from-[#E9A24A] to-[#FF5C4D]" },
     ],
     noForcedTitle: "Sin calendarios forzados",
     noForcedDescription: "Empieza con Report Lite hoy y sube de nivel cuando te convenga. Tú marcas el ritmo.",
@@ -301,8 +301,8 @@ const localizedGettingStartedCopy: Record<"en" | "ar" | "fr" | "es", GettingStar
     finalDescription: "Empieza con Report Lite (gratis para siempre) o calcula tu ruta personalizada.",
     cards: [
       { title: "Empezar gratis", description: "Report Lite, sin tarjeta", button: "Empezar gratis →", icon: "report", color: "bg-green-600", href: "/report" },
-      { title: "Calcular tu ruta", description: "Calculadora de precios interactiva", button: "Calcular precio →", icon: "calculator", color: "bg-[#1C47FF]" },
-      { title: "Hablar con un experto", description: "Recomendaciones personalizadas", button: "Reservar demo →", icon: "conversation", color: "bg-purple-600", href: "/demo" },
+      { title: "Calcular tu ruta", description: "Calculadora de precios interactiva", button: "Calcular precio →", icon: "calculator", color: "bg-[#FF5C4D]" },
+      { title: "Hablar con un experto", description: "Recomendaciones personalizadas", button: "Reservar demo →", icon: "conversation", color: "bg-[#FF5C4D]", href: "/demo" },
     ],
   },
 };
@@ -431,7 +431,7 @@ export default function GettingStartedPage() {
               <StaggerItem key={journey.title}>
                 <Card variant="elevated" className="hover:shadow-xl transition-all duration-300 h-full">
                   <CardHeader>
-                    <div className="w-12 h-12 bg-[#1C47FF] rounded-xl flex items-center justify-center mb-4">
+                    <div className="w-12 h-12 bg-[#FF5C4D] rounded-xl flex items-center justify-center mb-4">
                       <SundaeIcon name={journey.icon} size="lg" className="text-white" />
                     </div>
                     <CardTitle className="text-xl text-[var(--text-primary)] mb-4">{journey.title}</CardTitle>
@@ -440,7 +440,7 @@ export default function GettingStartedPage() {
                     <div className="space-y-4">
                       {journey.items.map((item, idx) => (
                         <div key={idx} className="flex items-center space-x-3">
-                          <div className="w-8 h-8 bg-blue-500/20 text-blue-400 rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">{idx + 1}</div>
+                          <div className="w-8 h-8 bg-[#FF5C4D]/20 text-[#FF8473] rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">{idx + 1}</div>
                           <p className="text-sm text-[var(--text-secondary)]">{item}</p>
                         </div>
                       ))}
@@ -466,7 +466,7 @@ export default function GettingStartedPage() {
                 <Card variant="elevated" className="h-full text-center hover:shadow-xl transition-all duration-300">
                   <CardHeader>
                     <CardTitle className="text-lg text-[var(--text-primary)] mb-2">{timeline.tier}</CardTitle>
-                    <div className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent mb-4">
+                    <div className="text-4xl font-bold bg-gradient-to-r from-[#FF8473] to-[#F2B45C] bg-clip-text text-transparent mb-4">
                       {timeline.time}
                     </div>
                     <CardDescription className="text-[var(--text-supporting)]">{timeline.description}</CardDescription>

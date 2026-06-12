@@ -15,16 +15,16 @@ export const generatedLocalCopy = {
         "alert": "Los ingresos cayeron un 8,2% respecto a la semana anterior",
         "causes": [
           {
-            "cause": "El personal del servidor se redujo un 15%",
-            "impact": "-$3,200"
+            "cause": "El personal de sala se redujo un 15%",
+            "impact": "-$3.200"
           },
           {
-            "cause": "Elemento de menú n.° 4 86 a las 7 p. m.",
+            "cause": "Plato n.° 4 agotado (86) a las 7 p. m.",
             "impact": "-$1.800"
           },
           {
             "cause": "Tiempo: lluvia viernes-sábado",
-            "impact": "-$1,100"
+            "impact": "-$1.100"
           }
         ],
         "strongNegative": "Fuerte negativo",
@@ -33,11 +33,11 @@ export const generatedLocalCopy = {
       "correlationMatrix": {
         "label": "Matriz de correlación",
         "modules": [
-          "reverendo",
-          "mano de obra",
-          "inv",
+          "Ingr.",
+          "Mano de obra",
+          "Inv.",
           "Mktg",
-          "Wx"
+          "Clima"
         ],
         "strongNegative": "Fuerte negativo",
         "strongPositive": "Fuerte positivo"
@@ -47,11 +47,11 @@ export const generatedLocalCopy = {
         "netRevenueChange": "Cambio de ingresos netos",
         "bars": [
           {
-            "label": "bases",
+            "label": "Base",
             "color": "bg-slate-500"
           },
           {
-            "label": "promoción",
+            "label": "Promo",
             "color": "bg-green-500"
           },
           {
@@ -59,15 +59,15 @@ export const generatedLocalCopy = {
             "color": "bg-green-400"
           },
           {
-            "label": "mano de obra",
+            "label": "Mano de obra",
             "color": "bg-red-400"
           },
           {
-            "label": "Wx",
+            "label": "Clima",
             "color": "bg-red-300"
           },
           {
-            "label": "totales",
+            "label": "Total",
             "color": "bg-purple-500"
           }
         ]
@@ -76,29 +76,29 @@ export const generatedLocalCopy = {
         "label": "Radar de eficiencia del gasto",
         "markers": [
           "Mktg",
-          "mano de obra",
-          "inv",
-          "alquiler",
-          "tecnología"
+          "Mano de obra",
+          "Inv.",
+          "Alquiler",
+          "Tecnología"
         ],
-        "alert": "ROI de marketing 2,3 veces superior al punto de referencia. Bajo rendimiento laboral."
+        "alert": "ROI de marketing 2,3 veces superior al punto de referencia. Mano de obra de bajo rendimiento."
       },
       "campaignPulse": {
         "label": "Campaign Pulse Monitor",
-        "campaignROI": "Retorno de la inversión de la campaña",
-        "revImpact": "Impacto de revoluciones",
+        "campaignROI": "ROI de la campaña",
+        "revImpact": "Impacto en ingresos",
         "headers": [
           "Campaña",
-          "gastar",
-          "reverendo",
-          "retorno de la inversión"
+          "Gasto",
+          "Ingr.",
+          "ROI"
         ],
         "rows": [
           [
             "Brunch de fin de semana",
-            "$1,200",
-            "$4,800",
-            "4.0x"
+            "$1.200",
+            "$4.800",
+            "4,0x"
           ],
           [
             "Empuje de hora feliz",
@@ -123,7 +123,7 @@ export const generatedLocalCopy = {
             "item": "Hamburguesa Clásica"
           },
           {
-            "item": "Control deslizante Wagyu"
+            "item": "Slider de Wagyu"
           },
           {
             "item": "Sándwich De Pollo"
@@ -133,7 +133,7 @@ export const generatedLocalCopy = {
         "after": "después"
       },
       "whatChanged": {
-        "label": "¿Qué cambió el motor?",
+        "label": "Motor «Qué Cambió»",
         "metrics": [
           {
             "metric": "Ingresos del almuerzo",
@@ -143,7 +143,7 @@ export const generatedLocalCopy = {
           },
           {
             "metric": "% de costo laboral",
-            "change": "+3,1 personas",
+            "change": "+3,1 pp",
             "cause": "Horas extras: 2 empleados no se presentaron el jueves",
             "severity": "negativo"
           },
@@ -172,14 +172,14 @@ export const generatedLocalCopy = {
       },
       "causeEffect": {
         "label": "تحليل السبب والنتيجة",
-        "alert": "وانخفضت الإيرادات بنسبة 8.2% مقارنة بالأسبوع السابق",
+        "alert": "انخفضت الإيرادات بنسبة 8.2% مقارنة بالأسبوع السابق",
         "causes": [
           {
-            "cause": "تم تخفيض عدد موظفي الخادم بنسبة 15%",
+            "cause": "تم تقليص عدد النُدُل بنسبة 15%",
             "impact": "- 3200 دولار"
           },
           {
-            "cause": "عنصر القائمة رقم 4 86'd الساعة 7 مساءً",
+            "cause": "الصنف رقم 4 نفد (86) الساعة 7 مساءً",
             "impact": "- 1800 دولار"
           },
           {
@@ -193,11 +193,11 @@ export const generatedLocalCopy = {
       "correlationMatrix": {
         "label": "مصفوفة الارتباط",
         "modules": [
-          "القس",
-          "العمل",
-          "الجرد",
-          "مكتج",
-          "Wx"
+          "الإيرادات",
+          "العمالة",
+          "المخزون",
+          "التسويق",
+          "الطقس"
         ],
         "strongNegative": "سلبية قوية",
         "strongPositive": "إيجابية قوية"
@@ -219,11 +219,11 @@ export const generatedLocalCopy = {
             "color": "bg-green-400"
           },
           {
-            "label": "العمل",
+            "label": "العمالة",
             "color": "bg-red-400"
           },
           {
-            "label": "Wx",
+            "label": "الطقس",
             "color": "bg-red-300"
           },
           {
@@ -235,23 +235,23 @@ export const generatedLocalCopy = {
       "spendRadar": {
         "label": "رادار كفاءة الإنفاق",
         "markers": [
-          "مكتج",
-          "العمل",
-          "الجرد",
-          "إيجار",
-          "التكنولوجيا"
+          "التسويق",
+          "العمالة",
+          "المخزون",
+          "الإيجار",
+          "التقنية"
         ],
         "alert": "عائد الاستثمار التسويقي 2.3 مرة أعلى من المعيار. أداء العمالة ضعيف."
       },
       "campaignPulse": {
         "label": "مراقب Pulse الحملة",
         "campaignROI": "عائد استثمار الحملة",
-        "revImpact": "تأثير القس",
+        "revImpact": "تأثير الإيرادات",
         "headers": [
-          "حملة",
-          "انفق",
-          "القس",
-          "عائد الاستثمار"
+          "الحملة",
+          "الإنفاق",
+          "الإيرادات",
+          "ROI"
         ],
         "rows": [
           [
@@ -276,8 +276,8 @@ export const generatedLocalCopy = {
         "warning": "الساعة السعيدة: تم اكتشاف ارتفاع في تكلفة العمالة (+22%)"
       },
       "cannibalization": {
-        "label": "كاشف تفكيك لحوم البشر",
-        "alert": "عنصر جديد \"Truffle Burger\" يلتهم \"Classic Burger\" (-34%)",
+        "label": "كاشف ابتلاع المبيعات",
+        "alert": "صنف جديد \"Truffle Burger\" يلتهم مبيعات \"Classic Burger\" (-34%)",
         "items": [
           {
             "item": "كلاسيك برجر"
@@ -293,7 +293,7 @@ export const generatedLocalCopy = {
         "after": "بعد"
       },
       "whatChanged": {
-        "label": "ما تغير المحرك",
+        "label": "محرك تحليل التغيّر",
         "metrics": [
           {
             "metric": "إيرادات الغداء",
@@ -335,7 +335,7 @@ export const generatedLocalCopy = {
         "alert": "Der Umsatz sank im Vergleich zur Vorwoche um 8,2 %",
         "causes": [
           {
-            "cause": "Serverpersonal um 15 % reduziert",
+            "cause": "Servicepersonal um 15 % reduziert",
             "impact": "-3.200 $"
           },
           {
@@ -409,7 +409,7 @@ export const generatedLocalCopy = {
         "revImpact": "Rev Impact",
         "headers": [
           "Kampagne",
-          "Verbringen",
+          "Ausgaben",
           "Rev",
           "ROI"
         ],
@@ -453,7 +453,7 @@ export const generatedLocalCopy = {
         "after": "Nachher"
       },
       "whatChanged": {
-        "label": "Was hat den Motor verändert?",
+        "label": "„Was hat sich geändert“-Engine",
         "metrics": [
           {
             "metric": "Einnahmen aus dem Mittagessen",
@@ -495,16 +495,16 @@ export const generatedLocalCopy = {
         "alert": "A receita caiu 8,2% em relação à semana anterior",
         "causes": [
           {
-            "cause": "A equipe do servidor foi reduzida em 15%",
+            "cause": "A equipe de salão foi reduzida em 15%",
             "impact": "-US$ 3.200"
           },
           {
-            "cause": "Item de menu nº 4 86 às 19h",
+            "cause": "Prato nº 4 esgotado (86) às 19h",
             "impact": "-US$ 1.800"
           },
           {
             "cause": "Tempo: chuva de sexta a sábado",
-            "impact": "-$ 1.100"
+            "impact": "-US$ 1.100"
           }
         ],
         "strongNegative": "Negativo forte",
@@ -603,7 +603,7 @@ export const generatedLocalCopy = {
             "item": "Hambúrguer Clássico"
           },
           {
-            "item": "Controle deslizante Wagyu"
+            "item": "Slider de Wagyu"
           },
           {
             "item": "Sanduíche de Frango"
@@ -613,7 +613,7 @@ export const generatedLocalCopy = {
         "after": "Depois"
       },
       "whatChanged": {
-        "label": "O que mudou no motor",
+        "label": "Motor \"O Que Mudou\"",
         "metrics": [
           {
             "metric": "Receita de almoço",
@@ -624,7 +624,7 @@ export const generatedLocalCopy = {
           {
             "metric": "% de custo de mão de obra",
             "change": "+3,1 pp",
-            "cause": "Horas extras: 2 funcionários não comparecidos na quinta-feira",
+            "cause": "Horas extras: 2 funcionários faltaram na quinta-feira",
             "severity": "negativo"
           },
           {
@@ -659,7 +659,7 @@ export const generatedLocalCopy = {
             "impact": "-3 200 $"
           },
           {
-            "cause": "Élément de menu n°4 86'd à 19h",
+            "cause": "Élément de menu n°4 épuisé à 19h (86)",
             "impact": "-1 800$"
           },
           {
@@ -673,10 +673,10 @@ export const generatedLocalCopy = {
       "correlationMatrix": {
         "label": "Matrice de corrélation",
         "modules": [
-          "Rév",
+          "Rev",
           "Travail",
           "Inv.",
-          "Fabrication",
+          "Mktg",
           "Wx"
         ],
         "strongNegative": "Fort négatif",
@@ -715,10 +715,10 @@ export const generatedLocalCopy = {
       "spendRadar": {
         "label": "Radar d'efficacité des dépenses",
         "markers": [
-          "Fabrication",
+          "Mktg",
           "Travail",
           "Inv.",
-          "Louer",
+          "Loyer",
           "Technologie"
         ],
         "alert": "ROI marketing 2,3x supérieur à la référence. Travail sous-performant."
@@ -729,9 +729,9 @@ export const generatedLocalCopy = {
         "revImpact": "Impact sur les rév.",
         "headers": [
           "Campagne",
-          "Dépenser",
-          "Rév",
-          "Retour sur investissement"
+          "Dépense",
+          "Rev",
+          "ROI"
         ],
         "rows": [
           [
@@ -763,7 +763,7 @@ export const generatedLocalCopy = {
             "item": "Burger classique"
           },
           {
-            "item": "Curseur Wagyu"
+            "item": "Slider Wagyu"
           },
           {
             "item": "Sandwich au poulet"
@@ -773,7 +773,7 @@ export const generatedLocalCopy = {
         "after": "Après"
       },
       "whatChanged": {
-        "label": "Ce qui a changé le moteur",
+        "label": "Moteur « Ce qui a changé »",
         "metrics": [
           {
             "metric": "Revenus du déjeuner",
@@ -815,7 +815,7 @@ export const generatedLocalCopy = {
         "alert": "De omzet daalde met 8,2% vergeleken met voorgaande week",
         "causes": [
           {
-            "cause": "Serverpersoneel verminderd met 15%",
+            "cause": "Bedieningspersoneel verminderd met 15%",
             "impact": "-$3.200"
           },
           {
@@ -833,7 +833,7 @@ export const generatedLocalCopy = {
       "correlationMatrix": {
         "label": "Correlatiematrix",
         "modules": [
-          "Ds",
+          "Omzet",
           "Arbeid",
           "Inv",
           "Mktg",
@@ -890,7 +890,7 @@ export const generatedLocalCopy = {
         "headers": [
           "Campagne",
           "Besteed",
-          "Ds",
+          "Omzet",
           "ROI"
         ],
         "rows": [
@@ -923,7 +923,7 @@ export const generatedLocalCopy = {
             "item": "Klassieke hamburger"
           },
           {
-            "item": "Wagyu-schuifregelaar"
+            "item": "Wagyu-slider"
           },
           {
             "item": "Broodje kip"
@@ -933,7 +933,7 @@ export const generatedLocalCopy = {
         "after": "Na"
       },
       "whatChanged": {
-        "label": "Wat veranderde de motor",
+        "label": "\"Wat is er veranderd\"-engine",
         "metrics": [
           {
             "metric": "Lunchinkomsten",
@@ -975,11 +975,11 @@ export const generatedLocalCopy = {
         "alert": "گزشتہ ہفتے کے مقابلے میں ریونیو میں 8.2% کمی واقع ہوئی۔",
         "causes": [
           {
-            "cause": "سرور کے عملے میں 15 فیصد کمی",
+            "cause": "ویٹر عملے میں 15 فیصد کمی",
             "impact": "-$3,200"
           },
           {
-            "cause": "مینو آئٹم #4 86'd شام 7 بجے",
+            "cause": "مینو آئٹم #4 شام 7 بجے ختم ہو گیا (86)",
             "impact": "-$1,800"
           },
           {
@@ -1033,7 +1033,7 @@ export const generatedLocalCopy = {
         ]
       },
       "spendRadar": {
-        "label": "کارکردگی کا ریڈار خرچ کریں۔",
+        "label": "اخراجات کی کارکردگی کا ریڈار",
         "markers": [
           "Mktg",
           "مزدوری",
@@ -1093,7 +1093,7 @@ export const generatedLocalCopy = {
         "after": "کے بعد"
       },
       "whatChanged": {
-        "label": "کیا بدلا انجن",
+        "label": "\"کیا بدلا\" انجن",
         "metrics": [
           {
             "metric": "دوپہر کے کھانے کی آمدنی",
@@ -1104,7 +1104,7 @@ export const generatedLocalCopy = {
           {
             "metric": "لیبر لاگت %",
             "change": "+3.1pp",
-            "cause": "اوور ٹائم: 2 عملہ جمعرات کو شوز نہیں کرتا",
+            "cause": "اوور ٹائم: 2 ملازمین جمعرات کو غیر حاضر رہے",
             "severity": "منفی"
           },
           {
@@ -1135,11 +1135,11 @@ export const generatedLocalCopy = {
         "alert": "पिछले सप्ताह की तुलना में राजस्व में 8.2% की गिरावट आई",
         "causes": [
           {
-            "cause": "सर्वर स्टाफिंग 15% कम हो गई",
+            "cause": "वेटर स्टाफ़ 15% कम हो गया",
             "impact": "-$3,200"
           },
           {
-            "cause": "मेनू आइटम #4 86'डी शाम 7 बजे",
+            "cause": "मेनू आइटम #4 शाम 7 बजे खत्म (86)",
             "impact": "-$1,800"
           },
           {
@@ -1153,9 +1153,9 @@ export const generatedLocalCopy = {
       "correlationMatrix": {
         "label": "सहसंबंध मैट्रिक्स",
         "modules": [
-          "रेव्ह",
+          "राजस्व",
           "श्रम",
-          "आमंत्रण",
+          "इन्व",
           "बाज़ार",
           "Wx"
         ],
@@ -1193,11 +1193,11 @@ export const generatedLocalCopy = {
         ]
       },
       "spendRadar": {
-        "label": "दक्षता राडार खर्च करें",
+        "label": "व्यय दक्षता राडार",
         "markers": [
           "बाज़ार",
           "श्रम",
-          "आमंत्रण",
+          "इन्व",
           "किराया",
           "टेक"
         ],
@@ -1209,8 +1209,8 @@ export const generatedLocalCopy = {
         "revImpact": "रेव प्रभाव",
         "headers": [
           "अभियान",
-          "खर्च करो",
-          "रेव्ह",
+          "व्यय",
+          "राजस्व",
           "आरओआई"
         ],
         "rows": [
@@ -1236,7 +1236,7 @@ export const generatedLocalCopy = {
         "warning": "ख़ुशी का समय: श्रम लागत में वृद्धि का पता चला (+22%)"
       },
       "cannibalization": {
-        "label": "नरभक्षण डिटेक्टर",
+        "label": "कैनिबलाइज़ेशन डिटेक्टर",
         "alert": "नया आइटम 'ट्रफल बर्गर' 'क्लासिक बर्गर' को नष्ट कर रहा है (-34%)",
         "items": [
           {
@@ -1253,7 +1253,7 @@ export const generatedLocalCopy = {
         "after": "के बाद"
       },
       "whatChanged": {
-        "label": "क्या बदला इंजन",
+        "label": "\"क्या बदला\" इंजन",
         "metrics": [
           {
             "metric": "दोपहर के भोजन का राजस्व",
@@ -1295,7 +1295,7 @@ export const generatedLocalCopy = {
         "alert": "I ricavi sono diminuiti dell'8,2% rispetto alla settimana precedente",
         "causes": [
           {
-            "cause": "Personale del server ridotto del 15%",
+            "cause": "Personale di sala ridotto del 15%",
             "impact": "-$ 3.200"
           },
           {
@@ -1358,7 +1358,7 @@ export const generatedLocalCopy = {
           "Mktg",
           "Lavoro",
           "Inv",
-          "Affittare",
+          "Affitto",
           "Tecnologia"
         ],
         "alert": "ROI del marketing 2,3 volte superiore al benchmark. Lavoro sottoperformante."
@@ -1403,7 +1403,7 @@ export const generatedLocalCopy = {
             "item": "Hamburger classico"
           },
           {
-            "item": "Cursore Wagyu"
+            "item": "Slider Wagyu"
           },
           {
             "item": "Panino Al Pollo"
@@ -1413,7 +1413,7 @@ export const generatedLocalCopy = {
         "after": "Dopo"
       },
       "whatChanged": {
-        "label": "Cosa è cambiato nel motore",
+        "label": "Motore \"Cosa è cambiato\"",
         "metrics": [
           {
             "metric": "Entrate del pranzo",
@@ -1455,11 +1455,11 @@ export const generatedLocalCopy = {
         "alert": "Gelir önceki haftaya göre %8,2 düştü",
         "causes": [
           {
-            "cause": "Sunucu personeli %15 azaltıldı",
+            "cause": "Servis personeli %15 azaltıldı",
             "impact": "-3.200$"
           },
           {
-            "cause": "Menü öğesi #4 86:00'da",
+            "cause": "4 numaralı ürün akşam 7'de tükendi (86)",
             "impact": "-1.800$"
           },
           {
@@ -1475,7 +1475,7 @@ export const generatedLocalCopy = {
         "modules": [
           "Rev",
           "Emek",
-          "Fatura",
+          "Envanter",
           "Mktg",
           "Wx"
         ],
@@ -1517,8 +1517,8 @@ export const generatedLocalCopy = {
         "markers": [
           "Mktg",
           "Emek",
-          "Fatura",
-          "Kiralık",
+          "Envanter",
+          "Kira",
           "Teknoloji"
         ],
         "alert": "Pazarlama yatırım getirisi karşılaştırma ölçütünün 2,3 katı üzerinde. İşçilik düşük performans gösteriyor."
@@ -1556,14 +1556,14 @@ export const generatedLocalCopy = {
         "warning": "Happy Hour: İşgücü maliyetinde artış tespit edildi (+%22)"
       },
       "cannibalization": {
-        "label": "Yamyamlık Dedektörü",
-        "alert": "Yeni ürün 'Trüf Burger', 'Klasik Burger'i yamyamlaştırıyor (-34%)",
+        "label": "Kanibalizasyon Dedektörü",
+        "alert": "Yeni ürün 'Trüf Burger', 'Klasik Burger' satışlarını yiyor (-34%)",
         "items": [
           {
             "item": "Klasik Burger"
           },
           {
-            "item": "Wagyu Kaydırıcısı"
+            "item": "Wagyu Slider"
           },
           {
             "item": "Tavuklu Sandviç"
@@ -1573,7 +1573,7 @@ export const generatedLocalCopy = {
         "after": "Sonra"
       },
       "whatChanged": {
-        "label": "Motor Neyi Değiştirdi?",
+        "label": "\"Ne Değişti\" Motoru",
         "metrics": [
           {
             "metric": "Öğle Yemeği Geliri",
@@ -1615,7 +1615,7 @@ export const generatedLocalCopy = {
         "alert": "Przychody spadły o 8,2% w porównaniu do poprzedniego tygodnia",
         "causes": [
           {
-            "cause": "Obsada serwera zmniejszona o 15%",
+            "cause": "Obsada kelnerska zmniejszona o 15%",
             "impact": "-3200 dolarów"
           },
           {
@@ -1633,9 +1633,9 @@ export const generatedLocalCopy = {
       "correlationMatrix": {
         "label": "Macierz korelacji",
         "modules": [
-          "ks",
+          "Przych.",
           "Praca",
-          "nr inw",
+          "Zapasy",
           "Mktg",
           "Wx"
         ],
@@ -1673,12 +1673,12 @@ export const generatedLocalCopy = {
         ]
       },
       "spendRadar": {
-        "label": "Wydaj Radar Efektywności",
+        "label": "Radar efektywności wydatków",
         "markers": [
           "Mktg",
           "Praca",
-          "nr inw",
-          "Wynajmij",
+          "Zapasy",
+          "Czynsz",
           "Tech"
         ],
         "alert": "Marketingowy zwrot z inwestycji (ROI) 2,3 razy wyższy od benchmarku. Słaba wydajność pracy."
@@ -1689,8 +1689,8 @@ export const generatedLocalCopy = {
         "revImpact": "Wpływ Rev",
         "headers": [
           "Kampania",
-          "Wydaj",
-          "ks",
+          "Wydatki",
+          "Przych.",
           "Zwrot z inwestycji"
         ],
         "rows": [
@@ -1723,7 +1723,7 @@ export const generatedLocalCopy = {
             "item": "Klasyczny Burger"
           },
           {
-            "item": "Suwak Wagyu"
+            "item": "Wagyu Slider"
           },
           {
             "item": "Kanapka z Kurczakiem"
@@ -1733,7 +1733,7 @@ export const generatedLocalCopy = {
         "after": "po"
       },
       "whatChanged": {
-        "label": "Co zmieniło silnik",
+        "label": "Silnik \"Co się zmieniło\"",
         "metrics": [
           {
             "metric": "Dochód z lunchu",
@@ -1775,11 +1775,11 @@ export const generatedLocalCopy = {
         "alert": "收入较前一周下降 8.2%",
         "causes": [
           {
-            "cause": "服务器人员减少 15%",
+            "cause": "服务员人手减少 15%",
             "impact": "-$3,200"
           },
           {
-            "cause": "菜单项 #4 86 点，晚上 7 点",
+            "cause": "4 号菜品晚上 7 点售罄（86）",
             "impact": "-$1,800"
           },
           {
@@ -1787,27 +1787,27 @@ export const generatedLocalCopy = {
             "impact": "-$1,100"
           }
         ],
-        "strongNegative": "强负面",
-        "strongPositive": "强阳性"
+        "strongNegative": "强负向",
+        "strongPositive": "强正向"
       },
       "correlationMatrix": {
-        "label": "相关矩阵",
+        "label": "相关性矩阵",
         "modules": [
-          "牧师",
-          "劳工",
+          "收入",
+          "人工",
           "库存",
-          "马克特",
-          "维x"
+          "营销",
+          "天气"
         ],
-        "strongNegative": "强负面",
-        "strongPositive": "强阳性"
+        "strongNegative": "强负向",
+        "strongPositive": "强正向"
       },
       "revenueWaterfall": {
         "label": "收入归因瀑布",
         "netRevenueChange": "净收入变化",
         "bars": [
           {
-            "label": "基地",
+            "label": "基准",
             "color": "bg-slate-500"
           },
           {
@@ -1819,11 +1819,11 @@ export const generatedLocalCopy = {
             "color": "bg-green-400"
           },
           {
-            "label": "劳工",
+            "label": "人工",
             "color": "bg-red-400"
           },
           {
-            "label": "维x",
+            "label": "天气",
             "color": "bg-red-300"
           },
           {
@@ -1835,29 +1835,29 @@ export const generatedLocalCopy = {
       "spendRadar": {
         "label": "支出效率雷达",
         "markers": [
-          "马克特",
-          "劳工",
+          "营销",
+          "人工",
           "库存",
           "租金",
-          "科技"
+          "技术"
         ],
-        "alert": "营销投资回报率比基准高 2.3 倍。劳工表现不佳。"
+        "alert": "营销 ROI 比基准高 2.3 倍。人工投入表现不佳。"
       },
       "campaignPulse": {
-        "label": "战役Pulse监测器",
-        "campaignROI": "活动投资回报率",
-        "revImpact": "修订影响",
+        "label": "Campaign Pulse Monitor",
+        "campaignROI": "活动 ROI",
+        "revImpact": "收入影响",
         "headers": [
           "活动",
-          "花费",
-          "牧师",
-          "投资回报率"
+          "支出",
+          "收入",
+          "ROI"
         ],
         "rows": [
           [
             "周末早午餐",
             "1,200 美元",
-            "$4,800",
+            "4,800 美元",
             "4.0倍"
           ],
           [
@@ -1883,7 +1883,7 @@ export const generatedLocalCopy = {
             "item": "经典汉堡"
           },
           {
-            "item": "和牛滑块"
+            "item": "和牛迷你汉堡"
           },
           {
             "item": "鸡肉三明治"
@@ -1893,7 +1893,7 @@ export const generatedLocalCopy = {
         "after": "之后"
       },
       "whatChanged": {
-        "label": "引擎发生了什么变化",
+        "label": "变化溯因引擎",
         "metrics": [
           {
             "metric": "午餐收入",
@@ -1903,14 +1903,14 @@ export const generatedLocalCopy = {
           },
           {
             "metric": "劳动力成本%",
-            "change": "+3.1分",
+            "change": "+3.1个百分点",
             "cause": "加班：周四有 2 名员工缺席",
             "severity": "消极的"
           },
           {
-            "metric": "食物垃圾",
+            "metric": "食物浪费",
             "change": "-18%",
-            "cause": "票面等级调整生效",
+            "cause": "备货标准量调整生效",
             "severity": "积极的"
           },
           {
@@ -1935,7 +1935,7 @@ export const generatedLocalCopy = {
         "alert": "収益は前週比 8.2% 減少しました",
         "causes": [
           {
-            "cause": "サーバーの人員配置を 15% 削減",
+            "cause": "ホールスタッフを 15% 削減",
             "impact": "-$3,200"
           },
           {
@@ -1953,10 +1953,10 @@ export const generatedLocalCopy = {
       "correlationMatrix": {
         "label": "相関行列",
         "modules": [
-          "改訂版",
+          "収益",
           "労働",
-          "投資家",
-          "製造業",
+          "在庫",
+          "マーケ",
           "Wx"
         ],
         "strongNegative": "強いネガティブ",
@@ -1995,22 +1995,22 @@ export const generatedLocalCopy = {
       "spendRadar": {
         "label": "支出効率レーダー",
         "markers": [
-          "製造業",
+          "マーケ",
           "労働",
-          "投資家",
+          "在庫",
           "家賃",
           "技術"
         ],
         "alert": "マーケティング ROI はベンチマークを 2.3 倍上回ります。労働パフォーマンスが低い。"
       },
       "campaignPulse": {
-        "label": "キャンペーンPulseモニター",
+        "label": "Campaign Pulse Monitor",
         "campaignROI": "キャンペーンのROI",
-        "revImpact": "レビジョンインパクト",
+        "revImpact": "収益インパクト",
         "headers": [
           "キャンペーン",
           "支出する",
-          "改訂版",
+          "収益",
           "ROI"
         ],
         "rows": [
@@ -2053,7 +2053,7 @@ export const generatedLocalCopy = {
         "after": "後"
       },
       "whatChanged": {
-        "label": "エンジンの何が変わったのか",
+        "label": "「何が変わったか」エンジン",
         "metrics": [
           {
             "metric": "ランチ収入",
@@ -2065,7 +2065,7 @@ export const generatedLocalCopy = {
             "metric": "人件費%",
             "change": "+3.1pp",
             "cause": "残業: スタッフ 2 名が木曜に欠勤",
-            "severity": "否定的な"
+            "severity": "ネガティブな"
           },
           {
             "metric": "食品廃棄物",
@@ -2077,7 +2077,7 @@ export const generatedLocalCopy = {
             "metric": "平均チケット",
             "change": "-$2.40",
             "cause": "プロモーション割引は上限なしで適用されます",
-            "severity": "否定的な"
+            "severity": "ネガティブな"
           }
         ]
       }
@@ -2095,11 +2095,11 @@ export const generatedLocalCopy = {
         "alert": "매출은 전주 대비 8.2% 감소",
         "causes": [
           {
-            "cause": "서버 인력 15% 감소",
+            "cause": "홀 서빙 인력 15% 감소",
             "impact": "-$3,200"
           },
           {
-            "cause": "메뉴 항목 #4 86'd at 7pm",
+            "cause": "메뉴 항목 #4 오후 7시 품절(86)",
             "impact": "-$1,800"
           },
           {
@@ -2115,7 +2115,7 @@ export const generatedLocalCopy = {
         "modules": [
           "레브",
           "노동",
-          "인보이스",
+          "재고",
           "마케팅",
           "Wx"
         ],
@@ -2157,7 +2157,7 @@ export const generatedLocalCopy = {
         "markers": [
           "마케팅",
           "노동",
-          "인보이스",
+          "재고",
           "임대",
           "기술"
         ],
@@ -2166,7 +2166,7 @@ export const generatedLocalCopy = {
       "campaignPulse": {
         "label": "캠페인 Pulse 모니터",
         "campaignROI": "캠페인 ROI",
-        "revImpact": "개정 영향",
+        "revImpact": "수익 영향",
         "headers": [
           "캠페인",
           "지출",
@@ -2196,7 +2196,7 @@ export const generatedLocalCopy = {
         "warning": "해피 아워: 인건비 급증 감지(+22%)"
       },
       "cannibalization": {
-        "label": "식인종 탐지기",
+        "label": "잠식 탐지기",
         "alert": "'클래식 버거'를 잠식하는 신상품 '트러플 버거'(-34%)",
         "items": [
           {
@@ -2213,7 +2213,7 @@ export const generatedLocalCopy = {
         "after": "이후"
       },
       "whatChanged": {
-        "label": "무엇이 엔진을 바꾸었나",
+        "label": "\"무엇이 바뀌었나\" 엔진",
         "metrics": [
           {
             "metric": "점심 수익",
@@ -2255,7 +2255,7 @@ export const generatedLocalCopy = {
         "alert": "Pendapatan turun 8,2% dibandingkan minggu sebelumnya",
         "causes": [
           {
-            "cause": "Staf server berkurang 15%",
+            "cause": "Staf pelayan berkurang 15%",
             "impact": "-$3.200"
           },
           {
@@ -2273,7 +2273,7 @@ export const generatedLocalCopy = {
       "correlationMatrix": {
         "label": "Matriks Korelasi",
         "modules": [
-          "Pdt",
+          "Pdptn",
           "Tenaga Kerja",
           "Inv",
           "Mktg",
@@ -2295,7 +2295,7 @@ export const generatedLocalCopy = {
             "color": "bg-green-500"
           },
           {
-            "label": "Tidak bisa",
+            "label": "Menu",
             "color": "bg-green-400"
           },
           {
@@ -2330,7 +2330,7 @@ export const generatedLocalCopy = {
         "headers": [
           "Kampanye",
           "Menghabiskan",
-          "Pdt",
+          "Pdptn",
           "ROI"
         ],
         "rows": [
@@ -2363,7 +2363,7 @@ export const generatedLocalCopy = {
             "item": "Burger Klasik"
           },
           {
-            "item": "Penggeser Wagyu"
+            "item": "Wagyu Slider"
           },
           {
             "item": "Sandwich Ayam"
@@ -2373,7 +2373,7 @@ export const generatedLocalCopy = {
         "after": "Setelah"
       },
       "whatChanged": {
-        "label": "Apa yang Mengubah Mesin",
+        "label": "Mesin \"Apa yang Berubah\"",
         "metrics": [
           {
             "metric": "Pendapatan Makan Siang",
@@ -2383,7 +2383,7 @@ export const generatedLocalCopy = {
           },
           {
             "metric": "% Biaya Tenaga Kerja",
-            "change": "+3.1 hal",
+            "change": "+3,1 pp",
             "cause": "Lembur: 2 staf tidak hadir pada hari Kamis",
             "severity": "negatif"
           },
@@ -2415,11 +2415,11 @@ export const generatedLocalCopy = {
         "alert": "আগের সপ্তাহের তুলনায় রাজস্ব 8.2% কমেছে",
         "causes": [
           {
-            "cause": "সার্ভার স্টাফিং 15% হ্রাস পেয়েছে",
+            "cause": "পরিবেশন কর্মী 15% হ্রাস পেয়েছে",
             "impact": "- $3,200"
           },
           {
-            "cause": "মেনু আইটেম #4 86'd 7pm এ",
+            "cause": "মেনু আইটেম #4 সন্ধ্যা ৭টায় ফুরিয়ে গেছে (৮৬)",
             "impact": "-$1,800"
           },
           {
@@ -2517,7 +2517,7 @@ export const generatedLocalCopy = {
       },
       "cannibalization": {
         "label": "ক্যানিবালাইজেশন ডিটেক্টর",
-        "alert": "নতুন আইটেম 'ট্রাফল বার্গার' নরখাদক 'ক্লাসিক বার্গার' (-34%)",
+        "alert": "নতুন আইটেম 'ট্রাফল বার্গার' 'ক্লাসিক বার্গার'-কে গ্রাস করছে (-34%)",
         "items": [
           {
             "item": "ক্লাসিক বার্গার"
@@ -2533,7 +2533,7 @@ export const generatedLocalCopy = {
         "after": "পরে"
       },
       "whatChanged": {
-        "label": "কি পরিবর্তন ইঞ্জিন",
+        "label": "\"কী পরিবর্তিত হয়েছে\" ইঞ্জিন",
         "metrics": [
           {
             "metric": "মধ্যাহ্নভোজের আয়",
@@ -2575,11 +2575,11 @@ export const generatedLocalCopy = {
         "alert": "Doanh thu giảm 8,2% so với tuần trước",
         "causes": [
           {
-            "cause": "Nhân sự server giảm 15%",
+            "cause": "Nhân viên phục vụ giảm 15%",
             "impact": "-$3,200"
           },
           {
-            "cause": "Mục menu số 4 86'd lúc 7 giờ tối",
+            "cause": "Mục menu số 4 hết hàng lúc 7 giờ tối (86)",
             "impact": "-$1,800"
           },
           {
@@ -2595,7 +2595,7 @@ export const generatedLocalCopy = {
         "modules": [
           "Rev",
           "Lao động",
-          "mời",
+          "Tồn kho",
           "Mktg",
           "Wx"
         ],
@@ -2637,7 +2637,7 @@ export const generatedLocalCopy = {
         "markers": [
           "Mktg",
           "Lao động",
-          "mời",
+          "Tồn kho",
           "thuê",
           "công nghệ"
         ],
@@ -2657,33 +2657,33 @@ export const generatedLocalCopy = {
           [
             "Bữa trưa cuối tuần",
             "1.200 USD",
-            "$4,800",
-            "4.0x"
+            "4.800 USD",
+            "4,0x"
           ],
           [
             "Đẩy giờ hạnh phúc",
-            "$800",
+            "800 USD",
             "2.100 USD",
-            "2,6 lần"
+            "2,6x"
           ],
           [
             "Vụ nổ lòng trung thành",
-            "$600",
-            "$1,700",
-            "2,8 lần"
+            "600 USD",
+            "1.700 USD",
+            "2,8x"
           ]
         ],
         "warning": "Giờ Khuyến mãi: phát hiện chi phí lao động tăng đột biến (+22%)"
       },
       "cannibalization": {
-        "label": "Máy dò ăn thịt đồng loại",
-        "alert": "Mặt hàng mới 'Burger Truffle' ăn thịt 'Burger cổ điển' (-34%)",
+        "label": "Trình phát hiện ăn mòn doanh số",
+        "alert": "Mặt hàng mới 'Burger Truffle' lấn át doanh số 'Burger cổ điển' (-34%)",
         "items": [
           {
             "item": "Burger cổ điển"
           },
           {
-            "item": "Thanh trượt Wagyu"
+            "item": "Wagyu Slider"
           },
           {
             "item": "Sandwich gà"
@@ -2693,7 +2693,7 @@ export const generatedLocalCopy = {
         "after": "Sau"
       },
       "whatChanged": {
-        "label": "Điều gì đã thay đổi động cơ",
+        "label": "Công cụ \"Điều gì đã thay đổi\"",
         "metrics": [
           {
             "metric": "Doanh thu ăn trưa",
@@ -2735,7 +2735,7 @@ export const generatedLocalCopy = {
         "alert": "Veniturile au scăzut cu 8,2% față de săptămâna anterioară",
         "causes": [
           {
-            "cause": "Personalul serverului a fost redus cu 15%",
+            "cause": "Personalul de servire a fost redus cu 15%",
             "impact": "-3.200 USD"
           },
           {
@@ -2853,7 +2853,7 @@ export const generatedLocalCopy = {
         "after": "După"
       },
       "whatChanged": {
-        "label": "Ce a schimbat motorul",
+        "label": "Motorul \"Ce s-a schimbat\"",
         "metrics": [
           {
             "metric": "Venituri de prânz",
@@ -2895,7 +2895,7 @@ export const generatedLocalCopy = {
         "alert": "รายได้ลดลง 8.2% เมื่อเทียบกับสัปดาห์ก่อน",
         "causes": [
           {
-            "cause": "พนักงานเซิร์ฟเวอร์ลดลง 15%",
+            "cause": "พนักงานเสิร์ฟลดลง 15%",
             "impact": "-$3,200"
           },
           {
@@ -2913,9 +2913,9 @@ export const generatedLocalCopy = {
       "correlationMatrix": {
         "label": "เมทริกซ์สหสัมพันธ์",
         "modules": [
-          "สาธุคุณ",
+          "รายได้",
           "แรงงาน",
-          "ใบแจ้งหนี้",
+          "สินค้าคงคลัง",
           "การตลาด",
           "Wx"
         ],
@@ -2957,7 +2957,7 @@ export const generatedLocalCopy = {
         "markers": [
           "การตลาด",
           "แรงงาน",
-          "ใบแจ้งหนี้",
+          "สินค้าคงคลัง",
           "เช่า",
           "เทค"
         ],
@@ -2970,7 +2970,7 @@ export const generatedLocalCopy = {
         "headers": [
           "แคมเปญ",
           "ใช้จ่าย",
-          "สาธุคุณ",
+          "รายได้",
           "ผลตอบแทนการลงทุน"
         ],
         "rows": [
@@ -2988,7 +2988,7 @@ export const generatedLocalCopy = {
           ],
           [
             "ความภักดีระเบิด",
-            "$600",
+            "600 ดอลลาร์",
             "1,700 ดอลลาร์",
             "2.8x"
           ]
@@ -2996,8 +2996,8 @@ export const generatedLocalCopy = {
         "warning": "ชั่วโมงแห่งความสุข: ตรวจพบต้นทุนแรงงานพุ่งสูงขึ้น (+22%)"
       },
       "cannibalization": {
-        "label": "เครื่องตรวจจับการกินเนื้อคน",
-        "alert": "ไอเทมใหม่ 'Truffle Burger' ที่สามารถกิน 'Classic Burger' ได้ (-34%)",
+        "label": "เครื่องตรวจจับการแย่งยอดขาย",
+        "alert": "ไอเทมใหม่ 'Truffle Burger' กำลังแย่งยอดขาย 'Classic Burger' (-34%)",
         "items": [
           {
             "item": "คลาสสิคเบอร์เกอร์"
@@ -3013,7 +3013,7 @@ export const generatedLocalCopy = {
         "after": "หลังจากนั้น"
       },
       "whatChanged": {
-        "label": "สิ่งที่เปลี่ยนแปลงเครื่องยนต์",
+        "label": "เครื่องมือ \"อะไรที่เปลี่ยนแปลง\"",
         "metrics": [
           {
             "metric": "รายได้อาหารกลางวัน",
@@ -3023,7 +3023,7 @@ export const generatedLocalCopy = {
           },
           {
             "metric": "ต้นทุนค่าแรง %",
-            "change": "+3.1หน้า",
+            "change": "+3.1 pp",
             "cause": "การล่วงเวลา: พนักงาน 2 คนไม่แสดงตัวในวันพฤหัสบดี",
             "severity": "ลบ"
           },
@@ -3055,12 +3055,12 @@ export const generatedLocalCopy = {
         "alert": "Intäkterna sjönk med 8,2 % jämfört med föregående vecka",
         "causes": [
           {
-            "cause": "Serverbemanningen minskade med 15 %",
+            "cause": "Serveringspersonalen minskade med 15 %",
             "impact": "-3 200 USD"
           },
           {
-            "cause": "Menyalternativ #4 86'd kl. 19.00",
-            "impact": "-$1 800"
+            "cause": "Menyalternativ #4 slut kl. 19.00 (86)",
+            "impact": "-1 800 USD"
           },
           {
             "cause": "Väder: regn fre-lör",
@@ -3136,8 +3136,8 @@ export const generatedLocalCopy = {
         "rows": [
           [
             "Helgbrunch",
-            "$1 200",
-            "$4 800",
+            "1 200 USD",
+            "4 800 USD",
             "4,0x"
           ],
           [
@@ -3149,7 +3149,7 @@ export const generatedLocalCopy = {
           [
             "Lojalitet Blast",
             "600 USD",
-            "$1 700",
+            "1 700 USD",
             "2,8x"
           ]
         ],
@@ -3173,7 +3173,7 @@ export const generatedLocalCopy = {
         "after": "Efter"
       },
       "whatChanged": {
-        "label": "Vad förändrade motorn",
+        "label": "\"Vad ändrades\"-motorn",
         "metrics": [
           {
             "metric": "Lunchintäkter",
@@ -3219,7 +3219,7 @@ export const generatedLocalCopy = {
             "impact": "-$3,200"
           },
           {
-            "cause": "Item menu #4 86'd pada jam 7 malam",
+            "cause": "Item menu #4 kehabisan stok pada jam 7 malam (86)",
             "impact": "-$1,800"
           },
           {
@@ -3333,7 +3333,7 @@ export const generatedLocalCopy = {
         "after": "Selepas"
       },
       "whatChanged": {
-        "label": "Apa yang Mengubah Enjin",
+        "label": "Enjin \"Apa yang Berubah\"",
         "metrics": [
           {
             "metric": "Hasil makan tengah hari",
@@ -3368,7 +3368,7 @@ export const generatedLocalCopy = {
       {
         "title": "الجدول الزمني لتأثير التسويق",
         "headline": "شاهد التأثيرات المتأخرة لكل دولار تسويقي",
-        "description": "تراكب الإنفاق التسويقي والحملات والعروض الترويجية على الجدول الزمني للإيرادات. يُبرز الذكاء المتبادل الفارق الزمني الذي يتراوح بين 3 إلى 7 أيام بين إجراءات التسويق وتأثير الإيرادات، وهو ما تفتقده لوحات المعلومات التقليدية تمامًا. (Cross-Intelligence)",
+        "description": "تراكب الإنفاق التسويقي والحملات والعروض الترويجية على الجدول الزمني للإيرادات. يُبرز Cross-Intelligence الفارق الزمني الذي يتراوح بين 3 إلى 7 أيام بين إجراءات التسويق وتأثير الإيرادات، وهو ما تفتقده لوحات المعلومات التقليدية تمامًا.",
         "capabilities": [
           "تراكب الإيرادات + الإنفاق التسويقي مع نوافذ تأخير قابلة للتعديل",
           "إسناد عائد استثمار الحملة مع درجات الثقة الإحصائية",
@@ -3376,8 +3376,8 @@ export const generatedLocalCopy = {
           "الكشف الآلي عن استجابات الإيرادات المتأخرة"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
-        "tier": "قاعدة"
+        "color": "from-[#F2B45C] to-[#C2410C]",
+        "tier": "base"
       },
       {
         "title": "بطاقات السبب والنتيجة",
@@ -3390,8 +3390,8 @@ export const generatedLocalCopy = {
           "مطابقة النمط التاريخي للأسباب المتكررة"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
-        "tier": "قاعدة"
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
+        "tier": "base"
       },
       {
         "title": "مصفوفة الارتباط",
@@ -3405,8 +3405,8 @@ export const generatedLocalCopy = {
           "قواعد وحدود الارتباط المخصصة"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
-        "tier": "الموالية"
+        "color": "from-[#F4A259] to-[#C2410C]",
+        "tier": "pro"
       },
       {
         "title": "شلال إسناد الإيرادات",
@@ -3419,8 +3419,8 @@ export const generatedLocalCopy = {
           "اتجاهات الإسناد من فترة إلى أخرى"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
-        "tier": "الموالية"
+        "color": "from-[#FF7E6F] to-[#E03E48]",
+        "tier": "pro"
       },
       {
         "title": "رادار كفاءة الإنفاق",
@@ -3434,7 +3434,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "balance",
         "color": "from-emerald-500 to-teal-600",
-        "tier": "الموالية"
+        "tier": "pro"
       },
       {
         "title": "مراقب Pulse الحملة",
@@ -3448,25 +3448,25 @@ export const generatedLocalCopy = {
         ],
         "icon": "pulse",
         "color": "from-rose-500 to-pink-600",
-        "tier": "الموالية"
+        "tier": "pro"
       },
       {
-        "title": "كاشف تفكيك لحوم البشر",
+        "title": "كاشف ابتلاع المبيعات",
         "headline": "اكتشف متى تسرق العروض الترويجية من مبيعاتك الخاصة",
-        "description": "اكتشف تلقائيًا عندما يقوم عنصر قائمة أو عرض ترويجي أو حملة جديدة بتفكيك المنتجات الحالية قبل أن يؤدي ذلك إلى تآكل هوامش أرباحك بهدوء.",
+        "description": "اكتشف تلقائيًا عندما يلتهم عنصر قائمة أو عرض ترويجي أو حملة جديدة مبيعات المنتجات الحالية قبل أن يؤدي ذلك إلى تآكل هوامش أرباحك بهدوء.",
         "capabilities": [
-          "الكشف التلقائي عن لحوم البشر",
+          "الكشف التلقائي عن ابتلاع المبيعات",
           "تحليل نمط استبدال عنصر القائمة",
           "تحديد كمية إزاحة الإيرادات مع تأثير الهامش",
-          "تنبيهات تفكيك لحوم البشر على أساس العتبة",
-          "أنماط أكل لحوم البشر التاريخية"
+          "تنبيهات ابتلاع المبيعات على أساس العتبة",
+          "أنماط ابتلاع المبيعات التاريخية"
         ],
         "icon": "warning",
         "color": "from-amber-500 to-orange-600",
-        "tier": "الموالية"
+        "tier": "pro"
       },
       {
-        "title": "ما تغير المحرك",
+        "title": "محرك \"ما الذي تغيّر\"",
         "headline": "التحليل التلقائي للسبب الجذري لكل حركة مترية",
         "description": "عندما يتحرك مقياس بشكل ملحوظ، يحدد المحرك الأسباب المحتملة من خلال تحليل التغييرات عبر جميع مصادر البيانات المتصلة.",
         "capabilities": [
@@ -3477,7 +3477,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "search",
         "color": "from-slate-500 to-slate-700",
-        "tier": "قاعدة"
+        "tier": "base"
       }
     ],
     "es": [
@@ -3492,7 +3492,7 @@ export const generatedLocalCopy = {
           "Detección automatizada de respuestas de ingresos retrasadas"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
+        "color": "from-[#F2B45C] to-[#C2410C]",
         "tier": "base"
       },
       {
@@ -3506,7 +3506,7 @@ export const generatedLocalCopy = {
           "Coincidencia de patrones históricos para causas recurrentes"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
         "tier": "base"
       },
       {
@@ -3521,8 +3521,8 @@ export const generatedLocalCopy = {
           "Reglas y umbrales de correlación personalizados"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
-        "tier": "profesional"
+        "color": "from-[#F4A259] to-[#C2410C]",
+        "tier": "pro"
       },
       {
         "title": "Cascada de atribución de ingresos",
@@ -3535,8 +3535,8 @@ export const generatedLocalCopy = {
           "Tendencias de atribución de un período a otro"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
-        "tier": "profesional"
+        "color": "from-[#FF7E6F] to-[#E03E48]",
+        "tier": "pro"
       },
       {
         "title": "Radar de eficiencia del gasto",
@@ -3550,7 +3550,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "balance",
         "color": "from-emerald-500 to-teal-600",
-        "tier": "profesional"
+        "tier": "pro"
       },
       {
         "title": "Campaign Pulse Monitor",
@@ -3564,7 +3564,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "pulse",
         "color": "from-rose-500 to-pink-600",
-        "tier": "profesional"
+        "tier": "pro"
       },
       {
         "title": "Detector de canibalización",
@@ -3579,7 +3579,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "warning",
         "color": "from-amber-500 to-orange-600",
-        "tier": "profesional"
+        "tier": "pro"
       },
       {
         "title": "¿Qué cambió el motor?",
@@ -3608,7 +3608,7 @@ export const generatedLocalCopy = {
           "Détection automatisée des réponses retardées en matière de revenus"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
+        "color": "from-[#F2B45C] to-[#C2410C]",
         "tier": "base"
       },
       {
@@ -3622,7 +3622,7 @@ export const generatedLocalCopy = {
           "Correspondance de modèles historiques pour des causes récurrentes"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
         "tier": "base"
       },
       {
@@ -3637,7 +3637,7 @@ export const generatedLocalCopy = {
           "Règles et seuils de corrélation personnalisés"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
+        "color": "from-[#F4A259] to-[#C2410C]",
         "tier": "pro"
       },
       {
@@ -3651,7 +3651,7 @@ export const generatedLocalCopy = {
           "Tendances d'attribution d'une période à l'autre"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
+        "color": "from-[#FF7E6F] to-[#E03E48]",
         "tier": "pro"
       },
       {
@@ -3698,7 +3698,7 @@ export const generatedLocalCopy = {
         "tier": "pro"
       },
       {
-        "title": "Ce qui a changé le moteur",
+        "title": "Moteur « Ce qui a changé »",
         "headline": "Analyse automatique des causes profondes pour chaque mouvement métrique",
         "description": "Lorsqu'une métrique évolue de manière significative, le moteur identifie les causes probables en analysant les changements dans toutes les sources de données connectées.",
         "capabilities": [
@@ -3724,8 +3724,8 @@ export const generatedLocalCopy = {
           "Geautomatiseerde detectie van vertraagde inkomstenreacties"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
-        "tier": "basis"
+        "color": "from-[#F2B45C] to-[#C2410C]",
+        "tier": "base"
       },
       {
         "title": "Oorzaak- en gevolgkaarten",
@@ -3738,8 +3738,8 @@ export const generatedLocalCopy = {
           "Historische patroonmatching voor terugkerende oorzaken"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
-        "tier": "basis"
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
+        "tier": "base"
       },
       {
         "title": "Correlatiematrix",
@@ -3753,7 +3753,7 @@ export const generatedLocalCopy = {
           "Aangepaste correlatieregels en drempels"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
+        "color": "from-[#F4A259] to-[#C2410C]",
         "tier": "pro"
       },
       {
@@ -3767,7 +3767,7 @@ export const generatedLocalCopy = {
           "Toeschrijvingstrends van periode tot periode"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
+        "color": "from-[#FF7E6F] to-[#E03E48]",
         "tier": "pro"
       },
       {
@@ -3814,7 +3814,7 @@ export const generatedLocalCopy = {
         "tier": "pro"
       },
       {
-        "title": "Wat veranderde de motor",
+        "title": "\"Wat is er veranderd\"-engine",
         "headline": "Automatische analyse van de hoofdoorzaken voor elke metrische beweging",
         "description": "Wanneer een statistiek aanzienlijk beweegt, identificeert de engine waarschijnlijke oorzaken door veranderingen in alle verbonden gegevensbronnen te analyseren.",
         "capabilities": [
@@ -3825,7 +3825,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "search",
         "color": "from-slate-500 to-slate-700",
-        "tier": "basis"
+        "tier": "base"
       }
     ],
     "pt": [
@@ -3840,8 +3840,8 @@ export const generatedLocalCopy = {
           "Detecção automatizada de respostas de receita atrasadas"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
-        "tier": "básico"
+        "color": "from-[#F2B45C] to-[#C2410C]",
+        "tier": "base"
       },
       {
         "title": "Cartões de causa e efeito",
@@ -3854,8 +3854,8 @@ export const generatedLocalCopy = {
           "Correspondência de padrões históricos para causas recorrentes"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
-        "tier": "básico"
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
+        "tier": "base"
       },
       {
         "title": "Matriz de Correlação",
@@ -3869,8 +3869,8 @@ export const generatedLocalCopy = {
           "Regras e limites de correlação customizados"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
-        "tier": "profissional"
+        "color": "from-[#F4A259] to-[#C2410C]",
+        "tier": "pro"
       },
       {
         "title": "Cascata de atribuição de receita",
@@ -3883,8 +3883,8 @@ export const generatedLocalCopy = {
           "Tendências de atribuição período a período"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
-        "tier": "profissional"
+        "color": "from-[#FF7E6F] to-[#E03E48]",
+        "tier": "pro"
       },
       {
         "title": "Radar de eficiência de gastos",
@@ -3898,7 +3898,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "balance",
         "color": "from-emerald-500 to-teal-600",
-        "tier": "profissional"
+        "tier": "pro"
       },
       {
         "title": "Campaign Pulse Monitor",
@@ -3912,7 +3912,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "pulse",
         "color": "from-rose-500 to-pink-600",
-        "tier": "profissional"
+        "tier": "pro"
       },
       {
         "title": "Detector de canibalização",
@@ -3927,10 +3927,10 @@ export const generatedLocalCopy = {
         ],
         "icon": "warning",
         "color": "from-amber-500 to-orange-600",
-        "tier": "profissional"
+        "tier": "pro"
       },
       {
-        "title": "O que mudou no motor",
+        "title": "Motor \"O Que Mudou\"",
         "headline": "Análise automática de causa raiz para cada movimento métrico",
         "description": "Quando uma métrica muda significativamente, o mecanismo identifica as causas prováveis analisando as alterações em todas as fontes de dados conectadas.",
         "capabilities": [
@@ -3941,14 +3941,14 @@ export const generatedLocalCopy = {
         ],
         "icon": "search",
         "color": "from-slate-500 to-slate-700",
-        "tier": "básico"
+        "tier": "base"
       }
     ],
     "de": [
       {
         "title": "Zeitleiste der Marketingauswirkungen",
         "headline": "Sehen Sie sich die verzögerten Auswirkungen jedes Marketing-Dollars an",
-        "description": "Überlagern Sie Marketingausgaben, Kampagnen und Werbeaktionen auf Ihrer Umsatzzeitleiste. Cross-Intelligence deckt die 3–7-tägige Verzögerung zwischen Marketingmaßnahmen und Umsatzauswirkungen auf, die herkömmliche Dashboards völlig übersehen.",
+        "description": "Überlagern Sie Marketingausgaben, Kampagnen und Werbeaktionen auf Ihrer Umsatzzeitleiste. Cross-Intelligence deckt die 3-7-tägige Verzögerung zwischen Marketingmaßnahmen und Umsatzauswirkungen auf, die herkömmliche Dashboards völlig übersehen.",
         "capabilities": [
           "Umsatz- und Marketingausgaben-Overlay mit einstellbaren Verzögerungsfenstern",
           "Zuordnung des Kampagnen-ROI mit statistischen Konfidenzwerten",
@@ -3956,8 +3956,8 @@ export const generatedLocalCopy = {
           "Automatische Erkennung verspäteter Umsatzantworten"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
-        "tier": "Basis"
+        "color": "from-[#F2B45C] to-[#C2410C]",
+        "tier": "base"
       },
       {
         "title": "Ursachen- und Wirkungskarten",
@@ -3970,8 +3970,8 @@ export const generatedLocalCopy = {
           "Historischer Musterabgleich für wiederkehrende Ursachen"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
-        "tier": "Basis"
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
+        "tier": "base"
       },
       {
         "title": "Korrelationsmatrix",
@@ -3985,8 +3985,8 @@ export const generatedLocalCopy = {
           "Benutzerdefinierte Korrelationsregeln und Schwellenwerte"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
-        "tier": "Profi"
+        "color": "from-[#F4A259] to-[#C2410C]",
+        "tier": "pro"
       },
       {
         "title": "Wasserfall der Umsatzzuordnung",
@@ -3999,8 +3999,8 @@ export const generatedLocalCopy = {
           "Attributionstrends im Zeitverlauf"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
-        "tier": "Profi"
+        "color": "from-[#FF7E6F] to-[#E03E48]",
+        "tier": "pro"
       },
       {
         "title": "Radar zur Ausgabeneffizienz",
@@ -4014,7 +4014,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "balance",
         "color": "from-emerald-500 to-teal-600",
-        "tier": "Profi"
+        "tier": "pro"
       },
       {
         "title": "Campaign Pulse Monitor",
@@ -4028,7 +4028,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "pulse",
         "color": "from-rose-500 to-pink-600",
-        "tier": "Profi"
+        "tier": "pro"
       },
       {
         "title": "Kannibalisierungsdetektor",
@@ -4043,10 +4043,10 @@ export const generatedLocalCopy = {
         ],
         "icon": "warning",
         "color": "from-amber-500 to-orange-600",
-        "tier": "Profi"
+        "tier": "pro"
       },
       {
-        "title": "Was hat den Motor verändert?",
+        "title": "„Was hat sich geändert“-Engine",
         "headline": "Automatische Ursachenanalyse für jede metrische Bewegung",
         "description": "Wenn sich eine Metrik erheblich verändert, identifiziert die Engine wahrscheinliche Ursachen, indem sie Änderungen in allen verbundenen Datenquellen analysiert.",
         "capabilities": [
@@ -4057,14 +4057,14 @@ export const generatedLocalCopy = {
         ],
         "icon": "search",
         "color": "from-slate-500 to-slate-700",
-        "tier": "Basis"
+        "tier": "base"
       }
     ],
     "ur": [
       {
         "title": "مارکیٹنگ امپیکٹ ٹائم لائن",
         "headline": "ہر مارکیٹنگ ڈالر کے تاخیری اثرات دیکھیں",
-        "description": "اپنی آمدنی کی ٹائم لائن پر مارکیٹنگ کے اخراجات، مہمات اور پروموشنز کو اوورلے کریں۔ کراس انٹیلی جنس مارکیٹنگ کی کارروائیوں اور آمدنی کے اثرات کے درمیان 3-7 دن کے وقفے کو ظاہر کرتی ہے جس سے روایتی ڈیش بورڈ مکمل طور پر محروم رہتے ہیں۔ (Cross-Intelligence)",
+        "description": "اپنی آمدنی کی ٹائم لائن پر مارکیٹنگ کے اخراجات، مہمات اور پروموشنز کو اوورلے کریں۔ Cross-Intelligence مارکیٹنگ کی کارروائیوں اور آمدنی کے اثرات کے درمیان 3-7 دن کے وقفے کو ظاہر کرتی ہے جس سے روایتی ڈیش بورڈ مکمل طور پر محروم رہتے ہیں۔",
         "capabilities": [
           "ریونیو + مارکیٹنگ کے اخراجات ایڈجسٹ لیگ ونڈوز کے ساتھ اوورلے",
           "شماریاتی اعتماد کے اسکور کے ساتھ مہم کا ROI انتساب",
@@ -4072,13 +4072,13 @@ export const generatedLocalCopy = {
           "تاخیری ریونیو کے جوابات کا خودکار پتہ لگانا"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
-        "tier": "بنیاد"
+        "color": "from-[#F2B45C] to-[#C2410C]",
+        "tier": "base"
       },
       {
         "title": "کاز اینڈ ایفیکٹ کارڈز",
         "headline": "ہر میٹرک تبدیلی کے لیے خود کار طریقے سے تیار کردہ وضاحتیں۔",
-        "description": "جب آمدنی میں کمی یا مزدوری کی لاگت میں اضافہ ہوتا ہے، تو کراس انٹیلی جنس خود بخود کارڈز تیار کرتی ہے جس میں یہ وضاحت کی جاتی ہے کہ ماڈیولز میں تبدیلیوں کو جوڑ کر اصل وجہ کو سامنے لانے کے لیے کیوں۔ (Cross-Intelligence)",
+        "description": "جب آمدنی میں کمی یا مزدوری کی لاگت میں اضافہ ہوتا ہے، تو Cross-Intelligence خود بخود کارڈز تیار کرتی ہے جس میں یہ وضاحت کی جاتی ہے کہ ماڈیولز میں تبدیلیوں کو جوڑ کر اصل وجہ کو سامنے لانے کے لیے کیوں۔",
         "capabilities": [
           "ڈیٹا کے ذرائع میں خودکار جڑ کی شناخت",
           "ہر ایک وجہ مفروضے کے لیے اعتماد کا اسکورنگ",
@@ -4086,8 +4086,8 @@ export const generatedLocalCopy = {
           "بار بار آنے والی وجوہات کے لیے تاریخی پیٹرن کا ملاپ"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
-        "tier": "بنیاد"
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
+        "tier": "base"
       },
       {
         "title": "ارتباط میٹرکس",
@@ -4101,8 +4101,8 @@ export const generatedLocalCopy = {
           "حسب ضرورت ارتباط کے اصول اور حد"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
-        "tier": "پرو"
+        "color": "from-[#F4A259] to-[#C2410C]",
+        "tier": "pro"
       },
       {
         "title": "ریونیو انتساب آبشار",
@@ -4115,11 +4115,11 @@ export const generatedLocalCopy = {
           "مدت سے زیادہ مدت کے انتساب کے رجحانات"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
-        "tier": "پرو"
+        "color": "from-[#FF7E6F] to-[#E03E48]",
+        "tier": "pro"
       },
       {
-        "title": "کارکردگی کا ریڈار خرچ کریں۔",
+        "title": "اخراجات کی کارکردگی کا ریڈار",
         "headline": "ہر خرچ کے زمرے میں ROI کا موازنہ کریں۔",
         "description": "مارکیٹنگ، لیبر، انوینٹری، اور کرایہ میں ہر ڈالر پر واپسی کا موازنہ کریں تاکہ یہ معلوم ہو سکے کہ کون سے لاگت کے مراکز کم کارکردگی کا مظاہرہ کر رہے ہیں۔",
         "capabilities": [
@@ -4130,7 +4130,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "balance",
         "color": "from-emerald-500 to-teal-600",
-        "tier": "پرو"
+        "tier": "pro"
       },
       {
         "title": "مہم Pulse مانیٹر",
@@ -4144,7 +4144,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "pulse",
         "color": "from-rose-500 to-pink-600",
-        "tier": "پرو"
+        "tier": "pro"
       },
       {
         "title": "کینبالائزیشن ڈیٹیکٹر",
@@ -4155,14 +4155,14 @@ export const generatedLocalCopy = {
           "مینو آئٹم کے متبادل پیٹرن کا تجزیہ",
           "مارجن کے اثر کے ساتھ ریونیو کی نقل مکانی کی مقدار",
           "حد پر مبنی کینبالائزیشن الرٹس",
-          "نسل کشی کے تاریخی نمونے۔"
+          "کینبلائزیشن کے تاریخی نمونے۔"
         ],
         "icon": "warning",
         "color": "from-amber-500 to-orange-600",
-        "tier": "پرو"
+        "tier": "pro"
       },
       {
-        "title": "کیا بدلا انجن",
+        "title": "\"کیا بدلا\" انجن",
         "headline": "ہر میٹرک موومنٹ کے لیے خودکار جڑ کا تجزیہ",
         "description": "جب ایک میٹرک نمایاں طور پر حرکت کرتا ہے، تو انجن تمام منسلک ڈیٹا ذرائع میں تبدیلیوں کا تجزیہ کرکے ممکنہ وجوہات کی نشاندہی کرتا ہے۔",
         "capabilities": [
@@ -4173,7 +4173,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "search",
         "color": "from-slate-500 to-slate-700",
-        "tier": "بنیاد"
+        "tier": "base"
       }
     ],
     "it": [
@@ -4188,7 +4188,7 @@ export const generatedLocalCopy = {
           "Rilevamento automatico delle risposte ritardate sulle entrate"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
+        "color": "from-[#F2B45C] to-[#C2410C]",
         "tier": "base"
       },
       {
@@ -4202,7 +4202,7 @@ export const generatedLocalCopy = {
           "Corrispondenza di modelli storici per cause ricorrenti"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
         "tier": "base"
       },
       {
@@ -4217,7 +4217,7 @@ export const generatedLocalCopy = {
           "Regole e soglie di correlazione personalizzate"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
+        "color": "from-[#F4A259] to-[#C2410C]",
         "tier": "pro"
       },
       {
@@ -4231,7 +4231,7 @@ export const generatedLocalCopy = {
           "Tendenze di attribuzione periodo per periodo"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
+        "color": "from-[#FF7E6F] to-[#E03E48]",
         "tier": "pro"
       },
       {
@@ -4278,7 +4278,7 @@ export const generatedLocalCopy = {
         "tier": "pro"
       },
       {
-        "title": "Cosa è cambiato nel motore",
+        "title": "Motore \"Cosa è cambiato\"",
         "headline": "Analisi automatica della causa principale per ogni movimento metrico",
         "description": "Quando una metrica cambia in modo significativo, il motore identifica le cause probabili analizzando le modifiche in tutte le origini dati connesse.",
         "capabilities": [
@@ -4304,8 +4304,8 @@ export const generatedLocalCopy = {
           "विलंबित राजस्व प्रतिक्रियाओं का स्वचालित पता लगाना"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
-        "tier": "आधार"
+        "color": "from-[#F2B45C] to-[#C2410C]",
+        "tier": "base"
       },
       {
         "title": "कारण एवं प्रभाव कार्ड",
@@ -4318,8 +4318,8 @@ export const generatedLocalCopy = {
           "आवर्ती कारणों से मेल खाने वाला ऐतिहासिक पैटर्न"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
-        "tier": "आधार"
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
+        "tier": "base"
       },
       {
         "title": "सहसंबंध मैट्रिक्स",
@@ -4333,8 +4333,8 @@ export const generatedLocalCopy = {
           "कस्टम सहसंबंध नियम और सीमाएँ"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
-        "tier": "प्रो"
+        "color": "from-[#F4A259] to-[#C2410C]",
+        "tier": "pro"
       },
       {
         "title": "राजस्व एट्रिब्यूशन झरना",
@@ -4347,11 +4347,11 @@ export const generatedLocalCopy = {
           "समय-समय पर एट्रिब्यूशन रुझान"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
-        "tier": "प्रो"
+        "color": "from-[#FF7E6F] to-[#E03E48]",
+        "tier": "pro"
       },
       {
-        "title": "दक्षता राडार खर्च करें",
+        "title": "व्यय दक्षता राडार",
         "headline": "प्रत्येक व्यय श्रेणी में आरओआई की तुलना करें",
         "description": "यह देखने के लिए कि कौन से लागत केंद्र खराब प्रदर्शन कर रहे हैं, मार्केटिंग, श्रम, इन्वेंट्री और किराए पर प्रत्येक डॉलर पर रिटर्न की तुलना करें।",
         "capabilities": [
@@ -4362,7 +4362,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "balance",
         "color": "from-emerald-500 to-teal-600",
-        "tier": "प्रो"
+        "tier": "pro"
       },
       {
         "title": "अभियान Pulse मॉनिटर",
@@ -4376,25 +4376,25 @@ export const generatedLocalCopy = {
         ],
         "icon": "pulse",
         "color": "from-rose-500 to-pink-600",
-        "tier": "प्रो"
+        "tier": "pro"
       },
       {
-        "title": "नरभक्षण डिटेक्टर",
+        "title": "कैनिबलाइज़ेशन डिटेक्टर",
         "headline": "पता लगाएं कि प्रमोशन कब आपकी अपनी बिक्री से चोरी करते हैं",
         "description": "स्वचालित रूप से पता लगाएं कि कोई नया मेनू आइटम, प्रचार या अभियान मौजूदा उत्पादों को नष्ट कर रहा है, इससे पहले कि यह चुपचाप आपके मार्जिन को नष्ट कर दे।",
         "capabilities": [
-          "स्वचालित नरभक्षण का पता लगाना",
+          "स्वचालित कैनिबलाइज़ेशन का पता लगाना",
           "मेनू आइटम प्रतिस्थापन पैटर्न विश्लेषण",
           "मार्जिन प्रभाव के साथ राजस्व विस्थापन मात्रा का ठहराव",
-          "सीमा-आधारित नरभक्षण अलर्ट",
-          "ऐतिहासिक नरभक्षण पैटर्न"
+          "सीमा-आधारित कैनिबलाइज़ेशन अलर्ट",
+          "ऐतिहासिक कैनिबलाइज़ेशन पैटर्न"
         ],
         "icon": "warning",
         "color": "from-amber-500 to-orange-600",
-        "tier": "प्रो"
+        "tier": "pro"
       },
       {
-        "title": "क्या बदला इंजन",
+        "title": "\"क्या बदला\" इंजन",
         "headline": "प्रत्येक मीट्रिक गतिविधि के लिए स्वचालित मूल कारण विश्लेषण",
         "description": "जब कोई मीट्रिक महत्वपूर्ण रूप से आगे बढ़ता है, तो इंजन सभी जुड़े डेटा स्रोतों में परिवर्तनों का विश्लेषण करके संभावित कारणों की पहचान करता है।",
         "capabilities": [
@@ -4405,7 +4405,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "search",
         "color": "from-slate-500 to-slate-700",
-        "tier": "आधार"
+        "tier": "base"
       }
     ],
     "tr": [
@@ -4420,8 +4420,8 @@ export const generatedLocalCopy = {
           "Geciken gelir yanıtlarının otomatik tespiti"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
-        "tier": "baz"
+        "color": "from-[#F2B45C] to-[#C2410C]",
+        "tier": "base"
       },
       {
         "title": "Sebep ve Sonuç Kartları",
@@ -4434,8 +4434,8 @@ export const generatedLocalCopy = {
           "Yinelenen nedenler için tarihsel model eşleştirmesi"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
-        "tier": "baz"
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
+        "tier": "base"
       },
       {
         "title": "Korelasyon Matrisi",
@@ -4449,8 +4449,8 @@ export const generatedLocalCopy = {
           "Özel korelasyon kuralları ve eşikler"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
-        "tier": "profesyonel"
+        "color": "from-[#F4A259] to-[#C2410C]",
+        "tier": "pro"
       },
       {
         "title": "Gelir İlişkilendirme Şelalesi",
@@ -4463,8 +4463,8 @@ export const generatedLocalCopy = {
           "Dönemden döneme ilişkilendirme eğilimleri"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
-        "tier": "profesyonel"
+        "color": "from-[#FF7E6F] to-[#E03E48]",
+        "tier": "pro"
       },
       {
         "title": "Harcama Verimliliği Radarı",
@@ -4478,7 +4478,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "balance",
         "color": "from-emerald-500 to-teal-600",
-        "tier": "profesyonel"
+        "tier": "pro"
       },
       {
         "title": "Campaign Pulse Monitor",
@@ -4492,10 +4492,10 @@ export const generatedLocalCopy = {
         ],
         "icon": "pulse",
         "color": "from-rose-500 to-pink-600",
-        "tier": "profesyonel"
+        "tier": "pro"
       },
       {
-        "title": "Yamyamlık Dedektörü",
+        "title": "Kanibalizasyon Dedektörü",
         "headline": "Promosyonların Kendi Satışlarınızdan Çalındığını Algılayın",
         "description": "Yeni bir menü öğesinin, promosyonun veya kampanyanın, marjlarınızı sessizce aşındırmadan önce mevcut ürünleri baltaladığını otomatik olarak algılayın.",
         "capabilities": [
@@ -4507,10 +4507,10 @@ export const generatedLocalCopy = {
         ],
         "icon": "warning",
         "color": "from-amber-500 to-orange-600",
-        "tier": "profesyonel"
+        "tier": "pro"
       },
       {
-        "title": "Motor Neyi Değiştirdi?",
+        "title": "\"Ne Değişti\" Motoru",
         "headline": "Her Metrik Hareket İçin Otomatik Kök Neden Analizi",
         "description": "Bir ölçüm önemli ölçüde hareket ettiğinde motor, bağlı tüm veri kaynaklarındaki değişiklikleri analiz ederek olası nedenleri belirler.",
         "capabilities": [
@@ -4521,14 +4521,14 @@ export const generatedLocalCopy = {
         ],
         "icon": "search",
         "color": "from-slate-500 to-slate-700",
-        "tier": "baz"
+        "tier": "base"
       }
     ],
     "zh-Hans": [
       {
         "title": "营销影响时间表",
         "headline": "查看每一笔营销费用的延迟效果",
-        "description": "Overlay marketing spend, campaigns, and promotions on your revenue timeline. Cross-Intelligence surfaces the 3-7 day lag between marketing actions and revenue impact that traditional dashboards miss entirely.",
+        "description": "将营销支出、活动和促销叠加到您的收入时间线上。Cross-Intelligence 揭示营销动作与收入影响之间 3 至 7 天的滞后——这是传统仪表板完全错过的。",
         "capabilities": [
           "收入+营销支出叠加，具有可调整的滞后窗口",
           "具有统计置信度得分的营销活动投资回报率归因",
@@ -4536,13 +4536,13 @@ export const generatedLocalCopy = {
           "自动检测延迟的收入响应"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
-        "tier": "基地"
+        "color": "from-[#F2B45C] to-[#C2410C]",
+        "tier": "base"
       },
       {
         "title": "因果卡",
         "headline": "自动生成每个指标变化的解释",
-        "description": "When revenue drops or labor costs spike, Cross-Intelligence automatically generates cards explaining why by connecting changes across modules to surface the real root cause.",
+        "description": "当收入下降或劳动力成本飙升时，Cross-Intelligence 会自动生成卡片，通过关联各模块间的变化来揭示真正的根本原因，从而解释原因。",
         "capabilities": [
           "跨数据源自动识别根本原因",
           "每个因果假设的置信度评分",
@@ -4550,8 +4550,8 @@ export const generatedLocalCopy = {
           "重复原因的历史模式匹配"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
-        "tier": "基地"
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
+        "tier": "base"
       },
       {
         "title": "相关矩阵",
@@ -4565,8 +4565,8 @@ export const generatedLocalCopy = {
           "自定义关联规则和阈值"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
-        "tier": "亲"
+        "color": "from-[#F4A259] to-[#C2410C]",
+        "tier": "pro"
       },
       {
         "title": "收入归因瀑布",
@@ -4579,8 +4579,8 @@ export const generatedLocalCopy = {
           "不同时期归因趋势"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
-        "tier": "亲"
+        "color": "from-[#FF7E6F] to-[#E03E48]",
+        "tier": "pro"
       },
       {
         "title": "支出效率雷达",
@@ -4594,10 +4594,10 @@ export const generatedLocalCopy = {
         ],
         "icon": "balance",
         "color": "from-emerald-500 to-teal-600",
-        "tier": "亲"
+        "tier": "pro"
       },
       {
-        "title": "战役Pulse监测器",
+        "title": "Campaign Pulse Monitor",
         "headline": "具有运营背景的实时营销活动绩效",
         "description": "在一个运营视图中将营销活动绩效与收入、劳动力利用率、库存周转率和宾客满意度相关联。",
         "capabilities": [
@@ -4608,7 +4608,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "pulse",
         "color": "from-rose-500 to-pink-600",
-        "tier": "亲"
+        "tier": "pro"
       },
       {
         "title": "蚕食探测器",
@@ -4623,12 +4623,12 @@ export const generatedLocalCopy = {
         ],
         "icon": "warning",
         "color": "from-amber-500 to-orange-600",
-        "tier": "亲"
+        "tier": "pro"
       },
       {
-        "title": "引擎发生了什么变化",
+        "title": "变化溯因引擎",
         "headline": "每个指标变动的自动根本原因分析",
-        "description": "当指标发生显着变化时，引擎会通过分析所有连接数据源的变化来识别可能的原因。",
+        "description": "当指标发生显著变化时，该引擎会通过分析所有已连接数据源的变化来识别可能的原因。",
         "capabilities": [
           "跨指标的自动异常检测",
           "多因素根本原因分析",
@@ -4637,14 +4637,14 @@ export const generatedLocalCopy = {
         ],
         "icon": "search",
         "color": "from-slate-500 to-slate-700",
-        "tier": "基地"
+        "tier": "base"
       }
     ],
     "pl": [
       {
         "title": "Kalendarium wpływu marketingowego",
         "headline": "Zobacz opóźnione skutki każdego dolara marketingowego",
-        "description": "Nakładaj wydatki marketingowe, kampanie i promocje na oś czasu przychodów. Cross-Intelligence ujawnia 3–7-dniowe opóźnienie między działaniami marketingowymi a wpływem na przychody, którego tradycyjne kokpity menedżerskie całkowicie pomijają.",
+        "description": "Nakładaj wydatki marketingowe, kampanie i promocje na oś czasu przychodów. Cross-Intelligence ujawnia 3-7-dniowe opóźnienie między działaniami marketingowymi a wpływem na przychody, którego tradycyjne kokpity menedżerskie całkowicie pomijają.",
         "capabilities": [
           "Nakładka Przychody + wydatki marketingowe z regulowanymi oknami opóźnień",
           "Atrybucja ROI kampanii ze statystycznymi wynikami zaufania",
@@ -4652,8 +4652,8 @@ export const generatedLocalCopy = {
           "Automatyczne wykrywanie opóźnionych reakcji na przychody"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
-        "tier": "baza"
+        "color": "from-[#F2B45C] to-[#C2410C]",
+        "tier": "base"
       },
       {
         "title": "Karty Przyczyn i Skutków",
@@ -4666,8 +4666,8 @@ export const generatedLocalCopy = {
           "Dopasowanie wzorców historycznych dla powtarzających się przyczyn"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
-        "tier": "baza"
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
+        "tier": "base"
       },
       {
         "title": "Macierz korelacji",
@@ -4681,8 +4681,8 @@ export const generatedLocalCopy = {
           "Niestandardowe reguły i progi korelacji"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
-        "tier": "profesjonalista"
+        "color": "from-[#F4A259] to-[#C2410C]",
+        "tier": "pro"
       },
       {
         "title": "Wodospad przypisywania przychodów",
@@ -4695,11 +4695,11 @@ export const generatedLocalCopy = {
           "Trendy atrybucji w poszczególnych okresach"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
-        "tier": "profesjonalista"
+        "color": "from-[#FF7E6F] to-[#E03E48]",
+        "tier": "pro"
       },
       {
-        "title": "Wydaj Radar Efektywności",
+        "title": "Radar efektywności wydatków",
         "headline": "Porównaj ROI dla każdej kategorii wydatków",
         "description": "Porównaj zwrot z każdego dolara w zakresie marketingu, pracy, zapasów i czynszu, aby zobaczyć, które centra kosztów osiągają gorsze wyniki.",
         "capabilities": [
@@ -4710,7 +4710,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "balance",
         "color": "from-emerald-500 to-teal-600",
-        "tier": "profesjonalista"
+        "tier": "pro"
       },
       {
         "title": "Campaign Pulse Monitor",
@@ -4724,7 +4724,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "pulse",
         "color": "from-rose-500 to-pink-600",
-        "tier": "profesjonalista"
+        "tier": "pro"
       },
       {
         "title": "Detektor kanibalizacji",
@@ -4739,10 +4739,10 @@ export const generatedLocalCopy = {
         ],
         "icon": "warning",
         "color": "from-amber-500 to-orange-600",
-        "tier": "profesjonalista"
+        "tier": "pro"
       },
       {
-        "title": "Co zmieniło silnik",
+        "title": "Silnik \"Co się zmieniło\"",
         "headline": "Automatyczna analiza przyczyn źródłowych dla każdego ruchu metrycznego",
         "description": "Gdy metryka znacznie się zmienia, silnik identyfikuje prawdopodobne przyczyny, analizując zmiany we wszystkich podłączonych źródłach danych.",
         "capabilities": [
@@ -4753,7 +4753,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "search",
         "color": "from-slate-500 to-slate-700",
-        "tier": "baza"
+        "tier": "base"
       }
     ],
     "ko": [
@@ -4768,8 +4768,8 @@ export const generatedLocalCopy = {
           "지연된 수익 응답 자동 감지"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
-        "tier": "베이스"
+        "color": "from-[#F2B45C] to-[#C2410C]",
+        "tier": "base"
       },
       {
         "title": "원인 및 결과 카드",
@@ -4782,8 +4782,8 @@ export const generatedLocalCopy = {
           "반복되는 원인에 대한 과거 패턴 매칭"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
-        "tier": "베이스"
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
+        "tier": "base"
       },
       {
         "title": "상관 행렬",
@@ -4797,8 +4797,8 @@ export const generatedLocalCopy = {
           "사용자 정의 상관 관계 규칙 및 임계값"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
-        "tier": "프로"
+        "color": "from-[#F4A259] to-[#C2410C]",
+        "tier": "pro"
       },
       {
         "title": "수익 기여 폭포",
@@ -4811,8 +4811,8 @@ export const generatedLocalCopy = {
           "기간별 귀인 추세"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
-        "tier": "프로"
+        "color": "from-[#FF7E6F] to-[#E03E48]",
+        "tier": "pro"
       },
       {
         "title": "지출 효율성 레이더",
@@ -4826,7 +4826,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "balance",
         "color": "from-emerald-500 to-teal-600",
-        "tier": "프로"
+        "tier": "pro"
       },
       {
         "title": "캠페인 Pulse 모니터",
@@ -4840,10 +4840,10 @@ export const generatedLocalCopy = {
         ],
         "icon": "pulse",
         "color": "from-rose-500 to-pink-600",
-        "tier": "프로"
+        "tier": "pro"
       },
       {
-        "title": "식인종 탐지기",
+        "title": "잠식 탐지기",
         "headline": "프로모션이 귀하의 판매를 훔칠 때 감지",
         "description": "새로운 메뉴 항목, 프로모션 또는 캠페인이 기존 제품을 잠식하는 경우 마진이 조용히 침식되기 전에 자동으로 감지합니다.",
         "capabilities": [
@@ -4855,10 +4855,10 @@ export const generatedLocalCopy = {
         ],
         "icon": "warning",
         "color": "from-amber-500 to-orange-600",
-        "tier": "프로"
+        "tier": "pro"
       },
       {
-        "title": "무엇이 엔진을 바꾸었나",
+        "title": "\"무엇이 바뀌었나\" 엔진",
         "headline": "모든 지표 이동에 대한 자동 근본 원인 분석",
         "description": "지표가 크게 이동하면 엔진은 연결된 모든 데이터 소스의 변경 사항을 분석하여 가능한 원인을 식별합니다.",
         "capabilities": [
@@ -4869,7 +4869,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "search",
         "color": "from-slate-500 to-slate-700",
-        "tier": "베이스"
+        "tier": "base"
       }
     ],
     "vi": [
@@ -4884,8 +4884,8 @@ export const generatedLocalCopy = {
           "Tự động phát hiện phản hồi doanh thu bị trì hoãn"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
-        "tier": "cơ sở"
+        "color": "from-[#F2B45C] to-[#C2410C]",
+        "tier": "base"
       },
       {
         "title": "Thẻ Nguyên nhân & Kết quả",
@@ -4898,8 +4898,8 @@ export const generatedLocalCopy = {
           "Kết hợp mô hình lịch sử cho các nguyên nhân định kỳ"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
-        "tier": "cơ sở"
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
+        "tier": "base"
       },
       {
         "title": "Ma trận tương quan",
@@ -4913,8 +4913,8 @@ export const generatedLocalCopy = {
           "Các quy tắc và ngưỡng tương quan tùy chỉnh"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
-        "tier": "chuyên nghiệp"
+        "color": "from-[#F4A259] to-[#C2410C]",
+        "tier": "pro"
       },
       {
         "title": "Thác nước phân bổ doanh thu",
@@ -4927,8 +4927,8 @@ export const generatedLocalCopy = {
           "Xu hướng phân bổ theo từng thời kỳ"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
-        "tier": "chuyên nghiệp"
+        "color": "from-[#FF7E6F] to-[#E03E48]",
+        "tier": "pro"
       },
       {
         "title": "Radar hiệu quả chi tiêu",
@@ -4942,7 +4942,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "balance",
         "color": "from-emerald-500 to-teal-600",
-        "tier": "chuyên nghiệp"
+        "tier": "pro"
       },
       {
         "title": "Campaign Pulse Monitor",
@@ -4956,25 +4956,25 @@ export const generatedLocalCopy = {
         ],
         "icon": "pulse",
         "color": "from-rose-500 to-pink-600",
-        "tier": "chuyên nghiệp"
+        "tier": "pro"
       },
       {
-        "title": "Máy dò ăn thịt đồng loại",
+        "title": "Trình phát hiện ăn mòn doanh số",
         "headline": "Phát hiện khi nào các chương trình khuyến mãi ăn cắp từ doanh số bán hàng của chính bạn",
         "description": "Tự động phát hiện khi một mục menu, chương trình khuyến mãi hoặc chiến dịch mới đang lấn át các sản phẩm hiện có trước khi nó lặng lẽ làm giảm lợi nhuận của bạn.",
         "capabilities": [
-          "Tự động phát hiện ăn thịt đồng loại",
+          "Tự động phát hiện ăn mòn doanh số",
           "Phân tích mẫu thay thế mục menu",
           "Định lượng chuyển dịch doanh thu với tác động lợi nhuận",
-          "Cảnh báo ăn thịt người dựa trên ngưỡng",
-          "Các mô hình ăn thịt đồng loại trong lịch sử"
+          "Cảnh báo ăn mòn doanh số dựa trên ngưỡng",
+          "Các mẫu ăn mòn doanh số trong lịch sử"
         ],
         "icon": "warning",
         "color": "from-amber-500 to-orange-600",
-        "tier": "chuyên nghiệp"
+        "tier": "pro"
       },
       {
-        "title": "Điều gì đã thay đổi động cơ",
+        "title": "Công cụ \"Điều gì đã thay đổi\"",
         "headline": "Phân tích nguyên nhân gốc tự động cho mọi chuyển động số liệu",
         "description": "Khi một chỉ số thay đổi đáng kể, công cụ sẽ xác định các nguyên nhân có thể xảy ra bằng cách phân tích các thay đổi trên tất cả các nguồn dữ liệu được kết nối.",
         "capabilities": [
@@ -4985,14 +4985,14 @@ export const generatedLocalCopy = {
         ],
         "icon": "search",
         "color": "from-slate-500 to-slate-700",
-        "tier": "cơ sở"
+        "tier": "base"
       }
     ],
     "id": [
       {
         "title": "Garis Waktu Dampak Pemasaran",
         "headline": "Lihat Efek Tertunda dari Setiap Uang Pemasaran",
-        "description": "Hamparkan pembelanjaan pemasaran, kampanye, dan promosi pada linimasa pendapatan Anda. Cross-Intelligence menampilkan jeda 3-7 hari antara tindakan pemasaran dan dampak pendapatan yang tidak sepenuhnya diabaikan oleh dasbor tradisional.",
+        "description": "Hamparkan pembelanjaan pemasaran, kampanye, dan promosi pada linimasa pendapatan Anda. Cross-Intelligence menampilkan jeda 3-7 hari antara tindakan pemasaran dan dampak pendapatan yang sepenuhnya terlewatkan oleh dasbor tradisional.",
         "capabilities": [
           "Pendapatan + pembelanjaan pemasaran dihamparkan dengan jendela jeda yang dapat disesuaikan",
           "Atribusi ROI kampanye dengan skor keyakinan statistik",
@@ -5000,8 +5000,8 @@ export const generatedLocalCopy = {
           "Deteksi otomatis atas respons pendapatan yang tertunda"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
-        "tier": "dasar"
+        "color": "from-[#F2B45C] to-[#C2410C]",
+        "tier": "base"
       },
       {
         "title": "Kartu Sebab & Akibat",
@@ -5014,8 +5014,8 @@ export const generatedLocalCopy = {
           "Pencocokan pola historis untuk penyebab yang berulang"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
-        "tier": "dasar"
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
+        "tier": "base"
       },
       {
         "title": "Matriks Korelasi",
@@ -5029,7 +5029,7 @@ export const generatedLocalCopy = {
           "Aturan dan ambang batas korelasi khusus"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
+        "color": "from-[#F4A259] to-[#C2410C]",
         "tier": "pro"
       },
       {
@@ -5043,7 +5043,7 @@ export const generatedLocalCopy = {
           "Tren atribusi dari periode ke periode"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
+        "color": "from-[#FF7E6F] to-[#E03E48]",
         "tier": "pro"
       },
       {
@@ -5090,7 +5090,7 @@ export const generatedLocalCopy = {
         "tier": "pro"
       },
       {
-        "title": "Apa yang Mengubah Mesin",
+        "title": "Mesin \"Apa yang Berubah\"",
         "headline": "Analisis Akar Penyebab Otomatis untuk Setiap Pergerakan Metrik",
         "description": "Saat metrik bergerak secara signifikan, mesin mengidentifikasi kemungkinan penyebabnya dengan menganalisis perubahan di seluruh sumber data yang terhubung.",
         "capabilities": [
@@ -5101,7 +5101,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "search",
         "color": "from-slate-500 to-slate-700",
-        "tier": "dasar"
+        "tier": "base"
       }
     ],
     "ja": [
@@ -5116,8 +5116,8 @@ export const generatedLocalCopy = {
           "遅延した収益応答の自動検出"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
-        "tier": "ベース"
+        "color": "from-[#F2B45C] to-[#C2410C]",
+        "tier": "base"
       },
       {
         "title": "原因と結果のカード",
@@ -5130,8 +5130,8 @@ export const generatedLocalCopy = {
           "再発原因に対する過去のパターンマッチング"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
-        "tier": "ベース"
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
+        "tier": "base"
       },
       {
         "title": "相関行列",
@@ -5145,8 +5145,8 @@ export const generatedLocalCopy = {
           "カスタム相関ルールとしきい値"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
-        "tier": "プロ"
+        "color": "from-[#F4A259] to-[#C2410C]",
+        "tier": "pro"
       },
       {
         "title": "収益帰属のウォーターフォール",
@@ -5159,8 +5159,8 @@ export const generatedLocalCopy = {
           "前期比のアトリビューションの傾向"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
-        "tier": "プロ"
+        "color": "from-[#FF7E6F] to-[#E03E48]",
+        "tier": "pro"
       },
       {
         "title": "支出効率レーダー",
@@ -5174,10 +5174,10 @@ export const generatedLocalCopy = {
         ],
         "icon": "balance",
         "color": "from-emerald-500 to-teal-600",
-        "tier": "プロ"
+        "tier": "pro"
       },
       {
-        "title": "キャンペーンPulseモニター",
+        "title": "Campaign Pulse Monitor",
         "headline": "運用コンテキストを使用したリアルタイムのキャンペーン パフォーマンス",
         "description": "1 つの操作ビューで、キャンペーンのパフォーマンスと収益、労働力の稼働率、在庫回転率、ゲストの満足度を関連付けます。",
         "capabilities": [
@@ -5188,7 +5188,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "pulse",
         "color": "from-rose-500 to-pink-600",
-        "tier": "プロ"
+        "tier": "pro"
       },
       {
         "title": "共食い検出器",
@@ -5203,10 +5203,10 @@ export const generatedLocalCopy = {
         ],
         "icon": "warning",
         "color": "from-amber-500 to-orange-600",
-        "tier": "プロ"
+        "tier": "pro"
       },
       {
-        "title": "エンジンの何が変わったのか",
+        "title": "「何が変わったか」エンジン",
         "headline": "あらゆるメトリクスの動きに対する自動根本原因分析",
         "description": "メトリクスが大きく変動すると、エンジンは接続されているすべてのデータ ソースにわたる変化を分析することにより、考えられる原因を特定します。",
         "capabilities": [
@@ -5217,14 +5217,14 @@ export const generatedLocalCopy = {
         ],
         "icon": "search",
         "color": "from-slate-500 to-slate-700",
-        "tier": "ベース"
+        "tier": "base"
       }
     ],
     "bn": [
       {
         "title": "মার্কেটিং ইমপ্যাক্ট টাইমলাইন",
         "headline": "প্রতিটি মার্কেটিং ডলারের বিলম্বিত প্রভাব দেখুন",
-        "description": "আপনার আয়ের টাইমলাইনে ওভারলে মার্কেটিং খরচ, প্রচারাভিযান এবং প্রচার। ক্রস-ইন্টেলিজেন্স বিপণন ক্রিয়া এবং রাজস্ব প্রভাবের মধ্যে 3-7 দিনের ব্যবধানকে প্রকাশ করে যা ঐতিহ্যগত ড্যাশবোর্ডগুলি সম্পূর্ণভাবে মিস করে। (Cross-Intelligence)",
+        "description": "আপনার আয়ের টাইমলাইনে ওভারলে মার্কেটিং খরচ, প্রচারাভিযান এবং প্রচার। Cross-Intelligence বিপণন ক্রিয়া এবং রাজস্ব প্রভাবের মধ্যে 3-7 দিনের ব্যবধানকে প্রকাশ করে যা ঐতিহ্যগত ড্যাশবোর্ডগুলি সম্পূর্ণভাবে মিস করে।",
         "capabilities": [
           "আয় + বিপণন ব্যয় সামঞ্জস্যযোগ্য ল্যাগ উইন্ডো সহ ওভারলে",
           "পরিসংখ্যানগত আত্মবিশ্বাসের স্কোর সহ প্রচারাভিযান ROI অ্যাট্রিবিউশন",
@@ -5232,13 +5232,13 @@ export const generatedLocalCopy = {
           "বিলম্বিত রাজস্ব প্রতিক্রিয়া স্বয়ংক্রিয় সনাক্তকরণ"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
-        "tier": "ভিত্তি"
+        "color": "from-[#F2B45C] to-[#C2410C]",
+        "tier": "base"
       },
       {
         "title": "কারণ এবং প্রভাব কার্ড",
         "headline": "প্রতিটি মেট্রিক পরিবর্তনের জন্য স্বয়ংক্রিয়ভাবে তৈরি ব্যাখ্যা",
-        "description": "যখন রাজস্ব কমে যায় বা শ্রমের খরচ বেড়ে যায়, তখন ক্রস-ইন্টেলিজেন্স স্বয়ংক্রিয়ভাবে কার্ড তৈরি করে যা ব্যাখ্যা করে যে কেন মডিউল জুড়ে পরিবর্তনগুলিকে সংযুক্ত করে আসল মূল কারণটি দেখা যায়। (Cross-Intelligence)",
+        "description": "যখন রাজস্ব কমে যায় বা শ্রমের খরচ বেড়ে যায়, তখন Cross-Intelligence স্বয়ংক্রিয়ভাবে কার্ড তৈরি করে যা ব্যাখ্যা করে যে কেন মডিউল জুড়ে পরিবর্তনগুলিকে সংযুক্ত করে আসল মূল কারণটি দেখা যায়।",
         "capabilities": [
           "ডেটা উত্স জুড়ে স্বয়ংক্রিয় মূল কারণ সনাক্তকরণ",
           "প্রতিটি কার্যকারণ অনুমানের জন্য আত্মবিশ্বাসের স্কোরিং",
@@ -5246,13 +5246,13 @@ export const generatedLocalCopy = {
           "পুনরাবৃত্ত কারণগুলির জন্য ঐতিহাসিক প্যাটার্ন ম্যাচিং"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
-        "tier": "ভিত্তি"
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
+        "tier": "base"
       },
       {
         "title": "পারস্পরিক সম্পর্ক ম্যাট্রিক্স",
         "headline": "কীভাবে সবকিছু সংযুক্ত হয় তার সম্পূর্ণ NxN ভিউ",
-        "description": "রাজস্ব, শ্রম, জায়, বিপণন, আবহাওয়া এবং ইভেন্টগুলির মধ্যে সংযোগের শক্তি এবং দিক দেখুন এমন সম্পর্কগুলি আবিষ্কার করতে যা আপনি কখনও জানতেন না।",
+        "description": "রাজস্ব, শ্রম, ইনভেন্টরি, বিপণন, আবহাওয়া এবং ইভেন্টগুলির মধ্যে সংযোগের শক্তি এবং দিক দেখুন এমন সম্পর্কগুলি আবিষ্কার করতে যা আপনি কখনও জানতেন না।",
         "capabilities": [
           "সমস্ত মডিউল জুড়ে ইন্টারেক্টিভ NxN পারস্পরিক সম্পর্ক হিটম্যাপ",
           "পরিসংখ্যানগত তাত্পর্য সহ রিয়েল-টাইম পারস্পরিক সম্পর্ক শক্তি",
@@ -5261,8 +5261,8 @@ export const generatedLocalCopy = {
           "কাস্টম পারস্পরিক সম্পর্ক নিয়ম এবং থ্রেশহোল্ড"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
-        "tier": "প্রো"
+        "color": "from-[#F4A259] to-[#C2410C]",
+        "tier": "pro"
       },
       {
         "title": "রাজস্ব অ্যাট্রিবিউশন জলপ্রপাত",
@@ -5275,8 +5275,8 @@ export const generatedLocalCopy = {
           "পিরিয়ড-ওভার-পিরিয়ড অ্যাট্রিবিউশন প্রবণতা"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
-        "tier": "প্রো"
+        "color": "from-[#FF7E6F] to-[#E03E48]",
+        "tier": "pro"
       },
       {
         "title": "খরচ দক্ষতা রাডার",
@@ -5290,7 +5290,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "balance",
         "color": "from-emerald-500 to-teal-600",
-        "tier": "প্রো"
+        "tier": "pro"
       },
       {
         "title": "Campaign Pulse Monitor",
@@ -5304,7 +5304,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "pulse",
         "color": "from-rose-500 to-pink-600",
-        "tier": "প্রো"
+        "tier": "pro"
       },
       {
         "title": "ক্যানিবালাইজেশন ডিটেক্টর",
@@ -5315,14 +5315,14 @@ export const generatedLocalCopy = {
           "মেনু আইটেম প্রতিস্থাপন প্যাটার্ন বিশ্লেষণ",
           "মার্জিন প্রভাব সহ রাজস্ব স্থানচ্যুতি পরিমাণ নির্ধারণ",
           "থ্রেশহোল্ড-ভিত্তিক ক্যানিবালাইজেশন সতর্কতা",
-          "নরখাদকের ঐতিহাসিক নিদর্শন"
+          "ক্যানিবালাইজেশনের ঐতিহাসিক নিদর্শন"
         ],
         "icon": "warning",
         "color": "from-amber-500 to-orange-600",
-        "tier": "প্রো"
+        "tier": "pro"
       },
       {
-        "title": "কি পরিবর্তন ইঞ্জিন",
+        "title": "\"কী পরিবর্তিত হয়েছে\" ইঞ্জিন",
         "headline": "প্রতিটি মেট্রিক আন্দোলনের জন্য স্বয়ংক্রিয় মূল কারণ বিশ্লেষণ",
         "description": "যখন একটি মেট্রিক উল্লেখযোগ্যভাবে সরে যায়, তখন ইঞ্জিন সমস্ত সংযুক্ত ডেটা উত্স জুড়ে পরিবর্তনগুলি বিশ্লেষণ করে সম্ভাব্য কারণগুলি সনাক্ত করে।",
         "capabilities": [
@@ -5333,7 +5333,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "search",
         "color": "from-slate-500 to-slate-700",
-        "tier": "ভিত্তি"
+        "tier": "base"
       }
     ],
     "sv": [
@@ -5348,8 +5348,8 @@ export const generatedLocalCopy = {
           "Automatisk upptäckt av försenade intäktssvar"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
-        "tier": "bas"
+        "color": "from-[#F2B45C] to-[#C2410C]",
+        "tier": "base"
       },
       {
         "title": "Orsaks- och verkanskort",
@@ -5362,8 +5362,8 @@ export const generatedLocalCopy = {
           "Historisk mönstermatchning för återkommande orsaker"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
-        "tier": "bas"
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
+        "tier": "base"
       },
       {
         "title": "Korrelationsmatris",
@@ -5377,7 +5377,7 @@ export const generatedLocalCopy = {
           "Anpassade korrelationsregler och trösklar"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
+        "color": "from-[#F4A259] to-[#C2410C]",
         "tier": "pro"
       },
       {
@@ -5391,7 +5391,7 @@ export const generatedLocalCopy = {
           "Tillskrivningstrender för period över period"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
+        "color": "from-[#FF7E6F] to-[#E03E48]",
         "tier": "pro"
       },
       {
@@ -5438,7 +5438,7 @@ export const generatedLocalCopy = {
         "tier": "pro"
       },
       {
-        "title": "Vad förändrade motorn",
+        "title": "\"Vad ändrades\"-motorn",
         "headline": "Automatisk grundorsaksanalys för varje metrisk rörelse",
         "description": "När ett mått rör sig avsevärt identifierar motorn troliga orsaker genom att analysera förändringar över alla anslutna datakällor.",
         "capabilities": [
@@ -5449,7 +5449,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "search",
         "color": "from-slate-500 to-slate-700",
-        "tier": "bas"
+        "tier": "base"
       }
     ],
     "ro": [
@@ -5464,8 +5464,8 @@ export const generatedLocalCopy = {
           "Detectarea automată a răspunsurilor întârziate pentru venituri"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
-        "tier": "baza"
+        "color": "from-[#F2B45C] to-[#C2410C]",
+        "tier": "base"
       },
       {
         "title": "Cărți de cauză și efect",
@@ -5478,8 +5478,8 @@ export const generatedLocalCopy = {
           "Potrivirea modelului istoric pentru cauze recurente"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
-        "tier": "baza"
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
+        "tier": "base"
       },
       {
         "title": "Matricea de corelație",
@@ -5493,7 +5493,7 @@ export const generatedLocalCopy = {
           "Reguli și praguri personalizate de corelare"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
+        "color": "from-[#F4A259] to-[#C2410C]",
         "tier": "pro"
       },
       {
@@ -5507,7 +5507,7 @@ export const generatedLocalCopy = {
           "Tendințele de atribuire de-a lungul perioadei"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
+        "color": "from-[#FF7E6F] to-[#E03E48]",
         "tier": "pro"
       },
       {
@@ -5527,7 +5527,7 @@ export const generatedLocalCopy = {
       {
         "title": "Campaign Pulse Monitor",
         "headline": "Performanța campaniei în timp real cu context operațional",
-        "description": "Correlate campaign performance with revenue, labor utilization, inventory turnover, and guest satisfaction in one operating view.",
+        "description": "Corelați performanța campaniei cu veniturile, utilizarea forței de muncă, rotația stocurilor și satisfacția oaspeților într-o singură vizualizare operațională.",
         "capabilities": [
           "Tabloul de bord în timp real al performanței campaniei",
           "Urmărirea impactului între module",
@@ -5554,7 +5554,7 @@ export const generatedLocalCopy = {
         "tier": "pro"
       },
       {
-        "title": "Ce a schimbat motorul",
+        "title": "Motorul \"Ce s-a schimbat\"",
         "headline": "Analiza automată a cauzei principale pentru fiecare mișcare metrică",
         "description": "Când o valoare se mișcă semnificativ, motorul identifică cauzele probabile analizând modificările din toate sursele de date conectate.",
         "capabilities": [
@@ -5565,7 +5565,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "search",
         "color": "from-slate-500 to-slate-700",
-        "tier": "baza"
+        "tier": "base"
       }
     ],
     "th": [
@@ -5580,8 +5580,8 @@ export const generatedLocalCopy = {
           "การตรวจจับการตอบสนองรายได้ที่ล่าช้าโดยอัตโนมัติ"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
-        "tier": "ฐาน"
+        "color": "from-[#F2B45C] to-[#C2410C]",
+        "tier": "base"
       },
       {
         "title": "การ์ดสาเหตุและผลกระทบ",
@@ -5594,8 +5594,8 @@ export const generatedLocalCopy = {
           "การจับคู่รูปแบบในอดีตสำหรับสาเหตุที่เกิดซ้ำ"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
-        "tier": "ฐาน"
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
+        "tier": "base"
       },
       {
         "title": "เมทริกซ์สหสัมพันธ์",
@@ -5609,8 +5609,8 @@ export const generatedLocalCopy = {
           "กฎและเกณฑ์ความสัมพันธ์ที่กำหนดเอง"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
-        "tier": "โปร"
+        "color": "from-[#F4A259] to-[#C2410C]",
+        "tier": "pro"
       },
       {
         "title": "น้ำตกแสดงที่มารายได้",
@@ -5623,8 +5623,8 @@ export const generatedLocalCopy = {
           "แนวโน้มการระบุแหล่งที่มาแบบช่วงต่อช่วง"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
-        "tier": "โปร"
+        "color": "from-[#FF7E6F] to-[#E03E48]",
+        "tier": "pro"
       },
       {
         "title": "เรดาร์การใช้จ่ายอย่างมีประสิทธิภาพ",
@@ -5638,7 +5638,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "balance",
         "color": "from-emerald-500 to-teal-600",
-        "tier": "โปร"
+        "tier": "pro"
       },
       {
         "title": "Campaign Pulse Monitor",
@@ -5652,25 +5652,25 @@ export const generatedLocalCopy = {
         ],
         "icon": "pulse",
         "color": "from-rose-500 to-pink-600",
-        "tier": "โปร"
+        "tier": "pro"
       },
       {
-        "title": "เครื่องตรวจจับการกินเนื้อคน",
+        "title": "เครื่องตรวจจับการแย่งยอดขาย",
         "headline": "ตรวจจับเมื่อโปรโมชั่นขโมยมาจากการขายของคุณเอง",
         "description": "ตรวจจับโดยอัตโนมัติเมื่อรายการเมนู โปรโมชั่น หรือแคมเปญใหม่กำลังกินผลิตภัณฑ์ที่มีอยู่ ก่อนที่มันจะกัดกร่อนกำไรของคุณอย่างเงียบๆ",
         "capabilities": [
-          "การตรวจจับการกินเนื้อคนอัตโนมัติ",
+          "การตรวจจับการแย่งยอดขายอัตโนมัติ",
           "การวิเคราะห์รูปแบบการทดแทนรายการเมนู",
           "ปริมาณการแทนที่รายได้พร้อมผลกระทบต่อส่วนต่าง",
-          "การแจ้งเตือนการกินเนื้อตามเกณฑ์",
-          "รูปแบบการกินเนื้อคนในอดีต"
+          "การแจ้งเตือนการแย่งยอดขายตามเกณฑ์",
+          "รูปแบบการแย่งยอดขายในอดีต"
         ],
         "icon": "warning",
         "color": "from-amber-500 to-orange-600",
-        "tier": "โปร"
+        "tier": "pro"
       },
       {
-        "title": "สิ่งที่เปลี่ยนแปลงเครื่องยนต์",
+        "title": "เครื่องมือ \"อะไรที่เปลี่ยนแปลง\"",
         "headline": "การวิเคราะห์สาเหตุที่แท้จริงสำหรับทุกๆ การเคลื่อนไหวของหน่วยเมตริก",
         "description": "เมื่อหน่วยวัดเคลื่อนไหวอย่างมีนัยสำคัญ กลไกจะระบุสาเหตุที่เป็นไปได้โดยการวิเคราะห์การเปลี่ยนแปลงในแหล่งข้อมูลที่เชื่อมต่อทั้งหมด",
         "capabilities": [
@@ -5681,14 +5681,14 @@ export const generatedLocalCopy = {
         ],
         "icon": "search",
         "color": "from-slate-500 to-slate-700",
-        "tier": "ฐาน"
+        "tier": "base"
       }
     ],
     "ms": [
       {
         "title": "Garis Masa Kesan Pemasaran",
         "headline": "Lihat Kesan Tertunda Setiap Dolar Pemasaran",
-        "description": "Tindanan perbelanjaan pemasaran, kempen dan promosi pada garis masa hasil anda. Kepintaran Silang memaparkan selang 3-7 hari antara tindakan pemasaran dan kesan hasil yang papan pemuka tradisional terlepas sepenuhnya. (Cross-Intelligence)",
+        "description": "Tindanan perbelanjaan pemasaran, kempen dan promosi pada garis masa hasil anda. Cross-Intelligence memaparkan selang 3-7 hari antara tindakan pemasaran dan kesan hasil yang papan pemuka tradisional terlepas sepenuhnya.",
         "capabilities": [
           "Tindanan perbelanjaan hasil + pemasaran dengan tetingkap ketinggalan boleh laras",
           "Atribusi ROI kempen dengan skor keyakinan statistik",
@@ -5696,8 +5696,8 @@ export const generatedLocalCopy = {
           "Pengesanan automatik bagi respons hasil tertangguh"
         ],
         "icon": "chart",
-        "color": "from-purple-500 to-purple-600",
-        "tier": "asas"
+        "color": "from-[#F2B45C] to-[#C2410C]",
+        "tier": "base"
       },
       {
         "title": "Kad Sebab & Akibat",
@@ -5710,8 +5710,8 @@ export const generatedLocalCopy = {
           "Padanan corak sejarah untuk sebab berulang"
         ],
         "icon": "idea",
-        "color": "from-cyan-500 to-blue-600",
-        "tier": "asas"
+        "color": "from-[#E9A24A] to-[#FF5C4D]",
+        "tier": "base"
       },
       {
         "title": "Matriks Korelasi",
@@ -5725,7 +5725,7 @@ export const generatedLocalCopy = {
           "Peraturan korelasi tersuai dan ambang"
         ],
         "icon": "data",
-        "color": "from-violet-500 to-purple-600",
+        "color": "from-[#F4A259] to-[#C2410C]",
         "tier": "pro"
       },
       {
@@ -5739,7 +5739,7 @@ export const generatedLocalCopy = {
           "Aliran atribusi tempoh atas tempoh"
         ],
         "icon": "performance",
-        "color": "from-blue-500 to-indigo-600",
+        "color": "from-[#FF7E6F] to-[#E03E48]",
         "tier": "pro"
       },
       {
@@ -5786,7 +5786,7 @@ export const generatedLocalCopy = {
         "tier": "pro"
       },
       {
-        "title": "Apa yang Mengubah Enjin",
+        "title": "Enjin \"Apa yang Berubah\"",
         "headline": "Analisis Punca Punca Automatik untuk Setiap Pergerakan Metrik",
         "description": "Apabila metrik bergerak dengan ketara, enjin mengenal pasti kemungkinan punca dengan menganalisis perubahan merentas semua sumber data yang disambungkan.",
         "capabilities": [
@@ -5797,7 +5797,7 @@ export const generatedLocalCopy = {
         ],
         "icon": "search",
         "color": "from-slate-500 to-slate-700",
-        "tier": "asas"
+        "tier": "base"
       }
     ]
   },
@@ -5828,7 +5828,7 @@ export const generatedLocalCopy = {
         "feature": "مراقب Pulse الحملة"
       },
       {
-        "feature": "كاشف تفكيك لحوم البشر"
+        "feature": "كاشف ابتلاع المبيعات"
       },
       {
         "feature": "استرجاع غير محدود للخط الزمني"
@@ -6027,7 +6027,7 @@ export const generatedLocalCopy = {
         "feature": "ریونیو انتساب آبشار"
       },
       {
-        "feature": "کارکردگی کا ریڈار خرچ کریں۔"
+        "feature": "اخراجات کی کارکردگی کا ریڈار"
       },
       {
         "feature": "مہم Pulse مانیٹر"
@@ -6150,13 +6150,13 @@ export const generatedLocalCopy = {
         "feature": "राजस्व एट्रिब्यूशन झरना"
       },
       {
-        "feature": "दक्षता राडार खर्च करें"
+        "feature": "व्यय दक्षता राडार"
       },
       {
         "feature": "अभियान Pulse मॉनिटर"
       },
       {
-        "feature": "नरभक्षण डिटेक्टर"
+        "feature": "कैनिबलाइज़ेशन डिटेक्टर"
       },
       {
         "feature": "असीमित टाइमलाइन लुकबैक"
@@ -6179,7 +6179,7 @@ export const generatedLocalCopy = {
         "feature": "因果卡"
       },
       {
-        "feature": "每周摘要发生了什么变化"
+        "feature": "每周变化摘要"
       },
       {
         "feature": "基本相关警报"
@@ -6194,7 +6194,7 @@ export const generatedLocalCopy = {
         "feature": "支出效率雷达"
       },
       {
-        "feature": "战役Pulse监测器"
+        "feature": "Campaign Pulse Monitor"
       },
       {
         "feature": "蚕食探测器"
@@ -6232,7 +6232,7 @@ export const generatedLocalCopy = {
         "feature": "Wodospad przypisywania przychodów"
       },
       {
-        "feature": "Wydaj Radar Efektywności"
+        "feature": "Radar efektywności wydatków"
       },
       {
         "feature": "Campaign Pulse Monitor"
@@ -6279,7 +6279,7 @@ export const generatedLocalCopy = {
         "feature": "Campaign Pulse Monitor"
       },
       {
-        "feature": "Yamyamlık Dedektörü"
+        "feature": "Kanibalizasyon Dedektörü"
       },
       {
         "feature": "Sınırsız zaman çizelgesi incelemesi"
@@ -6320,7 +6320,7 @@ export const generatedLocalCopy = {
         "feature": "캠페인 Pulse 모니터"
       },
       {
-        "feature": "식인종 탐지기"
+        "feature": "잠식 탐지기"
       },
       {
         "feature": "무제한 타임라인 룩백"
@@ -6358,7 +6358,7 @@ export const generatedLocalCopy = {
         "feature": "支出効率レーダー"
       },
       {
-        "feature": "キャンペーンPulseモニター"
+        "feature": "Campaign Pulse Monitor"
       },
       {
         "feature": "共食い検出器"
@@ -6384,7 +6384,7 @@ export const generatedLocalCopy = {
         "feature": "Kartu Sebab & Akibat"
       },
       {
-        "feature": "Apa yang Mengubah intisari mingguan"
+        "feature": "Intisari mingguan \"Apa yang Berubah\""
       },
       {
         "feature": "Peringatan korelasi dasar"
@@ -6443,7 +6443,7 @@ export const generatedLocalCopy = {
         "feature": "Campaign Pulse Monitor"
       },
       {
-        "feature": "Máy dò ăn thịt đồng loại"
+        "feature": "Trình phát hiện ăn mòn doanh số"
       },
       {
         "feature": "Xem lại dòng thời gian không giới hạn"
@@ -6466,7 +6466,7 @@ export const generatedLocalCopy = {
         "feature": "কারণ এবং প্রভাব কার্ড"
       },
       {
-        "feature": "কি পরিবর্তন সাপ্তাহিক ডাইজেস্ট"
+        "feature": "\"কী পরিবর্তিত হয়েছে\" সাপ্তাহিক ডাইজেস্ট"
       },
       {
         "feature": "মৌলিক পারস্পরিক সম্পর্ক সতর্কতা"
@@ -6566,7 +6566,7 @@ export const generatedLocalCopy = {
         "feature": "Campaign Pulse Monitor"
       },
       {
-        "feature": "เครื่องตรวจจับการกินเนื้อคน"
+        "feature": "เครื่องตรวจจับการแย่งยอดขาย"
       },
       {
         "feature": "ดูย้อนหลังไทม์ไลน์ได้ไม่จำกัด"
@@ -6630,7 +6630,7 @@ export const generatedLocalCopy = {
         "feature": "Kad Sebab & Akibat"
       },
       {
-        "feature": "Apa yang Mengubah pencernaan mingguan"
+        "feature": "Ringkasan mingguan \"Apa yang Berubah\""
       },
       {
         "feature": "Makluman korelasi asas"
@@ -6697,11 +6697,11 @@ export const generatedLocalCopy = {
       "baseVsProDescription": "La base se enciende automáticamente. Pro agrega el conjunto de análisis completo.",
       "baseCardTitle": "Cross-Intelligence",
       "proCardTitle": "Cross-Intelligence Pro",
-      "baseTierLabel": "bases",
-      "proTierLabel": "profesional",
+      "baseTierLabel": "Base",
+      "proTierLabel": "Pro",
       "baseLabel": "Gratis con más de 3 módulos",
       "proLabel": "$199/mes + $19/ubicación",
-      "ctaTitle": "See Cross-Intelligence in Action",
+      "ctaTitle": "Vea Cross-Intelligence en acción",
       "ctaDescription": "Recorra la Matriz de correlación, el Detector de canibalización y la Cascada de atribución de ingresos con su equipo.",
       "ctaPrimary": "Reserve una demostración",
       "ctaSecondary": "Ver Calculadora de Precios"
@@ -6742,19 +6742,19 @@ export const generatedLocalCopy = {
       "proTierLabel": "Pro",
       "baseLabel": "Gratuit avec 3+ modules",
       "proLabel": "199 $/mois + 19 $/emplacement",
-      "ctaTitle": "See Cross-Intelligence in Action",
+      "ctaTitle": "Voir Cross-Intelligence en action",
       "ctaDescription": "Parcourez la matrice de corrélation, le détecteur de cannibalisation et la cascade d'attribution des revenus avec votre équipe.",
       "ctaPrimary": "Réservez une démo",
       "ctaSecondary": "Voir le calculateur de prix"
     },
     "ar": {
       "heroBadge": "تم تمكينه تلقائيًا مع أكثر من 3 وحدات",
-      "heroDescription": "يُظهر الذكاء المتبادل أين تتحرك إشارات التشغيل الخاصة بك معًا، من التسويق إلى الإيرادات، ومن العمالة إلى المبيعات، ومن المخزون إلى النفايات. (Cross-Intelligence)",
-      "heroSupport": "يتم تشغيل الميزات الأساسية تلقائيًا عند تنشيط ثلاث وحدات ذكاء أو أكثر. يضيف Pro إسنادًا أعمق واكتشاف تفكيك لحوم البشر والوصول إلى واجهة برمجة التطبيقات.",
+      "heroDescription": "يُظهر Cross-Intelligence أين تتحرك إشارات التشغيل الخاصة بك معًا، من التسويق إلى الإيرادات، ومن العمالة إلى المبيعات، ومن المخزون إلى النفايات.",
+      "heroSupport": "يتم تشغيل الميزات الأساسية تلقائيًا عند تنشيط ثلاث وحدات ذكاء أو أكثر. يضيف Pro إسنادًا أعمق واكتشاف ابتلاع المبيعات والوصول إلى واجهة برمجة التطبيقات.",
       "heroPrimary": "احجز عرضًا توضيحيًا",
       "heroSecondary": "انظر حاسبة التسعير",
       "problemTitle": "وحداتك تصبح أقوى معًا",
-      "problemDescription": "تشرح كل وحدة استخباراتية جزءًا واحدًا من العمل. يساعد الذكاء المتبادل الفرق على معرفة كيفية تأثير هذه الأجزاء على بعضها البعض. (Cross-Intelligence)",
+      "problemDescription": "تشرح كل وحدة استخباراتية جزءًا واحدًا من العمل. يساعد Cross-Intelligence الفرق على معرفة كيفية تأثير هذه الأجزاء على بعضها البعض.",
       "problemStats": [
         {
           "stat": "3-7 أيام",
@@ -6763,7 +6763,7 @@ export const generatedLocalCopy = {
         },
         {
           "stat": "23%",
-          "label": "تُظهر العروض الترويجية تفكيكًا قابلاً للقياس للعناصر الموجودة",
+          "label": "تُظهر العروض الترويجية ابتلاعًا قابلاً للقياس لمبيعات العناصر الموجودة",
           "icon": "warning"
         },
         {
@@ -6774,7 +6774,7 @@ export const generatedLocalCopy = {
       ],
       "componentsEyebrow": "8 مكونات",
       "componentsTitle": "كل اتصال، ظهر",
-      "componentsDescription": "بدءًا من تنبيهات الارتباط البسيطة وحتى إسناد الإيرادات واكتشاف التفكيك.",
+      "componentsDescription": "بدءًا من تنبيهات الارتباط البسيطة وحتى إسناد الإيرادات واكتشاف ابتلاع المبيعات.",
       "baseVsProTitle": "قاعدة مقابل برو",
       "baseVsProDescription": "يتم تشغيل القاعدة تلقائيًا. يضيف Pro مجموعة التحليل الكاملة.",
       "baseCardTitle": "Cross-Intelligence",
@@ -6783,8 +6783,8 @@ export const generatedLocalCopy = {
       "proTierLabel": "برو",
       "baseLabel": "مجانًا مع أكثر من 3 وحدات",
       "proLabel": "199 دولارًا شهريًا + 19 دولارًا للموقع",
-      "ctaTitle": "See Cross-Intelligence in Action",
-      "ctaDescription": "قم بالتجول عبر مصفوفة الارتباط وكاشف التفكيك وشلال إحالة الإيرادات مع فريقك.",
+      "ctaTitle": "شاهد Cross-Intelligence أثناء العمل",
+      "ctaDescription": "قم بالتجول عبر مصفوفة الارتباط وكاشف ابتلاع المبيعات وشلال إحالة الإيرادات مع فريقك.",
       "ctaPrimary": "احجز عرضًا توضيحيًا",
       "ctaSecondary": "انظر حاسبة التسعير"
     },
@@ -6798,7 +6798,7 @@ export const generatedLocalCopy = {
       "problemDescription": "Jedes Intelligence-Modul erklärt einen Teil des Geschäfts. Cross-Intelligence hilft Teams zu erkennen, wie sich diese Teile gegenseitig beeinflussen.",
       "problemStats": [
         {
-          "stat": "3–7 Tage",
+          "stat": "3-7 Tage",
           "label": "Durchschnittliche Verzögerung zwischen Marketingausgaben und Umsatzauswirkungen",
           "icon": "time"
         },
@@ -6839,7 +6839,7 @@ export const generatedLocalCopy = {
       "problemDescription": "Elke intelligentiemodule legt een deel van de bedrijfsvoering uit. Cross-Intelligence helpt teams te zien hoe deze onderdelen elkaar beïnvloeden.",
       "problemStats": [
         {
-          "stat": "3–7 dagen",
+          "stat": "3-7 dagen",
           "label": "Gemiddelde vertraging tussen marketinguitgaven en omzetimpact",
           "icon": "time"
         },
@@ -6865,7 +6865,7 @@ export const generatedLocalCopy = {
       "proTierLabel": "Pro",
       "baseLabel": "Gratis bij 3+ modules",
       "proLabel": "$199/maand + $19/locatie",
-      "ctaTitle": "See Cross-Intelligence in Action",
+      "ctaTitle": "Zie Cross-Intelligence in actie",
       "ctaDescription": "Loop met uw team door de correlatiematrix, de kannibalisatiedetector en de waterval van inkomstentoeschrijving.",
       "ctaPrimary": "Boek een demo",
       "ctaSecondary": "Zie Prijscalculator"
@@ -6880,7 +6880,7 @@ export const generatedLocalCopy = {
       "problemDescription": "Cada módulo de inteligência explica uma parte do negócio. O Cross-Intelligence ajuda as equipes a ver como essas partes afetam umas às outras.",
       "problemStats": [
         {
-          "stat": "3–7 dias",
+          "stat": "3-7 dias",
           "label": "Atraso médio entre os gastos com marketing e o impacto na receita",
           "icon": "time"
         },
@@ -6902,23 +6902,23 @@ export const generatedLocalCopy = {
       "baseVsProDescription": "A base liga automaticamente. Pro adiciona o conjunto completo de análise.",
       "baseCardTitle": "Cross-Intelligence",
       "proCardTitle": "Cross-Intelligence Pro",
-      "baseTierLabel": "base",
-      "proTierLabel": "Pró",
+      "baseTierLabel": "Base",
+      "proTierLabel": "Pro",
       "baseLabel": "Gratuito com mais de 3 módulos",
       "proLabel": "$ 199/mês + $ 19/local",
-      "ctaTitle": "See Cross-Intelligence in Action",
+      "ctaTitle": "Veja a Cross-Intelligence em ação",
       "ctaDescription": "Percorra a Matriz de Correlação, o Detector de Canibalização e a Cascata de Atribuição de Receita com sua equipe.",
       "ctaPrimary": "Agende uma demonstração",
       "ctaSecondary": "Veja Calculadora de Preços"
     },
     "ur": {
       "heroBadge": "3+ ماڈیولز کے ساتھ خودکار طور پر فعال",
-      "heroDescription": "کراس انٹیلی جنس ظاہر کرتی ہے کہ آپ کے آپریٹنگ سگنلز کہاں ایک ساتھ منتقل ہوتے ہیں، مارکیٹنگ سے آمدنی تک، مزدوری سے فروخت تک، اور انوینٹری کو ضائع کرنے تک۔ (Cross-Intelligence)",
+      "heroDescription": "Cross-Intelligence ظاہر کرتی ہے کہ آپ کے آپریٹنگ سگنلز کہاں ایک ساتھ منتقل ہوتے ہیں، مارکیٹنگ سے آمدنی تک، مزدوری سے فروخت تک، اور انوینٹری کو ضائع کرنے تک۔",
       "heroSupport": "جب آپ تین یا زیادہ انٹیلی جنس ماڈیولز کو چالو کرتے ہیں تو بنیادی خصوصیات خود بخود آن ہو جاتی ہیں۔ پرو گہری انتساب، کینبلائزیشن کا پتہ لگانے، اور API تک رسائی شامل کرتا ہے۔",
       "heroPrimary": "ایک ڈیمو بک کرو",
       "heroSecondary": "پرائسنگ کیلکولیٹر دیکھیں",
       "problemTitle": "آپ کے ماڈیولز ایک ساتھ مضبوط ہوتے ہیں۔",
-      "problemDescription": "ہر انٹیلی جنس ماڈیول کاروبار کے ایک حصے کی وضاحت کرتا ہے۔ کراس انٹیلی جنس ٹیموں کو یہ دیکھنے میں مدد کرتی ہے کہ وہ حصے ایک دوسرے کو کیسے متاثر کرتے ہیں۔ (Cross-Intelligence)",
+      "problemDescription": "ہر انٹیلی جنس ماڈیول کاروبار کے ایک حصے کی وضاحت کرتا ہے۔ Cross-Intelligence ٹیموں کو یہ دیکھنے میں مدد کرتی ہے کہ وہ حصے ایک دوسرے کو کیسے متاثر کرتے ہیں۔",
       "problemStats": [
         {
           "stat": "3-7 دن",
@@ -6927,7 +6927,7 @@ export const generatedLocalCopy = {
         },
         {
           "stat": "23%",
-          "label": "پروموشنز موجودہ اشیاء کی پیمائش کے قابل cannibalization دکھاتے ہیں",
+          "label": "پروموشنز موجودہ اشیاء کی پیمائش کے قابل کینبلائزیشن دکھاتے ہیں",
           "icon": "warning"
         },
         {
@@ -6938,7 +6938,7 @@ export const generatedLocalCopy = {
       ],
       "componentsEyebrow": "8 اجزاء",
       "componentsTitle": "ہر کنکشن، سطحی",
-      "componentsDescription": "عام ارتباطی انتباہات سے لے کر محصول کے انتساب اور نسل کشی کا پتہ لگانے تک۔",
+      "componentsDescription": "عام ارتباطی انتباہات سے لے کر محصول کے انتساب اور کینبلائزیشن کا پتہ لگانے تک۔",
       "baseVsProTitle": "بیس بمقابلہ پرو",
       "baseVsProDescription": "بیس خود بخود آن ہو جاتا ہے۔ پرو مکمل تجزیہ سیٹ شامل کرتا ہے۔",
       "baseCardTitle": "Cross-Intelligence",
@@ -6947,7 +6947,7 @@ export const generatedLocalCopy = {
       "proTierLabel": "پرو",
       "baseLabel": "3+ ماڈیولز کے ساتھ مفت",
       "proLabel": "$199/ماہ + $19/مقام",
-      "ctaTitle": "See Cross-Intelligence in Action",
+      "ctaTitle": "Cross-Intelligence کو عملی طور پر دیکھیں",
       "ctaDescription": "اپنی ٹیم کے ساتھ Correlation Matrix، Cannibalization Detector، اور Revenue Attribution Waterfall کے ذریعے چلیں۔",
       "ctaPrimary": "ایک ڈیمو بک کرو",
       "ctaSecondary": "پرائسنگ کیلکولیٹر دیکھیں"
@@ -6955,7 +6955,7 @@ export const generatedLocalCopy = {
     "hi": {
       "heroBadge": "3+ मॉड्यूल के साथ स्वतः सक्षम",
       "heroDescription": "Cross-Intelligence दिखाता है कि आपके ऑपरेटिंग सिग्नल मार्केटिंग से राजस्व, श्रम से बिक्री और इन्वेंट्री से अपशिष्ट तक एक साथ कहां जाते हैं।",
-      "heroSupport": "जब आप तीन या अधिक इंटेलिजेंस मॉड्यूल सक्रिय करते हैं तो बेस सुविधाएँ स्वचालित रूप से चालू हो जाती हैं। प्रो गहन एट्रिब्यूशन, नरभक्षण का पता लगाने और एपीआई एक्सेस जोड़ता है।",
+      "heroSupport": "जब आप तीन या अधिक इंटेलिजेंस मॉड्यूल सक्रिय करते हैं तो बेस सुविधाएँ स्वचालित रूप से चालू हो जाती हैं। प्रो गहन एट्रिब्यूशन, कैनिबलाइज़ेशन का पता लगाने और एपीआई एक्सेस जोड़ता है।",
       "heroPrimary": "एक डेमो बुक करें",
       "heroSecondary": "मूल्य निर्धारण कैलकुलेटर देखें",
       "problemTitle": "आपके मॉड्यूल एक साथ मजबूत हो जाते हैं",
@@ -6968,7 +6968,7 @@ export const generatedLocalCopy = {
         },
         {
           "stat": "23%",
-          "label": "प्रमोशन में मौजूदा वस्तुओं का मापने योग्य नरभक्षण दिखाया गया है",
+          "label": "प्रमोशन में मौजूदा वस्तुओं की मापने योग्य कैनिबलाइज़ेशन दिखाई गया है",
           "icon": "warning"
         },
         {
@@ -6979,7 +6979,7 @@ export const generatedLocalCopy = {
       ],
       "componentsEyebrow": "8 घटक",
       "componentsTitle": "हर कनेक्शन, सामने आया",
-      "componentsDescription": "सरल सहसंबंध अलर्ट से लेकर राजस्व एट्रिब्यूशन और नरभक्षण का पता लगाने तक।",
+      "componentsDescription": "सरल सहसंबंध अलर्ट से लेकर राजस्व एट्रिब्यूशन और कैनिबलाइज़ेशन का पता लगाने तक।",
       "baseVsProTitle": "बेस बनाम प्रो",
       "baseVsProDescription": "बेस अपने आप चालू हो जाता है. प्रो पूर्ण विश्लेषण सेट जोड़ता है।",
       "baseCardTitle": "Cross-Intelligence",
@@ -6988,8 +6988,8 @@ export const generatedLocalCopy = {
       "proTierLabel": "प्रो",
       "baseLabel": "3+ मॉड्यूल के साथ निःशुल्क",
       "proLabel": "$199/महीना + $19/स्थान",
-      "ctaTitle": "See Cross-Intelligence in Action",
-      "ctaDescription": "अपनी टीम के साथ सहसंबंध मैट्रिक्स, नरभक्षण डिटेक्टर और राजस्व एट्रिब्यूशन वॉटरफॉल के माध्यम से चलें।",
+      "ctaTitle": "Cross-Intelligence को क्रियान्वित होते देखें",
+      "ctaDescription": "अपनी टीम के साथ सहसंबंध मैट्रिक्स, कैनिबलाइज़ेशन डिटेक्टर और राजस्व एट्रिब्यूशन वॉटरफॉल के माध्यम से चलें।",
       "ctaPrimary": "एक डेमो बुक करें",
       "ctaSecondary": "मूल्य निर्धारण कैलकुलेटर देखें"
     },
@@ -7000,10 +7000,10 @@ export const generatedLocalCopy = {
       "heroPrimary": "Prenota una dimostrazione",
       "heroSecondary": "Vedi Calcolatore dei prezzi",
       "problemTitle": "I tuoi moduli diventano più forti insieme",
-      "problemDescription": "Ogni modulo di intelligence spiega una parte dell'attività. L'intelligenza incrociata aiuta i team a vedere come queste parti si influenzano a vicenda. (Cross-Intelligence)",
+      "problemDescription": "Ogni modulo di intelligence spiega una parte dell'attività. Cross-Intelligence aiuta i team a vedere come queste parti si influenzano a vicenda.",
       "problemStats": [
         {
-          "stat": "3–7 giorni",
+          "stat": "3-7 giorni",
           "label": "Ritardo medio tra la spesa di marketing e l'impatto sulle entrate",
           "icon": "time"
         },
@@ -7029,7 +7029,7 @@ export const generatedLocalCopy = {
       "proTierLabel": "Pro",
       "baseLabel": "Gratuito con 3+ moduli",
       "proLabel": "$ 199/mese + $ 19/località",
-      "ctaTitle": "See Cross-Intelligence in Action",
+      "ctaTitle": "Scopri Cross-Intelligence in azione",
       "ctaDescription": "Percorri la matrice di correlazione, il rilevatore di cannibalizzazione e la cascata di attribuzione delle entrate con il tuo team.",
       "ctaPrimary": "Prenota una dimostrazione",
       "ctaSecondary": "Vedi Calcolatore dei prezzi"
@@ -7041,16 +7041,16 @@ export const generatedLocalCopy = {
       "heroPrimary": "Zarezerwuj wersję demonstracyjną",
       "heroSecondary": "Zobacz Kalkulator cen",
       "problemTitle": "Twoje moduły stają się razem silniejsze",
-      "problemDescription": "Każdy moduł inteligencji wyjaśnia jedną część działalności. Inteligencja krzyżowa pomaga zespołom zobaczyć, jak te części wpływają na siebie nawzajem. (Cross-Intelligence)",
+      "problemDescription": "Każdy moduł inteligencji wyjaśnia jedną część działalności. Cross-Intelligence pomaga zespołom zobaczyć, jak te części wpływają na siebie nawzajem.",
       "problemStats": [
         {
-          "stat": "3–7 dni",
+          "stat": "3-7 dni",
           "label": "Średnie opóźnienie między wydatkami marketingowymi a wpływem na przychody",
           "icon": "time"
         },
         {
           "stat": "23%",
-          "label": "Promocji wykazują wymierną kanibalizm istniejących pozycji",
+          "label": "Promocje wykazują wymierną kanibalizację istniejących pozycji",
           "icon": "warning"
         },
         {
@@ -7070,22 +7070,22 @@ export const generatedLocalCopy = {
       "proTierLabel": "Zawodowiec",
       "baseLabel": "Bezpłatnie z ponad 3 modułami",
       "proLabel": "199 USD/mies. + 19 USD/lokalizacja",
-      "ctaTitle": "See Cross-Intelligence in Action",
+      "ctaTitle": "Zobacz Cross-Intelligence w działaniu",
       "ctaDescription": "Przejdź wraz ze swoim zespołem przez Matrycę Korelacji, Detektor Kanibalizacji i Kaskadę Przypisywania Przychodów.",
       "ctaPrimary": "Zarezerwuj wersję demonstracyjną",
       "ctaSecondary": "Zobacz Kalkulator cen"
     },
     "zh-Hans": {
       "heroBadge": "自动启用 3 个以上模块",
-      "heroDescription": "Cross-Intelligence shows where your operating signals move together, from marketing to revenue, labor to sales, and inventory to waste.",
+      "heroDescription": "Cross-Intelligence 揭示您的运营信号在何处同步变动，从营销到收入、用工到销售、库存到损耗。",
       "heroSupport": "当您激活三个或更多智能模块时，基本功能会自动打开。 Pro 增加了更深入的归因、蚕食检测和 API 访问。",
       "heroPrimary": "预订演示",
       "heroSecondary": "查看定价计算器",
       "problemTitle": "您的模块一起变得更强大",
-      "problemDescription": "Each intelligence module explains one part of the business. Cross-Intelligence helps teams see how those parts affect each other.",
+      "problemDescription": "每个智能模块只解释业务的一个方面。Cross-Intelligence 帮助团队看清这些方面如何相互影响。",
       "problemStats": [
         {
-          "stat": "3–7 天",
+          "stat": "3-7 天",
           "label": "营销支出和收入影响之间的平均延迟",
           "icon": "time"
         },
@@ -7104,26 +7104,26 @@ export const generatedLocalCopy = {
       "componentsTitle": "每个连接都浮出水面",
       "componentsDescription": "从简单的关联警报到收入归因和蚕食检测。",
       "baseVsProTitle": "基础版与专业版",
-      "baseVsProDescription": "底座自动打开。 Pro 添加了完整的分析集。",
+      "baseVsProDescription": "基础版自动启用。Pro 增加完整的分析套件。",
       "baseCardTitle": "Cross-Intelligence",
       "proCardTitle": "Cross-Intelligence Pro",
-      "baseTierLabel": "基地",
+      "baseTierLabel": "基础版",
       "proTierLabel": "专业版",
       "baseLabel": "免费提供 3 个以上模块",
       "proLabel": "$199/月 + $19/地点",
-      "ctaTitle": "See Cross-Intelligence in Action",
+      "ctaTitle": "实际体验 Cross-Intelligence",
       "ctaDescription": "与您的团队一起了解相关矩阵、蚕食检测器和收入归因瀑布。",
       "ctaPrimary": "预订演示",
       "ctaSecondary": "查看定价计算器"
     },
     "tr": {
       "heroBadge": "3+ modülle otomatik olarak etkinleştirilir",
-      "heroDescription": "Çapraz Zeka, pazarlamadan gelire, işçilikten satışa ve envanterden israfa kadar işletim sinyallerinizin birlikte nerede hareket ettiğini gösterir. (Cross-Intelligence)",
+      "heroDescription": "Cross-Intelligence, pazarlamadan gelire, işçilikten satışa ve envanterden israfa kadar işletim sinyallerinizin birlikte nerede hareket ettiğini gösterir.",
       "heroSupport": "Üç veya daha fazla zeka modülünü etkinleştirdiğinizde temel özellikler otomatik olarak açılır. Pro, daha derin ilişkilendirme, yamyamlık tespiti ve API erişimi ekler.",
       "heroPrimary": "Demo Rezervasyonu Yapın",
       "heroSecondary": "Fiyatlandırma Hesaplayıcıya Bakın",
       "problemTitle": "Modülleriniz Birlikte Güçleniyor",
-      "problemDescription": "Her zeka modülü işin bir bölümünü açıklar. Çapraz İstihbarat, ekiplerin bu parçaların birbirini nasıl etkilediğini görmesine yardımcı olur. (Cross-Intelligence)",
+      "problemDescription": "Her zeka modülü işin bir bölümünü açıklar. Cross-Intelligence, ekiplerin bu parçaların birbirini nasıl etkilediğini görmesine yardımcı olur.",
       "problemStats": [
         {
           "stat": "3-7 gün",
@@ -7132,7 +7132,7 @@ export const generatedLocalCopy = {
         },
         {
           "stat": "%23",
-          "label": "Promosyonların mevcut öğelerin ölçülebilir şekilde yamyamlaştırıldığını göstermesi",
+          "label": "Promosyonların mevcut ürünlerde ölçülebilir kanibalizasyona yol açtığını göstermesi",
           "icon": "warning"
         },
         {
@@ -7152,7 +7152,7 @@ export const generatedLocalCopy = {
       "proTierLabel": "Profesyonel",
       "baseLabel": "3+ modülle ücretsiz",
       "proLabel": "199 ABD Doları/ay + 19 ABD Doları/konum",
-      "ctaTitle": "See Cross-Intelligence in Action",
+      "ctaTitle": "Cross-Intelligence'i iş başında görün",
       "ctaDescription": "Ekibinizle birlikte Korelasyon Matrisi, Yamyamlaştırma Dedektörü ve Gelir İlişkilendirme Şelalesi'ni inceleyin.",
       "ctaPrimary": "Demo Rezervasyonu Yapın",
       "ctaSecondary": "Fiyatlandırma Hesaplayıcıya Bakın"
@@ -7193,19 +7193,19 @@ export const generatedLocalCopy = {
       "proTierLabel": "프로",
       "baseLabel": "3개 이상의 모듈이 포함된 경우 무료",
       "proLabel": "$199/월 + $19/위치",
-      "ctaTitle": "See Cross-Intelligence in Action",
+      "ctaTitle": "Cross-Intelligence의 실제 작동을 확인하세요",
       "ctaDescription": "팀과 함께 상관관계 매트릭스, 자기잠식 탐지기, 수익 기여 폭포수를 살펴보세요.",
       "ctaPrimary": "데모 예약",
       "ctaSecondary": "가격 계산기 보기"
     },
     "ja": {
       "heroBadge": "3 つ以上のモジュールで自動有効化",
-      "heroDescription": "Cross-Intelligence shows where your operating signals move together, from marketing to revenue, labor to sales, and inventory to waste.",
+      "heroDescription": "Cross-Intelligence は、マーケティングから収益、労働から売上、在庫から廃棄まで、運用シグナルが連動して動く箇所を可視化します。",
       "heroSupport": "3 つ以上のインテリジェンス モジュールをアクティブにすると、基本機能が自動的にオンになります。 Pro では、より詳細なアトリビューション、カニバリゼーション検出、API アクセスが追加されます。",
       "heroPrimary": "デモを予約する",
       "heroSecondary": "価格計算ツールを参照",
       "problemTitle": "モジュールを組み合わせることでより強力になります",
-      "problemDescription": "各インテリジェンス モジュールはビジネスの一部分を説明します。クロスインテリジェンスは、チームがこれらの部分が互いにどのように影響するかを確認するのに役立ちます。 (Cross-Intelligence)",
+      "problemDescription": "各インテリジェンス モジュールはビジネスの一部分を説明します。Cross-Intelligenceは、チームがこれらの部分が互いにどのように影響するかを確認するのに役立ちます。",
       "problemStats": [
         {
           "stat": "3～7日",
@@ -7234,28 +7234,28 @@ export const generatedLocalCopy = {
       "proTierLabel": "プロ",
       "baseLabel": "3 つ以上のモジュールを無料で利用可能",
       "proLabel": "$199/月 + $19/場所",
-      "ctaTitle": "See Cross-Intelligence in Action",
+      "ctaTitle": "Cross-Intelligence の実際の動作をご覧ください",
       "ctaDescription": "チームと一緒に相関マトリックス、カニバリゼーション検出器、収益帰属ウォーターフォールを見てみましょう。",
       "ctaPrimary": "デモを予約する",
       "ctaSecondary": "価格計算ツールを参照"
     },
     "vi": {
       "heroBadge": "Tự động kích hoạt với hơn 3 mô-đun",
-      "heroDescription": "Trí tuệ chéo cho thấy các tín hiệu hoạt động của bạn di chuyển cùng nhau ở đâu, từ tiếp thị đến doanh thu, lao động đến bán hàng và hàng tồn kho đến lãng phí. (Cross-Intelligence)",
-      "heroSupport": "Các tính năng cơ bản sẽ tự động bật khi bạn kích hoạt ba mô-đun thông minh trở lên. Pro bổ sung thêm tính năng phân bổ sâu hơn, phát hiện hành vi ăn thịt người và quyền truy cập API.",
+      "heroDescription": "Cross-Intelligence cho thấy các tín hiệu hoạt động của bạn di chuyển cùng nhau ở đâu, từ tiếp thị đến doanh thu, lao động đến bán hàng và hàng tồn kho đến lãng phí.",
+      "heroSupport": "Các tính năng cơ bản sẽ tự động bật khi bạn kích hoạt ba mô-đun thông minh trở lên. Pro bổ sung thêm tính năng phân bổ sâu hơn, phát hiện ăn mòn doanh số và quyền truy cập API.",
       "heroPrimary": "Đặt bản demo",
       "heroSecondary": "Xem Công cụ tính giá",
       "problemTitle": "Các mô-đun của bạn cùng nhau trở nên mạnh mẽ hơn",
-      "problemDescription": "Mỗi mô-đun thông minh giải thích một phần của hoạt động kinh doanh. Trí tuệ chéo giúp các nhóm biết được những phần đó ảnh hưởng lẫn nhau như thế nào. (Cross-Intelligence)",
+      "problemDescription": "Mỗi mô-đun thông minh giải thích một phần của hoạt động kinh doanh. Cross-Intelligence giúp các nhóm biết được những phần đó ảnh hưởng lẫn nhau như thế nào.",
       "problemStats": [
         {
-          "stat": "3–7 ngày",
+          "stat": "3-7 ngày",
           "label": "Độ trễ trung bình giữa chi tiêu tiếp thị và tác động đến doanh thu",
           "icon": "time"
         },
         {
           "stat": "23%",
-          "label": "Các chương trình khuyến mãi cho thấy mức độ ăn thịt có thể đo lường được của các mặt hàng hiện có",
+          "label": "Các chương trình khuyến mãi cho thấy mức độ lấn át doanh số có thể đo lường được của các mặt hàng hiện có",
           "icon": "warning"
         },
         {
@@ -7266,17 +7266,17 @@ export const generatedLocalCopy = {
       ],
       "componentsEyebrow": "8 THÀNH PHẦN",
       "componentsTitle": "Mọi kết nối, nổi lên",
-      "componentsDescription": "Từ các cảnh báo tương quan đơn giản đến phân bổ doanh thu và phát hiện sự ăn thịt người.",
+      "componentsDescription": "Từ các cảnh báo tương quan đơn giản đến phân bổ doanh thu và phát hiện ăn mòn doanh số.",
       "baseVsProTitle": "Cơ bản vs Pro",
       "baseVsProDescription": "Base tự động bật. Pro bổ sung bộ phân tích đầy đủ.",
       "baseCardTitle": "Cross-Intelligence",
       "proCardTitle": "Cross-Intelligence Pro",
-      "baseTierLabel": "Căn cứ",
-      "proTierLabel": "chuyên nghiệp",
+      "baseTierLabel": "Cơ bản",
+      "proTierLabel": "Pro",
       "baseLabel": "Miễn phí với hơn 3 mô-đun",
       "proLabel": "$199/tháng + $19/địa điểm",
-      "ctaTitle": "See Cross-Intelligence in Action",
-      "ctaDescription": "Cùng nhóm của bạn tìm hiểu Ma trận tương quan, Trình phát hiện sự ăn thịt người và Thác phân bổ doanh thu.",
+      "ctaTitle": "Xem Cross-Intelligence trong thực tế",
+      "ctaDescription": "Cùng nhóm của bạn tìm hiểu Ma trận tương quan, Trình phát hiện ăn mòn doanh số và Thác phân bổ doanh thu.",
       "ctaPrimary": "Đặt bản demo",
       "ctaSecondary": "Xem Công cụ tính giá"
     },
@@ -7290,7 +7290,7 @@ export const generatedLocalCopy = {
       "problemDescription": "Fiecare modul de informații explică o parte a afacerii. Cross-Intelligence ajută echipele să vadă cum acele părți se afectează reciproc.",
       "problemStats": [
         {
-          "stat": "3–7 zile",
+          "stat": "3-7 zile",
           "label": "Întârziere medie între cheltuielile de marketing și impactul asupra veniturilor",
           "icon": "time"
         },
@@ -7331,13 +7331,13 @@ export const generatedLocalCopy = {
       "problemDescription": "Setiap modul intelijen menjelaskan satu bagian bisnis. Cross-Intelligence membantu tim melihat bagaimana bagian-bagian tersebut saling mempengaruhi.",
       "problemStats": [
         {
-          "stat": "3–7 hari",
+          "stat": "3-7 hari",
           "label": "Penundaan rata-rata antara pengeluaran pemasaran dan dampak pendapatan",
           "icon": "time"
         },
         {
           "stat": "23%",
-          "label": "Tentu saja promosi menunjukkan kanibalisasi yang terukur terhadap barang-barang yang ada",
+          "label": "Promosi menunjukkan kanibalisasi yang terukur terhadap barang-barang yang ada",
           "icon": "warning"
         },
         {
@@ -7357,19 +7357,19 @@ export const generatedLocalCopy = {
       "proTierLabel": "Pro",
       "baseLabel": "Gratis dengan 3+ modul",
       "proLabel": "$199/bln + $19/lokasi",
-      "ctaTitle": "See Cross-Intelligence in Action",
+      "ctaTitle": "Lihat Cross-Intelligence beraksi",
       "ctaDescription": "Telusuri Matriks Korelasi, Detektor Kanibalisasi, dan Air Terjun Atribusi Pendapatan bersama tim Anda.",
       "ctaPrimary": "Pesan Demo",
       "ctaSecondary": "Lihat Kalkulator Harga"
     },
     "bn": {
       "heroBadge": "3+ মডিউল সহ স্বয়ংক্রিয়-সক্ষম",
-      "heroDescription": "ক্রস-ইনটেলিজেন্স দেখায় যেখানে আপনার অপারেটিং সিগন্যাল একসাথে চলে, মার্কেটিং থেকে রাজস্ব, শ্রম থেকে বিক্রয় এবং ইনভেন্টরি থেকে অপচয়। (Cross-Intelligence)",
+      "heroDescription": "Cross-Intelligence দেখায় যেখানে আপনার অপারেটিং সিগন্যাল একসাথে চলে, মার্কেটিং থেকে রাজস্ব, শ্রম থেকে বিক্রয় এবং ইনভেন্টরি থেকে অপচয়।",
       "heroSupport": "আপনি যখন তিনটি বা ততোধিক বুদ্ধিমত্তা মডিউল সক্রিয় করেন তখন বেস বৈশিষ্ট্যগুলি স্বয়ংক্রিয়ভাবে চালু হয়। প্রো আরও গভীর অ্যাট্রিবিউশন, ক্যানিবালাইজেশন সনাক্তকরণ এবং API অ্যাক্সেস যোগ করে।",
       "heroPrimary": "একটি ডেমো বুক করুন",
       "heroSecondary": "প্রাইসিং ক্যালকুলেটর দেখুন",
       "problemTitle": "আপনার মডিউল একসাথে শক্তিশালী হয়",
-      "problemDescription": "প্রতিটি বুদ্ধিমত্তা মডিউল ব্যবসার একটি অংশ ব্যাখ্যা করে। ক্রস-ইনটেলিজেন্স দলগুলিকে দেখতে সাহায্য করে যে এই অংশগুলি একে অপরকে কীভাবে প্রভাবিত করে। (Cross-Intelligence)",
+      "problemDescription": "প্রতিটি বুদ্ধিমত্তা মডিউল ব্যবসার একটি অংশ ব্যাখ্যা করে। Cross-Intelligence দলগুলিকে দেখতে সাহায্য করে যে এই অংশগুলি একে অপরকে কীভাবে প্রভাবিত করে।",
       "problemStats": [
         {
           "stat": "3-7 দিন",
@@ -7378,7 +7378,7 @@ export const generatedLocalCopy = {
         },
         {
           "stat": "23%",
-          "label": "প্রচারগুলি বিদ্যমান আইটেমগুলির পরিমাপযোগ্য নরখাদন দেখায়",
+          "label": "প্রচারগুলি বিদ্যমান আইটেমগুলির পরিমাপযোগ্য ক্যানিবালাইজেশন দেখায়",
           "icon": "warning"
         },
         {
@@ -7398,7 +7398,7 @@ export const generatedLocalCopy = {
       "proTierLabel": "প্রো",
       "baseLabel": "3+ মডিউল সহ বিনামূল্যে",
       "proLabel": "$199/মাস + $19/অবস্থান",
-      "ctaTitle": "See Cross-Intelligence in Action",
+      "ctaTitle": "Cross-Intelligence-কে কাজে দেখুন",
       "ctaDescription": "আপনার দলের সাথে কোরিলেশন ম্যাট্রিক্স, ক্যানিবালাইজেশন ডিটেক্টর এবং রাজস্ব অ্যাট্রিবিউশন জলপ্রপাতের মধ্য দিয়ে হাঁটুন।",
       "ctaPrimary": "একটি ডেমো বুক করুন",
       "ctaSecondary": "প্রাইসিং ক্যালকুলেটর দেখুন"
@@ -7413,7 +7413,7 @@ export const generatedLocalCopy = {
       "problemDescription": "Varje intelligensmodul förklarar en del av verksamheten. Cross-Intelligence hjälper team att se hur dessa delar påverkar varandra.",
       "problemStats": [
         {
-          "stat": "3–7 dagar",
+          "stat": "3-7 dagar",
           "label": "Genomsnittlig fördröjning mellan marknadsföringsutgifter och intäktseffekt",
           "icon": "time"
         },
@@ -7439,7 +7439,7 @@ export const generatedLocalCopy = {
       "proTierLabel": "Pro",
       "baseLabel": "Gratis med 3+ moduler",
       "proLabel": "199 USD/mån + 19 USD/plats",
-      "ctaTitle": "Se Cross-Intelligence in Action",
+      "ctaTitle": "Se Cross-Intelligence i praktiken",
       "ctaDescription": "Gå igenom korrelationsmatrisen, kannibaliseringsdetektorn och inkomsttillskrivningsvattenfallet med ditt team.",
       "ctaPrimary": "Boka en demo",
       "ctaSecondary": "Se priskalkylator"
@@ -7447,20 +7447,20 @@ export const generatedLocalCopy = {
     "th": {
       "heroBadge": "เปิดใช้งานอัตโนมัติด้วยโมดูล 3+",
       "heroDescription": "Cross-Intelligence แสดงให้เห็นว่าสัญญาณการดำเนินงานของคุณเคลื่อนไปพร้อมๆ กัน ตั้งแต่การตลาดไปจนถึงรายได้ แรงงานไปจนถึงการขาย และสินค้าคงคลังไปจนถึงการสิ้นเปลือง",
-      "heroSupport": "คุณสมบัติพื้นฐานจะเปิดโดยอัตโนมัติเมื่อคุณเปิดใช้งานโมดูลอัจฉริยะตั้งแต่สามโมดูลขึ้นไป Pro เพิ่มการระบุแหล่งที่มาที่ลึกยิ่งขึ้น การตรวจจับการกินเนื้อคน และการเข้าถึง API",
+      "heroSupport": "คุณสมบัติพื้นฐานจะเปิดโดยอัตโนมัติเมื่อคุณเปิดใช้งานโมดูลอัจฉริยะตั้งแต่สามโมดูลขึ้นไป Pro เพิ่มการระบุแหล่งที่มาที่ลึกยิ่งขึ้น การตรวจจับการแย่งยอดขาย และการเข้าถึง API",
       "heroPrimary": "จองการสาธิต",
       "heroSecondary": "ดูเครื่องคำนวณราคา",
       "problemTitle": "โมดูลของคุณแข็งแกร่งขึ้นด้วยกัน",
       "problemDescription": "โมดูลอัจฉริยะแต่ละโมดูลจะอธิบายส่วนหนึ่งของธุรกิจ Cross-Intelligence ช่วยให้ทีมเห็นว่าส่วนต่างๆ เหล่านั้นส่งผลกระทบซึ่งกันและกันอย่างไร",
       "problemStats": [
         {
-          "stat": "3–7 วัน",
+          "stat": "3-7 วัน",
           "label": "ความล่าช้าโดยเฉลี่ยระหว่างการใช้จ่ายทางการตลาดและผลกระทบต่อรายได้",
           "icon": "time"
         },
         {
           "stat": "23%",
-          "label": "ของโปรโมชั่นแสดงการกินกันของรายการที่มีอยู่",
+          "label": "ของโปรโมชันแสดงการแย่งยอดขายที่วัดผลได้ของรายการที่มีอยู่",
           "icon": "warning"
         },
         {
@@ -7471,7 +7471,7 @@ export const generatedLocalCopy = {
       ],
       "componentsEyebrow": "8 ส่วนประกอบ",
       "componentsTitle": "ทุกการเชื่อมต่อปรากฏขึ้น",
-      "componentsDescription": "ตั้งแต่การแจ้งเตือนความสัมพันธ์ง่ายๆ ไปจนถึงการระบุแหล่งที่มาของรายได้และการตรวจจับการแบ่งแยก",
+      "componentsDescription": "ตั้งแต่การแจ้งเตือนความสัมพันธ์ง่ายๆ ไปจนถึงการระบุแหล่งที่มาของรายได้และการตรวจจับการแย่งยอดขาย",
       "baseVsProTitle": "เบสเทียบกับโปร",
       "baseVsProDescription": "ฐานเปิดโดยอัตโนมัติ Pro เพิ่มชุดการวิเคราะห์แบบเต็ม",
       "baseCardTitle": "Cross-Intelligence",
@@ -7487,15 +7487,15 @@ export const generatedLocalCopy = {
     },
     "ms": {
       "heroBadge": "Didayakan secara automatik dengan 3+ modul",
-      "heroDescription": "Kepintaran Silang menunjukkan tempat isyarat operasi anda bergerak bersama, daripada pemasaran kepada hasil, buruh kepada jualan dan inventori kepada pembaziran. (Cross-Intelligence)",
+      "heroDescription": "Cross-Intelligence menunjukkan tempat isyarat operasi anda bergerak bersama, daripada pemasaran kepada hasil, buruh kepada jualan dan inventori kepada pembaziran.",
       "heroSupport": "Ciri asas dihidupkan secara automatik apabila anda mengaktifkan tiga atau lebih modul perisikan. Pro menambah atribusi yang lebih mendalam, pengesanan kanibalisasi dan akses API.",
       "heroPrimary": "Tempah Demo",
       "heroSecondary": "Lihat Kalkulator Harga",
       "problemTitle": "Modul Anda Menjadi Lebih Kuat Bersama",
-      "problemDescription": "Setiap modul perisikan menerangkan satu bahagian perniagaan. Kepintaran Silang membantu pasukan melihat cara bahagian tersebut mempengaruhi satu sama lain. (Cross-Intelligence)",
+      "problemDescription": "Setiap modul perisikan menerangkan satu bahagian perniagaan. Cross-Intelligence membantu pasukan melihat cara bahagian tersebut mempengaruhi satu sama lain.",
       "problemStats": [
         {
-          "stat": "3–7 hari",
+          "stat": "3-7 hari",
           "label": "Purata kelewatan antara perbelanjaan pemasaran dan kesan hasil",
           "icon": "time"
         },
@@ -7521,7 +7521,7 @@ export const generatedLocalCopy = {
       "proTierLabel": "Pro",
       "baseLabel": "Percuma dengan 3+ modul",
       "proLabel": "$199/bln + $19/lokasi",
-      "ctaTitle": "See Cross-Intelligence in Action",
+      "ctaTitle": "Lihat Cross-Intelligence dalam tindakan",
       "ctaDescription": "Berjalan melalui Matriks Korelasi, Pengesan Kanibalisasi dan Air Terjun Atribusi Hasil bersama pasukan anda.",
       "ctaPrimary": "Tempah Demo",
       "ctaSecondary": "Lihat Kalkulator Harga"

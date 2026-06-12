@@ -30,64 +30,64 @@ type LocalizedSQC = {
 
 const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
   en: {
-    eyebrow: "THE OLD TRADEOFF IS DEAD",
+    eyebrow: "THE FALSE CHOICE IS OVER",
     headline: "Fast. Right. Affordable. Pick all three.",
-    description: "Restaurants used to choose between speed, quality, and cost. Sundae was built to deliver all three at once — that's the entire point.",
+    description: "Getting real restaurant intelligence used to mean a tradeoff - fast to deploy, genuinely good, or affordable enough to justify. Pick two. Sundae was built to deliver all three at once - that's the entire point.",
     oldRule: "Old rule: pick two",
     sundaeRule: "↓  Sundae rule: pick all three",
     closing: "That's not a tradeoff. That's your operating advantage.",
     vertices: [
       { label: "Speed", headline: "Deploy in days. Decide in seconds.", body: "Connect your stack fast. Pulse updates through the shift, and Sundae Intelligence answers with sources instead of sending teams back into the report queue.", chips: ["Days to deploy", "Live Core refresh", "Answers in seconds"] },
-      { label: "Quality", headline: "Built for restaurants. Governed for decisions.", body: "Sundae ships with 500+ governed restaurant data models, peer-anchored benchmarks, and source-cited AI answers — so teams are not building from a blank BI canvas.", chips: ["500+ models", "Source-cited AI", "Peer benchmarks"] },
+      { label: "Quality", headline: "Built for restaurants. Governed for decisions.", body: "Sundae ships with 500+ governed restaurant data models, peer-anchored benchmarks, and source-cited AI answers - so teams are not building from a blank BI canvas.", chips: ["500+ models", "Source-cited AI", "Peer benchmarks"] },
       { label: "Cost", headline: "Lower cost than rebuilding BI around restaurants.", body: "BI licenses are only the visible cost. The real spend is analysts, integrations, custom models, dashboard upkeep, and delayed decisions. Sundae is restaurant-ready from day one, with Report Lite free to start.", chips: ["Report Lite free", "Less custom BI", "Lower analyst load"] },
     ],
   },
   ar: {
-    eyebrow: "المقايضة القديمة ماتت",
+    eyebrow: "انتهى زمن الاختيار الزائف",
     headline: "سريع. صحيح. ميسور. اختر الثلاثة.",
-    description: "كانت المطاعم تختار بين السرعة والجودة والتكلفة. Sundae صُمم ليقدم الثلاثة معاً — هذه هي النقطة.",
+    description: "كان الحصول على ذكاء مطاعم حقيقي يعني مفاضلة - سريع في التشغيل، أو جيد فعلاً، أو ميسور بما يكفي لتبرير كلفته. اختر اثنين فقط. أما Sundae فقد بُني ليقدّم الثلاثة دفعة واحدة - وهذا هو جوهر الأمر كله.",
     oldRule: "القاعدة القديمة: اختر اثنين",
     sundaeRule: "↓ قاعدة Sundae: اختر الثلاثة",
     closing: "هذه ليست مقايضة. هذه ميزتك التشغيلية.",
     vertices: [
       { label: "السرعة", headline: "انشر في أيام. قرر في ثوانٍ.", body: "اربط مكدّسك سريعاً. Pulse يتحدث عبر الوردية، وSundae Intelligence يجيب بمصادر بدل إعادة الفِرَق إلى طابور التقارير.", chips: ["أيام للنشر", "تحديث Core حي", "إجابات في ثوانٍ"] },
-      { label: "الجودة", headline: "مصمم للمطاعم. محكوم للقرارات.", body: "Sundae يأتي بأكثر من 500 نموذج بيانات مطعم محكوم، ومعايير نظراء، وإجابات AI مع مصادر — فلا تبني من لوحة BI فارغة.", chips: ["+500 نموذج", "AI بمصادر", "معايير نظراء"] },
+      { label: "الجودة", headline: "مصمم للمطاعم. محكوم للقرارات.", body: "Sundae يأتي بأكثر من 500 نموذج بيانات مطعم محكوم، ومعايير نظراء، وإجابات AI مع مصادر - فلا تبني من لوحة BI فارغة.", chips: ["+500 نموذج", "AI بمصادر", "معايير نظراء"] },
       { label: "التكلفة", headline: "أقل تكلفة من إعادة بناء BI حول المطاعم.", body: "تراخيص BI ليست سوى التكلفة المرئية. الإنفاق الحقيقي محللون وتكاملات ونماذج مخصصة وصيانة لوحات وقرارات متأخرة. Sundae جاهز للمطاعم من اليوم الأول، مع Report Lite مجاناً.", chips: ["Report Lite مجاناً", "BI مخصص أقل", "حمل محلل أقل"] },
     ],
   },
   fr: {
-    eyebrow: "L'ANCIEN COMPROMIS EST MORT",
+    eyebrow: "LE FAUX DILEMME, C'EST FINI",
     headline: "Rapide. Juste. Abordable. Prenez les trois.",
-    description: "Les restaurants devaient choisir entre vitesse, qualité et coût. Sundae a été construit pour livrer les trois à la fois — c'est tout le but.",
+    description: "Obtenir une vraie intelligence pour restaurants, c'était un compromis : rapide à déployer, vraiment bon, ou assez abordable pour se justifier. On en prenait deux. Sundae a été conçu pour livrer les trois d'un coup - c'est tout l'intérêt.",
     oldRule: "Ancienne règle : choisir deux",
     sundaeRule: "↓ Règle Sundae : choisir les trois",
     closing: "Ce n'est pas un compromis. C'est votre avantage opérationnel.",
     vertices: [
       { label: "Vitesse", headline: "Déployez en jours. Décidez en secondes.", body: "Connectez votre stack rapidement. Pulse se met à jour pendant le service, et Sundae Intelligence répond avec sources au lieu de renvoyer les équipes dans la file des rapports.", chips: ["Jours pour déployer", "Refresh Core live", "Réponses en secondes"] },
-      { label: "Qualité", headline: "Conçu pour les restaurants. Gouverné pour décider.", body: "Sundae livre 500+ modèles de données restaurant gouvernés, des benchmarks pairs et des réponses IA sourcées — vous ne construisez pas sur une toile BI vide.", chips: ["500+ modèles", "IA sourcée", "Benchmarks pairs"] },
+      { label: "Qualité", headline: "Conçu pour les restaurants. Gouverné pour décider.", body: "Sundae livre 500+ modèles de données restaurant gouvernés, des benchmarks pairs et des réponses IA sourcées - vous ne construisez pas sur une toile BI vide.", chips: ["500+ modèles", "IA sourcée", "Benchmarks pairs"] },
       { label: "Coût", headline: "Moins cher que reconstruire la BI autour des restaurants.", body: "Les licences BI ne sont que le coût visible. La vraie dépense ce sont les analystes, les intégrations, les modèles custom, la maintenance de dashboards et les décisions tardives. Sundae est prêt restaurant dès le premier jour, avec Report Lite gratuit.", chips: ["Report Lite gratuit", "Moins de BI custom", "Moins d'analystes"] },
     ],
   },
   es: {
-    eyebrow: "EL VIEJO COMPROMISO MURIÓ",
+    eyebrow: "SE ACABÓ LA FALSA DISYUNTIVA",
     headline: "Rápido. Correcto. Asequible. Elige los tres.",
-    description: "Los restaurantes solían elegir entre velocidad, calidad y coste. Sundae se construyó para entregar los tres a la vez — ese es el punto entero.",
+    description: "Tener inteligencia de restaurantes de verdad solía implicar una renuncia: rápido de implementar, genuinamente bueno o lo bastante asequible para justificarlo. Elegías dos. Sundae se creó para entregar los tres a la vez - ese es justamente el punto.",
     oldRule: "Regla antigua: elige dos",
     sundaeRule: "↓ Regla Sundae: elige los tres",
     closing: "Esto no es un compromiso. Es tu ventaja operativa.",
     vertices: [
       { label: "Velocidad", headline: "Despliega en días. Decide en segundos.", body: "Conecta tu stack rápido. Pulse se actualiza durante el turno, y Sundae Intelligence responde con fuentes en vez de mandar a los equipos de vuelta a la cola de reportes.", chips: ["Días para desplegar", "Refresh Core en vivo", "Respuestas en segundos"] },
-      { label: "Calidad", headline: "Hecho para restaurantes. Gobernado para decidir.", body: "Sundae trae 500+ modelos de datos de restaurante gobernados, benchmarks de pares y respuestas IA con fuente — para que los equipos no construyan desde un lienzo BI en blanco.", chips: ["500+ modelos", "IA con fuente", "Benchmarks pares"] },
+      { label: "Calidad", headline: "Hecho para restaurantes. Gobernado para decidir.", body: "Sundae trae 500+ modelos de datos de restaurante gobernados, benchmarks de pares y respuestas IA con fuente - para que los equipos no construyan desde un lienzo BI en blanco.", chips: ["500+ modelos", "IA con fuente", "Benchmarks pares"] },
       { label: "Coste", headline: "Menor coste que reconstruir BI alrededor de restaurantes.", body: "Las licencias BI son solo el coste visible. El gasto real son analistas, integraciones, modelos a medida, mantenimiento de dashboards y decisiones tardías. Sundae viene listo para restaurantes desde el día uno, con Report Lite gratis.", chips: ["Report Lite gratis", "Menos BI custom", "Menos analistas"] },
     ],
   },
 };
 
 /**
- * Section 3 — Speed / Quality / Cost Triangle (homepage-spec-v1.1, polish r4).
+ * Section 3 - Speed / Quality / Cost Triangle (homepage-spec-v1.1, polish r4).
  *
  * Conversion job: prove differentiation. The triangle visualizes Sundae
- * collapsing the classic "fast, good, cheap — pick two" tradeoff into all
+ * collapsing the classic "fast, good, cheap - pick two" tradeoff into all
  * three at once.
  *
  * Polish r4 changes:
@@ -106,12 +106,12 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedSQC> = {
 /* Vertex IDs used for stable React keys (translation-independent) */
 const VERTEX_IDS = ["speed", "quality", "cost"] as const;
 
-// Triangle geometry — viewBox 700×540 with generous label margins.
+// Triangle geometry - viewBox 700×540 with generous label margins.
 //   middle = label centered above top vertex
 //   start  = label starts at labelX, extends RIGHT (bottom-right vertex)
 //   end    = label ends at labelX, extends LEFT (bottom-left vertex)
 //
-// Tiny stat sublabels under the labels were removed in r7 — the proof chips
+// Tiny stat sublabels under the labels were removed in r7 - the proof chips
 // in the rotating right-side card carry that information more readably and
 // the labels were visually colliding with the active-vertex glow.
 const trianglePoints: { x: number; y: number; labelX: number; labelY: number; anchor: "middle" | "start" | "end" }[] = [
@@ -154,16 +154,16 @@ export function SectionSpeedQualityCost() {
   const vertexFillActive = isLight ? "#0F172A" : "#FFFFFF";
   const vertexFillIdle = isLight ? "rgba(15,23,42,0.45)" : "rgba(255,255,255,0.45)";
   const vertexDotFillIdle = isLight ? "rgba(15,23,42,0.55)" : "rgba(255,255,255,0.55)";
-  const tracerBallFill = isLight ? "#1C47FF" : "#FFFFFF";
-  const triHighlightStrong = isLight ? "rgba(28,71,255,0.18)" : "rgba(255,255,255,0.25)";
-  const triHighlightMid = isLight ? "rgba(28,71,255,0.05)" : "rgba(255,255,255,0.06)";
+  const tracerBallFill = isLight ? "#FF5C4D" : "#FFFFFF";
+  const triHighlightStrong = isLight ? "rgba(255,92,77,0.18)" : "rgba(255,255,255,0.25)";
+  const triHighlightMid = isLight ? "rgba(255,92,77,0.05)" : "rgba(255,255,255,0.06)";
   const vertices = copy.vertices;
   const [activeIdx, setActiveIdx] = useState(0);
   const [paused, setPaused] = useState(false);
   const [mounted, setMounted] = useState(false);
   const [entranceDone, setEntranceDone] = useState(false);
 
-  // In-view trigger — entrance fires when section reaches the viewport.
+  // In-view trigger - entrance fires when section reaches the viewport.
   const sectionRef = useRef<HTMLDivElement>(null);
   const inView = useInView(sectionRef, { once: true, margin: "-15% 0px" });
 
@@ -174,7 +174,7 @@ export function SectionSpeedQualityCost() {
   }, []);
 
   // After section enters view, wait for the entrance choreography to finish,
-  // THEN flip entranceDone — which activates the orbit.
+  // THEN flip entranceDone - which activates the orbit.
   useEffect(() => {
     if (reduceMotion) {
       // eslint-disable-next-line react-hooks/set-state-in-effect
@@ -199,7 +199,7 @@ export function SectionSpeedQualityCost() {
   const ballY = useTransform(progress, (p) => ballAt(p).y);
 
   /**
-   * Mouse-parallax tilt — gives the triangle a "hologram" depth.
+   * Mouse-parallax tilt - gives the triangle a "hologram" depth.
    * Subtle: ±5deg max. Springed for liquid feel.
    */
   const pointerX = useMotionValue(0); // -1..1
@@ -217,7 +217,7 @@ export function SectionSpeedQualityCost() {
     pointerY.set(0);
   };
 
-  // Sync activeIdx from progress on every frame — React no-ops if value is
+  // Sync activeIdx from progress on every frame - React no-ops if value is
   // unchanged, so this only re-renders at segment boundaries.
   useMotionValueEvent(progress, "change", (latest) => {
     const next = Math.min(Math.floor(latest), 2);
@@ -225,7 +225,7 @@ export function SectionSpeedQualityCost() {
   });
 
   // Drive the orbit: animate progress 0→3 linearly over 15s, loop forever.
-  // animate() returns controls with .pause() / .play() — we use these for
+  // animate() returns controls with .pause() / .play() - we use these for
   // hover-pause so ball + content stay perfectly synced through pause cycles.
   const orbitRef = useRef<ReturnType<typeof animate<number>> | null>(null);
   useEffect(() => {
@@ -270,7 +270,7 @@ export function SectionSpeedQualityCost() {
           onMouseEnter={() => setPaused(true)}
           onMouseLeave={() => setPaused(false)}
         >
-          {/* Triangle SVG — 3D perspective container with mouse-parallax tilt */}
+          {/* Triangle SVG - 3D perspective container with mouse-parallax tilt */}
           <motion.div
             className="relative w-full max-w-xl mx-auto"
             initial={reduceMotion ? false : { opacity: 0, scale: 0.92 }}
@@ -284,13 +284,13 @@ export function SectionSpeedQualityCost() {
             onPointerMove={handlePointerMove}
             onPointerLeave={handlePointerLeaveTilt}
           >
-            {/* Ambient backdrop spotlight — sits BEHIND the triangle, never moves with parallax */}
+            {/* Ambient backdrop spotlight - sits BEHIND the triangle, never moves with parallax */}
             <div
               aria-hidden
               className="absolute inset-0 pointer-events-none"
               style={{
                 background:
-                  "radial-gradient(ellipse 70% 55% at 50% 42%, rgba(28,71,255,0.18) 0%, rgba(28,71,255,0.06) 35%, transparent 70%)",
+                  "radial-gradient(ellipse 70% 55% at 50% 42%, rgba(255,92,77,0.18) 0%, rgba(255,92,77,0.06) 35%, transparent 70%)",
                 filter: "blur(8px)",
               }}
             />
@@ -305,7 +305,7 @@ export function SectionSpeedQualityCost() {
                 transition={{ duration: 1.6, ease: "easeOut", delay: 0.1 }}
                 style={{
                   background:
-                    "radial-gradient(circle at center, rgba(96,165,250,0.45) 0%, rgba(28,71,255,0.18) 35%, transparent 65%)",
+                    "radial-gradient(circle at center, rgba(255,132,115,0.45) 0%, rgba(255,92,77,0.18) 35%, transparent 65%)",
                 }}
               />
             )}
@@ -315,12 +315,12 @@ export function SectionSpeedQualityCost() {
               <div className="inline-flex items-center gap-2 text-[12px] uppercase tracking-[0.18em] text-[var(--text-muted)] line-through decoration-[var(--text-faint)] decoration-1">
                 {copy.oldRule}
               </div>
-              <div className="mt-2 text-[13px] uppercase tracking-[0.18em] text-[var(--electric-blue)] font-bold">
+              <div className="mt-2 text-[13px] uppercase tracking-[0.18em] text-[var(--warm-coral)] font-bold">
                 {copy.sundaeRule}
               </div>
             </div>
 
-            {/* 3D tilt wrapper — the SVG and its floor reflection live inside */}
+            {/* 3D tilt wrapper - the SVG and its floor reflection live inside */}
             <motion.div
               className="relative"
               style={{
@@ -330,7 +330,7 @@ export function SectionSpeedQualityCost() {
                 transition: "transform 0.15s ease-out",
               }}
             >
-              {/* Floor reflection — mirrored, blurred, low-opacity triangle suggesting it floats over a surface */}
+              {/* Floor reflection - mirrored, blurred, low-opacity triangle suggesting it floats over a surface */}
               <div
                 aria-hidden
                 className="absolute inset-x-0 pointer-events-none"
@@ -338,7 +338,7 @@ export function SectionSpeedQualityCost() {
                   top: "70%",
                   height: "40%",
                   background:
-                    "radial-gradient(ellipse 50% 80% at 50% 0%, rgba(28,71,255,0.22) 0%, rgba(28,71,255,0.06) 40%, transparent 75%)",
+                    "radial-gradient(ellipse 50% 80% at 50% 0%, rgba(255,92,77,0.22) 0%, rgba(255,92,77,0.06) 40%, transparent 75%)",
                   filter: "blur(14px)",
                   transform: "translateZ(-30px)",
                 }}
@@ -351,21 +351,21 @@ export function SectionSpeedQualityCost() {
               style={{ transformStyle: "preserve-3d" }}
             >
               <defs>
-                {/* Premium edge gradient — light-source at top-left for specular feel */}
+                {/* Premium edge gradient - light-source at top-left for specular feel */}
                 <linearGradient id="triEdge" x1="0.15" y1="0.1" x2="0.85" y2="0.95">
-                  <stop offset="0%" stopColor="rgba(186,220,255,1)" />
-                  <stop offset="30%" stopColor="rgba(96,165,250,0.85)" />
-                  <stop offset="65%" stopColor="rgba(28,71,255,0.5)" />
-                  <stop offset="100%" stopColor="rgba(147,197,253,0.25)" />
+                  <stop offset="0%" stopColor="rgba(255,201,176,1)" />
+                  <stop offset="30%" stopColor="rgba(255,132,115,0.85)" />
+                  <stop offset="65%" stopColor="rgba(255,92,77,0.5)" />
+                  <stop offset="100%" stopColor="rgba(255,181,158,0.25)" />
                 </linearGradient>
-                {/* Multi-stop specular fill — gives the surface a "lit" 3D feel */}
+                {/* Multi-stop specular fill - gives the surface a "lit" 3D feel */}
                 <radialGradient id="triFill" cx="38%" cy="32%" r="75%">
-                  <stop offset="0%" stopColor="rgba(147,197,253,0.32)" />
-                  <stop offset="22%" stopColor="rgba(96,165,250,0.18)" />
-                  <stop offset="55%" stopColor="rgba(28,71,255,0.08)" />
-                  <stop offset="100%" stopColor="rgba(28,71,255,0)" />
+                  <stop offset="0%" stopColor="rgba(255,181,158,0.32)" />
+                  <stop offset="22%" stopColor="rgba(255,132,115,0.18)" />
+                  <stop offset="55%" stopColor="rgba(255,92,77,0.08)" />
+                  <stop offset="100%" stopColor="rgba(255,92,77,0)" />
                 </radialGradient>
-                {/* Top-vertex specular highlight — sharp, focused */}
+                {/* Top-vertex specular highlight - sharp, focused */}
                 <radialGradient id="triHighlight" cx="50%" cy="20%" r="42%">
                   <stop offset="0%" stopColor={triHighlightStrong} />
                   <stop offset="40%" stopColor={triHighlightMid} />
@@ -383,11 +383,11 @@ export function SectionSpeedQualityCost() {
                 <filter id="vertexGlow" x="-80%" y="-80%" width="260%" height="260%">
                   <feGaussianBlur stdDeviation="4" />
                 </filter>
-                {/* Drop-shadow for the entire triangle — gives it "lift" */}
+                {/* Drop-shadow for the entire triangle - gives it "lift" */}
                 <filter id="triShadow" x="-30%" y="-30%" width="160%" height="160%">
                   <feGaussianBlur in="SourceAlpha" stdDeviation="10" />
                   <feOffset dx="0" dy="8" result="offsetBlur" />
-                  <feFlood floodColor="rgba(28,71,255,0.35)" />
+                  <feFlood floodColor="rgba(255,92,77,0.35)" />
                   <feComposite in2="offsetBlur" operator="in" />
                   <feMerge>
                     <feMergeNode />
@@ -396,7 +396,7 @@ export function SectionSpeedQualityCost() {
                 </filter>
               </defs>
 
-              {/* Filled triangle — fades + breathes subtly, with drop shadow for "lift" */}
+              {/* Filled triangle - fades + breathes subtly, with drop shadow for "lift" */}
               <motion.polygon
                 points={trianglePoints.map((p) => `${p.x},${p.y}`).join(" ")}
                 fill="url(#triFill)"
@@ -416,7 +416,7 @@ export function SectionSpeedQualityCost() {
                     : { duration: 0.7, delay: 0.6, ease: "easeOut" }
                 }
               />
-              {/* Specular highlight — overlay polygon with concentrated light at top vertex */}
+              {/* Specular highlight - overlay polygon with concentrated light at top vertex */}
               <motion.polygon
                 points={trianglePoints.map((p) => `${p.x},${p.y}`).join(" ")}
                 fill="url(#triHighlight)"
@@ -426,7 +426,7 @@ export function SectionSpeedQualityCost() {
                 transition={{ duration: 0.9, delay: 0.8, ease: "easeOut" }}
               />
 
-              {/* Triangle outline — stroke draws around the perimeter */}
+              {/* Triangle outline - stroke draws around the perimeter */}
               <motion.path
                 d={`M ${trianglePoints[0].x} ${trianglePoints[0].y} L ${trianglePoints[1].x} ${trianglePoints[1].y} L ${trianglePoints[2].x} ${trianglePoints[2].y} Z`}
                 fill="none"
@@ -446,7 +446,7 @@ export function SectionSpeedQualityCost() {
                 }}
               />
 
-              {/* Active-vertex pulse rings — single source of truth = activeIdx */}
+              {/* Active-vertex pulse rings - single source of truth = activeIdx */}
               {useAnimated && (
                 <g key={`pulse-${activeIdx}`}>
                   {[0, 1].map((ringIdx) => (
@@ -456,7 +456,7 @@ export function SectionSpeedQualityCost() {
                       cy={trianglePoints[activeIdx].y}
                       r="20"
                       fill="none"
-                      stroke="#60A5FA"
+                      stroke="#FF8473"
                       strokeWidth="1.2"
                       initial={{ opacity: 0, scale: 1 }}
                       animate={{ opacity: [0, 0.55, 0], scale: [1, 3.2, 3.6] }}
@@ -472,15 +472,15 @@ export function SectionSpeedQualityCost() {
                 </g>
               )}
 
-              {/* Tracer ball — position bound to motion value, perfect sync with activeIdx */}
+              {/* Tracer ball - position bound to motion value, perfect sync with activeIdx */}
               {useAnimated && (
                 <>
-                  <motion.circle r="13" fill="#60A5FA" opacity="0.45" filter="url(#tracerGlow)" cx={ballX} cy={ballY} />
+                  <motion.circle r="13" fill="#FF8473" opacity="0.45" filter="url(#tracerGlow)" cx={ballX} cy={ballY} />
                   <motion.circle r="8" fill={tracerBallFill} cx={ballX} cy={ballY} />
                 </>
               )}
 
-              {/* Vertices — clickable, with stat callouts. Pop in sequentially after the outline draws. */}
+              {/* Vertices - clickable, with stat callouts. Pop in sequentially after the outline draws. */}
               {trianglePoints.map((p, i) => {
                 const isActive = !useAnimated || i === activeIdx;
                 const v = vertices[i];
@@ -517,12 +517,12 @@ export function SectionSpeedQualityCost() {
                     }}
                     style={{ transformOrigin: `${p.x}px ${p.y}px` }}
                   >
-                    {/* Halo (soft blurred glow) — only visible when active */}
+                    {/* Halo (soft blurred glow) - only visible when active */}
                     <circle
                       cx={p.x}
                       cy={p.y}
                       r={isActive ? 38 : 16}
-                      fill="#60A5FA"
+                      fill="#FF8473"
                       opacity={isActive ? 0.22 : 0.06}
                       filter="url(#vertexGlow)"
                       style={{ transition: "all 0.55s cubic-bezier(0.22, 1, 0.36, 1)" }}
@@ -533,7 +533,7 @@ export function SectionSpeedQualityCost() {
                       cy={p.y}
                       r={isActive ? 18 : 12}
                       fill="none"
-                      stroke="#60A5FA"
+                      stroke="#FF8473"
                       strokeWidth={isActive ? 1 : 0.8}
                       opacity={isActive ? 0.55 : 0.25}
                       style={{ transition: "all 0.55s cubic-bezier(0.22, 1, 0.36, 1)" }}
@@ -546,7 +546,7 @@ export function SectionSpeedQualityCost() {
                       fill={isActive ? vertexFillActive : vertexDotFillIdle}
                       style={{ transition: "all 0.45s ease-out" }}
                     />
-                    {/* Label — premium typography: bumped for mobile legibility */}
+                    {/* Label - premium typography: bumped for mobile legibility */}
                     <text
                       x={p.labelX}
                       y={p.labelY}
@@ -559,7 +559,7 @@ export function SectionSpeedQualityCost() {
                     >
                       {v.label.toUpperCase()}
                     </text>
-                    {/* Sublabel — small "0X" beneath label, only when active */}
+                    {/* Sublabel - small "0X" beneath label, only when active */}
                     <text
                       x={p.labelX}
                       y={p.labelY + 22}
@@ -567,7 +567,7 @@ export function SectionSpeedQualityCost() {
                       fontSize="11"
                       fontWeight="600"
                       letterSpacing="0.32em"
-                      fill={isActive ? "#60A5FA" : "transparent"}
+                      fill={isActive ? "#FF8473" : "transparent"}
                       style={{ transition: "fill 0.4s ease-out" }}
                     >
                       0{i + 1}
@@ -588,7 +588,7 @@ export function SectionSpeedQualityCost() {
                   key={VERTEX_IDS[vi]}
                   className="rounded-xl border border-[var(--border-default)] bg-[var(--surface-subtle)] p-5"
                 >
-                  <div className="text-[11px] uppercase tracking-wider text-[var(--electric-blue)] font-bold mb-2">
+                  <div className="text-[11px] uppercase tracking-wider text-[var(--warm-coral)] font-bold mb-2">
                     {v.label}
                   </div>
                   <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">
@@ -599,7 +599,7 @@ export function SectionSpeedQualityCost() {
                     {v.chips.map((chip) => (
                       <span
                         key={chip}
-                        className="text-[11px] font-semibold px-2.5 py-1 rounded-full bg-[var(--electric-blue)]/15 text-[var(--electric-blue)] border border-[var(--electric-blue)]/25"
+                        className="text-[11px] font-semibold px-2.5 py-1 rounded-full bg-[var(--warm-coral)]/15 text-[var(--warm-coral)] border border-[var(--warm-coral)]/25"
                       >
                         {chip}
                       </span>
@@ -620,7 +620,7 @@ export function SectionSpeedQualityCost() {
                     exit={{ opacity: 0, y: -8 }}
                     transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
                   >
-                    <div className="text-[11px] uppercase tracking-wider text-[var(--electric-blue)] font-bold mb-3">
+                    <div className="text-[11px] uppercase tracking-wider text-[var(--warm-coral)] font-bold mb-3">
                       {vertices[activeIdx].label}
                     </div>
                     <h3 className="section-h3 mb-4">
@@ -631,7 +631,7 @@ export function SectionSpeedQualityCost() {
                 </AnimatePresence>
               </div>
 
-              {/* Proof chips for the active dimension — replaces dot
+              {/* Proof chips for the active dimension - replaces dot
                   indicators with concrete factual signals. Triangle vertices
                   remain clickable for direct navigation. */}
               <AnimatePresence mode="wait">
@@ -646,7 +646,7 @@ export function SectionSpeedQualityCost() {
                   {vertices[activeIdx].chips.map((chip) => (
                     <span
                       key={chip}
-                      className="text-[12px] font-semibold px-3 py-1.5 rounded-full bg-[var(--electric-blue)]/15 text-[var(--electric-blue)] border border-[var(--electric-blue)]/25"
+                      className="text-[12px] font-semibold px-3 py-1.5 rounded-full bg-[var(--warm-coral)]/15 text-[var(--warm-coral)] border border-[var(--warm-coral)]/25"
                     >
                       {chip}
                     </span>

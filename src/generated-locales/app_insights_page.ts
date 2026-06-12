@@ -3,14 +3,14 @@
 export const generatedLocalCopy = {
   "localizedInsightsUi": {
     "de": {
-      "badge": "SUNDAE EINBLICKE",
+      "badge": "SUNDAE INSIGHTS",
       "title": "Gehen Sie tiefer in jeden Teil Ihres Betriebs",
-      "description": "Vierzehn spezialisierte Module decken Umsatz, Personal, Inventar, Einkauf, Marketing, Reservierungen, Gewinn, Lieferung, Gästeerfahrung, CRM, Umsatzsicherung, Cross-Intelligence, vorausschauende Intelligenz und Executive Summary ab. Jedes Modul ist für einen Betriebsbereich konzipiert.",
+      "description": "Vierzehn spezialisierte Module decken Umsatz, Personal, Inventar, Einkauf, Marketing, Reservierungen, Gewinn, Lieferung, Gästeerlebnis, CRM, Umsatzsicherung, Cross-Intelligence, vorausschauende Intelligenz und Executive Summary ab. Jedes Modul ist für einen Betriebsbereich gebaut.",
       "bookDemo": "Demo buchen",
       "seeModules": "Modulpreise anzeigen",
       "categories": [
-        "Einnahmen",
-        "Arbeitskraft",
+        "Umsatz",
+        "Personal",
         "Inventar",
         "Einkauf",
         "Marketing",
@@ -18,7 +18,7 @@ export const generatedLocalCopy = {
         "Gewinn",
         "Umsatzsicherung",
         "Lieferung",
-        "Gästeserlebnis",
+        "Gästeerlebnis",
         "Gäste-CRM",
         "Cross-Intelligence"
       ],
@@ -28,11 +28,11 @@ export const generatedLocalCopy = {
         "Verfügbar in den Core-Tarifen"
       ],
       "whoItsForTitle": "Für wen es gedacht ist",
-      "whoItsForDescription": "Teams, die detaillierte Informationen auf Domain-Ebene benötigen, die sie im Feld nutzen können",
+      "whoItsForDescription": "Teams, die Detailtiefe auf Domain-Ebene brauchen, die sich im Tagesgeschäft direkt nutzen lässt",
       "whoItsFor": [
         {
           "title": "Betriebsleiter",
-          "description": "Tiefgehende Einblicke in spezifische Betriebsbereiche ohne benutzerdefinierte Berichte zu erstellen"
+          "description": "Tiefer Einblick in einzelne Betriebsbereiche, ohne eigene Berichte erstellen zu müssen"
         },
         {
           "title": "Finanzen & FP&A",
@@ -47,9 +47,9 @@ export const generatedLocalCopy = {
       "modulesDescription": "Jedes Modul liefert KI-gestützte Analysen für einen spezifischen Betriebsbereich",
       "howTitle": "Wie es funktioniert",
       "howDescription": "Fügen Sie Ihrer Core-Subscription Module hinzu, wenn Ihre Bedürfnisse wachsen.",
-      "fitEyebrow": "WIE EINBLICKE PASST",
+      "fitEyebrow": "WIE INSIGHTS SICH EINFÜGT",
       "fitTitle": "Die Analytische Ebene",
-      "fitDescription": "Pulse hilft Teams, den bevorstehenden Wandel zu bewältigen. Watchtower überwacht den externen Markt. Die Insights-Module bieten jeder Funktion eine tiefere Arbeitsansicht von Personal, Inventar, Einkauf, Marketing und mehr.",
+      "fitDescription": "Pulse hilft Teams, die laufende Schicht im Griff zu behalten. Watchtower beobachtet den externen Markt. Die Insights-Module geben jeder Funktion eine tiefere Arbeitsansicht auf Personal, Inventar, Einkauf, Marketing und mehr.",
       "fitItems": [
         {
           "name": "Pulse",
@@ -116,7 +116,7 @@ export const generatedLocalCopy = {
       "howDescription": "Agrega módulos a tu suscripción de Core a medida que crecen tus necesidades",
       "fitEyebrow": "CÓMO SE AJUSTAN LOS INSIGHTS",
       "fitTitle": "La Capa Analítica",
-      "fitDescription": "Pulse ayuda a los equipos a gestionar el cambio que tienen por delante. Watchtower rastrea el mercado externo. Los módulos de Insights brindan a cada función una visión más profunda del trabajo en mano de obra, inventario, compras, marketing y más.",
+      "fitDescription": "Pulse ayuda a los equipos a gestionar el turno que tienen por delante. Watchtower rastrea el mercado externo. Los módulos de Insights brindan a cada función una visión más profunda de mano de obra, inventario, compras, marketing y más.",
       "fitItems": [
         {
           "name": "Pulse",
@@ -138,8 +138,8 @@ export const generatedLocalCopy = {
     },
     "fr": {
       "badge": "INSIGHTS SUNDAE",
-      "title": "Plongez plus profondément dans chaque aspect de votre opération",
-      "description": "Quatorze modules spécialisés couvrent les revenus, le travail, l'inventaire, les achats, le marketing, les réservations, le profit, la livraison, l'expérience client, le CRM, l'assurance des revenus, l'intelligence croisée, l'intelligence prédictive et le résumé exécutif. Chaque module est conçu pour un domaine d'exploitation.",
+      "title": "Plongez plus profondément dans chaque aspect de votre activité",
+      "description": "Quatorze modules spécialisés couvrent les revenus, la main-d'œuvre, l'inventaire, les achats, le marketing, les réservations, le profit, la livraison, l'expérience client, le CRM, l'assurance des revenus, l'intelligence croisée, l'intelligence prédictive et le résumé exécutif. Chaque module est conçu pour un domaine opérationnel.",
       "bookDemo": "Réserver une démo",
       "seeModules": "Voir les prix des modules",
       "categories": [
@@ -183,11 +183,11 @@ export const generatedLocalCopy = {
       "howDescription": "Ajoutez des modules à votre abonnement Core au fur et à mesure que vos besoins évoluent.",
       "fitEyebrow": "COMMENT LES INSIGHTS S'INTÈGRENT",
       "fitTitle": "La couche analytique",
-      "fitDescription": "Pulse aide les équipes à gérer le changement qui les attend. Watchtower suit le marché extérieur. Les modules d'Insights offrent à chaque fonction une vue de travail plus approfondie sur le travail, l'inventaire, les achats, le marketing, et plus encore.",
+      "fitDescription": "Pulse aide les équipes à gérer le service qui les attend. Watchtower suit le marché extérieur. Les modules Insights offrent à chaque fonction une vue de travail plus approfondie sur la main-d'œuvre, l'inventaire, les achats, le marketing, et plus encore.",
       "fitItems": [
         {
           "name": "Pulse",
-          "desc": "Surveillance des équipes en temps réel"
+          "desc": "Suivi du service en temps réel"
         },
         {
           "name": "Watchtower",
@@ -204,23 +204,23 @@ export const generatedLocalCopy = {
       "ctaPricing": "Voir les tarifs du module"
     },
     "nl": {
-      "badge": "Sundae Inzichten",
-      "title": "Ga Dieper In Elke Aspect Van Uw Operatie",
-      "description": "Veertien gespecialiseerde modules dekken omzet, arbeid, voorraad, inkoop, marketing, reserveringen, winst, levering, gastenervaring, CRM, omzetgarantie, cross-intelligentie, voorspellende intelligentie en een executive summary. Elke module is ontworpen voor één operationeel domein.",
+      "badge": "SUNDAE INSIGHTS",
+      "title": "Ga dieper in op elk deel van uw bedrijfsvoering",
+      "description": "Veertien gespecialiseerde modules dekken omzet, personeel, voorraad, inkoop, marketing, reserveringen, winst, bezorging, gastbeleving, CRM, omzetbewaking, cross-intelligence, voorspellende intelligentie en een executive summary. Elke module is gebouwd voor één operationeel domein.",
       "bookDemo": "Boek een Demo",
       "seeModules": "Bekijk moduleprijzen",
       "categories": [
         "Omzet",
-        "Arbeid",
+        "Personeel",
         "Voorraad",
         "Inkoop",
         "Marketing",
         "Reserveringen",
         "Winst",
-        "Omzetgarantie",
-        "Levering",
-        "Gastenervaring",
-        "Gasten CRM",
+        "Omzetbewaking",
+        "Bezorging",
+        "Gastbeleving",
+        "Gasten-CRM",
         "Cross-Intelligence"
       ],
       "valueProps": [
@@ -229,32 +229,32 @@ export const generatedLocalCopy = {
         "Beschikbaar op Core-niveaus"
       ],
       "whoItsForTitle": "Voor wie het is",
-      "whoItsForDescription": "Teams die domeinspecifieke details nodig hebben die ze in het veld kunnen gebruiken",
+      "whoItsForDescription": "Teams die domeinspecifiek detail nodig hebben dat ze in de praktijk kunnen gebruiken",
       "whoItsFor": [
         {
-          "title": "Operationele Leiders",
-          "description": "Diepgaande inzichten in specifieke operationele domeinen zonder aangepaste rapporten te bouwen"
+          "title": "Operationeel leiders",
+          "description": "Diepgaand inzicht in specifieke operationele domeinen zonder maatwerkrapporten te bouwen"
         },
         {
           "title": "Financiën & FP&A",
-          "description": "Winstintelligentie, kostenanalyse en omzetgarantie in real-time"
+          "description": "Winstintelligentie, kostenanalyse en omzetbewaking in real-time"
         },
         {
-          "title": "Regionale Managers",
-          "description": "Prestaties op module-niveau zichtbaar maken in elke locatie binnen jouw gebied"
+          "title": "Regiomanagers",
+          "description": "Prestatie-inzicht op moduleniveau voor elke locatie in uw gebied"
         }
       ],
-      "modulesTitle": "12 Modules. Eén Platform.",
-      "modulesDescription": "Elk module biedt AI-gestuurde analyses voor een specifieke operationele domein",
+      "modulesTitle": "12 modules. Eén platform.",
+      "modulesDescription": "Elke module biedt AI-gestuurde analyses voor één specifiek operationeel domein",
       "howTitle": "Hoe het werkt",
-      "howDescription": "Voeg modules toe aan je Core-abonnement naarmate je behoeften groeien",
-      "fitEyebrow": "HOE INZICHTEN PASSEN",
-      "fitTitle": "De Analytische Laag",
-      "fitDescription": "Pulse helpt teams om de veranderingen voor hen te beheren. Watchtower volgt de externe markt. Inzichtenmodules geven elke functie een dieper werkend overzicht van arbeid, voorraad, inkoop, marketing en meer.",
+      "howDescription": "Voeg modules toe aan uw Core-abonnement naarmate uw behoeften groeien",
+      "fitEyebrow": "HOE INSIGHTS PAST",
+      "fitTitle": "De analytische laag",
+      "fitDescription": "Pulse helpt teams om grip te houden op de dienst die voor hen ligt. Watchtower volgt de externe markt. De Insights-modules geven elke functie een dieper werkinzicht in personeel, voorraad, inkoop, marketing en meer.",
       "fitItems": [
         {
           "name": "Pulse",
-          "desc": "Realtime shift monitoring"
+          "desc": "Realtime dienstmonitoring"
         },
         {
           "name": "Watchtower",
@@ -317,7 +317,7 @@ export const generatedLocalCopy = {
       "howDescription": "Adicione módulos à sua assinatura Core conforme suas necessidades crescem",
       "fitEyebrow": "COMO OS INSIGHTS SE ENCAIXAM",
       "fitTitle": "A Camada Analítica",
-      "fitDescription": "Pulse ajuda as equipes a gerenciar a mudança à sua frente. Watchtower monitora o mercado externo. Os módulos de Insights oferecem a cada função uma visão mais profunda sobre mão de obra, inventário, compras, marketing e muito mais.",
+      "fitDescription": "O Pulse ajuda as equipes a gerenciar o turno à sua frente. O Watchtower monitora o mercado externo. Os módulos de Insights oferecem a cada função uma visão mais profunda sobre mão de obra, inventário, compras, marketing e muito mais.",
       "fitItems": [
         {
           "name": "Pulse",
@@ -338,8 +338,8 @@ export const generatedLocalCopy = {
       "ctaPricing": "Ver Preços do Módulo"
     },
     "ur": {
-      "badge": "سُنڈے بصیرتیں",
-      "title": "اپریشن کے ہر حصے میں مزید گہرائی میں جائیں",
+      "badge": "Sundae Insights",
+      "title": "اپنے آپریشن کے ہر حصے میں مزید گہرائی میں جائیں",
       "description": "چودہ خصوصی ماڈیولز آمدنی، مزدوری، انوینٹری، خریداری، مارکیٹنگ، ریزرویشن، منافع، ترسیل، مہمان کے تجربے، CRM، آمدنی کی ضمانت، کراس انٹیلیجنس، بصیرت کی انٹیلیجنس، اور ایگزیکٹو سمری کا احاطہ کرتے ہیں۔ ہر ماڈیول ایک آپریٹنگ ڈومین کے لیے بنایا گیا ہے۔",
       "bookDemo": "ڈیمو بک کریں",
       "seeModules": "ماڈیول کی قیمتیں دیکھیں",
@@ -382,9 +382,9 @@ export const generatedLocalCopy = {
       "modulesDescription": "ہر ماڈیول ایک مخصوص عملیاتی شعبے کے لیے AI سے چلنے والے تجزیات فراہم کرتا ہے",
       "howTitle": "یہ کیسے کام کرتا ہے",
       "howDescription": "اپنی ضروریات کے بڑھنے کے ساتھ اپنے کور سبسکرپشن میں ماڈیولز شامل کریں",
-      "fitEyebrow": "ان بصیرتوں کا کیا کردار ہے",
+      "fitEyebrow": "Insights کہاں فٹ ہوتا ہے",
       "fitTitle": "تجزیاتی پرت",
-      "fitDescription": "Pulse ٹیموں کو ان کے سامنے آنے والی تبدیلی کا انتظام کرنے میں مدد کرتا ہے۔ Watchtower باہر کے بازار کی نگرانی کرتا ہے۔ Insights ماڈیولز ہر فنکشن کو مزدوری، انوینٹری، خریداری، مارکیٹنگ، اور مزید کا گہرا کام کرنے کا منظر فراہم کرتے ہیں۔",
+      "fitDescription": "Pulse ٹیموں کو ان کے سامنے کی شفٹ سنبھالنے میں مدد دیتا ہے۔ Watchtower باہر کے بازار کی نگرانی کرتا ہے۔ Insights ماڈیولز ہر فنکشن کو مزدوری، انوینٹری، خریداری، مارکیٹنگ اور مزید پر گہری کام کی نظر فراہم کرتے ہیں۔",
       "fitItems": [
         {
           "name": "Pulse",
@@ -405,7 +405,7 @@ export const generatedLocalCopy = {
       "ctaPricing": "ماڈیول کی قیمتیں دیکھیں"
     },
     "hi": {
-      "badge": "संडे अंतर्दृष्टि",
+      "badge": "Sundae Insights",
       "title": "अपने संचालन के हर हिस्से में गहराई से जाएं",
       "description": "चौदह विशेषीकृत मॉड्यूल राजस्व, श्रम, इन्वेंटरी, खरीद, विपणन, आरक्षण, लाभ, डिलीवरी, अतिथि अनुभव, सीआरएम, राजस्व आश्वासन, क्रॉस-इंटेलिजेंस, पूर्वदृष्टि इंटेलिजेंस, और कार्यकारी सारांश को कवर करते हैं। प्रत्येक मॉड्यूल एक संचालन डोमेन के लिए बनाया गया है।",
       "bookDemo": "डेमो बुक करें",
@@ -449,9 +449,9 @@ export const generatedLocalCopy = {
       "modulesDescription": "प्रत्येक मॉड्यूल एक विशिष्ट संचालन क्षेत्र के लिए AI-संचालित विश्लेषण प्रदान करता है",
       "howTitle": "यह कैसे काम करता है",
       "howDescription": "जैसे-जैसे आपकी आवश्यकताएँ बढ़ती हैं, अपने Core सब्सक्रिप्शन में मॉड्यूल जोड़ें",
-      "fitEyebrow": "कैसे अंतर्दृष्टियाँ फिट होती हैं",
+      "fitEyebrow": "Insights कहाँ फिट होता है",
       "fitTitle": "विश्लेषणात्मक परत",
-      "fitDescription": "Pulse टीमों को उनके सामने बदलाव को प्रबंधित करने में मदद करता है। Watchtower बाहरी बाजार पर नज़र रखता है। Insights मॉड्यूल प्रत्येक कार्य को श्रम, इन्वेंटरी, खरीद, मार्केटिंग और अधिक का गहरा कार्यात्मक दृश्य प्रदान करते हैं।",
+      "fitDescription": "Pulse टीमों को उनके सामने की शिफ्ट संभालने में मदद करता है। Watchtower बाहरी बाजार पर नज़र रखता है। Insights मॉड्यूल प्रत्येक कार्य को श्रम, इन्वेंटरी, खरीद, मार्केटिंग और अधिक पर गहरा कार्यात्मक दृश्य प्रदान करते हैं।",
       "fitItems": [
         {
           "name": "Pulse",
@@ -472,23 +472,23 @@ export const generatedLocalCopy = {
       "ctaPricing": "मॉड्यूल मूल्य निर्धारण देखें"
     },
     "it": {
-      "badge": "INSIGHT DI SUNDAE",
-      "title": "Approfondisci Ogni Aspetto della Tua Operazione",
-      "description": "Quattordici moduli specializzati coprono ricavi, lavoro, inventario, acquisti, marketing, prenotazioni, profitti, consegne, esperienza degli ospiti, CRM, garanzia dei ricavi, cross-intelligence, intelligenza predittiva e sintesi esecutiva. Ogni modulo è progettato per un dominio operativo specifico.",
+      "badge": "INSIGHTS DI SUNDAE",
+      "title": "Approfondisci ogni aspetto della tua attività",
+      "description": "Quattordici moduli specializzati coprono ricavi, personale, inventario, acquisti, marketing, prenotazioni, profitti, consegne, esperienza degli ospiti, CRM, garanzia dei ricavi, cross-intelligence, intelligenza predittiva e sintesi esecutiva. Ogni modulo è progettato per un dominio operativo specifico.",
       "bookDemo": "Prenota una demo",
       "seeModules": "Vedi i Prezzi dei Moduli",
       "categories": [
-        "Entrate",
-        "Lavoro",
+        "Ricavi",
+        "Personale",
         "Inventario",
         "Acquisti",
         "Marketing",
         "Prenotazioni",
         "Profitto",
-        "Garanzia delle Entrate",
+        "Garanzia dei ricavi",
         "Consegna",
-        "Esperienza Ospite",
-        "CRM Ospite",
+        "Esperienza ospite",
+        "CRM ospiti",
         "Cross-Intelligence"
       ],
       "valueProps": [
@@ -496,8 +496,8 @@ export const generatedLocalCopy = {
         "Analisi basate su AI per dominio",
         "Disponibile nei livelli Core"
       ],
-      "whoItsForTitle": "Chi è per",
-      "whoItsForDescription": "Team che necessitano di dettagli a livello di dominio da utilizzare sul campo",
+      "whoItsForTitle": "A chi è rivolto",
+      "whoItsForDescription": "Team che hanno bisogno di dettaglio a livello di dominio da usare sul campo",
       "whoItsFor": [
         {
           "title": "Leader delle Operazioni",
@@ -516,9 +516,9 @@ export const generatedLocalCopy = {
       "modulesDescription": "Ogni modulo offre analisi potenziate dall'AI per un dominio operativo specifico",
       "howTitle": "Come Funziona",
       "howDescription": "Aggiungi moduli al tuo abbonamento Core man mano che le tue esigenze crescono",
-      "fitEyebrow": "COME GLI INSIGHT SI ADATTANO",
+      "fitEyebrow": "COME SI INSERISCE INSIGHTS",
       "fitTitle": "Il Livello Analitico",
-      "fitDescription": "Pulse aiuta i team a gestire il cambiamento che hanno di fronte. Watchtower monitora il mercato esterno. I moduli Insights offrono a ciascuna funzione una visione più approfondita del lavoro, dell'inventario, degli acquisti, del marketing e altro ancora.",
+      "fitDescription": "Pulse aiuta i team a gestire il turno che hanno di fronte. Watchtower monitora il mercato esterno. I moduli Insights offrono a ciascuna funzione una visione più approfondita di personale, inventario, acquisti, marketing e altro ancora.",
       "fitItems": [
         {
           "name": "Pulse",
@@ -534,13 +534,13 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "Inizia con ciò che conta di più",
-      "ctaDescription": "Aggiungi i moduli di cui ha bisogno la tua operazione. Scala man mano che cresci. Ogni modulo è disponibile nei livelli Core.",
+      "ctaDescription": "Aggiungi i moduli di cui ha bisogno la tua attività. Scala man mano che cresci. Ogni modulo è disponibile nei livelli Core.",
       "ctaDemo": "Prenota una demo",
       "ctaPricing": "Vedi i prezzi del modulo"
     },
     "zh-Hans": {
-      "badge": "圣代洞察",
-      "title": "深入了解您运营的每个部分",
+      "badge": "Sundae Insights",
+      "title": "深入了解运营的每个环节",
       "description": "十四个专业模块涵盖收入、劳动力、库存、采购、营销、预订、利润、配送、客户体验、客户关系管理、收入保障、跨智能、前瞻智能和执行摘要。每个模块针对一个运营领域而构建。",
       "bookDemo": "预约演示",
       "seeModules": "查看模块定价",
@@ -583,9 +583,9 @@ export const generatedLocalCopy = {
       "modulesDescription": "每个模块提供针对特定运营领域的AI驱动分析",
       "howTitle": "工作原理",
       "howDescription": "随着需求的增长，向您的Core订阅添加模块",
-      "fitEyebrow": "洞察如何适配",
+      "fitEyebrow": "Insights 如何契合",
       "fitTitle": "分析层",
-      "fitDescription": "Pulse 帮助团队管理眼前的变化。Watchtower 追踪外部市场。Insights 模块为每个职能提供更深入的劳动、库存、采购、营销等工作视图。",
+      "fitDescription": "Pulse 帮助团队掌控眼前的当班。Watchtower 追踪外部市场。Insights 模块为每个职能提供更深入的人力、库存、采购、营销等工作视图。",
       "fitItems": [
         {
           "name": "Pulse",
@@ -601,13 +601,13 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "从最重要的开始",
-      "ctaDescription": "添加您运营所需的模块。随着您的发展进行扩展。Core 级别上提供的每个模块。",
+      "ctaDescription": "添加您运营所需的模块。随着业务发展灵活扩展。每个模块均可在 Core 级别中使用。",
       "ctaDemo": "预约演示",
       "ctaPricing": "查看模块定价"
     },
     "tr": {
-      "badge": "SUNDAE İÇGÖRÜLERİ",
-      "title": "İşletmenizin Her Alanına Daha Derinlemesine İnceleyin",
+      "badge": "SUNDAE INSIGHTS",
+      "title": "İşletmenizin Her Alanını Daha Derinlemesine İnceleyin",
       "description": "On dört özel modül, gelir, iş gücü, envanter, satın alma, pazarlama, rezervasyon, kâr, teslimat, misafir deneyimi, CRM, gelir güvencesi, çapraz zeka, öngörü zekası ve yönetici özeti konularını kapsar. Her modül, bir işletme alanı için tasarlanmıştır.",
       "bookDemo": "Demo Rezervasyonu Yap",
       "seeModules": "Modül Fiyatlarını Gör",
@@ -650,9 +650,9 @@ export const generatedLocalCopy = {
       "modulesDescription": "Her modül, belirli bir operasyonel alan için AI destekli analizler sunar.",
       "howTitle": "Nasıl Çalışır",
       "howDescription": "İhtiyaçlarınız arttıkça Core aboneliğinize modüller ekleyin",
-      "fitEyebrow": "İÇGÖRÜLERİN NASIL UYDUĞU",
+      "fitEyebrow": "INSIGHTS NEREYE OTURUR",
       "fitTitle": "Analitik Katman",
-      "fitDescription": "Pulse, ekiplerin önlerindeki değişimi yönetmelerine yardımcı olur. Watchtower, dış pazarı takip eder. Insights modülleri, her bir fonksiyona iş gücü, envanter, satın alma, pazarlama ve daha fazlası hakkında daha derin bir çalışma görünümü sunar.",
+      "fitDescription": "Pulse, ekiplerin önlerindeki vardiyayı yönetmelerine yardımcı olur. Watchtower, dış pazarı takip eder. Insights modülleri, her bir fonksiyona iş gücü, envanter, satın alma, pazarlama ve daha fazlası hakkında daha derin bir çalışma görünümü sunar.",
       "fitItems": [
         {
           "name": "Pulse",
@@ -673,14 +673,14 @@ export const generatedLocalCopy = {
       "ctaPricing": "Modül Fiyatlandırmasını Gör"
     },
     "ja": {
-      "badge": "サンデーインサイト",
-      "title": "あなたの業務のすべての部分を深く掘り下げる",
-      "description": "14の専門モジュールが、収益、労働、在庫、購買、マーケティング、予約、利益、配送、ゲスト体験、CRM、収益保証、クロスインテリジェンス、先見の明、エグゼクティブサマリーをカバーします。各モジュールは1つの運営ドメインのために構築されています。",
+      "badge": "Sundae Insights",
+      "title": "業務のあらゆる領域を深く掘り下げる",
+      "description": "14の専門モジュールが、収益、労務、在庫、購買、マーケティング、予約、利益、配送、ゲスト体験、CRM、収益保証、クロスインテリジェンス、予測インテリジェンス、エグゼクティブサマリーをカバーします。各モジュールは1つの業務領域のために構築されています。",
       "bookDemo": "デモを予約する",
       "seeModules": "モジュールの価格を見る",
       "categories": [
         "収益",
-        "労働",
+        "労務",
         "在庫",
         "購買",
         "マーケティング",
@@ -717,9 +717,9 @@ export const generatedLocalCopy = {
       "modulesDescription": "各モジュールは特定の運用ドメインに対するAI駆動の分析を提供します",
       "howTitle": "使い方",
       "howDescription": "ニーズの成長に応じて、Coreサブスクリプションにモジュールを追加します",
-      "fitEyebrow": "インサイトの適合性",
+      "fitEyebrow": "Insights の位置づけ",
       "fitTitle": "分析レイヤー",
-      "fitDescription": "Pulseはチームが目の前の変化を管理するのを助けます。Watchtowerは外部市場を追跡します。Insightsモジュールは、労働、在庫、購買、マーケティングなどの各機能に対して、より深い作業ビューを提供します。",
+      "fitDescription": "Pulseはチームが目の前のシフトを乗り切るのを支援します。Watchtowerは外部市場を追跡します。Insightsモジュールは、労務、在庫、購買、マーケティングなど各機能に対して、より深い業務ビューを提供します。",
       "fitItems": [
         {
           "name": "Pulse",
@@ -740,7 +740,7 @@ export const generatedLocalCopy = {
       "ctaPricing": "モジュールの価格を見る"
     },
     "pl": {
-      "badge": "WNIOSKI SUNDAE",
+      "badge": "SUNDAE INSIGHTS",
       "title": "Zagłęb się w każdy aspekt swojej działalności",
       "description": "Czternaście specjalistycznych modułów obejmuje przychody, pracę, zapasy, zakupy, marketing, rezerwacje, zyski, dostawy, doświadczenie gości, CRM, zapewnienie przychodów, cross-intelligence, inteligencję prognozującą oraz podsumowanie wykonawcze. Każdy moduł jest stworzony dla jednego obszaru operacyjnego.",
       "bookDemo": "Umów się na demonstrację",
@@ -784,13 +784,13 @@ export const generatedLocalCopy = {
       "modulesDescription": "Każdy moduł dostarcza analizy oparte na AI dla konkretnej dziedziny operacyjnej",
       "howTitle": "Jak to działa",
       "howDescription": "Dodawaj moduły do swojej subskrypcji Core w miarę rosnących potrzeb",
-      "fitEyebrow": "JAK INSIGHTY PASUJĄ",
+      "fitEyebrow": "JAK INSIGHTS PASUJE",
       "fitTitle": "Warstwa analityczna",
-      "fitDescription": "Pulse pomaga zespołom zarządzać nadchodzącą zmianą. Watchtower śledzi zewnętrzny rynek. Moduły Insights dają każdej funkcji głębszy wgląd w pracę, zapasy, zakupy, marketing i inne.",
+      "fitDescription": "Pulse pomaga zespołom zarządzać bieżącą zmianą na sali. Watchtower śledzi zewnętrzny rynek. Moduły Insights dają każdej funkcji głębszy wgląd w pracę, zapasy, zakupy, marketing i inne.",
       "fitItems": [
         {
           "name": "Pulse",
-          "desc": "Monitorowanie zmian w czasie rzeczywistym"
+          "desc": "Monitorowanie bieżącej zmiany w czasie rzeczywistym"
         },
         {
           "name": "Watchtower",
@@ -807,7 +807,7 @@ export const generatedLocalCopy = {
       "ctaPricing": "Zobacz ceny modułów"
     },
     "id": {
-      "badge": "WAWASAN SUNDAE",
+      "badge": "SUNDAE INSIGHTS",
       "title": "Selami Setiap Bagian dari Operasi Anda",
       "description": "Empat belas modul khusus mencakup pendapatan, tenaga kerja, inventaris, pembelian, pemasaran, reservasi, keuntungan, pengiriman, pengalaman tamu, CRM, jaminan pendapatan, cross-intelligence, intelijen ramalan, dan ringkasan eksekutif. Setiap modul dirancang untuk satu domain operasional.",
       "bookDemo": "Pesan Demo",
@@ -851,9 +851,9 @@ export const generatedLocalCopy = {
       "modulesDescription": "Setiap modul memberikan analitik bertenaga AI untuk domain operasional tertentu",
       "howTitle": "Cara Kerjanya",
       "howDescription": "Tambahkan modul ke langganan Core Anda seiring dengan pertumbuhan kebutuhan Anda",
-      "fitEyebrow": "BAGAIMANA INSIGHT SESUAI",
+      "fitEyebrow": "DI MANA INSIGHTS COCOK",
       "fitTitle": "Lapisan Analitis",
-      "fitDescription": "Pulse membantu tim mengelola perubahan di depan mereka. Watchtower melacak pasar luar. Modul wawasan memberikan setiap fungsi pandangan kerja yang lebih dalam tentang tenaga kerja, inventaris, pembelian, pemasaran, dan lainnya.",
+      "fitDescription": "Pulse membantu tim mengelola shift yang ada di depan mereka. Watchtower memantau pasar eksternal. Modul Insights memberi setiap fungsi pandangan kerja yang lebih mendalam atas tenaga kerja, inventaris, pembelian, pemasaran, dan lainnya.",
       "fitItems": [
         {
           "name": "Pulse",
@@ -874,7 +874,7 @@ export const generatedLocalCopy = {
       "ctaPricing": "Lihat Harga Modul"
     },
     "vi": {
-      "badge": "THÔNG TIN SUNDAE",
+      "badge": "SUNDAE INSIGHTS",
       "title": "Đi Sâu Vào Mọi Khía Cạnh Của Hoạt Động Của Bạn",
       "description": "Mười bốn mô-đun chuyên biệt bao gồm doanh thu, lao động, tồn kho, mua sắm, tiếp thị, đặt chỗ, lợi nhuận, giao hàng, trải nghiệm khách hàng, CRM, đảm bảo doanh thu, trí tuệ chéo, trí tuệ dự đoán và tóm tắt điều hành. Mỗi mô-đun được xây dựng cho một lĩnh vực hoạt động.",
       "bookDemo": "Đặt lịch Dùng thử",
@@ -918,9 +918,9 @@ export const generatedLocalCopy = {
       "modulesDescription": "Mỗi mô-đun cung cấp phân tích dựa trên AI cho một lĩnh vực hoạt động cụ thể",
       "howTitle": "Cách Hoạt Động",
       "howDescription": "Thêm các mô-đun vào gói Core của bạn khi nhu cầu của bạn tăng lên",
-      "fitEyebrow": "CÁCH THÔNG TIN PHÙ HỢP",
+      "fitEyebrow": "INSIGHTS PHÙ HỢP Ở ĐÂU",
       "fitTitle": "Lớp Phân Tích",
-      "fitDescription": "Pulse giúp các đội quản lý sự chuyển mình trước mắt. Watchtower theo dõi thị trường bên ngoài. Các mô-đun Insights cung cấp cho mỗi chức năng cái nhìn sâu sắc hơn về lao động, hàng tồn kho, mua sắm, tiếp thị và nhiều hơn nữa.",
+      "fitDescription": "Pulse giúp các đội quản lý ca làm việc ngay trước mắt. Watchtower theo dõi thị trường bên ngoài. Các mô-đun Insights cung cấp cho mỗi chức năng cái nhìn sâu hơn về lao động, hàng tồn kho, mua sắm, tiếp thị và nhiều hơn nữa.",
       "fitItems": [
         {
           "name": "Pulse",
@@ -941,9 +941,9 @@ export const generatedLocalCopy = {
       "ctaPricing": "Xem giá mô-đun"
     },
     "ro": {
-      "badge": "INSIGHT-URI SUNDAE",
+      "badge": "SUNDAE INSIGHTS",
       "title": "Aprofundați fiecare aspect al operațiunii dumneavoastră",
-      "description": "Paisprezece module specializate acoperă veniturile, forța de muncă, inventarul, achizițiile, marketingul, rezervările, profitul, livrarea, experiența oaspeților, CRM, asigurarea veniturilor, inteligența cross-intelligence, inteligența de previziune și rezumatul executiv. Fiecare modul este construit pentru un domeniu operațional.",
+      "description": "Paisprezece module specializate acoperă veniturile, forța de muncă, inventarul, achizițiile, marketingul, rezervările, profitul, livrarea, experiența oaspeților, CRM, asigurarea veniturilor, cross-intelligence, inteligența de previziune și rezumatul executiv. Fiecare modul este construit pentru un domeniu operațional.",
       "bookDemo": "Programează o demonstrație",
       "seeModules": "Vezi Prețurile Modulului",
       "categories": [
@@ -965,7 +965,7 @@ export const generatedLocalCopy = {
         "Analize alimentate de AI pe domeniu",
         "Disponibil pe nivelurile Core"
       ],
-      "whoItsForTitle": "Cine este destinat",
+      "whoItsForTitle": "Pentru cine este",
       "whoItsForDescription": "Echipe care au nevoie de detalii la nivel de domeniu pe care le pot folosi în teren",
       "whoItsFor": [
         {
@@ -985,13 +985,13 @@ export const generatedLocalCopy = {
       "modulesDescription": "Fiecare modul oferă analize alimentate de AI pentru un domeniu operațional specific",
       "howTitle": "Cum Funcționează",
       "howDescription": "Adăugați module la abonamentul dvs. Core pe măsură ce nevoile dvs. cresc",
-      "fitEyebrow": "CUM SE ÎNCADREAZĂ INSIGHT-URILE",
+      "fitEyebrow": "CUM SE ÎNCADREAZĂ INSIGHTS",
       "fitTitle": "Stratul Analitic",
-      "fitDescription": "Pulse ajută echipele să gestioneze schimbarea din fața lor. Watchtower urmărește piața externă. Modulele de insight-uri oferă fiecărei funcții o viziune mai profundă asupra forței de muncă, inventarului, achizițiilor, marketingului și nu numai.",
+      "fitDescription": "Pulse ajută echipele să gestioneze tura aflată în fața lor. Watchtower urmărește piața externă. Modulele Insights oferă fiecărei funcții o viziune mai profundă asupra forței de muncă, inventarului, achizițiilor, marketingului și nu numai.",
       "fitItems": [
         {
           "name": "Pulse",
-          "desc": "Monitorizare în timp real a schimbărilor"
+          "desc": "Monitorizare în timp real a turelor"
         },
         {
           "name": "Watchtower",
@@ -1008,7 +1008,7 @@ export const generatedLocalCopy = {
       "ctaPricing": "Vezi Prețul Modulului"
     },
     "bn": {
-      "badge": "সুন্ডে ইনসাইটস",
+      "badge": "Sundae Insights",
       "title": "আপনার কার্যক্রমের প্রতিটি অংশে গভীরভাবে প্রবেশ করুন",
       "description": "চৌদ্দটি বিশেষায়িত মডিউল রাজস্ব, শ্রম, ইনভেন্টরি, ক্রয়, বিপণন, রিজার্ভেশন, লাভ, ডেলিভারি, অতিথির অভিজ্ঞতা, CRM, রাজস্ব নিশ্চয়তা, ক্রস-ইন্টেলিজেন্স, পূর্বাভাস ইন্টেলিজেন্স এবং নির্বাহী সারসংক্ষেপ কভার করে। প্রতিটি মডিউল একটি অপারেটিং ডোমেইনের জন্য তৈরি করা হয়েছে।",
       "bookDemo": "ডেমো বুক করুন",
@@ -1052,9 +1052,9 @@ export const generatedLocalCopy = {
       "modulesDescription": "প্রতিটি মডিউল একটি নির্দিষ্ট অপারেশনাল ডোমেইনের জন্য AI-চালিত বিশ্লেষণ প্রদান করে",
       "howTitle": "এটি কীভাবে কাজ করে",
       "howDescription": "আপনার প্রয়োজন বাড়ার সাথে সাথে আপনার কোর সাবস্ক্রিপশনে মডিউল যোগ করুন",
-      "fitEyebrow": "কিভাবে অন্তর্দৃষ্টি ফিট করে",
+      "fitEyebrow": "Insights কোথায় খাপ খায়",
       "fitTitle": "বিশ্লেষণাত্মক স্তর",
-      "fitDescription": "Pulse টিমগুলিকে তাদের সামনে পরিবর্তন পরিচালনা করতে সাহায্য করে। Watchtower বাইরের বাজার ট্র্যাক করে। Insights মডিউল প্রতিটি ফাংশনকে শ্রম, ইনভেন্টরি, ক্রয়, বিপণন এবং আরও অনেক কিছুর গভীর কাজের দৃষ্টিভঙ্গি দেয়।",
+      "fitDescription": "Pulse টিমগুলিকে তাদের সামনের শিফট সামলাতে সাহায্য করে। Watchtower বাইরের বাজার ট্র্যাক করে। Insights মডিউল প্রতিটি ফাংশনকে শ্রম, ইনভেন্টরি, ক্রয়, বিপণন এবং আরও অনেক কিছুর গভীর কাজের দৃষ্টিভঙ্গি দেয়।",
       "fitItems": [
         {
           "name": "Pulse",
@@ -1075,7 +1075,7 @@ export const generatedLocalCopy = {
       "ctaPricing": "মডিউল মূল্য দেখুন"
     },
     "sv": {
-      "badge": "SUNDAE INSIKTER",
+      "badge": "SUNDAE INSIGHTS",
       "title": "Gå djupare in i varje del av din verksamhet",
       "description": "Fjorton specialiserade moduler täcker intäkter, arbetskraft, lager, inköp, marknadsföring, bokningar, vinst, leverans, gästupplevelse, CRM, intäktsgaranti, cross-intelligence, prognosintelligens och sammanfattning för ledningen. Varje modul är byggd för ett specifikt verksamhetsområde.",
       "bookDemo": "Boka en demo",
@@ -1112,16 +1112,16 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Regionala chefer",
-          "description": "Modulnivå prestandasynlighet över varje plats i ditt område"
+          "description": "Prestandasynlighet på modulnivå för varje plats i ditt område"
         }
       ],
       "modulesTitle": "12 moduler. En plattform.",
       "modulesDescription": "Varje modul levererar AI-drivna analyser för ett specifikt verksamhetsområde",
       "howTitle": "Hur det fungerar",
       "howDescription": "Lägg till moduler i din Core-prenumeration när dina behov växer",
-      "fitEyebrow": "HUR INSIKTER PASSAR",
-      "fitTitle": "Den analytiska lagret",
-      "fitDescription": "Pulse hjälper team att hantera förändringarna framför dem. Watchtower spårar den externa marknaden. Insights-moduler ger varje funktion en djupare arbetsvy av arbetskraft, lager, inköp, marknadsföring och mer.",
+      "fitEyebrow": "HUR INSIGHTS PASSAR IN",
+      "fitTitle": "Det analytiska lagret",
+      "fitDescription": "Pulse hjälper team att hantera passet framför dem. Watchtower spårar den externa marknaden. Insights-modulerna ger varje funktion en djupare arbetsvy över arbetskraft, lager, inköp, marknadsföring och mer.",
       "fitItems": [
         {
           "name": "Pulse",
@@ -1142,9 +1142,9 @@ export const generatedLocalCopy = {
       "ctaPricing": "Se modulpriser"
     },
     "th": {
-      "badge": "ซันเดย์ อินไซท์",
+      "badge": "Sundae Insights",
       "title": "เจาะลึกทุกส่วนของการดำเนินงานของคุณ",
-      "description": "โมดูลเฉพาะ 12 โมดูลครอบคลุมรายได้, แรงงาน, สินค้าคงคลัง, การจัดซื้อ, การตลาด, การจอง, กำไร, การจัดส่ง, ประสบการณ์ของแขก, CRM, การรับประกันรายได้, ข้ามปัญญา, ปัญญาเชิงคาดการณ์, และสรุปผู้บริหาร โมดูลแต่ละตัวถูกสร้างขึ้นสำหรับโดเมนการดำเนินงานหนึ่ง.",
+      "description": "โมดูลเฉพาะทาง 14 โมดูลครอบคลุมรายได้ แรงงาน สินค้าคงคลัง การจัดซื้อ การตลาด การจอง กำไร การจัดส่ง ประสบการณ์ของแขก CRM การรับประกันรายได้ Cross-Intelligence ปัญญาเชิงคาดการณ์ และสรุปผู้บริหาร แต่ละโมดูลสร้างขึ้นสำหรับหนึ่งโดเมนการดำเนินงาน",
       "bookDemo": "จองการสาธิต",
       "seeModules": "ดูราคาโมดูล",
       "categories": [
@@ -1159,7 +1159,7 @@ export const generatedLocalCopy = {
         "การจัดส่ง",
         "ประสบการณ์ของแขก",
         "CRM ของแขก",
-        "การวิเคราะห์ข้าม"
+        "Cross-Intelligence"
       ],
       "valueProps": [
         "เพิ่มโมดูลตามที่คุณต้องการ",
@@ -1186,13 +1186,13 @@ export const generatedLocalCopy = {
       "modulesDescription": "แต่ละโมดูลจะให้การวิเคราะห์ที่ขับเคลื่อนด้วย AI สำหรับโดเมนการดำเนินงานเฉพาะ",
       "howTitle": "มันทำงานอย่างไร",
       "howDescription": "เพิ่มโมดูลลงในการสมัครสมาชิก Core ของคุณเมื่อความต้องการของคุณเพิ่มขึ้น",
-      "fitEyebrow": "วิธีที่ข้อมูลเชิงลึกเข้ากัน",
+      "fitEyebrow": "Insights เข้ากันอย่างไร",
       "fitTitle": "ชั้นวิเคราะห์",
-      "fitDescription": "Pulse ช่วยให้ทีมจัดการกับการเปลี่ยนแปลงที่อยู่ตรงหน้า Watchtower ติดตามตลาดภายนอก โมดูล Insights มอบมุมมองการทำงานที่ลึกซึ้งยิ่งขึ้นในด้านแรงงาน สินค้าคงคลัง การจัดซื้อ การตลาด และอื่นๆ.",
+      "fitDescription": "Pulse ช่วยให้ทีมจัดการกะที่อยู่ตรงหน้า Watchtower ติดตามตลาดภายนอก โมดูล Insights มอบมุมมองการทำงานที่ลึกซึ้งยิ่งขึ้นในด้านแรงงาน สินค้าคงคลัง การจัดซื้อ การตลาด และอื่นๆ",
       "fitItems": [
         {
           "name": "Pulse",
-          "desc": "การตรวจสอบการเปลี่ยนแปลงแบบเรียลไทม์"
+          "desc": "การตรวจสอบกะแบบเรียลไทม์"
         },
         {
           "name": "Watchtower",
@@ -1209,7 +1209,7 @@ export const generatedLocalCopy = {
       "ctaPricing": "ดูราคาโมดูล"
     },
     "ms": {
-      "badge": "INSIGHT SUNDAE",
+      "badge": "SUNDAE INSIGHTS",
       "title": "Selami Setiap Aspek Operasi Anda",
       "description": "Empat belas modul khusus merangkumi pendapatan, buruh, inventori, pembelian, pemasaran, tempahan, keuntungan, penghantaran, pengalaman tetamu, CRM, jaminan pendapatan, kecerdasan silang, kecerdasan ramalan, dan ringkasan eksekutif. Setiap modul dibina untuk satu domain operasi.",
       "bookDemo": "Tempah Demo",
@@ -1253,13 +1253,13 @@ export const generatedLocalCopy = {
       "modulesDescription": "Setiap modul memberikan analitik berkuasa AI untuk domain operasi tertentu",
       "howTitle": "Cara Ia Berfungsi",
       "howDescription": "Tambah modul ke langganan Core anda apabila keperluan anda berkembang",
-      "fitEyebrow": "BAGAIMANA INSIGHT SESUAI",
+      "fitEyebrow": "DI MANA INSIGHTS SESUAI",
       "fitTitle": "Lapisan Analitik",
-      "fitDescription": "Pulse membantu pasukan menguruskan perubahan di hadapan mereka. Watchtower menjejak pasaran luar. Modul Insights memberikan setiap fungsi pandangan kerja yang lebih mendalam tentang buruh, inventori, pembelian, pemasaran, dan banyak lagi.",
+      "fitDescription": "Pulse membantu pasukan menguruskan syif di hadapan mereka. Watchtower menjejak pasaran luar. Modul Insights memberikan setiap fungsi pandangan kerja yang lebih mendalam tentang buruh, inventori, pembelian, pemasaran, dan banyak lagi.",
       "fitItems": [
         {
           "name": "Pulse",
-          "desc": "Pemantauan perubahan masa nyata"
+          "desc": "Pemantauan syif masa nyata"
         },
         {
           "name": "Watchtower",
@@ -1276,8 +1276,8 @@ export const generatedLocalCopy = {
       "ctaPricing": "Lihat Harga Modul"
     },
     "ar": {
-      "badge": "رؤى سونداي",
-      "title": "اغمر أعمق في كل جزء من عملياتك",
+      "badge": "Sundae Insights",
+      "title": "تعمق أكثر في كل جزء من عملياتك",
       "description": "تغطي أربعة عشر وحدة متخصصة الإيرادات، والعمالة، والمخزون، والمشتريات، والتسويق، والحجوزات، والأرباح، والتوصيل، وتجربة الضيوف، وإدارة علاقات العملاء، وضمان الإيرادات، والاستخبارات المتقاطعة، والاستخبارات الاستشرافية، والملخص التنفيذي. تم تصميم كل وحدة لنطاق تشغيل واحد.",
       "bookDemo": "احجز عرضًا تجريبيًا",
       "seeModules": "شاهد تسعير الوحدة",
@@ -1300,7 +1300,7 @@ export const generatedLocalCopy = {
         "تحليلات مدعومة بالذكاء الاصطناعي لكل مجال",
         "متاحة على مستويات Core"
       ],
-      "whoItsForTitle": "لمن هو",
+      "whoItsForTitle": "لمن هذا؟",
       "whoItsForDescription": "الفرق التي تحتاج إلى تفاصيل على مستوى المجال يمكنهم استخدامها في الميدان",
       "whoItsFor": [
         {
@@ -1320,13 +1320,13 @@ export const generatedLocalCopy = {
       "modulesDescription": "يوفر كل نموذج تحليلات مدعومة بالذكاء الاصطناعي لمجال عمليات محدد",
       "howTitle": "كيف يعمل",
       "howDescription": "أضف وحدات إلى اشتراكك في Core مع تزايد احتياجاتك",
-      "fitEyebrow": "كيف تتناسب الرؤى",
+      "fitEyebrow": "أين يندرج Insights",
       "fitTitle": "الطبقة التحليلية",
-      "fitDescription": "Pulse يساعد الفرق على إدارة التحول أمامهم. Watchtower يتتبع السوق الخارجي. توفر وحدات الرؤى لكل وظيفة رؤية أعمق للعمل والعمالة والمخزون والشراء والتسويق والمزيد.",
+      "fitDescription": "يساعد Pulse الفرق على إدارة الوردية التي أمامهم. ويتتبع Watchtower السوق الخارجي. أما وحدات Insights فتمنح كل وظيفة رؤية أعمق للعمالة والمخزون والشراء والتسويق والمزيد.",
       "fitItems": [
         {
           "name": "Pulse",
-          "desc": "مراقبة التحولات في الوقت الحقيقي"
+          "desc": "مراقبة الورديات في الوقت الحقيقي"
         },
         {
           "name": "Watchtower",
@@ -1343,14 +1343,14 @@ export const generatedLocalCopy = {
       "ctaPricing": "شاهد تسعير الوحدة"
     },
     "ko": {
-      "badge": "선데이 인사이트",
-      "title": "운영의 모든 부분을 더 깊이 파악하세요.",
+      "badge": "Sundae Insights",
+      "title": "운영의 모든 영역을 더 깊이 파악하세요",
       "description": "14개의 전문 모듈이 수익, 인력, 재고, 구매, 마케팅, 예약, 이익, 배달, 고객 경험, CRM, 수익 보장, 크로스 인텔리전스, 예측 인텔리전스 및 경영 요약을 다룹니다. 각 모듈은 하나의 운영 도메인을 위해 설계되었습니다.",
       "bookDemo": "데모 예약하기",
       "seeModules": "모듈 가격 보기",
       "categories": [
         "수익",
-        "노동",
+        "인력",
         "재고",
         "구매",
         "마케팅",
@@ -1387,9 +1387,9 @@ export const generatedLocalCopy = {
       "modulesDescription": "각 모듈은 특정 운영 분야에 대한 AI 기반 분석을 제공합니다.",
       "howTitle": "작동 방식",
       "howDescription": "필요에 따라 Core 구독에 모듈을 추가하세요.",
-      "fitEyebrow": "인사이트가 어떻게 맞아떨어지는가",
+      "fitEyebrow": "Insights는 어떻게 어우러지는가",
       "fitTitle": "분석 레이어",
-      "fitDescription": "Pulse는 팀이 직면한 변화를 관리하는 데 도움을 줍니다. Watchtower는 외부 시장을 추적합니다. Insights 모듈은 각 기능에 노동, 재고, 구매, 마케팅 등과 관련된 더 깊은 작업 뷰를 제공합니다.",
+      "fitDescription": "Pulse는 팀이 눈앞의 근무를 관리하도록 돕습니다. Watchtower는 외부 시장을 추적합니다. Insights 모듈은 각 기능에 인력, 재고, 구매, 마케팅 등에 대한 더 깊은 업무 뷰를 제공합니다.",
       "fitItems": [
         {
           "name": "Pulse",
@@ -1439,7 +1439,7 @@ export const generatedLocalCopy = {
           "Frühwarnungen für Überstunden"
         ],
         "category": "Kernoperationen",
-        "color": "from-blue-500 to-blue-600"
+        "color": "from-[#FF7E6F] to-[#FF5C4D]"
       },
       {
         "name": "Bestandsintelligenz",
@@ -1454,7 +1454,7 @@ export const generatedLocalCopy = {
           "Optimierung der Bestandsumschläge"
         ],
         "category": "Kernoperationen",
-        "color": "from-purple-500 to-purple-600"
+        "color": "from-[#F2B45C] to-[#C2410C]"
       },
       {
         "name": "Einkaufsintelligenz",
@@ -1487,7 +1487,7 @@ export const generatedLocalCopy = {
       {
         "name": "Reservierungsintelligenz",
         "icon": "reservations",
-        "headline": "No-Shows vorhersagen. Sitzplätze optimieren. Umdrehungen maximieren.",
+        "headline": "No-Shows vorhersagen. Sitzplätze optimieren. Tischdurchlauf maximieren.",
         "description": "Gehen Sie über das Buchungsmanagement hinaus. Vorhersage von No-Shows, Optimierung der Tischumsätze und Anpassung der Kapazität im Front-of-House an die Nachfrage.",
         "capabilities": [
           "Vorhersage von No-Shows mit KI-Bewertung",
@@ -1530,7 +1530,7 @@ export const generatedLocalCopy = {
         "name": "Lieferintelligenz",
         "icon": "delivery",
         "headline": "Plattformkosten verfolgen. Margen optimieren. Kanäle vergleichen.",
-        "description": "Verstehen Sie die wahren Kosten der Lieferung über Plattformen hinweg. Verfolgen Sie Provisionen, vergleichen Sie die Rentabilität der Kanäle und optimieren Sie Ihr Liefermix.",
+        "description": "Verstehen Sie die wahren Kosten der Lieferung über alle Plattformen hinweg. Verfolgen Sie Provisionen, vergleichen Sie die Rentabilität der Kanäle und optimieren Sie Ihren Liefermix.",
         "capabilities": [
           "Kostenverfolgung pro Plattform",
           "Vergleich der Rentabilität von Kanälen",
@@ -1538,32 +1538,32 @@ export const generatedLocalCopy = {
           "Optimierung des Liefermenüs"
         ],
         "category": "Kanal",
-        "color": "from-indigo-500 to-indigo-600"
+        "color": "from-[#FF6B5B] to-[#E03E48]"
       },
       {
-        "name": "Gästenerlebnis",
+        "name": "Gästeerlebnis",
         "icon": "success",
-        "headline": "Hören Sie auf Gäste. Erkennen Sie Trends. Handeln Sie schnell.",
-        "description": "Aggregieren Sie Gästefeedback aus Bewertungen, Umfragen und sozialen Erwähnungen in einer einheitlichen Sentimentansicht mit KI-gestützter Trendanalyse.",
+        "headline": "Hören Sie auf Ihre Gäste. Erkennen Sie Trends. Handeln Sie schnell.",
+        "description": "Bündeln Sie Gästefeedback aus Bewertungen, Umfragen und Social-Media-Erwähnungen in einer einheitlichen Stimmungsansicht mit KI-gestützter Trendanalyse.",
         "capabilities": [
-          "Aggregation von Bewertungen aus mehreren Quellen",
-          "KI-Sentimentanalyse",
+          "Zusammenführung von Bewertungen aus mehreren Quellen",
+          "KI-Stimmungsanalyse",
           "Verfolgung von Servicequalitätstrends",
-          "Bewertung der Gästefriedenheit"
+          "Bewertung der Gästezufriedenheit"
         ],
         "category": "Einblick",
-        "color": "from-pink-500 to-pink-600"
+        "color": "from-[#FF8473] to-[#FF5C4D]"
       },
       {
         "name": "Gäste-CRM-Intelligenz",
         "icon": "operators",
         "headline": "Kennen Sie Ihre Gäste. Halten Sie die Besten. Gewinnen Sie den Rest zurück.",
-        "description": "Segmentieren Sie Gäste nach Wert, verfolgen Sie die Lebensdauer-Ausgaben, beobachten Sie das Loyalitätsverhalten und erkennen Sie frühzeitig das Risiko von Abwanderung.",
+        "description": "Segmentieren Sie Gäste nach Wert, verfolgen Sie den Lebenszeitumsatz, beobachten Sie das Treueverhalten und erkennen Sie Abwanderungsrisiken frühzeitig.",
         "capabilities": [
-          "Gästesegmentierung und Lebensdauerwert",
-          "Analysen von Loyalitätsprogrammen",
-          "Erkennung von Abwanderungsrisiken und Benachrichtigungen",
-          "Auslöser für Retentionskampagnen"
+          "Gästesegmentierung und Kundenlebenswert",
+          "Analyse von Treueprogrammen",
+          "Erkennung von Abwanderungsrisiken mit Warnungen",
+          "Auslöser für Bindungskampagnen"
         ],
         "category": "Einblick",
         "color": "from-rose-500 to-rose-600"
@@ -1580,7 +1580,7 @@ export const generatedLocalCopy = {
           "Gesundheitsbewertung mehrerer Module"
         ],
         "category": "Plattform",
-        "color": "from-cyan-500 to-cyan-600"
+        "color": "from-[#F2C078] to-[#E9A24A]"
       }
     ],
     "es": [
@@ -1611,7 +1611,7 @@ export const generatedLocalCopy = {
           "Alertas tempranas de horas extras"
         ],
         "category": "Operaciones Básicas",
-        "color": "from-blue-500 to-blue-600"
+        "color": "from-[#FF7E6F] to-[#FF5C4D]"
       },
       {
         "name": "Inteligencia de Inventario",
@@ -1626,7 +1626,7 @@ export const generatedLocalCopy = {
           "Optimización de rotación de inventario"
         ],
         "category": "Operaciones Básicas",
-        "color": "from-purple-500 to-purple-600"
+        "color": "from-[#F2B45C] to-[#C2410C]"
       },
       {
         "name": "Inteligencia de Compras",
@@ -1665,7 +1665,7 @@ export const generatedLocalCopy = {
           "Predicción de no-shows con puntuación de IA",
           "Optimización de turnos de mesa",
           "Recomendaciones de asientos basadas en la demanda",
-          "Análisis de caminantes vs. reservas"
+          "Análisis de clientes sin reserva vs. reservas"
         ],
         "category": "Soporte",
         "color": "from-teal-500 to-teal-600"
@@ -1710,7 +1710,7 @@ export const generatedLocalCopy = {
           "Optimización del menú de entrega"
         ],
         "category": "Canal",
-        "color": "from-indigo-500 to-indigo-600"
+        "color": "from-[#FF6B5B] to-[#E03E48]"
       },
       {
         "name": "Experiencia del Huésped",
@@ -1724,7 +1724,7 @@ export const generatedLocalCopy = {
           "Puntuación de satisfacción del huésped"
         ],
         "category": "Perspectiva",
-        "color": "from-pink-500 to-pink-600"
+        "color": "from-[#FF8473] to-[#FF5C4D]"
       },
       {
         "name": "Inteligencia CRM de Huéspedes",
@@ -1752,7 +1752,7 @@ export const generatedLocalCopy = {
           "Puntuación de salud multi-módulo"
         ],
         "category": "Plataforma",
-        "color": "from-cyan-500 to-cyan-600"
+        "color": "from-[#F2C078] to-[#E9A24A]"
       }
     ],
     "fr": [
@@ -1779,11 +1779,11 @@ export const generatedLocalCopy = {
           "Horaires recommandés par l'IA",
           "Suivi des coûts de main-d'œuvre en temps réel",
           "Prévisions de demande sur 14-30 jours",
-          "Analyse de la performance des shifts",
+          "Analyse de la performance des services",
           "Avertissements précoces sur les heures supplémentaires"
         ],
         "category": "Opérations Principales",
-        "color": "from-blue-500 to-blue-600"
+        "color": "from-[#FF7E6F] to-[#FF5C4D]"
       },
       {
         "name": "Intelligence d'Inventaire",
@@ -1798,7 +1798,7 @@ export const generatedLocalCopy = {
           "Optimisation du taux de rotation des stocks"
         ],
         "category": "Opérations Principales",
-        "color": "from-purple-500 to-purple-600"
+        "color": "from-[#F2B45C] to-[#C2410C]"
       },
       {
         "name": "Intelligence d'Achat",
@@ -1845,11 +1845,11 @@ export const generatedLocalCopy = {
       {
         "name": "Intelligence de Profit",
         "icon": "finance",
-        "headline": "Découvrez la Rentabilité Réelle. Par Shift. Par Article de Menu. Par Emplacement.",
-        "description": "Combinez les revenus, la main-d'œuvre, l'inventaire et les frais généraux en une vue de rentabilité en temps réel. Découvrez quels shifts, articles et emplacements génèrent réellement des bénéfices.",
+        "headline": "Découvrez la Rentabilité Réelle. Par Service. Par Article de Menu. Par Emplacement.",
+        "description": "Combinez les revenus, la main-d'œuvre, l'inventaire et les frais généraux en une vue de rentabilité en temps réel. Découvrez quels services, articles et emplacements génèrent réellement des bénéfices.",
         "capabilities": [
           "Suivi des marges bénéficiaires en temps réel",
-          "Analyse de rentabilité par shift",
+          "Analyse de rentabilité par service",
           "Analyse de contribution des articles de menu",
           "Intelligence P&L par emplacement"
         ],
@@ -1882,7 +1882,7 @@ export const generatedLocalCopy = {
           "Optimisation du menu de livraison"
         ],
         "category": "Canal",
-        "color": "from-indigo-500 to-indigo-600"
+        "color": "from-[#FF6B5B] to-[#E03E48]"
       },
       {
         "name": "Expérience Client",
@@ -1896,7 +1896,7 @@ export const generatedLocalCopy = {
           "Évaluation de la satisfaction client"
         ],
         "category": "Aperçu",
-        "color": "from-pink-500 to-pink-600"
+        "color": "from-[#FF8473] to-[#FF5C4D]"
       },
       {
         "name": "Intelligence CRM Invité",
@@ -1924,7 +1924,7 @@ export const generatedLocalCopy = {
           "Évaluation de la santé multi-modules"
         ],
         "category": "Plateforme",
-        "color": "from-cyan-500 to-cyan-600"
+        "color": "from-[#F2C078] to-[#E9A24A]"
       }
     ],
     "nl": [
@@ -1955,7 +1955,7 @@ export const generatedLocalCopy = {
           "Vroegtijdige waarschuwingen voor overuren"
         ],
         "category": "Kernoperaties",
-        "color": "from-blue-500 to-blue-600"
+        "color": "from-[#FF7E6F] to-[#FF5C4D]"
       },
       {
         "name": "Voorraadintelligentie",
@@ -1970,7 +1970,7 @@ export const generatedLocalCopy = {
           "Optimalisatie van voorraadrotatie"
         ],
         "category": "Kernoperaties",
-        "color": "from-purple-500 to-purple-600"
+        "color": "from-[#F2B45C] to-[#C2410C]"
       },
       {
         "name": "Inkoopintelligentie",
@@ -1989,8 +1989,8 @@ export const generatedLocalCopy = {
       {
         "name": "Marketingprestaties",
         "icon": "marketing",
-        "headline": "Meet Campagnes. Ken Revenue Toe. Optimaliseer Uitgaven.",
-        "description": "Verbind marketinguitgaven met de daadwerkelijke impact op de omzet. Zie welke campagnes de dekkingen genereren, welke kanalen converteren en waar je meer op moet inzetten.",
+        "headline": "Meet campagnes. Ken omzet toe. Optimaliseer uitgaven.",
+        "description": "Verbind marketinguitgaven met de daadwerkelijke impact op de omzet. Zie welke campagnes gasten binnenbrengen, welke kanalen converteren en waar u meer op moet inzetten.",
         "capabilities": [
           "Toeschrijving van campagnes aan omzet",
           "Tracking van kanaalprestaties",
@@ -2054,12 +2054,12 @@ export const generatedLocalCopy = {
           "Optimalisatie van het leveringsmenu"
         ],
         "category": "Kanaal",
-        "color": "from-indigo-500 to-indigo-600"
+        "color": "from-[#FF6B5B] to-[#E03E48]"
       },
       {
-        "name": "Gastenervaring",
+        "name": "Gastbeleving",
         "icon": "success",
-        "headline": "Luister naar Gasten. Spot Trends. Act Snel.",
+        "headline": "Luister naar gasten. Signaleer trends. Handel snel.",
         "description": "Verzamel gastenfeedback uit beoordelingen, enquêtes en sociale vermeldingen in een uniforme sentimentweergave met AI-gestuurde trenddetectie.",
         "capabilities": [
           "Aggregatie van beoordelingen uit meerdere bronnen",
@@ -2068,7 +2068,7 @@ export const generatedLocalCopy = {
           "Beoordeling van gasttevredenheid"
         ],
         "category": "Inzicht",
-        "color": "from-pink-500 to-pink-600"
+        "color": "from-[#FF8473] to-[#FF5C4D]"
       },
       {
         "name": "Gasten CRM Intelligentie",
@@ -2087,8 +2087,8 @@ export const generatedLocalCopy = {
       {
         "name": "Cross-Intelligence",
         "icon": "integration",
-        "headline": "Verbind de Punten Over Elke Domein.",
-        "description": "Benadruk de operationele relaties tussen actieve modules, waaronder arbeid versus omzet, voorraad versus verspilling, en marketing versus bezetting. Wordt geactiveerd wanneer drie of meer modules actief zijn.",
+        "headline": "Verbind de punten over elk domein.",
+        "description": "Benadruk de operationele relaties tussen actieve modules, waaronder personeel versus omzet, voorraad versus verspilling, en marketing versus gasten. Wordt geactiveerd wanneer drie of meer modules actief zijn.",
         "capabilities": [
           "Cross-domein correlatieanalyse",
           "Geautomatiseerde inzichtgeneratie",
@@ -2096,7 +2096,7 @@ export const generatedLocalCopy = {
           "Multi-module gezondheidscores"
         ],
         "category": "Platform",
-        "color": "from-cyan-500 to-cyan-600"
+        "color": "from-[#F2C078] to-[#E9A24A]"
       }
     ],
     "pt": [
@@ -2127,7 +2127,7 @@ export const generatedLocalCopy = {
           "Alertas antecipados de horas extras"
         ],
         "category": "Operações Principais",
-        "color": "from-blue-500 to-blue-600"
+        "color": "from-[#FF7E6F] to-[#FF5C4D]"
       },
       {
         "name": "Inteligência de Inventário",
@@ -2142,7 +2142,7 @@ export const generatedLocalCopy = {
           "Otimização de giro de inventário"
         ],
         "category": "Operações Principais",
-        "color": "from-purple-500 to-purple-600"
+        "color": "from-[#F2B45C] to-[#C2410C]"
       },
       {
         "name": "Inteligência de Compras",
@@ -2226,7 +2226,7 @@ export const generatedLocalCopy = {
           "Otimização do menu de entrega"
         ],
         "category": "Canal",
-        "color": "from-indigo-500 to-indigo-600"
+        "color": "from-[#FF6B5B] to-[#E03E48]"
       },
       {
         "name": "Experiência do Cliente",
@@ -2240,7 +2240,7 @@ export const generatedLocalCopy = {
           "Pontuação de satisfação do cliente"
         ],
         "category": "Insight",
-        "color": "from-pink-500 to-pink-600"
+        "color": "from-[#FF8473] to-[#FF5C4D]"
       },
       {
         "name": "Inteligência de CRM de Clientes",
@@ -2268,7 +2268,7 @@ export const generatedLocalCopy = {
           "Pontuação de saúde multi-módulo"
         ],
         "category": "Plataforma",
-        "color": "from-cyan-500 to-cyan-600"
+        "color": "from-[#F2C078] to-[#E9A24A]"
       }
     ],
     "ur": [
@@ -2299,7 +2299,7 @@ export const generatedLocalCopy = {
           "اوور ٹائم کی ابتدائی انتباہات"
         ],
         "category": "بنیادی آپریشنز",
-        "color": "from-blue-500 to-blue-600"
+        "color": "from-[#FF7E6F] to-[#FF5C4D]"
       },
       {
         "name": "انویٹری انٹیلیجنس",
@@ -2314,7 +2314,7 @@ export const generatedLocalCopy = {
           "انوینٹری کی گردش کو بہتر بنانا"
         ],
         "category": "بنیادی آپریشنز",
-        "color": "from-purple-500 to-purple-600"
+        "color": "from-[#F2B45C] to-[#C2410C]"
       },
       {
         "name": "خریداری کی ذہانت",
@@ -2398,7 +2398,7 @@ export const generatedLocalCopy = {
           "ڈیلیوری مینو کی اصلاح"
         ],
         "category": "چینل",
-        "color": "from-indigo-500 to-indigo-600"
+        "color": "from-[#FF6B5B] to-[#E03E48]"
       },
       {
         "name": "مہمان کا تجربہ",
@@ -2412,7 +2412,7 @@ export const generatedLocalCopy = {
           "مہمانوں کی اطمینان کی درجہ بندی"
         ],
         "category": "بصیرت",
-        "color": "from-pink-500 to-pink-600"
+        "color": "from-[#FF8473] to-[#FF5C4D]"
       },
       {
         "name": "مہمان CRM ذہانت",
@@ -2440,7 +2440,7 @@ export const generatedLocalCopy = {
           "کئی ماڈیولز کی صحت کی درجہ بندی"
         ],
         "category": "پلیٹ فارم",
-        "color": "from-cyan-500 to-cyan-600"
+        "color": "from-[#F2C078] to-[#E9A24A]"
       }
     ],
     "hi": [
@@ -2471,7 +2471,7 @@ export const generatedLocalCopy = {
           "ओवरटाइम के लिए पूर्व चेतावनियाँ"
         ],
         "category": "मुख्य संचालन",
-        "color": "from-blue-500 to-blue-600"
+        "color": "from-[#FF7E6F] to-[#FF5C4D]"
       },
       {
         "name": "इन्वेंटरी इंटेलिजेंस",
@@ -2486,7 +2486,7 @@ export const generatedLocalCopy = {
           "इन्वेंटरी टर्न अनुकूलन"
         ],
         "category": "कोर ऑपरेशंस",
-        "color": "from-purple-500 to-purple-600"
+        "color": "from-[#F2B45C] to-[#C2410C]"
       },
       {
         "name": "खरीदारी बुद्धिमत्ता",
@@ -2539,7 +2539,7 @@ export const generatedLocalCopy = {
           "वास्तविक समय लाभ मार्जिन ट्रैकिंग",
           "शिफ्ट-स्तरीय लाभप्रदता विश्लेषण",
           "मेनू आइटम योगदान विश्लेषण",
-          "Location-level P&L intelligence"
+          "स्थान-स्तरीय P&L इंटेलिजेंस"
         ],
         "category": "सुपर प्रीमियम",
         "color": "from-amber-500 to-amber-600"
@@ -2570,7 +2570,7 @@ export const generatedLocalCopy = {
           "डिलीवरी मेनू अनुकूलन"
         ],
         "category": "चैनल",
-        "color": "from-indigo-500 to-indigo-600"
+        "color": "from-[#FF6B5B] to-[#E03E48]"
       },
       {
         "name": "अतिथि अनुभव",
@@ -2584,7 +2584,7 @@ export const generatedLocalCopy = {
           "अतिथि संतोष स्कोरिंग"
         ],
         "category": "अंतर्दृष्टि",
-        "color": "from-pink-500 to-pink-600"
+        "color": "from-[#FF8473] to-[#FF5C4D]"
       },
       {
         "name": "गेस्ट सीआरएम इंटेलिजेंस",
@@ -2612,7 +2612,7 @@ export const generatedLocalCopy = {
           "मल्टी-मॉड्यूल स्वास्थ्य स्कोरिंग"
         ],
         "category": "प्लेटफ़ॉर्म",
-        "color": "from-cyan-500 to-cyan-600"
+        "color": "from-[#F2C078] to-[#E9A24A]"
       }
     ],
     "it": [
@@ -2643,7 +2643,7 @@ export const generatedLocalCopy = {
           "Avvisi anticipati sulle ore straordinarie"
         ],
         "category": "Operazioni Fondamentali",
-        "color": "from-blue-500 to-blue-600"
+        "color": "from-[#FF7E6F] to-[#FF5C4D]"
       },
       {
         "name": "Intelligenza dell'Inventario",
@@ -2658,7 +2658,7 @@ export const generatedLocalCopy = {
           "Ottimizzazione del turnover dell'inventario"
         ],
         "category": "Operazioni Fondamentali",
-        "color": "from-purple-500 to-purple-600"
+        "color": "from-[#F2B45C] to-[#C2410C]"
       },
       {
         "name": "Intelligenza degli Acquisti",
@@ -2742,7 +2742,7 @@ export const generatedLocalCopy = {
           "Ottimizzazione del menu di consegna"
         ],
         "category": "Canale",
-        "color": "from-indigo-500 to-indigo-600"
+        "color": "from-[#FF6B5B] to-[#E03E48]"
       },
       {
         "name": "Esperienza Ospite",
@@ -2756,7 +2756,7 @@ export const generatedLocalCopy = {
           "Valutazione della soddisfazione degli ospiti"
         ],
         "category": "Insight",
-        "color": "from-pink-500 to-pink-600"
+        "color": "from-[#FF8473] to-[#FF5C4D]"
       },
       {
         "name": "Intelligenza CRM Ospiti",
@@ -2779,12 +2779,12 @@ export const generatedLocalCopy = {
         "description": "Evidenzia le relazioni operative tra i moduli attivi, inclusi lavoro rispetto a ricavi, inventario rispetto a sprechi e marketing rispetto a coperti. Si attiva quando tre o più moduli sono attivi.",
         "capabilities": [
           "Analisi di correlazione tra domini",
-          "Superamento automatico delle intuizioni",
+          "Emersione automatica degli insight",
           "Rilevamento di attribuzione e cannibalizzazione",
           "Valutazione della salute multi-modulo"
         ],
         "category": "Piattaforma",
-        "color": "from-cyan-500 to-cyan-600"
+        "color": "from-[#F2C078] to-[#E9A24A]"
       }
     ],
     "zh-Hans": [
@@ -2815,7 +2815,7 @@ export const generatedLocalCopy = {
           "加班预警"
         ],
         "category": "核心运营",
-        "color": "from-blue-500 to-blue-600"
+        "color": "from-[#FF7E6F] to-[#FF5C4D]"
       },
       {
         "name": "库存智能",
@@ -2830,7 +2830,7 @@ export const generatedLocalCopy = {
           "库存周转优化"
         ],
         "category": "核心运营",
-        "color": "from-purple-500 to-purple-600"
+        "color": "from-[#F2B45C] to-[#C2410C]"
       },
       {
         "name": "采购智能",
@@ -2883,7 +2883,7 @@ export const generatedLocalCopy = {
           "实时利润率跟踪",
           "班次级盈利分析",
           "菜单项贡献分析",
-          "Location-level P&L intelligence"
+          "门店级 P&L 智能"
         ],
         "category": "超级高级",
         "color": "from-amber-500 to-amber-600"
@@ -2914,7 +2914,7 @@ export const generatedLocalCopy = {
           "交付菜单优化"
         ],
         "category": "渠道",
-        "color": "from-indigo-500 to-indigo-600"
+        "color": "from-[#FF6B5B] to-[#E03E48]"
       },
       {
         "name": "客户体验",
@@ -2928,7 +2928,7 @@ export const generatedLocalCopy = {
           "客户满意度评分"
         ],
         "category": "洞察",
-        "color": "from-pink-500 to-pink-600"
+        "color": "from-[#FF8473] to-[#FF5C4D]"
       },
       {
         "name": "客户关系管理智能",
@@ -2952,11 +2952,11 @@ export const generatedLocalCopy = {
         "capabilities": [
           "跨领域关联分析",
           "自动化洞察呈现",
-          "归因与自我竞争检测",
+          "归因与自我蚕食检测",
           "多模块健康评分"
         ],
         "category": "平台",
-        "color": "from-cyan-500 to-cyan-600"
+        "color": "from-[#F2C078] to-[#E9A24A]"
       }
     ],
     "tr": [
@@ -2987,7 +2987,7 @@ export const generatedLocalCopy = {
           "Fazla mesai erken uyarıları"
         ],
         "category": "Temel Operasyonlar",
-        "color": "from-blue-500 to-blue-600"
+        "color": "from-[#FF7E6F] to-[#FF5C4D]"
       },
       {
         "name": "Envanter Zekası",
@@ -3002,7 +3002,7 @@ export const generatedLocalCopy = {
           "Envanter devir optimizasyonu"
         ],
         "category": "Temel Operasyonlar",
-        "color": "from-purple-500 to-purple-600"
+        "color": "from-[#F2B45C] to-[#C2410C]"
       },
       {
         "name": "Satın Alma Zekası",
@@ -3086,7 +3086,7 @@ export const generatedLocalCopy = {
           "Teslimat menüsü optimizasyonu"
         ],
         "category": "Kanal",
-        "color": "from-indigo-500 to-indigo-600"
+        "color": "from-[#FF6B5B] to-[#E03E48]"
       },
       {
         "name": "Misafir Deneyimi",
@@ -3100,7 +3100,7 @@ export const generatedLocalCopy = {
           "Misafir memnuniyeti puanlama"
         ],
         "category": "İçgörü",
-        "color": "from-pink-500 to-pink-600"
+        "color": "from-[#FF8473] to-[#FF5C4D]"
       },
       {
         "name": "Misafir CRM Zekası",
@@ -3120,7 +3120,7 @@ export const generatedLocalCopy = {
         "name": "Cross-Intelligence",
         "icon": "integration",
         "headline": "Her Alanda Bağlantıları Kurun.",
-        "description": "Aktif modüller arasındaki işletme ilişkilerini vurgulayın; iş gücü ile gelir, envanter ile israf ve pazarlama ile kapasiteler. Üç veya daha fazla modül aktif olduğunda devreye girer.",
+        "description": "Aktif modüller arasındaki işletme ilişkilerini vurgulayın; iş gücü ile gelir, envanter ile israf ve pazarlama ile müşteri sayısı. Üç veya daha fazla modül aktif olduğunda devreye girer.",
         "capabilities": [
           "Alanlar arası korelasyon analizi",
           "Otomatik içgörü yüzeye çıkarma",
@@ -3128,7 +3128,7 @@ export const generatedLocalCopy = {
           "Çoklu modül sağlık puanlama"
         ],
         "category": "Platform",
-        "color": "from-cyan-500 to-cyan-600"
+        "color": "from-[#F2C078] to-[#E9A24A]"
       }
     ],
     "ja": [
@@ -3159,7 +3159,7 @@ export const generatedLocalCopy = {
           "残業の早期警告"
         ],
         "category": "コアオペレーション",
-        "color": "from-blue-500 to-blue-600"
+        "color": "from-[#FF7E6F] to-[#FF5C4D]"
       },
       {
         "name": "在庫インテリジェンス",
@@ -3174,7 +3174,7 @@ export const generatedLocalCopy = {
           "在庫回転の最適化"
         ],
         "category": "コアオペレーション",
-        "color": "from-purple-500 to-purple-600"
+        "color": "from-[#F2B45C] to-[#C2410C]"
       },
       {
         "name": "購買インテリジェンス",
@@ -3194,7 +3194,7 @@ export const generatedLocalCopy = {
         "name": "マーケティングパフォーマンス",
         "icon": "marketing",
         "headline": "キャンペーンを測定。収益を特定。支出を最適化。",
-        "description": "マーケティング支出を実際の収益影響に結びつけます。どのキャンペーンがカバーを生み出し、どのチャネルがコンバージョンを促進し、どこに注力すべきかを確認します。",
+        "description": "マーケティング支出を実際の収益への影響に結びつけます。どのキャンペーンが来客を生み出し、どのチャネルがコンバージョンを促進し、どこに注力すべきかを確認します。",
         "capabilities": [
           "キャンペーンから収益への帰属",
           "チャネルパフォーマンス追跡",
@@ -3227,7 +3227,7 @@ export const generatedLocalCopy = {
           "リアルタイムの利益率追跡",
           "シフトレベルの収益性分析",
           "メニューアイテムの貢献分析",
-          "Location-level P&L intelligence"
+          "店舗別 P&L インテリジェンス"
         ],
         "category": "スーパープレミアム",
         "color": "from-amber-500 to-amber-600"
@@ -3258,7 +3258,7 @@ export const generatedLocalCopy = {
           "デリバリーメニュー最適化"
         ],
         "category": "チャネル",
-        "color": "from-indigo-500 to-indigo-600"
+        "color": "from-[#FF6B5B] to-[#E03E48]"
       },
       {
         "name": "ゲスト体験",
@@ -3272,7 +3272,7 @@ export const generatedLocalCopy = {
           "ゲスト満足度スコアリング"
         ],
         "category": "インサイト",
-        "color": "from-pink-500 to-pink-600"
+        "color": "from-[#FF8473] to-[#FF5C4D]"
       },
       {
         "name": "ゲストCRMインテリジェンス",
@@ -3292,7 +3292,7 @@ export const generatedLocalCopy = {
         "name": "Cross-Intelligence",
         "icon": "integration",
         "headline": "すべてのドメインをつなげる。",
-        "description": "労働と収益、在庫と廃棄、マーケティングとカバーなど、アクティブなモジュール間の運用関係を強調します。3つ以上のモジュールがアクティブになると機能します。",
+        "description": "労働と収益、在庫と廃棄、マーケティングと客数など、アクティブなモジュール間の運用関係を強調します。3つ以上のモジュールがアクティブになると機能します。",
         "capabilities": [
           "ドメイン間相関分析",
           "自動インサイト抽出",
@@ -3300,7 +3300,7 @@ export const generatedLocalCopy = {
           "マルチモジュール健康スコアリング"
         ],
         "category": "プラットフォーム",
-        "color": "from-cyan-500 to-cyan-600"
+        "color": "from-[#F2C078] to-[#E9A24A]"
       }
     ],
     "pl": [
@@ -3331,7 +3331,7 @@ export const generatedLocalCopy = {
           "Wczesne ostrzeżenia o nadgodzinach"
         ],
         "category": "Operacje Podstawowe",
-        "color": "from-blue-500 to-blue-600"
+        "color": "from-[#FF7E6F] to-[#FF5C4D]"
       },
       {
         "name": "Inteligencja Zapasów",
@@ -3346,7 +3346,7 @@ export const generatedLocalCopy = {
           "Optymalizacja rotacji zapasów"
         ],
         "category": "Operacje podstawowe",
-        "color": "from-purple-500 to-purple-600"
+        "color": "from-[#F2B45C] to-[#C2410C]"
       },
       {
         "name": "Inteligencja Zakupowa",
@@ -3430,7 +3430,7 @@ export const generatedLocalCopy = {
           "Optymalizacja menu dostaw"
         ],
         "category": "Kanał",
-        "color": "from-indigo-500 to-indigo-600"
+        "color": "from-[#FF6B5B] to-[#E03E48]"
       },
       {
         "name": "Doświadczenie Gościa",
@@ -3444,7 +3444,7 @@ export const generatedLocalCopy = {
           "Ocena satysfakcji gości"
         ],
         "category": "Wgląd",
-        "color": "from-pink-500 to-pink-600"
+        "color": "from-[#FF8473] to-[#FF5C4D]"
       },
       {
         "name": "Inteligencja CRM Gości",
@@ -3472,7 +3472,7 @@ export const generatedLocalCopy = {
           "Ocena zdrowia wielu modułów"
         ],
         "category": "Platforma",
-        "color": "from-cyan-500 to-cyan-600"
+        "color": "from-[#F2C078] to-[#E9A24A]"
       }
     ],
     "id": [
@@ -3503,7 +3503,7 @@ export const generatedLocalCopy = {
           "Peringatan awal lembur"
         ],
         "category": "Operasi Inti",
-        "color": "from-blue-500 to-blue-600"
+        "color": "from-[#FF7E6F] to-[#FF5C4D]"
       },
       {
         "name": "Inteligensi Inventaris",
@@ -3518,7 +3518,7 @@ export const generatedLocalCopy = {
           "Optimisasi perputaran inventaris"
         ],
         "category": "Operasi Inti",
-        "color": "from-purple-500 to-purple-600"
+        "color": "from-[#F2B45C] to-[#C2410C]"
       },
       {
         "name": "Inteligensi Pembelian",
@@ -3602,7 +3602,7 @@ export const generatedLocalCopy = {
           "Optimasi menu pengiriman"
         ],
         "category": "Saluran",
-        "color": "from-indigo-500 to-indigo-600"
+        "color": "from-[#FF6B5B] to-[#E03E48]"
       },
       {
         "name": "Pengalaman Tamu",
@@ -3616,7 +3616,7 @@ export const generatedLocalCopy = {
           "Penilaian kepuasan tamu"
         ],
         "category": "Wawasan",
-        "color": "from-pink-500 to-pink-600"
+        "color": "from-[#FF8473] to-[#FF5C4D]"
       },
       {
         "name": "Inteligensi CRM Tamu",
@@ -3644,7 +3644,7 @@ export const generatedLocalCopy = {
           "Penilaian kesehatan multi-modul"
         ],
         "category": "Platform",
-        "color": "from-cyan-500 to-cyan-600"
+        "color": "from-[#F2C078] to-[#E9A24A]"
       }
     ],
     "vi": [
@@ -3675,7 +3675,7 @@ export const generatedLocalCopy = {
           "Cảnh báo sớm về giờ làm thêm"
         ],
         "category": "Hoạt Động Cốt Lõi",
-        "color": "from-blue-500 to-blue-600"
+        "color": "from-[#FF7E6F] to-[#FF5C4D]"
       },
       {
         "name": "Trí Tuệ Tồn Kho",
@@ -3690,7 +3690,7 @@ export const generatedLocalCopy = {
           "Tối ưu hóa vòng quay tồn kho"
         ],
         "category": "Hoạt Động Cốt Lõi",
-        "color": "from-purple-500 to-purple-600"
+        "color": "from-[#F2B45C] to-[#C2410C]"
       },
       {
         "name": "Trí Tuệ Mua Sắm",
@@ -3774,7 +3774,7 @@ export const generatedLocalCopy = {
           "Tối ưu hóa thực đơn giao hàng"
         ],
         "category": "Kênh",
-        "color": "from-indigo-500 to-indigo-600"
+        "color": "from-[#FF6B5B] to-[#E03E48]"
       },
       {
         "name": "Trải Nghiệm Khách Hàng",
@@ -3788,7 +3788,7 @@ export const generatedLocalCopy = {
           "Đánh giá sự hài lòng của khách"
         ],
         "category": "Thông Tin",
-        "color": "from-pink-500 to-pink-600"
+        "color": "from-[#FF8473] to-[#FF5C4D]"
       },
       {
         "name": "Trí Tuệ CRM Khách Hàng",
@@ -3816,7 +3816,7 @@ export const generatedLocalCopy = {
           "Đánh giá sức khỏe đa mô-đun"
         ],
         "category": "Nền tảng",
-        "color": "from-cyan-500 to-cyan-600"
+        "color": "from-[#F2C078] to-[#E9A24A]"
       }
     ],
     "ro": [
@@ -3847,7 +3847,7 @@ export const generatedLocalCopy = {
           "Alerte timpurii pentru ore suplimentare"
         ],
         "category": "Operațiuni de Bază",
-        "color": "from-blue-500 to-blue-600"
+        "color": "from-[#FF7E6F] to-[#FF5C4D]"
       },
       {
         "name": "Inteligența Inventarului",
@@ -3862,7 +3862,7 @@ export const generatedLocalCopy = {
           "Optimizarea rotației inventarului"
         ],
         "category": "Operațiuni de Bază",
-        "color": "from-purple-500 to-purple-600"
+        "color": "from-[#F2B45C] to-[#C2410C]"
       },
       {
         "name": "Inteligența Achizițiilor",
@@ -3946,7 +3946,7 @@ export const generatedLocalCopy = {
           "Optimizarea meniului de livrare"
         ],
         "category": "Canal",
-        "color": "from-indigo-500 to-indigo-600"
+        "color": "from-[#FF6B5B] to-[#E03E48]"
       },
       {
         "name": "Experiența Oaspeților",
@@ -3960,7 +3960,7 @@ export const generatedLocalCopy = {
           "Evaluarea satisfacției oaspeților"
         ],
         "category": "Insight",
-        "color": "from-pink-500 to-pink-600"
+        "color": "from-[#FF8473] to-[#FF5C4D]"
       },
       {
         "name": "Inteligența CRM pentru Oaspeți",
@@ -3988,7 +3988,7 @@ export const generatedLocalCopy = {
           "Scorarea sănătății multi-modul"
         ],
         "category": "Platformă",
-        "color": "from-cyan-500 to-cyan-600"
+        "color": "from-[#F2C078] to-[#E9A24A]"
       }
     ],
     "bn": [
@@ -4019,7 +4019,7 @@ export const generatedLocalCopy = {
           "অতিরিক্ত সময়ের প্রাথমিক সতর্কতা"
         ],
         "category": "কোর অপারেশনস",
-        "color": "from-blue-500 to-blue-600"
+        "color": "from-[#FF7E6F] to-[#FF5C4D]"
       },
       {
         "name": "ইনভেন্টরি ইন্টেলিজেন্স",
@@ -4034,7 +4034,7 @@ export const generatedLocalCopy = {
           "ইনভেন্টরি টার্ন অপ্টিমাইজেশন"
         ],
         "category": "কোর অপারেশনস",
-        "color": "from-purple-500 to-purple-600"
+        "color": "from-[#F2B45C] to-[#C2410C]"
       },
       {
         "name": "ক্রয় বুদ্ধিমত্তা",
@@ -4118,7 +4118,7 @@ export const generatedLocalCopy = {
           "ডেলিভারি মেনু অপ্টিমাইজেশন"
         ],
         "category": "চ্যানেল",
-        "color": "from-indigo-500 to-indigo-600"
+        "color": "from-[#FF6B5B] to-[#E03E48]"
       },
       {
         "name": "অতিথি অভিজ্ঞতা",
@@ -4132,7 +4132,7 @@ export const generatedLocalCopy = {
           "অতিথির সন্তুষ্টি স্কোরিং"
         ],
         "category": "দৃষ্টি",
-        "color": "from-pink-500 to-pink-600"
+        "color": "from-[#FF8473] to-[#FF5C4D]"
       },
       {
         "name": "অতিথি সিআরএম বুদ্ধিমত্তা",
@@ -4160,7 +4160,7 @@ export const generatedLocalCopy = {
           "মাল্টি-মডিউল স্বাস্থ্য স্কোরিং"
         ],
         "category": "প্ল্যাটফর্ম",
-        "color": "from-cyan-500 to-cyan-600"
+        "color": "from-[#F2C078] to-[#E9A24A]"
       }
     ],
     "sv": [
@@ -4191,7 +4191,7 @@ export const generatedLocalCopy = {
           "Tidiga varningar om övertid"
         ],
         "category": "Kärnverksamhet",
-        "color": "from-blue-500 to-blue-600"
+        "color": "from-[#FF7E6F] to-[#FF5C4D]"
       },
       {
         "name": "Inventarieintelligens",
@@ -4206,7 +4206,7 @@ export const generatedLocalCopy = {
           "Optimering av inventarieförändring"
         ],
         "category": "Kärnverksamhet",
-        "color": "from-purple-500 to-purple-600"
+        "color": "from-[#F2B45C] to-[#C2410C]"
       },
       {
         "name": "Inköpsintelligens",
@@ -4290,7 +4290,7 @@ export const generatedLocalCopy = {
           "Optimering av leveransmeny"
         ],
         "category": "Kanal",
-        "color": "from-indigo-500 to-indigo-600"
+        "color": "from-[#FF6B5B] to-[#E03E48]"
       },
       {
         "name": "Gästupplevelse",
@@ -4304,7 +4304,7 @@ export const generatedLocalCopy = {
           "Betyg på gästnöjdhet"
         ],
         "category": "Insikt",
-        "color": "from-pink-500 to-pink-600"
+        "color": "from-[#FF8473] to-[#FF5C4D]"
       },
       {
         "name": "Gäst CRM Intelligens",
@@ -4332,7 +4332,7 @@ export const generatedLocalCopy = {
           "Hälsobetyg för flera moduler"
         ],
         "category": "Plattform",
-        "color": "from-cyan-500 to-cyan-600"
+        "color": "from-[#F2C078] to-[#E9A24A]"
       }
     ],
     "th": [
@@ -4363,7 +4363,7 @@ export const generatedLocalCopy = {
           "การเตือนล่วงหน้าเกี่ยวกับเวลาทำงานล่วงเวลา"
         ],
         "category": "การดำเนินงานหลัก",
-        "color": "from-blue-500 to-blue-600"
+        "color": "from-[#FF7E6F] to-[#FF5C4D]"
       },
       {
         "name": "ปัญญาการจัดการสินค้าคงคลัง",
@@ -4378,7 +4378,7 @@ export const generatedLocalCopy = {
           "การเพิ่มประสิทธิภาพการหมุนเวียนสินค้าคงคลัง"
         ],
         "category": "การดำเนินงานหลัก",
-        "color": "from-purple-500 to-purple-600"
+        "color": "from-[#F2B45C] to-[#C2410C]"
       },
       {
         "name": "ข้อมูลเชิงลึกการจัดซื้อ",
@@ -4462,7 +4462,7 @@ export const generatedLocalCopy = {
           "การปรับแต่งเมนูการจัดส่ง"
         ],
         "category": "ช่องทาง",
-        "color": "from-indigo-500 to-indigo-600"
+        "color": "from-[#FF6B5B] to-[#E03E48]"
       },
       {
         "name": "ประสบการณ์ของแขก",
@@ -4476,7 +4476,7 @@ export const generatedLocalCopy = {
           "การให้คะแนนความพึงพอใจของแขก"
         ],
         "category": "ข้อมูลเชิงลึก",
-        "color": "from-pink-500 to-pink-600"
+        "color": "from-[#FF8473] to-[#FF5C4D]"
       },
       {
         "name": "ข้อมูลเชิงลึกเกี่ยวกับแขก",
@@ -4504,7 +4504,7 @@ export const generatedLocalCopy = {
           "การให้คะแนนสุขภาพหลายโมดูล"
         ],
         "category": "แพลตฟอร์ม",
-        "color": "from-cyan-500 to-cyan-600"
+        "color": "from-[#F2C078] to-[#E9A24A]"
       }
     ],
     "ms": [
@@ -4535,7 +4535,7 @@ export const generatedLocalCopy = {
           "Amaran awal lebih masa"
         ],
         "category": "Operasi Teras",
-        "color": "from-blue-500 to-blue-600"
+        "color": "from-[#FF7E6F] to-[#FF5C4D]"
       },
       {
         "name": "Inteligensi Inventori",
@@ -4550,7 +4550,7 @@ export const generatedLocalCopy = {
           "Pengoptimuman pusingan inventori"
         ],
         "category": "Operasi Teras",
-        "color": "from-purple-500 to-purple-600"
+        "color": "from-[#F2B45C] to-[#C2410C]"
       },
       {
         "name": "Intelligence Pembelian",
@@ -4634,7 +4634,7 @@ export const generatedLocalCopy = {
           "Pengoptimuman menu penghantaran"
         ],
         "category": "Saluran",
-        "color": "from-indigo-500 to-indigo-600"
+        "color": "from-[#FF6B5B] to-[#E03E48]"
       },
       {
         "name": "Pengalaman Tetamu",
@@ -4648,7 +4648,7 @@ export const generatedLocalCopy = {
           "Penilaian kepuasan tetamu"
         ],
         "category": "Wawasan",
-        "color": "from-pink-500 to-pink-600"
+        "color": "from-[#FF8473] to-[#FF5C4D]"
       },
       {
         "name": "Intelligence CRM Tetamu",
@@ -4676,7 +4676,7 @@ export const generatedLocalCopy = {
           "Penilaian kesihatan pelbagai modul"
         ],
         "category": "Platform",
-        "color": "from-cyan-500 to-cyan-600"
+        "color": "from-[#F2C078] to-[#E9A24A]"
       }
     ],
     "ar": [
@@ -4707,7 +4707,7 @@ export const generatedLocalCopy = {
           "تحذيرات مبكرة عن العمل الإضافي"
         ],
         "category": "العمليات الأساسية",
-        "color": "from-blue-500 to-blue-600"
+        "color": "from-[#FF7E6F] to-[#FF5C4D]"
       },
       {
         "name": "ذكاء المخزون",
@@ -4722,7 +4722,7 @@ export const generatedLocalCopy = {
           "تحسين دوران المخزون"
         ],
         "category": "العمليات الأساسية",
-        "color": "from-purple-500 to-purple-600"
+        "color": "from-[#F2B45C] to-[#C2410C]"
       },
       {
         "name": "ذكاء الشراء",
@@ -4775,7 +4775,7 @@ export const generatedLocalCopy = {
           "تتبع هامش الربح في الوقت الحقيقي",
           "تحليل ربحية على مستوى الوردية",
           "تحليل مساهمة عنصر القائمة",
-          "Location-level P&L intelligence"
+          "ذكاء P&L على مستوى الموقع"
         ],
         "category": "فائق الجودة",
         "color": "from-amber-500 to-amber-600"
@@ -4806,13 +4806,13 @@ export const generatedLocalCopy = {
           "تحسين قائمة التوصيل"
         ],
         "category": "قناة",
-        "color": "from-indigo-500 to-indigo-600"
+        "color": "from-[#FF6B5B] to-[#E03E48]"
       },
       {
         "name": "تجربة الضيوف",
         "icon": "success",
         "headline": "استمع إلى الضيوف. اكتشف الاتجاهات. تصرف بسرعة.",
-        "description": "اجمع تعليقات الضيوف من المراجعات، والاستطلاعات، والذكريات الاجتماعية في عرض موحد للمشاعر مع اكتشاف الاتجاهات المدعوم بالذكاء الاصطناعي.",
+        "description": "اجمع تعليقات الضيوف من المراجعات، والاستطلاعات، والإشارات على وسائل التواصل في عرض موحد للمشاعر مع اكتشاف الاتجاهات المدعوم بالذكاء الاصطناعي.",
         "capabilities": [
           "تجميع المراجعات من مصادر متعددة",
           "تحليل المشاعر بالذكاء الاصطناعي",
@@ -4820,12 +4820,12 @@ export const generatedLocalCopy = {
           "تقييم رضا الضيوف"
         ],
         "category": "رؤية",
-        "color": "from-pink-500 to-pink-600"
+        "color": "from-[#FF8473] to-[#FF5C4D]"
       },
       {
         "name": "ذكاء إدارة علاقات الضيوف",
         "icon": "operators",
-        "headline": "اعرف ضيوفك. احتفظ بأفضلهم. استعد للبقية.",
+        "headline": "اعرف ضيوفك. احتفظ بأفضلهم. استعد الباقين.",
         "description": "قم بتقسيم الضيوف حسب القيمة، تتبع الإنفاق مدى الحياة، راقب سلوك الولاء، واكتشف مخاطر فقدان العملاء مبكرًا.",
         "capabilities": [
           "تقسيم الضيوف وقيمة الحياة",
@@ -4840,15 +4840,15 @@ export const generatedLocalCopy = {
         "name": "Cross-Intelligence",
         "icon": "integration",
         "headline": "ربط النقاط عبر كل مجال.",
-        "description": "تسليط الضوء على العلاقات التشغيلية عبر الوحدات النشطة، بما في ذلك العمالة مقابل الإيرادات، والمخزون مقابل الهدر، والتسويق مقابل التغطيات. يتم تفعيله عند تنشيط ثلاث وحدات أو أكثر.",
+        "description": "تسليط الضوء على العلاقات التشغيلية عبر الوحدات النشطة، بما في ذلك العمالة مقابل الإيرادات، والمخزون مقابل الهدر، والتسويق مقابل عدد الزبائن. يتم تفعيله عند تنشيط ثلاث وحدات أو أكثر.",
         "capabilities": [
           "تحليل الارتباط عبر المجالات",
           "استخراج الرؤى تلقائيًا",
-          "كشف النسبة والتقليل من المنافسة",
+          "كشف الإسناد والتآكل الذاتي",
           "تقييم صحة الوحدات المتعددة"
         ],
         "category": "منصة",
-        "color": "from-cyan-500 to-cyan-600"
+        "color": "from-[#F2C078] to-[#E9A24A]"
       }
     ],
     "ko": [
@@ -4879,7 +4879,7 @@ export const generatedLocalCopy = {
           "초과 근무 조기 경고"
         ],
         "category": "핵심 운영",
-        "color": "from-blue-500 to-blue-600"
+        "color": "from-[#FF7E6F] to-[#FF5C4D]"
       },
       {
         "name": "재고 인사이트",
@@ -4894,7 +4894,7 @@ export const generatedLocalCopy = {
           "재고 회전율 최적화"
         ],
         "category": "핵심 운영",
-        "color": "from-purple-500 to-purple-600"
+        "color": "from-[#F2B45C] to-[#C2410C]"
       },
       {
         "name": "구매 인사이트",
@@ -4939,7 +4939,7 @@ export const generatedLocalCopy = {
         "color": "from-teal-500 to-teal-600"
       },
       {
-        "name": "수익 인사이트",
+        "name": "이익 인사이트",
         "icon": "finance",
         "headline": "진정한 수익성을 확인하세요. 교대별. 메뉴 항목별. 위치별.",
         "description": "수익, 인건비, 재고 및 간접비를 실시간 수익성 보기로 결합합니다. 어떤 교대, 항목 및 위치가 실제로 수익을 내는지 확인하세요.",
@@ -4947,7 +4947,7 @@ export const generatedLocalCopy = {
           "실시간 이익률 추적",
           "교대별 수익성 분석",
           "메뉴 항목 기여도 분석",
-          "Location-level P&L intelligence"
+          "지점별 P&L 인텔리전스"
         ],
         "category": "슈퍼 프리미엄",
         "color": "from-amber-500 to-amber-600"
@@ -4978,7 +4978,7 @@ export const generatedLocalCopy = {
           "배달 메뉴 최적화"
         ],
         "category": "채널",
-        "color": "from-indigo-500 to-indigo-600"
+        "color": "from-[#FF6B5B] to-[#E03E48]"
       },
       {
         "name": "고객 경험",
@@ -4992,10 +4992,10 @@ export const generatedLocalCopy = {
           "고객 만족도 점수"
         ],
         "category": "인사이트",
-        "color": "from-pink-500 to-pink-600"
+        "color": "from-[#FF8473] to-[#FF5C4D]"
       },
       {
-        "name": "게스트 CRM 인텔리전스",
+        "name": "게스트 CRM 인사이트",
         "icon": "operators",
         "headline": "고객을 이해하고, 최고의 고객을 유지하며, 나머지 고객을 다시 확보하세요.",
         "description": "고객을 가치에 따라 세분화하고, 평생 지출을 추적하며, 충성도 행동을 관찰하고, 이탈 위험을 조기에 감지하세요.",
@@ -5012,7 +5012,7 @@ export const generatedLocalCopy = {
         "name": "Cross-Intelligence",
         "icon": "integration",
         "headline": "모든 도메인 간의 연결 고리.",
-        "description": "노동 대비 수익, 재고 대비 폐기물, 마케팅 대비 커버 등 활성 모듈 간의 운영 관계를 강조합니다. 세 개 이상의 모듈이 활성화되면 작동합니다.",
+        "description": "노동 대비 수익, 재고 대비 폐기물, 마케팅 대비 내방객 등 활성 모듈 간의 운영 관계를 강조합니다. 세 개 이상의 모듈이 활성화되면 작동합니다.",
         "capabilities": [
           "도메인 간 상관 분석",
           "자동화된 인사이트 제공",
@@ -5020,7 +5020,7 @@ export const generatedLocalCopy = {
           "다중 모듈 건강 점수"
         ],
         "category": "플랫폼",
-        "color": "from-cyan-500 to-cyan-600"
+        "color": "from-[#F2C078] to-[#E9A24A]"
       }
     ]
   }

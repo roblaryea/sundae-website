@@ -19,6 +19,8 @@ import {
 } from "@/components/ui/MockupFrame";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_product_page'
+import { CreamBreak } from '@/components/ui/CreamBreak';
+import { productCreamCopy } from './productCreamCopy';
 
 type Pillar = {
   name: string;
@@ -67,7 +69,7 @@ const copyMap: Record<'en' | 'ar' | 'fr' | 'es', Copy> = {
     freeLabel: "FREE TO START",
     freeTitle: "Sundae Report",
     freeSubtitle: "Historical Analysis & Benchmarking",
-    freeDescription: "Upload your data. See where you stand against peers. Performance benchmarks, margin patterns, and competitive positioning — free to start with Report Lite.",
+    freeDescription: "Upload your data. See where you stand against peers. Performance benchmarks, margin patterns, and competitive positioning - free to start with Report Lite.",
     freeIncludes: "Includes:",
     freeCta: "Explore Sundae Report →",
     coreLabel: "MOST POPULAR",
@@ -167,7 +169,7 @@ const localizedPillars: Record<'en' | 'ar' | 'fr' | 'es', Pillar[]> = {
     { name: "Watchtower", tagline: "Market Intelligence", description: "Competitor monitoring, weather revenue impact, event intelligence, and daily briefings - before the impact hits your numbers.", icon: "watchtower", features: ["Competitor price & menu tracking", "Weather revenue impact models", "Local event intelligence", "Daily Sundae Coach briefings", "Signal feed & alerts", "Market trend detection"], stat: "72h", statLabel: "early warning before impact", mockup: WatchtowerMockup },
     { name: "Insights", tagline: "12 Intelligence Modules", description: "Revenue, labor, inventory, purchasing, marketing, reservations, delivery, guest experience, and more - each with recommendations from Sundae Coach.", icon: "insights", features: ["Revenue & profit intelligence", "Labor cost optimization", "Inventory waste & variance", "Purchasing & supplier scoring", "Marketing ROI attribution", "Cross-Intelligence correlation engine"], stat: "500+", statLabel: "data models across 12 domains", mockup: InsightsModuleMockup },
     { name: "Sundae Intelligence", tagline: "Conversational Analytics", description: "Ask questions in plain language. Get answers backed by your real data - with sources, not guesses. Available on web, Telegram, Slack, and Microsoft Teams.", icon: "conversation", features: ["Natural language queries", "Monitor mode (real-time alerts)", "Briefing mode (daily summaries)", "Web + Telegram + Slack + Teams", "Conversation history", "Source-cited responses"], stat: "30s", statLabel: "from question to cited answer", mockup: IntelligenceChatMockup },
-    { name: "Foresight", tagline: "Predictive Intelligence", description: "Forward-looking forecasts for revenue, labor, food cost, and profit - with confidence bands, what-if scenarios, and weekly executive briefings. Stop reacting. Start anticipating.", icon: "forecasting", features: ["14–365 day multi-metric forecasts", "What-if scenario simulator with Monte Carlo", "Forecast-driven labor scheduling & purchasing", "Cross-module cascade forecasting", "Accuracy self-correction with bias detection", "AI executive briefings with PDF export"], stat: "91%", statLabel: "forecast accuracy with self-correction", mockup: ForesightDashboardMockup },
+    { name: "Foresight", tagline: "Predictive Intelligence", description: "Forward-looking forecasts for revenue, labor, food cost, and profit - with confidence bands, what-if scenarios, and weekly executive briefings. Stop reacting. Start anticipating.", icon: "forecasting", features: ["14-365 day multi-metric forecasts", "What-if scenario simulator with Monte Carlo", "Forecast-driven labor scheduling & purchasing", "Cross-module cascade forecasting", "Accuracy self-correction with bias detection", "AI executive briefings with PDF export"], stat: "91%", statLabel: "forecast accuracy with self-correction", mockup: ForesightDashboardMockup },
   ],
   ar: [
     { name: "Pulse", tagline: "العمليات داخل اليوم", description: "وتيرة الإيرادات، تكلفة العمالة، أداء الخادم، وكشف التسرب - تتحدث كل 5 دقائق. الوردية أصل قابل للتلف.", icon: "pulse", features: ["مقارنة مباشرة للمبيعات مقابل الأهداف", "تتبع الارتقاء لكل خادم", "كشف التسرب والإلغاءات", "إشارات Sundae Coach للوردية", "لوحة ترتيب للمواقع", "وضع شاشة للقسم"], stat: "$2K", statLabel: "تم توفيرها من وردية سيئة تم اكتشافها مبكراً", mockup: PulseDashboardMockup },
@@ -175,7 +177,7 @@ const localizedPillars: Record<'en' | 'ar' | 'fr' | 'es', Pillar[]> = {
     { name: "Watchtower", tagline: "ذكاء السوق", description: "مراقبة المنافسين، أثر الطقس على الإيرادات، ذكاء الفعاليات، والتقارير اليومية - قبل أن يصل الأثر إلى أرقامك.", icon: "watchtower", features: ["تتبع أسعار وقوائم المنافسين", "نماذج أثر الطقس على الإيرادات", "ذكاء الفعاليات المحلية", "تقارير يومية من Sundae Coach", "تغذية إشارات وتنبيهات", "كشف اتجاهات السوق"], stat: "72h", statLabel: "تحذير مبكر قبل الأثر", mockup: WatchtowerMockup },
     { name: "Insights", tagline: "12 وحدة ذكاء", description: "الإيرادات، العمالة، المخزون، المشتريات، التسويق، الحجوزات، التوصيل، تجربة الضيف، وأكثر - كل منها مع توصيات من Sundae Coach.", icon: "insights", features: ["ذكاء الإيرادات والربح", "تحسين تكلفة العمالة", "هدر المخزون والانحراف", "تقييم المشتريات والموردين", "إسناد ROI للتسويق", "محرك الارتباط Cross-Intelligence"], stat: "500+", statLabel: "نموذج بيانات عبر 12 مجالاً", mockup: InsightsModuleMockup },
     { name: "Sundae Intelligence", tagline: "تحليلات محادثية", description: "اسأل بلغة بسيطة. واحصل على إجابات مدعومة ببياناتك الحقيقية - مع المصادر، لا التخمين. متاح على الويب وتليغرام وسلاك وMicrosoft Teams.", icon: "conversation", features: ["استعلامات بلغة طبيعية", "وضع المراقبة (تنبيهات لحظية)", "وضع الملخص (ملخصات يومية)", "الويب + تليغرام + سلاك + Teams", "سجل المحادثات", "ردود معززة بالمصادر"], stat: "30s", statLabel: "من السؤال إلى الإجابة الموثقة", mockup: IntelligenceChatMockup },
-    { name: "Foresight", tagline: "ذكاء تنبؤي", description: "توقعات مستقبلية للإيرادات والعمالة وتكلفة الطعام والربح - مع نطاقات ثقة وسيناريوهات ماذا لو وتقارير تنفيذية أسبوعية.", icon: "forecasting", features: ["توقعات متعددة المقاييس لمدد 14–365 يوماً", "محاكي سيناريوهات مع Monte Carlo", "جدولة ومشتريات مبنية على التوقع", "توقعات متسلسلة عبر الوحدات", "تصحيح ذاتي للدقة مع كشف الانحياز", "ملخصات تنفيذية بالذكاء الاصطناعي مع PDF"], stat: "91%", statLabel: "دقة التوقع مع التصحيح الذاتي", mockup: ForesightDashboardMockup },
+    { name: "Foresight", tagline: "ذكاء تنبؤي", description: "توقعات مستقبلية للإيرادات والعمالة وتكلفة الطعام والربح - مع نطاقات ثقة وسيناريوهات ماذا لو وتقارير تنفيذية أسبوعية.", icon: "forecasting", features: ["توقعات متعددة المقاييس لمدد 14-365 يوماً", "محاكي سيناريوهات مع Monte Carlo", "جدولة ومشتريات مبنية على التوقع", "توقعات متسلسلة عبر الوحدات", "تصحيح ذاتي للدقة مع كشف الانحياز", "ملخصات تنفيذية بالذكاء الاصطناعي مع PDF"], stat: "91%", statLabel: "دقة التوقع مع التصحيح الذاتي", mockup: ForesightDashboardMockup },
   ],
   fr: [
     { name: "Pulse", tagline: "Operations intraday", description: "Rythme du revenu, cout de main-d oeuvre, performance serveur et detection des fuites - mise a jour toutes les 5 minutes. Un service est un actif perissable.", icon: "pulse", features: ["Pacing ventes vs objectifs", "Suivi de l'upsell serveur", "Detection des fuites et annulations", "Signaux de shift Sundae Coach", "Classement portefeuille", "Mode wallboard pour la salle"], stat: "$2K", statLabel: "economises par un mauvais service detecte a temps", mockup: PulseDashboardMockup },
@@ -200,6 +202,7 @@ export default function ProductPage() {
   const { locale } = useWebsiteI18n();
   const ui = copyMap[locale as keyof typeof copyMap] ?? getGeneratedLocalCopy(copyMap, generatedLocalCopy.copyMap, locale) ?? copyMap.en;
   const pillars = localizedPillars[locale as keyof typeof localizedPillars] ?? getGeneratedLocalCopy(localizedPillars, generatedLocalCopy.localizedPillars, locale) ?? localizedPillars.en;
+  const cream = productCreamCopy[locale as keyof typeof productCreamCopy] ?? productCreamCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
@@ -218,7 +221,7 @@ export default function ProductPage() {
           </div></FadeUp>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }}>
-              <Card variant="elevated" className="h-full overflow-hidden border-2 border-blue-500/30">
+              <Card variant="elevated" className="h-full overflow-hidden border-2 border-[#FF5C4D]/30">
                 <div className="relative h-48 overflow-hidden bg-[var(--surface-subtle)] p-3">
                   <BenchmarkDashboardMockup />
                   <div className="absolute inset-0 bg-gradient-to-t from-[var(--surface-hover)] via-transparent to-transparent pointer-events-none" />
@@ -226,14 +229,14 @@ export default function ProductPage() {
                 </div>
                 <CardContent className="p-6">
                   <h3 className="text-2xl font-bold text-[var(--text-primary)] mb-2">{ui.freeTitle}</h3>
-                  <p className="text-sm text-[#60A5FA] font-semibold mb-3">{ui.freeSubtitle}</p>
+                  <p className="text-sm text-[#FF8473] font-semibold mb-3">{ui.freeSubtitle}</p>
                   <p className="text-[var(--text-supporting)] mb-4 leading-relaxed">{ui.freeDescription}</p>
                   <p className="text-sm font-medium text-[var(--text-primary)] mb-3">{ui.freeIncludes}</p>
                   <ul className="text-sm text-[var(--text-supporting)] space-y-1.5 mb-6">
-                    <li className="flex items-center gap-2"><span className="text-blue-500">✓</span> {locale === 'en' ? 'Benchmarks (competitive intelligence)' : locale === 'ar' ? 'المقارنات (الذكاء التنافسي)' : locale === 'fr' ? 'Benchmarks (intelligence concurrentielle)' : 'Benchmarks (inteligencia competitiva)'}</li>
-                    <li className="flex items-center gap-2"><span className="text-blue-500">✓</span> {locale === 'en' ? 'Performance Report' : locale === 'ar' ? 'تقرير الأداء' : locale === 'fr' ? 'Rapport de performance' : 'Informe de rendimiento'}</li>
-                    <li className="flex items-center gap-2"><span className="text-blue-500">✓</span> {locale === 'en' ? 'Sundae Intelligence' : locale === 'ar' ? 'Sundae Intelligence' : locale === 'fr' ? 'Sundae Intelligence' : 'Sundae Intelligence'}</li>
-                    <li className="flex items-center gap-2"><span className="text-blue-500">✓</span> {locale === 'en' ? 'Integrations Hub' : locale === 'ar' ? 'مركز التكاملات' : locale === 'fr' ? 'Hub des integrations' : 'Centro de integraciones'}</li>
+                    <li className="flex items-center gap-2"><span className="text-[#FF8473]">✓</span> {locale === 'en' ? 'Benchmarks (competitive intelligence)' : locale === 'ar' ? 'المقارنات (الذكاء التنافسي)' : locale === 'fr' ? 'Benchmarks (intelligence concurrentielle)' : 'Benchmarks (inteligencia competitiva)'}</li>
+                    <li className="flex items-center gap-2"><span className="text-[#FF8473]">✓</span> {locale === 'en' ? 'Performance Report' : locale === 'ar' ? 'تقرير الأداء' : locale === 'fr' ? 'Rapport de performance' : 'Informe de rendimiento'}</li>
+                    <li className="flex items-center gap-2"><span className="text-[#FF8473]">✓</span> {locale === 'en' ? 'Sundae Intelligence' : locale === 'ar' ? 'Sundae Intelligence' : locale === 'fr' ? 'Sundae Intelligence' : 'Sundae Intelligence'}</li>
+                    <li className="flex items-center gap-2"><span className="text-[#FF8473]">✓</span> {locale === 'en' ? 'Integrations Hub' : locale === 'ar' ? 'مركز التكاملات' : locale === 'fr' ? 'Hub des integrations' : 'Centro de integraciones'}</li>
                   </ul>
                   <Button variant="primary" className="w-full" onClick={() => cta("/report", "view_report_product", { page: "/product" })}>{ui.freeCta}</Button>
                 </CardContent>
@@ -269,10 +272,13 @@ export default function ProductPage() {
         </div>
       </section>
 
+      {/* Cream relief - warm break before the long dark Six Intelligence Layers pillar run (the volume system) */}
+      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
+
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp><div className="text-center mb-16">
-            <p className="eyebrow text-[#60A5FA] mb-4">{ui.layersEyebrow}</p>
+            <p className="eyebrow text-[#FF8473] mb-4">{ui.layersEyebrow}</p>
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.layersTitle}</h2>
             <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">{ui.layersDescription}</p>
           </div></FadeUp>
@@ -285,7 +291,7 @@ export default function ProductPage() {
                     <div className={index % 2 === 1 ? 'md:col-start-2' : ''}><Mockup /></div>
                     <div className={index % 2 === 1 ? 'md:col-start-1 md:row-start-1' : ''}>
                       <div className="flex items-center gap-3 mb-4">
-                        <div className={`w-12 h-12 bg-gradient-to-br ${index === 0 ? 'from-red-500 to-rose-600' : index === 1 ? 'from-blue-500 to-blue-600' : index === 2 ? 'from-amber-500 to-orange-600' : index === 3 ? 'from-purple-500 to-purple-600' : index === 4 ? 'from-green-500 to-emerald-600' : 'from-cyan-500 to-blue-600'} rounded-xl flex items-center justify-center`}>
+                        <div className={`w-12 h-12 bg-gradient-to-br ${index === 0 ? 'from-red-500 to-rose-600' : index === 1 ? 'from-[#FF7E6F] to-[#FF5C4D]' : index === 2 ? 'from-amber-500 to-orange-600' : index === 3 ? 'from-[#F2B45C] to-[#C2410C]' : index === 4 ? 'from-green-500 to-emerald-600' : 'from-[#E9A24A] to-[#FF5C4D]'} rounded-xl flex items-center justify-center`}>
                           <SundaeIcon name={pillar.icon} size="lg" className="text-white" />
                         </div>
                         <div>

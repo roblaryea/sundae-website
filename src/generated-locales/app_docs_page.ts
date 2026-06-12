@@ -25,7 +25,7 @@ export const generatedLocalCopy = {
           "title": "Commencer",
           "description": "Apprenez à vous intégrer à Sundae et à connecter vos sources de données",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Créer votre compte Sundae",
             "Connecter votre système POS",
@@ -35,7 +35,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Using Sundae Report",
+          "title": "Utiliser Sundae Report",
           "description": "Tirez le meilleur parti des rapports de benchmarking et de performance gratuits",
           "icon": "benchmarking",
           "color": "bg-green-600",
@@ -51,7 +51,7 @@ export const generatedLocalCopy = {
           "title": "Guide de Sundae Core",
           "description": "Maîtrisez l'intelligence d'affaires conversationnelle avec des requêtes en langage naturel",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Poser des questions en anglais simple",
             "Explorer les tableaux de bord et graphiques",
@@ -77,7 +77,7 @@ export const generatedLocalCopy = {
           "title": "Insights & Tableaux de bord",
           "description": "Construisez et personnalisez des tableaux de bord pour chaque équipe",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Créer des tableaux de bord personnalisés",
             "Configurer des widgets et KPI",
@@ -104,7 +104,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Connecter les sources de données",
-          "description": "Liez vos systèmes de POS, de paie, d'inventaire et de budget à Sundae Scout",
+          "description": "Liez vos systèmes de POS, de paie, d'inventaire et de budget à Sundae Core",
           "icon": "integration"
         },
         {
@@ -150,7 +150,7 @@ export const generatedLocalCopy = {
           "title": "Erste Schritte",
           "description": "Erfahren Sie, wie Sie sich bei Sundae anmelden und Ihre Datenquellen verbinden",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Erstellen Sie Ihr Sundae-Konto",
             "Verbinden Sie Ihr POS-System",
@@ -160,7 +160,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Using Sundae Report",
+          "title": "Sundae Report verwenden",
           "description": "Nutzen Sie die kostenlosen Benchmarking- und Leistungsberichte optimal aus",
           "icon": "benchmarking",
           "color": "bg-green-600",
@@ -176,7 +176,7 @@ export const generatedLocalCopy = {
           "title": "Sundae Core Anleitung",
           "description": "Meistern Sie konversationelle Business Intelligence mit natürlichen Sprachabfragen",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Fragen in einfachem Englisch stellen",
             "Dashboards und Diagramme erkunden",
@@ -202,7 +202,7 @@ export const generatedLocalCopy = {
           "title": "Einblicke & Dashboards",
           "description": "Erstellen und passen Sie Dashboards für jedes Team an",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Erstellen von benutzerdefinierten Dashboards",
             "Konfigurieren von Widgets und KPIs",
@@ -221,7 +221,7 @@ export const generatedLocalCopy = {
             "Benutzerzugriffssteuerungen und Berechtigungen",
             "DSGVO und Compliance",
             "Datenaufbewahrungsrichtlinien",
-            "Datenschutzbest Practices"
+            "Best Practices für Datenschutz"
           ]
         }
       ],
@@ -229,7 +229,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Datenquellen verbinden",
-          "description": "Verbinden Sie Ihre POS-, Lohn-, Inventar- und Budgetsysteme mit Sundae Scout",
+          "description": "Verbinden Sie Ihre POS-, Lohn-, Inventar- und Budgetsysteme mit Sundae Core",
           "icon": "integration"
         },
         {
@@ -275,7 +275,7 @@ export const generatedLocalCopy = {
           "title": "Introducción",
           "description": "Aprende cómo iniciar con Sundae y conectar tus fuentes de datos",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Crear tu cuenta de Sundae",
             "Conectar tu sistema POS",
@@ -285,7 +285,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Using Sundae Report",
+          "title": "Usar Sundae Report",
           "description": "Aprovecha al máximo los informes de referencia y rendimiento gratuitos",
           "icon": "benchmarking",
           "color": "bg-green-600",
@@ -301,7 +301,7 @@ export const generatedLocalCopy = {
           "title": "Guía de Sundae Core",
           "description": "Domina la inteligencia empresarial conversacional con consultas en lenguaje natural",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Hacer preguntas en inglés sencillo",
             "Explorar paneles y gráficos",
@@ -327,7 +327,7 @@ export const generatedLocalCopy = {
           "title": "Insights y Paneles",
           "description": "Construye y personaliza paneles para cada equipo",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Crear paneles personalizados",
             "Configurar widgets y KPIs",
@@ -354,7 +354,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Conectar Fuentes de Datos",
-          "description": "Vincula tu sistema de POS, nómina, inventario y presupuesto a Sundae Scout",
+          "description": "Vincula tu sistema de POS, nómina, inventario y presupuesto a Sundae Core",
           "icon": "integration"
         },
         {
@@ -400,7 +400,7 @@ export const generatedLocalCopy = {
           "title": "Aan de slag",
           "description": "Leer hoe je je aanmeldt bij Sundae en je gegevensbronnen verbindt",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Je Sundae-account aanmaken",
             "Je POS-systeem verbinden",
@@ -410,7 +410,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Using Sundae Report",
+          "title": "Sundae Report gebruiken",
           "description": "Haal het meeste uit gratis benchmarking en prestatieverslagen",
           "icon": "benchmarking",
           "color": "bg-green-600",
@@ -426,7 +426,7 @@ export const generatedLocalCopy = {
           "title": "Sundae Core Gids",
           "description": "Beheers conversatiegerichte business intelligence met natuurlijke taalvragen",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Vragen stellen in eenvoudig Engels",
             "Dashboards en grafieken verkennen",
@@ -452,7 +452,7 @@ export const generatedLocalCopy = {
           "title": "Inzichten & Dashboards",
           "description": "Bouw en pas dashboards aan voor elk team",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Aangepaste dashboards maken",
             "Widgets en KPI's configureren",
@@ -479,7 +479,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Verbind Gegevensbronnen",
-          "description": "Koppel uw POS-, loon-, voorraad- en budgetsystemen aan Sundae Scout",
+          "description": "Koppel uw POS-, loon-, voorraad- en budgetsystemen aan Sundae Core",
           "icon": "integration"
         },
         {
@@ -507,7 +507,7 @@ export const generatedLocalCopy = {
       "title": "كل ما تحتاج لمعرفته",
       "description": "أدلة، مراجع API، وأفضل الممارسات لمساعدتك في الاستفادة القصوى من Sundae.",
       "primaryCta": "احجز عرضًا تجريبيًا",
-      "secondaryCta": "Try Sundae Report (Free)",
+      "secondaryCta": "جرّب Sundae Report (مجانًا)",
       "topicsLabel": "المواضيع:",
       "quickStartTitle": "دليل البدء السريع",
       "quickStartDescription": "ابدأ العمل مع Sundae في أربع خطوات بسيطة",
@@ -525,7 +525,7 @@ export const generatedLocalCopy = {
           "title": "البدء",
           "description": "تعلم كيفية الانضمام إلى Sundae وربط مصادر بياناتك",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "إنشاء حسابك في Sundae",
             "ربط نظام POS الخاص بك",
@@ -535,7 +535,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Using Sundae Report",
+          "title": "استخدام Sundae Report",
           "description": "استفد إلى أقصى حد من تقارير الأداء والمقارنة المجانية",
           "icon": "benchmarking",
           "color": "bg-green-600",
@@ -551,11 +551,11 @@ export const generatedLocalCopy = {
           "title": "دليل Sundae Core",
           "description": "إتقان ذكاء الأعمال التفاعلي مع استفسارات اللغة الطبيعية",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "طرح الأسئلة باللغة الإنجليزية البسيطة",
             "استكشاف لوحات المعلومات والمخططات",
-            "إنشاء وجهات نظر مخصصة",
+            "إنشاء طرق عرض مخصصة",
             "حفظ ومشاركة الرؤى",
             "تقنيات الاستعلام المتقدمة"
           ]
@@ -577,11 +577,11 @@ export const generatedLocalCopy = {
           "title": "الرؤى ولوحات المعلومات",
           "description": "إنشاء وتخصيص لوحات المعلومات لكل فريق",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "إنشاء لوحات معلومات مخصصة",
             "تكوين الأدوات ومؤشرات الأداء الرئيسية",
-            "إعداد وجهات نظر قائمة على الأدوار",
+            "إعداد طرق عرض قائمة على الأدوار",
             "جدولة التقارير الآلية",
             "مشاركة لوحات المعلومات مع الفرق"
           ]
@@ -604,7 +604,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "ربط مصادر البيانات",
-          "description": "قم بربط نظام POS، والرواتب، والمخزون، والميزانية بـ Sundae Scout",
+          "description": "قم بربط نظام POS، والرواتب، والمخزون، والميزانية بـ Sundae Core",
           "icon": "integration"
         },
         {
@@ -648,11 +648,11 @@ export const generatedLocalCopy = {
       "sections": [
         {
           "title": "شروع کرنا",
-          "description": "Learn how to onboard to Sundae and connect your data sources",
+          "description": "جانیں کہ Sundae میں آن بورڈ کیسے ہوں اور اپنے ڈیٹا کے ذرائع کو کیسے جوڑیں",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
-            "Creating your Sundae account",
+            "اپنا Sundae اکاؤنٹ بنانا",
             "اپنے POS سسٹم کو جوڑنا",
             "تنخواہوں اور HR کے ڈیٹا کو ضم کرنا",
             "بجٹ اور پیش گوئیوں کو لنک کرنا",
@@ -660,7 +660,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Using Sundae Report",
+          "title": "Sundae Report کا استعمال",
           "description": "مفت بینچ مارکنگ اور کارکردگی کی رپورٹس سے زیادہ سے زیادہ فائدہ اٹھائیں",
           "icon": "benchmarking",
           "color": "bg-green-600",
@@ -673,10 +673,10 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Sundae Core Guide",
+          "title": "Sundae Core گائیڈ",
           "description": "قدرتی زبان کے سوالات کے ساتھ کاروباری ذہانت میں مہارت حاصل کریں",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "سادہ انگریزی میں سوالات پوچھنا",
             "ڈیش بورڈز اور چارٹس کا جائزہ لینا",
@@ -702,7 +702,7 @@ export const generatedLocalCopy = {
           "title": "بصیرت اور ڈیش بورڈز",
           "description": "ہر ٹیم کے لیے ڈیش بورڈز بنائیں اور اپنی مرضی کے مطابق بنائیں",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "حسب ضرورت ڈیش بورڈز بنانا",
             "ویجٹس اور KPI کو ترتیب دینا",
@@ -713,7 +713,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "سیکیورٹی اور ڈیٹا کی رازداری",
-          "description": "Understand how Sundae protects your data",
+          "description": "سمجھیں کہ Sundae آپ کے ڈیٹا کی حفاظت کیسے کرتا ہے",
           "icon": "owners",
           "color": "bg-teal-600",
           "topics": [
@@ -729,7 +729,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "ڈیٹا کے ذرائع کو جوڑیں",
-          "description": "اپنے POS، تنخواہ، انوینٹری، اور بجٹ کے نظاموں کو Sundae Scout سے منسلک کریں",
+          "description": "اپنے POS، تنخواہ، انوینٹری، اور بجٹ کے نظاموں کو Sundae Core سے منسلک کریں",
           "icon": "integration"
         },
         {
@@ -775,7 +775,7 @@ export const generatedLocalCopy = {
           "title": "Introdução",
           "description": "Aprenda como se integrar ao Sundae e conectar suas fontes de dados",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Criando sua conta no Sundae",
             "Conectando seu sistema de POS",
@@ -801,7 +801,7 @@ export const generatedLocalCopy = {
           "title": "Guia do Sundae Core",
           "description": "Domine a inteligência de negócios conversacional com consultas em linguagem natural",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Fazendo perguntas em inglês simples",
             "Explorando painéis e gráficos",
@@ -827,7 +827,7 @@ export const generatedLocalCopy = {
           "title": "Insights & Dashboards",
           "description": "Crie e personalize painéis para cada equipe",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Criando painéis personalizados",
             "Configurando widgets e KPIs",
@@ -854,7 +854,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Conectar Fontes de Dados",
-          "description": "Vincule seus sistemas de POS, folha de pagamento, inventário e orçamento ao Sundae Scout",
+          "description": "Vincule seus sistemas de POS, folha de pagamento, inventário e orçamento ao Sundae Core",
           "icon": "integration"
         },
         {
@@ -882,7 +882,7 @@ export const generatedLocalCopy = {
       "title": "आपको जानने की ज़रूरत है सब कुछ",
       "description": "गाइड, API संदर्भ, और सर्वोत्तम प्रथाएँ जो आपको Sundae से अधिकतम लाभ उठाने में मदद करेंगी।",
       "primaryCta": "डेमो बुक करें",
-      "secondaryCta": "Try Sundae Report (Free)",
+      "secondaryCta": "Sundae Report आज़माएँ (निःशुल्क)",
       "topicsLabel": "विषय:",
       "quickStartTitle": "त्वरित प्रारंभ गाइड",
       "quickStartDescription": "चार सरल चरणों में Sundae के साथ शुरू करें",
@@ -900,7 +900,7 @@ export const generatedLocalCopy = {
           "title": "शुरुआत करना",
           "description": "Sundae में ऑनबोर्डिंग और अपने डेटा स्रोतों को कनेक्ट करना सीखें",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "अपना Sundae खाता बनाना",
             "अपने POS सिस्टम को कनेक्ट करना",
@@ -910,7 +910,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Using Sundae Report",
+          "title": "Sundae Report का उपयोग",
           "description": "नि:शुल्क बेंचमार्किंग और प्रदर्शन रिपोर्ट से अधिकतम लाभ प्राप्त करें",
           "icon": "benchmarking",
           "color": "bg-green-600",
@@ -923,10 +923,10 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Sundae Core Guide",
+          "title": "Sundae Core गाइड",
           "description": "प्राकृतिक भाषा प्रश्नों के साथ संवादात्मक व्यावसायिक बुद्धिमत्ता में महारत हासिल करें",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "साधारण अंग्रेजी में प्रश्न पूछना",
             "डैशबोर्ड और चार्ट का अन्वेषण करना",
@@ -952,7 +952,7 @@ export const generatedLocalCopy = {
           "title": "अंतर्दृष्टियाँ और डैशबोर्ड",
           "description": "हर टीम के लिए डैशबोर्ड बनाएं और अनुकूलित करें",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "कस्टम डैशबोर्ड बनाना",
             "विजेट और KPI कॉन्फ़िगर करना",
@@ -979,7 +979,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "डेटा स्रोत कनेक्ट करें",
-          "description": "अपने POS, पेरोल, इन्वेंटरी और बजट सिस्टम को Sundae Scout से लिंक करें",
+          "description": "अपने POS, पेरोल, इन्वेंटरी और बजट सिस्टम को Sundae Core से लिंक करें",
           "icon": "integration"
         },
         {
@@ -1025,7 +1025,7 @@ export const generatedLocalCopy = {
           "title": "Iniziare",
           "description": "Scopri come iniziare con Sundae e collegare le tue fonti di dati",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Creare il tuo account Sundae",
             "Collegare il tuo sistema POS",
@@ -1051,7 +1051,7 @@ export const generatedLocalCopy = {
           "title": "Guida a Sundae Core",
           "description": "Padroneggia l'intelligenza aziendale conversazionale con query in linguaggio naturale",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Porre domande in inglese semplice",
             "Esplorare dashboard e grafici",
@@ -1077,7 +1077,7 @@ export const generatedLocalCopy = {
           "title": "Intuizioni & Dashboard",
           "description": "Crea e personalizza dashboard per ogni team",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Creare dashboard personalizzate",
             "Configurare widget e KPI",
@@ -1104,7 +1104,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Collega le Fonti Dati",
-          "description": "Collega il tuo POS, buste paga, inventario e sistemi di budget a Sundae Scout",
+          "description": "Collega il tuo POS, buste paga, inventario e sistemi di budget a Sundae Core",
           "icon": "integration"
         },
         {
@@ -1150,7 +1150,7 @@ export const generatedLocalCopy = {
           "title": "入门指南",
           "description": "了解如何在Sundae上进行入驻并连接您的数据源",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "创建您的Sundae账户",
             "连接您的POS系统",
@@ -1160,7 +1160,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Using Sundae Report",
+          "title": "使用 Sundae Report",
           "description": "充分利用免费的基准和绩效报告",
           "icon": "benchmarking",
           "color": "bg-green-600",
@@ -1173,10 +1173,10 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Sundae Core Guide",
+          "title": "Sundae Core 指南",
           "description": "掌握自然语言查询的对话式商业智能",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "用简单英语提问",
             "探索仪表板和图表",
@@ -1202,7 +1202,7 @@ export const generatedLocalCopy = {
           "title": "洞察与仪表板",
           "description": "为每个团队构建和自定义仪表板",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "创建自定义仪表板",
             "配置小部件和KPI",
@@ -1229,7 +1229,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "连接数据源",
-          "description": "将您的POS、工资、库存和预算系统链接到Sundae Scout",
+          "description": "将您的POS、工资、库存和预算系统链接到Sundae Core",
           "icon": "integration"
         },
         {
@@ -1257,7 +1257,7 @@ export const generatedLocalCopy = {
       "title": "Bilmeniz Gereken Her Şey",
       "description": "Sundae'den en iyi şekilde yararlanmanıza yardımcı olacak kılavuzlar, API referansları ve en iyi uygulamalar.",
       "primaryCta": "Demo Rezervasyonu Yap",
-      "secondaryCta": "Try Sundae Report (Free)",
+      "secondaryCta": "Sundae Report'u Deneyin (Ücretsiz)",
       "topicsLabel": "Konu Başlıkları:",
       "quickStartTitle": "Hızlı Başlangıç Kılavuzu",
       "quickStartDescription": "Sundae ile dört basit adımda başlayın",
@@ -1275,7 +1275,7 @@ export const generatedLocalCopy = {
           "title": "Başlarken",
           "description": "Sundae'ye nasıl kaydolacağınızı ve veri kaynaklarınızı nasıl bağlayacağınızı öğrenin",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Sundae hesabınızı oluşturma",
             "POS sisteminizi bağlama",
@@ -1285,7 +1285,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Using Sundae Report",
+          "title": "Sundae Report'u Kullanma",
           "description": "Ücretsiz kıyaslama ve performans raporlarından en iyi şekilde yararlanın",
           "icon": "benchmarking",
           "color": "bg-green-600",
@@ -1299,9 +1299,9 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Sundae Core Kılavuzu",
-          "description": "Doğal dil sorguları ile konuşma tabanlı iş zekasını ustalaşın",
+          "description": "Doğal dil sorguları ile konuşma tabanlı iş zekasında ustalaşın",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Sade İngilizce ile soru sorma",
             "Gösterge panellerini ve grafiklerini keşfetme",
@@ -1327,7 +1327,7 @@ export const generatedLocalCopy = {
           "title": "İçgörüler & Gösterge Panelleri",
           "description": "Her ekip için gösterge panelleri oluşturun ve özelleştirin",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Özel gösterge panelleri oluşturma",
             "Widget'ları ve KPI'ları yapılandırma",
@@ -1354,7 +1354,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Veri Kaynaklarını Bağlayın",
-          "description": "Sundae Scout'a POS, bordro, envanter ve bütçe sistemlerinizi bağlayın",
+          "description": "Sundae Core'a POS, bordro, envanter ve bütçe sistemlerinizi bağlayın",
           "icon": "integration"
         },
         {
@@ -1400,7 +1400,7 @@ export const generatedLocalCopy = {
           "title": "Rozpoczęcie",
           "description": "Dowiedz się, jak rozpocząć korzystanie z Sundae i połączyć swoje źródła danych",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Tworzenie konta Sundae",
             "Łączenie systemu POS",
@@ -1426,7 +1426,7 @@ export const generatedLocalCopy = {
           "title": "Przewodnik po Sundae Core",
           "description": "Opanuj konwersacyjną inteligencję biznesową za pomocą zapytań w naturalnym języku",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Zadawanie pytań w prostym angielskim",
             "Eksplorowanie pulpitów nawigacyjnych i wykresów",
@@ -1452,7 +1452,7 @@ export const generatedLocalCopy = {
           "title": "Spostrzeżenia i Pulpity nawigacyjne",
           "description": "Twórz i dostosowuj pulpity nawigacyjne dla każdego zespołu",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Tworzenie niestandardowych pulpitów nawigacyjnych",
             "Konfigurowanie widgetów i KPI",
@@ -1479,7 +1479,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Połącz Źródła Danych",
-          "description": "Połącz swoje systemy POS, płac, zapasów i budżetu z Sundae Scout",
+          "description": "Połącz swoje systemy POS, płac, zapasów i budżetu z Sundae Core",
           "icon": "integration"
         },
         {
@@ -1525,7 +1525,7 @@ export const generatedLocalCopy = {
           "title": "はじめに",
           "description": "Sundaeへのオンボーディングとデータソースの接続方法を学ぶ",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Sundaeアカウントの作成",
             "POSシステムの接続",
@@ -1551,7 +1551,7 @@ export const generatedLocalCopy = {
           "title": "Sundae Coreガイド",
           "description": "自然言語クエリで会話型ビジネスインテリジェンスをマスターする",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "平易な英語で質問する",
             "ダッシュボードとチャートの探索",
@@ -1577,7 +1577,7 @@ export const generatedLocalCopy = {
           "title": "インサイトとダッシュボード",
           "description": "すべてのチームのためにダッシュボードを構築およびカスタマイズする",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "カスタムダッシュボードの作成",
             "ウィジェットとKPIの設定",
@@ -1604,7 +1604,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "データソースを接続",
-          "description": "Sundae ScoutにPOS、給与、在庫、予算システムをリンクします",
+          "description": "Sundae CoreにPOS、給与、在庫、予算システムをリンクします",
           "icon": "integration"
         },
         {
@@ -1650,7 +1650,7 @@ export const generatedLocalCopy = {
           "title": "Memulai",
           "description": "Pelajari cara mendaftar ke Sundae dan menghubungkan sumber data Anda",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Membuat akun Sundae Anda",
             "Menghubungkan sistem POS Anda",
@@ -1674,9 +1674,9 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Panduan Sundae Core",
-          "description": "Kuasi kecerdasan bisnis percakapan dengan kueri bahasa alami",
+          "description": "Kuasai kecerdasan bisnis percakapan dengan kueri bahasa alami",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Mengajukan pertanyaan dalam bahasa Inggris biasa",
             "Menjelajahi dasbor dan grafik",
@@ -1702,7 +1702,7 @@ export const generatedLocalCopy = {
           "title": "Wawasan & Dasbor",
           "description": "Membangun dan menyesuaikan dasbor untuk setiap tim",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Membuat dasbor kustom",
             "Mengonfigurasi widget dan KPI",
@@ -1729,7 +1729,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Sambungkan Sumber Data",
-          "description": "Hubungkan sistem POS, penggajian, inventaris, dan anggaran Anda ke Sundae Scout",
+          "description": "Hubungkan sistem POS, penggajian, inventaris, dan anggaran Anda ke Sundae Core",
           "icon": "integration"
         },
         {
@@ -1775,7 +1775,7 @@ export const generatedLocalCopy = {
           "title": "시작하기",
           "description": "Sundae에 온보딩하고 데이터 소스를 연결하는 방법을 배우세요",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Sundae 계정 만들기",
             "POS 시스템 연결하기",
@@ -1801,7 +1801,7 @@ export const generatedLocalCopy = {
           "title": "Sundae Core 가이드",
           "description": "자연어 쿼리로 대화형 비즈니스 인텔리전스를 마스터하세요",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "일반 영어로 질문하기",
             "대시보드 및 차트 탐색하기",
@@ -1827,7 +1827,7 @@ export const generatedLocalCopy = {
           "title": "인사이트 & 대시보드",
           "description": "모든 팀을 위한 대시보드 구축 및 사용자 정의하기",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "맞춤형 대시보드 만들기",
             "위젯 및 KPI 구성하기",
@@ -1854,7 +1854,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "데이터 소스 연결",
-          "description": "Sundae Scout에 POS, 급여, 재고 및 예산 시스템을 연결하세요.",
+          "description": "Sundae Core에 POS, 급여, 재고 및 예산 시스템을 연결하세요.",
           "icon": "integration"
         },
         {
@@ -1900,7 +1900,7 @@ export const generatedLocalCopy = {
           "title": "Bắt đầu",
           "description": "Tìm hiểu cách khởi tạo Sundae và kết nối các nguồn dữ liệu của bạn",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Tạo tài khoản Sundae của bạn",
             "Kết nối hệ thống POS của bạn",
@@ -1926,7 +1926,7 @@ export const generatedLocalCopy = {
           "title": "Hướng dẫn Sundae Core",
           "description": "Làm chủ trí tuệ kinh doanh hội thoại với các truy vấn ngôn ngữ tự nhiên",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Đặt câu hỏi bằng tiếng Anh đơn giản",
             "Khám phá bảng điều khiển và biểu đồ",
@@ -1952,7 +1952,7 @@ export const generatedLocalCopy = {
           "title": "Thông tin & Bảng điều khiển",
           "description": "Xây dựng và tùy chỉnh bảng điều khiển cho mọi đội nhóm",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Tạo bảng điều khiển tùy chỉnh",
             "Cấu hình widget và KPI",
@@ -1979,7 +1979,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Kết Nối Nguồn Dữ Liệu",
-          "description": "Liên kết hệ thống POS, bảng lương, tồn kho và ngân sách của bạn với Sundae Scout",
+          "description": "Liên kết hệ thống POS, bảng lương, tồn kho và ngân sách của bạn với Sundae Core",
           "icon": "integration"
         },
         {
@@ -2025,7 +2025,7 @@ export const generatedLocalCopy = {
           "title": "Începere",
           "description": "Învățați cum să vă integrați în Sundae și să conectați sursele de date",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Crearea contului dvs. Sundae",
             "Conectarea sistemului dvs. POS",
@@ -2051,7 +2051,7 @@ export const generatedLocalCopy = {
           "title": "Ghidul Sundae Core",
           "description": "Stăpâniți inteligența de afaceri conversațională cu întrebări în limbaj natural",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Puneți întrebări în engleză simplă",
             "Explorarea tablourilor de bord și graficelor",
@@ -2077,7 +2077,7 @@ export const generatedLocalCopy = {
           "title": "Informații & Tablouri de bord",
           "description": "Construiți și personalizați tablouri de bord pentru fiecare echipă",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Crearea tablourilor de bord personalizate",
             "Configurarea widget-urilor și KPI-urilor",
@@ -2104,7 +2104,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Conectează Sursele de Date",
-          "description": "Leagă-ți sistemele POS, de salarii, de inventar și de buget la Sundae Scout",
+          "description": "Leagă-ți sistemele POS, de salarii, de inventar și de buget la Sundae Core",
           "icon": "integration"
         },
         {
@@ -2116,7 +2116,7 @@ export const generatedLocalCopy = {
         {
           "step": "3",
           "title": "Pune Întrebări",
-          "description": "Folosește Sundae Core pentru a interoga datele tale în limba română și obține răspunsuri instantanee",
+          "description": "Folosește Sundae Core pentru a interoga datele tale în engleză simplă și obține răspunsuri instantanee",
           "icon": "intelligence"
         },
         {
@@ -2150,7 +2150,7 @@ export const generatedLocalCopy = {
           "title": "Kom igång",
           "description": "Lär dig hur du onboardar till Sundae och kopplar dina datakällor",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Skapa ditt Sundae-konto",
             "Ansluta ditt POS-system",
@@ -2173,10 +2173,10 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Sundae Core Guide",
+          "title": "Sundae Core-guide",
           "description": "Behärska konverserande affärsintelligens med naturliga språkfrågor",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Ställa frågor på enkel engelska",
             "Utforska instrumentpaneler och diagram",
@@ -2202,7 +2202,7 @@ export const generatedLocalCopy = {
           "title": "Insikter & Instrumentpaneler",
           "description": "Bygg och anpassa instrumentpaneler för varje team",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Skapa anpassade instrumentpaneler",
             "Konfigurera widgets och KPI:er",
@@ -2229,7 +2229,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Anslut datakällor",
-          "description": "Koppla din POS, löne-, lager- och budgetsystem till Sundae Scout",
+          "description": "Koppla din POS, löne-, lager- och budgetsystem till Sundae Core",
           "icon": "integration"
         },
         {
@@ -2275,7 +2275,7 @@ export const generatedLocalCopy = {
           "title": "เริ่มต้นใช้งาน",
           "description": "เรียนรู้วิธีการเริ่มต้นใช้งาน Sundae และเชื่อมต่อแหล่งข้อมูลของคุณ",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "สร้างบัญชี Sundae ของคุณ",
             "เชื่อมต่อระบบ POS ของคุณ",
@@ -2301,7 +2301,7 @@ export const generatedLocalCopy = {
           "title": "คู่มือ Sundae Core",
           "description": "เชี่ยวชาญการวิเคราะห์ธุรกิจด้วยการตั้งคำถามด้วยภาษาธรรมชาติ",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "ตั้งคำถามเป็นภาษาอังกฤษธรรมดา",
             "สำรวจแดชบอร์ดและกราฟ",
@@ -2327,7 +2327,7 @@ export const generatedLocalCopy = {
           "title": "ข้อมูลเชิงลึก & แดชบอร์ด",
           "description": "สร้างและปรับแต่งแดชบอร์ดสำหรับทุกทีม",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "สร้างแดชบอร์ดที่กำหนดเอง",
             "กำหนดค่าวิดเจ็ตและ KPI",
@@ -2354,7 +2354,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "เชื่อมต่อแหล่งข้อมูล",
-          "description": "เชื่อมโยงระบบ POS, เงินเดือน, สต็อกสินค้า และงบประมาณของคุณกับ Sundae Scout",
+          "description": "เชื่อมโยงระบบ POS, เงินเดือน, สต็อกสินค้า และงบประมาณของคุณกับ Sundae Core",
           "icon": "integration"
         },
         {
@@ -2382,10 +2382,10 @@ export const generatedLocalCopy = {
       "title": "আপনার জানা দরকার সবকিছু",
       "description": "গাইড, API রেফারেন্স এবং সেরা অনুশীলনগুলি আপনাকে Sundae থেকে সর্বাধিক সুবিধা নিতে সহায়তা করবে।",
       "primaryCta": "ডেমো বুক করুন",
-      "secondaryCta": "Try Sundae Report (Free)",
+      "secondaryCta": "Sundae Report চেষ্টা করুন (বিনামূল্যে)",
       "topicsLabel": "বিষয়সমূহ:",
       "quickStartTitle": "দ্রুত শুরু গাইড",
-      "quickStartDescription": "Get up and running with Sundae in four simple steps",
+      "quickStartDescription": "চারটি সহজ ধাপে Sundae দিয়ে শুরু করুন",
       "stepLabel": "ধাপ",
       "comingSoonTitle": "আরও ডকুমেন্টেশন শীঘ্রই আসছে",
       "comingSoonDescription": "আমরা আমাদের ডকুমেন্টেশন ক্রমাগত সম্প্রসারিত করছি। API রেফারেন্স, ভিডিও টিউটোরিয়াল এবং উন্নত গাইডের জন্য শীঘ্রই আবার দেখুন।",
@@ -2400,7 +2400,7 @@ export const generatedLocalCopy = {
           "title": "শুরু করা",
           "description": "Sundae-এ অনবোর্ডিং এবং আপনার ডেটা সোর্সগুলি সংযুক্ত করার উপায় শিখুন",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "আপনার Sundae অ্যাকাউন্ট তৈরি করা",
             "আপনার POS সিস্টেম সংযুক্ত করা",
@@ -2410,7 +2410,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Using Sundae Report",
+          "title": "Sundae Report ব্যবহার করা",
           "description": "ফ্রি বেঞ্চমার্কিং এবং পারফরম্যান্স রিপোর্ট থেকে সর্বাধিক সুবিধা নিন",
           "icon": "benchmarking",
           "color": "bg-green-600",
@@ -2423,10 +2423,10 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Sundae Core Guide",
+          "title": "Sundae Core গাইড",
           "description": "প্রাকৃতিক ভাষার প্রশ্নের মাধ্যমে কথোপকথনমূলক ব্যবসায়িক বুদ্ধিমত্তা মাস্টার করুন",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "সাধারণ ইংরেজিতে প্রশ্ন করা",
             "ড্যাশবোর্ড এবং চার্ট অনুসন্ধান করা",
@@ -2452,7 +2452,7 @@ export const generatedLocalCopy = {
           "title": "অন্তর্দৃষ্টি ও ড্যাশবোর্ড",
           "description": "প্রতিটি দলের জন্য ড্যাশবোর্ড তৈরি এবং কাস্টমাইজ করুন",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "কাস্টম ড্যাশবোর্ড তৈরি করা",
             "উইজেট এবং KPI কনফিগার করা",
@@ -2479,7 +2479,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "ডেটা সোর্স সংযুক্ত করুন",
-          "description": "আপনার POS, পে-রোল, ইনভেন্টরি এবং বাজেট সিস্টেমগুলোকে Sundae Scout-এর সাথে সংযুক্ত করুন",
+          "description": "আপনার POS, পে-রোল, ইনভেন্টরি এবং বাজেট সিস্টেমগুলোকে Sundae Core-এর সাথে সংযুক্ত করুন",
           "icon": "integration"
         },
         {
@@ -2519,13 +2519,13 @@ export const generatedLocalCopy = {
       "supportTitle": "Perlu Bantuan?",
       "supportDescription": "Pasukan kami di sini untuk membantu anda mendapatkan yang terbaik daripada Sundae.",
       "supportCta": "Hubungi Sokongan",
-      "trainingCta": "Jadwalkan Latihan",
+      "trainingCta": "Jadualkan Latihan",
       "sections": [
         {
           "title": "Memulakan",
           "description": "Ketahui cara untuk mendaftar ke Sundae dan menyambungkan sumber data anda",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Membuat akaun Sundae anda",
             "Menyambungkan sistem POS anda",
@@ -2549,9 +2549,9 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Panduan Sundae Core",
-          "description": "Kuasi kecerdasan perniagaan perbualan dengan pertanyaan bahasa semula jadi",
+          "description": "Kuasai kecerdasan perniagaan perbualan dengan pertanyaan bahasa semula jadi",
           "icon": "intelligence",
-          "color": "bg-purple-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Mengajukan soalan dalam bahasa Inggeris biasa",
             "Meneroka papan pemuka dan carta",
@@ -2577,7 +2577,7 @@ export const generatedLocalCopy = {
           "title": "Pandangan & Papan Pemuka",
           "description": "Bina dan sesuaikan papan pemuka untuk setiap pasukan",
           "icon": "chart",
-          "color": "bg-indigo-600",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Membuat papan pemuka tersuai",
             "Mengkonfigurasi widget dan KPI",
@@ -2604,7 +2604,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Sambungkan Sumber Data",
-          "description": "Sambungkan POS, gaji, inventori, dan sistem bajet anda ke Sundae Scout",
+          "description": "Sambungkan POS, gaji, inventori, dan sistem bajet anda ke Sundae Core",
           "icon": "integration"
         },
         {

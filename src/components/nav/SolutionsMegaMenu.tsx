@@ -84,7 +84,7 @@ export function SolutionsMegaMenu({
         </div>
       </div>
 
-      {/* Footer — Compare Plans + Free Benchmark */}
+      {/* Footer - Compare Plans + Free Benchmark */}
       <div className="mt-6 pt-5 border-t border-[var(--border-default)] flex flex-wrap items-center justify-between gap-x-6 gap-y-3">
         <Link
           href={localizeHref("/report-vs-core")}

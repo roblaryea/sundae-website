@@ -9,6 +9,8 @@ import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_insights_page'
+import { CreamBreak } from '@/components/ui/CreamBreak';
+import { insightsCreamCopy } from './insightsCreamCopy';
 
 const localizedInsightsUi = {
   en: {
@@ -188,7 +190,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
         "Overtime early warnings"
       ],
       category: "Core Operations",
-      color: "from-blue-500 to-blue-600"
+      color: "from-[#FF7E6F] to-[#FF5C4D]"
     },
     {
       name: "Inventory Intelligence",
@@ -203,7 +205,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
         "Inventory turn optimization"
       ],
       category: "Core Operations",
-      color: "from-purple-500 to-purple-600"
+      color: "from-[#F2B45C] to-[#C2410C]"
     },
     {
       name: "Purchasing Intelligence",
@@ -287,7 +289,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
         "Delivery menu optimization"
       ],
       category: "Channel",
-      color: "from-indigo-500 to-indigo-600"
+      color: "from-[#FF6B5B] to-[#E03E48]"
     },
     {
       name: "Guest Experience",
@@ -301,7 +303,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
         "Guest satisfaction scoring"
       ],
       category: "Insight",
-      color: "from-pink-500 to-pink-600"
+      color: "from-[#FF8473] to-[#FF5C4D]"
     },
     {
       name: "Guest CRM Intelligence",
@@ -329,7 +331,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
         "Multi-module health scoring"
       ],
       category: "Platform",
-      color: "from-cyan-500 to-cyan-600"
+      color: "from-[#F2C078] to-[#E9A24A]"
     }
   ],
   ar: [
@@ -349,7 +351,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "حوّل العمالة من أكبر تكلفة إلى أصل أكثر كفاءة مع توصيات الجدولة والتنبؤ بالطلب المدعومة بالذكاء الاصطناعي.",
       capabilities: ["جداول موصى بها بالذكاء الاصطناعي", "تتبع تكلفة العمالة لحظياً", "توقع الطلب لـ 14 إلى 30 يوماً", "تحليل أداء الورديات", "إنذارات مبكرة للعمل الإضافي"],
       category: "العمليات الأساسية",
-      color: "from-blue-500 to-blue-600"
+      color: "from-[#FF7E6F] to-[#FF5C4D]"
     },
     {
       name: "ذكاء المخزون",
@@ -358,7 +360,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "حوّل إدارة المخزون من عبء يومي إلى نظام محسّن عبر التتبع اللحظي والتوصيات الآلية.",
       capabilities: ["تتبع الهدر لحظياً", "تعديل تلقائي لمستويات الحد", "تسعير الوصفات", "مراقبة أداء الموردين", "تحسين دوران المخزون"],
       category: "العمليات الأساسية",
-      color: "from-purple-500 to-purple-600"
+      color: "from-[#F2B45C] to-[#C2410C]"
     },
     {
       name: "ذكاء المشتريات",
@@ -412,7 +414,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "افهم اقتصاديات التوصيل الحقيقية عبر المنصات وتتبّع العمولات وربحية القنوات وحسّن مزيج التوصيل.",
       capabilities: ["تتبع التكلفة لكل منصة", "مقارنة ربحية القنوات", "تحليل أثر العمولات", "تحسين قائمة التوصيل"],
       category: "القنوات",
-      color: "from-indigo-500 to-indigo-600"
+      color: "from-[#FF6B5B] to-[#E03E48]"
     },
     {
       name: "تجربة الضيف",
@@ -421,7 +423,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "اجمع آراء الضيوف من التقييمات والاستبيانات والذكر الاجتماعي في رؤية موحدة للمشاعر مع اكتشاف الاتجاهات بالذكاء الاصطناعي.",
       capabilities: ["تجميع التقييمات من مصادر متعددة", "تحليل المشاعر بالذكاء الاصطناعي", "تتبع اتجاهات الجودة", "تقييم رضا الضيوف"],
       category: "الرؤى",
-      color: "from-pink-500 to-pink-600"
+      color: "from-[#FF8473] to-[#FF5C4D]"
     },
     {
       name: "ذكاء CRM للضيوف",
@@ -439,7 +441,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "يكشف تلقائياً الارتباطات المخفية بين الوحدات النشطة مثل العمالة والإيرادات أو المخزون والهدر أو التسويق والزيارات.",
       capabilities: ["تحليل الارتباطات بين المجالات", "إظهار الرؤى تلقائياً", "كشف الإسناد والتآكل", "تقييم صحة متعدد الوحدات"],
       category: "المنصة",
-      color: "from-cyan-500 to-cyan-600"
+      color: "from-[#F2C078] to-[#E9A24A]"
     }
   ],
   fr: [
@@ -459,7 +461,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "Transformez la main-d oeuvre, souvent votre plus grand cout, en un levier optimise grace aux recommandations IA.",
       capabilities: ["Plannings recommandes par IA", "Suivi du cout main-d oeuvre en temps reel", "Prevision de la demande sur 14 a 30 jours", "Analyse de performance par shift", "Alertes precoces sur les heures sup"],
       category: "Operations coeur",
-      color: "from-blue-500 to-blue-600"
+      color: "from-[#FF7E6F] to-[#FF5C4D]"
     },
     {
       name: "Intelligence stock",
@@ -468,7 +470,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "Faites passer la gestion des stocks d'un casse-tete quotidien a un systeme optimise avec suivi temps reel et recommandations automatiques.",
       capabilities: ["Suivi du gaspillage en temps reel", "Ajustement automatique des niveaux", "Cout recette par recette", "Suivi de performance fournisseur", "Optimisation de la rotation"],
       category: "Operations coeur",
-      color: "from-purple-500 to-purple-600"
+      color: "from-[#F2B45C] to-[#C2410C]"
     },
     {
       name: "Intelligence achats",
@@ -522,7 +524,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "Comprenez l'economie reelle de la livraison selon les plateformes et optimisez votre mix.",
       capabilities: ["Suivi des couts par plateforme", "Comparaison de rentabilite des canaux", "Analyse de l'impact des commissions", "Optimisation du menu livraison"],
       category: "Canal",
-      color: "from-indigo-500 to-indigo-600"
+      color: "from-[#FF6B5B] to-[#E03E48]"
     },
     {
       name: "Experience client",
@@ -531,7 +533,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "Agregez avis, sondages et signaux sociaux dans une vue unifiee du sentiment avec detection de tendances par IA.",
       capabilities: ["Aggregation multi-source des avis", "Analyse de sentiment par IA", "Suivi des tendances qualite", "Score de satisfaction client"],
       category: "Insight",
-      color: "from-pink-500 to-pink-600"
+      color: "from-[#FF8473] to-[#FF5C4D]"
     },
     {
       name: "Intelligence CRM client",
@@ -549,7 +551,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "Fait ressortir automatiquement les correlations cachees entre modules actifs comme la main-d'oeuvre et le revenu ou le stock et le gaspillage.",
       capabilities: ["Analyse de correlation inter-domaines", "Remontee automatique des insights", "Detection d'attribution et de cannibalisation", "Score de sante multi-modules"],
       category: "Plateforme",
-      color: "from-cyan-500 to-cyan-600"
+      color: "from-[#F2C078] to-[#E9A24A]"
     }
   ],
   es: [
@@ -569,7 +571,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "Convierte la mano de obra en un activo optimizado con recomendaciones de horarios y pronostico de demanda con IA.",
       capabilities: ["Horarios recomendados por IA", "Seguimiento del coste laboral en tiempo real", "Pronostico de demanda de 14 a 30 dias", "Analisis de rendimiento por turno", "Alertas tempranas de horas extra"],
       category: "Operaciones clave",
-      color: "from-blue-500 to-blue-600"
+      color: "from-[#FF7E6F] to-[#FF5C4D]"
     },
     {
       name: "Inteligencia de inventario",
@@ -578,7 +580,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "Convierte la gestion diaria de inventario en un sistema optimizado con seguimiento en tiempo real y recomendaciones automaticas.",
       capabilities: ["Seguimiento de mermas en tiempo real", "Ajustes automaticos de niveles", "Costeo por receta", "Monitoreo de proveedores", "Optimizacion de rotacion"],
       category: "Operaciones clave",
-      color: "from-purple-500 to-purple-600"
+      color: "from-[#F2B45C] to-[#C2410C]"
     },
     {
       name: "Inteligencia de compras",
@@ -632,7 +634,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "Entiende la economia real del delivery entre plataformas y optimiza tu mezcla de canales.",
       capabilities: ["Seguimiento de costes por plataforma", "Comparacion de rentabilidad por canal", "Analisis del impacto de comisiones", "Optimizacion del menu delivery"],
       category: "Canal",
-      color: "from-indigo-500 to-indigo-600"
+      color: "from-[#FF6B5B] to-[#E03E48]"
     },
     {
       name: "Experiencia del cliente",
@@ -641,7 +643,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "Agrupa reseñas, encuestas y señales sociales en una vista unificada del sentimiento con deteccion de tendencias por IA.",
       capabilities: ["Agregacion de reseñas multifuente", "Analisis de sentimiento con IA", "Seguimiento de calidad del servicio", "Puntuacion de satisfaccion"],
       category: "Insight",
-      color: "from-pink-500 to-pink-600"
+      color: "from-[#FF8473] to-[#FF5C4D]"
     },
     {
       name: "Inteligencia CRM de clientes",
@@ -659,7 +661,7 @@ const localizedModulesCopy: Record<'en' | 'ar' | 'fr' | 'es', InsightModuleCard[
       description: "Saca automaticamente correlaciones ocultas entre modulos activos como mano de obra e ingresos o inventario y merma.",
       capabilities: ["Analisis de correlacion entre dominios", "Deteccion automatica de insights", "Atribucion y deteccion de canibalizacion", "Puntuacion de salud multi-modulo"],
       category: "Plataforma",
-      color: "from-cyan-500 to-cyan-600"
+      color: "from-[#F2C078] to-[#E9A24A]"
     }
   ]
 };
@@ -668,6 +670,7 @@ export default function InsightsPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
   const ui = localizedInsightsUi[locale as keyof typeof localizedInsightsUi] ?? getGeneratedLocalCopy(localizedInsightsUi, generatedLocalCopy.localizedInsightsUi, locale) ?? localizedInsightsUi.en;
+  const cream = insightsCreamCopy[locale as keyof typeof insightsCreamCopy] ?? insightsCreamCopy.en;
   const modules = localizedModulesCopy[locale as keyof typeof localizedModulesCopy] ?? getGeneratedLocalCopy(localizedModulesCopy, generatedLocalCopy.localizedModulesCopy, locale) ?? localizedModulesCopy.en;
 
   const whoItsFor: { icon: SundaeIconName; title: string; description: string }[] = [
@@ -762,8 +765,8 @@ export default function InsightsPage() {
                   transition={{ duration: 0.3, delay: 0.6 + (index * 0.05) }}
                   className="bg-[var(--navy-deep)] rounded-xl p-3 text-center border border-[var(--border-default)] hover:border-white/[0.1] transition-colors"
                 >
-                  <div className="w-9 h-9 mx-auto mb-1.5 bg-slate-900 rounded-lg flex items-center justify-center">
-                    <SundaeIcon name={item.icon} size="sm" className="text-[var(--text-primary)]" />
+                  <div className="w-9 h-9 mx-auto mb-1.5 bg-[#FF5C4D]/10 rounded-lg flex items-center justify-center">
+                    <SundaeIcon name={item.icon} size="sm" className="text-[#FF5C4D]" />
                   </div>
                   <p className="text-[11px] font-medium text-[var(--text-supporting)]">{item.label}</p>
                 </motion.div>
@@ -796,8 +799,8 @@ export default function InsightsPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {whoItsFor.map((persona, index) => (
               <div key={index} className="text-center p-6 rounded-2xl bg-[var(--surface-faint)] border border-[var(--border-default)]">
-                <div className="w-11 h-11 mx-auto mb-3 bg-slate-900 rounded-lg flex items-center justify-center">
-                  <SundaeIcon name={persona.icon} size="md" className="text-[var(--text-primary)]" />
+                <div className="w-11 h-11 mx-auto mb-3 bg-[#FF5C4D]/10 rounded-lg flex items-center justify-center">
+                  <SundaeIcon name={persona.icon} size="md" className="text-[#FF5C4D]" />
                 </div>
                 <h3 className="font-semibold text-[var(--text-primary)] mb-2">{persona.title}</h3>
                 <p className="text-sm text-[var(--text-supporting)]">{persona.description}</p>
@@ -806,6 +809,9 @@ export default function InsightsPage() {
           </div>
         </div>
       </section>
+
+      {/* Cream relief - early warm break BEFORE the long module grid (the volume system) */}
+      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
 
       {/* Intelligence Modules Grid */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
@@ -830,8 +836,8 @@ export default function InsightsPage() {
                 className="h-full bg-[var(--navy-deep)] rounded-2xl border border-[var(--border-default)] p-6 hover:border-white/[0.1] transition-colors"
               >
                 <div className="flex items-start justify-between mb-4">
-                  <div className="w-10 h-10 bg-slate-900 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <SundaeIcon name={module.icon} size="md" className="text-[var(--text-primary)]" />
+                  <div className="w-10 h-10 bg-[#FF5C4D]/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <SundaeIcon name={module.icon} size="md" className="text-[#FF5C4D]" />
                   </div>
                   <span className="px-2 py-0.5 text-[10px] font-semibold rounded-full bg-[var(--surface-subtle)] text-[var(--text-supporting)] uppercase tracking-wide">
                     {module.category}
@@ -856,14 +862,15 @@ export default function InsightsPage() {
         </div>
       </section>
 
-      {/* How It Works */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
-        <div className="max-w-5xl mx-auto">
+      {/* How It Works - cream relief zone (second light break, after the module grid) */}
+      <section className="relative overflow-hidden py-24 px-4 sm:px-6 lg:px-8" style={{ background: 'var(--cream)', color: 'var(--ink)' }}>
+        <div aria-hidden className="absolute inset-0" style={{ background: 'radial-gradient(ellipse 55% 45% at 50% 22%, rgba(233,162,74,0.16) 0%, transparent 65%)' }} />
+        <div className="relative z-10 max-w-5xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="section-h2 text-[var(--text-primary)] mb-4">
+            <h2 className="section-h2 mb-4" style={{ color: 'var(--ink)' }}>
               {ui.howTitle}
             </h2>
-            <p className="body-lg text-[var(--text-supporting)] max-w-3xl mx-auto">
+            <p className="body-lg max-w-3xl mx-auto" style={{ color: 'var(--ink-soft, rgba(26,20,15,0.64))' }}>
               {ui.howDescription}
             </p>
           </div>
@@ -871,11 +878,11 @@ export default function InsightsPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {howItWorks.map((step, index) => (
               <div key={index} className="text-center">
-                <div className="w-12 h-12 bg-[var(--surface-subtle)] rounded-full flex items-center justify-center text-[var(--text-supporting)] text-lg font-bold mx-auto mb-4">
+                <div className="w-12 h-12 rounded-full flex items-center justify-center text-lg font-bold mx-auto mb-4" style={{ background: 'rgba(255,92,77,0.12)', color: 'var(--warm-cherry)' }}>
                   {step.step}
                 </div>
-                <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">{step.title}</h3>
-                <p className="text-sm text-[var(--text-supporting)]">{step.description}</p>
+                <h3 className="text-lg font-semibold mb-2" style={{ color: 'var(--ink)' }}>{step.title}</h3>
+                <p className="text-sm" style={{ color: 'var(--ink-soft, rgba(26,20,15,0.64))' }}>{step.description}</p>
               </div>
             ))}
           </div>
@@ -898,8 +905,8 @@ export default function InsightsPage() {
             <div className="space-y-3">
               {ui.fitItems.map((item, index) => (
                 <div key={item.name} className="flex items-center gap-4 p-4 bg-[var(--navy-deep)] rounded-xl border border-[var(--border-default)]">
-                  <div className="w-10 h-10 bg-slate-900 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <SundaeIcon name={index === 0 ? "pulse" : index === 1 ? "watchtower" : "insights"} size="md" className="text-[var(--text-primary)]" />
+                  <div className="w-10 h-10 bg-[#FF5C4D]/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <SundaeIcon name={index === 0 ? "pulse" : index === 1 ? "watchtower" : "insights"} size="md" className="text-[#FF5C4D]" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-[var(--text-primary)] text-sm">{item.name}</h4>
@@ -912,7 +919,7 @@ export default function InsightsPage() {
         </div>
       </section>
 
-      {/* Product gallery — Insights surfaces in detail */}
+      {/* Product gallery - Insights surfaces in detail */}
       <SectionProductGallery
         productFilter="/insights"
         hideFilter
@@ -923,9 +930,10 @@ export default function InsightsPage() {
         }}
       />
 
-      {/* CTA Band */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)] text-[var(--text-primary)]">
-        <div className="max-w-4xl mx-auto text-center">
+      {/* CTA Band - warm closer (matches the shared PageCTA scheme) */}
+      <section className="relative overflow-hidden bg-grad-deep py-24 px-4 sm:px-6 lg:px-8 text-[var(--text-primary)]">
+        <div aria-hidden className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,92,77,0.08),transparent_70%)]" />
+        <div className="relative z-10 max-w-4xl mx-auto text-center">
           <h2 className="section-h2 mb-6">
             {ui.ctaTitle}
           </h2>
@@ -934,9 +942,8 @@ export default function InsightsPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
-              variant="primary"
+              variant="cta"
               size="lg"
-              className="bg-[var(--navy-deep)] text-[var(--text-primary)] hover:bg-[var(--surface-subtle)]"
               onClick={() => cta("/demo", "book_demo_insights_cta", { page: "/insights" })}
             >
               {ui.ctaDemo}

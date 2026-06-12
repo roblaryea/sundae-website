@@ -1153,7 +1153,7 @@ export const generatedLocalCopy = {
           "button": "Buka Alat"
         },
         {
-          "title": "Analyzer Varians Tenaga Kerja",
+          "title": "Penganalisis Varians Tenaga Kerja",
           "description": "Bandingkan biaya tenaga kerja aktual dengan target dan dapatkan wawasan yang dapat ditindaklanjuti tentang varians.",
           "icon": "performance",
           "href": "/tools/upsell-opportunity-index",

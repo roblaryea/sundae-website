@@ -24,7 +24,7 @@ type PersonaStructure = {
 const groupStructure: { personas: PersonaStructure[] }[] = [
   {
     personas: [
-      { slug: "c-suite-executives", icon: "owners", accent: "from-[#1C47FF] to-[#3B82F6]" },
+      { slug: "c-suite-executives", icon: "owners", accent: "from-[#FF5C4D] to-[#E9A24A]" },
       { slug: "finance-teams", icon: "finance", accent: "from-[#0EA5E9] to-[#0284C7]" },
       { slug: "multi-location-groups", icon: "benchmarking", accent: "from-[#6366F1] to-[#4F46E5]" },
     ],
@@ -39,7 +39,7 @@ const groupStructure: { personas: PersonaStructure[] }[] = [
   {
     personas: [
       { slug: "marketing-teams", icon: "marketing", accent: "from-[#EC4899] to-[#BE185D]" },
-      { slug: "technology-teams", icon: "data", accent: "from-[#0EA5E9] to-[#3B82F6]" },
+      { slug: "technology-teams", icon: "data", accent: "from-[#0EA5E9] to-[#FF7E6F]" },
     ],
   },
   {
@@ -82,7 +82,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
     badge: "SOLUTIONS · BY ROLE",
     titleLine1: "One platform.",
     titleLine2: "Every role you run.",
-    description: "Decision intelligence built around the person reading it — from the executive office to the floor.",
+    description: "Decision intelligence built around the person reading it - from the executive office to the floor.",
     nowShowingPrefix: "Now showing:",
     primaryCta: "Book a Working Session",
     secondaryCta: "Start with Report Lite",
@@ -114,7 +114,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
         personas: [
           { title: "Regional & Area Managers", tagline: "Run twelve outlets like you're standing in one. Pacing flags the site that needs you now." },
           { title: "HR & People", tagline: "Live labor variance. OT risk flagged before it lands. Schedules built from demand." },
-          { title: "Hospitality Operators", tagline: "Every F&B outlet — restaurant, banquet, IRD, lobby — in one unified live view." },
+          { title: "Hospitality Operators", tagline: "Every F&B outlet - restaurant, banquet, IRD, lobby - in one unified live view." },
         ],
       },
       {
@@ -143,7 +143,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
     badge: "الحلول · حسب الدور",
     titleLine1: "منصة واحدة.",
     titleLine2: "لكل دور تديره.",
-    description: "ذكاء القرار مصمم حول الشخص الذي يقرأه — من المكتب التنفيذي إلى الموقع.",
+    description: "ذكاء القرار مصمم حول الشخص الذي يقرأه - من المكتب التنفيذي إلى الموقع.",
     nowShowingPrefix: "نعرض الآن:",
     primaryCta: "احجز جلسة عمل",
     secondaryCta: "ابدأ بـ Report Lite",
@@ -175,7 +175,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
         personas: [
           { title: "المدراء الإقليميون", tagline: "أدر اثني عشر موقعاً وكأنك في واحد. الوتيرة تنبه للموقع الذي يحتاجك الآن." },
           { title: "الموارد البشرية", tagline: "تباين عمالة حي. خطر OT يُكتشف قبل تسجيله. جداول مبنية من الطلب." },
-          { title: "مشغّلو الضيافة", tagline: "كل منفذ F&B — مطعم، بانكيت، خدمة غرف، لوبي — في عرض حي موحد." },
+          { title: "مشغّلو الضيافة", tagline: "كل منفذ F&B - مطعم، بانكيت، خدمة غرف، لوبي - في عرض حي موحد." },
         ],
       },
       {
@@ -204,7 +204,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
     badge: "SOLUTIONS · PAR RÔLE",
     titleLine1: "Une plateforme.",
     titleLine2: "Chaque rôle que vous pilotez.",
-    description: "L'intelligence décisionnelle pensée pour la personne qui la lit — du bureau exécutif jusqu'à la salle.",
+    description: "L'intelligence décisionnelle pensée pour la personne qui la lit - du bureau exécutif jusqu'à la salle.",
     nowShowingPrefix: "Affiché maintenant :",
     primaryCta: "Réserver une session de travail",
     secondaryCta: "Commencer avec Report Lite",
@@ -236,7 +236,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
         personas: [
           { title: "Managers régionaux", tagline: "Pilotez douze sites comme si vous y étiez. Le rythme signale le site qui a besoin de vous." },
           { title: "RH & People", tagline: "Variance main-d'œuvre live. Risque heures sup' avant la paie. Plannings tirés de la demande." },
-          { title: "Opérateurs hôtellerie", tagline: "Chaque point F&B — restaurant, banqueting, room service, lobby — dans une vue unifiée." },
+          { title: "Opérateurs hôtellerie", tagline: "Chaque point F&B - restaurant, banqueting, room service, lobby - dans une vue unifiée." },
         ],
       },
       {
@@ -265,7 +265,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
     badge: "SOLUCIONES · POR ROL",
     titleLine1: "Una plataforma.",
     titleLine2: "Cada rol que diriges.",
-    description: "Inteligencia de decisión construida alrededor de la persona que la lee — desde la dirección hasta el local.",
+    description: "Inteligencia de decisión construida alrededor de la persona que la lee - desde la dirección hasta el local.",
     nowShowingPrefix: "Mostrando ahora:",
     primaryCta: "Reservar sesión de trabajo",
     secondaryCta: "Empezar con Report Lite",
@@ -297,7 +297,7 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
         personas: [
           { title: "Gerentes regionales", tagline: "Opera doce locales como si estuvieras en uno. El ritmo señala el local que te necesita." },
           { title: "RR.HH. y People", tagline: "Varianza de personal en vivo. Riesgo OT antes del cierre. Horarios desde la demanda." },
-          { title: "Operadores de hospitalidad", tagline: "Cada punto A&B — restaurante, banquetes, room service, lobby — en una vista unificada." },
+          { title: "Operadores de hospitalidad", tagline: "Cada punto A&B - restaurante, banquetes, room service, lobby - en una vista unificada." },
         ],
       },
       {
@@ -330,13 +330,13 @@ const localizedCopy: Record<"en" | "ar" | "fr" | "es", LocalizedHub> = {
 // C-Suite / Finance / Operations / Marketing / People & HR / Tech / Multi-brand)
 const IMG = "/images/product/2026-fresh";
 const ROTATING_SHOTS = [
-  { t: "insights-exec-summary", alt: "Executive Summary — portfolio health, alerts, and module scorecards" },
-  { t: "insights-revenue", alt: "Revenue Intelligence — net revenue, average check, RevPASH, and covers" },
-  { t: "pulse-leaderboard", alt: "Pulse Portfolio Leaderboard — every outlet ranked live by revenue vs target" },
-  { t: "marketing-channels", alt: "Marketing Intelligence — channel ROAS and spend efficiency frontier" },
-  { t: "insights-labor", alt: "Labor Intelligence — labor cost %, sales per labor hour, and productivity index" },
-  { t: "integrations", alt: "Data & Integrations — POS, labor, inventory, and delivery unified" },
-  { t: "benchmark-overview", alt: "Benchmark — RevPASH index and peer-cohort comparison across brands and markets" },
+  { t: "insights-exec-summary", alt: "Executive Summary - portfolio health, alerts, and module scorecards" },
+  { t: "insights-revenue", alt: "Revenue Intelligence - net revenue, average check, RevPASH, and covers" },
+  { t: "pulse-leaderboard", alt: "Pulse Portfolio Leaderboard - every outlet ranked live by revenue vs target" },
+  { t: "marketing-channels", alt: "Marketing Intelligence - channel ROAS and spend efficiency frontier" },
+  { t: "insights-labor", alt: "Labor Intelligence - labor cost %, sales per labor hour, and productivity index" },
+  { t: "integrations", alt: "Data & Integrations - POS, labor, inventory, and delivery unified" },
+  { t: "benchmark-overview", alt: "Benchmark - RevPASH index and peer-cohort comparison across brands and markets" },
 ];
 const ROTATION_MS = 5000;
 
@@ -359,7 +359,7 @@ export default function SolutionsHubPage() {
       <div className="min-h-screen bg-[var(--navy-deep)] overflow-x-hidden">
         {/* HERO */}
         <section className="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(28,71,255,0.12),transparent_60%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(255,92,77,0.12),transparent_60%)]" />
           <div className="absolute inset-0 bg-grid-texture" />
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
             <ElegantShape delay={0.3} width={600} height={140} rotate={12} gradient="from-white/[0.03]" className="left-[-10%] top-[15%]" />
@@ -370,8 +370,8 @@ export default function SolutionsHubPage() {
           <div className="max-w-7xl mx-auto relative z-10 grid lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.3fr)] gap-10 lg:gap-16 items-center">
             <div>
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }} className="mb-6">
-                <span className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-semibold tracking-wide uppercase bg-[rgba(28,71,255,0.12)] border border-[rgba(28,71,255,0.2)] text-[#60A5FA]">
-                  <span className="inline-block h-1.5 w-1.5 rounded-full bg-[#60A5FA] animate-pulse" />
+                <span className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-semibold tracking-wide uppercase bg-[rgba(255,92,77,0.12)] border border-[rgba(255,92,77,0.2)] text-[#FF8473]">
+                  <span className="inline-block h-1.5 w-1.5 rounded-full bg-[#FF8473] animate-pulse" />
                   {copy.badge}
                 </span>
               </motion.div>
@@ -379,15 +379,15 @@ export default function SolutionsHubPage() {
               <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.1 }} className="hero-h1 mb-6 text-balance">
                 <span className="bg-clip-text text-transparent bg-gradient-to-b from-[var(--text-primary)] to-[var(--text-primary)]/80">{copy.titleLine1}</span>
                 <br />
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#60A5FA] via-[var(--text-primary)] to-[#93C5FD]">{copy.titleLine2}</span>
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#FF8473] via-[var(--text-primary)] to-[#FFB59E]">{copy.titleLine2}</span>
               </motion.h1>
 
               <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.2 }} className="body-xl max-w-xl mb-3">
                 {copy.description}
               </motion.p>
 
-              <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6, delay: 0.4 }} className="text-sm uppercase tracking-[0.2em] text-[#60A5FA]/80 mb-10 font-semibold">
-                {copy.nowShowingPrefix} <span className="text-[#60A5FA]">{activeLabel}</span>
+              <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6, delay: 0.4 }} className="text-sm uppercase tracking-[0.2em] text-[#FF8473]/80 mb-10 font-semibold">
+                {copy.nowShowingPrefix} <span className="text-[#FF8473]">{activeLabel}</span>
               </motion.p>
 
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.3 }} className="flex flex-col sm:flex-row gap-3">
@@ -438,7 +438,7 @@ export default function SolutionsHubPage() {
           const structure = groupStructure[gi];
           return (
             <section key={gi} className="relative py-20 px-4 sm:px-6 lg:px-8">
-              <div className={`absolute inset-0 ${gi % 2 === 0 ? "bg-[radial-gradient(ellipse_at_center,rgba(28,71,255,0.04),transparent_60%)]" : "bg-mesh"}`} />
+              <div className={`absolute inset-0 ${gi % 2 === 0 ? "bg-[radial-gradient(ellipse_at_center,rgba(255,92,77,0.04),transparent_60%)]" : "bg-mesh"}`} />
               <div className="relative z-10 max-w-7xl mx-auto">
                 <FadeUp className="text-center max-w-3xl mx-auto mb-12">
                   <p className="eyebrow mb-4">{group.eyebrow}</p>
@@ -454,13 +454,13 @@ export default function SolutionsHubPage() {
                     return (
                       <StaggerItem key={s.slug}>
                         <Link href={`/solutions/${s.slug}`} className="group block h-full">
-                          <div className="h-full p-6 sm:p-7 rounded-2xl bg-white/[0.03] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:border-[rgba(28,71,255,0.3)] hover:shadow-[0_0_40px_rgba(28,71,255,0.10)] transition-all duration-300 hover:-translate-y-1">
+                          <div className="h-full p-6 sm:p-7 rounded-2xl bg-white/[0.03] border border-[var(--border-default)] hover:bg-[var(--surface-hover)] hover:border-[rgba(255,92,77,0.3)] hover:shadow-[0_0_40px_rgba(255,92,77,0.10)] transition-all duration-300 hover:-translate-y-1">
                             <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${s.accent} flex items-center justify-center text-white shadow-lg mb-5`}>
                               <SundaeIcon name={s.icon} size="md" className="text-white" />
                             </div>
                             <h3 className="text-xl font-semibold text-[var(--text-primary)] mb-2 leading-snug">{p.title}</h3>
                             <p className="text-sm text-[var(--text-muted)] leading-relaxed mb-6">{p.tagline}</p>
-                            <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#60A5FA] group-hover:text-[var(--text-primary)] transition-colors">
+                            <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#FF8473] group-hover:text-[var(--text-primary)] transition-colors">
                               {group.seeSolutionPrefix} {p.title}
                               <span className="inline-block transition-transform group-hover:translate-x-1">→</span>
                             </span>
@@ -480,7 +480,7 @@ export default function SolutionsHubPage() {
           <div className="absolute inset-0 bg-grid-texture" />
           <ElegantShape delay={0} width={400} height={100} rotate={-12} gradient="from-white/[0.03]" className="left-[-8%] top-[20%]" />
           <ElegantShape delay={0.2} width={300} height={80} rotate={15} gradient="from-white/[0.02]" className="right-[-5%] bottom-[10%]" />
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(28,71,255,0.06),transparent_70%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,92,77,0.06),transparent_70%)]" />
           <div className="relative z-10 max-w-3xl mx-auto text-center">
             <FadeUp>
               <p className="eyebrow mb-4">{copy.closingEyebrow}</p>

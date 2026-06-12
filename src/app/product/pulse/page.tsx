@@ -17,11 +17,13 @@ import {
 } from "@/components/ui/MockupFrame";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_product_pulse_page'
+import { CreamBreak } from "@/components/ui/CreamBreak";
+import { pulseCreamCopy } from "./pulseCreamCopy";
 
 const localizedPulseCopy = {
   en: {
     hero: {
-      badge: "Pulse — Intraday Operations",
+      badge: "Pulse - Intraday Operations",
       title: "$2K Lost Per Bad Shift. Pulse Catches It Live.",
       description:
         "Revenue pacing, labor cost, server performance, and leakage detection - updating every 5 minutes. Adaptive targets that learn your patterns, seasonality, and local events. Act before it costs you.",
@@ -207,12 +209,12 @@ const localizedPulseCopy = {
     },
     cta: {
       title: "Stop Managing Shifts Blind",
-      description: "Pulse is on every Sundae Core plan. See what's happening now — not at end-of-day.",
+      description: "Pulse is on every Sundae Core plan. See what's happening now - not at end-of-day.",
       primary: "Book a Working Session",
       secondary: "Start with Report Lite",
     },
     heroMockup: {
-      label: "Pulse — Sales Pacing",
+      label: "Pulse - Sales Pacing",
       live: "LIVE",
       updatedAt: "Tuesday, 7:42 PM",
       kpis: [
@@ -233,7 +235,7 @@ const localizedPulseCopy = {
   },
   ar: {
     hero: {
-      badge: "Pulse — عمليات داخل اليوم",
+      badge: "Pulse - عمليات داخل اليوم",
       title: "خسارة 2,000 دولار لكل وردية سيئة. Pulse يلتقطها مباشرة.",
       description:
         "وتيرة الايرادات وتكلفة العمالة واداء الموظفين ومراقبة التسرب - تتحدث كل 5 دقائق. اهداف تكيفية تتعلم من انماطك والموسمية والاحداث المحلية. تحرك قبل ان تدفع الثمن.",
@@ -424,7 +426,7 @@ const localizedPulseCopy = {
       secondary: "ابدأ مجاناً",
     },
     heroMockup: {
-      label: "Pulse — وتيرة المبيعات",
+      label: "Pulse - وتيرة المبيعات",
       live: "مباشر",
       updatedAt: "الثلاثاء، 7:42 مساءً",
       kpis: [
@@ -873,7 +875,7 @@ const localizedPulseCopy = {
 
 function AdaptiveTargetsMockup() {
   const { locale } = useWebsiteI18n();
-  const label = locale === "ar" ? "Pulse — الاهداف التكيفية" : locale === "fr" ? "Pulse - Objectifs adaptatifs" : locale === "es" ? "Pulse - Objetivos adaptativos" : "Pulse — Adaptive Targets";
+  const label = locale === "ar" ? "Pulse - الاهداف التكيفية" : locale === "fr" ? "Pulse - Objectifs adaptatifs" : locale === "es" ? "Pulse - Objetivos adaptativos" : "Pulse - Adaptive Targets";
   const todayTarget = locale === "ar" ? "الهدف اليومي" : locale === "fr" ? "Objectif du jour" : locale === "es" ? "Objetivo de hoy" : "Today's Target";
   const growthModifier = locale === "ar" ? "مضاعف النمو" : locale === "fr" ? "Multiplicateur de croissance" : locale === "es" ? "Multiplicador de crecimiento" : "Growth Modifier";
   const confidence = locale === "ar" ? "الثقة" : locale === "fr" ? "Confiance" : locale === "es" ? "Confianza" : "Confidence";
@@ -889,19 +891,19 @@ function AdaptiveTargetsMockup() {
     <MockupFrame label={label} glow={false}>
       <div className="space-y-4">
         <div className="grid grid-cols-3 gap-3">
-          <MockupKPI label={todayTarget} value="$18,200" color="#1C47FF" />
+          <MockupKPI label={todayTarget} value="$18,200" color="#FF5C4D" />
           <MockupKPI label={growthModifier} value="+8%" trend={locale === "ar" ? "مقابل الاساس" : locale === "fr" ? "vs base" : locale === "es" ? "vs base" : "vs base"} trendUp color="#22C55E" />
           <MockupKPI label={confidence} value="94%" color="#22C55E" />
         </div>
         <MockupBarChart
           data={[
-            { label: days[0], value: 15200, color: "#1C47FF" },
-            { label: days[1], value: 16800, color: "#1C47FF" },
+            { label: days[0], value: 15200, color: "#FF5C4D" },
+            { label: days[1], value: 16800, color: "#FF5C4D" },
             { label: days[2], value: 14900, color: "#FBBF24" },
-            { label: days[3], value: 17600, color: "#1C47FF" },
+            { label: days[3], value: 17600, color: "#FF5C4D" },
             { label: days[4], value: 21400, color: "#22C55E" },
             { label: days[5], value: 23100, color: "#22C55E" },
-            { label: days[6], value: 18900, color: "#1C47FF" },
+            { label: days[6], value: 18900, color: "#FF5C4D" },
           ]}
         />
         <MockupAlert type="info">
@@ -914,7 +916,7 @@ function AdaptiveTargetsMockup() {
 
 function SalesPacingMockup() {
   const { locale } = useWebsiteI18n();
-  const label = locale === "ar" ? "Pulse — وتيرة المبيعات" : locale === "fr" ? "Pulse - Rythme des ventes" : locale === "es" ? "Pulse - Ritmo de ventas" : "Pulse — Sales Pacing";
+  const label = locale === "ar" ? "Pulse - وتيرة المبيعات" : locale === "fr" ? "Pulse - Rythme des ventes" : locale === "es" ? "Pulse - Ritmo de ventas" : "Pulse - Sales Pacing";
   const live = locale === "ar" ? "الثلاثاء، 7:42 مساءً" : locale === "fr" ? "Mardi, 19:42" : locale === "es" ? "Martes, 7:42 PM" : "Tuesday, 7:42 PM";
   const actual = locale === "ar" ? "الفعلي" : locale === "fr" ? "Reel" : locale === "es" ? "Real" : "Actual";
   const expected = locale === "ar" ? "المتوقع" : locale === "fr" ? "Attendu" : locale === "es" ? "Esperado" : "Expected";
@@ -930,8 +932,8 @@ function SalesPacingMockup() {
         </div>
         <div className="grid grid-cols-3 gap-3">
           <MockupKPI label={actual} value="$14,280" trend={locale === "ar" ? "+12% مقابل الهدف" : locale === "fr" ? "+12% vs objectif" : locale === "es" ? "+12% vs objetivo" : "+12% vs target"} trendUp color="#22C55E" />
-          <MockupKPI label={expected} value="$12,740" color="#1C47FF" />
-          <MockupKPI label={dayTarget} value="$18,200" color="#1C47FF" />
+          <MockupKPI label={expected} value="$12,740" color="#FF5C4D" />
+          <MockupKPI label={dayTarget} value="$18,200" color="#FF5C4D" />
         </div>
         <MockupPaceBar label={revenuePace} current={14280} target={18200} unit="$" />
         <MockupPaceBar label={coversPace} current={287} target={340} />
@@ -953,21 +955,21 @@ function SalesPacingMockup() {
 
 function LaborMockup() {
   const { locale } = useWebsiteI18n();
-  const label = locale === "ar" ? "Pulse — انتاجية العمالة" : locale === "fr" ? "Pulse - Productivite de la main-d'oeuvre" : locale === "es" ? "Pulse - Productividad laboral" : "Pulse — Labor Productivity";
+  const label = locale === "ar" ? "Pulse - انتاجية العمالة" : locale === "fr" ? "Pulse - Productivite de la main-d'oeuvre" : locale === "es" ? "Pulse - Productividad laboral" : "Pulse - Labor Productivity";
   const headers = locale === "ar" ? ["الدور", "الطاقم", "الساعات", "التكلفة", "SPLH"] : locale === "fr" ? ["Role", "Equipe", "Heures", "Cout", "SPLH"] : locale === "es" ? ["Rol", "Equipo", "Horas", "Costo", "SPLH"] : ["Role", "Staff", "Hours", "Cost", "SPLH"];
   const rows = locale === "ar"
-    ? [["النادلون", "4", "24h", "$720", "$79.50"], ["المطبخ", "3", "21h", "$630", "$54.30"], ["البار", "2", "12h", "$360", "$71.20"], ["الاستقبال", "1", "8h", "$130", "—"]]
+    ? [["النادلون", "4", "24h", "$720", "$79.50"], ["المطبخ", "3", "21h", "$630", "$54.30"], ["البار", "2", "12h", "$360", "$71.20"], ["الاستقبال", "1", "8h", "$130", "-"]]
     : locale === "fr"
-      ? [["Serveurs", "4", "24h", "$720", "$79.50"], ["Cuisine", "3", "21h", "$630", "$54.30"], ["Bar", "2", "12h", "$360", "$71.20"], ["Accueil", "1", "8h", "$130", "—"]]
+      ? [["Serveurs", "4", "24h", "$720", "$79.50"], ["Cuisine", "3", "21h", "$630", "$54.30"], ["Bar", "2", "12h", "$360", "$71.20"], ["Accueil", "1", "8h", "$130", "-"]]
       : locale === "es"
-        ? [["Meseros", "4", "24h", "$720", "$79.50"], ["Cocina", "3", "21h", "$630", "$54.30"], ["Barra", "2", "12h", "$360", "$71.20"], ["Host", "1", "8h", "$130", "—"]]
-        : [["Servers", "4", "24h", "$720", "$79.50"], ["Kitchen", "3", "21h", "$630", "$54.30"], ["Bar", "2", "12h", "$360", "$71.20"], ["Host", "1", "8h", "$130", "—"]];
+        ? [["Meseros", "4", "24h", "$720", "$79.50"], ["Cocina", "3", "21h", "$630", "$54.30"], ["Barra", "2", "12h", "$360", "$71.20"], ["Host", "1", "8h", "$130", "-"]]
+        : [["Servers", "4", "24h", "$720", "$79.50"], ["Kitchen", "3", "21h", "$630", "$54.30"], ["Bar", "2", "12h", "$360", "$71.20"], ["Host", "1", "8h", "$130", "-"]];
   return (
     <MockupFrame label={label} glow={false}>
       <div className="space-y-4">
         <div className="grid grid-cols-4 gap-3">
           <MockupKPI label="SPLH" value="$62.40" trend={locale === "ar" ? "+8% مقابل المتوسط" : locale === "fr" ? "+8% vs moyenne" : locale === "es" ? "+8% vs promedio" : "+8% vs avg"} trendUp color="#22C55E" />
-          <MockupKPI label="CPLH" value="4.2" color="#1C47FF" />
+          <MockupKPI label="CPLH" value="4.2" color="#FF5C4D" />
           <MockupKPI label={locale === "ar" ? "نسبة العمالة" : locale === "fr" ? "Main-d'oeuvre %" : locale === "es" ? "% Labor" : "Labor %"} value="28.1%" trend={locale === "ar" ? "اقل من 30%" : locale === "fr" ? "Sous 30%" : locale === "es" ? "Bajo 30%" : "Under 30%"} trendUp color="#22C55E" />
           <MockupKPI label={locale === "ar" ? "تكلفة الوردية" : locale === "fr" ? "Cout de service" : locale === "es" ? "Costo de turno" : "Shift Cost"} value="$1,840" color="#FBBF24" />
         </div>
@@ -982,7 +984,7 @@ function LaborMockup() {
 
 function ServerPerformanceMockup() {
   const { locale } = useWebsiteI18n();
-  const label = locale === "ar" ? "Pulse — لوحة ترتيب الموظفين" : locale === "fr" ? "Pulse - Classement des serveurs" : locale === "es" ? "Pulse - Ranking de servidores" : "Pulse — Server Leaderboard";
+  const label = locale === "ar" ? "Pulse - لوحة ترتيب الموظفين" : locale === "fr" ? "Pulse - Classement des serveurs" : locale === "es" ? "Pulse - Ranking de servidores" : "Pulse - Server Leaderboard";
   const headers = locale === "ar" ? ["#", "الموظف", "الايراد", "متوسط الفاتورة", "نسبة البيع الاضافي", "الدرجة"] : locale === "fr" ? ["#", "Serveur", "Revenu", "Ticket moyen", "Ventes additionnelles %", "Score"] : locale === "es" ? ["#", "Mesero", "Ingresos", "Ticket medio", "Venta adicional %", "Score"] : ["#", "Server", "Revenue", "Avg Check", "Upsell %", "Score"];
   const alert = locale === "ar"
     ? "معدل البيع الاضافي لدى James K. اقل بـ 14 نقطة عن متوسط الوردية. فكر في إقرانه مع Sarah للطلبتين القادمتين."
@@ -1013,7 +1015,7 @@ function ServerPerformanceMockup() {
 
 function LeakageMockup() {
   const { locale } = useWebsiteI18n();
-  const label = locale === "ar" ? "Pulse — مراقبة التسرب" : locale === "fr" ? "Pulse - Suivi des fuites" : locale === "es" ? "Pulse - Monitoreo de fugas" : "Pulse — Leakage Monitor";
+  const label = locale === "ar" ? "Pulse - مراقبة التسرب" : locale === "fr" ? "Pulse - Suivi des fuites" : locale === "es" ? "Pulse - Monitoreo de fugas" : "Pulse - Leakage Monitor";
   const totalLeakage = locale === "ar" ? "اجمالي التسرب" : locale === "fr" ? "Fuite totale" : locale === "es" ? "Fuga total" : "Total Leakage";
   const voidRate = locale === "ar" ? "معدل الإلغاء" : locale === "fr" ? "Taux de void" : locale === "es" ? "Tasa de void" : "Void Rate";
   const exceptions = locale === "ar" ? "الاستثناءات" : locale === "fr" ? "Exceptions" : locale === "es" ? "Excepciones" : "Exceptions";
@@ -1052,7 +1054,7 @@ function LeakageMockup() {
 
 function CoachMockup() {
   const { locale } = useWebsiteI18n();
-  const label = locale === "ar" ? "Sundae Coach — اشارات الوردية" : locale === "fr" ? "Sundae Coach - Signaux de service" : locale === "es" ? "Sundae Coach - Señales de turno" : "Sundae Coach — Shift Signals";
+  const label = locale === "ar" ? "Sundae Coach - اشارات الوردية" : locale === "fr" ? "Sundae Coach - Signaux de service" : locale === "es" ? "Sundae Coach - Señales de turno" : "Sundae Coach - Shift Signals";
   return (
     <MockupFrame label={label} glow={false}>
       <div className="space-y-3">
@@ -1075,7 +1077,7 @@ function CoachMockup() {
 
 function AlertsMockup() {
   const { locale } = useWebsiteI18n();
-  const label = locale === "ar" ? "Pulse — التنبيهات وخطط التشغيل" : locale === "fr" ? "Pulse - Alertes et playbooks" : locale === "es" ? "Pulse - Alertas y playbooks" : "Pulse — Alerts & Playbooks";
+  const label = locale === "ar" ? "Pulse - التنبيهات وخطط التشغيل" : locale === "fr" ? "Pulse - Alertes et playbooks" : locale === "es" ? "Pulse - Alertas y playbooks" : "Pulse - Alerts & Playbooks";
   const headers = locale === "ar" ? ["التنبيه", "المحفز", "الحالة", "الاجراء"] : locale === "fr" ? ["Alerte", "Declencheur", "Statut", "Action"] : locale === "es" ? ["Alerta", "Disparador", "Estado", "Accion"] : ["Alert", "Trigger", "Status", "Action"];
   const alert = locale === "ar" ? "تم تشغيل الخطة: \"بروتوكول البيع الاضافي\" - تم إشعار الموظفين تلقائياً عبر Sundae Coach بأفضل 3 عناصر هامشاً." : locale === "fr" ? "Playbook declenche: \"Protocole de vente additionnelle\" - serveurs auto-notifies via Sundae Coach avec les 3 meilleurs articles marge." : locale === "es" ? "Playbook activado: \"Protocolo de venta adicional\" - servidores notificados automaticamente via Sundae Coach con los 3 items de mejor margen." : "Playbook triggered: \"Upsell Protocol\" - auto-notified servers via Sundae Coach with top 3 margin items.";
   return (
@@ -1100,7 +1102,7 @@ function AlertsMockup() {
 
 function ScorecardMockup() {
   const { locale } = useWebsiteI18n();
-  const label = locale === "ar" ? "Pulse — بطاقة الوردية" : locale === "fr" ? "Pulse - Scorecard de service" : locale === "es" ? "Pulse - Scorecard de turno" : "Pulse — Shift Scorecard";
+  const label = locale === "ar" ? "Pulse - بطاقة الوردية" : locale === "fr" ? "Pulse - Scorecard de service" : locale === "es" ? "Pulse - Scorecard de turno" : "Pulse - Shift Scorecard";
   return (
     <MockupFrame label={label} glow={false}>
       <div className="space-y-4">
@@ -1125,7 +1127,7 @@ function ScorecardMockup() {
 
 function LeaderboardMockup() {
   const { locale } = useWebsiteI18n();
-  const label = locale === "ar" ? "Pulse — لوحة ترتيب المحفظة" : locale === "fr" ? "Pulse - Classement du portefeuille" : locale === "es" ? "Pulse - Ranking de cartera" : "Pulse — Portfolio Leaderboard";
+  const label = locale === "ar" ? "Pulse - لوحة ترتيب المحفظة" : locale === "fr" ? "Pulse - Classement du portefeuille" : locale === "es" ? "Pulse - Ranking de cartera" : "Pulse - Portfolio Leaderboard";
   const headers = locale === "ar" ? ["#", "الموقع", "الايراد", "مقابل الهدف", "السلسلة"] : locale === "fr" ? ["#", "Site", "Revenu", "vs objectif", "Serie"] : locale === "es" ? ["#", "Local", "Ingresos", "vs objetivo", "Racha"] : ["#", "Outlet", "Revenue", "vs Target", "Streak"];
   const alert = locale === "ar" ? "المطار متأخر 8% عن الهدف ليومين متتاليين. اكبر مشكلة: انخفاض الضيوف في فترة 2-5 مساءً (38% اقل من الخطة)." : locale === "fr" ? "L aeroport est 8% sous l objectif depuis 2 jours. Probleme principal: faibles couverts sur le créneau 14h-17h (38% sous le plan)." : locale === "es" ? "El aeropuerto va 8% por debajo del objetivo por 2 dias seguidos. Problema principal: cubiertos bajos entre 2-5 PM (38% por debajo del plan)." : "Airport is 8% behind target for 2 consecutive days. Top issue: low covers during 2-5 PM daypart (38% below plan).";
   return (
@@ -1136,7 +1138,7 @@ function LeaderboardMockup() {
           rows={[
             ["1", "Downtown", "$14,280", "+12%", "🔥 5 days"],
             ["2", "Marina", "$11,940", "+4%", "🔥 3 days"],
-            ["3", "Mall Branch", "$9,620", "−2%", "—"],
+            ["3", "Mall Branch", "$9,620", "−2%", "-"],
             ["4", "Airport", "$8,410", "−8%", "⚠ 2 days"],
           ]}
         />
@@ -1150,13 +1152,13 @@ function LeaderboardMockup() {
 
 function WallboardMockup() {
   const { locale } = useWebsiteI18n();
-  const label = locale === "ar" ? "Pulse — وضع اللوحة الجدارية" : locale === "fr" ? "Pulse - Mode wallboard" : locale === "es" ? "Pulse - Modo wallboard" : "Pulse — Wallboard Mode (TV Display)";
+  const label = locale === "ar" ? "Pulse - وضع اللوحة الجدارية" : locale === "fr" ? "Pulse - Mode wallboard" : locale === "es" ? "Pulse - Modo wallboard" : "Pulse - Wallboard Mode (TV Display)";
   return (
     <MockupFrame label={label} glow>
       <div className="space-y-4">
         <div className="flex items-center justify-between">
           <span className="inline-flex items-center gap-1.5 text-[10px] text-[var(--text-muted)]"><span className="animate-live-dot" />{locale === "ar" ? "مباشر" : locale === "fr" ? "EN DIRECT" : locale === "es" ? "EN VIVO" : "LIVE"}</span>
-          <span className="text-[10px] text-[var(--text-muted)] font-mono">{locale === "ar" ? "وسط المدينة — تدوير تلقائي" : locale === "fr" ? "Downtown - Rotation automatique" : locale === "es" ? "Downtown - Rotacion automatica" : "Downtown — Auto-rotating"}</span>
+          <span className="text-[10px] text-[var(--text-muted)] font-mono">{locale === "ar" ? "وسط المدينة - تدوير تلقائي" : locale === "fr" ? "Downtown - Rotation automatique" : locale === "es" ? "Downtown - Rotacion automatica" : "Downtown - Auto-rotating"}</span>
         </div>
         <div className="grid grid-cols-4 gap-3">
           <MockupKPI label={locale === "ar" ? "الايراد" : locale === "fr" ? "Revenu" : locale === "es" ? "Ingresos" : "Revenue"} value="$14,280" trend="+12%" trendUp />
@@ -1166,7 +1168,7 @@ function WallboardMockup() {
         </div>
         <MockupPaceBar label={locale === "ar" ? "وتيرة الايراد" : locale === "fr" ? "Rythme du revenu" : locale === "es" ? "Ritmo de ingresos" : "Revenue Pace"} current={14280} target={18200} unit="$" />
         <div className="text-center text-[10px] text-[var(--text-muted)]">
-          {locale === "ar" ? "الموقع التالي: مارينا — التبديل خلال 30 ثانية" : locale === "fr" ? "Site suivant: Marina - rotation dans 30s" : locale === "es" ? "Siguiente local: Marina - rota en 30s" : "Next outlet: Marina — rotating in 30s"}
+          {locale === "ar" ? "الموقع التالي: مارينا - التبديل خلال 30 ثانية" : locale === "fr" ? "Site suivant: Marina - rotation dans 30s" : locale === "es" ? "Siguiente local: Marina - rota en 30s" : "Next outlet: Marina - rotating in 30s"}
         </div>
       </div>
     </MockupFrame>
@@ -1175,7 +1177,7 @@ function WallboardMockup() {
 
 function ShiftCostMockup() {
   const { locale } = useWebsiteI18n();
-  const label = locale === "ar" ? "Pulse — اقتصاديات الوردية" : locale === "fr" ? "Pulse - Economie du service" : locale === "es" ? "Pulse - Economia de turno" : "Pulse — Shift Economics";
+  const label = locale === "ar" ? "Pulse - اقتصاديات الوردية" : locale === "fr" ? "Pulse - Economie du service" : locale === "es" ? "Pulse - Economia de turno" : "Pulse - Shift Economics";
   const headers = locale === "ar" ? ["الوردية", "الطاقم", "الساعات", "التكلفة", "الايراد", "العمالة %"] : locale === "fr" ? ["Service", "Equipe", "Heures", "Cout", "Revenu", "Main-d'oeuvre %"] : locale === "es" ? ["Turno", "Equipo", "Horas", "Costo", "Ingresos", "% Labor"] : ["Shift", "Staff", "Hours", "Cost", "Revenue", "Labor %"];
   const alert = locale === "ar" ? "نسبة العمالة في وردية الصباح اعلى بـ 10 نقاط من المساء. فكر في تقليل العدد الى 3 موظفين قبل 10:30 صباحاً." : locale === "fr" ? "Le ratio main-d'oeuvre du service du matin est 10 points au-dessus du soir. Pensez a reduire a 3 personnes avant 10h30." : locale === "es" ? "El porcentaje de labor del turno de manana es 10 puntos mas alto que el de la noche. Considera bajar a 3 personas antes de las 10:30 AM." : "Morning shift labor % is 10pp higher than evening. Consider reducing to 3 staff before 10:30 AM.";
   return (
@@ -1241,6 +1243,7 @@ export default function PulsePage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
   const ui = localizedPulseCopy[locale as keyof typeof localizedPulseCopy] ?? getGeneratedLocalCopy(localizedPulseCopy, generatedLocalCopy.localizedPulseCopy, locale) ?? localizedPulseCopy.en;
+  const cream = pulseCreamCopy[locale as keyof typeof pulseCreamCopy] ?? pulseCreamCopy.en;
   const featureMockups = [
     AdaptiveTargetsMockup,
     SalesPacingMockup,
@@ -1288,7 +1291,7 @@ export default function PulsePage() {
         </div>
       </section>
 
-      {/* What Pulse Monitors — Quick Grid */}
+      {/* What Pulse Monitors - Quick Grid */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto text-center">
           <FadeUp>
@@ -1322,7 +1325,10 @@ export default function PulsePage() {
         </div>
       </section>
 
-      {/* Feature Blocks — Detailed */}
+      {/* Cream relief - warm break before the long dark feature-block run (the volume system) */}
+      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
+
+      {/* Feature Blocks - Detailed */}
       <section id="features" className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
@@ -1426,7 +1432,7 @@ export default function PulsePage() {
         </div>
       </section>
 
-      {/* Product gallery — every Pulse surface in detail */}
+      {/* Product gallery - every Pulse surface in detail */}
       <SectionProductGallery
         productFilter="/product/pulse"
         hideFilter

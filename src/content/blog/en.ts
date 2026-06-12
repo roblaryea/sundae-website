@@ -40,7 +40,7 @@ This reactive, manual process creates 1D visibility - you see what happened last
 
 Sundae Core automatically unifies every data source into a single operational dashboard providing real-time 4D Intelligence:
 
-- **Sundae Scout** normalizes data from all sources automatically - no manual field mapping or CSV exports required
+- **Sundae Core** normalizes data from all sources automatically - no manual field mapping or CSV exports required
 - **Sundae Core** visualizes unified data with role-specific dashboards for operators, finance, marketing, and HR
 - **Sundae Core** monitors dashboards continuously, alerting you to anomalies before they become crises
 - **Sundae Watchtower** adds competitive context showing how your metrics compare to market benchmarks
@@ -1179,7 +1179,7 @@ Result: Operators have more data than ever but less actionable intelligence.
 
 Sundae provides unified data infrastructure designed specifically for multi-location restaurant operations:
 
-**Automatic normalization**: Sundae Scout connects to all systems and automatically normalizes data across different formats and schemas. No custom integration work required.
+**Automatic normalization**: Sundae Core connects to all systems and automatically normalizes data across different formats and schemas. No custom integration work required.
 
 **Single source of truth**: Sundae Core provides one unified view of operations, eliminating conflicting numbers and manual reconciliation.
 
@@ -4408,7 +4408,7 @@ These are the questions that move margins. These are the questions you never get
 
 Sundae is not another tool in the stack. It replaces the spreadsheet layer entirely:
 
-- **Sundae Scout** connects to your existing systems and normalizes the data automatically. Your POS, payroll, inventory, and accounting data flow into a unified model without manual exports
+- **Sundae Core** connects to your existing systems and normalizes the data automatically. Your POS, payroll, inventory, and accounting data flow into a unified model without manual exports
 - **Sundae Insights** provides 12+ analytics modules  -  revenue intelligence, labor analytics, inventory tracking, purchasing analysis, guest experience, and more  -  all pre-built and real-time
 - **Sundae Pulse** gives you intraday operations visibility: sales pacing against plan, live labor tracking, leakage monitoring, and shift scorecards as the day unfolds
 - **Sundae Intelligence** lets you ask questions in plain English and get answers with full context, not just numbers
@@ -5338,7 +5338,7 @@ The fundamental issue: human attention does not scale linearly. Doubling your lo
 
 **The milestone**: Before you sign the lease on location 18, unify every data source into a single intelligence platform. POS transactions, labor scheduling, inventory counts, financial actuals, guest feedback  -  all flowing into one system automatically, normalized and reconciled without human intervention.
 
-**What Sundae delivers here**: Sundae Scout connects to your existing POS, payroll, inventory, and accounting systems. Data normalization happens automatically  -  no more reconciling different formats, fixing naming conventions, or manually merging exports. One platform, one source of truth, updated continuously.
+**What Sundae delivers here**: Sundae Core connects to your existing POS, payroll, inventory, and accounting systems. Data normalization happens automatically  -  no more reconciling different formats, fixing naming conventions, or manually merging exports. One platform, one source of truth, updated continuously.
 
 **The payoff**: Your analyst stops assembling data and starts analyzing it. Reports that took 20 hours weekly now generate automatically. And critically, when you open location 18, 19, and 20, adding them to the intelligence platform takes hours  -  not weeks of manual integration.
 

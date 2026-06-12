@@ -4,7 +4,7 @@ import React from 'react';
 
 interface ButtonBaseProps {
   children: React.ReactNode;
-  variant?: 'primary' | 'secondary' | 'outline' | 'outline-light' | 'ghost' | 'cta';
+  variant?: 'primary' | 'secondary' | 'outline' | 'outline-light' | 'ghost' | 'cta' | 'ink';
   size?: 'sm' | 'md' | 'lg' | 'xl';
   className?: string;
   disabled?: boolean;
@@ -39,26 +39,29 @@ export const Button: React.FC<ButtonProps> = (props) => {
     fullWidth = false,
   } = props;
 
-  const baseStyles = 'inline-flex items-center justify-center font-semibold rounded-xl transition-all duration-200 ease-out focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500 focus-visible:ring-offset-[var(--navy-deep)]';
+  const baseStyles = 'inline-flex items-center justify-center font-semibold rounded-xl transition-all duration-200 ease-out focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#FF5C4D] focus-visible:ring-offset-[var(--navy-deep)]';
 
   const variants = {
-    // Primary — gradient with blue glow
-    primary: 'bg-gradient-to-r from-[#0A1E8C] via-[#1C47FF] to-[#3B82F6] text-white shadow-[0_0_30px_rgba(28,71,255,0.3)] hover:shadow-[0_0_50px_rgba(28,71,255,0.4)] hover:-translate-y-0.5 active:translate-y-0',
+    // Primary - warm signature gradient with coral glow
+    primary: 'bg-gradient-to-r from-[#E9A24A] via-[#FF5C4D] to-[#E03E48] text-white shadow-[0_10px_30px_-10px_rgba(255,92,77,0.5)] hover:shadow-[0_16px_40px_-10px_rgba(255,92,77,0.65)] hover:-translate-y-0.5 active:translate-y-0',
 
-    // Secondary — subtle glass
+    // Secondary - subtle glass
     secondary: 'bg-[var(--surface-hover)] text-[var(--text-secondary)] border border-[var(--border-default)] hover:bg-[var(--surface-emphasis)] hover:text-[var(--text-primary)] hover:border-[var(--border-emphasis)] hover:-translate-y-0.5 active:translate-y-0',
 
-    // Outline — clean border on dark
+    // Outline - clean border on dark
     outline: 'border border-[var(--border-emphasis)] text-[var(--text-secondary)] bg-transparent hover:border-[var(--border-emphasis)] hover:text-[var(--text-primary)] hover:bg-[var(--surface-subtle)]',
 
-    // Outline Light — brighter for dark sections
+    // Outline Light - brighter for dark sections
     'outline-light': 'border border-[var(--border-emphasis)] text-[var(--text-primary)] bg-transparent hover:bg-[var(--surface-emphasis)] hover:border-[var(--text-muted)] active:bg-[var(--surface-subtle)]',
 
-    // Ghost — subtle
+    // Ghost - subtle
     ghost: 'text-[var(--text-supporting)] hover:bg-[var(--surface-hover)] hover:text-[var(--text-primary)]',
 
-    // CTA — maximum visibility gradient with glow
-    cta: 'bg-gradient-to-r from-[#0A1E8C] via-[#1C47FF] to-[#3B82F6] text-white font-bold shadow-[0_0_40px_rgba(28,71,255,0.35)] hover:shadow-[0_0_60px_rgba(28,71,255,0.5)] hover:-translate-y-1 active:translate-y-0',
+    // CTA - warm signature gradient with coral glow
+    cta: 'bg-gradient-to-r from-[#E9A24A] via-[#FF5C4D] to-[#E03E48] text-white font-bold shadow-[0_12px_40px_-8px_rgba(255,92,77,0.5)] hover:shadow-[0_18px_50px_-8px_rgba(255,92,77,0.62)] hover:-translate-y-1 active:translate-y-0',
+
+    // Ink - solid warm-near-black; for primary actions placed on bright warm surfaces (closer)
+    ink: 'bg-[var(--ink)] text-white shadow-[0_12px_30px_-10px_rgba(0,0,0,0.55)] hover:-translate-y-1 active:translate-y-0',
   };
 
   const sizes = {

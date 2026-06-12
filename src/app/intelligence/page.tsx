@@ -7,10 +7,12 @@ import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { SIGNUP_URL } from "@/lib/urls";
 import { ThemedShot } from "@/components/ui/ThemedShot";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
+import { CreamBreak } from "@/components/ui/CreamBreak";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_intelligence_page'
+import { intelligenceCreamCopy } from './intelligenceCreamCopy'
 
 const localizedChatCopy = {
   en: {
@@ -323,6 +325,7 @@ export default function ChatWithDataPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
   const ui = localizedChatCopy[locale as keyof typeof localizedChatCopy] ?? getGeneratedLocalCopy(localizedChatCopy, generatedLocalCopy.localizedChatCopy, locale) ?? localizedChatCopy.en;
+  const cream = intelligenceCreamCopy[locale as keyof typeof intelligenceCreamCopy] ?? intelligenceCreamCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
@@ -350,7 +353,7 @@ export default function ChatWithDataPage() {
             <ThemedShot
               dark="/images/product/2026-fresh/intelligence-dark.png"
               light="/images/product/2026-fresh/intelligence.png"
-              alt="Sundae Intelligence — ask your data anything in plain English and get structured visual answers"
+              alt="Sundae Intelligence - ask your data anything in plain English and get structured visual answers"
               width={1600}
               height={1000}
               className="w-full h-auto"
@@ -359,6 +362,9 @@ export default function ChatWithDataPage() {
           </div>
         </FadeUp>
       </section>
+
+      {/* Cream relief - early warm break after the hero + product shot, before the long dark modes/cards/differentiators stretch (the volume system) */}
+      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
@@ -373,14 +379,14 @@ export default function ChatWithDataPage() {
                 <Card variant="elevated" className="h-full hover:shadow-lg transition-all duration-300 relative overflow-hidden">
                   <CardContent className="p-6">
                     <div className="flex items-center justify-between mb-4">
-                      <div className="w-10 h-10 bg-slate-900 rounded-lg flex items-center justify-center">
-                        <SundaeIcon name={mode.icon as SundaeIconName} size="md" className="text-white" />
+                      <div className="w-10 h-10 bg-[#FF5C4D]/10 rounded-lg flex items-center justify-center">
+                        <SundaeIcon name={mode.icon as SundaeIconName} size="md" className="text-[#FF5C4D]" />
                       </div>
                       <span className="text-[10px] font-mono bg-[var(--surface-subtle)] text-[var(--text-muted)] px-2 py-1 rounded">{mode.shortcut}</span>
                     </div>
                     <div className="flex items-center gap-2 mb-2">
                       <h3 className="font-bold text-[var(--text-primary)]">{mode.title}</h3>
-                      <span className="text-[10px] font-semibold uppercase tracking-wider bg-blue-500/20 text-blue-400 px-2 py-0.5 rounded-full">{mode.badge}</span>
+                      <span className="text-[10px] font-semibold uppercase tracking-wider bg-[#FF5C4D]/20 text-[#FF8473] px-2 py-0.5 rounded-full">{mode.badge}</span>
                     </div>
                     <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{mode.description}</p>
                   </CardContent>
@@ -402,7 +408,7 @@ export default function ChatWithDataPage() {
             {ui.queries.map((query) => (
               <StaggerItem key={query} className="bg-[var(--navy-deep)] rounded-xl p-4 text-left border border-[var(--border-default)]">
                 <p className="text-sm text-[var(--text-secondary)] font-mono">
-                  {query.startsWith('/') ? <><span className="text-blue-400 font-semibold">{query.split(' ')[0]}</span> {query.split(' ').slice(1).join(' ')}</> : <>&ldquo;{query}&rdquo;</>}
+                  {query.startsWith('/') ? <><span className="text-[#FF8473] font-semibold">{query.split(' ')[0]}</span> {query.split(' ').slice(1).join(' ')}</> : <>&ldquo;{query}&rdquo;</>}
                 </p>
               </StaggerItem>
             ))}
@@ -420,7 +426,7 @@ export default function ChatWithDataPage() {
           <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {ui.commandFeatures.map((feature) => (
               <StaggerItem key={feature.title} className="flex gap-4">
-                <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-violet-500 to-purple-600 rounded-lg flex items-center justify-center">
+                <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-[#F4A259] to-[#C2410C] rounded-lg flex items-center justify-center">
                   <SundaeIcon name={feature.icon as SundaeIconName} size="md" className="text-white" />
                 </div>
                 <div>
@@ -502,14 +508,14 @@ export default function ChatWithDataPage() {
               <StaggerItem key={section.title}>
                 <Card variant="elevated" className="h-full">
                   <CardContent className="p-6">
-                    <div className="w-10 h-10 bg-slate-900 rounded-lg flex items-center justify-center mb-4">
-                      <SundaeIcon name={section.icon as SundaeIconName} size="md" className="text-white" />
+                    <div className="w-10 h-10 bg-[#FF5C4D]/10 rounded-lg flex items-center justify-center mb-4">
+                      <SundaeIcon name={section.icon as SundaeIconName} size="md" className="text-[#FF5C4D]" />
                     </div>
                     <h3 className="font-bold text-[var(--text-primary)] mb-3">{section.title}</h3>
                     <ul className="space-y-2">
                       {section.items.map((item) => (
                         <li key={item} className="flex items-start gap-2 text-sm text-[var(--text-supporting)]">
-                          <span className="text-blue-400 mt-0.5 flex-shrink-0">✓</span>
+                          <span className="text-[#FF8473] mt-0.5 flex-shrink-0">✓</span>
                           <span>{item}</span>
                         </li>
                       ))}
@@ -534,8 +540,8 @@ export default function ChatWithDataPage() {
               <StaggerItem key={diff.title}>
                 <Card variant="elevated" className="h-full hover:shadow-lg transition-all duration-300">
                   <CardContent className="p-6">
-                    <div className="w-12 h-12 bg-slate-900 rounded-xl flex items-center justify-center mb-4">
-                      <SundaeIcon name={diff.icon as SundaeIconName} size="lg" className="text-white" />
+                    <div className="w-12 h-12 bg-[#FF5C4D]/10 rounded-xl flex items-center justify-center mb-4">
+                      <SundaeIcon name={diff.icon as SundaeIconName} size="lg" className="text-[#FF5C4D]" />
                     </div>
                     <h3 className="font-bold text-[var(--text-primary)] mb-2">{diff.title}</h3>
                     <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{diff.description}</p>
@@ -562,7 +568,7 @@ export default function ChatWithDataPage() {
         </div>
       </section>
 
-      {/* Product gallery — Intelligence surfaces in detail */}
+      {/* Product gallery - Intelligence surfaces in detail */}
       <SectionProductGallery
         productFilter="/intelligence"
         hideFilter

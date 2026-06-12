@@ -1,9 +1,9 @@
 /**
- * Sundae Operations Diagnostic — question framework.
+ * Sundae Operations Diagnostic - question framework.
  *
  * 20 questions (18 chip + 2 free-text) across 5 dimensions (Operation profile, Crew,
  * Core, Foresight, Tech stack). Designed for ~10-minute completion. Two
- * free-text fields max — everything else is chip selection (single or
+ * free-text fields max - everything else is chip selection (single or
  * multi).
  *
  * The responses feed `lib/diagnostic/engine.ts` which maps response
@@ -21,7 +21,7 @@ export type Question = {
   prompt: string;
   helper?: string;
   options?: { value: string; label: string }[];
-  /** For free text only — placeholder + max length */
+  /** For free text only - placeholder + max length */
   placeholder?: string;
   maxLength?: number;
   /** If true, the question is optional */
@@ -35,7 +35,7 @@ export const QUESTIONS: Question[] = [
     dimension: "profile",
     kind: "multi",
     prompt: "What segments do you operate in?",
-    helper: "Select all that apply — multi-concept groups can pick multiple. Segment affects what Sundae prioritizes.",
+    helper: "Select all that apply - multi-concept groups can pick multiple. Segment affects what Sundae prioritizes.",
     options: [
       { value: "qsr",          label: "QSR / Fast food" },
       { value: "fast_casual",  label: "Fast-casual" },
@@ -57,10 +57,10 @@ export const QUESTIONS: Question[] = [
     prompt: "How many outlets do you operate?",
     options: [
       { value: "1",       label: "1 outlet" },
-      { value: "2_5",     label: "2–5 outlets" },
-      { value: "6_15",    label: "6–15 outlets" },
-      { value: "16_50",   label: "16–50 outlets" },
-      { value: "51_150",  label: "51–150 outlets" },
+      { value: "2_5",     label: "2-5 outlets" },
+      { value: "6_15",    label: "6-15 outlets" },
+      { value: "16_50",   label: "16-50 outlets" },
+      { value: "51_150",  label: "51-150 outlets" },
       { value: "150_plus", label: "150+ outlets" },
     ],
   },
@@ -70,13 +70,13 @@ export const QUESTIONS: Question[] = [
     kind: "single",
     optional: true,
     prompt: "Roughly, what's your average annual revenue per outlet (AUV)?",
-    helper: "Optional — sharpens the cost, savings, and EBITDA ranges in your report. Skip if you'd rather not say.",
+    helper: "Optional - sharpens the cost, savings, and EBITDA ranges in your report. Skip if you'd rather not say.",
     options: [
       { value: "under_500k", label: "Under $500K" },
-      { value: "500k_1m",    label: "$500K–1M" },
-      { value: "1m_2m",      label: "$1–2M" },
-      { value: "2m_4m",      label: "$2–4M" },
-      { value: "4m_7m",      label: "$4–7M" },
+      { value: "500k_1m",    label: "$500K-1M" },
+      { value: "1m_2m",      label: "$1-2M" },
+      { value: "2m_4m",      label: "$2-4M" },
+      { value: "4m_7m",      label: "$4-7M" },
       { value: "7m_plus",    label: "$7M+" },
     ],
   },
@@ -85,7 +85,7 @@ export const QUESTIONS: Question[] = [
     dimension: "profile",
     kind: "multi",
     prompt: "Where do you operate?",
-    helper: "Select all regions — multi-region operators get country-pack readiness mapped to each one.",
+    helper: "Select all regions - multi-region operators get country-pack readiness mapped to each one.",
     options: [
       { value: "us",          label: "United States" },
       { value: "canada",      label: "Canada" },
@@ -120,7 +120,7 @@ export const QUESTIONS: Question[] = [
     dimension: "crew",
     kind: "multi",
     prompt: "How do you schedule today?",
-    helper: "Select all that apply — many operators run multiple systems across brands or regions.",
+    helper: "Select all that apply - many operators run multiple systems across brands or regions.",
     options: [
       { value: "manual",        label: "Manual / Spreadsheets" },
       { value: "7shifts",       label: "7shifts" },
@@ -165,7 +165,7 @@ export const QUESTIONS: Question[] = [
     dimension: "crew",
     kind: "multi",
     prompt: "Which countries does payroll touch?",
-    helper: "Select all that apply — affects which country packs would be relevant.",
+    helper: "Select all that apply - affects which country packs would be relevant.",
     options: [
       { value: "us",          label: "United States" },
       { value: "canada",      label: "Canada" },
@@ -202,7 +202,7 @@ export const QUESTIONS: Question[] = [
     dimension: "core",
     kind: "multi",
     prompt: "Which KPIs do you wish you could measure but can't today?",
-    helper: "This is the gap Sundae fills — be honest, multi-select. Includes Sundae-native calculations operators rarely have access to.",
+    helper: "This is the gap Sundae fills - be honest, multi-select. Includes Sundae-native calculations operators rarely have access to.",
     options: [
       { value: "real_time_margin",      label: "Real-time margin per shift" },
       { value: "daypart_leak",          label: "Daypart-level labor leak" },
@@ -242,8 +242,8 @@ export const QUESTIONS: Question[] = [
     id: "decision_data",
     dimension: "core",
     kind: "multi",
-    prompt: "Last major operations decisions — what data sources did you use?",
-    helper: "Select all that applied — operators rarely use just one source for any meaningful decision.",
+    prompt: "Last major operations decisions - what data sources did you use?",
+    helper: "Select all that applied - operators rarely use just one source for any meaningful decision.",
     options: [
       { value: "gut",           label: "Gut / Experience" },
       { value: "spreadsheet",   label: "Spreadsheet pulled by analyst" },
@@ -305,7 +305,7 @@ export const QUESTIONS: Question[] = [
     dimension: "tech",
     kind: "multi",
     prompt: "Which POS system(s) do you use?",
-    helper: "Select all that apply — multi-brand groups often run multiple.",
+    helper: "Select all that apply - multi-brand groups often run multiple.",
     options: [
       { value: "toast",       label: "Toast" },
       { value: "square",      label: "Square" },
@@ -370,7 +370,7 @@ export const QUESTIONS: Question[] = [
     prompt: "When do you want to be live with a new operations stack?",
     helper: "Shapes urgency framing in your diagnostic and routing to the right Sundae motion.",
     options: [
-      { value: "asap",          label: "Right now — actively evaluating" },
+      { value: "asap",          label: "Right now - actively evaluating" },
       { value: "next_quarter",  label: "Next quarter" },
       { value: "next_6_months", label: "Next 6 months" },
       { value: "this_year",     label: "Before end of year" },
@@ -382,13 +382,13 @@ export const QUESTIONS: Question[] = [
     dimension: "tech",
     kind: "single",
     prompt: "How long does it take you to make a meaningful operational decision today?",
-    helper: "From signal to action — measures the lag Sundae compresses.",
+    helper: "From signal to action - measures the lag Sundae compresses.",
     options: [
-      { value: "minutes",  label: "Minutes — we react in-shift" },
-      { value: "hours",    label: "Hours — same day" },
-      { value: "days",     label: "Days — weekly review cycle" },
-      { value: "weeks",    label: "Weeks — monthly close cycle" },
-      { value: "months",   label: "Months — quarterly review only" },
+      { value: "minutes",  label: "Minutes - we react in-shift" },
+      { value: "hours",    label: "Hours - same day" },
+      { value: "days",     label: "Days - weekly review cycle" },
+      { value: "weeks",    label: "Weeks - monthly close cycle" },
+      { value: "months",   label: "Months - quarterly review only" },
     ],
   },
   {
@@ -400,12 +400,12 @@ export const QUESTIONS: Question[] = [
     optional: true,
     options: [
       { value: "under_10k",     label: "Under $10K" },
-      { value: "10_25k",        label: "$10–25K" },
-      { value: "25_50k",        label: "$25–50K" },
-      { value: "50_100k",       label: "$50–100K" },
-      { value: "100_250k",      label: "$100–250K" },
-      { value: "250_500k",      label: "$250–500K" },
-      { value: "500k_1m",       label: "$500K–1M" },
+      { value: "10_25k",        label: "$10-25K" },
+      { value: "25_50k",        label: "$25-50K" },
+      { value: "50_100k",       label: "$50-100K" },
+      { value: "100_250k",      label: "$100-250K" },
+      { value: "250_500k",      label: "$250-500K" },
+      { value: "500k_1m",       label: "$500K-1M" },
       { value: "1m_plus",       label: "$1M+" },
       { value: "unsure",        label: "Not sure" },
     ],
@@ -415,15 +415,15 @@ export const QUESTIONS: Question[] = [
     dimension: "tech",
     kind: "single",
     prompt: "How many people in-house run that tech stack?",
-    helper: "Analysts, BI / Power BI developers, data engineers, ops analysts — the people pulling reports and maintaining dashboards. Often 2–5× the software cost.",
+    helper: "Analysts, BI / Power BI developers, data engineers, ops analysts - the people pulling reports and maintaining dashboards. Often 2-5× the software cost.",
     optional: true,
     options: [
-      { value: "none",          label: "None — we don't have anyone dedicated" },
+      { value: "none",          label: "None - we don't have anyone dedicated" },
       { value: "fractional",    label: "Fractional / shared with other functions" },
       { value: "one",           label: "1 person" },
-      { value: "two_three",     label: "2–3 people" },
-      { value: "four_eight",    label: "4–8 people" },
-      { value: "nine_twenty",   label: "9–20 people" },
+      { value: "two_three",     label: "2-3 people" },
+      { value: "four_eight",    label: "4-8 people" },
+      { value: "nine_twenty",   label: "9-20 people" },
       { value: "twenty_plus",   label: "20+ people" },
     ],
   },

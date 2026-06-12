@@ -2,9 +2,9 @@ import type { SolutionPageData } from "./SolutionPageTemplate";
 import type { RequiredEnglishLocalizedRecord } from "@/lib/i18n";
 
 /**
- * Solutions page content — locale-keyed, pure data.
+ * Solutions page content - locale-keyed, pure data.
  *
- * Each page (10 personas — 6 roles + 4 segments) uses string keys for icons
+ * Each page (10 personas - 6 roles + 4 segments) uses string keys for icons
  * and mockups. The template (SolutionPageTemplate) looks up the actual React
  * components from registries based on those keys, keeping the data file safe
  * to render in any client component without crossing the server/client React
@@ -58,7 +58,7 @@ const en: SolutionsContent = {
       {
         iconKey: "activity",
         title: "Live shift intelligence",
-        body: "Pacing, labor, leakage, comps, voids, and service exceptions — updated through the shift, not after the recap.",
+        body: "Pacing, labor, leakage, comps, voids, and service exceptions - updated through the shift, not after the recap.",
         intelLayer: "Pulse",
       },
       {
@@ -70,7 +70,7 @@ const en: SolutionsContent = {
       {
         iconKey: "network",
         title: "External market signals",
-        body: "Weather, local events, competitor pricing, daily AI briefings — so teams know the market context before it hits the numbers.",
+        body: "Weather, local events, competitor pricing, daily AI briefings - so teams know the market context before it hits the numbers.",
         intelLayer: "Watchtower",
       },
     ],
@@ -90,7 +90,7 @@ const en: SolutionsContent = {
     eyebrow: "FOR FINANCE & FP&A",
     headline: "Three days to understand margin is three days too late.",
     subhead:
-      "Sundae shows margin variance the day it happens — not at the next month-end review — with cause attribution across labor, food cost, and pricing.",
+      "Sundae shows margin variance the day it happens - not at the next month-end review - with cause attribution across labor, food cost, and pricing.",
     todayTitle: "Today",
     todayPoints: [
       "Variance shows up in last month's P&L.",
@@ -119,13 +119,13 @@ const en: SolutionsContent = {
       {
         iconKey: "coins",
         title: "Channel and platform reconciliation",
-        body: "Net margin by channel — dine-in, delivery, catering, retail — with platform commission reconciliation in line.",
+        body: "Net margin by channel - dine-in, delivery, catering, retail - with platform commission reconciliation in line.",
         intelLayer: "Insights · Revenue Assurance",
       },
       {
         iconKey: "chartArea",
         title: "Forward-looking forecasts",
-        body: "14–90 day forecasts for revenue, labor, and profit with confidence bands and what-if scenarios.",
+        body: "14-90 day forecasts for revenue, labor, and profit with confidence bands and what-if scenarios.",
         intelLayer: "Foresight",
       },
     ],
@@ -145,7 +145,7 @@ const en: SolutionsContent = {
     eyebrow: "FOR CEOS AND OWNERS",
     headline: "Your worst location is invisible until Thursday's recap.",
     subhead:
-      "Sundae Intelligence delivers daily AI briefings across every brand and location — so portfolio truth lands in the morning, not at the weekly review.",
+      "Sundae Intelligence delivers daily AI briefings across every brand and location - so portfolio truth lands in the morning, not at the weekly review.",
     todayTitle: "Today",
     todayPoints: [
       "The weekly portfolio recap arrives Wednesday.",
@@ -174,13 +174,13 @@ const en: SolutionsContent = {
       {
         iconKey: "briefcase",
         title: "Peer-anchored benchmarks",
-        body: "Where your portfolio stands against anonymized peers — RevPASH, average check, labor productivity, and more.",
+        body: "Where your portfolio stands against anonymized peers - RevPASH, average check, labor productivity, and more.",
         intelLayer: "Benchmarks",
       },
       {
         iconKey: "scanSearch",
         title: "Market and competitor intelligence",
-        body: "Watchtower tracks weather, events, competitor moves, and footfall signals — daily, not quarterly.",
+        body: "Watchtower tracks weather, events, competitor moves, and footfall signals - daily, not quarterly.",
         intelLayer: "Watchtower",
       },
     ],
@@ -199,7 +199,7 @@ const en: SolutionsContent = {
     eyebrow: "FOR MARKETING LEADS",
     headline: "By the time you measure the campaign, the budget is already spent.",
     subhead:
-      "Sundae surfaces campaign performance signals — covers, check size, channel mix, attribution — within 24 hours of activation, so you can re-allocate while the campaign is still running.",
+      "Sundae surfaces campaign performance signals - covers, check size, channel mix, attribution - within 24 hours of activation, so you can re-allocate while the campaign is still running.",
     todayTitle: "Today",
     todayPoints: [
       "Campaign ROI lands a week after the campaign ends.",
@@ -222,7 +222,7 @@ const en: SolutionsContent = {
       {
         iconKey: "megaphone",
         title: "Campaign performance signals",
-        body: "Spend tied to covers, average check, and channel mix — performance signals available within 24 hours of activation.",
+        body: "Spend tied to covers, average check, and channel mix - performance signals available within 24 hours of activation.",
         intelLayer: "Insights · Marketing",
       },
       {
@@ -234,7 +234,7 @@ const en: SolutionsContent = {
       {
         iconKey: "target",
         title: "Conversational campaign Q&A",
-        body: "Ask Sundae which campaign drove your best Saturday — get a sourced answer in seconds, not a deck in a week.",
+        body: "Ask Sundae which campaign drove your best Saturday - get a sourced answer in seconds, not a deck in a week.",
         intelLayer: "Sundae Intelligence",
       },
     ],
@@ -254,7 +254,7 @@ const en: SolutionsContent = {
     eyebrow: "FOR HR AND PEOPLE LEADS",
     headline: "Labor variance shows up too late.",
     subhead:
-      "Pulse shows live labor% by location, server productivity, and overtime risk — by shift, not by month — so schedule decisions stop happening on instinct.",
+      "Pulse shows live labor% by location, server productivity, and overtime risk - by shift, not by month - so schedule decisions stop happening on instinct.",
     todayTitle: "Today",
     todayPoints: [
       "Schedule changes happen on instinct.",
@@ -283,7 +283,7 @@ const en: SolutionsContent = {
       {
         iconKey: "activity",
         title: "Server-level productivity",
-        body: "Covers per labor hour, upsell rate, void rate per server — surfaced as patterns to coach, not just numbers.",
+        body: "Covers per labor hour, upsell rate, void rate per server - surfaced as patterns to coach, not just numbers.",
         intelLayer: "Insights · Labor",
       },
       {
@@ -308,7 +308,7 @@ const en: SolutionsContent = {
     eyebrow: "FOR TECH AND DATA LEADS",
     headline: "Twelve vendor APIs. Five data formats. Zero unified schema.",
     subhead:
-      "Sundae unifies POS, labor, inventory, delivery, accounting, reservations, and CRM into 500+ governed data models — with a public API, webhooks, RBAC, and audit trails out of the box.",
+      "Sundae unifies POS, labor, inventory, delivery, accounting, reservations, and CRM into 500+ governed data models - with a public API, webhooks, RBAC, and audit trails out of the box.",
     todayTitle: "Today",
     todayPoints: [
       "Every new dashboard request is a six-week integration project.",
@@ -331,7 +331,7 @@ const en: SolutionsContent = {
       {
         iconKey: "database",
         title: "12 unified data domains",
-        body: "POS, labor, inventory, purchasing, reservations, delivery, marketing, guest experience, CRM, accounting, and more — modeled into 500+ governed schemas.",
+        body: "POS, labor, inventory, purchasing, reservations, delivery, marketing, guest experience, CRM, accounting, and more - modeled into 500+ governed schemas.",
         intelLayer: "Architecture",
       },
       {
@@ -343,7 +343,7 @@ const en: SolutionsContent = {
       {
         iconKey: "lock",
         title: "RBAC, audit trails, governance",
-        body: "Multi-tenant role-based access, full audit logging, governed metrics — out of the box, not on a roadmap.",
+        body: "Multi-tenant role-based access, full audit logging, governed metrics - out of the box, not on a roadmap.",
         intelLayer: "Governance",
       },
     ],
@@ -364,7 +364,7 @@ const en: SolutionsContent = {
     eyebrow: "FOR MULTI-LOCATION OPERATORS",
     headline: "Visibility into one location is easy. Visibility across five, ten, or fifty is the problem.",
     subhead:
-      "One platform, every location, real-time — with cross-location patterns surfaced automatically and best-practice transfer that scales.",
+      "One platform, every location, real-time - with cross-location patterns surfaced automatically and best-practice transfer that scales.",
     todayTitle: "Today",
     todayPoints: [
       "Each GM has their own POS reports.",
@@ -387,7 +387,7 @@ const en: SolutionsContent = {
       {
         iconKey: "building2",
         title: "Portfolio leaderboard",
-        body: "Every location ranked by RevPASH, labor productivity, margin, and exception rate — refreshing through the shift.",
+        body: "Every location ranked by RevPASH, labor productivity, margin, and exception rate - refreshing through the shift.",
         intelLayer: "Pulse · Benchmarks",
       },
       {
@@ -419,7 +419,7 @@ const en: SolutionsContent = {
     eyebrow: "FOR FRANCHISE OPERATORS",
     headline: "Brand standards are easy to set. Brand standards at scale are the problem.",
     subhead:
-      "Franchisee performance and brand consistency in one view — so the strongest franchisees become a template, not an exception.",
+      "Franchisee performance and brand consistency in one view - so the strongest franchisees become a template, not an exception.",
     todayTitle: "Today",
     todayPoints: [
       "Franchisee P&Ls roll up monthly.",
@@ -442,7 +442,7 @@ const en: SolutionsContent = {
       {
         iconKey: "gitBranch",
         title: "Franchisee performance",
-        body: "Live P&L roll-ups by franchisee, region, and brand. Spot the top quartile early — and the bottom quartile earlier.",
+        body: "Live P&L roll-ups by franchisee, region, and brand. Spot the top quartile early - and the bottom quartile earlier.",
         intelLayer: "Insights · Benchmarks",
       },
       {
@@ -454,7 +454,7 @@ const en: SolutionsContent = {
       {
         iconKey: "network",
         title: "Best-practice transfer",
-        body: "Cross-Intelligence finds what the top franchisees do differently — and packages it as plays the rest can run.",
+        body: "Cross-Intelligence finds what the top franchisees do differently - and packages it as plays the rest can run.",
         intelLayer: "Cross-Intelligence",
       },
     ],
@@ -473,7 +473,7 @@ const en: SolutionsContent = {
     eyebrow: "FOR CLOUD KITCHEN OPERATORS",
     headline: "Delivery margin is razor-thin. Platform commissions eat what's left.",
     subhead:
-      "Real margin per virtual brand, per platform, per kitchen — with platform-health monitoring built in.",
+      "Real margin per virtual brand, per platform, per kitchen - with platform-health monitoring built in.",
     todayTitle: "Today",
     todayPoints: [
       "Platform commissions reconciled weekly.",
@@ -496,7 +496,7 @@ const en: SolutionsContent = {
       {
         iconKey: "truck",
         title: "Real margin per platform",
-        body: "DoorDash, UberEats, Deliveroo, Talabat — with commission, packaging, refunds, and adjustments reconciled per order.",
+        body: "DoorDash, UberEats, Deliveroo, Talabat - with commission, packaging, refunds, and adjustments reconciled per order.",
         intelLayer: "Insights · Revenue Assurance",
       },
       {
@@ -508,7 +508,7 @@ const en: SolutionsContent = {
       {
         iconKey: "wifi",
         title: "Platform health monitoring",
-        body: "Rating drift, dispatch latency, refund spikes, platform-side outages — surfaced via Watchtower in time to escalate.",
+        body: "Rating drift, dispatch latency, refund spikes, platform-side outages - surfaced via Watchtower in time to escalate.",
         intelLayer: "Watchtower",
       },
     ],
@@ -528,7 +528,7 @@ const en: SolutionsContent = {
     eyebrow: "FOR HOSPITALITY OPERATORS",
     headline: "F&B, rooms, events, and catering each have their own report.",
     subhead:
-      "One decision view across every revenue stream — with adaptive targets per service type and forecasting that respects the difference between a banquet and a brunch.",
+      "One decision view across every revenue stream - with adaptive targets per service type and forecasting that respects the difference between a banquet and a brunch.",
     todayTitle: "Today",
     todayPoints: [
       "F&B reports separate from PMS.",
@@ -551,13 +551,13 @@ const en: SolutionsContent = {
       {
         iconKey: "hotel",
         title: "Cross-revenue intelligence",
-        body: "F&B, rooms, events, banquet, and catering unified — with attribution across guest journeys and service types.",
+        body: "F&B, rooms, events, banquet, and catering unified - with attribution across guest journeys and service types.",
         intelLayer: "Cross-Intelligence",
       },
       {
         iconKey: "zap",
         title: "Adaptive targets",
-        body: "Separate targets and pacing logic for restaurant, brunch, banquet, conference, and event service — each with its own rhythm.",
+        body: "Separate targets and pacing logic for restaurant, brunch, banquet, conference, and event service - each with its own rhythm.",
         intelLayer: "Insights",
       },
       {
@@ -610,7 +610,7 @@ const ar: SolutionsContent = {
       {
         iconKey: "activity",
         title: "ذكاء حي للورديات",
-        body: "الإيقاع، العمالة، التسرب، الخصومات، الإلغاءات، واستثناءات الخدمة — محدثة خلال الوردية، لا بعدها.",
+        body: "الإيقاع، العمالة، التسرب، الخصومات، الإلغاءات، واستثناءات الخدمة - محدثة خلال الوردية، لا بعدها.",
         intelLayer: "Pulse",
       },
       {
@@ -622,7 +622,7 @@ const ar: SolutionsContent = {
       {
         iconKey: "network",
         title: "إشارات السوق الخارجية",
-        body: "الطقس، الأحداث المحلية، تسعير المنافسين، إيجازات يومية بالذكاء الاصطناعي — لتعرف الفرق سياق السوق قبل أن يصل إلى الأرقام.",
+        body: "الطقس، الأحداث المحلية، تسعير المنافسين، إيجازات يومية بالذكاء الاصطناعي - لتعرف الفرق سياق السوق قبل أن يصل إلى الأرقام.",
         intelLayer: "Watchtower",
       },
     ],
@@ -642,7 +642,7 @@ const ar: SolutionsContent = {
     eyebrow: "للمالية والتخطيط المالي",
     headline: "ثلاثة أيام لفهم الهامش هي ثلاثة أيام بعد فوات الأوان.",
     subhead:
-      "Sundae يظهر انحراف الهامش يوم حدوثه — لا في مراجعة نهاية الشهر — مع إسناد الأسباب بين العمالة وتكلفة الطعام والتسعير.",
+      "Sundae يظهر انحراف الهامش يوم حدوثه - لا في مراجعة نهاية الشهر - مع إسناد الأسباب بين العمالة وتكلفة الطعام والتسعير.",
     todayTitle: "اليوم",
     todayPoints: [
       "الانحراف يظهر في حساب الشهر الماضي.",
@@ -671,13 +671,13 @@ const ar: SolutionsContent = {
       {
         iconKey: "coins",
         title: "تسوية القنوات والمنصات",
-        body: "صافي الهامش حسب القناة — تناول داخلي، توصيل، تموين، تجزئة — مع تسوية مباشرة لعمولات المنصات.",
+        body: "صافي الهامش حسب القناة - تناول داخلي، توصيل، تموين، تجزئة - مع تسوية مباشرة لعمولات المنصات.",
         intelLayer: "Insights · Revenue Assurance",
       },
       {
         iconKey: "chartArea",
         title: "تنبؤات استشرافية",
-        body: "تنبؤات لـ14–90 يوماً للإيرادات والعمالة والربح، مع نطاقات ثقة وسيناريوهات افتراضية.",
+        body: "تنبؤات لـ14-90 يوماً للإيرادات والعمالة والربح، مع نطاقات ثقة وسيناريوهات افتراضية.",
         intelLayer: "Foresight",
       },
     ],
@@ -697,7 +697,7 @@ const ar: SolutionsContent = {
     eyebrow: "للمدراء التنفيذيين والملاك",
     headline: "أسوأ موقع لديك غير مرئي حتى ملخص الخميس.",
     subhead:
-      "Sundae Intelligence يقدم إيجازات يومية بالذكاء الاصطناعي عبر كل علامة وكل موقع — لتصل حقيقة المحفظة في الصباح، لا في المراجعة الأسبوعية.",
+      "Sundae Intelligence يقدم إيجازات يومية بالذكاء الاصطناعي عبر كل علامة وكل موقع - لتصل حقيقة المحفظة في الصباح، لا في المراجعة الأسبوعية.",
     todayTitle: "اليوم",
     todayPoints: [
       "ملخص المحفظة الأسبوعي يصل يوم الأربعاء.",
@@ -726,13 +726,13 @@ const ar: SolutionsContent = {
       {
         iconKey: "briefcase",
         title: "معايير مرجعية بين الأقران",
-        body: "موقع محفظتك مقارنة بأقران مجهولي الهوية — RevPASH، متوسط الفاتورة، إنتاجية العمالة، والمزيد.",
+        body: "موقع محفظتك مقارنة بأقران مجهولي الهوية - RevPASH، متوسط الفاتورة، إنتاجية العمالة، والمزيد.",
         intelLayer: "Benchmarks",
       },
       {
         iconKey: "scanSearch",
         title: "ذكاء السوق والمنافسين",
-        body: "Watchtower يتتبع الطقس والأحداث وتحركات المنافسين وإشارات الحركة — يومياً، لا فصلياً.",
+        body: "Watchtower يتتبع الطقس والأحداث وتحركات المنافسين وإشارات الحركة - يومياً، لا فصلياً.",
         intelLayer: "Watchtower",
       },
     ],
@@ -751,7 +751,7 @@ const ar: SolutionsContent = {
     eyebrow: "لقادة التسويق",
     headline: "بحلول وقت قياسك للحملة، تكون الميزانية قد أُنفقت بالفعل.",
     subhead:
-      "Sundae يكشف إشارات أداء الحملة — العملاء، حجم الفاتورة، مزيج القنوات، الإسناد — خلال 24 ساعة من التفعيل، لتعيد توزيع الإنفاق والحملة لا تزال جارية.",
+      "Sundae يكشف إشارات أداء الحملة - العملاء، حجم الفاتورة، مزيج القنوات، الإسناد - خلال 24 ساعة من التفعيل، لتعيد توزيع الإنفاق والحملة لا تزال جارية.",
     todayTitle: "اليوم",
     todayPoints: [
       "عائد الحملة يصل بعد أسبوع من انتهائها.",
@@ -774,7 +774,7 @@ const ar: SolutionsContent = {
       {
         iconKey: "megaphone",
         title: "إشارات أداء الحملة",
-        body: "إنفاق مرتبط بالعملاء ومتوسط الفاتورة ومزيج القنوات — إشارات أداء متاحة خلال 24 ساعة من التفعيل.",
+        body: "إنفاق مرتبط بالعملاء ومتوسط الفاتورة ومزيج القنوات - إشارات أداء متاحة خلال 24 ساعة من التفعيل.",
         intelLayer: "Insights · Marketing",
       },
       {
@@ -786,7 +786,7 @@ const ar: SolutionsContent = {
       {
         iconKey: "target",
         title: "أسئلة وأجوبة محادثة عن الحملات",
-        body: "اسأل Sundae أي حملة قادت أفضل سبت — اقرأ إجابة موثقة في ثوانٍ، لا عرضاً في أسبوع.",
+        body: "اسأل Sundae أي حملة قادت أفضل سبت - اقرأ إجابة موثقة في ثوانٍ، لا عرضاً في أسبوع.",
         intelLayer: "Sundae Intelligence",
       },
     ],
@@ -806,7 +806,7 @@ const ar: SolutionsContent = {
     eyebrow: "للموارد البشرية",
     headline: "انحراف العمالة يظهر متأخراً.",
     subhead:
-      "Pulse يعرض نسبة العمالة الحية لكل موقع، وإنتاجية النادل، ومخاطر الإضافي — وردية بوردية، لا شهراً بشهر — لتتوقف قرارات الجدول عن أن تكون بالحدس.",
+      "Pulse يعرض نسبة العمالة الحية لكل موقع، وإنتاجية النادل، ومخاطر الإضافي - وردية بوردية، لا شهراً بشهر - لتتوقف قرارات الجدول عن أن تكون بالحدس.",
     todayTitle: "اليوم",
     todayPoints: [
       "تغييرات الجدول تتم بالحدس.",
@@ -835,7 +835,7 @@ const ar: SolutionsContent = {
       {
         iconKey: "activity",
         title: "إنتاجية على مستوى النادل",
-        body: "عدد العملاء لكل ساعة عمل، معدل البيع الإضافي، معدل الإلغاء لكل نادل — مكشوفة كأنماط للتدريب، لا أرقاماً فقط.",
+        body: "عدد العملاء لكل ساعة عمل، معدل البيع الإضافي، معدل الإلغاء لكل نادل - مكشوفة كأنماط للتدريب، لا أرقاماً فقط.",
         intelLayer: "Insights · Labor",
       },
       {
@@ -860,7 +860,7 @@ const ar: SolutionsContent = {
     eyebrow: "لقادة التقنية والبيانات",
     headline: "اثنا عشر واجهة برمجية. خمسة تنسيقات بيانات. لا مخطط موحد.",
     subhead:
-      "Sundae يوحد نقاط البيع والعمالة والمخزون والتوصيل والمحاسبة والحجوزات وإدارة العملاء في أكثر من 500 نموذج بيانات محكوم — مع واجهة برمجة عامة وWebhooks وRBAC وسجلات تدقيق جاهزة.",
+      "Sundae يوحد نقاط البيع والعمالة والمخزون والتوصيل والمحاسبة والحجوزات وإدارة العملاء في أكثر من 500 نموذج بيانات محكوم - مع واجهة برمجة عامة وWebhooks وRBAC وسجلات تدقيق جاهزة.",
     todayTitle: "اليوم",
     todayPoints: [
       "كل طلب لوحة جديدة هو مشروع تكامل لستة أسابيع.",
@@ -883,7 +883,7 @@ const ar: SolutionsContent = {
       {
         iconKey: "database",
         title: "12 نطاق بيانات موحد",
-        body: "نقاط البيع، العمالة، المخزون، المشتريات، الحجوزات، التوصيل، التسويق، تجربة الضيف، إدارة العملاء، المحاسبة، والمزيد — ضمن أكثر من 500 مخططاً محكوماً.",
+        body: "نقاط البيع، العمالة، المخزون، المشتريات، الحجوزات، التوصيل، التسويق، تجربة الضيف، إدارة العملاء، المحاسبة، والمزيد - ضمن أكثر من 500 مخططاً محكوماً.",
         intelLayer: "Architecture",
       },
       {
@@ -895,7 +895,7 @@ const ar: SolutionsContent = {
       {
         iconKey: "lock",
         title: "RBAC، سجلات تدقيق، حوكمة",
-        body: "وصول قائم على الأدوار متعدد المستأجرين، تسجيل تدقيق كامل، مقاييس محكومة — جاهزة، لا في خارطة الطريق.",
+        body: "وصول قائم على الأدوار متعدد المستأجرين، تسجيل تدقيق كامل، مقاييس محكومة - جاهزة، لا في خارطة الطريق.",
         intelLayer: "Governance",
       },
     ],
@@ -916,7 +916,7 @@ const ar: SolutionsContent = {
     eyebrow: "لمشغلي المواقع المتعددة",
     headline: "الرؤية في موقع واحد سهلة. الرؤية عبر خمسة أو عشرة أو خمسين هي المشكلة.",
     subhead:
-      "منصة واحدة، كل المواقع، في الزمن الحقيقي — مع كشف تلقائي لأنماط متعددة المواقع ونقل لأفضل الممارسات يتسع.",
+      "منصة واحدة، كل المواقع، في الزمن الحقيقي - مع كشف تلقائي لأنماط متعددة المواقع ونقل لأفضل الممارسات يتسع.",
     todayTitle: "اليوم",
     todayPoints: [
       "كل مدير عام لديه تقاريره الخاصة من نقاط البيع.",
@@ -939,7 +939,7 @@ const ar: SolutionsContent = {
       {
         iconKey: "building2",
         title: "لوحة محفظة الأداء",
-        body: "كل موقع مُرتب حسب RevPASH، إنتاجية العمالة، الهامش، ومعدل الاستثناءات — يتحدث خلال الوردية.",
+        body: "كل موقع مُرتب حسب RevPASH، إنتاجية العمالة، الهامش، ومعدل الاستثناءات - يتحدث خلال الوردية.",
         intelLayer: "Pulse · Benchmarks",
       },
       {
@@ -971,7 +971,7 @@ const ar: SolutionsContent = {
     eyebrow: "لمشغلي الامتياز التجاري",
     headline: "وضع معايير العلامة سهل. الحفاظ عليها على نطاق واسع هو المشكلة.",
     subhead:
-      "أداء أصحاب الامتياز واتساق العلامة في رؤية واحدة — لتصبح أقوى الفروع قالباً، لا استثناءً.",
+      "أداء أصحاب الامتياز واتساق العلامة في رؤية واحدة - لتصبح أقوى الفروع قالباً، لا استثناءً.",
     todayTitle: "اليوم",
     todayPoints: [
       "حسابات أصحاب الامتياز تُجمع شهرياً.",
@@ -994,7 +994,7 @@ const ar: SolutionsContent = {
       {
         iconKey: "gitBranch",
         title: "أداء أصحاب الامتياز",
-        body: "تجميعات حسابات حية حسب صاحب الامتياز والمنطقة والعلامة. اكشف الربع الأعلى مبكراً — والربع الأدنى أبكر.",
+        body: "تجميعات حسابات حية حسب صاحب الامتياز والمنطقة والعلامة. اكشف الربع الأعلى مبكراً - والربع الأدنى أبكر.",
         intelLayer: "Insights · Benchmarks",
       },
       {
@@ -1006,7 +1006,7 @@ const ar: SolutionsContent = {
       {
         iconKey: "network",
         title: "نقل أفضل الممارسات",
-        body: "Cross-Intelligence يكتشف ما يفعله أفضل أصحاب الامتياز بشكل مختلف — ويحزمه كخطط ينفذها البقية.",
+        body: "Cross-Intelligence يكتشف ما يفعله أفضل أصحاب الامتياز بشكل مختلف - ويحزمه كخطط ينفذها البقية.",
         intelLayer: "Cross-Intelligence",
       },
     ],
@@ -1025,7 +1025,7 @@ const ar: SolutionsContent = {
     eyebrow: "لمشغلي المطابخ السحابية",
     headline: "هامش التوصيل ضئيل. وعمولات المنصات تأكل ما تبقى.",
     subhead:
-      "هامش حقيقي لكل علامة افتراضية، لكل منصة، لكل مطبخ — مع رصد مدمج لصحة المنصات.",
+      "هامش حقيقي لكل علامة افتراضية، لكل منصة، لكل مطبخ - مع رصد مدمج لصحة المنصات.",
     todayTitle: "اليوم",
     todayPoints: [
       "عمولات المنصات تُسوى أسبوعياً.",
@@ -1048,7 +1048,7 @@ const ar: SolutionsContent = {
       {
         iconKey: "truck",
         title: "هامش حقيقي لكل منصة",
-        body: "DoorDash, UberEats, Deliveroo, Talabat — مع تسوية العمولات والتغليف والاستردادات والتعديلات لكل طلب.",
+        body: "DoorDash, UberEats, Deliveroo, Talabat - مع تسوية العمولات والتغليف والاستردادات والتعديلات لكل طلب.",
         intelLayer: "Insights · Revenue Assurance",
       },
       {
@@ -1060,7 +1060,7 @@ const ar: SolutionsContent = {
       {
         iconKey: "wifi",
         title: "رصد صحة المنصات",
-        body: "انجراف التقييم، تأخر الإرسال، ارتفاع الاستردادات، انقطاعات المنصات — مكشوفة عبر Watchtower في الوقت المناسب للتصعيد.",
+        body: "انجراف التقييم، تأخر الإرسال، ارتفاع الاستردادات، انقطاعات المنصات - مكشوفة عبر Watchtower في الوقت المناسب للتصعيد.",
         intelLayer: "Watchtower",
       },
     ],
@@ -1078,9 +1078,9 @@ const ar: SolutionsContent = {
 
   hospitalityGroups: {
     eyebrow: "لمشغلي الضيافة",
-    headline: "الأطعمة والمشروبات والغرف والفعاليات والتموين — كل منها له تقريره الخاص.",
+    headline: "الأطعمة والمشروبات والغرف والفعاليات والتموين - كل منها له تقريره الخاص.",
     subhead:
-      "رؤية قرار واحدة عبر كل مصدر إيراد — مع أهداف متكيفة لكل نوع خدمة وتنبؤ يحترم الفرق بين حفل عشاء وفطور متأخر.",
+      "رؤية قرار واحدة عبر كل مصدر إيراد - مع أهداف متكيفة لكل نوع خدمة وتنبؤ يحترم الفرق بين حفل عشاء وفطور متأخر.",
     todayTitle: "اليوم",
     todayPoints: [
       "تقارير الأطعمة والمشروبات منفصلة عن نظام إدارة الفنادق.",
@@ -1103,13 +1103,13 @@ const ar: SolutionsContent = {
       {
         iconKey: "hotel",
         title: "ذكاء عبر الإيرادات",
-        body: "الأطعمة والمشروبات، الغرف، الفعاليات، الولائم، والتموين موحدة — مع إسناد عبر رحلات الضيوف وأنواع الخدمة.",
+        body: "الأطعمة والمشروبات، الغرف، الفعاليات، الولائم، والتموين موحدة - مع إسناد عبر رحلات الضيوف وأنواع الخدمة.",
         intelLayer: "Cross-Intelligence",
       },
       {
         iconKey: "zap",
         title: "أهداف متكيفة",
-        body: "أهداف ومنطق إيقاع مستقلة لخدمة المطعم، الفطور المتأخر، الولائم، المؤتمرات، والفعاليات — لكل منها إيقاعها.",
+        body: "أهداف ومنطق إيقاع مستقلة لخدمة المطعم، الفطور المتأخر، الولائم، المؤتمرات، والفعاليات - لكل منها إيقاعها.",
         intelLayer: "Insights",
       },
       {
@@ -1174,7 +1174,7 @@ const fr: SolutionsContent = {
       {
         iconKey: "network",
         title: "Signaux de marche externes",
-        body: "Meteo, evenements locaux, prix concurrents, briefings IA quotidiens — pour que les equipes connaissent le contexte avant qu il ne touche les chiffres.",
+        body: "Meteo, evenements locaux, prix concurrents, briefings IA quotidiens - pour que les equipes connaissent le contexte avant qu il ne touche les chiffres.",
         intelLayer: "Watchtower",
       },
     ],
@@ -1194,7 +1194,7 @@ const fr: SolutionsContent = {
     eyebrow: "POUR LES EQUIPES FINANCE & FP&A",
     headline: "Trois jours pour comprendre la marge, c est trois jours de trop.",
     subhead:
-      "Sundae montre l ecart de marge le jour meme — pas a la cloture du mois — avec attribution des causes entre masse salariale, food cost et prix.",
+      "Sundae montre l ecart de marge le jour meme - pas a la cloture du mois - avec attribution des causes entre masse salariale, food cost et prix.",
     todayTitle: "Aujourd hui",
     todayPoints: [
       "Les ecarts apparaissent dans le P&L du mois passe.",
@@ -1223,13 +1223,13 @@ const fr: SolutionsContent = {
       {
         iconKey: "coins",
         title: "Rapprochement canaux et plateformes",
-        body: "Marge nette par canal — sur place, livraison, traiteur, retail — avec rapprochement des commissions plateformes en ligne.",
+        body: "Marge nette par canal - sur place, livraison, traiteur, retail - avec rapprochement des commissions plateformes en ligne.",
         intelLayer: "Insights · Revenue Assurance",
       },
       {
         iconKey: "chartArea",
         title: "Forecasts prospectifs",
-        body: "Forecasts a 14–90 jours pour chiffre d affaires, masse salariale et profit, avec intervalles de confiance et scenarios.",
+        body: "Forecasts a 14-90 jours pour chiffre d affaires, masse salariale et profit, avec intervalles de confiance et scenarios.",
         intelLayer: "Foresight",
       },
     ],
@@ -1249,7 +1249,7 @@ const fr: SolutionsContent = {
     eyebrow: "POUR LES CEO ET PROPRIETAIRES",
     headline: "Votre pire site est invisible jusqu au recap du jeudi.",
     subhead:
-      "Sundae Intelligence delivre des briefings IA quotidiens sur chaque marque et chaque etablissement — la verite du portefeuille arrive le matin, pas a la revue hebdo.",
+      "Sundae Intelligence delivre des briefings IA quotidiens sur chaque marque et chaque etablissement - la verite du portefeuille arrive le matin, pas a la revue hebdo.",
     todayTitle: "Aujourd hui",
     todayPoints: [
       "Le recap portefeuille arrive le mercredi.",
@@ -1278,13 +1278,13 @@ const fr: SolutionsContent = {
       {
         iconKey: "briefcase",
         title: "Benchmarks ancres pairs",
-        body: "Ou se situe votre portefeuille face a des pairs anonymises — RevPASH, ticket moyen, productivite du personnel, et plus.",
+        body: "Ou se situe votre portefeuille face a des pairs anonymises - RevPASH, ticket moyen, productivite du personnel, et plus.",
         intelLayer: "Benchmarks",
       },
       {
         iconKey: "scanSearch",
         title: "Intelligence marche et concurrents",
-        body: "Watchtower suit meteo, evenements, mouvements concurrents et signaux de fréquentation — au quotidien, pas au trimestre.",
+        body: "Watchtower suit meteo, evenements, mouvements concurrents et signaux de fréquentation - au quotidien, pas au trimestre.",
         intelLayer: "Watchtower",
       },
     ],
@@ -1303,7 +1303,7 @@ const fr: SolutionsContent = {
     eyebrow: "POUR LES EQUIPES MARKETING",
     headline: "Le temps de mesurer la campagne, le budget est deja depense.",
     subhead:
-      "Sundae remonte les signaux de performance des campagnes — couverts, ticket moyen, mix canaux, attribution — sous 24 heures, pour reallouer pendant que la campagne tourne encore.",
+      "Sundae remonte les signaux de performance des campagnes - couverts, ticket moyen, mix canaux, attribution - sous 24 heures, pour reallouer pendant que la campagne tourne encore.",
     todayTitle: "Aujourd hui",
     todayPoints: [
       "Le ROI campagne arrive une semaine apres la fin.",
@@ -1326,7 +1326,7 @@ const fr: SolutionsContent = {
       {
         iconKey: "megaphone",
         title: "Signaux de performance campagnes",
-        body: "Depenses liees aux couverts, ticket moyen et mix canaux — signaux disponibles sous 24 heures.",
+        body: "Depenses liees aux couverts, ticket moyen et mix canaux - signaux disponibles sous 24 heures.",
         intelLayer: "Insights · Marketing",
       },
       {
@@ -1338,7 +1338,7 @@ const fr: SolutionsContent = {
       {
         iconKey: "target",
         title: "Q&R conversationnel sur les campagnes",
-        body: "Demandez a Sundae quelle campagne a porte votre meilleur samedi — reponse sourcee en secondes, pas un deck en une semaine.",
+        body: "Demandez a Sundae quelle campagne a porte votre meilleur samedi - reponse sourcee en secondes, pas un deck en une semaine.",
         intelLayer: "Sundae Intelligence",
       },
     ],
@@ -1358,7 +1358,7 @@ const fr: SolutionsContent = {
     eyebrow: "POUR LES RH ET RESPONSABLES PEOPLE",
     headline: "L ecart de masse salariale arrive trop tard.",
     subhead:
-      "Pulse montre le %masse salariale en direct par site, la productivite par serveur et le risque d heures sup — service par service — pour que les decisions de planning ne se prennent plus a l instinct.",
+      "Pulse montre le %masse salariale en direct par site, la productivite par serveur et le risque d heures sup - service par service - pour que les decisions de planning ne se prennent plus a l instinct.",
     todayTitle: "Aujourd hui",
     todayPoints: [
       "Les changements de planning se font a l instinct.",
@@ -1387,7 +1387,7 @@ const fr: SolutionsContent = {
       {
         iconKey: "activity",
         title: "Productivite au niveau du serveur",
-        body: "Couverts par heure, taux d upsell, taux d annulation par serveur — remontes comme patterns a coacher, pas juste des chiffres.",
+        body: "Couverts par heure, taux d upsell, taux d annulation par serveur - remontes comme patterns a coacher, pas juste des chiffres.",
         intelLayer: "Insights · Labor",
       },
       {
@@ -1412,7 +1412,7 @@ const fr: SolutionsContent = {
     eyebrow: "POUR LES EQUIPES TECH ET DATA",
     headline: "Douze APIs vendeurs. Cinq formats de donnees. Aucun schema unifie.",
     subhead:
-      "Sundae unifie caisse, RH, stocks, livraison, comptabilite, reservations et CRM dans plus de 500 modeles de donnees gouvernes — avec API publique, webhooks, RBAC et audit trails inclus.",
+      "Sundae unifie caisse, RH, stocks, livraison, comptabilite, reservations et CRM dans plus de 500 modeles de donnees gouvernes - avec API publique, webhooks, RBAC et audit trails inclus.",
     todayTitle: "Aujourd hui",
     todayPoints: [
       "Chaque nouveau dashboard est un projet d integration de six semaines.",
@@ -1435,7 +1435,7 @@ const fr: SolutionsContent = {
       {
         iconKey: "database",
         title: "12 domaines de donnees unifies",
-        body: "Caisse, RH, stocks, achats, reservations, livraison, marketing, experience client, CRM, comptabilite et plus — modelises en 500+ schemas gouvernes.",
+        body: "Caisse, RH, stocks, achats, reservations, livraison, marketing, experience client, CRM, comptabilite et plus - modelises en 500+ schemas gouvernes.",
         intelLayer: "Architecture",
       },
       {
@@ -1447,7 +1447,7 @@ const fr: SolutionsContent = {
       {
         iconKey: "lock",
         title: "RBAC, audit trails, gouvernance",
-        body: "Acces par role multi-tenant, logging d audit complet, metriques gouvernees — prets, pas sur la roadmap.",
+        body: "Acces par role multi-tenant, logging d audit complet, metriques gouvernees - prets, pas sur la roadmap.",
         intelLayer: "Governance",
       },
     ],
@@ -1468,7 +1468,7 @@ const fr: SolutionsContent = {
     eyebrow: "POUR LES OPERATEURS MULTI-SITES",
     headline: "La visibilite sur un site est facile. Sur cinq, dix ou cinquante, c est le probleme.",
     subhead:
-      "Une plateforme, chaque site, en temps reel — avec patterns multi-sites remontes automatiquement et transfert des bonnes pratiques qui passe a l echelle.",
+      "Une plateforme, chaque site, en temps reel - avec patterns multi-sites remontes automatiquement et transfert des bonnes pratiques qui passe a l echelle.",
     todayTitle: "Aujourd hui",
     todayPoints: [
       "Chaque GM a ses propres rapports caisse.",
@@ -1491,7 +1491,7 @@ const fr: SolutionsContent = {
       {
         iconKey: "building2",
         title: "Classement portefeuille",
-        body: "Chaque site classe par RevPASH, productivite RH, marge et taux d exception — refresh pendant le service.",
+        body: "Chaque site classe par RevPASH, productivite RH, marge et taux d exception - refresh pendant le service.",
         intelLayer: "Pulse · Benchmarks",
       },
       {
@@ -1523,7 +1523,7 @@ const fr: SolutionsContent = {
     eyebrow: "POUR LES OPERATEURS FRANCHISES",
     headline: "Poser des standards de marque est facile. Les tenir a l echelle, c est le probleme.",
     subhead:
-      "Performance des franchises et coherence de marque dans une meme vue — pour que les meilleures franchises deviennent un modele, pas une exception.",
+      "Performance des franchises et coherence de marque dans une meme vue - pour que les meilleures franchises deviennent un modele, pas une exception.",
     todayTitle: "Aujourd hui",
     todayPoints: [
       "Les P&L franchises remontent au mois.",
@@ -1546,7 +1546,7 @@ const fr: SolutionsContent = {
       {
         iconKey: "gitBranch",
         title: "Performance franchises",
-        body: "Consolidations de P&L en direct par franchise, region et marque. Reperez le quartile haut tot — et le quartile bas plus tot encore.",
+        body: "Consolidations de P&L en direct par franchise, region et marque. Reperez le quartile haut tot - et le quartile bas plus tot encore.",
         intelLayer: "Insights · Benchmarks",
       },
       {
@@ -1558,7 +1558,7 @@ const fr: SolutionsContent = {
       {
         iconKey: "network",
         title: "Transfert des bonnes pratiques",
-        body: "Cross-Intelligence trouve ce que les meilleures franchises font differemment — et le packagise en plays que les autres peuvent jouer.",
+        body: "Cross-Intelligence trouve ce que les meilleures franchises font differemment - et le packagise en plays que les autres peuvent jouer.",
         intelLayer: "Cross-Intelligence",
       },
     ],
@@ -1577,7 +1577,7 @@ const fr: SolutionsContent = {
     eyebrow: "POUR LES CLOUD KITCHENS",
     headline: "La marge livraison est mince. Les commissions plateformes mangent ce qui reste.",
     subhead:
-      "Marge reelle par marque virtuelle, par plateforme, par cuisine — avec monitoring sante des plateformes inclus.",
+      "Marge reelle par marque virtuelle, par plateforme, par cuisine - avec monitoring sante des plateformes inclus.",
     todayTitle: "Aujourd hui",
     todayPoints: [
       "Les commissions plateformes se rapprochent au pas hebdo.",
@@ -1600,7 +1600,7 @@ const fr: SolutionsContent = {
       {
         iconKey: "truck",
         title: "Marge reelle par plateforme",
-        body: "DoorDash, UberEats, Deliveroo, Talabat — avec commission, packaging, remboursements et ajustements rapproches par commande.",
+        body: "DoorDash, UberEats, Deliveroo, Talabat - avec commission, packaging, remboursements et ajustements rapproches par commande.",
         intelLayer: "Insights · Revenue Assurance",
       },
       {
@@ -1612,7 +1612,7 @@ const fr: SolutionsContent = {
       {
         iconKey: "wifi",
         title: "Monitoring sante plateformes",
-        body: "Drift de note, latence dispatch, pics de remboursements, pannes plateformes — remontes via Watchtower a temps pour escalader.",
+        body: "Drift de note, latence dispatch, pics de remboursements, pannes plateformes - remontes via Watchtower a temps pour escalader.",
         intelLayer: "Watchtower",
       },
     ],
@@ -1632,7 +1632,7 @@ const fr: SolutionsContent = {
     eyebrow: "POUR LES GROUPES D HOSPITALITE",
     headline: "F&B, chambres, evenements et traiteur ont chacun leur propre rapport.",
     subhead:
-      "Une seule vue de decision sur chaque flux de revenu — avec objectifs adaptatifs par type de service et forecasts qui respectent la difference entre un banquet et un brunch.",
+      "Une seule vue de decision sur chaque flux de revenu - avec objectifs adaptatifs par type de service et forecasts qui respectent la difference entre un banquet et un brunch.",
     todayTitle: "Aujourd hui",
     todayPoints: [
       "Rapports F&B separes du PMS.",
@@ -1655,13 +1655,13 @@ const fr: SolutionsContent = {
       {
         iconKey: "hotel",
         title: "Intelligence cross-revenu",
-        body: "F&B, chambres, evenements, banquets et traiteur unifies — avec attribution sur les parcours clients et types de service.",
+        body: "F&B, chambres, evenements, banquets et traiteur unifies - avec attribution sur les parcours clients et types de service.",
         intelLayer: "Cross-Intelligence",
       },
       {
         iconKey: "zap",
         title: "Objectifs adaptatifs",
-        body: "Objectifs et logique de cadence distincts pour restaurant, brunch, banquet, conference et evenement — chacun avec son rythme.",
+        body: "Objectifs et logique de cadence distincts pour restaurant, brunch, banquet, conference et evenement - chacun avec son rythme.",
         intelLayer: "Insights",
       },
       {
@@ -1714,7 +1714,7 @@ const es: SolutionsContent = {
       {
         iconKey: "activity",
         title: "Inteligencia de turno en vivo",
-        body: "Ritmo, mano de obra, fugas, cortesias, anulaciones y excepciones de servicio — actualizadas durante el turno, no despues.",
+        body: "Ritmo, mano de obra, fugas, cortesias, anulaciones y excepciones de servicio - actualizadas durante el turno, no despues.",
         intelLayer: "Pulse",
       },
       {
@@ -1726,7 +1726,7 @@ const es: SolutionsContent = {
       {
         iconKey: "network",
         title: "Senales externas de mercado",
-        body: "Clima, eventos locales, precios de competidores, briefings IA diarios — para que los equipos conozcan el contexto antes de que afecte los numeros.",
+        body: "Clima, eventos locales, precios de competidores, briefings IA diarios - para que los equipos conozcan el contexto antes de que afecte los numeros.",
         intelLayer: "Watchtower",
       },
     ],
@@ -1746,7 +1746,7 @@ const es: SolutionsContent = {
     eyebrow: "PARA FINANZAS Y FP&A",
     headline: "Tres dias para entender el margen son tres dias tarde.",
     subhead:
-      "Sundae muestra la varianza de margen el dia que ocurre — no en el cierre del mes — con atribucion por mano de obra, costo de comida y precios.",
+      "Sundae muestra la varianza de margen el dia que ocurre - no en el cierre del mes - con atribucion por mano de obra, costo de comida y precios.",
     todayTitle: "Hoy",
     todayPoints: [
       "La varianza aparece en el P&L del mes pasado.",
@@ -1775,13 +1775,13 @@ const es: SolutionsContent = {
       {
         iconKey: "coins",
         title: "Conciliacion de canales y plataformas",
-        body: "Margen neto por canal — salon, delivery, catering, retail — con conciliacion de comisiones de plataforma en linea.",
+        body: "Margen neto por canal - salon, delivery, catering, retail - con conciliacion de comisiones de plataforma en linea.",
         intelLayer: "Insights · Revenue Assurance",
       },
       {
         iconKey: "chartArea",
         title: "Forecasts a futuro",
-        body: "Forecasts a 14–90 dias para ingresos, mano de obra y utilidad, con bandas de confianza y escenarios.",
+        body: "Forecasts a 14-90 dias para ingresos, mano de obra y utilidad, con bandas de confianza y escenarios.",
         intelLayer: "Foresight",
       },
     ],
@@ -1801,7 +1801,7 @@ const es: SolutionsContent = {
     eyebrow: "PARA CEOS Y DUENOS",
     headline: "Tu peor local es invisible hasta el resumen del jueves.",
     subhead:
-      "Sundae Intelligence entrega briefings diarios con IA en cada marca y cada local — la verdad del portafolio llega en la manana, no en la revision semanal.",
+      "Sundae Intelligence entrega briefings diarios con IA en cada marca y cada local - la verdad del portafolio llega en la manana, no en la revision semanal.",
     todayTitle: "Hoy",
     todayPoints: [
       "El resumen semanal del portafolio llega el miercoles.",
@@ -1830,13 +1830,13 @@ const es: SolutionsContent = {
       {
         iconKey: "briefcase",
         title: "Benchmarks anclados en pares",
-        body: "Donde se ubica tu portafolio frente a pares anonimos — RevPASH, ticket promedio, productividad, y mas.",
+        body: "Donde se ubica tu portafolio frente a pares anonimos - RevPASH, ticket promedio, productividad, y mas.",
         intelLayer: "Benchmarks",
       },
       {
         iconKey: "scanSearch",
         title: "Inteligencia de mercado y competencia",
-        body: "Watchtower sigue clima, eventos, movimientos de competidores y senales de afluencia — diario, no trimestral.",
+        body: "Watchtower sigue clima, eventos, movimientos de competidores y senales de afluencia - diario, no trimestral.",
         intelLayer: "Watchtower",
       },
     ],
@@ -1855,7 +1855,7 @@ const es: SolutionsContent = {
     eyebrow: "PARA LIDERES DE MARKETING",
     headline: "Cuando mides la campana, el presupuesto ya esta gastado.",
     subhead:
-      "Sundae expone senales de desempeno de la campana — comensales, ticket, mix de canales, atribucion — en menos de 24 horas, para reasignar mientras la campana sigue corriendo.",
+      "Sundae expone senales de desempeno de la campana - comensales, ticket, mix de canales, atribucion - en menos de 24 horas, para reasignar mientras la campana sigue corriendo.",
     todayTitle: "Hoy",
     todayPoints: [
       "El ROI de la campana llega una semana despues del cierre.",
@@ -1878,7 +1878,7 @@ const es: SolutionsContent = {
       {
         iconKey: "megaphone",
         title: "Senales de desempeno de campana",
-        body: "Gasto vinculado a comensales, ticket promedio y mix de canales — senales disponibles en menos de 24 horas.",
+        body: "Gasto vinculado a comensales, ticket promedio y mix de canales - senales disponibles en menos de 24 horas.",
         intelLayer: "Insights · Marketing",
       },
       {
@@ -1890,7 +1890,7 @@ const es: SolutionsContent = {
       {
         iconKey: "target",
         title: "Q&A conversacional sobre campanas",
-        body: "Preguntale a Sundae que campana impulso tu mejor sabado — respuesta con fuente en segundos, no un deck en una semana.",
+        body: "Preguntale a Sundae que campana impulso tu mejor sabado - respuesta con fuente en segundos, no un deck en una semana.",
         intelLayer: "Sundae Intelligence",
       },
     ],
@@ -1910,7 +1910,7 @@ const es: SolutionsContent = {
     eyebrow: "PARA RRHH Y LIDERES DE PEOPLE",
     headline: "La varianza de mano de obra aparece tarde.",
     subhead:
-      "Pulse muestra el %mano de obra en vivo por local, productividad por mesero y riesgo de horas extra — turno a turno, no mes a mes — para que las decisiones de horario dejen de ser por instinto.",
+      "Pulse muestra el %mano de obra en vivo por local, productividad por mesero y riesgo de horas extra - turno a turno, no mes a mes - para que las decisiones de horario dejen de ser por instinto.",
     todayTitle: "Hoy",
     todayPoints: [
       "Los cambios de horario se hacen por instinto.",
@@ -1939,7 +1939,7 @@ const es: SolutionsContent = {
       {
         iconKey: "activity",
         title: "Productividad por mesero",
-        body: "Comensales por hora, tasa de upsell, tasa de anulacion por mesero — expuestos como patrones para coachear, no solo numeros.",
+        body: "Comensales por hora, tasa de upsell, tasa de anulacion por mesero - expuestos como patrones para coachear, no solo numeros.",
         intelLayer: "Insights · Labor",
       },
       {
@@ -1964,7 +1964,7 @@ const es: SolutionsContent = {
     eyebrow: "PARA EQUIPOS DE TECH Y DATA",
     headline: "Doce APIs de proveedores. Cinco formatos de datos. Cero esquema unificado.",
     subhead:
-      "Sundae unifica POS, mano de obra, inventario, delivery, contabilidad, reservas y CRM en mas de 500 modelos de datos gobernados — con API publica, webhooks, RBAC y audit trails listos.",
+      "Sundae unifica POS, mano de obra, inventario, delivery, contabilidad, reservas y CRM en mas de 500 modelos de datos gobernados - con API publica, webhooks, RBAC y audit trails listos.",
     todayTitle: "Hoy",
     todayPoints: [
       "Cada nuevo dashboard es un proyecto de integracion de seis semanas.",
@@ -1987,7 +1987,7 @@ const es: SolutionsContent = {
       {
         iconKey: "database",
         title: "12 dominios de datos unificados",
-        body: "POS, mano de obra, inventario, compras, reservas, delivery, marketing, experiencia del cliente, CRM, contabilidad y mas — modelados en 500+ esquemas gobernados.",
+        body: "POS, mano de obra, inventario, compras, reservas, delivery, marketing, experiencia del cliente, CRM, contabilidad y mas - modelados en 500+ esquemas gobernados.",
         intelLayer: "Architecture",
       },
       {
@@ -1999,7 +1999,7 @@ const es: SolutionsContent = {
       {
         iconKey: "lock",
         title: "RBAC, audit trails, gobierno",
-        body: "Acceso por rol multi-tenant, logging de auditoria completo, metricas gobernadas — listas, no en el roadmap.",
+        body: "Acceso por rol multi-tenant, logging de auditoria completo, metricas gobernadas - listas, no en el roadmap.",
         intelLayer: "Governance",
       },
     ],
@@ -2020,7 +2020,7 @@ const es: SolutionsContent = {
     eyebrow: "PARA OPERADORES MULTI-LOCAL",
     headline: "Ver un local es facil. Ver cinco, diez o cincuenta es el problema.",
     subhead:
-      "Una plataforma, cada local, en tiempo real — con patrones multi-local emergiendo automaticamente y transferencia de mejores practicas que escala.",
+      "Una plataforma, cada local, en tiempo real - con patrones multi-local emergiendo automaticamente y transferencia de mejores practicas que escala.",
     todayTitle: "Hoy",
     todayPoints: [
       "Cada gerente tiene sus propios reportes de POS.",
@@ -2043,7 +2043,7 @@ const es: SolutionsContent = {
       {
         iconKey: "building2",
         title: "Ranking de portafolio",
-        body: "Cada local rankeado por RevPASH, productividad, margen y tasa de excepciones — refrescando durante el turno.",
+        body: "Cada local rankeado por RevPASH, productividad, margen y tasa de excepciones - refrescando durante el turno.",
         intelLayer: "Pulse · Benchmarks",
       },
       {
@@ -2075,7 +2075,7 @@ const es: SolutionsContent = {
     eyebrow: "PARA OPERADORES DE FRANQUICIAS",
     headline: "Fijar estandares de marca es facil. Mantenerlos a escala es el problema.",
     subhead:
-      "Desempeno de franquiciados y consistencia de marca en una sola vista — para que los mejores franquiciados sean plantilla, no excepcion.",
+      "Desempeno de franquiciados y consistencia de marca en una sola vista - para que los mejores franquiciados sean plantilla, no excepcion.",
     todayTitle: "Hoy",
     todayPoints: [
       "Los P&L de franquiciados se consolidan al mes.",
@@ -2098,7 +2098,7 @@ const es: SolutionsContent = {
       {
         iconKey: "gitBranch",
         title: "Desempeno de franquiciados",
-        body: "Consolidaciones de P&L en vivo por franquiciado, region y marca. Detecta el cuartil alto temprano — y el bajo aun antes.",
+        body: "Consolidaciones de P&L en vivo por franquiciado, region y marca. Detecta el cuartil alto temprano - y el bajo aun antes.",
         intelLayer: "Insights · Benchmarks",
       },
       {
@@ -2110,7 +2110,7 @@ const es: SolutionsContent = {
       {
         iconKey: "network",
         title: "Transferencia de mejores practicas",
-        body: "Cross-Intelligence encuentra que hacen distinto los mejores franquiciados — y lo empaqueta como jugadas que el resto puede correr.",
+        body: "Cross-Intelligence encuentra que hacen distinto los mejores franquiciados - y lo empaqueta como jugadas que el resto puede correr.",
         intelLayer: "Cross-Intelligence",
       },
     ],
@@ -2129,7 +2129,7 @@ const es: SolutionsContent = {
     eyebrow: "PARA CLOUD KITCHENS",
     headline: "El margen de delivery es ajustado. Las comisiones de plataforma se comen el resto.",
     subhead:
-      "Margen real por marca virtual, por plataforma, por cocina — con monitoreo de salud de plataformas integrado.",
+      "Margen real por marca virtual, por plataforma, por cocina - con monitoreo de salud de plataformas integrado.",
     todayTitle: "Hoy",
     todayPoints: [
       "Las comisiones se concilian semanalmente.",
@@ -2152,7 +2152,7 @@ const es: SolutionsContent = {
       {
         iconKey: "truck",
         title: "Margen real por plataforma",
-        body: "DoorDash, UberEats, Deliveroo, Talabat — con comision, empaque, reembolsos y ajustes conciliados por orden.",
+        body: "DoorDash, UberEats, Deliveroo, Talabat - con comision, empaque, reembolsos y ajustes conciliados por orden.",
         intelLayer: "Insights · Revenue Assurance",
       },
       {
@@ -2164,7 +2164,7 @@ const es: SolutionsContent = {
       {
         iconKey: "wifi",
         title: "Monitoreo de salud de plataformas",
-        body: "Drift de rating, latencia de despacho, picos de reembolso, caidas de plataforma — emergidos via Watchtower a tiempo para escalar.",
+        body: "Drift de rating, latencia de despacho, picos de reembolso, caidas de plataforma - emergidos via Watchtower a tiempo para escalar.",
         intelLayer: "Watchtower",
       },
     ],
@@ -2184,7 +2184,7 @@ const es: SolutionsContent = {
     eyebrow: "PARA OPERADORES DE HOSPITALITY",
     headline: "F&B, habitaciones, eventos y catering tienen cada uno su propio reporte.",
     subhead:
-      "Una sola vista de decision en cada flujo de ingreso — con objetivos adaptativos por tipo de servicio y forecasting que respeta la diferencia entre un banquete y un brunch.",
+      "Una sola vista de decision en cada flujo de ingreso - con objetivos adaptativos por tipo de servicio y forecasting que respeta la diferencia entre un banquete y un brunch.",
     todayTitle: "Hoy",
     todayPoints: [
       "Reportes de F&B separados del PMS.",
@@ -2207,13 +2207,13 @@ const es: SolutionsContent = {
       {
         iconKey: "hotel",
         title: "Inteligencia cross-revenue",
-        body: "F&B, habitaciones, eventos, banquetes y catering unificados — con atribucion en jornadas de huesped y tipos de servicio.",
+        body: "F&B, habitaciones, eventos, banquetes y catering unificados - con atribucion en jornadas de huesped y tipos de servicio.",
         intelLayer: "Cross-Intelligence",
       },
       {
         iconKey: "zap",
         title: "Objetivos adaptativos",
-        body: "Objetivos y logica de ritmo por separado para restaurante, brunch, banquete, conferencia y evento — cada uno con su cadencia.",
+        body: "Objetivos y logica de ritmo por separado para restaurante, brunch, banquete, conferencia y evento - cada uno con su cadencia.",
         intelLayer: "Insights",
       },
       {
@@ -2247,7 +2247,7 @@ export const solutionsContent: RequiredEnglishLocalizedRecord<SolutionsContent> 
   es,
 };
 
-/* Backward-compat single-locale exports — kept for any non-i18n consumer
+/* Backward-compat single-locale exports - kept for any non-i18n consumer
    (e.g. the /solutions hub page meta or a future static export). Page
    wrappers should resolve localized records through getLocalizedCopy. */
 export const operationsLeaders = en.operationsLeaders;

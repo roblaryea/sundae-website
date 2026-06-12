@@ -318,7 +318,7 @@ export default function ReportProductPage() {
             height={1000}
             dark="/images/product/2026-fresh/benchmark-overview-dark.png"
             light="/images/product/2026-fresh/benchmark-overview.png"
-            alt="Sundae Report — benchmark overview with RevPASH index, health score, and peer-cohort comparison"
+            alt="Sundae Report - benchmark overview with RevPASH index, health score, and peer-cohort comparison"
           />
         </div>
       </PageHero>
@@ -372,7 +372,7 @@ export default function ReportProductPage() {
                     <div className="w-16 h-16 bg-[var(--surface-subtle)] rounded-full flex items-center justify-center mx-auto mb-4">
                       <SundaeIcon name={["benchmarking","intelligence","insights"][index] as SundaeIconName} size="xl" className="text-white" />
                     </div>
-                    <div className="text-sm text-[#60A5FA] font-medium mb-2">Step {index + 1}</div>
+                    <div className="text-sm text-[#FF8473] font-medium mb-2">Step {index + 1}</div>
                     <CardTitle className="text-[var(--text-primary)]">{step.title}</CardTitle>
                   </CardHeader>
                   <CardContent>

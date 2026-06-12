@@ -572,7 +572,7 @@ Le problème fondamental : l’attention humaine ne scale pas linéairement. Dou
 
 **Le jalon**: avant de signer le bail du site 18, unifiez chaque source de données dans une seule plateforme d’intelligence. Transactions POS, planning de main-d’œuvre, inventaires, actuals financiers, feedback clients - tout alimente automatiquement un seul système, normalisé et réconcilié sans intervention humaine.
 
-**Ce que Sundae apporte ici**: Sundae Scout se connecte à vos systèmes POS, paie, inventaire et comptabilité existants. La normalisation des données se fait automatiquement - fini la réconciliation de formats différents, la correction des conventions de nommage ou la fusion manuelle des exports. Une plateforme, une source de vérité, mise à jour en continu.
+**Ce que Sundae apporte ici**: Sundae Core se connecte à vos systèmes POS, paie, inventaire et comptabilité existants. La normalisation des données se fait automatiquement - fini la réconciliation de formats différents, la correction des conventions de nommage ou la fusion manuelle des exports. Une plateforme, une source de vérité, mise à jour en continu.
 
 **Le gain**: votre analyste arrête d’assembler la donnée et commence à l’analyser. Les rapports qui prenaient 20 heures par semaine se génèrent désormais automatiquement. Et surtout, quand vous ouvrez les sites 18, 19 et 20, leur ajout à la plateforme d’intelligence prend des heures - pas des semaines d’intégration manuelle.
 

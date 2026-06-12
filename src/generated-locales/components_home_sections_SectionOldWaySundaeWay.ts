@@ -3,7 +3,7 @@
 export const generatedLocalCopy = {
   "localizedCopy": {
     "de": {
-      "eyebrow": "VON REPORTING-VERZÖGERUNG ZU BETRIEBSGESCHWINDIGKEIT",
+      "eyebrow": "VOM REPORTING-RÜCKSTAND & BAUCHGEFÜHL - ZU OPERATIVEM TEMPO & FUNDIERTEN ENTSCHEIDUNGEN",
       "headlinePre": "Berichte zeigen, was passiert ist.",
       "headlinePost": "zeigt dir, was als Nächstes zu tun ist.",
       "oldWayLabel": "Der alte Weg",
@@ -33,16 +33,16 @@ export const generatedLocalCopy = {
       "closing": "Die gleichen Daten. Schnellere Entscheidungen. Bessere Maßnahmen."
     },
     "fr": {
-      "eyebrow": "DE LA LATENCE DES RAPPORTS À LA VITESSE D'OPÉRATION",
+      "eyebrow": "DU RETARD DES RAPPORTS & DE L'INTUITION - À LA VITESSE D'EXÉCUTION & AUX DÉCISIONS ÉCLAIRÉES",
       "headlinePre": "Les rapports vous indiquent ce qui s'est passé.",
       "headlinePost": "vous dit quoi faire ensuite.",
       "oldWayLabel": "L'ancienne méthode",
       "sundaeWayLabel": "La méthode Sundae",
       "oldWay": [
         "Exporter les chiffres.",
-        "Débattre sur le tableau de bord approprié.",
+        "Débattre du bon tableau de bord.",
         "Demander à un analyste.",
-        "Réagir après la semaine écoulée."
+        "Réagir une fois la semaine écoulée."
       ],
       "sundaeWay": [
         "Détecter le problème.",
@@ -63,7 +63,7 @@ export const generatedLocalCopy = {
       "closing": "Même données. Décision plus rapide. Meilleure action."
     },
     "es": {
-      "eyebrow": "DE LA RETRASO EN INFORMES A VELOCIDAD OPERATIVA",
+      "eyebrow": "DEL RETRASO EN LOS REPORTES Y LA INTUICIÓN - A LA VELOCIDAD OPERATIVA Y LAS DECISIONES INFORMADAS",
       "headlinePre": "Los informes te dicen qué pasó.",
       "headlinePost": "te dice qué hacer a continuación.",
       "oldWayLabel": "La forma antigua",
@@ -93,7 +93,7 @@ export const generatedLocalCopy = {
       "closing": "Los mismos datos. Decisiones más rápidas. Mejor acción."
     },
     "ar": {
-      "eyebrow": "من تأخير التقارير إلى سرعة التشغيل",
+      "eyebrow": "من تأخر التقارير والحدس - إلى سرعة التشغيل والقرارات المدروسة",
       "headlinePre": "التقارير تخبرك بما حدث.",
       "headlinePost": "تخبرك بما يجب القيام به بعد ذلك.",
       "oldWayLabel": "الطريقة القديمة",
@@ -123,14 +123,14 @@ export const generatedLocalCopy = {
       "closing": "نفس البيانات. قرار أسرع. إجراء أفضل."
     },
     "nl": {
-      "eyebrow": "VAN REPORTAGEVERTRAGING NAAR OPERATIESNELHEID",
+      "eyebrow": "VAN RAPPORTAGE-ACHTERSTAND & ONDERBUIKGEVOEL - NAAR OPERATIONELE SNELHEID & ONDERBOUWDE BESLISSINGEN",
       "headlinePre": "Rapporten vertellen wat er is gebeurd.",
       "headlinePost": "vertelt je wat je daarna moet doen.",
       "oldWayLabel": "De oude manier",
-      "sundaeWayLabel": "De Sundae manier",
+      "sundaeWayLabel": "De Sundae-manier",
       "oldWay": [
         "Exporteer de cijfers.",
-        "Debatteer welke dashboard juist is.",
+        "Debatteer welk dashboard juist is.",
         "Vraag een analist.",
         "Reageer nadat de week voorbij is."
       ],
@@ -153,11 +153,11 @@ export const generatedLocalCopy = {
       "closing": "Dezelfde data. Snellere beslissing. Betere actie."
     },
     "ur": {
-      "eyebrow": "رپورٹنگ کی تاخیر سے آپریٹنگ کی رفتار تک",
+      "eyebrow": "رپورٹنگ کی تاخیر اور اندازے سے - آپریٹنگ کی رفتار اور باخبر فیصلوں تک",
       "headlinePre": "رپورٹس آپ کو بتاتی ہیں کہ کیا ہوا۔",
       "headlinePost": "آپ کو بتاتی ہیں کہ اگلا کیا کرنا ہے۔",
       "oldWayLabel": "پرانا طریقہ",
-      "sundaeWayLabel": "The Sundae way",
+      "sundaeWayLabel": "Sundae کا طریقہ",
       "oldWay": [
         "اعداد و شمار برآمد کریں۔",
         "یہ بحث کریں کہ کون سا ڈیش بورڈ صحیح ہے۔",
@@ -174,16 +174,16 @@ export const generatedLocalCopy = {
       "sundaeWayCaption": "منگل کو 11:14 تک۔",
       "replacesPrefix": "ڈیٹا اور عمل کے درمیان تاخیر کو تبدیل کرتا ہے:",
       "replaces": [
-        "ایکسلی برآمدات",
-        "POS dashboards",
-        "بی آئی ڈیش بورڈز",
+        "ایکسل برآمدات",
+        "POS ڈیش بورڈز",
+        "BI ڈیش بورڈز",
         "تجزیہ کار کی قطار",
         "ہفتہ وار جائزہ اجلاس"
       ],
       "closing": "ایک ہی ڈیٹا۔ تیز فیصلہ۔ بہتر عمل۔"
     },
     "pt": {
-      "eyebrow": "DE RELATÓRIOS LENTOS A VELOCIDADE OPERACIONAL",
+      "eyebrow": "DO ATRASO DOS RELATÓRIOS & DO ACHISMO - À VELOCIDADE OPERACIONAL & ÀS DECISÕES INFORMADAS",
       "headlinePre": "Relatórios mostram o que aconteceu.",
       "headlinePost": "mostra o que fazer a seguir.",
       "oldWayLabel": "O jeito antigo",
@@ -213,7 +213,7 @@ export const generatedLocalCopy = {
       "closing": "Mesmos dados. Decisão mais rápida. Ação melhor."
     },
     "it": {
-      "eyebrow": "DA UN RITARDO NEL REPORTING A UNA VELOCITÀ OPERATIVA",
+      "eyebrow": "DAL RITARDO DEI REPORT & DALL'ISTINTO - ALLA VELOCITÀ OPERATIVA & ALLE DECISIONI INFORMATE",
       "headlinePre": "I report ti dicono cosa è successo.",
       "headlinePost": "ti dicono cosa fare dopo.",
       "oldWayLabel": "Il vecchio modo",
@@ -243,9 +243,9 @@ export const generatedLocalCopy = {
       "closing": "Stessi dati. Decisione più veloce. Azione migliore."
     },
     "hi": {
-      "eyebrow": "रिपोर्टिंग में देरी से संचालन की गति तक",
-      "headlinePre": "रिपोर्ट्स आपको बताते हैं कि क्या हुआ।",
-      "headlinePost": "आपको अगला कदम क्या उठाना है।",
+      "eyebrow": "रिपोर्टिंग की देरी और अंदाज़े से - संचालन की रफ़्तार और सुविचारित फ़ैसलों तक",
+      "headlinePre": "रिपोर्ट्स आपको बताती हैं कि क्या हुआ।",
+      "headlinePost": "आपको बताता है कि आगे क्या करना है।",
       "oldWayLabel": "पुराना तरीका",
       "sundaeWayLabel": "Sundae का तरीका",
       "oldWay": [
@@ -273,7 +273,7 @@ export const generatedLocalCopy = {
       "closing": "एक ही डेटा। तेज निर्णय। बेहतर कार्रवाई।"
     },
     "zh-Hans": {
-      "eyebrow": "从报告滞后到运营速度",
+      "eyebrow": "从报告滞后与凭感觉--到运营速度与有据决策",
       "headlinePre": "报告告诉你发生了什么。",
       "headlinePost": "告诉你接下来该做什么。",
       "oldWayLabel": "旧方式",
@@ -303,7 +303,7 @@ export const generatedLocalCopy = {
       "closing": "相同的数据。更快的决策。更好的行动。"
     },
     "pl": {
-      "eyebrow": "OD OPÓŹNIENIA W RAPORTOWANIU DO SZYBKOŚCI DZIAŁANIA",
+      "eyebrow": "OD OPÓŹNIONYCH RAPORTÓW I PRZECZUCIA - DO TEMPA DZIAŁANIA I ŚWIADOMYCH DECYZJI",
       "headlinePre": "Raporty mówią, co się wydarzyło.",
       "headlinePost": "mówi, co zrobić dalej.",
       "oldWayLabel": "Stary sposób",
@@ -312,7 +312,7 @@ export const generatedLocalCopy = {
         "Eksportuj liczby.",
         "Dyskutuj, który pulpit nawigacyjny jest właściwy.",
         "Zapytaj analityka.",
-        "Reaguj po tygodniu."
+        "Reaguj po zakończeniu tygodnia."
       ],
       "sundaeWay": [
         "Wykryj problem.",
@@ -333,7 +333,7 @@ export const generatedLocalCopy = {
       "closing": "Te same dane. Szybsza decyzja. Lepsze działanie."
     },
     "tr": {
-      "eyebrow": "RAPOR GECİKMESİNDEN İŞLETME HIZINA",
+      "eyebrow": "RAPOR GECİKMESİ VE SEZGİDEN - OPERASYONEL HIZA VE BİLİNÇLİ KARARLARA",
       "headlinePre": "Raporlar, ne olduğunu söyler.",
       "headlinePost": "sana ne yapman gerektiğini söyler.",
       "oldWayLabel": "Eski yol",
@@ -363,7 +363,7 @@ export const generatedLocalCopy = {
       "closing": "Aynı veri. Daha hızlı karar. Daha iyi eylem."
     },
     "ja": {
-      "eyebrow": "報告の遅れから運営のスピードへ",
+      "eyebrow": "報告の遅れと勘から--運営のスピードと根拠ある意思決定へ",
       "headlinePre": "レポートは何が起こったかを教えます。",
       "headlinePost": "次に何をすべきかを教えます。",
       "oldWayLabel": "従来の方法",
@@ -378,7 +378,7 @@ export const generatedLocalCopy = {
         "問題を検出する。",
         "原因を説明する。",
         "市場を比較する。",
-        "シフトが終わる前に行動する。"
+        "変化が終わる前に行動する。"
       ],
       "oldWayCaption": "金曜日のレビュー会議までに。",
       "sundaeWayCaption": "火曜日の11:14までに。",
@@ -393,7 +393,7 @@ export const generatedLocalCopy = {
       "closing": "同じデータ。より早い意思決定。より良い行動。"
     },
     "ko": {
-      "eyebrow": "보고 지연에서 운영 속도로",
+      "eyebrow": "보고 지연과 감(感)에서 - 운영 속도와 근거 있는 결정으로",
       "headlinePre": "보고서는 무슨 일이 있었는지를 알려줍니다.",
       "headlinePost": "다음에 무엇을 해야 할지를 알려줍니다.",
       "oldWayLabel": "구식 방법",
@@ -423,7 +423,7 @@ export const generatedLocalCopy = {
       "closing": "같은 데이터. 더 빠른 결정. 더 나은 행동."
     },
     "vi": {
-      "eyebrow": "TỪ TRÌ HOÃN BÁO CÁO ĐẾN TỐC ĐỘ VẬN HÀNH",
+      "eyebrow": "TỪ BÁO CÁO CHẬM TRỄ & CẢM TÍNH - ĐẾN TỐC ĐỘ VẬN HÀNH & QUYẾT ĐỊNH CÓ CƠ SỞ",
       "headlinePre": "Báo cáo cho bạn biết điều gì đã xảy ra.",
       "headlinePost": "cho bạn biết điều gì cần làm tiếp theo.",
       "oldWayLabel": "Cách cũ",
@@ -453,7 +453,7 @@ export const generatedLocalCopy = {
       "closing": "Cùng dữ liệu. Quyết định nhanh hơn. Hành động tốt hơn."
     },
     "id": {
-      "eyebrow": "DARI KETERLAMBATAN LAPORAN KE KECEPATAN OPERASI",
+      "eyebrow": "DARI LAPORAN YANG LAMBAT & FIRASAT - KE KECEPATAN OPERASI & KEPUTUSAN YANG TEPAT",
       "headlinePre": "Laporan memberi tahu Anda apa yang terjadi.",
       "headlinePost": "memberi tahu Anda apa yang harus dilakukan selanjutnya.",
       "oldWayLabel": "Cara lama",
@@ -462,7 +462,7 @@ export const generatedLocalCopy = {
         "Ekspor angka.",
         "Perdebatkan dashboard mana yang benar.",
         "Tanya seorang analis.",
-        "Reaksi setelah minggu berlalu."
+        "Bereaksi setelah minggu berlalu."
       ],
       "sundaeWay": [
         "Deteksi masalah.",
@@ -483,7 +483,7 @@ export const generatedLocalCopy = {
       "closing": "Data yang sama. Keputusan lebih cepat. Tindakan lebih baik."
     },
     "ro": {
-      "eyebrow": "DE LA ÎNTÂRZIERI ÎN RAPORTARE LA VITEZĂ DE OPERARE",
+      "eyebrow": "DE LA RAPOARTE ÎNTÂRZIATE & INTUIȚIE - LA VITEZĂ DE OPERARE & DECIZII INFORMATE",
       "headlinePre": "Rapoartele îți spun ce s-a întâmplat.",
       "headlinePost": "îți spune ce să faci în continuare.",
       "oldWayLabel": "Metoda veche",
@@ -513,11 +513,11 @@ export const generatedLocalCopy = {
       "closing": "Aceleași date. Decizie mai rapidă. Acțiune mai bună."
     },
     "bn": {
-      "eyebrow": "রিপোর্টিং বিলম্ব থেকে অপারেটিং গতিতে",
+      "eyebrow": "রিপোর্টিং বিলম্ব ও আন্দাজ থেকে - অপারেটিং গতি ও তথ্যভিত্তিক সিদ্ধান্তে",
       "headlinePre": "রিপোর্টগুলি আপনাকে কী ঘটেছে তা জানায়।",
       "headlinePost": "আপনাকে পরবর্তী কী করতে হবে তা জানায়।",
       "oldWayLabel": "পুরানো পদ্ধতি",
-      "sundaeWayLabel": "The Sundae way",
+      "sundaeWayLabel": "Sundae পদ্ধতি",
       "oldWay": [
         "সংখ্যাগুলি রপ্তানি করুন।",
         "কোন ড্যাশবোর্ড সঠিক তা নিয়ে বিতর্ক করুন।",
@@ -535,22 +535,22 @@ export const generatedLocalCopy = {
       "replacesPrefix": "তথ্য এবং কর্মের মধ্যে বিলম্ব প্রতিস্থাপন করে:",
       "replaces": [
         "এক্সেল রপ্তানি",
-        "POS dashboards",
-        "বিআই ড্যাশবোর্ড",
+        "POS ড্যাশবোর্ড",
+        "BI ড্যাশবোর্ড",
         "বিশ্লেষক কিউ",
         "সাপ্তাহিক পর্যালোচনা সভা"
       ],
       "closing": "একই তথ্য। দ্রুত সিদ্ধান্ত। ভালো কর্ম।"
     },
     "th": {
-      "eyebrow": "จากการรายงานที่ล่าช้า สู่ความเร็วในการดำเนินงาน",
+      "eyebrow": "จากรายงานที่ล่าช้าและการใช้สัญชาตญาณ - สู่ความเร็วในการดำเนินงานและการตัดสินใจที่มีข้อมูล",
       "headlinePre": "รายงานบอกคุณว่าเกิดอะไรขึ้น",
       "headlinePost": "บอกคุณว่าควรทำอะไรต่อไป",
       "oldWayLabel": "วิธีเก่า",
-      "sundaeWayLabel": "The Sundae way",
+      "sundaeWayLabel": "วิธีแบบ Sundae",
       "oldWay": [
         "ส่งออกตัวเลข",
-        "ถกเถียงว่าดashboard ไหนถูกต้อง",
+        "ถกเถียงว่าแดชบอร์ดไหนถูกต้อง",
         "ถามนักวิเคราะห์",
         "ตอบสนองหลังจากสัปดาห์ผ่านไป"
       ],
@@ -562,7 +562,7 @@ export const generatedLocalCopy = {
       ],
       "oldWayCaption": "ภายในการประชุมตรวจสอบวันศุกร์",
       "sundaeWayCaption": "ภายใน 11:14 วันอังคาร",
-      "replacesPrefix": "แทนที่ความล่าชาระหว่างข้อมูลและการดำเนินการ:",
+      "replacesPrefix": "แทนที่ความล่าช้าระหว่างข้อมูลและการดำเนินการ:",
       "replaces": [
         "การส่งออก Excel",
         "แดชบอร์ด POS",
@@ -573,7 +573,7 @@ export const generatedLocalCopy = {
       "closing": "ข้อมูลเดียวกัน ตัดสินใจเร็วขึ้น ดำเนินการได้ดีกว่า."
     },
     "ms": {
-      "eyebrow": "DARI LAG LAPORAN KE KECEPATAN OPERASI",
+      "eyebrow": "DARIPADA LAPORAN YANG LEWAT & FIRASAT - KEPADA KELAJUAN OPERASI & KEPUTUSAN BERMAKLUMAT",
       "headlinePre": "Laporan memberitahu anda apa yang berlaku.",
       "headlinePost": "memberitahu anda apa yang perlu dilakukan seterusnya.",
       "oldWayLabel": "Cara lama",
@@ -603,7 +603,7 @@ export const generatedLocalCopy = {
       "closing": "Data yang sama. Keputusan lebih cepat. Tindakan lebih baik."
     },
     "sv": {
-      "eyebrow": "FRÅN RAPPORTERINGSLAG TILL OPERATIV HASTIGHET",
+      "eyebrow": "FRÅN RAPPORTERINGSEFTERSLÄPNING & MAGKÄNSLA - TILL OPERATIV HASTIGHET & VÄLGRUNDADE BESLUT",
       "headlinePre": "Rapporter berättar vad som hände.",
       "headlinePost": "berättar vad du ska göra härnäst.",
       "oldWayLabel": "Det gamla sättet",
@@ -618,7 +618,7 @@ export const generatedLocalCopy = {
         "Upptäck problemet.",
         "Förklara orsaken.",
         "Jämför marknaden.",
-        "Agera innan skiftet är över."
+        "Agera innan förändringen är över."
       ],
       "oldWayCaption": "Vid fredagens genomgångsmöte.",
       "sundaeWayCaption": "Senast 11:14 på tisdag.",

@@ -39,12 +39,12 @@ const localizedCopy: RequiredEnglishLocalizedRecord<ToolsPageCopy> = {
     hero: {
       badge: "Free Tools",
       title: "Insight-grade calculators",
-      description: "Tools that compute what Excel can't — daypart leak detection, attach-rate gap analysis, and the calculations operators actually wish they had. No sign-up required.",
+      description: "Tools that compute what Excel can't - daypart leak detection, attach-rate gap analysis, and the calculations operators actually wish they had. No sign-up required.",
     },
     tools: [
       {
         title: "Daypart Margin Leak Estimator ✦",
-        description: "Find the daypart bleeding margin from overstaffing. Multi-window correlation with annualized leak projection and a specific corrective action — not a single % calculation.",
+        description: "Find the daypart bleeding margin from overstaffing. Multi-window correlation with annualized leak projection and a specific corrective action - not a single % calculation.",
         icon: "labor",
         href: "/tools/daypart-margin-leak",
         features: ["Multi-daypart correlation", "Worst-window detection", "Annualized leak in your currency"],
@@ -52,10 +52,10 @@ const localizedCopy: RequiredEnglishLocalizedRecord<ToolsPageCopy> = {
       },
       {
         title: "Upsell Opportunity Index ✦",
-        description: "Score your menu attach health 0–100 and quantify the annual revenue gap to industry-healthy attach rates across appetizers, sides, drinks, desserts, and add-ons.",
+        description: "Score your menu attach health 0-100 and quantify the annual revenue gap to industry-healthy attach rates across appetizers, sides, drinks, desserts, and add-ons.",
         icon: "performance",
         href: "/tools/upsell-opportunity-index",
-        features: ["0–100 attach health score", "Per-category gap analysis", "Top-3 ranked priorities"],
+        features: ["0-100 attach health score", "Per-category gap analysis", "Top-3 ranked priorities"],
         button: "Open Insight Tool",
       },
       {
@@ -194,7 +194,7 @@ export default function ToolsPage() {
               <StaggerItem key={tool.title}>
                 <Card variant="elevated" className="h-full hover:shadow-xl transition-all duration-300">
                   <CardHeader>
-                    <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl flex items-center justify-center mb-4 shadow-lg">
+                    <div className="w-16 h-16 bg-gradient-to-br from-[#FF5C4D] to-[#C2410C] rounded-2xl flex items-center justify-center mb-4 shadow-lg">
                       <SundaeIcon name={tool.icon} size="xl" className="text-white" />
                     </div>
                     <CardTitle className="text-2xl text-[var(--text-primary)] mb-3">{tool.title}</CardTitle>

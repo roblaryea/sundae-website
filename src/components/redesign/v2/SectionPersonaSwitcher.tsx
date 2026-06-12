@@ -14,7 +14,7 @@ import {
 import { SundaeWordmark } from "./SundaeWordmark";
 
 /**
- * Section 2 — Persona Switcher (homepage-spec-v1.1).
+ * Section 2 - Persona Switcher (homepage-spec-v1.1).
  *
  * Conversion job: personalize by role. Six personas. Tab switching cross-fades
  * the content card and mockup so the buyer sees "their" view of Sundae within
@@ -23,12 +23,12 @@ import { SundaeWordmark } from "./SundaeWordmark";
  * Reduced-motion fallback: instant content swap on tab change. No transition.
  *
  * Mockup mapping:
- *   COO         → PulseDashboardMockup (existing — live ops)
- *   CFO         → RevenueIntelligenceMockup (bespoke — Insights:Revenue, channel mix, variance)
- *   CEO         → IntelligenceChatMockup (existing — executive briefing)
- *   Marketing   → MarketingPerformanceMockup (bespoke — campaign ROI, channel mix)
- *   HR/People   → LaborOpsMockup (bespoke — labor variance, OT risk)
- *   Tech/Data   → IntegrationsHubMockup (bespoke — data health, sources)
+ *   COO         → PulseDashboardMockup (existing - live ops)
+ *   CFO         → RevenueIntelligenceMockup (bespoke - Insights:Revenue, channel mix, variance)
+ *   CEO         → IntelligenceChatMockup (existing - executive briefing)
+ *   Marketing   → MarketingPerformanceMockup (bespoke - campaign ROI, channel mix)
+ *   HR/People   → LaborOpsMockup (bespoke - labor variance, OT risk)
+ *   Tech/Data   → IntegrationsHubMockup (bespoke - data health, sources)
  *
  * Claims used: CLM-401 through CLM-406 (all observational, APPROVED PUBLIC).
  */
@@ -36,7 +36,7 @@ import { SundaeWordmark } from "./SundaeWordmark";
 interface Persona {
   id: string;
   shortLabel: string;     // tab text
-  pluralLabel: string;    // for the H2 — "See Sundae for [Plural]"
+  pluralLabel: string;    // for the H2 - "See Sundae for [Plural]"
   pain: string;           // pain headline
   painCopy: string;
   outcome: string;        // outcome headline
@@ -55,7 +55,7 @@ const personas: Persona[] = [
       "By the time the weekly recap lands, the bad shift is over and the margin is gone.",
     outcome: "Live visibility into every shift.",
     outcomeCopy:
-      "Pulse shows you which location needs help right now — pacing, labor, leakage, all updated through the shift.",
+      "Pulse shows you which location needs help right now - pacing, labor, leakage, all updated through the shift.",
     intelLayers: ["Pulse", "Watchtower"],
     Mockup: PulseDashboardMockup,
   },
@@ -68,7 +68,7 @@ const personas: Persona[] = [
       "Variance shows up in last month's P&L. By then the costs have already been booked.",
     outcome: "Margin variance, the day it happens.",
     outcomeCopy:
-      "Shift-level labor cost, food cost variance, void rates — connected to the events that caused them. Close faster, explain more.",
+      "Shift-level labor cost, food cost variance, void rates - connected to the events that caused them. Close faster, explain more.",
     intelLayers: ["Insights", "Foresight"],
     Mockup: RevenueIntelligenceMockup,
   },
@@ -93,7 +93,7 @@ const personas: Persona[] = [
       "ROI lands a week late. Next month's plan goes in before this month's data does.",
     outcome: "Campaign ROI, day-by-day.",
     outcomeCopy:
-      "Tie campaign spend to covers, average check, and net margin — within 24 hours of activation. Re-allocate while the campaign is still running.",
+      "Tie campaign spend to covers, average check, and net margin - within 24 hours of activation. Re-allocate while the campaign is still running.",
     intelLayers: ["Insights", "Sundae Intelligence"],
     Mockup: MarketingPerformanceMockup,
   },
@@ -106,7 +106,7 @@ const personas: Persona[] = [
       "Schedule changes happen on instinct. By the time the report comes back, the OT is already paid.",
     outcome: "Labor variance, in the moment.",
     outcomeCopy:
-      "Pulse shows live labor% by location, server productivity, and overtime risk — by shift, not by month.",
+      "Pulse shows live labor% by location, server productivity, and overtime risk - by shift, not by month.",
     intelLayers: ["Pulse", "Insights"],
     Mockup: LaborOpsMockup,
   },
@@ -119,7 +119,7 @@ const personas: Persona[] = [
       "Every new dashboard request becomes a six-week integration project.",
     outcome: "One platform, twelve domains, zero plumbing.",
     outcomeCopy:
-      "POS, labor, inventory, delivery, accounting, reservations — unified into 500 governed data models. RBAC, audit trails, public API, webhooks. Out of the box.",
+      "POS, labor, inventory, delivery, accounting, reservations - unified into 500 governed data models. RBAC, audit trails, public API, webhooks. Out of the box.",
     intelLayers: ["All layers"],
     Mockup: IntegrationsHubMockup,
   },
@@ -146,7 +146,7 @@ export function SectionPersonaSwitcher() {
             <span>See</span>
             <SundaeWordmark className="h-[0.78em] w-auto inline-block align-middle text-[var(--text-primary)]" />
             <span>for</span>
-            <span className="text-[var(--electric-blue)]">
+            <span className="text-[var(--warm-coral)]">
               {active.pluralLabel}.
             </span>
           </h2>
@@ -172,10 +172,10 @@ export function SectionPersonaSwitcher() {
                 className={`
                   px-4 sm:px-5 py-2.5 rounded-full text-sm font-semibold
                   whitespace-nowrap transition-all duration-200
-                  focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--electric-blue)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--navy-deep)]
+                  focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--warm-coral)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--navy-deep)]
                   ${
                     isActive
-                      ? "bg-[var(--electric-blue)] text-white shadow-[0_0_20px_rgba(28,71,255,0.4)]"
+                      ? "bg-[var(--warm-coral)] text-white shadow-[0_0_20px_rgba(255,92,77,0.4)]"
                       : "bg-[var(--surface-subtle)] border border-[var(--border-default)] text-[var(--text-supporting)] hover:bg-[var(--surface-hover)] hover:text-[var(--text-primary)] hover:border-[var(--border-emphasis)]"
                   }
                 `}
@@ -186,7 +186,7 @@ export function SectionPersonaSwitcher() {
           })}
         </div>
 
-        {/* Active panel — content card + mockup */}
+        {/* Active panel - content card + mockup */}
         <div
           role="tabpanel"
           id={`persona-panel-${active.id}`}
@@ -213,7 +213,7 @@ export function SectionPersonaSwitcher() {
 
               {/* Outcome */}
               <div className="pt-5 border-t border-[var(--border-default)]">
-                <div className="text-[11px] uppercase tracking-wider text-[var(--electric-blue)] font-bold mb-2">
+                <div className="text-[11px] uppercase tracking-wider text-[var(--warm-coral)] font-bold mb-2">
                   With Sundae
                 </div>
                 <h4 className="text-lg sm:text-xl font-semibold text-[var(--text-primary)] leading-tight mb-2">
@@ -229,7 +229,7 @@ export function SectionPersonaSwitcher() {
                   {active.intelLayers.map((layer) => (
                     <span
                       key={layer}
-                      className="text-[11px] font-semibold px-2.5 py-1 rounded-md bg-[var(--electric-blue)]/15 text-[var(--electric-blue)] border border-[var(--electric-blue)]/25"
+                      className="text-[11px] font-semibold px-2.5 py-1 rounded-md bg-[var(--warm-coral)]/15 text-[var(--warm-coral)] border border-[var(--warm-coral)]/25"
                     >
                       {layer}
                     </span>

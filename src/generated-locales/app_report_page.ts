@@ -693,7 +693,7 @@ export const generatedLocalCopy = {
           "desc": "Veja como você se compara a restaurantes semelhantes"
         },
         {
-          "title": "Obtenha Insights Ação",
+          "title": "Obtenha Insights Acionáveis",
           "desc": "Receba recomendações específicas para melhorar"
         }
       ]
@@ -703,7 +703,7 @@ export const generatedLocalCopy = {
       "heroTitle": "Sundae Report",
       "heroDescription": "اپنے ریستوران کی کارکردگی کا صنعتی معیارات کے خلاف موازنہ کرنے کے لیے ایک مفت بینچ مارکنگ رپورٹ حاصل کریں۔ بالکل دیکھیں کہ آپ کہاں کھڑے ہیں اور کیا بہتر کرنا ہے۔",
       "heroPrimary": "مفت رپورٹ تیار کریں",
-      "heroSecondary": "Learn About Sundae Core",
+      "heroSecondary": "Sundae Core کے بارے میں جانیں",
       "sectionCompareTitle": "دیکھیں آپ کس طرح موازنہ کرتے ہیں",
       "sectionCompareDescription": "اپنے ریستوران کی اہم کارکردگی کی کیٹیگریز میں مشابہ کاروباروں کے خلاف بینچ مارک کریں",
       "howTitle": "یہ کیسے کام کرتا ہے",
@@ -935,7 +935,7 @@ export const generatedLocalCopy = {
       "heroTitle": "Sundae Report",
       "heroDescription": "अपने रेस्तरां के प्रदर्शन की तुलना उद्योग मानकों से करने के लिए एक मुफ्त बेंचमार्किंग रिपोर्ट प्राप्त करें। देखें कि आप कहाँ खड़े हैं और क्या सुधारना है।",
       "heroPrimary": "नि:शुल्क रिपोर्ट उत्पन्न करें",
-      "heroSecondary": "Learn About Sundae Core",
+      "heroSecondary": "Sundae Core के बारे में जानें",
       "sectionCompareTitle": "देखें कि आप कैसे तुलना करते हैं",
       "sectionCompareDescription": "अपने रेस्तरां की तुलना समान व्यवसायों के खिलाफ प्रमुख प्रदर्शन श्रेणियों में करें",
       "howTitle": "यह कैसे काम करता है",
@@ -945,7 +945,7 @@ export const generatedLocalCopy = {
       "whyTitle": "क्यों मुफ्त?",
       "whyDescription": "हम मानते हैं कि हर रेस्तरां को यह समझना चाहिए कि वे कैसे प्रदर्शन कर रहे हैं। हमारी मुफ्त रिपोर्ट आपको Sundae Core को संचालित करने वाली निर्णय बुद्धिमत्ता का अनुभव देती है।",
       "ctaTitle": "क्या आप अपने बेंचमार्क देखने के लिए तैयार हैं?",
-      "ctaDescription": "संदे रिपोर्ट का उपयोग करने वाले हजारों रेस्तरां ऑपरेटरों में शामिल हों ताकि वे अपने प्रदर्शन को समझ सकें। कोई क्रेडिट कार्ड की आवश्यकता नहीं, कोई बाध्यता नहीं - केवल अंतर्दृष्टि। (Sundae Report)",
+      "ctaDescription": "Sundae Report का उपयोग करने वाले हजारों रेस्तरां ऑपरेटरों में शामिल हों ताकि वे अपने प्रदर्शन को समझ सकें। कोई क्रेडिट कार्ड की आवश्यकता नहीं, कोई बाध्यता नहीं - केवल अंतर्दृष्टि।",
       "finalTitle": "दो मिनट के अंदर शुरू करें",
       "finalDescription": "अपने डेटा को अपलोड करें, अपने मानक को देखें। बस इतना ही।",
       "finalTiles": [
@@ -1027,7 +1027,7 @@ export const generatedLocalCopy = {
         {
           "category": "खाद्य लागत भिन्नता",
           "insight": "खाद्य बर्बादी मानक से 3.2% अधिक है।",
-          "recommendation": "पोर्टियन नियंत्रण प्रशिक्षण लागू करें।",
+          "recommendation": "भाग नियंत्रण प्रशिक्षण लागू करें।",
           "impact": "संभावित बचत: $950/महीना"
         }
       ],
@@ -1177,7 +1177,7 @@ export const generatedLocalCopy = {
       "whyTitle": "Neden Ücretsiz?",
       "whyDescription": "Her restoranın nasıl performans gösterdiğini anlaması gerektiğine inanıyoruz. Ücretsiz raporumuz, Sundae Core'u güçlendiren karar zekasının bir tadımını sunar.",
       "ctaTitle": "Kıyaslamalarınızı Görmeye Hazır Mısınız?",
-      "ctaDescription": "Sundae Report'i kullanarak performanslarını anlamak için binlerce restoran işletmecisine katılın. Kredi kartı gerekmiyor, taahhüt yok - sadece içgörüler.",
+      "ctaDescription": "Performanslarını anlamak için Sundae Report kullanan binlerce restoran işletmecisine katılın. Kredi kartı gerekmiyor, taahhüt yok - sadece içgörüler.",
       "finalTitle": "İki Dakikadan Kısa Sürede Başlayın",
       "finalDescription": "Verilerinizi yükleyin, kıyaslamanızı görün. Hepsi bu.",
       "finalTiles": [
@@ -1201,7 +1201,7 @@ export const generatedLocalCopy = {
         "Satış Performansı",
         "İş Gücü Verimliliği",
         "Gıda Maliyeti Yönetimi",
-        "Operasyonel Metikler"
+        "Operasyonel Metrikler"
       ],
       "categoryMetrics": [
         [
@@ -1284,7 +1284,7 @@ export const generatedLocalCopy = {
       "heroDescription": "業界標準と比較したあなたのレストランのパフォーマンスを示す無料のベンチマークレポートを取得しましょう。自分の立ち位置と改善すべき点を正確に把握できます。",
       "heroPrimary": "無料レポートを生成",
       "heroSecondary": "Sundae Coreについて学ぶ",
-      "sectionCompareTitle": "あなたの比較を確認する",
+      "sectionCompareTitle": "あなたの実績を比較する",
       "sectionCompareDescription": "同様のビジネスと比較して、主要なパフォーマンスカテゴリにおけるあなたのレストランのベンチマークを行います。",
       "howTitle": "使い方",
       "howDescription": "数分で無料のベンチマークレポートを取得できます。",
@@ -1440,7 +1440,7 @@ export const generatedLocalCopy = {
           "Revenue per Square Foot",
           "평균 체크 사이즈",
           "일일 거래 수",
-          "최대 시간 분석"
+          "피크 시간대 분석"
         ],
         [
           "노동 비용 %",
@@ -1989,7 +1989,7 @@ export const generatedLocalCopy = {
       "whyTitle": "Varför gratis?",
       "whyDescription": "Vi tror att varje restaurang bör förstå hur de presterar. Vår kostnadsfria rapport ger dig en inblick i den beslutsintelligens som driver Sundae Core.",
       "ctaTitle": "Redo att se dina riktmärken?",
-      "ctaDescription": "Gå med i tusentals restaurangoperatörer som använder Sundae Report för att förstå sin prestation. Ingen kreditkort krävs, inga förpliktelser - bara insikter.",
+      "ctaDescription": "Gå med i tusentals restaurangoperatörer som använder Sundae Report för att förstå sin prestation. Inget kreditkort krävs, inga förpliktelser - bara insikter.",
       "finalTitle": "Börja på under två minuter",
       "finalDescription": "Ladda upp dina data, se din referenspunkt. Det är allt.",
       "finalTiles": [
@@ -2011,14 +2011,14 @@ export const generatedLocalCopy = {
       ],
       "categories": [
         "Försäljningsprestanda",
-        "Arbeteffektivitet",
+        "Arbetseffektivitet",
         "Matkostnadshantering",
         "Operativa mätvärden"
       ],
       "categoryMetrics": [
         [
           "Revenue per Square Foot",
-          "Genomsnittlig kcheck",
+          "Genomsnittlig notastorlek",
           "Dagligt transaktionsantal",
           "Analys av rusningstimmar"
         ],
@@ -2030,7 +2030,7 @@ export const generatedLocalCopy = {
         ],
         [
           "Matkostnad %",
-          "Avfall procent",
+          "Avfallsprocent",
           "Lageromsättning",
           "COGS-analys"
         ],
@@ -2211,7 +2211,7 @@ export const generatedLocalCopy = {
       "heroTitle": "Sundae Report",
       "heroDescription": "আপনার রেস্তোরাঁর কার্যকারিতা শিল্পের মানের বিরুদ্ধে তুলনা করে একটি বিনামূল্যের বেঞ্চমার্কিং রিপোর্ট পান। আপনি কোথায় আছেন এবং কী উন্নতি করতে হবে তা সঠিকভাবে দেখুন।",
       "heroPrimary": "ফ্রি রিপোর্ট তৈরি করুন",
-      "heroSecondary": "Learn About Sundae Core",
+      "heroSecondary": "Sundae Core সম্পর্কে জানুন",
       "sectionCompareTitle": "দেখুন আপনি কিভাবে তুলনা করেন",
       "sectionCompareDescription": "আপনার রেস্তোরাঁর মূল কর্মক্ষমতা ক্যাটাগরির মধ্যে তুলনা করুন অনুরূপ ব্যবসার বিরুদ্ধে",
       "howTitle": "এটি কীভাবে কাজ করে",
@@ -2221,7 +2221,7 @@ export const generatedLocalCopy = {
       "whyTitle": "কেন ফ্রি?",
       "whyDescription": "আমরা বিশ্বাস করি প্রতিটি রেস্তোরাঁকে তাদের কার্যকারিতা বুঝতে হবে। আমাদের বিনামূল্যের রিপোর্ট আপনাকে সেই সিদ্ধান্তের বুদ্ধিমত্তার স্বাদ দেয় যা Sundae Core-কে শক্তি দেয়।",
       "ctaTitle": "আপনার বেঞ্চমার্কগুলি দেখতে প্রস্তুত?",
-      "ctaDescription": "সুন্দরী রিপোর্ট ব্যবহার করে তাদের কর্মক্ষমতা বুঝতে হাজার হাজার রেস্টুরেন্ট অপারেটরের সাথে যোগ দিন। ক্রেডিট কার্ডের প্রয়োজন নেই, কোন বাধ্যবাধকতা নেই - শুধু অন্তর্দৃষ্টি। (Sundae Report)",
+      "ctaDescription": "Sundae Report ব্যবহার করে তাদের কর্মক্ষমতা বুঝতে হাজার হাজার রেস্তোরাঁ অপারেটরের সাথে যোগ দিন। ক্রেডিট কার্ডের প্রয়োজন নেই, কোনো বাধ্যবাধকতা নেই - শুধু অন্তর্দৃষ্টি।",
       "finalTitle": "দুই মিনিটের মধ্যে শুরু করুন",
       "finalDescription": "আপনার ডেটা আপলোড করুন, আপনার মানদণ্ড দেখুন। এটাই।",
       "finalTiles": [
@@ -2303,7 +2303,7 @@ export const generatedLocalCopy = {
         {
           "category": "খাদ্য খরচের পরিবর্তন",
           "insight": "খাদ্য অপচয় বেঞ্চমার্কের তুলনায় ৩.২% বেশি।",
-          "recommendation": "পোর্টশন কন্ট্রোল প্রশিক্ষণ বাস্তবায়ন করুন।",
+          "recommendation": "অংশ নিয়ন্ত্রণ প্রশিক্ষণ বাস্তবায়ন করুন।",
           "impact": "সম্ভাব্য সঞ্চয়: $950/মাস"
         }
       ],
@@ -2366,7 +2366,7 @@ export const generatedLocalCopy = {
       "categoryMetrics": [
         [
           "Revenue per Square Foot",
-          "Saiz Semakan Purata",
+          "Saiz Bil Purata",
           "Kiraan Transaksi Harian",
           "Analisis Waktu Puncak"
         ],
@@ -2433,7 +2433,7 @@ export const generatedLocalCopy = {
           "desc": "Lihat bagaimana anda berbanding dengan restoran serupa"
         },
         {
-          "title": "Dapatkan Wawasan Tindakan",
+          "title": "Dapatkan Wawasan Boleh Tindak",
           "desc": "Terima cadangan khusus untuk penambahbaikan"
         }
       ]

@@ -8,6 +8,8 @@ import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/comp
 import { useCta } from "@/lib/cta";
 import { PRICING_URL } from "@/lib/urls";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
+import { CreamBreak } from "@/components/ui/CreamBreak";
+import { crossIntelligenceCreamCopy } from "../crossIntelligenceCreamCopy";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_product_cross_intelligence_page'
 
@@ -608,7 +610,7 @@ const localizedCrossIntelligenceComponents: Record<'en' | 'ar' | 'fr' | 'es', Cr
         "Automated detection of delayed revenue responses",
       ],
       icon: "chart",
-      color: "from-purple-500 to-purple-600",
+      color: "from-[#F2B45C] to-[#C2410C]",
       tier: 'base',
     },
     {
@@ -622,7 +624,7 @@ const localizedCrossIntelligenceComponents: Record<'en' | 'ar' | 'fr' | 'es', Cr
         "Historical pattern matching for recurring causes",
       ],
       icon: "idea",
-      color: "from-cyan-500 to-blue-600",
+      color: "from-[#E9A24A] to-[#FF5C4D]",
       tier: 'base',
     },
     {
@@ -637,7 +639,7 @@ const localizedCrossIntelligenceComponents: Record<'en' | 'ar' | 'fr' | 'es', Cr
         "Custom correlation rules and thresholds",
       ],
       icon: "data",
-      color: "from-violet-500 to-purple-600",
+      color: "from-[#F4A259] to-[#C2410C]",
       tier: 'pro',
     },
     {
@@ -651,7 +653,7 @@ const localizedCrossIntelligenceComponents: Record<'en' | 'ar' | 'fr' | 'es', Cr
         "Period-over-period attribution trends",
       ],
       icon: "performance",
-      color: "from-blue-500 to-indigo-600",
+      color: "from-[#FF7E6F] to-[#E03E48]",
       tier: 'pro',
     },
     {
@@ -719,7 +721,7 @@ const localizedCrossIntelligenceComponents: Record<'en' | 'ar' | 'fr' | 'es', Cr
       description: "ضع الإنفاق التسويقي والحملات والعروض فوق خط الإيرادات الزمني لكشف فجوة 3 إلى 7 أيام بين النشاط والأثر.",
       capabilities: ["طبقة بين الإيرادات والإنفاق مع نوافذ تأخير قابلة للتعديل", "إسناد عائد الحملة مع درجات ثقة", "عرض أثر العروض عبر المواقع", "كشف الاستجابات المتأخرة تلقائياً"],
       icon: "chart",
-      color: "from-purple-500 to-purple-600",
+      color: "from-[#F2B45C] to-[#C2410C]",
       tier: 'base',
     },
     {
@@ -728,7 +730,7 @@ const localizedCrossIntelligenceComponents: Record<'en' | 'ar' | 'fr' | 'es', Cr
       description: "عندما تنخفض الإيرادات أو ترتفع تكلفة العمالة، ينشئ النظام بطاقات تشرح السبب الحقيقي عبر ربط التغيرات بين الوحدات.",
       capabilities: ["تحديد تلقائي للأسباب الجذرية", "درجات ثقة لكل فرضية", "توصيات عملية مع أثر متوقع", "مطابقة الأنماط التاريخية"],
       icon: "idea",
-      color: "from-cyan-500 to-blue-600",
+      color: "from-[#E9A24A] to-[#FF5C4D]",
       tier: 'base',
     },
     {
@@ -737,7 +739,7 @@ const localizedCrossIntelligenceComponents: Record<'en' | 'ar' | 'fr' | 'es', Cr
       description: "اعرف قوة واتجاه العلاقات بين الإيرادات والعمالة والمخزون والتسويق والطقس والفعاليات في عرض واحد.",
       capabilities: ["خريطة ارتباط تفاعلية بين كل الوحدات", "قوة ارتباط لحظية مع دلالة إحصائية", "التعمق من أي خلية إلى البيانات الأساسية", "تحليل الارتباطات المؤجلة زمنياً", "قواعد وحدود ارتباط مخصصة"],
       icon: "data",
-      color: "from-violet-500 to-purple-600",
+      color: "from-[#F4A259] to-[#C2410C]",
       tier: 'pro',
     },
     {
@@ -746,7 +748,7 @@ const localizedCrossIntelligenceComponents: Record<'en' | 'ar' | 'fr' | 'es', Cr
       description: "قسّم تغيّر الإيرادات إلى إجراءات تشغيلية وتسويقية واضحة لتعرف مقدار مساهمة كل عامل.",
       capabilities: ["تفكيك شلالي لتغيرات الإيرادات", "إسناد للحملات وتغييرات القائمة والعمالة", "مقارنة الإسناد بين المواقع", "اتجاهات الإسناد بين الفترات"],
       icon: "performance",
-      color: "from-blue-500 to-indigo-600",
+      color: "from-[#FF7E6F] to-[#E03E48]",
       tier: 'pro',
     },
     {
@@ -793,7 +795,7 @@ const localizedCrossIntelligenceComponents: Record<'en' | 'ar' | 'fr' | 'es', Cr
       description: "Superposez depenses marketing, campagnes et promotions sur votre chronologie de revenu pour reveler le delai entre action et impact.",
       capabilities: ["Overlay revenu + depense marketing", "Attribution du ROI des campagnes avec score de confiance", "Visualisation de l'impact promo multi-sites", "Detection automatique des effets retardes"],
       icon: "chart",
-      color: "from-purple-500 to-purple-600",
+      color: "from-[#F2B45C] to-[#C2410C]",
       tier: 'base',
     },
     {
@@ -802,7 +804,7 @@ const localizedCrossIntelligenceComponents: Record<'en' | 'ar' | 'fr' | 'es', Cr
       description: "Quand le revenu baisse ou que le cout main-d'oeuvre grimpe, le moteur explique pourquoi en reliant les changements entre modules.",
       capabilities: ["Identification automatique des causes racines", "Score de confiance par hypothese", "Recommandations actionnables avec impact estime", "Rapprochement avec les patterns historiques"],
       icon: "idea",
-      color: "from-cyan-500 to-blue-600",
+      color: "from-[#E9A24A] to-[#FF5C4D]",
       tier: 'base',
     },
     {
@@ -811,7 +813,7 @@ const localizedCrossIntelligenceComponents: Record<'en' | 'ar' | 'fr' | 'es', Cr
       description: "Visualisez la force et le sens des relations entre revenu, main-d'oeuvre, stock, marketing, meteo et evenements.",
       capabilities: ["Heatmap NxN interactive", "Force de correlation temps reel", "Drill-down vers les donnees sous-jacentes", "Analyse des correlations decalees", "Regles et seuils de correlation personalises"],
       icon: "data",
-      color: "from-violet-500 to-purple-600",
+      color: "from-[#F4A259] to-[#C2410C]",
       tier: 'pro',
     },
     {
@@ -820,7 +822,7 @@ const localizedCrossIntelligenceComponents: Record<'en' | 'ar' | 'fr' | 'es', Cr
       description: "Decomposez les mouvements de revenu en actions marketing et operationnelles pour comprendre la contribution de chaque facteur.",
       capabilities: ["Decomposition waterfall des variations de revenu", "Attribution aux campagnes, menus et changements de staffing", "Comparaison site par site", "Tendances d'attribution par periode"],
       icon: "performance",
-      color: "from-blue-500 to-indigo-600",
+      color: "from-[#FF7E6F] to-[#E03E48]",
       tier: 'pro',
     },
     {
@@ -867,7 +869,7 @@ const localizedCrossIntelligenceComponents: Record<'en' | 'ar' | 'fr' | 'es', Cr
       description: "Superpone gasto, campañas y promociones sobre tu linea de ingresos para descubrir el retraso entre accion e impacto.",
       capabilities: ["Overlay de ingresos y gasto", "Atribucion ROI de campañas con confianza estadistica", "Visualizacion del impacto promocional multi-sede", "Deteccion automatica de respuestas retrasadas"],
       icon: "chart",
-      color: "from-purple-500 to-purple-600",
+      color: "from-[#F2B45C] to-[#C2410C]",
       tier: 'base',
     },
     {
@@ -876,7 +878,7 @@ const localizedCrossIntelligenceComponents: Record<'en' | 'ar' | 'fr' | 'es', Cr
       description: "Cuando bajan los ingresos o suben los costes laborales, el motor explica por que conectando cambios entre modulos.",
       capabilities: ["Identificacion automatica de causa raiz", "Puntuacion de confianza por hipotesis", "Recomendaciones accionables con impacto estimado", "Comparacion con patrones historicos"],
       icon: "idea",
-      color: "from-cyan-500 to-blue-600",
+      color: "from-[#E9A24A] to-[#FF5C4D]",
       tier: 'base',
     },
     {
@@ -885,7 +887,7 @@ const localizedCrossIntelligenceComponents: Record<'en' | 'ar' | 'fr' | 'es', Cr
       description: "Observa la fuerza y direccion de las relaciones entre ingresos, mano de obra, inventario, marketing, clima y eventos.",
       capabilities: ["Heatmap NxN interactivo", "Fuerza de correlacion en tiempo real", "Drill-down a datos subyacentes", "Analisis de correlaciones con desfase", "Reglas y umbrales personalizados"],
       icon: "data",
-      color: "from-violet-500 to-purple-600",
+      color: "from-[#F4A259] to-[#C2410C]",
       tier: 'pro',
     },
     {
@@ -894,7 +896,7 @@ const localizedCrossIntelligenceComponents: Record<'en' | 'ar' | 'fr' | 'es', Cr
       description: "Descompone el movimiento de ingresos en acciones operativas y de marketing para ver cuanto aporto cada factor.",
       capabilities: ["Descomposicion en cascada", "Atribucion a campañas, cambios de menu y staffing", "Comparacion entre locales", "Tendencias de atribucion entre periodos"],
       icon: "performance",
-      color: "from-blue-500 to-indigo-600",
+      color: "from-[#FF7E6F] to-[#E03E48]",
       tier: 'pro',
     },
     {
@@ -1013,7 +1015,7 @@ const crossIntelligenceCopy = {
     problemDescription:
       'Each intelligence module explains one part of the business. Cross-Intelligence helps teams see how those parts affect each other.',
     problemStats: [
-      { stat: "3–7 days", label: "Average delay between marketing spend and revenue impact", icon: "time" as SundaeIconName },
+      { stat: "3-7 days", label: "Average delay between marketing spend and revenue impact", icon: "time" as SundaeIconName },
       { stat: "23%", label: "Of promotions show measurable cannibalization of existing items", icon: "warning" as SundaeIconName },
       { stat: "5x", label: "More causal factors identified vs single-module analysis", icon: "increase" as SundaeIconName },
     ],
@@ -1048,7 +1050,7 @@ const crossIntelligenceCopy = {
     problemDescription:
       'كل وحدة تمنحك قراءة قوية داخل مجال واحد مثل العمالة أو المخزون أو التسويق أو الإيرادات. لكن الصورة الأوضح تظهر عندما ترى كيف يؤثر كل مجال في الآخر.',
     problemStats: [
-      { stat: "3–7 أيام", label: "متوسط التأخير بين الإنفاق التسويقي وأثره على الإيرادات", icon: "time" as SundaeIconName },
+      { stat: "3-7 أيام", label: "متوسط التأخير بين الإنفاق التسويقي وأثره على الإيرادات", icon: "time" as SundaeIconName },
       { stat: "23%", label: "من العروض تُظهر استهلاكاً متبادلاً قابلاً للقياس", icon: "warning" as SundaeIconName },
       { stat: "5x", label: "عوامل سببية أكثر من التحليل أحادي الوحدة", icon: "increase" as SundaeIconName },
     ],
@@ -1083,7 +1085,7 @@ const crossIntelligenceCopy = {
     problemDescription:
       'Chaque module apporte une lecture utile sur un domaine, qu il s agisse de la main-d oeuvre, du stock, du marketing ou du revenu. Mais les decisions les plus solides viennent des liens entre ces domaines.',
     problemStats: [
-      { stat: "3–7 jours", label: "Delai moyen entre les depenses marketing et leur impact sur le revenu", icon: "time" as SundaeIconName },
+      { stat: "3-7 jours", label: "Delai moyen entre les depenses marketing et leur impact sur le revenu", icon: "time" as SundaeIconName },
       { stat: "23%", label: "Des promotions montrent une cannibalisation mesurable des articles existants", icon: "warning" as SundaeIconName },
       { stat: "5x", label: "De facteurs causaux identifies vs analyse mono-module", icon: "increase" as SundaeIconName },
     ],
@@ -1118,7 +1120,7 @@ const crossIntelligenceCopy = {
     problemDescription:
       'Cada modulo te da una lectura fuerte de un dominio, ya sea mano de obra, inventario, marketing o ingresos. Pero las decisiones mas solidas salen de ver como se afectan entre si.',
     problemStats: [
-      { stat: "3–7 dias", label: "Retraso promedio entre el gasto de marketing y su impacto en ingresos", icon: "time" as SundaeIconName },
+      { stat: "3-7 dias", label: "Retraso promedio entre el gasto de marketing y su impacto en ingresos", icon: "time" as SundaeIconName },
       { stat: "23%", label: "De las promociones muestran canibalizacion medible de articulos existentes", icon: "warning" as SundaeIconName },
       { stat: "5x", label: "Mas factores causales identificados frente al analisis de un solo modulo", icon: "increase" as SundaeIconName },
     ],
@@ -1146,6 +1148,7 @@ export default function CrossIntelligencePage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
   const ui = crossIntelligenceCopy[locale as keyof typeof crossIntelligenceCopy] ?? getGeneratedLocalCopy(crossIntelligenceCopy, generatedLocalCopy.crossIntelligenceCopy, locale) ?? crossIntelligenceCopy.en;
+  const cream = crossIntelligenceCreamCopy[locale as keyof typeof crossIntelligenceCreamCopy] ?? crossIntelligenceCreamCopy.en;
   const components = localizedCrossIntelligenceComponents[locale as keyof typeof localizedCrossIntelligenceComponents] ?? getGeneratedLocalCopy(localizedCrossIntelligenceComponents, generatedLocalCopy.localizedCrossIntelligenceComponents, locale) ?? localizedCrossIntelligenceComponents.en;
   const tierComparison = localizedTierComparison[locale as keyof typeof localizedTierComparison] ?? getGeneratedLocalCopy(localizedTierComparison, generatedLocalCopy.localizedTierComparison, locale) ?? localizedTierComparison.en;
   const mockupCopy = localizedCrossIntelligenceMockups[locale as keyof typeof localizedCrossIntelligenceMockups] ?? getGeneratedLocalCopy(localizedCrossIntelligenceMockups, generatedLocalCopy.localizedCrossIntelligenceMockups, locale) ?? localizedCrossIntelligenceMockups.en;
@@ -1189,7 +1192,7 @@ export default function CrossIntelligencePage() {
               <StaggerItem key={item.label}>
                 <Card variant="elevated" className="text-center p-6">
                   <CardContent>
-                    <SundaeIcon name={item.icon} size="lg" className="text-purple-400 mx-auto mb-3" />
+                    <SundaeIcon name={item.icon} size="lg" className="text-[#FF7E6F] mx-auto mb-3" />
                     <div className="text-3xl font-bold text-[var(--text-primary)] mb-2">{item.stat}</div>
                     <p className="text-sm text-[var(--text-supporting)]">{item.label}</p>
                   </CardContent>
@@ -1199,6 +1202,9 @@ export default function CrossIntelligencePage() {
           </StaggerContainer>
         </div>
       </section>
+
+      {/* Cream relief - early warm break BEFORE the long dark component-mockup stretch (the volume system) */}
+      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
 
       {/* Components */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
@@ -1229,7 +1235,7 @@ export default function CrossIntelligencePage() {
                         <div>
                           <div className="flex items-center gap-2">
                             <h3 className="text-2xl font-bold text-[var(--text-primary)]">{component.title}</h3>
-                            <span className={`text-[10px] font-semibold uppercase px-2 py-0.5 rounded-full ${component.tier === 'pro' ? 'bg-cyan-500/20 text-cyan-400' : 'bg-purple-500/20 text-purple-400'}`}>
+                            <span className={`text-[10px] font-semibold uppercase px-2 py-0.5 rounded-full ${component.tier === 'pro' ? 'bg-[#E9A24A]/20 text-[#E9A24A]' : 'bg-[#FF5C4D]/20 text-[#FF7E6F]'}`}>
                               {component.tier === 'pro' ? ui.proTierLabel : ui.baseTierLabel}
                             </span>
                           </div>
@@ -1242,7 +1248,7 @@ export default function CrossIntelligencePage() {
                       <div className="space-y-2 mb-4">
                         {component.capabilities.map((cap) => (
                           <div key={cap} className="flex items-start gap-2 text-sm text-[var(--text-secondary)]">
-                            <span className="text-purple-400 flex-shrink-0 mt-0.5">✓</span>
+                            <span className="text-[#FF7E6F] flex-shrink-0 mt-0.5">✓</span>
                             <span>{cap}</span>
                           </div>
                         ))}
@@ -1267,10 +1273,10 @@ export default function CrossIntelligencePage() {
           <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             {/* Base */}
             <StaggerItem>
-              <Card variant="elevated" className="border border-purple-500/30">
+              <Card variant="elevated" className="border border-[#FF5C4D]/30">
                 <CardHeader>
                   <div className="flex items-center gap-3 mb-2">
-                    <SundaeIcon name="insights" size="lg" className="text-purple-400" />
+                    <SundaeIcon name="insights" size="lg" className="text-[#FF7E6F]" />
                     <div>
                       <CardTitle className="text-xl text-[var(--text-primary)]">{ui.baseCardTitle}</CardTitle>
                       <p className="text-sm text-green-400 font-semibold">{ui.baseLabel}</p>
@@ -1281,7 +1287,7 @@ export default function CrossIntelligencePage() {
                   <ul className="space-y-2">
                     {tierComparison.filter(f => f.base).map(f => (
                       <li key={f.feature} className="flex items-center gap-2 text-sm text-[var(--text-secondary)]">
-                        <span className="text-purple-400">✓</span> {f.feature}
+                        <span className="text-[#FF7E6F]">✓</span> {f.feature}
                       </li>
                     ))}
                   </ul>
@@ -1291,14 +1297,14 @@ export default function CrossIntelligencePage() {
 
             {/* Pro */}
             <StaggerItem>
-              <Card variant="elevated" className="border border-cyan-500/30 relative overflow-hidden">
-                <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-purple-500 to-cyan-500" />
+              <Card variant="elevated" className="border border-[#E9A24A]/30 relative overflow-hidden">
+                <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[#FF5C4D] to-[#E9A24A]" />
                 <CardHeader>
                   <div className="flex items-center gap-3 mb-2">
-                    <SundaeIcon name="core" size="lg" className="text-cyan-400" />
+                    <SundaeIcon name="core" size="lg" className="text-[#E9A24A]" />
                     <div>
                       <CardTitle className="text-xl text-[var(--text-primary)]">{ui.proCardTitle}</CardTitle>
-                      <p className="text-sm text-cyan-400 font-semibold">{ui.proLabel}</p>
+                      <p className="text-sm text-[#E9A24A] font-semibold">{ui.proLabel}</p>
                     </div>
                   </div>
                 </CardHeader>
@@ -1306,8 +1312,8 @@ export default function CrossIntelligencePage() {
                   <ul className="space-y-2">
                     {tierComparison.map(f => (
                       <li key={f.feature} className="flex items-center gap-2 text-sm text-[var(--text-secondary)]">
-                        <span className={f.pro ? "text-cyan-400" : "text-[var(--text-muted)]"}>
-                          {f.pro ? "✓" : "—"}
+                        <span className={f.pro ? "text-[#E9A24A]" : "text-[var(--text-muted)]"}>
+                          {f.pro ? "✓" : "-"}
                         </span>
                         {f.feature}
                       </li>

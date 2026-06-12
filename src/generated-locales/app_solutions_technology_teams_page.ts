@@ -6,11 +6,11 @@ export const generatedLocalCopy = {
       "badge": "Pour les équipes technologiques et de données",
       "titleLine1": "Douze sources.",
       "titleLine2": "Un schéma gouverné.",
-      "description": "POS, main-d'œuvre, inventaire, livraison, comptabilité — unifié. RBAC, pistes d'audit, API publique, webhooks. Pas un autre projet d'intégration.",
+      "description": "POS, main-d'œuvre, inventaire, livraison, comptabilité - unifié. RBAC, pistes d'audit, API publique, webhooks. Pas un autre projet d'intégration.",
       "primaryCta": "Réservez une démonstration technique",
       "secondaryCta": "Voir les documents API et schéma",
-      "problemsEyebrow": "QU'EST-CE QUI RALENTIT LE RETARD",
-      "problemsTitle": "Qu'est-ce qui mange le retard de données",
+      "problemsEyebrow": "CE QUI ENGLOUTIT VOTRE BACKLOG",
+      "problemsTitle": "Ce qui engloutit le backlog de données",
       "problemsDescription": "Chaque nouvelle demande de tableau de bord devient un projet d'intégration de six semaines.",
       "challenges": [
         {
@@ -38,14 +38,14 @@ export const generatedLocalCopy = {
       "howDescription": "Une plateforme, douze domaines, zéro plomberie.",
       "howSundaeHelps": [
         {
-          "title": "Modèles de données de restaurant gouvernés 500+",
+          "title": "500+ modèles de données de restaurant gouvernés",
           "description": "Schéma unifié à travers POS, main-d'œuvre, inventaire, livraison, réservations, comptabilité. Chaque métrique définie une fois, utilisée partout.",
           "product": "Sundae Core",
           "icon": "data"
         },
         {
           "title": "API publique + webhooks prêts à l'emploi",
-          "description": "Points de terminaison REST pour chaque entité. Événements de webhook sur commande, shift, annulation, compensation. RBAC et pistes d'audit intégrés.",
+          "description": "Points de terminaison REST pour chaque entité. Événements de webhook sur commande, service, annulation, offert. RBAC et pistes d'audit intégrés.",
           "product": "Sundae Core · API",
           "icon": "integration"
         },
@@ -72,7 +72,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Une définition de chaque métrique",
-          "description": "Revenu net, pourcentage de coût alimentaire, productivité de la main-d'œuvre — défini une fois, gouverné de manière centrale, utilisé par chaque équipe.",
+          "description": "Revenu net, pourcentage de coût alimentaire, productivité de la main-d'œuvre - défini une fois, gouverné de manière centrale, utilisé par chaque équipe.",
           "icon": "performance"
         },
         {
@@ -94,7 +94,7 @@ export const generatedLocalCopy = {
       "badge": "Für Technologie- und Datenteams",
       "titleLine1": "Zwölf Quellen.",
       "titleLine2": "Ein verwaltetes Schema.",
-      "description": "POS, Personal, Inventar, Lieferung, Buchhaltung — vereint. RBAC, Prüfprotokolle, öffentliche API, Webhooks. Kein weiteres Integrationsprojekt.",
+      "description": "POS, Personal, Inventar, Lieferung, Buchhaltung - vereint. RBAC, Prüfprotokolle, öffentliche API, Webhooks. Kein weiteres Integrationsprojekt.",
       "primaryCta": "Buchen Sie eine technische Durchsicht",
       "secondaryCta": "Siehe API- und Schema-Dokumente",
       "problemsEyebrow": "WAS DEN RÜCKSTAND FRISST",
@@ -160,7 +160,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Eine Definition für jede Kennzahl",
-          "description": "Netto-Umsatz, Lebensmittelkosten %, Arbeitsproduktivität — einmal definiert, zentral verwaltet, von jedem Team genutzt.",
+          "description": "Netto-Umsatz, Lebensmittelkosten %, Arbeitsproduktivität - einmal definiert, zentral verwaltet, von jedem Team genutzt.",
           "icon": "performance"
         },
         {
@@ -185,7 +185,7 @@ export const generatedLocalCopy = {
       "description": "POS، العمالة، المخزون، التوصيل، المحاسبة - موحد. التحكم في الوصول القائم على الدور، سجلات التدقيق، واجهة برمجة التطبيقات العامة، الويب هوكس. ليس مشروع تكامل آخر.",
       "primaryCta": "احجز جولة تقنية",
       "secondaryCta": "اطلع على وثائق API والمخططات",
-      "problemsEyebrow": "ما الذي يستهلك المتأخرات",
+      "problemsEyebrow": "ما الذي يستهلك قائمة المهام المتراكمة",
       "problemsTitle": "ما الذي يستهلك تراكم البيانات",
       "problemsDescription": "كل طلب لوحة معلومات جديدة يصبح مشروع تكامل يستغرق ستة أسابيع.",
       "challenges": [
@@ -221,12 +221,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "واجهة برمجة التطبيقات العامة + الويب هوكس جاهزة للاستخدام",
-          "description": "نقاط نهاية REST لكل كيان. أحداث الويب هوك عند الطلب، التحول، الإلغاء، التعويض. التحكم في الوصول القائم على الأدوار ومسارات التدقيق مدمجة.",
+          "description": "نقاط نهاية REST لكل كيان. أحداث الويب هوك عند الطلب، الوردية، الإلغاء، التعويض. التحكم في الوصول القائم على الأدوار ومسارات التدقيق مدمجة.",
           "product": "Sundae Core · API",
           "icon": "integration"
         },
         {
-          "title": "تحديث مباشر للنواة",
+          "title": "تحديث مباشر لـ Core",
           "description": "Pulse يعمل على تحديث كل 5 دقائق على Core Pro. لا معالجة دفعات ETL، لا وظائف ليلية، لا \"لماذا لوحة المعلومات متأخرة 6 ساعات\".",
           "product": "Pulse",
           "icon": "speed"
@@ -248,7 +248,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "تعريف واحد لكل مقياس",
-          "description": "الإيرادات الصافية، نسبة تكلفة الطعام، إنتاجية العمالة — معرفة مرة واحدة، مُدارة مركزيًا، مستخدمة من قبل كل فريق.",
+          "description": "الإيرادات الصافية، نسبة تكلفة الطعام، إنتاجية العمالة - معرفة مرة واحدة، مُدارة مركزيًا، مستخدمة من قبل كل فريق.",
           "icon": "performance"
         },
         {
@@ -257,7 +257,7 @@ export const generatedLocalCopy = {
           "icon": "owners"
         },
         {
-          "title": "ذكاء اصطناعي يشرح reasoning الخاص به",
+          "title": "ذكاء اصطناعي يشرح منطق استدلاله",
           "description": "استشهادات، نطاقات الثقة، فحص الاستعلام. أطلق ميزات الذكاء الاصطناعي التي سيوافق عليها CISO الخاص بك.",
           "icon": "support"
         }
@@ -358,7 +358,7 @@ export const generatedLocalCopy = {
       "badge": "Voor technologie- en datateams",
       "titleLine1": "Twaalf bronnen.",
       "titleLine2": "Eén beheerd schema.",
-      "description": "POS, arbeid, voorraad, delivery en boekhouding — verenigd. RBAC, auditsporen, publieke API en webhooks. Geen nieuw integratieproject.",
+      "description": "POS, arbeid, voorraad, delivery en boekhouding - verenigd. RBAC, auditsporen, publieke API en webhooks. Geen nieuw integratieproject.",
       "primaryCta": "Boek een technische walkthrough",
       "secondaryCta": "Bekijk API- en schemadocumentatie",
       "problemsEyebrow": "WAAR DE BACKLOG VASTLOOPT",
@@ -424,7 +424,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Één definitie van elke metriek",
-          "description": "Netto-omzet, voedselkosten %, arbeidsproductiviteit — één keer gedefinieerd, centraal beheerd, gebruikt door elk team.",
+          "description": "Netto-omzet, voedselkosten %, arbeidsproductiviteit - één keer gedefinieerd, centraal beheerd, gebruikt door elk team.",
           "icon": "performance"
         },
         {
@@ -446,7 +446,7 @@ export const generatedLocalCopy = {
       "badge": "Para Equipes de Tecnologia e Dados",
       "titleLine1": "Doze fontes.",
       "titleLine2": "Um esquema governado.",
-      "description": "POS, mão de obra, inventário, entrega, contabilidade — unificados. RBAC, trilhas de auditoria, API pública, webhooks. Não é mais um projeto de integração.",
+      "description": "POS, mão de obra, inventário, entrega, contabilidade - unificados. RBAC, trilhas de auditoria, API pública, webhooks. Não é mais um projeto de integração.",
       "primaryCta": "Agende uma Demonstração Técnica",
       "secondaryCta": "Veja a documentação da API e do esquema",
       "problemsEyebrow": "O QUE CONSUME O BACKLOG",
@@ -512,7 +512,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Uma definição de cada métrica",
-          "description": "Receita líquida, % de custo de alimentos, produtividade do trabalho — definido uma vez, governado centralmente, usado por todas as equipes.",
+          "description": "Receita líquida, % de custo de alimentos, produtividade do trabalho - definido uma vez, governado centralmente, usado por todas as equipes.",
           "icon": "performance"
         },
         {
@@ -534,11 +534,11 @@ export const generatedLocalCopy = {
       "badge": "ٹیکنالوجی اور ڈیٹا ٹیموں کے لیے",
       "titleLine1": "بارہ ذرائع۔",
       "titleLine2": "ایک منظم اسکیمہ۔",
-      "description": "POS، مزدوری، انوینٹری، ترسیل، اکاؤنٹنگ — متحد۔ RBAC، آڈٹ ٹریلز، عوامی API، ویب ہُکس۔ ایک اور انضمام منصوبہ نہیں۔",
+      "description": "POS، مزدوری، انوینٹری، ترسیل، اکاؤنٹنگ - متحد۔ RBAC، آڈٹ ٹریلز، عوامی API، ویب ہُکس۔ ایک اور انضمام منصوبہ نہیں۔",
       "primaryCta": "ایک تکنیکی واک تھرو بک کریں",
       "secondaryCta": "API اور اسکیما دستاویزات دیکھیں",
       "problemsEyebrow": "کیا چیز بیک لاگ کو کھا رہی ہے",
-      "problemsTitle": "ڈیٹا بیک لاک کو کیا کھاتا ہے",
+      "problemsTitle": "ڈیٹا بیک لاگ کو کیا کھاتا ہے",
       "problemsDescription": "ہر نئی ڈیش بورڈ کی درخواست ایک چھ ہفتے کا انضمام منصوبہ بن جاتی ہے۔",
       "challenges": [
         {
@@ -572,8 +572,8 @@ export const generatedLocalCopy = {
           "icon": "data"
         },
         {
-          "title": "پبلک API + ویب ہکس باکس سے باہر",
-          "description": "ہر ادارے کے لیے REST اینڈ پوائنٹس۔ آرڈر، شفٹ، وائیڈ، کمپ پر ویب ہک ایونٹس۔ RBAC اور آڈٹ ٹریلز شامل ہیں۔",
+          "title": "پبلک API + ویب ہکس، بغیر کسی سیٹ اپ کے تیار",
+          "description": "ہر ادارے کے لیے REST اینڈ پوائنٹس۔ آرڈر، شفٹ، منسوخی، مفت پیشکش پر ویب ہک ایونٹس۔ RBAC اور آڈٹ ٹریلز شامل ہیں۔",
           "product": "Sundae Core · API",
           "icon": "integration"
         },
@@ -600,7 +600,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "ہر میٹرک کی ایک تعریف",
-          "description": "نیٹ ریونیو، کھانے کی قیمت کا فیصد، محنت کی پیداوار — ایک بار بیان کی گئی، مرکزی طور پر منظم، ہر ٹیم کے ذریعہ استعمال کی گئی۔",
+          "description": "نیٹ ریونیو، کھانے کی قیمت کا فیصد، محنت کی پیداوار - ایک بار بیان کی گئی، مرکزی طور پر منظم، ہر ٹیم کے ذریعہ استعمال کی گئی۔",
           "icon": "performance"
         },
         {
@@ -622,7 +622,7 @@ export const generatedLocalCopy = {
       "badge": "तकनीकी और डेटा टीमों के लिए",
       "titleLine1": "बारह स्रोत।",
       "titleLine2": "एक नियंत्रित स्कीमा।",
-      "description": "POS, श्रम, इन्वेंटरी, डिलीवरी, लेखांकन — एकीकृत। RBAC, ऑडिट ट्रेल्स, सार्वजनिक API, वेबहुक्स। एक और एकीकरण परियोजना नहीं।",
+      "description": "POS, श्रम, इन्वेंटरी, डिलीवरी, लेखांकन - एकीकृत। RBAC, ऑडिट ट्रेल्स, सार्वजनिक API, वेबहुक्स। एक और एकीकरण परियोजना नहीं।",
       "primaryCta": "एक तकनीकी वॉक-थ्रू बुक करें",
       "secondaryCta": "API और स्कीमा दस्तावेज़ देखें",
       "problemsEyebrow": "क्या बैकलॉग को खा रहा है",
@@ -667,7 +667,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "लाइव कोर रिफ्रेश",
-          "description": "Pulse कोर प्रो पर 5-मिनट के रिफ्रेश पर चलता है। कोई बैच ETL नहीं, कोई रात का काम नहीं, कोई \"डैशबोर्ड 6 घंटे पीछे क्यों है\" नहीं। (Core Pro)",
+          "description": "Pulse, Core Pro पर 5-मिनट के रिफ्रेश पर चलता है। कोई बैच ETL नहीं, कोई रात का काम नहीं, कोई \"डैशबोर्ड 6 घंटे पीछे क्यों है\" नहीं।",
           "product": "Pulse",
           "icon": "speed"
         },
@@ -679,7 +679,7 @@ export const generatedLocalCopy = {
         }
       ],
       "outcomesTitle": "डेटा टीम के लिए क्या बदलता है",
-      "outcomesDescription": "छोटी बैकलॉग, साफ़ शासन, AI जिसे आप बचा सकते हैं।",
+      "outcomesDescription": "छोटी बैकलॉग, साफ़ शासन, ऐसा AI जिसका आप बचाव कर सकते हैं।",
       "outcomes": [
         {
           "title": "इंटीग्रेशन बनाना बंद करें",
@@ -688,16 +688,16 @@ export const generatedLocalCopy = {
         },
         {
           "title": "हर मीट्रिक की एक परिभाषा",
-          "description": "नेट राजस्व, खाद्य लागत %, श्रम उत्पादकता — एक बार परिभाषित, केंद्रीय रूप से नियंत्रित, हर टीम द्वारा उपयोग किया जाता है।",
+          "description": "नेट राजस्व, खाद्य लागत %, श्रम उत्पादकता - एक बार परिभाषित, केंद्रीय रूप से नियंत्रित, हर टीम द्वारा उपयोग किया जाता है।",
           "icon": "performance"
         },
         {
           "title": "ऑडिट-ग्रेड ट्रेसबिलिटी",
-          "description": "हर संख्या → स्रोत पंक्ति → क्वेरी → मीट्रिक परिभाषा। वित्त, ऑडिट, और AI सभी इसे बचा सकते हैं।",
+          "description": "हर संख्या → स्रोत पंक्ति → क्वेरी → मीट्रिक परिभाषा। वित्त, ऑडिट, और AI सभी इसका बचाव कर सकते हैं।",
           "icon": "owners"
         },
         {
-          "title": "AI जो अपनी तर्क को समझाता है",
+          "title": "AI जो अपने तर्क को समझाता है",
           "description": "उद्धरण, विश्वास बैंड, क्वेरी निरीक्षण। AI सुविधाएँ भेजें जिन पर आपका CISO हस्ताक्षर करेगा।",
           "icon": "support"
         }
@@ -710,7 +710,7 @@ export const generatedLocalCopy = {
       "badge": "Per i team di tecnologia e dati",
       "titleLine1": "Dodici fonti.",
       "titleLine2": "Uno schema governato.",
-      "description": "POS, lavoro, inventario, consegna, contabilità — unificati. RBAC, registri di audit, API pubblica, webhook. Non un altro progetto di integrazione.",
+      "description": "POS, lavoro, inventario, consegna, contabilità - unificati. RBAC, registri di audit, API pubblica, webhook. Non un altro progetto di integrazione.",
       "primaryCta": "Prenota una Dimostrazione Tecnica",
       "secondaryCta": "Vedi la documentazione API e Schema",
       "problemsEyebrow": "COSA MANGIA IL BACKLOG",
@@ -742,7 +742,7 @@ export const generatedLocalCopy = {
       "howDescription": "Una piattaforma, dodici domini, zero tubature.",
       "howSundaeHelps": [
         {
-          "title": "Modelli di dati ristorativi governati 500+",
+          "title": "500+ modelli di dati per ristoranti governati",
           "description": "Schema unificato tra POS, lavoro, inventario, consegne, prenotazioni, contabilità. Ogni metrica definita una sola volta, utilizzata ovunque.",
           "product": "Sundae Core",
           "icon": "data"
@@ -776,7 +776,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Una definizione di ogni metrica",
-          "description": "Entrate nette, % costo del cibo, produttività del lavoro — definite una volta, governate centralmente, utilizzate da ogni team.",
+          "description": "Entrate nette, % costo del cibo, produttività del lavoro - definite una volta, governate centralmente, utilizzate da ogni team.",
           "icon": "performance"
         },
         {
@@ -797,11 +797,11 @@ export const generatedLocalCopy = {
     "pl": {
       "badge": "Dla zespołów technologicznych i danych",
       "titleLine1": "Dwanaście źródeł.",
-      "titleLine2": "Jedna zarządzana schemat.",
-      "description": "POS, praca, zapasy, dostawa, księgowość — zintegrowane. RBAC, ścieżki audytu, publiczne API, webhooki. Nie kolejny projekt integracyjny.",
+      "titleLine2": "Jeden zarządzany schemat.",
+      "description": "POS, praca, zapasy, dostawa, księgowość - zintegrowane. RBAC, ścieżki audytu, publiczne API, webhooki. Nie kolejny projekt integracyjny.",
       "primaryCta": "Zarezerwuj techniczne wprowadzenie",
       "secondaryCta": "Zobacz dokumentację API i schematów",
-      "problemsEyebrow": "CO ZJADA ZAPASY",
+      "problemsEyebrow": "CO ZJADA TWÓJ BACKLOG",
       "problemsTitle": "Co zjada zaległości danych",
       "problemsDescription": "Każda nowa prośba o pulpit staje się sześciotygodniowym projektem integracyjnym.",
       "challenges": [
@@ -864,7 +864,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Jedna definicja każdej metryki",
-          "description": "Przychód netto, procent kosztów jedzenia, wydajność pracy — zdefiniowane raz, zarządzane centralnie, używane przez każdy zespół.",
+          "description": "Przychód netto, procent kosztów jedzenia, wydajność pracy - zdefiniowane raz, zarządzane centralnie, używane przez każdy zespół.",
           "icon": "performance"
         },
         {
@@ -879,14 +879,14 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "Zobacz schemat, a nie slajd.",
-      "ctaDescription": "30 minut. Twój stos. Integracja, którą Sundae zaoszczędziłby Twojemu zespołowi w tygodniach.",
+      "ctaDescription": "30 minut. Twój stack. Tygodnie integracji, które Sundae zaoszczędziłby Twojemu zespołowi.",
       "ctaButton": "Zarezerwuj techniczne wprowadzenie"
     },
     "tr": {
       "badge": "Teknoloji ve Veri Ekipleri için",
       "titleLine1": "On iki kaynak.",
       "titleLine2": "Tek bir yönetilen şema.",
-      "description": "POS, iş gücü, envanter, teslimat, muhasebe — birleşik. RBAC, denetim izleri, kamu API'si, web kancaları. Başka bir entegrasyon projesi değil.",
+      "description": "POS, iş gücü, envanter, teslimat, muhasebe - birleşik. RBAC, denetim izleri, herkese açık API, webhook'lar. Başka bir entegrasyon projesi değil.",
       "primaryCta": "Teknik Geçiş Randevusu Al",
       "secondaryCta": "API ve Şema Belgelerini Görüntüle",
       "problemsEyebrow": "GERİDEKİ İŞLERİ NE YİYOR?",
@@ -905,7 +905,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Yönetim elektronik tablolar içinde",
-          "description": "Metrek tanımları PM'lerin kafasında yaşıyor. \"Net gelir\" üç farklı raporda üç farklı anlama geliyor.",
+          "description": "Metrik tanımları PM'lerin kafasında yaşıyor. \"Net gelir\" üç farklı raporda üç farklı anlama geliyor.",
           "icon": "balance"
         },
         {
@@ -924,7 +924,7 @@ export const generatedLocalCopy = {
           "icon": "data"
         },
         {
-          "title": "Kutudan çıkan Kamu API'si + webhook'lar",
+          "title": "Kullanıma hazır herkese açık API + webhook'lar",
           "description": "Her varlık için REST uç noktaları. Sipariş, vardiya, iptal, ikram üzerine webhook olayları. RBAC ve denetim izleri dahildir.",
           "product": "Sundae Core · API",
           "icon": "integration"
@@ -952,7 +952,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Her metriğin tek tanımı",
-          "description": "Net gelir, gıda maliyeti %, iş gücü verimliliği — bir kez tanımlanır, merkezi olarak yönetilir, her ekip tarafından kullanılır.",
+          "description": "Net gelir, gıda maliyeti %, iş gücü verimliliği - bir kez tanımlanır, merkezi olarak yönetilir, her ekip tarafından kullanılır.",
           "icon": "performance"
         },
         {
@@ -967,7 +967,7 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "Şemayı görün, slaytı değil.",
-      "ctaDescription": "30 dakika. Sizin yığınınız. Sundae'in ekibinize kazandıracağı entegrasyon haftaları.",
+      "ctaDescription": "30 dakika. Sizin yığınınız. Sundae'nin ekibinize kazandıracağı entegrasyon haftaları.",
       "ctaButton": "Teknik Geçiş Randevusu Al"
     },
     "zh-Hans": {
@@ -1040,7 +1040,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "每个指标的统一定义",
-          "description": "净收入、食品成本%、劳动生产率 — 统一定义，集中管理，供每个团队使用。",
+          "description": "净收入、食品成本%、劳动生产率 - 统一定义，集中管理，供每个团队使用。",
           "icon": "performance"
         },
         {
@@ -1062,7 +1062,7 @@ export const generatedLocalCopy = {
       "badge": "テクノロジーおよびデータチーム向け",
       "titleLine1": "12のソース。",
       "titleLine2": "一つの管理されたスキーマ。",
-      "description": "POS、労働、在庫、配送、会計 — 統合。RBAC、監査証跡、公開API、ウェブフック。別の統合プロジェクトではありません。",
+      "description": "POS、労働、在庫、配送、会計 - 統合。RBAC、監査証跡、公開API、ウェブフック。別の統合プロジェクトではありません。",
       "primaryCta": "技術的なウォークスルーを予約する",
       "secondaryCta": "APIおよびスキーマドキュメントを見る",
       "problemsEyebrow": "バックログを食いつぶすものは何か",
@@ -1128,7 +1128,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "すべての指標の一つの定義",
-          "description": "純収益、食品コスト%、労働生産性 — 一度定義され、中央で管理され、すべてのチームで使用されます。",
+          "description": "純収益、食品コスト%、労働生産性 - 一度定義され、中央で管理され、すべてのチームで使用されます。",
           "icon": "performance"
         },
         {
@@ -1143,14 +1143,14 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "スライドではなく、スキーマを確認してください。",
-      "ctaDescription": "30分。あなたのスタック。Sundaeがあなたのチームを救う統合の週。",
+      "ctaDescription": "30分。あなたのスタック。Sundaeがあなたのチームに節約する統合の数週間。",
       "ctaButton": "技術的なウォークスルーを予約する"
     },
     "id": {
       "badge": "Untuk Tim Teknologi & Data",
       "titleLine1": "Dua belas sumber.",
       "titleLine2": "Satu skema yang diatur.",
-      "description": "POS, tenaga kerja, inventaris, pengiriman, akuntansi — terpadu. RBAC, jejak audit, API publik, webhook. Bukan proyek integrasi lainnya.",
+      "description": "POS, tenaga kerja, inventaris, pengiriman, akuntansi - terpadu. RBAC, jejak audit, API publik, webhook. Bukan proyek integrasi lainnya.",
       "primaryCta": "Pesan Penjelasan Teknis",
       "secondaryCta": "Lihat Dokumen API & Skema",
       "problemsEyebrow": "APA YANG MENGHAMBAT BACKLOG",
@@ -1216,7 +1216,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Satu definisi untuk setiap metrik",
-          "description": "Pendapatan bersih, persentase biaya makanan, produktivitas tenaga kerja — didefinisikan sekali, dikelola secara pusat, digunakan oleh setiap tim.",
+          "description": "Pendapatan bersih, persentase biaya makanan, produktivitas tenaga kerja - didefinisikan sekali, dikelola secara pusat, digunakan oleh setiap tim.",
           "icon": "performance"
         },
         {
@@ -1238,10 +1238,10 @@ export const generatedLocalCopy = {
       "badge": "Dành cho các đội Công nghệ & Dữ liệu",
       "titleLine1": "Mười hai nguồn.",
       "titleLine2": "Một sơ đồ được quản lý.",
-      "description": "POS, lao động, tồn kho, giao hàng, kế toán — thống nhất. RBAC, nhật ký kiểm toán, API công khai, webhooks. Không phải là một dự án tích hợp khác.",
+      "description": "POS, lao động, tồn kho, giao hàng, kế toán - thống nhất. RBAC, nhật ký kiểm toán, API công khai, webhooks. Không phải là một dự án tích hợp khác.",
       "primaryCta": "Đặt lịch Hướng dẫn Kỹ thuật",
       "secondaryCta": "Xem Tài liệu API & Sơ đồ",
-      "problemsEyebrow": "CÁI GÌ KHIẾN ĐẦU CÔNG VIỆC BỊ ĐÌNH TRỆ",
+      "problemsEyebrow": "ĐIỀU GÌ NGỐN HẾT TỒN ĐỌNG CÔNG VIỆC",
       "problemsTitle": "Điều gì làm chậm lại dữ liệu",
       "problemsDescription": "Mỗi yêu cầu bảng điều khiển mới trở thành một dự án tích hợp kéo dài sáu tuần.",
       "challenges": [
@@ -1304,7 +1304,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Một định nghĩa cho mọi chỉ số",
-          "description": "Doanh thu ròng, tỷ lệ chi phí thực phẩm %, năng suất lao động — được định nghĩa một lần, quản lý trung tâm, được sử dụng bởi mọi đội.",
+          "description": "Doanh thu ròng, tỷ lệ chi phí thực phẩm %, năng suất lao động - được định nghĩa một lần, quản lý trung tâm, được sử dụng bởi mọi đội.",
           "icon": "performance"
         },
         {
@@ -1326,7 +1326,7 @@ export const generatedLocalCopy = {
       "badge": "기술 및 데이터 팀을 위한",
       "titleLine1": "열두 개의 출처.",
       "titleLine2": "하나의 관리되는 스키마.",
-      "description": "POS, 인력, 재고, 배달, 회계 — 통합. RBAC, 감사 추적, 공개 API, 웹훅. 또 다른 통합 프로젝트가 아닙니다.",
+      "description": "POS, 인력, 재고, 배달, 회계 - 통합. RBAC, 감사 추적, 공개 API, 웹훅. 또 다른 통합 프로젝트가 아닙니다.",
       "primaryCta": "기술 안내 예약하기",
       "secondaryCta": "API 및 스키마 문서 보기",
       "problemsEyebrow": "백로그를 소모하는 것은 무엇인가",
@@ -1392,7 +1392,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "모든 지표의 단일 정의",
-          "description": "순수익, 식품 비용 %, 노동 생산성 — 한 번 정의되고 중앙에서 관리되며 모든 팀이 사용합니다.",
+          "description": "순수익, 식품 비용 %, 노동 생산성 - 한 번 정의되고 중앙에서 관리되며 모든 팀이 사용합니다.",
           "icon": "performance"
         },
         {
@@ -1407,14 +1407,14 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "슬라이드가 아닌 스키마를 확인하세요.",
-      "ctaDescription": "30분. 당신의 스택. Sundae가 귀하의 팀을 위해 절약할 통합 주수.",
+      "ctaDescription": "30분. 당신의 스택. Sundae가 귀하의 팀에게 절약해 줄 통합 작업 몇 주.",
       "ctaButton": "기술 안내 예약하기"
     },
     "sv": {
       "badge": "För teknik- och datateam",
       "titleLine1": "Tolv källor.",
       "titleLine2": "Ett styrt schema.",
-      "description": "POS, arbetskraft, inventarier, leverans, bokföring — enhetligt. RBAC, revisionsspår, offentlig API, webhooks. Inte ännu ett integrationsprojekt.",
+      "description": "POS, arbetskraft, inventarier, leverans, bokföring - enhetligt. RBAC, revisionsspår, offentlig API, webhooks. Inte ännu ett integrationsprojekt.",
       "primaryCta": "Boka en teknisk genomgång",
       "secondaryCta": "Se API- och schema-dokumentation",
       "problemsEyebrow": "VAD ÄTER UPP BACKLOGGEN",
@@ -1427,7 +1427,7 @@ export const generatedLocalCopy = {
           "icon": "integration"
         },
         {
-          "title": "Ingen enhetlig restaurangschema",
+          "title": "Inget enhetligt restaurangschema",
           "description": "POS-leverantörer modellerar beställningar olika. Arbetskraftssystem modellerar skift olika. Du översätter för alltid.",
           "icon": "data"
         },
@@ -1480,7 +1480,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "En definition av varje mått",
-          "description": "Nettointäkter, matkostnad %, arbetsproduktivitet — definierat en gång, styrt centralt, använt av varje team.",
+          "description": "Nettointäkter, matkostnad %, arbetsproduktivitet - definierat en gång, styrt centralt, använt av varje team.",
           "icon": "performance"
         },
         {
@@ -1501,11 +1501,11 @@ export const generatedLocalCopy = {
     "ro": {
       "badge": "Pentru echipele de tehnologie și date",
       "titleLine1": "Douăsprezece surse.",
-      "titleLine2": "Un schemă guvernată.",
-      "description": "POS, muncă, inventar, livrare, contabilitate — unificate. RBAC, trailuri de audit, API public, webhooks. Nu un alt proiect de integrare.",
+      "titleLine2": "O schemă guvernată.",
+      "description": "POS, muncă, inventar, livrare, contabilitate - unificate. RBAC, trailuri de audit, API public, webhooks. Nu un alt proiect de integrare.",
       "primaryCta": "Rezervați o prezentare tehnică",
       "secondaryCta": "Vezi documentația API și Schema",
-      "problemsEyebrow": "CE MĂNÂNCĂ ÎNAPOIEREA",
+      "problemsEyebrow": "CE ÎȚI CONSUMĂ BACKLOG-UL",
       "problemsTitle": "Ce mănâncă stocul de date",
       "problemsDescription": "Fiecare solicitare de tablou de bord devine un proiect de integrare de șase săptămâni.",
       "challenges": [
@@ -1515,17 +1515,17 @@ export const generatedLocalCopy = {
           "icon": "integration"
         },
         {
-          "title": "Fără un schema unificată pentru restaurante",
+          "title": "Fără o schemă unificată pentru restaurante",
           "description": "Furnizorii de POS modelează comenzile diferit. Sistemele de muncă modelează turele diferit. Traduci pentru totdeauna.",
           "icon": "data"
         },
         {
           "title": "Guvernanță construită în foi de calcul",
-          "description": "Definițiile metricalor trăiesc în mințile PM-ilor. \"Venit net\" înseamnă trei lucruri diferite în trei rapoarte.",
+          "description": "Definițiile metricilor trăiesc în mințile PM-ilor. \"Venit net\" înseamnă trei lucruri diferite în trei rapoarte.",
           "icon": "balance"
         },
         {
-          "title": "Timp real este un proiect personalizat",
+          "title": "Timpul real este un proiect personalizat",
           "description": "Fiecare întrebare \"putem să avem asta live?\" se transformă într-o construcție de șase săptămâni.",
           "icon": "speed"
         }
@@ -1568,7 +1568,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "O definiție pentru fiecare metrică",
-          "description": "Venit net, procent din costul alimentelor, productivitatea forței de muncă — definit o singură dată, guvernat central, folosit de fiecare echipă.",
+          "description": "Venit net, procent din costul alimentelor, productivitatea forței de muncă - definit o singură dată, guvernat central, folosit de fiecare echipă.",
           "icon": "performance"
         },
         {
@@ -1583,14 +1583,14 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "Vezi schema, nu diapozitivul.",
-      "ctaDescription": "30 de minute. Tehnologia ta. Săptămânile de integrare pe care Sundae le-ar economisi echipei tale.",
+      "ctaDescription": "30 de minute. Stack-ul tău. Săptămânile de integrare pe care Sundae le-ar economisi echipei tale.",
       "ctaButton": "Rezervați un tur tehnic"
     },
     "bn": {
       "badge": "প্রযুক্তি ও ডেটা দলের জন্য",
       "titleLine1": "বারোটি উৎস।",
       "titleLine2": "একটি শাসিত স্কিমা।",
-      "description": "POS, শ্রম, ইনভেন্টরি, ডেলিভারি, হিসাবরক্ষণ — একত্রিত। RBAC, অডিট ট্রেইল, পাবলিক API, ওয়েবহুক। আরেকটি ইন্টিগ্রেশন প্রকল্প নয়।",
+      "description": "POS, শ্রম, ইনভেন্টরি, ডেলিভারি, হিসাবরক্ষণ - একত্রিত। RBAC, অডিট ট্রেইল, পাবলিক API, ওয়েবহুক। আরেকটি ইন্টিগ্রেশন প্রকল্প নয়।",
       "primaryCta": "একটি প্রযুক্তিগত ওয়াক-থ্রু বুক করুন",
       "secondaryCta": "এপিআই এবং স্কিমা ডকস দেখুন",
       "problemsEyebrow": "ব্যাকলগকে কী খাচ্ছে",
@@ -1622,7 +1622,7 @@ export const generatedLocalCopy = {
       "howDescription": "একটি প্ল্যাটফর্ম, বারো ডোমেইন, শূন্য প্লাম্বিং।",
       "howSundaeHelps": [
         {
-          "title": "১৭৯+ পরিচালিত রেস্টুরেন্ট ডেটা মডেল",
+          "title": "৫০০+ পরিচালিত রেস্টুরেন্ট ডেটা মডেল",
           "description": "POS, শ্রম, ইনভেন্টরি, ডেলিভারি, রিজার্ভেশন, হিসাবরক্ষণ জুড়ে একক স্কিমা। প্রতিটি মেট্রিক একবার সংজ্ঞায়িত, সর্বত্র ব্যবহৃত।",
           "product": "Sundae Core",
           "icon": "data"
@@ -1656,7 +1656,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "প্রতিটি মেট্রিকের একটি সংজ্ঞা",
-          "description": "নেট রাজস্ব, খাদ্য খরচ %, শ্রম উৎপাদনশীলতা — একবার সংজ্ঞায়িত, কেন্দ্রীয়ভাবে পরিচালিত, প্রতিটি দলের দ্বারা ব্যবহৃত।",
+          "description": "নেট রাজস্ব, খাদ্য খরচ %, শ্রম উৎপাদনশীলতা - একবার সংজ্ঞায়িত, কেন্দ্রীয়ভাবে পরিচালিত, প্রতিটি দলের দ্বারা ব্যবহৃত।",
           "icon": "performance"
         },
         {
@@ -1678,7 +1678,7 @@ export const generatedLocalCopy = {
       "badge": "สำหรับทีมเทคโนโลยีและข้อมูล",
       "titleLine1": "สิบสองแหล่งข้อมูล.",
       "titleLine2": "สคีมาที่มีการควบคุมหนึ่งชุด.",
-      "description": "POS, แรงงาน, สินค้าคงคลัง, การจัดส่ง, การบัญชี — รวมเป็นหนึ่งเดียว RBAC, เส้นทางการตรวจสอบ, API สาธารณะ, webhooks. ไม่ใช่โครงการการรวมระบบอีกต่อไป.",
+      "description": "POS, แรงงาน, สินค้าคงคลัง, การจัดส่ง, การบัญชี - รวมเป็นหนึ่งเดียว RBAC, เส้นทางการตรวจสอบ, API สาธารณะ, webhooks. ไม่ใช่โครงการการรวมระบบอีกต่อไป.",
       "primaryCta": "จองการสาธิตทางเทคนิค",
       "secondaryCta": "ดูเอกสาร API & Schema",
       "problemsEyebrow": "อะไรที่ทำให้เกิดความล่าช้า",
@@ -1744,7 +1744,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "การกำหนดที่ชัดเจนของทุกเมตริก",
-          "description": "รายได้สุทธิ, เปอร์เซ็นต์ต้นทุนอาหาร, ผลผลิตแรงงาน — กำหนดเพียงครั้งเดียว, ควบคุมจากส่วนกลาง, ใช้โดยทุกทีม",
+          "description": "รายได้สุทธิ, เปอร์เซ็นต์ต้นทุนอาหาร, ผลผลิตแรงงาน - กำหนดเพียงครั้งเดียว, ควบคุมจากส่วนกลาง, ใช้โดยทุกทีม",
           "icon": "performance"
         },
         {
@@ -1766,7 +1766,7 @@ export const generatedLocalCopy = {
       "badge": "Untuk Pasukan Teknologi & Data",
       "titleLine1": "Dua belas sumber.",
       "titleLine2": "Satu skema yang dikawal.",
-      "description": "POS, tenaga kerja, inventori, penghantaran, perakaunan — disatukan. RBAC, jejak audit, API awam, webhooks. Bukan projek integrasi yang lain.",
+      "description": "POS, tenaga kerja, inventori, penghantaran, perakaunan - disatukan. RBAC, jejak audit, API awam, webhooks. Bukan projek integrasi yang lain.",
       "primaryCta": "Tempah Penerangan Teknikal",
       "secondaryCta": "Lihat Dokumen API & Skema",
       "problemsEyebrow": "APA YANG MENYEBABKAN TERTUNDA",
@@ -1832,7 +1832,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Satu definisi bagi setiap metrik",
-          "description": "Pendapatan bersih, peratus kos makanan, produktiviti buruh — ditakrifkan sekali, diurus secara pusat, digunakan oleh setiap pasukan.",
+          "description": "Pendapatan bersih, peratus kos makanan, produktiviti buruh - ditakrifkan sekali, diurus secara pusat, digunakan oleh setiap pasukan.",
           "icon": "performance"
         },
         {

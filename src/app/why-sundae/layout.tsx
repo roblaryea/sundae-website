@@ -8,7 +8,7 @@ const copy = {
   en: {
     title: "Why Sundae",
     description:
-      "See why leading restaurant groups choose Sundae for Decision Intelligence — unified data, 4D insights, and real-time operational visibility.",
+      "See why leading restaurant groups choose Sundae for Decision Intelligence - unified data, 4D insights, and real-time operational visibility.",
   },
   ar: {
     title: "لماذا Sundae",

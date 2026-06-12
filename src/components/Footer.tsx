@@ -13,20 +13,19 @@ import { LocaleSwitcher } from './i18n/LocaleSwitcher';
 import { useTheme } from './ui/ThemeProvider';
 
 /**
- * Pages that ship their own bespoke closing CTA — Footer pre-CTA is suppressed
+ * Pages that ship their own bespoke closing CTA - Footer pre-CTA is suppressed
  * on these to avoid the double-CTA stack at the bottom of the page.
  *
  * Match logic strips any leading locale segment (/fr, /ar, /es) before testing.
  */
 function shouldHideFooterPreCta(pathname: string): boolean {
-  // Strip optional /<locale> prefix
+  // Nearly every content page ships its OWN bespoke closing CTA, so the global
+  // Footer pre-CTA is suppressed by DEFAULT to avoid a double-CTA stack at the
+  // bottom of the page. It is shown only on the few utility pages that have no
+  // closer of their own (kept in an explicit allow-list so it can never double).
   const stripped = pathname.replace(/^\/(en|fr|ar|es)(?=\/|$)/, '') || '/';
-  if (stripped === '/') return true;             // home
-  if (stripped === '/solutions') return true;    // hub
-  if (stripped.startsWith('/solutions/')) return true; // persona pages
-  if (stripped === '/crew') return true;         // crew page (own closing CTA)
-  if (stripped.startsWith('/diagnostic')) return true; // diagnostic report ships its own "Want to see this on your real data?" CTA
-  return false;
+  const SHOW_FOOTER_PRECTA = new Set<string>(['/faq']);
+  return !SHOW_FOOTER_PRECTA.has(stripped);
 }
 import { localizeWebsiteHref } from '@/lib/i18n';
 
@@ -55,7 +54,7 @@ const Footer = () => {
   // Mobile-collapse: sections start closed on narrow viewports and the toggle
   // controls visibility there. At md+ the content is always visible (the
   // `hidden md:block` content + `md:pointer-events-none` header), so this state
-  // is a pure mobile affordance — desktop ignores it entirely.
+  // is a pure mobile affordance - desktop ignores it entirely.
   const [openSections, setOpenSections] = useState<Set<string>>(new Set());
   const toggleSection = (key: string) =>
     setOpenSections((prev) => {
@@ -66,7 +65,7 @@ const Footer = () => {
     });
 
   // Show ALL pillars (incl. Foresight) so the footer stays in sync with the
-  // header's product menu — both read from navbar.pillars.
+  // header's product menu - both read from navbar.pillars.
   const pillarLinks = [
     ...nav.pillars.map((item) => ({ name: item.name, href: item.href })),
   ];
@@ -90,7 +89,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-[var(--navy-deep)] text-[var(--text-primary)]" role="contentinfo">
-      {/* Pre-footer CTA — suppressed on pages that ship their own closing CTA
+      {/* Pre-footer CTA - suppressed on pages that ship their own closing CTA
           (home, /solutions hub, /solutions/* persona pages) to avoid stacking
           two competing CTA blocks at the bottom of the page. */}
       {!hidePreCta && (
@@ -173,7 +172,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Products Column — collapsible on mobile, expanded on md+ */}
+          {/* Products Column - collapsible on mobile, expanded on md+ */}
           <div className="footer-section">
             <button
               type="button"

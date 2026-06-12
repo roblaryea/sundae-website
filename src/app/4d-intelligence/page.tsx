@@ -32,9 +32,9 @@ const localized4DCopy = {
         description: 'This is where most tools stop. Traditional BI platforms show you sales, labor, covers, voids, and waste from your POS, payroll, and inventory systems. But they only tell you what happened in the past, with no context, no comparison, and no prediction.',
         examples: ['Daily sales by location and daypart', 'Labor hours and costs from payroll', 'Inventory usage and waste reports', 'Cover counts and average check', 'Void and comp tracking'],
         icon: 'benchmarking',
-        color: 'from-blue-500 to-blue-600',
-        textColor: 'text-[#60A5FA]',
-        bgColor: 'bg-[rgba(28,71,255,0.1)]',
+        color: 'from-[#FF5C4D] to-[#E9A24A]',
+        textColor: 'text-[#FF8473]',
+        bgColor: 'bg-[rgba(255,92,77,0.1)]',
       },
       {
         id: '2D',
@@ -43,9 +43,9 @@ const localized4DCopy = {
         description: 'Layer in your budgets, forecasts, and targets. Now you can see variance - are you ahead or behind plan? This adds planning context, but still no market intelligence or predictive power.',
         examples: ['Budget vs actual sales variance', 'Labor cost % against targets', 'Food cost variance by period', 'Location-level performance to plan', 'Forecast accuracy tracking'],
         icon: 'marketing',
-        color: 'from-purple-500 to-purple-600',
-        textColor: 'text-purple-600',
-        bgColor: 'bg-purple-50',
+        color: 'from-[#F2B45C] to-[#C2410C]',
+        textColor: 'text-[#C2410C]',
+        bgColor: 'bg-[#FF5C4D]/10',
       },
       {
         id: '3D',
@@ -88,9 +88,9 @@ const localized4DCopy = {
     howTitle: 'How It Works',
     howDescription: 'AI-powered analysis at every layer of your operations',
     howItems: [
-      { title: 'Unified Data Layer', description: 'Scout integrates 250+ systems - POS, labor, inventory, budgets, and external sources - into one intelligent foundation.', icon: 'integration' },
+      { title: 'Unified Data Layer', description: 'Sundae Core integrates 250+ systems - POS, labor, inventory, budgets, and external sources - into one intelligent foundation.', icon: 'integration' },
       { title: 'Multi-Agent AI Engine', description: 'Specialized AI agents analyze patterns, detect anomalies, forecast outcomes, and generate recommendations across all four dimensions.', icon: 'intelligence' },
-      { title: 'Actionable Intelligence', description: 'Canvas dashboards, Nexus natural language queries, and proactive alerts deliver insights when and where you need them.', icon: 'insights' },
+      { title: 'Actionable Intelligence', description: 'Sundae Core decision views, Sundae Intelligence natural language queries, and proactive alerts deliver insights when and where you need them.', icon: 'insights' },
     ],
     ctaTitle: 'Ready for the Full Picture?',
     ctaDescription: 'See 4D Intelligence with your data. Past, plan, peers, and predictions - all in one view.',
@@ -111,8 +111,8 @@ const localized4DCopy = {
     dimensionsTitle: 'أربعة أبعاد. رؤية كاملة واحدة.',
     dimensionsDescription: 'كل بُعد يبني على الذي قبله. معًا، يروون القصة كاملة.',
     dimensions: [
-      { id: '1D', title: 'النتائج الداخلية', subtitle: 'ماذا حدث؟', description: 'هنا تتوقف معظم الأدوات. تعرض منصات BI التقليدية المبيعات والعمالة والحجوزات والهدر من أنظمة POS والرواتب والمخزون. لكنها تخبرك فقط بما حدث في الماضي، من دون سياق أو مقارنة أو توقع.', examples: ['المبيعات اليومية حسب الموقع وفترة اليوم', 'ساعات وتكاليف العمالة من الرواتب', 'استخدام المخزون وتقارير الهدر', 'عدد الضيوف ومتوسط الفاتورة', 'تتبع الإلغاءات والإكراميات'], icon: 'benchmarking', color: 'from-blue-500 to-blue-600', textColor: 'text-[#60A5FA]', bgColor: 'bg-[rgba(28,71,255,0.1)]' },
-      { id: '2D', title: 'الفعل مقابل الخطة', subtitle: 'ما الذي كان يجب أن يحدث؟', description: 'أدخل الميزانيات والتوقعات والأهداف. الآن يمكنك رؤية الانحراف - هل أنت متقدم أم متأخر عن الخطة؟ هذا يضيف سياقًا تخطيطيًا، لكنه لا يزال بلا ذكاء سوقي أو قوة تنبؤية.', examples: ['انحراف المبيعات الفعلية عن الميزانية', 'تكلفة العمالة مقابل الأهداف', 'انحراف تكلفة الطعام حسب الفترة', 'الأداء على مستوى الموقع مقابل الخطة', 'تتبع دقة التوقعات'], icon: 'marketing', color: 'from-purple-500 to-purple-600', textColor: 'text-purple-600', bgColor: 'bg-purple-50' },
+      { id: '1D', title: 'النتائج الداخلية', subtitle: 'ماذا حدث؟', description: 'هنا تتوقف معظم الأدوات. تعرض منصات BI التقليدية المبيعات والعمالة والحجوزات والهدر من أنظمة POS والرواتب والمخزون. لكنها تخبرك فقط بما حدث في الماضي، من دون سياق أو مقارنة أو توقع.', examples: ['المبيعات اليومية حسب الموقع وفترة اليوم', 'ساعات وتكاليف العمالة من الرواتب', 'استخدام المخزون وتقارير الهدر', 'عدد الضيوف ومتوسط الفاتورة', 'تتبع الإلغاءات والإكراميات'], icon: 'benchmarking', color: 'from-[#FF5C4D] to-[#E9A24A]', textColor: 'text-[#FF8473]', bgColor: 'bg-[rgba(255,92,77,0.1)]' },
+      { id: '2D', title: 'الفعل مقابل الخطة', subtitle: 'ما الذي كان يجب أن يحدث؟', description: 'أدخل الميزانيات والتوقعات والأهداف. الآن يمكنك رؤية الانحراف - هل أنت متقدم أم متأخر عن الخطة؟ هذا يضيف سياقًا تخطيطيًا، لكنه لا يزال بلا ذكاء سوقي أو قوة تنبؤية.', examples: ['انحراف المبيعات الفعلية عن الميزانية', 'تكلفة العمالة مقابل الأهداف', 'انحراف تكلفة الطعام حسب الفترة', 'الأداء على مستوى الموقع مقابل الخطة', 'تتبع دقة التوقعات'], icon: 'marketing', color: 'from-[#F2B45C] to-[#C2410C]', textColor: 'text-[#C2410C]', bgColor: 'bg-[#FF5C4D]/10' },
       { id: '3D', title: 'السوق والمنافسون', subtitle: 'كيف نقارن؟', description: 'أضف المقاييس المرجعية ومجموعات النظراء والذكاء التنافسي. شاهد كيف يتماشى أداؤك مع مطاعم مشابهة في فئتك ومنطقتك. افهم سياق السوق، لا المقاييس الداخلية فقط.', examples: ['المبيعات لكل قدم مربع مقابل مجموعة النظراء', 'تكلفة العمالة % مقارنة بالمقاييس المرجعية', 'تسعير المنافسين وعروضهم', 'اتجاهات الفئات والمناطق', 'الحصة السوقية والتموضع'], icon: 'watchtower', color: 'from-green-500 to-green-600', textColor: 'text-green-600', bgColor: 'bg-green-50' },
       { id: '4D', title: 'رؤية الذكاء الاصطناعي والإجراءات', subtitle: 'ماذا سيحدث بعد ذلك، وماذا يجب أن نفعل؟', description: 'البعد الأخير: التوقعات والتنبيهات والتوصيات المولدة بالذكاء الاصطناعي. يتنبأ الذكاء متعدد الوكلاء في Sundae بالنتائج، ويكشف الشذوذ قبل أن يتصاعد، ويخبرك بالإجراء الصحيح.', examples: ['توقعات المبيعات والطلب', 'تنبيهات استباقية لارتفاع تكاليف العمالة', 'تعديلات تسعير القائمة الموصى بها بالذكاء', 'اقتراحات تحسين التوظيف', 'اكتشاف الشذوذ وتحليل السبب الجذري'], icon: 'forecasting', color: 'from-orange-500 to-orange-600', textColor: 'text-orange-600', bgColor: 'bg-orange-50' },
     ],
@@ -134,9 +134,9 @@ const localized4DCopy = {
     howTitle: 'كيف يعمل',
     howDescription: 'تحليل مدعوم بالذكاء الاصطناعي في كل طبقة من عملياتك',
     howItems: [
-      { title: 'طبقة بيانات موحدة', description: 'يربط Scout أكثر من 25 نظامًا - POS والعمالة والمخزون والميزانيات والمصادر الخارجية - في أساس ذكي واحد.', icon: 'integration' },
+      { title: 'طبقة بيانات موحدة', description: 'يربط Sundae Core أكثر من 25 نظامًا - POS والعمالة والمخزون والميزانيات والمصادر الخارجية - في أساس ذكي واحد.', icon: 'integration' },
       { title: 'محرك ذكاء متعدد الوكلاء', description: 'تحلل الوكلاء المتخصصون الأنماط وتكتشف الشذوذ وتتوقع النتائج وتولّد التوصيات عبر الأبعاد الأربعة.', icon: 'intelligence' },
-      { title: 'ذكاء قابل للتنفيذ', description: 'لوحات Canvas واستعلامات Nexus باللغة الطبيعية والتنبيهات الاستباقية تقدّم الرؤى عندما وأين تحتاجها.', icon: 'insights' },
+      { title: 'ذكاء قابل للتنفيذ', description: 'لوحات Sundae Core واستعلامات Sundae Intelligence باللغة الطبيعية والتنبيهات الاستباقية تقدّم الرؤى عندما وأين تحتاجها.', icon: 'insights' },
     ],
     ctaTitle: 'هل أنت مستعد للصورة الكاملة؟',
     ctaDescription: 'شاهد ذكاء 4D مع بياناتك. الماضي والخطة والنظراء والتوقعات - كلها في عرض واحد.',
@@ -157,8 +157,8 @@ const localized4DCopy = {
     dimensionsTitle: 'Quatre dimensions. Une vue complète.',
     dimensionsDescription: 'Chaque dimension s’appuie sur la précédente. Ensemble, elles racontent toute l’histoire.',
     dimensions: [
-      { id: '1D', title: 'Constats internes', subtitle: 'Que s’est-il passé ?', description: 'C’est là que la plupart des outils s’arrêtent. Les BI traditionnels montrent ventes, main-d’oeuvre, couverts, annulations et gaspillage depuis le POS, la paie et l’inventaire. Mais ils ne donnent que le passé, sans contexte ni comparaison.', examples: ['Ventes journalières par site et tranche horaire', 'Heures et coûts de main-d’oeuvre', 'Usage stock et gaspillage', 'Nombre de couverts et ticket moyen', 'Suivi des annulations et offs'], icon: 'benchmarking', color: 'from-blue-500 to-blue-600', textColor: 'text-[#60A5FA]', bgColor: 'bg-[rgba(28,71,255,0.1)]' },
-      { id: '2D', title: 'Réel vs plan', subtitle: 'Que devait-il se passer ?', description: 'Ajoutez budgets, prévisions et objectifs. Vous voyez alors l’écart - êtes-vous en avance ou en retard ? Cela ajoute du contexte de planification, mais pas encore d’intelligence marché.', examples: ['Écart ventes budget vs réel', 'Coût main-d’oeuvre vs objectifs', 'Écart coût matière par période', 'Performance par site vs plan', 'Suivi de précision des prévisions'], icon: 'marketing', color: 'from-purple-500 to-purple-600', textColor: 'text-purple-600', bgColor: 'bg-purple-50' },
+      { id: '1D', title: 'Constats internes', subtitle: 'Que s’est-il passé ?', description: 'C’est là que la plupart des outils s’arrêtent. Les BI traditionnels montrent ventes, main-d’oeuvre, couverts, annulations et gaspillage depuis le POS, la paie et l’inventaire. Mais ils ne donnent que le passé, sans contexte ni comparaison.', examples: ['Ventes journalières par site et tranche horaire', 'Heures et coûts de main-d’oeuvre', 'Usage stock et gaspillage', 'Nombre de couverts et ticket moyen', 'Suivi des annulations et offs'], icon: 'benchmarking', color: 'from-[#FF5C4D] to-[#E9A24A]', textColor: 'text-[#FF8473]', bgColor: 'bg-[rgba(255,92,77,0.1)]' },
+      { id: '2D', title: 'Réel vs plan', subtitle: 'Que devait-il se passer ?', description: 'Ajoutez budgets, prévisions et objectifs. Vous voyez alors l’écart - êtes-vous en avance ou en retard ? Cela ajoute du contexte de planification, mais pas encore d’intelligence marché.', examples: ['Écart ventes budget vs réel', 'Coût main-d’oeuvre vs objectifs', 'Écart coût matière par période', 'Performance par site vs plan', 'Suivi de précision des prévisions'], icon: 'marketing', color: 'from-[#F2B45C] to-[#C2410C]', textColor: 'text-[#C2410C]', bgColor: 'bg-[#FF5C4D]/10' },
       { id: '3D', title: 'Marché & concurrents', subtitle: 'Comment nous situons-nous ?', description: 'Ajoutez des benchmarks, des groupes de pairs et de l’intelligence concurrentielle. Comparez votre performance à des restaurants similaires dans votre catégorie et votre région.', examples: ['Ventes au m² vs groupe de pairs', 'Coût main-d’oeuvre vs benchmarks', 'Tarifs et promotions concurrents', 'Tendances de catégorie et de territoire', 'Part de marché et positionnement'], icon: 'watchtower', color: 'from-green-500 to-green-600', textColor: 'text-green-600', bgColor: 'bg-green-50' },
       { id: '4D', title: 'Prévision IA & actions', subtitle: 'Que va-t-il se passer ensuite, et que devons-nous faire ?', description: 'La dimension finale : prévisions, alertes et recommandations générées par l’IA. L’IA multi-agents de Sundae prévoit les résultats, détecte les anomalies avant qu’elles ne s’aggravent et indique l’action exacte à prendre.', examples: ['Prévisions de ventes et de demande', 'Alertes proactives sur les pics de coût main-d’oeuvre', 'Recommandations de prix menu', 'Suggestions d’optimisation du staffing', 'Détection d’anomalies et analyse racine'], icon: 'forecasting', color: 'from-orange-500 to-orange-600', textColor: 'text-orange-600', bgColor: 'bg-orange-50' },
     ],
@@ -180,9 +180,9 @@ const localized4DCopy = {
     howTitle: 'Comment ça marche',
     howDescription: 'Une analyse pilotée par l’IA à chaque couche de vos opérations',
     howItems: [
-      { title: 'Couche de données unifiée', description: 'Scout intègre plus de 25 systèmes - POS, main-d’oeuvre, inventaire, budgets et sources externes - dans une base intelligente unique.', icon: 'integration' },
+      { title: 'Couche de données unifiée', description: 'Sundae Core intègre plus de 25 systèmes - POS, main-d’oeuvre, inventaire, budgets et sources externes - dans une base intelligente unique.', icon: 'integration' },
       { title: 'Moteur IA multi-agents', description: 'Des agents spécialisés analysent les motifs, détectent les anomalies, prévoient les résultats et génèrent des recommandations sur les quatre dimensions.', icon: 'intelligence' },
-      { title: 'Intelligence actionnable', description: 'Les dashboards Canvas, les requêtes en langage naturel de Nexus et les alertes proactives livrent les insights quand et où vous en avez besoin.', icon: 'insights' },
+      { title: 'Intelligence actionnable', description: 'Les dashboards Sundae Core, les requêtes en langage naturel de Sundae Intelligence et les alertes proactives livrent les insights quand et où vous en avez besoin.', icon: 'insights' },
     ],
     ctaTitle: 'Prêt pour la vue complète ?',
     ctaDescription: 'Découvrez la 4D Intelligence avec vos données. Passé, plan, pairs et prévisions - tout dans une seule vue.',
@@ -203,8 +203,8 @@ const localized4DCopy = {
     dimensionsTitle: 'Cuatro dimensiones. Una vista completa.',
     dimensionsDescription: 'Cada dimensión construye sobre la anterior. Juntas cuentan la historia completa.',
     dimensions: [
-      { id: '1D', title: 'Resultados internos', subtitle: '¿Qué pasó?', description: 'Aquí es donde la mayoría de las herramientas se detienen. Las plataformas BI tradicionales muestran ventas, personal, cubiertos, anulaciones y desperdicio desde POS, nómina e inventario. Pero solo cuentan el pasado, sin contexto ni comparación.', examples: ['Ventas diarias por ubicación y franja', 'Horas y costes laborales', 'Uso de inventario y desperdicio', 'Número de cubiertos y ticket medio', 'Seguimiento de anulaciones y cortesías'], icon: 'benchmarking', color: 'from-blue-500 to-blue-600', textColor: 'text-[#60A5FA]', bgColor: 'bg-[rgba(28,71,255,0.1)]' },
-      { id: '2D', title: 'Real vs plan', subtitle: '¿Qué debería haber pasado?', description: 'Añade presupuestos, previsiones y objetivos. Ahora ves la variación: ¿vas por delante o por detrás del plan? Esto añade contexto de planificación, pero aún sin inteligencia de mercado ni poder predictivo.', examples: ['Variación de ventas presupuesto vs real', 'Coste laboral frente a objetivos', 'Variación de coste de comida por periodo', 'Rendimiento por ubicación vs plan', 'Seguimiento de precisión de pronósticos'], icon: 'marketing', color: 'from-purple-500 to-purple-600', textColor: 'text-purple-600', bgColor: 'bg-purple-50' },
+      { id: '1D', title: 'Resultados internos', subtitle: '¿Qué pasó?', description: 'Aquí es donde la mayoría de las herramientas se detienen. Las plataformas BI tradicionales muestran ventas, personal, cubiertos, anulaciones y desperdicio desde POS, nómina e inventario. Pero solo cuentan el pasado, sin contexto ni comparación.', examples: ['Ventas diarias por ubicación y franja', 'Horas y costes laborales', 'Uso de inventario y desperdicio', 'Número de cubiertos y ticket medio', 'Seguimiento de anulaciones y cortesías'], icon: 'benchmarking', color: 'from-[#FF5C4D] to-[#E9A24A]', textColor: 'text-[#FF8473]', bgColor: 'bg-[rgba(255,92,77,0.1)]' },
+      { id: '2D', title: 'Real vs plan', subtitle: '¿Qué debería haber pasado?', description: 'Añade presupuestos, previsiones y objetivos. Ahora ves la variación: ¿vas por delante o por detrás del plan? Esto añade contexto de planificación, pero aún sin inteligencia de mercado ni poder predictivo.', examples: ['Variación de ventas presupuesto vs real', 'Coste laboral frente a objetivos', 'Variación de coste de comida por periodo', 'Rendimiento por ubicación vs plan', 'Seguimiento de precisión de pronósticos'], icon: 'marketing', color: 'from-[#F2B45C] to-[#C2410C]', textColor: 'text-[#C2410C]', bgColor: 'bg-[#FF5C4D]/10' },
       { id: '3D', title: 'Mercado y competidores', subtitle: '¿Cómo nos comparamos?', description: 'Añade benchmarks, grupos de pares e inteligencia competitiva. Ve cómo se posiciona tu rendimiento frente a restaurantes similares en tu categoría y región.', examples: ['Ventas por metro cuadrado vs grupo par', 'Coste laboral % comparado con benchmarks', 'Precios y promociones de competidores', 'Tendencias de categoría y territorio', 'Cuota de mercado y posicionamiento'], icon: 'watchtower', color: 'from-green-500 to-green-600', textColor: 'text-green-600', bgColor: 'bg-green-50' },
       { id: '4D', title: 'Visión IA y acciones', subtitle: '¿Qué pasará después y qué debemos hacer?', description: 'La dimensión final: predicciones, alertas y recomendaciones generadas por IA. La IA multiagente de Sundae pronostica resultados, marca anomalías antes de que escalen y te dice exactamente qué hacer.', examples: ['Pronósticos de ventas y demanda', 'Alertas proactivas de picos de coste laboral', 'Cambios de precio recomendados por IA', 'Sugerencias de optimización de personal', 'Detección de anomalías y análisis de causa raíz'], icon: 'forecasting', color: 'from-orange-500 to-orange-600', textColor: 'text-orange-600', bgColor: 'bg-orange-50' },
     ],
@@ -226,9 +226,9 @@ const localized4DCopy = {
     howTitle: 'Cómo funciona',
     howDescription: 'Análisis impulsado por IA en cada capa de tus operaciones',
     howItems: [
-      { title: 'Capa de datos unificada', description: 'Scout integra más de 25 sistemas - POS, personal, inventario, presupuestos y fuentes externas - en una base inteligente única.', icon: 'integration' },
+      { title: 'Capa de datos unificada', description: 'Sundae Core integra más de 25 sistemas - POS, personal, inventario, presupuestos y fuentes externas - en una base inteligente única.', icon: 'integration' },
       { title: 'Motor de IA multiagente', description: 'Agentes especializados analizan patrones, detectan anomalías, pronostican resultados y generan recomendaciones en las cuatro dimensiones.', icon: 'intelligence' },
-      { title: 'Inteligencia accionable', description: 'Dashboards de Canvas, consultas en lenguaje natural de Nexus y alertas proactivas entregan insights cuando y donde los necesitas.', icon: 'insights' },
+      { title: 'Inteligencia accionable', description: 'Dashboards de Sundae Core, consultas en lenguaje natural de Sundae Intelligence y alertas proactivas entregan insights cuando y donde los necesitas.', icon: 'insights' },
     ],
     ctaTitle: '¿Listo para la imagen completa?',
     ctaDescription: 'Ve 4D Intelligence con tus datos. Pasado, plan, pares y predicciones - todo en una sola vista.',
@@ -242,11 +242,11 @@ export default function FourDIntelligencePage() {
   const ui = localized4DCopy[locale as keyof typeof localized4DCopy] ?? getGeneratedLocalCopy(localized4DCopy, generatedLocalCopy.localized4DCopy, locale) ?? localized4DCopy.en;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-orange-50">
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="text-center mb-12">
-            <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium mb-6">
+            <div className="inline-flex items-center space-x-2 bg-[#FF5C4D]/12 text-[#C2410C] px-4 py-2 rounded-full text-sm font-medium mb-6">
               <SundaeIcon name="growth" size="md" />
               <span>{ui.heroBadge}</span>
             </div>
@@ -285,7 +285,7 @@ export default function FourDIntelligencePage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-blue-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-orange-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.dimensionsTitle}</h2>
@@ -345,17 +345,17 @@ export default function FourDIntelligencePage() {
                   <CardContent className="p-6">
                     <div className="flex items-start space-x-4">
                       <div className={`w-12 h-12 rounded-lg flex items-center justify-center mt-1 ${
-                        alert.severity === 'warning' ? 'bg-yellow-100' : alert.severity === 'success' ? 'bg-green-100' : 'bg-blue-100'
+                        alert.severity === 'warning' ? 'bg-yellow-100' : alert.severity === 'success' ? 'bg-green-100' : 'bg-[#FFE3DD]'
                       }`}>
                         <SundaeIcon name={alert.icon as SundaeIconName} size="lg" className={
-                          alert.severity === 'warning' ? 'text-yellow-600' : alert.severity === 'success' ? 'text-green-600' : 'text-[#60A5FA]'
+                          alert.severity === 'warning' ? 'text-yellow-600' : alert.severity === 'success' ? 'text-green-600' : 'text-[#FF8473]'
                         } />
                       </div>
                       <div className="flex-grow">
                         <div className="flex items-center justify-between mb-2">
                           <h3 className="text-xl font-bold text-[var(--text-primary)]">{alert.type}</h3>
                           <span className={`px-3 py-1 rounded-full text-sm font-medium ${
-                            alert.severity === 'warning' ? 'bg-yellow-100 text-yellow-800' : alert.severity === 'success' ? 'bg-green-100 text-green-800' : 'bg-blue-100 text-blue-800'
+                            alert.severity === 'warning' ? 'bg-yellow-100 text-yellow-800' : alert.severity === 'success' ? 'bg-green-100 text-green-800' : 'bg-[#FFE3DD] text-[#C2410C]'
                           }`}>
                             {alert.location}
                           </span>
@@ -372,7 +372,7 @@ export default function FourDIntelligencePage() {
         </div>
       </section>
 
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-blue-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-orange-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="section-h2 text-[var(--text-primary)] mb-4">{ui.impactTitle}</h2>
@@ -385,7 +385,7 @@ export default function FourDIntelligencePage() {
                 <Card variant="elevated" className="h-full hover:shadow-xl transition-all duration-300">
                   <CardHeader>
                     <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg flex items-center justify-center text-white flex-shrink-0 shadow-lg">
+                      <div className="w-12 h-12 bg-gradient-to-br from-[#FF5C4D] to-purple-500 rounded-lg flex items-center justify-center text-white flex-shrink-0 shadow-lg">
                         <SundaeIcon name={outcome.icon as SundaeIconName} size="lg" className="text-[var(--text-primary)]" />
                       </div>
                       <div>
@@ -413,7 +413,7 @@ export default function FourDIntelligencePage() {
               <motion.div key={index} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: index * 0.1 }}>
                 <Card variant="elevated" className="h-full text-center hover:shadow-xl transition-all duration-300">
                   <CardContent className="p-8">
-                    <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center">
+                    <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-[#FF5C4D] to-[#E9A24A] rounded-xl flex items-center justify-center">
                       <SundaeIcon name={item.icon as SundaeIconName} size="xl" className="text-[var(--text-primary)]" />
                     </div>
                     <h3 className="text-xl font-bold text-[var(--text-primary)] mb-3">{item.title}</h3>
@@ -433,7 +433,7 @@ export default function FourDIntelligencePage() {
             <p className="body-xl mb-8 opacity-90 leading-relaxed">{ui.ctaDescription}</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/demo">
-                <Button variant="secondary" size="lg" className="bg-[var(--navy-deep)] text-[#60A5FA] hover:bg-[var(--surface-subtle)]">{ui.ctaPrimary}</Button>
+                <Button variant="secondary" size="lg" className="bg-[var(--navy-deep)] text-[#FF8473] hover:bg-[var(--surface-subtle)]">{ui.ctaPrimary}</Button>
               </Link>
               <Link href="/architecture">
                 <Button variant="outline-light" size="lg">{ui.ctaSecondary}</Button>

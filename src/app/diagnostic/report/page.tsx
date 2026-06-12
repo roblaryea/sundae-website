@@ -1,4 +1,4 @@
-// Shareable diagnostic web report — the full depth the teaser email links to.
+// Shareable diagnostic web report - the full depth the teaser email links to.
 // Server-fetches the report from the backend by signed token, then hands off
 // to the app-styled client view (light/dark, collapsible sections).
 
@@ -42,12 +42,12 @@ function NotFound({ locale }: { locale: WebsiteLocale }) {
   return (
     <div className="min-h-screen bg-[#020617] text-slate-100 grid place-items-center px-6" dir={copy.dir}>
       <div className="text-center max-w-md">
-        <span className="text-2xl font-extrabold tracking-tight">sundae<span className="text-blue-500">.</span></span>
+        <span className="text-2xl font-extrabold tracking-tight">sundae<span className="text-[#FF5C4D]">.</span></span>
         <h1 className="text-xl font-bold mt-6">{copy.share.notFoundTitle}</h1>
         <p className="text-sm text-slate-400 mt-2">
           {copy.share.notFoundBody}
         </p>
-        <Link href="/diagnostic" className="inline-flex items-center gap-1.5 mt-6 px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-sm font-bold transition-colors">
+        <Link href="/diagnostic" className="inline-flex items-center gap-1.5 mt-6 px-5 py-2.5 rounded-xl bg-[#FF5C4D] hover:bg-[#C2410C] text-white text-sm font-bold transition-colors">
           {copy.share.notFoundCta}
         </Link>
       </div>

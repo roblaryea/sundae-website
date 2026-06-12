@@ -1,7 +1,7 @@
 "use client";
 
 /**
- * Daypart Margin Leak Estimator — depth-grade replacement for the shallow
+ * Daypart Margin Leak Estimator - depth-grade replacement for the shallow
  * labor-cost calculator. Computes daypart-level overstaffing leakage by
  * correlating labor hours against revenue density per daypart, then
  * projects annual leakage and surfaces the highest-leak daypart with a
@@ -31,20 +31,20 @@ type DaypartId = "morning" | "lunch" | "afternoon" | "dinner" | "lateNight";
 type DaypartInput = {
   id: DaypartId;
   label: string;
-  hours: string;       // e.g. "06:00–10:30"
+  hours: string;       // e.g. "06:00-10:30"
   revenuePct: string;  // 0-100, share of daily revenue
   staffFte: string;    // FTE during this window
 };
 
 const DEFAULT_DAYPARTS: DaypartInput[] = [
-  { id: "morning",    label: "Morning",     hours: "06:00–10:30", revenuePct: "8",  staffFte: "4" },
-  { id: "lunch",      label: "Lunch",       hours: "11:00–14:30", revenuePct: "32", staffFte: "9" },
-  { id: "afternoon",  label: "Afternoon",   hours: "14:30–17:00", revenuePct: "6",  staffFte: "7" },
-  { id: "dinner",     label: "Dinner",      hours: "17:00–22:00", revenuePct: "48", staffFte: "11" },
-  { id: "lateNight",  label: "Late Night",  hours: "22:00–01:00", revenuePct: "6",  staffFte: "5" },
+  { id: "morning",    label: "Morning",     hours: "06:00-10:30", revenuePct: "8",  staffFte: "4" },
+  { id: "lunch",      label: "Lunch",       hours: "11:00-14:30", revenuePct: "32", staffFte: "9" },
+  { id: "afternoon",  label: "Afternoon",   hours: "14:30-17:00", revenuePct: "6",  staffFte: "7" },
+  { id: "dinner",     label: "Dinner",      hours: "17:00-22:00", revenuePct: "48", staffFte: "11" },
+  { id: "lateNight",  label: "Late Night",  hours: "22:00-01:00", revenuePct: "6",  staffFte: "5" },
 ];
 
-// Segment-aware target labor cost % — replaces the prior single 28% heuristic
+// Segment-aware target labor cost % - replaces the prior single 28% heuristic
 // with industry-honest ranges. Used as the upper-bound target (anything
 // above this band is potentially trimmable, conservatively).
 const SEGMENT_TARGETS: Record<string, { label: string; targetPct: number }> = {
@@ -62,7 +62,7 @@ const SEGMENT_TARGETS: Record<string, { label: string; targetPct: number }> = {
 // match staffing to demand without breaking service or coverage floors).
 const RECOVERY_FACTOR_LOW = 0.35;
 const RECOVERY_FACTOR_HIGH = 0.50;
-// Account for closed days — most operators close 10-20 days a year
+// Account for closed days - most operators close 10-20 days a year
 // for holidays, deep cleans, renovations.
 const OPERATING_DAYS = 350;
 
@@ -99,7 +99,7 @@ export default function DaypartMarginLeakPage() {
       const targetLaborCost = dayRev * segmentTargetPct;
       // Identified overspend (before applying recovery factor)
       const identifiedOverspend = Math.max(0, laborCost - targetLaborCost);
-      // Conservative recovery range — only a fraction is realistically trimmable
+      // Conservative recovery range - only a fraction is realistically trimmable
       const recoverableLow = identifiedOverspend * RECOVERY_FACTOR_LOW;
       const recoverableHigh = identifiedOverspend * RECOVERY_FACTOR_HIGH;
       // Trim suggestion based on midpoint
@@ -150,7 +150,7 @@ export default function DaypartMarginLeakPage() {
             <SundaeIcon name="balance" size="sm" />
             Back to Tools
           </Link>
-          <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase text-[var(--electric-blue)] mb-3">
+          <span className="inline-block text-[11px] font-semibold tracking-[0.14em] uppercase text-[var(--warm-coral)] mb-3">
             INSIGHT-GRADE · LABOR INTELLIGENCE
           </span>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[var(--text-primary)] mb-3 text-balance">
@@ -159,7 +159,7 @@ export default function DaypartMarginLeakPage() {
           <p className="text-base sm:text-lg text-[var(--text-supporting)] max-w-2xl">
             Find the daypart bleeding margin from overstaffing. Most labor-cost
             calculators give you one aggregate %. This one breaks the day into
-            five windows and surfaces the worst offender — with a specific
+            five windows and surfaces the worst offender - with a specific
             corrective action and annualized impact.
           </p>
         </div>
@@ -185,7 +185,7 @@ export default function DaypartMarginLeakPage() {
                   <select
                     value={segment}
                     onChange={(e) => setSegment(e.target.value as keyof typeof SEGMENT_TARGETS)}
-                    className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--electric-blue)]"
+                    className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]"
                   >
                     {Object.entries(SEGMENT_TARGETS).map(([k, v]) => (
                       <option key={k} value={k}>{v.label} ({Math.round(v.targetPct * 100)}% target)</option>
@@ -199,12 +199,12 @@ export default function DaypartMarginLeakPage() {
                   <select
                     value={currency}
                     onChange={(e) => setCurrency(e.target.value)}
-                    className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--electric-blue)]"
+                    className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]"
                   >
                     {CURRENCY_REGIONS.map((region) => (
                       <optgroup key={region} label={region}>
                         {CURRENCIES.filter((c) => c.region === region).map((c) => (
-                          <option key={c.code} value={c.code}>{c.code} — {c.symbol}</option>
+                          <option key={c.code} value={c.code}>{c.code} - {c.symbol}</option>
                         ))}
                       </optgroup>
                     ))}
@@ -224,7 +224,7 @@ export default function DaypartMarginLeakPage() {
                       type="number"
                       value={dailyRevenue}
                       onChange={(e) => setDailyRevenue(e.target.value)}
-                      className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-r-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--electric-blue)]"
+                      className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-r-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]"
                     />
                   </div>
                 </div>
@@ -240,7 +240,7 @@ export default function DaypartMarginLeakPage() {
                       type="number"
                       value={hourlyLaborCost}
                       onChange={(e) => setHourlyLaborCost(e.target.value)}
-                      className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-r-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--electric-blue)]"
+                      className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-r-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]"
                     />
                   </div>
                 </div>
@@ -253,7 +253,7 @@ export default function DaypartMarginLeakPage() {
                     min="1"
                     value={outletCount}
                     onChange={(e) => setOutletCount(e.target.value)}
-                    className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--electric-blue)]"
+                    className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]"
                   />
                 </div>
               </div>
@@ -286,7 +286,7 @@ export default function DaypartMarginLeakPage() {
                             next[i] = { ...dp, revenuePct: e.target.value };
                             setDayparts(next);
                           }}
-                          className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-l-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--electric-blue)]"
+                          className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-l-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]"
                           placeholder="Rev %"
                         />
                         <span className="bg-white/[0.04] border border-[var(--border-default)] border-l-0 rounded-r-lg px-2 py-2 text-xs text-[var(--text-muted)]">
@@ -304,7 +304,7 @@ export default function DaypartMarginLeakPage() {
                             next[i] = { ...dp, staffFte: e.target.value };
                             setDayparts(next);
                           }}
-                          className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-l-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--electric-blue)]"
+                          className="w-full bg-white/[0.04] border border-[var(--border-default)] rounded-l-lg px-3 py-2 text-sm text-[var(--text-primary)] focus:outline-none focus:border-[var(--warm-coral)]"
                           placeholder="FTE"
                         />
                         <span className="bg-white/[0.04] border border-[var(--border-default)] border-l-0 rounded-r-lg px-2 py-2 text-xs text-[var(--text-muted)]">
@@ -322,8 +322,8 @@ export default function DaypartMarginLeakPage() {
           <div className="lg:col-span-2">
             {analysis && (
               <div className="lg:sticky lg:top-32 space-y-4">
-                <div className="rounded-2xl border-2 border-[var(--electric-blue)]/40 bg-gradient-to-br from-[var(--electric-blue)]/8 to-transparent p-6">
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-[var(--electric-blue)] mb-2">
+                <div className="rounded-2xl border-2 border-[var(--warm-coral)]/40 bg-gradient-to-br from-[var(--warm-coral)]/8 to-transparent p-6">
+                  <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-[var(--warm-coral)] mb-2">
                     Recoverable annual labor cost · range
                   </p>
                   <div className="text-xl sm:text-2xl font-bold text-[var(--text-primary)] tabular-nums mb-1">
@@ -337,7 +337,7 @@ export default function DaypartMarginLeakPage() {
                     )}
                   </div>
                   <p className="text-[10px] text-[var(--text-muted)] italic mt-2 leading-snug">
-                    Assumes {Math.round(RECOVERY_FACTOR_LOW * 100)}–{Math.round(RECOVERY_FACTOR_HIGH * 100)}% of identified overspend is realistically recoverable in the first quarter — the rest is service-floor staffing you can&rsquo;t trim without breaking coverage.
+                    Assumes {Math.round(RECOVERY_FACTOR_LOW * 100)}-{Math.round(RECOVERY_FACTOR_HIGH * 100)}% of identified overspend is realistically recoverable in the first quarter - the rest is service-floor staffing you can&rsquo;t trim without breaking coverage.
                   </p>
                 </div>
 
@@ -366,7 +366,7 @@ export default function DaypartMarginLeakPage() {
                           <div className="h-1.5 rounded-full bg-white/[0.04] overflow-hidden">
                             <div
                               className={`h-full rounded-full transition-all ${
-                                isWorst ? "bg-red-400" : "bg-[var(--electric-blue)]/70"
+                                isWorst ? "bg-red-400" : "bg-[var(--warm-coral)]/70"
                               }`}
                               style={{ width: `${Math.max(2, widthPct)}%` }}
                             />
@@ -377,7 +377,7 @@ export default function DaypartMarginLeakPage() {
                   </div>
                 </div>
 
-                {/* What Sundae would do — softer, range-based */}
+                {/* What Sundae would do - softer, range-based */}
                 {analysis.worst && analysis.worst.identifiedOverspend > 0 && (
                   <div className="rounded-2xl border border-emerald-500/30 bg-emerald-500/[0.04] p-5">
                     <div className="flex items-center gap-2 mb-2">
@@ -388,8 +388,8 @@ export default function DaypartMarginLeakPage() {
                     </div>
                     <p className="text-sm text-[var(--text-primary)] leading-relaxed mb-3">
                       <strong className="text-emerald-200">{analysis.worst.label}</strong> shows the largest gap to the {Math.round(segmentTargetPct * 100)}% {SEGMENT_TARGETS[segment].label} target. A trim of ~<strong className="text-emerald-200">{Math.ceil(analysis.worst.trimmableFteHours)} FTE-hours</strong> would recover an estimated{" "}
-                      <strong className="text-emerald-200">{fmt(analysis.worst.recoverableLow * 7)}–{fmt(analysis.worst.recoverableHigh * 7)}/wk</strong>{" "}
-                      per outlet — pending a coverage-floor review.
+                      <strong className="text-emerald-200">{fmt(analysis.worst.recoverableLow * 7)}-{fmt(analysis.worst.recoverableHigh * 7)}/wk</strong>{" "}
+                      per outlet - pending a coverage-floor review.
                     </p>
                     <p className="text-[11px] text-[var(--text-muted)] leading-relaxed">
                       In production, Sundae Pulse calibrates the target against your historical productivity curves (not a fixed segment band), respects per-outlet coverage floors, and surfaces the candidate shift before payroll is locked.
@@ -413,11 +413,11 @@ export default function DaypartMarginLeakPage() {
             <strong className="text-[var(--text-secondary)]">Methodology (conservative defaults):</strong>{" "}
             Daypart labor cost = FTE × duration × hourly wage. Target = segment-specific labor % of daypart revenue
             (QSR 25% → fine dining 36%). Identified overspend = current − target. Only{" "}
-            {Math.round(RECOVERY_FACTOR_LOW * 100)}–{Math.round(RECOVERY_FACTOR_HIGH * 100)}%
-            of identified overspend is counted as realistically recoverable — the rest is
+            {Math.round(RECOVERY_FACTOR_LOW * 100)}-{Math.round(RECOVERY_FACTOR_HIGH * 100)}%
+            of identified overspend is counted as realistically recoverable - the rest is
             service-floor staffing or unavoidable coverage. Annualized over {OPERATING_DAYS} operating days/yr.
             Output is a range, never a single optimistic figure. Sundae Pulse calibrates against your historical
-            productivity curves per-outlet and respects per-shift coverage floors — the in-product version is
+            productivity curves per-outlet and respects per-shift coverage floors - the in-product version is
             consistently sharper and more conservative than this estimator.
           </p>
         </div>

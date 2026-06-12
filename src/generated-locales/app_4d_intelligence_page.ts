@@ -36,13 +36,13 @@ export const generatedLocalCopy = {
             "المبيعات اليومية حسب الموقع وجزء من اليوم",
             "ساعات العمل والتكاليف من الرواتب",
             "تقارير استخدام المخزون والنفايات",
-            "تغطية التهم ومتوسط الاختيار",
-            "تتبع الفراغ وشركات"
+            "عدد الضيوف ومتوسط الفاتورة",
+            "تتبع الإلغاءات والإكراميات"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
-          "textColor": "نص-[#60A5FA]",
-          "bgColor": "ب-[رغبا(28,71,255,0.1)]"
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
+          "textColor": "text-[#FF8473]",
+          "bgColor": "bg-[rgba(255,92,77,0.1)]"
         },
         {
           "id": "2D",
@@ -57,9 +57,9 @@ export const generatedLocalCopy = {
             "تتبع دقة التنبؤ"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
-          "textColor": "النص-الأرجواني-600",
-          "bgColor": "بي جي-أرجواني-50"
+          "color": "from-[#F2B45C] to-[#C2410C]",
+          "textColor": "text-[#C2410C]",
+          "bgColor": "bg-[#FF5C4D]/10"
         },
         {
           "id": "3D",
@@ -75,8 +75,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
-          "textColor": "النص-الأخضر-600",
-          "bgColor": "بي جي-الأخضر-50"
+          "textColor": "text-green-600",
+          "bgColor": "bg-green-50"
         },
         {
           "id": "4D",
@@ -92,8 +92,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
-          "textColor": "نص-برتقالي-600",
-          "bgColor": "بي جي-برتقالي-50"
+          "textColor": "text-orange-600",
+          "bgColor": "bg-orange-50"
         }
       ],
       "alertsTitle": "كيف يبدو الذكاء رباعي الأبعاد",
@@ -153,7 +153,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "طبقة البيانات الموحدة",
-          "description": "يدمج Scout أكثر من 25 نظامًا - POS، والعمالة، والمخزون، والميزانيات، والمصادر الخارجية - في أساس ذكي واحد.",
+          "description": "يدمج Sundae Core أكثر من 25 نظامًا - POS، والعمالة، والمخزون، والميزانيات، والمصادر الخارجية - في أساس ذكي واحد.",
           "icon": "integration"
         },
         {
@@ -163,7 +163,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "الاستخبارات القابلة للتنفيذ",
-          "description": "توفر لوحات معلومات Canvas واستعلامات Nexus باللغة الطبيعية والتنبيهات الاستباقية رؤى متى وأينما تحتاج إليها.",
+          "description": "توفر لوحات معلومات Sundae Core واستعلامات Sundae Intelligence باللغة الطبيعية والتنبيهات الاستباقية رؤى متى وأينما تحتاج إليها.",
           "icon": "insights"
         }
       ],
@@ -206,13 +206,13 @@ export const generatedLocalCopy = {
             "Ventes quotidiennes par emplacement et tranche horaire",
             "Heures de travail et coûts de la paie",
             "Rapports sur l'utilisation des stocks et les déchets",
-            "Nombre de couvertures et contrôle moyen",
+            "Nombre de couverts et ticket moyen",
             "Suivi des annulations et des compensations"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
-          "textColor": "texte-[#60A5FA]",
-          "bgColor": "bg-[rgba(28,71,255,0.1)]"
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
+          "textColor": "text-[#FF8473]",
+          "bgColor": "bg-[rgba(255,92,77,0.1)]"
         },
         {
           "id": "2D",
@@ -227,9 +227,9 @@ export const generatedLocalCopy = {
             "Suivi de la précision des prévisions"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
-          "textColor": "texte-violet-600",
-          "bgColor": "bg-violet-50"
+          "color": "from-[#F2B45C] to-[#C2410C]",
+          "textColor": "text-[#C2410C]",
+          "bgColor": "bg-[#FF5C4D]/10"
         },
         {
           "id": "3D",
@@ -245,8 +245,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
-          "textColor": "texte-vert-600",
-          "bgColor": "bg-vert-50"
+          "textColor": "text-green-600",
+          "bgColor": "bg-green-50"
         },
         {
           "id": "4D",
@@ -262,7 +262,7 @@ export const generatedLocalCopy = {
           ],
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
-          "textColor": "texte-orange-600",
+          "textColor": "text-orange-600",
           "bgColor": "bg-orange-50"
         }
       ],
@@ -299,7 +299,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Marges plus élevées et qualité des revenus",
-          "description": "Catch margin erosion early, optimize pricing, and reduce waste before it impacts the P&L.",
+          "description": "Détectez l'érosion des marges tôt, optimisez les prix et réduisez le gaspillage avant qu'il n'affecte le P&L.",
           "icon": "finance"
         },
         {
@@ -323,7 +323,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Couche de données unifiée",
-          "description": "Scout intègre plus de 25 systèmes (POS, main-d'œuvre, inventaire, budgets et sources externes) dans une seule base intelligente.",
+          "description": "Sundae Core intègre plus de 25 systèmes (POS, main-d'œuvre, inventaire, budgets et sources externes) dans une seule base intelligente.",
           "icon": "integration"
         },
         {
@@ -333,7 +333,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Intelligence exploitable",
-          "description": "Les tableaux de bord Canvas, les requêtes en langage naturel Nexus et les alertes proactives fournissent des informations quand et où vous en avez besoin.",
+          "description": "Les tableaux de bord Sundae Core, les requêtes en langage naturel Sundae Intelligence et les alertes proactives fournissent des informations quand et où vous en avez besoin.",
           "icon": "insights"
         }
       ],
@@ -376,19 +376,19 @@ export const generatedLocalCopy = {
             "Vendas diárias por local e período do dia",
             "Horas de trabalho e custos da folha de pagamento",
             "Relatórios de uso e desperdício de estoque",
-            "Contagens de cobertura e verificação média",
+            "Número de clientes e ticket médio",
             "Rastreamento de anulação e compensação"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
-          "textColor": "texto-[#60A5FA]",
-          "bgColor": "bg-[rgba(28,71,255,0,1)]"
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
+          "textColor": "text-[#FF8473]",
+          "bgColor": "bg-[rgba(255,92,77,0.1)]"
         },
         {
           "id": "2D",
           "title": "Real vs Plano",
           "subtitle": "O que deveria ter acontecido?",
-          "description": "Acrescente seus orçamentos, previsões e metas. Agora você pode ver a variação – você está adiantado ou atrasado no plano? Isto acrescenta contexto de planeamento, mas ainda não há inteligência de mercado ou poder preditivo.",
+          "description": "Acrescente seus orçamentos, previsões e metas. Agora você pode ver a variação - você está adiantado ou atrasado no plano? Isto acrescenta contexto de planeamento, mas ainda não há inteligência de mercado ou poder preditivo.",
           "examples": [
             "Orçamento versus variação real de vendas",
             "% de custo de mão de obra em relação às metas",
@@ -397,9 +397,9 @@ export const generatedLocalCopy = {
             "Acompanhamento de precisão de previsão"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
-          "textColor": "texto-roxo-600",
-          "bgColor": "bg-roxo-50"
+          "color": "from-[#F2B45C] to-[#C2410C]",
+          "textColor": "text-[#C2410C]",
+          "bgColor": "bg-[#FF5C4D]/10"
         },
         {
           "id": "3D",
@@ -415,8 +415,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
-          "textColor": "texto-verde-600",
-          "bgColor": "bg-verde-50"
+          "textColor": "text-green-600",
+          "bgColor": "bg-green-50"
         },
         {
           "id": "4D",
@@ -432,8 +432,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
-          "textColor": "texto-laranja-600",
-          "bgColor": "bg-laranja-50"
+          "textColor": "text-orange-600",
+          "bgColor": "bg-orange-50"
         }
       ],
       "alertsTitle": "Como é a inteligência 4D",
@@ -469,7 +469,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Maiores margens e qualidade de receita",
-          "description": "Catch margin erosion early, optimize pricing, and reduce waste before it impacts the P&L.",
+          "description": "Detecte a erosão da margem cedo, otimize os preços e reduza o desperdício antes que afete o P&L.",
           "icon": "finance"
         },
         {
@@ -493,7 +493,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Camada de dados unificada",
-          "description": "O Scout integra mais de 25 sistemas – POS, mão de obra, estoque, orçamentos e fontes externas – em uma base inteligente.",
+          "description": "O Sundae Core integra mais de 25 sistemas - POS, mão de obra, estoque, orçamentos e fontes externas - em uma base inteligente.",
           "icon": "integration"
         },
         {
@@ -503,7 +503,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Inteligência Acionável",
-          "description": "Painéis de tela, consultas em linguagem natural do Nexus e alertas proativos fornecem insights quando e onde você precisar deles. (Canvas)",
+          "description": "Painéis Sundae Core, consultas em linguagem natural do Sundae Intelligence e alertas proativos fornecem insights quando e onde você precisar deles.",
           "icon": "insights"
         }
       ],
@@ -546,19 +546,19 @@ export const generatedLocalCopy = {
             "Tägliche Verkäufe nach Standort und Tagesabschnitt",
             "Arbeitsstunden und Kosten aus der Lohn- und Gehaltsabrechnung",
             "Bestandsnutzungs- und Abfallberichte",
-            "Deckungszahlen und durchschnittlicher Scheck",
+            "Gästezahlen und durchschnittlicher Bon",
             "Void- und Comp-Verfolgung"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
-          "textColor": "Text-[#60A5FA]",
-          "bgColor": "bg-[rgba(28,71,255,0.1)]"
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
+          "textColor": "text-[#FF8473]",
+          "bgColor": "bg-[rgba(255,92,77,0.1)]"
         },
         {
           "id": "2D",
           "title": "Ist vs. Plan",
           "subtitle": "Was hätte passieren sollen?",
-          "description": "Fügen Sie Ihre Budgets, Prognosen und Ziele hinzu. Jetzt können Sie Abweichungen erkennen – liegen Sie vor oder hinter dem Plan? Dies fügt Planungskontext hinzu, aber immer noch keine Marktinformationen oder Vorhersagekraft.",
+          "description": "Fügen Sie Ihre Budgets, Prognosen und Ziele hinzu. Jetzt können Sie Abweichungen erkennen - liegen Sie vor oder hinter dem Plan? Dies fügt Planungskontext hinzu, aber immer noch keine Marktinformationen oder Vorhersagekraft.",
           "examples": [
             "Abweichung zwischen Budget und tatsächlichem Umsatz",
             "Arbeitskosten % im Vergleich zu den Zielen",
@@ -567,9 +567,9 @@ export const generatedLocalCopy = {
             "Verfolgung der Prognosegenauigkeit"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
-          "textColor": "text-lila-600",
-          "bgColor": "bg-lila-50"
+          "color": "from-[#F2B45C] to-[#C2410C]",
+          "textColor": "text-[#C2410C]",
+          "bgColor": "bg-[#FF5C4D]/10"
         },
         {
           "id": "3D",
@@ -585,8 +585,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
-          "textColor": "text-grün-600",
-          "bgColor": "bg-grün-50"
+          "textColor": "text-green-600",
+          "bgColor": "bg-green-50"
         },
         {
           "id": "4D",
@@ -639,7 +639,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Höhere Margen und Umsatzqualität",
-          "description": "Catch margin erosion early, optimize pricing, and reduce waste before it impacts the P&L.",
+          "description": "Erkennen Sie Margenerosion frühzeitig, optimieren Sie die Preisgestaltung und reduzieren Sie Verschwendung, bevor sie sich auf die P&L auswirkt.",
           "icon": "finance"
         },
         {
@@ -663,7 +663,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Einheitliche Datenschicht",
-          "description": "Scout integriert über 25 Systeme – POS, Personal, Inventar, Budgets und externe Quellen – in einer intelligenten Grundlage.",
+          "description": "Sundae Core integriert über 25 Systeme - POS, Personal, Inventar, Budgets und externe Quellen - in einer intelligenten Grundlage.",
           "icon": "integration"
         },
         {
@@ -673,12 +673,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Umsetzbare Intelligenz",
-          "description": "Canvas-Dashboards, Nexus-Abfragen in natürlicher Sprache und proaktive Benachrichtigungen liefern Einblicke, wann und wo Sie sie benötigen.",
+          "description": "Sundae Core-Dashboards, Sundae Intelligence-Abfragen in natürlicher Sprache und proaktive Benachrichtigungen liefern Einblicke, wann und wo Sie sie benötigen.",
           "icon": "insights"
         }
       ],
       "ctaTitle": "Bereit für das Gesamtbild?",
-      "ctaDescription": "Sehen Sie 4D Intelligence mit Ihren Daten. Vergangenheit, Plan, Kollegen und Vorhersagen – alles in einer Ansicht.",
+      "ctaDescription": "Sehen Sie 4D Intelligence mit Ihren Daten. Vergangenheit, Plan, Kollegen und Vorhersagen - alles in einer Ansicht.",
       "ctaPrimary": "Buchen Sie eine Demo",
       "ctaSecondary": "Entdecken Sie die Architektur"
     },
@@ -716,13 +716,13 @@ export const generatedLocalCopy = {
             "Dagelijkse verkoop per locatie en dagdeel",
             "Arbeidsuren en kosten uit de loonadministratie",
             "Voorraadgebruik en afvalrapporten",
-            "Dekkingstellingen en gemiddelde controle",
+            "Aantal couverts en gemiddelde besteding",
             "Ongeldige en comp-tracking"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
-          "textColor": "tekst-[#60A5FA]",
-          "bgColor": "bg-[rgba(28,71,255,0,1)]"
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
+          "textColor": "text-[#FF8473]",
+          "bgColor": "bg-[rgba(255,92,77,0.1)]"
         },
         {
           "id": "2D",
@@ -737,9 +737,9 @@ export const generatedLocalCopy = {
             "Nauwkeurigheid van prognoses bijhouden"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
-          "textColor": "tekst-paars-600",
-          "bgColor": "bg-paars-50"
+          "color": "from-[#F2B45C] to-[#C2410C]",
+          "textColor": "text-[#C2410C]",
+          "bgColor": "bg-[#FF5C4D]/10"
         },
         {
           "id": "3D",
@@ -755,8 +755,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
-          "textColor": "tekst-groen-600",
-          "bgColor": "bg-groen-50"
+          "textColor": "text-green-600",
+          "bgColor": "bg-green-50"
         },
         {
           "id": "4D",
@@ -772,8 +772,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
-          "textColor": "tekst-oranje-600",
-          "bgColor": "bg-oranje-50"
+          "textColor": "text-orange-600",
+          "bgColor": "bg-orange-50"
         }
       ],
       "alertsTitle": "Hoe 4D-intelligentie eruit ziet",
@@ -809,7 +809,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Hogere marges en omzetkwaliteit",
-          "description": "Catch margin erosion early, optimize pricing, and reduce waste before it impacts the P&L.",
+          "description": "Signaleer margeverlies vroeg, optimaliseer de prijsstelling en verminder verspilling voordat het de P&L raakt.",
           "icon": "finance"
         },
         {
@@ -833,7 +833,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Uniforme gegevenslaag",
-          "description": "Scout integreert meer dan 25 systemen - POS, arbeid, inventaris, budgetten en externe bronnen - in één intelligente basis.",
+          "description": "Sundae Core integreert meer dan 25 systemen - POS, arbeid, inventaris, budgetten en externe bronnen - in één intelligente basis.",
           "icon": "integration"
         },
         {
@@ -843,7 +843,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Bruikbare intelligentie",
-          "description": "Canvas-dashboards, Nexus-query's in natuurlijke taal en proactieve waarschuwingen bieden inzichten waar en wanneer u ze nodig heeft.",
+          "description": "Sundae Core-dashboards, Sundae Intelligence-query's in natuurlijke taal en proactieve waarschuwingen bieden inzichten waar en wanneer u ze nodig heeft.",
           "icon": "insights"
         }
       ],
@@ -886,13 +886,13 @@ export const generatedLocalCopy = {
             "Ventas diarias por ubicación y franja horaria",
             "Horas laborales y costos de nómina",
             "Informes de uso y desperdicio de inventario",
-            "Recuentos de cobertura y cheque promedio",
+            "Número de comensales y ticket medio",
             "Seguimiento de anulaciones y compensaciones"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
-          "textColor": "texto-[#60A5FA]",
-          "bgColor": "bg-[rgba(28,71,255,0.1)]"
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
+          "textColor": "text-[#FF8473]",
+          "bgColor": "bg-[rgba(255,92,77,0.1)]"
         },
         {
           "id": "2D",
@@ -907,9 +907,9 @@ export const generatedLocalCopy = {
             "Seguimiento de la precisión del pronóstico"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
-          "textColor": "texto-púrpura-600",
-          "bgColor": "bg-púrpura-50"
+          "color": "from-[#F2B45C] to-[#C2410C]",
+          "textColor": "text-[#C2410C]",
+          "bgColor": "bg-[#FF5C4D]/10"
         },
         {
           "id": "3D",
@@ -925,8 +925,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
-          "textColor": "texto-verde-600",
-          "bgColor": "bg-verde-50"
+          "textColor": "text-green-600",
+          "bgColor": "bg-green-50"
         },
         {
           "id": "4D",
@@ -942,8 +942,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
-          "textColor": "texto-naranja-600",
-          "bgColor": "bg-naranja-50"
+          "textColor": "text-orange-600",
+          "bgColor": "bg-orange-50"
         }
       ],
       "alertsTitle": "Cómo se ve la inteligencia 4D",
@@ -979,7 +979,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Mayores márgenes y calidad de los ingresos",
-          "description": "Catch margin erosion early, optimize pricing, and reduce waste before it impacts the P&L.",
+          "description": "Detecte la erosión de márgenes a tiempo, optimice los precios y reduzca el desperdicio antes de que afecte al P&L.",
           "icon": "finance"
         },
         {
@@ -1003,7 +1003,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Capa de datos unificada",
-          "description": "Scout integra más de 25 sistemas (POS, mano de obra, inventario, presupuestos y fuentes externas) en una base inteligente.",
+          "description": "Sundae Core integra más de 25 sistemas (POS, mano de obra, inventario, presupuestos y fuentes externas) en una base inteligente.",
           "icon": "integration"
         },
         {
@@ -1013,7 +1013,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Inteligencia procesable",
-          "description": "Los paneles de Canvas, las consultas en lenguaje natural de Nexus y las alertas proactivas brindan información cuando y donde la necesita.",
+          "description": "Los paneles de Sundae Core, las consultas en lenguaje natural de Sundae Intelligence y las alertas proactivas brindan información cuando y donde la necesita.",
           "icon": "insights"
         }
       ],
@@ -1060,9 +1060,9 @@ export const generatedLocalCopy = {
             "باطل اور کمپ ٹریکنگ"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
-          "textColor": "متن-[#60A5FA]",
-          "bgColor": "bg-[rgba(28,71,255,0.1)]"
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
+          "textColor": "text-[#FF8473]",
+          "bgColor": "bg-[rgba(255,92,77,0.1)]"
         },
         {
           "id": "2D",
@@ -1077,9 +1077,9 @@ export const generatedLocalCopy = {
             "پیشن گوئی کی درستگی سے باخبر رہنا"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
-          "textColor": "متن-جامنی-600",
-          "bgColor": "bg-purple-50"
+          "color": "from-[#F2B45C] to-[#C2410C]",
+          "textColor": "text-[#C2410C]",
+          "bgColor": "bg-[#FF5C4D]/10"
         },
         {
           "id": "3D",
@@ -1095,7 +1095,7 @@ export const generatedLocalCopy = {
           ],
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
-          "textColor": "متن-سبز-600",
+          "textColor": "text-green-600",
           "bgColor": "bg-green-50"
         },
         {
@@ -1112,8 +1112,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
-          "textColor": "متن-اورنج-600",
-          "bgColor": "bg-اورنج-50"
+          "textColor": "text-orange-600",
+          "bgColor": "bg-orange-50"
         }
       ],
       "alertsTitle": "4D انٹیلی جنس کیسی دکھتی ہے۔",
@@ -1173,7 +1173,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "یونیفائیڈ ڈیٹا لیئر",
-          "description": "Scout 250+ سسٹمز - POS، لیبر، انوینٹری، بجٹ، اور بیرونی ذرائع - کو ایک ذہین بنیاد میں ضم کرتا ہے۔",
+          "description": "Sundae Core 25+ سسٹمز - POS، لیبر، انوینٹری، بجٹ، اور بیرونی ذرائع - کو ایک ذہین بنیاد میں ضم کرتا ہے۔",
           "icon": "integration"
         },
         {
@@ -1183,7 +1183,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "قابل عمل انٹیلی جنس",
-          "description": "کینوس ڈیش بورڈز، Nexus قدرتی زبان کے استفسارات، اور فعال الرٹس آپ کو ان کی ضرورت کے وقت بصیرت فراہم کرتے ہیں۔ (Canvas)",
+          "description": "Sundae Core ڈیش بورڈز، Sundae Intelligence قدرتی زبان کے استفسارات، اور فعال الرٹس آپ کو ان کی ضرورت کے وقت بصیرت فراہم کرتے ہیں۔",
           "icon": "insights"
         }
       ],
@@ -1227,12 +1227,12 @@ export const generatedLocalCopy = {
             "श्रम के घंटे और पेरोल से लागत",
             "इन्वेंटरी उपयोग और अपशिष्ट रिपोर्ट",
             "कवर संख्या और औसत जांच",
-            "शून्य और COMP ट्रैकिंग"
+            "रद्दीकरण और कॉम्प ट्रैकिंग"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
-          "textColor": "पाठ-[#60A5FA]",
-          "bgColor": "बीजी-[आरजीबीए(28,71,255,0.1)]"
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
+          "textColor": "text-[#FF8473]",
+          "bgColor": "bg-[rgba(255,92,77,0.1)]"
         },
         {
           "id": "2D",
@@ -1247,9 +1247,9 @@ export const generatedLocalCopy = {
             "पूर्वानुमान सटीकता ट्रैकिंग"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
-          "textColor": "पाठ-बैंगनी-600",
-          "bgColor": "बीजी-बैंगनी-50"
+          "color": "from-[#F2B45C] to-[#C2410C]",
+          "textColor": "text-[#C2410C]",
+          "bgColor": "bg-[#FF5C4D]/10"
         },
         {
           "id": "3D",
@@ -1265,8 +1265,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
-          "textColor": "पाठ-हरा-600",
-          "bgColor": "बीजी-हरा-50"
+          "textColor": "text-green-600",
+          "bgColor": "bg-green-50"
         },
         {
           "id": "4D",
@@ -1282,8 +1282,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
-          "textColor": "पाठ-नारंगी-600",
-          "bgColor": "बीजी-नारंगी-50"
+          "textColor": "text-orange-600",
+          "bgColor": "bg-orange-50"
         }
       ],
       "alertsTitle": "4डी इंटेलिजेंस कैसा दिखता है?",
@@ -1343,7 +1343,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "एकीकृत डेटा परत",
-          "description": "Scout 250+ प्रणालियों - POS, श्रम, इन्वेंट्री, बजट और बाहरी स्रोतों - को एक बुद्धिमान नींव में एकीकृत करता है।",
+          "description": "Sundae Core 25+ प्रणालियों - POS, श्रम, इन्वेंट्री, बजट और बाहरी स्रोतों - को एक बुद्धिमान नींव में एकीकृत करता है।",
           "icon": "integration"
         },
         {
@@ -1353,7 +1353,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "कार्रवाई योग्य खुफिया",
-          "description": "Canvas डैशबोर्ड, नेक्सस प्राकृतिक भाषा क्वेरीज़ और सक्रिय अलर्ट आपको कब और कहाँ उनकी आवश्यकता है, इसकी जानकारी देते हैं।",
+          "description": "Sundae Core डैशबोर्ड, नेक्सस प्राकृतिक भाषा क्वेरीज़ और सक्रिय अलर्ट आपको कब और कहाँ उनकी आवश्यकता है, इसकी जानकारी देते हैं।",
           "icon": "insights"
         }
       ],
@@ -1400,9 +1400,9 @@ export const generatedLocalCopy = {
             "无效和补偿跟踪"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
-          "textColor": "文本-[#60A5FA]",
-          "bgColor": "bg-[rgba(28,71,255,0.1)]"
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
+          "textColor": "text-[#FF8473]",
+          "bgColor": "bg-[rgba(255,92,77,0.1)]"
         },
         {
           "id": "2D",
@@ -1417,9 +1417,9 @@ export const generatedLocalCopy = {
             "预测准确度跟踪"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
-          "textColor": "文字-紫色-600",
-          "bgColor": "bg-紫色-50"
+          "color": "from-[#F2B45C] to-[#C2410C]",
+          "textColor": "text-[#C2410C]",
+          "bgColor": "bg-[#FF5C4D]/10"
         },
         {
           "id": "3D",
@@ -1435,12 +1435,12 @@ export const generatedLocalCopy = {
           ],
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
-          "textColor": "文本绿色-600",
-          "bgColor": "BG-绿色-50"
+          "textColor": "text-green-600",
+          "bgColor": "bg-green-50"
         },
         {
           "id": "4D",
-          "title": "人工智能的Foresight与行动",
+          "title": "AI Foresight 与行动",
           "subtitle": "接下来会发生什么，我们应该做什么？",
           "description": "最后一个维度：预测、警报和人工智能生成的建议。Sundae的多代理人工智能可以预测结果，在异常升级之前对其进行标记，并准确地告诉您要采取什么行动。",
           "examples": [
@@ -1452,8 +1452,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
-          "textColor": "文本-橙色-600",
-          "bgColor": "bg-橙色-50"
+          "textColor": "text-orange-600",
+          "bgColor": "bg-orange-50"
         }
       ],
       "alertsTitle": "4D 智能是什么样的",
@@ -1489,7 +1489,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "更高的利润和收入质量",
-          "description": "Catch margin erosion early, optimize pricing, and reduce waste before it impacts the P&L.",
+          "description": "尽早发现利润率下滑，优化定价，并在浪费影响 P&L 之前减少浪费。",
           "icon": "finance"
         },
         {
@@ -1513,7 +1513,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "统一数据层",
-          "description": "Scout 将 25 多个系统（POS、劳动力、库存、预算和外部来源）集成到一个智能基础中。",
+          "description": "Sundae Core 将 25 多个系统（POS、劳动力、库存、预算和外部来源）集成到一个智能基础中。",
           "icon": "integration"
         },
         {
@@ -1523,7 +1523,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "可行的情报",
-          "description": "Canvas 仪表板、Nexus 自然语言查询和主动警报可随时随地为您提供见解。",
+          "description": "Sundae Core 仪表板、Sundae Intelligence 自然语言查询和主动警报可随时随地为您提供见解。",
           "icon": "insights"
         }
       ],
@@ -1561,24 +1561,24 @@ export const generatedLocalCopy = {
           "id": "1D",
           "title": "Wewnętrzne fakty",
           "subtitle": "Co się stało?",
-          "description": "Na tym kończy się większość narzędzi. Tradycyjne platformy BI pokazują sprzedaż, siłę roboczą, okładki, puste przestrzenie i odpady z systemów POS, płac i zapasów. Ale mówią tylko o tym, co wydarzyło się w przeszłości, bez kontekstu, bez porównania i bez przewidywań.",
+          "description": "Na tym kończy się większość narzędzi. Tradycyjne platformy BI pokazują sprzedaż, siłę roboczą, liczbę gości, storna i marnotrawstwo z systemów POS, płac i zapasów. Ale mówią tylko o tym, co wydarzyło się w przeszłości, bez kontekstu, bez porównania i bez przewidywań.",
           "examples": [
             "Dzienna sprzedaż według lokalizacji i pory dnia",
             "Godziny pracy i koszty z listy płac",
             "Raporty dotyczące wykorzystania zapasów i odpadów",
-            "Liczenie okładek i średnia kontrola",
-            "Śledzenie pustki i kompilacji"
+            "Liczba gości i średni rachunek",
+            "Śledzenie storn i rabatów"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
-          "textColor": "tekst-[#60A5FA]",
-          "bgColor": "bg-[rgba(28,71,255,0,1)]"
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
+          "textColor": "text-[#FF8473]",
+          "bgColor": "bg-[rgba(255,92,77,0.1)]"
         },
         {
           "id": "2D",
           "title": "Rzeczywisty kontra plan",
           "subtitle": "Co powinno się stać?",
-          "description": "Wprowadź swoje budżety, prognozy i cele. Teraz możesz zobaczyć rozbieżności – czy wyprzedzasz plan, czy opóźniasz go? Dodaje to kontekst planowania, ale nadal nie zapewnia wiedzy rynkowej ani mocy prognostycznej.",
+          "description": "Wprowadź swoje budżety, prognozy i cele. Teraz możesz zobaczyć rozbieżności - czy wyprzedzasz plan, czy opóźniasz go? Dodaje to kontekst planowania, ale nadal nie zapewnia wiedzy rynkowej ani mocy prognostycznej.",
           "examples": [
             "Budżet a rzeczywista rozbieżność sprzedaży",
             "% kosztów pracy w stosunku do celów",
@@ -1587,9 +1587,9 @@ export const generatedLocalCopy = {
             "Śledzenie dokładności prognoz"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
-          "textColor": "tekst-fioletowy-600",
-          "bgColor": "bg-fioletowy-50"
+          "color": "from-[#F2B45C] to-[#C2410C]",
+          "textColor": "text-[#C2410C]",
+          "bgColor": "bg-[#FF5C4D]/10"
         },
         {
           "id": "3D",
@@ -1605,7 +1605,7 @@ export const generatedLocalCopy = {
           ],
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
-          "textColor": "tekst-zielony-600",
+          "textColor": "text-green-600",
           "bgColor": "bg-green-50"
         },
         {
@@ -1622,8 +1622,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
-          "textColor": "tekst-pomarańczowy-600",
-          "bgColor": "bg-pomarańczowy-50"
+          "textColor": "text-orange-600",
+          "bgColor": "bg-orange-50"
         }
       ],
       "alertsTitle": "Jak wygląda inteligencja 4D",
@@ -1659,7 +1659,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Wyższe marże i jakość przychodów",
-          "description": "Catch margin erosion early, optimize pricing, and reduce waste before it impacts the P&L.",
+          "description": "Wcześnie wychwytuj erozję marży, optymalizuj ceny i ograniczaj marnotrawstwo, zanim wpłynie ono na P&L.",
           "icon": "finance"
         },
         {
@@ -1683,7 +1683,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Ujednolicona warstwa danych",
-          "description": "Scout integruje ponad 25 systemów – POS, siły roboczej, zapasów, budżetów i źródeł zewnętrznych – w jedną inteligentną podstawę.",
+          "description": "Sundae Core integruje ponad 25 systemów - POS, siły roboczej, zapasów, budżetów i źródeł zewnętrznych - w jedną inteligentną podstawę.",
           "icon": "integration"
         },
         {
@@ -1693,12 +1693,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Inteligencja czynna",
-          "description": "Pulpity nawigacyjne Canvas, zapytania w języku naturalnym Nexusa i proaktywne alerty dostarczają wglądów tam, gdzie są potrzebne i kiedy ich potrzebujesz.",
+          "description": "Pulpity nawigacyjne Sundae Core, zapytania w języku naturalnym Nexusa i proaktywne alerty dostarczają wglądów tam, gdzie są potrzebne i kiedy ich potrzebujesz.",
           "icon": "insights"
         }
       ],
       "ctaTitle": "Gotowy na pełny obraz?",
-      "ctaDescription": "Zobacz 4D Intelligence ze swoimi danymi. Przeszłość, plany, współpracownicy i prognozy – wszystko w jednym widoku.",
+      "ctaDescription": "Zobacz 4D Intelligence ze swoimi danymi. Przeszłość, plany, współpracownicy i prognozy - wszystko w jednym widoku.",
       "ctaPrimary": "Zarezerwuj wersję demonstracyjną",
       "ctaSecondary": "Poznaj architekturę"
     },
@@ -1736,13 +1736,13 @@ export const generatedLocalCopy = {
             "Vendite giornaliere per località e fascia oraria",
             "Ore di lavoro e costi da buste paga",
             "Rapporti sull'utilizzo dell'inventario e sui rifiuti",
-            "Conteggi delle copertine e controllo medio",
+            "Numero di coperti e scontrino medio",
             "Monitoraggio di vuoti e comp"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
-          "textColor": "testo-[#60A5FA]",
-          "bgColor": "bg-[rgba(28,71,255,0.1)]"
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
+          "textColor": "text-[#FF8473]",
+          "bgColor": "bg-[rgba(255,92,77,0.1)]"
         },
         {
           "id": "2D",
@@ -1757,9 +1757,9 @@ export const generatedLocalCopy = {
             "Monitoraggio dell'accuratezza delle previsioni"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
-          "textColor": "testo-viola-600",
-          "bgColor": "bg-viola-50"
+          "color": "from-[#F2B45C] to-[#C2410C]",
+          "textColor": "text-[#C2410C]",
+          "bgColor": "bg-[#FF5C4D]/10"
         },
         {
           "id": "3D",
@@ -1775,8 +1775,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
-          "textColor": "testo-verde-600",
-          "bgColor": "bg-verde-50"
+          "textColor": "text-green-600",
+          "bgColor": "bg-green-50"
         },
         {
           "id": "4D",
@@ -1792,8 +1792,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
-          "textColor": "testo-arancione-600",
-          "bgColor": "bg-arancione-50"
+          "textColor": "text-orange-600",
+          "bgColor": "bg-orange-50"
         }
       ],
       "alertsTitle": "Che aspetto ha l'intelligenza 4D",
@@ -1829,7 +1829,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Margini più elevati e qualità dei ricavi",
-          "description": "Catch margin erosion early, optimize pricing, and reduce waste before it impacts the P&L.",
+          "description": "Individua precocemente l'erosione dei margini, ottimizza i prezzi e riduci gli sprechi prima che incidano sul P&L.",
           "icon": "finance"
         },
         {
@@ -1853,7 +1853,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Livello dati unificato",
-          "description": "Scout integra oltre 25 sistemi (POS, manodopera, inventario, budget e fonti esterne) in un'unica base intelligente.",
+          "description": "Sundae Core integra oltre 25 sistemi (POS, manodopera, inventario, budget e fonti esterne) in un'unica base intelligente.",
           "icon": "integration"
         },
         {
@@ -1863,7 +1863,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Intelligenza utilizzabile",
-          "description": "Dashboard Canvas, query in linguaggio naturale Nexus e avvisi proattivi forniscono approfondimenti quando e dove ne hai bisogno.",
+          "description": "Dashboard Sundae Core, query in linguaggio naturale Sundae Intelligence e avvisi proattivi forniscono approfondimenti quando e dove ne hai bisogno.",
           "icon": "insights"
         }
       ],
@@ -1906,13 +1906,13 @@ export const generatedLocalCopy = {
             "Konuma ve gün bölümüne göre günlük satışlar",
             "Çalışma saatleri ve maaş bordrosundan kaynaklanan maliyetler",
             "Envanter kullanımı ve atık raporları",
-            "Kapak sayıları ve ortalama kontrol",
+            "Misafir sayıları ve ortalama adisyon",
             "Geçersiz kılma ve tamamlama takibi"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
-          "textColor": "metin-[#60A5FA]",
-          "bgColor": "bg-[rgba(28,71,255,0.1)]"
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
+          "textColor": "text-[#FF8473]",
+          "bgColor": "bg-[rgba(255,92,77,0.1)]"
         },
         {
           "id": "2D",
@@ -1927,9 +1927,9 @@ export const generatedLocalCopy = {
             "Tahmin doğruluğu takibi"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
-          "textColor": "metin-mor-600",
-          "bgColor": "bg-mor-50"
+          "color": "from-[#F2B45C] to-[#C2410C]",
+          "textColor": "text-[#C2410C]",
+          "bgColor": "bg-[#FF5C4D]/10"
         },
         {
           "id": "3D",
@@ -1945,8 +1945,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
-          "textColor": "metin-yeşil-600",
-          "bgColor": "bg-yeşil-50"
+          "textColor": "text-green-600",
+          "bgColor": "bg-green-50"
         },
         {
           "id": "4D",
@@ -1962,8 +1962,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
-          "textColor": "metin-turuncu-600",
-          "bgColor": "bg-turuncu-50"
+          "textColor": "text-orange-600",
+          "bgColor": "bg-orange-50"
         }
       ],
       "alertsTitle": "4D Zeka Nasıl Görünüyor?",
@@ -1999,7 +1999,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Daha Yüksek Marjlar ve Gelir Kalitesi",
-          "description": "Catch margin erosion early, optimize pricing, and reduce waste before it impacts the P&L.",
+          "description": "Marj erozyonunu erkenden yakalayın, fiyatlandırmayı optimize edin ve israfı P&L'yi etkilemeden önce azaltın.",
           "icon": "finance"
         },
         {
@@ -2023,7 +2023,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Birleşik Veri Katmanı",
-          "description": "Scout, 25'ten fazla sistemi (POS, işgücü, envanter, bütçeler ve dış kaynaklar) tek bir akıllı temelde birleştirir.",
+          "description": "Sundae Core, 25'ten fazla sistemi (POS, işgücü, envanter, bütçeler ve dış kaynaklar) tek bir akıllı temelde birleştirir.",
           "icon": "integration"
         },
         {
@@ -2033,7 +2033,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Uygulanabilir İstihbarat",
-          "description": "Kanvas kontrol panelleri, Nexus doğal dil sorguları ve proaktif uyarılar, ihtiyaç duyduğunuz yerde ve zamanda öngörüler sağlar. (Canvas)",
+          "description": "Sundae Core kontrol panelleri, Sundae Intelligence doğal dil sorguları ve proaktif uyarılar, ihtiyaç duyduğunuz yerde ve zamanda öngörüler sağlar.",
           "icon": "insights"
         }
       ],
@@ -2076,13 +2076,13 @@ export const generatedLocalCopy = {
             "위치별, 시간대별 일일 매출",
             "노동시간과 급여에 따른 비용",
             "재고 사용량 및 폐기물 보고서",
-            "표지 개수 및 평균 확인",
-            "무효 및 광고 추적"
+            "내점 고객 수 및 평균 객단가",
+            "취소 및 서비스 제공 추적"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
-          "textColor": "텍스트-[#60A5FA]",
-          "bgColor": "bg-[rgba(28,71,255,0.1)]"
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
+          "textColor": "text-[#FF8473]",
+          "bgColor": "bg-[rgba(255,92,77,0.1)]"
         },
         {
           "id": "2D",
@@ -2097,9 +2097,9 @@ export const generatedLocalCopy = {
             "예측 정확도 추적"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
-          "textColor": "텍스트-보라색-600",
-          "bgColor": "bg-보라색-50"
+          "color": "from-[#F2B45C] to-[#C2410C]",
+          "textColor": "text-[#C2410C]",
+          "bgColor": "bg-[#FF5C4D]/10"
         },
         {
           "id": "3D",
@@ -2115,8 +2115,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
-          "textColor": "텍스트-녹색-600",
-          "bgColor": "bg-녹색-50"
+          "textColor": "text-green-600",
+          "bgColor": "bg-green-50"
         },
         {
           "id": "4D",
@@ -2132,8 +2132,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
-          "textColor": "텍스트-주황색-600",
-          "bgColor": "bg-오렌지-50"
+          "textColor": "text-orange-600",
+          "bgColor": "bg-orange-50"
         }
       ],
       "alertsTitle": "4D 인텔리전스의 모습",
@@ -2169,7 +2169,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "더 높은 마진과 수익 품질",
-          "description": "Catch margin erosion early, optimize pricing, and reduce waste before it impacts the P&L.",
+          "description": "마진 하락을 조기에 포착하고, 가격을 최적화하며, P&L에 영향을 미치기 전에 낭비를 줄이세요.",
           "icon": "finance"
         },
         {
@@ -2193,7 +2193,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "통합 데이터 계층",
-          "description": "Scout는 POS, 인력, 재고, 예산, 외부 소스 등 25개 이상의 시스템을 하나의 지능형 기반으로 통합합니다.",
+          "description": "Sundae Core는 POS, 인력, 재고, 예산, 외부 소스 등 25개 이상의 시스템을 하나의 지능형 기반으로 통합합니다.",
           "icon": "integration"
         },
         {
@@ -2203,7 +2203,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "실행 가능한 인텔리전스",
-          "description": "Canvas 대시보드, Nexus 자연어 쿼리 및 사전 알림은 필요할 때 필요한 곳에서 통찰력을 제공합니다.",
+          "description": "Sundae Core 대시보드, Sundae Intelligence 자연어 쿼리 및 사전 알림은 필요할 때 필요한 곳에서 통찰력을 제공합니다.",
           "icon": "insights"
         }
       ],
@@ -2250,9 +2250,9 @@ export const generatedLocalCopy = {
             "ボイドとコンプの追跡"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
-          "textColor": "テキスト-[#60A5FA]",
-          "bgColor": "bg-[rgba(28,71,255,0.1)]"
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
+          "textColor": "text-[#FF8473]",
+          "bgColor": "bg-[rgba(255,92,77,0.1)]"
         },
         {
           "id": "2D",
@@ -2267,9 +2267,9 @@ export const generatedLocalCopy = {
             "予測精度の追跡"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
-          "textColor": "テキスト-パープル-600",
-          "bgColor": "bg-パープル-50"
+          "color": "from-[#F2B45C] to-[#C2410C]",
+          "textColor": "text-[#C2410C]",
+          "bgColor": "bg-[#FF5C4D]/10"
         },
         {
           "id": "3D",
@@ -2285,12 +2285,12 @@ export const generatedLocalCopy = {
           ],
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
-          "textColor": "テキスト-グリーン-600",
-          "bgColor": "バックグリーン-50"
+          "textColor": "text-green-600",
+          "bgColor": "bg-green-50"
         },
         {
           "id": "4D",
-          "title": "AI のForesight性とアクション",
+          "title": "AI Foresight とアクション",
           "subtitle": "次に何が起こるのか、そして私たちは何をすべきでしょうか?",
           "description": "最後の側面は、予測、アラート、AI が生成した推奨事項です。 Sundae のマルチエージェント AI は結果を予測し、異常がエスカレートする前に警告を発し、取るべきアクションを正確に伝えます。",
           "examples": [
@@ -2302,8 +2302,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
-          "textColor": "テキストオレンジ-600",
-          "bgColor": "bg-オレンジ-50"
+          "textColor": "text-orange-600",
+          "bgColor": "bg-orange-50"
         }
       ],
       "alertsTitle": "4D インテリジェンスとはどのようなものなのか",
@@ -2339,7 +2339,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "より高い利益率と収益の質",
-          "description": "Catch margin erosion early, optimize pricing, and reduce waste before it impacts the P&L.",
+          "description": "利益率の低下を早期に発見し、価格設定を最適化し、P&Lに影響する前に無駄を削減します。",
           "icon": "finance"
         },
         {
@@ -2363,7 +2363,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "統合データ層",
-          "description": "Scout は、25 以上のシステム (POS、労働力、在庫、予算、外部ソース) を 1 つのインテリジェントな基盤に統合します。",
+          "description": "Sundae Core は、25 以上のシステム (POS、労働力、在庫、予算、外部ソース) を 1 つのインテリジェントな基盤に統合します。",
           "icon": "integration"
         },
         {
@@ -2373,7 +2373,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "実用的なインテリジェンス",
-          "description": "Canvas ダッシュボード、Nexus 自然言語クエリ、プロアクティブ アラートは、必要なときに必要な場所で洞察を提供します。",
+          "description": "Sundae Core ダッシュボード、Sundae Intelligence 自然言語クエリ、プロアクティブ アラートは、必要なときに必要な場所で洞察を提供します。",
           "icon": "insights"
         }
       ],
@@ -2416,13 +2416,13 @@ export const generatedLocalCopy = {
             "Penjualan harian berdasarkan lokasi dan jam kerja",
             "Jam kerja dan biaya dari gaji",
             "Laporan penggunaan dan pemborosan inventaris",
-            "Jumlah pertanggungan dan cek rata-rata",
+            "Jumlah tamu dan rata-rata bon",
             "Pelacakan batal dan comp"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
-          "textColor": "teks-[#60A5FA]",
-          "bgColor": "bg-[rgba(28,71,255,0.1)]"
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
+          "textColor": "text-[#FF8473]",
+          "bgColor": "bg-[rgba(255,92,77,0.1)]"
         },
         {
           "id": "2D",
@@ -2437,9 +2437,9 @@ export const generatedLocalCopy = {
             "Pelacakan keakuratan perkiraan"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
-          "textColor": "teks-ungu-600",
-          "bgColor": "bg-ungu-50"
+          "color": "from-[#F2B45C] to-[#C2410C]",
+          "textColor": "text-[#C2410C]",
+          "bgColor": "bg-[#FF5C4D]/10"
         },
         {
           "id": "3D",
@@ -2455,8 +2455,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
-          "textColor": "teks-hijau-600",
-          "bgColor": "bg-hijau-50"
+          "textColor": "text-green-600",
+          "bgColor": "bg-green-50"
         },
         {
           "id": "4D",
@@ -2472,8 +2472,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
-          "textColor": "teks-oranye-600",
-          "bgColor": "bg-oranye-50"
+          "textColor": "text-orange-600",
+          "bgColor": "bg-orange-50"
         }
       ],
       "alertsTitle": "Seperti Apa Kecerdasan 4D itu",
@@ -2509,7 +2509,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Margin dan Kualitas Pendapatan Lebih Tinggi",
-          "description": "Catch margin erosion early, optimize pricing, and reduce waste before it impacts the P&L.",
+          "description": "Tangkap erosi margin sejak dini, optimalkan penetapan harga, dan kurangi pemborosan sebelum berdampak pada P&L.",
           "icon": "finance"
         },
         {
@@ -2533,7 +2533,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Lapisan Data Terpadu",
-          "description": "Scout mengintegrasikan 250+ sistem - POS, tenaga kerja, inventaris, anggaran, dan sumber eksternal - ke dalam satu landasan cerdas.",
+          "description": "Sundae Core mengintegrasikan 25+ sistem - POS, tenaga kerja, inventaris, anggaran, dan sumber eksternal - ke dalam satu landasan cerdas.",
           "icon": "integration"
         },
         {
@@ -2543,7 +2543,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Kecerdasan yang Dapat Ditindaklanjuti",
-          "description": "Dasbor kanvas, kueri bahasa alami Nexus, dan peringatan proaktif memberikan wawasan kapan dan di mana Anda membutuhkannya. (Canvas)",
+          "description": "Dasbor Sundae Core, kueri bahasa alami Sundae Intelligence, dan peringatan proaktif memberikan wawasan kapan dan di mana Anda membutuhkannya.",
           "icon": "insights"
         }
       ],
@@ -2586,13 +2586,13 @@ export const generatedLocalCopy = {
             "Doanh số hàng ngày theo địa điểm và thời gian trong ngày",
             "Giờ lao động và chi phí từ tiền lương",
             "Báo cáo sử dụng hàng tồn kho và chất thải",
-            "Số lượng bìa và kiểm tra trung bình",
+            "Số lượng khách và hóa đơn trung bình",
             "Theo dõi khoảng trống và comp"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
-          "textColor": "văn bản-[#60A5FA]",
-          "bgColor": "bg-[rgba(28,71,255,0.1)]"
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
+          "textColor": "text-[#FF8473]",
+          "bgColor": "bg-[rgba(255,92,77,0.1)]"
         },
         {
           "id": "2D",
@@ -2607,9 +2607,9 @@ export const generatedLocalCopy = {
             "Theo dõi độ chính xác dự báo"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
-          "textColor": "văn bản-tím-600",
-          "bgColor": "bg-tím-50"
+          "color": "from-[#F2B45C] to-[#C2410C]",
+          "textColor": "text-[#C2410C]",
+          "bgColor": "bg-[#FF5C4D]/10"
         },
         {
           "id": "3D",
@@ -2625,8 +2625,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
-          "textColor": "văn bản-xanh-600",
-          "bgColor": "bg-xanh-50"
+          "textColor": "text-green-600",
+          "bgColor": "bg-green-50"
         },
         {
           "id": "4D",
@@ -2642,8 +2642,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
-          "textColor": "văn bản-cam-600",
-          "bgColor": "bg-cam-50"
+          "textColor": "text-orange-600",
+          "bgColor": "bg-orange-50"
         }
       ],
       "alertsTitle": "Trí thông minh 4D trông như thế nào",
@@ -2703,7 +2703,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Lớp dữ liệu hợp nhất",
-          "description": "Scout tích hợp hơn 25 hệ thống - POS, nhân công, hàng tồn kho, ngân sách và các nguồn bên ngoài - vào một nền tảng thông minh.",
+          "description": "Sundae Core tích hợp hơn 25 hệ thống - POS, nhân công, hàng tồn kho, ngân sách và các nguồn bên ngoài - vào một nền tảng thông minh.",
           "icon": "integration"
         },
         {
@@ -2713,7 +2713,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Trí thông minh có thể hành động",
-          "description": "Bảng điều khiển canvas, truy vấn ngôn ngữ tự nhiên của Nexus và cảnh báo chủ động cung cấp thông tin chi tiết khi nào và ở đâu bạn cần chúng. (Canvas)",
+          "description": "Bảng điều khiển Sundae Core, truy vấn ngôn ngữ tự nhiên của Sundae Intelligence và cảnh báo chủ động cung cấp thông tin chi tiết khi nào và ở đâu bạn cần chúng.",
           "icon": "insights"
         }
       ],
@@ -2756,13 +2756,13 @@ export const generatedLocalCopy = {
             "Vânzări zilnice după locație și interval de zi",
             "Orele de muncă și costurile din statul de plată",
             "Rapoarte privind utilizarea stocurilor și deșeurile",
-            "Numărul de acoperire și verificarea medie",
+            "Numărul de clienți și nota medie",
             "Urmărirea golului și a comp"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
-          "textColor": "text-[#60A5FA]",
-          "bgColor": "bg-[rgba(28,71,255,0.1)]"
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
+          "textColor": "text-[#FF8473]",
+          "bgColor": "bg-[rgba(255,92,77,0.1)]"
         },
         {
           "id": "2D",
@@ -2777,9 +2777,9 @@ export const generatedLocalCopy = {
             "Urmărirea preciziei prognozei"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
-          "textColor": "text-violet-600",
-          "bgColor": "bg-violet-50"
+          "color": "from-[#F2B45C] to-[#C2410C]",
+          "textColor": "text-[#C2410C]",
+          "bgColor": "bg-[#FF5C4D]/10"
         },
         {
           "id": "3D",
@@ -2795,8 +2795,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
-          "textColor": "text-verde-600",
-          "bgColor": "bg-verde-50"
+          "textColor": "text-green-600",
+          "bgColor": "bg-green-50"
         },
         {
           "id": "4D",
@@ -2812,7 +2812,7 @@ export const generatedLocalCopy = {
           ],
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
-          "textColor": "text-portocaliu-600",
+          "textColor": "text-orange-600",
           "bgColor": "bg-orange-50"
         }
       ],
@@ -2873,7 +2873,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Stratul de date unificat",
-          "description": "Scout integrează peste 25 de sisteme - POS, forță de muncă, inventar, bugete și surse externe - într-o singură fundație inteligentă.",
+          "description": "Sundae Core integrează peste 25 de sisteme - POS, forță de muncă, inventar, bugete și surse externe - într-o singură fundație inteligentă.",
           "icon": "integration"
         },
         {
@@ -2883,7 +2883,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Inteligență acționabilă",
-          "description": "Tablourile de bord canvas, interogările Nexus în limbaj natural și alertele proactive oferă informații când și unde aveți nevoie de ele. (Canvas)",
+          "description": "Tablourile de bord Sundae Core, interogările Sundae Intelligence în limbaj natural și alertele proactive oferă informații când și unde aveți nevoie de ele.",
           "icon": "insights"
         }
       ],
@@ -2926,13 +2926,13 @@ export const generatedLocalCopy = {
             "Daglig försäljning per plats och dagdel",
             "Arbetstimmar och kostnader från lön",
             "Lageranvändning och avfallsrapporter",
-            "Omslagsantal och genomsnittlig kontroll",
+            "Antal gäster och genomsnittlig nota",
             "Void och comp spårning"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
-          "textColor": "text-[#60A5FA]",
-          "bgColor": "bg-[rgba(28,71,255,0.1)]"
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
+          "textColor": "text-[#FF8473]",
+          "bgColor": "bg-[rgba(255,92,77,0.1)]"
         },
         {
           "id": "2D",
@@ -2947,9 +2947,9 @@ export const generatedLocalCopy = {
             "Spårning av prognosnoggrannhet"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
-          "textColor": "text-lila-600",
-          "bgColor": "bg-lila-50"
+          "color": "from-[#F2B45C] to-[#C2410C]",
+          "textColor": "text-[#C2410C]",
+          "bgColor": "bg-[#FF5C4D]/10"
         },
         {
           "id": "3D",
@@ -2965,8 +2965,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
-          "textColor": "text-grön-600",
-          "bgColor": "bg-grön-50"
+          "textColor": "text-green-600",
+          "bgColor": "bg-green-50"
         },
         {
           "id": "4D",
@@ -3019,7 +3019,7 @@ export const generatedLocalCopy = {
       "outcomes": [
         {
           "title": "Högre marginaler och intäktskvalitet",
-          "description": "Catch margin erosion early, optimize pricing, and reduce waste before it impacts the P&L.",
+          "description": "Fånga marginalerosion tidigt, optimera prissättningen och minska svinn innan det påverkar P&L.",
           "icon": "finance"
         },
         {
@@ -3043,7 +3043,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Unified Data Layer",
-          "description": "Scout integrerar 250+ system - POS, arbetskraft, lager, budgetar och externa källor - i en intelligent grund.",
+          "description": "Sundae Core integrerar 25+ system - POS, arbetskraft, lager, budgetar och externa källor - i en intelligent grund.",
           "icon": "integration"
         },
         {
@@ -3053,7 +3053,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Handlingsbar intelligens",
-          "description": "Canvas-instrumentpaneler, Nexus-frågor på naturligt språk och proaktiva varningar ger insikter när och var du behöver dem.",
+          "description": "Sundae Core-instrumentpaneler, Sundae Intelligence-frågor på naturligt språk och proaktiva varningar ger insikter när och var du behöver dem.",
           "icon": "insights"
         }
       ],
@@ -3100,9 +3100,9 @@ export const generatedLocalCopy = {
             "অকার্যকর এবং কম ট্র্যাকিং"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
-          "textColor": "পাঠ্য-[#60A5FA]",
-          "bgColor": "bg-[rgba(28,71,255,0.1)]"
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
+          "textColor": "text-[#FF8473]",
+          "bgColor": "bg-[rgba(255,92,77,0.1)]"
         },
         {
           "id": "2D",
@@ -3117,9 +3117,9 @@ export const generatedLocalCopy = {
             "পূর্বাভাস নির্ভুলতা ট্র্যাকিং"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
-          "textColor": "টেক্সট-বেগুনি-600",
-          "bgColor": "bg-বেগুনি-50"
+          "color": "from-[#F2B45C] to-[#C2410C]",
+          "textColor": "text-[#C2410C]",
+          "bgColor": "bg-[#FF5C4D]/10"
         },
         {
           "id": "3D",
@@ -3135,8 +3135,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
-          "textColor": "টেক্সট-সবুজ-600",
-          "bgColor": "bg-সবুজ-50"
+          "textColor": "text-green-600",
+          "bgColor": "bg-green-50"
         },
         {
           "id": "4D",
@@ -3152,8 +3152,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
-          "textColor": "টেক্সট-কমলা-600",
-          "bgColor": "bg-কমলা-50"
+          "textColor": "text-orange-600",
+          "bgColor": "bg-orange-50"
         }
       ],
       "alertsTitle": "4D ইন্টেলিজেন্স দেখতে কেমন",
@@ -3213,7 +3213,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "ইউনিফাইড ডেটা লেয়ার",
-          "description": "স্কাউট 250+ সিস্টেমকে একীভূত করে - POS, শ্রম, ইনভেন্টরি, বাজেট এবং বাহ্যিক উত্স - একটি বুদ্ধিমান ভিত্তিতে। (Scout)",
+          "description": "Sundae Core 25+ সিস্টেমকে একীভূত করে - POS, শ্রম, ইনভেন্টরি, বাজেট এবং বাহ্যিক উত্স - একটি বুদ্ধিমান ভিত্তিতে।",
           "icon": "integration"
         },
         {
@@ -3223,7 +3223,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "অ্যাকশনেবল ইন্টেলিজেন্স",
-          "description": "Canvas ড্যাশবোর্ড, নেক্সাস ন্যাচারাল ল্যাঙ্গুয়েজ কোয়েরি, এবং সক্রিয় সতর্কতাগুলি আপনার কখন এবং কোথায় প্রয়োজন তা অন্তর্দৃষ্টি প্রদান করে৷",
+          "description": "Sundae Core ড্যাশবোর্ড, নেক্সাস ন্যাচারাল ল্যাঙ্গুয়েজ কোয়েরি, এবং সক্রিয় সতর্কতাগুলি আপনার কখন এবং কোথায় প্রয়োজন তা অন্তর্দৃষ্টি প্রদান করে৷",
           "icon": "insights"
         }
       ],
@@ -3270,9 +3270,9 @@ export const generatedLocalCopy = {
             "การติดตามถือเป็นโมฆะและคอมพ์"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
-          "textColor": "ข้อความ-[#60A5FA]",
-          "bgColor": "บีจี-[rgba(28,71,255,0.1)]"
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
+          "textColor": "text-[#FF8473]",
+          "bgColor": "bg-[rgba(255,92,77,0.1)]"
         },
         {
           "id": "2D",
@@ -3287,9 +3287,9 @@ export const generatedLocalCopy = {
             "การคาดการณ์การติดตามความแม่นยำ"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
-          "textColor": "ข้อความ-สีม่วง-600",
-          "bgColor": "บีจี-ม่วง-50"
+          "color": "from-[#F2B45C] to-[#C2410C]",
+          "textColor": "text-[#C2410C]",
+          "bgColor": "bg-[#FF5C4D]/10"
         },
         {
           "id": "3D",
@@ -3305,8 +3305,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
-          "textColor": "ข้อความสีเขียว-600",
-          "bgColor": "บีจี-เขียว-50"
+          "textColor": "text-green-600",
+          "bgColor": "bg-green-50"
         },
         {
           "id": "4D",
@@ -3322,8 +3322,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
-          "textColor": "ข้อความ-สีส้ม-600",
-          "bgColor": "บีจี-ส้ม-50"
+          "textColor": "text-orange-600",
+          "bgColor": "bg-orange-50"
         }
       ],
       "alertsTitle": "ความฉลาด 4D มีลักษณะอย่างไร",
@@ -3383,7 +3383,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "ชั้นข้อมูลแบบรวม",
-          "description": "Scout ผสานรวมระบบมากกว่า 25 ระบบ ไม่ว่าจะเป็น POS, แรงงาน, สินค้าคงคลัง, งบประมาณ และแหล่งที่มาภายนอก ไว้ในรากฐานอัจฉริยะเพียงหนึ่งเดียว",
+          "description": "Sundae Core ผสานรวมระบบมากกว่า 25 ระบบ ไม่ว่าจะเป็น POS, แรงงาน, สินค้าคงคลัง, งบประมาณ และแหล่งที่มาภายนอก ไว้ในรากฐานอัจฉริยะเพียงหนึ่งเดียว",
           "icon": "integration"
         },
         {
@@ -3393,7 +3393,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "หน่วยสืบราชการลับที่ดำเนินการได้",
-          "description": "แดชบอร์ด Canvas ข้อความค้นหาด้วยภาษาธรรมชาติของ Nexus และการแจ้งเตือนเชิงรุกจะให้ข้อมูลเชิงลึกในเวลาและทุกที่ที่คุณต้องการ",
+          "description": "แดชบอร์ด Sundae Core ข้อความค้นหาด้วยภาษาธรรมชาติของ Sundae Intelligence และการแจ้งเตือนเชิงรุกจะให้ข้อมูลเชิงลึกในเวลาและทุกที่ที่คุณต้องการ",
           "icon": "insights"
         }
       ],
@@ -3440,9 +3440,9 @@ export const generatedLocalCopy = {
             "Penjejakan tidak sah dan comp"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
-          "textColor": "teks-[#60A5FA]",
-          "bgColor": "bg-[rgba(28,71,255,0.1)]"
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
+          "textColor": "text-[#FF8473]",
+          "bgColor": "bg-[rgba(255,92,77,0.1)]"
         },
         {
           "id": "2D",
@@ -3457,9 +3457,9 @@ export const generatedLocalCopy = {
             "Penjejakan ketepatan ramalan"
           ],
           "icon": "marketing",
-          "color": "from-purple-500 to-purple-600",
-          "textColor": "teks-ungu-600",
-          "bgColor": "bg-ungu-50"
+          "color": "from-[#F2B45C] to-[#C2410C]",
+          "textColor": "text-[#C2410C]",
+          "bgColor": "bg-[#FF5C4D]/10"
         },
         {
           "id": "3D",
@@ -3475,8 +3475,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "watchtower",
           "color": "from-green-500 to-green-600",
-          "textColor": "teks-hijau-600",
-          "bgColor": "bg-hijau-50"
+          "textColor": "text-green-600",
+          "bgColor": "bg-green-50"
         },
         {
           "id": "4D",
@@ -3492,8 +3492,8 @@ export const generatedLocalCopy = {
           ],
           "icon": "forecasting",
           "color": "from-orange-500 to-orange-600",
-          "textColor": "teks-oren-600",
-          "bgColor": "bg-oren-50"
+          "textColor": "text-orange-600",
+          "bgColor": "bg-orange-50"
         }
       ],
       "alertsTitle": "Kecerdasan 4D Nampak",
@@ -3553,7 +3553,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Lapisan Data Bersatu",
-          "description": "Scout menyepadukan 250+ sistem - POS, buruh, inventori, belanjawan dan sumber luaran - ke dalam satu asas pintar.",
+          "description": "Sundae Core menyepadukan 25+ sistem - POS, buruh, inventori, belanjawan dan sumber luaran - ke dalam satu asas pintar.",
           "icon": "integration"
         },
         {
@@ -3563,7 +3563,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Kecerdasan Boleh Tindakan",
-          "description": "Papan pemuka kanvas, pertanyaan bahasa semula jadi Nexus dan makluman proaktif menyampaikan cerapan bila dan di mana anda memerlukannya. (Canvas)",
+          "description": "Papan pemuka Sundae Core, pertanyaan bahasa semula jadi Sundae Intelligence dan makluman proaktif menyampaikan cerapan bila dan di mana anda memerlukannya.",
           "icon": "insights"
         }
       ],

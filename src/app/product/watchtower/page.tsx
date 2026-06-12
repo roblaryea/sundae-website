@@ -10,13 +10,15 @@ import { useCta } from "@/lib/cta";
 import { PRICING_URL } from "@/lib/urls";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
+import { CreamBreak } from "@/components/ui/CreamBreak";
+import { watchtowerCreamCopy } from "../watchtowerCreamCopy";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_product_watchtower_page'
 import { generatedUiLabels } from "@/lib/generatedUiLabels";
 
 const localizedWatchtowerCopy = {
   en: {
-    heroBadge: "Watchtower — External Intelligence Engine",
+    heroBadge: "Watchtower - External Intelligence Engine",
     heroTitle: <>10+ Competitors Tracked Daily.<br />Zero Manual Research.</>,
     heroDescription:
       "Competitor pricing changes tracked daily. A concert this weekend. Ramadan starts next week. Watchtower synthesizes external signals with your internal data into a daily intelligence briefing - what's happening, why it matters, and what to do about it. Signals automatically cascade into Foresight assumptions.",
@@ -69,7 +71,7 @@ const localizedWatchtowerCopy = {
           "12-week competitive trend tracking",
         ],
         icon: "balance" as SundaeIconName,
-        color: "from-blue-500 to-blue-600",
+        color: "from-[#FF5C4D] to-[#E9A24A]",
       },
       {
         title: "Events & Calendar Intelligence",
@@ -84,7 +86,7 @@ const localizedWatchtowerCopy = {
           "Integration with Pulse targets for event-aware pacing",
         ],
         icon: "growth" as SundaeIconName,
-        color: "from-purple-500 to-purple-600",
+        color: "from-[#F2B45C] to-[#C2410C]",
       },
       {
         title: "Market & Trends",
@@ -97,7 +99,7 @@ const localizedWatchtowerCopy = {
           "Average rating and pricing trends by cuisine segment",
           "Macro economic signals (inflation, consumer confidence)",
           "Market intelligence signals surfaced proactively",
-          "Cross-intelligence cascade — Watchtower signals feed into Foresight assumptions with confidence scoring",
+          "Cross-intelligence cascade - Watchtower signals feed into Foresight assumptions with confidence scoring",
           "VAT, hotel, and franchise-specific financial visuals",
         ],
         icon: "multiLocation" as SundaeIconName,
@@ -146,7 +148,7 @@ const localizedWatchtowerCopy = {
     ctaSales: "Talk to Sales",
   },
   ar: {
-    heroBadge: "Watchtower — محرك الذكاء الخارجي",
+    heroBadge: "Watchtower - محرك الذكاء الخارجي",
     heroTitle: <>أكثر من 10 منافسين تتم متابعتهم يومياً.<br />من دون أي بحث يدوي.</>,
     heroDescription:
       "تُتابَع تغييرات أسعار المنافسين يومياً. حفل هذا الأسبوع. يبدأ رمضان الأسبوع المقبل. يدمج Watchtower الإشارات الخارجية مع بياناتك الداخلية في موجز ذكاء يومي - ما الذي يحدث، ولماذا يهم، وما الذي يجب فعله بشأنه. تنتقل الإشارات تلقائياً إلى افتراضات Foresight.",
@@ -199,7 +201,7 @@ const localizedWatchtowerCopy = {
           "تتبع اتجاهات تنافسية لمدة 12 أسبوعاً",
         ],
         icon: "balance" as SundaeIconName,
-        color: "from-blue-500 to-blue-600",
+        color: "from-[#FF5C4D] to-[#E9A24A]",
       },
       {
         title: "ذكاء الأحداث والتقويم",
@@ -214,7 +216,7 @@ const localizedWatchtowerCopy = {
           "تكامل مع أهداف Pulse للإيقاع الواعي بالأحداث",
         ],
         icon: "growth" as SundaeIconName,
-        color: "from-purple-500 to-purple-600",
+        color: "from-[#F2B45C] to-[#C2410C]",
       },
       {
         title: "السوق والاتجاهات",
@@ -311,7 +313,7 @@ const localizedWatchtowerCopy = {
           "Suivi de tendance sur 12 semaines",
         ],
         icon: "balance" as SundaeIconName,
-        color: "from-blue-500 to-blue-600",
+        color: "from-[#FF5C4D] to-[#E9A24A]",
       },
       {
         title: "Intelligence evenements et calendrier",
@@ -326,7 +328,7 @@ const localizedWatchtowerCopy = {
           "Integration avec Pulse pour un pacing sensible aux evenements",
         ],
         icon: "growth" as SundaeIconName,
-        color: "from-purple-500 to-purple-600",
+        color: "from-[#F2B45C] to-[#C2410C]",
       },
       {
         title: "Marche et tendances",
@@ -423,7 +425,7 @@ const localizedWatchtowerCopy = {
           "Seguimiento de tendencias durante 12 semanas",
         ],
         icon: "balance" as SundaeIconName,
-        color: "from-blue-500 to-blue-600",
+        color: "from-[#FF5C4D] to-[#E9A24A]",
       },
       {
         title: "Inteligencia de eventos y calendario",
@@ -438,7 +440,7 @@ const localizedWatchtowerCopy = {
           "Integracion con Pulse para ritmo sensible a eventos",
         ],
         icon: "growth" as SundaeIconName,
-        color: "from-purple-500 to-purple-600",
+        color: "from-[#F2B45C] to-[#C2410C]",
       },
       {
         title: "Mercado y tendencias",
@@ -487,6 +489,7 @@ export default function WatchtowerPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
   const ui = localizedWatchtowerCopy[locale as keyof typeof localizedWatchtowerCopy] ?? getGeneratedLocalCopy(localizedWatchtowerCopy, generatedLocalCopy.localizedWatchtowerCopy, locale) ?? localizedWatchtowerCopy.en;
+  const cream = watchtowerCreamCopy[locale as keyof typeof watchtowerCreamCopy] ?? watchtowerCreamCopy.en;
   const labels = generatedUiLabels[locale as keyof typeof generatedUiLabels] ?? generatedUiLabels.en;
   const pricingCards = [...(ui.pricingCards as readonly { name: string; price: string; perLoc: string; highlight?: boolean }[])];
 
@@ -516,7 +519,7 @@ export default function WatchtowerPage() {
             height={1000}
             dark="/images/product/2026-fresh/watchtower-command-center-dark.png"
             light="/images/product/2026-fresh/watchtower-command-center.png"
-            alt="Watchtower command center — live competitor, event, weather, and market signals with daily actions across the portfolio"
+            alt="Watchtower command center - live competitor, event, weather, and market signals with daily actions across the portfolio"
           />
         </div>
       </PageHero>
@@ -541,6 +544,9 @@ export default function WatchtowerPage() {
           </StaggerContainer>
         </div>
       </section>
+
+      {/* Cream relief - early warm break BEFORE the long dark feature stretch (the volume system) */}
+      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-5xl mx-auto">
@@ -644,7 +650,7 @@ export default function WatchtowerPage() {
         </div>
       </section>
 
-      {/* Product gallery — Watchtower surfaces in detail */}
+      {/* Product gallery - Watchtower surfaces in detail */}
       <SectionProductGallery
         productFilter="/product/watchtower"
         hideFilter
@@ -668,7 +674,7 @@ export default function WatchtowerPage() {
             </Button>
           </StaggerItem>
           <StaggerItem className="p-6 border border-[var(--border-default)] rounded-xl">
-            <div className="w-12 h-12 bg-[#1C47FF] rounded-full flex items-center justify-center mx-auto mb-3">
+            <div className="w-12 h-12 bg-[#FF5C4D] rounded-full flex items-center justify-center mx-auto mb-3">
               <SundaeIcon name="visibility" size="lg" className="text-white" />
             </div>
             <h3 className="font-semibold text-[var(--text-primary)] mb-2 text-center">{ui.ctaDemo}</h3>
@@ -683,7 +689,7 @@ export default function WatchtowerPage() {
             </Button>
           </StaggerItem>
           <StaggerItem className="p-6 border border-[var(--border-default)] rounded-xl">
-            <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
+            <div className="w-12 h-12 bg-[#FF5C4D] rounded-full flex items-center justify-center mx-auto mb-3">
               <SundaeIcon name="conversation" size="lg" className="text-white" />
             </div>
             <h3 className="font-semibold text-[var(--text-primary)] mb-2 text-center">{ui.ctaSales}</h3>

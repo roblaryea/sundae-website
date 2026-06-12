@@ -14,7 +14,7 @@
 @import "../styles/animations.css";
 
 /* ==============================================
-   BASE STYLES — Dark Mode Foundation
+   BASE STYLES - Dark Mode Foundation
    ============================================== */
 
 html {
@@ -31,14 +31,14 @@ html.light {
 body {
   background: var(--navy-deep);
   color: var(--text-primary);
-  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  font-family: var(--font-hanken), system-ui, sans-serif;
   font-size: 16px;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Grid texture overlay — opt-in via class */
+/* Grid texture overlay - opt-in via class */
 .bg-grid-texture {
   background-image:
     linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
@@ -51,10 +51,11 @@ body {
 .bg-top-glow { background: var(--bg-top-glow); }
 .bg-center-glow { background: var(--bg-center-glow); }
 .bg-grad-deep { background: var(--grad-deep-blue); }
+.bg-grad-warm { background: var(--grad-warm); }
 .theme-hero-surface {
   background:
-    radial-gradient(ellipse 75% 55% at 50% 20%, rgba(28, 71, 255, 0.08) 0%, transparent 60%),
-    linear-gradient(180deg, rgba(15, 23, 42, 0.98) 0%, rgba(13, 21, 32, 1) 100%);
+    radial-gradient(ellipse 75% 55% at 50% 20%, rgba(255, 92, 77, 0.08) 0%, transparent 60%),
+    linear-gradient(180deg, rgba(31, 26, 21, 0.98) 0%, rgba(21, 17, 13, 1) 100%);
 }
 
 /* Light mode: soften grid texture */
@@ -69,8 +70,15 @@ html.light .bg-grad-deep {
   background: linear-gradient(180deg, #EEF2FF 0%, #FFFFFF 100%);
 }
 
+/* Light mode: warm closer becomes a soft, warm wash */
+html.light .bg-grad-warm {
+  background:
+    radial-gradient(ellipse 85% 60% at 50% 0%, rgba(255,92,77,0.08) 0%, transparent 62%),
+    linear-gradient(180deg, #FFF6EE 0%, #FFFFFF 64%);
+}
+
 html.light .theme-hero-surface {
   background:
-    radial-gradient(ellipse 75% 55% at 50% 20%, rgba(28, 71, 255, 0.06) 0%, transparent 60%),
-    linear-gradient(180deg, #F8FAFC 0%, #FFFFFF 100%);
+    radial-gradient(ellipse 75% 55% at 50% 20%, rgba(255, 92, 77, 0.06) 0%, transparent 60%),
+    linear-gradient(180deg, #FBF7F0 0%, #FFFFFF 100%);
 }

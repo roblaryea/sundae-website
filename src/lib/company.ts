@@ -1,5 +1,5 @@
 /**
- * Centralized company identity — single source of truth for legal name,
+ * Centralized company identity - single source of truth for legal name,
  * address, jurisdiction, and contact details used across legal pages,
  * footer, metadata, and structured data.
  */

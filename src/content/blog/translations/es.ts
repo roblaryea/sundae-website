@@ -54,7 +54,7 @@ Este proceso manual y reactivo crea visibilidad 1D: ves lo que pasó la semana p
 
 Sundae Core unifica automáticamente cada fuente de datos en un único dashboard operativo que ofrece inteligencia 4D en tiempo real:
 
-- **Sundae Scout** normaliza los datos de todas las fuentes automáticamente, sin necesidad de mapeo manual de campos ni exportaciones CSV
+- **Sundae Core** normaliza los datos de todas las fuentes automáticamente, sin necesidad de mapeo manual de campos ni exportaciones CSV
 - **Sundae Core** visualiza los datos unificados con dashboards específicos por rol para operadores, finanzas, marketing y RR. HH.
 - **Sundae Core** supervisa los dashboards de forma continua y te alerta sobre anomalías antes de que se conviertan en crisis
 - **Sundae Watchtower** agrega contexto competitivo mostrando cómo se comparan tus métricas con los benchmarks del mercado

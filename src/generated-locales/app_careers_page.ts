@@ -8,9 +8,9 @@ export const generatedLocalCopy = {
       "description": "نحن فريق صغير نعمل على حل مشكلة ضيافة مستعصية: البيانات المجزأة والقرارات البطيئة. انضم إلينا.",
       "heroPrimary": "عرض المراكز المفتوحة",
       "heroSecondary": "تعرّف على منتجنا",
-      "openTitle": "الفتحات الحالية",
+      "openTitle": "الوظائف الشاغرة حاليًا",
       "openDescription": "ساعدنا في بناء معلومات تشغيلية أفضل لفرق المطاعم.",
-      "whyTitle": "Why Join Sundae?",
+      "whyTitle": "لماذا تنضم إلى Sundae؟",
       "whyDescription": "ستعمل على حل مشكلة تشغيل حقيقية مع فريق يهتم ببناء شيء مفيد.",
       "valuesTitle": "قيمنا",
       "valuesDescription": "المبادئ التي توجه كل ما نقوم به في Sundae.",
@@ -26,7 +26,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "بناء نماذج ذكاء متقدمة لاتخاذ القرار في المطاعم. العمل مع البيانات واسعة النطاق وخوارزميات التعلم الآلي.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "مدير المنتج - تكنولوجيا المطاعم",
@@ -44,12 +44,12 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "تحفيز اعتماد منصة استخبارات القرار الخاصة بـ Sundae بين مجموعات المطاعم وشركات الضيافة.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "مدير نجاح العملاء",
           "department": "نجاح العملاء",
-          "location": "بعيد",
+          "location": "عن بعد",
           "type": "Full-time",
           "description": "ساعد مشغلي المطاعم على زيادة القيمة من منصة Sundae. توفير التدريب والدعم والتوجيه الاستراتيجي.",
           "icon": "success",
@@ -71,7 +71,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "تصميم واجهات بديهية لمنصة ذكاء القرار لدينا. أنشئ تجارب رائعة وسهلة الاستخدام للمشغل.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -87,7 +87,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "الصحة والعافية",
-          "description": "تأمين صحي شامل ورواتب صحية.",
+          "description": "تأمين صحي شامل وبدلات للعافية.",
           "icon": "success"
         },
         {
@@ -113,7 +113,7 @@ export const generatedLocalCopy = {
           "icon": "marketing"
         },
         {
-          "title": "أرقام المدعومة",
+          "title": "مدعوم بالأرقام",
           "description": "نحن نسمح للبيانات بتوجيه قراراتنا ومساعدة عملائنا على فعل الشيء نفسه.",
           "icon": "benchmarking"
         },
@@ -153,7 +153,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Créez des modèles d’intelligence avancés pour la prise de décision en matière de restauration. Travaillez avec des données à grande échelle et des algorithmes d’apprentissage automatique.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Chef de produit - Technologie de restauration",
@@ -171,7 +171,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Favoriser l'adoption de la plateforme d'intelligence décisionnelle de Sundae parmi les groupes de restauration d'entreprise et les entreprises hôtelières.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Responsable de la réussite client",
@@ -198,7 +198,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Concevez des interfaces intuitives pour notre plateforme d’intelligence décisionnelle. Créez de belles expériences conviviales pour l’opérateur.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -209,7 +209,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Travail flexible",
-          "description": "Culture axée sur le distance avec des horaires et des lieux flexibles.",
+          "description": "Culture privilégiant le télétravail, avec des horaires et des lieux flexibles.",
           "icon": "multiLocation"
         },
         {
@@ -280,10 +280,10 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Cree modelos de inteligencia avanzados para la toma de decisiones en restaurantes. Trabaje con datos a gran escala y algoritmos de aprendizaje automático.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Gerente de Producto - Técnico de Restaurantes",
+          "title": "Gerente de Producto - Tecnología de Restaurantes",
           "department": "Producto",
           "location": "Toronto, Canadá / Remoto",
           "type": "Full-time",
@@ -298,7 +298,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Impulsar la adopción de la plataforma de inteligencia de decisiones de Sundae entre grupos empresariales de restaurantes y empresas hoteleras.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Gerente de Éxito del Cliente",
@@ -325,7 +325,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Diseñe interfaces intuitivas para nuestra plataforma de inteligencia de decisiones. Cree experiencias hermosas y fáciles de usar para el operador.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -401,18 +401,18 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Erfahren Sie mehr über unser Produkt",
       "positions": [
         {
-          "title": "Leitender Software-Ingenieur – Intelligenz",
+          "title": "Leitender Software-Ingenieur - Intelligenz",
           "department": "Ingenieurwesen",
-          "location": "Dubai, Vereinigte Arabische Emirate / abgelegen",
+          "location": "Dubai, Vereinigte Arabische Emirate / Remote",
           "type": "Full-time",
           "description": "Erstellen Sie fortschrittliche Intelligenzmodelle für die Entscheidungsfindung in Restaurants. Arbeiten Sie mit großen Datenmengen und Algorithmen für maschinelles Lernen.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Produktmanager - Restauranttechnik",
           "department": "Produkt",
-          "location": "Toronto, Kanada / abgelegen",
+          "location": "Toronto, Kanada / Remote",
           "type": "Full-time",
           "description": "Definieren Sie die Produktstrategie für unsere Decision-Intelligence-Plattform. Arbeiten Sie eng mit Restaurantbetreibern und Ingenieurteams zusammen.",
           "icon": "benchmarking",
@@ -425,34 +425,34 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Fördern Sie die Akzeptanz der Entscheidungsintelligenzplattform von Sundae bei Restaurantgruppen und Hotelunternehmen.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Kundenerfolgsmanager",
           "department": "Kundenerfolg",
-          "location": "Fernbedienung",
+          "location": "Remote",
           "type": "Full-time",
           "description": "Helfen Sie Restaurantbetreibern, den Nutzen der Sundae-Plattform zu maximieren. Bieten Sie Schulungen, Unterstützung und strategische Anleitung an.",
           "icon": "success",
           "color": "bg-orange-600"
         },
         {
-          "title": "Datenwissenschaftler – Restaurant Intelligence",
+          "title": "Datenwissenschaftler - Restaurant Intelligence",
           "department": "Datenwissenschaft",
-          "location": "Dubai, Vereinigte Arabische Emirate / abgelegen",
+          "location": "Dubai, Vereinigte Arabische Emirate / Remote",
           "type": "Full-time",
           "description": "Entwickeln Sie Vorhersagemodelle und Anomalieerkennungssysteme für Restaurantbetriebsdaten.",
           "icon": "growth",
           "color": "bg-teal-600"
         },
         {
-          "title": "UX/UI-Designer – SaaS-Produkte",
+          "title": "UX/UI-Designer - SaaS-Produkte",
           "department": "Design",
-          "location": "Toronto, Kanada / abgelegen",
+          "location": "Toronto, Kanada / Remote",
           "type": "Full-time",
           "description": "Entwerfen Sie intuitive Schnittstellen für unsere Decision-Intelligence-Plattform. Schaffen Sie schöne, bedienerfreundliche Erlebnisse.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -478,7 +478,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Globales Team",
-          "description": "Arbeiten Sie mit talentierten Menschen in Dubai, Toronto und an abgelegenen Standorten zusammen.",
+          "description": "Arbeiten Sie mit talentierten Menschen in Dubai, Toronto und an Remote-Standorten zusammen.",
           "icon": "multiLocation"
         },
         {
@@ -534,7 +534,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Crie modelos de inteligência avançados para tomada de decisões em restaurantes. Trabalhe com dados em grande escala e algoritmos de aprendizado de máquina.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Gerente de Produto - Tecnologia de Restaurantes",
@@ -552,7 +552,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Impulsionar a adoção da plataforma de inteligência de decisão da Sundae entre grupos empresariais de restaurantes e empresas de hospitalidade.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Gerente de sucesso do cliente",
@@ -574,12 +574,12 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Designer UX/UI - Produtos SaaS",
-          "department": "Projeto",
+          "department": "Design",
           "location": "Toronto, Canadá / Remoto",
           "type": "Full-time",
           "description": "Projete interfaces intuitivas para nossa plataforma de inteligência de decisão. Crie experiências lindas e fáceis de operar.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -657,16 +657,16 @@ export const generatedLocalCopy = {
         {
           "title": "Senior Software Engineer - Intelligentie",
           "department": "Techniek",
-          "location": "Dubai, VAE / afgelegen",
+          "location": "Dubai, VAE / Op afstand",
           "type": "Full-time",
           "description": "Bouw geavanceerde intelligentiemodellen voor de besluitvorming in restaurants. Werk met grootschalige data en machine learning-algoritmen.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Productmanager - Restauranttechniek",
           "department": "Product",
-          "location": "Toronto, Canada / Afgelegen",
+          "location": "Toronto, Canada / Op afstand",
           "type": "Full-time",
           "description": "Definieer de productstrategie voor ons beslissingsinformatieplatform. Werk nauw samen met restaurantexploitanten en technische teams.",
           "icon": "benchmarking",
@@ -679,11 +679,11 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Stimuleer de adoptie van Sundae's beslissingsinformatieplatform onder grote restaurantgroepen en horecabedrijven.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Klantsuccesmanager",
-          "department": "Klant succes",
+          "department": "Klantsucces",
           "location": "Op afstand",
           "type": "Full-time",
           "description": "Help restaurantexploitanten de waarde van het Sundae-platform te maximaliseren. Zorg voor training, ondersteuning en strategische begeleiding.",
@@ -693,7 +693,7 @@ export const generatedLocalCopy = {
         {
           "title": "Datawetenschapper - Restaurantintelligentie",
           "department": "Datawetenschap",
-          "location": "Dubai, VAE / afgelegen",
+          "location": "Dubai, VAE / Op afstand",
           "type": "Full-time",
           "description": "Ontwikkel voorspellende modellen en afwijkingendetectiesystemen voor gegevens over restaurantactiviteiten.",
           "icon": "growth",
@@ -702,11 +702,11 @@ export const generatedLocalCopy = {
         {
           "title": "UX/UI Designer - SaaS-producten",
           "department": "Ontwerp",
-          "location": "Toronto, Canada / Afgelegen",
+          "location": "Toronto, Canada / Op afstand",
           "type": "Full-time",
           "description": "Ontwerp intuïtieve interfaces voor ons beslissingsinformatieplatform. Creëer prachtige, gebruiksvriendelijke ervaringen.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -732,7 +732,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Mondiaal team",
-          "description": "Werk met getalenteerde mensen in Dubai, Toronto en afgelegen locaties.",
+          "description": "Werk met getalenteerde mensen in Dubai, Toronto en op afstand.",
           "icon": "multiLocation"
         },
         {
@@ -748,7 +748,7 @@ export const generatedLocalCopy = {
           "icon": "marketing"
         },
         {
-          "title": "Nummers ondersteund",
+          "title": "Onderbouwd met cijfers",
           "description": "We laten data onze beslissingen sturen en helpen onze klanten hetzelfde te doen.",
           "icon": "benchmarking"
         },
@@ -767,10 +767,10 @@ export const generatedLocalCopy = {
     "ur": {
       "badge": "ہماری ٹیم میں شامل ہوں۔",
       "title": "فیصلہ کن ذہانت کا مستقبل بنائیں",
-      "description": "ہم ایک چھوٹی ٹیم ہیں جو ایک ضدی مہمان نوازی کے مسئلے پر کام کر رہی ہے: بکھرے ہوئے ڈیٹا اور سست فیصلے۔ ہمارے ساتھ شامل ہوں۔",
-      "heroPrimary": "اوپن پوزیشنز دیکھیں",
+      "description": "ہم ایک چھوٹی ٹیم ہیں جو مہمان نوازی کے ایک دیرینہ مسئلے پر کام کر رہی ہے: بکھرے ہوئے ڈیٹا اور سست فیصلے۔ ہمارے ساتھ شامل ہوں۔",
+      "heroPrimary": "کھلی آسامیاں دیکھیں",
       "heroSecondary": "ہماری پروڈکٹ کے بارے میں جانیں۔",
-      "openTitle": "موجودہ افتتاحی",
+      "openTitle": "موجودہ آسامیاں",
       "openDescription": "ریستوراں ٹیموں کے لیے بہتر آپریٹنگ انٹیلی جنس بنانے میں ہماری مدد کریں۔",
       "whyTitle": "Sundae میں کیوں شامل ہوں؟",
       "whyDescription": "آپ ایک ایسی ٹیم کے ساتھ ایک حقیقی آپریٹنگ مسئلہ پر کام کریں گے جو کسی مفید چیز کو بنانے کا خیال رکھتی ہو۔",
@@ -788,7 +788,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "ریستوراں میں فیصلہ سازی کے لیے جدید انٹیلی جنس ماڈلز بنائیں۔ بڑے پیمانے پر ڈیٹا اور مشین لرننگ الگورتھم کے ساتھ کام کریں۔",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "پروڈکٹ مینیجر - ریستوراں ٹیک",
@@ -806,7 +806,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "انٹرپرائز ریستوراں گروپس اور مہمان نوازی کمپنیوں کے درمیان Sundae کے فیصلہ کن انٹیلی جنس پلیٹ فارم کو اپنانے کی کوشش کریں۔",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "کسٹمر کامیابی مینیجر",
@@ -833,7 +833,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "ہمارے فیصلہ کن انٹیلی جنس پلیٹ فارم کے لیے بدیہی انٹرفیس ڈیزائن کریں۔ خوبصورت، آپریٹر دوستانہ تجربات تخلیق کریں۔",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -875,7 +875,7 @@ export const generatedLocalCopy = {
           "icon": "marketing"
         },
         {
-          "title": "نمبرز کی حمایت یافتہ",
+          "title": "اعداد و شمار پر مبنی",
           "description": "ہم ڈیٹا کو اپنے فیصلوں کی رہنمائی کرنے دیتے ہیں اور اپنے صارفین کو ایسا کرنے میں مدد کرتے ہیں۔",
           "icon": "benchmarking"
         },
@@ -895,9 +895,9 @@ export const generatedLocalCopy = {
       "badge": "हमारी टीम से जुड़ें",
       "title": "निर्णय बुद्धि के भविष्य का निर्माण करें",
       "description": "हम एक छोटी सी टीम हैं जो आतिथ्य सत्कार की जिद्दी समस्या पर काम कर रही है: खंडित डेटा और धीमे निर्णय। हमसे जुड़ें.",
-      "heroPrimary": "खुली स्थिति देखें",
+      "heroPrimary": "खुले पद देखें",
       "heroSecondary": "हमारे उत्पाद के बारे में जानें",
-      "openTitle": "वर्तमान उद्घाटन",
+      "openTitle": "वर्तमान रिक्तियां",
       "openDescription": "रेस्तरां टीमों के लिए बेहतर परिचालन इंटेलिजेंस बनाने में हमारी सहायता करें।",
       "whyTitle": "Sundae से क्यों जुड़ें?",
       "whyDescription": "आप एक ऐसी टीम के साथ वास्तविक परिचालन समस्या पर काम करेंगे जो कुछ उपयोगी बनाने की परवाह करती है।",
@@ -915,7 +915,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "रेस्तरां निर्णय लेने के लिए उन्नत खुफिया मॉडल बनाएं। बड़े पैमाने पर डेटा और मशीन लर्निंग एल्गोरिदम के साथ काम करें।",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "उत्पाद प्रबंधक - रेस्तरां टेक",
@@ -933,7 +933,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "उद्यम रेस्तरां समूहों और आतिथ्य कंपनियों के बीच Sundae के निर्णय खुफिया मंच को अपनाने के लिए प्रेरित करें।",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "ग्राहक सफलता प्रबंधक",
@@ -960,7 +960,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "हमारे निर्णय इंटेलिजेंस प्लेटफ़ॉर्म के लिए सहज ज्ञान युक्त इंटरफ़ेस डिज़ाइन करें। सुंदर, ऑपरेटर-अनुकूल अनुभव बनाएं।",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -1024,7 +1024,7 @@ export const generatedLocalCopy = {
       "description": "İnatçı bir konaklama sorunu üzerinde çalışan küçük bir ekibiz: parçalanmış veriler ve yavaş kararlar. Bize katılın.",
       "heroPrimary": "Açık Pozisyonları Görüntüle",
       "heroSecondary": "Ürünümüz Hakkında Bilgi Edinin",
-      "openTitle": "Güncel Açıklıklar",
+      "openTitle": "Güncel Açık Pozisyonlar",
       "openDescription": "Restoran ekipleri için daha iyi çalışma zekası oluşturmamıza yardımcı olun.",
       "whyTitle": "Neden Sundae'ye Katılmalısınız?",
       "whyDescription": "Yararlı bir şey inşa etmeye önem veren bir ekiple gerçek bir işletim problemi üzerinde çalışacaksınız.",
@@ -1042,10 +1042,10 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Restoran karar verme süreci için gelişmiş zeka modelleri oluşturun. Büyük ölçekli verilerle ve makine öğrenimi algoritmalarıyla çalışın.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Ürün Müdürü - Restoran Teknisyeni",
+          "title": "Ürün Müdürü - Restoran Teknolojisi",
           "department": "Ürün",
           "location": "Toronto, Kanada / Uzak",
           "type": "Full-time",
@@ -1060,7 +1060,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Kurumsal restoran grupları ve konaklama şirketleri arasında Sundae'nin karar zekası platformunun benimsenmesini teşvik edin.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Müşteri Başarısı Yöneticisi",
@@ -1087,7 +1087,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Karar zekası platformumuz için sezgisel arayüzler tasarlayın. Güzel, operatör dostu deneyimler yaratın.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -1151,9 +1151,9 @@ export const generatedLocalCopy = {
       "description": "Siamo un piccolo team che lavora su un ostinato problema dell'ospitalità: dati frammentati e decisioni lente. Unisciti a noi.",
       "heroPrimary": "Visualizza le posizioni aperte",
       "heroSecondary": "Scopri il nostro prodotto",
-      "openTitle": "Aperture attuali",
+      "openTitle": "Posizioni aperte attuali",
       "openDescription": "Aiutaci a creare una migliore intelligenza operativa per i team dei ristoranti.",
-      "whyTitle": "Why Join Sundae?",
+      "whyTitle": "Perché unirsi a Sundae?",
       "whyDescription": "Lavorerai su un problema operativo reale con un team che ha a cuore la costruzione di qualcosa di utile.",
       "valuesTitle": "I nostri valori",
       "valuesDescription": "I principi che guidano tutto ciò che facciamo in Sundae.",
@@ -1169,10 +1169,10 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Costruisci modelli di intelligence avanzati per il processo decisionale nei ristoranti. Lavora con dati su larga scala e algoritmi di machine learning.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Responsabile prodotto - Tecnico ristorante",
+          "title": "Responsabile prodotto - Tecnologia per ristoranti",
           "department": "Prodotto",
           "location": "Toronto, Canada/Remoto",
           "type": "Full-time",
@@ -1187,7 +1187,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Promuovi l'adozione della piattaforma di decision intelligence di Sundae tra i gruppi di ristoranti aziendali e le società di ospitalità.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Responsabile del successo del cliente",
@@ -1214,7 +1214,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Progetta interfacce intuitive per la nostra piattaforma di decision intelligence. Crea esperienze straordinarie e intuitive per l'operatore.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -1276,9 +1276,9 @@ export const generatedLocalCopy = {
       "badge": "Dołącz do naszego zespołu",
       "title": "Zbuduj przyszłość inteligencji decyzyjnej",
       "description": "Jesteśmy małym zespołem pracującym nad uporczywym problemem związanym z gościnnością: fragmentarycznymi danymi i powolnymi decyzjami. Dołącz do nas.",
-      "heroPrimary": "Zobacz otwarte pozycje",
-      "heroSecondary": "Dowiedz się o naszym produkcie",
-      "openTitle": "Aktualne otwarcia",
+      "heroPrimary": "Zobacz otwarte stanowiska",
+      "heroSecondary": "Dowiedz się więcej o naszym produkcie",
+      "openTitle": "Aktualne oferty pracy",
       "openDescription": "Pomóż nam budować lepszą inteligencję operacyjną dla zespołów restauracyjnych.",
       "whyTitle": "Dlaczego warto dołączyć do Sundae?",
       "whyDescription": "Będziesz pracować nad prawdziwym problemem operacyjnym z zespołem, któremu zależy na zbudowaniu czegoś pożytecznego.",
@@ -1296,10 +1296,10 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Twórz zaawansowane modele inteligencji na potrzeby podejmowania decyzji w restauracjach. Pracuj z danymi na dużą skalę i algorytmami uczenia maszynowego.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Menedżer Produktu - Technik Restauracji",
+          "title": "Menedżer Produktu - Technologia Restauracyjna",
           "department": "Produkt",
           "location": "Toronto, Kanada / zdalnie",
           "type": "Full-time",
@@ -1308,13 +1308,13 @@ export const generatedLocalCopy = {
           "color": "bg-green-600"
         },
         {
-          "title": "Dyrektor ds. sprzedaży – przedsiębiorstwo",
+          "title": "Dyrektor ds. sprzedaży - przedsiębiorstwo",
           "department": "Sprzedaż",
           "location": "Wiele lokalizacji",
           "type": "Full-time",
           "description": "Promuj przyjęcie platformy analizy decyzji Sundae wśród korporacyjnych grup restauracyjnych i firm z branży hotelarsko-gastronomicznej.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Menedżer sukcesu klienta",
@@ -1326,7 +1326,7 @@ export const generatedLocalCopy = {
           "color": "bg-orange-600"
         },
         {
-          "title": "Analityk danych - wywiad restauracyjny",
+          "title": "Analityk danych - Restaurant Intelligence",
           "department": "Nauka o danych",
           "location": "Dubaj, Zjednoczone Emiraty Arabskie / Zdalne",
           "type": "Full-time",
@@ -1341,7 +1341,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Projektuj intuicyjne interfejsy dla naszej platformy analizy decyzji. Twórz piękne, przyjazne dla operatora doświadczenia.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -1403,7 +1403,7 @@ export const generatedLocalCopy = {
       "badge": "加入我们的团队",
       "title": "构建决策智能的未来",
       "description": "我们是一个小团队，致力于解决一个顽固的酒店业问题：碎片化的数据和缓慢的决策。加入我们。",
-      "heroPrimary": "查看未平仓头寸",
+      "heroPrimary": "查看空缺职位",
       "heroSecondary": "了解我们的产品",
       "openTitle": "当前职位空缺",
       "openDescription": "帮助我们为餐厅团队建立更好的运营智能。",
@@ -1423,11 +1423,11 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "为餐厅决策构建先进的智能模型。使用大规模数据和机器学习算法。",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "产品经理 - 餐厅技术",
-          "department": "产品展示",
+          "department": "产品",
           "location": "加拿大多伦多 / 远程",
           "type": "Full-time",
           "description": "为我们的决策智能平台定义产品策略。与餐厅经营者和工程团队密切合作。",
@@ -1441,7 +1441,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "推动企业餐饮集团和酒店公司采用Sundae的决策智能平台。",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "客户成功经理",
@@ -1468,7 +1468,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "为我们的决策智能平台设计直观的界面。创造优美、操作友好的体验。",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -1546,16 +1546,16 @@ export const generatedLocalCopy = {
         {
           "title": "シニア ソフトウェア エンジニア - インテリジェンス",
           "department": "エンジニアリング",
-          "location": "ドバイ、アラブ首長国連邦 / 遠隔地",
+          "location": "ドバイ、アラブ首長国連邦 / リモート",
           "type": "Full-time",
           "description": "レストランの意思決定のための高度なインテリジェンス モデルを構築します。大規模なデータと機械学習アルゴリズムを操作します。",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "プロダクト マネージャー - レストラン テック",
           "department": "製品",
-          "location": "カナダ、トロント / 遠隔地",
+          "location": "カナダ、トロント / リモート",
           "type": "Full-time",
           "description": "当社の意思決定インテリジェンス プラットフォームの製品戦略を定義します。レストラン経営者やエンジニアリング チームと緊密に連携します。",
           "icon": "benchmarking",
@@ -1568,7 +1568,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "エンタープライズ レストラン グループやホスピタリティ企業における Sundae の意思決定インテリジェンス プラットフォームの導入を促進します。",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "カスタマーサクセスマネージャー",
@@ -1582,7 +1582,7 @@ export const generatedLocalCopy = {
         {
           "title": "データ サイエンティスト - レストラン インテリジェンス",
           "department": "データサイエンス",
-          "location": "ドバイ、アラブ首長国連邦 / 遠隔地",
+          "location": "ドバイ、アラブ首長国連邦 / リモート",
           "type": "Full-time",
           "description": "レストラン運営データの予測モデルと異常検出システムを開発します。",
           "icon": "growth",
@@ -1591,11 +1591,11 @@ export const generatedLocalCopy = {
         {
           "title": "UX/UI デザイナー - SaaS 製品",
           "department": "デザイン",
-          "location": "カナダ、トロント / 遠隔地",
+          "location": "カナダ、トロント / リモート",
           "type": "Full-time",
           "description": "意思決定インテリジェンス プラットフォームの直感的なインターフェイスを設計します。美しく、オペレーターに優しいエクスペリエンスを作成します。",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -1621,7 +1621,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "グローバルチーム",
-          "description": "ドバイ、トロント、遠隔地にいる有能な人材と協力します。",
+          "description": "ドバイ、トロント、リモートの有能な人材と協力します。",
           "icon": "multiLocation"
         },
         {
@@ -1659,12 +1659,12 @@ export const generatedLocalCopy = {
       "description": "우리는 단편적인 데이터와 느린 결정이라는 완고한 서비스 문제를 해결하기 위해 노력하는 소규모 팀입니다. 우리와 함께하세요.",
       "heroPrimary": "공석 보기",
       "heroSecondary": "우리 제품에 대해 알아보기",
-      "openTitle": "현재 오프닝",
+      "openTitle": "현재 채용 중인 직무",
       "openDescription": "레스토랑 팀을 위한 더 나은 운영 인텔리전스를 구축할 수 있도록 도와주세요.",
-      "whyTitle": "Why Join Sundae?",
+      "whyTitle": "왜 Sundae에 합류해야 할까요?",
       "whyDescription": "유용한 것을 만드는 데 관심을 갖는 팀과 함께 실제 운영 문제를 해결하게 됩니다.",
       "valuesTitle": "우리의 가치",
-      "valuesDescription": "The principles that guide everything we do at Sundae.",
+      "valuesDescription": "Sundae에서 우리가 하는 모든 일을 이끄는 원칙입니다.",
       "ctaTitle": "영향력을 행사할 준비가 되셨나요?",
       "ctaDescription": "레스토랑 팀이 더 빠르고 명확한 결정을 내리는 데 도움이 되는 소프트웨어 구축에 참여하세요.",
       "ctaPrimary": "이력서 보내기",
@@ -1677,7 +1677,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "레스토랑 의사결정을 위한 고급 인텔리전스 모델을 구축하세요. 대규모 데이터 및 기계 학습 알고리즘으로 작업합니다.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "제품 관리자 - 레스토랑 기술",
@@ -1695,7 +1695,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "엔터프라이즈 레스토랑 그룹과 호텔 기업 사이에서 Sundae의 의사결정 인텔리전스 플랫폼 채택을 촉진하세요.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "고객 성공 관리자",
@@ -1722,7 +1722,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "의사결정 인텔리전스 플랫폼을 위한 직관적인 인터페이스를 디자인하세요. 아름답고 운영자 친화적인 경험을 만들어 보세요.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -1786,7 +1786,7 @@ export const generatedLocalCopy = {
       "description": "Suntem o echipă mică care lucrează la o problemă încăpățânată de ospitalitate: date fragmentate și decizii lente. Alăturaţi-ne.",
       "heroPrimary": "Vedeți pozițiile deschise",
       "heroSecondary": "Aflați despre produsul nostru",
-      "openTitle": "Deschideri curente",
+      "openTitle": "Posturi disponibile",
       "openDescription": "Ajutați-ne să construim o inteligență de operare mai bună pentru echipele de restaurante.",
       "whyTitle": "De ce să vă alăturați Sundae?",
       "whyDescription": "Veți lucra la o problemă reală de funcționare cu o echipă care îi pasă să construiască ceva util.",
@@ -1798,36 +1798,36 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Aflați despre produsul nostru",
       "positions": [
         {
-          "title": "Senior Software Engineer - Intelligence",
+          "title": "Inginer software senior - Intelligence",
           "department": "Inginerie",
-          "location": "Dubai, Emiratele Arabe Unite / Telecomandă",
+          "location": "Dubai, Emiratele Arabe Unite / La distanță",
           "type": "Full-time",
           "description": "Construiți modele avansate de inteligență pentru luarea deciziilor la restaurante. Lucrați cu date la scară largă și algoritmi de învățare automată.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Manager de produs - Restaurant Tech",
           "department": "Produs",
-          "location": "Toronto, Canada / Telecomandă",
+          "location": "Toronto, Canada / La distanță",
           "type": "Full-time",
           "description": "Definiți strategia de produs pentru platforma noastră de informare a deciziilor. Lucrați îndeaproape cu operatorii de restaurante și echipele de inginerie.",
           "icon": "benchmarking",
           "color": "bg-green-600"
         },
         {
-          "title": "Director de vanzari - Enterprise",
+          "title": "Director de vânzări - Enterprise",
           "department": "Vânzări",
           "location": "Locații multiple",
           "type": "Full-time",
           "description": "Stimulați adoptarea platformei de informare a deciziilor Sundae în rândul grupurilor de restaurante și companiilor de ospitalitate.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Manager succes al clienților",
           "department": "Succesul clientului",
-          "location": "Telecomanda",
+          "location": "La distanță",
           "type": "Full-time",
           "description": "Ajutați operatorii de restaurante să maximizeze valoarea de pe platforma Sundae. Oferiți instruire, sprijin și îndrumare strategică.",
           "icon": "success",
@@ -1836,7 +1836,7 @@ export const generatedLocalCopy = {
         {
           "title": "Data Scientist - Restaurant Intelligence",
           "department": "Știința datelor",
-          "location": "Dubai, Emiratele Arabe Unite / Telecomandă",
+          "location": "Dubai, Emiratele Arabe Unite / La distanță",
           "type": "Full-time",
           "description": "Dezvoltați modele predictive și sisteme de detectare a anomaliilor pentru datele operațiunilor restaurantelor.",
           "icon": "growth",
@@ -1845,11 +1845,11 @@ export const generatedLocalCopy = {
         {
           "title": "Designer UX/UI - Produse SaaS",
           "department": "Design",
-          "location": "Toronto, Canada / Telecomandă",
+          "location": "Toronto, Canada / La distanță",
           "type": "Full-time",
           "description": "Proiectați interfețe intuitive pentru platforma noastră de informare a deciziilor. Creați experiențe frumoase, prietenoase cu operatorul.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -1913,7 +1913,7 @@ export const generatedLocalCopy = {
       "description": "Chúng tôi là một nhóm nhỏ đang giải quyết một vấn đề khó giải quyết trong ngành khách sạn: dữ liệu rời rạc và đưa ra quyết định chậm chạp. Tham gia cùng chúng tôi.",
       "heroPrimary": "Xem vị trí mở",
       "heroSecondary": "Tìm hiểu về sản phẩm của chúng tôi",
-      "openTitle": "Mở hiện tại",
+      "openTitle": "Vị trí đang tuyển",
       "openDescription": "Hãy giúp chúng tôi xây dựng thông tin vận hành tốt hơn cho các nhóm nhà hàng.",
       "whyTitle": "Tại sao tham gia Sundae?",
       "whyDescription": "Bạn sẽ giải quyết một vấn đề vận hành thực tế với một nhóm quan tâm đến việc xây dựng thứ gì đó hữu ích.",
@@ -1931,12 +1931,12 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Xây dựng các mô hình thông minh tiên tiến để đưa ra quyết định cho nhà hàng. Làm việc với dữ liệu quy mô lớn và thuật toán học máy.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Giám đốc sản phẩm - Công nghệ nhà hàng",
           "department": "sản phẩm",
-          "location": "Toronto, Canada / Vùng sâu vùng xa",
+          "location": "Toronto, Canada / Từ xa",
           "type": "Full-time",
           "description": "Xác định chiến lược sản phẩm cho nền tảng thông tin quyết định của chúng tôi. Làm việc chặt chẽ với các nhà điều hành nhà hàng và đội ngũ kỹ thuật.",
           "icon": "benchmarking",
@@ -1949,7 +1949,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Thúc đẩy việc áp dụng nền tảng thông tin quyết định của Sundae giữa các nhóm nhà hàng doanh nghiệp và công ty khách sạn.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Người quản lý thành công của khách hàng",
@@ -1972,11 +1972,11 @@ export const generatedLocalCopy = {
         {
           "title": "Nhà thiết kế UX/UI - Sản phẩm SaaS",
           "department": "Thiết kế",
-          "location": "Toronto, Canada / Vùng sâu vùng xa",
+          "location": "Toronto, Canada / Từ xa",
           "type": "Full-time",
           "description": "Thiết kế giao diện trực quan cho nền tảng thông tin quyết định của chúng tôi. Tạo ra những trải nghiệm đẹp đẽ, thân thiện với người vận hành.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -1991,7 +1991,7 @@ export const generatedLocalCopy = {
           "icon": "multiLocation"
         },
         {
-          "title": "Sức khỏe & Sức khỏe",
+          "title": "Sức khỏe & Thể chất",
           "description": "Bảo hiểm y tế toàn diện và các khoản trợ cấp chăm sóc sức khỏe.",
           "icon": "success"
         },
@@ -2006,7 +2006,7 @@ export const generatedLocalCopy = {
           "icon": "multiLocation"
         },
         {
-          "title": "tác động",
+          "title": "Tác động",
           "description": "Làm việc trên các công cụ mà nhóm nhà hàng có thể sử dụng trong các quyết định điều hành thực tế.",
           "icon": "growth"
         }
@@ -2040,7 +2040,7 @@ export const generatedLocalCopy = {
       "description": "Kami adalah tim kecil yang menangani masalah perhotelan yang sulit diatasi: data yang terfragmentasi dan pengambilan keputusan yang lambat. Bergabunglah dengan kami.",
       "heroPrimary": "Lihat Posisi Terbuka",
       "heroSecondary": "Pelajari Tentang Produk Kami",
-      "openTitle": "Bukaan Saat Ini",
+      "openTitle": "Lowongan Saat Ini",
       "openDescription": "Bantu kami membangun kecerdasan operasional yang lebih baik untuk tim restoran.",
       "whyTitle": "Mengapa Bergabung dengan Sundae?",
       "whyDescription": "Anda akan menangani masalah operasi nyata dengan tim yang peduli untuk membangun sesuatu yang bermanfaat.",
@@ -2054,16 +2054,16 @@ export const generatedLocalCopy = {
         {
           "title": "Insinyur Perangkat Lunak Senior - Intelijen",
           "department": "Rekayasa",
-          "location": "Dubai, UEA / Terpencil",
+          "location": "Dubai, UEA / Jarak Jauh",
           "type": "Full-time",
           "description": "Bangun model intelijen tingkat lanjut untuk pengambilan keputusan restoran. Bekerja dengan data skala besar dan algoritma pembelajaran mesin.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Manajer Produk - Teknologi Restoran",
           "department": "Produk",
-          "location": "Toronto, Kanada / Terpencil",
+          "location": "Toronto, Kanada / Jarak Jauh",
           "type": "Full-time",
           "description": "Tentukan strategi produk untuk platform intelijen keputusan kami. Bekerja sama dengan operator restoran dan tim teknik.",
           "icon": "benchmarking",
@@ -2076,12 +2076,12 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Mendorong adopsi platform intelijen keputusan Sundae di antara grup restoran perusahaan dan perusahaan perhotelan.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Manajer Kesuksesan Pelanggan",
           "department": "Kesuksesan Pelanggan",
-          "location": "Terpencil",
+          "location": "Jarak Jauh",
           "type": "Full-time",
           "description": "Bantu operator restoran memaksimalkan nilai dari platform Sundae. Memberikan pelatihan, dukungan, dan panduan strategis.",
           "icon": "success",
@@ -2090,7 +2090,7 @@ export const generatedLocalCopy = {
         {
           "title": "Ilmuwan Data - Intelijen Restoran",
           "department": "Ilmu Data",
-          "location": "Dubai, UEA / Terpencil",
+          "location": "Dubai, UEA / Jarak Jauh",
           "type": "Full-time",
           "description": "Mengembangkan model prediktif dan sistem deteksi anomali untuk data operasional restoran.",
           "icon": "growth",
@@ -2099,11 +2099,11 @@ export const generatedLocalCopy = {
         {
           "title": "Desainer UX/UI - Produk SaaS",
           "department": "Desain",
-          "location": "Toronto, Kanada / Terpencil",
+          "location": "Toronto, Kanada / Jarak Jauh",
           "type": "Full-time",
           "description": "Rancang antarmuka intuitif untuk platform intelijen keputusan kami. Ciptakan pengalaman yang indah dan ramah operator.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -2129,7 +2129,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Tim Global",
-          "description": "Bekerja dengan orang-orang berbakat di Dubai, Toronto, dan lokasi terpencil.",
+          "description": "Bekerja dengan orang-orang berbakat di Dubai, Toronto, dan lokasi jarak jauh.",
           "icon": "multiLocation"
         },
         {
@@ -2167,7 +2167,7 @@ export const generatedLocalCopy = {
       "description": "Vi är ett litet team som arbetar med ett envist gästfrihetsproblem: fragmenterad data och långsamma beslut. Följ med oss.",
       "heroPrimary": "Visa öppna positioner",
       "heroSecondary": "Lär dig mer om vår produkt",
-      "openTitle": "Aktuella öppningar",
+      "openTitle": "Lediga tjänster",
       "openDescription": "Hjälp oss att bygga bättre driftsintelligens för restaurangteam.",
       "whyTitle": "Varför gå med i Sundae?",
       "whyDescription": "Du kommer att arbeta med ett verkligt driftsproblem med ett team som bryr sig om att bygga något användbart.",
@@ -2179,18 +2179,18 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Lär dig mer om vår produkt",
       "positions": [
         {
-          "title": "Senior Software Engineer - Intelligence",
-          "department": "Engineering",
-          "location": "Dubai, Förenade Arabemiraten / Fjärrkontroll",
+          "title": "Senior mjukvaruingenjör - Intelligence",
+          "department": "Teknik",
+          "location": "Dubai, Förenade Arabemiraten / Distans",
           "type": "Full-time",
           "description": "Bygg avancerade intelligensmodeller för restaurangbeslut. Arbeta med storskaliga data- och maskininlärningsalgoritmer.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Produktchef - Restaurangteknik",
           "department": "Produkt",
-          "location": "Toronto, Kanada / Fjärrkontroll",
+          "location": "Toronto, Kanada / Distans",
           "type": "Full-time",
           "description": "Definiera produktstrategi för vår beslutsunderrättelseplattform. Arbeta nära med restaurangoperatörer och ingenjörsteam.",
           "icon": "benchmarking",
@@ -2201,23 +2201,23 @@ export const generatedLocalCopy = {
           "department": "Försäljning",
           "location": "Flera platser",
           "type": "Full-time",
-          "description": "Driv införandet av Sundaes beslutsunderrättelseplattform bland företagsrestauranggrupper och hotellföretag. (Sundae)",
+          "description": "Driv införandet av Sundae:s beslutsunderrättelseplattform bland företagsrestauranggrupper och hotellföretag.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Customer Success Manager",
           "department": "Kundframgång",
-          "location": "Fjärrkontroll",
+          "location": "Distans",
           "type": "Full-time",
-          "description": "Hjälp restaurangoperatörer att maximera värdet från Sundaes plattform. Ge utbildning, stöd och strategisk vägledning. (Sundae)",
+          "description": "Hjälp restaurangoperatörer att maximera värdet från Sundae:s plattform. Ge utbildning, stöd och strategisk vägledning.",
           "icon": "success",
           "color": "bg-orange-600"
         },
         {
           "title": "Data Scientist - Restaurangintelligens",
           "department": "Datavetenskap",
-          "location": "Dubai, Förenade Arabemiraten / Fjärrkontroll",
+          "location": "Dubai, Förenade Arabemiraten / Distans",
           "type": "Full-time",
           "description": "Utveckla prediktiva modeller och anomalidetekteringssystem för restaurangdriftsdata.",
           "icon": "growth",
@@ -2226,11 +2226,11 @@ export const generatedLocalCopy = {
         {
           "title": "UX/UI Designer - SaaS-produkter",
           "department": "Design",
-          "location": "Toronto, Kanada / Fjärrkontroll",
+          "location": "Toronto, Kanada / Distans",
           "type": "Full-time",
           "description": "Designa intuitiva gränssnitt för vår beslutsunderrättelseplattform. Skapa vackra, operatörsvänliga upplevelser.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -2241,7 +2241,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Flexibelt arbete",
-          "description": "Avlägsen-först kultur med flexibla timmar och platser.",
+          "description": "Distansförst-kultur med flexibla arbetstider och platser.",
           "icon": "multiLocation"
         },
         {
@@ -2256,7 +2256,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Globalt team",
-          "description": "Arbeta med begåvade människor i Dubai, Toronto och avlägsna platser.",
+          "description": "Arbeta med begåvade människor i Dubai, Toronto och på distans.",
           "icon": "multiLocation"
         },
         {
@@ -2272,7 +2272,7 @@ export const generatedLocalCopy = {
           "icon": "marketing"
         },
         {
-          "title": "Siffror-backed",
+          "title": "Underbyggt av siffror",
           "description": "Vi låter data styra våra beslut och hjälper våra kunder att göra detsamma.",
           "icon": "benchmarking"
         },
@@ -2292,9 +2292,9 @@ export const generatedLocalCopy = {
       "badge": "আমাদের দলে যোগ দিন",
       "title": "সিদ্ধান্ত বুদ্ধিমত্তার ভবিষ্যত গড়ে তুলুন",
       "description": "আমরা একটি ছোট দল হচ্ছি যারা একগুঁয়ে আতিথেয়তা সমস্যা নিয়ে কাজ করছি: খণ্ডিত ডেটা এবং ধীরগতির সিদ্ধান্ত। আমাদের সাথে যোগ দিন.",
-      "heroPrimary": "ওপেন পজিশন দেখুন",
+      "heroPrimary": "শূন্য পদ দেখুন",
       "heroSecondary": "আমাদের পণ্য সম্পর্কে জানুন",
-      "openTitle": "বর্তমান খোলা",
+      "openTitle": "বর্তমান শূন্য পদসমূহ",
       "openDescription": "রেস্তোরাঁ দলগুলির জন্য আরও ভাল অপারেটিং বুদ্ধিমত্তা তৈরি করতে আমাদের সাহায্য করুন৷",
       "whyTitle": "কেন Sundae যোগদান?",
       "whyDescription": "আপনি এমন একটি দলের সাথে একটি বাস্তব অপারেটিং সমস্যা নিয়ে কাজ করবেন যা দরকারী কিছু তৈরি করার বিষয়ে যত্নশীল।",
@@ -2312,7 +2312,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "রেস্তোরাঁর সিদ্ধান্ত গ্রহণের জন্য উন্নত বুদ্ধিমত্তা মডেল তৈরি করুন। বড় আকারের ডেটা এবং মেশিন লার্নিং অ্যালগরিদম নিয়ে কাজ করুন।",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "পণ্য ব্যবস্থাপক - রেস্টুরেন্ট টেক",
@@ -2330,7 +2330,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "এন্টারপ্রাইজ রেস্তোরাঁ গোষ্ঠী এবং আতিথেয়তা সংস্থাগুলির মধ্যে Sundae-এর সিদ্ধান্তের বুদ্ধিমত্তা প্ল্যাটফর্ম গ্রহণ করুন।",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "কাস্টমার সাকসেস ম্যানেজার",
@@ -2357,7 +2357,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "আমাদের সিদ্ধান্ত বুদ্ধিমত্তা প্ল্যাটফর্মের জন্য স্বজ্ঞাত ইন্টারফেস ডিজাইন করুন। সুন্দর, অপারেটর-বান্ধব অভিজ্ঞতা তৈরি করুন।",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -2399,7 +2399,7 @@ export const generatedLocalCopy = {
           "icon": "marketing"
         },
         {
-          "title": "সংখ্যা-ব্যাকড",
+          "title": "সংখ্যা দ্বারা সমর্থিত",
           "description": "আমরা ডেটাকে আমাদের সিদ্ধান্তগুলিকে গাইড করতে এবং আমাদের গ্রাহকদের একই কাজ করতে সাহায্য করি।",
           "icon": "benchmarking"
         },
@@ -2417,29 +2417,29 @@ export const generatedLocalCopy = {
     },
     "th": {
       "badge": "เข้าร่วมทีมของเรา",
-      "title": "สร้างอนาคตของหน่วยสืบราชการลับในการตัดสินใจ",
+      "title": "สร้างอนาคตของระบบอัจฉริยะเพื่อการตัดสินใจ",
       "description": "เราเป็นทีมเล็กๆ ที่ทำงานเกี่ยวกับปัญหาการต้อนรับที่ดื้อรั้น: ข้อมูลกระจัดกระจายและการตัดสินใจที่ช้า เข้าร่วมกับเรา",
       "heroPrimary": "ดูตำแหน่งที่เปิด",
       "heroSecondary": "เรียนรู้เกี่ยวกับผลิตภัณฑ์ของเรา",
-      "openTitle": "การเปิดปัจจุบัน",
+      "openTitle": "ตำแหน่งที่เปิดรับ",
       "openDescription": "ช่วยเราสร้างข้อมูลการดำเนินงานที่ดีขึ้นสำหรับทีมร้านอาหาร",
       "whyTitle": "ทำไมต้องเข้าร่วม Sundae?",
       "whyDescription": "คุณจะได้แก้ไขปัญหาการปฏิบัติงานจริงร่วมกับทีมงานที่ใส่ใจในการสร้างสิ่งที่มีประโยชน์",
       "valuesTitle": "ค่านิยมของเรา",
-      "valuesDescription": "หลักการที่แนะนำทุกสิ่งที่เราทำที่Sundae",
+      "valuesDescription": "หลักการที่แนะนำทุกสิ่งที่เราทำที่ Sundae",
       "ctaTitle": "พร้อมที่จะสร้างผลกระทบแล้วหรือยัง?",
       "ctaDescription": "เข้าร่วมกับเราในการสร้างซอฟต์แวร์ที่ช่วยให้ทีมร้านอาหารตัดสินใจได้รวดเร็วและชัดเจนยิ่งขึ้น",
       "ctaPrimary": "ส่งเรซูเม่ของคุณ",
       "ctaSecondary": "เรียนรู้เกี่ยวกับผลิตภัณฑ์ของเรา",
       "positions": [
         {
-          "title": "วิศวกรซอฟต์แวร์อาวุโส - หน่วยสืบราชการลับ",
+          "title": "วิศวกรซอฟต์แวร์อาวุโส - Intelligence",
           "department": "วิศวกรรม",
           "location": "ดูไบ, สหรัฐอาหรับเอมิเรตส์ / ระยะไกล",
           "type": "Full-time",
           "description": "สร้างโมเดลอัจฉริยะขั้นสูงสำหรับการตัดสินใจเกี่ยวกับร้านอาหาร ทำงานกับข้อมูลขนาดใหญ่และอัลกอริธึมการเรียนรู้ของเครื่อง",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "ผู้จัดการผลิตภัณฑ์ - เทคโนโลยีร้านอาหาร",
@@ -2457,7 +2457,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "ขับเคลื่อนการนำแพลตฟอร์มข้อมูลการตัดสินใจของ Sundae ไปใช้ในกลุ่มร้านอาหารระดับองค์กรและบริษัทด้านการบริการ",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "ผู้จัดการความสำเร็จของลูกค้า",
@@ -2484,7 +2484,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "ออกแบบอินเทอร์เฟซที่ใช้งานง่ายสำหรับแพลตฟอร์มข้อมูลการตัดสินใจของเรา สร้างประสบการณ์ที่สวยงามและเป็นมิตรกับผู้ปฏิบัติงาน",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -2526,7 +2526,7 @@ export const generatedLocalCopy = {
           "icon": "marketing"
         },
         {
-          "title": "ตัวเลขสำรอง",
+          "title": "ขับเคลื่อนด้วยตัวเลข",
           "description": "เราปล่อยให้ข้อมูลเป็นแนวทางในการตัดสินใจของเราและช่วยให้ลูกค้าของเราทำเช่นเดียวกัน",
           "icon": "benchmarking"
         },
@@ -2548,7 +2548,7 @@ export const generatedLocalCopy = {
       "description": "Kami adalah pasukan kecil yang menangani masalah hospitaliti yang degil: data yang berpecah-belah dan keputusan yang perlahan. Sertai kami.",
       "heroPrimary": "Lihat Kedudukan Terbuka",
       "heroSecondary": "Ketahui Tentang Produk Kami",
-      "openTitle": "Pembukaan Semasa",
+      "openTitle": "Jawatan Kosong Semasa",
       "openDescription": "Bantu kami membina kecerdasan operasi yang lebih baik untuk pasukan restoran.",
       "whyTitle": "Mengapa Sertai Sundae?",
       "whyDescription": "Anda akan menyelesaikan masalah operasi sebenar dengan pasukan yang mengambil berat tentang membina sesuatu yang berguna.",
@@ -2560,20 +2560,20 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Ketahui Tentang Produk Kami",
       "positions": [
         {
-          "title": "Jurutera Perisian Kanan - Perisikan",
+          "title": "Jurutera Perisian Kanan - Intelligence",
           "department": "Kejuruteraan",
           "location": "Dubai, UAE / Jauh",
           "type": "Full-time",
           "description": "Bina model kecerdasan lanjutan untuk membuat keputusan restoran. Bekerja dengan data berskala besar dan algoritma pembelajaran mesin.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Pengurus Produk - Restaurant Tech",
-          "department": "produk",
+          "department": "Produk",
           "location": "Toronto, Kanada / Jauh",
           "type": "Full-time",
-          "description": "Tentukan strategi produk untuk platform risikan keputusan kami. Bekerjasama rapat dengan pengendali restoran dan pasukan kejuruteraan.",
+          "description": "Tentukan strategi produk untuk platform kepintaran keputusan kami. Bekerjasama rapat dengan pengendali restoran dan pasukan kejuruteraan.",
           "icon": "benchmarking",
           "color": "bg-green-600"
         },
@@ -2582,9 +2582,9 @@ export const generatedLocalCopy = {
           "department": "Jualan",
           "location": "Berbilang Lokasi",
           "type": "Full-time",
-          "description": "Dorong penggunaan platform risikan keputusan Sundae di kalangan kumpulan restoran perusahaan dan syarikat perhotelan.",
+          "description": "Dorong penggunaan platform kepintaran keputusan Sundae di kalangan kumpulan restoran perusahaan dan syarikat perhotelan.",
           "icon": "owners",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Pengurus Kejayaan Pelanggan",
@@ -2596,7 +2596,7 @@ export const generatedLocalCopy = {
           "color": "bg-orange-600"
         },
         {
-          "title": "Saintis Data - Perisikan Restoran",
+          "title": "Saintis Data - Restaurant Intelligence",
           "department": "Sains Data",
           "location": "Dubai, UAE / Jauh",
           "type": "Full-time",
@@ -2609,9 +2609,9 @@ export const generatedLocalCopy = {
           "department": "Reka bentuk",
           "location": "Toronto, Kanada / Jauh",
           "type": "Full-time",
-          "description": "Reka bentuk antara muka intuitif untuk platform risikan keputusan kami. Cipta pengalaman yang indah dan mesra pengendali.",
+          "description": "Reka bentuk antara muka intuitif untuk platform kepintaran keputusan kami. Cipta pengalaman yang indah dan mesra pengendali.",
           "icon": "canvas",
-          "color": "bg-indigo-600"
+          "color": "bg-[#FF5C4D]"
         }
       ],
       "benefits": [
@@ -2653,7 +2653,7 @@ export const generatedLocalCopy = {
           "icon": "marketing"
         },
         {
-          "title": "Disokong Nombor",
+          "title": "Disokong oleh Nombor",
           "description": "Kami membenarkan data membimbing keputusan kami dan membantu pelanggan kami melakukan perkara yang sama.",
           "icon": "benchmarking"
         },

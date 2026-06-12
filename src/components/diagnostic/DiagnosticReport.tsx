@@ -59,7 +59,7 @@ export function DiagnosticReport({ report, leadData, locale }: DiagnosticReportP
   const firstName = leadData.name.split(" ")[0] || "there";
   const [bookingState, setBookingState] = useState<"idle" | "loading" | "done">("idle");
 
-  // Auto-submit booking request — the prospect already gave us name, email,
+  // Auto-submit booking request - the prospect already gave us name, email,
   // phone, role, country via the diagnostic. No reason to ask again.
   // Posts to the same /api/cta/submit endpoint with source='diagnostic-call-request'
   // so sales workflow can prioritize these (high-intent, fully-qualified).
@@ -82,13 +82,13 @@ export function DiagnosticReport({ report, leadData, locale }: DiagnosticReportP
           message: `[Deep-dive call requested from diagnostic]
 Profile: ${report.profileLine}
 Recommended tier: ${report.tierFit}
-Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
+Top leak: ${report.topLeaks[0]?.title ?? "-"}`,
           metadata: { report, locale },
         }),
       });
       setBookingState("done");
     } catch {
-      // Even on error, show success — we'll catch it on the backend side.
+      // Even on error, show success - we'll catch it on the backend side.
       setBookingState("done");
     }
   };
@@ -103,9 +103,9 @@ Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
           transition={{ duration: 0.5 }}
           className="text-center mb-12"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[var(--electric-blue)]/12 border border-[var(--electric-blue)]/30 mb-4">
-            <Sparkles className="w-3.5 h-3.5 text-[var(--electric-blue)]" />
-            <span className="text-[11px] font-bold uppercase tracking-[0.16em] text-[var(--electric-blue)]">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[var(--warm-coral)]/12 border border-[var(--warm-coral)]/30 mb-4">
+            <Sparkles className="w-3.5 h-3.5 text-[var(--warm-coral)]" />
+            <span className="text-[11px] font-bold uppercase tracking-[0.16em] text-[var(--warm-coral)]">
               {copy.report.eyebrow}
             </span>
           </div>
@@ -122,7 +122,7 @@ Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1, duration: 0.5 }}
-          className="rounded-2xl bg-gradient-to-br from-[var(--electric-blue)]/8 to-transparent border border-[var(--electric-blue)]/30 p-6 md:p-8 mb-8"
+          className="rounded-2xl bg-gradient-to-br from-[var(--warm-coral)]/8 to-transparent border border-[var(--warm-coral)]/30 p-6 md:p-8 mb-8"
         >
           <p className="text-base md:text-lg text-[var(--text-primary)] leading-relaxed">
             {report.summary}
@@ -138,7 +138,7 @@ Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
             className="mb-10"
           >
             <div className="flex items-center gap-2 mb-4">
-              <TrendingUp className="w-5 h-5 text-[var(--electric-blue)]" />
+              <TrendingUp className="w-5 h-5 text-[var(--warm-coral)]" />
               <h2 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)]">
                 {copy.report.leaksTitle(report.topLeaks.length)}
               </h2>
@@ -150,10 +150,10 @@ Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.3 + i * 0.1, duration: 0.4 }}
-                  className="rounded-2xl bg-white/[0.025] border border-[var(--border-default)] p-5 hover:border-[var(--electric-blue)]/40 transition-colors"
+                  className="rounded-2xl bg-white/[0.025] border border-[var(--border-default)] p-5 hover:border-[var(--warm-coral)]/40 transition-colors"
                 >
                   <div className="flex items-center gap-2 mb-3">
-                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[var(--electric-blue)]/15 border border-[var(--electric-blue)]/30 text-[var(--electric-blue)] text-xs font-bold flex items-center justify-center">
+                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[var(--warm-coral)]/15 border border-[var(--warm-coral)]/30 text-[var(--warm-coral)] text-xs font-bold flex items-center justify-center">
                       {i + 1}
                     </span>
                     <span className={`text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full border ${impactBandStyle[leak.impactBand]}`}>
@@ -185,13 +185,13 @@ Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
           className="mb-10"
         >
           <div className="flex items-center gap-2 mb-4">
-            <Layers className="w-5 h-5 text-[var(--electric-blue)]" />
+            <Layers className="w-5 h-5 text-[var(--warm-coral)]" />
             <h2 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)]">
               {copy.report.recommendedStack}
             </h2>
           </div>
-          <div className="rounded-2xl border-2 border-dashed border-[var(--electric-blue)]/30 bg-[var(--electric-blue)]/[0.04] p-5 mb-4">
-            <p className="text-[11px] uppercase tracking-[0.16em] font-bold text-[var(--electric-blue)] mb-1">
+          <div className="rounded-2xl border-2 border-dashed border-[var(--warm-coral)]/30 bg-[var(--warm-coral)]/[0.04] p-5 mb-4">
+            <p className="text-[11px] uppercase tracking-[0.16em] font-bold text-[var(--warm-coral)] mb-1">
               {copy.report.tierFit}
             </p>
             <p className="text-lg font-bold text-[var(--text-primary)]">{report.tierFit}</p>
@@ -261,7 +261,7 @@ Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
           className="mb-12"
         >
           <div className="flex items-center gap-2 mb-4">
-            <Calendar className="w-5 h-5 text-[var(--electric-blue)]" />
+            <Calendar className="w-5 h-5 text-[var(--warm-coral)]" />
             <h2 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)]">
               {copy.report.planTitle}
             </h2>
@@ -275,9 +275,9 @@ Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
                 transition={{ delay: 0.8 + i * 0.1, duration: 0.4 }}
                 className="flex gap-4 items-start rounded-xl bg-white/[0.025] border border-[var(--border-default)] p-4"
               >
-                <div className="flex-shrink-0 w-14 h-14 rounded-xl bg-[var(--electric-blue)]/12 border border-[var(--electric-blue)]/30 flex flex-col items-center justify-center">
-                  <span className="text-lg font-bold text-[var(--electric-blue)] leading-none tabular-nums">{win.horizon}</span>
-                  <span className="text-[9px] uppercase text-[var(--electric-blue)]/70 tracking-wider">{copy.report.days}</span>
+                <div className="flex-shrink-0 w-14 h-14 rounded-xl bg-[var(--warm-coral)]/12 border border-[var(--warm-coral)]/30 flex flex-col items-center justify-center">
+                  <span className="text-lg font-bold text-[var(--warm-coral)] leading-none tabular-nums">{win.horizon}</span>
+                  <span className="text-[9px] uppercase text-[var(--warm-coral)]/70 tracking-wider">{copy.report.days}</span>
                 </div>
                 <div className="flex-1 min-w-0">
                   <h4 className="text-sm font-bold text-[var(--text-primary)] mb-1">{win.title}</h4>
@@ -288,7 +288,7 @@ Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
           </div>
         </motion.section>
 
-        {/* Economics — cost / savings / EBITDA / soft uplifts */}
+        {/* Economics - cost / savings / EBITDA / soft uplifts */}
         {report.economics && (
           <motion.section
             initial={{ opacity: 0, y: 20 }}
@@ -297,7 +297,7 @@ Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
             className="mb-10"
           >
             <div className="flex items-center gap-2 mb-1">
-              <Wallet className="w-5 h-5 text-[var(--electric-blue)]" />
+              <Wallet className="w-5 h-5 text-[var(--warm-coral)]" />
               <h2 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)]">
                 {copy.report.economicsTitle}
               </h2>
@@ -308,7 +308,7 @@ Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mb-3">
               {[
-                { icon: Wallet, tint: "text-[var(--electric-blue)]", ring: "border-[var(--electric-blue)]/25 bg-[var(--electric-blue)]/[0.05]", label: copy.report.monthlyCost, value: report.economics.monthlyCost.range, basis: report.economics.monthlyCost.basis },
+                { icon: Wallet, tint: "text-[var(--warm-coral)]", ring: "border-[var(--warm-coral)]/25 bg-[var(--warm-coral)]/[0.05]", label: copy.report.monthlyCost, value: report.economics.monthlyCost.range, basis: report.economics.monthlyCost.basis },
                 { icon: PiggyBank, tint: "text-emerald-300", ring: "border-emerald-500/25 bg-emerald-500/[0.05]", label: copy.report.monthlySavings, value: report.economics.monthlySavings.range, basis: report.economics.monthlySavings.basis },
                 { icon: TrendingUp, tint: "text-amber-300", ring: "border-amber-500/25 bg-amber-500/[0.05]", label: copy.report.ebitdaUplift, value: report.economics.ebitdaUplift.amountRange, basis: report.economics.ebitdaUplift.basis, sub: report.economics.ebitdaUplift.pctRange },
               ].map((c) => (
@@ -351,7 +351,7 @@ Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1, duration: 0.5 }}
-          className="rounded-3xl bg-gradient-to-br from-[var(--electric-blue)]/15 via-[var(--electric-blue)]/8 to-emerald-500/8 border border-[var(--electric-blue)]/30 p-6 md:p-10 text-center"
+          className="rounded-3xl bg-gradient-to-br from-[var(--warm-coral)]/15 via-[var(--warm-coral)]/8 to-emerald-500/8 border border-[var(--warm-coral)]/30 p-6 md:p-10 text-center"
         >
           <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)] mb-2 text-balance">
             {copy.report.ctaTitle}
@@ -366,7 +366,7 @@ Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
               className={`rounded-xl font-bold px-5 py-3 flex items-center justify-center gap-2 transition-all ${
                 bookingState === "done"
                   ? "bg-emerald-500/20 border-2 border-emerald-500/40 text-emerald-200"
-                  : "bg-[var(--electric-blue)] text-white hover:bg-[var(--electric-blue)]/90"
+                  : "bg-[var(--warm-coral)] text-white hover:bg-[var(--warm-coral)]/90"
               } disabled:cursor-default`}
             >
               {bookingState === "loading" ? (
@@ -390,14 +390,14 @@ Top leak: ${report.topLeaks[0]?.title ?? "—"}`,
               href={`https://pricing.sundae.io?email=${encodeURIComponent(leadData.email)}&name=${encodeURIComponent(leadData.name)}&company=${encodeURIComponent(leadData.company || "")}&country=${encodeURIComponent(leadData.country)}`}
               target="_blank"
               rel="noopener"
-              className="rounded-xl bg-white/[0.06] border-2 border-[var(--electric-blue)]/45 text-[var(--text-primary)] font-bold px-5 py-3 hover:bg-[var(--electric-blue)]/10 hover:border-[var(--electric-blue)]/75 transition-colors flex items-center justify-center gap-2"
+              className="rounded-xl bg-white/[0.06] border-2 border-[var(--warm-coral)]/45 text-[var(--text-primary)] font-bold px-5 py-3 hover:bg-[var(--warm-coral)]/10 hover:border-[var(--warm-coral)]/75 transition-colors flex items-center justify-center gap-2"
             >
               {copy.report.pricing}
               <ArrowRight className="w-4 h-4" />
             </Link>
             <Link
               href="/crew"
-              className="rounded-xl bg-white/[0.06] border-2 border-[var(--electric-blue)]/45 text-[var(--text-primary)] font-bold px-5 py-3 hover:bg-[var(--electric-blue)]/10 hover:border-[var(--electric-blue)]/75 transition-colors flex items-center justify-center gap-2"
+              className="rounded-xl bg-white/[0.06] border-2 border-[var(--warm-coral)]/45 text-[var(--text-primary)] font-bold px-5 py-3 hover:bg-[var(--warm-coral)]/10 hover:border-[var(--warm-coral)]/75 transition-colors flex items-center justify-center gap-2"
             >
               {copy.report.crewLite}
               <ArrowRight className="w-4 h-4" />

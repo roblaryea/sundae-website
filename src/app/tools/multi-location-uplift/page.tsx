@@ -213,7 +213,7 @@ export default function MultiLocationUpliftPage() {
   return (
     <div className="min-h-screen bg-[var(--navy-deep)] py-32 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
-        <Link href="/tools" className="inline-flex items-center text-[#60A5FA] hover:text-[#60A5FA] mb-6">
+        <Link href="/tools" className="inline-flex items-center text-[#FF8473] hover:text-[#FF8473] mb-6">
           ← {copy.back}
         </Link>
 
@@ -235,17 +235,17 @@ export default function MultiLocationUpliftPage() {
             <div className="space-y-6">
               <div>
                 <label className="block text-sm font-medium text-[var(--text-secondary)] mb-2">{copy.form.locationsLabel}</label>
-                <input type="number" value={locations} onChange={(e) => setLocations(e.target.value)} placeholder={copy.form.locationsPlaceholder} className="w-full px-4 py-3 border border-white/[0.1] rounded-lg focus:ring-2 focus:ring-blue-500" />
+                <input type="number" value={locations} onChange={(e) => setLocations(e.target.value)} placeholder={copy.form.locationsPlaceholder} className="w-full px-4 py-3 border border-white/[0.1] rounded-lg focus:ring-2 focus:ring-[#FF5C4D]" />
               </div>
 
               <div>
                 <label className="block text-sm font-medium text-[var(--text-secondary)] mb-2">{copy.form.revenueLabel}</label>
-                <input type="number" value={avgRevenue} onChange={(e) => setAvgRevenue(e.target.value)} placeholder={copy.form.revenuePlaceholder} className="w-full px-4 py-3 border border-white/[0.1] rounded-lg focus:ring-2 focus:ring-blue-500" />
+                <input type="number" value={avgRevenue} onChange={(e) => setAvgRevenue(e.target.value)} placeholder={copy.form.revenuePlaceholder} className="w-full px-4 py-3 border border-white/[0.1] rounded-lg focus:ring-2 focus:ring-[#FF5C4D]" />
               </div>
 
               <div>
                 <label className="block text-sm font-medium text-[var(--text-secondary)] mb-2">{copy.form.improvementLabel}</label>
-                <input type="number" value={targetImprovement} onChange={(e) => setTargetImprovement(e.target.value)} placeholder={copy.form.improvementPlaceholder} step="0.1" className="w-full px-4 py-3 border border-white/[0.1] rounded-lg focus:ring-2 focus:ring-blue-500" />
+                <input type="number" value={targetImprovement} onChange={(e) => setTargetImprovement(e.target.value)} placeholder={copy.form.improvementPlaceholder} step="0.1" className="w-full px-4 py-3 border border-white/[0.1] rounded-lg focus:ring-2 focus:ring-[#FF5C4D]" />
                 <p className="text-xs text-[var(--text-muted)] mt-1">{copy.form.tip}</p>
               </div>
 
@@ -261,7 +261,7 @@ export default function MultiLocationUpliftPage() {
             </CardHeader>
             <CardContent className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-[rgba(28,71,255,0.1)] rounded-lg p-6">
+                <div className="bg-[rgba(255,92,77,0.1)] rounded-lg p-6">
                   <div className="text-sm text-[var(--text-supporting)] mb-2">{copy.results.currentRevenue}</div>
                   <div className="section-h3 text-[var(--text-primary)]">${(result.totalRevenue / 1000000).toFixed(2)}M</div>
                 </div>
@@ -293,7 +293,7 @@ export default function MultiLocationUpliftPage() {
                 </ul>
               </div>
 
-              <div className="bg-[rgba(28,71,255,0.1)] rounded-lg p-4">
+              <div className="bg-[rgba(255,92,77,0.1)] rounded-lg p-4">
                 <p className="text-sm text-[var(--text-secondary)]">
                   <strong>{copy.results.note}</strong>
                 </p>

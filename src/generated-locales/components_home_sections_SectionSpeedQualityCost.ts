@@ -13,7 +13,7 @@ export const generatedLocalCopy = {
         {
           "label": "السرعة",
           "headline": "نشر في أيام. قرارات في ثوان.",
-          "body": "قم بتوصيل نظامك بسرعة. تحديثات Pulse خلال الوردية، وSundae Intelligence يجيب بالمصادر بدلاً من إرسال الفرق مرة أخرى إلى قائمة التقارير.",
+          "body": "اربط أنظمتك بسرعة. Pulse يُحدّث البيانات أثناء الوردية، وSundae Intelligence يجيب مع ذكر المصادر بدلاً من إعادة الفرق إلى طابور انتظار التقارير.",
           "chips": [
             "أيام للنشر",
             "تحديثات Core مباشرة",
@@ -43,9 +43,9 @@ export const generatedLocalCopy = {
       ]
     },
     "fr": {
-      "eyebrow": "L'ANCIEN COMPROMIS EST MORT",
+      "eyebrow": "LE FAUX DILEMME, C'EST FINI",
       "headline": "Rapide. Précis. Abordable. Choisissez les trois.",
-      "description": "Les restaurants devaient choisir entre la vitesse, la qualité et le coût. Sundae a été conçu pour offrir les trois en même temps — c'est tout l'objectif.",
+      "description": "Obtenir une vraie intelligence pour restaurants, c'était un compromis : rapide à déployer, vraiment bon, ou assez abordable pour se justifier. On en prenait deux. Sundae a été conçu pour livrer les trois d'un coup - c'est tout l'intérêt.",
       "oldRule": "Ancienne règle : choisissez deux",
       "sundaeRule": "↓  Règle Sundae : choisissez les trois",
       "closing": "Ce n'est pas un compromis. C'est votre avantage opérationnel.",
@@ -62,12 +62,12 @@ export const generatedLocalCopy = {
         },
         {
           "label": "Qualité",
-          "headline": "Conçu pour les restaurants. Régulé pour les décisions.",
-          "body": "Sundae est livré avec plus de 500 modèles de données de restaurants régulés, des benchmarks ancrés par les pairs, et des réponses AI citées par des sources — ainsi, les équipes ne partent pas d'une toile vierge de BI.",
+          "headline": "Conçu pour les restaurants. Gouverné pour les décisions.",
+          "body": "Sundae est livré avec plus de 500 modèles de données de restaurants gouvernés, des benchmarks ancrés sur les pairs et des réponses AI sourcées - ainsi, les équipes ne partent pas d'une page blanche de BI.",
           "chips": [
             "Plus de 500 modèles",
-            "AI cité par des sources",
-            "Benchmarks par les pairs"
+            "AI sourcée",
+            "Benchmarks entre pairs"
           ]
         },
         {
@@ -83,9 +83,9 @@ export const generatedLocalCopy = {
       ]
     },
     "es": {
-      "eyebrow": "EL VIEJO COMPROMISO HA MUERTO",
+      "eyebrow": "SE ACABÓ LA FALSA DISYUNTIVA",
       "headline": "Rápido. Correcto. Asequible. Elige los tres.",
-      "description": "Los restaurantes solían elegir entre velocidad, calidad y costo. Sundae fue creado para ofrecer los tres a la vez — ese es el objetivo.",
+      "description": "Tener inteligencia de restaurantes de verdad solía implicar una renuncia: rápido de implementar, genuinamente bueno o lo bastante asequible para justificarlo. Elegías dos. Sundae se creó para entregar los tres a la vez - ese es justamente el punto.",
       "oldRule": "Regla antigua: elige dos",
       "sundaeRule": "↓  Regla Sundae: elige los tres",
       "closing": "Eso no es un compromiso. Esa es tu ventaja operativa.",
@@ -93,7 +93,7 @@ export const generatedLocalCopy = {
         {
           "label": "Velocidad",
           "headline": "Despliega en días. Decide en segundos.",
-          "body": "Conecta tu stack rápidamente. Actualizaciones de Pulse durante el turno, y Sundae Intelligence responde con fuentes en lugar de enviar equipos de vuelta a la cola de informes.",
+          "body": "Conecta tu stack rápidamente. Pulse se actualiza durante el turno y Sundae Intelligence responde citando fuentes en lugar de devolver a los equipos a la cola de informes.",
           "chips": [
             "Días para desplegar",
             "Actualización en vivo de Core",
@@ -103,11 +103,11 @@ export const generatedLocalCopy = {
         {
           "label": "Calidad",
           "headline": "Construido para restaurantes. Gobernado para decisiones.",
-          "body": "Sundae incluye más de 500 modelos de datos de restaurantes gobernados, benchmarks anclados en pares y respuestas de IA citadas por fuentes — así que los equipos no están construyendo desde un lienzo en blanco de BI.",
+          "body": "Sundae incluye más de 500 modelos de datos de restaurante gobernados, benchmarks anclados en datos de pares y respuestas de IA con fuentes citadas - así los equipos no parten de un lienzo de BI en blanco.",
           "chips": [
             "Más de 500 modelos",
-            "IA citada por fuentes",
-            "Benchmarks de pares"
+            "IA con fuentes citadas",
+            "Benchmarks entre pares"
           ]
         },
         {
@@ -123,9 +123,9 @@ export const generatedLocalCopy = {
       ]
     },
     "de": {
-      "eyebrow": "DER ALTE KOMPROMISS IST TOT",
+      "eyebrow": "DIE FALSCHE WAHL IST VORBEI",
       "headline": "Schnell. Richtig. Bezahlbar. Wählen Sie alle drei.",
-      "description": "Restaurants mussten früher zwischen Geschwindigkeit, Qualität und Kosten wählen. Sundae wurde entwickelt, um alle drei gleichzeitig zu liefern – das ist der ganze Punkt.",
+      "description": "Echte Restaurant-Intelligenz zu bekommen, war früher ein Kompromiss - schnell startklar, wirklich gut oder günstig genug, um sich zu rechnen. Man nahm zwei davon. Sundae wurde gebaut, um alle drei auf einmal zu liefern - genau darum geht es.",
       "oldRule": "Alte Regel: Wählen Sie zwei",
       "sundaeRule": "↓  Sundae-Regel: Wählen Sie alle drei",
       "closing": "Das ist kein Kompromiss. Das ist Ihr Betriebsvorteil.",
@@ -142,12 +142,12 @@ export const generatedLocalCopy = {
         },
         {
           "label": "Qualität",
-          "headline": "Für Restaurants gebaut. Für Entscheidungen geregelt.",
-          "body": "Sundae wird mit über 500 geregelten Restaurantdatenmodellen, peer-gestützten Benchmarks und quellenzitierten KI-Antworten geliefert – sodass Teams nicht von einer leeren BI-Leinwand aus arbeiten müssen.",
+          "headline": "Für Restaurants gebaut. Für Entscheidungen aufbereitet.",
+          "body": "Sundae bringt über 500 kuratierte Restaurant-Datenmodelle, branchenweite Vergleichswerte und KI-Antworten mit Quellenangabe mit - so müssen Teams nicht bei einer leeren BI-Leinwand anfangen.",
           "chips": [
             "Über 500 Modelle",
-            "Quellenzitierte KI",
-            "Peer-Benchmarks"
+            "KI mit Quellenangabe",
+            "Branchen-Benchmarks"
           ]
         },
         {
@@ -163,9 +163,9 @@ export const generatedLocalCopy = {
       ]
     },
     "nl": {
-      "eyebrow": "DE OUDE AFWEGING IS DOOD",
+      "eyebrow": "DE VALSE KEUZE IS VOORBIJ",
       "headline": "Snel. Juist. Betaalbaar. Kies ze allemaal.",
-      "description": "Restaurants moesten kiezen tussen snelheid, kwaliteit en kosten. Sundae is ontworpen om alle drie tegelijk te leveren — dat is het hele punt.",
+      "description": "Echte restaurant-intelligentie kreeg je vroeger alleen met een afweging - snel uitrolbaar, écht goed, of betaalbaar genoeg om te verantwoorden. Je koos er twee. Sundae is gebouwd om alle drie tegelijk te leveren - dat is precies de bedoeling.",
       "oldRule": "Oude regel: kies er twee",
       "sundaeRule": "↓  Sundae regel: kies ze allemaal",
       "closing": "Dat is geen afweging. Dat is jouw operationeel voordeel.",
@@ -183,7 +183,7 @@ export const generatedLocalCopy = {
         {
           "label": "Kwaliteit",
           "headline": "Gebouwd voor restaurants. Beheerd voor beslissingen.",
-          "body": "Sundae wordt geleverd met 500+ beheerde restaurantdatamodellen, peer-gebaseerde benchmarks en bronvermelde AI-antwoorden — zodat teams niet vanaf een blanco BI-canvas hoeven te bouwen.",
+          "body": "Sundae wordt geleverd met 500+ beheerde restaurantdatamodellen, peer-gebaseerde benchmarks en bronvermelde AI-antwoorden - zodat teams niet vanaf een blanco BI-canvas hoeven te bouwen.",
           "chips": [
             "500+ modellen",
             "Bronvermelde AI",
@@ -203,9 +203,9 @@ export const generatedLocalCopy = {
       ]
     },
     "pt": {
-      "eyebrow": "A VELHA TROCA MORREU",
+      "eyebrow": "A FALSA ESCOLHA ACABOU",
       "headline": "Rápido. Certo. Acessível. Escolha os três.",
-      "description": "Os restaurantes costumavam escolher entre velocidade, qualidade e custo. A Sundae foi criada para oferecer os três ao mesmo tempo — esse é o objetivo.",
+      "description": "Ter inteligência de restaurante de verdade significava abrir mão de algo - rápido de implantar, genuinamente bom ou barato o bastante para se justificar. Você escolhia dois. A Sundae foi criada para entregar os três de uma vez - é exatamente esse o ponto.",
       "oldRule": "Regra antiga: escolha dois",
       "sundaeRule": "↓ Regra Sundae: escolha os três",
       "closing": "Isso não é uma troca. Essa é sua vantagem operacional.",
@@ -213,7 +213,7 @@ export const generatedLocalCopy = {
         {
           "label": "Velocidade",
           "headline": "Implante em dias. Decida em segundos.",
-          "body": "Conecte sua pilha rapidamente. Atualizações em tempo real durante o turno, e a Sundae Intelligence responde com fontes em vez de enviar equipes de volta para a fila de relatórios. (Pulse)",
+          "body": "Conecte seu stack rapidamente. O Pulse atualiza durante o turno e a Sundae Intelligence responde citando fontes em vez de devolver as equipes para a fila de relatórios.",
           "chips": [
             "Dias para implantar",
             "Atualização ao vivo do Core",
@@ -223,7 +223,7 @@ export const generatedLocalCopy = {
         {
           "label": "Qualidade",
           "headline": "Construído para restaurantes. Governado para decisões.",
-          "body": "A Sundae vem com mais de 500 modelos de dados de restaurantes governados, benchmarks ancorados por pares e respostas de IA citadas por fontes — para que as equipes não construam a partir de uma tela em branco de BI.",
+          "body": "A Sundae vem com mais de 500 modelos de dados de restaurantes governados, benchmarks ancorados por pares e respostas de IA citadas por fontes - para que as equipes não construam a partir de uma tela em branco de BI.",
           "chips": [
             "Mais de 500 modelos",
             "IA citada por fontes",
@@ -243,9 +243,9 @@ export const generatedLocalCopy = {
       ]
     },
     "hi": {
-      "eyebrow": "पुराना ट्रेडऑफ खत्म हो गया है",
+      "eyebrow": "झूठा विकल्प अब खत्म हुआ",
       "headline": "तेज़। सही। किफायती। तीनों चुनें।",
-      "description": "रेस्टोरेंट्स को गति, गुणवत्ता और लागत के बीच चयन करना पड़ता था। Sundae को तीनों एक साथ प्रदान करने के लिए बनाया गया था — यही पूरा उद्देश्य है।",
+      "description": "असली रेस्टोरेंट इंटेलिजेंस पाने का मतलब हमेशा एक समझौता होता था - तेज़ी से लागू, सचमुच अच्छा, या इतना किफायती कि खर्च जायज़ लगे। दो ही चुन पाते थे। Sundae को तीनों एक साथ देने के लिए बनाया गया है - बात बस यही है।",
       "oldRule": "पुराना नियम: दो चुनें",
       "sundaeRule": "↓  Sundae नियम: तीनों चुनें",
       "closing": "यह कोई ट्रेडऑफ नहीं है। यह आपका संचालन लाभ है।",
@@ -253,7 +253,7 @@ export const generatedLocalCopy = {
         {
           "label": "गति",
           "headline": "दिनों में तैनात करें। सेकंड में निर्णय लें।",
-          "body": "अपने स्टैक को तेजी से कनेक्ट करें। शिफ्ट के दौरान Pulse अपडेट करें, और Sundae Intelligence स्रोतों के साथ जवाब देती है बजाय टीमों को रिपोर्ट कतार में वापस भेजने के।",
+          "body": "अपने स्टैक को तेज़ी से कनेक्ट करें। Pulse शिफ्ट के दौरान अपडेट होता रहता है, और Sundae Intelligence टीमों को रिपोर्ट की कतार में वापस भेजने के बजाय स्रोतों के साथ जवाब देता है।",
           "chips": [
             "तैनाती के लिए दिन",
             "लाइव कोर रिफ्रेश",
@@ -263,7 +263,7 @@ export const generatedLocalCopy = {
         {
           "label": "गुणवत्ता",
           "headline": "रेस्टोरेंट्स के लिए बनाया गया। निर्णयों के लिए शासित।",
-          "body": "Sundae 500+ शासित रेस्टोरेंट डेटा मॉडल, समकक्ष बेंचमार्क और स्रोत-उल्लेखित AI उत्तरों के साथ आता है — ताकि टीमें एक खाली BI कैनवास से न बनाएं।",
+          "body": "Sundae 500+ शासित रेस्टोरेंट डेटा मॉडल, समकक्ष बेंचमार्क और स्रोत-उल्लेखित AI उत्तरों के साथ आता है - ताकि टीमें एक खाली BI कैनवास से न बनाएं।",
           "chips": [
             "500+ मॉडल",
             "स्रोत-उल्लेखित AI",
@@ -283,9 +283,9 @@ export const generatedLocalCopy = {
       ]
     },
     "ur": {
-      "eyebrow": "پرانا سمجھوتہ ختم ہو چکا ہے",
-      "headline": "تیز۔ درست۔ سستا۔ تینوں میں سے کوئی بھی منتخب کریں۔",
-      "description": "ریستوران پہلے رفتار، معیار، اور قیمت کے درمیان انتخاب کرتے تھے۔ Sundae کو تینوں کو ایک ساتھ فراہم کرنے کے لیے بنایا گیا تھا — یہی اصل مقصد ہے۔",
+      "eyebrow": "جھوٹا انتخاب اب ختم ہو چکا ہے",
+      "headline": "تیز۔ درست۔ سستا۔ تینوں منتخب کریں۔",
+      "description": "اصل ریستوران انٹیلی جنس حاصل کرنے کا مطلب ہمیشہ ایک سمجھوتہ ہوتا تھا - تیزی سے نافذ، واقعی اچھا، یا اتنا سستا کہ خرچ جائز لگے۔ صرف دو ہی منتخب کر پاتے تھے۔ Sundae کو تینوں ایک ساتھ دینے کے لیے بنایا گیا ہے - بس یہی پوری بات ہے۔",
       "oldRule": "پرانا اصول: دو منتخب کریں",
       "sundaeRule": "↓  Sundae اصول: تینوں منتخب کریں",
       "closing": "یہ کوئی سمجھوتہ نہیں ہے۔ یہ آپ کا آپریٹنگ فائدہ ہے۔",
@@ -303,7 +303,7 @@ export const generatedLocalCopy = {
         {
           "label": "معیار",
           "headline": "ریستورانوں کے لیے بنایا گیا۔ فیصلوں کے لیے منظم۔",
-          "body": "Sundae 500+ منظم ریستورانی ڈیٹا ماڈلز، ہم مرتبہ کی بنیاد پر بینچ مارکس، اور ماخذ کے حوالے سے AI جوابات کے ساتھ آتا ہے — تاکہ ٹیمیں خالی BI کینوس سے تعمیر نہ کریں۔",
+          "body": "Sundae 500+ منظم ریستورانی ڈیٹا ماڈلز، ہم مرتبہ کی بنیاد پر بینچ مارکس، اور ماخذ کے حوالے سے AI جوابات کے ساتھ آتا ہے - تاکہ ٹیمیں خالی BI کینوس سے تعمیر نہ کریں۔",
           "chips": [
             "500+ ماڈلز",
             "ماخذ کے حوالے سے AI",
@@ -323,9 +323,9 @@ export const generatedLocalCopy = {
       ]
     },
     "it": {
-      "eyebrow": "IL VECCHIO COMPROMESSO È MORTO",
+      "eyebrow": "LA FALSA SCELTA È FINITA",
       "headline": "Veloce. Giusto. Economico. Scegli tutti e tre.",
-      "description": "I ristoranti dovevano scegliere tra velocità, qualità e costo. Sundae è stato progettato per offrire tutti e tre contemporaneamente — questo è il punto principale.",
+      "description": "Avere una vera intelligence per ristoranti significava un compromesso - veloce da attivare, davvero valida o abbastanza economica da giustificarsi. Ne sceglievi due. Sundae è stato creato per offrirti tutti e tre insieme - è esattamente questo il punto.",
       "oldRule": "Regola vecchia: scegli due",
       "sundaeRule": "↓  Regola Sundae: scegli tutti e tre",
       "closing": "Non è un compromesso. È il tuo vantaggio operativo.",
@@ -343,7 +343,7 @@ export const generatedLocalCopy = {
         {
           "label": "Qualità",
           "headline": "Progettato per i ristoranti. Governato per le decisioni.",
-          "body": "Sundae viene fornito con oltre 500 modelli di dati governati per ristoranti, benchmark ancorati tra pari e risposte AI citate da fonti — così i team non devono partire da una tela BI vuota.",
+          "body": "Sundae viene fornito con oltre 500 modelli di dati governati per ristoranti, benchmark ancorati tra pari e risposte AI citate da fonti - così i team non devono partire da una tela BI vuota.",
           "chips": [
             "Oltre 500 modelli",
             "AI citata da fonti",
@@ -363,9 +363,9 @@ export const generatedLocalCopy = {
       ]
     },
     "pl": {
-      "eyebrow": "STARA ZASADA JEST MARTWA",
+      "eyebrow": "FAŁSZYWY WYBÓR SIĘ SKOŃCZYŁ",
       "headline": "Szybko. Dokładnie. Przystępnie. Wybierz wszystkie trzy.",
-      "description": "Restauracje wcześniej musiały wybierać między szybkością, jakością a kosztem. Sundae zostało stworzone, aby dostarczać wszystkie trzy jednocześnie — to jest cały sens.",
+      "description": "Prawdziwa inteligencja dla restauracji zawsze oznaczała kompromis - szybkie wdrożenie, naprawdę dobra jakość albo cena na tyle niska, by się opłacała. Wybierałeś dwie. Sundae powstało, by dostarczyć wszystkie trzy naraz - i o to właśnie chodzi.",
       "oldRule": "Stara zasada: wybierz dwa",
       "sundaeRule": "↓  Zasada Sundae: wybierz wszystkie trzy",
       "closing": "To nie jest kompromis. To twoja przewaga operacyjna.",
@@ -373,21 +373,21 @@ export const generatedLocalCopy = {
         {
           "label": "Szybkość",
           "headline": "Wdrożenie w ciągu dni. Decyzje w ciągu sekund.",
-          "body": "Szybko połącz swoją infrastrukturę. Aktualizacje Pulse w trakcie zmiany, a Sundae Intelligence odpowiada z źródłami zamiast wysyłać zespoły z powrotem do kolejki raportów.",
+          "body": "Szybko połącz swoją infrastrukturę. Pulse aktualizuje dane w trakcie zmiany, a Sundae Intelligence odpowiada ze źródłami, zamiast odsyłać zespoły z powrotem do kolejki raportów.",
           "chips": [
             "Dni do wdrożenia",
-            "Na żywo odświeżenie Core",
+            "Odświeżanie Core na żywo",
             "Odpowiedzi w sekundach"
           ]
         },
         {
           "label": "Jakość",
           "headline": "Stworzone dla restauracji. Zarządzane dla decyzji.",
-          "body": "Sundae dostarcza 500+ zarządzanych modeli danych restauracyjnych, benchmarki oparte na rówieśnikach i odpowiedzi AI z cytatami źródłowymi — dzięki czemu zespoły nie budują z pustego płótna BI.",
+          "body": "Sundae dostarcza ponad 500 zarządzanych modeli danych restauracyjnych, benchmarki oparte na danych innych restauracji i odpowiedzi AI z podaniem źródeł - dzięki czemu zespoły nie zaczynają od pustej kartki BI.",
           "chips": [
-            "500+ modeli",
-            "AI z cytatami źródłowymi",
-            "Benchmarki rówieśników"
+            "Ponad 500 modeli",
+            "AI z podaniem źródeł",
+            "Benchmarki branżowe"
           ]
         },
         {
@@ -403,9 +403,9 @@ export const generatedLocalCopy = {
       ]
     },
     "tr": {
-      "eyebrow": "ESKİ TİCARET DENGESİ ÖLDÜ",
+      "eyebrow": "SAHTE TERCİH ARTIK SONA ERDİ",
       "headline": "Hızlı. Doğru. Uygun fiyatlı. Üçünü de seçin.",
-      "description": "Restoranlar hız, kalite ve maliyet arasında seçim yapmak zorundaydı. Sundae, üçünü birden sunmak için tasarlandı — bu, tüm amacın ta kendisi.",
+      "description": "Gerçek restoran zekâsına sahip olmak hep bir ödünleşme demekti - hızlı kurulan, gerçekten iyi ya da masrafını haklı çıkaracak kadar uygun. İkisini seçerdiniz. Sundae üçünü birden sunmak için kuruldu - bütün mesele de bu.",
       "oldRule": "Eski kural: iki tanesini seçin",
       "sundaeRule": "↓  Sundae kuralı: üçünü de seçin",
       "closing": "Bu bir denge değil. Bu, işletme avantajınızdır.",
@@ -413,7 +413,7 @@ export const generatedLocalCopy = {
         {
           "label": "Hız",
           "headline": "Günler içinde dağıtım. Saniyeler içinde karar verin.",
-          "body": "Yığınınızı hızlı bir şekilde bağlayın. Vardiya boyunca Pulse güncellemeleri yapın ve Sundae Intelligence, ekipleri rapor kuyruğuna geri göndermek yerine kaynaklarla yanıt verir.",
+          "body": "Sisteminizi hızlıca bağlayın. Pulse vardiya boyunca güncellenir ve Sundae Intelligence, ekipleri rapor kuyruğuna geri göndermek yerine kaynak göstererek yanıt verir.",
           "chips": [
             "Dağıtım için günler",
             "Canlı Core güncellemesi",
@@ -422,8 +422,8 @@ export const generatedLocalCopy = {
         },
         {
           "label": "Kalite",
-          "headline": "Restoranlar için tasarlandı. Kararlar için yönetildi.",
-          "body": "Sundae, 500'dan fazla yönetilen restoran veri modeli, akran destekli kıyaslamalar ve kaynak belirtilmiş AI yanıtları ile birlikte gelir — böylece ekipler boş bir BI tuvali üzerinden inşa etmek zorunda kalmazlar.",
+          "headline": "Restoranlar için tasarlandı. Kararlar için düzenlendi.",
+          "body": "Sundae, 500'dan fazla yönetilen restoran veri modeli, akran destekli kıyaslamalar ve kaynak belirtilmiş AI yanıtları ile birlikte gelir - böylece ekipler boş bir BI tuvali üzerinden inşa etmek zorunda kalmazlar.",
           "chips": [
             "500+ model",
             "Kaynak belirtilmiş AI",
@@ -443,9 +443,9 @@ export const generatedLocalCopy = {
       ]
     },
     "zh-Hans": {
-      "eyebrow": "旧的权衡已死",
+      "eyebrow": "非此即彼的伪命题已成过去",
       "headline": "快速。准确。实惠。三者兼得。",
-      "description": "餐厅曾经在速度、质量和成本之间做出选择。Sundae 的目标是同时提供三者——这就是全部意义所在。",
+      "description": "过去要拿到真正的餐厅智能，总得有所取舍--上线够快、确实好用，或便宜到值回票价。三者只能挑两样。Sundae 从一开始就是为同时交付这三者而打造的--这正是它存在的意义。",
       "oldRule": "旧规则：选择两个",
       "sundaeRule": "↓  Sundae 规则：三者兼得",
       "closing": "这不是权衡。这是你的运营优势。",
@@ -453,7 +453,7 @@ export const generatedLocalCopy = {
         {
           "label": "速度",
           "headline": "几天内部署。几秒内决策。",
-          "body": "快速连接你的技术栈。在班次中实时更新，Sundae Intelligence 提供来源而不是将团队送回报告队列。 (Pulse)",
+          "body": "快速连接你的技术栈。Pulse 在班次进行中实时更新，Sundae Intelligence 引用来源作答，而不是把团队打回报告队列继续排队。",
           "chips": [
             "几天部署",
             "实时 Core 刷新",
@@ -463,7 +463,7 @@ export const generatedLocalCopy = {
         {
           "label": "质量",
           "headline": "为餐厅而建。为决策而管控。",
-          "body": "Sundae 配备 500+ 个受管控的餐厅数据模型、同行基准和来源引用的 AI 答案——这样团队就不必从空白的 BI 画布开始构建。",
+          "body": "Sundae 配备 500+ 个受管控的餐厅数据模型、同行基准和来源引用的 AI 答案--这样团队就不必从空白的 BI 画布开始构建。",
           "chips": [
             "500+ 模型",
             "来源引用的 AI",
@@ -483,9 +483,9 @@ export const generatedLocalCopy = {
       ]
     },
     "ja": {
-      "eyebrow": "古いトレードオフは終わった",
+      "eyebrow": "二者択一という幻想は終わった",
       "headline": "速い。正確。手頃。すべてを選ぼう。",
-      "description": "レストランは以前、スピード、品質、コストのどれかを選ばなければなりませんでした。Sundaeは、これらすべてを同時に提供するために作られました — それが全てのポイントです。",
+      "description": "本物のレストラン・インテリジェンスを手に入れるには、これまで何かを諦めるしかありませんでした--導入が速い、本当に使える、あるいはコストに見合うほど手頃か。選べるのは二つまで。Sundaeは、その三つを一度に届けるために作られました--それこそが核心です。",
       "oldRule": "古いルール：2つを選ぶ",
       "sundaeRule": "↓  Sundaeのルール：すべてを選ぶ",
       "closing": "それはトレードオフではありません。それがあなたの運営上の優位性です。",
@@ -523,9 +523,9 @@ export const generatedLocalCopy = {
       ]
     },
     "ko": {
-      "eyebrow": "구식 트레이드오프는 끝났다",
+      "eyebrow": "잘못된 양자택일은 끝났습니다",
       "headline": "빠르고, 정확하며, 저렴합니다. 세 가지 모두 선택하세요.",
-      "description": "레스토랑은 속도, 품질 및 비용 중에서 선택해야 했습니다. Sundae는 이 세 가지를 동시에 제공하기 위해 만들어졌습니다 — 그것이 바로 핵심입니다.",
+      "description": "진짜 레스토랑 인텔리전스를 얻으려면 늘 무언가를 포기해야 했습니다 - 빠른 도입, 정말 좋은 품질, 아니면 값을 치를 만큼 저렴한 비용. 둘만 고를 수 있었죠. Sundae는 이 셋을 한 번에 제공하기 위해 만들어졌습니다 - 그것이 핵심의 전부입니다.",
       "oldRule": "구식 규칙: 두 가지 선택",
       "sundaeRule": "↓  Sundae 규칙: 세 가지 모두 선택",
       "closing": "이것은 트레이드오프가 아닙니다. 이것이 귀하의 운영 우위입니다.",
@@ -533,7 +533,7 @@ export const generatedLocalCopy = {
         {
           "label": "속도",
           "headline": "며칠 내에 배포. 몇 초 내에 결정.",
-          "body": "빠르게 스택을 연결하세요. 교대 근무 중에 Pulse 업데이트를 통해 Sundae Intelligence가 팀을 보고 대기열로 다시 보내는 대신 출처로 답변합니다.",
+          "body": "스택을 빠르게 연결하세요. Pulse는 교대 근무 중에도 실시간으로 갱신되고, Sundae Intelligence는 팀을 보고서 대기열로 돌려보내는 대신 출처와 함께 답변합니다.",
           "chips": [
             "배포까지 며칠",
             "실시간 Core 새로 고침",
@@ -543,7 +543,7 @@ export const generatedLocalCopy = {
         {
           "label": "품질",
           "headline": "레스토랑을 위해 구축되었습니다. 결정을 위해 관리됩니다.",
-          "body": "Sundae는 500개 이상의 관리된 레스토랑 데이터 모델, 동료 기반 벤치마크 및 출처 인용 AI 답변을 제공합니다 — 따라서 팀은 빈 BI 캔버스에서 시작하지 않습니다.",
+          "body": "Sundae는 500개 이상의 관리된 레스토랑 데이터 모델, 동료 기반 벤치마크 및 출처 인용 AI 답변을 제공합니다 - 따라서 팀은 빈 BI 캔버스에서 시작하지 않습니다.",
           "chips": [
             "500개 이상의 모델",
             "출처 인용 AI",
@@ -563,9 +563,9 @@ export const generatedLocalCopy = {
       ]
     },
     "id": {
-      "eyebrow": "KOMPROMI LAMA SUDAH MATI",
+      "eyebrow": "PILIHAN PALSU ITU SUDAH BERAKHIR",
       "headline": "Cepat. Tepat. Terjangkau. Pilih ketiganya.",
-      "description": "Restoran dulu harus memilih antara kecepatan, kualitas, dan biaya. Sundae dirancang untuk memberikan ketiganya sekaligus — itulah inti dari produk ini.",
+      "description": "Dulu, mendapatkan intelijen restoran yang sesungguhnya selalu berarti berkompromi - cepat diterapkan, benar-benar bagus, atau cukup terjangkau agar sepadan. Anda hanya bisa memilih dua. Sundae dibangun untuk memberikan ketiganya sekaligus - justru itulah intinya.",
       "oldRule": "Aturan lama: pilih dua",
       "sundaeRule": "↓  Aturan Sundae: pilih ketiganya",
       "closing": "Itu bukan kompromi. Itu adalah keunggulan operasional Anda.",
@@ -583,7 +583,7 @@ export const generatedLocalCopy = {
         {
           "label": "Kualitas",
           "headline": "Dibangun untuk restoran. Dikelola untuk keputusan.",
-          "body": "Sundae dilengkapi dengan 500+ model data restoran yang dikelola, tolok ukur yang terhubung dengan rekan, dan jawaban AI yang bersumber — sehingga tim tidak membangun dari kanvas BI yang kosong.",
+          "body": "Sundae dilengkapi dengan 500+ model data restoran yang dikelola, tolok ukur yang terhubung dengan rekan, dan jawaban AI yang bersumber - sehingga tim tidak membangun dari kanvas BI yang kosong.",
           "chips": [
             "500+ model",
             "AI bersumber",
@@ -603,9 +603,9 @@ export const generatedLocalCopy = {
       ]
     },
     "vi": {
-      "eyebrow": "SỰ TRAO ĐỔI CŨ ĐÃ CHẾT",
+      "eyebrow": "LỰA CHỌN ĐÁNH ĐỔI SAI LẦM ĐÃ CHẤM DỨT",
       "headline": "Nhanh. Đúng. Phải chăng. Chọn cả ba.",
-      "description": "Các nhà hàng trước đây phải chọn giữa tốc độ, chất lượng và chi phí. Sundae được xây dựng để cung cấp cả ba cùng một lúc — đó là toàn bộ ý nghĩa.",
+      "description": "Trước đây, để có trí tuệ nhà hàng thực thụ luôn phải đánh đổi - triển khai nhanh, thật sự tốt, hoặc đủ rẻ để xứng đáng. Bạn chỉ chọn được hai. Sundae được xây dựng để mang lại cả ba cùng lúc - đó chính là điều cốt lõi.",
       "oldRule": "Quy tắc cũ: chọn hai",
       "sundaeRule": "↓  Quy tắc Sundae: chọn cả ba",
       "closing": "Đó không phải là sự trao đổi. Đó là lợi thế hoạt động của bạn.",
@@ -613,7 +613,7 @@ export const generatedLocalCopy = {
         {
           "label": "Tốc độ",
           "headline": "Triển khai trong vài ngày. Quyết định trong vài giây.",
-          "body": "Kết nối nhanh chóng với hệ thống của bạn. Cập nhật liên tục trong ca làm việc, và Sundae Intelligence trả lời với các nguồn thay vì gửi đội ngũ quay lại hàng đợi báo cáo. (Pulse)",
+          "body": "Kết nối hệ thống của bạn nhanh chóng. Pulse cập nhật liên tục ngay trong ca làm việc, và Sundae Intelligence trả lời kèm nguồn dẫn thay vì đẩy đội ngũ quay lại hàng đợi báo cáo.",
           "chips": [
             "Ngày để triển khai",
             "Làm mới Core trực tiếp",
@@ -623,7 +623,7 @@ export const generatedLocalCopy = {
         {
           "label": "Chất lượng",
           "headline": "Xây dựng cho các nhà hàng. Quản lý cho các quyết định.",
-          "body": "Sundae đi kèm với hơn 500 mô hình dữ liệu nhà hàng được quản lý, các tiêu chuẩn so sánh từ đồng nghiệp, và các câu trả lời AI có nguồn gốc — vì vậy các đội không phải xây dựng từ một bảng BI trống.",
+          "body": "Sundae đi kèm với hơn 500 mô hình dữ liệu nhà hàng được quản lý, các tiêu chuẩn so sánh từ đồng nghiệp, và các câu trả lời AI có nguồn gốc - vì vậy các đội không phải xây dựng từ một bảng BI trống.",
           "chips": [
             "Hơn 500 mô hình",
             "AI có nguồn gốc",
@@ -643,9 +643,9 @@ export const generatedLocalCopy = {
       ]
     },
     "ro": {
-      "eyebrow": "VECHILE COMPROMISURI SUNT MOARTE",
+      "eyebrow": "FALSA ALEGERE S-A TERMINAT",
       "headline": "Rapid. Corect. Accesibil. Alege toate cele trei.",
-      "description": "Restaurantele obișnuiau să aleagă între viteză, calitate și cost. Sundae a fost creat pentru a livra toate cele trei simultan — acesta este întregul scop.",
+      "description": "A avea o inteligență reală pentru restaurante însemna mereu un compromis - rapid de implementat, cu adevărat bun sau suficient de accesibil cât să merite. Alegeai două. Sundae a fost creat să le livreze pe toate trei deodată - exact ăsta e rostul.",
       "oldRule": "Regula veche: alege două",
       "sundaeRule": "↓  Regula Sundae: alege toate trei",
       "closing": "Asta nu este un compromis. Asta este avantajul tău operațional.",
@@ -653,7 +653,7 @@ export const generatedLocalCopy = {
         {
           "label": "Viteză",
           "headline": "Implementare în zile. Decizii în secunde.",
-          "body": "Conectează-ți rapid stiva. Actualizările Pulse trec prin schimb, iar Sundae Intelligence răspunde cu surse în loc să trimită echipe înapoi în coada de rapoarte.",
+          "body": "Conectează-ți rapid stiva. Pulse se actualizează în timpul turei, iar Sundae Intelligence răspunde cu surse citate în loc să trimită echipele înapoi în coada de rapoarte.",
           "chips": [
             "Zile pentru implementare",
             "Actualizare Core live",
@@ -663,7 +663,7 @@ export const generatedLocalCopy = {
         {
           "label": "Calitate",
           "headline": "Construit pentru restaurante. Reglementat pentru decizii.",
-          "body": "Sundae vine cu 500+ modele de date reglementate pentru restaurante, benchmark-uri ancorate de colegi și răspunsuri AI citate din surse — astfel echipele nu construiesc de la un canvas BI gol.",
+          "body": "Sundae vine cu 500+ modele de date reglementate pentru restaurante, benchmark-uri ancorate de colegi și răspunsuri AI citate din surse - astfel echipele nu construiesc de la un canvas BI gol.",
           "chips": [
             "500+ modele",
             "AI citat din surse",
@@ -683,9 +683,9 @@ export const generatedLocalCopy = {
       ]
     },
     "sv": {
-      "eyebrow": "DEN GAMLA AVVÄGNINGEN ÄR DÖD",
+      "eyebrow": "DET FALSKA VALET ÄR ÖVER",
       "headline": "Snabb. Rätt. Prisvärd. Välj alla tre.",
-      "description": "Restauranger brukade välja mellan hastighet, kvalitet och kostnad. Sundae är byggt för att leverera alla tre samtidigt — det är hela poängen.",
+      "description": "Att få riktig restauranginsikt innebar förr en kompromiss - snabb att driftsätta, riktigt bra eller billig nog att försvara. Du fick välja två. Sundae är byggt för att leverera alla tre på en gång - det är hela poängen.",
       "oldRule": "Gammal regel: välj två",
       "sundaeRule": "↓  Sundae-regel: välj alla tre",
       "closing": "Det är ingen avvägning. Det är din operativa fördel.",
@@ -693,7 +693,7 @@ export const generatedLocalCopy = {
         {
           "label": "Hastighet",
           "headline": "Implementera på dagar. Bestäm på sekunder.",
-          "body": "Anslut din stack snabbt. Pulseuppdateringar under skiftet, och Sundae Intelligence svarar med källor istället för att skicka team tillbaka till rapportkön. (Pulse)",
+          "body": "Anslut din stack snabbt. Pulse uppdateras under skiftet, och Sundae Intelligence svarar med källor i stället för att skicka tillbaka teamen till rapportkön.",
           "chips": [
             "Dagar att implementera",
             "Live Core-uppdatering",
@@ -703,7 +703,7 @@ export const generatedLocalCopy = {
         {
           "label": "Kvalitet",
           "headline": "Byggd för restauranger. Styrd för beslut.",
-          "body": "Sundae levereras med 500+ styrda restaurangdatamodeller, peer-ankrade riktmärken och källciterade AI-svar — så teamen bygger inte från en tom BI-canvas.",
+          "body": "Sundae levereras med 500+ styrda restaurangdatamodeller, peer-ankrade riktmärken och källciterade AI-svar - så teamen bygger inte från en tom BI-canvas.",
           "chips": [
             "500+ modeller",
             "Källciterad AI",
@@ -723,9 +723,9 @@ export const generatedLocalCopy = {
       ]
     },
     "bn": {
-      "eyebrow": "পুরনো ট্রেডঅফ মরে গেছে",
+      "eyebrow": "ভুয়া বাছাই এখন অতীত",
       "headline": "দ্রুত। সঠিক। সাশ্রয়ী। তিনটি বেছে নিন।",
-      "description": "রেস্তোরাঁগুলি গতির, গুণমানের এবং খরচের মধ্যে বেছে নিতে বাধ্য ছিল। Sundae তিনটি একসাথে সরবরাহ করার জন্য তৈরি হয়েছে — এটাই পুরো পয়েন্ট।",
+      "description": "সত্যিকারের রেস্তোরাঁ ইন্টেলিজেন্স পেতে হলে আগে একটা আপস করতেই হতো - দ্রুত চালু, সত্যিই ভালো, নাকি খরচ পোষানোর মতো সাশ্রয়ী। দুটোই বড়জোর বেছে নেওয়া যেত। Sundae তিনটিই একসঙ্গে দেওয়ার জন্য তৈরি - গোটা ব্যাপারটাই এই।",
       "oldRule": "পুরনো নিয়ম: দুটি বেছে নিন",
       "sundaeRule": "↓  Sundae নিয়ম: তিনটি বেছে নিন",
       "closing": "এটি ট্রেডঅফ নয়। এটি আপনার কার্যকরী সুবিধা।",
@@ -733,7 +733,7 @@ export const generatedLocalCopy = {
         {
           "label": "গতি",
           "headline": "কিছু দিনের মধ্যে স্থাপন করুন। কয়েক সেকেন্ডে সিদ্ধান্ত নিন।",
-          "body": "আপনার স্ট্যাক দ্রুত সংযুক্ত করুন। পালস আপডেটগুলি শিফটের মাধ্যমে, এবং Sundae Intelligence সূত্রের সাথে উত্তর দেয়, দলের সদস্যদের রিপোর্টের কিউতে ফিরে পাঠায় না। (Pulse)",
+          "body": "আপনার স্ট্যাক দ্রুত সংযুক্ত করুন। Pulse শিফট চলাকালীনই আপডেট হয়, আর Sundae Intelligence দলকে রিপোর্টের সারিতে ফেরত না পাঠিয়ে সূত্রসহ উত্তর দেয়।",
           "chips": [
             "স্থাপনের জন্য দিন",
             "লাইভ Core রিফ্রেশ",
@@ -743,7 +743,7 @@ export const generatedLocalCopy = {
         {
           "label": "গুণমান",
           "headline": "রেস্তোরাঁর জন্য তৈরি। সিদ্ধান্তের জন্য পরিচালিত।",
-          "body": "Sundae 500+ পরিচালিত রেস্তোরাঁর ডেটা মডেল, সহকর্মী-অঙ্কিত বেঞ্চমার্ক এবং সূত্র-উল্লেখিত AI উত্তর সহ আসে — তাই দলগুলি খালি BI ক্যানভাস থেকে তৈরি করছে না।",
+          "body": "Sundae 500+ পরিচালিত রেস্তোরাঁর ডেটা মডেল, সহকর্মী-অঙ্কিত বেঞ্চমার্ক এবং সূত্র-উল্লেখিত AI উত্তর সহ আসে - তাই দলগুলি খালি BI ক্যানভাস থেকে তৈরি করছে না।",
           "chips": [
             "500+ মডেল",
             "সূত্র-উল্লেখিত AI",
@@ -763,9 +763,9 @@ export const generatedLocalCopy = {
       ]
     },
     "th": {
-      "eyebrow": "การแลกเปลี่ยนเก่าได้ตายไปแล้ว",
+      "eyebrow": "ทางเลือกลวงนั้นจบลงแล้ว",
       "headline": "รวดเร็ว ถูกต้อง ราคาไม่แพง เลือกได้ทั้งสามอย่าง",
-      "description": "ร้านอาหารเคยต้องเลือกระหว่างความเร็ว คุณภาพ และต้นทุน Sundae ถูกสร้างขึ้นมาเพื่อให้บริการทั้งสามอย่างพร้อมกัน — นั่นคือจุดประสงค์ทั้งหมด",
+      "description": "แต่ก่อนการจะได้ระบบอัจฉริยะสำหรับร้านอาหารจริง ๆ ต้องยอมแลกอะไรบางอย่างเสมอ - ติดตั้งเร็ว ดีจริง หรือถูกพอจะคุ้มค่า เลือกได้แค่สองอย่าง Sundae ถูกสร้างมาเพื่อมอบทั้งสามอย่างพร้อมกัน - นั่นแหละคือหัวใจทั้งหมด",
       "oldRule": "กฎเก่า: เลือกสองอย่าง",
       "sundaeRule": "↓  กฎของ Sundae: เลือกทั้งสามอย่าง",
       "closing": "นั่นไม่ใช่การแลกเปลี่ยน นั่นคือข้อได้เปรียบในการดำเนินงานของคุณ",
@@ -773,7 +773,7 @@ export const generatedLocalCopy = {
         {
           "label": "ความเร็ว",
           "headline": "ติดตั้งในไม่กี่วัน ตัดสินใจในไม่กี่วินาที",
-          "body": "เชื่อมต่อสแต็กของคุณได้อย่างรวดเร็ว อัปเดต Pulse ตลอดการเปลี่ยนแปลง และ Sundae Intelligence ตอบกลับด้วยแหล่งข้อมูลแทนที่จะส่งทีมกลับไปในคิวรายงาน",
+          "body": "เชื่อมต่อสแต็กของคุณได้อย่างรวดเร็ว Pulse อัปเดตข้อมูลตลอดกะการทำงาน และ Sundae Intelligence ตอบกลับพร้อมแหล่งอ้างอิงแทนที่จะส่งทีมกลับไปต่อคิวรายงาน",
           "chips": [
             "วันในการติดตั้ง",
             "รีเฟรช Core แบบสด",
@@ -783,7 +783,7 @@ export const generatedLocalCopy = {
         {
           "label": "คุณภาพ",
           "headline": "สร้างขึ้นสำหรับร้านอาหาร มีการควบคุมสำหรับการตัดสินใจ",
-          "body": "Sundae มาพร้อมกับโมเดลข้อมูลร้านอาหารที่มีการควบคุมมากกว่า 500 โมเดล มาตรฐานที่ยึดตามเพื่อน และคำตอบ AI ที่อ้างอิงแหล่งที่มา — ดังนั้นทีมจึงไม่ต้องสร้างจากผืนผ้าใบ BI ที่ว่างเปล่า",
+          "body": "Sundae มาพร้อมกับโมเดลข้อมูลร้านอาหารที่มีการควบคุมมากกว่า 500 โมเดล มาตรฐานที่ยึดตามเพื่อน และคำตอบ AI ที่อ้างอิงแหล่งที่มา - ดังนั้นทีมจึงไม่ต้องสร้างจากผืนผ้าใบ BI ที่ว่างเปล่า",
           "chips": [
             "โมเดลมากกว่า 500",
             "AI ที่อ้างอิงแหล่งที่มา",
@@ -803,9 +803,9 @@ export const generatedLocalCopy = {
       ]
     },
     "ms": {
-      "eyebrow": "PERDAGANGAN LAMA TELAH MATI",
+      "eyebrow": "PILIHAN PALSU ITU SUDAH BERAKHIR",
       "headline": "Cepat. Tepat. Berpatutan. Pilih ketiga-tiganya.",
-      "description": "Restoran dahulu memilih antara kelajuan, kualiti, dan kos. Sundae dibina untuk memberikan ketiga-tiganya sekaligus — itulah intinya.",
+      "description": "Dahulu, untuk mendapatkan kecerdasan restoran yang sebenar, anda terpaksa berkompromi - cepat dilaksanakan, benar-benar bagus, atau cukup berpatutan untuk berbaloi. Anda hanya boleh pilih dua. Sundae dibina untuk menyampaikan ketiga-tiganya sekaligus - itulah inti keseluruhannya.",
       "oldRule": "Peraturan lama: pilih dua",
       "sundaeRule": "↓  Peraturan Sundae: pilih ketiga-tiganya",
       "closing": "Itu bukan kompromi. Itu adalah kelebihan operasi anda.",
@@ -822,8 +822,8 @@ export const generatedLocalCopy = {
         },
         {
           "label": "Kualiti",
-          "headline": "Dibina untuk restoran. Dikenakan untuk keputusan.",
-          "body": "Sundae dilengkapi dengan 500+ model data restoran yang dikawal, penanda aras yang dipandu rakan sebaya, dan jawapan AI yang dirujuk sumber — jadi pasukan tidak membina dari kanvas BI yang kosong.",
+          "headline": "Dibina untuk restoran. Dikawal untuk keputusan.",
+          "body": "Sundae dilengkapi dengan 500+ model data restoran yang dikawal, penanda aras yang dipandu rakan sebaya, dan jawapan AI yang dirujuk sumber - jadi pasukan tidak membina dari kanvas BI yang kosong.",
           "chips": [
             "500+ model",
             "AI yang dirujuk sumber",

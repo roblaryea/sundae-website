@@ -5,9 +5,11 @@ import { Button } from "@/components/ui/Button";
 import { Card, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
+import { CreamBreak } from "@/components/ui/CreamBreak";
 import { resolveWebsiteLocale, type WebsiteLocale } from "@/lib/i18n";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_about_page'
+import { aboutCreamCopy } from './aboutCreamCopy'
 
 const aboutCopy = {
   en: {
@@ -289,6 +291,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function AboutPage() {
   const locale = resolveWebsiteLocale(await cookies());
   const copy = getAboutCopy(locale);
+  const cream = aboutCreamCopy[locale as keyof typeof aboutCreamCopy] ?? aboutCreamCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
@@ -309,6 +312,9 @@ export default async function AboutPage() {
         </div>
       </section>
 
+      {/* Cream relief - early warm break after the hero/stats, before the long dark built/mission/team stretch (the volume system) */}
+      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
+
       <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
@@ -321,7 +327,7 @@ export default async function AboutPage() {
             {copy.pillars.map((pillar, idx) => (
               <StaggerItem key={pillar}>
                 <Card variant="feature" className="text-center h-full p-6 hover:-translate-y-1 transition-transform duration-300">
-                  <div className="w-14 h-14 mx-auto mb-4 bg-gradient-to-br from-[#0A1E8C] to-[#1C47FF] rounded-xl flex items-center justify-center">
+                  <div className="w-14 h-14 mx-auto mb-4 bg-gradient-to-br from-[#C2410C] to-[#FF5C4D] rounded-xl flex items-center justify-center">
                     <SundaeIcon name={["pulse", "benchmarking", "watchtower", "insights", "intelligence", "forecasting"][idx] as SundaeIconName} size="lg" className="text-white" />
                   </div>
                   <h3 className="font-bold text-[var(--text-primary)] text-base mb-1">{pillar}</h3>
@@ -357,11 +363,11 @@ export default async function AboutPage() {
             <FadeUp>
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-[var(--navy-deep)] rounded-2xl p-5 shadow-lg">
-                  <div className="text-sm font-bold text-[#60A5FA] mb-2 uppercase tracking-wide">Team</div>
+                  <div className="text-sm font-bold text-[#FF8473] mb-2 uppercase tracking-wide">Team</div>
                   <div className="text-sm text-[var(--text-supporting)] font-medium">{locale === "ar" ? "دبي + تورونتو" : locale === "fr" ? "Dubaï + Toronto" : locale === "es" ? "Dubái + Toronto" : "Dubai + Toronto offices"}</div>
                 </div>
                 <div className="bg-[var(--navy-deep)] rounded-2xl p-5 shadow-lg">
-                  <div className="text-sm font-bold text-[#60A5FA] mb-2 uppercase tracking-wide">Scope</div>
+                  <div className="text-sm font-bold text-[#FF8473] mb-2 uppercase tracking-wide">Scope</div>
                   <div className="text-sm text-[var(--text-supporting)] font-medium">{locale === "ar" ? "12 مجالًا تشغيليًا" : locale === "fr" ? "12 domaines opérationnels" : locale === "es" ? "12 dominios operativos" : "12 operational domains"}</div>
                 </div>
               </div>
@@ -406,15 +412,15 @@ export default async function AboutPage() {
                 <h3 className="font-bold text-[var(--text-primary)] text-lg mb-6">{copy.strengthsTitle}</h3>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   <div className="flex items-center space-x-3">
-                    <div className="w-12 h-12 bg-gradient-to-br from-[#0A1E8C] to-[#1C47FF] rounded-xl flex items-center justify-center flex-shrink-0"><SundaeIcon name="restaurant" size="lg" className="text-white" /></div>
+                    <div className="w-12 h-12 bg-gradient-to-br from-[#C2410C] to-[#FF5C4D] rounded-xl flex items-center justify-center flex-shrink-0"><SundaeIcon name="restaurant" size="lg" className="text-white" /></div>
                     <p className="text-[var(--text-secondary)] font-medium">{locale === "ar" ? "وسّعت مفاهيم المطاعم إلى أكثر من 10 ملايين دولار قبل كتابة سطر واحد من الكود" : locale === "fr" ? "A développé des concepts restaurant à plus de 10 M$ avant d'écrire une ligne de code" : locale === "es" ? "Escaló conceptos de restaurante a más de 10 M$ antes de escribir una línea de código" : "Scaled restaurant concepts to $10M+ before writing a line of code"}</p>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-12 h-12 bg-gradient-to-br from-[#0A1E8C] to-[#1C47FF] rounded-xl flex items-center justify-center flex-shrink-0"><SundaeIcon name="growth" size="lg" className="text-white" /></div>
+                    <div className="w-12 h-12 bg-gradient-to-br from-[#C2410C] to-[#FF5C4D] rounded-xl flex items-center justify-center flex-shrink-0"><SundaeIcon name="growth" size="lg" className="text-white" /></div>
                     <p className="text-[var(--text-secondary)] font-medium">{locale === "ar" ? "خروجات ناجحة متعددة وشركات تجاوزت 100 مليون دولار بُنيت من الصفر" : locale === "fr" ? "Plusieurs sorties réussies et des entreprises à plus de 100 M$ construites from scratch" : locale === "es" ? "Múltiples salidas exitosas y empresas de más de 100 M$ creadas desde cero" : "Multiple successful exits and $100M+ businesses built from scratch"}</p>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-12 h-12 bg-gradient-to-br from-[#0A1E8C] to-[#1C47FF] rounded-xl flex items-center justify-center flex-shrink-0"><SundaeIcon name="multiLocation" size="lg" className="text-white" /></div>
+                    <div className="w-12 h-12 bg-gradient-to-br from-[#C2410C] to-[#FF5C4D] rounded-xl flex items-center justify-center flex-shrink-0"><SundaeIcon name="multiLocation" size="lg" className="text-white" /></div>
                     <p className="text-[var(--text-secondary)] font-medium">{locale === "ar" ? "وجود في دبي وتورونتو يخدم مجموعات مؤسسية عبر 3 دول" : locale === "fr" ? "Présence à Dubaï et Toronto au service de groupes enterprise dans 3 pays" : locale === "es" ? "Presencia en Dubái y Toronto al servicio de grupos enterprise en 3 países" : "Dubai + Toronto presence serving enterprise groups across 3 countries"}</p>
                   </div>
                 </div>
@@ -437,7 +443,7 @@ export default async function AboutPage() {
             {copy.milestones.map((milestone, index) => (
               <FadeUp key={`${milestone.year}-${index}`} delay={index * 0.1}>
                 <div className="relative">
-                  <div className="w-16 h-16 bg-gradient-to-br from-[#0A1E8C] to-[#1C47FF] rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg mx-auto mb-6 relative z-10 border-4 border-[var(--surface-faint)] hover:scale-110 transition-transform duration-300">{milestone.year}</div>
+                  <div className="w-16 h-16 bg-gradient-to-br from-[#C2410C] to-[#FF5C4D] rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg mx-auto mb-6 relative z-10 border-4 border-[var(--surface-faint)] hover:scale-110 transition-transform duration-300">{milestone.year}</div>
                   <div className="text-center">
                     <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">{milestone.title}</h3>
                     <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{milestone.description}</p>
@@ -452,7 +458,7 @@ export default async function AboutPage() {
                 <FadeUp key={`mobile-${milestone.year}-${index}`} delay={index * 0.1}>
                   <div className="flex-shrink-0 w-80 snap-center">
                     <Card variant="elevated" className="h-full p-6">
-                      <div className="w-16 h-16 bg-gradient-to-br from-[#0A1E8C] to-[#1C47FF] rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg mb-4">{milestone.year}</div>
+                      <div className="w-16 h-16 bg-gradient-to-br from-[#C2410C] to-[#FF5C4D] rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg mb-4">{milestone.year}</div>
                       <h3 className="text-xl font-bold text-[var(--text-primary)] mb-3">{milestone.title}</h3>
                       <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{milestone.description}</p>
                     </Card>
@@ -476,7 +482,7 @@ export default async function AboutPage() {
             {copy.values.map((value, index) => (
               <FadeUp key={value.title} delay={index * 0.1}>
                 <Card variant="feature" className="text-center h-full p-8">
-                  <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-[#0A1E8C] to-[#1C47FF] rounded-xl flex items-center justify-center hover:scale-110 transition-transform duration-300">
+                  <div className="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-[#C2410C] to-[#FF5C4D] rounded-xl flex items-center justify-center hover:scale-110 transition-transform duration-300">
                     <SundaeIcon name={value.icon as SundaeIconName} size="xl" className="text-white" />
                   </div>
                   <h3 className="text-[var(--text-primary)] text-xl font-bold mb-3">{value.title}</h3>
@@ -515,7 +521,7 @@ export default async function AboutPage() {
               <div className={isExpanding ? 'mb-2' : 'mb-12'}>
                 {title && (
                   <p className="eyebrow text-center mb-6 text-[var(--text-muted)]">
-                    <span className={`inline-block w-1.5 h-1.5 rounded-full ${isExpanding ? 'bg-[#60A5FA]' : 'bg-emerald-400'} mr-2 align-middle`} />
+                    <span className={`inline-block w-1.5 h-1.5 rounded-full ${isExpanding ? 'bg-[#FF8473]' : 'bg-emerald-400'} mr-2 align-middle`} />
                     {title}
                   </p>
                 )}
@@ -526,13 +532,13 @@ export default async function AboutPage() {
                         <div className={`text-center hover:-translate-y-1 transition-transform duration-300 ${isExpanding ? 'opacity-90' : ''}`}>
                           <div
                             className="w-14 h-14 rounded-xl flex items-center justify-center mx-auto mb-4"
-                            style={{ backgroundColor: isExpanding ? 'rgba(96,165,250,0.12)' : 'rgba(16,185,129,0.12)', border: isExpanding ? '1px dashed rgba(96,165,250,0.3)' : '1px solid rgba(16,185,129,0.25)' }}
+                            style={{ backgroundColor: isExpanding ? 'rgba(255,132,115,0.12)' : 'rgba(16,185,129,0.12)', border: isExpanding ? '1px dashed rgba(255,132,115,0.3)' : '1px solid rgba(16,185,129,0.25)' }}
                           >
-                            <SundaeIcon name="network" size="md" className={isExpanding ? "text-[#60A5FA]/80" : "text-emerald-300"} />
+                            <SundaeIcon name="network" size="md" className={isExpanding ? "text-[#FF8473]/80" : "text-emerald-300"} />
                           </div>
                           <h3 className={`font-bold text-base mb-0.5 leading-tight ${isExpanding ? 'text-[var(--text-secondary)]' : 'text-[var(--text-primary)]'}`}>
                             {region.region}
-                            {isExpanding && <span className="text-[#60A5FA] ml-0.5">*</span>}
+                            {isExpanding && <span className="text-[#FF8473] ml-0.5">*</span>}
                           </h3>
                           <p className="text-xs text-[var(--text-muted)] uppercase tracking-wider">{region.countries}</p>
                         </div>
@@ -549,7 +555,7 @@ export default async function AboutPage() {
                 {expandingMarkets.length > 0 && renderRow(expandingMarkets, subheadings?.expanding, true)}
                 {footnote && (
                   <p className="text-[11px] text-center text-[var(--text-muted)] mt-6 italic max-w-3xl mx-auto leading-relaxed">
-                    <span className="text-[#60A5FA]">*</span> {footnote}
+                    <span className="text-[#FF8473]">*</span> {footnote}
                   </p>
                 )}
               </>

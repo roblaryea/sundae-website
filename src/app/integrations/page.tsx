@@ -107,7 +107,7 @@ export default function IntegrationsPage() {
             {copy.process.map((item) => (
               <StaggerItem key={item.step}>
                 <div className="p-6">
-                  <div className="w-10 h-10 bg-blue-500/20 rounded-full flex items-center justify-center text-blue-400 font-bold text-lg mx-auto mb-4">
+                  <div className="w-10 h-10 bg-[#FF5C4D]/20 rounded-full flex items-center justify-center text-[#FF8473] font-bold text-lg mx-auto mb-4">
                     {item.step}
                   </div>
                   <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">{item.title}</h3>
@@ -130,7 +130,7 @@ export default function IntegrationsPage() {
             {integrationCategories.map((cat) => (
               <FadeUp key={cat.category}>
                 <div className="flex items-center gap-3 mb-6">
-                  <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center text-white shadow">
+                  <div className="w-10 h-10 bg-gradient-to-br from-[#FF5C4D] to-purple-600 rounded-xl flex items-center justify-center text-white shadow">
                     <SundaeIcon name={cat.icon} size="md" className="text-white" />
                   </div>
                   <h3 className="text-xl font-semibold text-[var(--text-primary)]">{cat.category}</h3>
@@ -147,7 +147,7 @@ export default function IntegrationsPage() {
                 <StaggerContainer className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
                   {cat.systems.map((system) => (
                     <StaggerItem key={system}>
-                      <div className="px-4 py-3 rounded-xl border border-[var(--border-default)] bg-[var(--navy-deep)] text-sm font-medium text-[var(--text-secondary)] text-center hover:border-blue-300 transition-colors">
+                      <div className="px-4 py-3 rounded-xl border border-[var(--border-default)] bg-[var(--navy-deep)] text-sm font-medium text-[var(--text-secondary)] text-center hover:border-[#FFB59E] transition-colors">
                         {system}
                       </div>
                     </StaggerItem>
@@ -183,7 +183,7 @@ export default function IntegrationsPage() {
           <StaggerContainer className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <StaggerItem>
               <div className="bg-[var(--navy-deep)] rounded-2xl p-8 border border-[var(--border-default)] shadow-none">
-                <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-gradient-to-br from-[#FF5C4D] to-[#E9A24A] rounded-xl flex items-center justify-center mb-4">
                   <SundaeIcon name="integration" size="lg" className="text-white" />
                 </div>
                 <h3 className="text-xl font-semibold text-[var(--text-primary)] mb-3">{copy.customWebhooks}</h3>
@@ -207,7 +207,7 @@ export default function IntegrationsPage() {
 
             <StaggerItem>
               <div className="bg-[var(--navy-deep)] rounded-2xl p-8 border border-[var(--border-default)] shadow-none">
-                <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-gradient-to-br from-[#F2B45C] to-[#C2410C] rounded-xl flex items-center justify-center mb-4">
                   <SundaeIcon name="data" size="lg" className="text-white" />
                 </div>
                 <h3 className="text-xl font-semibold text-[var(--text-primary)] mb-3">{copy.publicApi}</h3>

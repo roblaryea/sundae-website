@@ -9,6 +9,8 @@ import { useCta } from "@/lib/cta";
 import { REPORT_APP_URL, PRICING_URL } from "@/lib/urls";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_report_vs_core_page'
+import { CreamBreak } from "@/components/ui/CreamBreak";
+import { reportVsCoreCreamCopy } from "./reportVsCoreCreamCopy";
 
 type ComparisonRow = {
   category: string;
@@ -180,33 +182,33 @@ const localizedReportVsCoreCopy: Record<"en" | "ar" | "fr" | "es", ReportVsCoreC
     pulseColumns: { report: "Report (Free)", core: "Core" },
     pulseRows: [
       { feature: "Historical sales reporting", report: "✓", core: "✓" },
-      { feature: "Real-time sales pacing", report: "—", core: "✓" },
-      { feature: "Basic targets (manual, auto)", report: "—", core: "✓" },
-      { feature: "Adaptive Intelligence Targets", report: "—", core: "✓" },
-      { feature: "Labor headcount tracking", report: "—", core: "✓" },
-      { feature: "Labor Productivity Intelligence (SPLH, CPLH)", report: "—", core: "✓" },
-      { feature: "Shift cost breakdown", report: "—", core: "✓" },
-      { feature: "Server leaderboard (daily)", report: "—", core: "✓" },
-      { feature: "Server leaderboard (hourly, by phase, with compare)", report: "—", core: "✓" },
-      { feature: "Leakage monitoring", report: "—", core: "✓" },
-      { feature: "Sundae Shift Coach", report: "—", core: "✓" },
-      { feature: "Alerts & playbooks", report: "—", core: "✓" },
-      { feature: "Wallboard mode", report: "—", core: "✓" },
+      { feature: "Real-time sales pacing", report: "-", core: "✓" },
+      { feature: "Basic targets (manual, auto)", report: "-", core: "✓" },
+      { feature: "Adaptive Intelligence Targets", report: "-", core: "✓" },
+      { feature: "Labor headcount tracking", report: "-", core: "✓" },
+      { feature: "Labor Productivity Intelligence (SPLH, CPLH)", report: "-", core: "✓" },
+      { feature: "Shift cost breakdown", report: "-", core: "✓" },
+      { feature: "Server leaderboard (daily)", report: "-", core: "✓" },
+      { feature: "Server leaderboard (hourly, by phase, with compare)", report: "-", core: "✓" },
+      { feature: "Leakage monitoring", report: "-", core: "✓" },
+      { feature: "Sundae Shift Coach", report: "-", core: "✓" },
+      { feature: "Alerts & playbooks", report: "-", core: "✓" },
+      { feature: "Wallboard mode", report: "-", core: "✓" },
     ],
     watchtowerTitle: "Watchtower Features by Tier",
     watchtowerDescription: "External intelligence, available on Core tiers",
     watchtowerColumns: { report: "Report (Free)", core: "Core" },
     watchtowerRows: [
       { feature: "Basic market context", report: "Limited", core: "✓" },
-      { feature: "Daily intelligence briefing", report: "—", core: "✓" },
-      { feature: "Competitor tracking (up to 5)", report: "—", core: "✓" },
-      { feature: "Competitor tracking (up to 10+)", report: "—", core: "✓ (tier-dependent)" },
-      { feature: "Review sentiment analysis", report: "—", core: "✓" },
-      { feature: "Local event discovery", report: "—", core: "✓" },
-      { feature: "Event impact assessments", report: "—", core: "✓" },
-      { feature: "Religious calendar intelligence", report: "—", core: "✓" },
-      { feature: "Market landscape tracking", report: "—", core: "✓" },
-      { feature: "Trend and macro signals", report: "—", core: "✓" },
+      { feature: "Daily intelligence briefing", report: "-", core: "✓" },
+      { feature: "Competitor tracking (up to 5)", report: "-", core: "✓" },
+      { feature: "Competitor tracking (up to 10+)", report: "-", core: "✓ (tier-dependent)" },
+      { feature: "Review sentiment analysis", report: "-", core: "✓" },
+      { feature: "Local event discovery", report: "-", core: "✓" },
+      { feature: "Event impact assessments", report: "-", core: "✓" },
+      { feature: "Religious calendar intelligence", report: "-", core: "✓" },
+      { feature: "Market landscape tracking", report: "-", core: "✓" },
+      { feature: "Trend and macro signals", report: "-", core: "✓" },
     ],
     decisionTitle: "Decision Tree: Which Tier?",
     decisionDescription: "Answer these questions to find your tier",
@@ -344,33 +346,33 @@ const localizedReportVsCoreCopy: Record<"en" | "ar" | "fr" | "es", ReportVsCoreC
     pulseColumns: { report: "Report (مجاني)", core: "Core" },
     pulseRows: [
       { feature: "تقارير المبيعات التاريخية", report: "✓", core: "✓" },
-      { feature: "تتبّع المبيعات لحظيًا", report: "—", core: "✓" },
-      { feature: "أهداف أساسية (يدوي، تلقائي)", report: "—", core: "✓" },
-      { feature: "أهداف ذكية متكيفة", report: "—", core: "✓" },
-      { feature: "تتبع عدد الموظفين", report: "—", core: "✓" },
-      { feature: "ذكاء إنتاجية العمالة (SPLH، CPLH)", report: "—", core: "✓" },
-      { feature: "تفصيل تكلفة الوردية", report: "—", core: "✓" },
-      { feature: "ترتيب الخوادم (يومي)", report: "—", core: "✓" },
-      { feature: "ترتيب الخوادم (ساعي، حسب المرحلة، مع المقارنة)", report: "—", core: "✓" },
-      { feature: "مراقبة التسرب", report: "—", core: "✓" },
-      { feature: "Sundae Shift Coach", report: "—", core: "✓" },
-      { feature: "التنبيهات ودفاتر الإرشاد", report: "—", core: "✓" },
-      { feature: "وضعية اللوحات الجدارية", report: "—", core: "✓" },
+      { feature: "تتبّع المبيعات لحظيًا", report: "-", core: "✓" },
+      { feature: "أهداف أساسية (يدوي، تلقائي)", report: "-", core: "✓" },
+      { feature: "أهداف ذكية متكيفة", report: "-", core: "✓" },
+      { feature: "تتبع عدد الموظفين", report: "-", core: "✓" },
+      { feature: "ذكاء إنتاجية العمالة (SPLH، CPLH)", report: "-", core: "✓" },
+      { feature: "تفصيل تكلفة الوردية", report: "-", core: "✓" },
+      { feature: "ترتيب الخوادم (يومي)", report: "-", core: "✓" },
+      { feature: "ترتيب الخوادم (ساعي، حسب المرحلة، مع المقارنة)", report: "-", core: "✓" },
+      { feature: "مراقبة التسرب", report: "-", core: "✓" },
+      { feature: "Sundae Shift Coach", report: "-", core: "✓" },
+      { feature: "التنبيهات ودفاتر الإرشاد", report: "-", core: "✓" },
+      { feature: "وضعية اللوحات الجدارية", report: "-", core: "✓" },
     ],
     watchtowerTitle: "ميزات Watchtower حسب الفئة",
     watchtowerDescription: "ذكاء خارجي، متاح في فئات Core",
     watchtowerColumns: { report: "Report (مجاني)", core: "Core" },
     watchtowerRows: [
       { feature: "سياق سوقي أساسي", report: "محدود", core: "✓" },
-      { feature: "إحاطة ذكاء يومية", report: "—", core: "✓" },
-      { feature: "تتبع المنافسين (حتى 5)", report: "—", core: "✓" },
-      { feature: "تتبع المنافسين (حتى 10+)", report: "—", core: "✓ (حسب الفئة)" },
-      { feature: "تحليل مشاعر المراجعات", report: "—", core: "✓" },
-      { feature: "اكتشاف الفعاليات المحلية", report: "—", core: "✓" },
-      { feature: "تقييم أثر الفعاليات", report: "—", core: "✓" },
-      { feature: "ذكاء التقويم الديني", report: "—", core: "✓" },
-      { feature: "تتبع مشهد السوق", report: "—", core: "✓" },
-      { feature: "إشارات الاتجاهات والاقتصاد الكلي", report: "—", core: "✓" },
+      { feature: "إحاطة ذكاء يومية", report: "-", core: "✓" },
+      { feature: "تتبع المنافسين (حتى 5)", report: "-", core: "✓" },
+      { feature: "تتبع المنافسين (حتى 10+)", report: "-", core: "✓ (حسب الفئة)" },
+      { feature: "تحليل مشاعر المراجعات", report: "-", core: "✓" },
+      { feature: "اكتشاف الفعاليات المحلية", report: "-", core: "✓" },
+      { feature: "تقييم أثر الفعاليات", report: "-", core: "✓" },
+      { feature: "ذكاء التقويم الديني", report: "-", core: "✓" },
+      { feature: "تتبع مشهد السوق", report: "-", core: "✓" },
+      { feature: "إشارات الاتجاهات والاقتصاد الكلي", report: "-", core: "✓" },
     ],
     decisionTitle: "شجرة القرار: أي فئة؟",
     decisionDescription: "أجب عن هذه الأسئلة لتحديد الفئة المناسبة",
@@ -508,33 +510,33 @@ const localizedReportVsCoreCopy: Record<"en" | "ar" | "fr" | "es", ReportVsCoreC
     pulseColumns: { report: "Report (gratuit)", core: "Core" },
     pulseRows: [
       { feature: "Rapports de ventes historiques", report: "✓", core: "✓" },
-      { feature: "Suivi des ventes en temps réel", report: "—", core: "✓" },
-      { feature: "Objectifs de base (manuel, auto)", report: "—", core: "✓" },
-      { feature: "Objectifs d'intelligence adaptative", report: "—", core: "✓" },
-      { feature: "Suivi des effectifs", report: "—", core: "✓" },
-      { feature: "Intelligence productivité main-d'œuvre (SPLH, CPLH)", report: "—", core: "✓" },
-      { feature: "Ventilation du coût de service", report: "—", core: "✓" },
-      { feature: "Classement des serveurs (quotidien)", report: "—", core: "✓" },
-      { feature: "Classement des serveurs (horaire, par phase, avec comparaison)", report: "—", core: "✓" },
-      { feature: "Suivi des fuites", report: "—", core: "✓" },
-      { feature: "Sundae Shift Coach", report: "—", core: "✓" },
-      { feature: "Alertes et playbooks", report: "—", core: "✓" },
-      { feature: "Mode tableau mural", report: "—", core: "✓" },
+      { feature: "Suivi des ventes en temps réel", report: "-", core: "✓" },
+      { feature: "Objectifs de base (manuel, auto)", report: "-", core: "✓" },
+      { feature: "Objectifs d'intelligence adaptative", report: "-", core: "✓" },
+      { feature: "Suivi des effectifs", report: "-", core: "✓" },
+      { feature: "Intelligence productivité main-d'œuvre (SPLH, CPLH)", report: "-", core: "✓" },
+      { feature: "Ventilation du coût de service", report: "-", core: "✓" },
+      { feature: "Classement des serveurs (quotidien)", report: "-", core: "✓" },
+      { feature: "Classement des serveurs (horaire, par phase, avec comparaison)", report: "-", core: "✓" },
+      { feature: "Suivi des fuites", report: "-", core: "✓" },
+      { feature: "Sundae Shift Coach", report: "-", core: "✓" },
+      { feature: "Alertes et playbooks", report: "-", core: "✓" },
+      { feature: "Mode tableau mural", report: "-", core: "✓" },
     ],
     watchtowerTitle: "Fonctionnalités Watchtower par offre",
     watchtowerDescription: "Intelligence externe, disponible sur les offres Core",
     watchtowerColumns: { report: "Report (gratuit)", core: "Core" },
     watchtowerRows: [
       { feature: "Contexte marché de base", report: "Limité", core: "✓" },
-      { feature: "Briefing d'intelligence quotidien", report: "—", core: "✓" },
-      { feature: "Suivi des concurrents (jusqu'à 5)", report: "—", core: "✓" },
-      { feature: "Suivi des concurrents (jusqu'à 10+)", report: "—", core: "✓ (selon l'offre)" },
-      { feature: "Analyse du sentiment des avis", report: "—", core: "✓" },
-      { feature: "Découverte d'événements locaux", report: "—", core: "✓" },
-      { feature: "Évaluation de l'impact des événements", report: "—", core: "✓" },
-      { feature: "Intelligence du calendrier religieux", report: "—", core: "✓" },
-      { feature: "Suivi du paysage marché", report: "—", core: "✓" },
-      { feature: "Signaux de tendance et macro", report: "—", core: "✓" },
+      { feature: "Briefing d'intelligence quotidien", report: "-", core: "✓" },
+      { feature: "Suivi des concurrents (jusqu'à 5)", report: "-", core: "✓" },
+      { feature: "Suivi des concurrents (jusqu'à 10+)", report: "-", core: "✓ (selon l'offre)" },
+      { feature: "Analyse du sentiment des avis", report: "-", core: "✓" },
+      { feature: "Découverte d'événements locaux", report: "-", core: "✓" },
+      { feature: "Évaluation de l'impact des événements", report: "-", core: "✓" },
+      { feature: "Intelligence du calendrier religieux", report: "-", core: "✓" },
+      { feature: "Suivi du paysage marché", report: "-", core: "✓" },
+      { feature: "Signaux de tendance et macro", report: "-", core: "✓" },
     ],
     decisionTitle: "Arbre de décision : quelle offre ?",
     decisionDescription: "Répondez à ces questions pour trouver l'offre qui vous convient",
@@ -672,33 +674,33 @@ const localizedReportVsCoreCopy: Record<"en" | "ar" | "fr" | "es", ReportVsCoreC
     pulseColumns: { report: "Report (gratis)", core: "Core" },
     pulseRows: [
       { feature: "Informes históricos de ventas", report: "✓", core: "✓" },
-      { feature: "Ritmo de ventas en tiempo real", report: "—", core: "✓" },
-      { feature: "Objetivos básicos (manual, auto)", report: "—", core: "✓" },
-      { feature: "Objetivos de inteligencia adaptativa", report: "—", core: "✓" },
-      { feature: "Seguimiento del personal", report: "—", core: "✓" },
-      { feature: "Inteligencia de productividad laboral (SPLH, CPLH)", report: "—", core: "✓" },
-      { feature: "Desglose del coste por turno", report: "—", core: "✓" },
-      { feature: "Ranking de servidores (diario)", report: "—", core: "✓" },
-      { feature: "Ranking de servidores (por hora, por fase, con comparación)", report: "—", core: "✓" },
-      { feature: "Seguimiento de fugas", report: "—", core: "✓" },
-      { feature: "Sundae Shift Coach", report: "—", core: "✓" },
-      { feature: "Alertas y playbooks", report: "—", core: "✓" },
-      { feature: "Modo wallboard", report: "—", core: "✓" },
+      { feature: "Ritmo de ventas en tiempo real", report: "-", core: "✓" },
+      { feature: "Objetivos básicos (manual, auto)", report: "-", core: "✓" },
+      { feature: "Objetivos de inteligencia adaptativa", report: "-", core: "✓" },
+      { feature: "Seguimiento del personal", report: "-", core: "✓" },
+      { feature: "Inteligencia de productividad laboral (SPLH, CPLH)", report: "-", core: "✓" },
+      { feature: "Desglose del coste por turno", report: "-", core: "✓" },
+      { feature: "Ranking de servidores (diario)", report: "-", core: "✓" },
+      { feature: "Ranking de servidores (por hora, por fase, con comparación)", report: "-", core: "✓" },
+      { feature: "Seguimiento de fugas", report: "-", core: "✓" },
+      { feature: "Sundae Shift Coach", report: "-", core: "✓" },
+      { feature: "Alertas y playbooks", report: "-", core: "✓" },
+      { feature: "Modo wallboard", report: "-", core: "✓" },
     ],
     watchtowerTitle: "Funciones de Watchtower por plan",
     watchtowerDescription: "Inteligencia externa, disponible en los planes Core",
     watchtowerColumns: { report: "Report (gratis)", core: "Core" },
     watchtowerRows: [
       { feature: "Contexto básico del mercado", report: "Limitado", core: "✓" },
-      { feature: "Briefing diario de inteligencia", report: "—", core: "✓" },
-      { feature: "Seguimiento de competidores (hasta 5)", report: "—", core: "✓" },
-      { feature: "Seguimiento de competidores (hasta 10+)", report: "—", core: "✓ (según el plan)" },
-      { feature: "Análisis del sentimiento de reseñas", report: "—", core: "✓" },
-      { feature: "Descubrimiento de eventos locales", report: "—", core: "✓" },
-      { feature: "Evaluación del impacto de eventos", report: "—", core: "✓" },
-      { feature: "Inteligencia del calendario religioso", report: "—", core: "✓" },
-      { feature: "Seguimiento del panorama de mercado", report: "—", core: "✓" },
-      { feature: "Señales de tendencia y macro", report: "—", core: "✓" },
+      { feature: "Briefing diario de inteligencia", report: "-", core: "✓" },
+      { feature: "Seguimiento de competidores (hasta 5)", report: "-", core: "✓" },
+      { feature: "Seguimiento de competidores (hasta 10+)", report: "-", core: "✓ (según el plan)" },
+      { feature: "Análisis del sentimiento de reseñas", report: "-", core: "✓" },
+      { feature: "Descubrimiento de eventos locales", report: "-", core: "✓" },
+      { feature: "Evaluación del impacto de eventos", report: "-", core: "✓" },
+      { feature: "Inteligencia del calendario religioso", report: "-", core: "✓" },
+      { feature: "Seguimiento del panorama de mercado", report: "-", core: "✓" },
+      { feature: "Señales de tendencia y macro", report: "-", core: "✓" },
     ],
     decisionTitle: "Árbol de decisión: ¿qué plan?",
     decisionDescription: "Responde estas preguntas para encontrar tu plan",
@@ -760,6 +762,7 @@ export default function ReportVsCorePage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
   const copy = localizedReportVsCoreCopy[locale as keyof typeof localizedReportVsCoreCopy] ?? getGeneratedLocalCopy(localizedReportVsCoreCopy, generatedLocalCopy.localizedReportVsCoreCopy, locale) ?? localizedReportVsCoreCopy.en;
+  const cream = reportVsCoreCreamCopy[locale as keyof typeof reportVsCoreCreamCopy] ?? reportVsCoreCreamCopy.en;
 
   return (
     <div className="min-h-screen bg-[var(--navy-deep)]">
@@ -796,10 +799,10 @@ export default function ReportVsCorePage() {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <FadeUp>
-              <Card variant="elevated" className="h-full border-2 border-blue-500/30">
+              <Card variant="elevated" className="h-full border-2 border-[#FF5C4D]/30">
                 <CardHeader>
                   <div className="flex items-center space-x-3 mb-3">
-                    <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center">
+                    <div className="w-12 h-12 bg-gradient-to-br from-[#FF5C4D] to-[#E9A24A] rounded-xl flex items-center justify-center">
                       <SundaeIcon name="report" size="lg" className="text-white" />
                     </div>
                     <CardTitle className="text-2xl text-[var(--text-primary)]">{copy.reportSummaryTitle}</CardTitle>
@@ -818,9 +821,9 @@ export default function ReportVsCorePage() {
                         ))}
                       </ul>
                     </div>
-                    <div className="bg-blue-500/10 rounded-lg p-4">
-                      <p className="text-sm font-semibold text-[#60A5FA] mb-1">{copy.reportSummaryNoteTitle}</p>
-                      <p className="text-sm text-blue-300">{copy.reportSummaryNoteDescription}</p>
+                    <div className="bg-[#FF5C4D]/10 rounded-lg p-4">
+                      <p className="text-sm font-semibold text-[#FF8473] mb-1">{copy.reportSummaryNoteTitle}</p>
+                      <p className="text-sm text-[#FFB59E]">{copy.reportSummaryNoteDescription}</p>
                     </div>
                   </div>
                 </CardContent>
@@ -831,7 +834,7 @@ export default function ReportVsCorePage() {
               <Card variant="elevated" className="h-full border-2 border-purple-500/30">
                 <CardHeader>
                   <div className="flex items-center space-x-3 mb-3">
-                    <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center">
+                    <div className="w-12 h-12 bg-gradient-to-br from-[#F2B45C] to-[#C2410C] rounded-xl flex items-center justify-center">
                       <SundaeIcon name="speed" size="lg" className="text-white" />
                     </div>
                     <CardTitle className="text-2xl text-[var(--text-primary)]">{copy.coreSummaryTitle}</CardTitle>
@@ -862,6 +865,9 @@ export default function ReportVsCorePage() {
         </div>
       </section>
 
+      {/* Cream relief - early warm break BEFORE the long dark comparison/pulse/watchtower/decision stretch (the volume system) */}
+      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
+
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp className="text-center mb-16">
@@ -875,7 +881,7 @@ export default function ReportVsCorePage() {
                 <Card variant="elevated" className="overflow-hidden">
                   <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-[var(--border-default)]">
                     <div className="p-6 bg-[var(--surface-faint)] flex items-center space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                      <div className="w-12 h-12 bg-gradient-to-br from-[#FF5C4D] to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
                         <SundaeIcon name={item.icon} size="lg" className="text-white" />
                       </div>
                       <div>
@@ -885,10 +891,10 @@ export default function ReportVsCorePage() {
 
                     <div className="p-6">
                       <div className="flex items-center space-x-2 mb-2">
-                        <div className="w-3 h-3 bg-blue-500 rounded-full" />
+                        <div className="w-3 h-3 bg-[#FF5C4D] rounded-full" />
                         <p className="font-bold text-[var(--text-primary)]">{copy.reportLabel}</p>
                       </div>
-                      <p className="text-lg font-semibold text-[#60A5FA] mb-2">{item.report}</p>
+                      <p className="text-lg font-semibold text-[#FF8473] mb-2">{item.report}</p>
                       <p className="text-sm text-[var(--text-supporting)]">{item.reportDetail}</p>
                     </div>
 
@@ -921,7 +927,7 @@ export default function ReportVsCorePage() {
                 <thead>
                   <tr className="border-b-2 border-[var(--border-default)]">
                     <th className="py-3 pr-4 text-sm font-semibold text-[var(--text-primary)]">{copy.featureLabel}</th>
-                    <th className="py-3 px-4 text-sm font-semibold text-[#60A5FA] text-center">{copy.pulseColumns.report}</th>
+                    <th className="py-3 px-4 text-sm font-semibold text-[#FF8473] text-center">{copy.pulseColumns.report}</th>
                     <th className="py-3 pl-4 text-sm font-semibold text-purple-400 text-center">{copy.pulseColumns.core}</th>
                   </tr>
                 </thead>
@@ -953,7 +959,7 @@ export default function ReportVsCorePage() {
                 <thead>
                   <tr className="border-b-2 border-[var(--border-default)]">
                     <th className="py-3 pr-4 text-sm font-semibold text-[var(--text-primary)]">{copy.featureLabel}</th>
-                    <th className="py-3 px-4 text-sm font-semibold text-[#60A5FA] text-center">{copy.watchtowerColumns.report}</th>
+                    <th className="py-3 px-4 text-sm font-semibold text-[#FF8473] text-center">{copy.watchtowerColumns.report}</th>
                     <th className="py-3 pl-4 text-sm font-semibold text-purple-400 text-center">{copy.watchtowerColumns.core}</th>
                   </tr>
                 </thead>
@@ -961,7 +967,7 @@ export default function ReportVsCorePage() {
                   {copy.watchtowerRows.map((row) => (
                     <tr key={row.feature} className="border-b border-[var(--border-default)]">
                       <td className="py-2.5 pr-4">{row.feature}</td>
-                      <td className={`py-2.5 px-4 text-center ${row.report === "✓" || row.report === "Limited" ? row.report === "Limited" ? "text-[#60A5FA]" : "text-green-500 font-semibold" : "text-[var(--text-muted)]"}`}>{row.report}</td>
+                      <td className={`py-2.5 px-4 text-center ${row.report === "✓" || row.report === "Limited" ? row.report === "Limited" ? "text-[#FF8473]" : "text-green-500 font-semibold" : "text-[var(--text-muted)]"}`}>{row.report}</td>
                       <td className={`py-2.5 pl-4 text-center ${row.core.includes("✓") ? "text-green-500 font-semibold" : "text-[var(--text-muted)]"}`}>{row.core}</td>
                     </tr>
                   ))}
@@ -997,10 +1003,10 @@ export default function ReportVsCorePage() {
                         <p className="text-sm text-[var(--text-supporting)]">{decision.yesReason}</p>
                       </div>
 
-                      <div className="p-4 bg-blue-500/10 rounded-lg border-2 border-blue-500/30">
+                      <div className="p-4 bg-[#FF5C4D]/10 rounded-lg border-2 border-[#FF5C4D]/30">
                         <div className="flex items-center space-x-2 mb-2">
                           <span className="text-2xl">→</span>
-                          <p className="font-bold text-[#60A5FA]">{copy.decisionNo}</p>
+                          <p className="font-bold text-[#FF8473]">{copy.decisionNo}</p>
                         </div>
                         <p className="font-bold text-lg text-[var(--text-primary)] mb-2">→ {decision.noAnswer}</p>
                         <p className="text-sm text-[var(--text-supporting)]">{decision.noReason}</p>
@@ -1024,7 +1030,7 @@ export default function ReportVsCorePage() {
             <div className="bg-[var(--navy-deep)] rounded-xl p-8 border border-[var(--border-default)] max-w-2xl mx-auto">
               <div className="flex items-center justify-center space-x-4 mb-6">
                 <div className="text-center">
-                  <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-2">
+                  <div className="w-16 h-16 bg-[#FF5C4D] rounded-full flex items-center justify-center mx-auto mb-2">
                     <SundaeIcon name="report" size="xl" className="text-white" />
                   </div>
                   <p className="font-semibold text-[var(--text-primary)]">{copy.upgradeLabels.reportLite}</p>
@@ -1040,7 +1046,7 @@ export default function ReportVsCorePage() {
                 </div>
                 <div className="text-3xl text-[var(--text-muted)]">→</div>
                 <div className="text-center">
-                  <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-indigo-600 rounded-full flex items-center justify-center mx-auto mb-2">
+                  <div className="w-16 h-16 bg-gradient-to-br from-[#F2B45C] to-[#E03E48] rounded-full flex items-center justify-center mx-auto mb-2">
                     <SundaeIcon name="speed" size="xl" className="text-white" />
                   </div>
                   <p className="font-semibold text-[var(--text-primary)]">{copy.upgradeLabels.core}</p>

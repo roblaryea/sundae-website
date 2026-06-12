@@ -3,7 +3,7 @@
 import { motion, useReducedMotion } from "framer-motion";
 
 /**
- * Mini thumbnails — each is a small visual artifact paired with the moat copy
+ * Mini thumbnails - each is a small visual artifact paired with the moat copy
  * so the section reads as evidence, not just three text cards. Inline SVG
  * keeps these zero-dependency and CLS-free.
  */
@@ -22,7 +22,7 @@ function PulseThumb() {
       <div className="grid grid-cols-3 gap-1.5 mb-2">
         <div className="bg-white/[0.04] rounded px-2 py-1.5">
           <div className="text-[8px] text-[var(--text-muted)] uppercase">Rev</div>
-          <div className="text-xs font-bold font-mono text-[#1C47FF]">$14.8K</div>
+          <div className="text-xs font-bold font-mono text-[#FF5C4D]">$14.8K</div>
         </div>
         <div className="bg-white/[0.04] rounded px-2 py-1.5">
           <div className="text-[8px] text-[var(--text-muted)] uppercase">Labor</div>
@@ -34,8 +34,8 @@ function PulseThumb() {
         </div>
       </div>
       <svg viewBox="0 0 200 30" className="w-full h-7" preserveAspectRatio="none" aria-hidden>
-        <path d="M0 22 L25 20 L50 18 L75 14 L100 11 L125 8 L150 6 L175 5 L200 4" stroke="#1C47FF" strokeWidth="1.5" fill="none" />
-        <path d="M0 22 L25 20 L50 18 L75 14 L100 11 L125 8 L150 6 L175 5 L200 4 L200 30 L0 30 Z" fill="rgba(28,71,255,0.15)" />
+        <path d="M0 22 L25 20 L50 18 L75 14 L100 11 L125 8 L150 6 L175 5 L200 4" stroke="#FF5C4D" strokeWidth="1.5" fill="none" />
+        <path d="M0 22 L25 20 L50 18 L75 14 L100 11 L125 8 L150 6 L175 5 L200 4 L200 30 L0 30 Z" fill="rgba(255,92,77,0.15)" />
       </svg>
     </div>
   );
@@ -57,7 +57,7 @@ function WatchtowerThumb() {
       </div>
       <div className="rounded px-2 py-1.5" style={{ background: "rgba(28,71,255,0.10)", borderLeft: "2px solid #1C47FF" }}>
         <div className="text-[10px] text-[var(--text-secondary)] leading-tight">
-          Office tower fire drill, 2 blocks · 11–12
+          Office tower fire drill, 2 blocks · 11-12
         </div>
       </div>
       <div className="rounded px-2 py-1.5" style={{ background: "rgba(34,197,94,0.10)", borderLeft: "2px solid #22C55E" }}>
@@ -87,8 +87,8 @@ function BenchmarkThumb() {
               className="flex-1 rounded-sm"
               style={{
                 height: `${h}%`,
-                background: isYou ? "#1C47FF" : "rgba(255,255,255,0.18)",
-                boxShadow: isYou ? "0 0 8px rgba(28,71,255,0.6)" : "none",
+                background: isYou ? "#FF5C4D" : "rgba(255,255,255,0.18)",
+                boxShadow: isYou ? "0 0 8px rgba(255,92,77,0.6)" : "none",
               }}
               aria-hidden
             />
@@ -97,14 +97,14 @@ function BenchmarkThumb() {
       </div>
       <div className="flex items-center justify-between text-[8px] text-[var(--text-muted)]">
         <span>Peer cohort (anon)</span>
-        <span className="text-[#1C47FF] font-semibold">You</span>
+        <span className="text-[#FF5C4D] font-semibold">You</span>
       </div>
     </div>
   );
 }
 
 /**
- * Section 5 — Beyond Dashboards (formerly "The Three Moats").
+ * Section 5 - Beyond Dashboards (formerly "The Three Moats").
  *
  * Conversion job: explain product. Reframes "Sundae has lots of features"
  * into "Sundae adds three layers BI tools structurally don't ship." Cards
@@ -112,18 +112,18 @@ function BenchmarkThumb() {
  *
  * r7+1 update: language reframed from investor-flavored ("moats", "category
  * difference") to buyer-facing ("layers", "operating advantage"). The
- * underlying strategic concept is still about defensible advantages — but
+ * underlying strategic concept is still about defensible advantages - but
  * operators don't buy moats, they buy the things they can finally do.
  *
  * Claims used:
  *   CLM-204 (eyebrow) APPROVED PUBLIC
  *   CLM-205 (headline) APPROVED PUBLIC
- *   CLM-103 (Pulse — shift-aware language) APPROVED PUBLIC
+ *   CLM-103 (Pulse - shift-aware language) APPROVED PUBLIC
  *   CLM-104 (Watchtower capabilities) APPROVED PUBLIC
- *   CLM-207 (Benchmarks — cohort framing) APPROVED PUBLIC
- *   CLM-208 (closing line — restaurant intelligence layer) APPROVED PUBLIC
+ *   CLM-207 (Benchmarks - cohort framing) APPROVED PUBLIC
+ *   CLM-208 (closing line - restaurant intelligence layer) APPROVED PUBLIC
  *
- * Excluded (awaiting Legal — CLM-203a/b):
+ * Excluded (awaiting Legal - CLM-203a/b):
  *   Named Power BI + Tableau competitor sentence reserved for `/compare/*`
  *   pages and will swap into Section 5 subhead after Legal review.
  */
@@ -139,7 +139,7 @@ const layers: Array<{
     badge: "Pulse",
     badgeColor: "var(--color-pulse)",
     title: "Live shift intelligence",
-    why: "See pacing, labor, leakage, comps, voids, and service exceptions while the shift is still running — not after the weekly recap.",
+    why: "See pacing, labor, leakage, comps, voids, and service exceptions while the shift is still running - not after the weekly recap.",
     Thumb: PulseThumb,
   },
   {
@@ -197,7 +197,7 @@ export function SectionThreeMoats() {
                   color: m.badgeColor,
                 }}
               >
-                Layer {i + 1} — {m.badge}
+                Layer {i + 1} - {m.badge}
               </div>
               <h3 className="section-h3 mb-3">{m.title}</h3>
               <p className="body-base">{m.why}</p>

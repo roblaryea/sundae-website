@@ -4,11 +4,11 @@ export const generatedLocalCopy = {
   "localizedReportVsCoreCopy": {
     "de": {
       "badge": "Produktvergleich",
-      "heroPrefix": "Bericht vs Core:",
+      "heroPrefix": "Report vs Core:",
       "heroSuffix": "Wählen Sie Ihre Geschwindigkeit",
       "heroDescription": "Beide bieten Entscheidungsintelligenz. Report liefert historische Tiefe. Core bietet Echtzeit-Betriebsgeschwindigkeit. Wählen Sie basierend darauf, wie schnell Sie handeln müssen.",
       "heroPrimary": "Genaues Preismodell anzeigen",
-      "heroSecondary": "Start with Report Lite",
+      "heroSecondary": "Mit Report Lite starten",
       "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "Historische Analyse & strategische Planung",
       "reportSummaryEyebrow": "Perfekt, wenn:",
@@ -33,8 +33,8 @@ export const generatedLocalCopy = {
       "coreSummaryNoteDescription": "Alle Report-Funktionen sowie Echtzeitgeschwindigkeit und Systemintegrationen.",
       "comparisonTitle": "Nebeneinander Vergleich",
       "comparisonDescription": "Wichtige Unterschiede, die für Ihre Entscheidung relevant sind",
-      "reportLabel": "Bericht",
-      "coreLabel": "Kern",
+      "reportLabel": "Report",
+      "coreLabel": "Core",
       "featureLabel": "Funktion",
       "comparisonRows": [
         {
@@ -81,8 +81,8 @@ export const generatedLocalCopy = {
       "pulseTitle": "Pulse-Funktionen nach Stufe",
       "pulseDescription": "Pulse ist der intraday Betriebsmonitor, verfügbar in den Core-Tarifen",
       "pulseColumns": {
-        "report": "Bericht (Kostenlos)",
-        "core": "Kern"
+        "report": "Report (Kostenlos)",
+        "core": "Core"
       },
       "pulseRows": [
         {
@@ -92,70 +92,70 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Echtzeit-Verkaufsüberwachung",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Grundlegende Ziele (manuell, automatisch)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Adaptive Intelligenz-Ziele",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Verfolgung der Mitarbeiteranzahl",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Produktivitätsintelligenz der Mitarbeiter (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Kostenaufstellung für Schichten",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Server-Rangliste (täglich)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Server-Rangliste (stündlich, nach Phase, mit Vergleich)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Überwachung von Verlusten",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sundae Shift Coach",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Benachrichtigungen & Handlungsanleitungen",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Wallboard-Modus",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
       "watchtowerTitle": "Watchtower-Funktionen nach Stufe",
       "watchtowerDescription": "Externe Intelligenz, verfügbar in den Core-Tarifen",
       "watchtowerColumns": {
-        "report": "Bericht (Kostenlos)",
-        "core": "Kern"
+        "report": "Report (Kostenlos)",
+        "core": "Core"
       },
       "watchtowerRows": [
         {
@@ -165,47 +165,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Tägliche Informationsbriefing",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Wettbewerbsverfolgung (bis zu 5)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Wettbewerbsverfolgung (bis zu 10+)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (stufenabhängig)"
         },
         {
           "feature": "Bewertungsstimmungsanalyse",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Entdeckung lokaler Veranstaltungen",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Bewertung der Veranstaltungswirkungen",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Religiöse Kalenderintelligenz",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Marktlandschaftsverfolgung",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Trend- und Makrosignale",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -248,7 +248,7 @@ export const generatedLocalCopy = {
       "upgradeLabels": {
         "reportLite": "Report Lite",
         "reportPlus": "Report Plus/Pro",
-        "core": "Kern"
+        "core": "Core"
       },
       "upgradeDescriptions": {
         "reportLite": "Für immer kostenlos",
@@ -259,16 +259,16 @@ export const generatedLocalCopy = {
       "finalTitle": "Preise für Ihren Betrieb ansehen",
       "finalDescription": "Interaktiver Rechner zeigt die Kosten für beide Stufen basierend auf Ihrer Standortanzahl.",
       "finalPricing": "Preise anzeigen",
-      "finalStartFree": "Start with Report Lite",
+      "finalStartFree": "Mit Report Lite starten",
       "finalBookDemo": "Demo buchen"
     },
     "fr": {
       "badge": "Comparaison de produits",
-      "heroPrefix": "Rapport vs Core:",
+      "heroPrefix": "Report vs Core:",
       "heroSuffix": "Choisissez votre vitesse",
       "heroDescription": "Les deux offrent une intelligence décisionnelle. Report vous donne une profondeur historique. Core vous offre une rapidité opérationnelle en temps réel. Choisissez en fonction de la rapidité avec laquelle vous devez agir.",
       "heroPrimary": "Voir les prix exacts",
-      "heroSecondary": "Start with Report Lite",
+      "heroSecondary": "Commencer avec Report Lite",
       "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "Analyse historique et planification stratégique",
       "reportSummaryEyebrow": "Parfait quand :",
@@ -293,8 +293,8 @@ export const generatedLocalCopy = {
       "coreSummaryNoteDescription": "Toutes les fonctionnalités de Report, plus une vitesse en temps réel et des intégrations système.",
       "comparisonTitle": "Comparaison côte à côte",
       "comparisonDescription": "Différences clés qui comptent pour votre décision",
-      "reportLabel": "Rapport",
-      "coreLabel": "Noyau",
+      "reportLabel": "Report",
+      "coreLabel": "Core",
       "featureLabel": "Fonctionnalité",
       "comparisonRows": [
         {
@@ -341,8 +341,8 @@ export const generatedLocalCopy = {
       "pulseTitle": "Fonctionnalités Pulse par niveau",
       "pulseDescription": "Pulse est le moniteur des opérations intrajournalières, disponible sur les niveaux Core",
       "pulseColumns": {
-        "report": "Rapport (Gratuit)",
-        "core": "Noyau"
+        "report": "Report (Gratuit)",
+        "core": "Core"
       },
       "pulseRows": [
         {
@@ -352,70 +352,70 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Suivi des ventes en temps réel",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Objectifs de base (manuel, automatique)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Objectifs d'intelligence adaptative",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Suivi du nombre d'employés",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Intelligence de productivité du travail (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Répartition des coûts de service",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Classement des serveurs (quotidien)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Classement des serveurs (horaire, par phase, avec comparaison)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Suivi des fuites",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sundae Shift Coach",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Alertes et playbooks",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Mode tableau de bord",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
       "watchtowerTitle": "Fonctionnalités de Watchtower par niveau",
       "watchtowerDescription": "Intelligence externe, disponible sur les niveaux Core",
       "watchtowerColumns": {
-        "report": "Rapport (Gratuit)",
-        "core": "Noyau"
+        "report": "Report (Gratuit)",
+        "core": "Core"
       },
       "watchtowerRows": [
         {
@@ -425,47 +425,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Briefing quotidien d'intelligence",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Suivi des concurrents (jusqu'à 5)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Suivi des concurrents (jusqu'à 10+)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (dépend du niveau)"
         },
         {
           "feature": "Analyse de sentiment des avis",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Découverte d'événements locaux",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Évaluations d'impact des événements",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Intelligence sur le calendrier religieux",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Suivi du paysage du marché",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Signaux de tendance et macro",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -519,16 +519,16 @@ export const generatedLocalCopy = {
       "finalTitle": "Voir les tarifs pour votre opération",
       "finalDescription": "Le calculateur interactif affiche les coûts pour les deux niveaux en fonction de votre nombre d'emplacements.",
       "finalPricing": "Voir les prix",
-      "finalStartFree": "Start with Report Lite",
+      "finalStartFree": "Commencer avec Report Lite",
       "finalBookDemo": "Réserver une démo"
     },
     "nl": {
       "badge": "Productvergelijking",
-      "heroPrefix": "Rapport vs Core:",
+      "heroPrefix": "Report vs Core:",
       "heroSuffix": "Kies je snelheid",
       "heroDescription": "Beide bieden beslissingsintelligentie. Report biedt historische diepgang. Core biedt operationele snelheid in real-time. Kies op basis van hoe snel je moet handelen.",
       "heroPrimary": "Bekijk exacte prijzen",
-      "heroSecondary": "Start with Report Lite",
+      "heroSecondary": "Begin met Report Lite",
       "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "Historische analyse & strategische planning",
       "reportSummaryEyebrow": "Perfect wanneer:",
@@ -553,12 +553,12 @@ export const generatedLocalCopy = {
       "coreSummaryNoteDescription": "Alle Report-functies, plus realtime snelheid en systeemintegraties.",
       "comparisonTitle": "Zij-aan-zij Vergelijking",
       "comparisonDescription": "Belangrijke verschillen die van invloed zijn op uw beslissing",
-      "reportLabel": "Rapport",
-      "coreLabel": "Kern",
+      "reportLabel": "Report",
+      "coreLabel": "Core",
       "featureLabel": "Kenmerk",
       "comparisonRows": [
         {
-          "category": "Data Refresh",
+          "category": "Gegevensverversing",
           "report": "Dagelijks / Wekelijks / Maandelijks",
           "reportDetail": "Perfect voor strategische planning en historische analyse",
           "core": "2-4 Uur Cycli",
@@ -566,7 +566,7 @@ export const generatedLocalCopy = {
           "icon": "speed"
         },
         {
-          "category": "Intelligence Dimensions",
+          "category": "Intelligentiedimensies",
           "report": "1D + 2D + 4D (Beperkt)",
           "reportDetail": "Volledige historische gegevens, budgetafwijkingen, basisvoorspellingen",
           "core": "Volledige 4D (Alle Uitgebreid)",
@@ -574,7 +574,7 @@ export const generatedLocalCopy = {
           "icon": "intelligence"
         },
         {
-          "category": "Data Sources",
+          "category": "Gegevensbronnen",
           "report": "Alleen POS",
           "reportDetail": "Verkoop, omzet, gasten vanuit het kassasysteem",
           "core": "POS + Alle Systemen",
@@ -582,7 +582,7 @@ export const generatedLocalCopy = {
           "icon": "integration"
         },
         {
-          "category": "Primary Use Cases",
+          "category": "Primaire gebruiksscenario's",
           "report": "Strategische Analyse",
           "reportDetail": "Historische trends, benchmarking, langetermijnplanning",
           "core": "Operationele Beslissingen",
@@ -590,7 +590,7 @@ export const generatedLocalCopy = {
           "icon": "insights"
         },
         {
-          "category": "Best For",
+          "category": "Het best voor",
           "report": "1-5 Locaties",
           "reportDetail": "Bewijs van concept, testen van Sundae, strategische analyse",
           "core": "10+ Locaties",
@@ -599,10 +599,10 @@ export const generatedLocalCopy = {
         }
       ],
       "pulseTitle": "Pulse Kenmerken per Niveau",
-      "pulseDescription": "Pulse is de intraday operations monitor, beschikbaar op Core-niveaus",
+      "pulseDescription": "Pulse is de intraday operationele monitor, beschikbaar op Core-niveaus",
       "pulseColumns": {
-        "report": "Rapport (Gratis)",
-        "core": "Kern"
+        "report": "Report (Gratis)",
+        "core": "Core"
       },
       "pulseRows": [
         {
@@ -612,70 +612,70 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Verkooptempo in real-time",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Basisdoelen (handmatig, automatisch)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Adaptieve Intelligentie Doelen",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Arbeidskrachten tracking",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Arbeidsproductiviteit Intelligentie (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Kostenoverzicht per dienst",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Server ranglijst (dagelijks)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Server ranglijst (uurlijk, per fase, met vergelijking)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Lekmonitoring",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sundae Shift Coach",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Waarschuwingen & playbooks",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Wallboard modus",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
       "watchtowerTitle": "Watchtower Kenmerken per Niveau",
       "watchtowerDescription": "Externe intelligence, beschikbaar op Core-niveaus",
       "watchtowerColumns": {
-        "report": "Rapport (Gratis)",
-        "core": "Kern"
+        "report": "Report (Gratis)",
+        "core": "Core"
       },
       "watchtowerRows": [
         {
@@ -685,47 +685,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Dagelijkse intelligence briefing",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Concurrentie tracking (tot 5)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Concurrentie tracking (tot 10+)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (afhankelijk van niveau)"
         },
         {
           "feature": "Review sentimentanalyse",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Ontdekking van lokale evenementen",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Beoordelingen van evenementimpact",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Intelligentie van religieuze kalenders",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Tracking van de marktlandschap",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Trend- en macro-signalen",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -779,16 +779,16 @@ export const generatedLocalCopy = {
       "finalTitle": "Bekijk de prijzen voor uw operatie",
       "finalDescription": "Interactieve calculator toont kosten voor beide niveaus op basis van het aantal locaties.",
       "finalPricing": "Bekijk Prijzen",
-      "finalStartFree": "Start with Report Lite",
+      "finalStartFree": "Begin met Report Lite",
       "finalBookDemo": "Boek Demo"
     },
     "es": {
       "badge": "Comparación de Productos",
-      "heroPrefix": "Informe vs Core:",
+      "heroPrefix": "Report vs Core:",
       "heroSuffix": "Elige tu velocidad",
       "heroDescription": "Ambos ofrecen inteligencia de decisiones. Report te proporciona profundidad histórica. Core te brinda velocidad operativa en tiempo real. Elige según la rapidez con la que necesites actuar.",
       "heroPrimary": "Ver precios exactos",
-      "heroSecondary": "Start with Report Lite",
+      "heroSecondary": "Comienza con Report Lite",
       "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "Análisis histórico y planificación estratégica",
       "reportSummaryEyebrow": "Perfecto cuando:",
@@ -813,8 +813,8 @@ export const generatedLocalCopy = {
       "coreSummaryNoteDescription": "Todas las funciones de Report, además de velocidad en tiempo real e integraciones del sistema.",
       "comparisonTitle": "Comparación Lado a Lado",
       "comparisonDescription": "Diferencias clave que importan para tu decisión",
-      "reportLabel": "Informe",
-      "coreLabel": "Núcleo",
+      "reportLabel": "Report",
+      "coreLabel": "Core",
       "featureLabel": "Característica",
       "comparisonRows": [
         {
@@ -861,8 +861,8 @@ export const generatedLocalCopy = {
       "pulseTitle": "Características de Pulse por Nivel",
       "pulseDescription": "Pulse es el monitor de operaciones intradía, disponible en los niveles de Core",
       "pulseColumns": {
-        "report": "Informe (Gratis)",
-        "core": "Núcleo"
+        "report": "Report (Gratis)",
+        "core": "Core"
       },
       "pulseRows": [
         {
@@ -872,70 +872,70 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Ritmo de ventas en tiempo real",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Objetivos básicos (manual, automático)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Objetivos de Inteligencia Adaptativa",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Seguimiento de la cantidad de empleados",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Inteligencia de Productividad Laboral (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Desglose de costos de turno",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
-          "feature": "Clasificación de servidores (diaria)",
-          "report": "—",
+          "feature": "Clasificación de camareros (diaria)",
+          "report": "-",
           "core": "✓"
         },
         {
-          "feature": "Clasificación de servidores (por hora, por fase, con comparación)",
-          "report": "—",
+          "feature": "Clasificación de camareros (por hora, por fase, con comparación)",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Monitoreo de fugas",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Entrenador de Turnos Sundae",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Alertas y manuales de procedimientos",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Modo de tablero",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
       "watchtowerTitle": "Características de Watchtower por Nivel",
       "watchtowerDescription": "Inteligencia externa, disponible en los niveles de Core",
       "watchtowerColumns": {
-        "report": "Informe (Gratis)",
-        "core": "Núcleo"
+        "report": "Report (Gratis)",
+        "core": "Core"
       },
       "watchtowerRows": [
         {
@@ -945,47 +945,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Informe diario de inteligencia",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Seguimiento de competidores (hasta 5)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Seguimiento de competidores (hasta 10+)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (dependiente del nivel)"
         },
         {
           "feature": "Análisis de sentimiento de reseñas",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Descubrimiento de eventos locales",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Evaluaciones del impacto de eventos",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Inteligencia del calendario religioso",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Seguimiento del paisaje del mercado",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Tendencias y señales macro",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -1039,16 +1039,16 @@ export const generatedLocalCopy = {
       "finalTitle": "Consulta los precios para tu operación",
       "finalDescription": "La calculadora interactiva muestra los costos para ambos niveles según la cantidad de ubicaciones.",
       "finalPricing": "Ver precios",
-      "finalStartFree": "Start with Report Lite",
+      "finalStartFree": "Comienza con Report Lite",
       "finalBookDemo": "Reservar demostración"
     },
     "ar": {
       "badge": "مقارنة المنتجات",
-      "heroPrefix": "التقرير مقابل النواة:",
+      "heroPrefix": "Report مقابل Core:",
       "heroSuffix": "اختر سرعتك",
       "heroDescription": "كلاهما يوفر ذكاء القرار. يمنحك Report عمقًا تاريخيًا. يوفر لك Core سرعة تشغيلية في الوقت الفعلي. اختر بناءً على مدى سرعة حاجتك للعمل.",
       "heroPrimary": "رؤية الأسعار الدقيقة",
-      "heroSecondary": "Start with Report Lite",
+      "heroSecondary": "ابدأ مع Report Lite",
       "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "تحليل تاريخي وتخطيط استراتيجي",
       "reportSummaryEyebrow": "مثالي عندما:",
@@ -1059,7 +1059,7 @@ export const generatedLocalCopy = {
         "أنت تدير من 1 إلى 5 مواقع"
       ],
       "reportSummaryNoteTitle": "ابدأ مجانًا إلى الأبد",
-      "reportSummaryNoteDescription": "Report Lite costs nothing. Prove the value, then upgrade.",
+      "reportSummaryNoteDescription": "Report Lite مجاني تمامًا. أثبت القيمة، ثم قم بالترقية.",
       "coreSummaryTitle": "Sundae Core",
       "coreSummaryDescription": "عمليات في الوقت الحقيقي وذكاء تنبؤي",
       "coreSummaryEyebrow": "مثالي عندما:",
@@ -1073,8 +1073,8 @@ export const generatedLocalCopy = {
       "coreSummaryNoteDescription": "جميع ميزات Report، بالإضافة إلى السرعة في الوقت الحقيقي ودمج الأنظمة.",
       "comparisonTitle": "مقارنة جنبًا إلى جنب",
       "comparisonDescription": "الفروق الرئيسية التي تهم قرارك",
-      "reportLabel": "تقرير",
-      "coreLabel": "النواة",
+      "reportLabel": "Report",
+      "coreLabel": "Core",
       "featureLabel": "ميزة",
       "comparisonRows": [
         {
@@ -1121,8 +1121,8 @@ export const generatedLocalCopy = {
       "pulseTitle": "ميزات Pulse حسب المستوى",
       "pulseDescription": "Pulse هو مراقب العمليات اليومية، متاح على مستويات Core",
       "pulseColumns": {
-        "report": "تقرير (مجاني)",
-        "core": "النواة"
+        "report": "Report (مجاني)",
+        "core": "Core"
       },
       "pulseRows": [
         {
@@ -1132,70 +1132,70 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "تتبع المبيعات في الوقت الحقيقي",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "الأهداف الأساسية (يدوي، تلقائي)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "أهداف الذكاء التكيفي",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "تتبع عدد العمال",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "ذكاء إنتاجية العمال (SPLH، CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "تفصيل تكلفة الوردية",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
-          "feature": "قائمة المتصدرين للخوادم (يومي)",
-          "report": "—",
+          "feature": "قائمة المتصدرين للنُّدُل (يومي)",
+          "report": "-",
           "core": "✓"
         },
         {
-          "feature": "قائمة المتصدرين للخوادم (ساعي، حسب المرحلة، مع مقارنة)",
-          "report": "—",
+          "feature": "قائمة المتصدرين للنُّدُل (بالساعة، حسب المرحلة، مع مقارنة)",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "مراقبة التسرب",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "مدرب وردية Sundae",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "تنبيهات وكتب تشغيل",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "وضع لوحة المعلومات",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
       "watchtowerTitle": "ميزات Watchtower حسب المستوى",
       "watchtowerDescription": "ذكاء خارجي، متاح في مستويات Core",
       "watchtowerColumns": {
-        "report": "التقرير (مجاني)",
-        "core": "النواة"
+        "report": "Report (مجاني)",
+        "core": "Core"
       },
       "watchtowerRows": [
         {
@@ -1205,47 +1205,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "تقرير استخبارات يومي",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "تتبع المنافسين (حتى 5)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "تتبع المنافسين (حتى 10+)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (يعتمد على المستوى)"
         },
         {
           "feature": "تحليل مشاعر المراجعات",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "اكتشاف الأحداث المحلية",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "تقييم تأثير الأحداث",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "استخبارات التقويم الديني",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "تتبع مشهد السوق",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "الإشارات الاتجاهية والماكرو",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -1288,7 +1288,7 @@ export const generatedLocalCopy = {
       "upgradeLabels": {
         "reportLite": "Report Lite",
         "reportPlus": "Report Plus/Pro",
-        "core": "النواة"
+        "core": "Core"
       },
       "upgradeDescriptions": {
         "reportLite": "مجاني إلى الأبد",
@@ -1299,16 +1299,16 @@ export const generatedLocalCopy = {
       "finalTitle": "اطلع على الأسعار لعمليتك",
       "finalDescription": "يظهر الآلة الحاسبة التفاعلية التكاليف لكلا الفئتين بناءً على عدد المواقع لديك.",
       "finalPricing": "اطلع على الأسعار",
-      "finalStartFree": "Start with Report Lite",
+      "finalStartFree": "ابدأ مع Report Lite",
       "finalBookDemo": "احجز عرضًا تجريبيًا"
     },
     "pt": {
       "badge": "Comparação de Produtos",
-      "heroPrefix": "Relatório vs Core:",
+      "heroPrefix": "Report vs Core:",
       "heroSuffix": "Escolha Sua Velocidade",
       "heroDescription": "Ambos oferecem inteligência de decisão. O Report fornece profundidade histórica. O Core oferece velocidade operacional em tempo real. Escolha com base na rapidez com que você precisa agir.",
       "heroPrimary": "Veja o Preço Exato",
-      "heroSecondary": "Start with Report Lite",
+      "heroSecondary": "Comece com o Report Lite",
       "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "Análise histórica e planejamento estratégico",
       "reportSummaryEyebrow": "Perfeito quando:",
@@ -1333,8 +1333,8 @@ export const generatedLocalCopy = {
       "coreSummaryNoteDescription": "Todos os recursos do Report, além de velocidade em tempo real e integrações de sistema.",
       "comparisonTitle": "Comparação Lado a Lado",
       "comparisonDescription": "Principais diferenças que importam para sua decisão",
-      "reportLabel": "Relatório",
-      "coreLabel": "Núcleo",
+      "reportLabel": "Report",
+      "coreLabel": "Core",
       "featureLabel": "Recurso",
       "comparisonRows": [
         {
@@ -1356,7 +1356,7 @@ export const generatedLocalCopy = {
         {
           "category": "Fontes de Dados",
           "report": "Apenas POS",
-          "reportDetail": "Vendas, receita, atendimentos do sistema de ponto de venda",
+          "reportDetail": "Vendas, receita, número de clientes do sistema de ponto de venda",
           "core": "POS + Todos os Sistemas",
           "coreDetail": "POS + Mão de obra + Inventário + Marketing + Reservas + Compras",
           "icon": "integration"
@@ -1381,8 +1381,8 @@ export const generatedLocalCopy = {
       "pulseTitle": "Recursos do Pulse por Nível",
       "pulseDescription": "Pulse é o monitor de operações intradiárias, disponível nos níveis do Core",
       "pulseColumns": {
-        "report": "Relatório (Gratuito)",
-        "core": "Núcleo"
+        "report": "Report (Gratuito)",
+        "core": "Core"
       },
       "pulseRows": [
         {
@@ -1392,70 +1392,70 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Acompanhamento de vendas em tempo real",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Metas básicas (manual, automático)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Metas de Inteligência Adaptativa",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Rastreamento de contagem de funcionários",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Inteligência de Produtividade Laboral (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Detalhamento de custos de turno",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
-          "feature": "Classificação de servidores (diária)",
-          "report": "—",
+          "feature": "Classificação de garçons (diária)",
+          "report": "-",
           "core": "✓"
         },
         {
-          "feature": "Classificação de servidores (horária, por fase, com comparação)",
-          "report": "—",
+          "feature": "Classificação de garçons (horária, por fase, com comparação)",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Monitoramento de vazamentos",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Treinador de Turno Sundae",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Alertas e playbooks",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Modo de painel",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
       "watchtowerTitle": "Recursos do Watchtower por Nível",
       "watchtowerDescription": "Inteligência externa, disponível nos níveis do Core",
       "watchtowerColumns": {
-        "report": "Relatório (Gratuito)",
-        "core": "Núcleo"
+        "report": "Report (Gratuito)",
+        "core": "Core"
       },
       "watchtowerRows": [
         {
@@ -1465,47 +1465,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Briefing diário de inteligência",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Monitoramento de concorrentes (até 5)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Monitoramento de concorrentes (até 10+)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (dependente de nível)"
         },
         {
           "feature": "Análise de sentimento de avaliações",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Descoberta de eventos locais",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Avaliações de impacto de eventos",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Inteligência do calendário religioso",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Monitoramento do panorama de mercado",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sinais de tendência e macro",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -1559,16 +1559,16 @@ export const generatedLocalCopy = {
       "finalTitle": "Veja os Preços para Sua Operação",
       "finalDescription": "O calculador interativo mostra os custos para ambos os níveis com base na contagem de sua localização.",
       "finalPricing": "Ver Preços",
-      "finalStartFree": "Start with Report Lite",
+      "finalStartFree": "Comece com o Report Lite",
       "finalBookDemo": "Agendar Demonstração"
     },
     "ur": {
       "badge": "پروڈکٹ موازنہ",
-      "heroPrefix": "رپورٹ بمقابلہ کور:",
+      "heroPrefix": "Report بمقابلہ Core:",
       "heroSuffix": "اپنی رفتار منتخب کریں",
       "heroDescription": "دونوں فیصلہ سازی کی ذہانت فراہم کرتے ہیں۔ Report آپ کو تاریخی گہرائی فراہم کرتا ہے۔ Core آپ کو حقیقی وقت کی عملی رفتار فراہم کرتا ہے۔ منتخب کریں کہ آپ کو عمل کرنے کی کتنی تیزی کی ضرورت ہے۔",
       "heroPrimary": "صحیح قیمتیں دیکھیں",
-      "heroSecondary": "Start with Report Lite",
+      "heroSecondary": "Report Lite کے ساتھ شروع کریں",
       "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "تاریخی تجزیہ اور حکمت عملی کی منصوبہ بندی",
       "reportSummaryEyebrow": "کمال جب:",
@@ -1579,7 +1579,7 @@ export const generatedLocalCopy = {
         "آپ 1-5 مقامات کا انتظام کر رہے ہیں"
       ],
       "reportSummaryNoteTitle": "ہمیشہ کے لیے مفت شروع کریں",
-      "reportSummaryNoteDescription": "Report Lite costs nothing. Prove the value, then upgrade.",
+      "reportSummaryNoteDescription": "Report Lite بالکل مفت ہے۔ قیمت ثابت کریں، پھر اپ گریڈ کریں۔",
       "coreSummaryTitle": "Sundae Core",
       "coreSummaryDescription": "حقیقی وقت کی کارروائیاں اور پیش گوئی کی ذہانت",
       "coreSummaryEyebrow": "کمال جب:",
@@ -1593,8 +1593,8 @@ export const generatedLocalCopy = {
       "coreSummaryNoteDescription": "تمام رپورٹ کی خصوصیات، ساتھ ہی حقیقی وقت کی رفتار اور نظام کے انضمام۔",
       "comparisonTitle": "پہلو بہ پہلو موازنہ",
       "comparisonDescription": "آپ کے فیصلے کے لیے اہم کلیدی فرق",
-      "reportLabel": "رپورٹ",
-      "coreLabel": "بنیادی",
+      "reportLabel": "Report",
+      "coreLabel": "Core",
       "featureLabel": "خصوصیت",
       "comparisonRows": [
         {
@@ -1616,7 +1616,7 @@ export const generatedLocalCopy = {
         {
           "category": "ڈیٹا کے ذرائع",
           "report": "صرف POS",
-          "reportDetail": "سیلز، آمدنی، پوائنٹ آف سیل سسٹم سے کوریج",
+          "reportDetail": "سیلز، آمدنی، پوائنٹ آف سیل سسٹم سے مہمانوں کی تعداد",
           "core": "POS + تمام سسٹمز",
           "coreDetail": "POS + محنت + انوینٹری + مارکیٹنگ + ریزرویشنز + خریداری",
           "icon": "integration"
@@ -1641,8 +1641,8 @@ export const generatedLocalCopy = {
       "pulseTitle": "Pulse کی خصوصیات کی سطح کے لحاظ سے",
       "pulseDescription": "Pulse انٹرا ڈے آپریشنز مانیٹر ہے، جو کور کی سطحوں پر دستیاب ہے",
       "pulseColumns": {
-        "report": "رپورٹ (مفت)",
-        "core": "بنیادی"
+        "report": "Report (مفت)",
+        "core": "Core"
       },
       "pulseRows": [
         {
@@ -1652,70 +1652,70 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "حقیقی وقت کی سیلز کی رفتار",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "بنیادی ہدف (ہاتھ سے، خودکار)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "ایڈاپٹیو انٹیلیجنس ٹارگٹس",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "مزدوروں کی تعداد کا ٹریکنگ",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "مزدوروں کی پیداوری انٹیلیجنس (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "شفٹ کی قیمت کی تفصیل",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "سرور لیڈر بورڈ (روزانہ)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
-          "feature": "سرور لیڈر بورڈ (گھٹنے، مرحلے کے لحاظ سے، موازنہ کے ساتھ)",
-          "report": "—",
+          "feature": "سرور لیڈر بورڈ (گھنٹہ وار، مرحلے کے لحاظ سے، موازنہ کے ساتھ)",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "لیکج مانیٹرنگ",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sundae شفٹ کوچ",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "الرٹس اور پلے بکس",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "وال بورڈ موڈ",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
       "watchtowerTitle": "Watchtower کی خصوصیات کی درجہ بندی کے مطابق",
       "watchtowerDescription": "باہر کی معلومات، جو Core کی سطحوں پر دستیاب ہیں",
       "watchtowerColumns": {
-        "report": "رپورٹ (مفت)",
-        "core": "بنیادی"
+        "report": "Report (مفت)",
+        "core": "Core"
       },
       "watchtowerRows": [
         {
@@ -1725,47 +1725,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "روزانہ کی انٹیلی جنس بریفنگ",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "مقابلہ کرنے والوں کی نگرانی (5 تک)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "مقابلہ کرنے والوں کی نگرانی (10+ تک)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (ٹیئر پر منحصر)"
         },
         {
           "feature": "جائزہ جذبات کا تجزیہ",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "مقامی ایونٹ کی دریافت",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "ایونٹ کے اثرات کا اندازہ",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "مذہبی کیلنڈر کی انٹیلی جنس",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "مارکیٹ کے منظر نامے کی نگرانی",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "رجحانات اور میکرو سگنلز",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -1808,7 +1808,7 @@ export const generatedLocalCopy = {
       "upgradeLabels": {
         "reportLite": "Report Lite",
         "reportPlus": "Report Plus/Pro",
-        "core": "کور"
+        "core": "Core"
       },
       "upgradeDescriptions": {
         "reportLite": "ہمیشہ کے لیے مفت",
@@ -1819,16 +1819,16 @@ export const generatedLocalCopy = {
       "finalTitle": "اپریشن کے لیے قیمتیں دیکھیں",
       "finalDescription": "انٹرایکٹو کیلکولیٹر آپ کے مقام کی تعداد کی بنیاد پر دونوں سطحوں کے اخراجات دکھاتا ہے۔",
       "finalPricing": "قیمتیں دیکھیں",
-      "finalStartFree": "Start with Report Lite",
+      "finalStartFree": "Report Lite کے ساتھ شروع کریں",
       "finalBookDemo": "ڈیمو بک کریں"
     },
     "hi": {
       "badge": "उत्पाद तुलना",
-      "heroPrefix": "रिपोर्ट बनाम कोर:",
+      "heroPrefix": "Report बनाम Core:",
       "heroSuffix": "अपनी गति चुनें",
       "heroDescription": "दोनों निर्णय बुद्धिमत्ता प्रदान करते हैं। Report आपको ऐतिहासिक गहराई देता है। Core आपको वास्तविक समय में संचालन की गति प्रदान करता है। चुनें कि आपको कितनी तेजी से कार्य करने की आवश्यकता है।",
       "heroPrimary": "सटीक मूल्य देखें",
-      "heroSecondary": "Start with Report Lite",
+      "heroSecondary": "Report Lite के साथ शुरू करें",
       "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "ऐतिहासिक विश्लेषण और रणनीतिक योजना",
       "reportSummaryEyebrow": "सही जब:",
@@ -1839,7 +1839,7 @@ export const generatedLocalCopy = {
         "आप 1-5 स्थानों का प्रबंधन कर रहे हैं"
       ],
       "reportSummaryNoteTitle": "हमेशा के लिए मुफ्त शुरू करें",
-      "reportSummaryNoteDescription": "Report Lite costs nothing. Prove the value, then upgrade.",
+      "reportSummaryNoteDescription": "Report Lite पूरी तरह मुफ्त है। मूल्य साबित करें, फिर अपग्रेड करें।",
       "coreSummaryTitle": "Sundae Core",
       "coreSummaryDescription": "वास्तविक समय में संचालन और पूर्वानुमानित बुद्धिमत्ता",
       "coreSummaryEyebrow": "सही है जब:",
@@ -1853,8 +1853,8 @@ export const generatedLocalCopy = {
       "coreSummaryNoteDescription": "सभी रिपोर्ट सुविधाएँ, साथ ही वास्तविक समय की गति और सिस्टम एकीकरण।",
       "comparisonTitle": "साइड-बाय-साइड तुलना",
       "comparisonDescription": "आपके निर्णय के लिए महत्वपूर्ण मुख्य अंतर",
-      "reportLabel": "रिपोर्ट",
-      "coreLabel": "कोर",
+      "reportLabel": "Report",
+      "coreLabel": "Core",
       "featureLabel": "विशेषता",
       "comparisonRows": [
         {
@@ -1901,8 +1901,8 @@ export const generatedLocalCopy = {
       "pulseTitle": "Pulse फीचर्स द्वारा स्तर",
       "pulseDescription": "Pulse एक इंटरडे ऑपरेशंस मॉनिटर है, जो Core स्तरों पर उपलब्ध है",
       "pulseColumns": {
-        "report": "रिपोर्ट (मुफ्त)",
-        "core": "कोर"
+        "report": "Report (मुफ्त)",
+        "core": "Core"
       },
       "pulseRows": [
         {
@@ -1912,70 +1912,70 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "वास्तविक समय बिक्री गति",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "बुनियादी लक्ष्य (हाथ से, स्वचालित)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "अनुकूलन बुद्धिमत्ता लक्ष्य",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "श्रम संख्या ट्रैकिंग",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "श्रम उत्पादकता बुद्धिमत्ता (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "शिफ्ट लागत का विवरण",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "सर्वर लीडरबोर्ड (दैनिक)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "सर्वर लीडरबोर्ड (घंटेवार, चरण के अनुसार, तुलना के साथ)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "लीकेज निगरानी",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sundae शिफ्ट कोच",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "अलर्ट और प्लेबुक",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "वॉलबोर्ड मोड",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
-      "watchtowerTitle": "Watchtower Features by Tier",
-      "watchtowerDescription": "बाहरी बुद्धिमत्ता, कोर स्तरों पर उपलब्ध",
+      "watchtowerTitle": "स्तर के अनुसार Watchtower सुविधाएँ",
+      "watchtowerDescription": "बाहरी बुद्धिमत्ता, Core स्तरों पर उपलब्ध",
       "watchtowerColumns": {
-        "report": "रिपोर्ट (मुफ्त)",
-        "core": "कोर"
+        "report": "Report (मुफ्त)",
+        "core": "Core"
       },
       "watchtowerRows": [
         {
@@ -1985,47 +1985,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "दैनिक बुद्धिमत्ता ब्रीफिंग",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "प्रतिस्पर्धी ट्रैकिंग (5 तक)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "प्रतिस्पर्धी ट्रैकिंग (10+ तक)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (स्तर-निर्भर)"
         },
         {
           "feature": "समीक्षा भावना विश्लेषण",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "स्थानीय कार्यक्रम खोज",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "कार्यक्रम प्रभाव आकलन",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "धार्मिक कैलेंडर बुद्धिमत्ता",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "बाजार परिदृश्य ट्रैकिंग",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "प्रवृत्ति और मैक्रो संकेत",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -2068,7 +2068,7 @@ export const generatedLocalCopy = {
       "upgradeLabels": {
         "reportLite": "Report Lite",
         "reportPlus": "Report Plus/Pro",
-        "core": "कोर"
+        "core": "Core"
       },
       "upgradeDescriptions": {
         "reportLite": "हमेशा के लिए मुफ्त",
@@ -2079,7 +2079,7 @@ export const generatedLocalCopy = {
       "finalTitle": "अपने संचालन के लिए मूल्य देखें",
       "finalDescription": "इंटरएक्टिव कैलकुलेटर आपके स्थान की संख्या के आधार पर दोनों स्तरों के लिए लागत दिखाता है।",
       "finalPricing": "मूल्य देखें",
-      "finalStartFree": "Start with Report Lite",
+      "finalStartFree": "Report Lite के साथ शुरू करें",
       "finalBookDemo": "डेमो बुक करें"
     },
     "it": {
@@ -2088,7 +2088,7 @@ export const generatedLocalCopy = {
       "heroSuffix": "Scegli la tua velocità",
       "heroDescription": "Entrambi offrono intelligenza decisionale. Report ti fornisce una profondità storica. Core ti offre velocità operativa in tempo reale. Scegli in base a quanto velocemente devi agire.",
       "heroPrimary": "Vedi Prezzi Esatti",
-      "heroSecondary": "Start with Report Lite",
+      "heroSecondary": "Inizia con Report Lite",
       "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "Analisi storica e pianificazione strategica",
       "reportSummaryEyebrow": "Perfetto quando:",
@@ -2113,7 +2113,7 @@ export const generatedLocalCopy = {
       "coreSummaryNoteDescription": "Tutte le funzionalità di Report, oltre a velocità in tempo reale e integrazioni di sistema.",
       "comparisonTitle": "Confronto Affiancato",
       "comparisonDescription": "Differenze chiave che contano per la tua decisione",
-      "reportLabel": "Rapporto",
+      "reportLabel": "Report",
       "coreLabel": "Core",
       "featureLabel": "Caratteristica",
       "comparisonRows": [
@@ -2172,62 +2172,62 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Monitoraggio delle vendite in tempo reale",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Obiettivi di base (manuali, automatici)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Obiettivi di Intelligenza Adattiva",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Monitoraggio del personale",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Intelligenza sulla produttività del lavoro (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Ripartizione dei costi per turno",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
-          "feature": "Classifica dei server (giornaliera)",
-          "report": "—",
+          "feature": "Classifica dei camerieri (giornaliera)",
+          "report": "-",
           "core": "✓"
         },
         {
-          "feature": "Classifica dei server (oraria, per fase, con confronto)",
-          "report": "—",
+          "feature": "Classifica dei camerieri (oraria, per fase, con confronto)",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Monitoraggio delle perdite",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sundae Shift Coach",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Avvisi e playbook",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Modalità Wallboard",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -2245,47 +2245,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Briefing quotidiano di intelligence",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Monitoraggio dei concorrenti (fino a 5)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Monitoraggio dei concorrenti (fino a 10+)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (dipendente dal livello)"
         },
         {
           "feature": "Analisi del sentiment delle recensioni",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Scoperta di eventi locali",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Valutazioni dell'impatto degli eventi",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Intelligence del calendario religioso",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Monitoraggio del panorama di mercato",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Tendenze e segnali macro",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -2339,16 +2339,16 @@ export const generatedLocalCopy = {
       "finalTitle": "Vedi i Prezzi per la Tua Operazione",
       "finalDescription": "Il calcolatore interattivo mostra i costi per entrambi i livelli in base al numero di sedi.",
       "finalPricing": "Vedi i prezzi",
-      "finalStartFree": "Start with Report Lite",
+      "finalStartFree": "Inizia con Report Lite",
       "finalBookDemo": "Prenota una demo"
     },
     "pl": {
       "badge": "Porównanie produktów",
-      "heroPrefix": "Raport vs Core:",
+      "heroPrefix": "Report vs Core:",
       "heroSuffix": "Wybierz swoją prędkość",
       "heroDescription": "Oba dostarczają inteligencji decyzyjnej. Report daje Ci historyczną głębię. Core zapewnia szybkość operacyjną w czasie rzeczywistym. Wybierz w zależności od tego, jak szybko musisz działać.",
       "heroPrimary": "Zobacz dokładne ceny",
-      "heroSecondary": "Start with Report Lite",
+      "heroSecondary": "Zacznij od Report Lite",
       "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "Analiza historyczna i planowanie strategiczne",
       "reportSummaryEyebrow": "Idealne, gdy:",
@@ -2369,12 +2369,12 @@ export const generatedLocalCopy = {
         "Potrzebujesz integracji systemowych, takich jak Praca i Magazyn",
         "Zarządzasz 10+ lokalizacjami"
       ],
-      "coreSummaryNoteTitle": "Wszystko w Raport, plus więcej",
-      "coreSummaryNoteDescription": "Wszystkie funkcje Raportu, plus prędkość w czasie rzeczywistym i integracje systemowe.",
+      "coreSummaryNoteTitle": "Wszystko w Report, plus więcej",
+      "coreSummaryNoteDescription": "Wszystkie funkcje Report, plus prędkość w czasie rzeczywistym i integracje systemowe.",
       "comparisonTitle": "Porównanie obok siebie",
       "comparisonDescription": "Kluczowe różnice, które mają znaczenie dla Twojej decyzji",
-      "reportLabel": "Raport",
-      "coreLabel": "Rdzeń",
+      "reportLabel": "Report",
+      "coreLabel": "Core",
       "featureLabel": "Funkcja",
       "comparisonRows": [
         {
@@ -2421,8 +2421,8 @@ export const generatedLocalCopy = {
       "pulseTitle": "Funkcje Pulse według poziomu",
       "pulseDescription": "Pulse to monitor operacji w ciągu dnia, dostępny w planach Core",
       "pulseColumns": {
-        "report": "Raport (Darmowy)",
-        "core": "Rdzeń"
+        "report": "Report (Darmowy)",
+        "core": "Core"
       },
       "pulseRows": [
         {
@@ -2432,70 +2432,70 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Pacing sprzedaży w czasie rzeczywistym",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Podstawowe cele (ręczne, automatyczne)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Cele Inteligencji Adaptacyjnej",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Śledzenie liczby pracowników",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Inteligencja wydajności pracy (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Szczegółowy koszt zmiany",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
-          "feature": "Ranking serwerów (codziennie)",
-          "report": "—",
+          "feature": "Ranking kelnerów (codziennie)",
+          "report": "-",
           "core": "✓"
         },
         {
-          "feature": "Ranking serwerów (co godzinę, według fazy, z porównaniem)",
-          "report": "—",
+          "feature": "Ranking kelnerów (co godzinę, według fazy, z porównaniem)",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Monitorowanie wycieków",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Trener zmiany Sundae",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Powiadomienia i podręczniki",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Tryb tablicy informacyjnej",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
       "watchtowerTitle": "Funkcje Watchtower według poziomu",
       "watchtowerDescription": "Inteligencja zewnętrzna, dostępna w poziomach Core",
       "watchtowerColumns": {
-        "report": "Raport (Darmowy)",
-        "core": "Rdzeń"
+        "report": "Report (Darmowy)",
+        "core": "Core"
       },
       "watchtowerRows": [
         {
@@ -2505,47 +2505,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Codzienne podsumowanie informacji",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Śledzenie konkurencji (do 5)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Śledzenie konkurencji (do 10+)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (zależne od poziomu)"
         },
         {
           "feature": "Analiza sentymentu recenzji",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Odkrywanie lokalnych wydarzeń",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Oceny wpływu wydarzeń",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Inteligencja kalendarza religijnego",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Śledzenie krajobrazu rynkowego",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Trendy i sygnały makroekonomiczne",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -2580,10 +2580,10 @@ export const generatedLocalCopy = {
           "yesAnswer": "Report",
           "yesReason": "Rozpocznij za darmo z Report Lite, zaktualizuj, gdy będziesz gotowy",
           "noAnswer": "Core",
-          "noReason": "Przejdź do rzeczywistości od pierwszego dnia"
+          "noReason": "Przejdź na czas rzeczywisty od pierwszego dnia"
         }
       ],
-      "upgradeTitle": "Niepewny? Zacznij od Raportu",
+      "upgradeTitle": "Niepewny? Zacznij od Report",
       "upgradeDescription": "Wielu operatorów zaczyna od Report, udowadnia wartość dzięki Report Lite, a następnie przechodzi do Core, gdy potrzebują szybkości operacyjnej. Wszystkie dane historyczne są zachowane podczas aktualizacji, bez utraty danych.",
       "upgradeLabels": {
         "reportLite": "Report Lite",
@@ -2599,16 +2599,16 @@ export const generatedLocalCopy = {
       "finalTitle": "Zobacz ceny dla swojej operacji",
       "finalDescription": "Interaktywny kalkulator pokazuje koszty dla obu poziomów w zależności od liczby lokalizacji.",
       "finalPricing": "Zobacz ceny",
-      "finalStartFree": "Start with Report Lite",
+      "finalStartFree": "Zacznij od Report Lite",
       "finalBookDemo": "Zarezerwuj demo"
     },
     "tr": {
       "badge": "Ürün Karşılaştırması",
-      "heroPrefix": "Rapor vs Core:",
+      "heroPrefix": "Report vs Core:",
       "heroSuffix": "Hızınızı Seçin",
       "heroDescription": "Her ikisi de karar verme zekası sunar. Report, geçmişe dair derinlik sağlar. Core, gerçek zamanlı operasyon hızı sunar. Ne kadar hızlı hareket etmeniz gerektiğine göre seçim yapın.",
       "heroPrimary": "Kesin Fiyatları Gör",
-      "heroSecondary": "Start with Report Lite",
+      "heroSecondary": "Report Lite ile başlayın",
       "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "Tarihsel analiz ve stratejik planlama",
       "reportSummaryEyebrow": "Mükemmel olduğunda:",
@@ -2619,7 +2619,7 @@ export const generatedLocalCopy = {
         "1-5 lokasyon yönetiyorsunuz"
       ],
       "reportSummaryNoteTitle": "Sonsuza Dek Ücretsiz Başlayın",
-      "reportSummaryNoteDescription": "Report Lite hiçbir maliyeti yoktur. Değeri kanıtlayın, ardından yükseltin.",
+      "reportSummaryNoteDescription": "Report Lite hiçbir ücret gerektirmez. Değeri kanıtlayın, ardından yükseltin.",
       "coreSummaryTitle": "Sundae Core",
       "coreSummaryDescription": "Gerçek zamanlı operasyonlar ve öngörücü zeka",
       "coreSummaryEyebrow": "Mükemmel olduğunda:",
@@ -2629,12 +2629,12 @@ export const generatedLocalCopy = {
         "İş gücü ve envanter gibi sistem entegrasyonlarına ihtiyacınız var",
         "10'dan fazla lokasyonu yönetiyorsunuz"
       ],
-      "coreSummaryNoteTitle": "Rapor'daki Her Şey, Üstelik Daha Fazlası",
-      "coreSummaryNoteDescription": "Tüm Rapor özellikleri, artı gerçek zamanlı hız ve sistem entegrasyonları.",
+      "coreSummaryNoteTitle": "Report'taki Her Şey, Üstelik Daha Fazlası",
+      "coreSummaryNoteDescription": "Tüm Report özellikleri, artı gerçek zamanlı hız ve sistem entegrasyonları.",
       "comparisonTitle": "Yan Yana Karşılaştırma",
       "comparisonDescription": "Kararınız için önemli olan ana farklılıklar",
-      "reportLabel": "Rapor",
-      "coreLabel": "Çekirdek",
+      "reportLabel": "Report",
+      "coreLabel": "Core",
       "featureLabel": "Özellik",
       "comparisonRows": [
         {
@@ -2656,7 +2656,7 @@ export const generatedLocalCopy = {
         {
           "category": "Veri Kaynakları",
           "report": "Sadece POS",
-          "reportDetail": "Satış, gelir, satış noktası sisteminden gelen kapasiteler",
+          "reportDetail": "Satış, gelir, satış noktası sisteminden gelen misafir sayısı",
           "core": "POS + Tüm Sistemler",
           "coreDetail": "POS + İş Gücü + Envanter + Pazarlama + Rezervasyonlar + Satın Alma",
           "icon": "integration"
@@ -2681,8 +2681,8 @@ export const generatedLocalCopy = {
       "pulseTitle": "Seviye Bazında Pulse Özellikleri",
       "pulseDescription": "Pulse, Core katmanlarında mevcut olan günlük operasyon izleyicisidir.",
       "pulseColumns": {
-        "report": "Rapor (Ücretsiz)",
-        "core": "Çekirdek"
+        "report": "Report (Ücretsiz)",
+        "core": "Core"
       },
       "pulseRows": [
         {
@@ -2692,70 +2692,70 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Gerçek zamanlı satış hızı",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Temel hedefler (manuel, otomatik)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Uyarlanabilir Zeka Hedefleri",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "İş gücü sayımı takibi",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "İş gücü Verimliliği Zekası (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Vardiya maliyet analizi",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
-          "feature": "Sunucu lider tablosu (günlük)",
-          "report": "—",
+          "feature": "Garson lider tablosu (günlük)",
+          "report": "-",
           "core": "✓"
         },
         {
-          "feature": "Sunucu lider tablosu (saatlik, aşamaya göre, karşılaştırmalı)",
-          "report": "—",
+          "feature": "Garson lider tablosu (saatlik, aşamaya göre, karşılaştırmalı)",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Kaçak izleme",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sundae Vardiya Koçu",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Uyarılar ve oyun kılavuzları",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Duvar ekranı modu",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
       "watchtowerTitle": "Watchtower Özellikleri Seviyeye Göre",
       "watchtowerDescription": "Core katmanlarında mevcut olan dış istihbarat",
       "watchtowerColumns": {
-        "report": "Rapor (Ücretsiz)",
-        "core": "Çekirdek"
+        "report": "Report (Ücretsiz)",
+        "core": "Core"
       },
       "watchtowerRows": [
         {
@@ -2765,47 +2765,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Günlük istihbarat brifingi",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Rakip takibi (5'e kadar)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Rakip takibi (10+ ve üzeri)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (katman bağımlı)"
         },
         {
           "feature": "Yorum duygu analizi",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Yerel etkinlik keşfi",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Etkinlik etki değerlendirmeleri",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Dini takvim istihbaratı",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Pazar manzarası takibi",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Trend ve makro sinyaller",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -2859,16 +2859,16 @@ export const generatedLocalCopy = {
       "finalTitle": "İşletmeniz için Fiyatları Görüntüleyin",
       "finalDescription": "Etkileşimli hesaplayıcı, konum sayınıza göre her iki katmanın maliyetlerini gösterir.",
       "finalPricing": "Fiyatları Gör",
-      "finalStartFree": "Start with Report Lite",
+      "finalStartFree": "Report Lite ile başlayın",
       "finalBookDemo": "Demo Rezervasyonu Yap"
     },
     "zh-Hans": {
       "badge": "产品比较",
-      "heroPrefix": "报告与核心:",
+      "heroPrefix": "Report 与 Core:",
       "heroSuffix": "选择您的速度",
       "heroDescription": "两者都提供决策智能。Report 提供历史深度。Core 提供实时操作速度。根据您需要采取行动的速度进行选择。",
       "heroPrimary": "查看确切价格",
-      "heroSecondary": "Start with Report Lite",
+      "heroSecondary": "从 Report Lite 开始",
       "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "历史分析与战略规划",
       "reportSummaryEyebrow": "完美适合于：",
@@ -2889,12 +2889,12 @@ export const generatedLocalCopy = {
         "您需要系统集成，例如劳动力和库存",
         "您正在管理10个以上的地点"
       ],
-      "coreSummaryNoteTitle": "报告中的一切，更多精彩内容",
+      "coreSummaryNoteTitle": "Report 中的一切，更多精彩内容",
       "coreSummaryNoteDescription": "所有Report功能，加上实时速度和系统集成。",
       "comparisonTitle": "并排比较",
       "comparisonDescription": "对您决策至关重要的关键差异",
-      "reportLabel": "报告",
-      "coreLabel": "核心",
+      "reportLabel": "Report",
+      "coreLabel": "Core",
       "featureLabel": "功能",
       "comparisonRows": [
         {
@@ -2941,8 +2941,8 @@ export const generatedLocalCopy = {
       "pulseTitle": "按层级划分的 Pulse 功能",
       "pulseDescription": "Pulse 是 Core 级别上的日内运营监控工具",
       "pulseColumns": {
-        "report": "报告（免费）",
-        "core": "核心"
+        "report": "Report（免费）",
+        "core": "Core"
       },
       "pulseRows": [
         {
@@ -2952,70 +2952,70 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "实时销售进度",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "基本目标（手动，自动）",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "自适应智能目标",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "员工人数追踪",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
-          "feature": "劳动生产力智能（每小时销售额，成本每小时）",
-          "report": "—",
+          "feature": "劳动生产力智能（SPLH, CPLH）",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "班次成本细分",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "服务员排行榜（每日）",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "服务员排行榜（每小时，按阶段，带比较）",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "漏损监控",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sundae 班次教练",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "警报与行动手册",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "墙面显示模式",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
       "watchtowerTitle": "按层级划分的Watchtower功能",
       "watchtowerDescription": "在Core层级上可用的外部智能",
       "watchtowerColumns": {
-        "report": "报告（免费）",
-        "core": "核心"
+        "report": "Report（免费）",
+        "core": "Core"
       },
       "watchtowerRows": [
         {
@@ -3025,54 +3025,54 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "每日情报简报",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "竞争对手追踪（最多 5 个）",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "竞争对手追踪（最多 10+ 个）",
-          "report": "—",
+          "report": "-",
           "core": "✓（依层级而定）"
         },
         {
           "feature": "评论情感分析",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "本地事件发现",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "事件影响评估",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "宗教日历情报",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "市场格局追踪",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "趋势和宏观信号",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
       "decisionTitle": "决策树：哪个层级？",
       "decisionDescription": "回答这些问题以找到您的级别",
       "decisionYes": "是",
-      "decisionNo": "没有",
+      "decisionNo": "否",
       "decisionItems": [
         {
           "question": "需要运营速度吗？",
@@ -3103,12 +3103,12 @@ export const generatedLocalCopy = {
           "noReason": "从第一天起就实时运行"
         }
       ],
-      "upgradeTitle": "不确定？从报告开始",
+      "upgradeTitle": "不确定？从 Report 开始",
       "upgradeDescription": "许多运营商从 Report 开始，通过 Report Lite 证明其价值，然后在需要运营速度时升级到 Core。升级时所有历史数据都将被保留，确保零数据丢失。",
       "upgradeLabels": {
         "reportLite": "Report Lite",
         "reportPlus": "Report Plus/Pro",
-        "core": "核心"
+        "core": "Core"
       },
       "upgradeDescriptions": {
         "reportLite": "永久免费",
@@ -3119,16 +3119,16 @@ export const generatedLocalCopy = {
       "finalTitle": "查看您运营的定价",
       "finalDescription": "交互式计算器根据您的位置数量显示两个级别的成本。",
       "finalPricing": "查看定价",
-      "finalStartFree": "Start with Report Lite",
+      "finalStartFree": "从 Report Lite 开始",
       "finalBookDemo": "预约演示"
     },
     "ja": {
       "badge": "製品比較",
-      "heroPrefix": "レポート vs コア:",
+      "heroPrefix": "Report vs Core:",
       "heroSuffix": "スピードを選択してください",
       "heroDescription": "どちらも意思決定のインテリジェンスを提供します。Reportは過去の深さを提供し、Coreはリアルタイムの運用スピードを提供します。どれくらい迅速に行動する必要があるかに基づいて選択してください。",
       "heroPrimary": "正確な価格を見る",
-      "heroSecondary": "Start with Report Lite",
+      "heroSecondary": "Report Lite で始める",
       "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "歴史的分析と戦略的計画",
       "reportSummaryEyebrow": "完璧なタイミング:",
@@ -3153,8 +3153,8 @@ export const generatedLocalCopy = {
       "coreSummaryNoteDescription": "すべてのReport機能に加え、リアルタイムの速度とシステム統合を提供します。",
       "comparisonTitle": "並列比較",
       "comparisonDescription": "あなたの決定に重要な主要な違い",
-      "reportLabel": "レポート",
-      "coreLabel": "コア",
+      "reportLabel": "Report",
+      "coreLabel": "Core",
       "featureLabel": "機能",
       "comparisonRows": [
         {
@@ -3201,8 +3201,8 @@ export const generatedLocalCopy = {
       "pulseTitle": "ティア別のPulse機能",
       "pulseDescription": "Pulseは、Coreプランで利用可能な日中のオペレーションモニターです。",
       "pulseColumns": {
-        "report": "レポート（無料）",
-        "core": "コア"
+        "report": "Report（無料）",
+        "core": "Core"
       },
       "pulseRows": [
         {
@@ -3212,70 +3212,70 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "リアルタイム売上ペーシング",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "基本目標（手動、自動）",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "適応型インテリジェンス目標",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "労働者数の追跡",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "労働生産性インテリジェンス（SPLH、CPLH）",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "シフトコストの内訳",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "サーバーリーダーボード（毎日）",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "サーバーリーダーボード（時間ごと、フェーズ別、比較付き）",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "漏洩監視",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sundaeシフトコーチ",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "アラートとプレイブック",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "ウォールボードモード",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
-      "watchtowerTitle": "Watchtower Features by Tier",
-      "watchtowerDescription": "コアプランで利用可能な外部インテリジェンス",
+      "watchtowerTitle": "ティア別の Watchtower 機能",
+      "watchtowerDescription": "Core プランで利用可能な外部インテリジェンス",
       "watchtowerColumns": {
-        "report": "レポート（無料）",
-        "core": "コア"
+        "report": "Report（無料）",
+        "core": "Core"
       },
       "watchtowerRows": [
         {
@@ -3285,47 +3285,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "日次インテリジェンスブリーフィング",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "競合追跡（最大5社）",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "競合追跡（最大10社以上）",
-          "report": "—",
+          "report": "-",
           "core": "✓（ティア依存）"
         },
         {
           "feature": "レビュー感情分析",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "ローカルイベント発見",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "イベント影響評価",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "宗教カレンダーインテリジェンス",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "市場の動向追跡",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "トレンドとマクロシグナル",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -3368,7 +3368,7 @@ export const generatedLocalCopy = {
       "upgradeLabels": {
         "reportLite": "Report Lite",
         "reportPlus": "Report Plus/Pro",
-        "core": "コア"
+        "core": "Core"
       },
       "upgradeDescriptions": {
         "reportLite": "永遠に無料",
@@ -3379,16 +3379,16 @@ export const generatedLocalCopy = {
       "finalTitle": "あなたのオペレーションの料金を見る",
       "finalDescription": "インタラクティブな計算機は、ロケーション数に基づいて両方のティアのコストを表示します。",
       "finalPricing": "価格を見る",
-      "finalStartFree": "Start with Report Lite",
+      "finalStartFree": "Report Lite で始める",
       "finalBookDemo": "デモを予約する"
     },
     "ro": {
       "badge": "Compararea produselor",
-      "heroPrefix": "Raport vs Core:",
+      "heroPrefix": "Report vs Core:",
       "heroSuffix": "Alegeți Viteza Dvs.",
       "heroDescription": "Ambele oferă inteligență decizională. Report îți oferă profunzime istorică. Core îți oferă viteză operațională în timp real. Alege în funcție de cât de repede trebuie să acționezi.",
       "heroPrimary": "Vezi Prețul Exact",
-      "heroSecondary": "Start with Report Lite",
+      "heroSecondary": "Începe cu Report Lite",
       "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "Analiză istorică și planificare strategică",
       "reportSummaryEyebrow": "Perfect pentru:",
@@ -3413,8 +3413,8 @@ export const generatedLocalCopy = {
       "coreSummaryNoteDescription": "Toate funcțiile Report, plus viteză în timp real și integrare cu sistemele.",
       "comparisonTitle": "Comparare Laterală",
       "comparisonDescription": "Diferențe cheie care contează pentru decizia ta",
-      "reportLabel": "Raport",
-      "coreLabel": "Nucleu",
+      "reportLabel": "Report",
+      "coreLabel": "Core",
       "featureLabel": "Funcționalitate",
       "comparisonRows": [
         {
@@ -3436,7 +3436,7 @@ export const generatedLocalCopy = {
         {
           "category": "Surse de Date",
           "report": "Numai POS",
-          "reportDetail": "Vânzări, venituri, acoperiri din sistemul de punct de vânzare",
+          "reportDetail": "Vânzări, venituri, număr de clienți din sistemul de punct de vânzare",
           "core": "POS + Toate Sistemele",
           "coreDetail": "POS + Muncă + Inventar + Marketing + Rezervări + Achiziții",
           "icon": "integration"
@@ -3461,8 +3461,8 @@ export const generatedLocalCopy = {
       "pulseTitle": "Funcții Pulse după Nivel",
       "pulseDescription": "Pulse este monitorul operațiunilor intraday, disponibil pe nivelurile Core",
       "pulseColumns": {
-        "report": "Raport (Gratuit)",
-        "core": "Nucleu"
+        "report": "Report (Gratuit)",
+        "core": "Core"
       },
       "pulseRows": [
         {
@@ -3472,70 +3472,70 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Pacing vânzări în timp real",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Obiective de bază (manuale, automate)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Obiective de Inteligență Adaptivă",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Urmărirea numărului de angajați",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Inteligența Productivității Muncii (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Detalierea costurilor pe schimb",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
-          "feature": "Clasament servere (zilnic)",
-          "report": "—",
+          "feature": "Clasament ospătari (zilnic)",
+          "report": "-",
           "core": "✓"
         },
         {
-          "feature": "Clasament servere (pe oră, pe faze, cu comparație)",
-          "report": "—",
+          "feature": "Clasament ospătari (pe oră, pe faze, cu comparație)",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Monitorizarea pierderilor",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sundae Shift Coach",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Alerte și playbook-uri",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Mod tablă de afișaj",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
       "watchtowerTitle": "Funcții Watchtower pe niveluri",
       "watchtowerDescription": "Inteligență externă, disponibilă pe nivelurile Core",
       "watchtowerColumns": {
-        "report": "Raport (Gratuit)",
-        "core": "Nucleu"
+        "report": "Report (Gratuit)",
+        "core": "Core"
       },
       "watchtowerRows": [
         {
@@ -3545,47 +3545,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Briefing zilnic de inteligență",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Urmărirea competitorilor (până la 5)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Urmărirea competitorilor (până la 10+)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (în funcție de nivel)"
         },
         {
-          "feature": "Analiza sentimentului recenzilor",
-          "report": "—",
+          "feature": "Analiza sentimentului recenziilor",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Descoperirea evenimentelor locale",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Evaluarea impactului evenimentelor",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Inteligența calendarului religios",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Urmărirea peisajului de piață",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Semnale de tendință și macro",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -3639,16 +3639,16 @@ export const generatedLocalCopy = {
       "finalTitle": "Vezi prețurile pentru operațiunea ta",
       "finalDescription": "Calculatorul interactiv arată costurile pentru ambele niveluri în funcție de numărul de locații.",
       "finalPricing": "Vezi Prețuri",
-      "finalStartFree": "Start with Report Lite",
+      "finalStartFree": "Începe cu Report Lite",
       "finalBookDemo": "Rezervați o demonstrație"
     },
     "id": {
       "badge": "Perbandingan Produk",
-      "heroPrefix": "Laporan vs Core:",
+      "heroPrefix": "Report vs Core:",
       "heroSuffix": "Pilih Kecepatan Anda",
       "heroDescription": "Keduanya memberikan kecerdasan keputusan. Report memberikan kedalaman historis. Core memberikan kecepatan operasional waktu nyata. Pilih berdasarkan seberapa cepat Anda perlu bertindak.",
       "heroPrimary": "Lihat Harga Tepat",
-      "heroSecondary": "Start with Report Lite",
+      "heroSecondary": "Mulai dengan Report Lite",
       "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "Analisis historis & perencanaan strategis",
       "reportSummaryEyebrow": "Sempurna ketika:",
@@ -3669,12 +3669,12 @@ export const generatedLocalCopy = {
         "Anda memerlukan integrasi sistem seperti Tenaga Kerja dan Inventaris",
         "Anda mengelola lebih dari 10 lokasi"
       ],
-      "coreSummaryNoteTitle": "Segalanya dalam Report, Plus More",
+      "coreSummaryNoteTitle": "Segalanya dalam Report, Plus Lebih Banyak",
       "coreSummaryNoteDescription": "Semua fitur Report, ditambah kecepatan waktu nyata dan integrasi sistem.",
       "comparisonTitle": "Perbandingan Sisi ke Sisi",
       "comparisonDescription": "Perbedaan kunci yang penting untuk keputusan Anda",
-      "reportLabel": "Laporan",
-      "coreLabel": "Inti",
+      "reportLabel": "Report",
+      "coreLabel": "Core",
       "featureLabel": "Fitur",
       "comparisonRows": [
         {
@@ -3721,8 +3721,8 @@ export const generatedLocalCopy = {
       "pulseTitle": "Fitur Pulse berdasarkan Tingkatan",
       "pulseDescription": "Pulse adalah pemantau operasi intraday, tersedia di tingkat Core",
       "pulseColumns": {
-        "report": "Laporan (Gratis)",
-        "core": "Inti"
+        "report": "Report (Gratis)",
+        "core": "Core"
       },
       "pulseRows": [
         {
@@ -3732,70 +3732,70 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Pacing penjualan real-time",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Target dasar (manual, otomatis)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Target Kecerdasan Adaptif",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Pelacakan jumlah tenaga kerja",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Kecerdasan Produktivitas Tenaga Kerja (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Rincian biaya shift",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
-          "feature": "Papan peringkat server (harian)",
-          "report": "—",
+          "feature": "Papan peringkat pramusaji (harian)",
+          "report": "-",
           "core": "✓"
         },
         {
-          "feature": "Papan peringkat server (per jam, berdasarkan fase, dengan perbandingan)",
-          "report": "—",
+          "feature": "Papan peringkat pramusaji (per jam, berdasarkan fase, dengan perbandingan)",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Pemantauan kebocoran",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Pelatih Shift Sundae",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Peringatan & buku panduan",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Mode papan dinding",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
       "watchtowerTitle": "Fitur Watchtower berdasarkan Tingkat",
       "watchtowerDescription": "Inteligensi eksternal, tersedia di tingkat Core",
       "watchtowerColumns": {
-        "report": "Laporan (Gratis)",
-        "core": "Inti"
+        "report": "Report (Gratis)",
+        "core": "Core"
       },
       "watchtowerRows": [
         {
@@ -3805,47 +3805,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Briefing intelijen harian",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Pelacakan pesaing (hingga 5)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Pelacakan pesaing (hingga 10+)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (tergantung tier)"
         },
         {
           "feature": "Analisis sentimen ulasan",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Penemuan acara lokal",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Penilaian dampak acara",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Intelijen kalender agama",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Pelacakan lanskap pasar",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Tren dan sinyal makro",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -3883,7 +3883,7 @@ export const generatedLocalCopy = {
           "noReason": "Mulai waktu nyata sejak hari pertama"
         }
       ],
-      "upgradeTitle": "Tidak Yakin? Mulai dengan Laporan",
+      "upgradeTitle": "Tidak Yakin? Mulai dengan Report",
       "upgradeDescription": "Banyak operator memulai dengan Report, membuktikan nilai dengan Report Lite, lalu meningkatkan ke Core saat mereka membutuhkan kecepatan operasional. Semua data historis akan dipertahankan saat Anda melakukan upgrade, tanpa kehilangan data.",
       "upgradeLabels": {
         "reportLite": "Report Lite",
@@ -3899,16 +3899,16 @@ export const generatedLocalCopy = {
       "finalTitle": "Lihat Harga untuk Operasi Anda",
       "finalDescription": "Kalkulator interaktif menunjukkan biaya untuk kedua tingkat berdasarkan jumlah lokasi Anda.",
       "finalPricing": "Lihat Harga",
-      "finalStartFree": "Start with Report Lite",
+      "finalStartFree": "Mulai dengan Report Lite",
       "finalBookDemo": "Pesan Demo"
     },
     "vi": {
       "badge": "So sánh sản phẩm",
-      "heroPrefix": "Báo cáo so với Core:",
+      "heroPrefix": "Report so với Core:",
       "heroSuffix": "Chọn Tốc Độ Của Bạn",
       "heroDescription": "Cả hai đều cung cấp trí tuệ quyết định. Report mang đến chiều sâu lịch sử. Core cung cấp tốc độ vận hành theo thời gian thực. Hãy chọn dựa trên mức độ nhanh chóng bạn cần hành động.",
       "heroPrimary": "Xem Giá Chính Xác",
-      "heroSecondary": "Start with Report Lite",
+      "heroSecondary": "Bắt đầu với Report Lite",
       "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "Phân tích lịch sử & lập kế hoạch chiến lược",
       "reportSummaryEyebrow": "Hoàn hảo khi:",
@@ -3933,8 +3933,8 @@ export const generatedLocalCopy = {
       "coreSummaryNoteDescription": "Tất cả các tính năng của Report, cộng với tốc độ thời gian thực và tích hợp hệ thống.",
       "comparisonTitle": "So Sánh Bên Cạnh",
       "comparisonDescription": "Những khác biệt chính quan trọng cho quyết định của bạn",
-      "reportLabel": "Báo cáo",
-      "coreLabel": "Cốt lõi",
+      "reportLabel": "Report",
+      "coreLabel": "Core",
       "featureLabel": "Tính năng",
       "comparisonRows": [
         {
@@ -3981,8 +3981,8 @@ export const generatedLocalCopy = {
       "pulseTitle": "Tính năng Pulse theo cấp độ",
       "pulseDescription": "Pulse là công cụ giám sát hoạt động trong ngày, có sẵn trên các gói Core",
       "pulseColumns": {
-        "report": "Báo cáo (Miễn phí)",
-        "core": "Cốt lõi"
+        "report": "Report (Miễn phí)",
+        "core": "Core"
       },
       "pulseRows": [
         {
@@ -3992,70 +3992,70 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Theo dõi doanh thu theo thời gian thực",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Mục tiêu cơ bản (thủ công, tự động)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Mục tiêu Trí tuệ thích ứng",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Theo dõi số lượng lao động",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Trí tuệ Năng suất Lao động (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Phân tích chi phí ca làm việc",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Bảng xếp hạng nhân viên (hàng ngày)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Bảng xếp hạng nhân viên (theo giờ, theo giai đoạn, có so sánh)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Giám sát rò rỉ",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Huấn luyện viên Ca Sundae",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Cảnh báo & sách hướng dẫn",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Chế độ bảng tường",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
       "watchtowerTitle": "Tính năng Watchtower theo cấp độ",
       "watchtowerDescription": "Thông tin bên ngoài, có sẵn trên các cấp độ Core",
       "watchtowerColumns": {
-        "report": "Báo cáo (Miễn phí)",
-        "core": "Cốt lõi"
+        "report": "Report (Miễn phí)",
+        "core": "Core"
       },
       "watchtowerRows": [
         {
@@ -4065,47 +4065,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Bản tin tình báo hàng ngày",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Theo dõi đối thủ (tối đa 5)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Theo dõi đối thủ (tối đa 10+)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (tùy thuộc vào cấp độ)"
         },
         {
           "feature": "Phân tích cảm xúc đánh giá",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Khám phá sự kiện địa phương",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Đánh giá tác động sự kiện",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Thông tin lịch tôn giáo",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Theo dõi bối cảnh thị trường",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Tín hiệu xu hướng và vĩ mô",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -4159,16 +4159,16 @@ export const generatedLocalCopy = {
       "finalTitle": "Xem giá cho hoạt động của bạn",
       "finalDescription": "Máy tính tương tác hiển thị chi phí cho cả hai cấp độ dựa trên số lượng vị trí của bạn.",
       "finalPricing": "Xem giá",
-      "finalStartFree": "Start with Report Lite",
+      "finalStartFree": "Bắt đầu với Report Lite",
       "finalBookDemo": "Đặt lịch Demo"
     },
     "ko": {
       "badge": "제품 비교",
-      "heroPrefix": "리포트 대 코어:",
+      "heroPrefix": "Report 대 Core:",
       "heroSuffix": "속도를 선택하세요",
       "heroDescription": "두 가지 모두 의사 결정 인사이트를 제공합니다. Report는 역사적 깊이를 제공합니다. Core는 실시간 운영 속도를 제공합니다. 얼마나 빠르게 행동해야 하는지에 따라 선택하세요.",
       "heroPrimary": "정확한 가격 보기",
-      "heroSecondary": "Start with Report Lite",
+      "heroSecondary": "Report Lite로 시작하기",
       "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "역사적 분석 및 전략적 계획",
       "reportSummaryEyebrow": "완벽한 경우:",
@@ -4189,12 +4189,12 @@ export const generatedLocalCopy = {
         "노동 및 재고와 같은 시스템 통합이 필요합니다",
         "10개 이상의 위치를 관리하고 있습니다"
       ],
-      "coreSummaryNoteTitle": "리포트의 모든 것, 그 이상",
+      "coreSummaryNoteTitle": "Report의 모든 것, 그 이상",
       "coreSummaryNoteDescription": "모든 Report 기능에 실시간 속도와 시스템 통합이 추가됩니다.",
       "comparisonTitle": "나란히 비교하기",
       "comparisonDescription": "결정에 중요한 주요 차이점",
-      "reportLabel": "보고서",
-      "coreLabel": "코어",
+      "reportLabel": "Report",
+      "coreLabel": "Core",
       "featureLabel": "기능",
       "comparisonRows": [
         {
@@ -4241,8 +4241,8 @@ export const generatedLocalCopy = {
       "pulseTitle": "티어별 Pulse 기능",
       "pulseDescription": "Pulse는 Core 요금제에서 제공되는 일일 운영 모니터입니다.",
       "pulseColumns": {
-        "report": "보고서 (무료)",
-        "core": "코어"
+        "report": "Report (무료)",
+        "core": "Core"
       },
       "pulseRows": [
         {
@@ -4252,70 +4252,70 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "실시간 판매 진행 상황",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "기본 목표 (수동, 자동)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "적응형 인텔리전스 목표",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "노동 인원 추적",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "노동 생산성 인텔리전스 (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "교대 비용 분석",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "서버 리더보드 (일일)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "서버 리더보드 (시간별, 단계별, 비교 포함)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "누수 모니터링",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sundae Shift Coach",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "알림 및 플레이북",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "월보드 모드",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
       "watchtowerTitle": "Watchtower 기능별 티어",
       "watchtowerDescription": "코어 요금제에서 제공되는 외부 정보",
       "watchtowerColumns": {
-        "report": "보고서 (무료)",
-        "core": "코어"
+        "report": "Report (무료)",
+        "core": "Core"
       },
       "watchtowerRows": [
         {
@@ -4325,47 +4325,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "일일 인사이트 브리핑",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "경쟁사 추적 (최대 5개)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "경쟁사 추적 (최대 10개 이상)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (티어에 따라 다름)"
         },
         {
           "feature": "리뷰 감정 분석",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "지역 이벤트 발견",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "이벤트 영향 평가",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "종교 달력 인사이트",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "시장 환경 추적",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "트렌드 및 거시 신호",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -4408,7 +4408,7 @@ export const generatedLocalCopy = {
       "upgradeLabels": {
         "reportLite": "Report Lite",
         "reportPlus": "Report Plus/Pro",
-        "core": "코어"
+        "core": "Core"
       },
       "upgradeDescriptions": {
         "reportLite": "영원히 무료",
@@ -4419,16 +4419,16 @@ export const generatedLocalCopy = {
       "finalTitle": "운영을 위한 가격 보기",
       "finalDescription": "인터랙티브 계산기는 위치 수에 따라 두 가지 요금제의 비용을 보여줍니다.",
       "finalPricing": "가격 보기",
-      "finalStartFree": "Start with Report Lite",
+      "finalStartFree": "Report Lite로 시작하기",
       "finalBookDemo": "데모 예약"
     },
     "sv": {
       "badge": "Produktjämförelse",
-      "heroPrefix": "Rapport vs Core:",
+      "heroPrefix": "Report vs Core:",
       "heroSuffix": "Välj din hastighet",
       "heroDescription": "Båda levererar beslutsintelligens. Report ger dig historisk djup. Core ger dig realtidsoperativ hastighet. Välj baserat på hur snabbt du behöver agera.",
       "heroPrimary": "Se exakta priser",
-      "heroSecondary": "Start with Report Lite",
+      "heroSecondary": "Börja med Report Lite",
       "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "Historisk analys och strategisk planering",
       "reportSummaryEyebrow": "Perfekt när:",
@@ -4453,8 +4453,8 @@ export const generatedLocalCopy = {
       "coreSummaryNoteDescription": "Alla Report-funktioner, plus realtids hastighet och systemintegrationer.",
       "comparisonTitle": "Jämförelse Sida vid Sida",
       "comparisonDescription": "Viktiga skillnader som påverkar ditt beslut",
-      "reportLabel": "Rapport",
-      "coreLabel": "Kärna",
+      "reportLabel": "Report",
+      "coreLabel": "Core",
       "featureLabel": "Funktion",
       "comparisonRows": [
         {
@@ -4501,8 +4501,8 @@ export const generatedLocalCopy = {
       "pulseTitle": "Pulse-funktioner efter nivå",
       "pulseDescription": "Pulse är övervakningsverktyget för intradagoperationer, tillgängligt på Core-nivåer",
       "pulseColumns": {
-        "report": "Rapport (Gratis)",
-        "core": "Kärna"
+        "report": "Report (Gratis)",
+        "core": "Core"
       },
       "pulseRows": [
         {
@@ -4512,70 +4512,70 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Försäljningspacing i realtid",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Grundläggande mål (manuellt, automatiskt)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Adaptiva intelligensmål",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Övervakning av arbetskraft",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Arbetsproduktivitet (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Kostnadsfördelning per skift",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
-          "feature": "Serverledartavla (dagligen)",
-          "report": "—",
+          "feature": "Servitörsledartavla (dagligen)",
+          "report": "-",
           "core": "✓"
         },
         {
-          "feature": "Serverledartavla (timvis, per fas, med jämförelse)",
-          "report": "—",
+          "feature": "Servitörsledartavla (timvis, per fas, med jämförelse)",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Övervakning av läckage",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sundae Shift Coach",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Varningar & handböcker",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Wallboard-läge",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
       "watchtowerTitle": "Watchtower-funktioner per nivå",
       "watchtowerDescription": "Extern intelligens, tillgänglig på Core-nivåer",
       "watchtowerColumns": {
-        "report": "Rapport (Gratis)",
-        "core": "Kärna"
+        "report": "Report (Gratis)",
+        "core": "Core"
       },
       "watchtowerRows": [
         {
@@ -4585,47 +4585,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Daglig intelligensrapport",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Konkurrentövervakning (upp till 5)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Konkurrentövervakning (upp till 10+)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (beroende av nivå)"
         },
         {
           "feature": "Analys av recensioners sentiment",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Upptäck lokala evenemang",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Bedömningar av evenemangspåverkan",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Religiös kalenderintelligens",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Övervakning av marknadslandskap",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Trend- och makrosignaler",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -4668,7 +4668,7 @@ export const generatedLocalCopy = {
       "upgradeLabels": {
         "reportLite": "Report Lite",
         "reportPlus": "Report Plus/Pro",
-        "core": "Kärna"
+        "core": "Core"
       },
       "upgradeDescriptions": {
         "reportLite": "Gratis för alltid",
@@ -4679,16 +4679,16 @@ export const generatedLocalCopy = {
       "finalTitle": "Se priser för din verksamhet",
       "finalDescription": "Interaktiv kalkylator visar kostnader för båda nivåerna baserat på ditt antal platser.",
       "finalPricing": "Se priser",
-      "finalStartFree": "Start with Report Lite",
+      "finalStartFree": "Börja med Report Lite",
       "finalBookDemo": "Boka demo"
     },
     "bn": {
       "badge": "পণ্য তুলনা",
-      "heroPrefix": "রিপোর্ট বনাম কোর:",
+      "heroPrefix": "Report বনাম Core:",
       "heroSuffix": "আপনার গতি নির্বাচন করুন",
       "heroDescription": "দুইটি সিদ্ধান্ত গ্রহণের বুদ্ধিমত্তা প্রদান করে। Report আপনাকে ঐতিহাসিক গভীরতা দেয়। Core আপনাকে বাস্তব সময়ের কার্যকরী গতি দেয়। আপনি কত দ্রুত কাজ করতে চান তার উপর ভিত্তি করে নির্বাচন করুন।",
       "heroPrimary": "নির্দিষ্ট মূল্য দেখুন",
-      "heroSecondary": "Start with Report Lite",
+      "heroSecondary": "Report Lite দিয়ে শুরু করুন",
       "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "ঐতিহাসিক বিশ্লেষণ ও কৌশলগত পরিকল্পনা",
       "reportSummaryEyebrow": "সঠিক যখন:",
@@ -4699,7 +4699,7 @@ export const generatedLocalCopy = {
         "আপনি ১-৫টি অবস্থান পরিচালনা করছেন"
       ],
       "reportSummaryNoteTitle": "চিরকাল ফ্রি শুরু করুন",
-      "reportSummaryNoteDescription": "Report Lite costs nothing. Prove the value, then upgrade.",
+      "reportSummaryNoteDescription": "Report Lite সম্পূর্ণ ফ্রি। মূল্য প্রমাণ করুন, তারপর আপগ্রেড করুন।",
       "coreSummaryTitle": "Sundae Core",
       "coreSummaryDescription": "রিয়েল-টাইম অপারেশন এবং পূর্বাভাসমূলক বুদ্ধিমত্তা",
       "coreSummaryEyebrow": "সঠিক যখন:",
@@ -4713,8 +4713,8 @@ export const generatedLocalCopy = {
       "coreSummaryNoteDescription": "সমস্ত রিপোর্ট বৈশিষ্ট্য, পাশাপাশি বাস্তব-সময়ের গতি এবং সিস্টেম ইন্টিগ্রেশন।",
       "comparisonTitle": "পাশাপাশি তুলনা",
       "comparisonDescription": "আপনার সিদ্ধান্তের জন্য গুরুত্বপূর্ণ মূল পার্থক্যগুলি",
-      "reportLabel": "রিপোর্ট",
-      "coreLabel": "কোর",
+      "reportLabel": "Report",
+      "coreLabel": "Core",
       "featureLabel": "ফিচার",
       "comparisonRows": [
         {
@@ -4735,10 +4735,10 @@ export const generatedLocalCopy = {
         },
         {
           "category": "ডেটা সোর্স",
-          "report": "POS Only",
-          "reportDetail": "বিক্রয়, রাজস্ব, পয়েন্ট-অফ-সেল সিস্টেম থেকে কভার",
-          "core": "POS + All Systems",
-          "coreDetail": "POS + Labor + Inventory + Marketing + Reservations + Purchasing",
+          "report": "শুধুমাত্র POS",
+          "reportDetail": "বিক্রয়, রাজস্ব, পয়েন্ট-অফ-সেল সিস্টেম থেকে অতিথির সংখ্যা",
+          "core": "POS + সমস্ত সিস্টেম",
+          "coreDetail": "POS + শ্রম + ইনভেন্টরি + মার্কেটিং + রিজার্ভেশন + ক্রয়",
           "icon": "integration"
         },
         {
@@ -4752,17 +4752,17 @@ export const generatedLocalCopy = {
         {
           "category": "সেরা জন্য",
           "report": "১-৫ লোকেশন",
-          "reportDetail": "Proof of concept, testing Sundae, strategic analysis",
+          "reportDetail": "ধারণার প্রমাণ, Sundae পরীক্ষা, কৌশলগত বিশ্লেষণ",
           "core": "১০+ লোকেশন",
           "coreDetail": "যেসব অপারেশন দ্রুততা এবং বহু-লোকেশন পোর্টফোলিও প্রয়োজন",
           "icon": "multiLocation"
         }
       ],
-      "pulseTitle": "Pulse Features by Tier",
-      "pulseDescription": "Pulse is the intraday operations monitor, available on Core tiers",
+      "pulseTitle": "স্তর অনুযায়ী Pulse বৈশিষ্ট্য",
+      "pulseDescription": "Pulse হলো দিনের অভ্যন্তরীণ অপারেশন মনিটর, যা Core স্তরে উপলব্ধ",
       "pulseColumns": {
-        "report": "রিপোর্ট (ফ্রি)",
-        "core": "কোর"
+        "report": "Report (ফ্রি)",
+        "core": "Core"
       },
       "pulseRows": [
         {
@@ -4772,70 +4772,70 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "রিয়েল-টাইম বিক্রয় গতি",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "মৌলিক লক্ষ্য (ম্যানুয়াল, অটো)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "অ্যাডাপটিভ ইন্টেলিজেন্স লক্ষ্য",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "শ্রমের সংখ্যা ট্র্যাকিং",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "শ্রম উৎপাদনশীলতা ইন্টেলিজেন্স (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "শিফট খরচ বিশ্লেষণ",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "সার্ভার লিডারবোর্ড (দৈনিক)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "সার্ভার লিডারবোর্ড (প্রতি ঘণ্টা, পর্যায় অনুযায়ী, তুলনা সহ)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "লিকেজ মনিটরিং",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sundae শিফট কোচ",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "অ্যালার্ট ও প্লেবুক",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "ওয়ালবোর্ড মোড",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
-      "watchtowerTitle": "Watchtower Features by Tier",
+      "watchtowerTitle": "স্তর অনুযায়ী Watchtower বৈশিষ্ট্য",
       "watchtowerDescription": "বাহ্যিক বুদ্ধিমত্তা, যা Core স্তরে উপলব্ধ",
       "watchtowerColumns": {
-        "report": "রিপোর্ট (ফ্রি)",
-        "core": "কোর"
+        "report": "Report (ফ্রি)",
+        "core": "Core"
       },
       "watchtowerRows": [
         {
@@ -4845,47 +4845,47 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "দৈনিক বুদ্ধিমত্তা ব্রিফিং",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "প্রতিযোগী ট্র্যাকিং (৫ পর্যন্ত)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "প্রতিযোগী ট্র্যাকিং (১০+ পর্যন্ত)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (টিয়ার-নির্ভর)"
         },
         {
           "feature": "রিভিউ অনুভূতি বিশ্লেষণ",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "স্থানীয় ইভেন্ট আবিষ্কার",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "ইভেন্ট প্রভাব মূল্যায়ন",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "ধর্মীয় ক্যালেন্ডার বুদ্ধিমত্তা",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "বাজারের দৃশ্যপট ট্র্যাকিং",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "প্রবণতা এবং ম্যাক্রো সংকেত",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
@@ -4923,32 +4923,32 @@ export const generatedLocalCopy = {
           "noReason": "প্রথম দিন থেকেই রিয়েল-টাইমে যান"
         }
       ],
-      "upgradeTitle": "নিশ্চিত নন? রিপোর্ট দিয়ে শুরু করুন",
-      "upgradeDescription": "অনেক অপারেটর রিপোর্ট দিয়ে শুরু করেন, Report Liteের মাধ্যমে মূল্য প্রমাণ করেন, তারপর যখন তাদের অপারেশনাল গতি প্রয়োজন হয় তখন কোরে আপগ্রেড করেন। আপগ্রেড করার সময় সমস্ত ঐতিহাসিক তথ্য সংরক্ষিত থাকে, কোনো তথ্য হারানো হয় না।",
+      "upgradeTitle": "নিশ্চিত নন? Report দিয়ে শুরু করুন",
+      "upgradeDescription": "অনেক অপারেটর Report দিয়ে শুরু করেন, Report Lite-এর মাধ্যমে মূল্য প্রমাণ করেন, তারপর যখন তাদের অপারেশনাল গতি প্রয়োজন হয় তখন Core-এ আপগ্রেড করেন। আপগ্রেড করার সময় সমস্ত ঐতিহাসিক তথ্য সংরক্ষিত থাকে, কোনো তথ্য হারানো হয় না।",
       "upgradeLabels": {
         "reportLite": "Report Lite",
         "reportPlus": "Report Plus/Pro",
-        "core": "কোর"
+        "core": "Core"
       },
       "upgradeDescriptions": {
         "reportLite": "চিরকাল ফ্রি",
         "reportPlus": "স্বয়ংক্রিয় বিশ্লেষণ",
         "core": "রিয়েল-টাইম বুদ্ধিমত্তা"
       },
-      "upgradeNote": "সুন্দর আপগ্রেড। বিনামূল্যে শুরু করুন, যখন প্রয়োজন তখন আপগ্রেড করুন, আপনার বৃদ্ধির সাথে সাথে স্কেল করুন।",
+      "upgradeNote": "মসৃণ আপগ্রেড। বিনামূল্যে শুরু করুন, যখন প্রয়োজন তখন আপগ্রেড করুন, আপনার বৃদ্ধির সাথে সাথে স্কেল করুন।",
       "finalTitle": "আপনার অপারেশনের জন্য মূল্য দেখুন",
       "finalDescription": "ইন্টারেক্টিভ ক্যালকুলেটর আপনার অবস্থানের সংখ্যা অনুযায়ী উভয় স্তরের জন্য খরচ দেখায়।",
       "finalPricing": "মূল্য দেখুন",
-      "finalStartFree": "Start with Report Lite",
+      "finalStartFree": "Report Lite দিয়ে শুরু করুন",
       "finalBookDemo": "ডেমো বুক করুন"
     },
     "ms": {
       "badge": "Perbandingan Produk",
-      "heroPrefix": "Laporan vs Core:",
+      "heroPrefix": "Report vs Core:",
       "heroSuffix": "Pilih Kelajuan Anda",
       "heroDescription": "Kedua-duanya memberikan kecerdasan keputusan. Report memberikan kedalaman sejarah. Core memberikan kelajuan operasi masa nyata. Pilih berdasarkan seberapa cepat anda perlu bertindak.",
       "heroPrimary": "Lihat Harga Tepat",
-      "heroSecondary": "Start with Report Lite",
+      "heroSecondary": "Mula dengan Report Lite",
       "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "Analisis sejarah & perancangan strategik",
       "reportSummaryEyebrow": "Sempurna apabila:",
@@ -4969,12 +4969,12 @@ export const generatedLocalCopy = {
         "Anda memerlukan integrasi sistem seperti Tenaga Kerja dan Inventori",
         "Anda menguruskan lebih daripada 10 lokasi"
       ],
-      "coreSummaryNoteTitle": "Segala yang ada dalam Laporan, Ditambah Lagi",
+      "coreSummaryNoteTitle": "Segala yang ada dalam Report, Ditambah Lagi",
       "coreSummaryNoteDescription": "Semua ciri Report, ditambah kelajuan masa nyata dan integrasi sistem.",
       "comparisonTitle": "Perbandingan Berdampingan",
       "comparisonDescription": "Perbezaan utama yang penting untuk keputusan anda",
-      "reportLabel": "Laporan",
-      "coreLabel": "Inti",
+      "reportLabel": "Report",
+      "coreLabel": "Core",
       "featureLabel": "Ciri",
       "comparisonRows": [
         {
@@ -5021,8 +5021,8 @@ export const generatedLocalCopy = {
       "pulseTitle": "Ciri Pulse mengikut Tahap",
       "pulseDescription": "Pulse adalah pemantau operasi intrahari, tersedia pada tahap Core",
       "pulseColumns": {
-        "report": "Laporan (Percuma)",
-        "core": "Inti"
+        "report": "Report (Percuma)",
+        "core": "Core"
       },
       "pulseRows": [
         {
@@ -5032,70 +5032,70 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Pacing jualan masa nyata",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sasaran asas (manual, auto)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Sasaran Kecerdasan Adaptif",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Pengiraan tenaga kerja",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Kecerdasan Produktiviti Tenaga Kerja (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Pecahan kos shift",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Papan pemimpin pelayan (harian)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Papan pemimpin pelayan (setiap jam, mengikut fasa, dengan perbandingan)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Pemantauan kebocoran",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Pelatih Shift Sundae",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Amaran & buku panduan",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Mod papan dinding",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
       "watchtowerTitle": "Ciri-ciri Watchtower mengikut Tahap",
-      "watchtowerDescription": "Intelligence luar, tersedia pada tahap Core",
+      "watchtowerDescription": "Risikan luar, tersedia pada tahap Core",
       "watchtowerColumns": {
-        "report": "Laporan (Percuma)",
-        "core": "Inti"
+        "report": "Report (Percuma)",
+        "core": "Core"
       },
       "watchtowerRows": [
         {
@@ -5105,51 +5105,51 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "Ringkasan intelijen harian",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Pemantauan pesaing (sehingga 5)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Pemantauan pesaing (sehingga 10+)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (bergantung kepada tier)"
         },
         {
           "feature": "Analisis sentimen ulasan",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Penemuan acara tempatan",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Penilaian impak acara",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Intelijen kalendar agama",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Pemantauan landskap pasaran",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "Isyarat trend dan makro",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
-      "decisionTitle": "Pohon Keputusan: Tier Mana?",
+      "decisionTitle": "Pokok Keputusan: Tahap Mana?",
       "decisionDescription": "Jawab soalan-soalan ini untuk mengetahui tahap anda",
       "decisionYes": "Ya",
       "decisionNo": "Tidak",
@@ -5183,7 +5183,7 @@ export const generatedLocalCopy = {
           "noReason": "Masuk ke masa nyata dari hari pertama"
         }
       ],
-      "upgradeTitle": "Tidak Pasti? Mulakan dengan Laporan",
+      "upgradeTitle": "Tidak Pasti? Mulakan dengan Report",
       "upgradeDescription": "Banyak pengendali bermula dengan Report, membuktikan nilai dengan Report Lite, kemudian menaik taraf ke Core apabila mereka memerlukan kelajuan operasi. Semua data sejarah dipelihara apabila anda menaik taraf, tanpa kehilangan data.",
       "upgradeLabels": {
         "reportLite": "Report Lite",
@@ -5199,16 +5199,16 @@ export const generatedLocalCopy = {
       "finalTitle": "Lihat Harga untuk Operasi Anda",
       "finalDescription": "Kalkulator interaktif menunjukkan kos untuk kedua-dua tahap berdasarkan bilangan lokasi anda.",
       "finalPricing": "Lihat Harga",
-      "finalStartFree": "Start with Report Lite",
+      "finalStartFree": "Mula dengan Report Lite",
       "finalBookDemo": "Tempah Demo"
     },
     "th": {
       "badge": "การเปรียบเทียบผลิตภัณฑ์",
-      "heroPrefix": "รายงาน vs Core:",
+      "heroPrefix": "Report vs Core:",
       "heroSuffix": "เลือกความเร็วของคุณ",
-      "heroDescription": "ทั้งสองให้ข้อมูลเชิงตัดสินใจ รายงานให้คุณเห็นข้อมูลในอดีต ขณะที่ Core ให้ความเร็วในการดำเนินงานแบบเรียลไทม์ เลือกตามความเร็วที่คุณต้องการดำเนินการ.",
+      "heroDescription": "ทั้งสองให้ข้อมูลเชิงตัดสินใจ Report ให้คุณเห็นข้อมูลเชิงลึกในอดีต ขณะที่ Core ให้ความเร็วในการดำเนินงานแบบเรียลไทม์ เลือกตามความเร็วที่คุณต้องการดำเนินการ.",
       "heroPrimary": "ดูราคาแบบเจาะจง",
-      "heroSecondary": "Start with Report Lite",
+      "heroSecondary": "เริ่มต้นด้วย Report Lite",
       "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "การวิเคราะห์ประวัติศาสตร์และการวางแผนเชิงกลยุทธ์",
       "reportSummaryEyebrow": "เหมาะสำหรับเมื่อ:",
@@ -5233,8 +5233,8 @@ export const generatedLocalCopy = {
       "coreSummaryNoteDescription": "ฟีเจอร์ทั้งหมดของ Report รวมถึงความเร็วแบบเรียลไทม์และการรวมระบบ.",
       "comparisonTitle": "การเปรียบเทียบแบบข้างเคียง",
       "comparisonDescription": "ความแตกต่างที่สำคัญสำหรับการตัดสินใจของคุณ",
-      "reportLabel": "รายงาน",
-      "coreLabel": "หลัก",
+      "reportLabel": "Report",
+      "coreLabel": "Core",
       "featureLabel": "ฟีเจอร์",
       "comparisonRows": [
         {
@@ -5281,8 +5281,8 @@ export const generatedLocalCopy = {
       "pulseTitle": "ฟีเจอร์ Pulse ตามระดับ",
       "pulseDescription": "Pulse เป็นเครื่องมือติดตามการดำเนินงานระหว่างวัน ซึ่งมีให้บริการในระดับ Core",
       "pulseColumns": {
-        "report": "รายงาน (ฟรี)",
-        "core": "แกน"
+        "report": "Report (ฟรี)",
+        "core": "Core"
       },
       "pulseRows": [
         {
@@ -5292,70 +5292,70 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "การติดตามยอดขายแบบเรียลไทม์",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "เป้าหมายพื้นฐาน (แบบแมนนวล, อัตโนมัติ)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "เป้าหมายปัญญาประดิษฐ์ที่ปรับตัวได้",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "การติดตามจำนวนพนักงาน",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "ปัญญาประสิทธิภาพแรงงาน (SPLH, CPLH)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "การแยกต้นทุนการทำงานเป็นกะ",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "กระดานผู้นำพนักงาน (รายวัน)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "กระดานผู้นำพนักงาน (รายชั่วโมง, ตามช่วงเวลา, พร้อมการเปรียบเทียบ)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "การตรวจสอบการรั่วไหล",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "โค้ชการทำงานของ Sundae",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "การแจ้งเตือน & แผนการทำงาน",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "โหมดกระดานติดผนัง",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
       "watchtowerTitle": "ฟีเจอร์ Watchtower ตามระดับ",
       "watchtowerDescription": "ข้อมูลภายนอกที่มีให้ในระดับ Core",
       "watchtowerColumns": {
-        "report": "รายงาน (ฟรี)",
-        "core": "แกน"
+        "report": "Report (ฟรี)",
+        "core": "Core"
       },
       "watchtowerRows": [
         {
@@ -5365,54 +5365,54 @@ export const generatedLocalCopy = {
         },
         {
           "feature": "การสรุปข้อมูลข่าวกรองรายวัน",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "การติดตามคู่แข่ง (สูงสุด 5 ราย)",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "การติดตามคู่แข่ง (สูงสุด 10+)",
-          "report": "—",
+          "report": "-",
           "core": "✓ (ขึ้นอยู่กับระดับ)"
         },
         {
           "feature": "การวิเคราะห์ความรู้สึกจากรีวิว",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "การค้นหากิจกรรมท้องถิ่น",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "การประเมินผลกระทบของกิจกรรม",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "ข้อมูลข่าวกรองปฏิทินทางศาสนา",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "การติดตามภูมิทัศน์ตลาด",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         },
         {
           "feature": "แนวโน้มและสัญญาณมหภาค",
-          "report": "—",
+          "report": "-",
           "core": "✓"
         }
       ],
       "decisionTitle": "ต้นไม้การตัดสินใจ: ระดับไหน?",
       "decisionDescription": "ตอบคำถามเหล่านี้เพื่อค้นหาชั้นของคุณ",
       "decisionYes": "ใช่",
-      "decisionNo": "ไม่มี",
+      "decisionNo": "ไม่",
       "decisionItems": [
         {
           "question": "ต้องการความเร็วในการดำเนินงานหรือไม่?",
@@ -5459,7 +5459,7 @@ export const generatedLocalCopy = {
       "finalTitle": "ดูราคาสำหรับการดำเนินงานของคุณ",
       "finalDescription": "เครื่องคิดเลขแบบโต้ตอบแสดงต้นทุนสำหรับทั้งสองระดับตามจำนวนสถานที่ของคุณ.",
       "finalPricing": "ดูราคา",
-      "finalStartFree": "Start with Report Lite",
+      "finalStartFree": "เริ่มต้นด้วย Report Lite",
       "finalBookDemo": "จองการสาธิต"
     }
   }

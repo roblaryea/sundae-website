@@ -173,7 +173,7 @@ export default function BlogPage() {
                 onClick={() => setSelectedCategory(category)}
                 className={`px-6 py-2 rounded-full font-medium text-sm transition-all ${
                   selectedCategory === category
-                    ? 'bg-slate-900 text-[var(--text-primary)] shadow-lg'
+                    ? 'bg-[#FF5C4D]/10 text-[#FF5C4D] shadow-lg'
                     : 'bg-[var(--surface-subtle)] text-[var(--text-secondary)] hover:bg-slate-200'
                 }`}
               >

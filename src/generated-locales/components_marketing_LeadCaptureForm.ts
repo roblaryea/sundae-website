@@ -12,7 +12,7 @@ export const generatedLocalCopy = {
         "countryCode": "رمز البلد مطلوب",
         "phone": "رقم الهاتف مطلوب",
         "numberOfLocations": "عدد المواقع مطلوب",
-        "primaryPOS": "Primary POS/system is required",
+        "primaryPOS": "نظام POS/النظام الأساسي مطلوب",
         "message": "يرجى تقديم بعض السياق حول احتياجاتك"
       },
       "validEmail": "يرجى إدخال عنوان بريد إلكتروني صالح",
@@ -30,7 +30,7 @@ export const generatedLocalCopy = {
         "country": "البلد",
         "phone": "رقم الهاتف",
         "numberOfLocations": "عدد المواقع",
-        "primaryPOS": "Primary POS/System Used",
+        "primaryPOS": "نظام POS/النظام الأساسي المستخدم",
         "message": "أخبرنا عن احتياجاتك"
       },
       "placeholders": {
@@ -41,7 +41,7 @@ export const generatedLocalCopy = {
         "country": "اختر بلدك",
         "phone": "555 123 4567",
         "numberOfLocations": "اختر عدد المواقع",
-        "primaryPOS": "e.g., Toast, Square, Oracle Simphony",
+        "primaryPOS": "مثال: Toast، Square، Oracle Simphony",
         "message": "أخبرنا عن تحدياتك، أهدافك، أو اهتماماتك المحددة..."
       },
       "locationOptions": [
@@ -383,7 +383,7 @@ export const generatedLocalCopy = {
         "country": "अपने देश का चयन करें",
         "phone": "555 123 4567",
         "numberOfLocations": "स्थान की संख्या का चयन करें",
-        "primaryPOS": "e.g., Toast, Square, Oracle Simphony",
+        "primaryPOS": "जैसे, Toast, Square, Oracle Simphony",
         "message": "हमें अपनी चुनौतियों, लक्ष्यों या विशिष्ट रुचियों के बारे में बताएं..."
       },
       "locationOptions": [
@@ -440,7 +440,7 @@ export const generatedLocalCopy = {
         "country": "اپنا ملک منتخب کریں",
         "phone": "555 123 4567",
         "numberOfLocations": "مقامات کی تعداد منتخب کریں",
-        "primaryPOS": "e.g., Toast, Square, Oracle Simphony",
+        "primaryPOS": "مثلاً، Toast، Square، Oracle Simphony",
         "message": "ہمیں اپنی چیلنجز، مقاصد، یا مخصوص دلچسپیوں کے بارے میں بتائیں..."
       },
       "locationOptions": [
@@ -525,7 +525,7 @@ export const generatedLocalCopy = {
         "countryCode": "Kod kraju jest wymagany",
         "phone": "Numer telefonu jest wymagany",
         "numberOfLocations": "Liczba lokalizacji jest wymagana",
-        "primaryPOS": "Główny system POS/jest wymagany",
+        "primaryPOS": "Główny system POS jest wymagany",
         "message": "Proszę podać kontekst dotyczący Twoich potrzeb"
       },
       "validEmail": "Proszę wpisać prawidłowy adres e-mail",
@@ -543,7 +543,7 @@ export const generatedLocalCopy = {
         "country": "Kraj",
         "phone": "Numer telefonu",
         "numberOfLocations": "Liczba lokalizacji",
-        "primaryPOS": "Główny system POS/używany",
+        "primaryPOS": "Główny używany system POS",
         "message": "Opowiedz nam o swoich potrzebach"
       },
       "placeholders": {
@@ -1067,7 +1067,7 @@ export const generatedLocalCopy = {
         "country": "আপনার দেশ নির্বাচন করুন",
         "phone": "৫৫৫ ১২৩ ৪৫৬৭",
         "numberOfLocations": "অবস্থান সংখ্যা নির্বাচন করুন",
-        "primaryPOS": "e.g., Toast, Square, Oracle Simphony",
+        "primaryPOS": "যেমন, Toast, Square, Oracle Simphony",
         "message": "আপনার চ্যালেঞ্জ, লক্ষ্য, বা নির্দিষ্ট আগ্রহ সম্পর্কে বলুন..."
       },
       "locationOptions": [

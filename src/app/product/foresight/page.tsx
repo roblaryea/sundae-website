@@ -9,6 +9,8 @@ import { useCta } from "@/lib/cta";
 import { PRICING_URL } from "@/lib/urls";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
+import { CreamBreak } from "@/components/ui/CreamBreak";
+import { foresightCreamCopy } from "../foresightCreamCopy";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_product_foresight_page'
 
@@ -135,12 +137,12 @@ const localizedForesightCopy: Record<'en' | 'ar' | 'fr' | 'es', ForesightPageCop
     componentsTitle: "Forecast. Simulate. Brief. Act.",
     componentsDescription: "From unified forecast timelines to Monte Carlo risk analysis, forecast-driven scheduling and purchasing, and executive briefings - every tool an operator needs to make forward-looking decisions.",
     components: [
-      { title: "Unified Forecast Timeline", headline: "Revenue, Labor, Food Cost - One Forward-Looking View", description: "See the next 14, 30, or 90 days across 17 business metrics in a single timeline. Confidence bands shrink as Foresight learns your patterns.", capabilities: ["22 metrics: revenue, covers, labor cost, food cost, profit, SPLH, RevPASH, and more", "14-365 day horizons with adaptive confidence tiers", "Confidence bands that tighten as accuracy improves", "Actual vs forecast overlay - updated daily", "Granularity from 15-minute slots to monthly aggregates"], icon: "forecasting", color: "from-cyan-500 to-blue-600" },
-      { title: "What-If Scenario Builder", headline: "Test Decisions Before You Make Them", description: "Change any assumption - pricing, staffing, capacity, marketing spend - and see the cascading impact across revenue, covers, costs, and profit.", capabilities: ["Adjust pricing, capacity, marketing, staffing, and cost assumptions", "Cascading impact across revenue, labor, food cost, and profit", "Side-by-side comparison of up to 5 scenarios", "Pre-built templates: pricing change, capacity expansion, marketing boost, cost reduction", "Sensitivity analysis with tornado diagrams"], icon: "data", color: "from-purple-500 to-purple-600" },
+      { title: "Unified Forecast Timeline", headline: "Revenue, Labor, Food Cost - One Forward-Looking View", description: "See the next 14, 30, or 90 days across 17 business metrics in a single timeline. Confidence bands shrink as Foresight learns your patterns.", capabilities: ["22 metrics: revenue, covers, labor cost, food cost, profit, SPLH, RevPASH, and more", "14-365 day horizons with adaptive confidence tiers", "Confidence bands that tighten as accuracy improves", "Actual vs forecast overlay - updated daily", "Granularity from 15-minute slots to monthly aggregates"], icon: "forecasting", color: "from-[#E9A24A] to-[#FF5C4D]" },
+      { title: "What-If Scenario Builder", headline: "Test Decisions Before You Make Them", description: "Change any assumption - pricing, staffing, capacity, marketing spend - and see the cascading impact across revenue, covers, costs, and profit.", capabilities: ["Adjust pricing, capacity, marketing, staffing, and cost assumptions", "Cascading impact across revenue, labor, food cost, and profit", "Side-by-side comparison of up to 5 scenarios", "Pre-built templates: pricing change, capacity expansion, marketing boost, cost reduction", "Sensitivity analysis with tornado diagrams"], icon: "data", color: "from-[#F2B45C] to-[#C2410C]" },
       { title: "Assumption Registry", headline: "Every Forecast Assumption - Visible, Editable, Auditable", description: "Foresight auto-detects 11 categories of assumptions from your data and lets you override anything while tracking what changed and why.", capabilities: ["Auto-detected assumptions from historical patterns", "Operator overrides with audit trail", "External signal injection (weather, events, competitor activity)", "Impact weight scoring per assumption"], icon: "insights", color: "from-emerald-500 to-teal-600" },
-      { title: "Cross-Module Dependencies", headline: "Understand How One Change Ripples Across Your Business", description: "A revenue increase drives labor demand, purchasing volume, inventory turnover, and profit margins. Foresight maps these cascading dependencies and quantifies them with correlation strength.", capabilities: ["Visual dependency graph across modules", "Correlation strength scoring (0-1) between connected metrics", "Cascade timing: revenue change to labor in 2 days, purchasing in 5", "Integrated P&L forecast", "Forecast-driven scheduling and purchasing"], icon: "architecture", color: "from-violet-500 to-purple-600" },
+      { title: "Cross-Module Dependencies", headline: "Understand How One Change Ripples Across Your Business", description: "A revenue increase drives labor demand, purchasing volume, inventory turnover, and profit margins. Foresight maps these cascading dependencies and quantifies them with correlation strength.", capabilities: ["Visual dependency graph across modules", "Correlation strength scoring (0-1) between connected metrics", "Cascade timing: revenue change to labor in 2 days, purchasing in 5", "Integrated P&L forecast", "Forecast-driven scheduling and purchasing"], icon: "architecture", color: "from-[#F4A259] to-[#C2410C]" },
       { title: "Accuracy Self-Correction", headline: "The Forecast That Gets Smarter Every Week", description: "Foresight measures its own accuracy and detects systematic bias. When bias is found, the model self-corrects.", capabilities: ["Rolling MAPE and RMSE tracked per metric", "Bias detection: direction, magnitude, and root cause", "Automatic self-correction when systematic bias is detected", "Correction log with before/after accuracy comparison"], icon: "performance", color: "from-green-500 to-emerald-600" },
-      { title: "Executive Briefing", headline: "Your Week Ahead - Summarized With Actions", description: "Every Monday at 6 AM, Foresight generates an executive briefing: forecast summary, key risks, opportunities, and prioritized action items.", capabilities: ["Weekly narrative briefing generated by Sundae Coach", "Prioritized action items: critical, high, medium", "Risk/opportunity identification with estimated financial impact", "Briefing history", "PDF export for stakeholder distribution"], icon: "intelligence", color: "from-blue-500 to-indigo-600" },
+      { title: "Executive Briefing", headline: "Your Week Ahead - Summarized With Actions", description: "Every Monday at 6 AM, Foresight generates an executive briefing: forecast summary, key risks, opportunities, and prioritized action items.", capabilities: ["Weekly narrative briefing generated by Sundae Coach", "Prioritized action items: critical, high, medium", "Risk/opportunity identification with estimated financial impact", "Briefing history", "PDF export for stakeholder distribution"], icon: "intelligence", color: "from-[#FF7E6F] to-[#E03E48]" },
       { title: "External Signal Integration", headline: "Weather, Events, Competitors, Holidays - Quantified", description: "Foresight ingests external signals and estimates their revenue impact with confidence scores.", capabilities: ["Weather impact models with hourly granularity", "Local event intelligence", "Competitor activity tracking", "Holiday and seasonal calendar", "Economic indicators"], icon: "watchtower", color: "from-amber-500 to-orange-600" },
       { title: "Monte Carlo Risk Analysis", headline: "1,000 Simulations. One Probability Distribution.", description: "Run Monte Carlo simulations against your forecast to quantify downside risk and identify worst-case scenarios.", capabilities: ["1,000-iteration Monte Carlo simulation", "P10/P50/P90 outcome ranges with probability distributions", "Risk factor decomposition", "Stress testing and scenario isolation"], icon: "risk", color: "from-rose-500 to-pink-600" },
     ],
@@ -190,12 +192,12 @@ const localizedForesightCopy: Record<'en' | 'ar' | 'fr' | 'es', ForesightPageCop
     componentsTitle: "توقع. حاكى. لخّص. تحرك.",
     componentsDescription: "من الخط الزمني الموحد إلى تحليل المخاطر Monte Carlo، والجدولة والمشتريات المبنية على التوقع، والتقارير التنفيذية - كل أداة يحتاجها المشغل لاتخاذ قرارات استباقية.",
     components: [
-      { title: "الخط الزمني الموحد للتوقع", headline: "الإيرادات والعمالة وتكلفة الطعام - رؤية واحدة مستقبلية", description: "شاهد الأيام 14 أو 30 أو 90 التالية عبر 17 مقياساً في خط زمني واحد. تضيق نطاقات الثقة مع تعلّم Foresight لأنماطك.", capabilities: ["22 مقياساً: الإيرادات، العملاء، العمالة، تكلفة الطعام، الربح، SPLH، RevPASH وأكثر", "آفاق 14-365 يوماً مع مستويات ثقة متدرجة", "نطاقات ثقة تتقارب مع تحسن الدقة", "تراكب الفعلي مقابل المتوقع محدث يومياً", "تفصيل من 15 دقيقة إلى تجميع شهري"], icon: "forecasting", color: "from-cyan-500 to-blue-600" },
-      { title: "منشئ السيناريوهات ماذا لو", headline: "اختبر القرارات قبل اتخاذها", description: "غيّر أي افتراض - التسعير، العمالة، السعة، الإنفاق التسويقي - وشاهد الأثر المتسلسل على الإيرادات والربح.", capabilities: ["تعديل افتراضات التسعير والسعة والتسويق والعمالة والتكلفة", "أثر متسلسل على الإيرادات والعمالة والطعام والربح", "مقارنة حتى 5 سيناريوهات", "قوالب جاهزة: تغيير الأسعار، التوسعة، رفع التسويق، خفض التكاليف", "تحليل حساسية بمخططات tornado"], icon: "data", color: "from-purple-500 to-purple-600" },
+      { title: "الخط الزمني الموحد للتوقع", headline: "الإيرادات والعمالة وتكلفة الطعام - رؤية واحدة مستقبلية", description: "شاهد الأيام 14 أو 30 أو 90 التالية عبر 17 مقياساً في خط زمني واحد. تضيق نطاقات الثقة مع تعلّم Foresight لأنماطك.", capabilities: ["22 مقياساً: الإيرادات، العملاء، العمالة، تكلفة الطعام، الربح، SPLH، RevPASH وأكثر", "آفاق 14-365 يوماً مع مستويات ثقة متدرجة", "نطاقات ثقة تتقارب مع تحسن الدقة", "تراكب الفعلي مقابل المتوقع محدث يومياً", "تفصيل من 15 دقيقة إلى تجميع شهري"], icon: "forecasting", color: "from-[#E9A24A] to-[#FF5C4D]" },
+      { title: "منشئ السيناريوهات ماذا لو", headline: "اختبر القرارات قبل اتخاذها", description: "غيّر أي افتراض - التسعير، العمالة، السعة، الإنفاق التسويقي - وشاهد الأثر المتسلسل على الإيرادات والربح.", capabilities: ["تعديل افتراضات التسعير والسعة والتسويق والعمالة والتكلفة", "أثر متسلسل على الإيرادات والعمالة والطعام والربح", "مقارنة حتى 5 سيناريوهات", "قوالب جاهزة: تغيير الأسعار، التوسعة، رفع التسويق، خفض التكاليف", "تحليل حساسية بمخططات tornado"], icon: "data", color: "from-[#F2B45C] to-[#C2410C]" },
       { title: "سجل الافتراضات", headline: "كل افتراض متوقع - مرئي وقابل للتعديل والتدقيق", description: "يكتشف Foresight 11 فئة من الافتراضات من بياناتك ويتيح لك تجاوز أي افتراض مع تتبع ما تغيّر ولماذا.", capabilities: ["افتراضات مكتشفة تلقائياً من الأنماط التاريخية", "تجاوزات من المشغل مع سجل تدقيق", "إدخال إشارات خارجية (طقس، أحداث، نشاط منافسين)", "تقييم وزن الأثر لكل افتراض"], icon: "insights", color: "from-emerald-500 to-teal-600" },
-      { title: "التبعيات بين الوحدات", headline: "افهم كيف ينتشر تغيير واحد عبر عملك", description: "زيادة الإيرادات ترفع الطلب على العمالة والحجم الشرائي ودوران المخزون وهوامش الربح. يرسم Foresight هذه التبعيات ويقيسها بقوة الارتباط.", capabilities: ["مخطط تبعية مرئي عبر الوحدات", "تقييم قوة الارتباط بين المقاييس", "توقيت الانتشار: تغير الإيراد إلى العمالة في يومين، والمشتريات في 5", "توقع P&L متكامل", "جدولة ومشتريات مبنية على التوقع"], icon: "architecture", color: "from-violet-500 to-purple-600" },
+      { title: "التبعيات بين الوحدات", headline: "افهم كيف ينتشر تغيير واحد عبر عملك", description: "زيادة الإيرادات ترفع الطلب على العمالة والحجم الشرائي ودوران المخزون وهوامش الربح. يرسم Foresight هذه التبعيات ويقيسها بقوة الارتباط.", capabilities: ["مخطط تبعية مرئي عبر الوحدات", "تقييم قوة الارتباط بين المقاييس", "توقيت الانتشار: تغير الإيراد إلى العمالة في يومين، والمشتريات في 5", "توقع P&L متكامل", "جدولة ومشتريات مبنية على التوقع"], icon: "architecture", color: "from-[#F4A259] to-[#C2410C]" },
       { title: "تصحيح الدقة الذاتي", headline: "التوقع الذي يصبح أذكى كل أسبوع", description: "يقيس Foresight دقته ويكتشف الانحياز المنهجي. عند وجوده، يصحح النموذج نفسه تلقائياً.", capabilities: ["MAPE و RMSE متتالية لكل مقياس", "كشف الانحياز: الاتجاه والحجم والجذر", "تصحيح تلقائي عند ثبوت الانحياز", "سجل تصحيح قبل/بعد"], icon: "performance", color: "from-green-500 to-emerald-600" },
-      { title: "الملخص التنفيذي", headline: "أسبوعك القادم - ملخص بالإجراءات", description: "كل صباح اثنين، ينشئ Foresight ملخصاً تنفيذياً: الملخص التوقعي، المخاطر، الفرص، وخطوات العمل ذات الأولوية.", capabilities: ["ملخص سردي أسبوعي من Sundae Coach", "خطوات عمل مرتبة: حرجة، عالية، متوسطة", "تحديد المخاطر والفرص مع الأثر المالي المتوقع", "سجل الملخصات", "تصدير PDF"], icon: "intelligence", color: "from-blue-500 to-indigo-600" },
+      { title: "الملخص التنفيذي", headline: "أسبوعك القادم - ملخص بالإجراءات", description: "كل صباح اثنين، ينشئ Foresight ملخصاً تنفيذياً: الملخص التوقعي، المخاطر، الفرص، وخطوات العمل ذات الأولوية.", capabilities: ["ملخص سردي أسبوعي من Sundae Coach", "خطوات عمل مرتبة: حرجة، عالية، متوسطة", "تحديد المخاطر والفرص مع الأثر المالي المتوقع", "سجل الملخصات", "تصدير PDF"], icon: "intelligence", color: "from-[#FF7E6F] to-[#E03E48]" },
       { title: "دمج الإشارات الخارجية", headline: "الطقس والفعاليات والمنافسون والعطل - كلها مقاسة", description: "يستوعب Foresight الإشارات الخارجية ويقدّر أثرها على الإيرادات مع درجات الثقة.", capabilities: ["نماذج أثر الطقس بدقة ساعية", "ذكاء الفعاليات المحلية", "تتبع نشاط المنافسين", "تقويم العطل والموسمية", "مؤشرات اقتصادية"], icon: "watchtower", color: "from-amber-500 to-orange-600" },
       { title: "تحليل مخاطر Monte Carlo", headline: "1000 محاكاة. توزيع احتمال واحد.", description: "شغّل محاكاة Monte Carlo على توقعاتك لقياس المخاطر السلبية وتحديد أسوأ السيناريوهات.", capabilities: ["محاكاة 1000 مرة لكل فترة", "مخرجات P10/P50/P90 مع التوزيعات", "تفكيك عوامل المخاطر", "اختبار ضغط وعزل السيناريو"], icon: "risk", color: "from-rose-500 to-pink-600" },
     ],
@@ -245,12 +247,12 @@ const localizedForesightCopy: Record<'en' | 'ar' | 'fr' | 'es', ForesightPageCop
     componentsTitle: "Forecast. Simuler. Brief. Agir.",
     componentsDescription: "Des timelines unifiees au risque Monte Carlo, du scheduling pilote par le forecast aux briefings executives - chaque outil pour prendre de meilleures decisions.",
     components: [
-      { title: "Chronologie de forecast unifiee", headline: "Revenu, main-d'oeuvre, cout alimentaire - une vue orientee avenir", description: "Voyez les 14, 30 ou 90 prochains jours sur 17 metriques dans une seule timeline. Les bandes de confiance se resserrent.", capabilities: ["22 metriques : revenu, couverts, cout main-d'oeuvre, cout alimentaire, profit, SPLH, RevPASH et plus", "Horizons 14-365 jours avec niveaux de confiance adaptatifs", "Bandes de confiance qui se resserrent", "Overlay reel vs forecast mis a jour quotidiennement", "Granularite de 15 minutes au mensuel"], icon: "forecasting", color: "from-cyan-500 to-blue-600" },
-      { title: "Constructeur de scenarios", headline: "Testez les decisions avant de les prendre", description: "Changez un hypothese - prix, staffing, capacite, marketing - et voyez l'impact en cascade sur revenu, couverts, couts et profit.", capabilities: ["Ajustement des hypotheses de prix, capacite, marketing, staffing et cout", "Impact en cascade sur revenu, main-d'oeuvre, cout alimentaire et profit", "Comparaison de 5 scenarios max", "Templates predefinis", "Analyse de sensibilite"], icon: "data", color: "from-purple-500 to-purple-600" },
+      { title: "Chronologie de forecast unifiee", headline: "Revenu, main-d'oeuvre, cout alimentaire - une vue orientee avenir", description: "Voyez les 14, 30 ou 90 prochains jours sur 17 metriques dans une seule timeline. Les bandes de confiance se resserrent.", capabilities: ["22 metriques : revenu, couverts, cout main-d'oeuvre, cout alimentaire, profit, SPLH, RevPASH et plus", "Horizons 14-365 jours avec niveaux de confiance adaptatifs", "Bandes de confiance qui se resserrent", "Overlay reel vs forecast mis a jour quotidiennement", "Granularite de 15 minutes au mensuel"], icon: "forecasting", color: "from-[#E9A24A] to-[#FF5C4D]" },
+      { title: "Constructeur de scenarios", headline: "Testez les decisions avant de les prendre", description: "Changez un hypothese - prix, staffing, capacite, marketing - et voyez l'impact en cascade sur revenu, couverts, couts et profit.", capabilities: ["Ajustement des hypotheses de prix, capacite, marketing, staffing et cout", "Impact en cascade sur revenu, main-d'oeuvre, cout alimentaire et profit", "Comparaison de 5 scenarios max", "Templates predefinis", "Analyse de sensibilite"], icon: "data", color: "from-[#F2B45C] to-[#C2410C]" },
       { title: "Registre des hypotheses", headline: "Chaque hypothese - visible, editable, auditable", description: "Foresight detecte 11 categories d'hypotheses a partir de vos donnees et vous permet de remplacer n'importe laquelle.", capabilities: ["Hypotheses detectees automatiquement", "Overrides operateur avec audit trail", "Injection de signaux externes", "Score d'impact par hypothese"], icon: "insights", color: "from-emerald-500 to-teal-600" },
-      { title: "Dependances inter-modules", headline: "Comprenez comment un changement se propage", description: "Une hausse de revenu tire la main-d'oeuvre, les achats et les marges. Foresight mappe ces dependances et les quantifie.", capabilities: ["Graphique de dependances", "Score de correlation", "Timing de cascade", "Forecast P&L integre", "Scheduling et achats pilotes par forecast"], icon: "architecture", color: "from-violet-500 to-purple-600" },
+      { title: "Dependances inter-modules", headline: "Comprenez comment un changement se propage", description: "Une hausse de revenu tire la main-d'oeuvre, les achats et les marges. Foresight mappe ces dependances et les quantifie.", capabilities: ["Graphique de dependances", "Score de correlation", "Timing de cascade", "Forecast P&L integre", "Scheduling et achats pilotes par forecast"], icon: "architecture", color: "from-[#F4A259] to-[#C2410C]" },
       { title: "Auto-correction de precision", headline: "Le forecast qui devient meilleur chaque semaine", description: "Foresight mesure sa precision, detecte les biais systematiques, puis se corrige automatiquement.", capabilities: ["MAPE et RMSE suivis par metrique", "Detection de biais", "Auto-correction", "Journal de correction"], icon: "performance", color: "from-green-500 to-emerald-600" },
-      { title: "Briefing executif", headline: "Votre semaine a venir - resumee avec actions", description: "Chaque lundi a 6h, Foresight genere un briefing executif: resume du forecast, risques, opportunites et actions priorisees.", capabilities: ["Briefing narratif hebdomadaire", "Actions critiques/hautes/moyennes", "Identification des risques et opportunites", "Historique de briefing", "Export PDF"], icon: "intelligence", color: "from-blue-500 to-indigo-600" },
+      { title: "Briefing executif", headline: "Votre semaine a venir - resumee avec actions", description: "Chaque lundi a 6h, Foresight genere un briefing executif: resume du forecast, risques, opportunites et actions priorisees.", capabilities: ["Briefing narratif hebdomadaire", "Actions critiques/hautes/moyennes", "Identification des risques et opportunites", "Historique de briefing", "Export PDF"], icon: "intelligence", color: "from-[#FF7E6F] to-[#E03E48]" },
       { title: "Integration des signaux externes", headline: "Meteo, evenements, concurrents, jours feries - quantifies", description: "Foresight ingere des signaux externes et estime leur impact sur le revenu avec scores de confiance.", capabilities: ["Impact meteo horaire", "Intelligence des evenements locaux", "Suivi des concurrents", "Calendrier des jours feries", "Indicateurs economiques"], icon: "watchtower", color: "from-amber-500 to-orange-600" },
       { title: "Analyse de risque Monte Carlo", headline: "1000 simulations. Une distribution.", description: "Quantifiez le risque a la baisse et identifiez les pires scenarios.", capabilities: ["Simulation Monte Carlo 1000 iterations", "P10/P50/P90", "Decomposition des facteurs de risque", "Stress test et isolation des scenarios"], icon: "risk", color: "from-rose-500 to-pink-600" },
     ],
@@ -300,12 +302,12 @@ const localizedForesightCopy: Record<'en' | 'ar' | 'fr' | 'es', ForesightPageCop
     componentsTitle: "Prever. Simular. Resumir. Actuar.",
     componentsDescription: "Desde la linea temporal unificada hasta el riesgo Monte Carlo, pasando por scheduling y compras guiados por previsiones, y briefings ejecutivos.",
     components: [
-      { title: "Linea temporal unificada", headline: "Ingresos, mano de obra y comida - una sola vista hacia delante", description: "Ve los proximos 14, 30 o 90 dias en una sola linea temporal. Las bandas de confianza se estrechan a medida que aprende.", capabilities: ["22 metricas: ingresos, covers, mano de obra, comida, beneficio, SPLH, RevPASH y mas", "Horizontes de 14-365 dias", "Bandas que se estrechan", "Overlay real vs previsión", "Granularidad de 15 minutos a mensual"], icon: "forecasting", color: "from-cyan-500 to-blue-600" },
-      { title: "Constructor de escenarios", headline: "Prueba decisiones antes de tomarlas", description: "Cambia cualquier supuesto - precios, staffing, capacidad, marketing - y ve el impacto en cascada.", capabilities: ["Ajusta precios, capacidad, marketing, staffing y costes", "Impacto en cascada", "Comparacion de hasta 5 escenarios", "Plantillas preconstruidas", "Analisis de sensibilidad"], icon: "data", color: "from-purple-500 to-purple-600" },
+      { title: "Linea temporal unificada", headline: "Ingresos, mano de obra y comida - una sola vista hacia delante", description: "Ve los proximos 14, 30 o 90 dias en una sola linea temporal. Las bandas de confianza se estrechan a medida que aprende.", capabilities: ["22 metricas: ingresos, covers, mano de obra, comida, beneficio, SPLH, RevPASH y mas", "Horizontes de 14-365 dias", "Bandas que se estrechan", "Overlay real vs previsión", "Granularidad de 15 minutos a mensual"], icon: "forecasting", color: "from-[#E9A24A] to-[#FF5C4D]" },
+      { title: "Constructor de escenarios", headline: "Prueba decisiones antes de tomarlas", description: "Cambia cualquier supuesto - precios, staffing, capacidad, marketing - y ve el impacto en cascada.", capabilities: ["Ajusta precios, capacidad, marketing, staffing y costes", "Impacto en cascada", "Comparacion de hasta 5 escenarios", "Plantillas preconstruidas", "Analisis de sensibilidad"], icon: "data", color: "from-[#F2B45C] to-[#C2410C]" },
       { title: "Registro de supuestos", headline: "Cada supuesto - visible, editable y auditable", description: "Foresight detecta 11 categorias de supuestos y te deja sobrescribir cualquiera.", capabilities: ["Supuestos detectados automaticamente", "Overrides con audit trail", "Inyeccion de señales externas", "Puntuacion de impacto"], icon: "insights", color: "from-emerald-500 to-teal-600" },
-      { title: "Dependencias entre modulos", headline: "Entiende como un cambio se propaga", description: "Una subida de ingresos empuja mano de obra, compras, inventario y margenes. Foresight lo modela.", capabilities: ["Grafico de dependencias", "Puntuacion de correlacion", "Timing de cascada", "Prevision P&L", "Scheduling y compras guiadas"], icon: "architecture", color: "from-violet-500 to-purple-600" },
+      { title: "Dependencias entre modulos", headline: "Entiende como un cambio se propaga", description: "Una subida de ingresos empuja mano de obra, compras, inventario y margenes. Foresight lo modela.", capabilities: ["Grafico de dependencias", "Puntuacion de correlacion", "Timing de cascada", "Prevision P&L", "Scheduling y compras guiadas"], icon: "architecture", color: "from-[#F4A259] to-[#C2410C]" },
       { title: "Autocorreccion de precision", headline: "La previsión que mejora cada semana", description: "Mide su precision, detecta sesgo y se autocorrige.", capabilities: ["MAPE y RMSE por metrica", "Deteccion de sesgo", "Autocorreccion", "Registro de correcciones"], icon: "performance", color: "from-green-500 to-emerald-600" },
-      { title: "Briefing ejecutivo", headline: "Tu semana por delante - resumida con acciones", description: "Cada lunes a las 6 AM genera un briefing ejecutivo con resumen, riesgos, oportunidades y acciones priorizadas.", capabilities: ["Briefing semanal de Sundae Coach", "Acciones criticas/altas/medias", "Riesgo y oportunidad con impacto", "Historial de briefings", "Exportacion PDF"], icon: "intelligence", color: "from-blue-500 to-indigo-600" },
+      { title: "Briefing ejecutivo", headline: "Tu semana por delante - resumida con acciones", description: "Cada lunes a las 6 AM genera un briefing ejecutivo con resumen, riesgos, oportunidades y acciones priorizadas.", capabilities: ["Briefing semanal de Sundae Coach", "Acciones criticas/altas/medias", "Riesgo y oportunidad con impacto", "Historial de briefings", "Exportacion PDF"], icon: "intelligence", color: "from-[#FF7E6F] to-[#E03E48]" },
       { title: "Integracion de señales externas", headline: "Clima, eventos, competidores y festivos - medidos", description: "Ingiere señales externas y estima su impacto en ingresos con scores de confianza.", capabilities: ["Impacto del clima por hora", "Inteligencia de eventos locales", "Seguimiento de competidores", "Calendario de festivos", "Indicadores economicos"], icon: "watchtower", color: "from-amber-500 to-orange-600" },
       { title: "Riesgo Monte Carlo", headline: "1000 simulaciones. Una distribucion.", description: "Cuantifica el riesgo a la baja e identifica escenarios pesimos.", capabilities: ["Simulacion Monte Carlo 1000 veces", "P10/P50/P90", "Descomposicion de riesgo", "Stress test y aislamiento"], icon: "risk", color: "from-rose-500 to-pink-600" },
     ],
@@ -344,17 +346,17 @@ function ForecastTimelineMockup({ copy }: { copy: ForesightMockupCopy }) {
         </div>
         <div className="relative h-24 bg-[var(--surface-faint)] rounded-lg overflow-hidden">
           <svg viewBox="0 0 200 70" className="w-full h-full" preserveAspectRatio="none">
-            <path d="M0,45 L15,42 L30,38 L45,35 L60,33 L75,30 L90,28 L105,25 L120,22 L135,20 L150,25 L165,28 L180,22 L200,20 L200,55 L180,48 L165,52 L150,50 L135,42 L120,45 L105,48 L90,50 L75,53 L60,55 L45,55 L30,57 L15,57 L0,60 Z" fill="rgba(28,71,255,0.1)" />
+            <path d="M0,45 L15,42 L30,38 L45,35 L60,33 L75,30 L90,28 L105,25 L120,22 L135,20 L150,25 L165,28 L180,22 L200,20 L200,55 L180,48 L165,52 L150,50 L135,42 L120,45 L105,48 L90,50 L75,53 L60,55 L45,55 L30,57 L15,57 L0,60 Z" fill="rgba(255,92,77,0.1)" />
             <path d="M0,52 L15,50 L30,47 L45,44 L60,43 L75,41 L90,38" fill="none" stroke="#22C55E" strokeWidth="1.5" />
-            <path d="M90,38 L105,36 L120,33 L135,30 L150,37 L165,40 L180,35 L200,30" fill="none" stroke="#1C47FF" strokeWidth="1.5" />
+            <path d="M90,38 L105,36 L120,33 L135,30 L150,37 L165,40 L180,35 L200,30" fill="none" stroke="#FF5C4D" strokeWidth="1.5" />
             <line x1="90" y1="0" x2="90" y2="70" stroke="rgba(255,255,255,0.15)" strokeWidth="0.5" strokeDasharray="2,2" />
             <text x="90" y="8" fill="rgba(255,255,255,0.35)" fontSize="4" textAnchor="middle">{copy.timeline.today}</text>
           </svg>
         </div>
         <div className="flex items-center gap-3 text-[9px] text-[var(--text-muted)]">
           <span className="flex items-center gap-1"><span className="w-3 h-0.5 rounded-full bg-[#22C55E]" /> {copy.timeline.actual}</span>
-          <span className="flex items-center gap-1"><span className="w-3 h-0.5 rounded-full bg-[#1C47FF]" /> {copy.timeline.forecast}</span>
-          <span className="flex items-center gap-1"><span className="w-3 h-1.5 rounded-sm bg-[rgba(28,71,255,0.1)]" /> {copy.timeline.band}</span>
+          <span className="flex items-center gap-1"><span className="w-3 h-0.5 rounded-full bg-[#FF5C4D]" /> {copy.timeline.forecast}</span>
+          <span className="flex items-center gap-1"><span className="w-3 h-1.5 rounded-sm bg-[rgba(255,92,77,0.1)]" /> {copy.timeline.band}</span>
         </div>
         <MockupAlert type="info">{copy.timeline.alert}</MockupAlert>
       </div>
@@ -367,7 +369,7 @@ function ScenarioComparisonMockup({ copy }: { copy: ForesightMockupCopy }) {
     <MockupFrame label={copy.scenario.label}>
       <div className="space-y-3">
         <div className="grid grid-cols-2 gap-2">
-          <MockupKPI label={copy.scenario.baselineRev} value="$248K" color="#1C47FF" />
+          <MockupKPI label={copy.scenario.baselineRev} value="$248K" color="#FF5C4D" />
           <MockupKPI label={copy.scenario.scenarioRev} value="$271K" trend="+$23K" trendUp color="#22C55E" />
         </div>
         <div className="space-y-1.5">
@@ -410,8 +412,8 @@ function DependencyGraphMockup({ copy }: { copy: ForesightMockupCopy }) {
       <div className="space-y-3">
         <div className="relative h-32 bg-[var(--surface-faint)] rounded-lg overflow-hidden p-3">
           <svg viewBox="0 0 200 90" className="w-full h-full">
-            <rect x="5" y="30" width="35" height="18" rx="4" fill="rgba(28,71,255,0.2)" stroke="#1C47FF" strokeWidth="0.5" />
-            <text x="22" y="42" fill="#60A5FA" fontSize="5" textAnchor="middle" fontWeight="600">{revenue}</text>
+            <rect x="5" y="30" width="35" height="18" rx="4" fill="rgba(255,92,77,0.2)" stroke="#FF5C4D" strokeWidth="0.5" />
+            <text x="22" y="42" fill="#FF8473" fontSize="5" textAnchor="middle" fontWeight="600">{revenue}</text>
             <rect x="55" y="10" width="30" height="18" rx="4" fill="rgba(168,85,247,0.2)" stroke="#A855F7" strokeWidth="0.5" />
             <text x="70" y="22" fill="#C084FC" fontSize="5" textAnchor="middle" fontWeight="600">{labor}</text>
             <rect x="55" y="52" width="35" height="18" rx="4" fill="rgba(34,197,94,0.2)" stroke="#22C55E" strokeWidth="0.5" />
@@ -460,10 +462,10 @@ function BriefingCardMockup({ copy }: { copy: ForesightMockupCopy }) {
   return (
     <MockupFrame label={copy.briefing.label}>
       <div className="space-y-3">
-        <div className="p-3 rounded-lg bg-[rgba(28,71,255,0.06)] border border-[rgba(28,71,255,0.15)]">
+        <div className="p-3 rounded-lg bg-[rgba(255,92,77,0.06)] border border-[rgba(255,92,77,0.15)]">
           <div className="flex items-center gap-1.5 mb-2">
-            <div className="w-5 h-5 rounded-full bg-[#1C47FF] flex items-center justify-center"><span className="text-[9px] text-white font-bold">S</span></div>
-            <span className="text-[10px] font-semibold text-[var(--text-secondary)]">{copy.briefing.coach} — {copy.briefing.week}</span>
+            <div className="w-5 h-5 rounded-full bg-[#FF5C4D] flex items-center justify-center"><span className="text-[9px] text-white font-bold">S</span></div>
+            <span className="text-[10px] font-semibold text-[var(--text-secondary)]">{copy.briefing.coach} - {copy.briefing.week}</span>
           </div>
           <p className="text-[9px] text-[var(--text-supporting)] leading-relaxed mb-2">{copy.briefing.summary}</p>
           <div className="space-y-1">
@@ -526,13 +528,13 @@ function MonteCarloMockup({ copy }: { copy: ForesightMockupCopy }) {
       <div className="space-y-3">
         <div className="grid grid-cols-3 gap-2">
           <MockupKPI label={copy.monteCarlo.bestCase} value="$285K" color="#22C55E" />
-          <MockupKPI label={copy.monteCarlo.mostLikely} value="$248K" color="#1C47FF" />
+          <MockupKPI label={copy.monteCarlo.mostLikely} value="$248K" color="#FF5C4D" />
           <MockupKPI label={copy.monteCarlo.worstCase} value="$218K" color="#FF5450" />
         </div>
         <div className="relative h-16 bg-[var(--surface-faint)] rounded-lg overflow-hidden">
           <svg viewBox="0 0 200 50" className="w-full h-full" preserveAspectRatio="none">
-            <path d="M10,48 C30,48 50,45 70,35 C90,20 100,8 110,8 C120,8 130,20 150,35 C170,45 180,48 200,48" fill="rgba(28,71,255,0.15)" stroke="#1C47FF" strokeWidth="1" />
-            <line x1="110" y1="0" x2="110" y2="50" stroke="#1C47FF" strokeWidth="0.5" strokeDasharray="2,2" />
+            <path d="M10,48 C30,48 50,45 70,35 C90,20 100,8 110,8 C120,8 130,20 150,35 C170,45 180,48 200,48" fill="rgba(255,92,77,0.15)" stroke="#FF5C4D" strokeWidth="1" />
+            <line x1="110" y1="0" x2="110" y2="50" stroke="#FF5C4D" strokeWidth="0.5" strokeDasharray="2,2" />
             <text x="110" y="47" fill="rgba(255,255,255,0.4)" fontSize="4" textAnchor="middle">$248K</text>
             <line x1="55" y1="0" x2="55" y2="50" stroke="#FF5450" strokeWidth="0.3" strokeDasharray="1,2" />
             <text x="55" y="47" fill="rgba(255,84,80,0.5)" fontSize="3.5" textAnchor="middle">P10</text>
@@ -568,6 +570,7 @@ export default function ForesightPage() {
   const cta = useCta();
   const { locale } = useWebsiteI18n();
   const ui = localizedForesightCopy[locale as keyof typeof localizedForesightCopy] ?? getGeneratedLocalCopy(localizedForesightCopy, generatedLocalCopy.localizedForesightCopy, locale) ?? localizedForesightCopy.en;
+  const cream = foresightCreamCopy[locale as keyof typeof foresightCreamCopy] ?? foresightCreamCopy.en;
   const mockups = ui.mockups;
 
   return (
@@ -602,6 +605,9 @@ export default function ForesightPage() {
         </div>
       </section>
 
+      {/* Cream relief - early warm break BEFORE the long dark forecast-mockup stretch (the volume system) */}
+      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
+
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-5xl mx-auto">
           <FadeUp className="text-center mb-12">
@@ -612,7 +618,7 @@ export default function ForesightPage() {
             {ui.howSteps.map((step) => (
               <StaggerItem key={step.step}>
                 <div className="text-center p-6 rounded-2xl bg-[var(--navy-deep)] border border-[var(--border-default)]">
-                  <div className="w-12 h-12 mx-auto mb-4 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl flex items-center justify-center">
+                  <div className="w-12 h-12 mx-auto mb-4 bg-gradient-to-br from-[#E9A24A] to-[#FF5C4D] rounded-xl flex items-center justify-center">
                     <SundaeIcon name={step.icon} size="lg" className="text-white" />
                   </div>
                   <div className="text-xs font-mono text-cyan-400 mb-2">{step.step}</div>
@@ -691,7 +697,7 @@ export default function ForesightPage() {
         </div>
       </section>
 
-      {/* Product gallery — Foresight surfaces in detail */}
+      {/* Product gallery - Foresight surfaces in detail */}
       <SectionProductGallery
         productFilter="/product/foresight"
         hideFilter

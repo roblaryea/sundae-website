@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Fraunces, Hanken_Grotesk, Geist_Mono } from "next/font/google";
 import { cookies, headers } from "next/headers";
 import { Analytics } from "@vercel/analytics/next";
 import { BotIdClient } from "botid/client";
@@ -24,11 +24,22 @@ import {
 } from "@/lib/i18n";
 import { LocaleProvider } from "@/components/i18n/LocaleProvider";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+// Display - warm, optical serif for headlines & key numbers (the human, premium voice).
+const fraunces = Fraunces({
+  variable: "--font-fraunces",
   subsets: ["latin"],
+  style: ["normal", "italic"],
+  display: "swap",
 });
 
+// Body / UI - friendly, legible grotesk; the default sans (replaces Geist).
+const hankenGrotesk = Hanken_Grotesk({
+  variable: "--font-hanken",
+  subsets: ["latin"],
+  display: "swap",
+});
+
+// Mono - retained for tabular / data labels.
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
@@ -127,10 +138,10 @@ export default async function RootLayout({
   const dir = websiteLocaleDirection[locale];
 
   return (
-    <html lang={locale} dir={dir} className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning>
+    <html lang={locale} dir={dir} className={`${fraunces.variable} ${hankenGrotesk.variable} ${geistMono.variable}`} suppressHydrationWarning>
       <head>
         <ThemeScript />
-        {/* Vercel BotID — instruments the expensive AI diagnostic endpoint so
+        {/* Vercel BotID - instruments the expensive AI diagnostic endpoint so
             bots/crawlers are classified client-side and rejected server-side
             (see src/app/api/diagnostic/route.ts) before any paid model call. */}
         <BotIdClient protect={[{ path: "/api/diagnostic", method: "POST" }]} />
@@ -141,7 +152,7 @@ export default async function RootLayout({
       <body className="antialiased overflow-x-hidden bg-[var(--navy-deep)] text-[var(--text-primary)] transition-colors duration-300">
         <a
           href="#main-content"
-          className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-blue-600 focus:text-white focus:rounded-lg focus:outline-none"
+          className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-[#FF5C4D] focus:text-white focus:rounded-lg focus:outline-none"
         >
           {messages.layout.skipToContent}
         </a>

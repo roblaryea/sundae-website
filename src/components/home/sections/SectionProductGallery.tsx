@@ -1,7 +1,7 @@
 "use client";
 
 /**
- * Product gallery section — addresses the "show me the product" critique
+ * Product gallery section - addresses the "show me the product" critique
  * from external reviewers. Surfaces 12 curated screenshots from the live
  * Sundae app, tagged by persona, deep-linked to the relevant product page.
  *
@@ -12,7 +12,7 @@
  *   • Each card: screenshot + persona tag + what-you-see caption +
  *     deep link to relevant product page
  *
- * All assets already exist in /public/images/product/ — no new
+ * All assets already exist in /public/images/product/ - no new
  * captures needed for v1. Future passes can swap in higher-resolution
  * captures or persona-specific synthetic-data variants.
  */
@@ -74,10 +74,10 @@ const GALLERY: GalleryItem[] = [
   {
     id: "insights-exec-summary",
     src: "/images/product/2026-fresh/insights-exec-summary.png",
-    alt: "Executive Summary — KPIs, alerts, and health scores across every module",
+    alt: "Executive Summary - KPIs, alerts, and health scores across every module",
     caption: "Executive Summary",
     whatYouSee:
-      "Bird's-eye view: 78/100 avg health, 10 open alerts (7 high-severity), Revenue 93 / Labor 100 / Inventory 73 module scorecards. \"Most pressing: Food cost variance at 19.2% exceeds 5% critical threshold.\"",
+      "One health score across every module - revenue, labor, inventory - surfaces the single thing that needs you today, here a food-cost variance running well above where it should be, so nothing important hides in a report until it's too late.",
     personas: ["c_suite"],
     productHref: "/insights",
     productLabel: "Insights →",
@@ -85,10 +85,10 @@ const GALLERY: GalleryItem[] = [
   {
     id: "daily-insights",
     src: "/images/product/2026-fresh/daily-insights.png",
-    alt: "Daily Insights — weather, competitor watch, and tomorrow's recommendation",
+    alt: "Daily Insights - weather, competitor watch, and tomorrow's recommendation",
     caption: "Daily Insights",
     whatYouSee:
-      "69.6°F partly cloudy — \"Dine-in risk: Low.\" Expected lunch traffic +5%, dinner +3%. Tomorrow's recommendation: \"Staff +1 FOH for lunch window.\" Competitor Watch ranks 4 nearby restaurants by rating.",
+      "Tomorrow read before it happens - weather, expected lunch and dinner traffic, and nearby competitor activity all fold into one clear recommendation, like staffing an extra front-of-house hand for the lunch window, so you plan the day instead of reacting to it.",
     personas: ["c_suite", "multi_loc"],
     productHref: "/core",
     productLabel: "Sundae Core →",
@@ -96,23 +96,23 @@ const GALLERY: GalleryItem[] = [
   {
     id: "intelligence",
     src: "/images/product/2026-fresh/intelligence.png",
-    alt: "Sundae Intelligence — conversational decision interface",
+    alt: "Sundae Intelligence - conversational decision interface",
     caption: "Sundae Intelligence",
     whatYouSee:
-      "AED 96,555 today's revenue, 379 orders, \"New York Strip (40 sold).\" Threads sidebar with Collections (Delivery, Menu, Revenue, Labor). Suggested: \"Banana Bread surged into top sellers yesterday — what's driving this?\"",
+      "Ask your data in plain language and get an answer grounded in tonight's real numbers - AED 96,555 in revenue across 379 orders, your top sellers, and a suggested follow-up when something like Banana Bread suddenly climbs the menu. Threads and collections keep every line of questioning where you left it.",
     personas: ["operations", "cfo", "c_suite"],
     productHref: "/intelligence",
     productLabel: "Sundae Intelligence →",
   },
 
-  // ─── Pulse — Operations command ──────────────────────────────
+  // ─── Pulse - Operations command ──────────────────────────────
   {
     id: "pulse-wallboard",
     src: "/images/product/2026-fresh/pulse-wallboard.png",
-    alt: "Pulse Wallboard — live shift performance with target gap",
-    caption: "Pulse — Live Wallboard",
+    alt: "Pulse Wallboard - live shift performance with target gap",
+    caption: "Pulse - Live Wallboard",
     whatYouSee:
-      "Mallow & Mint Cafe — Actual AED 10,300 vs Target AED 28,000. \"Need AED 9,133.21/hr to hit target.\" Gap to expected AED -14,060. 37% progress with outlet selector + Behind status indicator.",
+      "The live shift, in one glance - actual sales against target for Mallow & Mint Cafe, with the exact hourly pace it takes to close the gap before service ends. The manager knows where the day stands while there's still time to act on it.",
     personas: ["operations", "multi_loc"],
     productHref: "/product/pulse",
     productLabel: "Pulse →",
@@ -120,10 +120,10 @@ const GALLERY: GalleryItem[] = [
   {
     id: "pulse-leaderboard",
     src: "/images/product/2026-fresh/pulse-leaderboard.png",
-    alt: "Pulse Leaderboard — multi-outlet portfolio comparison",
-    caption: "Pulse — Portfolio Leaderboard",
+    alt: "Pulse Leaderboard - multi-outlet portfolio comparison",
+    caption: "Pulse - Portfolio Leaderboard",
     whatYouSee:
-      "4 outlets ranked: Amber Ash & Eatery 🥇 AED 46,200 (231% vs target), Palmstone Grillhouse 🥈, Amber Glow US 🥉, Mallow & Mint Cafe (At Risk · 69% vs target). Avg vs Target 147% across the portfolio.",
+      "Every outlet ranked against its own target on one board - Amber Ash & Eatery leading at 231%, the portfolio averaging 147% - so you see in seconds which locations are carrying the week and which one needs your attention next.",
     personas: ["operations", "multi_loc"],
     productHref: "/product/pulse",
     productLabel: "Pulse →",
@@ -131,10 +131,10 @@ const GALLERY: GalleryItem[] = [
   {
     id: "pulse-coach",
     src: "/images/product/2026-fresh/pulse-coach.png",
-    alt: "Pulse Coach — specific shift-level coaching with action items",
-    caption: "Pulse — AI Coach",
+    alt: "Pulse Coach - specific shift-level coaching with action items",
+    caption: "Pulse - AI Coach",
     whatYouSee:
-      "Shift Coach for Mallow & Mint Cafe. Today's Priorities (3): \"Sales Coaching · Team — Shift is behind pace, 1.9h remaining to close the gap.\" \"Leakage Coaching · James W. has a higher-than-average void count.\"",
+      "The shift turned into a short, ranked list of what to do right now - where to push sales with hours still on the clock, and which server to quietly check in with on voids - so coaching is specific and timely instead of a debrief after the day is already lost.",
     personas: ["operations"],
     productHref: "/product/pulse",
     productLabel: "Pulse →",
@@ -142,23 +142,23 @@ const GALLERY: GalleryItem[] = [
   {
     id: "pulse-leakage",
     src: "/images/product/2026-fresh/pulse-leakage.png",
-    alt: "Pulse Leakage — live voids, comps, and discount alerts",
-    caption: "Pulse — Leakage Detection",
+    alt: "Pulse Leakage - live voids, comps, and discount alerts",
+    caption: "Pulse - Leakage Detection",
     whatYouSee:
-      "Voids 5 (AED 500), Comps 4 (AED 500), Refunds 1 (AED 85). Active alerts: \"Elevated comp rate — Maria C. issued 4 comps in 3 hours, 2 flagged as policy violations. Immediate manager review required.\" + Review/Approval action buttons.",
+      "Every void, comp, and refund as it happens, with the unusual ones surfaced by server - here a run of comps worth a closer look - and review and approval controls right beside them, so margin that quietly leaks at the till gets caught the same shift, not at month-end.",
     personas: ["cfo", "operations"],
     productHref: "/product/pulse",
     productLabel: "Pulse →",
   },
 
-  // ─── Insights — Module depth ─────────────────────────────────
+  // ─── Insights - Module depth ─────────────────────────────────
   {
     id: "insights-revenue",
     src: "/images/product/2026-fresh/insights-revenue.png",
-    alt: "Revenue Intelligence — module with health score and KPIs",
-    caption: "Insights — Revenue Intelligence",
+    alt: "Revenue Intelligence - module with health score and KPIs",
+    caption: "Insights - Revenue Intelligence",
     whatYouSee:
-      "Module Health Score 93. NET REVENUE AED 4,018,134 (On Track, +0.5%), REVENUE GROWTH 1.3% (Critical), AVG CHECK AED 1,330, RevPASH AED 92.62, TOTAL COVERS 43,489. Six sub-tabs: Sales, Menu & Mix, Daypart, Servers, Channels, Alerts.",
+      "Your revenue picture on one screen - net revenue, average check, RevPASH and covers, scored into a single health number - then drill straight into sales, menu mix, daypart, servers, or channels to see exactly where the growth is coming from.",
     personas: ["cfo"],
     productHref: "/insights",
     productLabel: "Insights →",
@@ -166,10 +166,10 @@ const GALLERY: GalleryItem[] = [
   {
     id: "insights-labor",
     src: "/images/product/2026-fresh/insights-labor.png",
-    alt: "Labor Intelligence — workforce cost + productivity analytics",
-    caption: "Insights — Labor Intelligence",
+    alt: "Labor Intelligence - workforce cost + productivity analytics",
+    caption: "Insights - Labor Intelligence",
     whatYouSee:
-      "Module Health Score 100. LABOR COST % 25.3% (On Track), SPLH AED 713.14 (+2.5%), OVERTIME 2.0%, SCHED VARIANCE 2.7%, REV/LABOR AED 26.06, UTILIZATION 100%. Sparklines under each KPI + 9 sub-tabs including Workforce Health and No-Show Benchmark.",
+      "The whole labor story in one place - cost percentage, sales per labor hour, overtime, schedule variance and utilization, each with its own trend - extending all the way into workforce health and a no-show benchmark, so you manage the team by signal rather than gut feel.",
     personas: ["cfo", "operations"],
     productHref: "/insights",
     productLabel: "Insights →",
@@ -177,10 +177,10 @@ const GALLERY: GalleryItem[] = [
   {
     id: "insights-profit",
     src: "/images/product/2026-fresh/insights-profit.png",
-    alt: "Profit Intelligence — P&L analysis with cost waterfall",
-    caption: "Insights — Profit Intelligence",
+    alt: "Profit Intelligence - P&L analysis with cost waterfall",
+    caption: "Insights - Profit Intelligence",
     whatYouSee:
-      "Module Health 83. PRIME COST 66.9% (Critical — exceeds 70% threshold), NET PROFIT MARGIN 23.1%, BREAK-EVEN RATIO 76.9%. P&L Summary + Cost Waterfall: REVENUE AED 2,617,798 → TOTAL COSTS AED 2,058,961 → NET PROFIT AED 558,837.",
+      "A full P&L read at a glance - prime cost, net margin and break-even ratio - with a cost waterfall that walks revenue down through every cost line to net profit, so you can see precisely where each dirham goes and which lever moves the bottom line.",
     personas: ["cfo"],
     productHref: "/insights",
     productLabel: "Insights →",
@@ -188,10 +188,10 @@ const GALLERY: GalleryItem[] = [
   {
     id: "insights-marketing",
     src: "/images/product/2026-fresh/insights-marketing.png",
-    alt: "Marketing Intelligence — ROAS, CAC, and channel performance",
-    caption: "Insights — Marketing Performance",
+    alt: "Marketing Intelligence - ROAS, CAC, and channel performance",
+    caption: "Insights - Marketing Performance",
     whatYouSee:
-      "Module Health 52. ROAS 1.2x (Critical — below 2x threshold), CAC AED 23,312 (Critical), LTV:CAC 0.7x (Critical), CONVERSION 7.1% (On Track), TOTAL SPEND AED 495,665. Six sub-tabs: Channels, Customers, Campaigns, Alerts.",
+      "The honest return on every marketing dirham - ROAS, cost to acquire a customer, LTV-to-CAC and conversion against total spend - so you can tell which campaigns and channels actually pay for themselves before you renew the budget.",
     personas: ["marketing", "cfo"],
     productHref: "/insights",
     productLabel: "Insights →",
@@ -199,10 +199,10 @@ const GALLERY: GalleryItem[] = [
   {
     id: "marketing-channels",
     src: "/images/product/2026-fresh/marketing-channels.png",
-    alt: "Marketing Intelligence — channel attribution and efficiency frontier",
-    caption: "Insights — Channel Attribution",
+    alt: "Marketing Intelligence - channel attribution and efficiency frontier",
+    caption: "Insights - Channel Attribution",
     whatYouSee:
-      "Channel Performance across 5 channels — AED 2.16M spend → AED 581K listed revenue, 0.3x avg ROAS, 364,607 conversions. Meta is top performer (AED 122,923 · 21.2% of revenue) ahead of TikTok, with an Efficiency Frontier scatter and a Budget Optimizer surfacing where the next dollar should go.",
+      "Every paid channel attributed back to the revenue it actually drove - Meta out front of TikTok and the rest - with an efficiency frontier and a budget optimizer that show you exactly where the next dollar should go instead of where it went last month.",
     personas: ["marketing"],
     productHref: "/insights",
     productLabel: "Insights →",
@@ -210,23 +210,23 @@ const GALLERY: GalleryItem[] = [
   {
     id: "marketing-customers",
     src: "/images/product/2026-fresh/marketing-customers.png",
-    alt: "Marketing Intelligence — customer segments, retention, and lifetime value",
-    caption: "Insights — Customer Intelligence",
+    alt: "Marketing Intelligence - customer segments, retention, and lifetime value",
+    caption: "Insights - Customer Intelligence",
     whatYouSee:
-      "Acquisition vs Retention — 153 new, 207 returning, +360 net growth — over a cohort retention curve, beside Customer Segment Cards: regular (LTV AED 954K · 33 visits/mo), corporate (AED 538K · 18.5/mo), casual (AED 232K), tourist (AED 58K). Spend, frequency and lifetime value per segment, here for Amber Glow US + Mallow & Mint Cafe.",
+      "Who's coming back and who you're losing - new against returning guests over a cohort retention curve - broken into segments from regulars to corporate to tourists, each with its own spend, visit frequency and lifetime value, so loyalty becomes a number you can grow on purpose.",
     personas: ["marketing"],
     productHref: "/insights",
     productLabel: "Insights →",
   },
 
-  // ─── Foresight — Predictive intelligence ─────────────────────
+  // ─── Foresight - Predictive intelligence ─────────────────────
   {
     id: "foresight-scenarios",
     src: "/images/product/2026-fresh/foresight-scenarios.png",
-    alt: "Foresight Scenarios — scenario library with quick-start templates",
-    caption: "Foresight — Scenarios",
+    alt: "Foresight Scenarios - scenario library with quick-start templates",
+    caption: "Foresight - Scenarios",
     whatYouSee:
-      "5 scenarios saved, 10 pre-built templates: 5% Price Increase, 10% Labor Reduction, Supplier Cost Increase (+8%), Marketing Campaign Push, Peak Season Surge, Off-Peak Dip, Delivery Channel Expansion, Capacity Expansion, Worst Case. Sidebar: PREDICT / MODEL / TRUST / DECIDE.",
+      "Model the decision before you commit to it. Start from a ready-made scenario - a 5% price move, a 10% labor cut, a supplier increase, a peak-season surge - and save your own, so the big calls get pressure-tested on paper first.",
     personas: ["cfo", "c_suite"],
     productHref: "/product/foresight",
     productLabel: "Foresight →",
@@ -234,10 +234,10 @@ const GALLERY: GalleryItem[] = [
   {
     id: "foresight-modeler",
     src: "/images/product/2026-fresh/foresight-modeler.png",
-    alt: "Foresight Modeler — restaurant P&L modelling with elasticity",
-    caption: "Foresight — P&L Modeler",
+    alt: "Foresight Modeler - restaurant P&L modelling with elasticity",
+    caption: "Foresight - P&L Modeler",
     whatYouSee:
-      "Restaurant P&L Modeler · 30d horizon · 75% AI. SCENARIO REVENUE AED 546,699, OPERATING PROFIT -AED 38,816, OPERATING MARGIN -7.1%. Elasticity ON, P&L Statement with Dine-In Revenue AED 405,453, Delivery AED 129,557. \"Connected inventory data is informing this starting point.\"",
+      "A full restaurant P&L you can flex over a 30-day horizon - projected revenue, operating profit and margin, split across dine-in and delivery - with price elasticity built in and your real connected data setting the starting point, so the model reflects your restaurant, not a generic template.",
     personas: ["cfo"],
     productHref: "/product/foresight",
     productLabel: "Foresight →",
@@ -245,23 +245,23 @@ const GALLERY: GalleryItem[] = [
   {
     id: "intelligence-simulator",
     src: "/images/product/2026-fresh/intelligence-simulator.png",
-    alt: "Intelligence Simulator — what-if scenario cascade",
-    caption: "Intelligence — Scenario Simulator",
+    alt: "Intelligence Simulator - what-if scenario cascade",
+    caption: "Intelligence - Scenario Simulator",
     whatYouSee:
-      "Baseline vs Scenario cascade: 1,200 Covers @ $65 → Revenue $78,000 → Food Cost $23,400 (30%) → Labor cost $7,560 (9.7%) → EBITDA $25,040 (32.1% margin). Sliders for each driver + sensitivity analysis below.",
+      "Pull one lever and watch it ripple through the whole model - covers and ticket flow into revenue, then food cost and labor, all the way down to EBITDA - with every driver on a slider, so you can see what a single change is really worth before you make it.",
     personas: ["cfo", "operations"],
     productHref: "/intelligence",
     productLabel: "Sundae Intelligence →",
   },
 
-  // ─── Watchtower — Competitive & market intelligence ──────────
+  // ─── Watchtower - Competitive & market intelligence ──────────
   {
     id: "watchtower-command-center",
     src: "/images/product/2026-fresh/watchtower-command-center.png",
-    alt: "Watchtower Command Center — competitor, weather, and market signals",
-    caption: "Watchtower — Command Center",
+    alt: "Watchtower Command Center - competitor, weather, and market signals",
+    caption: "Watchtower - Command Center",
     whatYouSee:
-      "What changed outside your four walls today. A Morning Briefing with live weather (18°C, 56% humidity) over the day's signal strip — Events Today 11, Yesterday Revenue AED 15,295 (+5.3% vs target), MTD Goal 105.3% (on track). Tabs for Position, Actions (12), Signals (28) and Automations (4), auto-refreshing across competitors, events and market signals.",
+      "What changed outside your four walls today, in one morning briefing - weather, local events, competitor moves and market signals pulled together, then turned into a short list of actions and automations, so the world beyond your restaurant becomes something you can plan around.",
     personas: ["c_suite", "operations", "multi_loc"],
     productHref: "/product/watchtower",
     productLabel: "Watchtower →",
@@ -269,10 +269,10 @@ const GALLERY: GalleryItem[] = [
   {
     id: "watchtower-competitor-intel",
     src: "/images/product/2026-fresh/watchtower-competitor-intel.png",
-    alt: "Watchtower Competitor Intelligence — rank, ratings, promos, delivery",
-    caption: "Watchtower — Competitor Intelligence",
+    alt: "Watchtower Competitor Intelligence - rank, ratings, promos, delivery",
+    caption: "Watchtower - Competitor Intelligence",
     whatYouSee:
-      "Who's competing for your guests within a 5km catchment — 8 competitors tracked, Your Rank #6 of 8, Avg Competitor Rating 4.7. Price Position vs Market (above / at / below), a live Promo Radar surfacing rivals' deals (deepest cut −50%), Delivery Rank across Deliveroo / Noon / Talabat, and a Win/Loss narrative of why guests choose them.",
+      "Who's competing for your guests inside a 5km catchment - where you rank on rating and price, a live promo radar catching rivals' deals as they launch, your delivery standing across Deliveroo, Noon and Talabat, and a plain-language read on why guests pick them over you.",
     personas: ["c_suite", "marketing", "operations"],
     productHref: "/product/watchtower",
     productLabel: "Watchtower →",
@@ -280,23 +280,23 @@ const GALLERY: GalleryItem[] = [
   {
     id: "watchtower-market-trends",
     src: "/images/product/2026-fresh/watchtower-market-trends.png",
-    alt: "Watchtower Market Trends — supply, cuisine landscape, demand",
-    caption: "Watchtower — Market Trends",
+    alt: "Watchtower Market Trends - supply, cuisine landscape, demand",
+    caption: "Watchtower - Market Trends",
     whatYouSee:
-      "The dining landscape around you — 60 restaurants tracked in-area, Area Avg Rating 4.4 (top 44%), a Supply Monitor (openings / closures, 0.76/100 saturation — low) and a Cuisine Landscape across 8 cuisine types. Dashboard / Trends / Signals / Map views over supply, pricing tiers, cuisine demand and delivery penetration.",
+      "The dining landscape around you, read like a market map - how your area rates, who's opening and closing nearby, which cuisines are crowded or wide open, and where delivery is heading - so you can spot the shift in demand before your neighbours do.",
     personas: ["c_suite", "marketing", "multi_loc"],
     productHref: "/product/watchtower",
     productLabel: "Watchtower →",
   },
 
-  // ─── Benchmark — Network-effect peer comparison ──────────────
+  // ─── Benchmark - Network-effect peer comparison ──────────────
   {
     id: "benchmark-revpash-trend",
     src: "/images/product/2026-fresh/benchmark-revpash-trend.png",
-    alt: "Benchmark — RevPASH vs compset over time with P25–P75 percentile band",
-    caption: "Benchmark — RevPASH vs Compset",
+    alt: "Benchmark - RevPASH vs compset over time with P25-P75 percentile band",
+    caption: "Benchmark - RevPASH vs Compset",
     whatYouSee:
-      "Your RevPASH tracked against the anonymized compset, week by week — your line against the market median over a shaded P25–P75 percentile band. Your Latest AED 7.37 vs Compset Median AED 7.63 (3.4% below — a 9-week streak), Avg Index 93.6, trend improving; click any week to drill in. The network-effect data moat, visualized.",
+      "Your RevPASH plotted against an anonymized peer set, week by week - your line riding the market median inside a shaded percentile band - so you finally know whether a soft week is you or the whole market, and can click any week to dig into why. The network-effect data moat, made visible.",
     personas: ["c_suite", "cfo", "multi_loc"],
     productHref: "/benchmarking",
     productLabel: "Benchmark →",
@@ -304,23 +304,23 @@ const GALLERY: GalleryItem[] = [
   {
     id: "benchmark-performance",
     src: "/images/product/2026-fresh/benchmark-performance.png",
-    alt: "Benchmark — per-metric YOU vs market with percentile rank",
-    caption: "Benchmark — Performance Percentiles",
+    alt: "Benchmark - per-metric YOU vs market with percentile rank",
+    caption: "Benchmark - Performance Percentiles",
     whatYouSee:
-      "Every metric ranked against the anonymized market — YOU vs MARKET vs INDEX, with colour-coded index badges and percentile bars: Average Check AED 78.41 (index 118, P68), RevPASH AED 8.00 (P37), Transactions index 86 (P31). 3/6 above median, with the biggest opportunity (Transactions) called out to drill into.",
+      "Every metric ranked against the anonymized market - you versus the median, as percentile bars and index badges - so average check, RevPASH and transactions each tell you where you genuinely lead and where the biggest upside is, called out and ready to drill into.",
     personas: ["c_suite", "cfo", "multi_loc"],
     productHref: "/benchmarking",
     productLabel: "Benchmark →",
   },
 
-  // ─── Spatial Floor Intelligence — one floor plan, every lens ─
+  // ─── Spatial Floor Intelligence - one floor plan, every lens ─
   {
     id: "floor-table-performance",
     src: "/images/product/2026-fresh/floor-table-performance.png",
-    alt: "Table Performance Floor — per-table revenue on the published floor plan",
-    caption: "Spatial — Table Performance Floor",
+    alt: "Table Performance Floor - per-table revenue on the published floor plan",
+    caption: "Spatial - Table Performance Floor",
     whatYouSee:
-      "Your published floor plan becomes a revenue lens — per-table revenue colour-flowing across all 22 tables (Window Booth AED 47.1K, Table 20 AED 41.7K), AED 634,652 total over 10,449 covers. Section roll-up (Indoor / Terrace / Outdoor), a server leaderboard, and payment / daypart / category mix. Click any table for its full 360° KPI fingerprint.",
+      "Your published floor plan becomes a revenue lens - sales colour-flowing across every table so the rooms that quietly carry the night stand out at a glance. Roll it up by section, see who's serving the strongest tables, then click any seat for its full 360° fingerprint.",
     personas: ["c_suite", "operations", "cfo"],
     productHref: "/insights",
     productLabel: "Insights →",
@@ -328,10 +328,10 @@ const GALLERY: GalleryItem[] = [
   {
     id: "floor-guest-sentiment",
     src: "/images/product/2026-fresh/floor-guest-sentiment.png",
-    alt: "Guest Sentiment Floor — per-table guest rating on the same floor plan",
-    caption: "Spatial — Guest Sentiment Floor",
+    alt: "Guest Sentiment Floor - per-table guest rating on the same floor plan",
+    caption: "Spatial - Guest Sentiment Floor",
     whatYouSee:
-      "The same floor plan, now a guest-experience lens — average rating per table (Window Booth 4.6★ down to Table 19 3.2★), 4.1★ across 515 responses, 75% positive, with the lowest-rated tables surfaced for action. Publish one floor plan; Sundae turns it into a revenue, labor and guest lens — per table.",
+      "The same floor plan, now a guest-experience lens - average rating per table, drawn from hundreds of responses, with the seats guests enjoy least surfaced for a fix. Publish one floor plan and Sundae turns it into a revenue, labor and guest lens, table by table.",
     personas: ["c_suite", "operations", "marketing"],
     productHref: "/insights",
     productLabel: "Insights →",
@@ -339,10 +339,10 @@ const GALLERY: GalleryItem[] = [
   {
     id: "floor-live",
     src: "/images/product/2026-fresh/floor-live.png",
-    alt: "Live Floor — real-time table occupancy on the published floor plan",
-    caption: "Spatial — Live Floor",
+    alt: "Live Floor - real-time table occupancy on the published floor plan",
+    caption: "Spatial - Live Floor",
     whatYouSee:
-      "Live table occupancy on your floor plan — 11 of 22 tables seated, AED 3,856 open on the floor right now, refreshing every 30 seconds. See what's seated, turning, or free at a glance and act before the rush turns.",
+      "Live table occupancy on your own floor plan - what's seated, turning, or free, and how much revenue is open on the floor right now - so the manager can read the room and move on the rush before it arrives, not after.",
     personas: ["operations", "c_suite"],
     productHref: "/insights",
     productLabel: "Insights →",
@@ -350,10 +350,10 @@ const GALLERY: GalleryItem[] = [
   {
     id: "floor-table-turn",
     src: "/images/product/2026-fresh/floor-table-turn.png",
-    alt: "Table Turn & Dwell — turn rate and dwell time per table",
-    caption: "Spatial — Table Turn & Dwell",
+    alt: "Table Turn & Dwell - turn rate and dwell time per table",
+    caption: "Spatial - Table Turn & Dwell",
     whatYouSee:
-      "Turn rate and dwell time, table by table — 3,595 turns analysed, with fast-flipping and slow-sitting tables surfaced spatially so you can find the seats quietly costing you covers each service.",
+      "Turn rate and dwell time mapped table by table - the fast-flipping seats and the slow-sitting ones laid out right on the plan - so you can find the tables quietly costing you covers every service and reset them.",
     personas: ["operations", "cfo"],
     productHref: "/insights",
     productLabel: "Insights →",
@@ -361,10 +361,10 @@ const GALLERY: GalleryItem[] = [
   {
     id: "floor-section-optimizer",
     src: "/images/product/2026-fresh/floor-section-optimizer.png",
-    alt: "Server-Section Optimizer — balance sections across the team",
-    caption: "Spatial — Server-Section Optimizer",
+    alt: "Server-Section Optimizer - balance sections across the team",
+    caption: "Spatial - Server-Section Optimizer",
     whatYouSee:
-      "Balance the floor across your team — Indoor 3 / Outdoor 3 / Terrace 2 servers at a 62% balance score, with rebalancing moves suggested so no server is buried while another idles.",
+      "Balance the floor across your team - see how evenly sections are covered, with specific moves suggested so no server is buried while another idles, and every guest gets the same pace of service.",
     personas: ["operations", "multi_loc"],
     productHref: "/insights",
     productLabel: "Insights →",
@@ -372,10 +372,10 @@ const GALLERY: GalleryItem[] = [
   {
     id: "floor-demand-forecast",
     src: "/images/product/2026-fresh/floor-demand-forecast.png",
-    alt: "Demand Forecast — forward covers and revenue on the floor",
-    caption: "Spatial — Demand Forecast",
+    alt: "Demand Forecast - forward covers and revenue on the floor",
+    caption: "Spatial - Demand Forecast",
     whatYouSee:
-      "Forward demand on the floor — 3,156 covers and AED 192K projected over the next 7 days, broken out by daypart, so you can staff and prep to the curve instead of reacting to it.",
+      "Forward demand projected onto the floor - covers and revenue expected over the next seven days, broken out by daypart - so you staff and prep to the curve that's coming instead of reacting to the one that just hit.",
     personas: ["operations", "c_suite", "cfo"],
     productHref: "/insights",
     productLabel: "Insights →",
@@ -383,10 +383,10 @@ const GALLERY: GalleryItem[] = [
   {
     id: "floor-capacity-simulator",
     src: "/images/product/2026-fresh/floor-capacity-simulator.png",
-    alt: "Capacity Simulator — model floor changes before you make them",
-    caption: "Spatial — Capacity Simulator",
+    alt: "Capacity Simulator - model floor changes before you make them",
+    caption: "Spatial - Capacity Simulator",
     whatYouSee:
-      "Model floor changes before you commit to them — adding 8 seats projects +AED 41.5K over 30 days, with the layout impact rendered right on the plan so the trade-off is visible.",
+      "Model a floor change before you commit to it - add seats or reshape a section and see the revenue impact projected over the next 30 days, rendered right on the plan, so the trade-off is visible before anything moves.",
     personas: ["c_suite", "cfo", "operations"],
     productHref: "/insights",
     productLabel: "Insights →",
@@ -394,10 +394,10 @@ const GALLERY: GalleryItem[] = [
   {
     id: "floor-seat-viability",
     src: "/images/product/2026-fresh/floor-seat-viability.png",
-    alt: "Seat Viability — per-seat contribution economics",
-    caption: "Spatial — Seat Viability",
+    alt: "Seat Viability - per-seat contribution economics",
+    caption: "Spatial - Seat Viability",
     whatYouSee:
-      "Per-seat economics on the floor plan — 102 of 102 seats viable, +AED 140K contribution, so you can see which seats earn their keep and which to rethink before the next refit.",
+      "Per-seat economics laid over the floor plan - the contribution each seat actually earns - so you can see which ones pay their way and which to rethink before you spend on the next refit.",
     personas: ["cfo", "c_suite"],
     productHref: "/insights",
     productLabel: "Insights →",
@@ -405,10 +405,10 @@ const GALLERY: GalleryItem[] = [
   {
     id: "floor-skim-detection",
     src: "/images/product/2026-fresh/floor-skim-detection.png",
-    alt: "Skim Detection — revenue-assurance heatmap on the floor",
-    caption: "Spatial — Skim Detection",
+    alt: "Skim Detection - revenue-assurance heatmap on the floor",
+    caption: "Spatial - Skim Detection",
     whatYouSee:
-      "Revenue assurance, mapped to the floor — Table 7 flagged as a skim hotspot and server EMP-016 at a 57% void rate / 2.7× the peer average, surfaced spatially so loss patterns are impossible to miss.",
+      "Revenue assurance mapped to the floor - the tables and servers whose void and refund patterns sit far outside the norm, surfaced spatially, so the loss patterns that hide in a spreadsheet become impossible to miss here.",
     personas: ["cfo", "operations"],
     productHref: "/insights",
     productLabel: "Insights →",
@@ -416,10 +416,10 @@ const GALLERY: GalleryItem[] = [
   {
     id: "floor-vip-seating",
     src: "/images/product/2026-fresh/floor-vip-seating.png",
-    alt: "VIP Seating — know your VIP guests by table",
-    caption: "Spatial — VIP Seating",
+    alt: "VIP Seating - know your VIP guests by table",
+    caption: "Spatial - VIP Seating",
     whatYouSee:
-      "Know your VIPs by table — 9 VIP guests on the floor tonight, Tables 3 and 9 the top-value seats, so the team can prioritise service exactly where it counts.",
+      "Know your VIPs by table - who's seated where on the floor tonight and which seats hold your highest-value guests - so the team can lavish attention exactly where it earns the most loyalty.",
     personas: ["operations", "marketing", "c_suite"],
     productHref: "/insights",
     productLabel: "Insights →",
@@ -429,10 +429,10 @@ const GALLERY: GalleryItem[] = [
   {
     id: "topology-franchise-health",
     src: "/images/product/2026-fresh/topology-franchise-health.png",
-    alt: "Franchise Health — 4 outlets across MENA cities",
-    caption: "Topology — Franchise Health",
+    alt: "Franchise Health - 4 outlets across MENA cities",
+    caption: "Topology - Franchise Health",
     whatYouSee:
-      "Per-unit composite health (0–100) across 4 MENA outlets — Abu Dhabi Mall, Dubai Marina, Cairo Festival, Riyadh Park. TOTAL MONTHLY REVENUE AED 407,656 with Risk Matrix + By Region + Metrics Table views. \"Scope: All locations\" topology selector active.",
+      "One composite health score per outlet across your whole estate - Abu Dhabi, Dubai, Cairo, Riyadh on a single risk matrix - so you can see at a glance which units are thriving and which need a visit, then scope the view to any brand or region in a click.",
     personas: ["topology", "multi_loc", "c_suite"],
     productHref: "/insights",
     productLabel: "Insights →",
@@ -440,10 +440,10 @@ const GALLERY: GalleryItem[] = [
   {
     id: "topology-outlet-viability",
     src: "/images/product/2026-fresh/topology-outlet-viability.png",
-    alt: "Outlet Viability — new-outlet NPV + break-even modeller",
-    caption: "Topology — Outlet Viability",
+    alt: "Outlet Viability - new-outlet NPV + break-even modeller",
+    caption: "Topology - Outlet Viability",
     whatYouSee:
-      "Project a new outlet's break-even, NPV, and 12-month P&L. BREAK-EVEN: Not in 12mo. 12-MO NPV: AED -668,843. YEAR-END P&L: AED -652,500. Sliders for capex, rent, food cost%, labor%, overhead, ramp. \"Pull cost levers down or recapitalise the build before signing the lease.\"",
+      "Underwrite a new outlet before you sign the lease - project its break-even, NPV and first-year P&L, then move sliders for capex, rent, food and labor cost, overhead and ramp until the deal works. The site that pencils out and the one that doesn't, settled on screen instead of after the build.",
     personas: ["topology", "cfo", "c_suite"],
     productHref: "/insights",
     productLabel: "Insights →",
@@ -451,23 +451,23 @@ const GALLERY: GalleryItem[] = [
   {
     id: "topology-org-tree",
     src: "/images/product/2026-fresh/topology-org-tree.png",
-    alt: "Crew Organization Tree — 75-node reporting structure",
-    caption: "Topology — Organization Tree",
+    alt: "Crew Organization Tree - 75-node reporting structure",
+    caption: "Topology - Organization Tree",
     whatYouSee:
-      "75 nodes mapped into the org. Max Depth, Orphan Nodes detection, Last Synced 0s ago. Photo Cards view with org card + member tree (Omar Hassan / Yara Hassan visible). Tabs: Workforce Health, Classic, Statistics.",
+      "Your entire reporting structure mapped into one living org tree - dozens of nodes from group down to outlet, rendered as photo cards with every reporting line drawn in - so who answers to whom across brands and regions is finally one clear picture, not a stack of spreadsheets.",
     personas: ["topology", "hr"],
     productHref: "/crew",
     productLabel: "Sundae Crew →",
   },
 
-  // ─── Crew — Multi-region payroll + HR ───────────────────────
+  // ─── Crew - Multi-region payroll + HR ───────────────────────
   {
     id: "crew-payroll",
     src: "/images/product/2026-fresh/crew-payroll.png",
-    alt: "Crew Payroll — country-pack control center",
-    caption: "Crew — Multi-region Payroll",
+    alt: "Crew Payroll - country-pack control center",
+    caption: "Crew - Multi-region Payroll",
     whatYouSee:
-      "36 country packs (27 EU, 6 GCC, 3 NA). Country coverage matrix shows UAE, Saudi Arabia, Qatar, Bahrain, Oman all \"Ready\" with rules / WPS exports / setup data columns. Run readiness gate checklist + approval and audit trail panel.",
+      "Run payroll across dozens of countries from one control center - the UAE, Saudi, Qatar and the rest each showing green on rules, statutory exports and setup - with a readiness gate and a full approval and audit trail, so every run is right and provable before it leaves the building.",
     personas: ["hr", "cfo"],
     productHref: "/crew",
     productLabel: "Sundae Crew →",
@@ -475,10 +475,10 @@ const GALLERY: GalleryItem[] = [
   {
     id: "crew-people",
     src: "/images/product/2026-fresh/crew-people.png",
-    alt: "Crew People — 122-employee HR management",
-    caption: "Crew — People",
+    alt: "Crew People - 122-employee HR management",
+    caption: "Crew - People",
     whatYouSee:
-      "122 active headcount, 0 onboarding in progress. Filter by department / role / state / outlet. Employee table: Mateo Rivera (Cleaning), Noura Saleh (Operations Manager), Khalid Mansour (Operations Manager), Fatima Qureshi (Kitchen), etc. — with role / department / outlet / manager columns.",
+      "Your whole team in one searchable record - every employee with their role, department, outlet and manager - filterable by location or function, so the people side of a multi-outlet operation lives in one place instead of scattered across folders and group chats.",
     personas: ["hr"],
     productHref: "/crew",
     productLabel: "Sundae Crew →",
@@ -486,10 +486,10 @@ const GALLERY: GalleryItem[] = [
   {
     id: "crew-leave",
     src: "/images/product/2026-fresh/crew-leave.png",
-    alt: "Crew Leave Admin — liability, policies, and per-employee balances",
-    caption: "Crew — Leave Admin",
+    alt: "Crew Leave Admin - liability, policies, and per-employee balances",
+    caption: "Crew - Leave Admin",
     whatYouSee:
-      "Total leave liability 2,870.5 days across 60 staff, 3 active policies / 5 leave types, holidays mapped to country packs. Per-employee balances (Annual / Sick / Unpaid) with Adjust and Ledger actions — accrual jobs and public-holiday calendars run per jurisdiction.",
+      "Leave as a managed liability, not a guess - total days owed across the team, every employee's annual, sick and unpaid balance, and accruals and public holidays that run automatically per country, so what you owe staff is always current and audit-ready.",
     personas: ["hr"],
     productHref: "/crew",
     productLabel: "Sundae Crew →",
@@ -497,10 +497,10 @@ const GALLERY: GalleryItem[] = [
   {
     id: "crew-benefits",
     src: "/images/product/2026-fresh/crew-benefits.png",
-    alt: "Crew Benefits — enrollments, plans, and employer cost",
-    caption: "Crew — Benefits",
+    alt: "Crew Benefits - enrollments, plans, and employer cost",
+    caption: "Crew - Benefits",
     whatYouSee:
-      "20 active enrollments, AED 10,200 employer cost / month, 2 renewals in 90 days. A provider-neutral adapter (Bayzat-backed here) lists each member's plan — Standard / Premium Health — with EE AED 150 and ER AED 450 monthly splits, effective dates, and Enroll / Terminate controls.",
+      "Manage health benefits without becoming a broker - each member's plan, the employee and employer split, renewals coming due and your monthly cost, all through a provider-neutral adapter, so enrollments and deductions stay in sync with payroll instead of living in the insurer's portal.",
     personas: ["hr"],
     productHref: "/crew",
     productLabel: "Sundae Crew →",
@@ -508,10 +508,10 @@ const GALLERY: GalleryItem[] = [
   {
     id: "crew-attendance",
     src: "/images/product/2026-fresh/crew-attendance.png",
-    alt: "Crew Time & Attendance — geofenced biometric clock-in",
-    caption: "Crew — Time & Attendance",
+    alt: "Crew Time & Attendance - geofenced biometric clock-in",
+    caption: "Crew - Time & Attendance",
     whatYouSee:
-      "Outlet-scoped punch for Amber Ash & Eatery · Dubai with geofence enforcement — \"Location permission denied — clock-in may be blocked if your outlet enforces a geofence.\" Biometric clock-in via passkey (fingerprint / Face ID) plus optional photo evidence, with Manager override, Roster, Anomalies and Timesheets tabs alongside.",
+      "Clock-in you can trust - staff punch in at the outlet with a passkey via fingerprint or Face ID, inside a geofence and with optional photo proof, so buddy-punching and off-site punches simply can't happen, while roster, anomalies and timesheets sit one tab away for the manager.",
     personas: ["hr", "operations"],
     productHref: "/crew",
     productLabel: "Sundae Crew →",
@@ -536,7 +536,7 @@ interface SectionProductGalleryProps {
    * product pages to surface just the relevant surfaces.
    */
   productFilter?: string;
-  /** Pre-select a persona chip — used on solutions pages */
+  /** Pre-select a persona chip - used on solutions pages */
   defaultPersona?: Persona | "all";
   /** Override the section heading (defaults to the homepage copy) */
   headingOverride?: { eyebrow?: string; title?: string; subtitle?: string };
@@ -647,7 +647,7 @@ export function SectionProductGallery({
                 transition={{ delay: i * 0.04, duration: 0.3 }}
                 className="group rounded-2xl border border-[var(--border-default)] bg-[var(--navy-deep)] overflow-hidden hover:border-[var(--electric-blue)]/40 transition-colors"
               >
-                {/* Image — click to open lightbox */}
+                {/* Image - click to open lightbox */}
                 <button
                   onClick={() => setLightboxIndex(i)}
                   className="relative aspect-[16/10] bg-black overflow-hidden w-full block cursor-zoom-in"

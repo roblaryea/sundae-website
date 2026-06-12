@@ -27,12 +27,12 @@ const careersCopy = {
     ctaPrimary: "Send Your Resume",
     ctaSecondary: "Learn About Our Product",
     positions: [
-      { title: "Senior Software Engineer - Intelligence", department: "Engineering", location: "Dubai, UAE / Remote", type: "Full-time", description: "Build advanced intelligence models for restaurant decision-making. Work with large-scale data and machine learning algorithms.", icon: "intelligence", color: "bg-[#1C47FF]" },
+      { title: "Senior Software Engineer - Intelligence", department: "Engineering", location: "Dubai, UAE / Remote", type: "Full-time", description: "Build advanced intelligence models for restaurant decision-making. Work with large-scale data and machine learning algorithms.", icon: "intelligence", color: "bg-[#FF5C4D]" },
       { title: "Product Manager - Restaurant Tech", department: "Product", location: "Toronto, Canada / Remote", type: "Full-time", description: "Define product strategy for our decision intelligence platform. Work closely with restaurant operators and engineering teams.", icon: "benchmarking", color: "bg-green-600" },
-      { title: "Sales Executive - Enterprise", department: "Sales", location: "Multiple Locations", type: "Full-time", description: "Drive adoption of Sundae's decision intelligence platform among enterprise restaurant groups and hospitality companies.", icon: "owners", color: "bg-purple-600" },
+      { title: "Sales Executive - Enterprise", department: "Sales", location: "Multiple Locations", type: "Full-time", description: "Drive adoption of Sundae's decision intelligence platform among enterprise restaurant groups and hospitality companies.", icon: "owners", color: "bg-[#FF5C4D]" },
       { title: "Customer Success Manager", department: "Customer Success", location: "Remote", type: "Full-time", description: "Help restaurant operators maximize value from Sundae's platform. Provide training, support, and strategic guidance.", icon: "success", color: "bg-orange-600" },
       { title: "Data Scientist - Restaurant Intelligence", department: "Data Science", location: "Dubai, UAE / Remote", type: "Full-time", description: "Develop predictive models and anomaly detection systems for restaurant operations data.", icon: "growth", color: "bg-teal-600" },
-      { title: "UX/UI Designer - SaaS Products", department: "Design", location: "Toronto, Canada / Remote", type: "Full-time", description: "Design intuitive interfaces for our decision intelligence platform. Create beautiful, operator-friendly experiences.", icon: "canvas", color: "bg-indigo-600" },
+      { title: "UX/UI Designer - SaaS Products", department: "Design", location: "Toronto, Canada / Remote", type: "Full-time", description: "Design intuitive interfaces for our decision intelligence platform. Create beautiful, operator-friendly experiences.", icon: "canvas", color: "bg-[#FF5C4D]" },
     ],
     benefits: [
       { title: "Competitive Compensation", description: "Market-leading salaries plus equity in a fast-growing company.", icon: "finance" },
@@ -66,12 +66,12 @@ const careersCopy = {
     ctaPrimary: "أرسل سيرتك الذاتية",
     ctaSecondary: "تعرف على منتجنا",
     positions: [
-      { title: "مهندس برمجيات أول - الذكاء", department: "الهندسة", location: "دبي، الإمارات / عن بُعد", type: "دوام كامل", description: "ابنِ نماذج ذكاء متقدمة لقرارات المطاعم. اعمل مع بيانات ضخمة وخوارزميات تعلم آلي.", icon: "intelligence", color: "bg-[#1C47FF]" },
+      { title: "مهندس برمجيات أول - الذكاء", department: "الهندسة", location: "دبي، الإمارات / عن بُعد", type: "دوام كامل", description: "ابنِ نماذج ذكاء متقدمة لقرارات المطاعم. اعمل مع بيانات ضخمة وخوارزميات تعلم آلي.", icon: "intelligence", color: "bg-[#FF5C4D]" },
       { title: "مدير منتج - تقنية المطاعم", department: "المنتج", location: "تورونتو، كندا / عن بُعد", type: "دوام كامل", description: "حدّد استراتيجية المنتج لمنصة ذكاء القرار. اعمل عن قرب مع المشغلين وفريق الهندسة.", icon: "benchmarking", color: "bg-green-600" },
-      { title: "تنفيذي مبيعات - المؤسسات", department: "المبيعات", location: "مواقع متعددة", type: "دوام كامل", description: "ادفع اعتماد منصة Sundae بين مجموعات المطاعم والشركات الفندقية المؤسسية.", icon: "owners", color: "bg-purple-600" },
+      { title: "تنفيذي مبيعات - المؤسسات", department: "المبيعات", location: "مواقع متعددة", type: "دوام كامل", description: "ادفع اعتماد منصة Sundae بين مجموعات المطاعم والشركات الفندقية المؤسسية.", icon: "owners", color: "bg-[#FF5C4D]" },
       { title: "مدير نجاح العملاء", department: "نجاح العملاء", location: "عن بُعد", type: "دوام كامل", description: "ساعد المشغلين على تعظيم قيمة المنصة. قدّم التدريب والدعم والإرشاد الاستراتيجي.", icon: "success", color: "bg-orange-600" },
       { title: "عالم بيانات - ذكاء المطاعم", department: "علم البيانات", location: "دبي، الإمارات / عن بُعد", type: "دوام كامل", description: "طوّر نماذج تنبؤية وأنظمة اكتشاف الشذوذ لبيانات العمليات.", icon: "growth", color: "bg-teal-600" },
-      { title: "مصمم UX/UI - منتجات SaaS", department: "التصميم", location: "تورونتو، كندا / عن بُعد", type: "دوام كامل", description: "صمم واجهات بديهية لمنصة ذكاء القرار. أنشئ تجارب جميلة وسهلة للمشغلين.", icon: "canvas", color: "bg-indigo-600" },
+      { title: "مصمم UX/UI - منتجات SaaS", department: "التصميم", location: "تورونتو، كندا / عن بُعد", type: "دوام كامل", description: "صمم واجهات بديهية لمنصة ذكاء القرار. أنشئ تجارب جميلة وسهلة للمشغلين.", icon: "canvas", color: "bg-[#FF5C4D]" },
     ],
     benefits: [
       { title: "تعويضات تنافسية", description: "رواتب رائدة في السوق مع أسهم في شركة سريعة النمو.", icon: "finance" },
@@ -105,12 +105,12 @@ const careersCopy = {
     ctaPrimary: "Envoyer votre CV",
     ctaSecondary: "Découvrir le produit",
     positions: [
-      { title: "Ingénieur logiciel senior - Intelligence", department: "Ingénierie", location: "Dubaï, EAU / Remote", type: "Temps plein", description: "Construire des modèles d'intelligence avancés pour les décisions restaurant. Travailler avec de grandes données et du ML.", icon: "intelligence", color: "bg-[#1C47FF]" },
+      { title: "Ingénieur logiciel senior - Intelligence", department: "Ingénierie", location: "Dubaï, EAU / Remote", type: "Temps plein", description: "Construire des modèles d'intelligence avancés pour les décisions restaurant. Travailler avec de grandes données et du ML.", icon: "intelligence", color: "bg-[#FF5C4D]" },
       { title: "Chef de produit - Tech restaurant", department: "Produit", location: "Toronto, Canada / Remote", type: "Temps plein", description: "Définir la stratégie produit de notre plateforme d'intelligence décisionnelle. Travailler avec opérateurs et ingénieurs.", icon: "benchmarking", color: "bg-green-600" },
-      { title: "Commercial Enterprise", department: "Ventes", location: "Plusieurs lieux", type: "Temps plein", description: "Accélérer l'adoption de Sundae auprès des groupes restaurant enterprise et des groupes hospitality.", icon: "owners", color: "bg-purple-600" },
+      { title: "Commercial Enterprise", department: "Ventes", location: "Plusieurs lieux", type: "Temps plein", description: "Accélérer l'adoption de Sundae auprès des groupes restaurant enterprise et des groupes hospitality.", icon: "owners", color: "bg-[#FF5C4D]" },
       { title: "Customer Success Manager", department: "Succès client", location: "Remote", type: "Temps plein", description: "Aider les opérateurs à maximiser la valeur de Sundae. Former, accompagner et guider stratégiquement.", icon: "success", color: "bg-orange-600" },
       { title: "Data Scientist - Intelligence restaurant", department: "Data Science", location: "Dubaï, EAU / Remote", type: "Temps plein", description: "Développer des modèles prédictifs et des systèmes de détection d'anomalies pour les données opérationnelles.", icon: "growth", color: "bg-teal-600" },
-      { title: "Designer UX/UI - Produits SaaS", department: "Design", location: "Toronto, Canada / Remote", type: "Temps plein", description: "Concevoir des interfaces intuitives pour notre plateforme d'intelligence décisionnelle. Créer des expériences élégantes pour les opérateurs.", icon: "canvas", color: "bg-indigo-600" },
+      { title: "Designer UX/UI - Produits SaaS", department: "Design", location: "Toronto, Canada / Remote", type: "Temps plein", description: "Concevoir des interfaces intuitives pour notre plateforme d'intelligence décisionnelle. Créer des expériences élégantes pour les opérateurs.", icon: "canvas", color: "bg-[#FF5C4D]" },
     ],
     benefits: [
       { title: "Rémunération compétitive", description: "Salaires leaders du marché avec equity dans une entreprise en forte croissance.", icon: "finance" },
@@ -144,12 +144,12 @@ const careersCopy = {
     ctaPrimary: "Enviar tu CV",
     ctaSecondary: "Conocer el producto",
     positions: [
-      { title: "Ingeniero de software senior - Inteligencia", department: "Ingeniería", location: "Dubái, EAU / Remoto", type: "Tiempo completo", description: "Construye modelos avanzados de inteligencia para decisiones de restaurante. Trabaja con big data y machine learning.", icon: "intelligence", color: "bg-[#1C47FF]" },
+      { title: "Ingeniero de software senior - Inteligencia", department: "Ingeniería", location: "Dubái, EAU / Remoto", type: "Tiempo completo", description: "Construye modelos avanzados de inteligencia para decisiones de restaurante. Trabaja con big data y machine learning.", icon: "intelligence", color: "bg-[#FF5C4D]" },
       { title: "Product Manager - Tech de restaurantes", department: "Producto", location: "Toronto, Canadá / Remoto", type: "Tiempo completo", description: "Define la estrategia de producto de nuestra plataforma de inteligencia de decisiones. Trabaja con operadores e ingeniería.", icon: "benchmarking", color: "bg-green-600" },
-      { title: "Ejecutivo de ventas - Enterprise", department: "Ventas", location: "Varios lugares", type: "Tiempo completo", description: "Impulsa la adopción de Sundae entre grupos de restaurantes enterprise y empresas de hospitalidad.", icon: "owners", color: "bg-purple-600" },
+      { title: "Ejecutivo de ventas - Enterprise", department: "Ventas", location: "Varios lugares", type: "Tiempo completo", description: "Impulsa la adopción de Sundae entre grupos de restaurantes enterprise y empresas de hospitalidad.", icon: "owners", color: "bg-[#FF5C4D]" },
       { title: "Customer Success Manager", department: "Éxito del cliente", location: "Remoto", type: "Tiempo completo", description: "Ayuda a los operadores a sacar el máximo valor de la plataforma. Ofrece formación, soporte y guía estratégica.", icon: "success", color: "bg-orange-600" },
       { title: "Data Scientist - Inteligencia de restaurantes", department: "Ciencia de datos", location: "Dubái, EAU / Remoto", type: "Tiempo completo", description: "Desarrolla modelos predictivos y sistemas de detección de anomalías para datos operativos.", icon: "growth", color: "bg-teal-600" },
-      { title: "UX/UI Designer - Productos SaaS", department: "Diseño", location: "Toronto, Canadá / Remoto", type: "Tiempo completo", description: "Diseña interfaces intuitivas para nuestra plataforma de inteligencia de decisiones. Crea experiencias bonitas para operadores.", icon: "canvas", color: "bg-indigo-600" },
+      { title: "UX/UI Designer - Productos SaaS", department: "Diseño", location: "Toronto, Canadá / Remoto", type: "Tiempo completo", description: "Diseña interfaces intuitivas para nuestra plataforma de inteligencia de decisiones. Crea experiencias bonitas para operadores.", icon: "canvas", color: "bg-[#FF5C4D]" },
     ],
     benefits: [
       { title: "Compensación competitiva", description: "Salarios líderes de mercado más equity en una empresa de rápido crecimiento.", icon: "finance" },
@@ -204,8 +204,8 @@ export default async function CareersPage() {
                         <SundaeIcon name={position.icon as SundaeIconName} size="lg" className="text-white" />
                       </div>
                       <div>
-                        <div className="text-xs text-[#60A5FA] font-medium uppercase tracking-wide">{position.department}</div>
-                        <CardTitle className="text-[var(--text-primary)] group-hover:text-[#60A5FA] transition-colors duration-300">{position.title}</CardTitle>
+                        <div className="text-xs text-[#FF8473] font-medium uppercase tracking-wide">{position.department}</div>
+                        <CardTitle className="text-[var(--text-primary)] group-hover:text-[#FF8473] transition-colors duration-300">{position.title}</CardTitle>
                       </div>
                     </div>
                   </CardHeader>
@@ -240,7 +240,7 @@ export default async function CareersPage() {
               <StaggerItem key={index}>
                 <Card variant="elevated" className="text-center h-full">
                   <CardHeader>
-                    <div className="w-12 h-12 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                    <div className="w-12 h-12 mx-auto mb-4 bg-gradient-to-br from-[#FF5C4D] to-purple-600 rounded-lg flex items-center justify-center">
                       <SundaeIcon name={benefit.icon as SundaeIconName} size="lg" className="text-white" />
                     </div>
                     <CardTitle className="text-[var(--text-primary)]">{benefit.title}</CardTitle>
@@ -266,7 +266,7 @@ export default async function CareersPage() {
               <StaggerItem key={value.title}>
                 <Card variant="elevated" className="text-center h-full">
                   <CardHeader>
-                    <div className="w-12 h-12 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                    <div className="w-12 h-12 mx-auto mb-4 bg-gradient-to-br from-[#FF5C4D] to-purple-600 rounded-lg flex items-center justify-center">
                       <SundaeIcon name={value.icon as SundaeIconName} size="lg" className="text-white" />
                     </div>
                     <CardTitle className="text-[var(--text-primary)]">{value.title}</CardTitle>

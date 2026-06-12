@@ -9,7 +9,9 @@ import { SundaeIcon, type SundaeIconName } from '@/components/icons';
 import { formatWebsiteCurrency, formatWebsiteNumber, type WebsiteLocale } from '@/lib/i18n';
 import { PRICING_URL, SIGNUP_URL } from '@/lib/urls';
 import { PageHero, FadeUp, StaggerContainer, StaggerItem, PageCTA } from '@/components/ui/PageAnimations';
+import { CreamBreak } from '@/components/ui/CreamBreak';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
+import { pricingCreamCopy } from './pricingCreamCopy';
 
 type Tier = {
   id: string;
@@ -126,7 +128,7 @@ const coreTiers: Tier[] = [
     id: 'core_pro',
     name: "Core Pro",
     badge: "MOST POPULAR",
-    badgeClass: "bg-blue-500/20 text-blue-400",
+    badgeClass: "bg-[#FF5C4D]/20 text-[#FF8473]",
     basePrice: "$449",
     perLocation: "$89",
     aiCredits: "14,000",
@@ -187,7 +189,7 @@ const pricingAddOns: PricingAddon[] = [
       "12 specialized modules including Revenue, Labor, Inventory, Purchasing, Marketing, Reservations, Profit, Revenue Assurance, Delivery, Guest Experience, Guest CRM, Cross-Intelligence, Foresight Intelligence, and Executive Summary.",
     note: "Requires Core tier. Priced per module.",
     icon: "data",
-    color: "from-purple-500 to-purple-600",
+    color: "from-[#F2B45C] to-[#C2410C]",
   },
   {
     name: "Cross-Intelligence",
@@ -195,14 +197,14 @@ const pricingAddOns: PricingAddon[] = [
       "A correlation layer that starts working once you activate three or more modules. Base covers core correlations; Pro adds attribution and cannibalization detection.",
     note: "Requires Core tier with 3+ modules. Pro: $199/mo + $19/loc",
     icon: "crossIntelligence",
-    color: "from-purple-500 to-cyan-600",
+    color: "from-[#E9A24A] to-[#F2C078]",
   },
   {
     name: "Credit Top-Ups",
     description: "Need more intelligence queries? Purchase additional credits as add-ons to any plan.",
     note: "Available on all tiers",
     icon: "intelligence",
-    color: "from-blue-500 to-blue-600",
+    color: "from-[#FF5C4D] to-[#E9A24A]",
   },
 ];
 
@@ -658,7 +660,7 @@ function PricingCard({
     : formatPricingCurrency(locNum, locale, currency);
 
   return (
-    <Card className={`h-full ${tier.highlight ? 'border-2 border-blue-500/50 shadow-2xl' : 'border border-[var(--border-default)] shadow-lg'} hover:shadow-xl transition-all`}>
+    <Card className={`h-full ${tier.highlight ? 'border-2 border-[#FF5C4D]/50 shadow-2xl' : 'border border-[var(--border-default)] shadow-lg'} hover:shadow-xl transition-all`}>
       <CardHeader className="pb-4">
         {tier.badge && (
           <div className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold mb-3 w-fit ${tier.badgeClass}`}>
@@ -723,6 +725,7 @@ export default function PricingPage() {
   const perMonthLabel = localizedContent?.perMonthLabel ?? '/month';
   const perLocationLabel = localizedContent?.perLocationLabel ?? '/location/month';
   const creditsLabel = localizedContent?.creditsLabel ?? 'intelligence credits/month';
+  const cream = pricingCreamCopy[locale as keyof typeof pricingCreamCopy] ?? pricingCreamCopy.en;
 
   useEffect(() => {
     let cancelled = false
@@ -808,12 +811,15 @@ export default function PricingPage() {
         </div>
       </section>
 
+      {/* Cream relief - early warm break after the Report tiers, before the long dark Core/Enterprise/Add-ons stretch (the volume system) */}
+      <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
+
       {/* Sundae Core Tiers */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
           <FadeUp>
             <div className="text-center mb-8">
-              <div className="inline-flex items-center space-x-2 bg-blue-500/20 text-blue-400 px-5 py-2 rounded-full text-sm font-semibold">
+              <div className="inline-flex items-center space-x-2 bg-[#FF5C4D]/20 text-[#FF8473] px-5 py-2 rounded-full text-sm font-semibold">
                 <SundaeIcon name="core" size="md" />
                 <span>{copy.coreBadge}</span>
               </div>
@@ -841,11 +847,11 @@ export default function PricingPage() {
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <FadeUp>
-            <Card className="border-2 border-blue-500/50 shadow-2xl bg-[var(--surface-faint)]">
+            <Card className="border-2 border-[#FF5C4D]/50 shadow-2xl bg-[var(--surface-faint)]">
               <CardContent className="p-8 md:p-12">
                 <div className="grid md:grid-cols-2 gap-8 items-center">
                   <div>
-                    <div className="inline-flex items-center space-x-2 bg-blue-500/20 text-blue-400 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                    <div className="inline-flex items-center space-x-2 bg-[#FF5C4D]/20 text-[#FF8473] px-4 py-2 rounded-full text-sm font-semibold mb-4">
                       <SundaeIcon name="franchise" size="md" />
                       <span>{copy.enterpriseBadge}</span>
                     </div>

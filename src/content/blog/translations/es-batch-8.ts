@@ -609,7 +609,7 @@ Estas son las preguntas que mueven el margen. Son las preguntas que nunca llegas
 
 Sundae no es otra herramienta más en el stack. Reemplaza por completo la capa de la hoja de cálculo:
 
-- **Sundae Scout** se conecta a tus sistemas existentes y normaliza los datos automáticamente. Tus datos de POS, payroll, inventario y contabilidad fluyen a un modelo unificado sin exportaciones manuales
+- **Sundae Core** se conecta a tus sistemas existentes y normaliza los datos automáticamente. Tus datos de POS, payroll, inventario y contabilidad fluyen a un modelo unificado sin exportaciones manuales
 - **Sundae Insights** ofrece más de 12 módulos analíticos  -  inteligencia de ingresos, análisis laboral, seguimiento de inventario, análisis de compras, experiencia del cliente y más  -  todos preconstruidos y en tiempo real
 - **Sundae Pulse** te da visibilidad intradía de operaciones: pacing de ventas contra plan, seguimiento de mano de obra en vivo, monitoreo de leakage y scorecards de turno mientras avanza el día
 - **Sundae Intelligence** te permite hacer preguntas en lenguaje natural y obtener respuestas con contexto completo, no solo números

@@ -280,12 +280,12 @@ export default function LaborAnalyzerPage() {
   return (
     <div className="min-h-screen bg-[var(--navy-deep)] py-32 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
-        <Link href="/tools" className="inline-flex items-center text-[#60A5FA] hover:text-[#60A5FA] mb-6">
+        <Link href="/tools" className="inline-flex items-center text-[#FF8473] hover:text-[#FF8473] mb-6">
           ← {copy.back}
         </Link>
 
         <div className="text-center mb-12">
-          <div className="inline-flex items-center space-x-2 bg-blue-500/20 text-blue-400 px-4 py-2 rounded-full text-sm font-medium mb-6">
+          <div className="inline-flex items-center space-x-2 bg-[#FF5C4D]/20 text-[#FF8473] px-4 py-2 rounded-full text-sm font-medium mb-6">
             <SundaeIcon name="labor" size="md" />
             <span>{copy.hero.badge}</span>
           </div>
@@ -302,17 +302,17 @@ export default function LaborAnalyzerPage() {
             <div className="space-y-6">
               <div>
                 <label className="block text-sm font-medium text-[var(--text-secondary)] mb-2">{copy.form.actualLabel}</label>
-                <input type="number" value={actualLabor} onChange={(e) => setActualLabor(e.target.value)} placeholder={copy.form.actualPlaceholder} className="w-full px-4 py-3 border border-white/[0.1] rounded-lg focus:ring-2 focus:ring-blue-500" />
+                <input type="number" value={actualLabor} onChange={(e) => setActualLabor(e.target.value)} placeholder={copy.form.actualPlaceholder} className="w-full px-4 py-3 border border-white/[0.1] rounded-lg focus:ring-2 focus:ring-[#FF5C4D]" />
               </div>
 
               <div>
                 <label className="block text-sm font-medium text-[var(--text-secondary)] mb-2">{copy.form.revenueLabel}</label>
-                <input type="number" value={revenue} onChange={(e) => setRevenue(e.target.value)} placeholder={copy.form.revenuePlaceholder} className="w-full px-4 py-3 border border-white/[0.1] rounded-lg focus:ring-2 focus:ring-blue-500" />
+                <input type="number" value={revenue} onChange={(e) => setRevenue(e.target.value)} placeholder={copy.form.revenuePlaceholder} className="w-full px-4 py-3 border border-white/[0.1] rounded-lg focus:ring-2 focus:ring-[#FF5C4D]" />
               </div>
 
               <div>
                 <label className="block text-sm font-medium text-[var(--text-secondary)] mb-2">{copy.form.targetLabel}</label>
-                <input type="number" value={targetLabor} onChange={(e) => setTargetLabor(e.target.value)} placeholder={copy.form.targetPlaceholder} className="w-full px-4 py-3 border border-white/[0.1] rounded-lg focus:ring-2 focus:ring-blue-500" />
+                <input type="number" value={targetLabor} onChange={(e) => setTargetLabor(e.target.value)} placeholder={copy.form.targetPlaceholder} className="w-full px-4 py-3 border border-white/[0.1] rounded-lg focus:ring-2 focus:ring-[#FF5C4D]" />
                 <p className="text-xs text-[var(--text-muted)] mt-1">{copy.form.targetHint}</p>
               </div>
 
@@ -324,21 +324,21 @@ export default function LaborAnalyzerPage() {
         </Card>
 
         {result && (
-          <Card variant="elevated" className={`border-l-4 ${result.status === copy.results.statusHigh ? "border-red-500" : result.status === copy.results.statusSlightlyHigh ? "border-yellow-500" : result.status === copy.results.statusLow ? "border-blue-500" : "border-green-500"}`}>
+          <Card variant="elevated" className={`border-l-4 ${result.status === copy.results.statusHigh ? "border-red-500" : result.status === copy.results.statusSlightlyHigh ? "border-yellow-500" : result.status === copy.results.statusLow ? "border-[#FF5C4D]" : "border-green-500"}`}>
             <CardHeader>
               <CardTitle>{copy.results.title}</CardTitle>
             </CardHeader>
             <CardContent className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-[rgba(28,71,255,0.1)] rounded-lg p-6">
+                <div className="bg-[rgba(255,92,77,0.1)] rounded-lg p-6">
                   <div className="text-sm text-[var(--text-supporting)] mb-2">{copy.results.actualLabel}</div>
-                  <div className="text-4xl font-bold text-[#60A5FA]">{result.laborPercent.toFixed(1)}%</div>
+                  <div className="text-4xl font-bold text-[#FF8473]">{result.laborPercent.toFixed(1)}%</div>
                 </div>
 
                 {parseFloat(targetLabor) > 0 && (
-                  <div className={`rounded-lg p-6 ${result.status === copy.results.statusHigh ? "bg-red-500/10" : result.status === copy.results.statusSlightlyHigh ? "bg-yellow-500/10" : result.status === copy.results.statusLow ? "bg-[rgba(28,71,255,0.1)]" : "bg-green-500/10"}`}>
+                  <div className={`rounded-lg p-6 ${result.status === copy.results.statusHigh ? "bg-red-500/10" : result.status === copy.results.statusSlightlyHigh ? "bg-yellow-500/10" : result.status === copy.results.statusLow ? "bg-[rgba(255,92,77,0.1)]" : "bg-green-500/10"}`}>
                     <div className="text-sm text-[var(--text-supporting)] mb-2">{copy.results.varianceLabel}</div>
-                    <div className={`text-4xl font-bold ${result.status === copy.results.statusHigh ? "text-red-400" : result.status === copy.results.statusSlightlyHigh ? "text-yellow-400" : result.status === copy.results.statusLow ? "text-[#60A5FA]" : "text-green-400"}`}>
+                    <div className={`text-4xl font-bold ${result.status === copy.results.statusHigh ? "text-red-400" : result.status === copy.results.statusSlightlyHigh ? "text-yellow-400" : result.status === copy.results.statusLow ? "text-[#FF8473]" : "text-green-400"}`}>
                       {result.variance > 0 ? "+" : ""}{result.variance.toFixed(1)}%
                     </div>
                   </div>
@@ -350,7 +350,7 @@ export default function LaborAnalyzerPage() {
                 <p className="text-[var(--text-supporting)]">{result.recommendation}</p>
               </div>
 
-              <div className="bg-[rgba(28,71,255,0.1)] rounded-lg p-4">
+              <div className="bg-[rgba(255,92,77,0.1)] rounded-lg p-4">
                 <p className="text-sm text-[var(--text-secondary)]">
                   <strong>{copy.results.nextStepTitle}</strong>{" "}
                   {result.status === copy.results.statusOnTarget ? copy.results.nextStepOnTarget : copy.results.nextStepBelow}

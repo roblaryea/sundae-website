@@ -269,7 +269,7 @@ const localizedPrivacyCopy: Partial<Record<NonEnglishWebsiteLocale, PrivacyCopy>
             ],
           },
           {
-            title: '12.2 المنطقة الاقتصادية الأوروبية/المملكة المتحدة – GDPR',
+            title: '12.2 المنطقة الاقتصادية الأوروبية/المملكة المتحدة - GDPR',
             paragraphs: [
               'إذا كنت في المنطقة الاقتصادية الأوروبية أو المملكة المتحدة، فإن GDPR و UK GDPR يمنحانك الحقوق الموضحة في القسم 7، ويتطلبان منا توضيح الأسس القانونية للمعالجة، وقد لخّصناها في القسم 3: العقد والمصالح المشروعة والموافقة والالتزامات القانونية.',
               'وإذا كنت تعتقد أن معالجتنا لمعلوماتك الشخصية تنتهك القانون المعمول به، فلديك الحق في تقديم شكوى إلى سلطة الرقابة المحلية لديك. ومع ذلك، نأمل أن تمنحنا فرصة لمعالجة مخاوفك أولًا.',
@@ -964,7 +964,7 @@ function LocalizedPrivacyPage({ copy }: { copy: PrivacyCopy }) {
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center space-x-2 bg-blue-500/20 text-blue-400 px-4 py-2 rounded-full text-sm font-medium mb-6">
+            <div className="inline-flex items-center space-x-2 bg-[#FF5C4D]/20 text-[#FF8473] px-4 py-2 rounded-full text-sm font-medium mb-6">
               <SundaeIcon name="owners" size="md" />
               <span>{copy.badge}</span>
             </div>
@@ -981,10 +981,10 @@ function LocalizedPrivacyPage({ copy }: { copy: PrivacyCopy }) {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto">
           <div className="prose prose-lg max-w-none">
-            <div className="bg-[rgba(28,71,255,0.1)] border-l-4 border-blue-400 p-6 mb-8">
+            <div className="bg-[rgba(255,92,77,0.1)] border-l-4 border-[#FF8473] p-6 mb-8">
               <div className="flex">
                 <div className="flex-shrink-0">
-                  <svg className="h-5 w-5 text-blue-400" viewBox="0 0 20 20" fill="currentColor">
+                  <svg className="h-5 w-5 text-[#FF8473]" viewBox="0 0 20 20" fill="currentColor">
                     <path
                       fillRule="evenodd"
                       d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
@@ -993,7 +993,7 @@ function LocalizedPrivacyPage({ copy }: { copy: PrivacyCopy }) {
                   </svg>
                 </div>
                 <div className="ml-3">
-                  <p className="text-sm text-[#60A5FA]">
+                  <p className="text-sm text-[#FF8473]">
                     <strong>{copy.noticeTitle}:</strong> {copy.noticeBody}
                   </p>
                 </div>
@@ -1021,7 +1021,7 @@ function LocalizedPrivacyPage({ copy }: { copy: PrivacyCopy }) {
             {copy.cards.map((card) => (
               <Card key={card.title} variant="elevated">
                 <CardContent className="p-6 text-center">
-                  <div className="w-10 h-10 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center">
+                  <div className="w-10 h-10 mx-auto mb-4 bg-gradient-to-br from-[#FF5C4D] to-[#E03E48] rounded-lg flex items-center justify-center">
                     <SundaeIcon name={card.icon} size="lg" className="text-white" />
                   </div>
                   <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">{card.title}</h3>
@@ -1035,7 +1035,7 @@ function LocalizedPrivacyPage({ copy }: { copy: PrivacyCopy }) {
                       ))}
                     </p>
                   ) : (
-                    <a href={card.href ?? '#'} className="text-[#60A5FA] hover:underline">
+                    <a href={card.href ?? '#'} className="text-[#FF8473] hover:underline">
                       {card.value}
                     </a>
                   )}
@@ -1091,7 +1091,7 @@ export default async function PrivacyPage() {
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center space-x-2 bg-blue-500/20 text-blue-400 px-4 py-2 rounded-full text-sm font-medium mb-6">
+            <div className="inline-flex items-center space-x-2 bg-[#FF5C4D]/20 text-[#FF8473] px-4 py-2 rounded-full text-sm font-medium mb-6">
               <SundaeIcon name="owners" size="md" />
               <span>Privacy</span>
             </div>
@@ -1109,15 +1109,15 @@ export default async function PrivacyPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-4xl mx-auto">
           <div className="prose prose-lg max-w-none">
-            <div className="bg-[rgba(28,71,255,0.1)] border-l-4 border-blue-400 p-6 mb-8">
+            <div className="bg-[rgba(255,92,77,0.1)] border-l-4 border-[#FF8473] p-6 mb-8">
               <div className="flex">
                 <div className="flex-shrink-0">
-                  <svg className="h-5 w-5 text-blue-400" viewBox="0 0 20 20" fill="currentColor">
+                  <svg className="h-5 w-5 text-[#FF8473]" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
 +                  </svg>
 +                </div>
 +                <div className="ml-3">
-+                  <p className="text-sm text-[#60A5FA]">
++                  <p className="text-sm text-[#FF8473]">
 +                    <strong>Your Privacy Matters:</strong> We're committed to protecting your personal information and being transparent about how we collect, use, and share your data.
 +                  </p>
 +                </div>
@@ -1354,7 +1354,7 @@ export default async function PrivacyPage() {
                   <li><strong>Marketing:</strong> Opt out of direct marketing communications at any time (for example, via the "unsubscribe" link in our emails).</li>
                 </ul>
                 <p className="text-[var(--text-secondary)] mt-4 mb-4">
-                  To exercise these rights, please contact us at <a href="mailto:privacy@sundae.io" className="text-[#60A5FA] hover:underline">privacy@sundae.io</a>. We will respond in accordance with applicable data protection laws and may need to verify your identity before fulfilling your request.
+                  To exercise these rights, please contact us at <a href="mailto:privacy@sundae.io" className="text-[#FF8473] hover:underline">privacy@sundae.io</a>. We will respond in accordance with applicable data protection laws and may need to verify your identity before fulfilling your request.
                 </p>
                 <p className="text-[var(--text-secondary)]">
                   You may also have the right to lodge a complaint with your local data protection authority. We encourage you to contact us first so we can attempt to resolve your concerns.
@@ -1433,10 +1433,10 @@ export default async function PrivacyPage() {
                   <li>The right to non-discrimination for exercising your privacy rights.</li>
                 </ul>
                 <p className="text-[var(--text-secondary)] mt-4">
-                  Sundae does not sell personal information as that term is generally defined under the CCPA. To exercise your California rights, you may contact us at <a href="mailto:privacy@sundae.io" className="text-[#60A5FA] hover:underline">privacy@sundae.io</a>.
+                  Sundae does not sell personal information as that term is generally defined under the CCPA. To exercise your California rights, you may contact us at <a href="mailto:privacy@sundae.io" className="text-[#FF8473] hover:underline">privacy@sundae.io</a>.
                 </p>
 
-                <h3 className="text-xl font-semibold text-[var(--text-primary)] mb-3 mt-6">12.2 EEA/UK – GDPR</h3>
+                <h3 className="text-xl font-semibold text-[var(--text-primary)] mb-3 mt-6">12.2 EEA/UK - GDPR</h3>
                 <p className="text-[var(--text-secondary)] mb-4">
                   If you are in the EEA or UK, the General Data Protection Regulation (GDPR) and UK GDPR give you the rights described in Section 7, and require us to describe our lawful bases for processing, which we have summarized in Section 3 (contract, legitimate interests, consent, legal obligations).
                 </p>
@@ -1493,7 +1493,7 @@ export default async function PrivacyPage() {
                   <li>The relevant ADGM authority (for ADGM matters).</li>
                 </ul>
                 <p className="text-[var(--text-secondary)]">
-                  We would, however, appreciate the opportunity to address your concerns directly first. Please contact us at <a href="mailto:privacy@sundae.io" className="text-[#60A5FA] hover:underline">privacy@sundae.io</a>.
+                  We would, however, appreciate the opportunity to address your concerns directly first. Please contact us at <a href="mailto:privacy@sundae.io" className="text-[#FF8473] hover:underline">privacy@sundae.io</a>.
                 </p>
               </section>
 
@@ -1524,7 +1524,7 @@ export default async function PrivacyPage() {
                     <strong>Sundae Technologies Inc.</strong><br />
                     1007 N Orange St, 4th Floor, Suite 1382<br />
                     Wilmington, DE 19801, United States<br />
-                    Email: <a href="mailto:privacy@sundae.io" className="text-[#60A5FA] hover:underline">privacy@sundae.io</a>
+                    Email: <a href="mailto:privacy@sundae.io" className="text-[#FF8473] hover:underline">privacy@sundae.io</a>
                   </p>
                 </div>
                 <p className="text-[var(--text-secondary)] mt-4">
@@ -1549,9 +1549,9 @@ export default async function PrivacyPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <Card variant="elevated">
               <CardContent className="p-6 text-center">
-                <div className="w-10 h-10 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center"><SundaeIcon name="support" size="lg" className="text-white" /></div>
+                <div className="w-10 h-10 mx-auto mb-4 bg-gradient-to-br from-[#FF5C4D] to-[#E03E48] rounded-lg flex items-center justify-center"><SundaeIcon name="support" size="lg" className="text-white" /></div>
                 <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">Email Us</h3>
-                <a href="mailto:privacy@sundae.io" className="text-[#60A5FA] hover:underline">
+                <a href="mailto:privacy@sundae.io" className="text-[#FF8473] hover:underline">
                   privacy@sundae.io
                 </a>
               </CardContent>
@@ -1559,9 +1559,9 @@ export default async function PrivacyPage() {
             
             <Card variant="elevated">
               <CardContent className="p-6 text-center">
-                <div className="w-10 h-10 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center"><SundaeIcon name="support" size="lg" className="text-white" /></div>
+                <div className="w-10 h-10 mx-auto mb-4 bg-gradient-to-br from-[#FF5C4D] to-[#E03E48] rounded-lg flex items-center justify-center"><SundaeIcon name="support" size="lg" className="text-white" /></div>
                 <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">Call Us</h3>
-                <a href="tel:+97145017308" className="text-[#60A5FA] hover:underline">
+                <a href="tel:+97145017308" className="text-[#FF8473] hover:underline">
                   +971 (4) 501-7308
                 </a>
               </CardContent>
@@ -1569,7 +1569,7 @@ export default async function PrivacyPage() {
             
             <Card variant="elevated">
               <CardContent className="p-6 text-center">
-                <div className="w-10 h-10 mx-auto mb-4 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center"><SundaeIcon name="multiLocation" size="lg" className="text-white" /></div>
+                <div className="w-10 h-10 mx-auto mb-4 bg-gradient-to-br from-[#FF5C4D] to-[#E03E48] rounded-lg flex items-center justify-center"><SundaeIcon name="multiLocation" size="lg" className="text-white" /></div>
                 <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">Visit Us</h3>
                 <p className="text-[var(--text-supporting)] text-sm">
                   1007 N Orange St<br />

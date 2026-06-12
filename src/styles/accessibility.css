@@ -5,7 +5,7 @@
 
 /* Focus Indicators */
 *:focus-visible {
-  outline: 3px solid #3B82F6;
+  outline: 3px solid var(--electric-blue);
   outline-offset: 2px;
   border-radius: 4px;
   transition: outline 0.15s ease;
@@ -17,37 +17,37 @@
 
 button:focus-visible,
 [role="button"]:focus-visible {
-  outline: 3px solid #3B82F6;
+  outline: 3px solid var(--electric-blue);
   outline-offset: 4px;
-  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.2);
+  box-shadow: 0 0 0 4px rgba(255, 92, 77,0.2);
 }
 
 a:focus-visible {
-  outline: 2px solid #3B82F6;
+  outline: 2px solid var(--electric-blue);
   outline-offset: 2px;
-  background-color: rgba(59, 130, 246, 0.1);
+  background-color: rgba(255, 92, 77,0.1);
   border-radius: 2px;
 }
 
 nav a:focus-visible {
-  outline: 2px solid #3B82F6;
+  outline: 2px solid var(--electric-blue);
   outline-offset: -2px;
-  background-color: rgba(59, 130, 246, 0.1);
+  background-color: rgba(255, 92, 77,0.1);
 }
 
 input:focus-visible,
 textarea:focus-visible,
 select:focus-visible {
-  outline: 3px solid #3B82F6;
+  outline: 3px solid var(--electric-blue);
   outline-offset: 0;
-  border-color: #3B82F6;
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+  border-color: var(--electric-blue);
+  box-shadow: 0 0 0 3px rgba(255, 92, 77,0.1);
 }
 
 .card:focus-visible {
-  outline: 3px solid #3B82F6;
+  outline: 3px solid var(--electric-blue);
   outline-offset: 2px;
-  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.15);
+  box-shadow: 0 0 0 4px rgba(255, 92, 77,0.15);
 }
 
 /* Touch Target Sizes - WCAG 2.1 AAA (44x44px minimum) */
@@ -69,7 +69,7 @@ nav a {
   justify-content: center;
 }
 
-/* Footer links are dense secondary nav — the 44px AAA touch target made the
+/* Footer links are dense secondary nav - the 44px AAA touch target made the
    footer ~25% taller than needed on desktop AND mobile. Tighten to a still-
    tappable ~30px (above the WCAG 2.5.8 AA 24px minimum). */
 footer a {

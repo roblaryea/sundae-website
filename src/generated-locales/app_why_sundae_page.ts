@@ -18,13 +18,13 @@ export const generatedLocalCopy = {
           "title": "Ingestion de données à 12 domaines",
           "description": "POS, main-d'œuvre, inventaire, achats, réservations, livraison, marketing, expérience client, CRM, comptabilité - tout est unifié. Fini les systèmes déconnectés.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Modèle d'intelligence 4D",
           "description": "Ce qui s'est passé. Comment cela se compare au plan. Où vous vous situez sur le marché. Que faire ensuite. Quatre dimensions de chaque décision.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Opérations en temps réel via Pulse",
@@ -34,7 +34,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Intelligence externe via Watchtower",
-          "description": "Nouveau concurrent ? Couvertures météo en chute ? Concert annoncé ? Vous saurez avant que cela n'affecte vos chiffres.",
+          "description": "Nouveau concurrent ? L'affluence chute à cause de la météo ? Concert annoncé ? Vous saurez avant que cela n'affecte vos chiffres.",
           "icon": "watchtower",
           "color": "bg-red-600"
         },
@@ -98,7 +98,7 @@ export const generatedLocalCopy = {
             "pain": "Vous ne pouvez pas être dans chaque restaurant à la fois.",
             "description": "Visibilité en temps réel sur chaque emplacement via Pulse et Portfolio - sachez qui a besoin d'aide avant même qu'il ne demande.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finance & FP&A",
@@ -112,7 +112,7 @@ export const generatedLocalCopy = {
             "pain": "Votre point de vente le moins performant est invisible jusqu'à jeudi.",
             "description": "Tableaux de bord de portefeuille, briefings quotidiens, intelligence concurrentielle et vues de décisions stratégiques.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Équipes technologiques",
@@ -146,13 +146,13 @@ export const generatedLocalCopy = {
           "title": "Ingesta de Datos de 12 Dominios",
           "description": "POS, mano de obra, inventario, compras, reservas, entrega, marketing, experiencia del cliente, CRM, contabilidad - todo unificado. No más sistemas desconectados.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Modelo de Inteligencia 4D",
           "description": "Qué sucedió. Cómo se compara con el plan. Dónde te encuentras en el mercado. Qué hacer a continuación. Cuatro dimensiones de cada decisión.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Operaciones en Tiempo Real a través de Pulse",
@@ -162,7 +162,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Inteligencia Externa a través de Watchtower",
-          "description": "¿Nuevo competidor? ¿El clima afecta las coberturas? ¿Concierto anunciado? Lo sabrás antes de que afecte tus números.",
+          "description": "¿Nuevo competidor? ¿El mal tiempo reduce los comensales? ¿Concierto anunciado? Lo sabrás antes de que afecte tus números.",
           "icon": "watchtower",
           "color": "bg-red-600"
         },
@@ -226,7 +226,7 @@ export const generatedLocalCopy = {
             "pain": "No puedes estar en cada restaurante a la vez.",
             "description": "Visibilidad en tiempo real de cada ubicación a través de Pulse y Portfolio - sabe quién necesita ayuda antes de que lo pida.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finanzas y FP&A",
@@ -240,7 +240,7 @@ export const generatedLocalCopy = {
             "pain": "Tu local de peor rendimiento es invisible hasta el jueves.",
             "description": "Tableros de portfolio, informes diarios, inteligencia competitiva y vistas de decisiones estratégicas.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Equipos de Tecnología",
@@ -274,13 +274,13 @@ export const generatedLocalCopy = {
           "title": "12-Domein Gegevensinvoer",
           "description": "POS, arbeid, inventaris, inkoop, reserveringen, levering, marketing, gastenervaring, CRM, boekhouding - allemaal verenigd. Geen losgekoppelde systemen meer.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "4D Inlichtingenmodel",
           "description": "Wat er is gebeurd. Hoe het zich verhoudt tot het plan. Waar je staat in de markt. Wat je nu moet doen. Vier dimensies van elke beslissing.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Realtime Operaties via Pulse",
@@ -354,7 +354,7 @@ export const generatedLocalCopy = {
             "pain": "Je kunt niet in elk restaurant tegelijk zijn.",
             "description": "Realtime inzicht in elke locatie via Pulse en Portfolio - weet wie hulp nodig heeft voordat ze het vragen.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Financiën & FP&A",
@@ -368,7 +368,7 @@ export const generatedLocalCopy = {
             "pain": "Je slecht presterende vestiging is onzichtbaar tot donderdag.",
             "description": "Portfolio-dashboards, dagelijkse briefings, concurrentie-informatie en strategische besluitvormingsweergaven.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Technologieteams",
@@ -402,13 +402,13 @@ export const generatedLocalCopy = {
           "title": "استيعاب البيانات عبر 12 مجالاً",
           "description": "POS، العمالة، المخزون، الشراء، الحجوزات، التوصيل، التسويق، تجربة الضيوف، إدارة علاقات العملاء، المحاسبة - جميعها موحدة. لا مزيد من الأنظمة المنفصلة.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "نموذج الذكاء الرباعي الأبعاد",
           "description": "ما حدث. كيف يقارن بالخطة. أين تقف في السوق. ماذا تفعل بعد ذلك. أربعة أبعاد لكل قرار.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "العمليات في الوقت الحقيقي عبر Pulse",
@@ -418,7 +418,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "الذكاء الخارجي عبر Watchtower",
-          "description": "منافس جديد؟ تغطيات الطقس تتدهور؟ تم الإعلان عن حفل موسيقي؟ ستعرف قبل أن يؤثر ذلك على أرقامك.",
+          "description": "منافس جديد؟ طقس سيئ يقلّص عدد الضيوف؟ تم الإعلان عن حفل موسيقي؟ ستعرف قبل أن يؤثر ذلك على أرقامك.",
           "icon": "watchtower",
           "color": "bg-red-600"
         },
@@ -482,7 +482,7 @@ export const generatedLocalCopy = {
             "pain": "لا يمكنك التواجد في كل مطعم في آن واحد.",
             "description": "رؤية فورية لكل موقع عبر Pulse وPortfolio - اعرف من يحتاج المساعدة قبل أن يطلبها.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "المالية والتخطيط والتحليل",
@@ -496,7 +496,7 @@ export const generatedLocalCopy = {
             "pain": "أضعف منفذ لديك غير مرئي حتى يوم الخميس.",
             "description": "لوحات معلومات المحفظة، الإحاطات اليومية، ذكاء تنافسي، ووجهات نظر اتخاذ القرار الاستراتيجي.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "فرق التكنولوجيا",
@@ -530,13 +530,13 @@ export const generatedLocalCopy = {
           "title": "12-Domain-Datenaufnahme",
           "description": "POS, Personal, Inventar, Einkauf, Reservierungen, Lieferung, Marketing, Gästeerlebnis, CRM, Buchhaltung - alles vereint. Keine getrennten Systeme mehr.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "4D-Intelligenzmodell",
           "description": "Was passiert ist. Wie es im Vergleich zum Plan steht. Wo Sie im Markt stehen. Was als Nächstes zu tun ist. Vier Dimensionen jeder Entscheidung.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Echtzeit-Betrieb über Pulse",
@@ -610,12 +610,12 @@ export const generatedLocalCopy = {
             "pain": "Sie können nicht gleichzeitig in jedem Restaurant sein.",
             "description": "Echtzeit-Transparenz für jeden Standort über Pulse und Portfolio - wissen, wer Hilfe benötigt, bevor er fragt.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finanzen & FP&A",
             "pain": "3 Tage für den Abschluss der Bücher? Das sind 3 Tage zu viel.",
-            "description": "Echtzeit-Margenintelligenz, arbeitskosten auf Schichtniveau und Abweichungsanalysen, die mit den Ursachen verbunden sind.",
+            "description": "Echtzeit-Margenintelligenz, Arbeitskosten auf Schichtniveau und Abweichungsanalysen, die mit den Ursachen verbunden sind.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -624,7 +624,7 @@ export const generatedLocalCopy = {
             "pain": "Ihr schwächster Standort ist bis Donnerstag unsichtbar.",
             "description": "Portfolio-Dashboards, tägliche Briefings, Wettbewerbsintelligenz und strategische Entscheidungsansichten.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Technologie-Teams",
@@ -658,13 +658,13 @@ export const generatedLocalCopy = {
           "title": "Ingestão de Dados em 12 Domínios",
           "description": "POS, mão de obra, inventário, compras, reservas, entrega, marketing, experiência do cliente, CRM, contabilidade - tudo unificado. Chega de sistemas desconectados.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Modelo de Inteligência 4D",
           "description": "O que aconteceu. Como se compara ao plano. Onde você está no mercado. O que fazer a seguir. Quatro dimensões de cada decisão.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Operações em Tempo Real via Pulse",
@@ -674,7 +674,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Inteligência Externa via Watchtower",
-          "description": "Novo concorrente? Coberturas de clima em queda? Show anunciado? Você saberá antes que isso impacte seus números.",
+          "description": "Novo concorrente? Mau tempo derrubando o movimento? Show anunciado? Você saberá antes que isso impacte seus números.",
           "icon": "watchtower",
           "color": "bg-red-600"
         },
@@ -738,7 +738,7 @@ export const generatedLocalCopy = {
             "pain": "Você não pode estar em todos os restaurantes ao mesmo tempo.",
             "description": "Visibilidade em tempo real de cada local através do Pulse e Portfolio - saiba quem precisa de ajuda antes mesmo de pedir.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finanças & FP&A",
@@ -752,7 +752,7 @@ export const generatedLocalCopy = {
             "pain": "Seu ponto de venda com pior desempenho é invisível até quinta-feira.",
             "description": "Painéis de controle do portfólio, briefings diários, inteligência competitiva e visões de decisões estratégicas.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Equipes de Tecnologia",
@@ -778,21 +778,21 @@ export const generatedLocalCopy = {
       },
       "problems": {
         "eyebrow": "مسئلہ",
-        "title": "ہر روز آپ کو پیسے کی قیمت پر تین خلا",
+        "title": "تین خلا جو ہر روز آپ کو پیسوں کا نقصان پہنچاتے ہیں",
         "description": "ہر ریستوراں گروپ جس کے ساتھ ہم نے کام کیا ہے، اسی تین چیلنجز کا سامنا کرتا ہے۔"
       },
       "differentiators": [
         {
-          "title": "12-ڈومین ڈیٹا انگریشن",
+          "title": "12-ڈومین ڈیٹا اِنجیشن",
           "description": "POS، محنت، انوینٹری، خریداری، ریزرویشن، ترسیل، مارکیٹنگ، مہمان کے تجربے، CRM، اکاؤنٹنگ - سب متحد۔ مزید غیر مربوط نظام نہیں۔",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "4D انٹیلیجنس ماڈل",
           "description": "کیا ہوا۔ یہ منصوبے کے ساتھ کیسے موازنہ کرتا ہے۔ آپ مارکیٹ میں کہاں کھڑے ہیں۔ اگلا کیا کرنا ہے۔ ہر فیصلے کے چار ابعاد۔",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Pulse کے ذریعے حقیقی وقت کی کارروائیاں",
@@ -866,7 +866,7 @@ export const generatedLocalCopy = {
             "pain": "آپ ایک وقت میں ہر ریستوران میں نہیں ہو سکتے۔",
             "description": "Pulse اور پورٹ فولیو کے ذریعے ہر مقام پر حقیقی وقت کی بصیرت - جانیں کہ کس کو مدد کی ضرورت ہے اس سے پہلے کہ وہ پوچھیں۔",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "مالیات اور FP&A",
@@ -880,7 +880,7 @@ export const generatedLocalCopy = {
             "pain": "آپ کا سب سے کم کارکردگی والا آؤٹ لیٹ جمعرات تک نظر نہیں آتا۔",
             "description": "پورٹ فولیو ڈیش بورڈز، روزانہ کی بریفنگ، مسابقتی ذہانت، اور اسٹریٹجک فیصلہ سازی کے مناظر۔",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "ٹیکنالوجی کی ٹیمیں",
@@ -906,21 +906,21 @@ export const generatedLocalCopy = {
       },
       "problems": {
         "eyebrow": "समस्या",
-        "title": "तीन अंतर जो आपको हर दिन पैसे खर्च कराते हैं",
-        "description": "हर रेस्तरां समूह जिसका हमने काम किया है, वही तीन चुनौतियों का सामना करता है।"
+        "title": "तीन कमियां जो आपको हर दिन पैसे का नुकसान पहुंचाती हैं",
+        "description": "हर रेस्तरां समूह जिसके साथ हमने काम किया है, उन्हीं तीन चुनौतियों का सामना करता है।"
       },
       "differentiators": [
         {
           "title": "12-डोमेन डेटा इनजेशन",
           "description": "POS, श्रम, इन्वेंटरी, खरीदारी, आरक्षण, डिलीवरी, मार्केटिंग, अतिथि अनुभव, CRM, लेखा - सभी एकीकृत। अब और डिस्कनेक्टेड सिस्टम नहीं।",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "4D इंटेलिजेंस मॉडल",
           "description": "क्या हुआ। यह योजना से कैसे तुलना करता है। आप बाजार में कहाँ खड़े हैं। अगला कदम क्या है। हर निर्णय के चार आयाम।",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Pulse के माध्यम से वास्तविक समय संचालन",
@@ -929,8 +929,8 @@ export const generatedLocalCopy = {
           "color": "bg-green-600"
         },
         {
-          "title": "External Intelligence via Watchtower",
-          "description": "नया प्रतियोगी? मौसम खराब होने से कवर? कॉन्सर्ट की घोषणा? आप जानेंगे इससे पहले कि यह आपके नंबरों को प्रभावित करे।",
+          "title": "Watchtower के माध्यम से बाहरी इंटेलिजेंस",
+          "description": "नया प्रतियोगी? खराब मौसम? कॉन्सर्ट की घोषणा? यह आपके आंकड़ों को प्रभावित करे, उससे पहले आप जान जाएंगे।",
           "icon": "watchtower",
           "color": "bg-red-600"
         },
@@ -994,7 +994,7 @@ export const generatedLocalCopy = {
             "pain": "आप एक साथ हर रेस्तरां में नहीं हो सकते।",
             "description": "Pulse और Portfolio के माध्यम से हर स्थान पर वास्तविक समय की दृश्यता - जानें कि किसे मदद की आवश्यकता है इससे पहले कि वे पूछें।",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "वित्त और FP&A",
@@ -1008,7 +1008,7 @@ export const generatedLocalCopy = {
             "pain": "आपका सबसे खराब प्रदर्शन करने वाला आउटलेट गुरुवार तक अदृश्य है।",
             "description": "पोर्टफोलियो डैशबोर्ड, दैनिक ब्रीफिंग, प्रतिस्पर्धात्मक इंटेलिजेंस, और रणनीतिक निर्णय दृश्य।",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "प्रौद्योगिकी टीमें",
@@ -1029,7 +1029,7 @@ export const generatedLocalCopy = {
     "it": {
       "hero": {
         "badge": "Perché Sundae",
-        "title": "Il Livello di Intelligenza che i Ristoranti Non Hanno Mai Avere",
+        "title": "Il Livello di Intelligenza che i Ristoranti Non Hanno Mai Avuto",
         "description": "I tuoi dati vivono in silos disconnessi. Il tuo team prende decisioni da milioni di dollari basandosi sull'istinto. Abbiamo costruito la piattaforma che cambia tutto."
       },
       "problems": {
@@ -1042,13 +1042,13 @@ export const generatedLocalCopy = {
           "title": "Ingestione Dati a 12 Domini",
           "description": "POS, lavoro, inventario, acquisti, prenotazioni, consegne, marketing, esperienza degli ospiti, CRM, contabilità - tutto unificato. Niente più sistemi disconnessi.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Modello di Intelligenza 4D",
           "description": "Cosa è successo. Come si confronta con il piano. Dove ti trovi nel mercato. Cosa fare dopo. Quattro dimensioni di ogni decisione.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Operazioni in Tempo Reale tramite Pulse",
@@ -1058,7 +1058,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Intelligenza Esterna tramite Watchtower",
-          "description": "Nuovo concorrente? Coperture meteorologiche in calo? Concerto annunciato? Lo saprai prima che impatti i tuoi numeri.",
+          "description": "Nuovo concorrente? Maltempo che riduce i coperti? Concerto annunciato? Lo saprai prima che impatti i tuoi numeri.",
           "icon": "watchtower",
           "color": "bg-red-600"
         },
@@ -1122,7 +1122,7 @@ export const generatedLocalCopy = {
             "pain": "Non puoi essere in ogni ristorante contemporaneamente.",
             "description": "Visibilità in tempo reale su ogni sede tramite Pulse e Portfolio - sapere chi ha bisogno di aiuto prima che lo chieda.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finanza & FP&A",
@@ -1136,7 +1136,7 @@ export const generatedLocalCopy = {
             "pain": "Il tuo punto vendita con le peggiori performance è invisibile fino a giovedì.",
             "description": "Dashboard del portfolio, briefing giornalieri, intelligenza competitiva e viste per decisioni strategiche.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Team Tecnologici",
@@ -1170,13 +1170,13 @@ export const generatedLocalCopy = {
           "title": "12-Domain Veri Alımı",
           "description": "POS, iş gücü, envanter, satın alma, rezervasyon, teslimat, pazarlama, misafir deneyimi, CRM, muhasebe - hepsi bir arada. Artık bağlantısız sistemler yok.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "4D Zeka Modeli",
           "description": "Ne oldu. Planla nasıl karşılaştırılıyor. Pazar konumunuz nedir. Sonraki adım ne olmalı. Her kararın dört boyutu.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Pulse ile Gerçek Zamanlı Operasyonlar",
@@ -1250,7 +1250,7 @@ export const generatedLocalCopy = {
             "pain": "Her restoranda aynı anda olamazsınız.",
             "description": "Pulse ve Portfolio aracılığıyla her lokasyona gerçek zamanlı görünürlük - yardım isteyenleri, sormadan önce bilin.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finans & FP&A",
@@ -1264,7 +1264,7 @@ export const generatedLocalCopy = {
             "pain": "En kötü performans gösteren şubeniz Perşembe'ye kadar görünmez.",
             "description": "Portföy panoları, günlük brifingler, rekabetçi zeka ve stratejik karar görünümleri.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Teknoloji Ekipleri",
@@ -1298,13 +1298,13 @@ export const generatedLocalCopy = {
           "title": "12个领域数据摄取",
           "description": "POS、劳动力、库存、采购、预订、配送、营销、客户体验、CRM、会计 - 全部统一。再也没有脱节的系统。",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "4D智能模型",
           "description": "发生了什么。与计划的比较。您在市场中的位置。接下来该做什么。每个决策的四个维度。",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "通过Pulse实时运营",
@@ -1314,7 +1314,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "通过Watchtower获取外部情报",
-          "description": "新竞争者？天气恶化影响覆盖？音乐会宣布？您会在影响您的数字之前知道。",
+          "description": "新竞争者？天气变差影响客流？音乐会宣布？您会在影响您的数字之前知道。",
           "icon": "watchtower",
           "color": "bg-red-600"
         },
@@ -1378,7 +1378,7 @@ export const generatedLocalCopy = {
             "pain": "您无法同时在每个餐厅。",
             "description": "通过Pulse和Portfolio实时了解每个位置的情况 - 在他们请求帮助之前就知道谁需要帮助。",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "财务与FP&A",
@@ -1392,7 +1392,7 @@ export const generatedLocalCopy = {
             "pain": "您表现最差的门店在周四之前是不可见的。",
             "description": "投资组合仪表板、每日简报、竞争情报和战略决策视图。",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "技术团队",
@@ -1426,13 +1426,13 @@ export const generatedLocalCopy = {
           "title": "12-Domenowa Ingestia Danych",
           "description": "POS, praca, zapasy, zakupy, rezerwacje, dostawy, marketing, doświadczenie gości, CRM, księgowość - wszystko zintegrowane. Koniec z rozłączonymi systemami.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Model Inteligencji 4D",
           "description": "Co się wydarzyło. Jak to się ma do planu. Gdzie stoisz na rynku. Co robić dalej. Cztery wymiary każdej decyzji.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Operacje w Czasie Rzeczywistym dzięki Pulse",
@@ -1506,7 +1506,7 @@ export const generatedLocalCopy = {
             "pain": "Nie możesz być w każdej restauracji jednocześnie.",
             "description": "Widoczność w czasie rzeczywistym w każdej lokalizacji dzięki Pulse i Portfolio - wiedz, kto potrzebuje pomocy, zanim poprosi.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finanse i FP&A",
@@ -1520,7 +1520,7 @@ export const generatedLocalCopy = {
             "pain": "Najgorzej działający punkt jest niewidoczny do czwartku.",
             "description": "Pulpity nawigacyjne portfolio, codzienne briefingi, inteligencja konkurencyjna i widoki decyzji strategicznych.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Zespoły Technologiczne",
@@ -1554,13 +1554,13 @@ export const generatedLocalCopy = {
           "title": "12ドメインデータ取り込み",
           "description": "POS、労働、在庫、購買、予約、配送、マーケティング、ゲスト体験、CRM、会計 - すべてが統合されています。もはや切り離されたシステムはありません。",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "4Dインテリジェンスモデル",
           "description": "何が起こったのか。計画とどう比較されるか。市場での立ち位置。次に何をすべきか。すべての決定の四つの次元。",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Pulseによるリアルタイムオペレーション",
@@ -1634,7 +1634,7 @@ export const generatedLocalCopy = {
             "pain": "すべてのレストランに同時にいることはできません。",
             "description": "PulseとPortfolioを通じて、各ロケーションのリアルタイムの可視性 - 誰が助けを必要としているかを事前に把握します。",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "財務 & FP&A",
@@ -1648,7 +1648,7 @@ export const generatedLocalCopy = {
             "pain": "最もパフォーマンスが悪い店舗は木曜日まで見えません。",
             "description": "ポートフォリオダッシュボード、日次ブリーフィング、競争インテリジェンス、戦略的意思決定ビュー。",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "テクノロジーチーム",
@@ -1682,16 +1682,16 @@ export const generatedLocalCopy = {
           "title": "Tiếp Nhận Dữ Liệu 12 Miền",
           "description": "POS, lao động, tồn kho, mua sắm, đặt chỗ, giao hàng, tiếp thị, trải nghiệm khách hàng, CRM, kế toán - tất cả được thống nhất. Không còn hệ thống tách rời.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Mô Hình Trí Tuệ 4D",
           "description": "Điều gì đã xảy ra. So sánh với kế hoạch như thế nào. Bạn đang ở đâu trên thị trường. Cần làm gì tiếp theo. Bốn chiều của mỗi quyết định.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Hoạt Động Thực Thời Qua Pulse",
+          "title": "Hoạt Động Thời Gian Thực Qua Pulse",
           "description": "Theo dõi doanh số trong ngày, năng suất lao động, phát hiện rò rỉ và huấn luyện - trước khi ca làm việc kết thúc.",
           "icon": "speed",
           "color": "bg-green-600"
@@ -1762,7 +1762,7 @@ export const generatedLocalCopy = {
             "pain": "Bạn không thể có mặt ở mọi nhà hàng cùng một lúc.",
             "description": "Tầm nhìn thời gian thực vào mọi địa điểm qua Pulse và Portfolio - biết ai cần giúp đỡ trước khi họ yêu cầu.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Tài chính & FP&A",
@@ -1776,7 +1776,7 @@ export const generatedLocalCopy = {
             "pain": "Cửa hàng hoạt động kém nhất của bạn không thể nhìn thấy cho đến thứ Năm.",
             "description": "Bảng điều khiển danh mục, báo cáo hàng ngày, thông tin cạnh tranh, và cái nhìn quyết định chiến lược.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Đội ngũ Công nghệ",
@@ -1790,7 +1790,7 @@ export const generatedLocalCopy = {
       "cta": {
         "title": "Ngừng điều hành nhà hàng của bạn chỉ dựa vào cảm tính.",
         "description": "30 phút để xem xét dữ liệu của bạn cùng nhau và xem liệu Sundae có thực sự giúp đội ngũ của bạn không.",
-        "primary": "Đặt Lịch Demos",
+        "primary": "Đặt Lịch Demo",
         "secondary": "Khám Phá Sản Phẩm"
       }
     },
@@ -1810,13 +1810,13 @@ export const generatedLocalCopy = {
           "title": "Pengambilan Data 12-Domain",
           "description": "POS, tenaga kerja, inventaris, pembelian, reservasi, pengiriman, pemasaran, pengalaman tamu, CRM, akuntansi - semua terintegrasi. Tidak ada lagi sistem yang terputus.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Model Intelijen 4D",
           "description": "Apa yang terjadi. Bagaimana perbandingannya dengan rencana. Di mana posisi Anda di pasar. Apa yang harus dilakukan selanjutnya. Empat dimensi dari setiap keputusan.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Operasi Waktu Nyata melalui Pulse",
@@ -1890,7 +1890,7 @@ export const generatedLocalCopy = {
             "pain": "Anda tidak bisa berada di setiap restoran sekaligus.",
             "description": "Visibilitas waktu nyata ke setiap lokasi melalui Pulse dan Portfolio - ketahui siapa yang membutuhkan bantuan sebelum mereka meminta.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Keuangan & FP&A",
@@ -1904,7 +1904,7 @@ export const generatedLocalCopy = {
             "pain": "Outlet dengan kinerja terburuk Anda tidak terlihat sampai Kamis.",
             "description": "Dasbor portfolio, pengarahan harian, intelijen kompetitif, dan tampilan keputusan strategis.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Tim Teknologi",
@@ -1938,13 +1938,13 @@ export const generatedLocalCopy = {
           "title": "12개 도메인 데이터 수집",
           "description": "POS, 인력, 재고, 구매, 예약, 배달, 마케팅, 고객 경험, CRM, 회계 - 모두 통합되었습니다. 더 이상 분리된 시스템이 없습니다.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "4D 인텔리전스 모델",
           "description": "무슨 일이 있었는지. 계획과의 비교. 시장에서의 위치. 다음에 무엇을 해야 하는지. 모든 결정의 네 가지 차원.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Pulse를 통한 실시간 운영",
@@ -2018,7 +2018,7 @@ export const generatedLocalCopy = {
             "pain": "모든 레스토랑에 동시에 있을 수는 없습니다.",
             "description": "Pulse와 Portfolio를 통해 모든 위치에 대한 실시간 가시성을 제공 - 누가 도움을 필요로 하는지 미리 알 수 있습니다.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "재무 및 FP&A",
@@ -2032,7 +2032,7 @@ export const generatedLocalCopy = {
             "pain": "최악의 성과를 내는 매장은 목요일까지 보이지 않습니다.",
             "description": "포트폴리오 대시보드, 일일 브리핑, 경쟁 인텔리전스, 전략적 의사결정 뷰.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "기술 팀",
@@ -2044,7 +2044,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "직감으로 식당 운영을 멈추세요.",
+        "title": "직감만으로 식당을 운영하는 것을 멈추세요.",
         "description": "데이터를 함께 검토하고 Sundae가 팀에 진정으로 도움이 되는지 확인하는 데 30분이 소요됩니다.",
         "primary": "데모 예약",
         "secondary": "제품 탐색"
@@ -2066,13 +2066,13 @@ export const generatedLocalCopy = {
           "title": "Ingestie de Date pe 12 Domenii",
           "description": "POS, muncă, inventar, achiziții, rezervări, livrare, marketing, experiența oaspeților, CRM, contabilitate - toate unificate. Fără sisteme deconectate.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Model de Inteligență 4D",
           "description": "Ce s-a întâmplat. Cum se compară cu planul. Unde te situezi pe piață. Ce să faci în continuare. Patru dimensiuni ale fiecărei decizii.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Operațiuni în Timp Real prin Pulse",
@@ -2082,7 +2082,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Inteligență Externă prin Watchtower",
-          "description": "Competitor nou? Vremea afectează acoperirile? Concert anunțat? Vei ști înainte să îți afecteze cifrele.",
+          "description": "Competitor nou? Vremea rea scade numărul de clienți? Concert anunțat? Vei ști înainte să îți afecteze cifrele.",
           "icon": "watchtower",
           "color": "bg-red-600"
         },
@@ -2146,7 +2146,7 @@ export const generatedLocalCopy = {
             "pain": "Nu poți fi în fiecare restaurant în același timp.",
             "description": "Vizibilitate în timp real în fiecare locație prin Pulse și Portfolio - știi cine are nevoie de ajutor înainte să ceară.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finanțe & FP&A",
@@ -2160,7 +2160,7 @@ export const generatedLocalCopy = {
             "pain": "Cel mai slab punct de vânzare este invizibil până joi.",
             "description": "Dashboard-uri de portofoliu, briefing-uri zilnice, inteligență competitivă și viziuni strategice pentru decizii.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Echipe Tehnologice",
@@ -2194,13 +2194,13 @@ export const generatedLocalCopy = {
           "title": "12-domäners datainhämtning",
           "description": "POS, arbetskraft, lager, inköp, reservationer, leverans, marknadsföring, gästupplevelse, CRM, bokföring - allt enat. Inga fler frånkopplade system.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "4D-intelligensmodell",
           "description": "Vad hände. Hur det står sig mot planen. Var du står på marknaden. Vad du ska göra härnäst. Fyra dimensioner av varje beslut.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Verksamhet i realtid via Pulse",
@@ -2210,7 +2210,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Extern intelligens via Watchtower",
-          "description": "Ny konkurrent? Väderförhållanden som påverkar täckningen? Konsert annonserad? Du kommer att veta innan det påverkar dina siffror.",
+          "description": "Ny konkurrent? Dåligt väder som minskar gästantalet? Konsert annonserad? Du kommer att veta innan det påverkar dina siffror.",
           "icon": "watchtower",
           "color": "bg-red-600"
         },
@@ -2255,7 +2255,7 @@ export const generatedLocalCopy = {
           {
             "title": "Sundae",
             "items": [
-              "4D Intelligence Model",
+              "4D-intelligensmodell",
               "Övervakning av realtids-Pulse",
               "Marknadskontext via Watchtower",
               "Intelligenta rekommendationer"
@@ -2274,7 +2274,7 @@ export const generatedLocalCopy = {
             "pain": "Du kan inte vara på varje restaurang samtidigt.",
             "description": "Realtidsinsyn i varje plats via Pulse och Portfolio - vet vem som behöver hjälp innan de frågar.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Ekonomi & FP&A",
@@ -2288,7 +2288,7 @@ export const generatedLocalCopy = {
             "pain": "Din sämst presterande enhet är osynlig tills torsdag.",
             "description": "Portföljdashboards, dagliga sammanfattningar, konkurrensanalys och strategiska beslutsvyer.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Teknikteam",
@@ -2309,7 +2309,7 @@ export const generatedLocalCopy = {
     "bn": {
       "hero": {
         "badge": "কেন Sundae",
-        "title": "রেস্তোরাঁর জন্য অদৃশ্য বুদ্ধিমত্তা স্তর",
+        "title": "যে বুদ্ধিমত্তার স্তর রেস্তোরাঁর কখনো ছিল না",
         "description": "আপনার ডেটা বিচ্ছিন্ন সাইলোতে থাকে। আপনার দল অন্তর্দৃষ্টি দ্বারা মিলিয়ন ডলারের সিদ্ধান্ত নেয়। আমরা সেই প্ল্যাটফর্ম তৈরি করেছি যা এটি পরিবর্তন করে।"
       },
       "problems": {
@@ -2322,23 +2322,23 @@ export const generatedLocalCopy = {
           "title": "১২-ডোমেইন ডেটা ইনজেশন",
           "description": "POS, শ্রম, ইনভেন্টরি, ক্রয়, রিজার্ভেশন, ডেলিভারি, মার্কেটিং, অতিথি অভিজ্ঞতা, CRM, হিসাব - সবকিছু একত্রিত। আর বিচ্ছিন্ন সিস্টেম নেই।",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "৪D ইন্টেলিজেন্স মডেল",
           "description": "কি ঘটেছে। এটি পরিকল্পনার সাথে কিভাবে তুলনা করে। আপনি বাজারে কোথায় দাঁড়িয়ে আছেন। পরবর্তী কি করা উচিত। প্রতিটি সিদ্ধান্তের চারটি মাত্রা।",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Real-Time Operations via Pulse",
+          "title": "Pulse এর মাধ্যমে রিয়েল-টাইম অপারেশন",
           "description": "দিনের মধ্যে বিক্রয় পেসিং, শ্রম উৎপাদনশীলতা, লিকেজ সনাক্তকরণ, এবং কোচিং - শিফট শেষ হওয়ার আগে।",
           "icon": "speed",
           "color": "bg-green-600"
         },
         {
-          "title": "External Intelligence via Watchtower",
-          "description": "নতুন প্রতিযোগী? আবহাওয়া খারাপ হচ্ছে? কনসার্ট ঘোষণা করা হয়েছে? আপনি আপনার সংখ্যাগুলোর আগে জানবেন।",
+          "title": "Watchtower এর মাধ্যমে বাহ্যিক ইন্টেলিজেন্স",
+          "description": "নতুন প্রতিযোগী? আবহাওয়া খারাপ হচ্ছে? কনসার্ট ঘোষণা করা হয়েছে? এটি আপনার সংখ্যায় প্রভাব ফেলার আগেই আপনি জানবেন।",
           "icon": "watchtower",
           "color": "bg-red-600"
         },
@@ -2400,9 +2400,9 @@ export const generatedLocalCopy = {
           {
             "title": "অপারেশন নেতৃবৃন্দ",
             "pain": "আপনি একসাথে প্রতিটি রেস্টুরেন্টে থাকতে পারবেন না।",
-            "description": "পালস এবং পোর্টফোলিওর মাধ্যমে প্রতিটি অবস্থানের বাস্তব-সময়ের দৃশ্যমানতা - জানুন কে সাহায্য প্রয়োজন তার আগে। (Pulse)",
+            "description": "Pulse এবং Portfolio এর মাধ্যমে প্রতিটি লোকেশনের রিয়েল-টাইম দৃশ্যমানতা - কে সাহায্য চাইবে, তা চাওয়ার আগেই জেনে নিন।",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "অর্থ ও FP&A",
@@ -2416,7 +2416,7 @@ export const generatedLocalCopy = {
             "pain": "আপনার সবচেয়ে খারাপ পারফর্মিং আউটলেট বৃহস্পতিবার পর্যন্ত অদৃশ্য।",
             "description": "পোর্টফোলিও ড্যাশবোর্ড, দৈনিক ব্রিফিং, প্রতিযোগিতামূলক বুদ্ধিমত্তা, এবং কৌশলগত সিদ্ধান্তের দৃশ্য।",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "প্রযুক্তি দল",
@@ -2436,7 +2436,7 @@ export const generatedLocalCopy = {
     },
     "th": {
       "hero": {
-        "badge": "Why Sundae",
+        "badge": "ทำไมต้อง Sundae",
         "title": "ชั้นข้อมูลอัจฉริยะที่ร้านอาหารไม่เคยมี",
         "description": "ข้อมูลของคุณอยู่ในซิลอสที่ไม่เชื่อมต่อ ทีมของคุณตัดสินใจมูลค่าหลายล้านดอลลาร์จากความรู้สึก เราสร้างแพลตฟอร์มที่เปลี่ยนแปลงสิ่งนั้น."
       },
@@ -2450,13 +2450,13 @@ export const generatedLocalCopy = {
           "title": "การนำเข้าข้อมูล 12 ด้าน",
           "description": "POS, แรงงาน, สินค้าคงคลัง, การสั่งซื้อ, การจอง, การจัดส่ง, การตลาด, ประสบการณ์แขก, CRM, การบัญชี - ทั้งหมดรวมกัน ไม่มีระบบที่แยกจากกันอีกต่อไป.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "โมเดลปัญญา 4D",
           "description": "เกิดอะไรขึ้น เปรียบเทียบกับแผนอย่างไร คุณอยู่ในตลาดที่ไหน และควรทำอะไรต่อไป สี่มิติของการตัดสินใจทุกอย่าง.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "การดำเนินงานแบบเรียลไทม์ผ่าน Pulse",
@@ -2485,7 +2485,7 @@ export const generatedLocalCopy = {
       ],
       "comparison": {
         "eyebrow": "การเปรียบเทียบ",
-        "title": "เหนือกว่าดashboard แบบดั้งเดิม",
+        "title": "เหนือกว่าแดชบอร์ดแบบดั้งเดิม",
         "description": "แพลตฟอร์มส่วนใหญ่จะแสดงสิ่งที่เกิดขึ้น เราจะแสดงสิ่งที่กำลังเกิดขึ้น ความหมายของมัน และสิ่งที่ควรทำเกี่ยวกับมัน.",
         "columns": [
           {
@@ -2530,7 +2530,7 @@ export const generatedLocalCopy = {
             "pain": "คุณไม่สามารถอยู่ในทุกสาขาได้ในครั้งเดียว.",
             "description": "การมองเห็นแบบเรียลไทม์ในทุกสถานที่ผ่าน Pulse และ Portfolio - รู้ว่าใครต้องการความช่วยเหลือก่อนที่พวกเขาจะขอ.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "การเงิน & FP&A",
@@ -2544,7 +2544,7 @@ export const generatedLocalCopy = {
             "pain": "สาขาที่มีผลการดำเนินงานแย่ที่สุดของคุณมองไม่เห็นจนถึงวันพฤหัสบดี.",
             "description": "แดชบอร์ด Portfolio, การบรรยายประจำวัน, ข้อมูลเชิงกลยุทธ์, และมุมมองการตัดสินใจเชิงกลยุทธ์.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "ทีมเทคโนโลยี",
@@ -2578,13 +2578,13 @@ export const generatedLocalCopy = {
           "title": "Pengambilan Data 12-Domain",
           "description": "POS, buruh, inventori, pembelian, tempahan, penghantaran, pemasaran, pengalaman tetamu, CRM, perakaunan - semua disatukan. Tiada lagi sistem yang tidak bersambung.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Model Kecerdasan 4D",
           "description": "Apa yang berlaku. Bagaimana ia dibandingkan dengan pelan. Di mana anda berada di pasaran. Apa yang perlu dilakukan seterusnya. Empat dimensi setiap keputusan.",
           "icon": "intelligence",
-          "color": "bg-purple-600"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Operasi Masa Nyata melalui Pulse",
@@ -2658,7 +2658,7 @@ export const generatedLocalCopy = {
             "pain": "Anda tidak boleh berada di setiap restoran sekaligus.",
             "description": "Keterlihatan masa nyata ke setiap lokasi melalui Pulse dan Portfolio - ketahui siapa yang memerlukan bantuan sebelum mereka bertanya.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Kewangan & FP&A",
@@ -2672,7 +2672,7 @@ export const generatedLocalCopy = {
             "pain": "Outlet yang paling tidak berprestasi anda tidak dapat dilihat sehingga Khamis.",
             "description": "Papan pemuka portfolio, taklimat harian, intelligence kompetitif, dan pandangan keputusan strategik.",
             "icon": "intelligence",
-            "color": "bg-purple-600"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Pasukan Teknologi",

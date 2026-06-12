@@ -6,34 +6,34 @@ import { generatedLocalCopy } from '@/generated-locales/app_product_pulse_layout
 
 const copy = {
   en: {
-    title: "Sundae Pulse — Real-Time Intraday Operations Monitor for Restaurants",
+    title: "Sundae Pulse - Real-Time Intraday Operations Monitor for Restaurants",
     description:
       "Live sales pacing with adaptive AI targets, labor productivity tracking, server performance analytics, leakage monitoring, and AI shift coaching. The command center for every shift.",
-    openGraphTitle: "Sundae Pulse — Real-Time Intraday Operations Monitor",
+    openGraphTitle: "Sundae Pulse - Real-Time Intraday Operations Monitor",
     openGraphDescription:
       "Live sales pacing with adaptive AI targets, labor productivity tracking, server performance analytics, leakage monitoring, and AI shift coaching.",
   },
   ar: {
-    title: "Sundae Pulse — مراقبة تشغيلية لحظية داخل اليوم للمطاعم",
+    title: "Sundae Pulse - مراقبة تشغيلية لحظية داخل اليوم للمطاعم",
     description:
       "متابعة فورية لإيقاع المبيعات مع أهداف ذكاء اصطناعي تكيفية، وتتبع إنتاجية العمالة، وتحليلات أداء الطاقم، ومراقبة التسرب، وتوجيهات ذكية لكل وردية.",
-    openGraphTitle: "Sundae Pulse — مراقبة تشغيلية لحظية داخل اليوم",
+    openGraphTitle: "Sundae Pulse - مراقبة تشغيلية لحظية داخل اليوم",
     openGraphDescription:
       "متابعة فورية لإيقاع المبيعات مع أهداف ذكاء اصطناعي تكيفية، وتتبع إنتاجية العمالة، وتحليلات أداء الطاقم، ومراقبة التسرب، وتوجيهات ذكية.",
   },
   fr: {
-    title: "Sundae Pulse — Moniteur opérationnel intrajournalier en temps réel pour les restaurants",
+    title: "Sundae Pulse - Moniteur opérationnel intrajournalier en temps réel pour les restaurants",
     description:
       "Suivi live du rythme des ventes avec objectifs IA adaptatifs, productivité du travail, performance des serveurs, surveillance des pertes et coaching IA par shift. Le centre de commande de chaque service.",
-    openGraphTitle: "Sundae Pulse — Moniteur opérationnel intrajournalier en temps réel",
+    openGraphTitle: "Sundae Pulse - Moniteur opérationnel intrajournalier en temps réel",
     openGraphDescription:
       "Suivi live du rythme des ventes avec objectifs IA adaptatifs, productivité du travail, performance des serveurs, surveillance des pertes et coaching IA.",
   },
   es: {
-    title: "Sundae Pulse — Monitor operativo intradía en tiempo real para restaurantes",
+    title: "Sundae Pulse - Monitor operativo intradía en tiempo real para restaurantes",
     description:
       "Seguimiento en vivo del ritmo de ventas con objetivos de IA adaptativos, productividad laboral, rendimiento del personal, monitorización de fugas y coaching de IA por turno. El centro de mando de cada servicio.",
-    openGraphTitle: "Sundae Pulse — Monitor operativo intradía en tiempo real",
+    openGraphTitle: "Sundae Pulse - Monitor operativo intradía en tiempo real",
     openGraphDescription:
       "Seguimiento en vivo del ritmo de ventas con objetivos de IA adaptativos, productividad laboral, rendimiento del personal, monitorización de fugas y coaching de IA.",
   },

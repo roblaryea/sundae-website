@@ -1,4 +1,4 @@
-# Sundae — Product Overview
+# Sundae - Product Overview
 
 > Last refreshed: 2026-05-22 | Source: codebase inspection of `sundae-app`, `sundae-backend`, and marketing pricing catalogs
 
@@ -19,25 +19,25 @@ Sundae is a **Decision Intelligence platform** for restaurant and hospitality op
 
 ## Core Product Pillars
 
-### 1. Pulse — Real-Time Operations Center
+### 1. Pulse - Real-Time Operations Center
 Live intraday monitoring for sales, labor, leakage, service speed, stockouts, and menu intelligence. Includes AI coaching, exception management, scorecards, goals, playbooks, wallboard mode, and a multi-outlet portfolio leaderboard.
 
-### 2. Benchmarks — Competitive Intelligence
+### 2. Benchmarks - Competitive Intelligence
 Performance comparison against configurable competitive sets ("compsets"). Includes index scoring, trend analysis, revenue/cover forecasting with confidence intervals, and market-level intelligence.
 
-### 3. Watchtower — External Signal Monitoring
+### 3. Watchtower - External Signal Monitoring
 Tracks competitor activity (ratings, reviews, menu pricing), weather with predicted revenue impact, local events (holidays, sports, seasonal), and generates AI-powered briefings (daily, weekly, event prep, Ramadan).
 
-### 4. Insights — Intelligence Modules
+### 4. Insights - Intelligence Modules
 Analytical dashboards for deep-diving into operational domains. The codebase includes Performance Report, Revenue, Labor, Inventory, Purchasing, Marketing, Reservations, Profit, Revenue Assurance, Delivery, Guest Experience, Guest CRM, item profitability, executive summary, franchise health, outlet viability, cross-intelligence, and Foresight routes.
 
-### 5. Sundae Intelligence — AI-Powered Analytics
+### 5. Sundae Intelligence - AI-Powered Analytics
 Natural-language querying of restaurant data. Available via the web app and through Telegram, Slack, and Microsoft Teams bots. Supports conversation history, folders, scheduled queries, multi-outlet scope selection, and link-code sharing.
 
-### 6. Integrations Hub — 12-Domain Data Ingestion
+### 6. Integrations Hub - 12-Domain Data Ingestion
 A vendor-agnostic integration engine supporting POS, Labor, Service Flow, Inventory, Purchasing, Reservations, Delivery, Marketing, Guest Experience, Guest CRM, and Accounting. Each domain supports webhook-based custom integrations.
 
-### 7. Crew — Workforce Operations
+### 7. Crew - Workforce Operations
 Crew is the workforce operating layer: scheduling, availability, swaps, shift offers, time and attendance, payroll readiness, statutory exports, HR operations, employee documents, Ask-HR helpdesk, e-sign, credentials, assets, attestations, onboarding/offboarding, performance, talent, benefits, compensation, recruiting, skills, training, recognition, and Crew Intelligence/Compliance surfaces.
 
 ### 8. Billing & Pricing

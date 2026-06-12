@@ -24,7 +24,7 @@ export const generatedLocalCopy = {
         "marginTitle": "Marge %",
         "analysis": "Analyse",
         "benchTitle": "Références de Marge :",
-        "low": "Marge faible - envisagez de revoir le prix ou de réingénierie cet article pour améliorer la rentabilité.",
+        "low": "Marge faible - envisagez de revoir le prix ou de repenser cet article pour améliorer la rentabilité.",
         "healthy": "Plage de marge saine - cet article est rentable et bien positionné.",
         "strong": "Marge forte - excellente rentabilité. Protégez-vous contre la concurrence et maintenez la qualité.",
         "bulletLow": "< 55% : En dessous de l'objectif (revoyez les prix ou réduisez les coûts)",
@@ -97,10 +97,10 @@ export const generatedLocalCopy = {
         "grossTitle": "Bruttogewinn pro Element",
         "marginTitle": "Gewinnspanne %",
         "analysis": "Analyse",
-        "benchTitle": "Gewinnspanne Benchmarks:",
+        "benchTitle": "Gewinnspannen-Benchmarks:",
         "low": "Niedrige Marge - ziehen Sie in Betracht, diesen Artikel neu zu bepreisen oder neu zu gestalten, um die Rentabilität zu verbessern.",
         "healthy": "Gesunde Margenspanne - dieser Artikel ist rentabel und wettbewerbsfähig bepreist.",
-        "strong": "Starke Marge - hervorragende Rentabilität. Schützen Sie sich vor der Konkurrenz und halten Sie die Qualität.",
+        "strong": "Starke Marge - hervorragende Rentabilität. Schützen Sie sich vor der Konkurrenz und halten Sie die Qualität hoch.",
         "bulletLow": "< 55%: Unter dem Ziel (Preise überprüfen oder Kosten senken)",
         "bulletHealthy": "55-70%: Gesunde Spanne für die meisten Menüelemente",
         "bulletStrong": "> 70%: Starke Marge (Premium-Positionierung)"
@@ -147,7 +147,7 @@ export const generatedLocalCopy = {
         "button": "Bekijk Sundae Platform"
       },
       "errors": {
-        "invalidNumbers": "Voer geldige nummers in (de kosten van ingrediënten moeten lager zijn dan de verkoopprijs)"
+        "invalidNumbers": "Voer geldige getallen in (de kosten van ingrediënten moeten lager zijn dan de verkoopprijs)"
       }
     },
     "ar": {
@@ -239,7 +239,7 @@ export const generatedLocalCopy = {
         "ingredientLabel": "Costo degli Ingredienti",
         "ingredientHint": "Costo totale degli ingredienti per articolo",
         "buttonIdle": "Calcola Margine",
-        "buttonBusy": "Calcolando..."
+        "buttonBusy": "Calcolo in corso..."
       },
       "results": {
         "grossTitle": "Profitto Lordo per Articolo",
@@ -328,7 +328,7 @@ export const generatedLocalCopy = {
         "bulletStrong": "> 70%: Silna marża (pozycjonowanie premium)"
       },
       "cta": {
-        "intro": "Chcesz bardziej zaawansowanej analizy menu w wszystkich lokalizacjach?",
+        "intro": "Chcesz bardziej zaawansowanej analizy menu we wszystkich lokalizacjach?",
         "button": "Zobacz Platformę Sundae"
       },
       "errors": {
@@ -460,20 +460,20 @@ export const generatedLocalCopy = {
         "sellingHint": "Giá thực đơn tính cho khách hàng",
         "ingredientLabel": "Chi Phí Nguyên Liệu",
         "ingredientHint": "Tổng chi phí nguyên liệu cho mỗi mục",
-        "buttonIdle": "Tính Toán Biên",
+        "buttonIdle": "Tính Biên Lợi Nhuận",
         "buttonBusy": "Đang Tính Toán..."
       },
       "results": {
         "grossTitle": "Lợi Nhuận Gộp Mỗi Mục",
-        "marginTitle": "Biên %",
+        "marginTitle": "Biên Lợi Nhuận %",
         "analysis": "Phân tích",
-        "benchTitle": "Tiêu chuẩn Biên:",
-        "low": "Biên thấp - xem xét lại giá hoặc tái cấu trúc mục này để cải thiện lợi nhuận.",
-        "healthy": "Biên khỏe - mục này có lợi nhuận và giá cả cạnh tranh.",
-        "strong": "Biên mạnh - lợi nhuận xuất sắc. Bảo vệ chống lại cạnh tranh và duy trì chất lượng.",
+        "benchTitle": "Tiêu chuẩn Biên Lợi Nhuận:",
+        "low": "Biên lợi nhuận thấp - xem xét lại giá hoặc tái cấu trúc mục này để cải thiện lợi nhuận.",
+        "healthy": "Biên lợi nhuận tốt - mục này có lãi và giá cả cạnh tranh.",
+        "strong": "Biên lợi nhuận mạnh - lợi nhuận xuất sắc. Bảo vệ trước cạnh tranh và duy trì chất lượng.",
         "bulletLow": "< 55%: Dưới mục tiêu (xem xét lại giá hoặc giảm chi phí)",
-        "bulletHealthy": "55-70%: Phạm vi khỏe cho hầu hết các mục thực đơn",
-        "bulletStrong": "> 70%: Biên mạnh (định vị cao cấp)"
+        "bulletHealthy": "55-70%: Phạm vi tốt cho hầu hết các mục thực đơn",
+        "bulletStrong": "> 70%: Biên lợi nhuận mạnh (định vị cao cấp)"
       },
       "cta": {
         "intro": "Bạn muốn phân tích thực đơn nâng cao hơn trên tất cả các địa điểm?",
@@ -504,7 +504,7 @@ export const generatedLocalCopy = {
         "grossTitle": "Öğe Başına Brüt Kâr",
         "marginTitle": "Marj %",
         "analysis": "Analiz",
-        "benchTitle": "Marj Kılavuzları:",
+        "benchTitle": "Marj Kıyaslamaları:",
         "low": "Düşük marj - kârlılığı artırmak için bu öğenin fiyatını yeniden gözden geçirin veya yeniden tasarlayın.",
         "healthy": "Sağlıklı marj aralığı - bu öğe kârlıdır ve rekabetçi bir fiyata sahiptir.",
         "strong": "Güçlü marj - mükemmel kârlılık. Rekabete karşı dikkatli olun ve kaliteyi koruyun.",
@@ -708,7 +708,7 @@ export const generatedLocalCopy = {
     "ms": {
       "back": "Kembali ke Alat",
       "hero": {
-        "badge": "Intelligence Menu",
+        "badge": "Kecerdasan Menu",
         "title": "Pengira Margin Item Menu",
         "description": "Analisis keuntungan item menu dengan pengiraan margin dan cadangan harga."
       },
@@ -760,7 +760,7 @@ export const generatedLocalCopy = {
         "buttonBusy": "Beräknar..."
       },
       "results": {
-        "grossTitle": "Bruttoresultat Per Objekt",
+        "grossTitle": "Bruttovinst Per Objekt",
         "marginTitle": "Marginal %",
         "analysis": "Analys",
         "benchTitle": "Marginalreferenser:",
