@@ -8,17 +8,18 @@ import { useCta } from '@/lib/cta';
 import { operatorVoiceCopy } from './operatorVoiceCopy';
 
 /**
- * Operator voice — the human-presence beat. Puts a real face on a page that is
+ * Operator voice - the human-presence beat. Puts a real face on a page that is
  * otherwise product UI, and speaks in the operator's own voice about the problem
  * Sundae exists to solve.
  *
  * This is an honest second-person empathy statement, NOT a fabricated named
- * testimonial (attributed quotes wait for a named pilot — see operatorVoiceCopy
+ * testimonial (attributed quotes wait for a named pilot - see operatorVoiceCopy
  * + the Section-7 composite-quote policy). The portrait + large pull-quote gives
  * it the premium "testimonial" form without inventing a customer.
  */
 
-const coral = { color: 'var(--warm-coral)' } as const;
+// Theme-aware coral: deepens to #C8392A in light mode so accent text stays crisp on white.
+const coral = { color: 'var(--accent-warm)' } as const;
 
 /** Split on the `*…*` emphasis marker → warm-coral span (shared convention). */
 function renderQuote(quote: string): ReactNode {
@@ -41,7 +42,7 @@ export function SectionOperatorVoice() {
   return (
     <section aria-label={copy.eyebrow} className="relative px-4 py-20 sm:px-6 sm:py-28 lg:px-8">
       <div className="mx-auto grid max-w-6xl items-center gap-10 lg:grid-cols-[0.85fr_1fr] lg:gap-16">
-        {/* Portrait — a real person on the line. */}
+        {/* Portrait - a real person on the line. */}
         <FadeUp>
           <EditorialImage
             src="/images/editorial/kitchen-brigade.jpg"
@@ -56,7 +57,7 @@ export function SectionOperatorVoice() {
         <FadeUp delay={0.1}>
           <div className="max-w-xl">
             <div className="mb-6 flex items-center gap-2.5">
-              <span aria-hidden className="h-px w-7" style={{ background: 'var(--warm-coral)' }} />
+              <span aria-hidden className="h-px w-7" style={{ background: 'var(--accent-warm)' }} />
               <span className="text-xs font-bold uppercase tracking-[0.18em]" style={coral}>
                 {copy.eyebrow}
               </span>
@@ -66,7 +67,7 @@ export function SectionOperatorVoice() {
             <span
               aria-hidden
               className="font-display block text-6xl leading-[0.6] sm:text-7xl"
-              style={{ color: 'var(--warm-coral)', opacity: 0.28 }}
+              style={{ color: 'var(--accent-warm)', opacity: 0.3 }}
             >
               &ldquo;
             </span>
@@ -80,11 +81,11 @@ export function SectionOperatorVoice() {
             </p>
 
             <div className="mt-7 flex flex-wrap items-center gap-x-5 gap-y-3">
-              <cite className="text-sm not-italic text-[var(--text-muted)]">— {copy.attribution}</cite>
+              <cite className="text-sm not-italic text-[var(--text-muted)]">- {copy.attribution}</cite>
               <button
                 type="button"
                 onClick={() => cta('/demo', 'operator_voice_see_how', { page: '/home', section: 'operator_voice' })}
-                className="group inline-flex items-center gap-1.5 text-sm font-semibold text-[#FF8473] transition-colors hover:text-[var(--text-primary)]"
+                className="group inline-flex items-center gap-1.5 text-sm font-semibold text-[var(--accent-warm)] transition-colors hover:text-[var(--text-primary)]"
               >
                 {copy.cta}
                 <span aria-hidden className="inline-block transition-transform group-hover:translate-x-1">

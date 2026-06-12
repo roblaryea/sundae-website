@@ -5,7 +5,7 @@ import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { ecosystemCopy, POS_SYSTEMS } from './ecosystemCopy';
 
 /**
- * Ecosystem strip — quiet external-credibility, the USHG "badge" move done
+ * Ecosystem strip - quiet external-credibility, the USHG "badge" move done
  * honestly. Names ONLY the Live POS connectors (verbatim from /integrations)
  * and labels the rest explicitly as roadmap, so nothing reads as shipped that
  * is still "Upcoming".
@@ -26,7 +26,7 @@ export function SectionEcosystemStrip() {
             {copy.eyebrow}
           </p>
 
-          {/* Live POS connectors — accurate, named wordmarks. */}
+          {/* Live POS connectors - accurate, named wordmarks. */}
           <div className="mb-3 flex items-center justify-center gap-2">
             <span aria-hidden className="h-1.5 w-1.5 rounded-full bg-[#22C55E]" />
             <span className="text-[11px] font-semibold uppercase tracking-[0.14em] text-[#7FB98A]">
@@ -37,16 +37,16 @@ export function SectionEcosystemStrip() {
             {POS_SYSTEMS.map((name) => (
               <span
                 key={name}
-                className="font-display rounded-xl border border-[var(--border-default)] bg-white/[0.025] px-4 py-2 text-sm font-semibold text-[var(--text-secondary)] transition-colors hover:border-[rgba(255,92,77,0.25)] hover:text-[var(--text-primary)]"
+                className="font-display rounded-xl border border-[var(--border-default)] bg-[var(--surface-subtle)] px-4 py-2 text-sm font-semibold text-[var(--text-secondary)] transition-colors hover:border-[var(--border-hover)] hover:text-[var(--text-primary)]"
               >
                 {name}
               </span>
             ))}
           </div>
 
-          {/* Roadmap — honestly framed as not-yet-live. */}
+          {/* Roadmap - honestly framed as not-yet-live. */}
           <div className="mt-8">
-            <p className="mb-2.5 text-[11px] font-semibold uppercase tracking-[0.14em] text-[var(--text-faint)]">
+            <p className="mb-2.5 text-[11px] font-semibold uppercase tracking-[0.14em] text-[var(--text-muted)]">
               {copy.roadmapLabel}
             </p>
             <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1.5">

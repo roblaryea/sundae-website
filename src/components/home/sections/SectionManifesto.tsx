@@ -6,15 +6,17 @@ import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { manifestoCopy } from './manifestoCopy';
 
 /**
- * Manifesto — the "belief beat" that opens the page after the hero.
+ * Manifesto - the "belief beat" that opens the page after the hero.
  *
  * The category-leader move (USHG: "Extending Enlightened Hospitality is at the
  * heart of everything we do"): state what you believe, large and copy-first,
- * before the product earns its place. Deliberately type-led with generous air —
+ * before the product earns its place. Deliberately type-led with generous air -
  * no product UI, no imagery, so it reads as conviction, not a feature.
  */
 
-const coral = { color: 'var(--warm-coral)' } as const;
+// Theme-aware coral: --accent-warm is the bright coral (#FF5C4D) in dark and a
+// deeper coral (#C8392A) in light, so accent text stays crisp on white.
+const coral = { color: 'var(--accent-warm)' } as const;
 
 /** Split on the `*…*` emphasis marker → warm-coral italic span (shared convention). */
 function renderStatement(statement: string): ReactNode {
@@ -38,7 +40,7 @@ export function SectionManifesto() {
       aria-label={copy.eyebrow}
       className="relative overflow-hidden border-y border-[var(--border-default)] py-24 sm:py-32"
     >
-      {/* Quiet warm radial — same family as the hero glow, dialed back so the type leads. */}
+      {/* Quiet warm radial - same family as the hero glow, dialed back so the type leads. */}
       <div
         aria-hidden
         className="absolute inset-0"
@@ -53,7 +55,7 @@ export function SectionManifesto() {
           <span
             aria-hidden
             className="mx-auto mb-8 block h-px w-12"
-            style={{ background: 'var(--warm-coral)' }}
+            style={{ background: 'var(--accent-warm)' }}
           />
           <p className="mb-7 text-xs font-bold uppercase tracking-[0.22em] sm:text-sm" style={coral}>
             {copy.eyebrow}

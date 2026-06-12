@@ -48,7 +48,7 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
       'يسدّ Sundae هذه الفجوة. تصلك الإشارة التي تحتاجها والوردية لا تزال قابلة للإنقاذ - لا مدفونةً في تقرير الغد.',
     attribution: 'ما نسمعه في كل صالة نبني لأجلها',
     cta: 'شاهد كيف يعمل',
-    alt: 'رئيس طهاة يعمل بتركيز عند ممر التقديم أثناء خدمة المساء',
+    alt: 'فريق طهاة مطعم يعمل على خط المطبخ أثناء خدمة المساء',
   },
   fr: {
     eyebrow: 'Le problème qui nous obsède',
@@ -58,7 +58,7 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
       "Sundae comble cet écart. Le signal dont vous avez besoin arrive tant que le service peut encore être sauvé - pas enfoui dans le rapport du lendemain.",
     attribution: 'Ce que nous entendons dans chaque salle pour laquelle nous concevons',
     cta: 'Voir comment ça marche',
-    alt: 'Un chef de cuisine concentré au passe pendant le service du soir',
+    alt: "Une brigade de cuisine au coup de feu sur la ligne pendant le service du soir",
   },
   es: {
     eyebrow: 'El problema que nos obsesiona',
@@ -68,7 +68,7 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
       'Sundae cierra esa brecha. La señal que necesitas llega cuando todavía puedes cambiar el turno - no enterrada en el informe de mañana.',
     attribution: 'Lo que escuchamos en cada sala para la que construimos',
     cta: 'Ver cómo funciona',
-    alt: 'Un chef ejecutivo trabajando con concentración en el pase durante el servicio de la noche',
+    alt: 'Una brigada de cocina trabajando en la línea durante el servicio de la noche',
   },
   de: {
     eyebrow: 'Das Problem, das uns nicht loslässt',
@@ -78,7 +78,7 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
       'Sundae schließt diese Lücke. Das Signal, das Sie brauchen, kommt, solange die Schicht noch zu drehen ist - nicht vergraben im Bericht von morgen.',
     attribution: 'Was wir in jedem Gastraum hören, für den wir bauen',
     cta: 'So funktioniert es',
-    alt: 'Ein Küchenchef arbeitet konzentriert am Pass während des Abendservice',
+    alt: 'Eine Küchenbrigade arbeitet an der Linie während des Abendservice',
   },
   nl: {
     eyebrow: 'Het probleem waar wij van wakker liggen',
@@ -88,7 +88,7 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
       'Sundae dicht dat gat. Het signaal dat u nodig hebt komt terwijl u de dienst nog kunt bijsturen - niet begraven in het rapport van morgen.',
     attribution: 'Wat we horen op elke vloer waarvoor we bouwen',
     cta: 'Zie hoe het werkt',
-    alt: 'Een chef-kok werkt geconcentreerd aan de pass tijdens de avondservice',
+    alt: 'Een keukenbrigade werkt aan de lijn tijdens de avondservice',
   },
   pt: {
     eyebrow: 'O problema que nos obceca',
@@ -98,7 +98,7 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
       'O Sundae fecha essa lacuna. O sinal de que você precisa chega enquanto o turno ainda é seu para mudar - não enterrado no relatório de amanhã.',
     attribution: 'O que ouvimos em cada salão para o qual construímos',
     cta: 'Veja como funciona',
-    alt: 'Um chef de cozinha trabalhando com foco na expedição durante o serviço da noite',
+    alt: 'Uma brigada de cozinha trabalhando na praça durante o serviço da noite',
   },
   hi: {
     eyebrow: 'वह समस्या जो हमें चैन नहीं लेने देती',
@@ -108,7 +108,7 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
       'Sundae इस फासले को पाट देता है। जिस संकेत की आपको ज़रूरत है वह तभी आ जाता है जब शिफ्ट अब भी आपके हाथ में होती है - कल की रिपोर्ट में दबा हुआ नहीं।',
     attribution: 'हर उस फ्लोर पर जो हम बनाते हैं, हमें यही सुनने को मिलता है',
     cta: 'देखें यह कैसे काम करता है',
-    alt: 'शाम की सर्विस के दौरान रसोई के पास पर एकाग्रता से काम करता हेड शेफ',
+    alt: 'शाम की सर्विस के दौरान रसोई की लाइन पर काम करती शेफ की टीम',
   },
   ur: {
     eyebrow: 'وہ مسئلہ جو ہمیں چین نہیں لینے دیتا',
@@ -118,7 +118,7 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
       'Sundae اِس خلا کو پُر کر دیتا ہے۔ جس اشارے کی آپ کو ضرورت ہے وہ اُسی وقت آ جاتا ہے جب شفٹ ابھی آپ کے ہاتھ میں ہوتی ہے - کل کی رپورٹ میں دبا ہوا نہیں۔',
     attribution: 'ہر اُس فلور پر جس کے لیے ہم بناتے ہیں، ہمیں یہی سننے کو ملتا ہے',
     cta: 'دیکھیں یہ کیسے کام کرتا ہے',
-    alt: 'شام کی سروس کے دوران کچن کے پاس پر یکسوئی سے کام کرتا ہیڈ شیف',
+    alt: 'شام کی سروس کے دوران کچن لائن پر کام کرتی شیفس کی ٹیم',
   },
   it: {
     eyebrow: "Il problema che ci ossessiona",
@@ -128,7 +128,7 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
       "Sundae colma questo divario. Il segnale che ti serve arriva quando il servizio è ancora tuo da cambiare - non sepolto nel report di domani.",
     attribution: 'Quello che sentiamo in ogni sala per cui costruiamo',
     cta: 'Scopri come funziona',
-    alt: 'Uno chef che lavora con concentrazione al passe durante il servizio serale',
+    alt: 'Una brigata di cucina al lavoro sulla linea durante il servizio serale',
   },
   pl: {
     eyebrow: 'Problem, który nie daje nam spokoju',
@@ -138,7 +138,7 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
       'Sundae domyka tę lukę. Sygnał, którego potrzebujesz, przychodzi, póki zmianę wciąż możesz odmienić - a nie pogrzebany w jutrzejszym raporcie.',
     attribution: 'To, co słyszymy na każdej sali, dla której budujemy',
     cta: 'Zobacz, jak to działa',
-    alt: 'Szef kuchni pracujący w skupieniu przy wydawce podczas wieczornego serwisu',
+    alt: 'Brygada kuchenna pracująca na linii podczas wieczornego serwisu',
   },
   tr: {
     eyebrow: 'Bizi rahat bırakmayan sorun',
@@ -148,7 +148,7 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
       'Sundae bu boşluğu kapatır. İhtiyacınız olan sinyal, vardiya hâlâ sizin elinizdeyken gelir - yarının raporuna gömülü değil.',
     attribution: 'İçin tasarladığımız her salonda duyduğumuz şey',
     cta: 'Nasıl çalıştığını görün',
-    alt: 'Akşam servisi sırasında mutfak pasında odaklanarak çalışan şef',
+    alt: 'Akşam servisi sırasında mutfak hattında çalışan mutfak ekibi',
   },
   'zh-Hans': {
     eyebrow: '我们念念不忘的难题',
@@ -158,7 +158,7 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
       'Sundae 填平了这道鸿沟。你需要的信号在班次还来得及调整时就送到--而不是埋在明天的报表里。',
     attribution: '在我们服务的每一家餐厅，我们听到的都是这句话',
     cta: '看看它如何运作',
-    alt: '晚市服务期间，主厨在厨房出菜口专注工作',
+    alt: '晚市服务期间，厨师团队在出餐线上忙碌',
   },
   ja: {
     eyebrow: '私たちがこだわり続ける課題',
@@ -168,7 +168,7 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
       'Sundae はそのギャップを埋めます。必要なシグナルは、まだそのシフトを変えられるうちに届く--明日のレポートに埋もれてしまうのではなく。',
     attribution: '私たちがつくるすべての現場で耳にする声',
     cta: '仕組みを見る',
-    alt: '夜の営業中、厨房のパスで集中して働くヘッドシェフ',
+    alt: '夜の営業中、厨房のラインで働くキッチンチーム',
   },
   ko: {
     eyebrow: '우리가 끈질기게 파고드는 문제',
@@ -178,7 +178,7 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
       'Sundae는 그 간극을 메웁니다. 필요한 신호가 아직 근무를 바꿀 수 있을 때 도착합니다 - 내일 보고서에 묻혀 버리는 게 아니라.',
     attribution: '우리가 만드는 모든 매장에서 듣는 이야기',
     cta: '어떻게 작동하는지 보기',
-    alt: '저녁 영업 중 주방 패스에서 집중해 일하는 헤드 셰프',
+    alt: '저녁 영업 중 주방 라인에서 일하는 주방 팀',
   },
   id: {
     eyebrow: 'Masalah yang terus kami pikirkan',
@@ -188,7 +188,7 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
       'Sundae menutup jurang itu. Sinyal yang Anda butuhkan tiba selagi shift masih bisa Anda ubah - bukan terkubur dalam laporan esok hari.',
     attribution: 'Yang kami dengar di setiap ruang yang kami bangun untuknya',
     cta: 'Lihat cara kerjanya',
-    alt: 'Seorang kepala koki bekerja dengan fokus di pass dapur saat layanan malam',
+    alt: 'Brigade koki bekerja di lini dapur saat layanan malam',
   },
   vi: {
     eyebrow: 'Bài toán chúng tôi đau đáu',
@@ -198,7 +198,7 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
       'Sundae khép lại khoảng cách ấy. Tín hiệu bạn cần đến khi ca làm vẫn còn trong tay bạn để thay đổi - chứ không nằm vùi trong báo cáo ngày mai.',
     attribution: 'Điều chúng tôi nghe thấy ở mọi sàn phục vụ mà chúng tôi xây dựng cho',
     cta: 'Xem cách hoạt động',
-    alt: 'Một bếp trưởng làm việc tập trung tại quầy ra món trong giờ phục vụ buổi tối',
+    alt: 'Một tổ bếp làm việc trên dây chuyền bếp trong giờ phục vụ buổi tối',
   },
   ro: {
     eyebrow: 'Problema care ne dă bătăi de cap',
@@ -208,7 +208,7 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
       'Sundae acoperă acest gol. Semnalul de care ai nevoie ajunge cât tura încă e a ta de schimbat - nu îngropat în raportul de mâine.',
     attribution: 'Ce auzim în fiecare sală pentru care construim',
     cta: 'Vezi cum funcționează',
-    alt: 'Un bucătar-șef lucrând concentrat la pass în timpul serviciului de seară',
+    alt: 'O brigadă de bucătărie lucrând la linie în timpul serviciului de seară',
   },
   sv: {
     eyebrow: 'Problemet vi inte släpper',
@@ -218,7 +218,7 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
       'Sundae sluter det gapet. Signalen du behöver kommer medan passet fortfarande är ditt att ändra - inte begravd i morgondagens rapport.',
     attribution: 'Det vi hör i varje matsal vi bygger för',
     cta: 'Se hur det fungerar',
-    alt: 'En köksmästare arbetar fokuserat vid passet under kvällsserveringen',
+    alt: 'En köksbrigad arbetar vid linjen under kvällsserveringen',
   },
   bn: {
     eyebrow: 'যে সমস্যা আমাদের ছাড়ে না',
@@ -228,7 +228,7 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
       'Sundae সেই ফাঁকটা ভরে দেয়। যে সংকেতটা আপনার দরকার তা তখনই আসে যখন শিফটটা বদলানো এখনও আপনার হাতে - আগামীকালের রিপোর্টে চাপা পড়ে নয়।',
     attribution: 'আমরা যে প্রতিটি ফ্লোরের জন্য তৈরি করি, সেখানেই আমরা এটা শুনি',
     cta: 'দেখুন কীভাবে কাজ করে',
-    alt: 'সন্ধ্যার পরিবেশনের সময় রান্নাঘরের পাসে মনোযোগ দিয়ে কাজ করছেন একজন হেড শেফ',
+    alt: 'সন্ধ্যার পরিবেশনের সময় রান্নাঘরের লাইনে কাজ করছেন শেফদের একটি দল',
   },
   th: {
     eyebrow: 'ปัญหาที่เราหมกมุ่นอยู่กับมัน',
@@ -238,7 +238,7 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
       'Sundae อุดช่องว่างนั้น สัญญาณที่คุณต้องการมาถึงในขณะที่กะนั้นยังเปลี่ยนแปลงได้ - ไม่ใช่ถูกฝังอยู่ในรายงานของพรุ่งนี้',
     attribution: 'สิ่งที่เราได้ยินในทุกพื้นที่บริการที่เราสร้างให้',
     cta: 'ดูว่าทำงานอย่างไร',
-    alt: 'เชฟใหญ่กำลังทำงานอย่างจดจ่อที่หน้าจ่ายอาหารในครัวระหว่างบริการมื้อค่ำ',
+    alt: 'ทีมเชฟกำลังทำงานที่ไลน์ครัวระหว่างบริการมื้อค่ำ',
   },
   ms: {
     eyebrow: 'Masalah yang sentiasa kami fikirkan',
@@ -248,6 +248,6 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
       'Sundae merapatkan jurang itu. Isyarat yang anda perlukan tiba selagi syif itu masih boleh anda ubah - bukan terbenam dalam laporan esok hari.',
     attribution: 'Apa yang kami dengar di setiap ruang yang kami bina untuknya',
     cta: 'Lihat cara ia berfungsi',
-    alt: 'Seorang ketua cef bekerja dengan fokus di pass dapur semasa servis malam',
+    alt: 'Sepasukan cef bekerja di barisan dapur semasa servis malam',
   },
 };

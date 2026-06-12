@@ -5,7 +5,7 @@ export const generatedLocalCopy = {
     "de": {
       "badge": "SUNDAE INSIGHTS",
       "title": "Gehen Sie tiefer in jeden Teil Ihres Betriebs",
-      "description": "Vierzehn spezialisierte Module decken Umsatz, Personal, Inventar, Einkauf, Marketing, Reservierungen, Gewinn, Lieferung, Gästeerlebnis, CRM, Umsatzsicherung, Cross-Intelligence, vorausschauende Intelligenz und Executive Summary ab. Jedes Modul ist für einen Betriebsbereich gebaut.",
+      "description": "Zwölf spezialisierte Module decken Umsatz, Personal, Inventar, Einkauf, Marketing, Reservierungen, Gewinn, Umsatzsicherung, Lieferung, Gästeerlebnis, CRM und Cross-Intelligence ab. Jedes Modul ist für einen Betriebsbereich gebaut.",
       "bookDemo": "Demo buchen",
       "seeModules": "Modulpreise anzeigen",
       "categories": [
@@ -72,7 +72,7 @@ export const generatedLocalCopy = {
     "es": {
       "badge": "INSIGHTS DE SUNDAE",
       "title": "Profundiza en Cada Parte de Tu Operación",
-      "description": "Catorce módulos especializados cubren ingresos, mano de obra, inventario, compras, marketing, reservas, ganancias, entrega, experiencia del cliente, CRM, aseguramiento de ingresos, inteligencia cruzada, inteligencia de Foresight y resumen ejecutivo. Cada módulo está diseñado para un dominio operativo.",
+      "description": "Doce módulos especializados cubren ingresos, mano de obra, inventario, compras, marketing, reservas, ganancias, entrega, experiencia del cliente, CRM, aseguramiento de ingresos e inteligencia cruzada. Cada módulo está diseñado para un dominio operativo.",
       "bookDemo": "Reservar una demostración",
       "seeModules": "Ver precios de módulos",
       "categories": [
@@ -139,7 +139,7 @@ export const generatedLocalCopy = {
     "fr": {
       "badge": "INSIGHTS SUNDAE",
       "title": "Plongez plus profondément dans chaque aspect de votre activité",
-      "description": "Quatorze modules spécialisés couvrent les revenus, la main-d'œuvre, l'inventaire, les achats, le marketing, les réservations, le profit, la livraison, l'expérience client, le CRM, l'assurance des revenus, l'intelligence croisée, l'intelligence prédictive et le résumé exécutif. Chaque module est conçu pour un domaine opérationnel.",
+      "description": "Douze modules spécialisés couvrent les revenus, la main-d'œuvre, l'inventaire, les achats, le marketing, les réservations, le profit, la livraison, l'expérience client, le CRM, l'assurance des revenus et l'intelligence croisée. Chaque module est conçu pour un domaine opérationnel.",
       "bookDemo": "Réserver une démo",
       "seeModules": "Voir les prix des modules",
       "categories": [
@@ -206,7 +206,7 @@ export const generatedLocalCopy = {
     "nl": {
       "badge": "SUNDAE INSIGHTS",
       "title": "Ga dieper in op elk deel van uw bedrijfsvoering",
-      "description": "Veertien gespecialiseerde modules dekken omzet, personeel, voorraad, inkoop, marketing, reserveringen, winst, bezorging, gastbeleving, CRM, omzetbewaking, cross-intelligence, voorspellende intelligentie en een executive summary. Elke module is gebouwd voor één operationeel domein.",
+      "description": "Twaalf gespecialiseerde modules dekken omzet, personeel, voorraad, inkoop, marketing, reserveringen, winst, omzetbewaking, bezorging, gastbeleving, CRM en cross-intelligence. Elke module is gebouwd voor één operationeel domein.",
       "bookDemo": "Boek een Demo",
       "seeModules": "Bekijk moduleprijzen",
       "categories": [
@@ -273,7 +273,7 @@ export const generatedLocalCopy = {
     "pt": {
       "badge": "INSIGHTS SUNDAE",
       "title": "Aprofunde-se em Cada Parte da Sua Operação",
-      "description": "Quatorze módulos especializados cobrem receita, mão de obra, inventário, compras, marketing, reservas, lucro, entrega, experiência do cliente, CRM, garantia de receita, inteligência cruzada, inteligência de previsão e resumo executivo. Cada módulo é desenvolvido para um domínio operacional.",
+      "description": "Doze módulos especializados cobrem receita, mão de obra, inventário, compras, marketing, reservas, lucro, garantia de receita, entrega, experiência do cliente, CRM e inteligência cruzada. Cada módulo é desenvolvido para um domínio operacional.",
       "bookDemo": "Agendar uma Demonstração",
       "seeModules": "Ver Preços dos Módulos",
       "categories": [
@@ -340,7 +340,7 @@ export const generatedLocalCopy = {
     "ur": {
       "badge": "Sundae Insights",
       "title": "اپنے آپریشن کے ہر حصے میں مزید گہرائی میں جائیں",
-      "description": "چودہ خصوصی ماڈیولز آمدنی، مزدوری، انوینٹری، خریداری، مارکیٹنگ، ریزرویشن، منافع، ترسیل، مہمان کے تجربے، CRM، آمدنی کی ضمانت، کراس انٹیلیجنس، بصیرت کی انٹیلیجنس، اور ایگزیکٹو سمری کا احاطہ کرتے ہیں۔ ہر ماڈیول ایک آپریٹنگ ڈومین کے لیے بنایا گیا ہے۔",
+      "description": "بارہ خصوصی ماڈیولز آمدنی، مزدوری، انوینٹری، خریداری، مارکیٹنگ، ریزرویشن، منافع، آمدنی کی ضمانت، ترسیل، مہمان کے تجربے، CRM، اور کراس انٹیلیجنس کا احاطہ کرتے ہیں۔ ہر ماڈیول ایک آپریٹنگ ڈومین کے لیے بنایا گیا ہے۔",
       "bookDemo": "ڈیمو بک کریں",
       "seeModules": "ماڈیول کی قیمتیں دیکھیں",
       "categories": [
@@ -407,7 +407,7 @@ export const generatedLocalCopy = {
     "hi": {
       "badge": "Sundae Insights",
       "title": "अपने संचालन के हर हिस्से में गहराई से जाएं",
-      "description": "चौदह विशेषीकृत मॉड्यूल राजस्व, श्रम, इन्वेंटरी, खरीद, विपणन, आरक्षण, लाभ, डिलीवरी, अतिथि अनुभव, सीआरएम, राजस्व आश्वासन, क्रॉस-इंटेलिजेंस, पूर्वदृष्टि इंटेलिजेंस, और कार्यकारी सारांश को कवर करते हैं। प्रत्येक मॉड्यूल एक संचालन डोमेन के लिए बनाया गया है।",
+      "description": "बारह विशेषीकृत मॉड्यूल राजस्व, श्रम, इन्वेंटरी, खरीद, विपणन, आरक्षण, लाभ, राजस्व आश्वासन, डिलीवरी, अतिथि अनुभव, सीआरएम, और क्रॉस-इंटेलिजेंस को कवर करते हैं। प्रत्येक मॉड्यूल एक संचालन डोमेन के लिए बनाया गया है।",
       "bookDemo": "डेमो बुक करें",
       "seeModules": "मॉड्यूल मूल्य निर्धारण देखें",
       "categories": [
@@ -474,7 +474,7 @@ export const generatedLocalCopy = {
     "it": {
       "badge": "INSIGHTS DI SUNDAE",
       "title": "Approfondisci ogni aspetto della tua attività",
-      "description": "Quattordici moduli specializzati coprono ricavi, personale, inventario, acquisti, marketing, prenotazioni, profitti, consegne, esperienza degli ospiti, CRM, garanzia dei ricavi, cross-intelligence, intelligenza predittiva e sintesi esecutiva. Ogni modulo è progettato per un dominio operativo specifico.",
+      "description": "Dodici moduli specializzati coprono ricavi, personale, inventario, acquisti, marketing, prenotazioni, profitti, garanzia dei ricavi, consegne, esperienza degli ospiti, CRM e cross-intelligence. Ogni modulo è progettato per un dominio operativo specifico.",
       "bookDemo": "Prenota una demo",
       "seeModules": "Vedi i Prezzi dei Moduli",
       "categories": [
@@ -541,7 +541,7 @@ export const generatedLocalCopy = {
     "zh-Hans": {
       "badge": "Sundae Insights",
       "title": "深入了解运营的每个环节",
-      "description": "十四个专业模块涵盖收入、劳动力、库存、采购、营销、预订、利润、配送、客户体验、客户关系管理、收入保障、跨智能、前瞻智能和执行摘要。每个模块针对一个运营领域而构建。",
+      "description": "十二个专业模块涵盖收入、劳动力、库存、采购、营销、预订、利润、收入保障、配送、客户体验、客户关系管理和跨智能。每个模块针对一个运营领域而构建。",
       "bookDemo": "预约演示",
       "seeModules": "查看模块定价",
       "categories": [
@@ -608,7 +608,7 @@ export const generatedLocalCopy = {
     "tr": {
       "badge": "SUNDAE INSIGHTS",
       "title": "İşletmenizin Her Alanını Daha Derinlemesine İnceleyin",
-      "description": "On dört özel modül, gelir, iş gücü, envanter, satın alma, pazarlama, rezervasyon, kâr, teslimat, misafir deneyimi, CRM, gelir güvencesi, çapraz zeka, öngörü zekası ve yönetici özeti konularını kapsar. Her modül, bir işletme alanı için tasarlanmıştır.",
+      "description": "On iki özel modül, gelir, iş gücü, envanter, satın alma, pazarlama, rezervasyon, kâr, gelir güvencesi, teslimat, misafir deneyimi, CRM ve çapraz zeka konularını kapsar. Her modül, bir işletme alanı için tasarlanmıştır.",
       "bookDemo": "Demo Rezervasyonu Yap",
       "seeModules": "Modül Fiyatlarını Gör",
       "categories": [
@@ -675,7 +675,7 @@ export const generatedLocalCopy = {
     "ja": {
       "badge": "Sundae Insights",
       "title": "業務のあらゆる領域を深く掘り下げる",
-      "description": "14の専門モジュールが、収益、労務、在庫、購買、マーケティング、予約、利益、配送、ゲスト体験、CRM、収益保証、クロスインテリジェンス、予測インテリジェンス、エグゼクティブサマリーをカバーします。各モジュールは1つの業務領域のために構築されています。",
+      "description": "12の専門モジュールが、収益、労務、在庫、購買、マーケティング、予約、利益、収益保証、配送、ゲスト体験、CRM、クロスインテリジェンスをカバーします。各モジュールは1つの業務領域のために構築されています。",
       "bookDemo": "デモを予約する",
       "seeModules": "モジュールの価格を見る",
       "categories": [
@@ -742,7 +742,7 @@ export const generatedLocalCopy = {
     "pl": {
       "badge": "SUNDAE INSIGHTS",
       "title": "Zagłęb się w każdy aspekt swojej działalności",
-      "description": "Czternaście specjalistycznych modułów obejmuje przychody, pracę, zapasy, zakupy, marketing, rezerwacje, zyski, dostawy, doświadczenie gości, CRM, zapewnienie przychodów, cross-intelligence, inteligencję prognozującą oraz podsumowanie wykonawcze. Każdy moduł jest stworzony dla jednego obszaru operacyjnego.",
+      "description": "Dwanaście specjalistycznych modułów obejmuje przychody, pracę, zapasy, zakupy, marketing, rezerwacje, zyski, zapewnienie przychodów, dostawy, doświadczenie gości, CRM oraz cross-intelligence. Każdy moduł jest stworzony dla jednego obszaru operacyjnego.",
       "bookDemo": "Umów się na demonstrację",
       "seeModules": "Zobacz ceny modułów",
       "categories": [
@@ -809,7 +809,7 @@ export const generatedLocalCopy = {
     "id": {
       "badge": "SUNDAE INSIGHTS",
       "title": "Selami Setiap Bagian dari Operasi Anda",
-      "description": "Empat belas modul khusus mencakup pendapatan, tenaga kerja, inventaris, pembelian, pemasaran, reservasi, keuntungan, pengiriman, pengalaman tamu, CRM, jaminan pendapatan, cross-intelligence, intelijen ramalan, dan ringkasan eksekutif. Setiap modul dirancang untuk satu domain operasional.",
+      "description": "Dua belas modul khusus mencakup pendapatan, tenaga kerja, inventaris, pembelian, pemasaran, reservasi, keuntungan, jaminan pendapatan, pengiriman, pengalaman tamu, CRM, dan cross-intelligence. Setiap modul dirancang untuk satu domain operasional.",
       "bookDemo": "Pesan Demo",
       "seeModules": "Lihat Harga Modul",
       "categories": [
@@ -876,7 +876,7 @@ export const generatedLocalCopy = {
     "vi": {
       "badge": "SUNDAE INSIGHTS",
       "title": "Đi Sâu Vào Mọi Khía Cạnh Của Hoạt Động Của Bạn",
-      "description": "Mười bốn mô-đun chuyên biệt bao gồm doanh thu, lao động, tồn kho, mua sắm, tiếp thị, đặt chỗ, lợi nhuận, giao hàng, trải nghiệm khách hàng, CRM, đảm bảo doanh thu, trí tuệ chéo, trí tuệ dự đoán và tóm tắt điều hành. Mỗi mô-đun được xây dựng cho một lĩnh vực hoạt động.",
+      "description": "Mười hai mô-đun chuyên biệt bao gồm doanh thu, lao động, tồn kho, mua sắm, tiếp thị, đặt chỗ, lợi nhuận, đảm bảo doanh thu, giao hàng, trải nghiệm khách hàng, CRM và trí tuệ chéo. Mỗi mô-đun được xây dựng cho một lĩnh vực hoạt động.",
       "bookDemo": "Đặt lịch Dùng thử",
       "seeModules": "Xem giá mô-đun",
       "categories": [
@@ -943,7 +943,7 @@ export const generatedLocalCopy = {
     "ro": {
       "badge": "SUNDAE INSIGHTS",
       "title": "Aprofundați fiecare aspect al operațiunii dumneavoastră",
-      "description": "Paisprezece module specializate acoperă veniturile, forța de muncă, inventarul, achizițiile, marketingul, rezervările, profitul, livrarea, experiența oaspeților, CRM, asigurarea veniturilor, cross-intelligence, inteligența de previziune și rezumatul executiv. Fiecare modul este construit pentru un domeniu operațional.",
+      "description": "Douăsprezece module specializate acoperă veniturile, forța de muncă, inventarul, achizițiile, marketingul, rezervările, profitul, asigurarea veniturilor, livrarea, experiența oaspeților, CRM și cross-intelligence. Fiecare modul este construit pentru un domeniu operațional.",
       "bookDemo": "Programează o demonstrație",
       "seeModules": "Vezi Prețurile Modulului",
       "categories": [
@@ -1010,7 +1010,7 @@ export const generatedLocalCopy = {
     "bn": {
       "badge": "Sundae Insights",
       "title": "আপনার কার্যক্রমের প্রতিটি অংশে গভীরভাবে প্রবেশ করুন",
-      "description": "চৌদ্দটি বিশেষায়িত মডিউল রাজস্ব, শ্রম, ইনভেন্টরি, ক্রয়, বিপণন, রিজার্ভেশন, লাভ, ডেলিভারি, অতিথির অভিজ্ঞতা, CRM, রাজস্ব নিশ্চয়তা, ক্রস-ইন্টেলিজেন্স, পূর্বাভাস ইন্টেলিজেন্স এবং নির্বাহী সারসংক্ষেপ কভার করে। প্রতিটি মডিউল একটি অপারেটিং ডোমেইনের জন্য তৈরি করা হয়েছে।",
+      "description": "বারোটি বিশেষায়িত মডিউল রাজস্ব, শ্রম, ইনভেন্টরি, ক্রয়, বিপণন, রিজার্ভেশন, লাভ, রাজস্ব নিশ্চয়তা, ডেলিভারি, অতিথির অভিজ্ঞতা, CRM এবং ক্রস-ইন্টেলিজেন্স কভার করে। প্রতিটি মডিউল একটি অপারেটিং ডোমেইনের জন্য তৈরি করা হয়েছে।",
       "bookDemo": "ডেমো বুক করুন",
       "seeModules": "মডিউল মূল্য দেখুন",
       "categories": [
@@ -1077,7 +1077,7 @@ export const generatedLocalCopy = {
     "sv": {
       "badge": "SUNDAE INSIGHTS",
       "title": "Gå djupare in i varje del av din verksamhet",
-      "description": "Fjorton specialiserade moduler täcker intäkter, arbetskraft, lager, inköp, marknadsföring, bokningar, vinst, leverans, gästupplevelse, CRM, intäktsgaranti, cross-intelligence, prognosintelligens och sammanfattning för ledningen. Varje modul är byggd för ett specifikt verksamhetsområde.",
+      "description": "Tolv specialiserade moduler täcker intäkter, arbetskraft, lager, inköp, marknadsföring, bokningar, vinst, intäktsgaranti, leverans, gästupplevelse, CRM och cross-intelligence. Varje modul är byggd för ett specifikt verksamhetsområde.",
       "bookDemo": "Boka en demo",
       "seeModules": "Se modulpriser",
       "categories": [
@@ -1144,7 +1144,7 @@ export const generatedLocalCopy = {
     "th": {
       "badge": "Sundae Insights",
       "title": "เจาะลึกทุกส่วนของการดำเนินงานของคุณ",
-      "description": "โมดูลเฉพาะทาง 14 โมดูลครอบคลุมรายได้ แรงงาน สินค้าคงคลัง การจัดซื้อ การตลาด การจอง กำไร การจัดส่ง ประสบการณ์ของแขก CRM การรับประกันรายได้ Cross-Intelligence ปัญญาเชิงคาดการณ์ และสรุปผู้บริหาร แต่ละโมดูลสร้างขึ้นสำหรับหนึ่งโดเมนการดำเนินงาน",
+      "description": "โมดูลเฉพาะทาง 12 โมดูลครอบคลุมรายได้ แรงงาน สินค้าคงคลัง การจัดซื้อ การตลาด การจอง กำไร การรับประกันรายได้ การจัดส่ง ประสบการณ์ของแขก CRM และ Cross-Intelligence แต่ละโมดูลสร้างขึ้นสำหรับหนึ่งโดเมนการดำเนินงาน",
       "bookDemo": "จองการสาธิต",
       "seeModules": "ดูราคาโมดูล",
       "categories": [
@@ -1211,7 +1211,7 @@ export const generatedLocalCopy = {
     "ms": {
       "badge": "SUNDAE INSIGHTS",
       "title": "Selami Setiap Aspek Operasi Anda",
-      "description": "Empat belas modul khusus merangkumi pendapatan, buruh, inventori, pembelian, pemasaran, tempahan, keuntungan, penghantaran, pengalaman tetamu, CRM, jaminan pendapatan, kecerdasan silang, kecerdasan ramalan, dan ringkasan eksekutif. Setiap modul dibina untuk satu domain operasi.",
+      "description": "Dua belas modul khusus merangkumi pendapatan, buruh, inventori, pembelian, pemasaran, tempahan, keuntungan, jaminan pendapatan, penghantaran, pengalaman tetamu, CRM, dan kecerdasan silang. Setiap modul dibina untuk satu domain operasi.",
       "bookDemo": "Tempah Demo",
       "seeModules": "Lihat Harga Modul",
       "categories": [
@@ -1345,7 +1345,7 @@ export const generatedLocalCopy = {
     "ko": {
       "badge": "Sundae Insights",
       "title": "운영의 모든 영역을 더 깊이 파악하세요",
-      "description": "14개의 전문 모듈이 수익, 인력, 재고, 구매, 마케팅, 예약, 이익, 배달, 고객 경험, CRM, 수익 보장, 크로스 인텔리전스, 예측 인텔리전스 및 경영 요약을 다룹니다. 각 모듈은 하나의 운영 도메인을 위해 설계되었습니다.",
+      "description": "12개의 전문 모듈이 수익, 인력, 재고, 구매, 마케팅, 예약, 이익, 수익 보장, 배달, 고객 경험, CRM 및 크로스 인텔리전스를 다룹니다. 각 모듈은 하나의 운영 도메인을 위해 설계되었습니다.",
       "bookDemo": "데모 예약하기",
       "seeModules": "모듈 가격 보기",
       "categories": [
