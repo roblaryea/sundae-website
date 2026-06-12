@@ -198,14 +198,14 @@ export const generatedWebsiteMessageOverrides = {
       "titleBottom": "für Restaurants",
       "description": "Ihre Daten leben in 5-10 getrennten Systemen. Ihr Team entscheidet aus dem Bauch heraus, während täglich Margen verloren gehen.",
       "descriptionEmphasis": "Das ist der Kompromiss, den Sundae beseitigt.",
-      "narrativeAnchor": "Von Berichterstattungslücken zu Betriebsgeschwindigkeit.",
+      "narrativeAnchor": "Von Reporting-Lücken zu operativem Tempo.",
       "startFree": "Kostenlos starten",
       "bookDemo": "Demo buchen",
       "noCard": "Keine Kreditkarte erforderlich",
       "proofStats": [
         {
           "number": "6",
-          "label": "Intelligenzschichten"
+          "label": "Intelligenz-Ebenen"
         },
         {
           "number": "18",
@@ -213,11 +213,11 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "12",
-          "label": "Vereinigte Datenbereiche"
+          "label": "Vereinte Datenbereiche"
         },
         {
           "number": "5 min",
-          "label": "Schicht-Aktualisierungszyklus"
+          "label": "Aktualisierung pro Schicht"
         }
       ],
       "problem": {
@@ -239,7 +239,7 @@ export const generatedWebsiteMessageOverrides = {
           },
           {
             "value": "0%",
-            "label": "Marktcontext",
+            "label": "Marktkontext",
             "supporting": "Keine Peer-Benchmarks für Ihre KPIs",
             "color": "red"
           },
@@ -252,9 +252,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 LAYER · EINE WAHRHEIT",
-        "heading": "Sechs Lagen. Eine Wahrheit.",
-        "description": "Vom Live-Schicht bis zum langfristigen Plan - ein Stack, sechs Lagen, die miteinander kommunizieren.",
+        "eyebrow": "6 EBENEN · EINE WAHRHEIT",
+        "heading": "Sechs Ebenen. Eine Wahrheit.",
+        "description": "Von der laufenden Schicht bis zum langfristigen Plan - ein Stack, sechs Ebenen, die miteinander sprechen.",
         "countLabel": "von 6",
         "exploreModules": "Alle Module erkunden",
         "learnMore": "Mehr erfahren",
@@ -262,7 +262,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "Echtzeit-Operationen",
-            "description": "Live-Pacing, adaptive Ziele, Serverleistung, Leckagen - Schicht für Schicht.",
+            "description": "Live-Pacing, adaptive Ziele, Kellnerleistung, Leckagen - Schicht für Schicht.",
             "href": "/product/pulse"
           },
           {
@@ -298,7 +298,7 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "modules": {
-        "eyebrow": "INTELLIGENZMODULES",
+        "eyebrow": "INTELLIGENZMODULE",
         "heading": "Über 30 Module in 12 Bereichen",
         "description": "Jede Dimension der Restaurantleistung - analysiert, benchmarked und umsetzbar.",
         "categories": [
@@ -311,7 +311,7 @@ export const generatedWebsiteMessageOverrides = {
             "count": "5 Module"
           },
           {
-            "name": "Gästeserfahrung",
+            "name": "Gästeerfahrung",
             "count": "3 Module"
           },
           {
@@ -360,13 +360,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "Betriebsleiter",
             "pain": "Sie können nicht gleichzeitig in jedem Restaurant sein.",
-            "outcome": "Echtzeit-Überwachung der Leistung und der Server in jedem Standort - sehen Sie, wer jetzt Hilfe benötigt.",
+            "outcome": "Echtzeit-Überwachung der Leistung und der Kellner an jedem Standort - sehen Sie, wer gerade Hilfe braucht.",
             "attribution": "Muster bei Multi-Location-Betreibern"
           },
           {
             "title": "Finanzen & FP&A",
             "pain": "3 Tage für den Abschluss der Bücher? Das sind 3 Tage zu viel.",
-            "outcome": "Echtzeit-Margen, arbeitskosten auf Schichtniveau, Abweichungen mit Ursachenanalyse.",
+            "outcome": "Echtzeit-Margen, Arbeitskosten auf Schichtebene, Abweichungen mit Ursachenanalyse.",
             "attribution": "Muster bei CFO-Gesprächen"
           },
           {
@@ -443,7 +443,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "paceLabel": "Umsatzgeschwindigkeit",
         "tableHeaders": [
-          "Server",
+          "Kellner",
           "Verkäufe",
           "Upsell %",
           "Durchschnittlicher Check"
@@ -940,14 +940,14 @@ export const generatedWebsiteMessageOverrides = {
       "titleBottom": "voor Restaurants",
       "description": "Jouw data bevindt zich in 5-10 losse systemen. Jouw team beslist op gevoel terwijl de marges dagelijks leeglopen.",
       "descriptionEmphasis": "Dat is de afweging die Sundae wegneemt.",
-      "narrativeAnchor": "Van rapportagevertraging naar operationele snelheid.",
+      "narrativeAnchor": "Van rapportagevertraging naar operationeel tempo.",
       "startFree": "Begin Gratis",
       "bookDemo": "Boek een demo",
       "noCard": "Geen creditcard vereist",
       "proofStats": [
         {
           "number": "6",
-          "label": "Intelligentielaag"
+          "label": "Intelligentielagen"
         },
         {
           "number": "18",
@@ -959,7 +959,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 min",
-          "label": "Verandercyclus"
+          "label": "Ververst per shift"
         }
       ],
       "problem": {
@@ -1004,7 +1004,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "Realtime operaties",
-            "description": "Live pacing, adaptieve doelen, serverprestaties, lekken - shift voor shift.",
+            "description": "Live pacing, adaptieve doelen, prestaties van de bediening, lekken - shift voor shift.",
             "href": "/product/pulse"
           },
           {
@@ -1021,7 +1021,7 @@ export const generatedWebsiteMessageOverrides = {
           },
           {
             "name": "Insights",
-            "subtitle": "12 analysemodule",
+            "subtitle": "12 analysemodules",
             "description": "Omzet, arbeid, voorraad, marketing, levering - elk met AI-aanbevelingen.",
             "href": "/insights"
           },
@@ -1040,7 +1040,7 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "modules": {
-        "eyebrow": "INTELLIGENTIE MODULES",
+        "eyebrow": "INTELLIGENTIEMODULES",
         "heading": "12 modules in 12 domeinen",
         "description": "Elke dimensie van restaurantprestaties - geanalyseerd, vergeleken en actiegericht.",
         "categories": [
@@ -1102,7 +1102,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "Operationele Leiders",
             "pain": "Je kunt niet in elk restaurant tegelijk zijn.",
-            "outcome": "Live pacing en serverprestaties in elke vestiging - zie wie nu hulp nodig heeft.",
+            "outcome": "Live pacing en prestaties van de bediening in elke vestiging - zie wie nu hulp nodig heeft.",
             "attribution": "Patroon bij multi-locatie operators"
           },
           {
@@ -1119,7 +1119,7 @@ export const generatedWebsiteMessageOverrides = {
           },
           {
             "title": "Data & Technologie",
-            "pain": "12 leveranciers-API's. 5 formaten. Geen uniforme schema.",
+            "pain": "12 leveranciers-API's. 5 formaten. Geen uniform schema.",
             "outcome": "Schone pipelines, beheerde metrics, openbare API, webhooks, RBAC direct uit de doos.",
             "attribution": "Patroon bij hoofden van data"
           }
@@ -1137,7 +1137,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "02",
             "title": "Begrijpen",
-            "description": "AI onthult anomalieën en lagen in weer, evenementen en signalen van concurrenten."
+            "description": "AI onthult anomalieën en verschuivingen in weer, evenementen en signalen van concurrenten."
           },
           {
             "step": "03",
@@ -1162,7 +1162,7 @@ export const generatedWebsiteMessageOverrides = {
             "trendUp": true
           },
           {
-            "label": "Gedeelte",
+            "label": "Couverts",
             "value": "287",
             "trend": "+12 t.o.v. plan",
             "trendUp": true,
@@ -1185,7 +1185,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "paceLabel": "Omzet Tempo",
         "tableHeaders": [
-          "Server",
+          "Bediening",
           "Verkoop",
           "Upsell %",
           "Gem. Check"
@@ -1701,7 +1701,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 min",
-          "label": "Ciclo de atualização de turno"
+          "label": "Atualização a cada turno"
         }
       ],
       "problem": {
@@ -1730,7 +1730,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "value": "$50K+",
             "label": "Perda anual",
-            "supporting": "De anulações, compensaçõe e sobreposições",
+            "supporting": "De anulações, compensações e sobreposições",
             "color": "amber"
           }
         ]
@@ -1746,7 +1746,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "Operações em tempo real",
-            "description": "Ritmo ao vivo, metas adaptativas, desempenho do servidor, vazamentos - turno a turno.",
+            "description": "Ritmo ao vivo, metas adaptativas, desempenho dos garçons, vazamentos - turno a turno.",
             "href": "/product/pulse"
           },
           {
@@ -1856,7 +1856,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "C-Suite & Proprietários",
             "pain": "Seu pior local é invisível até quinta-feira.",
-            "outcome": "Visão do portfólio, briefings diários de IA, sinal de mercado - em todas as marcas que você administra.",
+            "outcome": "Visão do portfólio, briefings diários de IA, sinais de mercado - em todas as marcas que você administra.",
             "attribution": "Padrão entre fundadores e CEOs de grupos"
           },
           {
@@ -1869,7 +1869,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "howItWorks": {
         "eyebrow": "COMO FUNCIONA",
-        "heading": "Da dados à decisão em quatro etapas",
+        "heading": "Dos dados à decisão em quatro etapas",
         "steps": [
           {
             "step": "01",
@@ -1879,7 +1879,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "02",
             "title": "Entender",
-            "description": "A IA destaca anomalias e camadas em clima, eventos e sinais de concorrentes."
+            "description": "A IA destaca anomalias e mudanças em clima, eventos e sinais de concorrentes."
           },
           {
             "step": "03",
@@ -1904,7 +1904,7 @@ export const generatedWebsiteMessageOverrides = {
             "trendUp": true
           },
           {
-            "label": "Coberturas",
+            "label": "Convivas",
             "value": "287",
             "trend": "+12 em relação ao plano",
             "trendUp": true,
@@ -2448,7 +2448,7 @@ export const generatedWebsiteMessageOverrides = {
       ],
       "problem": {
         "eyebrow": "समस्या",
-        "heading": "हर दिन आपको पैसे की कीमत चुकानी पड़ती है",
+        "heading": "वे अंतराल जो हर दिन आपको पैसे का नुकसान पहुँचाते हैं",
         "description": "हम जिन रेस्तरां समूहों के साथ काम करते हैं, वे सभी समान अंधे स्थानों का सामना करते हैं।",
         "kpis": [
           {
@@ -2488,7 +2488,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "वास्तविक समय संचालन",
-            "description": "लाइव पेसिंग, अनुकूलन लक्ष्य, सर्वर प्रदर्शन, रिसाव - शिफ्ट दर शिफ्ट।",
+            "description": "लाइव पेसिंग, अनुकूलन लक्ष्य, वेटर प्रदर्शन, रिसाव - शिफ्ट दर शिफ्ट।",
             "href": "/product/pulse"
           },
           {
@@ -2586,7 +2586,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "ऑपरेशंस लीडर्स",
             "pain": "आप एक साथ हर रेस्तरां में नहीं हो सकते।",
-            "outcome": "हर आउटलेट में लाइव पेसिंग और सर्वर प्रदर्शन - देखें कि किसे अभी मदद की ज़रूरत है।",
+            "outcome": "हर आउटलेट में लाइव पेसिंग और वेटर प्रदर्शन - देखें कि किसे अभी मदद की ज़रूरत है।",
             "attribution": "मल्टी-लोकेशन ऑपरेटरों के बीच पैटर्न"
           },
           {
@@ -2621,7 +2621,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "02",
             "title": "समझें",
-            "description": "AI विसंगतियों और मौसम, घटनाओं, और प्रतिस्पर्धियों के संकेतों में परतें दिखाता है।"
+            "description": "AI मौसम, घटनाओं, और प्रतिस्पर्धियों के संकेतों में विसंगतियाँ और बदलाव उजागर करता है।"
           },
           {
             "step": "03",
@@ -2636,7 +2636,7 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "mockup": {
-        "frameLabel": "पल्स - बिक्री की गति",
+        "frameLabel": "Pulse - बिक्री की गति",
         "updatedAt": "मंगलवार, 7:42 PM",
         "kpis": [
           {
@@ -2646,7 +2646,7 @@ export const generatedWebsiteMessageOverrides = {
             "trendUp": true
           },
           {
-            "label": "कवर्स",
+            "label": "मेहमान",
             "value": "287",
             "trend": "+12 योजना के मुकाबले",
             "trendUp": true,
@@ -2669,7 +2669,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "paceLabel": "राजस्व की गति",
         "tableHeaders": [
-          "सर्वर",
+          "वेटर",
           "बिक्री",
           "अपसेल %",
           "औसत चेक"
@@ -3230,7 +3230,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "حقیقی وقت کی کارروائیاں",
-            "description": "لائیو پیسنگ، موافق اہداف، سرور کی کارکردگی، لیکیج - شفٹ بہ شفٹ۔",
+            "description": "لائیو پیسنگ، موافق اہداف، ویٹر کی کارکردگی، لیکیج - شفٹ بہ شفٹ۔",
             "href": "/product/pulse"
           },
           {
@@ -3248,7 +3248,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Insights",
             "subtitle": "12 تجزیاتی ماڈیولز",
-            "description": "آمدنی، محنت، انوینٹری، مارکیٹنگ، ترسیل - ہر ایک کے ساتھ AI کی سفارشات۔",
+            "description": "آمدنی، عملہ، انوینٹری، مارکیٹنگ، ترسیل - ہر ایک کے ساتھ AI کی سفارشات۔",
             "href": "/insights"
           },
           {
@@ -3275,7 +3275,7 @@ export const generatedWebsiteMessageOverrides = {
             "count": "4 ماڈیولز"
           },
           {
-            "name": "محنت کی انٹیلیجنس",
+            "name": "افرادی قوت کی انٹیلیجنس",
             "count": "5 ماڈیولز"
           },
           {
@@ -3328,7 +3328,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "آپریشنز کے رہنما",
             "pain": "آپ ایک وقت میں ہر ریستوران میں نہیں ہو سکتے۔",
-            "outcome": "ہر آؤٹ لیٹ میں براہ راست رفتار اور سرور کی کارکردگی - دیکھیں کہ کس کو ابھی مدد کی ضرورت ہے۔",
+            "outcome": "ہر آؤٹ لیٹ میں براہ راست رفتار اور ویٹر کی کارکردگی - دیکھیں کہ کس کو ابھی مدد کی ضرورت ہے۔",
             "attribution": "کئی مقامات کے آپریٹرز کے درمیان پیٹرن"
           },
           {
@@ -3358,12 +3358,12 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "01",
             "title": "جوڑیں",
-            "description": "POS، مزدوری، انوینٹری، ترسیل - زیادہ تر انضمام 5 منٹ سے کم میں۔"
+            "description": "POS، عملہ، انوینٹری، ترسیل - زیادہ تر انضمام 5 منٹ سے کم میں۔"
           },
           {
             "step": "02",
             "title": "سمجھیں",
-            "description": "AI بے قاعدگیاں اور موسم، واقعات، اور حریف کے اشارے میں تہیں ظاہر کرتا ہے۔"
+            "description": "AI موسم، واقعات، اور حریف کے اشاروں میں بے قاعدگیاں اور تبدیلیاں ظاہر کرتا ہے۔"
           },
           {
             "step": "03",
@@ -3378,7 +3378,7 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "mockup": {
-        "frameLabel": "پلس - سیلز پیسنگ",
+        "frameLabel": "Pulse - سیلز پیسنگ",
         "updatedAt": "منگل, 7:42 شام",
         "kpis": [
           {
@@ -3388,7 +3388,7 @@ export const generatedWebsiteMessageOverrides = {
             "trendUp": true
           },
           {
-            "label": "کوریج",
+            "label": "مہمان",
             "value": "287",
             "trend": "+12 منصوبے کے مقابلے میں",
             "trendUp": true,
@@ -3402,7 +3402,7 @@ export const generatedWebsiteMessageOverrides = {
             "color": "#FBBF24"
           },
           {
-            "label": "محنت %",
+            "label": "عملہ لاگت %",
             "value": "28.4%",
             "trend": "30% ہدف سے کم",
             "trendUp": true,
@@ -3411,7 +3411,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "paceLabel": "آمدنی کی رفتار",
         "tableHeaders": [
-          "سرور",
+          "ویٹر",
           "سیلز",
           "اپ سیل %",
           "اوسط چیک"
@@ -3962,9 +3962,9 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "platform": {
-        "eyebrow": "6 STRATI · UN'UNICA VERITÀ",
-        "heading": "Sei strati. Un'unica verità.",
-        "description": "Dallo shift dal vivo al piano a lungo termine - un stack, sei strati che comunicano tra loro.",
+        "eyebrow": "6 LIVELLI · UN'UNICA VERITÀ",
+        "heading": "Sei livelli. Un'unica verità.",
+        "description": "Dal turno in corso al piano a lungo termine - un unico stack, sei livelli che comunicano tra loro.",
         "countLabel": "di 6",
         "exploreModules": "Esplora tutti i moduli",
         "learnMore": "Scopri di più",
@@ -3972,7 +3972,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "Operazioni in tempo reale",
-            "description": "Pacing dal vivo, obiettivi adattivi, prestazioni dei server, perdite - turno dopo turno.",
+            "description": "Pacing dal vivo, obiettivi adattivi, prestazioni del personale di sala, perdite - turno dopo turno.",
             "href": "/product/pulse"
           },
           {
@@ -3989,7 +3989,7 @@ export const generatedWebsiteMessageOverrides = {
           },
           {
             "name": "Insights",
-            "subtitle": "Oltre 30 moduli analitici",
+            "subtitle": "12 moduli analitici",
             "description": "Entrate, lavoro, inventario, marketing, consegna - ognuno con raccomandazioni AI.",
             "href": "/insights"
           },
@@ -4070,7 +4070,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "Leader delle Operazioni",
             "pain": "Non puoi essere in ogni ristorante contemporaneamente.",
-            "outcome": "Monitoraggio in tempo reale e prestazioni dei server in ogni locale - vedi chi ha bisogno di aiuto adesso.",
+            "outcome": "Monitoraggio in tempo reale e prestazioni del personale di sala in ogni locale - vedi chi ha bisogno di aiuto adesso.",
             "attribution": "Modello tra operatori multi-locazione"
           },
           {
@@ -4105,7 +4105,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "02",
             "title": "Comprendere",
-            "description": "L'AI evidenzia anomalie e strati in meteo, eventi e segnali dei concorrenti."
+            "description": "L'AI evidenzia anomalie e variazioni in meteo, eventi e segnali dei concorrenti."
           },
           {
             "step": "03",
@@ -4669,7 +4669,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 min",
-          "label": "Cykl odświeżania zmiany"
+          "label": "Odświeżanie co zmianę"
         }
       ],
       "problem": {
@@ -4714,7 +4714,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "Operacje w czasie rzeczywistym",
-            "description": "Na żywo, adaptacyjne cele, wydajność serwera, straty - zmiana po zmianie.",
+            "description": "Tempo na żywo, adaptacyjne cele, wydajność kelnerów, straty - zmiana po zmianie.",
             "href": "/product/pulse"
           },
           {
@@ -4731,7 +4731,7 @@ export const generatedWebsiteMessageOverrides = {
           },
           {
             "name": "Insights",
-            "subtitle": "Ponad 30 modułów analitycznych",
+            "subtitle": "12 modułów analitycznych",
             "description": "Przychody, praca, zapasy, marketing, dostawy - każdy z rekomendacjami AI.",
             "href": "/insights"
           },
@@ -4805,14 +4805,14 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "personas": {
-        "eyebrow": "CO SŁYSZYMY OD OPERATOREK",
+        "eyebrow": "CO SŁYSZYMY OD OPERATORÓW",
         "heading": "Każda rola. Jedna platforma.",
         "description": "Różne zespoły, różne pytania. Jedno źródło prawdy.",
         "roles": [
           {
             "title": "Liderzy Operacji",
             "pain": "Nie możesz być w każdej restauracji jednocześnie.",
-            "outcome": "Na żywo śledzenie wydajności serwera w każdym lokalu - zobacz, kto potrzebuje pomocy teraz.",
+            "outcome": "Śledzenie tempa i wydajności kelnerów na żywo w każdym lokalu - zobacz, kto potrzebuje pomocy teraz.",
             "attribution": "Wzorzec wśród operatorów wielolokalowych"
           },
           {
@@ -4847,7 +4847,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "02",
             "title": "Zrozum",
-            "description": "AI ujawnia anomalie oraz warstwy w pogodzie, wydarzeniach i sygnałach konkurencji."
+            "description": "AI ujawnia anomalie oraz zmiany w pogodzie, wydarzeniach i sygnałach konkurencji."
           },
           {
             "step": "03",
@@ -4895,7 +4895,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "paceLabel": "Tempo przychodów",
         "tableHeaders": [
-          "Serwer",
+          "Kelner",
           "Sprzedaż",
           "% Upsell",
           "Średni rachunek"
@@ -5387,7 +5387,7 @@ export const generatedWebsiteMessageOverrides = {
       ]
     },
     "home": {
-      "badge": "Karar Zeka Platformu",
+      "badge": "Karar Zekası Platformu",
       "titleTop": "Karar Zekası",
       "titleBottom": "Restoranlar için",
       "description": "Verileriniz 5-10 bağlantısız sistemde yaşıyor. Ekibiniz içgüdüyle karar veriyor ve marjlar her gün sızıyor.",
@@ -5440,7 +5440,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "value": "$50K+",
             "label": "Yıllık kayıp",
-            "supporting": "Boşluklar, indirimler ve iptallerden",
+            "supporting": "İptaller, ikramlar ve geçersiz kılmalardan",
             "color": "amber"
           }
         ]
@@ -5456,7 +5456,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "Gerçek zamanlı operasyonlar",
-            "description": "Canlı tempo, uyumlu hedefler, sunucu performansı, sızıntı - vardiya vardiya.",
+            "description": "Canlı tempo, uyarlanabilir hedefler, garson performansı, sızıntı - vardiya vardiya.",
             "href": "/product/pulse"
           },
           {
@@ -5473,7 +5473,7 @@ export const generatedWebsiteMessageOverrides = {
           },
           {
             "name": "Insights",
-            "subtitle": "30'dan fazla analiz modülü",
+            "subtitle": "12 analiz modülü",
             "description": "Gelir, iş gücü, envanter, pazarlama, teslimat - her biri AI önerileri ile.",
             "href": "/insights"
           },
@@ -5492,7 +5492,7 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "modules": {
-        "eyebrow": "İSTİHDAM MODÜLLERİ",
+        "eyebrow": "ZEKÂ MODÜLLERİ",
         "heading": "12 alanda 12 modül",
         "description": "Restoran performansının her boyutu - analiz edildi, karşılaştırıldı ve uygulanabilir hale getirildi.",
         "categories": [
@@ -5554,7 +5554,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "Operasyon Liderleri",
             "pain": "Her restoranda aynı anda olamazsınız.",
-            "outcome": "Her noktada canlı hız ve sunucu performansı - şu anda kime yardım gerektiğini görün.",
+            "outcome": "Her noktada canlı tempo ve garson performansı - şu anda kime yardım gerektiğini görün.",
             "attribution": "Çoklu lokasyon operatörleri arasında desen"
           },
           {
@@ -5589,7 +5589,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "02",
             "title": "Anla",
-            "description": "AI, anormallikleri ve hava durumu, olaylar ve rakip sinyalleri katmanlarını ortaya çıkarır."
+            "description": "AI; hava durumu, olaylar ve rakip sinyallerindeki anormallikleri ve değişimleri ortaya çıkarır."
           },
           {
             "step": "03",
@@ -5614,7 +5614,7 @@ export const generatedWebsiteMessageOverrides = {
             "trendUp": true
           },
           {
-            "label": "Kapaklar",
+            "label": "Misafirler",
             "value": "287",
             "trend": "+12 plana göre",
             "trendUp": true,
@@ -6134,7 +6134,7 @@ export const generatedWebsiteMessageOverrides = {
       "titleBottom": "为餐厅服务",
       "description": "您的数据存在于5到10个不相连的系统中。您的团队凭直觉做决定，而利润每天都在流失。",
       "descriptionEmphasis": "这是Sundae消除的权衡。",
-      "narrativeAnchor": "从报告滞后到运营快速。",
+      "narrativeAnchor": "从报告滞后到运营提速。",
       "startFree": "免费开始",
       "bookDemo": "预约演示",
       "noCard": "无需信用卡",
@@ -6158,7 +6158,7 @@ export const generatedWebsiteMessageOverrides = {
       ],
       "problem": {
         "eyebrow": "问题",
-        "heading": "每天让您损失的差距",
+        "heading": "每天都在让您蒙受损失的差距",
         "description": "我们合作的每个餐饮集团都面临相同的盲点。",
         "kpis": [
           {
@@ -6198,7 +6198,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "实时运营",
-            "description": "实时节奏、自适应目标、服务员表现、漏损 - 每班次都在变化。",
+            "description": "实时节奏、自适应目标、服务员表现、漏损 - 逐班次掌握。",
             "href": "/product/pulse"
           },
           {
@@ -6235,8 +6235,8 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "智能模块",
-        "heading": "12个领域的12模块",
-        "description": "餐厅绩效的每个维度--分析、基准和可操作。",
+        "heading": "12个领域的12个模块",
+        "description": "餐厅绩效的每个维度——经过分析、基准对比，并可付诸行动。",
         "categories": [
           {
             "name": "收入智能",
@@ -6296,7 +6296,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "运营领导",
             "pain": "你不可能同时在每个餐厅。",
-            "outcome": "实时的节奏和每个门店的服务员表现--查看谁现在需要帮助。",
+            "outcome": "实时掌握每个门店的运营节奏和服务员表现——查看谁现在需要帮助。",
             "attribution": "多地点运营商的模式"
           },
           {
@@ -6308,7 +6308,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "C级高管与所有者",
             "pain": "你最差的门店在周四之前是看不见的。",
-            "outcome": "投资组合视图，每日AI简报，市场信号--涵盖你运营的每个品牌。",
+            "outcome": "投资组合视图，每日AI简报，市场信号——涵盖你运营的每个品牌。",
             "attribution": "创始人和集团CEO的模式"
           },
           {
@@ -6326,27 +6326,27 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "01",
             "title": "连接",
-            "description": "POS、劳动力、库存、配送 - 大多数集成在5分钟内完成."
+            "description": "POS、劳动力、库存、配送 - 大多数集成在5分钟内完成。"
           },
           {
             "step": "02",
             "title": "理解",
-            "description": "AI揭示异常，并分析天气、事件和竞争信号."
+            "description": "AI揭示天气、事件和竞争信号中的异常与变化。"
           },
           {
             "step": "03",
             "title": "决策",
-            "description": "具体、可解释的建议 - 目标、人员配置、菜单、定价."
+            "description": "具体、可解释的建议 - 目标、人员配置、菜单、定价。"
           },
           {
             "step": "04",
             "title": "改进",
-            "description": "每个决策都为系统提供反馈。行动手册变得更精准，预测变得更准确."
+            "description": "每个决策都为系统提供反馈。行动手册变得更精准，预测变得更准确。"
           }
         ]
       },
       "mockup": {
-        "frameLabel": "脉动 - 销售进度",
+        "frameLabel": "Pulse - 销售进度",
         "updatedAt": "星期二, 7:42 PM",
         "kpis": [
           {
@@ -6940,7 +6940,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "リアルタイムオペレーション",
-            "description": "ライブペーシング、適応ターゲット、サーバーパフォーマンス、漏れ - シフトごとに。",
+            "description": "ライブペーシング、適応ターゲット、接客スタッフのパフォーマンス、漏れ - シフトごとに。",
             "href": "/product/pulse"
           },
           {
@@ -6957,7 +6957,7 @@ export const generatedWebsiteMessageOverrides = {
           },
           {
             "name": "Insights",
-            "subtitle": "30以上の分析モジュール",
+            "subtitle": "12の分析モジュール",
             "description": "収益、労働、在庫、マーケティング、配送 - それぞれにAIの推奨が付随。",
             "href": "/insights"
           },
@@ -7038,7 +7038,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "オペレーションリーダー",
             "pain": "すべてのレストランに同時にいることはできません。",
-            "outcome": "すべての店舗でのライブペーシングとサーバーのパフォーマンス - 今すぐ助けが必要な人を確認。",
+            "outcome": "すべての店舗でのライブペーシングと接客スタッフのパフォーマンス - 今すぐ助けが必要な人を確認。",
             "attribution": "複数のロケーションオペレーター間のパターン"
           },
           {
@@ -7073,7 +7073,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "02",
             "title": "理解",
-            "description": "AIが異常を浮き彫りにし、天候、イベント、競合の信号を重ね合わせます。"
+            "description": "AIが天候、イベント、競合シグナルにおける異常や変化を浮き彫りにします。"
           },
           {
             "step": "03",
@@ -7088,7 +7088,7 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "mockup": {
-        "frameLabel": "パルス - 売上ペース",
+        "frameLabel": "Pulse - 売上ペース",
         "updatedAt": "火曜日, 7:42 PM",
         "kpis": [
           {
@@ -7121,7 +7121,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "paceLabel": "収益ペース",
         "tableHeaders": [
-          "サーバー",
+          "接客スタッフ",
           "売上",
           "アップセル %",
           "平均チェック"
@@ -7146,7 +7146,7 @@ export const generatedWebsiteMessageOverrides = {
             "$44.50"
           ]
         ],
-        "coachAlert": "ジェームス K. のアップセル率はシフト平均の14%下回っています。次の2テーブルのためにサラとペアを組むことを検討してください。"
+        "coachAlert": "ジェームス K. のアップセル率はシフト平均を14%下回っています。次の2テーブルのためにサラとペアを組むことを検討してください。"
       },
       "closingTitle": "昨日の数字に頼るのはやめましょう。",
       "closingDescription": "30分。あなたのデータ。Sundaeがチームのために実際に変えること。",
@@ -7617,7 +7617,7 @@ export const generatedWebsiteMessageOverrides = {
       "titleTop": "결정 지능",
       "titleBottom": "레스토랑을 위한",
       "description": "귀하의 데이터는 5-10개의 분리된 시스템에 존재합니다. 귀하의 팀은 직감에 따라 결정하며, 마진은 매일 유출됩니다.",
-      "descriptionEmphasis": "그것이 Sundae가 제거하는 거래입니다.",
+      "descriptionEmphasis": "그것이 Sundae가 없애는 절충입니다.",
       "narrativeAnchor": "보고 지연에서 운영 속도로.",
       "startFree": "무료 시작",
       "bookDemo": "데모 예약하기",
@@ -7636,8 +7636,8 @@ export const generatedWebsiteMessageOverrides = {
           "label": "통합된 데이터 도메인"
         },
         {
-          "number": "5 분",
-          "label": "교대 새로 고침 주기"
+          "number": "5분",
+          "label": "교대마다 새로 고침"
         }
       ],
       "problem": {
@@ -7682,7 +7682,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "실시간 운영",
-            "description": "실시간 페이싱, 적응형 목표, 서버 성능, 누수 - 근무별로.",
+            "description": "실시간 페이싱, 적응형 목표, 서빙 직원 성과, 누수 - 근무별로.",
             "href": "/product/pulse"
           },
           {
@@ -7699,7 +7699,7 @@ export const generatedWebsiteMessageOverrides = {
           },
           {
             "name": "Insights",
-            "subtitle": "30개 이상의 분석 모듈",
+            "subtitle": "12개 분석 모듈",
             "description": "수익, 인력, 재고, 마케팅, 배달 - 각각 AI 추천 포함.",
             "href": "/insights"
           },
@@ -7780,7 +7780,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "운영 리더",
             "pain": "모든 레스토랑에 동시에 있을 수는 없습니다.",
-            "outcome": "모든 매장에서의 실시간 진행 상황 및 서버 성능 - 지금 도움이 필요한 사람을 확인하세요.",
+            "outcome": "모든 매장에서의 실시간 진행 상황 및 서빙 직원 성과 - 지금 도움이 필요한 사람을 확인하세요.",
             "attribution": "다중 위치 운영자 간의 패턴"
           },
           {
@@ -7815,7 +7815,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "02",
             "title": "이해",
-            "description": "AI가 이상 징후와 날씨, 이벤트, 경쟁자 신호를 분석합니다."
+            "description": "AI가 날씨, 이벤트, 경쟁자 신호의 이상 징후와 변화를 강조합니다."
           },
           {
             "step": "03",
@@ -7830,7 +7830,7 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "mockup": {
-        "frameLabel": "펄스 - 매출 속도",
+        "frameLabel": "Pulse - 매출 속도",
         "updatedAt": "화요일, 오후 7:42",
         "kpis": [
           {
@@ -7854,7 +7854,7 @@ export const generatedWebsiteMessageOverrides = {
             "color": "#FBBF24"
           },
           {
-            "label": "노동 %",
+            "label": "인건비 %",
             "value": "28.4%",
             "trend": "30% 목표 이하",
             "trendUp": true,
@@ -7863,7 +7863,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "paceLabel": "수익 속도",
         "tableHeaders": [
-          "서버",
+          "서빙 직원",
           "매출",
           "업셀 %",
           "평균 체크"
@@ -8356,7 +8356,7 @@ export const generatedWebsiteMessageOverrides = {
     },
     "home": {
       "badge": "Platform Intelijen Keputusan",
-      "titleTop": "Kecerdasan Keputusan",
+      "titleTop": "Intelijen Keputusan",
       "titleBottom": "untuk Restoran",
       "description": "Data Anda berada di 5-10 sistem yang terpisah. Tim Anda mengambil keputusan berdasarkan insting sementara margin terus menurun setiap hari.",
       "descriptionEmphasis": "Itulah kompromi yang dihilangkan oleh Sundae.",
@@ -8424,7 +8424,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "Operasi waktu nyata",
-            "description": "Pacing langsung, target adaptif, kinerja server, kebocoran - shift demi shift.",
+            "description": "Pacing langsung, target adaptif, kinerja pelayan, kebocoran - shift demi shift.",
             "href": "/product/pulse"
           },
           {
@@ -8557,7 +8557,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "02",
             "title": "Pahami",
-            "description": "AI mengungkap anomali dan lapisan dalam cuaca, acara, dan sinyal pesaing."
+            "description": "AI mengungkap anomali dan pergeseran dalam cuaca, acara, dan sinyal pesaing."
           },
           {
             "step": "03",
@@ -8582,7 +8582,7 @@ export const generatedWebsiteMessageOverrides = {
             "trendUp": true
           },
           {
-            "label": "Covers",
+            "label": "Tamu",
             "value": "287",
             "trend": "+12 vs rencana",
             "trendUp": true,
@@ -9299,7 +9299,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "02",
             "title": "Hiểu",
-            "description": "AI phát hiện bất thường và các yếu tố trong thời tiết, sự kiện, và tín hiệu từ đối thủ."
+            "description": "AI phát hiện bất thường và biến động trong thời tiết, sự kiện, và tín hiệu từ đối thủ."
           },
           {
             "step": "03",
@@ -9843,7 +9843,7 @@ export const generatedWebsiteMessageOverrides = {
       "titleTop": "Inteligența Decizională",
       "titleBottom": "pentru restaurante",
       "description": "Datele tale se află în 5-10 sisteme deconectate. Echipa ta ia decizii pe baza intuiției, în timp ce marjele se pierd zilnic.",
-      "descriptionEmphasis": "Aceasta este compensarea pe care Sundae o elimină.",
+      "descriptionEmphasis": "Acesta este compromisul pe care Sundae îl elimină.",
       "narrativeAnchor": "De la întârzierea raportării la viteza operațiunilor.",
       "startFree": "Începe gratuit",
       "bookDemo": "Rezervați o demonstrație",
@@ -9863,7 +9863,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 min",
-          "label": "Ciclul de actualizare a schimbului"
+          "label": "Actualizare la fiecare schimb"
         }
       ],
       "problem": {
@@ -9874,7 +9874,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "value": "12+",
             "label": "Surse de date",
-            "supporting": "Dezactivate în întreaga ta operațiune",
+            "supporting": "Deconectate în întreaga ta operațiune",
             "color": "red"
           },
           {
@@ -9892,15 +9892,15 @@ export const generatedWebsiteMessageOverrides = {
           {
             "value": "$50K+",
             "label": "Pierdere anuală",
-            "supporting": "Din anulari, compensații și suprapunerile",
+            "supporting": "Din anulări, compensații și suprascrieri",
             "color": "amber"
           }
         ]
       },
       "platform": {
-        "eyebrow": "6 STRATURI · O SINGURĂ ADEVĂR",
-        "heading": "Șase straturi. O singură adevăr.",
-        "description": "De la schimbul live la planul pe termen lung - un stivă, șase straturi care comunică între ele.",
+        "eyebrow": "6 STRATURI · UN SINGUR ADEVĂR",
+        "heading": "Șase straturi. Un singur adevăr.",
+        "description": "De la schimbul live la planul pe termen lung - o stivă, șase straturi care comunică între ele.",
         "countLabel": "din 6",
         "exploreModules": "Explorează toate modulele",
         "learnMore": "Află mai multe",
@@ -9908,7 +9908,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "Operațiuni în timp real",
-            "description": "Pacing live, obiective adaptive, performanța serverului, pierderi - schimb cu schimb.",
+            "description": "Pacing live, obiective adaptive, performanța ospătarilor, pierderi - schimb cu schimb.",
             "href": "/product/pulse"
           },
           {
@@ -10006,7 +10006,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "Lideri de Operațiuni",
             "pain": "Nu poți fi în fiecare restaurant în același timp.",
-            "outcome": "Performanța serverelor și ritmul în timp real în fiecare locație - vezi cine are nevoie de ajutor acum.",
+            "outcome": "Performanța ospătarilor și ritmul în timp real în fiecare locație - vezi cine are nevoie de ajutor acum.",
             "attribution": "Model comun între operatorii cu mai multe locații"
           },
           {
@@ -10041,7 +10041,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "02",
             "title": "Înțelegere",
-            "description": "AI evidențiază anomalii și straturi în vreme, evenimente și semnale ale competitorilor."
+            "description": "AI evidențiază anomalii și schimbări în vreme, evenimente și semnale ale competitorilor."
           },
           {
             "step": "03",
@@ -10066,21 +10066,21 @@ export const generatedWebsiteMessageOverrides = {
             "trendUp": true
           },
           {
-            "label": "Covers",
+            "label": "Persoane",
             "value": "287",
             "trend": "+12 față de plan",
             "trendUp": true,
             "color": "#22C55E"
           },
           {
-            "label": "Verificare Medie",
+            "label": "Notă Medie",
             "value": "$49.50",
             "trend": "-2.1%",
             "trendUp": false,
             "color": "#FBBF24"
           },
           {
-            "label": "% Muncă",
+            "label": "Cost personal %",
             "value": "28.4%",
             "trend": "Sub 30% țintă",
             "trendUp": true,
@@ -10092,7 +10092,7 @@ export const generatedWebsiteMessageOverrides = {
           "Ospătar",
           "Vânzări",
           "% Upsell",
-          "Verificare Medie"
+          "Notă Medie"
         ],
         "tableRows": [
           [
@@ -10589,7 +10589,7 @@ export const generatedWebsiteMessageOverrides = {
       "narrativeAnchor": "Från rapporteringsfördröjning till operativ hastighet.",
       "startFree": "Börja gratis",
       "bookDemo": "Boka en demo",
-      "noCard": "Ingen kreditkort krävs",
+      "noCard": "Inget kreditkort krävs",
       "proofStats": [
         {
           "number": "6",
@@ -10605,7 +10605,7 @@ export const generatedWebsiteMessageOverrides = {
         },
         {
           "number": "5 min",
-          "label": "Skiftuppdateringscykel"
+          "label": "Uppdatering varje skift"
         }
       ],
       "problem": {
@@ -10642,7 +10642,7 @@ export const generatedWebsiteMessageOverrides = {
       "platform": {
         "eyebrow": "6 LAGER · EN SANNING",
         "heading": "Sex lager. En sanning.",
-        "description": "Från den aktuella skiftet till den långsiktiga planen - en stack, sex lager som kommunicerar med varandra.",
+        "description": "Från det aktuella skiftet till den långsiktiga planen - en stack, sex lager som kommunicerar med varandra.",
         "countLabel": "av 6",
         "exploreModules": "Utforska alla moduler",
         "learnMore": "Läs mer",
@@ -10650,7 +10650,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "Verksamhet i realtid",
-            "description": "Live-pacing, anpassningsbara mål, serverprestanda, läckage - skift för skift.",
+            "description": "Live-pacing, anpassningsbara mål, servispersonalens prestanda, läckage - skift för skift.",
             "href": "/product/pulse"
           },
           {
@@ -10680,13 +10680,13 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Foresight",
             "subtitle": "Prediktiv intelligens",
-            "description": "14-90 dagars prognoser, vad-händer-scenarier, exekutiv sammanfattningar som rättar sig själva.",
+            "description": "14-90 dagars prognoser, vad-händer-scenarier, exekutiva sammanfattningar som rättar sig själva.",
             "href": "/product/foresight"
           }
         ]
       },
       "modules": {
-        "eyebrow": "INTELLIGENS MODULER",
+        "eyebrow": "INTELLIGENSMODULER",
         "heading": "12 moduler över 12 områden",
         "description": "Varje dimension av restaurangprestanda - analyserad, benchmarkad och handlingsbar.",
         "categories": [
@@ -10748,7 +10748,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "Operationsledare",
             "pain": "Du kan inte vara på varje restaurang samtidigt.",
-            "outcome": "Live-pacing och serverprestanda över varje enhet - se vem som behöver hjälp just nu.",
+            "outcome": "Live-pacing och servispersonalens prestanda i varje enhet - se vem som behöver hjälp just nu.",
             "attribution": "Mönster bland flerplatsoperatörer"
           },
           {
@@ -10765,7 +10765,7 @@ export const generatedWebsiteMessageOverrides = {
           },
           {
             "title": "Data & Teknik",
-            "pain": "12 leverantörs-API:er. 5 format. Ingen enhetlig schema.",
+            "pain": "12 leverantörs-API:er. 5 format. Inget enhetligt schema.",
             "outcome": "Rena pipelines, styrda mätvärden, offentlig API, webhooks, RBAC direkt ur lådan.",
             "attribution": "Mönster bland datachefer"
           }
@@ -10783,7 +10783,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "02",
             "title": "Förstå",
-            "description": "AI identifierar avvikelser och lager i väder, händelser och konkurrenters signaler."
+            "description": "AI identifierar avvikelser och förändringar i väder, händelser och konkurrenters signaler."
           },
           {
             "step": "03",
@@ -10815,7 +10815,7 @@ export const generatedWebsiteMessageOverrides = {
             "color": "#22C55E"
           },
           {
-            "label": "Genomsnittlig Check",
+            "label": "Snittnota",
             "value": "$49.50",
             "trend": "-2.1%",
             "trendUp": false,
@@ -10829,12 +10829,12 @@ export const generatedWebsiteMessageOverrides = {
             "color": "#22C55E"
           }
         ],
-        "paceLabel": "Intäktsförsäljning",
+        "paceLabel": "Intäktstakt",
         "tableHeaders": [
-          "Server",
+          "Servitör",
           "Försäljning",
           "Uppförsäljning %",
-          "Genomsnittlig Check"
+          "Snittnota"
         ],
         "tableRows": [
           [
@@ -10856,7 +10856,7 @@ export const generatedWebsiteMessageOverrides = {
             "$44.50"
           ]
         ],
-        "coachAlert": "James K. uppförsäljningsgrad är 14% under skiftets genomsnitt. Överväg att para ihop med Sarah för de nästa 2 borden."
+        "coachAlert": "James K:s uppförsäljningsgrad är 14% under skiftets genomsnitt. Överväg att para ihop honom med Sarah för de nästa 2 borden."
       },
       "closingTitle": "Sluta basera er på gårdagens siffror.",
       "closingDescription": "30 minuter. Dina data. Vad Sundae faktiskt skulle förändra för teamet.",
@@ -11390,37 +11390,37 @@ export const generatedWebsiteMessageOverrides = {
         "learnMore": "আরও জানুন",
         "layers": [
           {
-            "name": "পালস",
+            "name": "Pulse",
             "subtitle": "রিয়েল-টাইম অপারেশন",
-            "description": "লাইভ পেসিং, অভিযোজিত লক্ষ্য, সার্ভার কর্মক্ষমতা, লিকেজ - শিফট বাই শিফট।",
+            "description": "লাইভ পেসিং, অভিযোজিত লক্ষ্য, ওয়েটার কর্মক্ষমতা, লিকেজ - শিফট বাই শিফট।",
             "href": "/product/pulse"
           },
           {
-            "name": "বেন্চমার্কস",
+            "name": "Benchmarks",
             "subtitle": "প্রতিযোগিতামূলক বুদ্ধিমত্তা",
-            "description": "৩০+ মেট্রিক্স জুড়ে অজ্ঞাত সহকর্মী বেন্চমার্ক। আপনি কোথায় দাঁড়িয়ে তা জানুন।",
+            "description": "৩০+ মেট্রিক্স জুড়ে অজ্ঞাত সহকর্মী বেঞ্চমার্ক। আপনি কোথায় দাঁড়িয়ে আছেন তা জানুন।",
             "href": "/benchmarking"
           },
           {
-            "name": "ওয়াচটাওয়ার",
+            "name": "Watchtower",
             "subtitle": "বাজারের বুদ্ধিমত্তা",
             "description": "প্রতিযোগীরা, আবহাওয়া, ইভেন্ট - আপনার সংখ্যাগুলোর আগে।",
             "href": "/product/watchtower"
           },
           {
-            "name": "ইনসাইটস",
-            "subtitle": "৩০+ বিশ্লেষণাত্মক মডিউল",
+            "name": "Insights",
+            "subtitle": "১২টি বিশ্লেষণাত্মক মডিউল",
             "description": "রাজস্ব, শ্রম, ইনভেন্টরি, মার্কেটিং, ডেলিভারি - প্রতিটি AI সুপারিশ সহ।",
             "href": "/insights"
           },
           {
-            "name": "সান্ডে বুদ্ধিমত্তা",
+            "name": "Sundae Intelligence",
             "subtitle": "কনভারসেশনাল AI",
             "description": "আপনার ডেটা থেকে কিছু জিজ্ঞাসা করুন। ওয়েব, Slack, বা Teams-এ সেকেন্ডের মধ্যে উত্তর।",
             "href": "/intelligence"
           },
           {
-            "name": "ফোরসাইট",
+            "name": "Foresight",
             "subtitle": "পূর্বাভাসমূলক বুদ্ধিমত্তা",
             "description": "১৪-৯০ দিনের পূর্বাভাস, কি-হলে পরিস্থিতি, নির্বাহী ব্রিফিং যা নিজেকে সংশোধন করে।",
             "href": "/product/foresight"
@@ -11429,7 +11429,7 @@ export const generatedWebsiteMessageOverrides = {
       },
       "modules": {
         "eyebrow": "ইন্টেলিজেন্স মডিউল",
-        "heading": "১২টি ডোমেইনে ৩০+ মডিউল",
+        "heading": "১২টি ডোমেইনে ১২টি মডিউল",
         "description": "রেস্তোরাঁর কার্যকারিতার প্রতিটি মাত্রা - বিশ্লেষণ, তুলনা এবং কার্যকর।",
         "categories": [
           {
@@ -11477,8 +11477,8 @@ export const generatedWebsiteMessageOverrides = {
             "count": "৩ মডিউল"
           },
           {
-            "name": "ক্রস-ইন্টেলিজেন্স",
-            "count": "সম্পর্কিত ইঞ্জিন"
+            "name": "Cross-Intelligence",
+            "count": "সম্পর্ক নির্ণয় ইঞ্জিন"
           }
         ]
       },
@@ -11490,7 +11490,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "অপারেশন নেতারা",
             "pain": "আপনি একসাথে প্রতিটি রেস্টুরেন্টে থাকতে পারবেন না।",
-            "outcome": "প্রতিটি আউটলেটের মধ্যে লাইভ পেসিং এবং সার্ভার কর্মক্ষমতা - দেখুন কে এখন সাহায্যের প্রয়োজন।",
+            "outcome": "প্রতিটি আউটলেটে লাইভ পেসিং এবং ওয়েটার কর্মক্ষমতা - দেখুন এখন কার সাহায্য প্রয়োজন।",
             "attribution": "বহু-অবস্থান অপারেটরদের মধ্যে প্যাটার্ন"
           },
           {
@@ -11525,7 +11525,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "02",
             "title": "বুঝুন",
-            "description": "AI অস্বাভাবিকতা এবং আবহাওয়া, ঘটনা, এবং প্রতিযোগীর সংকেতের স্তরগুলি তুলে ধরে।"
+            "description": "AI আবহাওয়া, ঘটনা এবং প্রতিযোগীর সংকেতে অস্বাভাবিকতা ও পরিবর্তন তুলে ধরে।"
           },
           {
             "step": "03",
@@ -11540,7 +11540,7 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "mockup": {
-        "frameLabel": "পালস - বিক্রয় গতি",
+        "frameLabel": "Pulse - বিক্রয় গতি",
         "updatedAt": "মঙ্গলবার, ৭:৪২ PM",
         "kpis": [
           {
@@ -11573,7 +11573,7 @@ export const generatedWebsiteMessageOverrides = {
         ],
         "paceLabel": "রাজস্ব গতি",
         "tableHeaders": [
-          "সার্ভার",
+          "ওয়েটার",
           "বিক্রয়",
           "আপসেল %",
           "গড় চেক"
@@ -11601,7 +11601,7 @@ export const generatedWebsiteMessageOverrides = {
         "coachAlert": "জেমস কে. এর আপসেল হার শিফট গড়ের ১৪% নিচে। পরবর্তী ২ টেবিলের জন্য সারা এর সাথে জুড়তে বিবেচনা করুন।"
       },
       "closingTitle": "গতকালের সংখ্যার উপর চলা বন্ধ করুন।",
-      "closingDescription": "৩০ মিনিট। আপনার ডেটা। সান্ডে আসলে দলের জন্য কী পরিবর্তন করবে।",
+      "closingDescription": "৩০ মিনিট। আপনার ডেটা। Sundae আসলে দলের জন্য কী পরিবর্তন আনবে।",
       "pages": {
         "signIn": {
           "metadataTitle": "সাইন ইন - Sundae",
@@ -12126,7 +12126,7 @@ export const generatedWebsiteMessageOverrides = {
       "platform": {
         "eyebrow": "6 ชั้น · ความจริงเดียว",
         "heading": "หกชั้น ความจริงเดียว",
-        "description": "จากการเปลี่ยนแปลงสดไปจนถึงแผนระยะยาว - หนึ่งชุด หกชั้นที่สื่อสารกัน",
+        "description": "จากกะที่กำลังดำเนินอยู่ไปจนถึงแผนระยะยาว - หนึ่งชุด หกชั้นที่สื่อสารกัน",
         "countLabel": "จาก 6",
         "exploreModules": "สำรวจโมดูลทั้งหมด",
         "learnMore": "เรียนรู้เพิ่มเติม",
@@ -12134,7 +12134,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Pulse",
             "subtitle": "การดำเนินงานแบบเรียลไทม์",
-            "description": "การติดตามแบบสด เป้าหมายที่ปรับเปลี่ยนได้ ประสิทธิภาพของเซิร์ฟเวอร์ การรั่วไหล - เปลี่ยนแปลงไปตามกะ",
+            "description": "การติดตามแบบสด เป้าหมายที่ปรับเปลี่ยนได้ ประสิทธิภาพของพนักงานเสิร์ฟ การรั่วไหล - ทีละกะ",
             "href": "/product/pulse"
           },
           {
@@ -12151,7 +12151,7 @@ export const generatedWebsiteMessageOverrides = {
           },
           {
             "name": "Insights",
-            "subtitle": "โมดูลการวิเคราะห์ 30+",
+            "subtitle": "12 โมดูลการวิเคราะห์",
             "description": "รายได้ แรงงาน สินค้าคงคลัง การตลาด การจัดส่ง - แต่ละรายการมีคำแนะนำจาก AI",
             "href": "/insights"
           },
@@ -12219,7 +12219,7 @@ export const generatedWebsiteMessageOverrides = {
             "count": "3 โมดูล"
           },
           {
-            "name": "ข้อมูลเชิงลึกข้าม",
+            "name": "Cross-Intelligence",
             "count": "เครื่องมือวิเคราะห์ความสัมพันธ์"
           }
         ]
@@ -12232,7 +12232,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "ผู้นำด้านการดำเนินงาน",
             "pain": "คุณไม่สามารถอยู่ในทุกร้านอาหารได้ในครั้งเดียว.",
-            "outcome": "การติดตามแบบเรียลไทม์และประสิทธิภาพของเซิร์ฟเวอร์ในทุกสาขา - ดูว่าใครต้องการความช่วยเหลือในขณะนี้.",
+            "outcome": "การติดตามแบบเรียลไทม์และประสิทธิภาพของพนักงานเสิร์ฟในทุกสาขา - ดูว่าใครต้องการความช่วยเหลือในขณะนี้.",
             "attribution": "รูปแบบที่พบในผู้ดำเนินการหลายสถานที่"
           },
           {
@@ -12267,7 +12267,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "02",
             "title": "เข้าใจ",
-            "description": "AI ช่วยค้นหาความผิดปกติและชั้นข้อมูลในสภาพอากาศ, เหตุการณ์, และสัญญาณจากคู่แข่ง."
+            "description": "AI ช่วยค้นหาความผิดปกติและความเปลี่ยนแปลงในสภาพอากาศ, เหตุการณ์, และสัญญาณจากคู่แข่ง."
           },
           {
             "step": "03",
@@ -12894,7 +12894,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "name": "Insights",
             "subtitle": "12 modul analitik",
-            "description": "Pendapatan, buruh, inventori, pemasaran, penghantaran - setiap satu dengan cadangan AI.",
+            "description": "Pendapatan, tenaga kerja, inventori, pemasaran, penghantaran - setiap satu dengan cadangan AI.",
             "href": "/insights"
           },
           {
@@ -12912,7 +12912,7 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "modules": {
-        "eyebrow": "MODUL INTELLIGENSI",
+        "eyebrow": "MODUL INTELIGENS",
         "heading": "12 modul merentasi 12 domain",
         "description": "Setiap dimensi prestasi restoran - dianalisis, dibandingkan, dan boleh dilaksanakan.",
         "categories": [
@@ -12967,7 +12967,7 @@ export const generatedWebsiteMessageOverrides = {
         ]
       },
       "personas": {
-        "eyebrow": "APA YANG KAMI DENGAR DARI OPERATORS",
+        "eyebrow": "APA YANG KAMI DENGAR DARIPADA OPERATOR",
         "heading": "Setiap peranan. Satu platform.",
         "description": "Pasukan yang berbeza, soalan yang berbeza. Satu sumber kebenaran.",
         "roles": [
@@ -12980,7 +12980,7 @@ export const generatedWebsiteMessageOverrides = {
           {
             "title": "Kewangan & FP&A",
             "pain": "3 hari untuk menutup buku? Itu terlalu lama.",
-            "outcome": "Margin masa nyata, kos buruh per shift, varians yang dikaitkan dengan punca akar.",
+            "outcome": "Margin masa nyata, kos tenaga kerja per shift, varians yang dikaitkan dengan punca akar.",
             "attribution": "Corak di kalangan perbualan CFO"
           },
           {
@@ -13004,12 +13004,12 @@ export const generatedWebsiteMessageOverrides = {
           {
             "step": "01",
             "title": "Sambung",
-            "description": "POS, buruh, inventori, penghantaran - kebanyakan integrasi dalam masa kurang dari 5 minit."
+            "description": "POS, tenaga kerja, inventori, penghantaran - kebanyakan integrasi dalam masa kurang dari 5 minit."
           },
           {
             "step": "02",
             "title": "Fahami",
-            "description": "AI mengenal pasti anomali dan lapisan dalam cuaca, acara, dan isyarat pesaing."
+            "description": "AI mengenal pasti anomali dan peralihan dalam cuaca, acara, dan isyarat pesaing."
           },
           {
             "step": "03",
@@ -13034,14 +13034,14 @@ export const generatedWebsiteMessageOverrides = {
             "trendUp": true
           },
           {
-            "label": "Covers",
+            "label": "Tetamu",
             "value": "287",
             "trend": "+12 vs pelan",
             "trendUp": true,
             "color": "#22C55E"
           },
           {
-            "label": "Semakan Avg",
+            "label": "Purata Bil",
             "value": "$49.50",
             "trend": "-2.1%",
             "trendUp": false,
@@ -13060,7 +13060,7 @@ export const generatedWebsiteMessageOverrides = {
           "Pelayan",
           "Jualan",
           "% Upsell",
-          "Semakan Avg"
+          "Purata Bil"
         ],
         "tableRows": [
           [
