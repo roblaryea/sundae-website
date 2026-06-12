@@ -3895,7 +3895,7 @@ export const generatedLocalCopy = {
             "icon": "forecasting"
           },
           {
-            "name": "Sundae 코치",
+            "name": "Sundae Coach",
             "description": "판매, 누수 및 흐름에 대한 근무 수준 코칭 신호",
             "icon": "intelligence"
           },
@@ -4016,7 +4016,7 @@ export const generatedLocalCopy = {
       "cta": {
         "title": "어제의 숫자를 관리하는 것을 중단하세요",
         "description": "실제 데이터를 통해 실시간 운영 인텔리전스가 어떻게 보이는지 확인하세요.",
-        "primary": "Core Tiers 탐색하기",
+        "primary": "Core 티어 탐색하기",
         "secondary": "데모 예약하기"
       }
     },
@@ -4172,7 +4172,7 @@ export const generatedLocalCopy = {
             "icon": "speed"
           },
           {
-            "name": "Inteligensi Menu",
+            "name": "Intelijen Menu",
             "description": "Katalog item, matriks klasifikasi (Bintang/Pekerja Keras/Teka-teki/Anjing)",
             "icon": "insights"
           },
@@ -4182,7 +4182,7 @@ export const generatedLocalCopy = {
             "icon": "forecasting"
           },
           {
-            "name": "Pelatih Sundae",
+            "name": "Sundae Coach",
             "description": "Sinyal pelatihan tingkat shift untuk Penjualan, Kebocoran, dan Aliran",
             "icon": "intelligence"
           },
@@ -4260,7 +4260,7 @@ export const generatedLocalCopy = {
           },
           {
             "name": "Intelijen Reservasi",
-            "description": "Polanya pemesanan waktu nyata, optimasi meja",
+            "description": "Pola pemesanan waktu nyata, optimasi meja",
             "icon": "operators"
           }
         ],
@@ -4469,7 +4469,7 @@ export const generatedLocalCopy = {
             "icon": "forecasting"
           },
           {
-            "name": "Huấn luyện Sundae",
+            "name": "Sundae Coach",
             "description": "Tín hiệu huấn luyện theo ca cho Doanh thu, Rò rỉ và Dòng chảy",
             "icon": "intelligence"
           },
@@ -4626,9 +4626,9 @@ export const generatedLocalCopy = {
         ]
       },
       "tiers": {
-        "eyebrow": "Alegeți nivelul dvs.",
+        "eyebrow": "Alege-ți nivelul",
         "heading": "Trei niveluri pentru orice scară",
-        "description": "De la operațiuni în creștere la întreprinderi globale. Alegeți-vă viteza.",
+        "description": "De la operațiuni în creștere la întreprinderi globale. Alege-ți viteza.",
         "bestForLabel": "Cel mai bine pentru:",
         "viewPrefix": "Vezi",
         "items": [
@@ -4737,7 +4737,7 @@ export const generatedLocalCopy = {
           },
           {
             "name": "Monitorizarea Pierderilor",
-            "description": "Monitorizarea în timp real a anularilor, compensațiilor și discounturilor pe schimb",
+            "description": "Monitorizarea în timp real a anulărilor, compensațiilor și discounturilor pe schimb",
             "icon": "cost"
           },
           {
@@ -4747,7 +4747,7 @@ export const generatedLocalCopy = {
           },
           {
             "name": "Inteligența Meniului",
-            "description": "Catalog de articole, matrice de clasificare (Stele/Căruțe/Puzzle-uri/Câini)",
+            "description": "Catalog de articole, matrice de clasificare (Stele/Cai de povară/Puzzle-uri/Câini)",
             "icon": "insights"
           },
           {
@@ -4809,8 +4809,8 @@ export const generatedLocalCopy = {
         ]
       },
       "modules": {
-        "heading": "Adăugați Module pentru Inteligență Specializată",
-        "description": "Îmbogățiți Core cu module concentrate pentru provocările dumneavoastră operaționale specifice.",
+        "heading": "Adaugă Module pentru Inteligență Specializată",
+        "description": "Îmbogățește Core cu module concentrate pentru provocările tale operaționale specifice.",
         "items": [
           {
             "name": "Inteligența Forței de Muncă",
@@ -4838,7 +4838,7 @@ export const generatedLocalCopy = {
             "icon": "operators"
           }
         ],
-        "button": "Explorați Toate Modulele"
+        "button": "Explorează Toate Modulele"
       },
       "watchtower": {
         "heading": "Core + Watchtower = Inteligență Completă",
@@ -4914,7 +4914,7 @@ export const generatedLocalCopy = {
       },
       "tiers": {
         "eyebrow": "VÄLJ DIN NIVÅ",
-        "heading": "Tre nivåer för alla skala",
+        "heading": "Tre nivåer för varje skala",
         "description": "Från växande verksamheter till globala företag. Välj din hastighet.",
         "bestForLabel": "Bäst för:",
         "viewPrefix": "Se",
@@ -5137,7 +5137,7 @@ export const generatedLocalCopy = {
         "items": [
           {
             "q": "Vad är skillnaden mellan Core Lite och Core Pro?",
-            "a": "Core Lite: 4-timmars uppdatering, 600 baspoäng, 30 instrumentpaneler, en POS. Core Pro: 2-timmars uppdatering, 1 200 baspoäng, 75 instrumentpaneler, stöd för flera POS."
+            "a": "Core Lite: 4-timmars uppdatering, 600 grundkrediter, 30 instrumentpaneler, en POS. Core Pro: 2-timmars uppdatering, 1 200 grundkrediter, 75 instrumentpaneler, stöd för flera POS."
           },
           {
             "q": "Kan jag uppgradera från Report till Core?",
@@ -5172,7 +5172,7 @@ export const generatedLocalCopy = {
       "hero": {
         "badge": "Sundae Core",
         "description": "আপনার POS, শ্রম, ইনভেন্টরি এবং গুরুত্বপূর্ণ প্রতিটি সিস্টেমের সাথে সংযুক্ত। Core প্রতি ২-৪ ঘণ্টায় রিফ্রেশ হয় যাতে আপনি শিফটের সময় কাজ করতে পারেন - ক্ষতি হওয়ার পরে নয়।",
-        "primary": "Core Tiers অন্বেষণ করুন",
+        "primary": "Core স্তর অন্বেষণ করুন",
         "secondary": "একটি ডেমো বুক করুন"
       },
       "realTime": {
@@ -5295,8 +5295,8 @@ export const generatedLocalCopy = {
         ]
       },
       "pulse": {
-        "badge": "কোরের সাথে অন্তর্ভুক্ত",
-        "heading": "Pulse: Your Shift Command Center",
+        "badge": "Core এর সাথে অন্তর্ভুক্ত",
+        "heading": "Pulse: আপনার শিফট কমান্ড সেন্টার",
         "description": "ঘটনা ঘটার সাথে সাথে অস্বাভাবিকতা দেখুন। আপনার দলের প্রশিক্ষণ দিন বাস্তব সময়ে। শিফট শেষ হওয়ার আগে ফলাফল নিশ্চিত করুন।",
         "features": [
           {
@@ -5384,7 +5384,7 @@ export const generatedLocalCopy = {
       },
       "modules": {
         "heading": "বিশেষায়িত বুদ্ধিমত্তার জন্য মডিউল যোগ করুন",
-        "description": "আপনার নির্দিষ্ট অপারেশনাল চ্যালেঞ্জের জন্য কেন্দ্রীয়কে ফোকাসড মডিউল দিয়ে গভীর করুন।",
+        "description": "আপনার নির্দিষ্ট অপারেশনাল চ্যালেঞ্জের জন্য Core-কে ফোকাসড মডিউল দিয়ে আরও গভীর করুন।",
         "items": [
           {
             "name": "শ্রম বুদ্ধিমত্তা",
@@ -5451,7 +5451,7 @@ export const generatedLocalCopy = {
       "cta": {
         "title": "গতকালের সংখ্যা পরিচালনা করা বন্ধ করুন",
         "description": "আপনার প্রকৃত ডেটার সাথে বাস্তব-সময়ের অপারেশনাল বুদ্ধিমত্তা কেমন দেখায় তা দেখুন।",
-        "primary": "Core Tiers অন্বেষণ করুন",
+        "primary": "Core স্তর অন্বেষণ করুন",
         "secondary": "একটি ডেমো বুক করুন"
       }
     },
@@ -5459,7 +5459,7 @@ export const generatedLocalCopy = {
       "hero": {
         "badge": "Sundae Core",
         "description": "เชื่อมต่อกับ POS, แรงงาน, สินค้าคงคลัง, และทุกระบบที่สำคัญ Core จะรีเฟรชทุก 2-4 ชั่วโมง เพื่อให้คุณสามารถดำเนินการได้ในระหว่างการทำงาน - ไม่ใช่หลังจากที่เกิดความเสียหายแล้ว.",
-        "primary": "สำรวจ Core Tiers",
+        "primary": "สำรวจระดับ Core",
         "secondary": "จองการสาธิต"
       },
       "realTime": {
@@ -5583,7 +5583,7 @@ export const generatedLocalCopy = {
       },
       "pulse": {
         "badge": "รวมอยู่ใน Core",
-        "heading": "Pulse: ศูนย์ควบคุมการเปลี่ยนกะของคุณ",
+        "heading": "Pulse: ศูนย์ควบคุมกะของคุณ",
         "description": "ดูความผิดปกติในทันทีที่เกิดขึ้น สอนทีมของคุณแบบเรียลไทม์ ยืนยันผลลัพธ์ก่อนสิ้นสุดกะ",
         "features": [
           {
@@ -5737,8 +5737,8 @@ export const generatedLocalCopy = {
       },
       "cta": {
         "title": "หยุดจัดการตัวเลขเมื่อวานนี้",
-        "description": "ดูว่าปัญญาประดิษฐ์ในการดำเนินงานแบบเรียลไทม์เป็นอย่างไรด้วยข้อมูลจริงของคุณ",
-        "primary": "สำรวจ Core Tiers",
+        "description": "ดูว่าข้อมูลเชิงลึกในการดำเนินงานแบบเรียลไทม์เป็นอย่างไรด้วยข้อมูลจริงของคุณ",
+        "primary": "สำรวจระดับ Core",
         "secondary": "จองการสาธิต"
       }
     },
@@ -5783,7 +5783,7 @@ export const generatedLocalCopy = {
           {
             "name": "Core Lite",
             "badge": "Operasi yang Berkembang",
-            "subtitle": "Intelligence Masa Nyata untuk 1-29 Lokasi",
+            "subtitle": "Kecerdasan Masa Nyata untuk 1-29 Lokasi",
             "description": "Untuk kumpulan restoran yang berkembang dari operasi lokasi tunggal ke pelbagai lokasi. Kitaran penyegaran 4 jam dan integrasi POS tunggal.",
             "features": [
               "Penyegaran 4 jam (6x sehari)",
@@ -5800,7 +5800,7 @@ export const generatedLocalCopy = {
             "name": "Core Pro",
             "badge": "Paling Popular",
             "subtitle": "Dioptimumkan untuk Portfolio 30-100 Lokasi",
-            "description": "Untuk pengendali pelbagai lokasi yang sudah established yang memerlukan kitaran penyegaran yang lebih cepat dan ramalan yang lebih maju merentasi jenama.",
+            "description": "Untuk pengendali pelbagai lokasi yang sudah mantap yang memerlukan kitaran penyegaran yang lebih cepat dan ramalan yang lebih maju merentasi jenama.",
             "features": [
               "Penyegaran 2 jam (12x sehari)",
               "1,200 kredit asas + 240/lokasi",
@@ -5894,7 +5894,7 @@ export const generatedLocalCopy = {
             "icon": "speed"
           },
           {
-            "name": "Inteligens Menu",
+            "name": "Kecerdasan Menu",
             "description": "Katalog item, matriks klasifikasi (Bintang/Plowhorses/Puzzles/Anjing)",
             "icon": "insights"
           },

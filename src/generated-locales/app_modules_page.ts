@@ -3526,31 +3526,31 @@ export const generatedLocalCopy = {
         }
       ],
       "selectionTitle": "Modul Apa yang Anda Butuhkan?",
-      "selectionDescription": "Mulailah dengan titik sakit terbesar Anda",
+      "selectionDescription": "Mulailah dengan masalah terbesar Anda",
       "selectionCards": [
         {
           "pain": "Biaya Tenaga Kerja Tinggi?",
-          "solution": "Intelligence Tenaga Kerja",
+          "solution": "Inteligensi Tenaga Kerja",
           "benefit": "Kurangi lembur, optimalkan jadwal"
         },
         {
           "pain": "Biaya Makanan atau Pemborosan Tinggi?",
-          "solution": "Intelligence Inventaris",
+          "solution": "Inteligensi Inventaris",
           "benefit": "Lacak pemborosan, optimalkan level par"
         },
         {
           "pain": "Hubungan Vendor yang Rumit?",
-          "solution": "Intelligence Pembelian",
+          "solution": "Inteligensi Pembelian",
           "benefit": "Bandingkan harga, kelola kontrak"
         },
         {
           "pain": "Pengeluaran Pemasaran yang Besar?",
-          "solution": "Intelligence Pemasaran",
+          "solution": "Inteligensi Pemasaran",
           "benefit": "Lacak ROI, kurangi CAC"
         },
         {
           "pain": "Bisnis Berbasis Reservasi?",
-          "solution": "Intelligence Reservasi",
+          "solution": "Inteligensi Reservasi",
           "benefit": "Kurangi ketidakhadiran, optimalkan meja"
         }
       ],
@@ -3574,7 +3574,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Thêm những gì bạn cần",
-          "description": "Bắt đầu với điểm đau lớn nhất của bạn. Thêm mô-đun khi ưu tiên thay đổi. Không có gói bắt buộc."
+          "description": "Bắt đầu với vấn đề lớn nhất của bạn. Thêm mô-đun khi ưu tiên thay đổi. Không có gói bắt buộc."
         },
         {
           "title": "Tích hợp với Core",
@@ -3585,7 +3585,7 @@ export const generatedLocalCopy = {
       "chooseStack": "Chọn Bộ Công Cụ Trí Tuệ Của Bạn",
       "chooseStackDescription": "Thêm một mô-đun hoặc tất cả năm mô-đun. Xây dựng trí tuệ mà hoạt động của bạn cần.",
       "coreCapabilities": "Các khả năng cốt lõi:",
-      "roi": "Tỷ lệ hoàn vốn",
+      "roi": "ROI",
       "bestFor": "Tốt nhất cho:",
       "faqTitle": "Câu Hỏi Thường Gặp",
       "faqDescription": "Câu hỏi thường gặp về Các mô-đun, nâng cấp, giá cả và triển khai.",
@@ -3670,7 +3670,7 @@ export const generatedLocalCopy = {
             "Tối ưu hóa quản lý danh sách chờ",
             "Đề xuất giá động"
           ],
-          "roi": "ROI điển hình: Tăng 10-15% doanh thu",
+          "roi": "ROI điển hình: Tăng 10-15% lượng khách",
           "bestFor": "Nhà hàng dựa vào đặt chỗ và ẩm thực cao cấp",
           "color": "from-[#FF6B5B] to-[#E03E48]"
         }
@@ -3780,7 +3780,7 @@ export const generatedLocalCopy = {
         }
       ],
       "selectionTitle": "Bạn Cần Những Mô-đun Nào?",
-      "selectionDescription": "Bắt đầu với nỗi đau lớn nhất của bạn",
+      "selectionDescription": "Bắt đầu với vấn đề lớn nhất của bạn",
       "selectionCards": [
         {
           "pain": "Chi phí lao động cao?",
@@ -3852,7 +3852,7 @@ export const generatedLocalCopy = {
           "name": "Inteligența Forței de Muncă",
           "icon": "benchmarking",
           "headline": "Optimizează programarea, reduce orele suplimentare și prezice cererea.",
-          "description": "Folosește ghiduri de programare, vizibilitate asupra orelor suplimentare și prognoze de cerere pentru a gestiona forța de muncă cu mai puțin incertitudine.",
+          "description": "Folosește ghiduri de programare, vizibilitate asupra orelor suplimentare și prognoze de cerere pentru a gestiona forța de muncă cu mai puțină incertitudine.",
           "capabilities": [
             "Programări recomandate de AI",
             "Urmărirea costurilor forței de muncă în timp real",
@@ -3881,7 +3881,7 @@ export const generatedLocalCopy = {
           "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
-          "name": "Intelligence de Achiziție",
+          "name": "Inteligența Achizițiilor",
           "icon": "marketing",
           "headline": "Compară furnizorii, optimizează prețurile și gestionează contractele.",
           "description": "Transformă achizițiile din comenzi reactive în surse strategice cu compararea furnizorilor și optimizarea prețurilor.",
@@ -3913,7 +3913,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         },
         {
-          "name": "Intelligence pentru Rezervări",
+          "name": "Inteligența Rezervărilor",
           "icon": "operators",
           "headline": "Optimizează mesele, prezice absențele și prognozează cererea.",
           "description": "Transformă rezervările dintr-un sistem de rezervări într-un instrument de optimizare a veniturilor cu analize predictive.",
@@ -3924,7 +3924,7 @@ export const generatedLocalCopy = {
             "Optimizarea gestionării listei de așteptare",
             "Sugestii pentru prețuri dinamice"
           ],
-          "roi": "ROI tipic: 10-15% creștere a veniturilor",
+          "roi": "ROI tipic: 10-15% creștere a numărului de clienți",
           "bestFor": "Restaurante axate pe rezervări și gastronomie de lux",
           "color": "from-[#FF6B5B] to-[#E03E48]"
         }
@@ -3997,7 +3997,7 @@ export const generatedLocalCopy = {
           "count": "2 module"
         },
         {
-          "name": "Rezerve",
+          "name": "Rezervări",
           "count": "2 module"
         },
         {
@@ -4033,7 +4033,7 @@ export const generatedLocalCopy = {
           "description": "Generare fără întreruperi a comenzilor de achiziție din inventar"
         }
       ],
-      "selectionTitle": "Ce module aveți nevoie?",
+      "selectionTitle": "De ce module aveți nevoie?",
       "selectionDescription": "Începe cu cea mai mare problemă",
       "selectionCards": [
         {
@@ -4093,8 +4093,8 @@ export const generatedLocalCopy = {
       "chooseStack": "인텔리전스 스택 선택",
       "chooseStackDescription": "모듈 하나 또는 다섯 개 모두 추가하세요. 귀하의 운영에 필요한 인텔리전스를 구축하세요.",
       "coreCapabilities": "핵심 기능:",
-      "roi": "투자 수익률",
-      "bestFor": "최고의 용도:",
+      "roi": "ROI",
+      "bestFor": "적합 대상:",
       "faqTitle": "자주 묻는 질문",
       "faqDescription": "모듈, 업그레이드, 가격 및 구현에 대한 일반적인 질문.",
       "ctaTitle": "전문 지능을 추가할 준비가 되셨나요?",
@@ -4103,7 +4103,7 @@ export const generatedLocalCopy = {
       "contactSales": "영업 문의",
       "modules": [
         {
-          "name": "노동 인텔리전스",
+          "name": "인력 인텔리전스",
           "icon": "benchmarking",
           "headline": "일정을 최적화하고, 초과 근무를 줄이며, 수요를 예측하세요.",
           "description": "일정 안내, 초과 근무 가시성 및 수요 예측을 활용하여 노동을 더 적은 추측으로 운영하세요.",
@@ -4275,11 +4275,11 @@ export const generatedLocalCopy = {
       "crossModuleDescription": "모듈은 데이터를 공유하고 통합된 인사이트를 제공합니다.",
       "crossModuleCards": [
         {
-          "title": "노동 + 재고",
-          "description": "준비 노동과 폐기 패턴 상관관계 분석"
+          "title": "인력 + 재고",
+          "description": "준비 인력과 폐기 패턴 상관관계 분석"
         },
         {
-          "title": "노동 + 마케팅",
+          "title": "인력 + 마케팅",
           "description": "캠페인에 대한 인력 필요 예측"
         },
         {
@@ -4336,7 +4336,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Lägg till det du behöver",
-          "description": "Börja med din största smärta. Lägg till moduler när prioriteringar förändras. Inga tvingande paket."
+          "description": "Börja med din största smärtpunkt. Lägg till moduler när prioriteringar förändras. Inga tvingande paket."
         },
         {
           "title": "Integrerad med Core",
@@ -4421,7 +4421,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         },
         {
-          "name": "Reservations Intelligence",
+          "name": "Bokningsintelligens",
           "icon": "operators",
           "headline": "Optimera bord, förutsäga uteblivna gäster och prognostisera efterfrågan.",
           "description": "Transformera reservationer från ett bokningssystem till ett verktyg för intäktsoptimering med hjälp av prediktiv analys.",
@@ -4432,8 +4432,8 @@ export const generatedLocalCopy = {
             "Optimering av väntelistor",
             "Förslag på dynamisk prissättning"
           ],
-          "roi": "Typisk ROI: 10-15% ökning av täckning",
-          "bestFor": "Reservatdrivna restauranger och finare matställen",
+          "roi": "Typisk ROI: 10-15% fler gäster",
+          "bestFor": "Bokningsdrivna restauranger och finare matställen",
           "color": "from-[#FF6B5B] to-[#E03E48]"
         }
       ],
@@ -4542,7 +4542,7 @@ export const generatedLocalCopy = {
         }
       ],
       "selectionTitle": "Vilka moduler behöver du?",
-      "selectionDescription": "Börja med din största smärta",
+      "selectionDescription": "Börja med din största smärtpunkt",
       "selectionCards": [
         {
           "pain": "Höga arbetskostnader?",
@@ -4601,7 +4601,7 @@ export const generatedLocalCopy = {
       "chooseStack": "เลือกชุดข้อมูลอัจฉริยะของคุณ",
       "chooseStackDescription": "เพิ่มโมดูลหนึ่งตัวหรือทั้งหมดห้าตัว สร้างความฉลาดที่การดำเนินงานของคุณต้องการ.",
       "coreCapabilities": "ความสามารถหลัก:",
-      "roi": "ผลตอบแทนจากการลงทุน",
+      "roi": "ROI",
       "bestFor": "เหมาะสำหรับ:",
       "faqTitle": "คำถามที่พบบ่อย",
       "faqDescription": "คำถามทั่วไปเกี่ยวกับโมดูล การอัปเกรด ราคา และการนำไปใช้",
@@ -4627,7 +4627,7 @@ export const generatedLocalCopy = {
           "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
-          "name": "ความฉลาดในการจัดการสินค้าคงคลัง",
+          "name": "ปัญญาสินค้าคงคลัง",
           "icon": "insights",
           "headline": "ติดตามการสูญเสีย, ปรับระดับพาร์อัตโนมัติ, และเพิ่มประสิทธิภาพต้นทุน.",
           "description": "ติดตามการสูญเสีย, ปรับระดับพาร์, และลดต้นทุนสูตรด้วยมุมมองการเคลื่อนไหวของสินค้าคงคลังที่ชัดเจนในแต่ละวัน.",
@@ -4659,7 +4659,7 @@ export const generatedLocalCopy = {
           "color": "from-green-500 to-green-600"
         },
         {
-          "name": "การวิเคราะห์การตลาด",
+          "name": "ปัญญาการตลาด",
           "icon": "growth",
           "headline": "ติดตาม ROI ของแคมเปญ ปรับปรุงการใช้จ่าย และเข้าใจการอ้างอิง.",
           "description": "เปลี่ยนการตลาดจากศูนย์ต้นทุนให้เป็นตัวขับเคลื่อนการเติบโตที่วัดผลได้ด้วยการติดตามแคมเปญและการอ้างอิงหลายช่องทาง.",
@@ -4675,7 +4675,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         },
         {
-          "name": "ข้อมูลเชิงลึกการจอง",
+          "name": "ปัญญาการจอง",
           "icon": "operators",
           "headline": "ปรับแต่งโต๊ะ, คาดการณ์การไม่มา, และคาดการณ์ความต้องการ.",
           "description": "เปลี่ยนการจองจากระบบการจองให้เป็นเครื่องมือเพิ่มประสิทธิภาพรายได้ด้วยการวิเคราะห์เชิงพยากรณ์.",
@@ -4686,7 +4686,7 @@ export const generatedLocalCopy = {
             "การจัดการรายชื่อรออย่างมีประสิทธิภาพ",
             "ข้อเสนอราคาที่ปรับเปลี่ยนได้"
           ],
-          "roi": "ROI ปกติ: การเพิ่มขึ้นของยอดขาย 10-15%",
+          "roi": "ROI ปกติ: ลูกค้าเพิ่มขึ้น 10-15%",
           "bestFor": "ร้านอาหารที่ขับเคลื่อนด้วยการจองและร้านอาหารชั้นดี",
           "color": "from-[#FF6B5B] to-[#E03E48]"
         }
@@ -4816,7 +4816,7 @@ export const generatedLocalCopy = {
         {
           "pain": "ใช้จ่ายการตลาดมาก?",
           "solution": "ปัญญาการตลาด",
-          "benefit": "ติดตามผลตอบแทนจากการลงทุน, ลดค่าใช้จ่ายในการได้ลูกค้า"
+          "benefit": "ติดตาม ROI, ลด CAC"
         },
         {
           "pain": "ธุรกิจที่ขับเคลื่อนด้วยการจอง?",
@@ -4844,7 +4844,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Tambah Apa Yang Anda Perlukan",
-          "description": "Mulakan dengan titik kesakitan terbesar anda. Tambah modul apabila keutamaan berubah. Tiada pakej yang dipaksa."
+          "description": "Mulakan dengan masalah terbesar anda. Tambah modul apabila keutamaan berubah. Tiada pakej yang dipaksa."
         },
         {
           "title": "Terintegrasi Dengan Core",
@@ -4865,7 +4865,7 @@ export const generatedLocalCopy = {
       "contactSales": "Hubungi Jualan",
       "modules": [
         {
-          "name": "Intelligence Tenaga Kerja",
+          "name": "Inteligensi Tenaga Kerja",
           "icon": "benchmarking",
           "headline": "Optimumkan penjadualan, kurangkan kerja lebih masa, dan ramalkan permintaan.",
           "description": "Gunakan panduan penjadualan, keterlihatan kerja lebih masa, dan ramalan permintaan untuk mengurus tenaga kerja dengan kurang tekaan.",
@@ -4897,7 +4897,7 @@ export const generatedLocalCopy = {
           "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
-          "name": "Intelligence Pembelian",
+          "name": "Inteligensi Pembelian",
           "icon": "marketing",
           "headline": "Bandingkan vendor, optimakan harga, dan urus kontrak.",
           "description": "Transformasikan pembelian dari pesanan reaktif kepada sumber strategik dengan perbandingan vendor dan optimasi harga.",
@@ -4913,7 +4913,7 @@ export const generatedLocalCopy = {
           "color": "from-green-500 to-green-600"
         },
         {
-          "name": "Intelligence Pemasaran",
+          "name": "Inteligensi Pemasaran",
           "icon": "growth",
           "headline": "Jejaki ROI kempen, optimakan perbelanjaan, dan fahami atribusi.",
           "description": "Ubah pemasaran dari pusat kos kepada pemacu pertumbuhan yang boleh diukur dengan penjejakan kempen dan atribusi pelbagai saluran.",
@@ -4929,7 +4929,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         },
         {
-          "name": "Intelligence Tempahan",
+          "name": "Inteligensi Tempahan",
           "icon": "operators",
           "headline": "Optimumkan meja, ramal ketidakhadiran, dan ramal permintaan.",
           "description": "Tukar tempahan dari sistem tempahan menjadi alat pengoptimuman pendapatan dengan analitik ramalan.",
@@ -4940,7 +4940,7 @@ export const generatedLocalCopy = {
             "Pengurusan senarai menunggu yang optimum",
             "Cadangan harga dinamik"
           ],
-          "roi": "ROI Tipikal: 10-15% peningkatan hasil",
+          "roi": "ROI Tipikal: 10-15% peningkatan jumlah tetamu",
           "bestFor": "Restoran yang bergantung kepada tempahan dan makan malam mewah",
           "color": "from-[#FF6B5B] to-[#E03E48]"
         }
@@ -5050,37 +5050,37 @@ export const generatedLocalCopy = {
         }
       ],
       "selectionTitle": "Modul Apa Yang Anda Perlukan?",
-      "selectionDescription": "Mulakan dengan titik sakit terbesar anda",
+      "selectionDescription": "Mulakan dengan masalah terbesar anda",
       "selectionCards": [
         {
-          "pain": "Kos Buruh Tinggi?",
-          "solution": "Intelligence Buruh",
+          "pain": "Kos Tenaga Kerja Tinggi?",
+          "solution": "Inteligensi Tenaga Kerja",
           "benefit": "Kurangkan kerja lebih masa, optimakan jadual"
         },
         {
           "pain": "Kos Makanan Tinggi atau Pembaziran?",
-          "solution": "Intelligence Inventori",
+          "solution": "Inteligensi Inventori",
           "benefit": "Jejaki pembaziran, optimakan tahap par"
         },
         {
           "pain": "Hubungan Vendor yang Kompleks?",
-          "solution": "Intelligence Pembelian",
+          "solution": "Inteligensi Pembelian",
           "benefit": "Bandingkan harga, urus kontrak"
         },
         {
           "pain": "Perbelanjaan Pemasaran Tinggi?",
-          "solution": "Intelligence Pemasaran",
+          "solution": "Inteligensi Pemasaran",
           "benefit": "Jejaki ROI, kurangkan CAC"
         },
         {
           "pain": "Perniagaan Berasaskan Tempahan?",
-          "solution": "Intelligence Tempahan",
+          "solution": "Inteligensi Tempahan",
           "benefit": "Kurangkan ketidakhadiran, optimakan meja"
         }
       ],
       "wantItAll": "Mahukan Segalanya?",
       "fullSuite": "Suite Modul Penuh",
-      "fullSuiteDescription": "Intelligence operasi lengkap merentasi semua bidang"
+      "fullSuiteDescription": "Inteligensi operasi lengkap merentasi semua bidang"
     },
     "bn": {
       "badge": "বিশেষায়িত মডিউল",
@@ -5089,7 +5089,7 @@ export const generatedLocalCopy = {
       "mixAndMatch": "আপনার অগ্রাধিকার অনুযায়ী মিশ্রণ এবং মেলান করুন।",
       "exploreAllModules": "সমস্ত মডিউল অন্বেষণ করুন",
       "calculateModuleRoi": "মডিউল ROI গণনা করুন",
-      "whatAreModules": "What Are Sundae Modules?",
+      "whatAreModules": "Sundae মডিউল কী?",
       "whatAreModulesDescription": "মডিউলগুলি বিশেষায়িত বুদ্ধিমত্তা অ্যাড-অন যা নির্দিষ্ট অপারেশনাল এলাকায় আপনার অন্তর্দৃষ্টি গভীর করে।",
       "pillars": [
         {
@@ -5109,8 +5109,8 @@ export const generatedLocalCopy = {
       "chooseStack": "আপনার ইন্টেলিজেন্স স্ট্যাক নির্বাচন করুন",
       "chooseStackDescription": "একটি মডিউল বা সব পাঁচটি যুক্ত করুন। আপনার অপারেশনের জন্য প্রয়োজনীয় বুদ্ধিমত্তা তৈরি করুন।",
       "coreCapabilities": "মূল ক্ষমতাসমূহ:",
-      "roi": "আরওআই",
-      "bestFor": "সেরা জন্য:",
+      "roi": "ROI",
+      "bestFor": "এর জন্য সেরা:",
       "faqTitle": "প্রায়শই জিজ্ঞাসিত প্রশ্নাবলী",
       "faqDescription": "মডিউল, আপগ্রেড, মূল্য নির্ধারণ এবং বাস্তবায়নের সম্পর্কে সাধারণ প্রশ্ন।",
       "ctaTitle": "বিশেষজ্ঞ বুদ্ধিমত্তা যোগ করতে প্রস্তুত?",
@@ -5194,7 +5194,7 @@ export const generatedLocalCopy = {
             "অপ্টিমাইজড ওয়েটলিস্ট ব্যবস্থাপনা",
             "ডাইনামিক মূল্য নির্ধারণের সুপারিশ"
           ],
-          "roi": "সাধারণ ROI: ১০-১৫% কভার বৃদ্ধি",
+          "roi": "সাধারণ ROI: ১০-১৫% বেশি অতিথি",
           "bestFor": "রিজার্ভেশন-চালিত রেস্তোরাঁ এবং ফাইন ডাইনিং",
           "color": "from-[#FF6B5B] to-[#E03E48]"
         }
@@ -5484,7 +5484,7 @@ export const generatedLocalCopy = {
       "exampleLines": [
         "• 3 स्थान: संगठन लाइसेंस सभी को कवर करता है",
         "• 12 स्थान: संगठन लाइसेंस + 7 अतिरिक्त स्थान",
-        "• विभिन्न स्थानों पर मिलाएं और मिलाएं"
+        "• विभिन्न स्थानों पर मिलाएं और चुनें"
       ],
       "refreshLabels": [
         "4-घंटे का रिफ्रेश विशेष परिचालन बुद्धिमत्ता के साथ",
@@ -5492,8 +5492,8 @@ export const generatedLocalCopy = {
         "अनलिमिटेड विशेष बुद्धिमत्ता के साथ कस्टम रिफ्रेश"
       ],
       "stackLabels": [
-        "Core Lite + Modules",
-        "Core Pro + Modules",
+        "Core Lite + मॉड्यूल",
+        "Core Pro + मॉड्यूल",
         "एंटरप्राइज + मॉड्यूल"
       ],
       "faqButtonLabel": "अक्सर पूछे जाने वाले प्रश्न"
@@ -5632,9 +5632,9 @@ export const generatedLocalCopy = {
         "Làm mới tùy chỉnh với trí tuệ chuyên biệt không giới hạn"
       ],
       "stackLabels": [
-        "Core Lite + Modules",
-        "Core Pro + Modules",
-        "Enterprise + Modules"
+        "Core Lite + Mô-đun",
+        "Core Pro + Mô-đun",
+        "Enterprise + Mô-đun"
       ],
       "faqButtonLabel": "Câu hỏi thường gặp"
     },
@@ -5683,7 +5683,7 @@ export const generatedLocalCopy = {
       "examplesLabel": "Exempel:",
       "exampleLines": [
         "• 3 platser: Organisationslicensen täcker alla",
-        "• 12 platser: Org-licens + 7 tilläggsplats",
+        "• 12 platser: Org-licens + 7 tilläggsplatser",
         "• Blanda och matcha på olika platser"
       ],
       "refreshLabels": [
@@ -5752,8 +5752,8 @@ export const generatedLocalCopy = {
         "কাস্টম রিফ্রেশ অসীম বিশেষায়িত ইন্টেলিজেন্স সহ"
       ],
       "stackLabels": [
-        "Core Lite + Modules",
-        "Core Pro + Modules",
+        "Core Lite + মডিউল",
+        "Core Pro + মডিউল",
         "এন্টারপ্রাইজ + মডিউল"
       ],
       "faqButtonLabel": "প্রায়শই জিজ্ঞাসিত প্রশ্ন"

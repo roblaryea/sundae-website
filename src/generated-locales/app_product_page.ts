@@ -155,7 +155,7 @@ export const generatedLocalCopy = {
     "ur": {
       "heroBadge": "Sundae پلیٹ فارم",
       "heroTitle": "500 ڈیٹا ماڈلز۔ 12 ڈومینز۔ ایک سچائی۔",
-      "heroDescription": "چھ انٹیلی جنس پرتیں جو بکھرے ہوئے ریستوراں کے ڈیٹا کو ان فیصلوں میں تبدیل کرتی ہیں جو مرکب ہیں - شفٹ بہ شفٹ، آؤٹ لیٹ بہ دکان۔",
+      "heroDescription": "چھ انٹیلی جنس پرتیں جو بکھرے ہوئے ریستوراں ڈیٹا کو ایسے فیصلوں میں بدل دیتی ہیں جو جمع ہوتے جاتے ہیں - شفٹ بہ شفٹ، آؤٹ لیٹ بہ آؤٹ لیٹ۔",
       "heroPrimary": "Report Lite سے شروع کریں",
       "heroSecondary": "ایک ڈیمو بک کرو",
       "freeLabel": "ہمیشہ کے لیے مفت",
@@ -178,7 +178,7 @@ export const generatedLocalCopy = {
       "ctaDescription": "تاریخی بینچ مارکنگ بغیر کسی قیمت کے۔ ریئل ٹائم آپریشنز جب آپ کو کنارے کی ضرورت ہو۔"
     },
     "it": {
-      "heroBadge": "The Sundae Platform",
+      "heroBadge": "La piattaforma Sundae",
       "heroTitle": "500 modelli di dati. 12 domini. Una verità.",
       "heroDescription": "Sei livelli di intelligence che trasformano i dati frammentati dei ristoranti in decisioni che si combinano, turno dopo turno, punto vendita dopo punto vendita.",
       "heroPrimary": "Inizia con Report Lite",
@@ -228,7 +228,7 @@ export const generatedLocalCopy = {
       "ctaDescription": "Hiçbir ücret ödemeden tarihsel kıyaslama. Üstünlüğe ihtiyaç duyduğunuzda gerçek zamanlı operasyonlar."
     },
     "pl": {
-      "heroBadge": "The Sundae Platform",
+      "heroBadge": "Platforma Sundae",
       "heroTitle": "500 modeli danych. 12 domen. Jedna prawda.",
       "heroDescription": "Sześć warstw inteligencji, które przekształcają rozproszone dane restauracji w decyzje, które się kumulują - zmiana po zmianie, lokal po lokalu.",
       "heroPrimary": "Zacznij od Report Lite",
@@ -303,7 +303,7 @@ export const generatedLocalCopy = {
       "ctaDescription": "历史基准对比，完全免费。需要抢占优势时，启用实时运营。"
     },
     "ko": {
-      "heroBadge": "The Sundae Platform",
+      "heroBadge": "Sundae 플랫폼",
       "heroTitle": "500 데이터 모델. 12개의 도메인. 하나의 진실.",
       "heroDescription": "파편화된 레스토랑 데이터를 누적되는 의사 결정으로 바꿔주는 6개의 인텔리전스 계층 - 교대 근무 단위로, 매장 단위로.",
       "heroPrimary": "Report Lite로 시작하기",
@@ -478,7 +478,7 @@ export const generatedLocalCopy = {
       "ctaDescription": "কোনো খরচ ছাড়াই ঐতিহাসিক বেঞ্চমার্কিং। আপনার প্রান্তের প্রয়োজন হলে রিয়েল-টাইম অপারেশন।"
     },
     "th": {
-      "heroBadge": "แพลตฟอร์มSundae",
+      "heroBadge": "แพลตฟอร์ม Sundae",
       "heroTitle": "500 โมเดลข้อมูล 12 โดเมน ความจริงประการหนึ่ง",
       "heroDescription": "ข้อมูลอัจฉริยะหกชั้นที่เปลี่ยนข้อมูลร้านอาหารที่กระจัดกระจายให้กลายเป็นการตัดสินใจที่ประกอบกัน กะต่อกะ ทีละร้าน",
       "heroPrimary": "শুরু করুন Report Lite দিয়ে",
@@ -544,7 +544,7 @@ export const generatedLocalCopy = {
           "وضع ورق الحائط للأرضية"
         ],
         "stat": "2 ألف دولار",
-        "statLabel": "تم الحفظ لكل نوبة سيئة تم اكتشافها مبكرًا"
+        "statLabel": "يُوفَّر عن كل وردية ضعيفة تُكتشف مبكرًا"
       },
       {
         "name": "Benchmarks",
@@ -589,10 +589,10 @@ export const generatedLocalCopy = {
           "هدر المخزون والتباين",
           "تقييم المشتريات والموردين",
           "إسناد عائد الاستثمار التسويقي",
-          "Cross-Intelligence correlation engine"
+          "محرك ارتباط Cross-Intelligence"
         ],
         "stat": "500+",
-        "statLabel": "نماذج البيانات عبر 12 المجالات"
+        "statLabel": "نموذج بيانات عبر 12 مجالاً"
       },
       {
         "name": "Sundae Intelligence",
@@ -603,7 +603,7 @@ export const generatedLocalCopy = {
           "استعلامات اللغة الطبيعية",
           "وضع المراقبة (التنبيهات في الوقت الحقيقي)",
           "وضع الإحاطة (ملخصات يومية)",
-          "ويب + تيليجرام + سلاك + تيمز",
+          "الويب + Telegram + Slack + Teams",
           "تاريخ المحادثة",
           "الردود المقتبسة من المصدر"
         ],
@@ -621,7 +621,7 @@ export const generatedLocalCopy = {
           "جدولة العمالة والشراء المبنية على التنبؤ",
           "التنبؤ المتتالي عبر الوحدات",
           "دقة التصحيح الذاتي مع كشف التحيز",
-          "إحاطات تنفيذية لمنظمة العفو الدولية مع تصدير PDF"
+          "إحاطات تنفيذية من AI مع تصدير PDF"
         ],
         "stat": "91%",
         "statLabel": "دقة التنبؤ مع التصحيح الذاتي"
@@ -687,7 +687,7 @@ export const generatedLocalCopy = {
           "Desperdicio y variación de inventario",
           "Compras y puntuación de proveedores",
           "Atribución del ROI de marketing",
-          "Cross-Intelligence correlation engine"
+          "Motor de correlación Cross-Intelligence"
         ],
         "stat": "500+",
         "statLabel": "modelos de datos en 12 dominios"
@@ -981,7 +981,7 @@ export const generatedLocalCopy = {
           "Desperdício e variação de estoque",
           "Pontuação de compras e fornecedores",
           "Atribuição de ROI de marketing",
-          "Cross-Intelligence correlation engine"
+          "Motor de correlação Cross-Intelligence"
         ],
         "stat": "500+",
         "statLabel": "modelos de dados em 12 domínios"
@@ -1129,7 +1129,7 @@ export const generatedLocalCopy = {
           "رساو اور باطل کا پتہ لگانا",
           "Sundae کوچ شفٹ سگنلز",
           "پورٹ فولیو لیڈر بورڈ",
-          "فرش کے لیے وال بورڈ موڈ"
+          "سروس فلور کے لیے وال بورڈ موڈ"
         ],
         "stat": "$2K",
         "statLabel": "بچایا گیا فی بری شفٹ جلد پکڑی گئی۔"
@@ -1163,7 +1163,7 @@ export const generatedLocalCopy = {
           "سگنل فیڈ اور انتباہات",
           "مارکیٹ کے رجحان کا پتہ لگانا"
         ],
-        "stat": "72ھ",
+        "stat": "72 گھنٹے",
         "statLabel": "اثر سے پہلے ابتدائی انتباہ"
       },
       {
@@ -1177,7 +1177,7 @@ export const generatedLocalCopy = {
           "انوینٹری کا فضلہ اور تغیر",
           "خریداری اور سپلائر اسکورنگ",
           "مارکیٹنگ ROI انتساب",
-          "Cross-Intelligence correlation engine"
+          "Cross-Intelligence کوریلیشن انجن"
         ],
         "stat": "500+",
         "statLabel": "12 ڈومینز میں ڈیٹا ماڈلز"
@@ -1185,13 +1185,13 @@ export const generatedLocalCopy = {
       {
         "name": "Sundae Intelligence",
         "tagline": "بات چیت کے تجزیات",
-        "description": "سادہ زبان میں سوالات پوچھیں۔ اپنے حقیقی ڈیٹا سے جوابات حاصل کریں - ذرائع کے ساتھ، اندازوں سے نہیں۔ ویب، ٹیلیگرام، سلیک، اور مائیکروسافٹ ٹیموں پر دستیاب ہے۔",
+        "description": "سادہ زبان میں سوالات پوچھیں۔ اپنے حقیقی ڈیٹا سے جوابات حاصل کریں - ذرائع کے ساتھ، اندازوں سے نہیں۔ ویب، Telegram، Slack اور Microsoft Teams پر دستیاب ہے۔",
         "icon": "conversation",
         "features": [
           "فطری زبان کے سوالات",
           "مانیٹر موڈ (ریئل ٹائم الرٹس)",
           "بریفنگ موڈ (روزانہ خلاصے)",
-          "ویب + ٹیلیگرام + سلیک + ٹیمیں۔",
+          "ویب + Telegram + Slack + Teams",
           "گفتگو کی تاریخ",
           "ماخذ کے حوالے سے جوابات"
         ],
@@ -1275,7 +1275,7 @@ export const generatedLocalCopy = {
           "Sprechi e varianze di inventario",
           "Acquisti e valutazione dei fornitori",
           "Attribuzione del ROI di marketing",
-          "Cross-Intelligence correlation engine"
+          "Motore di correlazione Cross-Intelligence"
         ],
         "stat": "500+",
         "statLabel": "modelli di dati in 12 domini"
@@ -1317,7 +1317,7 @@ export const generatedLocalCopy = {
       {
         "name": "Pulse",
         "tagline": "इंट्राडे ऑपरेशन",
-        "description": "राजस्व गति, श्रम लागत, वेटर का प्रदर्शन और रिसाव का पता लगाना - हर 5 मिनट में अपडेट करना। शिफ्ट एक नाशवान संपत्ति है. एक बार यह ख़त्म हो गया, मार्जिन ख़त्म हो गया।",
+        "description": "राजस्व गति, श्रम लागत, वेटर का प्रदर्शन और रिसाव का पता लगाना - हर 5 मिनट में अपडेट करना। शिफ्ट एक नाशवान संपत्ति है। एक बार बीत जाने पर, मार्जिन भी चला जाता है।",
         "icon": "pulse",
         "features": [
           "लाइव बिक्री गति बनाम लक्ष्य",
@@ -1325,7 +1325,7 @@ export const generatedLocalCopy = {
           "रिसाव और शून्य का पता लगाना",
           "Sundae कोच शिफ्ट सिग्नल",
           "पोर्टफोलियो लीडरबोर्ड",
-          "फर्श के लिए वॉलबोर्ड मोड"
+          "सर्विस फ्लोर के लिए वॉलबोर्ड मोड"
         ],
         "stat": "$2K",
         "statLabel": "जल्दी पकड़ी गई प्रति खराब शिफ्ट को बचाया गया"
@@ -1373,7 +1373,7 @@ export const generatedLocalCopy = {
           "इन्वेंटरी अपशिष्ट और विचरण",
           "क्रय एवं आपूर्तिकर्ता स्कोरिंग",
           "मार्केटिंग आरओआई एट्रिब्यूशन",
-          "Cross-Intelligence correlation engine"
+          "Cross-Intelligence सहसंबंध इंजन"
         ],
         "stat": "500+",
         "statLabel": "12 डोमेन में डेटा मॉडल"
@@ -1381,13 +1381,13 @@ export const generatedLocalCopy = {
       {
         "name": "Sundae Intelligence",
         "tagline": "संवादात्मक विश्लेषण",
-        "description": "सरल भाषा में प्रश्न पूछें. अपने वास्तविक डेटा द्वारा समर्थित उत्तर प्राप्त करें - स्रोतों से, अनुमानों से नहीं। वेब, टेलीग्राम, स्लैक और माइक्रोसॉफ्ट टीम्स पर उपलब्ध है।",
+        "description": "सरल भाषा में प्रश्न पूछें. अपने वास्तविक डेटा द्वारा समर्थित उत्तर प्राप्त करें - स्रोतों से, अनुमानों से नहीं। वेब, Telegram, Slack और Microsoft Teams पर उपलब्ध है।",
         "icon": "conversation",
         "features": [
           "प्राकृतिक भाषा संबंधी प्रश्न",
           "मॉनिटर मोड (वास्तविक समय अलर्ट)",
           "ब्रीफिंग मोड (दैनिक सारांश)",
-          "वेब + टेलीग्राम + स्लैक + टीमें",
+          "वेब + Telegram + Slack + Teams",
           "बातचीत का इतिहास",
           "स्रोत-उद्धृत प्रतिक्रियाएँ"
         ],
@@ -1408,7 +1408,7 @@ export const generatedLocalCopy = {
           "पीडीएफ निर्यात के साथ एआई कार्यकारी ब्रीफिंग"
         ],
         "stat": "91%",
-        "statLabel": "आत्म-सुधार के साथ सटीकता का पूर्वानुमान लगाएं"
+        "statLabel": "स्व-सुधार के साथ पूर्वानुमान सटीकता"
       }
     ],
     "pl": [
@@ -1471,7 +1471,7 @@ export const generatedLocalCopy = {
           "Marnotrawstwo zapasów i różnice",
           "Punktacja zakupów i dostawców",
           "Przypisanie ROI marketingu",
-          "Cross-Intelligence correlation engine"
+          "Silnik korelacji Cross-Intelligence"
         ],
         "stat": "500+",
         "statLabel": "modele danych w 12 domenach"
@@ -1569,7 +1569,7 @@ export const generatedLocalCopy = {
           "库存浪费和差异",
           "采购和供应商评分",
           "营销投资回报率归因",
-          "Cross-Intelligence correlation engine"
+          "Cross-Intelligence 关联引擎"
         ],
         "stat": "500+",
         "statLabel": "跨 12 个领域的数据模型"
@@ -1667,7 +1667,7 @@ export const generatedLocalCopy = {
           "Envanter israfı ve sapma",
           "Satın alma ve tedarikçi puanlaması",
           "Pazarlama yatırım getirisi ilişkilendirmesi",
-          "Cross-Intelligence correlation engine"
+          "Cross-Intelligence korelasyon motoru"
         ],
         "stat": "500+",
         "statLabel": "12 alandaki veri modelleri"
@@ -1765,7 +1765,7 @@ export const generatedLocalCopy = {
           "Pemborosan & varians inventaris",
           "Penilaian pembelian & pemasok",
           "Atribusi ROI pemasaran",
-          "Cross-Intelligence correlation engine"
+          "Mesin korelasi Cross-Intelligence"
         ],
         "stat": "500+",
         "statLabel": "model data di 12 domain"
@@ -1863,7 +1863,7 @@ export const generatedLocalCopy = {
           "在庫の無駄と差異",
           "購入とサプライヤーのスコアリング",
           "マーケティング ROI の帰属",
-          "Cross-Intelligence correlation engine"
+          "Cross-Intelligence 相関エンジン"
         ],
         "stat": "500+",
         "statLabel": "12のドメインにわたるデータモデル"
@@ -1961,7 +1961,7 @@ export const generatedLocalCopy = {
           "재고 낭비 및 차이",
           "구매 및 공급업체 평가",
           "마케팅 ROI 기여",
-          "Cross-Intelligence correlation engine"
+          "Cross-Intelligence 상관 엔진"
         ],
         "stat": "500+",
         "statLabel": "12개 도메인에 걸친 데이터 모델"
@@ -1996,7 +1996,7 @@ export const generatedLocalCopy = {
           "PDF 내보내기를 통한 AI 경영진 브리핑"
         ],
         "stat": "91%",
-        "statLabel": "자체 수정을 통한 정확도 예측"
+        "statLabel": "자가 교정을 통한 예측 정확도"
       }
     ],
     "ro": [
@@ -2157,7 +2157,7 @@ export const generatedLocalCopy = {
           "Lãng phí hàng tồn kho và sự khác biệt",
           "Chấm điểm mua hàng và nhà cung cấp",
           "Phân bổ ROI tiếp thị",
-          "Cross-Intelligence correlation engine"
+          "Công cụ tương quan Cross-Intelligence"
         ],
         "stat": "500+",
         "statLabel": "mô hình dữ liệu trên 12 miền"
@@ -2255,7 +2255,7 @@ export const generatedLocalCopy = {
           "ইনভেন্টরি বর্জ্য এবং বৈচিত্র্য",
           "ক্রয় এবং সরবরাহকারী স্কোরিং",
           "বিপণন ROI অ্যাট্রিবিউশন",
-          "Cross-Intelligence correlation engine"
+          "Cross-Intelligence কোরিলেশন ইঞ্জিন"
         ],
         "stat": "500+",
         "statLabel": "12টি ডোমেন জুড়ে ডেটা মডেল"
@@ -2263,13 +2263,13 @@ export const generatedLocalCopy = {
       {
         "name": "Sundae Intelligence",
         "tagline": "কথোপকথন বিশ্লেষণ",
-        "description": "সরল ভাষায় প্রশ্ন করুন। আপনার প্রকৃত ডেটা দ্বারা সমর্থিত উত্তরগুলি পান - উত্স সহ, অনুমান নয়। ওয়েব, টেলিগ্রাম, স্ল্যাক এবং মাইক্রোসফ্ট টিমগুলিতে উপলব্ধ।",
+        "description": "সরল ভাষায় প্রশ্ন করুন। আপনার প্রকৃত ডেটা দ্বারা সমর্থিত উত্তরগুলি পান - উত্স সহ, অনুমান নয়। ওয়েব, Telegram, Slack এবং Microsoft Teams-এ উপলব্ধ।",
         "icon": "conversation",
         "features": [
           "প্রাকৃতিক ভাষা প্রশ্ন",
           "মনিটর মোড (রিয়েল-টাইম সতর্কতা)",
           "ব্রিফিং মোড (দৈনিক সারাংশ)",
-          "ওয়েব + টেলিগ্রাম + স্ল্যাক + টিম",
+          "ওয়েব + Telegram + Slack + Teams",
           "কথোপকথনের ইতিহাস",
           "উত্স-উদ্ধৃত প্রতিক্রিয়া"
         ],
@@ -2328,7 +2328,7 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Watchtower",
-        "tagline": "Market Intelligence",
+        "tagline": "Marknadsintelligens",
         "description": "Konkurrentövervakning, väderinkomstens påverkan, händelseinformation och dagliga genomgångar - innan påverkan når dina siffror.",
         "icon": "watchtower",
         "features": [
@@ -2376,7 +2376,7 @@ export const generatedLocalCopy = {
       },
       {
         "name": "Foresight",
-        "tagline": "Predictive Intelligence",
+        "tagline": "Prediktiv intelligens",
         "description": "Framåtblickande prognoser för intäkter, arbetskraft, matkostnader och vinst - med förtroendeband, vad-om-scenarier och veckovisa chefsgenomgångar. Sluta reagera. Börja förutse.",
         "icon": "forecasting",
         "features": [
@@ -2395,22 +2395,22 @@ export const generatedLocalCopy = {
       {
         "name": "Pulse",
         "tagline": "การดำเนินงานระหว่างวัน",
-        "description": "อัตรารายได้ ค่าแรง ประสิทธิภาพของพนักงานเสิร์ฟ และการตรวจจับการรั่วไหล - อัปเดตทุกๆ 5 นาที กะเป็นสินทรัพย์ที่เน่าเสียง่าย พอหมดระยะขอบก็หายไป",
+        "description": "อัตรารายได้ ค่าแรง ประสิทธิภาพของพนักงานเสิร์ฟ และการตรวจจับการรั่วไหล - อัปเดตทุกๆ 5 นาที กะคือสินทรัพย์ที่เน่าเสียง่าย เมื่อกะจบลง มาร์จิ้นก็หายไป",
         "icon": "pulse",
         "features": [
           "อัตราการขายสดเทียบกับเป้าหมาย",
           "การติดตามการเพิ่มยอดขายรายพนักงานเสิร์ฟ",
           "การตรวจจับการรั่วไหลและเป็นโมฆะ",
-          "สัญญาณกะรถSundaeโค้ช",
+          "สัญญาณกะจาก Sundae Coach",
           "ลีดเดอร์บอร์ดพอร์ตโฟลิโอ",
-          "โหมดแผ่นผนังสำหรับพื้น"
+          "โหมดวอลล์บอร์ดสำหรับหน้าร้าน"
         ],
         "stat": "2,000 ดอลลาร์",
-        "statLabel": "ประหยัดได้ต่อกะที่เสียที่จับได้เร็ว"
+        "statLabel": "ประหยัดได้ต่อกะที่อ่อนแอซึ่งตรวจพบได้เร็ว"
       },
       {
         "name": "Benchmarks",
-        "tagline": "หน่วยสืบราชการลับในการแข่งขัน",
+        "tagline": "ข่าวกรองการแข่งขัน",
         "description": "ดัชนี RevPASH อัตราการใช้ที่นั่ง บิลเฉลี่ย และดัชนีรายได้ เปรียบเทียบกับคู่แข่งที่ไม่เปิดเผยตัวตนในกลุ่มและตลาดของคุณ",
         "icon": "benchmarking",
         "features": [
@@ -2451,7 +2451,7 @@ export const generatedLocalCopy = {
           "ของเสียและผลต่างของสินค้าคงคลัง",
           "การให้คะแนนการจัดซื้อและซัพพลายเออร์",
           "การระบุแหล่งที่มา ROI ทางการตลาด",
-          "Cross-Intelligence correlation engine"
+          "เครื่องมือหาความสัมพันธ์ Cross-Intelligence"
         ],
         "stat": "500+",
         "statLabel": "แบบจำลองข้อมูลใน 12 โดเมน"
@@ -2465,7 +2465,7 @@ export const generatedLocalCopy = {
           "แบบสอบถามภาษาธรรมชาติ",
           "โหมดการตรวจสอบ (การแจ้งเตือนแบบเรียลไทม์)",
           "โหมดการบรรยายสรุป (สรุปรายวัน)",
-          "เว็บ + โทรเลข + Slack + ทีม",
+          "เว็บ + Telegram + Slack + Teams",
           "ประวัติการสนทนา",
           "คำตอบที่อ้างอิงแหล่งที่มา"
         ],
@@ -2486,7 +2486,7 @@ export const generatedLocalCopy = {
           "การบรรยายสรุปผู้บริหาร AI พร้อมการส่งออก PDF"
         ],
         "stat": "91%",
-        "statLabel": "คาดการณ์ความแม่นยำด้วยการแก้ไขตนเอง"
+        "statLabel": "ความแม่นยำของการพยากรณ์พร้อมการแก้ไขด้วยตนเอง"
       }
     ],
     "ms": [
@@ -2549,7 +2549,7 @@ export const generatedLocalCopy = {
           "Pembaziran inventori & varians",
           "Pembelian & pemarkahan pembekal",
           "Atribusi ROI pemasaran",
-          "Cross-Intelligence correlation engine"
+          "Enjin korelasi Cross-Intelligence"
         ],
         "stat": "500+",
         "statLabel": "model data merentas 12 domain"
