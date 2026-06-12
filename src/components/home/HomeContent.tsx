@@ -78,11 +78,11 @@ export default function HomeContent() {
 
   const layerAccents: Record<string, string> = {
     Pulse: "from-[#FF5C4D] to-[#E03E48]",
-    Benchmarks: "from-[#22C55E] to-[#16A34A]",
+    Benchmarks: "from-[#84A35C] to-[#5E7E3A]",
     Watchtower: "from-[#F59E0B] to-[#D97706]",
-    Insights: "from-[#A855F7] to-[#7C3AED]",
-    "Sundae Intelligence": "from-[#EC4899] to-[#BE185D]",
-    Foresight: "from-[#0EA5E9] to-[#0284C7]",
+    Insights: "from-[#A8567E] to-[#7E3A5C]",
+    "Sundae Intelligence": "from-[#EC6A89] to-[#C9456A]",
+    Foresight: "from-[#5E9E96] to-[#3D7A70]",
   };
 
   return (
@@ -108,12 +108,21 @@ export default function HomeContent() {
               Heavily darkened, blurred and vignetted into the page bg so it reads as
               atmosphere, never as a stock photo; the dashboard (z-20) floats over it. */}
           <div aria-hidden className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
-            {/* light mode: a clean warm-cream wash REPLACES the muddy faint photo */}
+            {/* light mode: a BRIGHT editorial photo under a warm-cream wash, so the
+                hero has real depth + warmth (not a flat cream panel). The central
+                white-ish scrim keeps the dark hero copy fully legible. */}
+            <Image
+              src="/images/editorial/dining-room.jpg"
+              alt=""
+              fill
+              sizes="100vw"
+              className="object-cover object-center hidden [html.light_&]:block opacity-[0.32]"
+            />
             <div
               className="absolute inset-0 hidden [html.light_&]:block"
               style={{
                 background:
-                  'radial-gradient(ellipse 95% 80% at 50% -5%, #FFE7D8 0%, transparent 58%), linear-gradient(180deg, #FFF6EF 0%, #FFFFFF 62%)',
+                  'radial-gradient(ellipse 75% 55% at 80% 10%, rgba(255,92,77,0.16) 0%, transparent 52%), radial-gradient(ellipse 85% 65% at 14% 4%, rgba(233,162,74,0.22) 0%, transparent 54%), radial-gradient(ellipse 66% 56% at 50% 42%, rgba(255,250,245,0.92) 0%, rgba(255,246,239,0.5) 48%, transparent 74%), linear-gradient(180deg, rgba(255,246,239,0.5) 0%, #FFFFFF 78%)',
               }}
             />
             <Image
