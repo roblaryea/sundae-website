@@ -12,7 +12,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "مسارات التدقيق",
-          "supporting": "كل مقياس لمصدر الصف"
+          "supporting": "كل مقياس يعود إلى صف المصدر"
         },
         {
           "title": "API عامة",
@@ -41,8 +41,8 @@ export const generatedLocalCopy = {
           "supporting": "Permissions de rôle granulaires"
         },
         {
-          "title": "Trails d'audit",
-          "supporting": "Chaque métrique pour la ligne source"
+          "title": "Pistes d'audit",
+          "supporting": "Chaque métrique jusqu'à la ligne source"
         },
         {
           "title": "API publique",
@@ -79,8 +79,8 @@ export const generatedLocalCopy = {
           "supporting": "REST + webhooks"
         },
         {
-          "title": "99.4% SLO de Sincronización",
-          "supporting": "On Core Pro tier"
+          "title": "99,4% SLO de Sincronización",
+          "supporting": "En el nivel Core Pro"
         },
         {
           "title": "Encriptado",
@@ -94,7 +94,7 @@ export const generatedLocalCopy = {
     },
     "de": {
       "eyebrow": "UNTERNEHMENSBEREIT",
-      "headline": "Auditbereit. API-zuerst. Ab dem ersten Tag.",
+      "headline": "Auditbereit. API-First. Ab dem ersten Tag.",
       "items": [
         {
           "title": "RBAC",
@@ -117,8 +117,8 @@ export const generatedLocalCopy = {
           "supporting": "Während der Übertragung & im Ruhezustand"
         },
         {
-          "title": "Governing Schema",
-          "supporting": "500+ Restaurantdatenmodelle"
+          "title": "Verwaltetes Schema",
+          "supporting": "500+ Restaurant-Datenmodelle"
         }
       ]
     },
@@ -128,26 +128,26 @@ export const generatedLocalCopy = {
       "items": [
         {
           "title": "RBAC",
-          "supporting": "Fijne roltoewijzingen"
+          "supporting": "Gedetailleerde rolrechten"
         },
         {
-          "title": "Audit Trails",
-          "supporting": "Elke metriek naar de brontabel"
+          "title": "Audittrails",
+          "supporting": "Elke metriek tot de bronrij"
         },
         {
-          "title": "Public API",
+          "title": "Openbare API",
           "supporting": "REST + webhooks"
         },
         {
-          "title": "99,4% Sync SLO",
-          "supporting": "Op Core Pro niveau"
+          "title": "99,4% sync-SLO",
+          "supporting": "Op Core Pro-niveau"
         },
         {
           "title": "Versleuteld",
           "supporting": "Tijdens verzending & in rust"
         },
         {
-          "title": "Geregeerde Schema",
+          "title": "Beheerd schema",
           "supporting": "500+ restaurantdatamodellen"
         }
       ]
@@ -161,8 +161,8 @@ export const generatedLocalCopy = {
           "supporting": "Permissões de função granulares"
         },
         {
-          "title": "Registros de Auditoria",
-          "supporting": "Cada métrica para a linha de origem"
+          "title": "Trilhas de Auditoria",
+          "supporting": "Cada métrica até a linha de origem"
         },
         {
           "title": "API Pública",
@@ -177,8 +177,8 @@ export const generatedLocalCopy = {
           "supporting": "Em trânsito e em repouso"
         },
         {
-          "title": "Esquema Governado",
-          "supporting": "Modelos de dados de 500+ restaurantes"
+          "title": "Esquema Gerenciado",
+          "supporting": "500+ modelos de dados de restaurantes"
         }
       ]
     },
@@ -192,7 +192,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "ऑडिट ट्रेल्स",
-          "supporting": "हर मैट्रिक स्रोत पंक्ति के लिए"
+          "supporting": "हर मेट्रिक स्रोत पंक्ति तक"
         },
         {
           "title": "सार्वजनिक API",
@@ -200,14 +200,14 @@ export const generatedLocalCopy = {
         },
         {
           "title": "99.4% सिंक SLO",
-          "supporting": "On Core Pro tier"
+          "supporting": "Core Pro टियर पर"
         },
         {
           "title": "एन्क्रिप्टेड",
-          "supporting": "संक्रमण में और विश्राम में"
+          "supporting": "ट्रांज़िट में और रेस्ट में"
         },
         {
-          "title": "शासित स्कीमा",
+          "title": "प्रबंधित स्कीमा",
           "supporting": "500+ रेस्तरां डेटा मॉडल"
         }
       ]
@@ -222,7 +222,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "آڈٹ ٹریلز",
-          "supporting": "ہر میٹرک کو ماخذ قطار"
+          "supporting": "ہر میٹرک ماخذ قطار تک"
         },
         {
           "title": "عوامی API",
@@ -234,10 +234,10 @@ export const generatedLocalCopy = {
         },
         {
           "title": "انکرپٹڈ",
-          "supporting": "منتقلی میں اور آرام میں"
+          "supporting": "منتقلی کے دوران اور ذخیرے میں"
         },
         {
-          "title": "حکومتی اسکیمہ",
+          "title": "زیرِ انتظام اسکیمہ",
           "supporting": "500+ ریستوراں کے ڈیٹا ماڈلز"
         }
       ]
@@ -251,8 +251,8 @@ export const generatedLocalCopy = {
           "supporting": "Permessi di ruolo granulari"
         },
         {
-          "title": "Audit Trails",
-          "supporting": "Ogni metrica per riga sorgente"
+          "title": "Audit trail",
+          "supporting": "Ogni metrica fino alla riga di origine"
         },
         {
           "title": "API Pubblica",
@@ -267,7 +267,7 @@ export const generatedLocalCopy = {
           "supporting": "In transito e a riposo"
         },
         {
-          "title": "Schema Governato",
+          "title": "Schema gestito",
           "supporting": "500+ modelli di dati per ristoranti"
         }
       ]
@@ -282,7 +282,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Ścieżki audytu",
-          "supporting": "Każda metryka do źródłowego wiersza"
+          "supporting": "Każda metryka aż do wiersza źródłowego"
         },
         {
           "title": "Publiczne API",
@@ -312,10 +312,10 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Denetim İzleri",
-          "supporting": "Her metriği kaynak satırına"
+          "supporting": "Her metrik kaynak satırına kadar"
         },
         {
-          "title": "Açık API",
+          "title": "Genel API",
           "supporting": "REST + web kancaları"
         },
         {
@@ -357,7 +357,7 @@ export const generatedLocalCopy = {
           "supporting": "传输中和静态时均加密"
         },
         {
-          "title": "受管模式",
+          "title": "受管理的架构",
           "supporting": "500+ 餐厅数据模型"
         }
       ]
@@ -372,7 +372,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "監査トレイル",
-          "supporting": "すべてのメトリックをソース行に"
+          "supporting": "すべてのメトリクスをソース行まで遡及"
         },
         {
           "title": "公開API",
@@ -402,10 +402,10 @@ export const generatedLocalCopy = {
         },
         {
           "title": "감사 추적",
-          "supporting": "모든 메트릭을 소스 행으로"
+          "supporting": "모든 지표를 소스 행까지 추적"
         },
         {
-          "title": "공식 API",
+          "title": "공개 API",
           "supporting": "REST + 웹훅"
         },
         {
@@ -432,7 +432,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Jejak Audit",
-          "supporting": "Setiap metrik untuk sumber baris"
+          "supporting": "Setiap metrik hingga baris sumber"
         },
         {
           "title": "API Publik",
@@ -444,10 +444,10 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Terenkripsi",
-          "supporting": "Dalam perjalanan & saat istirahat"
+          "supporting": "Saat transit & saat disimpan"
         },
         {
-          "title": "Skema Teratur",
+          "title": "Skema Terkelola",
           "supporting": "500+ model data restoran"
         }
       ]
@@ -461,16 +461,16 @@ export const generatedLocalCopy = {
           "supporting": "Quyền truy cập theo vai trò chi tiết"
         },
         {
-          "title": "Audit Trails",
-          "supporting": "Mọi chỉ số để truy xuất hàng"
+          "title": "Nhật ký kiểm toán",
+          "supporting": "Mọi chỉ số truy về hàng nguồn"
         },
         {
-          "title": "Public API",
+          "title": "API công khai",
           "supporting": "REST + webhooks"
         },
         {
-          "title": "99.4% Sync SLO",
-          "supporting": "Trên cấp độ Core Pro"
+          "title": "99,4% SLO đồng bộ",
+          "supporting": "Ở cấp độ Core Pro"
         },
         {
           "title": "Mã hóa",
@@ -488,18 +488,18 @@ export const generatedLocalCopy = {
       "items": [
         {
           "title": "RBAC",
-          "supporting": "Permisiuni de rol granular"
+          "supporting": "Permisiuni de rol granulare"
         },
         {
-          "title": "Audit Trails",
-          "supporting": "Fiecare metrică pentru sursa rândului"
+          "title": "Piste de audit",
+          "supporting": "Fiecare metrică până la rândul sursă"
         },
         {
-          "title": "Public API",
+          "title": "API public",
           "supporting": "REST + webhooks"
         },
         {
-          "title": "99.4% SLO de sincronizare",
+          "title": "99,4% SLO de sincronizare",
           "supporting": "Pe nivelul Core Pro"
         },
         {
@@ -507,7 +507,7 @@ export const generatedLocalCopy = {
           "supporting": "În tranzit și în repaus"
         },
         {
-          "title": "Schema guvernată",
+          "title": "Schemă gestionată",
           "supporting": "500+ modele de date pentru restaurante"
         }
       ]
@@ -522,10 +522,10 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Revisionsspår",
-          "supporting": "Varje mätvärde till källrad"
+          "supporting": "Varje mätvärde till källraden"
         },
         {
-          "title": "Offentlig API",
+          "title": "Offentligt API",
           "supporting": "REST + webhooks"
         },
         {
@@ -537,7 +537,7 @@ export const generatedLocalCopy = {
           "supporting": "Under överföring & i vila"
         },
         {
-          "title": "Styrd Schema",
+          "title": "Hanterat schema",
           "supporting": "500+ restaurangdatamodeller"
         }
       ]
@@ -552,7 +552,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "অডিট ট্রেইল",
-          "supporting": "প্রতিটি মেট্রিক সোর্স রো"
+          "supporting": "প্রতিটি মেট্রিক সোর্স রো পর্যন্ত"
         },
         {
           "title": "পাবলিক API",
@@ -567,7 +567,7 @@ export const generatedLocalCopy = {
           "supporting": "পরিবহণে এবং বিশ্রামে"
         },
         {
-          "title": "শাসিত স্কিমা",
+          "title": "পরিচালিত স্কিমা",
           "supporting": "500+ রেস্তোরাঁর ডেটা মডেল"
         }
       ]
@@ -582,7 +582,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Audit Trails",
-          "supporting": "ทุกเมตริกเพื่อแหล่งข้อมูลแถว"
+          "supporting": "ทุกเมตริกสืบย้อนถึงแถวต้นทาง"
         },
         {
           "title": "Public API",
@@ -594,7 +594,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "เข้ารหัส",
-          "supporting": "ระหว่างการส่ง & ที่เก็บรักษา"
+          "supporting": "ระหว่างการส่ง & ขณะจัดเก็บ"
         },
         {
           "title": "Governed Schema",
@@ -612,7 +612,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Jejak Audit",
-          "supporting": "Setiap metrik untuk sumber baris"
+          "supporting": "Setiap metrik hingga baris sumber"
         },
         {
           "title": "API Awam",
@@ -623,8 +623,8 @@ export const generatedLocalCopy = {
           "supporting": "Pada tahap Core Pro"
         },
         {
-          "title": "Terenkripsi",
-          "supporting": "Dalam transit & di simpan"
+          "title": "Disulitkan",
+          "supporting": "Semasa transit & semasa disimpan"
         },
         {
           "title": "Skema Terurus",

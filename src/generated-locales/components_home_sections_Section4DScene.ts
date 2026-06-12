@@ -5,7 +5,7 @@ export const generatedLocalCopy = {
     "de": {
       "eyebrow": "DAS 4D INTELLIGENZMODELL",
       "headline": "Beobachten Sie, wie ein Umsatzproblem zu einer Entscheidung wird.",
-      "description": "Sundae verbindet Leistung, Planung, Marktumfeld und nächste Schritte - damit Teams handeln können, bevor der Wechsel vorbei ist.",
+      "description": "Sundae verbindet Leistung, Planung, Marktumfeld und nächste Schritte - damit Teams handeln können, bevor die Schicht vorbei ist.",
       "scenarioTime": "DIENSTAG · 9:14 UHR · IN DER STADT",
       "scenarioHook": "Die Mittagsumsätze liegen 14% hinter dem Plan.",
       "illustrativeNote": "Illustratives Szenario basierend auf den Fähigkeiten von Sundae.",
@@ -14,14 +14,14 @@ export const generatedLocalCopy = {
         {
           "shortLabel": "Was ist passiert",
           "eyebrow": "WAS IST PASSIERT",
-          "title": "Die Umsätze sind um 22% gesunken.",
-          "body": "Der durchschnittliche Check bleibt stabil, das Problem liegt im Verkehr - nicht bei den Preisen."
+          "title": "Die Gästezahlen sind um 22% gesunken.",
+          "body": "Der durchschnittliche Bon bleibt stabil, das Problem ist die Frequenz - nicht die Preise."
         },
         {
           "shortLabel": "Plan vs Ist",
           "eyebrow": "PLAN VS IST",
           "title": "Der Standort liegt $3,800 hinter der Prognose.",
-          "body": "Die Arbeitskräfte sind weiterhin auf Baseline eingestellt, sodass die Marge stündlich schwindet."
+          "body": "Das Personal ist weiterhin auf den Normalwert eingeplant, sodass die Marge stündlich schwindet."
         },
         {
           "shortLabel": "Markt Kontext",
@@ -33,24 +33,24 @@ export const generatedLocalCopy = {
           "shortLabel": "Nächste Aktion",
           "eyebrow": "NÄCHSTE AKTION",
           "title": "Sundae Coach empfiehlt den nächsten Schritt.",
-          "body": "Passen Sie die Arbeitskräfte an, wenn die Abdeckung es zulässt, pushen Sie das Mittagsangebot und geben Sie dem Team die Chance, einen Teil der Lücke vor dem Ende der Hauptzeit zu schließen."
+          "body": "Passen Sie das Personal an, wenn die Besetzung es zulässt, pushen Sie das Mittagsangebot und geben Sie dem Team die Chance, einen Teil der Lücke vor dem Ende der Stoßzeit zu schließen."
         }
       ],
       "visualHeader": "Pulse - Innenstadt · Mittagsservice",
       "visualLabels": {
-        "coversChart": "Mittagessen-Besuche - heute vs. derselbe Tag letzte Woche",
-        "coversTrend": "−22% WoW",
+        "coversChart": "Mittagsgäste - heute vs. derselbe Tag letzte Woche",
+        "coversTrend": "−22% ggü. Vorwoche",
         "planVsActual": "Plan vs Ist",
         "planVsActualVariance": "−3.800 $ vs. Prognose",
         "forecast": "Prognose",
-        "actualRunRate": "Tatsächliche Laufleistung",
-        "laborNote": "Personal bleibt auf Basislinie - überbesetzt für dieses Volumen.",
+        "actualRunRate": "Tatsächlicher Verlauf",
+        "laborNote": "Personal bleibt auf Normalwert - überbesetzt für dieses Volumen.",
         "watchtower": "Watchtower",
         "watchtowerItem1": "3 Wettbewerber innerhalb von 2 km haben gestern Mittagskombos auf 9,99 $ gesenkt",
         "watchtowerItem2": "Feuerübung im Bürogebäude geplant 11-12, 2 Blocks entfernt",
         "coach": "Sundae Coach",
-        "coachBody": "Passen Sie eine Schicht des Kochs von 11-14 Uhr an, wenn die Abdeckung es zulässt. Bewerben Sie das Mittagscombo für 11,99 $ über die Treue.",
-        "coachProjection": "Prognostizierte Auswirkung: Teil der Lücke schließen, wenn vor dem Mittagspeak umgesetzt.",
+        "coachBody": "Reduzieren Sie eine Kochschicht von 11-14 Uhr, wenn die Besetzung es zulässt. Bewerben Sie das Mittagscombo für 11,99 $ über das Treueprogramm.",
+        "coachProjection": "Prognostizierte Auswirkung: Teil der Lücke schließen, wenn vor der Mittagsspitze umgesetzt.",
         "illustrative": "Veranschaulichend"
       }
     },
@@ -66,8 +66,8 @@ export const generatedLocalCopy = {
         {
           "shortLabel": "Qué pasó",
           "eyebrow": "QUÉ PASÓ",
-          "title": "Las coberturas han bajado un 22%.",
-          "body": "El cheque promedio se mantiene estable, así que el problema es el tráfico - no el precio."
+          "title": "Los comensales han bajado un 22%.",
+          "body": "El ticket medio se mantiene estable, así que el problema es la afluencia, no el precio."
         },
         {
           "shortLabel": "Plan vs real",
@@ -90,7 +90,7 @@ export const generatedLocalCopy = {
       ],
       "visualHeader": "Pulse - Centro · Servicio de Almuerzo",
       "visualLabels": {
-        "coversChart": "Cubiertos de almuerzo - hoy vs el mismo día de la semana pasada",
+        "coversChart": "Comensales del almuerzo - hoy vs el mismo día de la semana pasada",
         "coversTrend": "−22% intersemanal",
         "planVsActual": "Plan vs real",
         "planVsActualVariance": "−$3,800 vs pronóstico",
@@ -109,17 +109,17 @@ export const generatedLocalCopy = {
     "nl": {
       "eyebrow": "HET 4D INTELLIGENTIEMODEL",
       "headline": "Bekijk hoe één omzetprobleem een beslissing wordt.",
-      "description": "Sundae verbindt prestaties, planning, marktcontext en de volgende actie - zodat teams kunnen handelen voordat de verschuiving voorbij is.",
+      "description": "Sundae verbindt prestaties, planning, marktcontext en de volgende actie - zodat teams kunnen handelen voordat de dienst voorbij is.",
       "scenarioTime": "DINSDAG · 9:14 AM · CENTRUM",
       "scenarioHook": "De lunchomzet loopt 14% achter op het plan.",
       "illustrativeNote": "Illustratief scenario gebaseerd op de mogelijkheden van Sundae.",
-      "closing": "Van signaal naar oorzaak naar actie - voordat de shift eindigt.",
+      "closing": "Van signaal naar oorzaak naar actie - voordat de dienst eindigt.",
       "dimensions": [
         {
           "shortLabel": "Wat is er gebeurd",
           "eyebrow": "WAT IS ER GEBEURD",
-          "title": "Omzet is met 22% gedaald.",
-          "body": "De gemiddelde rekening blijft stabiel, dus het probleem is verkeer - niet de prijzen."
+          "title": "Het aantal gasten is met 22% gedaald.",
+          "body": "De gemiddelde besteding blijft stabiel, dus het probleem is de toeloop - niet de prijzen."
         },
         {
           "shortLabel": "Plan vs werkelijke cijfers",
@@ -137,41 +137,41 @@ export const generatedLocalCopy = {
           "shortLabel": "Volgende actie",
           "eyebrow": "VOLGENDE ACTIE",
           "title": "Sundae Coach raadt de volgende stap aan.",
-          "body": "Pas het personeel aan als de dekking het toelaat, promoot het lunchaanbod en geef het team de kans om een deel van de kloof te herstellen voordat de piek eindigt."
+          "body": "Pas het personeel aan als de bezetting het toelaat, promoot het lunchaanbod en geef het team de kans om een deel van de kloof te herstellen voordat de piek eindigt."
         }
       ],
-      "visualHeader": "Pulse - Downtown · Lunchservice",
+      "visualHeader": "Pulse - Centrum · Lunchservice",
       "visualLabels": {
-        "coversChart": "Lunchdeksels - vandaag vs dezelfde dag vorige week",
-        "coversTrend": "−22% WoW",
-        "planVsActual": "Plan vs werkelijke",
-        "planVsActualVariance": "−$3.800 vs voorspelling",
-        "forecast": "Voorspelling",
+        "coversChart": "Lunchgasten - vandaag vs dezelfde dag vorige week",
+        "coversTrend": "−22% t.o.v. vorige week",
+        "planVsActual": "Plan vs werkelijk",
+        "planVsActualVariance": "−$3.800 vs prognose",
+        "forecast": "Prognose",
         "actualRunRate": "Werkelijke run-rate",
-        "laborNote": "Arbeid nog op basislijn - overbezet voor dit volume.",
+        "laborNote": "Personeel nog op basisniveau - overbezet voor dit volume.",
         "watchtower": "Watchtower",
         "watchtowerItem1": "3 concurrenten binnen 2 km hebben gisteren lunchcombinaties verlaagd naar $9,99",
         "watchtowerItem2": "Oefening brandalarm in kantoorgebouw gepland van 11-12, 2 blokken verderop",
         "coach": "Sundae Coach",
-        "coachBody": "Pas één lijn-kok dienst aan van 11-2 als de dekking het toelaat. Promoot de lunchcombinatie van $11,99 via loyaliteit.",
-        "coachProjection": "Geprojecteerde impact: herstel een deel van de kloof als uitgevoerd voor de lunchpiek.",
+        "coachBody": "Schrap één keukenshift van 11-14 uur als de bezetting het toelaat. Promoot de lunchcombinatie van $11,99 via het loyaliteitsprogramma.",
+        "coachProjection": "Verwachte impact: herstel een deel van de kloof als het wordt uitgevoerd voor de lunchpiek.",
         "illustrative": "Illustratief"
       }
     },
     "ar": {
       "eyebrow": "نموذج الذكاء الرباعي",
       "headline": "شاهد مشكلة إيرادات واحدة تتحول إلى قرار.",
-      "description": "Sundae تربط بين الأداء، والخطة، وسياق السوق، والإجراء التالي - حتى تتمكن الفرق من التحرك قبل انتهاء التحول.",
+      "description": "Sundae تربط بين الأداء، والخطة، وسياق السوق، والإجراء التالي - حتى تتمكن الفرق من التحرك قبل انتهاء الوردية.",
       "scenarioTime": "الثلاثاء · 9:14 ص · وسط المدينة",
       "scenarioHook": "إيرادات الغداء تتخلف عن الخطة بنسبة 14%.",
       "illustrativeNote": "سيناريو توضيحي يعتمد على قدرات Sundae.",
-      "closing": "من الإشارة إلى السبب إلى الفعل - قبل انتهاء التحول.",
+      "closing": "من الإشارة إلى السبب إلى الفعل - قبل انتهاء الوردية.",
       "dimensions": [
         {
           "shortLabel": "ماذا حدث",
           "eyebrow": "ماذا حدث",
-          "title": "تراجعت التغطيات بنسبة 22%.",
-          "body": "متوسط الفاتورة ثابت، لذا فإن المشكلة هي في حركة المرور - وليس في التسعير."
+          "title": "تراجع عدد الزبائن بنسبة 22%.",
+          "body": "متوسط الفاتورة ثابت، لذا فإن المشكلة هي في عدد الزوار - وليس في التسعير."
         },
         {
           "shortLabel": "الخطة مقابل الفعلي",
@@ -188,13 +188,13 @@ export const generatedLocalCopy = {
         {
           "shortLabel": "الإجراء التالي",
           "eyebrow": "الإجراء التالي",
-          "title": "مدرب Sundae يوصي بالخطوة التالية.",
-          "body": "قم بتعديل العمالة إذا سمح التغطية، وادفع عرض الغداء، وامنح الفريق فرصة لاستعادة جزء من الفجوة قبل انتهاء الذروة."
+          "title": "Sundae Coach يوصي بالخطوة التالية.",
+          "body": "عدّل العمالة إذا سمحت التغطية، وروّج لعرض الغداء، وامنح الفريق فرصة لاستعادة جزء من الفجوة قبل انتهاء الذروة."
         }
       ],
-      "visualHeader": "Pulse - Downtown · Lunch Service",
+      "visualHeader": "Pulse - وسط المدينة · خدمة الغداء",
       "visualLabels": {
-        "coversChart": "وجبات الغداء - اليوم مقابل نفس اليوم من الأسبوع الماضي",
+        "coversChart": "زوار الغداء - اليوم مقابل نفس اليوم من الأسبوع الماضي",
         "coversTrend": "−22% مقارنة بالأسبوع الماضي",
         "planVsActual": "الخطة مقابل الفعلي",
         "planVsActualVariance": "−$3,800 مقابل التوقعات",
@@ -204,8 +204,8 @@ export const generatedLocalCopy = {
         "watchtower": "Watchtower",
         "watchtowerItem1": "3 منافسين ضمن 2 كم خفضوا أسعار وجبات الغداء إلى 9.99 دولار أمس",
         "watchtowerItem2": "تم تحديد تمرين إطفاء في برج المكاتب من 11 إلى 12، على بعد كتلتين",
-        "coach": "مدرب Sundae",
-        "coachBody": "قم بتعديل نوبة طباخ واحد من 11 إلى 2 إذا سمح التغطية. ادفع وجبة الغداء بسعر 11.99 دولار عبر الولاء.",
+        "coach": "Sundae Coach",
+        "coachBody": "قلّص وردية طاهٍ واحدة من 11 إلى 2 إذا سمحت التغطية. روّج لوجبة الغداء بسعر 11.99 دولار عبر برنامج الولاء.",
         "coachProjection": "التأثير المتوقع: استعادة جزء من الفجوة إذا تم التنفيذ قبل ذروة الغداء.",
         "illustrative": "توضيحي"
       }
@@ -213,17 +213,17 @@ export const generatedLocalCopy = {
     "fr": {
       "eyebrow": "LE MODÈLE D'INTELLIGENCE 4D",
       "headline": "Regardez un problème de revenus se transformer en décision.",
-      "description": "Sundae connecte la performance, le plan, le contexte du marché et la prochaine action - afin que les équipes puissent agir avant la fin du changement.",
+      "description": "Sundae connecte la performance, le plan, le contexte du marché et la prochaine action - afin que les équipes puissent agir avant la fin du service.",
       "scenarioTime": "MARDI · 9:14 AM · CENTRE-VILLE",
       "scenarioHook": "Les revenus du déjeuner sont en retard de 14 % par rapport au plan.",
       "illustrativeNote": "Scénario illustratif basé sur les capacités de Sundae.",
-      "closing": "Du signal à la cause jusqu'à l'action - avant la fin du changement.",
+      "closing": "Du signal à la cause jusqu'à l'action - avant la fin du service.",
       "dimensions": [
         {
           "shortLabel": "Que s'est-il passé",
           "eyebrow": "QUE S'EST-IL PASSÉ",
-          "title": "Les couvertures sont en baisse de 22%.",
-          "body": "Le ticket moyen reste stable, donc le problème vient du trafic - pas des prix."
+          "title": "Les couverts sont en baisse de 22%.",
+          "body": "Le ticket moyen reste stable, donc le problème vient de la fréquentation - pas des prix."
         },
         {
           "shortLabel": "Prévisions vs réel",
@@ -257,7 +257,7 @@ export const generatedLocalCopy = {
         "watchtowerItem1": "3 concurrents dans un rayon de 2 km ont réduit les combos déjeuner à 9,99 $ hier",
         "watchtowerItem2": "Exercice d'évacuation de bureau prévu de 11h à 12h, à 2 pâtés de maisons",
         "coach": "Sundae Coach",
-        "coachBody": "Ajustez un shift de cuisinier de 11h à 14h si la couverture le permet. Poussez le combo déjeuner à 11,99 $ via la fidélité.",
+        "coachBody": "Retirez un poste de cuisinier de 11h à 14h si le personnel le permet. Poussez le combo déjeuner à 11,99 $ via le programme de fidélité.",
         "coachProjection": "Impact projeté : récupérer une partie de l'écart si exécuté avant le pic de déjeuner.",
         "illustrative": "Illustratif"
       }
@@ -265,11 +265,11 @@ export const generatedLocalCopy = {
     "pt": {
       "eyebrow": "O MODELO DE INTELIGÊNCIA 4D",
       "headline": "Assista a um problema de receita se transformar em uma decisão.",
-      "description": "Sundae conecta desempenho, planejamento, contexto de mercado e próxima ação - para que as equipes possam agir antes que a mudança termine.",
+      "description": "Sundae conecta desempenho, planejamento, contexto de mercado e próxima ação - para que as equipes possam agir antes que o turno termine.",
       "scenarioTime": "TERÇA-FEIRA · 9:14 AM · CENTRO",
       "scenarioHook": "A receita do almoço está 14% abaixo do planejado.",
       "illustrativeNote": "Cenário ilustrativo baseado nas capacidades do Sundae.",
-      "closing": "Do sinal à causa à ação - antes que a mudança termine.",
+      "closing": "Do sinal à causa à ação - antes que o turno termine.",
       "dimensions": [
         {
           "shortLabel": "O que aconteceu",
@@ -317,11 +317,11 @@ export const generatedLocalCopy = {
     "hi": {
       "eyebrow": "4D इंटेलिजेंस मॉडल",
       "headline": "एक राजस्व समस्या को निर्णय में बदलते हुए देखें।",
-      "description": "Sundae प्रदर्शन, योजना, बाजार संदर्भ और अगली कार्रवाई को जोड़ता है - ताकि टीमें बदलाव खत्म होने से पहले आगे बढ़ सकें।",
+      "description": "Sundae प्रदर्शन, योजना, बाजार संदर्भ और अगली कार्रवाई को जोड़ता है - ताकि टीमें शिफ्ट खत्म होने से पहले आगे बढ़ सकें।",
       "scenarioTime": "मंगलवार · 9:14 पूर्वाह्न · डाउनटाउन",
       "scenarioHook": "दोपहर के भोजन की आय योजना से 14% पीछे है।",
       "illustrativeNote": "Sundae की क्षमताओं पर आधारित एक चित्रात्मक परिदृश्य।",
-      "closing": "संकेत से कारण तक और फिर क्रिया तक - बदलाव समाप्त होने से पहले।",
+      "closing": "संकेत से कारण तक और फिर क्रिया तक - शिफ्ट समाप्त होने से पहले।",
       "dimensions": [
         {
           "shortLabel": "क्या हुआ",
@@ -369,17 +369,17 @@ export const generatedLocalCopy = {
     "ur": {
       "eyebrow": "4D ذہانت ماڈل",
       "headline": "ایک آمدنی کے مسئلے کو ایک فیصلے میں تبدیل ہوتے ہوئے دیکھیں۔",
-      "description": "Sundae کارکردگی، منصوبہ، مارکیٹ کے سیاق و سباق، اور اگلی کارروائی کو جوڑتا ہے - تاکہ ٹیمیں تبدیلی ختم ہونے سے پہلے آگے بڑھ سکیں۔",
+      "description": "Sundae کارکردگی، منصوبہ، مارکیٹ کے سیاق و سباق، اور اگلی کارروائی کو جوڑتا ہے - تاکہ ٹیمیں شفٹ ختم ہونے سے پہلے آگے بڑھ سکیں۔",
       "scenarioTime": "منگل · 9:14 صبح · شہر کے وسط میں",
       "scenarioHook": "دوپہر کے کھانے کی آمدنی منصوبے سے 14% پیچھے ہے۔",
-      "illustrativeNote": "Illustrative scenario based on Sundae capabilities.",
-      "closing": "سگنل سے سبب تک اور عمل تک - تبدیلی ختم ہونے سے پہلے۔",
+      "illustrativeNote": "Sundae کی صلاحیتوں پر مبنی وضاحتی منظرنامہ۔",
+      "closing": "سگنل سے سبب تک اور عمل تک - شفٹ ختم ہونے سے پہلے۔",
       "dimensions": [
         {
           "shortLabel": "کیا ہوا",
           "eyebrow": "کیا ہوا",
-          "title": "کوریج 22% کم ہو گئی ہے۔",
-          "body": "اوسط چیک مستحکم ہے، لہذا مسئلہ ٹریفک ہے - قیمت نہیں۔"
+          "title": "گاہکوں کی تعداد 22% کم ہو گئی ہے۔",
+          "body": "اوسط بل مستحکم ہے، لہذا مسئلہ گاہکوں کی آمد کا ہے - قیمت کا نہیں۔"
         },
         {
           "shortLabel": "منصوبہ بمقابلہ حقیقت",
@@ -400,9 +400,9 @@ export const generatedLocalCopy = {
           "body": "اگر کوریج کی اجازت ہو تو مزدوری کو ایڈجسٹ کریں، دوپہر کے کھانے کی پیشکش کو بڑھائیں، اور ٹیم کو چوٹی کے ختم ہونے سے پہلے فرق کا کچھ حصہ بحال کرنے کا موقع دیں۔"
         }
       ],
-      "visualHeader": "Pulse - ڈاؤن ٹاؤن · دوپہر کا کھانا سروس",
+      "visualHeader": "Pulse - شہر کا مرکز · دوپہر کے کھانے کی سروس",
       "visualLabels": {
-        "coversChart": "دوپہر کے کھانے کے کوریج - آج بمقابلہ پچھلے ہفتے کے اسی دن",
+        "coversChart": "دوپہر کے گاہک - آج بمقابلہ پچھلے ہفتے کے اسی دن",
         "coversTrend": "−22% ہفتہ وار",
         "planVsActual": "منصوبہ بمقابلہ حقیقی",
         "planVsActualVariance": "−$3,800 بمقابلہ پیش گوئی",
@@ -430,8 +430,8 @@ export const generatedLocalCopy = {
         {
           "shortLabel": "Cosa è successo",
           "eyebrow": "COSA È SUCCESSO",
-          "title": "Le coperture sono diminuite del 22%.",
-          "body": "Il conto medio è stabile, quindi il problema è il traffico - non i prezzi."
+          "title": "I coperti sono diminuiti del 22%.",
+          "body": "Lo scontrino medio è stabile, quindi il problema è l'affluenza - non i prezzi."
         },
         {
           "shortLabel": "Piano vs reale",
@@ -460,7 +460,7 @@ export const generatedLocalCopy = {
         "planVsActualVariance": "−$3,800 rispetto alla previsione",
         "forecast": "Previsione",
         "actualRunRate": "Tasso di esecuzione attuale",
-        "laborNote": "Manodopera ancora sulla base - sovraccarico per questo volume.",
+        "laborNote": "Personale ancora al livello base - sovradimensionato per questo volume.",
         "watchtower": "Watchtower",
         "watchtowerItem1": "3 concorrenti entro 2 km hanno abbassato i pacchetti pranzo a $9.99 ieri",
         "watchtowerItem2": "Esercitazione antincendio nell'ufficio programmata 11-12, a 2 isolati di distanza",
@@ -482,8 +482,8 @@ export const generatedLocalCopy = {
         {
           "shortLabel": "Co się stało",
           "eyebrow": "CO SIĘ STAŁO",
-          "title": "Obroty spadły o 22%.",
-          "body": "Średni rachunek jest stabilny, więc problemem jest ruch - nie ceny."
+          "title": "Liczba gości spadła o 22%.",
+          "body": "Średni rachunek jest stabilny, więc problemem jest frekwencja - nie ceny."
         },
         {
           "shortLabel": "Plan vs rzeczywistość",
@@ -493,7 +493,7 @@ export const generatedLocalCopy = {
         },
         {
           "shortLabel": "Kontekst rynkowy",
-          "eyebrow": "KONTEXT RYNKOWY",
+          "eyebrow": "KONTEKST RYNKOWY",
           "title": "Rynek wyjaśnia różnicę.",
           "body": "Okoliczni konkurenci zrezygnowali z lunchowych zestawów, a lokalne wydarzenie biurowe zmniejsza ruch pieszy."
         },
@@ -506,12 +506,12 @@ export const generatedLocalCopy = {
       ],
       "visualHeader": "Pulse - Centrum · Serwis Lunchowy",
       "visualLabels": {
-        "coversChart": "Lunch covers - dzisiaj vs ten sam dzień w zeszłym tygodniu",
-        "coversTrend": "−22% Tydzień do tygodnia",
+        "coversChart": "Goście w porze lunchu - dzisiaj vs ten sam dzień w zeszłym tygodniu",
+        "coversTrend": "−22% tydzień do tygodnia",
         "planVsActual": "Plan vs rzeczywistość",
         "planVsActualVariance": "−3 800 USD vs prognoza",
         "forecast": "Prognoza",
-        "actualRunRate": "Rzeczywista stawka",
+        "actualRunRate": "Rzeczywiste tempo",
         "laborNote": "Pracownicy nadal na poziomie bazowym - zbyt dużo personelu jak na tę ilość.",
         "watchtower": "Watchtower",
         "watchtowerItem1": "3 konkurentów w promieniu 2 km obniżyło ceny lunchowych zestawów do 9,99 USD wczoraj",
@@ -526,7 +526,7 @@ export const generatedLocalCopy = {
       "eyebrow": "4D ZEKÂ MODELİ",
       "headline": "Bir gelir sorununu karar haline getirin.",
       "description": "Sundae, performansı, planı, piyasa bağlamını ve bir sonraki eylemi birleştirir - böylece ekipler değişim bitmeden harekete geçebilir.",
-      "scenarioTime": "SALı · 9:14 ÖÖ · ŞEHİR MERKEZİ",
+      "scenarioTime": "SALI · 9:14 ÖÖ · ŞEHİR MERKEZİ",
       "scenarioHook": "Öğle yemeği geliri planın %14 gerisinde ilerliyor.",
       "illustrativeNote": "Sundae yeteneklerine dayanan örnek senaryo.",
       "closing": "Sinyalden nedene, oradan da eyleme - değişim sona ermeden önce.",
@@ -534,8 +534,8 @@ export const generatedLocalCopy = {
         {
           "shortLabel": "Ne oldu",
           "eyebrow": "NE OLDU",
-          "title": "Kapsamlar %22 düştü.",
-          "body": "Ortalama kontrol sabit, bu yüzden sorun trafik - fiyatlandırma değil."
+          "title": "Misafir sayısı %22 düştü.",
+          "body": "Ortalama adisyon sabit, bu yüzden sorun müşteri trafiği - fiyatlandırma değil."
         },
         {
           "shortLabel": "Plan vs gerçek",
@@ -558,7 +558,7 @@ export const generatedLocalCopy = {
       ],
       "visualHeader": "Pulse - Şehir Merkezi · Öğle Servisi",
       "visualLabels": {
-        "coversChart": "Öğle yemekleri - bugün ve geçen haftanın aynı günü",
+        "coversChart": "Öğle misafirleri - bugün ve geçen haftanın aynı günü",
         "coversTrend": "−%22 Haftalık",
         "planVsActual": "Plan vs gerçek",
         "planVsActualVariance": "−$3,800 tahmine karşı",
@@ -568,7 +568,7 @@ export const generatedLocalCopy = {
         "watchtower": "Watchtower",
         "watchtowerItem1": "2 km içinde 3 rakip dün öğle kombinelerini $9.99'a düşürdü",
         "watchtowerItem2": "Ofis kulesi yangın tatbikatı 11-12, 2 blok ötede planlandı",
-        "coach": "Sundae Koçu",
+        "coach": "Sundae Coach",
         "coachBody": "Kapsama izin veriyorsa 11-2 arasındaki bir aşçı vardiyasını ayarlayın. Sadakat programı aracılığıyla $11.99 öğle kombinelerini teşvik edin.",
         "coachProjection": "Tahmini etki: öğle yoğunluğundan önce uygulanırsa açığı kısmen kapatın.",
         "illustrative": "Örnek"
@@ -608,9 +608,9 @@ export const generatedLocalCopy = {
           "body": "如果覆盖允许，调整劳动力，推动午餐优惠，并给团队一个机会在高峰结束前弥补部分差距。"
         }
       ],
-      "visualHeader": "Pulse - Downtown · Lunch Service",
+      "visualHeader": "Pulse - 市中心 · 午餐服务",
       "visualLabels": {
-        "coversChart": "午餐覆盖人数 - 今天与上周同日对比",
+        "coversChart": "午餐客流 - 今天与上周同日对比",
         "coversTrend": "−22% 周比",
         "planVsActual": "计划与实际",
         "planVsActualVariance": "−$3,800 与预测对比",
@@ -620,7 +620,7 @@ export const generatedLocalCopy = {
         "watchtower": "Watchtower",
         "watchtowerItem1": "3家竞争对手在2公里内昨天将午餐套餐降至$9.99",
         "watchtowerItem2": "办公大楼火灾演习定于11点至12点，距离2个街区",
-        "coach": "Sundae 教练",
+        "coach": "Sundae Coach",
         "coachBody": "如果覆盖允许，将一名厨师的班次调整为11点至2点。通过忠诚度推广$11.99的午餐套餐。",
         "coachProjection": "预计影响：如果在午餐高峰前执行，将弥补部分差距。",
         "illustrative": "示例"
@@ -638,8 +638,8 @@ export const generatedLocalCopy = {
         {
           "shortLabel": "Điều gì đã xảy ra",
           "eyebrow": "ĐIỀU GÌ ĐÃ XẢY RA",
-          "title": "Doanh thu giảm 22%.",
-          "body": "Giá trung bình ổn định, vì vậy vấn đề là lưu lượng khách - không phải giá cả."
+          "title": "Lượng khách giảm 22%.",
+          "body": "Hóa đơn trung bình ổn định, vì vậy vấn đề là lượng khách - không phải giá cả."
         },
         {
           "shortLabel": "Kế hoạch so với thực tế",
@@ -662,7 +662,7 @@ export const generatedLocalCopy = {
       ],
       "visualHeader": "Pulse - Trung tâm · Dịch vụ Bữa trưa",
       "visualLabels": {
-        "coversChart": "Bữa trưa - hôm nay so với cùng ngày tuần trước",
+        "coversChart": "Khách bữa trưa - hôm nay so với cùng ngày tuần trước",
         "coversTrend": "−22% so với tuần trước",
         "planVsActual": "Kế hoạch so với thực tế",
         "planVsActualVariance": "−$3,800 so với dự báo",
@@ -672,7 +672,7 @@ export const generatedLocalCopy = {
         "watchtower": "Watchtower",
         "watchtowerItem1": "3 đối thủ trong vòng 2km đã giảm giá combo bữa trưa xuống $9.99 hôm qua",
         "watchtowerItem2": "Buổi diễn tập phòng cháy chữa cháy tại tòa nhà văn phòng dự kiến từ 11-12, cách 2 dãy nhà",
-        "coach": "Huấn luyện viên Sundae",
+        "coach": "Sundae Coach",
         "coachBody": "Điều chỉnh một ca đầu bếp từ 11-2 nếu có thể. Đẩy combo bữa trưa $11.99 qua chương trình khách hàng thân thiết.",
         "coachProjection": "Tác động dự kiến: phục hồi một phần khoảng cách nếu thực hiện trước giờ cao điểm bữa trưa.",
         "illustrative": "Minh họa"
@@ -690,12 +690,12 @@ export const generatedLocalCopy = {
         {
           "shortLabel": "Apa yang terjadi",
           "eyebrow": "APA YANG TERJADI",
-          "title": "Penutupan turun 22%.",
-          "body": "Rata-rata cek stabil, jadi masalahnya adalah lalu lintas - bukan harga."
+          "title": "Jumlah tamu turun 22%.",
+          "body": "Rata-rata struk stabil, jadi masalahnya adalah jumlah kunjungan - bukan harga."
         },
         {
           "shortLabel": "Rencana vs aktual",
-          "eyebrow": "RENCAANA VS AKTUAL",
+          "eyebrow": "RENCANA VS AKTUAL",
           "title": "Lokasi $3,800 di belakang perkiraan.",
           "body": "Tenaga kerja masih diisi sesuai dasar, jadi margin menyusut setiap jam."
         },
@@ -714,17 +714,17 @@ export const generatedLocalCopy = {
       ],
       "visualHeader": "Pulse - Pusat Kota · Layanan Makan Siang",
       "visualLabels": {
-        "coversChart": "Covers makan siang - hari ini vs hari yang sama minggu lalu",
-        "coversTrend": "−22% WoW",
+        "coversChart": "Tamu makan siang - hari ini vs hari yang sama minggu lalu",
+        "coversTrend": "−22% dari minggu lalu",
         "planVsActual": "Rencana vs aktual",
         "planVsActualVariance": "−$3,800 vs perkiraan",
         "forecast": "Perkiraan",
-        "actualRunRate": "Tingkat jalankan aktual",
+        "actualRunRate": "Laju aktual saat ini",
         "laborNote": "Tenaga kerja masih pada baseline - kelebihan staf untuk volume ini.",
         "watchtower": "Watchtower",
         "watchtowerItem1": "3 pesaing dalam 2km menurunkan paket makan siang menjadi $9.99 kemarin",
         "watchtowerItem2": "Latihan kebakaran gedung kantor dijadwalkan 11-12, 2 blok jauhnya",
-        "coach": "Pelatih Sundae",
+        "coach": "Sundae Coach",
         "coachBody": "Sesuaikan satu shift juru masak dari 11-2 jika cakupan memungkinkan. Dorong paket makan siang $11.99 melalui loyalitas.",
         "coachProjection": "Dampak yang diproyeksikan: memulihkan sebagian dari kesenjangan jika dilaksanakan sebelum puncak makan siang.",
         "illustrative": "Ilustratif"
@@ -742,14 +742,14 @@ export const generatedLocalCopy = {
         {
           "shortLabel": "何が起こったか",
           "eyebrow": "何が起こったか",
-          "title": "カバーは22%減少しています。",
-          "body": "平均チェックは安定しているので、問題はトラフィックです - 価格ではありません。"
+          "title": "来客数は22%減少しています。",
+          "body": "客単価は安定しているので、問題は客足です - 価格ではありません。"
         },
         {
           "shortLabel": "計画と実績",
           "eyebrow": "計画と実績",
           "title": "この場所は予測より$3,800遅れています。",
-          "body": "労働力はまだ基準に合わせているので、マージンは時間とともに減少しています。"
+          "body": "人員はまだ標準どおり配置されているので、利益率は時間ごとに減少しています。"
         },
         {
           "shortLabel": "市場の状況",
@@ -761,18 +761,18 @@ export const generatedLocalCopy = {
           "shortLabel": "次のアクション",
           "eyebrow": "次のアクション",
           "title": "Sundae Coachが次の動きを推奨します。",
-          "body": "カバレッジが許す場合は労働を調整し、ランチオファーを推進し、ピークが終わる前にチームにギャップの一部を回復する機会を与えます。"
+          "body": "人員配置に余裕があれば人員を調整し、ランチの販促を強化し、ピークが終わる前にチームにギャップの一部を取り戻す機会を与えます。"
         }
       ],
       "visualHeader": "Pulse - ダウンタウン · ランチサービス",
       "visualLabels": {
-        "coversChart": "ランチカバー - 今日 vs 先週同日",
+        "coversChart": "ランチ来客数 - 今日 vs 先週同日",
         "coversTrend": "−22% WoW",
         "planVsActual": "計画 vs 実績",
         "planVsActualVariance": "−$3,800 vs 予測",
         "forecast": "予測",
         "actualRunRate": "実際の実行率",
-        "laborNote": "労働はまだ基準内 - このボリュームに対して過剰人員です。",
+        "laborNote": "人員はまだ標準どおり - この客数に対して過剰人員です。",
         "watchtower": "Watchtower",
         "watchtowerItem1": "2km以内の3社が昨日ランチコンボを$9.99に値下げしました",
         "watchtowerItem2": "オフィスタワーの火災訓練が11時から12時まで、2ブロック先で予定されています",
@@ -785,17 +785,17 @@ export const generatedLocalCopy = {
     "ro": {
       "eyebrow": "MODELUL DE INTELIGENȚĂ 4D",
       "headline": "Privește o problemă de venituri transformându-se într-o decizie.",
-      "description": "Sundae conectează performanța, planul, contextul pieței și următoarea acțiune - astfel încât echipele să poată acționa înainte ca schimbarea să se încheie.",
+      "description": "Sundae conectează performanța, planul, contextul pieței și următoarea acțiune - astfel încât echipele să poată acționa înainte ca tura să se încheie.",
       "scenarioTime": "MARȚI · 9:14 AM · CENTRUL ORAȘULUI",
       "scenarioHook": "Venitul din prânz este cu 14% sub plan.",
       "illustrativeNote": "Scenariul ilustrativ bazat pe capabilitățile Sundae.",
-      "closing": "De la semnal la cauză și acțiune - înainte ca schimbarea să se încheie.",
+      "closing": "De la semnal la cauză și acțiune - înainte ca tura să se încheie.",
       "dimensions": [
         {
           "shortLabel": "Ce s-a întâmplat",
           "eyebrow": "CE S-A ÎNTÂMPLAT",
-          "title": "Cotele au scăzut cu 22%.",
-          "body": "Verificarea medie este constantă, așa că problema este traficul - nu prețul."
+          "title": "Numărul de clienți a scăzut cu 22%.",
+          "body": "Nota de plată medie este constantă, așa că problema este afluența - nu prețul."
         },
         {
           "shortLabel": "Plan vs realitate",
@@ -818,7 +818,7 @@ export const generatedLocalCopy = {
       ],
       "visualHeader": "Pulse - Centrul orașului · Serviciu de prânz",
       "visualLabels": {
-        "coversChart": "Prânzuri acoperite - astăzi vs aceeași zi de săptămâna trecută",
+        "coversChart": "Clienți la prânz - astăzi vs aceeași zi de săptămâna trecută",
         "coversTrend": "−22% săptămână după săptămână",
         "planVsActual": "Plan vs realitate",
         "planVsActualVariance": "−$3,800 vs prognoză",
@@ -846,8 +846,8 @@ export const generatedLocalCopy = {
         {
           "shortLabel": "Vad hände",
           "eyebrow": "VAD HÄNDE",
-          "title": "Omsättningen har minskat med 22%.",
-          "body": "Genomsnittlig kassa är stabil, så problemet är trafiken - inte prissättningen."
+          "title": "Antalet gäster har minskat med 22%.",
+          "body": "Snittnotan är stabil, så problemet är gästtillströmningen - inte prissättningen."
         },
         {
           "shortLabel": "Plan vs verklighet",
@@ -868,14 +868,14 @@ export const generatedLocalCopy = {
           "body": "Justera arbetskraften om täckningen tillåter, tryck på luncherbjudandet, och ge teamet en chans att återhämta en del av skillnaden innan rusningen slutar."
         }
       ],
-      "visualHeader": "Pulse - Downtown · Lunchservice",
+      "visualHeader": "Pulse - Centrum · Lunchservice",
       "visualLabels": {
         "coversChart": "Lunchgäster - idag vs samma dag förra veckan",
         "coversTrend": "−22% Veckovis",
         "planVsActual": "Plan vs verklighet",
         "planVsActualVariance": "−$3,800 vs prognos",
         "forecast": "Prognos",
-        "actualRunRate": "Verklig körhastighet",
+        "actualRunRate": "Faktisk takt",
         "laborNote": "Arbetskraft fortfarande på baslinje - överbemannad för denna volym.",
         "watchtower": "Watchtower",
         "watchtowerItem1": "3 konkurrenter inom 2 km sänkte lunchkombos till $9.99 igår",
@@ -889,17 +889,17 @@ export const generatedLocalCopy = {
     "bn": {
       "eyebrow": "৪ডি বুদ্ধিমত্তা মডেল",
       "headline": "একটি রাজস্ব সমস্যাকে একটি সিদ্ধান্তে পরিণত হতে দেখুন।",
-      "description": "Sundae কর্মক্ষমতা, পরিকল্পনা, বাজারের প্রেক্ষাপট এবং পরবর্তী পদক্ষেপকে সংযুক্ত করে - যাতে দলগুলি পরিবর্তনের আগে পদক্ষেপ নিতে পারে।",
+      "description": "Sundae কর্মক্ষমতা, পরিকল্পনা, বাজারের প্রেক্ষাপট এবং পরবর্তী পদক্ষেপকে সংযুক্ত করে - যাতে দলগুলি শিফট শেষ হওয়ার আগে পদক্ষেপ নিতে পারে।",
       "scenarioTime": "মঙ্গলবার · ৯:১৪ AM · ডাউনটাউন",
       "scenarioHook": "দুপুরের খাবারের রাজস্ব পরিকল্পনার থেকে ১৪% পিছিয়ে রয়েছে।",
-      "illustrativeNote": "Illustrative scenario based on Sundae capabilities.",
-      "closing": "সংকেত থেকে কারণ পর্যন্ত এবং তারপর কার্যক্রম - পরিবর্তন শেষ হওয়ার আগে।",
+      "illustrativeNote": "Sundae-এর সক্ষমতার উপর ভিত্তি করে একটি দৃষ্টান্তমূলক পরিস্থিতি।",
+      "closing": "সংকেত থেকে কারণ পর্যন্ত এবং তারপর কার্যক্রম - শিফট শেষ হওয়ার আগে।",
       "dimensions": [
         {
           "shortLabel": "কি হয়েছে",
           "eyebrow": "কি হয়েছে",
-          "title": "কভার ২২% কমেছে।",
-          "body": "গড় চেক স্থির রয়েছে, তাই সমস্যা ট্রাফিক - মূল্য নয়।"
+          "title": "অতিথির সংখ্যা ২২% কমেছে।",
+          "body": "গড় বিল স্থির রয়েছে, তাই সমস্যা অতিথির আগমন - মূল্য নয়।"
         },
         {
           "shortLabel": "পরিকল্পনা বনাম বাস্তব",
@@ -920,9 +920,9 @@ export const generatedLocalCopy = {
           "body": "কভারেজ অনুমতি দিলে শ্রম সমন্বয় করুন, লাঞ্চ অফারটি প্রচার করুন, এবং দলের জন্য পিক শেষ হওয়ার আগে ফাঁকটির কিছু অংশ পুনরুদ্ধার করার সুযোগ দিন।"
         }
       ],
-      "visualHeader": "Pulse - Downtown · Lunch Service",
+      "visualHeader": "Pulse - শহরের কেন্দ্র · লাঞ্চ সার্ভিস",
       "visualLabels": {
-        "coversChart": "লাঞ্চ কভার - আজ বনাম গত সপ্তাহের একই দিনে",
+        "coversChart": "লাঞ্চ অতিথি - আজ বনাম গত সপ্তাহের একই দিনে",
         "coversTrend": "−২২% সপ্তাহে সপ্তাহে",
         "planVsActual": "পরিকল্পনা বনাম বাস্তবতা",
         "planVsActualVariance": "−$3,800 বনাম পূর্বাভাস",
@@ -932,7 +932,7 @@ export const generatedLocalCopy = {
         "watchtower": "Watchtower",
         "watchtowerItem1": "২ কিমির মধ্যে ৩ প্রতিযোগী গতকাল লাঞ্চ কম্বো $9.99 এ নামিয়ে দিয়েছে",
         "watchtowerItem2": "অফিস-টাওয়ার ফায়ার ড্রিল ১১-১২, ২ ব্লক দূরে নির্ধারিত",
-        "coach": "Sundae কোচ",
+        "coach": "Sundae Coach",
         "coachBody": "যদি কভারেজ অনুমতি দেয় তবে ১১-২ এর একটি লাইন-কুক শিফট সমন্বয় করুন। $11.99 লাঞ্চ কম্বোকে লয়্যালটির মাধ্যমে প্রচার করুন।",
         "coachProjection": "প্রকল্পিত প্রভাব: লাঞ্চ পিকের আগে কার্যকর হলে গ্যাপের একটি অংশ পুনরুদ্ধার করুন।",
         "illustrative": "উদাহরণস্বরূপ"
@@ -941,17 +941,17 @@ export const generatedLocalCopy = {
     "th": {
       "eyebrow": "โมเดลปัญญาประดิษฐ์ 4D",
       "headline": "ดูปัญหารายได้หนึ่งปัญหาเปลี่ยนเป็นการตัดสินใจ.",
-      "description": "Sundae เชื่อมโยงประสิทธิภาพ แผน บริบทตลาด และการดำเนินการถัดไป - เพื่อให้ทีมสามารถเคลื่อนไหวได้ก่อนที่การเปลี่ยนแปลงจะสิ้นสุด.",
+      "description": "Sundae เชื่อมโยงประสิทธิภาพ แผน บริบทตลาด และการดำเนินการถัดไป - เพื่อให้ทีมสามารถเคลื่อนไหวได้ก่อนที่กะจะสิ้นสุด.",
       "scenarioTime": "วันอังคาร · 9:14 น. · ย่านใจกลางเมือง",
       "scenarioHook": "รายได้จากอาหารกลางวันต่ำกว่าที่วางแผนไว้ 14%.",
       "illustrativeNote": "สถานการณ์ที่แสดงถึงความสามารถของ Sundae.",
-      "closing": "จากสัญญาณไปสู่สาเหตุไปสู่การกระทำ - ก่อนที่การเปลี่ยนแปลงจะสิ้นสุดลง.",
+      "closing": "จากสัญญาณไปสู่สาเหตุไปสู่การกระทำ - ก่อนที่กะจะสิ้นสุดลง.",
       "dimensions": [
         {
           "shortLabel": "เกิดอะไรขึ้น",
           "eyebrow": "เกิดอะไรขึ้น",
-          "title": "ยอดขายลดลง 22%",
-          "body": "ค่าเฉลี่ยการใช้จ่ายคงที่ ดังนั้นปัญหาคือการเข้าชม - ไม่ใช่ราคา."
+          "title": "จำนวนลูกค้าลดลง 22%",
+          "body": "ยอดใช้จ่ายเฉลี่ยต่อบิลคงที่ ดังนั้นปัญหาคือจำนวนลูกค้า - ไม่ใช่ราคา."
         },
         {
           "shortLabel": "แผนกับจริง",
@@ -993,17 +993,17 @@ export const generatedLocalCopy = {
     "ko": {
       "eyebrow": "4D 인텔리전스 모델",
       "headline": "하나의 수익 문제가 결정으로 바뀌는 모습을 지켜보세요.",
-      "description": "Sundae는 성과, 계획, 시장 맥락 및 다음 행동을 연결하여 팀이 변화가 끝나기 전에 움직일 수 있도록 합니다.",
+      "description": "Sundae는 성과, 계획, 시장 맥락 및 다음 행동을 연결하여 팀이 교대 근무가 끝나기 전에 움직일 수 있도록 합니다.",
       "scenarioTime": "화요일 · 오전 9:14 · 다운타운",
       "scenarioHook": "점심 수익이 계획보다 14% 뒤처지고 있습니다.",
       "illustrativeNote": "Sundae 기능을 기반으로 한 설명 시나리오.",
-      "closing": "신호에서 원인, 행동으로 - 변화가 끝나기 전에.",
+      "closing": "신호에서 원인, 행동으로 - 교대 근무가 끝나기 전에.",
       "dimensions": [
         {
           "shortLabel": "무슨 일이 있었나요",
           "eyebrow": "무슨 일이 있었나요",
-          "title": "매출이 22% 감소했습니다.",
-          "body": "평균 체크는 안정적이므로 문제는 트래픽입니다 - 가격이 아닙니다."
+          "title": "내점객이 22% 감소했습니다.",
+          "body": "평균 객단가는 안정적이므로 문제는 내점객 수입니다 - 가격이 아닙니다."
         },
         {
           "shortLabel": "계획 vs 실제",
@@ -1026,7 +1026,7 @@ export const generatedLocalCopy = {
       ],
       "visualHeader": "Pulse - 다운타운 · 점심 서비스",
       "visualLabels": {
-        "coversChart": "점심 커버 - 오늘 vs 지난주 같은 날",
+        "coversChart": "점심 내점객 - 오늘 vs 지난주 같은 날",
         "coversTrend": "−22% 주간 변동",
         "planVsActual": "계획 vs 실제",
         "planVsActualVariance": "−$3,800 vs 예측",
@@ -1045,17 +1045,17 @@ export const generatedLocalCopy = {
     "ms": {
       "eyebrow": "MODEL KECERDASAN 4D",
       "headline": "Saksikan satu masalah pendapatan menjadi keputusan.",
-      "description": "Sundae menghubungkan prestasi, pelan, konteks pasaran, dan tindakan seterusnya - supaya pasukan dapat bertindak sebelum perubahan berakhir.",
+      "description": "Sundae menghubungkan prestasi, pelan, konteks pasaran, dan tindakan seterusnya - supaya pasukan dapat bertindak sebelum syif berakhir.",
       "scenarioTime": "SELASA · 9:14 PAGI · PUSAT BANDAR",
       "scenarioHook": "Pendapatan makan tengah hari berada 14% di belakang rancangan.",
       "illustrativeNote": "Senario ilustratif berdasarkan keupayaan Sundae.",
-      "closing": "Dari isyarat kepada sebab kepada tindakan - sebelum pergeseran berakhir.",
+      "closing": "Dari isyarat kepada sebab kepada tindakan - sebelum syif berakhir.",
       "dimensions": [
         {
           "shortLabel": "Apa yang berlaku",
           "eyebrow": "APA YANG BERLAKU",
-          "title": "Penutupan turun 22%.",
-          "body": "Semakan purata stabil, jadi isu adalah trafik - bukan harga."
+          "title": "Jumlah tetamu turun 22%.",
+          "body": "Bil purata stabil, jadi isu adalah jumlah pelanggan - bukan harga."
         },
         {
           "shortLabel": "Rancangan vs sebenar",
@@ -1073,12 +1073,12 @@ export const generatedLocalCopy = {
           "shortLabel": "Tindakan seterusnya",
           "eyebrow": "TINDAKAN SETERUSNYA",
           "title": "Sundae Coach mengesyorkan langkah seterusnya.",
-          "body": "Sesuaikan tenaga kerja jika penutupan membenarkan, dorong tawaran makan tengah hari, dan beri pasukan peluang untuk memulihkan sebahagian jurang sebelum puncak berakhir."
+          "body": "Sesuaikan tenaga kerja jika liputan membenarkan, dorong tawaran makan tengah hari, dan beri pasukan peluang untuk memulihkan sebahagian jurang sebelum puncak berakhir."
         }
       ],
       "visualHeader": "Pulse - Pusat Bandar · Perkhidmatan Makan Tengah Hari",
       "visualLabels": {
-        "coversChart": "Makanan tengah hari - hari ini vs hari yang sama minggu lepas",
+        "coversChart": "Tetamu makan tengah hari - hari ini vs hari yang sama minggu lepas",
         "coversTrend": "−22% WoW",
         "planVsActual": "Pelan vs sebenar",
         "planVsActualVariance": "−$3,800 vs ramalan",

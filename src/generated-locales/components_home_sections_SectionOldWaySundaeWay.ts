@@ -40,9 +40,9 @@ export const generatedLocalCopy = {
       "sundaeWayLabel": "La méthode Sundae",
       "oldWay": [
         "Exporter les chiffres.",
-        "Débattre sur le tableau de bord approprié.",
+        "Débattre du bon tableau de bord.",
         "Demander à un analyste.",
-        "Réagir après la semaine écoulée."
+        "Réagir une fois la semaine écoulée."
       ],
       "sundaeWay": [
         "Détecter le problème.",
@@ -127,10 +127,10 @@ export const generatedLocalCopy = {
       "headlinePre": "Rapporten vertellen wat er is gebeurd.",
       "headlinePost": "vertelt je wat je daarna moet doen.",
       "oldWayLabel": "De oude manier",
-      "sundaeWayLabel": "De Sundae manier",
+      "sundaeWayLabel": "De Sundae-manier",
       "oldWay": [
         "Exporteer de cijfers.",
-        "Debatteer welke dashboard juist is.",
+        "Debatteer welk dashboard juist is.",
         "Vraag een analist.",
         "Reageer nadat de week voorbij is."
       ],
@@ -157,7 +157,7 @@ export const generatedLocalCopy = {
       "headlinePre": "رپورٹس آپ کو بتاتی ہیں کہ کیا ہوا۔",
       "headlinePost": "آپ کو بتاتی ہیں کہ اگلا کیا کرنا ہے۔",
       "oldWayLabel": "پرانا طریقہ",
-      "sundaeWayLabel": "The Sundae way",
+      "sundaeWayLabel": "Sundae کا طریقہ",
       "oldWay": [
         "اعداد و شمار برآمد کریں۔",
         "یہ بحث کریں کہ کون سا ڈیش بورڈ صحیح ہے۔",
@@ -174,9 +174,9 @@ export const generatedLocalCopy = {
       "sundaeWayCaption": "منگل کو 11:14 تک۔",
       "replacesPrefix": "ڈیٹا اور عمل کے درمیان تاخیر کو تبدیل کرتا ہے:",
       "replaces": [
-        "ایکسلی برآمدات",
-        "POS dashboards",
-        "بی آئی ڈیش بورڈز",
+        "ایکسل برآمدات",
+        "POS ڈیش بورڈز",
+        "BI ڈیش بورڈز",
         "تجزیہ کار کی قطار",
         "ہفتہ وار جائزہ اجلاس"
       ],
@@ -244,8 +244,8 @@ export const generatedLocalCopy = {
     },
     "hi": {
       "eyebrow": "रिपोर्टिंग की देरी और अंदाज़े से - संचालन की रफ़्तार और सुविचारित फ़ैसलों तक",
-      "headlinePre": "रिपोर्ट्स आपको बताते हैं कि क्या हुआ।",
-      "headlinePost": "आपको अगला कदम क्या उठाना है।",
+      "headlinePre": "रिपोर्ट्स आपको बताती हैं कि क्या हुआ।",
+      "headlinePost": "आपको बताता है कि आगे क्या करना है।",
       "oldWayLabel": "पुराना तरीका",
       "sundaeWayLabel": "Sundae का तरीका",
       "oldWay": [
@@ -312,7 +312,7 @@ export const generatedLocalCopy = {
         "Eksportuj liczby.",
         "Dyskutuj, który pulpit nawigacyjny jest właściwy.",
         "Zapytaj analityka.",
-        "Reaguj po tygodniu."
+        "Reaguj po zakończeniu tygodnia."
       ],
       "sundaeWay": [
         "Wykryj problem.",
@@ -378,7 +378,7 @@ export const generatedLocalCopy = {
         "問題を検出する。",
         "原因を説明する。",
         "市場を比較する。",
-        "シフトが終わる前に行動する。"
+        "変化が終わる前に行動する。"
       ],
       "oldWayCaption": "金曜日のレビュー会議までに。",
       "sundaeWayCaption": "火曜日の11:14までに。",
@@ -462,7 +462,7 @@ export const generatedLocalCopy = {
         "Ekspor angka.",
         "Perdebatkan dashboard mana yang benar.",
         "Tanya seorang analis.",
-        "Reaksi setelah minggu berlalu."
+        "Bereaksi setelah minggu berlalu."
       ],
       "sundaeWay": [
         "Deteksi masalah.",
@@ -517,7 +517,7 @@ export const generatedLocalCopy = {
       "headlinePre": "রিপোর্টগুলি আপনাকে কী ঘটেছে তা জানায়।",
       "headlinePost": "আপনাকে পরবর্তী কী করতে হবে তা জানায়।",
       "oldWayLabel": "পুরানো পদ্ধতি",
-      "sundaeWayLabel": "The Sundae way",
+      "sundaeWayLabel": "Sundae পদ্ধতি",
       "oldWay": [
         "সংখ্যাগুলি রপ্তানি করুন।",
         "কোন ড্যাশবোর্ড সঠিক তা নিয়ে বিতর্ক করুন।",
@@ -535,8 +535,8 @@ export const generatedLocalCopy = {
       "replacesPrefix": "তথ্য এবং কর্মের মধ্যে বিলম্ব প্রতিস্থাপন করে:",
       "replaces": [
         "এক্সেল রপ্তানি",
-        "POS dashboards",
-        "বিআই ড্যাশবোর্ড",
+        "POS ড্যাশবোর্ড",
+        "BI ড্যাশবোর্ড",
         "বিশ্লেষক কিউ",
         "সাপ্তাহিক পর্যালোচনা সভা"
       ],
@@ -547,10 +547,10 @@ export const generatedLocalCopy = {
       "headlinePre": "รายงานบอกคุณว่าเกิดอะไรขึ้น",
       "headlinePost": "บอกคุณว่าควรทำอะไรต่อไป",
       "oldWayLabel": "วิธีเก่า",
-      "sundaeWayLabel": "The Sundae way",
+      "sundaeWayLabel": "วิธีแบบ Sundae",
       "oldWay": [
         "ส่งออกตัวเลข",
-        "ถกเถียงว่าดashboard ไหนถูกต้อง",
+        "ถกเถียงว่าแดชบอร์ดไหนถูกต้อง",
         "ถามนักวิเคราะห์",
         "ตอบสนองหลังจากสัปดาห์ผ่านไป"
       ],
@@ -562,7 +562,7 @@ export const generatedLocalCopy = {
       ],
       "oldWayCaption": "ภายในการประชุมตรวจสอบวันศุกร์",
       "sundaeWayCaption": "ภายใน 11:14 วันอังคาร",
-      "replacesPrefix": "แทนที่ความล่าชาระหว่างข้อมูลและการดำเนินการ:",
+      "replacesPrefix": "แทนที่ความล่าช้าระหว่างข้อมูลและการดำเนินการ:",
       "replaces": [
         "การส่งออก Excel",
         "แดชบอร์ด POS",
@@ -618,7 +618,7 @@ export const generatedLocalCopy = {
         "Upptäck problemet.",
         "Förklara orsaken.",
         "Jämför marknaden.",
-        "Agera innan skiftet är över."
+        "Agera innan förändringen är över."
       ],
       "oldWayCaption": "Vid fredagens genomgångsmöte.",
       "sundaeWayCaption": "Senast 11:14 på tisdag.",

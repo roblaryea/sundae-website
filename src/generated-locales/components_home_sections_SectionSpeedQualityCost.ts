@@ -13,7 +13,7 @@ export const generatedLocalCopy = {
         {
           "label": "السرعة",
           "headline": "نشر في أيام. قرارات في ثوان.",
-          "body": "قم بتوصيل نظامك بسرعة. تحديثات Pulse خلال الوردية، وSundae Intelligence يجيب بالمصادر بدلاً من إرسال الفرق مرة أخرى إلى قائمة التقارير.",
+          "body": "اربط أنظمتك بسرعة. Pulse يُحدّث البيانات أثناء الوردية، وSundae Intelligence يجيب مع ذكر المصادر بدلاً من إعادة الفرق إلى طابور انتظار التقارير.",
           "chips": [
             "أيام للنشر",
             "تحديثات Core مباشرة",
@@ -62,12 +62,12 @@ export const generatedLocalCopy = {
         },
         {
           "label": "Qualité",
-          "headline": "Conçu pour les restaurants. Régulé pour les décisions.",
-          "body": "Sundae est livré avec plus de 500 modèles de données de restaurants régulés, des benchmarks ancrés par les pairs, et des réponses AI citées par des sources - ainsi, les équipes ne partent pas d'une toile vierge de BI.",
+          "headline": "Conçu pour les restaurants. Gouverné pour les décisions.",
+          "body": "Sundae est livré avec plus de 500 modèles de données de restaurants gouvernés, des benchmarks ancrés sur les pairs et des réponses AI sourcées - ainsi, les équipes ne partent pas d'une page blanche de BI.",
           "chips": [
             "Plus de 500 modèles",
-            "AI cité par des sources",
-            "Benchmarks par les pairs"
+            "AI sourcée",
+            "Benchmarks entre pairs"
           ]
         },
         {
@@ -93,7 +93,7 @@ export const generatedLocalCopy = {
         {
           "label": "Velocidad",
           "headline": "Despliega en días. Decide en segundos.",
-          "body": "Conecta tu stack rápidamente. Actualizaciones de Pulse durante el turno, y Sundae Intelligence responde con fuentes en lugar de enviar equipos de vuelta a la cola de informes.",
+          "body": "Conecta tu stack rápidamente. Pulse se actualiza durante el turno y Sundae Intelligence responde citando fuentes en lugar de devolver a los equipos a la cola de informes.",
           "chips": [
             "Días para desplegar",
             "Actualización en vivo de Core",
@@ -103,11 +103,11 @@ export const generatedLocalCopy = {
         {
           "label": "Calidad",
           "headline": "Construido para restaurantes. Gobernado para decisiones.",
-          "body": "Sundae incluye más de 500 modelos de datos de restaurantes gobernados, benchmarks anclados en pares y respuestas de IA citadas por fuentes - así que los equipos no están construyendo desde un lienzo en blanco de BI.",
+          "body": "Sundae incluye más de 500 modelos de datos de restaurante gobernados, benchmarks anclados en datos de pares y respuestas de IA con fuentes citadas - así los equipos no parten de un lienzo de BI en blanco.",
           "chips": [
             "Más de 500 modelos",
-            "IA citada por fuentes",
-            "Benchmarks de pares"
+            "IA con fuentes citadas",
+            "Benchmarks entre pares"
           ]
         },
         {
@@ -142,12 +142,12 @@ export const generatedLocalCopy = {
         },
         {
           "label": "Qualität",
-          "headline": "Für Restaurants gebaut. Für Entscheidungen geregelt.",
-          "body": "Sundae wird mit über 500 geregelten Restaurantdatenmodellen, peer-gestützten Benchmarks und quellenzitierten KI-Antworten geliefert - sodass Teams nicht von einer leeren BI-Leinwand aus arbeiten müssen.",
+          "headline": "Für Restaurants gebaut. Für Entscheidungen aufbereitet.",
+          "body": "Sundae bringt über 500 kuratierte Restaurant-Datenmodelle, branchenweite Vergleichswerte und KI-Antworten mit Quellenangabe mit - so müssen Teams nicht bei einer leeren BI-Leinwand anfangen.",
           "chips": [
             "Über 500 Modelle",
-            "Quellenzitierte KI",
-            "Peer-Benchmarks"
+            "KI mit Quellenangabe",
+            "Branchen-Benchmarks"
           ]
         },
         {
@@ -213,7 +213,7 @@ export const generatedLocalCopy = {
         {
           "label": "Velocidade",
           "headline": "Implante em dias. Decida em segundos.",
-          "body": "Conecte sua pilha rapidamente. Atualizações em tempo real durante o turno, e a Sundae Intelligence responde com fontes em vez de enviar equipes de volta para a fila de relatórios. (Pulse)",
+          "body": "Conecte seu stack rapidamente. O Pulse atualiza durante o turno e a Sundae Intelligence responde citando fontes em vez de devolver as equipes para a fila de relatórios.",
           "chips": [
             "Dias para implantar",
             "Atualização ao vivo do Core",
@@ -253,7 +253,7 @@ export const generatedLocalCopy = {
         {
           "label": "गति",
           "headline": "दिनों में तैनात करें। सेकंड में निर्णय लें।",
-          "body": "अपने स्टैक को तेजी से कनेक्ट करें। शिफ्ट के दौरान Pulse अपडेट करें, और Sundae Intelligence स्रोतों के साथ जवाब देती है बजाय टीमों को रिपोर्ट कतार में वापस भेजने के।",
+          "body": "अपने स्टैक को तेज़ी से कनेक्ट करें। Pulse शिफ्ट के दौरान अपडेट होता रहता है, और Sundae Intelligence टीमों को रिपोर्ट की कतार में वापस भेजने के बजाय स्रोतों के साथ जवाब देता है।",
           "chips": [
             "तैनाती के लिए दिन",
             "लाइव कोर रिफ्रेश",
@@ -284,7 +284,7 @@ export const generatedLocalCopy = {
     },
     "ur": {
       "eyebrow": "جھوٹا انتخاب اب ختم ہو چکا ہے",
-      "headline": "تیز۔ درست۔ سستا۔ تینوں میں سے کوئی بھی منتخب کریں۔",
+      "headline": "تیز۔ درست۔ سستا۔ تینوں منتخب کریں۔",
       "description": "اصل ریستوران انٹیلی جنس حاصل کرنے کا مطلب ہمیشہ ایک سمجھوتہ ہوتا تھا - تیزی سے نافذ، واقعی اچھا، یا اتنا سستا کہ خرچ جائز لگے۔ صرف دو ہی منتخب کر پاتے تھے۔ Sundae کو تینوں ایک ساتھ دینے کے لیے بنایا گیا ہے - بس یہی پوری بات ہے۔",
       "oldRule": "پرانا اصول: دو منتخب کریں",
       "sundaeRule": "↓  Sundae اصول: تینوں منتخب کریں",
@@ -373,21 +373,21 @@ export const generatedLocalCopy = {
         {
           "label": "Szybkość",
           "headline": "Wdrożenie w ciągu dni. Decyzje w ciągu sekund.",
-          "body": "Szybko połącz swoją infrastrukturę. Aktualizacje Pulse w trakcie zmiany, a Sundae Intelligence odpowiada z źródłami zamiast wysyłać zespoły z powrotem do kolejki raportów.",
+          "body": "Szybko połącz swoją infrastrukturę. Pulse aktualizuje dane w trakcie zmiany, a Sundae Intelligence odpowiada ze źródłami, zamiast odsyłać zespoły z powrotem do kolejki raportów.",
           "chips": [
             "Dni do wdrożenia",
-            "Na żywo odświeżenie Core",
+            "Odświeżanie Core na żywo",
             "Odpowiedzi w sekundach"
           ]
         },
         {
           "label": "Jakość",
           "headline": "Stworzone dla restauracji. Zarządzane dla decyzji.",
-          "body": "Sundae dostarcza 500+ zarządzanych modeli danych restauracyjnych, benchmarki oparte na rówieśnikach i odpowiedzi AI z cytatami źródłowymi - dzięki czemu zespoły nie budują z pustego płótna BI.",
+          "body": "Sundae dostarcza ponad 500 zarządzanych modeli danych restauracyjnych, benchmarki oparte na danych innych restauracji i odpowiedzi AI z podaniem źródeł - dzięki czemu zespoły nie zaczynają od pustej kartki BI.",
           "chips": [
-            "500+ modeli",
-            "AI z cytatami źródłowymi",
-            "Benchmarki rówieśników"
+            "Ponad 500 modeli",
+            "AI z podaniem źródeł",
+            "Benchmarki branżowe"
           ]
         },
         {
@@ -413,7 +413,7 @@ export const generatedLocalCopy = {
         {
           "label": "Hız",
           "headline": "Günler içinde dağıtım. Saniyeler içinde karar verin.",
-          "body": "Yığınınızı hızlı bir şekilde bağlayın. Vardiya boyunca Pulse güncellemeleri yapın ve Sundae Intelligence, ekipleri rapor kuyruğuna geri göndermek yerine kaynaklarla yanıt verir.",
+          "body": "Sisteminizi hızlıca bağlayın. Pulse vardiya boyunca güncellenir ve Sundae Intelligence, ekipleri rapor kuyruğuna geri göndermek yerine kaynak göstererek yanıt verir.",
           "chips": [
             "Dağıtım için günler",
             "Canlı Core güncellemesi",
@@ -422,7 +422,7 @@ export const generatedLocalCopy = {
         },
         {
           "label": "Kalite",
-          "headline": "Restoranlar için tasarlandı. Kararlar için yönetildi.",
+          "headline": "Restoranlar için tasarlandı. Kararlar için düzenlendi.",
           "body": "Sundae, 500'dan fazla yönetilen restoran veri modeli, akran destekli kıyaslamalar ve kaynak belirtilmiş AI yanıtları ile birlikte gelir - böylece ekipler boş bir BI tuvali üzerinden inşa etmek zorunda kalmazlar.",
           "chips": [
             "500+ model",
@@ -453,7 +453,7 @@ export const generatedLocalCopy = {
         {
           "label": "速度",
           "headline": "几天内部署。几秒内决策。",
-          "body": "快速连接你的技术栈。在班次中实时更新，Sundae Intelligence 提供来源而不是将团队送回报告队列。 (Pulse)",
+          "body": "快速连接你的技术栈。Pulse 在班次进行中实时更新，Sundae Intelligence 引用来源作答，而不是把团队打回报告队列继续排队。",
           "chips": [
             "几天部署",
             "实时 Core 刷新",
@@ -533,7 +533,7 @@ export const generatedLocalCopy = {
         {
           "label": "속도",
           "headline": "며칠 내에 배포. 몇 초 내에 결정.",
-          "body": "빠르게 스택을 연결하세요. 교대 근무 중에 Pulse 업데이트를 통해 Sundae Intelligence가 팀을 보고 대기열로 다시 보내는 대신 출처로 답변합니다.",
+          "body": "스택을 빠르게 연결하세요. Pulse는 교대 근무 중에도 실시간으로 갱신되고, Sundae Intelligence는 팀을 보고서 대기열로 돌려보내는 대신 출처와 함께 답변합니다.",
           "chips": [
             "배포까지 며칠",
             "실시간 Core 새로 고침",
@@ -613,7 +613,7 @@ export const generatedLocalCopy = {
         {
           "label": "Tốc độ",
           "headline": "Triển khai trong vài ngày. Quyết định trong vài giây.",
-          "body": "Kết nối nhanh chóng với hệ thống của bạn. Cập nhật liên tục trong ca làm việc, và Sundae Intelligence trả lời với các nguồn thay vì gửi đội ngũ quay lại hàng đợi báo cáo. (Pulse)",
+          "body": "Kết nối hệ thống của bạn nhanh chóng. Pulse cập nhật liên tục ngay trong ca làm việc, và Sundae Intelligence trả lời kèm nguồn dẫn thay vì đẩy đội ngũ quay lại hàng đợi báo cáo.",
           "chips": [
             "Ngày để triển khai",
             "Làm mới Core trực tiếp",
@@ -653,7 +653,7 @@ export const generatedLocalCopy = {
         {
           "label": "Viteză",
           "headline": "Implementare în zile. Decizii în secunde.",
-          "body": "Conectează-ți rapid stiva. Actualizările Pulse trec prin schimb, iar Sundae Intelligence răspunde cu surse în loc să trimită echipe înapoi în coada de rapoarte.",
+          "body": "Conectează-ți rapid stiva. Pulse se actualizează în timpul turei, iar Sundae Intelligence răspunde cu surse citate în loc să trimită echipele înapoi în coada de rapoarte.",
           "chips": [
             "Zile pentru implementare",
             "Actualizare Core live",
@@ -693,7 +693,7 @@ export const generatedLocalCopy = {
         {
           "label": "Hastighet",
           "headline": "Implementera på dagar. Bestäm på sekunder.",
-          "body": "Anslut din stack snabbt. Pulseuppdateringar under skiftet, och Sundae Intelligence svarar med källor istället för att skicka team tillbaka till rapportkön. (Pulse)",
+          "body": "Anslut din stack snabbt. Pulse uppdateras under skiftet, och Sundae Intelligence svarar med källor i stället för att skicka tillbaka teamen till rapportkön.",
           "chips": [
             "Dagar att implementera",
             "Live Core-uppdatering",
@@ -733,7 +733,7 @@ export const generatedLocalCopy = {
         {
           "label": "গতি",
           "headline": "কিছু দিনের মধ্যে স্থাপন করুন। কয়েক সেকেন্ডে সিদ্ধান্ত নিন।",
-          "body": "আপনার স্ট্যাক দ্রুত সংযুক্ত করুন। পালস আপডেটগুলি শিফটের মাধ্যমে, এবং Sundae Intelligence সূত্রের সাথে উত্তর দেয়, দলের সদস্যদের রিপোর্টের কিউতে ফিরে পাঠায় না। (Pulse)",
+          "body": "আপনার স্ট্যাক দ্রুত সংযুক্ত করুন। Pulse শিফট চলাকালীনই আপডেট হয়, আর Sundae Intelligence দলকে রিপোর্টের সারিতে ফেরত না পাঠিয়ে সূত্রসহ উত্তর দেয়।",
           "chips": [
             "স্থাপনের জন্য দিন",
             "লাইভ Core রিফ্রেশ",
@@ -773,7 +773,7 @@ export const generatedLocalCopy = {
         {
           "label": "ความเร็ว",
           "headline": "ติดตั้งในไม่กี่วัน ตัดสินใจในไม่กี่วินาที",
-          "body": "เชื่อมต่อสแต็กของคุณได้อย่างรวดเร็ว อัปเดต Pulse ตลอดการเปลี่ยนแปลง และ Sundae Intelligence ตอบกลับด้วยแหล่งข้อมูลแทนที่จะส่งทีมกลับไปในคิวรายงาน",
+          "body": "เชื่อมต่อสแต็กของคุณได้อย่างรวดเร็ว Pulse อัปเดตข้อมูลตลอดกะการทำงาน และ Sundae Intelligence ตอบกลับพร้อมแหล่งอ้างอิงแทนที่จะส่งทีมกลับไปต่อคิวรายงาน",
           "chips": [
             "วันในการติดตั้ง",
             "รีเฟรช Core แบบสด",
@@ -822,7 +822,7 @@ export const generatedLocalCopy = {
         },
         {
           "label": "Kualiti",
-          "headline": "Dibina untuk restoran. Dikenakan untuk keputusan.",
+          "headline": "Dibina untuk restoran. Dikawal untuk keputusan.",
           "body": "Sundae dilengkapi dengan 500+ model data restoran yang dikawal, penanda aras yang dipandu rakan sebaya, dan jawapan AI yang dirujuk sumber - jadi pasukan tidak membina dari kanvas BI yang kosong.",
           "chips": [
             "500+ model",
