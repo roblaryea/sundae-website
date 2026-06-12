@@ -120,6 +120,26 @@ const trianglePoints: { x: number; y: number; labelX: number; labelY: number; an
   { x: 190, y: 380, labelX: 175, labelY: 416, anchor: "end"    }, // Cost (bottom-left)
 ];
 
+// Centroid — the convergence point where the three tradeoffs collapse into one.
+const CENTROID = {
+  x: (trianglePoints[0].x + trianglePoints[1].x + trianglePoints[2].x) / 3,
+  y: (trianglePoints[0].y + trianglePoints[1].y + trianglePoints[2].y) / 3,
+};
+
+// Edges, in orbit order. Segment k of the tracer's orbit IS edge k, so an edge
+// brightens as the ball crosses it and stays lit until the loop resets — by the
+// end of one orbit all three glow at once ("pick all three", not two).
+const EDGES: [number, number][] = [[0, 1], [1, 2], [2, 0]];
+
+// Per-vertex headline metric (language-neutral — number + universal unit, so no
+// new localized strings). Each maps to a real proof point: Speed = signal→action
+// time, Quality = governed data models, Cost = free to start (Report Lite).
+const VERTEX_METRICS: { value: number; prefix: string; suffix: string; count: boolean }[] = [
+  { value: 5,   prefix: "",  suffix: " min", count: true  }, // Speed
+  { value: 500, prefix: "",  suffix: "+",    count: true  }, // Quality
+  { value: 0,   prefix: "$", suffix: "",     count: false }, // Cost
+];
+
 // Timing
 const SEGMENT_DUR_S = 5;
 const TOTAL_LOOP_S = SEGMENT_DUR_S * 3; // 15s full triangle orbit
@@ -141,6 +161,36 @@ function ballAt(progress: number) {
     x: from.x + (to.x - from.x) * segP,
     y: from.y + (to.y - from.y) * segP,
   };
+}
+
+/**
+ * Headline metric that counts up each time its vertex becomes active. Lives in
+ * the side card (not on the triangle — r7 removed vertex stat-callouts because
+ * they collided with the active-vertex glow). Reduced-motion → static value.
+ */
+function VertexStat({ idx, reduceMotion }: { idx: number; reduceMotion: boolean }) {
+  const m = VERTEX_METRICS[idx];
+  const [display, setDisplay] = useState(m.value);
+  useEffect(() => {
+    if (reduceMotion || !m.count) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setDisplay(m.value);
+      return;
+    }
+    const controls = animate(0, m.value, {
+      duration: 0.9,
+      ease: [0.22, 1, 0.36, 1],
+      onUpdate: (v) => setDisplay(Math.round(v)),
+    });
+    return () => controls.stop();
+  }, [idx, m, reduceMotion]);
+  return (
+    <span className="font-display text-3xl sm:text-4xl font-bold leading-none text-[var(--warm-coral)] tabular-nums">
+      {m.prefix}
+      {display}
+      {m.suffix}
+    </span>
+  );
 }
 
 export function SectionSpeedQualityCost() {
@@ -198,6 +248,27 @@ export function SectionSpeedQualityCost() {
   const ballX = useTransform(progress, (p) => ballAt(p).x);
   const ballY = useTransform(progress, (p) => ballAt(p).y);
 
+  // Progressive edge accumulation (#2): edge k brightens as the ball crosses
+  // segment k, then stays lit until the loop wraps — all three end lit.
+  const edge0Opacity = useTransform(progress, (p) => (p >= 1 ? 0.95 : p >= 0 ? 0.22 + 0.73 * Math.min(1, p) : 0.16));
+  const edge1Opacity = useTransform(progress, (p) => (p >= 2 ? 0.95 : p >= 1 ? 0.22 + 0.73 * (p - 1) : 0.16));
+  const edge2Opacity = useTransform(progress, (p) => (p >= 2 ? 0.22 + 0.73 * (p - 2) : 0.16));
+  const edgeOpacities = [edge0Opacity, edge1Opacity, edge2Opacity];
+
+  // Comet trail (#3): a streak from just behind the ball to the ball, kept
+  // within the current segment so it never jumps across a vertex.
+  const TRAIL = 0.16;
+  const trailX = useTransform(progress, (p) => ballAt(Math.max(Math.floor(p), p - TRAIL)).x);
+  const trailY = useTransform(progress, (p) => ballAt(Math.max(Math.floor(p), p - TRAIL)).y);
+
+  // Autonomous drift (#4): gentle continuous Z-sway layered under mouse-parallax.
+  const driftZ = useMotionValue(0);
+
+  // Convergence burst (#1): re-keyed each time the orbit loops (3 → 0), firing
+  // the inward beams + core ring that visualize "three become one".
+  const [burst, setBurst] = useState(0);
+  const lastProgressRef = useRef(0);
+
   /**
    * Mouse-parallax tilt - gives the triangle a "hologram" depth.
    * Subtle: ±5deg max. Springed for liquid feel.
@@ -222,7 +293,22 @@ export function SectionSpeedQualityCost() {
   useMotionValueEvent(progress, "change", (latest) => {
     const next = Math.min(Math.floor(latest), 2);
     setActiveIdx((prev) => (prev === next ? prev : next));
+    // Detect the 3 → 0 wrap and fire a convergence burst.
+    if (latest < lastProgressRef.current - 1) setBurst((b) => b + 1);
+    lastProgressRef.current = latest;
   });
+
+  // Autonomous drift (#4) — subtle ±1.3° Z-sway, mirror-looping. Honors reduced motion.
+  useEffect(() => {
+    if (!useAnimated) return;
+    const c = animate(driftZ, [-1.3, 1.3], {
+      duration: 7,
+      ease: "easeInOut",
+      repeat: Infinity,
+      repeatType: "mirror",
+    });
+    return () => c.stop();
+  }, [useAnimated, driftZ]);
 
   // Drive the orbit: animate progress 0→3 linearly over 15s, loop forever.
   // animate() returns controls with .pause() / .play() - we use these for
@@ -290,7 +376,7 @@ export function SectionSpeedQualityCost() {
               className="absolute inset-0 pointer-events-none"
               style={{
                 background:
-                  "radial-gradient(ellipse 70% 55% at 50% 42%, rgba(255,92,77,0.18) 0%, rgba(255,92,77,0.06) 35%, transparent 70%)",
+                  "radial-gradient(ellipse 72% 58% at 50% 44%, rgba(255,92,77,0.26) 0%, rgba(255,92,77,0.09) 36%, transparent 72%)",
                 filter: "blur(8px)",
               }}
             />
@@ -327,6 +413,7 @@ export function SectionSpeedQualityCost() {
                 transformStyle: "preserve-3d",
                 rotateX: tiltX,
                 rotateY: tiltY,
+                rotateZ: driftZ,
                 transition: "transform 0.15s ease-out",
               }}
             >
@@ -360,9 +447,15 @@ export function SectionSpeedQualityCost() {
                 </linearGradient>
                 {/* Multi-stop specular fill - gives the surface a "lit" 3D feel */}
                 <radialGradient id="triFill" cx="38%" cy="32%" r="75%">
-                  <stop offset="0%" stopColor="rgba(255,181,158,0.32)" />
-                  <stop offset="22%" stopColor="rgba(255,132,115,0.18)" />
-                  <stop offset="55%" stopColor="rgba(255,92,77,0.08)" />
+                  <stop offset="0%" stopColor="rgba(255,181,158,0.42)" />
+                  <stop offset="22%" stopColor="rgba(255,132,115,0.26)" />
+                  <stop offset="55%" stopColor="rgba(255,92,77,0.13)" />
+                  <stop offset="100%" stopColor="rgba(255,92,77,0)" />
+                </radialGradient>
+                {/* Convergence-core radial glow */}
+                <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" stopColor="rgba(255,201,176,0.95)" />
+                  <stop offset="45%" stopColor="rgba(255,132,115,0.45)" />
                   <stop offset="100%" stopColor="rgba(255,92,77,0)" />
                 </radialGradient>
                 {/* Top-vertex specular highlight - sharp, focused */}
@@ -446,6 +539,72 @@ export function SectionSpeedQualityCost() {
                 }}
               />
 
+              {/* Progressive edge accumulation (#2) — each edge brightens as the
+                  tracer crosses it and stays lit through the loop. */}
+              {useAnimated && EDGES.map(([a, c], k) => (
+                <motion.line
+                  key={`edge-${k}`}
+                  x1={trianglePoints[a].x}
+                  y1={trianglePoints[a].y}
+                  x2={trianglePoints[c].x}
+                  y2={trianglePoints[c].y}
+                  stroke="url(#triEdge)"
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                  style={{ opacity: edgeOpacities[k] }}
+                />
+              ))}
+
+              {/* Convergence (#1) — inward beams + glowing core where the three
+                  tradeoffs collapse into one. Beams re-key each loop wrap. */}
+              {useAnimated && (
+                <g>
+                  <g key={`beams-${burst}`}>
+                    {trianglePoints.map((p, i) => (
+                      <motion.line
+                        key={i}
+                        x1={p.x}
+                        y1={p.y}
+                        x2={CENTROID.x}
+                        y2={CENTROID.y}
+                        stroke="#FF8473"
+                        strokeWidth="1.6"
+                        strokeLinecap="round"
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: [0, 0.7, 0] }}
+                        transition={{ duration: 1.2, ease: "easeOut", delay: i * 0.07 }}
+                      />
+                    ))}
+                  </g>
+                  {/* burst ring radiating from the core each loop */}
+                  <motion.circle
+                    key={`coreRing-${burst}`}
+                    cx={CENTROID.x}
+                    cy={CENTROID.y}
+                    r="6"
+                    fill="none"
+                    stroke="#FF8473"
+                    strokeWidth="1.4"
+                    initial={{ opacity: 0, scale: 0.5 }}
+                    animate={{ opacity: [0, 0.65, 0], scale: [0.5, 4.2, 5.4] }}
+                    transition={{ duration: 1.5, ease: "easeOut" }}
+                    style={{ transformOrigin: `${CENTROID.x}px ${CENTROID.y}px` }}
+                  />
+                  {/* persistent breathing core */}
+                  <circle cx={CENTROID.x} cy={CENTROID.y} r="18" fill="url(#coreGlow)" />
+                  <motion.circle
+                    cx={CENTROID.x}
+                    cy={CENTROID.y}
+                    r="4.5"
+                    fill="#FFC9B0"
+                    filter="url(#tracerGlow)"
+                    animate={{ opacity: [0.55, 0.95, 0.55], scale: [1, 1.25, 1] }}
+                    transition={{ duration: 3, ease: "easeInOut", repeat: Infinity }}
+                    style={{ transformOrigin: `${CENTROID.x}px ${CENTROID.y}px` }}
+                  />
+                </g>
+              )}
+
               {/* Active-vertex pulse rings - single source of truth = activeIdx */}
               {useAnimated && (
                 <g key={`pulse-${activeIdx}`}>
@@ -475,6 +634,18 @@ export function SectionSpeedQualityCost() {
               {/* Tracer ball - position bound to motion value, perfect sync with activeIdx */}
               {useAnimated && (
                 <>
+                  {/* Comet trail (#3) — energy streak behind the ball */}
+                  <motion.line
+                    stroke="#FF8473"
+                    strokeWidth="6"
+                    strokeLinecap="round"
+                    opacity={0.55}
+                    filter="url(#tracerGlow)"
+                    x1={trailX}
+                    y1={trailY}
+                    x2={ballX}
+                    y2={ballY}
+                  />
                   <motion.circle r="13" fill="#FF8473" opacity="0.45" filter="url(#tracerGlow)" cx={ballX} cy={ballY} />
                   <motion.circle r="8" fill={tracerBallFill} cx={ballX} cy={ballY} />
                 </>
@@ -620,8 +791,11 @@ export function SectionSpeedQualityCost() {
                     exit={{ opacity: 0, y: -8 }}
                     transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
                   >
-                    <div className="text-[11px] uppercase tracking-wider text-[var(--warm-coral)] font-bold mb-3">
-                      {vertices[activeIdx].label}
+                    <div className="flex items-start justify-between gap-4 mb-3">
+                      <div className="text-[11px] uppercase tracking-wider text-[var(--warm-coral)] font-bold mt-1.5">
+                        {vertices[activeIdx].label}
+                      </div>
+                      <VertexStat idx={activeIdx} reduceMotion={!!reduceMotion} />
                     </div>
                     <h3 className="section-h3 mb-4">
                       {vertices[activeIdx].headline}
