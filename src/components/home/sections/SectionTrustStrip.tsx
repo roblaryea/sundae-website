@@ -87,7 +87,7 @@ export function SectionTrustStrip() {
               <div className="inline-flex w-9 h-9 rounded-lg bg-[rgba(255,92,77,0.12)] border border-[rgba(255,92,77,0.2)] items-center justify-center mb-2.5">
                 <SundaeIcon name={icons[i] ?? "data"} size="sm" className="text-[#FF8473]" />
               </div>
-              <div className="text-sm font-bold text-[var(--text-primary)] mb-1 leading-tight">{item.title}</div>
+              <div className="font-display text-sm font-bold text-[var(--text-primary)] mb-1 leading-tight">{item.title}</div>
               <div className="text-[11px] text-[var(--text-muted)] leading-snug">{item.supporting}</div>
             </div>
           ))}

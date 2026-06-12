@@ -827,7 +827,7 @@ export default function CrewPage() {
                     <div key={item.title} className="flex items-start gap-3">
                       <svg className="w-4 h-4 text-[#FF8473] flex-shrink-0 mt-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M20 6 9 17l-5-5" /></svg>
                       <div>
-                        <div className="text-sm font-semibold text-[var(--text-primary)] mb-1 leading-snug">{item.title}</div>
+                        <div className="font-display text-sm font-semibold text-[var(--text-primary)] mb-1 leading-snug">{item.title}</div>
                         <div className="text-[12px] text-[var(--text-muted)] leading-snug">{item.body}</div>
                       </div>
                     </div>
@@ -854,7 +854,7 @@ export default function CrewPage() {
               {copy.retiresItems.map((item) => (
                 <div key={item.title} className="rounded-2xl p-5 bg-[var(--surface-subtle)] border border-[var(--border-default)]">
                   <div className="text-[10px] uppercase tracking-wider font-bold text-[#F59E0B] mb-2">{item.label}</div>
-                  <div className="text-sm font-semibold text-[var(--text-primary)] mb-1 leading-snug">{item.title}</div>
+                  <div className="font-display text-sm font-semibold text-[var(--text-primary)] mb-1 leading-snug">{item.title}</div>
                   <div className="text-[12px] text-[var(--text-muted)] leading-snug">{item.body}</div>
                 </div>
               ))}
@@ -884,7 +884,7 @@ export default function CrewPage() {
                   <div className={`w-10 h-10 rounded-xl bg-gradient-to-br ${moduleAccents[i]} flex items-center justify-center text-white shadow-lg mb-4`}>
                     <span className="text-sm font-bold">{(i + 1).toString().padStart(2, "0")}</span>
                   </div>
-                  <div className="text-base font-bold text-[var(--text-primary)] mb-1">{m.name}</div>
+                  <div className="font-display text-base font-bold text-[var(--text-primary)] mb-1">{m.name}</div>
                   <p className="text-[13px] text-[var(--text-secondary)] mb-4 font-medium">{m.tagline}</p>
                   <ul className="space-y-1.5">
                     {m.included.map((inc) => (
