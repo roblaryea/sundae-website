@@ -93,8 +93,6 @@ const protectedTerms = [
   'Pulse',
   'Watchtower',
   'Foresight',
-  'Scout',
-  'Canvas',
   'Cross-Intelligence',
   'Report Lite',
   'Report Plus',

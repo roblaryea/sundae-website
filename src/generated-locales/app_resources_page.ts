@@ -60,7 +60,7 @@ export const generatedLocalCopy = {
         "challenge": "Puntos ciegos operativos",
         "description": "Red de cocinas en la nube de rápido crecimiento con datos fragmentados en 8 plataformas de entrega, incapaz de unificar métricas de rendimiento o detectar problemas de proveedores.",
         "solution": [
-          "Sundae Scout para la integración de datos",
+          "Sundae Core para la integración de datos",
           "Sundae Core para el seguimiento del rendimiento de las entregas",
           "Sundae Core para paneles unificados"
         ],
@@ -166,7 +166,7 @@ export const generatedLocalCopy = {
         "challenge": "النقاط العمياء التشغيلية",
         "description": "شبكة مطبخ سحابية سريعة النمو تحتوي على بيانات مجزأة عبر 8 منصات توصيل، غير قادرة على توحيد مقاييس الأداء أو اكتشاف مشكلات البائعين.",
         "solution": [
-          "Sundae Scout لتكامل البيانات",
+          "Sundae Core لتكامل البيانات",
           "Sundae Core لتتبع أداء التسليم",
           "Sundae Core للوحات المعلومات الموحدة"
         ],
@@ -272,7 +272,7 @@ export const generatedLocalCopy = {
         "challenge": "Angles morts opérationnels",
         "description": "Réseau de cuisine cloud à croissance rapide avec des données fragmentées sur 8 plates-formes de livraison, incapable d'unifier les mesures de performances ou de détecter les problèmes des fournisseurs.",
         "solution": [
-          "Sundae Scout pour l'intégration des données",
+          "Sundae Core pour l'intégration des données",
           "Sundae Core pour le suivi des performances de livraison",
           "Sundae Core pour les tableaux de bord unifiés"
         ],
@@ -378,7 +378,7 @@ export const generatedLocalCopy = {
         "challenge": "Pontos cegos operacionais",
         "description": "Rede de cozinha na nuvem em rápido crescimento com dados fragmentados em oito plataformas de entrega, incapaz de unificar métricas de desempenho ou detectar problemas de fornecedores.",
         "solution": [
-          "Sundae Scout para integração de dados",
+          "Sundae Core para integração de dados",
           "Sundae Core para rastreamento de desempenho de entrega",
           "Sundae Core para painéis unificados"
         ],
@@ -484,7 +484,7 @@ export const generatedLocalCopy = {
         "challenge": "Operative blinde Flecken",
         "description": "Schnell wachsendes Cloud-Küchennetzwerk mit fragmentierten Daten über 8 Bereitstellungsplattformen, das nicht in der Lage ist, Leistungsmetriken zu vereinheitlichen oder Anbieterprobleme zu erkennen.",
         "solution": [
-          "Sundae Scout für Datenintegration",
+          "Sundae Core für Datenintegration",
           "Sundae Core zur Verfolgung der Lieferleistung",
           "Sundae Core für einheitliche Dashboards"
         ],
@@ -590,7 +590,7 @@ export const generatedLocalCopy = {
         "challenge": "آپریشنل بلائنڈ سپاٹ",
         "description": "8 ڈیلیوری پلیٹ فارمز پر بکھرے ڈیٹا کے ساتھ تیزی سے بڑھتا ہوا کلاؤڈ کچن نیٹ ورک، کارکردگی کی پیمائش کو یکجا کرنے یا وینڈر کے مسائل کا پتہ لگانے سے قاصر ہے۔",
         "solution": [
-          "Sundae Scout for data integration",
+          "Sundae Core for data integration",
           "ترسیل کی کارکردگی سے باخبر رہنے کے لیے Sundae Core",
           "متحد ڈیش بورڈز کے لیے Sundae Core"
         ],
@@ -696,7 +696,7 @@ export const generatedLocalCopy = {
         "challenge": "Operationele blinde vlekken",
         "description": "Snelgroeiend cloudkeukennetwerk met gefragmenteerde gegevens over 8 leveringsplatforms, niet in staat om prestatiestatistieken te verenigen of leveranciersproblemen op te sporen.",
         "solution": [
-          "Sundae Scout voor data-integratie",
+          "Sundae Core voor data-integratie",
           "Sundae Core voor het volgen van leveringsprestaties",
           "Sundae Core voor uniforme dashboards"
         ],
@@ -802,7 +802,7 @@ export const generatedLocalCopy = {
         "challenge": "Operasyonel Kör Noktalar",
         "description": "8 dağıtım platformunda parçalanmış verilere sahip, hızla büyüyen bulut mutfak ağı, performans ölçümlerini birleştiremiyor veya satıcı sorunlarını tespit edemiyor.",
         "solution": [
-          "Veri entegrasyonu için Sundae Scout",
+          "Veri entegrasyonu için Sundae Core",
           "Teslimat performansı takibi için Sundae Core",
           "Birleşik kontrol panelleri için Sundae Core"
         ],
@@ -908,7 +908,7 @@ export const generatedLocalCopy = {
         "challenge": "ऑपरेशनल ब्लाइंड स्पॉट",
         "description": "8 डिलीवरी प्लेटफार्मों पर खंडित डेटा के साथ तेजी से बढ़ता हुआ क्लाउड किचन नेटवर्क, प्रदर्शन मेट्रिक्स को एकीकृत करने या विक्रेता के मुद्दों का पता लगाने में असमर्थ है।",
         "solution": [
-          "डेटा एकीकरण के लिए Sundae Scout",
+          "डेटा एकीकरण के लिए Sundae Core",
           "Sundae Core for delivery performance tracking",
           "Sundae Core for unified dashboards"
         ],
@@ -1014,7 +1014,7 @@ export const generatedLocalCopy = {
         "challenge": "Punti ciechi operativi",
         "description": "Rete di cloud kitchen in rapida crescita con dati frammentati su 8 piattaforme di distribuzione, incapace di unificare le metriche delle prestazioni o rilevare i problemi dei fornitori.",
         "solution": [
-          "Sundae Scout per l'integrazione dei dati",
+          "Sundae Core per l'integrazione dei dati",
           "Sundae Core per il monitoraggio delle prestazioni di consegna",
           "Sundae Core per dashboard unificati"
         ],
@@ -1120,7 +1120,7 @@ export const generatedLocalCopy = {
         "challenge": "操作盲点",
         "description": "快速增长的云厨房网络，数据分散在 8 个交付平台上，无法统一性能指标或检测供应商问题。",
         "solution": [
-          "Sundae Scout 用于数据集成",
+          "Sundae Core 用于数据集成",
           "Sundae Core 用于交付绩效跟踪",
           "Sundae Core 用于统一仪表板"
         ],
@@ -1226,7 +1226,7 @@ export const generatedLocalCopy = {
         "challenge": "Operacyjne martwe punkty",
         "description": "Szybko rozwijająca się sieć kuchni w chmurze z fragmentarycznymi danymi na 8 platformach dostarczania, która nie jest w stanie ujednolicić wskaźników wydajności ani wykryć problemów dostawców.",
         "solution": [
-          "Sundae Scout do integracji danych",
+          "Sundae Core do integracji danych",
           "Sundae Core do śledzenia wydajności dostaw",
           "Sundae Core dla ujednoliconych pulpitów nawigacyjnych"
         ],
@@ -1332,7 +1332,7 @@ export const generatedLocalCopy = {
         "challenge": "運用上の盲点",
         "description": "急成長を続けるクラウド キッチン ネットワークでは、8 つの配信プラットフォームにわたってデータが断片化されており、パフォーマンス メトリクスを統一したり、ベンダーの問題を検出したりすることができません。",
         "solution": [
-          "データ統合のための Sundae Scout",
+          "データ統合のための Sundae Core",
           "配信パフォーマンス追跡のための Sundae Core",
           "統合ダッシュボード用の Sundae Core"
         ],
@@ -1438,7 +1438,7 @@ export const generatedLocalCopy = {
         "challenge": "운영 사각지대",
         "description": "8개 제공 플랫폼에 분산된 데이터로 인해 빠르게 성장하는 클라우드 키친 네트워크로 인해 성능 지표를 통합하거나 공급업체 문제를 감지할 수 없습니다.",
         "solution": [
-          "Sundae Scout for data integration",
+          "Sundae Core for data integration",
           "Sundae Core for delivery performance tracking",
           "통합 대시보드를 위한 Sundae Core"
         ],
@@ -1544,7 +1544,7 @@ export const generatedLocalCopy = {
         "challenge": "Titik Buta Operasional",
         "description": "Jaringan cloud kitchen yang berkembang pesat dengan data terfragmentasi di 8 platform pengiriman, tidak mampu menyatukan metrik kinerja atau mendeteksi masalah vendor.",
         "solution": [
-          "Sundae Scout untuk integrasi data",
+          "Sundae Core untuk integrasi data",
           "Sundae Core untuk pelacakan kinerja pengiriman",
           "Sundae Core untuk dasbor terpadu"
         ],
@@ -1650,7 +1650,7 @@ export const generatedLocalCopy = {
         "challenge": "অপারেশনাল ব্লাইন্ড স্পট",
         "description": "8টি ডেলিভারি প্ল্যাটফর্ম জুড়ে খণ্ডিত ডেটা সহ দ্রুত বর্ধনশীল ক্লাউড কিচেন নেটওয়ার্ক, পারফরম্যান্স মেট্রিক্স একত্রিত করতে বা বিক্রেতার সমস্যাগুলি সনাক্ত করতে অক্ষম৷",
         "solution": [
-          "Sundae Scout for data integration",
+          "Sundae Core for data integration",
           "Sundae Core for delivery performance tracking",
           "Sundae Core for unified dashboards"
         ],
@@ -1756,7 +1756,7 @@ export const generatedLocalCopy = {
         "challenge": "Puncte moarte operaționale",
         "description": "Rețea de bucătărie în cloud în creștere rapidă, cu date fragmentate pe 8 platforme de livrare, incapabile să unifice valorile de performanță sau să detecteze problemele furnizorilor.",
         "solution": [
-          "Sundae Scout pentru integrarea datelor",
+          "Sundae Core pentru integrarea datelor",
           "Sundae Core pentru urmărirea performanței livrării",
           "Sundae Core pentru tablouri de bord unificate"
         ],
@@ -1862,7 +1862,7 @@ export const generatedLocalCopy = {
         "challenge": "Điểm mù hoạt động",
         "description": "Mạng bếp đám mây đang phát triển nhanh chóng với dữ liệu rời rạc trên 8 nền tảng phân phối, không thể thống nhất các chỉ số hiệu suất hoặc phát hiện các vấn đề của nhà cung cấp.",
         "solution": [
-          "Sundae Scout để tích hợp dữ liệu",
+          "Sundae Core để tích hợp dữ liệu",
           "Sundae Core để theo dõi hiệu suất giao hàng",
           "Sundae Core cho bảng điều khiển hợp nhất"
         ],
@@ -1968,7 +1968,7 @@ export const generatedLocalCopy = {
         "challenge": "Operationella döda vinklar",
         "description": "Snabbväxande molnköksnätverk med fragmenterad data över 8 leveransplattformar, oförmöget att förena prestandamått eller upptäcka leverantörsproblem.",
         "solution": [
-          "Sundae Scout för dataintegration",
+          "Sundae Core för dataintegration",
           "Sundae Core för spårning av leveransprestanda",
           "Sundae Core för enhetliga instrumentpaneler"
         ],
@@ -2074,7 +2074,7 @@ export const generatedLocalCopy = {
         "challenge": "จุดบอดในการปฏิบัติงาน",
         "description": "เครือข่ายครัวคลาวด์ที่เติบโตอย่างรวดเร็วพร้อมข้อมูลที่กระจัดกระจายใน 8 แพลตฟอร์มการจัดส่ง ไม่สามารถรวมการวัดประสิทธิภาพหรือตรวจพบปัญหาของผู้ขาย",
         "solution": [
-          "Sundae Scout สำหรับการบูรณาการข้อมูล",
+          "Sundae Core สำหรับการบูรณาการข้อมูล",
           "Sundae Core สำหรับการติดตามประสิทธิภาพการจัดส่ง",
           "Sundae Core สำหรับแดชบอร์ดแบบครบวงจร"
         ],
@@ -2180,7 +2180,7 @@ export const generatedLocalCopy = {
         "challenge": "Bintik Buta Operasi",
         "description": "Rangkaian dapur awan yang berkembang pesat dengan data berpecah-belah merentas 8 platform penghantaran, tidak dapat menyatukan metrik prestasi atau mengesan isu vendor.",
         "solution": [
-          "Sundae Scout for data integration",
+          "Sundae Core for data integration",
           "Sundae Core untuk penjejakan prestasi penghantaran",
           "Sundae Core for unified dashboards"
         ],

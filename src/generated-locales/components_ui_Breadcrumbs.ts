@@ -29,10 +29,10 @@ export const generatedLocalCopy = {
       "franchise-operators": "مشغلو الامتياز",
       "independent-operators": "المشغلون المستقلون",
       "architecture": "الهندسة المعمارية",
-      "scout": "Scout",
+      "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "المصنع",
-      "canvas": "Canvas"
+      "forge": "Sundae Intelligence",
+      "canvas": "Sundae Core"
     },
     "fr": {
       "product": "Products",
@@ -61,10 +61,10 @@ export const generatedLocalCopy = {
       "franchise-operators": "Opérateurs de franchise",
       "independent-operators": "Opérateurs indépendants",
       "architecture": "Architecture",
-      "scout": "Scout",
+      "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Forge",
-      "canvas": "Canvas"
+      "forge": "Sundae Intelligence",
+      "canvas": "Sundae Core"
     },
     "es": {
       "product": "Products",
@@ -93,10 +93,10 @@ export const generatedLocalCopy = {
       "franchise-operators": "Operadores de Franquicias",
       "independent-operators": "Operadores Independientes",
       "architecture": "Arquitectura",
-      "scout": "Scout",
+      "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Forjar",
-      "canvas": "Canvas"
+      "forge": "Sundae Intelligence",
+      "canvas": "Sundae Core"
     },
     "de": {
       "product": "Products",
@@ -125,10 +125,10 @@ export const generatedLocalCopy = {
       "franchise-operators": "Franchise-Betreiber",
       "independent-operators": "Unabhängige Betreiber",
       "architecture": "Architektur",
-      "scout": "Scout",
+      "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Forge",
-      "canvas": "Canvas"
+      "forge": "Sundae Intelligence",
+      "canvas": "Sundae Core"
     },
     "nl": {
       "product": "Products",
@@ -157,10 +157,10 @@ export const generatedLocalCopy = {
       "franchise-operators": "Franchise Operators",
       "independent-operators": "Onafhankelijke Operators",
       "architecture": "Architectuur",
-      "scout": "Scout",
+      "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Forge",
-      "canvas": "Canvas"
+      "forge": "Sundae Intelligence",
+      "canvas": "Sundae Core"
     },
     "pt": {
       "product": "Products",
@@ -189,10 +189,10 @@ export const generatedLocalCopy = {
       "franchise-operators": "Operadores de Franquia",
       "independent-operators": "Operadores Independentes",
       "architecture": "Arquitetura",
-      "scout": "Scout",
+      "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Forge",
-      "canvas": "Canvas"
+      "forge": "Sundae Intelligence",
+      "canvas": "Sundae Core"
     },
     "hi": {
       "product": "Products",
@@ -221,10 +221,10 @@ export const generatedLocalCopy = {
       "franchise-operators": "फ्रैंचाइज़ ऑपरेटर",
       "independent-operators": "स्वतंत्र ऑपरेटर",
       "architecture": "आर्किटेक्चर",
-      "scout": "Scout",
+      "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "फोर्ज",
-      "canvas": "Canvas"
+      "forge": "Sundae Intelligence",
+      "canvas": "Sundae Core"
     },
     "ur": {
       "product": "Products",
@@ -253,10 +253,10 @@ export const generatedLocalCopy = {
       "franchise-operators": "فرینچائز آپریٹرز",
       "independent-operators": "آزاد آپریٹرز",
       "architecture": "معماری",
-      "scout": "Scout",
+      "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "فارج",
-      "canvas": "Canvas"
+      "forge": "Sundae Intelligence",
+      "canvas": "Sundae Core"
     },
     "it": {
       "product": "Products",
@@ -285,10 +285,10 @@ export const generatedLocalCopy = {
       "franchise-operators": "Operatori in Franchising",
       "independent-operators": "Operatori Indipendenti",
       "architecture": "Architettura",
-      "scout": "Scout",
+      "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Forge",
-      "canvas": "Canvas"
+      "forge": "Sundae Intelligence",
+      "canvas": "Sundae Core"
     },
     "pl": {
       "product": "Products",
@@ -317,10 +317,10 @@ export const generatedLocalCopy = {
       "franchise-operators": "Operatorzy franczyzowi",
       "independent-operators": "Niezależni operatorzy",
       "architecture": "Architektura",
-      "scout": "Scout",
+      "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Forge",
-      "canvas": "Canvas"
+      "forge": "Sundae Intelligence",
+      "canvas": "Sundae Core"
     },
     "tr": {
       "product": "Products",
@@ -349,10 +349,10 @@ export const generatedLocalCopy = {
       "franchise-operators": "Franchise Operatörleri",
       "independent-operators": "Bağımsız Operatörler",
       "architecture": "Mimari",
-      "scout": "Scout",
+      "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Demirhane",
-      "canvas": "Canvas"
+      "forge": "Sundae Intelligence",
+      "canvas": "Sundae Core"
     },
     "zh-Hans": {
       "product": "Products",
@@ -381,10 +381,10 @@ export const generatedLocalCopy = {
       "franchise-operators": "特许经营运营商",
       "independent-operators": "独立运营商",
       "architecture": "架构",
-      "scout": "Scout",
+      "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "锻造",
-      "canvas": "Canvas"
+      "forge": "Sundae Intelligence",
+      "canvas": "Sundae Core"
     },
     "ja": {
       "product": "Products",
@@ -413,10 +413,10 @@ export const generatedLocalCopy = {
       "franchise-operators": "フランチャイズオペレーター",
       "independent-operators": "独立オペレーター",
       "architecture": "アーキテクチャ",
-      "scout": "Scout",
+      "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "フォージ",
-      "canvas": "Canvas"
+      "forge": "Sundae Intelligence",
+      "canvas": "Sundae Core"
     },
     "ko": {
       "product": "Products",
@@ -445,10 +445,10 @@ export const generatedLocalCopy = {
       "franchise-operators": "프랜차이즈 운영자",
       "independent-operators": "독립 운영자",
       "architecture": "아키텍처",
-      "scout": "Scout",
+      "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "포지",
-      "canvas": "Canvas"
+      "forge": "Sundae Intelligence",
+      "canvas": "Sundae Core"
     },
     "id": {
       "product": "Products",
@@ -477,10 +477,10 @@ export const generatedLocalCopy = {
       "franchise-operators": "Operator Waralaba",
       "independent-operators": "Operator Mandiri",
       "architecture": "Arsitektur",
-      "scout": "Scout",
+      "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Forge",
-      "canvas": "Canvas"
+      "forge": "Sundae Intelligence",
+      "canvas": "Sundae Core"
     },
     "vi": {
       "product": "Products",
@@ -509,10 +509,10 @@ export const generatedLocalCopy = {
       "franchise-operators": "Nhà điều hành nhượng quyền",
       "independent-operators": "Nhà điều hành độc lập",
       "architecture": "Kiến trúc",
-      "scout": "Scout",
+      "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Forge",
-      "canvas": "Canvas"
+      "forge": "Sundae Intelligence",
+      "canvas": "Sundae Core"
     },
     "ro": {
       "product": "Products",
@@ -541,10 +541,10 @@ export const generatedLocalCopy = {
       "franchise-operators": "Operatori de Franciză",
       "independent-operators": "Operatori Independenti",
       "architecture": "Arhitectură",
-      "scout": "Scout",
+      "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Forge",
-      "canvas": "Canvas"
+      "forge": "Sundae Intelligence",
+      "canvas": "Sundae Core"
     },
     "sv": {
       "product": "Products",
@@ -573,10 +573,10 @@ export const generatedLocalCopy = {
       "franchise-operators": "Franchiseoperatörer",
       "independent-operators": "Oberoende operatörer",
       "architecture": "Arkitektur",
-      "scout": "Scout",
+      "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Forge",
-      "canvas": "Canvas"
+      "forge": "Sundae Intelligence",
+      "canvas": "Sundae Core"
     },
     "bn": {
       "product": "Products",
@@ -605,10 +605,10 @@ export const generatedLocalCopy = {
       "franchise-operators": "ফ্র্যাঞ্চাইজি অপারেটর",
       "independent-operators": "স্বতন্ত্র অপারেটর",
       "architecture": "স্থাপত্য",
-      "scout": "Scout",
+      "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "ফর্গ",
-      "canvas": "Canvas"
+      "forge": "Sundae Intelligence",
+      "canvas": "Sundae Core"
     },
     "th": {
       "product": "Products",
@@ -637,10 +637,10 @@ export const generatedLocalCopy = {
       "franchise-operators": "ผู้ดำเนินการแฟรนไชส์",
       "independent-operators": "ผู้ดำเนินการอิสระ",
       "architecture": "สถาปัตยกรรม",
-      "scout": "Scout",
+      "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "ฟอร์จ",
-      "canvas": "Canvas"
+      "forge": "Sundae Intelligence",
+      "canvas": "Sundae Core"
     },
     "ms": {
       "product": "Products",
@@ -669,10 +669,10 @@ export const generatedLocalCopy = {
       "franchise-operators": "Pengendali Francais",
       "independent-operators": "Pengendali Bebas",
       "architecture": "Arkitektur",
-      "scout": "Scout",
+      "scout": "Sundae Core",
       "pulse": "Pulse",
-      "forge": "Forge",
-      "canvas": "Canvas"
+      "forge": "Sundae Intelligence",
+      "canvas": "Sundae Core"
     }
   }
 } as const

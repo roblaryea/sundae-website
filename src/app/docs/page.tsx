@@ -149,7 +149,7 @@ const localizedDocsCopy: RequiredEnglishLocalizedRecord<DocumentationCopy> = {
       {
         step: "1",
         title: "Connect Data Sources",
-        description: "Link your POS, payroll, inventory, and budget systems to Sundae Scout",
+        description: "Link your POS, payroll, inventory, and budget systems to Sundae Core",
         icon: "integration",
       },
       {
@@ -275,7 +275,7 @@ const localizedDocsCopy: RequiredEnglishLocalizedRecord<DocumentationCopy> = {
       {
         step: "1",
         title: "اربط مصادر البيانات",
-        description: "اربط أنظمة نقاط البيع والرواتب والمخزون والميزانيات مع Sundae Scout",
+        description: "اربط أنظمة نقاط البيع والرواتب والمخزون والميزانيات مع Sundae Core",
         icon: "integration",
       },
       {
@@ -401,7 +401,7 @@ const localizedDocsCopy: RequiredEnglishLocalizedRecord<DocumentationCopy> = {
       {
         step: "1",
         title: "Connecter les sources de donnees",
-        description: "Reliez vos systemes POS, paie, inventaire et budget a Sundae Scout",
+        description: "Reliez vos systemes POS, paie, inventaire et budget a Sundae Core",
         icon: "integration",
       },
       {
@@ -527,7 +527,7 @@ const localizedDocsCopy: RequiredEnglishLocalizedRecord<DocumentationCopy> = {
       {
         step: "1",
         title: "Conectar fuentes de datos",
-        description: "Vincula tus sistemas POS, nomina, inventario y presupuesto a Sundae Scout",
+        description: "Vincula tus sistemas POS, nomina, inventario y presupuesto a Sundae Core",
         icon: "integration",
       },
       {

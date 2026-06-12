@@ -118,7 +118,7 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
       { title: "Foundation / Infrastructure", subtitle: "Base Layer", description: "Secure pipelines, API ingestion, normalization, governance", color: "bg-gradient-to-r from-amber-700 to-orange-800", icon: "network" },
     ],
     steps: [
-      { step: "1", title: "Data Collection", description: "Scout connects to 250+ restaurant systems across 12 data domains and external sources", icon: "integration" },
+      { step: "1", title: "Data Collection", description: "Sundae Core connects to 250+ restaurant systems across 12 data domains and external sources", icon: "integration" },
       { step: "2", title: "AI Processing", description: "Multi-agent AI analyzes patterns and generates insights", icon: "intelligence" },
       { step: "3", title: "Intelligence Delivery", description: "Actionable recommendations delivered through language and visualizations", icon: "insights" },
     ],
@@ -128,10 +128,10 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
       { name: "Context Agents", description: "Understand operational context, location specifics, and business rules to provide relevant insights", icon: "intelligence" },
     ],
     modules: [
-      { name: "Scout", description: "Universal data integration layer connecting 250+ restaurant systems across 12 data domains", icon: "scout", features: ["POS Integration", "Labor Systems", "Inventory", "Real-time Sync"], colorClass: "component-icon--scout" },
+      { name: "Sundae Core", description: "Universal data integration layer connecting 250+ restaurant systems across 12 data domains", icon: "scout", features: ["POS Integration", "Labor Systems", "Inventory", "Real-time Sync"], colorClass: "component-icon--scout" },
       { name: "Pulse", description: "AI-powered anomaly detection and real-time alert system", icon: "pulse", features: ["Anomaly Detection", "Real-time Alerts", "Pattern Analysis", "Threshold Monitoring"], colorClass: "component-icon--pulse" },
-      { name: "Forge", description: "Conversational AI engine for natural language intelligence", icon: "forge", features: ["Natural Language", "Context Understanding", "Query Engine", "AI Responses"], colorClass: "component-icon--forge" },
-      { name: "Canvas", description: "Dynamic visualization and dashboard intelligence layer", icon: "canvas", features: ["Real-time Dashboards", "Custom Views", "Visual Analytics", "Interactive Reports"], colorClass: "component-icon--canvas" },
+      { name: "Sundae Intelligence", description: "Conversational AI engine for natural language intelligence", icon: "forge", features: ["Natural Language", "Context Understanding", "Query Engine", "AI Responses"], colorClass: "component-icon--forge" },
+      { name: "Insights", description: "Deep analytics that turn operational data into decisions", icon: "canvas", features: ["Real-time Views", "Custom Analysis", "Visual Analytics", "Interactive Reports"], colorClass: "component-icon--canvas" },
       { name: "Watchtower", description: "Market intelligence and competitive benchmarking engine", icon: "watchtower", features: ["Market Insights", "Competitor Data", "Trend Analysis", "Geographic Intelligence"], colorClass: "bg-gradient-to-br from-red-400 to-red-600" },
     ],
     securityBullets: [
@@ -183,7 +183,7 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
       { title: "الأساس / البنية التحتية", subtitle: "طبقة الأساس", description: "مسارات آمنة، واستقبال عبر API، وتوحيد، وحوكمة", color: "bg-gradient-to-r from-amber-700 to-orange-800", icon: "network" },
     ],
     steps: [
-      { step: "1", title: "جمع البيانات", description: "يرتبط Scout بأكثر من 30 نظامًا للمطاعم عبر 12 مجال بيانات ومصادر خارجية", icon: "integration" },
+      { step: "1", title: "جمع البيانات", description: "يرتبط Sundae Core بأكثر من 30 نظامًا للمطاعم عبر 12 مجال بيانات ومصادر خارجية", icon: "integration" },
       { step: "2", title: "معالجة الذكاء", description: "يحلل الذكاء متعدد الوكلاء الأنماط ويولّد الرؤى", icon: "intelligence" },
       { step: "3", title: "توصيل الذكاء", description: "توصيات قابلة للتنفيذ تُقدَّم عبر اللغة والمرئيات", icon: "insights" },
     ],
@@ -193,10 +193,10 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
       { name: "وكلاء السياق", description: "يفهمون السياق التشغيلي وتفاصيل الموقع وقواعد العمل لتقديم رؤى مناسبة", icon: "intelligence" },
     ],
     modules: [
-      { name: "Scout", description: "طبقة تكامل بيانات موحدة تربط أكثر من 30 نظامًا عبر 12 مجالًا", icon: "scout", features: ["تكامل POS", "أنظمة العمالة", "المخزون", "مزامنة فورية"], colorClass: "component-icon--scout" },
+      { name: "Sundae Core", description: "طبقة تكامل بيانات موحدة تربط أكثر من 30 نظامًا عبر 12 مجالًا", icon: "scout", features: ["تكامل POS", "أنظمة العمالة", "المخزون", "مزامنة فورية"], colorClass: "component-icon--scout" },
       { name: "Pulse", description: "اكتشاف شذوذ مدعوم بالذكاء الاصطناعي ونظام تنبيهات لحظي", icon: "pulse", features: ["اكتشاف الشذوذ", "تنبيهات لحظية", "تحليل الأنماط", "مراقبة الحدود"], colorClass: "component-icon--pulse" },
-      { name: "Forge", description: "محرك ذكاء محادثي باللغة الطبيعية", icon: "forge", features: ["لغة طبيعية", "فهم السياق", "محرك استعلام", "استجابات ذكية"], colorClass: "component-icon--forge" },
-      { name: "Canvas", description: "طبقة تصوّر ديناميكية ولوحات ذكاء", icon: "canvas", features: ["لوحات لحظية", "عروض مخصصة", "تحليلات مرئية", "تقارير تفاعلية"], colorClass: "component-icon--canvas" },
+      { name: "Sundae Intelligence", description: "محرك ذكاء محادثي باللغة الطبيعية", icon: "forge", features: ["لغة طبيعية", "فهم السياق", "محرك استعلام", "استجابات ذكية"], colorClass: "component-icon--forge" },
+      { name: "Insights", description: "طبقة تصوّر ديناميكية ولوحات ذكاء", icon: "canvas", features: ["لوحات لحظية", "عروض مخصصة", "تحليلات مرئية", "تقارير تفاعلية"], colorClass: "component-icon--canvas" },
       { name: "Watchtower", description: "محرك ذكاء سوقي ومقارنة تنافسية", icon: "watchtower", features: ["رؤى السوق", "بيانات المنافسين", "تحليل الاتجاهات", "ذكاء جغرافي"], colorClass: "bg-gradient-to-br from-red-400 to-red-600" },
     ],
     securityBullets: [
@@ -248,7 +248,7 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
       { title: "Fondation / infrastructure", subtitle: "Couche de base", description: "Pipelines sécurisés, ingestion API, normalisation, gouvernance", color: "bg-gradient-to-r from-amber-700 to-orange-800", icon: "network" },
     ],
     steps: [
-      { step: "1", title: "Collecte des données", description: "Scout se connecte à plus de 30 systèmes sur 12 domaines et sources externes", icon: "integration" },
+      { step: "1", title: "Collecte des données", description: "Sundae Core se connecte à plus de 30 systèmes sur 12 domaines et sources externes", icon: "integration" },
       { step: "2", title: "Traitement IA", description: "Des agents IA analysent les patterns et génèrent des insights", icon: "intelligence" },
       { step: "3", title: "Diffusion de l'intelligence", description: "Des recommandations actionnables diffusées via langage et visualisations", icon: "insights" },
     ],
@@ -258,10 +258,10 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
       { name: "Agents de contexte", description: "Comprennent le contexte opérationnel, les spécificités de site et les règles métier", icon: "intelligence" },
     ],
     modules: [
-      { name: "Scout", description: "Couche d'intégration universelle reliant 250+ systèmes sur 12 domaines", icon: "scout", features: ["Intégration POS", "Systèmes de main-d'oeuvre", "Stock", "Synchronisation temps réel"], colorClass: "component-icon--scout" },
+      { name: "Sundae Core", description: "Couche d'intégration universelle reliant 250+ systèmes sur 12 domaines", icon: "scout", features: ["Intégration POS", "Systèmes de main-d'oeuvre", "Stock", "Synchronisation temps réel"], colorClass: "component-icon--scout" },
       { name: "Pulse", description: "Détection d'anomalies assistée par IA et alertes en temps réel", icon: "pulse", features: ["Détection d'anomalies", "Alertes temps réel", "Analyse de motifs", "Surveillance des seuils"], colorClass: "component-icon--pulse" },
-      { name: "Forge", description: "Moteur d'IA conversationnelle en langage naturel", icon: "forge", features: ["Langage naturel", "Compréhension du contexte", "Moteur de requête", "Réponses IA"], colorClass: "component-icon--forge" },
-      { name: "Canvas", description: "Couche de visualisation dynamique et d'intelligence de dashboard", icon: "canvas", features: ["Dashboards temps réel", "Vues personnalisées", "Analytique visuelle", "Rapports interactifs"], colorClass: "component-icon--canvas" },
+      { name: "Sundae Intelligence", description: "Moteur d'IA conversationnelle en langage naturel", icon: "forge", features: ["Langage naturel", "Compréhension du contexte", "Moteur de requête", "Réponses IA"], colorClass: "component-icon--forge" },
+      { name: "Insights", description: "Couche de visualisation dynamique et d'intelligence de dashboard", icon: "canvas", features: ["Dashboards temps réel", "Vues personnalisées", "Analytique visuelle", "Rapports interactifs"], colorClass: "component-icon--canvas" },
       { name: "Watchtower", description: "Moteur de veille marché et benchmarking concurrentiel", icon: "watchtower", features: ["Insights marché", "Données concurrents", "Analyse de tendances", "Intelligence géographique"], colorClass: "bg-gradient-to-br from-red-400 to-red-600" },
     ],
     securityBullets: [
@@ -313,7 +313,7 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
       { title: "Base / infraestructura", subtitle: "Capa base", description: "Pipelines seguros, ingesta API, normalización, gobernanza", color: "bg-gradient-to-r from-amber-700 to-orange-800", icon: "network" },
     ],
     steps: [
-      { step: "1", title: "Recopilación de datos", description: "Scout se conecta a más de 30 sistemas en 12 dominios y fuentes externas", icon: "integration" },
+      { step: "1", title: "Recopilación de datos", description: "Sundae Core se conecta a más de 30 sistemas en 12 dominios y fuentes externas", icon: "integration" },
       { step: "2", title: "Procesamiento de IA", description: "La IA multiagente analiza patrones y genera insights", icon: "intelligence" },
       { step: "3", title: "Entrega de inteligencia", description: "Recomendaciones accionables entregadas mediante lenguaje y visualizaciones", icon: "insights" },
     ],
@@ -323,10 +323,10 @@ const localizedArchitectureCopy: Record<"en" | "ar" | "fr" | "es", ArchitectureC
       { name: "Agentes de contexto", description: "Entienden contexto operativo, detalles de ubicación y reglas de negocio", icon: "intelligence" },
     ],
     modules: [
-      { name: "Scout", description: "Capa de integración universal que conecta más de 30 sistemas en 12 dominios", icon: "scout", features: ["Integración POS", "Sistemas de personal", "Inventario", "Sincronización en tiempo real"], colorClass: "component-icon--scout" },
+      { name: "Sundae Core", description: "Capa de integración universal que conecta más de 30 sistemas en 12 dominios", icon: "scout", features: ["Integración POS", "Sistemas de personal", "Inventario", "Sincronización en tiempo real"], colorClass: "component-icon--scout" },
       { name: "Pulse", description: "Detección de anomalías con IA y alertas en tiempo real", icon: "pulse", features: ["Detección de anomalías", "Alertas en tiempo real", "Análisis de patrones", "Monitoreo de umbrales"], colorClass: "component-icon--pulse" },
-      { name: "Forge", description: "Motor conversacional de IA para inteligencia en lenguaje natural", icon: "forge", features: ["Lenguaje natural", "Comprensión de contexto", "Motor de consultas", "Respuestas de IA"], colorClass: "component-icon--forge" },
-      { name: "Canvas", description: "Capa dinámica de visualización e inteligencia de paneles", icon: "canvas", features: ["Paneles en tiempo real", "Vistas personalizadas", "Analítica visual", "Informes interactivos"], colorClass: "component-icon--canvas" },
+      { name: "Sundae Intelligence", description: "Motor conversacional de IA para inteligencia en lenguaje natural", icon: "forge", features: ["Lenguaje natural", "Comprensión de contexto", "Motor de consultas", "Respuestas de IA"], colorClass: "component-icon--forge" },
+      { name: "Insights", description: "Capa dinámica de visualización e inteligencia de paneles", icon: "canvas", features: ["Paneles en tiempo real", "Vistas personalizadas", "Analítica visual", "Informes interactivos"], colorClass: "component-icon--canvas" },
       { name: "Watchtower", description: "Motor de inteligencia de mercado y benchmarking competitivo", icon: "watchtower", features: ["Insights de mercado", "Datos de competidores", "Análisis de tendencias", "Inteligencia geográfica"], colorClass: "bg-gradient-to-br from-red-400 to-red-600" },
     ],
     securityBullets: [

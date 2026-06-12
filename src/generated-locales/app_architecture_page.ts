@@ -65,7 +65,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "جمع البيانات",
-          "description": "يتصل Scout بأكثر من 30 نظام مطعم عبر 12 مجال بيانات ومصادر خارجية",
+          "description": "يتصل Sundae Core بأكثر من 30 نظام مطعم عبر 12 مجال بيانات ومصادر خارجية",
           "icon": "integration"
         },
         {
@@ -100,7 +100,7 @@ export const generatedLocalCopy = {
       ],
       "modules": [
         {
-          "name": "Scout",
+          "name": "Sundae Core",
           "description": "طبقة تكامل بيانات عالمية تربط أكثر من 30 نظامًا للمطاعم عبر 12 مجالًا للبيانات",
           "icon": "scout",
           "features": [
@@ -124,7 +124,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Forge",
+          "name": "Sundae Intelligence",
           "description": "محرك الذكاء الاصطناعي للمحادثة لذكاء اللغة الطبيعية",
           "icon": "forge",
           "features": [
@@ -136,7 +136,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--forge"
         },
         {
-          "name": "Canvas",
+          "name": "Insights",
           "description": "التصور الديناميكي وطبقة ذكاء لوحة القيادة",
           "icon": "canvas",
           "features": [
@@ -331,7 +331,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Recopilación de datos",
-          "description": "Scout se conecta a más de 30 sistemas de restaurantes en 12 dominios de datos y fuentes externas",
+          "description": "Sundae Core se conecta a más de 30 sistemas de restaurantes en 12 dominios de datos y fuentes externas",
           "icon": "integration"
         },
         {
@@ -366,7 +366,7 @@ export const generatedLocalCopy = {
       ],
       "modules": [
         {
-          "name": "Scout",
+          "name": "Sundae Core",
           "description": "Capa de integración de datos universal que conecta más de 30 sistemas de restaurantes en 12 dominios de datos",
           "icon": "scout",
           "features": [
@@ -390,7 +390,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Forge",
+          "name": "Sundae Intelligence",
           "description": "Motor de IA conversacional para inteligencia en lenguaje natural",
           "icon": "forge",
           "features": [
@@ -402,7 +402,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--forge"
         },
         {
-          "name": "Canvas",
+          "name": "Insights",
           "description": "Visualización dinámica y capa de inteligencia del panel",
           "icon": "canvas",
           "features": [
@@ -597,7 +597,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Collecte de données",
-          "description": "Scout se connecte à plus de 30 systèmes de restaurants dans 12 domaines de données et sources externes",
+          "description": "Sundae Core se connecte à plus de 30 systèmes de restaurants dans 12 domaines de données et sources externes",
           "icon": "integration"
         },
         {
@@ -632,7 +632,7 @@ export const generatedLocalCopy = {
       ],
       "modules": [
         {
-          "name": "Scout",
+          "name": "Sundae Core",
           "description": "Couche d'intégration de données universelle connectant plus de 30 systèmes de restaurants sur 12 domaines de données",
           "icon": "scout",
           "features": [
@@ -656,7 +656,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Forge",
+          "name": "Sundae Intelligence",
           "description": "Moteur d'IA conversationnelle pour l'intelligence du langage naturel",
           "icon": "forge",
           "features": [
@@ -668,7 +668,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--forge"
         },
         {
-          "name": "Canvas",
+          "name": "Insights",
           "description": "Visualisation dynamique et couche d'intelligence du tableau de bord",
           "icon": "canvas",
           "features": [
@@ -863,7 +863,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Datenerfassung",
-          "description": "Scout verbindet sich mit über 30 Restaurantsystemen über 12 Datendomänen und externe Quellen",
+          "description": "Sundae Core verbindet sich mit über 30 Restaurantsystemen über 12 Datendomänen und externe Quellen",
           "icon": "integration"
         },
         {
@@ -898,7 +898,7 @@ export const generatedLocalCopy = {
       ],
       "modules": [
         {
-          "name": "Scout",
+          "name": "Sundae Core",
           "description": "Universelle Datenintegrationsschicht, die über 30 Restaurantsysteme über 12 Datendomänen hinweg verbindet",
           "icon": "scout",
           "features": [
@@ -922,7 +922,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Forge",
+          "name": "Sundae Intelligence",
           "description": "Konversations-KI-Engine für natürliche Sprachintelligenz",
           "icon": "forge",
           "features": [
@@ -934,7 +934,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--forge"
         },
         {
-          "name": "Canvas",
+          "name": "Insights",
           "description": "Dynamische Visualisierung und Dashboard-Intelligence-Ebene",
           "icon": "canvas",
           "features": [
@@ -1129,7 +1129,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Coleta de dados",
-          "description": "Scout se conecta a mais de 30 sistemas de restaurantes em 12 domínios de dados e fontes externas",
+          "description": "Sundae Core se conecta a mais de 30 sistemas de restaurantes em 12 domínios de dados e fontes externas",
           "icon": "integration"
         },
         {
@@ -1164,7 +1164,7 @@ export const generatedLocalCopy = {
       ],
       "modules": [
         {
-          "name": "Scout",
+          "name": "Sundae Core",
           "description": "Camada universal de integração de dados conectando mais de 30 sistemas de restaurantes em 12 domínios de dados",
           "icon": "scout",
           "features": [
@@ -1188,7 +1188,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Forge",
+          "name": "Sundae Intelligence",
           "description": "Mecanismo de IA conversacional para inteligência de linguagem natural",
           "icon": "forge",
           "features": [
@@ -1200,7 +1200,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--forge"
         },
         {
-          "name": "Canvas",
+          "name": "Insights",
           "description": "Visualização dinâmica e camada de inteligência do painel",
           "icon": "canvas",
           "features": [
@@ -1395,7 +1395,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Gegevensverzameling",
-          "description": "Scout maakt verbinding met meer dan 30 restaurantsystemen in 12 datadomeinen en externe bronnen",
+          "description": "Sundae Core maakt verbinding met meer dan 30 restaurantsystemen in 12 datadomeinen en externe bronnen",
           "icon": "integration"
         },
         {
@@ -1430,7 +1430,7 @@ export const generatedLocalCopy = {
       ],
       "modules": [
         {
-          "name": "Scout",
+          "name": "Sundae Core",
           "description": "Universele data-integratielaag die meer dan 30 restaurantsystemen verbindt in 12 datadomeinen",
           "icon": "scout",
           "features": [
@@ -1454,7 +1454,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Forge",
+          "name": "Sundae Intelligence",
           "description": "Conversationele AI-engine voor natuurlijke taalintelligentie",
           "icon": "forge",
           "features": [
@@ -1466,7 +1466,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--forge"
         },
         {
-          "name": "Canvas",
+          "name": "Insights",
           "description": "Dynamische visualisatie en dashboard-intelligentielaag",
           "icon": "canvas",
           "features": [
@@ -1661,7 +1661,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "ڈیٹا اکٹھا کرنا",
-          "description": "Scout 12 ڈیٹا ڈومینز اور بیرونی ذرائع میں 30+ ریسٹورنٹ سسٹمز سے جڑتا ہے۔",
+          "description": "Sundae Core 12 ڈیٹا ڈومینز اور بیرونی ذرائع میں 30+ ریسٹورنٹ سسٹمز سے جڑتا ہے۔",
           "icon": "integration"
         },
         {
@@ -1696,7 +1696,7 @@ export const generatedLocalCopy = {
       ],
       "modules": [
         {
-          "name": "Scout",
+          "name": "Sundae Core",
           "description": "یونیورسل ڈیٹا انٹیگریشن پرت 12 ڈیٹا ڈومینز میں 30+ ریسٹورنٹ سسٹم کو جوڑتی ہے۔",
           "icon": "scout",
           "features": [
@@ -1720,7 +1720,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Forge",
+          "name": "Sundae Intelligence",
           "description": "قدرتی زبان کی ذہانت کے لیے بات چیت کا AI انجن",
           "icon": "forge",
           "features": [
@@ -1732,7 +1732,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--forge"
         },
         {
-          "name": "Canvas",
+          "name": "Insights",
           "description": "ڈائنامک ویژولائزیشن اور ڈیش بورڈ انٹیلی جنس پرت",
           "icon": "canvas",
           "features": [
@@ -1927,7 +1927,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Raccolta dati",
-          "description": "Scout si connette a oltre 30 sistemi di ristoranti attraverso 12 domini di dati e fonti esterne",
+          "description": "Sundae Core si connette a oltre 30 sistemi di ristoranti attraverso 12 domini di dati e fonti esterne",
           "icon": "integration"
         },
         {
@@ -1962,7 +1962,7 @@ export const generatedLocalCopy = {
       ],
       "modules": [
         {
-          "name": "Scout",
+          "name": "Sundae Core",
           "description": "Livello di integrazione dati universale che collega oltre 30 sistemi di ristoranti in 12 domini di dati",
           "icon": "scout",
           "features": [
@@ -1986,7 +1986,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Forge",
+          "name": "Sundae Intelligence",
           "description": "Motore di intelligenza artificiale conversazionale per l'intelligenza del linguaggio naturale",
           "icon": "forge",
           "features": [
@@ -1998,7 +1998,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--forge"
         },
         {
-          "name": "Canvas",
+          "name": "Insights",
           "description": "Visualizzazione dinamica e livello di intelligenza del dashboard",
           "icon": "canvas",
           "features": [
@@ -2193,7 +2193,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "डेटा संग्रहण",
-          "description": "Scout 12 डेटा डोमेन और बाहरी स्रोतों में 30+ रेस्तरां सिस्टम से जुड़ता है",
+          "description": "Sundae Core 12 डेटा डोमेन और बाहरी स्रोतों में 30+ रेस्तरां सिस्टम से जुड़ता है",
           "icon": "integration"
         },
         {
@@ -2228,7 +2228,7 @@ export const generatedLocalCopy = {
       ],
       "modules": [
         {
-          "name": "Scout",
+          "name": "Sundae Core",
           "description": "यूनिवर्सल डेटा एकीकरण परत 12 डेटा डोमेन में 30+ रेस्तरां सिस्टम को जोड़ती है",
           "icon": "scout",
           "features": [
@@ -2252,7 +2252,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Forge",
+          "name": "Sundae Intelligence",
           "description": "प्राकृतिक भाषा बुद्धि के लिए संवादात्मक एआई इंजन",
           "icon": "forge",
           "features": [
@@ -2264,7 +2264,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--forge"
         },
         {
-          "name": "Canvas",
+          "name": "Insights",
           "description": "गतिशील विज़ुअलाइज़ेशन और डैशबोर्ड इंटेलिजेंस परत",
           "icon": "canvas",
           "features": [
@@ -2459,7 +2459,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Veri Toplama",
-          "description": "Scout, 12 veri alanı ve harici kaynak üzerinden 30'dan fazla restoran sistemine bağlanır",
+          "description": "Sundae Core, 12 veri alanı ve harici kaynak üzerinden 30'dan fazla restoran sistemine bağlanır",
           "icon": "integration"
         },
         {
@@ -2494,7 +2494,7 @@ export const generatedLocalCopy = {
       ],
       "modules": [
         {
-          "name": "Scout",
+          "name": "Sundae Core",
           "description": "12 veri alanında 30'dan fazla restoran sistemini birbirine bağlayan evrensel veri entegrasyon katmanı",
           "icon": "scout",
           "features": [
@@ -2518,7 +2518,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Forge",
+          "name": "Sundae Intelligence",
           "description": "Doğal dil zekası için konuşmaya dayalı yapay zeka motoru",
           "icon": "forge",
           "features": [
@@ -2530,7 +2530,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--forge"
         },
         {
-          "name": "Canvas",
+          "name": "Insights",
           "description": "Dinamik görselleştirme ve kontrol paneli zeka katmanı",
           "icon": "canvas",
           "features": [
@@ -2725,7 +2725,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Zbieranie danych",
-          "description": "Scout łączy się z ponad 30 systemami restauracyjnymi w 12 domenach danych i źródłach zewnętrznych",
+          "description": "Sundae Core łączy się z ponad 30 systemami restauracyjnymi w 12 domenach danych i źródłach zewnętrznych",
           "icon": "integration"
         },
         {
@@ -2760,7 +2760,7 @@ export const generatedLocalCopy = {
       ],
       "modules": [
         {
-          "name": "Scout",
+          "name": "Sundae Core",
           "description": "Uniwersalna warstwa integracji danych łącząca ponad 30 systemów restauracyjnych w 12 domenach danych",
           "icon": "scout",
           "features": [
@@ -2784,7 +2784,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Forge",
+          "name": "Sundae Intelligence",
           "description": "Konwersacyjny silnik AI zapewniający inteligencję języka naturalnego",
           "icon": "forge",
           "features": [
@@ -2796,7 +2796,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--forge"
         },
         {
-          "name": "Canvas",
+          "name": "Insights",
           "description": "Dynamiczna wizualizacja i warstwa inteligencji dashboardu",
           "icon": "canvas",
           "features": [
@@ -2991,7 +2991,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "数据收集",
-          "description": "Scout 连接到 12 个数据域和外部源的 30 多个餐厅系统",
+          "description": "Sundae Core 连接到 12 个数据域和外部源的 30 多个餐厅系统",
           "icon": "integration"
         },
         {
@@ -3026,7 +3026,7 @@ export const generatedLocalCopy = {
       ],
       "modules": [
         {
-          "name": "Scout",
+          "name": "Sundae Core",
           "description": "通用数据集成层连接 12 个数据域的 30 多个餐厅系统",
           "icon": "scout",
           "features": [
@@ -3050,7 +3050,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Forge",
+          "name": "Sundae Intelligence",
           "description": "用于自然语言智能的对话式人工智能引擎",
           "icon": "forge",
           "features": [
@@ -3062,7 +3062,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--forge"
         },
         {
-          "name": "Canvas",
+          "name": "Insights",
           "description": "动态可视化和仪表板智能层",
           "icon": "canvas",
           "features": [
@@ -3257,7 +3257,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "데이터 수집",
-          "description": "Scout는 12개 데이터 도메인과 외부 소스를 통해 30개 이상의 레스토랑 시스템에 연결됩니다.",
+          "description": "Sundae Core는 12개 데이터 도메인과 외부 소스를 통해 30개 이상의 레스토랑 시스템에 연결됩니다.",
           "icon": "integration"
         },
         {
@@ -3292,7 +3292,7 @@ export const generatedLocalCopy = {
       ],
       "modules": [
         {
-          "name": "Scout",
+          "name": "Sundae Core",
           "description": "12개 데이터 도메인에 걸쳐 30개 이상의 레스토랑 시스템을 연결하는 범용 데이터 통합 레이어",
           "icon": "scout",
           "features": [
@@ -3316,7 +3316,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Forge",
+          "name": "Sundae Intelligence",
           "description": "자연어 지능을 위한 대화형 AI 엔진",
           "icon": "forge",
           "features": [
@@ -3328,7 +3328,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--forge"
         },
         {
-          "name": "Canvas",
+          "name": "Insights",
           "description": "동적 시각화 및 대시보드 인텔리전스 계층",
           "icon": "canvas",
           "features": [
@@ -3523,7 +3523,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Colectarea datelor",
-          "description": "Scout se conectează la peste 30 de sisteme de restaurante din 12 domenii de date și surse externe",
+          "description": "Sundae Core se conectează la peste 30 de sisteme de restaurante din 12 domenii de date și surse externe",
           "icon": "integration"
         },
         {
@@ -3558,7 +3558,7 @@ export const generatedLocalCopy = {
       ],
       "modules": [
         {
-          "name": "Scout",
+          "name": "Sundae Core",
           "description": "Stratul universal de integrare a datelor care conectează peste 30 de sisteme de restaurante în 12 domenii de date",
           "icon": "scout",
           "features": [
@@ -3582,7 +3582,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Forge",
+          "name": "Sundae Intelligence",
           "description": "Motor AI conversațional pentru inteligența limbajului natural",
           "icon": "forge",
           "features": [
@@ -3594,7 +3594,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--forge"
         },
         {
-          "name": "Canvas",
+          "name": "Insights",
           "description": "Vizualizare dinamică și strat inteligent de tablou de bord",
           "icon": "canvas",
           "features": [
@@ -3789,7 +3789,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "データ収集",
-          "description": "Scout は 12 のデータ ドメインと外部ソースにわたる 30 以上のレストラン システムに接続します",
+          "description": "Sundae Core は 12 のデータ ドメインと外部ソースにわたる 30 以上のレストラン システムに接続します",
           "icon": "integration"
         },
         {
@@ -3824,7 +3824,7 @@ export const generatedLocalCopy = {
       ],
       "modules": [
         {
-          "name": "Scout",
+          "name": "Sundae Core",
           "description": "12のデータドメインにわたって30以上のレストランシステムを接続するユニバーサルデータ統合レイヤー",
           "icon": "scout",
           "features": [
@@ -3848,7 +3848,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Forge",
+          "name": "Sundae Intelligence",
           "description": "自然言語インテリジェンスのための会話型 AI エンジン",
           "icon": "forge",
           "features": [
@@ -3860,7 +3860,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--forge"
         },
         {
-          "name": "Canvas",
+          "name": "Insights",
           "description": "動的視覚化とダッシュボード インテリジェンス レイヤー",
           "icon": "canvas",
           "features": [
@@ -4055,7 +4055,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Pengumpulan Data",
-          "description": "Scout terhubung ke 30+ sistem restoran di 12 domain data dan sumber eksternal",
+          "description": "Sundae Core terhubung ke 30+ sistem restoran di 12 domain data dan sumber eksternal",
           "icon": "integration"
         },
         {
@@ -4090,7 +4090,7 @@ export const generatedLocalCopy = {
       ],
       "modules": [
         {
-          "name": "Scout",
+          "name": "Sundae Core",
           "description": "Lapisan integrasi data universal yang menghubungkan 30+ sistem restoran di 12 domain data",
           "icon": "scout",
           "features": [
@@ -4114,7 +4114,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Forge",
+          "name": "Sundae Intelligence",
           "description": "Mesin AI percakapan untuk kecerdasan bahasa alami",
           "icon": "forge",
           "features": [
@@ -4126,7 +4126,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--forge"
         },
         {
-          "name": "Canvas",
+          "name": "Insights",
           "description": "Visualisasi dinamis dan lapisan kecerdasan dasbor",
           "icon": "canvas",
           "features": [
@@ -4321,7 +4321,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Thu thập dữ liệu",
-          "description": "Scout kết nối với hơn 30 hệ thống nhà hàng trên 12 miền dữ liệu và các nguồn bên ngoài",
+          "description": "Sundae Core kết nối với hơn 30 hệ thống nhà hàng trên 12 miền dữ liệu và các nguồn bên ngoài",
           "icon": "integration"
         },
         {
@@ -4356,7 +4356,7 @@ export const generatedLocalCopy = {
       ],
       "modules": [
         {
-          "name": "Scout",
+          "name": "Sundae Core",
           "description": "Lớp tích hợp dữ liệu toàn cầu kết nối hơn 30 hệ thống nhà hàng trên 12 miền dữ liệu",
           "icon": "scout",
           "features": [
@@ -4380,7 +4380,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Forge",
+          "name": "Sundae Intelligence",
           "description": "Công cụ AI đàm thoại cho trí thông minh ngôn ngữ tự nhiên",
           "icon": "forge",
           "features": [
@@ -4392,7 +4392,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--forge"
         },
         {
-          "name": "Canvas",
+          "name": "Insights",
           "description": "Lớp thông minh bảng điều khiển và trực quan hóa động",
           "icon": "canvas",
           "features": [
@@ -4587,7 +4587,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "তথ্য সংগ্রহ",
-          "description": "Scout 12টি ডেটা ডোমেন এবং বাহ্যিক উত্স জুড়ে 30+ রেস্তোরাঁ সিস্টেমের সাথে সংযোগ করে৷",
+          "description": "Sundae Core 12টি ডেটা ডোমেন এবং বাহ্যিক উত্স জুড়ে 30+ রেস্তোরাঁ সিস্টেমের সাথে সংযোগ করে৷",
           "icon": "integration"
         },
         {
@@ -4622,7 +4622,7 @@ export const generatedLocalCopy = {
       ],
       "modules": [
         {
-          "name": "Scout",
+          "name": "Sundae Core",
           "description": "ইউনিভার্সাল ডেটা ইন্টিগ্রেশন লেয়ার 12টি ডেটা ডোমেন জুড়ে 30+ রেস্তোরাঁ সিস্টেমকে সংযুক্ত করে",
           "icon": "scout",
           "features": [
@@ -4646,7 +4646,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Forge",
+          "name": "Sundae Intelligence",
           "description": "প্রাকৃতিক ভাষা বুদ্ধিমত্তার জন্য কথোপকথনমূলক এআই ইঞ্জিন",
           "icon": "forge",
           "features": [
@@ -4658,7 +4658,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--forge"
         },
         {
-          "name": "Canvas",
+          "name": "Insights",
           "description": "ডাইনামিক ভিজ্যুয়ালাইজেশন এবং ড্যাশবোর্ড ইন্টেলিজেন্স লেয়ার",
           "icon": "canvas",
           "features": [
@@ -4853,7 +4853,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Datainsamling",
-          "description": "Scout ansluter till 30+ restaurangsystem över 12 datadomäner och externa källor",
+          "description": "Sundae Core ansluter till 30+ restaurangsystem över 12 datadomäner och externa källor",
           "icon": "integration"
         },
         {
@@ -4888,7 +4888,7 @@ export const generatedLocalCopy = {
       ],
       "modules": [
         {
-          "name": "Scout",
+          "name": "Sundae Core",
           "description": "Universellt dataintegrationslager som förbinder 30+ restaurangsystem över 12 datadomäner",
           "icon": "scout",
           "features": [
@@ -4912,7 +4912,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Forge",
+          "name": "Sundae Intelligence",
           "description": "Konversations-AI-motor för naturlig språkintelligens",
           "icon": "forge",
           "features": [
@@ -4924,7 +4924,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--forge"
         },
         {
-          "name": "Canvas",
+          "name": "Insights",
           "description": "Dynamisk visualisering och instrumentpanels intelligenslager",
           "icon": "canvas",
           "features": [
@@ -5119,7 +5119,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "การรวบรวมข้อมูล",
-          "description": "Scout เชื่อมต่อกับระบบร้านอาหารมากกว่า 30 ระบบใน 12 โดเมนข้อมูลและแหล่งข้อมูลภายนอก",
+          "description": "Sundae Core เชื่อมต่อกับระบบร้านอาหารมากกว่า 30 ระบบใน 12 โดเมนข้อมูลและแหล่งข้อมูลภายนอก",
           "icon": "integration"
         },
         {
@@ -5154,7 +5154,7 @@ export const generatedLocalCopy = {
       ],
       "modules": [
         {
-          "name": "Scout",
+          "name": "Sundae Core",
           "description": "เลเยอร์การรวมข้อมูลแบบสากลที่เชื่อมต่อระบบร้านอาหารมากกว่า 30 ระบบใน 12 โดเมนข้อมูล",
           "icon": "scout",
           "features": [
@@ -5178,7 +5178,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Forge",
+          "name": "Sundae Intelligence",
           "description": "กลไกการสนทนา AI เพื่อความฉลาดทางภาษาธรรมชาติ",
           "icon": "forge",
           "features": [
@@ -5190,7 +5190,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--forge"
         },
         {
-          "name": "Canvas",
+          "name": "Insights",
           "description": "การแสดงภาพแบบไดนามิกและชั้นข้อมูลแดชบอร์ดอัจฉริยะ",
           "icon": "canvas",
           "features": [
@@ -5385,7 +5385,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Pengumpulan Data",
-          "description": "Scout menyambung kepada 30+ sistem restoran merentas 12 domain data dan sumber luaran",
+          "description": "Sundae Core menyambung kepada 30+ sistem restoran merentas 12 domain data dan sumber luaran",
           "icon": "integration"
         },
         {
@@ -5420,7 +5420,7 @@ export const generatedLocalCopy = {
       ],
       "modules": [
         {
-          "name": "Scout",
+          "name": "Sundae Core",
           "description": "Lapisan integrasi data universal yang menghubungkan 30+ sistem restoran merentas 12 domain data",
           "icon": "scout",
           "features": [
@@ -5444,7 +5444,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Forge",
+          "name": "Sundae Intelligence",
           "description": "Enjin AI perbualan untuk kecerdasan bahasa semula jadi",
           "icon": "forge",
           "features": [
@@ -5456,7 +5456,7 @@ export const generatedLocalCopy = {
           "colorClass": "component-icon--forge"
         },
         {
-          "name": "Canvas",
+          "name": "Insights",
           "description": "Visualisasi dinamik dan lapisan kecerdasan papan pemuka",
           "icon": "canvas",
           "features": [

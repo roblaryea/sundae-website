@@ -104,7 +104,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Connecter les sources de données",
-          "description": "Liez vos systèmes de POS, de paie, d'inventaire et de budget à Sundae Scout",
+          "description": "Liez vos systèmes de POS, de paie, d'inventaire et de budget à Sundae Core",
           "icon": "integration"
         },
         {
@@ -229,7 +229,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Datenquellen verbinden",
-          "description": "Verbinden Sie Ihre POS-, Lohn-, Inventar- und Budgetsysteme mit Sundae Scout",
+          "description": "Verbinden Sie Ihre POS-, Lohn-, Inventar- und Budgetsysteme mit Sundae Core",
           "icon": "integration"
         },
         {
@@ -354,7 +354,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Conectar Fuentes de Datos",
-          "description": "Vincula tu sistema de POS, nómina, inventario y presupuesto a Sundae Scout",
+          "description": "Vincula tu sistema de POS, nómina, inventario y presupuesto a Sundae Core",
           "icon": "integration"
         },
         {
@@ -479,7 +479,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Verbind Gegevensbronnen",
-          "description": "Koppel uw POS-, loon-, voorraad- en budgetsystemen aan Sundae Scout",
+          "description": "Koppel uw POS-, loon-, voorraad- en budgetsystemen aan Sundae Core",
           "icon": "integration"
         },
         {
@@ -604,7 +604,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "ربط مصادر البيانات",
-          "description": "قم بربط نظام POS، والرواتب، والمخزون، والميزانية بـ Sundae Scout",
+          "description": "قم بربط نظام POS، والرواتب، والمخزون، والميزانية بـ Sundae Core",
           "icon": "integration"
         },
         {
@@ -729,7 +729,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "ڈیٹا کے ذرائع کو جوڑیں",
-          "description": "اپنے POS، تنخواہ، انوینٹری، اور بجٹ کے نظاموں کو Sundae Scout سے منسلک کریں",
+          "description": "اپنے POS، تنخواہ، انوینٹری، اور بجٹ کے نظاموں کو Sundae Core سے منسلک کریں",
           "icon": "integration"
         },
         {
@@ -854,7 +854,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Conectar Fontes de Dados",
-          "description": "Vincule seus sistemas de POS, folha de pagamento, inventário e orçamento ao Sundae Scout",
+          "description": "Vincule seus sistemas de POS, folha de pagamento, inventário e orçamento ao Sundae Core",
           "icon": "integration"
         },
         {
@@ -979,7 +979,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "डेटा स्रोत कनेक्ट करें",
-          "description": "अपने POS, पेरोल, इन्वेंटरी और बजट सिस्टम को Sundae Scout से लिंक करें",
+          "description": "अपने POS, पेरोल, इन्वेंटरी और बजट सिस्टम को Sundae Core से लिंक करें",
           "icon": "integration"
         },
         {
@@ -1104,7 +1104,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Collega le Fonti Dati",
-          "description": "Collega il tuo POS, buste paga, inventario e sistemi di budget a Sundae Scout",
+          "description": "Collega il tuo POS, buste paga, inventario e sistemi di budget a Sundae Core",
           "icon": "integration"
         },
         {
@@ -1229,7 +1229,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "连接数据源",
-          "description": "将您的POS、工资、库存和预算系统链接到Sundae Scout",
+          "description": "将您的POS、工资、库存和预算系统链接到Sundae Core",
           "icon": "integration"
         },
         {
@@ -1354,7 +1354,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Veri Kaynaklarını Bağlayın",
-          "description": "Sundae Scout'a POS, bordro, envanter ve bütçe sistemlerinizi bağlayın",
+          "description": "Sundae Core'a POS, bordro, envanter ve bütçe sistemlerinizi bağlayın",
           "icon": "integration"
         },
         {
@@ -1479,7 +1479,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Połącz Źródła Danych",
-          "description": "Połącz swoje systemy POS, płac, zapasów i budżetu z Sundae Scout",
+          "description": "Połącz swoje systemy POS, płac, zapasów i budżetu z Sundae Core",
           "icon": "integration"
         },
         {
@@ -1604,7 +1604,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "データソースを接続",
-          "description": "Sundae ScoutにPOS、給与、在庫、予算システムをリンクします",
+          "description": "Sundae CoreにPOS、給与、在庫、予算システムをリンクします",
           "icon": "integration"
         },
         {
@@ -1729,7 +1729,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Sambungkan Sumber Data",
-          "description": "Hubungkan sistem POS, penggajian, inventaris, dan anggaran Anda ke Sundae Scout",
+          "description": "Hubungkan sistem POS, penggajian, inventaris, dan anggaran Anda ke Sundae Core",
           "icon": "integration"
         },
         {
@@ -1854,7 +1854,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "데이터 소스 연결",
-          "description": "Sundae Scout에 POS, 급여, 재고 및 예산 시스템을 연결하세요.",
+          "description": "Sundae Core에 POS, 급여, 재고 및 예산 시스템을 연결하세요.",
           "icon": "integration"
         },
         {
@@ -1979,7 +1979,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Kết Nối Nguồn Dữ Liệu",
-          "description": "Liên kết hệ thống POS, bảng lương, tồn kho và ngân sách của bạn với Sundae Scout",
+          "description": "Liên kết hệ thống POS, bảng lương, tồn kho và ngân sách của bạn với Sundae Core",
           "icon": "integration"
         },
         {
@@ -2104,7 +2104,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Conectează Sursele de Date",
-          "description": "Leagă-ți sistemele POS, de salarii, de inventar și de buget la Sundae Scout",
+          "description": "Leagă-ți sistemele POS, de salarii, de inventar și de buget la Sundae Core",
           "icon": "integration"
         },
         {
@@ -2229,7 +2229,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Anslut datakällor",
-          "description": "Koppla din POS, löne-, lager- och budgetsystem till Sundae Scout",
+          "description": "Koppla din POS, löne-, lager- och budgetsystem till Sundae Core",
           "icon": "integration"
         },
         {
@@ -2354,7 +2354,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "เชื่อมต่อแหล่งข้อมูล",
-          "description": "เชื่อมโยงระบบ POS, เงินเดือน, สต็อกสินค้า และงบประมาณของคุณกับ Sundae Scout",
+          "description": "เชื่อมโยงระบบ POS, เงินเดือน, สต็อกสินค้า และงบประมาณของคุณกับ Sundae Core",
           "icon": "integration"
         },
         {
@@ -2479,7 +2479,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "ডেটা সোর্স সংযুক্ত করুন",
-          "description": "আপনার POS, পে-রোল, ইনভেন্টরি এবং বাজেট সিস্টেমগুলোকে Sundae Scout-এর সাথে সংযুক্ত করুন",
+          "description": "আপনার POS, পে-রোল, ইনভেন্টরি এবং বাজেট সিস্টেমগুলোকে Sundae Core-এর সাথে সংযুক্ত করুন",
           "icon": "integration"
         },
         {
@@ -2604,7 +2604,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Sambungkan Sumber Data",
-          "description": "Sambungkan POS, gaji, inventori, dan sistem bajet anda ke Sundae Scout",
+          "description": "Sambungkan POS, gaji, inventori, dan sistem bajet anda ke Sundae Core",
           "icon": "integration"
         },
         {

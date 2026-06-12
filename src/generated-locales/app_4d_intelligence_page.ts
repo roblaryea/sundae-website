@@ -153,7 +153,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "طبقة البيانات الموحدة",
-          "description": "يدمج Scout أكثر من 25 نظامًا - POS، والعمالة، والمخزون، والميزانيات، والمصادر الخارجية - في أساس ذكي واحد.",
+          "description": "يدمج Sundae Core أكثر من 25 نظامًا - POS، والعمالة، والمخزون، والميزانيات، والمصادر الخارجية - في أساس ذكي واحد.",
           "icon": "integration"
         },
         {
@@ -163,7 +163,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "الاستخبارات القابلة للتنفيذ",
-          "description": "توفر لوحات معلومات Canvas واستعلامات Nexus باللغة الطبيعية والتنبيهات الاستباقية رؤى متى وأينما تحتاج إليها.",
+          "description": "توفر لوحات معلومات Sundae Core واستعلامات Sundae Intelligence باللغة الطبيعية والتنبيهات الاستباقية رؤى متى وأينما تحتاج إليها.",
           "icon": "insights"
         }
       ],
@@ -323,7 +323,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Couche de données unifiée",
-          "description": "Scout intègre plus de 25 systèmes (POS, main-d'œuvre, inventaire, budgets et sources externes) dans une seule base intelligente.",
+          "description": "Sundae Core intègre plus de 25 systèmes (POS, main-d'œuvre, inventaire, budgets et sources externes) dans une seule base intelligente.",
           "icon": "integration"
         },
         {
@@ -333,7 +333,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Intelligence exploitable",
-          "description": "Les tableaux de bord Canvas, les requêtes en langage naturel Nexus et les alertes proactives fournissent des informations quand et où vous en avez besoin.",
+          "description": "Les tableaux de bord Sundae Core, les requêtes en langage naturel Sundae Intelligence et les alertes proactives fournissent des informations quand et où vous en avez besoin.",
           "icon": "insights"
         }
       ],
@@ -493,7 +493,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Camada de dados unificada",
-          "description": "O Scout integra mais de 25 sistemas - POS, mão de obra, estoque, orçamentos e fontes externas - em uma base inteligente.",
+          "description": "O Sundae Core integra mais de 25 sistemas - POS, mão de obra, estoque, orçamentos e fontes externas - em uma base inteligente.",
           "icon": "integration"
         },
         {
@@ -503,7 +503,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Inteligência Acionável",
-          "description": "Painéis Canvas, consultas em linguagem natural do Nexus e alertas proativos fornecem insights quando e onde você precisar deles.",
+          "description": "Painéis Sundae Core, consultas em linguagem natural do Sundae Intelligence e alertas proativos fornecem insights quando e onde você precisar deles.",
           "icon": "insights"
         }
       ],
@@ -663,7 +663,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Einheitliche Datenschicht",
-          "description": "Scout integriert über 25 Systeme - POS, Personal, Inventar, Budgets und externe Quellen - in einer intelligenten Grundlage.",
+          "description": "Sundae Core integriert über 25 Systeme - POS, Personal, Inventar, Budgets und externe Quellen - in einer intelligenten Grundlage.",
           "icon": "integration"
         },
         {
@@ -673,7 +673,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Umsetzbare Intelligenz",
-          "description": "Canvas-Dashboards, Nexus-Abfragen in natürlicher Sprache und proaktive Benachrichtigungen liefern Einblicke, wann und wo Sie sie benötigen.",
+          "description": "Sundae Core-Dashboards, Sundae Intelligence-Abfragen in natürlicher Sprache und proaktive Benachrichtigungen liefern Einblicke, wann und wo Sie sie benötigen.",
           "icon": "insights"
         }
       ],
@@ -833,7 +833,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Uniforme gegevenslaag",
-          "description": "Scout integreert meer dan 25 systemen - POS, arbeid, inventaris, budgetten en externe bronnen - in één intelligente basis.",
+          "description": "Sundae Core integreert meer dan 25 systemen - POS, arbeid, inventaris, budgetten en externe bronnen - in één intelligente basis.",
           "icon": "integration"
         },
         {
@@ -843,7 +843,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Bruikbare intelligentie",
-          "description": "Canvas-dashboards, Nexus-query's in natuurlijke taal en proactieve waarschuwingen bieden inzichten waar en wanneer u ze nodig heeft.",
+          "description": "Sundae Core-dashboards, Sundae Intelligence-query's in natuurlijke taal en proactieve waarschuwingen bieden inzichten waar en wanneer u ze nodig heeft.",
           "icon": "insights"
         }
       ],
@@ -1003,7 +1003,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Capa de datos unificada",
-          "description": "Scout integra más de 25 sistemas (POS, mano de obra, inventario, presupuestos y fuentes externas) en una base inteligente.",
+          "description": "Sundae Core integra más de 25 sistemas (POS, mano de obra, inventario, presupuestos y fuentes externas) en una base inteligente.",
           "icon": "integration"
         },
         {
@@ -1013,7 +1013,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Inteligencia procesable",
-          "description": "Los paneles de Canvas, las consultas en lenguaje natural de Nexus y las alertas proactivas brindan información cuando y donde la necesita.",
+          "description": "Los paneles de Sundae Core, las consultas en lenguaje natural de Sundae Intelligence y las alertas proactivas brindan información cuando y donde la necesita.",
           "icon": "insights"
         }
       ],
@@ -1173,7 +1173,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "یونیفائیڈ ڈیٹا لیئر",
-          "description": "Scout 25+ سسٹمز - POS، لیبر، انوینٹری، بجٹ، اور بیرونی ذرائع - کو ایک ذہین بنیاد میں ضم کرتا ہے۔",
+          "description": "Sundae Core 25+ سسٹمز - POS، لیبر، انوینٹری، بجٹ، اور بیرونی ذرائع - کو ایک ذہین بنیاد میں ضم کرتا ہے۔",
           "icon": "integration"
         },
         {
@@ -1183,7 +1183,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "قابل عمل انٹیلی جنس",
-          "description": "Canvas ڈیش بورڈز، Nexus قدرتی زبان کے استفسارات، اور فعال الرٹس آپ کو ان کی ضرورت کے وقت بصیرت فراہم کرتے ہیں۔",
+          "description": "Sundae Core ڈیش بورڈز، Sundae Intelligence قدرتی زبان کے استفسارات، اور فعال الرٹس آپ کو ان کی ضرورت کے وقت بصیرت فراہم کرتے ہیں۔",
           "icon": "insights"
         }
       ],
@@ -1343,7 +1343,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "एकीकृत डेटा परत",
-          "description": "Scout 25+ प्रणालियों - POS, श्रम, इन्वेंट्री, बजट और बाहरी स्रोतों - को एक बुद्धिमान नींव में एकीकृत करता है।",
+          "description": "Sundae Core 25+ प्रणालियों - POS, श्रम, इन्वेंट्री, बजट और बाहरी स्रोतों - को एक बुद्धिमान नींव में एकीकृत करता है।",
           "icon": "integration"
         },
         {
@@ -1353,7 +1353,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "कार्रवाई योग्य खुफिया",
-          "description": "Canvas डैशबोर्ड, नेक्सस प्राकृतिक भाषा क्वेरीज़ और सक्रिय अलर्ट आपको कब और कहाँ उनकी आवश्यकता है, इसकी जानकारी देते हैं।",
+          "description": "Sundae Core डैशबोर्ड, नेक्सस प्राकृतिक भाषा क्वेरीज़ और सक्रिय अलर्ट आपको कब और कहाँ उनकी आवश्यकता है, इसकी जानकारी देते हैं।",
           "icon": "insights"
         }
       ],
@@ -1513,7 +1513,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "统一数据层",
-          "description": "Scout 将 25 多个系统（POS、劳动力、库存、预算和外部来源）集成到一个智能基础中。",
+          "description": "Sundae Core 将 25 多个系统（POS、劳动力、库存、预算和外部来源）集成到一个智能基础中。",
           "icon": "integration"
         },
         {
@@ -1523,7 +1523,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "可行的情报",
-          "description": "Canvas 仪表板、Nexus 自然语言查询和主动警报可随时随地为您提供见解。",
+          "description": "Sundae Core 仪表板、Sundae Intelligence 自然语言查询和主动警报可随时随地为您提供见解。",
           "icon": "insights"
         }
       ],
@@ -1683,7 +1683,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Ujednolicona warstwa danych",
-          "description": "Scout integruje ponad 25 systemów - POS, siły roboczej, zapasów, budżetów i źródeł zewnętrznych - w jedną inteligentną podstawę.",
+          "description": "Sundae Core integruje ponad 25 systemów - POS, siły roboczej, zapasów, budżetów i źródeł zewnętrznych - w jedną inteligentną podstawę.",
           "icon": "integration"
         },
         {
@@ -1693,7 +1693,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Inteligencja czynna",
-          "description": "Pulpity nawigacyjne Canvas, zapytania w języku naturalnym Nexusa i proaktywne alerty dostarczają wglądów tam, gdzie są potrzebne i kiedy ich potrzebujesz.",
+          "description": "Pulpity nawigacyjne Sundae Core, zapytania w języku naturalnym Nexusa i proaktywne alerty dostarczają wglądów tam, gdzie są potrzebne i kiedy ich potrzebujesz.",
           "icon": "insights"
         }
       ],
@@ -1853,7 +1853,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Livello dati unificato",
-          "description": "Scout integra oltre 25 sistemi (POS, manodopera, inventario, budget e fonti esterne) in un'unica base intelligente.",
+          "description": "Sundae Core integra oltre 25 sistemi (POS, manodopera, inventario, budget e fonti esterne) in un'unica base intelligente.",
           "icon": "integration"
         },
         {
@@ -1863,7 +1863,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Intelligenza utilizzabile",
-          "description": "Dashboard Canvas, query in linguaggio naturale Nexus e avvisi proattivi forniscono approfondimenti quando e dove ne hai bisogno.",
+          "description": "Dashboard Sundae Core, query in linguaggio naturale Sundae Intelligence e avvisi proattivi forniscono approfondimenti quando e dove ne hai bisogno.",
           "icon": "insights"
         }
       ],
@@ -2023,7 +2023,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Birleşik Veri Katmanı",
-          "description": "Scout, 25'ten fazla sistemi (POS, işgücü, envanter, bütçeler ve dış kaynaklar) tek bir akıllı temelde birleştirir.",
+          "description": "Sundae Core, 25'ten fazla sistemi (POS, işgücü, envanter, bütçeler ve dış kaynaklar) tek bir akıllı temelde birleştirir.",
           "icon": "integration"
         },
         {
@@ -2033,7 +2033,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Uygulanabilir İstihbarat",
-          "description": "Canvas kontrol panelleri, Nexus doğal dil sorguları ve proaktif uyarılar, ihtiyaç duyduğunuz yerde ve zamanda öngörüler sağlar.",
+          "description": "Sundae Core kontrol panelleri, Sundae Intelligence doğal dil sorguları ve proaktif uyarılar, ihtiyaç duyduğunuz yerde ve zamanda öngörüler sağlar.",
           "icon": "insights"
         }
       ],
@@ -2193,7 +2193,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "통합 데이터 계층",
-          "description": "Scout는 POS, 인력, 재고, 예산, 외부 소스 등 25개 이상의 시스템을 하나의 지능형 기반으로 통합합니다.",
+          "description": "Sundae Core는 POS, 인력, 재고, 예산, 외부 소스 등 25개 이상의 시스템을 하나의 지능형 기반으로 통합합니다.",
           "icon": "integration"
         },
         {
@@ -2203,7 +2203,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "실행 가능한 인텔리전스",
-          "description": "Canvas 대시보드, Nexus 자연어 쿼리 및 사전 알림은 필요할 때 필요한 곳에서 통찰력을 제공합니다.",
+          "description": "Sundae Core 대시보드, Sundae Intelligence 자연어 쿼리 및 사전 알림은 필요할 때 필요한 곳에서 통찰력을 제공합니다.",
           "icon": "insights"
         }
       ],
@@ -2363,7 +2363,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "統合データ層",
-          "description": "Scout は、25 以上のシステム (POS、労働力、在庫、予算、外部ソース) を 1 つのインテリジェントな基盤に統合します。",
+          "description": "Sundae Core は、25 以上のシステム (POS、労働力、在庫、予算、外部ソース) を 1 つのインテリジェントな基盤に統合します。",
           "icon": "integration"
         },
         {
@@ -2373,7 +2373,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "実用的なインテリジェンス",
-          "description": "Canvas ダッシュボード、Nexus 自然言語クエリ、プロアクティブ アラートは、必要なときに必要な場所で洞察を提供します。",
+          "description": "Sundae Core ダッシュボード、Sundae Intelligence 自然言語クエリ、プロアクティブ アラートは、必要なときに必要な場所で洞察を提供します。",
           "icon": "insights"
         }
       ],
@@ -2533,7 +2533,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Lapisan Data Terpadu",
-          "description": "Scout mengintegrasikan 25+ sistem - POS, tenaga kerja, inventaris, anggaran, dan sumber eksternal - ke dalam satu landasan cerdas.",
+          "description": "Sundae Core mengintegrasikan 25+ sistem - POS, tenaga kerja, inventaris, anggaran, dan sumber eksternal - ke dalam satu landasan cerdas.",
           "icon": "integration"
         },
         {
@@ -2543,7 +2543,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Kecerdasan yang Dapat Ditindaklanjuti",
-          "description": "Dasbor Canvas, kueri bahasa alami Nexus, dan peringatan proaktif memberikan wawasan kapan dan di mana Anda membutuhkannya.",
+          "description": "Dasbor Sundae Core, kueri bahasa alami Sundae Intelligence, dan peringatan proaktif memberikan wawasan kapan dan di mana Anda membutuhkannya.",
           "icon": "insights"
         }
       ],
@@ -2703,7 +2703,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Lớp dữ liệu hợp nhất",
-          "description": "Scout tích hợp hơn 25 hệ thống - POS, nhân công, hàng tồn kho, ngân sách và các nguồn bên ngoài - vào một nền tảng thông minh.",
+          "description": "Sundae Core tích hợp hơn 25 hệ thống - POS, nhân công, hàng tồn kho, ngân sách và các nguồn bên ngoài - vào một nền tảng thông minh.",
           "icon": "integration"
         },
         {
@@ -2713,7 +2713,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Trí thông minh có thể hành động",
-          "description": "Bảng điều khiển Canvas, truy vấn ngôn ngữ tự nhiên của Nexus và cảnh báo chủ động cung cấp thông tin chi tiết khi nào và ở đâu bạn cần chúng.",
+          "description": "Bảng điều khiển Sundae Core, truy vấn ngôn ngữ tự nhiên của Sundae Intelligence và cảnh báo chủ động cung cấp thông tin chi tiết khi nào và ở đâu bạn cần chúng.",
           "icon": "insights"
         }
       ],
@@ -2873,7 +2873,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Stratul de date unificat",
-          "description": "Scout integrează peste 25 de sisteme - POS, forță de muncă, inventar, bugete și surse externe - într-o singură fundație inteligentă.",
+          "description": "Sundae Core integrează peste 25 de sisteme - POS, forță de muncă, inventar, bugete și surse externe - într-o singură fundație inteligentă.",
           "icon": "integration"
         },
         {
@@ -2883,7 +2883,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Inteligență acționabilă",
-          "description": "Tablourile de bord Canvas, interogările Nexus în limbaj natural și alertele proactive oferă informații când și unde aveți nevoie de ele.",
+          "description": "Tablourile de bord Sundae Core, interogările Sundae Intelligence în limbaj natural și alertele proactive oferă informații când și unde aveți nevoie de ele.",
           "icon": "insights"
         }
       ],
@@ -3043,7 +3043,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Unified Data Layer",
-          "description": "Scout integrerar 25+ system - POS, arbetskraft, lager, budgetar och externa källor - i en intelligent grund.",
+          "description": "Sundae Core integrerar 25+ system - POS, arbetskraft, lager, budgetar och externa källor - i en intelligent grund.",
           "icon": "integration"
         },
         {
@@ -3053,7 +3053,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Handlingsbar intelligens",
-          "description": "Canvas-instrumentpaneler, Nexus-frågor på naturligt språk och proaktiva varningar ger insikter när och var du behöver dem.",
+          "description": "Sundae Core-instrumentpaneler, Sundae Intelligence-frågor på naturligt språk och proaktiva varningar ger insikter när och var du behöver dem.",
           "icon": "insights"
         }
       ],
@@ -3213,7 +3213,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "ইউনিফাইড ডেটা লেয়ার",
-          "description": "Scout 25+ সিস্টেমকে একীভূত করে - POS, শ্রম, ইনভেন্টরি, বাজেট এবং বাহ্যিক উত্স - একটি বুদ্ধিমান ভিত্তিতে।",
+          "description": "Sundae Core 25+ সিস্টেমকে একীভূত করে - POS, শ্রম, ইনভেন্টরি, বাজেট এবং বাহ্যিক উত্স - একটি বুদ্ধিমান ভিত্তিতে।",
           "icon": "integration"
         },
         {
@@ -3223,7 +3223,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "অ্যাকশনেবল ইন্টেলিজেন্স",
-          "description": "Canvas ড্যাশবোর্ড, নেক্সাস ন্যাচারাল ল্যাঙ্গুয়েজ কোয়েরি, এবং সক্রিয় সতর্কতাগুলি আপনার কখন এবং কোথায় প্রয়োজন তা অন্তর্দৃষ্টি প্রদান করে৷",
+          "description": "Sundae Core ড্যাশবোর্ড, নেক্সাস ন্যাচারাল ল্যাঙ্গুয়েজ কোয়েরি, এবং সক্রিয় সতর্কতাগুলি আপনার কখন এবং কোথায় প্রয়োজন তা অন্তর্দৃষ্টি প্রদান করে৷",
           "icon": "insights"
         }
       ],
@@ -3383,7 +3383,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "ชั้นข้อมูลแบบรวม",
-          "description": "Scout ผสานรวมระบบมากกว่า 25 ระบบ ไม่ว่าจะเป็น POS, แรงงาน, สินค้าคงคลัง, งบประมาณ และแหล่งที่มาภายนอก ไว้ในรากฐานอัจฉริยะเพียงหนึ่งเดียว",
+          "description": "Sundae Core ผสานรวมระบบมากกว่า 25 ระบบ ไม่ว่าจะเป็น POS, แรงงาน, สินค้าคงคลัง, งบประมาณ และแหล่งที่มาภายนอก ไว้ในรากฐานอัจฉริยะเพียงหนึ่งเดียว",
           "icon": "integration"
         },
         {
@@ -3393,7 +3393,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "หน่วยสืบราชการลับที่ดำเนินการได้",
-          "description": "แดชบอร์ด Canvas ข้อความค้นหาด้วยภาษาธรรมชาติของ Nexus และการแจ้งเตือนเชิงรุกจะให้ข้อมูลเชิงลึกในเวลาและทุกที่ที่คุณต้องการ",
+          "description": "แดชบอร์ด Sundae Core ข้อความค้นหาด้วยภาษาธรรมชาติของ Sundae Intelligence และการแจ้งเตือนเชิงรุกจะให้ข้อมูลเชิงลึกในเวลาและทุกที่ที่คุณต้องการ",
           "icon": "insights"
         }
       ],
@@ -3553,7 +3553,7 @@ export const generatedLocalCopy = {
       "howItems": [
         {
           "title": "Lapisan Data Bersatu",
-          "description": "Scout menyepadukan 25+ sistem - POS, buruh, inventori, belanjawan dan sumber luaran - ke dalam satu asas pintar.",
+          "description": "Sundae Core menyepadukan 25+ sistem - POS, buruh, inventori, belanjawan dan sumber luaran - ke dalam satu asas pintar.",
           "icon": "integration"
         },
         {
@@ -3563,7 +3563,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Kecerdasan Boleh Tindakan",
-          "description": "Papan pemuka Canvas, pertanyaan bahasa semula jadi Nexus dan makluman proaktif menyampaikan cerapan bila dan di mana anda memerlukannya.",
+          "description": "Papan pemuka Sundae Core, pertanyaan bahasa semula jadi Sundae Intelligence dan makluman proaktif menyampaikan cerapan bila dan di mana anda memerlukannya.",
           "icon": "insights"
         }
       ],
