@@ -98,11 +98,11 @@ export const generatedLocalCopy = {
       "back": "Volver a Herramientas",
       "hero": {
         "badge": "Inteligencia de Portafolio",
-        "title": "Estimador de Aumento de Ingresos Multi-Locación",
+        "title": "Estimador de Aumento de Ingresos Multiubicación",
         "description": "Calcula el impacto potencial en los ingresos de las mejoras operativas en múltiples ubicaciones."
       },
       "form": {
-        "title": "Ingresa tus Datos Multi-Locación",
+        "title": "Ingresa tus Datos Multiubicación",
         "description": "Estima el impacto en los ingresos de las mejoras en el rendimiento.",
         "locationsLabel": "Número de Ubicaciones",
         "locationsPlaceholder": "p. ej., 10",
@@ -266,7 +266,7 @@ export const generatedLocalCopy = {
       },
       "timeframe": {
         "small": "केंद्रित संचालन सुधार के साथ 3-6 महीने",
-        "medium": "संगत अनुकूलन के साथ 6-12 महीने",
+        "medium": "निरंतर अनुकूलन के साथ 6-12 महीने",
         "large": "रणनीतिक पहलों के साथ 12-18 महीने",
         "xlarge": "महत्वपूर्ण परिवर्तन के साथ 18-24 महीने"
       },
@@ -286,7 +286,7 @@ export const generatedLocalCopy = {
         "description": "کئی مقامات پر عملی بہتریوں کے ممکنہ آمدنی کے اثرات کا حساب لگائیں۔"
       },
       "form": {
-        "title": "اپ数据 داخل کریں",
+        "title": "اپنا ملٹی لوکیشن ڈیٹا درج کریں",
         "description": "کارکردگی کی بہتریوں کے آمدنی کے اثرات کا تخمینہ لگائیں۔",
         "locationsLabel": "مقامات کی تعداد",
         "locationsPlaceholder": "جیسے، 10",
@@ -306,7 +306,7 @@ export const generatedLocalCopy = {
         "areasTitle": "اہم بہتری کے شعبے",
         "labor": "محنت کی اصلاح",
         "menu": "مینیو انجینئرنگ",
-        "operations": "عملی شانداری",
+        "operations": "آپریشنل فضیلت",
         "benchmarking": "مقام کی بینچ مارکنگ",
         "note": "یہ تخمینے صنعتی بینچ مارک پر مبنی ہیں۔ حقیقی نتائج موجودہ کارکردگی کی سطح، مارکیٹ کے حالات، اور عملدرآمد کے معیار پر منحصر ہیں۔ Sundae تمام مقامات پر مواقع کی شناخت اور ٹریک کرنے میں مدد کرتا ہے۔"
       },
@@ -314,7 +314,7 @@ export const generatedLocalCopy = {
         "small": "مرکوز عملی بہتریوں کے ساتھ 3-6 ماہ",
         "medium": "مسلسل اصلاح کے ساتھ 6-12 ماہ",
         "large": "اسٹریٹجک اقدامات کے ساتھ 12-18 ماہ",
-        "xlarge": "بڑے تبدیلی کے ساتھ 18-24 ماہ"
+        "xlarge": "بڑی تبدیلی کے ساتھ 18-24 ماہ"
       },
       "cta": {
         "intro": "کیا آپ اپنے مقامات پر مخصوص بہتری کے مواقع کی شناخت کرنا چاہتے ہیں؟",
@@ -328,11 +328,11 @@ export const generatedLocalCopy = {
       "back": "Torna agli Strumenti",
       "hero": {
         "badge": "Intelligenza del Portafoglio",
-        "title": "Stimatore dell'Aumento di Fatturato Multi-Locale",
+        "title": "Stimatore dell'Aumento di Fatturato Multi-Sede",
         "description": "Calcola l'impatto potenziale sul fatturato delle migliorie operative in più sedi."
       },
       "form": {
-        "title": "Inserisci i Dati Multi-Locale",
+        "title": "Inserisci i Dati Multi-Sede",
         "description": "Stima l'impatto sul fatturato delle migliorie delle performance.",
         "locationsLabel": "Numero di Sedi",
         "locationsPlaceholder": "es. 10",
@@ -420,12 +420,12 @@ export const generatedLocalCopy = {
       "back": "Powrót do Narzędzi",
       "hero": {
         "badge": "Inteligencja Portfela",
-        "title": "Estimator Wzrostu Przychodów dla Wiele Lokalizacji",
+        "title": "Kalkulator Wzrostu Przychodów dla Wielu Lokalizacji",
         "description": "Oblicz potencjalny wpływ przychodów wynikający z usprawnień operacyjnych w wielu lokalizacjach."
       },
       "form": {
-        "title": "Wprowadź Dane dla Wiele Lokalizacji",
-        "description": "Osestimate wpływ przychodów wynikający z usprawnień wydajności.",
+        "title": "Wprowadź Dane dla Wielu Lokalizacji",
+        "description": "Oszacuj wpływ na przychody wynikający z usprawnień wydajności.",
         "locationsLabel": "Liczba Lokalizacji",
         "locationsPlaceholder": "np. 10",
         "revenueLabel": "Średni Miesięczny Przychód na Lokalizację ($)",
@@ -446,7 +446,7 @@ export const generatedLocalCopy = {
         "menu": "Inżynieria Menu",
         "operations": "Doskonalenie Operacyjne",
         "benchmarking": "Benchmarking Lokalizacji",
-        "note": "Te szacunki opierają się na benchmarkach branżowych. Rzeczywiste wyniki zależą od aktualnych poziomów wydajności, warunków rynkowych i jakości wykonania. Sundae pomaga identyfikować i śledzić możliwości w wszystkich lokalizacjach."
+        "note": "Te szacunki opierają się na benchmarkach branżowych. Rzeczywiste wyniki zależą od aktualnych poziomów wydajności, warunków rynkowych i jakości wykonania. Sundae pomaga identyfikować i śledzić możliwości we wszystkich lokalizacjach."
       },
       "timeframe": {
         "small": "3-6 miesięcy z ukierunkowanymi usprawnieniami operacyjnymi",
@@ -649,7 +649,7 @@ export const generatedLocalCopy = {
     "id": {
       "back": "Kembali ke Alat",
       "hero": {
-        "badge": "Inteligensi Portofolio",
+        "badge": "Intelijen Portofolio",
         "title": "Estimasi Peningkatan Pendapatan Multi-Lokasi",
         "description": "Hitung potensi dampak pendapatan dari perbaikan operasional di berbagai lokasi."
       },
@@ -743,11 +743,11 @@ export const generatedLocalCopy = {
       "hero": {
         "badge": "Portföljintelligens",
         "title": "Beräknare för Intäktsökning på Flera Platser",
-        "description": "Beräkna den potentiella intäkts påverkan av operationella förbättringar över flera platser."
+        "description": "Beräkna den potentiella intäktspåverkan av operationella förbättringar över flera platser."
       },
       "form": {
         "title": "Ange Din Data för Flera Platser",
-        "description": "Skatta intäkts påverkan av prestationsförbättringar.",
+        "description": "Beräkna intäktspåverkan av prestationsförbättringar.",
         "locationsLabel": "Antal Platser",
         "locationsPlaceholder": "t.ex. 10",
         "revenueLabel": "Genomsnittlig Månatlig Intäkt per Plats ($)",
@@ -758,7 +758,7 @@ export const generatedLocalCopy = {
         "button": "Beräkna Intäktsökning"
       },
       "results": {
-        "title": "Beräknad Intäkts påverkan",
+        "title": "Beräknad Intäktspåverkan",
         "currentRevenue": "Nuvarande Årliga Intäkter",
         "potentialUplift": "Potentiell Årlig Ökning",
         "upliftPerLocation": "Ökning per Plats",
@@ -860,13 +860,13 @@ export const generatedLocalCopy = {
         "menu": "মেনু ইঞ্জিনিয়ারিং",
         "operations": "কার্যকরী উৎকর্ষতা",
         "benchmarking": "লোকেশন বেঞ্চমার্কিং",
-        "note": "এই অনুমানগুলি শিল্প বেঞ্চমার্কের উপর ভিত্তি করে। প্রকৃত ফলাফল বর্তমান পারফরম্যান্স স্তর, বাজারের অবস্থান এবং কার্যকরী গুণমানের উপর নির্ভর করে। Sundae সমস্ত স্থানে সুযোগ চিহ্নিত করতে এবং ট্র্যাক করতে সহায়তা করে।"
+        "note": "এই অনুমানগুলি শিল্প বেঞ্চমার্কের উপর ভিত্তি করে। প্রকৃত ফলাফল বর্তমান পারফরম্যান্স স্তর, বাজারের অবস্থা এবং কার্যকরী গুণমানের উপর নির্ভর করে। Sundae সমস্ত স্থানে সুযোগ চিহ্নিত করতে এবং ট্র্যাক করতে সহায়তা করে।"
       },
       "timeframe": {
         "small": "কেন্দ্রিত কার্যকরী উন্নতির সাথে 3-6 মাস",
         "medium": "নিয়মিত অপটিমাইজেশনের সাথে 6-12 মাস",
         "large": "কৌশলগত উদ্যোগের সাথে 12-18 মাস",
-        "xlarge": "মহান রূপান্তরের সাথে 18-24 মাস"
+        "xlarge": "বড় রূপান্তরের সাথে 18-24 মাস"
       },
       "cta": {
         "intro": "আপনার লোকেশনগুলোর মধ্যে নির্দিষ্ট উন্নতির সুযোগ চিহ্নিত করতে চান?",
@@ -879,7 +879,7 @@ export const generatedLocalCopy = {
     "th": {
       "back": "กลับไปที่เครื่องมือ",
       "hero": {
-        "badge": "ข้อมูลเชิงพาณิชย์",
+        "badge": "ข้อมูลอัจฉริยะพอร์ตโฟลิโอ",
         "title": "การประเมินการเพิ่มรายได้หลายสถานที่",
         "description": "คำนวณผลกระทบทางรายได้ที่อาจเกิดขึ้นจากการปรับปรุงการดำเนินงานในหลายสถานที่."
       },
@@ -925,7 +925,7 @@ export const generatedLocalCopy = {
     "ms": {
       "back": "Kembali ke Alat",
       "hero": {
-        "badge": "Intelligence Portfolio",
+        "badge": "Kecerdasan Portfolio",
         "title": "Penganggar Kenaikan Pendapatan Multi-Lokasi",
         "description": "Kira kesan potensi pendapatan daripada penambahbaikan operasi di pelbagai lokasi."
       },

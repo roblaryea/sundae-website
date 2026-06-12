@@ -47,7 +47,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Was ist das 4D-Intelligenzmodell?",
-            "content": "Sundaes Rahmenwerk für Entscheidungsintelligenz:\n\n**1D: Was ist passiert** - Verkaufs-, Arbeits- und Kostendaten\n**2D: Plan vs. Ist** - Budget- und Prognoseabweichung\n**3D: Markt-Kontext** - Benchmarks, Peers und Wettbewerber\n**4D: Was kommt als Nächstes** - Vorhersagen und Empfehlungen\n\n**Report:** Vollständige 1D und 2D plus eingeschränkte 3D und 4D\n**Core:** Voller Zugriff auf alle 4 Dimensionen. (Sundae)"
+            "content": "Sundaes Rahmenwerk für Entscheidungsintelligenz:\n\n**1D: Was ist passiert** - Verkaufs-, Arbeits- und Kostendaten\n**2D: Plan vs. Ist** - Budget- und Prognoseabweichung\n**3D: Markt-Kontext** - Benchmarks, Peers und Wettbewerber\n**4D: Was kommt als Nächstes** - Vorhersagen und Empfehlungen\n\n**Report:** Vollständige 1D und 2D plus eingeschränkte 3D und 4D\n**Core:** Voller Zugriff auf alle 4 Dimensionen."
           }
         ]
       },

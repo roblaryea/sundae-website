@@ -693,9 +693,9 @@ export const generatedLocalCopy = {
     "ar": {
       "back": "العودة إلى الأدوات",
       "hero": {
-        "badge": "ذكاء المعايير",
-        "title": "تقييم جاهزية المعايير",
-        "description": "قم بتقييم جاهزية مؤسستك للمعايير."
+        "badge": "Benchmark Intelligence",
+        "title": "تقييم الجاهزية لـ Benchmark",
+        "description": "قم بتقييم جاهزية مؤسستك لـ Benchmarking."
       },
       "form": {
         "title": "أسئلة التقييم",
@@ -787,7 +787,7 @@ export const generatedLocalCopy = {
             },
             {
               "value": "4",
-              "label": "شامل - مجموعة كاملة من أدوات القياس"
+              "label": "شامل - مجموعة Benchmarking كاملة"
             }
           ]
         },
@@ -819,24 +819,24 @@ export const generatedLocalCopy = {
         "overall": "الجاهزية العامة",
         "recommendations": "التوصيات",
         "nextStep": "الخطوة التالية:",
-        "nextReady": "أنت جاهز لبدء القياس! فكر في جدولة عرض توضيحي لرؤية كيف يمكن أن تساعدك Sundae.",
+        "nextReady": "أنت جاهز لبدء Benchmarking! فكر في جدولة عرض توضيحي لرؤية كيف يمكن أن تساعدك Sundae.",
         "nextBuilding": "ركز على التوصيات أعلاه، ثم أعد تقييم هذا الاختبار بعد 3-6 أشهر."
       },
       "levels": {
-        "readyAdvanced": "جاهز للتقييم المتقدم",
-        "readyStandard": "جاهز للتقييم القياسي",
-        "preparing": "جارٍ التحضير للتقييم",
+        "readyAdvanced": "جاهز لـ Benchmarking المتقدم",
+        "readyStandard": "جاهز لـ Benchmarking القياسي",
+        "preparing": "جارٍ التحضير لـ Benchmarking",
         "foundation": "يتطلب بناء الأساس"
       },
       "recSets": {
         "advanced": [
-          "منظمتك في وضع جيد للتقييم المتقدم",
+          "مؤسستك في وضع جيد لـ Benchmarking المتقدم",
           "فكر في تنفيذ ذكاء تنافسي في الوقت الحقيقي",
           "استكشف الذكاء التنبؤي والرؤى التشغيلية",
-          "ركز على التقييم مقارنةً بقادة الصناعة"
+          "ركز على Benchmarking مقارنةً بقادة الصناعة"
         ],
         "standard": [
-          "لديك أساس قوي للتقييم",
+          "لديك أساس قوي لـ Benchmarking",
           "اعمل على تحسين تكامل البيانات عبر الأنظمة",
           "نفذ دورات تقارير أكثر تكرارًا",
           "ابدأ بمقارنة مؤشرات الأداء الرئيسية عبر مواقعك"
@@ -855,7 +855,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "intro": "هل ترغب في الحصول على تقييمات متقدمة وذكاء تنافسي؟",
+        "intro": "هل ترغب في الحصول على Benchmarking متقدم وذكاء تنافسي؟",
         "button": "عرض منصة Sundae"
       },
       "errors": {
@@ -1251,11 +1251,11 @@ export const generatedLocalCopy = {
             },
             {
               "value": "2",
-              "label": "Parzialmente integrati - Alcuna automazione"
+              "label": "Parzialmente integrati - Un po' di automazione"
             },
             {
               "value": "3",
-              "label": "Bene integrati - Principalmente automatizzati"
+              "label": "Ben integrati - Principalmente automatizzati"
             },
             {
               "value": "4",
@@ -1317,7 +1317,7 @@ export const generatedLocalCopy = {
             },
             {
               "value": "2",
-              "label": "In sviluppo - Alcuna considerazione dei dati"
+              "label": "In sviluppo - Qualche considerazione dei dati"
             },
             {
               "value": "3",
@@ -1855,20 +1855,20 @@ export const generatedLocalCopy = {
         "nextBuilding": "Yukarıdaki tavsiyelere odaklanın, ardından bu değerlendirmeyi 3-6 ay içinde tekrar yapın."
       },
       "levels": {
-        "readyAdvanced": "Gelişmiş Karşılaştırma için Hazır",
-        "readyStandard": "Standart Karşılaştırma için Hazır",
-        "preparing": "Karşılaştırma için Hazırlanıyor",
+        "readyAdvanced": "Gelişmiş Benchmarking için Hazır",
+        "readyStandard": "Standart Benchmarking için Hazır",
+        "preparing": "Benchmarking için Hazırlanıyor",
         "foundation": "Temel Oluşturma Gerekiyor"
       },
       "recSets": {
         "advanced": [
-          "Organizasyonunuz gelişmiş kıyaslama için iyi bir konumda",
+          "Organizasyonunuz gelişmiş Benchmarking için iyi bir konumda",
           "Gerçek zamanlı rekabetçi zeka uygulamayı düşünün",
           "Tahmine dayalı zeka ve operasyonel içgörüler keşfedin",
-          "Sektör liderleriyle kıyaslama yapmaya odaklanın"
+          "Sektör liderleriyle Benchmarking yapmaya odaklanın"
         ],
         "standard": [
-          "Kıyaslama için sağlam bir temele sahipsiniz",
+          "Benchmarking için sağlam bir temele sahipsiniz",
           "Sistemler arasında veri entegrasyonunu geliştirmeye çalışın",
           "Daha sık raporlama döngüleri uygulayın",
           "Lokasyonlarınız arasında KPI'ları karşılaştırmaya başlayın"
@@ -1887,7 +1887,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "intro": "Daha gelişmiş kıyaslama ve rekabetçi zeka mı istiyorsunuz?",
+        "intro": "Daha gelişmiş Benchmarking ve rekabetçi zeka mı istiyorsunuz?",
         "button": "Sundae Platformunu Gör"
       },
       "errors": {
@@ -2413,7 +2413,7 @@ export const generatedLocalCopy = {
     "vi": {
       "back": "Quay lại Công cụ",
       "hero": {
-        "badge": "Trí tuệ Đánh giá",
+        "badge": "Benchmark Intelligence",
         "title": "Đánh giá Sẵn sàng Benchmark",
         "description": "Đánh giá sự sẵn sàng của tổ chức bạn cho việc benchmark."
       },
@@ -2539,24 +2539,24 @@ export const generatedLocalCopy = {
         "overall": "Sẵn Sàng Tổng Thể",
         "recommendations": "Khuyến Nghị",
         "nextStep": "Bước Tiếp Theo:",
-        "nextReady": "Bạn đã sẵn sàng để bắt đầu đánh giá! Hãy xem xét việc lên lịch một buổi demo để xem Sundae có thể giúp gì cho bạn.",
+        "nextReady": "Bạn đã sẵn sàng để bắt đầu benchmarking! Hãy xem xét việc lên lịch một buổi demo để xem Sundae có thể giúp gì cho bạn.",
         "nextBuilding": "Tập trung vào các khuyến nghị ở trên, sau đó hãy thực hiện lại đánh giá này trong 3-6 tháng."
       },
       "levels": {
-        "readyAdvanced": "Sẵn sàng cho Đánh giá Nâng cao",
-        "readyStandard": "Sẵn sàng cho Đánh giá Tiêu chuẩn",
-        "preparing": "Đang chuẩn bị cho Đánh giá",
+        "readyAdvanced": "Sẵn sàng cho Benchmarking Nâng cao",
+        "readyStandard": "Sẵn sàng cho Benchmarking Tiêu chuẩn",
+        "preparing": "Đang chuẩn bị cho Benchmarking",
         "foundation": "Cần xây dựng nền tảng"
       },
       "recSets": {
         "advanced": [
-          "Tổ chức của bạn đã sẵn sàng cho việc đánh giá nâng cao",
+          "Tổ chức của bạn đã sẵn sàng cho benchmarking nâng cao",
           "Xem xét việc triển khai trí tuệ cạnh tranh theo thời gian thực",
           "Khám phá trí tuệ dự đoán và thông tin hoạt động",
-          "Tập trung vào việc đánh giá so với các nhà lãnh đạo trong ngành"
+          "Tập trung vào việc benchmarking so với các nhà lãnh đạo trong ngành"
         ],
         "standard": [
-          "Bạn có nền tảng vững chắc cho việc đánh giá",
+          "Bạn có nền tảng vững chắc cho benchmarking",
           "Cải thiện tích hợp dữ liệu giữa các hệ thống",
           "Triển khai chu kỳ báo cáo thường xuyên hơn",
           "Bắt đầu so sánh KPI giữa các địa điểm của bạn"
@@ -3273,7 +3273,7 @@ export const generatedLocalCopy = {
     "th": {
       "back": "กลับสู่เครื่องมือ",
       "hero": {
-        "badge": "ข้อมูลเชิงเปรียบเทียบ",
+        "badge": "Benchmark Intelligence",
         "title": "การประเมินความพร้อมสำหรับการเปรียบเทียบ",
         "description": "ประเมินความพร้อมขององค์กรของคุณสำหรับการเปรียบเทียบ."
       },
@@ -3445,7 +3445,7 @@ export const generatedLocalCopy = {
     "ms": {
       "back": "Kembali ke Alat",
       "hero": {
-        "badge": "Intelligence Penanda Aras",
+        "badge": "Benchmark Intelligence",
         "title": "Penilaian Kesediaan Penanda Aras",
         "description": "Tentukan kesediaan organisasi anda untuk penanda aras."
       },
@@ -3567,8 +3567,8 @@ export const generatedLocalCopy = {
         }
       ],
       "results": {
-        "title": "Skor Kesiapan Anda",
-        "overall": "Kesiapan Keseluruhan",
+        "title": "Skor Kesediaan Anda",
+        "overall": "Kesediaan Keseluruhan",
         "recommendations": "Cadangan",
         "nextStep": "Langkah Seterusnya:",
         "nextReady": "Anda sudah bersedia untuk memulakan penanda aras! Pertimbangkan untuk menjadualkan demo untuk melihat bagaimana Sundae dapat membantu.",

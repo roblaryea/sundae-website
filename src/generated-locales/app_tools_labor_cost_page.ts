@@ -23,7 +23,7 @@ export const generatedLocalCopy = {
         "title": "Votre % de coût de main-d'œuvre",
         "analysis": "Analyse",
         "benchmarkTitle": "Normes de l'industrie :",
-        "low": "Minime - Votre coût de main-d'œuvre est en dessous de la moyenne de l'industrie. Assurez-vous de ne pas être en sous-effectif.",
+        "low": "Optimisé - Votre coût de main-d'œuvre est en dessous de la moyenne de l'industrie. Assurez-vous de ne pas être en sous-effectif.",
         "healthy": "Sain - Votre coût de main-d'œuvre est dans la plage standard de l'industrie de 25-32%.",
         "high": "Élevé - Votre coût de main-d'œuvre dépasse 32%. Révisez les niveaux de personnel et l'efficacité de la planification.",
         "bulletLow": "< 25% : En dessous de la moyenne (peut indiquer un sous-effectif)",
@@ -97,10 +97,10 @@ export const generatedLocalCopy = {
         "title": "Tu % de Costo Laboral",
         "analysis": "Análisis",
         "benchmarkTitle": "Referencias de la Industria:",
-        "low": "Bajo - Tu costo laboral está por debajo del promedio de la industria. Asegúrate de no estar subcontratado.",
+        "low": "Bajo - Tu costo laboral está por debajo del promedio de la industria. Asegúrate de no tener poco personal.",
         "healthy": "Saludable - Tu costo laboral está dentro del rango estándar de la industria del 25-32%.",
-        "high": "Alto - Tu costo laboral excede el 32%. Revisa los niveles de personal y la eficiencia de programación.",
-        "bulletLow": "< 25%: Por debajo del promedio (puede indicar subcontratación)",
+        "high": "Alto - Tu costo laboral excede el 32%. Revisa los niveles de personal y la eficiencia de la programación de turnos.",
+        "bulletLow": "< 25%: Por debajo del promedio (puede indicar falta de personal)",
         "bulletHealthy": "25-32%: Rango saludable para la mayoría de los conceptos",
         "bulletHigh": "> 32%: Por encima del promedio (revisa la eficiencia)"
       },
@@ -208,7 +208,7 @@ export const generatedLocalCopy = {
         "title": "आपकी श्रम लागत %",
         "analysis": "विश्लेषण",
         "benchmarkTitle": "उद्योग बेंचमार्क:",
-        "low": "पतला - आपकी श्रम लागत उद्योग औसत से नीचे है। सुनिश्चित करें कि आप कम कर्मचारियों के साथ नहीं हैं।",
+        "low": "किफ़ायती - आपकी श्रम लागत उद्योग औसत से नीचे है। सुनिश्चित करें कि आपके पास कर्मचारियों की कमी नहीं है।",
         "healthy": "स्वस्थ - आपकी श्रम लागत उद्योग मानक सीमा 25-32% के भीतर है।",
         "high": "उच्च - आपकी श्रम लागत 32% से अधिक है। स्टाफिंग स्तर और शेड्यूलिंग दक्षता की समीक्षा करें।",
         "bulletLow": "< 25%: औसत से नीचे (कम कर्मचारियों का संकेत दे सकता है)",
@@ -245,7 +245,7 @@ export const generatedLocalCopy = {
         "title": "La Tua % Costo del Lavoro",
         "analysis": "Analisi",
         "benchmarkTitle": "Benchmark del Settore:",
-        "low": "Snello - Il tuo costo del lavoro è al di sotto della media del settore. Assicurati di non essere sotto organico.",
+        "low": "Efficiente - Il tuo costo del lavoro è al di sotto della media del settore. Assicurati di non essere sotto organico.",
         "healthy": "Sano - Il tuo costo del lavoro è nella fascia standard del settore del 25-32%.",
         "high": "Alto - Il tuo costo del lavoro supera il 32%. Rivedi i livelli di personale e l'efficienza della programmazione.",
         "bulletLow": "< 25%: Sotto la media (può indicare sotto organico)",
@@ -523,7 +523,7 @@ export const generatedLocalCopy = {
     "id": {
       "back": "Kembali ke Alat",
       "hero": {
-        "badge": "Intelligence Tenaga Kerja",
+        "badge": "Intelijen Tenaga Kerja",
         "title": "Kalkulator Persentase Biaya Tenaga Kerja",
         "description": "Hitung persentase biaya tenaga kerja Anda dan lihat apakah Anda sesuai dengan standar industri."
       },
@@ -541,7 +541,7 @@ export const generatedLocalCopy = {
         "title": "Persentase Biaya Tenaga Kerja Anda",
         "analysis": "Analisis",
         "benchmarkTitle": "Benchmark Industri:",
-        "low": "Ramping - Biaya tenaga kerja Anda di bawah rata-rata industri. Pastikan Anda tidak kekurangan staf.",
+        "low": "Efisien - Biaya tenaga kerja Anda di bawah rata-rata industri. Pastikan Anda tidak kekurangan staf.",
         "healthy": "Sehat - Biaya tenaga kerja Anda berada dalam rentang standar industri 25-32%.",
         "high": "Tinggi - Biaya tenaga kerja Anda melebihi 32%. Tinjau tingkat staf dan efisiensi penjadwalan.",
         "bulletLow": "< 25%: Di bawah rata-rata (mungkin menunjukkan kekurangan staf)",
@@ -588,7 +588,7 @@ export const generatedLocalCopy = {
       "cta": {
         "title": "Sẵn Sàng Để Có Những Thông Tin Sâu Hơn?",
         "description": "Những máy tính này chỉ là khởi đầu. Xem Sundae có thể làm gì với dữ liệu đầy đủ của bạn.",
-        "button": "Đặt Lịch Demos"
+        "button": "Đặt Lịch Demo"
       },
       "errors": {
         "invalidNumbers": "Vui lòng nhập số dương hợp lệ"
@@ -602,7 +602,7 @@ export const generatedLocalCopy = {
         "description": "Calculează procentul costului tău de muncă și vezi dacă ești pe drumul cel bun comparativ cu standardele din industrie."
       },
       "form": {
-        "title": "Introduceti Numerele Dvs.",
+        "title": "Introduceți Numerele Dvs.",
         "description": "Introdu costul total al forței de muncă și vânzările pentru perioada respectivă.",
         "laborLabel": "Cost Total Forță de Muncă",
         "laborHint": "Salarii totale, beneficii și impozite pe salarii",
@@ -615,7 +615,7 @@ export const generatedLocalCopy = {
         "title": "% Costul Tău de Forță de Muncă",
         "analysis": "Analiză",
         "benchmarkTitle": "Referințe din Industrie:",
-        "low": "Subțire - Costul tău de muncă este sub media din industrie. Asigură-te că nu ești subdimensionat.",
+        "low": "Eficient - Costul tău de muncă este sub media din industrie. Asigură-te că nu ești subdimensionat.",
         "healthy": "Sănătos - Costul tău de muncă se încadrează în intervalul standard din industrie de 25-32%.",
         "high": "Ridicat - Costul tău de muncă depășește 32%. Revizuiește nivelurile de personal și eficiența programării.",
         "bulletLow": "< 25%: Sub medie (poate indica subdimensionare)",
@@ -652,7 +652,7 @@ export const generatedLocalCopy = {
         "title": "আপনার শ্রম খরচ %",
         "analysis": "বিশ্লেষণ",
         "benchmarkTitle": "শিল্প মানদণ্ড:",
-        "low": "পাতলা - আপনার শ্রম খরচ শিল্প গড়ের নিচে। নিশ্চিত করুন যে আপনি কম কর্মী নিয়োগ করেননি।",
+        "low": "মিতব্যয়ী - আপনার শ্রম খরচ শিল্প গড়ের নিচে। নিশ্চিত করুন যে আপনি কম কর্মী নিয়োগ করেননি।",
         "healthy": "স্বাস্থ্যকর - আপনার শ্রম খরচ ২৫-৩২% শিল্প মানের মধ্যে।",
         "high": "উচ্চ - আপনার শ্রম খরচ ৩২% এর উপরে। কর্মী সংখ্যা এবং সময়সূচী দক্ষতা পর্যালোচনা করুন।",
         "bulletLow": "< ২৫%: গড়ের নিচে (কম কর্মী নিয়োগের ইঙ্গিত দিতে পারে)",
@@ -745,7 +745,7 @@ export const generatedLocalCopy = {
     "ms": {
       "back": "Kembali ke Alat",
       "hero": {
-        "badge": "Intelligence Tenaga Kerja",
+        "badge": "Kecerdasan Tenaga Kerja",
         "title": "Kalkulator % Kos Tenaga Kerja",
         "description": "Kira peratusan kos tenaga kerja anda dan lihat jika anda berada pada sasaran berbanding standard industri."
       },
@@ -763,7 +763,7 @@ export const generatedLocalCopy = {
         "title": "% Kos Tenaga Kerja Anda",
         "analysis": "Analisis",
         "benchmarkTitle": "Penanda Aras Industri:",
-        "low": "Ramping - Kos tenaga kerja anda adalah di bawah purata industri. Pastikan anda tidak kekurangan kakitangan.",
+        "low": "Cekap - Kos tenaga kerja anda adalah di bawah purata industri. Pastikan anda tidak kekurangan kakitangan.",
         "healthy": "Sihat - Kos tenaga kerja anda berada dalam julat standard industri 25-32%.",
         "high": "Tinggi - Kos tenaga kerja anda melebihi 32%. Semak tahap kakitangan dan kecekapan jadual.",
         "bulletLow": "< 25%: Di bawah purata (mungkin menunjukkan kekurangan kakitangan)",

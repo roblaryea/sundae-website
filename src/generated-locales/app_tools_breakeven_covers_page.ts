@@ -48,29 +48,29 @@ export const generatedLocalCopy = {
       "back": "Volver a Herramientas",
       "hero": {
         "badge": "Inteligencia Financiera",
-        "title": "Calculadora de Cubiertas de Punto de Equilibrio",
-        "description": "Calcula cuántas cubiertas necesitas para alcanzar el punto de equilibrio basado en costos fijos y variables."
+        "title": "Calculadora de Comensales de Punto de Equilibrio",
+        "description": "Calcula cuántos comensales necesitas para alcanzar el punto de equilibrio según tus costos fijos y variables."
       },
       "form": {
         "title": "Ingresa Tus Costos",
-        "description": "Introduce tus costos fijos, costo variable por cubierta y precio de venta promedio.",
+        "description": "Introduce tus costos fijos, el costo variable por comensal y el precio de venta promedio.",
         "fixedLabel": "Costos Fijos Por Período",
         "fixedHint": "Alquiler, salarios, seguros, etc. (mensual o total del período)",
-        "variableLabel": "Costo Variable Por Cubierta",
+        "variableLabel": "Costo Variable Por Comensal",
         "variableHint": "Costo de alimentos, empaques, comisiones de tarjetas de crédito por cliente",
-        "priceLabel": "Precio Promedio de Venta Por Cubierta",
-        "priceHint": "Tamaño promedio de la cuenta por cliente",
+        "priceLabel": "Precio de Venta Promedio Por Comensal",
+        "priceHint": "Cuenta promedio por cliente",
         "buttonIdle": "Calcular Punto de Equilibrio",
         "buttonBusy": "Calculando..."
       },
       "results": {
-        "title": "Cubiertas Requeridas para el Punto de Equilibrio",
-        "coversLabel": "cubiertas por período",
-        "coversSuffix": "cubiertas",
+        "title": "Comensales Necesarios para el Punto de Equilibrio",
+        "coversLabel": "comensales por período",
+        "coversSuffix": "comensales",
         "analysisTitle": "Análisis",
         "marginLabel": "Margen de Contribución",
-        "perCover": "por cubierta",
-        "toProfit": "Para Ganar",
+        "perCover": "por comensal",
+        "toProfit": "Para Generar Ganancia",
         "tipsTitle": "Consejos para Mejorar el Punto de Equilibrio:",
         "tip1": "Reducir costos fijos (negociar alquiler, optimizar mano de obra)",
         "tip2": "Bajar costos variables (mejores términos con proveedores, reducir desperdicios)",
@@ -90,29 +90,29 @@ export const generatedLocalCopy = {
       "back": "Zurück zu den Tools",
       "hero": {
         "badge": "Finanzielle Intelligenz",
-        "title": "Break-Even Covers Rechner",
-        "description": "Berechnen Sie, wie viele Covers Sie benötigen, um die Gewinnschwelle basierend auf festen und variablen Kosten zu erreichen."
+        "title": "Break-Even-Gäste-Rechner",
+        "description": "Berechnen Sie, wie viele Gäste Sie bedienen müssen, um auf Basis fixer und variabler Kosten die Gewinnschwelle zu erreichen."
       },
       "form": {
         "title": "Geben Sie Ihre Kosten ein",
-        "description": "Geben Sie Ihre Fixkosten, variable Kosten pro Cover und den durchschnittlichen Verkaufspreis ein.",
+        "description": "Geben Sie Ihre Fixkosten, die variablen Kosten pro Gast und den durchschnittlichen Verkaufspreis ein.",
         "fixedLabel": "Fixkosten pro Zeitraum",
         "fixedHint": "Miete, Gehälter, Versicherungen usw. (monatlich oder Gesamtbetrag für den Zeitraum)",
-        "variableLabel": "Variable Kosten pro Cover",
+        "variableLabel": "Variable Kosten pro Gast",
         "variableHint": "Lebensmittelkosten, Verpackung, Kreditkartengebühren pro Kunde",
-        "priceLabel": "Durchschnittlicher Verkaufspreis pro Cover",
+        "priceLabel": "Durchschnittlicher Verkaufspreis pro Gast",
         "priceHint": "Durchschnittlicher Rechnungsbetrag pro Kunde",
         "buttonIdle": "Break-Even-Punkt berechnen",
         "buttonBusy": "Berechnung läuft..."
       },
       "results": {
-        "title": "Benötigte Break-Even Covers",
-        "coversLabel": "Covers pro Zeitraum",
-        "coversSuffix": "Covers",
+        "title": "Benötigte Gäste bis zum Break-Even",
+        "coversLabel": "Gäste pro Zeitraum",
+        "coversSuffix": "Gäste",
         "analysisTitle": "Analyse",
         "marginLabel": "Deckungsbeitrag",
-        "perCover": "pro Cover",
-        "toProfit": "Zum Gewinn",
+        "perCover": "pro Gast",
+        "toProfit": "Bis zum Gewinn",
         "tipsTitle": "Tipps zur Verbesserung des Break-Even:",
         "tip1": "Fixkosten senken (Miete verhandeln, Arbeitskraft optimieren)",
         "tip2": "Variable Kosten senken (bessere Lieferantenkonditionen, Abfall reduzieren)",
@@ -132,34 +132,34 @@ export const generatedLocalCopy = {
       "back": "Terug naar Tools",
       "hero": {
         "badge": "Financiële Intelligentie",
-        "title": "Break-Even Covers Calculator",
-        "description": "Bereken hoeveel covers je nodig hebt om break-even te draaien op basis van vaste en variabele kosten."
+        "title": "Break-Even Couverts Calculator",
+        "description": "Bereken hoeveel couverts je nodig hebt om break-even te draaien op basis van vaste en variabele kosten."
       },
       "form": {
         "title": "Voer Je Kosten In",
-        "description": "Voer je vaste kosten, variabele kosten per cover en gemiddelde verkoopprijs in.",
+        "description": "Voer je vaste kosten, variabele kosten per couvert en gemiddelde verkoopprijs in.",
         "fixedLabel": "Vaste Kosten Per Periode",
         "fixedHint": "Huur, salarissen, verzekering, etc. (maandelijks of totaal per periode)",
-        "variableLabel": "Variabele Kosten Per Cover",
+        "variableLabel": "Variabele Kosten Per Couvert",
         "variableHint": "Voedselkosten, verpakkingen, creditcardkosten per klant",
-        "priceLabel": "Gemiddelde Verkoopprijs Per Cover",
+        "priceLabel": "Gemiddelde Verkoopprijs Per Couvert",
         "priceHint": "Gemiddelde besteding per klant",
         "buttonIdle": "Bereken Break-Even Punt",
         "buttonBusy": "Berekenen..."
       },
       "results": {
-        "title": "Vereiste Break-Even Covers",
-        "coversLabel": "covers per periode",
-        "coversSuffix": "covers",
+        "title": "Vereiste Break-Even Couverts",
+        "coversLabel": "couverts per periode",
+        "coversSuffix": "couverts",
         "analysisTitle": "Analyse",
-        "marginLabel": "Bijdrage Marge",
-        "perCover": "per cover",
+        "marginLabel": "Dekkingsbijdrage",
+        "perCover": "per couvert",
         "toProfit": "Naar Winst",
         "tipsTitle": "Tips om Break-Even te Verbeteren:",
         "tip1": "Verminder vaste kosten (onderhandel over huur, optimaliseer arbeid)",
         "tip2": "Verlaag variabele kosten (betere leveranciersvoorwaarden, verminder afval)",
         "tip3": "Verhoog gemiddelde besteding (upselling, menu-engineering)",
-        "tip4": "Verbeter bijdrage marge = snellere weg naar winstgevendheid"
+        "tip4": "Verbeter de dekkingsbijdrage = snellere weg naar winstgevendheid"
       },
       "cta": {
         "intro": "Wil je specifieke verbeterkansen identificeren voor je locaties?",
@@ -174,33 +174,33 @@ export const generatedLocalCopy = {
       "back": "العودة إلى الأدوات",
       "hero": {
         "badge": "الذكاء المالي",
-        "title": "حاسبة تغطيات نقطة التعادل",
-        "description": "احسب عدد التغطيات التي تحتاجها للوصول إلى نقطة التعادل بناءً على التكاليف الثابتة والمتغيرة."
+        "title": "حاسبة عدد الزبائن لنقطة التعادل",
+        "description": "احسب عدد الزبائن الذين تحتاج إلى خدمتهم للوصول إلى نقطة التعادل بناءً على التكاليف الثابتة والمتغيرة."
       },
       "form": {
         "title": "أدخل تكاليفك",
-        "description": "أدخل تكاليفك الثابتة، التكلفة المتغيرة لكل تغطية، ومتوسط سعر البيع.",
+        "description": "أدخل تكاليفك الثابتة، والتكلفة المتغيرة لكل زبون، ومتوسط سعر البيع.",
         "fixedLabel": "التكاليف الثابتة لكل فترة",
         "fixedHint": "الإيجار، الرواتب، التأمين، إلخ. (شهريًا أو إجمالي الفترة)",
-        "variableLabel": "التكلفة المتغيرة لكل تغطية",
+        "variableLabel": "التكلفة المتغيرة لكل زبون",
         "variableHint": "تكلفة الطعام، التعبئة، رسوم بطاقة الائتمان لكل عميل",
-        "priceLabel": "متوسط سعر البيع لكل تغطية",
-        "priceHint": "متوسط حجم الفاتورة لكل عميل",
+        "priceLabel": "متوسط سعر البيع لكل زبون",
+        "priceHint": "متوسط قيمة الفاتورة لكل عميل",
         "buttonIdle": "احسب نقطة التعادل",
-        "buttonBusy": "يتم الحساب..."
+        "buttonBusy": "جارٍ الحساب..."
       },
       "results": {
-        "title": "التغطيات المطلوبة لنقطة التعادل",
-        "coversLabel": "تغطيات لكل فترة",
-        "coversSuffix": "تغطيات",
+        "title": "عدد الزبائن المطلوب لنقطة التعادل",
+        "coversLabel": "زبائن لكل فترة",
+        "coversSuffix": "زبائن",
         "analysisTitle": "التحليل",
         "marginLabel": "هامش المساهمة",
-        "perCover": "لكل تغطية",
+        "perCover": "لكل زبون",
         "toProfit": "للوصول إلى الربح",
         "tipsTitle": "نصائح لتحسين نقطة التعادل:",
         "tip1": "تقليل التكاليف الثابتة (التفاوض على الإيجار، تحسين العمالة)",
-        "tip2": "خفض التكاليف المتغيرة (شروط أفضل من الموردين، تقليل الفاقد)",
-        "tip3": "زيادة متوسط الفاتورة (البيع الإضافي، هندسة القائمة)",
+        "tip2": "خفض التكاليف المتغيرة (شروط أفضل من الموردين، تقليل الهدر)",
+        "tip3": "زيادة متوسط الفاتورة (البيع الإضافي، هندسة قائمة الطعام)",
         "tip4": "تحسين هامش المساهمة = طريق أسرع لتحقيق الربحية"
       },
       "cta": {
@@ -216,28 +216,28 @@ export const generatedLocalCopy = {
       "back": "Voltar para Ferramentas",
       "hero": {
         "badge": "Inteligência Financeira",
-        "title": "Calculadora de Cobertura de Ponto de Equilíbrio",
-        "description": "Calcule quantas coberturas você precisa para atingir o ponto de equilíbrio com base nos custos fixos e variáveis."
+        "title": "Calculadora de Clientes para Ponto de Equilíbrio",
+        "description": "Calcule quantos clientes você precisa atender para atingir o ponto de equilíbrio com base nos custos fixos e variáveis."
       },
       "form": {
         "title": "Insira Seus Custos",
-        "description": "Digite seus custos fixos, custo variável por cobertura e preço médio de venda.",
+        "description": "Digite seus custos fixos, o custo variável por cliente e o preço médio de venda.",
         "fixedLabel": "Custos Fixos Por Período",
         "fixedHint": "Aluguel, salários, seguros, etc. (mensal ou total do período)",
-        "variableLabel": "Custo Variável Por Cobertura",
+        "variableLabel": "Custo Variável Por Cliente",
         "variableHint": "Custo de alimentos, embalagens, taxas de cartão de crédito por cliente",
-        "priceLabel": "Preço Médio de Venda Por Cobertura",
-        "priceHint": "Tamanho médio da conta por cliente",
+        "priceLabel": "Preço Médio de Venda Por Cliente",
+        "priceHint": "Conta média por cliente",
         "buttonIdle": "Calcular Ponto de Equilíbrio",
         "buttonBusy": "Calculando..."
       },
       "results": {
-        "title": "Coberturas Necessárias para Ponto de Equilíbrio",
-        "coversLabel": "coberturas por período",
-        "coversSuffix": "coberturas",
+        "title": "Clientes Necessários para o Ponto de Equilíbrio",
+        "coversLabel": "clientes por período",
+        "coversSuffix": "clientes",
         "analysisTitle": "Análise",
         "marginLabel": "Margem de Contribuição",
-        "perCover": "por cobertura",
+        "perCover": "por cliente",
         "toProfit": "Para Lucrar",
         "tipsTitle": "Dicas para Melhorar o Ponto de Equilíbrio:",
         "tip1": "Reduza custos fixos (negocie aluguel, otimize mão de obra)",
@@ -258,33 +258,33 @@ export const generatedLocalCopy = {
       "back": "اوزار پر واپس جائیں",
       "hero": {
         "badge": "مالیاتی ذہانت",
-        "title": "بریک ایون کوریج کیلکولیٹر",
-        "description": "یہ حساب کریں کہ آپ کو بریک ایون ہونے کے لیے کتنے کوریج کی ضرورت ہے، مقررہ اور متغیر اخراجات کی بنیاد پر۔"
+        "title": "بریک ایون گاہک کیلکولیٹر",
+        "description": "یہ حساب کریں کہ بریک ایون تک پہنچنے کے لیے آپ کو کتنے گاہکوں کی خدمت کرنی ہوگی، مقررہ اور متغیر اخراجات کی بنیاد پر۔"
       },
       "form": {
         "title": "اپنے اخراجات درج کریں",
-        "description": "اپنے مقررہ اخراجات، ہر کوریج کے لیے متغیر لاگت، اور اوسط فروخت کی قیمت درج کریں۔",
+        "description": "اپنے مقررہ اخراجات، فی گاہک متغیر لاگت، اور اوسط فروخت کی قیمت درج کریں۔",
         "fixedLabel": "مقررہ اخراجات فی مدت",
         "fixedHint": "کرایہ، تنخواہیں، انشورنس، وغیرہ (ماہانہ یا مدت کا مجموعہ)",
-        "variableLabel": "ہر کوریج کے لیے متغیر لاگت",
+        "variableLabel": "فی گاہک متغیر لاگت",
         "variableHint": "کھانے کی لاگت، پیکنگ، ہر صارف کے لیے کریڈٹ کارڈ کی فیس",
-        "priceLabel": "ہر کوریج کے لیے اوسط فروخت کی قیمت",
-        "priceHint": "ہر صارف کے لیے اوسط چیک کا سائز",
+        "priceLabel": "فی گاہک اوسط فروخت کی قیمت",
+        "priceHint": "ہر صارف کے لیے اوسط بل",
         "buttonIdle": "بریک ایون پوائنٹ کا حساب لگائیں",
         "buttonBusy": "حساب لگایا جا رہا ہے..."
       },
       "results": {
-        "title": "بریک ایون کے لیے درکار کوریج",
-        "coversLabel": "فی مدت کوریج",
-        "coversSuffix": "کوریج",
+        "title": "بریک ایون کے لیے درکار گاہک",
+        "coversLabel": "فی مدت گاہک",
+        "coversSuffix": "گاہک",
         "analysisTitle": "تجزیہ",
         "marginLabel": "شراکت کا مارجن",
-        "perCover": "ہر کوریج کے لیے",
+        "perCover": "فی گاہک",
         "toProfit": "منافع کے لیے",
         "tipsTitle": "بریک ایون کو بہتر بنانے کے لیے تجاویز:",
         "tip1": "مقررہ اخراجات کم کریں (کرایہ پر بات چیت کریں، مزدوری کو بہتر بنائیں)",
         "tip2": "متغیر اخراجات کم کریں (بہتر سپلائر کی شرائط، فضلہ کم کریں)",
-        "tip3": "اوسط چیک بڑھائیں (اپ سیلنگ، مینو انجینئرنگ)",
+        "tip3": "اوسط بل بڑھائیں (اپ سیلنگ، مینو انجینئرنگ)",
         "tip4": "شراکت کے مارجن کو بہتر بنائیں = منافع کی طرف تیز تر راستہ"
       },
       "cta": {
@@ -300,29 +300,29 @@ export const generatedLocalCopy = {
       "back": "Torna agli Strumenti",
       "hero": {
         "badge": "Intelligenza Finanziaria",
-        "title": "Calcolatore di Coperture per Pareggio",
-        "description": "Calcola quante coperture ti servono per pareggiare in base ai costi fissi e variabili."
+        "title": "Calcolatore di Coperti per il Pareggio",
+        "description": "Calcola quanti coperti ti servono per raggiungere il pareggio in base ai costi fissi e variabili."
       },
       "form": {
         "title": "Inserisci i Tuoi Costi",
-        "description": "Inserisci i tuoi costi fissi, il costo variabile per copertura e il prezzo medio di vendita.",
+        "description": "Inserisci i tuoi costi fissi, il costo variabile per coperto e il prezzo medio di vendita.",
         "fixedLabel": "Costi Fissi Per Periodo",
         "fixedHint": "Affitto, stipendi, assicurazione, ecc. (mensile o totale per periodo)",
-        "variableLabel": "Costo Variabile Per Copertura",
+        "variableLabel": "Costo Variabile Per Coperto",
         "variableHint": "Costo del cibo, imballaggio, commissioni delle carte di credito per cliente",
-        "priceLabel": "Prezzo Medio di Vendita Per Copertura",
-        "priceHint": "Dimensione media del conto per cliente",
+        "priceLabel": "Prezzo Medio di Vendita Per Coperto",
+        "priceHint": "Scontrino medio per cliente",
         "buttonIdle": "Calcola Punto di Pareggio",
-        "buttonBusy": "Calcolando..."
+        "buttonBusy": "Calcolo in corso..."
       },
       "results": {
-        "title": "Coperture Necessarie per Pareggio",
-        "coversLabel": "coperture per periodo",
-        "coversSuffix": "coperture",
+        "title": "Coperti Necessari per il Pareggio",
+        "coversLabel": "coperti per periodo",
+        "coversSuffix": "coperti",
         "analysisTitle": "Analisi",
         "marginLabel": "Margine di Contribuzione",
-        "perCover": "per copertura",
-        "toProfit": "Per Profitto",
+        "perCover": "per coperto",
+        "toProfit": "Per il Profitto",
         "tipsTitle": "Suggerimenti per Migliorare il Pareggio:",
         "tip1": "Riduci i costi fissi (negozia l'affitto, ottimizza il lavoro)",
         "tip2": "Riduci i costi variabili (migliori condizioni dai fornitori, riduci gli sprechi)",
@@ -342,33 +342,33 @@ export const generatedLocalCopy = {
       "back": "उपकरणों पर वापस",
       "hero": {
         "badge": "वित्तीय बुद्धिमत्ता",
-        "title": "ब्रेक-ईवन कवर कैलकुलेटर",
-        "description": "यह गणना करें कि ब्रेक ईवन के लिए आपको कितने कवर की आवश्यकता है, निश्चित और परिवर्तनीय लागतों के आधार पर।"
+        "title": "ब्रेक-ईवन ग्राहक कैलकुलेटर",
+        "description": "यह गणना करें कि ब्रेक-ईवन तक पहुंचने के लिए आपको कितने ग्राहकों को सेवा देनी होगी, निश्चित और परिवर्तनीय लागतों के आधार पर।"
       },
       "form": {
         "title": "अपनी लागत दर्ज करें",
-        "description": "अपनी निश्चित लागत, प्रति कवर परिवर्तनीय लागत, और औसत बिक्री मूल्य दर्ज करें।",
+        "description": "अपनी निश्चित लागत, प्रति ग्राहक परिवर्तनीय लागत, और औसत बिक्री मूल्य दर्ज करें।",
         "fixedLabel": "प्रति अवधि निश्चित लागत",
         "fixedHint": "किराया, वेतन, बीमा, आदि (मासिक या अवधि कुल)",
-        "variableLabel": "प्रति कवर परिवर्तनीय लागत",
+        "variableLabel": "प्रति ग्राहक परिवर्तनीय लागत",
         "variableHint": "खाद्य लागत, पैकेजिंग, प्रति ग्राहक क्रेडिट कार्ड शुल्क",
-        "priceLabel": "प्रति कवर औसत बिक्री मूल्य",
-        "priceHint": "प्रति ग्राहक औसत चेक आकार",
+        "priceLabel": "प्रति ग्राहक औसत बिक्री मूल्य",
+        "priceHint": "प्रति ग्राहक औसत बिल",
         "buttonIdle": "ब्रेक-ईवन पॉइंट की गणना करें",
-        "buttonBusy": "गणना कर रहा है..."
+        "buttonBusy": "गणना हो रही है..."
       },
       "results": {
-        "title": "ब्रेक-ईवन के लिए आवश्यक कवर",
-        "coversLabel": "प्रति अवधि कवर",
-        "coversSuffix": "कवर",
+        "title": "ब्रेक-ईवन के लिए आवश्यक ग्राहक",
+        "coversLabel": "प्रति अवधि ग्राहक",
+        "coversSuffix": "ग्राहक",
         "analysisTitle": "विश्लेषण",
         "marginLabel": "योगदान मार्जिन",
-        "perCover": "प्रति कवर",
+        "perCover": "प्रति ग्राहक",
         "toProfit": "लाभ के लिए",
         "tipsTitle": "ब्रेक-ईवन सुधारने के लिए सुझाव:",
         "tip1": "निश्चित लागत कम करें (किराया पर बातचीत करें, श्रम का अनुकूलन करें)",
         "tip2": "परिवर्तनीय लागत कम करें (सप्लायर की शर्तें बेहतर करें, बर्बादी कम करें)",
-        "tip3": "औसत चेक बढ़ाएं (अपसेलिंग, मेनू इंजीनियरिंग)",
+        "tip3": "औसत बिल बढ़ाएं (अपसेलिंग, मेनू इंजीनियरिंग)",
         "tip4": "योगदान मार्जिन में सुधार करें = लाभप्रदता के लिए तेज़ रास्ता"
       },
       "cta": {
@@ -384,34 +384,34 @@ export const generatedLocalCopy = {
       "back": "Powrót do Narzędzi",
       "hero": {
         "badge": "Inteligencja Finansowa",
-        "title": "Kalkulator Pokrycia Progu Rentowności",
-        "description": "Oblicz, ile pokryć potrzebujesz, aby osiągnąć próg rentowności na podstawie kosztów stałych i zmiennych."
+        "title": "Kalkulator Liczby Gości do Progu Rentowności",
+        "description": "Oblicz, ilu gości musisz obsłużyć, aby osiągnąć próg rentowności, na podstawie kosztów stałych i zmiennych."
       },
       "form": {
         "title": "Wprowadź Swoje Koszty",
-        "description": "Wprowadź swoje koszty stałe, zmienny koszt na pokrycie i średnią cenę sprzedaży.",
+        "description": "Wprowadź swoje koszty stałe, zmienny koszt na gościa i średnią cenę sprzedaży.",
         "fixedLabel": "Koszty Stałe Na Okres",
         "fixedHint": "Czynsz, wynagrodzenia, ubezpieczenia itp. (miesięcznie lub całkowity za okres)",
-        "variableLabel": "Zmienny Koszt Na Pokrycie",
+        "variableLabel": "Zmienny Koszt Na Gościa",
         "variableHint": "Koszt jedzenia, opakowania, opłaty za karty kredytowe na klienta",
-        "priceLabel": "Średnia Cena Sprzedaży Na Pokrycie",
+        "priceLabel": "Średnia Cena Sprzedaży Na Gościa",
         "priceHint": "Średnia wartość rachunku na klienta",
         "buttonIdle": "Oblicz Próg Rentowności",
         "buttonBusy": "Obliczanie..."
       },
       "results": {
-        "title": "Wymagana Liczba Pokryć Progu Rentowności",
-        "coversLabel": "pokryć na okres",
-        "coversSuffix": "pokryć",
+        "title": "Liczba Gości Wymagana do Osiągnięcia Progu Rentowności",
+        "coversLabel": "gości na okres",
+        "coversSuffix": "gości",
         "analysisTitle": "Analiza",
-        "marginLabel": "Marża Wkładu",
-        "perCover": "na pokrycie",
+        "marginLabel": "Marża Pokrycia",
+        "perCover": "na gościa",
         "toProfit": "Do Zysku",
         "tipsTitle": "Wskazówki na Poprawę Progu Rentowności:",
         "tip1": "Zredukuj koszty stałe (negocjuj czynsz, optymalizuj pracę)",
         "tip2": "Obniż koszty zmienne (lepsze warunki od dostawców, redukcja odpadów)",
         "tip3": "Zwiększ średni rachunek (sprzedaż dodatkowa, inżynieria menu)",
-        "tip4": "Popraw marżę wkładu = szybsza droga do rentowności"
+        "tip4": "Popraw marżę pokrycia = szybsza droga do rentowności"
       },
       "cta": {
         "intro": "Chcesz zidentyfikować konkretne możliwości poprawy w swoich lokalizacjach?",
@@ -426,34 +426,34 @@ export const generatedLocalCopy = {
       "back": "返回工具",
       "hero": {
         "badge": "财务智能",
-        "title": "盈亏平衡覆盖计算器",
-        "description": "根据固定和变动成本计算您需要多少覆盖才能实现盈亏平衡。"
+        "title": "盈亏平衡客流计算器",
+        "description": "根据固定成本和变动成本，计算您需要接待多少客人才能实现盈亏平衡。"
       },
       "form": {
         "title": "输入您的成本",
-        "description": "输入您的固定成本、每个覆盖的变动成本和平均售价。",
+        "description": "输入您的固定成本、每位客人的变动成本和平均客单价。",
         "fixedLabel": "每期固定成本",
         "fixedHint": "租金、薪水、保险等（每月或每期总额）",
-        "variableLabel": "每个覆盖的变动成本",
+        "variableLabel": "每位客人的变动成本",
         "variableHint": "每位顾客的食品成本、包装费、信用卡费用",
-        "priceLabel": "每个覆盖的平均售价",
+        "priceLabel": "每位客人的平均客单价",
         "priceHint": "每位顾客的平均消费",
         "buttonIdle": "计算盈亏平衡点",
         "buttonBusy": "正在计算..."
       },
       "results": {
-        "title": "所需盈亏平衡覆盖",
-        "coversLabel": "每期覆盖",
-        "coversSuffix": "覆盖",
+        "title": "实现盈亏平衡所需客人数",
+        "coversLabel": "每期客人数",
+        "coversSuffix": "位客人",
         "analysisTitle": "分析",
-        "marginLabel": "贡献利润",
-        "perCover": "每个覆盖",
+        "marginLabel": "边际贡献",
+        "perCover": "每位客人",
         "toProfit": "实现盈利",
         "tipsTitle": "改善盈亏平衡的建议：",
         "tip1": "减少固定成本（谈判租金，优化劳动力）",
         "tip2": "降低变动成本（更好的供应商条款，减少浪费）",
-        "tip3": "增加平均消费（追加销售，菜单设计）",
-        "tip4": "提高贡献利润 = 更快实现盈利的路径"
+        "tip3": "提高平均客单价（追加销售，菜单设计）",
+        "tip4": "提高边际贡献 = 更快实现盈利的路径"
       },
       "cta": {
         "intro": "想要识别您各个地点的具体改进机会吗？",
@@ -468,28 +468,28 @@ export const generatedLocalCopy = {
       "back": "Araçlara Geri Dön",
       "hero": {
         "badge": "Finansal Zeka",
-        "title": "Başabaş Kapsam Hesaplayıcı",
-        "description": "Sabit ve değişken maliyetlere göre başabaş noktasına ulaşmak için gereken kapsama sayısını hesaplayın."
+        "title": "Başabaş Misafir Hesaplayıcı",
+        "description": "Sabit ve değişken maliyetlere göre başabaş noktasına ulaşmak için ağırlamanız gereken misafir sayısını hesaplayın."
       },
       "form": {
         "title": "Maliyetlerinizi Girin",
-        "description": "Sabit maliyetlerinizi, kapsama başına değişken maliyeti ve ortalama satış fiyatını girin.",
+        "description": "Sabit maliyetlerinizi, misafir başına değişken maliyeti ve ortalama satış fiyatını girin.",
         "fixedLabel": "Dönem Başına Sabit Maliyetler",
         "fixedHint": "Kira, maaşlar, sigorta vb. (aylık veya dönem toplamı)",
-        "variableLabel": "Kapsama Başına Değişken Maliyet",
+        "variableLabel": "Misafir Başına Değişken Maliyet",
         "variableHint": "Müşteri başına gıda maliyeti, ambalaj, kredi kartı ücretleri",
-        "priceLabel": "Kapsama Başına Ortalama Satış Fiyatı",
-        "priceHint": "Müşteri başına ortalama hesap büyüklüğü",
+        "priceLabel": "Misafir Başına Ortalama Satış Fiyatı",
+        "priceHint": "Müşteri başına ortalama adisyon tutarı",
         "buttonIdle": "Başabaş Noktasını Hesapla",
         "buttonBusy": "Hesaplanıyor..."
       },
       "results": {
-        "title": "Gerekli Başabaş Kapsamı",
-        "coversLabel": "dönem başına kapsama",
-        "coversSuffix": "kapsama",
+        "title": "Gerekli Başabaş Misafir Sayısı",
+        "coversLabel": "dönem başına misafir",
+        "coversSuffix": "misafir",
         "analysisTitle": "Analiz",
-        "marginLabel": "Katkı Marjı",
-        "perCover": "kapsama başına",
+        "marginLabel": "Katkı Payı",
+        "perCover": "misafir başına",
         "toProfit": "Kâra Ulaşmak İçin",
         "tipsTitle": "Başabaşı İyileştirme İpuçları:",
         "tip1": "Sabit maliyetleri azaltın (kira pazarlığı yapın, iş gücünü optimize edin)",
@@ -510,34 +510,34 @@ export const generatedLocalCopy = {
       "back": "ツールに戻る",
       "hero": {
         "badge": "財務インテリジェンス",
-        "title": "ブレークイーブンカバー計算機",
-        "description": "固定費と変動費に基づいて、ブレークイーブンに必要なカバー数を計算します。"
+        "title": "損益分岐点 客数計算機",
+        "description": "固定費と変動費に基づいて、損益分岐点に達するために必要な客数を計算します。"
       },
       "form": {
         "title": "コストを入力",
-        "description": "固定費、カバーあたりの変動費、平均販売価格を入力してください。",
+        "description": "固定費、客1人あたりの変動費、平均客単価を入力してください。",
         "fixedLabel": "期間あたりの固定費",
         "fixedHint": "家賃、給与、保険など（毎月または期間合計）",
-        "variableLabel": "カバーあたりの変動費",
+        "variableLabel": "客1人あたりの変動費",
         "variableHint": "食材費、パッケージング、顧客あたりのクレジットカード手数料",
-        "priceLabel": "カバーあたりの平均販売価格",
-        "priceHint": "顧客あたりの平均チェックサイズ",
-        "buttonIdle": "ブレークイーブンポイントを計算",
+        "priceLabel": "客1人あたりの平均客単価",
+        "priceHint": "顧客あたりの平均客単価",
+        "buttonIdle": "損益分岐点を計算",
         "buttonBusy": "計算中..."
       },
       "results": {
-        "title": "必要なブレークイーブンカバー",
-        "coversLabel": "期間あたりのカバー",
-        "coversSuffix": "カバー",
+        "title": "損益分岐点に必要な客数",
+        "coversLabel": "期間あたりの客数",
+        "coversSuffix": "人",
         "analysisTitle": "分析",
-        "marginLabel": "貢献マージン",
-        "perCover": "カバーあたり",
+        "marginLabel": "限界利益",
+        "perCover": "客1人あたり",
         "toProfit": "利益へ",
-        "tipsTitle": "ブレークイーブンを改善するためのヒント：",
+        "tipsTitle": "損益分岐点を改善するためのヒント：",
         "tip1": "固定費を削減する（家賃交渉、労働の最適化）",
         "tip2": "変動費を下げる（より良い仕入れ条件、廃棄物の削減）",
-        "tip3": "平均チェックを増やす（アップセル、メニューエンジニアリング）",
-        "tip4": "貢献マージンを改善 = 収益性への早道"
+        "tip3": "平均客単価を上げる（アップセル、メニューエンジニアリング）",
+        "tip4": "限界利益を改善 = 収益性への早道"
       },
       "cta": {
         "intro": "各店舗での具体的な改善機会を特定したいですか？",
@@ -552,33 +552,33 @@ export const generatedLocalCopy = {
       "back": "Kembali ke Alat",
       "hero": {
         "badge": "Inteligensi Keuangan",
-        "title": "Kalkulator Penutup Titik Impas",
-        "description": "Hitung berapa banyak penutup yang Anda butuhkan untuk mencapai titik impas berdasarkan biaya tetap dan variabel."
+        "title": "Kalkulator Jumlah Tamu Titik Impas",
+        "description": "Hitung berapa banyak tamu yang perlu Anda layani untuk mencapai titik impas berdasarkan biaya tetap dan variabel."
       },
       "form": {
         "title": "Masukkan Biaya Anda",
-        "description": "Masukkan biaya tetap, biaya variabel per penutup, dan harga jual rata-rata.",
+        "description": "Masukkan biaya tetap, biaya variabel per tamu, dan harga jual rata-rata.",
         "fixedLabel": "Biaya Tetap Per Periode",
         "fixedHint": "Sewa, gaji, asuransi, dll. (total bulanan atau periode)",
-        "variableLabel": "Biaya Variabel Per Penutup",
+        "variableLabel": "Biaya Variabel Per Tamu",
         "variableHint": "Biaya makanan, kemasan, biaya kartu kredit per pelanggan",
-        "priceLabel": "Harga Jual Rata-Rata Per Penutup",
-        "priceHint": "Ukuran cek rata-rata per pelanggan",
+        "priceLabel": "Harga Jual Rata-Rata Per Tamu",
+        "priceHint": "Nilai tagihan rata-rata per pelanggan",
         "buttonIdle": "Hitung Titik Impas",
         "buttonBusy": "Menghitung..."
       },
       "results": {
-        "title": "Penutup Titik Impas yang Diperlukan",
-        "coversLabel": "penutup per periode",
-        "coversSuffix": "penutup",
+        "title": "Jumlah Tamu yang Diperlukan untuk Titik Impas",
+        "coversLabel": "tamu per periode",
+        "coversSuffix": "tamu",
         "analysisTitle": "Analisis",
         "marginLabel": "Margin Kontribusi",
-        "perCover": "per penutup",
+        "perCover": "per tamu",
         "toProfit": "Menuju Keuntungan",
         "tipsTitle": "Tips untuk Meningkatkan Titik Impas:",
         "tip1": "Kurangi biaya tetap (negosiasikan sewa, optimalkan tenaga kerja)",
         "tip2": "Turunkan biaya variabel (syarat pemasok yang lebih baik, kurangi limbah)",
-        "tip3": "Tingkatkan cek rata-rata (penjualan tambahan, rekayasa menu)",
+        "tip3": "Tingkatkan nilai tagihan rata-rata (penjualan tambahan, rekayasa menu)",
         "tip4": "Tingkatkan margin kontribusi = jalur lebih cepat menuju profitabilitas"
       },
       "cta": {
@@ -594,28 +594,28 @@ export const generatedLocalCopy = {
       "back": "Înapoi la Instrumente",
       "hero": {
         "badge": "Inteligență Financiară",
-        "title": "Calculator de Acoperiri pentru Punctul de Echilibru",
-        "description": "Calculează câte acoperiri ai nevoie pentru a atinge punctul de echilibru pe baza costurilor fixe și variabile."
+        "title": "Calculator de Clienți pentru Punctul de Echilibru",
+        "description": "Calculează câți clienți trebuie să servești pentru a atinge punctul de echilibru pe baza costurilor fixe și variabile."
       },
       "form": {
         "title": "Introdu Costurile Tale",
-        "description": "Introdu costurile fixe, costul variabil pe acoperire și prețul mediu de vânzare.",
+        "description": "Introdu costurile fixe, costul variabil pe client și prețul mediu de vânzare.",
         "fixedLabel": "Costuri Fixe Pe Perioadă",
         "fixedHint": "Chirie, salarii, asigurări etc. (lunar sau total pe perioadă)",
-        "variableLabel": "Cost Variabil Pe Acoperire",
+        "variableLabel": "Cost Variabil Pe Client",
         "variableHint": "Costul alimentelor, ambalaj, taxe pe cardul de credit pe client",
-        "priceLabel": "Preț Mediu de Vânzare Pe Acoperire",
-        "priceHint": "Dimensiunea medie a notei pe client",
+        "priceLabel": "Preț Mediu de Vânzare Pe Client",
+        "priceHint": "Valoarea medie a notei pe client",
         "buttonIdle": "Calculează Punctul de Echilibru",
         "buttonBusy": "Se calculează..."
       },
       "results": {
-        "title": "Acoperiri Necesare pentru Punctul de Echilibru",
-        "coversLabel": "acoperiri pe perioadă",
-        "coversSuffix": "acoperiri",
+        "title": "Clienți Necesari pentru Punctul de Echilibru",
+        "coversLabel": "clienți pe perioadă",
+        "coversSuffix": "clienți",
         "analysisTitle": "Analiză",
         "marginLabel": "Marja de Contribuție",
-        "perCover": "pe acoperire",
+        "perCover": "pe client",
         "toProfit": "Către Profit",
         "tipsTitle": "Sfaturi pentru Îmbunătățirea Punctului de Echilibru:",
         "tip1": "Reducerea costurilor fixe (negocierea chiriei, optimizarea forței de muncă)",
@@ -656,14 +656,14 @@ export const generatedLocalCopy = {
         "coversLabel": "khách mỗi kỳ",
         "coversSuffix": "khách",
         "analysisTitle": "Phân Tích",
-        "marginLabel": "Biên Lợi Nhuận",
+        "marginLabel": "Biên Đóng Góp",
         "perCover": "trên mỗi khách",
         "toProfit": "Để Có Lợi Nhuận",
         "tipsTitle": "Mẹo Cải Thiện Hòa Vốn:",
         "tip1": "Giảm chi phí cố định (đàm phán tiền thuê, tối ưu hóa lao động)",
         "tip2": "Giảm chi phí biến đổi (điều khoản nhà cung cấp tốt hơn, giảm lãng phí)",
         "tip3": "Tăng hóa đơn trung bình (bán thêm, thiết kế thực đơn)",
-        "tip4": "Cải thiện biên lợi nhuận = con đường nhanh hơn đến lợi nhuận"
+        "tip4": "Cải thiện biên đóng góp = con đường nhanh hơn đến lợi nhuận"
       },
       "cta": {
         "intro": "Bạn muốn xác định các cơ hội cải thiện cụ thể tại các địa điểm của mình?",
@@ -678,34 +678,34 @@ export const generatedLocalCopy = {
       "back": "Tillbaka till Verktyg",
       "hero": {
         "badge": "Finansiell Intelligens",
-        "title": "Beräknare för Break-Even Covers",
-        "description": "Beräkna hur många covers du behöver för att gå jämnt ut baserat på fasta och rörliga kostnader."
+        "title": "Beräknare för Break-Even-Gäster",
+        "description": "Beräkna hur många gäster du behöver ta emot för att gå jämnt ut baserat på fasta och rörliga kostnader."
       },
       "form": {
         "title": "Ange Dina Kostnader",
-        "description": "Ange dina fasta kostnader, rörlig kostnad per cover och genomsnittligt försäljningspris.",
+        "description": "Ange dina fasta kostnader, rörlig kostnad per gäst och genomsnittligt försäljningspris.",
         "fixedLabel": "Fasta Kostnader Per Period",
         "fixedHint": "Hyra, löner, försäkring, etc. (månatligt eller periodens total)",
-        "variableLabel": "Rörlig Kostnad Per Cover",
+        "variableLabel": "Rörlig Kostnad Per Gäst",
         "variableHint": "Matkostnad, förpackningar, kreditkortskostnader per kund",
-        "priceLabel": "Genomsnittligt Försäljningspris Per Cover",
-        "priceHint": "Genomsnittlig checkstorlek per kund",
+        "priceLabel": "Genomsnittligt Försäljningspris Per Gäst",
+        "priceHint": "Genomsnittlig nota per kund",
         "buttonIdle": "Beräkna Break-Even Punkt",
         "buttonBusy": "Beräknar..."
       },
       "results": {
-        "title": "Nödvändiga Break-Even Covers",
-        "coversLabel": "covers per period",
-        "coversSuffix": "covers",
+        "title": "Antal Gäster som Krävs för Break-Even",
+        "coversLabel": "gäster per period",
+        "coversSuffix": "gäster",
         "analysisTitle": "Analys",
         "marginLabel": "Bidragsmarginal",
-        "perCover": "per cover",
+        "perCover": "per gäst",
         "toProfit": "Till Vinst",
         "tipsTitle": "Tips för att Förbättra Break-Even:",
         "tip1": "Minska fasta kostnader (förhandla hyra, optimera arbetskraft)",
         "tip2": "Sänk rörliga kostnader (bättre leverantörsvillkor, minska svinn)",
-        "tip3": "Öka genomsnittlig check (uppsäljning, menyplanering)",
-        "tip4": "Förbättra bidragsmarginal = snabbare väg till lönsamhet"
+        "tip3": "Öka genomsnittlig nota (uppsäljning, menyplanering)",
+        "tip4": "Förbättra bidragsmarginalen = snabbare väg till lönsamhet"
       },
       "cta": {
         "intro": "Vill du identifiera specifika förbättringsmöjligheter på dina platser?",
@@ -720,33 +720,33 @@ export const generatedLocalCopy = {
       "back": "টুলসে ফিরে যান",
       "hero": {
         "badge": "অর্থনৈতিক বুদ্ধিমত্তা",
-        "title": "ব্রেক-ইভেন কভার ক্যালকুলেটর",
-        "description": "স্থির এবং পরিবর্তনশীল খরচের ভিত্তিতে কত কভার প্রয়োজন তা গণনা করুন।"
+        "title": "ব্রেক-ইভেন গ্রাহক ক্যালকুলেটর",
+        "description": "স্থির এবং পরিবর্তনশীল খরচের ভিত্তিতে ব্রেক-ইভেনে পৌঁছাতে কতজন গ্রাহককে সেবা দিতে হবে তা গণনা করুন।"
       },
       "form": {
         "title": "আপনার খরচ প্রবেশ করুন",
-        "description": "আপনার স্থির খরচ, প্রতি কভার পরিবর্তনশীল খরচ এবং গড় বিক্রয় মূল্য প্রবেশ করুন।",
+        "description": "আপনার স্থির খরচ, প্রতি গ্রাহক পরিবর্তনশীল খরচ এবং গড় বিক্রয় মূল্য প্রবেশ করুন।",
         "fixedLabel": "প্রতি সময়ের জন্য স্থির খরচ",
         "fixedHint": "ভাড়া, বেতন, বীমা ইত্যাদি (মাসিক বা সময়ের মোট)",
-        "variableLabel": "প্রতি কভার পরিবর্তনশীল খরচ",
+        "variableLabel": "প্রতি গ্রাহক পরিবর্তনশীল খরচ",
         "variableHint": "খাবারের খরচ, প্যাকেজিং, প্রতি গ্রাহক ক্রেডিট কার্ড ফি",
-        "priceLabel": "প্রতি কভার গড় বিক্রয় মূল্য",
-        "priceHint": "প্রতি গ্রাহক গড় চেক আকার",
+        "priceLabel": "প্রতি গ্রাহক গড় বিক্রয় মূল্য",
+        "priceHint": "প্রতি গ্রাহক গড় বিল",
         "buttonIdle": "ব্রেক-ইভেন পয়েন্ট গণনা করুন",
         "buttonBusy": "গণনা করা হচ্ছে..."
       },
       "results": {
-        "title": "প্রয়োজনীয় ব্রেক-ইভেন কভার",
-        "coversLabel": "প্রতি সময়ে কভার",
-        "coversSuffix": "কভার",
+        "title": "ব্রেক-ইভেনের জন্য প্রয়োজনীয় গ্রাহক",
+        "coversLabel": "প্রতি সময়ে গ্রাহক",
+        "coversSuffix": "গ্রাহক",
         "analysisTitle": "বিশ্লেষণ",
         "marginLabel": "অবদান মার্জিন",
-        "perCover": "প্রতি কভার",
+        "perCover": "প্রতি গ্রাহক",
         "toProfit": "লাভের জন্য",
         "tipsTitle": "ব্রেক-ইভেন উন্নত করার টিপস:",
         "tip1": "স্থির খরচ কমান (ভাড়া নিয়ে আলোচনা করুন, শ্রম অপ্টিমাইজ করুন)",
         "tip2": "পরিবর্তনশীল খরচ কমান (ভাল সরবরাহকারী শর্ত, বর্জ্য কমান)",
-        "tip3": "গড় চেক বাড়ান (আপসেলিং, মেনু ইঞ্জিনিয়ারিং)",
+        "tip3": "গড় বিল বাড়ান (আপসেলিং, মেনু ইঞ্জিনিয়ারিং)",
         "tip4": "অবদান মার্জিন উন্নত করুন = লাভজনকতার দ্রুত পথ"
       },
       "cta": {
@@ -762,42 +762,42 @@ export const generatedLocalCopy = {
       "back": "กลับไปที่เครื่องมือ",
       "hero": {
         "badge": "ข้อมูลทางการเงิน",
-        "title": "เครื่องคิดเลขจุดคุ้มทุน",
-        "description": "คำนวณจำนวนลูกค้าที่คุณต้องการเพื่อให้คุ้มทุนตามต้นทุนคงที่และต้นทุนผันแปร."
+        "title": "เครื่องคำนวณจำนวนลูกค้าจุดคุ้มทุน",
+        "description": "คำนวณจำนวนลูกค้าที่คุณต้องให้บริการเพื่อให้ถึงจุดคุ้มทุน ตามต้นทุนคงที่และต้นทุนผันแปร"
       },
       "form": {
         "title": "กรอกต้นทุนของคุณ",
-        "description": "ป้อนต้นทุนคงที่ ต้นทุนผันแปรต่อการบริการ และราคาขายเฉลี่ย.",
+        "description": "ป้อนต้นทุนคงที่ ต้นทุนผันแปรต่อลูกค้า และราคาขายเฉลี่ย",
         "fixedLabel": "ต้นทุนคงที่ต่อช่วงเวลา",
         "fixedHint": "ค่าเช่า เงินเดือน ประกันภัย ฯลฯ (รายเดือนหรือรวมช่วงเวลา)",
-        "variableLabel": "ต้นทุนผันแปรต่อการบริการ",
-        "variableHint": "ต้นทุนอาหาร ค่าบรรจุภัณฑ์ ค่าธรรมเนียมบัตรเครดิตต่อผู้ใช้บริการ",
-        "priceLabel": "ราคาขายเฉลี่ยต่อการบริการ",
-        "priceHint": "ขนาดเช็คเฉลี่ยต่อผู้ใช้บริการ",
+        "variableLabel": "ต้นทุนผันแปรต่อลูกค้า",
+        "variableHint": "ต้นทุนอาหาร ค่าบรรจุภัณฑ์ ค่าธรรมเนียมบัตรเครดิตต่อลูกค้า",
+        "priceLabel": "ราคาขายเฉลี่ยต่อลูกค้า",
+        "priceHint": "ยอดบิลเฉลี่ยต่อลูกค้า",
         "buttonIdle": "คำนวณจุดคุ้มทุน",
         "buttonBusy": "กำลังคำนวณ..."
       },
       "results": {
-        "title": "จำนวนการบริการที่ต้องการเพื่อคุ้มทุน",
-        "coversLabel": "การบริการต่อช่วงเวลา",
-        "coversSuffix": "การบริการ",
+        "title": "จำนวนลูกค้าที่ต้องการเพื่อให้ถึงจุดคุ้มทุน",
+        "coversLabel": "ลูกค้าต่อช่วงเวลา",
+        "coversSuffix": "ลูกค้า",
         "analysisTitle": "การวิเคราะห์",
-        "marginLabel": "ส่วนต่างการสนับสนุน",
-        "perCover": "ต่อการบริการ",
-        "toProfit": "เพื่อกำไร",
+        "marginLabel": "กำไรส่วนเกิน",
+        "perCover": "ต่อลูกค้า",
+        "toProfit": "เพื่อทำกำไร",
         "tipsTitle": "เคล็ดลับในการปรับปรุงจุดคุ้มทุน:",
         "tip1": "ลดต้นทุนคงที่ (เจรจาค่าเช่า ปรับปรุงการใช้แรงงาน)",
         "tip2": "ลดต้นทุนผันแปร (เงื่อนไขซัพพลายเออร์ที่ดีกว่า ลดของเสีย)",
-        "tip3": "เพิ่มขนาดเช็คเฉลี่ย (การขายเพิ่ม เมนูวิศวกรรม)",
-        "tip4": "ปรับปรุงส่วนต่างการสนับสนุน = เส้นทางที่เร็วขึ้นสู่ความสามารถในการทำกำไร"
+        "tip3": "เพิ่มยอดบิลเฉลี่ย (การขายเพิ่ม วิศวกรรมเมนู)",
+        "tip4": "ปรับปรุงกำไรส่วนเกิน = เส้นทางที่เร็วขึ้นสู่ความสามารถในการทำกำไร"
       },
       "cta": {
         "intro": "ต้องการระบุโอกาสในการปรับปรุงเฉพาะที่สถานที่ของคุณหรือไม่?",
         "button": "ดูว่า Sundae สามารถช่วยได้อย่างไร"
       },
       "errors": {
-        "invalidInputs": "กรุณาใส่ตัวเลขที่ถูกต้อง (ราคเฉลี่ยต้องมากกว่าต้นทุนผันแปร)",
-        "negativeMargin": "ส่วนต่างการสนับสนุนต้องเป็นบวก เพิ่มราคาขายเฉลี่ยของคุณหรือลดต้นทุนผันแปร."
+        "invalidInputs": "กรุณาใส่ตัวเลขที่ถูกต้อง (ราคาเฉลี่ยต้องมากกว่าต้นทุนผันแปร)",
+        "negativeMargin": "กำไรส่วนเกินต้องเป็นบวก เพิ่มราคาขายเฉลี่ยของคุณหรือลดต้นทุนผันแปร"
       }
     },
     "ms": {
