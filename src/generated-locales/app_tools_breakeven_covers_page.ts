@@ -17,7 +17,7 @@ export const generatedLocalCopy = {
         "variableLabel": "Coût Variable Par Couvert",
         "variableHint": "Coût des aliments, emballage, frais de carte de crédit par client",
         "priceLabel": "Prix de Vente Moyen Par Couvert",
-        "priceHint": "Taille moyenne du chèque par client",
+        "priceHint": "Ticket moyen par client",
         "buttonIdle": "Calculer le Seuil de Rentabilité",
         "buttonBusy": "Calcul en cours..."
       },
@@ -32,7 +32,7 @@ export const generatedLocalCopy = {
         "tipsTitle": "Conseils pour Améliorer le Seuil de Rentabilité :",
         "tip1": "Réduisez les coûts fixes (négociez le loyer, optimisez la main-d'œuvre)",
         "tip2": "Diminuez les coûts variables (meilleures conditions fournisseurs, réduisez le gaspillage)",
-        "tip3": "Augmentez le chèque moyen (vente additionnelle, ingénierie du menu)",
+        "tip3": "Augmentez le ticket moyen (vente additionnelle, ingénierie du menu)",
         "tip4": "Améliorez la marge de contribution = chemin plus rapide vers la rentabilité"
       },
       "cta": {
@@ -804,33 +804,33 @@ export const generatedLocalCopy = {
       "back": "Kembali ke Alat",
       "hero": {
         "badge": "Kecerdasan Kewangan",
-        "title": "Kalkulator Penutup Titik Pulang Modal",
-        "description": "Kira berapa banyak penutup yang anda perlukan untuk pulang modal berdasarkan kos tetap dan berubah."
+        "title": "Kalkulator Bilangan Tetamu Titik Pulang Modal",
+        "description": "Kira berapa ramai tetamu yang anda perlu layan untuk pulang modal berdasarkan kos tetap dan berubah."
       },
       "form": {
         "title": "Masukkan Kos Anda",
-        "description": "Masukkan kos tetap anda, kos berubah per penutup, dan harga jualan purata.",
+        "description": "Masukkan kos tetap anda, kos berubah per tetamu, dan harga jualan purata.",
         "fixedLabel": "Kos Tetap Setiap Tempoh",
         "fixedHint": "Sewa, gaji, insurans, dll. (jumlah bulanan atau tempoh)",
-        "variableLabel": "Kos Berubah Per Penutup",
+        "variableLabel": "Kos Berubah Per Tetamu",
         "variableHint": "Kos makanan, pembungkusan, yuran kad kredit per pelanggan",
-        "priceLabel": "Harga Jualan Purata Per Penutup",
-        "priceHint": "Saiz cek purata per pelanggan",
+        "priceLabel": "Harga Jualan Purata Per Tetamu",
+        "priceHint": "Nilai bil purata per pelanggan",
         "buttonIdle": "Kira Titik Pulang Modal",
         "buttonBusy": "Mengira..."
       },
       "results": {
-        "title": "Penutup Titik Pulang Modal Diperlukan",
-        "coversLabel": "penutup setiap tempoh",
-        "coversSuffix": "penutup",
+        "title": "Bilangan Tetamu Diperlukan untuk Pulang Modal",
+        "coversLabel": "tetamu setiap tempoh",
+        "coversSuffix": "tetamu",
         "analysisTitle": "Analisis",
         "marginLabel": "Margin Sumbangan",
-        "perCover": "per penutup",
+        "perCover": "per tetamu",
         "toProfit": "Ke Untung",
         "tipsTitle": "Tips untuk Meningkatkan Titik Pulang Modal:",
-        "tip1": "Kurangkan kos tetap (berunding sewa, optimakan tenaga kerja)",
+        "tip1": "Kurangkan kos tetap (berunding sewa, optimumkan tenaga kerja)",
         "tip2": "Kurangkan kos berubah (syarat pembekal yang lebih baik, kurangkan pembaziran)",
-        "tip3": "Tingkatkan cek purata (penjualan tambahan, kejuruteraan menu)",
+        "tip3": "Tingkatkan nilai bil purata (penjualan tambahan, kejuruteraan menu)",
         "tip4": "Tingkatkan margin sumbangan = jalan yang lebih cepat ke keuntungan"
       },
       "cta": {
@@ -846,34 +846,34 @@ export const generatedLocalCopy = {
       "back": "도구로 돌아가기",
       "hero": {
         "badge": "재무 인텔리전스",
-        "title": "손익 분기점 커버 계산기",
-        "description": "고정비용과 변동비용을 기반으로 손익 분기점에 필요한 커버 수를 계산하세요."
+        "title": "손익 분기점 고객 수 계산기",
+        "description": "고정비용과 변동비용을 기반으로 손익 분기점에 도달하기 위해 응대해야 할 고객 수를 계산하세요."
       },
       "form": {
         "title": "비용 입력",
-        "description": "고정비용, 커버당 변동비용, 평균 판매가를 입력하세요.",
+        "description": "고정비용, 고객당 변동비용, 평균 판매가를 입력하세요.",
         "fixedLabel": "기간당 고정비용",
         "fixedHint": "임대료, 급여, 보험 등 (월별 또는 기간 총액)",
-        "variableLabel": "커버당 변동비용",
+        "variableLabel": "고객당 변동비용",
         "variableHint": "식품비, 포장비, 고객당 신용카드 수수료",
-        "priceLabel": "커버당 평균 판매가",
-        "priceHint": "고객당 평균 체크 크기",
+        "priceLabel": "고객당 평균 판매가",
+        "priceHint": "고객당 평균 객단가",
         "buttonIdle": "손익 분기점 계산",
         "buttonBusy": "계산 중..."
       },
       "results": {
-        "title": "필요한 손익 분기점 커버 수",
-        "coversLabel": "기간당 커버 수",
-        "coversSuffix": "커버",
+        "title": "손익 분기점에 필요한 고객 수",
+        "coversLabel": "기간당 고객 수",
+        "coversSuffix": "명",
         "analysisTitle": "분석",
-        "marginLabel": "기여 마진",
-        "perCover": "커버당",
+        "marginLabel": "공헌이익",
+        "perCover": "고객당",
         "toProfit": "이익으로",
         "tipsTitle": "손익 분기점을 개선하기 위한 팁:",
         "tip1": "고정비용 줄이기 (임대료 협상, 인력 최적화)",
         "tip2": "변동비용 낮추기 (더 나은 공급업체 조건, 낭비 줄이기)",
-        "tip3": "평균 체크 증가 (업셀링, 메뉴 엔지니어링)",
-        "tip4": "기여 마진 개선 = 수익성으로 가는 빠른 경로"
+        "tip3": "평균 객단가 높이기 (업셀링, 메뉴 엔지니어링)",
+        "tip4": "공헌이익 개선 = 수익성으로 가는 빠른 경로"
       },
       "cta": {
         "intro": "위치별로 특정 개선 기회를 식별하고 싶으신가요?",
