@@ -2,13 +2,11 @@
 
 import Image from "next/image";
 import { Button } from "@/components/ui/Button";
-import { motion, useInView, MotionConfig } from "framer-motion";
-import { useRef } from "react";
+import { motion, MotionConfig } from "framer-motion";
 import { useCta } from "@/lib/cta";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
 import { SIGNUP_URL } from "@/lib/urls";
 import { ElegantShape } from "@/components/ui/ElegantShape";
-import { KPICard } from "@/components/ui/KPICard";
 import { MockupFrame } from "@/components/ui/MockupFrame";
 import { FadeUp } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
@@ -24,7 +22,6 @@ import { SundaeWordmark } from "./sections/SundaeWordmark";
 import { editorialCopy, type EditorialCopy } from "./sections/editorialCopy";
 import { closerLineCopy } from "./closerCopy";
 import { heroDashboardCopy } from "./heroDashboardCopy";
-import { SectionOldWaySundaeWay } from "./sections/SectionOldWaySundaeWay";
 import { SectionSpeedQualityCost } from "./sections/SectionSpeedQualityCost";
 import { SectionWhatYouRetire } from "./sections/SectionWhatYouRetire";
 import { SectionThreeMoats } from "./sections/SectionThreeMoats";
@@ -32,7 +29,6 @@ import { Section4DScene } from "./sections/Section4DScene";
 import { SectionPersonaSwitcher } from "./sections/SectionPersonaSwitcher";
 import { SectionProof } from "./sections/SectionProof";
 import { SectionTrustStrip } from "./sections/SectionTrustStrip";
-import { SectionProductPreview } from "./sections/SectionProductPreview";
 // SectionProductGallery (the full 18-card persona-filtered version) is
 // preserved at its original path for reuse on product + solutions pages.
 // Homepage shows only the slim 4-card teaser per Option B from review.
@@ -63,13 +59,10 @@ export default function HomeContent() {
   const home = messages.home;
   const editorial: EditorialCopy =
     editorialCopy[locale as keyof typeof editorialCopy] ?? editorialCopy.en;
-  const problem = home.problem;
   const platform = home.platform;
   const heroDash = heroDashboardCopy[locale as keyof typeof heroDashboardCopy] ?? heroDashboardCopy.en;
   const closerLine = closerLineCopy[locale as keyof typeof closerLineCopy] ?? closerLineCopy.en;
   const cta = useCta();
-  const painRef = useRef<HTMLDivElement>(null);
-  const painInView = useInView(painRef, { once: true, margin: "-80px" });
 
   const layerIcons: Record<string, SundaeIconName> = {
     Pulse: "pulse",
@@ -287,38 +280,6 @@ export default function HomeContent() {
         <SectionManifesto />
 
         {/* ════════════════════════════════════════════════
-            2. THE PROBLEM - Pain KPIs with animated numbers
-        ════════════════════════════════════════════════ */}
-        <section ref={painRef} aria-labelledby="problem-heading" className="py-20 px-4 sm:px-6 lg:px-8 relative">
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,rgba(255,84,80,0.04),transparent_60%)]" />
-
-          <div className="max-w-6xl mx-auto relative z-10">
-            <FadeUp className="text-center mb-14">
-              <p className="eyebrow mb-4">{problem.eyebrow}</p>
-              <h2 id="problem-heading" className="section-h2 mb-5">
-                {problem.heading}
-              </h2>
-              <p className="body-lg max-w-2xl mx-auto">
-                {problem.description}
-              </p>
-            </FadeUp>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 lg:gap-6">
-              {problem.kpis.map((kpi) => (
-                <KPICard
-                  key={kpi.label}
-                  value={kpi.value}
-                  label={kpi.label}
-                  supporting={kpi.supporting}
-                  color={kpi.color as "blue" | "green" | "amber" | "red" | "purple" | "white" | undefined}
-                  animate={painInView}
-                />
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* ════════════════════════════════════════════════
             2-signature. WATCH THE NIGHT TURN - the signature interaction.
             Scrub a service night; at 7:15 Sundae surfaces the signal you can
             still act on. The interactive proof of the manifesto/operator copy.
@@ -336,11 +297,6 @@ export default function HomeContent() {
           sub={editorial.band1.sub}
           priority
         />
-
-        {/* ════════════════════════════════════════════════
-            2b. FROM REPORTING LAG TO OPS SPEED - Old Way vs Sundae Way
-        ════════════════════════════════════════════════ */}
-        <SectionOldWaySundaeWay />
 
         {/* ════════════════════════════════════════════════
             2b-relief. CREAM RELIEF - early warm/light break so the dark run never builds
@@ -475,12 +431,6 @@ export default function HomeContent() {
             6b. TRUST STRIP - Enterprise-grade signal before CTA
         ════════════════════════════════════════════════ */}
         <SectionTrustStrip />
-
-        {/* ════════════════════════════════════════════════
-            6c. PRODUCT PREVIEW - Slim 4-card teaser with lightbox
-            (full per-product galleries live on the product pages)
-        ════════════════════════════════════════════════ */}
-        <SectionProductPreview />
 
         {/* ════════════════════════════════════════════════
             6d. CLOSER - the floor, before we ask for the meeting (split)
