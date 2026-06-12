@@ -441,13 +441,13 @@ const localizedTermsCopy: Partial<Record<NonEnglishWebsiteLocale, TermsCopy>> = 
         paragraphs: ["Aux fins des présentes Conditions :"],
         bullets: [
           '"Sundae", "nous", "notre" et "nos" désignent Sundae Technologies Inc., ainsi que ses sociétés affiliées, qui exploitent les domaines sundae.io, sundaetech.ai, sundaetech.io et sundaetechnologies.com.',
-          '"Services" désigne les plateformes Sundae d’intelligence décisionnelle et de gestion des équipes, fondées sur l’IA, ainsi que les produits associés, notamment Sundae Report, les tableaux de bord, les API, les intégrations, les applications mobiles et de bureau, et le site web.',
-          '"Sundae Report" désigne le module de benchmarking d’intelligence décisionnelle de Sundae pour les restaurants, qui agrège et anonymise les données opérationnelles afin de fournir des comparaisons de performance.',
+          '"Services" désigne les plateformes Sundae d\'intelligence décisionnelle et de gestion des équipes, fondées sur l\'IA, ainsi que les produits associés, notamment Sundae Report, les tableaux de bord, les API, les intégrations, les applications mobiles et de bureau, et le site web.',
+          '"Sundae Report" désigne le module de benchmarking d\'intelligence décisionnelle de Sundae pour les restaurants, qui agrège et anonymise les données opérationnelles afin de fournir des comparaisons de performance.',
           '"Customer Data" désigne vos informations personnelles, y compris les données POS, que vous ou vos utilisateurs soumettez ou téléchargez dans les Services.',
           '"Usage Data" désigne les données techniques, de journalisation et/ou les métadonnées relatives à la manière dont vous et vos utilisateurs accédez aux Services et les utilisez.',
-          '"Aggregated Data" désigne les données résultant de l’agrégation et/ou de l’anonymisation de Customer Data et/ou de Usage Data de manière à ne pas vous identifier ni identifier une personne physique, et à ne pas pouvoir être raisonnablement réidentifiées.',
+          '"Aggregated Data" désigne les données résultant de l\'agrégation et/ou de l\'anonymisation de Customer Data et/ou de Usage Data de manière à ne pas vous identifier ni identifier une personne physique, et à ne pas pouvoir être raisonnablement réidentifiées.',
           '"Benchmark Data" désigne les Aggregated Data utilisées pour générer des indicateurs comparatifs et des références sectorielles mises à votre disposition via les Services, y compris Sundae Report.',
-          '"Subscription Form" désigne tout document de commande, parcours d’inscription ou enregistrement équivalent, en ligne ou hors ligne, précisant votre formule d’abonnement, les frais et les conditions commerciales.',
+          '"Subscription Form" désigne tout document de commande, parcours d\'inscription ou enregistrement équivalent, en ligne ou hors ligne, précisant votre formule d\'abonnement, les frais et les conditions commerciales.',
         ],
       },
       {
@@ -457,11 +457,11 @@ const localizedTermsCopy: Partial<Record<NonEnglishWebsiteLocale, TermsCopy>> = 
           "Nous pouvons ajouter, modifier ou interrompre des fonctionnalités ou des modules à tout moment, comme indiqué à la section 12.",
         ],
         bullets: [
-          'une plateforme d’intégration de données et d’analyse ;',
-          'des informations, recommandations et automatisations alimentées par l’IA ;',
-          'le benchmarking et l’analyse des performances, y compris Sundae Report ;',
-          'un système d’IA multi-agents pour les opérations de restaurant ;',
-          'la surveillance en temps réel, les alertes et la détection d’anomalies ;',
+          'une plateforme d\'intégration de données et d\'analyse ;',
+          'des informations, recommandations et automatisations alimentées par l\'IA ;',
+          'le benchmarking et l\'analyse des performances, y compris Sundae Report ;',
+          'un système d\'IA multi-agents pour les opérations de restaurant ;',
+          'la surveillance en temps réel, les alertes et la détection d\'anomalies ;',
           'des tableaux de bord et des rapports personnalisés ;',
           'des API et des intégrations avec des systèmes tiers, par exemple les systèmes POS, RH et comptables.',
         ],
@@ -505,9 +505,9 @@ const localizedTermsCopy: Partial<Record<NonEnglishWebsiteLocale, TermsCopy>> = 
           "interférer avec les Services ou les serveurs, les perturber ou contourner les mesures de sécurité ;",
           "tenter d'obtenir un accès non autorisé à toute partie des Services ou aux systèmes associés ;",
           "télécharger ou transmettre des virus, logiciels malveillants ou tout autre code nuisible ;",
-          "utiliser les Services pour développer ou proposer un produit concurrent ou pour une analyse concurrentielle en dehors d’un benchmarking interne légitime ;",
-          "procéder à de l’ingénierie inverse, décompiler, désassembler ou tenter de dériver le code source ou les modèles sous-jacents, sauf dans la mesure limitée autorisée par le droit applicable ;",
-          "extraire, collecter ou télécharger en masse des données des Services au moyen d’outils automatisés sans notre autorisation écrite ;",
+          "utiliser les Services pour développer ou proposer un produit concurrent ou pour une analyse concurrentielle en dehors d'un benchmarking interne légitime ;",
+          "procéder à de l'ingénierie inverse, décompiler, désassembler ou tenter de dériver le code source ou les modèles sous-jacents, sauf dans la mesure limitée autorisée par le droit applicable ;",
+          "extraire, collecter ou télécharger en masse des données des Services au moyen d'outils automatisés sans notre autorisation écrite ;",
           "tenter de réidentifier ou de désanonymiser des Aggregated Data ou des Benchmark Data.",
         ],
       },
@@ -792,41 +792,41 @@ const localizedTermsCopy: Partial<Record<NonEnglishWebsiteLocale, TermsCopy>> = 
   },
   es: {
     badge: 'Legal',
-    title: 'Terminos de servicio',
-    lastUpdatedLabel: 'Ultima actualizacion: 3 de marzo de 2026',
+    title: 'Términos de servicio',
+    lastUpdatedLabel: 'Última actualización: 3 de marzo de 2026',
     noticeTitle: 'Importante',
     noticeBody:
-      'Al acceder o utilizar los servicios de Sundae, aceptas quedar vinculado por estos Terminos de servicio. Leelos con atencion.',
+      'Al acceder a los servicios de Sundae o utilizarlos, usted acepta quedar vinculado por estos Términos de servicio. Le rogamos que los lea con atención.',
     sections: [
       {
-        title: '1. Introduccion y aceptacion de los terminos',
+        title: '1. Introducción y aceptación de los términos',
         paragraphs: [
-          'Estos Terminos de servicio ("Terminos") regulan tu acceso y uso de los sitios web, aplicaciones, plataformas y productos relacionados de Sundae (conjuntamente, los "Servicios"), incluido el modulo de benchmarking y analitica Sundae Report.',
-          'Estos Terminos constituyen un acuerdo legalmente vinculante entre Sundae Technologies Inc., sociedad constituida en Delaware, Estados Unidos, que opera bajo el nombre "Sundae" y administra los dominios sundae.io, sundaetech.ai, sundaetech.io y sundaetechnologies.com, y la entidad o persona que acepta estos Terminos ("Cliente", "tu" o "tuyo"). Sundae Technologies Inc. puede prestar servicios directamente o a traves de afiliados, revendedores autorizados o socios regionales.',
-          'Al acceder o utilizar los Servicios, o al pulsar "Acepto" o una expresion similar, aceptas quedar vinculado por estos Terminos en nombre propio y, cuando corresponda, de la entidad a la que representas. Si no aceptas estos Terminos, no debes acceder ni usar los Servicios.',
-          'Si aceptas estos Terminos en nombre de una empresa u otra entidad legal, declaras y garantizas que tienes autoridad para obligarla, y en ese caso "tu" y "tuyo" se refieren a dicha entidad.',
-          'En determinadas regiones, las suscripciones comerciales se venden y administran a traves de revendedores y socios regionales autorizados, como Ambia Global Technologies Ltd en el DIFC, Dubai. Cuando exista un acuerdo de suscripcion independiente con un revendedor autorizado, ese acuerdo regira las condiciones comerciales de la suscripcion, mientras que estos Terminos seguiran rigiendo el uso de la Plataforma, la propiedad intelectual, los datos y el uso aceptable. En caso de conflicto, prevaleceran estos Terminos en materia de uso de la plataforma, IP o datos, y el acuerdo de revendedor en materia comercial.',
+          'Estos Términos de servicio (los "Términos") rigen su acceso y uso de los sitios web, aplicaciones, plataformas y productos relacionados de Sundae (conjuntamente, los "Servicios"), incluido el módulo de benchmarking y analítica Sundae Report.',
+          'Estos Términos constituyen un acuerdo jurídicamente vinculante entre Sundae Technologies Inc., sociedad constituida en Delaware, Estados Unidos, que opera bajo el nombre "Sundae" y administra los dominios sundae.io, sundaetech.ai, sundaetech.io y sundaetechnologies.com, y la entidad o persona que acepta estos Términos (el "Cliente", "usted" o "su"). Sundae Technologies Inc. podrá prestar los Servicios directamente o a través de sociedades afiliadas, revendedores autorizados o socios regionales.',
+          'Al acceder a los Servicios o utilizarlos, o al pulsar "Acepto" o una expresión similar, usted acepta quedar vinculado por estos Términos en nombre propio y, cuando corresponda, en nombre de la entidad a la que representa. Si no acepta estos Términos, no podrá acceder a los Servicios ni utilizarlos.',
+          'Si acepta estos Términos en nombre de una empresa u otra entidad jurídica, usted declara y garantiza que está facultado para obligar a dicha entidad, en cuyo caso los términos "usted" y "su" se referirán a dicha entidad.',
+          'En determinadas regiones, las suscripciones comerciales se venden y administran a través de revendedores y socios regionales autorizados, como Ambia Global Technologies Ltd en el DIFC, Dubái. Cuando exista un acuerdo de suscripción independiente con un revendedor autorizado, dicho acuerdo regirá las condiciones comerciales de la suscripción, mientras que estos Términos seguirán rigiendo el uso de la Plataforma, la propiedad intelectual, los datos y el uso aceptable. En caso de conflicto, prevalecerán estos Términos en materia de uso de la plataforma, propiedad intelectual o datos, y el acuerdo de revendedor en materia comercial.',
         ],
       },
       {
         title: '2. Definiciones',
-        paragraphs: ['A efectos de estos Terminos:'],
+        paragraphs: ['A los efectos de estos Términos:'],
         bullets: [
-          '"Sundae", "nosotros", "nos" y "nuestro" significan Sundae Technologies Inc., con sus afiliadas, que operan los dominios sundae.io, sundaetech.ai, sundaetech.io y sundaetechnologies.com.',
-          '"Servicios" significa las plataformas de inteligencia de decisiones y de gestion de equipos impulsadas por IA de Sundae, incluidos Sundae Report, cuadros de mando, APIs, integraciones, aplicaciones moviles y de escritorio, y el sitio web.',
-          '"Sundae Report" significa el modulo de benchmarking de inteligencia de decisiones para restaurantes que agrega y anonimiza datos operativos para ofrecer comparativas de rendimiento.',
-          '"Customer Data" significa la informacion personal y los datos POS que tu o tus usuarios envian o cargan en los Servicios.',
-          '"Usage Data" significa los datos tecnicos, de registro o metadatos sobre como tu y tus usuarios acceden y usan los Servicios.',
-          '"Aggregated Data" significa datos resultantes de la agregacion o anonimizacion de Customer Data y/o Usage Data de forma que no identifiquen a ninguna persona ni puedan reidentificarse razonablemente.',
-          '"Benchmark Data" significa Aggregated Data usada para generar metricas comparativas y benchmarks sectoriales disponibles a traves de los Servicios, incluido Sundae Report.',
-          '"Subscription Form" significa cualquier documento de pedido, flujo de alta u otro registro equivalente que especifique tu plan, tarifas y condiciones comerciales.',
+          '"Sundae", "nosotros", "nos" y "nuestro" designan a Sundae Technologies Inc., junto con sus sociedades afiliadas, que operan los dominios sundae.io, sundaetech.ai, sundaetech.io y sundaetechnologies.com.',
+          '"Servicios" designa las plataformas de inteligencia de decisiones y de gestión de equipos impulsadas por IA de Sundae, así como los productos relacionados, incluidos Sundae Report, los cuadros de mando, las API, las integraciones, las aplicaciones móviles y de escritorio, y el sitio web.',
+          '"Sundae Report" designa el módulo de benchmarking de inteligencia de decisiones para restaurantes de Sundae, que agrega y anonimiza datos operativos para ofrecer comparativas de rendimiento.',
+          '"Customer Data" designa su información personal, incluidos los datos POS, que usted o sus usuarios envían o cargan en los Servicios.',
+          '"Usage Data" designa los datos técnicos, de registro o los metadatos relativos a cómo usted y sus usuarios acceden a los Servicios y los utilizan.',
+          '"Aggregated Data" designa los datos resultantes de la agregación o anonimización de Customer Data y/o Usage Data de forma que no le identifiquen a usted ni a ninguna persona física, y que no puedan reidentificarse razonablemente.',
+          '"Benchmark Data" designa los Aggregated Data utilizados para generar métricas comparativas y referencias sectoriales puestas a su disposición a través de los Servicios, incluido Sundae Report.',
+          '"Subscription Form" designa cualquier documento de pedido, flujo de alta u otro registro equivalente, en línea o fuera de línea, que especifique su plan de suscripción, las tarifas y las condiciones comerciales.',
         ],
       },
       {
-        title: '3. Descripcion de los Servicios',
+        title: '3. Descripción de los Servicios',
         paragraphs: [
-          'Sundae ofrece soluciones de inteligencia de decisiones impulsadas por IA, principalmente para restaurantes y negocios de hosteleria. Los Servicios pueden incluir, entre otros, una plataforma de integracion y analitica de datos, insights y automatizacion impulsados por IA, benchmarking y analitica de rendimiento, un sistema multiagente para operaciones de restaurante, monitorizacion en tiempo real, alertas y deteccion de anomalías, cuadros de mando y reportes personalizados, y APIs e integraciones con sistemas de terceros.',
-          'Podemos agregar, modificar o retirar funciones o modulos en cualquier momento, segun se indica en la seccion 12.',
+          'Sundae ofrece soluciones de inteligencia de decisiones impulsadas por IA, destinadas principalmente a restaurantes y empresas del sector de la hostelería. Los Servicios pueden incluir, entre otros, una plataforma de integración y analítica de datos; insights, recomendaciones y automatizaciones impulsados por IA; benchmarking y analítica de rendimiento, incluido Sundae Report; un sistema de IA multiagente para operaciones de restaurante; monitorización en tiempo real, alertas y detección de anomalías; cuadros de mando e informes personalizados; y API e integraciones con sistemas de terceros, como sistemas POS, de recursos humanos y de contabilidad.',
+          'Podemos agregar, modificar o retirar funciones o módulos en cualquier momento, según se indica en la sección 12.',
         ],
       },
       {
@@ -835,24 +835,24 @@ const localizedTermsCopy: Partial<Record<NonEnglishWebsiteLocale, TermsCopy>> = 
           {
             title: '4.1 Elegibilidad',
             paragraphs: [
-              'Solo puedes usar los Servicios si tienes al menos 18 anos y capacidad legal para celebrar un contrato vinculante conforme a la ley aplicable.',
+              'Solo puede utilizar los Servicios si tiene al menos 18 años y posee la capacidad jurídica para celebrar un contrato vinculante conforme a la legislación aplicable.',
             ],
           },
           {
-            title: '4.2 Creacion de cuenta',
+            title: '4.2 Creación de cuenta',
             paragraphs: [
-              'Para acceder a muchas funciones de los Servicios, debes crear una cuenta y proporcionar informacion exacta, actual y completa, manteniendola actualizada.',
-              'Si creas una cuenta en nombre de una empresa, declaras que estas autorizado para hacerlo.',
+              'Para acceder a muchas de las funciones de los Servicios, deberá crear una cuenta y proporcionar información exacta, actualizada y completa, comprometiéndose a mantenerla actualizada.',
+              'Si crea una cuenta en nombre de una empresa, declara estar autorizado para hacerlo.',
             ],
           },
           {
             title: '4.3 Seguridad de la cuenta',
             paragraphs: [
-              'Eres responsable de mantener la confidencialidad de tus credenciales de acceso y de todas las actividades que ocurran en tu cuenta.',
+              'Usted es responsable de mantener la confidencialidad de sus credenciales de acceso y de todas las actividades que se realicen en su cuenta.',
             ],
             bullets: [
-              'No compartir tu contrasena ni tu cuenta con personas no autorizadas.',
-              'Notificarnos de inmediato cualquier uso no autorizado de tu cuenta o cualquier brecha de seguridad.',
+              'No compartir su contraseña ni su cuenta con ninguna persona no autorizada.',
+              'Notificarnos de inmediato cualquier uso no autorizado de su cuenta o cualquier brecha de seguridad.',
             ],
           },
         ],
@@ -860,18 +860,18 @@ const localizedTermsCopy: Partial<Record<NonEnglishWebsiteLocale, TermsCopy>> = 
       {
         title: '5. Uso permitido y uso aceptable',
         paragraphs: [
-          'Solo puedes utilizar los Servicios para fines internos de tu negocio y de conformidad con estos Terminos y con la ley aplicable. No debes:',
-          'Podemos suspender o terminar el acceso por incumplimiento de esta seccion, a nuestra entera discrecion.',
+          'Solo puede utilizar los Servicios para los fines internos de su negocio y de conformidad con estos Términos y con todas las leyes y reglamentos aplicables. Usted no podrá:',
+          'Podemos, a nuestra entera discreción, suspender o terminar el acceso a los Servicios por incumplimiento de esta sección.',
         ],
         bullets: [
-          'usar los Servicios con fines ilicitos, fraudulentos o abusivos;',
-          'interferir o interrumpir los Servicios o los servidores, ni eludir medidas de seguridad;',
-          'intentar acceder sin autorizacion a cualquier parte de los Servicios o sistemas relacionados;',
-          'cargar o transmitir virus, malware u otro codigo danino;',
-          'usar los Servicios para desarrollar u ofrecer un producto competidor o para analisis competitivo fuera del benchmarking interno legitimo;',
-          'aplicar ingenieria inversa, descompilar, desensamblar o intentar derivar el codigo fuente o los modelos subyacentes, salvo en la medida limitada permitida por la ley aplicable;',
-          'extraer, recolectar o descargar datos de forma masiva mediante herramientas automatizadas sin nuestro permiso por escrito;',
-          'intentar reidentificar o desanonimizar Aggregated Data o Benchmark Data.',
+          'utilizar los Servicios con fines ilícitos, fraudulentos o abusivos;',
+          'interferir en los Servicios o los servidores, perturbarlos o eludir las medidas de seguridad;',
+          'intentar acceder sin autorización a cualquier parte de los Servicios o de los sistemas relacionados;',
+          'cargar o transmitir virus, software malicioso o cualquier otro código dañino;',
+          'utilizar los Servicios para desarrollar u ofrecer un producto competidor, o para realizar un análisis competitivo fuera del ámbito de un benchmarking interno legítimo;',
+          'aplicar ingeniería inversa, descompilar, desensamblar o intentar derivar el código fuente o los modelos subyacentes, salvo en la medida limitada permitida por la legislación aplicable;',
+          'extraer, recopilar o descargar datos de forma masiva de los Servicios mediante herramientas automatizadas sin nuestra autorización por escrito;',
+          'intentar reidentificar o desanonimizar cualquier Aggregated Data o Benchmark Data.',
         ],
       },
       {
@@ -879,92 +879,92 @@ const localizedTermsCopy: Partial<Record<NonEnglishWebsiteLocale, TermsCopy>> = 
         subsections: [
           {
             title: '6.1 Propiedad de Customer Data',
-            paragraphs: ['Conservas todos los derechos, titularidad e interes sobre tu Customer Data, sujeto a las licencias que concedes a Sundae en estos Terminos.'],
+            paragraphs: ['Usted conserva todos los derechos, la titularidad y el interés sobre sus Customer Data, con sujeción a las licencias que concede a Sundae en virtud de estos Términos.'],
           },
           {
             title: '6.2 Licencia sobre Customer Data',
             paragraphs: [
-              'Al enviar o cargar Customer Data en los Servicios, concedas a Sundae una licencia no exclusiva, mundial y libre de regalias para usar, almacenar, alojar, copiar, procesar, analizar, transmitir y mostrar Customer Data solo para prestar, mantener y dar soporte a los Servicios, y para prevenir o resolver problemas de servicio, seguridad o tecnicos.',
-              'Para Sundae Report, concedas ademas los derechos adicionales sobre Aggregated Data y Benchmark Data descritos en la seccion 13.',
+              'Al enviar o cargar Customer Data en los Servicios, usted concede a Sundae una licencia no exclusiva, mundial y libre de regalías para usar, almacenar, alojar, copiar, procesar, analizar, transmitir y mostrar los Customer Data, únicamente con el fin de prestar, mantener y dar soporte a los Servicios, así como para prevenir o resolver problemas de servicio, de seguridad o técnicos.',
+              'En relación con Sundae Report, usted concede además los derechos adicionales sobre Aggregated Data y Benchmark Data descritos en la sección 13.',
             ],
           },
           {
             title: '6.3 Usage Data, Aggregated Data y Benchmark Data',
             paragraphs: [
-              'Sundae puede generar Usage Data sobre tu uso de los Servicios y combinar Customer Data y Usage Data para crear Aggregated Data y Benchmark Data, que pueden usarse para operar, mejorar y desarrollar los Servicios, para benchmarking, analitica e investigacion, y para publicar insights sectoriales en forma agregada y anonima.',
-              'Sundae es titular exclusivo de todos los derechos sobre Aggregated Data y Benchmark Data, siempre que esos datos no identifiquen a ninguna persona ni a tu negocio.',
+              'Sundae podrá generar Usage Data sobre su uso de los Servicios y combinar Customer Data y Usage Data para crear Aggregated Data y Benchmark Data, que podrán utilizarse para operar, mejorar y desarrollar los Servicios, para fines de benchmarking, analítica e investigación, y para publicar análisis sectoriales en forma agregada y anonimizada.',
+              'Sundae es titular exclusivo de todos los derechos sobre Aggregated Data y Benchmark Data, siempre que dichos datos no identifiquen a ninguna persona ni a su negocio.',
             ],
           },
           {
-            title: '6.4 Politica de privacidad',
-            paragraphs: ['Tu uso de los Servicios tambien se rige por nuestra Politica de privacidad, incorporada a estos Terminos por referencia.'],
+            title: '6.4 Política de privacidad',
+            paragraphs: ['Su uso de los Servicios también se rige por nuestra Política de privacidad, incorporada a estos Términos por referencia.'],
           },
           {
             title: '6.5 Seguridad de los datos',
             paragraphs: [
-              'Aplicamos medidas tecnicas y organizativas estandar del sector para proteger Customer Data, incluido el cifrado en transito y en reposo, controles de acceso y monitorizacion. No obstante, ningun metodo de transmision o almacenamiento es 100% seguro y no podemos garantizar una seguridad absoluta.',
+              'Aplicamos medidas técnicas y organizativas conformes a los estándares del sector para proteger los Customer Data, incluido el cifrado en tránsito y en reposo, los controles de acceso y la monitorización. No obstante, ningún método de transmisión o almacenamiento es seguro al 100 % y no podemos garantizar una seguridad absoluta.',
             ],
           },
         ],
       },
       {
-        title: '7. Responsabilidades y declaraciones del usuario',
+        title: '7. Declaraciones y obligaciones del usuario',
         paragraphs: [
-          'Declaras y garantizas que:',
-          'Eres responsable de configurar y usar los Servicios de forma coherente con la ley aplicable.',
+          'Usted declara y garantiza que:',
+          'Usted es responsable de configurar y utilizar los Servicios de conformidad con la legislación aplicable.',
         ],
         bullets: [
-          'tienes todos los derechos, consentimientos y permisos necesarios para cargar y compartir Customer Data a traves de los Servicios;',
-          'tu Customer Data y tu uso de los Servicios no infringen ni infringiran ninguna ley aplicable ni derechos de terceros, incluidas las leyes de privacidad, empleo y proteccion de datos;',
-          'no cargaras datos personales sensibles salvo que la ley aplicable y nuestra Politica de privacidad lo permitan expresamente;',
-          'todo Customer Data que proporciones para analitica y benchmarking es, segun tu leal saber y entender, exacto, completo y actualizado.',
+          'dispone de todos los derechos, consentimientos y autorizaciones necesarios para cargar y compartir Customer Data a través de los Servicios;',
+          'sus Customer Data y su uso de los Servicios no infringen ni infringirán ninguna ley aplicable ni los derechos de terceros, incluidas las leyes de privacidad, laborales y de protección de datos;',
+          'no cargará datos personales sensibles salvo que la legislación aplicable y nuestra Política de privacidad lo permitan expresamente;',
+          'todos los Customer Data que proporcione con fines de analítica y benchmarking son, según su leal saber y entender, exactos, completos y están actualizados.',
         ],
       },
       {
         title: '8. Propiedad intelectual',
         paragraphs: [
-          'Los Servicios y su contenido, funciones y funcionalidad originales son propiedad de Sundae y estan protegidos por leyes internacionales de copyright, marcas, patentes, secretos comerciales y otras normas de propiedad intelectual.',
-          'Sundae conserva todos los derechos, titularidad e interes sobre los Servicios, incluidos todos los derechos de propiedad intelectual relacionados. No puedes eliminar, alterar ni ocultar avisos de propiedad de los Servicios.',
+          'Los Servicios, así como su contenido original, sus características y funcionalidades, son propiedad de Sundae y están protegidos por las leyes internacionales de derechos de autor, marcas, patentes, secretos comerciales y demás normas de propiedad intelectual.',
+          'Sundae conserva todos los derechos, la titularidad y el interés sobre los Servicios, incluidos todos los derechos de propiedad intelectual asociados. Usted no podrá eliminar, alterar ni ocultar ningún aviso de propiedad que figure en los Servicios.',
         ],
       },
       {
         title: '9. Licencia de uso de los Servicios',
         paragraphs: [
-          'Sujeto a tu cumplimiento de estos Terminos y de los Subscription Forms aplicables, Sundae te concede una licencia limitada, no exclusiva, intransferible y sin derecho a sublicencia para acceder y usar los Servicios durante tu periodo de suscripcion y solo para fines internos de negocio.',
-          'No puedes revender, redistribuir, white-label ni ofrecer los Servicios o sus resultados a terceros como servicio independiente, salvo acuerdo escrito de nuestra parte.',
+          'Con sujeción a su cumplimiento de estos Términos y de los Subscription Forms aplicables, Sundae le concede una licencia limitada, no exclusiva, intransferible y sin derecho a sublicencia para acceder a los Servicios y utilizarlos durante el periodo de su suscripción y únicamente para los fines internos de su negocio.',
+          'Usted no podrá revender, redistribuir, comercializar bajo marca propia (white-label) ni ofrecer los Servicios, o sus resultados, a terceros como un servicio independiente, salvo mediante acuerdo por escrito de nuestra parte.',
         ],
       },
       {
-        title: '10. Tarifas, facturacion e impuestos',
+        title: '10. Tarifas, facturación e impuestos',
         subsections: [
           {
             title: '10.1 Tarifas',
             paragraphs: [
-              'Algunas partes de los Servicios son gratuitas; otras requieren pago de tarifas de suscripcion o de uso segun el Subscription Form o la pagina de precios aplicable. Salvo que se indique lo contrario, todas las tarifas se expresan en dolares estadounidenses. Eres responsable de pagar todas las tarifas y los impuestos aplicables.',
+              'Algunas partes de los Servicios son gratuitas; otras requieren el pago de tarifas de suscripción o de uso conforme al Subscription Form o a la página de precios aplicable. Salvo que se indique lo contrario, todas las tarifas se expresan en dólares estadounidenses. Usted es responsable del pago de todas las tarifas y de los impuestos aplicables.',
             ],
           },
           {
-            title: '10.2 Facturacion y renovacion',
+            title: '10.2 Facturación y renovación',
             paragraphs: [
-              'Salvo indicacion en contrario, las suscripciones se facturan por adelantado de forma mensual o anual y se renuevan automaticamente al final de cada periodo de facturacion a las tarifas vigentes, salvo cancelacion previa a la renovacion.',
+              'Salvo indicación en contrario, las suscripciones se facturan por adelantado con periodicidad mensual o anual y se renuevan automáticamente al final de cada periodo de facturación a las tarifas vigentes en ese momento, salvo cancelación previa a la renovación.',
             ],
           },
           {
             title: '10.3 Cancelaciones y reembolsos',
             paragraphs: [
-              'Puedes cancelar tu suscripcion en cualquier momento desde la configuracion de tu cuenta o contactandonos. La cancelacion surte efecto al final del ciclo de facturacion en curso. Las tarifas no son reembolsables salvo que se indique expresamente por escrito.',
+              'Puede cancelar su suscripción en cualquier momento desde la configuración de su cuenta o poniéndose en contacto con nosotros. La cancelación surte efecto al final del ciclo de facturación en curso. Las tarifas no son reembolsables, salvo que así lo dispongamos expresamente por escrito.',
             ],
           },
           {
-            title: '10.4 Pagos tardios y suspension',
+            title: '10.4 Retrasos en el pago y suspensión',
             paragraphs: [
-              'Si no pagas las tarifas cuando correspondan, podemos suspender o limitar tu acceso a los Servicios hasta recibir el pago.',
+              'Si no abona las tarifas a su vencimiento, podremos suspender o limitar su acceso a los Servicios hasta que recibamos el pago.',
             ],
           },
           {
             title: '10.5 Impuestos',
             paragraphs: [
-              'Las tarifas no incluyen impuestos, tasas o cargos similares aplicables. Tu eres responsable de todos esos importes, excluidos los impuestos basados en el ingreso neto de Sundae.',
+              'Las tarifas no incluyen los impuestos, tasas o cargos similares que resulten aplicables. Usted es responsable de todos esos importes, con excepción de los impuestos basados en la renta neta de Sundae.',
             ],
           },
         ],
@@ -972,66 +972,66 @@ const localizedTermsCopy: Partial<Record<NonEnglishWebsiteLocale, TermsCopy>> = 
       {
         title: '11. Comentarios',
         paragraphs: [
-          'Si nos proporcionas sugerencias, ideas o comentarios sobre los Servicios ("Feedback"), concedes a Sundae una licencia mundial, perpetua, irrevocable y libre de regalias para usar, copiar, modificar, crear obras derivadas y explotar de cualquier otra forma ese Feedback para cualquier proposito, sin obligacion ni compensacion alguna hacia ti.',
+          'Si nos proporciona sugerencias, ideas o comentarios sobre los Servicios ("Feedback"), usted concede a Sundae una licencia mundial, perpetua, irrevocable y libre de regalías para usar, copiar, modificar, crear obras derivadas y explotar de cualquier otra forma dicho Feedback con cualquier finalidad, sin obligación ni compensación alguna a su favor.',
         ],
       },
       {
         title: '12. Disponibilidad del servicio, cambios y funciones beta',
         paragraphs: [
-          'Nuestro objetivo es mantener los Servicios disponibles de forma continua, pero no garantizamos una operacion ininterrumpida o libre de errores.',
-          'Las funciones beta o de pre-lanzamiento se proporcionan "tal cual", sin garantias, y pueden retirarse en cualquier momento.',
+          'Nuestro objetivo es mantener los Servicios disponibles de forma continua, pero no garantizamos un funcionamiento ininterrumpido ni exento de errores.',
+          'Las funciones beta o de prelanzamiento se proporcionan "tal cual", sin garantía alguna, y pueden retirarse en cualquier momento.',
         ],
         bullets: [
           'Podemos modificar o retirar funciones.',
-          'Podemos lanzar nuevos modulos o planes.',
+          'Podemos lanzar nuevos módulos o planes.',
           'Podemos ofrecer acceso anticipado o funciones beta que pueden ser inestables o experimentales.',
         ],
       },
       {
-        title: '13. Terminos adicionales para Sundae Report',
+        title: '13. Términos adicionales para Sundae Report',
         paragraphs: [
-          'Esta seccion se aplica especificamente a tu uso de Sundae Report y complementa el resto de estos Terminos. En caso de conflicto, esta seccion prevalece para Sundae Report.',
+          'Esta sección se aplica específicamente a su uso de Sundae Report y complementa el resto de estos Términos. En caso de conflicto, esta sección prevalecerá respecto de Sundae Report.',
         ],
         subsections: [
           {
-            title: '13.1 Descripcion del servicio',
+            title: '13.1 Descripción del servicio',
             paragraphs: [
-              'Sundae Report es una plataforma de inteligencia de decisiones y benchmarking para restaurantes que permite comparar metricas de rendimiento con peers anonimizados mediante la agregacion y analisis de datos POS y operativos.',
+              'Sundae Report es una plataforma de inteligencia de decisiones y benchmarking para restaurantes que permite comparar métricas de rendimiento con las de pares anonimizados mediante la agregación y el análisis de datos POS y operativos.',
             ],
           },
           {
-            title: '13.2 Aportacion de datos',
+            title: '13.2 Aportación de datos',
             paragraphs: [
-              'Te comprometes a proporcionar datos POS y operativos exactos y completos cargando archivos o conectando tus sistemas POS y relacionados a Sundae Report.',
+              'Usted se compromete a proporcionar datos POS y operativos exactos y completos cargando archivos o conectando sus sistemas POS y sistemas relacionados a Sundae Report.',
             ],
             bullets: [
-              'Las cargas pueden incluir ventas, ingresos, articulos vendidos, clientes, transacciones con marca temporal, metodos de pago, descuentos y promociones, entre otras metricas operativas.',
+              'Las cargas pueden incluir ventas, ingresos, artículos vendidos, clientes, transacciones con marca temporal, métodos de pago, descuentos y promociones, entre otras métricas operativas.',
             ],
           },
           {
-            title: '13.3 Anonimizacion y agregacion',
+            title: '13.3 Anonimización y agregación',
             paragraphs: [
-              'Antes de incluir tus datos en Benchmark Data y compartirlos como parte de los resultados de benchmarking, los anonimizamos y agregamos para eliminar identificadores directos de tu restaurante, como nombre, direccion exacta, datos de propiedad o nombres de empleados.',
-              'Aplicamos umbrales razonables de tamano de grupo y otras tecnicas para reducir el riesgo de reidentificacion; por claridad, los Aggregated Data y Benchmark Data anonimizados conforme a esta seccion no constituyen datos personales ni Customer Data a efectos de estos Terminos.',
+              'Antes de incluir sus datos en los Benchmark Data y compartirlos como parte de los resultados de benchmarking, los anonimizamos y agregamos para eliminar los identificadores directos de su restaurante, como el nombre, la dirección exacta, los datos de titularidad o los nombres de los empleados.',
+              'Aplicamos umbrales razonables de tamaño de grupo y otras técnicas para reducir el riesgo de reidentificación; para evitar dudas, los Aggregated Data y Benchmark Data anonimizados conforme a esta sección no constituyen datos personales ni Customer Data a los efectos de estos Términos.',
             ],
           },
           {
-            title: '13.4 Licencia sobre datos anonimizados y agregados',
+            title: '13.4 Licencia sobre los datos anonimizados y agregados',
             paragraphs: [
-              'Al cargar datos en Sundae Report, concedes a Sundae una licencia mundial, perpetua, irrevocable y libre de regalias para usar, procesar, anonimizar, agregar, analizar y mostrar tus datos con el fin de operar Sundae Report y ofrecer servicios de benchmarking y analitica.',
-              'Esta licencia incluye la creacion de obras derivadas a partir de Aggregated Data y Benchmark Data y su uso en forma agregada para mejoras de la plataforma, investigacion, analitica y analisis de mercado. La licencia sobrevive a la terminacion de tu cuenta respecto de los datos ya creados.',
+              'Al cargar datos en Sundae Report, usted concede a Sundae una licencia mundial, perpetua, irrevocable y libre de regalías para usar, procesar, anonimizar, agregar, analizar y mostrar sus datos con el fin de operar Sundae Report y prestar servicios de benchmarking y analítica.',
+              'Esta licencia incluye la creación de obras derivadas a partir de los Aggregated Data y Benchmark Data, así como su uso en forma agregada para la mejora de la plataforma, la investigación, la analítica y el análisis de mercado. La licencia subsistirá tras la terminación de su cuenta respecto de los datos ya creados.',
             ],
           },
           {
             title: '13.5 Licencia de uso de Sundae Report',
             paragraphs: [
-              'Sujeto a tu cumplimiento de estos Terminos y al pago de las tarifas aplicables, Sundae te concede una licencia limitada, no exclusiva e intransferible para acceder y usar Sundae Report y sus resultados de benchmarking para analitica interna y toma de decisiones de negocio.',
+              'Con sujeción a su cumplimiento de estos Términos y al pago de las tarifas aplicables, Sundae le concede una licencia limitada, no exclusiva e intransferible para acceder a Sundae Report y utilizarlo, así como sus resultados de benchmarking, con fines de analítica interna y toma de decisiones de negocio.',
             ],
           },
           {
             title: '13.6 Restricciones',
             paragraphs: [
-              'Ademas de las restricciones generales de la seccion 5, no puedes revender, redistribuir ni sublicenciar el acceso a Sundae Report o a sus Benchmark Data a terceros, salvo para compartir informes internamente; intentar revertir la anonimizacion de Benchmark Data o Aggregated Data para identificar a otros restaurantes o participantes; ni usar Benchmark Data para crear o entrenar un servicio competidor sin nuestro consentimiento previo por escrito.',
+              'Además de las restricciones generales de la sección 5, usted no podrá revender, redistribuir ni sublicenciar el acceso a Sundae Report o a sus Benchmark Data a terceros, salvo para compartir informes internamente; intentar revertir la anonimización de los Benchmark Data o Aggregated Data con el fin de identificar a otros restaurantes o participantes; ni utilizar los Benchmark Data para crear o entrenar un servicio competidor sin nuestro consentimiento previo por escrito.',
             ],
           },
         ],
@@ -1039,112 +1039,112 @@ const localizedTermsCopy: Partial<Record<NonEnglishWebsiteLocale, TermsCopy>> = 
       {
         title: '14. Confidencialidad',
         paragraphs: [
-          'Cada parte puede recibir informacion confidencial y no publica de la otra ("Informacion Confidencial"), incluida Customer Data, hojas de ruta de producto, precios, planes de negocio y cualquier informacion marcada o razonablemente entendida como confidencial.',
-          'La parte receptora usara la Informacion Confidencial solo en la medida necesaria para cumplir sus obligaciones y la protegera con, al menos, un cuidado razonable.',
-          'La Informacion Confidencial no incluye informacion que sea publica sin incumplimiento, recibida de un tercero sin obligacion de confidencialidad, desarrollada independientemente o que deba divulgarse por ley.',
-          'Aggregated Data y Benchmark Data que no te identifiquen no constituyen tu Informacion Confidencial.',
+          'Cada parte podrá recibir información confidencial y no pública de la otra parte (la "Información Confidencial"), incluidos los Customer Data, las hojas de ruta de producto, los precios, los planes de negocio y cualquier información marcada como confidencial o que razonablemente deba entenderse como tal.',
+          'La parte receptora utilizará la Información Confidencial únicamente en la medida necesaria para cumplir sus obligaciones y la protegerá con un grado de diligencia, como mínimo, razonable.',
+          'La Información Confidencial no comprende la información que sea pública sin que medie incumplimiento, que se haya recibido de un tercero sin obligación de confidencialidad, que se haya desarrollado de forma independiente o que deba divulgarse por imperativo legal.',
+          'Los Aggregated Data y Benchmark Data que no le identifiquen no constituyen su Información Confidencial.',
         ],
       },
       {
         title: '15. Exenciones de responsabilidad',
         paragraphs: [
-          'LOS SERVICIOS, INCLUIDOS SUNDAE REPORT, BENCHMARK DATA Y TODOS LOS RESULTADOS GENERADOS POR IA, SE PROPORCIONAN "TAL CUAL" Y "SEGUN DISPONIBILIDAD", SIN GARANTIAS DE NINGUN TIPO, YA SEAN EXPRESAS O IMPLICITAS.',
-          'EN LA MAXIMA MEDIDA PERMITIDA POR LA LEY, SUNDAE RENUNCIA EXPRESAMENTE A TODAS LAS GARANTIAS, INCLUIDAS LAS GARANTIAS IMPLICITAS DE COMERCIABILIDAD, IDONEIDAD PARA UN PROPOSITO PARTICULAR Y NO INFRACCION, ASI COMO CUALQUIER GARANTIA DE QUE LOS SERVICIOS SERAN ININTERRUMPIDOS, PUNTUALES, SEGUROS O LIBRES DE ERRORES.',
-          'TAMPOCO GARANTIZAMOS LA EXACTITUD, COMPLETITUD O FIABILIDAD DE LAS ANALITICAS, LOS BENCHMARK DATA O LOS INSIGHTS GENERADOS POR IA, NI QUE LOS RESULTADOS CUMPLIRAN TUS EXPECTATIVAS O PRODUCIRAN UN RESULTADO COMERCIAL CONCRETO.',
-          'Tu eres el unico responsable de interpretar y actuar sobre cualquier resultado, insight, recomendacion o decision derivada de los Servicios, incluidas decisiones de precios, personal, inventario, menu, marketing u otras decisiones operativas o estrategicas. Los Servicios estan disenados para apoyar la toma de decisiones humana, no para sustituirla.',
+          'LOS SERVICIOS, INCLUIDOS SUNDAE REPORT, LOS BENCHMARK DATA Y TODOS LOS RESULTADOS GENERADOS POR IA, SE PROPORCIONAN "TAL CUAL" Y "SEGÚN DISPONIBILIDAD", SIN GARANTÍAS DE NINGÚN TIPO, YA SEAN EXPRESAS O IMPLÍCITAS.',
+          'EN LA MÁXIMA MEDIDA PERMITIDA POR LA LEY, SUNDAE RENUNCIA EXPRESAMENTE A TODA GARANTÍA, INCLUIDAS LAS GARANTÍAS IMPLÍCITAS DE COMERCIABILIDAD, IDONEIDAD PARA UN FIN DETERMINADO Y NO INFRACCIÓN, ASÍ COMO CUALQUIER GARANTÍA DE QUE LOS SERVICIOS SERÁN ININTERRUMPIDOS, PUNTUALES, SEGUROS O ESTARÁN LIBRES DE ERRORES.',
+          'TAMPOCO GARANTIZAMOS LA EXACTITUD, INTEGRIDAD O FIABILIDAD DE LAS ANALÍTICAS, LOS BENCHMARK DATA O LOS INSIGHTS GENERADOS POR IA, NI QUE LOS RESULTADOS CUMPLAN SUS EXPECTATIVAS O PRODUZCAN UN RESULTADO COMERCIAL CONCRETO.',
+          'Usted es el único responsable de interpretar cualquier resultado, insight, recomendación o decisión derivada de los Servicios y de actuar en consecuencia, incluidas las decisiones relativas a precios, personal, inventario, carta, marketing u otras decisiones operativas o estratégicas. Los Servicios están diseñados para apoyar la toma de decisiones humana, no para sustituirla.',
         ],
       },
       {
-        title: '16. Indemnizacion',
+        title: '16. Indemnización',
         paragraphs: [
-          'Aceptas indemnizar, defender y mantener indemne a Sundae y a sus directivos, consejeros, empleados, agentes y afiliadas frente a cualquier reclamacion, dano, perdida, responsabilidad, coste o gasto, incluidos honorarios razonables de abogados, derivados de tu uso de los Servicios, de tu Customer Data, de tu incumplimiento de estos Terminos o de la infraccion de derechos de terceros.',
+          'Usted acepta indemnizar, defender y mantener indemne a Sundae, así como a sus directivos, consejeros, empleados, agentes y sociedades afiliadas, frente a cualquier reclamación, daño, pérdida, responsabilidad, coste o gasto, incluidos los honorarios razonables de abogados, derivados de su uso de los Servicios, de sus Customer Data, de su incumplimiento de estos Términos o de la vulneración de los derechos de terceros.',
         ],
       },
       {
-        title: '17. Limitacion de responsabilidad',
+        title: '17. Limitación de responsabilidad',
         paragraphs: [
-          'En la maxima medida permitida por la ley aplicable, Sundae y sus afiliadas, directivos, empleados, agentes, proveedores y licenciantes no seran responsables de danos indirectos, incidentales, especiales, consecuenciales o punitivos, incluidos lucro cesante, perdida de datos, uso, fondo de comercio u otras perdidas intangibles derivadas del uso o imposibilidad de usar los Servicios.',
-          'La responsabilidad agregada maxima de Sundae derivada de estos Terminos no excedera el mayor de los siguientes importes: las cantidades que hayas pagado a Sundae por los Servicios en los doce (12) meses anteriores al hecho que dio lugar a la reclamacion, o cien dolares estadounidenses (US$100).',
-          'Algunas jurisdicciones no permiten ciertas exclusiones o limitaciones, y en esos casos nuestra responsabilidad se limitara al maximo permitido por la ley.',
+          'En la máxima medida permitida por la legislación aplicable, ni Sundae ni sus sociedades afiliadas, directivos, empleados, agentes, proveedores o licenciantes serán responsables de daños indirectos, incidentales, especiales, consecuenciales o punitivos, incluidos el lucro cesante, la pérdida de datos, de uso o de fondo de comercio, u otras pérdidas intangibles, derivados del uso o de la imposibilidad de uso de los Servicios.',
+          'La responsabilidad agregada máxima de Sundae derivada de estos Términos no excederá del mayor de los siguientes importes: las cantidades que usted haya abonado a Sundae por los Servicios durante los doce (12) meses anteriores al hecho que dio lugar a la reclamación, o cien dólares estadounidenses (US$100).',
+          'Algunas jurisdicciones no permiten determinadas exclusiones o limitaciones, y en esos casos nuestra responsabilidad se limitará al máximo permitido por la ley.',
         ],
       },
       {
-        title: '18. Vigencia y terminacion',
+        title: '18. Vigencia y terminación',
         subsections: [
           {
             title: '18.1 Vigencia',
-            paragraphs: ['Estos Terminos entran en vigor cuando accedes o usas por primera vez los Servicios o cuando los aceptas, y permanecen vigentes hasta su terminacion.'],
+            paragraphs: ['Estos Términos entran en vigor cuando usted accede a los Servicios o los utiliza por primera vez, o cuando los acepta, y permanecen vigentes hasta su terminación.'],
           },
           {
-            title: '18.2 Terminacion por tu parte',
+            title: '18.2 Terminación por su parte',
             paragraphs: [
-              'Puedes terminar tu cuenta y dejar de usar los Servicios en cualquier momento mediante la configuracion de tu cuenta o contactandonos. Las tarifas pagadas por adelantado no son reembolsables salvo que se indique por escrito.',
-              'Puedes solicitar la eliminacion de Customer Data identificable escribiendo a legal@sundae.io dentro de los sesenta (60) dias posteriores a la terminacion. Entiendes que Customer Data proviene de tus propios sistemas operativos y que conservas acceso independiente a esos datos en todo momento. Sundae hara esfuerzos razonables para eliminar Customer Data identificable dentro de los noventa (90) dias posteriores a una solicitud valida, salvo cuando la conservacion sea necesaria por ley, para resolver disputas o por copias de seguridad rutinarias. Aggregated Data y Benchmark Data no identificables no estan sujetos a solicitudes de eliminacion y pueden conservarse indefinidamente de acuerdo con la seccion 13.4.',
+              'Puede dar de baja su cuenta y dejar de usar los Servicios en cualquier momento mediante la configuración de su cuenta o poniéndose en contacto con nosotros. Las tarifas pagadas por adelantado no son reembolsables, salvo indicación por escrito en contrario.',
+              'Puede solicitar la eliminación de los Customer Data identificables escribiendo a legal@sundae.io dentro de los sesenta (60) días siguientes a la terminación. Usted entiende que los Customer Data proceden de sus propios sistemas operativos y que conserva acceso independiente a dichos datos en todo momento. Sundae realizará esfuerzos razonables para eliminar los Customer Data identificables dentro de los noventa (90) días siguientes a una solicitud válida, salvo cuando su conservación sea necesaria por imperativo legal, para resolver controversias o para copias de seguridad rutinarias. Los Aggregated Data y Benchmark Data no identificables no están sujetos a solicitudes de eliminación y pueden conservarse indefinidamente de conformidad con la sección 13.4.',
             ],
           },
           {
-            title: '18.3 Terminacion o suspension por parte de Sundae',
+            title: '18.3 Terminación o suspensión por parte de Sundae',
             paragraphs: [
-              'Podemos suspender o terminar tu acceso a los Servicios, total o parcialmente, de inmediato y sin previo aviso si incumples estos Terminos, no pagas las tarifas, la ley nos obliga o si continuar prestando los Servicios supone un riesgo material para Sundae.',
+              'Podemos suspender o terminar su acceso a los Servicios, total o parcialmente, de forma inmediata y sin previo aviso, si usted incumple estos Términos, no abona las tarifas, si la ley nos obliga a ello o si la continuación de la prestación de los Servicios entraña un riesgo material para Sundae.',
             ],
           },
           {
-            title: '18.4 Efecto de la terminacion',
+            title: '18.4 Efectos de la terminación',
             paragraphs: [
-              'Al terminar el contrato, tu derecho a acceder y usar los Servicios cesara de inmediato. Las secciones que por su naturaleza deban sobrevivir permaneceran vigentes, incluyendo, sin limitacion, las secciones 6.3, 8-11, 13.4 y 14-22. Los Aggregated Data y Benchmark Data ya creados pueden conservarse y usarse conforme a estos Terminos.',
+              'A la terminación del contrato, su derecho a acceder a los Servicios y a utilizarlos cesará de inmediato. Las secciones que, por su naturaleza, deban subsistir permanecerán vigentes, incluidas, sin limitación, las secciones 6.3, 8 a 11, 13.4 y 14 a 22. Los Aggregated Data y Benchmark Data ya creados podrán conservarse y utilizarse de conformidad con estos Términos.',
             ],
           },
         ],
       },
       {
-        title: '19. Ley aplicable y resolucion de disputas',
+        title: '19. Ley aplicable y resolución de controversias',
         paragraphs: [
-          'Estos Terminos y cualquier disputa o reclamacion derivada de ellos o relacionada con su objeto o formacion se regiran e interpretaran conforme a las leyes del Estado de Delaware, Estados Unidos, sin tener en cuenta sus normas de conflicto de leyes.',
-          'Las partes acuerdan irrevocablemente que los tribunales estatales y federales situados en Delaware tendran jurisdiccion exclusiva para resolver cualquier disputa o reclamacion derivada de estos Terminos o relacionada con ellos.',
+          'Estos Términos, así como cualquier controversia o reclamación derivada de ellos o relacionada con su objeto o formación, se regirán e interpretarán de conformidad con las leyes del Estado de Delaware, Estados Unidos, sin atender a sus normas sobre conflicto de leyes.',
+          'Las partes convienen de forma irrevocable que los tribunales estatales y federales situados en Delaware tendrán jurisdicción exclusiva para conocer de cualquier controversia o reclamación derivada de estos Términos o relacionada con ellos.',
         ],
       },
       {
-        title: '20. Cambios en los Terminos',
+        title: '20. Modificaciones de los Términos',
         paragraphs: [
-          'Podemos modificar estos Terminos de vez en cuando. Si realizamos cambios materiales, te notificaremos, por ejemplo por correo electronico, aviso dentro de la aplicacion o actualizando la fecha de "Ultima actualizacion".',
-          'Si continuas accediendo o usando los Servicios una vez que los Terminos actualizados entren en vigor, aceptas quedar vinculado por la version revisada. Si no estas de acuerdo, debes dejar de usar los Servicios.',
+          'Podemos modificar estos Términos cada cierto tiempo. Si introducimos cambios sustanciales, se lo notificaremos, por ejemplo mediante correo electrónico, un aviso dentro de la aplicación o la actualización de la fecha de "Última actualización".',
+          'Si continúa accediendo a los Servicios o utilizándolos una vez que los Términos actualizados hayan entrado en vigor, acepta quedar vinculado por la versión revisada. Si no está de acuerdo, deberá dejar de utilizar los Servicios.',
         ],
       },
       {
-        title: '21. Cesion',
+        title: '21. Cesión',
         paragraphs: [
-          'No puedes ceder ni transferir estos Terminos, por efecto de la ley o de otro modo, sin nuestro consentimiento previo por escrito. Podemos ceder estos Terminos, total o parcialmente, sin tu consentimiento a una afiliada o en relacion con una fusion, adquisicion, reorganizacion societaria o venta de activos.',
+          'Usted no podrá ceder ni transferir estos Términos, por ministerio de la ley o de otro modo, sin nuestro consentimiento previo por escrito. Nosotros podremos ceder estos Términos, total o parcialmente, sin su consentimiento, a una sociedad afiliada o en el marco de una fusión, adquisición, reorganización societaria o venta de activos.',
         ],
       },
       {
         title: '22. Disposiciones varias',
         bullets: [
-          'Acuerdo completo: estos Terminos, junto con la Politica de privacidad y cualquier Subscription Form aplicable, constituyen el acuerdo completo entre tu y Sundae respecto de los Servicios y sustituyen cualquier acuerdo previo o contemporaneo.',
-          'Separabilidad: si alguna disposicion se considera invalida o inaplicable, se ejecutara en la maxima medida permitida y el resto seguira plenamente vigente.',
-          'No renuncia: el hecho de que no hagamos valer algun derecho o disposicion no constituye renuncia a ese derecho o disposicion.',
-          'Relacion de las partes: las partes actuan como contratistas independientes. Nada de lo aqui dispuesto crea una sociedad, joint venture, agencia ni relacion laboral.',
-          'Avisos: podemos enviarte avisos por correo electronico a la direccion asociada a tu cuenta o mediante notificaciones dentro de la aplicacion. Puedes enviarnos avisos legales a la direccion indicada abajo.',
-          'Titulos: los titulos de las secciones se incluyen solo por conveniencia y no afectan a la interpretacion de los Terminos.',
+          'Acuerdo completo: estos Términos, junto con la Política de privacidad y cualquier Subscription Form aplicable, constituyen el acuerdo íntegro entre usted y Sundae en relación con los Servicios y sustituyen a cualquier acuerdo anterior o coetáneo.',
+          'Divisibilidad: si alguna disposición se considera inválida o inaplicable, se aplicará en la máxima medida permitida por la ley y las restantes disposiciones permanecerán plenamente vigentes.',
+          'No renuncia: el hecho de que no ejerzamos un derecho o no exijamos el cumplimiento de una disposición no constituirá una renuncia a dicho derecho o disposición.',
+          'Relación entre las partes: las partes actúan en calidad de contratistas independientes. Nada de lo aquí dispuesto crea una sociedad, una empresa conjunta (joint venture), una relación de agencia ni una relación laboral.',
+          'Notificaciones: podemos enviarle notificaciones por correo electrónico a la dirección asociada a su cuenta o mediante notificaciones dentro de la aplicación. Usted puede remitirnos notificaciones legales a la dirección indicada a continuación.',
+          'Títulos: los títulos de las secciones se incluyen únicamente a efectos de comodidad y no afectan a la interpretación de los Términos.',
         ],
       },
       {
         title: '23. Contacto',
         paragraphs: [
-          'Si tienes preguntas sobre estos Terminos o sobre los Servicios, contactanos.',
+          'Si tiene preguntas sobre estos Términos o sobre los Servicios, póngase en contacto con nosotros.',
         ],
       },
     ],
-    contactHeading: '¿Preguntas sobre estos terminos?',
+    contactHeading: '¿Preguntas sobre estos Términos?',
     contactDescription:
-      'Si tienes preguntas o inquietudes sobre estos Terminos de servicio, no dudes en contactarnos.',
+      'Si tiene cualquier pregunta o inquietud sobre estos Términos de servicio, no dude en ponerse en contacto con nosotros.',
     cards: [
-      { title: 'Escribenos', value: COMPANY.legalEmail, icon: 'support', href: `mailto:${COMPANY.legalEmail}` },
-      { title: 'Llamanos', value: '+971 (4) 501-7308', icon: 'support', href: 'tel:+97145017308' },
-      { title: 'Visitanos', value: companyAddressLines, icon: 'multiLocation' },
+      { title: 'Escríbanos', value: COMPANY.legalEmail, icon: 'support', href: `mailto:${COMPANY.legalEmail}` },
+      { title: 'Llámenos', value: '+971 (4) 501-7308', icon: 'support', href: 'tel:+97145017308' },
+      { title: 'Visítenos', value: companyAddressLines, icon: 'multiLocation' },
     ],
     buttons: {
-      secondary: 'Politica de privacidad',
-      primary: 'Contactar al equipo legal',
+      secondary: 'Política de privacidad',
+      primary: 'Contactar con el equipo legal',
     },
   },
 };
