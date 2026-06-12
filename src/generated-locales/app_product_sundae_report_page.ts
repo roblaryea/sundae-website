@@ -295,7 +295,7 @@ export const generatedLocalCopy = {
         {
           "name": "Métricas operativas",
           "metrics": [
-            "Tiempo de turno de mesa",
+            "Tiempo de rotación de mesa",
             "Precisión del pedido",
             "Satisfacción del cliente",
             "Velocidad de servicio"
@@ -372,7 +372,7 @@ export const generatedLocalCopy = {
       "whatWeFoundLabel": "Ce que nous avons trouvé :",
       "recommendationLabel": "Recommandation :",
       "potentialImpactLabel": "Impact potentiel :",
-      "whyTitle": "Pourquoi Gratuit ?",
+      "whyTitle": "Pourquoi gratuit ?",
       "whyDescription": "Nous pensons que chaque restaurant doit comprendre ses performances. Notre rapport gratuit vous donne un avant-goût de l’intelligence décisionnelle qui alimente Sundae Core.",
       "ctaTitle": "Prêt à voir vos références ?",
       "ctaDescription": "Rejoignez des milliers de restaurateurs qui utilisent Sundae Report pour comprendre leurs performances. Aucune carte de crédit requise, aucune obligation - juste des informations.",
@@ -413,7 +413,7 @@ export const generatedLocalCopy = {
         {
           "name": "Mesures opérationnelles",
           "metrics": [
-            "Temps de retournement de table",
+            "Temps de rotation des tables",
             "Précision des commandes",
             "Satisfaction client",
             "Rapidité du service"
@@ -425,7 +425,7 @@ export const generatedLocalCopy = {
       "howItWorks": [
         {
           "title": "Téléchargez vos données",
-          "description": "Securely connect your POS system or upload sales, labor, and cost data."
+          "description": "Connectez votre système POS en toute sécurité ou importez vos données de ventes, de main-d'œuvre et de coûts."
         },
         {
           "title": "Analyse instantanée",
@@ -543,7 +543,7 @@ export const generatedLocalCopy = {
       "howItWorks": [
         {
           "title": "Laden Sie Ihre Daten hoch",
-          "description": "Securely connect your POS system or upload sales, labor, and cost data."
+          "description": "Verbinden Sie Ihr POS-System sicher oder laden Sie Umsatz-, Personal- und Kostendaten hoch."
         },
         {
           "title": "Sofortige Analyse",
@@ -661,7 +661,7 @@ export const generatedLocalCopy = {
       "howItWorks": [
         {
           "title": "Upload uw gegevens",
-          "description": "Securely connect your POS system or upload sales, labor, and cost data."
+          "description": "Verbind veilig uw POS-systeem of upload verkoop-, arbeids- en kostengegevens."
         },
         {
           "title": "Onmiddellijke analyse",
@@ -735,7 +735,7 @@ export const generatedLocalCopy = {
           "name": "سیلز کی کارکردگی",
           "metrics": [
             "Revenue per Square Foot",
-            "اوسط چیک سائز",
+            "اوسط بل کی رقم",
             "روزانہ لین دین کی گنتی",
             "چوٹی کے اوقات کا تجزیہ"
           ],
@@ -813,7 +813,7 @@ export const generatedLocalCopy = {
       "whyCards": [
         {
           "title": "مواقع کی شناخت کریں۔",
-          "desc": "جگہ جگہ جہاں آپ فوری طور پر بہتر کر سکتے ہیں",
+          "desc": "ان شعبوں کی نشاندہی کریں جہاں آپ فوری طور پر بہتری لا سکتے ہیں",
           "icon": "marketing"
         },
         {
@@ -876,7 +876,7 @@ export const generatedLocalCopy = {
           "metrics": [
             "Costo del cibo%",
             "Percentuale di rifiuti",
-            "Fatturato delle scorte",
+            "Rotazione delle scorte",
             "Analisi COGS"
           ],
           "icon": "decrease",
@@ -971,7 +971,7 @@ export const generatedLocalCopy = {
           "name": "Satış Performansı",
           "metrics": [
             "Revenue per Square Foot",
-            "Ortalama Çek Boyutu",
+            "Ortalama Adisyon Tutarı",
             "Günlük İşlem Sayısı",
             "Yoğun Saat Analizi"
           ],
@@ -1089,7 +1089,7 @@ export const generatedLocalCopy = {
           "name": "बिक्री प्रदर्शन",
           "metrics": [
             "Revenue per Square Foot",
-            "औसत चेक आकार",
+            "औसत बिल राशि",
             "दैनिक लेनदेन गणना",
             "पीक ऑवर विश्लेषण"
           ],
@@ -1188,7 +1188,7 @@ export const generatedLocalCopy = {
       "description": "获取免费的基准测试报告，将您餐厅的绩效与行业标准进行比较。准确了解您的立场以及需要改进的地方。",
       "primary": "生成免费报告",
       "secondary": "了解 Sundae Core",
-      "compareTitle": "看看你如何比较",
+      "compareTitle": "看看您的表现如何",
       "compareDescription": "根据类似企业的关键绩效类别对您的餐厅进行基准测试",
       "howTitle": "它是如何运作的",
       "howDescription": "只需几分钟（而不是几天）即可获得免费的基准测试报告",
@@ -1239,7 +1239,7 @@ export const generatedLocalCopy = {
         {
           "name": "运营指标",
           "metrics": [
-            "工作台周转时间",
+            "餐桌周转时间",
             "订单准确性",
             "客户满意度",
             "服务速度"
@@ -1325,7 +1325,7 @@ export const generatedLocalCopy = {
           "name": "Wyniki sprzedaży",
           "metrics": [
             "Revenue per Square Foot",
-            "Średni rozmiar czeku",
+            "Średnia wartość rachunku",
             "Dzienna liczba transakcji",
             "Analiza godzin szczytu"
           ],
@@ -1424,7 +1424,7 @@ export const generatedLocalCopy = {
       "description": "レストランのパフォーマンスを業界標準と比較するベンチマーク レポートを無料で入手できます。自分の現状と改善すべき点を正確に確認します。",
       "primary": "無料レポートを生成",
       "secondary": "Sundae Core について詳しく見る",
-      "compareTitle": "比較方法を確認してください",
+      "compareTitle": "あなたの実績を比較してみましょう",
       "compareDescription": "主要な業績カテゴリ全体でレストランを類似のビジネスと比較してベンチマークします。",
       "howTitle": "仕組み",
       "howDescription": "無料のベンチマーク レポートを数日ではなく数分で入手できます",
@@ -1542,7 +1542,7 @@ export const generatedLocalCopy = {
       "description": "레스토랑의 성과를 업계 표준과 비교하는 무료 벤치마킹 보고서를 받아보세요. 현재 위치와 개선할 점을 정확히 확인하세요.",
       "primary": "무료 보고서 생성",
       "secondary": "Sundae Core 자세히 알아보기",
-      "compareTitle": "비교 방법 확인",
+      "compareTitle": "내 실적 비교해보기",
       "compareDescription": "유사한 비즈니스와 비교하여 주요 성과 카테고리에 걸쳐 레스토랑을 벤치마킹하세요.",
       "howTitle": "작동 방식",
       "howDescription": "며칠이 아닌 몇 분 만에 무료 벤치마킹 보고서를 받아보세요.",
@@ -1631,8 +1631,8 @@ export const generatedLocalCopy = {
         },
         {
           "category": "식품 비용 차이",
-          "insight": "음식물 쓰레기 기준치보다 3.2% 높아",
-          "recommendation": "부분 조절 훈련을 실시합니다.",
+          "insight": "음식물 쓰레기가 기준치보다 3.2% 높습니다.",
+          "recommendation": "분량 조절 교육을 실시하세요.",
           "impact": "잠재적 절감액: $950/월"
         }
       ],
@@ -1644,7 +1644,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "벤치마크 성능",
-          "desc": "비슷한 레스토랑과 비교하여 비교해보세요.",
+          "desc": "비슷한 레스토랑과 비교하여 어떤지 확인해보세요.",
           "icon": "benchmarking"
         },
         {
@@ -1679,7 +1679,7 @@ export const generatedLocalCopy = {
           "name": "Kinerja Penjualan",
           "metrics": [
             "Revenue per Square Foot",
-            "Ukuran Cek Rata-rata",
+            "Nilai Bon Rata-rata",
             "Jumlah Transaksi Harian",
             "Analisis Jam Puncak"
           ],
@@ -1711,7 +1711,7 @@ export const generatedLocalCopy = {
         {
           "name": "Metrik Operasional",
           "metrics": [
-            "Waktu Pergantian Tabel",
+            "Waktu Perputaran Meja",
             "Akurasi Pesanan",
             "Kepuasan Pelanggan",
             "Kecepatan Pelayanan"
@@ -1829,7 +1829,7 @@ export const generatedLocalCopy = {
         {
           "name": "Số liệu hoạt động",
           "metrics": [
-            "Thời gian xoay bàn",
+            "Thời gian quay vòng bàn",
             "Độ chính xác của đơn hàng",
             "Sự hài lòng của khách hàng",
             "Tốc độ dịch vụ"
@@ -1907,7 +1907,7 @@ export const generatedLocalCopy = {
       "recommendationLabel": "Recomandare:",
       "potentialImpactLabel": "Impact potențial:",
       "whyTitle": "De ce gratuit?",
-      "whyDescription": "Credem că fiecare restaurant ar trebui să înțeleagă cum se comportă. Raportul nostru gratuit vă oferă o gustare a inteligenței decizionale care alimentează Sundae Core.",
+      "whyDescription": "Credem că fiecare restaurant ar trebui să înțeleagă cum performează. Raportul nostru gratuit vă oferă o mostră a inteligenței decizionale care alimentează Sundae Core.",
       "ctaTitle": "Sunteți gata să vă vedeți benchmark-urile?",
       "ctaDescription": "Alăturați-vă miilor de operatori de restaurante care folosesc Sundae Report pentru a le înțelege performanța. Nu este nevoie de card de credit, fără obligații - doar informații.",
       "benchmarkCategories": [
@@ -1915,7 +1915,7 @@ export const generatedLocalCopy = {
           "name": "Performanța vânzărilor",
           "metrics": [
             "Revenue per Square Foot",
-            "Dimensiunea medie a cecului",
+            "Valoarea medie a notei",
             "Numărul zilnic de tranzacții",
             "Analiza orelor de vârf"
           ],
@@ -1938,7 +1938,7 @@ export const generatedLocalCopy = {
           "metrics": [
             "% costul alimentelor",
             "Procentul de deșeuri",
-            "Cifra de afaceri a stocurilor",
+            "Rotația stocurilor",
             "Analiza COGS"
           ],
           "icon": "decrease",
@@ -1947,7 +1947,7 @@ export const generatedLocalCopy = {
         {
           "name": "Metrici operaționale",
           "metrics": [
-            "Timp de întoarcere la masă",
+            "Timp de rotație a meselor",
             "Precizia comenzii",
             "Satisfacția clientului",
             "Viteza serviciului"
@@ -2033,7 +2033,7 @@ export const generatedLocalCopy = {
           "name": "বিক্রয় কর্মক্ষমতা",
           "metrics": [
             "Revenue per Square Foot",
-            "গড় চেক আকার",
+            "গড় বিলের পরিমাণ",
             "দৈনিক লেনদেনের সংখ্যা",
             "পিক আওয়ার বিশ্লেষণ"
           ],
@@ -2111,16 +2111,16 @@ export const generatedLocalCopy = {
       "whyCards": [
         {
           "title": "সুযোগ চিহ্নিত করুন",
-          "desc": "স্পট এলাকা যেখানে আপনি অবিলম্বে উন্নতি করতে পারেন",
+          "desc": "এমন ক্ষেত্রগুলি চিহ্নিত করুন যেখানে আপনি অবিলম্বে উন্নতি করতে পারেন",
           "icon": "marketing"
         },
         {
           "title": "বেঞ্চমার্ক পারফরম্যান্স",
-          "desc": "দেখুন কিভাবে আপনি অনুরূপ রেস্তোরাঁর বিরুদ্ধে স্ট্যাক আপ করেন",
+          "desc": "দেখুন আপনি অনুরূপ রেস্তোরাঁর তুলনায় কেমন অবস্থানে আছেন",
           "icon": "benchmarking"
         },
         {
-          "title": "অ্যাকশনেবল ইনসাইট পান",
+          "title": "কার্যকর অন্তর্দৃষ্টি পান",
           "desc": "উন্নত করার জন্য নির্দিষ্ট সুপারিশ পান",
           "icon": "intelligence"
         }
@@ -2269,7 +2269,7 @@ export const generatedLocalCopy = {
           "name": "ประสิทธิภาพการขาย",
           "metrics": [
             "Revenue per Square Foot",
-            "ขนาดเช็คเฉลี่ย",
+            "ยอดบิลเฉลี่ย",
             "จำนวนธุรกรรมรายวัน",
             "การวิเคราะห์ชั่วโมงเร่งด่วน"
           ],
@@ -2301,7 +2301,7 @@ export const generatedLocalCopy = {
         {
           "name": "ตัวชี้วัดการดำเนินงาน",
           "metrics": [
-            "เวลาหมุนโต๊ะ",
+            "เวลาหมุนเวียนโต๊ะ",
             "ความแม่นยำในการสั่งซื้อ",
             "ความพึงพอใจของลูกค้า",
             "ความเร็วของการบริการ"
@@ -2340,7 +2340,7 @@ export const generatedLocalCopy = {
         {
           "category": "ความแปรปรวนของต้นทุนอาหาร",
           "insight": "ขยะอาหารสูงกว่าเกณฑ์มาตรฐาน 3.2%",
-          "recommendation": "ดำเนินการฝึกอบรมการควบคุมส่วน",
+          "recommendation": "จัดฝึกอบรมการควบคุมปริมาณอาหาร",
           "impact": "ประหยัดได้: $950/เดือน"
         }
       ],
@@ -2387,7 +2387,7 @@ export const generatedLocalCopy = {
           "name": "Prestasi Jualan",
           "metrics": [
             "Revenue per Square Foot",
-            "Saiz Cek Purata",
+            "Nilai Bil Purata",
             "Kiraan Transaksi Harian",
             "Analisis Waktu Puncak"
           ],
@@ -2419,7 +2419,7 @@ export const generatedLocalCopy = {
         {
           "name": "Metrik Operasi",
           "metrics": [
-            "Masa Giliran Jadual",
+            "Masa Pusing Ganti Meja",
             "Ketepatan Pesanan",
             "Kepuasan Pelanggan",
             "Kepantasan Perkhidmatan"

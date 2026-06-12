@@ -5,7 +5,7 @@ export const generatedLocalCopy = {
     "ar": {
       "heroBadge": "Watchtower - محرك الاستخبارات الخارجية",
       "heroDescription": "يتم تتبع تغييرات أسعار المنافسين يوميًا. حفل موسيقي في نهاية هذا الأسبوع. ويبدأ شهر رمضان الأسبوع المقبل. يقوم Watchtower بتجميع الإشارات الخارجية مع بياناتك الداخلية في ملخص استخباراتي يومي - ما يحدث، وسبب أهميته، وما يجب فعله حيال ذلك. تتدفق الإشارات تلقائيًا إلى افتراضات Foresight.",
-      "heroNote": "متوفر على المستويات الأساسية. اختر أنواع الذكاء الفردية أو حزمة Watchtower الكاملة.",
+      "heroNote": "متوفر على مستويات Core. اختر أنواع الذكاء الفردية أو حزمة Watchtower الكاملة.",
       "heroPrimary": "أضف Watchtower",
       "heroSecondary": "احجز عرضًا توضيحيًا",
       "introHeading": "ما هو Watchtower؟",
@@ -96,7 +96,7 @@ export const generatedLocalCopy = {
         }
       ],
       "pricingHeading": "تسعير Watchtower",
-      "pricingDescription": "متوفر على المستويات الأساسية. اختر مكونات فردية أو وفر ما يقرب من 18% مع الحزمة الكاملة.",
+      "pricingDescription": "متوفر على مستويات Core. اختر مكونات فردية أو وفر ما يقرب من 18% مع الحزمة الكاملة.",
       "pricingCards": [
         {
           "name": "الذكاء التنافسي",
@@ -134,7 +134,7 @@ export const generatedLocalCopy = {
           "a": "المراقبة الآلية اليومية مع اكتشاف التغيير. تؤدي التغييرات الحاسمة (مثل التحولات الرئيسية في التصنيف أو المنافسين الجدد) إلى إطلاق تنبيهات فورية."
         },
         {
-          "q": "هل يتطلب Watchtower المستوى الأساسي؟",
+          "q": "هل يتطلب Watchtower مستوى Core؟",
           "a": "نعم. Watchtower متاح على مستويات Core Lite وCore Pro وEnterprise. فهو يتطلب البنية التحتية للبيانات في الوقت الفعلي التي توفرها Core لتجميع الأداء الداخلي مع الإشارات الخارجية."
         },
         {
@@ -169,7 +169,7 @@ export const generatedLocalCopy = {
         {
           "icon": "speed",
           "title": "Proactif, pas réactif",
-          "text": "Recevez des alertes lorsque les concurrents bougent. Predict demand shifts. Découvrez les tendances avant qu'elles ne surviennent."
+          "text": "Recevez des alertes lorsque les concurrents bougent. Anticipez les variations de la demande. Découvrez les tendances avant qu'elles ne surviennent."
         },
         {
           "icon": "intelligence",
@@ -180,7 +180,7 @@ export const generatedLocalCopy = {
       "internalEyebrow": "INTERNE + EXTERNE",
       "internalHeading": "La seule plateforme qui voit les deux côtés",
       "internalDescription": "Les plateformes internes vous montrent ce qui s'est passé. Les outils du marché vous montrent ce qui existe. Sundae est la seule plateforme d'intelligence décisionnelle qui synthétise les deux - en combinant vos données de POS, de main-d'œuvre et d'exploitation avec le suivi en direct des concurrents, les informations sur les événements locaux, les prévisions météorologiques et les données sur les tendances du marché - en un seul briefing qui vous explique ce que tout cela signifie pour le changement d'aujourd'hui.",
-      "featureEyebrow": "FOUR INTELLIGENCE TYPES",
+      "featureEyebrow": "QUATRE TYPES D'INTELLIGENCE",
       "featureHeading": "Intelligence externe, automatisée",
       "featureDescription": "Choisissez un, deux ou les quatre types d'intelligence pour une visibilité externe complète",
       "features": [
@@ -529,8 +529,8 @@ export const generatedLocalCopy = {
           "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
-          "title": "Market & Trends",
-          "headline": "Your Market at a Glance",
+          "title": "Markt & Trends",
+          "headline": "Ihr Markt auf einen Blick",
           "description": "Wie viele Restaurants gibt es im Umkreis von 5 km um Sie? Wie hoch ist die durchschnittliche Bewertung? Wer hat letzten Monat geöffnet, wer hat geschlossen? Watchtower erstellt ein lebendiges Bild Ihrer lokalen Restaurantlandschaft und zeigt Signale an, wenn sich etwas Wesentliches ändert.",
           "capabilities": [
             "Kartierung der Restaurantlandschaft auf Bezirksebene",
@@ -554,7 +554,7 @@ export const generatedLocalCopy = {
           "perLoc": "+$69/loc"
         },
         {
-          "name": "Events & Calendar",
+          "name": "Events & Kalender",
           "price": "$249",
           "perLoc": "+$39/loc"
         },
@@ -603,7 +603,7 @@ export const generatedLocalCopy = {
       "ctaSales": "Sprechen Sie mit dem Vertrieb"
     },
     "nl": {
-      "heroBadge": "Watchtower - External Intelligence Engine",
+      "heroBadge": "Watchtower - Externe-intelligentie-engine",
       "heroDescription": "Prijswijzigingen van concurrenten worden dagelijks bijgehouden. Dit weekend een concert. Volgende week begint de Ramadan. Watchtower synthetiseert externe signalen met uw interne gegevens tot een dagelijkse inlichtingenbriefing: wat er gebeurt, waarom het ertoe doet en wat u eraan kunt doen. Signalen worden automatisch omgezet in Foresight-aannames.",
       "heroNote": "Beschikbaar op Core-lagen. Kies individuele intelligentietypes of de volledige Watchtower-bundel.",
       "heroPrimary": "Watchtower toevoegen",
@@ -656,7 +656,7 @@ export const generatedLocalCopy = {
             "Volg maximaal 10+ genoemde concurrenten per verkooppunt",
             "Ontdek concurrenten automatisch op locatie, keuken en prijsklasse",
             "Prijstracking van menu's van concurrenten - continue monitoring van prijswijzigingen met omvang en timing",
-            "Dagelijkse beoordeling en beoordelingsmonitoring",
+            "Dagelijkse monitoring van beoordelingen en recensies",
             "Bekijk de sentimentanalyse per thema",
             "Waarschuwingen over activiteit van concurrenten (beoordelingswijzigingen, sluitingen, recensiepieken, prijswijzigingen)",
             "12 weken durende competitieve trendtracking"
@@ -688,7 +688,7 @@ export const generatedLocalCopy = {
             "Gemiddelde beoordeling en prijstrends per keukensegment",
             "Macro-economische signalen (inflatie, consumentenvertrouwen)",
             "Marktinformatiesignalen kwamen proactief naar boven",
-            "Cross-intelligence cascade - Watchtower-signalen worden meegenomen in de aannames van Foresight met vertrouwensscores",
+            "Cross-intelligence-cascade - Watchtower-signalen worden meegenomen in de aannames van Foresight met vertrouwensscores",
             "BTW-, hotel- en franchisespecifieke financiële visuals"
           ],
           "icon": "multiLocation",
@@ -723,11 +723,11 @@ export const generatedLocalCopy = {
       "faqs": [
         {
           "q": "Hoeveel concurrenten kan ik volgen?",
-          "a": "Maximaal 10+ deelnemers per locatie. Kies de concurrenten die er het meest toe doen. Elke locatie kan een eigen concurrentenset hebben."
+          "a": "Maximaal 10+ concurrenten per locatie. Kies de concurrenten die er het meest toe doen. Elke locatie kan een eigen concurrentenset hebben."
         },
         {
           "q": "Kan ik verschillende concurrenten op verschillende locaties volgen?",
-          "a": "Ja. Elke locatie heeft zijn eigen deelnemersset. Locatie A kan andere restaurants volgen dan Locatie B op basis van lokale concurrentie."
+          "a": "Ja. Elke locatie heeft zijn eigen concurrentenset. Locatie A kan andere restaurants volgen dan Locatie B op basis van lokale concurrentie."
         },
         {
           "q": "Hoe vaak worden de gegevens van concurrenten bijgewerkt?",
@@ -739,7 +739,7 @@ export const generatedLocalCopy = {
         },
         {
           "q": "Kan ik slechts één intelligentietype gebruiken?",
-          "a": "Ja. Kies afzonderlijk Competitive Intelligence, Events & Calendar Signals of Market Trends - of ontvang de volledige Watchtower-bundel voor een besparing van ~18%."
+          "a": "Ja. Kies afzonderlijk Competitieve intelligentie, Evenementen- en agendasignalen of Markttrends - of ontvang de volledige Watchtower-bundel voor een besparing van ~18%."
         },
         {
           "q": "Hoe werkt de dagelijkse briefing?",
@@ -1053,9 +1053,9 @@ export const generatedLocalCopy = {
       "ctaSales": "سیلز سے بات کریں۔"
     },
     "hi": {
-      "heroBadge": "Watchtower - External Intelligence Engine",
+      "heroBadge": "Watchtower - बाहरी खुफिया इंजन",
       "heroDescription": "प्रतिस्पर्धियों के मूल्य निर्धारण परिवर्तन को प्रतिदिन ट्रैक किया जाता है। इस सप्ताह के अंत में एक संगीत कार्यक्रम। अगले सप्ताह से रमज़ान शुरू हो रहा है. Watchtower आपके आंतरिक डेटा के साथ बाहरी संकेतों को दैनिक खुफिया ब्रीफिंग में संश्लेषित करता है - क्या हो रहा है, यह क्यों मायने रखता है, और इसके बारे में क्या करना है। सिग्नल स्वचालित रूप से Foresight धारणाओं में प्रवाहित होते हैं।",
-      "heroNote": "Available on Core tiers. Choose individual intelligence types or the full Watchtower bundle.",
+      "heroNote": "Core टियर पर उपलब्ध है। अलग-अलग खुफिया प्रकार या पूरा Watchtower बंडल चुनें।",
       "heroPrimary": "Watchtower जोड़ें",
       "heroSecondary": "एक डेमो बुक करें",
       "introHeading": "Watchtower क्या है?",
@@ -1203,9 +1203,9 @@ export const generatedLocalCopy = {
       "ctaSales": "सेल्स से बात करें"
     },
     "tr": {
-      "heroBadge": "Watchtower - External Intelligence Engine",
-      "heroDescription": "Rakip fiyat değişiklikleri günlük olarak takip edilir. Bu hafta sonu konser var. Önümüzdeki hafta Ramazan başlıyor. Watchtower, harici sinyalleri dahili verilerinizle sentezleyerek günlük bir istihbarat brifingine dönüştürür: neler oluyor, neden önemli ve bu konuda ne yapılması gerekiyor. Sinyaller otomatik olarak Foresight aktarılır.",
-      "heroNote": "Çekirdek katmanlarında mevcuttur. Bireysel zeka türlerini veya Watchtower paketinin tamamını seçin.",
+      "heroBadge": "Watchtower - Dış İstihbarat Motoru",
+      "heroDescription": "Rakip fiyat değişiklikleri günlük olarak takip edilir. Bu hafta sonu konser var. Önümüzdeki hafta Ramazan başlıyor. Watchtower, harici sinyalleri dahili verilerinizle sentezleyerek günlük bir istihbarat brifingine dönüştürür: neler oluyor, neden önemli ve bu konuda ne yapılması gerekiyor. Sinyaller otomatik olarak Foresight varsayımlarına aktarılır.",
+      "heroNote": "Core katmanlarında mevcuttur. Bireysel zeka türlerini veya Watchtower paketinin tamamını seçin.",
       "heroPrimary": "Watchtower Ekle",
       "heroSecondary": "Demo Rezervasyonu Yapın",
       "introHeading": "Watchtower nedir?",
@@ -1296,7 +1296,7 @@ export const generatedLocalCopy = {
         }
       ],
       "pricingHeading": "Watchtower Fiyatlandırması",
-      "pricingDescription": "Çekirdek katmanlarında mevcuttur. Bileşenleri tek tek seçin veya tam paketle ~%18 tasarruf edin.",
+      "pricingDescription": "Core katmanlarında mevcuttur. Bileşenleri tek tek seçin veya tam paketle ~%18 tasarruf edin.",
       "pricingCards": [
         {
           "name": "Rekabetçi İstihbarat",
@@ -1334,7 +1334,7 @@ export const generatedLocalCopy = {
           "a": "Değişiklik tespiti ile günlük otomatik izleme. Kritik değişiklikler (büyük derecelendirme değişiklikleri veya yeni rakipler gibi) anında uyarıları tetikler."
         },
         {
-          "q": "Watchtower Çekirdek katmanı gerektiriyor mu?",
+          "q": "Watchtower, Core katmanı gerektiriyor mu?",
           "a": "Evet. Watchtower, Core Lite, Core Pro ve Enterprise katmanlarında mevcuttur. İç performansı dış sinyallerle sentezlemek için Core'un sağladığı gerçek zamanlı veri altyapısını gerektirir."
         },
         {
@@ -1401,7 +1401,7 @@ export const generatedLocalCopy = {
         {
           "title": "Intelligenza competitiva",
           "headline": "Scopri cosa stanno facendo i tuoi concorrenti",
-          "description": "Tieni traccia dei concorrenti nominati, non delle medie anonime. Watchtower monitora quotidianamente le valutazioni, le recensioni, gli orari di apertura e la presenza pubblica su Google. Sentiment analysis extracts what customers love and hate about each competitor. Ricevi un avviso quando la valutazione di un concorrente diminuisce o quando apre un nuovo ristorante nelle vicinanze.",
+          "description": "Tieni traccia dei concorrenti nominati, non delle medie anonime. Watchtower monitora quotidianamente le valutazioni, le recensioni, gli orari di apertura e la presenza pubblica su Google. L'analisi del sentiment evidenzia cosa i clienti amano e odiano di ogni concorrente. Ricevi un avviso quando la valutazione di un concorrente diminuisce o quando apre un nuovo ristorante nelle vicinanze.",
           "capabilities": [
             "Tieni traccia di fino a 10+ concorrenti nominati per punto vendita",
             "Individua automaticamente i concorrenti in base alla posizione, alla cucina e alla fascia di prezzo",
@@ -1503,9 +1503,9 @@ export const generatedLocalCopy = {
       "ctaSales": "Parla con le vendite"
     },
     "pl": {
-      "heroBadge": "Watchtower - External Intelligence Engine",
+      "heroBadge": "Watchtower - Silnik analizy zewnętrznej",
       "heroDescription": "Zmiany cen konkurencji śledzone codziennie. Koncert już w ten weekend. Ramadan zaczyna się w przyszłym tygodniu. Watchtower łączy sygnały zewnętrzne z Twoimi danymi wewnętrznymi w codzienną odprawę wywiadowczą - co się dzieje, dlaczego jest to ważne i co z tym zrobić. Sygnały automatycznie kaskadują się do założeń Foresight.",
-      "heroNote": "Dostępne na poziomach podstawowych. Wybierz indywidualne typy inteligencji lub pełny pakiet Watchtower.",
+      "heroNote": "Dostępne na poziomach Core. Wybierz indywidualne typy inteligencji lub pełny pakiet Watchtower.",
       "heroPrimary": "Dodaj Watchtower",
       "heroSecondary": "Zarezerwuj wersję demonstracyjną",
       "introHeading": "Czym jest Watchtower?",
@@ -1529,7 +1529,7 @@ export const generatedLocalCopy = {
       ],
       "internalEyebrow": "WEWNĘTRZNE + ZEWNĘTRZNE",
       "internalHeading": "Jedyna platforma, która widzi obie strony",
-      "internalDescription": "Platformy wewnętrzne pokazują, co się stało. Narzędzia rynkowe pokazują, co jest na rynku. Sundae to jedyna platforma analizy decyzji, która syntetyzuje oba elementy - łącząc dane z punktów sprzedaży, pracy i operacji ze śledzeniem konkurencji na żywo, analizą wydarzeń lokalnych, prognozami pogody i danymi o trendach rynkowych - w jedną odprawę, która informuje, co to wszystko oznacza dla dzisiejszej zmiany. (POS)",
+      "internalDescription": "Platformy wewnętrzne pokazują, co się stało. Narzędzia rynkowe pokazują, co jest na rynku. Sundae to jedyna platforma analizy decyzji, która syntetyzuje oba elementy - łącząc dane POS, pracy i operacji ze śledzeniem konkurencji na żywo, analizą wydarzeń lokalnych, prognozami pogody i danymi o trendach rynkowych - w jedną odprawę, która informuje, co to wszystko oznacza dla dzisiejszej zmiany roboczej.",
       "featureEyebrow": "CZTERY TYPY INTELIGENCJI",
       "featureHeading": "Inteligencja zewnętrzna, zautomatyzowana",
       "featureDescription": "Wybierz jeden, dwa lub wszystkie cztery typy inteligencji, aby uzyskać pełną widoczność na zewnątrz",
@@ -1570,7 +1570,7 @@ export const generatedLocalCopy = {
           "description": "Koncert w ten weekend oznacza o 40% większy ruch pieszych podczas kolacji. Ramadan oznacza zasadniczą zmianę w planie pór dnia na 30 dni. Watchtower odkrywa wydarzenia w pobliżu Twojej restauracji i generuje oceny wpływu: oczekiwaną zmianę popytu, rekomendacje dotyczące personelu i wskazówki dotyczące przygotowań dostosowane do Twojej placówki.",
           "capabilities": [
             "Lokalne wykrywanie zdarzeń w konfigurowalnym promieniu",
-            "Public holidays and religious observance calendar",
+            "Kalendarz świąt państwowych i obrzędów religijnych",
             "Inteligencja specyficzna dla Ramadanu (pośpiech Iftar, nabożeństwo Suhur, dostosowanie pory dnia)",
             "Oceny skutków wraz z zaleceniami dotyczącymi personelu i przygotowań",
             "Integracja z celami Pulse dla tempa uwzględniającego wydarzenia"
@@ -1596,7 +1596,7 @@ export const generatedLocalCopy = {
         }
       ],
       "pricingHeading": "Cennik Watchtower",
-      "pricingDescription": "Dostępne na poziomach podstawowych. Wybierz poszczególne komponenty lub zaoszczędź ~18% przy pełnym pakiecie.",
+      "pricingDescription": "Dostępne na poziomach Core. Wybierz poszczególne komponenty lub zaoszczędź ~18% przy pełnym pakiecie.",
       "pricingCards": [
         {
           "name": "Inteligencja konkurencyjna",
@@ -1655,11 +1655,11 @@ export const generatedLocalCopy = {
     "zh-Hans": {
       "heroBadge": "Watchtower--外部情报引擎",
       "heroDescription": "每天跟踪竞争对手的定价变化。这个周末有一场音乐会。斋月下周开始。 Watchtower 将外部信号与您的内部数据合成为每日情报简报 - 正在发生什么、为什么重要以及如何应对。信号自动级联成 Foresight 假设。",
-      "heroNote": "在核心层可用。 Choose individual intelligence types or the full Watchtower bundle.",
+      "heroNote": "在 Core 层级可用。选择单个情报类型或完整的 Watchtower 套餐。",
       "heroPrimary": "添加 Watchtower",
       "heroSecondary": "预订演示",
       "introHeading": "Watchtower 是什么？",
-      "introDescription": "Your external intelligence layer - visibility into everything outside your four walls that impacts your business. Pulse 告诉您运营内部发生的情况，而 Watchtower 则涵盖竞争格局、当地环境和更广阔的市场。",
+      "introDescription": "您的外部情报层 - 让您洞察四面墙之外影响业务的一切。Pulse 告诉您运营内部发生的情况，而 Watchtower 则涵盖竞争格局、当地环境和更广阔的市场。",
       "introCards": [
         {
           "icon": "visibility",
@@ -1680,9 +1680,9 @@ export const generatedLocalCopy = {
       "internalEyebrow": "内部+外部",
       "internalHeading": "唯一能够看到双方的平台",
       "internalDescription": "内部平台向您展示发生了什么。市场工具向您展示市场上的情况。 Sundae 是唯一将两者综合在一起的决策智能平台 - 将您的 POS、劳动力和运营数据与实时竞争对手跟踪、本地事件情报、天气预报和市场趋势数据相结合 - 形成一个简报，告诉您这一切对今天的转变意味着什么。",
-      "featureEyebrow": "四种智力类型",
-      "featureHeading": "外部智能，自动化",
-      "featureDescription": "Choose one, two, or all four intelligence types for complete external visibility",
+      "featureEyebrow": "四种情报类型",
+      "featureHeading": "外部情报，自动化",
+      "featureDescription": "选择一种、两种或全部四种情报类型，实现完整的外部可见性",
       "features": [
         {
           "title": "指挥中心和每日简报",
@@ -1773,7 +1773,7 @@ export const generatedLocalCopy = {
       "faqs": [
         {
           "q": "我可以追踪多少个竞争对手？",
-          "a": "每个地点最多有 10 名以上的参赛者。选择最重要的竞争对手。每个地点都可以有自己的竞争对手集。"
+          "a": "每个地点最多可跟踪 10 多个竞争对手。选择最重要的竞争对手。每个地点都可以有自己的竞争对手集。"
         },
         {
           "q": "我可以跟踪不同地点的不同竞争对手吗？",
@@ -1788,7 +1788,7 @@ export const generatedLocalCopy = {
           "a": "是的。 Watchtower 适用于 Core Lite、Core Pro 和 Enterprise 级别。它需要 Core 提供的实时数据基础设施来综合内部性能与外部信号。"
         },
         {
-          "q": "我可以只使用一种智力类型吗？",
+          "q": "我可以只使用一种情报类型吗？",
           "a": "是的。单独选择竞争情报、事件和日历信号或市场趋势 - 或获得完整的 Watchtower 捆绑包，节省约 18%。"
         },
         {
@@ -1888,7 +1888,7 @@ export const generatedLocalCopy = {
             "料理分野別の平均評価と価格傾向",
             "マクロ経済シグナル（インフレ、消費者信頼感）",
             "市場インテリジェンスのシグナルが積極的に表面化",
-            "Cross-intelligence cascade - Watchtower signals feed into Foresight assumptions with confidence scoring",
+            "クロスインテリジェンス カスケード - Watchtower のシグナルは信頼度スコアとともに Foresight の仮定に反映されます",
             "VAT、ホテル、フランチャイズ固有の財務ビジュアル"
           ],
           "icon": "multiLocation",
@@ -1953,7 +1953,7 @@ export const generatedLocalCopy = {
       "ctaSales": "営業担当者に相談する"
     },
     "ko": {
-      "heroBadge": "Watchtower - External Intelligence Engine",
+      "heroBadge": "Watchtower - 외부 인텔리전스 엔진",
       "heroDescription": "경쟁사 가격 변동은 매일 추적됩니다. 이번 주말에 콘서트가 있어요. 다음주부터 라마단이 시작됩니다. Watchtower는 외부 신호와 내부 데이터를 종합하여 무슨 일이 일어나고 있는지, 그것이 왜 중요한지, 이에 대해 무엇을 해야 하는지에 대한 일일 정보 브리핑을 제공합니다. 신호는 Foresight 가정에 자동으로 적용됩니다.",
       "heroNote": "코어 계층에서 사용할 수 있습니다. 개별 정보 유형 또는 전체 Watchtower 번들을 선택하십시오.",
       "heroPrimary": "Watchtower 추가",
@@ -2103,9 +2103,9 @@ export const generatedLocalCopy = {
       "ctaSales": "영업팀에 문의하세요"
     },
     "id": {
-      "heroBadge": "Watchtower - External Intelligence Engine",
+      "heroBadge": "Watchtower - Mesin Intelijen Eksternal",
       "heroDescription": "Perubahan harga pesaing dilacak setiap hari. Konser akhir pekan ini. Ramadhan dimulai minggu depan. Watchtower menyatukan sinyal eksternal dengan data internal Anda ke dalam pengarahan intelijen harian - apa yang terjadi, mengapa hal itu penting, dan apa yang harus dilakukan untuk mengatasinya. Sinyal secara otomatis mengalir ke asumsi Foresight.",
-      "heroNote": "Tersedia di tingkat Inti. Pilih jenis kecerdasan individu atau paket lengkap Watchtower.",
+      "heroNote": "Tersedia di tingkat Core. Pilih jenis kecerdasan individual atau paket lengkap Watchtower.",
       "heroPrimary": "Tambahkan Watchtower",
       "heroSecondary": "Pesan Demo",
       "introHeading": "Apa itu Watchtower?",
@@ -2166,7 +2166,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Acara & Kecerdasan Kalender",
-          "headline": "Acara Lokal yang Memindahkan Nomor Anda",
+          "headline": "Acara Lokal yang Menggerakkan Angka Anda",
           "description": "Konser akhir pekan ini berarti 40% lebih banyak lalu lintas pejalan kaki saat makan malam. Ramadhan berarti perubahan mendasar dalam rutinitas harian Anda selama 30 hari. Watchtower menemukan acara di dekat restoran Anda dan menghasilkan penilaian dampak: perkiraan perubahan permintaan, rekomendasi staf, dan panduan persiapan yang disesuaikan dengan outlet Anda.",
           "capabilities": [
             "Penemuan acara lokal dalam radius yang dapat dikonfigurasi",
@@ -2253,9 +2253,9 @@ export const generatedLocalCopy = {
       "ctaSales": "Bicaralah dengan Penjualan"
     },
     "ro": {
-      "heroBadge": "Watchtower - External Intelligence Engine",
+      "heroBadge": "Watchtower - Motor de inteligență externă",
       "heroDescription": "Modificările prețurilor concurenței sunt urmărite zilnic. Un concert în acest weekend. Ramadanul începe săptămâna viitoare. Watchtower sintetizează semnalele externe cu datele tale interne într-un briefing zilnic de informații - ce se întâmplă, de ce contează și ce să faci în acest sens. Semnalele se încadrează automat în ipoteze de Foresight.",
-      "heroNote": "Disponibil pe nivelurile de bază. Alegeți tipuri individuale de informații sau pachetul complet Watchtower.",
+      "heroNote": "Disponibil pe nivelurile Core. Alegeți tipuri individuale de informații sau pachetul complet Watchtower.",
       "heroPrimary": "Adăugați Watchtower",
       "heroSecondary": "Rezervați o demonstrație",
       "introHeading": "Ce este Watchtower?",
@@ -2280,7 +2280,7 @@ export const generatedLocalCopy = {
       "internalEyebrow": "INTERN + EXTERN",
       "internalHeading": "Singura platformă care vede ambele părți",
       "internalDescription": "Platformele interne vă arată ce s-a întâmplat. Instrumentele de piață vă arată ce este acolo. Sundae este singura platformă de informare a deciziilor care le sintetizează pe ambele - combinând datele dvs. POS, forță de muncă și operațiuni cu urmărirea în timp reală a concurenților, informații despre evenimente locale, prognoze meteo și date despre tendințele pieței - într-un singur briefing care vă spune ce înseamnă totul pentru schimbarea de astăzi.",
-      "featureEyebrow": "PATRU TIPURI DE INTELIGENTE",
+      "featureEyebrow": "PATRU TIPURI DE INTELIGENȚĂ",
       "featureHeading": "Inteligență externă, automatizată",
       "featureDescription": "Alegeți unul, două sau toate cele patru tipuri de inteligență pentru o vizibilitate externă completă",
       "features": [
@@ -2315,9 +2315,9 @@ export const generatedLocalCopy = {
           "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
-          "title": "Evenimente și Calendar Intelligence",
-          "headline": "Evenimente locale care vă mișcă numerele",
-          "description": "Un concert în acest weekend înseamnă cu 40% mai mult trafic pietonal în timpul cinei. Ramadanul înseamnă o schimbare fundamentală în amestecul tău de zile timp de 30 de zile. Watchtower descoperă evenimente în apropierea restaurantului dvs. și generează evaluări de impact: schimbarea așteptată a cererii, recomandări privind personalul și îndrumări de pregătire adaptate punctului dvs. de vânzare.",
+          "title": "Inteligență privind evenimentele și calendarul",
+          "headline": "Evenimente locale care vă mișcă cifrele",
+          "description": "Un concert în acest weekend înseamnă cu 40% mai mult trafic pietonal în timpul cinei. Ramadanul înseamnă o schimbare fundamentală în structura ta pe intervale orare timp de 30 de zile. Watchtower descoperă evenimente în apropierea restaurantului dvs. și generează evaluări de impact: schimbarea așteptată a cererii, recomandări privind personalul și îndrumări de pregătire adaptate punctului dvs. de vânzare.",
           "capabilities": [
             "Descoperirea evenimentelor locale pe o rază configurabilă",
             "Sărbătorile legale și calendarul de oficiere religioasă",
@@ -2334,7 +2334,7 @@ export const generatedLocalCopy = {
           "description": "Câte restaurante funcționează la 5 km de tine? Care este nota medie? Cine a deschis luna trecută, cine a închis? Watchtower construiește o imagine vie a peisajului restaurantului local și evidențiază semnale când ceva se schimbă semnificativ.",
           "capabilities": [
             "Harta peisajului restaurantului la nivel de district",
-            "Detectie noua deschidere si inchidere",
+            "Detectarea noilor deschideri și închideri",
             "Evaluarea medie și tendințele prețurilor pe segmentul de bucătărie",
             "Semnale macroeconomice (inflație, încrederea consumatorilor)",
             "Semnalele de informații despre piață au apărut în mod proactiv",
@@ -2346,7 +2346,7 @@ export const generatedLocalCopy = {
         }
       ],
       "pricingHeading": "Prețuri Watchtower",
-      "pricingDescription": "Disponibil pe nivelurile de bază. Alegeți componente individuale sau economisiți ~18% cu pachetul complet.",
+      "pricingDescription": "Disponibil pe nivelurile Core. Alegeți componente individuale sau economisiți ~18% cu pachetul complet.",
       "pricingCards": [
         {
           "name": "Inteligența competitivă",
@@ -2384,7 +2384,7 @@ export const generatedLocalCopy = {
           "a": "Monitorizare automată zilnică cu detectarea schimbărilor. Modificările critice (cum ar fi schimbări majore de rating sau noi concurenți) declanșează alerte imediate."
         },
         {
-          "q": "Watchtower necesită nivelul de bază?",
+          "q": "Watchtower necesită nivelul Core?",
           "a": "Da. Watchtower este disponibil pe nivelurile Core Lite, Core Pro și Enterprise. Este nevoie de infrastructura de date în timp real pe care Core o oferă pentru a sintetiza performanța internă cu semnale externe."
         },
         {
@@ -2397,13 +2397,13 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "Adăugați informații externe pe platforma dvs",
-      "ctaDescription": "Vedeți-vă afacerea în contextul pieței. Să nu mai fii niciodată prins cu nerăbdare.",
+      "ctaDescription": "Vedeți-vă afacerea în contextul complet al pieței. Să nu mai fiți niciodată luat prin surprindere.",
       "ctaAdd": "Adaugă la planul tău",
       "ctaDemo": "Vedeți-l în acțiune",
       "ctaSales": "Vorbește cu vânzări"
     },
     "vi": {
-      "heroBadge": "Watchtower - External Intelligence Engine",
+      "heroBadge": "Watchtower - Công cụ thông tin bên ngoài",
       "heroDescription": "Thay đổi giá của đối thủ cạnh tranh được theo dõi hàng ngày. Một buổi hòa nhạc vào cuối tuần này. Tháng Ramadan bắt đầu vào tuần tới. Watchtower tổng hợp các tín hiệu bên ngoài với dữ liệu nội bộ của bạn thành bản tóm tắt thông tin hàng ngày - điều gì đang xảy ra, tại sao nó quan trọng và phải làm gì với nó. Tín hiệu tự động chuyển thành các giả định Foresight.",
       "heroNote": "Có sẵn trên các tầng Core. Chọn loại trí thông minh riêng lẻ hoặc gói Watchtower đầy đủ.",
       "heroPrimary": "Thêm Watchtower",
@@ -2451,13 +2451,13 @@ export const generatedLocalCopy = {
         {
           "title": "Thông tin cạnh tranh",
           "headline": "Biết đối thủ của bạn đang làm gì",
-          "description": "Theo dõi các đối thủ cạnh tranh có tên - không phải mức trung bình ẩn danh. Watchtower giám sát xếp hạng, bài đánh giá, giờ mở cửa và sự hiện diện công khai trên Google của họ hàng ngày. Phân tích tình cảm rút ra những gì khách hàng yêu thích và ghét về mỗi đối thủ cạnh tranh. Nhận thông báo khi xếp hạng của đối thủ cạnh tranh giảm hoặc có nhà hàng mới mở gần đó.",
+          "description": "Theo dõi các đối thủ cạnh tranh có tên - không phải mức trung bình ẩn danh. Watchtower giám sát xếp hạng, bài đánh giá, giờ mở cửa và sự hiện diện công khai trên Google của họ hàng ngày. Phân tích cảm xúc rút ra những gì khách hàng yêu thích và ghét ở mỗi đối thủ cạnh tranh. Nhận thông báo khi xếp hạng của đối thủ cạnh tranh giảm hoặc có nhà hàng mới mở gần đó.",
           "capabilities": [
             "Theo dõi tới hơn 10 đối thủ cạnh tranh được nêu tên trên mỗi cửa hàng",
             "Tự động khám phá đối thủ cạnh tranh theo vị trí, ẩm thực và phạm vi giá",
             "Theo dõi giá thực đơn của đối thủ cạnh tranh - giám sát liên tục các thay đổi về giá theo mức độ và thời gian",
-            "Giám sát đánh giá và đánh giá hàng ngày",
-            "Xem lại phân tích tình cảm theo chủ đề",
+            "Giám sát xếp hạng và bài đánh giá hàng ngày",
+            "Xem lại phân tích cảm xúc theo chủ đề",
             "Cảnh báo hoạt động của đối thủ cạnh tranh (thay đổi xếp hạng, đóng cửa, đánh giá tăng đột biến, thay đổi giá)",
             "Theo dõi xu hướng cạnh tranh trong 12 tuần"
           ],
@@ -2466,7 +2466,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Thông tin sự kiện & lịch",
-          "headline": "Sự kiện địa phương làm thay đổi số của bạn",
+          "headline": "Sự kiện địa phương làm thay đổi các con số của bạn",
           "description": "Một buổi hòa nhạc vào cuối tuần này đồng nghĩa với việc lượng khách đến xem bữa tối sẽ tăng thêm 40%. Ramadan có nghĩa là một sự thay đổi cơ bản trong kết hợp thời gian trong ngày của bạn trong 30 ngày. Watchtower phát hiện các sự kiện gần nhà hàng của bạn và đưa ra đánh giá tác động: sự thay đổi nhu cầu dự kiến, đề xuất nhân sự và hướng dẫn chuẩn bị phù hợp với cửa hàng của bạn.",
           "capabilities": [
             "Khám phá sự kiện cục bộ trong bán kính có thể định cấu hình",
@@ -2553,8 +2553,8 @@ export const generatedLocalCopy = {
       "ctaSales": "Nói chuyện với bộ phận bán hàng"
     },
     "sv": {
-      "heroBadge": "Watchtower - External Intelligence Engine",
-      "heroDescription": "Konkurrentens prisändringar spåras dagligen. En konsert i helgen. Ramadan börjar nästa vecka. Watchtower syntetiserar externa signaler med dina interna data till en daglig underrättelseinformation - vad som händer, varför det är viktigt och vad du ska göra åt det. Signaler går automatiskt över i Foresight.",
+      "heroBadge": "Watchtower - Motor för extern intelligens",
+      "heroDescription": "Konkurrentens prisändringar spåras dagligen. En konsert i helgen. Ramadan börjar nästa vecka. Watchtower syntetiserar externa signaler med dina interna data till en daglig underrättelseinformation - vad som händer, varför det är viktigt och vad du ska göra åt det. Signaler flödar automatiskt in i Foresight-antaganden.",
       "heroNote": "Tillgänglig på Core-nivåer. Välj individuella intelligenstyper eller hela Watchtower-paketet.",
       "heroPrimary": "Lägg till Watchtower",
       "heroSecondary": "Boka en demo",
@@ -2586,14 +2586,14 @@ export const generatedLocalCopy = {
       "features": [
         {
           "title": "Kommandocentral och daglig information",
-          "headline": "Din Morgon Intelligence Briefing",
+          "headline": "Din morgonbriefing om underrättelser",
           "description": "Varje morgon syntetiserar Watchtower allt - gårdagens intäkter och takt från Pulse, dagens väderprognos, kommande evenemang nära din restaurang, senaste konkurrentaktivitet och marknadssignaler - till en enda, prioriterad genomgång. Inte en instrumentpanel du måste kolla. Intelligens som kommer till dig.",
           "capabilities": [
             "Daglig briefing som kombinerar intern + extern data",
             "Prioriterade rekommendationer rangordnade efter intäktseffekt",
             "Levereras via e-post, Telegram, Slack eller i appen",
             "Signalflöde med avvisande och kvittensåtgärder",
-            "Veckovis tävlingsintelligens sammanfattning"
+            "Veckovis sammanfattning av konkurrentintelligens"
           ],
           "icon": "intelligence",
           "color": "from-red-500 to-red-600"
@@ -2615,8 +2615,8 @@ export const generatedLocalCopy = {
           "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
-          "title": "Events & Calendar Intelligence",
-          "headline": "Lokala evenemang som flyttar dina nummer",
+          "title": "Evenemangs- och kalenderintelligens",
+          "headline": "Lokala evenemang som rör dina siffror",
           "description": "En konsert i helgen innebär 40 % mer gångtrafik under middagen. Ramadan innebär en grundläggande förändring i din dagdelsmix under 30 dagar. Watchtower upptäcker händelser nära din restaurang och genererar konsekvensbedömningar: förväntad efterfrågeförskjutning, personalrekommendationer och förberedande vägledning skräddarsydd för din butik.",
           "capabilities": [
             "Lokal händelseupptäckt inom konfigurerbar radie",
@@ -2673,7 +2673,7 @@ export const generatedLocalCopy = {
       "faqs": [
         {
           "q": "Hur många konkurrenter kan jag spåra?",
-          "a": "Upp till 10+ tävlande per plats. Välj de konkurrenter som betyder mest. Varje plats kan ha sin egen konkurrentuppsättning."
+          "a": "Upp till 10+ konkurrenter per plats. Välj de konkurrenter som betyder mest. Varje plats kan ha sin egen konkurrentuppsättning."
         },
         {
           "q": "Kan jag spåra olika konkurrenter på olika platser?",
@@ -2689,7 +2689,7 @@ export const generatedLocalCopy = {
         },
         {
           "q": "Kan jag använda bara en intelligenstyp?",
-          "a": "Ja. Välj Competitive Intelligence, Events & Calendar Signals, eller Market Trends individuellt - eller få hela Watchtower-paketet för ~18 % besparingar."
+          "a": "Ja. Välj konkurrentintelligens, evenemangs- och kalendersignaler eller marknadstrender individuellt - eller få hela Watchtower-paketet för ~18 % besparingar."
         },
         {
           "q": "Hur fungerar den dagliga briefingen?",
@@ -2703,9 +2703,9 @@ export const generatedLocalCopy = {
       "ctaSales": "Prata med försäljningen"
     },
     "bn": {
-      "heroBadge": "Watchtower - External Intelligence Engine",
-      "heroDescription": "প্রতিযোগী মূল্য পরিবর্তন প্রতিদিন ট্র্যাক করা হয়. এই সপ্তাহান্তে একটি কনসার্ট। আগামী সপ্তাহে শুরু হচ্ছে রমজান মাস। Watchtower আপনার অভ্যন্তরীণ ডেটা সহ বাহ্যিক সংকেতগুলিকে একটি দৈনিক গোয়েন্দা ব্রিফিং-এ সংশ্লেষিত করে - কী ঘটছে, কেন এটি গুরুত্বপূর্ণ এবং এটি সম্পর্কে কী করতে হবে৷ সংকেত স্বয়ংক্রিয়ভাবে Foresight অনুমানের মধ্যে ক্যাসকেড হয়।",
-      "heroNote": "মূল স্তরে উপলব্ধ। পৃথক বুদ্ধিমত্তার ধরন বা সম্পূর্ণ Watchtower বান্ডিল বেছে নিন।",
+      "heroBadge": "Watchtower - বাহ্যিক বুদ্ধিমত্তা ইঞ্জিন",
+      "heroDescription": "প্রতিযোগী মূল্য পরিবর্তন প্রতিদিন ট্র্যাক করা হয়। এই সপ্তাহান্তে একটি কনসার্ট। আগামী সপ্তাহে শুরু হচ্ছে রমজান মাস। Watchtower আপনার অভ্যন্তরীণ ডেটা সহ বাহ্যিক সংকেতগুলিকে একটি দৈনিক গোয়েন্দা ব্রিফিং-এ সংশ্লেষিত করে - কী ঘটছে, কেন এটি গুরুত্বপূর্ণ এবং এটি সম্পর্কে কী করতে হবে৷ সংকেত স্বয়ংক্রিয়ভাবে Foresight অনুমানের মধ্যে ক্যাসকেড হয়।",
+      "heroNote": "Core স্তরে উপলব্ধ। পৃথক বুদ্ধিমত্তার ধরন বা সম্পূর্ণ Watchtower বান্ডিল বেছে নিন।",
       "heroPrimary": "Watchtower যোগ করুন",
       "heroSecondary": "একটি ডেমো বুক করুন",
       "introHeading": "Watchtower কী?",
@@ -2766,7 +2766,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "ইভেন্ট এবং ক্যালেন্ডার বুদ্ধিমত্তা",
-          "headline": "স্থানীয় ইভেন্ট যা আপনার সংখ্যা সরান",
+          "headline": "স্থানীয় ইভেন্ট যা আপনার সংখ্যাকে নাড়িয়ে দেয়",
           "description": "এই সপ্তাহান্তে একটি কনসার্ট মানে ডিনারের সময় 40% বেশি ফুট ট্রাফিক৷ রমজান মানে 30 দিনের জন্য আপনার দিনের অংশের মিশ্রণে একটি মৌলিক পরিবর্তন। Watchtower আপনার রেস্তোরাঁর কাছাকাছি ইভেন্টগুলি আবিষ্কার করে এবং প্রভাব মূল্যায়ন তৈরি করে: প্রত্যাশিত চাহিদা স্থানান্তর, কর্মীদের সুপারিশ এবং আপনার আউটলেটের জন্য প্রস্তুত প্রিপারেশন নির্দেশিকা।",
           "capabilities": [
             "কনফিগারযোগ্য ব্যাসার্ধের মধ্যে স্থানীয় ইভেন্ট আবিষ্কার",
@@ -2788,7 +2788,7 @@ export const generatedLocalCopy = {
             "রন্ধনপ্রণালী বিভাগ দ্বারা গড় রেটিং এবং মূল্যের প্রবণতা",
             "ম্যাক্রো অর্থনৈতিক সংকেত (মুদ্রাস্ফীতি, ভোক্তা আস্থা)",
             "বাজারের বুদ্ধিমত্তার সংকেত সক্রিয়ভাবে প্রকাশিত হয়েছে",
-            "ক্রস-ইন্টেলিজেন্স ক্যাসকেড - Watchtower সিগন্যালগুলি আত্মবিশ্বাসের স্কোরিংয়ের সাথে Foresightর অনুমানগুলিতে ফিড করে",
+            "ক্রস-ইন্টেলিজেন্স ক্যাসকেড - Watchtower সিগন্যালগুলি আত্মবিশ্বাসের স্কোরিংয়ের সাথে Foresight অনুমানগুলিতে ফিড করে",
             "ভ্যাট, হোটেল এবং ফ্র্যাঞ্চাইজি-নির্দিষ্ট আর্থিক ভিজ্যুয়াল"
           ],
           "icon": "multiLocation",
@@ -2796,7 +2796,7 @@ export const generatedLocalCopy = {
         }
       ],
       "pricingHeading": "Watchtower মূল্য নির্ধারণ",
-      "pricingDescription": "মূল স্তরে উপলব্ধ। পৃথক উপাদান চয়ন করুন বা সম্পূর্ণ বান্ডেল সহ ~18% সংরক্ষণ করুন।",
+      "pricingDescription": "Core স্তরে উপলব্ধ। পৃথক উপাদান চয়ন করুন বা সম্পূর্ণ বান্ডেল সহ ~18% সংরক্ষণ করুন।",
       "pricingCards": [
         {
           "name": "প্রতিযোগিতামূলক বুদ্ধিমত্তা",
@@ -2811,7 +2811,7 @@ export const generatedLocalCopy = {
         {
           "name": "বাজারের প্রবণতা",
           "price": "$299",
-          "perLoc": "+$২৯/লোক"
+          "perLoc": "+$29/লোক"
         },
         {
           "name": "সম্পূর্ণ বান্ডিল",
@@ -2835,7 +2835,7 @@ export const generatedLocalCopy = {
         },
         {
           "q": "Watchtower-এর জন্য কি Core টিয়ার প্রয়োজন?",
-          "a": "হ্যাঁ। Watchtower Core Lite, Core Pro এবং এন্টারপ্রাইজ স্তরগুলিতে উপলব্ধ। বাহ্যিক সংকেতগুলির সাথে অভ্যন্তরীণ কর্মক্ষমতা সংশ্লেষণ করার জন্য কোর সরবরাহ করে এমন রিয়েল-টাইম ডেটা অবকাঠামোর প্রয়োজন।"
+          "a": "হ্যাঁ। Watchtower Core Lite, Core Pro এবং এন্টারপ্রাইজ স্তরগুলিতে উপলব্ধ। বাহ্যিক সংকেতগুলির সাথে অভ্যন্তরীণ কর্মক্ষমতা সংশ্লেষণ করার জন্য Core সরবরাহ করে এমন রিয়েল-টাইম ডেটা অবকাঠামোর প্রয়োজন।"
         },
         {
           "q": "আমি কি শুধুমাত্র একটি বুদ্ধিমত্তা ব্যবহার করতে পারি?",
@@ -2847,13 +2847,13 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "আপনার প্ল্যাটফর্মে বাহ্যিক বুদ্ধিমত্তা যোগ করুন",
-      "ctaDescription": "সম্পূর্ণ বাজার প্রসঙ্গে আপনার ব্যবসা দেখুন। আর কখনও পাহারা দেওয়া হবে না।",
+      "ctaDescription": "সম্পূর্ণ বাজার প্রসঙ্গে আপনার ব্যবসা দেখুন। আর কখনও অপ্রস্তুত অবস্থায় ধরা পড়বেন না।",
       "ctaAdd": "আপনার পরিকল্পনা যোগ করুন",
-      "ctaDemo": "অ্যাকশন এটি দেখুন",
+      "ctaDemo": "এটি কাজ করতে দেখুন",
       "ctaSales": "সেলসের সাথে কথা বলুন"
     },
     "th": {
-      "heroBadge": "Watchtower - External Intelligence Engine",
+      "heroBadge": "Watchtower - กลไกข่าวกรองภายนอก",
       "heroDescription": "ติดตามการเปลี่ยนแปลงราคาของคู่แข่งทุกวัน คอนเสิร์ตสุดสัปดาห์นี้ รอมฎอนเริ่มสัปดาห์หน้า Watchtowerสังเคราะห์สัญญาณภายนอกด้วยข้อมูลภายในของคุณในการสรุปข่าวกรองรายวัน - เกิดอะไรขึ้น เหตุใดจึงสำคัญ และต้องทำอย่างไร สัญญาณจะไหลเข้าสู่สมมติฐานForesightโดยอัตโนมัติ",
       "heroNote": "มีให้ใช้งานในระดับ Core เลือกประเภทสติปัญญาส่วนบุคคลหรือชุดรวมWatchtowerทั้งหมด",
       "heroPrimary": "เพิ่ม Watchtower",
@@ -2863,7 +2863,7 @@ export const generatedLocalCopy = {
       "introCards": [
         {
           "icon": "visibility",
-          "title": "หน่วยสืบราชการลับภายนอก",
+          "title": "ข่าวกรองภายนอก",
           "text": "แพลตฟอร์มส่วนใหญ่แสดงเฉพาะข้อมูลของคุณเท่านั้น Watchtower แสดงให้คุณเห็นทั้งตลาด"
         },
         {
@@ -2881,7 +2881,7 @@ export const generatedLocalCopy = {
       "internalHeading": "แพลตฟอร์มเดียวที่มองเห็นทั้งสองด้าน",
       "internalDescription": "แพลตฟอร์มภายในจะแสดงให้คุณเห็นว่าเกิดอะไรขึ้น เครื่องมือทางการตลาดจะแสดงให้คุณเห็นว่ามีอะไรอยู่บ้าง Sundae เป็นแพลตฟอร์มข่าวกรองการตัดสินใจเพียงแห่งเดียวที่สังเคราะห์ทั้งสองอย่าง - รวมข้อมูล POS, แรงงาน และการปฏิบัติงานของคุณเข้ากับการติดตามคู่แข่งแบบสด ข้อมูลเหตุการณ์ในท้องถิ่น พยากรณ์อากาศ และข้อมูลแนวโน้มตลาด - ไว้ในบทสรุปเดียวที่บอกคุณว่าการเปลี่ยนแปลงในปัจจุบันมีความหมายอย่างไร",
       "featureEyebrow": "ความฉลาดสี่ประเภท",
-      "featureHeading": "หน่วยสืบราชการลับภายนอกอัตโนมัติ",
+      "featureHeading": "ข่าวกรองภายนอกแบบอัตโนมัติ",
       "featureDescription": "เลือกหนึ่ง สอง หรือทั้งหมดสี่ประเภทอัจฉริยะเพื่อการมองเห็นภายนอกที่สมบูรณ์",
       "features": [
         {
@@ -2899,7 +2899,7 @@ export const generatedLocalCopy = {
           "color": "from-red-500 to-red-600"
         },
         {
-          "title": "หน่วยสืบราชการลับในการแข่งขัน",
+          "title": "ข่าวกรองการแข่งขัน",
           "headline": "รู้ว่าคู่แข่งของคุณกำลังทำอะไรอยู่",
           "description": "ติดตามคู่แข่งที่มีชื่อ - ไม่ใช่ค่าเฉลี่ยที่ไม่ระบุชื่อ Watchtower ติดตามการให้คะแนน บทวิจารณ์ เวลาเปิดทำการ และการปรากฏตัวของสาธารณะใน Google ทุกวัน การวิเคราะห์ความรู้สึกจะแยกสิ่งที่ลูกค้าชอบและเกลียดเกี่ยวกับคู่แข่งแต่ละราย รับการแจ้งเตือนเมื่อคะแนนของคู่แข่งลดลงหรือมีร้านอาหารใหม่เปิดในบริเวณใกล้เคียง",
           "capabilities": [
@@ -2931,14 +2931,14 @@ export const generatedLocalCopy = {
         {
           "title": "ตลาดและแนวโน้ม",
           "headline": "ข้อมูลสรุปเกี่ยวกับตลาดของคุณ",
-          "description": "มีร้านอาหารกี่ร้านที่ทำงานในระยะ 5 กม. จากคุณ? เรตติ้งเฉลี่ยเท่าไหร่คะ? ใครเปิดเมื่อเดือนที่แล้วใครปิด? Watchtowerสร้างภาพที่มีชีวิตของภูมิทัศน์ร้านอาหารในท้องถิ่นของคุณและพื้นผิวจะส่งสัญญาณเมื่อมีการเปลี่ยนแปลงที่สำคัญ",
+          "description": "มีร้านอาหารกี่ร้านที่ทำงานในระยะ 5 กม. จากคุณ? เรตติ้งเฉลี่ยเท่าไหร่คะ? ใครเปิดเมื่อเดือนที่แล้วใครปิด? Watchtower สร้างภาพที่มีชีวิตของภูมิทัศน์ร้านอาหารในท้องถิ่นของคุณและแสดงสัญญาณเมื่อมีการเปลี่ยนแปลงที่สำคัญ",
           "capabilities": [
             "การทำแผนที่ภูมิทัศน์ร้านอาหารระดับอำเภอ",
             "การตรวจจับการเปิดและปิดใหม่",
             "คะแนนเฉลี่ยและแนวโน้มการกำหนดราคาตามกลุ่มอาหาร",
             "สัญญาณเศรษฐกิจมหภาค (เงินเฟ้อ ความเชื่อมั่นผู้บริโภค)",
             "สัญญาณข่าวกรองทางการตลาดปรากฏขึ้นในเชิงรุก",
-            "น้ำตกแบบข้ามหน่วยสืบราชการลับ - Watchtowerส่งสัญญาณเข้าสู่สมมติฐาน Foresight ด้วยคะแนนความมั่นใจ",
+            "การไหลข้ามข่าวกรอง - สัญญาณของ Watchtower ป้อนเข้าสู่สมมติฐาน Foresight พร้อมคะแนนความมั่นใจ",
             "ภาพทางการเงินเฉพาะภาษีมูลค่าเพิ่ม โรงแรม และแฟรนไชส์"
           ],
           "icon": "multiLocation",
@@ -2949,31 +2949,31 @@ export const generatedLocalCopy = {
       "pricingDescription": "มีให้ใช้งานในระดับ Core เลือกส่วนประกอบแต่ละชิ้นหรือประหยัด ~18% เมื่อซื้อครบชุด",
       "pricingCards": [
         {
-          "name": "หน่วยสืบราชการลับในการแข่งขัน",
+          "name": "ข่าวกรองการแข่งขัน",
           "price": "$549",
-          "perLoc": "+$69/ล็อค"
+          "perLoc": "+$69/ที่"
         },
         {
           "name": "กิจกรรมและปฏิทิน",
           "price": "$249",
-          "perLoc": "+$39/ล็อค"
+          "perLoc": "+$39/ที่"
         },
         {
           "name": "แนวโน้มตลาด",
           "price": "$299",
-          "perLoc": "+$29/loc"
+          "perLoc": "+$29/ที่"
         },
         {
-          "name": "Full Bundle",
+          "name": "ชุดเต็ม",
           "price": "$899",
-          "perLoc": "+$109/loc"
+          "perLoc": "+$109/ที่"
         }
       ],
       "faqHeading": "คำถามที่พบบ่อย",
       "faqs": [
         {
           "q": "ฉันสามารถติดตามคู่แข่งได้กี่คน?",
-          "a": "ผู้แข่งขันมากถึง 10+ คนต่อสถานที่ เลือกคู่แข่งที่สำคัญที่สุด แต่ละสถานที่สามารถมีชุดคู่แข่งของตนเองได้"
+          "a": "ติดตามคู่แข่งได้มากถึง 10+ รายต่อสถานที่ เลือกคู่แข่งที่สำคัญที่สุด แต่ละสถานที่สามารถมีชุดคู่แข่งของตนเองได้"
         },
         {
           "q": "ฉันสามารถติดตามคู่แข่งที่แตกต่างกันในสถานที่ต่างกันได้หรือไม่",
@@ -2997,15 +2997,15 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "เพิ่มความฉลาดภายนอกให้กับแพลตฟอร์มของคุณ",
-      "ctaDescription": "ดูธุรกิจของคุณในบริบทของตลาดเต็มรูปแบบ อย่าถูกจับตามองอีกต่อไป",
-      "ctaAdd": "Add to Your Plan",
-      "ctaDemo": "See It in Action",
-      "ctaSales": "Talk to Sales"
+      "ctaDescription": "ดูธุรกิจของคุณในบริบทของตลาดเต็มรูปแบบ อย่าตั้งตัวไม่ทันอีกต่อไป",
+      "ctaAdd": "เพิ่มในแผนของคุณ",
+      "ctaDemo": "ดูการใช้งานจริง",
+      "ctaSales": "พูดคุยกับฝ่ายขาย"
     },
     "ms": {
-      "heroBadge": "Watchtower - External Intelligence Engine",
+      "heroBadge": "Watchtower - Enjin Risikan Luaran",
       "heroDescription": "Perubahan harga pesaing dijejaki setiap hari. Konsert hujung minggu ini. Ramadan bermula minggu hadapan. Watchtower mensintesis isyarat luaran dengan data dalaman anda ke dalam taklimat risikan harian - perkara yang berlaku, sebab ia penting dan perkara yang perlu dilakukan mengenainya. Isyarat secara automatik mengalir ke dalam andaian Foresight.",
-      "heroNote": "Tersedia pada peringkat Teras. Pilih jenis kecerdasan individu atau himpunan penuh Watchtower.",
+      "heroNote": "Tersedia pada peringkat Core. Pilih jenis kecerdasan individu atau himpunan penuh Watchtower.",
       "heroPrimary": "Tambah Watchtower",
       "heroSecondary": "Tempah Demo",
       "introHeading": "Apakah Watchtower?",
@@ -3096,7 +3096,7 @@ export const generatedLocalCopy = {
         }
       ],
       "pricingHeading": "Harga Watchtower",
-      "pricingDescription": "Tersedia pada peringkat Teras. Pilih komponen individu atau jimat ~18% dengan berkas penuh.",
+      "pricingDescription": "Tersedia pada peringkat Core. Pilih komponen individu atau jimat ~18% dengan himpunan penuh.",
       "pricingCards": [
         {
           "name": "Kecerdasan Kompetitif",
@@ -3127,7 +3127,7 @@ export const generatedLocalCopy = {
         },
         {
           "q": "Bolehkah saya menjejaki pesaing yang berbeza di lokasi yang berbeza?",
-          "a": "ya. Setiap lokasi mempunyai set pesaingnya sendiri. Lokasi A mungkin menjejaki restoran yang berbeza daripada Lokasi B berdasarkan persaingan tempatan."
+          "a": "Ya. Setiap lokasi mempunyai set pesaingnya sendiri. Lokasi A mungkin menjejaki restoran yang berbeza daripada Lokasi B berdasarkan persaingan tempatan."
         },
         {
           "q": "Berapa kerap data pesaing dikemas kini?",
@@ -3135,11 +3135,11 @@ export const generatedLocalCopy = {
         },
         {
           "q": "Adakah Watchtower memerlukan peringkat Core?",
-          "a": "ya. Watchtower tersedia pada peringkat Core Lite, Core Pro dan Perusahaan. Ia memerlukan infrastruktur data masa nyata yang Core sediakan untuk mensintesis prestasi dalaman dengan isyarat luaran."
+          "a": "Ya. Watchtower tersedia pada peringkat Core Lite, Core Pro dan Enterprise. Ia memerlukan infrastruktur data masa nyata yang Core sediakan untuk mensintesis prestasi dalaman dengan isyarat luaran."
         },
         {
           "q": "Bolehkah saya menggunakan hanya satu jenis kecerdasan?",
-          "a": "ya. Pilih Perisikan Persaingan, Isyarat Acara & Kalendar atau Aliran Pasaran secara individu - atau dapatkan himpunan Watchtower penuh untuk penjimatan ~18%."
+          "a": "Ya. Pilih Risikan Kompetitif, Isyarat Acara & Kalendar atau Aliran Pasaran secara individu - atau dapatkan himpunan Watchtower penuh untuk penjimatan ~18%."
         },
         {
           "q": "Bagaimanakah taklimat harian berfungsi?",

@@ -13,29 +13,29 @@ export const generatedLocalCopy = {
       "buildTitle": "Qué puede construir Forge",
       "buildDescription": "Inteligencia personalizada para sus desafíos específicos",
       "useCasesTitle": "Casos de uso de inteligencia personalizada",
-      "useCasesDescription": "De la Foresight de la demanda a las recomendaciones automatizadas",
+      "useCasesDescription": "De la previsión de la demanda a las recomendaciones automatizadas",
       "ctaTitle": "¿Listo para la inteligencia personalizada?",
       "ctaDescription": "Cuéntanos qué necesitas. Construiremos el modelo para que esto suceda.",
       "featureItems": [
         {
           "title": "Consultas en lenguaje natural",
           "description": "Haga preguntas en un lenguaje sencillo y obtenga información instantánea a partir de los datos de su restaurante.",
-          "icon": "nexo"
+          "icon": "nexus"
         },
         {
           "title": "Comprensión contextual",
           "description": "Comprende la terminología de los restaurantes y el contexto empresarial para obtener respuestas precisas.",
-          "icon": "inteligencia"
+          "icon": "intelligence"
         },
         {
           "title": "Integración de fuentes múltiples",
           "description": "Extrae información de todos los sistemas conectados para proporcionar respuestas integrales.",
-          "icon": "integración"
+          "icon": "integration"
         },
         {
           "title": "Recomendaciones prácticas",
           "description": "Obtenga recomendaciones específicas respaldadas por números para mejorar el rendimiento.",
-          "icon": "márketing"
+          "icon": "marketing"
         }
       ],
       "examples": [
@@ -46,7 +46,7 @@ export const generatedLocalCopy = {
         },
         {
           "question": "¿Cómo puedo reducir los costos laborales sin afectar el servicio?",
-          "response": "Según sus patrones: 1) Reduzca 2 servidores entre las 2 y las 4 p. m. entre semana (ahorra $340 por semana), 2) Capacite a 3 empleados para múltiples funciones, 3) Optimice los horarios de descanso. Ahorro proyectado: $1,200/mes.",
+          "response": "Según sus patrones: 1) Reduzca 2 camareros entre las 2 y las 4 p. m. entre semana (ahorra $340 por semana), 2) Capacite a 3 empleados para múltiples funciones, 3) Optimice los horarios de descanso. Ahorro proyectado: $1,200/mes.",
           "context": "Inteligencia laboral + datos de desempeño"
         },
         {
@@ -70,12 +70,12 @@ export const generatedLocalCopy = {
           "questions": [
             "¿Cuál es mi elemento de menú más rentable?",
             "¿Dónde estoy perdiendo dinero?",
-            "¿Cómo puedo aumentar el cheque promedio?",
+            "¿Cómo puedo aumentar el ticket medio?",
             "¿Cuál es mi punto de equilibrio?"
           ]
         },
         {
-          "category": "estratégico",
+          "category": "Estratégico",
           "questions": [
             "¿Debería abrir otra ubicación?",
             "¿A qué mercados debería dirigirme?",
@@ -90,22 +90,22 @@ export const generatedLocalCopy = {
       "benefits": [
         {
           "benefit": "No se requieren habilidades técnicas",
-          "icon": "éxito"
+          "icon": "success"
         },
         {
           "benefit": "Respuestas instantáneas de todos tus datos",
-          "icon": "velocidad"
+          "icon": "speed"
         },
         {
           "benefit": "Interfaz de conversación natural",
-          "icon": "nexo"
+          "icon": "nexus"
         },
         {
           "benefit": "Recomendaciones prácticas",
-          "icon": "márketing"
+          "icon": "marketing"
         }
       ],
-      "ctaPrimary": "Demostración de Book Forge",
+      "ctaPrimary": "Reserva una demostración de Forge",
       "ctaSecondary": "Ver todos los módulos"
     },
     "pt": {
@@ -125,18 +125,18 @@ export const generatedLocalCopy = {
       "featureItems": [
         {
           "title": "Consultas em linguagem natural",
-          "description": "Faça perguntas em inglês simples e obtenha insights instantâneos dos dados do seu restaurante.",
-          "icon": "nexo"
+          "description": "Faça perguntas em linguagem simples e obtenha insights instantâneos dos dados do seu restaurante.",
+          "icon": "nexus"
         },
         {
           "title": "Compreensão Contextual",
           "description": "Compreende a terminologia do restaurante e o contexto comercial para obter respostas precisas.",
-          "icon": "inteligência"
+          "icon": "intelligence"
         },
         {
           "title": "Integração multifonte",
           "description": "Extrai insights de todos os sistemas conectados para fornecer respostas abrangentes.",
-          "icon": "integração"
+          "icon": "integration"
         },
         {
           "title": "Recomendações acionáveis",
@@ -152,7 +152,7 @@ export const generatedLocalCopy = {
         },
         {
           "question": "Como posso reduzir os custos trabalhistas sem afetar o serviço?",
-          "response": "Com base em seus padrões: 1) Reduza 2 servidores durante a semana das 14h às 16h (economize US$ 340/semana), 2) Treine 3 funcionários para diversas funções, 3) Otimize os cronogramas de intervalo. Economia projetada: US$ 1.200/mês.",
+          "response": "Com base em seus padrões: 1) Reduza 2 garçons durante a semana das 14h às 16h (economize US$ 340/semana), 2) Treine 3 funcionários para diversas funções, 3) Otimize os cronogramas de intervalo. Economia projetada: US$ 1.200/mês.",
           "context": "Inteligência trabalhista + dados de desempenho"
         },
         {
@@ -176,7 +176,7 @@ export const generatedLocalCopy = {
           "questions": [
             "Qual é o meu item de menu mais lucrativo?",
             "Onde estou perdendo dinheiro?",
-            "Como posso aumentar a verificação média?",
+            "Como posso aumentar o ticket médio?",
             "Qual é o meu ponto de equilíbrio?"
           ]
         },
@@ -196,58 +196,58 @@ export const generatedLocalCopy = {
       "benefits": [
         {
           "benefit": "Não são necessárias habilidades técnicas",
-          "icon": "sucesso"
+          "icon": "success"
         },
         {
           "benefit": "Respostas instantâneas de todos os seus dados",
-          "icon": "velocidade"
+          "icon": "speed"
         },
         {
           "benefit": "Interface de conversação natural",
-          "icon": "nexo"
+          "icon": "nexus"
         },
         {
           "benefit": "Recomendações acionáveis",
           "icon": "marketing"
         }
       ],
-      "ctaPrimary": "Demonstração do Book Forge",
+      "ctaPrimary": "Agende uma demonstração do Forge",
       "ctaSecondary": "Ver todos os módulos"
     },
     "ar": {
-      "heroBadge": "صياغة - الاستخبارات المخصصة",
-      "heroTitle": "نماذج مخصصة. بياناتك. القواعد الخاصة بك.",
-      "heroDescription": "تقوم Forge ببناء نماذج مخصصة مدربة على بياناتك. التوقعات والتوصيات والأتمتة المصممة خصيصًا لكيفية عمل عملك.",
-      "heroPrimary": "حاول صياغة الدردشة",
-      "heroSecondary": "عرض الهندسة المعمارية",
-      "featuresTitle": "الذكاء الذي يعرف عملك",
+      "heroBadge": "Forge - الذكاء المخصص",
+      "heroTitle": "نماذج مخصصة. بياناتك. قواعدك الخاصة.",
+      "heroDescription": "يبني Forge نماذج مخصصة مدربة على بياناتك. توقعات وتوصيات وأتمتة مصممة خصيصاً لطريقة عمل نشاطك التجاري.",
+      "heroPrimary": "جرّب Forge Chat",
+      "heroSecondary": "عرض البنية المعمارية",
+      "featuresTitle": "ذكاء يعرف نشاطك التجاري",
       "featuresDescription": "نماذج مخصصة تم تدريبها على أنماطك ومواقعك وعملياتك",
-      "buildTitle": "ما يمكن أن يبنيه فورج",
+      "buildTitle": "ما الذي يمكن أن يبنيه Forge",
       "buildDescription": "ذكاء مخصص لتحدياتك المحددة",
       "useCasesTitle": "حالات استخدام الذكاء المخصص",
       "useCasesDescription": "من التنبؤ بالطلب إلى التوصيات الآلية",
-      "ctaTitle": "هل أنت مستعد للاستخبارات المخصصة؟",
-      "ctaDescription": "أخبرنا بما تحتاجه. سنقوم ببناء النموذج لتحقيق ذلك.",
+      "ctaTitle": "هل أنت مستعد للذكاء المخصص؟",
+      "ctaDescription": "أخبرنا بما تحتاجه. سنبني النموذج لتحقيق ذلك.",
       "featureItems": [
         {
-          "title": "استعلامات اللغة الطبيعية",
-          "description": "اطرح الأسئلة باللغة الإنجليزية البسيطة واحصل على رؤى فورية من بيانات مطعمك.",
-          "icon": "العلاقة"
+          "title": "استعلامات باللغة الطبيعية",
+          "description": "اطرح الأسئلة بلغة بسيطة واحصل على رؤى فورية من بيانات مطعمك.",
+          "icon": "nexus"
         },
         {
           "title": "الفهم السياقي",
-          "description": "يفهم مصطلحات المطاعم وسياق العمل للحصول على استجابات دقيقة.",
-          "icon": "الذكاء"
+          "description": "يفهم مصطلحات المطاعم وسياق العمل للحصول على إجابات دقيقة.",
+          "icon": "intelligence"
         },
         {
           "title": "التكامل متعدد المصادر",
-          "description": "يسحب الرؤى من جميع الأنظمة المتصلة لتقديم إجابات شاملة.",
-          "icon": "التكامل"
+          "description": "يستخلص الرؤى من جميع الأنظمة المتصلة لتقديم إجابات شاملة.",
+          "icon": "integration"
         },
         {
           "title": "توصيات قابلة للتنفيذ",
           "description": "احصل على توصيات محددة ومدعومة بالأرقام لتحسين الأداء.",
-          "icon": "التسويق"
+          "icon": "marketing"
         }
       ],
       "examples": [
@@ -258,8 +258,8 @@ export const generatedLocalCopy = {
         },
         {
           "question": "كيف يمكنني تقليل تكاليف العمالة دون التأثير على الخدمة؟",
-          "response": "بناءً على أنماطك: 1) تقليل خادمين خلال أيام الأسبوع من الساعة 2 إلى 4 مساءً (يوفر 340 دولارًا في الأسبوع)، 2) تدريب 3 موظفين لأدوار متعددة، 3) تحسين جداول الاستراحة. التوفير المتوقع: 1,200 دولار شهريًا.",
-          "context": "ذكاء العمل + بيانات الأداء"
+          "response": "بناءً على أنماطك: 1) تقليل نادلَين خلال أيام الأسبوع من الساعة 2 إلى 4 مساءً (يوفر 340 دولارًا في الأسبوع)، 2) تدريب 3 موظفين على أدوار متعددة، 3) تحسين جداول الاستراحة. التوفير المتوقع: 1,200 دولار شهريًا.",
+          "context": "ذكاء العمالة + بيانات الأداء"
         },
         {
           "question": "ما هي عناصر القائمة التي يجب علي الترويج لها في نهاية هذا الأسبوع؟",
@@ -282,7 +282,7 @@ export const generatedLocalCopy = {
           "questions": [
             "ما هو عنصر القائمة الأكثر ربحية بالنسبة لي؟",
             "أين أخسر المال؟",
-            "كيف يمكنني زيادة متوسط الشيك؟",
+            "كيف يمكنني زيادة متوسط الفاتورة؟",
             "ما هي نقطة التعادل الخاصة بي؟"
           ]
         },
@@ -297,27 +297,27 @@ export const generatedLocalCopy = {
         }
       ],
       "askLabel": "حاول أن تسأل:",
-      "respondsLabel": "يستجيب فورج بـ:",
+      "respondsLabel": "يستجيب Forge بـ:",
       "sourceLabel": "مصادر البيانات:",
       "benefits": [
         {
-          "benefit": "لا المهارات التقنية المطلوبة",
-          "icon": "النجاح"
+          "benefit": "لا حاجة لأي مهارات تقنية",
+          "icon": "success"
         },
         {
-          "benefit": "إجابات فورية من جميع البيانات الخاصة بك",
-          "icon": "السرعة"
+          "benefit": "إجابات فورية من جميع بياناتك",
+          "icon": "speed"
         },
         {
-          "benefit": "واجهة المحادثة الطبيعية",
-          "icon": "العلاقة"
+          "benefit": "واجهة محادثة طبيعية",
+          "icon": "nexus"
         },
         {
           "benefit": "توصيات قابلة للتنفيذ",
-          "icon": "التسويق"
+          "icon": "marketing"
         }
       ],
-      "ctaPrimary": "كتاب صياغة التجريبي",
+      "ctaPrimary": "احجز عرض Forge التجريبي",
       "ctaSecondary": "عرض كافة الوحدات"
     },
     "fr": {
@@ -337,23 +337,23 @@ export const generatedLocalCopy = {
       "featureItems": [
         {
           "title": "Requêtes en langage naturel",
-          "description": "Posez des questions dans un anglais simple et obtenez des informations instantanées à partir des données de votre restaurant.",
-          "icon": "lien"
+          "description": "Posez des questions dans un langage simple et obtenez des informations instantanées à partir des données de votre restaurant.",
+          "icon": "nexus"
         },
         {
           "title": "Compréhension contextuelle",
           "description": "Comprend la terminologie du restaurant et le contexte commercial pour des réponses précises.",
-          "icon": "renseignement"
+          "icon": "intelligence"
         },
         {
           "title": "Intégration multi-source",
           "description": "Extrait des informations de tous les systèmes connectés pour fournir des réponses complètes.",
-          "icon": "intégration"
+          "icon": "integration"
         },
         {
           "title": "Recommandations concrètes",
           "description": "Obtenez des recommandations spécifiques et chiffrées pour améliorer les performances.",
-          "icon": "commercialisation"
+          "icon": "marketing"
         }
       ],
       "examples": [
@@ -378,7 +378,7 @@ export const generatedLocalCopy = {
           "category": "Opérations",
           "questions": [
             "Pourquoi mon coût de main d'œuvre est-il plus élevé cette semaine ?",
-            "Quels changements sont les plus rentables ?",
+            "Quels quarts de travail sont les plus rentables ?",
             "Quelle est la cause des retards de service ?",
             "Comment puis-je réduire les déchets ?"
           ]
@@ -388,7 +388,7 @@ export const generatedLocalCopy = {
           "questions": [
             "Quel est mon élément de menu le plus rentable ?",
             "Où est-ce que je perds de l'argent ?",
-            "Comment puis-je augmenter le chèque moyen ?",
+            "Comment puis-je augmenter le ticket moyen ?",
             "Quel est mon seuil de rentabilité ?"
           ]
         },
@@ -408,22 +408,22 @@ export const generatedLocalCopy = {
       "benefits": [
         {
           "benefit": "Aucune compétence technique requise",
-          "icon": "succès"
+          "icon": "success"
         },
         {
           "benefit": "Réponses instantanées à partir de toutes vos données",
-          "icon": "vitesse"
+          "icon": "speed"
         },
         {
           "benefit": "Interface de conversation naturelle",
-          "icon": "lien"
+          "icon": "nexus"
         },
         {
           "benefit": "Recommandations concrètes",
-          "icon": "commercialisation"
+          "icon": "marketing"
         }
       ],
-      "ctaPrimary": "Démo de Book Forge",
+      "ctaPrimary": "Réservez une démo Forge",
       "ctaSecondary": "Afficher tous les modules"
     },
     "de": {
@@ -443,23 +443,23 @@ export const generatedLocalCopy = {
       "featureItems": [
         {
           "title": "Abfragen in natürlicher Sprache",
-          "description": "Stellen Sie Fragen in einfachem Englisch und erhalten Sie sofortige Erkenntnisse aus Ihren Restaurantdaten.",
-          "icon": "Nexus"
+          "description": "Stellen Sie Fragen in einfacher Sprache und erhalten Sie sofortige Erkenntnisse aus Ihren Restaurantdaten.",
+          "icon": "nexus"
         },
         {
           "title": "Kontextuelles Verständnis",
           "description": "Versteht die Restaurantterminologie und den geschäftlichen Kontext, um korrekte Antworten zu erhalten.",
-          "icon": "Intelligenz"
+          "icon": "intelligence"
         },
         {
           "title": "Multi-Source-Integration",
           "description": "Ruft Erkenntnisse aus allen verbundenen Systemen ab, um umfassende Antworten zu liefern.",
-          "icon": "Integration"
+          "icon": "integration"
         },
         {
           "title": "Umsetzbare Empfehlungen",
           "description": "Erhalten Sie konkrete, auf Zahlen basierende Empfehlungen zur Leistungsverbesserung.",
-          "icon": "Marketing"
+          "icon": "marketing"
         }
       ],
       "examples": [
@@ -470,7 +470,7 @@ export const generatedLocalCopy = {
         },
         {
           "question": "Wie kann ich die Arbeitskosten senken, ohne den Service zu beeinträchtigen?",
-          "response": "Basierend auf Ihren Mustern: 1) Reduzieren Sie 2 Server an Wochentagen von 14 bis 16 Uhr (spart 340 $/Woche), 2) schulen Sie 3 Mitarbeiter für mehrere Rollen, 3) optimieren Sie Pausenpläne. Voraussichtliche Einsparungen: 1.200 $/Monat.",
+          "response": "Basierend auf Ihren Mustern: 1) Reduzieren Sie 2 Kellner an Wochentagen von 14 bis 16 Uhr (spart 340 $/Woche), 2) schulen Sie 3 Mitarbeiter für mehrere Rollen, 3) optimieren Sie Pausenpläne. Voraussichtliche Einsparungen: 1.200 $/Monat.",
           "context": "Arbeitsinformationen + Leistungsdaten"
         },
         {
@@ -494,7 +494,7 @@ export const generatedLocalCopy = {
           "questions": [
             "Was ist mein profitabelster Menüpunkt?",
             "Wo verliere ich Geld?",
-            "Wie kann ich den durchschnittlichen Scheck erhöhen?",
+            "Wie kann ich den durchschnittlichen Bon erhöhen?",
             "Was ist mein Break-Even-Punkt?"
           ]
         },
@@ -514,22 +514,22 @@ export const generatedLocalCopy = {
       "benefits": [
         {
           "benefit": "Keine technischen Kenntnisse erforderlich",
-          "icon": "Erfolg"
+          "icon": "success"
         },
         {
           "benefit": "Sofortige Antworten aus all Ihren Daten",
-          "icon": "Geschwindigkeit"
+          "icon": "speed"
         },
         {
           "benefit": "Natürliche Konversationsschnittstelle",
-          "icon": "Nexus"
+          "icon": "nexus"
         },
         {
           "benefit": "Umsetzbare Empfehlungen",
-          "icon": "Marketing"
+          "icon": "marketing"
         }
       ],
-      "ctaPrimary": "Book Forge-Demo",
+      "ctaPrimary": "Forge-Demo buchen",
       "ctaSecondary": "Alle Module anzeigen"
     },
     "nl": {
@@ -549,18 +549,18 @@ export const generatedLocalCopy = {
       "featureItems": [
         {
           "title": "Natuurlijke taalquery's",
-          "description": "Stel vragen in gewoon Engels en krijg direct inzicht in uw restaurantgegevens.",
-          "icon": "verband"
+          "description": "Stel vragen in gewone taal en krijg direct inzicht in uw restaurantgegevens.",
+          "icon": "nexus"
         },
         {
           "title": "Contextueel begrip",
           "description": "Begrijpt restaurantterminologie en zakelijke context voor nauwkeurige antwoorden.",
-          "icon": "intelligentie"
+          "icon": "intelligence"
         },
         {
           "title": "Integratie met meerdere bronnen",
           "description": "Haalt inzichten uit alle verbonden systemen om uitgebreide antwoorden te bieden.",
-          "icon": "integratie"
+          "icon": "integration"
         },
         {
           "title": "Bruikbare aanbevelingen",
@@ -576,7 +576,7 @@ export const generatedLocalCopy = {
         },
         {
           "question": "Hoe kan ik de arbeidskosten verlagen zonder dat dit ten koste gaat van de service?",
-          "response": "Gebaseerd op uw patronen: 1) Reduceer 2 servers tijdens weekdagen van 14.00 tot 16.00 uur (bespaart $340/week), 2) Train 3 medewerkers voor meerdere rollen, 3) Optimaliseer pauzeschema's. Verwachte besparing: $ 1.200/maand.",
+          "response": "Gebaseerd op uw patronen: 1) Reduceer 2 obers tijdens weekdagen van 14.00 tot 16.00 uur (bespaart $340/week), 2) Train 3 medewerkers voor meerdere rollen, 3) Optimaliseer pauzeschema's. Verwachte besparing: $ 1.200/maand.",
           "context": "Arbeidsintelligentie + prestatiegegevens"
         },
         {

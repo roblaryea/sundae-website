@@ -21,12 +21,12 @@
       "persona": "F&B CFO / Finance"
     },
     {
-      "answer": "Decision Intelligence platform — not a point solution. Spans 12 data domains across 6 intelligence layers with 17 Pulse sub-pages, 12 Insights modules, 7 Benchmark sections, 3 Watchtower sections. AI layer with 15 routes and conversational data access. Network-effect benchmarking. 458 data models, 420 services. No competitor plays in Decision Intelligence for restaurants.",
+      "answer": "Decision Intelligence platform - not a point solution. Spans 12 data domains across 6 intelligence layers with 17 Pulse sub-pages, 12 Insights modules, 7 Benchmark sections, 3 Watchtower sections. AI layer with 15 routes and conversational data access. Network-effect benchmarking. 458 data models, 420 services. No competitor plays in Decision Intelligence for restaurants.",
       "pain": "How is this different from Toast Analytics or Restaurant365?",
       "persona": "Investor / VC"
     },
     {
-      "answer": "Report Lite starts at $0 with performance reports, 250 AI credits base (plus 80 per location), and document ingestion. Report Plus at $79/mo adds multi-location and 3 AI seats. Add only the modules you need — Guest Experience starts at $149/mo + $14/location, Revenue Assurance at $149/mo + $14/location, and Crew Lite starts at $99/mo + $19/location for workforce-first teams.",
+      "answer": "Report Lite starts at $0 with performance reports, 250 AI credits base (plus 80 per location), and document ingestion. Report Plus at $79/mo adds multi-location and 3 AI seats. Add only the modules you need - Guest Experience starts at $149/mo + $14/location, Revenue Assurance at $149/mo + $14/location, and Crew Lite starts at $99/mo + $19/location for workforce-first teams.",
       "pain": "I can't afford an enterprise system but I need more than my POS dashboard gives me.",
       "persona": "Independent Restaurateur"
     }
@@ -52,7 +52,7 @@
     },
     {
       "gaps": [
-        "POS-first — no Decision Intelligence layer",
+        "POS-first - no Decision Intelligence layer",
         "No real-time ops (Pulse)",
         "No benchmarking",
         "No competitive intelligence"
@@ -61,7 +61,7 @@
     },
     {
       "gaps": [
-        "Inventory-only — no revenue intelligence",
+        "Inventory-only - no revenue intelligence",
         "No real-time ops (Pulse)",
         "No benchmarking",
         "No competitive intelligence (Watchtower)"
@@ -70,7 +70,7 @@
     },
     {
       "gaps": [
-        "Delivery/cloud kitchen focused only — no dine-in intelligence",
+        "Delivery/cloud kitchen focused only - no dine-in intelligence",
         "No benchmarking",
         "No competitive intelligence",
         "No deep analytics"
@@ -94,27 +94,27 @@
       "title": "Breadth"
     },
     {
-      "description": "Pulse with 17 sub-pages, 8 exception evaluators, and compound detection (death spiral, leakage drag) — no competitor has same-shift intelligence",
+      "description": "Pulse with 17 sub-pages, 8 exception evaluators, and compound detection (death spiral, leakage drag) - no competitor has same-shift intelligence",
       "title": "Real-time"
     },
     {
-      "description": "Benchmark creates a data moat — every new restaurant makes benchmarks more valuable for everyone. This is the STR model that built a $450M business in hotels.",
+      "description": "Benchmark creates a data moat - every new restaurant makes benchmarks more valuable for everyone. This is the STR model that built a $450M business in hotels.",
       "title": "Network effect"
     },
     {
-      "description": "Sundae Intelligence with NL-to-SQL, 10 AI chat modes, 1.1MB prompt library — democratizes data access beyond analysts",
+      "description": "Sundae Intelligence with NL-to-SQL, 10 AI chat modes, 1.1MB prompt library - democratizes data access beyond analysts",
       "title": "Conversational AI"
     },
     {
-      "description": "$0 free tier to $349+ enterprise with 14 purchasable modules and 6 bundles — operators buy what they need, expand as they grow",
+      "description": "$0 free tier to $349+ enterprise with 14 purchasable modules and 6 bundles - operators buy what they need, expand as they grow",
       "title": "Modular pricing"
     },
     {
-      "description": "6 @sundae/* SDK packages (ui, analytics, core, vertical-restaurant, partner-sdk, crew) with a VerticalConfig contract — restaurants is the founding vertical; additional verticals plug in without forking the platform. Partner-sdk is a public typed client with webhook signature verification.",
+      "description": "6 @sundae/* SDK packages (ui, analytics, core, vertical-restaurant, partner-sdk, crew) with a VerticalConfig contract - restaurants is the founding vertical; additional verticals plug in without forking the platform. Partner-sdk is a public typed client with webhook signature verification.",
       "title": "Multi-vertical architecture"
     },
     {
-      "description": "scheduling, time & attendance, HR operations, product support, Ask-HR, People Intelligence, and a provider-neutral payroll readiness/statutory export engine with GCC country-pack workflows shipped; UK, EU, US, and Canada expansion scoped/on roadmap. Every shift, hour, HR record, and pay-cycle evidence point becomes signal feeding Labor Intelligence, Pulse, Watchtower, and Foresight — a loop a standalone HR/payroll vendor cannot close.",
+      "description": "scheduling, time & attendance, HR operations, product support, Ask-HR, People Intelligence, and a provider-neutral payroll readiness/statutory export engine with GCC country-pack workflows shipped; UK, EU, US, and Canada expansion scoped/on roadmap. Every shift, hour, HR record, and pay-cycle evidence point becomes signal feeding Labor Intelligence, Pulse, Watchtower, and Foresight - a loop a standalone HR/payroll vendor cannot close.",
       "title": "Operational substrate (Crew)"
     }
   ],
@@ -187,7 +187,7 @@
   },
   "modules": [
     {
-      "blurb": "Anonymized industry benchmarking — the STR model for restaurants. Seven sections with network-effect data moat.",
+      "blurb": "Anonymized industry benchmarking - the STR model for restaurants. Seven sections with network-effect data moat.",
       "bullets": [
         "RevPASH, Seat Occupancy, Average Check, Total Revenue with compset median and percentile rankings",
         "Financial, Operational, Space & Rent, Revenue Mix, Daypart Heatmap tabs",
@@ -198,7 +198,7 @@
       "name": "Benchmark"
     },
     {
-      "blurb": "Predictive forecasting, scenario modeling, and cross-module cascading — from reactive to proactive intelligence.",
+      "blurb": "Predictive forecasting, scenario modeling, and cross-module cascading - from reactive to proactive intelligence.",
       "bullets": [
         "Predictive revenue and demand forecasting",
         "Scenario modeling with what-if analysis",
@@ -262,7 +262,7 @@
       {
         "from": "Contact us",
         "name": "Report Lite",
-        "note": "Free forever — upload POS data and get instant benchmarking."
+        "note": "Free forever - upload POS data and get instant benchmarking."
       },
       {
         "from": "Contact us",

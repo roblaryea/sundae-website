@@ -3,123 +3,123 @@
 export const generatedLocalCopy = {
   "localizedScoutCopy": {
     "ar": {
-      "heroBadge": "الكشفية - طبقة البيانات",
-      "heroDescription": "يقوم Scout بتوصيل منصات نقاط البيع والعمالة والمخزون والحجوزات والتسليم الخاصة بك في طبقة بيانات واحدة نظيفة - بحيث تبدأ كل لوحة معلومات وتنبيه وتوصية ببيانات يمكنك الوثوق بها.",
-      "heroPrimary": "انظر الكشفية في العمل",
+      "heroBadge": "Scout - طبقة البيانات",
+      "heroDescription": "يربط Scout منصات نقاط البيع والعمالة والمخزون والحجوزات والتوصيل الخاصة بك في طبقة بيانات واحدة نظيفة - بحيث تبدأ كل لوحة معلومات وتنبيه وتوصية ببيانات يمكنك الوثوق بها.",
+      "heroPrimary": "شاهد Scout أثناء العمل",
       "heroSecondary": "عرض جميع عمليات التكامل",
-      "featuresHeading": "ماذا يفعل الكشافة",
-      "featuresDescription": "طبقة بيانات واحدة تربط وتنظف وتوحد كل ما يعمل عليه مطعمك",
+      "featuresHeading": "ماذا يفعل Scout",
+      "featuresDescription": "طبقة بيانات واحدة تربط وتنظف وتوحد كل ما يعتمد عليه مطعمك",
       "features": [
         {
-          "title": "250+ موصلات مسبقة الصنع",
-          "description": "نقاط البيع، والعمالة، والمخزون، والحجوزات، والتسليم، والتسويق، والمحاسبة - يتحدث Scout عن الأنظمة التي تستخدمها بالفعل.",
-          "icon": "التكامل"
+          "title": "أكثر من 250 موصلاً جاهزاً",
+          "description": "نقاط البيع، والعمالة، والمخزون، والحجوزات، والتوصيل، والتسويق، والمحاسبة - يتواصل Scout مع الأنظمة التي تستخدمها بالفعل.",
+          "icon": "integration"
         },
         {
           "title": "المزامنة المستمرة",
-          "description": "تتدفق البيانات تلقائيا. لا توجد مقالب ليلية، ولا توجد تحميلات بتنسيق CSV، ولا تنتظر حتى الصباح لرؤية أرقام الأمس.",
-          "icon": "السرعة"
+          "description": "تتدفق البيانات تلقائياً. لا عمليات تفريغ ليلية، ولا تحميلات بصيغة CSV، ولا انتظار حتى الصباح لرؤية أرقام الأمس.",
+          "icon": "speed"
         },
         {
           "title": "تنظيف مدمج",
-          "description": "يقوم Scout بتطبيع التسمية وملء الفجوات ووضع علامات على مشكلات الجودة قبل أن تصل البيانات السيئة إلى لوحات المعلومات الخاصة بك.",
-          "icon": "النجاح"
+          "description": "يوحّد Scout التسمية ويملأ الفجوات ويضع علامات على مشكلات الجودة قبل أن تصل البيانات السيئة إلى لوحات معلوماتك.",
+          "icon": "success"
         },
         {
-          "title": "مقياس المؤسسة",
-          "description": "أكثر من 100 موقع، وملايين المعاملات، واستعلامات فرعية. تم تصميم Scout لمجموعات المطاعم التي تتجاوز جداول البيانات.",
-          "icon": "النمو"
+          "title": "نطاق المؤسسات",
+          "description": "أكثر من 100 موقع، وملايين المعاملات، واستعلامات تتم في أقل من ثانية. صُمم Scout لمجموعات المطاعم التي تتجاوز جداول البيانات.",
+          "icon": "growth"
         }
       ],
       "integrationsHeading": "المنصات المتصلة",
-      "integrationsDescription": "تستغرق معظم عمليات التكامل أقل من 5 دقائق. مفتاح OAuth أو API - المصادقة والانطلاق.",
+      "integrationsDescription": "تستغرق معظم عمليات التكامل أقل من 5 دقائق. مفتاح OAuth أو API - سجّل الدخول وانطلق.",
       "integrations": [
         {
-          "category": "نقطة البيع",
+          "category": "نقاط البيع",
           "systems": [
-            "أوراكل ميكروس",
-            "نخب",
-            "مربع",
-            "البرسيم"
+            "Oracle MICROS",
+            "Toast",
+            "Square",
+            "Clover"
           ]
         },
         {
-          "category": "العمل والجدولة",
+          "category": "العمالة والجدولة",
           "systems": [
-            "7 تحولات",
+            "7shifts",
             "HotSchedules",
-            "نائب"
+            "Deputy"
           ]
         },
         {
           "category": "المخزون",
           "systems": [
             "MarketMan",
-            "قابلة للصياغة",
+            "Craftable",
             "BinWise"
           ]
         },
         {
           "category": "الحجوزات وإدارة علاقات العملاء",
           "systems": [
-            "سبع غرف",
-            "طاولة مفتوحة",
-            "ريسي",
-            "توك"
+            "SevenRooms",
+            "OpenTable",
+            "Resy",
+            "Tock"
           ]
         }
       ],
-      "stepsHeading": "الاتصال. ينظف. فعل.",
-      "stepsDescription": "ثلاث خطوات من الأنظمة المنعزلة إلى الذكاء الموحد",
+      "stepsHeading": "اربط. نظّف. فعّل.",
+      "stepsDescription": "ثلاث خطوات من الأنظمة المنعزلة إلى الذكاء الموحّد",
       "steps": [
         {
           "step": "1",
-          "title": "مصادقة",
-          "description": "قم بتوصيل الأنظمة الأساسية الخاصة بك باستخدام مفتاح OAuth أو API. تستغرق معظم عمليات التكامل أقل من 5 دقائق - ولا تتطلب أي هندسة."
+          "title": "المصادقة",
+          "description": "اربط منصاتك باستخدام مفتاح OAuth أو API. تستغرق معظم عمليات التكامل أقل من 5 دقائق - ولا تتطلب أي عمل هندسي."
         },
         {
           "step": "2",
-          "title": "تطبيع",
-          "description": "يقوم Scout بتعيين كل مصدر بيانات إلى مخطط متسق، ويزيل التناقضات، ويملأ الفجوات تلقائيًا."
+          "title": "التوحيد",
+          "description": "يربط Scout كل مصدر بيانات بمخطط متسق، ويزيل التناقضات، ويملأ الفجوات تلقائياً."
         },
         {
           "step": "3",
-          "title": "تحليل",
-          "description": "تتدفق البيانات الموحدة إلى لوحات المعلومات والتنبيهات والتوصيات. لا تصدير، لا إدخال يدوي."
+          "title": "التحليل",
+          "description": "تتدفق البيانات الموحّدة إلى لوحات المعلومات والتنبيهات والتوصيات. لا تصدير، ولا إدخال يدوي."
         }
       ],
-      "ctaTitle": "توقف عن التصدير. ابدأ الاتصال.",
-      "ctaDescription": "تعرف على كيفية قيام Scout بتوحيد بيانات مطعمك في عرض توضيحي واحد.",
+      "ctaTitle": "توقف عن التصدير. ابدأ بالربط.",
+      "ctaDescription": "اكتشف كيف يوحّد Scout بيانات مطعمك في عرض توضيحي واحد.",
       "ctaPrimary": "احجز عرضًا توضيحيًا",
       "ctaSecondary": "عرض جميع المنتجات"
     },
     "fr": {
       "heroBadge": "Scout - Couche de données",
       "heroDescription": "Scout connecte vos plateformes de point de vente, de main-d'œuvre, d'inventaire, de réservation et de livraison en une seule couche de données propre - de sorte que chaque tableau de bord, alerte et recommandation commence par des données auxquelles vous pouvez faire confiance.",
-      "heroPrimary": "Voir le scout en action",
+      "heroPrimary": "Voir Scout en action",
       "heroSecondary": "Afficher toutes les intégrations",
-      "featuresHeading": "Ce que fait le scout",
+      "featuresHeading": "Ce que fait Scout",
       "featuresDescription": "Une couche de données qui connecte, nettoie et unifie tout ce sur quoi votre restaurant fonctionne",
       "features": [
         {
-          "title": "Plus de 30 connecteurs pré-construits",
-          "description": "PDV, main-d'œuvre, inventaire, réservations, livraison, marketing, comptabilité - Scout parle aux systèmes que vous utilisez déjà.",
-          "icon": "intégration"
+          "title": "Plus de 30 connecteurs prêts à l'emploi",
+          "description": "POS, main-d'œuvre, inventaire, réservations, livraison, marketing, comptabilité - Scout dialogue avec les systèmes que vous utilisez déjà.",
+          "icon": "integration"
         },
         {
           "title": "Synchronisation continue",
-          "description": "Les données circulent automatiquement. Pas de dumps nocturnes, pas de téléchargements CSV, pas d'attente jusqu'au matin pour voir les chiffres d'hier.",
-          "icon": "vitesse"
+          "description": "Les données circulent automatiquement. Pas d'extractions nocturnes, pas de téléchargements CSV, pas d'attente jusqu'au matin pour voir les chiffres d'hier.",
+          "icon": "speed"
         },
         {
           "title": "Nettoyage intégré",
           "description": "Scout normalise la dénomination, comble les lacunes et signale les problèmes de qualité avant que les mauvaises données n'atteignent vos tableaux de bord.",
-          "icon": "succès"
+          "icon": "success"
         },
         {
           "title": "À l'échelle de l'entreprise",
-          "description": "Plus de 100 emplacements, des millions de transactions, des requêtes inférieures à la seconde. Scout est conçu pour les groupes de restaurants qui ne disposent plus de feuilles de calcul.",
-          "icon": "croissance"
+          "description": "Plus de 100 établissements, des millions de transactions, des requêtes en moins d'une seconde. Scout est conçu pour les groupes de restaurants qui ont dépassé le stade des feuilles de calcul.",
+          "icon": "growth"
         }
       ],
       "integrationsHeading": "Plateformes connectées",
@@ -130,37 +130,37 @@ export const generatedLocalCopy = {
           "systems": [
             "Oracle MICROS",
             "Toast",
-            "Carré",
-            "Trèfle"
+            "Square",
+            "Clover"
           ]
         },
         {
-          "category": "Travail et planning",
+          "category": "Main-d'œuvre et planning",
           "systems": [
-            "7 équipes",
-            "Horaires chauds",
-            "Adjoint"
+            "7shifts",
+            "HotSchedules",
+            "Deputy"
           ]
         },
         {
           "category": "Inventaire",
           "systems": [
-            "Homme de marché",
-            "Fabriqueable",
+            "MarketMan",
+            "Craftable",
             "BinWise"
           ]
         },
         {
           "category": "Réservations & CRM",
           "systems": [
-            "Sept chambres",
-            "OuvrirTable",
-            "Résy",
-            "Toc"
+            "SevenRooms",
+            "OpenTable",
+            "Resy",
+            "Tock"
           ]
         }
       ],
-      "stepsHeading": "Connectez-vous. Faire le ménage. Activer.",
+      "stepsHeading": "Connectez. Nettoyez. Activez.",
       "stepsDescription": "Trois étapes des systèmes cloisonnés à l'intelligence unifiée",
       "steps": [
         {
@@ -189,28 +189,28 @@ export const generatedLocalCopy = {
       "heroDescription": "Scout conecta suas plataformas de PDV, mão de obra, estoque, reservas e entrega em uma camada de dados limpa - para que cada painel, alerta e recomendação comece com dados em que você pode confiar.",
       "heroPrimary": "Veja o Scout em ação",
       "heroSecondary": "Ver todas as integrações",
-      "featuresHeading": "O que o escoteiro faz",
-      "featuresDescription": "Uma camada de dados que conecta, limpa e unifica tudo o que seu restaurante utiliza",
+      "featuresHeading": "O que o Scout faz",
+      "featuresDescription": "Uma camada de dados que conecta, limpa e unifica tudo o que faz seu restaurante funcionar",
       "features": [
         {
-          "title": "Mais de 30 conectores pré-construídos",
-          "description": "PDV, mão de obra, estoque, reservas, entrega, marketing, contabilidade - o Scout fala com os sistemas que você já usa.",
-          "icon": "integração"
+          "title": "Mais de 30 conectores prontos",
+          "description": "POS, mão de obra, estoque, reservas, entrega, marketing, contabilidade - o Scout se comunica com os sistemas que você já usa.",
+          "icon": "integration"
         },
         {
-          "title": "Sincronização Contínua",
+          "title": "Sincronização contínua",
           "description": "Os dados fluem automaticamente. Sem despejos noturnos, sem uploads de CSV, sem esperar até de manhã para ver os números de ontem.",
-          "icon": "velocidade"
+          "icon": "speed"
         },
         {
           "title": "Limpeza integrada",
           "description": "O Scout normaliza a nomenclatura, preenche lacunas e sinaliza problemas de qualidade antes que dados incorretos cheguem aos seus painéis.",
-          "icon": "sucesso"
+          "icon": "success"
         },
         {
-          "title": "Escala Empresarial",
-          "description": "Mais de 100 locais, milhões de transações, consultas em menos de um segundo. O Scout foi desenvolvido para grupos de restaurantes que superam as planilhas.",
-          "icon": "crescimento"
+          "title": "Escala empresarial",
+          "description": "Mais de 100 locais, milhões de transações, consultas em menos de um segundo. O Scout foi desenvolvido para grupos de restaurantes que superaram as planilhas.",
+          "icon": "growth"
         }
       ],
       "integrationsHeading": "Plataformas Conectadas",
@@ -220,38 +220,38 @@ export const generatedLocalCopy = {
           "category": "Ponto de Venda",
           "systems": [
             "Oracle MICROS",
-            "Brinde",
-            "Quadrado",
-            "Trevo"
+            "Toast",
+            "Square",
+            "Clover"
           ]
         },
         {
           "category": "Mão de obra e agendamento",
           "systems": [
-            "7 turnos",
+            "7shifts",
             "HotSchedules",
-            "Deputado"
+            "Deputy"
           ]
         },
         {
           "category": "Inventário",
           "systems": [
-            "Homem de Mercado",
-            "Fabricável",
+            "MarketMan",
+            "Craftable",
             "BinWise"
           ]
         },
         {
           "category": "Reservas e CRM",
           "systems": [
-            "Sete Quartos",
+            "SevenRooms",
             "OpenTable",
             "Resy",
-            "Toque"
+            "Tock"
           ]
         }
       ],
-      "stepsHeading": "Conecte-se. Limpar. Ativar.",
+      "stepsHeading": "Conecte. Limpe. Ative.",
       "stepsDescription": "Três etapas de sistemas isolados para inteligência unificada",
       "steps": [
         {
@@ -284,24 +284,24 @@ export const generatedLocalCopy = {
       "featuresDescription": "Eén datalaag die alles waar uw restaurant op draait, verbindt, opschoont en verenigt",
       "features": [
         {
-          "title": "250+ vooraf gebouwde connectoren",
-          "description": "POS, arbeid, inventaris, reserveringen, bezorging, marketing, boekhouding - Scout spreekt met de systemen die u al gebruikt.",
-          "icon": "integratie"
+          "title": "250+ kant-en-klare connectoren",
+          "description": "POS, arbeid, inventaris, reserveringen, bezorging, marketing, boekhouding - Scout praat met de systemen die u al gebruikt.",
+          "icon": "integration"
         },
         {
           "title": "Continue synchronisatie",
           "description": "Gegevens stromen automatisch. Geen nachtelijke dumps, geen CSV-uploads, niet wachten tot de ochtend om de cijfers van gisteren te zien.",
-          "icon": "snelheid"
+          "icon": "speed"
         },
         {
           "title": "Ingebouwde reiniging",
           "description": "Scout normaliseert de naamgeving, vult hiaten op en signaleert kwaliteitsproblemen voordat slechte gegevens uw dashboards bereiken.",
-          "icon": "succes"
+          "icon": "success"
         },
         {
           "title": "Enterprise-schaal",
           "description": "Meer dan 100 locaties, miljoenen transacties, zoekopdrachten van minder dan een seconde. Scout is gebouwd voor restaurantgroepen die spreadsheets ontgroeien.",
-          "icon": "groei"
+          "icon": "growth"
         }
       ],
       "integrationsHeading": "Verbonden platforms",
@@ -310,39 +310,39 @@ export const generatedLocalCopy = {
         {
           "category": "Verkooppunt",
           "systems": [
-            "Orakel MICROS",
+            "Oracle MICROS",
             "Toast",
-            "Vierkant",
-            "Klaver"
+            "Square",
+            "Clover"
           ]
         },
         {
           "category": "Arbeid en planning",
           "systems": [
-            "7 ploegen",
+            "7shifts",
             "HotSchedules",
-            "plaatsvervanger"
+            "Deputy"
           ]
         },
         {
           "category": "Inventaris",
           "systems": [
-            "MarktMan",
-            "Maakbaar",
+            "MarketMan",
+            "Craftable",
             "BinWise"
           ]
         },
         {
           "category": "Reserveringen & CRM",
           "systems": [
-            "Zeven Kamers",
-            "OpenTabel",
+            "SevenRooms",
+            "OpenTable",
             "Resy",
-            "Tok"
+            "Tock"
           ]
         }
       ],
-      "stepsHeading": "Verbinden. Schoon. Activeren.",
+      "stepsHeading": "Verbinden. Opschonen. Activeren.",
       "stepsDescription": "Drie stappen van geïsoleerde systemen naar uniforme intelligentie",
       "steps": [
         {
@@ -375,24 +375,24 @@ export const generatedLocalCopy = {
       "featuresDescription": "Eine Datenschicht, die alles, worauf Ihr Restaurant läuft, verbindet, bereinigt und vereinheitlicht",
       "features": [
         {
-          "title": "Über 30 vorgefertigte Anschlüsse",
+          "title": "Über 30 vorgefertigte Konnektoren",
           "description": "POS, Arbeit, Inventar, Reservierungen, Lieferung, Marketing, Buchhaltung - Scout spricht mit den Systemen, die Sie bereits verwenden.",
-          "icon": "Integration"
+          "icon": "integration"
         },
         {
           "title": "Kontinuierliche Synchronisierung",
           "description": "Daten fließen automatisch. Keine nächtlichen Dumps, keine CSV-Uploads, kein Warten bis zum Morgen, um die Zahlen von gestern zu sehen.",
-          "icon": "Geschwindigkeit"
+          "icon": "speed"
         },
         {
-          "title": "Integrierte Reinigung",
+          "title": "Integrierte Bereinigung",
           "description": "Scout normalisiert die Benennung, füllt Lücken und meldet Qualitätsprobleme, bevor fehlerhafte Daten Ihre Dashboards erreichen.",
-          "icon": "Erfolg"
+          "icon": "success"
         },
         {
           "title": "Unternehmensmaßstab",
-          "description": "Über 100 Standorte, Millionen von Transaktionen, Abfragen in Sekundenbruchteilen. Scout wurde für Restaurantgruppen entwickelt, die nicht mehr mit Tabellenkalkulationen arbeiten können.",
-          "icon": "Wachstum"
+          "description": "Über 100 Standorte, Millionen von Transaktionen, Abfragen in Sekundenbruchteilen. Scout wurde für Restaurantgruppen entwickelt, die ihren Tabellenkalkulationen entwachsen sind.",
+          "icon": "growth"
         }
       ],
       "integrationsHeading": "Verbundene Plattformen",
@@ -403,33 +403,33 @@ export const generatedLocalCopy = {
           "systems": [
             "Oracle MICROS",
             "Toast",
-            "Quadratisch",
-            "Klee"
+            "Square",
+            "Clover"
           ]
         },
         {
           "category": "Arbeit & Terminplanung",
           "systems": [
-            "7 Schichten",
+            "7shifts",
             "HotSchedules",
-            "Stellvertreter"
+            "Deputy"
           ]
         },
         {
           "category": "Inventar",
           "systems": [
             "MarketMan",
-            "Herstellbar",
+            "Craftable",
             "BinWise"
           ]
         },
         {
           "category": "Reservierungen und CRM",
           "systems": [
-            "SiebenZimmer",
+            "SevenRooms",
             "OpenTable",
             "Resy",
-            "Tack"
+            "Tock"
           ]
         }
       ],
@@ -458,89 +458,89 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Alle Produkte anzeigen"
     },
     "es": {
-      "heroBadge": "Explorador: capa de datos",
+      "heroBadge": "Scout - Capa de datos",
       "heroDescription": "Scout conecta sus plataformas de punto de venta, mano de obra, inventario, reservas y entrega en una capa de datos limpia, de modo que cada panel, alerta y recomendación comience con datos en los que puede confiar.",
       "heroPrimary": "Ver Scout en acción",
       "heroSecondary": "Ver todas las integraciones",
-      "featuresHeading": "¿Qué hace el explorador?",
-      "featuresDescription": "Una capa de datos que conecta, limpia y unifica todo lo que ejecuta su restaurante",
+      "featuresHeading": "Qué hace Scout",
+      "featuresDescription": "Una capa de datos que conecta, limpia y unifica todo aquello sobre lo que funciona su restaurante",
       "features": [
         {
           "title": "Más de 30 conectores prediseñados",
-          "description": "POS, mano de obra, inventario, reservas, entrega, marketing, contabilidad: Scout se dirige a los sistemas que ya utiliza.",
-          "icon": "integración"
+          "description": "POS, mano de obra, inventario, reservas, entrega, marketing, contabilidad: Scout se comunica con los sistemas que ya utiliza.",
+          "icon": "integration"
         },
         {
           "title": "Sincronización continua",
           "description": "Los datos fluyen automáticamente. Sin volcados nocturnos, sin cargas de CSV, sin esperar hasta la mañana para ver los números de ayer.",
-          "icon": "velocidad"
+          "icon": "speed"
         },
         {
           "title": "Limpieza incorporada",
           "description": "Scout normaliza los nombres, llena los vacíos y señala los problemas de calidad antes de que los datos incorrectos lleguen a sus paneles.",
-          "icon": "éxito"
+          "icon": "success"
         },
         {
           "title": "Escala empresarial",
-          "description": "Más de 100 ubicaciones, millones de transacciones, consultas en menos de un segundo. Scout está diseñado para grupos de restaurantes a los que les quedan pequeñas las hojas de cálculo.",
-          "icon": "crecimiento"
+          "description": "Más de 100 ubicaciones, millones de transacciones, consultas en menos de un segundo. Scout está diseñado para grupos de restaurantes a los que se les han quedado pequeñas las hojas de cálculo.",
+          "icon": "growth"
         }
       ],
       "integrationsHeading": "Plataformas conectadas",
       "integrationsDescription": "La mayoría de las integraciones tardan menos de 5 minutos. Clave OAuth o API: autentíquese y listo.",
       "integrations": [
         {
-          "category": "Punto de Venta",
+          "category": "Punto de venta",
           "systems": [
-            "oráculo micros",
-            "Brindis",
-            "cuadrado",
-            "trébol"
+            "Oracle MICROS",
+            "Toast",
+            "Square",
+            "Clover"
           ]
         },
         {
           "category": "Trabajo y programación",
           "systems": [
-            "7 turnos",
-            "Horarios calientes",
-            "Diputado"
+            "7shifts",
+            "HotSchedules",
+            "Deputy"
           ]
         },
         {
-          "category": "inventario",
+          "category": "Inventario",
           "systems": [
-            "hombre de mercado",
-            "Fabricable",
+            "MarketMan",
+            "Craftable",
             "BinWise"
           ]
         },
         {
           "category": "Reservas y CRM",
           "systems": [
-            "Siete habitaciones",
-            "Abrir tabla",
-            "resy",
-            "tac"
+            "SevenRooms",
+            "OpenTable",
+            "Resy",
+            "Tock"
           ]
         }
       ],
-      "stepsHeading": "Conéctate. Limpio. Activar.",
+      "stepsHeading": "Conecte. Limpie. Active.",
       "stepsDescription": "Tres pasos desde sistemas aislados hasta inteligencia unificada",
       "steps": [
         {
           "step": "1",
-          "title": "autenticar",
+          "title": "Autenticar",
           "description": "Conecte sus plataformas con clave OAuth o API. La mayoría de las integraciones tardan menos de 5 minutos y no se requiere ingeniería."
         },
         {
           "step": "2",
-          "title": "normalizar",
+          "title": "Normalizar",
           "description": "Scout asigna cada fuente de datos a un esquema consistente, limpia inconsistencias y llena los vacíos automáticamente."
         },
         {
           "step": "3",
-          "title": "analizar",
-          "description": "Los datos unificados fluyen en paneles, alertas y recomendaciones. Sin exportaciones, sin entrada manual."
+          "title": "Analizar",
+          "description": "Los datos unificados fluyen hacia paneles, alertas y recomendaciones. Sin exportaciones, sin entrada manual."
         }
       ],
       "ctaTitle": "Deja de exportar. Comience a conectarse.",
@@ -551,30 +551,30 @@ export const generatedLocalCopy = {
     "ur": {
       "heroBadge": "سکاؤٹ - ڈیٹا لیئر",
       "heroDescription": "Scout آپ کے POS، لیبر، انوینٹری، ریزرویشنز، اور ڈیلیوری پلیٹ فارمز کو ایک صاف ڈیٹا لیئر میں جوڑتا ہے - اس لیے ہر ڈیش بورڈ، الرٹ، اور سفارش اس ڈیٹا سے شروع ہوتی ہے جس پر آپ اعتماد کر سکتے ہیں۔",
-      "heroPrimary": "اسکاؤٹ ان ایکشن دیکھیں",
+      "heroPrimary": "Scout کو عملی طور پر دیکھیں",
       "heroSecondary": "تمام انٹیگریشنز دیکھیں",
-      "featuresHeading": "اسکاؤٹ کیا کرتا ہے۔",
-      "featuresDescription": "ایک ڈیٹا پرت جو آپ کے ریستوراں میں چلنے والی ہر چیز کو جوڑتی ہے، صاف کرتی ہے اور متحد کرتی ہے۔",
+      "featuresHeading": "Scout کیا کرتا ہے",
+      "featuresDescription": "ایک ڈیٹا پرت جو آپ کے ریستوراں کو چلانے والی ہر چیز کو جوڑتی ہے، صاف کرتی ہے اور متحد کرتی ہے۔",
       "features": [
         {
-          "title": "250+ پری بلٹ کنیکٹرز",
-          "description": "پی او ایس، لیبر، انوینٹری، ریزرویشنز، ڈیلیوری، مارکیٹنگ، اکاؤنٹنگ - اسکاؤٹ ان سسٹمز سے بات کرتا ہے جو آپ پہلے سے استعمال کرتے ہیں۔",
-          "icon": "انضمام"
+          "title": "250+ پہلے سے تیار شدہ کنیکٹرز",
+          "description": "POS، لیبر، انوینٹری، ریزرویشنز، ڈیلیوری، مارکیٹنگ، اکاؤنٹنگ - Scout ان سسٹمز سے بات کرتا ہے جو آپ پہلے سے استعمال کرتے ہیں۔",
+          "icon": "integration"
         },
         {
           "title": "مسلسل مطابقت پذیری",
-          "description": "ڈیٹا خود بخود بہہ جاتا ہے۔ کوئی رات کا ڈمپ نہیں، کوئی CSV اپ لوڈ نہیں، کل کے نمبر دیکھنے کے لیے صبح تک انتظار نہیں۔",
-          "icon": "رفتار"
+          "description": "ڈیٹا خود بخود بہتا ہے۔ کوئی رات کا ڈمپ نہیں، کوئی CSV اپ لوڈ نہیں، کل کے اعداد دیکھنے کے لیے صبح تک انتظار نہیں۔",
+          "icon": "speed"
         },
         {
-          "title": "بلٹ ان کی صفائی",
-          "description": "Scout نام دینے کو معمول بناتا ہے، خلا کو پُر کرتا ہے، اور خراب ڈیٹا آپ کے ڈیش بورڈ تک پہنچنے سے پہلے معیار کے مسائل کو جھنڈا دیتا ہے۔",
-          "icon": "کامیابی"
+          "title": "بلٹ اِن صفائی",
+          "description": "Scout نام دینے کو معیاری بناتا ہے، خلا کو پُر کرتا ہے، اور خراب ڈیٹا آپ کے ڈیش بورڈ تک پہنچنے سے پہلے معیار کے مسائل کو نشان زد کرتا ہے۔",
+          "icon": "success"
         },
         {
           "title": "انٹرپرائز اسکیل",
-          "description": "100+ مقامات، لاکھوں لین دین، ذیلی سیکنڈ کے سوالات۔ اسکاؤٹ ریستوراں کے گروپوں کے لیے بنایا گیا ہے جو اسپریڈ شیٹس کو آگے بڑھاتے ہیں۔",
-          "icon": "ترقی"
+          "description": "100+ مقامات، لاکھوں لین دین، سیکنڈ سے کم کے سوالات۔ Scout ان ریستوراں گروپوں کے لیے بنایا گیا ہے جو اسپریڈ شیٹس سے آگے بڑھ چکے ہیں۔",
+          "icon": "growth"
         }
       ],
       "integrationsHeading": "منسلک پلیٹ فارمز",
@@ -583,89 +583,89 @@ export const generatedLocalCopy = {
         {
           "category": "پوائنٹ آف سیل",
           "systems": [
-            "اوریکل مائکروس",
-            "ٹوسٹ",
-            "مربع",
-            "سہ شاخہ"
+            "Oracle MICROS",
+            "Toast",
+            "Square",
+            "Clover"
           ]
         },
         {
           "category": "لیبر اور شیڈولنگ",
           "systems": [
-            "7 شفٹیں",
-            "ہاٹ شیڈیولز",
-            "نائب"
+            "7shifts",
+            "HotSchedules",
+            "Deputy"
           ]
         },
         {
           "category": "انوینٹری",
           "systems": [
-            "مارکیٹ مین",
-            "قابل دستکاری",
-            "بن وائز"
+            "MarketMan",
+            "Craftable",
+            "BinWise"
           ]
         },
         {
-          "category": "تحفظات اور CRM",
+          "category": "ریزرویشنز اور CRM",
           "systems": [
-            "سیون رومز",
-            "اوپن ٹیبل",
-            "ریسی",
-            "ٹک ۔"
+            "SevenRooms",
+            "OpenTable",
+            "Resy",
+            "Tock"
           ]
         }
       ],
-      "stepsHeading": "جڑیں۔ صاف چالو کریں۔",
-      "stepsDescription": "خاموش نظام سے متحد ذہانت تک تین مراحل",
+      "stepsHeading": "جوڑیں۔ صاف کریں۔ فعال کریں۔",
+      "stepsDescription": "الگ تھلگ نظاموں سے متحد ذہانت تک تین مراحل",
       "steps": [
         {
           "step": "1",
-          "title": "تصدیق کریں۔",
-          "description": "اپنے پلیٹ فارمز کو OAuth یا API کلید سے مربوط کریں۔ زیادہ تر انضمام میں 5 منٹ سے کم وقت لگتا ہے - انجینئرنگ کی ضرورت نہیں ہے۔"
+          "title": "تصدیق کریں",
+          "description": "اپنے پلیٹ فارمز کو OAuth یا API کلید سے جوڑیں۔ زیادہ تر انٹیگریشنز میں 5 منٹ سے کم وقت لگتا ہے - انجینئرنگ کی ضرورت نہیں ہے۔"
         },
         {
           "step": "2",
-          "title": "معمول بنانا",
-          "description": "اسکاؤٹ ہر ڈیٹا سورس کو ایک مستقل اسکیما میں نقشہ بناتا ہے، تضادات کو صاف کرتا ہے، اور خلاء کو خود بخود پُر کرتا ہے۔"
+          "title": "معیاری بنائیں",
+          "description": "Scout ہر ڈیٹا سورس کو ایک مستقل اسکیما سے منسلک کرتا ہے، تضادات کو صاف کرتا ہے، اور خلا کو خود بخود پُر کرتا ہے۔"
         },
         {
           "step": "3",
-          "title": "تجزیہ کریں۔",
-          "description": "متحد ڈیٹا ڈیش بورڈز، انتباہات، اور سفارشات میں بہتا ہے۔ کوئی برآمدات نہیں، کوئی دستی اندراج نہیں۔"
+          "title": "تجزیہ کریں",
+          "description": "متحد ڈیٹا ڈیش بورڈز، انتباہات اور سفارشات میں بہتا ہے۔ کوئی ایکسپورٹ نہیں، کوئی دستی اندراج نہیں۔"
         }
       ],
-      "ctaTitle": "ایکسپورٹ کرنا بند کریں۔ جڑنا شروع کریں۔",
-      "ctaDescription": "دیکھیں کہ اسکاؤٹ آپ کے ریستوراں کے ڈیٹا کو ایک ہی ڈیمو میں کیسے متحد کرتا ہے۔",
+      "ctaTitle": "ایکسپورٹ کرنا بند کریں۔ جوڑنا شروع کریں۔",
+      "ctaDescription": "دیکھیں کہ Scout آپ کے ریستوراں کے ڈیٹا کو ایک ہی ڈیمو میں کیسے متحد کرتا ہے۔",
       "ctaPrimary": "ایک ڈیمو بک کرو",
       "ctaSecondary": "تمام مصنوعات دیکھیں"
     },
     "it": {
       "heroBadge": "Scout: livello dati",
       "heroDescription": "Scout collega le tue piattaforme POS, manodopera, inventario, prenotazioni e consegna in un unico livello di dati pulito, in modo che ogni dashboard, avviso e raccomandazione inizi con dati di cui ti puoi fidare.",
-      "heroPrimary": "Guarda lo scout in azione",
+      "heroPrimary": "Guarda Scout in azione",
       "heroSecondary": "Visualizza tutte le integrazioni",
-      "featuresHeading": "Cosa fa lo Scout",
-      "featuresDescription": "Un livello dati che collega, ripulisce e unifica tutto ciò su cui viene eseguito il tuo ristorante",
+      "featuresHeading": "Cosa fa Scout",
+      "featuresDescription": "Un livello dati che collega, ripulisce e unifica tutto ciò su cui si basa il tuo ristorante",
       "features": [
         {
-          "title": "Oltre 30 connettori precostruiti",
-          "description": "POS, manodopera, inventario, prenotazioni, consegna, marketing, contabilità: Scout interagisce con i sistemi che già utilizzi.",
-          "icon": "integrazione"
+          "title": "Oltre 30 connettori predefiniti",
+          "description": "POS, manodopera, inventario, prenotazioni, consegna, marketing, contabilità: Scout dialoga con i sistemi che già utilizzi.",
+          "icon": "integration"
         },
         {
           "title": "Sincronizzazione continua",
           "description": "I dati fluiscono automaticamente. Nessun dump notturno, nessun caricamento CSV, nessuna attesa fino al mattino per vedere i numeri di ieri.",
-          "icon": "velocità"
+          "icon": "speed"
         },
         {
           "title": "Pulizia integrata",
           "description": "Scout normalizza la denominazione, colma le lacune e segnala i problemi di qualità prima che i dati errati raggiungano le dashboard.",
-          "icon": "successo"
+          "icon": "success"
         },
         {
           "title": "Scala aziendale",
-          "description": "Oltre 100 posizioni, milioni di transazioni, query inferiori al secondo. Scout è pensato per i gruppi di ristoranti che non hanno più bisogno dei fogli di calcolo.",
-          "icon": "crescita"
+          "description": "Oltre 100 sedi, milioni di transazioni, query inferiori al secondo. Scout è pensato per i gruppi di ristoranti che hanno superato i fogli di calcolo.",
+          "icon": "growth"
         }
       ],
       "integrationsHeading": "Piattaforme connesse",
@@ -675,38 +675,38 @@ export const generatedLocalCopy = {
           "category": "Punto vendita",
           "systems": [
             "Oracle MICROS",
-            "Pane tostato",
-            "Quadrato",
-            "Trifoglio"
+            "Toast",
+            "Square",
+            "Clover"
           ]
         },
         {
           "category": "Lavoro e pianificazione",
           "systems": [
-            "7 turni",
-            "Pianificazioni calde",
-            "Vice"
+            "7shifts",
+            "HotSchedules",
+            "Deputy"
           ]
         },
         {
           "category": "Inventario",
           "systems": [
             "MarketMan",
-            "Realizzabile",
+            "Craftable",
             "BinWise"
           ]
         },
         {
           "category": "Prenotazioni e CRM",
           "systems": [
-            "SetteStanze",
+            "SevenRooms",
             "OpenTable",
             "Resy",
-            "Toc"
+            "Tock"
           ]
         }
       ],
-      "stepsHeading": "Connettiti. Pulito. Attivare.",
+      "stepsHeading": "Connetti. Pulisci. Attiva.",
       "stepsDescription": "Tre passi dai sistemi isolati all’intelligenza unificata",
       "steps": [
         {
@@ -731,74 +731,74 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Visualizza tutti i prodotti"
     },
     "hi": {
-      "heroBadge": "स्काउट - डेटा परत",
-      "heroDescription": "स्काउट आपके पीओएस, श्रम, इन्वेंट्री, आरक्षण और डिलीवरी प्लेटफ़ॉर्म को एक स्वच्छ डेटा परत में जोड़ता है - इसलिए प्रत्येक डैशबोर्ड, अलर्ट और अनुशंसा उस डेटा से शुरू होती है जिस पर आप भरोसा कर सकते हैं।",
-      "heroPrimary": "स्काउट इन एक्शन देखें",
+      "heroBadge": "Scout - डेटा परत",
+      "heroDescription": "Scout आपके POS, श्रम, इन्वेंट्री, आरक्षण और डिलीवरी प्लेटफ़ॉर्म को एक स्वच्छ डेटा परत में जोड़ता है - इसलिए प्रत्येक डैशबोर्ड, अलर्ट और अनुशंसा उस डेटा से शुरू होती है जिस पर आप भरोसा कर सकते हैं।",
+      "heroPrimary": "Scout को क्रियान्वित होते देखें",
       "heroSecondary": "सभी एकीकरण देखें",
-      "featuresHeading": "स्काउट क्या करता है",
-      "featuresDescription": "एक डेटा परत जो आपके रेस्तरां द्वारा संचालित हर चीज़ को जोड़ती है, साफ़ करती है और एकीकृत करती है",
+      "featuresHeading": "Scout क्या करता है",
+      "featuresDescription": "एक डेटा परत जो आपके रेस्तरां को संचालित करने वाली हर चीज़ को जोड़ती है, साफ़ करती है और एकीकृत करती है",
       "features": [
         {
           "title": "250+ पूर्व-निर्मित कनेक्टर",
-          "description": "पीओएस, श्रम, इन्वेंट्री, आरक्षण, वितरण, विपणन, लेखांकन - स्काउट उन प्रणालियों के बारे में बात करता है जिनका आप पहले से उपयोग करते हैं।",
-          "icon": "एकीकरण"
+          "description": "POS, श्रम, इन्वेंट्री, आरक्षण, डिलीवरी, मार्केटिंग, अकाउंटिंग - Scout उन प्रणालियों से संवाद करता है जिनका आप पहले से उपयोग करते हैं।",
+          "icon": "integration"
         },
         {
           "title": "सतत समन्वयन",
-          "description": "डेटा स्वचालित रूप से प्रवाहित होता है. कोई रात्रिकालीन डंप नहीं, कोई सीएसवी अपलोड नहीं, कल के नंबर देखने के लिए सुबह तक का इंतजार नहीं।",
-          "icon": "गति"
+          "description": "डेटा स्वचालित रूप से प्रवाहित होता है। कोई रात्रिकालीन डंप नहीं, कोई CSV अपलोड नहीं, कल के आंकड़े देखने के लिए सुबह तक का इंतजार नहीं।",
+          "icon": "speed"
         },
         {
-          "title": "सफ़ाई अंतर्निहित",
-          "description": "खराब डेटा आपके डैशबोर्ड तक पहुंचने से पहले स्काउट नामकरण को सामान्य बनाता है, अंतराल को भरता है और गुणवत्ता संबंधी समस्याओं को चिह्नित करता है।",
-          "icon": "सफलता"
+          "title": "अंतर्निहित सफ़ाई",
+          "description": "खराब डेटा आपके डैशबोर्ड तक पहुंचने से पहले Scout नामकरण को मानकीकृत करता है, अंतराल को भरता है और गुणवत्ता संबंधी समस्याओं को चिह्नित करता है।",
+          "icon": "success"
         },
         {
-          "title": "उद्यम पैमाना",
-          "description": "100+ स्थान, लाखों लेन-देन, उप-सेकेंड क्वेरीज़। स्काउट उन रेस्तरां समूहों के लिए बनाया गया है जो स्प्रेडशीट से आगे निकल जाते हैं।",
-          "icon": "विकास"
+          "title": "एंटरप्राइज़ पैमाना",
+          "description": "100+ स्थान, लाखों लेन-देन, उप-सेकंड क्वेरीज़। Scout उन रेस्तरां समूहों के लिए बनाया गया है जो स्प्रेडशीट से आगे निकल चुके हैं।",
+          "icon": "growth"
         }
       ],
       "integrationsHeading": "कनेक्टेड प्लेटफार्म",
       "integrationsDescription": "अधिकांश एकीकरणों में 5 मिनट से कम समय लगता है। OAuth या API कुंजी - प्रमाणित करें और जाएं।",
       "integrations": [
         {
-          "category": "बिक्री का बिंदु",
+          "category": "बिक्री केंद्र",
           "systems": [
-            "ओरेकल माइक्रो",
-            "टोस्ट",
-            "चौकोर",
-            "तिपतिया घास"
+            "Oracle MICROS",
+            "Toast",
+            "Square",
+            "Clover"
           ]
         },
         {
           "category": "श्रम एवं शेड्यूलिंग",
           "systems": [
-            "7 शिफ्ट",
-            "हॉट शेड्यूल",
-            "डिप्टी"
+            "7shifts",
+            "HotSchedules",
+            "Deputy"
           ]
         },
         {
           "category": "इन्वेंटरी",
           "systems": [
-            "मार्केटमैन",
-            "शिल्पयोग्य",
-            "बिनवाइज़"
+            "MarketMan",
+            "Craftable",
+            "BinWise"
           ]
         },
         {
-          "category": "आरक्षण एवं सीआरएम",
+          "category": "आरक्षण एवं CRM",
           "systems": [
-            "सात कमरे",
-            "ओपनटेबल",
-            "रेसी",
-            "टोक़"
+            "SevenRooms",
+            "OpenTable",
+            "Resy",
+            "Tock"
           ]
         }
       ],
-      "stepsHeading": "कनेक्ट करें. साफ। सक्रिय करें.",
-      "stepsDescription": "साइल्ड सिस्टम से एकीकृत इंटेलिजेंस तक तीन चरण",
+      "stepsHeading": "कनेक्ट करें। साफ़ करें। सक्रिय करें।",
+      "stepsDescription": "पृथक सिस्टम से एकीकृत इंटेलिजेंस तक तीन चरण",
       "steps": [
         {
           "step": "1",
@@ -807,8 +807,8 @@ export const generatedLocalCopy = {
         },
         {
           "step": "2",
-          "title": "सामान्य करें",
-          "description": "स्काउट प्रत्येक डेटा स्रोत को एक सुसंगत स्कीमा में मैप करता है, विसंगतियों को दूर करता है, और अंतराल को स्वचालित रूप से भरता है।"
+          "title": "मानकीकृत करें",
+          "description": "Scout प्रत्येक डेटा स्रोत को एक सुसंगत स्कीमा से मैप करता है, विसंगतियों को दूर करता है, और अंतराल को स्वचालित रूप से भरता है।"
         },
         {
           "step": "3",
@@ -816,8 +816,8 @@ export const generatedLocalCopy = {
           "description": "एकीकृत डेटा डैशबोर्ड, अलर्ट और अनुशंसाओं में प्रवाहित होता है। कोई निर्यात नहीं, कोई मैन्युअल प्रविष्टि नहीं।"
         }
       ],
-      "ctaTitle": "निर्यात बंद करो. कनेक्ट करना प्रारंभ करें.",
-      "ctaDescription": "देखें कि स्काउट आपके रेस्तरां डेटा को एक ही डेमो में कैसे एकीकृत करता है।",
+      "ctaTitle": "निर्यात बंद करें। कनेक्ट करना प्रारंभ करें।",
+      "ctaDescription": "देखें कि Scout आपके रेस्तरां डेटा को एक ही डेमो में कैसे एकीकृत करता है।",
       "ctaPrimary": "एक डेमो बुक करें",
       "ctaSecondary": "सभी उत्पाद देखें"
     },
@@ -830,24 +830,24 @@ export const generatedLocalCopy = {
       "featuresDescription": "Restoranınızın üzerinde çalıştığı her şeyi birbirine bağlayan, temizleyen ve birleştiren tek bir veri katmanı",
       "features": [
         {
-          "title": "30'dan fazla Önceden Oluşturulmuş Konektör",
+          "title": "30'dan fazla hazır konektör",
           "description": "POS, işçilik, envanter, rezervasyonlar, teslimat, pazarlama, muhasebe - Scout halihazırda kullanmakta olduğunuz sistemlerle konuşur.",
-          "icon": "entegrasyon"
+          "icon": "integration"
         },
         {
           "title": "Sürekli Senkronizasyon",
           "description": "Veriler otomatik olarak akar. Gecelik veri dökümü yok, CSV yüklemesi yok, dünün rakamlarını görmek için sabaha kadar beklemek yok.",
-          "icon": "hız"
+          "icon": "speed"
         },
         {
           "title": "Dahili Temizleme",
           "description": "Scout, kötü veriler kontrol panelinize ulaşmadan önce adlandırmayı normalleştirir, boşlukları doldurur ve kalite sorunlarını işaretler.",
-          "icon": "başarı"
+          "icon": "success"
         },
         {
           "title": "Kurumsal Ölçek",
-          "description": "100'den fazla konum, milyonlarca işlem, saniyeden kısa sorgular. Scout, e-tabloları aşan restoran grupları için tasarlandı.",
-          "icon": "büyüme"
+          "description": "100'den fazla konum, milyonlarca işlem, saniyeden kısa sorgular. Scout, elektronik tabloları aşan restoran grupları için tasarlandı.",
+          "icon": "growth"
         }
       ],
       "integrationsHeading": "Bağlantılı Platformlar",
@@ -856,35 +856,35 @@ export const generatedLocalCopy = {
         {
           "category": "Satış Noktası",
           "systems": [
-            "Oracle MİKROS",
-            "Tost",
-            "Kare",
-            "Yonca"
+            "Oracle MICROS",
+            "Toast",
+            "Square",
+            "Clover"
           ]
         },
         {
           "category": "İşgücü ve Planlama",
           "systems": [
-            "7 vardiya",
-            "Sıcak Programlar",
-            "Yardımcısı"
+            "7shifts",
+            "HotSchedules",
+            "Deputy"
           ]
         },
         {
           "category": "Envanter",
           "systems": [
-            "Pazar Adamı",
-            "İşlenebilir",
+            "MarketMan",
+            "Craftable",
             "BinWise"
           ]
         },
         {
           "category": "Rezervasyonlar ve CRM",
           "systems": [
-            "Yedi Oda",
+            "SevenRooms",
             "OpenTable",
             "Resy",
-            "Tak"
+            "Tock"
           ]
         }
       ],
@@ -915,30 +915,30 @@ export const generatedLocalCopy = {
     "zh-Hans": {
       "heroBadge": "Scout - 数据层",
       "heroDescription": "Scout 将您的 POS、人工、库存、预订和交付平台连接到一个干净的数据层 - 因此每个仪表板、警报和建议都始于您可以信任的数据。",
-      "heroPrimary": "查看侦察兵的实际行动",
+      "heroPrimary": "观看 Scout 实际运作",
       "heroSecondary": "查看所有集成",
-      "featuresHeading": "侦察兵做什么",
-      "featuresDescription": "一个数据层可连接、清理和统一餐厅运营的所有内容",
+      "featuresHeading": "Scout 的作用",
+      "featuresDescription": "一个数据层，连接、清理并统一餐厅运营所依赖的一切",
       "features": [
         {
-          "title": "30 多个预制连接器",
-          "description": "POS、劳动力、库存、预订、交付、营销、会计 - Scout 与您已经使用的系统进行对话。",
-          "icon": "整合"
+          "title": "30 多个预建连接器",
+          "description": "POS、劳动力、库存、预订、配送、营销、会计 - Scout 与您已经使用的系统对接。",
+          "icon": "integration"
         },
         {
           "title": "连续同步",
           "description": "数据自动流动。无需每晚转储，无需上传 CSV，无需等到早上才能查看昨天的数据。",
-          "icon": "速度"
+          "icon": "speed"
         },
         {
-          "title": "内置清洁",
+          "title": "内置清理",
           "description": "Scout 会在不良数据到达仪表板之前规范命名、填补空白并标记质量问题。",
-          "icon": "成功"
+          "icon": "success"
         },
         {
           "title": "企业规模",
-          "description": "100 多个地点、数百万笔交易、亚秒级查询。 Scout 是为电子表格无法满足需求的餐厅集团而构建的。",
-          "icon": "成长"
+          "description": "100 多个地点、数百万笔交易、亚秒级查询。Scout 专为已超出电子表格承载能力的餐厅集团而构建。",
+          "icon": "growth"
         }
       ],
       "integrationsHeading": "互联平台",
@@ -947,39 +947,39 @@ export const generatedLocalCopy = {
         {
           "category": "销售点",
           "systems": [
-            "甲骨文微系统",
-            "吐司",
-            "广场",
-            "三叶草"
+            "Oracle MICROS",
+            "Toast",
+            "Square",
+            "Clover"
           ]
         },
         {
-          "category": "劳动力与调度",
+          "category": "劳动力与排班",
           "systems": [
-            "7班",
-            "热门时刻表",
-            "副手"
+            "7shifts",
+            "HotSchedules",
+            "Deputy"
           ]
         },
         {
           "category": "库存",
           "systems": [
-            "市场人",
-            "可制作的",
-            "宾智"
+            "MarketMan",
+            "Craftable",
+            "BinWise"
           ]
         },
         {
-          "category": "预订和客户关系管理",
+          "category": "预订和 CRM",
           "systems": [
-            "七间房",
-            "开放表",
-            "雷西",
-            "托克"
+            "SevenRooms",
+            "OpenTable",
+            "Resy",
+            "Tock"
           ]
         }
       ],
-      "stepsHeading": "连接。干净的。激活。",
+      "stepsHeading": "连接。清理。激活。",
       "stepsDescription": "从孤立系统到统一智能的三个步骤",
       "steps": [
         {
@@ -1006,30 +1006,30 @@ export const generatedLocalCopy = {
     "pl": {
       "heroBadge": "Scout - warstwa danych",
       "heroDescription": "Scout łączy platformy POS, pracy, zapasów, rezerwacji i dostaw w jedną przejrzystą warstwę danych - dzięki czemu każdy pulpit nawigacyjny, alert i rekomendacja zaczynają się od danych, którym możesz zaufać.",
-      "heroPrimary": "Zobacz Skauta w akcji",
+      "heroPrimary": "Zobacz Scout w akcji",
       "heroSecondary": "Zobacz wszystkie integracje",
-      "featuresHeading": "Co robi Skaut",
+      "featuresHeading": "Co robi Scout",
       "featuresDescription": "Jedna warstwa danych, która łączy, czyści i ujednolica wszystko, na czym działa Twoja restauracja",
       "features": [
         {
-          "title": "Ponad 30 gotowych złączy",
-          "description": "POS, praca, zapasy, rezerwacje, dostawa, marketing, księgowość - Scout przemawia do systemów, z których już korzystasz.",
-          "icon": "integracja"
+          "title": "Ponad 30 gotowych konektorów",
+          "description": "POS, praca, zapasy, rezerwacje, dostawa, marketing, księgowość - Scout komunikuje się z systemami, z których już korzystasz.",
+          "icon": "integration"
         },
         {
           "title": "Ciągła synchronizacja",
           "description": "Dane przepływają automatycznie. Żadnych nocnych zrzutów, żadnego przesyłania plików CSV, żadnego czekania do rana, aby zobaczyć wczorajsze liczby.",
-          "icon": "prędkość"
+          "icon": "speed"
         },
         {
           "title": "Wbudowane czyszczenie",
           "description": "Scout normalizuje nazewnictwo, wypełnia luki i sygnalizuje problemy z jakością, zanim złe dane dotrą do pulpitów nawigacyjnych.",
-          "icon": "sukces"
+          "icon": "success"
         },
         {
           "title": "Skala przedsiębiorstwa",
           "description": "Ponad 100 lokalizacji, miliony transakcji, zapytania w czasie krótszym niż sekunda. Scout jest przeznaczony dla grup restauracji, które wyrastają z arkuszy kalkulacyjnych.",
-          "icon": "wzrost"
+          "icon": "growth"
         }
       ],
       "integrationsHeading": "Połączone platformy",
@@ -1039,34 +1039,34 @@ export const generatedLocalCopy = {
           "category": "Punkt sprzedaży",
           "systems": [
             "Oracle MICROS",
-            "Tost",
-            "Kwadrat",
-            "Koniczyna"
+            "Toast",
+            "Square",
+            "Clover"
           ]
         },
         {
           "category": "Praca i harmonogram",
           "systems": [
-            "7 zmian",
-            "Gorące harmonogramy",
-            "Zastępca"
+            "7shifts",
+            "HotSchedules",
+            "Deputy"
           ]
         },
         {
           "category": "Zapasy",
           "systems": [
             "MarketMan",
-            "Możliwość wykonania",
+            "Craftable",
             "BinWise"
           ]
         },
         {
           "category": "Rezerwacje i CRM",
           "systems": [
-            "Siedem pokoi",
-            "Otwórz tabelę",
+            "SevenRooms",
+            "OpenTable",
             "Resy",
-            "Tok"
+            "Tock"
           ]
         }
       ],
@@ -1095,32 +1095,32 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Zobacz wszystkie produkty"
     },
     "ja": {
-      "heroBadge": "スカウト - データレイヤー",
+      "heroBadge": "Scout - データレイヤー",
       "heroDescription": "Scout は、POS、労働力、在庫、予約、配送のプラットフォームを 1 つのクリーンなデータ レイヤーに接続します。そのため、すべてのダッシュボード、アラート、推奨事項は信頼できるデータから始まります。",
-      "heroPrimary": "スカウトの活躍を見る",
+      "heroPrimary": "Scout の活躍を見る",
       "heroSecondary": "すべての統合を表示",
-      "featuresHeading": "スカウトの仕事",
-      "featuresDescription": "レストランが運営するすべてのものを接続、クリーンアップ、統合する 1 つのデータ層",
+      "featuresHeading": "Scout の機能",
+      "featuresDescription": "レストランの運営を支えるすべてを接続、クリーンアップ、統合する 1 つのデータ層",
       "features": [
         {
           "title": "30 個以上の構築済みコネクタ",
-          "description": "POS、労働力、在庫、予約、配送、マーケティング、会計 - Scout は、すでに使用しているシステムについて話します。",
-          "icon": "統合"
+          "description": "POS、労働力、在庫、予約、配送、マーケティング、会計 - Scout は、すでに使用しているシステムと連携します。",
+          "icon": "integration"
         },
         {
           "title": "継続的な同期",
           "description": "データは自動的に流れます。毎晩ダンプしたり、CSV をアップロードしたり、昨日の数値を確認するために朝まで待つ必要はありません。",
-          "icon": "速度"
+          "icon": "speed"
         },
         {
           "title": "内蔵のクリーニング",
           "description": "Scout は、不正なデータがダッシュボードに到達する前に、名前を正規化し、ギャップを埋め、品質の問題にフラグを立てます。",
-          "icon": "成功"
+          "icon": "success"
         },
         {
           "title": "エンタープライズ規模",
-          "description": "100 以上の場所、数百万のトランザクション、1 秒未満のクエリ。 Scout は、スプレッドシートを超えたレストラン グループ向けに構築されています。",
-          "icon": "成長"
+          "description": "100 以上の拠点、数百万のトランザクション、1 秒未満のクエリ。Scout は、スプレッドシートでは手に負えなくなったレストラン グループ向けに構築されています。",
+          "icon": "growth"
         }
       ],
       "integrationsHeading": "接続されたプラットフォーム",
@@ -1129,39 +1129,39 @@ export const generatedLocalCopy = {
         {
           "category": "販売時点管理",
           "systems": [
-            "オラクルマイクロ",
-            "乾杯",
-            "正方形",
-            "クローバー"
+            "Oracle MICROS",
+            "Toast",
+            "Square",
+            "Clover"
           ]
         },
         {
           "category": "労働力とスケジュール管理",
           "systems": [
-            "7交代制",
-            "ホットスケジュール",
-            "副"
+            "7shifts",
+            "HotSchedules",
+            "Deputy"
           ]
         },
         {
           "category": "在庫",
           "systems": [
-            "マーケットマン",
-            "クラフト可能",
-            "ビンワイズ"
+            "MarketMan",
+            "Craftable",
+            "BinWise"
           ]
         },
         {
           "category": "予約とCRM",
           "systems": [
-            "セブンルームズ",
-            "オープンテーブル",
-            "レジー",
-            "トック"
+            "SevenRooms",
+            "OpenTable",
+            "Resy",
+            "Tock"
           ]
         }
       ],
-      "stepsHeading": "接続します。クリーン。活性化。",
+      "stepsHeading": "接続。クリーンアップ。有効化。",
       "stepsDescription": "サイロ化されたシステムから統合インテリジェンスへの 3 つのステップ",
       "steps": [
         {
@@ -1186,32 +1186,32 @@ export const generatedLocalCopy = {
       "ctaSecondary": "すべての製品を見る"
     },
     "id": {
-      "heroBadge": "Pramuka - Lapisan Data",
+      "heroBadge": "Scout - Lapisan Data",
       "heroDescription": "Scout menghubungkan POS, tenaga kerja, inventaris, reservasi, dan platform pengiriman Anda ke dalam satu lapisan data yang bersih - sehingga setiap dasbor, peringatan, dan rekomendasi dimulai dengan data yang dapat Anda percayai.",
-      "heroPrimary": "Lihat Pramuka Beraksi",
+      "heroPrimary": "Lihat Scout Beraksi",
       "heroSecondary": "Lihat Semua Integrasi",
-      "featuresHeading": "Apa yang Dilakukan Pramuka",
-      "featuresDescription": "Satu lapisan data yang menghubungkan, membersihkan, dan menyatukan semua yang dijalankan restoran Anda",
+      "featuresHeading": "Apa yang Dilakukan Scout",
+      "featuresDescription": "Satu lapisan data yang menghubungkan, membersihkan, dan menyatukan semua yang menjadi dasar operasional restoran Anda",
       "features": [
         {
-          "title": "250+ Konektor Pra-Built",
-          "description": "POS, tenaga kerja, inventaris, reservasi, pengiriman, pemasaran, akuntansi - Scout berbicara kepada sistem yang sudah Anda gunakan.",
-          "icon": "integrasi"
+          "title": "250+ Konektor Siap Pakai",
+          "description": "POS, tenaga kerja, inventaris, reservasi, pengiriman, pemasaran, akuntansi - Scout terhubung dengan sistem yang sudah Anda gunakan.",
+          "icon": "integration"
         },
         {
           "title": "Sinkronisasi Berkelanjutan",
-          "description": "Data mengalir secara otomatis. Tidak ada pembuangan malam hari, tidak ada unggahan CSV, tidak perlu menunggu hingga pagi hari untuk melihat nomor kemarin.",
-          "icon": "kecepatan"
+          "description": "Data mengalir secara otomatis. Tidak ada pembuangan malam hari, tidak ada unggahan CSV, tidak perlu menunggu hingga pagi hari untuk melihat angka kemarin.",
+          "icon": "speed"
         },
         {
           "title": "Pembersihan Terintegrasi",
           "description": "Scout menormalkan penamaan, mengisi kekosongan, dan menandai masalah kualitas sebelum data buruk mencapai dasbor Anda.",
-          "icon": "sukses"
+          "icon": "success"
         },
         {
           "title": "Skala Perusahaan",
-          "description": "100+ lokasi, jutaan transaksi, kueri subdetik. Scout dibuat untuk grup restoran yang melebihi spreadsheet.",
-          "icon": "pertumbuhan"
+          "description": "100+ lokasi, jutaan transaksi, kueri subdetik. Scout dibuat untuk grup restoran yang telah melampaui spreadsheet.",
+          "icon": "growth"
         }
       ],
       "integrationsHeading": "Platform yang Terhubung",
@@ -1220,39 +1220,39 @@ export const generatedLocalCopy = {
         {
           "category": "Tempat Penjualan",
           "systems": [
-            "MIKRO Oracle",
-            "Bersulang",
-            "Persegi",
-            "semanggi"
+            "Oracle MICROS",
+            "Toast",
+            "Square",
+            "Clover"
           ]
         },
         {
           "category": "Tenaga Kerja & Penjadwalan",
           "systems": [
-            "7 shift",
-            "Jadwal Panas",
-            "Deputi"
+            "7shifts",
+            "HotSchedules",
+            "Deputy"
           ]
         },
         {
-          "category": "Persediaan",
+          "category": "Inventaris",
           "systems": [
-            "Manusia Pasar",
-            "Bisa dibuat",
-            "Bin Bijaksana"
+            "MarketMan",
+            "Craftable",
+            "BinWise"
           ]
         },
         {
           "category": "Reservasi & CRM",
           "systems": [
-            "Tujuh Kamar",
-            "Tabel Terbuka",
-            "Resi",
-            "Tok"
+            "SevenRooms",
+            "OpenTable",
+            "Resy",
+            "Tock"
           ]
         }
       ],
-      "stepsHeading": "Hubungkan. Membersihkan. Mengaktifkan.",
+      "stepsHeading": "Hubungkan. Bersihkan. Aktifkan.",
       "stepsDescription": "Tiga langkah dari sistem tertutup menuju intelijen terpadu",
       "steps": [
         {
@@ -1277,69 +1277,69 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Lihat Semua Produk"
     },
     "ko": {
-      "heroBadge": "스카우트 - 데이터 레이어",
+      "heroBadge": "Scout - 데이터 레이어",
       "heroDescription": "Scout는 POS, 인력, 재고, 예약 및 배달 플랫폼을 하나의 깨끗한 데이터 계층으로 연결하므로 모든 대시보드, 알림 및 권장 사항은 신뢰할 수 있는 데이터에서 시작됩니다.",
-      "heroPrimary": "스카우트의 활약을 확인하세요",
+      "heroPrimary": "Scout의 활약을 확인하세요",
       "heroSecondary": "모든 통합 보기",
-      "featuresHeading": "스카우트가 하는 일",
-      "featuresDescription": "레스토랑에서 운영되는 모든 것을 연결하고, 정리하고, 통합하는 하나의 데이터 계층",
+      "featuresHeading": "Scout가 하는 일",
+      "featuresDescription": "레스토랑 운영의 모든 것을 연결하고, 정리하고, 통합하는 하나의 데이터 계층",
       "features": [
         {
           "title": "30개 이상의 사전 구축된 커넥터",
-          "description": "POS, 인력, 재고, 예약, 배송, 마케팅, 회계 - Scout는 귀하가 이미 사용하고 있는 시스템과 대화합니다.",
-          "icon": "통합"
+          "description": "POS, 인력, 재고, 예약, 배송, 마케팅, 회계 - Scout는 귀하가 이미 사용하고 있는 시스템과 연동됩니다.",
+          "icon": "integration"
         },
         {
           "title": "지속적인 동기화",
           "description": "데이터는 자동으로 흐릅니다. 야간 덤프도 없고, CSV 업로드도 없으며, 어제 수치를 확인하기 위해 아침까지 기다리지 않아도 됩니다.",
-          "icon": "속도"
+          "icon": "speed"
         },
         {
-          "title": "청소 내장",
+          "title": "내장 정리 기능",
           "description": "Scout는 잘못된 데이터가 대시보드에 도달하기 전에 이름 지정을 표준화하고, 공백을 채우고, 품질 문제에 플래그를 지정합니다.",
-          "icon": "성공"
+          "icon": "success"
         },
         {
           "title": "엔터프라이즈 규모",
-          "description": "100개 이상의 위치, 수백만 건의 거래, 1초 미만의 쿼리. Scout는 스프레드시트를 능가하는 레스토랑 그룹을 위해 제작되었습니다.",
-          "icon": "성장"
+          "description": "100개 이상의 위치, 수백만 건의 거래, 1초 미만의 쿼리. Scout는 스프레드시트의 한계를 넘어선 레스토랑 그룹을 위해 제작되었습니다.",
+          "icon": "growth"
         }
       ],
       "integrationsHeading": "연결된 플랫폼",
       "integrationsDescription": "대부분의 통합은 5분 이내에 완료됩니다. OAuth 또는 API 키 - 인증하고 이동하세요.",
       "integrations": [
         {
-          "category": "판매 시점",
+          "category": "판매 시점 관리",
           "systems": [
-            "오라클 마이크로스",
-            "토스트",
-            "광장",
-            "클로버"
+            "Oracle MICROS",
+            "Toast",
+            "Square",
+            "Clover"
           ]
         },
         {
-          "category": "노동 및 일정 조정",
+          "category": "인력 및 일정 관리",
           "systems": [
-            "7교대",
-            "핫스케줄",
-            "대리인"
+            "7shifts",
+            "HotSchedules",
+            "Deputy"
           ]
         },
         {
           "category": "인벤토리",
           "systems": [
-            "마켓맨",
-            "제작 가능",
-            "빈와이즈"
+            "MarketMan",
+            "Craftable",
+            "BinWise"
           ]
         },
         {
           "category": "예약 및 CRM",
           "systems": [
-            "세븐룸스",
-            "오픈테이블",
-            "레시",
-            "톡"
+            "SevenRooms",
+            "OpenTable",
+            "Resy",
+            "Tock"
           ]
         }
       ],
@@ -1376,24 +1376,24 @@ export const generatedLocalCopy = {
       "featuresDescription": "Un singur strat de date care conectează, curăță și unifică tot ceea ce rulează restaurantul tău",
       "features": [
         {
-          "title": "Peste 30 de conectori prefabricați",
-          "description": "POS, manoperă, inventar, rezervări, livrare, marketing, contabilitate - Scout vorbește cu sistemele pe care le utilizați deja.",
-          "icon": "integrare"
+          "title": "Peste 30 de conectori predefiniți",
+          "description": "POS, manoperă, inventar, rezervări, livrare, marketing, contabilitate - Scout comunică cu sistemele pe care le utilizați deja.",
+          "icon": "integration"
         },
         {
           "title": "Sincronizare continuă",
-          "description": "Datele circulă automat. Fără aruncări de noapte, fără încărcări CSV, fără așteptare până dimineața pentru a vedea numerele de ieri.",
-          "icon": "viteza"
+          "description": "Datele circulă automat. Fără extrageri de noapte, fără încărcări CSV, fără așteptare până dimineața pentru a vedea cifrele de ieri.",
+          "icon": "speed"
         },
         {
           "title": "Curățare încorporată",
           "description": "Scout normalizează denumirea, umple golurile și semnalează problemele de calitate înainte ca datele proaste să ajungă în tablourile de bord.",
-          "icon": "succes"
+          "icon": "success"
         },
         {
-          "title": "Scara întreprinderii",
-          "description": "Peste 100 de locații, milioane de tranzacții, interogări sub secunde. Scout este creat pentru grupurile de restaurante care depășesc foile de calcul.",
-          "icon": "crestere"
+          "title": "Scară enterprise",
+          "description": "Peste 100 de locații, milioane de tranzacții, interogări sub secundă. Scout este creat pentru grupurile de restaurante care au depășit foile de calcul.",
+          "icon": "growth"
         }
       ],
       "integrationsHeading": "Platforme conectate",
@@ -1403,24 +1403,24 @@ export const generatedLocalCopy = {
           "category": "Punctul de vânzare",
           "systems": [
             "Oracle MICROS",
-            "Pâine prăjită",
-            "pătrat",
-            "Trifoi"
+            "Toast",
+            "Square",
+            "Clover"
           ]
         },
         {
           "category": "Muncă și programare",
           "systems": [
-            "7 schimburi",
+            "7shifts",
             "HotSchedules",
-            "deputat"
+            "Deputy"
           ]
         },
         {
           "category": "Inventar",
           "systems": [
             "MarketMan",
-            "Fabricabil",
+            "Craftable",
             "BinWise"
           ]
         },
@@ -1459,32 +1459,32 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Vezi toate produsele"
     },
     "vi": {
-      "heroBadge": "Hướng đạo - Lớp dữ liệu",
+      "heroBadge": "Scout - Lớp dữ liệu",
       "heroDescription": "Scout kết nối các nền tảng POS, lao động, hàng tồn kho, đặt chỗ và giao hàng của bạn thành một lớp dữ liệu sạch - vì vậy mọi trang tổng quan, cảnh báo và đề xuất đều bắt đầu bằng dữ liệu mà bạn có thể tin cậy.",
-      "heroPrimary": "Xem hoạt động hướng đạo",
+      "heroPrimary": "Xem Scout hoạt động",
       "heroSecondary": "Xem tất cả tích hợp",
-      "featuresHeading": "Hướng đạo làm gì",
+      "featuresHeading": "Scout làm gì",
       "featuresDescription": "Một lớp dữ liệu kết nối, dọn dẹp và thống nhất mọi thứ mà nhà hàng của bạn đang vận hành",
       "features": [
         {
-          "title": "Hơn 30 kết nối được xây dựng sẵn",
+          "title": "Hơn 30 trình kết nối được xây dựng sẵn",
           "description": "POS, nhân công, tồn kho, đặt chỗ, giao hàng, tiếp thị, kế toán - Scout giao tiếp với các hệ thống bạn đã sử dụng.",
-          "icon": "hội nhập"
+          "icon": "integration"
         },
         {
           "title": "Đồng bộ hóa liên tục",
           "description": "Dữ liệu chảy tự động. Không có kết xuất hàng đêm, không tải lên CSV, không phải đợi đến sáng để xem số liệu của ngày hôm qua.",
-          "icon": "tốc độ"
+          "icon": "speed"
         },
         {
           "title": "Làm sạch tích hợp",
-          "description": "Scout bình thường hóa việc đặt tên, lấp đầy các khoảng trống và gắn cờ các vấn đề về chất lượng trước khi dữ liệu xấu đến trang tổng quan của bạn.",
-          "icon": "sự thành công"
+          "description": "Scout chuẩn hóa việc đặt tên, lấp đầy các khoảng trống và gắn cờ các vấn đề về chất lượng trước khi dữ liệu xấu đến trang tổng quan của bạn.",
+          "icon": "success"
         },
         {
           "title": "Quy mô doanh nghiệp",
-          "description": "Hơn 100 địa điểm, hàng triệu giao dịch, truy vấn dưới giây. Scout được xây dựng cho các nhóm nhà hàng phát triển nhanh hơn bảng tính.",
-          "icon": "tăng trưởng"
+          "description": "Hơn 100 địa điểm, hàng triệu giao dịch, truy vấn dưới giây. Scout được xây dựng cho các nhóm nhà hàng đã vượt quá khả năng của bảng tính.",
+          "icon": "growth"
         }
       ],
       "integrationsHeading": "Nền tảng được kết nối",
@@ -1494,39 +1494,39 @@ export const generatedLocalCopy = {
           "category": "Điểm bán hàng",
           "systems": [
             "Oracle MICROS",
-            "bánh mì nướng",
-            "hình vuông",
-            "cỏ ba lá"
+            "Toast",
+            "Square",
+            "Clover"
           ]
         },
         {
-          "category": "Lao động & Lập kế hoạch",
+          "category": "Lao động & Lập lịch",
           "systems": [
-            "7 ca",
-            "Lịch trình nóng",
-            "Phó"
+            "7shifts",
+            "HotSchedules",
+            "Deputy"
           ]
         },
         {
           "category": "Hàng tồn kho",
           "systems": [
-            "Người đàn ông thị trường",
-            "có thể chế tạo được",
+            "MarketMan",
+            "Craftable",
             "BinWise"
           ]
         },
         {
           "category": "Đặt chỗ & CRM",
           "systems": [
-            "bảy phòng",
-            "Bảng mở",
+            "SevenRooms",
+            "OpenTable",
             "Resy",
-            "tock"
+            "Tock"
           ]
         }
       ],
-      "stepsHeading": "Kết nối. Lau dọn. Kích hoạt.",
-      "stepsDescription": "Ba bước từ hệ thống im lặng đến trí thông minh hợp nhất",
+      "stepsHeading": "Kết nối. Dọn dẹp. Kích hoạt.",
+      "stepsDescription": "Ba bước từ các hệ thống tách biệt đến trí tuệ hợp nhất",
       "steps": [
         {
           "step": "1",
@@ -1535,7 +1535,7 @@ export const generatedLocalCopy = {
         },
         {
           "step": "2",
-          "title": "Bình thường hóa",
+          "title": "Chuẩn hóa",
           "description": "Scout ánh xạ mọi nguồn dữ liệu vào một lược đồ nhất quán, loại bỏ những điểm không nhất quán và tự động lấp đầy các khoảng trống."
         },
         {
@@ -1552,30 +1552,30 @@ export const generatedLocalCopy = {
     "sv": {
       "heroBadge": "Scout - Datalager",
       "heroDescription": "Scout kopplar ihop dina POS-, arbets-, lager-, reservations- och leveransplattformar till ett rent datalager - så varje instrumentpanel, varning och rekommendation börjar med data som du kan lita på.",
-      "heroPrimary": "Se Scout in Action",
+      "heroPrimary": "Se Scout i praktiken",
       "heroSecondary": "Visa alla integrationer",
       "featuresHeading": "Vad Scout gör",
       "featuresDescription": "Ett datalager som ansluter, rensar och förenar allt din restaurang körs på",
       "features": [
         {
-          "title": "250+ förbyggda kontakter",
-          "description": "POS, arbete, inventering, reservationer, leverans, marknadsföring, redovisning - Scout talar till de system du redan använder.",
+          "title": "250+ förbyggda kopplingar",
+          "description": "POS, arbete, inventering, reservationer, leverans, marknadsföring, redovisning - Scout kommunicerar med de system du redan använder.",
           "icon": "integration"
         },
         {
           "title": "Kontinuerlig synkronisering",
           "description": "Data flödar automatiskt. Inga nattliga dumpningar, inga CSV-uppladdningar, ingen väntan till morgonen för att se gårdagens siffror.",
-          "icon": "hastighet"
+          "icon": "speed"
         },
         {
-          "title": "Rengöring inbyggd",
+          "title": "Inbyggd rensning",
           "description": "Scout normaliserar namngivning, fyller luckor och flaggar kvalitetsproblem innan dålig data når dina instrumentpaneler.",
-          "icon": "framgång"
+          "icon": "success"
         },
         {
-          "title": "Enterprise Scale",
-          "description": "100+ platser, miljontals transaktioner, frågor på undersekund. Scout är byggd för restauranggrupper som växer ur kalkylblad.",
-          "icon": "tillväxt"
+          "title": "Företagsskala",
+          "description": "100+ platser, miljontals transaktioner, frågor på under en sekund. Scout är byggd för restauranggrupper som vuxit ur kalkylblad.",
+          "icon": "growth"
         }
       ],
       "integrationsHeading": "Anslutna plattformar",
@@ -1585,32 +1585,32 @@ export const generatedLocalCopy = {
           "category": "Försäljningsställe",
           "systems": [
             "Oracle MICROS",
-            "Rostat bröd",
+            "Toast",
             "Square",
-            "Klöver"
+            "Clover"
           ]
         },
         {
           "category": "Arbete & Schemaläggning",
           "systems": [
-            "7 skift",
+            "7shifts",
             "HotSchedules",
-            "Suppleant"
+            "Deputy"
           ]
         },
         {
           "category": "Inventering",
           "systems": [
             "MarketMan",
-            "Hantverksbar",
+            "Craftable",
             "BinWise"
           ]
         },
         {
           "category": "Bokningar & CRM",
           "systems": [
-            "Sju rum",
-            "Öppna tabell",
+            "SevenRooms",
+            "OpenTable",
             "Resy",
             "Tock"
           ]
@@ -1641,74 +1641,74 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Se alla produkter"
     },
     "bn": {
-      "heroBadge": "স্কাউট - ডেটা লেয়ার",
-      "heroDescription": "Scout আপনার POS, শ্রম, ইনভেন্টরি, রিজার্ভেশন এবং ডেলিভারি প্ল্যাটফর্মগুলিকে একটি পরিষ্কার ডেটা স্তরে সংযুক্ত করে - তাই প্রতিটি ড্যাশবোর্ড, সতর্কতা, এবং সুপারিশগুলি আপনি বিশ্বাস করতে পারেন এমন ডেটা দিয়ে শুরু হয়।",
-      "heroPrimary": "স্কাউট ইন অ্যাকশন দেখুন",
+      "heroBadge": "Scout - ডেটা লেয়ার",
+      "heroDescription": "Scout আপনার POS, শ্রম, ইনভেন্টরি, রিজার্ভেশন এবং ডেলিভারি প্ল্যাটফর্মগুলিকে একটি পরিষ্কার ডেটা স্তরে সংযুক্ত করে - তাই প্রতিটি ড্যাশবোর্ড, সতর্কতা, এবং সুপারিশ আপনি বিশ্বাস করতে পারেন এমন ডেটা দিয়ে শুরু হয়।",
+      "heroPrimary": "Scout কে কাজে দেখুন",
       "heroSecondary": "সমস্ত ইন্টিগ্রেশন দেখুন",
-      "featuresHeading": "স্কাউট কি করে",
+      "featuresHeading": "Scout কী করে",
       "featuresDescription": "একটি ডেটা লেয়ার যা আপনার রেস্তোরাঁর সমস্ত কিছুকে সংযুক্ত করে, পরিষ্কার করে এবং একত্রিত করে",
       "features": [
         {
           "title": "250+ প্রাক-নির্মিত সংযোগকারী",
-          "description": "POS, শ্রম, ইনভেন্টরি, রিজার্ভেশন, ডেলিভারি, মার্কেটিং, অ্যাকাউন্টিং - স্কাউট আপনি ইতিমধ্যে ব্যবহার করা সিস্টেমগুলির সাথে কথা বলে৷",
-          "icon": "ইন্টিগ্রেশন"
+          "description": "POS, শ্রম, ইনভেন্টরি, রিজার্ভেশন, ডেলিভারি, মার্কেটিং, অ্যাকাউন্টিং - Scout আপনি ইতিমধ্যে ব্যবহার করা সিস্টেমগুলির সাথে সংযোগ স্থাপন করে।",
+          "icon": "integration"
         },
         {
           "title": "ক্রমাগত সিঙ্ক",
-          "description": "ডেটা স্বয়ংক্রিয়ভাবে প্রবাহিত হয়। কোন রাতের আবর্জনা নেই, কোন CSV আপলোড নেই, গতকালের সংখ্যা দেখার জন্য সকাল পর্যন্ত অপেক্ষা করতে হবে না।",
-          "icon": "গতি"
+          "description": "ডেটা স্বয়ংক্রিয়ভাবে প্রবাহিত হয়। কোনো রাত্রিকালীন ডাম্প নেই, কোনো CSV আপলোড নেই, গতকালের সংখ্যা দেখার জন্য সকাল পর্যন্ত অপেক্ষা করতে হবে না।",
+          "icon": "speed"
         },
         {
-          "title": "ক্লিনিং বিল্ট ইন",
-          "description": "Scout আপনার ড্যাশবোর্ডে খারাপ ডেটা পৌঁছানোর আগে নামকরণকে স্বাভাবিক করে তোলে, শূন্যস্থান পূরণ করে এবং গুণমানের সমস্যাগুলিকে চিহ্নিত করে৷",
-          "icon": "সাফল্য"
+          "title": "অন্তর্নির্মিত ক্লিনিং",
+          "description": "Scout আপনার ড্যাশবোর্ডে খারাপ ডেটা পৌঁছানোর আগে নামকরণকে মানসম্মত করে, শূন্যস্থান পূরণ করে এবং গুণমানের সমস্যাগুলিকে চিহ্নিত করে।",
+          "icon": "success"
         },
         {
           "title": "এন্টারপ্রাইজ স্কেল",
-          "description": "100+ অবস্থান, লক্ষ লক্ষ লেনদেন, উপ-দ্বিতীয় প্রশ্ন। স্কাউট রেস্তোরাঁ গোষ্ঠীগুলির জন্য তৈরি করা হয়েছে যা স্প্রেডশীটগুলিকে ছাড়িয়ে যায়৷",
-          "icon": "বৃদ্ধি"
+          "description": "100+ অবস্থান, লক্ষ লক্ষ লেনদেন, সাব-সেকেন্ড ক্যোয়ারী। Scout সেই রেস্তোরাঁ গোষ্ঠীগুলির জন্য তৈরি করা হয়েছে যারা স্প্রেডশীটের সীমা ছাড়িয়ে গেছে।",
+          "icon": "growth"
         }
       ],
       "integrationsHeading": "সংযুক্ত প্ল্যাটফর্ম",
       "integrationsDescription": "বেশিরভাগ ইন্টিগ্রেশনে 5 মিনিটের কম সময় লাগে। OAuth বা API কী - প্রমাণীকরণ করুন এবং যান।",
       "integrations": [
         {
-          "category": "বিক্রয়ের পয়েন্ট",
+          "category": "বিক্রয় কেন্দ্র",
           "systems": [
-            "ওরাকল মাইক্রোস",
-            "টোস্ট",
-            "বর্গক্ষেত্র",
-            "ক্লোভার"
+            "Oracle MICROS",
+            "Toast",
+            "Square",
+            "Clover"
           ]
         },
         {
           "category": "শ্রম ও সময়সূচী",
           "systems": [
-            "7 শিফট",
-            "হটশিডিউল",
-            "উপ"
+            "7shifts",
+            "HotSchedules",
+            "Deputy"
           ]
         },
         {
           "category": "ইনভেন্টরি",
           "systems": [
-            "মার্কেটম্যান",
-            "কারুকাজযোগ্য",
-            "বিনওয়াইজ"
+            "MarketMan",
+            "Craftable",
+            "BinWise"
           ]
         },
         {
-          "category": "সংরক্ষণ এবং CRM",
+          "category": "রিজার্ভেশন এবং CRM",
           "systems": [
-            "সেভেন রুম",
+            "SevenRooms",
             "OpenTable",
-            "রেসি",
-            "টোক"
+            "Resy",
+            "Tock"
           ]
         }
       ],
-      "stepsHeading": "সংযোগ করুন। পরিষ্কার. সক্রিয় করুন।",
-      "stepsDescription": "সাইলড সিস্টেম থেকে ইউনিফাইড ইন্টেলিজেন্স পর্যন্ত তিন ধাপ",
+      "stepsHeading": "সংযোগ করুন। পরিষ্কার করুন। সক্রিয় করুন।",
+      "stepsDescription": "বিচ্ছিন্ন সিস্টেম থেকে ইউনিফাইড ইন্টেলিজেন্স পর্যন্ত তিন ধাপ",
       "steps": [
         {
           "step": "1",
@@ -1732,32 +1732,32 @@ export const generatedLocalCopy = {
       "ctaSecondary": "সমস্ত পণ্য দেখুন"
     },
     "th": {
-      "heroBadge": "ลูกเสือ - ชั้นข้อมูล",
+      "heroBadge": "Scout - ชั้นข้อมูล",
       "heroDescription": "Scout เชื่อมต่อ POS, แรงงาน, สินค้าคงคลัง, การจอง และแพลตฟอร์มการจัดส่งของคุณไว้ในชั้นข้อมูลที่สะอาดเพียงชั้นเดียว ดังนั้นทุกแดชบอร์ด การแจ้งเตือน และคำแนะนำจะเริ่มต้นด้วยข้อมูลที่คุณเชื่อถือได้",
-      "heroPrimary": "ดูการดำเนินการลูกเสือ",
+      "heroPrimary": "ดู Scout ในการทำงานจริง",
       "heroSecondary": "ดูการบูรณาการทั้งหมด",
-      "featuresHeading": "ลูกเสือทำอะไร",
-      "featuresDescription": "ชั้นข้อมูลเดียวที่เชื่อมโยง ทำความสะอาด และรวมทุกอย่างที่ร้านอาหารของคุณดำเนินอยู่",
+      "featuresHeading": "Scout ทำอะไร",
+      "featuresDescription": "ชั้นข้อมูลเดียวที่เชื่อมโยง ทำความสะอาด และรวมทุกอย่างที่ขับเคลื่อนร้านอาหารของคุณ",
       "features": [
         {
           "title": "ตัวเชื่อมต่อที่สร้างไว้ล่วงหน้ามากกว่า 30 รายการ",
-          "description": "POS, แรงงาน, สินค้าคงคลัง, การจอง, การจัดส่ง, การตลาด, การบัญชี - Scout พูดคุยกับระบบที่คุณใช้อยู่แล้ว",
-          "icon": "บูรณาการ"
+          "description": "POS, แรงงาน, สินค้าคงคลัง, การจอง, การจัดส่ง, การตลาด, การบัญชี - Scout เชื่อมต่อกับระบบที่คุณใช้อยู่แล้ว",
+          "icon": "integration"
         },
         {
           "title": "การซิงค์อย่างต่อเนื่อง",
           "description": "ข้อมูลไหลโดยอัตโนมัติ ไม่มีการทิ้งข้อมูลทุกคืน ไม่มีการอัปโหลด CSV ไม่ต้องรอจนถึงเช้าเพื่อดูตัวเลขของเมื่อวาน",
-          "icon": "ความเร็ว"
+          "icon": "speed"
         },
         {
-          "title": "ทำความสะอาดบิวท์อิน",
+          "title": "การทำความสะอาดในตัว",
           "description": "Scout ทำการตั้งชื่อให้เป็นมาตรฐาน เติมช่องว่าง และแจ้งปัญหาด้านคุณภาพก่อนที่ข้อมูลที่ไม่ดีจะไปถึงแดชบอร์ดของคุณ",
-          "icon": "ความสำเร็จ"
+          "icon": "success"
         },
         {
           "title": "ระดับองค์กร",
-          "description": "สถานที่มากกว่า 100 แห่ง ธุรกรรมหลายล้านรายการ การสืบค้นภายในเสี้ยววินาที Scout สร้างขึ้นสำหรับกลุ่มร้านอาหารที่มีจำนวนมากกว่าสเปรดชีต",
-          "icon": "การเจริญเติบโต"
+          "description": "สถานที่มากกว่า 100 แห่ง ธุรกรรมหลายล้านรายการ การสืบค้นภายในเสี้ยววินาที Scout สร้างขึ้นสำหรับกลุ่มร้านอาหารที่เติบโตเกินกว่าสเปรดชีต",
+          "icon": "growth"
         }
       ],
       "integrationsHeading": "แพลตฟอร์มที่เชื่อมต่อ",
@@ -1766,39 +1766,39 @@ export const generatedLocalCopy = {
         {
           "category": "จุดขาย",
           "systems": [
-            "ออราเคิล ไมโคร",
-            "ขนมปังปิ้ง",
-            "สี่เหลี่ยมจัตุรัส",
-            "โคลเวอร์"
+            "Oracle MICROS",
+            "Toast",
+            "Square",
+            "Clover"
           ]
         },
         {
           "category": "แรงงานและการจัดตารางเวลา",
           "systems": [
-            "7 กะ",
+            "7shifts",
             "HotSchedules",
-            "รอง"
+            "Deputy"
           ]
         },
         {
           "category": "สินค้าคงคลัง",
           "systems": [
-            "มาร์เก็ตแมน",
-            "ประดิษฐ์ได้",
-            "บินไวส์"
+            "MarketMan",
+            "Craftable",
+            "BinWise"
           ]
         },
         {
           "category": "การจองและ CRM",
           "systems": [
-            "เซเว่นรูมส์",
-            "เปิดตาราง",
-            "รีซี่",
-            "ต๊อก"
+            "SevenRooms",
+            "OpenTable",
+            "Resy",
+            "Tock"
           ]
         }
       ],
-      "stepsHeading": "เชื่อมต่อ ทำความสะอาด. เปิดใช้งาน.",
+      "stepsHeading": "เชื่อมต่อ ทำความสะอาด เปิดใช้งาน",
       "stepsDescription": "สามขั้นตอนจากระบบไซล์ไปจนถึงระบบอัจฉริยะแบบครบวงจร",
       "steps": [
         {
@@ -1825,30 +1825,30 @@ export const generatedLocalCopy = {
     "ms": {
       "heroBadge": "Pengakap - Lapisan Data",
       "heroDescription": "Scout menghubungkan platform POS, buruh, inventori, tempahan dan penghantaran anda ke dalam satu lapisan data yang bersih - jadi setiap papan pemuka, makluman dan pengesyoran bermula dengan data yang boleh anda percayai.",
-      "heroPrimary": "Lihat Scout in Action",
+      "heroPrimary": "Lihat Scout Beraksi",
       "heroSecondary": "Lihat Semua Integrasi",
       "featuresHeading": "Apa yang Scout Lakukan",
-      "featuresDescription": "Satu lapisan data yang menghubungkan, membersihkan dan menyatukan semua yang dijalankan oleh restoran anda",
+      "featuresDescription": "Satu lapisan data yang menghubungkan, membersihkan dan menyatukan semua yang menjadi asas operasi restoran anda",
       "features": [
         {
-          "title": "250+ Penyambung Pra-Bina",
-          "description": "POS, buruh, inventori, tempahan, penghantaran, pemasaran, perakaunan - Scout bercakap dengan sistem yang telah anda gunakan.",
-          "icon": "integrasi"
+          "title": "250+ Penyambung Siap Sedia",
+          "description": "POS, buruh, inventori, tempahan, penghantaran, pemasaran, perakaunan - Scout berhubung dengan sistem yang telah anda gunakan.",
+          "icon": "integration"
         },
         {
           "title": "Penyegerakan Berterusan",
           "description": "Data mengalir secara automatik. Tiada pembuangan malam, tiada muat naik CSV, tiada menunggu sehingga pagi untuk melihat nombor semalam.",
-          "icon": "kelajuan"
+          "icon": "speed"
         },
         {
           "title": "Pembersihan Terbina Dalam",
-          "description": "Scout menormalkan penamaan, mengisi jurang dan membenderakan isu kualiti sebelum data buruk sampai ke papan pemuka anda.",
-          "icon": "kejayaan"
+          "description": "Scout menormalkan penamaan, mengisi jurang dan menandakan isu kualiti sebelum data buruk sampai ke papan pemuka anda.",
+          "icon": "success"
         },
         {
           "title": "Skala Perusahaan",
           "description": "100+ lokasi, berjuta-juta transaksi, pertanyaan subsaat. Scout dibina untuk kumpulan restoran yang melebihi hamparan.",
-          "icon": "pertumbuhan"
+          "icon": "growth"
         }
       ],
       "integrationsHeading": "Platform Bersambung",
@@ -1858,24 +1858,24 @@ export const generatedLocalCopy = {
           "category": "Tempat Jualan",
           "systems": [
             "Oracle MICROS",
-            "Roti bakar",
-            "Segi empat",
-            "Semanggi"
+            "Toast",
+            "Square",
+            "Clover"
           ]
         },
         {
           "category": "Buruh & Penjadualan",
           "systems": [
-            "7 syif",
+            "7shifts",
             "HotSchedules",
-            "Timbalan"
+            "Deputy"
           ]
         },
         {
           "category": "Inventori",
           "systems": [
             "MarketMan",
-            "Boleh dibuat",
+            "Craftable",
             "BinWise"
           ]
         },
@@ -1885,7 +1885,7 @@ export const generatedLocalCopy = {
             "SevenRooms",
             "OpenTable",
             "Resy",
-            "Tok"
+            "Tock"
           ]
         }
       ],

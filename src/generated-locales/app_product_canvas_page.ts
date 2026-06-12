@@ -3,9 +3,9 @@
 export const generatedLocalCopy = {
   "localizedCanvasCopy": {
     "ar": {
-      "heroBadge": "قماش - محرك التصور",
-      "heroDescription": "مصدر واحد للحقيقة لكل فريق. يقدم Canvas لوحات معلومات حية للمديرين التنفيذيين والعمليات والتمويل - محدثة دائمًا ومتوافقة دائمًا.",
-      "heroPrimary": "اكتشف كانفاس",
+      "heroBadge": "Canvas - محرك التصور المرئي",
+      "heroDescription": "مصدر حقيقة واحد لكل فريق. يقدّم Canvas لوحات معلومات حيّة للإدارة التنفيذية والعمليات والمالية - محدّثة دائمًا ومتوافقة دائمًا.",
+      "heroPrimary": "استكشف Canvas",
       "heroSecondary": "عرض الهندسة المعمارية",
       "featuresHeading": "مصمم لكيفية عمل الفرق فعليًا",
       "featuresDescription": "البيانات في الوقت الحقيقي. صور واضحة. لا انتظار التقارير.",
@@ -45,7 +45,7 @@ export const generatedLocalCopy = {
             "اتجاهات المبيعات",
             "تكاليف العمالة",
             "عدد الضيوف",
-            "اقلب الطاولة"
+            "معدل دوران الطاولات"
           ]
         },
         {
@@ -105,16 +105,16 @@ export const generatedLocalCopy = {
       "previewLabor": "تكلفة العمالة %",
       "previewGuests": "عدد الضيوف",
       "ctaTitle": "هل أنت جاهز للوحات المعلومات التي تعمل؟",
-      "ctaDescription": "شاهد بياناتك موحدة. احجز عرضًا توضيحيًا للقماش اليوم.",
-      "ctaPrimary": "كتاب قماش التجريبي",
+      "ctaDescription": "شاهد بياناتك موحّدة. احجز عرضًا توضيحيًا لـ Canvas اليوم.",
+      "ctaPrimary": "احجز عرض Canvas التوضيحي",
       "ctaSecondary": "عرض كافة الوحدات"
     },
     "pt": {
       "heroBadge": "Canvas - Mecanismo de visualização",
       "heroDescription": "Uma fonte de verdade para cada equipe. O Canvas oferece painéis ao vivo para executivos, operações e finanças - sempre atualizados, sempre alinhados.",
-      "heroPrimary": "Explorar tela",
+      "heroPrimary": "Explorar o Canvas",
       "heroSecondary": "Ver Arquitetura",
-      "featuresHeading": "Criado para saber como as equipes realmente funcionam",
+      "featuresHeading": "Criado para como as equipes realmente trabalham",
       "featuresDescription": "Dados em tempo real. Visuais claros. Não há espera por relatórios.",
       "features": [
         {
@@ -151,8 +151,8 @@ export const generatedLocalCopy = {
           "examples": [
             "Tendências de vendas",
             "Custos trabalhistas",
-            "Contagem de convidados",
-            "Virar a mesa"
+            "Contagem de clientes",
+            "Giro de mesas"
           ]
         },
         {
@@ -210,10 +210,10 @@ export const generatedLocalCopy = {
       "previewTitle": "Visualização do painel ao vivo",
       "previewSales": "Vendas Diárias",
       "previewLabor": "% de custo de mão de obra",
-      "previewGuests": "Contagem de convidados",
+      "previewGuests": "Contagem de clientes",
       "ctaTitle": "Pronto para painéis que funcionam?",
       "ctaDescription": "Veja seus dados unificados. Reserve uma demonstração do Canvas hoje mesmo.",
-      "ctaPrimary": "Demonstração da tela do livro",
+      "ctaPrimary": "Agendar demonstração do Canvas",
       "ctaSecondary": "Ver todos os módulos"
     },
     "de": {
@@ -259,7 +259,7 @@ export const generatedLocalCopy = {
             "Verkaufstrends",
             "Arbeitskosten",
             "Anzahl der Gäste",
-            "Tischdrehung"
+            "Tischrotation"
           ]
         },
         {
@@ -320,13 +320,13 @@ export const generatedLocalCopy = {
       "previewGuests": "Anzahl der Gäste",
       "ctaTitle": "Bereit für funktionierende Dashboards?",
       "ctaDescription": "Sehen Sie Ihre Daten einheitlich. Buchen Sie noch heute eine Canvas-Demo.",
-      "ctaPrimary": "Buch-Canvas-Demo",
+      "ctaPrimary": "Canvas-Demo buchen",
       "ctaSecondary": "Alle Module anzeigen"
     },
     "fr": {
       "heroBadge": "Canvas - Moteur de visualisation",
       "heroDescription": "Une source de vérité pour chaque équipe. Canvas fournit des tableaux de bord en direct pour les dirigeants, les opérations et les finances - toujours à jour et toujours alignés.",
-      "heroPrimary": "Explorer la toile",
+      "heroPrimary": "Explorer Canvas",
       "heroSecondary": "Voir l'architecture",
       "featuresHeading": "Conçu pour le fonctionnement réel des équipes",
       "featuresDescription": "Données en temps réel. Des visuels clairs. Pas d'attente pour les rapports.",
@@ -365,8 +365,8 @@ export const generatedLocalCopy = {
           "examples": [
             "Tendances des ventes",
             "Coûts de main-d'œuvre",
-            "Nombre d'invités",
-            "Tour de table"
+            "Nombre de couverts",
+            "Rotation des tables"
           ]
         },
         {
@@ -423,17 +423,17 @@ export const generatedLocalCopy = {
       ],
       "previewTitle": "Aperçu du tableau de bord en direct",
       "previewSales": "Ventes quotidiennes",
-      "previewLabor": "% du coût de la main d'œuvre",
-      "previewGuests": "Nombre d'invités",
+      "previewLabor": "% du coût de la main-d'œuvre",
+      "previewGuests": "Nombre de couverts",
       "ctaTitle": "Prêt pour des tableaux de bord qui fonctionnent ?",
       "ctaDescription": "Visualisez vos données unifiées. Réservez une démo Canvas dès aujourd’hui.",
-      "ctaPrimary": "Démo de toile de livre",
+      "ctaPrimary": "Réserver une démo Canvas",
       "ctaSecondary": "Afficher tous les modules"
     },
     "es": {
       "heroBadge": "Canvas - Motor de visualización",
       "heroDescription": "Una fuente de verdad para cada equipo. Canvas ofrece paneles de control en vivo para ejecutivos, operaciones y finanzas, siempre actualizados y alineados.",
-      "heroPrimary": "Explorar lienzo",
+      "heroPrimary": "Explorar Canvas",
       "heroSecondary": "Ver Arquitectura",
       "featuresHeading": "Creado para cómo funcionan realmente los equipos",
       "featuresDescription": "Datos en tiempo real. Imágenes claras. No hay que esperar informes.",
@@ -472,8 +472,8 @@ export const generatedLocalCopy = {
           "examples": [
             "Tendencias de ventas",
             "Costos laborales",
-            "Conteo de invitados",
-            "Turno de mesa"
+            "Conteo de comensales",
+            "Rotación de mesas"
           ]
         },
         {
@@ -497,7 +497,7 @@ export const generatedLocalCopy = {
         {
           "type": "Inteligencia predictiva",
           "examples": [
-            "Foresight de la demanda",
+            "Pronóstico de la demanda",
             "Optimización de la dotación de personal",
             "Planificación de inventario",
             "Predicción de ingresos"
@@ -531,10 +531,10 @@ export const generatedLocalCopy = {
       "previewTitle": "Vista previa del panel en vivo",
       "previewSales": "Ventas Diarias",
       "previewLabor": "% de costo laboral",
-      "previewGuests": "Conteo de invitados",
+      "previewGuests": "Conteo de comensales",
       "ctaTitle": "¿Listo para paneles que funcionan?",
       "ctaDescription": "Vea sus datos unificados. Reserve una demostración de Canvas hoy.",
-      "ctaPrimary": "Demostración del lienzo del libro",
+      "ctaPrimary": "Reservar demostración de Canvas",
       "ctaSecondary": "Ver todos los módulos"
     },
     "nl": {
@@ -580,7 +580,7 @@ export const generatedLocalCopy = {
             "Verkooptrends",
             "Arbeidskosten",
             "Aantal gasten",
-            "Tafel beurt"
+            "Tafelrotatie"
           ]
         },
         {
@@ -645,9 +645,9 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Bekijk alle modules"
     },
     "ur": {
-      "heroBadge": "کینوس - ویژولائزیشن انجن",
-      "heroDescription": "ہر ٹیم کے لیے سچائی کا ایک ذریعہ۔ کینوس ایگزیکٹوز، آپریشنز، اور فنانس کے لیے لائیو ڈیش بورڈ فراہم کرتا ہے - ہمیشہ موجودہ، ہمیشہ منسلک۔",
-      "heroPrimary": "کینوس کو دریافت کریں۔",
+      "heroBadge": "Canvas - ویژولائزیشن انجن",
+      "heroDescription": "ہر ٹیم کے لیے سچائی کا ایک ذریعہ۔ Canvas ایگزیکٹوز، آپریشنز، اور فنانس کے لیے لائیو ڈیش بورڈ فراہم کرتا ہے - ہمیشہ تازہ ترین، ہمیشہ ہم آہنگ۔",
+      "heroPrimary": "Canvas کو دریافت کریں",
       "heroSecondary": "آرکیٹیکچر دیکھیں",
       "featuresHeading": "ٹیمیں اصل میں کیسے کام کرتی ہیں اس کے لیے بنایا گیا ہے۔",
       "featuresDescription": "ریئل ٹائم ڈیٹا۔ بصری صاف کریں۔ رپورٹس کا انتظار نہیں۔",
@@ -747,14 +747,14 @@ export const generatedLocalCopy = {
       "previewLabor": "لیبر لاگت %",
       "previewGuests": "مہمانوں کی تعداد",
       "ctaTitle": "کام کرنے والے ڈیش بورڈز کے لیے تیار ہیں؟",
-      "ctaDescription": "اپنے ڈیٹا کو متحد دیکھیں۔ آج ہی کینوس ڈیمو بک کریں۔",
-      "ctaPrimary": "کینوس ڈیمو بک کریں۔",
+      "ctaDescription": "اپنے ڈیٹا کو متحد دیکھیں۔ آج ہی Canvas ڈیمو بک کریں۔",
+      "ctaPrimary": "Canvas ڈیمو بک کریں",
       "ctaSecondary": "تمام ماڈیولز دیکھیں"
     },
     "hi": {
-      "heroBadge": "कैनवस - विज़ुअलाइज़ेशन इंजन",
-      "heroDescription": "प्रत्येक टीम के लिए सत्य का एक स्रोत। कैनवस अधिकारियों, संचालन और वित्त के लिए लाइव डैशबोर्ड प्रदान करता है - हमेशा चालू, हमेशा संरेखित।",
-      "heroPrimary": "कैनवास का अन्वेषण करें",
+      "heroBadge": "Canvas - विज़ुअलाइज़ेशन इंजन",
+      "heroDescription": "हर टीम के लिए सत्य का एक स्रोत। Canvas अधिकारियों, संचालन और वित्त के लिए लाइव डैशबोर्ड प्रदान करता है - हमेशा अद्यतन, हमेशा संरेखित।",
+      "heroPrimary": "Canvas एक्सप्लोर करें",
       "heroSecondary": "वास्तुकला देखें",
       "featuresHeading": "टीमें वास्तव में कैसे काम करती हैं इसके लिए निर्मित",
       "featuresDescription": "वास्तविक समय डेटा. स्पष्ट दृश्य. रिपोर्ट का इंतज़ार नहीं.",
@@ -854,14 +854,14 @@ export const generatedLocalCopy = {
       "previewLabor": "श्रम लागत %",
       "previewGuests": "अतिथि गणना",
       "ctaTitle": "क्या आप काम करने वाले डैशबोर्ड के लिए तैयार हैं?",
-      "ctaDescription": "अपना डेटा एकीकृत देखें. आज ही कैनवास डेमो बुक करें।",
-      "ctaPrimary": "कैनवास डेमो बुक करें",
+      "ctaDescription": "अपना डेटा एकीकृत देखें। आज ही Canvas डेमो बुक करें।",
+      "ctaPrimary": "Canvas डेमो बुक करें",
       "ctaSecondary": "सभी मॉड्यूल देखें"
     },
     "it": {
       "heroBadge": "Canvas: motore di visualizzazione",
       "heroDescription": "Una fonte di verità per ogni squadra. Canvas offre dashboard in tempo reale per dirigenti, operazioni e finanza: sempre aggiornate, sempre allineate.",
-      "heroPrimary": "Esplora tela",
+      "heroPrimary": "Esplora Canvas",
       "heroSecondary": "Visualizza Architettura",
       "featuresHeading": "Costruito per come funzionano effettivamente i team",
       "featuresDescription": "Dati in tempo reale. Immagini chiare. Nessuna attesa per i rapporti.",
@@ -901,7 +901,7 @@ export const generatedLocalCopy = {
             "Tendenze delle vendite",
             "Costo del lavoro",
             "Conteggio degli ospiti",
-            "Turno di tavolo"
+            "Rotazione dei tavoli"
           ]
         },
         {
@@ -1008,7 +1008,7 @@ export const generatedLocalCopy = {
             "Trendy sprzedażowe",
             "Koszty pracy",
             "Liczba gości",
-            "Obrót stołu"
+            "Rotacja stolików"
           ]
         },
         {
@@ -1069,11 +1069,11 @@ export const generatedLocalCopy = {
       "previewGuests": "Liczba gości",
       "ctaTitle": "Gotowy na działające pulpity nawigacyjne?",
       "ctaDescription": "Zobacz swoje dane ujednolicone. Zarezerwuj demonstrację Canvas już dziś.",
-      "ctaPrimary": "Książka Demo na płótnie",
+      "ctaPrimary": "Zarezerwuj demo Canvas",
       "ctaSecondary": "Wyświetl wszystkie moduły"
     },
     "tr": {
-      "heroBadge": "Kanvas - Görselleştirme Motoru",
+      "heroBadge": "Canvas - Görselleştirme Motoru",
       "heroDescription": "Her takım için tek bir gerçek kaynağı. Canvas, yöneticiler, operasyonlar ve finans için canlı kontrol panelleri sunar; her zaman güncel, her zaman uyumlu.",
       "heroPrimary": "Canvas'ı keşfedin",
       "heroSecondary": "Mimariyi Görüntüle",
@@ -1115,7 +1115,7 @@ export const generatedLocalCopy = {
             "Satış Trendleri",
             "İşçilik Maliyetleri",
             "Misafir Sayısı",
-            "Masa Dönüşü"
+            "Masa Devir Hızı"
           ]
         },
         {
@@ -1176,13 +1176,13 @@ export const generatedLocalCopy = {
       "previewGuests": "Misafir Sayısı",
       "ctaTitle": "Çalışan Kontrol Panellerine Hazır mısınız?",
       "ctaDescription": "Verilerinizi birleştirilmiş olarak görün. Bugün bir Canvas demosu ayırtın.",
-      "ctaPrimary": "Kitap Kanvası Demosu",
+      "ctaPrimary": "Canvas Demosu Ayırtın",
       "ctaSecondary": "Tüm Modülleri Görüntüle"
     },
     "zh-Hans": {
       "heroBadge": "Canvas - 可视化引擎",
       "heroDescription": "每个团队都有一个真相来源。 Canvas 为高管、运营和财务人员提供实时仪表板 - 始终保持最新、始终保持一致。",
-      "heroPrimary": "探索画布",
+      "heroPrimary": "探索 Canvas",
       "heroSecondary": "查看架构",
       "featuresHeading": "专为团队实际工作方式而打造",
       "featuresDescription": "实时数据。清晰的视觉效果。无需等待报告。",
@@ -1283,13 +1283,13 @@ export const generatedLocalCopy = {
       "previewGuests": "宾客人数",
       "ctaTitle": "准备好使用有效的仪表板了吗？",
       "ctaDescription": "查看统一的数据。立即预订 Canvas 演示。",
-      "ctaPrimary": "预订画布演示",
+      "ctaPrimary": "预订 Canvas 演示",
       "ctaSecondary": "查看所有模块"
     },
     "ja": {
       "heroBadge": "Canvas - 視覚化エンジン",
       "heroDescription": "すべてのチームに 1 つの真実の情報源。 Canvas は、経営幹部、運用担当者、財務担当者向けに、常に最新の、常に調整されたライブ ダッシュボードを提供します。",
-      "heroPrimary": "キャンバスを探索する",
+      "heroPrimary": "Canvas を探索する",
       "heroSecondary": "アーキテクチャを見る",
       "featuresHeading": "チームが実際にどのように機能するかを考慮して構築",
       "featuresDescription": "リアルタイムデータ。クリアなビジュアル。報告を待つ必要はありません。",
@@ -1389,14 +1389,14 @@ export const generatedLocalCopy = {
       "previewLabor": "人件費%",
       "previewGuests": "ゲスト数",
       "ctaTitle": "機能するダッシュボードの準備はできていますか?",
-      "ctaDescription": "データが統合されていることを確認します。今すぐ Canvas のデモを予約してください。",
-      "ctaPrimary": "ブックキャンバスのデモ",
+      "ctaDescription": "データが統合された状態をご覧ください。今すぐ Canvas のデモを予約してください。",
+      "ctaPrimary": "Canvas のデモを予約",
       "ctaSecondary": "すべてのモジュールを表示"
     },
     "id": {
-      "heroBadge": "Kanvas - Mesin Visualisasi",
+      "heroBadge": "Canvas - Mesin Visualisasi",
       "heroDescription": "Satu sumber kebenaran untuk setiap tim. Canvas menghadirkan dasbor langsung untuk eksekutif, operasi, dan keuangan - selalu terkini, selalu selaras.",
-      "heroPrimary": "Jelajahi Kanvas",
+      "heroPrimary": "Jelajahi Canvas",
       "heroSecondary": "Lihat Arsitektur",
       "featuresHeading": "Dibangun untuk Bagaimana Tim Sebenarnya Bekerja",
       "featuresDescription": "Data waktu nyata. Visual yang jelas. Tidak perlu menunggu laporan.",
@@ -1497,13 +1497,13 @@ export const generatedLocalCopy = {
       "previewGuests": "Jumlah Tamu",
       "ctaTitle": "Siap untuk Dasbor yang Berfungsi?",
       "ctaDescription": "Lihat data Anda terpadu. Pesan demo Canvas hari ini.",
-      "ctaPrimary": "Demo Kanvas Buku",
+      "ctaPrimary": "Pesan Demo Canvas",
       "ctaSecondary": "Lihat Semua Modul"
     },
     "ko": {
-      "heroBadge": "캔버스 - 시각화 엔진",
-      "heroDescription": "모든 팀을 위한 하나의 정보 소스. Canvas는 임원, 운영 및 재무를 위한 실시간 대시보드를 제공하며 항상 최신 상태를 유지합니다.",
-      "heroPrimary": "캔버스 탐색",
+      "heroBadge": "Canvas - 시각화 엔진",
+      "heroDescription": "모든 팀을 위한 하나의 정보 소스. Canvas는 임원, 운영 및 재무를 위한 실시간 대시보드를 제공하며 항상 최신 상태를 유지하고 항상 정렬됩니다.",
+      "heroPrimary": "Canvas 탐색",
       "heroSecondary": "아키텍처 보기",
       "featuresHeading": "팀의 실제 업무 방식을 고려하여 제작됨",
       "featuresDescription": "실시간 데이터. 선명한 영상. 보고서를 기다리지 마세요.",
@@ -1604,7 +1604,7 @@ export const generatedLocalCopy = {
       "previewGuests": "손님 수",
       "ctaTitle": "효과적인 대시보드를 사용할 준비가 되셨나요?",
       "ctaDescription": "통합된 데이터를 확인하세요. 지금 Canvas 데모를 예약하세요.",
-      "ctaPrimary": "캔버스 데모 예약",
+      "ctaPrimary": "Canvas 데모 예약",
       "ctaSecondary": "모든 모듈 보기"
     },
     "sv": {
@@ -1649,8 +1649,8 @@ export const generatedLocalCopy = {
           "examples": [
             "Försäljningstrender",
             "Arbetskraftskostnader",
-            "Gästräkning",
-            "Bordsväng"
+            "Antal gäster",
+            "Bordsomsättning"
           ]
         },
         {
@@ -1705,13 +1705,13 @@ export const generatedLocalCopy = {
           "icon": "intelligens"
         }
       ],
-      "previewTitle": "Live Dashboard Preview",
+      "previewTitle": "Förhandsvisning av live-instrumentpanel",
       "previewSales": "Daglig försäljning",
       "previewLabor": "Arbetskostnad %",
-      "previewGuests": "Gästräkning",
+      "previewGuests": "Antal gäster",
       "ctaTitle": "Redo för instrumentpaneler som fungerar?",
       "ctaDescription": "Se din data enhetlig. Boka en Canvas-demo idag.",
-      "ctaPrimary": "Bok Canvas Demo",
+      "ctaPrimary": "Boka en Canvas-demo",
       "ctaSecondary": "Visa alla moduler"
     },
     "vi": {
@@ -1757,7 +1757,7 @@ export const generatedLocalCopy = {
             "Xu hướng bán hàng",
             "Chi phí lao động",
             "Số lượng khách",
-            "Xoay bàn"
+            "Vòng quay bàn"
           ]
         },
         {
@@ -1816,9 +1816,9 @@ export const generatedLocalCopy = {
       "previewSales": "Bán hàng hàng ngày",
       "previewLabor": "% chi phí lao động",
       "previewGuests": "Số lượng khách",
-      "ctaTitle": "Sẵn sàng cho Trang tổng quan hoạt động?",
+      "ctaTitle": "Sẵn sàng cho các trang tổng quan thực sự hoạt động?",
       "ctaDescription": "Xem dữ liệu của bạn thống nhất. Đặt bản demo Canvas ngay hôm nay.",
-      "ctaPrimary": "Bản demo sách canvas",
+      "ctaPrimary": "Đặt bản demo Canvas",
       "ctaSecondary": "Xem tất cả các mô-đun"
     },
     "ro": {
@@ -1864,7 +1864,7 @@ export const generatedLocalCopy = {
             "Tendințe de vânzări",
             "Costurile cu forța de muncă",
             "Număr de oaspeți",
-            "Întoarcerea mesei"
+            "Rotația meselor"
           ]
         },
         {
@@ -1880,7 +1880,7 @@ export const generatedLocalCopy = {
           "type": "Inteligența de piață",
           "examples": [
             "Analiza concurenței",
-            "Cota de piata",
+            "Cota de piață",
             "Analiza comparativă a prețurilor",
             "Analiza tendințelor"
           ]
@@ -1925,16 +1925,16 @@ export const generatedLocalCopy = {
       "previewGuests": "Număr de oaspeți",
       "ctaTitle": "Sunteți gata pentru tablouri de bord care funcționează?",
       "ctaDescription": "Vedeți datele dvs. unificate. Rezervați o demonstrație Canvas astăzi.",
-      "ctaPrimary": "Demo Canvas de carte",
+      "ctaPrimary": "Rezervați un demo Canvas",
       "ctaSecondary": "Vedeți toate modulele"
     },
     "bn": {
-      "heroBadge": "ক্যানভাস - ভিজ্যুয়ালাইজেশন ইঞ্জিন",
-      "heroDescription": "প্রতিটি দলের জন্য সত্যের একটি উৎস। ক্যানভাস এক্সিক্স, অপ্স এবং ফিনান্সের জন্য লাইভ ড্যাশবোর্ড সরবরাহ করে - সর্বদা বর্তমান, সর্বদা সারিবদ্ধ।",
-      "heroPrimary": "ক্যানভাস অন্বেষণ",
+      "heroBadge": "Canvas - ভিজ্যুয়ালাইজেশন ইঞ্জিন",
+      "heroDescription": "প্রতিটি দলের জন্য সত্যের একটি উৎস। Canvas নির্বাহী, অপারেশন এবং ফিনান্সের জন্য লাইভ ড্যাশবোর্ড সরবরাহ করে - সর্বদা হালনাগাদ, সর্বদা সারিবদ্ধ।",
+      "heroPrimary": "Canvas অন্বেষণ করুন",
       "heroSecondary": "আর্কিটেকচার দেখুন",
       "featuresHeading": "দলগুলি কীভাবে কাজ করে তার জন্য তৈরি করা হয়েছে",
-      "featuresDescription": "রিয়েল-টাইম ডেটা। ক্লিয়ার ভিজ্যুয়াল। রিপোর্টের জন্য অপেক্ষা নেই।",
+      "featuresDescription": "রিয়েল-টাইম ডেটা। স্পষ্ট ভিজ্যুয়াল। রিপোর্টের জন্য অপেক্ষা নেই।",
       "features": [
         {
           "title": "ইন্টারেক্টিভ ড্যাশবোর্ড",
@@ -2002,11 +2002,11 @@ export const generatedLocalCopy = {
           ]
         }
       ],
-      "demoHeading": "অ্যাকশন এটি দেখুন",
+      "demoHeading": "এটি কাজ করতে দেখুন",
       "demoDescription": "লাইভ ডেটা। পরিষ্কার অন্তর্দৃষ্টি. দ্রুত সিদ্ধান্ত নেওয়া হয়েছে।",
       "demoFeatures": [
         {
-          "feature": "ড্যাশবোর্ড নির্মাতা টেনে আনুন",
+          "feature": "ড্র্যাগ-এন্ড-ড্রপ ড্যাশবোর্ড নির্মাতা",
           "icon": "মার্কেটিং"
         },
         {
@@ -2031,14 +2031,14 @@ export const generatedLocalCopy = {
       "previewLabor": "শ্রম খরচ %",
       "previewGuests": "গেস্ট কাউন্ট",
       "ctaTitle": "কাজ করে এমন ড্যাশবোর্ডের জন্য প্রস্তুত?",
-      "ctaDescription": "আপনার ডেটা ইউনিফাইড দেখুন। আজই একটি ক্যানভাস ডেমো বুক করুন।",
-      "ctaPrimary": "ক্যানভাস ডেমো বুক করুন",
+      "ctaDescription": "আপনার ডেটা ইউনিফাইড দেখুন। আজই একটি Canvas ডেমো বুক করুন।",
+      "ctaPrimary": "Canvas ডেমো বুক করুন",
       "ctaSecondary": "সমস্ত মডিউল দেখুন"
     },
     "th": {
       "heroBadge": "Canvas - เครื่องมือสร้างภาพ",
       "heroDescription": "แหล่งความจริงหนึ่งเดียวสำหรับทุกทีม Canvas นำเสนอแดชบอร์ดสดสำหรับผู้บริหาร ปฏิบัติการ และการเงิน - เป็นปัจจุบันเสมอและสอดคล้องกันเสมอ",
-      "heroPrimary": "สำรวจแคนวาส",
+      "heroPrimary": "สำรวจ Canvas",
       "heroSecondary": "ดูสถาปัตยกรรม",
       "featuresHeading": "สร้างขึ้นเพื่อการทำงานของทีมอย่างแท้จริง",
       "featuresDescription": "ข้อมูลเรียลไทม์ ภาพที่ชัดเจน ไม่ต้องรอรายงาน",
@@ -2109,7 +2109,7 @@ export const generatedLocalCopy = {
           ]
         }
       ],
-      "demoHeading": "See It in Action",
+      "demoHeading": "ดูการทำงานจริง",
       "demoDescription": "ข้อมูลสด ข้อมูลเชิงลึกที่ชัดเจน การตัดสินใจทำได้เร็วขึ้น",
       "demoFeatures": [
         {
@@ -2139,13 +2139,13 @@ export const generatedLocalCopy = {
       "previewGuests": "จำนวนแขก",
       "ctaTitle": "พร้อมสำหรับแดชบอร์ดที่ใช้งานได้หรือยัง?",
       "ctaDescription": "ดูข้อมูลของคุณเป็นหนึ่งเดียว จองการสาธิต Canvas วันนี้",
-      "ctaPrimary": "หนังสือสาธิต Canvas",
+      "ctaPrimary": "จองการสาธิต Canvas",
       "ctaSecondary": "ดูโมดูลทั้งหมด"
     },
     "ms": {
-      "heroBadge": "Kanvas - Enjin Visualisasi",
+      "heroBadge": "Canvas - Enjin Visualisasi",
       "heroDescription": "Satu sumber kebenaran untuk setiap pasukan. Canvas menyampaikan papan pemuka langsung untuk eksekutif, operasi dan kewangan - sentiasa terkini, sentiasa sejajar.",
-      "heroPrimary": "Terokai Kanvas",
+      "heroPrimary": "Terokai Canvas",
       "heroSecondary": "Lihat Seni Bina",
       "featuresHeading": "Dibina untuk Cara Pasukan Sebenarnya Berfungsi",
       "featuresDescription": "Data masa nyata. Visual yang jelas. Tidak perlu menunggu laporan.",
@@ -2185,7 +2185,7 @@ export const generatedLocalCopy = {
             "Trend Jualan",
             "Kos Buruh",
             "Kiraan Tetamu",
-            "Giliran Meja"
+            "Kadar Pusing Ganti Meja"
           ]
         },
         {
@@ -2245,8 +2245,8 @@ export const generatedLocalCopy = {
       "previewLabor": "Kos Buruh %",
       "previewGuests": "Kiraan Tetamu",
       "ctaTitle": "Sedia untuk Papan Pemuka yang Berfungsi?",
-      "ctaDescription": "Lihat data anda bersatu. Tempah demo Kanvas hari ini.",
-      "ctaPrimary": "Demo Kanvas Buku",
+      "ctaDescription": "Lihat data anda bersatu. Tempah demo Canvas hari ini.",
+      "ctaPrimary": "Tempah Demo Canvas",
       "ctaSecondary": "Lihat Semua Modul"
     }
   }
