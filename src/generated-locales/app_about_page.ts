@@ -61,8 +61,8 @@ export const generatedLocalCopy = {
         "Pulse",
         "Benchmarks",
         "Watchtower",
-        "Einblicke",
-        "Intelligenz",
+        "Insights",
+        "Intelligence",
         "Foresight"
       ],
       "pillarsSubtitle": [
@@ -256,9 +256,9 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Nous recrutons",
       "pillars": [
         "Pulse",
-        "Référentiels",
+        "Benchmarks",
         "Watchtower",
-        "Aperçus",
+        "Insights",
         "Intelligence",
         "Foresight"
       ],
@@ -453,10 +453,10 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Estamos contratando",
       "pillars": [
         "Pulse",
-        "Referencias",
+        "Benchmarks",
         "Watchtower",
-        "Perspectivas",
-        "Inteligencia",
+        "Insights",
+        "Intelligence",
         "Foresight"
       ],
       "pillarsSubtitle": [
@@ -619,7 +619,7 @@ export const generatedLocalCopy = {
       "builtTitle": "ما قمنا ببنائه",
       "builtDescription": "ست طبقات متصلة تساعد المشغلين على الانتقال من التوقيت الفوري إلى التوقعات لمدة 90 يومًا دون الحاجة للتنقل بين الأنظمة.",
       "missionTitle": "لماذا توجد Sundae",
-      "missionDescription": "تشغل مشغلو المطاعم متعددة الوحدات أعمالًا معقدة وعالية الحجم عبر العشرات من الأنظمة غير المتصلة. النتيجة: قرارات بملايين الدولارات تُتخذ بناءً على الحدس، تسرب هوامش غير مرئي حتى فوات الأوان، وعدم وجود سياق سوقي لمعايرة الأداء.",
+      "missionDescription": "يدير مشغّلو المطاعم متعددة الوحدات أعمالًا معقدة وعالية الحجم عبر عشرات الأنظمة غير المتصلة. النتيجة: قرارات بملايين الدولارات تُتخذ بناءً على الحدس، تسرب هوامش غير مرئي حتى فوات الأوان، وعدم وجود سياق سوقي لمعايرة الأداء.",
       "missionSupport": "أنشأنا Sundae لأننا عشنا المشكلة. مؤسسنا قام بتوسيع مفاهيم المطاعم لتتجاوز 10 ملايين دولار في الإيرادات السنوية واستمر في مواجهة نفس المشكلة: أنظمة كثيرة، ووضوح قرار قليل.",
       "missionSteps": [
         {
@@ -635,7 +635,7 @@ export const generatedLocalCopy = {
           "description": "ذكاء في الوقت الحقيقي، توصيات مدعومة بالذكاء الاصطناعي، وتوقعات تنبؤية - بحيث تكون كل قرار مستندًا إلى معلومات، وليس تخمين."
         }
       ],
-      "teamTitle": "بناءً على تجارب مشغلين عاشوا المشكلة",
+      "teamTitle": "بُني على يد مشغّلين عاشوا المشكلة",
       "teamDescription": "يقدم فريقنا أكثر من 60 عامًا من الخبرة في المطاعم والتكنولوجيا والبيانات. لم ندرس هذه المشكلة من الهامش. لقد قمنا بتشغيل العمليات، وتوسيع المفاهيم، وتعاملنا مع نفس فجوات التقارير التي يواجهها المشغلون كل أسبوع.",
       "strengthsTitle": "قوة الفريق",
       "journeyTitle": "رحلة Sundae",
@@ -644,16 +644,16 @@ export const generatedLocalCopy = {
       "valuesDescription": "المبادئ التي تشكل قرارات المنتج وتظهر في كيفية بنائنا.",
       "presenceTitle": "أين تتواجد Sundae",
       "presenceDescription": "نشط في الشرق الأوسط وأمريكا الشمالية. يتوسع في الأسواق العالمية الكبرى للضيافة.",
-      "ctaTitle": "شاهد كيف تبدو الذكاء الموحد",
+      "ctaTitle": "شاهد كيف يبدو الذكاء الموحّد",
       "ctaDescription": "30 دقيقة لمراجعة بياناتك معًا ورؤية كيف يمكن أن تكون Sundae مفيدة حقًا.",
       "ctaPrimary": "احجز عرضًا تجريبيًا",
       "ctaSecondary": "نحن نوظف",
       "pillars": [
         "Pulse",
-        "معايير",
+        "Benchmarks",
         "Watchtower",
-        "رؤى",
-        "ذكاء",
+        "Insights",
+        "Intelligence",
         "Foresight"
       ],
       "pillarsSubtitle": [
@@ -849,8 +849,8 @@ export const generatedLocalCopy = {
         "Pulse",
         "Benchmarks",
         "Watchtower",
-        "Inzichten",
-        "Intelligentie",
+        "Insights",
+        "Intelligence",
         "Foresight"
       ],
       "pillarsSubtitle": [
@@ -1044,10 +1044,10 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Estamos Contratando",
       "pillars": [
         "Pulse",
-        "Referências",
+        "Benchmarks",
         "Watchtower",
         "Insights",
-        "Inteligência",
+        "Intelligence",
         "Foresight"
       ],
       "pillarsSubtitle": [
@@ -1241,10 +1241,10 @@ export const generatedLocalCopy = {
       "ctaSecondary": "ہم بھرتی کر رہے ہیں",
       "pillars": [
         "Pulse",
-        "بینچ مارکس",
+        "Benchmarks",
         "Watchtower",
-        "بصیرت",
-        "ذہانت",
+        "Insights",
+        "Intelligence",
         "Foresight"
       ],
       "pillarsSubtitle": [
@@ -1438,10 +1438,10 @@ export const generatedLocalCopy = {
       "ctaSecondary": "हम भर्ती कर रहे हैं",
       "pillars": [
         "Pulse",
-        "मानक",
+        "Benchmarks",
         "Watchtower",
-        "अंतर्दृष्टि",
-        "बुद्धिमत्ता",
+        "Insights",
+        "Intelligence",
         "Foresight"
       ],
       "pillarsSubtitle": [
@@ -1635,10 +1635,10 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Stiamo assumendo",
       "pillars": [
         "Pulse",
-        "Benchmark",
+        "Benchmarks",
         "Watchtower",
-        "Approfondimenti",
-        "Intelligenza",
+        "Insights",
+        "Intelligence",
         "Foresight"
       ],
       "pillarsSubtitle": [
@@ -1832,10 +1832,10 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Rekrutujemy",
       "pillars": [
         "Pulse",
-        "Wskaźniki",
+        "Benchmarks",
         "Watchtower",
-        "Spostrzeżenia",
-        "Inteligencja",
+        "Insights",
+        "Intelligence",
         "Foresight"
       ],
       "pillarsSubtitle": [
@@ -2029,10 +2029,10 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Eleman Alımı Yapıyoruz",
       "pillars": [
         "Pulse",
-        "Kıyaslamalar",
+        "Benchmarks",
         "Watchtower",
-        "İçgörüler",
-        "Zeka",
+        "Insights",
+        "Intelligence",
         "Foresight"
       ],
       "pillarsSubtitle": [
@@ -2226,10 +2226,10 @@ export const generatedLocalCopy = {
       "ctaSecondary": "我们在招聘",
       "pillars": [
         "Pulse",
-        "基准",
+        "Benchmarks",
         "Watchtower",
-        "洞察",
-        "智能",
+        "Insights",
+        "Intelligence",
         "Foresight"
       ],
       "pillarsSubtitle": [
@@ -2423,10 +2423,10 @@ export const generatedLocalCopy = {
       "ctaSecondary": "私たちは採用中です",
       "pillars": [
         "Pulse",
-        "ベンチマーク",
+        "Benchmarks",
         "Watchtower",
-        "インサイト",
-        "インテリジェンス",
+        "Insights",
+        "Intelligence",
         "Foresight"
       ],
       "pillarsSubtitle": [
@@ -2620,10 +2620,10 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Kami Sedang Mencari",
       "pillars": [
         "Pulse",
-        "Tolok Ukur",
+        "Benchmarks",
         "Watchtower",
-        "Wawasan",
-        "Kecerdasan",
+        "Insights",
+        "Intelligence",
         "Foresight"
       ],
       "pillarsSubtitle": [
@@ -2817,10 +2817,10 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Chúng tôi đang tuyển dụng",
       "pillars": [
         "Pulse",
-        "Tiêu chuẩn",
+        "Benchmarks",
         "Watchtower",
-        "Thông tin",
-        "Trí tuệ",
+        "Insights",
+        "Intelligence",
         "Foresight"
       ],
       "pillarsSubtitle": [
@@ -3014,10 +3014,10 @@ export const generatedLocalCopy = {
       "ctaSecondary": "우리는 채용 중입니다",
       "pillars": [
         "Pulse",
-        "벤치마크",
+        "Benchmarks",
         "Watchtower",
-        "인사이트",
-        "인텔리전스",
+        "Insights",
+        "Intelligence",
         "Foresight"
       ],
       "pillarsSubtitle": [
@@ -3211,10 +3211,10 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Angajăm",
       "pillars": [
         "Pulse",
-        "Referințe",
+        "Benchmarks",
         "Watchtower",
-        "Informații",
-        "Inteligență",
+        "Insights",
+        "Intelligence",
         "Foresight"
       ],
       "pillarsSubtitle": [
@@ -3381,7 +3381,7 @@ export const generatedLocalCopy = {
       "missionSupport": "Vi byggde Sundae eftersom vi upplevde problemet. Vår grundare skalerade restaurangkoncept till över 10 miljoner dollar i årlig intäkt och stötte ständigt på samma problem: för många system, för lite beslutsklarhet.",
       "missionSteps": [
         {
-          "title": "Förenkla 12+ datakällor",
+          "title": "Förena 12+ datakällor",
           "description": "POS, arbetskraft, lager, leverans, bokningar, inköp, marknadsföring - ett intelligent lager istället för tolv flikar."
         },
         {
@@ -3394,7 +3394,7 @@ export const generatedLocalCopy = {
         }
       ],
       "teamTitle": "Byggd av operatörer som har levt med problemet",
-      "teamDescription": "Vårt team har över 60 års erfarenhet inom restauranger, teknik och data. Vi har inte studerat detta problem från sidan. Vi har drivit verksamheter, skalat koncept och hanterat de samma rapporteringsluckor som operatörer står inför varje vecka.",
+      "teamDescription": "Vårt team har över 60 års erfarenhet inom restauranger, teknik och data. Vi har inte studerat detta problem från sidan. Vi har drivit verksamheter, skalat koncept och hanterat samma rapporteringsluckor som operatörer står inför varje vecka.",
       "strengthsTitle": "Teamets Styrkor",
       "journeyTitle": "Sundae-resan",
       "journeyDescription": "Företaget växte fram ur operatörers smärta och blev sedan en plattform som används på flera marknader.",
@@ -3408,10 +3408,10 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Vi anställer",
       "pillars": [
         "Pulse",
-        "Jämförelser",
+        "Benchmarks",
         "Watchtower",
-        "Insikter",
-        "Intelligens",
+        "Insights",
+        "Intelligence",
         "Foresight"
       ],
       "pillarsSubtitle": [
@@ -3605,10 +3605,10 @@ export const generatedLocalCopy = {
       "ctaSecondary": "আমরা নিয়োগ দিচ্ছি",
       "pillars": [
         "Pulse",
-        "বেঞ্চমার্ক",
+        "Benchmarks",
         "Watchtower",
-        "দৃষ্টিভঙ্গি",
-        "বুদ্ধিমত্তা",
+        "Insights",
+        "Intelligence",
         "Foresight"
       ],
       "pillarsSubtitle": [
@@ -3802,10 +3802,10 @@ export const generatedLocalCopy = {
       "ctaSecondary": "เรากำลังรับสมัครงาน",
       "pillars": [
         "Pulse",
-        "เกณฑ์มาตรฐาน",
+        "Benchmarks",
         "Watchtower",
-        "ข้อมูลเชิงลึก",
-        "ปัญญาประดิษฐ์",
+        "Insights",
+        "Intelligence",
         "Foresight"
       ],
       "pillarsSubtitle": [
@@ -3981,7 +3981,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Buat Keputusan Dengan Yakin",
-          "description": "Kecerdasan masa nyata, cadangan berkuasa AI, dan ramalan yang boleh diramal - supaya setiap keputusan adalah berdasarkan maklumat, bukan tekaan."
+          "description": "Kecerdasan masa nyata, cadangan berkuasa AI, dan ramalan prediktif - supaya setiap keputusan adalah berdasarkan maklumat, bukan tekaan."
         }
       ],
       "teamTitle": "Dibina oleh Pengendali yang Mengalami Masalah",
@@ -3999,10 +3999,10 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Kami Mencari Kakitangan",
       "pillars": [
         "Pulse",
-        "Penanda Aras",
+        "Benchmarks",
         "Watchtower",
-        "Wawasan",
-        "Kecerdasan",
+        "Insights",
+        "Intelligence",
         "Foresight"
       ],
       "pillarsSubtitle": [

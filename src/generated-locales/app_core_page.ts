@@ -608,8 +608,8 @@ export const generatedLocalCopy = {
         ]
       },
       "tiers": {
-        "eyebrow": "WÄHLEN SIE IHREN TIER",
-        "heading": "Drei Tiers für jede Größe",
+        "eyebrow": "WÄHLEN SIE IHRE STUFE",
+        "heading": "Drei Stufen für jede Größe",
         "description": "Von wachsenden Betrieben bis hin zu globalen Unternehmen. Wählen Sie Ihre Geschwindigkeit.",
         "bestForLabel": "Am besten für:",
         "viewPrefix": "Ansehen",
@@ -908,7 +908,7 @@ export const generatedLocalCopy = {
             "description": "Voor restaurantgroepen die opschalen van één locatie naar meerdere locaties. 4-uurs verfrissingscycli en integratie met één POS.",
             "features": [
               "4-uurs verfrissing (6x per dag)",
-              "600 basiscredits + 120/lokatie",
+              "600 basiscredits + 120/locatie",
               "30 aangepaste dashboards",
               "2 jaar opslag",
               "Integratie met één POS",
@@ -924,7 +924,7 @@ export const generatedLocalCopy = {
             "description": "Voor gevestigde multi-locatie operators die snellere verfrissingscycli en geavanceerde prognoses over merken nodig hebben.",
             "features": [
               "2-uurs verfrissing (12x per dag)",
-              "1.200 basiscredits + 240/lokatie",
+              "1.200 basiscredits + 240/locatie",
               "75 aangepaste dashboards",
               "3 jaar opslag",
               "Multi-POS ondersteuning",
@@ -1042,8 +1042,8 @@ export const generatedLocalCopy = {
         ]
       },
       "integrations": {
-        "heading": "Verbind al uw systemen",
-        "description": "Core verbindt met 12 datadomeinen en 250+ leveranciersintegraties.",
+        "heading": "Verbind al je systemen",
+        "description": "Core verbindt met 12 datadomeinen en 80+ leveranciersintegraties.",
         "items": [
           {
             "category": "POS-systemen",
@@ -1079,7 +1079,7 @@ export const generatedLocalCopy = {
       },
       "modules": {
         "heading": "Voeg Modules toe voor Gespecialiseerde Intelligentie",
-        "description": "Versterk Core met gerichte modules voor uw specifieke operationele uitdagingen.",
+        "description": "Versterk Core met gerichte modules voor je specifieke operationele uitdagingen.",
         "items": [
           {
             "name": "Arbeidsintelligentie",
@@ -1145,7 +1145,7 @@ export const generatedLocalCopy = {
       },
       "cta": {
         "title": "Stop met het Beheren van de Cijfers van Gisteren",
-        "description": "Zie hoe operationele intelligentie in real-time eruitziet met uw actuele gegevens.",
+        "description": "Zie hoe operationele intelligentie in real-time eruitziet met je actuele gegevens.",
         "primary": "Verken Core Tiers",
         "secondary": "Boek een Demo"
       }
@@ -1163,7 +1163,7 @@ export const generatedLocalCopy = {
         "cards": [
           {
             "title": "تنبؤية، وليست تفاعلية",
-            "desc": "احصل على تنبيهات قبل أن تصبح المشاكل مكلفة. توصيات Sundae Coach للعمل الفوري - وليس لوحات معلومات تتحديث.",
+            "desc": "احصل على تنبيهات قبل أن تصبح المشاكل مكلفة. توصيات Sundae Coach للعمل الفوري - وليست لوحات معلومات تتحدّث فحسب.",
             "icon": "forecasting",
             "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
@@ -1365,31 +1365,31 @@ export const generatedLocalCopy = {
         ]
       },
       "modules": {
-        "heading": "إضافة وحدات للاستخبارات المتخصصة",
-        "description": "تعميق Core من خلال وحدات مركزة لتحدياتك التشغيلية المحددة.",
+        "heading": "أضف وحدات للحصول على ذكاء متخصص",
+        "description": "تعمّق في Core من خلال وحدات مركزة لتحدياتك التشغيلية المحددة.",
         "items": [
           {
-            "name": "استخبارات العمالة",
+            "name": "ذكاء العمالة",
             "description": "تحسين الجدول الزمني في الوقت الحقيقي، توقع الطلب على العمالة",
             "icon": "benchmarking"
           },
           {
-            "name": "استخبارات المخزون",
+            "name": "ذكاء المخزون",
             "description": "تتبع الهدر في الوقت الحقيقي، مستويات بار آلية",
             "icon": "insights"
           },
           {
-            "name": "استخبارات الشراء",
+            "name": "ذكاء الشراء",
             "description": "تحسين الأسعار في الوقت الحقيقي، مقارنة الموردين",
             "icon": "marketing"
           },
           {
-            "name": "استخبارات التسويق",
+            "name": "ذكاء التسويق",
             "description": "تتبع الحملات في الوقت الحقيقي، مراقبة CAC",
             "icon": "growth"
           },
           {
-            "name": "استخبارات الحجوزات",
+            "name": "ذكاء الحجوزات",
             "description": "أنماط الحجز في الوقت الحقيقي، تحسين الطاولات",
             "icon": "operators"
           }
@@ -1417,7 +1417,7 @@ export const generatedLocalCopy = {
             "a": "ليس مطلوبًا، ولكن يُوصى به إذا كنت بحاجة إلى سرعة تشغيل (تحديث كل 2-4 ساعات). يعمل Report بشكل رائع لـ 1-10 مواقع إذا كانت التقارير اليومية كافية."
           },
           {
-            "q": "Can Core handle multiple POS systems?",
+            "q": "هل يستطيع Core التعامل مع أنظمة POS متعددة؟",
             "a": "يدعم Core Pro وEnterprise بيئات متعددة لPOS. يدعم Core Lite POS واحدة عبر جميع المواقع."
           },
           {
@@ -1814,13 +1814,13 @@ export const generatedLocalCopy = {
       },
       "dimensions": {
         "heading": "Il Modello di Intelligenza 4D",
-        "description": "Core offre tutte e quattro le dimensioni - espanso.",
+        "description": "Core offre tutte e quattro le dimensioni - espanse.",
         "items": [
           {
             "dimension": "1D",
             "title": "Cosa è Successo",
             "status": "In Tempo Reale",
-            "description": "Verità operativa completa, aggiornata ogni 2-4 ore. Visibilità quasi in tempo reale per interventi nella stessa turno.",
+            "description": "Verità operativa completa, aggiornata ogni 2-4 ore. Visibilità quasi in tempo reale per interventi nello stesso turno.",
             "icon": "report",
             "color": "from-[#FF7E6F] to-[#FF5C4D]"
           },
@@ -1972,7 +1972,7 @@ export const generatedLocalCopy = {
       },
       "watchtower": {
         "heading": "Core + Watchtower = Intelligenza Completa",
-        "description": "Core ti dice come stai performando in questo momento. Watchtower ti informa su ciò che sta accadendo intorno a te. Insieme, ti offrono un quadro completo - operazioni interne e contesto di mercato esterno in un'unica layer di intelligenza.",
+        "description": "Core ti dice come stai performando in questo momento. Watchtower ti informa su ciò che sta accadendo intorno a te. Insieme, ti offrono un quadro completo - operazioni interne e contesto di mercato esterno in un unico livello di intelligenza.",
         "button": "Scopri di più su Watchtower"
       },
       "faq": {
@@ -2015,7 +2015,7 @@ export const generatedLocalCopy = {
       "hero": {
         "badge": "Sundae Core",
         "description": "आपके POS, श्रम, इन्वेंटरी और हर महत्वपूर्ण सिस्टम से जुड़ा हुआ। Core हर 2-4 घंटे में अपडेट होता है ताकि आप शिफ्ट के दौरान कार्रवाई कर सकें - नुकसान होने के बाद नहीं।",
-        "primary": "Core Tiers का अन्वेषण करें",
+        "primary": "Core स्तरों का अन्वेषण करें",
         "secondary": "डेमो बुक करें"
       },
       "realTime": {
@@ -2045,13 +2045,13 @@ export const generatedLocalCopy = {
       "tiers": {
         "eyebrow": "अपना स्तर चुनें",
         "heading": "हर पैमाने के लिए तीन स्तर",
-        "description": "बढ़ती हुई संचालन से लेकर वैश्विक उद्यमों तक। अपनी गति चुनें।",
+        "description": "बढ़ते हुए संचालन से लेकर वैश्विक उद्यमों तक। अपनी गति चुनें।",
         "bestForLabel": "सर्वश्रेष्ठ के लिए:",
         "viewPrefix": "देखें",
         "items": [
           {
             "name": "Core Lite",
-            "badge": "बढ़ती हुई संचालन",
+            "badge": "बढ़ते हुए संचालन",
             "subtitle": "1-29 स्थानों के लिए वास्तविक समय की जानकारी",
             "description": "रेस्टोरेंट समूहों के लिए जो एकल स्थान से बहु-स्थान संचालन में बढ़ रहे हैं। 4-घंटे के रिफ्रेश चक्र और एकल POS एकीकरण।",
             "features": [
@@ -2101,7 +2101,7 @@ export const generatedLocalCopy = {
       },
       "dimensions": {
         "heading": "4D इंटेलिजेंस मॉडल",
-        "description": "कोर सभी चार आयाम प्रदान करता है - विस्तारित।",
+        "description": "Core सभी चार आयाम प्रदान करता है - विस्तारित।",
         "items": [
           {
             "dimension": "1D",
@@ -2123,7 +2123,7 @@ export const generatedLocalCopy = {
             "dimension": "3D",
             "title": "बाजार संदर्भ",
             "status": "विस्तारित",
-            "description": "पूर्ण बेंचमार्किंग सूट (30+ मैट्रिक्स)। पोर्टफोलियो तुलना। वॉचटॉवर के माध्यम से प्रतिस्पर्धात्मक संदर्भ। (Watchtower)",
+            "description": "पूर्ण बेंचमार्किंग सूट (30+ मैट्रिक्स)। पोर्टफोलियो तुलना। Watchtower के माध्यम से प्रतिस्पर्धात्मक संदर्भ।",
             "icon": "multiLocation",
             "color": "from-green-500 to-green-600"
           },
@@ -2131,14 +2131,14 @@ export const generatedLocalCopy = {
             "dimension": "4D",
             "title": "अगला क्या है",
             "status": "विस्तारित",
-            "description": "14-30 दिन की पूर्वानुमान। समस्याओं के बढ़ने से पहले सक्रिय अलर्ट। विश्वास स्कोर के साथ Sundae कोच सिफारिशें।",
+            "description": "14-30 दिन का पूर्वानुमान। समस्याओं के बढ़ने से पहले सक्रिय अलर्ट। विश्वास स्कोर के साथ Sundae Coach सिफारिशें।",
             "icon": "growth",
             "color": "from-orange-500 to-orange-600"
           }
         ]
       },
       "pulse": {
-        "badge": "कोर के साथ शामिल",
+        "badge": "Core के साथ शामिल",
         "heading": "Pulse: आपका शिफ्ट कमांड सेंटर",
         "description": "जैसे ही विसंगतियाँ होती हैं, उन्हें देखें। अपने टीम को वास्तविक समय में कोच करें। शिफ्ट खत्म होने से पहले परिणामों की पुष्टि करें।",
         "features": [
@@ -2173,7 +2173,7 @@ export const generatedLocalCopy = {
             "icon": "forecasting"
           },
           {
-            "name": "Sundae कोच",
+            "name": "Sundae Coach",
             "description": "बिक्री, लीक और प्रवाह के लिए शिफ्ट-स्तरीय कोचिंग संकेत",
             "icon": "intelligence"
           },
@@ -2191,7 +2191,7 @@ export const generatedLocalCopy = {
       },
       "integrations": {
         "heading": "अपने सभी सिस्टम कनेक्ट करें",
-        "description": "Core 12 डेटा डोमेन में 250+ विक्रेता एकीकरण के साथ कनेक्ट करता है।",
+        "description": "Core 12 डेटा डोमेन में 80+ विक्रेता एकीकरण के साथ कनेक्ट करता है।",
         "items": [
           {
             "category": "POS सिस्टम",
@@ -2227,7 +2227,7 @@ export const generatedLocalCopy = {
       },
       "modules": {
         "heading": "विशेषीकृत बुद्धिमत्ता के लिए मॉड्यूल जोड़ें",
-        "description": "आपकी विशिष्ट संचालन चुनौतियों के लिए केंद्र को केंद्रित मॉड्यूल के साथ गहरा करें।",
+        "description": "अपनी विशिष्ट परिचालन चुनौतियों के लिए Core को केंद्रित मॉड्यूल के साथ और गहरा करें।",
         "items": [
           {
             "name": "श्रम बुद्धिमत्ता",
@@ -2236,7 +2236,7 @@ export const generatedLocalCopy = {
           },
           {
             "name": "इन्वेंटरी बुद्धिमत्ता",
-            "description": "वास्तविक समय में अपशिष्ट ट्रैकिंग, स्वचालित स्तर",
+            "description": "वास्तविक समय में अपशिष्ट ट्रैकिंग, स्वचालित पार स्तर",
             "icon": "insights"
           },
           {
@@ -2294,7 +2294,7 @@ export const generatedLocalCopy = {
       "cta": {
         "title": "कल के नंबरों का प्रबंधन करना बंद करें",
         "description": "अपने वास्तविक डेटा के साथ वास्तविक समय की परिचालन बुद्धिमत्ता कैसी दिखती है, देखें।",
-        "primary": "Core Tiers का अन्वेषण करें",
+        "primary": "Core स्तरों का अन्वेषण करें",
         "secondary": "डेमो बुक करें"
       }
     },
@@ -2302,7 +2302,7 @@ export const generatedLocalCopy = {
       "hero": {
         "badge": "Sundae Core",
         "description": "آپ کے POS، مزدوری، انوینٹری، اور ہر اہم نظام سے جڑا ہوا۔ Core ہر 2-4 گھنٹے میں تازہ ہوتا ہے تاکہ آپ شفٹ کے دوران عمل کر سکیں - نقصان کے بعد نہیں۔",
-        "primary": "Core Tiers کا جائزہ لیں",
+        "primary": "Core سطحوں کا جائزہ لیں",
         "secondary": "ڈیمو بک کریں"
       },
       "realTime": {
@@ -2425,7 +2425,7 @@ export const generatedLocalCopy = {
         ]
       },
       "pulse": {
-        "badge": "کور کے ساتھ شامل",
+        "badge": "Core کے ساتھ شامل",
         "heading": "Pulse: آپ کا شفٹ کمانڈ سینٹر",
         "description": "انحرافات کو اس لمحے دیکھیں جب وہ ہوتے ہیں۔ اپنے ٹیم کو حقیقی وقت میں تربیت دیں۔ شفٹ ختم ہونے سے پہلے نتائج کی تصدیق کریں۔",
         "features": [
@@ -2446,7 +2446,7 @@ export const generatedLocalCopy = {
           },
           {
             "name": "فلو",
-            "description": "تھرو پٹ کی رکاوٹیں، بیک لاک، اور کچن کی رفتار کے میٹرکس",
+            "description": "تھرو پٹ کی رکاوٹیں، بیک لاگ، اور کچن کی رفتار کے میٹرکس",
             "icon": "speed"
           },
           {
@@ -2460,7 +2460,7 @@ export const generatedLocalCopy = {
             "icon": "forecasting"
           },
           {
-            "name": "Sundae کوچ",
+            "name": "Sundae Coach",
             "description": "سیلز، لیکج، اور فلو کے لیے شفٹ کی سطح کے تربیتی اشارے",
             "icon": "intelligence"
           },
@@ -2478,7 +2478,7 @@ export const generatedLocalCopy = {
       },
       "integrations": {
         "heading": "اپنے تمام نظاموں کو جوڑیں",
-        "description": "Core 12 ڈیٹا ڈومینز میں 250+ فروشندہ انضمام کے ساتھ جڑتا ہے۔",
+        "description": "Core 12 ڈیٹا ڈومینز میں 80+ فروشندہ انضمام کے ساتھ جڑتا ہے۔",
         "items": [
           {
             "category": "POS سسٹمز",
@@ -2491,7 +2491,7 @@ export const generatedLocalCopy = {
             "icon": "benchmarking"
           },
           {
-            "category": "انویٹری اور خریداری",
+            "category": "انوینٹری اور خریداری",
             "examples": "MarketMan, Craftable, BinWise",
             "icon": "insights"
           },
@@ -2522,7 +2522,7 @@ export const generatedLocalCopy = {
             "icon": "benchmarking"
           },
           {
-            "name": "انویٹری ذہانت",
+            "name": "انوینٹری ذہانت",
             "description": "حقیقی وقت میں فضلہ کی نگرانی، خودکار پار کی سطحیں",
             "icon": "insights"
           },
@@ -2581,7 +2581,7 @@ export const generatedLocalCopy = {
       "cta": {
         "title": "کل کے اعداد و شمار کا انتظام کرنا بند کریں",
         "description": "اپنے حقیقی ڈیٹا کے ساتھ حقیقی وقت کی عملی ذہانت کیسی نظر آتی ہے، یہ دیکھیں۔",
-        "primary": "Core Tiers کا جائزہ لیں",
+        "primary": "Core سطحوں کا جائزہ لیں",
         "secondary": "ڈیمو بک کریں"
       }
     },
@@ -2747,13 +2747,13 @@ export const generatedLocalCopy = {
             "icon": "forecasting"
           },
           {
-            "name": "Trener Sundae",
+            "name": "Sundae Coach",
             "description": "Sygnalizacja coachingowa na poziomie zmiany dla Sprzedaży, Ubytków i Przepływu",
             "icon": "intelligence"
           },
           {
             "name": "Ranking Portfela",
-            "description": "Porównanie wydajności wielu lokalizacji z śledzeniem serii",
+            "description": "Porównanie wydajności wielu lokalizacji ze śledzeniem serii",
             "icon": "multiLocation"
           },
           {
@@ -2904,7 +2904,7 @@ export const generatedLocalCopy = {
         ]
       },
       "tiers": {
-        "eyebrow": "TİPİNİZİ SEÇİN",
+        "eyebrow": "SEVİYENİZİ SEÇİN",
         "heading": "Her Ölçek İçin Üç Seviye",
         "description": "Büyüyen operasyonlardan küresel işletmelere. Hızınızı seçin.",
         "bestForLabel": "En iyi için:",
@@ -3015,7 +3015,7 @@ export const generatedLocalCopy = {
           },
           {
             "name": "Kaçak İzleme",
-            "description": "Her vardiya için gerçek zamanlı iptal, hediye ve indirim izleme",
+            "description": "Her vardiya için gerçek zamanlı iptal, ikram ve indirim izleme",
             "icon": "cost"
           },
           {
@@ -3034,7 +3034,7 @@ export const generatedLocalCopy = {
             "icon": "forecasting"
           },
           {
-            "name": "Sundae Koçu",
+            "name": "Sundae Coach",
             "description": "Satış, Kaçak ve Akış için vardiya düzeyinde koçluk sinyalleri",
             "icon": "intelligence"
           },
@@ -3191,8 +3191,8 @@ export const generatedLocalCopy = {
         ]
       },
       "tiers": {
-        "eyebrow": "选择您的套餐",
-        "heading": "适合各种规模的三个套餐",
+        "eyebrow": "选择您的层级",
+        "heading": "适合各种规模的三个层级",
         "description": "从成长中的运营到全球企业。选择您的速度。",
         "bestForLabel": "最佳适用：",
         "viewPrefix": "查看",
@@ -3321,7 +3321,7 @@ export const generatedLocalCopy = {
             "icon": "forecasting"
           },
           {
-            "name": "Sundae教练",
+            "name": "Sundae Coach",
             "description": "针对销售、泄漏和流量的班次级别指导信号",
             "icon": "intelligence"
           },
@@ -3442,7 +3442,7 @@ export const generatedLocalCopy = {
       "cta": {
         "title": "停止管理过时的数据",
         "description": "查看您实际数据的实时运营智能是什么样的。",
-        "primary": "探索核心层级",
+        "primary": "探索Core层级",
         "secondary": "预约演示"
       }
     },
@@ -3608,7 +3608,7 @@ export const generatedLocalCopy = {
             "icon": "forecasting"
           },
           {
-            "name": "Sundaeコーチ",
+            "name": "Sundae Coach",
             "description": "売上、漏れ、フローのためのシフトレベルのコーチングシグナル",
             "icon": "intelligence"
           },
@@ -3729,7 +3729,7 @@ export const generatedLocalCopy = {
       "cta": {
         "title": "昨日の数字を管理するのはやめましょう",
         "description": "実際のデータでリアルタイムのオペレーショナルインテリジェンスがどのようなものかを見てみましょう。",
-        "primary": "Core Tiersを探る",
+        "primary": "Coreティアを探る",
         "secondary": "デモを予約"
       }
     },

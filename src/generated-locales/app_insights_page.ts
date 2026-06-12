@@ -3,7 +3,7 @@
 export const generatedLocalCopy = {
   "localizedInsightsUi": {
     "de": {
-      "badge": "SUNDAE EINBLICKE",
+      "badge": "SUNDAE INSIGHTS",
       "title": "Gehen Sie tiefer in jeden Teil Ihres Betriebs",
       "description": "Vierzehn spezialisierte Module decken Umsatz, Personal, Inventar, Einkauf, Marketing, Reservierungen, Gewinn, Lieferung, Gästeerlebnis, CRM, Umsatzsicherung, Cross-Intelligence, vorausschauende Intelligenz und Executive Summary ab. Jedes Modul ist für einen Betriebsbereich gebaut.",
       "bookDemo": "Demo buchen",
@@ -47,7 +47,7 @@ export const generatedLocalCopy = {
       "modulesDescription": "Jedes Modul liefert KI-gestützte Analysen für einen spezifischen Betriebsbereich",
       "howTitle": "Wie es funktioniert",
       "howDescription": "Fügen Sie Ihrer Core-Subscription Module hinzu, wenn Ihre Bedürfnisse wachsen.",
-      "fitEyebrow": "WIE EINBLICKE PASST",
+      "fitEyebrow": "WIE INSIGHTS SICH EINFÜGT",
       "fitTitle": "Die Analytische Ebene",
       "fitDescription": "Pulse hilft Teams, die laufende Schicht im Griff zu behalten. Watchtower beobachtet den externen Markt. Die Insights-Module geben jeder Funktion eine tiefere Arbeitsansicht auf Personal, Inventar, Einkauf, Marketing und mehr.",
       "fitItems": [
@@ -204,7 +204,7 @@ export const generatedLocalCopy = {
       "ctaPricing": "Voir les tarifs du module"
     },
     "nl": {
-      "badge": "Sundae Inzichten",
+      "badge": "SUNDAE INSIGHTS",
       "title": "Ga dieper in op elk deel van uw bedrijfsvoering",
       "description": "Veertien gespecialiseerde modules dekken omzet, personeel, voorraad, inkoop, marketing, reserveringen, winst, bezorging, gastbeleving, CRM, omzetbewaking, cross-intelligence, voorspellende intelligentie en een executive summary. Elke module is gebouwd voor één operationeel domein.",
       "bookDemo": "Boek een Demo",
@@ -248,13 +248,13 @@ export const generatedLocalCopy = {
       "modulesDescription": "Elke module biedt AI-gestuurde analyses voor één specifiek operationeel domein",
       "howTitle": "Hoe het werkt",
       "howDescription": "Voeg modules toe aan uw Core-abonnement naarmate uw behoeften groeien",
-      "fitEyebrow": "HOE INZICHTEN PASSEN",
+      "fitEyebrow": "HOE INSIGHTS PAST",
       "fitTitle": "De analytische laag",
       "fitDescription": "Pulse helpt teams om grip te houden op de dienst die voor hen ligt. Watchtower volgt de externe markt. De Insights-modules geven elke functie een dieper werkinzicht in personeel, voorraad, inkoop, marketing en meer.",
       "fitItems": [
         {
           "name": "Pulse",
-          "desc": "Realtime shift monitoring"
+          "desc": "Realtime dienstmonitoring"
         },
         {
           "name": "Watchtower",
@@ -338,7 +338,7 @@ export const generatedLocalCopy = {
       "ctaPricing": "Ver Preços do Módulo"
     },
     "ur": {
-      "badge": "Sundae انسائٹس",
+      "badge": "Sundae Insights",
       "title": "اپنے آپریشن کے ہر حصے میں مزید گہرائی میں جائیں",
       "description": "چودہ خصوصی ماڈیولز آمدنی، مزدوری، انوینٹری، خریداری، مارکیٹنگ، ریزرویشن، منافع، ترسیل، مہمان کے تجربے، CRM، آمدنی کی ضمانت، کراس انٹیلیجنس، بصیرت کی انٹیلیجنس، اور ایگزیکٹو سمری کا احاطہ کرتے ہیں۔ ہر ماڈیول ایک آپریٹنگ ڈومین کے لیے بنایا گیا ہے۔",
       "bookDemo": "ڈیمو بک کریں",
@@ -382,7 +382,7 @@ export const generatedLocalCopy = {
       "modulesDescription": "ہر ماڈیول ایک مخصوص عملیاتی شعبے کے لیے AI سے چلنے والے تجزیات فراہم کرتا ہے",
       "howTitle": "یہ کیسے کام کرتا ہے",
       "howDescription": "اپنی ضروریات کے بڑھنے کے ساتھ اپنے کور سبسکرپشن میں ماڈیولز شامل کریں",
-      "fitEyebrow": "ان بصیرتوں کا کیا کردار ہے",
+      "fitEyebrow": "Insights کہاں فٹ ہوتا ہے",
       "fitTitle": "تجزیاتی پرت",
       "fitDescription": "Pulse ٹیموں کو ان کے سامنے کی شفٹ سنبھالنے میں مدد دیتا ہے۔ Watchtower باہر کے بازار کی نگرانی کرتا ہے۔ Insights ماڈیولز ہر فنکشن کو مزدوری، انوینٹری، خریداری، مارکیٹنگ اور مزید پر گہری کام کی نظر فراہم کرتے ہیں۔",
       "fitItems": [
@@ -405,7 +405,7 @@ export const generatedLocalCopy = {
       "ctaPricing": "ماڈیول کی قیمتیں دیکھیں"
     },
     "hi": {
-      "badge": "Sundae अंतर्दृष्टि",
+      "badge": "Sundae Insights",
       "title": "अपने संचालन के हर हिस्से में गहराई से जाएं",
       "description": "चौदह विशेषीकृत मॉड्यूल राजस्व, श्रम, इन्वेंटरी, खरीद, विपणन, आरक्षण, लाभ, डिलीवरी, अतिथि अनुभव, सीआरएम, राजस्व आश्वासन, क्रॉस-इंटेलिजेंस, पूर्वदृष्टि इंटेलिजेंस, और कार्यकारी सारांश को कवर करते हैं। प्रत्येक मॉड्यूल एक संचालन डोमेन के लिए बनाया गया है।",
       "bookDemo": "डेमो बुक करें",
@@ -449,7 +449,7 @@ export const generatedLocalCopy = {
       "modulesDescription": "प्रत्येक मॉड्यूल एक विशिष्ट संचालन क्षेत्र के लिए AI-संचालित विश्लेषण प्रदान करता है",
       "howTitle": "यह कैसे काम करता है",
       "howDescription": "जैसे-जैसे आपकी आवश्यकताएँ बढ़ती हैं, अपने Core सब्सक्रिप्शन में मॉड्यूल जोड़ें",
-      "fitEyebrow": "कैसे अंतर्दृष्टियाँ फिट होती हैं",
+      "fitEyebrow": "Insights कहाँ फिट होता है",
       "fitTitle": "विश्लेषणात्मक परत",
       "fitDescription": "Pulse टीमों को उनके सामने की शिफ्ट संभालने में मदद करता है। Watchtower बाहरी बाजार पर नज़र रखता है। Insights मॉड्यूल प्रत्येक कार्य को श्रम, इन्वेंटरी, खरीद, मार्केटिंग और अधिक पर गहरा कार्यात्मक दृश्य प्रदान करते हैं।",
       "fitItems": [
@@ -516,7 +516,7 @@ export const generatedLocalCopy = {
       "modulesDescription": "Ogni modulo offre analisi potenziate dall'AI per un dominio operativo specifico",
       "howTitle": "Come Funziona",
       "howDescription": "Aggiungi moduli al tuo abbonamento Core man mano che le tue esigenze crescono",
-      "fitEyebrow": "COME GLI INSIGHT SI ADATTANO",
+      "fitEyebrow": "COME SI INSERISCE INSIGHTS",
       "fitTitle": "Il Livello Analitico",
       "fitDescription": "Pulse aiuta i team a gestire il turno che hanno di fronte. Watchtower monitora il mercato esterno. I moduli Insights offrono a ciascuna funzione una visione più approfondita di personale, inventario, acquisti, marketing e altro ancora.",
       "fitItems": [
@@ -539,7 +539,7 @@ export const generatedLocalCopy = {
       "ctaPricing": "Vedi i prezzi del modulo"
     },
     "zh-Hans": {
-      "badge": "Sundae 洞察",
+      "badge": "Sundae Insights",
       "title": "深入了解运营的每个环节",
       "description": "十四个专业模块涵盖收入、劳动力、库存、采购、营销、预订、利润、配送、客户体验、客户关系管理、收入保障、跨智能、前瞻智能和执行摘要。每个模块针对一个运营领域而构建。",
       "bookDemo": "预约演示",
@@ -583,7 +583,7 @@ export const generatedLocalCopy = {
       "modulesDescription": "每个模块提供针对特定运营领域的AI驱动分析",
       "howTitle": "工作原理",
       "howDescription": "随着需求的增长，向您的Core订阅添加模块",
-      "fitEyebrow": "洞察如何适配",
+      "fitEyebrow": "Insights 如何契合",
       "fitTitle": "分析层",
       "fitDescription": "Pulse 帮助团队掌控眼前的当班。Watchtower 追踪外部市场。Insights 模块为每个职能提供更深入的人力、库存、采购、营销等工作视图。",
       "fitItems": [
@@ -601,12 +601,12 @@ export const generatedLocalCopy = {
         }
       ],
       "ctaTitle": "从最重要的开始",
-      "ctaDescription": "添加您运营所需的模块。随着您的发展进行扩展。Core 级别上提供的每个模块。",
+      "ctaDescription": "添加您运营所需的模块。随着业务发展灵活扩展。每个模块均可在 Core 级别中使用。",
       "ctaDemo": "预约演示",
       "ctaPricing": "查看模块定价"
     },
     "tr": {
-      "badge": "SUNDAE İÇGÖRÜLERİ",
+      "badge": "SUNDAE INSIGHTS",
       "title": "İşletmenizin Her Alanını Daha Derinlemesine İnceleyin",
       "description": "On dört özel modül, gelir, iş gücü, envanter, satın alma, pazarlama, rezervasyon, kâr, teslimat, misafir deneyimi, CRM, gelir güvencesi, çapraz zeka, öngörü zekası ve yönetici özeti konularını kapsar. Her modül, bir işletme alanı için tasarlanmıştır.",
       "bookDemo": "Demo Rezervasyonu Yap",
@@ -650,7 +650,7 @@ export const generatedLocalCopy = {
       "modulesDescription": "Her modül, belirli bir operasyonel alan için AI destekli analizler sunar.",
       "howTitle": "Nasıl Çalışır",
       "howDescription": "İhtiyaçlarınız arttıkça Core aboneliğinize modüller ekleyin",
-      "fitEyebrow": "İÇGÖRÜLERİN NASIL UYDUĞU",
+      "fitEyebrow": "INSIGHTS NEREYE OTURUR",
       "fitTitle": "Analitik Katman",
       "fitDescription": "Pulse, ekiplerin önlerindeki vardiyayı yönetmelerine yardımcı olur. Watchtower, dış pazarı takip eder. Insights modülleri, her bir fonksiyona iş gücü, envanter, satın alma, pazarlama ve daha fazlası hakkında daha derin bir çalışma görünümü sunar.",
       "fitItems": [
@@ -673,7 +673,7 @@ export const generatedLocalCopy = {
       "ctaPricing": "Modül Fiyatlandırmasını Gör"
     },
     "ja": {
-      "badge": "Sundae インサイト",
+      "badge": "Sundae Insights",
       "title": "業務のあらゆる領域を深く掘り下げる",
       "description": "14の専門モジュールが、収益、労務、在庫、購買、マーケティング、予約、利益、配送、ゲスト体験、CRM、収益保証、クロスインテリジェンス、予測インテリジェンス、エグゼクティブサマリーをカバーします。各モジュールは1つの業務領域のために構築されています。",
       "bookDemo": "デモを予約する",
@@ -717,7 +717,7 @@ export const generatedLocalCopy = {
       "modulesDescription": "各モジュールは特定の運用ドメインに対するAI駆動の分析を提供します",
       "howTitle": "使い方",
       "howDescription": "ニーズの成長に応じて、Coreサブスクリプションにモジュールを追加します",
-      "fitEyebrow": "インサイトの適合性",
+      "fitEyebrow": "Insights の位置づけ",
       "fitTitle": "分析レイヤー",
       "fitDescription": "Pulseはチームが目の前のシフトを乗り切るのを支援します。Watchtowerは外部市場を追跡します。Insightsモジュールは、労務、在庫、購買、マーケティングなど各機能に対して、より深い業務ビューを提供します。",
       "fitItems": [
@@ -740,7 +740,7 @@ export const generatedLocalCopy = {
       "ctaPricing": "モジュールの価格を見る"
     },
     "pl": {
-      "badge": "WNIOSKI SUNDAE",
+      "badge": "SUNDAE INSIGHTS",
       "title": "Zagłęb się w każdy aspekt swojej działalności",
       "description": "Czternaście specjalistycznych modułów obejmuje przychody, pracę, zapasy, zakupy, marketing, rezerwacje, zyski, dostawy, doświadczenie gości, CRM, zapewnienie przychodów, cross-intelligence, inteligencję prognozującą oraz podsumowanie wykonawcze. Każdy moduł jest stworzony dla jednego obszaru operacyjnego.",
       "bookDemo": "Umów się na demonstrację",
@@ -784,13 +784,13 @@ export const generatedLocalCopy = {
       "modulesDescription": "Każdy moduł dostarcza analizy oparte na AI dla konkretnej dziedziny operacyjnej",
       "howTitle": "Jak to działa",
       "howDescription": "Dodawaj moduły do swojej subskrypcji Core w miarę rosnących potrzeb",
-      "fitEyebrow": "JAK INSIGHTY PASUJĄ",
+      "fitEyebrow": "JAK INSIGHTS PASUJE",
       "fitTitle": "Warstwa analityczna",
       "fitDescription": "Pulse pomaga zespołom zarządzać bieżącą zmianą na sali. Watchtower śledzi zewnętrzny rynek. Moduły Insights dają każdej funkcji głębszy wgląd w pracę, zapasy, zakupy, marketing i inne.",
       "fitItems": [
         {
           "name": "Pulse",
-          "desc": "Monitorowanie zmian w czasie rzeczywistym"
+          "desc": "Monitorowanie bieżącej zmiany w czasie rzeczywistym"
         },
         {
           "name": "Watchtower",
@@ -807,7 +807,7 @@ export const generatedLocalCopy = {
       "ctaPricing": "Zobacz ceny modułów"
     },
     "id": {
-      "badge": "WAWASAN SUNDAE",
+      "badge": "SUNDAE INSIGHTS",
       "title": "Selami Setiap Bagian dari Operasi Anda",
       "description": "Empat belas modul khusus mencakup pendapatan, tenaga kerja, inventaris, pembelian, pemasaran, reservasi, keuntungan, pengiriman, pengalaman tamu, CRM, jaminan pendapatan, cross-intelligence, intelijen ramalan, dan ringkasan eksekutif. Setiap modul dirancang untuk satu domain operasional.",
       "bookDemo": "Pesan Demo",
@@ -851,7 +851,7 @@ export const generatedLocalCopy = {
       "modulesDescription": "Setiap modul memberikan analitik bertenaga AI untuk domain operasional tertentu",
       "howTitle": "Cara Kerjanya",
       "howDescription": "Tambahkan modul ke langganan Core Anda seiring dengan pertumbuhan kebutuhan Anda",
-      "fitEyebrow": "BAGAIMANA INSIGHT SESUAI",
+      "fitEyebrow": "DI MANA INSIGHTS COCOK",
       "fitTitle": "Lapisan Analitis",
       "fitDescription": "Pulse membantu tim mengelola shift yang ada di depan mereka. Watchtower memantau pasar eksternal. Modul Insights memberi setiap fungsi pandangan kerja yang lebih mendalam atas tenaga kerja, inventaris, pembelian, pemasaran, dan lainnya.",
       "fitItems": [
@@ -874,7 +874,7 @@ export const generatedLocalCopy = {
       "ctaPricing": "Lihat Harga Modul"
     },
     "vi": {
-      "badge": "THÔNG TIN SUNDAE",
+      "badge": "SUNDAE INSIGHTS",
       "title": "Đi Sâu Vào Mọi Khía Cạnh Của Hoạt Động Của Bạn",
       "description": "Mười bốn mô-đun chuyên biệt bao gồm doanh thu, lao động, tồn kho, mua sắm, tiếp thị, đặt chỗ, lợi nhuận, giao hàng, trải nghiệm khách hàng, CRM, đảm bảo doanh thu, trí tuệ chéo, trí tuệ dự đoán và tóm tắt điều hành. Mỗi mô-đun được xây dựng cho một lĩnh vực hoạt động.",
       "bookDemo": "Đặt lịch Dùng thử",
@@ -918,7 +918,7 @@ export const generatedLocalCopy = {
       "modulesDescription": "Mỗi mô-đun cung cấp phân tích dựa trên AI cho một lĩnh vực hoạt động cụ thể",
       "howTitle": "Cách Hoạt Động",
       "howDescription": "Thêm các mô-đun vào gói Core của bạn khi nhu cầu của bạn tăng lên",
-      "fitEyebrow": "CÁCH THÔNG TIN PHÙ HỢP",
+      "fitEyebrow": "INSIGHTS PHÙ HỢP Ở ĐÂU",
       "fitTitle": "Lớp Phân Tích",
       "fitDescription": "Pulse giúp các đội quản lý ca làm việc ngay trước mắt. Watchtower theo dõi thị trường bên ngoài. Các mô-đun Insights cung cấp cho mỗi chức năng cái nhìn sâu hơn về lao động, hàng tồn kho, mua sắm, tiếp thị và nhiều hơn nữa.",
       "fitItems": [
@@ -941,7 +941,7 @@ export const generatedLocalCopy = {
       "ctaPricing": "Xem giá mô-đun"
     },
     "ro": {
-      "badge": "INSIGHT-URI SUNDAE",
+      "badge": "SUNDAE INSIGHTS",
       "title": "Aprofundați fiecare aspect al operațiunii dumneavoastră",
       "description": "Paisprezece module specializate acoperă veniturile, forța de muncă, inventarul, achizițiile, marketingul, rezervările, profitul, livrarea, experiența oaspeților, CRM, asigurarea veniturilor, cross-intelligence, inteligența de previziune și rezumatul executiv. Fiecare modul este construit pentru un domeniu operațional.",
       "bookDemo": "Programează o demonstrație",
@@ -985,7 +985,7 @@ export const generatedLocalCopy = {
       "modulesDescription": "Fiecare modul oferă analize alimentate de AI pentru un domeniu operațional specific",
       "howTitle": "Cum Funcționează",
       "howDescription": "Adăugați module la abonamentul dvs. Core pe măsură ce nevoile dvs. cresc",
-      "fitEyebrow": "CUM SE ÎNCADREAZĂ INSIGHT-URILE",
+      "fitEyebrow": "CUM SE ÎNCADREAZĂ INSIGHTS",
       "fitTitle": "Stratul Analitic",
       "fitDescription": "Pulse ajută echipele să gestioneze tura aflată în fața lor. Watchtower urmărește piața externă. Modulele Insights oferă fiecărei funcții o viziune mai profundă asupra forței de muncă, inventarului, achizițiilor, marketingului și nu numai.",
       "fitItems": [
@@ -1008,7 +1008,7 @@ export const generatedLocalCopy = {
       "ctaPricing": "Vezi Prețul Modulului"
     },
     "bn": {
-      "badge": "সুন্ডে ইনসাইটস",
+      "badge": "Sundae Insights",
       "title": "আপনার কার্যক্রমের প্রতিটি অংশে গভীরভাবে প্রবেশ করুন",
       "description": "চৌদ্দটি বিশেষায়িত মডিউল রাজস্ব, শ্রম, ইনভেন্টরি, ক্রয়, বিপণন, রিজার্ভেশন, লাভ, ডেলিভারি, অতিথির অভিজ্ঞতা, CRM, রাজস্ব নিশ্চয়তা, ক্রস-ইন্টেলিজেন্স, পূর্বাভাস ইন্টেলিজেন্স এবং নির্বাহী সারসংক্ষেপ কভার করে। প্রতিটি মডিউল একটি অপারেটিং ডোমেইনের জন্য তৈরি করা হয়েছে।",
       "bookDemo": "ডেমো বুক করুন",
@@ -1052,7 +1052,7 @@ export const generatedLocalCopy = {
       "modulesDescription": "প্রতিটি মডিউল একটি নির্দিষ্ট অপারেশনাল ডোমেইনের জন্য AI-চালিত বিশ্লেষণ প্রদান করে",
       "howTitle": "এটি কীভাবে কাজ করে",
       "howDescription": "আপনার প্রয়োজন বাড়ার সাথে সাথে আপনার কোর সাবস্ক্রিপশনে মডিউল যোগ করুন",
-      "fitEyebrow": "কিভাবে অন্তর্দৃষ্টি ফিট করে",
+      "fitEyebrow": "Insights কোথায় খাপ খায়",
       "fitTitle": "বিশ্লেষণাত্মক স্তর",
       "fitDescription": "Pulse টিমগুলিকে তাদের সামনের শিফট সামলাতে সাহায্য করে। Watchtower বাইরের বাজার ট্র্যাক করে। Insights মডিউল প্রতিটি ফাংশনকে শ্রম, ইনভেন্টরি, ক্রয়, বিপণন এবং আরও অনেক কিছুর গভীর কাজের দৃষ্টিভঙ্গি দেয়।",
       "fitItems": [
@@ -1075,7 +1075,7 @@ export const generatedLocalCopy = {
       "ctaPricing": "মডিউল মূল্য দেখুন"
     },
     "sv": {
-      "badge": "SUNDAE INSIKTER",
+      "badge": "SUNDAE INSIGHTS",
       "title": "Gå djupare in i varje del av din verksamhet",
       "description": "Fjorton specialiserade moduler täcker intäkter, arbetskraft, lager, inköp, marknadsföring, bokningar, vinst, leverans, gästupplevelse, CRM, intäktsgaranti, cross-intelligence, prognosintelligens och sammanfattning för ledningen. Varje modul är byggd för ett specifikt verksamhetsområde.",
       "bookDemo": "Boka en demo",
@@ -1119,7 +1119,7 @@ export const generatedLocalCopy = {
       "modulesDescription": "Varje modul levererar AI-drivna analyser för ett specifikt verksamhetsområde",
       "howTitle": "Hur det fungerar",
       "howDescription": "Lägg till moduler i din Core-prenumeration när dina behov växer",
-      "fitEyebrow": "HUR INSIKTER PASSAR",
+      "fitEyebrow": "HUR INSIGHTS PASSAR IN",
       "fitTitle": "Det analytiska lagret",
       "fitDescription": "Pulse hjälper team att hantera passet framför dem. Watchtower spårar den externa marknaden. Insights-modulerna ger varje funktion en djupare arbetsvy över arbetskraft, lager, inköp, marknadsföring och mer.",
       "fitItems": [
@@ -1142,7 +1142,7 @@ export const generatedLocalCopy = {
       "ctaPricing": "Se modulpriser"
     },
     "th": {
-      "badge": "Sundae อินไซท์",
+      "badge": "Sundae Insights",
       "title": "เจาะลึกทุกส่วนของการดำเนินงานของคุณ",
       "description": "โมดูลเฉพาะทาง 14 โมดูลครอบคลุมรายได้ แรงงาน สินค้าคงคลัง การจัดซื้อ การตลาด การจอง กำไร การจัดส่ง ประสบการณ์ของแขก CRM การรับประกันรายได้ Cross-Intelligence ปัญญาเชิงคาดการณ์ และสรุปผู้บริหาร แต่ละโมดูลสร้างขึ้นสำหรับหนึ่งโดเมนการดำเนินงาน",
       "bookDemo": "จองการสาธิต",
@@ -1186,7 +1186,7 @@ export const generatedLocalCopy = {
       "modulesDescription": "แต่ละโมดูลจะให้การวิเคราะห์ที่ขับเคลื่อนด้วย AI สำหรับโดเมนการดำเนินงานเฉพาะ",
       "howTitle": "มันทำงานอย่างไร",
       "howDescription": "เพิ่มโมดูลลงในการสมัครสมาชิก Core ของคุณเมื่อความต้องการของคุณเพิ่มขึ้น",
-      "fitEyebrow": "วิธีที่ข้อมูลเชิงลึกเข้ากัน",
+      "fitEyebrow": "Insights เข้ากันอย่างไร",
       "fitTitle": "ชั้นวิเคราะห์",
       "fitDescription": "Pulse ช่วยให้ทีมจัดการกะที่อยู่ตรงหน้า Watchtower ติดตามตลาดภายนอก โมดูล Insights มอบมุมมองการทำงานที่ลึกซึ้งยิ่งขึ้นในด้านแรงงาน สินค้าคงคลัง การจัดซื้อ การตลาด และอื่นๆ",
       "fitItems": [
@@ -1209,7 +1209,7 @@ export const generatedLocalCopy = {
       "ctaPricing": "ดูราคาโมดูล"
     },
     "ms": {
-      "badge": "INSIGHT SUNDAE",
+      "badge": "SUNDAE INSIGHTS",
       "title": "Selami Setiap Aspek Operasi Anda",
       "description": "Empat belas modul khusus merangkumi pendapatan, buruh, inventori, pembelian, pemasaran, tempahan, keuntungan, penghantaran, pengalaman tetamu, CRM, jaminan pendapatan, kecerdasan silang, kecerdasan ramalan, dan ringkasan eksekutif. Setiap modul dibina untuk satu domain operasi.",
       "bookDemo": "Tempah Demo",
@@ -1253,7 +1253,7 @@ export const generatedLocalCopy = {
       "modulesDescription": "Setiap modul memberikan analitik berkuasa AI untuk domain operasi tertentu",
       "howTitle": "Cara Ia Berfungsi",
       "howDescription": "Tambah modul ke langganan Core anda apabila keperluan anda berkembang",
-      "fitEyebrow": "BAGAIMANA INSIGHT SESUAI",
+      "fitEyebrow": "DI MANA INSIGHTS SESUAI",
       "fitTitle": "Lapisan Analitik",
       "fitDescription": "Pulse membantu pasukan menguruskan syif di hadapan mereka. Watchtower menjejak pasaran luar. Modul Insights memberikan setiap fungsi pandangan kerja yang lebih mendalam tentang buruh, inventori, pembelian, pemasaran, dan banyak lagi.",
       "fitItems": [
@@ -1276,7 +1276,7 @@ export const generatedLocalCopy = {
       "ctaPricing": "Lihat Harga Modul"
     },
     "ar": {
-      "badge": "رؤى Sundae",
+      "badge": "Sundae Insights",
       "title": "تعمق أكثر في كل جزء من عملياتك",
       "description": "تغطي أربعة عشر وحدة متخصصة الإيرادات، والعمالة، والمخزون، والمشتريات، والتسويق، والحجوزات، والأرباح، والتوصيل، وتجربة الضيوف، وإدارة علاقات العملاء، وضمان الإيرادات، والاستخبارات المتقاطعة، والاستخبارات الاستشرافية، والملخص التنفيذي. تم تصميم كل وحدة لنطاق تشغيل واحد.",
       "bookDemo": "احجز عرضًا تجريبيًا",
@@ -1320,7 +1320,7 @@ export const generatedLocalCopy = {
       "modulesDescription": "يوفر كل نموذج تحليلات مدعومة بالذكاء الاصطناعي لمجال عمليات محدد",
       "howTitle": "كيف يعمل",
       "howDescription": "أضف وحدات إلى اشتراكك في Core مع تزايد احتياجاتك",
-      "fitEyebrow": "كيف تتناسب الرؤى",
+      "fitEyebrow": "أين يندرج Insights",
       "fitTitle": "الطبقة التحليلية",
       "fitDescription": "يساعد Pulse الفرق على إدارة الوردية التي أمامهم. ويتتبع Watchtower السوق الخارجي. أما وحدات Insights فتمنح كل وظيفة رؤية أعمق للعمالة والمخزون والشراء والتسويق والمزيد.",
       "fitItems": [
@@ -1343,7 +1343,7 @@ export const generatedLocalCopy = {
       "ctaPricing": "شاهد تسعير الوحدة"
     },
     "ko": {
-      "badge": "Sundae 인사이트",
+      "badge": "Sundae Insights",
       "title": "운영의 모든 영역을 더 깊이 파악하세요",
       "description": "14개의 전문 모듈이 수익, 인력, 재고, 구매, 마케팅, 예약, 이익, 배달, 고객 경험, CRM, 수익 보장, 크로스 인텔리전스, 예측 인텔리전스 및 경영 요약을 다룹니다. 각 모듈은 하나의 운영 도메인을 위해 설계되었습니다.",
       "bookDemo": "데모 예약하기",
@@ -1387,7 +1387,7 @@ export const generatedLocalCopy = {
       "modulesDescription": "각 모듈은 특정 운영 분야에 대한 AI 기반 분석을 제공합니다.",
       "howTitle": "작동 방식",
       "howDescription": "필요에 따라 Core 구독에 모듈을 추가하세요.",
-      "fitEyebrow": "인사이트가 어떻게 맞아떨어지는가",
+      "fitEyebrow": "Insights는 어떻게 어우러지는가",
       "fitTitle": "분석 레이어",
       "fitDescription": "Pulse는 팀이 눈앞의 근무를 관리하도록 돕습니다. Watchtower는 외부 시장을 추적합니다. Insights 모듈은 각 기능에 인력, 재고, 구매, 마케팅 등에 대한 더 깊은 업무 뷰를 제공합니다.",
       "fitItems": [

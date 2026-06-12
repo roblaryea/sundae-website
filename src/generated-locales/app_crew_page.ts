@@ -5,7 +5,7 @@ export const generatedLocalCopy = {
     "fr": {
       "badge": "ÉQUIPE · SUBSTRAT OPÉRATIONNEL",
       "heroLine1": "Chaque service",
-      "heroLine2": "devenez un signal.",
+      "heroLine2": "devient un signal.",
       "description": "Crew gère vos équipes, plannings, temps, opérations RH, préparation de la paie et support aux employés. Chaque action devient une donnée opérationnelle qui alimente l'intelligence décisionnelle de Sundae - une boucle que les fournisseurs RH ou de paie autonomes ne peuvent pas fermer.",
       "primaryCta": "Réservez une visite guidée de l'équipe",
       "secondaryCta": "Voir l'équipe en action",
@@ -16,7 +16,7 @@ export const generatedLocalCopy = {
       "loopLeftBody": "Possède les horaires, les heures, la paie. Les rapports s'arrêtent à la main-d'œuvre. Marge, contexte de la demande, qualité des décisions - ce n'est pas leur travail.",
       "loopRightLabel": "Équipe à l'intérieur de Sundae",
       "loopRightBody": "Chaque service, heure, échange, attestation et cycle de paie devient un signal. Labor Intelligence le lit. Pulse l'alerte. Foresight l'utilise pour prévoir. Toute la plateforme gagne en précision.",
-      "loopClosing": "Même données sur la main-d'œuvre. Intelligence cumulative.",
+      "loopClosing": "Mêmes données sur la main-d'œuvre. Intelligence cumulative.",
       "pillarsEyebrow": "QU'EST-CE QUI EST EXPÉDIÉ AUJOURD'HUI",
       "pillarsTitle": "Six surfaces. Un substrat opérationnel.",
       "pillarsDescription": "Chaque page d'équipage est conforme à la norme de profondeur 5 ou figure sur la liste de reconstruction suivie publiquement. Pas d'écrans uniquement pour la démonstration.",
@@ -52,7 +52,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Embauche à Retraite",
+          "title": "De l'embauche à la retraite",
           "body": "Chaque étape du cycle de vie des employés au même endroit. Recrutement, vérifications des antécédents, intégration, évaluations de performance, rémunération, matrice des talents, mobilité interne, recommandations, formation, compétences, attestations, service d'assistance avec SLA, disciplinaire, dénonciation anonyme, dépenses, prêts, pools de pourboires, départ, pourboire, règlement final.",
           "chips": [
             "Intégration",
@@ -62,8 +62,8 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Coach d'Équipe + Relecture des Décisions",
-          "body": "Coach d'Équipe est votre partenaire IA dans le domaine de la main-d'œuvre - demandes en langage naturel, réponses citées, recommandations qu'un manager peut défendre. La Relecture des Décisions enregistre chaque action : qui a décidé, ce qui a changé, ce que le modèle a dit. Prêt pour l'audit par défaut.",
+          "title": "Crew Coach + Decision Replay",
+          "body": "Crew Coach est votre partenaire IA dans le domaine de la main-d'œuvre - demandes en langage naturel, réponses citées, recommandations qu'un manager peut défendre. Decision Replay enregistre chaque action : qui a décidé, ce qui a changé, ce que le modèle a dit. Prêt pour l'audit par défaut.",
           "chips": [
             "assistant IA",
             "Cité en source",
@@ -350,14 +350,14 @@ export const generatedLocalCopy = {
         "BambooHR (adaptateur canonique)",
         "Exports RH natifs POS"
       ],
-      "ctaEyebrow": "GESTIONNEZ VOTRE ÉQUIPE. BOOSTEZ VOTRE INTELLIGENCE.",
+      "ctaEyebrow": "GÉREZ VOS ÉQUIPES. ALIMENTEZ VOTRE INTELLIGENCE.",
       "ctaTitle": "Découvrez ce qui change lorsque la boucle se ferme.",
       "ctaDescription": "30 minutes. Votre opération. Nous guiderons l'équipe + comment chaque événement de main-d'œuvre façonne l'intelligence du travail dans vos tableaux de bord en direct.",
       "ctaPrimary": "Réservez une visite de l'équipe",
       "ctaSecondary": "Voir la plateforme Sundae"
     },
     "es": {
-      "badge": "EQUIPO · SUBSTRATO OPERACIONAL",
+      "badge": "CREW · SUSTRATO OPERATIVO",
       "heroLine1": "Cada turno",
       "heroLine2": "se convierte en señal.",
       "description": "Crew gestiona a tu personal, horarios, tiempo, operaciones de recursos humanos, preparación de nómina y soporte a empleados. Cada acción se convierte en datos operativos que alimentan la inteligencia de decisiones de Sundae, un ciclo que los proveedores de recursos humanos o nómina independientes no pueden cerrar.",
@@ -377,7 +377,7 @@ export const generatedLocalCopy = {
       "pillars": [
         {
           "title": "Programación",
-          "body": "AI Builder compone el horario a partir de la Foresight de demanda, la mezcla de roles y la elegibilidad; luego el gerente edita los cuatro modos de vista que importan (general, por persona, por turno, por rol). Recurrencia, verificación de elegibilidad, advertencias de conflictos, superposiciones de días festivos.",
+          "body": "AI Builder compone el horario a partir del pronóstico de demanda, la mezcla de roles y la elegibilidad; luego el gerente edita los cuatro modos de vista que importan (general, por persona, por turno, por rol). Recurrencia, verificación de elegibilidad, advertencias de conflictos, superposiciones de días festivos.",
           "chips": [
             "AI Builder",
             "4 modos de vista",
@@ -406,7 +406,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Contratación a Jubilación",
+          "title": "De la contratación a la jubilación",
           "body": "Cada etapa del ciclo de vida laboral en un solo lugar. Reclutamiento, verificación de antecedentes, incorporación, evaluaciones de desempeño, compensación, matriz de talento 9-box, movilidad interna, referencias, capacitación, habilidades, certificaciones, mesa de ayuda con SLA, disciplina, denuncias anónimas, gastos, préstamos, fondos de propinas, desvinculación, gratificación, liquidación final.",
           "chips": [
             "Incorporación",
@@ -416,8 +416,8 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Entrenador de Equipo + Repetición de Decisiones",
-          "body": "El Entrenador de Equipo es tu socio de IA en el ámbito laboral: solicitudes en lenguaje natural, respuestas con fuentes citadas, recomendaciones que un gerente puede defender. La Repetición de Decisiones registra cada acción: quién decidió, qué cambió, lo que dijo el modelo. Listo para auditoría por defecto.",
+          "title": "Crew Coach + Decision Replay",
+          "body": "Crew Coach es tu socio de IA en el ámbito laboral: solicitudes en lenguaje natural, respuestas con fuentes citadas, recomendaciones que un gerente puede defender. Decision Replay registra cada acción: quién decidió, qué cambió, lo que dijo el modelo. Listo para auditoría por defecto.",
           "chips": [
             "asistente de IA",
             "citado de fuente",
@@ -664,7 +664,7 @@ export const generatedLocalCopy = {
           ]
         }
       ],
-      "bundleLabel": "Operación de Equipo + Equipo Completo",
+      "bundleLabel": "Crew Operating + Crew Complete",
       "bundleDescription": "Operaciones combina Operaciones, T&A y Nómina. Completo añade Inteligencia de Personas para el ciclo completo de inteligencia de la fuerza laboral.",
       "freeTierLabel": "Gratis para cada empleado",
       "freeTierDescription": "Cada empleado de Crew obtiene una cuenta de auto-servicio gratuita de Sundae: ver turnos, solicitar tiempo libre, ver recibos de pago, fichar. Identidad de la fuerza laboral de abajo hacia arriba, incluida.",
@@ -684,8 +684,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Administrador de Nómina",
-          "outcome": "Cerrar la preparación de nómina sin el caos de hojas de cálculo. Paquetes multi-región - EE. UU., Canadá, Reino Unido, UE, CCG - organizan exportaciones legales, superficies de fin de año, evidencias y flujos de trabajo de entrega a socios.",
-          "metric": "EE. UU. · CA · RU · UE · CCG"
+          "outcome": "Cerrar la preparación de nómina sin el caos de hojas de cálculo. Paquetes multi-región - EE. UU., Canadá, Reino Unido, UE, GCC - organizan exportaciones legales, superficies de fin de año, evidencias y flujos de trabajo de entrega a socios.",
+          "metric": "EE. UU. · CA · RU · UE · GCC"
         },
         {
           "title": "Empleados",
@@ -715,7 +715,7 @@ export const generatedLocalCopy = {
       "heroLine1": "Jede Schicht",
       "heroLine2": "wird zum Signal.",
       "description": "Crew verwaltet Ihre Mitarbeiter, Zeitpläne, Zeit, HR-Operationen, die Bereitschaft zur Gehaltsabrechnung und die Unterstützung der Mitarbeiter. Jede Aktion wird zu Betriebsdaten, die die Entscheidungsintelligenz von Sundae speisen - ein Kreislauf, den eigenständige HR- oder Gehaltsabrechnungsanbieter nicht schließen können.",
-      "primaryCta": "Buchen Sie eine Crew-Durchführung",
+      "primaryCta": "Crew-Rundgang buchen",
       "secondaryCta": "Crew in Aktion sehen",
       "loopEyebrow": "WARUM CREW BEI SUNDAE SITZT",
       "loopTitle": "Die Betriebsschicht, die die Intelligenzschicht antreibt.",
@@ -760,7 +760,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Einstellen bis zur Rente",
+          "title": "Vom Einstellen bis zur Rente",
           "body": "Jede Phase des Lebenszyklus der Belegschaft an einem Ort. Rekrutierung, Hintergrundprüfungen, Einarbeitung, Leistungsbewertungen, Vergütung, Talent 9-Box, interne Mobilität, Empfehlungen, Schulungen, Fähigkeiten, Bescheinigungen, Helpdesk mit SLAs, Disziplinarverfahren, anonymer Whistleblower, Ausgaben, Darlehen, Trinkgeldpools, Offboarding, Trinkgeld, endgültige Abrechnung.",
           "chips": [
             "Einarbeitung",
@@ -770,8 +770,8 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Crew Coach + Entscheidungswiedergabe",
-          "body": "Crew Coach ist Ihr KI-Partner im Bereich der Arbeitskräfte - Anfragen in natürlicher Sprache, quellenbasierte Antworten, Empfehlungen, die ein Manager verteidigen kann. Die Entscheidungswiedergabe protokolliert jede Aktion: wer entschieden hat, was sich geändert hat, was das Modell gesagt hat. Standardmäßig auditbereit.",
+          "title": "Crew Coach + Decision Replay",
+          "body": "Crew Coach ist Ihr KI-Partner im Bereich der Arbeitskräfte - Anfragen in natürlicher Sprache, quellenbasierte Antworten, Empfehlungen, die ein Manager verteidigen kann. Decision Replay protokolliert jede Aktion: wer entschieden hat, was sich geändert hat, was das Modell gesagt hat. Standardmäßig auditbereit.",
           "chips": [
             "KI-Assistent",
             "Quellenbasiert",
@@ -821,7 +821,7 @@ export const generatedLocalCopy = {
           "body": "SSO, Audit-Feed, RBAC, Abrechnungskonsole, Importe & Massenbearbeitung, Multi-Outlet-Management."
         }
       ],
-      "payrollEyebrow": "MULTI-REGIONALE LÖHNE",
+      "payrollEyebrow": "MULTI-REGIONALE LOHNABRECHNUNG",
       "payrollTitle": "Lohnabrechnungsvorbereitung in den Regionen.",
       "payrollDescription": "Anbieterneutrale, paketgetriebene Bereitstellung und Export-Workflows. Länder- und Regionenpakete strukturieren die Nachweise, Dateien und Partnerübergaben, die Ihr Lohnteam vor der Einreichung überprüft.",
       "payrollClusters": [
@@ -830,7 +830,7 @@ export const generatedLocalCopy = {
             "🇺🇸"
           ],
           "region": "Vereinigte Staaten",
-          "depth": "Bundesstaat + jeder Bundesstaat + DC + PR + große Städte",
+          "depth": "Bund + jeder Bundesstaat + DC + PR + große Städte",
           "hooks": [
             "FICA",
             "FUTA",
@@ -846,7 +846,7 @@ export const generatedLocalCopy = {
             "🇨🇦"
           ],
           "region": "Kanada",
-          "depth": "Bundesstaat + jede Provinz und jedes Territorium",
+          "depth": "Bund + jede Provinz und jedes Territorium",
           "hooks": [
             "CPP",
             "CPP2",
@@ -947,7 +947,7 @@ export const generatedLocalCopy = {
         "Erweiterte regionale Abdeckung"
       ],
       "payrollClosing": "BYO-Payroll? Crew exportiert saubere Dateien und steuert Partner-APIs (Bayzat MEA, Personio EU, Pento UK, Gusto US).",
-      "modulesEyebrow": "MODULES",
+      "modulesEyebrow": "MODULE",
       "modulesTitle": "Sechs Crew-SKUs. Zwei Pakete. Kostenloses Portal für jeden Mitarbeiter.",
       "modulesDescription": "Beginnen Sie mit Crew Lite, fügen Sie gezielte Arbeitskräfte-SKUs hinzu oder bündeln Sie die Betriebsschicht, wenn Sie bereit sind, den Kreislauf zu schließen.",
       "modules": [
@@ -992,7 +992,7 @@ export const generatedLocalCopy = {
             "Geo-Fencing + biometrisch",
             "Pausenverfolgung",
             "Abweichungen + Vertrauenswerte",
-            "Lohnabreitungsbereitschaft"
+            "Lohnabrechnungsbereitschaft"
           ]
         },
         {
@@ -1018,8 +1018,8 @@ export const generatedLocalCopy = {
           ]
         }
       ],
-      "bundleLabel": "Crew Betrieb + Crew Komplett",
-      "bundleDescription": "Betrieb vereint Betrieb, T&A und Lohnabrechnung. Komplett fügt People Intelligence für den vollständigen Kreislauf der Mitarbeiterintelligenz hinzu.",
+      "bundleLabel": "Crew Operating + Crew Complete",
+      "bundleDescription": "Operating vereint Operations, T&A und Payroll. Complete fügt People Intelligence für den vollständigen Kreislauf der Mitarbeiterintelligenz hinzu.",
       "freeTierLabel": "Kostenlos für jeden Mitarbeiter",
       "freeTierDescription": "Jeder Crew-Mitarbeiter erhält ein kostenloses Sundae-Self-Service-Konto - Schichten einsehen, Urlaub anfragen, Gehaltsabrechnungen einsehen, ein- und ausstempeln. Identität der Belegschaft von unten nach oben, inklusive.",
       "personasEyebrow": "WER LEITET CREW",
@@ -1028,7 +1028,7 @@ export const generatedLocalCopy = {
       "personas": [
         {
           "title": "HR & People Lead",
-          "outcome": "Einstellen bis zur Rente auf einer Plattform - Einarbeitung, Leistung, Talent, Gehaltsabreitungsbereitschaft, Offboarding - Labor Intelligence im gleichen Atemzug speisen.",
+          "outcome": "Vom Einstellen bis zur Rente auf einer Plattform - Einarbeitung, Leistung, Talent, Gehaltsabrechnungsbereitschaft, Offboarding - Labor Intelligence im gleichen Atemzug speisen.",
           "metric": "60+ HR-Oberflächen"
         },
         {
@@ -1038,7 +1038,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Payroll Admin",
-          "outcome": "Gehaltsabreitungsbereitschaft ohne Chaos in Tabellenkalkulationen abschließen. Multi-Region-Pakete - USA, Kanada, UK, EU, GCC - organisieren gesetzliche Exporte, Jahresendoberflächen, Nachweise und Partnerübergabe-Workflows.",
+          "outcome": "Gehaltsabrechnungsbereitschaft ohne Chaos in Tabellenkalkulationen abschließen. Multi-Region-Pakete - USA, Kanada, UK, EU, GCC - organisieren gesetzliche Exporte, Jahresendoberflächen, Nachweise und Partnerübergabe-Workflows.",
           "metric": "USA · CA · UK · EU · GCC"
         },
         {
@@ -1058,19 +1058,19 @@ export const generatedLocalCopy = {
         "BambooHR (kanonischer Adapter)",
         "POS-native HR-Exporte"
       ],
-      "ctaEyebrow": "LEITE DEIN TEAM. STÄRKE DEINE INTELLIGENZ.",
+      "ctaEyebrow": "FÜHREN SIE IHR TEAM. STÄRKEN SIE IHRE INTELLIGENZ.",
       "ctaTitle": "Sehen Sie, was sich ändert, wenn der Kreis sich schließt.",
       "ctaDescription": "30 Minuten. Ihr Betrieb. Wir zeigen Crew + wie jedes Arbeitsereignis die Arbeitsintelligenz in Ihren Live-Dashboards neu gestaltet.",
       "ctaPrimary": "Buchen Sie eine Crew-Durchführung",
       "ctaSecondary": "Sundae Plattform ansehen"
     },
     "nl": {
-      "badge": "CREW · OPERATIONELE SUBSTRATE",
+      "badge": "CREW · OPERATIONEEL SUBSTRAAT",
       "heroLine1": "Elke dienst",
       "heroLine2": "wordt signaal.",
       "description": "Crew beheert uw personeel, planningen, tijd, HR-operaties, salarisgereedheid en werknemersondersteuning. Elke actie wordt operationele data die de besluitvormingsintelligentie van Sundae voedt - een cyclus die zelfstandige HR- of salarisleveranciers niet kunnen sluiten.",
       "primaryCta": "Boek een Crew Rondleiding",
-      "secondaryCta": "Bekijk het Team in Actie",
+      "secondaryCta": "Bekijk Crew in Actie",
       "loopEyebrow": "WAAROM CREW IN SUNDAE ZIT",
       "loopTitle": "De operationele laag die de intelligentielaag aandrijft.",
       "loopDescription": "Losse HR-leveranciers zien roosters. Losse analysetools zien het POS. Sundae sluit de cyclus - en die cyclus wordt het verdedigbare voordeel.",
@@ -1085,7 +1085,7 @@ export const generatedLocalCopy = {
       "pillars": [
         {
           "title": "Planning",
-          "body": "AI Builder stelt het rooster samen op basis van vraagvoorspelling, rolmix en geschiktheid - vervolgens bewerkt de manager de vier belangrijke weergavemodi (overzicht, per persoon, per dienst, per rol). Herhaling, geschiktheidcontroles, conflicwaarschuwingen, feestdagen-overlays.",
+          "body": "AI Builder stelt het rooster samen op basis van vraagvoorspelling, rolmix en geschiktheid - vervolgens bewerkt de manager de vier belangrijke weergavemodi (overzicht, per persoon, per dienst, per rol). Herhaling, geschiktheidscontroles, conflictwaarschuwingen, feestdagen-overlays.",
           "chips": [
             "AI Builder",
             "4 weergavemodi",
@@ -1114,7 +1114,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Huren tot Pensioen",
+          "title": "Van werving tot pensioen",
           "body": "Elke fase van de levenscyclus van werknemers op één plek. Werving, achtergrondcontroles, onboarding, prestatiebeoordelingen, compensatie, talent 9-box, interne mobiliteit, verwijzingen, training, vaardigheden, attestaties, helpdesk met SLA's, disciplinaire maatregelen, anonieme klokkenluiders, onkosten, leningen, fooipools, offboarding, gratificatie, finale afrekening.",
           "chips": [
             "Onboarding",
@@ -1124,8 +1124,8 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Crew Coach + Besluit Replay",
-          "body": "Crew Coach is je AI-partner binnen het personeelsdomein - verzoeken in natuurlijke taal, bronvermelde antwoorden, aanbevelingen die een manager kan onderbouwen. Besluit Replay registreert elke actie: wie besloot, wat veranderde, wat het model zei. Standaard audit-klaar.",
+          "title": "Crew Coach + Decision Replay",
+          "body": "Crew Coach is je AI-partner binnen het personeelsdomein - verzoeken in natuurlijke taal, bronvermelde antwoorden, aanbevelingen die een manager kan onderbouwen. Decision Replay registreert elke actie: wie besloot, wat veranderde, wat het model zei. Standaard audit-klaar.",
           "chips": [
             "AI-assistent",
             "Bronvermeld",
@@ -1184,7 +1184,7 @@ export const generatedLocalCopy = {
             "🇺🇸"
           ],
           "region": "Verenigde Staten",
-          "depth": "Federale + elke staat + DC + PR + grote steden",
+          "depth": "Federaal + elke staat + DC + PR + grote steden",
           "hooks": [
             "FICA",
             "FUTA",
@@ -1200,7 +1200,7 @@ export const generatedLocalCopy = {
             "🇨🇦"
           ],
           "region": "Canada",
-          "depth": "Federale + elke provincie en territorium",
+          "depth": "Federaal + elke provincie en territorium",
           "hooks": [
             "CPP",
             "CPP2",
@@ -1372,7 +1372,7 @@ export const generatedLocalCopy = {
           ]
         }
       ],
-      "bundleLabel": "Crew Operatie + Crew Compleet",
+      "bundleLabel": "Crew Operating + Crew Complete",
       "bundleDescription": "Operating combineert Operations, T&A en Payroll. Complete voegt People Intelligence toe voor de volledige workforce intelligence cyclus.",
       "freeTierLabel": "Gratis voor elke werknemer",
       "freeTierDescription": "Elke Crew-medewerker krijgt een gratis Sundae self-service account - bekijk diensten, vraag verlof aan, bekijk loonstroken, klokken in. Bottom-up werknemersidentiteit, inbegrepen.",
@@ -1382,7 +1382,7 @@ export const generatedLocalCopy = {
       "personas": [
         {
           "title": "HR & People Lead",
-          "outcome": "Haal alles in één platform - onboarding, prestaties, talent, salarisgereedheid, offboarding - en voed Labor Intelligence in één adem.",
+          "outcome": "Van werving tot pensioen in één platform - onboarding, prestaties, talent, salarisgereedheid, offboarding - en voed Labor Intelligence in één adem.",
           "metric": "60+ HR-oppervlakken"
         },
         {
@@ -1412,30 +1412,30 @@ export const generatedLocalCopy = {
         "BambooHR (canonieke adapter)",
         "POS-native HR-exporten"
       ],
-      "ctaEyebrow": "BETAAL JE MENSEN. KRAFTIG JE INTELLIGENTIE.",
+      "ctaEyebrow": "LEID JE MENSEN. VERSTERK JE INTELLIGENTIE.",
       "ctaTitle": "Bekijk wat er verandert wanneer de lus sluit.",
       "ctaDescription": "30 minuten. Jouw operatie. We begeleiden Crew + hoe elk personeelsmoment de Arbeidsintelligentie in je live dashboards hervormt.",
       "ctaPrimary": "Boek een Crew Rondleiding",
       "ctaSecondary": "Bekijk Sundae Platform"
     },
     "ar": {
-      "badge": "فريق · الركيزة التشغيلية",
+      "badge": "Crew · الركيزة التشغيلية",
       "heroLine1": "كل وردية",
-      "heroLine2": "يصبح إشارة.",
-      "description": "تدير Crew موظفيك، والجداول الزمنية، والوقت، وعمليات الموارد البشرية، واستعداد الرواتب، ودعم الموظفين. تصبح كل إجراء بيانات تشغيلية تغذي ذكاء اتخاذ القرار في Sundae - حلقة لا يمكن لموردي الموارد البشرية أو الرواتب المستقلين إغلاقها.",
-      "primaryCta": "احجز جولة مع الطاقم",
-      "secondaryCta": "شاهد الطاقم في العمل",
-      "loopEyebrow": "لماذا يجلس الطاقم في سونداي",
+      "heroLine2": "تصبح إشارة.",
+      "description": "تدير Crew موظفيك، والجداول الزمنية، والوقت، وعمليات الموارد البشرية، وجاهزية الرواتب، ودعم الموظفين. يصبح كل إجراء بيانات تشغيلية تغذي ذكاء اتخاذ القرار في Sundae - حلقة لا يمكن لموردي الموارد البشرية أو الرواتب المستقلين إغلاقها.",
+      "primaryCta": "احجز جولة في Crew",
+      "secondaryCta": "شاهد Crew أثناء العمل",
+      "loopEyebrow": "لماذا يقع Crew داخل Sundae",
       "loopTitle": "الطبقة التشغيلية التي تدعم طبقة الذكاء.",
       "loopDescription": "مزودو HR المنفصلون يرون الجداول. أدوات التحليل المنفصلة ترى POS. Sundae يغلق الحلقة - وهذه الحلقة تصبح ميزة يصعب نسخها.",
       "loopLeftLabel": "إدارة الموارد البشرية / الرواتب المستقلة",
       "loopLeftBody": "يمتلك الجداول، والساعات، والرواتب. تتوقف التقارير عند القوى العاملة. الهامش، وسياق الطلب، وجودة القرار - ليست وظيفتهم.",
-      "loopRightLabel": "الطاقم داخل Sundae",
+      "loopRightLabel": "Crew داخل Sundae",
       "loopRightBody": "كل وردية وساعة وتبديل وإقرار ودورة رواتب تصبح إشارة. Labor Intelligence يقرؤها. Pulse ينبّه إليها. Foresight يستخدمها للتنبؤ. وتصبح المنصة كلها أكثر دقة.",
       "loopClosing": "نفس بيانات القوى العاملة. ذكاء متزايد.",
       "pillarsEyebrow": "ما الذي سيتم شحنه اليوم",
       "pillarsTitle": "ستة أسطح. ركيزة تشغيلية واحدة.",
-      "pillarsDescription": "كل صفحة طاقم تتوافق مع معيار العمق-5 أو في قائمة إعادة البناء المتعقبة علنًا. لا توجد شاشات تجريبية فقط.",
+      "pillarsDescription": "كل صفحة في Crew تتوافق مع معيار العمق-5 أو ضمن قائمة إعادة البناء المتعقّبة علنًا. لا توجد شاشات للعرض التوضيحي فقط.",
       "pillars": [
         {
           "title": "جدولة",
@@ -1478,8 +1478,8 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "مدرب الطاقم + إعادة تشغيل القرار",
-          "body": "مدرب الطاقم هو شريكك الذكي في مجال القوى العاملة - طلبات بلغة طبيعية، إجابات موثوقة بالمصادر، توصيات يمكن للمدير الدفاع عنها. تسجل إعادة تشغيل القرار كل إجراء: من قرر، ماذا تغير، ماذا قال النموذج. جاهز للتدقيق بشكل افتراضي.",
+          "title": "Crew Coach + Decision Replay",
+          "body": "Crew Coach هو شريكك الذكي في مجال القوى العاملة - طلبات بلغة طبيعية، إجابات موثوقة بالمصادر، توصيات يمكن للمدير الدفاع عنها. يسجّل Decision Replay كل إجراء: من قرر، وماذا تغير، وماذا قال النموذج. جاهز للتدقيق بشكل افتراضي.",
           "chips": [
             "مساعد ذكي",
             "موثوق بالمصادر",
@@ -1498,7 +1498,7 @@ export const generatedLocalCopy = {
           ]
         }
       ],
-      "coverageLabel": "مضمن أيضًا في كل نشر لفريق العمل",
+      "coverageLabel": "مضمَّن أيضًا في كل عملية نشر لـ Crew",
       "coverageItems": [
         {
           "title": "بوابة الموظف المحمولة",
@@ -1623,7 +1623,7 @@ export const generatedLocalCopy = {
       ],
       "payrollExportsLabel": "التصديرات القانونية",
       "payrollExportsItems": [
-        "ناتشا",
+        "NACHA",
         "EFT 005",
         "HMRC RTI",
         "SEPA",
@@ -1654,9 +1654,9 @@ export const generatedLocalCopy = {
         "منطقة آسيا والمحيط الهادئ",
         "تغطية إقليمية موسعة"
       ],
-      "payrollClosing": "هل لديك نظام دفع خاص بك؟ يقوم فريق العمل بتصدير ملفات نظيفة ويقوم بتشغيل واجهات برمجة التطبيقات الخاصة بالشركاء (Bayzat MEA، Personio EU، Pento UK، Gusto US).",
+      "payrollClosing": "هل لديك نظام رواتب خاص بك؟ يصدّر Crew ملفات نظيفة ويشغّل واجهات برمجة التطبيقات الخاصة بالشركاء (Bayzat MEA، Personio EU، Pento UK، Gusto US).",
       "modulesEyebrow": "الوحدات",
-      "modulesTitle": "ستة منتجات طاقم. حزمتان. بوابة مجانية لكل موظف.",
+      "modulesTitle": "ستة منتجات من Crew. حزمتان. بوابة مجانية لكل موظف.",
       "modulesDescription": "ابدأ مع Crew Lite، أضف وحدات العمل المركزة، أو اجمع طبقة التشغيل عندما تكون مستعدًا لإكمال الدورة.",
       "modules": [
         {
@@ -1726,11 +1726,11 @@ export const generatedLocalCopy = {
           ]
         }
       ],
-      "bundleLabel": "طاقم التشغيل + طاقم كامل",
-      "bundleDescription": "تشمل العمليات التشغيلية العمليات، وتوقيت العمل، والرواتب. يضيف الكمال ذكاء الأفراد لإكمال حلقة ذكاء القوى العاملة.",
+      "bundleLabel": "Crew Operating + Crew Complete",
+      "bundleDescription": "تجمع حزمة Operating بين Operations و T&A والرواتب. وتضيف حزمة Complete ذكاء الأفراد لإكمال حلقة ذكاء القوى العاملة.",
       "freeTierLabel": "مجاني لكل موظف",
       "freeTierDescription": "كل موظف في Crew يحصل على حساب مجاني لخدمة Sundae الذاتية - عرض الورديات، طلب إجازة، عرض قسائم الرواتب، تسجيل الدخول. هوية القوى العاملة من الأسفل إلى الأعلى، مشمولة.",
-      "personasEyebrow": "من يدير الطاقم",
+      "personasEyebrow": "من يدير Crew",
       "personasTitle": "مصمم للأشخاص الذين يديرون العمل فعليًا.",
       "personasDescription": "أربعة أدوار. أربع وجهات نظر محددة. مصدر واحد للحقيقة.",
       "personas": [

@@ -223,7 +223,7 @@ export const generatedLocalCopy = {
           "description": "Génération de bons de commande sans effort à partir de l'inventaire"
         }
       ],
-      "selectionTitle": "Quels modules avez-vous besoin ?",
+      "selectionTitle": "De quels modules avez-vous besoin ?",
       "selectionDescription": "Commencez par votre plus grand point de douleur",
       "selectionCards": [
         {
@@ -252,7 +252,7 @@ export const generatedLocalCopy = {
           "benefit": "Réduisez les absences, optimisez les tables"
         }
       ],
-      "wantItAll": "Vous le voulez tout?",
+      "wantItAll": "Vous voulez tout ?",
       "fullSuite": "Suite de modules complète",
       "fullSuiteDescription": "Intelligence opérationnelle complète dans tous les domaines"
     },
@@ -368,7 +368,7 @@ export const generatedLocalCopy = {
             "Optimización de gestión de listas de espera",
             "Sugerencias de precios dinámicos"
           ],
-          "roi": "ROI típico: aumento de cobertura del 10-15%",
+          "roi": "ROI típico: aumento del 10-15% en comensales",
           "bestFor": "Restaurantes impulsados por reservas y alta cocina",
           "color": "from-[#FF6B5B] to-[#E03E48]"
         }
@@ -542,7 +542,7 @@ export const generatedLocalCopy = {
       "faqTitle": "Häufig gestellte Fragen",
       "faqDescription": "Häufige Fragen zu Modulen, Upgrades, Preisen und Implementierung.",
       "ctaTitle": "Bereit, spezialisierte Intelligenz hinzuzufügen?",
-      "ctaDescription": "Beginnen Sie mit dem Modul, das Ihr größtes Schmerzpunkt löst.",
+      "ctaDescription": "Beginnen Sie mit dem Modul, das Ihren größten Schmerzpunkt löst.",
       "bookDemo": "Eine Demo buchen",
       "contactSales": "Vertrieb kontaktieren",
       "modules": [
@@ -558,7 +558,7 @@ export const generatedLocalCopy = {
             "Analyse der Schichtleistung",
             "Frühwarnungen für Überstunden"
           ],
-          "roi": "Typische Rendite: 8-12% Reduzierung der Arbeitskosten",
+          "roi": "Typischer ROI: 8-12% Reduzierung der Arbeitskosten",
           "bestFor": "Hochvolumenbetriebe mit komplexer Planung",
           "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
@@ -574,7 +574,7 @@ export const generatedLocalCopy = {
             "Überwachung der Lieferantenleistung",
             "Optimierung der Bestandsumschlagshäufigkeit"
           ],
-          "roi": "Typische Rendite: 5-7% Reduzierung der Lebensmittelkosten",
+          "roi": "Typischer ROI: 5-7% Reduzierung der Lebensmittelkosten",
           "bestFor": "Betriebe mit hohen COGS und komplexen Menüs",
           "color": "from-[#F2B45C] to-[#C2410C]"
         },
@@ -590,7 +590,7 @@ export const generatedLocalCopy = {
             "Automatisierte PO-Generierung",
             "Transparenz in der Lieferkette"
           ],
-          "roi": "Typische Rendite: 3-5% Einsparung bei den Beschaffungskosten",
+          "roi": "Typischer ROI: 3-5% Einsparung bei den Beschaffungskosten",
           "bestFor": "Standortübergreifende Gruppen mit Einkaufsmacht",
           "color": "from-green-500 to-green-600"
         },
@@ -622,7 +622,7 @@ export const generatedLocalCopy = {
             "Optimierung des Wartelistenmanagements",
             "Vorschläge für dynamische Preisgestaltung"
           ],
-          "roi": "Typische ROI: 10-15% Umsatzsteigerung",
+          "roi": "Typischer ROI: 10-15% mehr Gäste",
           "bestFor": "Reservierungsorientierte Restaurants und gehobene Gastronomie",
           "color": "from-[#FF6B5B] to-[#E03E48]"
         }
@@ -760,7 +760,7 @@ export const generatedLocalCopy = {
           "benefit": "No-Shows reduzieren, Tische optimieren"
         }
       ],
-      "wantItAll": "Alles wollen?",
+      "wantItAll": "Möchten Sie alles?",
       "fullSuite": "Vollständige Modulsuite",
       "fullSuiteDescription": "Vollständige betriebliche Intelligenz in allen Bereichen"
     },
@@ -1037,7 +1037,7 @@ export const generatedLocalCopy = {
           "description": "ابدأ بأكبر نقطة ألم لديك. أضف الوحدات مع تغير الأولويات. لا توجد حزم إجبارية."
         },
         {
-          "title": "م integrado مع Core",
+          "title": "متكامل مع Core",
           "description": "تشارك الوحدات البيانات مع Core، بحيث يمكن للفرق العمل من صورة تشغيلية متصلة واحدة."
         }
       ],
@@ -1130,7 +1130,7 @@ export const generatedLocalCopy = {
             "تحسين إدارة قوائم الانتظار",
             "اقتراحات التسعير الديناميكي"
           ],
-          "roi": "العائد على الاستثمار النموذجي: زيادة تغطية بنسبة 10-15%",
+          "roi": "العائد على الاستثمار النموذجي: زيادة عدد الضيوف بنسبة 10-15%",
           "bestFor": "المطاعم التي تعتمد على الحجوزات والمطاعم الراقية",
           "color": "from-[#FF6B5B] to-[#E03E48]"
         }
@@ -1384,7 +1384,7 @@ export const generatedLocalCopy = {
             "Otimização de gerenciamento de lista de espera",
             "Sugestões de precificação dinâmica"
           ],
-          "roi": "ROI típico: aumento de 10-15% nas coberturas",
+          "roi": "ROI típico: aumento de 10-15% no número de clientes",
           "bestFor": "Restaurantes focados em reservas e alta gastronomia",
           "color": "from-[#FF6B5B] to-[#E03E48]"
         }
@@ -1493,7 +1493,7 @@ export const generatedLocalCopy = {
           "description": "Geração de pedidos de compra (PO) sem interrupções a partir do inventário"
         }
       ],
-      "selectionTitle": "Quais Módulos Você Precisa?",
+      "selectionTitle": "De Quais Módulos Você Precisa?",
       "selectionDescription": "Comece com seu maior ponto de dor",
       "selectionCards": [
         {
@@ -1533,7 +1533,7 @@ export const generatedLocalCopy = {
       "mixAndMatch": "اپنی ترجیحات کی بنیاد پر ملا کر منتخب کریں۔",
       "exploreAllModules": "تمام ماڈیولز کا جائزہ لیں",
       "calculateModuleRoi": "ماڈیول ROI کا حساب لگائیں",
-      "whatAreModules": "What Are Sundae Modules?",
+      "whatAreModules": "Sundae ماڈیولز کیا ہیں؟",
       "whatAreModulesDescription": "ماڈیولز خصوصی ذہانت کے اضافے ہیں جو آپ کی مخصوص عملی شعبوں میں بصیرت کو گہرا کرتے ہیں۔",
       "pillars": [
         {
@@ -1553,7 +1553,7 @@ export const generatedLocalCopy = {
       "chooseStack": "اپنی انٹیلی جنس اسٹیک منتخب کریں",
       "chooseStackDescription": "ایک ماڈیول یا تمام پانچ شامل کریں۔ وہ ذہانت بنائیں جس کی آپریشن کو ضرورت ہے۔",
       "coreCapabilities": "بنیادی صلاحیتیں:",
-      "roi": "سرمایہ کاری کی واپسی",
+      "roi": "ROI",
       "bestFor": "کے لیے بہترین:",
       "faqTitle": "اکثر پوچھے جانے والے سوالات",
       "faqDescription": "ماڈیولز، اپ گریڈز، قیمتوں، اور عمل درآمد کے بارے میں عام سوالات۔",
@@ -1579,7 +1579,7 @@ export const generatedLocalCopy = {
           "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
-          "name": "انویٹری انٹیلیجنس",
+          "name": "انوینٹری انٹیلیجنس",
           "icon": "insights",
           "headline": "ضیاع کا سراغ لگائیں، پار لیولز کو خودکار کریں، اور لاگت کو بہتر بنائیں۔",
           "description": "ضیاع کا سراغ لگائیں، پار لیولز کو ایڈجسٹ کریں، اور انوینٹری کی حرکت کا واضح روزانہ جائزہ لے کر ترکیب کی لاگت کو سخت کریں۔",
@@ -1638,7 +1638,7 @@ export const generatedLocalCopy = {
             "ویٹ لسٹ کے انتظام کی بہتر بنائی",
             "متحرک قیمتوں کی تجاویز"
           ],
-          "roi": "عام ROI: 10-15% کی کوریج میں اضافہ",
+          "roi": "عام ROI: 10-15% مہمانوں میں اضافہ",
           "bestFor": "ریزرویشن پر مبنی ریستوران اور عمدہ کھانا",
           "color": "from-[#FF6B5B] to-[#E03E48]"
         }
@@ -1695,7 +1695,7 @@ export const generatedLocalCopy = {
           "count": "3 ماڈیول"
         },
         {
-          "name": "انویٹری اور فضلہ",
+          "name": "انوینٹری اور فضلہ",
           "count": "3 ماڈیول"
         },
         {
@@ -1757,7 +1757,7 @@ export const generatedLocalCopy = {
         },
         {
           "pain": "زیادہ خوراک کے اخراجات یا ضیاع؟",
-          "solution": "انویٹری کی ذہانت",
+          "solution": "انوینٹری کی ذہانت",
           "benefit": "ضیاع کا سراغ لگائیں، پار کی سطح کو بہتر بنائیں"
         },
         {
@@ -1768,7 +1768,7 @@ export const generatedLocalCopy = {
         {
           "pain": "زیادہ مارکیٹنگ کے اخراجات؟",
           "solution": "مارکیٹنگ کی ذہانت",
-          "benefit": "آر او آئی کا سراغ لگائیں، سی اے سی کم کریں"
+          "benefit": "ROI کا سراغ لگائیں، CAC کم کریں"
         },
         {
           "pain": "ریزرویشن پر مبنی کاروبار؟",
@@ -1784,7 +1784,7 @@ export const generatedLocalCopy = {
       "badge": "विशेषीकृत मॉड्यूल",
       "title": "जहाँ यह सबसे महत्वपूर्ण है, वहाँ गहराई में जाएँ",
       "description": "Sundae Core में विशेषीकृत मॉड्यूल जोड़ें। श्रम, इन्वेंटरी, खरीद, मार्केटिंग और आरक्षण में गहरी संचालन बुद्धिमत्ता प्राप्त करें।",
-      "mixAndMatch": "अपनी प्राथमिकताओं के आधार पर मिलाएं और मिलाएं।",
+      "mixAndMatch": "अपनी प्राथमिकताओं के आधार पर मिलाएं और चुनें।",
       "exploreAllModules": "सभी मॉड्यूल्स का अन्वेषण करें",
       "calculateModuleRoi": "मॉड्यूल ROI की गणना करें",
       "whatAreModules": "Sundae मॉड्यूल क्या हैं?",
@@ -1807,7 +1807,7 @@ export const generatedLocalCopy = {
       "chooseStack": "अपनी इंटेलिजेंस स्टैक चुनें",
       "chooseStackDescription": "एक मॉड्यूल या सभी पांच जोड़ें। अपनी ऑपरेशन की जरूरतों के अनुसार बुद्धिमत्ता बनाएं।",
       "coreCapabilities": "मुख्य क्षमताएँ:",
-      "roi": "आरओआई",
+      "roi": "ROI",
       "bestFor": "के लिए सबसे अच्छा:",
       "faqTitle": "अक्सर पूछे जाने वाले प्रश्न",
       "faqDescription": "मॉड्यूल, उन्नयन, मूल्य निर्धारण और कार्यान्वयन के बारे में सामान्य प्रश्न।",
@@ -1892,7 +1892,7 @@ export const generatedLocalCopy = {
             "वेटलिस्ट प्रबंधन अनुकूलन",
             "गतिशील मूल्य निर्धारण सुझाव"
           ],
-          "roi": "सामान्य ROI: 10-15% कवर वृद्धि",
+          "roi": "सामान्य ROI: 10-15% अधिक मेहमान",
           "bestFor": "आरक्षण-आधारित रेस्तरां और फाइन डाइनिंग",
           "color": "from-[#FF6B5B] to-[#E03E48]"
         }
@@ -2007,7 +2007,7 @@ export const generatedLocalCopy = {
         {
           "pain": "उच्च श्रम लागत?",
           "solution": "श्रम बुद्धिमत्ता",
-          "benefit": "अतिरिक्त समय कम करें, शेड्यूलिंग का अनुकूलन करें"
+          "benefit": "ओवरटाइम कम करें, शेड्यूलिंग का अनुकूलन करें"
         },
         {
           "pain": "उच्च खाद्य लागत या बर्बादी?",
@@ -2022,7 +2022,7 @@ export const generatedLocalCopy = {
         {
           "pain": "भारी मार्केटिंग खर्च?",
           "solution": "मार्केटिंग बुद्धिमत्ता",
-          "benefit": "आरओआई ट्रैक करें, सीएसी कम करें"
+          "benefit": "ROI ट्रैक करें, CAC कम करें"
         },
         {
           "pain": "आरक्षण-आधारित व्यवसाय?",
@@ -2061,8 +2061,8 @@ export const generatedLocalCopy = {
       "chooseStack": "Zeka Yığınınızı Seçin",
       "chooseStackDescription": "Bir modül veya beşinin tamamını ekleyin. İşletmenizin ihtiyaç duyduğu zekayı oluşturun.",
       "coreCapabilities": "Temel Yetenekler:",
-      "roi": "Yatırım Getirisi",
-      "bestFor": "En iyi için:",
+      "roi": "ROI",
+      "bestFor": "En uygun:",
       "faqTitle": "Sıkça Sorulan Sorular",
       "faqDescription": "Modüller, yükseltmeler, fiyatlandırma ve uygulama hakkında sıkça sorulan sorular.",
       "ctaTitle": "Özel Zeka Eklemeye Hazır Mısınız?",
@@ -2146,7 +2146,7 @@ export const generatedLocalCopy = {
             "Bekleme listesi yönetimi optimizasyonu",
             "Dinamik fiyatlandırma önerileri"
           ],
-          "roi": "Tipik ROI: %10-15 gelir artışı",
+          "roi": "Tipik ROI: %10-15 daha fazla misafir",
           "bestFor": "Rezervasyon odaklı restoranlar ve şık yemek mekanları",
           "color": "from-[#FF6B5B] to-[#E03E48]"
         }
@@ -2186,7 +2186,7 @@ export const generatedLocalCopy = {
         {
           "step": "2",
           "title": "Core Katmanı Gerektirir",
-          "description": "Modüller, gerçek zamanlı özel istihbarat için yalnızca Core katmanına özeldir."
+          "description": "Modüller, gerçek zamanlı özel zeka için yalnızca Core katmanına özeldir."
         }
       ],
       "categories": [
@@ -2276,7 +2276,7 @@ export const generatedLocalCopy = {
         {
           "pain": "Aşırı Pazarlama Harcaması mı?",
           "solution": "Pazarlama Zekası",
-          "benefit": "Yatırım getirisini takip edin, CAC'yi azaltın"
+          "benefit": "ROI'yi takip edin, CAC'yi azaltın"
         },
         {
           "pain": "Rezervasyon Odaklı İş mi?",
@@ -2591,7 +2591,7 @@ export const generatedLocalCopy = {
             "Wczesne ostrzeżenia o nadgodzinach"
           ],
           "roi": "Typowy ROI: 8-12% redukcji kosztów pracy",
-          "bestFor": "Operacje o dużym wolumenie złożonymi harmonogramami",
+          "bestFor": "Operacje o dużym wolumenie ze złożonymi harmonogramami",
           "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
@@ -2654,7 +2654,7 @@ export const generatedLocalCopy = {
             "Optymalizacja zarządzania listą oczekujących",
             "Sugestie dynamicznego ustalania cen"
           ],
-          "roi": "Typowy ROI: 10-15% wzrost pokrycia",
+          "roi": "Typowy ROI: 10-15% więcej gości",
           "bestFor": "Restauracje oparte na rezerwacjach i fine dining",
           "color": "from-[#FF6B5B] to-[#E03E48]"
         }
@@ -2947,8 +2947,8 @@ export const generatedLocalCopy = {
         },
         {
           "step": "2",
-          "title": "需要核心层级",
-          "description": "模块仅限于核心层级，以提供实时专业智能。"
+          "title": "需要 Core 层级",
+          "description": "模块仅限于 Core 层级，以提供实时专业智能。"
         }
       ],
       "categories": [
@@ -3077,7 +3077,7 @@ export const generatedLocalCopy = {
       "chooseStack": "インテリジェンススタックを選択してください",
       "chooseStackDescription": "1つのモジュールまたは5つすべてを追加します。あなたの業務に必要なインテリジェンスを構築しましょう。",
       "coreCapabilities": "コア機能:",
-      "roi": "投資収益率",
+      "roi": "ROI",
       "bestFor": "最適な用途:",
       "faqTitle": "よくある質問",
       "faqDescription": "モジュール、アップグレード、価格、実装に関するよくある質問。",
@@ -3320,7 +3320,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Tambahkan Apa yang Anda Butuhkan",
-          "description": "Mulailah dengan titik sakit terbesar Anda. Tambahkan modul saat prioritas berubah. Tidak ada paket yang dipaksakan."
+          "description": "Mulailah dengan masalah terbesar Anda. Tambahkan modul saat prioritas berubah. Tidak ada paket yang dipaksakan."
         },
         {
           "title": "Terintegrasi Dengan Core",
@@ -3416,7 +3416,7 @@ export const generatedLocalCopy = {
             "Optimasi manajemen daftar tunggu",
             "Saran harga dinamis"
           ],
-          "roi": "ROI Tipikal: 10-15% peningkatan pendapatan",
+          "roi": "ROI Tipikal: 10-15% peningkatan jumlah tamu",
           "bestFor": "Restoran yang berfokus pada reservasi dan fine dining",
           "color": "from-[#FF6B5B] to-[#E03E48]"
         }
