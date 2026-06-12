@@ -12,8 +12,6 @@ import { PageHero, FadeUp, StaggerContainer, StaggerItem, PageCTA } from '@/comp
 import { CreamBreak } from '@/components/ui/CreamBreak';
 import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { pricingCreamCopy } from './pricingCreamCopy';
-import { SectionConviction } from '@/components/home/sections/SectionConviction';
-import { pricingConviction } from '@/components/home/sections/routeConvictionCopy';
 
 type Tier = {
   id: string;
@@ -815,9 +813,6 @@ export default function PricingPage() {
 
       {/* Cream relief - early warm break after the Report tiers, before the long dark Core/Enterprise/Add-ons stretch (the volume system) */}
       <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
-
-      {/* Conviction beat - belief before the Core/Enterprise pricing volume */}
-      <SectionConviction {...(pricingConviction[locale as keyof typeof pricingConviction] ?? pricingConviction.en)} />
 
       {/* Sundae Core Tiers */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">

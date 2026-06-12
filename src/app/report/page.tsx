@@ -12,6 +12,9 @@ import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_report_page'
 import { generatedUiLabels } from "@/lib/generatedUiLabels";
+import { SectionConviction } from "@/components/home/sections/SectionConviction";
+import { SectionEditorialBand } from "@/components/home/sections/SectionEditorialBand";
+import { sundaeReportConviction, sundaeReportBand } from "@/components/home/sections/routeConvictionCopy";
 
 const reportPageCopy = {
   en: {
@@ -322,6 +325,23 @@ export default function ReportProductPage() {
           />
         </div>
       </PageHero>
+
+      {/* Conviction beat - belief opener, mirroring the homepage manifesto */}
+      <SectionConviction {...(sundaeReportConviction[locale as keyof typeof sundaeReportConviction] ?? sundaeReportConviction.en)} />
+
+      {/* Editorial band - warmth + rhythm for the otherwise-light report page */}
+      {(() => {
+        const band = sundaeReportBand[locale as keyof typeof sundaeReportBand] ?? sundaeReportBand.en;
+        return (
+          <SectionEditorialBand
+            src="/images/editorial/dining-room.jpg"
+            alt={band.alt}
+            eyebrow={band.eyebrow}
+            headline={band.headline}
+            sub={band.sub}
+          />
+        );
+      })()}
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">
         <div className="max-w-5xl mx-auto">

@@ -10,9 +10,6 @@ import { sundaeReportCreamCopy } from "../sundaeReportCreamCopy";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_product_sundae_report_page'
-import { SectionConviction } from '@/components/home/sections/SectionConviction'
-import { SectionEditorialBand } from '@/components/home/sections/SectionEditorialBand'
-import { sundaeReportConviction, sundaeReportBand } from '@/components/home/sections/routeConvictionCopy'
 
 const reportCopy = {
   en: {
@@ -252,23 +249,6 @@ export default function SundaeReportPage() {
 
       {/* Cream relief - early warm break BEFORE the long dark scroll (the volume system) */}
       <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
-
-      {/* Conviction beat - belief before the feature volume */}
-      <SectionConviction {...(sundaeReportConviction[locale as keyof typeof sundaeReportConviction] ?? sundaeReportConviction.en)} />
-
-      {/* Editorial band - warmth + rhythm for the otherwise-light report page */}
-      {(() => {
-        const band = sundaeReportBand[locale as keyof typeof sundaeReportBand] ?? sundaeReportBand.en;
-        return (
-          <SectionEditorialBand
-            src="/images/editorial/dining-room.jpg"
-            alt={band.alt}
-            eyebrow={band.eyebrow}
-            headline={band.headline}
-            sub={band.sub}
-          />
-        );
-      })()}
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-7xl mx-auto">
