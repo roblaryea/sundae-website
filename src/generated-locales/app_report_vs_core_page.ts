@@ -599,7 +599,7 @@ export const generatedLocalCopy = {
         }
       ],
       "pulseTitle": "Pulse Kenmerken per Niveau",
-      "pulseDescription": "Pulse is de intraday operations monitor, beschikbaar op Core-niveaus",
+      "pulseDescription": "Pulse is de intraday operationele monitor, beschikbaar op Core-niveaus",
       "pulseColumns": {
         "report": "Report (Gratis)",
         "core": "Core"
@@ -1161,12 +1161,12 @@ export const generatedLocalCopy = {
           "core": "✓"
         },
         {
-          "feature": "قائمة المتصدرين للخوادم (يومي)",
+          "feature": "قائمة المتصدرين للنُّدُل (يومي)",
           "report": "-",
           "core": "✓"
         },
         {
-          "feature": "قائمة المتصدرين للخوادم (ساعي، حسب المرحلة، مع مقارنة)",
+          "feature": "قائمة المتصدرين للنُّدُل (بالساعة، حسب المرحلة، مع مقارنة)",
           "report": "-",
           "core": "✓"
         },
@@ -3072,7 +3072,7 @@ export const generatedLocalCopy = {
       "decisionTitle": "决策树：哪个层级？",
       "decisionDescription": "回答这些问题以找到您的级别",
       "decisionYes": "是",
-      "decisionNo": "没有",
+      "decisionNo": "否",
       "decisionItems": [
         {
           "question": "需要运营速度吗？",
@@ -4752,17 +4752,17 @@ export const generatedLocalCopy = {
         {
           "category": "সেরা জন্য",
           "report": "১-৫ লোকেশন",
-          "reportDetail": "Proof of concept, testing Sundae, strategic analysis",
+          "reportDetail": "ধারণার প্রমাণ, Sundae পরীক্ষা, কৌশলগত বিশ্লেষণ",
           "core": "১০+ লোকেশন",
           "coreDetail": "যেসব অপারেশন দ্রুততা এবং বহু-লোকেশন পোর্টফোলিও প্রয়োজন",
           "icon": "multiLocation"
         }
       ],
-      "pulseTitle": "Pulse Features by Tier",
-      "pulseDescription": "Pulse is the intraday operations monitor, available on Core tiers",
+      "pulseTitle": "স্তর অনুযায়ী Pulse বৈশিষ্ট্য",
+      "pulseDescription": "Pulse হলো দিনের অভ্যন্তরীণ অপারেশন মনিটর, যা Core স্তরে উপলব্ধ",
       "pulseColumns": {
-        "report": "রিপোর্ট (ফ্রি)",
-        "core": "কোর"
+        "report": "Report (ফ্রি)",
+        "core": "Core"
       },
       "pulseRows": [
         {
@@ -4831,11 +4831,11 @@ export const generatedLocalCopy = {
           "core": "✓"
         }
       ],
-      "watchtowerTitle": "Watchtower Features by Tier",
+      "watchtowerTitle": "স্তর অনুযায়ী Watchtower বৈশিষ্ট্য",
       "watchtowerDescription": "বাহ্যিক বুদ্ধিমত্তা, যা Core স্তরে উপলব্ধ",
       "watchtowerColumns": {
-        "report": "রিপোর্ট (ফ্রি)",
-        "core": "কোর"
+        "report": "Report (ফ্রি)",
+        "core": "Core"
       },
       "watchtowerRows": [
         {
@@ -4923,32 +4923,32 @@ export const generatedLocalCopy = {
           "noReason": "প্রথম দিন থেকেই রিয়েল-টাইমে যান"
         }
       ],
-      "upgradeTitle": "নিশ্চিত নন? রিপোর্ট দিয়ে শুরু করুন",
-      "upgradeDescription": "অনেক অপারেটর রিপোর্ট দিয়ে শুরু করেন, Report Liteের মাধ্যমে মূল্য প্রমাণ করেন, তারপর যখন তাদের অপারেশনাল গতি প্রয়োজন হয় তখন কোরে আপগ্রেড করেন। আপগ্রেড করার সময় সমস্ত ঐতিহাসিক তথ্য সংরক্ষিত থাকে, কোনো তথ্য হারানো হয় না।",
+      "upgradeTitle": "নিশ্চিত নন? Report দিয়ে শুরু করুন",
+      "upgradeDescription": "অনেক অপারেটর Report দিয়ে শুরু করেন, Report Lite-এর মাধ্যমে মূল্য প্রমাণ করেন, তারপর যখন তাদের অপারেশনাল গতি প্রয়োজন হয় তখন Core-এ আপগ্রেড করেন। আপগ্রেড করার সময় সমস্ত ঐতিহাসিক তথ্য সংরক্ষিত থাকে, কোনো তথ্য হারানো হয় না।",
       "upgradeLabels": {
         "reportLite": "Report Lite",
         "reportPlus": "Report Plus/Pro",
-        "core": "কোর"
+        "core": "Core"
       },
       "upgradeDescriptions": {
         "reportLite": "চিরকাল ফ্রি",
         "reportPlus": "স্বয়ংক্রিয় বিশ্লেষণ",
         "core": "রিয়েল-টাইম বুদ্ধিমত্তা"
       },
-      "upgradeNote": "সুন্দর আপগ্রেড। বিনামূল্যে শুরু করুন, যখন প্রয়োজন তখন আপগ্রেড করুন, আপনার বৃদ্ধির সাথে সাথে স্কেল করুন।",
+      "upgradeNote": "মসৃণ আপগ্রেড। বিনামূল্যে শুরু করুন, যখন প্রয়োজন তখন আপগ্রেড করুন, আপনার বৃদ্ধির সাথে সাথে স্কেল করুন।",
       "finalTitle": "আপনার অপারেশনের জন্য মূল্য দেখুন",
       "finalDescription": "ইন্টারেক্টিভ ক্যালকুলেটর আপনার অবস্থানের সংখ্যা অনুযায়ী উভয় স্তরের জন্য খরচ দেখায়।",
       "finalPricing": "মূল্য দেখুন",
-      "finalStartFree": "Start with Report Lite",
+      "finalStartFree": "Report Lite দিয়ে শুরু করুন",
       "finalBookDemo": "ডেমো বুক করুন"
     },
     "ms": {
       "badge": "Perbandingan Produk",
-      "heroPrefix": "Laporan vs Core:",
+      "heroPrefix": "Report vs Core:",
       "heroSuffix": "Pilih Kelajuan Anda",
       "heroDescription": "Kedua-duanya memberikan kecerdasan keputusan. Report memberikan kedalaman sejarah. Core memberikan kelajuan operasi masa nyata. Pilih berdasarkan seberapa cepat anda perlu bertindak.",
       "heroPrimary": "Lihat Harga Tepat",
-      "heroSecondary": "Start with Report Lite",
+      "heroSecondary": "Mula dengan Report Lite",
       "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "Analisis sejarah & perancangan strategik",
       "reportSummaryEyebrow": "Sempurna apabila:",
@@ -4969,12 +4969,12 @@ export const generatedLocalCopy = {
         "Anda memerlukan integrasi sistem seperti Tenaga Kerja dan Inventori",
         "Anda menguruskan lebih daripada 10 lokasi"
       ],
-      "coreSummaryNoteTitle": "Segala yang ada dalam Laporan, Ditambah Lagi",
+      "coreSummaryNoteTitle": "Segala yang ada dalam Report, Ditambah Lagi",
       "coreSummaryNoteDescription": "Semua ciri Report, ditambah kelajuan masa nyata dan integrasi sistem.",
       "comparisonTitle": "Perbandingan Berdampingan",
       "comparisonDescription": "Perbezaan utama yang penting untuk keputusan anda",
-      "reportLabel": "Laporan",
-      "coreLabel": "Inti",
+      "reportLabel": "Report",
+      "coreLabel": "Core",
       "featureLabel": "Ciri",
       "comparisonRows": [
         {
@@ -5021,8 +5021,8 @@ export const generatedLocalCopy = {
       "pulseTitle": "Ciri Pulse mengikut Tahap",
       "pulseDescription": "Pulse adalah pemantau operasi intrahari, tersedia pada tahap Core",
       "pulseColumns": {
-        "report": "Laporan (Percuma)",
-        "core": "Inti"
+        "report": "Report (Percuma)",
+        "core": "Core"
       },
       "pulseRows": [
         {
@@ -5092,10 +5092,10 @@ export const generatedLocalCopy = {
         }
       ],
       "watchtowerTitle": "Ciri-ciri Watchtower mengikut Tahap",
-      "watchtowerDescription": "Intelligence luar, tersedia pada tahap Core",
+      "watchtowerDescription": "Risikan luar, tersedia pada tahap Core",
       "watchtowerColumns": {
-        "report": "Laporan (Percuma)",
-        "core": "Inti"
+        "report": "Report (Percuma)",
+        "core": "Core"
       },
       "watchtowerRows": [
         {
@@ -5149,7 +5149,7 @@ export const generatedLocalCopy = {
           "core": "✓"
         }
       ],
-      "decisionTitle": "Pohon Keputusan: Tier Mana?",
+      "decisionTitle": "Pokok Keputusan: Tahap Mana?",
       "decisionDescription": "Jawab soalan-soalan ini untuk mengetahui tahap anda",
       "decisionYes": "Ya",
       "decisionNo": "Tidak",
@@ -5183,7 +5183,7 @@ export const generatedLocalCopy = {
           "noReason": "Masuk ke masa nyata dari hari pertama"
         }
       ],
-      "upgradeTitle": "Tidak Pasti? Mulakan dengan Laporan",
+      "upgradeTitle": "Tidak Pasti? Mulakan dengan Report",
       "upgradeDescription": "Banyak pengendali bermula dengan Report, membuktikan nilai dengan Report Lite, kemudian menaik taraf ke Core apabila mereka memerlukan kelajuan operasi. Semua data sejarah dipelihara apabila anda menaik taraf, tanpa kehilangan data.",
       "upgradeLabels": {
         "reportLite": "Report Lite",
@@ -5199,16 +5199,16 @@ export const generatedLocalCopy = {
       "finalTitle": "Lihat Harga untuk Operasi Anda",
       "finalDescription": "Kalkulator interaktif menunjukkan kos untuk kedua-dua tahap berdasarkan bilangan lokasi anda.",
       "finalPricing": "Lihat Harga",
-      "finalStartFree": "Start with Report Lite",
+      "finalStartFree": "Mula dengan Report Lite",
       "finalBookDemo": "Tempah Demo"
     },
     "th": {
       "badge": "การเปรียบเทียบผลิตภัณฑ์",
-      "heroPrefix": "รายงาน vs Core:",
+      "heroPrefix": "Report vs Core:",
       "heroSuffix": "เลือกความเร็วของคุณ",
-      "heroDescription": "ทั้งสองให้ข้อมูลเชิงตัดสินใจ รายงานให้คุณเห็นข้อมูลในอดีต ขณะที่ Core ให้ความเร็วในการดำเนินงานแบบเรียลไทม์ เลือกตามความเร็วที่คุณต้องการดำเนินการ.",
+      "heroDescription": "ทั้งสองให้ข้อมูลเชิงตัดสินใจ Report ให้คุณเห็นข้อมูลเชิงลึกในอดีต ขณะที่ Core ให้ความเร็วในการดำเนินงานแบบเรียลไทม์ เลือกตามความเร็วที่คุณต้องการดำเนินการ.",
       "heroPrimary": "ดูราคาแบบเจาะจง",
-      "heroSecondary": "Start with Report Lite",
+      "heroSecondary": "เริ่มต้นด้วย Report Lite",
       "reportSummaryTitle": "Sundae Report",
       "reportSummaryDescription": "การวิเคราะห์ประวัติศาสตร์และการวางแผนเชิงกลยุทธ์",
       "reportSummaryEyebrow": "เหมาะสำหรับเมื่อ:",
@@ -5233,8 +5233,8 @@ export const generatedLocalCopy = {
       "coreSummaryNoteDescription": "ฟีเจอร์ทั้งหมดของ Report รวมถึงความเร็วแบบเรียลไทม์และการรวมระบบ.",
       "comparisonTitle": "การเปรียบเทียบแบบข้างเคียง",
       "comparisonDescription": "ความแตกต่างที่สำคัญสำหรับการตัดสินใจของคุณ",
-      "reportLabel": "รายงาน",
-      "coreLabel": "หลัก",
+      "reportLabel": "Report",
+      "coreLabel": "Core",
       "featureLabel": "ฟีเจอร์",
       "comparisonRows": [
         {
@@ -5281,8 +5281,8 @@ export const generatedLocalCopy = {
       "pulseTitle": "ฟีเจอร์ Pulse ตามระดับ",
       "pulseDescription": "Pulse เป็นเครื่องมือติดตามการดำเนินงานระหว่างวัน ซึ่งมีให้บริการในระดับ Core",
       "pulseColumns": {
-        "report": "รายงาน (ฟรี)",
-        "core": "แกน"
+        "report": "Report (ฟรี)",
+        "core": "Core"
       },
       "pulseRows": [
         {
@@ -5354,8 +5354,8 @@ export const generatedLocalCopy = {
       "watchtowerTitle": "ฟีเจอร์ Watchtower ตามระดับ",
       "watchtowerDescription": "ข้อมูลภายนอกที่มีให้ในระดับ Core",
       "watchtowerColumns": {
-        "report": "รายงาน (ฟรี)",
-        "core": "แกน"
+        "report": "Report (ฟรี)",
+        "core": "Core"
       },
       "watchtowerRows": [
         {
@@ -5412,7 +5412,7 @@ export const generatedLocalCopy = {
       "decisionTitle": "ต้นไม้การตัดสินใจ: ระดับไหน?",
       "decisionDescription": "ตอบคำถามเหล่านี้เพื่อค้นหาชั้นของคุณ",
       "decisionYes": "ใช่",
-      "decisionNo": "ไม่มี",
+      "decisionNo": "ไม่",
       "decisionItems": [
         {
           "question": "ต้องการความเร็วในการดำเนินงานหรือไม่?",
@@ -5459,7 +5459,7 @@ export const generatedLocalCopy = {
       "finalTitle": "ดูราคาสำหรับการดำเนินงานของคุณ",
       "finalDescription": "เครื่องคิดเลขแบบโต้ตอบแสดงต้นทุนสำหรับทั้งสองระดับตามจำนวนสถานที่ของคุณ.",
       "finalPricing": "ดูราคา",
-      "finalStartFree": "Start with Report Lite",
+      "finalStartFree": "เริ่มต้นด้วย Report Lite",
       "finalBookDemo": "จองการสาธิต"
     }
   }

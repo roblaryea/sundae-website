@@ -481,7 +481,7 @@ export const generatedLocalCopy = {
       ],
       "categories": [
         {
-          "category": "Operationen",
+          "category": "Betrieb",
           "questions": [
             "Warum sind meine Arbeitskosten diese Woche höher?",
             "Welche Schichten sind am profitabelsten?",
@@ -600,7 +600,7 @@ export const generatedLocalCopy = {
           "questions": [
             "Wat is mijn meest winstgevende menu-item?",
             "Waar verlies ik geld?",
-            "Hoe kan ik de gemiddelde cheque verhogen?",
+            "Hoe kan ik de gemiddelde besteding verhogen?",
             "Wat is mijn break-even punt?"
           ]
         },
@@ -620,15 +620,15 @@ export const generatedLocalCopy = {
       "benefits": [
         {
           "benefit": "Geen technische vaardigheden vereist",
-          "icon": "succes"
+          "icon": "success"
         },
         {
           "benefit": "Directe antwoorden op basis van al uw gegevens",
-          "icon": "snelheid"
+          "icon": "speed"
         },
         {
           "benefit": "Natuurlijke gespreksinterface",
-          "icon": "verband"
+          "icon": "nexus"
         },
         {
           "benefit": "Bruikbare aanbevelingen",
@@ -639,14 +639,14 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Bekijk alle modules"
     },
     "ur": {
-      "heroBadge": "فورج - کسٹم انٹیلی جنس",
+      "heroBadge": "Forge - کسٹم انٹیلی جنس",
       "heroTitle": "حسب ضرورت ماڈلز۔ آپ کا ڈیٹا۔ آپ کے قوانین.",
-      "heroDescription": "فورج آپ کے ڈیٹا پر تربیت یافتہ اپنی مرضی کے ماڈل بناتا ہے۔ پیشن گوئیاں، سفارشات، اور آٹومیشنز خاص طور پر اس لیے بنائے گئے ہیں کہ آپ کا کاروبار کیسے چلتا ہے۔",
-      "heroPrimary": "فورج چیٹ آزمائیں۔",
+      "heroDescription": "Forge آپ کے ڈیٹا پر تربیت یافتہ اپنی مرضی کے ماڈل بناتا ہے۔ پیشن گوئیاں، سفارشات، اور آٹومیشنز خاص طور پر اس لیے بنائے گئے ہیں کہ آپ کا کاروبار کیسے چلتا ہے۔",
+      "heroPrimary": "Forge Chat آزمائیں۔",
       "heroSecondary": "آرکیٹیکچر دیکھیں",
       "featuresTitle": "ذہانت جو آپ کے کاروبار کو جانتی ہے۔",
       "featuresDescription": "آپ کے پیٹرن، آپ کے مقامات، آپ کے آپریشنز پر تربیت یافتہ حسب ضرورت ماڈل",
-      "buildTitle": "فورج کیا بنا سکتا ہے۔",
+      "buildTitle": "Forge کیا بنا سکتا ہے۔",
       "buildDescription": "آپ کے مخصوص چیلنجوں کے لیے حسب ضرورت ذہانت",
       "useCasesTitle": "کسٹم انٹیلی جنس استعمال کے کیسز",
       "useCasesDescription": "مانگ کی پیشن گوئی سے لے کر خودکار سفارشات تک",
@@ -656,22 +656,22 @@ export const generatedLocalCopy = {
         {
           "title": "قدرتی زبان کے سوالات",
           "description": "سادہ انگریزی میں سوالات پوچھیں اور اپنے ریستوراں کے ڈیٹا سے فوری بصیرت حاصل کریں۔",
-          "icon": "گٹھ جوڑ"
+          "icon": "nexus"
         },
         {
           "title": "سیاق و سباق کی تفہیم",
           "description": "درست جوابات کے لیے ریستوراں کی اصطلاحات اور کاروباری سیاق و سباق کو سمجھتا ہے۔",
-          "icon": "ذہانت"
+          "icon": "intelligence"
         },
         {
           "title": "ملٹی سورس انٹیگریشن",
           "description": "جامع جوابات فراہم کرنے کے لیے تمام منسلک سسٹمز سے بصیرتیں کھینچتا ہے۔",
-          "icon": "انضمام"
+          "icon": "integration"
         },
         {
           "title": "قابل عمل سفارشات",
           "description": "کارکردگی کو بہتر بنانے کے لیے مخصوص، نمبروں کی حمایت یافتہ تجاویز حاصل کریں۔",
-          "icon": "مارکیٹنگ"
+          "icon": "marketing"
         }
       ],
       "examples": [
@@ -721,27 +721,27 @@ export const generatedLocalCopy = {
         }
       ],
       "askLabel": "پوچھنے کی کوشش کریں:",
-      "respondsLabel": "فورج اس کے ساتھ جواب دیتا ہے:",
+      "respondsLabel": "Forge اس کے ساتھ جواب دیتا ہے:",
       "sourceLabel": "ڈیٹا ذرائع:",
       "benefits": [
         {
           "benefit": "کسی تکنیکی مہارت کی ضرورت نہیں ہے۔",
-          "icon": "کامیابی"
+          "icon": "success"
         },
         {
           "benefit": "آپ کے تمام ڈیٹا سے فوری جوابات",
-          "icon": "رفتار"
+          "icon": "speed"
         },
         {
           "benefit": "قدرتی گفتگو کا انٹرفیس",
-          "icon": "گٹھ جوڑ"
+          "icon": "nexus"
         },
         {
           "benefit": "قابل عمل سفارشات",
-          "icon": "مارکیٹنگ"
+          "icon": "marketing"
         }
       ],
-      "ctaPrimary": "بک فورج ڈیمو",
+      "ctaPrimary": "Forge ڈیمو بک کریں",
       "ctaSecondary": "تمام ماڈیولز دیکھیں"
     },
     "tr": {
@@ -762,22 +762,22 @@ export const generatedLocalCopy = {
         {
           "title": "Doğal Dil Sorguları",
           "description": "Sade bir İngilizceyle sorular sorun ve restoran verilerinizden anında bilgi alın.",
-          "icon": "bağlantı noktası"
+          "icon": "nexus"
         },
         {
           "title": "Bağlamsal Anlama",
           "description": "Doğru yanıtlar için restoran terminolojisini ve iş bağlamını anlar.",
-          "icon": "istihbarat"
+          "icon": "intelligence"
         },
         {
           "title": "Çok Kaynaklı Entegrasyon",
           "description": "Kapsamlı yanıtlar sağlamak için tüm bağlı sistemlerden öngörüler alır.",
-          "icon": "entegrasyon"
+          "icon": "integration"
         },
         {
           "title": "Uygulanabilir Öneriler",
           "description": "Performansı artırmak için spesifik, sayılarla desteklenen öneriler alın.",
-          "icon": "pazarlama"
+          "icon": "marketing"
         }
       ],
       "examples": [
@@ -788,7 +788,7 @@ export const generatedLocalCopy = {
         },
         {
           "question": "Hizmeti etkilemeden işçilik maliyetlerini nasıl azaltabilirim?",
-          "response": "Kalıplarınıza göre: 1) Hafta içi 14:00-16:00 arası 2 sunucuyu azaltın (haftada 340$ tasarruf edin), 2) 3 personeli birden fazla rol için çapraz eğitin, 3) Mola programlarını optimize edin. Öngörülen tasarruf: 1.200$/ay.",
+          "response": "Kalıplarınıza göre: 1) Hafta içi 14:00-16:00 arası 2 garsonu azaltın (haftada 340$ tasarruf edin), 2) 3 personeli birden fazla rol için çapraz eğitin, 3) Mola programlarını optimize edin. Öngörülen tasarruf: 1.200$/ay.",
           "context": "İş zekası + performans verileri"
         },
         {
@@ -832,33 +832,33 @@ export const generatedLocalCopy = {
       "benefits": [
         {
           "benefit": "Teknik beceri gerektirmez",
-          "icon": "başarı"
+          "icon": "success"
         },
         {
           "benefit": "Tüm verilerinizden anında yanıtlar",
-          "icon": "hız"
+          "icon": "speed"
         },
         {
           "benefit": "Doğal konuşma arayüzü",
-          "icon": "bağlantı noktası"
+          "icon": "nexus"
         },
         {
           "benefit": "Uygulanabilir öneriler",
-          "icon": "pazarlama"
+          "icon": "marketing"
         }
       ],
-      "ctaPrimary": "Kitap Forge Demosu",
+      "ctaPrimary": "Forge Demosu Ayırtın",
       "ctaSecondary": "Tüm Modülleri Görüntüle"
     },
     "it": {
-      "heroBadge": "Forgia: intelligenza personalizzata",
+      "heroBadge": "Forge: intelligenza personalizzata",
       "heroTitle": "Modelli personalizzati. I tuoi dati. Le tue regole.",
       "heroDescription": "Forge crea modelli personalizzati addestrati sui tuoi dati. Previsioni, consigli e automazioni creati appositamente per il funzionamento della tua azienda.",
-      "heroPrimary": "Prova ForgeChat",
+      "heroPrimary": "Prova Forge Chat",
       "heroSecondary": "Visualizza Architettura",
       "featuresTitle": "L'intelligenza che conosce il tuo business",
       "featuresDescription": "Modelli personalizzati addestrati sui tuoi modelli, sulle tue posizioni, sulle tue operazioni",
-      "buildTitle": "Cosa può costruire la Forgia",
+      "buildTitle": "Cosa può costruire Forge",
       "buildDescription": "Intelligenza personalizzata per le tue sfide specifiche",
       "useCasesTitle": "Casi d'uso dell'intelligence personalizzata",
       "useCasesDescription": "Dalla previsione della domanda alle raccomandazioni automatizzate",
@@ -868,22 +868,22 @@ export const generatedLocalCopy = {
         {
           "title": "Query in linguaggio naturale",
           "description": "Fai domande in un inglese semplice e ottieni informazioni immediate dai dati del tuo ristorante.",
-          "icon": "nesso"
+          "icon": "nexus"
         },
         {
           "title": "Comprensione contestuale",
           "description": "Comprende la terminologia del ristorante e il contesto aziendale per risposte accurate.",
-          "icon": "intelligenza"
+          "icon": "intelligence"
         },
         {
           "title": "Integrazione multi-sorgente",
           "description": "Estrae approfondimenti da tutti i sistemi connessi per fornire risposte complete.",
-          "icon": "integrazione"
+          "icon": "integration"
         },
         {
           "title": "Raccomandazioni attuabili",
           "description": "Ottieni consigli specifici basati su numeri per migliorare le prestazioni.",
-          "icon": "commercializzazione"
+          "icon": "marketing"
         }
       ],
       "examples": [
@@ -894,7 +894,7 @@ export const generatedLocalCopy = {
         },
         {
           "question": "Come posso ridurre i costi della manodopera senza incidere sul servizio?",
-          "response": "In base ai tuoi schemi: 1) Riduci 2 server durante i giorni feriali dalle 14 alle 16 (risparmia $ 340 a settimana), 2) Forma in modo incrociato 3 membri del personale per più ruoli, 3) Ottimizza i programmi delle pause. Risparmio previsto: $ 1.200 al mese.",
+          "response": "In base ai tuoi schemi: 1) Riduci 2 camerieri durante i giorni feriali dalle 14 alle 16 (risparmia $ 340 a settimana), 2) Forma in modo incrociato 3 membri del personale per più ruoli, 3) Ottimizza i programmi delle pause. Risparmio previsto: $ 1.200 al mese.",
           "context": "Informazioni sul lavoro + dati sulle prestazioni"
         },
         {
@@ -918,7 +918,7 @@ export const generatedLocalCopy = {
           "questions": [
             "Qual è la voce di menu più redditizia?",
             "Dove sto perdendo soldi?",
-            "Come posso aumentare il controllo medio?",
+            "Come posso aumentare lo scontrino medio?",
             "Qual è il mio punto di pareggio?"
           ]
         },
@@ -938,33 +938,33 @@ export const generatedLocalCopy = {
       "benefits": [
         {
           "benefit": "Nessuna competenza tecnica richiesta",
-          "icon": "successo"
+          "icon": "success"
         },
         {
           "benefit": "Risposte istantanee da tutti i tuoi dati",
-          "icon": "velocità"
+          "icon": "speed"
         },
         {
           "benefit": "Interfaccia di conversazione naturale",
-          "icon": "nesso"
+          "icon": "nexus"
         },
         {
           "benefit": "Raccomandazioni attuabili",
-          "icon": "commercializzazione"
+          "icon": "marketing"
         }
       ],
       "ctaPrimary": "Prenota la demo di Forge",
       "ctaSecondary": "Visualizza tutti i moduli"
     },
     "hi": {
-      "heroBadge": "फोर्ज - कस्टम इंटेलिजेंस",
+      "heroBadge": "Forge - कस्टम इंटेलिजेंस",
       "heroTitle": "कस्टम मॉडल. आपका डेटा. आपके नियम.",
-      "heroDescription": "फोर्ज आपके डेटा पर प्रशिक्षित कस्टम मॉडल बनाता है। आपका व्यवसाय कैसे संचालित होता है, इसके लिए विशेष रूप से बनाए गए पूर्वानुमान, अनुशंसाएँ और ऑटोमेशन।",
-      "heroPrimary": "फोर्ज चैट का प्रयास करें",
+      "heroDescription": "Forge आपके डेटा पर प्रशिक्षित कस्टम मॉडल बनाता है। आपका व्यवसाय कैसे संचालित होता है, इसके लिए विशेष रूप से बनाए गए पूर्वानुमान, अनुशंसाएँ और ऑटोमेशन।",
+      "heroPrimary": "Forge Chat आज़माएँ",
       "heroSecondary": "वास्तुकला देखें",
       "featuresTitle": "इंटेलिजेंस जो आपके व्यवसाय को जानता है",
       "featuresDescription": "कस्टम मॉडल आपके पैटर्न, आपके स्थान, आपके संचालन पर प्रशिक्षित होते हैं",
-      "buildTitle": "फोर्ज क्या बना सकता है",
+      "buildTitle": "Forge क्या बना सकता है",
       "buildDescription": "आपकी विशिष्ट चुनौतियों के लिए कस्टम इंटेलिजेंस",
       "useCasesTitle": "कस्टम इंटेलिजेंस उपयोग के मामले",
       "useCasesDescription": "मांग के पूर्वानुमान से लेकर स्वचालित अनुशंसाओं तक",
@@ -974,22 +974,22 @@ export const generatedLocalCopy = {
         {
           "title": "प्राकृतिक भाषा प्रश्न",
           "description": "सरल अंग्रेजी में प्रश्न पूछें और अपने रेस्तरां डेटा से तुरंत जानकारी प्राप्त करें।",
-          "icon": "सांठगांठ"
+          "icon": "nexus"
         },
         {
           "title": "प्रासंगिक समझ",
           "description": "सटीक प्रतिक्रियाओं के लिए रेस्तरां शब्दावली और व्यावसायिक संदर्भ को समझता है।",
-          "icon": "बुद्धि"
+          "icon": "intelligence"
         },
         {
           "title": "बहु-स्रोत एकीकरण",
           "description": "व्यापक उत्तर प्रदान करने के लिए सभी कनेक्टेड सिस्टम से अंतर्दृष्टि प्राप्त करता है।",
-          "icon": "एकीकरण"
+          "icon": "integration"
         },
         {
           "title": "कार्रवाई योग्य सिफ़ारिशें",
           "description": "प्रदर्शन में सुधार के लिए विशिष्ट, संख्या-समर्थित अनुशंसाएँ प्राप्त करें।",
-          "icon": "मार्केटिंग"
+          "icon": "marketing"
         }
       ],
       "examples": [
@@ -1039,34 +1039,34 @@ export const generatedLocalCopy = {
         }
       ],
       "askLabel": "पूछने का प्रयास करें:",
-      "respondsLabel": "फोर्ज इसके साथ प्रतिक्रिया करता है:",
+      "respondsLabel": "Forge इस तरह उत्तर देता है:",
       "sourceLabel": "डेटा स्रोत:",
       "benefits": [
         {
           "benefit": "किसी तकनीकी कौशल की आवश्यकता नहीं है",
-          "icon": "सफलता"
+          "icon": "success"
         },
         {
           "benefit": "आपके सभी डेटा से त्वरित उत्तर",
-          "icon": "गति"
+          "icon": "speed"
         },
         {
           "benefit": "प्राकृतिक वार्तालाप इंटरफ़ेस",
-          "icon": "सांठगांठ"
+          "icon": "nexus"
         },
         {
           "benefit": "कार्रवाई योग्य सिफ़ारिशें",
-          "icon": "मार्केटिंग"
+          "icon": "marketing"
         }
       ],
-      "ctaPrimary": "बुक फोर्ज डेमो",
+      "ctaPrimary": "Forge डेमो बुक करें",
       "ctaSecondary": "सभी मॉड्यूल देखें"
     },
     "zh-Hans": {
       "heroBadge": "Forge - 定制智能",
       "heroTitle": "定制模型。您的数据。你的规则。",
       "heroDescription": "Forge 构建根据您的数据进行训练的自定义模型。专门针对您的业务运营方式构建的预测、建议和自动化。",
-      "heroPrimary": "尝试锻造聊天",
+      "heroPrimary": "尝试 Forge Chat",
       "heroSecondary": "查看架构",
       "featuresTitle": "了解您业务的智能",
       "featuresDescription": "根据您的模式、位置和运营进行训练的定制模型",
@@ -1080,22 +1080,22 @@ export const generatedLocalCopy = {
         {
           "title": "自然语言查询",
           "description": "用简单的英语提出问题，并从您的餐厅数据中获得即时见解。",
-          "icon": "联系"
+          "icon": "nexus"
         },
         {
           "title": "情境理解",
           "description": "了解餐厅术语和业务背景，以便做出准确的反应。",
-          "icon": "智力"
+          "icon": "intelligence"
         },
         {
           "title": "多源集成",
           "description": "从所有连接的系统中获取见解以提供全面的答案。",
-          "icon": "整合"
+          "icon": "integration"
         },
         {
           "title": "可行的建议",
           "description": "获取具体的、有数据支持的建议来提高绩效。",
-          "icon": "营销"
+          "icon": "marketing"
         }
       ],
       "examples": [
@@ -1106,7 +1106,7 @@ export const generatedLocalCopy = {
         },
         {
           "question": "如何在不影响服务的情况下降低人工成本？",
-          "response": "根据您的模式：1) 在工作日下午 2 点至 4 点期间减少 2 台服务器（每周节省 340 美元），2) 交叉培训 3 名员工担任多个角色，3) 优化休息时间表。预计节省：1,200 美元/月。",
+          "response": "根据您的模式：1) 在工作日下午 2 点至 4 点期间减少 2 名服务员（每周节省 340 美元），2) 交叉培训 3 名员工担任多个角色，3) 优化休息时间表。预计节省：1,200 美元/月。",
           "context": "劳工情报+绩效数据"
         },
         {
@@ -1130,7 +1130,7 @@ export const generatedLocalCopy = {
           "questions": [
             "我最赚钱的菜单项是什么？",
             "我哪里亏钱了？",
-            "如何提高平均支票金额？",
+            "如何提高平均客单价？",
             "我的收支平衡点是多少？"
           ]
         },
@@ -1150,33 +1150,33 @@ export const generatedLocalCopy = {
       "benefits": [
         {
           "benefit": "无需技术技能",
-          "icon": "成功"
+          "icon": "success"
         },
         {
           "benefit": "来自您所有数据的即时答案",
-          "icon": "速度"
+          "icon": "speed"
         },
         {
           "benefit": "自然对话界面",
-          "icon": "联系"
+          "icon": "nexus"
         },
         {
           "benefit": "可行的建议",
-          "icon": "营销"
+          "icon": "marketing"
         }
       ],
-      "ctaPrimary": "预订锻造演示",
+      "ctaPrimary": "预订 Forge 演示",
       "ctaSecondary": "查看所有模块"
     },
     "pl": {
-      "heroBadge": "Kuźnia - niestandardowa inteligencja",
+      "heroBadge": "Forge - niestandardowa inteligencja",
       "heroTitle": "Modele niestandardowe. Twoje dane. Twoje zasady.",
       "heroDescription": "Forge buduje niestandardowe modele wytrenowane na Twoich danych. Prognozy, rekomendacje i automatyzacje opracowane specjalnie pod kątem sposobu działania Twojej firmy.",
-      "heroPrimary": "Wypróbuj Czat Forge",
+      "heroPrimary": "Wypróbuj Forge Chat",
       "heroSecondary": "Zobacz architekturę",
       "featuresTitle": "Inteligencja, która zna Twój biznes",
       "featuresDescription": "Niestandardowe modele trenowane na podstawie Twoich wzorców, lokalizacji i operacji",
-      "buildTitle": "Co Kuźnia może zbudować",
+      "buildTitle": "Co Forge może zbudować",
       "buildDescription": "Niestandardowa inteligencja dla konkretnych wyzwań",
       "useCasesTitle": "Przypadki użycia analizy niestandardowej",
       "useCasesDescription": "Od prognozowania popytu po automatyczne rekomendacje",
@@ -1186,22 +1186,22 @@ export const generatedLocalCopy = {
         {
           "title": "Zapytania w języku naturalnym",
           "description": "Zadawaj pytania prostym językiem angielskim i uzyskaj natychmiastowy wgląd w dane dotyczące restauracji.",
-          "icon": "powiązanie"
+          "icon": "nexus"
         },
         {
           "title": "Zrozumienie kontekstowe",
           "description": "Rozumie terminologię restauracyjną i kontekst biznesowy, co pozwala na udzielanie trafnych odpowiedzi.",
-          "icon": "inteligencja"
+          "icon": "intelligence"
         },
         {
           "title": "Integracja wielu źródeł",
           "description": "Pobiera wnioski ze wszystkich połączonych systemów, aby zapewnić kompleksowe odpowiedzi.",
-          "icon": "integracja"
+          "icon": "integration"
         },
         {
           "title": "Zalecenia wykonalne",
           "description": "Uzyskaj konkretne rekomendacje poparte liczbami, aby poprawić wydajność.",
-          "icon": "marketingu"
+          "icon": "marketing"
         }
       ],
       "examples": [
@@ -1212,7 +1212,7 @@ export const generatedLocalCopy = {
         },
         {
           "question": "Jak mogę obniżyć koszty pracy bez wpływu na jakość usług?",
-          "response": "Na podstawie Twoich wzorców: 1) Zmniejsz liczbę serwerów o 2 w dni powszednie w godzinach 14:00-16:00 (oszczędność 340 USD tygodniowo), 2) Przeszkol 3 pracowników na wiele ról, 3) Zoptymalizuj harmonogramy przerw. Przewidywane oszczędności: 1200 USD miesięcznie.",
+          "response": "Na podstawie Twoich wzorców: 1) Zmniejsz liczbę kelnerów o 2 w dni powszednie w godzinach 14:00-16:00 (oszczędność 340 USD tygodniowo), 2) Przeszkol 3 pracowników na wiele ról, 3) Zoptymalizuj harmonogramy przerw. Przewidywane oszczędności: 1200 USD miesięcznie.",
           "context": "Wywiad dotyczący pracy + dane dotyczące wydajności"
         },
         {
@@ -1256,22 +1256,22 @@ export const generatedLocalCopy = {
       "benefits": [
         {
           "benefit": "Nie są wymagane żadne umiejętności techniczne",
-          "icon": "sukces"
+          "icon": "success"
         },
         {
           "benefit": "Natychmiastowe odpowiedzi ze wszystkich Twoich danych",
-          "icon": "prędkość"
+          "icon": "speed"
         },
         {
           "benefit": "Naturalny interfejs konwersacyjny",
-          "icon": "powiązanie"
+          "icon": "nexus"
         },
         {
           "benefit": "Zalecenia wykonalne",
-          "icon": "marketingu"
+          "icon": "marketing"
         }
       ],
-      "ctaPrimary": "Zarezerwuj Demo Kuźni",
+      "ctaPrimary": "Zarezerwuj Demo Forge",
       "ctaSecondary": "Wyświetl wszystkie moduły"
     },
     "ro": {
@@ -1297,12 +1297,12 @@ export const generatedLocalCopy = {
         {
           "title": "Înțelegerea contextuală",
           "description": "Înțelege terminologia restaurantului și contextul de afaceri pentru răspunsuri corecte.",
-          "icon": "inteligenţă"
+          "icon": "intelligence"
         },
         {
           "title": "Integrare cu mai multe surse",
           "description": "Extrage informații din toate sistemele conectate pentru a oferi răspunsuri cuprinzătoare.",
-          "icon": "integrare"
+          "icon": "integration"
         },
         {
           "title": "Recomandări aplicabile",
@@ -1318,7 +1318,7 @@ export const generatedLocalCopy = {
         },
         {
           "question": "Cum pot reduce costurile cu forța de muncă fără a afecta serviciul?",
-          "response": "Pe baza tiparelor dvs.: 1) Reduceți 2 servere în timpul săptămânii de la 14:00 la 16:00 (economisiți 340 USD/săptămână), 2) Antrenați încrucișat 3 angajați pentru mai multe roluri, 3) Optimizați programul de pauză. Economii estimate: 1.200 USD/lună.",
+          "response": "Pe baza tiparelor dvs.: 1) Reduceți 2 ospătari în timpul săptămânii de la 14:00 la 16:00 (economisiți 340 USD/săptămână), 2) Antrenați încrucișat 3 angajați pentru mai multe roluri, 3) Optimizați programul de pauză. Economii estimate: 1.200 USD/lună.",
           "context": "Inteligența muncii + date de performanță"
         },
         {
@@ -1338,11 +1338,11 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "category": "financiar",
+          "category": "Financiar",
           "questions": [
             "Care este cel mai profitabil element de meniu al meu?",
             "Unde pierd bani?",
-            "Cum pot crește cecul mediu?",
+            "Cum pot crește nota medie?",
             "Care este pragul meu de rentabilitate?"
           ]
         },
@@ -1362,11 +1362,11 @@ export const generatedLocalCopy = {
       "benefits": [
         {
           "benefit": "Nu sunt necesare abilități tehnice",
-          "icon": "succes"
+          "icon": "success"
         },
         {
           "benefit": "Răspunsuri instantanee din toate datele tale",
-          "icon": "viteza"
+          "icon": "speed"
         },
         {
           "benefit": "Interfață de conversație naturală",
@@ -1377,14 +1377,14 @@ export const generatedLocalCopy = {
           "icon": "marketing"
         }
       ],
-      "ctaPrimary": "Demo Book Forge",
+      "ctaPrimary": "Rezervați Demo Forge",
       "ctaSecondary": "Vedeți toate modulele"
     },
     "ja": {
       "heroBadge": "Forge - カスタム インテリジェンス",
       "heroTitle": "カスタムモデル。あなたのデータ。あなたのルール。",
       "heroDescription": "Forge は、データに基づいてトレーニングされたカスタム モデルを構築します。ビジネスの運営方法に特化して構築された予測、推奨事項、自動化。",
-      "heroPrimary": "フォージチャットを試してみる",
+      "heroPrimary": "Forge Chat を試してみる",
       "heroSecondary": "アーキテクチャを見る",
       "featuresTitle": "あなたのビジネスを知るインテリジェンス",
       "featuresDescription": "パターン、場所、操作に基づいてトレーニングされたカスタム モデル",
@@ -1398,22 +1398,22 @@ export const generatedLocalCopy = {
         {
           "title": "自然言語クエリ",
           "description": "わかりやすい英語で質問すると、レストランのデータから即座に洞察が得られます。",
-          "icon": "つながり"
+          "icon": "nexus"
         },
         {
           "title": "文脈の理解",
           "description": "レストランの専門用語とビジネスの背景を理解し、正確に対応します。",
-          "icon": "知性"
+          "icon": "intelligence"
         },
         {
           "title": "マルチソースの統合",
           "description": "接続されているすべてのシステムから洞察を引き出し、包括的な回答を提供します。",
-          "icon": "統合"
+          "icon": "integration"
         },
         {
           "title": "実用的な推奨事項",
           "description": "パフォーマンスを向上させるための、数値に裏付けられた具体的な推奨事項を取得します。",
-          "icon": "マーケティング"
+          "icon": "marketing"
         }
       ],
       "examples": [
@@ -1424,7 +1424,7 @@ export const generatedLocalCopy = {
         },
         {
           "question": "サービスに影響を与えずに人件費を削減するにはどうすればよいですか?",
-          "response": "パターンに基づいて: 1) 平日の午後 2 時から 4 時の間に 2 台のサーバーを削減 (週あたり 340 ドルを節約)、2) 複数の役割に合わせて 3 人のスタッフをクロストレーニング、3) 休憩スケジュールを最適化します。予測される節約額: 月額 1,200 ドル。",
+          "response": "パターンに基づいて: 1) 平日の午後 2 時から 4 時の間にホールスタッフを 2 名削減 (週あたり 340 ドルを節約)、2) 複数の役割に合わせて 3 人のスタッフをクロストレーニング、3) 休憩スケジュールを最適化します。予測される節約額: 月額 1,200 ドル。",
           "context": "労働インテリジェンス + パフォーマンスデータ"
         },
         {
@@ -1448,7 +1448,7 @@ export const generatedLocalCopy = {
           "questions": [
             "一番儲かるメニューは何ですか？",
             "どこでお金を失っているのでしょうか？",
-            "どうすれば平均チェックを増やすことができますか?",
+            "どうすれば客単価を増やすことができますか?",
             "私の損益分岐点は何ですか?"
           ]
         },
@@ -1463,38 +1463,38 @@ export const generatedLocalCopy = {
         }
       ],
       "askLabel": "尋ねてみてください:",
-      "respondsLabel": "フォージは次のように応答します。",
+      "respondsLabel": "Forge は次のように応答します。",
       "sourceLabel": "データソース:",
       "benefits": [
         {
           "benefit": "技術的なスキルは必要ありません",
-          "icon": "成功"
+          "icon": "success"
         },
         {
           "benefit": "すべてのデータから即座に答えを得る",
-          "icon": "速度"
+          "icon": "speed"
         },
         {
           "benefit": "自然な会話インターフェイス",
-          "icon": "つながり"
+          "icon": "nexus"
         },
         {
           "benefit": "実用的な推奨事項",
-          "icon": "マーケティング"
+          "icon": "marketing"
         }
       ],
-      "ctaPrimary": "Book Forge デモ",
+      "ctaPrimary": "Forge デモを予約",
       "ctaSecondary": "すべてのモジュールを表示"
     },
     "vi": {
       "heroBadge": "Forge - Thông tin tùy chỉnh",
       "heroTitle": "Mô hình tùy chỉnh. Dữ liệu của bạn. Quy tắc của bạn.",
       "heroDescription": "Forge xây dựng các mô hình tùy chỉnh được đào tạo trên dữ liệu của bạn. Dự báo, đề xuất và tự động hóa được xây dựng riêng cho cách hoạt động kinh doanh của bạn.",
-      "heroPrimary": "Hãy thử trò chuyện giả mạo",
+      "heroPrimary": "Hãy thử Forge Chat",
       "heroSecondary": "Xem kiến trúc",
       "featuresTitle": "Trí thông minh biết doanh nghiệp của bạn",
       "featuresDescription": "Các mô hình tùy chỉnh được đào tạo về mô hình, vị trí, hoạt động của bạn",
-      "buildTitle": "Lò rèn có thể xây dựng những gì",
+      "buildTitle": "Forge có thể xây dựng những gì",
       "buildDescription": "Thông tin tùy chỉnh cho những thách thức cụ thể của bạn",
       "useCasesTitle": "Các trường hợp sử dụng thông tin tùy chỉnh",
       "useCasesDescription": "Từ dự báo nhu cầu đến đề xuất tự động",
@@ -1504,22 +1504,22 @@ export const generatedLocalCopy = {
         {
           "title": "Truy vấn ngôn ngữ tự nhiên",
           "description": "Đặt câu hỏi bằng tiếng Anh đơn giản và nhận được thông tin chi tiết tức thì từ dữ liệu nhà hàng của bạn.",
-          "icon": "mối quan hệ"
+          "icon": "nexus"
         },
         {
           "title": "Hiểu biết theo ngữ cảnh",
           "description": "Hiểu thuật ngữ nhà hàng và bối cảnh kinh doanh để có phản hồi chính xác.",
-          "icon": "trí thông minh"
+          "icon": "intelligence"
         },
         {
           "title": "Tích hợp đa nguồn",
           "description": "Thu thập thông tin chi tiết từ tất cả các hệ thống được kết nối để cung cấp câu trả lời toàn diện.",
-          "icon": "hội nhập"
+          "icon": "integration"
         },
         {
           "title": "Khuyến nghị có thể hành động",
           "description": "Nhận các đề xuất cụ thể, dựa trên số liệu để cải thiện hiệu suất.",
-          "icon": "tiếp thị"
+          "icon": "marketing"
         }
       ],
       "examples": [
@@ -1530,7 +1530,7 @@ export const generatedLocalCopy = {
         },
         {
           "question": "Làm cách nào để giảm chi phí lao động mà không ảnh hưởng đến dịch vụ?",
-          "response": "Dựa trên mô hình của bạn: 1) Giảm 2 máy chủ trong thời gian từ 2-4 giờ chiều các ngày trong tuần (tiết kiệm $340/tuần), 2) Đào tạo chéo 3 nhân viên cho nhiều vai trò, 3) Tối ưu hóa lịch nghỉ giải lao. Tiết kiệm dự kiến: $1,200/tháng.",
+          "response": "Dựa trên mô hình của bạn: 1) Giảm 2 nhân viên phục vụ trong thời gian từ 2-4 giờ chiều các ngày trong tuần (tiết kiệm $340/tuần), 2) Đào tạo chéo 3 nhân viên cho nhiều vai trò, 3) Tối ưu hóa lịch nghỉ giải lao. Tiết kiệm dự kiến: $1,200/tháng.",
           "context": "Thông tin lao động + dữ liệu hiệu suất"
         },
         {
@@ -1550,11 +1550,11 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "category": "tài chính",
+          "category": "Tài chính",
           "questions": [
             "Mục menu có lợi nhất của tôi là gì?",
             "Tôi đang mất tiền ở đâu?",
-            "Làm cách nào tôi có thể tăng kiểm tra trung bình?",
+            "Làm cách nào tôi có thể tăng hóa đơn trung bình?",
             "Điểm hòa vốn của tôi là gì?"
           ]
         },
@@ -1574,29 +1574,29 @@ export const generatedLocalCopy = {
       "benefits": [
         {
           "benefit": "Không yêu cầu kỹ năng kỹ thuật",
-          "icon": "sự thành công"
+          "icon": "success"
         },
         {
           "benefit": "Câu trả lời tức thì từ tất cả dữ liệu của bạn",
-          "icon": "tốc độ"
+          "icon": "speed"
         },
         {
           "benefit": "Giao diện hội thoại tự nhiên",
-          "icon": "mối quan hệ"
+          "icon": "nexus"
         },
         {
           "benefit": "Khuyến nghị có thể hành động",
-          "icon": "tiếp thị"
+          "icon": "marketing"
         }
       ],
-      "ctaPrimary": "Bản demo rèn sách",
+      "ctaPrimary": "Đặt bản demo Forge",
       "ctaSecondary": "Xem tất cả các mô-đun"
     },
     "id": {
       "heroBadge": "Forge - Kecerdasan Khusus",
       "heroTitle": "Model Khusus. Data Anda. Aturan Anda.",
       "heroDescription": "Forge membuat model khusus yang dilatih pada data Anda. Perkiraan, rekomendasi, dan otomatisasi yang dibuat khusus untuk cara bisnis Anda beroperasi.",
-      "heroPrimary": "Coba Tempa Obrolan",
+      "heroPrimary": "Coba Forge Chat",
       "heroSecondary": "Lihat Arsitektur",
       "featuresTitle": "Kecerdasan yang Mengetahui Bisnis Anda",
       "featuresDescription": "Model khusus dilatih berdasarkan pola Anda, lokasi Anda, operasi Anda",
@@ -1610,22 +1610,22 @@ export const generatedLocalCopy = {
         {
           "title": "Pertanyaan Bahasa Alami",
           "description": "Ajukan pertanyaan dalam bahasa Inggris sederhana dan dapatkan wawasan instan dari data restoran Anda.",
-          "icon": "perhubungan"
+          "icon": "nexus"
         },
         {
           "title": "Pemahaman Kontekstual",
           "description": "Memahami terminologi restoran dan konteks bisnis untuk respons yang akurat.",
-          "icon": "intelijen"
+          "icon": "intelligence"
         },
         {
           "title": "Integrasi Multi-Sumber",
           "description": "Menarik wawasan dari semua sistem yang terhubung untuk memberikan jawaban yang komprehensif.",
-          "icon": "integrasi"
+          "icon": "integration"
         },
         {
           "title": "Rekomendasi yang Dapat Ditindaklanjuti",
           "description": "Dapatkan rekomendasi spesifik dan didukung angka untuk meningkatkan kinerja.",
-          "icon": "pemasaran"
+          "icon": "marketing"
         }
       ],
       "examples": [
@@ -1636,7 +1636,7 @@ export const generatedLocalCopy = {
         },
         {
           "question": "Bagaimana cara mengurangi biaya tenaga kerja tanpa mempengaruhi layanan?",
-          "response": "Berdasarkan pola Anda: 1) Kurangi 2 server pada pukul 14.00-16.00 pada hari kerja (menghemat $340/minggu), 2) Melatih silang 3 staf untuk berbagai peran, 3) Optimalkan jadwal istirahat. Proyeksi penghematan: $1.200/bulan.",
+          "response": "Berdasarkan pola Anda: 1) Kurangi 2 pramusaji pada pukul 14.00-16.00 pada hari kerja (menghemat $340/minggu), 2) Melatih silang 3 staf untuk berbagai peran, 3) Optimalkan jadwal istirahat. Proyeksi penghematan: $1.200/bulan.",
           "context": "Intelijen ketenagakerjaan + data kinerja"
         },
         {
@@ -1660,7 +1660,7 @@ export const generatedLocalCopy = {
           "questions": [
             "Apa item menu saya yang paling menguntungkan?",
             "Di mana saya kehilangan uang?",
-            "Bagaimana cara meningkatkan cek rata-rata?",
+            "Bagaimana cara meningkatkan rata-rata nilai transaksi?",
             "Berapa titik impas saya?"
           ]
         },
@@ -1680,22 +1680,22 @@ export const generatedLocalCopy = {
       "benefits": [
         {
           "benefit": "Tidak diperlukan keterampilan teknis",
-          "icon": "sukses"
+          "icon": "success"
         },
         {
           "benefit": "Jawaban instan dari semua data Anda",
-          "icon": "kecepatan"
+          "icon": "speed"
         },
         {
           "benefit": "Antarmuka percakapan alami",
-          "icon": "perhubungan"
+          "icon": "nexus"
         },
         {
           "benefit": "Rekomendasi yang dapat ditindaklanjuti",
-          "icon": "pemasaran"
+          "icon": "marketing"
         }
       ],
-      "ctaPrimary": "Demo Penempaan Buku",
+      "ctaPrimary": "Pesan Demo Forge",
       "ctaSecondary": "Lihat Semua Modul"
     },
     "ko": {
@@ -1716,22 +1716,22 @@ export const generatedLocalCopy = {
         {
           "title": "자연어 쿼리",
           "description": "쉬운 영어로 질문하고 레스토랑 데이터에서 즉각적인 통찰력을 얻으세요.",
-          "icon": "넥서스"
+          "icon": "nexus"
         },
         {
           "title": "상황에 따른 이해",
           "description": "정확한 응답을 위해 레스토랑 용어와 비즈니스 맥락을 이해합니다.",
-          "icon": "지능"
+          "icon": "intelligence"
         },
         {
           "title": "다중 소스 통합",
           "description": "연결된 모든 시스템에서 통찰력을 얻어 포괄적인 답변을 제공합니다.",
-          "icon": "통합"
+          "icon": "integration"
         },
         {
           "title": "실행 가능한 권장 사항",
           "description": "성과를 향상시키기 위해 구체적이고 숫자로 뒷받침되는 권장 사항을 얻으십시오.",
-          "icon": "마케팅"
+          "icon": "marketing"
         }
       ],
       "examples": [
@@ -1742,7 +1742,7 @@ export const generatedLocalCopy = {
         },
         {
           "question": "서비스에 영향을 주지 않고 어떻게 인건비를 줄일 수 있나요?",
-          "response": "패턴에 따라: 1) 주중 오후 2~4시 동안 서버 2대 줄이기(주당 $340 절약), 2) 여러 역할에 대해 3명의 직원을 교차 교육하고, 3) 휴식 일정을 최적화합니다. 예상 절감액: $1,200/월.",
+          "response": "패턴에 따라: 1) 주중 오후 2~4시 동안 서버 2명 줄이기(주당 $340 절약), 2) 여러 역할에 대해 3명의 직원을 교차 교육하고, 3) 휴식 일정을 최적화합니다. 예상 절감액: $1,200/월.",
           "context": "노동 인텔리전스 + 성과 데이터"
         },
         {
@@ -1762,11 +1762,11 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "category": "금융",
+          "category": "재무",
           "questions": [
             "가장 수익성이 높은 메뉴 항목은 무엇입니까?",
             "나는 어디에서 돈을 잃고 있습니까?",
-            "평균 수표를 늘리려면 어떻게 해야 합니까?",
+            "평균 객단가를 늘리려면 어떻게 해야 합니까?",
             "내 손익 분기점은 무엇입니까?"
           ]
         },
@@ -1786,22 +1786,22 @@ export const generatedLocalCopy = {
       "benefits": [
         {
           "benefit": "기술적인 능력이 필요하지 않습니다.",
-          "icon": "성공"
+          "icon": "success"
         },
         {
           "benefit": "모든 데이터의 즉각적인 답변",
-          "icon": "속도"
+          "icon": "speed"
         },
         {
           "benefit": "자연스러운 대화 인터페이스",
-          "icon": "넥서스"
+          "icon": "nexus"
         },
         {
           "benefit": "실행 가능한 권장 사항",
-          "icon": "마케팅"
+          "icon": "marketing"
         }
       ],
-      "ctaPrimary": "Book Forge 데모",
+      "ctaPrimary": "Forge 데모 예약",
       "ctaSecondary": "모든 모듈 보기"
     },
     "sv": {
@@ -1827,7 +1827,7 @@ export const generatedLocalCopy = {
         {
           "title": "Kontextuell förståelse",
           "description": "Förstår restaurangterminologi och affärssammanhang för korrekta svar.",
-          "icon": "intelligens"
+          "icon": "intelligence"
         },
         {
           "title": "Multi-Source Integration",
@@ -1837,7 +1837,7 @@ export const generatedLocalCopy = {
         {
           "title": "Handlingsbara rekommendationer",
           "description": "Få specifika, sifferstödda rekommendationer för att förbättra prestandan.",
-          "icon": "marknadsföring"
+          "icon": "marketing"
         }
       ],
       "examples": [
@@ -1848,7 +1848,7 @@ export const generatedLocalCopy = {
         },
         {
           "question": "Hur kan jag minska arbetskostnaderna utan att påverka servicen?",
-          "response": "Baserat på dina mönster: 1) Minska 2 servrar under 14-16:00 vardagar (spara $340/vecka), 2) Crosstrain 3 personal för flera roller, 3) Optimera pausscheman. Beräknad besparing: 1 200 USD/månad.",
+          "response": "Baserat på dina mönster: 1) Minska 2 servitörer under 14-16:00 vardagar (spara $340/vecka), 2) Korsutbilda 3 personal för flera roller, 3) Optimera pausscheman. Beräknad besparing: 1 200 USD/månad.",
           "context": "Labor intelligence + prestationsdata"
         },
         {
@@ -1872,7 +1872,7 @@ export const generatedLocalCopy = {
           "questions": [
             "Vad är mitt mest lönsamma menyalternativ?",
             "Var förlorar jag pengar?",
-            "Hur kan jag öka den genomsnittliga checken?",
+            "Hur kan jag öka den genomsnittliga notan?",
             "Vad är min brytpunkt?"
           ]
         },
@@ -1881,7 +1881,7 @@ export const generatedLocalCopy = {
           "questions": [
             "Ska jag öppna en annan plats?",
             "Vilka marknader ska jag rikta in mig på?",
-            "Vad gör min tävling?",
+            "Vad gör mina konkurrenter?",
             "När ska jag utöka öppettiderna?"
           ]
         }
@@ -1892,11 +1892,11 @@ export const generatedLocalCopy = {
       "benefits": [
         {
           "benefit": "Inga tekniska färdigheter krävs",
-          "icon": "framgång"
+          "icon": "success"
         },
         {
           "benefit": "Omedelbara svar från all din data",
-          "icon": "hastighet"
+          "icon": "speed"
         },
         {
           "benefit": "Naturligt konversationsgränssnitt",
@@ -1904,23 +1904,23 @@ export const generatedLocalCopy = {
         },
         {
           "benefit": "Handlingsbara rekommendationer",
-          "icon": "marknadsföring"
+          "icon": "marketing"
         }
       ],
       "ctaPrimary": "Boka Forge Demo",
       "ctaSecondary": "Visa alla moduler"
     },
     "bn": {
-      "heroBadge": "ফরজ - কাস্টম বুদ্ধিমত্তা",
+      "heroBadge": "Forge - কাস্টম বুদ্ধিমত্তা",
       "heroTitle": "কাস্টম মডেল। আপনার ডেটা। আপনার নিয়ম.",
       "heroDescription": "Forge আপনার ডেটাতে প্রশিক্ষিত কাস্টম মডেল তৈরি করে। আপনার ব্যবসা কীভাবে কাজ করে তার জন্য বিশেষভাবে তৈরি পূর্বাভাস, সুপারিশ এবং অটোমেশন।",
       "heroPrimary": "Forge Chat চেষ্টা করুন",
       "heroSecondary": "আর্কিটেকচার দেখুন",
       "featuresTitle": "বুদ্ধিমত্তা যে আপনার ব্যবসা জানে",
       "featuresDescription": "কাস্টম মডেল আপনার নিদর্শন, আপনার অবস্থান, আপনার অপারেশন প্রশিক্ষিত",
-      "buildTitle": "ফরজ কি তৈরি করতে পারে",
+      "buildTitle": "Forge কী তৈরি করতে পারে",
       "buildDescription": "আপনার নির্দিষ্ট চ্যালেঞ্জের জন্য কাস্টম বুদ্ধিমত্তা",
-      "useCasesTitle": "কাস্টম বুদ্ধিমত্তা ব্যবহার মামলা",
+      "useCasesTitle": "কাস্টম বুদ্ধিমত্তার ব্যবহারের ক্ষেত্র",
       "useCasesDescription": "চাহিদা পূর্বাভাস থেকে স্বয়ংক্রিয় সুপারিশ",
       "ctaTitle": "কাস্টম বুদ্ধিমত্তার জন্য প্রস্তুত?",
       "ctaDescription": "আপনি কি প্রয়োজন আমাদের বলুন. আমরা এটি ঘটতে মডেল তৈরি করব।",
@@ -1928,22 +1928,22 @@ export const generatedLocalCopy = {
         {
           "title": "প্রাকৃতিক ভাষা প্রশ্ন",
           "description": "সরল ইংরেজিতে প্রশ্ন জিজ্ঞাসা করুন এবং আপনার রেস্টুরেন্টের ডেটা থেকে তাত্ক্ষণিক অন্তর্দৃষ্টি পান।",
-          "icon": "নেক্সাস"
+          "icon": "nexus"
         },
         {
           "title": "প্রাসঙ্গিক বোঝাপড়া",
           "description": "সঠিক প্রতিক্রিয়ার জন্য রেস্টুরেন্ট পরিভাষা এবং ব্যবসার প্রসঙ্গ বোঝে।",
-          "icon": "বুদ্ধিমত্তা"
+          "icon": "intelligence"
         },
         {
           "title": "মাল্টি সোর্স ইন্টিগ্রেশন",
           "description": "ব্যাপক উত্তর প্রদানের জন্য সমস্ত সংযুক্ত সিস্টেম থেকে অন্তর্দৃষ্টি টেনে নেয়।",
-          "icon": "ইন্টিগ্রেশন"
+          "icon": "integration"
         },
         {
           "title": "অ্যাকশনেবল সুপারিশ",
           "description": "কর্মক্ষমতা উন্নত করতে নির্দিষ্ট, সংখ্যা-সমর্থিত সুপারিশ পান।",
-          "icon": "মার্কেটিং"
+          "icon": "marketing"
         }
       ],
       "examples": [
@@ -1954,7 +1954,7 @@ export const generatedLocalCopy = {
         },
         {
           "question": "সেবাকে প্রভাবিত না করে কিভাবে আমি শ্রম খরচ কমাতে পারি?",
-          "response": "আপনার প্যাটার্নের উপর ভিত্তি করে: 1) 2-4 pm সপ্তাহের দিনগুলিতে 2 সার্ভার হ্রাস করুন ($340/সপ্তাহ সঞ্চয় করে), 2) একাধিক ভূমিকার জন্য ক্রস-ট্রেন 3 কর্মী, 3) বিরতির সময়সূচী অপ্টিমাইজ করুন। প্রক্ষিপ্ত সঞ্চয়: $1,200/মাস।",
+          "response": "আপনার প্যাটার্নের উপর ভিত্তি করে: 1) সপ্তাহের দিনগুলিতে দুপুর ২টা-৪টায় ২ জন পরিচারক কমান ($340/সপ্তাহ সঞ্চয় করে), 2) একাধিক ভূমিকার জন্য ৩ জন কর্মীকে ক্রস-ট্রেন করুন, 3) বিরতির সময়সূচী অপ্টিমাইজ করুন। প্রক্ষিপ্ত সঞ্চয়: $1,200/মাস।",
           "context": "শ্রম বুদ্ধিমত্তা + কর্মক্ষমতা ডেটা"
         },
         {
@@ -1978,7 +1978,7 @@ export const generatedLocalCopy = {
           "questions": [
             "আমার সবচেয়ে লাভজনক মেনু আইটেম কি?",
             "আমি কোথায় টাকা হারাচ্ছি?",
-            "আমি কিভাবে গড় চেক বাড়াতে পারি?",
+            "আমি কিভাবে গড় বিল বাড়াতে পারি?",
             "আমার ব্রেক-ইভেন পয়েন্ট কি?"
           ]
         },
@@ -1987,44 +1987,44 @@ export const generatedLocalCopy = {
           "questions": [
             "আমি কি অন্য অবস্থান খুলতে হবে?",
             "কোন বাজার আমার লক্ষ্য করা উচিত?",
-            "আমার প্রতিযোগীতা কি করছে?",
+            "আমার প্রতিযোগীরা কি করছে?",
             "কখন আমার ঘন্টা বাড়ানো উচিত?"
           ]
         }
       ],
       "askLabel": "জিজ্ঞাসা করার চেষ্টা করুন:",
-      "respondsLabel": "Forge এর সাথে সাড়া দেয়:",
+      "respondsLabel": "Forge এভাবে উত্তর দেয়:",
       "sourceLabel": "তথ্য সূত্র:",
       "benefits": [
         {
-          "benefit": "কোন প্রযুক্তিগত দক্ষতা প্রয়োজন",
-          "icon": "সাফল্য"
+          "benefit": "কোনো প্রযুক্তিগত দক্ষতার প্রয়োজন নেই",
+          "icon": "success"
         },
         {
           "benefit": "আপনার সমস্ত ডেটা থেকে তাত্ক্ষণিক উত্তর",
-          "icon": "গতি"
+          "icon": "speed"
         },
         {
           "benefit": "প্রাকৃতিক কথোপকথন ইন্টারফেস",
-          "icon": "নেক্সাস"
+          "icon": "nexus"
         },
         {
           "benefit": "কার্যকরী সুপারিশ",
-          "icon": "মার্কেটিং"
+          "icon": "marketing"
         }
       ],
-      "ctaPrimary": "ফরজ ডেমো বুক করুন",
+      "ctaPrimary": "Forge ডেমো বুক করুন",
       "ctaSecondary": "সমস্ত মডিউল দেখুন"
     },
     "th": {
       "heroBadge": "Forge - ปัญญาแบบกำหนดเอง",
       "heroTitle": "โมเดลที่กำหนดเอง ข้อมูลของคุณ กฎของคุณ",
       "heroDescription": "Forge สร้างโมเดลแบบกำหนดเองที่ได้รับการฝึกฝนเกี่ยวกับข้อมูลของคุณ การคาดการณ์ คำแนะนำ และระบบอัตโนมัติที่สร้างขึ้นโดยเฉพาะสำหรับการดำเนินธุรกิจของคุณ",
-      "heroPrimary": "ลองฟอร์จแชท",
+      "heroPrimary": "ลอง Forge Chat",
       "heroSecondary": "ดูสถาปัตยกรรม",
-      "featuresTitle": "หน่วยสืบราชการลับที่รู้จักธุรกิจของคุณ",
+      "featuresTitle": "ระบบอัจฉริยะที่รู้จักธุรกิจของคุณ",
       "featuresDescription": "โมเดลแบบกำหนดเองที่ได้รับการฝึกเกี่ยวกับรูปแบบ สถานที่ และการดำเนินงานของคุณ",
-      "buildTitle": "สิ่งที่ฟอร์จสามารถสร้างได้",
+      "buildTitle": "สิ่งที่ Forge สามารถสร้างได้",
       "buildDescription": "ข้อมูลอัจฉริยะที่กำหนดเองสำหรับความท้าทายเฉพาะของคุณ",
       "useCasesTitle": "กรณีการใช้งานอัจฉริยะแบบกำหนดเอง",
       "useCasesDescription": "ตั้งแต่การคาดการณ์ความต้องการไปจนถึงคำแนะนำอัตโนมัติ",
@@ -2034,22 +2034,22 @@ export const generatedLocalCopy = {
         {
           "title": "แบบสอบถามภาษาธรรมชาติ",
           "description": "ถามคำถามเป็นภาษาอังกฤษธรรมดาและรับข้อมูลเชิงลึกทันทีจากข้อมูลร้านอาหารของคุณ",
-          "icon": "เชื่อมต่อ"
+          "icon": "nexus"
         },
         {
           "title": "ความเข้าใจตามบริบท",
           "description": "เข้าใจคำศัพท์เฉพาะของร้านอาหารและบริบททางธุรกิจเพื่อการตอบสนองที่แม่นยำ",
-          "icon": "สติปัญญา"
+          "icon": "intelligence"
         },
         {
           "title": "การบูรณาการหลายแหล่ง",
           "description": "ดึงข้อมูลเชิงลึกจากระบบที่เชื่อมต่อทั้งหมดเพื่อให้คำตอบที่ครอบคลุม",
-          "icon": "บูรณาการ"
+          "icon": "integration"
         },
         {
           "title": "คำแนะนำที่สามารถนำไปปฏิบัติได้",
           "description": "รับคำแนะนำเฉพาะเจาะจงที่มีตัวเลขสนับสนุนเพื่อปรับปรุงประสิทธิภาพ",
-          "icon": "การตลาด"
+          "icon": "marketing"
         }
       ],
       "examples": [
@@ -2060,7 +2060,7 @@ export const generatedLocalCopy = {
         },
         {
           "question": "ฉันจะลดต้นทุนค่าแรงโดยไม่กระทบต่อการบริการได้อย่างไร",
-          "response": "ตามรูปแบบของคุณ: 1) ลดเซิร์ฟเวอร์ 2 เครื่องในช่วง 14.00-16.00 น. ของวันธรรมดา (ประหยัด $340/สัปดาห์) 2) ฝึกอบรมพนักงาน 3 คนสำหรับหลายบทบาท 3) ปรับตารางพักให้เหมาะสม ประหยัดที่คาดการณ์ไว้: $1,200/เดือน",
+          "response": "ตามรูปแบบของคุณ: 1) ลดพนักงานเสิร์ฟ 2 คนในช่วง 14.00-16.00 น. ของวันธรรมดา (ประหยัด $340/สัปดาห์) 2) ฝึกอบรมพนักงาน 3 คนสำหรับหลายบทบาท 3) ปรับตารางพักให้เหมาะสม ประหยัดที่คาดการณ์ไว้: $1,200/เดือน",
           "context": "ข้อมูลด้านแรงงาน + ประสิทธิภาพ"
         },
         {
@@ -2084,7 +2084,7 @@ export const generatedLocalCopy = {
           "questions": [
             "รายการเมนูที่ทำกำไรได้มากที่สุดของฉันคืออะไร?",
             "ฉันเสียเงินที่ไหน?",
-            "ฉันจะเพิ่มเช็คเฉลี่ยได้อย่างไร?",
+            "ฉันจะเพิ่มยอดบิลเฉลี่ยได้อย่างไร?",
             "จุดคุ้มทุนของฉันคืออะไร?"
           ]
         },
@@ -2093,7 +2093,7 @@ export const generatedLocalCopy = {
           "questions": [
             "ฉันควรเปิดสถานที่อื่นหรือไม่?",
             "ฉันควรกำหนดเป้าหมายตลาดใด",
-            "การแข่งขันของฉันทำอะไร?",
+            "คู่แข่งของฉันทำอะไรอยู่?",
             "ฉันควรขยายเวลาทำการเมื่อใด"
           ]
         }
@@ -2104,22 +2104,22 @@ export const generatedLocalCopy = {
       "benefits": [
         {
           "benefit": "ไม่จำเป็นต้องมีทักษะด้านเทคนิค",
-          "icon": "ความสำเร็จ"
+          "icon": "success"
         },
         {
           "benefit": "คำตอบทันทีจากข้อมูลทั้งหมดของคุณ",
-          "icon": "ความเร็ว"
+          "icon": "speed"
         },
         {
           "benefit": "ส่วนต่อประสานการสนทนาที่เป็นธรรมชาติ",
-          "icon": "เชื่อมต่อ"
+          "icon": "nexus"
         },
         {
           "benefit": "คำแนะนำที่สามารถนำไปปฏิบัติได้",
-          "icon": "การตลาด"
+          "icon": "marketing"
         }
       ],
-      "ctaPrimary": "หนังสือสาธิต Forge",
+      "ctaPrimary": "จองการสาธิต Forge",
       "ctaSecondary": "ดูโมดูลทั้งหมด"
     },
     "ms": {
@@ -2140,22 +2140,22 @@ export const generatedLocalCopy = {
         {
           "title": "Pertanyaan Bahasa Semulajadi",
           "description": "Tanya soalan dalam bahasa Inggeris biasa dan dapatkan cerapan segera daripada data restoran anda.",
-          "icon": "perhubungan"
+          "icon": "nexus"
         },
         {
           "title": "Pemahaman Kontekstual",
           "description": "Memahami istilah restoran dan konteks perniagaan untuk respons yang tepat.",
-          "icon": "kecerdasan"
+          "icon": "intelligence"
         },
         {
           "title": "Integrasi Pelbagai Sumber",
           "description": "Menarik cerapan daripada semua sistem yang bersambung untuk memberikan jawapan yang komprehensif.",
-          "icon": "integrasi"
+          "icon": "integration"
         },
         {
           "title": "Syor Boleh Ditindaklanjuti",
           "description": "Dapatkan pengesyoran bersandarkan nombor khusus untuk meningkatkan prestasi.",
-          "icon": "pemasaran"
+          "icon": "marketing"
         }
       ],
       "examples": [
@@ -2177,7 +2177,7 @@ export const generatedLocalCopy = {
       ],
       "categories": [
         {
-          "category": "operasi",
+          "category": "Operasi",
           "questions": [
             "Mengapa kos buruh saya lebih tinggi minggu ini?",
             "Peralihan mana yang paling menguntungkan?",
@@ -2190,12 +2190,12 @@ export const generatedLocalCopy = {
           "questions": [
             "Apakah item menu saya yang paling menguntungkan?",
             "Di manakah saya kehilangan wang?",
-            "Bagaimanakah saya boleh meningkatkan purata cek?",
+            "Bagaimanakah saya boleh meningkatkan purata bil?",
             "Apakah titik pulang modal saya?"
           ]
         },
         {
-          "category": "strategik",
+          "category": "Strategik",
           "questions": [
             "Perlukah saya membuka lokasi lain?",
             "Pasaran mana yang harus saya sasarkan?",
@@ -2210,22 +2210,22 @@ export const generatedLocalCopy = {
       "benefits": [
         {
           "benefit": "Tiada kemahiran teknikal diperlukan",
-          "icon": "kejayaan"
+          "icon": "success"
         },
         {
           "benefit": "Jawapan segera daripada semua data anda",
-          "icon": "kelajuan"
+          "icon": "speed"
         },
         {
           "benefit": "Antara muka perbualan semula jadi",
-          "icon": "perhubungan"
+          "icon": "nexus"
         },
         {
           "benefit": "Syor yang boleh diambil tindakan",
-          "icon": "pemasaran"
+          "icon": "marketing"
         }
       ],
-      "ctaPrimary": "Demo Tempa Buku",
+      "ctaPrimary": "Tempah Demo Forge",
       "ctaSecondary": "Lihat Semua Modul"
     }
   }

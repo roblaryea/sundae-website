@@ -2176,7 +2176,7 @@ export const generatedLocalCopy = {
           "icon": "data"
         },
         {
-          "stat": "48ھ",
+          "stat": "48 گھنٹے",
           "label": "POS کنکشن سے لے کر پہلی قابل عمل پیش گوئی تک",
           "icon": "speed"
         }
@@ -2343,7 +2343,7 @@ export const generatedLocalCopy = {
             "3 سال کا تاریخی ڈیٹا - گہری درستگی",
             "150 پیشن گوئی کے سوالات/دن",
             "تجزیہ کار اور اسٹریٹجسٹ انٹیلی جنس موڈز",
-            "Native multi-POS support"
+            "مقامی ملٹی-POS سپورٹ"
           ]
         },
         {
@@ -2900,7 +2900,7 @@ export const generatedLocalCopy = {
         }
       ],
       "howEyebrow": "यह कैसे काम करता है",
-      "howTitle": "जानें. परियोजना। सही। दोहराना।",
+      "howTitle": "सीखें। पूर्वानुमान लगाएँ। सुधारें। दोहराएँ।",
       "howSteps": [
         {
           "step": "01",
@@ -2910,7 +2910,7 @@ export const generatedLocalCopy = {
         },
         {
           "step": "02",
-          "title": "आगे की परियोजनाएँ",
+          "title": "आगे का पूर्वानुमान लगाता है",
           "description": "कॉन्फिडेंस बैंड के साथ 14-90 दिनों में 17 मेट्रिक्स के लिए पूर्वानुमान उत्पन्न करता है। बाहरी संकेतों में परतें - मौसम, स्थानीय घटनाएँ, प्रतिस्पर्धी गतिविधि - और क्रॉस-मॉड्यूल निर्भरताएँ मैप करती हैं।",
           "icon": "forecasting"
         },
@@ -2922,7 +2922,7 @@ export const generatedLocalCopy = {
         }
       ],
       "componentsEyebrow": "17 उप-पृष्ठ · 32 पूर्वानुमान दृश्य",
-      "componentsTitle": "पूर्वानुमान. अनुकरण करें. संक्षिप्त। कार्यवाही करना।",
+      "componentsTitle": "पूर्वानुमान लगाएँ। अनुकरण करें। सारांश दें। कार्रवाई करें।",
       "componentsDescription": "एकीकृत पूर्वानुमान समय-सीमा से लेकर मोंटे कार्लो जोखिम विश्लेषण, पूर्वानुमान-संचालित शेड्यूलिंग और खरीदारी, और कार्यकारी ब्रीफिंग तक - प्रत्येक उपकरण जो एक ऑपरेटर को दूरंदेशी निर्णय लेने के लिए आवश्यक होता है।",
       "components": [
         {
@@ -2968,13 +2968,13 @@ export const generatedLocalCopy = {
         },
         {
           "title": "क्रॉस-मॉड्यूल निर्भरताएँ",
-          "headline": "समझें कि एक व्यक्ति आपके व्यवसाय में कैसे बदलाव लाता है",
+          "headline": "समझें कि एक बदलाव आपके व्यवसाय में कैसे फैलता है",
           "description": "राजस्व वृद्धि श्रम मांग, क्रय मात्रा, इन्वेंट्री टर्नओवर और लाभ मार्जिन को बढ़ाती है। Foresight इन व्यापक निर्भरताओं का मानचित्रण करती है और उन्हें सहसंबंध शक्ति के साथ परिमाणित करती है।",
           "capabilities": [
             "मॉड्यूल में दृश्य निर्भरता ग्राफ़",
             "कनेक्टेड मेट्रिक्स के बीच सहसंबंध शक्ति स्कोरिंग (0-1)।",
             "कैस्केड टाइमिंग: 2 दिनों में श्रम में राजस्व परिवर्तन, 5 में खरीदारी",
-            "Integrated P&L forecast",
+            "एकीकृत P&L पूर्वानुमान",
             "पूर्वानुमान-संचालित शेड्यूलिंग और खरीदारी"
           ],
           "icon": "architecture",
@@ -2996,9 +2996,9 @@ export const generatedLocalCopy = {
         {
           "title": "कार्यकारी ब्रीफिंग",
           "headline": "आपका आने वाला सप्ताह - कार्यों के साथ सारांशित",
-          "description": "हर सोमवार सुबह 6 बजे, फ़ोरसाइट एक कार्यकारी ब्रीफिंग तैयार करता है: Foresight सारांश, प्रमुख जोखिम, अवसर और प्राथमिकता वाली कार्रवाई आइटम।",
+          "description": "हर सोमवार सुबह 6 बजे, Foresight एक कार्यकारी ब्रीफिंग तैयार करता है: पूर्वानुमान सारांश, प्रमुख जोखिम, अवसर और प्राथमिकता वाली कार्रवाई आइटम।",
           "capabilities": [
-            "Sundae कोच द्वारा तैयार साप्ताहिक कथा ब्रीफिंग",
+            "Sundae Coach द्वारा तैयार साप्ताहिक कथा ब्रीफिंग",
             "प्राथमिकता वाले कार्य आइटम: महत्वपूर्ण, उच्च, मध्यम",
             "अनुमानित वित्तीय प्रभाव के साथ जोखिम/अवसर की पहचान",
             "संक्षिप्त इतिहास",
@@ -3035,8 +3035,8 @@ export const generatedLocalCopy = {
           "color": "from-rose-500 to-pink-600"
         }
       ],
-      "pricingTitle": "Add Foresight to Your Core Plan",
-      "pricingDescription": "प्रत्येक दूरदर्शिता योजना में सभी 17 उप-पृष्ठ और 32 Foresight दृश्य शामिल हैं। आपका कोर टियर निर्धारित करता है कि आप कितनी तेज़, कितनी गहराई और कितनी दौड़ सकते हैं।",
+      "pricingTitle": "अपने Core प्लान में Foresight जोड़ें",
+      "pricingDescription": "प्रत्येक Foresight योजना में सभी 17 उप-पृष्ठ और 32 पूर्वानुमान दृश्य शामिल हैं। आपका Core टियर निर्धारित करता है कि आप कितनी तेज़, कितनी गहराई और कितनी दौड़ सकते हैं।",
       "pricingTiers": [
         {
           "tier": "Core Lite",
@@ -3174,7 +3174,7 @@ export const generatedLocalCopy = {
         },
         "briefing": {
           "label": "कार्यकारी ब्रीफिंग - साप्ताहिक",
-          "coach": "Sundae कोच",
+          "coach": "Sundae Coach",
           "week": "17 मार्च का सप्ताह",
           "summary": "राजस्व $248K (पूर्व की तुलना में +6.2%) अनुमानित है। गुरुवार को 12% नकारात्मक जोखिम होता है - 2 कर्मचारियों की छुट्टियां अगले दरवाजे पर एक बिक-आउट स्थल कार्यक्रम के साथ ओवरलैप होती हैं। सप्ताहांत का दृष्टिकोण मजबूत: स्थानीय खाद्य उत्सव में +15% पैदल यातायात बढ़ने की उम्मीद है।",
           "actionItems": "कार्रवाई आइटम",
@@ -3239,7 +3239,7 @@ export const generatedLocalCopy = {
       "heroDescription": "Gelir, işçilik, gıda maliyeti, kâr gibi önemli olan her ölçüm için ileriye dönük tahminler. Zamanla sıkılaşan güven bantları, taahhütte bulunmadan önce test edebileceğiniz olası senaryolar ve size nerede hareket etmeniz gerektiğini söyleyen haftalık yönetici brifingleri.",
       "heroPrimary": "Demo Rezervasyonu Yapın",
       "heroSecondary": "Fiyatlandırma Hesaplayıcıya Bakın",
-      "problemTitle": "Your P&L Tells You What Happened. Not What's Coming.",
+      "problemTitle": "P&L'niz size ne olduğunu söyler. Ne geleceğini değil.",
       "problemDescription": "Geçen ayın rakamlarına ulaşıldığında hasar bitmiş oldu. Foresight sadece geriye bakmak değildir. Zaten sahip olduğunuz verilerle ileriye doğru projeksiyon yapar.",
       "stats": [
         {
@@ -3259,7 +3259,7 @@ export const generatedLocalCopy = {
         }
       ],
       "howEyebrow": "NASIL ÇALIŞIR",
-      "howTitle": "Öğren. Proje. Doğru. Tekrarlamak.",
+      "howTitle": "Öğren. Tahmin et. Düzelt. Tekrarla.",
       "howSteps": [
         {
           "step": "01",
@@ -3269,7 +3269,7 @@ export const generatedLocalCopy = {
         },
         {
           "step": "02",
-          "title": "İleriye Dönük Projeler",
+          "title": "İleriye Doğru Tahmin Eder",
           "description": "Güven aralıklarıyla 14-90 gün boyunca 17 metrik için tahminler oluşturur. Dış sinyallerdeki katmanlar (hava durumu, yerel olaylar, rakip faaliyetleri) ve modüller arası bağımlılıkları haritalar.",
           "icon": "forecasting"
         },
@@ -3281,7 +3281,7 @@ export const generatedLocalCopy = {
         }
       ],
       "componentsEyebrow": "17 ALT SAYFA · 32 TAHMİN GÖRSELLERİ",
-      "componentsTitle": "Tahmin. Benzetmek. Kısa bilgi. Davranmak.",
+      "componentsTitle": "Tahmin et. Simüle et. Özetle. Harekete geç.",
       "componentsDescription": "Birleşik tahmin zaman çizelgelerinden Monte Carlo risk analizine, tahmine dayalı planlama ve satın alma ve yönetici brifinglerine kadar bir operatörün ileriye dönük kararlar alması için ihtiyaç duyduğu her araç.",
       "components": [
         {
@@ -3289,7 +3289,7 @@ export const generatedLocalCopy = {
           "headline": "Gelir, İşgücü, Gıda Maliyeti - İleriye Dönük Bir Bakış",
           "description": "Tek bir zaman çizelgesinde 17 iş metriği genelinde sonraki 14, 30 veya 90 günü görün. Foresight kalıplarınızı öğrendikçe güven bantları daralır.",
           "capabilities": [
-            "22 ölçüm: gelir, teminatlar, işçilik maliyeti, yemek maliyeti, kâr, SPLH, RevPASH ve daha fazlası",
+            "22 ölçüm: gelir, misafir sayısı, işçilik maliyeti, yemek maliyeti, kâr, SPLH, RevPASH ve daha fazlası",
             "Uyarlanabilir güven katmanlarıyla 14-365 günlük ufuklar",
             "Doğruluk arttıkça güven bantları daralıyor",
             "Gerçek ve tahmin yer paylaşımı - günlük olarak güncellenir",
@@ -3301,7 +3301,7 @@ export const generatedLocalCopy = {
         {
           "title": "Olursa Senaryo Oluşturucu",
           "headline": "Kararları Vermeden Önce Test Edin",
-          "description": "Fiyatlandırma, personel, kapasite, pazarlama harcamaları gibi herhangi bir varsayımı değiştirin ve gelir, teminatlar, maliyetler ve kâr üzerindeki kademeli etkiyi görün.",
+          "description": "Fiyatlandırma, personel, kapasite, pazarlama harcamaları gibi herhangi bir varsayımı değiştirin ve gelir, misafir sayısı, maliyetler ve kâr üzerindeki kademeli etkiyi görün.",
           "capabilities": [
             "Fiyatlandırmayı, kapasiteyi, pazarlamayı, personeli ve maliyet varsayımlarını ayarlayın",
             "Gelir, işgücü, gıda maliyeti ve kâr üzerinde kademeli etki",
@@ -3394,8 +3394,8 @@ export const generatedLocalCopy = {
           "color": "from-rose-500 to-pink-600"
         }
       ],
-      "pricingTitle": "Add Foresight to Your Core Plan",
-      "pricingDescription": "Her Foresight 17 alt sayfanın tamamını ve 32 tahmin görselini içerir. Çekirdek seviyeniz ne kadar hızlı, ne kadar derin ve ne kadar koşabileceğinizi belirler.",
+      "pricingTitle": "Core planınıza Foresight ekleyin",
+      "pricingDescription": "Her Foresight 17 alt sayfanın tamamını ve 32 tahmin görselini içerir. Core seviyeniz ne kadar hızlı, ne kadar derin ve ne kadar koşabileceğinizi belirler.",
       "pricingTiers": [
         {
           "tier": "Core Lite",
@@ -3459,7 +3459,7 @@ export const generatedLocalCopy = {
           "baselineRev": "Temel Rev",
           "scenarioRev": "Senaryo Rev.",
           "scenarioText": "Senaryo: +%10 Fiyatlandırma + Hafta Sonu Promosyonu",
-          "alert": "Teminat düşüşü %17,6'lık çek artışıyla dengelendi. Net gelir +23 bin dolar.",
+          "alert": "Misafir sayısındaki düşüş, hesap tutarındaki %17,6'lık artışla dengelendi. Net gelir +23 bin dolar.",
           "headers": [
             "Metrik",
             "Temel",
@@ -3598,8 +3598,8 @@ export const generatedLocalCopy = {
       "heroDescription": "对每个重要指标（收入、劳动力、食品成本、利润）进行前瞻性预测。随着时间的推移，信心区间会收紧，您可以在做出承诺之前测试假设情景，以及每周的高管简报，告诉您该在哪里采取行动。",
       "heroPrimary": "预订演示",
       "heroSecondary": "查看定价计算器",
-      "problemTitle": "Your P&L Tells You What Happened. Not What's Coming.",
-      "problemDescription": "当上个月的数据公布时，损害已经造成。远见不只是回顾过去。它会使用您已有的相同数据进行Foresight。",
+      "problemTitle": "您的 P&L 告诉您发生了什么。而非即将发生什么。",
+      "problemDescription": "当上个月的数据公布时，损害已经造成。Foresight 不只是回顾过去。它会用您已有的相同数据向前预测。",
       "stats": [
         {
           "stat": "91%",
@@ -3607,7 +3607,7 @@ export const generatedLocalCopy = {
           "icon": "performance"
         },
         {
-          "stat": "17 号",
+          "stat": "17",
           "label": "同时预测业务指标：收入、劳动力、食品成本、利润等",
           "icon": "data"
         },
@@ -3618,7 +3618,7 @@ export const generatedLocalCopy = {
         }
       ],
       "howEyebrow": "它是如何运作的",
-      "howTitle": "学习。项目。正确的。重复。",
+      "howTitle": "学习。预测。校正。重复。",
       "howSteps": [
         {
           "step": "01",
@@ -3628,7 +3628,7 @@ export const generatedLocalCopy = {
         },
         {
           "step": "02",
-          "title": "项目进展",
+          "title": "向前预测",
           "description": "使用置信区间生成 14-90 天内 17 个指标的预测。外部信号的分层（天气、当地事件、竞争对手活动）并映射跨模块依赖关系。",
           "icon": "forecasting"
         },
@@ -3640,7 +3640,7 @@ export const generatedLocalCopy = {
         }
       ],
       "componentsEyebrow": "17 个子页面 · 32 个预测图像",
-      "componentsTitle": "预测。模拟。简短的。行为。",
+      "componentsTitle": "预测。模拟。总结。行动。",
       "componentsDescription": "从统一的预测时间表到蒙特卡罗风险分析、预测驱动的调度和采购以及执行简报--运营商做出前瞻性决策所需的每一个工具。",
       "components": [
         {
@@ -3648,7 +3648,7 @@ export const generatedLocalCopy = {
           "headline": "收入、劳动力、食品成本--一种前瞻性观点",
           "description": "在单个时间线中查看未来 14、30 或 90 天的 17 个业务指标。当 Foresight 了解你的模式时，置信区间会缩小。",
           "capabilities": [
-            "22 个指标：收入、覆盖率、劳动力成本、食品成本、利润、SPLH、RevPASH 等",
+            "22 个指标：收入、就餐人次、劳动力成本、食品成本、利润、SPLH、RevPASH 等",
             "具有自适应置信等级的 14-365 天范围",
             "随着准确性的提高，置信区间收紧",
             "实际与预测叠加 - 每日更新",
@@ -3660,7 +3660,7 @@ export const generatedLocalCopy = {
         {
           "title": "假设情景生成器",
           "headline": "在做出决定之前先测试一下",
-          "description": "改变任何假设--定价、人员配置、容量、营销支出--并查看对收入、覆盖范围、成本和利润的级联影响。",
+          "description": "改变任何假设--定价、人员配置、容量、营销支出--并查看对收入、就餐人次、成本和利润的级联影响。",
           "capabilities": [
             "调整定价、产能、营销、人员配置和成本假设",
             "对收入、劳动力、食品成本和利润的连锁影响",
@@ -3692,7 +3692,7 @@ export const generatedLocalCopy = {
             "跨模块的可视化依赖图",
             "连接指标之间的相关强度评分 (0-1)",
             "级联计时：收入在 2 天内转变为劳动力，采购在 5 天内变化",
-            "Integrated P&L forecast",
+            "集成的 P&L 预测",
             "预测驱动的调度和采购"
           ],
           "icon": "architecture",
@@ -3714,9 +3714,9 @@ export const generatedLocalCopy = {
         {
           "title": "执行简报",
           "headline": "未来一周 - 用行动总结",
-          "description": "每周一早上 6 点，Foresight 都会生成一份执行简报：Foresight摘要、主要风险、机遇和优先行动项目。",
+          "description": "每周一早上 6 点，Foresight 都会生成一份执行简报：预测摘要、主要风险、机遇和优先行动项目。",
           "capabilities": [
-            "Sundae教练制作的每周叙述简报",
+            "Sundae Coach 制作的每周叙述简报",
             "优先行动项目：关键、高、中",
             "风险/机会识别以及估计的财务影响",
             "简述历史",
@@ -3753,8 +3753,8 @@ export const generatedLocalCopy = {
           "color": "from-rose-500 to-pink-600"
         }
       ],
-      "pricingTitle": "Add Foresight to Your Core Plan",
-      "pricingDescription": "每个 Foresight 计划都包含所有 17 个子页面和 32 个Foresight视觉效果。您的核心级别决定了您可以跑的速度、深度和程度。",
+      "pricingTitle": "将 Foresight 添加到您的 Core 计划",
+      "pricingDescription": "每个 Foresight 计划都包含所有 17 个子页面和 32 个预测视觉效果。您的 Core 级别决定了您可以运行的速度、深度和程度。",
       "pricingTiers": [
         {
           "tier": "Core Lite",
@@ -3804,7 +3804,7 @@ export const generatedLocalCopy = {
       "mockups": {
         "timeline": {
           "label": "统一预测时间表 - 30 天",
-          "forecastRev": "预测修订",
+          "forecastRev": "预测收入",
           "confidence": "信心",
           "accuracy": "准确度",
           "today": "今天",
@@ -3815,15 +3815,15 @@ export const generatedLocalCopy = {
         },
         "scenario": {
           "label": "假设情景生成器",
-          "baselineRev": "基线修订版",
-          "scenarioRev": "场景修订版",
+          "baselineRev": "基线收入",
+          "scenarioRev": "场景收入",
           "scenarioText": "场景：+10% 定价 + 周末促销",
-          "alert": "保额下降被 17.6% 的支票增长所抵消。净收入+23,000 美元。",
+          "alert": "就餐人次下降被客单价 17.6% 的增长所抵消。净收入+23,000 美元。",
           "headers": [
-            "公制",
+            "指标",
             "基线",
             "场景",
-            "达美"
+            "差值"
           ]
         },
         "assumptions": {
@@ -3842,21 +3842,21 @@ export const generatedLocalCopy = {
               "活跃"
             ],
             [
-              "午餐时段：转速的 35%",
-              "历史悠久",
+              "午餐时段：收入的 35%",
+              "历史",
               "高",
               "活跃"
             ],
             [
               "人员容量：12 FOH",
               "操作员",
-              "医学",
+              "中",
               "覆盖"
             ],
             [
               "当地活动：3月22日音乐会",
               "外部",
-              "医学",
+              "中",
               "新"
             ],
             [
@@ -3892,7 +3892,7 @@ export const generatedLocalCopy = {
         },
         "briefing": {
           "label": "执行简报 - 每周",
-          "coach": "Sundae教练",
+          "coach": "Sundae Coach",
           "week": "3 月 17 日当周",
           "summary": "预计收入为 24.8 万美元（较之前增长 6.2%）。周四存在 12% 的下行风险 - 2 个员工假期与隔壁的场馆门票已售完的活动重叠。周末前景强劲：当地美食节预计将带动 15% 的人流量。",
           "actionItems": "行动项目",
@@ -3957,7 +3957,7 @@ export const generatedLocalCopy = {
       "heroDescription": "Prognozy wybiegające w przyszłość dla każdego istotnego wskaźnika - przychodów, pracy, kosztów żywności, zysku. Przedziały ufności, które z czasem się zawężają, scenariusze typu „co by było, gdyby” można przetestować przed zatwierdzeniem oraz cotygodniowe odprawy dla kadry kierowniczej, które informują, gdzie należy działać.",
       "heroPrimary": "Zarezerwuj wersję demonstracyjną",
       "heroSecondary": "Zobacz Kalkulator cen",
-      "problemTitle": "Your P&L Tells You What Happened. Not What's Coming.",
+      "problemTitle": "Twój P&L mówi Ci, co się wydarzyło. Nie to, co nadchodzi.",
       "problemDescription": "Zanim pojawią się liczby z poprzedniego miesiąca, szkody zostaną już wyrządzone. Foresight nie patrzy tylko wstecz. Projektuje do przodu - z tymi samymi danymi, które już posiadasz.",
       "stats": [
         {
@@ -3977,7 +3977,7 @@ export const generatedLocalCopy = {
         }
       ],
       "howEyebrow": "JAK TO DZIAŁA",
-      "howTitle": "Ucz się. Projekt. Prawidłowy. Powtarzać.",
+      "howTitle": "Ucz się. Prognozuj. Koryguj. Powtarzaj.",
       "howSteps": [
         {
           "step": "01",
@@ -3987,7 +3987,7 @@ export const generatedLocalCopy = {
         },
         {
           "step": "02",
-          "title": "Projekty do przodu",
+          "title": "Prognozuje do przodu",
           "description": "Generuje prognozy dla 17 wskaźników na okres 14-90 dni z przedziałami ufności. Warstwy sygnałów zewnętrznych - pogoda, wydarzenia lokalne, aktywność konkurencji - i mapują zależności między modułami.",
           "icon": "forecasting"
         },
@@ -3999,7 +3999,7 @@ export const generatedLocalCopy = {
         }
       ],
       "componentsEyebrow": "17 PODSTRON · 32 WIZUALNE PROGNOZY",
-      "componentsTitle": "Prognoza. Symulować. Krótki. Działać.",
+      "componentsTitle": "Prognozuj. Symuluj. Podsumuj. Działaj.",
       "componentsDescription": "Od ujednoliconych harmonogramów prognoz po analizę ryzyka Monte Carlo, planowanie i zakupy oparte na prognozach oraz odprawy dla kadry kierowniczej - każde narzędzie potrzebne operatorowi do podejmowania przyszłościowych decyzji.",
       "components": [
         {
@@ -4007,7 +4007,7 @@ export const generatedLocalCopy = {
           "headline": "Przychody, praca, koszty żywności - spojrzenie w przyszłość",
           "description": "Zobacz następne 14, 30 lub 90 dni w oparciu o 17 wskaźników biznesowych na jednej osi czasu. Przedziały ufności kurczą się, gdy Foresight uczy się Twoich wzorców.",
           "capabilities": [
-            "22 wskaźniki: przychody, pokrycie, koszty pracy, koszty żywności, zysk, SPLH, RevPASH i inne",
+            "22 wskaźniki: przychody, liczba gości, koszty pracy, koszty żywności, zysk, SPLH, RevPASH i inne",
             "Horyzonty 14-365 dni z adaptacyjnymi poziomami ufności",
             "Pasma ufności zacieśniają się wraz ze wzrostem dokładności",
             "Nakładka stanu faktycznego i prognozy - aktualizowana codziennie",
@@ -4019,7 +4019,7 @@ export const generatedLocalCopy = {
         {
           "title": "Kreator scenariuszy „co by było, gdyby”.",
           "headline": "Testuj decyzje, zanim je podejmiesz",
-          "description": "Zmień dowolne założenia - ceny, personel, wydajność, wydatki marketingowe - i zobacz kaskadowy wpływ na przychody, pokrycie, koszty i zysk.",
+          "description": "Zmień dowolne założenia - ceny, personel, wydajność, wydatki marketingowe - i zobacz kaskadowy wpływ na przychody, liczbę gości, koszty i zysk.",
           "capabilities": [
             "Dostosuj założenia dotyczące cen, wydajności, marketingu, personelu i kosztów",
             "Kaskadowy wpływ na przychody, siłę roboczą, koszty żywności i zysk",
@@ -4051,7 +4051,7 @@ export const generatedLocalCopy = {
             "Wykres zależności wizualnych pomiędzy modułami",
             "Punktacja siły korelacji (0-1) pomiędzy połączonymi metrykami",
             "Czas kaskadowy: zmiana przychodów na robociznę w ciągu 2 dni, zakupy w ciągu 5",
-            "Integrated P&L forecast",
+            "Zintegrowana prognoza P&L",
             "Planowanie i zakupy oparte na prognozach"
           ],
           "icon": "architecture",
@@ -4073,7 +4073,7 @@ export const generatedLocalCopy = {
         {
           "title": "Odprawa wykonawcza",
           "headline": "Twój nadchodzący tydzień - podsumowanie działań",
-          "description": "W każdy poniedziałek o 6 rano Foresight generuje odprawę dla kadry kierowniczej: podsumowanie Foresight, kluczowe ryzyka, możliwości i priorytetowe elementy działań.",
+          "description": "W każdy poniedziałek o 6 rano Foresight generuje odprawę dla kadry kierowniczej: podsumowanie prognozy, kluczowe ryzyka, możliwości i priorytetowe elementy działań.",
           "capabilities": [
             "Cotygodniowa odprawa narracyjna generowana przez Sundae Coach",
             "Priorytetowe elementy akcji: krytyczne, wysokie, średnie",
@@ -4086,7 +4086,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Integracja sygnału zewnętrznego",
-          "headline": "Pogoda, wydarzenia, zawodnicy, święta - ilościowo",
+          "headline": "Pogoda, wydarzenia, konkurenci, święta - ilościowo",
           "description": "Foresight wykorzystuje sygnały zewnętrzne i szacuje ich wpływ na przychody za pomocą wskaźników pewności.",
           "capabilities": [
             "Modele wpływu pogody z dokładnością godzinową",
@@ -4112,8 +4112,8 @@ export const generatedLocalCopy = {
           "color": "from-rose-500 to-pink-600"
         }
       ],
-      "pricingTitle": "Add Foresight to Your Core Plan",
-      "pricingDescription": "Każdy plan Foresight zawiera wszystkie 17 podstron i 32 wizualizacje Foresight. Twój poziom podstawowy określa, jak szybko, jak głęboko i ile możesz przebiec.",
+      "pricingTitle": "Dodaj Foresight do swojego planu Core",
+      "pricingDescription": "Każdy plan Foresight zawiera wszystkie 17 podstron i 32 wizualizacje prognoz. Twój poziom Core określa, jak szybko, jak głęboko i ile możesz przetworzyć.",
       "pricingTiers": [
         {
           "tier": "Core Lite",
@@ -4138,7 +4138,7 @@ export const generatedLocalCopy = {
             "Dane historyczne z 3 lat - większa dokładność",
             "150 zapytań o prognozę dziennie",
             "Tryby inteligencji analityka i stratega",
-            "Native multi-POS support"
+            "Natywna obsługa wielu POS"
           ]
         },
         {
@@ -4163,7 +4163,7 @@ export const generatedLocalCopy = {
       "mockups": {
         "timeline": {
           "label": "Ujednolicony harmonogram prognozy - 30 dni",
-          "forecastRev": "Prognoza ks",
+          "forecastRev": "Prognoza przychodów",
           "confidence": "Zaufanie",
           "accuracy": "Dokładność",
           "today": "Dzisiaj",
@@ -4174,12 +4174,12 @@ export const generatedLocalCopy = {
         },
         "scenario": {
           "label": "Kreator scenariuszy „co by było, gdyby”.",
-          "baselineRev": "Wersja podstawowa ks",
-          "scenarioRev": "Scenariusz ks",
+          "baselineRev": "Przychód bazowy",
+          "scenarioRev": "Przychód scenariusza",
           "scenarioText": "Scenariusz: +10% ceny + promocja weekendowa",
-          "alert": "Spadek pokrycia skompensowany wzrostem czeków o 17,6%. Przychody netto +23 tys. dolarów.",
+          "alert": "Spadek liczby gości skompensowany wzrostem rachunku o 17,6%. Przychody netto +23 tys. dolarów.",
           "headers": [
-            "Metryczne",
+            "Wskaźnik",
             "Linia bazowa",
             "Scenariusz",
             "Delta"
@@ -4244,14 +4244,14 @@ export const generatedLocalCopy = {
         },
         "accuracy": {
           "label": "Autokorekta dokładności prognozy",
-          "rollingMape": "Tocząca się MAPA",
+          "rollingMape": "Krocząca MAPE",
           "bias": "Stronniczość",
           "corrections": "Poprawki",
           "trend": "Kroczący 12-tygodniowy trend dokładności - cotygodniowa samokorekta"
         },
         "briefing": {
           "label": "Odprawa wykonawcza - cotygodniowa",
-          "coach": "Trener Sundae",
+          "coach": "Sundae Coach",
           "week": "Tydzień 17 marca",
           "summary": "Prognozowane przychody na poziomie 248 tys. USD (+6,2% w porównaniu z poprzednimi). Czwartek wiąże się z 12% ryzykiem poniesienia straty - 2 urlopy pracowników pokrywają się z wyprzedanym wydarzeniem w sąsiednim lokalu. Perspektywy na weekend dobre: oczekuje się, że lokalny festiwal żywności zwiększy ruch pieszy o 15%.",
           "actionItems": "Przedmioty akcji",
@@ -4316,8 +4316,8 @@ export const generatedLocalCopy = {
       "heroDescription": "収益、労働力、食費、利益など、重要なあらゆる指標についての将来予測。時間の経過とともに強まる信頼帯、コミットする前にテストできる仮定のシナリオ、どこで行動すべきかを指示する毎週の幹部ブリーフィング。",
       "heroPrimary": "デモを予約する",
       "heroSecondary": "価格計算ツールを参照",
-      "problemTitle": "Your P&L Tells You What Happened. Not What's Coming.",
-      "problemDescription": "先月の数字が到着するまでに、ダメージは完了しています。Foresightの明は単に後ろを振り返るだけではありません。すでに持っているものと同じデータを使用して、前向きに投影します。",
+      "problemTitle": "あなたの P&L は何が起きたかを教えてくれます。これから何が来るかではなく。",
+      "problemDescription": "先月の数字が到着するまでに、ダメージは完了しています。Foresight は単に後ろを振り返るだけではありません。すでに持っているものと同じデータを使用して、前向きに投影します。",
       "stats": [
         {
           "stat": "91%",
@@ -4336,7 +4336,7 @@ export const generatedLocalCopy = {
         }
       ],
       "howEyebrow": "仕組み",
-      "howTitle": "学びましょう。プロジェクト。正しい。繰り返す。",
+      "howTitle": "学習する。予測する。修正する。反復する。",
       "howSteps": [
         {
           "step": "01",
@@ -4346,7 +4346,7 @@ export const generatedLocalCopy = {
         },
         {
           "step": "02",
-          "title": "プロジェクトの前進",
+          "title": "先を予測する",
           "description": "信頼帯を使用して 14 ～ 90 日間にわたる 17 の指標の予測を生成します。外部信号 (天気、地域のイベント、競合他社の活動) をレイヤー化し、モジュール間の依存関係をマップします。",
           "icon": "forecasting"
         },
@@ -4358,7 +4358,7 @@ export const generatedLocalCopy = {
         }
       ],
       "componentsEyebrow": "17 サブページ · 32 予測ビジュアル",
-      "componentsTitle": "予報。シミュレートします。簡単な。活動。",
+      "componentsTitle": "予測する。シミュレートする。要約する。実行する。",
       "componentsDescription": "統合された予測タイムラインからモンテカルロリスク分析、予測に基づくスケジューリングと購入、役員説明会まで、オペレーターが将来を見据えた意思決定を行うために必要なすべてのツール。",
       "components": [
         {
@@ -4410,7 +4410,7 @@ export const generatedLocalCopy = {
             "モジュール間の視覚的な依存関係グラフ",
             "接続されたメトリクス間の相関強度スコアリング (0 ～ 1)",
             "カスケードのタイミング: 収益は 2 日で労働力に変化し、5 日で購入されます",
-            "Integrated P&L forecast",
+            "統合された P&L 予測",
             "予測に基づいたスケジューリングと購入"
           ],
           "icon": "architecture",
@@ -4434,7 +4434,7 @@ export const generatedLocalCopy = {
           "headline": "一週間の予定 - アクションをまとめたもの",
           "description": "毎週月曜日の午前 6 時に、Foresight は、予測の概要、主要なリスク、機会、優先順位の高いアクション項目などのエグゼクティブブリーフィングを作成します。",
           "capabilities": [
-            "Sundaeコーチが生成する毎週のナラティブブリーフィング",
+            "Sundae Coach が生成する毎週のナラティブブリーフィング",
             "優先順位付けされたアクション項目: クリティカル、高、中",
             "推定される財務上の影響を伴うリスク/機会の特定",
             "説明会の歴史",
@@ -4471,8 +4471,8 @@ export const generatedLocalCopy = {
           "color": "from-rose-500 to-pink-600"
         }
       ],
-      "pricingTitle": "コアプランにForesight性を追加する",
-      "pricingDescription": "すべての Foresight プランには、17 のサブページすべてと 32 の予測ビジュアルが含まれています。コア層によって、どれくらいの速さ、どれくらいの深さ、どれだけの量を実行できるかが決まります。",
+      "pricingTitle": "Core プランに Foresight を追加する",
+      "pricingDescription": "すべての Foresight プランには、17 のサブページすべてと 32 の予測ビジュアルが含まれています。Core 層によって、どれくらいの速さ、どれくらいの深さ、どれだけの量を実行できるかが決まります。",
       "pricingTiers": [
         {
           "tier": "Core Lite",
@@ -4522,7 +4522,7 @@ export const generatedLocalCopy = {
       "mockups": {
         "timeline": {
           "label": "統合予測タイムライン - 30 日",
-          "forecastRev": "予測改訂",
+          "forecastRev": "予測収益",
           "confidence": "自信",
           "accuracy": "精度",
           "today": "今日",
@@ -4533,10 +4533,10 @@ export const generatedLocalCopy = {
         },
         "scenario": {
           "label": "What-If シナリオ ビルダー",
-          "baselineRev": "ベースラインリビジョン",
-          "scenarioRev": "シナリオ改訂",
+          "baselineRev": "ベースライン収益",
+          "scenarioRev": "シナリオ収益",
           "scenarioText": "シナリオ: +10% 価格 + 週末プロモーション",
-          "alert": "カバーの減少は 17.6% の小切手の増加によって相殺されました。純収益 +23,000 ドル。",
+          "alert": "カバー数の減少は客単価の 17.6% 増加によって相殺されました。純収益 +23,000 ドル。",
           "headers": [
             "メトリック",
             "ベースライン",
@@ -4560,21 +4560,21 @@ export const generatedLocalCopy = {
               "アクティブ"
             ],
             [
-              "ランチタイム: 回転数の 35%",
-              "歴史的な",
+              "ランチタイム: 収益の 35%",
+              "履歴",
               "高",
               "アクティブ"
             ],
             [
               "スタッフ定員：FOH 12名",
               "オペレーター",
-              "メッド",
+              "中",
               "オーバーライド"
             ],
             [
               "地元イベント：3月22日コンサート",
               "外部",
-              "メッド",
+              "中",
               "新しい"
             ],
             [
@@ -4610,7 +4610,7 @@ export const generatedLocalCopy = {
         },
         "briefing": {
           "label": "エグゼクティブブリーフィング - 毎週",
-          "coach": "Sundaeコーチ",
+          "coach": "Sundae Coach",
           "week": "3月17日の週",
           "summary": "収益は 248,000 ドルと予想されます (前回比 6.2% 増)。木曜日には 12% の下値リスクがあります。スタッフ 2 人の休暇が、隣の満員御礼の会場イベントと重なっています。週末の見通しは堅調です。地元のフード フェスティバルにより、客足は 15% 増加すると予想されます。",
           "actionItems": "アクションアイテム",
@@ -4695,7 +4695,7 @@ export const generatedLocalCopy = {
         }
       ],
       "howEyebrow": "CÁCH HOẠT ĐỘNG",
-      "howTitle": "Tìm hiểu. Dự án. Chính xác. Lặp lại.",
+      "howTitle": "Tìm hiểu. Dự báo. Hiệu chỉnh. Lặp lại.",
       "howSteps": [
         {
           "step": "01",
@@ -4705,7 +4705,7 @@ export const generatedLocalCopy = {
         },
         {
           "step": "02",
-          "title": "Dự án chuyển tiếp",
+          "title": "Dự báo về phía trước",
           "description": "Tạo dự báo cho 17 số liệu trong vòng 14-90 ngày với các khoảng tin cậy. Các lớp tín hiệu bên ngoài - thời tiết, sự kiện địa phương, hoạt động của đối thủ cạnh tranh - và ánh xạ các phần phụ thuộc giữa các mô-đun.",
           "icon": "forecasting"
         },
@@ -4717,7 +4717,7 @@ export const generatedLocalCopy = {
         }
       ],
       "componentsEyebrow": "17 TRANG CON · 32 HÌNH ẢNH DỰ BÁO",
-      "componentsTitle": "Dự báo. Mô phỏng. Ngắn gọn. Hành động.",
+      "componentsTitle": "Dự báo. Mô phỏng. Tóm tắt. Hành động.",
       "componentsDescription": "Từ các mốc thời gian dự báo thống nhất đến phân tích rủi ro Monte Carlo, lập kế hoạch và mua hàng theo dự báo cũng như các cuộc họp giao ban điều hành - mọi công cụ mà nhà điều hành cần để đưa ra các quyết định hướng tới tương lai.",
       "components": [
         {
@@ -4725,7 +4725,7 @@ export const generatedLocalCopy = {
           "headline": "Doanh thu, lao động, chi phí thực phẩm - Một tầm nhìn hướng tới tương lai",
           "description": "Xem 14, 30 hoặc 90 ngày tiếp theo trên 17 chỉ số kinh doanh trong một dòng thời gian. Dải tin cậy co lại khi Foresight tìm hiểu các khuôn mẫu của bạn.",
           "capabilities": [
-            "22 số liệu: doanh thu, chi phí nhân công, chi phí thực phẩm, lợi nhuận, SPLH, RevPASH, v.v.",
+            "22 số liệu: doanh thu, số khách, chi phí nhân công, chi phí thực phẩm, lợi nhuận, SPLH, RevPASH, v.v.",
             "Tầm nhìn 14-365 ngày với các mức độ tin cậy thích ứng",
             "Dải tin cậy thắt chặt khi độ chính xác được cải thiện",
             "Lớp phủ thực tế và dự báo - được cập nhật hàng ngày",
@@ -4737,7 +4737,7 @@ export const generatedLocalCopy = {
         {
           "title": "Trình tạo kịch bản What-If",
           "headline": "Kiểm tra các quyết định trước khi bạn đưa ra chúng",
-          "description": "Thay đổi bất kỳ giả định nào - giá cả, nhân sự, năng lực, chi tiêu tiếp thị - và xem tác động theo tầng đối với doanh thu, chi phí, chi phí và lợi nhuận.",
+          "description": "Thay đổi bất kỳ giả định nào - giá cả, nhân sự, năng lực, chi tiêu tiếp thị - và xem tác động theo tầng đối với doanh thu, số khách, chi phí và lợi nhuận.",
           "capabilities": [
             "Điều chỉnh các giả định về giá cả, năng lực, tiếp thị, nhân sự và chi phí",
             "Tác động theo tầng đến doanh thu, lao động, chi phí thực phẩm và lợi nhuận",
@@ -4763,7 +4763,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Phụ thuộc nhiều mô-đun",
-          "headline": "Hiểu cách một gợn sóng thay đổi trong doanh nghiệp của bạn",
+          "headline": "Hiểu cách một thay đổi lan tỏa trong doanh nghiệp của bạn",
           "description": "Doanh thu tăng sẽ thúc đẩy nhu cầu lao động, khối lượng mua hàng, vòng quay hàng tồn kho và tỷ suất lợi nhuận. Foresight lập bản đồ các mối phụ thuộc theo tầng này và định lượng chúng bằng cường độ tương quan.",
           "capabilities": [
             "Biểu đồ phụ thuộc trực quan trên các mô-đun",
@@ -4780,7 +4780,7 @@ export const generatedLocalCopy = {
           "headline": "Dự báo trở nên thông minh hơn mỗi tuần",
           "description": "Foresight đo lường độ chính xác của chính nó và phát hiện sai lệch hệ thống. Khi phát hiện sai lệch, mô hình sẽ tự điều chỉnh.",
           "capabilities": [
-            "Cán MAPE và RMSE được theo dõi trên mỗi số liệu",
+            "MAPE và RMSE luân phiên được theo dõi trên mỗi số liệu",
             "Phát hiện sai lệch: hướng, cường độ và nguyên nhân gốc rễ",
             "Tự động tự điều chỉnh khi phát hiện sai lệch hệ thống",
             "Nhật ký chỉnh sửa với so sánh độ chính xác trước/sau"
@@ -4791,7 +4791,7 @@ export const generatedLocalCopy = {
         {
           "title": "Tóm tắt điều hành",
           "headline": "Tuần tới của bạn - Tóm tắt bằng hành động",
-          "description": "Vào lúc 6 giờ sáng Thứ Hai hàng tuần, Foresight tạo bản tóm tắt dành cho cấp điều hành: tóm tắt Foresight, những rủi ro chính, cơ hội và các mục hành động ưu tiên.",
+          "description": "Vào lúc 6 giờ sáng Thứ Hai hàng tuần, Foresight tạo bản tóm tắt dành cho cấp điều hành: tóm tắt dự báo, những rủi ro chính, cơ hội và các mục hành động ưu tiên.",
           "capabilities": [
             "Tóm tắt tường thuật hàng tuần do Sundae Coach tạo ra",
             "Các mục hành động ưu tiên: quan trọng, cao, trung bình",
@@ -4830,8 +4830,8 @@ export const generatedLocalCopy = {
           "color": "from-rose-500 to-pink-600"
         }
       ],
-      "pricingTitle": "Add Foresight to Your Core Plan",
-      "pricingDescription": "Mọi gói Foresight đều bao gồm tất cả 17 trang phụ và 32 hình ảnh Foresight. Cấp cốt lõi của bạn xác định tốc độ, độ sâu và mức độ bạn có thể chạy.",
+      "pricingTitle": "Thêm Foresight vào gói Core của bạn",
+      "pricingDescription": "Mọi gói Foresight đều bao gồm tất cả 17 trang phụ và 32 hình ảnh dự báo. Cấp Core của bạn xác định tốc độ, độ sâu và mức độ bạn có thể chạy.",
       "pricingTiers": [
         {
           "tier": "Core Lite",
@@ -4881,7 +4881,7 @@ export const generatedLocalCopy = {
       "mockups": {
         "timeline": {
           "label": "Dòng thời gian dự báo thống nhất - 30 ngày",
-          "forecastRev": "Dự báo Rev",
+          "forecastRev": "Dự báo doanh thu",
           "confidence": "sự tự tin",
           "accuracy": "Độ chính xác",
           "today": "hôm nay",
@@ -4892,15 +4892,15 @@ export const generatedLocalCopy = {
         },
         "scenario": {
           "label": "Trình tạo kịch bản What-If",
-          "baselineRev": "Mức tăng cơ bản",
-          "scenarioRev": "Kịch bản Rev",
+          "baselineRev": "Doanh thu cơ bản",
+          "scenarioRev": "Doanh thu kịch bản",
           "scenarioText": "Kịch bản: +10% giá + Khuyến mãi cuối tuần",
-          "alert": "Bìa suy giảm bù đắp bằng kiểm tra tăng 17,6%. Doanh thu ròng +$23K.",
+          "alert": "Số khách giảm được bù đắp bằng hóa đơn trung bình tăng 17,6%. Doanh thu ròng +$23K.",
           "headers": [
             "Số liệu",
             "Đường cơ sở",
             "Kịch bản",
-            "Đồng bằng"
+            "Chênh lệch"
           ]
         },
         "assumptions": {
@@ -4926,14 +4926,14 @@ export const generatedLocalCopy = {
             ],
             [
               "Năng lực nhân viên: 12 FOH",
-              "Toán tử",
-              "Địa Trung Hải",
+              "Người vận hành",
+              "Trung bình",
               "ghi đè"
             ],
             [
               "Sự kiện địa phương: Buổi hòa nhạc ngày 22 tháng 3",
               "Bên ngoài",
-              "Địa Trung Hải",
+              "Trung bình",
               "Mới"
             ],
             [
@@ -4945,7 +4945,7 @@ export const generatedLocalCopy = {
           ],
           "badges": [
             "4 Tự động phát hiện",
-            "1 Ghi đè toán tử",
+            "1 Ghi đè người vận hành",
             "1 Tín hiệu bên ngoài"
           ]
         },
@@ -4962,14 +4962,14 @@ export const generatedLocalCopy = {
         },
         "accuracy": {
           "label": "Dự báo chính xác Tự điều chỉnh",
-          "rollingMape": "MAPE lăn",
+          "rollingMape": "MAPE luân phiên",
           "bias": "thiên vị",
           "corrections": "Sửa chữa",
           "trend": "Xu hướng chính xác trong 12 tuần - tự điều chỉnh hàng tuần"
         },
         "briefing": {
           "label": "Tóm tắt điều hành - Hàng tuần",
-          "coach": "Huấn luyện viên Sundae",
+          "coach": "Sundae Coach",
           "week": "Tuần 17 tháng 3",
           "summary": "Doanh thu dự kiến là $248K (+6,2% so với trước đó). Thứ Năm có rủi ro giảm giá 12% - 2 kỳ nghỉ của nhân viên trùng với một sự kiện đã bán hết vé ở địa điểm bên cạnh. Triển vọng cuối tuần mạnh mẽ: lễ hội ẩm thực địa phương dự kiến sẽ thúc đẩy lưu lượng khách đến cửa hàng +15%.",
           "actionItems": "Mục hành động",
@@ -5054,7 +5054,7 @@ export const generatedLocalCopy = {
         }
       ],
       "howEyebrow": "BAGAIMANA CARA KERJANYA",
-      "howTitle": "Belajar. Proyek. Benar. Mengulang.",
+      "howTitle": "Belajar. Memprediksi. Mengoreksi. Mengulang.",
       "howSteps": [
         {
           "step": "01",
@@ -5064,7 +5064,7 @@ export const generatedLocalCopy = {
         },
         {
           "step": "02",
-          "title": "Proyek Maju",
+          "title": "Memproyeksikan ke Depan",
           "description": "Menghasilkan perkiraan untuk 17 metrik dalam 14-90 hari dengan rentang keyakinan. Lapisan dalam sinyal eksternal - cuaca, peristiwa lokal, aktivitas pesaing - dan memetakan ketergantungan lintas modul.",
           "icon": "forecasting"
         },
@@ -5076,7 +5076,7 @@ export const generatedLocalCopy = {
         }
       ],
       "componentsEyebrow": "17 SUB HALAMAN · 32 VISUAL PERAMALAN",
-      "componentsTitle": "Ramalan cuaca. Simulasikan. Singkat. Bertindak.",
+      "componentsTitle": "Ramalkan. Simulasikan. Rangkum. Bertindak.",
       "componentsDescription": "Mulai dari jadwal perkiraan terpadu hingga analisis risiko Monte Carlo, penjadwalan dan pembelian berdasarkan perkiraan, serta pengarahan eksekutif - setiap alat yang dibutuhkan operator untuk membuat keputusan berwawasan ke depan.",
       "components": [
         {
@@ -5084,7 +5084,7 @@ export const generatedLocalCopy = {
           "headline": "Pendapatan, Tenaga Kerja, Biaya Makanan - Satu Pandangan ke Depan",
           "description": "Lihat 14, 30, atau 90 hari ke depan di 17 metrik bisnis dalam satu linimasa. Pita kepercayaan diri menyusut saat Foresight mempelajari pola Anda.",
           "capabilities": [
-            "22 metrik: pendapatan, perlindungan, biaya tenaga kerja, biaya makanan, keuntungan, SPLH, RevPASH, dan banyak lagi",
+            "22 metrik: pendapatan, jumlah tamu, biaya tenaga kerja, biaya makanan, keuntungan, SPLH, RevPASH, dan banyak lagi",
             "Jangka waktu 14-365 hari dengan tingkat keyakinan adaptif",
             "Pita kepercayaan diri yang mengencang seiring dengan peningkatan akurasi",
             "Hamparan aktual vs perkiraan - diperbarui setiap hari",
@@ -5096,7 +5096,7 @@ export const generatedLocalCopy = {
         {
           "title": "Pembuat Skenario Bagaimana-Jika",
           "headline": "Uji Keputusan Sebelum Anda Membuatnya",
-          "description": "Ubah asumsi apa pun - penetapan harga, staf, kapasitas, belanja pemasaran - dan lihat dampaknya terhadap pendapatan, perlindungan, biaya, dan keuntungan.",
+          "description": "Ubah asumsi apa pun - penetapan harga, staf, kapasitas, belanja pemasaran - dan lihat dampaknya terhadap pendapatan, jumlah tamu, biaya, dan keuntungan.",
           "capabilities": [
             "Sesuaikan asumsi harga, kapasitas, pemasaran, staf, dan biaya",
             "Dampak yang berjenjang pada pendapatan, tenaga kerja, biaya makanan, dan keuntungan",
@@ -5123,12 +5123,12 @@ export const generatedLocalCopy = {
         {
           "title": "Ketergantungan Lintas Modul",
           "headline": "Pahami Bagaimana Perubahan Terjadi di Bisnis Anda",
-          "description": "Peningkatan pendapatan mendorong permintaan tenaga kerja, volume pembelian, perputaran inventaris, dan margin keuntungan. Tinjauan ke masa depan memetakan ketergantungan yang mengalir ini dan mengukurnya dengan kekuatan korelasi. (Foresight)",
+          "description": "Peningkatan pendapatan mendorong permintaan tenaga kerja, volume pembelian, perputaran inventaris, dan margin keuntungan. Foresight memetakan ketergantungan yang mengalir ini dan mengukurnya dengan kekuatan korelasi.",
           "capabilities": [
             "Grafik ketergantungan visual antar modul",
             "Penilaian kekuatan korelasi (0-1) antara metrik yang terhubung",
             "Waktu berjenjang: perubahan pendapatan menjadi tenaga kerja dalam 2 hari, pembelian dalam 5 hari",
-            "Integrated P&L forecast",
+            "Perkiraan P&L terintegrasi",
             "Penjadwalan dan pembelian berdasarkan perkiraan"
           ],
           "icon": "architecture",
@@ -5137,7 +5137,7 @@ export const generatedLocalCopy = {
         {
           "title": "Koreksi Diri Akurasi",
           "headline": "Prakiraan Yang Semakin Cerdas Setiap Minggunya",
-          "description": "Tinjauan ke masa depan mengukur keakuratannya sendiri dan mendeteksi bias sistematis. Ketika bias ditemukan, model akan mengoreksi dirinya sendiri. (Foresight)",
+          "description": "Foresight mengukur keakuratannya sendiri dan mendeteksi bias sistematis. Ketika bias ditemukan, model akan mengoreksi dirinya sendiri.",
           "capabilities": [
             "Rolling MAPE dan RMSE dilacak per metrik",
             "Deteksi bias: arah, besaran, dan akar permasalahan",
@@ -5189,8 +5189,8 @@ export const generatedLocalCopy = {
           "color": "from-rose-500 to-pink-600"
         }
       ],
-      "pricingTitle": "Add Foresight to Your Core Plan",
-      "pricingDescription": "Setiap rencana Foresight mencakup 17 sub-halaman dan 32 visual perkiraan. Tingkat Inti Anda menentukan seberapa cepat, seberapa dalam, dan seberapa banyak Anda dapat berlari.",
+      "pricingTitle": "Tambahkan Foresight ke paket Core Anda",
+      "pricingDescription": "Setiap rencana Foresight mencakup 17 sub-halaman dan 32 visual perkiraan. Tingkat Core Anda menentukan seberapa cepat, seberapa dalam, dan seberapa banyak yang dapat Anda jalankan.",
       "pricingTiers": [
         {
           "tier": "Core Lite",
@@ -5220,8 +5220,8 @@ export const generatedLocalCopy = {
         },
         {
           "tier": "Enterprise",
-          "base": "Adat",
-          "perLocation": "Adat",
+          "base": "Khusus",
+          "perLocation": "Khusus",
           "description": "Dukungan khusus, SLA, opsi label putih, dan integrasi khusus.",
           "enhancements": [
             "Interval penyegaran data khusus",
@@ -5240,21 +5240,21 @@ export const generatedLocalCopy = {
       "mockups": {
         "timeline": {
           "label": "Garis Waktu Prakiraan Terpadu - 30 Hari",
-          "forecastRev": "Ramalan Pdt",
+          "forecastRev": "Ramalan Pendapatan",
           "confidence": "Keyakinan",
           "accuracy": "Akurasi",
           "today": "Hari ini",
           "actual": "Sebenarnya",
-          "forecast": "Ramalan cuaca",
+          "forecast": "Ramalan",
           "band": "90% Pita",
           "alert": "Kesalahan perkiraan di bawah 4%. Pita kepercayaan semakin ketat seiring dengan bertambahnya data."
         },
         "scenario": {
           "label": "Pembuat Skenario Bagaimana-Jika",
-          "baselineRev": "Pendeta Dasar",
-          "scenarioRev": "Skenario Pdt",
+          "baselineRev": "Pendapatan Dasar",
+          "scenarioRev": "Pendapatan Skenario",
           "scenarioText": "Skenario: Harga +10% + Promo Akhir Pekan",
-          "alert": "Penurunan pertanggungan diimbangi dengan kenaikan cek sebesar 17,6%. Pendapatan bersih +$23K.",
+          "alert": "Penurunan jumlah tamu diimbangi dengan kenaikan tagihan rata-rata sebesar 17,6%. Pendapatan bersih +$23K.",
           "headers": [
             "Metrik",
             "Dasar",
@@ -5278,21 +5278,21 @@ export const generatedLocalCopy = {
               "Aktif"
             ],
             [
-              "Bagian makan siang: 35% dari rev",
-              "Bersejarah",
+              "Bagian makan siang: 35% dari pendapatan",
+              "Historis",
               "Tinggi",
               "Aktif"
             ],
             [
               "Kapasitas staf: 12 FOH",
               "Operator",
-              "medis",
+              "Sedang",
               "Timpa"
             ],
             [
               "Acara lokal: Konser 22 Maret",
               "Eksternal",
-              "medis",
+              "Sedang",
               "Baru"
             ],
             [
@@ -5328,7 +5328,7 @@ export const generatedLocalCopy = {
         },
         "briefing": {
           "label": "Pengarahan Eksekutif - Mingguan",
-          "coach": "Pelatih Sundae",
+          "coach": "Sundae Coach",
           "week": "Minggu tanggal 17 Maret",
           "summary": "Pendapatan diproyeksikan sebesar $248K (+6,2% vs sebelumnya). Kamis membawa risiko penurunan 12% - liburan 2 staf tumpang tindih dengan tempat acara yang tiketnya terjual habis di sebelah. Prospek akhir pekan yang baik: festival makanan lokal diperkirakan akan mendorong +15% kunjungan pejalan kaki.",
           "actionItems": "Item Tindakan",
@@ -5388,7 +5388,7 @@ export const generatedLocalCopy = {
       }
     },
     "sv": {
-      "heroBadge": "Predictive Intelligence",
+      "heroBadge": "Prediktiv intelligens",
       "heroTitle": "Sluta reagera. Börja förutse.",
       "heroDescription": "Framåtblickande prognoser för varje mätvärde som spelar roll - intäkter, arbetskraft, matkostnader, vinst. Förtroendeband som skärps med tiden, vad-om-scenarier du kan testa innan du förbinder dig och veckovisa chefsgenomgångar som talar om för dig var du ska agera.",
       "heroPrimary": "Boka en demo",
@@ -5413,7 +5413,7 @@ export const generatedLocalCopy = {
         }
       ],
       "howEyebrow": "HUR DET FUNGERAR",
-      "howTitle": "Lär dig. Projekt. Rätta. Upprepa.",
+      "howTitle": "Lär dig. Prognostisera. Korrigera. Upprepa.",
       "howSteps": [
         {
           "step": "01",
@@ -5423,7 +5423,7 @@ export const generatedLocalCopy = {
         },
         {
           "step": "02",
-          "title": "Projekt framåt",
+          "title": "Prognostiserar framåt",
           "description": "Genererar prognoser för 17 mätvärden över 14-90 dagar med konfidensband. Lager i externa signaler - väder, lokala evenemang, konkurrentaktivitet - och kartlägger beroenden mellan olika moduler.",
           "icon": "forecasting"
         },
@@ -5434,16 +5434,16 @@ export const generatedLocalCopy = {
           "icon": "performance"
         }
       ],
-      "componentsEyebrow": "17 UNDERSIDA · 32 PROGNOSVISUELL",
-      "componentsTitle": "Prognos. Simulera. Kort. Agera.",
+      "componentsEyebrow": "17 UNDERSIDOR · 32 PROGNOSVISUALISERINGAR",
+      "componentsTitle": "Prognostisera. Simulera. Sammanfatta. Agera.",
       "componentsDescription": "Från enhetliga prognostidslinjer till Monte Carlo-riskanalys, prognosdriven schemaläggning och inköp, och chefsgenomgångar - varje verktyg en operatör behöver för att fatta framtidsinriktade beslut.",
       "components": [
         {
-          "title": "Unified Forecast Timeline",
+          "title": "Enhetlig prognostidslinje",
           "headline": "Intäkter, arbetskraft, matkostnad - en framåtblickande vy",
           "description": "Se de kommande 14, 30 eller 90 dagarna över 17 affärsmått på en och samma tidslinje. Förtroendebanden krymper när Foresight lär sig dina mönster.",
           "capabilities": [
-            "22 mätvärden: intäkter, omslag, arbetskostnad, matkostnad, vinst, SPLH, RevPASH och mer",
+            "22 mätvärden: intäkter, gäster, arbetskostnad, matkostnad, vinst, SPLH, RevPASH och mer",
             "14-365 dagars horisonter med adaptiva självförtroendenivåer",
             "Konfidensband som dras åt när noggrannheten förbättras",
             "Faktisk vs prognosöverlagring - uppdateras dagligen",
@@ -5453,9 +5453,9 @@ export const generatedLocalCopy = {
           "color": "from-[#E9A24A] to-[#FF5C4D]"
         },
         {
-          "title": "What-If Scenario Builder",
+          "title": "What-If-scenariobyggare",
           "headline": "Testa beslut innan du fattar dem",
-          "description": "Ändra alla antaganden - prissättning, bemanning, kapacitet, marknadsföringsutgifter - och se den genomgripande effekten över intäkter, täckningar, kostnader och vinster.",
+          "description": "Ändra alla antaganden - prissättning, bemanning, kapacitet, marknadsföringsutgifter - och se den genomgripande effekten över intäkter, gäster, kostnader och vinster.",
           "capabilities": [
             "Justera prissättning, kapacitet, marknadsföring, bemanning och kostnadsantaganden",
             "Kaskadeffekt över intäkter, arbetskraft, matkostnader och vinst",
@@ -5486,7 +5486,7 @@ export const generatedLocalCopy = {
           "capabilities": [
             "Visuellt beroendediagram över moduler",
             "Korrelationsstyrkepoäng (0-1) mellan anslutna mätvärden",
-            "Cascade timing: intäktsändring till arbete på 2 dagar, inköp på 5",
+            "Kaskadtiming: intäktsändring till arbete på 2 dagar, inköp på 5",
             "Integrerad P&L-prognos",
             "Prognosdriven schemaläggning och inköp"
           ],
@@ -5507,7 +5507,7 @@ export const generatedLocalCopy = {
           "color": "from-green-500 to-emerald-600"
         },
         {
-          "title": "Executive Briefing",
+          "title": "Ledningsgenomgång",
           "headline": "Din vecka framåt - sammanfattad med åtgärder",
           "description": "Varje måndag kl. 06.00 genererar Foresight en ledningsgenomgång: prognossammanfattning, viktiga risker, möjligheter och prioriterade åtgärder.",
           "capabilities": [
@@ -5522,7 +5522,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Extern signalintegration",
-          "headline": "Väder, evenemang, tävlande, helgdagar - kvantifierat",
+          "headline": "Väder, evenemang, konkurrenter, helgdagar - kvantifierat",
           "description": "Foresight får in externa signaler och uppskattar deras intäktseffekt med konfidenspoäng.",
           "capabilities": [
             "Väderpåverkansmodeller med timgranularitet",
@@ -5548,8 +5548,8 @@ export const generatedLocalCopy = {
           "color": "from-rose-500 to-pink-600"
         }
       ],
-      "pricingTitle": "Add Foresight to Your Core Plan",
-      "pricingDescription": "Varje Foresight innehåller alla 17 undersidor och 32 prognosbilder. Din kärnnivå avgör hur snabbt, hur djupt och hur mycket du kan springa.",
+      "pricingTitle": "Lägg till Foresight i din Core-plan",
+      "pricingDescription": "Varje Foresight innehåller alla 17 undersidor och 32 prognosbilder. Din Core-nivå avgör hur snabbt, hur djupt och hur mycket du kan köra.",
       "pricingTiers": [
         {
           "tier": "Core Lite",
@@ -5592,14 +5592,14 @@ export const generatedLocalCopy = {
           ]
         }
       ],
-      "ctaTitle": "Redo för Predictive Intelligence?",
+      "ctaTitle": "Redo för prediktiv intelligens?",
       "ctaDescription": "Berätta vad du behöver. Vi kommer att bygga modellen för att få det att hända.",
       "ctaPrimary": "Boka en demo",
       "ctaSecondary": "Visa alla moduler",
       "mockups": {
         "timeline": {
-          "label": "Unified Forecast Timeline - 30 dagar",
-          "forecastRev": "Prognos Rev",
+          "label": "Enhetlig prognostidslinje - 30 dagar",
+          "forecastRev": "Prognosintäkter",
           "confidence": "Förtroende",
           "accuracy": "Noggrannhet",
           "today": "Idag",
@@ -5609,13 +5609,13 @@ export const generatedLocalCopy = {
           "alert": "Prognosfel under 4 %. Konfidensbandet skärps när data samlas in."
         },
         "scenario": {
-          "label": "What-If Scenario Builder",
-          "baselineRev": "Baslinje Rev",
-          "scenarioRev": "Scenario Rev",
+          "label": "What-If-scenariobyggare",
+          "baselineRev": "Baslinjeintäkter",
+          "scenarioRev": "Scenariointäkter",
           "scenarioText": "Scenario: +10 % pris + helgkampanj",
-          "alert": "Täckningsnedgång uppvägdes med 17,6 % checkhöjning. Nettointäkter +23 000 USD.",
+          "alert": "Gästnedgång uppvägdes av en notahöjning på 17,6 %. Nettointäkter +23 000 USD.",
           "headers": [
-            "Metrisk",
+            "Mätvärde",
             "Baslinje",
             "Scenario",
             "Delta"
@@ -5637,7 +5637,7 @@ export const generatedLocalCopy = {
               "Aktiv"
             ],
             [
-              "Lunch dagdel: 35 % av varv",
+              "Lunch dagdel: 35 % av intäkterna",
               "Historiskt",
               "Hög",
               "Aktiv"
@@ -5645,13 +5645,13 @@ export const generatedLocalCopy = {
             [
               "Personalkapacitet: 12 FOH",
               "Operatör",
-              "Med",
+              "Medel",
               "Åsidosätt"
             ],
             [
               "Lokalt evenemang: konsert 22 mars",
               "Externt",
-              "Med",
+              "Medel",
               "Nytt"
             ],
             [
@@ -5671,7 +5671,7 @@ export const generatedLocalCopy = {
           "label": "Graf över modulberoende",
           "nodes": [
             "Intäkter",
-            "Labor",
+            "Arbetskraft",
             "Inventering",
             "Inköp",
             "Vinst"
@@ -5686,8 +5686,8 @@ export const generatedLocalCopy = {
           "trend": "Rullande 12-veckors noggrannhetstrend - självkorrigerande varje vecka"
         },
         "briefing": {
-          "label": "Executive Briefing - Varje vecka",
-          "coach": "Sundae tränare",
+          "label": "Ledningsgenomgång - Varje vecka",
+          "coach": "Sundae Coach",
           "week": "Veckan den 17 mars",
           "summary": "Intäkten beräknas till 248 000 USD (+6,2 % jämfört med tidigare). Torsdag medför 12 % nedåtrisk - 2 personalsemester överlappar med ett utsålt lokalevenemang intill. Goda utsikter över helgen: lokal matfestival förväntas leda till +15 % fottrafik.",
           "actionItems": "Åtgärdsobjekt",
@@ -5772,7 +5772,7 @@ export const generatedLocalCopy = {
         }
       ],
       "howEyebrow": "작동 방식",
-      "howTitle": "배우십시오. 프로젝트. 옳은. 반복하다.",
+      "howTitle": "학습하기. 예측하기. 수정하기. 반복하기.",
       "howSteps": [
         {
           "step": "01",
@@ -5782,7 +5782,7 @@ export const generatedLocalCopy = {
         },
         {
           "step": "02",
-          "title": "앞으로의 프로젝트",
+          "title": "앞으로 예측",
           "description": "신뢰 구간을 사용하여 14~90일 동안 17개 지표에 대한 예측을 생성합니다. 날씨, 지역 이벤트, 경쟁사 활동 등 외부 신호의 레이어와 모듈 간 종속성을 매핑합니다.",
           "icon": "forecasting"
         },
@@ -5794,7 +5794,7 @@ export const generatedLocalCopy = {
         }
       ],
       "componentsEyebrow": "하위 페이지 17개 · 예측 영상 32개",
-      "componentsTitle": "예측. 시뮬레이션합니다. 짧은. 행동.",
+      "componentsTitle": "예측하기. 시뮬레이션하기. 요약하기. 실행하기.",
       "componentsDescription": "통합 예측 타임라인부터 몬테카를로 위험 분석, 예측 중심 일정 및 구매, 경영진 브리핑에 이르기까지 운영자가 미래 지향적인 결정을 내리는 데 필요한 모든 도구입니다.",
       "components": [
         {
@@ -5802,7 +5802,7 @@ export const generatedLocalCopy = {
           "headline": "수익, 인건비, 식품 비용 - 하나의 미래 지향적 관점",
           "description": "단일 타임라인에서 17개 비즈니스 지표에 걸쳐 다음 14일, 30일 또는 90일을 확인하세요. Foresight가 패턴을 학습하면 신뢰 구간이 줄어듭니다.",
           "capabilities": [
-            "22개 지표: 수익, 비용, 인건비, 식품 비용, 이익, SPLH, RevPASH 등",
+            "22개 지표: 수익, 고객 수, 인건비, 식품 비용, 이익, SPLH, RevPASH 등",
             "적응형 신뢰도 계층이 포함된 14~365일 범위",
             "정확도가 향상됨에 따라 강화되는 신뢰 밴드",
             "실제 vs 예측 오버레이 - 매일 업데이트됨",
@@ -5814,7 +5814,7 @@ export const generatedLocalCopy = {
         {
           "title": "What-If 시나리오 빌더",
           "headline": "결정을 내리기 전에 테스트해 보세요",
-          "description": "가격, 직원 배치, 용량, 마케팅 지출 등 모든 가정을 변경하고 수익, 범위, 비용 및 이익 전반에 걸친 연쇄 영향을 확인하세요.",
+          "description": "가격, 직원 배치, 용량, 마케팅 지출 등 모든 가정을 변경하고 수익, 고객 수, 비용 및 이익 전반에 걸친 연쇄 영향을 확인하세요.",
           "capabilities": [
             "가격, 용량, 마케팅, 인력 배치 및 비용 가정 조정",
             "수익, 인건비, 식품 비용 및 이익 전반에 걸쳐 연쇄적인 영향을 미칩니다.",
@@ -5846,7 +5846,7 @@ export const generatedLocalCopy = {
             "모듈 전체의 시각적 종속성 그래프",
             "연결된 측정항목 간의 상관관계 강도 점수(0-1)",
             "캐스케이드 타이밍: 2일 만에 수익이 인건비로 변경, 5일 만에 구매",
-            "Integrated P&L forecast",
+            "통합 P&L 예측",
             "예측 기반 일정 및 구매"
           ],
           "icon": "architecture",
@@ -5870,7 +5870,7 @@ export const generatedLocalCopy = {
           "headline": "앞으로의 한 주 - 활동 요약",
           "description": "매주 월요일 오전 6시에 Foresight는 예측 요약, 주요 위험, 기회 및 우선순위 조치 항목에 대한 경영진 브리핑을 생성합니다.",
           "capabilities": [
-            "Weekly narrative briefing generated by Sundae Coach",
+            "Sundae Coach가 생성한 주간 내러티브 브리핑",
             "우선순위 작업 항목: 심각, 높음, 중간",
             "추정된 재정적 영향을 통해 위험/기회 식별",
             "브리핑 내역",
@@ -5907,8 +5907,8 @@ export const generatedLocalCopy = {
           "color": "from-rose-500 to-pink-600"
         }
       ],
-      "pricingTitle": "핵심 계획에 Foresight을 추가하세요",
-      "pricingDescription": "모든 Foresight 계획에는 17개의 하위 페이지와 32개의 예측 시각적 요소가 모두 포함됩니다. 코어 등급에 따라 얼마나 빨리, 얼마나 깊게, 얼마나 많이 달릴 수 있는지가 결정됩니다.",
+      "pricingTitle": "Core 플랜에 Foresight을 추가하세요",
+      "pricingDescription": "모든 Foresight 계획에는 17개의 하위 페이지와 32개의 예측 시각적 요소가 모두 포함됩니다. Core 등급에 따라 얼마나 빨리, 얼마나 깊게, 얼마나 많이 실행할 수 있는지가 결정됩니다.",
       "pricingTiers": [
         {
           "tier": "Core Lite",
@@ -5969,12 +5969,12 @@ export const generatedLocalCopy = {
         },
         "scenario": {
           "label": "What-If 시나리오 빌더",
-          "baselineRev": "기준선 개정",
-          "scenarioRev": "시나리오 개정",
+          "baselineRev": "기준선 수익",
+          "scenarioRev": "시나리오 수익",
           "scenarioText": "시나리오: +10% 가격 + 주말 프로모션",
-          "alert": "커버 감소가 17.6% 증가하여 상쇄됩니다. 순수익 +23,000달러.",
+          "alert": "고객 수 감소가 객단가 17.6% 증가로 상쇄됩니다. 순수익 +23,000달러.",
           "headers": [
-            "미터법",
+            "지표",
             "기준선",
             "시나리오",
             "델타"
@@ -5997,20 +5997,20 @@ export const generatedLocalCopy = {
             ],
             [
               "점심 시간대: 매출의 35%",
-              "역사적인",
+              "이력",
               "높음",
               "활성"
             ],
             [
               "직원 수용량: 12 FOH",
               "운영자",
-              "메드",
+              "중간",
               "재정의"
             ],
             [
               "지역 행사: 3월 22일 콘서트",
               "외부",
-              "메드",
+              "중간",
               "새로운"
             ],
             [
@@ -6022,7 +6022,7 @@ export const generatedLocalCopy = {
           ],
           "badges": [
             "4 자동 감지",
-            "1 연산자 재정의",
+            "1 운영자 재정의",
             "1 외부 신호"
           ]
         },
@@ -6130,8 +6130,8 @@ export const generatedLocalCopy = {
           "icon": "speed"
         }
       ],
-      "howEyebrow": "CUM FUNcționează",
-      "howTitle": "Învață. Proiect. Corecta. Repeta.",
+      "howEyebrow": "CUM FUNCȚIONEAZĂ",
+      "howTitle": "Învață. Prognozează. Corectează. Repetă.",
       "howSteps": [
         {
           "step": "01",
@@ -6141,7 +6141,7 @@ export const generatedLocalCopy = {
         },
         {
           "step": "02",
-          "title": "Proiecte înainte",
+          "title": "Prognozează înainte",
           "description": "Generează prognoze pentru 17 valori pe 14-90 de zile cu benzi de încredere. Straturi în semnale externe - vreme, evenimente locale, activitatea concurenților - și hărți dependențele între module.",
           "icon": "forecasting"
         },
@@ -6153,7 +6153,7 @@ export const generatedLocalCopy = {
         }
       ],
       "componentsEyebrow": "17 SUBPAGINI · 32 VIZUALE DE PROGNOZĂ",
-      "componentsTitle": "Prognoza. Simula. Scurt. Act.",
+      "componentsTitle": "Prognozează. Simulează. Rezumă. Acționează.",
       "componentsDescription": "De la cronologie de prognoză unificate până la analiza de risc Monte Carlo, programarea și achizițiile bazate pe previziuni și briefing-uri executive - fiecare instrument de care are nevoie un operator pentru a lua decizii de viitor.",
       "components": [
         {
@@ -6161,7 +6161,7 @@ export const generatedLocalCopy = {
           "headline": "Venituri, forță de muncă, costuri alimentare - O viziune perspectivă",
           "description": "Vedeți următoarele 14, 30 sau 90 de zile în 17 valori comerciale într-o singură cronologie. Benzile de încredere se micșorează pe măsură ce Foresight vă învață tiparele.",
           "capabilities": [
-            "22 de valori: venit, acoperiri, costul forței de muncă, costul alimentelor, profit, SPLH, RevPASH și multe altele",
+            "22 de valori: venit, număr de clienți, costul forței de muncă, costul alimentelor, profit, SPLH, RevPASH și multe altele",
             "Orizonturi de 14-365 de zile cu niveluri de încredere adaptive",
             "Benzi de încredere care se strâng pe măsură ce precizia se îmbunătățește",
             "Suprapunere reală versus prognoză - actualizată zilnic",
@@ -6171,9 +6171,9 @@ export const generatedLocalCopy = {
           "color": "from-[#E9A24A] to-[#FF5C4D]"
         },
         {
-          "title": "Generatorul de scenarii ce se întâmplă",
+          "title": "Generator de scenarii What-If",
           "headline": "Testați deciziile înainte de a le lua",
-          "description": "Schimbați orice ipoteză - prețuri, personal, capacitate, cheltuieli de marketing - și vedeți impactul în cascadă asupra veniturilor, acoperirilor, costurilor și profitului.",
+          "description": "Schimbați orice ipoteză - prețuri, personal, capacitate, cheltuieli de marketing - și vedeți impactul în cascadă asupra veniturilor, numărului de clienți, costurilor și profitului.",
           "capabilities": [
             "Ajustați prețurile, capacitatea, marketingul, personalul și ipotezele de cost",
             "Impact în cascadă asupra veniturilor, forței de muncă, costurilor alimentare și profitului",
@@ -6185,7 +6185,7 @@ export const generatedLocalCopy = {
           "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
-          "title": "Registrul Adormirii",
+          "title": "Registrul ipotezelor",
           "headline": "Fiecare ipoteză de prognoză - vizibilă, editabilă, auditabilă",
           "description": "Foresight detectează automat 11 categorii de ipoteze din datele dvs. și vă permite să anulați orice, în timp ce urmăriți ce s-a schimbat și de ce.",
           "capabilities": [
@@ -6199,7 +6199,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Dependențe între module",
-          "headline": "Înțelegeți cum se schimbă ondulațiile în afacerea dvs",
+          "headline": "Înțelegeți cum o schimbare se propagă în afacerea dvs.",
           "description": "O creștere a veniturilor determină cererea de forță de muncă, volumul de achiziții, cifra de afaceri a stocurilor și marjele de profit. Foresight mapează aceste dependențe în cascadă și le cuantifică cu puterea corelației.",
           "capabilities": [
             "Graficul dependenței vizuale între module",
@@ -6214,7 +6214,7 @@ export const generatedLocalCopy = {
         {
           "title": "Autocorecție de precizie",
           "headline": "Prognoza care devine mai inteligentă în fiecare săptămână",
-          "description": "Foresight-ul își măsoară propria acuratețe și detectează părtinirea sistematică. Când se găsește părtinire, modelul se autocorectează.",
+          "description": "Foresight își măsoară propria acuratețe și detectează părtinirea sistematică. Când se găsește părtinire, modelul se autocorectează.",
           "capabilities": [
             "Rolling MAPE și RMSE urmărite pe valoare",
             "Detectarea părtinirii: direcție, magnitudine și cauza principală",
@@ -6266,8 +6266,8 @@ export const generatedLocalCopy = {
           "color": "from-rose-500 to-pink-600"
         }
       ],
-      "pricingTitle": "Add Foresight to Your Core Plan",
-      "pricingDescription": "Fiecare plan Foresight include toate cele 17 subpagini și 32 de imagini vizuale de Foresightă. Nivelul de bază determină cât de repede, cât de adânc și cât de mult poți rula.",
+      "pricingTitle": "Adaugă Foresight la planul tău Core",
+      "pricingDescription": "Fiecare plan Foresight include toate cele 17 subpagini și 32 de imagini de prognoză. Nivelul tău Core determină cât de repede, cât de adânc și cât de mult poți rula.",
       "pricingTiers": [
         {
           "tier": "Core Lite",
@@ -6317,7 +6317,7 @@ export const generatedLocalCopy = {
       "mockups": {
         "timeline": {
           "label": "Cronologie de prognoză unificată - 30 de zile",
-          "forecastRev": "Prognoza Rev",
+          "forecastRev": "Prognoză venituri",
           "confidence": "Încrederea",
           "accuracy": "Precizie",
           "today": "Astăzi",
@@ -6327,22 +6327,22 @@ export const generatedLocalCopy = {
           "alert": "Eroare de prognoză sub 4%. Banda de încredere se strânge pe măsură ce se acumulează date."
         },
         "scenario": {
-          "label": "Generatorul de scenarii ce se întâmplă",
-          "baselineRev": "Rev. inițială",
-          "scenarioRev": "Scenariu Rev",
+          "label": "Generator de scenarii What-If",
+          "baselineRev": "Venit de bază",
+          "scenarioRev": "Venit scenariu",
           "scenarioText": "Scenariu: +10% preț + promoție de weekend",
-          "alert": "Scăderea acoperirii a fost compensată cu o creștere a cecurilor cu 17,6%. Venit net + 23.000 USD.",
+          "alert": "Scăderea numărului de clienți a fost compensată de o creștere a notei de plată cu 17,6%. Venit net + 23.000 USD.",
           "headers": [
-            "Metric",
+            "Metrică",
             "Linia de bază",
             "Scenariu",
             "Delta"
           ]
         },
         "assumptions": {
-          "label": "Registrul Adormirii",
+          "label": "Registrul ipotezelor",
           "headers": [
-            "Asumarea",
+            "Ipoteză",
             "Sursa",
             "Impact",
             "Stare"
@@ -6355,7 +6355,7 @@ export const generatedLocalCopy = {
               "Activ"
             ],
             [
-              "Prânz: 35% din turație",
+              "Prânz: 35% din venituri",
               "Istoric",
               "Înalt",
               "Activ"
@@ -6363,13 +6363,13 @@ export const generatedLocalCopy = {
             [
               "Capacitate personal: 12 FOH",
               "Operator",
-              "Med",
+              "Mediu",
               "Suprascriere"
             ],
             [
               "Eveniment local: concert 22 martie",
               "Externe",
-              "Med",
+              "Mediu",
               "Nou"
             ],
             [
@@ -6404,8 +6404,8 @@ export const generatedLocalCopy = {
           "trend": "Tendință de acuratețe pe 12 săptămâni - auto-corectare săptămânal"
         },
         "briefing": {
-          "label": "Executive Briefing - Săptămânal",
-          "coach": "Antrenorul Sundae",
+          "label": "Briefing executiv - Săptămânal",
+          "coach": "Sundae Coach",
           "week": "Săptămâna 17 martie",
           "summary": "Venitul estimat la 248.000 USD (+6,2% față de anterior). Ziua de joi prezintă un risc de scădere de 12% - 2 vacanțe ale personalului se suprapun cu un eveniment epuizat în locația de alături. Perspective de weekend puternice: festivalul alimentar local se așteaptă să genereze +15% trafic pietonal.",
           "actionItems": "Elemente de acțiune",
@@ -6490,7 +6490,7 @@ export const generatedLocalCopy = {
         }
       ],
       "howEyebrow": "এটা কিভাবে কাজ করে",
-      "howTitle": "শিখুন। প্রকল্প। সঠিক। পুনরাবৃত্তি করুন।",
+      "howTitle": "শিখুন। পূর্বাভাস দিন। সংশোধন করুন। পুনরাবৃত্তি করুন।",
       "howSteps": [
         {
           "step": "01",
@@ -6500,7 +6500,7 @@ export const generatedLocalCopy = {
         },
         {
           "step": "02",
-          "title": "প্রকল্প এগিয়ে",
+          "title": "সামনের দিকে পূর্বাভাস দেয়",
           "description": "কনফিডেন্স ব্যান্ড সহ 14-90 দিন জুড়ে 17 মেট্রিকের জন্য পূর্বাভাস তৈরি করে। বাহ্যিক সংকেতের স্তরগুলি - আবহাওয়া, স্থানীয় ঘটনা, প্রতিযোগী কার্যকলাপ - এবং মানচিত্র ক্রস-মডিউল নির্ভরতা।",
           "icon": "forecasting"
         },
@@ -6512,7 +6512,7 @@ export const generatedLocalCopy = {
         }
       ],
       "componentsEyebrow": "17 উপ-পৃষ্ঠা · 32 পূর্বাভাস ভিজ্যুয়াল",
-      "componentsTitle": "পূর্বাভাস। অনুকরণ. সংক্ষিপ্ত. আইন",
+      "componentsTitle": "পূর্বাভাস দিন। অনুকরণ করুন। সংক্ষিপ্ত করুন। পদক্ষেপ নিন।",
       "componentsDescription": "একীভূত পূর্বাভাস টাইমলাইন থেকে শুরু করে মন্টে কার্লো ঝুঁকি বিশ্লেষণ, পূর্বাভাস-চালিত সময়সূচী এবং ক্রয়, এবং নির্বাহী ব্রিফিং - প্রতিটি টুল একজন অপারেটরকে দূরদর্শী সিদ্ধান্ত নিতে হবে।",
       "components": [
         {
@@ -6531,8 +6531,8 @@ export const generatedLocalCopy = {
         },
         {
           "title": "কি-যদি দৃশ্যকল্প নির্মাতা",
-          "headline": "আপনি সেগুলি করার আগে পরীক্ষা সিদ্ধান্ত",
-          "description": "মূল্য, স্টাফিং, ক্ষমতা, বিপণন ব্যয় - যে কোনো ধারণা পরিবর্তন করুন এবং রাজস্ব, কভার, খরচ এবং লাভ জুড়ে ক্যাসকেডিং প্রভাব দেখুন।",
+          "headline": "আপনি সিদ্ধান্ত নেওয়ার আগে সেগুলি পরীক্ষা করুন",
+          "description": "মূল্য, স্টাফিং, ক্ষমতা, বিপণন ব্যয় - যে কোনো ধারণা পরিবর্তন করুন এবং রাজস্ব, গ্রাহক সংখ্যা, খরচ এবং লাভ জুড়ে ক্যাসকেডিং প্রভাব দেখুন।",
           "capabilities": [
             "মূল্য, ক্ষমতা, বিপণন, স্টাফিং, এবং খরচ অনুমান সামঞ্জস্য করুন",
             "রাজস্ব, শ্রম, খাদ্য খরচ, এবং লাভ জুড়ে ক্যাসকেডিং প্রভাব",
@@ -6558,7 +6558,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "ক্রস-মডিউল নির্ভরতা",
-          "headline": "বুঝুন কিভাবে একজন আপনার ব্যবসা জুড়ে লহর পরিবর্তন করে",
+          "headline": "বুঝুন কিভাবে একটি পরিবর্তন আপনার ব্যবসা জুড়ে ছড়িয়ে পড়ে",
           "description": "একটি রাজস্ব বৃদ্ধি শ্রমের চাহিদা, ক্রয়ের পরিমাণ, ইনভেন্টরি টার্নওভার এবং লাভের মার্জিনকে চালিত করে। Foresight এই ক্যাসকেডিং নির্ভরতাগুলিকে মানচিত্র করে এবং পারস্পরিক সম্পর্ক শক্তির সাথে তাদের পরিমাপ করে।",
           "capabilities": [
             "মডিউল জুড়ে ভিজ্যুয়াল নির্ভরতা গ্রাফ",
@@ -6586,9 +6586,9 @@ export const generatedLocalCopy = {
         {
           "title": "এক্সিকিউটিভ ব্রিফিং",
           "headline": "আপনার সপ্তাহ এগিয়ে - কর্মের সাথে সংক্ষিপ্ত",
-          "description": "প্রতি সোমবার সকাল 6 টায়, দূরদর্শিতা একটি কার্যনির্বাহী ব্রিফিং তৈরি করে: Foresightের সারাংশ, মূল ঝুঁকি, সুযোগ এবং অগ্রাধিকারমূলক কর্ম আইটেম।",
+          "description": "প্রতি সোমবার সকাল 6 টায়, Foresight একটি কার্যনির্বাহী ব্রিফিং তৈরি করে: পূর্বাভাসের সারাংশ, মূল ঝুঁকি, সুযোগ এবং অগ্রাধিকারমূলক কর্ম আইটেম।",
           "capabilities": [
-            "সাপ্তাহিক আখ্যান ব্রিফিং Sundae কোচ দ্বারা উত্পন্ন",
+            "সাপ্তাহিক আখ্যান ব্রিফিং Sundae Coach দ্বারা উত্পন্ন",
             "অগ্রাধিকারপ্রাপ্ত কর্ম আইটেম: সমালোচনামূলক, উচ্চ, মাঝারি",
             "আনুমানিক আর্থিক প্রভাব সহ ঝুঁকি/সুযোগ সনাক্তকরণ",
             "সংক্ষিপ্ত ইতিহাস",
@@ -6625,8 +6625,8 @@ export const generatedLocalCopy = {
           "color": "from-rose-500 to-pink-600"
         }
       ],
-      "pricingTitle": "Add Foresight to Your Core Plan",
-      "pricingDescription": "প্রতিটি দূরদর্শী পরিকল্পনায় 17টি উপ-পৃষ্ঠা এবং 32টি Foresight ভিজ্যুয়াল অন্তর্ভুক্ত থাকে। আপনার মূল স্তর নির্ধারণ করে আপনি কত দ্রুত, কতটা গভীর এবং কতটা দৌড়াতে পারবেন।",
+      "pricingTitle": "আপনার Core প্ল্যানে Foresight যোগ করুন",
+      "pricingDescription": "প্রতিটি Foresight পরিকল্পনায় 17টি উপ-পৃষ্ঠা এবং 32টি পূর্বাভাস ভিজ্যুয়াল অন্তর্ভুক্ত থাকে। আপনার Core স্তর নির্ধারণ করে আপনি কত দ্রুত, কতটা গভীর এবং কতটা চালাতে পারবেন।",
       "pricingTiers": [
         {
           "tier": "Core Lite",
@@ -6642,7 +6642,7 @@ export const generatedLocalCopy = {
         },
         {
           "tier": "Core Pro",
-          "base": "$৪৪৯/মাস",
+          "base": "$449/মাস",
           "perLocation": "$24",
           "description": "সম্পূর্ণ বুদ্ধিমত্তা স্ট্যাক সহ বহু-ইউনিট অপারেটরদের জন্য।",
           "enhancements": [
@@ -6651,7 +6651,7 @@ export const generatedLocalCopy = {
             "3 বছরের ঐতিহাসিক তথ্য - গভীর নির্ভুলতা",
             "150টি পূর্বাভাস প্রশ্ন/দিন",
             "বিশ্লেষক এবং কৌশলবিদ বুদ্ধিমত্তা মোড",
-            "Native multi-POS support"
+            "নেটিভ মাল্টি-POS সমর্থন"
           ]
         },
         {
@@ -6676,7 +6676,7 @@ export const generatedLocalCopy = {
       "mockups": {
         "timeline": {
           "label": "ইউনিফাইড ফোরকাস্ট টাইমলাইন - 30 দিন",
-          "forecastRev": "পূর্বাভাস রেভ",
+          "forecastRev": "পূর্বাভাস রাজস্ব",
           "confidence": "আত্মবিশ্বাস",
           "accuracy": "নির্ভুলতা",
           "today": "আজ",
@@ -6687,10 +6687,10 @@ export const generatedLocalCopy = {
         },
         "scenario": {
           "label": "কি-যদি দৃশ্যকল্প নির্মাতা",
-          "baselineRev": "বেসলাইন রেভ",
-          "scenarioRev": "দৃশ্যকল্প রেভ",
+          "baselineRev": "বেসলাইন রাজস্ব",
+          "scenarioRev": "দৃশ্যকল্প রাজস্ব",
           "scenarioText": "দৃশ্যকল্প: +10% মূল্য + সপ্তাহান্তের প্রচার",
-          "alert": "কভার হ্রাস 17.6% চেক বৃদ্ধি দ্বারা অফসেট। নেট আয় +$23K।",
+          "alert": "গ্রাহক সংখ্যা হ্রাস 17.6% বিল বৃদ্ধি দ্বারা পূরণ করা হয়েছে। নেট আয় +$23K।",
           "headers": [
             "মেট্রিক",
             "বেসলাইন",
@@ -6722,13 +6722,13 @@ export const generatedLocalCopy = {
             [
               "স্টাফ ক্ষমতা: 12 FOH",
               "অপারেটর",
-              "মেড",
+              "মাঝারি",
               "ওভাররাইড করুন"
             ],
             [
               "স্থানীয় অনুষ্ঠান: 22 মার্চ কনসার্ট",
               "বাহ্যিক",
-              "মেড",
+              "মাঝারি",
               "নতুন"
             ],
             [
@@ -6757,14 +6757,14 @@ export const generatedLocalCopy = {
         },
         "accuracy": {
           "label": "পূর্বাভাস নির্ভুলতা স্ব-সংশোধন",
-          "rollingMape": "রোলিং ম্যাপ",
+          "rollingMape": "রোলিং MAPE",
           "bias": "পক্ষপাত",
           "corrections": "সংশোধন",
           "trend": "রোলিং 12-সপ্তাহের নির্ভুলতার প্রবণতা - স্ব-সংশোধনকারী সাপ্তাহিক"
         },
         "briefing": {
           "label": "এক্সিকিউটিভ ব্রিফিং - সাপ্তাহিক",
-          "coach": "Sundae কোচ",
+          "coach": "Sundae Coach",
           "week": "17 মার্চ সপ্তাহ",
           "summary": "রাজস্ব $248K (+6.2% বনাম আগের) অনুমান করা হয়েছে। বৃহস্পতিবার 12% নেতিবাচক ঝুঁকি বহন করে - 2টি স্টাফ অবকাশ পাশের একটি বিক্রি-আউট ভেন্যু ইভেন্টের সাথে ওভারল্যাপ করে৷ সপ্তাহান্তে দৃষ্টিভঙ্গি শক্তিশালী: স্থানীয় খাদ্য উত্সব +15% ফুট ট্রাফিক চালাবে বলে আশা করা হচ্ছে।",
           "actionItems": "অ্যাকশন আইটেম",
@@ -6785,7 +6785,7 @@ export const generatedLocalCopy = {
               "type": "Event",
               "signal": "খাদ্য উৎসব শনি-রবি",
               "impact": "+15%",
-              "confidence": "৮৮%",
+              "confidence": "88%",
               "color": "bg-amber-400"
             },
             {
@@ -6806,7 +6806,7 @@ export const generatedLocalCopy = {
               "type": "Economic",
               "signal": "CPI +0.3% MoM",
               "impact": "-1%",
-              "confidence": "৩৫%",
+              "confidence": "35%",
               "color": "bg-purple-400"
             }
           ]
@@ -6849,7 +6849,7 @@ export const generatedLocalCopy = {
         }
       ],
       "howEyebrow": "BAGAIMANA IA BERFUNGSI",
-      "howTitle": "Belajar. Projek. Betul. ulang.",
+      "howTitle": "Belajar. Ramal. Betulkan. Ulang.",
       "howSteps": [
         {
           "step": "01",
@@ -6859,7 +6859,7 @@ export const generatedLocalCopy = {
         },
         {
           "step": "02",
-          "title": "Projek Hadapan",
+          "title": "Meramal ke Hadapan",
           "description": "Menjana ramalan untuk 17 metrik sepanjang 14-90 hari dengan jalur keyakinan. Lapisan dalam isyarat luaran - cuaca, acara tempatan, aktiviti pesaing - dan memetakan kebergantungan merentas modul.",
           "icon": "forecasting"
         },
@@ -6871,7 +6871,7 @@ export const generatedLocalCopy = {
         }
       ],
       "componentsEyebrow": "17 MUKA SURAT · 32 VISUAL RAMALAN",
-      "componentsTitle": "Ramalan. Simulasikan. ringkas. Bertindak.",
+      "componentsTitle": "Ramal. Simulasikan. Ringkaskan. Bertindak.",
       "componentsDescription": "Daripada garis masa ramalan bersatu kepada analisis risiko Monte Carlo, penjadualan dan pembelian yang dipacu ramalan, dan taklimat eksekutif - setiap alat yang diperlukan oleh pengendali untuk membuat keputusan yang berpandangan ke hadapan.",
       "components": [
         {
@@ -6879,7 +6879,7 @@ export const generatedLocalCopy = {
           "headline": "Hasil, Buruh, Kos Makanan - Satu Pandangan Berpandangan Ke Hadapan",
           "description": "Lihat 14, 30 atau 90 hari seterusnya merentas 17 metrik perniagaan dalam satu garis masa. Jalur keyakinan mengecut apabila Foresight mempelajari corak anda.",
           "capabilities": [
-            "22 metrik: hasil, perlindungan, kos buruh, kos makanan, keuntungan, SPLH, RevPASH dan banyak lagi",
+            "22 metrik: hasil, bilangan tetamu, kos buruh, kos makanan, keuntungan, SPLH, RevPASH dan banyak lagi",
             "Cakrawala 14-365 hari dengan tahap keyakinan penyesuaian",
             "Jalur keyakinan yang mengetatkan apabila ketepatan bertambah baik",
             "Tindanan sebenar vs ramalan - dikemas kini setiap hari",
@@ -6891,7 +6891,7 @@ export const generatedLocalCopy = {
         {
           "title": "Bagaimana-Jika Pembina Senario",
           "headline": "Uji Keputusan Sebelum Anda Membuatnya",
-          "description": "Ubah sebarang andaian - penentuan harga, kakitangan, kapasiti, perbelanjaan pemasaran - dan lihat kesan melata merentas hasil, perlindungan, kos dan keuntungan.",
+          "description": "Ubah sebarang andaian - penentuan harga, kakitangan, kapasiti, perbelanjaan pemasaran - dan lihat kesan melata merentas hasil, bilangan tetamu, kos dan keuntungan.",
           "capabilities": [
             "Laraskan harga, kapasiti, pemasaran, kakitangan dan andaian kos",
             "Impak merentasi hasil, buruh, kos makanan dan keuntungan",
@@ -6916,7 +6916,7 @@ export const generatedLocalCopy = {
           "color": "from-emerald-500 to-teal-600"
         },
         {
-          "title": "Kebergantungan Cross-Modul",
+          "title": "Kebergantungan Merentas Modul",
           "headline": "Fahami Bagaimana Satu Perubahan Terjadi Merentas Perniagaan Anda",
           "description": "Peningkatan hasil mendorong permintaan buruh, volum pembelian, pusing ganti inventori dan margin keuntungan. Foresight memetakan kebergantungan melata ini dan mengukurnya dengan kekuatan korelasi.",
           "capabilities": [
@@ -6945,9 +6945,9 @@ export const generatedLocalCopy = {
         {
           "title": "Taklimat Eksekutif",
           "headline": "Minggu Hadapan Anda - Diringkaskan Dengan Tindakan",
-          "description": "Setiap Isnin pada 6 PG, Foresight menjana taklimat eksekutif: ringkasan Foresight, risiko utama, peluang dan item tindakan yang diutamakan.",
+          "description": "Setiap Isnin pada 6 PG, Foresight menjana taklimat eksekutif: ringkasan ramalan, risiko utama, peluang dan item tindakan yang diutamakan.",
           "capabilities": [
-            "Taklimat naratif mingguan yang dijana oleh Jurulatih Sundae",
+            "Taklimat naratif mingguan yang dijana oleh Sundae Coach",
             "Item tindakan yang diutamakan: kritikal, tinggi, sederhana",
             "Pengenalpastian risiko/peluang dengan anggaran impak kewangan",
             "Taklimat sejarah",
@@ -6984,8 +6984,8 @@ export const generatedLocalCopy = {
           "color": "from-rose-500 to-pink-600"
         }
       ],
-      "pricingTitle": "Add Foresight to Your Core Plan",
-      "pricingDescription": "Setiap rancangan Foresight merangkumi kesemua 17 sub-halaman dan 32 visual Foresight. Peringkat Teras anda menentukan kelajuan, kedalaman dan jumlah anda boleh berlari.",
+      "pricingTitle": "Tambah Foresight pada pelan Core anda",
+      "pricingDescription": "Setiap rancangan Foresight merangkumi kesemua 17 sub-halaman dan 32 visual ramalan. Peringkat Core anda menentukan kelajuan, kedalaman dan jumlah yang boleh anda jalankan.",
       "pricingTiers": [
         {
           "tier": "Core Lite",
@@ -7015,8 +7015,8 @@ export const generatedLocalCopy = {
         },
         {
           "tier": "Enterprise",
-          "base": "Adat",
-          "perLocation": "Adat",
+          "base": "Tersuai",
+          "perLocation": "Tersuai",
           "description": "Sokongan khusus, SLA, pilihan label putih dan penyepaduan tersuai.",
           "enhancements": [
             "Selang segar semula data tersuai",
@@ -7035,7 +7035,7 @@ export const generatedLocalCopy = {
       "mockups": {
         "timeline": {
           "label": "Garis Masa Ramalan Bersatu - 30 Hari",
-          "forecastRev": "Ramalan Rev",
+          "forecastRev": "Ramalan Hasil",
           "confidence": "Keyakinan",
           "accuracy": "Ketepatan",
           "today": "Hari ini",
@@ -7046,10 +7046,10 @@ export const generatedLocalCopy = {
         },
         "scenario": {
           "label": "Bagaimana-Jika Pembina Senario",
-          "baselineRev": "Garis Dasar Rev",
-          "scenarioRev": "Senario Rev",
+          "baselineRev": "Hasil Garis Dasar",
+          "scenarioRev": "Hasil Senario",
           "scenarioText": "Senario: +10% Harga + Promo Hujung Minggu",
-          "alert": "Penurunan perlindungan diimbangi sebanyak 17.6% kenaikan cek. Hasil bersih +$23K.",
+          "alert": "Penurunan bilangan tetamu diimbangi dengan kenaikan bil sebanyak 17.6%. Hasil bersih +$23K.",
           "headers": [
             "Metrik",
             "Garis dasar",
@@ -7073,21 +7073,21 @@ export const generatedLocalCopy = {
               "Aktif"
             ],
             [
-              "Waktu makan tengah hari: 35% daripada rev",
-              "Bersejarah",
+              "Waktu makan tengah hari: 35% daripada hasil",
+              "Sejarah",
               "tinggi",
               "Aktif"
             ],
             [
               "Kapasiti kakitangan: 12 FOH",
               "Operator",
-              "Med",
+              "Sederhana",
               "mengatasi"
             ],
             [
               "Acara tempatan: konsert 22 Mac",
               "Luaran",
-              "Med",
+              "Sederhana",
               "baru"
             ],
             [
@@ -7123,7 +7123,7 @@ export const generatedLocalCopy = {
         },
         "briefing": {
           "label": "Taklimat Eksekutif - Mingguan",
-          "coach": "Jurulatih Sundae",
+          "coach": "Sundae Coach",
           "week": "Minggu 17 Mac",
           "summary": "Hasil diunjurkan pada $248K (+6.2% berbanding sebelumnya). Khamis membawa risiko penurunan sebanyak 12% - 2 percutian kakitangan bertindih dengan acara tempat terjual habis di sebelah. Tinjauan hujung minggu kukuh: festival makanan tempatan dijangka memacu +15% trafik kaki.",
           "actionItems": "Item Tindakan",
@@ -7208,7 +7208,7 @@ export const generatedLocalCopy = {
         }
       ],
       "howEyebrow": "มันทำงานอย่างไร",
-      "howTitle": "เรียนรู้ โครงการ. ถูกต้อง. ทำซ้ำ.",
+      "howTitle": "เรียนรู้ พยากรณ์ แก้ไข ทำซ้ำ",
       "howSteps": [
         {
           "step": "01",
@@ -7218,7 +7218,7 @@ export const generatedLocalCopy = {
         },
         {
           "step": "02",
-          "title": "โครงการไปข้างหน้า",
+          "title": "พยากรณ์ไปข้างหน้า",
           "description": "สร้างการคาดการณ์สำหรับ 17 เมตริกในช่วง 14-90 วันด้วยช่วงความเชื่อมั่น เลเยอร์ในสัญญาณภายนอก - สภาพอากาศ กิจกรรมในท้องถิ่น กิจกรรมของคู่แข่ง - และแมปการพึ่งพาข้ามโมดูล",
           "icon": "forecasting"
         },
@@ -7230,7 +7230,7 @@ export const generatedLocalCopy = {
         }
       ],
       "componentsEyebrow": "17 หน้าย่อย · 32 ภาพการพยากรณ์",
-      "componentsTitle": "พยากรณ์ จำลอง รวบรัด. กระทำ.",
+      "componentsTitle": "พยากรณ์ จำลอง สรุป ดำเนินการ",
       "componentsDescription": "ตั้งแต่ไทม์ไลน์การคาดการณ์แบบรวมไปจนถึงการวิเคราะห์ความเสี่ยงแบบมอนติคาร์โล การกำหนดเวลาและการจัดซื้อที่ขับเคลื่อนด้วยการคาดการณ์ และการบรรยายสรุปสำหรับผู้บริหาร - เครื่องมือทุกอย่างที่ผู้ปฏิบัติงานจำเป็นต้องใช้ในการตัดสินใจแบบคาดการณ์ล่วงหน้า",
       "components": [
         {
@@ -7238,7 +7238,7 @@ export const generatedLocalCopy = {
           "headline": "รายได้ แรงงาน ค่าอาหาร - มุมมองที่มองไปข้างหน้า",
           "description": "ดู 14, 30 หรือ 90 วันถัดไปจาก 17 ตัวชี้วัดทางธุรกิจในไทม์ไลน์เดียว แถบความมั่นใจหดตัวลงเมื่อ Foresight เรียนรู้รูปแบบของคุณ",
           "capabilities": [
-            "22 ตัวชี้วัด: รายได้ ความคุ้มครอง ค่าแรง ค่าอาหาร กำไร SPLH RevPASH และอื่นๆ",
+            "22 ตัวชี้วัด: รายได้ จำนวนลูกค้า ค่าแรง ค่าอาหาร กำไร SPLH RevPASH และอื่นๆ",
             "ระยะเวลา 14-365 วันพร้อมระดับความมั่นใจที่ปรับเปลี่ยนได้",
             "แถบความมั่นใจที่แน่นขึ้นเมื่อความแม่นยำดีขึ้น",
             "การซ้อนทับจริงเทียบกับการคาดการณ์ - อัปเดตทุกวัน",
@@ -7250,7 +7250,7 @@ export const generatedLocalCopy = {
         {
           "title": "ตัวสร้างสถานการณ์แบบ What-If",
           "headline": "ทดสอบการตัดสินใจก่อนที่คุณจะตัดสินใจ",
-          "description": "เปลี่ยนแปลงสมมติฐานใดๆ เช่น การกำหนดราคา จำนวนพนักงาน กำลังการผลิต การใช้จ่ายด้านการตลาด และดูผลกระทบที่เรียงซ้อนต่อรายได้ ความครอบคลุม ต้นทุน และกำไร",
+          "description": "เปลี่ยนแปลงสมมติฐานใดๆ เช่น การกำหนดราคา จำนวนพนักงาน กำลังการผลิต การใช้จ่ายด้านการตลาด และดูผลกระทบที่เรียงซ้อนต่อรายได้ จำนวนลูกค้า ต้นทุน และกำไร",
           "capabilities": [
             "ปรับสมมติฐานด้านราคา กำลังการผลิต การตลาด พนักงาน และต้นทุน",
             "ผลกระทบแบบเรียงซ้อนต่อรายได้ แรงงาน ต้นทุนอาหาร และกำไร",
@@ -7262,7 +7262,7 @@ export const generatedLocalCopy = {
           "color": "from-[#F2B45C] to-[#C2410C]"
         },
         {
-          "title": "ทะเบียนอัสสัมชัญ",
+          "title": "ทะเบียนสมมติฐาน",
           "headline": "ทุกสมมติฐานการคาดการณ์ - มองเห็นได้ แก้ไขได้ ตรวจสอบได้",
           "description": "Foresight ตรวจจับสมมติฐาน 11 หมวดหมู่จากข้อมูลของคุณโดยอัตโนมัติ และช่วยให้คุณสามารถแทนที่ทุกสิ่งได้พร้อมทั้งติดตามสิ่งที่เปลี่ยนแปลงและสาเหตุ",
           "capabilities": [
@@ -7276,7 +7276,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "การพึ่งพาข้ามโมดูล",
-          "headline": "ทำความเข้าใจว่า One Change Ripples ทั่วทั้งธุรกิจของคุณได้อย่างไร",
+          "headline": "ทำความเข้าใจว่าการเปลี่ยนแปลงหนึ่งส่งผลกระเพื่อมไปทั่วทั้งธุรกิจของคุณอย่างไร",
           "description": "รายได้ที่เพิ่มขึ้นผลักดันความต้องการแรงงาน ปริมาณการจัดซื้อ การหมุนเวียนสินค้าคงคลัง และอัตรากำไร Foresightจะแมปการขึ้นต่อกันแบบเรียงซ้อนเหล่านี้และวัดปริมาณด้วยความแข็งแกร่งของความสัมพันธ์",
           "capabilities": [
             "กราฟการพึ่งพาภาพระหว่างโมดูล",
@@ -7343,8 +7343,8 @@ export const generatedLocalCopy = {
           "color": "from-rose-500 to-pink-600"
         }
       ],
-      "pricingTitle": "Add Foresight to Your Core Plan",
-      "pricingDescription": "แผน Foresight ทุกแผนประกอบด้วยหน้าย่อยทั้งหมด 17 หน้าและภาพพยากรณ์ 32 รายการ ระดับ Core ของคุณจะกำหนดว่าคุณจะวิ่งได้เร็วแค่ไหน และลึกแค่ไหน",
+      "pricingTitle": "เพิ่ม Foresight ลงในแผน Core ของคุณ",
+      "pricingDescription": "แผน Foresight ทุกแผนประกอบด้วยหน้าย่อยทั้งหมด 17 หน้าและภาพพยากรณ์ 32 รายการ ระดับ Core ของคุณจะกำหนดว่าคุณจะประมวลผลได้เร็วแค่ไหน ลึกแค่ไหน และมากแค่ไหน",
       "pricingTiers": [
         {
           "tier": "Core Lite",
@@ -7400,15 +7400,15 @@ export const generatedLocalCopy = {
           "today": "วันนี้",
           "actual": "จริง",
           "forecast": "พยากรณ์",
-          "band": "วงดนตรี 90%",
+          "band": "แถบ 90%",
           "alert": "ข้อผิดพลาดการคาดการณ์ต่ำกว่า 4% แถบความเชื่อมั่นกระชับขึ้นเมื่อมีข้อมูลเพิ่มขึ้น"
         },
         "scenario": {
           "label": "ตัวสร้างสถานการณ์แบบ What-If",
           "baselineRev": "รายได้พื้นฐาน",
-          "scenarioRev": "สถานการณ์สมมติ",
+          "scenarioRev": "รายได้สถานการณ์",
           "scenarioText": "สถานการณ์: +10% ราคา + โปรโมชั่นสุดสัปดาห์",
-          "alert": "การปฏิเสธความคุ้มครองชดเชยด้วยเช็คที่เพิ่มขึ้น 17.6% รายได้สุทธิ +$23K",
+          "alert": "จำนวนลูกค้าที่ลดลงถูกชดเชยด้วยยอดบิลเฉลี่ยที่เพิ่มขึ้น 17.6% รายได้สุทธิ +$23K",
           "headers": [
             "เมตริก",
             "พื้นฐาน",
@@ -7417,9 +7417,9 @@ export const generatedLocalCopy = {
           ]
         },
         "assumptions": {
-          "label": "ทะเบียนอัสสัมชัญ",
+          "label": "ทะเบียนสมมติฐาน",
           "headers": [
-            "อัสสัมชัญ",
+            "สมมติฐาน",
             "แหล่งที่มา",
             "ผลกระทบ",
             "สถานะ"
@@ -7433,20 +7433,20 @@ export const generatedLocalCopy = {
             ],
             [
               "ส่วนของวันอาหารกลางวัน: 35% ของรายได้",
-              "ประวัติศาสตร์",
+              "ในอดีต",
               "สูง",
               "ใช้งานอยู่"
             ],
             [
               "ความจุพนักงาน: 12 FOH",
               "ผู้ดำเนินการ",
-              "ยา",
+              "ปานกลาง",
               "แทนที่"
             ],
             [
               "กิจกรรมท้องถิ่น: คอนเสิร์ต 22 มี.ค",
               "ภายนอก",
-              "ยา",
+              "ปานกลาง",
               "ใหม่"
             ],
             [
@@ -7458,7 +7458,7 @@ export const generatedLocalCopy = {
           ],
           "badges": [
             "4 ตรวจจับอัตโนมัติ",
-            "1 การแทนที่ตัวดำเนินการ",
+            "1 การแทนที่โดยผู้ดำเนินการ",
             "1 สัญญาณภายนอก"
           ]
         },
@@ -7475,14 +7475,14 @@ export const generatedLocalCopy = {
         },
         "accuracy": {
           "label": "การคาดการณ์ความแม่นยำการแก้ไขตนเอง",
-          "rollingMape": "MAPE ที่กำลังกลิ้ง",
+          "rollingMape": "MAPE แบบเลื่อน",
           "bias": "อคติ",
           "corrections": "การแก้ไข",
           "trend": "แนวโน้มความแม่นยำ 12 สัปดาห์ต่อเนื่อง - แก้ไขตัวเองทุกสัปดาห์"
         },
         "briefing": {
           "label": "การบรรยายสรุปผู้บริหาร - รายสัปดาห์",
-          "coach": "Sundaeโค้ช",
+          "coach": "Sundae Coach",
           "week": "สัปดาห์ของวันที่ 17 มีนาคม",
           "summary": "รายได้คาดการณ์ไว้ที่ 248,000 ดอลลาร์ (+6.2% เทียบกับรุ่นก่อน) วันพฤหัสบดีมีความเสี่ยงด้านลบ 12% - การลาพักร้อนของพนักงาน 2 คนทับซ้อนกับงานสถานที่จัดงานที่ขายบัตรหมดเกลี้ยงข้างๆ แนวโน้มสุดสัปดาห์แข็งแกร่ง: คาดว่าเทศกาลอาหารท้องถิ่นจะดึงดูดผู้เข้าชมเพิ่มขึ้น 15%",
           "actionItems": "รายการการกระทำ",

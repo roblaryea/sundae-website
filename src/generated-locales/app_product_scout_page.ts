@@ -11,7 +11,7 @@ export const generatedLocalCopy = {
       "featuresDescription": "طبقة بيانات واحدة تربط وتنظف وتوحد كل ما يعتمد عليه مطعمك",
       "features": [
         {
-          "title": "أكثر من 250 موصلاً جاهزاً",
+          "title": "أكثر من 30 موصلاً جاهزاً",
           "description": "نقاط البيع، والعمالة، والمخزون، والحجوزات، والتوصيل، والتسويق، والمحاسبة - يتواصل Scout مع الأنظمة التي تستخدمها بالفعل.",
           "icon": "integration"
         },
@@ -284,7 +284,7 @@ export const generatedLocalCopy = {
       "featuresDescription": "Eén datalaag die alles waar uw restaurant op draait, verbindt, opschoont en verenigt",
       "features": [
         {
-          "title": "250+ kant-en-klare connectoren",
+          "title": "30+ kant-en-klare connectoren",
           "description": "POS, arbeid, inventaris, reserveringen, bezorging, marketing, boekhouding - Scout praat met de systemen die u al gebruikt.",
           "icon": "integration"
         },
@@ -433,7 +433,7 @@ export const generatedLocalCopy = {
           ]
         }
       ],
-      "stepsHeading": "Verbinden. Sauber. Aktivieren.",
+      "stepsHeading": "Verbinden. Bereinigen. Aktivieren.",
       "stepsDescription": "Drei Schritte von isolierten Systemen zu einheitlicher Intelligenz",
       "steps": [
         {
@@ -549,7 +549,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "Ver todos los productos"
     },
     "ur": {
-      "heroBadge": "سکاؤٹ - ڈیٹا لیئر",
+      "heroBadge": "Scout - ڈیٹا لیئر",
       "heroDescription": "Scout آپ کے POS، لیبر، انوینٹری، ریزرویشنز، اور ڈیلیوری پلیٹ فارمز کو ایک صاف ڈیٹا لیئر میں جوڑتا ہے - اس لیے ہر ڈیش بورڈ، الرٹ، اور سفارش اس ڈیٹا سے شروع ہوتی ہے جس پر آپ اعتماد کر سکتے ہیں۔",
       "heroPrimary": "Scout کو عملی طور پر دیکھیں",
       "heroSecondary": "تمام انٹیگریشنز دیکھیں",
@@ -557,7 +557,7 @@ export const generatedLocalCopy = {
       "featuresDescription": "ایک ڈیٹا پرت جو آپ کے ریستوراں کو چلانے والی ہر چیز کو جوڑتی ہے، صاف کرتی ہے اور متحد کرتی ہے۔",
       "features": [
         {
-          "title": "250+ پہلے سے تیار شدہ کنیکٹرز",
+          "title": "30+ پہلے سے تیار شدہ کنیکٹرز",
           "description": "POS، لیبر، انوینٹری، ریزرویشنز، ڈیلیوری، مارکیٹنگ، اکاؤنٹنگ - Scout ان سسٹمز سے بات کرتا ہے جو آپ پہلے سے استعمال کرتے ہیں۔",
           "icon": "integration"
         },
@@ -739,7 +739,7 @@ export const generatedLocalCopy = {
       "featuresDescription": "एक डेटा परत जो आपके रेस्तरां को संचालित करने वाली हर चीज़ को जोड़ती है, साफ़ करती है और एकीकृत करती है",
       "features": [
         {
-          "title": "250+ पूर्व-निर्मित कनेक्टर",
+          "title": "30+ पूर्व-निर्मित कनेक्टर",
           "description": "POS, श्रम, इन्वेंट्री, आरक्षण, डिलीवरी, मार्केटिंग, अकाउंटिंग - Scout उन प्रणालियों से संवाद करता है जिनका आप पहले से उपयोग करते हैं।",
           "icon": "integration"
         },
@@ -888,7 +888,7 @@ export const generatedLocalCopy = {
           ]
         }
       ],
-      "stepsHeading": "Bağlan. Temiz. Etkinleştir.",
+      "stepsHeading": "Bağlan. Temizle. Etkinleştir.",
       "stepsDescription": "Silolanmış sistemlerden birleşik zekaya üç adım",
       "steps": [
         {
@@ -1070,7 +1070,7 @@ export const generatedLocalCopy = {
           ]
         }
       ],
-      "stepsHeading": "Połącz. Czysty. Aktywować.",
+      "stepsHeading": "Połącz. Wyczyść. Aktywuj.",
       "stepsDescription": "Trzy kroki od odizolowanych systemów do ujednoliconej inteligencji",
       "steps": [
         {
@@ -1194,7 +1194,7 @@ export const generatedLocalCopy = {
       "featuresDescription": "Satu lapisan data yang menghubungkan, membersihkan, dan menyatukan semua yang menjadi dasar operasional restoran Anda",
       "features": [
         {
-          "title": "250+ Konektor Siap Pakai",
+          "title": "30+ Konektor Siap Pakai",
           "description": "POS, tenaga kerja, inventaris, reservasi, pengiriman, pemasaran, akuntansi - Scout terhubung dengan sistem yang sudah Anda gunakan.",
           "icon": "integration"
         },
@@ -1343,7 +1343,7 @@ export const generatedLocalCopy = {
           ]
         }
       ],
-      "stepsHeading": "연결하세요. 깨끗한. 활성화하십시오.",
+      "stepsHeading": "연결하세요. 정리하세요. 활성화하세요.",
       "stepsDescription": "사일로 시스템에서 통합 인텔리전스로의 3단계",
       "steps": [
         {
@@ -1434,7 +1434,7 @@ export const generatedLocalCopy = {
           ]
         }
       ],
-      "stepsHeading": "Conectați-vă. Curat. Activa.",
+      "stepsHeading": "Conectați-vă. Curățați. Activați.",
       "stepsDescription": "Trei pași de la sisteme izolate la inteligență unificată",
       "steps": [
         {
@@ -1449,7 +1449,7 @@ export const generatedLocalCopy = {
         },
         {
           "step": "3",
-          "title": "Analizează",
+          "title": "Analizați",
           "description": "Datele unificate circulă în tablouri de bord, alerte și recomandări. Fără exporturi, fără introducere manuală."
         }
       ],
@@ -1558,7 +1558,7 @@ export const generatedLocalCopy = {
       "featuresDescription": "Ett datalager som ansluter, rensar och förenar allt din restaurang körs på",
       "features": [
         {
-          "title": "250+ förbyggda kopplingar",
+          "title": "30+ förbyggda kopplingar",
           "description": "POS, arbete, inventering, reservationer, leverans, marknadsföring, redovisning - Scout kommunicerar med de system du redan använder.",
           "icon": "integration"
         },
@@ -1616,7 +1616,7 @@ export const generatedLocalCopy = {
           ]
         }
       ],
-      "stepsHeading": "Anslut. Rena. Aktivera.",
+      "stepsHeading": "Anslut. Rensa. Aktivera.",
       "stepsDescription": "Tre steg från silade system till enhetlig intelligens",
       "steps": [
         {
@@ -1649,7 +1649,7 @@ export const generatedLocalCopy = {
       "featuresDescription": "একটি ডেটা লেয়ার যা আপনার রেস্তোরাঁর সমস্ত কিছুকে সংযুক্ত করে, পরিষ্কার করে এবং একত্রিত করে",
       "features": [
         {
-          "title": "250+ প্রাক-নির্মিত সংযোগকারী",
+          "title": "30+ প্রাক-নির্মিত সংযোগকারী",
           "description": "POS, শ্রম, ইনভেন্টরি, রিজার্ভেশন, ডেলিভারি, মার্কেটিং, অ্যাকাউন্টিং - Scout আপনি ইতিমধ্যে ব্যবহার করা সিস্টেমগুলির সাথে সংযোগ স্থাপন করে।",
           "icon": "integration"
         },
@@ -1718,7 +1718,7 @@ export const generatedLocalCopy = {
         {
           "step": "2",
           "title": "স্বাভাবিক করা",
-          "description": "স্কাউট প্রতিটি ডেটা উত্সকে একটি সামঞ্জস্যপূর্ণ স্কিমাতে ম্যাপ করে, অসঙ্গতিগুলি পরিষ্কার করে এবং স্বয়ংক্রিয়ভাবে ফাঁকগুলি পূরণ করে।"
+          "description": "Scout প্রতিটি ডেটা উৎসকে একটি সামঞ্জস্যপূর্ণ স্কিমাতে ম্যাপ করে, অসঙ্গতিগুলি পরিষ্কার করে এবং স্বয়ংক্রিয়ভাবে ফাঁকগুলি পূরণ করে।"
         },
         {
           "step": "3",
@@ -1823,7 +1823,7 @@ export const generatedLocalCopy = {
       "ctaSecondary": "ดูผลิตภัณฑ์ทั้งหมด"
     },
     "ms": {
-      "heroBadge": "Pengakap - Lapisan Data",
+      "heroBadge": "Scout - Lapisan Data",
       "heroDescription": "Scout menghubungkan platform POS, buruh, inventori, tempahan dan penghantaran anda ke dalam satu lapisan data yang bersih - jadi setiap papan pemuka, makluman dan pengesyoran bermula dengan data yang boleh anda percayai.",
       "heroPrimary": "Lihat Scout Beraksi",
       "heroSecondary": "Lihat Semua Integrasi",
@@ -1831,7 +1831,7 @@ export const generatedLocalCopy = {
       "featuresDescription": "Satu lapisan data yang menghubungkan, membersihkan dan menyatukan semua yang menjadi asas operasi restoran anda",
       "features": [
         {
-          "title": "250+ Penyambung Siap Sedia",
+          "title": "30+ Penyambung Siap Sedia",
           "description": "POS, buruh, inventori, tempahan, penghantaran, pemasaran, perakaunan - Scout berhubung dengan sistem yang telah anda gunakan.",
           "icon": "integration"
         },
@@ -1889,7 +1889,7 @@ export const generatedLocalCopy = {
           ]
         }
       ],
-      "stepsHeading": "Sambung. Bersih. Aktifkan.",
+      "stepsHeading": "Sambung. Bersihkan. Aktifkan.",
       "stepsDescription": "Tiga langkah daripada sistem siled kepada kecerdasan bersatu",
       "steps": [
         {
@@ -1899,7 +1899,7 @@ export const generatedLocalCopy = {
         },
         {
           "step": "2",
-          "title": "normalkan",
+          "title": "Normalkan",
           "description": "Scout memetakan setiap sumber data kepada skema yang konsisten, membersihkan ketidakkonsistenan dan mengisi jurang secara automatik."
         },
         {
