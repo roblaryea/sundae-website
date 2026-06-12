@@ -47,7 +47,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Was ist das 4D-Intelligenzmodell?",
-            "content": "Sundaes Rahmenwerk für Entscheidungsintelligenz:\n\n**1D: Was ist passiert** - Verkaufs-, Arbeits- und Kostendaten\n**2D: Plan vs. Ist** - Budget- und Prognoseabweichung\n**3D: Markt-Kontext** - Benchmarks, Peers und Wettbewerber\n**4D: Was kommt als Nächstes** - Vorhersagen und Empfehlungen\n\n**Report:** Vollständige 1D und 2D plus eingeschränkte 3D und 4D\n**Core:** Voller Zugriff auf alle 4 Dimensionen."
+            "content": "Das Framework für Entscheidungsintelligenz von Sundae:\n\n**1D: Was ist passiert** - Verkaufs-, Arbeits- und Kostendaten\n**2D: Plan vs. Ist** - Budget- und Prognoseabweichung\n**3D: Markt-Kontext** - Benchmarks, Peers und Wettbewerber\n**4D: Was kommt als Nächstes** - Vorhersagen und Empfehlungen\n\n**Report:** Vollständige 1D und 2D plus eingeschränkte 3D und 4D\n**Core:** Voller Zugriff auf alle 4 Dimensionen."
           }
         ]
       },
@@ -2367,7 +2367,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae की कीमत कितनी है?",
-            "content": "कीमत इस पर निर्भर करती है:\n• रिपोर्ट बनाम कोर\n• स्थानों की संख्या\n• चयनित मॉड्यूल\n• क्या वॉचटॉवर शामिल है\n\n**Report Lite:** हमेशा के लिए मुफ्त\n\nसटीक कीमत के लिए, pricing.sundae.io का उपयोग करें।"
+            "content": "कीमत इस पर निर्भर करती है:\n• रिपोर्ट बनाम कोर\n• स्थानों की संख्या\n• चयनित मॉड्यूल\n• क्या Watchtower शामिल है\n\n**Report Lite:** हमेशा के लिए मुफ्त\n\nसटीक कीमत के लिए, pricing.sundae.io का उपयोग करें।"
           },
           {
             "title": "क्या सेटअप शुल्क हैं?",
@@ -4773,7 +4773,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Vad är 4D Intelligence Model?",
-            "content": "Sundaes ramverk för beslutsintelligens:\n\n**1D: Vad hände** - Försäljnings-, arbets- och kostnadsdata\n**2D: Plan vs Faktisk** - Budget och prognosavvikelse\n**3D: Marknadskontext** - Benchmarking, kollegor och konkurrenter\n**4D: Vad är nästa** - Prognoser och rekommendationer\n\n**Report:** Full 1D och 2D plus begränsad 3D och 4D\n**Core:** Full tillgång över alla 4 dimensioner."
+            "content": "Ramverket för beslutsintelligens från Sundae:\n\n**1D: Vad hände** - Försäljnings-, arbets- och kostnadsdata\n**2D: Plan vs Faktisk** - Budget och prognosavvikelse\n**3D: Marknadskontext** - Benchmarking, kollegor och konkurrenter\n**4D: Vad är nästa** - Prognoser och rekommendationer\n\n**Report:** Full 1D och 2D plus begränsad 3D och 4D\n**Core:** Full tillgång över alla 4 dimensioner."
           }
         ]
       },
