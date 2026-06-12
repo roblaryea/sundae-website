@@ -35,7 +35,7 @@ export const generatedLocalCopy = {
           "title": "معالجة الذكاء الاصطناعي",
           "subtitle": "طبقة الذكاء",
           "description": "الذكاء الاصطناعي متعدد الوكلاء، اكتشاف الأنماط، اكتشاف الشذوذ، الاستدلال",
-          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
+          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
           "textColor": "نص-[فار(-نص أساسي)]",
           "icon": "speed"
         },
@@ -214,7 +214,7 @@ export const generatedLocalCopy = {
         {
           "title": "المعالجة في الوقت الحقيقي",
           "icon": "speed",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "features": [
             "معالجة البيانات في الوقت الحقيقي",
             "أوقات الاستجابة دون الثانية",
@@ -301,7 +301,7 @@ export const generatedLocalCopy = {
           "title": "Procesamiento de IA",
           "subtitle": "Capa de inteligencia",
           "description": "IA multiagente, detección de patrones, detección de anomalías, razonamiento",
-          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
+          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
           "textColor": "texto-[var(--texto-primario)]",
           "icon": "speed"
         },
@@ -480,7 +480,7 @@ export const generatedLocalCopy = {
         {
           "title": "Procesamiento en tiempo real",
           "icon": "speed",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "features": [
             "Procesamiento de datos en tiempo real",
             "Tiempos de respuesta inferiores a un segundo",
@@ -567,7 +567,7 @@ export const generatedLocalCopy = {
           "title": "Traitement de l'IA",
           "subtitle": "Couche de renseignement",
           "description": "IA multi-agents, détection de modèles, détection d'anomalies, raisonnement",
-          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
+          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
           "textColor": "texte-[var(--text-primary)]",
           "icon": "speed"
         },
@@ -746,7 +746,7 @@ export const generatedLocalCopy = {
         {
           "title": "Traitement en temps réel",
           "icon": "speed",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "features": [
             "Traitement des données en temps réel",
             "Temps de réponse inférieurs à la seconde",
@@ -833,7 +833,7 @@ export const generatedLocalCopy = {
           "title": "KI-Verarbeitung",
           "subtitle": "Intelligenzschicht",
           "description": "Multi-Agent-KI, Mustererkennung, Anomalieerkennung, Argumentation",
-          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
+          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
@@ -1012,7 +1012,7 @@ export const generatedLocalCopy = {
         {
           "title": "Echtzeitverarbeitung",
           "icon": "speed",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "features": [
             "Datenverarbeitung in Echtzeit",
             "Reaktionszeiten von weniger als einer Sekunde",
@@ -1099,7 +1099,7 @@ export const generatedLocalCopy = {
           "title": "Processamento de IA",
           "subtitle": "Camada de Inteligência",
           "description": "IA multiagente, detecção de padrões, detecção de anomalias, raciocínio",
-          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
+          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
           "textColor": "texto-[var(--texto-primário)]",
           "icon": "speed"
         },
@@ -1278,7 +1278,7 @@ export const generatedLocalCopy = {
         {
           "title": "Processamento em tempo real",
           "icon": "speed",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "features": [
             "Processamento de dados em tempo real",
             "Tempos de resposta de menos de um segundo",
@@ -1365,7 +1365,7 @@ export const generatedLocalCopy = {
           "title": "AI-verwerking",
           "subtitle": "Intelligentielaag",
           "description": "Multi-agent AI, patroondetectie, detectie van afwijkingen, redenering",
-          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
+          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
           "textColor": "tekst-[var(--tekst-primair)]",
           "icon": "speed"
         },
@@ -1544,7 +1544,7 @@ export const generatedLocalCopy = {
         {
           "title": "Realtime verwerking",
           "icon": "speed",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "features": [
             "Realtime gegevensverwerking",
             "Reactietijden van minder dan een seconde",
@@ -1631,7 +1631,7 @@ export const generatedLocalCopy = {
           "title": "AI پروسیسنگ",
           "subtitle": "انٹیلی جنس پرت",
           "description": "ملٹی ایجنٹ AI، پیٹرن کا پتہ لگانا، بے ضابطگی کا پتہ لگانا، استدلال",
-          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
+          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
           "textColor": "متن-[var(--متن-پرائمری)]",
           "icon": "speed"
         },
@@ -1810,7 +1810,7 @@ export const generatedLocalCopy = {
         {
           "title": "ریئل ٹائم پروسیسنگ",
           "icon": "speed",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "features": [
             "ریئل ٹائم ڈیٹا پروسیسنگ",
             "ذیلی سیکنڈ جوابی اوقات",
@@ -1897,7 +1897,7 @@ export const generatedLocalCopy = {
           "title": "Elaborazione dell'intelligenza artificiale",
           "subtitle": "Livello di intelligenza",
           "description": "IA multi-agente, rilevamento di pattern, rilevamento di anomalie, ragionamento",
-          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
+          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
           "textColor": "testo-[var(--testo-primario)]",
           "icon": "speed"
         },
@@ -2076,7 +2076,7 @@ export const generatedLocalCopy = {
         {
           "title": "Elaborazione in tempo reale",
           "icon": "speed",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "features": [
             "Elaborazione dei dati in tempo reale",
             "Tempi di risposta inferiori al secondo",
@@ -2163,7 +2163,7 @@ export const generatedLocalCopy = {
           "title": "एआई प्रोसेसिंग",
           "subtitle": "खुफिया परत",
           "description": "मल्टी-एजेंट एआई, पैटर्न का पता लगाना, विसंगति का पता लगाना, तर्क करना",
-          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
+          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
           "textColor": "पाठ-[var(--पाठ-प्राथमिक)]",
           "icon": "speed"
         },
@@ -2342,7 +2342,7 @@ export const generatedLocalCopy = {
         {
           "title": "वास्तविक समय प्रसंस्करण",
           "icon": "speed",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "features": [
             "वास्तविक समय डेटा प्रोसेसिंग",
             "उप-सेकेंड प्रतिक्रिया समय",
@@ -2429,7 +2429,7 @@ export const generatedLocalCopy = {
           "title": "Yapay Zeka İşleme",
           "subtitle": "Zeka Katmanı",
           "description": "Çok aracılı yapay zeka, model tespiti, anormallik tespiti, muhakeme",
-          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
+          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
           "textColor": "metin-[var(--text-birincil)]",
           "icon": "speed"
         },
@@ -2608,7 +2608,7 @@ export const generatedLocalCopy = {
         {
           "title": "Gerçek Zamanlı İşleme",
           "icon": "speed",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "features": [
             "Gerçek zamanlı veri işleme",
             "Saniyenin altında yanıt süreleri",
@@ -2695,7 +2695,7 @@ export const generatedLocalCopy = {
           "title": "Przetwarzanie AI",
           "subtitle": "Warstwa inteligencji",
           "description": "Wieloagentowa sztuczna inteligencja, wykrywanie wzorców, wykrywanie anomalii, wnioskowanie",
-          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
+          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
           "textColor": "tekst-[var(--tekst-podstawowy)]",
           "icon": "speed"
         },
@@ -2874,7 +2874,7 @@ export const generatedLocalCopy = {
         {
           "title": "Przetwarzanie w czasie rzeczywistym",
           "icon": "speed",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "features": [
             "Przetwarzanie danych w czasie rzeczywistym",
             "Czas reakcji poniżej sekundy",
@@ -2961,7 +2961,7 @@ export const generatedLocalCopy = {
           "title": "人工智能处理",
           "subtitle": "智能层",
           "description": "多智能体人工智能、模式检测、异常检测、推理",
-          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
+          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
           "textColor": "文本-[var(--text-primary)]",
           "icon": "speed"
         },
@@ -3140,7 +3140,7 @@ export const generatedLocalCopy = {
         {
           "title": "实时处理",
           "icon": "speed",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "features": [
             "实时数据处理",
             "亚秒级响应时间",
@@ -3227,7 +3227,7 @@ export const generatedLocalCopy = {
           "title": "AI 처리",
           "subtitle": "인텔리전스 레이어",
           "description": "멀티에이전트 AI, 패턴탐지, 이상탐지, 추론",
-          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
+          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
           "textColor": "텍스트-[var(--text-primary)]",
           "icon": "speed"
         },
@@ -3406,7 +3406,7 @@ export const generatedLocalCopy = {
         {
           "title": "실시간 처리",
           "icon": "speed",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "features": [
             "실시간 데이터 처리",
             "1초 미만의 응답 시간",
@@ -3493,7 +3493,7 @@ export const generatedLocalCopy = {
           "title": "Procesare AI",
           "subtitle": "Stratul de inteligență",
           "description": "AI multi-agent, detectarea modelelor, detectarea anomaliilor, raționament",
-          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
+          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
@@ -3672,7 +3672,7 @@ export const generatedLocalCopy = {
         {
           "title": "Procesare în timp real",
           "icon": "speed",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "features": [
             "Prelucrarea datelor în timp real",
             "Timpi de răspuns sub secunde",
@@ -3759,7 +3759,7 @@ export const generatedLocalCopy = {
           "title": "AI処理",
           "subtitle": "インテリジェンス層",
           "description": "マルチエージェントAI、パターン検出、異常検出、推論",
-          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
+          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
           "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
@@ -3938,7 +3938,7 @@ export const generatedLocalCopy = {
         {
           "title": "リアルタイム処理",
           "icon": "speed",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "features": [
             "リアルタイムデータ処理",
             "1 秒未満の応答時間",
@@ -4025,7 +4025,7 @@ export const generatedLocalCopy = {
           "title": "Pemrosesan AI",
           "subtitle": "Lapisan Intelijen",
           "description": "AI multi-agen, deteksi pola, deteksi anomali, penalaran",
-          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
+          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
           "textColor": "teks-[var(--teks-utama)]",
           "icon": "speed"
         },
@@ -4204,7 +4204,7 @@ export const generatedLocalCopy = {
         {
           "title": "Pemrosesan Waktu Nyata",
           "icon": "speed",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "features": [
             "Pemrosesan data waktu nyata",
             "Waktu respons sub-detik",
@@ -4291,7 +4291,7 @@ export const generatedLocalCopy = {
           "title": "Xử lý AI",
           "subtitle": "Lớp thông minh",
           "description": "AI đa tác nhân, phát hiện mẫu, phát hiện bất thường, lý luận",
-          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
+          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
           "textColor": "văn bản-[var(--text-primary)]",
           "icon": "speed"
         },
@@ -4470,7 +4470,7 @@ export const generatedLocalCopy = {
         {
           "title": "Xử lý thời gian thực",
           "icon": "speed",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "features": [
             "Xử lý dữ liệu thời gian thực",
             "Thời gian phản hồi dưới giây",
@@ -4557,7 +4557,7 @@ export const generatedLocalCopy = {
           "title": "এআই প্রসেসিং",
           "subtitle": "বুদ্ধিমত্তা স্তর",
           "description": "মাল্টি-এজেন্ট এআই, প্যাটার্ন সনাক্তকরণ, অসঙ্গতি সনাক্তকরণ, যুক্তি",
-          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
+          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
           "textColor": "পাঠ্য-[var(--পাঠ্য-প্রাথমিক)]",
           "icon": "speed"
         },
@@ -4736,7 +4736,7 @@ export const generatedLocalCopy = {
         {
           "title": "রিয়েল-টাইম প্রসেসিং",
           "icon": "speed",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "features": [
             "রিয়েল-টাইম ডেটা প্রসেসিং",
             "সাব-সেকেন্ডের প্রতিক্রিয়া বার",
@@ -4823,7 +4823,7 @@ export const generatedLocalCopy = {
           "title": "AI-bearbetning",
           "subtitle": "Intelligenslager",
           "description": "Multi-agent AI, mönsterdetektering, anomalidetektering, resonemang",
-          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
+          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
           "textColor": "text-[var(--text-primär)]",
           "icon": "speed"
         },
@@ -5002,7 +5002,7 @@ export const generatedLocalCopy = {
         {
           "title": "Realtidsbearbetning",
           "icon": "speed",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "features": [
             "Databehandling i realtid",
             "Svarstider under en sekund",
@@ -5089,7 +5089,7 @@ export const generatedLocalCopy = {
           "title": "การประมวลผลเอไอ",
           "subtitle": "ชั้นสติปัญญา",
           "description": "AI หลายตัวแทน การตรวจจับรูปแบบ การตรวจจับความผิดปกติ การให้เหตุผล",
-          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
+          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
           "textColor": "ข้อความ - [var (-- ข้อความหลัก)]",
           "icon": "speed"
         },
@@ -5268,7 +5268,7 @@ export const generatedLocalCopy = {
         {
           "title": "การประมวลผลแบบเรียลไทม์",
           "icon": "speed",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "features": [
             "การประมวลผลข้อมูลแบบเรียลไทม์",
             "เวลาตอบสนองรองวินาที",
@@ -5355,7 +5355,7 @@ export const generatedLocalCopy = {
           "title": "Pemprosesan AI",
           "subtitle": "Lapisan Perisikan",
           "description": "AI berbilang ejen, pengesanan corak, pengesanan anomali, penaakulan",
-          "color": "bg-gradient-to-r from-slate-50 to-blue-50",
+          "color": "bg-gradient-to-r from-slate-50 to-orange-50",
           "textColor": "teks-[var(--teks-utama)]",
           "icon": "speed"
         },
@@ -5534,7 +5534,7 @@ export const generatedLocalCopy = {
         {
           "title": "Pemprosesan Masa Nyata",
           "icon": "speed",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "features": [
             "Pemprosesan data masa nyata",
             "Masa tindak balas subsaat",

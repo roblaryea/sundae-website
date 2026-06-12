@@ -62,7 +62,7 @@ export const generatedLocalCopy = {
             "تتبع الاتجاه التنافسي لمدة 12 أسبوعًا"
           ],
           "icon": "balance",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "title": "الأحداث وذكاء التقويم",
@@ -212,7 +212,7 @@ export const generatedLocalCopy = {
             "Suivi des tendances concurrentielles sur 12 semaines"
           ],
           "icon": "balance",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "title": "Intelligence des événements et du calendrier",
@@ -362,7 +362,7 @@ export const generatedLocalCopy = {
             "Seguimiento de tendencias competitivas de 12 semanas"
           ],
           "icon": "balance",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "title": "Inteligencia de eventos y calendario",
@@ -512,7 +512,7 @@ export const generatedLocalCopy = {
             "12-wöchiges Tracking von Wettbewerbstrends"
           ],
           "icon": "balance",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "title": "Informationen zu Ereignissen und Kalendern",
@@ -662,7 +662,7 @@ export const generatedLocalCopy = {
             "12 weken durende competitieve trendtracking"
           ],
           "icon": "balance",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "title": "Evenementen- en agenda-informatie",
@@ -812,7 +812,7 @@ export const generatedLocalCopy = {
             "Acompanhamento de tendências competitivas de 12 semanas"
           ],
           "icon": "balance",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "title": "Eventos e inteligência de calendário",
@@ -962,7 +962,7 @@ export const generatedLocalCopy = {
             "12 ہفتے کے مسابقتی رجحان سے باخبر رہنا"
           ],
           "icon": "balance",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "title": "واقعات اور کیلنڈر انٹیلی جنس",
@@ -1112,7 +1112,7 @@ export const generatedLocalCopy = {
             "12-सप्ताह की प्रतिस्पर्धी प्रवृत्ति ट्रैकिंग"
           ],
           "icon": "balance",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "title": "घटनाएँ और कैलेंडर इंटेलिजेंस",
@@ -1262,7 +1262,7 @@ export const generatedLocalCopy = {
             "12 haftalık rekabetçi trend takibi"
           ],
           "icon": "balance",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "title": "Etkinlikler ve Takvim Bilgileri",
@@ -1412,7 +1412,7 @@ export const generatedLocalCopy = {
             "Monitoraggio del trend competitivo di 12 settimane"
           ],
           "icon": "balance",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "title": "Eventi e intelligenza del calendario",
@@ -1562,7 +1562,7 @@ export const generatedLocalCopy = {
             "12-tygodniowe śledzenie trendów konkurencyjnych"
           ],
           "icon": "balance",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "title": "Wydarzenia i inteligencja kalendarza",
@@ -1712,7 +1712,7 @@ export const generatedLocalCopy = {
             "12周竞争趋势跟踪"
           ],
           "icon": "balance",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "title": "事件和日历智能",
@@ -1862,7 +1862,7 @@ export const generatedLocalCopy = {
             "12週間の競争傾向の追跡"
           ],
           "icon": "balance",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "title": "イベントとカレンダーのインテリジェンス",
@@ -2012,7 +2012,7 @@ export const generatedLocalCopy = {
             "12주 경쟁 동향 추적"
           ],
           "icon": "balance",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "title": "이벤트 및 캘린더 인텔리전스",
@@ -2162,7 +2162,7 @@ export const generatedLocalCopy = {
             "Pelacakan tren kompetitif selama 12 minggu"
           ],
           "icon": "balance",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "title": "Acara & Kecerdasan Kalender",
@@ -2312,7 +2312,7 @@ export const generatedLocalCopy = {
             "Urmărirea tendințelor competitive pe 12 săptămâni"
           ],
           "icon": "balance",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "title": "Evenimente și Calendar Intelligence",
@@ -2462,7 +2462,7 @@ export const generatedLocalCopy = {
             "Theo dõi xu hướng cạnh tranh trong 12 tuần"
           ],
           "icon": "balance",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "title": "Thông tin sự kiện & lịch",
@@ -2612,7 +2612,7 @@ export const generatedLocalCopy = {
             "12 veckors konkurrenstrendspårning"
           ],
           "icon": "balance",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "title": "Events & Calendar Intelligence",
@@ -2762,7 +2762,7 @@ export const generatedLocalCopy = {
             "12-সপ্তাহের প্রতিযোগিতামূলক প্রবণতা ট্র্যাকিং"
           ],
           "icon": "balance",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "title": "ইভেন্ট এবং ক্যালেন্ডার বুদ্ধিমত্তা",
@@ -2912,7 +2912,7 @@ export const generatedLocalCopy = {
             "การติดตามแนวโน้มการแข่งขันในช่วง 12 สัปดาห์"
           ],
           "icon": "balance",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "title": "กิจกรรมและปฏิทินอัจฉริยะ",
@@ -3062,7 +3062,7 @@ export const generatedLocalCopy = {
             "Penjejakan arah aliran kompetitif 12 minggu"
           ],
           "icon": "balance",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "title": "Perisikan Acara & Kalendar",

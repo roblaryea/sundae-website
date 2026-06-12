@@ -26,7 +26,7 @@ export const generatedLocalCopy = {
           "cta": "ابدأ مجانًا",
           "ctaLink": "/report",
           "icon": "report",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#C2410C]"
         },
         {
           "title": "فهم خط الأساس الخاص بك",
@@ -184,7 +184,7 @@ export const generatedLocalCopy = {
           "description": "حاسبة التسعير التفاعلية",
           "button": "حساب التسعير →",
           "icon": "calculator",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "التحدث إلى خبير",
@@ -220,7 +220,7 @@ export const generatedLocalCopy = {
           "cta": "Commencez gratuitement",
           "ctaLink": "/report",
           "icon": "report",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#C2410C]"
         },
         {
           "title": "Comprenez votre référence",
@@ -378,7 +378,7 @@ export const generatedLocalCopy = {
           "description": "Calculateur de prix interactif",
           "button": "Calculer le prix →",
           "icon": "calculator",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Parlez à un expert",
@@ -414,7 +414,7 @@ export const generatedLocalCopy = {
           "cta": "Comience gratis",
           "ctaLink": "/report",
           "icon": "report",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#C2410C]"
         },
         {
           "title": "Comprenda su línea de base",
@@ -572,7 +572,7 @@ export const generatedLocalCopy = {
           "description": "Calculadora de precios interactiva",
           "button": "Calcular precio →",
           "icon": "calculator",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Habla con un experto",
@@ -608,7 +608,7 @@ export const generatedLocalCopy = {
           "cta": "Begin gratis",
           "ctaLink": "/report",
           "icon": "report",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#C2410C]"
         },
         {
           "title": "Begrijp uw basislijn",
@@ -766,7 +766,7 @@ export const generatedLocalCopy = {
           "description": "Interactieve prijscalculator",
           "button": "Bereken prijzen →",
           "icon": "calculator",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Praat met een deskundige",
@@ -802,7 +802,7 @@ export const generatedLocalCopy = {
           "cta": "Comece grátis",
           "ctaLink": "/report",
           "icon": "report",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#C2410C]"
         },
         {
           "title": "Entenda sua linha de base",
@@ -960,7 +960,7 @@ export const generatedLocalCopy = {
           "description": "Calculadora de preços interativa",
           "button": "Calcular preços →",
           "icon": "calculator",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Fale com um especialista",
@@ -996,7 +996,7 @@ export const generatedLocalCopy = {
           "cta": "Kostenlos starten",
           "ctaLink": "/report",
           "icon": "report",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#C2410C]"
         },
         {
           "title": "Verstehen Sie Ihre Grundlinie",
@@ -1154,7 +1154,7 @@ export const generatedLocalCopy = {
           "description": "Interaktiver Preisrechner",
           "button": "Preis berechnen →",
           "icon": "calculator",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Sprechen Sie mit einem Experten",
@@ -1190,7 +1190,7 @@ export const generatedLocalCopy = {
           "cta": "مفت شروع کریں۔",
           "ctaLink": "/report",
           "icon": "report",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#C2410C]"
         },
         {
           "title": "اپنی بیس لائن کو سمجھیں۔",
@@ -1348,7 +1348,7 @@ export const generatedLocalCopy = {
           "description": "انٹرایکٹو قیمتوں کا تعین کرنے والا کیلکولیٹر",
           "button": "قیمت کا حساب لگائیں →",
           "icon": "calculator",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "کسی ماہر سے بات کریں۔",
@@ -1384,7 +1384,7 @@ export const generatedLocalCopy = {
           "cta": "免费开始",
           "ctaLink": "/report",
           "icon": "report",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#C2410C]"
         },
         {
           "title": "了解你的基线",
@@ -1542,7 +1542,7 @@ export const generatedLocalCopy = {
           "description": "交互式定价计算器",
           "button": "计算定价 →",
           "icon": "calculator",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "与专家交谈",
@@ -1578,7 +1578,7 @@ export const generatedLocalCopy = {
           "cta": "निःशुल्क प्रारंभ करें",
           "ctaLink": "/report",
           "icon": "report",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#C2410C]"
         },
         {
           "title": "अपनी आधार रेखा को समझें",
@@ -1736,7 +1736,7 @@ export const generatedLocalCopy = {
           "description": "इंटरएक्टिव मूल्य निर्धारण कैलकुलेटर",
           "button": "मूल्य निर्धारण की गणना करें →",
           "icon": "calculator",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "किसी विशेषज्ञ से बात करें",
@@ -1772,7 +1772,7 @@ export const generatedLocalCopy = {
           "cta": "Inizia gratis",
           "ctaLink": "/report",
           "icon": "report",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#C2410C]"
         },
         {
           "title": "Comprendi la tua linea di base",
@@ -1930,7 +1930,7 @@ export const generatedLocalCopy = {
           "description": "Calcolatore interattivo dei prezzi",
           "button": "Calcola il prezzo →",
           "icon": "calculator",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Parla con un esperto",
@@ -1966,7 +1966,7 @@ export const generatedLocalCopy = {
           "cta": "Ücretsiz Başla",
           "ctaLink": "/report",
           "icon": "report",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#C2410C]"
         },
         {
           "title": "Temel Çizginizi Anlayın",
@@ -2124,7 +2124,7 @@ export const generatedLocalCopy = {
           "description": "Etkileşimli fiyatlandırma hesaplayıcısı",
           "button": "Fiyatlandırmayı Hesapla →",
           "icon": "calculator",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Bir Uzmanla Konuşun",
@@ -2160,7 +2160,7 @@ export const generatedLocalCopy = {
           "cta": "Zacznij za darmo",
           "ctaLink": "/report",
           "icon": "report",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#C2410C]"
         },
         {
           "title": "Zrozum swoją linię bazową",
@@ -2318,7 +2318,7 @@ export const generatedLocalCopy = {
           "description": "Interaktywny kalkulator cen",
           "button": "Oblicz cenę →",
           "icon": "calculator",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Porozmawiaj z ekspertem",
@@ -2354,7 +2354,7 @@ export const generatedLocalCopy = {
           "cta": "무료로 시작하세요",
           "ctaLink": "/report",
           "icon": "report",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#C2410C]"
         },
         {
           "title": "기준선 이해",
@@ -2512,7 +2512,7 @@ export const generatedLocalCopy = {
           "description": "대화형 가격 계산기",
           "button": "가격 계산 →",
           "icon": "calculator",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "전문가와 상담하세요",
@@ -2548,7 +2548,7 @@ export const generatedLocalCopy = {
           "cta": "Începe gratuit",
           "ctaLink": "/report",
           "icon": "report",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#C2410C]"
         },
         {
           "title": "Înțelegeți-vă linia de bază",
@@ -2706,7 +2706,7 @@ export const generatedLocalCopy = {
           "description": "Calculator interactiv de prețuri",
           "button": "Calculați prețul →",
           "icon": "calculator",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Discutați cu un expert",
@@ -2742,7 +2742,7 @@ export const generatedLocalCopy = {
           "cta": "無料で始める",
           "ctaLink": "/report",
           "icon": "report",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#C2410C]"
         },
         {
           "title": "ベースラインを理解する",
@@ -2900,7 +2900,7 @@ export const generatedLocalCopy = {
           "description": "インタラクティブな価格計算ツール",
           "button": "価格を計算する →",
           "icon": "calculator",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "専門家に相談する",
@@ -2936,7 +2936,7 @@ export const generatedLocalCopy = {
           "cta": "Mulai Gratis",
           "ctaLink": "/report",
           "icon": "report",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#C2410C]"
         },
         {
           "title": "Pahami Dasar Anda",
@@ -3094,7 +3094,7 @@ export const generatedLocalCopy = {
           "description": "Kalkulator harga interaktif",
           "button": "Hitung Harga →",
           "icon": "calculator",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Bicaralah dengan Pakar",
@@ -3130,7 +3130,7 @@ export const generatedLocalCopy = {
           "cta": "Bắt đầu miễn phí",
           "ctaLink": "/report",
           "icon": "report",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#C2410C]"
         },
         {
           "title": "Hiểu đường cơ sở của bạn",
@@ -3288,7 +3288,7 @@ export const generatedLocalCopy = {
           "description": "Máy tính giá tương tác",
           "button": "Tính giá →",
           "icon": "calculator",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Nói chuyện với chuyên gia",
@@ -3324,7 +3324,7 @@ export const generatedLocalCopy = {
           "cta": "বিনামূল্যে শুরু করুন",
           "ctaLink": "/report",
           "icon": "report",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#C2410C]"
         },
         {
           "title": "আপনার বেসলাইন বুঝতে",
@@ -3482,7 +3482,7 @@ export const generatedLocalCopy = {
           "description": "ইন্টারেক্টিভ মূল্য ক্যালকুলেটর",
           "button": "মূল্য গণনা করুন →",
           "icon": "calculator",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "একজন বিশেষজ্ঞের সাথে কথা বলুন",
@@ -3518,7 +3518,7 @@ export const generatedLocalCopy = {
           "cta": "Börja gratis",
           "ctaLink": "/report",
           "icon": "report",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#C2410C]"
         },
         {
           "title": "Förstå din baslinje",
@@ -3676,7 +3676,7 @@ export const generatedLocalCopy = {
           "description": "Interaktiv priskalkylator",
           "button": "Beräkna prissättning →",
           "icon": "calculator",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Prata med en expert",
@@ -3712,7 +3712,7 @@ export const generatedLocalCopy = {
           "cta": "เริ่มฟรี",
           "ctaLink": "/report",
           "icon": "report",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#C2410C]"
         },
         {
           "title": "ทำความเข้าใจพื้นฐานของคุณ",
@@ -3870,7 +3870,7 @@ export const generatedLocalCopy = {
           "description": "เครื่องคำนวณราคาแบบโต้ตอบ",
           "button": "คำนวณราคา →",
           "icon": "calculator",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "พูดคุยกับผู้เชี่ยวชาญ",
@@ -3906,7 +3906,7 @@ export const generatedLocalCopy = {
           "cta": "Mula Percuma",
           "ctaLink": "/report",
           "icon": "report",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#C2410C]"
         },
         {
           "title": "Fahami Garis Dasar Anda",
@@ -4064,7 +4064,7 @@ export const generatedLocalCopy = {
           "description": "Kalkulator harga interaktif",
           "button": "Kira Harga →",
           "icon": "calculator",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Bercakap dengan Pakar",

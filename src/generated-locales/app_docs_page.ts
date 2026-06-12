@@ -25,7 +25,7 @@ export const generatedLocalCopy = {
           "title": "Commencer",
           "description": "Apprenez à vous intégrer à Sundae et à connecter vos sources de données",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Créer votre compte Sundae",
             "Connecter votre système POS",
@@ -150,7 +150,7 @@ export const generatedLocalCopy = {
           "title": "Erste Schritte",
           "description": "Erfahren Sie, wie Sie sich bei Sundae anmelden und Ihre Datenquellen verbinden",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Erstellen Sie Ihr Sundae-Konto",
             "Verbinden Sie Ihr POS-System",
@@ -275,7 +275,7 @@ export const generatedLocalCopy = {
           "title": "Introducción",
           "description": "Aprende cómo iniciar con Sundae y conectar tus fuentes de datos",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Crear tu cuenta de Sundae",
             "Conectar tu sistema POS",
@@ -400,7 +400,7 @@ export const generatedLocalCopy = {
           "title": "Aan de slag",
           "description": "Leer hoe je je aanmeldt bij Sundae en je gegevensbronnen verbindt",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Je Sundae-account aanmaken",
             "Je POS-systeem verbinden",
@@ -525,7 +525,7 @@ export const generatedLocalCopy = {
           "title": "البدء",
           "description": "تعلم كيفية الانضمام إلى Sundae وربط مصادر بياناتك",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "إنشاء حسابك في Sundae",
             "ربط نظام POS الخاص بك",
@@ -650,7 +650,7 @@ export const generatedLocalCopy = {
           "title": "شروع کرنا",
           "description": "Learn how to onboard to Sundae and connect your data sources",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Creating your Sundae account",
             "اپنے POS سسٹم کو جوڑنا",
@@ -775,7 +775,7 @@ export const generatedLocalCopy = {
           "title": "Introdução",
           "description": "Aprenda como se integrar ao Sundae e conectar suas fontes de dados",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Criando sua conta no Sundae",
             "Conectando seu sistema de POS",
@@ -900,7 +900,7 @@ export const generatedLocalCopy = {
           "title": "शुरुआत करना",
           "description": "Sundae में ऑनबोर्डिंग और अपने डेटा स्रोतों को कनेक्ट करना सीखें",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "अपना Sundae खाता बनाना",
             "अपने POS सिस्टम को कनेक्ट करना",
@@ -1025,7 +1025,7 @@ export const generatedLocalCopy = {
           "title": "Iniziare",
           "description": "Scopri come iniziare con Sundae e collegare le tue fonti di dati",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Creare il tuo account Sundae",
             "Collegare il tuo sistema POS",
@@ -1150,7 +1150,7 @@ export const generatedLocalCopy = {
           "title": "入门指南",
           "description": "了解如何在Sundae上进行入驻并连接您的数据源",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "创建您的Sundae账户",
             "连接您的POS系统",
@@ -1275,7 +1275,7 @@ export const generatedLocalCopy = {
           "title": "Başlarken",
           "description": "Sundae'ye nasıl kaydolacağınızı ve veri kaynaklarınızı nasıl bağlayacağınızı öğrenin",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Sundae hesabınızı oluşturma",
             "POS sisteminizi bağlama",
@@ -1400,7 +1400,7 @@ export const generatedLocalCopy = {
           "title": "Rozpoczęcie",
           "description": "Dowiedz się, jak rozpocząć korzystanie z Sundae i połączyć swoje źródła danych",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Tworzenie konta Sundae",
             "Łączenie systemu POS",
@@ -1525,7 +1525,7 @@ export const generatedLocalCopy = {
           "title": "はじめに",
           "description": "Sundaeへのオンボーディングとデータソースの接続方法を学ぶ",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Sundaeアカウントの作成",
             "POSシステムの接続",
@@ -1650,7 +1650,7 @@ export const generatedLocalCopy = {
           "title": "Memulai",
           "description": "Pelajari cara mendaftar ke Sundae dan menghubungkan sumber data Anda",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Membuat akun Sundae Anda",
             "Menghubungkan sistem POS Anda",
@@ -1775,7 +1775,7 @@ export const generatedLocalCopy = {
           "title": "시작하기",
           "description": "Sundae에 온보딩하고 데이터 소스를 연결하는 방법을 배우세요",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Sundae 계정 만들기",
             "POS 시스템 연결하기",
@@ -1900,7 +1900,7 @@ export const generatedLocalCopy = {
           "title": "Bắt đầu",
           "description": "Tìm hiểu cách khởi tạo Sundae và kết nối các nguồn dữ liệu của bạn",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Tạo tài khoản Sundae của bạn",
             "Kết nối hệ thống POS của bạn",
@@ -2025,7 +2025,7 @@ export const generatedLocalCopy = {
           "title": "Începere",
           "description": "Învățați cum să vă integrați în Sundae și să conectați sursele de date",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Crearea contului dvs. Sundae",
             "Conectarea sistemului dvs. POS",
@@ -2150,7 +2150,7 @@ export const generatedLocalCopy = {
           "title": "Kom igång",
           "description": "Lär dig hur du onboardar till Sundae och kopplar dina datakällor",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Skapa ditt Sundae-konto",
             "Ansluta ditt POS-system",
@@ -2275,7 +2275,7 @@ export const generatedLocalCopy = {
           "title": "เริ่มต้นใช้งาน",
           "description": "เรียนรู้วิธีการเริ่มต้นใช้งาน Sundae และเชื่อมต่อแหล่งข้อมูลของคุณ",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "สร้างบัญชี Sundae ของคุณ",
             "เชื่อมต่อระบบ POS ของคุณ",
@@ -2400,7 +2400,7 @@ export const generatedLocalCopy = {
           "title": "শুরু করা",
           "description": "Sundae-এ অনবোর্ডিং এবং আপনার ডেটা সোর্সগুলি সংযুক্ত করার উপায় শিখুন",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "আপনার Sundae অ্যাকাউন্ট তৈরি করা",
             "আপনার POS সিস্টেম সংযুক্ত করা",
@@ -2525,7 +2525,7 @@ export const generatedLocalCopy = {
           "title": "Memulakan",
           "description": "Ketahui cara untuk mendaftar ke Sundae dan menyambungkan sumber data anda",
           "icon": "growth",
-          "color": "bg-[#1C47FF]",
+          "color": "bg-[#FF5C4D]",
           "topics": [
             "Membuat akaun Sundae anda",
             "Menyambungkan sistem POS anda",

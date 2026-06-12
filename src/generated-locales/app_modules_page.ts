@@ -52,7 +52,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "ROI typique : réduction des coûts de main-d'œuvre de 8 à 12 %",
           "bestFor": "Opérations à fort volume avec une planification complexe",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "name": "Intelligence d'Inventaire",
@@ -306,7 +306,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "ROI típico: reducción de costos laborales del 8-12%",
           "bestFor": "Operaciones de alto volumen con programación compleja",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "name": "Inteligencia de Inventario",
@@ -560,7 +560,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "Typische Rendite: 8-12% Reduzierung der Arbeitskosten",
           "bestFor": "Hochvolumenbetriebe mit komplexer Planung",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "name": "Bestandsintelligenz",
@@ -814,7 +814,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "Typische ROI: 8-12% vermindering van arbeidskosten",
           "bestFor": "Hoge-volume operaties met complexe planning",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "name": "Voorraadintelligentie",
@@ -1068,7 +1068,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "العائد على الاستثمار النموذجي: تقليل تكاليف العمالة بنسبة 8-12%",
           "bestFor": "العمليات ذات الحجم الكبير مع جدولة معقدة",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "name": "ذكاء المخزون",
@@ -1322,7 +1322,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "ROI típico: redução de 8-12% nos custos de mão de obra",
           "bestFor": "Operações de alto volume com programação complexa",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "name": "Inteligência de Inventário",
@@ -1576,7 +1576,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "عام ROI: 8-12% محنت کے اخراجات میں کمی",
           "bestFor": "پیچیدہ شیڈولنگ کے ساتھ اعلی حجم کی کارروائیاں",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "name": "انویٹری انٹیلیجنس",
@@ -1830,7 +1830,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "सामान्य ROI: 8-12% श्रम लागत में कमी",
           "bestFor": "जटिल शेड्यूलिंग के साथ उच्च मात्रा के संचालन",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "name": "इन्वेंटरी इंटेलिजेंस",
@@ -2084,7 +2084,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "Tipik ROI: %8-12 iş gücü maliyet azaltımı",
           "bestFor": "Karmaşık programlamaya sahip yüksek hacimli operasyonlar",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "name": "Envanter Zekası",
@@ -2338,7 +2338,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "ROI tipico: riduzione dei costi del lavoro dell'8-12%",
           "bestFor": "Operazioni ad alto volume con programmazione complessa",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "name": "Intelligenza dell'Inventario",
@@ -2592,7 +2592,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "Typowy ROI: 8-12% redukcji kosztów pracy",
           "bestFor": "Operacje o dużym wolumenie złożonymi harmonogramami",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "name": "Inteligencja Zapasów",
@@ -2846,7 +2846,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "典型投资回报率：8-12%的劳动力成本降低",
           "bestFor": "复杂排班的高容量运营",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "name": "库存智能",
@@ -3100,7 +3100,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "典型的なROI：労働コストの8-12%削減",
           "bestFor": "複雑なスケジューリングを持つ高ボリュームのオペレーション",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "name": "在庫インテリジェンス",
@@ -3354,7 +3354,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "ROI Tipikal: Pengurangan biaya tenaga kerja 8-12%",
           "bestFor": "Operasi volume tinggi dengan penjadwalan kompleks",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "name": "Inteligensi Inventaris",
@@ -3608,7 +3608,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "ROI điển hình: Giảm chi phí lao động 8-12%",
           "bestFor": "Các hoạt động có khối lượng lớn với lịch trình phức tạp",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "name": "Trí tuệ Tồn kho",
@@ -3862,7 +3862,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "ROI tipic: reducere a costurilor forței de muncă de 8-12%",
           "bestFor": "Operațiuni cu volum mare și programare complexă",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "name": "Inteligența Inventarului",
@@ -4116,7 +4116,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "일반적인 ROI: 8-12% 노동 비용 절감",
           "bestFor": "복잡한 일정이 있는 대량 운영",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "name": "재고 인텔리전스",
@@ -4370,7 +4370,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "Typisk ROI: 8-12% minskning av arbetskostnader",
           "bestFor": "Högvolymverksamheter med komplex schemaläggning",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "name": "Inventarieintelligens",
@@ -4624,7 +4624,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "ROI ปกติ: ลดต้นทุนแรงงาน 8-12%",
           "bestFor": "การดำเนินงานที่มีปริมาณสูงพร้อมการจัดตารางเวลาที่ซับซ้อน",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "name": "ความฉลาดในการจัดการสินค้าคงคลัง",
@@ -4878,7 +4878,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "ROI Tipikal: Pengurangan kos tenaga kerja 8-12%",
           "bestFor": "Operasi bervolume tinggi dengan penjadualan yang kompleks",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "name": "Inteligensi Inventori",
@@ -5132,7 +5132,7 @@ export const generatedLocalCopy = {
           ],
           "roi": "সাধারণ ROI: 8-12% শ্রম খরচ হ্রাস",
           "bestFor": "জটিল শিডিউলিং সহ উচ্চ-পরিমাণ অপারেশন",
-          "color": "from-blue-500 to-blue-600"
+          "color": "from-[#FF5C4D] to-[#E9A24A]"
         },
         {
           "name": "ইনভেন্টরি ইন্টেলিজেন্স",

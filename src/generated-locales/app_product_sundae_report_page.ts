@@ -43,7 +43,7 @@ export const generatedLocalCopy = {
             "Tendências de horas extras"
           ],
           "icon": "labor",
-          "color": "bg-blue-500"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "name": "Gestão de Custos Alimentares",
@@ -161,7 +161,7 @@ export const generatedLocalCopy = {
             "اتجاهات العمل الإضافي"
           ],
           "icon": "labor",
-          "color": "bg-blue-500"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "name": "إدارة تكاليف الغذاء",
@@ -279,7 +279,7 @@ export const generatedLocalCopy = {
             "Tendencias de horas extras"
           ],
           "icon": "labor",
-          "color": "bg-blue-500"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "name": "Gestión de costos de alimentos",
@@ -397,7 +397,7 @@ export const generatedLocalCopy = {
             "Tendances des heures supplémentaires"
           ],
           "icon": "labor",
-          "color": "bg-blue-500"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "name": "Gestion des coûts alimentaires",
@@ -515,7 +515,7 @@ export const generatedLocalCopy = {
             "Überstundentrends"
           ],
           "icon": "labor",
-          "color": "bg-blue-500"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "name": "Lebensmittelkostenmanagement",
@@ -633,7 +633,7 @@ export const generatedLocalCopy = {
             "Trends over overuren"
           ],
           "icon": "labor",
-          "color": "bg-blue-500"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "name": "Beheer van voedselkosten",
@@ -751,7 +751,7 @@ export const generatedLocalCopy = {
             "اوور ٹائم ٹرینڈز"
           ],
           "icon": "labor",
-          "color": "bg-blue-500"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "name": "کھانے کی لاگت کا انتظام",
@@ -869,7 +869,7 @@ export const generatedLocalCopy = {
             "Tendenze sugli straordinari"
           ],
           "icon": "labor",
-          "color": "bg-blue-500"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "name": "Gestione dei costi alimentari",
@@ -987,7 +987,7 @@ export const generatedLocalCopy = {
             "Fazla Mesai Eğilimleri"
           ],
           "icon": "labor",
-          "color": "bg-blue-500"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "name": "Gıda Maliyet Yönetimi",
@@ -1105,7 +1105,7 @@ export const generatedLocalCopy = {
             "ओवरटाइम रुझान"
           ],
           "icon": "labor",
-          "color": "bg-blue-500"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "name": "खाद्य लागत प्रबंधन",
@@ -1223,7 +1223,7 @@ export const generatedLocalCopy = {
             "加班趋势"
           ],
           "icon": "labor",
-          "color": "bg-blue-500"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "name": "食品成本管理",
@@ -1341,7 +1341,7 @@ export const generatedLocalCopy = {
             "Trendy w godzinach nadliczbowych"
           ],
           "icon": "labor",
-          "color": "bg-blue-500"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "name": "Zarządzanie kosztami żywności",
@@ -1459,7 +1459,7 @@ export const generatedLocalCopy = {
             "残業の傾向"
           ],
           "icon": "labor",
-          "color": "bg-blue-500"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "name": "食費管理",
@@ -1577,7 +1577,7 @@ export const generatedLocalCopy = {
             "초과근무 동향"
           ],
           "icon": "labor",
-          "color": "bg-blue-500"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "name": "식품비 관리",
@@ -1695,7 +1695,7 @@ export const generatedLocalCopy = {
             "Tren Lembur"
           ],
           "icon": "labor",
-          "color": "bg-blue-500"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "name": "Manajemen Biaya Makanan",
@@ -1813,7 +1813,7 @@ export const generatedLocalCopy = {
             "Xu hướng làm thêm giờ"
           ],
           "icon": "labor",
-          "color": "bg-blue-500"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "name": "Quản lý chi phí thực phẩm",
@@ -1931,7 +1931,7 @@ export const generatedLocalCopy = {
             "Tendințe ore suplimentare"
           ],
           "icon": "labor",
-          "color": "bg-blue-500"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "name": "Managementul costurilor alimentare",
@@ -2049,7 +2049,7 @@ export const generatedLocalCopy = {
             "ওভারটাইম প্রবণতা"
           ],
           "icon": "labor",
-          "color": "bg-blue-500"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "name": "খাদ্য খরচ ব্যবস্থাপনা",
@@ -2167,7 +2167,7 @@ export const generatedLocalCopy = {
             "Övertidstrender"
           ],
           "icon": "labor",
-          "color": "bg-blue-500"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "name": "Matkostnadshantering",
@@ -2285,7 +2285,7 @@ export const generatedLocalCopy = {
             "แนวโน้มการทำงานล่วงเวลา"
           ],
           "icon": "labor",
-          "color": "bg-blue-500"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "name": "การจัดการต้นทุนอาหาร",
@@ -2403,7 +2403,7 @@ export const generatedLocalCopy = {
             "Trend Lebih Masa"
           ],
           "icon": "labor",
-          "color": "bg-blue-500"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "name": "Pengurusan Kos Makanan",

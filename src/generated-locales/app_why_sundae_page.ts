@@ -18,7 +18,7 @@ export const generatedLocalCopy = {
           "title": "Ingestion de données à 12 domaines",
           "description": "POS, main-d'œuvre, inventaire, achats, réservations, livraison, marketing, expérience client, CRM, comptabilité - tout est unifié. Fini les systèmes déconnectés.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Modèle d'intelligence 4D",
@@ -98,7 +98,7 @@ export const generatedLocalCopy = {
             "pain": "Vous ne pouvez pas être dans chaque restaurant à la fois.",
             "description": "Visibilité en temps réel sur chaque emplacement via Pulse et Portfolio - sachez qui a besoin d'aide avant même qu'il ne demande.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finance & FP&A",
@@ -146,7 +146,7 @@ export const generatedLocalCopy = {
           "title": "Ingesta de Datos de 12 Dominios",
           "description": "POS, mano de obra, inventario, compras, reservas, entrega, marketing, experiencia del cliente, CRM, contabilidad - todo unificado. No más sistemas desconectados.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Modelo de Inteligencia 4D",
@@ -226,7 +226,7 @@ export const generatedLocalCopy = {
             "pain": "No puedes estar en cada restaurante a la vez.",
             "description": "Visibilidad en tiempo real de cada ubicación a través de Pulse y Portfolio - sabe quién necesita ayuda antes de que lo pida.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finanzas y FP&A",
@@ -274,7 +274,7 @@ export const generatedLocalCopy = {
           "title": "12-Domein Gegevensinvoer",
           "description": "POS, arbeid, inventaris, inkoop, reserveringen, levering, marketing, gastenervaring, CRM, boekhouding - allemaal verenigd. Geen losgekoppelde systemen meer.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "4D Inlichtingenmodel",
@@ -354,7 +354,7 @@ export const generatedLocalCopy = {
             "pain": "Je kunt niet in elk restaurant tegelijk zijn.",
             "description": "Realtime inzicht in elke locatie via Pulse en Portfolio - weet wie hulp nodig heeft voordat ze het vragen.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Financiën & FP&A",
@@ -402,7 +402,7 @@ export const generatedLocalCopy = {
           "title": "استيعاب البيانات عبر 12 مجالاً",
           "description": "POS، العمالة، المخزون، الشراء، الحجوزات، التوصيل، التسويق، تجربة الضيوف، إدارة علاقات العملاء، المحاسبة - جميعها موحدة. لا مزيد من الأنظمة المنفصلة.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "نموذج الذكاء الرباعي الأبعاد",
@@ -482,7 +482,7 @@ export const generatedLocalCopy = {
             "pain": "لا يمكنك التواجد في كل مطعم في آن واحد.",
             "description": "رؤية فورية لكل موقع عبر Pulse وPortfolio - اعرف من يحتاج المساعدة قبل أن يطلبها.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "المالية والتخطيط والتحليل",
@@ -530,7 +530,7 @@ export const generatedLocalCopy = {
           "title": "12-Domain-Datenaufnahme",
           "description": "POS, Personal, Inventar, Einkauf, Reservierungen, Lieferung, Marketing, Gästeerlebnis, CRM, Buchhaltung - alles vereint. Keine getrennten Systeme mehr.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "4D-Intelligenzmodell",
@@ -610,7 +610,7 @@ export const generatedLocalCopy = {
             "pain": "Sie können nicht gleichzeitig in jedem Restaurant sein.",
             "description": "Echtzeit-Transparenz für jeden Standort über Pulse und Portfolio - wissen, wer Hilfe benötigt, bevor er fragt.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finanzen & FP&A",
@@ -658,7 +658,7 @@ export const generatedLocalCopy = {
           "title": "Ingestão de Dados em 12 Domínios",
           "description": "POS, mão de obra, inventário, compras, reservas, entrega, marketing, experiência do cliente, CRM, contabilidade - tudo unificado. Chega de sistemas desconectados.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Modelo de Inteligência 4D",
@@ -738,7 +738,7 @@ export const generatedLocalCopy = {
             "pain": "Você não pode estar em todos os restaurantes ao mesmo tempo.",
             "description": "Visibilidade em tempo real de cada local através do Pulse e Portfolio - saiba quem precisa de ajuda antes mesmo de pedir.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finanças & FP&A",
@@ -786,7 +786,7 @@ export const generatedLocalCopy = {
           "title": "12-ڈومین ڈیٹا انگریشن",
           "description": "POS، محنت، انوینٹری، خریداری، ریزرویشن، ترسیل، مارکیٹنگ، مہمان کے تجربے، CRM، اکاؤنٹنگ - سب متحد۔ مزید غیر مربوط نظام نہیں۔",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "4D انٹیلیجنس ماڈل",
@@ -866,7 +866,7 @@ export const generatedLocalCopy = {
             "pain": "آپ ایک وقت میں ہر ریستوران میں نہیں ہو سکتے۔",
             "description": "Pulse اور پورٹ فولیو کے ذریعے ہر مقام پر حقیقی وقت کی بصیرت - جانیں کہ کس کو مدد کی ضرورت ہے اس سے پہلے کہ وہ پوچھیں۔",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "مالیات اور FP&A",
@@ -914,7 +914,7 @@ export const generatedLocalCopy = {
           "title": "12-डोमेन डेटा इनजेशन",
           "description": "POS, श्रम, इन्वेंटरी, खरीदारी, आरक्षण, डिलीवरी, मार्केटिंग, अतिथि अनुभव, CRM, लेखा - सभी एकीकृत। अब और डिस्कनेक्टेड सिस्टम नहीं।",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "4D इंटेलिजेंस मॉडल",
@@ -994,7 +994,7 @@ export const generatedLocalCopy = {
             "pain": "आप एक साथ हर रेस्तरां में नहीं हो सकते।",
             "description": "Pulse और Portfolio के माध्यम से हर स्थान पर वास्तविक समय की दृश्यता - जानें कि किसे मदद की आवश्यकता है इससे पहले कि वे पूछें।",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "वित्त और FP&A",
@@ -1042,7 +1042,7 @@ export const generatedLocalCopy = {
           "title": "Ingestione Dati a 12 Domini",
           "description": "POS, lavoro, inventario, acquisti, prenotazioni, consegne, marketing, esperienza degli ospiti, CRM, contabilità - tutto unificato. Niente più sistemi disconnessi.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Modello di Intelligenza 4D",
@@ -1122,7 +1122,7 @@ export const generatedLocalCopy = {
             "pain": "Non puoi essere in ogni ristorante contemporaneamente.",
             "description": "Visibilità in tempo reale su ogni sede tramite Pulse e Portfolio - sapere chi ha bisogno di aiuto prima che lo chieda.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finanza & FP&A",
@@ -1170,7 +1170,7 @@ export const generatedLocalCopy = {
           "title": "12-Domain Veri Alımı",
           "description": "POS, iş gücü, envanter, satın alma, rezervasyon, teslimat, pazarlama, misafir deneyimi, CRM, muhasebe - hepsi bir arada. Artık bağlantısız sistemler yok.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "4D Zeka Modeli",
@@ -1250,7 +1250,7 @@ export const generatedLocalCopy = {
             "pain": "Her restoranda aynı anda olamazsınız.",
             "description": "Pulse ve Portfolio aracılığıyla her lokasyona gerçek zamanlı görünürlük - yardım isteyenleri, sormadan önce bilin.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finans & FP&A",
@@ -1298,7 +1298,7 @@ export const generatedLocalCopy = {
           "title": "12个领域数据摄取",
           "description": "POS、劳动力、库存、采购、预订、配送、营销、客户体验、CRM、会计 - 全部统一。再也没有脱节的系统。",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "4D智能模型",
@@ -1378,7 +1378,7 @@ export const generatedLocalCopy = {
             "pain": "您无法同时在每个餐厅。",
             "description": "通过Pulse和Portfolio实时了解每个位置的情况 - 在他们请求帮助之前就知道谁需要帮助。",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "财务与FP&A",
@@ -1426,7 +1426,7 @@ export const generatedLocalCopy = {
           "title": "12-Domenowa Ingestia Danych",
           "description": "POS, praca, zapasy, zakupy, rezerwacje, dostawy, marketing, doświadczenie gości, CRM, księgowość - wszystko zintegrowane. Koniec z rozłączonymi systemami.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Model Inteligencji 4D",
@@ -1506,7 +1506,7 @@ export const generatedLocalCopy = {
             "pain": "Nie możesz być w każdej restauracji jednocześnie.",
             "description": "Widoczność w czasie rzeczywistym w każdej lokalizacji dzięki Pulse i Portfolio - wiedz, kto potrzebuje pomocy, zanim poprosi.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finanse i FP&A",
@@ -1554,7 +1554,7 @@ export const generatedLocalCopy = {
           "title": "12ドメインデータ取り込み",
           "description": "POS、労働、在庫、購買、予約、配送、マーケティング、ゲスト体験、CRM、会計 - すべてが統合されています。もはや切り離されたシステムはありません。",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "4Dインテリジェンスモデル",
@@ -1634,7 +1634,7 @@ export const generatedLocalCopy = {
             "pain": "すべてのレストランに同時にいることはできません。",
             "description": "PulseとPortfolioを通じて、各ロケーションのリアルタイムの可視性 - 誰が助けを必要としているかを事前に把握します。",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "財務 & FP&A",
@@ -1682,7 +1682,7 @@ export const generatedLocalCopy = {
           "title": "Tiếp Nhận Dữ Liệu 12 Miền",
           "description": "POS, lao động, tồn kho, mua sắm, đặt chỗ, giao hàng, tiếp thị, trải nghiệm khách hàng, CRM, kế toán - tất cả được thống nhất. Không còn hệ thống tách rời.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Mô Hình Trí Tuệ 4D",
@@ -1762,7 +1762,7 @@ export const generatedLocalCopy = {
             "pain": "Bạn không thể có mặt ở mọi nhà hàng cùng một lúc.",
             "description": "Tầm nhìn thời gian thực vào mọi địa điểm qua Pulse và Portfolio - biết ai cần giúp đỡ trước khi họ yêu cầu.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Tài chính & FP&A",
@@ -1810,7 +1810,7 @@ export const generatedLocalCopy = {
           "title": "Pengambilan Data 12-Domain",
           "description": "POS, tenaga kerja, inventaris, pembelian, reservasi, pengiriman, pemasaran, pengalaman tamu, CRM, akuntansi - semua terintegrasi. Tidak ada lagi sistem yang terputus.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Model Intelijen 4D",
@@ -1890,7 +1890,7 @@ export const generatedLocalCopy = {
             "pain": "Anda tidak bisa berada di setiap restoran sekaligus.",
             "description": "Visibilitas waktu nyata ke setiap lokasi melalui Pulse dan Portfolio - ketahui siapa yang membutuhkan bantuan sebelum mereka meminta.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Keuangan & FP&A",
@@ -1938,7 +1938,7 @@ export const generatedLocalCopy = {
           "title": "12개 도메인 데이터 수집",
           "description": "POS, 인력, 재고, 구매, 예약, 배달, 마케팅, 고객 경험, CRM, 회계 - 모두 통합되었습니다. 더 이상 분리된 시스템이 없습니다.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "4D 인텔리전스 모델",
@@ -2018,7 +2018,7 @@ export const generatedLocalCopy = {
             "pain": "모든 레스토랑에 동시에 있을 수는 없습니다.",
             "description": "Pulse와 Portfolio를 통해 모든 위치에 대한 실시간 가시성을 제공 - 누가 도움을 필요로 하는지 미리 알 수 있습니다.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "재무 및 FP&A",
@@ -2066,7 +2066,7 @@ export const generatedLocalCopy = {
           "title": "Ingestie de Date pe 12 Domenii",
           "description": "POS, muncă, inventar, achiziții, rezervări, livrare, marketing, experiența oaspeților, CRM, contabilitate - toate unificate. Fără sisteme deconectate.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Model de Inteligență 4D",
@@ -2146,7 +2146,7 @@ export const generatedLocalCopy = {
             "pain": "Nu poți fi în fiecare restaurant în același timp.",
             "description": "Vizibilitate în timp real în fiecare locație prin Pulse și Portfolio - știi cine are nevoie de ajutor înainte să ceară.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Finanțe & FP&A",
@@ -2194,7 +2194,7 @@ export const generatedLocalCopy = {
           "title": "12-domäners datainhämtning",
           "description": "POS, arbetskraft, lager, inköp, reservationer, leverans, marknadsföring, gästupplevelse, CRM, bokföring - allt enat. Inga fler frånkopplade system.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "4D-intelligensmodell",
@@ -2274,7 +2274,7 @@ export const generatedLocalCopy = {
             "pain": "Du kan inte vara på varje restaurang samtidigt.",
             "description": "Realtidsinsyn i varje plats via Pulse och Portfolio - vet vem som behöver hjälp innan de frågar.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Ekonomi & FP&A",
@@ -2322,7 +2322,7 @@ export const generatedLocalCopy = {
           "title": "১২-ডোমেইন ডেটা ইনজেশন",
           "description": "POS, শ্রম, ইনভেন্টরি, ক্রয়, রিজার্ভেশন, ডেলিভারি, মার্কেটিং, অতিথি অভিজ্ঞতা, CRM, হিসাব - সবকিছু একত্রিত। আর বিচ্ছিন্ন সিস্টেম নেই।",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "৪D ইন্টেলিজেন্স মডেল",
@@ -2402,7 +2402,7 @@ export const generatedLocalCopy = {
             "pain": "আপনি একসাথে প্রতিটি রেস্টুরেন্টে থাকতে পারবেন না।",
             "description": "পালস এবং পোর্টফোলিওর মাধ্যমে প্রতিটি অবস্থানের বাস্তব-সময়ের দৃশ্যমানতা - জানুন কে সাহায্য প্রয়োজন তার আগে। (Pulse)",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "অর্থ ও FP&A",
@@ -2450,7 +2450,7 @@ export const generatedLocalCopy = {
           "title": "การนำเข้าข้อมูล 12 ด้าน",
           "description": "POS, แรงงาน, สินค้าคงคลัง, การสั่งซื้อ, การจอง, การจัดส่ง, การตลาด, ประสบการณ์แขก, CRM, การบัญชี - ทั้งหมดรวมกัน ไม่มีระบบที่แยกจากกันอีกต่อไป.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "โมเดลปัญญา 4D",
@@ -2530,7 +2530,7 @@ export const generatedLocalCopy = {
             "pain": "คุณไม่สามารถอยู่ในทุกสาขาได้ในครั้งเดียว.",
             "description": "การมองเห็นแบบเรียลไทม์ในทุกสถานที่ผ่าน Pulse และ Portfolio - รู้ว่าใครต้องการความช่วยเหลือก่อนที่พวกเขาจะขอ.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "การเงิน & FP&A",
@@ -2578,7 +2578,7 @@ export const generatedLocalCopy = {
           "title": "Pengambilan Data 12-Domain",
           "description": "POS, buruh, inventori, pembelian, tempahan, penghantaran, pemasaran, pengalaman tetamu, CRM, perakaunan - semua disatukan. Tiada lagi sistem yang tidak bersambung.",
           "icon": "integration",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Model Kecerdasan 4D",
@@ -2658,7 +2658,7 @@ export const generatedLocalCopy = {
             "pain": "Anda tidak boleh berada di setiap restoran sekaligus.",
             "description": "Keterlihatan masa nyata ke setiap lokasi melalui Pulse dan Portfolio - ketahui siapa yang memerlukan bantuan sebelum mereka bertanya.",
             "icon": "multiLocation",
-            "color": "bg-[#1C47FF]"
+            "color": "bg-[#FF5C4D]"
           },
           {
             "title": "Kewangan & FP&A",

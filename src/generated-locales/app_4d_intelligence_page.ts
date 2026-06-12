@@ -40,7 +40,7 @@ export const generatedLocalCopy = {
             "تتبع الفراغ وشركات"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "textColor": "نص-[#60A5FA]",
           "bgColor": "ب-[رغبا(28,71,255,0.1)]"
         },
@@ -210,7 +210,7 @@ export const generatedLocalCopy = {
             "Suivi des annulations et des compensations"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "textColor": "texte-[#60A5FA]",
           "bgColor": "bg-[rgba(28,71,255,0.1)]"
         },
@@ -380,7 +380,7 @@ export const generatedLocalCopy = {
             "Rastreamento de anulação e compensação"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "textColor": "texto-[#60A5FA]",
           "bgColor": "bg-[rgba(28,71,255,0,1)]"
         },
@@ -550,7 +550,7 @@ export const generatedLocalCopy = {
             "Void- und Comp-Verfolgung"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "textColor": "Text-[#60A5FA]",
           "bgColor": "bg-[rgba(28,71,255,0.1)]"
         },
@@ -720,7 +720,7 @@ export const generatedLocalCopy = {
             "Ongeldige en comp-tracking"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "textColor": "tekst-[#60A5FA]",
           "bgColor": "bg-[rgba(28,71,255,0,1)]"
         },
@@ -890,7 +890,7 @@ export const generatedLocalCopy = {
             "Seguimiento de anulaciones y compensaciones"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "textColor": "texto-[#60A5FA]",
           "bgColor": "bg-[rgba(28,71,255,0.1)]"
         },
@@ -1060,7 +1060,7 @@ export const generatedLocalCopy = {
             "باطل اور کمپ ٹریکنگ"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "textColor": "متن-[#60A5FA]",
           "bgColor": "bg-[rgba(28,71,255,0.1)]"
         },
@@ -1230,7 +1230,7 @@ export const generatedLocalCopy = {
             "शून्य और COMP ट्रैकिंग"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "textColor": "पाठ-[#60A5FA]",
           "bgColor": "बीजी-[आरजीबीए(28,71,255,0.1)]"
         },
@@ -1400,7 +1400,7 @@ export const generatedLocalCopy = {
             "无效和补偿跟踪"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "textColor": "文本-[#60A5FA]",
           "bgColor": "bg-[rgba(28,71,255,0.1)]"
         },
@@ -1570,7 +1570,7 @@ export const generatedLocalCopy = {
             "Śledzenie pustki i kompilacji"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "textColor": "tekst-[#60A5FA]",
           "bgColor": "bg-[rgba(28,71,255,0,1)]"
         },
@@ -1740,7 +1740,7 @@ export const generatedLocalCopy = {
             "Monitoraggio di vuoti e comp"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "textColor": "testo-[#60A5FA]",
           "bgColor": "bg-[rgba(28,71,255,0.1)]"
         },
@@ -1910,7 +1910,7 @@ export const generatedLocalCopy = {
             "Geçersiz kılma ve tamamlama takibi"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "textColor": "metin-[#60A5FA]",
           "bgColor": "bg-[rgba(28,71,255,0.1)]"
         },
@@ -2080,7 +2080,7 @@ export const generatedLocalCopy = {
             "무효 및 광고 추적"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "textColor": "텍스트-[#60A5FA]",
           "bgColor": "bg-[rgba(28,71,255,0.1)]"
         },
@@ -2250,7 +2250,7 @@ export const generatedLocalCopy = {
             "ボイドとコンプの追跡"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "textColor": "テキスト-[#60A5FA]",
           "bgColor": "bg-[rgba(28,71,255,0.1)]"
         },
@@ -2420,7 +2420,7 @@ export const generatedLocalCopy = {
             "Pelacakan batal dan comp"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "textColor": "teks-[#60A5FA]",
           "bgColor": "bg-[rgba(28,71,255,0.1)]"
         },
@@ -2590,7 +2590,7 @@ export const generatedLocalCopy = {
             "Theo dõi khoảng trống và comp"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "textColor": "văn bản-[#60A5FA]",
           "bgColor": "bg-[rgba(28,71,255,0.1)]"
         },
@@ -2760,7 +2760,7 @@ export const generatedLocalCopy = {
             "Urmărirea golului și a comp"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "textColor": "text-[#60A5FA]",
           "bgColor": "bg-[rgba(28,71,255,0.1)]"
         },
@@ -2930,7 +2930,7 @@ export const generatedLocalCopy = {
             "Void och comp spårning"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "textColor": "text-[#60A5FA]",
           "bgColor": "bg-[rgba(28,71,255,0.1)]"
         },
@@ -3100,7 +3100,7 @@ export const generatedLocalCopy = {
             "অকার্যকর এবং কম ট্র্যাকিং"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "textColor": "পাঠ্য-[#60A5FA]",
           "bgColor": "bg-[rgba(28,71,255,0.1)]"
         },
@@ -3270,7 +3270,7 @@ export const generatedLocalCopy = {
             "การติดตามถือเป็นโมฆะและคอมพ์"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "textColor": "ข้อความ-[#60A5FA]",
           "bgColor": "บีจี-[rgba(28,71,255,0.1)]"
         },
@@ -3440,7 +3440,7 @@ export const generatedLocalCopy = {
             "Penjejakan tidak sah dan comp"
           ],
           "icon": "benchmarking",
-          "color": "from-blue-500 to-blue-600",
+          "color": "from-[#FF5C4D] to-[#E9A24A]",
           "textColor": "teks-[#60A5FA]",
           "bgColor": "bg-[rgba(28,71,255,0.1)]"
         },

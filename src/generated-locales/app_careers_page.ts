@@ -26,7 +26,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "بناء نماذج ذكاء متقدمة لاتخاذ القرار في المطاعم. العمل مع البيانات واسعة النطاق وخوارزميات التعلم الآلي.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "مدير المنتج - تكنولوجيا المطاعم",
@@ -153,7 +153,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Créez des modèles d’intelligence avancés pour la prise de décision en matière de restauration. Travaillez avec des données à grande échelle et des algorithmes d’apprentissage automatique.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Chef de produit - Technologie de restauration",
@@ -280,7 +280,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Cree modelos de inteligencia avanzados para la toma de decisiones en restaurantes. Trabaje con datos a gran escala y algoritmos de aprendizaje automático.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Gerente de Producto - Técnico de Restaurantes",
@@ -407,7 +407,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Erstellen Sie fortschrittliche Intelligenzmodelle für die Entscheidungsfindung in Restaurants. Arbeiten Sie mit großen Datenmengen und Algorithmen für maschinelles Lernen.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Produktmanager - Restauranttechnik",
@@ -534,7 +534,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Crie modelos de inteligência avançados para tomada de decisões em restaurantes. Trabalhe com dados em grande escala e algoritmos de aprendizado de máquina.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Gerente de Produto - Tecnologia de Restaurantes",
@@ -661,7 +661,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Bouw geavanceerde intelligentiemodellen voor de besluitvorming in restaurants. Werk met grootschalige data en machine learning-algoritmen.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Productmanager - Restauranttechniek",
@@ -788,7 +788,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "ریستوراں میں فیصلہ سازی کے لیے جدید انٹیلی جنس ماڈلز بنائیں۔ بڑے پیمانے پر ڈیٹا اور مشین لرننگ الگورتھم کے ساتھ کام کریں۔",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "پروڈکٹ مینیجر - ریستوراں ٹیک",
@@ -915,7 +915,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "रेस्तरां निर्णय लेने के लिए उन्नत खुफिया मॉडल बनाएं। बड़े पैमाने पर डेटा और मशीन लर्निंग एल्गोरिदम के साथ काम करें।",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "उत्पाद प्रबंधक - रेस्तरां टेक",
@@ -1042,7 +1042,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Restoran karar verme süreci için gelişmiş zeka modelleri oluşturun. Büyük ölçekli verilerle ve makine öğrenimi algoritmalarıyla çalışın.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Ürün Müdürü - Restoran Teknisyeni",
@@ -1169,7 +1169,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Costruisci modelli di intelligence avanzati per il processo decisionale nei ristoranti. Lavora con dati su larga scala e algoritmi di machine learning.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Responsabile prodotto - Tecnico ristorante",
@@ -1296,7 +1296,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Twórz zaawansowane modele inteligencji na potrzeby podejmowania decyzji w restauracjach. Pracuj z danymi na dużą skalę i algorytmami uczenia maszynowego.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Menedżer Produktu - Technik Restauracji",
@@ -1423,7 +1423,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "为餐厅决策构建先进的智能模型。使用大规模数据和机器学习算法。",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "产品经理 - 餐厅技术",
@@ -1550,7 +1550,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "レストランの意思決定のための高度なインテリジェンス モデルを構築します。大規模なデータと機械学習アルゴリズムを操作します。",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "プロダクト マネージャー - レストラン テック",
@@ -1677,7 +1677,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "레스토랑 의사결정을 위한 고급 인텔리전스 모델을 구축하세요. 대규모 데이터 및 기계 학습 알고리즘으로 작업합니다.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "제품 관리자 - 레스토랑 기술",
@@ -1804,7 +1804,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Construiți modele avansate de inteligență pentru luarea deciziilor la restaurante. Lucrați cu date la scară largă și algoritmi de învățare automată.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Manager de produs - Restaurant Tech",
@@ -1931,7 +1931,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Xây dựng các mô hình thông minh tiên tiến để đưa ra quyết định cho nhà hàng. Làm việc với dữ liệu quy mô lớn và thuật toán học máy.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Giám đốc sản phẩm - Công nghệ nhà hàng",
@@ -2058,7 +2058,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Bangun model intelijen tingkat lanjut untuk pengambilan keputusan restoran. Bekerja dengan data skala besar dan algoritma pembelajaran mesin.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Manajer Produk - Teknologi Restoran",
@@ -2185,7 +2185,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Bygg avancerade intelligensmodeller för restaurangbeslut. Arbeta med storskaliga data- och maskininlärningsalgoritmer.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Produktchef - Restaurangteknik",
@@ -2312,7 +2312,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "রেস্তোরাঁর সিদ্ধান্ত গ্রহণের জন্য উন্নত বুদ্ধিমত্তা মডেল তৈরি করুন। বড় আকারের ডেটা এবং মেশিন লার্নিং অ্যালগরিদম নিয়ে কাজ করুন।",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "পণ্য ব্যবস্থাপক - রেস্টুরেন্ট টেক",
@@ -2439,7 +2439,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "สร้างโมเดลอัจฉริยะขั้นสูงสำหรับการตัดสินใจเกี่ยวกับร้านอาหาร ทำงานกับข้อมูลขนาดใหญ่และอัลกอริธึมการเรียนรู้ของเครื่อง",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "ผู้จัดการผลิตภัณฑ์ - เทคโนโลยีร้านอาหาร",
@@ -2566,7 +2566,7 @@ export const generatedLocalCopy = {
           "type": "Full-time",
           "description": "Bina model kecerdasan lanjutan untuk membuat keputusan restoran. Bekerja dengan data berskala besar dan algoritma pembelajaran mesin.",
           "icon": "intelligence",
-          "color": "bg-[#1C47FF]"
+          "color": "bg-[#FF5C4D]"
         },
         {
           "title": "Pengurus Produk - Restaurant Tech",

@@ -27,7 +27,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "franchise",
-        "color": "bg-[#1C47FF]"
+        "color": "bg-[#FF5C4D]"
       },
       {
         "segment": "Franquicia global · Más de 150 ubicaciones",
@@ -133,7 +133,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "franchise",
-        "color": "bg-[#1C47FF]"
+        "color": "bg-[#FF5C4D]"
       },
       {
         "segment": "الامتياز العالمي · أكثر من 150 موقعًا",
@@ -239,7 +239,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "franchise",
-        "color": "bg-[#1C47FF]"
+        "color": "bg-[#FF5C4D]"
       },
       {
         "segment": "Franchise mondiale · 150+ emplacements",
@@ -345,7 +345,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "franchise",
-        "color": "bg-[#1C47FF]"
+        "color": "bg-[#FF5C4D]"
       },
       {
         "segment": "Franquia global · Mais de 150 locais",
@@ -451,7 +451,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "franchise",
-        "color": "bg-[#1C47FF]"
+        "color": "bg-[#FF5C4D]"
       },
       {
         "segment": "Globales Franchise · Über 150 Standorte",
@@ -557,7 +557,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "franchise",
-        "color": "bg-[#1C47FF]"
+        "color": "bg-[#FF5C4D]"
       },
       {
         "segment": "عالمی فرنچائز · 150+ مقامات",
@@ -663,7 +663,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "franchise",
-        "color": "bg-[#1C47FF]"
+        "color": "bg-[#FF5C4D]"
       },
       {
         "segment": "Wereldwijde franchise · 150+ locaties",
@@ -769,7 +769,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "franchise",
-        "color": "bg-[#1C47FF]"
+        "color": "bg-[#FF5C4D]"
       },
       {
         "segment": "Küresel Bayilik · 150+ Lokasyon",
@@ -875,7 +875,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "franchise",
-        "color": "bg-[#1C47FF]"
+        "color": "bg-[#FF5C4D]"
       },
       {
         "segment": "वैश्विक फ्रेंचाइज़ · 150+ स्थान",
@@ -981,7 +981,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "franchise",
-        "color": "bg-[#1C47FF]"
+        "color": "bg-[#FF5C4D]"
       },
       {
         "segment": "Franchising globale · Oltre 150 sedi",
@@ -1087,7 +1087,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "franchise",
-        "color": "bg-[#1C47FF]"
+        "color": "bg-[#FF5C4D]"
       },
       {
         "segment": "全球特许经营 · 150 多个地点",
@@ -1193,7 +1193,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "franchise",
-        "color": "bg-[#1C47FF]"
+        "color": "bg-[#FF5C4D]"
       },
       {
         "segment": "Globalna franczyza · Ponad 150 lokalizacji",
@@ -1299,7 +1299,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "franchise",
-        "color": "bg-[#1C47FF]"
+        "color": "bg-[#FF5C4D]"
       },
       {
         "segment": "グローバル フランチャイズ · 150 以上の拠点",
@@ -1405,7 +1405,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "franchise",
-        "color": "bg-[#1C47FF]"
+        "color": "bg-[#FF5C4D]"
       },
       {
         "segment": "글로벌 프랜차이즈 · 150개 이상의 위치",
@@ -1511,7 +1511,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "franchise",
-        "color": "bg-[#1C47FF]"
+        "color": "bg-[#FF5C4D]"
       },
       {
         "segment": "Waralaba Global · 150+ Lokasi",
@@ -1617,7 +1617,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "franchise",
-        "color": "bg-[#1C47FF]"
+        "color": "bg-[#FF5C4D]"
       },
       {
         "segment": "গ্লোবাল ফ্র্যাঞ্চাইজ · 150+ অবস্থান",
@@ -1723,7 +1723,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "franchise",
-        "color": "bg-[#1C47FF]"
+        "color": "bg-[#FF5C4D]"
       },
       {
         "segment": "Franciza globală · Peste 150 de locații",
@@ -1829,7 +1829,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "franchise",
-        "color": "bg-[#1C47FF]"
+        "color": "bg-[#FF5C4D]"
       },
       {
         "segment": "Nhượng quyền toàn cầu · Hơn 150 địa điểm",
@@ -1935,7 +1935,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "franchise",
-        "color": "bg-[#1C47FF]"
+        "color": "bg-[#FF5C4D]"
       },
       {
         "segment": "Global Franchise · 150+ platser",
@@ -2041,7 +2041,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "franchise",
-        "color": "bg-[#1C47FF]"
+        "color": "bg-[#FF5C4D]"
       },
       {
         "segment": "แฟรนไชส์ระดับโลก · มากกว่า 150 แห่ง",
@@ -2147,7 +2147,7 @@ export const generatedLocalCopy = {
           }
         ],
         "icon": "franchise",
-        "color": "bg-[#1C47FF]"
+        "color": "bg-[#FF5C4D]"
       },
       {
         "segment": "Francais Global · 150+ Lokasi",
