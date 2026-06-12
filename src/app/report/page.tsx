@@ -1,6 +1,5 @@
 'use client';
 
-import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/Card";
 import { SundaeIcon, type SundaeIconName } from "@/components/icons";
@@ -467,34 +466,9 @@ export default function ReportProductPage() {
       </section>
 
       <PageCTA title={ui.ctaTitle} description={ui.ctaDescription}>
-        <Link href="/demo">
-          <Button variant="primary" size="lg">{ui.heroPrimary}</Button>
-        </Link>
+        <Button variant="primary" size="lg" onClick={() => cta(REPORT_APP_URL, "start_free_report_cta", { page: "/report" })}>{ui.finalTiles[0].cta}</Button>
+        <Button variant="outline" size="lg" onClick={() => cta("/demo", "book_demo_from_report", { page: "/report" })}>{ui.finalTiles[2].cta}</Button>
       </PageCTA>
-
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
-        <div className="max-w-4xl mx-auto text-center">
-          <FadeUp>
-            <h2 className="section-h2 text-[var(--text-primary)] mb-6">{ui.finalTitle}</h2>
-            <p className="body-xl text-[var(--text-supporting)] mb-8">{ui.finalDescription}</p>
-          </FadeUp>
-          <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-            {ui.finalTiles.map((tile) => (
-              <StaggerItem key={tile.title}>
-                <div className="text-center">
-                  <h3 className="font-semibold text-[var(--text-primary)] mb-2">{tile.title}</h3>
-                  <p className="text-sm text-[var(--text-supporting)]">{tile.description}</p>
-                </div>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <Button variant="primary" size="lg" onClick={() => cta(REPORT_APP_URL, "start_free_final_cta", { page: "/report-product" })}>{ui.finalTiles[0].cta}</Button>
-            <Button variant="outline" size="lg" href={PRICING_URL}>{ui.finalTiles[1].cta}</Button>
-            <Button variant="outline" size="lg" onClick={() => cta("/demo", "book_demo_from_report", { page: "/report-product" })}>{ui.finalTiles[2].cta}</Button>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
