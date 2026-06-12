@@ -12,6 +12,8 @@ import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { generatedUiLabels } from "@/lib/generatedUiLabels";
 import { CreamBreak } from "@/components/ui/CreamBreak";
 import { solutionCreamCopy } from "./solutionCreamCopy";
+import { SectionConviction } from "@/components/home/sections/SectionConviction";
+import { solutionsConviction } from "@/components/home/sections/routeConvictionCopy";
 
 export type SolutionCopy = {
   badge: string;
@@ -128,6 +130,9 @@ export function SolutionPageLayout({
             dark Problems -> How -> Outcomes card run (the volume system)
         ════════════════════════════════════════════════ */}
         <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
+
+        {/* Shared conviction beat - lifts every solution page to the homepage bar */}
+        <SectionConviction {...(solutionsConviction[locale as keyof typeof solutionsConviction] ?? solutionsConviction.en)} />
 
         {/* ════════════════════════════════════════════════
             PROBLEMS

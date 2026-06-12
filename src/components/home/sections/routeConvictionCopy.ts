@@ -14,6 +14,146 @@ import type { ConvictionCopy } from './SectionConviction';
 
 type RouteConviction = Record<WebsiteLocale, ConvictionCopy>;
 
+/**
+ * Shared conviction for the 10 solution pages (rendered once via SolutionPageLayout,
+ * so it lifts every by-segment + by-role solution at once). Role/segment-agnostic.
+ * en/ar/fr/es now with an English fallback; expand to all 22 as a follow-up.
+ */
+export const solutionsConviction: Record<WebsiteLocale, ConvictionCopy> = {
+  en: {
+    eyebrow: 'Built for how you operate',
+    statement:
+      "However you're structured - one location or fifty, the finance seat or the floor - the question is the same: what do I do next? Sundae gives *your operation its own read on the business.*",
+    coda: 'One source of truth, shaped to the way you actually run.',
+  },
+  ar: {
+    eyebrow: 'مبنيّ على طريقتك في التشغيل',
+    statement:
+      'مهما كان هيكلك - فرع واحد أو خمسون، مقعد المالية أو الصالة - فالسؤال واحد: ما الخطوة التالية؟ يمنح Sundae *عملياتك قراءتها الخاصة لأعمالك.*',
+    coda: 'مصدر واحد للحقيقة، مصمَّم على طريقتك الفعلية في الإدارة.',
+  },
+  fr: {
+    eyebrow: 'Conçu pour votre façon d’opérer',
+    statement:
+      "Quelle que soit votre structure - un site ou cinquante, le siège finance ou la salle - la question reste la même : que faire ensuite ? Sundae donne à *votre exploitation sa propre lecture de l'activité.*",
+    coda: 'Une seule source de vérité, façonnée à votre manière de gérer.',
+  },
+  es: {
+    eyebrow: 'Hecho para tu forma de operar',
+    statement:
+      'Sea cual sea tu estructura - un local o cincuenta, el área de finanzas o la sala - la pregunta es la misma: ¿qué hago a continuación? Sundae da a *tu operación su propia lectura del negocio.*',
+    coda: 'Una sola fuente de verdad, moldeada a tu forma real de gestionar.',
+  },
+  de: {
+    eyebrow: 'Gebaut für die Art, wie Sie arbeiten',
+    statement:
+      'Wie auch immer Sie aufgestellt sind - ein Standort oder fünfzig, der Finanzplatz oder die Fläche - die Frage ist dieselbe: Was tue ich als Nächstes? Sundae gibt *Ihrem Betrieb seinen eigenen Blick aufs Geschäft.*',
+    coda: 'Eine Quelle der Wahrheit, geformt nach Ihrer tatsächlichen Arbeitsweise.',
+  },
+  nl: {
+    eyebrow: 'Gebouwd voor hoe u werkt',
+    statement:
+      'Hoe u ook bent opgebouwd - één locatie of vijftig, de financestoel of de vloer - de vraag blijft dezelfde: wat doe ik nu? Sundae geeft *uw operatie een eigen kijk op de zaak.*',
+    coda: 'Eén bron van waarheid, gevormd naar de manier waarop u echt werkt.',
+  },
+  pt: {
+    eyebrow: 'Feito para o seu jeito de operar',
+    statement:
+      'Seja qual for a sua estrutura - um local ou cinquenta, o assento das finanças ou o salão - a pergunta é a mesma: o que faço a seguir? O Sundae dá à *sua operação a sua própria leitura do negócio.*',
+    coda: 'Uma só fonte de verdade, moldada ao jeito como você realmente gere.',
+  },
+  hi: {
+    eyebrow: 'आपके चलाने के तरीके के लिए बना',
+    statement:
+      'आपका ढाँचा जैसा भी हो - एक आउटलेट हो या पचास, फाइनेंस की कुर्सी हो या फ्लोर - सवाल वही रहता है: अब मैं क्या करूँ? Sundae देता है *आपके ऑपरेशन को कारोबार की अपनी समझ.*',
+    coda: 'सच का एक ही स्रोत, आपके असल चलाने के तरीके के हिसाब से ढला हुआ।',
+  },
+  ur: {
+    eyebrow: 'آپ کے چلانے کے انداز کے لیے بنایا گیا',
+    statement:
+      'آپ کا ڈھانچہ جیسا بھی ہو - ایک آؤٹ لیٹ ہو یا پچاس، فنانس کی نشست ہو یا فلور - سوال وہی رہتا ہے: اب میں کیا کروں؟ Sundae دیتا ہے *آپ کے آپریشن کو کاروبار کی اپنی سمجھ.*',
+    coda: 'سچ کا ایک ہی سرچشمہ، آپ کے اصل طریقِ کار کے مطابق ڈھلا ہوا۔',
+  },
+  it: {
+    eyebrow: 'Fatto per come operi tu',
+    statement:
+      'Comunque tu sia strutturato - una sede o cinquanta, la poltrona del finance o la sala - la domanda è la stessa: cosa faccio adesso? Sundae dà alla *tua operatività una lettura tutta sua del business.*',
+    coda: "Un'unica fonte di verità, modellata sul modo in cui gestisci davvero.",
+  },
+  pl: {
+    eyebrow: 'Stworzone pod to, jak działasz',
+    statement:
+      'Niezależnie od tego, jak jesteś zorganizowany - jeden lokal czy pięćdziesiąt, fotel finansów czy sala - pytanie jest to samo: co robię dalej? Sundae daje *twojej operacji własny ogląd biznesu.*',
+    coda: 'Jedno źródło prawdy, ukształtowane pod to, jak naprawdę pracujesz.',
+  },
+  tr: {
+    eyebrow: 'Çalışma biçiminize göre kuruldu',
+    statement:
+      'Yapınız ne olursa olsun - tek şube ya da elli, finans koltuğu ya da saha - soru aynı: bundan sonra ne yapacağım? Sundae *operasyonunuza işin kendi okumasını* verir.',
+    coda: 'Tek bir doğruluk kaynağı, gerçekte işletme biçiminize göre şekillenmiş.',
+  },
+  'zh-Hans': {
+    eyebrow: '为你的经营方式而打造',
+    statement:
+      '无论你如何组织--一家门店还是五十家，财务席位还是一线--问题都一样：下一步我该做什么？Sundae 让*你的运营拥有属于自己的生意洞察。*',
+    coda: '唯一的事实来源，依你真正的经营方式而成形。',
+  },
+  ja: {
+    eyebrow: 'あなたの運営の仕方に合わせて',
+    statement:
+      'どんな体制であっても--一店舗でも五十店舗でも、財務の席でも現場でも--問いは同じです。次に何をするか。Sundae は*あなたの現場に、事業を読み解く独自の視点*を与えます。',
+    coda: '唯一の真実の源を、あなたが実際に運営するやり方に合わせて。',
+  },
+  ko: {
+    eyebrow: '당신이 운영하는 방식에 맞춰',
+    statement:
+      '어떤 구조이든 - 매장 하나든 쉰 곳이든, 재무 자리든 현장이든 - 질문은 같습니다. 다음에 무엇을 할까? Sundae는 *당신의 현장에 사업을 읽어내는 고유한 시선*을 줍니다.',
+    coda: '하나의 진실의 원천을, 당신이 실제로 운영하는 방식에 맞춰.',
+  },
+  id: {
+    eyebrow: 'Dibuat untuk cara Anda beroperasi',
+    statement:
+      'Bagaimanapun struktur Anda - satu lokasi atau lima puluh, kursi finance atau lantai - pertanyaannya tetap sama: apa langkah saya berikutnya? Sundae memberi *operasi Anda pembacaan bisnisnya sendiri.*',
+    coda: 'Satu sumber kebenaran, dibentuk sesuai cara Anda benar-benar menjalankannya.',
+  },
+  vi: {
+    eyebrow: 'Được tạo cho cách bạn vận hành',
+    statement:
+      'Dù bạn được tổ chức thế nào - một địa điểm hay năm mươi, ghế tài chính hay sàn vận hành - câu hỏi vẫn là một: tiếp theo tôi làm gì? Sundae trao cho *bộ máy vận hành của bạn cách đọc riêng về việc kinh doanh.*',
+    coda: 'Một nguồn sự thật duy nhất, định hình theo đúng cách bạn thực sự vận hành.',
+  },
+  ro: {
+    eyebrow: 'Creat pentru felul în care operezi',
+    statement:
+      'Oricum ai fi structurat - o locație sau cincizeci, scaunul de finanțe sau sala - întrebarea e aceeași: ce fac mai departe? Sundae oferă *operațiunii tale propria ei citire a afacerii.*',
+    coda: 'O singură sursă de adevăr, modelată după felul în care chiar conduci.',
+  },
+  sv: {
+    eyebrow: 'Byggt för hur du driver verksamheten',
+    statement:
+      'Hur du än är uppbyggd - en plats eller femtio, ekonomistolen eller golvet - frågan är densamma: vad gör jag härnäst? Sundae ger *din verksamhet en egen läsning av affären.*',
+    coda: 'En enda källa till sanning, formad efter hur du faktiskt driver.',
+  },
+  bn: {
+    eyebrow: 'আপনি যেভাবে চালান, তার জন্য তৈরি',
+    statement:
+      'আপনার কাঠামো যেমনই হোক - একটি আউটলেট হোক বা পঞ্চাশটি, ফিন্যান্সের আসন হোক বা ফ্লোর - প্রশ্নটা একই: এরপর আমি কী করব? Sundae দেয় *আপনার অপারেশনকে ব্যবসা পড়ার নিজস্ব দৃষ্টি.*',
+    coda: 'সত্যের একটিই উৎস, আপনি বাস্তবে যেভাবে চালান, সেভাবেই গড়া।',
+  },
+  th: {
+    eyebrow: 'สร้างมาเพื่อวิธีที่คุณดำเนินงาน',
+    statement:
+      'ไม่ว่าคุณจะมีโครงสร้างแบบใด - สาขาเดียวหรือห้าสิบสาขา ที่นั่งฝ่ายการเงินหรือหน้างาน - คำถามก็เหมือนกัน: ต่อไปฉันควรทำอะไร? Sundae มอบให้ *การดำเนินงานของคุณมีมุมอ่านธุรกิจเป็นของตัวเอง*',
+    coda: 'แหล่งความจริงเพียงหนึ่งเดียว ที่หล่อหลอมตามวิธีที่คุณบริหารจริง',
+  },
+  ms: {
+    eyebrow: 'Dibina untuk cara anda beroperasi',
+    statement:
+      'Apa pun struktur anda - satu lokasi atau lima puluh, kerusi kewangan atau lantai - soalannya tetap sama: apa langkah saya seterusnya? Sundae memberi *operasi anda bacaan perniagaannya sendiri.*',
+    coda: 'Satu sumber kebenaran, dibentuk mengikut cara anda benar-benar mengurus.',
+  },
+};
+
 export const pricingConviction: RouteConviction = {
   en: {
     eyebrow: "What you're really buying",
