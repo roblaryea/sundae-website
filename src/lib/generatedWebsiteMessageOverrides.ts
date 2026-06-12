@@ -2259,49 +2259,49 @@ export const generatedWebsiteMessageOverrides = {
       "mobileNavigation": "मोबाइल नेविगेशन",
       "pillars": [
         {
-          "name": "पल्स",
+          "name": "Pulse",
           "description": "इंट्राडे संचालन मॉनिटर",
           "href": "/product/pulse"
         },
         {
-          "name": "बेंचमार्क",
+          "name": "Benchmarks",
           "description": "प्रतिस्पर्धात्मक बुद्धिमत्ता",
           "href": "/benchmarking"
         },
         {
-          "name": "वॉचटॉवर",
+          "name": "Watchtower",
           "description": "बाहरी बाजार संकेत",
           "href": "/product/watchtower"
         },
         {
-          "name": "अंतर्दृष्टि",
+          "name": "Insights",
           "description": "विशेषीकृत विश्लेषणात्मक मॉड्यूल",
           "href": "/insights"
         },
         {
-          "name": "संडे बुद्धिमत्ता",
+          "name": "Sundae Intelligence",
           "description": "AI-संचालित संवादात्मक विश्लेषण",
           "href": "/intelligence"
         },
         {
-          "name": "फोरसाइट",
+          "name": "Foresight",
           "description": "पूर्वानुमानित बुद्धिमत्ता और पूर्वानुमान",
           "href": "/product/foresight"
         }
       ],
       "plansList": [
         {
-          "name": "संडे रिपोर्ट",
+          "name": "Sundae Report",
           "description": "मुफ्त, ऐतिहासिक विश्लेषण",
           "href": "/report"
         },
         {
-          "name": "संडे कोर",
+          "name": "Sundae Core",
           "description": "वास्तविक समय संचालन",
           "href": "/core"
         },
         {
-          "name": "संडे क्रू",
+          "name": "Sundae Crew",
           "description": "संचालन आधार · लोग, कार्यक्रम, वेतन",
           "href": "/crew"
         }
@@ -11163,49 +11163,49 @@ export const generatedWebsiteMessageOverrides = {
       "mobileNavigation": "মোবাইল নেভিগেশন",
       "pillars": [
         {
-          "name": "পালস",
+          "name": "Pulse",
           "description": "ইন্ট্রাডে অপারেশন মনিটর",
           "href": "/product/pulse"
         },
         {
-          "name": "বেন্চমার্কস",
+          "name": "Benchmarks",
           "description": "প্রতিযোগিতামূলক বুদ্ধিমত্তা",
           "href": "/benchmarking"
         },
         {
-          "name": "ওয়াচটাওয়ার",
+          "name": "Watchtower",
           "description": "বাহ্যিক বাজার সংকেত",
           "href": "/product/watchtower"
         },
         {
-          "name": "ইনসাইটস",
+          "name": "Insights",
           "description": "বিশেষায়িত বিশ্লেষণ মডিউল",
           "href": "/insights"
         },
         {
-          "name": "সান্ডে বুদ্ধিমত্তা",
+          "name": "Sundae Intelligence",
           "description": "এআই-চালিত কথোপকথন বিশ্লেষণ",
           "href": "/intelligence"
         },
         {
-          "name": "ফোরসাইট",
+          "name": "Foresight",
           "description": "পূর্বাভাস বুদ্ধিমত্তা ও পূর্বাভাস",
           "href": "/product/foresight"
         }
       ],
       "plansList": [
         {
-          "name": "সান্ডে রিপোর্ট",
+          "name": "Sundae Report",
           "description": "ফ্রি, ঐতিহাসিক বিশ্লেষণ",
           "href": "/report"
         },
         {
-          "name": "সান্ডে কোর",
+          "name": "Sundae Core",
           "description": "রিয়েল-টাইম অপারেশন",
           "href": "/core"
         },
         {
-          "name": "সান্ডে ক্রু",
+          "name": "Sundae Crew",
           "description": "অপারেশনাল সাবস্ট্রেট · মানুষ, সময়সূচী, বেতন",
           "href": "/crew"
         }

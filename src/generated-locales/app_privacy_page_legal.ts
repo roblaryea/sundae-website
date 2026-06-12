@@ -170,7 +170,7 @@ export const generatedPrivacyCopy = {
         "title": "7. Ihre Rechte und Wahlmöglichkeiten",
         "paragraphs": [
           "Abhängig von Ihrem Standort und dem geltenden Recht haben Sie möglicherweise einige oder alle der folgenden Rechte in Bezug auf Ihre personenbezogenen Daten:",
-          "Um diese Rechte auszuüben, kontaktieren Sie uns unter Privacy@sundae.io. Wir antworten im Einklang mit den geltenden Datenschutzgesetzen und müssen möglicherweise Ihre Identität überprüfen, bevor wir Ihre Anfrage bearbeiten.",
+          "Um diese Rechte auszuüben, kontaktieren Sie uns unter privacy@sundae.io. Wir antworten im Einklang mit den geltenden Datenschutzgesetzen und müssen möglicherweise Ihre Identität überprüfen, bevor wir Ihre Anfrage bearbeiten.",
           "Möglicherweise haben Sie auch das Recht, eine Beschwerde bei Ihrer örtlichen Datenschutzbehörde einzureichen. Wir empfehlen Ihnen, sich zunächst mit uns in Verbindung zu setzen, damit wir versuchen können, Ihr Anliegen zu klären."
         ],
         "bullets": [
@@ -178,7 +178,7 @@ export const generatedPrivacyCopy = {
           "Berichtigung: Fordern Sie die Korrektur oder Aktualisierung unrichtiger oder unvollständiger Informationen an.",
           "Löschung: Fordern Sie die Löschung Ihrer personenbezogenen Daten an, vorbehaltlich bestimmter Ausnahmen.",
           "Einschränkung: Unter bestimmten Umständen eine Einschränkung der Verarbeitung beantragen.",
-          "Portabilität: Erhalten Sie eine strukturierte, häufig verwendete, maschinenlesbare Kopie bestimmter Informationen und fordern Sie deren Übertragung an einen anderen Manager an, wenn dies technisch möglich ist.",
+          "Portabilität: Erhalten Sie eine strukturierte, gängige und maschinenlesbare Kopie bestimmter Informationen und fordern Sie deren Übertragung an einen anderen Verantwortlichen an, sofern dies technisch möglich ist.",
           "Einspruch: Widerspruch gegen bestimmte Verarbeitungen aufgrund unserer berechtigten Interessen, einschließlich Profiling.",
           "Marketing: Sie können sich jederzeit von Direktmarketing-Mitteilungen abmelden, beispielsweise über den Abmeldelink in unseren E-Mails."
         ]
@@ -220,7 +220,7 @@ export const generatedPrivacyCopy = {
             "title": "12.1 Datenschutzrechte von Kalifornien (CCPA/CPRA)",
             "paragraphs": [
               "Wenn Sie in Kalifornien ansässig sind, haben Sie möglicherweise zusätzliche Rechte gemäß dem California Consumer Privacy Act in der durch das CPRA geänderten Fassung, einschließlich des Rechts, die Kategorien der gesammelten personenbezogenen Daten und deren Zwecke zu kennen, das Recht, zu erfahren, ob Informationen verkauft oder weitergegeben werden, das Recht, auf Ihre personenbezogenen Daten zuzugreifen und in bestimmten Fällen deren Löschung zu verlangen, das Recht, sich gegebenenfalls von bestimmten „Verkäufen“ oder „Teilen“ abzumelden, und das Recht, bei der Ausübung Ihrer Rechte nicht diskriminiert zu werden.",
-              "Sundae verkauft keine personenbezogenen Daten im allgemeinen Sinne des CCPA. Um Ihre Rechte in Kalifornien auszuüben, können Sie uns unter Privacy@sundae.io kontaktieren."
+              "Sundae verkauft keine personenbezogenen Daten im allgemeinen Sinne des CCPA. Um Ihre Rechte in Kalifornien auszuüben, können Sie uns unter privacy@sundae.io kontaktieren."
             ]
           },
           {
@@ -243,9 +243,9 @@ export const generatedPrivacyCopy = {
                 ]
               },
               {
-                "title": "Manager und Subunternehmer",
+                "title": "Verantwortlicher und Auftragsverarbeiter",
                 "paragraphs": [
-                  "Sundae Technologies Inc. fungiert als Hauptmanager der Plattform. Wenn Sie sich über Ambia Global Technologies Ltd, unseren vom DIFC autorisierten Wiederverkäufer, anmelden, fungiert Ambia als Verarbeiter für begrenzte Verwaltungs- und Support-Metadaten, während Sundae Technologies Inc. als Unterauftragsverarbeiter für Hosting, Plattformbetrieb und Analysen fungiert. Rollen und Verantwortlichkeiten sind in der Datenverarbeitungsvereinbarung aufgeführt, die jedem Unternehmensvertrag beiliegt."
+                  "Sundae Technologies Inc. fungiert als primärer Verantwortlicher für die Plattform. Wenn Sie sich über Ambia Global Technologies Ltd, unseren vom DIFC autorisierten Wiederverkäufer, anmelden, fungiert Ambia als Auftragsverarbeiter für begrenzte administrative Metadaten und Support-Metadaten, während Sundae Technologies Inc. als Unterauftragsverarbeiter für Hosting, Plattformbetrieb und Analysen fungiert. Rollen und Verantwortlichkeiten sind in der Datenverarbeitungsvereinbarung aufgeführt, die jedem Unternehmensvertrag beiliegt."
                 ]
               },
               {
@@ -263,7 +263,7 @@ export const generatedPrivacyCopy = {
               {
                 "title": "Beschwerden",
                 "paragraphs": [
-                  "Wenn Sie der Meinung sind, dass wir Ihre Datenschutzrechte nicht respektiert haben, können Sie eine Beschwerde beim UAE Data Office, beim Datenschutzbeauftragten des DIFC oder bei der zuständigen Behörde des ADGM einreichen. Wir würden uns jedoch über die Möglichkeit freuen, Ihr Anliegen vorab direkt unter Privacy@sundae.io anzusprechen."
+                  "Wenn Sie der Meinung sind, dass wir Ihre Datenschutzrechte nicht respektiert haben, können Sie eine Beschwerde beim UAE Data Office, beim Datenschutzbeauftragten des DIFC oder bei der zuständigen Behörde des ADGM einreichen. Wir würden uns jedoch über die Möglichkeit freuen, Ihr Anliegen vorab direkt unter privacy@sundae.io anzusprechen."
                 ]
               }
             ]
@@ -291,15 +291,15 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "Schreiben Sie uns",
-        "value": "privatsphäre@sundae.io",
-        "icon": "Unterstützung",
+        "value": "privacy@sundae.io",
+        "icon": "support",
         "href": "mailto:privacy@sundae.io"
       },
       {
         "title": "Rufen Sie uns an",
         "value": "+971 (4) 501-7308",
-        "icon": "Unterstützung",
-        "href": "Tel.:+97145017308"
+        "icon": "support",
+        "href": "tel:+97145017308"
       },
       {
         "title": "Besuchen Sie uns",
@@ -309,12 +309,12 @@ export const generatedPrivacyCopy = {
           "Middletown, DE 19709",
           "Vereinigte Staaten"
         ],
-        "icon": "MultiLocation"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
       "secondary": "Nutzungsbedingungen",
-      "primary": "Kontaktieren Sie das Vertraulichkeitsteam"
+      "primary": "Kontaktieren Sie das Datenschutzteam"
     }
   },
   "nl": {
@@ -494,7 +494,7 @@ export const generatedPrivacyCopy = {
           "Rectificatie: verzoek om correctie of bijwerking van onjuiste of onvolledige informatie.",
           "Verwijdering: verzoek om verwijdering van uw persoonlijke gegevens, behoudens bepaalde uitzonderingen.",
           "Beperking: verzoek om beperking van de verwerking in bepaalde omstandigheden.",
-          "Overdraagbaarheid: Verkrijg een gestructureerde, veelgebruikte, machinaal leesbare kopie van bepaalde informatie en vraag de overdracht ervan aan een andere manager wanneer dit technisch mogelijk is.",
+          "Overdraagbaarheid: verkrijg een gestructureerde, gangbare en machineleesbare kopie van bepaalde informatie en verzoek om de overdracht ervan aan een andere verwerkingsverantwoordelijke wanneer dit technisch mogelijk is.",
           "Bezwaar: bezwaar maken tegen bepaalde verwerkingen op basis van onze legitieme belangen, waaronder profilering.",
           "Marketing: u kunt zich op elk moment afmelden voor directmarketingcommunicatie, bijvoorbeeld via de afmeldlink in onze e-mails."
         ]
@@ -559,13 +559,13 @@ export const generatedPrivacyCopy = {
                 ]
               },
               {
-                "title": "Bestuurder en onderaannemer",
+                "title": "Verwerkingsverantwoordelijke en verwerker",
                 "paragraphs": [
-                  "Sundae Technologies Inc. treedt op als hoofdbeheerder van het platform. Wanneer u zich abonneert via Ambia Global Technologies Ltd, onze door DIFC geautoriseerde wederverkoper, fungeert Ambia als verwerker voor beperkte administratieve en ondersteunende metadata, terwijl Sundae Technologies Inc. optreedt als subverwerker voor hosting, platformoperaties en analyses. Rollen en verantwoordelijkheden worden gedetailleerd beschreven in de gegevensverwerkingsovereenkomst die bij elk ondernemingscontract hoort."
+                  "Sundae Technologies Inc. treedt op als primaire verwerkingsverantwoordelijke voor het platform. Wanneer u zich abonneert via Ambia Global Technologies Ltd, onze door DIFC geautoriseerde wederverkoper, fungeert Ambia als verwerker voor beperkte administratieve en ondersteunende metadata, terwijl Sundae Technologies Inc. optreedt als subverwerker voor hosting, platformbeheer en analyses. Rollen en verantwoordelijkheden worden nader beschreven in de gegevensverwerkingsovereenkomst die bij elk ondernemingscontract hoort."
                 ]
               },
               {
-                "title": "Jouw rechten",
+                "title": "Uw rechten",
                 "paragraphs": [
                   "Op grond van de toepasselijke wetgeving van de VAE heeft u mogelijk de volgende rechten, behoudens bepaalde voorwaarden en uitzonderingen: toegang tot persoonlijke gegevens die wij over u bewaren, rectificatie van onjuiste of onvolledige gegevens, verwijdering of vernietiging wanneer de gegevens niet langer nodig zijn, beperking van de verwerking in bepaalde omstandigheden, overdraagbaarheid waar technisch mogelijk, bezwaar tegen verwerking op basis van onze legitieme belangen, en intrekking van toestemming wanneer de verwerking daarop is gebaseerd."
                 ]
@@ -608,13 +608,13 @@ export const generatedPrivacyCopy = {
       {
         "title": "Schrijf ons",
         "value": "privacy@sundae.io",
-        "icon": "ondersteuning",
+        "icon": "support",
         "href": "mailto:privacy@sundae.io"
       },
       {
         "title": "Bel ons",
         "value": "+971 (4) 501-7308",
-        "icon": "ondersteuning",
+        "icon": "support",
         "href": "tel:+97145017308"
       },
       {
@@ -625,12 +625,12 @@ export const generatedPrivacyCopy = {
           "Middletown, DE 19709",
           "Verenigde Staten"
         ],
-        "icon": "multilocatie"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
       "secondary": "Gebruiksvoorwaarden",
-      "primary": "Neem contact op met het vertrouwelijkheidsteam"
+      "primary": "Neem contact op met het privacyteam"
     }
   },
   "pt": {
@@ -802,7 +802,7 @@ export const generatedPrivacyCopy = {
         "title": "7. Seus direitos e escolhas",
         "paragraphs": [
           "Dependendo da sua localização e da legislação aplicável, você poderá ter alguns ou todos os seguintes direitos em relação às suas informações pessoais:",
-          "Para exercer esses direitos, entre em contato conosco pelo e-mail privacidade@sundae.io. Responderemos de acordo com as leis de proteção de dados aplicáveis e poderemos precisar verificar sua identidade antes de processar sua solicitação.",
+          "Para exercer esses direitos, entre em contato conosco pelo e-mail privacy@sundae.io. Responderemos de acordo com as leis de proteção de dados aplicáveis e poderemos precisar verificar sua identidade antes de processar sua solicitação.",
           "Você também pode ter o direito de apresentar uma reclamação à autoridade local de proteção de dados. Recomendamos que você entre em contato conosco primeiro para que possamos tentar resolver sua solicitação."
         ],
         "bullets": [
@@ -810,7 +810,7 @@ export const generatedPrivacyCopy = {
           "Retificação: solicitar a correção ou atualização de informações imprecisas ou incompletas.",
           "Exclusão: solicitar a exclusão de suas informações pessoais, sujeito a certas exceções.",
           "Restrição: solicitar restrição de processamento em determinadas circunstâncias.",
-          "Portabilidade: Obter uma cópia estruturada, comumente usada e legível por máquina de determinadas informações e solicitar sua transferência para outro gestor quando for tecnicamente possível.",
+          "Portabilidade: obter uma cópia estruturada, de uso comum e legível por máquina de determinadas informações e solicitar sua transferência para outro controlador quando for tecnicamente possível.",
           "Opor-se: opor-se a determinados tratamentos com base nos nossos interesses legítimos, incluindo a criação de perfis.",
           "Marketing: cancele a assinatura de comunicações de marketing direto a qualquer momento, por exemplo, através do link de cancelamento em nossos e-mails."
         ]
@@ -852,7 +852,7 @@ export const generatedPrivacyCopy = {
             "title": "12.1 Direitos de Privacidade da Califórnia (CCPA/CPRA)",
             "paragraphs": [
               "Se você for residente na Califórnia, poderá ter direitos adicionais sob a Lei de Privacidade do Consumidor da Califórnia, conforme alterada pela CPRA, incluindo o direito de conhecer as categorias de informações pessoais coletadas e suas finalidades, o direito de saber se as informações estão sendo vendidas ou compartilhadas, o direito de acessar suas informações pessoais e solicitar a exclusão em certos casos, o direito de cancelar certas \"vendas\" ou \"compartilhamentos\" quando aplicável, e o direito de não ser discriminado pelo exercício de seus direitos.",
-              "Sundae não vende informações pessoais no sentido geral da CCPA. Para exercer seus direitos na Califórnia, entre em contato conosco pelo e-mail privacidade@sundae.io."
+              "Sundae não vende informações pessoais no sentido geral da CCPA. Para exercer seus direitos na Califórnia, entre em contato conosco pelo e-mail privacy@sundae.io."
             ]
           },
           {
@@ -875,9 +875,9 @@ export const generatedPrivacyCopy = {
                 ]
               },
               {
-                "title": "Gerente e subcontratado",
+                "title": "Controlador e operador",
                 "paragraphs": [
-                  "Sundae Technologies Inc. atua como principal gestora da plataforma. Quando você assina através da Ambia Global Technologies Ltd, nosso revendedor autorizado DIFC, a Ambia atua como processadora de metadados administrativos e de suporte limitados, enquanto a Sundae Technologies Inc. As funções e responsabilidades são detalhadas no acordo de processamento de dados que acompanha qualquer contrato empresarial."
+                  "A Sundae Technologies Inc. atua como controladora principal da plataforma. Quando você assina por meio da Ambia Global Technologies Ltd, nosso revendedor autorizado pelo DIFC, a Ambia atua como operadora de metadados administrativos e de suporte limitados, enquanto a Sundae Technologies Inc. atua como suboperadora para hospedagem, operação da plataforma e análises. As funções e responsabilidades são detalhadas no acordo de processamento de dados que acompanha qualquer contrato empresarial."
                 ]
               },
               {
@@ -923,15 +923,15 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "Escreva para nós",
-        "value": "privacidade@sundae.io",
-        "icon": "suporte",
+        "value": "privacy@sundae.io",
+        "icon": "support",
         "href": "mailto:privacy@sundae.io"
       },
       {
         "title": "Ligue para nós",
         "value": "+971 (4) 501-7308",
-        "icon": "suporte",
-        "href": "telefone: +97145017308"
+        "icon": "support",
+        "href": "tel:+97145017308"
       },
       {
         "title": "Visite-nos",
@@ -946,7 +946,7 @@ export const generatedPrivacyCopy = {
     ],
     "buttons": {
       "secondary": "Termos de uso",
-      "primary": "Entre em contato com a equipe de confidencialidade"
+      "primary": "Entre em contato com a equipe de privacidade"
     }
   },
   "hi": {
@@ -1118,7 +1118,7 @@ export const generatedPrivacyCopy = {
         "title": "7. आपके अधिकार और विकल्प",
         "paragraphs": [
           "आपके स्थान और लागू कानून के आधार पर, आपकी व्यक्तिगत जानकारी के संबंध में आपके पास निम्नलिखित में से कुछ या सभी अधिकार हो सकते हैं:",
-          "इन अधिकारों का प्रयोग करने के लिए, हमसेprivacy@sundae.io पर संपर्क करें। हम लागू डेटा सुरक्षा कानूनों के अनुसार जवाब देंगे और आपके अनुरोध पर कार्रवाई करने से पहले आपकी पहचान सत्यापित करने की आवश्यकता हो सकती है।",
+          "इन अधिकारों का प्रयोग करने के लिए, privacy@sundae.io पर संपर्क करें। हम लागू डेटा सुरक्षा कानूनों के अनुसार जवाब देंगे और आपके अनुरोध पर कार्रवाई करने से पहले आपकी पहचान सत्यापित करने की आवश्यकता हो सकती है।",
           "आपको अपने स्थानीय डेटा सुरक्षा प्राधिकरण के पास शिकायत दर्ज करने का भी अधिकार हो सकता है। हम आपको पहले हमसे संपर्क करने के लिए प्रोत्साहित करते हैं ताकि हम आपके अनुरोध को हल करने का प्रयास कर सकें।"
         ],
         "bullets": [
@@ -1126,7 +1126,7 @@ export const generatedPrivacyCopy = {
           "सुधार: गलत या अधूरी जानकारी में सुधार या अद्यतन करने का अनुरोध करें।",
           "हटाना: कुछ अपवादों के अधीन, अपनी व्यक्तिगत जानकारी को हटाने का अनुरोध करें।",
           "प्रतिबंध: कुछ परिस्थितियों में प्रसंस्करण पर प्रतिबंध का अनुरोध करें।",
-          "पोर्टेबिलिटी: कुछ जानकारी की एक संरचित, आमतौर पर उपयोग की जाने वाली, मशीन-पठनीय प्रतिलिपि प्राप्त करें और तकनीकी रूप से संभव होने पर इसे किसी अन्य प्रबंधक को स्थानांतरित करने का अनुरोध करें।",
+          "पोर्टेबिलिटी: कुछ जानकारी की एक संरचित, आमतौर पर उपयोग की जाने वाली, मशीन-पठनीय प्रतिलिपि प्राप्त करें और तकनीकी रूप से संभव होने पर इसे किसी अन्य नियंत्रक को स्थानांतरित करने का अनुरोध करें।",
           "वस्तु: प्रोफाइलिंग सहित हमारे वैध हितों के आधार पर कुछ प्रसंस्करण पर आपत्ति।",
           "विपणन: किसी भी समय प्रत्यक्ष विपणन संचार से सदस्यता समाप्त करें, उदाहरण के लिए हमारे ईमेल में सदस्यता समाप्त लिंक के माध्यम से।"
         ]
@@ -1168,7 +1168,7 @@ export const generatedPrivacyCopy = {
             "title": "12.1 कैलिफोर्निया गोपनीयता अधिकार (सीसीपीए/सीपीआरए)",
             "paragraphs": [
               "यदि आप कैलिफोर्निया के निवासी हैं, तो आपके पास सीपीआरए द्वारा संशोधित कैलिफोर्निया उपभोक्ता गोपनीयता अधिनियम के तहत अतिरिक्त अधिकार हो सकते हैं, जिसमें एकत्र की गई व्यक्तिगत जानकारी की श्रेणियों और उनके उद्देश्यों को जानने का अधिकार, यह जानने का अधिकार कि क्या जानकारी बेची जा रही है या साझा की जा रही है, आपकी व्यक्तिगत जानकारी तक पहुंचने और कुछ मामलों में हटाने का अनुरोध करने का अधिकार, जहां लागू हो, कुछ \"बिक्री\" या \"साझाकरण\" से बाहर निकलने का अधिकार, और अपने अधिकारों के प्रयोग के लिए भेदभाव न करने का अधिकार।",
-              "संडे सीसीपीए के सामान्य अर्थ में व्यक्तिगत जानकारी नहीं बेचता है। कैलिफ़ोर्निया में अपने अधिकारों का प्रयोग करने के लिए, आप हमसेprivacy@sundae.io पर संपर्क कर सकते हैं।"
+              "संडे सीसीपीए के सामान्य अर्थ में व्यक्तिगत जानकारी नहीं बेचता है। कैलिफ़ोर्निया में अपने अधिकारों का प्रयोग करने के लिए, आप privacy@sundae.io पर संपर्क कर सकते हैं।"
             ]
           },
           {
@@ -1191,9 +1191,9 @@ export const generatedPrivacyCopy = {
                 ]
               },
               {
-                "title": "प्रबंधक और उपठेकेदार",
+                "title": "नियंत्रक और प्रोसेसर",
                 "paragraphs": [
-                  "संडे टेक्नोलॉजीज इंक. मंच के मुख्य प्रबंधक के रूप में कार्य करता है। जब आप हमारे डीआईएफसी अधिकृत पुनर्विक्रेता एंबिया ग्लोबल टेक्नोलॉजीज लिमिटेड के माध्यम से सदस्यता लेते हैं, तो एंबिया सीमित प्रशासनिक और समर्थन मेटाडेटा के लिए प्रोसेसर के रूप में कार्य करता है, जबकि संडे टेक्नोलॉजीज इंक होस्टिंग, प्लेटफॉर्म संचालन और एनालिटिक्स के लिए उप-प्रोसेसर के रूप में कार्य करता है। किसी भी उद्यम अनुबंध के साथ जुड़े डेटा प्रोसेसिंग समझौते में भूमिकाएँ और जिम्मेदारियाँ विस्तृत होती हैं।"
+                  "Sundae Technologies Inc. प्लेटफ़ॉर्म के मुख्य नियंत्रक के रूप में कार्य करती है। जब आप हमारे डीआईएफसी अधिकृत पुनर्विक्रेता एंबिया ग्लोबल टेक्नोलॉजीज लिमिटेड के माध्यम से सदस्यता लेते हैं, तो एंबिया सीमित प्रशासनिक और समर्थन मेटाडेटा के लिए प्रोसेसर के रूप में कार्य करती है, जबकि Sundae Technologies Inc. होस्टिंग, प्लेटफ़ॉर्म संचालन और एनालिटिक्स के लिए उप-प्रोसेसर के रूप में कार्य करती है। किसी भी उद्यम अनुबंध के साथ संलग्न डेटा प्रोसेसिंग समझौते में भूमिकाएँ और ज़िम्मेदारियाँ विस्तार से वर्णित होती हैं।"
                 ]
               },
               {
@@ -1211,7 +1211,7 @@ export const generatedPrivacyCopy = {
               {
                 "title": "शिकायतें",
                 "paragraphs": [
-                  "यदि आपको लगता है कि हमने आपके डेटा सुरक्षा अधिकारों का सम्मान नहीं किया है, तो आप यूएई डेटा कार्यालय, डीआईएफसी के डेटा संरक्षण आयुक्त या एडीजीएम के सक्षम प्राधिकारी के पास शिकायत दर्ज कर सकते हैं। हालाँकि, हम आपकी चिंताओं को सीधे तौर परprivacy@sundae.io पर संबोधित करने के अवसर की सराहना करेंगे।"
+                  "यदि आपको लगता है कि हमने आपके डेटा सुरक्षा अधिकारों का सम्मान नहीं किया है, तो आप यूएई डेटा कार्यालय, डीआईएफसी के डेटा संरक्षण आयुक्त या एडीजीएम के सक्षम प्राधिकारी के पास शिकायत दर्ज कर सकते हैं। हालाँकि, हम पहले आपकी चिंताओं को सीधे privacy@sundae.io के माध्यम से संबोधित करने के अवसर की सराहना करेंगे।"
                 ]
               }
             ]
@@ -1239,15 +1239,15 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "हमें लिखें",
-        "value": "गोपनीयता@sundae.io",
-        "icon": "समर्थन",
+        "value": "privacy@sundae.io",
+        "icon": "support",
         "href": "mailto:privacy@sundae.io"
       },
       {
         "title": "हमें कॉल करें",
         "value": "+971 (4) 501-7308",
-        "icon": "समर्थन",
-        "href": "फ़ोन:+97145017308"
+        "icon": "support",
+        "href": "tel:+97145017308"
       },
       {
         "title": "हमसे मिलें",
@@ -1257,7 +1257,7 @@ export const generatedPrivacyCopy = {
           "मिडलटाउन, DE 19709",
           "संयुक्त राज्य अमेरिका"
         ],
-        "icon": "बहुस्थान"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
@@ -1442,7 +1442,7 @@ export const generatedPrivacyCopy = {
           "اصلاح: غلط یا نامکمل معلومات کو درست کرنے یا اپ ڈیٹ کرنے کی درخواست کریں۔",
           "حذف کرنا: اپنی ذاتی معلومات کو حذف کرنے کی درخواست کریں، بعض استثناء کے ساتھ۔",
           "پابندی: مخصوص حالات میں پروسیسنگ کی پابندی کی درخواست کریں۔",
-          "پورٹیبلٹی: مخصوص معلومات کی ایک منظم، عام طور پر استعمال شدہ، مشین کے ذریعے پڑھنے کے قابل کاپی حاصل کریں اور تکنیکی طور پر ممکن ہونے پر اس کی کسی دوسرے مینیجر کو منتقلی کی درخواست کریں۔",
+          "پورٹیبلٹی: مخصوص معلومات کی ایک منظم، عام طور پر استعمال شدہ، مشین کے ذریعے پڑھنے کے قابل کاپی حاصل کریں اور تکنیکی طور پر ممکن ہونے پر اس کی کسی دوسرے کنٹرولر کو منتقلی کی درخواست کریں۔",
           "اعتراض: پروفائلنگ سمیت ہمارے جائز مفادات پر مبنی کچھ پروسیسنگ پر اعتراض کریں۔",
           "مارکیٹنگ: کسی بھی وقت براہ راست مارکیٹنگ مواصلات سے ان سبسکرائب کریں، مثال کے طور پر ہماری ای میلز میں ان سبسکرائب لنک کے ذریعے۔"
         ]
@@ -1483,7 +1483,7 @@ export const generatedPrivacyCopy = {
           {
             "title": "12.1 کیلیفورنیا کے رازداری کے حقوق (CCPA/CPRA)",
             "paragraphs": [
-              "اگر آپ کیلیفورنیا کے رہائشی ہیں، تو آپ کو کیلیفورنیا کنزیومر پرائیویسی ایکٹ کے تحت اضافی حقوق حاصل ہو سکتے ہیں، جیسا کہ CPRA کی طرف سے ترمیم کی گئی ہے، جس میں جمع کی گئی ذاتی معلومات کے زمرے اور ان کے مقاصد کو جاننے کا حق، یہ جاننے کا حق کہ آیا معلومات فروخت کی جا رہی ہیں یا شیئر کی جا رہی ہیں، آپ کی ذاتی معلومات تک رسائی کا حق اور بعض صورتوں میں حذف کرنے کی درخواست، آپٹ آؤٹ کرنے کا حق، جہاں پر \"لیکن\" یا مخصوص \"ایپ\" سے آپٹ آؤٹ کرنے کا حق شامل ہے۔ آپ کے حقوق کے استعمال کے لیے امتیازی سلوک کیا جاتا ہے۔",
+              "اگر آپ کیلیفورنیا کے رہائشی ہیں، تو آپ کو کیلیفورنیا کنزیومر پرائیویسی ایکٹ کے تحت اضافی حقوق حاصل ہو سکتے ہیں، جیسا کہ CPRA کی طرف سے ترمیم کی گئی ہے، جس میں جمع کی گئی ذاتی معلومات کے زمرے اور ان کے مقاصد کو جاننے کا حق، یہ جاننے کا حق کہ آیا معلومات فروخت کی جا رہی ہیں یا شیئر کی جا رہی ہیں، آپ کی ذاتی معلومات تک رسائی کا حق اور بعض صورتوں میں حذف کرنے کی درخواست کا حق، جہاں قابل اطلاق ہو وہاں بعض \"فروخت\" یا \"اشتراک\" سے آپٹ آؤٹ کرنے کا حق، اور اپنے حقوق کے استعمال کی وجہ سے امتیازی سلوک کا نشانہ نہ بننے کا حق شامل ہے۔",
               "Sundae ذاتی معلومات کو CCPA کے عمومی معنوں میں فروخت نہیں کرتا ہے۔ کیلیفورنیا میں اپنے حقوق استعمال کرنے کے لیے، آپ ہم سے privacy@sundae.io پر رابطہ کر سکتے ہیں۔"
             ]
           },
@@ -1507,9 +1507,9 @@ export const generatedPrivacyCopy = {
                 ]
               },
               {
-                "title": "مینیجر اور ذیلی ٹھیکیدار",
+                "title": "کنٹرولر اور پروسیسر",
                 "paragraphs": [
-                  "Sundae Technologies Inc. پلیٹ فارم کے مرکزی مینیجر کے طور پر کام کرتا ہے۔ جب آپ Ambia Global Technologies Ltd کے ذریعے سبسکرائب کرتے ہیں، ہمارے DIFC مجاز ری سیلر، Ambia محدود انتظامی اور سپورٹ میٹا ڈیٹا کے لیے بطور پروسیسر کام کرتا ہے، جبکہ Sundae Technologies Inc. میزبانی، پلیٹ فارم آپریشنز اور تجزیات کے لیے ذیلی پروسیسر کے طور پر کام کرتا ہے۔ ڈیٹا پروسیسنگ کے معاہدے میں کردار اور ذمہ داریوں کی تفصیل ہے جو کسی بھی انٹرپرائز معاہدے کے ساتھ ہوتا ہے۔"
+                  "Sundae Technologies Inc. پلیٹ فارم کے بنیادی کنٹرولر کے طور پر کام کرتی ہے۔ جب آپ Ambia Global Technologies Ltd کے ذریعے سبسکرائب کرتے ہیں، ہمارے DIFC مجاز ری سیلر، Ambia محدود انتظامی اور سپورٹ میٹا ڈیٹا کے لیے بطور پروسیسر کام کرتا ہے، جبکہ Sundae Technologies Inc. میزبانی، پلیٹ فارم آپریشنز اور تجزیات کے لیے ذیلی پروسیسر کے طور پر کام کرتا ہے۔ ڈیٹا پروسیسنگ کے معاہدے میں کردار اور ذمہ داریوں کی تفصیل ہے جو کسی بھی انٹرپرائز معاہدے کے ساتھ ہوتا ہے۔"
                 ]
               },
               {
@@ -1556,14 +1556,14 @@ export const generatedPrivacyCopy = {
       {
         "title": "ہمیں لکھیں۔",
         "value": "privacy@sundae.io",
-        "icon": "حمایت",
+        "icon": "support",
         "href": "mailto:privacy@sundae.io"
       },
       {
         "title": "ہمیں کال کریں۔",
         "value": "+971 (4) 501-7308",
-        "icon": "حمایت",
-        "href": "ٹیلی فون:+97145017308"
+        "icon": "support",
+        "href": "tel:+97145017308"
       },
       {
         "title": "ہم سے ملیں۔",
@@ -1573,7 +1573,7 @@ export const generatedPrivacyCopy = {
           "مڈل ٹاؤن، ڈی ای 19709",
           "ریاستہائے متحدہ"
         ],
-        "icon": "ملٹی لوکیشن"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
@@ -1758,7 +1758,7 @@ export const generatedPrivacyCopy = {
           "Rettifica: richiedere la correzione o l'aggiornamento di informazioni inesatte o incomplete.",
           "Cancellazione: richiedere la cancellazione delle proprie informazioni personali, fatte salve alcune eccezioni.",
           "Limitazione: richiedere la limitazione del trattamento in determinate circostanze.",
-          "Portabilità: ottenere una copia strutturata, di uso comune e leggibile dalla macchina di determinate informazioni e richiederne il trasferimento a un altro gestore quando tecnicamente possibile.",
+          "Portabilità: ottenere una copia strutturata, di uso comune e leggibile dalla macchina di determinate informazioni e richiederne il trasferimento a un altro titolare del trattamento quando tecnicamente possibile.",
           "Obiezione: opporsi a determinati trattamenti basati sui nostri interessi legittimi, inclusa la profilazione.",
           "Marketing: annullare l'iscrizione alle comunicazioni di marketing diretto in qualsiasi momento, ad esempio tramite il collegamento di annullamento dell'iscrizione presente nelle nostre e-mail."
         ]
@@ -1823,9 +1823,9 @@ export const generatedPrivacyCopy = {
                 ]
               },
               {
-                "title": "Gestore e subappaltatore",
+                "title": "Titolare e responsabile del trattamento",
                 "paragraphs": [
-                  "Sundae Technologies Inc. funge da gestore principale della piattaforma. Quando ti abboni tramite Ambia Global Technologies Ltd, il nostro rivenditore autorizzato DIFC, Ambia funge da responsabile del trattamento per metadati amministrativi e di supporto limitati, mentre Sundae Technologies Inc. funge da sub-responsabile del trattamento per hosting, operazioni della piattaforma e analisi. Ruoli e responsabilità sono dettagliati nell'accordo sul trattamento dei dati che accompagna qualsiasi contratto aziendale."
+                  "Sundae Technologies Inc. funge da titolare principale del trattamento della piattaforma. Quando ti abboni tramite Ambia Global Technologies Ltd, il nostro rivenditore autorizzato DIFC, Ambia funge da responsabile del trattamento per metadati amministrativi e di supporto limitati, mentre Sundae Technologies Inc. funge da sub-responsabile del trattamento per hosting, operazioni della piattaforma e analisi. Ruoli e responsabilità sono dettagliati nell'accordo sul trattamento dei dati che accompagna qualsiasi contratto aziendale."
                 ]
               },
               {
@@ -1872,13 +1872,13 @@ export const generatedPrivacyCopy = {
       {
         "title": "Scrivici",
         "value": "privacy@sundae.io",
-        "icon": "supporto",
+        "icon": "support",
         "href": "mailto:privacy@sundae.io"
       },
       {
         "title": "Chiamaci",
         "value": "+971 (4) 501-7308",
-        "icon": "supporto",
+        "icon": "support",
         "href": "tel:+97145017308"
       },
       {
@@ -1889,12 +1889,12 @@ export const generatedPrivacyCopy = {
           "Middletown, DE 19709",
           "Stati Uniti"
         ],
-        "icon": "multiLocalità"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
       "secondary": "Condizioni d'uso",
-      "primary": "Contatta il team di riservatezza"
+      "primary": "Contatta il team privacy"
     }
   },
   "pl": {
@@ -2066,7 +2066,7 @@ export const generatedPrivacyCopy = {
         "title": "7. Twoje prawa i wybory",
         "paragraphs": [
           "W zależności od Twojej lokalizacji i obowiązującego prawa możesz mieć niektóre lub wszystkie z poniższych praw dotyczących Twoich danych osobowych:",
-          "Aby skorzystać z tych praw, skontaktuj się z nami pod adresem Privacy@sundae.io. Odpowiemy zgodnie z obowiązującymi przepisami o ochronie danych i może być konieczne zweryfikowanie Twojej tożsamości przed przetworzeniem Twojej prośby.",
+          "Aby skorzystać z tych praw, skontaktuj się z nami pod adresem privacy@sundae.io. Odpowiemy zgodnie z obowiązującymi przepisami o ochronie danych i może być konieczne zweryfikowanie Twojej tożsamości przed przetworzeniem Twojej prośby.",
           "Możesz mieć również prawo do złożenia skargi do lokalnego organu ochrony danych. Zachęcamy Cię do skontaktowania się z nami, abyśmy mogli spróbować rozwiązać Twoją prośbę."
         ],
         "bullets": [
@@ -2074,7 +2074,7 @@ export const generatedPrivacyCopy = {
           "Sprostowanie: zażądaj korekty lub aktualizacji niedokładnych lub niekompletnych informacji.",
           "Usunięcie: poproś o usunięcie swoich danych osobowych, z zastrzeżeniem pewnych wyjątków.",
           "Ograniczenie: zażądaj ograniczenia przetwarzania w określonych okolicznościach.",
-          "Przenośność: Uzyskaj ustrukturyzowaną, powszechnie używaną, nadającą się do odczytu maszynowego kopię niektórych informacji i poproś o jej przeniesienie do innego menedżera, jeśli jest to technicznie możliwe.",
+          "Przenośność: Uzyskaj ustrukturyzowaną, powszechnie używaną, nadającą się do odczytu maszynowego kopię niektórych informacji i poproś o jej przeniesienie do innego administratora, jeśli jest to technicznie możliwe.",
           "Przedmiot: sprzeciw wobec niektórych procesów przetwarzania opartych na naszych prawnie uzasadnionych interesach, w tym profilowania.",
           "Marketing: w każdej chwili możesz zrezygnować z otrzymywania wiadomości w ramach marketingu bezpośredniego, na przykład za pomocą linku rezygnacji z subskrypcji znajdującego się w naszych e-mailach."
         ]
@@ -2116,7 +2116,7 @@ export const generatedPrivacyCopy = {
             "title": "12.1 Kalifornijskie prawa do prywatności (CCPA/CPRA)",
             "paragraphs": [
               "Jeśli jesteś mieszkańcem Kalifornii, możesz mieć dodatkowe prawa zgodnie z kalifornijską ustawą o ochronie prywatności konsumentów, zmienioną przez ustawę CPRA, w tym prawo do poznania kategorii gromadzonych danych osobowych i ich celów, prawo do informacji, czy informacje są sprzedawane lub udostępniane, prawo dostępu do swoich danych osobowych i żądania ich usunięcia w niektórych przypadkach, prawo do rezygnacji z niektórych „sprzedaży” lub „udostępniania”, w stosownych przypadkach, oraz prawo do nie bycia dyskryminowanym w związku z korzystaniem ze swoich praw.",
-              "Sundae nie sprzedaje danych osobowych w ogólnym rozumieniu ustawy CCPA. Aby skorzystać ze swoich praw w Kalifornii, możesz skontaktować się z nami pod adresem Privacy@sundae.io."
+              "Sundae nie sprzedaje danych osobowych w ogólnym rozumieniu ustawy CCPA. Aby skorzystać ze swoich praw w Kalifornii, możesz skontaktować się z nami pod adresem privacy@sundae.io."
             ]
           },
           {
@@ -2139,9 +2139,9 @@ export const generatedPrivacyCopy = {
                 ]
               },
               {
-                "title": "Menedżer i podwykonawca",
+                "title": "Administrator i podmiot przetwarzający",
                 "paragraphs": [
-                  "Głównym menadżerem platformy jest Sundae Technologies Inc. W przypadku subskrypcji za pośrednictwem Ambia Global Technologies Ltd, naszego autoryzowanego sprzedawcy DIFC, Ambia pełni rolę podmiotu przetwarzającego ograniczone metadane administracyjne i pomocnicze, podczas gdy Sundae Technologies Inc. pełni rolę podwykonawcy przetwarzania w zakresie hostingu, operacji na platformie i analiz. Role i obowiązki są szczegółowo określone w umowie o przetwarzaniu danych dołączonej do każdej umowy korporacyjnej."
+                  "Głównym administratorem platformy jest Sundae Technologies Inc. W przypadku subskrypcji za pośrednictwem Ambia Global Technologies Ltd, naszego autoryzowanego sprzedawcy DIFC, Ambia pełni rolę podmiotu przetwarzającego ograniczone metadane administracyjne i pomocnicze, podczas gdy Sundae Technologies Inc. pełni rolę podwykonawcy przetwarzania w zakresie hostingu, operacji na platformie i analiz. Role i obowiązki są szczegółowo określone w umowie o przetwarzaniu danych dołączonej do każdej umowy korporacyjnej."
                 ]
               },
               {
@@ -2159,7 +2159,7 @@ export const generatedPrivacyCopy = {
               {
                 "title": "Reklamacje",
                 "paragraphs": [
-                  "Jeśli uważasz, że nie przestrzegaliśmy Twoich praw do ochrony danych, możesz złożyć skargę do Urzędu Danych Zjednoczonych Emiratów Arabskich, Komisarza ds. Ochrony Danych DIFC lub właściwego organu ADGM. Będziemy jednak wdzięczni za możliwość bezpośredniego omówienia Twoich wątpliwości pod adresem e-mail: Privacy@sundae.io."
+                  "Jeśli uważasz, że nie przestrzegaliśmy Twoich praw do ochrony danych, możesz złożyć skargę do Urzędu Danych Zjednoczonych Emiratów Arabskich, Komisarza ds. Ochrony Danych DIFC lub właściwego organu ADGM. Będziemy jednak wdzięczni za możliwość bezpośredniego omówienia Twoich wątpliwości pod adresem e-mail: privacy@sundae.io."
                 ]
               }
             ]
@@ -2187,30 +2187,30 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "Napisz do nas",
-        "value": "prywatność@sundae.io",
-        "icon": "wsparcie",
+        "value": "privacy@sundae.io",
+        "icon": "support",
         "href": "mailto:privacy@sundae.io"
       },
       {
         "title": "Zadzwoń do nas",
         "value": "+971 (4) 501-7308",
-        "icon": "wsparcie",
+        "icon": "support",
         "href": "tel:+97145017308"
       },
       {
         "title": "Odwiedź nas",
         "value": [
           "Sundae Technologies Inc.",
-          "651 N Broad St, apartament 201",
+          "651 N Broad St, Suite 201",
           "Middletown, DE 19709",
           "Stany Zjednoczone"
         ],
-        "icon": "wiele lokalizacji"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
       "secondary": "Warunki użytkowania",
-      "primary": "Skontaktuj się z zespołem ds. poufności"
+      "primary": "Skontaktuj się z zespołem ds. prywatności"
     }
   },
   "tr": {
@@ -2382,7 +2382,7 @@ export const generatedPrivacyCopy = {
         "title": "7. Haklarınız ve seçimleriniz",
         "paragraphs": [
           "Bulunduğunuz yere ve geçerli yasalara bağlı olarak, kişisel bilgilerinizle ilgili aşağıdaki hakların bir kısmına veya tamamına sahip olabilirsiniz:",
-          "Bu hakları kullanmak için bizimle gizlilik@sundae.io adresinden iletişime geçin. Geçerli veri koruma yasalarına uygun olarak yanıt vereceğiz ve talebinizi işleme koymadan önce kimliğinizi doğrulamamız gerekebilir.",
+          "Bu hakları kullanmak için bizimle privacy@sundae.io adresinden iletişime geçin. Geçerli veri koruma yasalarına uygun olarak yanıt vereceğiz ve talebinizi işleme koymadan önce kimliğinizi doğrulamamız gerekebilir.",
           "Ayrıca yerel veri koruma yetkilinize şikayette bulunma hakkınız da olabilir. Talebinizi çözümlemeye çalışabilmemiz için öncelikle bizimle iletişime geçmenizi öneririz."
         ],
         "bullets": [
@@ -2390,7 +2390,7 @@ export const generatedPrivacyCopy = {
           "Düzeltme: Yanlış veya eksik bilgilerin düzeltilmesini veya güncellenmesini talep etme.",
           "Silme: Belirli istisnalara tabi olarak kişisel bilgilerinizin silinmesini talep edebilirsiniz.",
           "Kısıtlama: Belirli durumlarda işlemenin kısıtlanmasını talep etme.",
-          "Taşınabilirlik: Belirli bilgilerin yapılandırılmış, yaygın olarak kullanılan, makine tarafından okunabilen bir kopyasını edinin ve teknik olarak mümkün olduğunda bunun başka bir yöneticiye aktarılmasını talep edin.",
+          "Taşınabilirlik: Belirli bilgilerin yapılandırılmış, yaygın olarak kullanılan, makine tarafından okunabilen bir kopyasını edinin ve teknik olarak mümkün olduğunda bunun başka bir veri sorumlusuna aktarılmasını talep edin.",
           "İtiraz: Profil çıkarma da dahil olmak üzere meşru menfaatlerimize dayalı olarak belirli işlemlere itiraz etmek.",
           "Pazarlama: Dilediğiniz zaman, örneğin e-postalarımızdaki abonelikten çıkma bağlantısını kullanarak, doğrudan pazarlama iletişimlerinden çıkabilirsiniz."
         ]
@@ -2432,7 +2432,7 @@ export const generatedPrivacyCopy = {
             "title": "12.1 Kaliforniya Gizlilik Hakları (CCPA/CPRA)",
             "paragraphs": [
               "Kaliforniya'da ikamet ediyorsanız, CPRA tarafından değiştirilen Kaliforniya Tüketici Gizliliği Yasası kapsamında, toplanan kişisel bilgilerin kategorilerini ve amaçlarını bilme hakkı, bilgilerin satılıp satılmadığını veya paylaşıldığını bilme hakkı, kişisel bilgilerinize erişme ve belirli durumlarda silinmesini talep etme hakkı, uygun olduğu durumlarda belirli \"satış\" veya \"paylaşım\"dan vazgeçme hakkı ve haklarınızı kullanırken ayrımcılığa uğramama hakkı da dahil olmak üzere ek haklara sahip olabilirsiniz.",
-              "Sundae, CCPA'nın genel anlamında kişisel bilgileri satmaz. Kaliforniya'daki haklarınızı kullanmak için bizimle gizlilik@sundae.io adresinden iletişime geçebilirsiniz."
+              "Sundae, CCPA'nın genel anlamında kişisel bilgileri satmaz. Kaliforniya'daki haklarınızı kullanmak için bizimle privacy@sundae.io adresinden iletişime geçebilirsiniz."
             ]
           },
           {
@@ -2455,9 +2455,9 @@ export const generatedPrivacyCopy = {
                 ]
               },
               {
-                "title": "Yönetici ve taşeron",
+                "title": "Veri sorumlusu ve veri işleyen",
                 "paragraphs": [
-                  "Sundae Technologies Inc., platformun ana yöneticisi olarak görev yapıyor. DIFC yetkili satıcımız Ambia Global Technologies Ltd aracılığıyla abone olduğunuzda Ambia, sınırlı yönetim ve destek meta verileri için işlemci görevi görürken Sundae Technologies Inc., barındırma, platform işlemleri ve analitik için alt işlemci olarak görev yapar. Roller ve sorumluluklar, herhangi bir kurumsal sözleşmeye eşlik eden veri işleme sözleşmesinde ayrıntılı olarak açıklanmaktadır."
+                  "Sundae Technologies Inc., platformun ana veri sorumlusu olarak görev yapar. DIFC yetkili satıcımız Ambia Global Technologies Ltd aracılığıyla abone olduğunuzda Ambia, sınırlı yönetim ve destek meta verileri için işlemci görevi görürken Sundae Technologies Inc., barındırma, platform işlemleri ve analitik için alt işlemci olarak görev yapar. Roller ve sorumluluklar, herhangi bir kurumsal sözleşmeye eşlik eden veri işleme sözleşmesinde ayrıntılı olarak açıklanmaktadır."
                 ]
               },
               {
@@ -2475,7 +2475,7 @@ export const generatedPrivacyCopy = {
               {
                 "title": "Şikayetler",
                 "paragraphs": [
-                  "Veri koruma haklarınıza saygı göstermediğimizi düşünüyorsanız BAE Veri Ofisine, DIFC Veri Koruma Komiseri'ne veya ADGM'nin yetkili makamına şikayette bulunabilirsiniz. Ancak endişelerinizi önceden doğrudan gizlilik@sundae.io adresinden giderme fırsatından memnuniyet duyarız."
+                  "Veri koruma haklarınıza saygı göstermediğimizi düşünüyorsanız BAE Veri Ofisine, DIFC Veri Koruma Komiseri'ne veya ADGM'nin yetkili makamına şikayette bulunabilirsiniz. Ancak endişelerinizi önceden doğrudan privacy@sundae.io adresinden giderme fırsatından memnuniyet duyarız."
                 ]
               }
             ]
@@ -2503,25 +2503,25 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "Bize yazın",
-        "value": "gizlilik@sundae.io",
-        "icon": "destek",
+        "value": "privacy@sundae.io",
+        "icon": "support",
         "href": "mailto:privacy@sundae.io"
       },
       {
         "title": "Bizi arayın",
         "value": "+971 (4) 501-7308",
-        "icon": "destek",
+        "icon": "support",
         "href": "tel:+97145017308"
       },
       {
         "title": "Bizi ziyaret edin",
         "value": [
-          "Sundae Teknolojileri A.Ş.",
+          "Sundae Technologies Inc.",
           "651 N Broad St, Süit 201",
           "Middletown, DE 19709",
           "Amerika Birleşik Devletleri"
         ],
-        "icon": "çoklu konum"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
@@ -2546,7 +2546,7 @@ export const generatedPrivacyCopy = {
         ],
         "bullets": [
           "访问或使用我们的网站。",
-          "使用我们的人工智能决策智能平台和相关产品，包括圣代报告。",
+          "使用我们的人工智能决策智能平台和相关产品，包括Sundae Report。",
           "就这些服务（统称为“服务”）与我们进行互动。"
         ]
       },
@@ -2607,7 +2607,7 @@ export const generatedPrivacyCopy = {
         ],
         "bullets": [
           "提供和运营服务：创建和管理帐户、仪表板、人工智能分析和见解、与 POS 系统和其他系统集成。",
-          "处理和分析您的数据：根据客户数据生成报告、KPI、警报和建议，以及根据聚合数据和基准数据创建比较分析和基准测试，包括圣代报告。",
+          "处理和分析您的数据：根据客户数据生成报告、KPI、警报和建议，以及根据聚合数据和基准数据创建比较分析和基准测试，包括Sundae Report。",
           "改进和开发服务：监控性能和使用情况、调试、故障排除、丰富功能以及使用无法识别个人或您公司身份的汇总数据训练我们的模型。",
           "个性化您的体验：记住您的设置和偏好，并根据您的环境调整内容、功能和通信。",
           "与您沟通：发送服务公告、更新和安全警报，响应您的请求、入职支持和客户成功，以及有关新功能、优惠和活动的沟通，并可以随时取消订阅营销。",
@@ -2650,7 +2650,7 @@ export const generatedPrivacyCopy = {
             "paragraphs": [
               "我们使用值得信赖的第三方提供商提供云托管、基础设施、存储和备份、支付处理、支持和通信工具、分析和监控以及安全和欺诈预防服务等服务。",
               "根据合同，这些服务提供商有义务仅使用这些信息向我们提供服务，并通过适当的技术和组织措施保护这些信息。",
-              "在某些地区，圣代通过授权的地区经销商和合作伙伴提供商业订阅。当您通过授权经销商订阅时，经销商可以作为有限管理、计费和初始支持目的的分包商，并承担至少与本政策中规定的保护性义务相同的义务。"
+              "在某些地区，Sundae通过授权的地区经销商和合作伙伴提供商业订阅。当您通过授权经销商订阅时，经销商可以作为有限管理、计费和初始支持目的的分包商，并承担至少与本政策中规定的保护性义务相同的义务。"
             ]
           },
           {
@@ -2666,7 +2666,7 @@ export const generatedPrivacyCopy = {
             ],
             "bullets": [
               "遵守法律、法规、法律程序或政府要求；",
-              "保护圣代、我们的用户或公众的权利、财产或安全；",
+              "保护Sundae、我们的用户或公众的权利、财产或安全；",
               "执行我们的协议，包括使用条款；",
               "检测、预防或解决欺诈、安全事件或技术问题。"
             ]
@@ -2691,14 +2691,14 @@ export const generatedPrivacyCopy = {
         "paragraphs": [
           "我们会在合理必要的时间内保留您的信息，以提供和支持服务、实现本政策中所述的目的、遵守我们的法律和监管义务、解决争议、执行我们的协议以及维护适当的业务和财务记录。",
           "当您关闭帐户时，我们会在合理的时间内（通常在 90 天内）删除或匿名化您的个人信息，除非出于法律义务、预防欺诈、安全事件日志、潜在诉讼或定期备份而需要保留。",
-          "匿名聚合数据和基准数据无法识别您或您的餐厅或任何个人的身份，并且无法合理地重新识别，圣代可以无限期地保留和使用这些数据用于合法的商业目的，包括基准测试、产品改进、模型培训、分析、研究和市场分析，如我们的使用条款中许可的。该数据不受删除请求的约束。"
+          "匿名聚合数据和基准数据无法识别您或您的餐厅或任何个人的身份，并且无法合理地重新识别，Sundae可以无限期地保留和使用这些数据用于合法的商业目的，包括基准测试、产品改进、模型培训、分析、研究和市场分析，如我们的使用条款中许可的。该数据不受删除请求的约束。"
         ]
       },
       {
         "title": "7. 您的权利和选择",
         "paragraphs": [
           "根据您所在的位置和适用的法律，您可能对您的个人信息拥有以下部分或全部权利：",
-          "要行使这些权利，请联系我们：privacy@sundae.io。我们将根据适用的数据保护法做出回应，并且在处理您的请求之前可能需要验证您的身份。",
+          "要行使这些权利，请通过 privacy@sundae.io 与我们联系。我们将根据适用的数据保护法做出回应，并且在处理您的请求之前可能需要验证您的身份。",
           "您可能还有权向当地数据保护机构提出投诉。我们鼓励您先联系我们，以便我们尝试解决您的请求。"
         ],
         "bullets": [
@@ -2706,7 +2706,7 @@ export const generatedPrivacyCopy = {
           "纠正：要求纠正或更新不准确或不完整的信息。",
           "删除：请求删除您的个人信息，但有某些例外情况。",
           "限制：在某些情况下请求限制处理。",
-          "可移植性：获取某些信息的结构化、常用、机器可读的副本，并在技术可行的情况下请求将其转移给另一位经理。",
+          "可移植性：获取某些信息的结构化、常用、机器可读的副本，并在技术可行的情况下请求将其转移给另一位控制者。",
           "对象：反对基于我们合法利益的某些处理，包括分析。",
           "营销：随时取消订阅直接营销通讯，例如通过我们电子邮件中的取消订阅链接。"
         ]
@@ -2714,7 +2714,7 @@ export const generatedPrivacyCopy = {
       {
         "title": "8. 国际数据传输",
         "paragraphs": [
-          "圣代总部位于美国，可能会在美国以及我们或我们的服务提供商运营所在的其他国家/地区处理信息。因此，您的信息可能会在您居住的国家/地区之外传输、存储和处理，包括传输到不提供与您所在司法管辖区相同级别保护的国家/地区。",
+          "Sundae总部位于美国，可能会在美国以及我们或我们的服务提供商运营所在的其他国家/地区处理信息。因此，您的信息可能会在您居住的国家/地区之外传输、存储和处理，包括传输到不提供与您所在司法管辖区相同级别保护的国家/地区。",
           "根据法律要求，我们为跨境传输制定适当的保障措施，例如标准合同条款、使用适当的决策（如果存在）或数据保护法允许的其他合法传输机制。",
           "您可以联系我们，获取有关您的国际转账担保的更多信息。"
         ]
@@ -2730,8 +2730,8 @@ export const generatedPrivacyCopy = {
       {
         "title": "10. 第三方链接和服务",
         "paragraphs": [
-          "我们的服务可能包含非圣代拥有或控制的第三方网站或服务的链接。我们不对这些第三方的隐私做法负责。",
-          "我们建议您查看通过我们平台访问的第三方服务的隐私政策。本政策仅适用于圣代收集的信息。"
+          "我们的服务可能包含非Sundae拥有或控制的第三方网站或服务的链接。我们不对这些第三方的隐私做法负责。",
+          "我们建议您查看通过我们平台访问的第三方服务的隐私政策。本政策仅适用于Sundae收集的信息。"
         ]
       },
       {
@@ -2748,7 +2748,7 @@ export const generatedPrivacyCopy = {
             "title": "12.1 加州隐私权 (CCPA/CPRA)",
             "paragraphs": [
               "如果您是加利福尼亚州居民，根据经 CPRA 修订的《加利福尼亚州消费者隐私法》，您可能享有其他权利，包括了解所收集的个人信息的类别及其目的的权利、了解信息是否被出售或共享的权利、在某些情况下访问您的个人信息并要求删除的权利、选择退出某些“销售”或“共享”（如果适用）的权利，以及不因行使您的权利而受到歧视的权利。",
-              "圣代不会出售 CCPA 一般意义上的个人信息。要在加利福尼亚州行使您的权利，您可以通过privacy@sundae.io 联系我们。"
+              "Sundae 不会按照 CCPA 的一般定义出售个人信息。要行使您在加州的权利，您可以通过 privacy@sundae.io 与我们联系。"
             ]
           },
           {
@@ -2771,9 +2771,9 @@ export const generatedPrivacyCopy = {
                 ]
               },
               {
-                "title": "经理和分包商",
+                "title": "控制者和处理者",
                 "paragraphs": [
-                  "Sundae Technologies Inc.担任该平台的主要管理者。当您通过我们的 DIFC 授权经销商 Ambia Global Technologies Ltd 订阅时，Ambia 充当有限管理和支持元数据的处理者，而 Sundae Technologies Inc. 则充当托管、平台运营和分析的子处理者。任何企业合同随附的数据处理协议中详细介绍了角色和职责。"
+                  "Sundae Technologies Inc. 担任该平台的主要控制者。当您通过我们的 DIFC 授权经销商 Ambia Global Technologies Ltd 订阅时，Ambia 充当有限管理和支持元数据的处理者，而 Sundae Technologies Inc. 则充当托管、平台运营和分析的子处理者。任何企业合同随附的数据处理协议中详细介绍了角色和职责。"
                 ]
               },
               {
@@ -2785,13 +2785,13 @@ export const generatedPrivacyCopy = {
               {
                 "title": "跨境转账",
                 "paragraphs": [
-                  "您的个人信息可能会被转移到美国和圣代或其服务提供商运营的其他国家。如果此类传输是从阿联酋、DIFC 或 ADGM 进行的，我们将采取法律要求的适当保护措施，包括合同保护和技术措施，以在传输期间和静态时保护您的数据。"
+                  "您的个人信息可能会被转移到美国和Sundae或其服务提供商运营的其他国家。如果此类传输是从阿联酋、DIFC 或 ADGM 进行的，我们将采取法律要求的适当保护措施，包括合同保护和技术措施，以在传输期间和静态时保护您的数据。"
                 ]
               },
               {
                 "title": "投诉",
                 "paragraphs": [
-                  "如果您认为我们没有尊重您的数据保护权利，您可以向阿联酋数据办公室、DIFC数据保护专员或ADGM主管当局提出投诉。不过，我们希望有机会通过电子邮件privacy@sundae.io 提前直接解决您的疑虑。"
+                  "如果您认为我们未能尊重您的数据保护权利，您可以向阿联酋数据局、DIFC 数据保护专员或 ADGM 的主管机关提出投诉。不过，我们希望有机会提前通过 privacy@sundae.io 直接解决您的疑虑。"
                 ]
               }
             ]
@@ -2819,30 +2819,30 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "写信给我们",
-        "value": "隐私@sundae.io",
-        "icon": "支持",
-        "href": "邮箱：privacy@sundae.io"
+        "value": "privacy@sundae.io",
+        "icon": "support",
+        "href": "mailto:privacy@sundae.io"
       },
       {
         "title": "致电我们",
         "value": "+971 (4) 501-7308",
-        "icon": "支持",
-        "href": "电话：+97145017308"
+        "icon": "support",
+        "href": "tel:+97145017308"
       },
       {
         "title": "访问我们",
         "value": [
-          "圣代科技公司",
+          "Sundae Technologies Inc.",
           "北布罗德街 651 号，201 室",
           "米德尔敦, DE 19709",
           "美国"
         ],
-        "icon": "多地点"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
       "secondary": "使用条款",
-      "primary": "联系保密小组"
+      "primary": "联系隐私团队"
     }
   },
   "ja": {
@@ -2858,7 +2858,7 @@ export const generatedPrivacyCopy = {
           "Sundae Technologies Inc. は、米国デラウェア州に設立され、sundae.io、sundaetech.ai、sundaetech.io、および sundaetechnologies.com (「Sundae」、「当社」、「当社」) のドメインを運営する会社であり、お客様のプライバシーと個人情報のセキュリティの保護に取り組んでいます。 Sundae Technologies Inc. は、直接、または関連会社、認定再販業者、地域パートナーを通じてサービスを提供する場合があります。",
           "このプライバシー ポリシーでは、次の場合に当社がお客様の情報をどのように収集、使用、開示、保護するかについて説明します。",
           "サービスを使用すると、このプライバシー ポリシーに従って情報が収集および使用されることに同意したものとみなされます。同意しない場合は、サービスを使用しないでください。",
-          "このプライバシー ポリシーは、お客様とサンデーの間の契約関係を説明し、顧客データ、集約データ、ベンチマーク データなどの概念を定義する利用規約と併せて読む必要があります。"
+          "このプライバシー ポリシーは、お客様と Sundae の間の契約関係を説明し、顧客データ、集約データ、ベンチマーク データなどの概念を定義する利用規約と併せて読む必要があります。"
         ],
         "bullets": [
           "当社のウェブサイトにアクセスまたは使用してください。",
@@ -2923,7 +2923,7 @@ export const generatedPrivacyCopy = {
         ],
         "bullets": [
           "サービスの提供と運用: アカウント、ダッシュボード、AI 分析と洞察の作成と管理、POS システムとの統合など。",
-          "データの処理と分析: 顧客データからのレポート、KPI、アラート、推奨事項の生成、および集約データとベンチマーク データからのサンデー レポートなどの比較分析とベンチマークの作成。",
+          "データの処理と分析: 顧客データからのレポート、KPI、アラート、推奨事項の生成、および集約データとベンチマーク データからのSundae Report などの比較分析とベンチマークの作成。",
           "サービスの改善と開発: パフォーマンスと使用状況の監視、デバッグ、トラブルシューティング、機能の強化、および個人や会社を特定しない集約データを使用したモデルのトレーニング。",
           "エクスペリエンスをパーソナライズ: 設定と好みを記憶し、コンテンツ、機能、コミュニケーションをコンテキストに合わせて調整します。",
           "お客様とのコミュニケーション: サービスのお知らせ、アップデート、セキュリティ アラートの送信、リクエストへの対応、オンボーディング サポートとカスタマー サクセスのほか、新機能、オファー、イベントに関するコミュニケーションを行います。また、いつでもマーケティングの購読を解除することもできます。",
@@ -2982,7 +2982,7 @@ export const generatedPrivacyCopy = {
             ],
             "bullets": [
               "法律、規制、法的手続き、または政府の要請に従う。",
-              "サンデー、ユーザー、または公衆の権利、財産、または安全を保護する。",
+              "Sundae、ユーザー、または公衆の権利、財産、または安全を保護する。",
               "利用規約を含む当社の契約を強制する。",
               "詐欺、セキュリティインシデント、または技術的問題を検出、防止、または対処します。"
             ]
@@ -3007,14 +3007,14 @@ export const generatedPrivacyCopy = {
         "paragraphs": [
           "当社は、サービスの提供およびサポート、本ポリシーに記載されている目的の遂行、法律および規制上の義務の遵守、紛争の解決、契約の執行、および適切な業務および財務記録の維持に合理的に必要な期間、お客様の情報を保持します。",
           "お客様がアカウントを閉鎖すると、法的義務、詐欺防止、セキュリティインシデントログ、潜在的な訴訟、または定期的なバックアップのために保持が必要な場合を除き、当社は合理的な期間内 (通常は 90 日以内) にお客様の個人情報を削除または匿名化します。",
-          "匿名化された集約データおよびベンチマーク データは、お客様、お客様のレストラン、または個人を識別せず、合理的に再識別することはできませんが、利用規約でライセンスされているとおり、ベンチマーク、製品改善、モデル トレーニング、分析、調査、市場分析などの正当なビジネス目的でサンデーによって無期限に保持および使用される場合があります。このデータは削除要求の対象ではありません。"
+          "匿名化された集約データおよびベンチマーク データは、お客様、お客様のレストラン、または個人を識別せず、合理的に再識別することはできませんが、利用規約でライセンスされているとおり、ベンチマーク、製品改善、モデル トレーニング、分析、調査、市場分析などの正当なビジネス目的でSundae によって無期限に保持および使用される場合があります。このデータは削除要求の対象ではありません。"
         ]
       },
       {
         "title": "7. お客様の権利と選択",
         "paragraphs": [
           "お住まいの地域および適用される法律に応じて、お客様はご自身の個人情報に関して次の権利の一部またはすべてを有する場合があります。",
-          "これらの権利を行使するには、privacy@sundae.io までご連絡ください。当社は適用されるデータ保護法に従って対応しますが、リクエストを処理する前に身元確認が必要になる場合があります。",
+          "privacy@sundae.io までご連絡ください。当社は適用されるデータ保護法に従って対応しますが、リクエストを処理する前に身元確認が必要になる場合があります。",
           "また、地域のデータ保護当局に苦情を申し立てる権利もあります。お客様のご要望を解決できるよう、まずはお問い合わせいただくことをお勧めします。"
         ],
         "bullets": [
@@ -3022,7 +3022,7 @@ export const generatedPrivacyCopy = {
           "修正: 不正確または不完全な情報の修正または更新を要求します。",
           "削除: 特定の例外を除き、個人情報の削除をリクエストします。",
           "制限: 特定の状況における処理の制限をリクエストします。",
-          "移植性: 特定の情報の構造化され、一般的に使用され、機械読み取り可能なコピーを取得し、技術的に可能な場合は別のマネージャーへの転送を要求します。",
+          "移植性: 特定の情報の構造化され、一般的に使用され、機械読み取り可能なコピーを取得し、技術的に可能な場合は別の管理者への転送を要求します。",
           "オブジェクト: プロファイリングを含む、当社の正当な利益に基づく特定の処理に反対します。",
           "マーケティング: メール内の購読解除リンクなどを介して、いつでもダイレクト マーケティング コミュニケーションの購読を解除できます。"
         ]
@@ -3064,7 +3064,7 @@ export const generatedPrivacyCopy = {
             "title": "12.1 カリフォルニア州のプライバシー権 (CCPA/CPRA)",
             "paragraphs": [
               "お客様がカリフォルニア州居住者である場合、お客様は、CPRA によって改正されたカリフォルニア州消費者プライバシー法に基づく追加の権利を有する場合があります。これには、収集された個人情報のカテゴリーとその目的を知る権利、情報が販売または共有されているかどうかを知る権利、特定の場合に自分の個人情報にアクセスして削除を要求する権利、該当する場合には特定の「販売」または「共有」をオプトアウトする権利、および権利の行使によって差別されない権利が含まれます。",
-              "Sundae は、CCPA の一般的な意味での個人情報を販売しません。カリフォルニア州で権利を行使するには、privacy@sundae.io までご連絡ください。"
+              "Sundae は、CCPA で一般に定義される意味での個人情報の販売は行いません。カリフォルニア州での権利を行使するには、privacy@sundae.io までご連絡ください。"
             ]
           },
           {
@@ -3087,9 +3087,9 @@ export const generatedPrivacyCopy = {
                 ]
               },
               {
-                "title": "マネージャーと下請け業者",
+                "title": "管理者と処理者",
                 "paragraphs": [
-                  "Sundae Technologies Inc. がプラットフォームの主な管理者として機能します。当社の DIFC 認定再販業者である Ambia Global Technologies Ltd を通じて購読すると、Ambia は限定的な管理およびサポート メタデータの処理者として機能し、Sundae Technologies Inc. はホスティング、プラットフォームの運用、および分析のサブプロセッサとして機能します。役割と責任は、企業契約に付随するデータ処理契約に詳しく記載されています。"
+                  "Sundae Technologies Inc. がプラットフォームの主たる管理者として機能します。当社の DIFC 認定再販業者である Ambia Global Technologies Ltd を通じて購読すると、Ambia は限定的な管理およびサポート メタデータの処理者として機能し、Sundae Technologies Inc. はホスティング、プラットフォームの運用、および分析のサブプロセッサとして機能します。役割と責任は、企業契約に付随するデータ処理契約に詳しく記載されています。"
                 ]
               },
               {
@@ -3107,7 +3107,7 @@ export const generatedPrivacyCopy = {
               {
                 "title": "苦情",
                 "paragraphs": [
-                  "当社がお客様のデータ保護権利を尊重していないと思われる場合は、UAE データ局、DIFC のデータ保護委員、または ADGM の管轄当局に苦情を申し立てることができます。ただし、お客様の懸念事項については、事前にprivacy@sundae.ioまで直接ご連絡いただければ幸いです。"
+                  "当社がお客様のデータ保護権利を尊重していないと思われる場合は、UAE データ局、DIFC のデータ保護委員、または ADGM の管轄当局に苦情を申し立てることができます。ただし、まずは privacy@sundae.io まで直接ご連絡いただき、お客様の懸念に対処する機会をいただければ幸いです。"
                 ]
               }
             ]
@@ -3135,30 +3135,30 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "私たちに手紙を書いてください",
-        "value": "プライバシー@sundae.io",
-        "icon": "サポート",
+        "value": "privacy@sundae.io",
+        "icon": "support",
         "href": "mailto:privacy@sundae.io"
       },
       {
         "title": "お電話ください",
         "value": "+971 (4) 501-7308",
-        "icon": "サポート",
-        "href": "電話番号:+97145017308"
+        "icon": "support",
+        "href": "tel:+97145017308"
       },
       {
         "title": "ご来店ください",
         "value": [
-          "サンデーテクノロジーズ株式会社",
+          "Sundae Technologies Inc.",
           "651 N ブロード ストリート、スイート 201",
           "デラウェア州ミドルタウン 19709",
           "米国"
         ],
-        "icon": "マルチロケーション"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
       "secondary": "利用規約",
-      "primary": "機密保持チームに連絡する"
+      "primary": "プライバシーチームに連絡する"
     }
   },
   "ko": {
@@ -3239,7 +3239,7 @@ export const generatedPrivacyCopy = {
         ],
         "bullets": [
           "서비스 제공 및 운영: 계정 생성 및 관리, 대시보드, AI 분석 및 통찰력, POS 시스템 등과의 통합.",
-          "데이터 처리 및 분석: 고객 데이터에서 보고서, KPI, 경고 및 권장 사항을 생성할 뿐만 아니라 집계 데이터 및 벤치마크 데이터에서 순대 보고서를 포함한 비교 분석 및 벤치마킹을 생성합니다.",
+          "데이터 처리 및 분석: 고객 데이터에서 보고서, KPI, 경고 및 권장 사항을 생성할 뿐만 아니라 집계 데이터 및 벤치마크 데이터에서 Sundae Report를 포함한 비교 분석 및 벤치마킹을 생성합니다.",
           "서비스 개선 및 개발: 성능 및 사용 모니터링, 디버깅, 문제 해결, 기능 강화 및 개인이나 회사를 식별하지 않는 집계 데이터로 모델 교육.",
           "경험을 개인화하세요. 설정과 기본 설정을 기억하고 콘텐츠, 기능, 커뮤니케이션을 상황에 맞게 조정하세요.",
           "귀하와의 커뮤니케이션: 서비스 공지 사항, 업데이트 및 보안 경고 전송, 귀하의 요청에 대한 응답, 온보딩 지원 및 고객 성공, 새로운 기능, 제안 및 이벤트에 대한 커뮤니케이션을 제공하며 언제든지 마케팅 구독을 취소할 수 있습니다.",
@@ -3298,7 +3298,7 @@ export const generatedPrivacyCopy = {
             ],
             "bullets": [
               "법률, 규정, 법적 절차 또는 정부 요청을 준수합니다.",
-              "순대, 사용자 또는 대중의 권리, 재산 또는 안전을 보호합니다.",
+              "Sundae, 사용자 또는 대중의 권리, 재산 또는 안전을 보호합니다.",
               "이용약관을 포함한 계약을 집행합니다.",
               "사기, 보안 사고 또는 기술적 문제를 감지, 예방 또는 해결합니다."
             ]
@@ -3330,7 +3330,7 @@ export const generatedPrivacyCopy = {
         "title": "7. 귀하의 권리와 선택",
         "paragraphs": [
           "귀하의 위치와 해당 법률에 따라 귀하는 귀하의 개인정보와 관련하여 다음 권리 중 일부 또는 전부를 가질 수 있습니다.",
-          "이러한 권리를 행사하려면 Privacy@sundae.io로 문의하세요. 당사는 해당 데이터 보호법에 따라 응답할 것이며 귀하의 요청을 처리하기 전에 귀하의 신원을 확인해야 할 수도 있습니다.",
+          "이러한 권리를 행사하려면 privacy@sundae.io로 문의하세요. 당사는 해당 데이터 보호법에 따라 응답할 것이며 귀하의 요청을 처리하기 전에 귀하의 신원을 확인해야 할 수도 있습니다.",
           "귀하는 또한 현지 데이터 보호 당국에 불만을 제기할 권리가 있습니다. 귀하의 요청을 해결할 수 있도록 먼저 당사에 연락해 주시기 바랍니다."
         ],
         "bullets": [
@@ -3338,7 +3338,7 @@ export const generatedPrivacyCopy = {
           "수정: 부정확하거나 불완전한 정보의 수정 또는 업데이트를 요청합니다.",
           "삭제: 특정 예외에 따라 귀하의 개인정보 삭제를 요청하세요.",
           "제한: 특정 상황에서 처리 제한을 요청합니다.",
-          "이식성: 특정 정보에 대해 구조화되고 일반적으로 사용되며 기계 판독이 가능한 사본을 확보하고 기술적으로 가능한 경우 다른 관리자에게 이전을 요청합니다.",
+          "이식성: 특정 정보에 대해 구조화되고 일반적으로 사용되며 기계 판독이 가능한 사본을 확보하고 기술적으로 가능한 경우 다른 컨트롤러에게 이전을 요청합니다.",
           "목적: 프로파일링을 포함하여 당사의 정당한 이익을 기반으로 한 특정 처리에 반대합니다.",
           "마케팅: 이메일에 있는 구독 취소 링크 등을 통해 언제든지 직접 마케팅 커뮤니케이션의 구독을 취소할 수 있습니다."
         ]
@@ -3380,7 +3380,7 @@ export const generatedPrivacyCopy = {
             "title": "12.1 캘리포니아 개인정보 보호 권리(CCPA/CPRA)",
             "paragraphs": [
               "귀하가 캘리포니아 거주자인 경우, 귀하는 수집된 개인 정보의 범주와 그 목적을 알 권리, 정보가 판매 또는 공유되는지 알 권리, 특정 경우에 귀하의 개인 정보에 접근하고 삭제를 요청할 권리, 해당되는 경우 특정 \"판매\" 또는 \"공유\"를 거부할 권리, 귀하의 권리 행사에 대해 차별을 받지 않을 권리를 포함하여 CPRA가 개정한 캘리포니아 소비자 개인 정보 보호법에 따라 추가 권리를 가질 수 있습니다.",
-              "순대는 CCPA의 일반적인 의미에서 개인정보를 판매하지 않습니다. 캘리포니아에서 귀하의 권리를 행사하려면 Privacy@sundae.io로 문의하세요."
+              "Sundae는 CCPA의 일반적인 의미에서 개인정보를 판매하지 않습니다. 캘리포니아에서 귀하의 권리를 행사하려면 privacy@sundae.io로 문의하세요."
             ]
           },
           {
@@ -3403,9 +3403,9 @@ export const generatedPrivacyCopy = {
                 ]
               },
               {
-                "title": "관리자 및 하청업체",
+                "title": "컨트롤러 및 프로세서",
                 "paragraphs": [
-                  "(주)선대테크놀러지가 플랫폼의 메인 관리자 역할을 합니다. DIFC 공인 리셀러인 Ambia Global Technologies Ltd를 통해 구독하면 Ambia는 제한된 관리 및 지원 메타데이터에 대한 처리자 역할을 하고 Sundae Technologies Inc.는 호스팅, 플랫폼 운영 및 분석에 대한 하위 처리자 역할을 합니다. 역할과 책임은 기업 계약과 함께 제공되는 데이터 처리 계약에 자세히 설명되어 있습니다."
+                  "Sundae Technologies Inc.가 플랫폼의 주요 컨트롤러 역할을 합니다. DIFC 공인 리셀러인 Ambia Global Technologies Ltd를 통해 구독하면 Ambia는 제한된 관리 및 지원 메타데이터에 대한 처리자 역할을 하고 Sundae Technologies Inc.는 호스팅, 플랫폼 운영 및 분석에 대한 하위 처리자 역할을 합니다. 역할과 책임은 기업 계약과 함께 제공되는 데이터 처리 계약에 자세히 설명되어 있습니다."
                 ]
               },
               {
@@ -3423,7 +3423,7 @@ export const generatedPrivacyCopy = {
               {
                 "title": "불만사항",
                 "paragraphs": [
-                  "당사가 귀하의 데이터 보호 권리를 존중하지 않았다고 생각하는 경우 UAE 데이터 사무소, DIFC 데이터 보호 위원 또는 ADGM의 관할 당국에 불만을 제기할 수 있습니다. 하지만 사전에 Privacy@sundae.io로 귀하의 우려 사항을 직접 해결할 수 있는 기회를 주시면 감사하겠습니다."
+                  "당사가 귀하의 데이터 보호 권리를 존중하지 않았다고 생각하는 경우 UAE 데이터 사무소, DIFC 데이터 보호 위원 또는 ADGM의 관할 당국에 불만을 제기할 수 있습니다. 하지만 사전에 privacy@sundae.io로 귀하의 우려 사항을 직접 해결할 수 있는 기회를 주시면 감사하겠습니다."
                 ]
               }
             ]
@@ -3451,30 +3451,30 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "우리에게 편지 쓰기",
-        "value": "Privacy@sundae.io",
-        "icon": "지원하다",
-        "href": "메일 수신:privacy@sundae.io"
+        "value": "privacy@sundae.io",
+        "icon": "support",
+        "href": "mailto:privacy@sundae.io"
       },
       {
         "title": "전화주세요",
         "value": "+971 (4) 501-7308",
-        "icon": "지원하다",
-        "href": "전화:+97145017308"
+        "icon": "support",
+        "href": "tel:+97145017308"
       },
       {
         "title": "우리를 방문하세요",
         "value": [
-          "(주)선대테크놀러지스",
+          "Sundae Technologies Inc.",
           "651 N 브로드 스트리트, 스위트 201",
           "미들타운, DE 19709",
           "미국"
         ],
-        "icon": "다중 위치"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
       "secondary": "이용약관",
-      "primary": "기밀유지팀에 문의하세요"
+      "primary": "개인정보 보호팀에 문의하세요"
     }
   },
   "id": {
@@ -3654,7 +3654,7 @@ export const generatedPrivacyCopy = {
           "Perbaikan: meminta koreksi atau pembaruan informasi yang tidak akurat atau tidak lengkap.",
           "Penghapusan: meminta penghapusan informasi pribadi Anda, dengan pengecualian tertentu.",
           "Pembatasan: meminta pembatasan pemrosesan dalam keadaan tertentu.",
-          "Portabilitas: Dapatkan salinan informasi tertentu yang terstruktur, umum digunakan, dan dapat dibaca mesin dan minta transfernya ke manajer lain bila secara teknis memungkinkan.",
+          "Portabilitas: Dapatkan salinan informasi tertentu yang terstruktur, umum digunakan, dan dapat dibaca mesin dan minta transfernya ke pengendali lain bila secara teknis memungkinkan.",
           "Objek: menolak pemrosesan tertentu berdasarkan kepentingan sah kami, termasuk pembuatan profil.",
           "Pemasaran: berhenti berlangganan komunikasi pemasaran langsung kapan saja, misalnya melalui tautan berhenti berlangganan di email kami."
         ]
@@ -3719,9 +3719,9 @@ export const generatedPrivacyCopy = {
                 ]
               },
               {
-                "title": "Manajer dan subkontraktor",
+                "title": "Pengendali dan pemroses",
                 "paragraphs": [
-                  "Sundae Technologies Inc. bertindak sebagai manajer utama platform ini. Saat Anda berlangganan melalui Ambia Global Technologies Ltd, pengecer resmi DIFC kami, Ambia bertindak sebagai pemroses untuk metadata administratif dan dukungan terbatas, sementara Sundae Technologies Inc. bertindak sebagai sub-pemroses untuk hosting, pengoperasian platform, dan analitik. Peran dan tanggung jawab dirinci dalam perjanjian pemrosesan data yang menyertai setiap kontrak perusahaan."
+                  "Sundae Technologies Inc. bertindak sebagai pengendali utama platform ini. Saat Anda berlangganan melalui Ambia Global Technologies Ltd, pengecer resmi DIFC kami, Ambia bertindak sebagai pemroses untuk metadata administratif dan dukungan terbatas, sementara Sundae Technologies Inc. bertindak sebagai sub-pemroses untuk hosting, pengoperasian platform, dan analitik. Peran dan tanggung jawab dirinci dalam perjanjian pemrosesan data yang menyertai setiap kontrak perusahaan."
                 ]
               },
               {
@@ -3767,30 +3767,30 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "Menulis kepada kami",
-        "value": "privasi@sundae.io",
-        "icon": "dukungan",
+        "value": "privacy@sundae.io",
+        "icon": "support",
         "href": "mailto:privacy@sundae.io"
       },
       {
         "title": "Hubungi kami",
         "value": "+971 (4) 501-7308",
-        "icon": "dukungan",
-        "href": "telp:+97145017308"
+        "icon": "support",
+        "href": "tel:+97145017308"
       },
       {
         "title": "Kunjungi kami",
         "value": [
           "Sundae Technologies Inc.",
-          "651 N Jalan Luas, Suite 201",
+          "651 N Broad St, Suite 201",
           "Middletown, DE 19709",
           "Amerika Serikat"
         ],
-        "icon": "multiLokasi"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
       "secondary": "Ketentuan penggunaan",
-      "primary": "Hubungi tim kerahasiaan"
+      "primary": "Hubungi tim privasi"
     }
   },
   "vi": {
@@ -3803,7 +3803,7 @@ export const generatedPrivacyCopy = {
       {
         "title": "1. Giới thiệu",
         "paragraphs": [
-          "Sundae Technologies Inc., một công ty được thành lập tại Delaware, Hoa Kỳ, điều hành các tên miền sundae.io, sundaetech.ai, sundaetech.io và sundaetechnologists.com (\"Sundae\", \"chúng tôi\" hoặc \"của chúng tôi\"), cam kết bảo vệ quyền riêng tư và bảo mật thông tin cá nhân của bạn. Sundae Technologies Inc. có thể cung cấp dịch vụ của mình trực tiếp hoặc thông qua các chi nhánh, đại lý được ủy quyền hoặc đối tác khu vực.",
+          "Sundae Technologies Inc., một công ty được thành lập tại Delaware, Hoa Kỳ, điều hành các tên miền sundae.io, sundaetech.ai, sundaetech.io và sundaetechnologies.com (\"Sundae\", \"chúng tôi\" hoặc \"của chúng tôi\"), cam kết bảo vệ quyền riêng tư và bảo mật thông tin cá nhân của bạn. Sundae Technologies Inc. có thể cung cấp dịch vụ của mình trực tiếp hoặc thông qua các chi nhánh, đại lý được ủy quyền hoặc đối tác khu vực.",
           "Chính sách quyền riêng tư này giải thích cách chúng tôi thu thập, sử dụng, tiết lộ và bảo vệ thông tin của bạn khi bạn:",
           "Bằng cách sử dụng Dịch vụ, bạn đồng ý với việc thu thập và sử dụng thông tin của mình theo Chính sách quyền riêng tư này. Nếu bạn không đồng ý, bạn không nên sử dụng Dịch vụ.",
           "Chính sách quyền riêng tư này phải được đọc cùng với Điều khoản sử dụng của chúng tôi, trong đó mô tả mối quan hệ hợp đồng giữa bạn và Sundae và xác định các khái niệm như Dữ liệu khách hàng, Dữ liệu tổng hợp và Dữ liệu điểm chuẩn."
@@ -3962,7 +3962,7 @@ export const generatedPrivacyCopy = {
         "title": "7. Quyền và lựa chọn của bạn",
         "paragraphs": [
           "Tùy thuộc vào vị trí của bạn và luật hiện hành, bạn có thể có một số hoặc tất cả các quyền sau đây liên quan đến thông tin cá nhân của mình:",
-          "Để thực hiện các quyền này, hãy liên hệ với chúng tôi theo địa chỉ Privacy@sundae.io. Chúng tôi sẽ phản hồi theo luật bảo vệ dữ liệu hiện hành và có thể cần xác minh danh tính của bạn trước khi xử lý yêu cầu của bạn.",
+          "Để thực hiện các quyền này, hãy liên hệ với chúng tôi theo địa chỉ privacy@sundae.io. Chúng tôi sẽ phản hồi theo luật bảo vệ dữ liệu hiện hành và có thể cần xác minh danh tính của bạn trước khi xử lý yêu cầu của bạn.",
           "Bạn cũng có thể có quyền khiếu nại với cơ quan bảo vệ dữ liệu địa phương. Chúng tôi khuyến khích bạn liên hệ với chúng tôi trước để chúng tôi có thể cố gắng giải quyết yêu cầu của bạn."
         ],
         "bullets": [
@@ -3970,7 +3970,7 @@ export const generatedPrivacyCopy = {
           "Chỉnh sửa: yêu cầu chỉnh sửa hoặc cập nhật thông tin không chính xác hoặc không đầy đủ.",
           "Xóa: yêu cầu xóa thông tin cá nhân của bạn, trừ một số trường hợp ngoại lệ.",
           "Hạn chế: yêu cầu hạn chế xử lý trong một số trường hợp nhất định.",
-          "Tính di động: Có được bản sao có cấu trúc, thường được sử dụng, có thể đọc được bằng máy của một số thông tin nhất định và yêu cầu chuyển nó cho người quản lý khác khi có thể về mặt kỹ thuật.",
+          "Tính di động: Có được bản sao có cấu trúc, thường được sử dụng, có thể đọc được bằng máy của một số thông tin nhất định và yêu cầu chuyển nó cho bên kiểm soát dữ liệu khác khi có thể về mặt kỹ thuật.",
           "Đối tượng: phản đối việc xử lý nhất định dựa trên lợi ích hợp pháp của chúng tôi, bao gồm cả việc lập hồ sơ.",
           "Tiếp thị: hủy đăng ký nhận thông tin tiếp thị trực tiếp bất cứ lúc nào, ví dụ như thông qua liên kết hủy đăng ký trong email của chúng tôi."
         ]
@@ -4012,7 +4012,7 @@ export const generatedPrivacyCopy = {
             "title": "12.1 Quyền riêng tư của California (CCPA/CPRA)",
             "paragraphs": [
               "Nếu bạn là cư dân California, bạn có thể có các quyền bổ sung theo Đạo luật về quyền riêng tư của người tiêu dùng California, được sửa đổi bởi CPRA, bao gồm quyền biết các loại thông tin cá nhân được thu thập và mục đích của chúng, quyền biết liệu thông tin có được bán hay chia sẻ hay không, quyền truy cập thông tin cá nhân của bạn và yêu cầu xóa trong một số trường hợp nhất định, quyền chọn không tham gia \"bán hàng\" hoặc \"chia sẻ\" nhất định nếu có và quyền không bị phân biệt đối xử khi thực hiện các quyền của bạn.",
-              "Sundae không bán thông tin cá nhân theo nghĩa chung của CCPA. Để thực hiện các quyền của mình ở California, bạn có thể liên hệ với chúng tôi theo địa chỉ Privacy@sundae.io."
+              "Sundae không bán thông tin cá nhân theo nghĩa chung của CCPA. Để thực hiện các quyền của mình ở California, bạn có thể liên hệ với chúng tôi theo địa chỉ privacy@sundae.io."
             ]
           },
           {
@@ -4035,9 +4035,9 @@ export const generatedPrivacyCopy = {
                 ]
               },
               {
-                "title": "Người quản lý và nhà thầu phụ",
+                "title": "Bên kiểm soát dữ liệu và bên xử lý dữ liệu",
                 "paragraphs": [
-                  "Sundae Technologies Inc. đóng vai trò là người quản lý chính của nền tảng. Khi bạn đăng ký thông qua Ambia Global Technologies Ltd, đại lý được ủy quyền DIFC của chúng tôi, Ambia đóng vai trò là bộ xử lý cho siêu dữ liệu hỗ trợ và quản trị hạn chế, trong khi Sundae Technologies Inc. đóng vai trò là bộ xử lý phụ cho việc lưu trữ, vận hành nền tảng và phân tích. Vai trò và trách nhiệm được nêu chi tiết trong thỏa thuận xử lý dữ liệu đi kèm với bất kỳ hợp đồng doanh nghiệp nào."
+                  "Sundae Technologies Inc. đóng vai trò là bên kiểm soát dữ liệu chính của nền tảng. Khi bạn đăng ký thông qua Ambia Global Technologies Ltd, đại lý được ủy quyền DIFC của chúng tôi, Ambia đóng vai trò là bộ xử lý cho siêu dữ liệu hỗ trợ và quản trị hạn chế, trong khi Sundae Technologies Inc. đóng vai trò là bộ xử lý phụ cho việc lưu trữ, vận hành nền tảng và phân tích. Vai trò và trách nhiệm được nêu chi tiết trong thỏa thuận xử lý dữ liệu đi kèm với bất kỳ hợp đồng doanh nghiệp nào."
                 ]
               },
               {
@@ -4055,7 +4055,7 @@ export const generatedPrivacyCopy = {
               {
                 "title": "Khiếu nại",
                 "paragraphs": [
-                  "Nếu bạn tin rằng chúng tôi không tôn trọng quyền bảo vệ dữ liệu của bạn, bạn có thể khiếu nại với Văn phòng Dữ liệu UAE, Ủy viên Bảo vệ Dữ liệu của DIFC hoặc cơ quan có thẩm quyền của ADGM. Tuy nhiên, chúng tôi đánh giá cao cơ hội giải quyết trực tiếp trước mối quan ngại của bạn tại Privacy@sundae.io."
+                  "Nếu bạn tin rằng chúng tôi không tôn trọng quyền bảo vệ dữ liệu của bạn, bạn có thể khiếu nại với Văn phòng Dữ liệu UAE, Ủy viên Bảo vệ Dữ liệu của DIFC hoặc cơ quan có thẩm quyền của ADGM. Tuy nhiên, chúng tôi đánh giá cao cơ hội giải quyết trực tiếp trước mối quan ngại của bạn tại privacy@sundae.io."
                 ]
               }
             ]
@@ -4083,30 +4083,30 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "Viết thư cho chúng tôi",
-        "value": "quyền riêng tư@sundae.io",
-        "icon": "hỗ trợ",
+        "value": "privacy@sundae.io",
+        "icon": "support",
         "href": "mailto:privacy@sundae.io"
       },
       {
         "title": "Gọi cho chúng tôi",
         "value": "+971 (4) 501-7308",
-        "icon": "hỗ trợ",
-        "href": "ĐT:+97145017308"
+        "icon": "support",
+        "href": "tel:+97145017308"
       },
       {
         "title": "Ghé thăm chúng tôi",
         "value": [
-          "Công ty công nghệ Sundae",
+          "Sundae Technologies Inc.",
           "651 N Broad St, Suite 201",
-          "Trung tâm, DE 19709",
+          "Middletown, DE 19709",
           "Hoa Kỳ"
         ],
-        "icon": "đa vị trí"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
       "secondary": "Điều khoản sử dụng",
-      "primary": "Liên hệ với nhóm bảo mật"
+      "primary": "Liên hệ với nhóm quyền riêng tư"
     }
   },
   "ro": {
@@ -4286,7 +4286,7 @@ export const generatedPrivacyCopy = {
           "Rectificare: solicitați corectarea sau actualizarea informațiilor inexacte sau incomplete.",
           "Ștergere: solicitați ștergerea informațiilor dumneavoastră personale, sub rezerva anumitor excepții.",
           "Restricție: solicitați restricționarea prelucrării în anumite circumstanțe.",
-          "Portabilitate: Obțineți o copie structurată, utilizată în mod obișnuit, care poate fi citită de mașină, a anumitor informații și solicitați transferul acesteia către un alt manager atunci când este posibil din punct de vedere tehnic.",
+          "Portabilitate: Obțineți o copie structurată, utilizată în mod obișnuit, care poate fi citită de mașină, a anumitor informații și solicitați transferul acesteia către un alt operator atunci când este posibil din punct de vedere tehnic.",
           "Obiect: opțiunea anumitor prelucrări bazate pe interesele noastre legitime, inclusiv crearea de profiluri.",
           "Marketing: dezabonați-vă de la comunicările de marketing direct în orice moment, de exemplu prin linkul de dezabonare din e-mailurile noastre."
         ]
@@ -4327,7 +4327,7 @@ export const generatedPrivacyCopy = {
           {
             "title": "12.1 Drepturile de confidențialitate din California (CCPA/CPRA)",
             "paragraphs": [
-              "Dacă sunteți rezident din California, este posibil să aveți drepturi suplimentare în temeiul Legii privind confidențialitatea consumatorilor din California, astfel cum a fost modificat de CPRA, inclusiv dreptul de a cunoaște categoriile de informații personale colectate și scopurile acestora, dreptul de a ști dacă informațiile sunt vândute sau partajate, dreptul de a accesa informațiile dvs. personale și de a solicita ștergerea în anumite cazuri, dreptul de a renunța la anumite „vânzări” sau „partajare” pentru a nu fi discriminat și exercitarea dreptului dvs.",
+              "Dacă sunteți rezident din California, este posibil să aveți drepturi suplimentare în temeiul Legii privind confidențialitatea consumatorilor din California, astfel cum a fost modificat de CPRA, inclusiv dreptul de a cunoaște categoriile de informații personale colectate și scopurile acestora, dreptul de a ști dacă informațiile sunt vândute sau partajate, dreptul de a accesa informațiile dvs. personale și de a solicita ștergerea în anumite cazuri, dreptul de a renunța, după caz, la anumite „vânzări” sau „partajări” și dreptul de a nu fi discriminat pentru exercitarea drepturilor dumneavoastră.",
               "Sundae nu vinde informații personale în sensul general al CCPA. Pentru a vă exercita drepturile în California, ne puteți contacta la privacy@sundae.io."
             ]
           },
@@ -4351,9 +4351,9 @@ export const generatedPrivacyCopy = {
                 ]
               },
               {
-                "title": "Manager și subcontractant",
+                "title": "Operator și persoană împuternicită",
                 "paragraphs": [
-                  "Sundae Technologies Inc. acționează ca administrator principal al platformei. Când vă abonați prin Ambia Global Technologies Ltd, reseller-ul nostru autorizat DIFC, Ambia acționează ca procesor pentru metadate administrative și de asistență limitate, în timp ce Sundae Technologies Inc. acționează ca subprocesor pentru găzduire, operațiuni de platformă și analiză. Rolurile și responsabilitățile sunt detaliate în acordul de prelucrare a datelor care însoțește orice contract de întreprindere."
+                  "Sundae Technologies Inc. acționează ca operator principal al platformei. Când vă abonați prin Ambia Global Technologies Ltd, reseller-ul nostru autorizat DIFC, Ambia acționează ca procesor pentru metadate administrative și de asistență limitate, în timp ce Sundae Technologies Inc. acționează ca subprocesor pentru găzduire, operațiuni de platformă și analiză. Rolurile și responsabilitățile sunt detaliate în acordul de prelucrare a datelor care însoțește orice contract de întreprindere."
                 ]
               },
               {
@@ -4400,13 +4400,13 @@ export const generatedPrivacyCopy = {
       {
         "title": "Scrie-ne",
         "value": "privacy@sundae.io",
-        "icon": "sprijin",
+        "icon": "support",
         "href": "mailto:privacy@sundae.io"
       },
       {
         "title": "Sună-ne",
         "value": "+971 (4) 501-7308",
-        "icon": "sprijin",
+        "icon": "support",
         "href": "tel:+97145017308"
       },
       {
@@ -4602,7 +4602,7 @@ export const generatedPrivacyCopy = {
           "Rättelse: begär rättelse eller uppdatering av felaktig eller ofullständig information.",
           "Radering: begär radering av din personliga information, med vissa undantag.",
           "Begränsning: begär begränsning av behandlingen under vissa omständigheter.",
-          "Portabilitet: Skaffa en strukturerad, vanligt förekommande, maskinläsbar kopia av viss information och begär att den överförs till en annan chef när det är tekniskt möjligt.",
+          "Portabilitet: Skaffa en strukturerad, vanligt förekommande, maskinläsbar kopia av viss information och begär att den överförs till en annan personuppgiftsansvarig när det är tekniskt möjligt.",
           "Objekt: invända mot viss behandling baserat på våra legitima intressen, inklusive profilering.",
           "Marknadsföring: avsluta prenumerationen på direktmarknadsföringskommunikation när som helst, till exempel via länken för att avsluta prenumerationen i våra e-postmeddelanden."
         ]
@@ -4643,7 +4643,7 @@ export const generatedPrivacyCopy = {
           {
             "title": "12.1 Kaliforniens integritetsrättigheter (CCPA/CPRA)",
             "paragraphs": [
-              "Om du är bosatt i Kalifornien kan du ha ytterligare rättigheter enligt California Consumer Privacy Act, som ändrats av CPRA, inklusive rätten att känna till kategorierna av personlig information som samlas in och deras syften, rätten att veta om information säljs eller delas, rätten att få tillgång till din personliga information och begära radering i vissa fall, rätten att välja bort vissa \"försäljningar\" eller \"dela rätten att inte vara tillämplig\", dina rättigheter.",
+              "Om du är bosatt i Kalifornien kan du ha ytterligare rättigheter enligt California Consumer Privacy Act, som ändrats av CPRA, inklusive rätten att känna till kategorierna av personlig information som samlas in och deras syften, rätten att veta om information säljs eller delas, rätten att få tillgång till din personliga information och begära radering i vissa fall, rätten att, i tillämpliga fall, välja bort vissa \"försäljningar\" eller \"delningar\", och rätten att inte bli diskriminerad för att du utövar dina rättigheter.",
               "Sundae säljer inte personlig information i CCPA:s allmänna mening. För att utöva dina rättigheter i Kalifornien kan du kontakta oss på privacy@sundae.io."
             ]
           },
@@ -4663,13 +4663,13 @@ export const generatedPrivacyCopy = {
               {
                 "title": "Tillämplig lag",
                 "paragraphs": [
-                  "Din personliga information behandlas i enlighet med UAE Federal Decre-Law nr. 45/2021, DIFC Data Protection Law nr. 5 från 2020 och ADGM Data Protection Regulations 2021, i tillämpliga fall."
+                  "Din personliga information behandlas i enlighet med UAE Federal Decree-Law nr. 45/2021, DIFC Data Protection Law nr. 5 från 2020 och ADGM Data Protection Regulations 2021, i tillämpliga fall."
                 ]
               },
               {
-                "title": "Chef och underleverantör",
+                "title": "Personuppgiftsansvarig och personuppgiftsbiträde",
                 "paragraphs": [
-                  "Sundae Technologies Inc. fungerar som huvudansvarig för plattformen. När du prenumererar genom Ambia Global Technologies Ltd, vår DIFC-auktoriserade återförsäljare, agerar Ambia som processor för begränsad administrativ och supportmetadata, medan Sundae Technologies Inc. agerar som underbehandlare för hosting, plattformsdrift och analys. Roller och ansvar beskrivs i databehandlingsavtalet som medföljer alla företagskontrakt."
+                  "Sundae Technologies Inc. fungerar som huvudsaklig personuppgiftsansvarig för plattformen. När du prenumererar genom Ambia Global Technologies Ltd, vår DIFC-auktoriserade återförsäljare, agerar Ambia som processor för begränsad administrativ och supportmetadata, medan Sundae Technologies Inc. agerar som underbehandlare för hosting, plattformsdrift och analys. Roller och ansvar beskrivs i databehandlingsavtalet som medföljer alla företagskontrakt."
                 ]
               },
               {
@@ -4716,14 +4716,14 @@ export const generatedPrivacyCopy = {
       {
         "title": "Skriv till oss",
         "value": "privacy@sundae.io",
-        "icon": "stöd",
+        "icon": "support",
         "href": "mailto:privacy@sundae.io"
       },
       {
         "title": "Ring oss",
         "value": "+971 (4) 501-7308",
-        "icon": "stöd",
-        "href": "tel: +97145017308"
+        "icon": "support",
+        "href": "tel:+97145017308"
       },
       {
         "title": "Besök oss",
@@ -4918,7 +4918,7 @@ export const generatedPrivacyCopy = {
           "সংশোধন: ভুল বা অসম্পূর্ণ তথ্য সংশোধন বা আপডেট করার অনুরোধ করুন।",
           "মুছে ফেলা: কিছু ব্যতিক্রম সাপেক্ষে আপনার ব্যক্তিগত তথ্য মুছে ফেলার অনুরোধ করুন।",
           "সীমাবদ্ধতা: নির্দিষ্ট পরিস্থিতিতে প্রক্রিয়াকরণের সীমাবদ্ধতার অনুরোধ করুন।",
-          "বহনযোগ্যতা: নির্দিষ্ট তথ্যের একটি কাঠামোগত, সাধারণত ব্যবহৃত, মেশিন-পাঠযোগ্য কপি পান এবং প্রযুক্তিগতভাবে সম্ভব হলে অন্য পরিচালকের কাছে স্থানান্তরের অনুরোধ করুন।",
+          "বহনযোগ্যতা: নির্দিষ্ট তথ্যের একটি কাঠামোগত, সাধারণত ব্যবহৃত, মেশিন-পাঠযোগ্য কপি পান এবং প্রযুক্তিগতভাবে সম্ভব হলে অন্য নিয়ন্ত্রকের কাছে স্থানান্তরের অনুরোধ করুন।",
           "অবজেক্ট: প্রোফাইলিং সহ আমাদের বৈধ স্বার্থের উপর ভিত্তি করে নির্দিষ্ট প্রক্রিয়াকরণে আপত্তি।",
           "বিপণন: যেকোনো সময় সরাসরি বিপণন যোগাযোগ থেকে সদস্যতা ত্যাগ করুন, উদাহরণস্বরূপ আমাদের ইমেলগুলিতে আনসাবস্ক্রাইব লিঙ্কের মাধ্যমে।"
         ]
@@ -4959,7 +4959,7 @@ export const generatedPrivacyCopy = {
           {
             "title": "12.1 ক্যালিফোর্নিয়া গোপনীয়তা অধিকার (CCPA/CPRA)",
             "paragraphs": [
-              "আপনি যদি ক্যালিফোর্নিয়ার বাসিন্দা হন, আপনার ক্যালিফোর্নিয়া কনজিউমার প্রাইভেসি অ্যাক্টের অধীনে অতিরিক্ত অধিকার থাকতে পারে, যেমন CPRA দ্বারা সংশোধিত ব্যক্তিগত তথ্যের বিভাগগুলি এবং তাদের উদ্দেশ্যগুলি জানার অধিকার, তথ্য বিক্রি বা ভাগ করা হচ্ছে কিনা তা জানার অধিকার, আপনার ব্যক্তিগত তথ্য অ্যাক্সেস করার অধিকার এবং নির্দিষ্ট কিছু ক্ষেত্রে মুছে ফেলার অনুরোধ, যেখানে \"অ্যাপ্লিকেশন\" থেকে অপ্ট-আউট করার অধিকার এবং \"অ্যাপ্লিকেশান\" থেকে অপ্ট আউট করার অধিকার রয়েছে। আপনার অধিকার প্রয়োগের জন্য বৈষম্যের শিকার।",
+              "আপনি যদি ক্যালিফোর্নিয়ার বাসিন্দা হন, আপনার ক্যালিফোর্নিয়া কনজিউমার প্রাইভেসি অ্যাক্টের অধীনে অতিরিক্ত অধিকার থাকতে পারে, যেমন CPRA দ্বারা সংশোধিত ব্যক্তিগত তথ্যের বিভাগগুলি এবং তাদের উদ্দেশ্যগুলি জানার অধিকার, তথ্য বিক্রি বা ভাগ করা হচ্ছে কিনা তা জানার অধিকার, আপনার ব্যক্তিগত তথ্য অ্যাক্সেস করার অধিকার এবং নির্দিষ্ট কিছু ক্ষেত্রে মুছে ফেলার অনুরোধ করার অধিকার, প্রযোজ্য ক্ষেত্রে নির্দিষ্ট \"বিক্রয়\" বা \"ভাগ করা\" থেকে অপ্ট-আউট করার অধিকার, এবং আপনার অধিকার প্রয়োগের জন্য বৈষম্যের শিকার না হওয়ার অধিকার রয়েছে।",
               "Sundae CCPA এর সাধারণ অর্থে ব্যক্তিগত তথ্য বিক্রি করে না। ক্যালিফোর্নিয়ায় আপনার অধিকার প্রয়োগ করতে, আপনি আমাদের সাথে privacy@sundae.io এ যোগাযোগ করতে পারেন।"
             ]
           },
@@ -4983,9 +4983,9 @@ export const generatedPrivacyCopy = {
                 ]
               },
               {
-                "title": "ম্যানেজার এবং সাবকন্ট্রাক্টর",
+                "title": "নিয়ন্ত্রক এবং প্রসেসর",
                 "paragraphs": [
-                  "Sundae Technologies Inc. প্ল্যাটফর্মের প্রধান ব্যবস্থাপক হিসেবে কাজ করে। আপনি যখন আম্বিয়া গ্লোবাল টেকনোলজিস লিমিটেডের মাধ্যমে সাবস্ক্রাইব করেন, আমাদের DIFC অনুমোদিত রিসেলার, আম্বিয়া সীমিত প্রশাসনিক এবং সমর্থন মেটাডেটার জন্য প্রসেসর হিসাবে কাজ করে, যখন Sundae Technologies Inc. হোস্টিং, প্ল্যাটফর্ম অপারেশন এবং বিশ্লেষণের জন্য সাব-প্রসেসর হিসাবে কাজ করে। ভূমিকা এবং দায়িত্বগুলি ডেটা প্রসেসিং চুক্তিতে বিশদ বিবরণ রয়েছে যা কোনও এন্টারপ্রাইজ চুক্তির সাথে থাকে।"
+                  "Sundae Technologies Inc. প্ল্যাটফর্মের প্রধান নিয়ন্ত্রক হিসেবে কাজ করে। আপনি যখন আম্বিয়া গ্লোবাল টেকনোলজিস লিমিটেডের মাধ্যমে সাবস্ক্রাইব করেন, আমাদের DIFC অনুমোদিত রিসেলার, আম্বিয়া সীমিত প্রশাসনিক এবং সমর্থন মেটাডেটার জন্য প্রসেসর হিসাবে কাজ করে, যখন Sundae Technologies Inc. হোস্টিং, প্ল্যাটফর্ম অপারেশন এবং বিশ্লেষণের জন্য সাব-প্রসেসর হিসাবে কাজ করে। ভূমিকা এবং দায়িত্বগুলি ডেটা প্রসেসিং চুক্তিতে বিশদ বিবরণ রয়েছে যা কোনও এন্টারপ্রাইজ চুক্তির সাথে থাকে।"
                 ]
               },
               {
@@ -5032,24 +5032,24 @@ export const generatedPrivacyCopy = {
       {
         "title": "আমাদের লিখুন",
         "value": "privacy@sundae.io",
-        "icon": "সমর্থন",
+        "icon": "support",
         "href": "mailto:privacy@sundae.io"
       },
       {
         "title": "আমাদের কল",
         "value": "+971 (4) 501-7308",
-        "icon": "সমর্থন",
-        "href": "টেলিফোন:+97145017308"
+        "icon": "support",
+        "href": "tel:+97145017308"
       },
       {
         "title": "আমাদের পরিদর্শন করুন",
         "value": [
-          "সানডে টেকনোলজিস ইনক.",
+          "Sundae Technologies Inc.",
           "651 N Broad St, Suite 201",
           "মিডলটাউন, ডিই 19709",
           "মার্কিন যুক্তরাষ্ট্র"
         ],
-        "icon": "বহু অবস্থান"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
@@ -5226,7 +5226,7 @@ export const generatedPrivacyCopy = {
         "title": "7. สิทธิและทางเลือกของคุณ",
         "paragraphs": [
           "คุณอาจมีสิทธิ์บางส่วนหรือทั้งหมดต่อไปนี้เกี่ยวกับข้อมูลส่วนบุคคลของคุณ ทั้งนี้ขึ้นอยู่กับสถานที่ตั้งของคุณและกฎหมายที่บังคับใช้:",
-          "หากต้องการใช้สิทธิ์เหล่านี้ โปรดติดต่อเราที่ Privacy@sundae.io เราจะตอบกลับตามกฎหมายคุ้มครองข้อมูลที่บังคับใช้และอาจจำเป็นต้องยืนยันตัวตนของคุณก่อนดำเนินการตามคำขอของคุณ",
+          "หากต้องการใช้สิทธิ์เหล่านี้ โปรดติดต่อเราที่ privacy@sundae.io เราจะตอบกลับตามกฎหมายคุ้มครองข้อมูลที่บังคับใช้และอาจจำเป็นต้องยืนยันตัวตนของคุณก่อนดำเนินการตามคำขอของคุณ",
           "คุณอาจมีสิทธิ์ยื่นเรื่องร้องเรียนกับหน่วยงานคุ้มครองข้อมูลในพื้นที่ของคุณ เราขอแนะนำให้คุณติดต่อเราก่อน เพื่อให้เราสามารถพยายามแก้ไขคำขอของคุณได้"
         ],
         "bullets": [
@@ -5234,7 +5234,7 @@ export const generatedPrivacyCopy = {
           "การแก้ไข: ขอแก้ไขหรือปรับปรุงข้อมูลที่ไม่ถูกต้องหรือไม่สมบูรณ์",
           "การลบ: ขอให้ลบข้อมูลส่วนบุคคลของคุณ โดยมีข้อยกเว้นบางประการ",
           "ข้อจำกัด: ขอจำกัดการประมวลผลในบางกรณี",
-          "การพกพา: รับสำเนาข้อมูลบางอย่างที่มีโครงสร้าง ใช้กันทั่วไป และเครื่องสามารถอ่านได้ และขอถ่ายโอนไปยังผู้จัดการคนอื่นเมื่อเป็นไปได้ในทางเทคนิค",
+          "การพกพา: รับสำเนาข้อมูลบางอย่างที่มีโครงสร้าง ใช้กันทั่วไป และเครื่องสามารถอ่านได้ และขอถ่ายโอนไปยังผู้ควบคุมข้อมูลรายอื่นเมื่อเป็นไปได้ในทางเทคนิค",
           "วัตถุประสงค์: คัดค้านการประมวลผลบางอย่างตามผลประโยชน์ที่ชอบด้วยกฎหมายของเรา รวมถึงการจัดทำโปรไฟล์",
           "การตลาด: ยกเลิกการสมัครรับการสื่อสารการตลาดทางตรงได้ตลอดเวลา เช่น ผ่านลิงก์ยกเลิกการสมัครในอีเมลของเรา"
         ]
@@ -5276,7 +5276,7 @@ export const generatedPrivacyCopy = {
             "title": "12.1 สิทธิความเป็นส่วนตัวของรัฐแคลิฟอร์เนีย (CCPA/CPRA)",
             "paragraphs": [
               "หากคุณเป็นผู้อาศัยอยู่ในแคลิฟอร์เนีย คุณอาจมีสิทธิ์เพิ่มเติมภายใต้กฎหมายความเป็นส่วนตัวของผู้บริโภคแห่งแคลิฟอร์เนีย ซึ่งแก้ไขเพิ่มเติมโดย CPRA รวมถึงสิทธิ์ในการทราบประเภทของข้อมูลส่วนบุคคลที่รวบรวมและวัตถุประสงค์ สิทธิ์ในการรับทราบว่ามีการขายหรือแบ่งปันข้อมูลหรือไม่ สิทธิ์ในการเข้าถึงข้อมูลส่วนบุคคลของคุณและขอให้ลบในบางกรณี สิทธิ์ในการเลือกไม่รับ \"การขาย\" หรือ \"การแบ่งปัน\" บางอย่างตามความเหมาะสม และสิทธิ์ที่จะไม่เลือกปฏิบัติในการใช้สิทธิ์ของคุณ",
-              "Sundae จะไม่ขายข้อมูลส่วนบุคคลตามความหมายทั่วไปของ CCPA หากต้องการใช้สิทธิ์ของคุณในแคลิฟอร์เนีย คุณสามารถติดต่อเราได้ที่ Privacy@sundae.io"
+              "Sundae จะไม่ขายข้อมูลส่วนบุคคลตามความหมายทั่วไปของ CCPA หากต้องการใช้สิทธิ์ของคุณในแคลิฟอร์เนีย คุณสามารถติดต่อเราได้ที่ privacy@sundae.io"
             ]
           },
           {
@@ -5299,9 +5299,9 @@ export const generatedPrivacyCopy = {
                 ]
               },
               {
-                "title": "ผู้จัดการและผู้รับเหมาช่วง",
+                "title": "ผู้ควบคุมข้อมูลและผู้ประมวลผลข้อมูล",
                 "paragraphs": [
-                  "Sundae Technologies Inc. ทำหน้าที่เป็นผู้จัดการหลักของแพลตฟอร์ม เมื่อคุณสมัครสมาชิกผ่าน Ambia Global Technologies Ltd ซึ่งเป็นตัวแทนจำหน่ายที่ได้รับอนุญาตจาก DIFC ของเรา Ambia จะทำหน้าที่เป็นผู้ประมวลผลสำหรับเมตาดาต้าการดูแลระบบและการสนับสนุนที่จำกัด ในขณะที่ Sundae Technologies Inc. ทำหน้าที่เป็นผู้ประมวลผลย่อยสำหรับการโฮสต์ การดำเนินงานแพลตฟอร์ม และการวิเคราะห์ บทบาทและความรับผิดชอบมีรายละเอียดอยู่ในข้อตกลงการประมวลผลข้อมูลที่มาพร้อมกับสัญญาขององค์กร"
+                  "Sundae Technologies Inc. ทำหน้าที่เป็นผู้ควบคุมข้อมูลหลักของแพลตฟอร์ม เมื่อคุณสมัครสมาชิกผ่าน Ambia Global Technologies Ltd ซึ่งเป็นตัวแทนจำหน่ายที่ได้รับอนุญาตจาก DIFC ของเรา Ambia จะทำหน้าที่เป็นผู้ประมวลผลสำหรับเมตาดาต้าการดูแลระบบและการสนับสนุนที่จำกัด ในขณะที่ Sundae Technologies Inc. ทำหน้าที่เป็นผู้ประมวลผลย่อยสำหรับการโฮสต์ การดำเนินงานแพลตฟอร์ม และการวิเคราะห์ บทบาทและความรับผิดชอบมีรายละเอียดอยู่ในข้อตกลงการประมวลผลข้อมูลที่มาพร้อมกับสัญญาขององค์กร"
                 ]
               },
               {
@@ -5319,7 +5319,7 @@ export const generatedPrivacyCopy = {
               {
                 "title": "การร้องเรียน",
                 "paragraphs": [
-                  "หากคุณเชื่อว่าเราไม่ได้เคารพสิทธิ์ในการปกป้องข้อมูลของคุณ คุณสามารถยื่นเรื่องร้องเรียนกับสำนักงานข้อมูลของสหรัฐอาหรับเอมิเรตส์ กรรมาธิการการคุ้มครองข้อมูลของ DIFC หรือหน่วยงานผู้มีอำนาจของ ADGM อย่างไรก็ตาม เราขอขอบคุณสำหรับโอกาสที่จะแก้ไขข้อกังวลของคุณโดยตรงล่วงหน้าที่ Privacy@sundae.io"
+                  "หากคุณเชื่อว่าเราไม่ได้เคารพสิทธิ์ในการปกป้องข้อมูลของคุณ คุณสามารถยื่นเรื่องร้องเรียนกับสำนักงานข้อมูลของสหรัฐอาหรับเอมิเรตส์ กรรมาธิการการคุ้มครองข้อมูลของ DIFC หรือหน่วยงานผู้มีอำนาจของ ADGM อย่างไรก็ตาม เราขอขอบคุณสำหรับโอกาสที่จะแก้ไขข้อกังวลของคุณโดยตรงล่วงหน้าที่ privacy@sundae.io"
                 ]
               }
             ]
@@ -5347,30 +5347,30 @@ export const generatedPrivacyCopy = {
     "cards": [
       {
         "title": "เขียนถึงเรา",
-        "value": "Privacy@sundae.io",
-        "icon": "สนับสนุน",
+        "value": "privacy@sundae.io",
+        "icon": "support",
         "href": "mailto:privacy@sundae.io"
       },
       {
         "title": "โทรหาเรา",
         "value": "+971 (4) 501-7308",
-        "icon": "สนับสนุน",
-        "href": "โทร:+97145017308"
+        "icon": "support",
+        "href": "tel:+97145017308"
       },
       {
         "title": "เยี่ยมชมเรา",
         "value": [
-          "ซันเดย์ เทคโนโลยีส์ อิงค์",
+          "Sundae Technologies Inc.",
           "651 N Broad St, ห้อง 201",
           "มิดเดิลทาวน์ เดลาแวร์ 19709",
           "สหรัฐอเมริกา"
         ],
-        "icon": "หลายตำแหน่ง"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
       "secondary": "เงื่อนไขการใช้งาน",
-      "primary": "ติดต่อทีมงานรักษาความลับ"
+      "primary": "ติดต่อทีมความเป็นส่วนตัว"
     }
   },
   "ms": {
@@ -5550,7 +5550,7 @@ export const generatedPrivacyCopy = {
           "Pembetulan: meminta pembetulan atau pengemaskinian maklumat yang tidak tepat atau tidak lengkap.",
           "Pemadaman: minta pemadaman maklumat peribadi anda, tertakluk pada pengecualian tertentu.",
           "Sekatan: meminta sekatan pemprosesan dalam keadaan tertentu.",
-          "Kemudahalihan: Dapatkan salinan maklumat tertentu yang tersusun, biasa digunakan, boleh dibaca mesin dan minta pemindahannya kepada pengurus lain apabila mungkin secara teknikal.",
+          "Kemudahalihan: Dapatkan salinan maklumat tertentu yang tersusun, biasa digunakan, boleh dibaca mesin dan minta pemindahannya kepada pengawal lain apabila mungkin secara teknikal.",
           "Objek: membantah pemprosesan tertentu berdasarkan kepentingan sah kami, termasuk pemprofilan.",
           "Pemasaran: berhenti melanggan komunikasi pemasaran langsung pada bila-bila masa, contohnya melalui pautan nyahlanggan dalam e-mel kami."
         ]
@@ -5591,7 +5591,7 @@ export const generatedPrivacyCopy = {
           {
             "title": "12.1 Hak Privasi California (CCPA/CPRA)",
             "paragraphs": [
-              "Jika anda seorang pemastautin California, anda mungkin mempunyai hak tambahan di bawah Akta Privasi Pengguna California, seperti yang dipinda oleh CPRA, termasuk hak untuk mengetahui kategori maklumat peribadi yang dikumpul dan tujuannya, hak untuk mengetahui sama ada maklumat sedang dijual atau dikongsi, hak untuk mengakses maklumat peribadi anda dan meminta pemadaman dalam kes tertentu, hak untuk menarik diri daripada \"jualan\" tertentu atau \"perkongsian\" tertentu, dan hak untuk \"jualan\" tertentu atau \"perkongsian\" tertentu. melaksanakan hak anda.",
+              "Jika anda seorang pemastautin California, anda mungkin mempunyai hak tambahan di bawah Akta Privasi Pengguna California, seperti yang dipinda oleh CPRA, termasuk hak untuk mengetahui kategori maklumat peribadi yang dikumpul dan tujuannya, hak untuk mengetahui sama ada maklumat sedang dijual atau dikongsi, hak untuk mengakses maklumat peribadi anda dan meminta pemadaman dalam kes tertentu, hak untuk menarik diri, jika berkenaan, daripada \"jualan\" atau \"perkongsian\" tertentu, dan hak untuk tidak didiskriminasi kerana melaksanakan hak anda.",
               "Sundae tidak menjual maklumat peribadi dalam pengertian umum CCPA. Untuk melaksanakan hak anda di California, anda boleh menghubungi kami di privacy@sundae.io."
             ]
           },
@@ -5615,15 +5615,15 @@ export const generatedPrivacyCopy = {
                 ]
               },
               {
-                "title": "Pengurus dan subkontraktor",
+                "title": "Pengawal dan pemproses",
                 "paragraphs": [
-                  "Sundae Technologies Inc. bertindak sebagai pengurus utama platform. Apabila anda melanggan melalui Ambia Global Technologies Ltd, penjual semula DIFC kami yang sah, Ambia bertindak sebagai pemproses untuk metadata pentadbiran dan sokongan terhad, manakala Sundae Technologies Inc. bertindak sebagai sub-pemproses untuk pengehosan, operasi platform dan analitik. Peranan dan tanggungjawab diperincikan dalam perjanjian pemprosesan data yang mengiringi mana-mana kontrak perusahaan."
+                  "Sundae Technologies Inc. bertindak sebagai pengawal utama platform. Apabila anda melanggan melalui Ambia Global Technologies Ltd, penjual semula DIFC kami yang sah, Ambia bertindak sebagai pemproses untuk metadata pentadbiran dan sokongan terhad, manakala Sundae Technologies Inc. bertindak sebagai sub-pemproses untuk pengehosan, operasi platform dan analitik. Peranan dan tanggungjawab diperincikan dalam perjanjian pemprosesan data yang mengiringi mana-mana kontrak perusahaan."
                 ]
               },
               {
                 "title": "Hak awak",
                 "paragraphs": [
-                  "Di bawah undang-undang UAE yang terpakai, anda mungkin mempunyai hak berikut, tertakluk kepada syarat dan pengecualian tertentu: akses kepada data peribadi yang kami pegang tentang anda, pembetulan data yang tidak tepat atau tidak lengkap, pemadaman atau pemusnahan apabila data itu tidak lagi diperlukan, sekatan pemprosesan dalam keadaan tertentu, mudah alih jika mungkin secara teknikal, bantahan terhadap pemprosesan berdasarkan kepentingan sah berdasarkan persetujuan kami, dan jika ada pemprosesan berdasarkan kepentingan sah kami."
+                  "Di bawah undang-undang UAE yang terpakai, anda mungkin mempunyai hak berikut, tertakluk kepada syarat dan pengecualian tertentu: akses kepada data peribadi yang kami pegang tentang anda, pembetulan data yang tidak tepat atau tidak lengkap, pemadaman atau pemusnahan apabila data itu tidak lagi diperlukan, sekatan pemprosesan dalam keadaan tertentu, mudah alih jika mungkin secara teknikal, bantahan terhadap pemprosesan berdasarkan kepentingan sah kami, dan penarikan balik persetujuan apabila pemprosesan adalah berdasarkan persetujuan tersebut."
                 ]
               },
               {
@@ -5664,13 +5664,13 @@ export const generatedPrivacyCopy = {
       {
         "title": "Tulis kepada kami",
         "value": "privacy@sundae.io",
-        "icon": "sokongan",
+        "icon": "support",
         "href": "mailto:privacy@sundae.io"
       },
       {
         "title": "Hubungi kami",
         "value": "+971 (4) 501-7308",
-        "icon": "sokongan",
+        "icon": "support",
         "href": "tel:+97145017308"
       },
       {
@@ -5681,12 +5681,12 @@ export const generatedPrivacyCopy = {
           "Middletown, DE 19709",
           "Amerika Syarikat"
         ],
-        "icon": "berbilangLokasi"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
       "secondary": "Syarat penggunaan",
-      "primary": "Hubungi pasukan kerahsiaan"
+      "primary": "Hubungi pasukan privasi"
     }
   }
 } as const

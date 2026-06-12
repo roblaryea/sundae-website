@@ -367,14 +367,14 @@ export const generatedTermsCopy = {
       {
         "title": "Schreiben Sie uns",
         "value": "legal@sundae.io",
-        "icon": "Unterstützung",
+        "icon": "support",
         "href": "mailto:legal@sundae.io"
       },
       {
         "title": "Rufen Sie uns an",
         "value": "+971 (4) 501-7308",
-        "icon": "Unterstützung",
-        "href": "Tel.:+97145017308"
+        "icon": "support",
+        "href": "tel:+97145017308"
       },
       {
         "title": "Besuchen Sie uns",
@@ -384,7 +384,7 @@ export const generatedTermsCopy = {
           "Middletown, DE 19709",
           "Vereinigte Staaten"
         ],
-        "icon": "MultiLocation"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
@@ -397,14 +397,14 @@ export const generatedTermsCopy = {
     "title": "Gebruiksvoorwaarden",
     "lastUpdatedLabel": "Laatst bijgewerkt: 3 maart 2026",
     "noticeTitle": "Belangrijk",
-    "noticeBody": "Door toegang te krijgen tot of gebruik te maken van de Sundae Services, gaat u ermee akkoord gebonden te zijn aan deze Gebruiksvoorwaarden. Lees ze aandachtig door.",
+    "noticeBody": "Door toegang te krijgen tot of gebruik te maken van de Sundae-diensten, gaat u ermee akkoord gebonden te zijn aan deze Gebruiksvoorwaarden. Lees ze aandachtig door.",
     "sections": [
       {
         "title": "1. Introductie en aanvaarding van voorwaarden",
         "paragraphs": [
           "Deze Servicevoorwaarden (de “Voorwaarden”) zijn van toepassing op uw toegang tot en gebruik van de websites, applicaties, platforms en gerelateerde producten van Sundae (gezamenlijk de “Diensten”), inclusief de benchmarking- en analysemodule van Sundae Report.",
           "Deze Voorwaarden vormen een juridisch bindende overeenkomst tussen Sundae Technologies Inc., een bedrijf opgericht in de staat Delaware, Verenigde Staten, dat zaken doet als \"Sundae\" en de domeinen sundae.io, sundaetech.ai, sundaetech.io en sundaetechnologies.com exploiteert, en de entiteit of persoon die deze Voorwaarden accepteert (de \"Klant\", \"u\" of \"uw\"). Sundae Technologies Inc. kan de Diensten rechtstreeks of via gelieerde ondernemingen, geautoriseerde wederverkopers of regionale partners leveren.",
-          "Door de Services te openen of te gebruiken, of door op \"Ik ga akkoord\" of een soortgelijke verklaring te klikken, gaat u ermee akkoord, namens uzelf en, indien van toepassing, namens de entiteit die u vertegenwoordigt, gebonden te zijn aan deze Voorwaarden. Als u niet akkoord gaat met deze Voorwaarden, mag u de Services niet openen of gebruiken.",
+          "Door de Diensten te openen of te gebruiken, of door op \"Ik ga akkoord\" of een soortgelijke verklaring te klikken, gaat u ermee akkoord, namens uzelf en, indien van toepassing, namens de entiteit die u vertegenwoordigt, gebonden te zijn aan deze Voorwaarden. Als u niet akkoord gaat met deze Voorwaarden, mag u de Diensten niet openen of gebruiken.",
           "Als u deze Voorwaarden namens een bedrijf of andere juridische entiteit aangaat, verklaart en garandeert u dat u de bevoegdheid hebt om een dergelijke entiteit te binden, in welk geval de termen 'u' en 'uw' een dergelijke entiteit betekenen.",
           "In sommige regio's worden commerciële abonnementen verkocht en beheerd door geautoriseerde regionale resellers en partners, zoals Ambia Global Technologies Ltd in DIFC, Dubai. Wanneer er een afzonderlijke abonnementsovereenkomst wordt aangegaan met een geautoriseerde wederverkoper, beheerst die overeenkomst de commerciële voorwaarden van uw abonnement, terwijl deze Voorwaarden van toepassing blijven op uw gebruik van het Platform, intellectuele eigendom, gegevens en aanvaardbaar gebruik. In het geval van een conflict zijn deze Voorwaarden van toepassing op zaken die verband houden met het gebruik van het Platform, intellectueel eigendom of gegevens, en is de Resellerovereenkomst van toepassing op zaken die verband houden met handel."
         ]
@@ -418,8 +418,8 @@ export const generatedTermsCopy = {
           "“Sundae”, “wij”, “ons” en “onze” verwijzen naar Sundae Technologies Inc. en haar dochterondernemingen, die de domeinen sundae.io, sundaetech.ai, sundaetech.io en sundaetechnologies.com beheren.",
           "“Diensten” betekent de Sundae AI-aangedreven platforms voor bedrijfsinformatie en personeelsbeheer en aanverwante producten, waaronder Sundae Report, dashboards, API’s, integraties, mobiele en desktopapplicaties en de Website.",
           "“Sundae Report” betekent Sundae’s business intelligence benchmarkingmodule voor restaurants, die operationele gegevens samenvoegt en anonimiseert om prestatievergelijkingen te bieden.",
-          "“Klantgegevens” betekent uw persoonlijke gegevens, inclusief POS-gegevens, die u of uw gebruikers indienen bij of uploaden naar de Services.",
-          "“Gebruiksgegevens” betekent technische, log- en/of metagegevens met betrekking tot de manier waarop u en uw gebruikers toegang krijgen tot en gebruik maken van de Services.",
+          "“Klantgegevens” betekent uw persoonlijke gegevens, inclusief POS-gegevens, die u of uw gebruikers indienen bij of uploaden naar de Diensten.",
+          "“Gebruiksgegevens” betekent technische, log- en/of metagegevens met betrekking tot de manier waarop u en uw gebruikers toegang krijgen tot en gebruik maken van de Diensten.",
           "“Geaggregeerde Gegevens” betekent gegevens die voortkomen uit de aggregatie en/of anonimisering van Klantgegevens en/of Gebruiksgegevens op zodanige wijze dat deze u of een natuurlijke persoon niet identificeren, en redelijkerwijs niet opnieuw kunnen worden geïdentificeerd.",
           "“Benchmarkgegevens” betekent de Geaggregeerde Gegevens die worden gebruikt om vergelijkende indicatoren en sectorbenchmarks te genereren die aan u beschikbaar worden gesteld via de Diensten, inclusief Sundae Report.",
           "“Abonnementformulier” betekent elk besteldocument, registratieproces of gelijkwaardige registratie, online of offline, waarin uw abonnementsplan, kosten en commerciële voorwaarden worden gespecificeerd."
@@ -447,13 +447,13 @@ export const generatedTermsCopy = {
           {
             "title": "4.1 Geschiktheid",
             "paragraphs": [
-              "U mag de Services alleen gebruiken als u ten minste 18 jaar oud bent en over de wettelijke bevoegdheid beschikt om een bindend contract aan te gaan onder de toepasselijke wetgeving."
+              "U mag de Diensten alleen gebruiken als u ten minste 18 jaar oud bent en over de wettelijke bevoegdheid beschikt om een bindend contract aan te gaan onder de toepasselijke wetgeving."
             ]
           },
           {
             "title": "4.2 Account aanmaken",
             "paragraphs": [
-              "Om toegang te krijgen tot veel functies van de Services, moet u een account aanmaken en nauwkeurige, actuele en volledige informatie verstrekken, en ermee akkoord gaan deze bijgewerkt te houden.",
+              "Om toegang te krijgen tot veel functies van de Diensten, moet u een account aanmaken en nauwkeurige, actuele en volledige informatie verstrekken, en ermee akkoord gaan deze bijgewerkt te houden.",
               "Als u namens een bedrijf een account aanmaakt, geeft u aan dat u daartoe bevoegd bent."
             ]
           },
@@ -472,7 +472,7 @@ export const generatedTermsCopy = {
       {
         "title": "5. Toegestaan gebruik en aanvaardbaar gebruik",
         "paragraphs": [
-          "U mag de Services alleen gebruiken voor uw interne zakelijke doeleinden en in overeenstemming met deze Voorwaarden en alle toepasselijke wet- en regelgeving. Het is u verboden:",
+          "U mag de Diensten alleen gebruiken voor uw interne zakelijke doeleinden en in overeenstemming met deze Voorwaarden en alle toepasselijke wet- en regelgeving. Het is u verboden:",
           "We kunnen, naar eigen goeddunken, de toegang opschorten of beëindigen wegens overtreding van deze sectie."
         ],
         "bullets": [
@@ -482,7 +482,7 @@ export const generatedTermsCopy = {
           "virussen, malware of andere schadelijke code uploaden of verzenden;",
           "de Diensten gebruiken om een concurrerend product te ontwikkelen of aan te bieden of voor concurrentieanalyse buiten legitieme interne benchmarking;",
           "de onderliggende broncode of modellen reverse-engineeren, decompileren, demonteren of proberen af te leiden, behalve voor zover toegestaan door de toepasselijke wetgeving;",
-          "gegevens uit de Services extraheren, verzamelen of in bulk downloaden met behulp van geautomatiseerde tools zonder onze schriftelijke toestemming;",
+          "gegevens uit de Diensten extraheren, verzamelen of in bulk downloaden met behulp van geautomatiseerde tools zonder onze schriftelijke toestemming;",
           "proberen geaggregeerde gegevens of benchmarkgegevens opnieuw te identificeren of te de-anonimiseren."
         ]
       },
@@ -498,7 +498,7 @@ export const generatedTermsCopy = {
           {
             "title": "6.2 Licentie voor klantgegevens",
             "paragraphs": [
-              "Door Klantgegevens in te dienen of te uploaden naar de Services, verleent u Sundae een niet-exclusieve, wereldwijde, royaltyvrije licentie om de Klantgegevens te gebruiken, op te slaan, te hosten, te kopiëren, te verwerken, te analyseren, te verzenden en weer te geven, uitsluitend om de Services te leveren, te onderhouden en te ondersteunen, en om service-, beveiligings- of technische problemen te voorkomen of op te lossen.",
+              "Door Klantgegevens in te dienen of te uploaden naar de Diensten, verleent u Sundae een niet-exclusieve, wereldwijde, royaltyvrije licentie om de Klantgegevens te gebruiken, op te slaan, te hosten, te kopiëren, te verwerken, te analyseren, te verzenden en weer te geven, uitsluitend om de Diensten te leveren, te onderhouden en te ondersteunen, en om service-, beveiligings- of technische problemen te voorkomen of op te lossen.",
               "Voor Sundae Report verleent u verder de aanvullende rechten op geaggregeerde gegevens en benchmarkgegevens zoals beschreven in artikel 13."
             ]
           },
@@ -512,7 +512,7 @@ export const generatedTermsCopy = {
           {
             "title": "6.4 Privacybeleid",
             "paragraphs": [
-              "Op uw gebruik van de Services is ook ons Privacybeleid van toepassing, dat door middel van verwijzing is opgenomen in deze Voorwaarden."
+              "Op uw gebruik van de Diensten is ook ons Privacybeleid van toepassing, dat door middel van verwijzing is opgenomen in deze Voorwaarden."
             ]
           },
           {
@@ -527,10 +527,10 @@ export const generatedTermsCopy = {
         "title": "7. Gebruikersverklaringen en verplichtingen",
         "paragraphs": [
           "U verklaart en garandeert dat:",
-          "U bent verantwoordelijk voor het configureren en gebruiken van de Services in overeenstemming met de toepasselijke wetgeving."
+          "U bent verantwoordelijk voor het configureren en gebruiken van de Diensten in overeenstemming met de toepasselijke wetgeving."
         ],
         "bullets": [
-          "u beschikt over alle rechten, toestemmingen en machtigingen die nodig zijn om Klantgegevens te uploaden en te delen via de Services;",
+          "u beschikt over alle rechten, toestemmingen en machtigingen die nodig zijn om Klantgegevens te uploaden en te delen via de Diensten;",
           "uw Klantgegevens en uw gebruik van de Diensten zijn niet in strijd met toepasselijke wetgeving of rechten van derden, inclusief privacy-, arbeids- en gegevensbeschermingswetten, en zullen dat ook niet doen;",
           "u zult geen gevoelige persoonlijke gegevens uploaden, tenzij dit uitdrukkelijk is toegestaan door de toepasselijke wetgeving en ons Privacybeleid;",
           "alle Klantgegevens die u verstrekt voor analyse- en benchmarkingdoeleinden zijn, voor zover u weet, nauwkeurig, volledig en actueel."
@@ -544,7 +544,7 @@ export const generatedTermsCopy = {
         ]
       },
       {
-        "title": "9. Licentie om de Services te gebruiken",
+        "title": "9. Licentie om de Diensten te gebruiken",
         "paragraphs": [
           "Op voorwaarde dat u deze Voorwaarden en de toepasselijke Abonnementsformulieren naleeft, verleent Sundae u een beperkte, niet-exclusieve, niet-overdraagbare, niet-sublicentieerbare licentie voor toegang tot en gebruik van de Diensten gedurende de looptijd van uw abonnement en uitsluitend voor uw interne zakelijke doeleinden.",
           "U mag de Diensten, of de resultaten ervan, niet doorverkopen, herdistribueren, whitelabelen of aanbieden aan derden als een op zichzelf staande dienst, tenzij wij hier schriftelijk mee instemmen."
@@ -673,13 +673,13 @@ export const generatedTermsCopy = {
       {
         "title": "16. Compensatie",
         "paragraphs": [
-          "U gaat ermee akkoord Sundae en haar functionarissen, directeuren, werknemers, agenten en gelieerde ondernemingen schadeloos te stellen, te verdedigen en te vrijwaren van alle claims, schade, verliezen, aansprakelijkheden, kosten of uitgaven, inclusief redelijke honoraria van advocaten, die voortvloeien uit uw gebruik van de Services, uw Klantgegevens, uw schending van deze Voorwaarden of uw schending van de rechten van derden."
+          "U gaat ermee akkoord Sundae en haar functionarissen, directeuren, werknemers, agenten en gelieerde ondernemingen schadeloos te stellen, te verdedigen en te vrijwaren van alle claims, schade, verliezen, aansprakelijkheden, kosten of uitgaven, inclusief redelijke honoraria van advocaten, die voortvloeien uit uw gebruik van de Diensten, uw Klantgegevens, uw schending van deze Voorwaarden of uw schending van de rechten van derden."
         ]
       },
       {
         "title": "17. Beperking van aansprakelijkheid",
         "paragraphs": [
-          "Voor zover maximaal toegestaan door de toepasselijke wetgeving, zijn Sundae en haar dochterondernemingen, functionarissen, werknemers, agenten, leveranciers en licentiegevers niet aansprakelijk voor enige indirecte, incidentele, speciale, gevolg- of punitieve schade, inclusief winstderving, verlies van gegevens, gebruik, goodwill of andere immateriële verliezen die voortkomen uit het gebruik van of het onvermogen om de Services te gebruiken.",
+          "Voor zover maximaal toegestaan door de toepasselijke wetgeving, zijn Sundae en haar dochterondernemingen, functionarissen, werknemers, agenten, leveranciers en licentiegevers niet aansprakelijk voor enige indirecte, incidentele, speciale, gevolg- of punitieve schade, inclusief winstderving, verlies van gegevens, gebruik, goodwill of andere immateriële verliezen die voortkomen uit het gebruik van of het onvermogen om de Diensten te gebruiken.",
           "De maximale totale aansprakelijkheid van Sundae die voortvloeit uit deze Voorwaarden zal niet hoger zijn dan het hoogste bedrag dat u aan Sundae hebt betaald voor de Diensten in de periode van twaalf (12) maanden voorafgaand aan de gebeurtenis die aanleiding gaf tot de claim, of honderd Amerikaanse dollars (US$100).",
           "In sommige rechtsgebieden zijn bepaalde uitsluitingen of beperkingen niet toegestaan, en in dat geval zal onze aansprakelijkheid beperkt zijn tot de maximale omvang die door de wet is toegestaan."
         ]
@@ -690,13 +690,13 @@ export const generatedTermsCopy = {
           {
             "title": "18.1 Duur",
             "paragraphs": [
-              "Deze Voorwaarden gaan in op het moment dat u de Services voor het eerst bezoekt of gebruikt, of wanneer u ze accepteert, en blijven van kracht totdat ze worden beëindigd."
+              "Deze Voorwaarden gaan in op het moment dat u de Diensten voor het eerst bezoekt of gebruikt, of wanneer u ze accepteert, en blijven van kracht totdat ze worden beëindigd."
             ]
           },
           {
             "title": "18.2 Beëindiging door u",
             "paragraphs": [
-              "U kunt uw account op elk gewenst moment beëindigen en stoppen met het gebruik van de Services via uw accountinstellingen of door contact met ons op te nemen. Vooraf betaalde vergoedingen worden niet gerestitueerd, tenzij schriftelijk anders aangegeven.",
+              "U kunt uw account op elk gewenst moment beëindigen en stoppen met het gebruik van de Diensten via uw accountinstellingen of door contact met ons op te nemen. Vooraf betaalde vergoedingen worden niet gerestitueerd, tenzij schriftelijk anders aangegeven.",
               "U kunt verzoeken om verwijdering van identificeerbare Klantgegevens door binnen zestig (60) dagen na beëindiging te schrijven naar legal@sundae.io. U begrijpt dat Klantgegevens afkomstig zijn uit uw eigen operationele systemen en dat u hier te allen tijde onafhankelijke toegang toe behoudt. Sundae zal redelijke inspanningen leveren om identificeerbare Klantgegevens binnen negentig (90) dagen na een geldig verzoek te verwijderen, behalve wanneer bewaring wettelijk noodzakelijk is, om geschillen op te lossen of voor routinematige back-ups. Niet-identificeerbare geaggregeerde gegevens en benchmarkgegevens zijn niet onderworpen aan verwijderingsverzoeken en kunnen voor onbepaalde tijd worden bewaard in overeenstemming met artikel 13.4."
             ]
           },
@@ -725,7 +725,7 @@ export const generatedTermsCopy = {
         "title": "20. Wijzigingen voorwaarden",
         "paragraphs": [
           "Wij kunnen deze Voorwaarden van tijd tot tijd wijzigen. Als we materiële wijzigingen aanbrengen, zullen we u hiervan op de hoogte stellen, bijvoorbeeld via e-mail, in-app-meldingen of door de datum 'Laatst bijgewerkt' bij te werken.",
-          "Als u de Services blijft openen of gebruiken nadat de bijgewerkte Voorwaarden van kracht zijn geworden, gaat u ermee akkoord gebonden te zijn aan de herziene versie. Als u het er niet mee eens bent, moet u stoppen met het gebruik van de Diensten."
+          "Als u de Diensten blijft openen of gebruiken nadat de bijgewerkte Voorwaarden van kracht zijn geworden, gaat u ermee akkoord gebonden te zijn aan de herziene versie. Als u het er niet mee eens bent, moet u stoppen met het gebruik van de Diensten."
         ]
       },
       {
@@ -758,13 +758,13 @@ export const generatedTermsCopy = {
       {
         "title": "Schrijf ons",
         "value": "legal@sundae.io",
-        "icon": "ondersteuning",
+        "icon": "support",
         "href": "mailto:legal@sundae.io"
       },
       {
         "title": "Bel ons",
         "value": "+971 (4) 501-7308",
-        "icon": "ondersteuning",
+        "icon": "support",
         "href": "tel:+97145017308"
       },
       {
@@ -775,7 +775,7 @@ export const generatedTermsCopy = {
           "Middletown, DE 19709",
           "Verenigde Staten"
         ],
-        "icon": "multilocatie"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
@@ -1149,14 +1149,14 @@ export const generatedTermsCopy = {
       {
         "title": "Escreva para nós",
         "value": "legal@sundae.io",
-        "icon": "suporte",
+        "icon": "support",
         "href": "mailto:legal@sundae.io"
       },
       {
         "title": "Ligue para nós",
         "value": "+971 (4) 501-7308",
-        "icon": "suporte",
-        "href": "telefone: +97145017308"
+        "icon": "support",
+        "href": "tel:+97145017308"
       },
       {
         "title": "Visite-nos",
@@ -1539,15 +1539,15 @@ export const generatedTermsCopy = {
     "cards": [
       {
         "title": "हमें लिखें",
-        "value": "कानूनी@sundae.io",
-        "icon": "समर्थन",
+        "value": "legal@sundae.io",
+        "icon": "support",
         "href": "mailto:legal@sundae.io"
       },
       {
         "title": "हमें कॉल करें",
         "value": "+971 (4) 501-7308",
-        "icon": "समर्थन",
-        "href": "फ़ोन:+97145017308"
+        "icon": "support",
+        "href": "tel:+97145017308"
       },
       {
         "title": "हमसे मिलें",
@@ -1557,7 +1557,7 @@ export const generatedTermsCopy = {
           "मिडलटाउन, DE 19709",
           "संयुक्त राज्य अमेरिका"
         ],
-        "icon": "बहुस्थान"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
@@ -1931,14 +1931,14 @@ export const generatedTermsCopy = {
       {
         "title": "ہمیں لکھیں۔",
         "value": "legal@sundae.io",
-        "icon": "حمایت",
+        "icon": "support",
         "href": "mailto:legal@sundae.io"
       },
       {
         "title": "ہمیں کال کریں۔",
         "value": "+971 (4) 501-7308",
-        "icon": "حمایت",
-        "href": "ٹیلی فون:+97145017308"
+        "icon": "support",
+        "href": "tel:+97145017308"
       },
       {
         "title": "ہم سے ملیں۔",
@@ -1948,7 +1948,7 @@ export const generatedTermsCopy = {
           "مڈل ٹاؤن، ڈی ای 19709",
           "ریاستہائے متحدہ"
         ],
-        "icon": "ملٹی لوکیشن"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
@@ -2322,13 +2322,13 @@ export const generatedTermsCopy = {
       {
         "title": "Scrivici",
         "value": "legal@sundae.io",
-        "icon": "supporto",
+        "icon": "support",
         "href": "mailto:legal@sundae.io"
       },
       {
         "title": "Chiamaci",
         "value": "+971 (4) 501-7308",
-        "icon": "supporto",
+        "icon": "support",
         "href": "tel:+97145017308"
       },
       {
@@ -2339,7 +2339,7 @@ export const generatedTermsCopy = {
           "Middletown, DE 19709",
           "Stati Uniti"
         ],
-        "icon": "multiLocalità"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
@@ -2713,13 +2713,13 @@ export const generatedTermsCopy = {
       {
         "title": "Napisz do nas",
         "value": "legal@sundae.io",
-        "icon": "wsparcie",
+        "icon": "support",
         "href": "mailto:legal@sundae.io"
       },
       {
         "title": "Zadzwoń do nas",
         "value": "+971 (4) 501-7308",
-        "icon": "wsparcie",
+        "icon": "support",
         "href": "tel:+97145017308"
       },
       {
@@ -2730,7 +2730,7 @@ export const generatedTermsCopy = {
           "Middletown, DE 19709",
           "Stany Zjednoczone"
         ],
-        "icon": "wiele lokalizacji"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
@@ -3104,13 +3104,13 @@ export const generatedTermsCopy = {
       {
         "title": "Bize yazın",
         "value": "legal@sundae.io",
-        "icon": "destek",
+        "icon": "support",
         "href": "mailto:legal@sundae.io"
       },
       {
         "title": "Bizi arayın",
         "value": "+971 (4) 501-7308",
-        "icon": "destek",
+        "icon": "support",
         "href": "tel:+97145017308"
       },
       {
@@ -3121,7 +3121,7 @@ export const generatedTermsCopy = {
           "Middletown, DE 19709",
           "Amerika Birleşik Devletleri"
         ],
-        "icon": "çoklu konum"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
@@ -3494,15 +3494,15 @@ export const generatedTermsCopy = {
     "cards": [
       {
         "title": "写信给我们",
-        "value": "法律@sundae.io",
-        "icon": "支持",
-        "href": "邮箱：legal@sundae.io"
+        "value": "legal@sundae.io",
+        "icon": "support",
+        "href": "mailto:legal@sundae.io"
       },
       {
         "title": "致电我们",
         "value": "+971 (4) 501-7308",
-        "icon": "支持",
-        "href": "电话：+97145017308"
+        "icon": "support",
+        "href": "tel:+97145017308"
       },
       {
         "title": "访问我们",
@@ -3512,7 +3512,7 @@ export const generatedTermsCopy = {
           "米德尔敦, DE 19709",
           "美国"
         ],
-        "icon": "多地点"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
@@ -3886,14 +3886,14 @@ export const generatedTermsCopy = {
       {
         "title": "私たちに手紙を書いてください",
         "value": "legal@sundae.io",
-        "icon": "サポート",
-        "href": "メールアドレス:legal@sundae.io"
+        "icon": "support",
+        "href": "mailto:legal@sundae.io"
       },
       {
         "title": "お電話ください",
         "value": "+971 (4) 501-7308",
-        "icon": "サポート",
-        "href": "電話番号:+97145017308"
+        "icon": "support",
+        "href": "tel:+97145017308"
       },
       {
         "title": "ご来店ください",
@@ -3903,7 +3903,7 @@ export const generatedTermsCopy = {
           "デラウェア州ミドルタウン 19709",
           "米国"
         ],
-        "icon": "マルチロケーション"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
@@ -4277,14 +4277,14 @@ export const generatedTermsCopy = {
       {
         "title": "우리에게 편지 쓰기",
         "value": "legal@sundae.io",
-        "icon": "지원하다",
-        "href": "메일 수신:legal@sundae.io"
+        "icon": "support",
+        "href": "mailto:legal@sundae.io"
       },
       {
         "title": "전화주세요",
         "value": "+971 (4) 501-7308",
-        "icon": "지원하다",
-        "href": "전화:+97145017308"
+        "icon": "support",
+        "href": "tel:+97145017308"
       },
       {
         "title": "우리를 방문하세요",
@@ -4294,7 +4294,7 @@ export const generatedTermsCopy = {
           "미들타운, DE 19709",
           "미국"
         ],
-        "icon": "다중 위치"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
@@ -4668,14 +4668,14 @@ export const generatedTermsCopy = {
       {
         "title": "Menulis kepada kami",
         "value": "legal@sundae.io",
-        "icon": "dukungan",
+        "icon": "support",
         "href": "mailto:legal@sundae.io"
       },
       {
         "title": "Hubungi kami",
         "value": "+971 (4) 501-7308",
-        "icon": "dukungan",
-        "href": "telp:+97145017308"
+        "icon": "support",
+        "href": "tel:+97145017308"
       },
       {
         "title": "Kunjungi kami",
@@ -4685,7 +4685,7 @@ export const generatedTermsCopy = {
           "Middletown, DE 19709",
           "Amerika Serikat"
         ],
-        "icon": "multiLokasi"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
@@ -5059,14 +5059,14 @@ export const generatedTermsCopy = {
       {
         "title": "Viết thư cho chúng tôi",
         "value": "legal@sundae.io",
-        "icon": "hỗ trợ",
+        "icon": "support",
         "href": "mailto:legal@sundae.io"
       },
       {
         "title": "Gọi cho chúng tôi",
         "value": "+971 (4) 501-7308",
-        "icon": "hỗ trợ",
-        "href": "ĐT:+97145017308"
+        "icon": "support",
+        "href": "tel:+97145017308"
       },
       {
         "title": "Ghé thăm chúng tôi",
@@ -5076,7 +5076,7 @@ export const generatedTermsCopy = {
           "Trung tâm, DE 19709",
           "Hoa Kỳ"
         ],
-        "icon": "đa vị trí"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
@@ -5450,13 +5450,13 @@ export const generatedTermsCopy = {
       {
         "title": "Scrie-ne",
         "value": "legal@sundae.io",
-        "icon": "sprijin",
+        "icon": "support",
         "href": "mailto:legal@sundae.io"
       },
       {
         "title": "Sună-ne",
         "value": "+971 (4) 501-7308",
-        "icon": "sprijin",
+        "icon": "support",
         "href": "tel:+97145017308"
       },
       {
@@ -5841,14 +5841,14 @@ export const generatedTermsCopy = {
       {
         "title": "Skriv till oss",
         "value": "legal@sundae.io",
-        "icon": "stöd",
+        "icon": "support",
         "href": "mailto:legal@sundae.io"
       },
       {
         "title": "Ring oss",
         "value": "+971 (4) 501-7308",
-        "icon": "stöd",
-        "href": "tel: +97145017308"
+        "icon": "support",
+        "href": "tel:+97145017308"
       },
       {
         "title": "Besök oss",
@@ -6232,14 +6232,14 @@ export const generatedTermsCopy = {
       {
         "title": "আমাদের লিখুন",
         "value": "legal@sundae.io",
-        "icon": "সমর্থন",
+        "icon": "support",
         "href": "mailto:legal@sundae.io"
       },
       {
         "title": "আমাদের কল",
         "value": "+971 (4) 501-7308",
-        "icon": "সমর্থন",
-        "href": "টেলিফোন:+97145017308"
+        "icon": "support",
+        "href": "tel:+97145017308"
       },
       {
         "title": "আমাদের পরিদর্শন করুন",
@@ -6249,7 +6249,7 @@ export const generatedTermsCopy = {
           "মিডলটাউন, ডিই 19709",
           "মার্কিন যুক্তরাষ্ট্র"
         ],
-        "icon": "বহু অবস্থান"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
@@ -6623,14 +6623,14 @@ export const generatedTermsCopy = {
       {
         "title": "เขียนถึงเรา",
         "value": "legal@sundae.io",
-        "icon": "สนับสนุน",
-        "href": "อีเมล์:legal@sundae.io"
+        "icon": "support",
+        "href": "mailto:legal@sundae.io"
       },
       {
         "title": "โทรหาเรา",
         "value": "+971 (4) 501-7308",
-        "icon": "สนับสนุน",
-        "href": "โทร:+97145017308"
+        "icon": "support",
+        "href": "tel:+97145017308"
       },
       {
         "title": "เยี่ยมชมเรา",
@@ -6640,7 +6640,7 @@ export const generatedTermsCopy = {
           "มิดเดิลทาวน์ เดลาแวร์ 19709",
           "สหรัฐอเมริกา"
         ],
-        "icon": "หลายตำแหน่ง"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
@@ -7014,13 +7014,13 @@ export const generatedTermsCopy = {
       {
         "title": "Tulis kepada kami",
         "value": "legal@sundae.io",
-        "icon": "sokongan",
+        "icon": "support",
         "href": "mailto:legal@sundae.io"
       },
       {
         "title": "Hubungi kami",
         "value": "+971 (4) 501-7308",
-        "icon": "sokongan",
+        "icon": "support",
         "href": "tel:+97145017308"
       },
       {
@@ -7031,7 +7031,7 @@ export const generatedTermsCopy = {
           "Middletown, DE 19709",
           "Amerika Syarikat"
         ],
-        "icon": "berbilangLokasi"
+        "icon": "multiLocation"
       }
     ],
     "buttons": {
