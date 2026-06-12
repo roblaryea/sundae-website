@@ -16,6 +16,9 @@ import { HeroLiveDashboard } from "./HeroLiveDashboard";
 import { SectionEditorialBand } from "./sections/SectionEditorialBand";
 import { SectionEditorialSplit } from "./sections/SectionEditorialSplit";
 import { SectionCreamRelief } from "./sections/SectionCreamRelief";
+import { SectionManifesto } from "./sections/SectionManifesto";
+import { SectionOperatorVoice } from "./sections/SectionOperatorVoice";
+import { SectionEcosystemStrip } from "./sections/SectionEcosystemStrip";
 import { SundaeWordmark } from "./sections/SundaeWordmark";
 import { editorialCopy, type EditorialCopy } from "./sections/editorialCopy";
 import { closerLineCopy } from "./closerCopy";
@@ -278,6 +281,11 @@ export default function HomeContent() {
         </section>
 
         {/* ════════════════════════════════════════════════
+            1b. MANIFESTO - the belief beat (copy-first, before product earns its place)
+        ════════════════════════════════════════════════ */}
+        <SectionManifesto />
+
+        {/* ════════════════════════════════════════════════
             2. THE PROBLEM - Pain KPIs with animated numbers
         ════════════════════════════════════════════════ */}
         <section ref={painRef} aria-labelledby="problem-heading" className="py-20 px-4 sm:px-6 lg:px-8 relative">
@@ -439,9 +447,19 @@ export default function HomeContent() {
         <SectionPersonaSwitcher />
 
         {/* ════════════════════════════════════════════════
+            5b. OPERATOR VOICE - human presence: a real face + the problem we obsess over
+        ════════════════════════════════════════════════ */}
+        <SectionOperatorVoice />
+
+        {/* ════════════════════════════════════════════════
             6. PROOF - Industry vs Sundae + capability stats
         ════════════════════════════════════════════════ */}
         <SectionProof />
+
+        {/* ════════════════════════════════════════════════
+            6a-eco. ECOSYSTEM STRIP - honest external-credibility (Live POS + roadmap)
+        ════════════════════════════════════════════════ */}
+        <SectionEcosystemStrip />
 
         {/* ════════════════════════════════════════════════
             6b. TRUST STRIP - Enterprise-grade signal before CTA
