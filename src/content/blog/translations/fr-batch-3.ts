@@ -196,7 +196,7 @@ Résultat: les opérateurs ont plus de données que jamais, mais moins d’intel
 
 Sundae fournit une infrastructure de données unifiée conçue spécifiquement pour les opérations de restauration multi-sites:
 
-**Normalisation automatique**: Sundae Scout se connecte à tous les systèmes et normalise automatiquement les données, quels que soient les formats et les schémas. Aucun travail d’intégration sur mesure n’est requis.
+**Normalisation automatique**: Sundae Core se connecte à tous les systèmes et normalise automatiquement les données, quels que soient les formats et les schémas. Aucun travail d’intégration sur mesure n’est requis.
 
 **Source unique de vérité**: Sundae Core offre une vue unifiée des opérations, éliminant les chiffres contradictoires et la réconciliation manuelle.
 

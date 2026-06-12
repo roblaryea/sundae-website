@@ -569,7 +569,7 @@ El problema fundamental: la atención humana no escala linealmente. Duplicar tus
 
 **El hito**: Antes de firmar el arrendamiento de la ubicación 18, unifica cada fuente de datos en una sola plataforma de inteligencia. Transacciones del POS, programación de mano de obra, inventarios, resultados financieros, feedback de clientes - todo entrando automáticamente en un solo sistema, normalizado y conciliado sin intervención humana.
 
-**Lo que Sundae entrega aquí**: Sundae Scout se conecta a tus sistemas existentes de POS, nómina, inventario y contabilidad. La normalización de datos ocurre automáticamente - no más conciliación de formatos distintos, corrección de convenciones de nombres ni combinación manual de exportaciones. Una plataforma, una sola fuente de verdad, actualizada continuamente.
+**Lo que Sundae entrega aquí**: Sundae Core se conecta a tus sistemas existentes de POS, nómina, inventario y contabilidad. La normalización de datos ocurre automáticamente - no más conciliación de formatos distintos, corrección de convenciones de nombres ni combinación manual de exportaciones. Una plataforma, una sola fuente de verdad, actualizada continuamente.
 
 **El beneficio**: Tu analista deja de ensamblar datos y empieza a analizarlos. Los reportes que tomaban 20 horas semanales se generan automáticamente. Y, de forma crítica, cuando abres las ubicaciones 18, 19 y 20, agregarlas a la plataforma de inteligencia toma horas - no semanas de integración manual.
 

@@ -52,7 +52,7 @@ Ce processus réactif et manuel crée une visibilité en 1D - vous voyez ce qui 
 
 Sundae Core unifie automatiquement chaque source de données dans un seul tableau de bord opérationnel offrant une intelligence 4D en temps réel:
 
-- **Sundae Scout** normalise automatiquement les données provenant de toutes les sources - aucun mappage manuel des champs ni export CSV requis
+- **Sundae Core** normalise automatiquement les données provenant de toutes les sources - aucun mappage manuel des champs ni export CSV requis
 - **Sundae Core** visualise les données unifiées avec des tableaux de bord spécifiques aux rôles pour les opérateurs, la finance, le marketing et les RH
 - **Sundae Core** surveille les tableaux de bord en continu et vous alerte des anomalies avant qu’elles ne deviennent des crises
 - **Sundae Watchtower** ajoute un contexte concurrentiel montrant comment vos indicateurs se comparent aux benchmarks du marché

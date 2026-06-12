@@ -650,7 +650,7 @@ export const websiteMessages = {
             'Sundae integrates with 250+ restaurant systems across POS, labor, inventory, reservations, delivery, and more.',
           process: [
             { step: '1', title: 'Connect', description: 'Authenticate your platforms with OAuth or API key - most integrations take under 5 minutes.' },
-            { step: '2', title: 'Normalize', description: 'Scout, our data layer, cleans, maps, and unifies every data source into a consistent schema.' },
+            { step: '2', title: 'Normalize', description: 'Sundae Core, our data layer, cleans, maps, and unifies every data source into a consistent schema.' },
             { step: '3', title: 'Analyze', description: 'Unified data flows into dashboards, alerts, and intelligent recommendations - no manual exports needed.' },
           ],
           domainsTitle: '12 Data Domains. One Unified View.',
@@ -1096,7 +1096,7 @@ export const websiteMessages = {
             'يتكامل Sundae مع أكثر من 30 نظامًا للمطاعم عبر نقاط البيع والعمالة والمخزون والحجوزات والتوصيل وغيرها.',
           process: [
             { step: '1', title: 'اتصال', description: 'صادق على منصاتك باستخدام OAuth أو API key - معظم التكاملات تستغرق أقل من 5 دقائق.' },
-            { step: '2', title: 'توحيد', description: 'يقوم Scout بتنظيف البيانات وربطها وتوحيدها في مخطط موحد.' },
+            { step: '2', title: 'توحيد', description: 'يقوم Sundae Core بتنظيف البيانات وربطها وتوحيدها في مخطط موحد.' },
             { step: '3', title: 'تحليل', description: 'تتدفق البيانات الموحدة إلى لوحات المعلومات والتنبيهات والتوصيات الذكية.' },
           ],
           domainsTitle: '12 مجال بيانات. رؤية موحدة واحدة.',
@@ -1559,7 +1559,7 @@ export const websiteMessages = {
             'Sundae s\'intègre à plus de 30 systèmes de restauration couvrant POS, main-d\'œuvre, stock, réservations, livraison et plus encore.',
           process: [
             { step: '1', title: 'Connecter', description: 'Authentifiez vos plateformes via OAuth ou clé API - la plupart des intégrations prennent moins de 5 minutes.' },
-            { step: '2', title: 'Normaliser', description: 'Scout nettoie, mappe et unifie chaque source de données dans un schéma cohérent.' },
+            { step: '2', title: 'Normaliser', description: 'Sundae Core nettoie, mappe et unifie chaque source de données dans un schéma cohérent.' },
             { step: '3', title: 'Analyser', description: 'Les données unifiées alimentent tableaux de bord, alertes et recommandations intelligentes.' },
           ],
           domainsTitle: '12 domaines de données. Une vue unifiée.',
@@ -2022,7 +2022,7 @@ export const websiteMessages = {
             'Sundae se integra con más de 30 sistemas de restauración en POS, personal, inventario, reservas, delivery y más.',
           process: [
             { step: '1', title: 'Conectar', description: 'Autentica tus plataformas con OAuth o clave API; la mayoría de integraciones tardan menos de 5 minutos.' },
-            { step: '2', title: 'Normalizar', description: 'Scout limpia, mapea y unifica cada fuente de datos en un esquema coherente.' },
+            { step: '2', title: 'Normalizar', description: 'Sundae Core limpia, mapea y unifica cada fuente de datos en un esquema coherente.' },
             { step: '3', title: 'Analizar', description: 'Los datos unificados alimentan dashboards, alertas y recomendaciones inteligentes.' },
           ],
           domainsTitle: '12 dominios de datos. Una vista unificada.',

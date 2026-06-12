@@ -689,7 +689,7 @@ export const generatedWebsiteMessageOverrides = {
             {
               "step": "2",
               "title": "Normalisieren",
-              "description": "Scout, unsere Datenschicht, bereinigt, kartiert und vereinheitlicht jede Datenquelle in ein konsistentes Schema."
+              "description": "Sundae Core, unsere Datenschicht, bereinigt, kartiert und vereinheitlicht jede Datenquelle in ein konsistentes Schema."
             },
             {
               "step": "3",
@@ -1431,7 +1431,7 @@ export const generatedWebsiteMessageOverrides = {
             {
               "step": "2",
               "title": "Normaliseren",
-              "description": "Scout, onze gegevenslaag, reinigt, map en verenigt elke gegevensbron in een consistente schema."
+              "description": "Sundae Core, onze gegevenslaag, reinigt, map en verenigt elke gegevensbron in een consistente schema."
             },
             {
               "step": "3",
@@ -2173,7 +2173,7 @@ export const generatedWebsiteMessageOverrides = {
             {
               "step": "2",
               "title": "Normalizar",
-              "description": "Scout, nossa camada de dados, limpa, mapeia e unifica cada fonte de dados em um esquema consistente."
+              "description": "Sundae Core, nossa camada de dados, limpa, mapeia e unifica cada fonte de dados em um esquema consistente."
             },
             {
               "step": "3",
@@ -2915,7 +2915,7 @@ export const generatedWebsiteMessageOverrides = {
             {
               "step": "2",
               "title": "सामान्य करें",
-              "description": "Scout, हमारी डेटा परत, हर डेटा स्रोत को एक सुसंगत स्कीमा में साफ, मैप और एकीकृत करती है।"
+              "description": "Sundae Core, हमारी डेटा परत, हर डेटा स्रोत को एक सुसंगत स्कीमा में साफ, मैप और एकीकृत करती है।"
             },
             {
               "step": "3",
@@ -3657,7 +3657,7 @@ export const generatedWebsiteMessageOverrides = {
             {
               "step": "2",
               "title": "معیاری بنائیں",
-              "description": "Scout، ہمارا ڈیٹا لیئر، ہر ڈیٹا کے ماخذ کو صاف، نقشہ بناتا ہے، اور ایک مستقل اسکیمہ میں متحد کرتا ہے۔"
+              "description": "Sundae Core، ہمارا ڈیٹا لیئر، ہر ڈیٹا کے ماخذ کو صاف، نقشہ بناتا ہے، اور ایک مستقل اسکیمہ میں متحد کرتا ہے۔"
             },
             {
               "step": "3",
@@ -4399,7 +4399,7 @@ export const generatedWebsiteMessageOverrides = {
             {
               "step": "2",
               "title": "Normalizza",
-              "description": "Scout, il nostro livello dati, pulisce, mappa e unifica ogni fonte di dati in uno schema coerente."
+              "description": "Sundae Core, il nostro livello dati, pulisce, mappa e unifica ogni fonte di dati in uno schema coerente."
             },
             {
               "step": "3",
@@ -5141,7 +5141,7 @@ export const generatedWebsiteMessageOverrides = {
             {
               "step": "2",
               "title": "Normalizuj",
-              "description": "Scout, nasza warstwa danych, oczyszcza, mapuje i jednoczy każde źródło danych w spójnym schemacie."
+              "description": "Sundae Core, nasza warstwa danych, oczyszcza, mapuje i jednoczy każde źródło danych w spójnym schemacie."
             },
             {
               "step": "3",
@@ -5883,7 +5883,7 @@ export const generatedWebsiteMessageOverrides = {
             {
               "step": "2",
               "title": "Normalize Et",
-              "description": "Scout, veri katmanımız, her veri kaynağını temizler, haritalar ve tutarlı bir şemaya birleştirir."
+              "description": "Sundae Core, veri katmanımız, her veri kaynağını temizler, haritalar ve tutarlı bir şemaya birleştirir."
             },
             {
               "step": "3",
@@ -6625,7 +6625,7 @@ export const generatedWebsiteMessageOverrides = {
             {
               "step": "2",
               "title": "规范化",
-              "description": "Scout，我们的数据层，清理、映射并将每个数据源统一为一致的架构。"
+              "description": "Sundae Core，我们的数据层，清理、映射并将每个数据源统一为一致的架构。"
             },
             {
               "step": "3",
@@ -7367,7 +7367,7 @@ export const generatedWebsiteMessageOverrides = {
             {
               "step": "2",
               "title": "正規化",
-              "description": "Scout、私たちのデータレイヤーは、すべてのデータソースを一貫したスキーマにクリーンアップ、マッピング、統合します。"
+              "description": "Sundae Core、私たちのデータレイヤーは、すべてのデータソースを一貫したスキーマにクリーンアップ、マッピング、統合します。"
             },
             {
               "step": "3",
@@ -8109,7 +8109,7 @@ export const generatedWebsiteMessageOverrides = {
             {
               "step": "2",
               "title": "정규화",
-              "description": "우리의 데이터 레이어인 Scout는 모든 데이터 소스를 정리하고, 매핑하며, 일관된 스키마로 통합합니다."
+              "description": "우리의 데이터 레이어인 Sundae Core는 모든 데이터 소스를 정리하고, 매핑하며, 일관된 스키마로 통합합니다."
             },
             {
               "step": "3",
@@ -8851,7 +8851,7 @@ export const generatedWebsiteMessageOverrides = {
             {
               "step": "2",
               "title": "Normalisasi",
-              "description": "Scout, lapisan data kami, membersihkan, memetakan, dan menyatukan setiap sumber data ke dalam skema yang konsisten."
+              "description": "Sundae Core, lapisan data kami, membersihkan, memetakan, dan menyatukan setiap sumber data ke dalam skema yang konsisten."
             },
             {
               "step": "3",
@@ -9593,7 +9593,7 @@ export const generatedWebsiteMessageOverrides = {
             {
               "step": "2",
               "title": "Chuẩn Hóa",
-              "description": "Scout, lớp dữ liệu của chúng tôi, làm sạch, lập bản đồ và hợp nhất mọi nguồn dữ liệu thành một sơ đồ nhất quán."
+              "description": "Sundae Core, lớp dữ liệu của chúng tôi, làm sạch, lập bản đồ và hợp nhất mọi nguồn dữ liệu thành một sơ đồ nhất quán."
             },
             {
               "step": "3",
@@ -10335,7 +10335,7 @@ export const generatedWebsiteMessageOverrides = {
             {
               "step": "2",
               "title": "Normalizează",
-              "description": "Scout, stratul nostru de date, curăță, mapează și unifică fiecare sursă de date într-un schema consistentă."
+              "description": "Sundae Core, stratul nostru de date, curăță, mapează și unifică fiecare sursă de date într-un schema consistentă."
             },
             {
               "step": "3",
@@ -11077,7 +11077,7 @@ export const generatedWebsiteMessageOverrides = {
             {
               "step": "2",
               "title": "Normalisera",
-              "description": "Scout, vårt datalager, rengör, kartlägger och enar varje datakälla till ett konsekvent schema."
+              "description": "Sundae Core, vårt datalager, rengör, kartlägger och enar varje datakälla till ett konsekvent schema."
             },
             {
               "step": "3",
@@ -11819,7 +11819,7 @@ export const generatedWebsiteMessageOverrides = {
             {
               "step": "2",
               "title": "স্বাভাবিকীকরণ",
-              "description": "Scout, আমাদের ডেটা স্তর, প্রতিটি ডেটা উৎসকে পরিষ্কার, মানচিত্র এবং একীভূত করে একটি সঙ্গতিপূর্ণ স্কিমায়।"
+              "description": "Sundae Core, আমাদের ডেটা স্তর, প্রতিটি ডেটা উৎসকে পরিষ্কার, মানচিত্র এবং একীভূত করে একটি সঙ্গতিপূর্ণ স্কিমায়।"
             },
             {
               "step": "3",
@@ -12561,7 +12561,7 @@ export const generatedWebsiteMessageOverrides = {
             {
               "step": "2",
               "title": "ปรับมาตรฐาน",
-              "description": "Scout เลเยอร์ข้อมูลของเรา ทำความสะอาด แผนที่ และรวมแหล่งข้อมูลทุกแหล่งเข้าด้วยกันในสคีมาที่สอดคล้องกัน"
+              "description": "Sundae Core เลเยอร์ข้อมูลของเรา ทำความสะอาด แผนที่ และรวมแหล่งข้อมูลทุกแหล่งเข้าด้วยกันในสคีมาที่สอดคล้องกัน"
             },
             {
               "step": "3",
@@ -13303,7 +13303,7 @@ export const generatedWebsiteMessageOverrides = {
             {
               "step": "2",
               "title": "Normalisasi",
-              "description": "Scout, lapisan data kami, membersihkan, memetakan, dan menyatukan setiap sumber data ke dalam skema yang konsisten."
+              "description": "Sundae Core, lapisan data kami, membersihkan, memetakan, dan menyatukan setiap sumber data ke dalam skema yang konsisten."
             },
             {
               "step": "3",
