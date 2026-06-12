@@ -15,6 +15,8 @@ import { watchtowerCreamCopy } from "../watchtowerCreamCopy";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_product_watchtower_page'
 import { generatedUiLabels } from "@/lib/generatedUiLabels";
+import { SectionConviction } from "@/components/home/sections/SectionConviction";
+import { watchtowerConviction } from "@/components/home/sections/routeConvictionCopy";
 
 const localizedWatchtowerCopy = {
   en: {
@@ -547,6 +549,9 @@ export default function WatchtowerPage() {
 
       {/* Cream relief - early warm break BEFORE the long dark feature stretch (the volume system) */}
       <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
+
+      {/* Conviction beat - belief before the feature volume */}
+      <SectionConviction {...(watchtowerConviction[locale as keyof typeof watchtowerConviction] ?? watchtowerConviction.en)} />
 
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-5xl mx-auto">

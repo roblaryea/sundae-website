@@ -12,6 +12,8 @@ import { CreamBreak } from "@/components/ui/CreamBreak";
 import { crossIntelligenceCreamCopy } from "../crossIntelligenceCreamCopy";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_product_cross_intelligence_page'
+import { SectionConviction } from '@/components/home/sections/SectionConviction'
+import { crossIntelligenceConviction } from '@/components/home/sections/routeConvictionCopy'
 
 // ─── Inline Mockups ─────────────────────────────────────────────────────────
 
@@ -1205,6 +1207,9 @@ export default function CrossIntelligencePage() {
 
       {/* Cream relief - early warm break BEFORE the long dark component-mockup stretch (the volume system) */}
       <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
+
+      {/* Conviction beat - belief before the feature volume */}
+      <SectionConviction {...(crossIntelligenceConviction[locale as keyof typeof crossIntelligenceConviction] ?? crossIntelligenceConviction.en)} />
 
       {/* Components */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">

@@ -13,6 +13,8 @@ import { CreamBreak } from "@/components/ui/CreamBreak";
 import { foresightCreamCopy } from "../foresightCreamCopy";
 import { getGeneratedLocalCopy } from '@/lib/generatedLocalCopy'
 import { generatedLocalCopy } from '@/generated-locales/app_product_foresight_page'
+import { SectionConviction } from '@/components/home/sections/SectionConviction'
+import { foresightConviction } from '@/components/home/sections/routeConvictionCopy'
 
 type ForesightMockupCopy = {
   timeline: {
@@ -607,6 +609,9 @@ export default function ForesightPage() {
 
       {/* Cream relief - early warm break BEFORE the long dark forecast-mockup stretch (the volume system) */}
       <CreamBreak eyebrow={cream.eyebrow} statement={cream.statement} lede={cream.lede} />
+
+      {/* Conviction beat - belief before the feature volume */}
+      <SectionConviction {...(foresightConviction[locale as keyof typeof foresightConviction] ?? foresightConviction.en)} />
 
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--surface-faint)]">
         <div className="max-w-5xl mx-auto">
