@@ -8,40 +8,42 @@ import { useWebsiteI18n } from '@/components/i18n/LocaleProvider';
 import { shiftMomentCopy } from './shiftMomentCopy';
 
 /**
- * SIGNATURE INTERACTION - "Watch the night turn".
+ * SIGNATURE INTERACTION - "Catch the night turning".
  *
- * The one screenshot-worthy moment: a scrubbable service-night timeline that
- * makes Sundae's whole thesis tangible. Drag from 5 PM to close; at 7:15 the
- * gap between forecast and actual covers opens up and Sundae surfaces THE
- * signal - the decision you can still act on. A toggle contrasts "the old way"
- * (you read it in tomorrow's report) with "with Sundae" (now, in time).
+ * A service night that PLAYS: the playhead advances from 5 PM to close, and at
+ * 7:15 the forecast-vs-actual gap opens. The two modes then tell genuinely
+ * different stories - "With Sundae" you got the signal at 7:15 and acted, so the
+ * actual line RECOVERS toward forecast; "The old way" you only read it in
+ * tomorrow's report, so the night stays behind. A "Projected close" readout
+ * makes the outcome difference explicit.
  *
- * It is the interactive proof of the manifesto + operator-voice copy, and an
- * ownable brand motif reused on the Pulse product page (where it is most
- * literally true). Deterministic story (no random noise), fully keyboard- and
+ * The visitor can also drag the scrubber at any time to step into the night
+ * themselves (drag pauses the autoplay). Deterministic story, keyboard- and
  * screen-reader-accessible (native range + aria-live), reduced-motion safe.
  */
 
-const SIGNAL_T = 135; // 7:15 PM, in minutes from 17:00
+const SIGNAL_T = 135; // 7:15 PM, minutes from 17:00
 const MAX_T = 360; // 11:00 PM
+const DURATION = 8500; // full-night autoplay, ms
 
-// Designed (not random) service-night curve: forecast vs actual covers/hr + labor%.
-const KF: { t: number; fc: number; ac: number; lab: number }[] = [
-  { t: 0, fc: 70, ac: 70, lab: 26 },
-  { t: 30, fc: 96, ac: 96, lab: 26 },
-  { t: 60, fc: 122, ac: 121, lab: 27 },
-  { t: 90, fc: 150, ac: 147, lab: 27 },
-  { t: 120, fc: 172, ac: 158, lab: 28 },
-  { t: 135, fc: 178, ac: 146, lab: 30 },
-  { t: 150, fc: 183, ac: 145, lab: 31 },
-  { t: 180, fc: 189, ac: 150, lab: 31 },
-  { t: 210, fc: 181, ac: 149, lab: 31 },
-  { t: 240, fc: 165, ac: 138, lab: 30 },
-  { t: 300, fc: 120, ac: 103, lab: 29 },
-  { t: 360, fc: 74, ac: 65, lab: 28 },
+// Designed (not random) night. acO = "old way" actual (stays behind after 7:15);
+// acS = "with Sundae" actual (recovers, because you acted on the 7:15 signal).
+const KF: { t: number; fc: number; acO: number; acS: number; labO: number; labS: number }[] = [
+  { t: 0, fc: 70, acO: 70, acS: 70, labO: 26, labS: 26 },
+  { t: 30, fc: 96, acO: 96, acS: 96, labO: 26, labS: 26 },
+  { t: 60, fc: 122, acO: 121, acS: 121, labO: 27, labS: 27 },
+  { t: 90, fc: 150, acO: 147, acS: 147, labO: 27, labS: 27 },
+  { t: 120, fc: 172, acO: 158, acS: 158, labO: 28, labS: 28 },
+  { t: 135, fc: 178, acO: 146, acS: 146, labO: 30, labS: 30 },
+  { t: 150, fc: 183, acO: 145, acS: 147, labO: 31, labS: 31 },
+  { t: 180, fc: 189, acO: 150, acS: 171, labO: 31, labS: 30 },
+  { t: 210, fc: 181, acO: 146, acS: 172, labO: 32, labS: 29 },
+  { t: 240, fc: 165, acO: 136, acS: 158, labO: 32, labS: 28.5 },
+  { t: 300, fc: 120, acO: 99, acS: 115, labO: 31, labS: 28 },
+  { t: 360, fc: 74, acO: 62, acS: 71, labO: 30, labS: 28 },
 ];
 
-type Frame = { fc: number; ac: number; lab: number };
+type Frame = { fc: number; acO: number; acS: number; labO: number; labS: number };
 
 function interp(t: number): Frame {
   const c = Math.max(0, Math.min(MAX_T, t));
@@ -50,14 +52,18 @@ function interp(t: number): Frame {
     const b = KF[i + 1];
     if (c >= a.t && c <= b.t) {
       const r = b.t === a.t ? 0 : (c - a.t) / (b.t - a.t);
+      const lerp = (x: number, y: number) => x + (y - x) * r;
       return {
-        fc: a.fc + (b.fc - a.fc) * r,
-        ac: a.ac + (b.ac - a.ac) * r,
-        lab: a.lab + (b.lab - a.lab) * r,
+        fc: lerp(a.fc, b.fc),
+        acO: lerp(a.acO, b.acO),
+        acS: lerp(a.acS, b.acS),
+        labO: lerp(a.labO, b.labO),
+        labS: lerp(a.labS, b.labS),
       };
     }
   }
-  return { fc: KF[KF.length - 1].fc, ac: KF[KF.length - 1].ac, lab: KF[KF.length - 1].lab };
+  const last = KF[KF.length - 1];
+  return { fc: last.fc, acO: last.acO, acS: last.acS, labO: last.labO, labS: last.labS };
 }
 
 function clock(t: number): string {
@@ -77,21 +83,20 @@ const VMAX = 200;
 const xOf = (t: number) => (t / MAX_T) * W;
 const yOf = (v: number) => H - 6 - ((v - VMIN) / (VMAX - VMIN)) * (H - 18);
 
-function linePath(key: 'fc' | 'ac', fromT: number, toT: number): string {
+function linePath(getV: (f: Frame) => number, fromT: number, toT: number): string {
   const pts: string[] = [];
   for (let t = fromT; t <= toT + 0.1; t += 5) {
-    const f = interp(t);
-    pts.push(`${xOf(t).toFixed(1)} ${yOf(f[key]).toFixed(1)}`);
+    pts.push(`${xOf(t).toFixed(1)} ${yOf(getV(interp(t))).toFixed(1)}`);
   }
   return 'M' + pts.join(' L ');
 }
 
-function gapPolygon(toT: number): string {
+function gapPolygon(getActual: (f: Frame) => number, toT: number): string {
   const fwd: string[] = [];
   const back: string[] = [];
   for (let t = 0; t <= toT + 0.1; t += 5) {
     const f = interp(t);
-    fwd.push(`${xOf(t).toFixed(1)} ${yOf(f.ac).toFixed(1)}`);
+    fwd.push(`${xOf(t).toFixed(1)} ${yOf(getActual(f)).toFixed(1)}`);
     back.unshift(`${xOf(t).toFixed(1)} ${yOf(f.fc).toFixed(1)}`);
   }
   return 'M' + fwd.join(' L ') + ' L ' + back.join(' L ') + ' Z';
@@ -100,50 +105,93 @@ function gapPolygon(toT: number): string {
 export function SectionShiftMoment({ embedded = false }: { embedded?: boolean }) {
   const { locale } = useWebsiteI18n();
   const copy = shiftMomentCopy[locale as keyof typeof shiftMomentCopy] ?? shiftMomentCopy.en;
+  const en = shiftMomentCopy.en;
   const reduce = useReducedMotion();
 
   const ref = useRef<HTMLDivElement>(null);
-  const inView = useInView(ref, { once: true, margin: '-80px' });
-  const [t, setT] = useState(SIGNAL_T);
+  const inView = useInView(ref, { once: true, margin: '-100px' });
+  const [t, setT] = useState(reduce ? SIGNAL_T : 0);
   const [mode, setMode] = useState<'sundae' | 'old'>('sundae');
-  const [touched, setTouched] = useState(false);
+  const [paused, setPaused] = useState(false);
+  // tRef holds the live playhead position for the rAF loop; it is mutated only
+  // in callbacks (the tick + scrub/replay handlers), never during render.
+  const tRef = useRef(t);
 
-  // Autoplay once into view: sweep from open to 7:15 so the gap "arrives", then
-  // hand control to the visitor. Reduced motion / already-touched: stay put.
+  // The night plays itself once in view. The loop runs only while not paused
+  // (paused is a dep), advancing the playhead and stopping at close. No ref
+  // writes or setState in the effect body - only inside the rAF callback.
   useEffect(() => {
-    if (!inView || reduce || touched) return;
+    if (!inView || reduce || paused) return;
     let raf = 0;
-    const start = performance.now();
-    const dur = 2000;
-    // First rAF frame seeds t≈0, then eases up to 7:15 (no synchronous setState in the effect body).
-    const step = (now: number) => {
-      const p = Math.min(1, (now - start) / dur);
-      const eased = 1 - Math.pow(1 - p, 3);
-      setT(Math.round((SIGNAL_T * eased) / 5) * 5);
-      if (p < 1) raf = requestAnimationFrame(step);
+    let last = 0;
+    const tick = (now: number) => {
+      if (!last) last = now;
+      const dt = now - last;
+      last = now;
+      const next = Math.min(MAX_T, tRef.current + dt * (MAX_T / DURATION));
+      tRef.current = next;
+      setT(next);
+      if (next >= MAX_T) {
+        setPaused(true);
+        return;
+      }
+      raf = requestAnimationFrame(tick);
     };
-    raf = requestAnimationFrame(step);
+    raf = requestAnimationFrame(tick);
     return () => cancelAnimationFrame(raf);
-  }, [inView, reduce, touched]);
+  }, [inView, reduce, paused]);
 
   const f = interp(t);
-  const pace = Math.round(((f.ac - f.fc) / f.fc) * 100);
+  const actual = mode === 'sundae' ? f.acS : f.acO;
+  const labor = mode === 'sundae' ? f.labS : f.labO;
+  const getActual = (fr: Frame) => (mode === 'sundae' ? fr.acS : fr.acO);
+  const getGhost = (fr: Frame) => (mode === 'sundae' ? fr.acO : fr.acS);
+  const pace = Math.round(((actual - f.fc) / f.fc) * 100);
   const behind = pace <= -4;
-  const laborHot = f.lab >= 29.5;
+  const laborHot = labor >= 29.5;
   const past715 = t >= SIGNAL_T;
+  const nearClose = t >= 240;
+  const atEnd = t >= MAX_T - 0.5;
+
+  // Explicit outcome: where the night lands for the current choice.
+  const closeF = interp(MAX_T);
+  const closePace = Math.round((((mode === 'sundae' ? closeF.acS : closeF.acO) - closeF.fc) / closeF.fc) * 100);
+  const closeGood = closePace >= -6;
 
   const onScrub = (v: number) => {
-    if (!touched) setTouched(true);
+    setPaused(true);
+    tRef.current = v;
     setT(v);
+  };
+  const togglePlay = () => {
+    if (atEnd) {
+      tRef.current = 0;
+      setT(0);
+      setPaused(false);
+    } else {
+      setPaused((p) => !p);
+    }
   };
 
   const dashboard = (
     <div className="px-4 py-4 sm:px-5 sm:py-5">
-      {/* Mode toggle */}
-      <div className="mb-4 flex items-center justify-between gap-3">
-        <span className="text-[10px] font-semibold uppercase tracking-[0.16em] text-[var(--text-muted)]">
-          {clock(t)}
-        </span>
+      {/* Header: clock + projected close + mode toggle */}
+      <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
+        <div className="flex items-center gap-2.5">
+          <span className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-muted)] tabular-nums">
+            {clock(t)}
+          </span>
+          <span
+            className="rounded-full px-2 py-0.5 text-[10px] font-semibold"
+            style={{
+              color: closeGood ? '#22C55E' : 'var(--accent-warm)',
+              background: closeGood ? 'rgba(34,197,94,0.12)' : 'rgba(255,92,77,0.12)',
+            }}
+          >
+            {copy.projectedClose ?? en.projectedClose} {closePace > 0 ? '+' : ''}
+            {closePace}%
+          </span>
+        </div>
         <div
           role="tablist"
           aria-label="View mode"
@@ -157,9 +205,7 @@ export function SectionShiftMoment({ embedded = false }: { embedded?: boolean })
               type="button"
               onClick={() => setMode(m)}
               className={`rounded-full px-3 py-1 transition-colors ${
-                mode === m
-                  ? 'bg-[var(--accent-warm)] text-white'
-                  : 'text-[var(--text-muted)] hover:text-[var(--text-primary)]'
+                mode === m ? 'bg-[var(--accent-warm)] text-white' : 'text-[var(--text-muted)] hover:text-[var(--text-primary)]'
               }`}
             >
               {m === 'sundae' ? copy.withSundae : copy.oldWay}
@@ -168,14 +214,11 @@ export function SectionShiftMoment({ embedded = false }: { embedded?: boolean })
         </div>
       </div>
 
-      {/* Metric row */}
+      {/* Metrics */}
       <div className="mb-4 grid grid-cols-3 gap-2.5">
         <div className="rounded-xl border border-[var(--border-default)] bg-[var(--surface-subtle)] px-3 py-2.5">
           <div className="text-[9px] font-semibold uppercase tracking-wider text-[var(--text-muted)]">{copy.paceLabel}</div>
-          <div
-            className="font-display text-xl font-bold tabular-nums sm:text-2xl"
-            style={{ color: behind ? 'var(--accent-warm)' : '#22C55E' }}
-          >
+          <div className="font-display text-xl font-bold tabular-nums sm:text-2xl" style={{ color: behind ? 'var(--accent-warm)' : '#22C55E' }}>
             {pace > 0 ? '+' : ''}
             {pace}%
           </div>
@@ -183,22 +226,19 @@ export function SectionShiftMoment({ embedded = false }: { embedded?: boolean })
         <div className="rounded-xl border border-[var(--border-default)] bg-[var(--surface-subtle)] px-3 py-2.5">
           <div className="text-[9px] font-semibold uppercase tracking-wider text-[var(--text-muted)]">{copy.coversLabel}</div>
           <div className="font-display text-xl font-bold tabular-nums text-[var(--text-primary)] sm:text-2xl">
-            {Math.round(f.ac)}
+            {Math.round(actual)}
             <span className="text-sm font-medium text-[var(--text-muted)]"> / {Math.round(f.fc)}</span>
           </div>
         </div>
         <div className="rounded-xl border border-[var(--border-default)] bg-[var(--surface-subtle)] px-3 py-2.5">
           <div className="text-[9px] font-semibold uppercase tracking-wider text-[var(--text-muted)]">{copy.laborLabel}</div>
-          <div
-            className="font-display text-xl font-bold tabular-nums sm:text-2xl"
-            style={{ color: laborHot ? '#FBBF24' : 'var(--text-primary)' }}
-          >
-            {f.lab.toFixed(1)}%
+          <div className="font-display text-xl font-bold tabular-nums sm:text-2xl" style={{ color: laborHot ? '#FBBF24' : '#22C55E' }}>
+            {labor.toFixed(1)}%
           </div>
         </div>
       </div>
 
-      {/* Forecast vs actual sparkline */}
+      {/* Sparkline: forecast vs actual, with the path-not-taken as a faint ghost */}
       <div className="relative mb-1 overflow-hidden rounded-xl border border-[var(--border-default)] bg-[var(--surface-faint)] p-3">
         <div className="mb-2 flex items-center gap-4 text-[10px] font-medium">
           <span className="inline-flex items-center gap-1.5 text-[var(--text-muted)]">
@@ -211,21 +251,21 @@ export function SectionShiftMoment({ embedded = false }: { embedded?: boolean })
           </span>
         </div>
         <svg viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none" className="h-24 w-full" aria-hidden>
-          {/* gap shading up to current time */}
-          <path d={gapPolygon(t)} fill="var(--accent-warm)" opacity={0.12} />
-          {/* forecast (dashed, muted, full) */}
-          <path d={linePath('fc', 0, MAX_T)} fill="none" stroke="var(--text-faint)" strokeWidth={1.5} strokeDasharray="3 3" />
-          {/* actual future (dim) */}
-          <path d={linePath('ac', 0, MAX_T)} fill="none" stroke="var(--accent-warm)" strokeWidth={1.5} opacity={0.28} />
-          {/* actual past (bright, revealed up to t) */}
-          <path d={linePath('ac', 0, t)} fill="none" stroke="var(--accent-warm)" strokeWidth={2.4} strokeLinecap="round" strokeLinejoin="round" />
-          {/* 7:15 marker pip on the axis */}
+          <path d={gapPolygon(getActual, t)} fill="var(--accent-warm)" opacity={0.12} />
+          {/* forecast target (dashed) */}
+          <path d={linePath((fr) => fr.fc, 0, MAX_T)} fill="none" stroke="var(--text-faint)" strokeWidth={1.5} strokeDasharray="3 3" />
+          {/* the path not taken (other mode), faint */}
+          <path d={linePath(getGhost, 0, MAX_T)} fill="none" stroke="var(--text-muted)" strokeWidth={1.25} strokeDasharray="1 4" opacity={0.5} />
+          {/* current-mode actual: future dim, past bright */}
+          <path d={linePath(getActual, 0, MAX_T)} fill="none" stroke="var(--accent-warm)" strokeWidth={1.5} opacity={0.28} />
+          <path d={linePath(getActual, 0, t)} fill="none" stroke="var(--accent-warm)" strokeWidth={2.4} strokeLinecap="round" strokeLinejoin="round" />
+          {/* 7:15 marker */}
           <line x1={xOf(SIGNAL_T)} y1={0} x2={xOf(SIGNAL_T)} y2={H} stroke="var(--accent-warm)" strokeWidth={0.75} strokeDasharray="2 3" opacity={0.5} />
-          {/* current-time marker */}
+          {/* playhead */}
           <line x1={xOf(t)} y1={0} x2={xOf(t)} y2={H} stroke="var(--text-secondary)" strokeWidth={0.75} opacity={0.5} />
-          <circle cx={xOf(t)} cy={yOf(f.ac)} r={3.5} fill="var(--accent-warm)" />
-          {past715 && (
-            <circle cx={xOf(t)} cy={yOf(f.ac)} r={3.5} fill="none" stroke="var(--accent-warm)" strokeWidth={1}>
+          <circle cx={xOf(t)} cy={yOf(actual)} r={3.5} fill="var(--accent-warm)" />
+          {past715 && !atEnd && (
+            <circle cx={xOf(t)} cy={yOf(actual)} r={3.5} fill="none" stroke="var(--accent-warm)" strokeWidth={1}>
               <animate attributeName="r" from="3.5" to="9" dur="1.4s" repeatCount="indefinite" />
               <animate attributeName="opacity" from="0.7" to="0" dur="1.4s" repeatCount="indefinite" />
             </circle>
@@ -233,36 +273,63 @@ export function SectionShiftMoment({ embedded = false }: { embedded?: boolean })
         </svg>
       </div>
 
-      {/* Scrubber */}
-      <div className="mt-3">
-        <input
-          type="range"
-          min={0}
-          max={MAX_T}
-          step={5}
-          value={t}
-          onChange={(e) => onScrub(Number(e.target.value))}
-          aria-label={copy.scrubAria}
-          aria-valuetext={clock(t)}
-          className="h-1.5 w-full cursor-pointer appearance-none rounded-full bg-[var(--surface-emphasis)] accent-[#FF5C4D]"
-          style={{ accentColor: '#FF5C4D' }}
-        />
-        <div className="mt-1.5 flex items-center justify-between text-[10px] font-medium text-[var(--text-faint)]">
-          <span>5 PM</span>
-          <span style={{ color: 'var(--accent-warm)' }}>7:15</span>
-          <span>Close</span>
+      {/* Transport: play / pause / replay + scrubber (drag to step in any time) */}
+      <div className="mt-3 flex items-center gap-3">
+        {!reduce && (
+          <button
+            type="button"
+            onClick={togglePlay}
+            aria-label={atEnd ? 'Replay the night' : paused ? 'Play the night' : 'Pause'}
+            className="inline-flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full text-white transition-transform hover:scale-105"
+            style={{ background: 'var(--accent-warm)' }}
+          >
+            {atEnd ? (
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M3 12a9 9 0 1 0 3-6.7L3 8" />
+                <path d="M3 3v5h5" />
+              </svg>
+            ) : paused ? (
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M8 5v14l11-7z" />
+              </svg>
+            ) : (
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                <rect x="6" y="5" width="4" height="14" rx="1" />
+                <rect x="14" y="5" width="4" height="14" rx="1" />
+              </svg>
+            )}
+          </button>
+        )}
+        <div className="flex-1">
+          <input
+            type="range"
+            min={0}
+            max={MAX_T}
+            step={5}
+            value={Math.round(t)}
+            onChange={(e) => onScrub(Number(e.target.value))}
+            aria-label={copy.scrubAria}
+            aria-valuetext={clock(t)}
+            className="h-1.5 w-full cursor-pointer appearance-none rounded-full bg-[var(--surface-emphasis)]"
+            style={{ accentColor: '#FF5C4D' }}
+          />
+          <div className="mt-1.5 flex items-center justify-between text-[10px] font-medium text-[var(--text-faint)]">
+            <span>5 PM</span>
+            <span style={{ color: 'var(--accent-warm)' }}>7:15</span>
+            <span>Close</span>
+          </div>
         </div>
       </div>
 
-      {/* The decision card - the payoff */}
-      <div className="mt-4 min-h-[92px]" aria-live="polite">
+      {/* The decision card - the payoff, switching on time + mode */}
+      <div className="mt-4 min-h-[96px]" aria-live="polite">
         {!past715 ? (
           <div className="rounded-xl border border-[var(--border-default)] bg-[var(--surface-subtle)] px-4 py-3 text-sm text-[var(--text-muted)]">
             {copy.preSignal}
           </div>
         ) : mode === 'sundae' ? (
           <motion.div
-            key="sundae"
+            key={nearClose ? 'saved' : 'signal'}
             initial={{ opacity: 0, y: 8 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.35 }}
@@ -270,13 +337,13 @@ export function SectionShiftMoment({ embedded = false }: { embedded?: boolean })
             style={{ borderColor: 'rgba(255,92,77,0.4)', background: 'rgba(255,92,77,0.08)' }}
           >
             <div className="mb-1 flex items-center gap-2">
-              <span className="inline-block h-2 w-2 rounded-full" style={{ background: 'var(--accent-warm)' }} />
-              <span className="text-[11px] font-bold uppercase tracking-[0.14em]" style={{ color: 'var(--accent-warm)' }}>
-                {copy.signalTitle}
+              <span className="inline-block h-2 w-2 rounded-full" style={{ background: nearClose ? '#22C55E' : 'var(--accent-warm)' }} />
+              <span className="text-[11px] font-bold uppercase tracking-[0.14em]" style={{ color: nearClose ? '#22C55E' : 'var(--accent-warm)' }}>
+                {nearClose ? (copy.savedTitle ?? en.savedTitle) : copy.signalTitle}
               </span>
             </div>
-            <p className="text-sm leading-snug text-[var(--text-secondary)]">{copy.signalBody}</p>
-            <p className="mt-1.5 text-sm font-semibold text-[var(--text-primary)]">{copy.signalAction}</p>
+            <p className="text-sm leading-snug text-[var(--text-secondary)]">{nearClose ? (copy.savedBody ?? en.savedBody) : copy.signalBody}</p>
+            {!nearClose && <p className="mt-1.5 text-sm font-semibold text-[var(--text-primary)]">{copy.signalAction}</p>}
           </motion.div>
         ) : (
           <motion.div
