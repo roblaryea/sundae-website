@@ -13,11 +13,11 @@ export const generatedLocalCopy = {
       "journeyDescription": "من المقارنة المرجعية المجانية إلى ذكاء المؤسسات",
       "steps": [
         {
-          "title": "Start Free (Report Lite)",
-          "subtitle": "إثبات القيمة. لا تدفع شيئا.",
-          "description": "قم بتحميل بيانات POS الخاصة بك واحصل على قياس أداء فوري. لا حاجة لبطاقة الائتمان. تعرف على موقعك أمام المطاعم المماثلة في غضون دقائق.",
+          "title": "ابدأ مجانًا (Report Lite)",
+          "subtitle": "أثبت القيمة. لا تدفع شيئًا.",
+          "description": "قم بتحميل بيانات POS الخاصة بك واحصل على قياس أداء فوري. لا حاجة لبطاقة ائتمان. تعرّف على موقعك أمام المطاعم المماثلة في غضون دقائق.",
           "actions": [
-            "Upload POS data (CSV format)",
+            "تحميل بيانات POS (تنسيق CSV)",
             "معيار فوري ضد أقرانه",
             "تحديد أفضل 3 فرص",
             "بناء حالة عمل داخلية"
@@ -46,15 +46,15 @@ export const generatedLocalCopy = {
         },
         {
           "title": "قرر مسار الترقية",
-          "subtitle": "Report Plus/Pro or Core?",
+          "subtitle": "Report Plus/Pro أم Core؟",
           "description": "بمجرد إثبات القيمة باستخدام Report Lite، اختر مسار الترقية بناءً على احتياجات السرعة والعمق.",
           "actions": [
-            "Need intelligent insights? → Report Plus/Pro",
-            "هل تحتاج إلى سرعة التشغيل؟ → الأساسية",
-            "Daily reports sufficient? → Report Plus/Pro",
-            "10+ مواقع؟ → الأساسية"
+            "بحاجة إلى رؤى ذكية؟ → Report Plus/Pro",
+            "بحاجة إلى سرعة تشغيلية؟ → Core",
+            "تكفيك التقارير اليومية؟ → Report Plus/Pro",
+            "أكثر من 10 مواقع؟ → Core"
           ],
-          "timeline": "Report Plus/Pro: 1-2 days | Core: 1-2 weeks",
+          "timeline": "Report Plus/Pro: 1-2 يوم | Core: 1-2 أسبوع",
           "cta": "قارن الخيارات",
           "ctaLink": "/report-vs-core",
           "icon": "balance",
@@ -100,7 +100,7 @@ export const generatedLocalCopy = {
           "actions": [
             "تردد التحديث المخصص",
             "أرصدة ولوحات معلومات غير محدودة",
-            "البطاقة البيضاء والتسجيل الموحّد (SSO).",
+            "العلامة البيضاء والتسجيل الموحّد (SSO)",
             "مدير نجاح العملاء المخصص",
             "دعم على مدار 24 ساعة طوال أيام الأسبوع مع اتفاقيات مستوى الخدمة المخصصة"
           ],
@@ -111,7 +111,7 @@ export const generatedLocalCopy = {
           "color": "from-[#E9A24A] to-[#FF5C4D]"
         }
       ],
-      "noForcedTitle": "لا الجداول الزمنية القسرية",
+      "noForcedTitle": "لا جداول زمنية إجبارية",
       "noForcedDescription": "ابدأ بالReport Lite اليوم. الترقية إلى Report Plus/Pro الشهر المقبل. أضف النواة في Q3. التوسع إلى المؤسسة في الربع الرابع. يمكنك التحكم في الوتيرة بناءً على أولوياتك وميزانيتك.",
       "commonJourneysTitle": "الرحلات المشتركة",
       "commonJourneysDescription": "كيف يتقدم المشغلون عادةً من خلال Sundae؟",
@@ -173,7 +173,7 @@ export const generatedLocalCopy = {
       "cards": [
         {
           "title": "ابدأ مجانًا",
-          "description": "Report Lite, no credit card",
+          "description": "Report Lite، بدون بطاقة ائتمان",
           "button": "ابدأ مجانًا →",
           "icon": "report",
           "color": "bg-green-600",
@@ -187,9 +187,9 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "التحدث إلى خبير",
+          "title": "تحدث إلى خبير",
           "description": "توصيات مخصصة",
-          "button": "عرض الكتاب →",
+          "button": "احجز عرضًا توضيحيًا →",
           "icon": "conversation",
           "color": "bg-[#FF5C4D]",
           "href": "/demo"
@@ -203,7 +203,7 @@ export const generatedLocalCopy = {
       "supporting": "La plupart des opérateurs commencent avec Report Lite (gratuit pour toujours), prouvent la valeur, puis se développent. Vous contrôlez la chronologie.",
       "startFree": "Commencez gratuitement",
       "calculatePath": "Calculez votre chemin",
-      "journeyTitle": "Le voyage du Sundae : 6 étapes",
+      "journeyTitle": "Votre parcours Sundae : 6 étapes",
       "journeyDescription": "Du benchmarking gratuit à l'intelligence d'entreprise",
       "steps": [
         {
@@ -243,12 +243,12 @@ export const generatedLocalCopy = {
           "subtitle": "Report Plus/Pro or Core?",
           "description": "Une fois que vous avez prouvé la valeur de Report Lite, choisissez votre chemin de mise à niveau en fonction des besoins en termes de vitesse et de profondeur.",
           "actions": [
-            "Need intelligent insights? → Report Plus/Pro",
-            "Besoin de rapidité opérationnelle ? → Noyau",
-            "Daily reports sufficient? → Report Plus/Pro",
-            "Plus de 10 emplacements ? → Noyau"
+            "Besoin d'insights intelligents ? → Report Plus/Pro",
+            "Besoin de rapidité opérationnelle ? → Core",
+            "Les rapports quotidiens suffisent ? → Report Plus/Pro",
+            "Plus de 10 emplacements ? → Core"
           ],
-          "timeline": "Report Plus/Pro: 1-2 days | Core: 1-2 weeks",
+          "timeline": "Report Plus/Pro : 1-2 jours | Core : 1-2 semaines",
           "cta": "Comparer les options",
           "ctaLink": "/report-vs-core",
           "icon": "balance",
@@ -282,7 +282,7 @@ export const generatedLocalCopy = {
             "Veille stratégique du marché"
           ],
           "timeline": "1 semaine de configuration",
-          "cta": "Learn About Watchtower",
+          "cta": "En savoir plus sur Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
           "color": "from-[#FF6B5B] to-[#E03E48]"
@@ -333,7 +333,7 @@ export const generatedLocalCopy = {
           "icon": "growth",
           "items": [
             "Commencez par le niveau Entreprise",
-            "Full module suite + Watchtower",
+            "Suite complète de modules + Watchtower",
             "Intégrations personnalisées et marque blanche"
           ]
         }
@@ -383,7 +383,7 @@ export const generatedLocalCopy = {
         {
           "title": "Parlez à un expert",
           "description": "Recommandations personnalisées",
-          "button": "Livre Démo →",
+          "button": "Réserver une démo →",
           "icon": "conversation",
           "color": "bg-[#FF5C4D]",
           "href": "/demo"
@@ -397,7 +397,7 @@ export const generatedLocalCopy = {
       "supporting": "La mayoría de los operadores comienzan con Report Lite (gratis para siempre), prueban su valor y luego lo amplían. Tú controlas la línea de tiempo.",
       "startFree": "Comience gratis",
       "calculatePath": "Calcula tu camino",
-      "journeyTitle": "The Sundae Journey: 6 Steps",
+      "journeyTitle": "El recorrido Sundae: 6 pasos",
       "journeyDescription": "Del benchmarking gratuito a la inteligencia empresarial",
       "steps": [
         {
@@ -437,12 +437,12 @@ export const generatedLocalCopy = {
           "subtitle": "Report Plus/Pro or Core?",
           "description": "Una vez que haya demostrado el valor de Report Lite, elija su ruta de actualización según las necesidades de velocidad y profundidad.",
           "actions": [
-            "Need intelligent insights? → Report Plus/Pro",
-            "¿Necesita velocidad operativa? → Núcleo",
-            "Daily reports sufficient? → Report Plus/Pro",
-            "¿Más de 10 ubicaciones? → Núcleo"
+            "¿Necesita insights inteligentes? → Report Plus/Pro",
+            "¿Necesita velocidad operativa? → Core",
+            "¿Le bastan los informes diarios? → Report Plus/Pro",
+            "¿Más de 10 ubicaciones? → Core"
           ],
-          "timeline": "Report Plus/Pro: 1-2 days | Core: 1-2 weeks",
+          "timeline": "Report Plus/Pro: 1-2 días | Core: 1-2 semanas",
           "cta": "Comparar opciones",
           "ctaLink": "/report-vs-core",
           "icon": "balance",
@@ -595,7 +595,7 @@ export const generatedLocalCopy = {
       "journeyDescription": "Van gratis benchmarking tot enterprise intelligence",
       "steps": [
         {
-          "title": "Start Free (Report Lite)",
+          "title": "Begin gratis (Report Lite)",
           "subtitle": "Bewijs de waarde. Betaal niets.",
           "description": "Upload uw POS-gegevens en krijg direct benchmarking. Geen creditcard vereist. Zie binnen enkele minuten waar u staat ten opzichte van vergelijkbare restaurants.",
           "actions": [
@@ -620,7 +620,7 @@ export const generatedLocalCopy = {
             "Identificeer margemogelijkheden",
             "Deel inzichten met leiderschap"
           ],
-          "timeline": "1-2 weken om de behuizing op te bouwen",
+          "timeline": "1-2 weken om de business case op te bouwen",
           "cta": "Meer informatie over rapport",
           "ctaLink": "/report",
           "icon": "benchmarking",
@@ -631,12 +631,12 @@ export const generatedLocalCopy = {
           "subtitle": "Report Plus/Pro or Core?",
           "description": "Zodra u de waarde van Report Lite heeft bewezen, kiest u uw upgradepad op basis van uw snelheids- en diepgangsbehoeften.",
           "actions": [
-            "Need intelligent insights? → Report Plus/Pro",
-            "Operationele snelheid nodig? → Kern",
-            "Daily reports sufficient? → Report Plus/Pro",
-            "10+ locaties? → Kern"
+            "Slimme inzichten nodig? → Report Plus/Pro",
+            "Operationele snelheid nodig? → Core",
+            "Zijn dagelijkse rapporten voldoende? → Report Plus/Pro",
+            "10+ locaties? → Core"
           ],
-          "timeline": "Report Plus/Pro: 1-2 days | Core: 1-2 weeks",
+          "timeline": "Report Plus/Pro: 1-2 dagen | Core: 1-2 weken",
           "cta": "Vergelijk opties",
           "ctaLink": "/report-vs-core",
           "icon": "balance",
@@ -669,8 +669,8 @@ export const generatedLocalCopy = {
             "Voorspel de vraag op basis van weer/gebeurtenissen",
             "Strategische marktinformatie"
           ],
-          "timeline": "1 week opstelling",
-          "cta": "Learn About Watchtower",
+          "timeline": "1 week installatie",
+          "cta": "Meer over Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
           "color": "from-[#FF6B5B] to-[#E03E48]"
@@ -721,7 +721,7 @@ export const generatedLocalCopy = {
           "icon": "growth",
           "items": [
             "Begin met de Enterprise-laag",
-            "Full module suite + Watchtower",
+            "Volledige modulesuite + Watchtower",
             "Aangepaste integraties en white-label"
           ]
         }
@@ -737,7 +737,7 @@ export const generatedLocalCopy = {
         {
           "tier": "Report Plus/Pro",
           "time": "1-2 dagen",
-          "description": "Installatie en integratie van parseren"
+          "description": "Setup en integratie van de analyse"
         },
         {
           "tier": "Core Lite/Pro",
@@ -755,7 +755,7 @@ export const generatedLocalCopy = {
       "cards": [
         {
           "title": "Begin gratis",
-          "description": "Report Lite, no credit card",
+          "description": "Report Lite, geen creditcard",
           "button": "Begin gratis →",
           "icon": "report",
           "color": "bg-green-600",
@@ -769,9 +769,9 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Praat met een deskundige",
+          "title": "Praat met een expert",
           "description": "Aangepaste aanbevelingen",
-          "button": "Boekdemo →",
+          "button": "Demo boeken →",
           "icon": "conversation",
           "color": "bg-[#FF5C4D]",
           "href": "/demo"
@@ -789,7 +789,7 @@ export const generatedLocalCopy = {
       "journeyDescription": "Do benchmarking gratuito à inteligência empresarial",
       "steps": [
         {
-          "title": "Start Free (Report Lite)",
+          "title": "Comece grátis (Report Lite)",
           "subtitle": "Prove o valor. Não pague nada.",
           "description": "Carregue seus dados de POS e obtenha benchmarking instantâneo. Não é necessário cartão de crédito. Veja sua posição em relação a restaurantes semelhantes em poucos minutos.",
           "actions": [
@@ -825,12 +825,12 @@ export const generatedLocalCopy = {
           "subtitle": "Report Plus/Pro or Core?",
           "description": "Depois de comprovar o valor do Report Lite, escolha o caminho de atualização com base nas necessidades de velocidade e profundidade.",
           "actions": [
-            "Need intelligent insights? → Report Plus/Pro",
-            "Precisa de velocidade operacional? → Núcleo",
-            "Daily reports sufficient? → Report Plus/Pro",
-            "Mais de 10 locais? → Núcleo"
+            "Precisa de insights inteligentes? → Report Plus/Pro",
+            "Precisa de velocidade operacional? → Core",
+            "Relatórios diários são suficientes? → Report Plus/Pro",
+            "Mais de 10 locais? → Core"
           ],
-          "timeline": "Report Plus/Pro: 1-2 days | Core: 1-2 weeks",
+          "timeline": "Report Plus/Pro: 1-2 dias | Core: 1-2 semanas",
           "cta": "Comparar opções",
           "ctaLink": "/report-vs-core",
           "icon": "balance",
@@ -965,7 +965,7 @@ export const generatedLocalCopy = {
         {
           "title": "Fale com um especialista",
           "description": "Recomendações personalizadas",
-          "button": "Demonstração do livro →",
+          "button": "Agendar demonstração →",
           "icon": "conversation",
           "color": "bg-[#FF5C4D]",
           "href": "/demo"
@@ -973,13 +973,13 @@ export const generatedLocalCopy = {
       ]
     },
     "de": {
-      "badge": "Leitfaden „Erste Schritte“.",
+      "badge": "Leitfaden für die ersten Schritte",
       "title": "Ihre Reise mit Sundae",
       "description": "Sechs Schritte vom kostenlosen Benchmarking bis zur vollständigen Operational Intelligence. Fangen Sie klein an und skalieren Sie in Ihrem Tempo.",
       "supporting": "Die meisten Betreiber beginnen mit Report Lite (für immer kostenlos), beweisen den Wert und erweitern dann. Sie steuern die Zeitachse.",
       "startFree": "Kostenlos starten",
       "calculatePath": "Berechnen Sie Ihren Weg",
-      "journeyTitle": "The Sundae Journey: 6 Steps",
+      "journeyTitle": "Die Sundae-Reise: 6 Schritte",
       "journeyDescription": "Vom kostenlosen Benchmarking bis zur Enterprise Intelligence",
       "steps": [
         {
@@ -1008,7 +1008,7 @@ export const generatedLocalCopy = {
             "Identifizieren Sie Margenmöglichkeiten",
             "Teilen Sie Erkenntnisse mit der Führung"
           ],
-          "timeline": "1-2 Wochen, um das Gehäuse aufzubauen",
+          "timeline": "1-2 Wochen für den Business Case",
           "cta": "Erfahren Sie mehr über den Bericht",
           "ctaLink": "/report",
           "icon": "benchmarking",
@@ -1019,12 +1019,12 @@ export const generatedLocalCopy = {
           "subtitle": "Report Plus/Pro or Core?",
           "description": "Sobald Sie den Nutzen von Report Lite unter Beweis gestellt haben, wählen Sie Ihren Upgrade-Pfad basierend auf den Geschwindigkeits- und Tiefenanforderungen.",
           "actions": [
-            "Need intelligent insights? → Report Plus/Pro",
-            "Benötigen Sie Betriebsgeschwindigkeit? → Kern",
-            "Daily reports sufficient? → Report Plus/Pro",
-            "10+ Standorte? → Kern"
+            "Brauchen Sie intelligente Insights? → Report Plus/Pro",
+            "Benötigen Sie Betriebsgeschwindigkeit? → Core",
+            "Reichen tägliche Berichte aus? → Report Plus/Pro",
+            "10+ Standorte? → Core"
           ],
-          "timeline": "Report Plus/Pro: 1-2 Tage | Kern: 1-2 Wochen",
+          "timeline": "Report Plus/Pro: 1-2 Tage | Core: 1-2 Wochen",
           "cta": "Vergleichen Sie Optionen",
           "ctaLink": "/report-vs-core",
           "icon": "balance",
@@ -1177,8 +1177,8 @@ export const generatedLocalCopy = {
       "journeyDescription": "مفت بینچ مارکنگ سے لے کر انٹرپرائز انٹیلی جنس تک",
       "steps": [
         {
-          "title": "Start Free (Report Lite)",
-          "subtitle": "قدر ثابت کریں۔ کچھ بھی نہیں دینا۔",
+          "title": "مفت شروع کریں (Report Lite)",
+          "subtitle": "قدر ثابت کریں۔ کچھ ادا نہ کریں۔",
           "description": "اپنا POS ڈیٹا اپ لوڈ کریں اور فوری بینچ مارکنگ حاصل کریں۔ کریڈٹ کارڈ کی ضرورت نہیں ہے۔ منٹوں میں دیکھیں کہ آپ ملتے جلتے ریستوراں کے خلاف کہاں کھڑے ہیں۔",
           "actions": [
             "POS ڈیٹا اپ لوڈ کریں (CSV فارمیٹ)",
@@ -1213,12 +1213,12 @@ export const generatedLocalCopy = {
           "subtitle": "Report Plus/Pro or Core?",
           "description": "Report Lite کے ساتھ قدر ثابت کرنے کے بعد، رفتار اور گہرائی کی ضروریات کی بنیاد پر اپ گریڈ کا راستہ منتخب کریں۔",
           "actions": [
-            "Need intelligent insights? → Report Plus/Pro",
-            "آپریشنل رفتار کی ضرورت ہے؟ → کور",
-            "Daily reports sufficient? → Report Plus/Pro",
-            "10+ مقامات؟ → کور"
+            "ذہین بصیرت درکار ہے؟ → Report Plus/Pro",
+            "آپریشنل رفتار کی ضرورت ہے؟ → Core",
+            "روزانہ رپورٹس کافی ہیں؟ → Report Plus/Pro",
+            "10+ مقامات؟ → Core"
           ],
-          "timeline": "Report Plus/Pro: 1-2 days | Core: 1-2 weeks",
+          "timeline": "Report Plus/Pro: 1-2 دن | Core: 1-2 ہفتے",
           "cta": "آپشنز کا موازنہ کریں۔",
           "ctaLink": "/report-vs-core",
           "icon": "balance",
@@ -1276,7 +1276,7 @@ export const generatedLocalCopy = {
         }
       ],
       "noForcedTitle": "کوئی زبردستی ٹائم لائنز نہیں۔",
-      "noForcedDescription": "آج ہی Report Lite کے ساتھ شروع کریں۔ اگلے مہینے Report Plus/پرو میں اپ گریڈ کریں۔ Q3 میں کور شامل کریں۔ Q4 میں انٹرپرائز تک پیمانہ۔ آپ اپنی ترجیحات اور بجٹ کی بنیاد پر رفتار کو کنٹرول کرتے ہیں۔",
+      "noForcedDescription": "آج ہی Report Lite کے ساتھ شروع کریں۔ اگلے مہینے Report Plus/Pro میں اپ گریڈ کریں۔ Q3 میں Core شامل کریں۔ Q4 میں انٹرپرائز تک پیمانہ کریں۔ آپ اپنی ترجیحات اور بجٹ کی بنیاد پر رفتار کو کنٹرول کرتے ہیں۔",
       "commonJourneysTitle": "عام سفر",
       "commonJourneysDescription": "آپریٹرز عام طور پر Sundae کے ذریعے کیسے ترقی کرتے ہیں؟",
       "journeys": [
@@ -1284,9 +1284,9 @@ export const generatedLocalCopy = {
           "title": "1-5 لوکیشن آپریٹر",
           "icon": "labor",
           "items": [
-            "Start with Report Lite (free)",
-            "Upgrade to Report Plus for deeper insights",
-            "10+ مقامات پر اسکیل کرتے وقت کور پر غور کریں۔"
+            "Report Lite کے ساتھ شروع کریں (مفت)",
+            "گہری بصیرت کے لیے Report Plus میں اپ گریڈ کریں",
+            "10+ مقامات پر اسکیل کرتے وقت Core پر غور کریں"
           ]
         },
         {
@@ -1337,7 +1337,7 @@ export const generatedLocalCopy = {
       "cards": [
         {
           "title": "مفت شروع کریں۔",
-          "description": "Report Lite, no credit card",
+          "description": "Report Lite، کوئی کریڈٹ کارڈ نہیں",
           "button": "مفت شروع کریں →",
           "icon": "report",
           "color": "bg-green-600",
@@ -1353,7 +1353,7 @@ export const generatedLocalCopy = {
         {
           "title": "کسی ماہر سے بات کریں۔",
           "description": "اپنی مرضی کے مطابق سفارشات",
-          "button": "بک ڈیمو →",
+          "button": "ڈیمو بُک کریں →",
           "icon": "conversation",
           "color": "bg-[#FF5C4D]",
           "href": "/demo"
@@ -1371,7 +1371,7 @@ export const generatedLocalCopy = {
       "journeyDescription": "从免费基准测试到企业智能",
       "steps": [
         {
-          "title": "Start Free (Report Lite)",
+          "title": "免费开始（Report Lite）",
           "subtitle": "证明价值。无需支付任何费用。",
           "description": "上传您的 POS 数据并获得即时基准测试。无需信用卡。几分钟内即可了解您与类似餐厅的对比情况。",
           "actions": [
@@ -1407,12 +1407,12 @@ export const generatedLocalCopy = {
           "subtitle": "Report Plus/Pro or Core?",
           "description": "一旦您证明了 Report Lite 的价值，就可以根据速度和深度需求选择升级路径。",
           "actions": [
-            "Need intelligent insights? → Report Plus/Pro",
-            "需要运行速度吗？ → 核心",
-            "Daily reports sufficient? → Report Plus/Pro",
-            "10 多个地点？ → 核心"
+            "需要智能洞察？ → Report Plus/Pro",
+            "需要运营速度？ → Core",
+            "每日报告就够用？ → Report Plus/Pro",
+            "10 多个地点？ → Core"
           ],
-          "timeline": "Report Plus/Pro: 1-2 days | Core: 1-2 weeks",
+          "timeline": "Report Plus/Pro：1-2 天 | Core：1-2 周",
           "cta": "比较选项",
           "ctaLink": "/report-vs-core",
           "icon": "balance",
@@ -1446,7 +1446,7 @@ export const generatedLocalCopy = {
             "战略市场情报"
           ],
           "timeline": "1周设置",
-          "cta": "Learn About Watchtower",
+          "cta": "了解 Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
           "color": "from-[#FF6B5B] to-[#E03E48]"
@@ -1470,7 +1470,7 @@ export const generatedLocalCopy = {
         }
       ],
       "noForcedTitle": "无强制时间表",
-      "noForcedDescription": "立即开始使用 Report Lite。下个月升级到 Report Plus/Pro。在第三季度添加核心。第 4 季度扩展到企业级。您可以根据自己的优先事项和预算来控制节奏。",
+      "noForcedDescription": "立即开始使用 Report Lite。下个月升级到 Report Plus/Pro。在第三季度添加 Core。第四季度扩展到企业级。您可以根据自己的优先事项和预算来控制节奏。",
       "commonJourneysTitle": "共同的旅程",
       "commonJourneysDescription": "运营商通常如何通过Sundae取得进展？",
       "journeys": [
@@ -1480,7 +1480,7 @@ export const generatedLocalCopy = {
           "items": [
             "从 Report Lite 开始（免费）",
             "升级到 Report Plus 以获得更深入的见解",
-            "扩展到 10 个以上位置时考虑核心"
+            "扩展到 10 个以上位置时考虑 Core"
           ]
         },
         {
@@ -1497,7 +1497,7 @@ export const generatedLocalCopy = {
           "icon": "growth",
           "items": [
             "从企业级开始",
-            "Full module suite + Watchtower",
+            "完整模块套件 + Watchtower",
             "定制集成和白标"
           ]
         }
@@ -1565,7 +1565,7 @@ export const generatedLocalCopy = {
       "journeyDescription": "मुफ़्त बेंचमार्किंग से लेकर एंटरप्राइज़ इंटेलिजेंस तक",
       "steps": [
         {
-          "title": "Start Free (Report Lite)",
+          "title": "निःशुल्क प्रारंभ करें (Report Lite)",
           "subtitle": "मूल्य सिद्ध करें. कुछ भी भुगतान न करें.",
           "description": "अपना POS डेटा अपलोड करें और तुरंत बेंचमार्किंग प्राप्त करें। किसी क्रेडिट कार्ड की आवश्यकता नहीं. मिनटों में देखें कि आप समान रेस्तरां के सामने कहां खड़े हैं।",
           "actions": [
@@ -1601,12 +1601,12 @@ export const generatedLocalCopy = {
           "subtitle": "Report Plus/Pro or Core?",
           "description": "एक बार जब आप Report Lite के साथ मूल्य साबित कर लें, तो गति और गहराई की जरूरतों के आधार पर अपना अपग्रेड पथ चुनें।",
           "actions": [
-            "Need intelligent insights? → Report Plus/Pro",
-            "परिचालन गति की आवश्यकता है? → कोर",
-            "Daily reports sufficient? → Report Plus/Pro",
-            "10+ स्थान? → कोर"
+            "बुद्धिमान अंतर्दृष्टि चाहिए? → Report Plus/Pro",
+            "परिचालन गति की आवश्यकता है? → Core",
+            "दैनिक रिपोर्ट पर्याप्त हैं? → Report Plus/Pro",
+            "10+ स्थान? → Core"
           ],
-          "timeline": "Report Plus/Pro: 1-2 days | Core: 1-2 weeks",
+          "timeline": "Report Plus/Pro: 1-2 दिन | Core: 1-2 सप्ताह",
           "cta": "विकल्पों की तुलना करें",
           "ctaLink": "/report-vs-core",
           "icon": "balance",
@@ -1630,7 +1630,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         },
         {
-          "title": "Consider Watchtower (Optional)",
+          "title": "Watchtower पर विचार करें (वैकल्पिक)",
           "subtitle": "बाहरी बुद्धिमत्ता जोड़ें.",
           "description": "देखें कि आपकी चारदीवारी के बाहर क्या हो रहा है। प्रतिस्पर्धियों पर नज़र रखें, घटनाओं से मांग की भविष्यवाणी करें और बाज़ार की गतिशीलता को समझें।",
           "actions": [
@@ -1640,7 +1640,7 @@ export const generatedLocalCopy = {
             "रणनीतिक बाज़ार आसूचना"
           ],
           "timeline": "1 सप्ताह का सेटअप",
-          "cta": "Learn About Watchtower",
+          "cta": "Watchtower के बारे में जानें",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
           "color": "from-[#FF6B5B] to-[#E03E48]"
@@ -1664,7 +1664,7 @@ export const generatedLocalCopy = {
         }
       ],
       "noForcedTitle": "कोई ज़बरदस्ती समयसीमा नहीं",
-      "noForcedDescription": "आज ही Report Lite से शुरुआत करें। अगले महीने Report Plus/प्रो में अपग्रेड करें। Q3 में कोर जोड़ें। Q4 में उद्यम के लिए स्केल। आप अपनी प्राथमिकताओं और बजट के आधार पर गति को नियंत्रित करते हैं।",
+      "noForcedDescription": "आज ही Report Lite से शुरुआत करें। अगले महीने Report Plus/Pro में अपग्रेड करें। Q3 में Core जोड़ें। Q4 में उद्यम के लिए स्केल करें। आप अपनी प्राथमिकताओं और बजट के आधार पर गति को नियंत्रित करते हैं।",
       "commonJourneysTitle": "सामान्य यात्राएँ",
       "commonJourneysDescription": "Sundae के माध्यम से ऑपरेटर आम तौर पर कैसे प्रगति करते हैं?",
       "journeys": [
@@ -1672,18 +1672,18 @@ export const generatedLocalCopy = {
           "title": "1-5 स्थान संचालक",
           "icon": "labor",
           "items": [
-            "Start with Report Lite (free)",
-            "Upgrade to Report Plus for deeper insights",
-            "10+ स्थानों पर स्केल करते समय कोर पर विचार करें"
+            "Report Lite से शुरू करें (निःशुल्क)",
+            "गहरी अंतर्दृष्टि के लिए Report Plus में अपग्रेड करें",
+            "10+ स्थानों पर स्केल करते समय Core पर विचार करें"
           ]
         },
         {
           "title": "10-50 लोकेशन ऑपरेटर",
           "icon": "multiLocation",
           "items": [
-            "Start with Core Lite for real-time ops",
+            "रीयल-टाइम परिचालन के लिए Core Lite से शुरू करें",
             "1-2 मॉड्यूल जोड़ें (श्रम, इन्वेंटरी)",
-            "Add Watchtower for market intelligence"
+            "बाज़ार आसूचना के लिए Watchtower जोड़ें"
           ]
         },
         {
@@ -1691,7 +1691,7 @@ export const generatedLocalCopy = {
           "icon": "growth",
           "items": [
             "एंटरप्राइज़ स्तर से प्रारंभ करें",
-            "Full module suite + Watchtower",
+            "संपूर्ण मॉड्यूल सुइट + Watchtower",
             "कस्टम एकीकरण और व्हाइट-लेबल"
           ]
         }
@@ -1725,7 +1725,7 @@ export const generatedLocalCopy = {
       "cards": [
         {
           "title": "निःशुल्क प्रारंभ करें",
-          "description": "Report Lite, no credit card",
+          "description": "Report Lite, कोई क्रेडिट कार्ड नहीं",
           "button": "निःशुल्क प्रारंभ करें →",
           "icon": "report",
           "color": "bg-green-600",
@@ -1741,7 +1741,7 @@ export const generatedLocalCopy = {
         {
           "title": "किसी विशेषज्ञ से बात करें",
           "description": "कस्टम सिफ़ारिशें",
-          "button": "बुक डेमो →",
+          "button": "डेमो बुक करें →",
           "icon": "conversation",
           "color": "bg-[#FF5C4D]",
           "href": "/demo"
@@ -1755,7 +1755,7 @@ export const generatedLocalCopy = {
       "supporting": "La maggior parte degli operatori inizia con Report Lite (gratuito per sempre), dimostra il valore, quindi espande. Sei tu che controlli la sequenza temporale.",
       "startFree": "Inizia gratis",
       "calculatePath": "Calcola il tuo percorso",
-      "journeyTitle": "The Sundae Journey: 6 Steps",
+      "journeyTitle": "Il percorso Sundae: 6 passaggi",
       "journeyDescription": "Dal benchmarking gratuito all'enterprise intelligence",
       "steps": [
         {
@@ -1795,12 +1795,12 @@ export const generatedLocalCopy = {
           "subtitle": "Report Plus/Pro or Core?",
           "description": "Dopo aver dimostrato il valore di Report Lite, scegli il percorso di aggiornamento in base alle esigenze di velocità e profondità.",
           "actions": [
-            "Need intelligent insights? → Report Plus/Pro",
-            "Hai bisogno di velocità operativa? → Nucleo",
-            "Daily reports sufficient? → Report Plus/Pro",
-            "Più di 10 posizioni? → Nucleo"
+            "Hai bisogno di insight intelligenti? → Report Plus/Pro",
+            "Hai bisogno di velocità operativa? → Core",
+            "Ti bastano i report giornalieri? → Report Plus/Pro",
+            "Più di 10 posizioni? → Core"
           ],
-          "timeline": "Report Plus/Pro: 1-2 giorni | Nucleo: 1-2 settimane",
+          "timeline": "Report Plus/Pro: 1-2 giorni | Core: 1-2 settimane",
           "cta": "Confronta le opzioni",
           "ctaLink": "/report-vs-core",
           "icon": "balance",
@@ -1814,7 +1814,7 @@ export const generatedLocalCopy = {
             "Costo del lavoro elevato? → Intelligenza del lavoro",
             "Costo/spreco alimentare elevato? → Intelligenza dell'inventario",
             "Venditori complessi? → Intelligenza sugli acquisti",
-            "Marketing pesante? →Intelligenza del marketing",
+            "Marketing pesante? → Marketing Intelligence",
             "Basato sulla prenotazione? → Informazioni sulle prenotazioni"
           ],
           "timeline": "1-2 settimane per modulo",
@@ -1834,7 +1834,7 @@ export const generatedLocalCopy = {
             "Informazioni strategiche sul mercato"
           ],
           "timeline": "Configurazione di 1 settimana",
-          "cta": "Learn About Watchtower",
+          "cta": "Scopri Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
           "color": "from-[#FF6B5B] to-[#E03E48]"
@@ -1885,7 +1885,7 @@ export const generatedLocalCopy = {
           "icon": "growth",
           "items": [
             "Inizia con il livello Enterprise",
-            "Full module suite + Watchtower",
+            "Suite completa di moduli + Watchtower",
             "Integrazioni personalizzate e white label"
           ]
         }
@@ -1935,7 +1935,7 @@ export const generatedLocalCopy = {
         {
           "title": "Parla con un esperto",
           "description": "Raccomandazioni personalizzate",
-          "button": "Dimostrazione del libro →",
+          "button": "Prenota una demo →",
           "icon": "conversation",
           "color": "bg-[#FF5C4D]",
           "href": "/demo"
@@ -1953,7 +1953,7 @@ export const generatedLocalCopy = {
       "journeyDescription": "Ücretsiz kıyaslamadan kurumsal zekaya",
       "steps": [
         {
-          "title": "Start Free (Report Lite)",
+          "title": "Ücretsiz Başlayın (Report Lite)",
           "subtitle": "Değeri kanıtlayın. Hiçbir şey ödemeyin.",
           "description": "POS verilerinizi yükleyin ve anında kıyaslama elde edin. Kredi kartı gerekmez. Dakikalar içinde benzer restoranlar karşısında nerede durduğunuzu görün.",
           "actions": [
@@ -1989,12 +1989,12 @@ export const generatedLocalCopy = {
           "subtitle": "Report Plus/Pro mu yoksa Core mu?",
           "description": "Report Lite'ın değerini kanıtladıktan sonra hız ve derinlik gereksinimlerinize göre yükseltme yolunuzu seçin.",
           "actions": [
-            "Need intelligent insights? → Report Plus/Pro",
-            "Operasyonel hıza mı ihtiyacınız var? → Çekirdek",
-            "Daily reports sufficient? → Report Plus/Pro",
-            "10'dan fazla yer mi? → Çekirdek"
+            "Akıllı içgörülere mi ihtiyacınız var? → Report Plus/Pro",
+            "Operasyonel hıza mı ihtiyacınız var? → Core",
+            "Günlük raporlar yeterli mi? → Report Plus/Pro",
+            "10'dan fazla konum mu? → Core"
           ],
-          "timeline": "Report Plus/Pro: 1-2 days | Core: 1-2 weeks",
+          "timeline": "Report Plus/Pro: 1-2 gün | Core: 1-2 hafta",
           "cta": "Seçenekleri Karşılaştır",
           "ctaLink": "/report-vs-core",
           "icon": "balance",
@@ -2018,7 +2018,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         },
         {
-          "title": "Consider Watchtower (Optional)",
+          "title": "Watchtower'ı Değerlendirin (İsteğe Bağlı)",
           "subtitle": "Dış zeka ekleyin.",
           "description": "Dört duvarınızın dışında neler olduğunu görün. Rakipleri takip edin, etkinliklerden gelen talebi tahmin edin ve pazar dinamiklerini anlayın.",
           "actions": [
@@ -2028,7 +2028,7 @@ export const generatedLocalCopy = {
             "Stratejik pazar istihbaratı"
           ],
           "timeline": "1 haftalık kurulum",
-          "cta": "Learn About Watchtower",
+          "cta": "Watchtower Hakkında Bilgi Edinin",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
           "color": "from-[#FF6B5B] to-[#E03E48]"
@@ -2079,7 +2079,7 @@ export const generatedLocalCopy = {
           "icon": "growth",
           "items": [
             "Kurumsal katmanla başlayın",
-            "Full module suite + Watchtower",
+            "Tam modül paketi + Watchtower",
             "Özel entegrasyonlar ve beyaz etiket"
           ]
         }
@@ -2129,7 +2129,7 @@ export const generatedLocalCopy = {
         {
           "title": "Bir Uzmanla Konuşun",
           "description": "Özel öneriler",
-          "button": "Kitap Demosu →",
+          "button": "Demo Ayırtın →",
           "icon": "conversation",
           "color": "bg-[#FF5C4D]",
           "href": "/demo"
@@ -2138,16 +2138,16 @@ export const generatedLocalCopy = {
     },
     "pl": {
       "badge": "Przewodnik dla początkujących",
-      "title": "Your Journey with Sundae",
+      "title": "Twoja podróż z Sundae",
       "description": "Sześć kroków od bezpłatnego testu porównawczego do pełnej inteligencji operacyjnej. Zacznij od małego, skaluj w swoim tempie.",
       "supporting": "Większość operatorów zaczyna od Report Lite (za darmo na zawsze), udowadnia wartość, a następnie rozszerza. Kontrolujesz oś czasu.",
       "startFree": "Zacznij za darmo",
       "calculatePath": "Oblicz swoją ścieżkę",
-      "journeyTitle": "The Sundae Journey: 6 Steps",
+      "journeyTitle": "Podróż Sundae: 6 kroków",
       "journeyDescription": "Od bezpłatnego benchmarkingu po inteligencję przedsiębiorstwa",
       "steps": [
         {
-          "title": "Start Free (Report Lite)",
+          "title": "Zacznij za darmo (Report Lite)",
           "subtitle": "Udowodnij wartość. Nie płać nic.",
           "description": "Prześlij dane POS i uzyskaj natychmiastową analizę porównawczą. Nie jest wymagana karta kredytowa. W ciągu kilku minut zobaczysz, jak wypadasz na tle podobnych restauracji.",
           "actions": [
@@ -2172,7 +2172,7 @@ export const generatedLocalCopy = {
             "Zidentyfikuj możliwości marży",
             "Podziel się spostrzeżeniami z przywódcami"
           ],
-          "timeline": "1-2 tygodnie na zbudowanie obudowy",
+          "timeline": "1-2 tygodnie na zbudowanie uzasadnienia",
           "cta": "Dowiedz się więcej o raporcie",
           "ctaLink": "/report",
           "icon": "benchmarking",
@@ -2183,12 +2183,12 @@ export const generatedLocalCopy = {
           "subtitle": "Report Plus/Pro or Core?",
           "description": "Po udowodnieniu wartości w programie Report Lite wybierz ścieżkę aktualizacji w oparciu o potrzeby dotyczące szybkości i głębokości.",
           "actions": [
-            "Need intelligent insights? → Report Plus/Pro",
-            "Potrzebujesz szybkości operacyjnej? → Rdzeń",
-            "Daily reports sufficient? → Report Plus/Pro",
-            "Ponad 10 lokalizacji? → Rdzeń"
+            "Potrzebujesz inteligentnych analiz? → Report Plus/Pro",
+            "Potrzebujesz szybkości operacyjnej? → Core",
+            "Wystarczą raporty dzienne? → Report Plus/Pro",
+            "Ponad 10 lokalizacji? → Core"
           ],
-          "timeline": "Report Plus/Pro: 1-2 days | Core: 1-2 weeks",
+          "timeline": "Report Plus/Pro: 1-2 dni | Core: 1-2 tygodnie",
           "cta": "Porównaj opcje",
           "ctaLink": "/report-vs-core",
           "icon": "balance",
@@ -2212,7 +2212,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         },
         {
-          "title": "Consider Watchtower (Optional)",
+          "title": "Rozważ Watchtower (opcjonalnie)",
           "subtitle": "Dodaj inteligencję zewnętrzną.",
           "description": "Zobacz, co dzieje się poza Twoimi czterema ścianami. Śledź konkurencję, prognozuj popyt na podstawie wydarzeń i poznaj dynamikę rynku.",
           "actions": [
@@ -2222,7 +2222,7 @@ export const generatedLocalCopy = {
             "Strategiczna analiza rynku"
           ],
           "timeline": "Konfiguracja na 1 tydzień",
-          "cta": "Learn About Watchtower",
+          "cta": "Dowiedz się więcej o Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
           "color": "from-[#FF6B5B] to-[#E03E48]"
@@ -2246,9 +2246,9 @@ export const generatedLocalCopy = {
         }
       ],
       "noForcedTitle": "Żadnych wymuszonych terminów",
-      "noForcedDescription": "Zacznij od Report Lite już dziś. Przejdź na Report Plus/Pro w przyszłym miesiącu. Dodaj rdzeń w trzecim kwartale. Skaluj do wersji korporacyjnej w czwartym kwartale. Kontrolujesz tempo w oparciu o swoje priorytety i budżet.",
+      "noForcedDescription": "Zacznij od Report Lite już dziś. Przejdź na Report Plus/Pro w przyszłym miesiącu. Dodaj Core w trzecim kwartale. Skaluj do wersji korporacyjnej w czwartym kwartale. Kontrolujesz tempo w oparciu o swoje priorytety i budżet.",
       "commonJourneysTitle": "Wspólne podróże",
-      "commonJourneysDescription": "How do operators typically progress through Sundae?",
+      "commonJourneysDescription": "Jak operatorzy zazwyczaj rozwijają się w Sundae?",
       "journeys": [
         {
           "title": "1-5 Operator lokalizacji",
@@ -2265,7 +2265,7 @@ export const generatedLocalCopy = {
           "items": [
             "Zacznij od Core Lite, aby móc wykonywać operacje w czasie rzeczywistym",
             "Dodaj 1-2 moduły (praca, zapasy)",
-            "Add Watchtower for market intelligence"
+            "Dodaj Watchtower dla analizy rynku"
           ]
         },
         {
@@ -2273,7 +2273,7 @@ export const generatedLocalCopy = {
           "icon": "growth",
           "items": [
             "Zacznij od poziomu Enterprise",
-            "Full module suite + Watchtower",
+            "Pełny pakiet modułów + Watchtower",
             "Niestandardowe integracje i white-label"
           ]
         }
@@ -2307,7 +2307,7 @@ export const generatedLocalCopy = {
       "cards": [
         {
           "title": "Zacznij za darmo",
-          "description": "Report Lite, no credit card",
+          "description": "Report Lite, bez karty kredytowej",
           "button": "Rozpocznij za darmo →",
           "icon": "report",
           "color": "bg-green-600",
@@ -2323,7 +2323,7 @@ export const generatedLocalCopy = {
         {
           "title": "Porozmawiaj z ekspertem",
           "description": "Niestandardowe rekomendacje",
-          "button": "Książka Demo →",
+          "button": "Zarezerwuj demo →",
           "icon": "conversation",
           "color": "bg-[#FF5C4D]",
           "href": "/demo"
@@ -2332,12 +2332,12 @@ export const generatedLocalCopy = {
     },
     "ko": {
       "badge": "시작하기 가이드",
-      "title": "Your Journey with Sundae",
+      "title": "Sundae와 함께하는 여정",
       "description": "무료 벤치마킹부터 완전한 운영 인텔리전스까지 6단계. 작게 시작하여 원하는 속도로 확장하세요.",
       "supporting": "대부분의 운영자는 Report Lite(영원히 무료)로 시작하여 가치를 입증한 다음 확장합니다. 당신은 타임 라인을 제어합니다.",
       "startFree": "무료로 시작하세요",
       "calculatePath": "경로 계산",
-      "journeyTitle": "The Sundae Journey: 6 Steps",
+      "journeyTitle": "Sundae 여정: 6단계",
       "journeyDescription": "무료 벤치마킹부터 엔터프라이즈 인텔리전스까지",
       "steps": [
         {
@@ -2377,12 +2377,12 @@ export const generatedLocalCopy = {
           "subtitle": "Report Plus/Pro or Core?",
           "description": "Report Lite의 가치를 입증한 후에는 속도와 깊이 요구 사항에 따라 업그레이드 경로를 선택하십시오.",
           "actions": [
-            "Need intelligent insights? → Report Plus/Pro",
-            "작동 속도가 필요하십니까? → 코어",
-            "Daily reports sufficient? → Report Plus/Pro",
-            "10개 이상의 위치? → 코어"
+            "지능형 인사이트가 필요하십니까? → Report Plus/Pro",
+            "운영 속도가 필요하십니까? → Core",
+            "일일 보고서로 충분합니까? → Report Plus/Pro",
+            "10개 이상의 위치? → Core"
           ],
-          "timeline": "Report Plus/Pro: 1-2 days | Core: 1-2 weeks",
+          "timeline": "Report Plus/Pro: 1-2일 | Core: 1-2주",
           "cta": "옵션 비교",
           "ctaLink": "/report-vs-core",
           "icon": "balance",
@@ -2406,7 +2406,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         },
         {
-          "title": "Consider Watchtower (Optional)",
+          "title": "Watchtower 고려하기 (선택 사항)",
           "subtitle": "외부 인텔리전스를 추가하세요.",
           "description": "네 벽 밖에서 무슨 일이 일어나고 있는지 확인하세요. 경쟁사를 추적하고, 이벤트 수요를 예측하고, 시장 역학을 이해하세요.",
           "actions": [
@@ -2416,7 +2416,7 @@ export const generatedLocalCopy = {
             "전략적 시장 인텔리전스"
           ],
           "timeline": "1주 설정",
-          "cta": "Learn About Watchtower",
+          "cta": "Watchtower 알아보기",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
           "color": "from-[#FF6B5B] to-[#E03E48]"
@@ -2440,12 +2440,12 @@ export const generatedLocalCopy = {
         }
       ],
       "noForcedTitle": "강제 일정 없음",
-      "noForcedDescription": "지금 Report Lite를 시작해 보세요. 다음 달에 Report Plus/Pro로 업그레이드하세요. 3분기에 코어를 추가하세요. 4분기에 엔터프라이즈로 확장 우선순위와 예산에 따라 속도를 제어할 수 있습니다.",
+      "noForcedDescription": "지금 Report Lite를 시작해 보세요. 다음 달에 Report Plus/Pro로 업그레이드하세요. 3분기에 Core를 추가하세요. 4분기에 엔터프라이즈로 확장하세요. 우선순위와 예산에 따라 속도를 제어할 수 있습니다.",
       "commonJourneysTitle": "일반적인 여행",
-      "commonJourneysDescription": "How do operators typically progress through Sundae?",
+      "commonJourneysDescription": "운영자는 일반적으로 Sundae를 통해 어떻게 발전하나요?",
       "journeys": [
         {
-          "title": "1-5 위치 연산자",
+          "title": "1-5개 위치 운영자",
           "icon": "labor",
           "items": [
             "Report Lite로 시작하기(무료)",
@@ -2467,7 +2467,7 @@ export const generatedLocalCopy = {
           "icon": "growth",
           "items": [
             "엔터프라이즈 등급으로 시작",
-            "Full module suite + Watchtower",
+            "전체 모듈 제품군 + Watchtower",
             "맞춤형 통합 및 화이트 라벨"
           ]
         }
@@ -2535,7 +2535,7 @@ export const generatedLocalCopy = {
       "journeyDescription": "De la benchmarking gratuit la inteligența întreprinderii",
       "steps": [
         {
-          "title": "Start Free (Report Lite)",
+          "title": "Începe gratuit (Report Lite)",
           "subtitle": "Demonstrați valoarea. Nu plătiți nimic.",
           "description": "Încărcați datele dvs. POS și obțineți benchmarking instantaneu. Nu este necesar un card de credit. Vedeți unde vă poziționați față de restaurante similare în câteva minute.",
           "actions": [
@@ -2560,7 +2560,7 @@ export const generatedLocalCopy = {
             "Identificați oportunitățile de marjă",
             "Împărtășiți informații cu conducerea"
           ],
-          "timeline": "1-2 săptămâni pentru a construi carcasa",
+          "timeline": "1-2 săptămâni pentru a construi cazul",
           "cta": "Aflați despre raport",
           "ctaLink": "/report",
           "icon": "benchmarking",
@@ -2571,12 +2571,12 @@ export const generatedLocalCopy = {
           "subtitle": "Report Plus/Pro or Core?",
           "description": "Odată ce ați dovedit valoarea cu Report Lite, alegeți calea de upgrade în funcție de nevoile de viteză și profunzime.",
           "actions": [
-            "Need intelligent insights? → Report Plus/Pro",
-            "Aveți nevoie de viteză operațională? → Miez",
-            "Daily reports sufficient? → Report Plus/Pro",
-            "Peste 10 locații? → Miez"
+            "Aveți nevoie de insights inteligente? → Report Plus/Pro",
+            "Aveți nevoie de viteză operațională? → Core",
+            "Vă sunt suficiente rapoartele zilnice? → Report Plus/Pro",
+            "Peste 10 locații? → Core"
           ],
-          "timeline": "Report Plus/Pro: 1-2 days | Core: 1-2 weeks",
+          "timeline": "Report Plus/Pro: 1-2 zile | Core: 1-2 săptămâni",
           "cta": "Opțiuni de comparare",
           "ctaLink": "/report-vs-core",
           "icon": "balance",
@@ -2600,7 +2600,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         },
         {
-          "title": "Consider Watchtower (Optional)",
+          "title": "Luați în considerare Watchtower (opțional)",
           "subtitle": "Adăugați inteligență externă.",
           "description": "Vezi ce se întâmplă în afara celor patru pereți. Urmăriți concurenții, anticipați cererea de la evenimente și înțelegeți dinamica pieței.",
           "actions": [
@@ -2610,7 +2610,7 @@ export const generatedLocalCopy = {
             "Informații strategice de piață"
           ],
           "timeline": "Configurare 1 săptămână",
-          "cta": "Learn About Watchtower",
+          "cta": "Aflați despre Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
           "color": "from-[#FF6B5B] to-[#E03E48]"
@@ -2661,8 +2661,8 @@ export const generatedLocalCopy = {
           "icon": "growth",
           "items": [
             "Începeți cu nivelul Enterprise",
-            "Full module suite + Watchtower",
-            "Integrari personalizate și etichetă albă"
+            "Suită completă de module + Watchtower",
+            "Integrări personalizate și etichetă albă"
           ]
         }
       ],
@@ -2711,7 +2711,7 @@ export const generatedLocalCopy = {
         {
           "title": "Discutați cu un expert",
           "description": "Recomandări personalizate",
-          "button": "Demo carte →",
+          "button": "Rezervați o demonstrație →",
           "icon": "conversation",
           "color": "bg-[#FF5C4D]",
           "href": "/demo"
@@ -2729,7 +2729,7 @@ export const generatedLocalCopy = {
       "journeyDescription": "無料のベンチマークからエンタープライズ インテリジェンスまで",
       "steps": [
         {
-          "title": "Start Free (Report Lite)",
+          "title": "無料で始める (Report Lite)",
           "subtitle": "価値を証明してください。何も支払いません。",
           "description": "POS データをアップロードして、すぐにベンチマークを取得します。クレジットカードは必要ありません。数分以内に、同様のレストランと比べて自分の立ち位置を確認できます。",
           "actions": [
@@ -2751,8 +2751,8 @@ export const generatedLocalCopy = {
           "actions": [
             "平方フィートあたりのベンチマーク売上高",
             "人件費の割合を同業他社と比較する",
-            "Identify margin opportunities",
-            "Share insights with leadership"
+            "利益率改善の機会を特定する",
+            "リーダーシップと洞察を共有する"
           ],
           "timeline": "ケースの構築に 1 ～ 2 週間",
           "cta": "レポートについて学ぶ",
@@ -2765,12 +2765,12 @@ export const generatedLocalCopy = {
           "subtitle": "Report Plus/Pro or Core?",
           "description": "Report Lite の価値を証明したら、速度と深さのニーズに基づいてアップグレード パスを選択します。",
           "actions": [
-            "Need intelligent insights? → Report Plus/Pro",
-            "操作速度が必要ですか? → コア",
-            "Daily reports sufficient? → Report Plus/Pro",
-            "10か所以上？ → コア"
+            "インテリジェントなインサイトが必要ですか? → Report Plus/Pro",
+            "運用スピードが必要ですか? → Core",
+            "日次レポートで十分ですか? → Report Plus/Pro",
+            "10か所以上？ → Core"
           ],
-          "timeline": "Report Plus/Pro: 1-2 days |コア: 1～2週間",
+          "timeline": "Report Plus/Pro: 1～2日 | Core: 1～2週間",
           "cta": "比較オプション",
           "ctaLink": "/report-vs-core",
           "icon": "balance",
@@ -2794,7 +2794,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         },
         {
-          "title": "Consider Watchtower (Optional)",
+          "title": "Watchtower を検討する (オプション)",
           "subtitle": "外部インテリジェンスを追加します。",
           "description": "四方の壁の外で何が起こっているかを見てください。競合他社を追跡し、イベントからの需要を予測し、市場のダイナミクスを理解します。",
           "actions": [
@@ -2804,7 +2804,7 @@ export const generatedLocalCopy = {
             "戦略的な市場インテリジェンス"
           ],
           "timeline": "1週間のセットアップ",
-          "cta": "Learn About Watchtower",
+          "cta": "Watchtower について学ぶ",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
           "color": "from-[#FF6B5B] to-[#E03E48]"
@@ -2828,7 +2828,7 @@ export const generatedLocalCopy = {
         }
       ],
       "noForcedTitle": "強制的なタイムラインはありません",
-      "noForcedDescription": "今すぐレポート Lite を始めましょう。来月には Report Plus/Pro にアップグレードしてください。第3四半期にコアを追加。第 4 四半期にエンタープライズに拡張します。優先順位と予算に基づいてペースをコントロールします。 (Report Lite)",
+      "noForcedDescription": "今すぐ Report Lite を始めましょう。来月には Report Plus/Pro にアップグレードしてください。第3四半期に Core を追加。第4四半期にエンタープライズに拡張します。優先順位と予算に基づいてペースをコントロールします。",
       "commonJourneysTitle": "よくある旅",
       "commonJourneysDescription": "オペレーターは通常、Sundaeをどのように進めますか?",
       "journeys": [
@@ -2836,9 +2836,9 @@ export const generatedLocalCopy = {
           "title": "1-5 位置情報オペレーター",
           "icon": "labor",
           "items": [
-            "Start with Report Lite (free)",
+            "Report Lite から始める (無料)",
             "Report Plus にアップグレードすると、より深い洞察が得られます",
-            "10 か所以上に拡張する場合はコアを考慮する"
+            "10 か所以上に拡張する場合は Core を検討する"
           ]
         },
         {
@@ -2855,7 +2855,7 @@ export const generatedLocalCopy = {
           "icon": "growth",
           "items": [
             "エンタープライズ層から始める",
-            "Full module suite + Watchtower",
+            "フルモジュールスイート + Watchtower",
             "カスタム統合とホワイトラベル"
           ]
         }
@@ -2923,7 +2923,7 @@ export const generatedLocalCopy = {
       "journeyDescription": "Dari benchmarking gratis hingga intelijen perusahaan",
       "steps": [
         {
-          "title": "Start Free (Report Lite)",
+          "title": "Mulai Gratis (Report Lite)",
           "subtitle": "Buktikan nilainya. Tidak perlu membayar apa pun.",
           "description": "Unggah data POS Anda dan dapatkan benchmarking instan. Tidak diperlukan kartu kredit. Lihat posisi Anda melawan restoran serupa dalam hitungan menit.",
           "actions": [
@@ -2959,12 +2959,12 @@ export const generatedLocalCopy = {
           "subtitle": "Report Plus/Pro or Core?",
           "description": "Setelah Anda membuktikan manfaatnya dengan Report Lite, pilih jalur peningkatan berdasarkan kebutuhan kecepatan dan kedalaman.",
           "actions": [
-            "Need intelligent insights? → Report Plus/Pro",
-            "Butuh kecepatan operasional? → Inti",
-            "Daily reports sufficient? → Report Plus/Pro",
-            "10+ lokasi? → Inti"
+            "Butuh insight cerdas? → Report Plus/Pro",
+            "Butuh kecepatan operasional? → Core",
+            "Laporan harian sudah cukup? → Report Plus/Pro",
+            "10+ lokasi? → Core"
           ],
-          "timeline": "Report Plus/Pro: 1-2 days | Core: 1-2 weeks",
+          "timeline": "Report Plus/Pro: 1-2 hari | Core: 1-2 minggu",
           "cta": "Bandingkan Opsi",
           "ctaLink": "/report-vs-core",
           "icon": "balance",
@@ -2977,7 +2977,7 @@ export const generatedLocalCopy = {
           "actions": [
             "Biaya tenaga kerja tinggi? → Intelijen Ketenagakerjaan",
             "Biaya/pemborosan makanan tinggi? → Intelijen Inventaris",
-            "Vendor yang kompleks? → Membeli Intelijen",
+            "Vendor yang kompleks? → Intelijen Pembelian",
             "Pemasaran yang berat? → Intelijen Pemasaran",
             "Didorong oleh reservasi? → Intelijen Reservasi"
           ],
@@ -2988,7 +2988,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         },
         {
-          "title": "Consider Watchtower (Optional)",
+          "title": "Pertimbangkan Watchtower (Opsional)",
           "subtitle": "Tambahkan kecerdasan eksternal.",
           "description": "Lihat apa yang terjadi di luar keempat tembok Anda. Lacak pesaing, prediksi permintaan dari peristiwa, dan pahami dinamika pasar.",
           "actions": [
@@ -2998,7 +2998,7 @@ export const generatedLocalCopy = {
             "Intelijen pasar strategis"
           ],
           "timeline": "pengaturan 1 minggu",
-          "cta": "Learn About Watchtower",
+          "cta": "Pelajari Tentang Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
           "color": "from-[#FF6B5B] to-[#E03E48]"
@@ -3041,7 +3041,7 @@ export const generatedLocalCopy = {
           "items": [
             "Mulailah dengan Core Lite untuk operasi real-time",
             "Tambahkan 1-2 modul (Tenaga Kerja, Inventaris)",
-            "Add Watchtower for market intelligence"
+            "Tambahkan Watchtower untuk intelijen pasar"
           ]
         },
         {
@@ -3049,7 +3049,7 @@ export const generatedLocalCopy = {
           "icon": "growth",
           "items": [
             "Mulailah dengan tingkat Perusahaan",
-            "Full module suite + Watchtower",
+            "Rangkaian modul lengkap + Watchtower",
             "Integrasi khusus & label putih"
           ]
         }
@@ -3083,7 +3083,7 @@ export const generatedLocalCopy = {
       "cards": [
         {
           "title": "Mulai Gratis",
-          "description": "Report Lite, no credit card",
+          "description": "Report Lite, tanpa kartu kredit",
           "button": "Mulai Gratis →",
           "icon": "report",
           "color": "bg-green-600",
@@ -3099,7 +3099,7 @@ export const generatedLocalCopy = {
         {
           "title": "Bicaralah dengan Pakar",
           "description": "Rekomendasi khusus",
-          "button": "Demo Buku →",
+          "button": "Pesan Demo →",
           "icon": "conversation",
           "color": "bg-[#FF5C4D]",
           "href": "/demo"
@@ -3117,8 +3117,8 @@ export const generatedLocalCopy = {
       "journeyDescription": "Từ điểm chuẩn miễn phí đến thông tin doanh nghiệp",
       "steps": [
         {
-          "title": "Start Free (Report Lite)",
-          "subtitle": "Chứng minh giá trị Không phải trả gì cả.",
+          "title": "Bắt đầu miễn phí (Report Lite)",
+          "subtitle": "Chứng minh giá trị. Không phải trả gì cả.",
           "description": "Tải lên dữ liệu POS của bạn và nhận điểm chuẩn ngay lập tức. Không cần thẻ tín dụng. Xem vị trí của bạn so với các nhà hàng tương tự trong vòng vài phút.",
           "actions": [
             "Tải lên dữ liệu POS (định dạng CSV)",
@@ -3153,12 +3153,12 @@ export const generatedLocalCopy = {
           "subtitle": "Report Plus/Pro or Core?",
           "description": "Sau khi bạn đã chứng minh được giá trị của Report Lite, hãy chọn đường dẫn nâng cấp dựa trên nhu cầu về tốc độ và độ sâu.",
           "actions": [
-            "Need intelligent insights? → Report Plus/Pro",
-            "Cần tốc độ hoạt động? → Cốt lõi",
-            "Daily reports sufficient? → Report Plus/Pro",
-            "Hơn 10 địa điểm? → Cốt lõi"
+            "Cần thông tin chi tiết thông minh? → Report Plus/Pro",
+            "Cần tốc độ vận hành? → Core",
+            "Báo cáo hằng ngày là đủ? → Report Plus/Pro",
+            "Hơn 10 địa điểm? → Core"
           ],
-          "timeline": "Report Plus/Pro: 1-2 days | Core: 1-2 weeks",
+          "timeline": "Report Plus/Pro: 1-2 ngày | Core: 1-2 tuần",
           "cta": "So sánh các lựa chọn",
           "ctaLink": "/report-vs-core",
           "icon": "balance",
@@ -3182,7 +3182,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         },
         {
-          "title": "Consider Watchtower (Optional)",
+          "title": "Cân nhắc Watchtower (Tùy chọn)",
           "subtitle": "Thêm trí thông minh bên ngoài.",
           "description": "Xem những gì đang xảy ra bên ngoài bốn bức tường của bạn. Theo dõi đối thủ cạnh tranh, dự đoán nhu cầu từ các sự kiện và hiểu động lực thị trường.",
           "actions": [
@@ -3192,7 +3192,7 @@ export const generatedLocalCopy = {
             "Thông tin thị trường chiến lược"
           ],
           "timeline": "thiết lập 1 tuần",
-          "cta": "Learn About Watchtower",
+          "cta": "Tìm hiểu về Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
           "color": "from-[#FF6B5B] to-[#E03E48]"
@@ -3216,7 +3216,7 @@ export const generatedLocalCopy = {
         }
       ],
       "noForcedTitle": "Không có mốc thời gian bắt buộc",
-      "noForcedDescription": "Hãy bắt đầu với Report Lite ngay hôm nay. Nâng cấp lên Report Plus/Pro vào tháng tới. Thêm lõi vào quý 3. Mở rộng quy mô sang Doanh nghiệp trong Q4. Bạn kiểm soát tốc độ dựa trên các ưu tiên và ngân sách của mình.",
+      "noForcedDescription": "Hãy bắt đầu với Report Lite ngay hôm nay. Nâng cấp lên Report Plus/Pro vào tháng tới. Thêm Core vào quý 3. Mở rộng quy mô sang Doanh nghiệp trong Q4. Bạn kiểm soát tốc độ dựa trên các ưu tiên và ngân sách của mình.",
       "commonJourneysTitle": "Hành trình chung",
       "commonJourneysDescription": "Các nhà khai thác thường tiến hành như thế nào thông qua Sundae?",
       "journeys": [
@@ -3235,7 +3235,7 @@ export const generatedLocalCopy = {
           "items": [
             "Bắt đầu với Core Lite để vận hành theo thời gian thực",
             "Thêm 1-2 module (Lao động, Tồn kho)",
-            "Add Watchtower for market intelligence"
+            "Thêm Watchtower để có thông tin thị trường"
           ]
         },
         {
@@ -3243,7 +3243,7 @@ export const generatedLocalCopy = {
           "icon": "growth",
           "items": [
             "Bắt đầu với cấp Doanh nghiệp",
-            "Full module suite + Watchtower",
+            "Bộ mô-đun đầy đủ + Watchtower",
             "Tích hợp tùy chỉnh & nhãn trắng"
           ]
         }
@@ -3277,7 +3277,7 @@ export const generatedLocalCopy = {
       "cards": [
         {
           "title": "Bắt đầu miễn phí",
-          "description": "Report Lite, no credit card",
+          "description": "Report Lite, không cần thẻ tín dụng",
           "button": "Bắt đầu miễn phí →",
           "icon": "report",
           "color": "bg-green-600",
@@ -3293,7 +3293,7 @@ export const generatedLocalCopy = {
         {
           "title": "Nói chuyện với chuyên gia",
           "description": "Đề xuất tùy chỉnh",
-          "button": "Giới thiệu sách →",
+          "button": "Đặt lịch demo →",
           "icon": "conversation",
           "color": "bg-[#FF5C4D]",
           "href": "/demo"
@@ -3311,7 +3311,7 @@ export const generatedLocalCopy = {
       "journeyDescription": "বিনামূল্যে বেঞ্চমার্কিং থেকে এন্টারপ্রাইজ বুদ্ধিমত্তা",
       "steps": [
         {
-          "title": "Start Free (Report Lite)",
+          "title": "বিনামূল্যে শুরু করুন (Report Lite)",
           "subtitle": "মান প্রমাণ করুন। কিছুই দিতে হবে না।",
           "description": "আপনার POS ডেটা আপলোড করুন এবং তাত্ক্ষণিক বেঞ্চমার্কিং পান। কোনো ক্রেডিট কার্ডের প্রয়োজন নেই। কয়েক মিনিটের মধ্যে একই ধরনের রেস্তোরাঁর বিরুদ্ধে আপনি কোথায় দাঁড়ান তা দেখুন।",
           "actions": [
@@ -3345,14 +3345,14 @@ export const generatedLocalCopy = {
         {
           "title": "আপগ্রেড পাথ সিদ্ধান্ত নিন",
           "subtitle": "Report Plus/Pro or Core?",
-          "description": "একবার আপনি Report Liteের সাথে মান প্রমাণ করেছেন, গতি এবং গভীরতার প্রয়োজনের উপর ভিত্তি করে আপনার আপগ্রেডের পথ বেছে নিন।",
+          "description": "একবার আপনি Report Lite-এর সাথে মান প্রমাণ করলে, গতি এবং গভীরতার প্রয়োজনের উপর ভিত্তি করে আপনার আপগ্রেডের পথ বেছে নিন।",
           "actions": [
-            "Need intelligent insights? → Report Plus/Pro",
-            "কর্মক্ষম গতি প্রয়োজন? → কোর",
-            "Daily reports sufficient? → Report Plus/Pro",
-            "10+ অবস্থান? → কোর"
+            "বুদ্ধিমান অন্তর্দৃষ্টি প্রয়োজন? → Report Plus/Pro",
+            "কর্মক্ষম গতি প্রয়োজন? → Core",
+            "দৈনিক রিপোর্ট যথেষ্ট? → Report Plus/Pro",
+            "10+ অবস্থান? → Core"
           ],
-          "timeline": "Report Plus/Pro: 1-2 days | Core: 1-2 weeks",
+          "timeline": "Report Plus/Pro: 1-2 দিন | Core: 1-2 সপ্তাহ",
           "cta": "তুলনা বিকল্প",
           "ctaLink": "/report-vs-core",
           "icon": "balance",
@@ -3376,7 +3376,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         },
         {
-          "title": "Consider Watchtower (Optional)",
+          "title": "Watchtower বিবেচনা করুন (ঐচ্ছিক)",
           "subtitle": "বাহ্যিক বুদ্ধি যোগ করুন।",
           "description": "দেখুন আপনার চার দেয়ালের বাইরে কি হচ্ছে। প্রতিযোগীদের ট্র্যাক করুন, ইভেন্ট থেকে চাহিদা ভবিষ্যদ্বাণী করুন এবং বাজারের গতিশীলতা বুঝুন।",
           "actions": [
@@ -3386,7 +3386,7 @@ export const generatedLocalCopy = {
             "কৌশলগত বাজার বুদ্ধিমত্তা"
           ],
           "timeline": "1 সপ্তাহ সেটআপ",
-          "cta": "Learn About Watchtower",
+          "cta": "Watchtower সম্পর্কে জানুন",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
           "color": "from-[#FF6B5B] to-[#E03E48]"
@@ -3410,17 +3410,17 @@ export const generatedLocalCopy = {
         }
       ],
       "noForcedTitle": "কোন জোরপূর্বক সময়রেখা নেই",
-      "noForcedDescription": "আজই Report Lite দিয়ে শুরু করুন। পরের মাসে Report Plus/প্রোতে আপগ্রেড করুন। Q3 এ কোর যোগ করুন। Q4 এ এন্টারপ্রাইজে স্কেল করুন। আপনি আপনার অগ্রাধিকার এবং বাজেটের উপর ভিত্তি করে গতি নিয়ন্ত্রণ করেন।",
+      "noForcedDescription": "আজই Report Lite দিয়ে শুরু করুন। পরের মাসে Report Plus/Pro-তে আপগ্রেড করুন। Q3-তে Core যোগ করুন। Q4-তে এন্টারপ্রাইজে স্কেল করুন। আপনি আপনার অগ্রাধিকার এবং বাজেটের উপর ভিত্তি করে গতি নিয়ন্ত্রণ করেন।",
       "commonJourneysTitle": "সাধারণ যাত্রা",
       "commonJourneysDescription": "কিভাবে অপারেটর সাধারণত Sundae মাধ্যমে অগ্রগতি?",
       "journeys": [
         {
-          "title": "০১৭১৩-১৪০৪৪০ অবস্থান অপারেটর",
+          "title": "1-5 অবস্থান অপারেটর",
           "icon": "labor",
           "items": [
-            "Start with Report Lite (free)",
-            "Upgrade to Report Plus for deeper insights",
-            "10+ অবস্থানে স্কেলিং করার সময় কোর বিবেচনা করুন"
+            "Report Lite দিয়ে শুরু করুন (বিনামূল্যে)",
+            "গভীর অন্তর্দৃষ্টির জন্য Report Plus-এ আপগ্রেড করুন",
+            "10+ অবস্থানে স্কেলিং করার সময় Core বিবেচনা করুন"
           ]
         },
         {
@@ -3428,8 +3428,8 @@ export const generatedLocalCopy = {
           "icon": "multiLocation",
           "items": [
             "রিয়েল-টাইম অপারেশনের জন্য Core Lite দিয়ে শুরু করুন",
-            "1-2 মডিউল যোগ করুন (শ্রম, জায়)",
-            "Add Watchtower for market intelligence"
+            "1-2 মডিউল যোগ করুন (শ্রম, ইনভেন্টরি)",
+            "বাজার বুদ্ধিমত্তার জন্য Watchtower যোগ করুন"
           ]
         },
         {
@@ -3437,7 +3437,7 @@ export const generatedLocalCopy = {
           "icon": "growth",
           "items": [
             "এন্টারপ্রাইজ স্তর দিয়ে শুরু করুন",
-            "Full module suite + Watchtower",
+            "সম্পূর্ণ মডিউল স্যুট + Watchtower",
             "কাস্টম ইন্টিগ্রেশন এবং সাদা-লেবেল"
           ]
         }
@@ -3471,7 +3471,7 @@ export const generatedLocalCopy = {
       "cards": [
         {
           "title": "বিনামূল্যে শুরু করুন",
-          "description": "Report Lite, no credit card",
+          "description": "Report Lite, কোনো ক্রেডিট কার্ড নেই",
           "button": "বিনামূল্যে শুরু করুন →",
           "icon": "report",
           "color": "bg-green-600",
@@ -3487,7 +3487,7 @@ export const generatedLocalCopy = {
         {
           "title": "একজন বিশেষজ্ঞের সাথে কথা বলুন",
           "description": "কাস্টম সুপারিশ",
-          "button": "বুক ডেমো →",
+          "button": "ডেমো বুক করুন →",
           "icon": "conversation",
           "color": "bg-[#FF5C4D]",
           "href": "/demo"
@@ -3541,12 +3541,12 @@ export const generatedLocalCopy = {
           "subtitle": "Report Plus/Pro or Core?",
           "description": "När du har bevisat värdet med Report Lite, välj din uppgraderingsväg baserat på hastighet och djupbehov.",
           "actions": [
-            "Need intelligent insights? → Report Plus/Pro",
-            "Behöver du operativ hastighet? → Kärna",
-            "Daily reports sufficient? → Report Plus/Pro",
-            "10+ platser? → Kärna"
+            "Behöver du intelligenta insikter? → Report Plus/Pro",
+            "Behöver du operativ hastighet? → Core",
+            "Räcker dagliga rapporter? → Report Plus/Pro",
+            "10+ platser? → Core"
           ],
-          "timeline": "Report Plus/Pro: 1-2 days | Core: 1-2 weeks",
+          "timeline": "Report Plus/Pro: 1-2 dagar | Core: 1-2 veckor",
           "cta": "Jämför alternativ",
           "ctaLink": "/report-vs-core",
           "icon": "balance",
@@ -3561,7 +3561,7 @@ export const generatedLocalCopy = {
             "Hög matkostnad/svinn? → Inventory Intelligence",
             "Komplexa leverantörer? → Inköpsinformation",
             "Tung marknadsföring? → Marketing Intelligence",
-            "Reservationsdriven? → Reservationer Intelligence"
+            "Reservationsdriven? → Reservations Intelligence"
           ],
           "timeline": "1-2 veckor per modul",
           "cta": "Utforska moduler",
@@ -3630,8 +3630,8 @@ export const generatedLocalCopy = {
           "title": "100+ platsföretag",
           "icon": "growth",
           "items": [
-            "Börja med Enterprise tier",
-            "Full module suite + Watchtower",
+            "Börja med Enterprise-nivån",
+            "Komplett modulsvit + Watchtower",
             "Anpassade integrationer & white-label"
           ]
         }
@@ -3665,7 +3665,7 @@ export const generatedLocalCopy = {
       "cards": [
         {
           "title": "Börja gratis",
-          "description": "Report Lite, no credit card",
+          "description": "Report Lite, inget kreditkort",
           "button": "Starta gratis →",
           "icon": "report",
           "color": "bg-green-600",
@@ -3681,7 +3681,7 @@ export const generatedLocalCopy = {
         {
           "title": "Prata med en expert",
           "description": "Anpassade rekommendationer",
-          "button": "Bokdemo →",
+          "button": "Boka demo →",
           "icon": "conversation",
           "color": "bg-[#FF5C4D]",
           "href": "/demo"
@@ -3699,7 +3699,7 @@ export const generatedLocalCopy = {
       "journeyDescription": "จากการเปรียบเทียบฟรีไปจนถึงระบบอัจฉริยะระดับองค์กร",
       "steps": [
         {
-          "title": "Start Free (Report Lite)",
+          "title": "เริ่มฟรี (Report Lite)",
           "subtitle": "พิสูจน์คุณค่า ไม่ต้องจ่ายอะไรเลย",
           "description": "อัปโหลดข้อมูล POS ของคุณและรับการเปรียบเทียบทันที ไม่ต้องใช้บัตรเครดิต ดูว่าคุณยืนอยู่ตรงไหนเมื่อเทียบกับร้านอาหารที่คล้ายกันภายในไม่กี่นาที",
           "actions": [
@@ -3735,12 +3735,12 @@ export const generatedLocalCopy = {
           "subtitle": "Report Plus/Pro or Core?",
           "description": "เมื่อคุณพิสูจน์คุณค่าด้วย Report Lite แล้ว ให้เลือกเส้นทางการอัปเกรดตามความต้องการด้านความเร็วและเชิงลึก",
           "actions": [
-            "Need intelligent insights? → Report Plus/Pro",
-            "ต้องการความเร็วในการปฏิบัติงานหรือไม่? → แกนกลาง",
-            "Daily reports sufficient? → Report Plus/Pro",
-            "มากกว่า 10 แห่ง? → แกนกลาง"
+            "ต้องการข้อมูลเชิงลึกอัจฉริยะหรือไม่? → Report Plus/Pro",
+            "ต้องการความเร็วในการปฏิบัติงานหรือไม่? → Core",
+            "รายงานรายวันเพียงพอหรือไม่? → Report Plus/Pro",
+            "มากกว่า 10 แห่ง? → Core"
           ],
-          "timeline": "Report Plus/Pro: 1-2 days | Core: 1-2 weeks",
+          "timeline": "Report Plus/Pro: 1-2 วัน | Core: 1-2 สัปดาห์",
           "cta": "เปรียบเทียบตัวเลือก",
           "ctaLink": "/report-vs-core",
           "icon": "balance",
@@ -3751,11 +3751,11 @@ export const generatedLocalCopy = {
           "subtitle": "เจาะลึกลงไปในจุดที่สำคัญที่สุด",
           "description": "เลือกโมดูลพิเศษโดยพิจารณาจากปัญหาด้านการปฏิบัติงานที่ใหญ่ที่สุดของคุณ ต้องมีระดับ Core สำหรับหน่วยข่าวกรองเฉพาะทางแบบเรียลไทม์",
           "actions": [
-            "ค่าแรงสูง? → หน่วยสืบราชการลับแรงงาน",
-            "ค่าอาหาร/ขยะสูง? → หน่วยสืบราชการลับสินค้าคงคลัง",
-            "ผู้ขายที่ซับซ้อน? → ข่าวกรองการจัดซื้อ",
-            "การตลาดหนัก? → ข่าวกรองทางการตลาด",
-            "ขับเคลื่อนการจอง? → หน่วยสืบราชการลับการจอง"
+            "ค่าแรงสูง? → Labour Intelligence",
+            "ค่าอาหาร/ขยะสูง? → Inventory Intelligence",
+            "ผู้ขายที่ซับซ้อน? → Purchasing Intelligence",
+            "การตลาดหนัก? → Marketing Intelligence",
+            "ขับเคลื่อนการจอง? → Reservations Intelligence"
           ],
           "timeline": "1-2 สัปดาห์ต่อโมดูล",
           "cta": "สำรวจโมดูล",
@@ -3764,7 +3764,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         },
         {
-          "title": "Consider Watchtower (Optional)",
+          "title": "พิจารณา Watchtower (ไม่บังคับ)",
           "subtitle": "เพิ่มความฉลาดภายนอก",
           "description": "ดูว่าเกิดอะไรขึ้นนอกกำแพงทั้งสี่ของคุณ ติดตามคู่แข่ง คาดการณ์ความต้องการจากกิจกรรม และทำความเข้าใจการเปลี่ยนแปลงของตลาด",
           "actions": [
@@ -3774,7 +3774,7 @@ export const generatedLocalCopy = {
             "ข่าวกรองตลาดเชิงกลยุทธ์"
           ],
           "timeline": "การตั้งค่า 1 สัปดาห์",
-          "cta": "Learn About Watchtower",
+          "cta": "เรียนรู้เกี่ยวกับ Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
           "color": "from-[#FF6B5B] to-[#E03E48]"
@@ -3798,7 +3798,7 @@ export const generatedLocalCopy = {
         }
       ],
       "noForcedTitle": "ไม่มีไทม์ไลน์บังคับ",
-      "noForcedDescription": "เริ่มต้นด้วย Report Lite วันนี้ อัปเกรดเป็น Report Plus/Pro ในเดือนหน้า เพิ่มคอร์ในไตรมาสที่ 3 ปรับขนาดเป็น Enterprise ในไตรมาสที่ 4 คุณควบคุมจังหวะตามลำดับความสำคัญและงบประมาณของคุณ",
+      "noForcedDescription": "เริ่มต้นด้วย Report Lite วันนี้ อัปเกรดเป็น Report Plus/Pro ในเดือนหน้า เพิ่ม Core ในไตรมาสที่ 3 ปรับขนาดเป็น Enterprise ในไตรมาสที่ 4 คุณควบคุมจังหวะตามลำดับความสำคัญและงบประมาณของคุณ",
       "commonJourneysTitle": "การเดินทางทั่วไป",
       "commonJourneysDescription": "โดยทั่วไปแล้วผู้ปฏิบัติงานจะก้าวหน้าผ่าน Sundae ได้อย่างไร",
       "journeys": [
@@ -3817,7 +3817,7 @@ export const generatedLocalCopy = {
           "items": [
             "เริ่มต้นด้วย Core Lite สำหรับการดำเนินการแบบเรียลไทม์",
             "เพิ่ม 1-2 โมดูล (แรงงาน, สินค้าคงคลัง)",
-            "Add Watchtower for market intelligence"
+            "เพิ่ม Watchtower เพื่อข้อมูลตลาด"
           ]
         },
         {
@@ -3825,7 +3825,7 @@ export const generatedLocalCopy = {
           "icon": "growth",
           "items": [
             "เริ่มต้นด้วยระดับองค์กร",
-            "Full module suite + Watchtower",
+            "ชุดโมดูลครบถ้วน + Watchtower",
             "การบูรณาการแบบกำหนดเองและไวท์เลเบล"
           ]
         }
@@ -3844,7 +3844,7 @@ export const generatedLocalCopy = {
           "description": "แยกวิเคราะห์การตั้งค่าและบูรณาการ"
         },
         {
-          "tier": "Core Lite/โปร",
+          "tier": "Core Lite/Pro",
           "time": "1-2 สัปดาห์",
           "description": "การรวม POS และการตั้งค่าแบบเรียลไทม์"
         },
@@ -3859,7 +3859,7 @@ export const generatedLocalCopy = {
       "cards": [
         {
           "title": "เริ่มฟรี",
-          "description": "Report Lite, no credit card",
+          "description": "Report Lite, ไม่ต้องใช้บัตรเครดิต",
           "button": "เริ่มฟรี →",
           "icon": "report",
           "color": "bg-green-600",
@@ -3875,7 +3875,7 @@ export const generatedLocalCopy = {
         {
           "title": "พูดคุยกับผู้เชี่ยวชาญ",
           "description": "คำแนะนำที่กำหนดเอง",
-          "button": "หนังสือสาธิต →",
+          "button": "จองเดโม →",
           "icon": "conversation",
           "color": "bg-[#FF5C4D]",
           "href": "/demo"
@@ -3894,7 +3894,7 @@ export const generatedLocalCopy = {
       "steps": [
         {
           "title": "Mulakan Percuma (Report Lite)",
-          "subtitle": "Buktikan nilainya. Bayar apa-apa.",
+          "subtitle": "Buktikan nilainya. Jangan bayar apa-apa.",
           "description": "Muat naik data POS anda dan dapatkan penanda aras segera. Tiada kad kredit diperlukan. Lihat tempat anda berhadapan dengan restoran yang serupa dalam beberapa minit.",
           "actions": [
             "Muat naik data POS (format CSV)",
@@ -3926,15 +3926,15 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Tentukan Laluan Naik Taraf",
-          "subtitle": "Report Plus/Pro or Core?",
+          "subtitle": "Report Plus/Pro atau Core?",
           "description": "Sebaik sahaja anda telah membuktikan nilai dengan Report Lite, pilih laluan naik taraf anda berdasarkan keperluan kelajuan dan kedalaman.",
           "actions": [
             "Perlukan cerapan pintar? → Report Plus/Pro",
-            "Perlukan kelajuan operasi? → Teras",
+            "Perlukan kelajuan operasi? → Core",
             "Laporan harian mencukupi? → Report Plus/Pro",
-            "10+ lokasi? → Teras"
+            "10+ lokasi? → Core"
           ],
-          "timeline": "Report Plus/Pro: 1-2 hari | Teras: 1-2 minggu",
+          "timeline": "Report Plus/Pro: 1-2 hari | Core: 1-2 minggu",
           "cta": "Bandingkan Pilihan",
           "ctaLink": "/report-vs-core",
           "icon": "balance",
@@ -3958,7 +3958,7 @@ export const generatedLocalCopy = {
           "color": "from-orange-500 to-orange-600"
         },
         {
-          "title": "Consider Watchtower (Optional)",
+          "title": "Pertimbangkan Watchtower (Pilihan)",
           "subtitle": "Tambah kecerdasan luaran.",
           "description": "Lihat apa yang berlaku di luar empat dinding anda. Jejaki pesaing, ramalkan permintaan daripada acara dan fahami dinamik pasaran.",
           "actions": [
@@ -3968,7 +3968,7 @@ export const generatedLocalCopy = {
             "Perisikan pasaran strategik"
           ],
           "timeline": "Persediaan 1 minggu",
-          "cta": "Learn About Watchtower",
+          "cta": "Ketahui Mengenai Watchtower",
           "ctaLink": "/product/watchtower",
           "icon": "watchtower",
           "color": "from-[#FF6B5B] to-[#E03E48]"
@@ -3992,7 +3992,7 @@ export const generatedLocalCopy = {
         }
       ],
       "noForcedTitle": "Tiada Garis Masa Paksa",
-      "noForcedDescription": "Mulakan dengan Report Lite hari ini. Naik taraf kepada Report Plus/Pro bulan depan. Tambah Teras dalam Q3. Skalakan kepada Perusahaan pada S4. Anda mengawal rentak berdasarkan keutamaan dan belanjawan anda.",
+      "noForcedDescription": "Mulakan dengan Report Lite hari ini. Naik taraf kepada Report Plus/Pro bulan depan. Tambah Core dalam Q3. Skalakan kepada Perusahaan pada Q4. Anda mengawal rentak berdasarkan keutamaan dan belanjawan anda.",
       "commonJourneysTitle": "Perjalanan Biasa",
       "commonJourneysDescription": "Bagaimanakah pengendali biasanya maju melalui Sundae?",
       "journeys": [
@@ -4002,7 +4002,7 @@ export const generatedLocalCopy = {
           "items": [
             "Mulakan dengan Report Lite (percuma)",
             "Naik taraf kepada Report Plus untuk mendapatkan cerapan yang lebih mendalam",
-            "Pertimbangkan Teras apabila menskalakan ke 10+ lokasi"
+            "Pertimbangkan Core apabila menskalakan ke 10+ lokasi"
           ]
         },
         {
@@ -4011,7 +4011,7 @@ export const generatedLocalCopy = {
           "items": [
             "Mulakan dengan Core Lite untuk operasi masa nyata",
             "Tambah 1-2 modul (Buruh, Inventori)",
-            "Add Watchtower for market intelligence"
+            "Tambah Watchtower untuk perisikan pasaran"
           ]
         },
         {
@@ -4019,7 +4019,7 @@ export const generatedLocalCopy = {
           "icon": "growth",
           "items": [
             "Mulakan dengan peringkat Perusahaan",
-            "Full module suite + Watchtower",
+            "Suite modul lengkap + Watchtower",
             "Penyepaduan tersuai & label putih"
           ]
         }
@@ -4069,7 +4069,7 @@ export const generatedLocalCopy = {
         {
           "title": "Bercakap dengan Pakar",
           "description": "Pengesyoran tersuai",
-          "button": "Demo Buku →",
+          "button": "Tempah Demo →",
           "icon": "conversation",
           "color": "bg-[#FF5C4D]",
           "href": "/demo"

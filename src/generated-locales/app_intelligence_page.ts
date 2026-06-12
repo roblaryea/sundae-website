@@ -499,7 +499,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Analyse-Karten",
-          "description": "Strukturierte Einblicke mit Sentiment-Tagging (positiv/negativ/neutraal) und unterstützenden Datenbeweisen.",
+          "description": "Strukturierte Einblicke mit Sentiment-Tagging (positiv/negativ/neutral) und unterstützenden Datenbeweisen.",
           "icon": "insights"
         },
         {
@@ -784,7 +784,7 @@ export const generatedLocalCopy = {
           "items": [
             "Dialoog delen met machtigingsniveaus",
             "@Vermeld teamleden in vragen",
-            "Besluitlogboek (Actie Onder-nomen / Monitoring / Afgewezen)",
+            "Besluitlogboek (Actie Ondernomen / Monitoring / Afgewezen)",
             "Contextpaneel met SQL, bronnen en latentie",
             "Feedback per bericht (duim omhoog/omlaag)"
           ],
@@ -810,9 +810,9 @@ export const generatedLocalCopy = {
       "heroSecondary": "احجز عرضًا تجريبيًا",
       "platforms": [
         "تطبيق الويب",
-        "تيليجرام",
-        "سلَاك",
-        "مايكروسوفت تيمز",
+        "Telegram",
+        "Slack",
+        "Microsoft Teams",
         "إدخال صوتي"
       ],
       "modesTitle": "أربعة أوضاع متخصصة",
@@ -872,7 +872,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "9 أوامر سريعة",
-          "description": "/compare، /report، /alert، /schedule، /export، /forecast، /benchmark، /explain، /share - كل منها ي triggers prompt ذكاء محسّن.",
+          "description": "/compare، /report، /alert، /schedule، /export، /forecast، /benchmark، /explain، /share - يطلق كل منها مطالبة ذكاء محسّنة.",
           "icon": "speed"
         },
         {
@@ -1077,7 +1077,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "वॉयस इनपुट और वेक वर्ड",
-          "description": "क्वेरी को डिक्टेट करने के लिए माइक्रोफ़ोन पर क्लिक करें, या हाथों से मुक्त संचालन के लिए \"हे सुंडे\" हमेशा सुनने वाले मोड को सक्षम करें। (Sundae)",
+          "description": "क्वेरी को डिक्टेट करने के लिए माइक्रोफ़ोन पर क्लिक करें, या हाथों से मुक्त संचालन के लिए \"Hey Sundae\" हमेशा सुनने वाले मोड को सक्षम करें।",
           "icon": "device"
         },
         {
@@ -1204,7 +1204,7 @@ export const generatedLocalCopy = {
     },
     "pt": {
       "heroBadge": "Inteligência Sundae",
-      "heroTitle": "Pergunte Tudo ao Seu Dados. Obtenha Respostas em Segundos.",
+      "heroTitle": "Pergunte Qualquer Coisa aos Seus Dados. Obtenha Respostas em Segundos.",
       "heroDescription": "Perguntas em linguagem natural, respostas visuais estruturadas - alimentadas pelos dados do seu POS, inventário, mão de obra e entrega em tempo real.",
       "heroPrimary": "Experimente Grátis",
       "heroSecondary": "Agende uma Demonstração",
@@ -1629,7 +1629,7 @@ export const generatedLocalCopy = {
       "briefingDescription": "ہر نئی سیشن ایک ذاتی نوعیت کی بریفنگ کے ساتھ شروع ہوتی ہے:",
       "collaborationTitle": "تنظیم اور تعاون",
       "collaborationDescription": "پن، فولڈر، شیڈول، اور شیئر کریں - آپ کی ذہانت کی ورک اسپیس، آپ کے طریقے سے منظم۔",
-      "differentiatorsTitle": "Why Sundae Intelligence Is Different",
+      "differentiatorsTitle": "Sundae Intelligence کیوں مختلف ہے",
       "differentiatorsDescription": "ایک اور ڈیش بورڈ نہیں۔ فیصلہ سازی کی ذہانت کے لیے ایک بنیادی طور پر مختلف نقطہ نظر۔",
       "marketTitle": "ہر مارکیٹ کے لیے بنایا گیا",
       "ctaTitle": "آپ کے ڈیٹا کے پاس جوابات ہیں",
@@ -1786,7 +1786,7 @@ export const generatedLocalCopy = {
             "سوالات میں ٹیم کے اراکین کا @ذکر کریں",
             "فیصلہ سازی کا لاگ (عمل درآمد / نگرانی / خارج کردہ)",
             "SQL، ذرائع، اور تاخیر کے ساتھ سیاق و سباق کا پینل",
-            "ہر پیغام پر فیڈبیک (ٹھنڈا/گرم)"
+            "ہر پیغام پر فیڈبیک (پسند/ناپسند)"
           ],
           "icon": "operators"
         }
@@ -1830,10 +1830,10 @@ export const generatedLocalCopy = {
       "collaborationTitle": "Organizacja i współpraca",
       "collaborationDescription": "Przypnij, folder, zaplanuj i udostępnij - twoje miejsce pracy z inteligencją, zorganizowane po twojemu.",
       "differentiatorsTitle": "Dlaczego Sundae Intelligence jest inny",
-      "differentiatorsDescription": "Nie kolejny pulpit nawigacyjny. Fundamentally inny sposób podejścia do inteligencji decyzyjnej.",
+      "differentiatorsDescription": "Nie kolejny pulpit nawigacyjny. Zasadniczo inny sposób podejścia do inteligencji decyzyjnej.",
       "marketTitle": "Stworzony dla każdego rynku",
       "ctaTitle": "Twoje dane mają odpowiedzi",
-      "ctaDescription": "Rozpocznij rozmowę z danymi swojego restauracji już dziś.",
+      "ctaDescription": "Rozpocznij rozmowę z danymi swojej restauracji już dziś.",
       "modes": [
         {
           "title": "Czat",
@@ -1872,7 +1872,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "9 Komend Slash",
-          "description": "/compare, /report, /alert, /schedule, /export, /forecast, /benchmark, /explain, /share - każda uruchamia zoptymalizowany podpowiedź inteligencji.",
+          "description": "/compare, /report, /alert, /schedule, /export, /forecast, /benchmark, /explain, /share - każda uruchamia zoptymalizowaną podpowiedź inteligencji.",
           "icon": "speed"
         },
         {
@@ -1933,7 +1933,7 @@ export const generatedLocalCopy = {
           "icon": "chart"
         },
         {
-          "title": "Zaplanuowana dostawa inteligencji",
+          "title": "Zaplanowana dostawa inteligencji",
           "description": "Codzienne, tygodniowe lub miesięczne spostrzeżenia dostarczane przez e-mail, Slack, Telegram, Teams lub webhook.",
           "icon": "schedule"
         },
@@ -1969,7 +1969,7 @@ export const generatedLocalCopy = {
           "icon": "insights"
         },
         {
-          "title": "Zgłoszone Raporty",
+          "title": "Zaplanowane Raporty",
           "items": [
             "Codzienne, tygodniowe, miesięczne lub niestandardowe harmonogramy",
             "Dostarczaj przez e-mail, Slack, Telegram, Teams, webhook",
@@ -2386,7 +2386,7 @@ export const generatedLocalCopy = {
             "Sorgularda ekip üyelerini @Bahset",
             "Karar kaydı (Alınan Eylem / İzleme / Reddedildi)",
             "SQL, kaynaklar ve gecikme ile bağlam paneli",
-            "Mesaj başına geri bildirim (beğen/hoşlanma)"
+            "Mesaj başına geri bildirim (beğen/beğenme)"
           ],
           "icon": "operators"
         }
@@ -2586,7 +2586,7 @@ export const generatedLocalCopy = {
             "クエリ内でチームメンバーを@メンション",
             "決定ログ（実行済み/監視中/却下）",
             "SQL、ソース、レイテンシーを含むコンテキストパネル",
-            "メッセージごとのフィードバック（いいね/悪いね）"
+            "メッセージごとのフィードバック（高評価/低評価）"
           ],
           "icon": "operators"
         }
@@ -2784,7 +2784,7 @@ export const generatedLocalCopy = {
           "items": [
             "Bagikan dialog dengan tingkat izin",
             "@Sebut anggota tim dalam kueri",
-            "Catatan keputusan (Tindakan Diambil / Pemantauan / Dismissed)",
+            "Catatan keputusan (Tindakan Diambil / Pemantauan / Ditolak)",
             "Panel konteks dengan SQL, sumber, dan latensi",
             "Umpan balik per pesan (jempol atas/bawah)"
           ],
@@ -2807,7 +2807,7 @@ export const generatedLocalCopy = {
       "heroTitle": "Hỏi Dữ Liệu Của Bạn Bất Cứ Điều Gì. Nhận Câu Trả Lời Trong Vài Giây.",
       "heroDescription": "Câu hỏi bằng ngôn ngữ tự nhiên, câu trả lời trực quan có cấu trúc - được hỗ trợ bởi dữ liệu POS, tồn kho, lao động và giao hàng của bạn trong thời gian thực.",
       "heroPrimary": "Dùng thử miễn phí",
-      "heroSecondary": "Đặt lịch Dùng thử",
+      "heroSecondary": "Đặt lịch Demo",
       "platforms": [
         "Ứng dụng Web",
         "Telegram",
@@ -3003,7 +3003,7 @@ export const generatedLocalCopy = {
       ]
     },
     "ro": {
-      "heroBadge": "Inteligenta Sundae",
+      "heroBadge": "Inteligența Sundae",
       "heroTitle": "Întreabă-ți datele orice. Obține răspunsuri în câteva secunde.",
       "heroDescription": "Întrebări în limbaj natural, răspunsuri vizuale structurate - alimentate de datele tale POS, de inventar, de muncă și de livrare în timp real.",
       "heroPrimary": "Încearcă gratuit",
@@ -3429,7 +3429,7 @@ export const generatedLocalCopy = {
       "briefingDescription": "প্রতিটি নতুন সেশন একটি ব্যক্তিগতকৃত ব্রিফিং দিয়ে শুরু হয়:",
       "collaborationTitle": "সংগঠন ও সহযোগিতা",
       "collaborationDescription": "পিন, ফোল্ডার, সময়সূচী এবং শেয়ার করুন - আপনার বুদ্ধিমত্তার কর্মক্ষেত্র, আপনার মতো করে সংগঠিত।",
-      "differentiatorsTitle": "Why Sundae Intelligence Is Different",
+      "differentiatorsTitle": "Sundae Intelligence কেন আলাদা",
       "differentiatorsDescription": "আরেকটি ড্যাশবোর্ড নয়। সিদ্ধান্ত বুদ্ধিমত্তার জন্য একটি মৌলিকভাবে ভিন্ন পদ্ধতি।",
       "marketTitle": "প্রতিটি বাজারের জন্য নির্মিত",
       "ctaTitle": "আপনার ডেটার উত্তর আছে",
@@ -3450,7 +3450,7 @@ export const generatedLocalCopy = {
           "badge": "গভীর ডুব"
         },
         {
-          "title": "মonitor",
+          "title": "মনিটর",
           "shortcut": "⌘ 3",
           "description": "স্বয়ংক্রিয়ভাবে রিফ্রেশ হওয়া KPI ড্যাশবোর্ড। 60 সেকেন্ডের সাইকেল। 15% বিচ্যুতি অতিক্রমকারী অস্বাভাবিকতা হাইলাইট করে।",
           "icon": "pulse",
@@ -3689,7 +3689,7 @@ export const generatedLocalCopy = {
       "responseCards": [
         {
           "title": "KPI 카드",
-          "description": "단일 지표와 값, 전년 대비 변화, 7일 스파크라인, 세분화 차트.",
+          "description": "단일 지표와 값, 전기 대비 변화, 7일 스파크라인, 세분화 차트.",
           "icon": "chart"
         },
         {
@@ -4112,7 +4112,7 @@ export const generatedLocalCopy = {
         "ความผิดปกติของรายได้ (เทียบกับค่าเฉลี่ย 30 วัน)",
         "จำนวนคำสั่งซื้อเพิ่มขึ้นหรือลดลง",
         "การเปลี่ยนแปลงขนาดตั๋วเฉลี่ย",
-        "การตรวจจับกิจกรรมในนอกเวลาทำการ",
+        "การตรวจจับกิจกรรมนอกเวลาทำการ",
         "การเปลี่ยนแปลงสินค้าที่ขายดีที่สุด",
         "การเปลี่ยนแปลงวิธีการชำระเงิน"
       ],

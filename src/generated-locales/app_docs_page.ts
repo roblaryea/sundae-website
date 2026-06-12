@@ -35,7 +35,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Using Sundae Report",
+          "title": "Utiliser Sundae Report",
           "description": "Tirez le meilleur parti des rapports de benchmarking et de performance gratuits",
           "icon": "benchmarking",
           "color": "bg-green-600",
@@ -160,7 +160,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Using Sundae Report",
+          "title": "Sundae Report verwenden",
           "description": "Nutzen Sie die kostenlosen Benchmarking- und Leistungsberichte optimal aus",
           "icon": "benchmarking",
           "color": "bg-green-600",
@@ -221,7 +221,7 @@ export const generatedLocalCopy = {
             "Benutzerzugriffssteuerungen und Berechtigungen",
             "DSGVO und Compliance",
             "Datenaufbewahrungsrichtlinien",
-            "Datenschutzbest Practices"
+            "Best Practices für Datenschutz"
           ]
         }
       ],
@@ -285,7 +285,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Using Sundae Report",
+          "title": "Usar Sundae Report",
           "description": "Aprovecha al máximo los informes de referencia y rendimiento gratuitos",
           "icon": "benchmarking",
           "color": "bg-green-600",
@@ -410,7 +410,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Using Sundae Report",
+          "title": "Sundae Report gebruiken",
           "description": "Haal het meeste uit gratis benchmarking en prestatieverslagen",
           "icon": "benchmarking",
           "color": "bg-green-600",
@@ -507,7 +507,7 @@ export const generatedLocalCopy = {
       "title": "كل ما تحتاج لمعرفته",
       "description": "أدلة، مراجع API، وأفضل الممارسات لمساعدتك في الاستفادة القصوى من Sundae.",
       "primaryCta": "احجز عرضًا تجريبيًا",
-      "secondaryCta": "Try Sundae Report (Free)",
+      "secondaryCta": "جرّب Sundae Report (مجانًا)",
       "topicsLabel": "المواضيع:",
       "quickStartTitle": "دليل البدء السريع",
       "quickStartDescription": "ابدأ العمل مع Sundae في أربع خطوات بسيطة",
@@ -535,7 +535,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Using Sundae Report",
+          "title": "استخدام Sundae Report",
           "description": "استفد إلى أقصى حد من تقارير الأداء والمقارنة المجانية",
           "icon": "benchmarking",
           "color": "bg-green-600",
@@ -555,7 +555,7 @@ export const generatedLocalCopy = {
           "topics": [
             "طرح الأسئلة باللغة الإنجليزية البسيطة",
             "استكشاف لوحات المعلومات والمخططات",
-            "إنشاء وجهات نظر مخصصة",
+            "إنشاء طرق عرض مخصصة",
             "حفظ ومشاركة الرؤى",
             "تقنيات الاستعلام المتقدمة"
           ]
@@ -581,7 +581,7 @@ export const generatedLocalCopy = {
           "topics": [
             "إنشاء لوحات معلومات مخصصة",
             "تكوين الأدوات ومؤشرات الأداء الرئيسية",
-            "إعداد وجهات نظر قائمة على الأدوار",
+            "إعداد طرق عرض قائمة على الأدوار",
             "جدولة التقارير الآلية",
             "مشاركة لوحات المعلومات مع الفرق"
           ]
@@ -648,11 +648,11 @@ export const generatedLocalCopy = {
       "sections": [
         {
           "title": "شروع کرنا",
-          "description": "Learn how to onboard to Sundae and connect your data sources",
+          "description": "جانیں کہ Sundae میں آن بورڈ کیسے ہوں اور اپنے ڈیٹا کے ذرائع کو کیسے جوڑیں",
           "icon": "growth",
           "color": "bg-[#FF5C4D]",
           "topics": [
-            "Creating your Sundae account",
+            "اپنا Sundae اکاؤنٹ بنانا",
             "اپنے POS سسٹم کو جوڑنا",
             "تنخواہوں اور HR کے ڈیٹا کو ضم کرنا",
             "بجٹ اور پیش گوئیوں کو لنک کرنا",
@@ -660,7 +660,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Using Sundae Report",
+          "title": "Sundae Report کا استعمال",
           "description": "مفت بینچ مارکنگ اور کارکردگی کی رپورٹس سے زیادہ سے زیادہ فائدہ اٹھائیں",
           "icon": "benchmarking",
           "color": "bg-green-600",
@@ -673,7 +673,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Sundae Core Guide",
+          "title": "Sundae Core گائیڈ",
           "description": "قدرتی زبان کے سوالات کے ساتھ کاروباری ذہانت میں مہارت حاصل کریں",
           "icon": "intelligence",
           "color": "bg-[#FF5C4D]",
@@ -713,7 +713,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "سیکیورٹی اور ڈیٹا کی رازداری",
-          "description": "Understand how Sundae protects your data",
+          "description": "سمجھیں کہ Sundae آپ کے ڈیٹا کی حفاظت کیسے کرتا ہے",
           "icon": "owners",
           "color": "bg-teal-600",
           "topics": [
@@ -882,7 +882,7 @@ export const generatedLocalCopy = {
       "title": "आपको जानने की ज़रूरत है सब कुछ",
       "description": "गाइड, API संदर्भ, और सर्वोत्तम प्रथाएँ जो आपको Sundae से अधिकतम लाभ उठाने में मदद करेंगी।",
       "primaryCta": "डेमो बुक करें",
-      "secondaryCta": "Try Sundae Report (Free)",
+      "secondaryCta": "Sundae Report आज़माएँ (निःशुल्क)",
       "topicsLabel": "विषय:",
       "quickStartTitle": "त्वरित प्रारंभ गाइड",
       "quickStartDescription": "चार सरल चरणों में Sundae के साथ शुरू करें",
@@ -910,7 +910,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Using Sundae Report",
+          "title": "Sundae Report का उपयोग",
           "description": "नि:शुल्क बेंचमार्किंग और प्रदर्शन रिपोर्ट से अधिकतम लाभ प्राप्त करें",
           "icon": "benchmarking",
           "color": "bg-green-600",
@@ -923,7 +923,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Sundae Core Guide",
+          "title": "Sundae Core गाइड",
           "description": "प्राकृतिक भाषा प्रश्नों के साथ संवादात्मक व्यावसायिक बुद्धिमत्ता में महारत हासिल करें",
           "icon": "intelligence",
           "color": "bg-[#FF5C4D]",
@@ -1160,7 +1160,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Using Sundae Report",
+          "title": "使用 Sundae Report",
           "description": "充分利用免费的基准和绩效报告",
           "icon": "benchmarking",
           "color": "bg-green-600",
@@ -1173,7 +1173,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Sundae Core Guide",
+          "title": "Sundae Core 指南",
           "description": "掌握自然语言查询的对话式商业智能",
           "icon": "intelligence",
           "color": "bg-[#FF5C4D]",
@@ -1257,7 +1257,7 @@ export const generatedLocalCopy = {
       "title": "Bilmeniz Gereken Her Şey",
       "description": "Sundae'den en iyi şekilde yararlanmanıza yardımcı olacak kılavuzlar, API referansları ve en iyi uygulamalar.",
       "primaryCta": "Demo Rezervasyonu Yap",
-      "secondaryCta": "Try Sundae Report (Free)",
+      "secondaryCta": "Sundae Report'u Deneyin (Ücretsiz)",
       "topicsLabel": "Konu Başlıkları:",
       "quickStartTitle": "Hızlı Başlangıç Kılavuzu",
       "quickStartDescription": "Sundae ile dört basit adımda başlayın",
@@ -1285,7 +1285,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Using Sundae Report",
+          "title": "Sundae Report'u Kullanma",
           "description": "Ücretsiz kıyaslama ve performans raporlarından en iyi şekilde yararlanın",
           "icon": "benchmarking",
           "color": "bg-green-600",
@@ -1299,7 +1299,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Sundae Core Kılavuzu",
-          "description": "Doğal dil sorguları ile konuşma tabanlı iş zekasını ustalaşın",
+          "description": "Doğal dil sorguları ile konuşma tabanlı iş zekasında ustalaşın",
           "icon": "intelligence",
           "color": "bg-[#FF5C4D]",
           "topics": [
@@ -1674,7 +1674,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Panduan Sundae Core",
-          "description": "Kuasi kecerdasan bisnis percakapan dengan kueri bahasa alami",
+          "description": "Kuasai kecerdasan bisnis percakapan dengan kueri bahasa alami",
           "icon": "intelligence",
           "color": "bg-[#FF5C4D]",
           "topics": [
@@ -2116,7 +2116,7 @@ export const generatedLocalCopy = {
         {
           "step": "3",
           "title": "Pune Întrebări",
-          "description": "Folosește Sundae Core pentru a interoga datele tale în limba română și obține răspunsuri instantanee",
+          "description": "Folosește Sundae Core pentru a interoga datele tale în engleză simplă și obține răspunsuri instantanee",
           "icon": "intelligence"
         },
         {
@@ -2173,7 +2173,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Sundae Core Guide",
+          "title": "Sundae Core-guide",
           "description": "Behärska konverserande affärsintelligens med naturliga språkfrågor",
           "icon": "intelligence",
           "color": "bg-[#FF5C4D]",
@@ -2382,10 +2382,10 @@ export const generatedLocalCopy = {
       "title": "আপনার জানা দরকার সবকিছু",
       "description": "গাইড, API রেফারেন্স এবং সেরা অনুশীলনগুলি আপনাকে Sundae থেকে সর্বাধিক সুবিধা নিতে সহায়তা করবে।",
       "primaryCta": "ডেমো বুক করুন",
-      "secondaryCta": "Try Sundae Report (Free)",
+      "secondaryCta": "Sundae Report চেষ্টা করুন (বিনামূল্যে)",
       "topicsLabel": "বিষয়সমূহ:",
       "quickStartTitle": "দ্রুত শুরু গাইড",
-      "quickStartDescription": "Get up and running with Sundae in four simple steps",
+      "quickStartDescription": "চারটি সহজ ধাপে Sundae দিয়ে শুরু করুন",
       "stepLabel": "ধাপ",
       "comingSoonTitle": "আরও ডকুমেন্টেশন শীঘ্রই আসছে",
       "comingSoonDescription": "আমরা আমাদের ডকুমেন্টেশন ক্রমাগত সম্প্রসারিত করছি। API রেফারেন্স, ভিডিও টিউটোরিয়াল এবং উন্নত গাইডের জন্য শীঘ্রই আবার দেখুন।",
@@ -2410,7 +2410,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Using Sundae Report",
+          "title": "Sundae Report ব্যবহার করা",
           "description": "ফ্রি বেঞ্চমার্কিং এবং পারফরম্যান্স রিপোর্ট থেকে সর্বাধিক সুবিধা নিন",
           "icon": "benchmarking",
           "color": "bg-green-600",
@@ -2423,7 +2423,7 @@ export const generatedLocalCopy = {
           ]
         },
         {
-          "title": "Sundae Core Guide",
+          "title": "Sundae Core গাইড",
           "description": "প্রাকৃতিক ভাষার প্রশ্নের মাধ্যমে কথোপকথনমূলক ব্যবসায়িক বুদ্ধিমত্তা মাস্টার করুন",
           "icon": "intelligence",
           "color": "bg-[#FF5C4D]",
@@ -2519,7 +2519,7 @@ export const generatedLocalCopy = {
       "supportTitle": "Perlu Bantuan?",
       "supportDescription": "Pasukan kami di sini untuk membantu anda mendapatkan yang terbaik daripada Sundae.",
       "supportCta": "Hubungi Sokongan",
-      "trainingCta": "Jadwalkan Latihan",
+      "trainingCta": "Jadualkan Latihan",
       "sections": [
         {
           "title": "Memulakan",
@@ -2549,7 +2549,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Panduan Sundae Core",
-          "description": "Kuasi kecerdasan perniagaan perbualan dengan pertanyaan bahasa semula jadi",
+          "description": "Kuasai kecerdasan perniagaan perbualan dengan pertanyaan bahasa semula jadi",
           "icon": "intelligence",
           "color": "bg-[#FF5C4D]",
           "topics": [

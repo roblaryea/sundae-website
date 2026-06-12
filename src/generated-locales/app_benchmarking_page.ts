@@ -26,7 +26,7 @@ export const generatedLocalCopy = {
           "icon": "chart"
         },
         {
-          "name": "Sitzbelegung",
+          "name": "Sitzplatzbelegung",
           "description": "Wie effektiv Sie Ihre Plätze im Vergleich zu ähnlichen Restaurants in Ihrem Markt füllen.",
           "icon": "restaurant"
         },
@@ -98,7 +98,7 @@ export const generatedLocalCopy = {
       "description": "Compara tus números con datos anónimos de tus pares, incluyendo el Índice RevPASH, ocupación de asientos, promedio de cheque y índices de ingresos, con contexto que muestra dónde te encuentras.",
       "heroPrimary": "Prueba Benchmarks Gratis",
       "heroSecondary": "Reservar una demostración",
-      "howTitle": "Cómo funcionan las métricas de Sundae",
+      "howTitle": "Cómo funcionan los Benchmarks de Sundae",
       "howDescription": "Sube tus datos. Obtén comparaciones instantáneas con restaurantes como el tuyo.",
       "metricsTitle": "Lo Que Puedes Comparar",
       "metricsDescription": "Más de 30 métricas sobre rendimiento, eficiencia y posición en el mercado.",
@@ -195,7 +195,7 @@ export const generatedLocalCopy = {
       "forecastTitle": "توقعات الإيرادات",
       "forecastDescription": "توقع الإيرادات باستخدام اتجاهاتك وبيانات السوق لتقدير الأداء المستقبلي.",
       "tiersTitle": "متاح عبر جميع الفئات",
-      "tiersDescription": "Start benchmarking for free with Report Lite. Unlock deeper intelligence as you grow.",
+      "tiersDescription": "ابدأ المقارنة المعيارية مجانًا مع Report Lite. واكتشف ذكاءً أعمق مع نموّك.",
       "ctaTitle": "انظر أين تقف",
       "ctaDescription": "قم بتحميل بياناتك واحصل على أول معيار لك في دقائق. مجاني، لا حاجة لبطاقة ائتمان.",
       "startFree": "ابدأ تقييم مجاني",
@@ -206,7 +206,7 @@ export const generatedLocalCopy = {
           "icon": "chart"
         },
         {
-          "name": "شغل المقاعد",
+          "name": "إشغال المقاعد",
           "description": "مدى فعالية ملء مقاعدك مقارنة بالمطاعم المماثلة في سوقك.",
           "icon": "restaurant"
         },
@@ -356,7 +356,7 @@ export const generatedLocalCopy = {
           "description": "15 metrics. Automatisch geparsed uploads. 1 jaar opslag."
         },
         {
-          "label": "VOLLEDIGE KRAFT",
+          "label": "VOLLEDIGE KRACHT",
           "title": "Report Pro / Core",
           "description": "30+ metrics. API-integratie. Meerdere jaren opslag."
         }
@@ -465,7 +465,7 @@ export const generatedLocalCopy = {
       "forecastTitle": "राजस्व पूर्वानुमान",
       "forecastDescription": "आपके रुझानों और बाजार डेटा का उपयोग करके राजस्व की भविष्यवाणी करना ताकि भविष्य के प्रदर्शन का अनुमान लगाया जा सके।",
       "tiersTitle": "सभी स्तरों में उपलब्ध",
-      "tiersDescription": "Start benchmarking for free with Report Lite. Unlock deeper intelligence as you grow.",
+      "tiersDescription": "Report Lite के साथ मुफ़्त में बेंचमार्किंग शुरू करें। जैसे-जैसे आप बढ़ते हैं, और गहरी इंटेलिजेंस अनलॉक करें।",
       "ctaTitle": "देखें कि आप कहाँ खड़े हैं",
       "ctaDescription": "अपने डेटा को अपलोड करें और मिनटों में अपना पहला बेंचमार्क प्राप्त करें। मुफ्त, कोई क्रेडिट कार्ड की आवश्यकता नहीं।",
       "startFree": "मुफ्त बेंचमार्क शुरू करें",
@@ -548,7 +548,7 @@ export const generatedLocalCopy = {
       "description": "Compare seus números com dados anônimos de colegas, incluindo o Índice RevPASH, ocupação de assentos, ticket médio e índices de receita, com contexto que mostra onde você está.",
       "heroPrimary": "Experimente Benchmarks Grátis",
       "heroSecondary": "Agende uma Demonstração",
-      "howTitle": "Como Funcionam as Avaliações da Sundae",
+      "howTitle": "Como Funcionam os Benchmarks da Sundae",
       "howDescription": "Envie seus dados. Obtenha comparações instantâneas com restaurantes como o seu.",
       "metricsTitle": "O Que Você Pode Comparar",
       "metricsDescription": "Mais de 30 métricas sobre desempenho, eficiência e posição de mercado.",
@@ -638,14 +638,14 @@ export const generatedLocalCopy = {
       "description": "اپنے اعداد و شمار کا موازنہ نامعلوم ساتھیوں کے ڈیٹا کے ساتھ کریں، جس میں RevPASH انڈیکس، نشست کی موجودگی، اوسط چیک، اور آمدنی کے انڈیکس شامل ہیں، اس سیاق و سباق کے ساتھ جو آپ کی حیثیت کو ظاہر کرتا ہے۔",
       "heroPrimary": "مفت بینچ مارکس آزمائیں",
       "heroSecondary": "ڈیمو بک کریں",
-      "howTitle": "How Sundae Benchmarks Work",
+      "howTitle": "Sundae بینچ مارکس کیسے کام کرتے ہیں",
       "howDescription": "اپنے ڈیٹا کو اپ لوڈ کریں۔ اپنے جیسے ریستورانوں کے خلاف فوری موازنہ حاصل کریں۔",
       "metricsTitle": "آپ کیا بینچ مارک کر سکتے ہیں",
       "metricsDescription": "کارکردگی، مؤثریت، اور مارکیٹ کی حیثیت میں 30+ میٹرکس۔",
       "forecastTitle": "آمدنی کی پیش گوئی",
       "forecastDescription": "آپ کے رجحانات اور مارکیٹ کے ڈیٹا کا استعمال کرتے ہوئے آمدنی کی پیش گوئی تاکہ مستقبل کی کارکردگی کا اندازہ لگایا جا سکے۔",
       "tiersTitle": "تمام سطحوں پر دستیاب",
-      "tiersDescription": "Start benchmarking for free with Report Lite. Unlock deeper intelligence as you grow.",
+      "tiersDescription": "Report Lite کے ساتھ مفت میں بینچ مارکنگ شروع کریں۔ جیسے جیسے آپ بڑھیں، گہری ذہانت کو کھولیں۔",
       "ctaTitle": "دیکھیں آپ کہاں کھڑے ہیں",
       "ctaDescription": "اپنے ڈیٹا کو اپ لوڈ کریں اور چند منٹوں میں اپنا پہلا بینچ مارک حاصل کریں۔ مفت، کوئی کریڈٹ کارڈ درکار نہیں۔",
       "startFree": "مفت بینچ مارک شروع کریں",
@@ -656,7 +656,7 @@ export const generatedLocalCopy = {
           "icon": "chart"
         },
         {
-          "name": "سیٹ کی بھرائی",
+          "name": "نشستوں کا اِشغال",
           "description": "آپ کی سیٹوں کو بھرنے کی تاثیر کا موازنہ آپ کے مارکیٹ میں مشابہ ریستورانوں کے ساتھ۔",
           "icon": "restaurant"
         },
@@ -818,7 +818,7 @@ export const generatedLocalCopy = {
       "description": "RevPASH İndeksi, oturma doluluğu, ortalama hesap ve gelir indeksleri dahil olmak üzere anonimleştirilmiş akran verileriyle sayılarınızı karşılaştırın; bu, nerede durduğunuzu gösteren bir bağlam sağlar.",
       "heroPrimary": "Ücretsiz Karşılaştırmaları Deneyin",
       "heroSecondary": "Demo Rezervasyonu Yap",
-      "howTitle": "Sundae Benchmark'lerinin Nasıl Çalıştığı",
+      "howTitle": "Sundae Benchmark Nasıl Çalışır",
       "howDescription": "Verilerinizi yükleyin. Benzer restoranlarla anlık karşılaştırmalar alın.",
       "metricsTitle": "Neleri Karşılaştırabilirsiniz",
       "metricsDescription": "Performans, verimlilik ve pazar konumu açısından 30+ metrik.",
@@ -836,7 +836,7 @@ export const generatedLocalCopy = {
           "icon": "chart"
         },
         {
-          "name": "Koltuk Dolu Olma Oranı",
+          "name": "Koltuk Doluluk Oranı",
           "description": "Pazarınızdaki benzer restoranlarla karşılaştırıldığında koltuklarınızı ne kadar etkili doldurduğunuz.",
           "icon": "restaurant"
         },
@@ -922,7 +922,7 @@ export const generatedLocalCopy = {
       "metrics": [
         {
           "name": "Wskaźnik RevPASH",
-          "description": "Przychód na dostępny godzinę miejsca - złoty standard efektywności przestrzeni restauracyjnej.",
+          "description": "Przychód na dostępne miejsce na godzinę - złoty standard efektywności przestrzeni restauracyjnej.",
           "icon": "chart"
         },
         {
@@ -965,7 +965,7 @@ export const generatedLocalCopy = {
         {
           "step": "3",
           "title": "Uzyskaj wgląd",
-          "description": "Zobacz, gdzie przeważasz, gdzie masz zaległości i co z tym zrobić."
+          "description": "Zobacz, gdzie wypadasz lepiej, gdzie masz zaległości i co z tym zrobić."
         }
       ],
       "forecastFeatures": [
@@ -1085,7 +1085,7 @@ export const generatedLocalCopy = {
     "ja": {
       "badge": "競争情報",
       "title": "推測をやめて、知識を得よう。",
-      "description": "匿名の同業者データと比較し、RevPASHインデックス、席の占有率、平均チェック、収益インデックスを含む数字を確認し、自分の立ち位置を示すコンテキストを提供します。",
+      "description": "匿名の同業者データと比較し、RevPASHインデックス、席の占有率、平均客単価、収益インデックスを含む数字を確認し、自分の立ち位置を示すコンテキストを提供します。",
       "heroPrimary": "無料ベンチマークを試す",
       "heroSecondary": "デモを予約する",
       "howTitle": "Sundaeのベンチマークの仕組み",
@@ -1111,7 +1111,7 @@ export const generatedLocalCopy = {
           "icon": "restaurant"
         },
         {
-          "name": "平均チェックサイズ",
+          "name": "平均客単価",
           "description": "競合と比較したゲストあたりの支出、時間を通じたトレンド分析。",
           "icon": "finance"
         },
@@ -1196,7 +1196,7 @@ export const generatedLocalCopy = {
           "icon": "chart"
         },
         {
-          "name": "Kepadatan Kursi",
+          "name": "Tingkat Hunian Kursi",
           "description": "Seberapa efektif Anda mengisi kursi dibandingkan restoran serupa di pasar Anda.",
           "icon": "restaurant"
         },
@@ -1229,7 +1229,7 @@ export const generatedLocalCopy = {
         },
         {
           "step": "2",
-          "title": "Cocokkan Komposisi Anda",
+          "title": "Cocokkan Set Pembanding Anda",
           "description": "Dibandingkan dengan rekan anonim berdasarkan masakan, ukuran, pasar, dan model layanan."
         },
         {
@@ -1286,12 +1286,12 @@ export const generatedLocalCopy = {
           "icon": "chart"
         },
         {
-          "name": "Tỷ lệ Chiếm Ghế",
+          "name": "Tỷ lệ Lấp Đầy Ghế",
           "description": "Mức độ hiệu quả trong việc lấp đầy ghế của bạn so với các nhà hàng tương tự trong thị trường của bạn.",
           "icon": "restaurant"
         },
         {
-          "name": "Kích Thước Kiểm Tra Trung Bình",
+          "name": "Hóa Đơn Trung Bình",
           "description": "Chi tiêu trung bình mỗi khách so với nhóm cạnh tranh của bạn, với phân tích xu hướng theo thời gian.",
           "icon": "finance"
         },
@@ -1410,7 +1410,7 @@ export const generatedLocalCopy = {
         {
           "step": "2",
           "title": "Potriviți Competiția",
-          "description": "Potrivit cu colegi anonimizati după bucătărie, dimensiune, piață și model de servicii."
+          "description": "Potrivit cu colegi anonimizați după bucătărie, dimensiune, piață și model de servicii."
         },
         {
           "step": "3",
@@ -1445,7 +1445,7 @@ export const generatedLocalCopy = {
     "ko": {
       "badge": "경쟁 정보",
       "title": "추측을 멈추고, 알기 시작하세요.",
-      "description": "익명화된 동료 데이터와 함께 RevPASH 지수, 좌석 점유율, 평균 체크, 수익 지수 등을 비교하여 현재 위치를 보여주는 맥락을 제공합니다.",
+      "description": "익명화된 동종업계 데이터와 함께 RevPASH 지수, 좌석 점유율, 평균 객단가, 수익 지수 등을 비교하여 현재 위치를 보여주는 맥락을 제공합니다.",
       "heroPrimary": "무료 벤치마크 체험하기",
       "heroSecondary": "데모 예약하기",
       "howTitle": "Sundae 벤치마크 작동 방식",
@@ -1462,7 +1462,7 @@ export const generatedLocalCopy = {
       "metrics": [
         {
           "name": "RevPASH 지수",
-          "description": "좌석 시간당 수익 - 레스토랑 공간 효율성의 기준.",
+          "description": "이용 가능한 좌석 시간당 수익 - 레스토랑 공간 효율성의 황금 기준.",
           "icon": "chart"
         },
         {
@@ -1471,7 +1471,7 @@ export const generatedLocalCopy = {
           "icon": "restaurant"
         },
         {
-          "name": "평균 체크 사이즈",
+          "name": "평균 객단가",
           "description": "경쟁업체와 비교한 손님당 지출, 시간에 따른 추세 분석 포함.",
           "icon": "finance"
         },
@@ -1589,7 +1589,7 @@ export const generatedLocalCopy = {
         },
         {
           "step": "2",
-          "title": "Matcha ditt komparativt set",
+          "title": "Matcha din jämförelsegrupp",
           "description": "Matchas mot anonymiserade kollegor efter kök, storlek, marknad och servicemodell."
         },
         {
@@ -1628,14 +1628,14 @@ export const generatedLocalCopy = {
       "description": "আপনার সংখ্যা অজ্ঞাত সহকর্মীদের তথ্যের বিরুদ্ধে তুলনা করুন, যার মধ্যে রয়েছে RevPASH সূচক, আসন দখল, গড় চেক এবং রাজস্ব সূচক, সেই প্রসঙ্গে যা দেখায় আপনি কোথায় অবস্থান করছেন।",
       "heroPrimary": "ফ্রি বেঞ্চমার্ক চেষ্টা করুন",
       "heroSecondary": "ডেমো বুক করুন",
-      "howTitle": "How Sundae Benchmarks Work",
+      "howTitle": "Sundae বেঞ্চমার্ক কীভাবে কাজ করে",
       "howDescription": "আপনার ডেটা আপলোড করুন। আপনার মতো রেস্টুরেন্টগুলোর বিরুদ্ধে তাত্ক্ষণিক তুলনা পান।",
       "metricsTitle": "আপনি কী পরিমাপ করতে পারেন",
       "metricsDescription": "পারফরম্যান্স, দক্ষতা এবং বাজার অবস্থানের মধ্যে 30+ মেট্রিক।",
       "forecastTitle": "আয় পূর্বাভাস",
       "forecastDescription": "আপনার প্রবণতা এবং বাজারের তথ্য ব্যবহার করে রাজস্ব পূর্বাভাস দেওয়া যাতে ভবিষ্যতের কর্মক্ষমতা অনুমান করা যায়।",
       "tiersTitle": "সব স্তরে উপলব্ধ",
-      "tiersDescription": "Start benchmarking for free with Report Lite. Unlock deeper intelligence as you grow.",
+      "tiersDescription": "Report Lite দিয়ে বিনামূল্যে বেঞ্চমার্কিং শুরু করুন। আপনি বড় হওয়ার সাথে সাথে আরও গভীর ইন্টেলিজেন্স আনলক করুন।",
       "ctaTitle": "আপনি কোথায় আছেন দেখুন",
       "ctaDescription": "আপনার ডেটা আপলোড করুন এবং মিনিটের মধ্যে আপনার প্রথম বেঞ্চমার্ক পান। ফ্রি, ক্রেডিট কার্ডের প্রয়োজন নেই।",
       "startFree": "ফ্রি বেঞ্চমার্ক শুরু করুন",
@@ -1791,9 +1791,9 @@ export const generatedLocalCopy = {
           "description": "5 metrik utama. Muat naik CSV. Penahanan 90 hari."
         },
         {
-          "label": "POPULER",
+          "label": "POPULAR",
           "title": "Report Plus",
-          "description": "15 metrik. Muat naik auto-parsed. Penahanan 1 tahun."
+          "description": "15 metrik. Muat naik yang dihurai secara automatik. Penahanan 1 tahun."
         },
         {
           "label": "KUASA PENUH",
@@ -1831,7 +1831,7 @@ export const generatedLocalCopy = {
           "icon": "restaurant"
         },
         {
-          "name": "ขนาดเช็คเฉลี่ย",
+          "name": "ยอดบิลเฉลี่ย",
           "description": "การใช้จ่ายต่อแขกเมื่อเปรียบเทียบกับคู่แข่งของคุณ พร้อมการวิเคราะห์แนวโน้มตามเวลา.",
           "icon": "finance"
         },

@@ -34,7 +34,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Intelligence externe via Watchtower",
-          "description": "Nouveau concurrent ? Couvertures météo en chute ? Concert annoncé ? Vous saurez avant que cela n'affecte vos chiffres.",
+          "description": "Nouveau concurrent ? L'affluence chute à cause de la météo ? Concert annoncé ? Vous saurez avant que cela n'affecte vos chiffres.",
           "icon": "watchtower",
           "color": "bg-red-600"
         },
@@ -162,7 +162,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Inteligencia Externa a través de Watchtower",
-          "description": "¿Nuevo competidor? ¿El clima afecta las coberturas? ¿Concierto anunciado? Lo sabrás antes de que afecte tus números.",
+          "description": "¿Nuevo competidor? ¿El mal tiempo reduce los comensales? ¿Concierto anunciado? Lo sabrás antes de que afecte tus números.",
           "icon": "watchtower",
           "color": "bg-red-600"
         },
@@ -418,7 +418,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "الذكاء الخارجي عبر Watchtower",
-          "description": "منافس جديد؟ تغطيات الطقس تتدهور؟ تم الإعلان عن حفل موسيقي؟ ستعرف قبل أن يؤثر ذلك على أرقامك.",
+          "description": "منافس جديد؟ طقس سيئ يقلّص عدد الضيوف؟ تم الإعلان عن حفل موسيقي؟ ستعرف قبل أن يؤثر ذلك على أرقامك.",
           "icon": "watchtower",
           "color": "bg-red-600"
         },
@@ -615,7 +615,7 @@ export const generatedLocalCopy = {
           {
             "title": "Finanzen & FP&A",
             "pain": "3 Tage für den Abschluss der Bücher? Das sind 3 Tage zu viel.",
-            "description": "Echtzeit-Margenintelligenz, arbeitskosten auf Schichtniveau und Abweichungsanalysen, die mit den Ursachen verbunden sind.",
+            "description": "Echtzeit-Margenintelligenz, Arbeitskosten auf Schichtniveau und Abweichungsanalysen, die mit den Ursachen verbunden sind.",
             "icon": "benchmarking",
             "color": "bg-green-600"
           },
@@ -674,7 +674,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Inteligência Externa via Watchtower",
-          "description": "Novo concorrente? Coberturas de clima em queda? Show anunciado? Você saberá antes que isso impacte seus números.",
+          "description": "Novo concorrente? Mau tempo derrubando o movimento? Show anunciado? Você saberá antes que isso impacte seus números.",
           "icon": "watchtower",
           "color": "bg-red-600"
         },
@@ -778,12 +778,12 @@ export const generatedLocalCopy = {
       },
       "problems": {
         "eyebrow": "مسئلہ",
-        "title": "ہر روز آپ کو پیسے کی قیمت پر تین خلا",
+        "title": "تین خلا جو ہر روز آپ کو پیسوں کا نقصان پہنچاتے ہیں",
         "description": "ہر ریستوراں گروپ جس کے ساتھ ہم نے کام کیا ہے، اسی تین چیلنجز کا سامنا کرتا ہے۔"
       },
       "differentiators": [
         {
-          "title": "12-ڈومین ڈیٹا انگریشن",
+          "title": "12-ڈومین ڈیٹا اِنجیشن",
           "description": "POS، محنت، انوینٹری، خریداری، ریزرویشن، ترسیل، مارکیٹنگ، مہمان کے تجربے، CRM، اکاؤنٹنگ - سب متحد۔ مزید غیر مربوط نظام نہیں۔",
           "icon": "integration",
           "color": "bg-[#FF5C4D]"
@@ -906,8 +906,8 @@ export const generatedLocalCopy = {
       },
       "problems": {
         "eyebrow": "समस्या",
-        "title": "तीन अंतर जो आपको हर दिन पैसे खर्च कराते हैं",
-        "description": "हर रेस्तरां समूह जिसका हमने काम किया है, वही तीन चुनौतियों का सामना करता है।"
+        "title": "तीन कमियां जो आपको हर दिन पैसे का नुकसान पहुंचाती हैं",
+        "description": "हर रेस्तरां समूह जिसके साथ हमने काम किया है, उन्हीं तीन चुनौतियों का सामना करता है।"
       },
       "differentiators": [
         {
@@ -929,8 +929,8 @@ export const generatedLocalCopy = {
           "color": "bg-green-600"
         },
         {
-          "title": "External Intelligence via Watchtower",
-          "description": "नया प्रतियोगी? मौसम खराब होने से कवर? कॉन्सर्ट की घोषणा? आप जानेंगे इससे पहले कि यह आपके नंबरों को प्रभावित करे।",
+          "title": "Watchtower के माध्यम से बाहरी इंटेलिजेंस",
+          "description": "नया प्रतियोगी? खराब मौसम? कॉन्सर्ट की घोषणा? यह आपके आंकड़ों को प्रभावित करे, उससे पहले आप जान जाएंगे।",
           "icon": "watchtower",
           "color": "bg-red-600"
         },
@@ -1029,7 +1029,7 @@ export const generatedLocalCopy = {
     "it": {
       "hero": {
         "badge": "Perché Sundae",
-        "title": "Il Livello di Intelligenza che i Ristoranti Non Hanno Mai Avere",
+        "title": "Il Livello di Intelligenza che i Ristoranti Non Hanno Mai Avuto",
         "description": "I tuoi dati vivono in silos disconnessi. Il tuo team prende decisioni da milioni di dollari basandosi sull'istinto. Abbiamo costruito la piattaforma che cambia tutto."
       },
       "problems": {
@@ -1058,7 +1058,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Intelligenza Esterna tramite Watchtower",
-          "description": "Nuovo concorrente? Coperture meteorologiche in calo? Concerto annunciato? Lo saprai prima che impatti i tuoi numeri.",
+          "description": "Nuovo concorrente? Maltempo che riduce i coperti? Concerto annunciato? Lo saprai prima che impatti i tuoi numeri.",
           "icon": "watchtower",
           "color": "bg-red-600"
         },
@@ -1314,7 +1314,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "通过Watchtower获取外部情报",
-          "description": "新竞争者？天气恶化影响覆盖？音乐会宣布？您会在影响您的数字之前知道。",
+          "description": "新竞争者？天气变差影响客流？音乐会宣布？您会在影响您的数字之前知道。",
           "icon": "watchtower",
           "color": "bg-red-600"
         },
@@ -1691,7 +1691,7 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Hoạt Động Thực Thời Qua Pulse",
+          "title": "Hoạt Động Thời Gian Thực Qua Pulse",
           "description": "Theo dõi doanh số trong ngày, năng suất lao động, phát hiện rò rỉ và huấn luyện - trước khi ca làm việc kết thúc.",
           "icon": "speed",
           "color": "bg-green-600"
@@ -1790,7 +1790,7 @@ export const generatedLocalCopy = {
       "cta": {
         "title": "Ngừng điều hành nhà hàng của bạn chỉ dựa vào cảm tính.",
         "description": "30 phút để xem xét dữ liệu của bạn cùng nhau và xem liệu Sundae có thực sự giúp đội ngũ của bạn không.",
-        "primary": "Đặt Lịch Demos",
+        "primary": "Đặt Lịch Demo",
         "secondary": "Khám Phá Sản Phẩm"
       }
     },
@@ -2044,7 +2044,7 @@ export const generatedLocalCopy = {
         ]
       },
       "cta": {
-        "title": "직감으로 식당 운영을 멈추세요.",
+        "title": "직감만으로 식당을 운영하는 것을 멈추세요.",
         "description": "데이터를 함께 검토하고 Sundae가 팀에 진정으로 도움이 되는지 확인하는 데 30분이 소요됩니다.",
         "primary": "데모 예약",
         "secondary": "제품 탐색"
@@ -2082,7 +2082,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Inteligență Externă prin Watchtower",
-          "description": "Competitor nou? Vremea afectează acoperirile? Concert anunțat? Vei ști înainte să îți afecteze cifrele.",
+          "description": "Competitor nou? Vremea rea scade numărul de clienți? Concert anunțat? Vei ști înainte să îți afecteze cifrele.",
           "icon": "watchtower",
           "color": "bg-red-600"
         },
@@ -2210,7 +2210,7 @@ export const generatedLocalCopy = {
         },
         {
           "title": "Extern intelligens via Watchtower",
-          "description": "Ny konkurrent? Väderförhållanden som påverkar täckningen? Konsert annonserad? Du kommer att veta innan det påverkar dina siffror.",
+          "description": "Ny konkurrent? Dåligt väder som minskar gästantalet? Konsert annonserad? Du kommer att veta innan det påverkar dina siffror.",
           "icon": "watchtower",
           "color": "bg-red-600"
         },
@@ -2255,7 +2255,7 @@ export const generatedLocalCopy = {
           {
             "title": "Sundae",
             "items": [
-              "4D Intelligence Model",
+              "4D-intelligensmodell",
               "Övervakning av realtids-Pulse",
               "Marknadskontext via Watchtower",
               "Intelligenta rekommendationer"
@@ -2309,7 +2309,7 @@ export const generatedLocalCopy = {
     "bn": {
       "hero": {
         "badge": "কেন Sundae",
-        "title": "রেস্তোরাঁর জন্য অদৃশ্য বুদ্ধিমত্তা স্তর",
+        "title": "যে বুদ্ধিমত্তার স্তর রেস্তোরাঁর কখনো ছিল না",
         "description": "আপনার ডেটা বিচ্ছিন্ন সাইলোতে থাকে। আপনার দল অন্তর্দৃষ্টি দ্বারা মিলিয়ন ডলারের সিদ্ধান্ত নেয়। আমরা সেই প্ল্যাটফর্ম তৈরি করেছি যা এটি পরিবর্তন করে।"
       },
       "problems": {
@@ -2331,14 +2331,14 @@ export const generatedLocalCopy = {
           "color": "bg-[#FF5C4D]"
         },
         {
-          "title": "Real-Time Operations via Pulse",
+          "title": "Pulse এর মাধ্যমে রিয়েল-টাইম অপারেশন",
           "description": "দিনের মধ্যে বিক্রয় পেসিং, শ্রম উৎপাদনশীলতা, লিকেজ সনাক্তকরণ, এবং কোচিং - শিফট শেষ হওয়ার আগে।",
           "icon": "speed",
           "color": "bg-green-600"
         },
         {
-          "title": "External Intelligence via Watchtower",
-          "description": "নতুন প্রতিযোগী? আবহাওয়া খারাপ হচ্ছে? কনসার্ট ঘোষণা করা হয়েছে? আপনি আপনার সংখ্যাগুলোর আগে জানবেন।",
+          "title": "Watchtower এর মাধ্যমে বাহ্যিক ইন্টেলিজেন্স",
+          "description": "নতুন প্রতিযোগী? আবহাওয়া খারাপ হচ্ছে? কনসার্ট ঘোষণা করা হয়েছে? এটি আপনার সংখ্যায় প্রভাব ফেলার আগেই আপনি জানবেন।",
           "icon": "watchtower",
           "color": "bg-red-600"
         },
@@ -2400,7 +2400,7 @@ export const generatedLocalCopy = {
           {
             "title": "অপারেশন নেতৃবৃন্দ",
             "pain": "আপনি একসাথে প্রতিটি রেস্টুরেন্টে থাকতে পারবেন না।",
-            "description": "পালস এবং পোর্টফোলিওর মাধ্যমে প্রতিটি অবস্থানের বাস্তব-সময়ের দৃশ্যমানতা - জানুন কে সাহায্য প্রয়োজন তার আগে। (Pulse)",
+            "description": "Pulse এবং Portfolio এর মাধ্যমে প্রতিটি লোকেশনের রিয়েল-টাইম দৃশ্যমানতা - কে সাহায্য চাইবে, তা চাওয়ার আগেই জেনে নিন।",
             "icon": "multiLocation",
             "color": "bg-[#FF5C4D]"
           },
@@ -2436,7 +2436,7 @@ export const generatedLocalCopy = {
     },
     "th": {
       "hero": {
-        "badge": "Why Sundae",
+        "badge": "ทำไมต้อง Sundae",
         "title": "ชั้นข้อมูลอัจฉริยะที่ร้านอาหารไม่เคยมี",
         "description": "ข้อมูลของคุณอยู่ในซิลอสที่ไม่เชื่อมต่อ ทีมของคุณตัดสินใจมูลค่าหลายล้านดอลลาร์จากความรู้สึก เราสร้างแพลตฟอร์มที่เปลี่ยนแปลงสิ่งนั้น."
       },
@@ -2485,7 +2485,7 @@ export const generatedLocalCopy = {
       ],
       "comparison": {
         "eyebrow": "การเปรียบเทียบ",
-        "title": "เหนือกว่าดashboard แบบดั้งเดิม",
+        "title": "เหนือกว่าแดชบอร์ดแบบดั้งเดิม",
         "description": "แพลตฟอร์มส่วนใหญ่จะแสดงสิ่งที่เกิดขึ้น เราจะแสดงสิ่งที่กำลังเกิดขึ้น ความหมายของมัน และสิ่งที่ควรทำเกี่ยวกับมัน.",
         "columns": [
           {

@@ -36,7 +36,7 @@ export const generatedLocalCopy = {
           "subtitle": "طبقة الذكاء",
           "description": "الذكاء الاصطناعي متعدد الوكلاء، اكتشاف الأنماط، اكتشاف الشذوذ، الاستدلال",
           "color": "bg-gradient-to-r from-slate-50 to-orange-50",
-          "textColor": "نص-[فار(-نص أساسي)]",
+          "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
         {
@@ -109,7 +109,7 @@ export const generatedLocalCopy = {
             "المخزون",
             "مزامنة في الوقت الحقيقي"
           ],
-          "colorClass": "رمز المكون - الكشفية"
+          "colorClass": "component-icon--scout"
         },
         {
           "name": "Pulse",
@@ -121,10 +121,10 @@ export const generatedLocalCopy = {
             "تحليل الأنماط",
             "مراقبة العتبة"
           ],
-          "colorClass": "أيقونة المكون - النبض"
+          "colorClass": "component-icon--pulse"
         },
         {
-          "name": "صياغة",
+          "name": "Forge",
           "description": "محرك الذكاء الاصطناعي للمحادثة لذكاء اللغة الطبيعية",
           "icon": "forge",
           "features": [
@@ -133,7 +133,7 @@ export const generatedLocalCopy = {
             "محرك الاستعلام",
             "ردود الذكاء الاصطناعي"
           ],
-          "colorClass": "أيقونة المكون - صياغة"
+          "colorClass": "component-icon--forge"
         },
         {
           "name": "Canvas",
@@ -145,7 +145,7 @@ export const generatedLocalCopy = {
             "التحليلات البصرية",
             "التقارير التفاعلية"
           ],
-          "colorClass": "رمز المكون-قماش"
+          "colorClass": "component-icon--canvas"
         },
         {
           "name": "Watchtower",
@@ -157,7 +157,7 @@ export const generatedLocalCopy = {
             "تحليل الاتجاه",
             "الذكاء الجغرافي"
           ],
-          "colorClass": "bg-gradient-to-br من-red-400 إلى-red-600"
+          "colorClass": "bg-gradient-to-br from-red-400 to-red-600"
         }
       ],
       "securityBullets": [
@@ -181,22 +181,22 @@ export const generatedLocalCopy = {
         {
           "label": "SOC 2 النوع الثاني",
           "state": "✓ معتمد",
-          "stateClass": "النص-الأخضر-600"
+          "stateClass": "text-green-600"
         },
         {
           "label": "اللائحة العامة لحماية البيانات",
           "state": "✓ متوافق",
-          "stateClass": "نص-[#60A5FA]"
+          "stateClass": "text-[#60A5FA]"
         },
         {
           "label": "قانون خصوصية المستهلك في كاليفورنيا",
           "state": "✓ متوافق",
-          "stateClass": "النص-الأرجواني-600"
+          "stateClass": "text-purple-600"
         },
         {
           "label": "ايزو 27001",
           "state": "قيد التقدم",
-          "stateClass": "النص-العنبر-600"
+          "stateClass": "text-amber-600"
         }
       ],
       "engineeringCards": [
@@ -302,7 +302,7 @@ export const generatedLocalCopy = {
           "subtitle": "Capa de inteligencia",
           "description": "IA multiagente, detección de patrones, detección de anomalías, razonamiento",
           "color": "bg-gradient-to-r from-slate-50 to-orange-50",
-          "textColor": "texto-[var(--texto-primario)]",
+          "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
         {
@@ -375,7 +375,7 @@ export const generatedLocalCopy = {
             "inventario",
             "Sincronización en tiempo real"
           ],
-          "colorClass": "icono-componente--explorador"
+          "colorClass": "component-icon--scout"
         },
         {
           "name": "Pulse",
@@ -387,10 +387,10 @@ export const generatedLocalCopy = {
             "Análisis de patrones",
             "Monitoreo de umbral"
           ],
-          "colorClass": "icono-componente--pulso"
+          "colorClass": "component-icon--pulse"
         },
         {
-          "name": "forja",
+          "name": "Forge",
           "description": "Motor de IA conversacional para inteligencia en lenguaje natural",
           "icon": "forge",
           "features": [
@@ -399,7 +399,7 @@ export const generatedLocalCopy = {
             "Motor de consultas",
             "Respuestas de IA"
           ],
-          "colorClass": "icono-componente--forja"
+          "colorClass": "component-icon--forge"
         },
         {
           "name": "Canvas",
@@ -411,7 +411,7 @@ export const generatedLocalCopy = {
             "Análisis visuales",
             "Informes interactivos"
           ],
-          "colorClass": "icono-componente--lienzo"
+          "colorClass": "component-icon--canvas"
         },
         {
           "name": "Watchtower",
@@ -423,7 +423,7 @@ export const generatedLocalCopy = {
             "Análisis de tendencias",
             "Inteligencia Geográfica"
           ],
-          "colorClass": "bg-gradiente-a-br de-rojo-400 a-rojo-600"
+          "colorClass": "bg-gradient-to-br from-red-400 to-red-600"
         }
       ],
       "securityBullets": [
@@ -447,22 +447,22 @@ export const generatedLocalCopy = {
         {
           "label": "SOC 2 Tipo II",
           "state": "✓ Certificado",
-          "stateClass": "texto-verde-600"
+          "stateClass": "text-green-600"
         },
         {
           "label": "RGPD",
           "state": "✓ Cumple",
-          "stateClass": "texto-[#60A5FA]"
+          "stateClass": "text-[#60A5FA]"
         },
         {
           "label": "CCPA",
           "state": "✓ Cumple",
-          "stateClass": "texto-púrpura-600"
+          "stateClass": "text-purple-600"
         },
         {
           "label": "ISO 27001",
           "state": "En progreso",
-          "stateClass": "texto-ámbar-600"
+          "stateClass": "text-amber-600"
         }
       ],
       "engineeringCards": [
@@ -568,7 +568,7 @@ export const generatedLocalCopy = {
           "subtitle": "Couche de renseignement",
           "description": "IA multi-agents, détection de modèles, détection d'anomalies, raisonnement",
           "color": "bg-gradient-to-r from-slate-50 to-orange-50",
-          "textColor": "texte-[var(--text-primary)]",
+          "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
         {
@@ -641,7 +641,7 @@ export const generatedLocalCopy = {
             "Inventaire",
             "Synchronisation en temps réel"
           ],
-          "colorClass": "icône de composant - scout"
+          "colorClass": "component-icon--scout"
         },
         {
           "name": "Pulse",
@@ -653,10 +653,10 @@ export const generatedLocalCopy = {
             "Analyse de modèle",
             "Surveillance des seuils"
           ],
-          "colorClass": "icône de composant - impulsion"
+          "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Forger",
+          "name": "Forge",
           "description": "Moteur d'IA conversationnelle pour l'intelligence du langage naturel",
           "icon": "forge",
           "features": [
@@ -665,7 +665,7 @@ export const generatedLocalCopy = {
             "Moteur de requête",
             "Réponses de l'IA"
           ],
-          "colorClass": "icône de composant - forge"
+          "colorClass": "component-icon--forge"
         },
         {
           "name": "Canvas",
@@ -677,7 +677,7 @@ export const generatedLocalCopy = {
             "Analyse visuelle",
             "Rapports interactifs"
           ],
-          "colorClass": "icône de composant - toile"
+          "colorClass": "component-icon--canvas"
         },
         {
           "name": "Watchtower",
@@ -689,7 +689,7 @@ export const generatedLocalCopy = {
             "Analyse des tendances",
             "Intelligence géographique"
           ],
-          "colorClass": "bg-gradient-to-br du-rouge-400 au-rouge-600"
+          "colorClass": "bg-gradient-to-br from-red-400 to-red-600"
         }
       ],
       "securityBullets": [
@@ -713,22 +713,22 @@ export const generatedLocalCopy = {
         {
           "label": "SOC2 Type II",
           "state": "✓ Certifié",
-          "stateClass": "texte-vert-600"
+          "stateClass": "text-green-600"
         },
         {
           "label": "RGPD",
           "state": "✓ Conforme",
-          "stateClass": "texte-[#60A5FA]"
+          "stateClass": "text-[#60A5FA]"
         },
         {
           "label": "CCPA",
           "state": "✓ Conforme",
-          "stateClass": "texte-violet-600"
+          "stateClass": "text-purple-600"
         },
         {
-          "label": "OIN 27001",
+          "label": "ISO 27001",
           "state": "En cours",
-          "stateClass": "texte-ambre-600"
+          "stateClass": "text-amber-600"
         }
       ],
       "engineeringCards": [
@@ -852,7 +852,7 @@ export const generatedLocalCopy = {
           "icon": "integration"
         },
         {
-          "title": "Stiftung / Infrastruktur",
+          "title": "Fundament / Infrastruktur",
           "subtitle": "Basisschicht",
           "description": "Sichere Pipelines, API-Aufnahme, Normalisierung, Governance",
           "color": "bg-gradient-to-r from-amber-700 to-orange-800",
@@ -907,7 +907,7 @@ export const generatedLocalCopy = {
             "Inventar",
             "Echtzeit-Synchronisierung"
           ],
-          "colorClass": "Komponentensymbol-Scout"
+          "colorClass": "component-icon--scout"
         },
         {
           "name": "Pulse",
@@ -919,10 +919,10 @@ export const generatedLocalCopy = {
             "Musteranalyse",
             "Schwellenwertüberwachung"
           ],
-          "colorClass": "Komponentensymbol - Impuls"
+          "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Schmiede",
+          "name": "Forge",
           "description": "Konversations-KI-Engine für natürliche Sprachintelligenz",
           "icon": "forge",
           "features": [
@@ -931,7 +931,7 @@ export const generatedLocalCopy = {
             "Abfrage-Engine",
             "KI-Antworten"
           ],
-          "colorClass": "Komponenten-Icon--Forge"
+          "colorClass": "component-icon--forge"
         },
         {
           "name": "Canvas",
@@ -943,7 +943,7 @@ export const generatedLocalCopy = {
             "Visuelle Analyse",
             "Interaktive Berichte"
           ],
-          "colorClass": "Komponentensymbol-Leinwand"
+          "colorClass": "component-icon--canvas"
         },
         {
           "name": "Watchtower",
@@ -979,17 +979,17 @@ export const generatedLocalCopy = {
         {
           "label": "SOC 2 Typ II",
           "state": "✓ Zertifiziert",
-          "stateClass": "text-grün-600"
+          "stateClass": "text-green-600"
         },
         {
           "label": "DSGVO",
           "state": "✓ Konform",
-          "stateClass": "Text-[#60A5FA]"
+          "stateClass": "text-[#60A5FA]"
         },
         {
           "label": "CCPA",
           "state": "✓ Konform",
-          "stateClass": "text-lila-600"
+          "stateClass": "text-purple-600"
         },
         {
           "label": "ISO 27001",
@@ -1100,7 +1100,7 @@ export const generatedLocalCopy = {
           "subtitle": "Camada de Inteligência",
           "description": "IA multiagente, detecção de padrões, detecção de anomalias, raciocínio",
           "color": "bg-gradient-to-r from-slate-50 to-orange-50",
-          "textColor": "texto-[var(--texto-primário)]",
+          "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
         {
@@ -1173,7 +1173,7 @@ export const generatedLocalCopy = {
             "Inventário",
             "Sincronização em tempo real"
           ],
-          "colorClass": "ícone de componente - scout"
+          "colorClass": "component-icon--scout"
         },
         {
           "name": "Pulse",
@@ -1185,10 +1185,10 @@ export const generatedLocalCopy = {
             "Análise de padrões",
             "Monitoramento de Limite"
           ],
-          "colorClass": "ícone de componente - pulso"
+          "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Forjar",
+          "name": "Forge",
           "description": "Mecanismo de IA conversacional para inteligência de linguagem natural",
           "icon": "forge",
           "features": [
@@ -1197,7 +1197,7 @@ export const generatedLocalCopy = {
             "Mecanismo de consulta",
             "Respostas de IA"
           ],
-          "colorClass": "ícone de componente - forjar"
+          "colorClass": "component-icon--forge"
         },
         {
           "name": "Canvas",
@@ -1209,7 +1209,7 @@ export const generatedLocalCopy = {
             "Análise Visual",
             "Relatórios interativos"
           ],
-          "colorClass": "ícone de componente - tela"
+          "colorClass": "component-icon--canvas"
         },
         {
           "name": "Watchtower",
@@ -1221,7 +1221,7 @@ export const generatedLocalCopy = {
             "Análise de tendências",
             "Inteligência Geográfica"
           ],
-          "colorClass": "bg-gradiente-para-br de-vermelho-400 para-vermelho-600"
+          "colorClass": "bg-gradient-to-br from-red-400 to-red-600"
         }
       ],
       "securityBullets": [
@@ -1245,22 +1245,22 @@ export const generatedLocalCopy = {
         {
           "label": "SOC 2 Tipo II",
           "state": "✓ Certificado",
-          "stateClass": "texto-verde-600"
+          "stateClass": "text-green-600"
         },
         {
           "label": "GDPR",
           "state": "✓ Compatível",
-          "stateClass": "texto-[#60A5FA]"
+          "stateClass": "text-[#60A5FA]"
         },
         {
           "label": "CCPA",
           "state": "✓ Compatível",
-          "stateClass": "texto-roxo-600"
+          "stateClass": "text-purple-600"
         },
         {
           "label": "ISO 27001",
           "state": "Em andamento",
-          "stateClass": "texto-âmbar-600"
+          "stateClass": "text-amber-600"
         }
       ],
       "engineeringCards": [
@@ -1366,7 +1366,7 @@ export const generatedLocalCopy = {
           "subtitle": "Intelligentielaag",
           "description": "Multi-agent AI, patroondetectie, detectie van afwijkingen, redenering",
           "color": "bg-gradient-to-r from-slate-50 to-orange-50",
-          "textColor": "tekst-[var(--tekst-primair)]",
+          "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
         {
@@ -1439,7 +1439,7 @@ export const generatedLocalCopy = {
             "Inventaris",
             "Realtime synchronisatie"
           ],
-          "colorClass": "component-icoon--verkenner"
+          "colorClass": "component-icon--scout"
         },
         {
           "name": "Pulse",
@@ -1451,10 +1451,10 @@ export const generatedLocalCopy = {
             "Patroonanalyse",
             "Drempelbewaking"
           ],
-          "colorClass": "component-icoon--puls"
+          "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Smeden",
+          "name": "Forge",
           "description": "Conversationele AI-engine voor natuurlijke taalintelligentie",
           "icon": "forge",
           "features": [
@@ -1463,7 +1463,7 @@ export const generatedLocalCopy = {
             "Query-engine",
             "AI-reacties"
           ],
-          "colorClass": "component-icoon--smeedstuk"
+          "colorClass": "component-icon--forge"
         },
         {
           "name": "Canvas",
@@ -1475,7 +1475,7 @@ export const generatedLocalCopy = {
             "Visuele analyse",
             "Interactieve rapporten"
           ],
-          "colorClass": "component-icoon-canvas"
+          "colorClass": "component-icon--canvas"
         },
         {
           "name": "Watchtower",
@@ -1487,7 +1487,7 @@ export const generatedLocalCopy = {
             "Trendanalyse",
             "Geografische intelligentie"
           ],
-          "colorClass": "bg-gradiënt-naar-br van-rood-400 naar-rood-600"
+          "colorClass": "bg-gradient-to-br from-red-400 to-red-600"
         }
       ],
       "securityBullets": [
@@ -1511,22 +1511,22 @@ export const generatedLocalCopy = {
         {
           "label": "SOC 2 Type II",
           "state": "✓ Gecertificeerd",
-          "stateClass": "tekst-groen-600"
+          "stateClass": "text-green-600"
         },
         {
           "label": "AVG",
           "state": "✓ Conform",
-          "stateClass": "tekst-[#60A5FA]"
+          "stateClass": "text-[#60A5FA]"
         },
         {
           "label": "CCPA",
           "state": "✓ Conform",
-          "stateClass": "tekst-paars-600"
+          "stateClass": "text-purple-600"
         },
         {
           "label": "ISO27001",
           "state": "In uitvoering",
-          "stateClass": "tekst-amber-600"
+          "stateClass": "text-amber-600"
         }
       ],
       "engineeringCards": [
@@ -1632,7 +1632,7 @@ export const generatedLocalCopy = {
           "subtitle": "انٹیلی جنس پرت",
           "description": "ملٹی ایجنٹ AI، پیٹرن کا پتہ لگانا، بے ضابطگی کا پتہ لگانا، استدلال",
           "color": "bg-gradient-to-r from-slate-50 to-orange-50",
-          "textColor": "متن-[var(--متن-پرائمری)]",
+          "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
         {
@@ -1645,7 +1645,7 @@ export const generatedLocalCopy = {
         {
           "title": "ڈیٹا انٹیگریشن",
           "subtitle": "یونیفیکیشن پرت",
-          "description": "POS, labor, inventory, reservations, delivery aggregators, raw data unification",
+          "description": "POS، لیبر، انوینٹری، ریزرویشنز، ڈیلیوری ایگریگیٹرز، خام ڈیٹا کا اتحاد",
           "color": "bg-gradient-to-r from-orange-500 to-amber-600",
           "icon": "integration"
         },
@@ -1661,7 +1661,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "ڈیٹا اکٹھا کرنا",
-          "description": "Scout 12 ڈیٹا ڈومینز اور بیرونی ذرائع میں 250+ ریسٹورنٹ سسٹمز سے جڑتا ہے۔",
+          "description": "Scout 12 ڈیٹا ڈومینز اور بیرونی ذرائع میں 30+ ریسٹورنٹ سسٹمز سے جڑتا ہے۔",
           "icon": "integration"
         },
         {
@@ -1697,7 +1697,7 @@ export const generatedLocalCopy = {
       "modules": [
         {
           "name": "Scout",
-          "description": "یونیورسل ڈیٹا انٹیگریشن پرت 12 ڈیٹا ڈومینز میں 250+ ریسٹورنٹ سسٹم کو جوڑتی ہے۔",
+          "description": "یونیورسل ڈیٹا انٹیگریشن پرت 12 ڈیٹا ڈومینز میں 30+ ریسٹورنٹ سسٹم کو جوڑتی ہے۔",
           "icon": "scout",
           "features": [
             "POS انٹیگریشن",
@@ -1717,10 +1717,10 @@ export const generatedLocalCopy = {
             "پیٹرن کا تجزیہ",
             "تھریشولڈ مانیٹرنگ"
           ],
-          "colorClass": "جزو-آئیکن--پلس"
+          "colorClass": "component-icon--pulse"
         },
         {
-          "name": "جعلسازی",
+          "name": "Forge",
           "description": "قدرتی زبان کی ذہانت کے لیے بات چیت کا AI انجن",
           "icon": "forge",
           "features": [
@@ -1753,7 +1753,7 @@ export const generatedLocalCopy = {
             "رجحان تجزیہ",
             "جغرافیائی ذہانت"
           ],
-          "colorClass": "bg-gradient-to-br-red-400 سے-red-600"
+          "colorClass": "bg-gradient-to-br from-red-400 to-red-600"
         }
       ],
       "securityBullets": [
@@ -1777,22 +1777,22 @@ export const generatedLocalCopy = {
         {
           "label": "SOC 2 قسم II",
           "state": "✓ تصدیق شدہ",
-          "stateClass": "متن-سبز-600"
+          "stateClass": "text-green-600"
         },
         {
           "label": "جی ڈی پی آر",
           "state": "✓ مطابق",
-          "stateClass": "متن-[#60A5FA]"
+          "stateClass": "text-[#60A5FA]"
         },
         {
           "label": "سی سی پی اے",
           "state": "✓ مطابق",
-          "stateClass": "متن-جامنی-600"
+          "stateClass": "text-purple-600"
         },
         {
           "label": "آئی ایس او 27001",
           "state": "جاری ہے۔",
-          "stateClass": "متن-امبر-600"
+          "stateClass": "text-amber-600"
         }
       ],
       "engineeringCards": [
@@ -1898,7 +1898,7 @@ export const generatedLocalCopy = {
           "subtitle": "Livello di intelligenza",
           "description": "IA multi-agente, rilevamento di pattern, rilevamento di anomalie, ragionamento",
           "color": "bg-gradient-to-r from-slate-50 to-orange-50",
-          "textColor": "testo-[var(--testo-primario)]",
+          "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
         {
@@ -1971,7 +1971,7 @@ export const generatedLocalCopy = {
             "Inventario",
             "Sincronizzazione in tempo reale"
           ],
-          "colorClass": "componente-icona--scout"
+          "colorClass": "component-icon--scout"
         },
         {
           "name": "Pulse",
@@ -1983,10 +1983,10 @@ export const generatedLocalCopy = {
             "Analisi dei modelli",
             "Monitoraggio della soglia"
           ],
-          "colorClass": "icona-componente-impulso"
+          "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Forgia",
+          "name": "Forge",
           "description": "Motore di intelligenza artificiale conversazionale per l'intelligenza del linguaggio naturale",
           "icon": "forge",
           "features": [
@@ -1995,7 +1995,7 @@ export const generatedLocalCopy = {
             "Motore di interrogazione",
             "Risposte dell'intelligenza artificiale"
           ],
-          "colorClass": "componente-icona--forge"
+          "colorClass": "component-icon--forge"
         },
         {
           "name": "Canvas",
@@ -2007,7 +2007,7 @@ export const generatedLocalCopy = {
             "Analisi visiva",
             "Report interattivi"
           ],
-          "colorClass": "componente-icona--tela"
+          "colorClass": "component-icon--canvas"
         },
         {
           "name": "Watchtower",
@@ -2019,7 +2019,7 @@ export const generatedLocalCopy = {
             "Analisi delle tendenze",
             "Intelligenza geografica"
           ],
-          "colorClass": "bg-gradiente-a-br da-rosso-400 a-rosso-600"
+          "colorClass": "bg-gradient-to-br from-red-400 to-red-600"
         }
       ],
       "securityBullets": [
@@ -2043,22 +2043,22 @@ export const generatedLocalCopy = {
         {
           "label": "SOC2 Tipo II",
           "state": "✓ Certificato",
-          "stateClass": "testo-verde-600"
+          "stateClass": "text-green-600"
         },
         {
           "label": "GDPR",
           "state": "✓ Conforme",
-          "stateClass": "testo-[#60A5FA]"
+          "stateClass": "text-[#60A5FA]"
         },
         {
           "label": "CCPA",
           "state": "✓ Conforme",
-          "stateClass": "testo-viola-600"
+          "stateClass": "text-purple-600"
         },
         {
           "label": "ISO27001",
           "state": "In corso",
-          "stateClass": "testo-ambra-600"
+          "stateClass": "text-amber-600"
         }
       ],
       "engineeringCards": [
@@ -2164,7 +2164,7 @@ export const generatedLocalCopy = {
           "subtitle": "खुफिया परत",
           "description": "मल्टी-एजेंट एआई, पैटर्न का पता लगाना, विसंगति का पता लगाना, तर्क करना",
           "color": "bg-gradient-to-r from-slate-50 to-orange-50",
-          "textColor": "पाठ-[var(--पाठ-प्राथमिक)]",
+          "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
         {
@@ -2193,7 +2193,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "डेटा संग्रहण",
-          "description": "Scout 12 डेटा डोमेन और बाहरी स्रोतों में 250+ रेस्तरां सिस्टम से जुड़ता है",
+          "description": "Scout 12 डेटा डोमेन और बाहरी स्रोतों में 30+ रेस्तरां सिस्टम से जुड़ता है",
           "icon": "integration"
         },
         {
@@ -2229,7 +2229,7 @@ export const generatedLocalCopy = {
       "modules": [
         {
           "name": "Scout",
-          "description": "यूनिवर्सल डेटा एकीकरण परत 12 डेटा डोमेन में 250+ रेस्तरां सिस्टम को जोड़ती है",
+          "description": "यूनिवर्सल डेटा एकीकरण परत 12 डेटा डोमेन में 30+ रेस्तरां सिस्टम को जोड़ती है",
           "icon": "scout",
           "features": [
             "POS एकीकरण",
@@ -2237,7 +2237,7 @@ export const generatedLocalCopy = {
             "इन्वेंटरी",
             "वास्तविक समय सिंक"
           ],
-          "colorClass": "घटक-आइकन--स्काउट"
+          "colorClass": "component-icon--scout"
         },
         {
           "name": "Pulse",
@@ -2249,10 +2249,10 @@ export const generatedLocalCopy = {
             "पैटर्न विश्लेषण",
             "दहलीज निगरानी"
           ],
-          "colorClass": "घटक-आइकन--पल्स"
+          "colorClass": "component-icon--pulse"
         },
         {
-          "name": "फोर्ज",
+          "name": "Forge",
           "description": "प्राकृतिक भाषा बुद्धि के लिए संवादात्मक एआई इंजन",
           "icon": "forge",
           "features": [
@@ -2261,7 +2261,7 @@ export const generatedLocalCopy = {
             "क्वेरी इंजन",
             "एआई प्रतिक्रियाएँ"
           ],
-          "colorClass": "घटक-आइकन--फोर्ज"
+          "colorClass": "component-icon--forge"
         },
         {
           "name": "Canvas",
@@ -2273,7 +2273,7 @@ export const generatedLocalCopy = {
             "विज़ुअल एनालिटिक्स",
             "इंटरैक्टिव रिपोर्ट"
           ],
-          "colorClass": "घटक-आइकन--कैनवास"
+          "colorClass": "component-icon--canvas"
         },
         {
           "name": "Watchtower",
@@ -2285,7 +2285,7 @@ export const generatedLocalCopy = {
             "रुझान विश्लेषण",
             "भौगोलिक खुफिया"
           ],
-          "colorClass": "बीजी-ग्रेडिएंट-टू-बीआर फ्रॉम-रेड-400 से-रेड-600"
+          "colorClass": "bg-gradient-to-br from-red-400 to-red-600"
         }
       ],
       "securityBullets": [
@@ -2309,22 +2309,22 @@ export const generatedLocalCopy = {
         {
           "label": "एसओसी 2 प्रकार II",
           "state": "✓ प्रमाणित",
-          "stateClass": "पाठ-हरा-600"
+          "stateClass": "text-green-600"
         },
         {
           "label": "जीडीपीआर",
           "state": "✓ आज्ञाकारी",
-          "stateClass": "पाठ-[#60A5FA]"
+          "stateClass": "text-[#60A5FA]"
         },
         {
           "label": "सीसीपीए",
           "state": "✓ आज्ञाकारी",
-          "stateClass": "पाठ-बैंगनी-600"
+          "stateClass": "text-purple-600"
         },
         {
           "label": "आईएसओ 27001",
           "state": "प्रगति पर है",
-          "stateClass": "टेक्स्ट-एम्बर-600"
+          "stateClass": "text-amber-600"
         }
       ],
       "engineeringCards": [
@@ -2430,7 +2430,7 @@ export const generatedLocalCopy = {
           "subtitle": "Zeka Katmanı",
           "description": "Çok aracılı yapay zeka, model tespiti, anormallik tespiti, muhakeme",
           "color": "bg-gradient-to-r from-slate-50 to-orange-50",
-          "textColor": "metin-[var(--text-birincil)]",
+          "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
         {
@@ -2503,7 +2503,7 @@ export const generatedLocalCopy = {
             "Envanter",
             "Gerçek Zamanlı Senkronizasyon"
           ],
-          "colorClass": "bileşen simgesi -- izci"
+          "colorClass": "component-icon--scout"
         },
         {
           "name": "Pulse",
@@ -2515,10 +2515,10 @@ export const generatedLocalCopy = {
             "Desen Analizi",
             "Eşik İzleme"
           ],
-          "colorClass": "bileşen-simge--darbe"
+          "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Dövmek",
+          "name": "Forge",
           "description": "Doğal dil zekası için konuşmaya dayalı yapay zeka motoru",
           "icon": "forge",
           "features": [
@@ -2527,7 +2527,7 @@ export const generatedLocalCopy = {
             "Sorgu Motoru",
             "Yapay Zeka Yanıtları"
           ],
-          "colorClass": "bileşen simgesi - forge"
+          "colorClass": "component-icon--forge"
         },
         {
           "name": "Canvas",
@@ -2539,7 +2539,7 @@ export const generatedLocalCopy = {
             "Görsel Analitik",
             "İnteraktif Raporlar"
           ],
-          "colorClass": "bileşen simgesi -- tuval"
+          "colorClass": "component-icon--canvas"
         },
         {
           "name": "Watchtower",
@@ -2551,7 +2551,7 @@ export const generatedLocalCopy = {
             "Trend Analizi",
             "Coğrafi Zeka"
           ],
-          "colorClass": "bg-gradyan-to-br-kırmızı-400'den-kırmızı-600'e"
+          "colorClass": "bg-gradient-to-br from-red-400 to-red-600"
         }
       ],
       "securityBullets": [
@@ -2575,22 +2575,22 @@ export const generatedLocalCopy = {
         {
           "label": "SOC 2 Tip II",
           "state": "✓ Sertifikalı",
-          "stateClass": "metin-yeşil-600"
+          "stateClass": "text-green-600"
         },
         {
           "label": "GDPR",
           "state": "✓ Uyumlu",
-          "stateClass": "metin-[#60A5FA]"
+          "stateClass": "text-[#60A5FA]"
         },
         {
           "label": "CCPA",
           "state": "✓ Uyumlu",
-          "stateClass": "metin-mor-600"
+          "stateClass": "text-purple-600"
         },
         {
           "label": "ISO 27001",
           "state": "Devam Ediyor",
-          "stateClass": "metin-amber-600"
+          "stateClass": "text-amber-600"
         }
       ],
       "engineeringCards": [
@@ -2696,7 +2696,7 @@ export const generatedLocalCopy = {
           "subtitle": "Warstwa inteligencji",
           "description": "Wieloagentowa sztuczna inteligencja, wykrywanie wzorców, wykrywanie anomalii, wnioskowanie",
           "color": "bg-gradient-to-r from-slate-50 to-orange-50",
-          "textColor": "tekst-[var(--tekst-podstawowy)]",
+          "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
         {
@@ -2764,12 +2764,12 @@ export const generatedLocalCopy = {
           "description": "Uniwersalna warstwa integracji danych łącząca ponad 30 systemów restauracyjnych w 12 domenach danych",
           "icon": "scout",
           "features": [
-            "POS Integration",
+            "Integracja POS",
             "Systemy pracy",
             "Zapasy",
             "Synchronizacja w czasie rzeczywistym"
           ],
-          "colorClass": "ikona komponentu - scout"
+          "colorClass": "component-icon--scout"
         },
         {
           "name": "Pulse",
@@ -2781,10 +2781,10 @@ export const generatedLocalCopy = {
             "Analiza wzorców",
             "Monitorowanie progów"
           ],
-          "colorClass": "ikona-komponentu-puls"
+          "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Kuźnia",
+          "name": "Forge",
           "description": "Konwersacyjny silnik AI zapewniający inteligencję języka naturalnego",
           "icon": "forge",
           "features": [
@@ -2793,7 +2793,7 @@ export const generatedLocalCopy = {
             "Silnik zapytań",
             "Odpowiedzi AI"
           ],
-          "colorClass": "ikona komponentu - kuźnia"
+          "colorClass": "component-icon--forge"
         },
         {
           "name": "Canvas",
@@ -2805,7 +2805,7 @@ export const generatedLocalCopy = {
             "Analityka wizualna",
             "Interaktywne raporty"
           ],
-          "colorClass": "ikona komponentu - płótno"
+          "colorClass": "component-icon--canvas"
         },
         {
           "name": "Watchtower",
@@ -2817,7 +2817,7 @@ export const generatedLocalCopy = {
             "Analiza trendów",
             "Inteligencja geograficzna"
           ],
-          "colorClass": "bg-gradient-to-br od-czerwonego-400 do-czerwonego-600"
+          "colorClass": "bg-gradient-to-br from-red-400 to-red-600"
         }
       ],
       "securityBullets": [
@@ -2841,22 +2841,22 @@ export const generatedLocalCopy = {
         {
           "label": "SOC 2 Typ II",
           "state": "✓ Certyfikowany",
-          "stateClass": "tekst-zielony-600"
+          "stateClass": "text-green-600"
         },
         {
           "label": "RODO",
           "state": "✓ Zgodny",
-          "stateClass": "tekst-[#60A5FA]"
+          "stateClass": "text-[#60A5FA]"
         },
         {
           "label": "CCPA",
           "state": "✓ Zgodny",
-          "stateClass": "tekst-fioletowy-600"
+          "stateClass": "text-purple-600"
         },
         {
           "label": "ISO27001",
           "state": "W toku",
-          "stateClass": "tekst-bursztyn-600"
+          "stateClass": "text-amber-600"
         }
       ],
       "engineeringCards": [
@@ -2962,7 +2962,7 @@ export const generatedLocalCopy = {
           "subtitle": "智能层",
           "description": "多智能体人工智能、模式检测、异常检测、推理",
           "color": "bg-gradient-to-r from-slate-50 to-orange-50",
-          "textColor": "文本-[var(--text-primary)]",
+          "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
         {
@@ -3035,7 +3035,7 @@ export const generatedLocalCopy = {
             "库存",
             "实时同步"
           ],
-          "colorClass": "组件图标--scout"
+          "colorClass": "component-icon--scout"
         },
         {
           "name": "Pulse",
@@ -3047,10 +3047,10 @@ export const generatedLocalCopy = {
             "模式分析",
             "阈值监控"
           ],
-          "colorClass": "组件图标--脉冲"
+          "colorClass": "component-icon--pulse"
         },
         {
-          "name": "锻造",
+          "name": "Forge",
           "description": "用于自然语言智能的对话式人工智能引擎",
           "icon": "forge",
           "features": [
@@ -3059,7 +3059,7 @@ export const generatedLocalCopy = {
             "查询引擎",
             "人工智能回应"
           ],
-          "colorClass": "组件图标--forge"
+          "colorClass": "component-icon--forge"
         },
         {
           "name": "Canvas",
@@ -3071,7 +3071,7 @@ export const generatedLocalCopy = {
             "视觉分析",
             "互动报告"
           ],
-          "colorClass": "组件图标--canvas"
+          "colorClass": "component-icon--canvas"
         },
         {
           "name": "Watchtower",
@@ -3083,7 +3083,7 @@ export const generatedLocalCopy = {
             "趋势分析",
             "地理情报"
           ],
-          "colorClass": "bg-gradient-to-br 从-red-400 到-red-600"
+          "colorClass": "bg-gradient-to-br from-red-400 to-red-600"
         }
       ],
       "securityBullets": [
@@ -3107,22 +3107,22 @@ export const generatedLocalCopy = {
         {
           "label": "SOC 2 类型 II",
           "state": "✓ 认证",
-          "stateClass": "文本绿色-600"
+          "stateClass": "text-green-600"
         },
         {
-          "label": "通用数据保护条例",
+          "label": "GDPR",
           "state": "✓ 合规",
-          "stateClass": "文本-[#60A5FA]"
+          "stateClass": "text-[#60A5FA]"
         },
         {
-          "label": "加州消费者协会",
+          "label": "CCPA",
           "state": "✓ 合规",
-          "stateClass": "文字-紫色-600"
+          "stateClass": "text-purple-600"
         },
         {
           "label": "ISO 27001",
           "state": "进行中",
-          "stateClass": "文本-琥珀色-600"
+          "stateClass": "text-amber-600"
         }
       ],
       "engineeringCards": [
@@ -3228,7 +3228,7 @@ export const generatedLocalCopy = {
           "subtitle": "인텔리전스 레이어",
           "description": "멀티에이전트 AI, 패턴탐지, 이상탐지, 추론",
           "color": "bg-gradient-to-r from-slate-50 to-orange-50",
-          "textColor": "텍스트-[var(--text-primary)]",
+          "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
         {
@@ -3301,7 +3301,7 @@ export const generatedLocalCopy = {
             "인벤토리",
             "실시간 동기화"
           ],
-          "colorClass": "구성요소-아이콘--스카우트"
+          "colorClass": "component-icon--scout"
         },
         {
           "name": "Pulse",
@@ -3313,10 +3313,10 @@ export const generatedLocalCopy = {
             "패턴 분석",
             "임계값 모니터링"
           ],
-          "colorClass": "구성요소-아이콘--펄스"
+          "colorClass": "component-icon--pulse"
         },
         {
-          "name": "포지",
+          "name": "Forge",
           "description": "자연어 지능을 위한 대화형 AI 엔진",
           "icon": "forge",
           "features": [
@@ -3325,7 +3325,7 @@ export const generatedLocalCopy = {
             "쿼리 엔진",
             "AI 응답"
           ],
-          "colorClass": "구성요소-아이콘--위조"
+          "colorClass": "component-icon--forge"
         },
         {
           "name": "Canvas",
@@ -3337,7 +3337,7 @@ export const generatedLocalCopy = {
             "시각적 분석",
             "대화형 보고서"
           ],
-          "colorClass": "구성요소-아이콘--캔버스"
+          "colorClass": "component-icon--canvas"
         },
         {
           "name": "Watchtower",
@@ -3349,7 +3349,7 @@ export const generatedLocalCopy = {
             "추세 분석",
             "지리정보"
           ],
-          "colorClass": "bg-그라디언트-br-red-400에서-red-600까지"
+          "colorClass": "bg-gradient-to-br from-red-400 to-red-600"
         }
       ],
       "securityBullets": [
@@ -3373,22 +3373,22 @@ export const generatedLocalCopy = {
         {
           "label": "SOC 2 유형 II",
           "state": "✓ 인증됨",
-          "stateClass": "텍스트-녹색-600"
+          "stateClass": "text-green-600"
         },
         {
           "label": "GDPR",
           "state": "✓ 준수",
-          "stateClass": "텍스트-[#60A5FA]"
+          "stateClass": "text-[#60A5FA]"
         },
         {
           "label": "CCPA",
           "state": "✓ 준수",
-          "stateClass": "텍스트-보라색-600"
+          "stateClass": "text-purple-600"
         },
         {
           "label": "ISO 27001",
           "state": "진행 중",
-          "stateClass": "텍스트-앰버-600"
+          "stateClass": "text-amber-600"
         }
       ],
       "engineeringCards": [
@@ -3567,7 +3567,7 @@ export const generatedLocalCopy = {
             "Inventar",
             "Sincronizare în timp real"
           ],
-          "colorClass": "pictogramă-componentă--cercetaș"
+          "colorClass": "component-icon--scout"
         },
         {
           "name": "Pulse",
@@ -3579,10 +3579,10 @@ export const generatedLocalCopy = {
             "Analiza modelelor",
             "Monitorizare prag"
           ],
-          "colorClass": "pictogramă-componentă - puls"
+          "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Forja",
+          "name": "Forge",
           "description": "Motor AI conversațional pentru inteligența limbajului natural",
           "icon": "forge",
           "features": [
@@ -3591,7 +3591,7 @@ export const generatedLocalCopy = {
             "Motor de interogări",
             "Răspunsuri AI"
           ],
-          "colorClass": "componentă-icoană--forja"
+          "colorClass": "component-icon--forge"
         },
         {
           "name": "Canvas",
@@ -3603,7 +3603,7 @@ export const generatedLocalCopy = {
             "Analiza vizuală",
             "Rapoarte interactive"
           ],
-          "colorClass": "pictogramă-componentă - pânză"
+          "colorClass": "component-icon--canvas"
         },
         {
           "name": "Watchtower",
@@ -3615,7 +3615,7 @@ export const generatedLocalCopy = {
             "Analiza tendințelor",
             "Inteligența geografică"
           ],
-          "colorClass": "bg-gradient-to-br de la-red-400 la-red-600"
+          "colorClass": "bg-gradient-to-br from-red-400 to-red-600"
         }
       ],
       "securityBullets": [
@@ -3639,7 +3639,7 @@ export const generatedLocalCopy = {
         {
           "label": "SOC 2 Tip II",
           "state": "✓ Certificat",
-          "stateClass": "text-verde-600"
+          "stateClass": "text-green-600"
         },
         {
           "label": "GDPR",
@@ -3649,12 +3649,12 @@ export const generatedLocalCopy = {
         {
           "label": "CCPA",
           "state": "✓ Conform",
-          "stateClass": "text-violet-600"
+          "stateClass": "text-purple-600"
         },
         {
           "label": "ISO 27001",
           "state": "În curs",
-          "stateClass": "text-chihlimbar-600"
+          "stateClass": "text-amber-600"
         }
       ],
       "engineeringCards": [
@@ -3833,7 +3833,7 @@ export const generatedLocalCopy = {
             "在庫",
             "リアルタイム同期"
           ],
-          "colorClass": "コンポーネント-アイコン--スカウト"
+          "colorClass": "component-icon--scout"
         },
         {
           "name": "Pulse",
@@ -3845,10 +3845,10 @@ export const generatedLocalCopy = {
             "パターン分析",
             "閾値監視"
           ],
-          "colorClass": "コンポーネント-アイコン--パルス"
+          "colorClass": "component-icon--pulse"
         },
         {
-          "name": "鍛造する",
+          "name": "Forge",
           "description": "自然言語インテリジェンスのための会話型 AI エンジン",
           "icon": "forge",
           "features": [
@@ -3857,7 +3857,7 @@ export const generatedLocalCopy = {
             "クエリエンジン",
             "AIの応答"
           ],
-          "colorClass": "コンポーネント-アイコン--フォージ"
+          "colorClass": "component-icon--forge"
         },
         {
           "name": "Canvas",
@@ -3869,7 +3869,7 @@ export const generatedLocalCopy = {
             "ビジュアル分析",
             "インタラクティブレポート"
           ],
-          "colorClass": "コンポーネント-アイコン--キャンバス"
+          "colorClass": "component-icon--canvas"
         },
         {
           "name": "Watchtower",
@@ -3905,22 +3905,22 @@ export const generatedLocalCopy = {
         {
           "label": "SOC 2 タイプ II",
           "state": "✓ 認定済み",
-          "stateClass": "テキスト-グリーン-600"
+          "stateClass": "text-green-600"
         },
         {
           "label": "GDPR",
           "state": "✓ 準拠",
-          "stateClass": "テキスト-[#60A5FA]"
+          "stateClass": "text-[#60A5FA]"
         },
         {
           "label": "CCPA",
           "state": "✓ 準拠",
-          "stateClass": "テキスト-パープル-600"
+          "stateClass": "text-purple-600"
         },
         {
           "label": "ISO27001",
           "state": "進行中",
-          "stateClass": "テキスト-アンバー-600"
+          "stateClass": "text-amber-600"
         }
       ],
       "engineeringCards": [
@@ -4026,7 +4026,7 @@ export const generatedLocalCopy = {
           "subtitle": "Lapisan Intelijen",
           "description": "AI multi-agen, deteksi pola, deteksi anomali, penalaran",
           "color": "bg-gradient-to-r from-slate-50 to-orange-50",
-          "textColor": "teks-[var(--teks-utama)]",
+          "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
         {
@@ -4055,7 +4055,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Pengumpulan Data",
-          "description": "Scout terhubung ke 250+ sistem restoran di 12 domain data dan sumber eksternal",
+          "description": "Scout terhubung ke 30+ sistem restoran di 12 domain data dan sumber eksternal",
           "icon": "integration"
         },
         {
@@ -4091,7 +4091,7 @@ export const generatedLocalCopy = {
       "modules": [
         {
           "name": "Scout",
-          "description": "Lapisan integrasi data universal yang menghubungkan 250+ sistem restoran di 12 domain data",
+          "description": "Lapisan integrasi data universal yang menghubungkan 30+ sistem restoran di 12 domain data",
           "icon": "scout",
           "features": [
             "Integrasi POS",
@@ -4099,7 +4099,7 @@ export const generatedLocalCopy = {
             "Persediaan",
             "Sinkronisasi Waktu Nyata"
           ],
-          "colorClass": "komponen-ikon--pramuka"
+          "colorClass": "component-icon--scout"
         },
         {
           "name": "Pulse",
@@ -4111,10 +4111,10 @@ export const generatedLocalCopy = {
             "Analisis Pola",
             "Pemantauan Ambang Batas"
           ],
-          "colorClass": "komponen-ikon--pulsa"
+          "colorClass": "component-icon--pulse"
         },
         {
-          "name": "menempa",
+          "name": "Forge",
           "description": "Mesin AI percakapan untuk kecerdasan bahasa alami",
           "icon": "forge",
           "features": [
@@ -4123,7 +4123,7 @@ export const generatedLocalCopy = {
             "Mesin Kueri",
             "Tanggapan AI"
           ],
-          "colorClass": "komponen-ikon--menempa"
+          "colorClass": "component-icon--forge"
         },
         {
           "name": "Canvas",
@@ -4135,7 +4135,7 @@ export const generatedLocalCopy = {
             "Analisis Visual",
             "Laporan Interaktif"
           ],
-          "colorClass": "komponen-ikon--kanvas"
+          "colorClass": "component-icon--canvas"
         },
         {
           "name": "Watchtower",
@@ -4147,7 +4147,7 @@ export const generatedLocalCopy = {
             "Analisis Tren",
             "Kecerdasan Geografis"
           ],
-          "colorClass": "bg-gradien-ke-br dari-merah-400 ke-merah-600"
+          "colorClass": "bg-gradient-to-br from-red-400 to-red-600"
         }
       ],
       "securityBullets": [
@@ -4171,22 +4171,22 @@ export const generatedLocalCopy = {
         {
           "label": "SOC 2 Tipe II",
           "state": "✓ Bersertifikat",
-          "stateClass": "teks-hijau-600"
+          "stateClass": "text-green-600"
         },
         {
           "label": "GDPR",
           "state": "✓ Sesuai",
-          "stateClass": "teks-[#60A5FA]"
+          "stateClass": "text-[#60A5FA]"
         },
         {
           "label": "CCPA",
           "state": "✓ Sesuai",
-          "stateClass": "teks-ungu-600"
+          "stateClass": "text-purple-600"
         },
         {
           "label": "ISO 27001",
           "state": "Sedang Berlangsung",
-          "stateClass": "teks-kuning-600"
+          "stateClass": "text-amber-600"
         }
       ],
       "engineeringCards": [
@@ -4218,7 +4218,7 @@ export const generatedLocalCopy = {
           "color": "from-green-500 to-green-600",
           "features": [
             "Konektor data 12 domain",
-            "Arsitektur API yang tenang",
+            "Arsitektur API RESTful",
             "Dukungan webhook",
             "Alat integrasi khusus"
           ]
@@ -4292,7 +4292,7 @@ export const generatedLocalCopy = {
           "subtitle": "Lớp thông minh",
           "description": "AI đa tác nhân, phát hiện mẫu, phát hiện bất thường, lý luận",
           "color": "bg-gradient-to-r from-slate-50 to-orange-50",
-          "textColor": "văn bản-[var(--text-primary)]",
+          "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
         {
@@ -4365,7 +4365,7 @@ export const generatedLocalCopy = {
             "Hàng tồn kho",
             "Đồng bộ hóa thời gian thực"
           ],
-          "colorClass": "biểu tượng thành phần--trinh sát"
+          "colorClass": "component-icon--scout"
         },
         {
           "name": "Pulse",
@@ -4377,10 +4377,10 @@ export const generatedLocalCopy = {
             "Phân tích mẫu",
             "Giám sát ngưỡng"
           ],
-          "colorClass": "biểu tượng thành phần--xung"
+          "colorClass": "component-icon--pulse"
         },
         {
-          "name": "lò rèn",
+          "name": "Forge",
           "description": "Công cụ AI đàm thoại cho trí thông minh ngôn ngữ tự nhiên",
           "icon": "forge",
           "features": [
@@ -4389,7 +4389,7 @@ export const generatedLocalCopy = {
             "Công cụ truy vấn",
             "Phản hồi AI"
           ],
-          "colorClass": "biểu tượng thành phần--giả mạo"
+          "colorClass": "component-icon--forge"
         },
         {
           "name": "Canvas",
@@ -4401,7 +4401,7 @@ export const generatedLocalCopy = {
             "Phân tích trực quan",
             "Báo cáo tương tác"
           ],
-          "colorClass": "biểu tượng thành phần--canvas"
+          "colorClass": "component-icon--canvas"
         },
         {
           "name": "Watchtower",
@@ -4413,7 +4413,7 @@ export const generatedLocalCopy = {
             "Phân tích xu hướng",
             "Thông tin địa lý"
           ],
-          "colorClass": "bg-gradient-to-br từ-red-400 đến-red-600"
+          "colorClass": "bg-gradient-to-br from-red-400 to-red-600"
         }
       ],
       "securityBullets": [
@@ -4437,22 +4437,22 @@ export const generatedLocalCopy = {
         {
           "label": "SOC 2 Loại II",
           "state": "✓ Được chứng nhận",
-          "stateClass": "văn bản-xanh-600"
+          "stateClass": "text-green-600"
         },
         {
           "label": "GDPR",
           "state": "✓ Tuân thủ",
-          "stateClass": "văn bản-[#60A5FA]"
+          "stateClass": "text-[#60A5FA]"
         },
         {
           "label": "CCPA",
           "state": "✓ Tuân thủ",
-          "stateClass": "văn bản-tím-600"
+          "stateClass": "text-purple-600"
         },
         {
           "label": "ISO 27001",
           "state": "Đang tiến hành",
-          "stateClass": "văn bản-amber-600"
+          "stateClass": "text-amber-600"
         }
       ],
       "engineeringCards": [
@@ -4558,7 +4558,7 @@ export const generatedLocalCopy = {
           "subtitle": "বুদ্ধিমত্তা স্তর",
           "description": "মাল্টি-এজেন্ট এআই, প্যাটার্ন সনাক্তকরণ, অসঙ্গতি সনাক্তকরণ, যুক্তি",
           "color": "bg-gradient-to-r from-slate-50 to-orange-50",
-          "textColor": "পাঠ্য-[var(--পাঠ্য-প্রাথমিক)]",
+          "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
         {
@@ -4587,7 +4587,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "তথ্য সংগ্রহ",
-          "description": "Scout 12টি ডেটা ডোমেন এবং বাহ্যিক উত্স জুড়ে 250+ রেস্তোরাঁ সিস্টেমের সাথে সংযোগ করে৷",
+          "description": "Scout 12টি ডেটা ডোমেন এবং বাহ্যিক উত্স জুড়ে 30+ রেস্তোরাঁ সিস্টেমের সাথে সংযোগ করে৷",
           "icon": "integration"
         },
         {
@@ -4623,7 +4623,7 @@ export const generatedLocalCopy = {
       "modules": [
         {
           "name": "Scout",
-          "description": "ইউনিভার্সাল ডেটা ইন্টিগ্রেশন লেয়ার 12টি ডেটা ডোমেন জুড়ে 250+ রেস্তোরাঁ সিস্টেমকে সংযুক্ত করে",
+          "description": "ইউনিভার্সাল ডেটা ইন্টিগ্রেশন লেয়ার 12টি ডেটা ডোমেন জুড়ে 30+ রেস্তোরাঁ সিস্টেমকে সংযুক্ত করে",
           "icon": "scout",
           "features": [
             "POS ইন্টিগ্রেশন",
@@ -4631,7 +4631,7 @@ export const generatedLocalCopy = {
             "ইনভেন্টরি",
             "রিয়েল-টাইম সিঙ্ক"
           ],
-          "colorClass": "কম্পোনেন্ট-আইকন--স্কাউট"
+          "colorClass": "component-icon--scout"
         },
         {
           "name": "Pulse",
@@ -4643,10 +4643,10 @@ export const generatedLocalCopy = {
             "প্যাটার্ন বিশ্লেষণ",
             "থ্রেশহোল্ড মনিটরিং"
           ],
-          "colorClass": "উপাদান-আইকন--নাড়ি"
+          "colorClass": "component-icon--pulse"
         },
         {
-          "name": "ফরজ",
+          "name": "Forge",
           "description": "প্রাকৃতিক ভাষা বুদ্ধিমত্তার জন্য কথোপকথনমূলক এআই ইঞ্জিন",
           "icon": "forge",
           "features": [
@@ -4655,7 +4655,7 @@ export const generatedLocalCopy = {
             "কোয়েরি ইঞ্জিন",
             "এআই প্রতিক্রিয়া"
           ],
-          "colorClass": "কম্পোনেন্ট-আইকন--ফার্জ"
+          "colorClass": "component-icon--forge"
         },
         {
           "name": "Canvas",
@@ -4667,7 +4667,7 @@ export const generatedLocalCopy = {
             "ভিজ্যুয়াল অ্যানালিটিক্স",
             "ইন্টারেক্টিভ রিপোর্ট"
           ],
-          "colorClass": "উপাদান-আইকন--ক্যানভাস"
+          "colorClass": "component-icon--canvas"
         },
         {
           "name": "Watchtower",
@@ -4679,7 +4679,7 @@ export const generatedLocalCopy = {
             "প্রবণতা বিশ্লেষণ",
             "ভৌগলিক বুদ্ধিমত্তা"
           ],
-          "colorClass": "bg-গ্রেডিয়েন্ট-টু-br-রেড-400 থেকে-লাল-600"
+          "colorClass": "bg-gradient-to-br from-red-400 to-red-600"
         }
       ],
       "securityBullets": [
@@ -4703,22 +4703,22 @@ export const generatedLocalCopy = {
         {
           "label": "SOC 2 প্রকার II",
           "state": "✓ প্রত্যয়িত",
-          "stateClass": "টেক্সট-সবুজ-600"
+          "stateClass": "text-green-600"
         },
         {
           "label": "জিডিপিআর",
           "state": "✓ অনুগত",
-          "stateClass": "পাঠ্য-[#60A5FA]"
+          "stateClass": "text-[#60A5FA]"
         },
         {
           "label": "CCPA",
           "state": "✓ অনুগত",
-          "stateClass": "টেক্সট-বেগুনি-600"
+          "stateClass": "text-purple-600"
         },
         {
           "label": "ISO 27001",
           "state": "চলছে",
-          "stateClass": "টেক্সট-অ্যাম্বার-600"
+          "stateClass": "text-amber-600"
         }
       ],
       "engineeringCards": [
@@ -4739,7 +4739,7 @@ export const generatedLocalCopy = {
           "color": "from-[#FF5C4D] to-[#E9A24A]",
           "features": [
             "রিয়েল-টাইম ডেটা প্রসেসিং",
-            "সাব-সেকেন্ডের প্রতিক্রিয়া বার",
+            "সাব-সেকেন্ড প্রতিক্রিয়া সময়",
             "সক্রিয় পর্যবেক্ষণ এবং স্থিতিস্থাপক অবকাঠামো",
             "অটো-স্কেলিং অবকাঠামো"
           ]
@@ -4824,7 +4824,7 @@ export const generatedLocalCopy = {
           "subtitle": "Intelligenslager",
           "description": "Multi-agent AI, mönsterdetektering, anomalidetektering, resonemang",
           "color": "bg-gradient-to-r from-slate-50 to-orange-50",
-          "textColor": "text-[var(--text-primär)]",
+          "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
         {
@@ -4853,7 +4853,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Datainsamling",
-          "description": "Scout ansluter till 250+ restaurangsystem över 12 datadomäner och externa källor",
+          "description": "Scout ansluter till 30+ restaurangsystem över 12 datadomäner och externa källor",
           "icon": "integration"
         },
         {
@@ -4889,15 +4889,15 @@ export const generatedLocalCopy = {
       "modules": [
         {
           "name": "Scout",
-          "description": "Universellt dataintegrationslager som förbinder 250+ restaurangsystem över 12 datadomäner",
+          "description": "Universellt dataintegrationslager som förbinder 30+ restaurangsystem över 12 datadomäner",
           "icon": "scout",
           "features": [
             "POS-integration",
-            "Labor Systems",
+            "Personalsystem",
             "Inventering",
             "Realtidssynkronisering"
           ],
-          "colorClass": "komponent-ikon--scout"
+          "colorClass": "component-icon--scout"
         },
         {
           "name": "Pulse",
@@ -4909,11 +4909,11 @@ export const generatedLocalCopy = {
             "Mönsteranalys",
             "Tröskelövervakning"
           ],
-          "colorClass": "komponent-ikon--puls"
+          "colorClass": "component-icon--pulse"
         },
         {
           "name": "Forge",
-          "description": "Conversational AI-motor för naturlig språkintelligens",
+          "description": "Konversations-AI-motor för naturlig språkintelligens",
           "icon": "forge",
           "features": [
             "Naturligt språk",
@@ -4921,7 +4921,7 @@ export const generatedLocalCopy = {
             "Frågemotor",
             "AI-svar"
           ],
-          "colorClass": "komponent-ikon--smida"
+          "colorClass": "component-icon--forge"
         },
         {
           "name": "Canvas",
@@ -4933,7 +4933,7 @@ export const generatedLocalCopy = {
             "Visuell analys",
             "Interaktiva rapporter"
           ],
-          "colorClass": "komponent-ikon--canvas"
+          "colorClass": "component-icon--canvas"
         },
         {
           "name": "Watchtower",
@@ -4945,7 +4945,7 @@ export const generatedLocalCopy = {
             "Trendanalys",
             "Geografisk intelligens"
           ],
-          "colorClass": "bg-gradient-to-br från-röd-400 till-röd-600"
+          "colorClass": "bg-gradient-to-br from-red-400 to-red-600"
         }
       ],
       "securityBullets": [
@@ -4969,7 +4969,7 @@ export const generatedLocalCopy = {
         {
           "label": "SOC 2 typ II",
           "state": "✓ Certifierad",
-          "stateClass": "text-grön-600"
+          "stateClass": "text-green-600"
         },
         {
           "label": "GDPR",
@@ -4979,7 +4979,7 @@ export const generatedLocalCopy = {
         {
           "label": "CCPA",
           "state": "✓ Överensstämmer",
-          "stateClass": "text-lila-600"
+          "stateClass": "text-purple-600"
         },
         {
           "label": "ISO 27001",
@@ -5090,7 +5090,7 @@ export const generatedLocalCopy = {
           "subtitle": "ชั้นสติปัญญา",
           "description": "AI หลายตัวแทน การตรวจจับรูปแบบ การตรวจจับความผิดปกติ การให้เหตุผล",
           "color": "bg-gradient-to-r from-slate-50 to-orange-50",
-          "textColor": "ข้อความ - [var (-- ข้อความหลัก)]",
+          "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
         {
@@ -5163,7 +5163,7 @@ export const generatedLocalCopy = {
             "สินค้าคงคลัง",
             "การซิงค์แบบเรียลไทม์"
           ],
-          "colorClass": "องค์ประกอบไอคอน - ลูกเสือ"
+          "colorClass": "component-icon--scout"
         },
         {
           "name": "Pulse",
@@ -5175,10 +5175,10 @@ export const generatedLocalCopy = {
             "การวิเคราะห์รูปแบบ",
             "การตรวจสอบเกณฑ์"
           ],
-          "colorClass": "องค์ประกอบไอคอน--ชีพจร"
+          "colorClass": "component-icon--pulse"
         },
         {
-          "name": "ฟอร์จ",
+          "name": "Forge",
           "description": "กลไกการสนทนา AI เพื่อความฉลาดทางภาษาธรรมชาติ",
           "icon": "forge",
           "features": [
@@ -5187,7 +5187,7 @@ export const generatedLocalCopy = {
             "เครื่องมือค้นหา",
             "การตอบสนองของ AI"
           ],
-          "colorClass": "องค์ประกอบไอคอน--ปลอมแปลง"
+          "colorClass": "component-icon--forge"
         },
         {
           "name": "Canvas",
@@ -5199,7 +5199,7 @@ export const generatedLocalCopy = {
             "การวิเคราะห์ภาพ",
             "รายงานเชิงโต้ตอบ"
           ],
-          "colorClass": "องค์ประกอบไอคอน--canvas"
+          "colorClass": "component-icon--canvas"
         },
         {
           "name": "Watchtower",
@@ -5211,7 +5211,7 @@ export const generatedLocalCopy = {
             "การวิเคราะห์แนวโน้ม",
             "หน่วยสืบราชการลับทางภูมิศาสตร์"
           ],
-          "colorClass": "bg-gradient-to-br จาก-red-400 ถึง-red-600"
+          "colorClass": "bg-gradient-to-br from-red-400 to-red-600"
         }
       ],
       "securityBullets": [
@@ -5235,22 +5235,22 @@ export const generatedLocalCopy = {
         {
           "label": "SOC 2 ประเภท II",
           "state": "✓ ได้รับการรับรอง",
-          "stateClass": "ข้อความสีเขียว-600"
+          "stateClass": "text-green-600"
         },
         {
           "label": "GDPR",
           "state": "✓ เป็นไปตามข้อกำหนด",
-          "stateClass": "ข้อความ-[#60A5FA]"
+          "stateClass": "text-[#60A5FA]"
         },
         {
           "label": "CCPA",
           "state": "✓ เป็นไปตามข้อกำหนด",
-          "stateClass": "ข้อความ-สีม่วง-600"
+          "stateClass": "text-purple-600"
         },
         {
           "label": "ISO27001",
           "state": "อยู่ระหว่างดำเนินการ",
-          "stateClass": "ข้อความ-อำพัน-600"
+          "stateClass": "text-amber-600"
         }
       ],
       "engineeringCards": [
@@ -5356,7 +5356,7 @@ export const generatedLocalCopy = {
           "subtitle": "Lapisan Perisikan",
           "description": "AI berbilang ejen, pengesanan corak, pengesanan anomali, penaakulan",
           "color": "bg-gradient-to-r from-slate-50 to-orange-50",
-          "textColor": "teks-[var(--teks-utama)]",
+          "textColor": "text-[var(--text-primary)]",
           "icon": "speed"
         },
         {
@@ -5385,7 +5385,7 @@ export const generatedLocalCopy = {
         {
           "step": "1",
           "title": "Pengumpulan Data",
-          "description": "Scout menyambung kepada 250+ sistem restoran merentas 12 domain data dan sumber luaran",
+          "description": "Scout menyambung kepada 30+ sistem restoran merentas 12 domain data dan sumber luaran",
           "icon": "integration"
         },
         {
@@ -5421,7 +5421,7 @@ export const generatedLocalCopy = {
       "modules": [
         {
           "name": "Scout",
-          "description": "Lapisan integrasi data universal yang menghubungkan 250+ sistem restoran merentas 12 domain data",
+          "description": "Lapisan integrasi data universal yang menghubungkan 30+ sistem restoran merentas 12 domain data",
           "icon": "scout",
           "features": [
             "Integrasi POS",
@@ -5429,7 +5429,7 @@ export const generatedLocalCopy = {
             "Inventori",
             "Penyegerakan masa nyata"
           ],
-          "colorClass": "ikon komponen--pengakap"
+          "colorClass": "component-icon--scout"
         },
         {
           "name": "Pulse",
@@ -5441,10 +5441,10 @@ export const generatedLocalCopy = {
             "Analisis Corak",
             "Pemantauan Ambang"
           ],
-          "colorClass": "ikon komponen--nadi"
+          "colorClass": "component-icon--pulse"
         },
         {
-          "name": "Tempa",
+          "name": "Forge",
           "description": "Enjin AI perbualan untuk kecerdasan bahasa semula jadi",
           "icon": "forge",
           "features": [
@@ -5453,7 +5453,7 @@ export const generatedLocalCopy = {
             "Enjin Pertanyaan",
             "Respons AI"
           ],
-          "colorClass": "ikon komponen--memalsukan"
+          "colorClass": "component-icon--forge"
         },
         {
           "name": "Canvas",
@@ -5465,7 +5465,7 @@ export const generatedLocalCopy = {
             "Analitis Visual",
             "Laporan Interaktif"
           ],
-          "colorClass": "ikon komponen--kanvas"
+          "colorClass": "component-icon--canvas"
         },
         {
           "name": "Watchtower",
@@ -5501,22 +5501,22 @@ export const generatedLocalCopy = {
         {
           "label": "SOC 2 Jenis II",
           "state": "✓ Diperakui",
-          "stateClass": "teks-hijau-600"
+          "stateClass": "text-green-600"
         },
         {
           "label": "GDPR",
           "state": "✓ Mematuhi",
-          "stateClass": "teks-[#60A5FA]"
+          "stateClass": "text-[#60A5FA]"
         },
         {
           "label": "CCPA",
           "state": "✓ Mematuhi",
-          "stateClass": "teks-ungu-600"
+          "stateClass": "text-purple-600"
         },
         {
           "label": "ISO 27001",
           "state": "Sedang Berlangsung",
-          "stateClass": "teks-amber-600"
+          "stateClass": "text-amber-600"
         }
       ],
       "engineeringCards": [
