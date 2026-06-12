@@ -43,6 +43,7 @@ export function SectionEditorialSplit({
             ratio="aspect-[4/5] sm:aspect-[3/2] lg:aspect-[4/5]"
             overlay="blend"
             rounded="rounded-[24px]"
+            parallax
           />
         </FadeUp>
         <FadeUp className={imageSide === 'right' ? 'lg:order-1' : ''}>

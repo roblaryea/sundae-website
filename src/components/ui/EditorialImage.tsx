@@ -1,6 +1,8 @@
 'use client';
 
 import Image from 'next/image';
+import { useRef } from 'react';
+import { motion, useScroll, useTransform, useReducedMotion } from 'framer-motion';
 
 type Overlay = 'blend' | 'text' | 'duotone' | 'none';
 
@@ -32,6 +34,8 @@ interface EditorialImageProps {
   grain?: boolean;
   /** Lift on hover (premium motion). Default true. */
   hover?: boolean;
+  /** Subtle scroll-linked vertical parallax on the photo (cinematic, opt-in). Default false. Auto-disabled under prefers-reduced-motion. */
+  parallax?: boolean;
   /** Extra classes on the outer frame. */
   className?: string;
   /** Overlaid content (kicker / quote), rendered above the scrim. */
@@ -63,15 +67,23 @@ export function EditorialImage({
   rounded = 'rounded-[20px]',
   grain = true,
   hover = true,
+  parallax = false,
   className = '',
   children,
   sizes = '(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1200px',
 }: EditorialImageProps) {
-  return (
-    <figure
-      className={`group relative isolate overflow-hidden ${rounded} ${ratio} border border-[var(--border-default)] ring-1 ring-white/[0.06] [html.light_&]:ring-black/[0.05] shadow-2xl shadow-black/40 [html.light_&]:shadow-black/[0.08] ${className}`}
-    >
-      {/* Photography ---------------------------------------------------- */}
+  const figureRef = useRef<HTMLElement>(null);
+  const reduce = useReducedMotion();
+  const { scrollYProgress } = useScroll({
+    target: figureRef,
+    offset: ['start end', 'end start'],
+  });
+  // Photo drifts slightly against the scroll for a subtle cinematic parallax.
+  const y = useTransform(scrollYProgress, [0, 1], ['-7%', '7%']);
+  const useParallax = parallax && !reduce;
+
+  const photography = (
+    <>
       <Image
         src={src}
         alt={alt}
@@ -95,6 +107,23 @@ export function EditorialImage({
             hover ? 'transition-transform duration-[1.2s] ease-out group-hover:scale-[1.04]' : ''
           }`}
         />
+      )}
+    </>
+  );
+
+  return (
+    <figure
+      ref={figureRef}
+      className={`group relative isolate overflow-hidden ${rounded} ${ratio} border border-[var(--border-default)] ring-1 ring-white/[0.06] [html.light_&]:ring-black/[0.05] shadow-2xl shadow-black/40 [html.light_&]:shadow-black/[0.08] ${className}`}
+    >
+      {/* Photography ---------------------------------------------------- */}
+      {useParallax ? (
+        // Oversized + overflowing so the scroll-driven drift never reveals an edge.
+        <motion.div className="absolute inset-x-0 -top-[9%] h-[118%]" style={{ y }}>
+          {photography}
+        </motion.div>
+      ) : (
+        photography
       )}
 
       {/* Brand wash - warm caramel→coral grade for cohesion ------------- */}

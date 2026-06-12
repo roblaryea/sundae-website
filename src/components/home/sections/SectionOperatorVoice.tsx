@@ -50,6 +50,7 @@ export function SectionOperatorVoice() {
             ratio="aspect-[4/5]"
             overlay="blend"
             rounded="rounded-[24px]"
+            parallax
           />
         </FadeUp>
 

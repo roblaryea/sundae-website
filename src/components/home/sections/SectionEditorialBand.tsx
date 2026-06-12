@@ -55,6 +55,7 @@ export function SectionEditorialBand({
             overlay="text"
             rounded="rounded-[24px]"
             priority={priority}
+            parallax
           >
             <div className="max-w-2xl">
               {/* Legible premium kicker - white copy + a blue accent rule.

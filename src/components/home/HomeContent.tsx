@@ -345,11 +345,6 @@ export default function HomeContent() {
         <SectionSpeedQualityCost />
 
         {/* ════════════════════════════════════════════════
-            2d. WHAT YOU RETIRE - Explicit BI-replacement positioning
-        ════════════════════════════════════════════════ */}
-        <SectionWhatYouRetire />
-
-        {/* ════════════════════════════════════════════════
             3. SIX LAYERS - Platform pillars
         ════════════════════════════════════════════════ */}
         <section aria-labelledby="platform-heading" className="py-20 px-4 sm:px-6 lg:px-8 relative">
@@ -425,6 +420,13 @@ export default function HomeContent() {
           )}
           sub={editorial.band2.sub}
         />
+
+        {/* ════════════════════════════════════════════════
+            3a-retire. WHAT YOU RETIRE - BI-replacement positioning, grouped with the moats
+            (moved out of the Speed·Quality·Cost stack to break the dense run + cluster
+            the competitive/BI-replacement argument with Three Moats)
+        ════════════════════════════════════════════════ */}
+        <SectionWhatYouRetire />
 
         {/* ════════════════════════════════════════════════
             3b. BEYOND DASHBOARDS - Three Moats (Pulse / Watchtower / Benchmarks)
