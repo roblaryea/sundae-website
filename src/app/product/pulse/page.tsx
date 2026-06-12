@@ -7,6 +7,7 @@ import { REPORT_APP_URL } from "@/lib/urls";
 import { PageHero, PageCTA, FadeUp, StaggerContainer, StaggerItem } from "@/components/ui/PageAnimations";
 import { useWebsiteI18n } from "@/components/i18n/LocaleProvider";
 import { SectionProductGallery } from "@/components/home/sections/SectionProductGallery";
+import { SectionShiftMoment } from "@/components/home/sections/SectionShiftMoment";
 import {
   MockupFrame,
   MockupKPI,
@@ -1290,6 +1291,11 @@ export default function PulsePage() {
           <LocalizedPulseDashboardMockup />
         </div>
       </section>
+
+      {/* SIGNATURE INTERACTION - the same "watch the night turn" moment from the
+          homepage, reused here where it is most literally true: Pulse catches the
+          bad shift live, at 7:15, while it is still yours to change. */}
+      <SectionShiftMoment />
 
       {/* What Pulse Monitors - Quick Grid */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[var(--navy-deep)]">

@@ -17,6 +17,7 @@ import { SectionEditorialBand } from "./sections/SectionEditorialBand";
 import { SectionEditorialSplit } from "./sections/SectionEditorialSplit";
 import { SectionCreamRelief } from "./sections/SectionCreamRelief";
 import { SectionManifesto } from "./sections/SectionManifesto";
+import { SectionShiftMoment } from "./sections/SectionShiftMoment";
 import { SectionOperatorVoice } from "./sections/SectionOperatorVoice";
 import { SectionEcosystemStrip } from "./sections/SectionEcosystemStrip";
 import { SundaeWordmark } from "./sections/SundaeWordmark";
@@ -316,6 +317,13 @@ export default function HomeContent() {
             </div>
           </div>
         </section>
+
+        {/* ════════════════════════════════════════════════
+            2-signature. WATCH THE NIGHT TURN - the signature interaction.
+            Scrub a service night; at 7:15 Sundae surfaces the signal you can
+            still act on. The interactive proof of the manifesto/operator copy.
+        ════════════════════════════════════════════════ */}
+        <SectionShiftMoment />
 
         {/* ════════════════════════════════════════════════
             2a. HUMANIZED EDITORIAL BAND - the real restaurant world
