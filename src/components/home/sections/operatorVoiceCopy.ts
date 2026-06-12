@@ -1,14 +1,14 @@
 import type { WebsiteLocale } from '@/lib/i18n';
 
 /**
- * Operator-voice copy — the homepage's human-presence beat.
+ * Operator-voice copy - the homepage's human-presence beat.
  *
  * Premium hospitality sites (USHG, the best Squarespace restaurant templates)
  * lead with PEOPLE, not product spectacle. Sundae's product sections are UI +
  * copy; this section puts a real face on the page and speaks in the operator's
  * own voice about the problem we obsess over.
  *
- * IMPORTANT — this is deliberately NOT a fabricated named testimonial. Per the
+ * IMPORTANT - this is deliberately NOT a fabricated named testimonial. Per the
  * standing product decision, attributed operator quotes wait for a named pilot
  * who agrees to attribution (see the homepage Section-7 composite-quote policy).
  * Until then this is an honest second-person empathy beat ("what we hear on
@@ -33,19 +33,19 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
   en: {
     eyebrow: 'The problem we obsess over',
     quote:
-      'You can feel the night turning by 7:15 — the covers, the pace, the table that is sitting too long. *The numbers that prove it only land at 11 the next morning.*',
+      'You can feel the night turning by 7:15 - the covers, the pace, the table that is sitting too long. *The numbers that prove it only land at 11 the next morning.*',
     resolution:
-      'Sundae closes that gap. The read you need arrives while the shift is still yours to change — not buried in tomorrow’s report.',
+      'Sundae closes that gap. The read you need arrives while the shift is still yours to change - not buried in tomorrow’s report.',
     attribution: 'What we hear on every floor we build for',
     cta: 'See how it works',
-    alt: 'A head chef working with focus on the kitchen pass during evening service',
+    alt: 'A restaurant kitchen brigade working the line during evening service',
   },
   ar: {
     eyebrow: 'المشكلة التي تشغلنا',
     quote:
-      'تشعر بأن الليلة تتبدّل عند السابعة وربع — الضيوف، الإيقاع، الطاولة التي طال جلوسها. *أما الأرقام التي تُثبت ذلك فلا تصل إلا في الحادية عشرة من صباح اليوم التالي.*',
+      'تشعر بأن الليلة تتبدّل عند السابعة وربع - الضيوف، الإيقاع، الطاولة التي طال جلوسها. *أما الأرقام التي تُثبت ذلك فلا تصل إلا في الحادية عشرة من صباح اليوم التالي.*',
     resolution:
-      'يسدّ Sundae هذه الفجوة. تصلك القراءة التي تحتاجها والوردية لا تزال قابلة للإنقاذ — لا مدفونةً في تقرير الغد.',
+      'يسدّ Sundae هذه الفجوة. تصلك القراءة التي تحتاجها والوردية لا تزال قابلة للإنقاذ - لا مدفونةً في تقرير الغد.',
     attribution: 'ما نسمعه في كل صالة نبني لأجلها',
     cta: 'شاهد كيف يعمل',
     alt: 'رئيس طهاة يعمل بتركيز عند ممر التقديم أثناء خدمة المساء',
@@ -53,9 +53,9 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
   fr: {
     eyebrow: 'Le problème qui nous obsède',
     quote:
-      "Vous sentez la soirée basculer dès 19 h 15 — les couverts, la cadence, la table qui s'éternise. *Les chiffres qui le confirment n'arrivent qu'à 11 h le lendemain.*",
+      "Vous sentez la soirée basculer dès 19 h 15 - les couverts, la cadence, la table qui s'éternise. *Les chiffres qui le confirment n'arrivent qu'à 11 h le lendemain.*",
     resolution:
-      "Sundae comble cet écart. L'information dont vous avez besoin arrive tant que le service peut encore être sauvé — pas enfouie dans le rapport du lendemain.",
+      "Sundae comble cet écart. L'information dont vous avez besoin arrive tant que le service peut encore être sauvé - pas enfouie dans le rapport du lendemain.",
     attribution: 'Ce que nous entendons dans chaque salle pour laquelle nous concevons',
     cta: 'Voir comment ça marche',
     alt: 'Un chef de cuisine concentré au passe pendant le service du soir',
@@ -63,9 +63,9 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
   es: {
     eyebrow: 'El problema que nos obsesiona',
     quote:
-      'Sientes que la noche cambia a las 7:15 — los comensales, el ritmo, la mesa que lleva demasiado tiempo. *Los números que lo confirman recién llegan a las 11 de la mañana siguiente.*',
+      'Sientes que la noche cambia a las 7:15 - los comensales, el ritmo, la mesa que lleva demasiado tiempo. *Los números que lo confirman recién llegan a las 11 de la mañana siguiente.*',
     resolution:
-      'Sundae cierra esa brecha. La lectura que necesitas llega cuando todavía puedes cambiar el turno — no enterrada en el informe de mañana.',
+      'Sundae cierra esa brecha. La lectura que necesitas llega cuando todavía puedes cambiar el turno - no enterrada en el informe de mañana.',
     attribution: 'Lo que escuchamos en cada sala para la que construimos',
     cta: 'Ver cómo funciona',
     alt: 'Un chef ejecutivo trabajando con concentración en el pase durante el servicio de la noche',
@@ -73,9 +73,9 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
   de: {
     eyebrow: 'Das Problem, das uns nicht loslässt',
     quote:
-      'Sie spüren schon um 19:15 Uhr, wie der Abend kippt — die Gedecke, das Tempo, der Tisch, der zu lange sitzt. *Die Zahlen, die es belegen, kommen erst um 11 Uhr am nächsten Morgen.*',
+      'Sie spüren schon um 19:15 Uhr, wie der Abend kippt - die Gedecke, das Tempo, der Tisch, der zu lange sitzt. *Die Zahlen, die es belegen, kommen erst um 11 Uhr am nächsten Morgen.*',
     resolution:
-      'Sundae schließt diese Lücke. Die Einschätzung, die Sie brauchen, kommt, solange die Schicht noch zu drehen ist — nicht vergraben im Bericht von morgen.',
+      'Sundae schließt diese Lücke. Die Einschätzung, die Sie brauchen, kommt, solange die Schicht noch zu drehen ist - nicht vergraben im Bericht von morgen.',
     attribution: 'Was wir in jedem Gastraum hören, für den wir bauen',
     cta: 'So funktioniert es',
     alt: 'Ein Küchenchef arbeitet konzentriert am Pass während des Abendservice',
@@ -83,9 +83,9 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
   nl: {
     eyebrow: 'Het probleem waar wij van wakker liggen',
     quote:
-      'U voelt de avond al om 19.15 uur kantelen — de gasten, het tempo, de tafel die te lang blijft zitten. *De cijfers die het bewijzen komen pas om 11 uur de volgende ochtend.*',
+      'U voelt de avond al om 19.15 uur kantelen - de gasten, het tempo, de tafel die te lang blijft zitten. *De cijfers die het bewijzen komen pas om 11 uur de volgende ochtend.*',
     resolution:
-      'Sundae dicht dat gat. Het inzicht dat u nodig hebt komt terwijl u de dienst nog kunt bijsturen — niet begraven in het rapport van morgen.',
+      'Sundae dicht dat gat. Het inzicht dat u nodig hebt komt terwijl u de dienst nog kunt bijsturen - niet begraven in het rapport van morgen.',
     attribution: 'Wat we horen op elke vloer waarvoor we bouwen',
     cta: 'Zie hoe het werkt',
     alt: 'Een chef-kok werkt geconcentreerd aan de pass tijdens de avondservice',
@@ -93,9 +93,9 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
   pt: {
     eyebrow: 'O problema que nos obceca',
     quote:
-      'Você sente a noite virar lá pelas 19h15 — os clientes, o ritmo, a mesa que está sentada tempo demais. *Os números que comprovam isso só chegam às 11h da manhã seguinte.*',
+      'Você sente a noite virar lá pelas 19h15 - os clientes, o ritmo, a mesa que está sentada tempo demais. *Os números que comprovam isso só chegam às 11h da manhã seguinte.*',
     resolution:
-      'O Sundae fecha essa lacuna. A leitura de que você precisa chega enquanto o turno ainda é seu para mudar — não enterrada no relatório de amanhã.',
+      'O Sundae fecha essa lacuna. A leitura de que você precisa chega enquanto o turno ainda é seu para mudar - não enterrada no relatório de amanhã.',
     attribution: 'O que ouvimos em cada salão para o qual construímos',
     cta: 'Veja como funciona',
     alt: 'Um chef de cozinha trabalhando com foco na expedição durante o serviço da noite',
@@ -103,9 +103,9 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
   hi: {
     eyebrow: 'वह समस्या जो हमें चैन नहीं लेने देती',
     quote:
-      'शाम 7:15 तक ही आप महसूस कर लेते हैं कि रात किस ओर मुड़ रही है — मेहमान, रफ्तार, वह मेज़ जो बहुत देर से बैठी है। *पर जो आँकड़े इसे साबित करते हैं, वे अगली सुबह 11 बजे ही हाथ लगते हैं।*',
+      'शाम 7:15 तक ही आप महसूस कर लेते हैं कि रात किस ओर मुड़ रही है - मेहमान, रफ्तार, वह मेज़ जो बहुत देर से बैठी है। *पर जो आँकड़े इसे साबित करते हैं, वे अगली सुबह 11 बजे ही हाथ लगते हैं।*',
     resolution:
-      'Sundae इस फासले को पाट देता है। जिस समझ की आपको ज़रूरत है वह तभी आ जाती है जब शिफ्ट अब भी आपके हाथ में होती है — कल की रिपोर्ट में दबी हुई नहीं।',
+      'Sundae इस फासले को पाट देता है। जिस समझ की आपको ज़रूरत है वह तभी आ जाती है जब शिफ्ट अब भी आपके हाथ में होती है - कल की रिपोर्ट में दबी हुई नहीं।',
     attribution: 'हर उस फ्लोर पर जो हम बनाते हैं, हमें यही सुनने को मिलता है',
     cta: 'देखें यह कैसे काम करता है',
     alt: 'शाम की सर्विस के दौरान रसोई के पास पर एकाग्रता से काम करता हेड शेफ',
@@ -113,9 +113,9 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
   ur: {
     eyebrow: 'وہ مسئلہ جو ہمیں چین نہیں لینے دیتا',
     quote:
-      'شام 7:15 تک ہی آپ محسوس کر لیتے ہیں کہ رات کس طرف مڑ رہی ہے — مہمان، رفتار، وہ میز جو بہت دیر سے بیٹھی ہے۔ *مگر جو اعداد و شمار اِسے ثابت کرتے ہیں، وہ اگلی صبح 11 بجے ہی ہاتھ آتے ہیں۔*',
+      'شام 7:15 تک ہی آپ محسوس کر لیتے ہیں کہ رات کس طرف مڑ رہی ہے - مہمان، رفتار، وہ میز جو بہت دیر سے بیٹھی ہے۔ *مگر جو اعداد و شمار اِسے ثابت کرتے ہیں، وہ اگلی صبح 11 بجے ہی ہاتھ آتے ہیں۔*',
     resolution:
-      'Sundae اِس خلا کو پُر کر دیتا ہے۔ جس بصیرت کی آپ کو ضرورت ہے وہ اُسی وقت آ جاتی ہے جب شفٹ ابھی آپ کے ہاتھ میں ہوتی ہے — کل کی رپورٹ میں دبی ہوئی نہیں۔',
+      'Sundae اِس خلا کو پُر کر دیتا ہے۔ جس بصیرت کی آپ کو ضرورت ہے وہ اُسی وقت آ جاتی ہے جب شفٹ ابھی آپ کے ہاتھ میں ہوتی ہے - کل کی رپورٹ میں دبی ہوئی نہیں۔',
     attribution: 'ہر اُس فلور پر جس کے لیے ہم بناتے ہیں، ہمیں یہی سننے کو ملتا ہے',
     cta: 'دیکھیں یہ کیسے کام کرتا ہے',
     alt: 'شام کی سروس کے دوران کچن کے پاس پر یکسوئی سے کام کرتا ہیڈ شیف',
@@ -123,9 +123,9 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
   it: {
     eyebrow: "Il problema che ci ossessiona",
     quote:
-      "Senti la serata cambiare già alle 19:15 — i coperti, il ritmo, il tavolo che resta seduto troppo a lungo. *I numeri che lo dimostrano arrivano solo alle 11 del mattino dopo.*",
+      "Senti la serata cambiare già alle 19:15 - i coperti, il ritmo, il tavolo che resta seduto troppo a lungo. *I numeri che lo dimostrano arrivano solo alle 11 del mattino dopo.*",
     resolution:
-      "Sundae colma questo divario. La lettura che ti serve arriva quando il servizio è ancora tuo da cambiare — non sepolta nel report di domani.",
+      "Sundae colma questo divario. La lettura che ti serve arriva quando il servizio è ancora tuo da cambiare - non sepolta nel report di domani.",
     attribution: 'Quello che sentiamo in ogni sala per cui costruiamo',
     cta: 'Scopri come funziona',
     alt: 'Uno chef che lavora con concentrazione al passe durante il servizio serale',
@@ -133,9 +133,9 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
   pl: {
     eyebrow: 'Problem, który nie daje nam spokoju',
     quote:
-      'Już o 19:15 czujesz, jak wieczór się przechyla — goście, tempo, stolik, który siedzi za długo. *A liczby, które to potwierdzają, docierają dopiero o 11 następnego ranka.*',
+      'Już o 19:15 czujesz, jak wieczór się przechyla - goście, tempo, stolik, który siedzi za długo. *A liczby, które to potwierdzają, docierają dopiero o 11 następnego ranka.*',
     resolution:
-      'Sundae domyka tę lukę. Odczyt, którego potrzebujesz, przychodzi, póki zmianę wciąż możesz odmienić — a nie pogrzebany w jutrzejszym raporcie.',
+      'Sundae domyka tę lukę. Odczyt, którego potrzebujesz, przychodzi, póki zmianę wciąż możesz odmienić - a nie pogrzebany w jutrzejszym raporcie.',
     attribution: 'To, co słyszymy na każdej sali, dla której budujemy',
     cta: 'Zobacz, jak to działa',
     alt: 'Szef kuchni pracujący w skupieniu przy wydawce podczas wieczornego serwisu',
@@ -143,9 +143,9 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
   tr: {
     eyebrow: 'Bizi rahat bırakmayan sorun',
     quote:
-      'Akşamın nasıl döndüğünü daha 19.15’te hissedersiniz — misafirler, tempo, fazla uzun oturan masa. *Bunu kanıtlayan rakamlarsa ancak ertesi sabah 11’de elinize geçer.*',
+      'Akşamın nasıl döndüğünü daha 19.15’te hissedersiniz - misafirler, tempo, fazla uzun oturan masa. *Bunu kanıtlayan rakamlarsa ancak ertesi sabah 11’de elinize geçer.*',
     resolution:
-      'Sundae bu boşluğu kapatır. İhtiyacınız olan okuma, vardiya hâlâ sizin elinizdeyken gelir — yarının raporuna gömülü değil.',
+      'Sundae bu boşluğu kapatır. İhtiyacınız olan okuma, vardiya hâlâ sizin elinizdeyken gelir - yarının raporuna gömülü değil.',
     attribution: 'İçin tasarladığımız her salonda duyduğumuz şey',
     cta: 'Nasıl çalıştığını görün',
     alt: 'Akşam servisi sırasında mutfak pasında odaklanarak çalışan şef',
@@ -153,9 +153,9 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
   'zh-Hans': {
     eyebrow: '我们念念不忘的难题',
     quote:
-      '七点一刻，你就能感觉到这一夜在往哪儿走——客人、节奏、那张坐得太久的桌子。*可证明这一切的数字，要到第二天上午十一点才送到你手里。*',
+      '七点一刻，你就能感觉到这一夜在往哪儿走--客人、节奏、那张坐得太久的桌子。*可证明这一切的数字，要到第二天上午十一点才送到你手里。*',
     resolution:
-      'Sundae 填平了这道鸿沟。你需要的判断在班次还来得及调整时就送到——而不是埋在明天的报表里。',
+      'Sundae 填平了这道鸿沟。你需要的判断在班次还来得及调整时就送到--而不是埋在明天的报表里。',
     attribution: '在我们服务的每一家餐厅，我们听到的都是这句话',
     cta: '看看它如何运作',
     alt: '晚市服务期间，主厨在厨房出菜口专注工作',
@@ -163,9 +163,9 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
   ja: {
     eyebrow: '私たちがこだわり続ける課題',
     quote:
-      '夜の流れがどう変わるかは、19時15分にはもう感じ取れます——客数、ペース、長く居すぎているあのテーブル。*けれど、それを裏づける数字が手元に届くのは翌朝11時です。*',
+      '夜の流れがどう変わるかは、19時15分にはもう感じ取れます--客数、ペース、長く居すぎているあのテーブル。*けれど、それを裏づける数字が手元に届くのは翌朝11時です。*',
     resolution:
-      'Sundae はそのギャップを埋めます。必要な読みは、まだそのシフトを変えられるうちに届く——明日のレポートに埋もれてしまうのではなく。',
+      'Sundae はそのギャップを埋めます。必要な読みは、まだそのシフトを変えられるうちに届く--明日のレポートに埋もれてしまうのではなく。',
     attribution: '私たちがつくるすべての現場で耳にする声',
     cta: '仕組みを見る',
     alt: '夜の営業中、厨房のパスで集中して働くヘッドシェフ',
@@ -173,9 +173,9 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
   ko: {
     eyebrow: '우리가 끈질기게 파고드는 문제',
     quote:
-      '저녁 7시 15분이면 오늘 밤이 어디로 흘러가는지 벌써 느껴집니다 — 손님 수, 흐름, 너무 오래 앉아 있는 저 테이블. *하지만 그것을 증명할 숫자는 다음 날 아침 11시에야 손에 들어옵니다.*',
+      '저녁 7시 15분이면 오늘 밤이 어디로 흘러가는지 벌써 느껴집니다 - 손님 수, 흐름, 너무 오래 앉아 있는 저 테이블. *하지만 그것을 증명할 숫자는 다음 날 아침 11시에야 손에 들어옵니다.*',
     resolution:
-      'Sundae는 그 간극을 메웁니다. 필요한 판단이 아직 근무를 바꿀 수 있을 때 도착합니다 — 내일 보고서에 묻혀 버리는 게 아니라.',
+      'Sundae는 그 간극을 메웁니다. 필요한 판단이 아직 근무를 바꿀 수 있을 때 도착합니다 - 내일 보고서에 묻혀 버리는 게 아니라.',
     attribution: '우리가 만드는 모든 매장에서 듣는 이야기',
     cta: '어떻게 작동하는지 보기',
     alt: '저녁 영업 중 주방 패스에서 집중해 일하는 헤드 셰프',
@@ -183,9 +183,9 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
   id: {
     eyebrow: 'Masalah yang terus kami pikirkan',
     quote:
-      'Pukul 7.15 malam Anda sudah bisa merasakan ke mana malam ini bergerak — jumlah tamu, tempo, meja yang terlalu lama terisi. *Tapi angka yang membuktikannya baru tiba pukul 11 keesokan paginya.*',
+      'Pukul 7.15 malam Anda sudah bisa merasakan ke mana malam ini bergerak - jumlah tamu, tempo, meja yang terlalu lama terisi. *Tapi angka yang membuktikannya baru tiba pukul 11 keesokan paginya.*',
     resolution:
-      'Sundae menutup jurang itu. Pembacaan yang Anda butuhkan tiba selagi shift masih bisa Anda ubah — bukan terkubur dalam laporan esok hari.',
+      'Sundae menutup jurang itu. Pembacaan yang Anda butuhkan tiba selagi shift masih bisa Anda ubah - bukan terkubur dalam laporan esok hari.',
     attribution: 'Yang kami dengar di setiap ruang yang kami bangun untuknya',
     cta: 'Lihat cara kerjanya',
     alt: 'Seorang kepala koki bekerja dengan fokus di pass dapur saat layanan malam',
@@ -193,9 +193,9 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
   vi: {
     eyebrow: 'Bài toán chúng tôi đau đáu',
     quote:
-      'Mới 7 giờ 15 tối bạn đã cảm nhận được buổi tối đang ngả về đâu — lượt khách, nhịp độ, cái bàn ngồi quá lâu. *Nhưng những con số chứng minh điều đó mãi đến 11 giờ sáng hôm sau mới tới tay bạn.*',
+      'Mới 7 giờ 15 tối bạn đã cảm nhận được buổi tối đang ngả về đâu - lượt khách, nhịp độ, cái bàn ngồi quá lâu. *Nhưng những con số chứng minh điều đó mãi đến 11 giờ sáng hôm sau mới tới tay bạn.*',
     resolution:
-      'Sundae khép lại khoảng cách ấy. Thông tin bạn cần đến khi ca làm vẫn còn trong tay bạn để thay đổi — chứ không nằm vùi trong báo cáo ngày mai.',
+      'Sundae khép lại khoảng cách ấy. Thông tin bạn cần đến khi ca làm vẫn còn trong tay bạn để thay đổi - chứ không nằm vùi trong báo cáo ngày mai.',
     attribution: 'Điều chúng tôi nghe thấy ở mọi sàn phục vụ mà chúng tôi xây dựng cho',
     cta: 'Xem cách hoạt động',
     alt: 'Một bếp trưởng làm việc tập trung tại quầy ra món trong giờ phục vụ buổi tối',
@@ -203,9 +203,9 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
   ro: {
     eyebrow: 'Problema care ne dă bătăi de cap',
     quote:
-      'Simți încotro o ia seara încă de la 19:15 — clienții, ritmul, masa care stă prea mult. *Dar cifrele care o dovedesc ajung abia la 11 a doua zi dimineața.*',
+      'Simți încotro o ia seara încă de la 19:15 - clienții, ritmul, masa care stă prea mult. *Dar cifrele care o dovedesc ajung abia la 11 a doua zi dimineața.*',
     resolution:
-      'Sundae acoperă acest gol. Citirea de care ai nevoie ajunge cât tura încă e a ta de schimbat — nu îngropată în raportul de mâine.',
+      'Sundae acoperă acest gol. Citirea de care ai nevoie ajunge cât tura încă e a ta de schimbat - nu îngropată în raportul de mâine.',
     attribution: 'Ce auzim în fiecare sală pentru care construim',
     cta: 'Vezi cum funcționează',
     alt: 'Un bucătar-șef lucrând concentrat la pass în timpul serviciului de seară',
@@ -213,9 +213,9 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
   sv: {
     eyebrow: 'Problemet vi inte släpper',
     quote:
-      'Du känner redan vid 19:15 vart kvällen är på väg — gästerna, tempot, bordet som sitter för länge. *Men siffrorna som bevisar det landar inte förrän klockan 11 nästa morgon.*',
+      'Du känner redan vid 19:15 vart kvällen är på väg - gästerna, tempot, bordet som sitter för länge. *Men siffrorna som bevisar det landar inte förrän klockan 11 nästa morgon.*',
     resolution:
-      'Sundae sluter det gapet. Läsningen du behöver kommer medan passet fortfarande är ditt att ändra — inte begravd i morgondagens rapport.',
+      'Sundae sluter det gapet. Läsningen du behöver kommer medan passet fortfarande är ditt att ändra - inte begravd i morgondagens rapport.',
     attribution: 'Det vi hör i varje matsal vi bygger för',
     cta: 'Se hur det fungerar',
     alt: 'En köksmästare arbetar fokuserat vid passet under kvällsserveringen',
@@ -223,9 +223,9 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
   bn: {
     eyebrow: 'যে সমস্যা আমাদের ছাড়ে না',
     quote:
-      'সন্ধ্যা ৭টা ১৫-তেই আপনি টের পান রাতটা কোন দিকে গড়াচ্ছে — অতিথির সংখ্যা, গতি, যে টেবিলটা অনেকক্ষণ ধরে বসে আছে। *কিন্তু যে সংখ্যাগুলো তা প্রমাণ করে, সেগুলো হাতে আসে পরদিন সকাল ১১টায়।*',
+      'সন্ধ্যা ৭টা ১৫-তেই আপনি টের পান রাতটা কোন দিকে গড়াচ্ছে - অতিথির সংখ্যা, গতি, যে টেবিলটা অনেকক্ষণ ধরে বসে আছে। *কিন্তু যে সংখ্যাগুলো তা প্রমাণ করে, সেগুলো হাতে আসে পরদিন সকাল ১১টায়।*',
     resolution:
-      'Sundae সেই ফাঁকটা ভরে দেয়। যে পাঠটা আপনার দরকার তা তখনই আসে যখন শিফটটা বদলানো এখনও আপনার হাতে — আগামীকালের রিপোর্টে চাপা পড়ে নয়।',
+      'Sundae সেই ফাঁকটা ভরে দেয়। যে পাঠটা আপনার দরকার তা তখনই আসে যখন শিফটটা বদলানো এখনও আপনার হাতে - আগামীকালের রিপোর্টে চাপা পড়ে নয়।',
     attribution: 'আমরা যে প্রতিটি ফ্লোরের জন্য তৈরি করি, সেখানেই আমরা এটা শুনি',
     cta: 'দেখুন কীভাবে কাজ করে',
     alt: 'সন্ধ্যার পরিবেশনের সময় রান্নাঘরের পাসে মনোযোগ দিয়ে কাজ করছেন একজন হেড শেফ',
@@ -233,9 +233,9 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
   th: {
     eyebrow: 'ปัญหาที่เราหมกมุ่นอยู่กับมัน',
     quote:
-      'แค่หนึ่งทุ่มสิบห้าคุณก็สัมผัสได้แล้วว่าค่ำคืนนี้กำลังไปทางไหน — จำนวนลูกค้า จังหวะ โต๊ะที่นั่งนานเกินไป *แต่ตัวเลขที่พิสูจน์เรื่องนี้กลับมาถึงมือคุณตอนสิบเอ็ดโมงเช้าวันรุ่งขึ้น*',
+      'แค่หนึ่งทุ่มสิบห้าคุณก็สัมผัสได้แล้วว่าค่ำคืนนี้กำลังไปทางไหน - จำนวนลูกค้า จังหวะ โต๊ะที่นั่งนานเกินไป *แต่ตัวเลขที่พิสูจน์เรื่องนี้กลับมาถึงมือคุณตอนสิบเอ็ดโมงเช้าวันรุ่งขึ้น*',
     resolution:
-      'Sundae อุดช่องว่างนั้น สิ่งที่คุณต้องรู้มาถึงในขณะที่กะนั้นยังเปลี่ยนแปลงได้ — ไม่ใช่ถูกฝังอยู่ในรายงานของพรุ่งนี้',
+      'Sundae อุดช่องว่างนั้น สิ่งที่คุณต้องรู้มาถึงในขณะที่กะนั้นยังเปลี่ยนแปลงได้ - ไม่ใช่ถูกฝังอยู่ในรายงานของพรุ่งนี้',
     attribution: 'สิ่งที่เราได้ยินในทุกพื้นที่บริการที่เราสร้างให้',
     cta: 'ดูว่าทำงานอย่างไร',
     alt: 'เชฟใหญ่กำลังทำงานอย่างจดจ่อที่หน้าจ่ายอาหารในครัวระหว่างบริการมื้อค่ำ',
@@ -243,9 +243,9 @@ export const operatorVoiceCopy: Record<WebsiteLocale, OperatorVoiceCopy> = {
   ms: {
     eyebrow: 'Masalah yang sentiasa kami fikirkan',
     quote:
-      'Pada pukul 7.15 malam pun anda sudah dapat merasai ke mana malam ini menuju — tetamu, rentak, meja yang duduk terlalu lama. *Tetapi angka yang membuktikannya hanya sampai pada pukul 11 pagi esoknya.*',
+      'Pada pukul 7.15 malam pun anda sudah dapat merasai ke mana malam ini menuju - tetamu, rentak, meja yang duduk terlalu lama. *Tetapi angka yang membuktikannya hanya sampai pada pukul 11 pagi esoknya.*',
     resolution:
-      'Sundae merapatkan jurang itu. Bacaan yang anda perlukan tiba selagi syif itu masih boleh anda ubah — bukan terbenam dalam laporan esok hari.',
+      'Sundae merapatkan jurang itu. Bacaan yang anda perlukan tiba selagi syif itu masih boleh anda ubah - bukan terbenam dalam laporan esok hari.',
     attribution: 'Apa yang kami dengar di setiap ruang yang kami bina untuknya',
     cta: 'Lihat cara ia berfungsi',
     alt: 'Seorang ketua cef bekerja dengan fokus di pass dapur semasa servis malam',

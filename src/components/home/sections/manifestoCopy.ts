@@ -1,7 +1,7 @@
 import type { WebsiteLocale } from '@/lib/i18n';
 
 /**
- * Manifesto copy — the homepage "belief beat" that opens the page in the
+ * Manifesto copy - the homepage "belief beat" that opens the page in the
  * USHG/category-leader register: a confident, copy-first statement of what
  * Sundae believes, before the product earns its place.
  *
@@ -14,6 +14,10 @@ import type { WebsiteLocale } from '@/lib/i18n';
  * A single `*…*` span in `statement` renders in warm-coral italic (the same
  * emphasis-marker convention used by creamReliefCopy). Brand name "Sundae" and
  * "P&L" stay untranslated in every locale.
+ *
+ * Dash house-style (mirrors editorialCopy): Latin/Arabic/Indic/Thai scripts use
+ * a spaced ASCII hyphen " - "; CJK (zh-Hans, ja) uses a double ASCII hyphen
+ * "--" with no surrounding spaces. No em-dashes anywhere.
  */
 export type ManifestoCopy = {
   eyebrow: string;
@@ -26,133 +30,133 @@ export const manifestoCopy: Record<WebsiteLocale, ManifestoCopy> = {
   en: {
     eyebrow: 'What we believe',
     statement:
-      'A restaurant is decided a hundred times a day — on the floor, on the line, in the middle of the rush. Every one of those calls deserves *the full truth of your business,* fast enough to act on.',
-    coda: 'That belief is the whole product. Everything Sundae does is in service of the next decision you are about to make.',
+      'A restaurant is run on a hundred decisions a day - on the floor, on the line, in the middle of the rush. We believe every one of them deserves *the truth, while it can still change the night.*',
+    coda: "That belief is the whole product. Everything Sundae does serves the next decision you're about to make.",
   },
   ar: {
     eyebrow: 'ما نؤمن به',
     statement:
-      'يُتَّخذ قرار المطعم مئة مرة في اليوم — في الصالة، عند الممر، في عزّ الزحمة. كل قرار منها يستحق *الحقيقة الكاملة عن عملك،* وبسرعة تكفي للتصرّف.',
-    coda: 'هذا الإيمان هو المنتج كله. كل ما يفعله Sundae في خدمة القرار التالي الذي توشك على اتخاذه.',
+      'يُدار المطعم بمئة قرار في اليوم - في الصالة، عند الممر، في عزّ الزحمة. ونؤمن أن كل قرار منها يستحق *الحقيقة، ما دامت ليلتك ما تزال قابلة للتغيير.*',
+    coda: 'هذا الإيمان هو المنتج كله. كل ما يفعله Sundae يخدم القرار التالي الذي توشك على اتخاذه.',
   },
   fr: {
     eyebrow: 'Ce en quoi nous croyons',
     statement:
-      'Un restaurant se décide cent fois par jour — en salle, au passe, en plein coup de feu. Chacune de ces décisions mérite *toute la vérité de votre activité,* assez vite pour agir.',
+      'Un restaurant se mène à coups de cent décisions par jour - en salle, au passe, en plein coup de feu. Nous croyons que chacune mérite *la vérité, tant que le service peut encore changer.*',
     coda: "Cette conviction, c'est tout le produit. Tout ce que fait Sundae sert la prochaine décision que vous êtes sur le point de prendre.",
   },
   es: {
     eyebrow: 'En lo que creemos',
     statement:
-      'Un restaurante se decide cien veces al día — en la sala, en el pase, en plena hora punta. Cada una de esas decisiones merece *toda la verdad de tu negocio,* a tiempo para actuar.',
+      'Un restaurante se lleva a base de cien decisiones al día - en la sala, en el pase, en plena hora punta. Creemos que cada una merece *la verdad, mientras todavía puedes cambiar la noche.*',
     coda: 'Esa convicción es todo el producto. Todo lo que hace Sundae está al servicio de la próxima decisión que estás a punto de tomar.',
   },
   de: {
     eyebrow: 'Woran wir glauben',
     statement:
-      'Ein Restaurant wird hundertmal am Tag entschieden — im Gastraum, am Pass, mitten im größten Andrang. Jede dieser Entscheidungen verdient *die ganze Wahrheit über Ihr Geschäft,* schnell genug, um zu handeln.',
+      'Ein Restaurant läuft auf hundert Entscheidungen am Tag - im Gastraum, am Pass, mitten im größten Andrang. Wir glauben, jede davon verdient *die Wahrheit, solange sich der Abend noch ändern lässt.*',
     coda: 'Diese Überzeugung ist das ganze Produkt. Alles, was Sundae tut, dient der nächsten Entscheidung, die Sie gleich treffen.',
   },
   nl: {
     eyebrow: 'Waar wij in geloven',
     statement:
-      'Een restaurant wordt honderd keer per dag beslist — in de zaak, op de pass, midden in de drukte. Elk van die beslissingen verdient *de volledige waarheid over uw zaak,* snel genoeg om naar te handelen.',
+      'Een restaurant draait op honderd beslissingen per dag - in de zaak, op de pass, midden in de drukte. Wij geloven dat elk daarvan *de waarheid verdient, zolang u de avond nog kunt bijsturen.*',
     coda: 'Die overtuiging ís het hele product. Alles wat Sundae doet, staat in dienst van de volgende beslissing die u op het punt staat te nemen.',
   },
   pt: {
     eyebrow: 'No que acreditamos',
     statement:
-      'Um restaurante é decidido cem vezes por dia — no salão, na expedição, no auge do movimento. Cada uma dessas decisões merece *toda a verdade do seu negócio,* rápido o bastante para agir.',
+      'Um restaurante se conduz a cem decisões por dia - no salão, na expedição, no auge do movimento. Acreditamos que cada uma merece *a verdade, enquanto ainda dá para mudar a noite.*',
     coda: 'Essa convicção é o produto inteiro. Tudo o que o Sundae faz está a serviço da próxima decisão que você está prestes a tomar.',
   },
   hi: {
     eyebrow: 'हम क्या मानते हैं',
     statement:
-      'एक रेस्तरां दिन में सौ बार तय होता है — फ्लोर पर, लाइन पर, भीड़ के बीचों-बीच। उनमें से हर फैसला हकदार है *आपके कारोबार की पूरी सच्चाई का,* और इतनी तेज़ी से कि उस पर कदम उठाया जा सके।',
+      'एक रेस्तरां दिन में सौ फैसलों पर चलता है - फ्लोर पर, लाइन पर, भीड़ के बीचों-बीच। हमारा यकीन है कि उनमें से हर एक हकदार है *सच्चाई का, जब तक उस शाम को अब भी बदला जा सके।*',
     coda: 'यही यकीन पूरा प्रोडक्ट है। Sundae जो कुछ भी करता है, वह उस अगले फैसले के लिए है जो आप अभी लेने वाले हैं।',
   },
   ur: {
     eyebrow: 'ہم کس بات پر یقین رکھتے ہیں',
     statement:
-      'ایک ریستوران دن میں سو بار طے ہوتا ہے — فلور پر، پاس پر، رش کے عین بیچ میں۔ اِن میں سے ہر فیصلہ مستحق ہے *آپ کے کاروبار کی پوری سچائی کا،* اور اِتنی تیزی سے کہ اُس پر عمل کیا جا سکے۔',
+      'ایک ریستوران دن میں سو فیصلوں پر چلتا ہے - فلور پر، پاس پر، رش کے عین بیچ میں۔ ہمارا یقین ہے کہ اِن میں سے ہر ایک مستحق ہے *سچائی کا، جب تک اُس شام کو ابھی بدلا جا سکے۔*',
     coda: 'یہی یقین پورا پروڈکٹ ہے۔ Sundae جو کچھ بھی کرتا ہے وہ اُس اگلے فیصلے کے لیے ہے جو آپ ابھی کرنے والے ہیں۔',
   },
   it: {
     eyebrow: 'In cosa crediamo',
     statement:
-      'Un ristorante si decide cento volte al giorno — in sala, al passe, nel pieno del servizio. Ognuna di quelle scelte merita *tutta la verità del tuo locale,* abbastanza in fretta da poter agire.',
+      'Un ristorante si manda avanti a cento decisioni al giorno - in sala, al passe, nel pieno del servizio. Crediamo che ognuna meriti *la verità, finché il servizio si può ancora cambiare.*',
     coda: "Quella convinzione è l'intero prodotto. Tutto ciò che fa Sundae è al servizio della prossima decisione che stai per prendere.",
   },
   pl: {
     eyebrow: 'W co wierzymy',
     statement:
-      'O restauracji decyduje się sto razy dziennie — na sali, przy wydawce, w samym środku natłoku. Każda z tych decyzji zasługuje na *całą prawdę o twoim biznesie,* na tyle szybko, by zdążyć zadziałać.',
+      'Restauracja działa na stu decyzjach dziennie - na sali, przy wydawce, w samym środku natłoku. Wierzymy, że każda z nich zasługuje na *prawdę, póki ten wieczór można jeszcze zmienić.*',
     coda: 'To przekonanie jest całym produktem. Wszystko, co robi Sundae, służy kolejnej decyzji, którą masz właśnie podjąć.',
   },
   tr: {
     eyebrow: 'Neye inanıyoruz',
     statement:
-      'Bir restoran günde yüz kez karara bağlanır — salonda, pasta, yoğunluğun tam ortasında. Bu kararların her biri *işinizin tüm gerçeğini* hak eder, üstelik harekete geçecek kadar hızlı.',
+      'Bir restoran günde yüz kararla yürür - salonda, pasta, yoğunluğun tam ortasında. İnanıyoruz ki her biri *gerçeği hak eder, üstelik o akşamı hâlâ değiştirebilecekken.*',
     coda: 'Bu inanç, ürünün tamamıdır. Sundae ne yapıyorsa, vermek üzere olduğunuz bir sonraki karar için yapıyor.',
   },
   'zh-Hans': {
     eyebrow: '我们的信念',
     statement:
-      '一家餐厅，一天要做上百次决定——在餐厅里，在出餐线上，在最忙乱的时刻。每一个决定都配得上*你生意的全部真相，*而且要快到来得及付诸行动。',
+      '一家餐厅，靠一天上百个决定运转--在餐厅里，在出餐线上，在最忙乱的时刻。我们相信，每一个决定都配得上*趁这一晚还来得及改变时的那份真相。*',
     coda: '这个信念就是产品的全部。Sundae 所做的一切，都服务于你即将做出的下一个决定。',
   },
   ja: {
     eyebrow: '私たちが信じること',
     statement:
-      '店の判断は、一日に百回下される——フロアで、パスで、ピークの真っただ中で。その一つひとつが*ビジネスのすべての真実*に値する。しかも、行動に移せるだけの速さで。',
+      '店は、一日に百の判断で回っている--フロアで、パスで、ピークの真っただ中で。その一つひとつが*まだ今夜を変えられるうちの、真実*に値すると私たちは信じている。',
     coda: 'その信念こそが製品のすべてです。Sundae が手がけるすべては、あなたがいま下そうとしている次の判断のためにあります。',
   },
   ko: {
     eyebrow: '우리가 믿는 것',
     statement:
-      '레스토랑은 하루에 백 번 결정됩니다 — 홀에서, 패스에서, 가장 바쁜 순간 한가운데에서. 그 모든 판단은 *당신 비즈니스의 온전한 진실*을 누릴 자격이 있습니다. 그것도 행동에 옮길 만큼 빠르게.',
+      '레스토랑은 하루에 백 번의 결정으로 돌아갑니다 - 홀에서, 패스에서, 가장 바쁜 순간 한가운데에서. 우리는 그 하나하나가 *아직 오늘 밤을 바꿀 수 있을 때의 진실*을 누릴 자격이 있다고 믿습니다.',
     coda: '그 믿음이 곧 제품 전부입니다. Sundae가 하는 모든 일은 당신이 지금 내리려는 다음 결정을 위한 것입니다.',
   },
   id: {
     eyebrow: 'Yang kami yakini',
     statement:
-      'Sebuah restoran diputuskan seratus kali sehari — di ruang makan, di pass, di tengah jam tersibuk. Setiap keputusan itu layak mendapat *seluruh kebenaran bisnis Anda,* cukup cepat untuk ditindaklanjuti.',
+      'Sebuah restoran berjalan di atas seratus keputusan sehari - di ruang makan, di pass, di tengah jam tersibuk. Kami yakin setiap keputusan layak mendapat *kebenaran, selagi malam ini masih bisa diubah.*',
     coda: 'Keyakinan itulah seluruh produknya. Semua yang dilakukan Sundae mengabdi pada keputusan berikutnya yang akan Anda ambil.',
   },
   vi: {
     eyebrow: 'Điều chúng tôi tin',
     statement:
-      'Một nhà hàng được định đoạt cả trăm lần mỗi ngày — trên sàn, tại quầy ra món, ngay giữa lúc cao điểm. Mỗi quyết định ấy đều xứng đáng có *toàn bộ sự thật về việc kinh doanh của bạn,* đủ nhanh để kịp hành động.',
+      'Một nhà hàng vận hành bằng cả trăm quyết định mỗi ngày - trên sàn, tại quầy ra món, ngay giữa lúc cao điểm. Chúng tôi tin mỗi quyết định đều xứng đáng có *sự thật, khi vẫn còn kịp thay đổi buổi tối ấy.*',
     coda: 'Niềm tin đó chính là toàn bộ sản phẩm. Tất cả những gì Sundae làm đều phục vụ cho quyết định tiếp theo mà bạn sắp đưa ra.',
   },
   ro: {
     eyebrow: 'În ce credem',
     statement:
-      'Un restaurant se decide de o sută de ori pe zi — în sală, la pass, în toiul aglomerației. Fiecare dintre acele decizii merită *tot adevărul afacerii tale,* destul de repede cât să poți acționa.',
+      'Un restaurant merge pe o sută de decizii pe zi - în sală, la pass, în toiul aglomerației. Credem că fiecare merită *adevărul, cât încă mai poți schimba seara.*',
     coda: 'Convingerea aceasta este întregul produs. Tot ce face Sundae este în slujba următoarei decizii pe care ești pe cale să o iei.',
   },
   sv: {
     eyebrow: 'Det vi tror på',
     statement:
-      'En restaurang avgörs hundra gånger om dagen — i matsalen, vid passet, mitt i rusningen. Var och en av de besluten förtjänar *hela sanningen om din verksamhet,* snabbt nog att hinna agera på.',
+      'En restaurang drivs av hundra beslut om dagen - i matsalen, vid passet, mitt i rusningen. Vi tror att vart och ett av dem förtjänar *sanningen, medan kvällen fortfarande går att ändra.*',
     coda: 'Den övertygelsen är hela produkten. Allt Sundae gör står i tjänst för nästa beslut du står i begrepp att fatta.',
   },
   bn: {
     eyebrow: 'আমরা যা বিশ্বাস করি',
     statement:
-      'একটি রেস্তোরাঁ দিনে শতবার নির্ধারিত হয় — ফ্লোরে, লাইনে, ভিড়ের ঠিক মাঝখানে। সেই প্রতিটি সিদ্ধান্তই দাবি রাখে *আপনার ব্যবসার সম্পূর্ণ সত্যের,* আর তা এতটাই দ্রুত যাতে পদক্ষেপ নেওয়া যায়।',
+      'একটি রেস্তোরাঁ চলে দিনে শতবার নেওয়া সিদ্ধান্তে - ফ্লোরে, লাইনে, ভিড়ের ঠিক মাঝখানে। আমরা বিশ্বাস করি, এর প্রতিটিই দাবি রাখে *সত্যের, যতক্ষণ এই রাতটাকে এখনও বদলানো যায়।*',
     coda: 'এই বিশ্বাসটাই গোটা পণ্য। Sundae যা কিছু করে, তার সবটাই আপনি এখন যে পরবর্তী সিদ্ধান্তটি নিতে চলেছেন তার সেবায়।',
   },
   th: {
     eyebrow: 'สิ่งที่เราเชื่อ',
     statement:
-      'ร้านอาหารถูกตัดสินเป็นร้อยครั้งต่อวัน — ในห้องอาหาร ที่หน้าจ่ายอาหาร ท่ามกลางช่วงที่วุ่นที่สุด ทุกการตัดสินใจเหล่านั้นสมควรได้รับ *ความจริงทั้งหมดของธุรกิจคุณ* และเร็วพอที่จะลงมือทำได้ทัน',
+      'ร้านอาหารขับเคลื่อนด้วยการตัดสินใจนับร้อยครั้งต่อวัน - ในห้องอาหาร ที่หน้าจ่ายอาหาร ท่ามกลางช่วงที่วุ่นที่สุด เราเชื่อว่าทุกการตัดสินใจสมควรได้รับ *ความจริง ในขณะที่ยังเปลี่ยนค่ำคืนนี้ได้ทัน*',
     coda: 'ความเชื่อนี้คือตัวผลิตภัณฑ์ทั้งหมด ทุกสิ่งที่ Sundae ทำล้วนเพื่อรับใช้การตัดสินใจครั้งถัดไปที่คุณกำลังจะลงมือ',
   },
   ms: {
     eyebrow: 'Apa yang kami percaya',
     statement:
-      'Sebuah restoran diputuskan seratus kali sehari — di ruang makan, di pass, di kemuncak kesibukan. Setiap keputusan itu berhak mendapat *seluruh kebenaran perniagaan anda,* cukup pantas untuk ditindak.',
+      'Sebuah restoran digerakkan oleh seratus keputusan sehari - di ruang makan, di pass, di kemuncak kesibukan. Kami percaya setiap satunya berhak mendapat *kebenaran, selagi malam ini masih boleh diubah.*',
     coda: 'Keyakinan itulah keseluruhan produknya. Segala yang Sundae lakukan adalah demi keputusan seterusnya yang bakal anda buat.',
   },
 };

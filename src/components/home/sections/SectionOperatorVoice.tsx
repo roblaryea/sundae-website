@@ -44,7 +44,7 @@ export function SectionOperatorVoice() {
         {/* Portrait — a real person on the line. */}
         <FadeUp>
           <EditorialImage
-            src="/images/editorial/chef-detail.jpg"
+            src="/images/editorial/kitchen-brigade.jpg"
             alt={copy.alt}
             ratio="aspect-[4/5]"
             overlay="blend"

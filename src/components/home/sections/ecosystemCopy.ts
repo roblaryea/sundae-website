@@ -1,12 +1,12 @@
 import type { WebsiteLocale } from '@/lib/i18n';
 
 /**
- * Ecosystem-strip copy — the homepage's quiet external-credibility beat.
+ * Ecosystem-strip copy - the homepage's quiet external-credibility beat.
  *
  * USHG signals authority with restrained third-party badges (Michelin, James
  * Beard). Sundae's honest analog is the stack it plugs into. This strip names
  * ONLY the Live POS integrations (the source of truth is /integrations) and
- * labels everything else explicitly as roadmap — no overstating "Upcoming"
+ * labels everything else explicitly as roadmap - no overstating "Upcoming"
  * connectors as if they shipped.
  *
  * POS_SYSTEMS is intentionally NOT localized (product/brand wordmarks are

@@ -19,7 +19,7 @@ export function SectionEcosystemStrip() {
   const copy = ecosystemCopy[locale as keyof typeof ecosystemCopy] ?? ecosystemCopy.en;
 
   return (
-    <section aria-label={copy.eyebrow} className="relative px-4 pt-16 pb-4 sm:px-6 sm:pt-20 lg:px-8">
+    <section aria-label={copy.eyebrow} className="relative px-4 pt-16 pb-24 sm:px-6 sm:pt-20 sm:pb-28 lg:px-8">
       <div className="mx-auto max-w-5xl">
         <FadeUp className="text-center">
           <p className="mb-8 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--text-muted)]">
