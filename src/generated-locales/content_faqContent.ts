@@ -133,7 +133,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Benötigt Watchtower Core?",
-            "content": "Ja. Watchtower funktioniert am besten, wenn seine Marktsignale direkt auf live Betriebsdaten geschichtet werden, was Core bereitstellt.\n\nWenn Sie nur eine hochgeladene historische POS-Analyse benötigen, reicht Report aus. Wenn Sie Markt-Kontext, der mit den täglichen Abläufen verbunden ist, wünschen, wechseln Sie zu Core."
+            "content": "Ja. Watchtower funktioniert am besten, wenn seine Marktsignale direkt auf Live-Betriebsdaten geschichtet werden, was Core bereitstellt.\n\nWenn Sie nur eine hochgeladene historische POS-Analyse benötigen, reicht Report aus. Wenn Sie Markt-Kontext, der mit den täglichen Abläufen verbunden ist, wünschen, wechseln Sie zu Core."
           }
         ]
       },
@@ -208,12 +208,12 @@ export const generatedLocalCopy = {
         "icon": "quality",
         "faqs": [
           {
-            "title": "Ist meine Daten sicher?",
+            "title": "Sind meine Daten sicher?",
             "content": "Ja. Sundae verwendet Unternehmensstandards:\n• AES-256-Verschlüsselung im Ruhezustand\n• TLS-Verschlüsselung während der Übertragung\n• Rollenbasierte Zugriffskontrollen\n• Regelmäßige Sicherheitsüberprüfungen\n• GDPR-konforme Handhabung\n• Zusätzliche Sicherheitskontrollen für Unternehmenskunden"
           },
           {
             "title": "Kann ich steuern, wer welche Daten sieht?",
-            "content": "Ja. Das Rollenmanagement unterstützt Admin-, Manager- und Viewer-Berechtigungen, mit benutzerdefinierten Rollenmuster für komplexere Unternehmensbedürfnisse."
+            "content": "Ja. Das Rollenmanagement unterstützt Admin-, Manager- und Viewer-Berechtigungen, mit benutzerdefinierten Rollenmustern für komplexere Unternehmensbedürfnisse."
           },
           {
             "title": "Bieten Sie SSO an?",
@@ -325,7 +325,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Quel est le modèle d'intelligence 4D ?",
-            "content": "Le cadre de Sundae pour l'intelligence décisionnelle :\n\n**1D : Que s'est-il passé** - Vérité sur les ventes, le travail et les coûts\n**2D : Prévisions vs Réel** - Écart budgétaire et prévisions\n**3D : Contexte du marché** - Références, pairs et concurrents\n**4D : Qu'est-ce qui vient ensuite** - Prédictions et recommandations\n\n**Report :** Accès complet aux dimensions 1D et 2D plus 3D et 4D limités\n**Core :** Accès complet à toutes les 4 dimensions."
+            "content": "Le cadre de Sundae pour l'intelligence décisionnelle :\n\n**1D : Que s'est-il passé** - Données sur les ventes, le travail et les coûts\n**2D : Prévu vs Réel** - Écart par rapport au budget et aux prévisions\n**3D : Contexte du marché** - Références, pairs et concurrents\n**4D : Qu'est-ce qui vient ensuite** - Prédictions et recommandations\n\n**Report :** Accès complet aux dimensions 1D et 2D plus 3D et 4D limités\n**Core :** Accès complet à toutes les 4 dimensions."
           }
         ]
       },
@@ -591,7 +591,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "¿Qué productos ofrece Sundae?",
-            "content": "**Tres productos principales:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Análisis histórico y comparación\n2. **Sundae Core** (Lite / Pro / Enterprise) - Operaciones en tiempo real e inteligencia predictiva\n3. **Watchtower** (Competitivo / Evento / Mercado) - Inteligencia de mercado externa\n\n**Además:**\n\n4. **Módulos** - Inteligencia de Laboral, Inventario, Compras, Marketing y Reservas."
+            "content": "**Tres productos principales:**\n\n1. **Sundae Report** (Lite / Plus / Pro) - Análisis histórico y comparación\n2. **Sundae Core** (Lite / Pro / Enterprise) - Operaciones en tiempo real e inteligencia predictiva\n3. **Watchtower** (Competitivo / Evento / Mercado) - Inteligencia de mercado externa\n\n**Además:**\n\n4. **Módulos** - Inteligencia Laboral, de Inventario, Compras, Marketing y Reservas."
           },
           {
             "title": "¿Qué nivel debo elegir?",
@@ -603,7 +603,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "¿Cuál es el Modelo de Inteligencia 4D?",
-            "content": "El marco de Sundae para la inteligencia de decisiones:\n\n**1D: Qué Sucedió** - Verdad sobre ventas, mano de obra y costos\n**2D: Plan vs Realidad** - Variación de presupuesto y pronóstico\n**3D: Contexto del Mercado** - Referencias, pares y competidores\n**4D: Qué Sigue** - Predicciones y recomendaciones\n\n**Report:** Acceso completo a 1D y 2D más 3D y 4D limitados\n**Core:** Acceso completo en las 4 dimensiones."
+            "content": "El marco de Sundae para la inteligencia de decisiones:\n\n**1D: Qué Sucedió** - Datos de ventas, mano de obra y costos\n**2D: Plan vs Realidad** - Variación de presupuesto y pronóstico\n**3D: Contexto del Mercado** - Referencias, pares y competidores\n**4D: Qué Sigue** - Predicciones y recomendaciones\n\n**Report:** Acceso completo a 1D y 2D más 3D y 4D limitados\n**Core:** Acceso completo en las 4 dimensiones."
           }
         ]
       },
@@ -651,7 +651,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "¿Necesito Core para los módulos?",
-            "content": "Sí. Los módulos requieren Core Lite, Core Pro o Enterprise.\n\nDependiendo de conexiones en vivo a mano de obra, inventario, marketing, reservas y otros sistemas a los que Report no se conecta directamente."
+            "content": "Sí. Los módulos requieren Core Lite, Core Pro o Enterprise.\n\nDependen de conexiones en vivo a mano de obra, inventario, marketing, reservas y otros sistemas a los que Report no se conecta directamente."
           },
           {
             "title": "¿Puedo agregar múltiples módulos?",
@@ -699,7 +699,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "¿Cuánto cuesta Sundae?",
-            "content": "El precio depende de:\n• Reporte vs Core\n• Número de ubicaciones\n• Módulos seleccionados\n• Si se incluye Watchtower\n\n**Report Lite:** Gratis para siempre\n\nPara precios precisos, utiliza pricing.sundae.io."
+            "content": "El precio depende de:\n• Report vs Core\n• Número de ubicaciones\n• Módulos seleccionados\n• Si se incluye Watchtower\n\n**Report Lite:** Gratis para siempre\n\nPara precios precisos, utiliza pricing.sundae.io."
           },
           {
             "title": "¿Hay tarifas de configuración?",
@@ -801,7 +801,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "¿Cómo se diferencia Sundae de los informes de POS?",
-            "content": "**Informes de POS:** Un sistema, contexto limitado, interpretación manual\n\n**Informe de Sundae:** Análisis de POS más benchmarks, recomendaciones y detección de patrones\n\n**Sundae Core:** Todo en Informe más datos unificados de mano de obra, inventario, marketing, reservas y otros sistemas con actualizaciones más rápidas (Sundae Report)"
+            "content": "**Informes de POS:** Un sistema, contexto limitado, interpretación manual\n\n**Sundae Report:** Análisis de POS más benchmarks, recomendaciones y detección de patrones\n\n**Sundae Core:** Todo en Report más datos unificados de mano de obra, inventario, marketing, reservas y otros sistemas con actualizaciones más rápidas"
           },
           {
             "title": "¿Cómo se diferencia Sundae de Excel?",
@@ -818,7 +818,7 @@ export const generatedLocalCopy = {
         "icon": "search",
         "faqs": [
           {
-            "title": "¿Solo tengo una ubicación. ¿Sundae sigue siendo una opción?",
+            "title": "Solo tengo una ubicación. ¿Sundae sigue siendo una opción?",
             "content": "Sí. Comienza con Report Lite para benchmarking gratuito, luego pasa a niveles más profundos de Report o Core si tu operación necesita más velocidad e inteligencia."
           },
           {
@@ -881,7 +881,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Wat is het 4D Intelligence Model?",
-            "content": "Sundae's kader voor besluitvorming:\n\n**1D: Wat is er gebeurd** - Verkoop, arbeid en kosten waarheid\n**2D: Plan vs Werkelijk** - Budget en forecast afwijking\n**3D: Marktcontext** - Benchmarks, peers en concurrenten\n**4D: Wat is de volgende stap** - Voorspellingen en aanbevelingen\n\n**Report:** Volledige 1D en 2D plus beperkte 3D en 4D\n**Core:** Volledige toegang over alle 4 dimensies."
+            "content": "Sundae's kader voor besluitvorming:\n\n**1D: Wat is er gebeurd** - Verkoop-, arbeids- en kostengegevens\n**2D: Plan vs Werkelijk** - Budget en forecast afwijking\n**3D: Marktcontext** - Benchmarks, peers en concurrenten\n**4D: Wat is de volgende stap** - Voorspellingen en aanbevelingen\n\n**Report:** Volledige 1D en 2D plus beperkte 3D en 4D\n**Core:** Volledige toegang over alle 4 dimensies."
           }
         ]
       },
@@ -1003,7 +1003,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Hoe werken intelligentiecredits?",
-            "content": "Intelligentiecijfers ondersteunen vragen, analyses en aanbevelingen.\n\n**Report Lite:** 250 basis + 80 per locatie\n**Report Plus:** 1.200 basis + 300 per locatie\n**Report Pro:** 3.500 basis + 800 per locatie\n**Core Lite:** 8.000 basis + 1.600 per locatie\n**Core Pro:** 14.000 basis + 2.800 per locatie\n**Enterprise:** 50.000+ basis + aangepaste toewijzing"
+            "content": "Intelligentiecredits ondersteunen vragen, analyses en aanbevelingen.\n\n**Report Lite:** 250 basis + 80 per locatie\n**Report Plus:** 1.200 basis + 300 per locatie\n**Report Pro:** 3.500 basis + 800 per locatie\n**Core Lite:** 8.000 basis + 1.600 per locatie\n**Core Pro:** 14.000 basis + 2.800 per locatie\n**Enterprise:** 50.000+ basis + aangepaste toewijzing"
           },
           {
             "title": "Hoeveel historische toegang krijg ik?",
@@ -1079,7 +1079,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Hoe verschilt Sundae van POS-rapportage?",
-            "content": "**POS-rapporten:** Eén systeem, beperkte context, handmatige interpretatie\n\n**Sundae Report:** POS-analyse plus benchmarks, aanbevelingen en patroonherkenning\n\n**Sundae Core:** Alles in Rapport plus verenigde gegevens van arbeid, voorraad, marketing, reserveringen en andere systemen met snellere vernieuwing."
+            "content": "**POS-rapporten:** Eén systeem, beperkte context, handmatige interpretatie\n\n**Sundae Report:** POS-analyse plus benchmarks, aanbevelingen en patroonherkenning\n\n**Sundae Core:** Alles in Report plus verenigde gegevens van arbeid, voorraad, marketing, reserveringen en andere systemen met snellere vernieuwing."
           },
           {
             "title": "Hoe verschilt Sundae van Excel?",
@@ -1105,7 +1105,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Ik run cloudkeukens. Werkt Sundae voor leveringsgerichte operaties?",
-            "content": "Ja. Sundae verbindt leveringsplatforms en ondersteunt analytics voor virtuele merken, kanaalprestaties, arbeids efficiëntie en toerekening binnen leveringsintensievere operaties."
+            "content": "Ja. Sundae verbindt leveringsplatforms en ondersteunt analytics voor virtuele merken, kanaalprestaties, arbeidsefficiëntie en toerekening binnen leveringsintensievere operaties."
           },
           {
             "title": "We zijn van plan uit te breiden. Kan Sundae helpen?",
@@ -1159,7 +1159,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "ما هو نموذج الذكاء 4D؟",
-            "content": "إطار عمل Sundae لذكاء القرار:\n\n**1D: ماذا حدث** - حقيقة المبيعات، العمل، والتكلفة\n**2D: التخطيط مقابل الفعلي** - تباين الميزانية والتوقعات\n**3D: سياق السوق** - المعايير، الأقران، والمنافسين\n**4D: ماذا بعد** - التوقعات والتوصيات\n\n**Report:** الوصول الكامل إلى 1D و2D بالإضافة إلى 3D و4D محدودين\n**Core:** وصول كامل عبر جميع الأبعاد الأربعة."
+            "content": "إطار عمل Sundae لذكاء القرار:\n\n**1D: ماذا حدث** - بيانات المبيعات والعمل والتكلفة\n**2D: التخطيط مقابل الفعلي** - تباين الميزانية والتوقعات\n**3D: سياق السوق** - المعايير، الأقران، والمنافسين\n**4D: ماذا بعد** - التوقعات والتوصيات\n\n**Report:** الوصول الكامل إلى 1D و2D بالإضافة إلى 3D و4D محدودين\n**Core:** وصول كامل عبر جميع الأبعاد الأربعة."
           }
         ]
       },
@@ -1169,7 +1169,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "ما البيانات التي يحتاجها Sundae؟",
-            "content": "**الحد الأدنى لReport Lite:**\n• بيانات مبيعات POS (تصدير CSV)\n\n**لـ Core:**\n• نظام POS عبر API\n• نظام العمل أو القوى العاملة\n• نظام المخزون\n• منصات التسويق\n• نظام الحجوزات\n\nتم بناء التقرير حول تحميلات POS. Core هو المكان الذي تتصل فيه بمجموعة التشغيل الأوسع."
+            "content": "**الحد الأدنى لReport Lite:**\n• بيانات مبيعات POS (تصدير CSV)\n\n**لـ Core:**\n• نظام POS عبر API\n• نظام العمل أو القوى العاملة\n• نظام المخزون\n• منصات التسويق\n• نظام الحجوزات\n\nيُبنى Report حول تحميلات POS. Core هو المكان الذي تتصل فيه بمجموعة التشغيل الأوسع."
           },
           {
             "title": "كيف يمكنني إدخال بياناتي إلى Sundae؟",
@@ -1181,7 +1181,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "هل يمكنني استخدام Sundae مع أنظمة POS متعددة؟",
-            "content": "**Core Lite:** الأفضل عندما تستخدم جميع المواقع نظام POS واحد\n\n**Core Pro وEnterprise:** نعم. يتم دعم أنظمة POS المختلفة عبر المواقع، ويقوم Sundae بتوحيد البيانات للمقارنة المباشرة.\n\n**تقرير:** أي POS يعمل لأن التحميلات يدوية."
+            "content": "**Core Lite:** الأفضل عندما تستخدم جميع المواقع نظام POS واحد\n\n**Core Pro وEnterprise:** نعم. يتم دعم أنظمة POS المختلفة عبر المواقع، ويقوم Sundae بتوحيد البيانات للمقارنة المباشرة.\n\n**Report:** أي POS يعمل لأن التحميلات يدوية."
           },
           {
             "title": "كم من الوقت يستغرق التنفيذ؟",
@@ -1259,7 +1259,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "هل هناك رسوم إعداد؟",
-            "content": "لا. لا تفرض Sundae رسوم إعداد منفصلة للتوجيه القياسي والتكامل."
+            "content": "لا. لا تفرض Sundae رسوم إعداد منفصلة للإعداد القياسي والتكامل."
           },
           {
             "title": "ما هي العملات التي تقبلونها؟",
@@ -1281,19 +1281,19 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "كيف تعمل اعتمادات الذكاء؟",
-            "content": "تدعم اعتمادات الذكاء الأسئلة والتحليلات والتوصيات.\n\n**تقرير لايت:** 250 أساسي + 80 لكل موقع\n**تقرير بلس:** 1,200 أساسي + 300 لكل موقع\n**تقرير برو:** 3,500 أساسي + 800 لكل موقع\n**كور لايت:** 8,000 أساسي + 1,600 لكل موقع\n**كور برو:** 14,000 أساسي + 2,800 لكل موقع\n**مؤسسة:** 50,000+ أساسي + تخصيص مخصص (Report Lite) (Report Plus) (Report Pro) (Core Lite) (Core Pro)"
+            "content": "تدعم اعتمادات الذكاء الأسئلة والتحليلات والتوصيات.\n\n**Report Lite:** 250 أساسي + 80 لكل موقع\n**Report Plus:** 1,200 أساسي + 300 لكل موقع\n**Report Pro:** 3,500 أساسي + 800 لكل موقع\n**Core Lite:** 8,000 أساسي + 1,600 لكل موقع\n**Core Pro:** 14,000 أساسي + 2,800 لكل موقع\n**Enterprise:** 50,000+ أساسي + تخصيص مخصص"
           },
           {
             "title": "كم من الوصول التاريخي أحصل عليه؟",
-            "content": "**تقرير لايت:** 90 يومًا\n**تقرير بلس:** سنة واحدة\n**تقرير برو:** سنتان\n**كور لايت:** سنتان\n**كور برو:** 3 سنوات\n**مؤسسة:** 5+ سنوات أو احتفاظ مخصص (Report Lite) (Report Plus) (Report Pro) (Core Lite) (Core Pro)"
+            "content": "**Report Lite:** 90 يومًا\n**Report Plus:** سنة واحدة\n**Report Pro:** سنتان\n**Core Lite:** سنتان\n**Core Pro:** 3 سنوات\n**Enterprise:** 5+ سنوات أو احتفاظ مخصص"
           },
           {
             "title": "كم مرة يتم تحديث البيانات؟",
-            "content": "**تقرير لايت:** تحميلات يدوية\n**تقرير بلس:** يدوية أو معالجة ذكية عند الطلب\n**تقرير برو:** تحديث تلقائي يومي\n**كور لايت:** كل 4 ساعات\n**كور برو:** كل ساعتين\n**مؤسسة:** وتيرة مخصصة، بما في ذلك الوقت الحقيقي عند تحديد النطاق (Report Lite) (Report Plus) (Report Pro) (Core Lite) (Core Pro)"
+            "content": "**Report Lite:** تحميلات يدوية\n**Report Plus:** يدوية أو معالجة ذكية عند الطلب\n**Report Pro:** تحديث تلقائي يومي\n**Core Lite:** كل 4 ساعات\n**Core Pro:** كل ساعتين\n**Enterprise:** وتيرة مخصصة، بما في ذلك الوقت الحقيقي عند تحديد النطاق"
           },
           {
             "title": "هل أحصل على لوحات معلومات مخصصة؟",
-            "content": "**مستويات التقرير:** لوحات معلومات مسبقة البناء\n**كور لايت:** حتى 30 لوحة معلومات مخصصة\n**كور برو:** حتى 75 لوحة معلومات مخصصة\n**مؤسسة:** لوحات معلومات مخصصة غير محدودة. (Core Lite) (Core Pro)"
+            "content": "**مستويات Report:** لوحات معلومات مسبقة البناء\n**Core Lite:** حتى 30 لوحة معلومات مخصصة\n**Core Pro:** حتى 75 لوحة معلومات مخصصة\n**Enterprise:** لوحات معلومات مخصصة غير محدودة."
           }
         ]
       },
@@ -1307,7 +1307,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "هل تقدمون تدريبًا؟",
-            "content": "نعم.\n\n**Report:** بدء الخدمة الذاتية والوثائق\n**Core Lite:** جلسات تدريب موجهة\n**Core Pro:** برنامج تدريب مخصص\n**Enterprise:** بدء هيكلي وتمكين"
+            "content": "نعم.\n\n**Report:** إعداد ذاتي ووثائق\n**Core Lite:** جلسات تدريب موجهة\n**Core Pro:** برنامج تدريب مخصص\n**Enterprise:** إعداد منظَّم وتمكين"
           },
           {
             "title": "ما المناطق الزمنية التي تدعمونها؟",
@@ -1357,7 +1357,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "كيف يختلف Sundae عن تقارير POS؟",
-            "content": "**تقارير POS:** نظام واحد، سياق محدود، تفسير يدوي\n\n**Sundae Report:** تحليل POS بالإضافة إلى المعايير، التوصيات، واكتشاف الأنماط\n\n**Sundae Core:** كل شيء في التقرير بالإضافة إلى بيانات موحدة من العمل، المخزون، التسويق، الحجوزات، وأنظمة أخرى مع تحديث أسرع"
+            "content": "**تقارير POS:** نظام واحد، سياق محدود، تفسير يدوي\n\n**Sundae Report:** تحليل POS بالإضافة إلى المعايير، التوصيات، واكتشاف الأنماط\n\n**Sundae Core:** كل شيء في Report بالإضافة إلى بيانات موحدة من العمل، المخزون، التسويق، الحجوزات، وأنظمة أخرى مع تحديث أسرع"
           },
           {
             "title": "كيف يختلف Sundae عن Excel؟",
@@ -1437,7 +1437,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Qual é o Modelo de Inteligência 4D?",
-            "content": "O framework da Sundae para inteligência de decisão:\n\n**1D: O que Aconteceu** - Verdade sobre vendas, trabalho e custos\n**2D: Planejado vs Real** - Variação de orçamento e previsão\n**3D: Contexto de Mercado** - Benchmarks, pares e concorrentes\n**4D: O que Vem a Seguir** - Previsões e recomendações\n\n**Report:** Acesso completo a 1D e 2D, além de 3D e 4D limitados\n**Core:** Acesso completo em todas as 4 dimensões."
+            "content": "O framework da Sundae para inteligência de decisão:\n\n**1D: O que Aconteceu** - Dados de vendas, trabalho e custos\n**2D: Planejado vs Real** - Variação de orçamento e previsão\n**3D: Contexto de Mercado** - Benchmarks, pares e concorrentes\n**4D: O que Vem a Seguir** - Previsões e recomendações\n\n**Report:** Acesso completo a 1D e 2D, além de 3D e 4D limitados\n**Core:** Acesso completo em todas as 4 dimensões."
           }
         ]
       },
@@ -1635,7 +1635,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Como o Sundae é diferente dos relatórios de POS?",
-            "content": "**Relatórios de POS:** Um sistema, contexto limitado, interpretação manual\n\n**Sundae Report:** Análise de POS mais benchmarks, recomendações e detecção de padrões\n\n**Sundae Core:** Tudo no Relatório mais dados unificados de trabalho, inventário, marketing, reservas e outros sistemas com atualização mais rápida"
+            "content": "**Relatórios de POS:** Um sistema, contexto limitado, interpretação manual\n\n**Sundae Report:** Análise de POS mais benchmarks, recomendações e detecção de padrões\n\n**Sundae Core:** Tudo no Report mais dados unificados de trabalho, inventário, marketing, reservas e outros sistemas com atualização mais rápida"
           },
           {
             "title": "Como o Sundae é diferente do Excel?",
@@ -1715,7 +1715,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "4D ذہانت ماڈل کیا ہے؟",
-            "content": "Sundae کا فیصلہ سازی کی ذہانت کے لیے فریم ورک:\n\n**1D: کیا ہوا** - فروخت، مزدوری، اور لاگت کی حقیقت\n**2D: منصوبہ بمقابلہ حقیقی** - بجٹ اور پیش گوئی کا فرق\n**3D: مارکیٹ کا سیاق و سباق** - بینچ مارکس، ہم منصب، اور حریف\n**4D: آگے کیا ہے** - پیش گوئیاں اور سفارشات\n\n**Report:** مکمل 1D اور 2D کے ساتھ محدود 3D اور 4D\n**Core:** تمام 4 جہتوں میں مکمل رسائی."
+            "content": "Sundae کا فیصلہ سازی کی ذہانت کے لیے فریم ورک:\n\n**1D: کیا ہوا** - فروخت، مزدوری، اور لاگت کا ڈیٹا\n**2D: منصوبہ بمقابلہ حقیقی** - بجٹ اور پیش گوئی کا فرق\n**3D: مارکیٹ کا سیاق و سباق** - بینچ مارکس، ہم منصب، اور حریف\n**4D: آگے کیا ہے** - پیش گوئیاں اور سفارشات\n\n**Report:** مکمل 1D اور 2D کے ساتھ محدود 3D اور 4D\n**Core:** تمام 4 جہتوں میں مکمل رسائی."
           }
         ]
       },
@@ -1733,7 +1733,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "آپ کس POS سسٹم کے ساتھ انضمام کرتے ہیں؟",
-            "content": "Sundae فی الحال **4 POS پلیٹ فارم** کی حمایت کرتا ہے جن میں لائیو ایڈاپٹر شامل ہیں: Oracle MICROS Simphony، Square، Toast، اور Clover۔ ہم **براہ راست ڈیٹا بیس کنیکٹرز** کی بھی حمایت کرتے ہیں PostgreSQL اور SQL Server / Azure SQL کے لیے جب کوئی POS سسٹم ڈیٹا بیس تک رسائی فراہم کرتا ہے۔\n\nPOS کے علاوہ، Sundae کا **12-ڈومین انضمام انجن** لیبر، انوینٹری، ریزرویشن، ترسیل، مارکیٹنگ، مہمان کے تجربے، CRM، اور اکاؤنٹنگ کے 250+ وینڈرز سے جڑتا ہے۔\n\nاگر آپ کا سسٹم فہرست میں نہیں ہے تو انٹرپرائز کی سطح میں حسب ضرورت انضمام کا کام اور ویب ہک پر مبنی انضمام شامل ہو سکتا ہے۔"
+            "content": "Sundae فی الحال **4 POS پلیٹ فارم** کی حمایت کرتا ہے جن میں لائیو ایڈاپٹر شامل ہیں: Oracle MICROS Simphony، Square، Toast، اور Clover۔ ہم **براہ راست ڈیٹا بیس کنیکٹرز** کی بھی حمایت کرتے ہیں PostgreSQL اور SQL Server / Azure SQL کے لیے جب کوئی POS سسٹم ڈیٹا بیس تک رسائی فراہم کرتا ہے۔\n\nPOS کے علاوہ، Sundae کا **12-ڈومین انضمام انجن** لیبر، انوینٹری، ریزرویشن، ترسیل، مارکیٹنگ، مہمان کے تجربے، CRM، اور اکاؤنٹنگ کے 30+ وینڈرز سے جڑتا ہے۔\n\nاگر آپ کا سسٹم فہرست میں نہیں ہے تو انٹرپرائز کی سطح میں حسب ضرورت انضمام کا کام اور ویب ہک پر مبنی انضمام شامل ہو سکتا ہے۔"
           },
           {
             "title": "کیا میں Sundae کو متعدد POS سسٹمز کے ساتھ استعمال کر سکتا ہوں؟",
@@ -1755,7 +1755,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "ماڈیولز کیا ہیں؟",
-            "content": "ماڈیولز Core کے لیے خصوصی ذہانت کے اضافے ہیں:\n\n1. **لیبر ذہانت** - شیڈولنگ، پیداوری، اور اوور ٹائم\n2. **انویٹری ذہانت** - فضلہ، پار کی سطحیں، اور اسٹاک کی نظر\n3. **خریداری کی ذہانت** - فروشندہ موازنہ اور معاہدے کا فائدہ\n4. **مارکیٹنگ کی ذہانت** - ROI، CAC، اور چینل کی کارکردگی\n5. **ریزرویشن کی ذہانت** - عدم موجودگی کی پیش گوئی اور ٹیبل کی اصلاح\n\nماڈیولز کو Core کی ضرورت ہوتی ہے کیونکہ یہ براہ راست، جڑے ہوئے آپریٹنگ ڈیٹا پر انحصار کرتے ہیں."
+            "content": "ماڈیولز Core کے لیے خصوصی ذہانت کے اضافے ہیں:\n\n1. **لیبر ذہانت** - شیڈولنگ، پیداوری، اور اوور ٹائم\n2. **انوینٹری ذہانت** - فضلہ، پار کی سطحیں، اور اسٹاک کی نظر\n3. **خریداری کی ذہانت** - فروشندہ موازنہ اور معاہدے کا فائدہ\n4. **مارکیٹنگ کی ذہانت** - ROI، CAC، اور چینل کی کارکردگی\n5. **ریزرویشن کی ذہانت** - عدم موجودگی کی پیش گوئی اور ٹیبل کی اصلاح\n\nماڈیولز کو Core کی ضرورت ہوتی ہے کیونکہ یہ براہ راست، جڑے ہوئے آپریٹنگ ڈیٹا پر انحصار کرتے ہیں."
           },
           {
             "title": "کیا مجھے ماڈیولز کی ضرورت ہے؟",
@@ -1771,7 +1771,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "مجھے پہلے کون سا ماڈیول منتخب کرنا چاہیے؟",
-            "content": "سب سے بڑے آپریٹنگ درد کے نقطہ سے شروع کریں:\n\n• زیادہ لیبر لاگت -> لیبر ذہانت\n• فضلہ یا اسٹاک کے مسائل -> انویٹری ذہانت\n• کمزور فروشندہ فائدہ -> خریداری کی ذہانت\n• غیر واضح مارکیٹنگ ROI -> مارکیٹنگ کی ذہانت\n• ریزرویشن کی عدم موجودگی -> ریزرویشن کی ذہانت"
+            "content": "سب سے بڑے آپریٹنگ درد کے نقطہ سے شروع کریں:\n\n• زیادہ لیبر لاگت -> لیبر ذہانت\n• فضلہ یا اسٹاک کے مسائل -> انوینٹری ذہانت\n• کمزور فروشندہ فائدہ -> خریداری کی ذہانت\n• غیر واضح مارکیٹنگ ROI -> مارکیٹنگ کی ذہانت\n• ریزرویشن کی عدم موجودگی -> ریزرویشن کی ذہانت"
           },
           {
             "title": "ماڈیول کی قیمتیں کیسے کام کرتی ہیں؟",
@@ -1894,16 +1894,16 @@ export const generatedLocalCopy = {
         "icon": "franchise",
         "faqs": [
           {
-            "title": "اینیٹرپرائز کو مختلف کیا بناتا ہے؟",
-            "content": "اینیٹرپرائز شامل کرتا ہے:\n• وائٹ لیبل کے اختیارات\n• مخصوص مدد اور کامیابی کی کوریج\n• معاہداتی SLA\n• SSO / SAML\n• سیکیورٹی اور تعمیل کی مدد\n• حسب ضرورت مشین لرننگ اور ڈیٹا ورک فلو\n• زیادہ کریڈٹ مختص\n• طویل مدتی برقرار رکھنا"
+            "title": "Enterprise کو مختلف کیا بناتا ہے؟",
+            "content": "Enterprise شامل کرتا ہے:\n• وائٹ لیبل کے اختیارات\n• مخصوص مدد اور کامیابی کی کوریج\n• معاہداتی SLA\n• SSO / SAML\n• سیکیورٹی اور تعمیل کی مدد\n• حسب ضرورت مشین لرننگ اور ڈیٹا ورک فلو\n• زیادہ کریڈٹ مختص\n• طویل مدتی برقرار رکھنا"
           },
           {
-            "title": "کیا مجھے اینیٹرپرائز کے لیے 100+ مقامات کی ضرورت ہے؟",
-            "content": "نہیں۔ اینیٹرپرائز بھی اس وقت صحیح سطح ہے جب آپ کی ضروریات SSO، تعمیل، وائٹ لیبل کی ضروریات، حسب ضرورت شرائط، یا پیچیدہ آپریشنل ڈھانچے کی بنیاد پر ہوں۔"
+            "title": "کیا مجھے Enterprise کے لیے 100+ مقامات کی ضرورت ہے؟",
+            "content": "نہیں۔ Enterprise بھی اس وقت صحیح سطح ہے جب آپ کی ضروریات SSO، تعمیل، وائٹ لیبل کی ضروریات، حسب ضرورت شرائط، یا پیچیدہ آپریشنل ڈھانچے کی بنیاد پر ہوں۔"
           },
           {
-            "title": "میں اینیٹرپرائز کی قیمتیں کیسے حاصل کروں؟",
-            "content": "اینیٹرپرائز کی قیمتیں خصوصیات، مقامات کی تعداد، ڈیٹا کی ضروریات، سیکیورٹی کی توقعات، اور مدد کے ماڈل کے گرد مرتب کی گئی ہیں۔ حسب ضرورت قیمت کے لیے سیلز سے رابطہ کریں۔"
+            "title": "میں Enterprise کی قیمتیں کیسے حاصل کروں؟",
+            "content": "Enterprise کی قیمتیں خصوصیات، مقامات کی تعداد، ڈیٹا کی ضروریات، سیکیورٹی کی توقعات، اور مدد کے ماڈل کے گرد مرتب کی گئی ہیں۔ حسب ضرورت قیمت کے لیے سیلز سے رابطہ کریں۔"
           }
         ]
       },
@@ -1993,7 +1993,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Cos'è il Modello di Intelligenza 4D?",
-            "content": "Il framework di Sundae per l'intelligenza decisionale:\n\n**1D: Cosa è successo** - Verità su vendite, lavoro e costi\n**2D: Pianificato vs Reale** - Variazione di budget e previsione\n**3D: Contesto di Mercato** - Benchmark, pari e concorrenti\n**4D: Cosa c'è dopo** - Previsioni e raccomandazioni\n\n**Report:** Accesso completo a 1D e 2D più 3D e 4D limitati\n**Core:** Accesso completo a tutte e 4 le dimensioni."
+            "content": "Il framework di Sundae per l'intelligenza decisionale:\n\n**1D: Cosa è successo** - Dati su vendite, lavoro e costi\n**2D: Pianificato vs Reale** - Variazione di budget e previsione\n**3D: Contesto di Mercato** - Benchmark, pari e concorrenti\n**4D: Cosa c'è dopo** - Previsioni e raccomandazioni\n\n**Report:** Accesso completo a 1D e 2D più 3D e 4D limitati\n**Core:** Accesso completo a tutte e 4 le dimensioni."
           }
         ]
       },
@@ -2271,7 +2271,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "4D बुद्धिमत्ता मॉडल क्या है?",
-            "content": "Sundae का निर्णय बुद्धिमत्ता के लिए ढांचा:\n\n**1D: क्या हुआ** - बिक्री, श्रम, और लागत का सत्य\n**2D: योजना बनाम वास्तविक** - बजट और पूर्वानुमान भिन्नता\n**3D: बाजार संदर्भ** - बेंचमार्क, समकक्ष, और प्रतिस्पर्धी\n**4D: अगला क्या है** - पूर्वानुमान और सिफारिशें\n\n**Report:** पूर्ण 1D और 2D के साथ सीमित 3D और 4D\n**Core:** सभी 4 आयामों में पूर्ण पहुंच."
+            "content": "Sundae का निर्णय बुद्धिमत्ता के लिए ढांचा:\n\n**1D: क्या हुआ** - बिक्री, श्रम, और लागत का डेटा\n**2D: योजना बनाम वास्तविक** - बजट और पूर्वानुमान भिन्नता\n**3D: बाजार संदर्भ** - बेंचमार्क, समकक्ष, और प्रतिस्पर्धी\n**4D: अगला क्या है** - पूर्वानुमान और सिफारिशें\n\n**Report:** पूर्ण 1D और 2D के साथ सीमित 3D और 4D\n**Core:** सभी 4 आयामों में पूर्ण पहुंच."
           }
         ]
       },
@@ -2289,7 +2289,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "आप किस POS सिस्टम के साथ एकीकृत होते हैं?",
-            "content": "Sundae वर्तमान में **4 POS प्लेटफार्मों** का समर्थन करता है जिनमें लाइव एडेप्टर हैं: Oracle MICROS Simphony, Square, Toast, और Clover। जब कोई POS प्रणाली डेटाबेस एक्सेस प्रदान करती है, तो हम PostgreSQL और SQL Server / Azure SQL के लिए **प्रत्यक्ष डेटाबेस कनेक्टर्स** का भी समर्थन करते हैं।\n\nPOS के अलावा, Sundae का **12-डोमेन एकीकरण इंजन** श्रम, इन्वेंटरी, आरक्षण, डिलीवरी, मार्केटिंग, अतिथि अनुभव, CRM, और लेखांकन के 250+ विक्रेताओं से जुड़ता है।\n\nयदि आप अपने सिस्टम को सूचीबद्ध नहीं देखते हैं, तो एंटरप्राइज स्तर कस्टम एकीकरण कार्य और वेबहुक-आधारित इनजेशन को शामिल कर सकता है।"
+            "content": "Sundae वर्तमान में **4 POS प्लेटफार्मों** का समर्थन करता है जिनमें लाइव एडेप्टर हैं: Oracle MICROS Simphony, Square, Toast, और Clover। जब कोई POS प्रणाली डेटाबेस एक्सेस प्रदान करती है, तो हम PostgreSQL और SQL Server / Azure SQL के लिए **प्रत्यक्ष डेटाबेस कनेक्टर्स** का भी समर्थन करते हैं।\n\nPOS के अलावा, Sundae का **12-डोमेन एकीकरण इंजन** श्रम, इन्वेंटरी, आरक्षण, डिलीवरी, मार्केटिंग, अतिथि अनुभव, CRM, और लेखांकन के 30+ विक्रेताओं से जुड़ता है।\n\nयदि आप अपने सिस्टम को सूचीबद्ध नहीं देखते हैं, तो एंटरप्राइज स्तर कस्टम एकीकरण कार्य और वेबहुक-आधारित इनजेशन को शामिल कर सकता है।"
           },
           {
             "title": "क्या मैं Sundae का उपयोग कई POS सिस्टम के साथ कर सकता हूँ?",
@@ -2367,7 +2367,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae की कीमत कितनी है?",
-            "content": "कीमत इस पर निर्भर करती है:\n• रिपोर्ट बनाम कोर\n• स्थानों की संख्या\n• चयनित मॉड्यूल\n• क्या वॉचटॉवर शामिल है\n\n**Report Lite:** हमेशा के लिए मुफ्त\n\nसटीक कीमत के लिए, pricing.sundae.io का उपयोग करें. (Watchtower)"
+            "content": "कीमत इस पर निर्भर करती है:\n• रिपोर्ट बनाम कोर\n• स्थानों की संख्या\n• चयनित मॉड्यूल\n• क्या वॉचटॉवर शामिल है\n\n**Report Lite:** हमेशा के लिए मुफ्त\n\nसटीक कीमत के लिए, pricing.sundae.io का उपयोग करें।"
           },
           {
             "title": "क्या सेटअप शुल्क हैं?",
@@ -2499,7 +2499,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "हम विस्तार की योजना बना रहे हैं। क्या Sundae मदद कर सकता है?",
-            "content": "हाँ। Watchtower और मार्केट इंटेलिजेंस व्यापार क्षेत्र विश्लेषण, संतृप्ति समीक्षा, प्रतियोगी आंदोलन ट्रैकिंग, और underserved क्षेत्रों की प्राथमिकता में सहायता कर सकते हैं।"
+            "content": "हाँ। Watchtower और मार्केट इंटेलिजेंस व्यापार क्षेत्र विश्लेषण, संतृप्ति समीक्षा, प्रतिस्पर्धी गतिविधि ट्रैकिंग, और अल्प-सेवित क्षेत्रों की प्राथमिकता में सहायता कर सकते हैं।"
           }
         ]
       }
@@ -2549,7 +2549,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "4D Zeka Modeli nedir?",
-            "content": "Sundae'nin karar zeka çerçevesi:\n\n**1D: Ne Oldu** - Satış, iş gücü ve maliyet gerçeği\n**2D: Plan vs Gerçek** - Bütçe ve tahmin farkı\n**3D: Pazar Bağlamı** - Kıyaslamalar, akranlar ve rakipler\n**4D: Sırada Ne Var** - Tahminler ve öneriler\n\n**Rapor:** Tam 1D ve 2D artı sınırlı 3D ve 4D\n**Core:** Tüm 4 boyutta tam erişim."
+            "content": "Sundae'nin karar zeka çerçevesi:\n\n**1D: Ne Oldu** - Satış, iş gücü ve maliyet verileri\n**2D: Plan vs Gerçek** - Bütçe ve tahmin farkı\n**3D: Pazar Bağlamı** - Kıyaslamalar, akranlar ve rakipler\n**4D: Sırada Ne Var** - Tahminler ve öneriler\n\n**Report:** Tam 1D ve 2D artı sınırlı 3D ve 4D\n**Core:** Tüm 4 boyutta tam erişim."
           }
         ]
       },
@@ -2559,7 +2559,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae'nin hangi verilere ihtiyacı var?",
-            "content": "**Report Lite için minimum:**\n• POS satış verileri (CSV dışa aktarma)\n\n**Core için:**\n• API üzerinden POS sistemi\n• İş gücü veya iş gücü sistemi\n• Envanter sistemi\n• Pazarlama platformları\n• Rezervasyon sistemi\n\nRapor, POS yüklemeleri etrafında inşa edilmiştir. Core, daha geniş işletim yığınına bağlandığınız yerdir."
+            "content": "**Report Lite için minimum:**\n• POS satış verileri (CSV dışa aktarma)\n\n**Core için:**\n• API üzerinden POS sistemi\n• İş gücü veya iş gücü sistemi\n• Envanter sistemi\n• Pazarlama platformları\n• Rezervasyon sistemi\n\nReport, POS yüklemeleri etrafında inşa edilmiştir. Core, daha geniş işletim yığınına bağlandığınız yerdir."
           },
           {
             "title": "Verilerimi Sundae'ye nasıl aktarabilirim?",
@@ -2571,7 +2571,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Sundae'yi birden fazla POS sistemiyle kullanabilir miyim?",
-            "content": "**Core Lite:** Tüm lokasyonların tek bir POS kullanması en iyisidir.\n\n**Core Pro ve Enterprise:** Evet. Lokasyonlar arasında farklı POS sistemleri desteklenir ve Sundae verileri karşılaştırma için normalize eder.\n\n**Rapor:** Herhangi bir POS çalışır çünkü yüklemeler manuel."
+            "content": "**Core Lite:** Tüm lokasyonların tek bir POS kullanması en iyisidir.\n\n**Core Pro ve Enterprise:** Evet. Lokasyonlar arasında farklı POS sistemleri desteklenir ve Sundae verileri karşılaştırma için normalize eder.\n\n**Report:** Herhangi bir POS çalışır çünkü yüklemeler manuel."
           },
           {
             "title": "Uygulama süresi ne kadar?",
@@ -2747,7 +2747,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae, POS raporlamasından nasıl farklıdır?",
-            "content": "**POS raporları:** Tek sistem, sınırlı bağlam, manuel yorumlama\n\n**Sundae Report:** POS analizi artı kıyaslamalar, öneriler ve desen tespiti\n\n**Sundae Core:** Rapor'daki her şey artı iş gücü, envanter, pazarlama, rezervasyonlar ve diğer sistemlerden hızlı güncellemelerle birleştirilmiş veriler"
+            "content": "**POS raporları:** Tek sistem, sınırlı bağlam, manuel yorumlama\n\n**Sundae Report:** POS analizi artı kıyaslamalar, öneriler ve desen tespiti\n\n**Sundae Core:** Report'taki her şey artı iş gücü, envanter, pazarlama, rezervasyonlar ve diğer sistemlerden hızlı güncellemelerle birleştirilmiş veriler"
           },
           {
             "title": "Sundae, Excel'den nasıl farklıdır?",
@@ -2801,7 +2801,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Jaka jest różnica między Report a Core?",
-            "content": "**Poziom Report** = Analiza historyczna (dane POS)\n• Ładuj dane POS codziennie, co tydzień lub co miesiąc\n• Analizuj, co się wydarzyło\n• Porównuj się z rówieśnikami\n• Najlepsze dla jednej lokalizacji lub dowodu koncepcji\n\n**Poziom Core** = Operacje w czasie rzeczywistym (POS + wszystkie systemy)\n• Cykl odświeżania 2-4 godziny\n• Integruje POS + pracę + zapasy + marketing + rezerwacje\n• Zobacz, co się dzieje teraz\n• Otrzymuj powiadomienia predykcyjne\n• Najlepsze dla operatorów wielolokalacyjnych\n\nKluczowa różnica: Report = tylko POS. Core = POS plus reszta Twojego stosu."
+            "content": "**Poziom Report** = Analiza historyczna (dane POS)\n• Ładuj dane POS codziennie, co tydzień lub co miesiąc\n• Analizuj, co się wydarzyło\n• Porównuj się z rówieśnikami\n• Najlepsze dla jednej lokalizacji lub dowodu koncepcji\n\n**Poziom Core** = Operacje w czasie rzeczywistym (POS + wszystkie systemy)\n• Cykl odświeżania 2-4 godziny\n• Integruje POS + pracę + zapasy + marketing + rezerwacje\n• Zobacz, co się dzieje teraz\n• Otrzymuj powiadomienia predykcyjne\n• Najlepsze dla operatorów wielolokalizacyjnych\n\nKluczowa różnica: Report = tylko POS. Core = POS plus reszta Twojego stosu."
           },
           {
             "title": "Czy potrzebuję długoterminowej umowy?",
@@ -2827,7 +2827,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Czym jest model inteligencji 4D?",
-            "content": "Ramowy model Sundae dla inteligencji decyzyjnej:\n\n**1D: Co się stało** - Prawda o sprzedaży, pracy i kosztach\n**2D: Plan vs Rzeczywistość** - Odchylenia budżetowe i prognozy\n**3D: Kontekst rynkowy** - Benchmarki, rówieśnicy i konkurenci\n**4D: Co dalej** - Prognozy i rekomendacje\n\n**Report:** Pełny dostęp do 1D i 2D oraz ograniczony 3D i 4D\n**Core:** Pełny dostęp we wszystkich 4 wymiarach."
+            "content": "Ramowy model Sundae dla inteligencji decyzyjnej:\n\n**1D: Co się stało** - Dane o sprzedaży, pracy i kosztach\n**2D: Plan vs Rzeczywistość** - Odchylenia budżetowe i prognozy\n**3D: Kontekst rynkowy** - Benchmarki, rówieśnicy i konkurenci\n**4D: Co dalej** - Prognozy i rekomendacje\n\n**Report:** Pełny dostęp do 1D i 2D oraz ograniczony 3D i 4D\n**Core:** Pełny dostęp we wszystkich 4 wymiarach."
           }
         ]
       },
@@ -3025,7 +3025,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Jak Sundae różni się od raportowania POS?",
-            "content": "**Raporty POS:** Jeden system, ograniczony kontekst, ręczna interpretacja\n\n**Sundae Report:** Analiza POS plus benchmarki, rekomendacje i wykrywanie wzorców\n\n**Sundae Core:** Wszystko w Raporcie plus zintegrowane dane z pracy, zapasów, marketingu, rezerwacji i innych systemów z szybszym odświeżaniem"
+            "content": "**Raporty POS:** Jeden system, ograniczony kontekst, ręczna interpretacja\n\n**Sundae Report:** Analiza POS plus benchmarki, rekomendacje i wykrywanie wzorców\n\n**Sundae Core:** Wszystko w Report plus zintegrowane dane z pracy, zapasów, marketingu, rezerwacji i innych systemów z szybszym odświeżaniem"
           },
           {
             "title": "Jak Sundae różni się od Excela?",
@@ -3050,7 +3050,7 @@ export const generatedLocalCopy = {
             "content": "Tak. Sundae może wspierać:\n• Widoczność franczyzodawcy w całej sieci\n• Specyficzne dla franczyzobiorcy kontrole dostępu\n• Raportowanie w białej etykiecie\n• Porównania w całym systemie\n• Analizę terytoriów i ekspansji"
           },
           {
-            "title": "Prowadzę chmurne kuchnie. Czy Sundae działa w operacjach skoncentrowanych na dostawie?",
+            "title": "Prowadzę kuchnie w chmurze. Czy Sundae działa w operacjach skoncentrowanych na dostawie?",
             "content": "Tak. Sundae łączy platformy dostawcze i wspiera analitykę dla wirtualnych marek, wydajności kanałów, efektywności pracy oraz atrybucji w operacjach skoncentrowanych na dostawie."
           },
           {
@@ -3105,7 +3105,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "什么是 4D 智能模型？",
-            "content": "Sundae 的决策智能框架：\n\n**1D：发生了什么** - 销售、劳动力和成本真相\n**2D：计划与实际** - 预算和预测差异\n**3D：市场背景** - 基准、同行和竞争对手\n**4D：接下来是什么** - 预测和建议\n\n**Report：** 完整的 1D 和 2D 加上有限的 3D 和 4D\n**Core：** 在所有 4 个维度上完全访问。"
+            "content": "Sundae 的决策智能框架：\n\n**1D：发生了什么** - 销售、劳动力和成本数据\n**2D：计划与实际** - 预算和预测差异\n**3D：市场背景** - 基准、同行和竞争对手\n**4D：接下来是什么** - 预测和建议\n\n**Report：** 完整的 1D 和 2D 加上有限的 3D 和 4D\n**Core：** 在所有 4 个维度上完全访问。"
           }
         ]
       },
@@ -3227,19 +3227,19 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "智能积分如何运作？",
-            "content": "智能积分用于提问、分析和推荐。\n\n**报告Lite：** 250基础 + 每个地点80\n**报告Plus：** 1,200基础 + 每个地点300\n**报告Pro：** 3,500基础 + 每个地点800\n**核心Lite：** 8,000基础 + 每个地点1,600\n**核心Pro：** 14,000基础 + 每个地点2,800\n**企业版：** 50,000+基础 + 自定义分配 (Report Lite) (Report Plus) (Report Pro) (Core Lite) (Core Pro)"
+            "content": "智能积分用于提问、分析和推荐。\n\n**Report Lite：** 250基础 + 每个地点80\n**Report Plus：** 1,200基础 + 每个地点300\n**Report Pro：** 3,500基础 + 每个地点800\n**Core Lite：** 8,000基础 + 每个地点1,600\n**Core Pro：** 14,000基础 + 每个地点2,800\n**Enterprise：** 50,000+基础 + 自定义分配"
           },
           {
             "title": "我能获得多少历史访问权限？",
-            "content": "**报告Lite：** 90天\n**报告Plus：** 1年\n**报告Pro：** 2年\n**核心Lite：** 2年\n**核心Pro：** 3年\n**企业版：** 5年以上或自定义保留 (Report Lite) (Report Plus) (Report Pro) (Core Lite) (Core Pro)"
+            "content": "**Report Lite：** 90天\n**Report Plus：** 1年\n**Report Pro：** 2年\n**Core Lite：** 2年\n**Core Pro：** 3年\n**Enterprise：** 5年以上或自定义保留"
           },
           {
             "title": "数据多久刷新一次？",
-            "content": "**报告Lite：** 手动上传\n**报告Plus：** 手动或按需智能解析\n**报告Pro：** 每日自动刷新\n**核心Lite：** 每4小时\n**核心Pro：** 每2小时\n**企业版：** 自定义节奏，包括在范围内的实时更新 (Report Lite) (Report Plus) (Report Pro) (Core Lite) (Core Pro)"
+            "content": "**Report Lite：** 手动上传\n**Report Plus：** 手动或按需智能解析\n**Report Pro：** 每日自动刷新\n**Core Lite：** 每4小时\n**Core Pro：** 每2小时\n**Enterprise：** 自定义节奏，包括在范围内的实时更新"
           },
           {
             "title": "我能获得自定义仪表板吗？",
-            "content": "**报告层级：** 预构建仪表板\n**核心Lite：** 最多30个自定义仪表板\n**核心Pro：** 最多75个自定义仪表板\n**企业版：** 无限自定义仪表板 (Core Lite) (Core Pro)"
+            "content": "**Report 层级：** 预构建仪表板\n**Core Lite：** 最多30个自定义仪表板\n**Core Pro：** 最多75个自定义仪表板\n**Enterprise：** 无限自定义仪表板"
           }
         ]
       },
@@ -3303,7 +3303,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae与POS报告有什么不同？",
-            "content": "**POS报告：** 一个系统，有限的上下文，手动解释\n\n**Sundae Report：** POS分析加基准、建议和模式检测\n\n**Sundae Core：** 报告中的所有内容加上来自劳动力、库存、营销、预订和其他系统的统一数据，刷新速度更快"
+            "content": "**POS报告：** 一个系统，有限的上下文，手动解释\n\n**Sundae Report：** POS分析加基准、建议和模式检测\n\n**Sundae Core：** Report 中的所有内容加上来自劳动力、库存、营销、预订和其他系统的统一数据，刷新速度更快"
           },
           {
             "title": "Sundae与Excel有什么不同？",
@@ -3383,7 +3383,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "4Dインテリジェンスモデルとは何ですか？",
-            "content": "Sundaeの意思決定インテリジェンスのフレームワーク：\n\n**1D: 何が起こったか** - 売上、労働、コストの真実\n**2D: 計画対実績** - 予算と予測の差異\n**3D: 市場の文脈** - ベンチマーク、同業者、競合\n**4D: 次は何か** - 予測と推奨\n\n**Report:** 完全な1Dと2D、限定的な3Dと4D\n**Core:** すべての4次元にわたる完全なアクセス"
+            "content": "Sundaeの意思決定インテリジェンスのフレームワーク：\n\n**1D: 何が起こったか** - 売上、労働、コストのデータ\n**2D: 計画対実績** - 予算と予測の差異\n**3D: 市場の文脈** - ベンチマーク、同業者、競合\n**4D: 次は何か** - 予測と推奨\n\n**Report:** 完全な1Dと2D、限定的な3Dと4D\n**Core:** すべての4次元にわたる完全なアクセス"
           }
         ]
       },
@@ -3581,7 +3581,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "SundaeはPOSレポートとどう違うのか？",
-            "content": "**POSレポート:** 一つのシステム、限られたコンテキスト、手動解釈\n\n**Sundae Report:** POS分析に加え、ベンチマーク、推奨事項、パターン検出 (Sundae Core)"
+            "content": "**POSレポート:** 一つのシステム、限られたコンテキスト、手動解釈\n\n**Sundae Report:** POS分析に加え、ベンチマーク、推奨事項、パターン検出\n\n**Sundae Core:** Reportのすべてに加え、労働、在庫、マーケティング、予約、その他のシステムから統合されたデータと、より高速な更新"
           },
           {
             "title": "SundaeはExcelとどう違うのか？",
@@ -3661,7 +3661,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "4D 인텔리전스 모델이란 무엇인가요?",
-            "content": "Sundae의 의사 결정 지능 프레임워크:\n\n**1D: 무슨 일이 있었나** - 판매, 노동 및 비용 진실\n**2D: 계획 대비 실제** - 예산 및 예측 차이\n**3D: 시장 맥락** - 벤치마크, 동료 및 경쟁자\n**4D: 다음은 무엇인가** - 예측 및 권장 사항\n\n**Report:** 전체 1D 및 2D와 제한된 3D 및 4D\n**Core:** 모든 4차원에 대한 전체 접근"
+            "content": "Sundae의 의사 결정 지능 프레임워크:\n\n**1D: 무슨 일이 있었나** - 판매, 노동 및 비용 데이터\n**2D: 계획 대비 실제** - 예산 및 예측 차이\n**3D: 시장 맥락** - 벤치마크, 동료 및 경쟁자\n**4D: 다음은 무엇인가** - 예측 및 권장 사항\n\n**Report:** 전체 1D 및 2D와 제한된 3D 및 4D\n**Core:** 모든 4차원에 대한 전체 접근"
           }
         ]
       },
@@ -3939,7 +3939,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Apa itu Model Kecerdasan 4D?",
-            "content": "Kerangka kerja Sundae untuk kecerdasan keputusan:\n\n**1D: Apa yang Terjadi** - Kebenaran penjualan, tenaga kerja, dan biaya\n**2D: Rencana vs Aktual** - Varians anggaran dan perkiraan\n**3D: Konteks Pasar** - Tolok ukur, rekan, dan pesaing\n**4D: Apa Selanjutnya** - Prediksi dan rekomendasi\n\n**Report:** Akses penuh 1D dan 2D ditambah 3D dan 4D terbatas\n**Core:** Akses penuh di semua 4 dimensi."
+            "content": "Kerangka kerja Sundae untuk kecerdasan keputusan:\n\n**1D: Apa yang Terjadi** - Data penjualan, tenaga kerja, dan biaya\n**2D: Rencana vs Aktual** - Varians anggaran dan perkiraan\n**3D: Konteks Pasar** - Tolok ukur, rekan, dan pesaing\n**4D: Apa Selanjutnya** - Prediksi dan rekomendasi\n\n**Report:** Akses penuh 1D dan 2D ditambah 3D dan 4D terbatas\n**Core:** Akses penuh di semua 4 dimensi."
           }
         ]
       },
@@ -4217,7 +4217,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Mô hình Trí tuệ 4D là gì?",
-            "content": "Khung làm việc của Sundae cho trí tuệ quyết định:\n\n**1D: Điều gì đã xảy ra** - Sự thật về doanh thu, lao động và chi phí\n**2D: Kế hoạch so với Thực tế** - Biến động ngân sách và dự báo\n**3D: Bối cảnh Thị trường** - Các chuẩn mực, đồng nghiệp và đối thủ\n**4D: Điều gì tiếp theo** - Dự đoán và khuyến nghị\n\n**Report:** Toàn bộ 1D và 2D cộng với 3D và 4D hạn chế\n**Core:** Truy cập đầy đủ trên tất cả 4 chiều."
+            "content": "Khung làm việc của Sundae cho trí tuệ quyết định:\n\n**1D: Điều gì đã xảy ra** - Dữ liệu về doanh thu, lao động và chi phí\n**2D: Kế hoạch so với Thực tế** - Biến động ngân sách và dự báo\n**3D: Bối cảnh Thị trường** - Các chuẩn mực, đồng nghiệp và đối thủ\n**4D: Điều gì tiếp theo** - Dự đoán và khuyến nghị\n\n**Report:** Toàn bộ 1D và 2D cộng với 3D và 4D hạn chế\n**Core:** Truy cập đầy đủ trên tất cả 4 chiều."
           }
         ]
       },
@@ -4277,7 +4277,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Giá mô-đun hoạt động như thế nào?",
-            "content": "Mỗi mô-đun bao gồm một giấy phép tổ chức cho 5 địa điểm đầu tiên, cộng với giá cho các địa điểm bổ sung vượt ngưỡng đó.\n\nVí dụ: 8 địa điểm với Thông minh về lao động = 1 giấy phép tổ chức + 3 địa điểm bổ sung.\n\nSử dụng pricing.sundae.io để biết toán học chính xác của kế hoạch."
+            "content": "Mỗi mô-đun bao gồm một giấy phép tổ chức cho 5 địa điểm đầu tiên, cộng với giá cho các địa điểm bổ sung vượt ngưỡng đó.\n\nVí dụ: 8 địa điểm với Thông minh về lao động = 1 giấy phép tổ chức + 3 địa điểm bổ sung.\n\nSử dụng pricing.sundae.io để tính toán giá chính xác cho gói của bạn."
           }
         ]
       },
@@ -4440,7 +4440,7 @@ export const generatedLocalCopy = {
             "content": "Có. Sundae có thể hỗ trợ:\n• Tầm nhìn của nhượng quyền trên toàn mạng lưới\n• Kiểm soát truy cập cụ thể cho người nhượng quyền\n• Báo cáo nhãn trắng\n• Benchmarking trên toàn hệ thống\n• Phân tích lãnh thổ và mở rộng"
           },
           {
-            "title": "Tôi điều hành các bếp mây. Sundae có phù hợp cho các hoạt động giao hàng trước không?",
+            "title": "Tôi điều hành các bếp trên mây. Sundae có phù hợp cho các hoạt động ưu tiên giao hàng không?",
             "content": "Có. Sundae kết nối các nền tảng giao hàng và hỗ trợ phân tích cho các thương hiệu ảo, hiệu suất kênh, hiệu quả lao động và phân bổ trong các hoạt động giao hàng nặng."
           },
           {
@@ -4495,7 +4495,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Care este Modelul de Inteligență 4D?",
-            "content": "Cadrele Sundae pentru inteligența decizională:\n\n**1D: Ce s-a întâmplat** - Adevărul despre vânzări, muncă și costuri\n**2D: Plan vs Realitate** - Varianta bugetului și prognozei\n**3D: Contextul Pieței** - Benchmark-uri, colegi și concurenți\n**4D: Ce urmează** - Predicții și recomandări\n\n**Report:** Acces complet 1D și 2D plus 3D și 4D limitat\n**Core:** Acces complet pe toate cele 4 dimensiuni."
+            "content": "Cadrele Sundae pentru inteligența decizională:\n\n**1D: Ce s-a întâmplat** - Date despre vânzări, muncă și costuri\n**2D: Plan vs Realitate** - Varianta bugetului și prognozei\n**3D: Contextul Pieței** - Benchmark-uri, colegi și concurenți\n**4D: Ce urmează** - Predicții și recomandări\n\n**Report:** Acces complet 1D și 2D plus 3D și 4D limitat\n**Core:** Acces complet pe toate cele 4 dimensiuni."
           }
         ]
       },
@@ -4656,7 +4656,7 @@ export const generatedLocalCopy = {
         "icon": "quality",
         "faqs": [
           {
-            "title": "Este sigur datele mele?",
+            "title": "Sunt sigure datele mele?",
             "content": "Da. Sundae folosește controale de nivel enterprise:\n• Criptare AES-256 la repaus\n• Criptare TLS în tranzit\n• Controale de acces bazate pe roluri\n• Revizuiri de securitate regulate\n• Tratarea conformă cu GDPR\n• Controale suplimentare de securitate pentru clienții Enterprise"
           },
           {
@@ -4692,11 +4692,11 @@ export const generatedLocalCopy = {
         "icon": "balance",
         "faqs": [
           {
-            "title": "Cum se deosebe Sundae de raportarea POS?",
+            "title": "Cum se deosebește Sundae de raportarea POS?",
             "content": "**Rapoartele POS:** Un sistem, context limitat, interpretare manuală\n\n**Sundae Report:** Analiza POS plus benchmark-uri, recomandări și detectarea pattern-urilor\n\n**Sundae Core:** Tot ce este în Report plus date unificate din muncă, inventar, marketing, rezervări și alte sisteme cu actualizări mai rapide"
           },
           {
-            "title": "Cum se deosebe Sundae de Excel?",
+            "title": "Cum se deosebește Sundae de Excel?",
             "content": "**Excel:** Introducere manuală, analiză statică, fără strat de inteligență partajată\n\n**Sundae:** Ingestie automată, benchmark-uri structurate, tablouri de bord live și recomandări care reduc timpul de analiză manuală în fiecare săptămână"
           },
           {
@@ -4715,7 +4715,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Sunt o platformă de franciză. Poate Sundae să ajute?",
-            "content": "Da. Sundae poate susține:\n• Vizibilitatea francizorului în întreaga rețea\n• Controlul accesului specific pentru francizați\n• Raportare cu marcă albă\n• Benchmarking în întreaga sistem\n• Analiza teritoriilor și expansiunii"
+            "content": "Da. Sundae poate susține:\n• Vizibilitatea francizorului în întreaga rețea\n• Controlul accesului specific pentru francizați\n• Raportare cu marcă albă\n• Benchmarking în întregul sistem\n• Analiza teritoriilor și expansiunii"
           },
           {
             "title": "Administrez bucătării cloud. Funcționează Sundae pentru operațiuni axate pe livrare?",
@@ -4773,7 +4773,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Vad är 4D Intelligence Model?",
-            "content": "Sundaes ramverk för beslutsintelligens:\n\n**1D: Vad hände** - Försäljning, arbete och kostnadssanning\n**2D: Plan vs Faktisk** - Budget och prognosavvikelse\n**3D: Marknadskontext** - Benchmarking, kollegor och konkurrenter\n**4D: Vad är nästa** - Prognoser och rekommendationer\n\n**Report:** Full 1D och 2D plus begränsad 3D och 4D\n**Core:** Full tillgång över alla 4 dimensioner (Sundae)"
+            "content": "Sundaes ramverk för beslutsintelligens:\n\n**1D: Vad hände** - Försäljnings-, arbets- och kostnadsdata\n**2D: Plan vs Faktisk** - Budget och prognosavvikelse\n**3D: Marknadskontext** - Benchmarking, kollegor och konkurrenter\n**4D: Vad är nästa** - Prognoser och rekommendationer\n\n**Report:** Full 1D och 2D plus begränsad 3D och 4D\n**Core:** Full tillgång över alla 4 dimensioner."
           }
         ]
       },
@@ -4971,7 +4971,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Hur skiljer sig Sundae från POS-rapportering?",
-            "content": "**POS-rapporter:** Ett system, begränsad kontext, manuell tolkning\n\n**Sundae Report:** POS-analys plus benchmarks, rekommendationer och mönsterigenkänning\n\n**Sundae Core:** Allt i Rapport plus enhetliga data från arbetskraft, lager, marknadsföring, reservationer och andra system med snabbare uppdateringar"
+            "content": "**POS-rapporter:** Ett system, begränsad kontext, manuell tolkning\n\n**Sundae Report:** POS-analys plus benchmarks, rekommendationer och mönsterigenkänning\n\n**Sundae Core:** Allt i Report plus enhetliga data från arbetskraft, lager, marknadsföring, reservationer och andra system med snabbare uppdateringar"
           },
           {
             "title": "Hur skiljer sig Sundae från Excel?",
@@ -4996,7 +4996,7 @@ export const generatedLocalCopy = {
             "content": "Ja. Sundae kan stödja:\n• Franchisörens synlighet över nätverket\n• Franchise-specifika åtkomstkontroller\n• White-label rapportering\n• Benchmarking över systemet\n• Analys av territorier och expansion"
           },
           {
-            "title": "Jag driver molnkök. Fungerar Sundae för leveransförst verksamheter?",
+            "title": "Jag driver molnkök. Fungerar Sundae för leveransfokuserade verksamheter?",
             "content": "Ja. Sundae kopplar samman leveransplattformar och stöder analys för virtuella varumärken, kanalprestanda, arbetskraftseffektivitet och attribuering över leveransintensiva verksamheter."
           },
           {
@@ -5051,7 +5051,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "4D বুদ্ধিমত্তা মডেল কী?",
-            "content": "Sundae-এর সিদ্ধান্ত বুদ্ধিমত্তার জন্য কাঠামো:\n\n**1D: কী ঘটেছে** - বিক্রয়, শ্রম, এবং খরচের সত্য\n**2D: পরিকল্পনা বনাম বাস্তব** - বাজেট এবং পূর্বাভাসের পার্থক্য\n**3D: বাজারের প্রেক্ষাপট** - বেঞ্চমার্ক, সহকর্মী, এবং প্রতিযোগী\n**4D: পরবর্তী কী** - পূর্বাভাস এবং সুপারিশ\n\n**Report:** সম্পূর্ণ 1D এবং 2D সহ সীমিত 3D এবং 4D\n**Core:** সমস্ত 4 মাত্রায় সম্পূর্ণ অ্যাক্সেস."
+            "content": "Sundae-এর সিদ্ধান্ত বুদ্ধিমত্তার জন্য কাঠামো:\n\n**1D: কী ঘটেছে** - বিক্রয়, শ্রম, এবং খরচের ডেটা\n**2D: পরিকল্পনা বনাম বাস্তব** - বাজেট এবং পূর্বাভাসের পার্থক্য\n**3D: বাজারের প্রেক্ষাপট** - বেঞ্চমার্ক, সহকর্মী, এবং প্রতিযোগী\n**4D: পরবর্তী কী** - পূর্বাভাস এবং সুপারিশ\n\n**Report:** সম্পূর্ণ 1D এবং 2D সহ সীমিত 3D এবং 4D\n**Core:** সমস্ত 4 মাত্রায় সম্পূর্ণ অ্যাক্সেস."
           }
         ]
       },
@@ -5069,7 +5069,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "আপনারা কোন POS সিস্টেমগুলির সাথে ইন্টিগ্রেট করেন?",
-            "content": "Sundae বর্তমানে **4টি POS প্ল্যাটফর্ম** এর লাইভ অ্যাডাপ্টার সমর্থন করে: Oracle MICROS Simphony, Square, Toast, এবং Clover। আমরা PostgreSQL এবং SQL Server / Azure SQL-এর জন্য **সরাসরি ডেটাবেস সংযোগকারী** সমর্থন করি যখন একটি POS সিস্টেম ডেটাবেস অ্যাক্সেস প্রকাশ করে।\n\nPOS ছাড়াও, Sundae-এর **12-ডোমেইন ইন্টিগ্রেশন ইঞ্জিন** শ্রম, ইনভেন্টরি, রিজার্ভেশন, ডেলিভারি, মার্কেটিং, অতিথি অভিজ্ঞতা, CRM, এবং হিসাবরক্ষণে 250+ বিক্রেতার সাথে সংযুক্ত হয়।\n\nযদি আপনি আপনার সিস্টেম তালিকাভুক্ত না দেখেন, তবে এন্টারপ্রাইজ স্তর কাস্টম ইন্টিগ্রেশন কাজ এবং ওয়েবহুক-ভিত্তিক গ্রহণ অন্তর্ভুক্ত করতে পারে।"
+            "content": "Sundae বর্তমানে **4টি POS প্ল্যাটফর্ম** এর লাইভ অ্যাডাপ্টার সমর্থন করে: Oracle MICROS Simphony, Square, Toast, এবং Clover। আমরা PostgreSQL এবং SQL Server / Azure SQL-এর জন্য **সরাসরি ডেটাবেস সংযোগকারী** সমর্থন করি যখন একটি POS সিস্টেম ডেটাবেস অ্যাক্সেস প্রকাশ করে।\n\nPOS ছাড়াও, Sundae-এর **12-ডোমেইন ইন্টিগ্রেশন ইঞ্জিন** শ্রম, ইনভেন্টরি, রিজার্ভেশন, ডেলিভারি, মার্কেটিং, অতিথি অভিজ্ঞতা, CRM, এবং হিসাবরক্ষণে 30+ বিক্রেতার সাথে সংযুক্ত হয়।\n\nযদি আপনি আপনার সিস্টেম তালিকাভুক্ত না দেখেন, তবে এন্টারপ্রাইজ স্তর কাস্টম ইন্টিগ্রেশন কাজ এবং ওয়েবহুক-ভিত্তিক গ্রহণ অন্তর্ভুক্ত করতে পারে।"
           },
           {
             "title": "আমি কি একাধিক POS সিস্টেমের সাথে Sundae ব্যবহার করতে পারি?",
@@ -5249,7 +5249,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Sundae কীভাবে POS রিপোর্টিং থেকে আলাদা?",
-            "content": "**POS রিপোর্ট:** একটি সিস্টেম, সীমিত প্রসঙ্গ, ম্যানুয়াল ব্যাখ্যা\n\n**Sundae রিপোর্ট:** POS বিশ্লেষণ সহ বেঞ্চমার্ক, সুপারিশ এবং প্যাটার্ন সনাক্তকরণ\n\n**Sundae কোর:** রিপোর্টের সবকিছু সহ শ্রম, ইনভেন্টরি, মার্কেটিং, রিজার্ভেশন এবং অন্যান্য সিস্টেম থেকে একীভূত ডেটা যা দ্রুত রিফ্রেশ হয় (Sundae Report) (Sundae Core)"
+            "content": "**POS রিপোর্ট:** একটি সিস্টেম, সীমিত প্রসঙ্গ, ম্যানুয়াল ব্যাখ্যা\n\n**Sundae Report:** POS বিশ্লেষণ সহ বেঞ্চমার্ক, সুপারিশ এবং প্যাটার্ন সনাক্তকরণ\n\n**Sundae Core:** Report-এর সবকিছু সহ শ্রম, ইনভেন্টরি, মার্কেটিং, রিজার্ভেশন এবং অন্যান্য সিস্টেম থেকে একীভূত ডেটা যা দ্রুত রিফ্রেশ হয়"
           },
           {
             "title": "Sundae কীভাবে Excel থেকে আলাদা?",
@@ -5329,7 +5329,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "โมเดลปัญญา 4D คืออะไร?",
-            "content": "กรอบการทำงานของ Sundae สำหรับปัญญาการตัดสินใจ:\n\n**1D: เกิดอะไรขึ้น** - ความจริงเกี่ยวกับยอดขาย, แรงงาน, และต้นทุน\n**2D: แผนกับจริง** - ความแตกต่างระหว่างงบประมาณและการคาดการณ์\n**3D: บริบทตลาด** - มาตรฐาน, เพื่อนร่วมอุตสาหกรรม, และคู่แข่ง\n**4D: อะไรต่อไป** - การคาดการณ์และคำแนะนำ\n\n**Report:** เข้าถึง 1D และ 2D เต็มรูปแบบพร้อม 3D และ 4D ที่จำกัด\n**Core:** เข้าถึงเต็มรูปแบบในทุกมิติทั้ง 4"
+            "content": "กรอบการทำงานของ Sundae สำหรับปัญญาการตัดสินใจ:\n\n**1D: เกิดอะไรขึ้น** - ข้อมูลเกี่ยวกับยอดขาย, แรงงาน, และต้นทุน\n**2D: แผนกับจริง** - ความแตกต่างระหว่างงบประมาณและการคาดการณ์\n**3D: บริบทตลาด** - มาตรฐาน, เพื่อนร่วมอุตสาหกรรม, และคู่แข่ง\n**4D: อะไรต่อไป** - การคาดการณ์และคำแนะนำ\n\n**Report:** เข้าถึง 1D และ 2D เต็มรูปแบบพร้อม 3D และ 4D ที่จำกัด\n**Core:** เข้าถึงเต็มรูปแบบในทุกมิติทั้ง 4"
           }
         ]
       },
@@ -5407,7 +5407,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "ฉันสามารถติดตามคู่แข่งได้กี่ราย?",
-            "content": "สูงสุด 10 คู่แข่งต่อสถานที่ แต่ละสถานที่สามารถติดตามชุดคู่แข่งที่แตกต่างกันได้。\n\nตัวอย่าง: 5 สถานที่ = ติดตามคู่แข่งได้สูงสุด 50 ราย."
+            "content": "สูงสุด 10 คู่แข่งต่อสถานที่ แต่ละสถานที่สามารถติดตามชุดคู่แข่งที่แตกต่างกันได้\n\nตัวอย่าง: 5 สถานที่ = ติดตามคู่แข่งได้สูงสุด 50 ราย."
           },
           {
             "title": "ฉันสามารถใช้ส่วนประกอบ Watchtower เพียงอย่างเดียวได้หรือไม่?",
@@ -5415,7 +5415,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Watchtower ต้องการ Core หรือไม่?",
-            "content": "ใช่ Watchtower ทำงานได้ดีที่สุดเมื่อสัญญาณตลาดถูกซ้อนทับโดยตรงกับข้อมูลการดำเนินงานสด ซึ่งเป็นสิ่งที่ Core ให้บริการ。\n\nหากคุณต้องการเพียงการวิเคราะห์ POS ประวัติศาสตร์ที่อัปโหลด รายงานก็เพียงพอ หากคุณต้องการบริบทตลาดที่เชื่อมโยงกับการดำเนินงานประจำวัน ให้ย้ายไปที่ Core."
+            "content": "ใช่ Watchtower ทำงานได้ดีที่สุดเมื่อสัญญาณตลาดถูกซ้อนทับโดยตรงกับข้อมูลการดำเนินงานสด ซึ่งเป็นสิ่งที่ Core ให้บริการ\n\nหากคุณต้องการเพียงการวิเคราะห์ POS ประวัติศาสตร์ที่อัปโหลด Report ก็เพียงพอ หากคุณต้องการบริบทตลาดที่เชื่อมโยงกับการดำเนินงานประจำวัน ให้ย้ายไปที่ Core."
           }
         ]
       },
@@ -5451,7 +5451,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "เครดิตอัจฉริยะทำงานอย่างไร?",
-            "content": "เครดิตอัจฉริยะใช้สำหรับคำถาม การวิเคราะห์ และคำแนะนำ。\n\n**Report Lite:** 250 เบส + 80 ต่อสถานที่\n**Report Plus:** 1,200 เบส + 300 ต่อสถานที่\n**Report Pro:** 3,500 เบส + 800 ต่อสถานที่\n**Core Lite:** 8,000 เบส + 1,600 ต่อสถานที่\n**Core Pro:** 14,000 เบส + 2,800 ต่อสถานที่\n**Enterprise:** 50,000+ เบส + การจัดสรรที่กำหนดเอง"
+            "content": "เครดิตอัจฉริยะใช้สำหรับคำถาม การวิเคราะห์ และคำแนะนำ\n\n**Report Lite:** 250 เบส + 80 ต่อสถานที่\n**Report Plus:** 1,200 เบส + 300 ต่อสถานที่\n**Report Pro:** 3,500 เบส + 800 ต่อสถานที่\n**Core Lite:** 8,000 เบส + 1,600 ต่อสถานที่\n**Core Pro:** 14,000 เบส + 2,800 ต่อสถานที่\n**Enterprise:** 50,000+ เบส + การจัดสรรที่กำหนดเอง"
           },
           {
             "title": "ฉันจะได้รับการเข้าถึงข้อมูลย้อนหลังมากแค่ไหน?",
@@ -5607,7 +5607,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Apa itu Model Kecerdasan 4D?",
-            "content": "Kerangka Sundae untuk kecerdasan keputusan:\n\n**1D: Apa yang Berlaku** - Kebenaran jualan, tenaga kerja, dan kos\n**2D: Rancangan vs Sebenarnya** - Varians bajet dan ramalan\n**3D: Konteks Pasaran** - Penanda aras, rakan sebaya, dan pesaing\n**4D: Apa yang Seterusnya** - Ramalan dan cadangan\n\n**Report:** Akses penuh 1D dan 2D serta 3D dan 4D terhad\n**Core:** Akses penuh merentasi semua 4 dimensi."
+            "content": "Kerangka Sundae untuk kecerdasan keputusan:\n\n**1D: Apa yang Berlaku** - Data jualan, tenaga kerja, dan kos\n**2D: Rancangan vs Sebenarnya** - Varians bajet dan ramalan\n**3D: Konteks Pasaran** - Penanda aras, rakan sebaya, dan pesaing\n**4D: Apa yang Seterusnya** - Ramalan dan cadangan\n\n**Report:** Akses penuh 1D dan 2D serta 3D dan 4D terhad\n**Core:** Akses penuh merentasi semua 4 dimensi."
           }
         ]
       },
@@ -5677,7 +5677,7 @@ export const generatedLocalCopy = {
         "faqs": [
           {
             "title": "Apa itu Watchtower?",
-            "content": "Watchtower adalah sisi luar Sundae. Ia membantu pasukan memahami apa yang berlaku di luar empat dinding:\n\n1. **Intelligence Persaingan** - Jejaki sehingga 10 pesaing bagi setiap lokasi\n2. **Intelligence Acara** - Cuaca, cuti, dan acara tempatan\n3. **Intelligence Pasaran** - Trend kategori dan petunjuk ekonomi"
+            "content": "Watchtower adalah sisi luar Sundae. Ia membantu pasukan memahami apa yang berlaku di luar empat dinding:\n\n1. **Kecerdasan Persaingan** - Jejaki sehingga 10 pesaing bagi setiap lokasi\n2. **Kecerdasan Acara** - Cuaca, cuti, dan acara tempatan\n3. **Kecerdasan Pasaran** - Trend kategori dan petunjuk ekonomi"
           },
           {
             "title": "Adakah saya memerlukan Watchtower?",
@@ -5689,7 +5689,7 @@ export const generatedLocalCopy = {
           },
           {
             "title": "Bolehkah saya menggunakan hanya satu komponen Watchtower?",
-            "content": "Ya. Anda boleh membeli Intelligence Persaingan, Intelligence Acara, atau Intelligence Pasaran secara individu, atau menggabungkannya."
+            "content": "Ya. Anda boleh membeli Kecerdasan Persaingan, Kecerdasan Acara, atau Kecerdasan Pasaran secara individu, atau menggabungkannya."
           },
           {
             "title": "Adakah Watchtower memerlukan Core?",
@@ -5728,8 +5728,8 @@ export const generatedLocalCopy = {
         "icon": "speed",
         "faqs": [
           {
-            "title": "Bagaimana cara kerja kredit intelijen?",
-            "content": "Kredit intelijen menggerakkan soalan, analisis, dan cadangan.\n\n**Report Lite:** 250 asas + 80 setiap lokasi\n**Report Plus:** 1,200 asas + 300 setiap lokasi\n**Report Pro:** 3,500 asas + 800 setiap lokasi\n**Core Lite:** 8,000 asas + 1,600 setiap lokasi\n**Core Pro:** 14,000 asas + 2,800 setiap lokasi\n**Enterprise:** 50,000+ asas + pengagihan khusus"
+            "title": "Bagaimana cara kerja kredit kecerdasan?",
+            "content": "Kredit kecerdasan menggerakkan soalan, analisis, dan cadangan.\n\n**Report Lite:** 250 asas + 80 setiap lokasi\n**Report Plus:** 1,200 asas + 300 setiap lokasi\n**Report Pro:** 3,500 asas + 800 setiap lokasi\n**Core Lite:** 8,000 asas + 1,600 setiap lokasi\n**Core Pro:** 14,000 asas + 2,800 setiap lokasi\n**Enterprise:** 50,000+ asas + pengagihan khusus"
           },
           {
             "title": "Berapa banyak akses sejarah yang saya dapat?",

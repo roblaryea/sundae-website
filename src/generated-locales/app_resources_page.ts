@@ -9,8 +9,8 @@ export const generatedLocalCopy = {
         "description": "Un grupo de restaurantes de 35 ubicaciones tuvo problemas con una variación del 18 % en los costos laborales entre ubicaciones sin visibilidad de las causas fundamentales o la eficiencia de la programación.",
         "solution": [
           "Sundae Core para paneles laborales en tiempo real",
-          "Sundae Core para alertas de facturación y programación",
-          "Sundae Report for labor benchmarking"
+          "Sundae Core para alertas de rotación de personal y programación",
+          "Sundae Report para benchmarking laboral"
         ],
         "outcomes": [
           {
@@ -36,7 +36,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core para análisis instantáneo de precios",
           "Sundae Core para seguimiento de márgenes",
-          "Sundae Report for category benchmarks"
+          "Sundae Report para benchmarks de categoría"
         ],
         "outcomes": [
           {
@@ -87,7 +87,7 @@ export const generatedLocalCopy = {
         "description": "Operador hotelero con visibilidad limitada de los precios de la competencia, las tendencias de las categorías y la participación de mercado en 22 ubicaciones en mercados competitivos.",
         "solution": [
           "Sundae Watchtower para inteligencia de mercado",
-          "Sundae Report for competitive benchmarking",
+          "Sundae Report para benchmarking competitivo",
           "Sundae Core para análisis de mercado"
         ],
         "outcomes": [
@@ -115,8 +115,8 @@ export const generatedLocalCopy = {
         "description": "عانت مجموعة مطاعم مكونة من 35 موقعًا من تباين في تكلفة العمالة بنسبة 18% عبر المواقع مع عدم وجود رؤية للأسباب الجذرية أو كفاءة الجدولة.",
         "solution": [
           "Sundae Core للوحات معلومات العمل في الوقت الفعلي",
-          "Sundae Core لدوران وتنبيهات الجدولة",
-          "Sundae Report for labor benchmarking"
+          "Sundae Core لتنبيهات دوران الموظفين والجدولة",
+          "Sundae Report لقياس أداء العمالة"
         ],
         "outcomes": [
           {
@@ -142,7 +142,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core لتحليل الأسعار الفوري",
           "Sundae Core لتتبع الهامش",
-          "Sundae Report for category benchmarks"
+          "Sundae Report لمعايير الفئات"
         ],
         "outcomes": [
           {
@@ -192,9 +192,9 @@ export const generatedLocalCopy = {
         "challenge": "تحديد المواقع في السوق",
         "description": "مشغل ضيافة يتمتع برؤية محدودة لأسعار المنافسين واتجاهات الفئات وحصة السوق عبر 22 موقعًا في الأسواق التنافسية.",
         "solution": [
-          "Sundae Watchtower for market intelligence",
-          "Sundae Report for competitive benchmarking",
-          "Sundae Core for market analysis"
+          "Sundae Watchtower لذكاء السوق",
+          "Sundae Report لقياس الأداء التنافسي",
+          "Sundae Core لتحليل السوق"
         ],
         "outcomes": [
           {
@@ -221,8 +221,8 @@ export const generatedLocalCopy = {
         "description": "Un groupe de restaurants de 35 sites était confronté à un écart de 18 % des coûts de main-d'œuvre entre les sites, sans visibilité sur les causes profondes ni sur l'efficacité de la planification.",
         "solution": [
           "Sundae Core pour les tableaux de bord du travail en temps réel",
-          "Sundae Core pour les alertes de chiffre d’affaires et de planification",
-          "Sundae Report for labor benchmarking"
+          "Sundae Core pour les alertes de rotation du personnel et de planification",
+          "Sundae Report pour le benchmarking de la main-d’œuvre"
         ],
         "outcomes": [
           {
@@ -248,7 +248,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core pour une analyse instantanée des prix",
           "Sundae Core pour le suivi des marges",
-          "Sundae Report for category benchmarks"
+          "Sundae Report pour les benchmarks de catégorie"
         ],
         "outcomes": [
           {
@@ -298,8 +298,8 @@ export const generatedLocalCopy = {
         "challenge": "Positionnement sur le marché",
         "description": "Opérateur hôtelier avec une visibilité limitée sur les prix des concurrents, les tendances des catégories et la part de marché sur 22 sites sur des marchés concurrentiels.",
         "solution": [
-          "Sundae Watchtower pour l'information sur le marché",
-          "Sundae Report for competitive benchmarking",
+          "Sundae Watchtower pour la veille de marché",
+          "Sundae Report pour le benchmarking concurrentiel",
           "Sundae Core pour l’analyse du marché"
         ],
         "outcomes": [
@@ -327,8 +327,8 @@ export const generatedLocalCopy = {
         "description": "O grupo de restaurantes com 35 locais enfrentou uma variação de 18% nos custos de mão de obra entre locais, sem visibilidade das causas raízes ou eficiência de agendamento.",
         "solution": [
           "Sundae Core para painéis trabalhistas em tempo real",
-          "Sundae Core para alertas de rotatividade e agendamento",
-          "Sundae Report for labor benchmarking"
+          "Sundae Core para alertas de rotatividade de pessoal e agendamento",
+          "Sundae Report para benchmarking de mão de obra"
         ],
         "outcomes": [
           {
@@ -354,7 +354,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core para análise instantânea de preços",
           "Sundae Core para rastreamento de margem",
-          "Sundae Report for category benchmarks"
+          "Sundae Report para benchmarks de categoria"
         ],
         "outcomes": [
           {
@@ -405,7 +405,7 @@ export const generatedLocalCopy = {
         "description": "Operador de hotelaria com visibilidade limitada sobre preços de concorrentes, tendências de categoria e participação de mercado em 22 locais em mercados competitivos.",
         "solution": [
           "Sundae Watchtower para inteligência de mercado",
-          "Sundae Report for competitive benchmarking",
+          "Sundae Report para benchmarking competitivo",
           "Sundae Core para análise de mercado"
         ],
         "outcomes": [
@@ -433,8 +433,8 @@ export const generatedLocalCopy = {
         "description": "Eine Restaurantgruppe mit 35 Standorten hatte mit 18 % Arbeitskostenunterschieden zwischen den Standorten zu kämpfen, ohne Einblick in die Grundursachen oder Planungseffizienz zu haben.",
         "solution": [
           "Sundae Core für Arbeits-Dashboards in Echtzeit",
-          "Sundae Core für Umsatz- und Terminbenachrichtigungen",
-          "Sundae Report for labor benchmarking"
+          "Sundae Core für Benachrichtigungen zu Personalfluktuation und Dienstplanung",
+          "Sundae Report für Personalkosten-Benchmarking"
         ],
         "outcomes": [
           {
@@ -539,8 +539,8 @@ export const generatedLocalCopy = {
         "description": "35-مقامات والے ریستوراں گروپ نے تمام مقامات پر 18% لیبر لاگت کے فرق کے ساتھ جدوجہد کی جس میں بنیادی وجوہات یا نظام الاوقات کی کارکردگی میں کوئی مرئیت نہیں ہے۔",
         "solution": [
           "ریئل ٹائم لیبر ڈیش بورڈز کے لیے Sundae Core",
-          "ٹرن اوور اور شیڈولنگ الرٹس کے لیے Sundae Core",
-          "Sundae Report for labor benchmarking"
+          "عملے کی تبدیلی اور شیڈولنگ الرٹس کے لیے Sundae Core",
+          "لیبر بینچ مارکنگ کے لیے Sundae Report"
         ],
         "outcomes": [
           {
@@ -566,7 +566,7 @@ export const generatedLocalCopy = {
         "solution": [
           "فوری قیمتوں کے تجزیہ کے لیے Sundae Core",
           "مارجن ٹریکنگ کے لیے Sundae Core",
-          "Sundae Report for category benchmarks"
+          "زمرہ بینچ مارکس کے لیے Sundae Report"
         ],
         "outcomes": [
           {
@@ -590,7 +590,7 @@ export const generatedLocalCopy = {
         "challenge": "آپریشنل بلائنڈ سپاٹ",
         "description": "8 ڈیلیوری پلیٹ فارمز پر بکھرے ڈیٹا کے ساتھ تیزی سے بڑھتا ہوا کلاؤڈ کچن نیٹ ورک، کارکردگی کی پیمائش کو یکجا کرنے یا وینڈر کے مسائل کا پتہ لگانے سے قاصر ہے۔",
         "solution": [
-          "Sundae Core for data integration",
+          "ڈیٹا انٹیگریشن کے لیے Sundae Core",
           "ترسیل کی کارکردگی سے باخبر رہنے کے لیے Sundae Core",
           "متحد ڈیش بورڈز کے لیے Sundae Core"
         ],
@@ -617,7 +617,7 @@ export const generatedLocalCopy = {
         "description": "مسابقتی مارکیٹوں میں 22 مقامات پر مسابقتی قیمتوں، زمرے کے رجحانات، اور مارکیٹ شیئر میں محدود مرئیت کے ساتھ مہمان نوازی کا آپریٹر۔",
         "solution": [
           "مارکیٹ انٹیلی جنس کے لیے Sundae Watchtower",
-          "Sundae Report for competitive benchmarking",
+          "مسابقتی بینچ مارکنگ کے لیے Sundae Report",
           "مارکیٹ کے تجزیہ کے لیے Sundae Core"
         ],
         "outcomes": [
@@ -645,7 +645,7 @@ export const generatedLocalCopy = {
         "description": "Een restaurantgroep met 35 locaties kampte met een verschil in arbeidskosten van 18% tussen locaties, zonder zicht op de hoofdoorzaken of planningsefficiëntie.",
         "solution": [
           "Sundae Core voor realtime arbeidsdashboards",
-          "Sundae Core voor omzet- en planningswaarschuwingen",
+          "Sundae Core voor waarschuwingen over personeelsverloop en planning",
           "Sundae Report voor arbeidsbenchmarking"
         ],
         "outcomes": [
@@ -672,7 +672,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core voor directe prijsanalyse",
           "Sundae Core voor het volgen van marges",
-          "Sundae Report for category benchmarks"
+          "Sundae Report voor categoriebenchmarks"
         ],
         "outcomes": [
           {
@@ -751,8 +751,8 @@ export const generatedLocalCopy = {
         "description": "35 konumlu restoran grubu, temel nedenlere veya planlama verimliliğine dair hiçbir görünürlük olmadan, konumlar arasında %18'lik işgücü maliyeti farklılığıyla mücadele etti.",
         "solution": [
           "Gerçek zamanlı işgücü gösterge tabloları için Sundae Core",
-          "Ciro ve planlama uyarıları için Sundae Core",
-          "Sundae Report for labor benchmarking"
+          "Personel devri ve planlama uyarıları için Sundae Core",
+          "İşgücü kıyaslaması için Sundae Report"
         ],
         "outcomes": [
           {
@@ -778,7 +778,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Anında fiyatlandırma analizi için Sundae Core",
           "Marj takibi için Sundae Core",
-          "Sundae Report for category benchmarks"
+          "Kategori kıyaslamaları için Sundae Report"
         ],
         "outcomes": [
           {
@@ -829,7 +829,7 @@ export const generatedLocalCopy = {
         "description": "Rekabetçi pazarlarda 22 konumdaki rakip fiyatları, kategori eğilimleri ve pazar payı konusunda sınırlı görünürlüğe sahip konaklama operatörü.",
         "solution": [
           "Pazar istihbaratı için Sundae Watchtower",
-          "Sundae Report for competitive benchmarking",
+          "Rekabetçi kıyaslama için Sundae Report",
           "Pazar analizi için Sundae Core"
         ],
         "outcomes": [
@@ -856,9 +856,9 @@ export const generatedLocalCopy = {
         "challenge": "श्रम लागत भिन्नता",
         "description": "35-स्थान रेस्तरां समूह मूल कारणों या शेड्यूलिंग दक्षता में कोई दृश्यता नहीं होने के कारण सभी स्थानों पर 18% श्रम लागत भिन्नता से जूझ रहा है।",
         "solution": [
-          "Sundae Core for real-time labor dashboards",
-          "Sundae Core for turnover and scheduling alerts",
-          "Sundae Report for labor benchmarking"
+          "रीयल-टाइम श्रम डैशबोर्ड के लिए Sundae Core",
+          "स्टाफ टर्नओवर और शेड्यूलिंग अलर्ट के लिए Sundae Core",
+          "श्रम बेंचमार्किंग के लिए Sundae Report"
         ],
         "outcomes": [
           {
@@ -882,9 +882,9 @@ export const generatedLocalCopy = {
         "challenge": "मेनू मूल्य निर्धारण और मार्जिन क्षरण",
         "description": "मूल्य निर्धारण प्रभावशीलता और छूट के दुरुपयोग पर विलंबित अंतर्दृष्टि के साथ अंतर्राष्ट्रीय फ्रैंचाइज़ ऑपरेटर को विभिन्न क्षेत्रों में खाद्य लागत में 8% अंतर का सामना करना पड़ रहा है।",
         "solution": [
-          "Sundae Core for instant pricing analysis",
-          "Sundae Core for margin tracking",
-          "Sundae Report for category benchmarks"
+          "तत्काल मूल्य निर्धारण विश्लेषण के लिए Sundae Core",
+          "मार्जिन ट्रैकिंग के लिए Sundae Core",
+          "श्रेणी बेंचमार्क के लिए Sundae Report"
         ],
         "outcomes": [
           {
@@ -909,8 +909,8 @@ export const generatedLocalCopy = {
         "description": "8 डिलीवरी प्लेटफार्मों पर खंडित डेटा के साथ तेजी से बढ़ता हुआ क्लाउड किचन नेटवर्क, प्रदर्शन मेट्रिक्स को एकीकृत करने या विक्रेता के मुद्दों का पता लगाने में असमर्थ है।",
         "solution": [
           "डेटा एकीकरण के लिए Sundae Core",
-          "Sundae Core for delivery performance tracking",
-          "Sundae Core for unified dashboards"
+          "डिलीवरी प्रदर्शन ट्रैकिंग के लिए Sundae Core",
+          "एकीकृत डैशबोर्ड के लिए Sundae Core"
         ],
         "outcomes": [
           {
@@ -934,9 +934,9 @@ export const generatedLocalCopy = {
         "challenge": "बाज़ार स्थिति",
         "description": "प्रतिस्पर्धी बाजारों में 22 स्थानों पर प्रतिस्पर्धी मूल्य निर्धारण, श्रेणी के रुझान और बाजार हिस्सेदारी में सीमित दृश्यता के साथ आतिथ्य ऑपरेटर।",
         "solution": [
-          "Sundae Watchtower for market intelligence",
-          "Sundae Report for competitive benchmarking",
-          "Sundae Core for market analysis"
+          "बाज़ार इंटेलिजेंस के लिए Sundae Watchtower",
+          "प्रतिस्पर्धी बेंचमार्किंग के लिए Sundae Report",
+          "बाज़ार विश्लेषण के लिए Sundae Core"
         ],
         "outcomes": [
           {
@@ -962,9 +962,9 @@ export const generatedLocalCopy = {
         "challenge": "Varianza del costo del lavoro",
         "description": "Un gruppo di ristoranti con 35 sedi ha dovuto affrontare una variazione del costo del lavoro del 18% tra le sedi, senza alcuna visibilità sulle cause profonde o sull'efficienza della pianificazione.",
         "solution": [
-          "Sundae Core per dashboard del travaglio in tempo reale",
-          "Sundae Core per avvisi di fatturato e pianificazione",
-          "Sundae Report per il benchmarking del lavoro"
+          "Sundae Core per dashboard del personale in tempo reale",
+          "Sundae Core per avvisi su turnover del personale e pianificazione",
+          "Sundae Report per il benchmarking del costo del lavoro"
         ],
         "outcomes": [
           {
@@ -1068,9 +1068,9 @@ export const generatedLocalCopy = {
         "challenge": "劳动力成本差异",
         "description": "拥有 35 个地点的餐厅集团因不同地点的劳动力成本差异达 18% 而苦苦挣扎，无法了解根本原因或调度效率。",
         "solution": [
-          "用于实时劳动力仪表板的 Sundae Core",
-          "Sundae Core 用于营业额和日程安排提醒",
-          "Sundae Report for labor benchmarking"
+          "用于实时劳动力决策视图的 Sundae Core",
+          "用于员工流失和排班提醒的 Sundae Core",
+          "用于劳动力基准对标的 Sundae Report"
         ],
         "outcomes": [
           {
@@ -1094,9 +1094,9 @@ export const generatedLocalCopy = {
         "challenge": "菜单定价和利润侵蚀",
         "description": "国际特许经营运营商面临着不同地区 8% 的食品成本差异，对定价有效性和折扣滥用的洞察迟缓。",
         "solution": [
-          "Sundae Core for instant pricing analysis",
-          "Sundae Core for margin tracking",
-          "Sundae Report for category benchmarks"
+          "用于即时定价分析的 Sundae Core",
+          "用于利润率追踪的 Sundae Core",
+          "用于品类基准对标的 Sundae Report"
         ],
         "outcomes": [
           {
@@ -1146,9 +1146,9 @@ export const generatedLocalCopy = {
         "challenge": "市场定位",
         "description": "酒店运营商对竞争市场中 22 个地点的竞争对手定价、类别趋势和市场份额的了解有限。",
         "solution": [
-          "Sundae市场情报Watchtower",
-          "Sundae Report for competitive benchmarking",
-          "Sundae Core for market analysis"
+          "用于市场情报的 Sundae Watchtower",
+          "用于竞争基准对标的 Sundae Report",
+          "用于市场分析的 Sundae Core"
         ],
         "outcomes": [
           {
@@ -1175,8 +1175,8 @@ export const generatedLocalCopy = {
         "description": "Grupa restauracji obejmująca 35 lokalizacji borykała się z 18% różnicą w kosztach pracy w poszczególnych lokalizacjach, bez wglądu w pierwotne przyczyny i efektywność planowania.",
         "solution": [
           "Sundae Core dla pulpitów nawigacyjnych pracy w czasie rzeczywistym",
-          "Sundae Core do alertów o obrotach i planowaniu",
-          "Sundae Report for labor benchmarking"
+          "Sundae Core do alertów o rotacji personelu i planowaniu",
+          "Sundae Report do benchmarkingu kosztów pracy"
         ],
         "outcomes": [
           {
@@ -1202,7 +1202,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core do natychmiastowej analizy cen",
           "Sundae Core do śledzenia marży",
-          "Sundae Report for category benchmarks"
+          "Sundae Report do benchmarków kategorii"
         ],
         "outcomes": [
           {
@@ -1252,8 +1252,8 @@ export const generatedLocalCopy = {
         "challenge": "Pozycjonowanie na rynku",
         "description": "Operator hotelarski z ograniczonym wglądem w ceny konkurencji, trendy w kategoriach i udział w rynku w 22 lokalizacjach na konkurencyjnych rynkach.",
         "solution": [
-          "Sundae Watchtower w celu uzyskania informacji o rynku",
-          "Sundae Report for competitive benchmarking",
+          "Sundae Watchtower do analizy rynku",
+          "Sundae Report do benchmarkingu konkurencji",
           "Sundae Core do analizy rynku"
         ],
         "outcomes": [
@@ -1281,8 +1281,8 @@ export const generatedLocalCopy = {
         "description": "35 店舗を展開するレストラン グループは、根本原因やスケジュールの効率性が把握できないため、店舗間で人件費が 18% も差異があることに苦労していました。",
         "solution": [
           "リアルタイム労働ダッシュボード用の Sundae Core",
-          "売上高とスケジュールアラートのための Sundae Core",
-          "Sundae Report for labor benchmarking"
+          "従業員の離職とスケジュールアラートのための Sundae Core",
+          "人件費ベンチマークのための Sundae Report"
         ],
         "outcomes": [
           {
@@ -1306,9 +1306,9 @@ export const generatedLocalCopy = {
         "challenge": "メニューの価格設定と利益率の浸食",
         "description": "国際的なフランチャイズ オペレーターは、価格設定の有効性と割引の乱用に関する洞察の遅れにより、地域間で 8% の食費の差異に直面しています。",
         "solution": [
-          "インスタント価格分析のための Sundae Core",
-          "Sundae Core for margin tracking",
-          "Sundae Report for category benchmarks"
+          "即時価格分析のための Sundae Core",
+          "マージン追跡のための Sundae Core",
+          "カテゴリベンチマークのための Sundae Report"
         ],
         "outcomes": [
           {
@@ -1358,9 +1358,9 @@ export const generatedLocalCopy = {
         "challenge": "市場での位置づけ",
         "description": "競合市場の 22 か所にわたる競合他社の価格設定、カテゴリの傾向、市場シェアに対する可視性が限られているホスピタリティ オペレーター。",
         "solution": [
-          "Sundae Watchtower for market intelligence",
-          "Sundae Report for competitive benchmarking",
-          "Sundae Core for market analysis"
+          "市場インテリジェンスのための Sundae Watchtower",
+          "競合ベンチマークのための Sundae Report",
+          "市場分析のための Sundae Core"
         ],
         "outcomes": [
           {
@@ -1386,9 +1386,9 @@ export const generatedLocalCopy = {
         "challenge": "인건비 차이",
         "description": "35개 지점의 레스토랑 그룹은 근본 원인이나 일정 효율성을 파악하지 못한 채 위치 간 18%의 인건비 차이로 인해 어려움을 겪었습니다.",
         "solution": [
-          "Sundae Core for real-time labor dashboards",
-          "매출 및 예약 알림을 위한 Sundae Core",
-          "Sundae Report for labor benchmarking"
+          "실시간 인력 결정 뷰를 위한 Sundae Core",
+          "직원 이직 및 스케줄링 알림을 위한 Sundae Core",
+          "인건비 벤치마킹을 위한 Sundae Report"
         ],
         "outcomes": [
           {
@@ -1412,9 +1412,9 @@ export const generatedLocalCopy = {
         "challenge": "메뉴 가격 및 마진 감소",
         "description": "가격 효율성 및 할인 남용에 대한 통찰력이 지연되면서 지역 간 8%의 식품 비용 차이에 직면한 국제 프랜차이즈 운영자입니다.",
         "solution": [
-          "Sundae Core for instant pricing analysis",
-          "Sundae Core for margin tracking",
-          "Sundae Report for category benchmarks"
+          "즉시 가격 분석을 위한 Sundae Core",
+          "마진 추적을 위한 Sundae Core",
+          "카테고리 벤치마크를 위한 Sundae Report"
         ],
         "outcomes": [
           {
@@ -1438,8 +1438,8 @@ export const generatedLocalCopy = {
         "challenge": "운영 사각지대",
         "description": "8개 제공 플랫폼에 분산된 데이터로 인해 빠르게 성장하는 클라우드 키친 네트워크로 인해 성능 지표를 통합하거나 공급업체 문제를 감지할 수 없습니다.",
         "solution": [
-          "Sundae Core for data integration",
-          "Sundae Core for delivery performance tracking",
+          "데이터 통합을 위한 Sundae Core",
+          "배달 성과 추적을 위한 Sundae Core",
           "통합 대시보드를 위한 Sundae Core"
         ],
         "outcomes": [
@@ -1464,9 +1464,9 @@ export const generatedLocalCopy = {
         "challenge": "시장 포지셔닝",
         "description": "경쟁 시장의 22개 위치에 대한 경쟁사 가격, 카테고리 추세 및 시장 점유율에 대한 가시성이 제한적인 숙박업 운영업체입니다.",
         "solution": [
-          "Sundae Watchtower for market intelligence",
-          "Sundae Report for competitive benchmarking",
-          "Sundae Core for market analysis"
+          "시장 인텔리전스를 위한 Sundae Watchtower",
+          "경쟁 벤치마킹을 위한 Sundae Report",
+          "시장 분석을 위한 Sundae Core"
         ],
         "outcomes": [
           {
@@ -1493,8 +1493,8 @@ export const generatedLocalCopy = {
         "description": "Grup restoran dengan 35 lokasi mengalami kesulitan dengan perbedaan biaya tenaga kerja sebesar 18% di seluruh lokasi tanpa kejelasan mengenai akar permasalahan atau efisiensi penjadwalan.",
         "solution": [
           "Sundae Core untuk dasbor tenaga kerja real-time",
-          "Sundae Core untuk pemberitahuan pergantian dan penjadwalan",
-          "Sundae Report for labor benchmarking"
+          "Sundae Core untuk pemberitahuan pergantian karyawan dan penjadwalan",
+          "Sundae Report untuk benchmarking tenaga kerja"
         ],
         "outcomes": [
           {
@@ -1520,7 +1520,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core untuk analisis harga instan",
           "Sundae Core untuk pelacakan margin",
-          "Sundae Report for category benchmarks"
+          "Sundae Report untuk benchmark kategori"
         ],
         "outcomes": [
           {
@@ -1570,8 +1570,8 @@ export const generatedLocalCopy = {
         "challenge": "Penentuan Posisi Pasar",
         "description": "Operator perhotelan dengan visibilitas terbatas terhadap harga pesaing, tren kategori, dan pangsa pasar di 22 lokasi di pasar kompetitif.",
         "solution": [
-          "Sundae Watchtower for market intelligence",
-          "Sundae Report for competitive benchmarking",
+          "Sundae Watchtower untuk intelijen pasar",
+          "Sundae Report untuk benchmarking kompetitif",
           "Sundae Core untuk analisis pasar"
         ],
         "outcomes": [
@@ -1599,8 +1599,8 @@ export const generatedLocalCopy = {
         "description": "35-অবস্থানের রেস্তোরাঁ গোষ্ঠী মূল কারণ বা সময়সূচী দক্ষতার কোন দৃশ্যমানতা ছাড়াই 18% শ্রম খরচের ভিন্নতার সাথে লড়াই করেছে।",
         "solution": [
           "রিয়েল-টাইম লেবার ড্যাশবোর্ডের জন্য Sundae Core",
-          "Sundae Core for turnover and scheduling alerts",
-          "Sundae Report for labor benchmarking"
+          "কর্মী টার্নওভার ও সময়সূচী সতর্কতার জন্য Sundae Core",
+          "শ্রম বেঞ্চমার্কিংয়ের জন্য Sundae Report"
         ],
         "outcomes": [
           {
@@ -1624,9 +1624,9 @@ export const generatedLocalCopy = {
         "challenge": "মেনু মূল্য এবং মার্জিন ক্ষয়",
         "description": "আন্তর্জাতিক ফ্র্যাঞ্চাইজি অপারেটর মূল্য নির্ধারণের কার্যকারিতা এবং ডিসকাউন্ট অপব্যবহারের বিলম্বিত অন্তর্দৃষ্টি সহ বিভিন্ন অঞ্চলে 8% খাদ্য খরচ বৈচিত্র্যের সম্মুখীন।",
         "solution": [
-          "Sundae Core for instant pricing analysis",
-          "Sundae Core for margin tracking",
-          "Sundae Report for category benchmarks"
+          "তাৎক্ষণিক মূল্য বিশ্লেষণের জন্য Sundae Core",
+          "মার্জিন ট্র্যাকিংয়ের জন্য Sundae Core",
+          "ক্যাটাগরি বেঞ্চমার্কের জন্য Sundae Report"
         ],
         "outcomes": [
           {
@@ -1650,9 +1650,9 @@ export const generatedLocalCopy = {
         "challenge": "অপারেশনাল ব্লাইন্ড স্পট",
         "description": "8টি ডেলিভারি প্ল্যাটফর্ম জুড়ে খণ্ডিত ডেটা সহ দ্রুত বর্ধনশীল ক্লাউড কিচেন নেটওয়ার্ক, পারফরম্যান্স মেট্রিক্স একত্রিত করতে বা বিক্রেতার সমস্যাগুলি সনাক্ত করতে অক্ষম৷",
         "solution": [
-          "Sundae Core for data integration",
-          "Sundae Core for delivery performance tracking",
-          "Sundae Core for unified dashboards"
+          "ডেটা ইন্টিগ্রেশনের জন্য Sundae Core",
+          "ডেলিভারি পারফরম্যান্স ট্র্যাকিংয়ের জন্য Sundae Core",
+          "ইউনিফায়েড ড্যাশবোর্ডের জন্য Sundae Core"
         ],
         "outcomes": [
           {
@@ -1676,9 +1676,9 @@ export const generatedLocalCopy = {
         "challenge": "মার্কেট পজিশনিং",
         "description": "প্রতিযোগী মূল্য, বিভাগ প্রবণতা, এবং প্রতিযোগিতামূলক বাজারে 22টি অবস্থান জুড়ে মার্কেট শেয়ারের মধ্যে সীমিত দৃশ্যমানতার সাথে আতিথেয়তা অপারেটর।",
         "solution": [
-          "Sundae Watchtower for market intelligence",
-          "Sundae Report for competitive benchmarking",
-          "Sundae Core for market analysis"
+          "মার্কেট ইন্টেলিজেন্সের জন্য Sundae Watchtower",
+          "প্রতিযোগিতামূলক বেঞ্চমার্কিংয়ের জন্য Sundae Report",
+          "মার্কেট বিশ্লেষণের জন্য Sundae Core"
         ],
         "outcomes": [
           {
@@ -1705,8 +1705,8 @@ export const generatedLocalCopy = {
         "description": "Grupul de restaurante cu 35 de locații s-a luptat cu o variație de 18% a costului forței de muncă între locații, fără vizibilitate asupra cauzelor fundamentale sau a eficienței programării.",
         "solution": [
           "Sundae Core pentru tablouri de bord ale forței de muncă în timp real",
-          "Sundae Core pentru alerte privind cifra de afaceri și programare",
-          "Sundae Report for labor benchmarking"
+          "Sundae Core pentru alerte privind fluctuația personalului și programarea",
+          "Sundae Report pentru benchmarking-ul costurilor cu forța de muncă"
         ],
         "outcomes": [
           {
@@ -1732,7 +1732,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core pentru analiza instantanee a prețurilor",
           "Sundae Core pentru urmărirea marjei",
-          "Sundae Report for category benchmarks"
+          "Sundae Report pentru benchmark-uri pe categorii"
         ],
         "outcomes": [
           {
@@ -1783,7 +1783,7 @@ export const generatedLocalCopy = {
         "description": "Operator de ospitalitate cu vizibilitate limitată asupra prețurilor concurenților, tendințelor categoriei și cotei de piață în 22 de locații de pe piețe competitive.",
         "solution": [
           "Sundae Watchtower pentru informații despre piață",
-          "Sundae Report for competitive benchmarking",
+          "Sundae Report pentru benchmarking competitiv",
           "Sundae Core pentru analiza pieței"
         ],
         "outcomes": [
@@ -1811,8 +1811,8 @@ export const generatedLocalCopy = {
         "description": "Nhóm nhà hàng 35 địa điểm phải vật lộn với sự chênh lệch chi phí lao động 18% giữa các địa điểm mà không thấy rõ nguyên nhân gốc rễ hoặc hiệu quả lập kế hoạch.",
         "solution": [
           "Sundae Core cho bảng thông tin lao động theo thời gian thực",
-          "Sundae Core để thông báo doanh thu và lập kế hoạch",
-          "Sundae Report for labor benchmarking"
+          "Sundae Core để cảnh báo biến động nhân sự và lập lịch",
+          "Sundae Report để đối chuẩn chi phí lao động"
         ],
         "outcomes": [
           {
@@ -1838,7 +1838,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core để phân tích giá ngay lập tức",
           "Sundae Core để theo dõi lợi nhuận",
-          "Sundae Report for category benchmarks"
+          "Sundae Report để đối chuẩn theo danh mục"
         ],
         "outcomes": [
           {
@@ -1888,8 +1888,8 @@ export const generatedLocalCopy = {
         "challenge": "Định vị thị trường",
         "description": "Nhà điều hành khách sạn có khả năng hiển thị hạn chế về giá cả, xu hướng danh mục và thị phần của đối thủ cạnh tranh trên 22 địa điểm trong các thị trường cạnh tranh.",
         "solution": [
-          "Sundae Watchtower for market intelligence",
-          "Sundae Report for competitive benchmarking",
+          "Sundae Watchtower để nắm bắt thông tin thị trường",
+          "Sundae Report để đối chuẩn cạnh tranh",
           "Sundae Core để phân tích thị trường"
         ],
         "outcomes": [
@@ -1917,8 +1917,8 @@ export const generatedLocalCopy = {
         "description": "Restauranggrupp med 35 ställen kämpade med 18 % arbetskostnadsvariation mellan olika platser utan insyn i bakomliggande orsaker eller schemaläggningseffektivitet.",
         "solution": [
           "Sundae Core för arbetsinstrumentpaneler i realtid",
-          "Sundae Core för omsättnings- och schemaläggningsvarningar",
-          "Sundae Report for labor benchmarking"
+          "Sundae Core för varningar om personalomsättning och schemaläggning",
+          "Sundae Report för benchmarking av arbetskostnader"
         ],
         "outcomes": [
           {
@@ -2023,8 +2023,8 @@ export const generatedLocalCopy = {
         "description": "กลุ่มร้านอาหารที่มีสาขา 35 แห่งต้องดิ้นรนกับความแปรปรวนของต้นทุนค่าแรง 18% ในแต่ละสาขา โดยไม่ทราบสาเหตุที่แท้จริงหรือประสิทธิภาพในการจัดกำหนดการ",
         "solution": [
           "Sundae Core สำหรับแดชบอร์ดแรงงานแบบเรียลไทม์",
-          "Sundae Core สำหรับการแจ้งเตือนการหมุนเวียนและการกำหนดเวลา",
-          "Sundae Report สำหรับการเปรียบเทียบแรงงาน"
+          "Sundae Core สำหรับการแจ้งเตือนการลาออกของพนักงานและการจัดกำหนดการ",
+          "Sundae Report สำหรับการเปรียบเทียบต้นทุนแรงงาน"
         ],
         "outcomes": [
           {
@@ -2050,7 +2050,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core สำหรับการวิเคราะห์ราคาทันที",
           "Sundae Core สำหรับการติดตามมาร์จิ้น",
-          "Sundae Report for category benchmarks"
+          "Sundae Report สำหรับการเปรียบเทียบตามหมวดหมู่"
         ],
         "outcomes": [
           {
@@ -2100,7 +2100,7 @@ export const generatedLocalCopy = {
         "challenge": "การวางตำแหน่งทางการตลาด",
         "description": "ผู้ประกอบการด้านการบริการซึ่งมีการมองเห็นราคาของคู่แข่ง แนวโน้มหมวดหมู่ และส่วนแบ่งการตลาดในสถานที่ตั้ง 22 แห่งในตลาดที่มีการแข่งขันอย่างจำกัด",
         "solution": [
-          "Sundae Watchtower for market intelligence",
+          "Sundae Watchtower สำหรับข้อมูลเชิงลึกด้านตลาด",
           "Sundae Report สำหรับการเปรียบเทียบการแข่งขัน",
           "Sundae Core สำหรับการวิเคราะห์ตลาด"
         ],
@@ -2128,9 +2128,9 @@ export const generatedLocalCopy = {
         "challenge": "Varians Kos Buruh",
         "description": "Kumpulan restoran 35 lokasi bergelut dengan 18% varians kos buruh di seluruh lokasi tanpa keterlihatan kepada punca atau kecekapan penjadualan.",
         "solution": [
-          "Sundae Core for real-time labor dashboards",
-          "Sundae Core untuk makluman perolehan dan penjadualan",
-          "Sundae Report for labor benchmarking"
+          "Sundae Core untuk papan pemuka buruh masa nyata",
+          "Sundae Core untuk makluman pusing ganti pekerja dan penjadualan",
+          "Sundae Report untuk penanda aras buruh"
         ],
         "outcomes": [
           {
@@ -2156,7 +2156,7 @@ export const generatedLocalCopy = {
         "solution": [
           "Sundae Core untuk analisis harga segera",
           "Sundae Core untuk penjejakan margin",
-          "Sundae Report for category benchmarks"
+          "Sundae Report untuk penanda aras kategori"
         ],
         "outcomes": [
           {
@@ -2180,9 +2180,9 @@ export const generatedLocalCopy = {
         "challenge": "Bintik Buta Operasi",
         "description": "Rangkaian dapur awan yang berkembang pesat dengan data berpecah-belah merentas 8 platform penghantaran, tidak dapat menyatukan metrik prestasi atau mengesan isu vendor.",
         "solution": [
-          "Sundae Core for data integration",
+          "Sundae Core untuk penyepaduan data",
           "Sundae Core untuk penjejakan prestasi penghantaran",
-          "Sundae Core for unified dashboards"
+          "Sundae Core untuk papan pemuka bersepadu"
         ],
         "outcomes": [
           {
@@ -2207,7 +2207,7 @@ export const generatedLocalCopy = {
         "description": "Pengendali hospitaliti dengan keterlihatan terhad kepada harga pesaing, arah aliran kategori dan bahagian pasaran merentas 22 lokasi dalam pasaran yang kompetitif.",
         "solution": [
           "Sundae Watchtower untuk risikan pasaran",
-          "Sundae Report for competitive benchmarking",
+          "Sundae Report untuk penanda aras persaingan",
           "Sundae Core untuk analisis pasaran"
         ],
         "outcomes": [
@@ -2262,7 +2262,7 @@ export const generatedLocalCopy = {
           "href": "/product"
         },
         {
-          "name": "رؤى Sundae",
+          "name": "Sundae Intelligence",
           "href": "/intelligence"
         },
         {
@@ -2325,7 +2325,7 @@ export const generatedLocalCopy = {
           "href": "/product"
         },
         {
-          "name": "Sundae-inzichten",
+          "name": "Sundae Intelligence",
           "href": "/intelligence"
         },
         {
@@ -2346,7 +2346,7 @@ export const generatedLocalCopy = {
           "href": "/product"
         },
         {
-          "name": "Informações sobre Sundae",
+          "name": "Sundae Intelligence",
           "href": "/intelligence"
         },
         {
@@ -2367,7 +2367,7 @@ export const generatedLocalCopy = {
           "href": "/product"
         },
         {
-          "name": "Sundae انسائٹس",
+          "name": "Sundae Intelligence",
           "href": "/intelligence"
         },
         {
@@ -2388,7 +2388,7 @@ export const generatedLocalCopy = {
           "href": "/product"
         },
         {
-          "name": "Sundae इनसाइट्स",
+          "name": "Sundae Intelligence",
           "href": "/intelligence"
         },
         {
@@ -2451,7 +2451,7 @@ export const generatedLocalCopy = {
           "href": "/product"
         },
         {
-          "name": "Sundae洞察",
+          "name": "Sundae Intelligence",
           "href": "/intelligence"
         },
         {
@@ -2493,7 +2493,7 @@ export const generatedLocalCopy = {
           "href": "/product"
         },
         {
-          "name": "Sundae İçgörüleri",
+          "name": "Sundae Intelligence",
           "href": "/intelligence"
         },
         {
@@ -2514,7 +2514,7 @@ export const generatedLocalCopy = {
           "href": "/product"
         },
         {
-          "name": "Sundaeの洞察",
+          "name": "Sundae Intelligence",
           "href": "/intelligence"
         },
         {
@@ -2535,7 +2535,7 @@ export const generatedLocalCopy = {
           "href": "/product"
         },
         {
-          "name": "Wawasan Sundae",
+          "name": "Sundae Intelligence",
           "href": "/intelligence"
         },
         {
@@ -2556,7 +2556,7 @@ export const generatedLocalCopy = {
           "href": "/product"
         },
         {
-          "name": "Thông tin chi tiết về Sundae",
+          "name": "Sundae Intelligence",
           "href": "/intelligence"
         },
         {
@@ -2598,7 +2598,7 @@ export const generatedLocalCopy = {
           "href": "/product"
         },
         {
-          "name": "Sundae ইনসাইটস",
+          "name": "Sundae Intelligence",
           "href": "/intelligence"
         },
         {
@@ -2661,7 +2661,7 @@ export const generatedLocalCopy = {
           "href": "/product"
         },
         {
-          "name": "Wawasan Sundae",
+          "name": "Sundae Intelligence",
           "href": "/intelligence"
         },
         {
