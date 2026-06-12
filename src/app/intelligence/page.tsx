@@ -379,8 +379,8 @@ export default function ChatWithDataPage() {
                 <Card variant="elevated" className="h-full hover:shadow-lg transition-all duration-300 relative overflow-hidden">
                   <CardContent className="p-6">
                     <div className="flex items-center justify-between mb-4">
-                      <div className="w-10 h-10 bg-slate-900 rounded-lg flex items-center justify-center">
-                        <SundaeIcon name={mode.icon as SundaeIconName} size="md" className="text-white" />
+                      <div className="w-10 h-10 bg-[#FF5C4D]/10 rounded-lg flex items-center justify-center">
+                        <SundaeIcon name={mode.icon as SundaeIconName} size="md" className="text-[#FF5C4D]" />
                       </div>
                       <span className="text-[10px] font-mono bg-[var(--surface-subtle)] text-[var(--text-muted)] px-2 py-1 rounded">{mode.shortcut}</span>
                     </div>
@@ -508,8 +508,8 @@ export default function ChatWithDataPage() {
               <StaggerItem key={section.title}>
                 <Card variant="elevated" className="h-full">
                   <CardContent className="p-6">
-                    <div className="w-10 h-10 bg-slate-900 rounded-lg flex items-center justify-center mb-4">
-                      <SundaeIcon name={section.icon as SundaeIconName} size="md" className="text-white" />
+                    <div className="w-10 h-10 bg-[#FF5C4D]/10 rounded-lg flex items-center justify-center mb-4">
+                      <SundaeIcon name={section.icon as SundaeIconName} size="md" className="text-[#FF5C4D]" />
                     </div>
                     <h3 className="font-bold text-[var(--text-primary)] mb-3">{section.title}</h3>
                     <ul className="space-y-2">
@@ -540,8 +540,8 @@ export default function ChatWithDataPage() {
               <StaggerItem key={diff.title}>
                 <Card variant="elevated" className="h-full hover:shadow-lg transition-all duration-300">
                   <CardContent className="p-6">
-                    <div className="w-12 h-12 bg-slate-900 rounded-xl flex items-center justify-center mb-4">
-                      <SundaeIcon name={diff.icon as SundaeIconName} size="lg" className="text-white" />
+                    <div className="w-12 h-12 bg-[#FF5C4D]/10 rounded-xl flex items-center justify-center mb-4">
+                      <SundaeIcon name={diff.icon as SundaeIconName} size="lg" className="text-[#FF5C4D]" />
                     </div>
                     <h3 className="font-bold text-[var(--text-primary)] mb-2">{diff.title}</h3>
                     <p className="text-sm text-[var(--text-supporting)] leading-relaxed">{diff.description}</p>

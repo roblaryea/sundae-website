@@ -405,8 +405,8 @@ export default function ArchitecturePage() {
           <StaggerContainer className="grid md:grid-cols-3 gap-10 max-w-5xl mx-auto">
             {ui.steps.map((step) => (
               <StaggerItem key={step.step} className="text-center">
-                <motion.div className="w-24 h-24 bg-slate-900 rounded-2xl flex items-center justify-center text-[var(--text-primary)] mx-auto mb-6 shadow-lg" whileHover={{ scale: 1.1, rotate: 5 }} transition={{ duration: 0.3 }}>
-                  <SundaeIcon name={step.icon as SundaeIconName} size="xl" className="text-[var(--text-primary)]" />
+                <motion.div className="w-24 h-24 bg-[#FF5C4D]/10 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg" whileHover={{ scale: 1.1, rotate: 5 }} transition={{ duration: 0.3 }}>
+                  <SundaeIcon name={step.icon as SundaeIconName} size="xl" className="text-[#FF5C4D]" />
                 </motion.div>
                 <h3 className="text-xl font-bold text-[var(--text-primary)] mb-3">{step.title}</h3>
                 <p className="text-[16px] text-[var(--text-supporting)] leading-[1.65]">{step.description}</p>

@@ -765,8 +765,8 @@ export default function InsightsPage() {
                   transition={{ duration: 0.3, delay: 0.6 + (index * 0.05) }}
                   className="bg-[var(--navy-deep)] rounded-xl p-3 text-center border border-[var(--border-default)] hover:border-white/[0.1] transition-colors"
                 >
-                  <div className="w-9 h-9 mx-auto mb-1.5 bg-slate-900 rounded-lg flex items-center justify-center">
-                    <SundaeIcon name={item.icon} size="sm" className="text-[var(--text-primary)]" />
+                  <div className="w-9 h-9 mx-auto mb-1.5 bg-[#FF5C4D]/10 rounded-lg flex items-center justify-center">
+                    <SundaeIcon name={item.icon} size="sm" className="text-[#FF5C4D]" />
                   </div>
                   <p className="text-[11px] font-medium text-[var(--text-supporting)]">{item.label}</p>
                 </motion.div>
@@ -799,8 +799,8 @@ export default function InsightsPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {whoItsFor.map((persona, index) => (
               <div key={index} className="text-center p-6 rounded-2xl bg-[var(--surface-faint)] border border-[var(--border-default)]">
-                <div className="w-11 h-11 mx-auto mb-3 bg-slate-900 rounded-lg flex items-center justify-center">
-                  <SundaeIcon name={persona.icon} size="md" className="text-[var(--text-primary)]" />
+                <div className="w-11 h-11 mx-auto mb-3 bg-[#FF5C4D]/10 rounded-lg flex items-center justify-center">
+                  <SundaeIcon name={persona.icon} size="md" className="text-[#FF5C4D]" />
                 </div>
                 <h3 className="font-semibold text-[var(--text-primary)] mb-2">{persona.title}</h3>
                 <p className="text-sm text-[var(--text-supporting)]">{persona.description}</p>
@@ -836,8 +836,8 @@ export default function InsightsPage() {
                 className="h-full bg-[var(--navy-deep)] rounded-2xl border border-[var(--border-default)] p-6 hover:border-white/[0.1] transition-colors"
               >
                 <div className="flex items-start justify-between mb-4">
-                  <div className="w-10 h-10 bg-slate-900 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <SundaeIcon name={module.icon} size="md" className="text-[var(--text-primary)]" />
+                  <div className="w-10 h-10 bg-[#FF5C4D]/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <SundaeIcon name={module.icon} size="md" className="text-[#FF5C4D]" />
                   </div>
                   <span className="px-2 py-0.5 text-[10px] font-semibold rounded-full bg-[var(--surface-subtle)] text-[var(--text-supporting)] uppercase tracking-wide">
                     {module.category}
@@ -905,8 +905,8 @@ export default function InsightsPage() {
             <div className="space-y-3">
               {ui.fitItems.map((item, index) => (
                 <div key={item.name} className="flex items-center gap-4 p-4 bg-[var(--navy-deep)] rounded-xl border border-[var(--border-default)]">
-                  <div className="w-10 h-10 bg-slate-900 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <SundaeIcon name={index === 0 ? "pulse" : index === 1 ? "watchtower" : "insights"} size="md" className="text-[var(--text-primary)]" />
+                  <div className="w-10 h-10 bg-[#FF5C4D]/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <SundaeIcon name={index === 0 ? "pulse" : index === 1 ? "watchtower" : "insights"} size="md" className="text-[#FF5C4D]" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-[var(--text-primary)] text-sm">{item.name}</h4>

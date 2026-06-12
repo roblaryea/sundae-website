@@ -57,6 +57,14 @@
   font-optical-sizing: auto;
 }
 
+/* Base heading elements default to the display face too, so any heading that
+   uses raw utility classes (not the section-h or card-title classes) still
+   renders in the display serif and stays consistent with the rest. */
+h1, h2, h3 {
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
+}
+
 @media (min-width: 640px) {
   .hero-h1 { font-size: 42px; }
   .hero-h2 { font-size: 32px; }
